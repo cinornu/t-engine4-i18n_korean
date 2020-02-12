@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dg_grounds32" tilewidth="32" tileheight="32">
+  <image source="gfx/dg_grounds32.gif" width="288" height="640"/>
+  <tile id="9">
+   <properties>
+    <property name="display" value="."/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="display" value="F"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="display" value="_"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="display" value="t"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="display" value="~"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="display" value="^"/>
+   </properties>
+  </tile>
+  <tile id="159">
+   <properties>
+    <property name="display" value="-"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="display" value="*"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="181" name="numbers" tilewidth="32" tileheight="32">
+  <image source="gfx/numbers.png" width="192" height="192"/>
+  <tile id="0">
+   <properties>
+    <property name="display" value="&lt;"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="display" value="2"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="display" value="@"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="display" value="4"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="display" value="5"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="display" value="6"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="display" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="217" name="dg_dungeon32" tilewidth="32" tileheight="32">
+  <image source="gfx/dg_dungeon32.gif" width="288" height="320"/>
+  <tile id="0">
+   <properties>
+    <property name="display" value="#"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Terrain" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmMsNwyAMhnPOCj1kjMzQhZin1wzQZybpNu0BS5blIDABG8ThV1JIwV/+mJebpskNDRnVLJB2zFz8i0CWeDAH3K+kbCHl9HltBuD4/vXw1xmVvfz1zdR9UJk2w5EftCxUZ5Gj5fzALDQ/uLzZybPasccycd+UdoypPKvnAH+0Y8phAT+0Yxkcg8OacJ5rxwLvFY+ZsWOoNT8Ghy0O5+MJ/e6Zw1qet+oH128KR2idWJOB6zOWgzLQvUYNltCZRioHxH9lWEozbAyHZI+HGUBcfYwkHM/MtvB/IP4LwxLbppSjBz8s5oeUg7KE2qwxXuVwuIO+NOaPXI6YNkvM59x3ffZZSy2OW0BaHKnrxNIctfYfvXJsnXCc7UcOfw8c1vK8ph+l548aHFY1OGzJ4rmP1Au8bteOSeIDcNwRR4u+9OAHZtEc91vUD6sE388=
+  </data>
+ </layer>
+</map>

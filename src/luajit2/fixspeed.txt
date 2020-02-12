@@ -1,0 +1,1 @@
+http://repo.or.cz/w/luajit-2.0.git/commit/64dbe7d929cb5c368176ccb967b8909a4af8ede3

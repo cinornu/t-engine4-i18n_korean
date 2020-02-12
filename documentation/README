@@ -1,0 +1,14 @@
+Building
+========
+Building the documentation requires [LDoc](https://github.com/stevedonovan/LDoc)  
+It has a dependency of [Penlight](https://github.com/stevedonovan/Penlight)  
+And optionally you can install [lua-discount](https://github.com/craigbarnes/lua-discount) for better markdown processing of comments  
+
+Both dependencies can be found with luarocks if you have that
+
+Just point ldoc.lua at the directory this README file is contained in and it will handle the rest:
+	t-engine-source $ cd documentation
+	t-engine-source/documentation $ lua /path/to/ldoc.lua .
+
+After building the documentation, it will output into `tengine_doc` one directory below
+You can alter this path by including `-d path` when calling ldoc

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="64" tileheight="64" nextobjectid="6">
+ <properties>
+  <property name="name" value="TMXtest_room"/>
+  <property name="no_tunnels" value="true"/>
+  <property name="border" value="3"/>
+  <property name="rotates" value="{&quot;default&quot;, &quot;flipx&quot;, &quot;flipy&quot;, &quot;90&quot;, &quot;180&quot;, &quot;270&quot;}"/>
+  <property name="map_data" value="{test_data = &quot;This is test data&quot;, level_range = {10, 50}}"/>
+  <property name="onplace" value="function(room, zone, level, map, data)
+	game.log([[#PINK#TMXtest onplace function called]])
+	end
+	"/>
+  <property name="prefer_location" value="function(map)
+	game.log([[#PINK#TMXtest prefer_location function called]])
+	return 25, 25
+	end
+	"/>
+   <property name="roomcheck" value="function(room, zone, level, map)
+	game.log([[#PINK#test2 roomcheck function called]])
+	return true
+	end
+	"/>
+  <property name="status_all" value="{no_teleport=true}"/>
+  <property name="unique" value="true"/>
+  <property name="lua" value="game.log([[#PINK#TMXtest lua code executed]]);"/>
+  <property name="lua2" value="[[game.log(&quot;#PINK#TMXtest lua code executed&quot;)]]"/>
+ </properties>
+ <tileset firstgid="1" name="Basic Terrains" tilewidth="64" tileheight="64" tilecount="100">
+  <image source="../../../../../../tiled-maps/gfx/vaults.png" width="640" height="640"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="WATER_WALL"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="id" value="WALL"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="id" value="GLASSWALL"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="id" value="LAVA_WALL"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="id" value="LAVA"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="id" value="FLOOR"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="id" value="OLD_FLOOR"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="id" value="LAVA_FLOOR"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="id" value="DOOR_VAULT"/>
+    <property name="start2" value=""/>
+	<property name="open" value=""/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="id" value="DOOR"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="id" value="GLASSDOOR"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="id" value="WATER_FLOOR"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="id" value="WATER_FLOOR_BUBBLE"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="id" value="WATER_WALL"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="id" value="WATER_DOOR"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="id" value="DEEP_WATER"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="id" value="POISON_DEEP_WATER"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="id" value="GENERIC_LEVER_DOOR"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="id" value="GENERIC_LEVER"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="101" name="Trees" tilewidth="64" tileheight="64" tilecount="100">
+  <properties>
+   <property name="load_terrains" value="{&quot;/data/general/grids/forest.lua&quot;, &quot;/data/general/grids/autumn_forest.lua&quot;, &quot;/data/general/grids/snowy_forest.lua&quot;}"/>
+  </properties>
+  <image source="../../../../../../tiled-maps/gfx/vault_trees.png" width="640" height="640"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="GRASS"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="id" value="AUTUMN_GRASS"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="id" value="SNOWY_GRASS"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="id" value="TREE"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="id" value="AUTUMN_TREE"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="id" value="SNOWY_TREE"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="id" value="TREE"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="id" value="HARDAUTUMN_TREE"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="id" value="HARDSNOWY_TREE"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="id" value="ROCK_VAULT"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="201" name="Loot" tilewidth="64" tileheight="64" tilecount="100">
+  <image source="../../../../../../tiled-maps/gfx/vault_loot.png" width="640" height="640"/>
+  <tile id="0">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=25, type=&quot;money&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=10, type=&quot;money&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="custom" value="{random_filter={tome_mod=&quot;vault&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="custom" value="{random_filter={tome_mod=&quot;gvault&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=10, tome_mod=&quot;vault&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=10, tome_mod=&quot;gvault&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=25, tome_mod=&quot;vault&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=25, tome_mod=&quot;gvault&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="custom" value="{random_filter={tome_mod=&quot;uvault&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=10, tome_mod=&quot;uvault&quot;}}"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=25, tome_mod=&quot;uvault&quot;}}"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="301" name="NPCs" tilewidth="64" tileheight="64" tilecount="100">
+  <image source="../../../../../../tiled-maps/gfx/vault_npc.png" width="640" height="640"/>
+  <tile id="0">
+   <properties>
+    <property name="custom" value="{random_filter={}}"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=10}}"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="custom" value="{random_filter={add_levels=25}}"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="401" name="Trigger" tilewidth="64" tileheight="64" tilecount="100">
+  <image source="../../../../../../tiled-maps/gfx/vault_trigger.png" width="640" height="640"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="GENERIC_TRIGGER_BOOL"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="501" name="Traps" tilewidth="64" tileheight="64" tilecount="100">
+  <image source="../../../../../../tiled-maps/gfx/vault_traps.png" width="640" height="640"/>
+  <tile id="0">
+   <properties>
+    <property name="custom" value="{random_filter={}}"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="601" name="Arbitrary" tilewidth="64" tileheight="64" tilecount="36">
+  <image source="../../../../../../tiled-maps/gfx/vault_numbers.png" width="384" height="384"/>
+ </tileset>
+ <layer name="Terrain" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyt1L0KwjAUhuEEzVQdxdFGewf1lqqrjtrRGzeBBD4+zsmPOLwUS3g4TYLWGGP/1Bo6hIZKce0S2lVa09oezwmVvA2keVuoxRsK3h5q9Y6d87mCJzVX9q/Xk87Xmd/O96p4pfuCzcK77EndoeydqJF+xzUvoU8yMKsY+C6umSic75liz4fO6cnzSRab6HlwPJm2YOEesoczefpe7TwW2tOSh/PdoFYvzyR97yXFJp853hdP1ih4j5R0f9jTQq9mtv6Xv5XY+wLFbUGB
+  </data>
+ </layer>
+ <layer name="Object" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA9OIWGqQWuAPFlMvXexCJ2DYivkmnebSzsG0B8nQj19AAnB6lZowA7uMmAPY1SYt5wAzeQ8EgHAxUGALvuExE=
+  </data>
+ </layer>
+ <layer name="Trap" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxl8ZRxoF6ACYt0DUgfD1LKXmuaNglEwEgAABt0HsQ==
+  </data>
+ </layer>
+ <layer name="Actor" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAt0GXELaePR24oAXQ/6g0Tf1EDDJc4HgxguKcrmP+Q08xo+hncAAAXpQGq
+  </data>
+ </layer>
+ <layer name="Trigger" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AYTGQfaBaNgFIyCUUB7AADU9QCT
+  </data>
+ </layer>
+ <objectgroup name="attrs">
+  <object id="1" x="529" y="528" width="39" height="36">
+   <properties>
+    <property name="lever" value="1"/>
+    <property name="lever_kind" value="&quot;foobar&quot;"/>
+   </properties>
+  </object>
+  <object id="2" x="582" y="393" width="49" height="46">
+   <properties>
+    <property name="lever_action_kind" value="&quot;foobar&quot;"/>
+    <property name="lever_toggle" value="true"/>
+   </properties>
+  </object>
+  <object id="4" x="335" y="271" width="39" height="36">
+   <properties>
+    <property name="lever" value="1"/>
+    <property name="lever_kind" value="&quot;lolz&quot;"/>
+    <property name="lever_only_once" value="true"/>
+   </properties>
+  </object>
+  <object id="5" x="264" y="586" width="49" height="46">
+   <properties>
+    <property name="lever_action_kind" value="&quot;lolz&quot;"/>
+    <property name="lever_toggle" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

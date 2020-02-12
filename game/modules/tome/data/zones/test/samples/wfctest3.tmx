@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextobjectid="31">
+ <properties>
+  <property name="status_all" value="{no_teleport=true}"/>
+ </properties>
+ <tileset firstgid="1" name="dg_dungeon32" tilewidth="32" tileheight="32" tilecount="90">
+  <image source="../../../../../../../tiled-maps/gfx/dg_dungeon32.gif" width="288" height="320"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="#"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="id" value="+"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="id" value="#"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="id" value="."/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="id" value="*"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="91" name="tome-terrains" tilewidth="32" tileheight="32" tilecount="144">
+  <image source="../../../../../../../tiled-maps/gfx/tome-terrains.png" width="256" height="576"/>
+ </tileset>
+ <tileset firstgid="235" name="numbers" tilewidth="32" tileheight="32" tilecount="36">
+  <image source="../../../../../../../tiled-maps/gfx/numbers.png" width="192" height="192"/>
+ </tileset>
+ <layer name="Terrain" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOMMGCSdUrg4SJNQObXlLMQNbLiISRzSDGfpg+FiQ2sfZToh/ZDErigFZgNF0M7nQBAEC8Dvc=
+  </data>
+ </layer>
+</map>
