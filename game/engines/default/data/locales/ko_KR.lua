@@ -1,5 +1,5 @@
 locale "ko_KR"
--- COPYsetFlag("ego_always_prefix", true)setFlag("randart_name_rules", {	default2 = {		syllablesStart = "华美, 精致, 神奇, 诡异, 梦幻, 瑰丽, 闪耀, 安静, 命运, 恶意, 和蔼, 生活, 梦境, 魔幻, 呼唤, 奇迹, 强大, 力量, 威严, 破碎, 幸运, 先知, 黑暗, 希望, 漆黑, 未来, 魔力, 地狱, 试炼, 考验, 失败者, 弑神, 无名, 未知, 神经病, 诱人, 迷宫, 长袍, 猎物, 饥饿, 奇葩, 懦弱, 快乐, 冷酷, 炼金 ",		syllablesMiddle = "的",		syllablesEnd = "泪水, 希望, 杀戮者, 叛徒, 明星, 前奏, 祈愿, 伤悲, 幸福, 支架, 符文, 先知者, 预言, 雨滴, 月华, 旅者, 家乡, 思念, 时光, 天才, 自言自语, 热血, 吸血鬼, 增殖, 旧梦, 蝴蝶, 高手, 汗水, 路障, 辘轳, 墨鱼, 青草, 使命, 伤害, 傀儡, 骷髅, 欺骗, 安静, 下盘, 模拟, 强力, 织梦, 护符, 许愿者, 群星, 天堂, 诗人, 哲学家, 神, 空瓶, 灯火, 赞歌, 霜雪, 墨汁, 契约, 太阳, 奥术, 赢家, 尸骨, 芦苇, 蘑菇, 太空, 朱雀, 菊花, 游客, 路口, 枪炮, 符文, 酒杯, 港口, 灾难, 祭坛, 群魔",		rules = "$s$50m$e",	},	default = {		syllablesStart = "华美, 精致, 神奇, 诡异, 梦幻, 瑰丽, 闪耀, 安静, 命运, 恶意, 和蔼, 生活, 梦境, 魔幻, 呼唤, 奇迹, 强大, 力量, 威严, 破碎, 幸运, 先知, 黑暗, 希望, 漆黑, 未来, 魔力, 地狱, 试炼, 考验, 失败者, 弑神, 无名, 未知, 神经病, 诱人, 迷宫, 长袍, 猎物, 饥饿, 奇葩, 懦弱, 快乐, 冷酷, 炼金",		syllablesMiddle = "的",		syllablesEnd = "泪水, 希望, 杀戮者, 叛徒, 明星, 前奏, 祈愿, 伤悲, 幸福, 支架, 符文, 先知者, 预言, 雨滴, 月华, 旅者, 家乡, 思念, 时光, 天才, 自言自语, 热血, 吸血鬼, 增殖, 旧梦, 蝴蝶, 高手, 汗水, 路障, 辘轳, 墨鱼, 青草, 使命, 伤害, 傀儡, 骷髅, 欺骗, 安静, 下盘, 模拟, 强力, 织梦, 护符, 许愿者, 群星, 天堂, 诗人, 哲学家, 神, 空瓶, 灯火, 赞歌, 霜雪, 墨汁, 契约, 太阳, 奥术, 赢家, 尸骨, 芦苇, 蘑菇, 太空, 朱雀, 菊花, 游客, 路口, 枪炮, 符文, 酒杯, 港口, 灾难, 祭坛, 群魔",		rules = "$s$50m$e",	},	fire = {		syllablesStart = "凤凰, 火灾, 大火, 燃烧, 明亮, 枯萎, 灼热, 烫伤, 地狱, 熔岩, 柴堆, 烧焦, 火焰, 闪光, 阴燃, 火炬, 灰烬, 深渊, 太阳, 岩浆, 火炬, 小火龙",		syllablesEnd = "电弧, 毒药, 诱饵, 胆汁, 咬噬, 爆炸, 幸福, 血, 盛开, 屠夫, 模糊, 螺栓, 骨, 孔, 支架, 编织, 钎焊, 开道, 断路, 微风, 爆裂, 使者, 承载, 曲折, 疫病, 破碎, 出世, 黑暗, 明亮, 地穴, 裂纹, 冲突, 骚动, 切割, 铸造, 机械, 疏通, 短跑, 梦想, 勇气, 死亡, 边缘, 嫉妒, 愤怒, 恐惧, 名声, 敌人, 恶魔, 拳头, 戈尔, 伤口, 研磨, 研磨机, 狡诈, 砂砾, 收集, 荣耀, 魅力, 黑客, 黑客, 哈希, 色调, 饥饿, 打猎, 猎手, 愤怒, 偶像, 不朽, 正义, 嘲笑, 果酱, 杀死, 杀手, 亲吻, 业力, 亲属, 国王, 骑士, 武士, 主, 传说, 睫毛, 花边, 夫人, 致残, 标记, 月亮, 主人, 沼泽, 怪物, 可能性, 骨髓, 凡人, 部长, 恶意, 零, 中午, 晚上, 指甲, 近了, 誓言, 秩序, 布泽, 拜, 遗忘, 猛攻, 黑曜石, 珍珠, 帕里, 电力, 先知, 痛苦, 激情, 皮尔斯, 穿孔, 骄傲, 粉碎机, 恐慌, 痛苦, 惩罚, 鲍尔, 淬火, 地震, 采石场, 皇后, 平息, 校长, 快速, 羽毛, 劫掠, 蹂躏, 夷为平地, 剃刀, 咆哮, 愤怒, 种族, 辐射, 掠袭者, 雨, 腐, 赎金, 符文, 统治, 破裂, 令, 反叛, 乌鸦, 河, 开膛手, 开膛手, 岩石, 臭气, 里夫, 解决, 严谨, 撕裂, 猛禽, 光泽, 切片, 切片机, 桅杆, 产卵, 产卵, 幼鹿, 钢, 斯托克, 蛇, 悲伤, 鼠尾草, 股权, 蛇, 剪切, 罪恶, 尖顶, 潜行者, 整形, 鬼魂, 条纹, 裸奔, 看见, 瘢痕, 分裂, 星星, 条纹, 刺, 罢工, 前锋, 眩晕, 太阳, 扫除, 清扫, 斯威夫特, 石材, 接缝, 断绝, 粉碎, 粉碎者, 穗, 主攻手, 刺, 恐怖, 触摸, 潮汐, 激流, 审判, 台风, 泰坦, 记事本, 齿, 叛逆, 挖沟, 污点, 本影, 勇气, 流浪的, 邪恶的, 静脉, 面纱, 毒液, 毒蛇, 跳马, 复仇, 海藻, 沃克, 醒来, 醒来, 战争, 病房, 监狱长, 黄蜂, 哭泣者, 楔形, 行走, 耳语, 野生, 怀尔德, 意志, 风, 翼, 冬天, 线, 一缕, 希望, 女巫, 狼, 灾祸, 枯萎, 凋亡, 蠕虫, 花圈, 值得, 沉船, 夺取, 作家, 命运, 热情, 和风", 		rules = "$s$e", 	},	cold = {		syllablesStart ="霜雪, 冰冻, 雨雪, 冻结, 寒冷, 战栗, 冬季, 暴雪, 冰川, 冻土, 浮冰, 冰雹, 严寒, 雾凇, 云雾, 细雨, 寒潮, 淬火, 杰尼龟", 		syllablesEnd = "电弧, 毒药, 诱饵, 胆汁, 咬噬, 爆炸, 幸福, 血, 盛开, 屠夫, 模糊, 螺栓, 骨, 孔, 支架, 编织, 钎焊, 开道, 断路, 微风, 爆裂, 使者, 承载, 曲折, 疫病, 破碎, 出世, 黑暗, 明亮, 地穴, 裂纹, 冲突, 骚动, 切割, 铸造, 机械, 疏通, 短跑, 梦想, 勇气, 死亡, 边缘, 嫉妒, 愤怒, 恐惧, 名声, 敌人, 恶魔, 拳头, 戈尔, 伤口, 研磨, 研磨机, 狡诈, 砂砾, 收集, 荣耀, 魅力, 黑客, 黑客, 哈希, 色调, 饥饿, 打猎, 猎手, 愤怒, 偶像, 不朽, 正义, 嘲笑, 果酱, 杀死, 杀手, 亲吻, 业力, 亲属, 国王, 骑士, 武士, 主, 传说, 睫毛, 花边, 夫人, 致残, 标记, 月亮, 主人, 沼泽, 怪物, 可能性, 骨髓, 凡人, 部长, 恶意, 零, 中午, 晚上, 指甲, 近了, 誓言, 秩序, 布泽, 拜, 遗忘, 猛攻, 黑曜石, 珍珠, 帕里, 电力, 先知, 痛苦, 激情, 皮尔斯, 穿孔, 骄傲, 粉碎机, 恐慌, 痛苦, 惩罚, 鲍尔, 淬火, 淬火, 地震, 采石场, 皇后, 平息, 校长, 快速, 羽毛, 劫掠, 蹂躏, 夷为平地, 剃刀, 咆哮, 愤怒, 种族, 辐射, 掠袭者, 雨, 腐, 赎金, 符文, 统治, 破裂, 令, 反叛, 乌鸦, 河, 开膛手, 开膛手, 岩石, 臭气, 里夫, 解决, 严谨, 撕裂, 猛禽, 光泽, 切片, 切片机, 桅杆, 产卵, 产卵, 幼鹿, 钢, 斯托克, 蛇, 悲伤, 鼠尾草, 股权, 蛇, 剪切, 罪恶, 尖顶, 潜行者, 整形, 鬼魂, 条纹, 裸奔, 看见, 瘢痕, 分裂, 星星, 条纹, 刺, 罢工, 前锋, 眩晕, 太阳, 扫除, 清扫, 斯威夫特, 石材, 接缝, 断绝, 粉碎, 粉碎者, 穗, 主攻手, 刺, 恐怖, 触摸, 潮汐, 激流, 审判, 台风, 泰坦, 记事本, 齿, 叛逆, 挖沟, 污点, 本影, 勇气, 流浪的, 邪恶的, 静脉, 面纱, 毒液, 毒蛇, 跳马, 复仇, 海藻, 沃克, 醒来, 醒来, 战争, 病房, 监狱长, 黄蜂, 哭泣者, 楔形, 行走, 耳语, 野生, 怀尔德, 意志, 风, 翼, 冬天, 线, 一缕, 希望, 女巫, 狼, 灾祸, 枯萎, 凋亡, 蠕虫, 花圈, 值得, 沉船, 夺取, 作家, 命运, 热情, 和风", 		rules = "$s$e",	},	lightning = {		syllablesStart = "风暴, 暴风雨, 闪电, 电弧, 震撼, 雷电, 电荷, 雷云, 狂风, 大风, 裂纹, 闪光, 火花, 火焰, 爆炸, 天空, 皮卡丘",  		syllablesEnd = "电弧, 毒药, 诱饵, 胆汁, 咬噬, 爆炸, 幸福, 血, 盛开, 屠夫, 模糊, 螺栓, 骨, 孔, 支架, 编织, 钎焊, 开道, 断路, 微风, 爆裂, 使者, 承载, 曲折, 疫病, 破碎, 出世, 黑暗, 明亮, 地穴, 裂纹, 冲突, 骚动, 切割, 铸造, 机械, 疏通, 短跑, 梦想, 勇气, 死亡, 边缘, 嫉妒, 愤怒, 恐惧, 名声, 敌人, 恶魔, 拳头, 戈尔, 伤口, 研磨, 研磨机, 狡诈, 砂砾, 收集, 荣耀, 魅力, 黑客, 黑客, 哈希, 色调, 饥饿, 打猎, 猎手, 愤怒, 偶像, 不朽, 正义, 嘲笑, 果酱, 杀死, 杀手, 亲吻, 业力, 亲属, 国王, 骑士, 武士, 主, 传说, 睫毛, 花边, 夫人, 致残, 标记, 月亮, 主人, 沼泽, 怪物, 可能性, 骨髓, 凡人, 部长, 恶意, 零, 中午, 晚上, 指甲, 近了, 誓言, 秩序, 布泽, 拜, 遗忘, 猛攻, 黑曜石, 珍珠, 帕里, 电力, 先知, 痛苦, 激情, 皮尔斯, 穿孔, 骄傲, 粉碎机, 恐慌, 痛苦, 惩罚, 鲍尔, 淬火, 淬火, 地震, 采石场, 皇后, 平息, 校长, 快速, 羽毛, 劫掠, 蹂躏, 夷为平地, 剃刀, 咆哮, 愤怒, 种族, 辐射, 掠袭者, 雨, 腐, 赎金, 符文, 统治, 破裂, 令, 反叛, 乌鸦, 河, 开膛手, 开膛手, 岩石, 臭气, 里夫, 解决, 严谨, 撕裂, 猛禽, 光泽, 切片, 切片机, 桅杆, 产卵, 产卵, 幼鹿, 钢, 斯托克, 蛇, 悲伤, 鼠尾草, 股权, 蛇, 剪切, 罪恶, 尖顶, 潜行者, 整形, 鬼魂, 条纹, 裸奔, 看见, 瘢痕, 分裂, 星星, 条纹, 刺, 罢工, 前锋, 眩晕, 太阳, 扫除, 清扫, 斯威夫特, 石材, 接缝, 断绝, 粉碎, 粉碎者, 穗, 主攻手, 刺, 恐怖, 触摸, 潮汐, 激流, 审判, 台风, 泰坦, 记事本, 齿, 叛逆, 挖沟, 污点, 本影, 勇气, 流浪的, 邪恶的, 静脉, 面纱, 毒液, 毒蛇, 跳马, 复仇, 海藻, 沃克, 醒来, 醒来, 战争, 病房, 监狱长, 黄蜂, 哭泣者, 楔形, 行走, 耳语, 野生, 怀尔德, 意志, 风, 翼, 冬天, 线, 一缕, 希望, 女巫, 狼, 灾祸, 枯萎, 凋亡, 蠕虫, 花圈, 值得, 沉船, 夺取, 作家, 命运, 热情, 和风", 		rules = "$s$e",  	},	light = {		syllablesStart = "光明, 照耀, 天空, 太阳, 黎明, 晨星, 闪耀, 明亮, 棱镜, 眩光, 闪烁, 中午, 眩光,  致盲, 闪烁, 光彩,  光泽",  		syllablesEnd = "电弧, 毒药, 诱饵, 胆汁, 咬噬, 爆炸, 幸福, 血, 盛开, 屠夫, 模糊, 螺栓, 骨, 孔, 支架, 编织, 钎焊, 开道, 断路, 微风, 爆裂, 使者, 承载, 曲折, 疫病, 破碎, 出世, 黑暗, 明亮, 地穴, 裂纹, 冲突, 骚动, 切割, 铸造, 机械, 疏通, 短跑, 梦想, 勇气, 死亡, 边缘, 嫉妒, 愤怒, 恐惧, 名声, 敌人, 恶魔, 拳头, 戈尔, 伤口, 研磨, 研磨机, 狡诈, 砂砾, 收集, 荣耀, 魅力, 黑客, 黑客, 哈希, 色调, 饥饿, 打猎, 猎手, 愤怒, 偶像, 不朽, 正义, 嘲笑, 果酱, 杀死, 杀手, 亲吻, 业力, 亲属, 国王, 骑士, 武士, 主, 传说, 睫毛, 花边, 夫人, 致残, 标记, 月亮, 主人, 沼泽, 怪物, 可能性, 骨髓, 凡人, 部长, 恶意, 零, 中午, 晚上, 指甲, 近了, 誓言, 秩序, 布泽, 拜, 遗忘, 猛攻, 黑曜石, 珍珠, 帕里, 电力, 先知, 痛苦, 激情, 皮尔斯, 穿孔, 骄傲, 粉碎机, 恐慌, 痛苦, 惩罚, 鲍尔, 淬火, 淬火, 地震, 采石场, 皇后, 平息, 校长, 快速, 羽毛, 劫掠, 蹂躏, 夷为平地, 剃刀, 咆哮, 愤怒, 种族, 辐射, 掠袭者, 雨, 腐, 赎金, 符文, 统治, 破裂, 令, 反叛, 乌鸦, 河, 开膛手, 开膛手, 岩石, 臭气, 里夫, 解决, 严谨, 撕裂, 猛禽, 光泽, 切片, 切片机, 桅杆, 产卵, 产卵, 幼鹿, 钢, 斯托克, 蛇, 悲伤, 鼠尾草, 股权, 蛇, 剪切, 罪恶, 尖顶, 潜行者, 整形, 鬼魂, 条纹, 裸奔, 看见, 瘢痕, 分裂, 星星, 条纹, 刺, 罢工, 前锋, 眩晕, 太阳, 扫除, 清扫, 斯威夫特, 石材, 接缝, 断绝, 粉碎, 粉碎者, 穗, 主攻手, 刺, 恐怖, 触摸, 潮汐, 激流, 审判, 台风, 泰坦, 记事本, 齿, 叛逆, 挖沟, 污点, 本影, 勇气, 流浪的, 邪恶的, 静脉, 面纱, 毒液, 毒蛇, 跳马, 复仇, 海藻, 沃克, 醒来, 醒来, 战争, 病房, 监狱长, 黄蜂, 哭泣者, 楔形, 行走, 耳语, 野生, 怀尔德, 意志, 风, 翼, 冬天, 线, 一缕, 希望, 女巫, 狼, 灾祸, 枯萎, 凋亡, 蠕虫, 花圈, 值得, 沉船, 夺取, 作家, 命运, 热情, 和风", 		rules = "$s$e",	},	dark = {		syllablesStart = "本影, 空虚, 黑暗, 灾祸, 阴沉, 阴影, 黄昏, 黑暗, 烟尘, 沥青, 雾霭, 黑色, 乌木, 阴影, 黑曜石, 乌鸦, 恶魔, 暗淡, 日食, 目盲, 深渊", 		syllablesEnd = "电弧, 毒药, 诱饵, 胆汁, 咬噬, 爆炸, 幸福, 血, 盛开, 屠夫, 模糊, 螺栓, 骨, 孔, 支架, 编织, 钎焊, 开道, 断路, 微风, 爆裂, 使者, 承载, 曲折, 疫病, 破碎, 出世, 黑暗, 明亮, 地穴, 裂纹, 冲突, 骚动, 切割, 铸造, 机械, 疏通, 短跑, 梦想, 勇气, 死亡, 边缘, 嫉妒, 愤怒, 恐惧, 名声, 敌人, 恶魔, 拳头, 戈尔, 伤口, 研磨, 研磨机, 狡诈, 砂砾, 收集, 荣耀, 魅力, 黑客, 黑客, 哈希, 色调, 饥饿, 打猎, 猎手, 愤怒, 偶像, 不朽, 正义, 嘲笑, 果酱, 杀死, 杀手, 亲吻, 业力, 亲属, 国王, 骑士, 武士, 主, 传说, 睫毛, 花边, 夫人, 致残, 标记, 月亮, 主人, 沼泽, 怪物, 可能性, 骨髓, 凡人, 部长, 恶意, 零, 中午, 晚上, 指甲, 近了, 誓言, 秩序, 布泽, 拜, 遗忘, 猛攻, 黑曜石, 珍珠, 帕里, 电力, 先知, 痛苦, 激情, 皮尔斯, 穿孔, 骄傲, 粉碎机, 恐慌, 痛苦, 惩罚, 鲍尔, 淬火, 淬火, 地震, 采石场, 皇后, 平息, 校长, 快速, 羽毛, 劫掠, 蹂躏, 夷为平地, 剃刀, 咆哮, 愤怒, 种族, 辐射, 掠袭者, 雨, 腐, 赎金, 符文, 统治, 破裂, 令, 反叛, 乌鸦, 河, 开膛手, 开膛手, 岩石, 臭气, 里夫, 解决, 严谨, 撕裂, 猛禽, 光泽, 切片, 切片机, 桅杆, 产卵, 产卵, 幼鹿, 钢, 斯托克, 蛇, 悲伤, 鼠尾草, 股权, 蛇, 剪切, 罪恶, 尖顶, 潜行者, 整形, 鬼魂, 条纹, 裸奔, 看见, 瘢痕, 分裂, 星星, 条纹, 刺, 罢工, 前锋, 眩晕, 太阳, 扫除, 清扫, 斯威夫特, 石材, 接缝, 断绝, 粉碎, 粉碎者, 穗, 主攻手, 刺, 恐怖, 触摸, 潮汐, 激流, 审判, 台风, 泰坦, 记事本, 齿, 叛逆, 挖沟, 污点, 本影, 勇气, 流浪的, 邪恶的, 静脉, 面纱, 毒液, 毒蛇, 跳马, 复仇, 海藻, 沃克, 醒来, 醒来, 战争, 病房, 监狱长, 黄蜂, 哭泣者, 楔形, 行走, 耳语, 野生, 怀尔德, 意志, 风, 翼, 冬天, 线, 一缕, 希望, 女巫, 狼, 灾祸, 枯萎, 凋亡, 蠕虫, 花圈, 值得, 沉船, 夺取, 作家, 命运, 热情, 和风", 		rules = "$s$e",	},	nature = {		syllablesStart = "自然, 绿色, 壤土, 地球, 医治, 根系, 生长, 开花, 树皮, 野生, 纯净, 治愈, 洁净, 森林, 微风, 橡木, 柳树, 树, 花, 平衡, 肮脏, 污点, 不死, 邪恶, 哭泣, 瘟疫, 腐败, 污秽, 淤泥, 溃烂, 毒素, 蝎子, 眼镜蛇, 淤泥, 可怜虫, 腐烂, 沼泽, 蜘蛛, 粘液, 病, 黑暗, 囊肿, 可达鸭",		syllablesEnd = "电弧, 毒药, 诱饵, 胆汁, 咬噬, 爆炸, 幸福, 血, 盛开, 屠夫, 模糊, 螺栓, 骨, 孔, 支架, 编织, 钎焊, 开道, 断路, 微风, 爆裂, 使者, 承载, 曲折, 疫病, 破碎, 出世, 黑暗, 明亮, 地穴, 裂纹, 冲突, 骚动, 切割, 铸造, 机械, 疏通, 短跑, 梦想, 勇气, 死亡, 边缘, 嫉妒, 愤怒, 恐惧, 名声, 敌人, 恶魔, 拳头, 戈尔, 伤口, 研磨, 研磨机, 狡诈, 砂砾, 收集, 荣耀, 魅力, 黑客, 黑客, 哈希, 色调, 饥饿, 打猎, 猎手, 愤怒, 偶像, 不朽, 正义, 嘲笑, 果酱, 杀死, 杀手, 亲吻, 业力, 亲属, 国王, 骑士, 武士, 主, 传说, 睫毛, 花边, 夫人, 致残, 标记, 月亮, 主人, 沼泽, 怪物, 可能性, 骨髓, 凡人, 部长, 恶意, 零, 中午, 晚上, 指甲, 近了, 誓言, 秩序, 布泽, 拜, 遗忘, 猛攻, 黑曜石, 珍珠, 帕里, 电力, 先知, 痛苦, 激情, 皮尔斯, 穿孔, 骄傲, 粉碎机, 恐慌, 痛苦, 惩罚, 鲍尔, 淬火, 淬火, 地震, 采石场, 皇后, 平息, 校长, 快速, 羽毛, 劫掠, 蹂躏, 夷为平地, 剃刀, 咆哮, 愤怒, 种族, 辐射, 掠袭者, 雨, 腐, 赎金, 符文, 统治, 破裂, 命令, 反叛, 乌鸦, 河, 开膛手, 开膛手, 岩石, 臭气, 里夫, 解决, 严谨, 撕裂, 猛禽, 光泽, 切片, 切片机, 桅杆, 产卵, 产卵, 幼鹿, 钢, 斯托克, 蛇, 悲伤, 鼠尾草, 股权, 蛇, 剪切, 罪恶, 尖顶, 潜行者, 整形, 鬼魂, 条纹, 裸奔, 看见, 瘢痕, 分裂, 星星, 条纹, 刺, 罢工, 前锋, 眩晕, 太阳, 扫除, 清扫, 斯威夫特, 石材, 接缝, 断绝, 粉碎, 粉碎者, 穗, 主攻手, 刺, 恐怖, 触摸, 潮汐, 激流, 审判, 台风, 泰坦, 记事本, 齿, 叛逆, 挖沟, 污点, 本影, 勇气, 流浪的, 邪恶的, 静脉, 面纱, 毒液, 毒蛇, 跳马, 复仇, 海藻, 沃克, 醒来, 醒来, 战争, 病房, 监狱长, 黄蜂, 哭泣者, 楔形, 行走, 耳语, 野生, 怀尔德, 意志, 风, 翼, 冬天, 线, 一缕, 希望, 女巫, 狼, 灾祸, 枯萎, 凋亡, 蠕虫, 花圈, 值得, 沉船, 夺取, 作家, 命运, 热情, 和风", 		rules = "$s$e",	},})------------------------------------------------
+-- COPYlocal function findJosaType(str)	local length = str:len()		local c1, c2	local c3 = str:lower():byte(length)		local last = 0	if ( length < 3 ) or ( c3 < 128 ) then		--@ 여기오면 일단 한글은 아님		--@ 여기에 숫자나 알파벳인지 검사해서 아니면 마지막 글자 빼고 재귀호출하는 코드 삽입 필요				if ( c3 == '1' or c3 == '7' or c3 == '8' or c3 == 'l' or c3 == 'r' ) then			last = 8 --@ 한글이 아니고, josa2를 사용하지만 '로'가 맞는 경우		elseif ( c3 == '3' or c3 == '6' or c3 == '0' or c3 == 'm' or c3 == 'n' ) then			last = 100 --@ 한글이 아니고, josa2를 사용하는 경우		end  	else --@ 한글로 추정 (정확히는 더 검사가 필요하지만..)		c1 = str:byte(length-2)		c2 = str:byte(length-1)				last = ( (c1-234)*4096 + (c2-128)*64 + (c3-128) - 3072 )%28	end		return lastendlocal function addJosa(str, temp)	local josa1, josa2, index	if temp == 1 or temp == "가" or temp == "이" then		josa1 = "가"		josa2 = "이"		index = 1	elseif temp == 2 or temp == "는" or temp == "은" then		josa1 = "는"		josa2 = "은"		index = 2	elseif temp == 3 or temp == "를" or temp == "을" then		josa1 = "를"		josa2 = "을"		index = 3	elseif temp == 4 or temp == "로" or temp == "으로" then		josa1 = "로"		josa2 = "으로"		index = 4	elseif temp == 5 or temp == "다" or temp == "이다" then		josa1 = "다"		josa2 = "이다"		index = 5	elseif temp == 6 or temp == "와" or temp == "과" then		josa1 = "와"		josa2 = "과"		index = 6	elseif temp == 7 then		josa1 = ""		josa2 = "이"		index = 7	else		if type(temp) == string then return str .. temp		else return str end 	end		local type = findJosaType(str)		if type == 0 or ( index == 4 and type == 8 ) then		return str .. josa1	else		return str .. josa2	endendsetFlag("noun_target_sub", function(str, type, noun)	if type == "#Source#" then		return str:gsub("#Source#", noun):gsub("#Source1#", addJosa(noun, "가")):gsub("#Source2#", addJosa(noun, "는")):gsub("#Source3#", addJosa(noun, "를")):gsub("#Source4#", addJosa(noun, "로")):gsub("#Source5#", addJosa(noun, "다")):gsub("#Source6#", addJosa(noun, "과")):gsub("#Source7#", addJosa(noun, 7))	elseif type == "#source#" then		return str:gsub("#source#", noun):gsub("#source#", addJosa(noun, "가")):gsub("#source2#", addJosa(noun, "는")):gsub("#source3#", addJosa(noun, "를")):gsub("#source4#", addJosa(noun, "로")):gsub("#source5#", addJosa(noun, "다")):gsub("#source6#", addJosa(noun, "과")):gsub("#source7#", addJosa(noun, 7))	elseif type == "#Target#" then		return str:gsub("#Target#", noun):gsub("#Target1#", addJosa(noun, "가")):gsub("#Target2#", addJosa(noun, "는")):gsub("#Target3#", addJosa(noun, "를")):gsub("#Target4#", addJosa(noun, "로")):gsub("#Target5#", addJosa(noun, "다")):gsub("#Target6#", addJosa(noun, "과")):gsub("#Target7#", addJosa(noun, 7))	elseif type == "#target#" then		return str:gsub("#target#", noun):gsub("#target#", addJosa(noun, "가")):gsub("#target2#", addJosa(noun, "는")):gsub("#target3#", addJosa(noun, "를")):gsub("#target4#", addJosa(noun, "로")):gsub("#target5#", addJosa(noun, "다")):gsub("#target6#", addJosa(noun, "과")):gsub("#target7#", addJosa(noun, 7))	elseif type == "@Target@" then		return str:gsub("@Target@", noun):gsub("@Target@", addJosa(noun, "가")):gsub("@Target2@", addJosa(noun, "는")):gsub("@Target3@", addJosa(noun, "를")):gsub("@Target4@", addJosa(noun, "로")):gsub("@Target5@", addJosa(noun, "다")):gsub("@Target6@", addJosa(noun, "과")):gsub("@Target7@", addJosa(noun, 7))	elseif type == "@target@" then		return str:gsub("@target@", noun):gsub("@target@", addJosa(noun, "가")):gsub("@target2@", addJosa(noun, "는")):gsub("@target3@", addJosa(noun, "를")):gsub("@target4@", addJosa(noun, "로")):gsub("@target5@", addJosa(noun, "다")):gsub("@target6@", addJosa(noun, "과")):gsub("@target7@", addJosa(noun, 7))	elseif str == "@playername@" then		return str:gsub("@playername@", noun):gsub("@playername@", addJosa(noun, "가")):gsub("@playername2@", addJosa(noun, "는")):gsub("@playername3@", addJosa(noun, "를")):gsub("@playername4@", addJosa(noun, "로")):gsub("@playername5@", addJosa(noun, "다")):gsub("@playername6@", addJosa(noun, "과")):gsub("@playername7@", addJosa(noun, 7))	elseif type == "@npcname@" then		return str:gsub("@npcname@", noun):gsub("@npcname@", addJosa(noun, "가")):gsub("@npcname2@", addJosa(noun, "는")):gsub("@npcname3@", addJosa(noun, "를")):gsub("@npcname4@", addJosa(noun, "로")):gsub("@npcname5@", addJosa(noun, "다")):gsub("@npcname6@", addJosa(noun, "과")):gsub("@npcname7@", addJosa(noun, 7))	else		return str:gsub(type, noun)	endend)------------------------------------------------
 section "always_merge"
 
 t("3-head", "3-head")
@@ -146,12 +146,14 @@ section "game/addons/tome-items-vault/init.lua"
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/data/chats/items-vault-command-orb-offline.lua"
 
+t("Continue?", "계속합니까?")
 t("[Leave the orb alone]", "[오브를 놔두고 떠난다]")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/data/chats/items-vault-command-orb.lua"
 
+t("Continue?", "계속합니까?")
 t("[Leave the orb alone]", "[오브를 놔두고 떠난다]")
 
 
@@ -210,6 +212,8 @@ section "game/addons/tome-possessors/data/talents/psionic/deep-horror.lua"
 section "game/addons/tome-possessors/data/talents/psionic/possession.lua"
 
 t("none", "없음")
+t("No", "아니오")
+t("Yes", "예")
 
 
 ------------------------------------------------
@@ -327,6 +331,8 @@ t("Shasshhiy'Kaish", "샤쉬히'카이쉬")
 t("Walrog", "왈록")
 t("Harkor'Zun", "하코르'준")
 t("floor", "바닥")
+t("No", "아니오")
+t("Yes", "예")
 
 
 ------------------------------------------------
@@ -359,7 +365,6 @@ t("major", "상위")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -730,6 +735,8 @@ section "game/dlcs/tome-cults/data/general/events/tentacle-tree.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/fonts.lua"
 
+t("No", "아니오")
+t("Yes", "예")
 t("floor", "바닥")
 
 
@@ -834,6 +841,8 @@ t("ladder to worldmap", "지역 밖으로 나가는 사다리")
 section "game/dlcs/tome-cults/data/general/grids/tentacle-tree.lua"
 
 t("floor", "바닥")
+t("No", "아니오")
+t("Yes", "예")
 
 
 ------------------------------------------------
@@ -1250,7 +1259,7 @@ t("halfling", "하플링")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-cultist/objects.lua"
 
-t("name", "g")
+t("name", "의 퀘스트 기록")
 
 
 ------------------------------------------------
@@ -1277,7 +1286,7 @@ t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "토끼를 죽�
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/objects.lua"
 
-t("name", "g")
+t("name", "의 퀘스트 기록")
 
 
 ------------------------------------------------
@@ -1291,6 +1300,7 @@ section "game/dlcs/tome-cults/data/zones/ft-home/grids.lua"
 t("floor", "바닥")
 t("horror", "공포")
 t("wall", "벽")
+t("No", "아니오")
 t("void", "공허")
 
 
@@ -1611,6 +1621,7 @@ section "game/dlcs/tome-cults/overload/mod/class/CultsDLC.lua"
 section "game/dlcs/tome-cults/overload/mod/dialogs/EntropicWormhole.lua"
 
 t("Player", "플레이어")
+t("Status", "상태")
 
 
 ------------------------------------------------
@@ -1624,7 +1635,6 @@ t("Name", "이름")
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
 
-t("", "기본 속도의 ")
 t("Cancel", "취소")
 
 
@@ -1651,19 +1661,16 @@ section "game/dlcs/tome-cults/superload/mod/dialogs/Birther.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyGrandOration.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyRevelation.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyTwofoldCurse.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -2366,7 +2373,6 @@ t("Far East", "동대륙")
 section "game/dlcs/tome-orcs/data/quests/amakthel.lua"
 
 t("Winner", "승리자")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -2382,13 +2388,11 @@ section "game/dlcs/tome-orcs/data/quests/destroy-sunwall.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/free-prides.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/gem.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -2399,13 +2403,11 @@ section "game/dlcs/tome-orcs/data/quests/kaltor-shop.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/kill-dominion.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/krimbul.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -2416,7 +2418,6 @@ section "game/dlcs/tome-orcs/data/quests/kruk-invasion.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/palace.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -2427,7 +2428,6 @@ section "game/dlcs/tome-orcs/data/quests/quarry.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/ritch-hive.lua"
 
-t("", "기본 속도의 ")
 t("You cannot bring yourself to drop the %s", "당신은 %s 버릴 수 없습니다")
 
 
@@ -2439,7 +2439,6 @@ section "game/dlcs/tome-orcs/data/quests/start-orc.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/sunwall-observatory.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -2455,13 +2454,11 @@ section "game/dlcs/tome-orcs/data/quests/voyage.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/weissi.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/yeti-abduction.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -2479,7 +2476,6 @@ section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua"
 
 t("Cosmic", "우주")
 t("Reflection", "반사")
-t("", "기본 속도의 ")
 t("Void", "공허")
 t("celestial", "천공의 사도")
 
@@ -3572,6 +3568,7 @@ section "game/dlcs/tome-orcs/overload/data/texts/unlock-wyrmic_undead.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
 
+t("Steam", "스팀")
 t("She looks tired and wounded.", "그녀는 지쳤으며, 부상 당한 상태입니다.")
 t("I've changed my mind.", "생각이 바뀌었습니다.")
 t("Which kind of item would you like ?", "어떤 종류의 장비를 원하시는지요?")
@@ -3594,7 +3591,8 @@ section "game/dlcs/tome-orcs/overload/mod/class/interface/PartyTinker.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/dialogs/CreateTinker.lua"
 
-t("", "기본 속도의 ")
+t("Status", "상태")
+t("Requires:", "필요 조건 : ")
 
 
 ------------------------------------------------
@@ -3691,15 +3689,65 @@ section "game/engines/default/data/keybinds/mtxn.lua"
 
 
 ------------------------------------------------
+section "game/engines/default/engine/Actor.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/engine/ActorsSeenDisplay.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Astar.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Autolevel.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/BSP.lua"
 
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Birther.lua"
 
+t("Enter your character's name", "캐릭터의 이름을 입력하세요")
 t("Name", "이름")
-t("", "기본 속도의 ")
+t("Do you want to recreate the same character?", "기존의 같은 캐릭터로 다시 시작하길 원하십니까?")
+t("Quick Birth", "빠른 생성")
+t("New character", "새 캐릭터")
+t("Recreate", "기존 캐릭터")
+t("Randomly selected %s.", "무작위 선택으로 %s 선택되었습니다.")
+
+
+------------------------------------------------
+section "game/engines/default/engine/Calendar.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/CharacterBallSave.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/CharacterVaultSave.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Chat.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/DamageType.lua"
+
 
 
 ------------------------------------------------
@@ -3710,10 +3758,83 @@ section "game/engines/default/engine/DebugConsole.lua"
 ------------------------------------------------
 section "game/engines/default/engine/Dialog.lua"
 
+t("Yes", "예")
+t("No", "아니오")
+
+
+------------------------------------------------
+section "game/engines/default/engine/DirectPath.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Emote.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Entity.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Faction.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/FlyingText.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/FontPackage.lua"
+
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Game.lua"
+
+t("Screenshot taken!", "스크린샷 저장!")
+
+
+------------------------------------------------
+section "game/engines/default/engine/GameEnergyBased.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/GameTurnBased.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Generator.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Grid.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Heightmap.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/HighScores.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/HotkeysDisplay.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/HotkeysIconsDisplay.lua"
 
 
 
@@ -3728,9 +3849,39 @@ section "game/engines/default/engine/Key.lua"
 
 
 ------------------------------------------------
+section "game/engines/default/engine/KeyBind.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/KeyCommand.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Level.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/engine/LogDisplay.lua"
 
 t("Message Log", "메세지 기록")
+
+
+------------------------------------------------
+section "game/engines/default/engine/LogFlasher.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Map.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/MapEffect.lua"
+
 
 
 ------------------------------------------------
@@ -3749,12 +3900,41 @@ section "game/engines/default/engine/Mouse.lua"
 
 
 ------------------------------------------------
+section "game/engines/default/engine/NameGenerator.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/NameGenerator2.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/engine/Object.lua"
+
+t("Requires:", "필요 조건 : ")
+t("Level %d", "레벨 %d")
+t("Talent %s (level %d)", "%s 기술 (레벨 %d)")
+t("Talent %s", "%s 기술")
+
+
+------------------------------------------------
+section "game/engines/default/engine/Particles.lua"
 
 
 
 ------------------------------------------------
 section "game/engines/default/engine/PlayerProfile.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Projectile.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Quadratic.lua"
 
 
 
@@ -3770,37 +3950,90 @@ t("failed", "실패")
 ------------------------------------------------
 section "game/engines/default/engine/Savefile.lua"
 
-t("Loading level", "지역을 불러들이는 중")
-t("Please wait while loading the level...", "불러들이는 중입니다. 잠시만 기다려주세요...")
+t("Please wait while saving the world...", "세계를 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving world", "세계 저장중")
+t("Please wait while saving the game...", "게임을 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving game", "게임 저장중")
+t("Please wait while saving the zone...", "지역을 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving zone", "지역 저장중")
+t("Please wait while saving the level...", "현재층을 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving level", "현재층 저장중")
+t("Please wait while saving the entity...", "존재를 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving entity", "존재 저장중")
+t("Loading world", "세계 불러오는 중")
+t("Please wait while loading the world...", "세계를 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading game", "게임 불러오는 중")
+t("Please wait while loading the game...", "게임을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading zone", "지역 불러오는 중")
+t("Please wait while loading the zone...", "지역을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading level", "현재층 불러오는 중")
+t("Please wait while loading the level...", "현재층을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading entity", "존재 불러오는 중")
+t("Please wait while loading the entity...", "존재를  불러오는 동안 잠시 기다려 주십시오...")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/SavefilePipe.lua"
+
+t("Saving done.", "저장 완료.")
+t("Please wait while saving...", "저장하는 동안 기다려 주십시오...")
+t("Saving...", "저장중...")
+
+
+------------------------------------------------
+section "game/engines/default/engine/Shader.lua"
 
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Store.lua"
 
+t("Buy %d %s", "%d %s 구입")
 t("Buy", "구입")
+t("Sell %d %s", "%d %s 판매")
 t("Cancel", "취소")
 t("Sell", "판매")
 
 
 ------------------------------------------------
-section "game/engines/default/engine/Trap.lua"
+section "game/engines/default/engine/Target.lua"
 
 
 
 ------------------------------------------------
+section "game/engines/default/engine/Tiles.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Tooltip.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/Trap.lua"
+
+t("%s fails to disarm a trap (%s).", "%s %s 함정을 해제하는데 실패했습니다.")
+t("%s disarms a trap (%s).", "%s %s 함정을 해제하였습니다.")
+t("%s triggers a trap (%s)!", "%s 함정 (%s) 을 발동시켰습니다!")
+
+
+------------------------------------------------
 section "game/engines/default/engine/UserChat.lua"
+
+t("Error", "오류")
+
+
+------------------------------------------------
+section "game/engines/default/engine/World.lua"
 
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Zone.lua"
 
-t("Loading level", "지역을 불러들이는 중")
+t("Loading level", "현재층 불러오는 중")
+t("Generating level", "현재층 생성 중")
 
 
 ------------------------------------------------
@@ -3809,18 +4042,42 @@ section "game/engines/default/engine/ai/talented.lua"
 
 
 ------------------------------------------------
+section "game/engines/default/engine/class.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/colors.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/engine/dialogs/AudioOptions.lua"
 
+t("Audio Options", "소리 설정")
+t("Enable audio", "소리 사용")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ChatChannels.lua"
 
+t("Chat channels", "대화창 채널")
+t("Global", "전세계")
+t(" [spoilers]", " [스포일러]")
+t("Select which channels to listen to. You can join new channels by typing '/join <channelname>' in the talkbox and leave channels by typing '/part <channelname>'", "이야기를 들을 채널을 선택합니다. 새로운 채널에 참가하려면 '/join <채널이름>'를 대화창에 입력하시고, 채널에서 나가려면 '/part <channelname>'를 입력하세요.")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ChatFilter.lua"
 
+t("Chat filters", "보여줄 대화 메세지")
+t("Public chat", "공개적 대화")
+t("Private whispers", "개인적 귓속말")
+t("Join/part messages", "메세지 참가")
+t("First time achievements (recommended to keep them on)", "최초로 획득한 도전과제 (항상 보는 것을 추천합니다)")
+t("Important achievements (recommended to keep them on)", "중요한 도전과제 (항상 보는 것을 추천합니다)")
+t("Other achievements", "기타 도전과제")
+t("Select which types of chat events to see or not.", "보거나 보지 않을 메세지를 선택하세요.")
 
 
 ------------------------------------------------
@@ -3831,6 +4088,15 @@ section "game/engines/default/engine/dialogs/ChatIgnores.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/DisplayResolution.lua"
 
+t("Switch Resolution", "해상도 변경")
+t("Engine Restart Required", "엔진의 재시작이 필요합니다")
+t(" (progress will be saved)", " (게임 진행 상황은 저장됩니다)")
+t("Reset Window Position?", "창 위치를 초기화 합니까?")
+t("Simply restart or restart+reset window position?", "재시작만 할까요, 아니면 재시작을 하면서 창의 위치도 초기화할까요?")
+t("Restart", "재시작")
+t("Restart with reset", "재시작 + 창 위치 초기화")
+t("No", "아니오")
+t("Yes", "예")
 
 
 ------------------------------------------------
@@ -3842,26 +4108,65 @@ t("Cancel", "취소")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GameMenu.lua"
 
-t("Show Achievements", "업적 보기")
+t("Game Menu", "게임 메뉴")
+t("Resume", "게임 계속하기")
+t("Key Bindings", "명령어 입력 설정")
+t("Video Options", "화면 설정")
+t("Display Resolution", "화면 해상도 설정")
+t("Show Achievements", "달성한 업적 보기")
+t("Audio Options", "소리 설정")
+t("#GREY#Developer Mode", "#GREY#개발자 상태")
+t("Disable developer mode?", "개발자 상태를 비활성화 하겠습니까?")
+t("Developer Mode", "개발자 상태")
+t([[Enable developer mode?
+Developer Mode is a special game mode used to debug and create addons.
+Using it will #CRIMSON#invalidate#LAST# any savefiles loaded.
+When activated you will have access to special commands:
+- CTRL+L: bring up a lua console that lets you explore and alter all the game objects, enter arbitrary lua commands, ...
+- CTRL+A: bring up a menu to easily do many tasks (create NPCs, teleport to zones, ...)
+- CTRL+left click: teleport to the clicked location
+]], [[개발자 상태를 활성화 하겠습니까?
+(개발자 관련 부분들은 한글화하지 않습니다.)
+Developer Mode is a special game mode used to debug and create addons.
+Using it will #CRIMSON#invalidate#LAST# any savefiles loaded.
+When activated you will have access to special commands:
+- CTRL+L: bring up a lua console that lets you explore and alter all the game objects, enter arbitrary lua commands, ...
+- CTRL+A: bring up a menu to easily do many tasks (create NPCs, teleport to zones, ...)
+- CTRL+left click: teleport to the clicked location
+]])
+t("No", "아니오")
+t("Yes", "예")
+t("Save Game", "저장하기")
+t("Main Menu", "메인 메뉴로 나가기")
+t("Exit Game", "게임 끝내기")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetQuantity.lua"
 
+t("Quantity", "수량")
+t("Accept", "확인")
 t("Cancel", "취소")
+t("Enter a quantity.", "수량을 입력하세요.")
+t("Error", "오류")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetQuantitySlider.lua"
 
+t("Quantity", "수량")
+t("Accept", "확인")
 t("Cancel", "취소")
+t("Enter a quantity.", "수량을 입력하세요.")
+t("Error", "오류")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetText.lua"
 
-t("", "기본 속도의 ")
+t("Accept", "확인")
 t("Cancel", "취소")
+t("Error", "오류")
 
 
 ------------------------------------------------
@@ -3872,55 +4177,76 @@ section "game/engines/default/engine/dialogs/KeyBinder.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowAchievements.lua"
 
-t("", "기본 속도의 ")
+t("Yours only", "현재 캐릭터가 달성")
+t("All achieved", "모든 캐릭터가 달성")
+t("Everything", "모든 도전과제")
+t("Achievement", "업적")
+t("Category", "종류")
+t("When", "달성시기")
+t("Who", "달성자")
+t([[#GOLD#Also achieved by your current character#LAST#
+]], [[#GOLD#현재 캐릭터도 달성했습니다.#LAST#
+]])
+t("Progress: ", "진행정도: ")
 t("???", "알 수 없는")
+t("-- Unknown --", "-- 알 수 없음 --")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowEquipInven.lua"
 
-t("Inventory", "소지품 목록")
-t("", "기본 속도의 ")
+t("Inventory", "소지품")
+t("Category", "종류")
+t("Enc.", "무게")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowEquipment.lua"
 
-t("", "기본 속도의 ")
+t("Category", "종류")
+t("Enc.", "무게")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowErrorStack.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowInventory.lua"
 
-t("", "기본 속도의 ")
-t("Inventory", "소지품 목록")
+t("Inventory", "소지품")
+t("Category", "종류")
+t("Enc.", "무게")
+
+
+------------------------------------------------
+section "game/engines/default/engine/dialogs/ShowLog.lua"
+
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowPickupFloor.lua"
 
-t("Pickup", "물건 줍기")
-t("", "기본 속도의 ")
+t("Pickup", "줍기")
+t("(*) Take all", "(*) 모두 줍기")
 t("Item", "물건")
+t("Category", "종류")
+t("Enc.", "무게")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowQuests.lua"
 
-t("Quest", "last-hope-graveyard-")
+t("Quest", "퀘스트")
+t("Status", "상태")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowStore.lua"
 
-t("Inventory", "소지품 목록")
-t("", "기본 속도의 ")
+t("Inventory", "소지품")
+t("Category", "종류")
 
 
 ------------------------------------------------
@@ -3931,13 +4257,35 @@ section "game/engines/default/engine/dialogs/ShowText.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/SteamOptions.lua"
 
-t("", "기본 속도의 ")
+t("Steam Options", "스팀 설정")
+t([[Enable Steam Cloud saves.
+Your saves will be put on steam cloud and always be available everywhere.
+Disable if you have bandwidth limitations.#WHITE#]], [[스팀 클라우드 저장 사용
+스팀 클라우드 서비스를 사용해서, 어디서나 세이브 파일을 불러올 수 있게 됩니다.
+종량제 등으로 인해 인터넷 사용량에 한계가 있다면, 설정을 바꾸세요.#WHITE#
+
+Enable Steam Cloud saves.
+Your saves will be put on steam cloud and always be available everywhere.
+Disable if you have bandwidth limitations.#WHITE#]])
+t("#GOLD##{bold}#Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#스팀 클라우드 저장#WHITE##{normal}#")
+t("disabled", "사용하지 않음")
+t("enabled", "사용")
+t([[Purge all Steam Cloud saves.
+This will remove all saves from the cloud cloud (but not your local copy). Only use if you somehow encounter storage problems on it (which should not happen, the game automatically manages it for you).#WHITE#]], [[스팀 클라우드 저장 초기화
+스팀 클라우드에 있는 모든 세이브 파일을 삭제합니다. (자신의 컴퓨터에 저장된 세이브 파일은 삭제되지 않습니다) 스팀 클라우드 저장에 문제가 있을 경우에만 사용하세요. (보통은 게임이 자동적으로 설정을 해줍니다)#WHITE#
+
+Purge all Steam Cloud saves.
+This will remove all saves from the cloud cloud (but not your local copy). Only use if you somehow encounter storage problems on it (which should not happen, the game automatically manages it for you).#WHITE#]])
+t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우드 저장 초기화#WHITE##{normal}#")
+t("Confirm purge?", "정말로 초기화합니까?")
+t("All data purged from the cloud.", "클라우드에 있는 모든 세이브 파일이 삭제되었습니다.")
+t("Steam Cloud Purge", "스팀 클라우드 초기화")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/Talkbox.lua"
 
-t("", "기본 속도의 ")
+t("Accept", "확인")
 t("Cancel", "취소")
 t("Target: ", "목표: ")
 
@@ -3945,7 +4293,7 @@ t("Target: ", "목표: ")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/UseTalents.lua"
 
-t("", "기본 속도의 ")
+t("Status", "상태")
 
 
 ------------------------------------------------
@@ -3956,13 +4304,167 @@ section "game/engines/default/engine/dialogs/UserInfo.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/VideoOptions.lua"
 
-t("", "기본 속도의 ")
-t("From 0 to 100", "0에서 100까지")
+t("Video Options", "화면 설정")
+t("Display resolution.", [[화면의 해상도를 설정합니다.
+
+Display resolution.]])
+t("#GOLD##{bold}#Resolution#WHITE##{normal}#", "#GOLD##{bold}#해상도 설정#WHITE##{normal}#")
+t([[Request this display refresh rate.
+Set it lower to reduce CPU load, higher to increase interface responsiveness.#WHITE#]], [[화면의 재생 빈도를 설정합니다.
+이 수치가 낮으면 CPU의 부하가 적게 걸리고, 높으면 게임의 반응 속도가 좋아집니다.
+
+Request this display refresh rate.
+Set it lower to reduce CPU load, higher to increase interface responsiveness.#WHITE#]])
+t("#GOLD##{bold}#Requested FPS#WHITE##{normal}#", "#GOLD##{bold}#FPS 설정#WHITE##{normal}#")
+t("From 5 to 60", "5 에서 60 사이")
+t([[Controls the particle effects density.
+This option allows to change the density of the many particle effects in the game.
+If the game is slow when displaying spell effects try to lower this setting.#WHITE#]], [[입자 효과의 밀도를 결정합니다.
+이 설정은 게임 내부의 여러가지 입자 효과들이 얼마나 자세하게 표현될지를 결정합니다.
+주문 효과 등의 표현시 게임이 너무 느려진다면 이 설정치를 낮추세요.
+
+Controls the particle effects density.
+This option allows to change the density of the many particle effects in the game.
+If the game is slow when displaying spell effects try to lower this setting.#WHITE#]])
+t("#GOLD##{bold}#Particle effects density#WHITE##{normal}#", "#GOLD##{bold}#입자 효과 밀도#WHITE##{normal}#")
+t("Enter density", "밀도를 입력하시오")
+t("From 0 to 100", "0 에서 100 사이")
+t([[Activates antialiased texts.
+Texts will look nicer but it can be slower on some computers.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[글자들을 매끄럽게 보여줄지 결정합니다.
+글자들이 보기 좋아지지만, 게임 속도가 조금 느려질 수 있습니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates antialiased texts.
+Texts will look nicer but it can be slower on some computers.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#Antialiased texts#WHITE##{normal}#", "#GOLD##{bold}#부드러운 글자#WHITE##{normal}#")
+t([[Activates framebuffers.
+This option allows for some special graphical effects.
+If you encounter weird graphical glitches try to disable it.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[화면의 프레임 버퍼를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 화면 효과를 볼 수 있습니다.
+만약 화면에 이상한 변화나 에러(glitch)가 발생한다면 이 설정을 '사용하지 않음' 으로 바꿔보십시오.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates framebuffers.
+This option allows for some special graphical effects.
+If you encounter weird graphical glitches try to disable it.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#Framebuffers#WHITE##{normal}#", "#GOLD##{bold}#프레임버퍼#WHITE##{normal}#")
+t([[Activates OpenGL Shaders.
+This option allows for some special graphical effects.
+If you encounter weird graphical glitches try to disable it.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[OpenGL의 그림자 효과를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 화면 효과를 볼 수 있습니다.
+만약 화면이 이상한 변화나 에러(glitch)가 발생한다면 이 설정을 '사용하지 않음' 으로 바꿔보십시오.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates OpenGL Shaders.
+This option allows for some special graphical effects.
+If you encounter weird graphical glitches try to disable it.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#OpenGL Shaders#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 그림자효과#WHITE##{normal}#")
+t([[Activates advanced shaders.
+This option allows for advanced effects (like water surfaces, ...). Disabling it can improve performance.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[고급 그림자 효과를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 고급 화면 효과(물 표면 효과 등)를 볼 수 있습니다. 사용하지 않으면 게임 속도가 빨라집니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates advanced shaders.
+This option allows for advanced effects (like water surfaces, ...). Disabling it can improve performance.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#OpenGL Shaders: Advanced#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 고급 그림자효과#WHITE##{normal}#")
+t([[Activates distorting shaders.
+This option allows for distortion effects (like spell effects doing a visual distortion, ...). Disabling it can improve performance.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[왜곡 그림자 효과를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 화면 왜곡 효과(마법에 의한 시야 왜곡 효과 등)를 볼 수 있습니다. 사용하지 않으면 게임 속도가 빨라집니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates distorting shaders.
+This option allows for distortion effects (like spell effects doing a visual distortion, ...). Disabling it can improve performance.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#OpenGL Shaders: Distortions#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 왜곡 그림자효과#WHITE##{normal}#")
+t([[Activates volumetric shaders.
+This option allows for volumetricion effects (like deep starfields). Enabling it will severely reduce performance when shaders are displayed.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[굴곡 그림자 효과를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 굴곡 화면 효과(별자리 효과 등)를 볼 수 있습니다. 사용시 특정 장면에서 게임 속도가 많이 느려질 수 있습니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates volumetric shaders.
+This option allows for volumetricion effects (like deep starfields). Enabling it will severely reduce performance when shaders are displayed.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#OpenGL Shaders: Volumetric#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 굴곡 그림자효과#WHITE##{normal}#")
+t([[Use the custom cursor.
+Disabling it will use your normal operating system cursor.#WHITE#]], [[게임에서 제공하는 마우스 커서를 사용할지 결정합니다.
+사용하지 않으면 운영체제에서 제공하는 마우스 커서가 사용됩니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Use the custom cursor.
+Disabling it will use your normal operating system cursor.#WHITE#]])
+t("#GOLD##{bold}#Mouse cursor#WHITE##{normal}#", "#GOLD##{bold}#마우스 커서#WHITE##{normal}#")
+t([[Gamma correction setting.
+Increase this to get a brighter display.#WHITE#]], [[감마 보정값을 설정합니다.
+밝은 화면을 원한다면, 높은 값으로 설정하세요.
+
+Gamma correction setting.
+Increase this to get a brighter display.#WHITE#]])
+t("#GOLD##{bold}#Gamma correction#WHITE##{normal}#", "#GOLD##{bold}#감마 보정값 설정#WHITE##{normal}#")
+t("From 50 to 300", "50 에서 300 사이")
+t("Gamma correction", "감마 보정값 설정")
+t("disabled", "사용하지 않음")
+t("enabled", "사용")
+t([[Request a specific origin point for the game window.
+This point corresponds to where the upper left corner of the window will be located.
+Useful when dealing with multiple monitors and borderless windows.
+
+The default origin is (0,0).
+
+Note: This value will automatically revert after ten seconds if not confirmed by the user.#WHITE#]], [[윈도우 화면 내에서 게임 창이 표시되는 위치를 고정시킵니다.
+결과값으로 나타나는 숫자는, 윈도우 화면의 가장 왼쪽 위 지점에서 얼마나 떨어지는지를 나타냅니다.
+여러 개의 모니터를 사용하거나, 게임 창의 경계를 없애고 사용할 경우에 유용합니다.
+기본 값은 (0,0) 입니다.
+참고 : 값을 설정할 때 10 초 이상 확인 버튼을 누르지 않을 경우, 자동으로 설정이 취소됩니다.
+
+Request a specific origin point for the game window.
+This point corresponds to where the upper left corner of the window will be located.
+Useful when dealing with multiple monitors and borderless windows.
+
+The default origin is (0,0).
+
+Note: This value will automatically revert after ten seconds if not confirmed by the user.#WHITE#]])
+t("#GOLD##{bold}#Requested Window Position#WHITE##{normal}#", "#GOLD##{bold}#게임 창의 표시 위치 고정#WHITE##{normal}#")
+t("Enter the x-coordinate", "X축(가로) 값을 입력하세요")
+t("Window Origin: X-Coordinate", "X축 값 설정")
+t("Enter the y-coordinate", "Y축(세로) 값을 입력하세요.")
+t("Window Origin: Y-Coordinate", "Y축 값 설정")
+t("Position changed.", "위치 변경")
+t("Save position?", "변경된 위치를 저장하시겠습니까?")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ViewHighScores.lua"
 
+t("High Scores", "고득점 기록")
 
 
 ------------------------------------------------
@@ -3984,12 +4486,44 @@ t("Name", "이름")
 
 
 ------------------------------------------------
+section "game/engines/default/engine/init.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ActorAI.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ActorFOV.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/engine/interface/ActorInventory.lua"
 
+t("%s has no room for: %s.", "공간이 부족하여, %s %s 줍지 못했습니다.")
+t("There is nothing to pick up here.", "여기에는 주울 것이 없습니다.")
+t("There is nothing to drop.", "버릴 것이 없습니다.")
+t("%s drops on the floor: %s.", "%s %s 바닥에 버립니다.")
+t("wrong equipment slot", "잘못된 장비 슬롯")
 t("not enough stat", "능력치 부족")
-t("not enough levels", "낮은 레벨")
-t("missing dependency", "선행조건 불만족")
-t("%s wears: %s.", "%s %s 장비했습니다.")
+t("not enough levels", "레벨 부족")
+t("missing dependency", "조건 불충족")
+t("cannot use currently due to an other worn object", "해당 부위에 이미 착용한 장비가 있음")
+t("%s is not wearable.", "%s 착용할 수 없습니다.")
+t("%s can not wear %s.", "%s %s 착용할 수 없습니다.")
+t("%s wears: %s.", "%s %s 착용합니다.")
+t("%s wears (offslot): %s.", "%s %s 착용합니다 (보조장비).")
+t("%s can not wear (%s): %s (%s).", "%s %s 착용할 수 없습니다: (%s).")
+t("%s wears (replacing %s): %s.", "%s %s 착용합니다 (교체)")
+t("%s can not wear: %s.", "%s %s 착용할 수 없습니다.")
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ActorLevel.lua"
+
 
 
 ------------------------------------------------
@@ -3999,20 +4533,79 @@ t("something", "무엇인가")
 
 
 ------------------------------------------------
+section "game/engines/default/engine/interface/ActorProject.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ActorQuest.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ActorResource.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ActorStats.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/engine/interface/ActorTalents.lua"
 
+t("%s is still on cooldown for %d turns.", "%s 아직 대기 시간이 %d 턴 만큼 남아있습니다.")
+t("Talent Use Confirmation", "기술 사용 확인")
+t("Use %s?", "%s 사용합니까?")
 t("Cancel", "취소")
+t("Continue", "계속")
 t("unknown", "알 수 없음")
 t("%s uses %s.", "%s %s 사용했습니다.")
-t("not enough levels", "낮은 레벨")
-t("missing dependency", "선행조건 불만족")
+t("not enough levels", "레벨 부족")
+t("missing dependency", "조건 불충족")
 t("unknown talent type", "알 수 없는 기술 종류")
 t("not enough talents of this type known", "알고 있는 같은 종류의 기술 갯수 부족")
+t("- Lower talents of the same category: %d", "- 같은 계열의 기술: %d")
+t("- Level %d", "- 레벨 %d")
+t("- Talent %s (not known)", [[- %s 기술 (모름)
+]])
+t("- Talent %s (%d)", [[- %s 기술 (%d)
+]])
+t("- Talent %s", [[- %s 기술
+]])
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ActorTemporaryEffects.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/BloodyDeath.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ControlCursorSupport.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/GameMusic.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/GameSound.lua"
+
 
 
 ------------------------------------------------
 section "game/engines/default/engine/interface/GameTargeting.lua"
 
+t("No", "아니오")
+t("Yes", "예")
 
 
 ------------------------------------------------
@@ -4020,6 +4613,16 @@ section "game/engines/default/engine/interface/ObjectActivable.lua"
 
 t("It can be used to %s, with %d charges out of %d.", "사용처 : %s (현재 충전량/최대 충전량 : %d/%d).")
 t("It can be used to %s, costing %d power out of %d/%d.", "사용처 : %s (소모량 %d, 현재 충전량/최대 충전량 : %d/%d).")
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/ObjectIdentify.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/interface/PlayerDumpJSON.lua"
+
 
 
 ------------------------------------------------
@@ -4053,14 +4656,81 @@ t("Running...", "달리는 중...")
 
 
 ------------------------------------------------
+section "game/engines/default/engine/interface/PlayerSlide.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/engine/interface/WorldAchievements.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/resolvers.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/ActorFrame.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Base.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Button.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/ButtonImage.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Checkbox.lua"
 
 
 
 ------------------------------------------------
 section "game/engines/default/engine/ui/Dialog.lua"
 
+t("Yes", "예")
+t("No", "아니오")
 t("Cancel", "취소")
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Dropdown.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Empty.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/EquipDoll.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/EquipDollFrame.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Focusable.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/GenericContainer.lua"
+
 
 
 ------------------------------------------------
@@ -4069,10 +4739,111 @@ section "game/engines/default/engine/ui/Gestures.lua"
 
 
 ------------------------------------------------
+section "game/engines/default/engine/ui/Image.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/ImageList.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/engine/ui/Inventory.lua"
 
-t("", "기본 속도의 ")
-t("Inventory", "소지품 목록")
+t("Inventory", "소지품")
+t("Category", "종류")
+t("Enc.", "무게")
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/List.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/ListColumns.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Numberbox.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Separator.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Slider.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/SubDialog.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/SurfaceZone.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Tab.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Tabs.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Textbox.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Textzone.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/TextzoneList.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/TreeList.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/UIContainer.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/UIGroup.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/VariableList.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Waitbar.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/ui/Waiter.lua"
+
 
 
 ------------------------------------------------
@@ -4091,8 +4862,19 @@ t("him", "그를")
 
 
 ------------------------------------------------
+section "game/engines/default/engine/version.lua"
+
+
+
+------------------------------------------------
+section "game/engines/default/engine/webcore.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/modules/boot/class/Game.lua"
 
+t("Continue", "계속")
 
 
 ------------------------------------------------
@@ -4230,12 +5012,14 @@ t("Cancel", "취소")
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/LoadGame.lua"
 
+t("Developer Mode", "개발자 상태")
 t("Cancel", "취소")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/MainMenu.lua"
 
+t("Main Menu", "메인 메뉴로 나가기")
 t("Game Options", "게임 설정")
 t("Exit", "출구")
 
@@ -4243,6 +5027,9 @@ t("Exit", "출구")
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/NewGame.lua"
 
+t("Enter your character's name", "캐릭터의 이름을 입력하세요")
+t("No", "아니오")
+t("Yes", "예")
 
 
 ------------------------------------------------
@@ -4261,6 +5048,7 @@ t("Cancel", "취소")
 section "game/engines/default/modules/boot/dialogs/ProfileSteamRegister.lua"
 
 t("Cancel", "취소")
+t("Error", "오류")
 
 
 ------------------------------------------------
@@ -4271,6 +5059,7 @@ section "game/engines/default/modules/boot/dialogs/UpdateAll.lua"
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ViewHighScores.lua"
 
+t("View High Scores", "고득점 기록 보기")
 
 
 ------------------------------------------------
@@ -4496,6 +5285,7 @@ t("Mental save", "정신 내성")
 t("Spell save", "마법 내성")
 t("Cancel", "취소")
 t("Destroy", "부수기")
+t("%s drops on the floor: %s.", "%s %s 바닥에 버립니다.")
 t("You extract %s from %s", "%s에서 %s 추출했습니다.")
 t("Transmogrification Chest", "변환 상자")
 t("transmogrify", "변환하기")
@@ -4530,8 +5320,8 @@ Campaign: %s]], [[%s the %s %s.
 t("#LIGHT_RED#You may not change level without your own body!", "#LIGHT_RED#육체에서 벗어난 상태로는 지역을 이동할 수 없습니다!")
 t("#LIGHT_RED#You may not leave the zone with this character!", "#LIGHT_RED#이 캐릭터로는 지역에서 벗어날 수 없습니다!")
 t("#LIGHT_RED#You cannot escape your fate by leaving the level!", "#LIGHT_RED#지역 이동으로 당신의 운명에서 도망칠 수는 없습니다!")
-t("Loading level", "지역을 불러들이는 중")
-t("Please wait while loading the level...", "불러들이는 중입니다. 잠시만 기다려주세요...")
+t("Loading level", "현재층 불러오는 중")
+t("Please wait while loading the level...", "현재층을 불러오는 동안 잠시 기다려 주십시오...")
 t("Easy!", "쉬움!")
 t("This zone is so easy for you that you can stroll to the last area with ease.", "이 지역은 당신에게 너무 쉬워서, 마지막 층까지 산책을 했습니다.")
 t("Stay there", "그곳에 머무름")
@@ -4568,12 +5358,12 @@ t("#LIGHT_RED#disabled", "#LIGHT_RED#비활성화")
 t("Message Log", "메세지 기록")
 t("Displaying creatures.", "생명체를 표시합니다.")
 t("Displaying talents.", "기술을 표시합니다.")
-t("Show Achievements", "업적 보기")
+t("Show Achievements", "달성한 업적 보기")
 t("Tales of Maj'Eyal Achievements", "Tales of Maj'Eyal 업적")
 t("Show known Lore", "알게된 지식 보기")
 t("Tales of Maj'Eyal Lore", "Tales of Maj'Eyal 지식")
 t("Show ingredients", "연금술 재료 보기")
-t("Inventory", "소지품 목록")
+t("Inventory", "소지품")
 t("Character Sheet", "캐릭터 상태창")
 t("Game Options", "게임 설정")
 t("Looking around... (direction keys to select interesting things, shift+direction keys to move freely)", "주위를 둘러봅니다... (방향키로 흥미로운 것을 선택할 수 있고, Shift+방향키로 자유롭게 화면을 움직일 수 있습니다)")
@@ -4612,6 +5402,7 @@ t("unblemished", "흠없는")
 t("Ambush!", "습격!")
 t("Exterminator", "절멸자")
 t("but nobody knew why #sex# suddenly became evil", "하지만 누구도 왜 갑자기 #sex#가 악인이 되었는지 알지 못했습니다.")
+t("Accept", "확인")
 t(" and ", " 그리고 ")
 
 
@@ -4873,6 +5664,7 @@ t("Talent on hit(nature): %s (%d%% chance level %d).", "자연 속성 기술 명
 t("Talent on hit(mindpower): %s (%d%% chance level %d).", "정신 기술 명중시 : %s (%d%% 확률 레벨 %d).")
 t("Activating this item is instant.", "이 아이템은 시간 소모 없이 순간 사용이 가능합니다.")
 t("It can be used to %s, with %d charges out of %d.", "사용처 : %s (현재 충전량/최대 충전량 : %d/%d).")
+t("Talent %s", "%s 기술")
 t("It can be used to %s.", "사용처 : %s.")
 t("%d out of %d/%d.", "%d (보유량 : %d/%d).")
 t("Power cost: ", "소모량 : ")
@@ -4922,7 +5714,6 @@ t("Level change (%s)!", "층 변경 (%s)!")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#가진 것이 너무 많아, 움직일 수 없습니다!")
 t("#FF0000#Drop some of your items.", "#FF0000#물건을 조금 버려야 할 것 같습니다.")
 t("#PINK#Your summoned %s disappears.", "#PINK#당신의 소환물 %s 사라졌습니다.")
-t("", "기본 속도의 ")
 t("taken damage", "피해 발생")
 t("LOW HEALTH!", "생명력 낮음!")
 t("detrimental status effect", "나쁜 상태 효과")
@@ -4943,7 +5734,7 @@ t("interesting terrain", "흥미로운 지형")
 t("interesting character", "흥미로운 인물")
 t("store entrance spotted", "상점 입구 발견")
 t("Item not found", "물건 없음")
-t("Pickup", "물건 줍기")
+t("Pickup", "줍기")
 t("Drop object", "물건 버리기")
 t("Wield/wear object", "물건 착용")
 t("Take off object", "착용 물건 해제")
@@ -4972,7 +5763,7 @@ t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#'%s' 퀘스트 실패!")
 ------------------------------------------------
 section "game/modules/tome/class/Projectile.lua"
 
-t("Projectile: ", "발사체 : ")
+t("Projectile: ", "발사체: ")
 t("Origin: ", "발사한 이 : ")
 t("Affect origin chance: ", "명중 확률 : ")
 t("Affect origin's friends chance: ", "발사한 이의 동료에게로의 명중 확률 : ")
@@ -6431,7 +7222,6 @@ t("Construct", "구조체")
 t("Constructs are not natural creatures.", "구조체는 자연적인 생물이 아닙니다.")
 t("The most usual contructs are golems, but they can vary in shape, form and abilities.", "구조체는 대부분 골렘이지만, 형태와 양식, 그리고 능력은 다양합니다.")
 t("Runic Golem", "룬 골렘")
-t("", "기본 속도의 ")
 t("Runic Golems are creatures made of solid rock and animated using arcane forces.", "룬 골렘은 마법의 힘으로 움직이는 단단한 바위 피조물입니다.")
 t("They cannot be of any class, but they have many intrinsic abilities.", "특정한 직업의 능력을 가질 수는 없지만, 다양한 고유 능력을 지니고 있습니다.")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변화 :")
@@ -8578,7 +9368,7 @@ section "game/modules/tome/data/chats/shertul-fortress-training-orb.lua"
 
 t("All resistances", "전체 저항력")
 t("Armour Hardiness", "방어 효율")
-t("From 0 to 100", "0에서 100까지")
+t("From 0 to 100", "0 에서 100 사이")
 t("Armour", "방어도")
 t("From 0 to 1000", "0에서 1000까지")
 t("*#LIGHT_GREEN#This orb is used to control the training facilities.#WHITE#*", "*#LIGHT_GREEN#이 오브는 연습 설비를 통제할 때 사용됩니다.#WHITE#*")
@@ -11189,7 +11979,6 @@ t("gem", "보석")
 t("red", "붉은색")
 t("multi-hued", "무지개빛")
 t("A small but sharp axe, with a handle made of polished bone.  The blade has chopped through the skulls of many, and has been stained a deep crimson.", "다듬어진 뼈 손잡이가 달린, 작지만 날카로운 도끼입니다. 그 날은 많은 두개골을 갈라놓았고, 짙은 피비린내로 얼룩져 있습니다.")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -13296,7 +14085,6 @@ section "game/modules/tome/data/general/objects/rods.lua"
 
 t("charm", "부적")
 t("rod", "장대")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -19345,7 +20133,6 @@ t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "부와 
 t("Can you defeat your foes and become Master of Arena?", "과연 당신은 모든 적들을 물리치고 투기장의 지배자가 될 수 있을까요?")
 t("Winner", "승리자")
 t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#잘하셨습니다! 당신은 '투기장 : 최강자가 되기 위한 도전'에서 승리하셨습니다!#WHITE#")
-t("", "기본 속도의 ")
 t("You valiantly fought every creature the arena could throw at you and you emerged victorious!", "당신은 투기장에서 마주친 모든 적과 용맹하게 싸워, 승리를 쟁취했습니다!")
 t("Glory to you, you are now the new master and your future characters will challenge you.", "당신은 이제 영광스러운 투기장의 새로운 지배자이며, 다음 캐릭터는 당신을 꺾기 위해 투기장에 들어오게 될 것입니다.")
 
@@ -19379,7 +20166,6 @@ t("Whatever their plan may be, they must be stopped at all cost.", "그들의 �
 t("The volcano is attacked by orcs. A few Sun Paladins made it there with you. They will hold the line at the cost of their lives to buy you some time.", "이 화산은 오크의 공격을 받고 있습니다. 몇몇 태양의 기사들이 당신에게 약간의 시간을 주기 위해, 목숨을 바쳐 오크들의 공격을 막고 있습니다.")
 t("Honor their sacrifice; do not let the orcs finish their work!", "그들의 희생을 헛되게 만들어서는 안됩니다. 오크들이 그들의 일을 끝내지 못하도록 만들어야 합니다!")
 t("You arrived too late. The place has been drained of its power and the sorcerers have left.", "당신은 너무 늦었습니다. 이곳의 힘은 모두 흡수당했고 주술사들은 자리를 떠났습니다.")
-t("", "기본 속도의 ")
 t("You arrived in time and interrupted the ritual. The sorcerers have departed.", "당신은 제때에 도착하여, 의식을 방해했습니다. 주술사들은 도망쳤습니다.")
 t("Use the portal to go back to the Far East. You *MUST* stop them, no matter the cost.", "관문을 사용해서 동대륙으로 돌아가십시오. 당신은 그 어떤 대가를 치뤄서라도, 그들을 *반드시* 멈춰야 합니다.")
 t("#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "#VIOLET#근처에서 관문이 작동했습니다. 당신은 오크들이 외치는 소리를 들었습니다. '주술사들이 자리를 떴다! 그들을 따르라!'")
@@ -19417,7 +20203,6 @@ t("You brought back the diamond and athame to Tannen who asked you to contact Ze
 t("You brought back the diamond and athame to Tannen who asked you to come back in a few days.", "탄넨에게 제례단검과 다이아몬드를 전해주자, 그는 당신에게 며칠이 지난 후에 돌아올 것을 요구했습니다.")
 t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "탄넨은 당신을 속였습니다! 그는 오브를 악마들의 공간으로 이동시키는 가짜와 바꿔치기 했습니다. 출구를 찾고, 그에게 복수를 해야합니다!")
 t("Tannen revealed himself as the vile scum he really is and trapped you in his tower.", "탄넨은 자신의 추악한 본모습을 드러내었으며, 당신을 그의 탑에 가두었습니다.")
-t("", "기본 속도의 ")
 t("#LIGHT_GREEN#* The portal to the Far East is now functional and can be used to go back.#WHITE#", "#LIGHT_GREEN#* 동대륙으로 돌아가는 관문이 활성화 되었습니다. 이것을 사용해 동대륙으로 갈 수 있을 것 같습니다.#WHITE#")
 t("Tannen points to the location of Telmur on your map.", "탄넨이 텔무르로 가는 길을 당신의 지도에 표시해줬습니다.")
 t("A portal appears in the center of the tower!", "탑 중앙에 관문이 생겨났습니다!")
@@ -19447,7 +20232,6 @@ t("She looks tired and wounded. She is so similar to you and yet completely diff
 t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "저를 도와주세요! 저는 아무래도 이곳에서 길을 잃어버린 것 같습니다. 이 근처에 제 친구가 만든 귀환용 관문이 있다는 것은 알고 있지만, 저는 이미 너무나 많은 전투를 치른 상태입니다. 저를 도와주실 수 있나요?")
 t("%s, the worried loremaster", "근심하는 지식 전달자 %s")
 t("She looks tired and wounded.", "그녀는 지쳤으며, 부상 당한 상태입니다.")
-t("", "기본 속도의 ")
 t("As a reward you %s.", "보상을 얻었습니다 : %s")
 t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s 죽었습니다. 호위에 실패했습니다!")
 t("something", "무엇인가")
@@ -19483,7 +20267,6 @@ t("Endgame", "대단원")
 t("#LIGHT_RED#As you enter the level you hear a familiar voice.", "#LIGHT_RED#당신이 이곳에 도착하자, 친숙한 목소리가 들렸습니다.")
 t("#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "#LIGHT_RED#패배한 태양의 기사 아에린이 외칩니다. '%s여, 네가 태양의 장벽에 가져다준 것은 파괴 뿐이다! 너는 그 대가를 치르게 될 것이다!'")
 t("Winner", "승리자")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -19697,7 +20480,6 @@ t("#LIGHT_GREEN#* You have destroyed Grushnak.#WHITE#", "#LIGHT_GREEN#* 당신�
 t("#SLATE#* Grushnak Pride, near a small mountain range in the north west.#WHITE#", "#SLATE#* 그루쉬낙 긍지, 북서쪽에 있는 작은 산 너머#WHITE#")
 t("#LIGHT_GREEN#* You have destroyed Gorbat.#WHITE#", "#LIGHT_GREEN#* 당신은 고르뱃을 처치했습니다.#WHITE#")
 t("#SLATE#* Gorbat Pride, in a mountain range in the southern desert.#WHITE#", "#SLATE#* 고르뱃 긍지, 남쪽에 있는 사막의 산 너머#WHITE#")
-t("", "기본 속도의 ")
 t("#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters destroyed. High Sun Paladin Aeryn would surely be glad of the news!#WHITE#", "#LIGHT_GREEN#* 모든 오크 긍지들은 파괴되고, 그들의 지도자는 죽음을 맞이했습니다. 고위 태양의 기사 아에린이 이 소식을 들으면 굉장히 기뻐할 것입니다!#WHITE#")
 
 
@@ -19750,7 +20532,6 @@ section "game/modules/tome/data/quests/ring-of-blood.lua"
 t("Till the Blood Runs Clear", "다시 피가 흐를 때까지")
 t("You have found a slavers' compound and entered it.", "당신은 노예 수용소를 찾아, 그곳에 들어갔습니다.")
 t("You decided to join the slavers and take part in their game. You won the ring of blood!", "당신은 노예들을 가지고 벌이는 그들의 게임에 참가하기로 했습니다. 당신은 피의 투기장에서 승리를 거머쥐었습니다!")
-t("", "기본 속도의 ")
 t("You decided you cannot let slavers continue their dirty work and destroyed them!", "당신은 노예들을 가지고 벌이는 그들의 더러운 일을 용납하지 않았고, 그들을 처치했습니다!")
 t("The orb seems to fizzle without the Blood Master.", "피의 투기장 운영자가 없어서, 오브가 작동하지 않습니다.")
 t("#CRIMSON#The crowd yells: 'LOSER!'", "#CRIMSON#관중들이 소리칩니다 : '이 패배자!'")
@@ -20058,7 +20839,6 @@ t("#LIGHT_GREEN#* You have found a Blood-Runed Athame.#WHITE#", "#LIGHT_GREEN#* 
 t("#SLATE#* Find a Blood-Runed Athame.#WHITE#", "#SLATE#* 피의 룬 제례단검을 찾아야 합니다.#WHITE#")
 t("#LIGHT_GREEN#* You have found the Resonating Diamond.#WHITE#", "#LIGHT_GREEN#* 당신은 공명하는 다이아몬드를 찾았습니다.#WHITE#")
 t("#SLATE#* Find a Resonating Diamond.#WHITE#", "#SLATE#* 당신은 공명하는 다이아몬드를 찾아야 합니다.#WHITE#")
-t("", "기본 속도의 ")
 t("#LIGHT_GREEN#* The portal to Maj'Eyal is now functional and can be used to go back, although, like all portals, it is one-way only.#WHITE#", "#LIGHT_GREEN#* 마즈'에이알로 돌아가는 관문이 작동하기 시작했습니다. 이제 마즈'에이알로 돌아갈 수는 있지만, 다른 장거리 관문들처럼, 이 관문 역시 단방향 관문입니다.#WHITE#")
 t("Zemekkys points to the location of Vor Armoury on your map.", "제메키스가 당신의 지도에 보르 무기고의 위치를 표시해줬습니다.")
 t("Zemekkys points to the location of Briagh's lair on your map.", "제메키스가 당신의 지도에 브리아그흐의 동굴이 있는 곳을 표시해줬습니다.")
@@ -22318,7 +23098,6 @@ t([[A furious ice storm rages around the user doing %0.2f cold damage in a radiu
 		피해를 받은 적은 25%% 확률로 빙결 상태효과에 걸립니다.
 		피해량과 지속시간은 의지 능력치의 영향을 받아 증가합니다.]])
 t("Ritch Flamespitter", "불꽂뿜는 릿치 소환")
-t("", "기본 속도의 ")
 t("Hydra", "히드라")
 t("@Source@ summons a 3-headed hydra!", "@Source1@ 머리 셋 달린 히드라를 소환합니다!")
 t("A strange reptilian creature with three smouldering heads.", "입에서 연기가 피어오르는, 기묘한 파충류 생명체입니다.")
@@ -22336,7 +23115,6 @@ section "game/modules/tome/data/talents/gifts/summon-melee.lua"
 
 t("War Hound", "전투견 소환")
 t("@Source@ summons a War Hound!", "@Source1@ 전투견을 소환했습니다!")
-t("", "기본 속도의 ")
 t("Jelly", "젤리")
 t("@Source@ summons a Jelly!", "@Source1@ 젤리를 소환합니다!")
 t("A strange blob on the dungeon floor.", "던전 바닥에서 주로 볼 수 있는, 점액질 덩어리입니다.")
@@ -22593,7 +23371,6 @@ t("You cannot do that currently.", "지금은 그 기술을 사용할 수 없습
 t("%s resists!", "%s 저항했습니다!")
 t("Darkness", "어둠")
 t("something", "무엇인가")
-t("", "기본 속도의 ")
 t("Heal", "치료")
 t("Fade", "흐려짐")
 t("You fade from sight, making you invulnerable until the beginning of your next turn.", "시야에서 흐려져, 자신의 다음 턴이 올 때까지 무적이 됩니다.")
@@ -32072,7 +32849,7 @@ t("lake", "호수")
 t("Westreach lake", "서쪽에 닿는 호수")
 t("Irondeep lake", "철심 호수")
 t("Spellmurk lake", "어둠의 주문 호수")
-t("name", "g")
+t("name", "의 퀘스트 기록")
 t("Sunwall mountain", "태양의 장벽 산맥")
 t("plains", "평야")
 t("grass", "풀밭")
@@ -32164,6 +32941,8 @@ section "game/modules/tome/dialogs/Birther.lua"
 t("Tutorial", "연습게임")
 t("Female", "여성")
 t("Male", "남성")
+t("Yes", "예")
+t("No", "아니오")
 t("Cancel", "취소")
 t("Name", "이름")
 
@@ -32173,7 +32952,7 @@ section "game/modules/tome/dialogs/CharacterSheet.lua"
 
 t("Name", "이름")
 t("Sleep", "재우기")
-t("Inventory", "소지품 목록")
+t("Inventory", "소지품")
 t("Female", "여성")
 t("Male", "남성")
 t("Weapon", "무기")
@@ -32217,6 +32996,8 @@ t("Big", "큼")
 t("Normal", "보통")
 t("Small", "작음")
 t("all", "전체")
+t("disabled", "사용하지 않음")
+t("enabled", "사용")
 
 
 ------------------------------------------------
@@ -32251,7 +33032,7 @@ t("Lore found: #0080FF#%s", "지식 발견 : #0080FF#%s")
 ------------------------------------------------
 section "game/modules/tome/dialogs/MapMenu.lua"
 
-t("Inventory", "소지품 목록")
+t("Inventory", "소지품")
 t(" ", " 보고 있음")
 
 
@@ -32291,6 +33072,7 @@ t("Willpower", "의지")
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowAchievements.lua"
 
+t("-- Unknown --", "-- 알 수 없음 --")
 
 
 ------------------------------------------------
@@ -32305,7 +33087,7 @@ t("Ignore user", "사용자 무시")
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowEquipInven.lua"
 
-t("Inventory", "소지품 목록")
+t("Inventory", "소지품")
 t("Tooltip %s", "정보창 표시 %s")
 t("locked", "잠김")
 t("unlocked", "잠김 해제")
@@ -32320,19 +33102,21 @@ section "game/modules/tome/dialogs/ShowEquipment.lua"
 section "game/modules/tome/dialogs/ShowIngredients.lua"
 
 t("Ingredient", "연금술재료")
+t("Category", "종류")
+t("Quantity", "수량")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowInventory.lua"
 
-t("Inventory", "소지품 목록")
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowLore.lua"
 
-t("", "기본 속도의 ")
 t("Lore", "지식")
+t("Category", "종류")
 
 
 ------------------------------------------------
@@ -32343,8 +33127,8 @@ section "game/modules/tome/dialogs/ShowMap.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowStore.lua"
 
-t("Inventory", "소지품 목록")
-t("", "기본 속도의 ")
+t("Inventory", "소지품")
+t("Category", "종류")
 
 
 ------------------------------------------------
@@ -32374,13 +33158,13 @@ section "game/modules/tome/dialogs/UseTalents.lua"
 t("Active", "진행중")
 t("Object", "물체")
 t("Passive", "지속형")
-t("", "기본 속도의 ")
+t("Status", "상태")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/AdvanceActor.lua"
 
-t("", "기본 속도의 ")
+t("Accept", "확인")
 t("Cancel", "취소")
 t("%d stat point(s)", "능력치 점수 %d점")
 t("%d class talent point(s)", "직업 기술 점수 %d점")
@@ -32449,7 +33233,7 @@ section "game/modules/tome/dialogs/debug/RandomObject.lua"
 t("unknown", "알 수 없음")
 t("None", "없음")
 t("Object", "물체")
-t("Inventory", "소지품 목록")
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
@@ -32470,7 +33254,6 @@ section "game/modules/tome/dialogs/orders/Behavior.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/orders/Talents.lua"
 
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
@@ -32517,42 +33300,36 @@ t("Cancel", "취소")
 section "game/modules/tome/dialogs/talents/ChronomancyContingency.lua"
 
 t("Contingency", "긴급")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyEmpower.lua"
 
 t("Empower", "강화")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyExtension.lua"
 
 t("Extension", "연장")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyMatrix.lua"
 
 t("Matrix", "거푸집")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyQuicken.lua"
 
 t("Quicken", "촉진")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/MagicalCombatArcaneCombat.lua"
 
 t("Arcane Combat", "마법 전투")
-t("", "기본 속도의 ")
 
 
 ------------------------------------------------

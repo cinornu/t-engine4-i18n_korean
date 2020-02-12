@@ -4,45 +4,39 @@ This is NOT the repository for [ToME4](http://te4.org/), the repository for it i
 
 This repository is a platform for co-work oriented towards an I18n-enhanced T-Engine and ToME4.
 
-The following readme will be in Chinese.
+## Install and run
 
-## 安装和运行
+Install [Git for windows](https://git-scm.com/downloads) .
 
-安装 [Git for windows](https://git-scm.com/downloads) 。
-
-安装教程 <https://www.cnblogs.com/jyd0124/p/git.html>
-
-安装后，右键一个空目录选择 Git bash here ，然后输入以下命令：
+After install, right click and choose 'Git bash here', run the following command.
 
 ```bash
 git clone https://github.com/StarSapphireX/t-engine4-i18n_working_bench.git
 ```
 
-这个命令会下载并同步该仓库。
+It will download and sync the repository.
 
-之后每次更新的时候，在仓库内右键 Git bash here ，输入以下命令：
+Everytime you need to update, you can right click in the repository, choose 'Git bash here' and use this command:
 
 ```bash
 git pull
 ```
 
-直接运行t-engine.exe即可。
+You can run `t-engine.exe` to start the game.
 
-如果有问题请在群里提问。
+## Developer's guide
 
-## 开发要求
+You would need a console environment, `lua 5.1`，`luarocks` <https://luarocks.org/> and the following `luarocks` packages.
 
-安装并配置一个终端环境， `lua 5.1`，`luarocks` <https://luarocks.org/> ，还有以下`luarocks`包
+* `luafilesystem` latest version
+* `lpeg` 0.9-1 DON'T use latest version!
 
-* `luafilesystem` 最新版
-* `lpeg` 0.9-1 不能使用最新版！
+Translation tools is under `i18n_tools` directory.
 
-汉化内容位于`i18n_tools`目录下，
+The translation preparation will includes those steps:
 
-汉化进程分以下几个步骤：
-
-* 切换到 `i18n_tools` 目录
-* 使用`lua i18n_extractor.lua ../game/engines ../game/modules/tome ../game/dlcs ../game/addons >tmp.log` 提取游戏的汉化文本到 `i18n_list.lua` 文件
-* 运行 `lua i18n_helper.lua` 将会把 `merge_translation.lua` 里面的汉化文本整理去重，然后输出整理完成的`output_translation.lua`文件和未汉化文本`untranslated.lua`文件。
-* 现在这个程序也会自动生成 `game/engines/data/locales/zh_CN.lua`了，进行测试吧。
-* 如果你觉得汉化好了，可以随时用`output_translation.lua`覆盖`merge_translation.lua`。
+* Change dir to `i18n_tools`.
+* Run `lua i18n_extractor.lua ../game/engines ../game/modules/tome ../game/dlcs ../game/addons >tmp.log` to extract any text in the game to `i18n_list.lua` file.
+* Run `lua i18n_helper.lua` . It will rearrange and deduplicate all text in  `merge_translation.lua`, and print the rearranged translation file to `output_translation.lua` and or untranslated texts to  `untranslated.lua`
+* It will also generate `game/engines/data/locales/ko_KR.lua`, which is used by the game.
+* You can add tranlation texts in the end of `merge_translation.lua` and repeat runing `lua i18n_helper.lua` to rearrange it, after this, you should use `output_translation.lua` to replace `merge_translation.lua`.

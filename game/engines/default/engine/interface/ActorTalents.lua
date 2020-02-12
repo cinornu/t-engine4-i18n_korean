@@ -350,10 +350,10 @@ function _M:useTalentMessage(ab)
 	local _, _, target = self:getTarget()
 	local tname = _t"unknown"
 	if target then tname = target:getName() end
-	str = str:gsub("@Source@", self:getName():capitalize())
-	str = str:gsub("@source@", self:getName())
-	str = str:gsub("@target@", tname)
-	str = str:gsub("@Target@", tname:capitalize())
+	str = str:noun_sub("@Source@", self:getName():capitalize())
+	str = str:noun_sub("@source@", self:getName())
+	str = str:noun_sub("@target@", tname)
+	str = str:noun_sub("@Target@", tname:capitalize())
 	str = str:gsub("@hisher@", string.his_her(self))
 	return str
 end

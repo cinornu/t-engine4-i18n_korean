@@ -916,6 +916,14 @@ function string.bookCapitalize(str)
 	return table.concat(words, " ")
 end
 
+local function default_noun_sub(str, type, noun)
+	return str:gsub(type, noun)
+end
+function string.noun_sub(str, type, noun)
+	local proc = _getFlagI18N("noun_target_sub") or default_noun_sub
+	return proc(str, type, noun)
+end
+
 function string.lpegSub(s, patt, repl)
 	patt = lpeg.P(patt)
 	patt = lpeg.Cs((patt / repl + 1)^0)

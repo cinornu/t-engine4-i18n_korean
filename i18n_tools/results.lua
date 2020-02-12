@@ -27511,3 +27511,1476 @@ t("Faction: ", "소속 : ")
 t("Killed by you: ", "당신에게 죽은 횟수 : ")
 t("Target: ", "목표: ")
 t("none", "없음")
+section "game/modules/tome/dialogs/ArenaFinish.lua"
+t("Arena mode", "투기장 모드")
+t("#LIGHT_GREEN#No high scores. This should not happen.", "#LIGHT_GREEN#고득점 기록이 없습니다. 이런 일이 있을 수는 없는데...")
+t([[%s (%s %s %s)
+ Score %d[%s]) - Wave: %d]], [[%s (%s %s %s)
+ 점수 %d[%s]) - 쇄도 횟수: %d]])
+t("unknown", "모름")
+t("unknown", "모름")
+t("unknown", "모름")
+t("unknown", "모름")
+t("unknown", "모름")
+t("unknown", "모름")
+t("#LIGHT_BLUE#You resurrect! CHEATER !", "#LIGHT_BLUE#부활했습니다! 사기꾼(CHEATER)이로군요!")
+t("Resurrect by cheating", "사기(cheating)로 부활하기")
+t("Message Log", "메세지 로그")
+t("Message/Chat log (allows to talk)", "메세지/대화 로그 (대화 가능)")
+t("Character dump", "캐릭터 덤프 기록 생성")
+t("Restart the same character", "같은 캐릭터로 다시 시작하기")
+t("Restart with a new character", "새로운 캐릭터로 다시 시작하기")
+t("Exit to main menu", "메인 메뉴로 나가기")
+section "game/modules/tome/dialogs/CharacterSheet.lua"
+t("Character Sheet: ", "캐릭터 상태 : ")
+t("General", "일반")
+t("Attack", "공격")
+t("Defense", "방어")
+t("Talents", "기술")
+t([[Values #00FF00#in brackets ( )#LAST# show changes made from last character sheet checking.
+Keyboard: #00FF00#'d'#LAST# to save character dump. #00FF00#TAB key#LAST# to switch between tabs.
+Mouse: Hover over stat for info
+]], [[#00FF00#( ) 괄호 안의 수치#LAST#는 마지막으로 캐릭터 시트를 열어봤을 때의 수치와의 차이를 나타냅니다.
+#00FF00#'D' 키#LAST#를 누르면 캐릭터 덤프를 저장합니다. #00FF00#TAB 키#LAST#로 페이지 탭을 전환합니다.
+능력치에 마우스 커서를 올려놓으면 자세한 정보가 나옵니다.
+]])
+t([[#GOLD#Days adventuring / current month:#LAST# %d / %s
+#GOLD#Time playing:#LAST# %s
+#GOLD#Creatures killed:           #ANTIQUE_WHITE#%d
+#GOLD#Elites/Rares/Bosses killed: #YELLOW#%d/#SALMON#%d/#ORANGE#%d
+]], [[#GOLD#모험 일자 / 현재 월:#LAST# %d / %s
+#GOLD#게임 진행 시간:#LAST# %s
+#GOLD#총 살해수:             #ANTIQUE_WHITE#%d
+#GOLD#정예/희귀/보스 살해수: #YELLOW#%d/#SALMON#%d/#ORANGE#%d
+]])
+t("Online URL: #LIGHT_BLUE##{underline}#", "온라인 URL : #LIGHT_BLUE##{underline}#")
+t("You can find your character sheet online", "캐릭터 상태를 온라인에서도 보실 수 있습니다")
+t("Sex  : ", "성별  : ")
+t("Race : ", "종족  : ")
+t("Type : ", "종류  : ")
+t("Class: ", "직업  : ")
+t("Stype: ", "유형  : ")
+t("Size : ", "크기  : ")
+t("Zigur follower", "지구르 추종자")
+t("Antimagic devotee", "열성 반마법 추종자")
+t("#DARK_RED#Blood of Life", "#DARK_RED#생명의 피")
+t("Level: #00ff00#", "레벨  : #00ff00#")
+t("Exp  : #00ff00#%2d%%", "경험치: #00ff00#%2d%%")
+t("Gold : #00ff00#%0.2f", "금화  : #00ff00#%0.2f")
+t("#c00000#Life: #00ff00#???/%s", "#c00000#생명력: #00ff00#???/%s")
+t("#c00000#Life: #00ff00#%d/%s", "#c00000#생명력: #00ff00#%d/%s")
+t("#ffcc80#Stamina: #00ff00#%d/%s", "#ffcc80#체력  : #00ff00#%d/%s")
+t("#7fffd4#Mana: #00ff00#%d/%s", "#7fffd4#마나  : #00ff00#%d/%s")
+t("#7fffd4#Positive: #00ff00#%d/%s", "#7fffd4#양기  : #00ff00#%d/%s")
+t("#7fffd4#Negative: #00ff00#%d/%s", "#7fffd4#음기  : #00ff00#%d/%s")
+t("#904010#Vim: #00ff00#%d/%s", "#904010#원기  : #00ff00#%d/%s")
+t("#F53CBE#Hate: #00ff00#%d/%d", "#F53CBE#증오심: #00ff00#%d/%d")
+t("#LIGHT_STEEL_BLUE#Paradox: #00ff00#%d(anomaly: %s)", "#LIGHT_STEEL_BLUE#괴리  : #00ff00#%d(실패율 : %s)")
+t("#7fffd4#Psi: #00ff00#%d/%s", "#7fffd4#염력  : #00ff00#%d/%s")
+t("Current Feedback gain is %0.1f%% of damge taken.", "받은 피해량의 %0.1f%% 만큼을 반작용으로 획득합니다.")
+t("#7fffd4#Feedback: #00ff00#%d/%s", "#7fffd4#반작용: #00ff00#%d/%s")
+t("#00ff74#Equi: #00ff00#%d(fail: %s)", "#00ff74#평정  : #00ff00#%d(실패율 : %s)")
+t("#LIGHT_BLUE#Speeds:", "#LIGHT_BLUE#속도:")
+t("Global speed  : #00ff00#%s", "전체 속도    : #00ff00#%s")
+t("Movement speed: #00ff00#%s", "이동 속도    : #00ff00#%s")
+t("Spell speed   : #00ff00#%s", "시전 속도    : #00ff00#%s")
+t("Attack speed  : #00ff00#%s", "공격 속도    : #00ff00#%s")
+t("Mental speed  : #00ff00#%s", "사고 속도    : #00ff00#%s")
+t("Times died     : #00ff00#%s", "사망 횟수    : #00ff00#%s")
+t("Lives left     : #00ff00#%s", "남은 생명    : #00ff00#%s")
+t("Healing mod.   : #00ff00#%s", "치유 효율    : #00ff00#%s")
+t("Life regen     : #00ff00#%s", "생명력 재생  : #00ff00#%s")
+t("(with heal mod): #00ff00#%s", "(증가 적용시): #00ff00#%s")
+t("#LIGHT_BLUE#Vision:", "#LIGHT_BLUE#시야:")
+t("Light radius   : #00ff00#%s", "광원 반경    : #00ff00#%s")
+t("Vision range   : #00ff00#%s", "시야 거리    : #00ff00#%s")
+t("Heighten Senses: #00ff00#%s", "향상된 감각  : #00ff00#%s")
+t("Stealth        : #00ff00#%s", "은신         : #00ff00#%s")
+t("See stealth    : #00ff00#%s", "은신 감지    : #00ff00#%s")
+t("Invisibility   : #00ff00#%s", "투명화       : #00ff00#%s")
+t("See invisible  : #00ff00#%s", "투명체 감지: #00ff00#%s")
+t("Telepathy range: #00ff00#%s", "투시 거리    : #00ff00#%s")
+t("#LIGHT_BLUE#Stats:        base/current", "#LIGHT_BLUE#능력치  : 기본 / 현재")
+t("#AQUAMARINE#Inscriptions (%d/%d)", "#AQUAMARINE#각인 (%d / %d)")
+t("Telepathy of: ", "보유한 투시력 : ")
+t("%sAll ", "%s전체 ")
+t("#LIGHT_BLUE#Current effects:", "#LIGHT_BLUE#적용 중인 효과 :")
+t("#LIGHT_BLUE#Main Hand", "#LIGHT_BLUE#주 무기")
+t("(2-handed)", " (양손)")
+t("Accuracy    : #00ff00#%s", "정확도      : #00ff00#%s")
+t("Damage      : #00ff00#%s", "피해량      : #00ff00#%s")
+t("APR         : #00ff00#%s", "방어관통 : #00ff00#%s")
+t("Crit. chance: #00ff00#%s", "치명타율  : #00ff00#%s")
+t("Speed       : #00ff00#%s", "공격 속도 : #00ff00#%s")
+t("Range (Main Hand): #00ff00#%3d", "최대 사거리 (주 무기) : #00ff00#%3d")
+t("#LIGHT_BLUE#Unarmed:", "#LIGHT_BLUE#맨손 공격 :")
+t("Accuracy    : #00ff00#%s", "정확도      : #00ff00#%s")
+t("Damage      : #00ff00#%s", "피해량      : #00ff00#%s")
+t("APR         : #00ff00#%s", "방어관통 : #00ff00#%s")
+t("Crit. chance: #00ff00#%s", "치명타율  : #00ff00#%s")
+t("Speed       : #00ff00#%s", "공격 속도 : #00ff00#%s")
+t("Range (Main Hand): #00ff00#%3d", "최대 사거리 (주 무기) : #00ff00#%3d")
+t("#LIGHT_BLUE#Off Hand:", "#LIGHT_BLUE#보조 무기 :")
+t("Accuracy    : #00ff00#%s", "정확도      : #00ff00#%s")
+t("Damage      : #00ff00#%s", "피해량      : #00ff00#%s")
+t("APR         : #00ff00#%s", "방어관통 : #00ff00#%s")
+t("Crit. chance: #00ff00#%s", "치명타율  : #00ff00#%s")
+t("Speed       : #00ff00#%s", "공격 속도 : #00ff00#%s")
+t("Range (Off Hand): #00ff00#%3d", "최대 사거리 (보조 무기) : #00ff00#%3d")
+t("#LIGHT_BLUE#Magical:", "#LIGHT_BLUE#마법 공격 :")
+t("Spellpower  : #00ff00#%s", "주문력      : #00ff00#%s")
+t("Crit. chance: #00ff00#%s", "치명타율  : #00ff00#%s")
+t("Spell speed : #00ff00#%s", "시전 속도 : #00ff00#%s")
+t("Spell cooldown: #00ff00#%s", "재시전      : #00ff00#%s")
+t("#LIGHT_BLUE#Mental:", "#LIGHT_BLUE#정신 공격 :")
+t("Mindpower: #00ff00#%s", "정신력      : #00ff00#%s")
+t("Crit. chance: #00ff00#%s", "치명타율  : #00ff00#%s")
+t("Mind speed : #00ff00#%s", "사고 속도 : #00ff00#%s")
+t("#LIGHT_BLUE#Damage mods.:", "#LIGHT_BLUE#피해 증가량:")
+t("Critical mult.: #00ff00#%s", "치명타 배수 : #00ff00#%s")
+t("All damage    : #00ff00#%s", "모든 피해량 : #00ff00#%s")
+t("#LAST# damage", "#LAST# 피해량")
+t("#LAST# damage", "#LAST# 피해량")
+t("#LAST# damage", "#LAST# 피해량")
+t("#LAST# damage", "#LAST# 피해량")
+t("#LAST# damage", "#LAST# 피해량")
+t("#LAST# damage", "#LAST# 피해량")
+t("#LIGHT_BLUE#Damage penetration.:", "#LIGHT_BLUE#저항 관통:")
+t("All damage    : #00ff00#%s", "전체 : #00ff00#%s")
+t("#LAST# damage", "#LAST# 저항 관통")
+t("#LAST# damage", "#LAST# 저항 관통")
+t("#LAST# damage", "#LAST# 저항 관통")
+t("Heavy armor", "중갑")
+t("Massive armor", "판갑")
+t("Light armor", "경갑")
+t("Fatigue         : #00ff00#%s", "피로도      : #00ff00#%s")
+t("Armor Hardiness : #00ff00#%s", "방어 효율 : #00ff00#%s")
+t("Armor           : #00ff00#%s", "방어도      : #00ff00#%s")
+t("Defense         : #00ff00#%s", "회피도      : #00ff00#%s")
+t("Ranged Defense  : #00ff00#%s", "장거리 회피: #00ff00#%s")
+t("Crit. Reduction : #00ff00#%s", "치명타 억제: #00ff00#%s")
+t("Crit. Shrug Off : #00ff00#%s", "치명타 피해 무시: #00ff00#%s")
+t("#LIGHT_BLUE#Saves:", "#LIGHT_BLUE#내성:")
+t("Physical: #00ff00#%s", "물리 내성 : #00ff00#%s")
+t("Spell   : #00ff00#%s", "주문 내성 : #00ff00#%s")
+t("Mental  : #00ff00#%s", "정신 내성 : #00ff00#%s")
+t("#LIGHT_BLUE#Resistances base / cap:", "#LIGHT_BLUE#저항력 기본 / 한계 :")
+t("All", "전체")
+t("#LIGHT_BLUE#Damage affinities:", "#LIGHT_BLUE#피해 친화 :")
+t("All damage    : #00ff00#%s", "모든 피해     : #00ff00#%s")
+t("#LAST# damage", "#LAST# 피해")
+t("#LAST# damage", "#LAST# 피해")
+t("#LAST# damage", "#LAST# 피해")
+t("#LIGHT_BLUE#Effect resistances:", "#LIGHT_BLUE#상태이상 면역력:")
+t("Poison     ", "중독     ")
+t("Disease    ", "질병     ")
+t("Bleed      ", "출혈     ")
+t("Confusion  ", "혼란     ")
+t("Blind      ", "실명     ")
+t("Silence    ", "침묵     ")
+t("Disarm     ", "무장 해제")
+t("Pinning    ", "속박     ")
+t("Stun/Freeze", "기절/빙결")
+t("Sleep      ", "수면     ")
+t("Fear       ", "공포     ")
+t("Knockback  ", "밀어내기 ")
+t("Stoning    ", "석화     ")
+t("Instadeath ", "즉사     ")
+t("Teleport   ", "순간이동 ")
+t("All        ", "모든 효과")
+t("#LIGHT_BLUE#Damage when hit:", "#LIGHT_BLUE#피해 반사 :")
+t("Character dump complete", "캐릭터 덤프 완료")
+t("File: ", "파일: ")
+section "game/modules/tome/dialogs/CursedAuraSelect.lua"
+t("Cursed Aura Selection", "저주의 오러 선택")
+t("A malevolent aura begins to form around you. Choose your curse:", "사악한 오러가 당신의 주변에 자리잡습니다. 저주를 선택하세요 : ")
+section "game/modules/tome/dialogs/DeathDialog.lua"
+t("You have #LIGHT_RED#died#LAST#!", "당신은 #LIGHT_RED#사망#LAST# 했습니다!")
+t([[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
+You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
+]], [[#{bold}#Tales of Maj'Eyal#{normal}#에서 죽음은 보통 영원하지만, 당신은 아래 선택지에 나오는 방법으로 부활할 수도 있습니다.
+영원히 이 캐릭터를 기억하기 위해 여기서 덤프 기록을 파일로 남길 수도 있습니다. 부활시, 살아남기 위해 현재 위치가 아닌 바깥으로 빠져나갈 수도 있습니다!  
+]])
+t([[#LIGHT_GREEN#During your game you#WHITE#:
+* ]], [[#LIGHT_GREEN#게임하는 동안 이뤄낸 것#WHITE#:
+* ]])
+t("#LIGHT_RED#You have %s left.", "#LIGHT_RED#이제 %s")
+t(" life(s)", " 개의 생명이 남았습니다.")
+t("no more lives", "생명이 다했습니다.")
+t("#LIGHT_RED#From the brink of death you seem to be yanked to another plane.", "#LIGHT_RED#죽음의 끝에서, 당신은 다른 차원으로 빨려 들어갔습니다.")
+t("#LIGHT_BLUE#You resurrect! CHEATER!", "#LIGHT_BLUE#부활했습니다! 사기꾼(CHEATER)이로군요!")
+t("#LIGHT_RED#The Blood of Life rushes through your dead body. You come back to life!", "#LIGHT_RED#생명의 피(Blood of Life)가 죽은 육체에 흐르기 시작합니다. 다시 살아났습니다!")
+t("#YELLOW#Your bones magically knit back together. You are once more able to dish out pain to your foes!", "#YELLOW#당신의 뼈가 마법같이 서로 붙기 시작합니다. 한번 더 적들에게 고통을 나누어줄 수 있게 되었습니다!")
+t("#YELLOW#Your %s is consumed and disappears! You come back to life!", "#YELLOW#가지고 있던 %s 사용했습니다! 다시 살아났습니다!")
+t("You managed to die on the eidolon plane! DIE!", "에이돌론의 차원에서 당신의 죽음을 다룹니다! 당신은 죽었습니다!")
+t("Resurrect by cheating", "사기(cheating)로 부활하기")
+t("Resurrect with the Blood of Life", "생명의 피(Blood of Life)로 부활하기")
+t("Re-assemble your bones and resurrect (Skeleton ability)", "(스켈레톤 능력) 뼈의 재조합으로 부활하기")
+t("Resurrect by consuming ", "getName")
+t("getName", "do_colour")
+t("do_colour", " 사용하여 부활하기")
+t("Message Log", "메세지 로그")
+t("Message/Chat log (allows to talk)", "메세지/대화 로그 (대화 가능)")
+t("Character dump", "캐릭터 덤프 기록 생성")
+t("Restart the same character", "같은 캐릭터로 다시 시작하기")
+t("Restart with a new character", "새로운 캐릭터로 다시 시작하기")
+t("Exit to main menu", "메인 메뉴로 나가기")
+section "game/modules/tome/dialogs/debug/AlterFaction.lua"
+section "game/modules/tome/dialogs/debug/ChangeZone.lua"
+section "game/modules/tome/dialogs/debug/CreateItem.lua"
+section "game/modules/tome/dialogs/debug/CreateTrap.lua"
+section "game/modules/tome/dialogs/debug/DebugMain.lua"
+section "game/modules/tome/dialogs/debug/GrantQuest.lua"
+section "game/modules/tome/dialogs/debug/SummonCreature.lua"
+section "game/modules/tome/dialogs/Donation.lua"
+section "game/modules/tome/dialogs/DownloadCharball.lua"
+section "game/modules/tome/dialogs/elements/StatusBox.lua"
+section "game/modules/tome/dialogs/elements/TalentGrid.lua"
+section "game/modules/tome/dialogs/elements/TalentTrees.lua"
+section "game/modules/tome/dialogs/GameOptions.lua"
+t("Game Options", "게임 설정")
+t("Gameplay", "게임진행")
+t("Online", "온라인")
+t("Misc", "기타")
+t([[Select the graphical mode to display the world.
+Default is 'Modern'.
+When you change it, make a new character or it may look strange.]], [[세상을 보여줄 그래픽 방식을 선택합니다.
+기본은 'Modern'입니다.
+이 설정을 바꾼 후에 새로 캐릭터를 만드세요. 새로운 캐릭터를 만들고 바로 바꾸지 않으면, 화면이 이상해 질 수도 있습니다.
+
+Select the graphical mode to display the world.
+Default is 'Modern'.
+When you change it make a new character or it may lok strange.]])
+t("#GOLD##{bold}#Graphic Mode#WHITE##{normal}#", "#GOLD##{bold}#그래픽 방식#WHITE##{normal}#")
+t([[Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
+The higher this value the slower the movements will appear.
+
+Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], [[어떤 존재나 발사체가 '부드럽게' 이동하도록 화면을 보여줍니다. 이 설정을 0 으로 하면, 이동 애니메이션을 보여주지 않게 됩니다.
+이 수치가 높을수록, 움직임이 천천히 보이게 됩니다.
+
+주의 : 이 설정은 게임 내부의 시간과는 무관합니다. 기존 이동 화면이 끝나지 않았을 때 새로운 명령을 입력하면, 현재의 움직임을 즉시 끝내고 새로운 이동화면을 보여주게 됩니다.
+
+Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
+The higher this value the slower the movements will appear.
+
+Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]])
+t("#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "#GOLD##{bold}#부드러운 이동화면#WHITE##{normal}#")
+t("Enter movement speed(lower is faster)", "이동 속도 입력 (낮을수록 빠름)")
+t("From 0 to 60", "0 에서 60 사이")
+t([[Enables or disables 'twitch' movement.
+When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [['약한 흔들림' 현상의 사용을 결정합니다.
+사용하면 이동하거나 공격할 때 개체들이 더 생동감 있게 움직입니다.
+
+Enables or disables 'twitch' movement.
+When enabled creatures will do small bumps when moving and attacking.#WHITE#]])
+t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#약한 흔들림 현상#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Enables smooth fog-of-war.
+Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[부드러운 연기 효과를 사용합니다.
+사용하지 않으면 연기가 칸마다 '네모' 모양으로 보이지만, 컴퓨터에 부담을 조금 덜 주게 됩니다.
+
+Enables smooth fog-of-war.
+Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]])
+t("#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "#GOLD##{bold}#부드러운 연기 효과#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Select the interface look. Metal is the default one. Simple is basic but takes less screen space.
+You must restart the game for the change to take effect.]], [[게임 화면 형식을 결정합니다. 기본은 '금속 예술품' 방식입니다. '가장 단순' 방식은 장식을 완전히 없애버리며, 장식이 없기 때문에 게임 화면을 덜 가립니다.
+이 설정의 효과는 게임을 다시 시작해야 적용됩니다.
+
+Select the interface look. Metal is the default one. Simple is basic but takes less screen space.
+You must restart the game for the change to take effect.]])
+t("#GOLD##{bold}#Interface Style#WHITE##{normal}#", "#GOLD##{bold}#게임화면 형식#WHITE##{normal}#")
+t("Metal", "금속 예술품")
+t("Stone", "석기 도구")
+t("Simple", "가장 단순")
+t("Interface style", "게임화면 형식")
+t("Select style", "원하는 형식을 고르시오.")
+t([[Select the HUD look. 'Minimalist' is the default one.
+#LIGHT_RED#This will take effect on next restart.]], [[HUD를 어떤방식으로 보여줄지 결정합니다. 기본은 '깔끔' 방식입니다.
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Select the HUD look. 'Minimalist' is the default one.
+#LIGHT_RED#This will take effect on next restart.#WHITE#]])
+t("#GOLD##{bold}#HUD Style#WHITE##{normal}#", "#GOLD##{bold}#HUD 형식#WHITE##{normal}#")
+t("Minimalist", "깔끔")
+t("Classic", "고전")
+t("HUD style", "HUD 형식")
+t("Select style", "원하는 형식을 고르시오.")
+t([[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
+You must restart the game for the change to take effect.]], [[원래는 글꼴을 선택하는 메뉴입니다. 하지만 한글화와 한글글꼴 적용으로 인해, 현재 이 메뉴는 적용되지 않습니다. 설정을 바꿔도 게임에 영향을 주지 않습니다.
+
+Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
+You must restart the game for the change to take effect.]])
+t("#GOLD##{bold}#Font Style#WHITE##{normal}#", "#GOLD##{bold}#글꼴 모양#WHITE##{normal}#")
+t("Font style", "글꼴 모양")
+t("Select font", "글꼴을 선택하시오")
+t([[Select the fonts size.
+You must restart the game for the change to take effect.]], [[글꼴의 크기를 선택합니다.
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Select the fonts size.
+You must restart the game for the change to take effect.]])
+t("#GOLD##{bold}#Font Size#WHITE##{normal}#", "#GOLD##{bold}#글꼴 크기#WHITE##{normal}#")
+t("Font size", "글꼴 크기")
+t("Select font", "크기를 선택하시오")
+t("Normal", "보통")
+t("Small", "작음")
+t("Big", "큼")
+t([[How many seconds before log and chat lines begin to fade away.
+If set to 0 the logs will never fade away.]], [[기록과 대화가 흐려지기 시작하는 시간을 결정합니다.
+만약 0 으로 설정하면 기록이 흐려지지 않게 됩니다.
+
+How many seconds before log and chat lines begin to fade away.
+If set to 0 the logs will never fade away.]])
+t("#GOLD##{bold}#Log fade time#WHITE##{normal}#", "#GOLD##{bold}#기록의 흐려짐 시간#WHITE##{normal}#")
+t("Fade time (in seconds)", "기록이 흐려지기 시작하는 시간 (초)")
+t("From 0 to 20", "0 에서 20 사이")
+t([[How long will flying text messages be visible on screen.
+The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], [[말풍선을 화면에 보여줄 시간을 결정합니다.
+설정 범위는 1 (아주 짧음)에서 100 (10배로 김) 사이이고, 보통의 속도는 10 입니다. 각각의 말풍선마다 따로 적용이 됩니다.
+
+How long will flying text messages be visible on screen.
+The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]])
+t("#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "#GOLD##{bold}#말풍선을 보여줄 시간#WHITE##{normal}#")
+t("Relative duration", "상대적 보여줄 시간 (보통이 10)")
+t("From 1 to 100", "1 에서 100 사이")
+t("Uses the icons for status effects instead of text.#WHITE#", [[상태 효과를 글자 대신 아이콘으로 표시합니다.
+
+Uses the icons for status effects instead of text.#WHITE#]])
+t("#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "#GOLD##{bold}#상태 아이콘 표시#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("Uses the icons hotkeys toolbar or the textual one.#WHITE#", [[단축 기술창에 글자 대신 아이콘으로 표시합니다.
+
+Uses the icons hotkeys toolbar or the textual one.#WHITE#]])
+t("#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "#GOLD##{bold}#단축 기술창 아이콘 표시#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("Number of rows to show in the icons hotkeys toolbar.#WHITE#", [[단축 기술창이 보여줄 줄 수를 결정합니다.
+HUD가 '깔끔' 방식이라면 이 설정 변경 후 '인터페이스 초기화'를 해야 줄 수가 바뀝니다.
+(단, 이렇게 할 경우 사용자가 설정한 다른 인터페이스의 위치와 크기도 모두 초기화 되어버리니 주의하세요)
+인터페이스의 잠금을 풀고 기술창 크기를 직접 변경하실 수도 있습니다.
+(원래는 이 방식을 사용하라는 의미로 '깔끔' 방식에서는 이 설정이 보이지 않았습니다)
+
+Number of rows to show in the icons hotkeys toolbar.#WHITE#]])
+t("#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "#GOLD##{bold}#단축 기술창 줄 수#WHITE##{normal}#")
+t("Number of icons rows", "기술창 줄 수")
+t("From 1 to 4", "1에서 4 사이")
+t("Size of the icons in the hotkeys toolbar.#WHITE#", [[단축 기술창에 보여줄 아이콘의 크기를 결정합니다.
+
+Size of the icons in the hotkeys toolbar.#WHITE#]])
+t("#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "#GOLD##{bold}#단축 기술창 아이콘 크기#WHITE##{normal}#")
+t("Icons size", "아이콘 크기")
+t("From 32 to 64", "32 에서 64 사이")
+t([[If disabled lore popups will only appear the first time you see the lore on your profile.
+If enabled it will appear the first time you see it with each character.#WHITE#]], [[이 설정을 사용하지 않으면, 모든 게임을 통틀어 처음으로 알게 된 지식만 보여줍니다.
+이 설정을 사용하면, 캐릭터마다 처음으로 알게 된 지식을 보여줍니다.
+
+If disabled lore popups will only appear the first time you see the lore on your profile.
+If enabled it will appear the first time you see it with each character.#WHITE#]])
+t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#항상 지식 보여주기#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", [[이 설정을 사용하지 않으면, 장비에 포함된 기술이 자동으로 단축키에 연결되지 않게 됩니다. 일반적인 물건에 포함된 기술은 소지품 목록 창에서 마우스 드래그나 단축키를 눌러 연결시킬 수 있습니다.
+
+If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#]])
+t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#항상 물건을 단축키로 연결#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Toggles between various tactical information display:
+- Combined healthbar and small tactical frame
+- Combined healthbar and big tactical frame
+- Only healthbar
+- No tactical information at all
+
+#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], [[다음의 여러가지 전략적 정보 표시 방식 중 하나를 선택합니다 :
+- Combined healthbar and small tactical frame
+- Combined healthbar and big tactical frame
+- Only healthbar
+- No tactical information at all
+
+#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]])
+t("#GOLD##{bold}#Tactical overlay#WHITE##{normal}#", "#GOLD##{bold}#전략적 정보 표시 방식#WHITE##{normal}#")
+t("Combined Small", "작은 복합식")
+t("Combined Big", "큰 복합식")
+t("Only Healthbars", "생명력 막대만")
+t("Nothing", "표시 없음")
+t("Combined Small", "작은 복합식")
+t("Tactical overlay", "전략적 정보 표시 방식")
+t("Select overlay mode", "방식을 선택하십시오")
+t("Combined Small", "작은 복합식")
+t("Combined Big", "큰 복합식")
+t("Only Healthbars", "생명력 막대만")
+t("Nothing", "표시 없음")
+t("Toggles between a normal or flagpost tactical bars.#WHITE#", [[전략적 깃발을 사용할 것인지 결정합니다.#WHITE#
+(전략적 깃발 사용시 생명력 막대 옆의 장식 모양이 소속에 따라 달라집니다.)
+
+Toggles between a normal or flagpost tactical bars.#WHITE#]])
+t("#GOLD##{bold}#Flagpost tactical bars#WHITE##{normal}#", "#GOLD##{bold}#전략적 깃발#WHITE##{normal}#")
+t("Enabled", "사용")
+t("Disabled", "사용하지 않음")
+t("Toggles between a bottom or side display for tactial healthbars.#WHITE#", [[생명력 막대의 위치를 옆쪽과 아래쪽 중 결정합니다.#WHITE#
+
+Toggles between a bottom or side display for tactial healthbars.#WHITE#]])
+t("#GOLD##{bold}#Healthbars position#WHITE##{normal}#", "#GOLD##{bold}#생명력 막대 위치#WHITE##{normal}#")
+t("Sides", "옆")
+t("Bottom", "아래")
+t("If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", [[사용하지 않는 경우 기절이나 혼절시 전체화면 경고를 받지 못합니다. 주의하세요.#WHITE#
+
+If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#]])
+t("#GOLD##{bold}#Fullscreen stun/daze notification#WHITE##{normal}#", "#GOLD##{bold}#전체화면 기절/혼절 알림#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", [[사용하지 않는 경우 혼란시 전체화면 경고를 받지 못합니다. 주의하세요.#WHITE#
+
+If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#]])
+t("#GOLD##{bold}#Fullscreen confusion notification#WHITE##{normal}#", "#GOLD##{bold}#전체화면 혼란 알림#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", [[스크롤을 시작할 플레이어와 화면 가장자리 사이의 최소거리입니다. 이 수치가 충분히 높으면, 플레이어 캐릭터는 항상 게임 화면의 가운데에 있게 됩니다.
+
+Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#]])
+t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#스크롤 거리#WHITE##{normal}#")
+t("Scroll distance", "스크롤 거리")
+t("From 1 to 30", "1 에서 30 사이")
+t([[Enables or disables weather effects in some zones.
+Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], [[특정 지역에서 날씨 효과를 보여줄지 결정합니다.
+사용하지 않으면 컴퓨터에 부담을 조금 덜 주게 됩니다. 기존에 이미 방문한 지역에는 영향을 주지 않습니다.
+
+Enables or disables weather effects in some zones.
+Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]])
+t("#GOLD##{bold}#Weather effects#WHITE##{normal}#", "#GOLD##{bold}#날씨 효과#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("Enables or disables day/night light variations effects..#WHITE#", [[낮과 밤에 따른 여러 가지 조명 효과를 보여줄지 결정합니다.
+
+Enables or disables day/night light variations effects..#WHITE#]])
+t("#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "#GOLD##{bold}#낮/밤 조명 변화#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("Enables easy movement using the mouse by left-clicking on the map.#WHITE#", [[지도에서 마우스를 클릭하는 곳으로 이동할 것인지 결정합니다.
+
+Enables easy movement using the mouse by left-clicking on the map.#WHITE#]])
+t("#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "#GOLD##{bold}#마우스를 사용한 이동#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Enables quick melee targeting.
+Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[빠른 근접 목표 지정 방식을 사용할 것인지 결정합니다.
+인접한 목표를 필요로 하는 기술 사용시, 방향키를 누르면 따로 확인받지 않고 해당하는 방향의 존재가 자동으로 목표로 지정됩니다.
+
+Enables quick melee targeting.
+Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]])
+t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#빠른 근접 목표 지정#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[빠른 근접 목표 자동 공격 방식을 사용할 것인지 결정합니다.
+인접한 목표를 필요로 하는 기술 사용시, 시야 주변에 인접한 적 하나만이 존재할 경우 자동으로 기술이 사용됩니다.
+
+Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]])
+t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#근접 목표 자동 공격 사용#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", [[마우스 타겟팅 가능 여부를 설정합니다.
+사용하지 않을 경우, 마우스를 통해 대상 설정이나 기술 사용 등을 할 수 없게 됩니다.
+
+Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#]])
+t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#마우스 타겟팅#WHITE##{normal}#")
+t("disabled", "사용하지 않음")
+t("enabled", "사용")
+t("New games begin with some talent points auto-assigned.#WHITE#", [[새로운 게임을 시작할 때, 캐릭터의 기본 기술을 자동으로 배운 상태에서 시작할지 결정합니다.
+
+New games begin with some talent points auto-assigned.#WHITE#]])
+t("#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "#GOLD##{bold}#캐릭터 생성시 기본 기술 할당#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("Always rest to full before auto-exploring.#WHITE#", [[자동탐험을 하기 전에, 자동으로 충분한 휴식을 취할지 결정합니다.
+
+Always rest to full before auto-exploring.#WHITE#]])
+t("#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "#GOLD##{bold}#자동탐험시 휴식사용#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t("Configure the chat filters to select what kind of messages to see.#WHITE#", [[화면에 보여줄 대화 메세지 종류를 결정합니다.
+
+Configure the chat filters to select what kind of messages to see.#WHITE#]])
+t("#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "#GOLD##{bold}#대화창에서 보여줄 사항#WHITE##{normal}#")
+t("select to configure", "설정을 선택")
+t("Deaths", "죽음")
+t("Object & Creatures links", "물건 및 생물체 링크")
+t("Configure the chat ignore filter.#WHITE#", [[대화창에서 무시할 사항을 설정합니다.
+
+Configure the chat ignore filter.#WHITE#]])
+t("#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "#GOLD##{bold}#대화창에서 무시할 사항#WHITE##{normal}#")
+t("select to configure", "설정을 선택")
+t("Configure the chat channels to listen to.#WHITE#", [[이야기를 들을 대화창 채널을 설정합니다.
+
+Configure the chat channels to listen to.#WHITE#]])
+t("#GOLD##{bold}#Chat channels#WHITE##{normal}#", "#GOLD##{bold}#대화창 채널#WHITE##{normal}#")
+t("select to configure", "설정을 선택")
+t([[Allow various events that are pushed by the server when playing online
+Disabling this will make you miss cool and fun zones.#WHITE#]], [[온라인으로 게임 진행 중, 서버에서 보내는 여러 종류의 이벤트 사용 여부를 설정합니다.
+사용하지 않으면 멋지고 재미있는 지역들을 놓치게 됩니다.#WHITE#
+
+Allow various events that are pushed by the server when playing online
+Disabling this will make you miss cool and fun zones.#WHITE#]])
+t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#온라인 이벤트 허용#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Saves in the background, allowing you to continue playing.
+#LIGHT_RED#Disabling it is not recommended.#WHITE#]], [[백그라운드 방식으로 저장하면서, 계속 게임을 할 수 있습니다.
+#LIGHT_RED#'사용하지 않음'을 선택하는 것을 권장하지 않습니다.#WHITE#
+
+Saves in the background, allowing you to continue playing.
+#LIGHT_RED#Disabling it is not recommended.#WHITE#]])
+t("#GOLD##{bold}#Save in the background#WHITE##{normal}#", "#GOLD##{bold}#백그라운드 방식 저장#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Forces the game to save each level instead of each zone.
+This makes it save more often but the game will use less memory when deep in a dungeon.
+
+#LIGHT_RED#Changing this option will not affect already visited zones.
+*THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.
+#LIGHT_RED#Disabling it is not recommended#WHITE#]], [[지역 정보를 지역별로 저장을 하는 대신, 지역의 모든 층마다 별도로 저장합니다.
+이 방식은 저장을 더 자주 하지만, 깊은 던전에서 메모리 사용량을 줄일 수 있습니다.
+
+#LIGHT_RED#이미 방문한 지역정보는 변경되지 않습니다.
+*층이 바뀔 때마다 자동으로 저장을 하지는 않습니다*
+#LIGHT_RED#'사용하지 않음'을 선택하는 것을 권장하지 않습니다.#WHITE#
+
+Forces the game to save each level instead of each zone.
+This makes it save more often but the game will use less memory when deep in a dungeon.
+
+#LIGHT_RED#Changing this option will not affect already visited zones.
+*THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.
+#LIGHT_RED#Disabling it is not recommended#WHITE#]])
+t("#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "#GOLD##{bold}#지역의 층마다 따로 저장#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+section "game/modules/tome/dialogs/GraphicMode.lua"
+t("ASCII with background", "ASCII + 배경")
+t("Custom Tileset", "커스텀 타일셋")
+t("Change graphic mode", "그래픽 변경")
+t("Custom Tileset", "커스텀 타일셋")
+t([[You can configure the game to use a custom tileset.
+You must place all files of your tileset in a subfolder of the modules's data/gfx/ folder, just like the existing tilesets.
+Each tile must be correctly named according to the existing tilesets.]], [[커스텀 타일셋을 사용하도록 게임을 설정할 수 있습니다.
+기존의 타일셋과 같이, 사용하려는 타일셋의 모든 파일이 해당 모듈의 data/gfx/ 폴더의 하위에 존재해야만 합니다.
+각 타일의 이름은 기존의 타일셋에 있는 이름과 같아야 합니다.]])
+t("Folder: ", "폴더: ")
+t("Use moddable tiles (equipment showing on player)", "조정(moddable) 타일 사용 (플레이어 장비가 보임)")
+t("Use advanced tiles (transitions, wide tiles, ...)", "향상된 타일 사용 (변화, 큰 타일, ...)")
+t("Use custom tileset", "커스텀 타일셋 사용")
+t("Cancel", "취소")
+t("Tile size", "타일 크기")
+t("From 10 to 128", "10에서 128 사이")
+t("Select style [current: ", "모양 결정 [현재: ")
+t("Select tiles size [current: ", "타일 크기 결정 [현재: ")
+t("Custom", "사용자입력")
+section "game/modules/tome/dialogs/LevelupDialog.lua"
+t("Levelup: ", "레벨 상승 : ")
+t("Finish", "완료")
+t("Do you accept changes?", [[변경사항을 적용합니까?
+]])
+t("Impossible", "불가능")
+t("You cannot learn this talent(s): ", "이 기술을 배울 수 없습니다 : ")
+t([[#LIGHT_BLUE#Warning: You have increased some of your statistics or talent. Talent(s) actually sustained: 
+ %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], [[#LIGHT_BLUE#경고 : 당신의 능력치나 기술이 변화했지만, 아직 전에 사용한 기술이 유지 중입니다 : 
+%s 이 기술들 중 바뀐 능력치의 영향을 받는 기술들이 있다면, 바뀐 능력치의 효과를 보기 위해서는 해당 기술을 다시 사용해야 합니다.]])
+t("Not enough stat points", "능력치 점수 부족")
+t("You have no stat points left!", "남아있는 능력치 점수가 없습니다!")
+t("Stat is at the maximum for your level", "레벨 한계치")
+t("You cannot increase this stat further until next level!", "레벨이 더 올라야 이 능력치를 올릴 수 있습니다!")
+t("Stat is at the maximum", "최대 능력치 도달")
+t("You cannot increase this stat further!", "더 이상 이 능력치는 올릴 수 없습니다!")
+t("Impossible", "불가능")
+t("You cannot take out more points!", "점수를 더 반환할 수 없습니다!")
+t("class", "직업")
+t("generic", "일반")
+t("Not enough ", "")
+t(" talent points", " 기술 점수 부족")
+t("You have no ", "남아있는 ")
+t(" talent points left!", " 기술 점수가 없습니다!")
+t("Cannot learn talent", "기술을 배울 수 없음")
+t("Prerequisites not met!", "선행조건에 부합하지 않아 배울 수 없습니다!")
+t("Already known", "이미 습득한 기술")
+t("You already fully know this talent!", "이미 이 기술은 완벽히 배웠습니다!")
+t("Impossible", "불가능")
+t("You do not know this talent!", "이 기술은 배우지 않았습니다!")
+t("Impossible here", "불가능한 장소")
+t("You could unlearn this talent in a quiet place, like a #{bold}#town#{normal}#.", "이 기술은 #{bold}#마을#{normal}#과 같이 조용한 장소에서만 기술 습득을 취소할 수 있습니다.")
+t("Impossible", "불가능")
+t("You cannot unlearn this talent!", "기술 습득을 취소할 수 없습니다!")
+t("Impossible", "불가능")
+t("You cannot unlearn this talent because of talent(s): ", "다음 기술 때문에 이 기술 습득을 취소할 수 없습니다 : ")
+t("Impossible", "불가능")
+t("You can only improve a category mastery once!", "기술계열 숙련은 한 번만 가능합니다!")
+t("Not enough talent category points", "기술계열 점수 부족")
+t("You have no category points left!", "남아있는 기술계열 점수가 없습니다!")
+t("Too low level", "미숙한 레벨")
+t("This talent tree only provides talents starting at level %d. Learning it now would be useless.", "이 기술계열은 레벨 %d 부터 사용할 수 있습니다. 지금 이 기술계열을 익히는 것은 쓸모가 없습니다.")
+t("Impossible", "불가능")
+t("You cannot take out more points!", "점수를 더 반환할 수 없습니다!")
+t("Impossible", "불가능")
+t("You cannot unlearn this category!", "기술계열 숙련을 취소할 수 없습니다!")
+t("Impossible", "불가능")
+t("You do not know this category!", "이 기술계열은 배우지도 않았습니다!")
+t("Impossible", "불가능")
+t("You cannot unlearn this category because of: ", "다음 이유로 이 기술계열 숙련을 취소할 수 없습니다 : ")
+t("generic", "일반")
+t("class", "직업")
+t([[Stats points left: #00FF00#%d#LAST#
+Category points left: #00FF00#%d#LAST#
+Class talent points left: #00FF00#%d#LAST#
+Generic talent points left: #00FF00#%d#LAST#]], [[남아있는 능력치 점수: #00FF00#%d#LAST#
+남아있는 기술계열 점수: #00FF00#%d#LAST#
+남아있는 직업기술 점수: #00FF00#%d#LAST#
+남아있는 일반기술 점수: #00FF00#%d#LAST#]])
+t([[Stat points allow you to increase your core stats.
+Each level you gain 3 new stat points to use.
+
+You may only increase stats to a natural maximum of 60 or lower (relative to your level).]], [[능력치 점수로 당신의 기본 능력치를 올릴 수 있습니다.
+레벨이 오를 때마다 3 점의 능력치 점수를 얻습니다.
+
+각각의 능력치는 자연적 최대치인 60 이나, (당신의 레벨에 따라 정해지는) 일정 수준까지만 올릴 수 있습니다.]])
+t([[Class talent points allow you to learn new class talents or improve them.
+Class talents are core to your class and can not be learnt by training.
+
+Each level you gain 1 new class point to use.
+Each five levels you gain one more.
+]], [[직업기술 점수로 새로운 직업기술을 익히거나, 기존의 직업기술을 향상시킬 수 있습니다.
+직업기술은 당신의 직업에 따라 정해지며, 훈련으로 새롭게 익힐 수 없습니다.
+
+레벨이 오를 때마다 1 점의 직업기술 점수를 얻습니다.
+레벨이 5 의 배수가 될 때마다, 직업기술 점수를 1 점 더 얻을 수 있습니다.
+]])
+t([[Generic talent points allow you to learn new generic talents or improve them.
+Generic talents comes from your class, your race or various outside training you can get during your adventures.
+
+Each level you gain 1 new generic point to use.
+Each five levels you gain one less.
+]], [[일반기술 점수로 새로운 일반기술을 익히거나, 기존의 일반기술을 향상시킬 수 있습니다.
+일반기술은 당신의 직업이나 종족에 따라 얻는 것도 있고, 모험을 하는 과정에서 다양한 훈련을 통해 얻을 수도 있습니다.
+
+기본적으로는 레벨이 오를 때마다 1 점의 일반기술 점수를 얻습니다.
+하지만, 레벨이 5 의 배수가 될 때마다 일반기술 점수를 얻지 못하게 됩니다.
+]])
+t([[Talent category points allow you to either:
+- learn a new talent (class or generic) category
+- improve a known talent category efficiency by 0.2
+- learn a new inscription slot (up to a maximum of 5, learning it is automatic when using an inscription)
+
+You gain a new point at level 10, 20 and 36.
+Some races or items may increase them as well.]], [[기술계열 점수로는 다음 중 하나를 할 수 있습니다 :
+- 새로운 (직업, 일반) 기술 계열을 익힙니다. (잠겨진 기술계열 활성화)
+- 이미 익힌 기술 계열의 숙련도를 0.2 향상시킵니다. (기술 계열당 한 번씩만 가능)
+- 각인의 갯수를 늘립니다. (최대 각인의 갯수는 5 개로 한정)
+
+레벨이 10, 20, 36 이 될 때 기술계열 점수를 1 점 얻을 수 있습니다.
+어떤 종족은 기술계열 점수를 가지고 시작하며, 희귀하지만 기술계열 점수를 높여주는 물건도 있습니다.]])
+t([[Prodigies are special talents that only the most powerful of characters can attain.
+All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 30 and 42.]], [[특수기술은 캐릭터가 얻을 수 있는 가장 강력하며 특별한 기술입니다.
+모든 특수기술을 배우기 위해서는 주요 능력치가 50 을 넘어야 하며, 그 외에도 기술에 따른 특별한 조건을 갖추어야 배울 자격이 주어집니다. 새로운 특수기술은 30 레벨에 한 번, 42 레벨에 한 번 배울 수 있습니다.]])
+t("You can use a category point to unlock a new inscription slot (up to 5 slots).", "기술계열 점수를 하나 사용하여, 새로운 각인을 새길 수 있게 됩니다. (각인은 최대 5 개 새길 수 있음)")
+t("Prodigies", "특수기술")
+t("Inscriptions", "각인 슬롯")
+t("Inscriptions", "각인 슬롯")
+t("You have learnt all the inscription slots you could.", "당신은 더 이상 각인 슬롯을 늘릴 수 없습니다. 이미 최대치입니다.")
+t("Inscriptions", "각인 슬롯")
+t("You can learn %d new slot(s). Do you wish to buy one with one category point?", "당신은 %d 개의 새 각인 슬롯을 얻을 수 있습니다. 지금 기술계열 점수를 사용하여 새 각인 슬롯을 얻으시겠습니까?")
+t("Category points: ", "기술계열 점수: ")
+t("Inscriptions", "각인")
+t("You can still learn %d new slot(s) but you need a category point.", "당신은 아직 %d 개의 새 각인 슬롯을 얻을 수 있지만, 이를 위해서는 기술계열 점수가 필요합니다.")
+t("Stats: ", "능력치: ")
+t("Class points: ", "직업기술 점수: ")
+t("Generic points: ", "일반기술 점수: ")
+t("Category points: ", "기술계열 점수: ")
+t("Current value: ", "현재 값 : ")
+t("Base value: ", "기본 값 : ")
+t("Stat gives:", "능력치 상승시 : ")
+t("Max life: ", "최대 생명력 : ")
+t("Physical save: ", "물리 내성 : ")
+t("Max mana: ", "최대 마나 : ")
+t("Max stamina: ", "최대 체력 : ")
+t("Max psi: ", "최대 염력 : ")
+t("Mindpower: ", "정신력 : ")
+t("Mental save: ", "정신 내성 : ")
+t("Spell save: ", "주문 내성 : ")
+t("Physical power: ", "물리력 : ")
+t("Max encumbrance: ", "최대 소지 무게 : ")
+t("Physical save: ", "물리 내성 : ")
+t("Crit. chance: ", "치명타 확률 : ")
+t("Mental save: ", "정신 내성 : ")
+t("Mindpower: ", "정신력 : ")
+t("Accuracy: ", "정확도 : ")
+t("Spell save: ", "주문 내성 : ")
+t("Spellpower: ", "주문력 : ")
+t("Defense: ", "회피도 : ")
+t("Ranged defense: ", "장거리 회피 : ")
+t("Accuracy: ", "정확도 : ")
+t("Shrug off criticals chance: ", "치명타 피해 무시 : ")
+t("Class powers:", "직업 능력 : ")
+t("Talent Category", "기술계열")
+t([[A talent category contains talents you may learn. You gain a talent category point at level 10, 20 and 36. You may also find trainers or artifacts that allow you to learn more.
+A talent category point can be used either to learn a new category or increase the mastery of a known one.]], [[하나의 기술계열에는 여러 개의 습득할 수 있는 기술들이 포함되어 있습니다.
+10, 20, 36 레벨 마다 1점씩 받을 수 있는 기술계열 점수를 통해, 새로운 기술계열을 배우거나 기존의 기술계열을 강화시킬 수 있습니다.]])
+t("Generic talent tree", "일반기술 계통")
+t("A generic talent allows you to perform various utility actions and improve your character. It represents a skill anybody can learn (should you find a trainer for it). You gain one point every level (except every 5th level). You may also find trainers or artifacts that allow you to learn more.", "일반기술로는 캐릭터의 기본적인 능력을 향상시키거나, 여러 가지 유용한 기술들을 사용할 수 있습니다. 일반기술은 누구나 배울 수 있는 기술들을 의미하며 레벨 상승시 1 점을 받지만, 5 의 배수 레벨에는 일반기술 점수를 받지 못합니다. 일반기술 점수를 추가로 획득할 수 있는 물건이나 기회를 발견할 수도 있습니다.")
+t("Class talent tree", "직업기술 계통")
+t("A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "직업기술은 당신이 선택한 직업의 핵심적인 능력들을 나타내며, 새로운 전투법이나 주문, 강화효과 등을 얻을 수 있습니다. 레벨 상승시 1 점을 받으며, 5 의 배수 레벨에서는 2 점을 받습니다. 직업기술 점수를 추가로 획득할 수 있는 물건이나 기회를 발견할 수도 있습니다.")
+t("First talent level: ", "처음 기술 레벨 : ")
+t("Next talent level", "다음 기술 레벨")
+t("Current talent level: ", "현재 기술 레벨 : ")
+t("Current talent level: ", "현재 기술 레벨 : ")
+t("Stats: ", "능력치: ")
+t("Class points: ", "직업기술 점수: ")
+t("Generic points: ", "일반기술 점수: ")
+t("Category points: ", "기술계열 점수: ")
+section "game/modules/tome/dialogs/LorePopup.lua"
+t("Lore found: #0080FF#", "지식 발견 : #0080FF#")
+section "game/modules/tome/dialogs/MapMenu.lua"
+t("Actions", "행동")
+t("Change level", "층 변경")
+t("Pickup item", "물건 줍기")
+t("Move to", "이동")
+t("Control", "조종")
+t("Give order", "명령 주문")
+t("Target player", "목표로 지정")
+t("Rest a while", "휴식")
+t("Auto-explore", "자동탐사")
+t("Inventory", "소지품 목록")
+t("Quest Log", "퀘스트 기록")
+t("Inspect Creature", "생명체 조사")
+t("Link creature in chat", "채팅창에 생명체 연결")
+t("Levelup!", "레벨 상승!")
+section "game/modules/tome/dialogs/orders/Behavior.lua"
+t("Set behavior: ", "행동 설정 : ")
+t("%s behavior set to %s.", "%s의 행동을 %s 설정했습니다.")
+t("Default", "기본")
+t("Melee", "근접 공격")
+t("Ranged", "장거리 공격")
+t("Tank", "보호")
+t("Standby", "대기")
+section "game/modules/tome/dialogs/orders/Talents.lua"
+t("Define tactical talents usage", "전략적 기술 사용 정의")
+t([[%s is listening attentively, and wants to know what talents to use.
+You can modify the tactical weights of various talents to increase or decrease their use.  The weights are multiplicative (zero will turn the talent off) and relative (changing everything to a weight of 2 will not alter how talents are used relative to each other).
+Word travels fast in Maj'Eyal, and if %s is a summon all future summons of the same type will remember your preferences.
+]], [[%s 무슨 기술을 사용해도 괜찮은지를 알기 위해 주인의 말을 주의깊게 경청하고 있습니다.
+당신은 여러 기술들의 중요도를 조정하여, 특정 기술을 더 자주 사용하거나 혹은 덜 사용하도록 만들 수 있습니다. 중요도는 상대적으로 적용됩니다. (중요도가 0 일 경우 해당 기술을 사용하지 않으며, 모든 기술의 중요도가 2 일 경우 중요도를 바꾸지 않은 것과 똑같습니다)
+마즈'에이알에서는 소환수들 사이에 말이 매우 빨리 전달되어서, %s 소환수라면 앞으로 소환되는 같은 종류의 모든 소환수에게 이 기준이 적용됩니다.
+]])
+t("Talent Name", "기술 이름")
+t("Weight", "중요도")
+t("Enter the talent weight multiplier", "기술의 중요도를 입력하세요")
+t("0 is off, 1 is normal", "중요도가 0 일 경우 해당 기술을 사용하지 않습니다")
+section "game/modules/tome/dialogs/PartyOrder.lua"
+t("Wait a few turns", "잠시만 기다리세요.")
+t("Where is the portal?", "관문은 어디있죠?")
+t("Set the target [current: %s]", "목표 설정 [현재 : %s]")
+t("none", "없음")
+t("Set behavior [current: %s]", "행동 설정 [현재 : %s]")
+t("default", "기본")
+t("Set the leash anchor [current: %s]", "기준 위치 설정 [현재 : %s]")
+t("none", "없음")
+t("Set the leash distance [current: %d]", "최대 거리 설정 [현재 : %d]")
+t("Define tactical talents usage", "전략적 기술 사용 정의")
+t("Order: ", "명령: ")
+section "game/modules/tome/dialogs/PartyRewardSelector.lua"
+section "game/modules/tome/dialogs/PartySelect.lua"
+t("Switch to which character?", "어느 캐릭터로 바꿀까요?")
+section "game/modules/tome/dialogs/PartySendItem.lua"
+t("Give item to a party member", "동료에게 물건 주기")
+t("You give %s to %s.", "당신은 %s %s에게 줬습니다.")
+section "game/modules/tome/dialogs/ShowAchievements.lua"
+t("-- Unknown --", "-- 알 수 없음 --")
+t("-- Unknown --", "-- 알 수 없음 --")
+section "game/modules/tome/dialogs/ShowChatLog.lua"
+t("Game Log", "게임 기록")
+t("Right click to inspect.", "우클릭 : 생명체 조사")
+t("Show infos", "정보 보기")
+t("Whisper", "귓속말")
+t("Ignore", "무시하기")
+t("Open profile(in browser)", "프로파일 열기 (웹 브라우저로)")
+t("Report for bad behavior", "나쁜 행동 보고하기")
+t("Open charsheet(in browser)", "캐릭터 상태창 열기 (웹 브라우저로)")
+t("User: ", "사용자 : ")
+t("Action", "행동")
+t("Ignore user", "사용자 무시하기")
+t("Really ignore all messages from: ", "다음 사용자로부터의 모든 메세지를 정말로 무시합니까? : ")
+t("Reason to report: ", "보고서 작성 이유 : ")
+t("Reason", "이유 (영어로 작성할 것)")
+t("Report sent.", "보고서를 제출했습니다.")
+section "game/modules/tome/dialogs/ShowEquipInven.lua"
+t("Inventory", "소지품")
+t("Main Set", "기본 장비")
+t("Off Set", "보조 장비")
+t("Tooltip %s", "정보창 표시 %s")
+t("locked", "잠금")
+t("unlocked", "잠금 해제")
+section "game/modules/tome/dialogs/ShowEquipment.lua"
+t("Equipment", "장비")
+t("Main Set", "기본 장비")
+t("Off Set", "보조 장비")
+section "game/modules/tome/dialogs/ShowIngredients.lua"
+t("Ingredients collected", "획득한 연금술 재료")
+t("Ingredient", "재료명")
+t("Category", "종류")
+t("Quantity", "수량")
+t([[#GOLD#Category:#AQUAMARINE# %s
+#GOLD#Ingredient:#0080FF# %s
+#GOLD#Quantity:#0080FF# %s
+#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#종류 :#AQUAMARINE# %s
+#GOLD#재료명 :#0080FF# %s
+#GOLD#수량 :#0080FF# %s
+#GOLD#설명 :#ANTIQUE_WHITE# %s]])
+section "game/modules/tome/dialogs/ShowInventory.lua"
+t("Inventory", "소지품")
+section "game/modules/tome/dialogs/ShowLore.lua"
+t("Lore", "지식")
+t("Lore", "지식")
+t("Category", "종류")
+t([[#GOLD#Category:#AQUAMARINE# %s
+#GOLD#Found as:#0080FF# %s
+#GOLD#Text:#ANTIQUE_WHITE# %s]], [[#GOLD#종류 :#AQUAMARINE# %s
+#GOLD#지식 이름 :#0080FF# %s
+#GOLD#내용 :#ANTIQUE_WHITE# %s]])
+section "game/modules/tome/dialogs/ShowMap.lua"
+t("Map: #0080FF#", "지도 : #0080FF#")
+section "game/modules/tome/dialogs/ShowPickupFloor.lua"
+section "game/modules/tome/dialogs/ShowStore.lua"
+t("Store", "상점")
+t("Inventory", "소지품")
+t("Category", "종류")
+t("Price", "가격")
+t("Store", "판매품")
+t("Category", "종류")
+t("Price", "가격")
+t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (상점 금화 보유량: %0.2f gold, 가진 금화: %0.2f)")
+section "game/modules/tome/dialogs/talents/ChronomancyContingency.lua"
+section "game/modules/tome/dialogs/talents/ChronomancyEmpower.lua"
+section "game/modules/tome/dialogs/talents/ChronomancyExtension.lua"
+section "game/modules/tome/dialogs/talents/ChronomancyMatrix.lua"
+section "game/modules/tome/dialogs/talents/ChronomancyQuicken.lua"
+section "game/modules/tome/dialogs/UberTalent.lua"
+t("Prodigies: ", "특수기술 : ")
+t([[Prodigies are special talents that only the most powerful of characters can attain.
+All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 30 and 42.
+#LIGHT_GREEN#Prodigies available: %d]], [[특수기술은 캐릭터가 얻을 수 있는 가장 강력하며 특별한 기술입니다.
+모든 특수기술을 배우기 위해서는 주요 능력치가 50 을 넘어야 하며, 그 외에도 기술에 따른 특별한 조건을 갖추어야 배울 자격이 주어집니다. 새로운 특수기술은 30 레벨에 한 번, 42 레벨에 한 번 배울 수 있습니다.
+#LIGHT_GREEN#보유 특수기술 점수 : %d]])
+section "game/modules/tome/dialogs/UnlockDialog.lua"
+t("#VIOLET#Option unlocked: ", "#VIOLET#잠김 해제 : ")
+t("Option unlocked: ", "잠김 해제 : ")
+section "game/modules/tome/dialogs/UseItemDialog.lua"
+t("Impossible", "사용 불가")
+t("You must wear this object to use it!", "이것은 착용해야 사용할 수 있습니다!")
+t("Drop how many?", "버릴 수량은?")
+t("Transmogrify", "물건 변환")
+t("Tag object (tagged objects can not be destroyed or dropped)", "물건에 표시하기 (표시된 물건은 파괴하거나 버릴수 없습니다)")
+t("Tag:", "표시:")
+t("Identify", "감정")
+t("Move to normal inventory", "일반 소지품 목록으로 이동")
+t("Use", "사용")
+t("Wield/Wear", "착용")
+t("Take off", "착용 해제")
+t("Detach from item", "때내기")
+t("Attach to item", "부착하기")
+t("Drop", "버리기")
+t("Transfer to party", "동료에게 건네주기")
+t("actor", "지금 ")
+t("transmoGetWord", "actor")
+t("capitalize", "transmoGetWord")
+t(" now", "capitalize")
+t("Link item in chat", "채팅창에 물건 연결")
+t("Tag", "표시")
+t("Untag", "표시 지우기")
+section "game/modules/tome/dialogs/UseTalents.lua"
+t("Active", "사용 가능")
+t(" turns", " 턴")
+t("Unavailable", "불가능")
+t("Sustaining", "유지중")
+t("Sustain", "유지 가능")
+t("Passive", "지속")
+t("Use Talents: ", "기술 사용 : ")
+t([[You can bind a non-passive talent to a hotkey by pressing the corresponding hotkey while selecting a talent or by right-clicking on the talent.
+Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control, shift, or alt).
+Right click or press '~' to configure talent confirmation and automatic use.
+]], [[지속형이 아닌 기술은 선택 후 원하는 단축키를 누르거나 우클릭을 해서 단축키로 연결할 수 있습니다.
+게임 메뉴의 명령어 입력 설정에서 단축키로 사용할 명령어를 정할 수 있습니다. (기본적으로는 숫자키부터 '=' 키 까지, 그리고 여기에 컨트롤, 알트, 쉬프트 키를 조합하여 사용합니다)
+기술을 우클릭 하거나 'Shift + ~' 키를 누르면 기술 설정 창이 열립니다. 이 창에서 기술 단축키 설정과 자동 사용 설정 등을 할 수 있습니다.
+]])
+t("Talent", "기술")
+t("Status", "상태")
+t("Hotkey", "단축키")
+t("Mouse Click", "마우스 클릭")
+t("LeftClick", "클릭")
+t("MiddleClick", "중간 클릭")
+t("Unbind", "단축키 해제")
+t("Bind to left mouse click (on a target)", "(목표에게) 마우스 왼쪽버튼을 클릭하면 사용")
+t("Bind to middle mouse click (on a target)", "(목표에게) 마우스 중간버튼을 클릭하면 사용")
+t("#YELLOW#Disable talent confirmation", "#YELLOW#기술 사용 시 확인 작업 없애기")
+t("Request confirmation before using this talent", "이 기술을 사용하기 전 확인 받기")
+t("#YELLOW#Disable ", "#YELLOW#비활성화")
+t("Auto-use when available", "가능한 경우 항상 자동 사용")
+t("Auto-use when no enemies are visible", "적이 보이지 않을 경우 항상 자동 사용")
+t("Auto-use when enemies are visible", "적이 보일 경우 항상 자동 사용")
+t("Auto-use when enemies are visible and adjacent", "적이 인접할 경우 항상 자동 사용")
+t("Hotkey ", "단축키 ")
+t("Bind talent: ", "기술 연결: ")
+t("How do you want to bind this talent?", "이 기술을 어디에 연결하시겠습니까?")
+t("H.Key ", "단축 ")
+t("#{bold}#Activable talents#{normal}#", "#{bold}#사용가능 기술#{normal}#")
+t("All activable talents you can currently use.", "사용가능 기술은 현재 사용할 수 있는 사용형 기술들을 나타냅니다.")
+t("#{bold}#Sustainable talents#{normal}#", "#{bold}#유지가능 기술#{normal}#")
+t("All sustainable talents you can currently use.", "유지가능 기술은 현재 유지시킬 수 있는 유지형 기술들을 나타냅니다.")
+t("#{bold}#Sustained talents#{normal}#", "#{bold}#유지중 기술#{normal}#")
+t("All sustainable talents you currently sustain, using them will de-activate them.", "유지중 기술은 현재 유지 중인 유지형 기술들을 나타냅니다. 기술을 다시 사용할 경우 유지 상태가 풀립니다.")
+t("#{bold}#Cooling down talents#{normal}#", "#{bold}#대기중 기술#{normal}#")
+t("All talents you have used that are still cooling down.", "대기중 기술은 다음 사용이 가능해질 때까지 대기 중인 기술들을 나타냅니다.")
+t("#{bold}#Unavailable talents#{normal}#", "#{bold}#사용 불가능 기술#{normal}#")
+t("All talents you have that do not have enough resources, or satisfy other dependencies.", "사용 불가능 기술은 필요한 원천력이 부족하거나 다른 조건을 만족하지 못해, 현재 사용이 불가능한 기술들을 나타냅니다.")
+t("#{bold}#Passive talents#{normal}#", "#{bold}#지속형 기술#{normal}#")
+t("All your passive talents, they are always active.", "지속형 기술은 항상 그 효과가 지속되는 지속형 기술들을 나타냅니다.")
+section "game/engines/default/engine/Actor.lua"
+section "game/engines/default/engine/ActorsSeenDisplay.lua"
+section "game/engines/default/engine/Astar.lua"
+section "game/engines/default/engine/Autolevel.lua"
+section "game/engines/default/engine/Birther.lua"
+t("Enter your character's name", "캐릭터의 이름을 입력하세요")
+t("Name", "이름")
+t("Character Creation: ", "캐릭터 만들기 : ")
+t("Quick Birth", "빠른 생성")
+t("Do you want to recreate the same character?", "기존의 같은 캐릭터로 다시 시작하길 원하십니까?")
+t("Recreate", "기존 캐릭터")
+t("New character", "새 캐릭터")
+t("Randomly selected %s.", "무작위 선택으로 %s 선택되었습니다.")
+section "game/engines/default/engine/BSP.lua"
+section "game/engines/default/engine/Calendar.lua"
+section "game/engines/default/engine/CharacterBallSave.lua"
+section "game/engines/default/engine/CharacterVaultSave.lua"
+section "game/engines/default/engine/Chat.lua"
+t("[leave]", "[떠난다]")
+section "game/engines/default/engine/class.lua"
+section "game/engines/default/engine/colors.lua"
+section "game/engines/default/engine/DamageType.lua"
+section "game/engines/default/engine/DebugConsole.lua"
+section "game/engines/default/engine/Dialog.lua"
+t("Yes", "예")
+t("No", "아니오")
+t("Yes", "예")
+t("No", "아니오")
+t("Yes", "예")
+t("No", "아니오")
+t("Yes", "예")
+t("No", "아니오")
+section "game/engines/default/engine/dialogs/AudioOptions.lua"
+t("Audio Options", "소리 설정")
+t("Enable audio", "소리 사용")
+t("Music volume: ", "배경음 크기 : ")
+t("Sound effects volume: ", "효과음 크기 : ")
+section "game/engines/default/engine/dialogs/ChatChannels.lua"
+t("Chat channels", "대화창 채널")
+t("Global", "전세계")
+t(" [spoilers]", " [스포일러]")
+t("Select which channels to listen to. You can join new channels by typing '/join <channelname>' in the talkbox and leave channels by typing '/part <channelname>'", "이야기를 들을 채널을 선택합니다. 새로운 채널에 참가하려면 '/join <채널이름>'를 대화창에 입력하시고, 채널에서 나가려면 '/part <channelname>'를 입력하세요.")
+section "game/engines/default/engine/dialogs/ChatFilter.lua"
+t("Chat filters", "보여줄 대화 메세지")
+t("Public chat", "공개적 대화")
+t("Private whispers", "개인적 귓속말")
+t("Join/part messages", "메세지 참가")
+t("First time achievements (recommended to keep them on)", "최초로 획득한 도전과제 (항상 보는 것을 추천합니다)")
+t("Important achievements (recommended to keep them on)", "중요한 도전과제 (항상 보는 것을 추천합니다)")
+t("Other achievements", "기타 도전과제")
+t("Select which types of chat events to see or not.", "보거나 보지 않을 메세지를 선택하세요.")
+section "game/engines/default/engine/dialogs/DisplayResolution.lua"
+t("Switch Resolution", "해상도 변경")
+t("Engine Restart Required", "엔진의 재시작이 필요합니다")
+t("Continue?", "계속합니까?")
+t(" (progress will be saved)", " (게임 진행 상황은 저장됩니다)")
+t("Reset Window Position?", "창 위치를 초기화 합니까?")
+t("Simply restart or restart+reset window position?", "재시작만 할까요, 아니면 재시작을 하면서 창의 위치도 초기화할까요?")
+t("Restart", "재시작")
+t("Restart with reset", "재시작 + 창 위치 초기화")
+t("Yes", "예")
+t("No", "아니오")
+section "game/engines/default/engine/dialogs/Downloader.lua"
+section "game/engines/default/engine/dialogs/GameMenu.lua"
+t("Game Menu", "게임 메뉴")
+t("Resume", "게임 계속하기")
+t("Key Bindings", "명령어 입력 설정")
+t("Key Bindings", "명령어 입력 설정")
+t("Video Options", "화면 설정")
+t("Display Resolution", "화면 해상도 설정")
+t("Show Achievements", "달성한 업적 보기")
+t("Audio Options", "소리 설정")
+t("View High Scores", "고득점 기록 보기")
+t("Steam", "스팀")
+t("#GREY#Developer Mode", "#GREY#개발자 상태")
+t("Developer Mode", "개발자 상태")
+t("Disable developer mode?", "개발자 상태를 비활성화 하겠습니까?")
+t("Developer Mode", "개발자 상태")
+t([[Enable developer mode?
+Developer Mode is a special game mode used to debug and create addons.
+Using it will #CRIMSON#invalidate#LAST# any savefiles loaded.
+When activated you will have access to special commands:
+- CTRL+L: bring up a lua console that lets you explore and alter all the game objects, enter arbitrary lua commands, ...
+- CTRL+A: bring up a menu to easily do many tasks (create NPCs, teleport to zones, ...)
+- CTRL+left click: teleport to the clicked location
+]], [[개발자 상태를 활성화 하겠습니까?
+(개발자 관련 부분들은 한글화하지 않습니다.)
+Developer Mode is a special game mode used to debug and create addons.
+Using it will #CRIMSON#invalidate#LAST# any savefiles loaded.
+When activated you will have access to special commands:
+- CTRL+L: bring up a lua console that lets you explore and alter all the game objects, enter arbitrary lua commands, ...
+- CTRL+A: bring up a menu to easily do many tasks (create NPCs, teleport to zones, ...)
+- CTRL+left click: teleport to the clicked location
+]])
+t("No", "아니오")
+t("Yes", "예")
+t("Save Game", "저장하기")
+t("Main Menu", "메인 메뉴로 나가기")
+t("Exit Game", "게임 끝내기")
+section "game/engines/default/engine/dialogs/GetQuantity.lua"
+t("Quantity", "수량")
+t("Accept", "수락")
+t("Cancel", "취소")
+t("Error", "오류")
+t("Enter a quantity.", "수량을 입력하세요.")
+section "game/engines/default/engine/dialogs/KeyBinder.lua"
+section "game/engines/default/engine/dialogs/ShowAchievements.lua"
+t("Achievements", "업적")
+t("Yours only", "현재 캐릭터가 달성")
+t("All achieved", "모든 캐릭터가 달성")
+t("Everything", "모든 도전과제")
+t("Achievement", "업적")
+t("When", "달성시기")
+t("Who", "달성자")
+t([[#GOLD#Also achieved by your current character#LAST#
+]], [[#GOLD#현재 캐릭터도 달성했습니다.#LAST#
+]])
+t("Progress: ", "진행정도: ")
+t("-- Unknown --", "-- 알 수 없음 --")
+t("-- Unknown --", "-- 알 수 없음 --")
+section "game/engines/default/engine/dialogs/ShowEquipInven.lua"
+section "game/engines/default/engine/dialogs/ShowEquipment.lua"
+section "game/engines/default/engine/dialogs/ShowErrorStack.lua"
+section "game/engines/default/engine/dialogs/ShowInventory.lua"
+section "game/engines/default/engine/dialogs/ShowLog.lua"
+section "game/engines/default/engine/dialogs/ShowPickupFloor.lua"
+t("Pickup", "줍기")
+t("(*) Take all", "(*) 모두 줍기")
+t("Item", "물건")
+t("Category", "종류")
+t("Enc.", "무게")
+section "game/engines/default/engine/dialogs/ShowQuests.lua"
+t("Quest Log for ", "name")
+t("name", "의 퀘스트 기록")
+t("Quest", "퀘스트")
+t("Status", "상태")
+section "game/engines/default/engine/dialogs/ShowStore.lua"
+section "game/engines/default/engine/dialogs/ShowText.lua"
+section "game/engines/default/engine/dialogs/SteamOptions.lua"
+t("Steam Options", "스팀 설정")
+t([[Enable Steam Cloud saves.
+Your saves will be put on steam cloud and always be available everywhere.
+Disable if you have bandwidth limitations.#WHITE#]], [[스팀 클라우드 저장 사용
+스팀 클라우드 서비스를 사용해서, 어디서나 세이브 파일을 불러올 수 있게 됩니다.
+종량제 등으로 인해 인터넷 사용량에 한계가 있다면, 설정을 바꾸세요.#WHITE#
+
+Enable Steam Cloud saves.
+Your saves will be put on steam cloud and always be available everywhere.
+Disable if you have bandwidth limitations.#WHITE#]])
+t("#GOLD##{bold}#Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#스팀 클라우드 저장#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Purge all Steam Cloud saves.
+This will remove all saves from the cloud cloud (but not your local copy). Only use if you somehow encounter storage problems on it (which should not happen, the game automatically manages it for you).#WHITE#]], [[스팀 클라우드 저장 초기화
+스팀 클라우드에 있는 모든 세이브 파일을 삭제합니다. (자신의 컴퓨터에 저장된 세이브 파일은 삭제되지 않습니다) 스팀 클라우드 저장에 문제가 있을 경우에만 사용하세요. (보통은 게임이 자동적으로 설정을 해줍니다)#WHITE#
+
+Purge all Steam Cloud saves.
+This will remove all saves from the cloud cloud (but not your local copy). Only use if you somehow encounter storage problems on it (which should not happen, the game automatically manages it for you).#WHITE#]])
+t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우드 저장 초기화#WHITE##{normal}#")
+t("Steam Cloud Purge", "스팀 클라우드 초기화")
+t("Confirm purge?", "정말로 초기화합니까?")
+t("Steam Cloud Purge", "스팀 클라우드 초기화")
+t("All data purged from the cloud.", "클라우드에 있는 모든 세이브 파일이 삭제되었습니다.")
+section "game/engines/default/engine/dialogs/Talkbox.lua"
+section "game/engines/default/engine/dialogs/UserInfo.lua"
+section "game/engines/default/engine/dialogs/UseTalents.lua"
+section "game/engines/default/engine/dialogs/VideoOptions.lua"
+t("Video Options", "화면 설정")
+t("Display resolution.", [[화면의 해상도를 설정합니다.
+
+Display resolution.]])
+t("#GOLD##{bold}#Resolution#WHITE##{normal}#", "#GOLD##{bold}#해상도 설정#WHITE##{normal}#")
+t([[Request this display refresh rate.
+Set it lower to reduce CPU load, higher to increase interface responsiveness.#WHITE#]], [[화면의 재생 빈도를 설정합니다.
+이 수치가 낮으면 CPU의 부하가 적게 걸리고, 높으면 게임의 반응 속도가 좋아집니다.
+
+Request this display refresh rate.
+Set it lower to reduce CPU load, higher to increase interface responsiveness.#WHITE#]])
+t("#GOLD##{bold}#Requested FPS#WHITE##{normal}#", "#GOLD##{bold}#FPS 설정#WHITE##{normal}#")
+t("Enter density", "재생 빈도를 입력하시오")
+t("From 5 to 60", "5 에서 60 사이")
+t([[Controls the particle effects density.
+This option allows to change the density of the many particle effects in the game.
+If the game is slow when displaying spell effects try to lower this setting.#WHITE#]], [[입자 효과의 밀도를 결정합니다.
+이 설정은 게임 내부의 여러가지 입자 효과들이 얼마나 자세하게 표현될지를 결정합니다.
+주문 효과 등의 표현시 게임이 너무 느려진다면 이 설정치를 낮추세요.
+
+Controls the particle effects density.
+This option allows to change the density of the many particle effects in the game.
+If the game is slow when displaying spell effects try to lower this setting.#WHITE#]])
+t("#GOLD##{bold}#Particle effects density#WHITE##{normal}#", "#GOLD##{bold}#입자 효과 밀도#WHITE##{normal}#")
+t("Enter density", "밀도를 입력하시오")
+t("From 0 to 100", "0 에서 100 사이")
+t([[Activates antialiased texts.
+Texts will look nicer but it can be slower on some computers.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[글자들을 매끄럽게 보여줄지 결정합니다.
+글자들이 보기 좋아지지만, 게임 속도가 조금 느려질 수 있습니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates antialiased texts.
+Texts will look nicer but it can be slower on some computers.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#Antialiased texts#WHITE##{normal}#", "#GOLD##{bold}#부드러운 글자#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Activates framebuffers.
+This option allows for some special graphical effects.
+If you encounter weird graphical glitches try to disable it.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[화면의 프레임 버퍼를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 화면 효과를 볼 수 있습니다.
+만약 화면에 이상한 변화나 에러(glitch)가 발생한다면 이 설정을 '사용하지 않음' 으로 바꿔보십시오.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates framebuffers.
+This option allows for some special graphical effects.
+If you encounter weird graphical glitches try to disable it.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#Framebuffers#WHITE##{normal}#", "#GOLD##{bold}#프레임버퍼#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Activates OpenGL Shaders.
+This option allows for some special graphical effects.
+If you encounter weird graphical glitches try to disable it.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[OpenGL의 그림자 효과를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 화면 효과를 볼 수 있습니다.
+만약 화면이 이상한 변화나 에러(glitch)가 발생한다면 이 설정을 '사용하지 않음' 으로 바꿔보십시오.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates OpenGL Shaders.
+This option allows for some special graphical effects.
+If you encounter weird graphical glitches try to disable it.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#OpenGL Shaders#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 그림자효과#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Activates advanced shaders.
+This option allows for advanced effects (like water surfaces, ...). Disabling it can improve performance.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[고급 그림자 효과를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 고급 화면 효과(물 표면 효과 등)를 볼 수 있습니다. 사용하지 않으면 게임 속도가 빨라집니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates advanced shaders.
+This option allows for advanced effects (like water surfaces, ...). Disabling it can improve performance.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#OpenGL Shaders: Advanced#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 고급 그림자효과#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Activates distorting shaders.
+This option allows for distortion effects (like spell effects doing a visual distortion, ...). Disabling it can improve performance.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[왜곡 그림자 효과를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 화면 왜곡 효과(마법에 의한 시야 왜곡 효과 등)를 볼 수 있습니다. 사용하지 않으면 게임 속도가 빨라집니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates distorting shaders.
+This option allows for distortion effects (like spell effects doing a visual distortion, ...). Disabling it can improve performance.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#OpenGL Shaders: Distortions#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 왜곡 그림자효과#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Activates volumetric shaders.
+This option allows for volumetricion effects (like deep starfields). Enabling it will severely reduce performance when shaders are displayed.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[굴곡 그림자 효과를 사용할지 결정합니다.
+이 설정을 사용하면 몇몇 특별한 굴곡 화면 효과(별자리 효과 등)를 볼 수 있습니다. 사용시 특정 장면에서 게임 속도가 많이 느려질 수 있습니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Activates volumetric shaders.
+This option allows for volumetricion effects (like deep starfields). Enabling it will severely reduce performance when shaders are displayed.
+
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]])
+t("#GOLD##{bold}#OpenGL Shaders: Volumetric#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 굴곡 그림자효과#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Use the custom cursor.
+Disabling it will use your normal operating system cursor.#WHITE#]], [[게임에서 제공하는 마우스 커서를 사용할지 결정합니다.
+사용하지 않으면 운영체제에서 제공하는 마우스 커서가 사용됩니다.
+
+#LIGHT_RED#이 설정의 효과는 게임을 다시 시작해야 적용됩니다.#WHITE#
+
+Use the custom cursor.
+Disabling it will use your normal operating system cursor.#WHITE#]])
+t("#GOLD##{bold}#Mouse cursor#WHITE##{normal}#", "#GOLD##{bold}#마우스 커서#WHITE##{normal}#")
+t("enabled", "사용")
+t("disabled", "사용하지 않음")
+t([[Gamma correction setting.
+Increase this to get a brighter display.#WHITE#]], [[감마 보정값을 설정합니다.
+밝은 화면을 원한다면, 높은 값으로 설정하세요.
+
+Gamma correction setting.
+Increase this to get a brighter display.#WHITE#]])
+t("#GOLD##{bold}#Gamma correction#WHITE##{normal}#", "#GOLD##{bold}#감마 보정값 설정#WHITE##{normal}#")
+t("Gamma correction", "감마 보정값 설정")
+t("From 50 to 300", "50 에서 300 사이")
+t([[Request a specific origin point for the game window.
+This point corresponds to where the upper left corner of the window will be located.
+Useful when dealing with multiple monitors and borderless windows.
+
+The default origin is (0,0).
+
+Note: This value will automatically revert after ten seconds if not confirmed by the user.#WHITE#]], [[윈도우 화면 내에서 게임 창이 표시되는 위치를 고정시킵니다.
+결과값으로 나타나는 숫자는, 윈도우 화면의 가장 왼쪽 위 지점에서 얼마나 떨어지는지를 나타냅니다.
+여러 개의 모니터를 사용하거나, 게임 창의 경계를 없애고 사용할 경우에 유용합니다.
+기본 값은 (0,0) 입니다.
+참고 : 값을 설정할 때 10 초 이상 확인 버튼을 누르지 않을 경우, 자동으로 설정이 취소됩니다.
+
+Request a specific origin point for the game window.
+This point corresponds to where the upper left corner of the window will be located.
+Useful when dealing with multiple monitors and borderless windows.
+
+The default origin is (0,0).
+
+Note: This value will automatically revert after ten seconds if not confirmed by the user.#WHITE#]])
+t("#GOLD##{bold}#Requested Window Position#WHITE##{normal}#", "#GOLD##{bold}#게임 창의 표시 위치 고정#WHITE##{normal}#")
+t("Window Origin: X-Coordinate", "X축 값 설정")
+t("Enter the x-coordinate", "X축(가로) 값을 입력하세요")
+t("Window Origin: Y-Coordinate", "Y축 값 설정")
+t("Enter the y-coordinate", "Y축(세로) 값을 입력하세요.")
+t("Position changed.", "위치 변경")
+t("Save position?", "변경된 위치를 저장하시겠습니까?")
+t("Accept", "확인")
+t("Revert", "취소")
+section "game/engines/default/engine/dialogs/ViewHighScores.lua"
+t("High Scores", "고득점 기록")
+section "game/engines/default/engine/DirectPath.lua"
+section "game/engines/default/engine/Emote.lua"
+section "game/engines/default/engine/Entity.lua"
+section "game/engines/default/engine/Faction.lua"
+section "game/engines/default/engine/FlyingText.lua"
+section "game/engines/default/engine/FontPackage.lua"
+section "game/engines/default/engine/Game.lua"
+t("Busy adventuring!", "모험하느라 바쁨!")
+t("Screenshot taken!", "스크린샷 저장!")
+t("File: ", "파일: ")
+section "game/engines/default/engine/GameEnergyBased.lua"
+section "game/engines/default/engine/GameTurnBased.lua"
+section "game/engines/default/engine/Generator.lua"
+section "game/engines/default/engine/Grid.lua"
+section "game/engines/default/engine/Heightmap.lua"
+section "game/engines/default/engine/HighScores.lua"
+section "game/engines/default/engine/HotkeysDisplay.lua"
+t("Missing!", "찾을 수 없습니다!")
+section "game/engines/default/engine/HotkeysIconsDisplay.lua"
+t("Missing!", "찾을 수 없습니다!!")
+section "game/engines/default/engine/init.lua"
+section "game/engines/default/engine/interface/ActorAI.lua"
+section "game/engines/default/engine/interface/ActorFOV.lua"
+section "game/engines/default/engine/interface/ActorInventory.lua"
+t("%s has no room for: %s.", "공간이 부족하여, %s %s 줍지 못했습니다.")
+t("There is nothing to pick up here.", "여기에는 주울 것이 없습니다.")
+t("There is nothing to drop.", "버릴 것이 없습니다.")
+t("%s drops on the floor: %s.", "%s %s 바닥에 버립니다.")
+t("wrong equipment slot", "잘못된 장비 슬롯")
+t("not enough stat", "능력치 부족")
+t("not enough levels", "레벨 부족")
+t("missing dependency", "조건 불충족")
+t("missing dependency", "조건 불충족")
+t("cannot use currently due to an other worn object", "해당 부위에 이미 착용한 장비가 있음")
+t("cannot use currently due to an other worn object", "해당 부위에 이미 착용한 장비가 있음")
+t("%s is not wearable.", "%s 착용할 수 없습니다.")
+t("%s can not wear %s.", "%s %s 착용할 수 없습니다.")
+t("%s can not wear (%s): %s (%s).", "%s %s 착용할 수 없습니다: (%s).")
+t("%s wears: %s.", "%s %s 착용합니다.")
+t("%s wears (offslot): %s.", "%s %s 착용합니다 (보조장비).")
+t("%s can not wear (%s): %s (%s).", "%s %s 착용할 수 없습니다: (%s).")
+t("%s wears (replacing %s): %s.", "%s %s 착용합니다 (교체)")
+t("%s can not wear: %s.", "%s %s 착용할 수 없습니다.")
+section "game/engines/default/engine/interface/ActorLevel.lua"
+section "game/engines/default/engine/interface/ActorLife.lua"
+section "game/engines/default/engine/interface/ActorProject.lua"
+section "game/engines/default/engine/interface/ActorQuest.lua"
+section "game/engines/default/engine/interface/ActorResource.lua"
+section "game/engines/default/engine/interface/ActorStats.lua"
+section "game/engines/default/engine/interface/ActorTalents.lua"
+t("%s is still on cooldown for %d turns.", "%s 아직 대기 시간이 %d 턴 만큼 남아있습니다.")
+t("%s is still on cooldown for %d turns.", "%s 아직 대기 시간이 %d 턴 만큼 남아있습니다.")
+t("Talent Use Confirmation", "기술 사용 확인")
+t("Use %s?", "%s 사용합니까?")
+t("Cancel", "취소")
+t("Continue", "계속")
+t("- Lower talents of the same category: %d", "- 같은 계열의 기술: %d")
+t("- Level %d", "- 레벨 %d")
+t("- Talent %s (not known)", [[- %s 기술 (모름)
+]])
+t("- Talent %s (%d)", [[- %s 기술 (%d)
+]])
+t("- Talent %s", [[- %s 기술
+]])
+section "game/engines/default/engine/interface/ActorTemporaryEffects.lua"
+section "game/engines/default/engine/interface/BloodyDeath.lua"
+section "game/engines/default/engine/interface/ControlCursorSupport.lua"
+section "game/engines/default/engine/interface/GameMusic.lua"
+section "game/engines/default/engine/interface/GameSound.lua"
+section "game/engines/default/engine/interface/GameTargeting.lua"
+section "game/engines/default/engine/interface/ObjectActivable.lua"
+section "game/engines/default/engine/interface/ObjectIdentify.lua"
+section "game/engines/default/engine/interface/PlayerDumpJSON.lua"
+section "game/engines/default/engine/interface/PlayerExplore.lua"
+section "game/engines/default/engine/interface/PlayerHotkeys.lua"
+section "game/engines/default/engine/interface/PlayerMouse.lua"
+section "game/engines/default/engine/interface/PlayerRest.lua"
+section "game/engines/default/engine/interface/PlayerRun.lua"
+section "game/engines/default/engine/interface/PlayerSlide.lua"
+section "game/engines/default/engine/interface/WorldAchievements.lua"
+section "game/engines/default/engine/Key.lua"
+section "game/engines/default/engine/KeyBind.lua"
+section "game/engines/default/engine/KeyCommand.lua"
+section "game/engines/default/engine/Level.lua"
+section "game/engines/default/engine/LogDisplay.lua"
+section "game/engines/default/engine/LogFlasher.lua"
+section "game/engines/default/engine/Map.lua"
+section "game/engines/default/engine/MapEffect.lua"
+section "game/engines/default/engine/Module.lua"
+section "game/engines/default/engine/Mouse.lua"
+section "game/engines/default/engine/NameGenerator.lua"
+section "game/engines/default/engine/NameGenerator2.lua"
+section "game/engines/default/engine/Object.lua"
+t("Requires:", "필요 조건 : ")
+t("Level %d", "레벨 %d")
+t("Talent %s (level %d)", "%s 기술 (레벨 %d)")
+t("Talent %s", "%s 기술")
+section "game/engines/default/engine/Particles.lua"
+section "game/engines/default/engine/PlayerProfile.lua"
+section "game/engines/default/engine/Projectile.lua"
+t("Projectile: ", "발사체: ")
+section "game/engines/default/engine/Quadratic.lua"
+section "game/engines/default/engine/Quest.lua"
+section "game/engines/default/engine/resolvers.lua"
+section "game/engines/default/engine/Savefile.lua"
+t("Saving world", "세계 저장중")
+t("Please wait while saving the world...", "세계를 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving game", "게임 저장중")
+t("Please wait while saving the game...", "게임을 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving zone", "지역 저장중")
+t("Please wait while saving the zone...", "지역을 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving level", "현재층 저장중")
+t("Please wait while saving the level...", "현재층을 저장하는 동안 잠시 기다려 주십시오...")
+t("Saving entity", "존재 저장중")
+t("Please wait while saving the entity...", "존재를 저장하는 동안 잠시 기다려 주십시오...")
+t("Loading world", "세계 불러오는 중")
+t("Please wait while loading the world...", "세계를 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading game", "게임 불러오는 중")
+t("Please wait while loading the game...", "게임을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading zone", "지역 불러오는 중")
+t("Please wait while loading the zone...", "지역을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading level", "현재층 불러오는 중")
+t("Please wait while loading the level...", "현재층을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading entity", "존재 불러오는 중")
+t("Please wait while loading the entity...", "존재를  불러오는 동안 잠시 기다려 주십시오...")
+section "game/engines/default/engine/SavefilePipe.lua"
+t("Saving done.", "저장 완료.")
+t("Saving...", "저장중...")
+t("Please wait while saving...", "저장하는 동안 기다려 주십시오...")
+section "game/engines/default/engine/Shader.lua"
+section "game/engines/default/engine/Store.lua"
+t("Store: ", "상점 : ")
+t("Buy", "구입")
+t("Buy %d %s", "%d %s 구입")
+t("Buy", "구입")
+t("Cancel", "취소")
+t("Sell", "판매")
+t("Sell %d %s", "%d %s 판매")
+t("Sell", "판매")
+t("Cancel", "취소")
+section "game/engines/default/engine/Target.lua"
+section "game/engines/default/engine/Tiles.lua"
+section "game/engines/default/engine/Tooltip.lua"
+section "game/engines/default/engine/Trap.lua"
+t("%s fails to disarm a trap (%s).", "%s %s 함정을 해제하는데 실패했습니다.")
+t("%s disarms a trap (%s).", "%s %s 함정을 해제하였습니다.")
+t("%s triggers a trap (%s)!", "%s 함정 (%s) 을 발동시켰습니다!")
+section "game/engines/default/engine/ui/ActorFrame.lua"
+section "game/engines/default/engine/ui/Base.lua"
+section "game/engines/default/engine/ui/Button.lua"
+section "game/engines/default/engine/ui/ButtonImage.lua"
+section "game/engines/default/engine/ui/Checkbox.lua"
+section "game/engines/default/engine/ui/Dialog.lua"
+section "game/engines/default/engine/ui/Dropdown.lua"
+section "game/engines/default/engine/ui/Empty.lua"
+section "game/engines/default/engine/ui/EquipDoll.lua"
+section "game/engines/default/engine/ui/EquipDollFrame.lua"
+section "game/engines/default/engine/ui/Focusable.lua"
+section "game/engines/default/engine/ui/GenericContainer.lua"
+section "game/engines/default/engine/ui/Gestures.lua"
+section "game/engines/default/engine/ui/Image.lua"
+section "game/engines/default/engine/ui/ImageList.lua"
+section "game/engines/default/engine/ui/Inventory.lua"
+t("Inventory", "소지품")
+t("Category", "종류")
+t("Enc.", "무게")
+section "game/engines/default/engine/ui/List.lua"
+section "game/engines/default/engine/ui/ListColumns.lua"
+section "game/engines/default/engine/ui/Numberbox.lua"
+section "game/engines/default/engine/ui/Separator.lua"
+section "game/engines/default/engine/ui/Slider.lua"
+section "game/engines/default/engine/ui/SubDialog.lua"
+section "game/engines/default/engine/ui/SurfaceZone.lua"
+section "game/engines/default/engine/ui/Tab.lua"
+section "game/engines/default/engine/ui/Tabs.lua"
+section "game/engines/default/engine/ui/Textbox.lua"
+section "game/engines/default/engine/ui/Textzone.lua"
+section "game/engines/default/engine/ui/TextzoneList.lua"
+section "game/engines/default/engine/ui/TreeList.lua"
+section "game/engines/default/engine/ui/UIContainer.lua"
+section "game/engines/default/engine/ui/UIGroup.lua"
+section "game/engines/default/engine/ui/VariableList.lua"
+section "game/engines/default/engine/ui/Waitbar.lua"
+section "game/engines/default/engine/ui/Waiter.lua"
+section "game/engines/default/engine/ui/WebView.lua"
+section "game/engines/default/engine/UserChat.lua"
+section "game/engines/default/engine/utils.lua"
+section "game/engines/default/engine/version.lua"
+section "game/engines/default/engine/webcore.lua"
+section "game/engines/default/engine/World.lua"
+section "game/engines/default/engine/Zone.lua"
+t("Loading level", "현재층 불러오는 중")
+t("Please wait while loading the level...", "현재층을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading level", "현재층 불러오는 중")
+t("Please wait while loading the level...", "현재층을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading level", "현재층 불러오는 중")
+t("Please wait while loading the level...", "현재층을 불러오는 동안 잠시 기다려 주십시오...")
+t("Loading level", "현재층 불러오는 중")
+t("Please wait while loading the level...", "현재층을 불러오는 동안 잠시 기다려 주십시오...")
+t("Generating level", "현재층 생성 중")
+t("Please wait while generating the level...", "현재층을 만드는 동안 잠시 기다려 주십시오...")

@@ -148,7 +148,7 @@ function _M:setEffect(eff_id, dur, p, silent)
 		local ret, fly = ed.on_gain(self, p)
 		if not silent and not had then
 			if ret then
-				game.logSeen(self, ret:gsub("#Target#", self:getName():capitalize()):gsub("#target#", self:getName()):gsub("#himher#", self:him_her()):gsub("#hisher#", self:his_her()))
+				game.logSeen(self, ret:noun_sub("#Target#", self:getName():capitalize()):noun_sub("#target#", self:getName()):gsub("#himher#", self:him_her()):gsub("#hisher#", self:his_her()))
 			end
 			if fly and game.flyers and self.x and self.y and game.level.map.seens(self.x, self.y) then
 				if fly == true then fly = "+"..ed.desc end
@@ -209,7 +209,7 @@ function _M:removeEffect(eff, silent, force)
 		local ret, fly = ed.on_lose(self, p)
 		if not silent then
 			if ret then
-				game.logSeen(self, ret:gsub("#Target#", self:getName():capitalize()):gsub("#target#", self:getName()):gsub("#himher#", self:him_her()))
+				game.logSeen(self, ret:noun_sub("#Target#", self:getName():capitalize()):noun_sub("#target#", self:getName()):gsub("#himher#", self:him_her()))
 			end
 			if fly and game.flyers and self.x and self.y then
 				if fly == true then fly = "-"..ed.desc end

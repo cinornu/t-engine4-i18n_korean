@@ -1636,8 +1636,8 @@ function _M:logMessage(source, srcSeen, target, tgtSeen, style, ...)
 			srcname = engine.Entity.check(source, "getName") or source.name or _t"unknown"
 		end
 		if srcname ~= _t"something" then Dstring = source.__is_actor and source.getDisplayString and source:getDisplayString() end
-	style = style:gsub("#source#", srcname)
-	style = style:gsub("#Source#", (Dstring or "")..srcname:capitalize())
+	style = style:noun_sub("#source#", srcname)
+	style = style:noun_sub("#Source#", (Dstring or "")..srcname:capitalize())
 	local tgtname = _t"something"
 	if target then
 		if target.player then
@@ -1646,8 +1646,8 @@ function _M:logMessage(source, srcSeen, target, tgtSeen, style, ...)
 			tgtname = engine.Entity.check(target, "getName") or target.name or _t"unknown"
 		end
 	end
-	style = style:gsub("#target#", tgtname)
-	style = style:gsub("#Target#", tgtname:capitalize())
+	style = style:noun_sub("#target#", tgtname)
+	style = style:noun_sub("#Target#", tgtname:capitalize())
 	return style
 end
 

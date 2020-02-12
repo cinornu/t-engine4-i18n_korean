@@ -54,8 +54,8 @@ local function suitable_string(string)
     end
 end
 
-local base_dir = "../../tome%-krtr%-v1.3.3.teaa/overload/mod/"
-local sub_dir = "../../t%-engine4/game/modules/tome/"
+local base_dir = "../../tome%-krtr%-v1.3.3.teaa/overload/"
+local sub_dir = "../../t%-engine4/game/engines/default/"
 
 local storage = {}
 local count = {}
@@ -202,5 +202,5 @@ local function dofolder(dir)
 end
 -- handle_file("../../tome-krtr-v1.3.3.teaa/overload/data/achievements/arena.lua")
 -- handle_file("../../tome-krtr-v1.3.3.teaa/overload/data/chats/alchemist-derth.lua")
-dofolder("../../tome-krtr-v1.3.3.teaa/overload/mod/class")
+dofolder("../../tome-krtr-v1.3.3.teaa/overload/engine")
 -- handle_file("../../tome-krtr-v1.3.3.teaa/overload/data/ingredients.lua")
