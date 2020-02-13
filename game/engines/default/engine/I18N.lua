@@ -43,6 +43,7 @@ _G._t = function(s, debugadd)
 	end
 	return cur_locale[s] or s
 end
+
 _G.default_tformat = function(s, ...)
 	if cur_locale_args[s] then
 		local sargs = {...}

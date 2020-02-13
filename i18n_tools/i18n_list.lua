@@ -744,8 +744,8 @@ tDef(56, "lava") -- entity subtype
 tDef(57, "statue of %s") -- tformat
 tDef(67, "Demon Statue of %s") -- tformat
 tDef(67, "Do you #{strong}#really#{normal}# want to touch that?") -- _t
-tDef(69, "Yes") -- _t
 tDef(69, "No") -- _t
+tDef(69, "Yes") -- _t
 tDef(87, "#CRIMSON#The %s glows ominously.") -- log
 
 
@@ -1612,8 +1612,8 @@ tDef(46, "Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.
 tDef(48, "demonic") -- effect subtype
 tDef(51, "#Target# imbues its weapon with demonic fire.") -- _t
 tDef(51, "+Demon Blade") -- _t
-tDef(52, "#Target#'s weapon looks less threatening.") -- _t
 tDef(52, "-Demon Blade") -- _t
+tDef(52, "#Target#'s weapon looks less threatening.") -- _t
 tDef(68, "Fiery Torment") -- _t
 tDef(69, "The target's fire resistance is reduced by %d%%, and the target is highly vulnerable to the flames of the fearscape. When the effect ends, the target will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment") -- tformat
 tDef(74, "+Fiery Torment") -- _t
@@ -1625,21 +1625,21 @@ tDef(98, "+Destroyer") -- _t
 tDef(99, "-Destroyer") -- _t
 tDef(124, "Voracious Blade") -- _t
 tDef(125, "Next %d melee attacks are certain to critically strike, and this unit has %d%% more critical power.") -- tformat
-tDef(130, "+Voracious") -- _t
 tDef(130, "#Target#'s weapon glows with critical power!") -- _t
+tDef(130, "+Voracious") -- _t
 tDef(131, "#Target#'s weapon stops glowing.") -- _t
 tDef(131, "-Voracious") -- _t
 tDef(150, "Raging flames") -- _t
 tDef(151, "Next melee attack will always trigger incinerating blows, and the damage from incinerating blows will be multiplied by %d%%") -- tformat
-tDef(156, "+Revel") -- _t
 tDef(156, "#Target#'s weapon surges with fire!") -- _t
+tDef(156, "+Revel") -- _t
 tDef(157, "-Revel") -- _t
 tDef(170, "Devouring flames") -- _t
 tDef(171, "This character's flames are feeding the source, healing them for %d per turn and giving them %d vim.") -- tformat
 tDef(177, "#Target#'s is surrounded with an all-consuming flame!") -- _t
 tDef(177, "+Devoured") -- _t
-tDef(178, "-Devoured") -- _t
 tDef(178, "#Target#'s is no longer blazing.") -- _t
+tDef(178, "-Devoured") -- _t
 tDef(197, "Overwhelming Fear") -- _t
 tDef(198, "The target is losing faith that it can defeat you, reducing its damage by %d%% and slowing it by %d%%") -- tformat
 tDef(202, "#Target# begins to fear you.") -- _t
@@ -1648,8 +1648,8 @@ tDef(255, "Abandoned hope") -- _t
 tDef(256, "The target's spirit is broken, rendering it inactive.") -- _t
 tDef(261, "#Target#'s spirit is broken.") -- _t
 tDef(261, "+Unable to act") -- _t
-tDef(262, "#Target# regains the will to fight.") -- _t
 tDef(262, "-Unable to act") -- _t
+tDef(262, "#Target# regains the will to fight.") -- _t
 tDef(274, "Suffered") -- _t
 tDef(275, "The target has recently suffered, and cannot do so again yet.") -- _t
 tDef(280, "#Target# suffers!") -- _t
@@ -1659,8 +1659,8 @@ tDef(289, "The target is purified by fire, losing %0.2f%% of their max health pe
 tDef(301, "Damage from soulburn.") -- _t
 tDef(313, "Blazing Rebirth") -- _t
 tDef(314, "The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.") -- tformat
-tDef(319, "#Target# is purified by fire.") -- _t
 tDef(319, "+Fire") -- _t
+tDef(319, "#Target# is purified by fire.") -- _t
 tDef(320, "-Fire") -- _t
 tDef(320, "#Target#'s purification is complete.") -- _t
 tDef(342, "%s loses %d health to the soulburn.") -- logSeen
@@ -1668,17 +1668,17 @@ tDef(352, "Fiery Grasp") -- _t
 tDef(355, "The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.") -- tformat
 tDef(357, "The target is pinned and on fire, taking %0.2f fire damage per turn.") -- tformat
 tDef(361, "pin") -- effect subtype
-tDef(364, "#Target# is grabbed!") -- _t
 tDef(364, "+Fiery Grasp") -- _t
+tDef(364, "#Target# is grabbed!") -- _t
 tDef(365, "-Fiery Grasp") -- _t
 tDef(365, "#Target# is released.") -- _t
 tDef(390, "Fiery Aegis") -- _t
 tDef(391, "The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.") -- tformat
 tDef(393, "shield") -- effect subtype
-tDef(396, "A shield forms around #target#.") -- _t
 tDef(396, "+Shield") -- _t
-tDef(397, "-Shield") -- _t
+tDef(396, "A shield forms around #target#.") -- _t
 tDef(397, "The shield around #target# crumbles.") -- _t
+tDef(397, "-Shield") -- _t
 tDef(436, "#SLATE#(%d absorbed)#LAST#") -- tformat
 tDef(439, "Your shield crumbles under the damage!") -- logPlayer
 tDef(472, "Surge of Power") -- _t
@@ -1696,21 +1696,25 @@ tDef(494, "The black flame around #Target# dies down") -- _t
 tDef(502, "Demon Seed") -- _t
 tDef(503, "Infected by a demon seed. When it dies the caster will get back the matured seed.") -- tformat
 tDef(506, "corruption") -- effect subtype
-tDef(509, "+Demon Seed") -- _t
 tDef(509, "#Target# is infected by a demon seed!") -- _t
-tDef(510, "-Demon Seed") -- _t
+tDef(509, "+Demon Seed") -- _t
 tDef(510, "#Target# is free from the demon seed.") -- _t
+tDef(510, "-Demon Seed") -- _t
 tDef(522, "Osmosis Regeneration") -- _t
 tDef(523, "You regenerate a total of %0.2f life over the duration of the effect.") -- tformat
+tDef(528, "+Osmosis Regen") -- _t
+tDef(529, "-Osmosis Regen") -- _t
 tDef(559, "Acidic Bath") -- _t
 tDef(560, "Gain %d%% resistance and %d%% affinity to acid.") -- tformat
 tDef(562, "heal") -- effect subtype
 tDef(562, "resistance") -- effect subtype
+tDef(565, "+Acidic Bath") -- _t
+tDef(566, "-Acidic Bath") -- _t
 tDef(575, "Plaguefire") -- _t
 tDef(576, "The target is on fire, taking %0.2f fire damage per turn. On death, the flame will explode.") -- tformat
 tDef(578, "fire") -- effect subtype
-tDef(581, "+Burn") -- _t
 tDef(581, "#Target# is on fire!") -- _t
+tDef(581, "+Burn") -- _t
 tDef(582, "-Burn") -- _t
 tDef(612, "Corrupted Light") -- _t
 tDef(613, "The target is overflowing with power, increasing all damage done by %d%%.") -- tformat
@@ -1725,15 +1729,15 @@ tDef(637, "-Armoured Leviathan") -- _t
 tDef(637, "#Target# is no longer filled with power.") -- _t
 tDef(650, "Doomed Nature") -- _t
 tDef(651, "The target is affected by blight, all natural talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.") -- tformat
-tDef(656, "#Target# is cut off from nature!") -- _t
 tDef(656, "+Doomed Nature") -- _t
+tDef(656, "#Target# is cut off from nature!") -- _t
 tDef(657, "#Target# is no longer cut off from nature.") -- _t
 tDef(657, "-Doomed Nature") -- _t
 tDef(673, "Demonic Cut") -- _t
 tDef(674, "Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.") -- tformat
-tDef(676, "wound") -- effect subtype
-tDef(676, "bleed") -- effect subtype
 tDef(676, "cut") -- effect subtype
+tDef(676, "bleed") -- effect subtype
+tDef(676, "wound") -- effect subtype
 tDef(679, "#Target# starts to bleed darkness.") -- _t
 tDef(679, "+Demonic Cut") -- _t
 tDef(680, "#Target# stops bleeding darkness.") -- _t
@@ -1749,10 +1753,10 @@ tDef(718, "#ORANGE##Source# shares some pain with #target#!#LAST#") -- delayedLo
 tDef(748, "Only Ashes Left") -- _t
 tDef(749, "The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.") -- tformat
 tDef(751, "darkness") -- effect subtype
-tDef(755, "#Target# burns with dark flames.") -- _t
 tDef(755, "+Only Ashes Left") -- _t
-tDef(756, "-Only Ashes Left") -- _t
+tDef(755, "#Target# burns with dark flames.") -- _t
 tDef(756, "#Target# stops burning.") -- _t
+tDef(756, "-Only Ashes Left") -- _t
 tDef(775, "Shattered Mind") -- _t
 tDef(776, "The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.") -- tformat
 tDef(778, "spellblaze") -- effect subtype
@@ -1765,8 +1769,8 @@ tDef(798, "All damage affinity increased by %d%%.\
 Will not die until %d life") -- tformat
 tDef(804, "#Target# is filled with dark power!") -- _t
 tDef(804, "+Dark Reign") -- _t
-tDef(805, "-Dark Reign") -- _t
 tDef(805, "#Target# is no longer subject to the dark power.") -- _t
+tDef(805, "-Dark Reign") -- _t
 tDef(837, "Blood Pact") -- _t
 tDef(838, "All damage you deal is converted to darkness.") -- tformat
 tDef(843, "#Target# becomes an avatar of darkness!") -- _t
@@ -1791,16 +1795,16 @@ tDef(974, "Improves/gives invisibility (power %d).") -- tformat
 tDef(976, "dark") -- effect subtype
 tDef(979, "#Target# vanishes from sight.") -- _t
 tDef(979, "+Ominous Shadow") -- _t
-tDef(980, "#Target# is no longer invisible.") -- _t
 tDef(980, "-Ominous Shadow") -- _t
+tDef(980, "#Target# is no longer invisible.") -- _t
 tDef(1005, "Corruption of the Doomed") -- _t
 tDef(1006, "The target assumes the form of a dúathedlen.") -- tformat
 tDef(1008, "blight") -- effect subtype
 tDef(1008, "arcane") -- effect subtype
 tDef(1011, "#Target# turns into a dúathedlen!") -- _t
 tDef(1011, "+Corruption of the Doomed") -- _t
-tDef(1012, "#Target# is no longer transformed.") -- _t
 tDef(1012, "-Corruption of the Doomed") -- _t
+tDef(1012, "#Target# is no longer transformed.") -- _t
 tDef(1017, "#CRIMSON#Your corruption explodes around %s!") -- logPlayer
 
 
@@ -6165,9 +6169,9 @@ section "game/dlcs/tome-orcs/data/birth/races/whitehooves.lua"
 tDef(22, "Undead") -- _t
 tDef(26, "Undead are humanoids (Humans, Elves, Dwarves, ...) that have been brought back to life by the corruption of dark magics.") -- _t
 tDef(27, "Undead can take many forms, from ghouls to vampires and liches.") -- _t
-tDef(54, "Skin") -- birth facial category
 tDef(54, "Facial features") -- birth facial category
 tDef(54, "Horns") -- birth facial category
+tDef(54, "Skin") -- birth facial category
 tDef(54, "Special") -- birth facial category
 tDef(56, "Skin Color 1") -- _t
 tDef(57, "Skin Color 2") -- _t
@@ -7194,10 +7198,10 @@ tDef(46, "Medical salve.") -- _t
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/chemistry.lua"
 
 tDef(27, "well-made") -- _t
-tDef(27, "mastercraft") -- _t
 tDef(27, "perfect") -- _t
 tDef(27, "crude") -- _t
 tDef(27, "good") -- _t
+tDef(27, "mastercraft") -- _t
 tDef(31, "%s poison groove") -- tformat
 tDef(35, "Deals stacking poison damage.") -- _t
 tDef(45, "applies a stacking poison dealing %d damage per turn") -- tformat
@@ -7238,16 +7242,16 @@ tDef(392, "LITE") -- entity on slot
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/electricity.lua"
 
-tDef(27, "perfect") -- _t
-tDef(27, "mastercraft") -- _t
 tDef(27, "crude") -- _t
-tDef(27, "well-made") -- _t
 tDef(27, "good") -- _t
-tDef(28, "stralite") -- _t
+tDef(27, "mastercraft") -- _t
+tDef(27, "perfect") -- _t
+tDef(27, "well-made") -- _t
+tDef(28, "steel") -- _t
 tDef(28, "dwarven steel") -- _t
 tDef(28, "voratun") -- _t
-tDef(28, "steel") -- _t
 tDef(28, "iron") -- _t
+tDef(28, "stralite") -- _t
 tDef(33, "%s lightning coil") -- tformat
 tDef(37, "On critical strikes generates a 3 tiles lightning beam.") -- _t
 tDef(41, "project a beam of lightning") -- _t
@@ -7282,11 +7286,11 @@ tDef(373, "LITE") -- entity on slot
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/explosive.lua"
 
+tDef(27, "crude") -- _t
+tDef(27, "good") -- _t
+tDef(27, "well-made") -- _t
 tDef(27, "perfect") -- _t
 tDef(27, "mastercraft") -- _t
-tDef(27, "good") -- _t
-tDef(27, "crude") -- _t
-tDef(27, "well-made") -- _t
 tDef(31, "%s thunderclap coating") -- tformat
 tDef(35, "Strikes can trigger a thunderclap that damages and repel foes.") -- _t
 tDef(48, "%s head lamp") -- tformat
@@ -7323,10 +7327,10 @@ tDef(346, "QUIVER") -- entity on slot
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/mechanical.lua"
 
-tDef(27, "stralite") -- _t
 tDef(27, "voratun") -- _t
-tDef(27, "steel") -- _t
+tDef(27, "stralite") -- _t
 tDef(27, "dwarven steel") -- _t
+tDef(27, "steel") -- _t
 tDef(27, "iron") -- _t
 tDef(31, "%s rocket boots") -- tformat
 tDef(45, "%s hand cannon") -- tformat
@@ -7350,15 +7354,15 @@ tDef(175, "FEET") -- entity on slot
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/smith.lua"
 
 tDef(27, "iron") -- _t
-tDef(27, "voratun") -- _t
 tDef(27, "steel") -- _t
+tDef(27, "voratun") -- _t
 tDef(27, "stralite") -- _t
 tDef(27, "dwarven steel") -- _t
 tDef(28, "mastercraft") -- _t
+tDef(28, "good") -- _t
 tDef(28, "well-made") -- _t
 tDef(28, "crude") -- _t
 tDef(28, "perfect") -- _t
-tDef(28, "good") -- _t
 tDef(32, "%s focus lens") -- tformat
 tDef(33, "HEAD") -- entity on slot
 tDef(50, "%s toxic cannister launcher") -- tformat
@@ -7389,9 +7393,9 @@ tDef(264, "CLOAK") -- entity on slot
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/therapeutics.lua"
 
 tDef(26, "potent") -- _t
-tDef(26, "powerful") -- _t
 tDef(26, "great") -- _t
 tDef(26, "amazing") -- _t
+tDef(26, "powerful") -- _t
 tDef(26, "simple") -- _t
 tDef(30, "%s healing salve") -- tformat
 tDef(36, "heal %d") -- _t
@@ -10933,8 +10937,8 @@ tDef(51, "The target is startled after being strangely missed by a shot. The nex
 tDef(53, "technique") -- effect subtype
 tDef(60, "Iron Grip") -- _t
 tDef(61, "The target has been crushed, pinning it and reducing defense and armour by %d.") -- tformat
-tDef(65, "+Iron Grip") -- _t
 tDef(65, "#Target# is crushed by the iron grip.") -- _t
+tDef(65, "+Iron Grip") -- _t
 tDef(66, "-Iron Grip") -- _t
 tDef(66, "#Target# is free from the iron grip.") -- _t
 tDef(77, "Bullet Mastery: Overheated") -- _t
@@ -10955,26 +10959,26 @@ tDef(124, "-Uncanny Reload") -- _t
 tDef(124, "#Target# is less focused.") -- _t
 tDef(133, "Cloak") -- _t
 tDef(134, "The target is wrapped in a cloak of shadow, granting sealth.") -- _t
-tDef(138, "+Cloak") -- _t
 tDef(138, "#Target# disappears from sight.") -- _t
-tDef(139, "#Target# re-appears.") -- _t
+tDef(138, "+Cloak") -- _t
 tDef(139, "-Cloak") -- _t
+tDef(139, "#Target# re-appears.") -- _t
 tDef(148, "Pain Suppressor Salve") -- _t
 tDef(149, "Fight to the brink of death, can not die before going under -%d life (but life under 0 is not shown) and increases all resistances by %d%%.") -- tformat
 tDef(151, "nature") -- effect subtype
-tDef(153, "+Pain Suppressor") -- _t
 tDef(153, "#Target# uses a pain suppressor salve.") -- _t
+tDef(153, "+Pain Suppressor") -- _t
 tDef(154, "-Pain Suppressor") -- _t
 tDef(164, "Frost Salve") -- _t
 tDef(165, "Provides a frost aura, giving you +%d%% cold, nature and darkness affinity.") -- tformat
 tDef(167, "frost") -- effect subtype
-tDef(169, "+Frost Salve") -- _t
 tDef(169, "#Target# uses a frost salve.") -- _t
+tDef(169, "+Frost Salve") -- _t
 tDef(170, "-Frost Salve") -- _t
 tDef(183, "Fiery Salve") -- _t
 tDef(184, "Provides a frost aura, giving you +%d%% fire, light, and lightning affinity.") -- tformat
-tDef(188, "#Target# uses a fiery salve.") -- _t
 tDef(188, "+Fiery Salve") -- _t
+tDef(188, "#Target# uses a fiery salve.") -- _t
 tDef(189, "-Fiery Salve") -- _t
 tDef(207, "Water Salve") -- _t
 tDef(208, "Provides a frost aura, giving you +%d%% blight, mind and acid affinity.") -- tformat
@@ -10986,8 +10990,8 @@ tDef(226, "Unstoppable Force Salve") -- _t
 tDef(227, "Increases all saves by %d and healing factor by %d%%.") -- tformat
 tDef(231, "#Target# uses an unstoppable force salve.") -- _t
 tDef(231, "+Unstoppable Force") -- _t
-tDef(232, "-Unstoppable Force") -- _t
 tDef(232, "#Target# is not affected anymore by the salve.") -- _t
+tDef(232, "-Unstoppable Force") -- _t
 tDef(244, "Slow Talents") -- _t
 tDef(245, "Attacking, casting and mind speed have been reduced by %d%%.") -- tformat
 tDef(247, "slow") -- effect subtype
@@ -10995,15 +10999,15 @@ tDef(258, "Supercharge Tinkers") -- _t
 tDef(259, "Increases steampower by %d and steam crit by %d%%.") -- tformat
 tDef(263, "#Target# supercharges all tinkers.") -- _t
 tDef(263, "+Supercharge Tinkers") -- _t
-tDef(264, "-Supercharge Tinkers") -- _t
 tDef(264, "#Target#'s supercharge is fading.") -- _t
+tDef(264, "-Supercharge Tinkers") -- _t
 tDef(274, "Overcharge Saws") -- _t
 tDef(275, "Increases all saws talent levels by %d%%.") -- tformat
 tDef(277, "tech") -- effect subtype
 tDef(279, "#Target# overcharges saw motors.") -- _t
 tDef(279, "+Overcharge Saws") -- _t
-tDef(280, "-Overcharge Saws") -- _t
 tDef(280, "#Target#'s saw motors are back to normal.") -- _t
+tDef(280, "-Overcharge Saws") -- _t
 tDef(319, "Algid Rage") -- _t
 tDef(320, "You have %d%% chances to encase your foes in iceblocks.") -- tformat
 tDef(322, "ice") -- effect subtype
@@ -11011,19 +11015,19 @@ tDef(337, "Larvae Infestation") -- _t
 tDef(340, "The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.") -- tformat
 tDef(341, " for %0.2f physical damage (increasing) each turn") -- tformat
 tDef(346, "disease") -- effect subtype
-tDef(351, "+Larvae Infestation") -- _t
 tDef(351, "#Target# is #ORANGE#INFESTED#LAST# with ritch larvae!") -- _t
+tDef(351, "+Larvae Infestation") -- _t
 tDef(396, "A %s #ORANGE#BURSTS OUT#LAST# of %s%s!") -- logSeen
 tDef(404, "Tech Overload") -- _t
 tDef(405, "Doubles your maximum steam and stops steam regeneration.") -- tformat
 tDef(418, "Continuous Butchery") -- _t
 tDef(419, "Increases steamsaw damage multiplier by %d%%.") -- tformat
 tDef(448, "Explosive Saw") -- _t
-tDef(449, " and silences it") -- _t
 tDef(449, "Target is being assailed by an automated saw blade that cuts its flesh for %0.2f physical damage each turn%s. When the effect expires, the saw will explode for %0.2f fire damage and fly back to its source, pulling the target with it (up to %d tiles).") -- tformat
+tDef(449, " and silences it") -- _t
 tDef(454, "sil") -- _t
-tDef(455, "+Explosive Wounds") -- _t
 tDef(455, "#Target# is assailed by an automated saw blade.") -- _t
+tDef(455, "+Explosive Wounds") -- _t
 tDef(456, "The saw embedded in #Target# flies back its source.") -- _t
 tDef(456, "-Explosive Wounds") -- _t
 tDef(469, "The saw drags #Source# towards #Target#!") -- logCombat
@@ -11038,14 +11042,14 @@ tDef(493, "All stats increased by %d.") -- tformat
 tDef(495, "power") -- effect subtype
 tDef(497, "+Pain Enhancement System") -- _t
 tDef(497, "#Target# revels in the pain.") -- _t
-tDef(498, "-Pain Enhancement System") -- _t
 tDef(498, "#Target# no longer feels strong.") -- _t
+tDef(498, "-Pain Enhancement System") -- _t
 tDef(513, "Net Projector") -- _t
 tDef(514, "The target has been pinned by an electrified net, reducing all resistances by %d%%.") -- tformat
-tDef(518, "#Target# is trapped by the net.") -- _t
 tDef(518, "+Net Projector") -- _t
-tDef(519, "#Target# is free from the net.") -- _t
+tDef(518, "#Target# is trapped by the net.") -- _t
 tDef(519, "-Net Projector") -- _t
+tDef(519, "#Target# is free from the net.") -- _t
 tDef(529, "Molten Point") -- _t
 tDef(530, "You have %d charges.") -- tformat
 tDef(550, "Pressure-enhanced Slashproof Combat Suit") -- _t
@@ -11060,8 +11064,8 @@ tDef(585, "#Target# is seared.") -- _t
 tDef(586, "#Target# is no longer seared.") -- _t
 tDef(596, "Awesome Toss") -- _t
 tDef(597, "All resistances increased by %d%%, randomly attacks two foes each turn at random.") -- tformat
-tDef(600, "awesome") -- effect subtype
 tDef(600, "resistance") -- effect subtype
+tDef(600, "awesome") -- effect subtype
 tDef(602, "#Target# tosses steamguns in the air, awesome!") -- _t
 tDef(603, "#Target# somehow catches the falling steamguns.") -- _t
 tDef(662, "Marked for Death") -- _t
@@ -11074,14 +11078,14 @@ tDef(678, "The target is very itchy, causing their actions to fail.") -- tformat
 tDef(680, "powder") -- effect subtype
 tDef(683, "#Target# is very itching!") -- _t
 tDef(683, "+Itching Powder") -- _t
-tDef(684, "#Target# regains their concentration.") -- _t
 tDef(684, "-Itching Powder") -- _t
+tDef(684, "#Target# regains their concentration.") -- _t
 tDef(695, "Smoke Cover") -- _t
 tDef(696, "%d%% chance to fully absorb any damaging actions, %d stealth value.") -- tformat
 tDef(701, "+Smoke Cover") -- _t
 tDef(701, "#Target# is hiding in smoke.") -- _t
-tDef(702, "#Target# is no longer hiding in smoke.") -- _t
 tDef(702, "-Smoke Cover") -- _t
+tDef(702, "#Target# is no longer hiding in smoke.") -- _t
 tDef(711, "Magnetised") -- _t
 tDef(712, "The target has been magnetised, reducing defense by %d and increasing fatigue by %d.") -- tformat
 tDef(716, "#Target# is magnetised.") -- _t
@@ -11091,8 +11095,8 @@ tDef(717, "-Magnetised") -- _t
 tDef(728, "Bloodstar") -- _t
 tDef(729, "Continuously drain blood, dealing %0.2f physical damage per turn and healing the caster for half of it.") -- tformat
 tDef(731, "blood") -- effect subtype
-tDef(731, "heal") -- effect subtype
 tDef(731, "drain") -- effect subtype
+tDef(731, "heal") -- effect subtype
 tDef(734, "#Target# is caught in the bloodstar.") -- _t
 tDef(735, "#Target# is free from the bloodstar.") -- _t
 tDef(774, "Heartrended") -- _t
@@ -11111,10 +11115,12 @@ tDef(810, "-Metal Poisoning") -- _t
 tDef(830, "Moss Tread") -- _t
 tDef(831, "You lay moss where you walk.") -- tformat
 tDef(833, "moss") -- effect subtype
+tDef(836, "+Moss") -- _t
+tDef(837, "-Moss") -- _t
 tDef(846, "Stimulus") -- _t
 tDef(847, "Resisting pain, reducing all incoming damage by %0.2f. When the effect ends, take %d un-resistable damage.") -- tformat
-tDef(852, "+Bleeds") -- _t
 tDef(852, "#Target# starts to bleed.") -- _t
+tDef(852, "+Bleeds") -- _t
 tDef(853, "#Target# stops bleeding.") -- _t
 tDef(853, "-Bleeds") -- _t
 tDef(874, "To The Arms") -- _t
@@ -11128,8 +11134,8 @@ tDef(897, "#Target# is covered in acid!") -- _t
 tDef(898, "#Target# is free from the acid.") -- _t
 tDef(916, "Static Shield") -- _t
 tDef(917, "The target is surrounded by a static shield, increasing all resistances by %d%% and causing attacks against them to trigger a shield attack for %d%% damage as lightning.") -- tformat
-tDef(922, "A static shield forms around #target#.") -- _t
 tDef(922, "+Static Shield") -- _t
+tDef(922, "A static shield forms around #target#.") -- _t
 tDef(923, "-Static Shield") -- _t
 tDef(923, "The static shield around #target# crumbles.") -- _t
 tDef(954, "Lightning Web") -- _t
@@ -11144,8 +11150,8 @@ tDef(1031, "Overclock") -- _t
 tDef(1032, "The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.") -- tformat
 tDef(1034, "lightning") -- effect subtype
 tDef(1034, "shield") -- effect subtype
-tDef(1037, "+Overclock") -- _t
 tDef(1037, "#target# surges with power!") -- _t
+tDef(1037, "+Overclock") -- _t
 tDef(1038, "#target# looks less powerful.") -- _t
 tDef(1038, "-Overclock") -- _t
 tDef(1064, "#SLATE#(%d absorbed)#LAST#") -- tformat
@@ -11182,8 +11188,8 @@ tDef(1329, "Next melee or ranged attack that deals more than 8%% of maximum life
 tDef(1355, "#LIGHT_BLUE#(%d reactive armor)#LAST#") -- tformat
 tDef(1376, "Grenade Barrage") -- _t
 tDef(1377, "Attack speed increased by %d%%. Next %d shot(s) trigger a grenade.") -- tformat
-tDef(1382, "+Grenade Barrage") -- _t
 tDef(1382, "#Target# loads a magazine of grenades.") -- _t
+tDef(1382, "+Grenade Barrage") -- _t
 tDef(1391, "Miasma Adaptation") -- _t
 tDef(1392, "Immune to miasma engine effects.") -- _t
 tDef(1401, "Miasma Engine") -- _t
@@ -11196,8 +11202,8 @@ tDef(1500, "Death From Above") -- _t
 tDef(1501, "Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.") -- tformat
 tDef(1506, "#Target# takes flight!") -- _t
 tDef(1506, "+Death From Above") -- _t
-tDef(1507, "#Target# lands.") -- _t
 tDef(1507, "-Death From Above") -- _t
+tDef(1507, "#Target# lands.") -- _t
 tDef(1555, "Corrosive Flechette") -- _t
 tDef(1556, "%d corrosive flechettes are embedded in the target. Each melee and ranged attack against them will cause a flechette to burst for %0.2f acid damage") -- tformat
 tDef(1559, "steamtech") -- effect subtype
@@ -24487,8 +24493,8 @@ section "game/modules/tome/data/general/objects/gem.lua"
 tDef(24, "gem") -- entity type
 tDef(30, "Gems can be sold for money or used in arcane rituals.") -- _t
 tDef(83, "color") -- entity subtype
-tDef(83, "alchemist-gem") -- entity type
 tDef(83, "..") -- entity name
+tDef(83, "alchemist-gem") -- entity type
 tDef(95, "alchemist diamond") -- alchemist gem
 tDef(95, "diamond") -- gem name
 tDef(99, "alchemist pearl") -- alchemist gem
@@ -24504,8 +24510,8 @@ tDef(115, "alchemist ruby") -- alchemist gem
 tDef(115, "ruby") -- gem name
 tDef(119, "alchemist amber") -- alchemist gem
 tDef(119, "amber") -- gem name
-tDef(123, "alchemist turquoise") -- alchemist gem
 tDef(123, "turquoise") -- gem name
+tDef(123, "alchemist turquoise") -- alchemist gem
 tDef(127, "jade") -- gem name
 tDef(127, "alchemist jade") -- alchemist gem
 tDef(129, "Slows by 17%") -- _t
@@ -24518,29 +24524,29 @@ tDef(139, "emerald") -- gem name
 tDef(139, "alchemist emerald") -- alchemist gem
 tDef(143, "lapis lazuli") -- gem name
 tDef(143, "alchemist lapis lazuli") -- alchemist gem
-tDef(147, "alchemist garnet") -- alchemist gem
 tDef(147, "garnet") -- gem name
 tDef(147, "red") -- gem subtype
-tDef(151, "alchemist onyx") -- alchemist gem
+tDef(147, "alchemist garnet") -- alchemist gem
 tDef(151, "onyx") -- gem name
+tDef(151, "alchemist onyx") -- alchemist gem
 tDef(155, "amethyst") -- gem name
 tDef(155, "violet") -- gem subtype
 tDef(155, "alchemist amethyst") -- alchemist gem
 tDef(159, "alchemist opal") -- alchemist gem
 tDef(159, "opal") -- gem name
-tDef(163, "topaz") -- gem name
 tDef(163, "alchemist topaz") -- alchemist gem
-tDef(167, "aquamarine") -- gem name
-tDef(167, "blue") -- gem subtype
+tDef(163, "topaz") -- gem name
 tDef(167, "alchemist aquamarine") -- alchemist gem
+tDef(167, "blue") -- gem subtype
+tDef(167, "aquamarine") -- gem name
 tDef(171, "alchemist ametrine") -- alchemist gem
 tDef(171, "ametrine") -- gem name
 tDef(173, "Lights terrain (power 10)") -- _t
 tDef(175, "zircon") -- gem name
 tDef(175, "alchemist zircon") -- alchemist gem
 tDef(179, "spinel") -- gem name
-tDef(179, "alchemist spinel") -- alchemist gem
 tDef(179, "green") -- gem subtype
+tDef(179, "alchemist spinel") -- alchemist gem
 tDef(183, "yellow") -- gem subtype
 tDef(183, "citrine") -- gem name
 tDef(183, "alchemist citrine") -- alchemist gem
@@ -45662,9 +45668,9 @@ tDef(25, "Blood Master") -- entity name
 tDef(28, "This small humanoid is covered in silky white fur. Its bulging eyes stare deep into your mind.") -- _t
 tDef(81, "spectator") -- entity name
 tDef(85, "A spectator, who probably paid a lot to watch this bloody \"game\".") -- _t
-tDef(90, "Blood!") -- _t
 tDef(90, "To the death!") -- _t
 tDef(90, "Fight!") -- _t
+tDef(90, "Blood!") -- _t
 tDef(91, "Oh this is great") -- _t
 tDef(91, "I love the smell of death...") -- _t
 tDef(92, "Slavers forever!") -- _t
@@ -45675,9 +45681,9 @@ tDef(172, "slaver") -- entity name
 tDef(173, "yaech") -- entity subtype
 tDef(174, "A slaver.") -- _t
 tDef(197, "I am free!") -- _t
-tDef(197, "Thanks for this!") -- _t
 tDef(197, "At last, freedom!") -- _t
 tDef(197, "The mental hold is gone!") -- _t
+tDef(197, "Thanks for this!") -- _t
 tDef(208, "enthralled slave") -- entity name
 tDef(209, "human") -- entity subtype
 tDef(210, "A slave.") -- _t
@@ -46714,8 +46720,8 @@ tDef(25, "The Diaries of King Toknor the Brave (%d)") -- tformat
 tDef(26, "A part of the history of Last Hope, and King Toknor the Brave.") -- _t
 tDef(37, "analysis") -- entity subtype
 tDef(48, "southspar") -- entity subtype
-tDef(49, "the Pale King part %s") -- tformat
 tDef(49, "one") -- _t
+tDef(49, "the Pale King part %s") -- tformat
 tDef(49, "two") -- _t
 tDef(50, "A study of Southspar's most unusual ruler.") -- _t
 tDef(59, "oceans") -- entity subtype
