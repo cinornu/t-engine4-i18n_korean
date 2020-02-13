@@ -92,3 +92,21 @@ setFlag("noun_target_sub", function(str, type, noun)
 		return str:gsub(type, noun)
 	end
 end)
+
+setFlag("tformat_special", function(s, locales_args, special, ...)
+	local args
+	if locales_args then
+		local sargs = {...}
+		args = {}
+		for sidx, didx in pairs(locales_args) do
+			args[sidx] = sargs[didx]
+		end
+	else
+		args = {...}
+	end
+	s = _t(s)
+	for k, v in pairs(special) do
+		args[k] = addJosa(args[k], v)
+	end
+	return s:format(unpack(args))
+end)

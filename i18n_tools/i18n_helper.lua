@@ -1,6 +1,7 @@
 local lfs = require 'lfs'
 local locales_trans = {}
 local locales_args = {}
+local locales_special = {}
 local locales_sections ={}
 local sections = {}
 local current_section = ""
@@ -126,7 +127,7 @@ local function check_src_dst(src, dst, args_order)
         print(table.tostring(dst_s))
     end
 end
-local function merge_file_t(src, dst, args_order) 
+local function merge_file_t(src, dst, args_order, special) 
     if not dst or dst == "" then 
         return
     end
@@ -158,6 +159,9 @@ local function merge_file_t(src, dst, args_order)
     locales_trans[src] = dst
     if args_order then
         locales_args[src] = args_order
+    end
+    if special then 
+        locales_special[src] = special
     end
 end
 local function merge_file(file_merge)
@@ -220,7 +224,14 @@ local function write_section(f, f2, f3, section)
                 print_str = "t"
             end
             print_str = print_str .. "(" .. suitable_string(src) .. ", " .. suitable_string(locales_trans[src])
-            if locales_args[src] then
+            if locales_special[src] then
+                if locales_args[src] then
+                    print_str = print_str .. ", " .. table.tostring(locales_args[src])
+                else
+                    print_str = print_str .. ", nil"
+                end
+                print_str = print_str .. ", " .. table.tostring(locales_special[src]) .. ")"
+            elseif locales_args[src] then
                 print_str = print_str .. ", " .. table.tostring(locales_args[src]) .. ")"
             else
                 print_str = print_str .. ")"

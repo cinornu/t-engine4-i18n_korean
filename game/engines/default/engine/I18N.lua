@@ -25,11 +25,17 @@ module(..., package.seeall, class.make)
 
 local locales = {}
 local locales_args = {}
+local locales_special = {}
 local cur_locale_name = "en_US"
 local cur_locale = {}
 local cur_locale_args = {}
+local cur_locale_special = {}
 local cur_unlocalized = {}
 local flags = {}
+
+_G._getFlagI18N = function (flag)
+	return flags[flag] or nil
+end
 
 _G._t = function(s, debugadd)
 	if not s then
@@ -37,8 +43,7 @@ _G._t = function(s, debugadd)
 	end
 	return cur_locale[s] or s
 end
-
-function string.tformat(s, ...)
+_G.default_tformat = function(s, ...)
 	if cur_locale_args[s] then
 		local sargs = {...}
 		local args = {}
@@ -52,6 +57,13 @@ function string.tformat(s, ...)
 		return s:format(...)
 	end
 end
+function string.tformat(s, ...)
+	if cur_locale_special[s] then
+		local args_proc = _getFlagI18N("tformat_special") or default_tformat
+		return args_proc(s, cur_locale_args[s], cur_locale_special[s], ...)
+	end
+	return default_tformat(s, ...)
+end
 
 function _M:loadLocale(file)
 	if not fs.exists(file) then print("[I18N] Warning, localization file does not exists:", file) return end
@@ -59,7 +71,7 @@ function _M:loadLocale(file)
 	local env = setmetatable({
 		locale = function(s) lc = s; locales[lc] = locales[lc] or {} locales_args[lc] = locales_args[lc] or {} end,
 		section = function(s) end, -- Not used ingame
-		t = function(src, dst, args_order) self:t(lc, src, dst, args_order) end,
+		t = function(src, dst, args_order, special) self:t(lc, src, dst, args_order, special) end,
 		setFlag = function(flag, data) 
 			self.setFlag(flag, data)
 		end,
@@ -73,14 +85,19 @@ function _M:setLocale(lc)
 	cur_locale_name = lc
 	cur_locale = locales[lc] or {}
 	cur_locale_args = locales_args[lc] or {}
+	cur_locale_special = locales_special[lc] or {}
 end
 
-function _M:t(lc, src, dst, args_order)
+function _M:t(lc, src, dst, args_order, special)
 	locales[lc] = locales[lc] or {}
 	locales[lc][src] = dst
 	if args_order then
 		locales_args[lc] = locales_args[lc] or {}
 		locales_args[lc][src] = args_order
+	end
+	if special then
+		locales_special[lc] = locales_special[lc] or {}
+		locales_special[lc][src] = special
 	end
 end
 
@@ -110,9 +127,6 @@ function _M.setFlag(flag, data)
 	end
 end
 
-_G._getFlagI18N = function (flag)
-	return flags[flag] or nil
-end
 
 function _M:test()
 	self:loadLocale("/data/locales/fr_FR.lua")
