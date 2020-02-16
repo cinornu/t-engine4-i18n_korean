@@ -1,10 +1,11 @@
 ------------------------------------------------
 section "always_merge"
 
-t("blocked", "방어됨")
 t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
 The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s 년 %s %s 일 입니다.
 현재 시간은 %02d 시 %02d 분입니다.]])
+t("blocked", "방어됨")
+
 
 ------------------------------------------------
 section "game/addons/tome-addon-dev/init.lua"
@@ -16,7 +17,7 @@ t("Provides tools to develop and publish addons.", "애드온을 개발하고 �
 ------------------------------------------------
 section "game/addons/tome-addon-dev/superload/mod/dialogs/debug/AddonDeveloper.lua"
 
-t("Addon Developer", "Addon Developer")
+t("Addon Developer", "애드온 개발자")
 t([[- Your profile has been enabled for addon uploading, you can go to #{italic}##LIGHT_BLUE#http://te4.org/addons/tome#LAST##{normal}# and upload your addon.
 ]], [[- Your profile has been enabled for addon uploading, you can go to #{italic}##LIGHT_BLUE#http://te4.org/addons/tome#LAST##{normal}# and upload your addon.
 ]])
@@ -103,8 +104,8 @@ t("Adds access to the items vault (donator feature). The items vault will let yo
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/data/chats/items-vault-command-orb-offline.lua"
 
-t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "Transfering this item will place a level %d requirement on it, since it has no requirements. ")
-t("Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ")
+t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "이 아이템은 착용 제한이 없으나, 볼트에 전송 시 %d 레벨의 착용 제한이 적용됩니다.")
+t("Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "전송 시 직업 혹은 재능에 기반한 부가 능력은 사라질 수도 있습니다.")
 t([[*#LIGHT_GREEN#This orb seems to be some kind of interface to an extra-dimentional vault of items.
 All your characters in alternate universes will be able to access it from here.
 Only items from a validated game versions are uploadable.#WHITE#*
@@ -147,14 +148,14 @@ t("\
 Until you do so you will get an error.", "\
 #CRIMSON#Note for Steam Players#ANCIENT_WHITE#: This feature requires you to have registered a profile & bound it to steam (automatic if you register ingame) because it needs to store things on the server.\
 Until you do so you will get an error.")
-t("Item's Vault", "Item's Vault")
+t("Item's Vault", "아이템 볼트")
 t("You can not place an item in the vault from an un-validated game.", "You can not place an item in the vault from an un-validated game.")
-t("Place an item in the Item's Vault", "Place an item in the Item's Vault")
-t("Caution", "Caution")
-t("Continue?", "Continue?")
-t("[Retrieve an item from the vault]", "[Retrieve an item from the vault]")
+t("Place an item in the Item's Vault", "볼트에 아이템을 보관하기.")
+t("Caution", "경고")
+t("Continue?", "계속하시겠습니까?")
+t("[Retrieve an item from the vault]", "[볼트에서 아이템을 찾아오기.]")
 t("#GOLD#I wish to help the funding of this game and donate#WHITE#", "#GOLD#I wish to help the funding of this game and donate#WHITE#")
-t("[Leave the orb alone]", "[Leave the orb alone]")
+t("[Leave the orb alone]", "[오브를 두고 떠난다.]")
 
 
 ------------------------------------------------
@@ -183,14 +184,14 @@ To prevent the universe from imploding the item was not transfered from the vaul
 To prevent the universe from imploding the item was not transfered from the vault.]])
 t("Transfer failed", "Transfer failed")
 t("Checking item's vault list, please wait...", "Checking item's vault list, please wait...")
-t("Item's Vault", "Item's Vault")
+t("Item's Vault", "아이템 볼트")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua"
 
 t("Impossible to contact the server, please wait a few minutes and try again.", "Impossible to contact the server, please wait a few minutes and try again.")
-t("Item's Vault", "Item's Vault")
+t("Item's Vault", "아이템 볼트")
 t([[Retrieve an item from the vault. When you place an item in the vault the paradox energies around it are so powerful you must wait one hour before retrieving it.
 	#CRIMSON#Warning: while you *can* retrieve items made with previous versions of the game, no guarantee is given that the universe (or your character) will not explode.]], [[Retrieve an item from the vault. When you place an item in the vault the paradox energies around it are so powerful you must wait one hour before retrieving it.
 	#CRIMSON#Warning: while you *can* retrieve items made with previous versions of the game, no guarantee is given that the universe (or your character) will not explode.]])
@@ -210,7 +211,7 @@ t("Item's Vault (%d/%d)", "Item's Vault (%d/%d)")
 section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVaultOffline.lua"
 
 t("Impossible to contact the server, please wait a few minutes and try again.", "Impossible to contact the server, please wait a few minutes and try again.")
-t("Item's Vault", "Item's Vault")
+t("Item's Vault", "아이템 볼트")
 t([[Retrieve an item from the vault. When you place an item in the vault the paradox energies around it are so powerful you must wait one hour before retrieving it.
 	#CRIMSON#Warning: while you *can* retrieve items made with previous versions of the game, no guarantee is given that the universe (or your character) will not explode.]], [[Retrieve an item from the vault. When you place an item in the vault the paradox energies around it are so powerful you must wait one hour before retrieving it.
 	#CRIMSON#Warning: while you *can* retrieve items made with previous versions of the game, no guarantee is given that the universe (or your character) will not explode.]])
@@ -2282,16 +2283,16 @@ t("Old game data", "Old game data")
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/MainMenu.lua"
 
-t("Main Menu", "Main Menu")
-t("New Game", "New Game")
-t("Load Game", "Load Game")
-t("Addons", "Addons")
-t("Options", "Options")
-t("Game Options", "Game Options")
-t("Credits", "Credits")
-t("Exit", "Exit")
-t("Reboot", "Reboot")
-t("Disable animated background", "Disable animated background")
+t("Main Menu", "메인 메뉴")
+t("New Game", "새 게임")
+t("Load Game", "게임 불러오기")
+t("Addons", "애드온")
+t("Options", "설정")
+t("Game Options", "게임 설정")
+t("Credits", "개발진들")
+t("Exit", "나가기")
+t("Reboot", "재시작")
+t("Disable animated background", "움직이는 배경화면 비활성화")
 t("#{bold}##B9E100#T-Engine4 version: %d.%d.%d", "#{bold}##B9E100#T-Engine4 version: %d.%d.%d")
 t([[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#Many in Maj'Eyal have heard of "demons", sadistic creatures who appear seemingly from nowhere, leaving a trail of suffering and destruction wherever they go.#{normal}##LAST#
@@ -2362,43 +2363,43 @@ t([[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
 #LIGHT_UMBER#A ton#WHITE# of artifacts, lore, events... 
 
 ]])
-t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#Installed")
-t("#YELLOW#Not installed - Click to download / purchase", "#YELLOW#Not installed - Click to download / purchase")
-t("Login", "Login")
-t("Register", "Register")
-t("Username: ", "Username: ")
-t("Password: ", "Password: ")
-t("#GOLD#Online Profile", "#GOLD#Online Profile")
-t("Login with Steam", "Login with Steam")
-t("#GOLD#Online Profile#WHITE#", "#GOLD#Online Profile#WHITE#")
+t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#설치됨")
+t("#YELLOW#Not installed - Click to download / purchase", "#YELLOW#설치되지 않음 - 클릭 시 다운로드 / 구매")
+t("Login", "로그인")
+t("Register", "가입")
+t("Username: ", "유저명: ")
+t("Password: ", "비밀번호: ")
+t("#GOLD#Online Profile", "#GOLD#온라인 프로필")
+t("Login with Steam", "스팀으로 로그인")
+t("#GOLD#Online Profile#WHITE#", "#GOLD#온라인 프로필#WHITE#")
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#")
-t("#LIGHT_BLUE##{underline}#Logout", "#LIGHT_BLUE##{underline}#Logout")
-t("Username", "Username")
-t("Your username is too short", "Your username is too short")
-t("Password", "Password")
-t("Your password is too short", "Your password is too short")
-t("Login in your account, please wait...", "Login in your account, please wait...")
-t("Login...", "Login...")
-t("Steam client not found.", "Steam client not found.")
+t("#LIGHT_BLUE##{underline}#Logout", "#LIGHT_BLUE##{underline}#로그아웃")
+t("Username", "유저명")
+t("Your username is too short", "유저명이 너무 짧습니다.")
+t("Password", "비밀번호")
+t("Your password is too short", "비밀번호가 너무 짧습니다.")
+t("Login in your account, please wait...", "로그인 중입니다. 잠시만 기다려주세요...")
+t("Login...", "로그인 중...")
+t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/NewGame.lua"
 
-t("New Game", "New Game")
-t("Show all versions", "Show all versions")
-t("Show incompatible", "Show incompatible")
+t("New Game", "새 게임")
+t("Show all versions", "모든 버전 보이기")
+t("Show incompatible", "호환되지 않는 버전 보이기")
 t([[You can get new games at
 #LIGHT_BLUE##{underline}#https://te4.org/games#{normal}#]], [[You can get new games at
 #LIGHT_BLUE##{underline}#https://te4.org/games#{normal}#]])
-t("Game Module", "Game Module")
-t("Version", "Version")
-t("Enter your character's name", "Enter your character's name")
-t("Overwrite character?", "Overwrite character?")
-t("There is already a character with this name, do you want to overwrite it?", "There is already a character with this name, do you want to overwrite it?")
-t("No", "No")
-t("Yes", "Yes")
-t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "This game is not compatible with your version of T-Engine, you can still try it but it might break.")
+t("Game Module", "게임 모듈")
+t("Version", "버전")
+t("Enter your character's name", "캐릭터 이름을 입력해주세요")
+t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?")
+t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?")
+t("No", "아니요")
+t("Yes", "네")
+t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "이 게임은 현재 T-Engint 버전과 호환되지 않으므로, 실행 시 심각한 오류를 발생시킬 수 있습니다.")
 
 
 ------------------------------------------------
@@ -2523,12 +2524,12 @@ t([[Bootmenu!
 ------------------------------------------------
 section "game/engines/default/modules/boot/load.lua"
 
-t("Strength", "Strength")
-t("str", "str")
-t("Dexterity", "Dexterity")
-t("dex", "dex")
-t("Constitution", "Constitution")
-t("con", "con")
+t("Strength", "힘")
+t("str", "힘")
+t("Dexterity", "민첩")
+t("dex", "민첩")
+t("Constitution", "체격")
+t("con", "체격")
 
 
 ------------------------------------------------
@@ -2955,8 +2956,8 @@ t("Unfolding the space time structure...", "Unfolding the space time structure..
 t("something", "something")
 t("unknown", "unknown")
 t(" #LIGHT_GREEN#[%0.0f healing]#LAST#", " #LIGHT_GREEN#[%0.0f healing]#LAST#")
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source#이(가) #Target#을(를) 공격했습니다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
-t("#Source# hits #Target# for %s damage.", "#Source#이(가) #Target3#을(를) 공격하여 %s 피해를 입혔습니다.")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source#이(가) #Target#을(를) 공격함. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
+t("#Source# hits #Target# for %s damage.", "#Source#이(가) #Target3#을(를) 공격하여 %s 피해를 입힘.")
 t("#Source# receives %s.", "#Source# receives %s.")
 t("#Target# receives %s from #Source#.", "#Target# receives %s from #Source#.")
 t("Kill (%d)!", "Kill (%d)!")
@@ -3782,7 +3783,7 @@ t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at tar
 t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).")
 t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)")
 t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#")
-t("#Source# misses #target#.", "#target#을(를) 향한 #Source#의 공격이 빗나갔습니다.")
+t("#Source# misses #target#.", "#target#의 공격이 #Source#를 빗맞힘.")
 t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!")
 t("You are disarmed!", "You are disarmed!")
 t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!")
@@ -7087,10 +7088,11 @@ t("Just let me and the merchant get out of here and you may live!", "Just let me
 section "game/modules/tome/data/chats/chronomancy-bias-weave.lua"
 
 t("What kind of anomaly do you prefer?", "What kind of anomaly do you prefer?")
-t("physical", "물리")
+t("Physical", "Physical")
 t("Warp", "Warp")
 t("Temporal", "Temporal")
 t("Never mind", "Never mind")
+t_old("physical", "물리")
 
 
 ------------------------------------------------
@@ -8420,7 +8422,7 @@ The thing looks roughly humanoid, but it has no head and its limbs look like ten
 A shadow appears in a corner of the room! You retract the rod immediately but the shadow stays.
 It looks like the horrors you fought when coming inside, only less degenerated.
 The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*]])
-t("[Leave the orb alone]", "[Leave the orb alone]")
+t("[Leave the orb alone]", "[오브를 두고 떠난다.]")
 
 
 ------------------------------------------------
@@ -8428,7 +8430,7 @@ section "game/modules/tome/data/chats/shertul-fortress-gladium-orb.lua"
 
 t("*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*", "*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*")
 t("[Go back to the Fortress]", "[Go back to the Fortress]")
-t("[Leave the orb alone]", "[Leave the orb alone]")
+t("[Leave the orb alone]", "[오브를 두고 떠난다.]")
 
 
 ------------------------------------------------
@@ -8462,7 +8464,7 @@ t("[Create ten target dummy]", "[Create ten target dummy]")
 t("[Change dummies armour]", "[Change dummies armour]")
 t("[Change dummies resistances]", "[Change dummies resistances]")
 t("[Reset]", "[Reset]")
-t("[Leave the orb alone]", "[Leave the orb alone]")
+t("[Leave the orb alone]", "[오브를 두고 떠난다.]")
 
 
 ------------------------------------------------

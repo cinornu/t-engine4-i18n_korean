@@ -43,6 +43,8 @@ t("Adds access to the items vault (donator feature). The items vault will let yo
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/data/chats/items-vault-command-orb-offline.lua"
 
+t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "이 아이템은 착용 제한이 없으나, 볼트에 전송 시 %d 레벨의 착용 제한이 적용됩니다.")
+t("Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "전송 시 직업 혹은 재능에 기반한 부가 능력은 사라질 수도 있습니다.")
 t("[Place an item in the vault]", "[볼트에 아이템 보관하기]")
 t("Item's Vault", "아이템 볼트")
 t("You can not place an item in the vault from debug mode game.", "디버그 모드에서는 아이템 볼트에 아이템을 보관할 수 없습니다.")
@@ -56,6 +58,8 @@ t("[Leave the orb alone]", "[오브를 두고 떠난다.]")
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/data/chats/items-vault-command-orb.lua"
 
+t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "이 아이템은 착용 제한이 없으나, 볼트에 전송 시 %d 레벨의 착용 제한이 적용됩니다.")
+t("Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "전송 시 직업 혹은 재능에 기반한 부가 능력은 사라질 수도 있습니다.")
 t("Item's Vault", "아이템 볼트")
 t("Place an item in the Item's Vault", "볼트에 아이템을 보관하기.")
 t("Caution", "경고")
@@ -115,6 +119,8 @@ section "game/addons/tome-possessors/data/talents/psionic/deep-horror.lua"
 ------------------------------------------------
 section "game/addons/tome-possessors/data/talents/psionic/possession.lua"
 
+t("No", "아니요")
+t("Yes", "네")
 
 
 ------------------------------------------------
@@ -205,6 +211,7 @@ section "game/engines/default/engine/ActorsSeenDisplay.lua"
 ------------------------------------------------
 section "game/engines/default/engine/Birther.lua"
 
+t("Enter your character's name", "캐릭터 이름을 입력해주세요")
 
 
 ------------------------------------------------
@@ -215,6 +222,8 @@ section "game/engines/default/engine/DebugConsole.lua"
 ------------------------------------------------
 section "game/engines/default/engine/Dialog.lua"
 
+t("Yes", "네")
+t("No", "아니요")
 
 
 ------------------------------------------------
@@ -325,6 +334,8 @@ section "game/engines/default/engine/dialogs/ChatIgnores.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/DisplayResolution.lua"
 
+t("No", "아니요")
+t("Yes", "네")
 
 
 ------------------------------------------------
@@ -335,6 +346,9 @@ section "game/engines/default/engine/dialogs/Downloader.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GameMenu.lua"
 
+t("No", "아니요")
+t("Yes", "네")
+t("Main Menu", "메인 메뉴")
 
 
 ------------------------------------------------
@@ -445,6 +459,7 @@ section "game/engines/default/engine/dialogs/microtxn/ShowPurchasable.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/microtxn/UsePurchased.lua"
 
+t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#설치됨")
 
 
 ------------------------------------------------
@@ -465,6 +480,8 @@ section "game/engines/default/engine/interface/ActorTalents.lua"
 ------------------------------------------------
 section "game/engines/default/engine/interface/GameTargeting.lua"
 
+t("No", "아니요")
+t("Yes", "네")
 
 
 ------------------------------------------------
@@ -505,6 +522,8 @@ section "game/engines/default/engine/interface/WorldAchievements.lua"
 ------------------------------------------------
 section "game/engines/default/engine/ui/Dialog.lua"
 
+t("Yes", "네")
+t("No", "아니요")
 
 
 ------------------------------------------------
@@ -600,6 +619,9 @@ section "game/engines/default/modules/boot/data/zones/dungeon/zone.lua"
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/Addons.lua"
 
+t("Show incompatible", "호환되지 않는 버전 보이기")
+t("Game Module", "게임 모듈")
+t("Version", "버전")
 
 
 ------------------------------------------------
@@ -615,41 +637,96 @@ section "game/engines/default/modules/boot/dialogs/FirstRun.lua"
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/LoadGame.lua"
 
+t("Load Game", "게임 불러오기")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/MainMenu.lua"
 
+t("Main Menu", "메인 메뉴")
+t("New Game", "새 게임")
+t("Load Game", "게임 불러오기")
+t("Addons", "애드온")
+t("Options", "설정")
+t("Game Options", "게임 설정")
+t("Credits", "개발진들")
+t("Exit", "나가기")
+t("Reboot", "재시작")
+t("Disable animated background", "움직이는 배경화면 비활성화")
+t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#설치됨")
+t("#YELLOW#Not installed - Click to download / purchase", "#YELLOW#설치되지 않음 - 클릭 시 다운로드 / 구매")
+t("Login", "로그인")
+t("Register", "가입")
+t("Username: ", "유저명: ")
+t("Password: ", "비밀번호: ")
+t("#GOLD#Online Profile", "#GOLD#온라인 프로필")
+t("Login with Steam", "스팀으로 로그인")
+t("#GOLD#Online Profile#WHITE#", "#GOLD#온라인 프로필#WHITE#")
+t("#LIGHT_BLUE##{underline}#Logout", "#LIGHT_BLUE##{underline}#로그아웃")
+t("Username", "유저명")
+t("Your username is too short", "유저명이 너무 짧습니다.")
+t("Password", "비밀번호")
+t("Your password is too short", "비밀번호가 너무 짧습니다.")
+t("Login in your account, please wait...", "로그인 중입니다. 잠시만 기다려주세요...")
+t("Login...", "로그인 중...")
+t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/NewGame.lua"
 
+t("New Game", "새 게임")
+t("Show all versions", "모든 버전 보이기")
+t("Show incompatible", "호환되지 않는 버전 보이기")
+t("Game Module", "게임 모듈")
+t("Version", "버전")
+t("Enter your character's name", "캐릭터 이름을 입력해주세요")
+t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?")
+t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?")
+t("No", "아니요")
+t("Yes", "네")
+t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "이 게임은 현재 T-Engint 버전과 호환되지 않으므로, 실행 시 심각한 오류를 발생시킬 수 있습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/Profile.lua"
 
+t("Login", "로그인")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileLogin.lua"
 
+t("Login", "로그인")
+t("Username: ", "유저명: ")
+t("Password: ", "비밀번호: ")
+t("Username", "유저명")
+t("Your username is too short", "유저명이 너무 짧습니다.")
+t("Password", "비밀번호")
+t("Your password is too short", "비밀번호가 너무 짧습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileSteamRegister.lua"
 
+t("Username: ", "유저명: ")
+t("Register", "가입")
+t("Username", "유저명")
+t("Your username is too short", "유저명이 너무 짧습니다.")
+t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/UpdateAll.lua"
 
+t("Version", "버전")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ViewHighScores.lua"
 
+t("Game Module", "게임 모듈")
+t("Version", "버전")
 
 
 ------------------------------------------------
@@ -660,6 +737,12 @@ section "game/engines/default/modules/boot/init.lua"
 ------------------------------------------------
 section "game/engines/default/modules/boot/load.lua"
 
+t("Strength", "힘")
+t("str", "힘")
+t("Dexterity", "민첩")
+t("dex", "민첩")
+t("Constitution", "체격")
+t("con", "체격")
 
 
 ------------------------------------------------
@@ -725,8 +808,9 @@ section "game/modules/tome/class/FortressPC.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Game.lua"
 
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source#이(가) #Target#을(를) 공격했습니다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
-t("#Source# hits #Target# for %s damage.", "#Source#이(가) #Target3#을(를) 공격하여 %s 피해를 입혔습니다.")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source#이(가) #Target#을(를) 공격함. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
+t("#Source# hits #Target# for %s damage.", "#Source#이(가) #Target3#을(를) 공격하여 %s 피해를 입힘.")
+t("Game Options", "게임 설정")
 
 
 ------------------------------------------------
@@ -832,7 +916,7 @@ section "game/modules/tome/class/interface/ActorObjectUse.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/Archery.lua"
 
-t("#Source# misses #target#.", "#target#을(를) 향한 #Source#의 공격이 빗나갔습니다.")
+t("#Source# misses #target#.", "#target#의 공격이 #Source#를 빗맞힘.")
 
 
 ------------------------------------------------
@@ -2283,6 +2367,7 @@ section "game/modules/tome/data/general/objects/egos/boots.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/bow.lua"
 
+t("dex", "민첩")
 
 
 ------------------------------------------------
@@ -2318,6 +2403,7 @@ section "game/modules/tome/data/general/objects/egos/digger.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/gloves.lua"
 
+t("dex", "민첩")
 
 
 ------------------------------------------------
@@ -2328,6 +2414,8 @@ section "game/modules/tome/data/general/objects/egos/heavy-armor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/helm.lua"
 
+t("con", "체격")
+t("dex", "민첩")
 
 
 ------------------------------------------------
@@ -6712,6 +6800,10 @@ section "game/modules/tome/dialogs/ArenaFinish.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/Birther.lua"
 
+t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?")
+t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?")
+t("Yes", "네")
+t("No", "아니요")
 
 
 ------------------------------------------------
@@ -6737,6 +6829,7 @@ section "game/modules/tome/dialogs/Donation.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/GameOptions.lua"
 
+t("Game Options", "게임 설정")
 
 
 ------------------------------------------------
@@ -6782,6 +6875,9 @@ section "game/modules/tome/dialogs/QuestPopup.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/SentientWeapon.lua"
 
+t("Constitution", "체격")
+t("Dexterity", "민첩")
+t("Strength", "힘")
 
 
 ------------------------------------------------
@@ -7002,5 +7098,11 @@ section "game/modules/tome/init.lua"
 ------------------------------------------------
 section "game/modules/tome/load.lua"
 
+t("Strength", "힘")
+t("str", "힘")
+t("Dexterity", "민첩")
+t("dex", "민첩")
+t("Constitution", "체격")
+t("con", "체격")
 
 
