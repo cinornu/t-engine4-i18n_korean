@@ -11,7 +11,7 @@ Install [Git for windows](https://git-scm.com/downloads) .
 After install, right click and choose 'Git bash here', run the following command.
 
 ```bash
-git clone https://github.com/StarSapphireX/t-engine4-i18n_korean.git
+git clone https://github.com/cinornu/t-engine4-i18n_korean.git
 ```
 
 It will download and sync the repository.
