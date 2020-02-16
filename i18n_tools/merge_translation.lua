@@ -1,16 +1,8 @@
 ------------------------------------------------
-section "always_merge"
-
-t("blocked", "방어됨")
-t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
-The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s 년 %s %s 일 입니다.
-현재 시간은 %02d 시 %02d 분입니다.]])
-
-------------------------------------------------
 section "game/addons/tome-addon-dev/init.lua"
 
-t("ToME Addon's Development Tools", "ToME 애드온 개발 도구")
-t("Provides tools to develop and publish addons.", "애드온을 개발하고 출시할 수 있는 도구를 제공합니다.")
+t("ToME Addon's Development Tools", "ToME Addon's Development Tools")
+t("Provides tools to develop and publish addons.", "Provides tools to develop and publish addons.")
 
 
 ------------------------------------------------
@@ -84,20 +76,20 @@ t("Publish Addon to Steam Workshop", "Publish Addon to Steam Workshop")
 ------------------------------------------------
 section "game/addons/tome-addon-dev/superload/mod/dialogs/debug/DebugMain.lua"
 
-t("Addon Developer", "애드온 개발자")
+t("Addon Developer", "Addon Developer")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/data/entities/fortress-grids.lua"
 
-t("Item's Vault Control Orb", "아이템 볼트 제어 오브")
+t("Item's Vault Control Orb", "Item's Vault Control Orb")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/init.lua"
 
-t("Items Vault", "아이템 볼트")
-t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "아이템 볼트를 이용할 수 있는 기능을 추가합니다. (후원자 전용) 아이템 볼트에 사용하지 않는 아이템을 플레이어의 온라인 프로필로 전송하여 다른 캐릭터로 옮길 수 있습니다.")
+t("Items Vault", "Items Vault")
+t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.")
 
 
 ------------------------------------------------
@@ -116,14 +108,14 @@ Only items from a validated game versions are uploadable.#WHITE#*
 
 #CRIMSON#Offline mode#WHITE#: The item's vault works even without a network connection but items will thus only be saved on your computer and can not be shared to an other one.
 The offline vault is only available when offline and contains 3 slots.]])
-t("[Place an item in the vault]", "[볼트에 아이템 보관하기]")
-t("Item's Vault", "아이템 볼트")
-t("You can not place an item in the vault from debug mode game.", "디버그 모드에서는 아이템 볼트에 아이템을 보관할 수 없습니다.")
-t("Place an item in the Item's Vault", "볼트에 아이템을 보관하기.")
-t("Caution", "경고")
-t("Continue?", "계속하시겠습니까?")
-t("[Retrieve an item from the vault]", "[볼트에서 아이템을 찾아오기.]")
-t("[Leave the orb alone]", "[오브를 두고 떠난다.]")
+t("[Place an item in the vault]", "[Place an item in the vault]")
+t("Item's Vault", "Item's Vault")
+t("You can not place an item in the vault from debug mode game.", "You can not place an item in the vault from debug mode game.")
+t("Place an item in the Item's Vault", "Place an item in the Item's Vault")
+t("Caution", "Caution")
+t("Continue?", "Continue?")
+t("[Retrieve an item from the vault]", "[Retrieve an item from the vault]")
+t("[Leave the orb alone]", "[Leave the orb alone]")
 
 
 ------------------------------------------------
@@ -2955,8 +2947,8 @@ t("Unfolding the space time structure...", "Unfolding the space time structure..
 t("something", "something")
 t("unknown", "unknown")
 t(" #LIGHT_GREEN#[%0.0f healing]#LAST#", " #LIGHT_GREEN#[%0.0f healing]#LAST#")
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source#이(가) #Target#을(를) 공격했습니다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
-t("#Source# hits #Target# for %s damage.", "#Source#이(가) #Target3#을(를) 공격하여 %s 피해를 입혔습니다.")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.")
+t("#Source# hits #Target# for %s damage.", "#Source# hits #Target# for %s damage.")
 t("#Source# receives %s.", "#Source# receives %s.")
 t("#Target# receives %s from #Source#.", "#Target# receives %s from #Source#.")
 t("Kill (%d)!", "Kill (%d)!")
@@ -3782,7 +3774,7 @@ t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at tar
 t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).")
 t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)")
 t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#")
-t("#Source# misses #target#.", "#target#을(를) 향한 #Source#의 공격이 빗나갔습니다.")
+t("#Source# misses #target#.", "#Source# misses #target#.")
 t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!")
 t("You are disarmed!", "You are disarmed!")
 t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!")
@@ -7087,7 +7079,7 @@ t("Just let me and the merchant get out of here and you may live!", "Just let me
 section "game/modules/tome/data/chats/chronomancy-bias-weave.lua"
 
 t("What kind of anomaly do you prefer?", "What kind of anomaly do you prefer?")
-t("physical", "물리")
+t("Physical", "Physical")
 t("Warp", "Warp")
 t("Temporal", "Temporal")
 t("Never mind", "Never mind")
@@ -7359,7 +7351,7 @@ t("Go away; I do not care for the weak.", "Go away; I do not care for the weak."
 section "game/modules/tome/data/chats/escort-quest.lua"
 
 t("mental", "mental")
-t("physical", "물리")
+t("physical", "physical")
 t("spell", "spell")
 t("improved %s by +%d", "improved %s by +%d")
 t("[Improve %s by +%d]", "[Improve %s by +%d]")
@@ -9173,7 +9165,7 @@ t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source# refl
 t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!")
 t("cosmetic", "cosmetic")
 t("cosmeticed", "cosmeticed")
-t("physical", "물리")
+t("physical", "physical")
 t("battered", "battered")
 t("bled", "bled")
 t("bludgeoned", "bludgeoned")
@@ -13064,7 +13056,7 @@ t("arcane", "arcane")
 t(" of mind resistance (#RESIST#)", " of mind resistance (#RESIST#)")
 t("mind", "mind")
 t(" of physical resistance (#RESIST#)", " of physical resistance (#RESIST#)")
-t("physical", "물리")
+t("physical", "physical")
 t(" of purity", " of purity")
 t("purity", "purity")
 t(" of reflection", " of reflection")
@@ -37306,7 +37298,7 @@ t("#Target# looks shakes off the effect of the glyph of moonlight.", "#Target# l
 t("-Draining Moonlight", "-Draining Moonlight")
 t("Auger of Destruction", "Auger of Destruction")
 t("Physical damage increased by %d%%.", "Physical damage increased by %d%%.")
-t("physical", "물리")
+t("physical", "physical")
 
 
 ------------------------------------------------
@@ -37783,7 +37775,7 @@ t("Heart Started", "Heart Started")
 t("A psionic charge is keeping your heart pumping, allowing you to survive to %+d health.", "A psionic charge is keeping your heart pumping, allowing you to survive to %+d health.")
 t("Transcendent Telekinesis", "Transcendent Telekinesis")
 t("Your telekinesis transcends normal limits. +%d Physical damage and +%d%% Physical damage penetration, and improved kinetic effects.", "Your telekinesis transcends normal limits. +%d Physical damage and +%d%% Physical damage penetration, and improved kinetic effects.")
-t("physical", "물리")
+t("physical", "physical")
 t("Transcendent Pyrokinesis", "Transcendent Pyrokinesis")
 t("Your pyrokinesis transcends normal limits. +%d%% Fire/Cold damage and +%d%% Fire/Cold damage penetration, and improved thermal effects.", "Your pyrokinesis transcends normal limits. +%d%% Fire/Cold damage and +%d%% Fire/Cold damage penetration, and improved thermal effects.")
 t("cold", "cold")
@@ -38953,7 +38945,7 @@ t("+Deadly Poison", "+Deadly Poison")
 t("-Deadly Poison", "-Deadly Poison")
 t("Razorwire", "Razorwire")
 t("The target's equipment has been shredded by razorwire, reducing its accuracy by %d, armour by %d, and defense by %d.", "The target's equipment has been shredded by razorwire, reducing its accuracy by %d, armour by %d, and defense by %d.")
-t("physical", "물리")
+t("physical", "physical")
 t("#Target# is entangled in razorwire!", "#Target# is entangled in razorwire!")
 t("#Target# has shook off the razorwire.", "#Target# has shook off the razorwire.")
 t("Dirty Fighting", "Dirty Fighting")
