@@ -1,0 +1,8 @@
+* 작업 중인 section을 기록해둘것.
+* 기록 방법 : 현재 작업 중인 영역 제일 윗줄에 있는 section ~~~ 경로를 기록해두고, 작업자 닉네임 같이 기록해두면 됨.
+ex) section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" 에 속한 문장을 번역중일 경우,
+section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uueeck
+이런 식으로 기록 요망.
+각자 작업 중인 영역이 겹치지 않도록 하기 위한 수단임.
+
+==================================================================
