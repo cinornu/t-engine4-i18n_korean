@@ -8,3 +8,4 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ==================================================================
 
 "game/engines/default/data/keybinds/actions.lua" uueeck
+"game/modules/tome/data/chats/arena-unlock.lua" beomkki
