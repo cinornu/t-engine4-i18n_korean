@@ -6,3 +6,5 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 각자 작업 중인 영역이 겹치지 않도록 하기 위한 수단임.
 
 ==================================================================
+
+"game/engines/default/data/keybinds/actions.lua" uueeck

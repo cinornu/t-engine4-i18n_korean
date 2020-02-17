@@ -740,22 +740,22 @@ t("#SLATE##{italic}#Your level of #LIGHT_BLUE#Full Control talent#LAST# is not h
 ------------------------------------------------
 section "game/engines/default/data/keybinds/actions.lua"
 
-t("Go to next/previous level", "Go to next/previous level")
-t("Levelup window", "Levelup window")
+t("Go to next/previous level", "다음/이전 단계로 이동")
+t("Levelup window", "레벨업 창")
 t("Use talents", "Use talents")
-t("Show quests", "Show quests")
-t("Rest for a while", "Rest for a while")
+t("Show quests", "퀘스트 확인")
+t("Rest for a while", "휴식하기")
 t("Save game", "게임 저장")
-t("Quit game", "Quit game")
-t("Tactical display on/off", "Tactical display on/off")
-t("Look around", "Look around")
-t("Center the view on the player", "Center the view on the player")
-t("Toggle minimap", "Toggle minimap")
-t("Show game calendar", "Show game calendar")
-t("Show character sheet", "Show character sheet")
-t("Switch graphical modes", "Switch graphical modes")
-t("Accept action", "Accept action")
-t("Exit menu", "Exit menu")
+t("Quit game", "게임 종료")
+t("Tactical display on/off", "전술정보 표시 전환")***
+t("Look around", "둘러보기")
+t("Center the view on the player", "플레이어를 화면 중앙에 보이기")
+t("Toggle minimap", "미니맵 켜기/끄기")
+t("Show game calendar", "게임 내 달력 확인")
+t("Show character sheet", "캐릭터 시트 확인")
+t("Switch graphical modes", "그래픽 모드 전환")
+t("Accept action", "확인 키")***
+t("Exit menu", "메뉴에서 나가기")
 
 
 ------------------------------------------------
@@ -769,8 +769,8 @@ t("Cycle chat channels", "Cycle chat channels")
 ------------------------------------------------
 section "game/engines/default/data/keybinds/debug.lua"
 
-t("Show Lua console", "Show Lua console")
-t("Debug Mode", "Debug Mode")
+t("Show Lua console", "Lua 콘솔 보기")
+t("Debug Mode", "디버그 모드")
 
 
 ------------------------------------------------
