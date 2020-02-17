@@ -7,3 +7,6 @@ Talent ???
 - 스텟 관련
 
 - 기타
+Quest 임무
+Inventory 가방
+Item 물건

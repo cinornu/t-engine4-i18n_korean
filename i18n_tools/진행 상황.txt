@@ -5,7 +5,16 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 이런 식으로 기록 요망.
 각자 작업 중인 영역이 겹치지 않도록 하기 위한 수단임.
 
+끝에 부호를 붙여서 상태 표시하기
+완 : 완료됨
+** : 재검토 필요
+?? : 작업 중
+
 ==================================================================
 
-"game/engines/default/data/keybinds/actions.lua" uueeck
+"game/engines/default/data/keybinds/actions.lua" uueeck ?? **
+"game/engines/default/data/keybinds/debug.lua" uueeck 완
+"game/engines/default/data/keybinds/hotkeys.lua" uueeck 완
+"game/engines/default/data/keybinds/interface.lua" uueeck 완 **
+"game/engines/default/data/keybinds/inventory.lua" uueeck 완
 "game/modules/tome/data/chats/arena-unlock.lua" beomkki
