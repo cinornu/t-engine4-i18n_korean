@@ -14,3 +14,6 @@ Quest 임무
 Inventory 가방
 Item 물건
 Arena 투기장
+
+- 지역
+Derth ???
