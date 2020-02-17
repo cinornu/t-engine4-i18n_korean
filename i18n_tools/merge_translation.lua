@@ -6673,25 +6673,25 @@ You see...I am an agent for the Arena. I look for promising warriors that
 can provide a good show for our audience. Perhaps you are strong enough to join.
 All you need to do is beat three of my men in battle, and you shall be rewarded.
 #LIGHT_GREEN#*You consider the offer of the mysterious hooded man for a moment*
-]], [[#LIGHT_GREEN#*A tall, hooded man stares at you*#WHITE#
-Yes...yes...you look like a promising warrior indeed...
-I have an offer, @playerdescriptor.race@.
-You see...I am an agent for the Arena. I look for promising warriors that
-can provide a good show for our audience. Perhaps you are strong enough to join.
-All you need to do is beat three of my men in battle, and you shall be rewarded.
-#LIGHT_GREEN#*You consider the offer of the mysterious hooded man for a moment*
+]], [[#LIGHT_GREEN#*키가 크고, 후드를 뒤집어 쓴 남자가 당신을 쳐다봅니다.*#WHITE#
+좋아...좋아... 자넨 정말 대단한 전사가 될 것 같구만...
+제안 하나 하겠네, @playerdescriptor.race@.
+자네도 알겠지만... 나는 Arena에서 일하는 중개인이라네. 
+나는 관객들의 재미를 보장할 수 있는 전사를 찾고 있다네. 자네도 한번 참가해보면 좋을 것 같구만.
+*전투에서 3명만 제압한다면 보상을 받을 걸세.
+#LIGHT_GREEN#*당신은 후드를 쓴 신비한 남자의 제안을 잠시 고민합니다.*
 ]])
-t("Interesting. Tell me more about that Arena.", "Interesting. Tell me more about that Arena.")
-t("I am strong! What do you have to offer?", "I am strong! What do you have to offer?")
-t("I don't accept deals from shady hooded men.", "I don't accept deals from shady hooded men.")
+t("Interesting. Tell me more about that Arena.", "흥미롭군. Arena에 대해 조금 더 알려줘.")
+t("I am strong! What do you have to offer?", "좋아! 보상은 뭐지?")
+t("I don't accept deals from shady hooded men.", "후드 뒤집어 쓴 수상한 남자의 제안따윈 수락하지 않아.")
 t([[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
 I have wealth and glory to offer, and some very useful
 #YELLOW#combat experience#WHITE# from fighting our men...
 So, what do you think? Are you up to it?
-]], [[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
-I have wealth and glory to offer, and some very useful
-#YELLOW#combat experience#WHITE# from fighting our men...
-So, what do you think? Are you up to it?
+]], [[#LIGHT_GREEN#*후드를 쓴 남자가 웃고 있음을 느낄 수 있습니다.*#WHITE#
+부와 명예를 약속하지, 그리고 아주 유용한 몇 가지 
+#YELLOW#전투 경험#WHITE#도 전수해주도록 하마...
+그럼, 참가해볼텐가?
 ]])
 t([[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
 The Arena is where the brave come to fight against all odds.
@@ -6703,19 +6703,19 @@ If you can pass my little test...I will #LIGHT_RED#allow you to join the Arena w
 you are done with your adventures.#WHITE#
 You also shall gather some much needed #LIGHT_RED#combat experience#WHITE# from fighting
 our men...so, what do you think? Are you up to it?
-]], [[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
-The Arena is where the brave come to fight against all odds.
-We are still growing up, and we lack challengers...
-It's like a gamble, but you use your fighting instead of money to play, you see?
-We in the Arena work hard to make a good show, and in return...you can get enough
-wealth and glory to last for centuries!
-If you can pass my little test...I will #LIGHT_RED#allow you to join the Arena when
-you are done with your adventures.#WHITE#
-You also shall gather some much needed #LIGHT_RED#combat experience#WHITE# from fighting
-our men...so, what do you think? Are you up to it?
+]], [[#LIGHT_GREEN#*후드를 쓴 남자가 웃고 있음을 느낄 수 있습니다.*#WHITE#
+Arena는 모든 역경을 이겨낼 수 있는 용감한 사람이 찾아오는 곳이지.
+규모는 점점 커져가는데, 도전자가 부족하다네...
+도박이나 매한가지지만, 돈 대신 전투력을 사용할 뿐이지.
+Arena에서 좋은 구경거리를 보여준다면, 그 대가로... 몇 백년동안 이어질 부와 영광을 
+얻을 수 있을 걸세.
+이 간단한 시험만 통과한다면... 
+너는 #LIGHT_RED#Arena에 들어갈 수 있을 걸세.#WHITE#
+또한 필요한 #LIGHT_RED#전투 경험#WHITE#도 얻을 수 있을 것이야.
+그럼, 참가해볼텐가?
 ]])
-t("I am ready for battle. Let's go!", "I am ready for battle. Let's go!")
-t("I don't have time for games, Cornac.", "I don't have time for games, Cornac.")
+t("I am ready for battle. Let's go!", "싸울 준비는 이미 끝났어. 출발하지!")
+t("I don't have time for games, Cornac.", "구경거리가 될 시간 따윈 없어, Cornac.")
 t([[#LIGHT_GREEN#*The man lets out a disappointed sigh*#WHITE#
 That's unfortunate. We could have used someone like you.
 You are just the type the audience likes. You could have been a champion.
@@ -6723,15 +6723,15 @@ Alas, if you stand by your choice, we shall never meet again.
 However, if you change your mind...I will #YELLOW#stay in Derth just a little
 longer.#WHITE#
 If I am still around, we can have a deal. Think about it, @playerdescriptor.race@.
-]], [[#LIGHT_GREEN#*The man lets out a disappointed sigh*#WHITE#
-That's unfortunate. We could have used someone like you.
-You are just the type the audience likes. You could have been a champion.
-Alas, if you stand by your choice, we shall never meet again.
-However, if you change your mind...I will #YELLOW#stay in Derth just a little
-longer.#WHITE#
-If I am still around, we can have a deal. Think about it, @playerdescriptor.race@.
+]], [[#LIGHT_GREEN#*남자는 실망의 한숨을 내뱉었다.*#WHITE#
+안됐구만. 당신 같은 부류는 정말 제대로 해낼텐데 말이야.
+딱 관중들이 좋아할 타입이야. 자네는 챔피언이 될 수도 있었다네.
+아아... 자네의 뜻이 그렇다면, 우리는 다시 만날 일은 없겠군.
+하지만, 혹시나 자네의 생각이 바뀐다면... 나는 #YELLOW#Derth에 잠깐 더 머무를 
+생각이라네.#WHITE#
+지나다니다가 내가 아직도 보인다면, 아직은 기회가 있는 셈이야. 다시 한번 생각해보는게 좋을 걸세, @playerdescriptor.race@.
 ]])
-t("We'll see. [Leave]", "We'll see. [Leave]")
+t("We'll see. [Leave]", "두고보지. [떠난다]")
 t([[#LIGHT_GREEN#*The man smiles in approval*#WHITE#
 Excellent! A great fighter is always willing to head into battle.
 You certainly won't regret meeting us, indeed...
