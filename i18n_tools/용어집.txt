@@ -2,6 +2,9 @@
 
 - 직업
 
+- 종족
+Cornac 코르낙
+
 - 탤런트
 Talent ???
 - 스텟 관련
@@ -10,3 +13,4 @@ Talent ???
 Quest 임무
 Inventory 가방
 Item 물건
+Arena 투기장
