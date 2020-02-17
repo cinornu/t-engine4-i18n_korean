@@ -6676,12 +6676,12 @@ All you need to do is beat three of my men in battle, and you shall be rewarded.
 ]], [[#LIGHT_GREEN#*키가 크고, 후드를 뒤집어 쓴 남자가 당신을 쳐다봅니다.*#WHITE#
 좋아...좋아... 자넨 정말 대단한 전사가 될 것 같구만...
 제안 하나 하겠네, @playerdescriptor.race@.
-자네도 알겠지만... 나는 Arena에서 일하는 중개인이라네. 
+자네도 알겠지만... 나는 투기장에서 일하는 중개인이라네. 
 나는 관객들의 재미를 보장할 수 있는 전사를 찾고 있다네. 자네도 한번 참가해보면 좋을 것 같구만.
 *전투에서 3명만 제압한다면 보상을 받을 걸세.
 #LIGHT_GREEN#*당신은 후드를 쓴 신비한 남자의 제안을 잠시 고민합니다.*
 ]])
-t("Interesting. Tell me more about that Arena.", "흥미롭군. Arena에 대해 조금 더 알려줘.")
+t("Interesting. Tell me more about that Arena.", "흥미롭군. 투기장에 대해 조금 더 알려줘.")
 t("I am strong! What do you have to offer?", "좋아! 보상은 뭐지?")
 t("I don't accept deals from shady hooded men.", "후드 뒤집어 쓴 수상한 남자의 제안따윈 수락하지 않아.")
 t([[#LIGHT_GREEN#*You can feel the man smiling from inside his hood*#WHITE#
@@ -6707,15 +6707,15 @@ our men...so, what do you think? Are you up to it?
 Arena는 모든 역경을 이겨낼 수 있는 용감한 사람이 찾아오는 곳이지.
 규모는 점점 커져가는데, 도전자가 부족하다네...
 도박이나 매한가지지만, 돈 대신 전투력을 사용할 뿐이지.
-Arena에서 좋은 구경거리를 보여준다면, 그 대가로... 몇 백년동안 이어질 부와 영광을 
+투기장에서 좋은 구경거리를 보여준다면, 그 대가로... 몇 백년동안 이어질 부와 영광을 
 얻을 수 있을 걸세.
 이 간단한 시험만 통과한다면... 
-너는 #LIGHT_RED#Arena에 들어갈 수 있을 걸세.#WHITE#
+너는 #LIGHT_RED#투기장에 들어갈 수 있을 걸세.#WHITE#
 또한 필요한 #LIGHT_RED#전투 경험#WHITE#도 얻을 수 있을 것이야.
 그럼, 참가해볼텐가?
 ]])
 t("I am ready for battle. Let's go!", "싸울 준비는 이미 끝났어. 출발하지!")
-t("I don't have time for games, Cornac.", "구경거리가 될 시간 따윈 없어, Cornac.")
+t("I don't have time for games, Cornac.", "구경거리가 될 시간 따윈 없어, 코르낙.")
 t([[#LIGHT_GREEN#*The man lets out a disappointed sigh*#WHITE#
 That's unfortunate. We could have used someone like you.
 You are just the type the audience likes. You could have been a champion.
