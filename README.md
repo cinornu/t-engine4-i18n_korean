@@ -20,7 +20,8 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ** : 재검토 필요
 ?? : 작업 중
 ```
-
+==================================================================
+973 / 22213 문장 (4.3%) / 20.02.19 07:04 기준
 ==================================================================
 
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
@@ -84,7 +85,12 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/engine/Module.lua"
 "game/engines/default/engine/Object.lua" uueeck 완
 
+"game/engines/default/engine/Quest.lua" uueeck 완 **
 
+"game/engines/default/engine/PlayerProfile.lua"
+"game/engines/default/engine/Savefile.lua"
+"game/engines/default/engine/SavefilePipe.lua"
+"game/engines/default/engine/Store.lua"
 
 # 작업시 유의 사항
 

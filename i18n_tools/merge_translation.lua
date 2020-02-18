@@ -972,7 +972,7 @@ t("Test", "테스트")
 ------------------------------------------------
 section "game/engines/default/engine/Module.lua"
 
-t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s로 인해 온라인 프로필 비활성화(오프라인 프로파일로 교체됨)")
+t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로파일로 교체됨)", nil, {"이"})
 
 
 ------------------------------------------------
@@ -994,80 +994,80 @@ t("Talent %s", "기술 %s")
 ------------------------------------------------
 section "game/engines/default/engine/PlayerProfile.lua"
 
-t("#YELLOW#Connection to online server established.", "#YELLOW#Connection to online server established.")
-t("#YELLOW#Connection to online server lost, trying to reconnect.", "#YELLOW#Connection to online server lost, trying to reconnect.")
-t("bad game version", "bad game version")
-t("nothing to update", "nothing to update")
-t("bad game addon version", "bad game addon version")
-t("no online profile active", "no online profile active")
-t("cheat mode active", "cheat mode active")
-t("savefile tainted", "savefile tainted")
-t("unknown error", "unknown error")
-t("Character is being registered on https://te4.org/", "Character is being registered on https://te4.org/")
-t("Registering character", "Registering character")
-t("Retrieving data from the server", "Retrieving data from the server")
-t("Retrieving...", "Retrieving...")
+t("#YELLOW#Connection to online server established.", "#YELLOW#온라인 서버에 연결됨.")
+t("#YELLOW#Connection to online server lost, trying to reconnect.", "#YELLOW#온라인 서버 연결이 끊김. 재접속 시도 중.")
+t("bad game version", "게임 버전이 잘못됨")
+t("nothing to update", "업데이트가 존재하지 않음")
+t("bad game addon version", "애드온 버전이 잘못됨")
+t("no online profile active", "활성화된 온라인 프로필 없음")
+t("cheat mode active", "치트 모드 활성화")
+t("savefile tainted", "세이브 파일이 오염됨")
+t("unknown error", "알 수 없는 오류")
+t("Character is being registered on https://te4.org/", "캐릭터는 https://te4.org/ 에 등록됩니다.")
+t("Registering character", "캐릭터 등록 중")
+t("Retrieving data from the server", "서버에서 데이터를 받아오는 중")
+t("Retrieving...", "데이터를 받아오는 중...")
 
 
 ------------------------------------------------
-section "game/engines/default/engine/Quest.lua"
+section "game/engines/default/engine/Quest.lua"***
 
-t("active", "active")
-t("completed", "completed")
-t("done", "done")
-t("failed", "failed")
+t("active", "활성")
+t("completed", "완료")
+t("done", "성공")
+t("failed", "실패")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Savefile.lua"
 
-t("Please wait while saving the world...", "Please wait while saving the world...")
-t("Saving world", "Saving world")
-t("Please wait while saving the game...", "Please wait while saving the game...")
-t("Saving game", "Saving game")
-t("Please wait while saving the zone...", "Please wait while saving the zone...")
-t("Saving zone", "Saving zone")
-t("Please wait while saving the level...", "Please wait while saving the level...")
-t("Saving level", "Saving level")
-t("Please wait while saving the entity...", "Please wait while saving the entity...")
-t("Saving entity", "Saving entity")
-t("Loading world", "Loading world")
-t("Please wait while loading the world...", "Please wait while loading the world...")
-t("Loading game", "Loading game")
-t("Please wait while loading the game...", "Please wait while loading the game...")
-t("Loading zone", "Loading zone")
-t("Please wait while loading the zone...", "Please wait while loading the zone...")
-t("Loading level", "Loading level")
-t("Please wait while loading the level...", "Please wait while loading the level...")
-t("Loading entity", "Loading entity")
-t("Please wait while loading the entity...", "Please wait while loading the entity...")
+t("Please wait while saving the world...", "월드를 저장 중 입니다...")
+t("Saving world", "월드 저장")
+t("Please wait while saving the game...", "게임을 저장 중 입니다...")
+t("Saving game", "게임 저장")
+t("Please wait while saving the zone...", "지역을 저장 중 입니다...")
+t("Saving zone", "지역 저장")
+t("Please wait while saving the level...", "지역 내부를 저장 중 입니다...")***
+t("Saving level", "지역 내부")***
+t("Please wait while saving the entity...", "엔티티를 저장 중 입니다...")***
+t("Saving entity", "엔티티 저장")
+t("Loading world", "월드 불러오기")
+t("Please wait while loading the world...", "월드를 불러오는 중 입니다...")
+t("Loading game", "게임 불러오기")
+t("Please wait while loading the game...", "게임을 불러오는 중 입니다...")
+t("Loading zone", "지역 불러오기")
+t("Please wait while loading the zone...", "지역를 불러오는 중 입니다...")
+t("Loading level", "지역 내부 불러오기")***
+t("Please wait while loading the level...", "지역 내부를 불러오는 중 입니다...")***
+t("Loading entity", "엔티티 불러오기")***
+t("Please wait while loading the entity...", "엔티티를 불러오는 중 입니다...")***
 
 
 ------------------------------------------------
 section "game/engines/default/engine/SavefilePipe.lua"
 
-t("Saving done.", "Saving done.")
-t("Please wait while saving...", "Please wait while saving...")
-t("Saving...", "Saving...")
+t("Saving done.", "저장 완료.")
+t("Please wait while saving...", "저장하는 동안 잠시 기다려주세요...")
+t("Saving...", "저장 중...")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Store.lua"
 
-t("Store: %s", "Store: %s")
-t("Buy %d %s", "Buy %d %s")
-t("Buy", "Buy")
-t("Sell %d %s", "Sell %d %s")
+t("Store: %s", "상점: %s")
+t("Buy %d %s", "%d %s 구입")
+t("Buy", "구입")
+t("Sell %d %s", "%d %s 판매")
 t("Cancel", "취소")
-t("Sell", "Sell")
+t("Sell", "판매")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Trap.lua"
 
-t("%s fails to disarm a trap (%s).", "%s fails to disarm a trap (%s).")
-t("%s disarms a trap (%s).", "%s disarms a trap (%s).")
-t("%s triggers a trap (%s)!", "%s triggers a trap (%s)!")
+t("%s fails to disarm a trap (%s).", "%s %s 함정을 해제하는데 실패함.")
+t("%s disarms a trap (%s).", "%s %s 함정을 해제하는데 성공함.")
+t("%s triggers a trap (%s)!", "%s %s 함정이 발동됨!")
 t("%s", "%s")
 
 
@@ -2956,8 +2956,8 @@ t("Unfolding the space time structure...", "Unfolding the space time structure..
 t("something", "something")
 t("unknown", "unknown")
 t(" #LIGHT_GREEN#[%0.0f healing]#LAST#", " #LIGHT_GREEN#[%0.0f healing]#LAST#")
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source#이(가) #Target#을(를) 공격함. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
-t("#Source# hits #Target# for %s damage.", "#Source#이(가) #Target3#을(를) 공격하여 %s 피해를 입힘.")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
+t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입힘.")
 t("#Source# receives %s.", "#Source# receives %s.")
 t("#Target# receives %s from #Source#.", "#Target# receives %s from #Source#.")
 t("Kill (%d)!", "Kill (%d)!")
