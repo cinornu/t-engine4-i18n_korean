@@ -10748,14 +10748,14 @@ t("%s has collapsed in upon itself.", "%s has collapsed in upon itself.")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/humanoid_random_boss.lua"
 
-t("humanoid", "humanoid")
-t("human", "human")
-t("thalore", "thalore")
-t("shalore", "shalore")
-t("halfling", "halfling")
-t("dwarf", "dwarf")
-t("giant", "giant")
-t("ogre", "ogre")
+t("humanoid", "인간형")
+t("human", "인간")
+t("thalore", "탈로레")
+t("shalore", "샬로레")
+t("halfling", "하플링")
+t("dwarf", "드워프")
+t("giant", "거인")
+t("ogre", "오우거")
 
 
 ------------------------------------------------
