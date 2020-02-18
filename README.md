@@ -75,6 +75,16 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/engines/default/engine/Birther.lua" uueeck 완 **
 
+"game/engines/default/engine/DebugConsole.lua"
+"game/engines/default/engine/Game.lua"
+"game/engines/default/engine/I18N.lua"
+"game/engines/default/engine/Key.lua"
+"game/engines/default/engine/LogDisplay.lua"
+"game/engines/default/engine/MicroTxn.lua"
+"game/engines/default/engine/Module.lua"
+"game/engines/default/engine/Object.lua" uueeck 완
+
+
 
 # 작업시 유의 사항
 

@@ -925,7 +925,7 @@ t("Randomly selected %s.", "무작위로 선택하기 %s.")***
 ------------------------------------------------
 section "game/engines/default/engine/DebugConsole.lua"
 
-t("Lua Console", "Lua Console")
+t("Lua Console", "Lua 콘솔")
 
 
 ------------------------------------------------
@@ -939,56 +939,56 @@ t("No", "아니요")
 section "game/engines/default/engine/Game.lua"
 
 t([[Screenshot should appear in your Steam client's #LIGHT_GREEN#Screenshots Library#LAST#.
-Also available on disk: %s]], [[Screenshot should appear in your Steam client's #LIGHT_GREEN#Screenshots Library#LAST#.
-Also available on disk: %s]])
-t("File: %s", "File: %s")
-t("Screenshot taken!", "Screenshot taken!")
+Also available on disk: %s]], [[스크린샷이 스팀 클라이언트의 #LIGHT_GREEN#스크린샷 라이브러리#LAST#에 저장되었습니다.
+여유 디스크 공간: %s]])
+t("File: %s", "파일: %s")
+t("Screenshot taken!", "스크린샷 촬영됨!")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/I18N.lua"
 
-t("Testing arg one %d and two %d", "Testing arg one %d and two %d")
+t("Testing arg one %d and two %d", "인자 테스트 1번째 %d 와 2번째 %d")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Key.lua"
 
-t("#LIGHT_RED#Keyboard input temporarily disabled.", "#LIGHT_RED#Keyboard input temporarily disabled.")
+t("#LIGHT_RED#Keyboard input temporarily disabled.", "#LIGHT_RED#키보드 입력 임시 비활성화.")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/LogDisplay.lua"
 
-t("Message Log", "Message Log")
+t("Message Log", "메시지 로그")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/MicroTxn.lua"
 
-t("Test", "Test")
+t("Test", "테스트")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Module.lua"
 
-t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.")
+t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s로 인해 온라인 프로필 비활성화(오프라인 프로파일로 교체됨)")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Mouse.lua"
 
-t("#LIGHT_RED#Mouse input temporarily disabled.", "#LIGHT_RED#Mouse input temporarily disabled.")
+t("#LIGHT_RED#Mouse input temporarily disabled.", "#LIGHT_RED#마우스 입력 임시 비활성화")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Object.lua"
 
-t("Requires:", "Requires:")
-t("%s (level %d)", "%s (level %d)")
-t("Level %d", "Level %d")
-t("Talent %s (level %d)", "Talent %s (level %d)")
-t("Talent %s", "Talent %s")
+t("Requires:", "요구사항:")
+t("%s (level %d)", "%s (%d 레벨)")
+t("Level %d", "%d 레벨")
+t("Talent %s (level %d)", "기술 %s (%d 레벨)")
+t("Talent %s", "기술 %s")
 
 
 ------------------------------------------------
@@ -2980,7 +2980,7 @@ t("#GOLD#Automatic talent usage: %s", "#GOLD#Automatic talent usage: %s")
 t("#GOLD#Automatic accept target mode: %s", "#GOLD#Automatic accept target mode: %s")
 t("#LIGHT_GREEN#enabled", "#LIGHT_GREEN#enabled")
 t("#LIGHT_RED#disabled", "#LIGHT_RED#disabled")
-t("Message Log", "Message Log")
+t("Message Log", "메시지 로그")
 t("Displaying creatures.", "Displaying creatures.")
 t("Displaying talents.", "Displaying talents.")
 t("Show Achievements", "Show Achievements")
@@ -42837,7 +42837,7 @@ t([[%s (%s %s %s)
 t("unknown", "unknown")
 t("#LIGHT_BLUE#You resurrect! CHEATER !", "#LIGHT_BLUE#You resurrect! CHEATER !")
 t("Resurrect by cheating", "Resurrect by cheating")
-t("Message Log", "Message Log")
+t("Message Log", "메시지 로그")
 t("Message/Chat log (allows to talk)", "Message/Chat log (allows to talk)")
 t("Character dump", "Character dump")
 t("Restart the same character", "Restart the same character")
@@ -43181,7 +43181,7 @@ t("Resurrect by cheating", "Resurrect by cheating")
 t("Resurrect with the Blood of Life", "Resurrect with the Blood of Life")
 t("Re-assemble your bones and resurrect (Skeleton ability)", "Re-assemble your bones and resurrect (Skeleton ability)")
 t("Resurrect by consuming %s", "Resurrect by consuming %s")
-t("Message Log", "Message Log")
+t("Message Log", "메시지 로그")
 t("Message/Chat log (allows to talk)", "Message/Chat log (allows to talk)")
 t("Character dump", "Character dump")
 t("Restart the same character", "Restart the same character")
