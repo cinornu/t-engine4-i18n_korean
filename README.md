@@ -61,6 +61,12 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/engines/default/engine/ActorsSeenDisplay.lua" uueeck 완
 
+"game/modules/tome/data/quests/orc-pride.lua" Highseeker 완
+
+"game/modules/tome/data/quests/paradoxology.lua" Highseeker 완 ** 조사 지원 필요
+
+"game/modules/tome/data/quests/pre-charred-scar.lua" Highseeker 완
+
 # 작업시 유의 사항
 
 - 깃헙 데스크탑 실행하고 Fetch Origin 눌러서 변경 사항 받아오고, 커밋 올릴땐 제목에
