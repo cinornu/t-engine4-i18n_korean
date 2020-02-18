@@ -6727,7 +6727,7 @@ If I am still around, we can have a deal. Think about it, @playerdescriptor.race
 안됐구만. 당신 같은 부류는 정말 제대로 해낼텐데 말이야.
 딱 관중들이 좋아할 타입이야. 자네는 챔피언이 될 수도 있었다네.
 아아... 자네의 뜻이 그렇다면, 우리는 다시 만날 일은 없겠군.
-하지만, 혹시나 자네의 생각이 바뀐다면... 나는 #YELLOW#Derth에 잠깐 더 머무를 
+하지만, 혹시나 자네의 생각이 바뀐다면... 나는 #YELLOW#데르스에 잠깐 더 머무를 
 생각이라네.#WHITE#
 지나다니다가 내가 아직도 보인다면, 아직은 기회가 있는 셈이야. 다시 한번 생각해보는게 좋을 걸세, @playerdescriptor.race@.
 ]])
@@ -6736,17 +6736,17 @@ t([[#LIGHT_GREEN#*The man smiles in approval*#WHITE#
 Excellent! A great fighter is always willing to head into battle.
 You certainly won't regret meeting us, indeed...
 So, are you ready to fight?
-]], [[#LIGHT_GREEN#*The man smiles in approval*#WHITE#
-Excellent! A great fighter is always willing to head into battle.
-You certainly won't regret meeting us, indeed...
-So, are you ready to fight?
+]], [[#LIGHT_GREEN#*남자는 허락하는 듯한 미소를 짓고 있다.*#WHITE#
+잘됐군! 역시 위대한 싸움꾼은 전투를 좋아한다니까.
+당신은 절대로 후회하지 않을걸세...
+그럼, 싸울 준비가 되었는가?
 ]])
-t("Sounds like fun. I'm ready!", "Sounds like fun. I'm ready!")
-t("Wait. I am not ready yet.", "Wait. I am not ready yet.")
-t("#LIGHT_GREEN#*The man quietly walks away, after making you a gesture to follow him*", "#LIGHT_GREEN#*The man quietly walks away, after making you a gesture to follow him*")
-t("[Follow him]", "[Follow him]")
-t("Defeat all three enemies!", "Defeat all three enemies!")
-t("Get ready!", "Get ready!")
+t("Sounds like fun. I'm ready!", "재밌어 보이는군, 시작하지!")
+t("Wait. I am not ready yet.", "잠깐. 아직 준비되지 않았어.")
+t("#LIGHT_GREEN#*The man quietly walks away, after making you a gesture to follow him*", "#LIGHT_GREEN#*남자는 조용히 따라오라는 신호를 보내고 자리를 옮긴다.*")
+t("[Follow him]", "[따라간다]")
+t("Defeat all three enemies!", "3명의 적을 모두 격파하라!")
+t("Get ready!", "준비!")
 t([[#LIGHT_GREEN#*The Cornac rogue comes back from the shadows*#WHITE#
 Well done, @playerdescriptor.race@! I knew you had potential.
 #LIGHT_GREEN#*The rogue takes off his hood, showing a fairly young, but unmistakably
@@ -6760,36 +6760,36 @@ But we can make you a true champion, beloved by many and bathing in diamonds.
 #LIGHT_GREEN#battles in the forest. He provides you with great insight on your combat technique (#WHITE#+2 generic talent points#LIGHT_GREEN#)*
 #WHITE#Very well, @playername@. I must go now.
 Good luck in your adventures, and come visit us when you are done!
-]], [[#LIGHT_GREEN#*The Cornac rogue comes back from the shadows*#WHITE#
-Well done, @playerdescriptor.race@! I knew you had potential.
-#LIGHT_GREEN#*The rogue takes off his hood, showing a fairly young, but unmistakably
-#LIGHT_GREEN#battle-hardened man.#WHITE#
-The name's Rej. I work for the arena to recruit great fighters who can give a
-good show... and not die in two blows. You are one of those, indeed!
-I won't keep you away from your adventures. I was there too, long ago.
-But we can make you a true champion, beloved by many and bathing in diamonds.
+]], [[#LIGHT_GREEN#*코르낙 도적이 그림자 속에서 나타납니다.*#WHITE#
+잘했군, @playerdescriptor.race@! 해낼 줄 알았지,
+#LIGHT_GREEN#*도적이 후드를 벗자, 꽤나 젊지만 틀림없이
+#LIGHT_GREEN#전투로 단련된 남자임이 드러납니다.#WHITE#
+난 레이라고 하네. 투기장에서 실력을 보여줄 위대한 싸움꾼들을 
+찾고 있지... 자네 또한 대단한 싸움꾼인 것 같군!
+자네의 모험을 방해할 생각은 없다네. 나 또한 머나먼 옛날에는 모험 꽤나 다녔었지.
+하지만 우린 자네를 진정한 투사로 만들어 줄 수 있다네, 많은 사람들의 사랑을 받으며 다이아몬드로 샤워할 수도 있을테야.
 
-#LIGHT_GREEN#*As you travel back to Derth in company of the rogue, you discuss your
-#LIGHT_GREEN#battles in the forest. He provides you with great insight on your combat technique (#WHITE#+2 generic talent points#LIGHT_GREEN#)*
-#WHITE#Very well, @playername@. I must go now.
-Good luck in your adventures, and come visit us when you are done!
+#LIGHT_GREEN#*도적들과 함께 데르스로 돌아가면서, 숲에서의 전투에 대해
+#LIGHT_GREEN#이야기를 나눕니다. 대화를 통해 전투 기술에 대한 통찰력을 얻었습니다.(#WHITE# 일반 기술 점수 +2 #LIGHT_GREEN#)*
+#WHITE#좋아, @playername@. 난 이제 가봐야 하네.
+모험에 행운이 가득하길, 그리고 모험이 끝나고 나면 찾아오게!
 ]])
-t("I will. Farewell for now.", "I will. Farewell for now.")
-t("exit to Derth", "exit to Derth")
-t("Select the party member to receive the +2 generic talent points:", "Select the party member to receive the +2 generic talent points:")
-t("#WHITE#I see. I will be waiting... #YELLOW#But not for long.", "#WHITE#I see. I will be waiting... #YELLOW#But not for long.")
+t("I will. Farewell for now.", "그러도록 하지. 잘 지내길.")
+t("exit to Derth", "데르스로 이동")
+t("Select the party member to receive the +2 generic talent points:", "일반 기술 점수 2점을 받을 파티원을 선택하여 주세요.")
+t("#WHITE#I see. I will be waiting... #YELLOW#But not for long.", "#WHITE#알겠네. 기다리고 있겠네... #YELLOW#하지만 오래는 못 기다린다네.")
 t([[#LIGHT_GREEN#*The Cornac rogue displays a welcoming smile*#WHITE#
 Welcome back, @playerdescriptor.race@. Have you reconsidered my generous offer?
-]], [[#LIGHT_GREEN#*The Cornac rogue displays a welcoming smile*#WHITE#
-Welcome back, @playerdescriptor.race@. Have you reconsidered my generous offer?
+]], [[#LIGHT_GREEN#*코르낙 도적이 환영하며 미소를 짓습니다.*#WHITE#
+잘 왔네, @playerdescriptor.race@. 나의 제안은 다시 생각해봤소?
 ]])
-t("Yes, tell me more.", "Yes, tell me more.")
-t("No, see you.", "No, see you.")
+t("Yes, tell me more.", "그래, 좀 더 이야기해줘.")
+t("No, see you.", "아니, 잘 가.")
 t([[Welcome back, @playerdescriptor.race@. Are you ready to go?
-]], [[Welcome back, @playerdescriptor.race@. Are you ready to go?
+]], [[잘 왔네, @playerdescriptor.race@. 출발할 준비 되었소?
 ]])
-t("Let's go, Cornac.", "Let's go, Cornac.")
-t("Just a minute. I have to prepare my equipment.", "Just a minute. I have to prepare my equipment.")
+t("Let's go, Cornac.", "출발하지, 코르낙.")
+t("Just a minute. I have to prepare my equipment.", "잠깐, 장비 정리 좀 하겠네.")
 
 
 ------------------------------------------------
