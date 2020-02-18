@@ -269,7 +269,7 @@ local function print_file(file_out, file_out_2, file_out_3, file_copy)
     local f = io.open(file_out, "w")
     local f2 = io.open(file_out_2, "w")
     local f3 = io.open(file_out_3, "w")
-    local fc = io.open(file_copy, "r")
+    local fc = io.open(file_copy, "rb")
     f3:write("locale \"ko_KR\"\n")
     while true do
         local l = fc:read()

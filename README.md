@@ -69,6 +69,12 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/general/npcs/humanoid_random_boss.lua" beomkki 완
 
+"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
+
+"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
+
+"game/engines/default/engine/Birther.lua" uueeck
+
 
 # 작업시 유의 사항
 

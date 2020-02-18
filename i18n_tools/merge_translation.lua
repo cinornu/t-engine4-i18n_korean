@@ -905,15 +905,15 @@ t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE#; 거리 [%s]")
 ------------------------------------------------
 section "game/engines/default/engine/Birther.lua"
 
-t("Enter your character's name", "Enter your character's name")
-t("Name", "Name")
-t("Character Creation: %s", "Character Creation: %s")
+t("Enter your character's name", "캐릭터 이름 입력")
+t("Name", "이름")
+t("Character Creation: %s", "캐릭터 생성: %s")
 t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select an option; #00FF00#Enter#FFFFFF# to accept; #00FF00#Backspace#FFFFFF# to go back.
 Mouse: #00FF00#Left click#FFFFFF# to accept; #00FF00#right click#FFFFFF# to go back.
-]], [[Keyboard: #00FF00#up key/down key#FFFFFF# to select an option; #00FF00#Enter#FFFFFF# to accept; #00FF00#Backspace#FFFFFF# to go back.
-Mouse: #00FF00#Left click#FFFFFF# to accept; #00FF00#right click#FFFFFF# to go back.
+]], [[키보드: #00FF00#위/아래 방향키#FFFFFF# 로 설정을 변경; #00FF00#엔터키#FFFFFF# 로 확인; #00FF00#백스페이스키#FFFFFF# 로 돌아가기.
+마우스: #00FF00#좌클릭#FFFFFF# 으로 확인; #00FF00#우클릭#FFFFFF# 으로 돌아가기.
 ]])
-t("Random", "Random")
+t("Random", "무작위")
 t("", "")
 t("Do you want to recreate the same character?", "Do you want to recreate the same character?")
 t("Quick Birth", "Quick Birth")
@@ -31685,7 +31685,7 @@ t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, 
 section "game/modules/tome/data/talents/techniques/2h-assault.lua"
 
 t("Stunning Blow", "기절의 일격")
-t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {가}))
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {"가"})
 t([[Hit the target twice with your two-handed weapon, doing %d%% damage. Each hit will try to stun the target for %d turns.
 		The stun chance increases with your Physical Power.]], [[양손 무기로 대상을 공격해 %d%% 피해를 줍니다. 매 공격마다 일정 확률로 대상을 %d턴 기절시킵니다.
 		기절 확률은 물리력의 영향을 받아 증가합니다.]])
@@ -31720,14 +31720,14 @@ t([[You enter an aggressive battle stance, increasing Accuracy by %d and Physica
 		광전사 상태에서는 무엇으로도 저지할 수 없습니다. 기절과 속박 저항을 %d%% 얻습니다.
 		명중률은 민첩의 영향을 받아 증가하고 물리력은 힘의 영향을 받아 증가합니다.]])
 t("Warshout", "전투함성")
-t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", {가})
-t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", {가})
+t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", {"가"})
+t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", {"가"})
 t("You cannot use Warshout without a two-handed weapon!", "양손 무기 없이는 전투함성을 사용할 수 없습니다!")
 t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "전방의 원뿔 범위 %d칸에 전투함성을 외칩니다. 범위 내의 대상은 %d턴 동안 혼란 상태(위력 %d%%)에 빠집니다.", {1,3,2})
 t("Death Blow", "죽음의 일격")
 t("You cannot use Death Blow without a two-handed weapon!", "양손 무기 없이는 죽음의 일격을 사용할 수 없습니다!")
-t("%s feels the pain of the death blow!", "%s 죽음의 일격으로 고통을 느끼고 있습니다!", {가})
-t("%s resists the death blow!", "%s 죽음의 일격에 저항합니다!", {가})
+t("%s feels the pain of the death blow!", "%s 죽음의 일격으로 고통을 느끼고 있습니다!", {"가"})
+t("%s resists the death blow!", "%s 죽음의 일격에 저항합니다!", {"가"})
 t([[Tries to perform a killing blow, doing %d%% weapon damage and dealing an automatic critical hit. If the target ends up with low enough life (<20%%), it might be instantly killed.
 		At level 4, it drains half your remaining stamina, and uses it to increase the blow damage by 100%% of it.
 		The chance to instantly kill will increase with your Physical Power.]], [[죽음의 일격으로 %d%% 무기 피해와 자동 치명타를 가합니다. 대상의 생명력이 충분히 낮아졌다면(<20%%), 즉시 처치합니다.
@@ -31735,7 +31735,7 @@ t([[Tries to perform a killing blow, doing %d%% weapon damage and dealing an aut
 		즉사 확률은 물리력의 영향을 받아 증가합니다.]])
 t("Stunning Blow", "기절의 일격")
 t("You cannot use Stunning Blow without a two-handed weapon!", "양손 무기 없이는 기절의 일격을 사용할 수 없습니다!")
-t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {가})
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {"가"})
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target is stunned for %d turns.
 		The stun chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상은 %d턴 동안 기절합니다.
 		기절 확률은 물리력의 영향을 받아 증가합니다.]])
