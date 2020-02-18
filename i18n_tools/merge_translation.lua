@@ -905,7 +905,7 @@ t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE#; 거리 [%s]")
 ------------------------------------------------
 section "game/engines/default/engine/Birther.lua"
 
-t("Enter your character's name", "캐릭터 이름 입력")
+t("Enter your character's name", "캐릭터 이름을 입력해주세요")
 t("Name", "이름")
 t("Character Creation: %s", "캐릭터 생성: %s")
 t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select an option; #00FF00#Enter#FFFFFF# to accept; #00FF00#Backspace#FFFFFF# to go back.
@@ -915,11 +915,11 @@ Mouse: #00FF00#Left click#FFFFFF# to accept; #00FF00#right click#FFFFFF# to go b
 ]])
 t("Random", "무작위")
 t("", "")
-t("Do you want to recreate the same character?", "Do you want to recreate the same character?")
-t("Quick Birth", "Quick Birth")
-t("New character", "New character")
-t("Recreate", "Recreate")
-t("Randomly selected %s.", "Randomly selected %s.")
+t("Do you want to recreate the same character?", "같은 캐릭터를 재생성하시겠습니까?")
+t("Quick Birth", "빠른 탄생")***
+t("New character", "새로운 캐릭터")
+t("Recreate", "재생성")
+t("Randomly selected %s.", "무작위로 선택하기 %s.")***
 
 
 ------------------------------------------------
