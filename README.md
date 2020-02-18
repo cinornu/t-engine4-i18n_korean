@@ -6,36 +6,59 @@ https://docs.google.com/spreadsheets/d/184BXRyjua2MvZ9h0VMyQ7l_JExpcHUcbDA-lwiyY
 
 * 작업 중인 section을 기록해둘것.
 * 기록 방법 : 현재 작업 중인 영역 제일 윗줄에 있는 section ~~~ 경로를 기록해두고, 작업자 닉네임 같이 기록해두면 됨.
+
 ex) section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" 에 속한 문장을 번역중일 경우,
+
 section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uueeck
+
 이런 식으로 기록 요망.
+
 각자 작업 중인 영역이 겹치지 않도록 하기 위한 수단임.
 
-끝에 부호를 붙여서 상태 표시하기
-완 : 완료됨
+*끝에 부호를 붙여서 상태 표시하기
+```완 : 완료됨
 ** : 재검토 필요
 ?? : 작업 중
+```
 
 ==================================================================
 
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
+
 "game/engines/default/data/keybinds/debug.lua" uueeck 완
+
 "game/engines/default/data/keybinds/hotkeys.lua" uueeck 완
+
 "game/engines/default/data/keybinds/interface.lua" uueeck 완 **
+
 "game/engines/default/data/keybinds/inventory.lua" uueeck 완
+
 "game/modules/tome/data/chats/arena-unlock.lua" beomkki 완 ** (존댓말 재검토)
+
 "game/modules/tome/data/achievements/arena.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/donator.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/events.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/infinite-dungeon.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/items.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/kills.lua"jirehthecat 완 **
+
 "game/modules/tome/data/achievements/lore.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/player.lua" jirehthecat 완 
+
 "game/modules/tome/data/achievements/quests.lua" jirehthecat 완 **
+
 "game/modules/tome/data/achievements/talents.lua" jirehthecat 완 **
+
 "game/engines/default/data/keybinds/move.lua" uueeck 완
+
 "game/engines/default/data/keybinds/mtxn.lua" uueeck 완
+
 "game/engines/default/engine/ActorsSeenDisplay.lua" uueeck 완
 
 # 작업시 유의 사항
