@@ -22859,54 +22859,54 @@ t("The elder points to Reknor on your map, to the north on the western side of t
 ------------------------------------------------
 section "game/modules/tome/data/quests/orc-pride.lua"
 
-t("The many Prides of the Orcs", "The many Prides of the Orcs")
-t("Investigate the bastions of the Pride.", "Investigate the bastions of the Pride.")
-t("#LIGHT_GREEN#* You have destroyed Rak'shor.#WHITE#", "#LIGHT_GREEN#* You have destroyed Rak'shor.#WHITE#")
-t("#SLATE#* Rak'shor Pride, in the west of the southern desert.#WHITE#", "#SLATE#* Rak'shor Pride, in the west of the southern desert.#WHITE#")
-t("#LIGHT_GREEN#* You have destroyed Vor.#WHITE#", "#LIGHT_GREEN#* You have destroyed Vor.#WHITE#")
-t("#SLATE#* Vor Pride, in the north east.#WHITE#", "#SLATE#* Vor Pride, in the north east.#WHITE#")
-t("#LIGHT_GREEN#* You have destroyed Grushnak.#WHITE#", "#LIGHT_GREEN#* You have destroyed Grushnak.#WHITE#")
-t("#SLATE#* Grushnak Pride, near a small mountain range in the north west.#WHITE#", "#SLATE#* Grushnak Pride, near a small mountain range in the north west.#WHITE#")
-t("#LIGHT_GREEN#* You have destroyed Gorbat.#WHITE#", "#LIGHT_GREEN#* You have destroyed Gorbat.#WHITE#")
-t("#SLATE#* Gorbat Pride, in a mountain range in the southern desert.#WHITE#", "#SLATE#* Gorbat Pride, in a mountain range in the southern desert.#WHITE#")
+t("The many Prides of the Orcs", "오크 무리의 다양한 긍지들")
+t("Investigate the bastions of the Pride.", "긍지의 요새들을 조사하십시오.")
+t("#LIGHT_GREEN#* You have destroyed Rak'shor.#WHITE#", "#LIGHT_GREEN#* 당신은 락'쇼르 긍지를 파괴했습니다.#WHITE#")
+t("#SLATE#* Rak'shor Pride, in the west of the southern desert.#WHITE#", "#SLATE#* 남부 사막지대의 서쪽에 위치한 락'쇼르 긍지.#WHITE#")
+t("#LIGHT_GREEN#* You have destroyed Vor.#WHITE#", "#LIGHT_GREEN#* 당신은 보르 긍지를 파괴했습니다.#WHITE#")
+t("#SLATE#* Vor Pride, in the north east.#WHITE#", "#SLATE#* 북동쪽에 위치랑 보르 긍지.#WHITE#")
+t("#LIGHT_GREEN#* You have destroyed Grushnak.#WHITE#", "#LIGHT_GREEN#* 당신은 그루쉬낙 긍지를 파괴했습니다.#WHITE#")
+t("#SLATE#* Grushnak Pride, near a small mountain range in the north west.#WHITE#", "#SLATE#* 북서부의 작은 산맥 부근의 그루쉬낙 긍지.#WHITE#")
+t("#LIGHT_GREEN#* You have destroyed Gorbat.#WHITE#", "#LIGHT_GREEN#* 당신은 고르뱃 긍지를 파괴했습니다.#WHITE#")
+t("#SLATE#* Gorbat Pride, in a mountain range in the southern desert.#WHITE#", "#SLATE#* 남부 사막지대의 산맥에 위치한 고르뱃 긍지.#WHITE#")
 t("", "")
-t("#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters destroyed. High Sun Paladin Aeryn would surely be glad of the news!#WHITE#", "#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters destroyed. High Sun Paladin Aeryn would surely be glad of the news!#WHITE#")
+t("#LIGHT_GREEN#* All the bastions of the Pride lie in ruins, their masters destroyed. High Sun Paladin Aeryn would surely be glad of the news!#WHITE#", "#LIGHT_GREEN#* 모든 긍지의 요새들은 폐허가 되어 무너졌고 그들의 주인은 멸망했습니다. 고위 태양의 기사 아에린은 이 소식을 듣고 기뻐할 것입니다.#WHITE#")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/paradoxology.lua"
 
-t("The Way We Weren't", "The Way We Weren't")
+t("The Way We Weren't", "우리가 가지 않았던 길")
 t([[You have met what seems to be a future version of yourself.
-]], [[You have met what seems to be a future version of yourself.
+]], [[당신은 미래의 자신인 것 같은 것과 조우했습니다.
 ]])
 t([[You tried to kill yourself to prevent you from doing something, or going somewhere... you were not very clear.
-]], [[You tried to kill yourself to prevent you from doing something, or going somewhere... you were not very clear.
+]], [[당신은 자신을 죽여 당신이 무언가를 하거나, 어딘가로 가려 하는 것을 막으려 했습니다... 당신은 이해하지 못하겠지만요.
 ]])
 t([[You were killed by your future self, and thus this event never occured.
-]], [[You were killed by your future self, and thus this event never occured.
+]], [[당신은 미래의 자신에게 죽었고, 따라서 이 사건은 일어난 적이 없습니다.
 ]])
 t([[You killed your future self. In the future, you might wish to avoid time-traveling back to this moment...
-]], [[You killed your future self. In the future, you might wish to avoid time-traveling back to this moment...
+]], [[당신은 미래의 자신을 죽였습니다. 아마 미래의 당신은 지금 이 순간으로 시간 여행하는 것을 피하려 할 겁니다...
 ]])
-t("%s the Paradox Mage", "%s the Paradox Mage")
-t("A later (less fortunate?) version of %s, possibly going mad.", "A later (less fortunate?) version of %s, possibly going mad.")
-t("but nobody knew why #sex# suddenly became evil", "but nobody knew why #sex# suddenly became evil")
-t("#LIGHT_BLUE#Killing your own future self does feel weird, but you know that you can avoid this future. Just do not time travel.", "#LIGHT_BLUE#Killing your own future self does feel weird, but you know that you can avoid this future. Just do not time travel.")
-t("Meet the guardian!", "Meet the guardian!")
-t("#LIGHT_BLUE#Your future self kills you! The timestreams are broken by the paradox!", "#LIGHT_BLUE#Your future self kills you! The timestreams are broken by the paradox!")
-t("#LIGHT_BLUE#All those events never happened. Except they did, somewhen.", "#LIGHT_BLUE#All those events never happened. Except they did, somewhen.")
-t("This rift in time has been created by the paradox. You dare not enter it; it could make things worse. Another Warden will have to fix your mess.", "This rift in time has been created by the paradox. You dare not enter it; it could make things worse. Another Warden will have to fix your mess.")
+t("%s the Paradox Mage", "괴리마법사 %s")
+t("A later (less fortunate?) version of %s, possibly going mad.", "미쳐가고 있는 (불행한?)미래의 %s입니다.")
+t("but nobody knew why #sex# suddenly became evil", "하지만 왜 #sex#(조사) 타락했는지는 아무도 모릅니다.")
+t("#LIGHT_BLUE#Killing your own future self does feel weird, but you know that you can avoid this future. Just do not time travel.", "#LIGHT_BLUE#미래의 자신을 죽이는 것은 묘한 기분을 들게 합니다. 하지만 당신은 이제 어떻게 하면 이 미래를 피할 수 있는지 알고 있습니다. 그저 시간여행을 하지 않으면 됩니다.")
+t("Meet the guardian!", "수호자를 만나다!")
+t("#LIGHT_BLUE#Your future self kills you! The timestreams are broken by the paradox!", "#LIGHT_BLUE#미래의 당신이 당신을 죽였습니다! 시간 선이 괴리로 인해 붕괴합니다!")
+t("#LIGHT_BLUE#All those events never happened. Except they did, somewhen.", "#LIGHT_BLUE#이 모든 사건은 일어난 적이 없습니다. 언젠가 일어날 사건이란 것만 빼면.")
+t("This rift in time has been created by the paradox. You dare not enter it; it could make things worse. Another Warden will have to fix your mess.", "이 시간의 균열은 괴리로 인해 발생했습니다. 상황을 더 악화시키기 싫다면 이곳에 들어가려 하지 마십시오. 다른 감시자가 당신의 실수를 고쳐줘야 할 것입니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/pre-charred-scar.lua"
 
-t("Important news", "Important news")
-t("Orcs were spotted with the staff you seek in an arid waste in the southern desert.", "Orcs were spotted with the staff you seek in an arid waste in the southern desert.")
-t("You should go investigate what is happening there.", "You should go investigate what is happening there.")
-t("High Sun Paladin Aeryn", "High Sun Paladin Aeryn")
-t("Aeryn explained where the orcs were spotted.", "Aeryn explained where the orcs were spotted.")
+t("Important news", "중대한 소식")
+t("Orcs were spotted with the staff you seek in an arid waste in the southern desert.", "남부 사막지대의 에류안 불모지에서 흡수의 지팡이를 가진 오크 무리가 발견되었습니다.")
+t("You should go investigate what is happening there.", "당신은 그곳으로 가서 어떤 일이 벌어지고 있는지 조사해야 합니다.You should go investigate what is happening there.")
+t("High Sun Paladin Aeryn", "고위 태양의 기사 아에린")
+t("Aeryn explained where the orcs were spotted.", "아에린이 오크 무리가 어디서 발견되었는지 설명해주었습니다")
 
 
 ------------------------------------------------
