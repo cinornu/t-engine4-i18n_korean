@@ -31684,80 +31684,80 @@ t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, 
 ------------------------------------------------
 section "game/modules/tome/data/talents/techniques/2h-assault.lua"
 
-t("Stunning Blow", "Stunning Blow")
-t("%s resists the stunning blow!", "%s resists the stunning blow!")
+t("Stunning Blow", "기절의 일격")
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {가}))
 t([[Hit the target twice with your two-handed weapon, doing %d%% damage. Each hit will try to stun the target for %d turns.
-		The stun chance increases with your Physical Power.]], [[Hit the target twice with your two-handed weapon, doing %d%% damage. Each hit will try to stun the target for %d turns.
-		The stun chance increases with your Physical Power.]])
-t("Fearless Cleave", "Fearless Cleave")
-t("You must be able to move to use this talent.", "You must be able to move to use this talent.")
-t("Take a step toward your foes then use the momentum to cleave all creatures adjacent to you for %d%% weapon damage.", "Take a step toward your foes then use the momentum to cleave all creatures adjacent to you for %d%% weapon damage.")
-t("Death Dance", "Death Dance")
-t("You cannot use Death Dance without a two-handed weapon!", "You cannot use Death Dance without a two-handed weapon!")
+		The stun chance increases with your Physical Power.]], [[양손 무기로 대상을 공격해 %d%% 피해를 줍니다. 매 공격마다 일정 확률로 대상을 %d턴 기절시킵니다.
+		기절 확률은 물리력의 영향을 받아 증가합니다.]])
+t("Fearless Cleave", "대담한 가로베기")
+t("You must be able to move to use this talent.", "이 기술을 사용하려면 이동할 수 있어야 합니다.")
+t("Take a step toward your foes then use the momentum to cleave all creatures adjacent to you for %d%% weapon damage.", "적을 항해 한 걸음 이동하면서 가속도를 이용해 주변의 인접한 모든 대상을 가로베고 %d%% 무기 피해를 줍니다.")
+t("Death Dance", "죽음의 무도")
+t("You cannot use Death Dance without a two-handed weapon!", "양손 무기가 없으면 죽음의 무도를 사용할 수 없습니다!")
 t([[Spin around, extending your weapon in radius %d and damaging all targets around you for %d%% weapon damage.
-		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]], [[Spin around, extending your weapon in radius %d and damaging all targets around you for %d%% weapon damage.
-		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]])
-t("Execution", "Execution")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.")
+		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]], [[회전하며 반경 %d칸에 무기를 뻗어 주변의 모든 대상에게 %d%% 무기 피해를 줍니다.
+		레벨 3에 모든 피해가 대상에게 출혈을 유발해 5턴 동안 %d%% 추가 피해를 줍니다]])
+t("Execution", "처형")
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.")
 t([[Takes advantage of a wounded foe to perform a killing strike.  This attack is an automatic critical hit that does %0.1f%% extra weapon damage for each %% of life the target is below maximum.
 		(A victim with 30%% remaining life (70%% damaged) would take %0.1f%% weapon damage.)
-		If an enemy dies from this attack then two of your talent cooldowns are reduced by 2 turns and Execution's cooldown is reset.]], [[Takes advantage of a wounded foe to perform a killing strike.  This attack is an automatic critical hit that does %0.1f%% extra weapon damage for each %% of life the target is below maximum.
-		(A victim with 30%% remaining life (70%% damaged) would take %0.1f%% weapon damage.)
-		If an enemy dies from this attack then two of your talent cooldowns are reduced by 2 turns and Execution's cooldown is reset.]])
+		If an enemy dies from this attack then two of your talent cooldowns are reduced by 2 turns and Execution's cooldown is reset.]], [[상처입은 적을 노려 치명적인 일격을 날립니다. 이 공격은 대상의 최대 생명력에서 감소한 %% 생명력마다 %0.1f%% 추가 무기 피해를 주는 자동 치명타입니다.
+		(생명력이 30%% 남은 대상(70%% 피해)은 %0.1f%% 무기 피해를 받습니다.)
+		만약 이 공격으로 적이 죽으면 두 가지 기술의 쿨다운이 2턴 감소하고 처형의 쿨다운이 초기화됩니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/techniques/2hweapon.lua"
 
-t("Death Dance", "Death Dance")
-t("You cannot use Death Dance without a two-handed weapon!", "You cannot use Death Dance without a two-handed weapon!")
+t("Death Dance", "죽음의 무도")
+t("You cannot use Death Dance without a two-handed weapon!", "양손 무기가 없으면 죽음의 무도를 사용할 수 없습니다!")
 t("Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage.", "Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage.")
-t("Berserker", "Berserker")
-t("You cannot use Berserker without a two-handed weapon!", "You cannot use Berserker without a two-handed weapon!")
+t("Berserker", "광전사")
+t("You cannot use Berserker without a two-handed weapon!", "양손 무기가 없으면 광전사를 사용할 수 없습니다!")
 t([[You enter an aggressive battle stance, increasing Accuracy by %d and Physical Power by %d, at the cost of -10 Defense and -10 Armour.
 		While berserking, you are nearly unstoppable, granting you %d%% stun and pinning resistance.
-		The Accuracy bonus increases with your Dexterity, and the Physical Power bonus with your Strength.]], [[You enter an aggressive battle stance, increasing Accuracy by %d and Physical Power by %d, at the cost of -10 Defense and -10 Armour.
-		While berserking, you are nearly unstoppable, granting you %d%% stun and pinning resistance.
-		The Accuracy bonus increases with your Dexterity, and the Physical Power bonus with your Strength.]])
-t("Warshout", "Warshout")
-t("@Source@ uses Warshout.", "@Source@ uses Warshout.")
-t("@Source@ uses Warsqueak.", "@Source@ uses Warsqueak.")
-t("You cannot use Warshout without a two-handed weapon!", "You cannot use Warshout without a two-handed weapon!")
-t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.")
-t("Death Blow", "Death Blow")
-t("You cannot use Death Blow without a two-handed weapon!", "You cannot use Death Blow without a two-handed weapon!")
-t("%s feels the pain of the death blow!", "%s feels the pain of the death blow!")
-t("%s resists the death blow!", "%s resists the death blow!")
+		The Accuracy bonus increases with your Dexterity, and the Physical Power bonus with your Strength.]], [[공격적인 전투 자세를 취하여 회피와 방어가 -10 감소하는 대신 명중률이 %d, 물리력이 %d 증가합니다.
+		광전사 상태에서는 무엇으로도 저지할 수 없습니다. 기절과 속박 저항을 %d%% 얻습니다.
+		명중률은 민첩의 영향을 받아 증가하고 물리력은 힘의 영향을 받아 증가합니다.]])
+t("Warshout", "전투함성")
+t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", {가})
+t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", {가})
+t("You cannot use Warshout without a two-handed weapon!", "양손 무기 없이는 전투함성을 사용할 수 없습니다!")
+t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "전방의 원뿔 범위 %d칸에 전투함성을 외칩니다. 범위 내의 대상은 %d턴 동안 혼란 상태(위력 %d%%)에 빠집니다.", {1,3,2})
+t("Death Blow", "죽음의 일격")
+t("You cannot use Death Blow without a two-handed weapon!", "양손 무기 없이는 죽음의 일격을 사용할 수 없습니다!")
+t("%s feels the pain of the death blow!", "%s 죽음의 일격으로 고통을 느끼고 있습니다!", {가})
+t("%s resists the death blow!", "%s 죽음의 일격에 저항합니다!", {가})
 t([[Tries to perform a killing blow, doing %d%% weapon damage and dealing an automatic critical hit. If the target ends up with low enough life (<20%%), it might be instantly killed.
 		At level 4, it drains half your remaining stamina, and uses it to increase the blow damage by 100%% of it.
-		The chance to instantly kill will increase with your Physical Power.]], [[Tries to perform a killing blow, doing %d%% weapon damage and dealing an automatic critical hit. If the target ends up with low enough life (<20%%), it might be instantly killed.
-		At level 4, it drains half your remaining stamina, and uses it to increase the blow damage by 100%% of it.
-		The chance to instantly kill will increase with your Physical Power.]])
-t("Stunning Blow", "Stunning Blow")
-t("You cannot use Stunning Blow without a two-handed weapon!", "You cannot use Stunning Blow without a two-handed weapon!")
-t("%s resists the stunning blow!", "%s resists the stunning blow!")
+		The chance to instantly kill will increase with your Physical Power.]], [[죽음의 일격으로 %d%% 무기 피해와 자동 치명타를 가합니다. 대상의 생명력이 충분히 낮아졌다면(<20%%), 즉시 처치합니다.
+		레벨 4에서 남은 체력의 절반을 쏟아부어 일격의 피해량이 100%% 증가합니다.
+		즉사 확률은 물리력의 영향을 받아 증가합니다.]])
+t("Stunning Blow", "기절의 일격")
+t("You cannot use Stunning Blow without a two-handed weapon!", "양손 무기 없이는 기절의 일격을 사용할 수 없습니다!")
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {가})
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target is stunned for %d turns.
-		The stun chance increases with your Physical Power.]], [[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target is stunned for %d turns.
-		The stun chance increases with your Physical Power.]])
-t("Sunder Armour", "Sunder Armour")
-t("You cannot use Sunder Armour without a two-handed weapon!", "You cannot use Sunder Armour without a two-handed weapon!")
+		The stun chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상은 %d턴 동안 기절합니다.
+		기절 확률은 물리력의 영향을 받아 증가합니다.]])
+t("Sunder Armour", "방어구 부수기")
+t("You cannot use Sunder Armour without a two-handed weapon!", "양손 무기 없이는 방어구 부수기를 사용할 수 없습니다!!")
 t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s shatters %s shield!")
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's armour and saves are reduced by %d for %d turns.
 		Also if the target is protected by a temporary damage shield there is %d%% chance to shatter it.
-		Armor reduction chance increases with your Physical Power.]], [[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's armour and saves are reduced by %d for %d turns.
-		Also if the target is protected by a temporary damage shield there is %d%% chance to shatter it.
-		Armor reduction chance increases with your Physical Power.]])
-t("Sunder Arms", "Sunder Arms")
-t("You cannot use Sunder Arms without a two-handed weapon!", "You cannot use Sunder Arms without a two-handed weapon!")
+		Armor reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 방어와 모든 내성이 %d턴 동안 %d 감소합니다.
+		또한 대상이 일시적인 피해 보호막에 의해 보호받고 있다면, %d%% 확률로 분쇄합니다.
+		방어도 감소 확률은 물리력의 영향을 받아 증가합니다.]], {1,3,2,4})
+t("Sunder Arms", "무기 부수기")
+t("You cannot use Sunder Arms without a two-handed weapon!", "양손 무기 없이는 무기 부수기를 사용할 수 없습니다!")
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
-		Accuracy reduction chance increases with your Physical Power.]], [[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
-		Accuracy reduction chance increases with your Physical Power.]])
-t("Blood Frenzy", "Blood Frenzy")
-t("You require a two handed weapon to use this talent.", "You require a two handed weapon to use this talent.")
-t("You cannot use Blood Frenzy without a two-handed weapon!", "You cannot use Blood Frenzy without a two-handed weapon!")
+		Accuracy reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 명중률이 %d턴 동안 %d 감소합니다.
+		명중률 감소 확률은 물리력의 영향을 받아 증가합니다.]],{1,3,2,4})
+t("Blood Frenzy", "피의 광란")
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.")
+t("You cannot use Blood Frenzy without a two-handed weapon!", "양손 무기 없이는 피의 광란을 사용할 수 없습니다!")
 t([[Enter a blood frenzy, draining stamina quickly (-2 stamina/turn). Each time you kill a foe while in the blood frenzy, you gain a cumulative bonus to Physical Power of %d.
-		Each turn, this bonus decreases by 2.]], [[Enter a blood frenzy, draining stamina quickly (-2 stamina/turn). Each time you kill a foe while in the blood frenzy, you gain a cumulative bonus to Physical Power of %d.
-		Each turn, this bonus decreases by 2.]])
+		Each turn, this bonus decreases by 2.]], [[피의 광란 상태에 돌입해 빠르게 체력이 감소합니다(-2 체력/턴). 피의 광란 상태에서 적을 죽일 때마다 물리력이 %d 증가합니다.
+		턴마다 보너스가 2 감소합니다.]])
 
 
 ------------------------------------------------

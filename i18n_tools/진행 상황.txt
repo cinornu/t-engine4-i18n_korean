@@ -31,3 +31,5 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/data/keybinds/move.lua" uueeck 완
 "game/engines/default/data/keybinds/mtxn.lua" uueeck 완
 "game/engines/default/engine/ActorsSeenDisplay.lua" uueeck 완
+"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
