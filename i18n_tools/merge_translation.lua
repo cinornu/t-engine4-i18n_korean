@@ -742,7 +742,7 @@ section "game/engines/default/data/keybinds/actions.lua"
 
 t("Go to next/previous level", "다음/이전 단계로 이동")
 t("Levelup window", "레벨업 창")
-t("Use talents", "Use talents")***
+t("Use talents", "기술 발동")
 t("Show quests", "임무 보이기")
 t("Rest for a while", "휴식하기")
 t("Save game", "게임 저장")
@@ -868,38 +868,38 @@ t("Quick switch weapons set", "무기 세트 빠른 전환")
 ------------------------------------------------
 section "game/engines/default/data/keybinds/move.lua"
 
-t("Move left", "Move left")
-t("Move right", "Move right")
-t("Move up", "Move up")
-t("Move down", "Move down")
-t("Move diagonally left and up", "Move diagonally left and up")
-t("Move diagonally right and up", "Move diagonally right and up")
-t("Move diagonally left and down", "Move diagonally left and down")
-t("Move diagonally right and down", "Move diagonally right and down")
-t("Stay for a turn", "Stay for a turn")
-t("Run", "Run")
-t("Run left", "Run left")
-t("Run right", "Run right")
-t("Run up", "Run up")
-t("Run down", "Run down")
-t("Run diagonally left and up", "Run diagonally left and up")
-t("Run diagonally right and up", "Run diagonally right and up")
-t("Run diagonally left and down", "Run diagonally left and down")
-t("Run diagonally right and down", "Run diagonally right and down")
-t("Auto-explore", "Auto-explore")
+t("Move left", "왼쪽으로 이동")
+t("Move right", "오른쪽으로 이동")
+t("Move up", "위로 이동")
+t("Move down", "아래로 이동")
+t("Move diagonally left and up", "좌상단으로 대각 이동")
+t("Move diagonally right and up", "우상단으로 대각 이동")
+t("Move diagonally left and down", "좌하단으로 대각 이동")
+t("Move diagonally right and down", "좌상단으로 대각 이동")
+t("Stay for a turn", "한턴 대기")
+t("Run", "달리기")
+t("Run left", "왼쪽으로 달리기")
+t("Run right", "오른쪽으로 달리기")
+t("Run up", "위로 달리기")
+t("Run down", "아래로 달리기")
+t("Run diagonally left and up", "좌상단으로 대각 달리기")
+t("Run diagonally right and up", "우상단으로 대각 달리기")
+t("Run diagonally left and down", "좌하단으로 대각 달리기")
+t("Run diagonally right and down", "좌상단으로 대각 달리기")
+t("Auto-explore", "자동 탐색")
 
 
 ------------------------------------------------
 section "game/engines/default/data/keybinds/mtxn.lua"
 
-t("List purchasable", "List purchasable")
-t("Use purchased", "Use purchased")
+t("List purchasable", "구매 가능 목록 보기")
+t("Use purchased", "구매한 품목 확인하기")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/ActorsSeenDisplay.lua"
 
-t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE#; distance [%s]")
+t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE#; 거리 [%s]")
 
 
 ------------------------------------------------
