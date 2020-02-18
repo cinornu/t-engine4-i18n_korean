@@ -1,4 +1,4 @@
-* 작업 중인 section을 기록해둘것.
+﻿* 작업 중인 section을 기록해둘것.
 * 기록 방법 : 현재 작업 중인 영역 제일 윗줄에 있는 section ~~~ 경로를 기록해두고, 작업자 닉네임 같이 기록해두면 됨.
 ex) section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" 에 속한 문장을 번역중일 경우,
 section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uueeck
@@ -17,4 +17,4 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/data/keybinds/hotkeys.lua" uueeck 완
 "game/engines/default/data/keybinds/interface.lua" uueeck 완 **
 "game/engines/default/data/keybinds/inventory.lua" uueeck 완
-"game/modules/tome/data/chats/arena-unlock.lua" beomkki ??
+"game/modules/tome/data/chats/arena-unlock.lua" beomkki 완 ** (존댓말 재검토)
