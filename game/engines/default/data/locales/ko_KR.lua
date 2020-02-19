@@ -939,6 +939,7 @@ section "game/dlcs/tome-cults/data/zones/ft-home/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-horrors/grids.lua"
 
+t("Exit", "나가기")
 
 
 ------------------------------------------------
@@ -3317,6 +3318,7 @@ t("Cancel", "취소")
 section "game/engines/default/engine/dialogs/microtxn/UsePurchased.lua"
 
 t("Name", "이름")
+t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#설치됨")
 
 
 ------------------------------------------------
@@ -3411,7 +3413,7 @@ section "game/engines/default/engine/utils.lua"
 section "game/engines/default/modules/boot/class/Game.lua"
 
 t("Continue", "계속하기")
-t("Quit", "종료")
+t("Quit", "출구")
 
 
 ------------------------------------------------
@@ -3483,6 +3485,9 @@ section "game/engines/default/modules/boot/data/zones/dungeon/zone.lua"
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/Addons.lua"
 
+t("Show incompatible", "호환되지 않는 버전 보이기")
+t("Game Module", "게임 모듈")
+t("Version", "버전")
 
 
 ------------------------------------------------
@@ -3499,6 +3504,7 @@ t("Cancel", "취소")
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/LoadGame.lua"
 
+t("Load Game", "게임 불러오기")
 t("Developer Mode", "개발자 모드")
 t("Cancel", "취소")
 
@@ -3507,43 +3513,99 @@ t("Cancel", "취소")
 section "game/engines/default/modules/boot/dialogs/MainMenu.lua"
 
 t("Main Menu", "메인 메뉴")
+t("New Game", "새 게임")
+t("Load Game", "게임 불러오기")
+t("Addons", "애드온")
+t("Options", "설정")
+t("Game Options", "게임 설정")
+t("Credits", "개발진들")
+t("Exit", "나가기")
+t("Reboot", "재시작")
+t("Disable animated background", "움직이는 배경화면 비활성화")
+t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#설치됨")
+t("#YELLOW#Not installed - Click to download / purchase", "#YELLOW#설치되지 않음 - 클릭 시 다운로드 / 구매")
+t("Login", "로그인")
+t("Register", "가입")
+t("Username: ", "유저명: ")
+t("Password: ", "비밀번호: ")
+t("#GOLD#Online Profile", "#GOLD#온라인 프로필")
+t("Login with Steam", "스팀으로 로그인")
+t("#GOLD#Online Profile#WHITE#", "#GOLD#온라인 프로필#WHITE#")
+t("#LIGHT_BLUE##{underline}#Logout", "#LIGHT_BLUE##{underline}#로그아웃")
+t("Username", "유저명")
+t("Your username is too short", "유저명이 너무 짧습니다.")
+t("Password", "비밀번호")
+t("Your password is too short", "비밀번호가 너무 짧습니다.")
+t("Login in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...")
+t("Login...", "로그인 중...")
+t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/NewGame.lua"
 
+t("New Game", "새 게임")
+t("Show all versions", "모든 버전 보이기")
+t("Show incompatible", "호환되지 않는 버전 보이기")
+t("Game Module", "게임 모듈")
+t("Version", "버전")
 t("Enter your character's name", "캐릭터 이름을 입력해주세요")
+t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?")
+t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?")
 t("No", "아니요")
 t("Yes", "네")
+t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "이 게임은 현재 T-Engint 버전과 호환되지 않으므로, 실행 시 심각한 오류를 발생시킬 수 있습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/Profile.lua"
 
+t("Player Profile", "플레이어 프로필")
+t("Logout", "로그아웃")
+t("Do you want to log out?", "정말 로그아웃하시겠습니까?")
+t("You are logged in", "로그인 됨")
 t("Cancel", "취소")
+t("Log out", "로그아웃")
+t("Login", "로그인")
+t("Create Account", "계정 생성")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileLogin.lua"
 
+t("Login", "로그인")
+t("Username: ", "유저명: ")
+t("Password: ", "비밀번호: ")
 t("Cancel", "취소")
+t("Username", "유저명")
+t("Your username is too short", "유저명이 너무 짧습니다.")
+t("Password", "비밀번호")
+t("Your password is too short", "비밀번호가 너무 짧습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileSteamRegister.lua"
 
+t("Username: ", "유저명: ")
+t("Register", "가입")
 t("Cancel", "취소")
+t("Username", "유저명")
+t("Your username is too short", "유저명이 너무 짧습니다.")
+t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.")
 t("Error", "오류")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/UpdateAll.lua"
 
+t("Version", "버전")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ViewHighScores.lua"
 
+t("Game Module", "게임 모듈")
+t("Version", "버전")
 
 
 ------------------------------------------------
@@ -3624,8 +3686,13 @@ section "game/modules/tome/class/Game.lua"
 
 t("Loading level", "지역 내부 불러오기")
 t("Please wait while loading the level...", "지역 내부를 불러오는 중 입니다...")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
+t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입힘.")
+t("Kill (%d)!", "%d 죽음!", nil, {"가"})
 t("Message Log", "메시지 로그")
 t("Show Achievements", "도전과제 확인")
+t("Character Sheet", "캐릭터 시트")
+t("Game Options", "게임 설정")
 
 
 ------------------------------------------------
@@ -3739,6 +3806,7 @@ section "game/modules/tome/class/interface/ActorObjectUse.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/Archery.lua"
 
+t("#Source# misses #target#.", "#Source1# #target3# 빗맞힘.")
 
 
 ------------------------------------------------
@@ -10319,6 +10387,8 @@ section "game/modules/tome/dialogs/Birther.lua"
 
 t("Female", "여성")
 t("Male", "남성")
+t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?")
+t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?")
 t("Yes", "네")
 t("No", "아니요")
 t("Cancel", "취소")
@@ -10354,6 +10424,7 @@ t("Cancel", "취소")
 ------------------------------------------------
 section "game/modules/tome/dialogs/GameOptions.lua"
 
+t("Game Options", "게임 설정")
 t("no", "아니요")
 
 

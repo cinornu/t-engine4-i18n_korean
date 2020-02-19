@@ -83,16 +83,23 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/engine/LogDisplay.lua"
 "game/engines/default/engine/MicroTxn.lua"
 "game/engines/default/engine/Module.lua"
-"game/engines/default/engine/Object.lua" uueeck 완
-
-"game/engines/default/engine/Quest.lua" uueeck 완 **
-
+"game/engines/default/engine/Object.lua"
 "game/engines/default/engine/PlayerProfile.lua"
 "game/engines/default/engine/Savefile.lua"
 "game/engines/default/engine/SavefilePipe.lua"
 "game/engines/default/engine/Store.lua"
 "game/engines/default/engine/Trap.lua"
 "game/engines/default/data/keybinds/chat.lua" uueeck 완
+
+"game/engines/default/engine/dialogs/DisplayResolution.lua"
+"game/engines/default/engine/dialogs/Downloader.lua"
+"game/engines/default/engine/dialogs/GameMenu.lua"
+"game/engines/default/modules/boot/dialogs/NewGame.lua"
+"game/engines/default/modules/boot/dialogs/Profile.lua" uueeck 완
+
+"game/engines/default/engine/Quest.lua" uueeck 완 **
+
+"game/engines/default/modules/boot/dialogs/MainMenu.lua" uueeck ??
 
 # 작업시 유의 사항
 

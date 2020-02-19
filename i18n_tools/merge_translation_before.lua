@@ -2378,7 +2378,7 @@ t("Username", "유저명")
 t("Your username is too short", "유저명이 너무 짧습니다.")
 t("Password", "비밀번호")
 t("Your password is too short", "비밀번호가 너무 짧습니다.")
-t("Login in your account, please wait...", "로그인 중입니다. 잠시만 기다려주세요...")
+t("Login in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...")
 t("Login...", "로그인 중...")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.")
 
