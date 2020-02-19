@@ -133,7 +133,7 @@ newTalent {
 	random_ego = "attack",
 	cooldown = function(self, t) return 20 - cooldown_bonus(self) end,
 	no_energy = true,
-	message = function(self, t) return "@Source@ tumbles to a better position!" end,
+	message = function(self, t) return _t"@Source@ tumbles to a better position!" end,
 	stamina = function(self, t)
 		return math.max(0, 20 - stamina_bonus(self))
 	end,

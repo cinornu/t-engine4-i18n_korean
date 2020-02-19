@@ -116,7 +116,7 @@ local invocation_close = function(self, who)
 	game.logPlayer(who, "#LIGHT_BLUE#You use the orb on the portal, shutting it down easily.")
 	for i = 1, #game.level.spots do if game.level.spots[i] == spot then table.remove(game.level.spots, i) break end end
 	local g = game.level.map(spot.x, spot.y, engine.Map.TERRAIN)
-	g.name = g.name .. " (disabled)"
+	g.name = ("%s (disabled)"):tformat(_t(g.name))
 	g.color_r = colors.WHITE.r
 	g.color_g = colors.WHITE.g
 	g.color_b = colors.WHITE.b

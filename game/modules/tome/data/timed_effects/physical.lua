@@ -49,7 +49,7 @@ newEffect{
 	name = "RELENTLESS_TEMPO", image = "talents/sunder_mind.png",
 	desc = _t"Relentless Tempo",
 	long_desc = function(self, eff) return ("Attuning to the flow of combat, increasing their combat stats.  \nDefense:  %d\nAll Damage:  %d%%\nStamina Regeneration:  %d\n%s"):
-		tformat( eff.cur_defense or 0, eff.cur_damage or 0, eff.cur_stamina or 0, eff.stacks >= 5 and "All Resistance:  20%" or "") end,
+		tformat( eff.cur_defense or 0, eff.cur_damage or 0, eff.cur_stamina or 0, eff.stacks >= 5 and _t"All Resistance:  20%" or "") end,
 	charges = function(self, eff) return eff.stacks end,
 	type = "physical",
 	subtype = { tempo=true },

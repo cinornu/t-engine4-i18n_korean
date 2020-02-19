@@ -6654,7 +6654,7 @@ newEntity{ base = "BASE_TOOL_MISC",
 			}
 
 			m:resolve()
-			who:logCombat(target or {name = "a spot nearby"}, "#Source# points %s %s at #target#, releasing a brilliant orb of light!", who:his_her(), self:getName({do_color = true, no_add_name = true}))
+			who:logCombat(target or {name = _t"a spot nearby"}, "#Source# points %s %s at #target#, releasing a brilliant orb of light!", who:his_her(), self:getName({do_color = true, no_add_name = true}))
 			game.zone:addEntity(game.level, m, "actor", x, y)
 			m.remove_from_party_on_death = true
 			if game.party:hasMember(who) then

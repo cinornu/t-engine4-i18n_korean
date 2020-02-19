@@ -1596,7 +1596,7 @@ function _M:getTextualDesc(compare_with, use_actor)
 			any_mastery = any_mastery + 1
 		end
 		if any_mastery > 0 then
-			desc:add(("Talent master%s: "):tformat(any_mastery > 1 and _t"ies" or _t"y"))
+			desc:add(("Talent %s: "):tformat(any_mastery > 1 and _t"masteries" or _t"mastery"))
 			for ttn, ttid in pairs(masteries) do
 				local tt = Talents.talents_types_def[ttn]
 				if tt then

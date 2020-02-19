@@ -183,7 +183,7 @@ function _M:doBuy(who, o, item, nb, store_dialog)
 	local price
 	nb, price = self:tryBuy(who, o, item, nb)
 	if nb then
-		local avg = nb > 1 and (" (%0.2f each)"):format(price/nb) or ""
+		local avg = nb > 1 and (" (%0.2f each)"):tformat(price/nb) or ""
 		Dialog:yesnoPopup(_t"Buy", ("Buy %d %s for %0.2f gold%s?"):tformat(nb, o:getName{do_color=true, no_count=true}, price, avg), function(ok) if ok then
 			self:onBuy(who, o, item, nb, true)
 			-- Learn lore ?
@@ -212,7 +212,7 @@ function _M:doSell(who, o, item, nb, store_dialog)
 	local price
 	nb, price = self:trySell(who, o, item, nb)
 	if nb then
-		local avg = nb > 1 and (" (%0.2f each)"):format(price/nb) or ""
+		local avg = nb > 1 and (" (%0.2f each)"):tformat(price/nb) or ""
 		Dialog:yesnoPopup(_t"Sell", ("Sell %d %s for %0.2f gold%s?"):tformat(nb, o:getName{do_color=true, no_count=true}, price, avg), function(ok) if ok then
 			self:onSell(who, o, item, nb, true)
 			self:transfer(who, self, item, nb)

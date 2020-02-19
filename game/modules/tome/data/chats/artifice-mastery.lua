@@ -52,7 +52,7 @@ local function generate_tools()
 				on_select=function(npc, player)
 					local mastery = nil
 					game.tooltip_x, game.tooltip_y = 1, 1
-					game:tooltipDisplayAtMap(game.w, game.h, ("#GOLD#%s#LAST#\n%s"):tformat(m_t.nam, tostring(player:getTalentFullDescription(m_t, nil, {force_level=chat_level}, mastery))))
+					game:tooltipDisplayAtMap(game.w, game.h, ("#GOLD#%s#LAST#\n%s"):tformat(m_t.name, tostring(player:getTalentFullDescription(m_t, nil, {force_level=chat_level}, mastery))))
 				end,
 			}
 		end

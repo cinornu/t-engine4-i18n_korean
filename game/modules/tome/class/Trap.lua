@@ -198,7 +198,7 @@ function _M:onDisarm(x, y, who)
 			local success, consec, msg = false, 0
 			local oldrestCheck = rawget(who, "restCheck") -- hack restCheck to perform action each turn
 			who.restCheck = function(player)
-				if not player.resting then player.restCheck = oldrestCheck return false, "not resting" end
+				if not player.resting then player.restCheck = oldrestCheck return false, _t"not resting" end
 				if player.resting.cnt >= diff_level then -- start making checks at diff_level turns
 					if rng.percent(chance) then
 						consec = consec + 1
@@ -247,12 +247,12 @@ function _M:onDisarm(x, y, who)
 			end)
 			self:identify(true)
 			local desc = util.getval(self.desc, self)
-			desc = desc and "\n#LIGHT_BLUE#Trap Description:#WHITE#\n"..desc or ""
+			desc = desc and _t"\n#LIGHT_BLUE#Trap Description:#WHITE#\n"..desc or ""
 			require "engine.ui.Dialog":yesnoLongPopup(("Disarming a trap: %s"):tformat(self:getName()),
 	([[As you begin disarming the trap, you think you may be able to learn how it works by carefully dismantling it.  You estimate this will take up to #YELLOW#%d#LAST# uninterrupted turns.
 	What do you want to do?
 %s
-]]):format(turns, desc), math.min(800, game.w*.75),
+]]):tformat(turns, desc), math.min(800, game.w*.75),
 			function(quit)
 				if quit == true then
 					game:playSoundNear(who, "ambient/town/town_large2")
