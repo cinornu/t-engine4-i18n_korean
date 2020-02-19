@@ -78,7 +78,7 @@ function artifice_tools_get_descs(self, t)
 		if tool.short_info then
 			desc = desc..tool.short_info(self, tool, t).."\n"
 		else
-			desc = desc.."#GREY#(see talent description)#LAST#\n"
+			desc = desc.._t"#GREY#(see talent description)#LAST#\n"
 		end
 		tool_descs[#tool_descs+1] = desc
 	end
@@ -258,7 +258,7 @@ newTalent{
 		return tool_id ~= nil -- only use energy/cooldown if a new tool was mastered
 	end,
 	info = function(self, t)
-		local tool = "none"
+		local tool = _t"none"
 		if self.artifice_tools_mastery then
 			tool = self:getTalentFromId(self.artifice_tools_mastery).name
 		end
@@ -278,7 +278,7 @@ newTalent{
 				if mt.short_info then
 					desc = desc..mt.short_info(self, mt).."\n"
 				else
-					desc = desc.."#GREY#(see talent description)#LAST#\n"
+					desc = desc.._t"#GREY#(see talent description)#LAST#\n"
 				end
 				mastery_descs[#mastery_descs+1] = desc
 			end
@@ -329,7 +329,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		local dam = t.getDamage(self, t)
-		local slot = "not prepared"
+		local slot = _t"not prepared"
 		for slot_id, tool_id in pairs(self.artifice_tools or {}) do
 			if tool_id == t.id then slot = self:getTalentFromId(slot_id).name break end
 		end
@@ -472,7 +472,7 @@ newTalent{
 	local heal = t.getHeal(self, t)
 	local sta = t.getStam(self, t)
 	local cure = t.getCure(self,t)
-	local slot = "not prepared"
+	local slot = _t"not prepared"
 	for slot_id, tool_id in pairs(self.artifice_tools or {}) do
 		if tool_id == t.id then slot = self:getTalentFromId(slot_id).name break end
 	end
@@ -574,7 +574,7 @@ newTalent{
 		return ([[Throw a smokebomb creating a radius 2 cloud of smoke, lasting %d turns, that blocks sight and reduces enemies' vision by %d. 15 turn cooldown.]]):tformat(t.getDuration(self, slot_talent), t.getSightLoss(self, slot_talent))
 	end,
 	info = function(self, t)
-		local slot = "not prepared"
+		local slot = _t"not prepared"
 		for slot_id, tool_id in pairs(self.artifice_tools or {}) do
 			if tool_id == t.id then slot = self:getTalentFromId(slot_id).name break end
 		end
@@ -652,7 +652,7 @@ newTalent{
 	info = function(self, t)
 		local dam = t.getDamage(self,t)
 		local power = t.getSleepPower(self,t)
-		local slot = "not prepared"
+		local slot = _t"not prepared"
 		for slot_id, tool_id in pairs(self.artifice_tools or {}) do
 			if tool_id == t.id then slot = self:getTalentFromId(slot_id).name break end
 		end
@@ -793,7 +793,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		local range = t.range(self,t)
-		local slot = "not prepared"
+		local slot = _t"not prepared"
 		for slot_id, tool_id in pairs(self.artifice_tools or {}) do
 			if tool_id == t.id then slot = self:getTalentFromId(slot_id).name break end
 		end

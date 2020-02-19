@@ -136,7 +136,7 @@ or [[]])),
 newChat{ id="hiton",
 	text = _t[[What?!? Just because you rescued me from a moderately-to-extremely gruesome death, you think that entitles you to take liberties?!]],
 	answers = {
-		{("WHY AREN'T WOMEN ATTRACTED TO ME I'M A NICE %s."):tformat((p.female and "GIRL" or "GUY")), quick_reply=_t"Uhh, sorry I hear my father calling, see you.", action=function() ql.nolove = true end},
+		{("WHY AREN'T WOMEN ATTRACTED TO ME I'M A NICE %s."):tformat((p.female and _t"GIRL" or _t"GUY")), quick_reply=_t"Uhh, sorry I hear my father calling, see you.", action=function() ql.nolove = true end},
 		{_t"Just a minute, I was just...", jump="reassurance"},
 	}
 }

@@ -143,7 +143,7 @@ newTalent{
 			summon_time = t.getDur(self, t),
 			ai_target = {actor=nil},
 			ai = "summoned", ai_real = "tactical",
-			name = body.name.." (Psionic Minion)",
+			name = ("%s (Psionic Minion)"):tformat(body.name),
 			resolvers.sustains_at_birth(),
 		}
 		m:removeAllMOs()

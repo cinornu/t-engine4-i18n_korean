@@ -1406,7 +1406,7 @@ newEffect{
 	desc = _t"Spiked Kinetic Shield",
 	long_desc = function(self, eff)
 		local tl = self:getTalentLevel(self.T_ABSORPTION_MASTERY)
-		local xs = (tl>=3 and ", nature" or "")..(tl>=6 and ", temporal" or "")
+		local xs = (tl>=3 and _t", nature" or "")..(tl>=6 and _t", temporal" or "")
 		return ("The target erects a powerful kinetic shield capable of absorbing %d/%d physical%s or acid damage before it crumbles."):tformat(self.kinspike_shield_absorb, eff.power, xs)
 	end,
 	type = "mental",
@@ -1436,7 +1436,7 @@ newEffect{
 	desc = _t"Spiked Thermal Shield",
 	long_desc = function(self, eff)
 		local tl = self:getTalentLevel(self.T_ABSORPTION_MASTERY)
-		local xs = (tl>=3 and ", light" or "")..(tl>=6 and ", arcane" or "")
+		local xs = (tl>=3 and _t", light" or "")..(tl>=6 and _t", arcane" or "")
 		return ("The target erects a powerful thermal shield capable of absorbing %d/%d fire%s or cold damage before it crumbles."):tformat(self.thermspike_shield_absorb, eff.power, xs)
 	end,
 	type = "mental",
@@ -1466,7 +1466,7 @@ newEffect{
 	desc = _t"Spiked Charged Shield",
 	long_desc = function(self, eff)
 		local tl = self:getTalentLevel(self.T_ABSORPTION_MASTERY)
-		local xs = (tl>=3 and ", darkness" or "")..(tl>=6 and ", mind" or "")
+		local xs = (tl>=3 and _t", darkness" or "")..(tl>=6 and _t", mind" or "")
 		return ("The target erects a powerful charged shield capable of absorbing %d/%d lightning%s or blight damage before it crumbles."):tformat(self.chargespike_shield_absorb, eff.power, xs)
 	end,
 	type = "mental",
@@ -2920,9 +2920,8 @@ newEffect{
 	name = "UNSEEN_FORCE", desc = _t"Unseen Force",
 	image="talents/unseen_force.png",
 	long_desc = function(self, eff)
-		local hits = (eff.extrahit > 0 and "from "..eff.hits.." to "..(eff.hits + 1)) or ""..eff.hits
-		return ("An unseen force strikes %s targets in a range of 5 around this creature "..
-		"every turn, doing %d damage and knocking them back for %d tiles."):tformat(hits, eff.damage, eff.knockback) end,
+		local hits = (eff.extrahit > 0 and ("from %d to %d"):tformat(eff.hits, eff.hits + 1) or ""..eff.hits)
+		return ("An unseen force strikes %s targets in a range of 5 around this creature every turn, doing %d damage and knocking them back for %d tiles."):tformat(hits, eff.damage, eff.knockback) end,
 	type = "mental",
 	subtype = {psionic=true},
 	status = "beneficial",

@@ -6,6 +6,7 @@ local locales_sections ={}
 local sections = {}
 local current_section = ""
 local tcs = {}
+local locale = "ko_KR"
 local function runfile(file, env)
 	-- Base loader
 	local prev, err = loadfile(file)
@@ -118,6 +119,9 @@ local function check_src_dst(src, dst, args_order)
                 checked = false
             end
         end
+    end
+    if #src_s ~= #dst_s then
+        checked = false
     end
     if not checked then
         print("% MISMATCH:")
@@ -270,7 +274,7 @@ local function print_file(file_out, file_out_2, file_out_3, file_copy)
     local f2 = io.open(file_out_2, "w")
     local f3 = io.open(file_out_3, "w")
     local fc = io.open(file_copy, "rb")
-    f3:write("locale \"ko_KR\"\n")
+    f3:write("locale \"" .. locale .. "\"\n")
     while true do
         local l = fc:read()
         if not l then break end
@@ -287,8 +291,8 @@ local function extract(file_in, file_merge, file_out, file_out_2, file_out_3, fi
     local file_merge = file_merge or "merge_translation.lua"
     local file_out = file_out or "output_translation.lua"
     local file_out_2 = file_out_2 or "untranslated.lua"
-    local file_out_3 = file_out_3 or "../game/engines/default/data/locales/ko_KR.lua"
-    local file_copy = file_copy or "ko_KR.copy.lua"
+    local file_out_3 = file_out_3 or "../game/engines/default/data/locales/" .. locale .. ".lua"
+    local file_copy = file_copy or locale .. ".copy.lua"
     introduce_file(file_in)
     merge_file(file_merge)
     print_file(file_out, file_out_2, file_out_3, file_copy)
