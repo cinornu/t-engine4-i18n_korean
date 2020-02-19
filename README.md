@@ -91,6 +91,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/engine/Savefile.lua"
 "game/engines/default/engine/SavefilePipe.lua"
 "game/engines/default/engine/Store.lua"
+"game/engines/default/engine/Trap.lua" uueeck 완
 
 # 작업시 유의 사항
 
@@ -116,7 +117,7 @@ t("%s resists %s attack!", "%s 공격을 %s은(는) 저항했다!", {2, 1})
 2번째 인자를 먼저 출력하고, 1번째 인자를 그 다음으로 출력한다는 의미. 인자가 3개 이상이면 그에 맞게 작성해야함.
 
 - 다음으로 조사를 붙일때는
-t("%s resists %s attack!", "%s %s 저항했다!", nil, {는, 를})
+t("%s resists %s attack!", "%s %s 저항했다!", nil, {"는", "를"})
 으로 하면 됨. 은,는 이,가 같이 조사 짝끼리 세트로 묶이고, 자동으로 함수로 골라서 출력해주니까 둘 중 하나면 쓰면 됨.
 저 nil은 조사를 넣어야하는데 순서를 바꿀 필요는 없을때 집어넣는거.
 nil == null임.
