@@ -18,3 +18,18 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/data/keybinds/interface.lua" uueeck 완 **
 "game/engines/default/data/keybinds/inventory.lua" uueeck 완
 "game/modules/tome/data/chats/arena-unlock.lua" beomkki 완 ** (존댓말 재검토)
+"game/modules/tome/data/achievements/arena.lua" jirehthecat 완
+"game/modules/tome/data/achievements/donator.lua" jirehthecat 완
+"game/modules/tome/data/achievements/events.lua" jirehthecat 완
+"game/modules/tome/data/achievements/infinite-dungeon.lua" jirehthecat 완
+"game/modules/tome/data/achievements/items.lua" jirehthecat 완
+"game/modules/tome/data/achievements/kills.lua"jirehthecat 완 **
+"game/modules/tome/data/achievements/lore.lua" jirehthecat 완
+"game/modules/tome/data/achievements/player.lua" jirehthecat 완 
+"game/modules/tome/data/achievements/quests.lua" jirehthecat 완 **
+"game/modules/tome/data/achievements/talents.lua" jirehthecat 완 **
+"game/engines/default/data/keybinds/move.lua" uueeck 완
+"game/engines/default/data/keybinds/mtxn.lua" uueeck 완
+"game/engines/default/engine/ActorsSeenDisplay.lua" uueeck 완
+"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완

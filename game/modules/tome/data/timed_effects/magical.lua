@@ -2086,7 +2086,7 @@ newEffect{
 newEffect{
 	name = "SPELLSHOCKED",
 	desc = _t"Spellshocked",
-	long_desc = function(self, eff) return string.format("Overwhelming magic has temporarily interfered with all damage resistances, lowering them by %d%%.", eff.power) end,
+	long_desc = function(self, eff) return ("Overwhelming magic has temporarily interfered with all damage resistances, lowering them by %d%%."):tformat(eff.power) end,
 	type = "magical",
 	subtype = { ["cross tier"]=true },
 	status = "detrimental",
@@ -2357,7 +2357,7 @@ newEffect{
 	desc = _t"Ghoul Rot",
 	long_desc = function(self, eff)
 		local ghoulify = ""
-		if eff.make_ghoul > 0 then ghoulify = "  If the target dies while ghoul rot is active it will rise as a ghoul." end
+		if eff.make_ghoul > 0 then ghoulify = _t"  If the target dies while ghoul rot is active it will rise as a ghoul." end
 		return ("The target is infected by a disease doing %0.2f blight damage per turn.%s"):tformat(eff.dam, ghoulify)
 	end,
 	type = "magical",
@@ -4192,7 +4192,7 @@ newEffect{
 	parameters = { power=100, radius=3 , maxdam=500},
 	on_gain = function(self, err) return _t"#Target# is encased in a stone shield." end,
 	on_lose = function(self, err)
-		return ("The stone shield around #Target# %s"):tformat(self:getEquilibrium() - self:getMinEquilibrium() > 0 and "explodes!" or "crumbles.")
+		return ("The stone shield around #Target# %s"):tformat(self:getEquilibrium() - self:getMinEquilibrium() > 0 and _t"explodes!" or _t"crumbles.")
 	end,
 	on_aegis = function(self, eff, aegis)
 		eff.power = eff.power + eff.max * aegis / 100

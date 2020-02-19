@@ -76,7 +76,7 @@ I, DarkGod, the maker of this game want to personaly thank all donators because 
 #CRIMSON#Note for Steam Players#ANCIENT_WHITE#: This feature requires you to have registered a profile & bound it to steam (automatic if you register ingame) because it needs to store things on the server.
 Until you do so you will get an error.]] or ""),
 	answers = {
-		{"_t[Place an item in the vault]", cond=function() return profile:isDonator() end, action=function(npc, player)
+		{_t"[Place an item in the vault]", cond=function() return profile:isDonator() end, action=function(npc, player)
 			if game:isTainted() or not profile.hash_valid then
 				require("engine.ui.Dialog"):simplePopup(_t"Item's Vault", _t"You can not place an item in the vault from an un-validated game.")
 				return

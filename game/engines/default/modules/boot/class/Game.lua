@@ -646,7 +646,7 @@ function _M:createProfile(loginItem)
 			Dialog:simplePopup(self.justlogin and _t"Logged in!" or _t"Profile created!", _t"Your online profile is now active. Have fun!", function() end )
 		else
 			if err ~= "unknown" and err then
-				Dialog:simplePopup(_t"Profile creation failed!", _t"Creation failed: "..err.." (you may also register on https://te4.org/)", function() end )
+				Dialog:simplePopup(_t"Profile creation failed!", ("Creation failed: %s (you may also register on https://te4.org/)"):tformat(err), function() end )
 			else
 				Dialog:simplePopup(_t"Profile creation failed!", _t"Try again in in a few moments, or try online at https://te4.org/", function() end )
 			end

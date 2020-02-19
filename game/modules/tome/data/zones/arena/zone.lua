@@ -323,7 +323,7 @@ return {
 					local x, y = game.level.map:getTileToScreen(game.player.x, game.player.y, true)
 					local b = (k * 0.035) + 0.04
 					game.level.arena.raiseRank(b)
-					game.flyers:add(x, y, 90, 0.5, 0, k.._t" kills!", { 2, 57, 185 }, false)
+					game.flyers:add(x, y, 90, 0.5, 0, ("%d kills!"):tformat(k), { 2, 57, 185 }, false)
 					game.log("#YELLOW#You killed %d enemies in a single turn! The public is excited!", k)
 					if k >= 4 and k < 6 then
 						local drop = game.zone:makeEntity(game.level, "object", {tome = { ego=30, double_ego=15, greater=7, greater_normal=1 }}, nil, true)
