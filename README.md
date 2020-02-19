@@ -64,7 +64,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/quests/orc-pride.lua" Highseeker 완
 
-"game/modules/tome/data/quests/paradoxology.lua" Highseeker 완 ** 조사 지원 필요
+"game/modules/tome/data/quests/paradoxology.lua" Highseeker 완
 
 "game/modules/tome/data/quests/pre-charred-scar.lua" Highseeker 완
 
