@@ -101,7 +101,10 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/engines/default/modules/boot/dialogs/MainMenu.lua" uueeck ??
 
-"game/dlcs/tome-cults/data/zones/ft-horrors/npcs.lua" beomkki ??
+"game/dlcs/tome-cults/data/zones/ft-horrors/npcs.lua" beomkki 완 **
+"game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua" beomkki 완
+"game/dlcs/tome-cults/data/zones/ft-horrors/zone.lua" beomkki 완
+"game/dlcs/tome-cults/data/zones/ft-yaech/npcs.lua" beomkki 완 **
 
 # 작업시 유의 사항
 
