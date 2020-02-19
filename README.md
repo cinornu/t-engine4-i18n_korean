@@ -20,9 +20,10 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ** : 재검토 필요
 ?? : 작업 중
 ```
-==================================================================
+
+```
 973 / 22213 문장 (4.3%) / 20.02.19 07:04 기준
-==================================================================
+```
 
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
 
