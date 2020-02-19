@@ -245,8 +245,8 @@ Willpower defines your character's ability to concentrate. It increases your man
 TOOLTIP_CUN = _t[[#GOLD#Cunning#LAST#
 Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your Mindpower, Mental Save, and critical chance.
 ]]
-TOOLTIP_STRDEXCON = "#AQUAMARINE#Physical stats#LAST#\n---\n"..TOOLTIP_STR.."\n---\n"..TOOLTIP_DEX.."\n---\n"..TOOLTIP_CON
-TOOLTIP_MAGWILCUN = "#AQUAMARINE#Mental stats#LAST#\n---\n"..TOOLTIP_MAG.."\n---\n"..TOOLTIP_WIL.."\n---\n"..TOOLTIP_CUN
+TOOLTIP_STRDEXCON = _t"#AQUAMARINE#Physical stats#LAST#\n---\n"..TOOLTIP_STR.."\n---\n"..TOOLTIP_DEX.."\n---\n"..TOOLTIP_CON
+TOOLTIP_MAGWILCUN = _t"#AQUAMARINE#Mental stats#LAST#\n---\n"..TOOLTIP_MAG.."\n---\n"..TOOLTIP_WIL.."\n---\n"..TOOLTIP_CUN
 
 -------------------------------------------------------------
 -- Melee
@@ -465,13 +465,13 @@ Each time a creature hits you with a melee attack, it will suffer damage or othe
 TOOLTIP_MELEE_PROJECT = _t[[#GOLD#Additional Melee Damage#LAST#
 Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
 ]]
-TOOLTIP_MELEE_PROJECT_INNATE = TOOLTIP_MELEE_PROJECT..[[
+TOOLTIP_MELEE_PROJECT_INNATE = TOOLTIP_MELEE_PROJECT.._t[[
 This is separate from any special damage of your weapon.
 ]]
 TOOLTIP_RANGED_PROJECT = _t[[#GOLD#Additional Ranged Damage#LAST#
 Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
 ]]
-TOOLTIP_RANGED_PROJECT_INNATE = TOOLTIP_RANGED_PROJECT..[[
+TOOLTIP_RANGED_PROJECT_INNATE = TOOLTIP_RANGED_PROJECT.._t[[
 This is separate from any special damage of your weapon or ammo.
 ]]
 TOOLTIP_RESISTS_PEN_ALL = _t[[#GOLD#Damage penetration: all#LAST#

@@ -57,7 +57,7 @@ newTalent{
 		For %d turns you become a Deeprock Elemental, gaining two size categories%s.
 		This increases your Physical damage by %0.1f%% and Physical damage penetration by %0.1f%%%s, and armour by %d.%s
 		The effects increase with spellpower.]])
-		:tformat(t.getTime(self, t), xsi, t.getDam(self, t),t.getPen(self, t), xs, t.getArmor(self, t), self:getTalentLevel(self.T_MOUNTAINHEWN) >=5 and "\nIn addition, you use your physical resistance versus all damage against you." or "")
+		:tformat(t.getTime(self, t), xsi, t.getDam(self, t),t.getPen(self, t), xs, t.getArmor(self, t), self:getTalentLevel(self.T_MOUNTAINHEWN) >=5 and _t"\nIn addition, you use your physical resistance versus all damage against you." or "")
 	end,
 }
 

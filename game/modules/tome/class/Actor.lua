@@ -4135,7 +4135,7 @@ function _M:checkEncumbrance()
 
 		if self.x and self.y then
 			local sx, sy = game.level.map:getTileToScreen(self.x, self.y, true)
-			game.flyers:add(sx, sy, 30, (rng.range(0,2)-1) * 0.5, rng.float(-2.5, -1.5), "+ENCUMBERED!", {255,0,0}, true)
+			game.flyers:add(sx, sy, 30, (rng.range(0,2)-1) * 0.5, rng.float(-2.5, -1.5), _t"+ENCUMBERED!", {255,0,0}, true)
 		end
 	elseif self.encumbered and enc <= max then
 		self:removeTemporaryValue("never_move", self.encumbered)
@@ -4144,7 +4144,7 @@ function _M:checkEncumbrance()
 
 		if self.x and self.y then
 			local sx, sy = game.level.map:getTileToScreen(self.x, self.y, true)
-			game.flyers:add(sx, sy, 30, (rng.range(0,2)-1) * 0.5, rng.float(-2.5, -1.5), "-ENCUMBERED!", {255,0,0}, true)
+			game.flyers:add(sx, sy, 30, (rng.range(0,2)-1) * 0.5, rng.float(-2.5, -1.5), _t"-ENCUMBERED!", {255,0,0}, true)
 		end
 	end
 end

@@ -153,7 +153,7 @@ I will need to use 50 energy to do this.]],
 
 newChat{ id="shimmer",
 	text = _t[[Yes master, the Mirror of Reflections is what you need. It is currently dormant but could be re-activated.
-I will need to use 10 energy to do this.]]..(profile:isDonator(1) and "" or "\n#{italic}##CRIMSON#This feature is purely cosmetic is available only to donators/buyers. You can unlock the room and use the preview but you will not be able to validate your choices.#{normal}#"),
+I will need to use 10 energy to do this.]]..(profile:isDonator(1) and "" or _t"\n#{italic}##CRIMSON#This feature is purely cosmetic is available only to donators/buyers. You can unlock the room and use the preview but you will not be able to validate your choices.#{normal}#"),
 	answers = {
 		{_t"Maybe later."},
 		{_t"That could be quite nice. Yes, please do it.", cond=function() return q.shertul_energy >= 10 end, action=function() q:open_shimmer() end},

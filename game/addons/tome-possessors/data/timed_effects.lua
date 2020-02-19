@@ -397,8 +397,8 @@ newEffect{
 	subtype = { stun=true, psionic=true },
 	status = "detrimental",
 	parameters = {},
-	on_gain = function(self, err) return _t"#Target# is dazed!", "+Dazed" end,
-	on_lose = function(self, err) return _t"#Target# is not dazed anymore.", "-Dazed" end,
+	on_gain = function(self, err) return _t"#Target# is dazed!", _t"+Dazed" end,
+	on_lose = function(self, err) return _t"#Target# is not dazed anymore.", _t"-Dazed" end,
 	callbackOnTakeDamage = function(self, eff)
 		if not self:attr("damage_dont_undaze") then
 			self:removeEffect(self.EFF_GHASTLY_WAIL)
