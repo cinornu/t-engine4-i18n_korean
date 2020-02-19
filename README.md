@@ -91,7 +91,8 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/engine/Savefile.lua"
 "game/engines/default/engine/SavefilePipe.lua"
 "game/engines/default/engine/Store.lua"
-"game/engines/default/engine/Trap.lua" uueeck 완
+"game/engines/default/engine/Trap.lua"
+"game/engines/default/data/keybinds/chat.lua" uueeck 완
 
 # 작업시 유의 사항
 

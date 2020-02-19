@@ -31,41 +31,43 @@ t("Addon Developer", "애드온 개발자")
 ------------------------------------------------
 section "game/addons/tome-items-vault/data/entities/fortress-grids.lua"
 
-t("Item's Vault Control Orb", "아이템 볼트 제어 오브")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/init.lua"
 
-t("Items Vault", "아이템 볼트")
-t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "아이템 볼트를 이용할 수 있는 기능을 추가합니다. (후원자 전용) 아이템 볼트에 사용하지 않는 아이템을 플레이어의 온라인 프로필로 전송하여 다른 캐릭터로 옮길 수 있습니다.")
+t("Items Vault", "아이템 금고")
+t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "아이템 금고를 이용할 수 있는 기능을 추가합니다. (후원자 전용) 아이템 볼트에 사용하지 않는 아이템을 플레이어의 온라인 프로필로 전송하여 다른 캐릭터로 옮길 수 있습니다.")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/data/chats/items-vault-command-orb-offline.lua"
 
-t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "이 아이템은 착용 제한이 없으나, 볼트에 전송 시 %d 레벨의 착용 제한이 적용됩니다.")
+t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "이 아이템은 착용 제한이 없으나, 금고에 전송 시 %d 레벨의 착용 제한이 적용됩니다.")
 t("Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "전송 시 직업 혹은 재능에 기반한 부가 능력은 사라질 수도 있습니다.")
-t("[Place an item in the vault]", "[볼트에 아이템 보관하기]")
-t("Item's Vault", "아이템 볼트")
-t("You can not place an item in the vault from debug mode game.", "디버그 모드에서는 아이템 볼트에 아이템을 보관할 수 없습니다.")
-t("Place an item in the Item's Vault", "볼트에 아이템을 보관하기.")
+t("[Place an item in the vault]", "[금고에 아이템 보관하기]")
+t("Item's Vault", "아이템 금고")
+t("You can not place an item in the vault from debug mode game.", "디버그 모드에서는 아이템 금고에 아이템을 보관할 수 없습니다.")
+t("Place an item in the Item's Vault", "금고에 아이템을 보관하기.")
 t("Caution", "경고")
 t("Continue?", "계속하시겠습니까?")
-t("[Retrieve an item from the vault]", "[볼트에서 아이템을 찾아오기.]")
+t("[Retrieve an item from the vault]", "[금고에서 아이템을 찾아오기.]")
 t("[Leave the orb alone]", "[오브를 두고 떠난다.]")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/data/chats/items-vault-command-orb.lua"
 
-t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "이 아이템은 착용 제한이 없으나, 볼트에 전송 시 %d 레벨의 착용 제한이 적용됩니다.")
+t("Transfering this item will place a level %d requirement on it, since it has no requirements. ", "이 아이템은 착용 제한이 없으나, 금고에 전송 시 %d 레벨의 착용 제한이 적용됩니다.")
 t("Some properties of the item will be lost upon transfer, since they are class- or talent-specific. ", "전송 시 직업 혹은 재능에 기반한 부가 능력은 사라질 수도 있습니다.")
-t("Item's Vault", "아이템 볼트")
-t("Place an item in the Item's Vault", "볼트에 아이템을 보관하기.")
+t("[Place an item in the vault]", "[금고에 아이템 보관하기]")
+t("Item's Vault", "아이템 금고")
+t("You can not place an item in the vault from an un-validated game.", "유효하지 않은 게임의 아이템은 금고에 보관할 수 없습니다.")
+t("Place an item in the Item's Vault", "금고에 아이템을 보관하기.")
 t("Caution", "경고")
 t("Continue?", "계속하시겠습니까?")
-t("[Retrieve an item from the vault]", "[볼트에서 아이템을 찾아오기.]")
+t("[Retrieve an item from the vault]", "[금고에서 아이템을 찾아오기.]")
+t("#GOLD#I wish to help the funding of this game and donate#WHITE#", "#GOLD#나는 이 게임에 도움을 주기 위해 현금을 기부하고 싶다#WHITE#")
 t("[Leave the orb alone]", "[오브를 두고 떠난다.]")
 
 
@@ -77,20 +79,22 @@ section "game/addons/tome-items-vault/overload/data/maps/items-vault/fortress.lu
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/mod/class/ItemsVaultDLC.lua"
 
-t("Item's Vault", "아이템 볼트")
+t("Transfering...", "전송 중...")
+t("Transfer failed", "전송 실패")
+t("Item's Vault", "아이템 금고")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua"
 
-t("Item's Vault", "아이템 볼트")
+t("Item's Vault", "아이템 금고")
 t("Name", "이름")
 
 
 ------------------------------------------------
 section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVaultOffline.lua"
 
-t("Item's Vault", "아이템 볼트")
+t("Item's Vault", "아이템 금고")
 t("Name", "이름")
 
 
@@ -172,6 +176,2587 @@ t("Cancel", "취소")
 
 
 ------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/achievements/all.lua"
+
+t("Shasshhiy'Kaish", "샤쉬'카이쉬")
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/birth/corrupted.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/birth/doomelf.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/birth/races_cosmetic.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/general/events/demon-statue.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/general/events/fire-haven.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
+
+t("Shasshhiy'Kaish", "샤쉬'카이쉬")
+t("No", "아니요")
+t("Yes", "네")
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/general/grids/malrok_walls.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/general/npcs/aquatic-demon.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/general/npcs/major-demon.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/lore/demon.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/quests/re-abducted.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/quests/start-ashes.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/black-magic.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
+
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.")
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/corruptions.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demonic-strength.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/fearfire.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/oppression.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/torture.lua"
+
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.")
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
+
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.")
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/misc/races.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/init.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/overload/data/chats/ashes-urhrok-walrog-pop.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/overload/data/texts/intro-ashes-urhrok.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-corrupter_demonologist.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-cosmetic_doomhorns.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-cosmetic_red_skin.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-race_doomelf.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/overload/mod/class/DemonologistsDLC.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Game.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/superload/mod/dialogs/Birther.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/achievements/all.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/birth/demented.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/birth/drem.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/birth/krog.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/birth/misc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/chats/fanged-collar.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/chats/godfeaster-malyu-escaped.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/chats/godfeaster-malyu.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/chats/space-dwarf-trinket.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/damage_types.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/factions.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/encounters/maj-eyal.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/encounters/var-eyal.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/events/digestive-sack.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/events/scourged-pits.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/events/space-dwarf-ship.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/events/tentacle-tree.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/fonts.lua"
+
+t("No", "아니요")
+t("Yes", "네")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/fortress-ancient.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/fortress-multiverse.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/godfeaster.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/maggot.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/scourge.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/slimy_godfeaster.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/spacedwarf-creep.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/spacedwarf.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/special-cave.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/grids/tentacle-tree.lua"
+
+t("No", "아니요")
+t("Yes", "네")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/npcs/blobs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/npcs/corrupted_blobs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/npcs/horror-special-test.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/npcs/horror-special.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/npcs/horror.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/npcs/humanoid_random_boss.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/npcs/scourge-drake.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/npcs/tentacle-tree.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/objects/forbidden-tomes-base.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/objects/lore/eyal.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/objects/special-misc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/objects/world-artifacts.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/stores/cults.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/zones-alters/dreadfell.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/zones-alters/elvala.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/general/zones-alters/zigur.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/glyph_sequences/orcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/lore/dremwarves.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/lore/kroshkkur.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/lore/misc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/lore/zones.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/quests/grung.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/quests/illusory-castle.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/quests/krogs-rescue.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/quests/start-cults.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/calamity.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/chronophage.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/controlled-horrors.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/demented.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/doom.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/entropy.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/friend-of-the-worm.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/horrific-body.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/madness.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/nether.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/oblivion.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/path-of-horror.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/rift.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/scourge-drake.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/slow-death.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/tentacles.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/timethief.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/void.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/demented/writhing-body.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/misc/misc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/misc/races.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/talents/spell/necro.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/timed_effects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/entropic-void/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/entropic-void/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/entropic-void/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/fortress-arena/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/fortress-arena/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-cultist/npcs.lua"
+
+t("human", "인간")
+t("humanoid", "인간형")
+t("shalore", "샬로레")
+t("halfling", "하플링")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-cultist/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-cultist/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-haze-cave/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-haze-cave/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-haze-cave/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-haze-cave/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-home/grids.lua"
+
+t("No", "아니요")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-home/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-horrors/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-horrors/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-horrors/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/generatorMap.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-yaech/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-yaech/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/ft-yaech/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/godfeaster/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/godfeaster/npcs.lua"
+
+t("humanoid", "인간형")
+t("shalore", "샬로레")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/godfeaster/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/godfeaster/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/maggot/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/maggot/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/maggot/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/maggot/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/necromancers-ruins/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/necromancers-ruins/npcs.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/necromancers-ruins/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/necromancers-ruins/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/occult-egress/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/occult-egress/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/occult-egress/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/scourged-pits/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/scourged-pits/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/scourged-pits/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/test/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/test/npcs.lua"
+
+t("humanoid", "인간형")
+t("thalore", "탈로레")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/test/traps.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/test/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/town-kroshkkur/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/town-kroshkkur/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/town-kroshkkur/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/town-kroshkkur/traps.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/town-kroshkkur/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/hooks/bonestaff.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/init.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/data/texts/intro-cults.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/data/texts/intro-krog.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/data/texts/unlock-cosmetic_class_alchemist_glass_golem.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/data/texts/unlock-demented_cultist_entropy.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/data/texts/unlock-race_drem.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/data/texts/unlock-race_krog.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/data/texts/unlock-wyrmic_scourge.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/mod/class/CultsDLC.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/mod/dialogs/EntropicWormhole.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/mod/dialogs/FontSacrifice.lua"
+
+t("Name", "이름")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
+
+t("Cancel", "취소")
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/overload/mod/dialogs/RingOfTheHunter.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/superload/mod/class/Actor.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/superload/mod/class/Game.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/superload/mod/dialogs/Birther.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyGrandOration.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyRevelation.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyTwofoldCurse.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/achievements/special.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/achievements/story.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/birth/classes/empyreal.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/birth/classes/tinker.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/birth/races/orc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/birth/races/whitehooves.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/birth/races/yeti.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/birth/worlds.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/aaa.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/aaf.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/destructicus-lead.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/destructicus.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/john-surrender.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/john-worldmap.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/kaltor-entry.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/kaltor-shop.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/kruk-tinker-shop.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/metash.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/phonograph.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/shertul-priest.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/weissi-machine.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/damage_types.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/factions.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/encounters/fareast-npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/encounters/fareast.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/encounters/maj-eyal.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/events/AAA.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/events/campfire.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/events/drills.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/events/herbs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/events/merchant-stall.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/events/sewer-alligator-nest.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/grids/manacave.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/grids/mechstone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/grids/mechwall.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/grids/primal_trunk.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/grids/psicave.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/grids/slumbering_cave.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/grids/snow_mountains.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/alligator.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/domestic-yeti.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/hethugoroth.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/horror.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/ritch-extended.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/steam-drone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/steam-giant-arcane.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/steam-giant-gunner.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/steam-giant-warrior.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/steam-spiders.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/sunwall-mage.lua"
+
+t("humanoid", "인간형")
+t("human", "인간")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/sunwall-warrior.lua"
+
+t("human", "인간")
+t("humanoid", "인간형")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/titan.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/troll-pirates.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/undead-drake.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/whitehooves.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/yeti.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/boss-artifacts.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/egos/steamgun.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/inscriptions.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/leather-hats.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/lore.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/quest-artifacts.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/schematics.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/special-misc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/steamgun.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/steamsaw.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/tinker.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/chemistry.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/electricity.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/explosive.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/mechanical.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/smith.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/therapeutics.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/stores/orcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/traps/ritch.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/ingredients.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/destructicus.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/dominion-port.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/emporium.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/gem.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/internment-camp.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/krimbul.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/misc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/orcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/palace-fumes.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/pocket-time.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/primal-forest.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/quarry.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/slumbering-caves.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/sunwall.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/weissi.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/lore/yeti.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/maps/zones/worldmap.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/amakthel.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/annihilator.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/destroy-sunwall.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/free-prides.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/gem.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/kaltor-shop.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/kill-dominion.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/krimbul.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/kruk-invasion.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/palace.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/quarry.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/ritch-hive.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/start-orc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/sunwall-observatory.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/to-mainland.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/voyage.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/weissi.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/quests/yeti-abduction.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/resolvers.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/celestial/cosmic.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/celestial/crepescula.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/celestial/energies.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/celestial/reflection.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/celestial/sol.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/celestial/void.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/misc/npcs.lua"
+
+t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
+		Accuracy reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 명중률이 %d턴 동안 %d 감소합니다.
+		명중률 감소 확률은 물리력의 영향을 받아 증가합니다.]], {1,3,2,4})
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/misc/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/misc/races.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/psionic/action-at-a-distance.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/psionic/gestalt.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/psionic/psionic-fog.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/psionic/psionic.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/spells/galvanic-technomancy.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/spells/occult-technomancy.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/spells/other-technomancy.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/spells/spells.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/spells/terrene-technomancy.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/spells/undead-drake.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/artillery.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/automated-butchery.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/automation.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/avoidance.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/battle-machinery.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/battlefield-management.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/blacksmith.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/bullets-mastery.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/butchery.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/chemical-warfare.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/chemistry.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/demolition.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/dread.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/elusiveness.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/engineering.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/furnace.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/gadgets.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/gunner-training.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/gunslinging.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/heavy-weapons.lua"
+
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {"가"}, {"가"})
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/inscriptions.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/magnetism.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/mecharachnid.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/mechstar.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/other.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/physics.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/psytech-gunnery.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/sawmaiming.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/steam.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/thoughts-of-iron.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/steam/turrets.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/uber/const.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/uber/cun.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/uber/dex.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/uber/mag.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/uber/str.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/uber/wil.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/timed_effects/floor.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/timed_effects/magical.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/timed_effects/mental.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/timed_effects/physical.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/tinkers.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/tinkers/electricity.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/tinkers/explosive.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/tinkers/smith.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/wda/orcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"
+
+t("human", "인간")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/cave-hatred/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/cave-hatred/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/dominion-port/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/dominion-port/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/dominion-port/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/dominion-port/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gates-of-morning/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gates-of-morning/npcs.lua"
+
+t("High Sun Paladin Aeryn", "고위 태양의 기사 아에린")
+t("halfling", "하플링")
+t("shalore", "샬로레")
+t("human", "인간")
+t("humanoid", "인간형")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gates-of-morning/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gates-of-morning/traps.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gates-of-morning/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gem/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gem/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gem/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/gem/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/internment-camp/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/internment-camp/npcs.lua"
+
+t("halfling", "하플링")
+t("humanoid", "인간형")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/internment-camp/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/kaltor-shop/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/kaltor-shop/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/kaltor-shop/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/kaltor-shop/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/krimbul/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/krimbul/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/krimbul/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/krimbul/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/lost-city/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/lost-city/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/lost-city/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/lost-city/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/palace-fumes/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/palace-fumes/npcs.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/palace-fumes/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/palace-fumes/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/pocket-time/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/pocket-time/npcs.lua"
+
+t("human", "인간")
+t("humanoid", "인간형")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/pocket-time/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/primal-forest/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/primal-forest/npcs.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/primal-forest/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/primal-forest/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/ritch-hive/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/ritch-hive/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/ritch-hive/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/shertul-cave/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/shertul-cave/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/shertul-cave/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/slumbering-caves/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/slumbering-caves/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/slumbering-caves/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/steam-quarry/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/steam-quarry/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/steam-quarry/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/steam-quarry/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/npcs.lua"
+
+t("human", "인간")
+t("humanoid", "인간형")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/tinker-master/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/tinker-master/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/tinker-master/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/town-kruk/npcs.lua"
+
+t("humanoid", "인간형")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/town-kruk/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/town-kruk/traps.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/town-kruk/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/ureslak-host/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/ureslak-host/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/ureslak-host/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/npcs.lua"
+
+t("giant", "거인")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/wilderness-add/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/yeti-caves/grids.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/yeti-caves/npcs.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/yeti-caves/objects.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/yeti-caves/zone.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/init.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/calendar_orc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/intro-orc-whitehooves.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/intro-orc-yeti.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/intro-orc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-cosmetic_race_orc.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-mage_technomancer.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_all_classes.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_mage.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_rogue.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_tinker_eyal.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-race_whitehooves.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-race_yeti.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-tinker_annihilator.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-tinker_psyshot.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/data/texts/unlock-wyrmic_undead.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
+
+t("Name", "이름")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/mod/class/interface/PartyTinker.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/overload/mod/dialogs/CreateTinker.lua"
+
+t("Requires:", "요구사항:")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/class/Actor.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/class/Game.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/class/Object.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/class/Projectile.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/class/interface/Archery.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/class/interface/Combat.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/class/interface/TooltipsData.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/dialogs/Birther.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/dialogs/LevelupDialog.lua"
+
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/superload/mod/dialogs/debug/DebugMain.lua"
+
+
+
+------------------------------------------------
 section "game/engines/default/data/keybinds/actions.lua"
 
 t("Go to next/previous level", "다음/이전 단계로 이동")
@@ -195,6 +2780,9 @@ t("Exit menu", "메뉴에서 나가기")
 ------------------------------------------------
 section "game/engines/default/data/keybinds/chat.lua"
 
+t("Talk to people", "사람들과 대화하기")
+t("Display chat log", "대화 기록 표시하기")
+t("Cycle chat channels", "대화 채널 변경")
 
 
 ------------------------------------------------
@@ -276,7 +2864,7 @@ t("Quick switch to Hotkey Page 3", "3번 단축키 페이지로 빠른 전환")
 ------------------------------------------------
 section "game/engines/default/data/keybinds/interface.lua"
 
-t("Toggle list of seen creatures", "확인된 생명체 리스트 전환")
+t("Toggle list of seen creatures", "확인된 생명체 목록 전환")
 t("Show message log", "메시지 로그 보기")
 t("Take a screenshot", "화면 촬영")
 t("Show map", "지도 보이기")
@@ -345,11 +2933,17 @@ Mouse: #00FF00#Left click#FFFFFF# to accept; #00FF00#right click#FFFFFF# to go b
 마우스: #00FF00#좌클릭#FFFFFF# 으로 확인; #00FF00#우클릭#FFFFFF# 으로 돌아가기.
 ]])
 t("Random", "무작위")
+t("Do you want to recreate the same character?", "같은 캐릭터를 재생성하시겠습니까?")
+t("Quick Birth", "빠른 탄생")
+t("New character", "새로운 캐릭터")
+t("Recreate", "재생성")
+t("Randomly selected %s.", "무작위로 선택하기 %s.")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/DebugConsole.lua"
 
+t("Lua Console", "Lua 콘솔")
 
 
 ------------------------------------------------
@@ -362,72 +2956,148 @@ t("No", "아니요")
 ------------------------------------------------
 section "game/engines/default/engine/Game.lua"
 
+t([[Screenshot should appear in your Steam client's #LIGHT_GREEN#Screenshots Library#LAST#.
+Also available on disk: %s]], [[스크린샷이 스팀 클라이언트의 #LIGHT_GREEN#스크린샷 라이브러리#LAST#에 저장되었습니다.
+여유 디스크 공간: %s]])
+t("File: %s", "파일: %s")
+t("Screenshot taken!", "스크린샷 촬영됨!")
+
+
+------------------------------------------------
+section "game/engines/default/engine/HotkeysDisplay.lua"
+
+t("Missing!", "찾을 수 없음!")
+
+
+------------------------------------------------
+section "game/engines/default/engine/HotkeysIconsDisplay.lua"
+
+t("Missing!", "찾을 수 없음!")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/I18N.lua"
 
+t("Testing arg one %d and two %d", "인자 테스트 1번째 %d 와 2번째 %d")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Key.lua"
 
+t("#LIGHT_RED#Keyboard input temporarily disabled.", "#LIGHT_RED#키보드 입력 임시 비활성화.")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/LogDisplay.lua"
 
+t("Message Log", "메시지 로그")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/MicroTxn.lua"
 
+t("Test", "테스트")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Module.lua"
 
+t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로파일로 교체됨)", nil, {"이"})
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Mouse.lua"
 
+t("#LIGHT_RED#Mouse input temporarily disabled.", "#LIGHT_RED#마우스 입력 임시 비활성화")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Object.lua"
 
+t("Requires:", "요구사항:")
+t("%s (level %d)", "%s (%d 레벨)")
+t("Level %d", "%d 레벨")
+t("Talent %s (level %d)", "기술 %s (%d 레벨)")
+t("Talent %s", "기술 %s")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/PlayerProfile.lua"
 
+t("#YELLOW#Connection to online server established.", "#YELLOW#온라인 서버에 연결됨.")
+t("#YELLOW#Connection to online server lost, trying to reconnect.", "#YELLOW#온라인 서버 연결이 끊김. 재접속 시도 중.")
+t("bad game version", "게임 버전이 잘못됨")
+t("nothing to update", "업데이트가 존재하지 않음")
+t("bad game addon version", "애드온 버전이 잘못됨")
+t("no online profile active", "활성화된 온라인 프로필 없음")
+t("cheat mode active", "치트 모드 활성화")
+t("savefile tainted", "세이브 파일이 오염됨")
+t("unknown error", "알 수 없는 오류")
+t("Character is being registered on https://te4.org/", "캐릭터는 https://te4.org/ 에 등록됩니다.")
+t("Registering character", "캐릭터 등록 중")
+t("Retrieving data from the server", "서버에서 데이터를 받아오는 중")
+t("Retrieving...", "데이터를 받아오는 중...")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Quest.lua"
 
+t("active", "활성")
+t("completed", "완료")
+t("done", "성공")
+t("failed", "실패")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Savefile.lua"
 
+t("Please wait while saving the world...", "월드를 저장 중 입니다...")
+t("Saving world", "월드 저장")
+t("Please wait while saving the game...", "게임을 저장 중 입니다...")
+t("Saving game", "게임 저장")
+t("Please wait while saving the zone...", "지역을 저장 중 입니다...")
+t("Saving zone", "지역 저장")
+t("Please wait while saving the level...", "지역 내부를 저장 중 입니다...")
+t("Saving level", "지역 내부")
+t("Please wait while saving the entity...", "엔티티를 저장 중 입니다...")
+t("Saving entity", "엔티티 저장")
+t("Loading world", "월드 불러오기")
+t("Please wait while loading the world...", "월드를 불러오는 중 입니다...")
+t("Loading game", "게임 불러오기")
+t("Please wait while loading the game...", "게임을 불러오는 중 입니다...")
+t("Loading zone", "지역 불러오기")
+t("Please wait while loading the zone...", "지역를 불러오는 중 입니다...")
+t("Loading level", "지역 내부 불러오기")
+t("Please wait while loading the level...", "지역 내부를 불러오는 중 입니다...")
+t("Loading entity", "엔티티 불러오기")
+t("Please wait while loading the entity...", "엔티티를 불러오는 중 입니다...")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/SavefilePipe.lua"
 
+t("Saving done.", "저장 완료.")
+t("Please wait while saving...", "저장하는 동안 잠시 기다려주세요...")
+t("Saving...", "저장 중...")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Store.lua"
 
+t("Store: %s", "상점: %s")
+t("Buy %d %s", "%d %s 구입")
+t("Buy", "구입")
+t("Sell %d %s", "%d %s 판매")
 t("Cancel", "취소")
+t("Sell", "판매")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Trap.lua"
 
+t("%s fails to disarm a trap (%s).", "%s %s 함정을 해제하는데 실패함.")
+t("%s disarms a trap (%s).", "%s %s 함정을 해제하는데 성공함.")
+t("%s triggers a trap (%s)!", "%s %s 함정이 발동됨!")
 
 
 ------------------------------------------------
@@ -439,6 +3109,7 @@ t("Error", "오류")
 ------------------------------------------------
 section "game/engines/default/engine/Zone.lua"
 
+t("Loading level", "지역 내부 불러오기")
 
 
 ------------------------------------------------
@@ -449,6 +3120,7 @@ section "game/engines/default/engine/ai/talented.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/AudioOptions.lua"
 
+t("Audio Options", "오디오 설정")
 
 
 ------------------------------------------------
@@ -469,8 +3141,17 @@ section "game/engines/default/engine/dialogs/ChatIgnores.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/DisplayResolution.lua"
 
+t("Switch Resolution", "해상도 전환")
+t("Fullscreen", "전체 화면")
+t("Borderless", "전체 창 모드")
+t("Windowed", "창 모드")
+t("Engine Restart Required", "엔진 재시작 필요")
+t(" (progress will be saved)", " (작업 저장 중)")
+t("Continue? %s", "%s 계속하시겠습니까?", nil, {"를"})
+t("Reset Window Position?", "창 위치를 초기화하시겠습니까?")
+t("Simply restart or restart+reset window position?", "게임 재시작 혹은 창 위치 초기화 후 재시작하시겠습니까?")
 t("Restart", "재시작")
-t("Restart with reset", "재시작 후 창 위치 초기화")
+t("Restart with reset", "창 위치 초기화 후 재시작")
 t("No", "아니요")
 t("Yes", "네")
 
@@ -478,6 +3159,7 @@ t("Yes", "네")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/Downloader.lua"
 
+t("Download: %s", "다운로드: %s")
 t("Cancel", "취소")
 
 
@@ -486,7 +3168,29 @@ section "game/engines/default/engine/dialogs/GameMenu.lua"
 
 t("Game Menu", "게임 메뉴")
 t("Resume", "재개")
+t("Key Bindings", "키 설정")
+t("Video Options", "화면 설정")
+t("Display Resolution", "표시 해상도")
+t("Show Achievements", "도전과제 확인")
+t("Audio Options", "오디오 설정")
+t("#GREY#Developer Mode", "#GREY#개발자 모드")
+t("Disable developer mode?", "개발자 모드를 비활성화하시겠습니까?")
 t("Developer Mode", "개발자 모드")
+t([[Enable developer mode?
+Developer Mode is a special game mode used to debug and create addons.
+Using it will #CRIMSON#invalidate#LAST# any savefiles loaded.
+When activated you will have access to special commands:
+- CTRL+L: bring up a lua console that lets you explore and alter all the game objects, enter arbitrary lua commands, ...
+- CTRL+A: bring up a menu to easily do many tasks (create NPCs, teleport to zones, ...)
+- CTRL+left click: teleport to the clicked location
+]], [[개발자 모드를 활성화하시겠습니까?
+개발자 모드는 디버그 및 애드온 제작에 사용되는 특별한 게임 모드입니다..
+개발자 모드에서 사용한 모든 세이브 파일은 더 이상 #CRIMSON#유효하지 않습니다.#LAST#.
+활성화 된 동안 특별한 명령어에 접근할 수 있습니다:
+- CTRL+L: 명령어를 입력할 수 있는 lua 콘솔을 불러옵니다. (직접적인 게임 내부 접근)
+- CTRL+A: 쉽게 많은 일을 할 수 있는 메뉴를 불러옵니다. (NPC 생성, 텔레포트 등)
+- CTRL+좌 클릭: 클릭한 장소로 텔레포트합니다.
+]])
 t("No", "아니요")
 t("Yes", "네")
 t("Save Game", "게임 저장")
@@ -497,7 +3201,6 @@ t("Exit Game", "게임 종료")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetQuantity.lua"
 
-t("Accept", "수락")
 t("Cancel", "취소")
 t("Error", "오류")
 
@@ -505,7 +3208,6 @@ t("Error", "오류")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetQuantitySlider.lua"
 
-t("Accept", "수락")
 t("Cancel", "취소")
 t("Error", "오류")
 
@@ -513,7 +3215,6 @@ t("Error", "오류")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetText.lua"
 
-t("Accept", "수락")
 t("Cancel", "취소")
 t("Error", "오류")
 
@@ -576,7 +3277,6 @@ section "game/engines/default/engine/dialogs/SteamOptions.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/Talkbox.lua"
 
-t("Accept", "수락")
 t("Cancel", "취소")
 
 
@@ -593,6 +3293,7 @@ section "game/engines/default/engine/dialogs/UserInfo.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/VideoOptions.lua"
 
+t("Video Options", "화면 설정")
 
 
 ------------------------------------------------
@@ -616,7 +3317,6 @@ t("Cancel", "취소")
 section "game/engines/default/engine/dialogs/microtxn/UsePurchased.lua"
 
 t("Name", "이름")
-t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#설치됨")
 
 
 ------------------------------------------------
@@ -633,6 +3333,7 @@ section "game/engines/default/engine/interface/ActorLife.lua"
 section "game/engines/default/engine/interface/ActorTalents.lua"
 
 t("Cancel", "취소")
+t("Continue", "계속하기")
 
 
 ------------------------------------------------
@@ -709,6 +3410,8 @@ section "game/engines/default/engine/utils.lua"
 ------------------------------------------------
 section "game/engines/default/modules/boot/class/Game.lua"
 
+t("Continue", "계속하기")
+t("Quit", "종료")
 
 
 ------------------------------------------------
@@ -780,9 +3483,6 @@ section "game/engines/default/modules/boot/data/zones/dungeon/zone.lua"
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/Addons.lua"
 
-t("Show incompatible", "호환되지 않는 버전 보이기")
-t("Game Module", "게임 모듈")
-t("Version", "버전")
 
 
 ------------------------------------------------
@@ -799,7 +3499,6 @@ t("Cancel", "취소")
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/LoadGame.lua"
 
-t("Load Game", "게임 불러오기")
 t("Developer Mode", "개발자 모드")
 t("Cancel", "취소")
 
@@ -808,93 +3507,43 @@ t("Cancel", "취소")
 section "game/engines/default/modules/boot/dialogs/MainMenu.lua"
 
 t("Main Menu", "메인 메뉴")
-t("New Game", "새 게임")
-t("Load Game", "게임 불러오기")
-t("Addons", "애드온")
-t("Options", "설정")
-t("Game Options", "게임 설정")
-t("Credits", "개발진들")
-t("Exit", "나가기")
-t("Reboot", "재시작")
-t("Disable animated background", "움직이는 배경화면 비활성화")
-t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#설치됨")
-t("#YELLOW#Not installed - Click to download / purchase", "#YELLOW#설치되지 않음 - 클릭 시 다운로드 / 구매")
-t("Login", "로그인")
-t("Register", "가입")
-t("Username: ", "유저명: ")
-t("Password: ", "비밀번호: ")
-t("#GOLD#Online Profile", "#GOLD#온라인 프로필")
-t("Login with Steam", "스팀으로 로그인")
-t("#GOLD#Online Profile#WHITE#", "#GOLD#온라인 프로필#WHITE#")
-t("#LIGHT_BLUE##{underline}#Logout", "#LIGHT_BLUE##{underline}#로그아웃")
-t("Username", "유저명")
-t("Your username is too short", "유저명이 너무 짧습니다.")
-t("Password", "비밀번호")
-t("Your password is too short", "비밀번호가 너무 짧습니다.")
-t("Login in your account, please wait...", "로그인 중입니다. 잠시만 기다려주세요...")
-t("Login...", "로그인 중...")
-t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/NewGame.lua"
 
-t("New Game", "새 게임")
-t("Show all versions", "모든 버전 보이기")
-t("Show incompatible", "호환되지 않는 버전 보이기")
-t("Game Module", "게임 모듈")
-t("Version", "버전")
 t("Enter your character's name", "캐릭터 이름을 입력해주세요")
-t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?")
-t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?")
 t("No", "아니요")
 t("Yes", "네")
-t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "이 게임은 현재 T-Engint 버전과 호환되지 않으므로, 실행 시 심각한 오류를 발생시킬 수 있습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/Profile.lua"
 
 t("Cancel", "취소")
-t("Login", "로그인")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileLogin.lua"
 
-t("Login", "로그인")
-t("Username: ", "유저명: ")
-t("Password: ", "비밀번호: ")
 t("Cancel", "취소")
-t("Username", "유저명")
-t("Your username is too short", "유저명이 너무 짧습니다.")
-t("Password", "비밀번호")
-t("Your password is too short", "비밀번호가 너무 짧습니다.")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileSteamRegister.lua"
 
-t("Username: ", "유저명: ")
-t("Register", "가입")
 t("Cancel", "취소")
-t("Username", "유저명")
-t("Your username is too short", "유저명이 너무 짧습니다.")
-t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.")
 t("Error", "오류")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/UpdateAll.lua"
 
-t("Version", "버전")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ViewHighScores.lua"
 
-t("Game Module", "게임 모듈")
-t("Version", "버전")
 
 
 ------------------------------------------------
@@ -905,12 +3554,6 @@ section "game/engines/default/modules/boot/init.lua"
 ------------------------------------------------
 section "game/engines/default/modules/boot/load.lua"
 
-t("Strength", "힘")
-t("str", "힘")
-t("Dexterity", "민첩")
-t("dex", "민첩")
-t("Constitution", "체격")
-t("con", "체격")
 
 
 ------------------------------------------------
@@ -966,6 +3609,8 @@ section "game/modules/tome/ai/target.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Actor.lua"
 
+t("female", "여성")
+t("male", "남성")
 t("Cancel", "취소")
 
 
@@ -977,17 +3622,17 @@ section "game/modules/tome/class/FortressPC.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Game.lua"
 
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source#이(가) #Target#을(를) 공격함. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
-t("#Source# hits #Target# for %s damage.", "#Source#이(가) #Target3#을(를) 공격하여 %s 피해를 입힘.")
-t("Game Options", "게임 설정")
+t("Loading level", "지역 내부 불러오기")
+t("Please wait while loading the level...", "지역 내부를 불러오는 중 입니다...")
+t("Message Log", "메시지 로그")
+t("Show Achievements", "도전과제 확인")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/GameState.lua"
 
 t("Exterminator", "절멸자")
-t("but nobody knew why #sex# suddenly became evil", "하지만 왜 #sex#(조사) 타락했는지는 아무도 모릅니다.")
-t("Accept", "수락")
+t("but nobody knew why #sex# suddenly became evil", "하지만 왜 그 #sex#이 타락했는지는 아무도 모릅니다.")
 
 
 ------------------------------------------------
@@ -1008,6 +3653,7 @@ section "game/modules/tome/class/NPC.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Object.lua"
 
+t("Talent %s", "기술 %s")
 
 
 ------------------------------------------------
@@ -1034,7 +3680,9 @@ section "game/modules/tome/class/Projectile.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Store.lua"
 
+t("Buy", "구입")
 t("Cancel", "취소")
+t("Sell", "판매")
 
 
 ------------------------------------------------
@@ -1091,7 +3739,6 @@ section "game/modules/tome/class/interface/ActorObjectUse.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/Archery.lua"
 
-t("#Source# misses #target#.", "#target#의 공격이 #Source#를 빗맞힘.")
 
 
 ------------------------------------------------
@@ -1606,6 +4253,8 @@ section "game/modules/tome/data/birth/races/yeek.lua"
 ------------------------------------------------
 section "game/modules/tome/data/birth/sexes.lua"
 
+t("Female", "여성")
+t("Male", "남성")
 
 
 ------------------------------------------------
@@ -1897,7 +4546,6 @@ section "game/modules/tome/data/chats/escort-quest-start.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/escort-quest.lua"
 
-t("physical", "물리")
 
 
 ------------------------------------------------
@@ -2244,7 +4892,6 @@ section "game/modules/tome/data/chats/zoisla.lua"
 ------------------------------------------------
 section "game/modules/tome/data/damage_types.lua"
 
-t("physical", "물리")
 
 
 ------------------------------------------------
@@ -2307,6 +4954,7 @@ section "game/modules/tome/data/general/events/drake-cave.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/events/fearscape-portal.lua"
 
+t("Quit", "출구")
 
 
 ------------------------------------------------
@@ -2337,6 +4985,7 @@ section "game/modules/tome/data/general/events/meteor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/events/naga-portal.lua"
 
+t("Quit", "출구")
 
 
 ------------------------------------------------
@@ -3006,7 +5655,6 @@ section "game/modules/tome/data/general/objects/egos/boots.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/bow.lua"
 
-t("dex", "민첩")
 
 
 ------------------------------------------------
@@ -3042,7 +5690,6 @@ section "game/modules/tome/data/general/objects/egos/digger.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/gloves.lua"
 
-t("dex", "민첩")
 
 
 ------------------------------------------------
@@ -3053,8 +5700,6 @@ section "game/modules/tome/data/general/objects/egos/heavy-armor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/helm.lua"
 
-t("con", "체격")
-t("dex", "민첩")
 
 
 ------------------------------------------------
@@ -3115,7 +5760,6 @@ section "game/modules/tome/data/general/objects/egos/scrolls.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/shield.lua"
 
-t("physical", "물리")
 
 
 ------------------------------------------------
@@ -3945,7 +6589,7 @@ t([[You killed your future self. In the future, you might wish to avoid time-tra
 ]])
 t("%s the Paradox Mage", "괴리마법사 %s")
 t("A later (less fortunate?) version of %s, possibly going mad.", "미쳐가고 있는 (불행한?)미래의 %s입니다.")
-t("but nobody knew why #sex# suddenly became evil", "하지만 왜 #sex#(조사) 타락했는지는 아무도 모릅니다.")
+t("but nobody knew why #sex# suddenly became evil", "하지만 왜 그 #sex#이 타락했는지는 아무도 모릅니다.")
 t("#LIGHT_BLUE#Killing your own future self does feel weird, but you know that you can avoid this future. Just do not time travel.", "#LIGHT_BLUE#미래의 자신을 죽이는 것은 묘한 기분을 들게 합니다. 하지만 당신은 이제 어떻게 하면 이 미래를 피할 수 있는지 알고 있습니다. 그저 시간여행을 하지 않으면 됩니다.")
 t("Meet the guardian!", "수호자를 만나다!")
 t("#LIGHT_BLUE#Your future self kills you! The timestreams are broken by the paradox!", "#LIGHT_BLUE#미래의 당신이 당신을 죽였습니다! 시간 선이 괴리로 인해 붕괴합니다!")
@@ -6057,13 +8701,11 @@ section "game/modules/tome/data/timed_effects/floor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/magical.lua"
 
-t("physical", "물리")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/mental.lua"
 
-t("physical", "물리")
 
 
 ------------------------------------------------
@@ -6077,7 +8719,6 @@ section "game/modules/tome/data/timed_effects/physical.lua"
 
 t("Sunder Armour", "방어구 부수기")
 t("Sunder Arms", "무기 부수기")
-t("physical", "물리")
 
 
 ------------------------------------------------
@@ -6991,7 +9632,7 @@ section "game/modules/tome/data/zones/shadow-crypt/grids.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/shadow-crypt/npcs.lua"
 
-t("but nobody knew why #sex# suddenly became evil", "하지만 왜 #sex#(조사) 타락했는지는 아무도 모릅니다.")
+t("but nobody knew why #sex# suddenly became evil", "하지만 왜 그 #sex#이 타락했는지는 아무도 모릅니다.")
 
 
 ------------------------------------------------
@@ -7670,13 +10311,14 @@ section "game/modules/tome/data/zones/wilderness/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/ArenaFinish.lua"
 
+t("Message Log", "메시지 로그")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/Birther.lua"
 
-t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?")
-t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?")
+t("Female", "여성")
+t("Male", "남성")
 t("Yes", "네")
 t("No", "아니요")
 t("Cancel", "취소")
@@ -7687,6 +10329,9 @@ t("Name", "이름")
 section "game/modules/tome/dialogs/CharacterSheet.lua"
 
 t("Name", "이름")
+t("Female", "여성")
+t("Male", "남성")
+t("File: %s", "파일: %s")
 
 
 ------------------------------------------------
@@ -7697,6 +10342,7 @@ section "game/modules/tome/dialogs/CursedAuraSelect.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/DeathDialog.lua"
 
+t("Message Log", "메시지 로그")
 
 
 ------------------------------------------------
@@ -7708,9 +10354,7 @@ t("Cancel", "취소")
 ------------------------------------------------
 section "game/modules/tome/dialogs/GameOptions.lua"
 
-t("Game Options", "게임 설정")
 t("no", "아니요")
-t("yes", "네")
 
 
 ------------------------------------------------
@@ -7759,9 +10403,6 @@ section "game/modules/tome/dialogs/QuestPopup.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/SentientWeapon.lua"
 
-t("Constitution", "체격")
-t("Dexterity", "민첩")
-t("Strength", "힘")
 
 
 ------------------------------------------------
@@ -7837,7 +10478,6 @@ section "game/modules/tome/dialogs/UseTalents.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/AdvanceActor.lua"
 
-t("Accept", "수락")
 t("Cancel", "취소")
 
 
@@ -7994,11 +10634,5 @@ section "game/modules/tome/init.lua"
 ------------------------------------------------
 section "game/modules/tome/load.lua"
 
-t("Strength", "힘")
-t("str", "힘")
-t("Dexterity", "민첩")
-t("dex", "민첩")
-t("Constitution", "체격")
-t("con", "체격")
 
 
