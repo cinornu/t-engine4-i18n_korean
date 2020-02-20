@@ -19,6 +19,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ```완 : 완료됨
 ** : 재검토 필요
 ?? : 작업 중
+\/ : 검수 중
 ```
 
 ```
@@ -111,8 +112,8 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/birth/classes/afflicted.lua"
 "game/modules/tome/data/birth/classes/celestial.lua" jirehthecat 완 **
 
-"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 **
-"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 **
+"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 ** \/
+"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 ** \/
 # 작업시 유의 사항
 
 - 깃헙 데스크탑 실행하고 Fetch Origin 눌러서 변경 사항 받아오고, 커밋 올릴땐 제목에
