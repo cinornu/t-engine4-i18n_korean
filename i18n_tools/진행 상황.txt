@@ -36,3 +36,4 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/talents/techniques/combat-techniques.lua" gameatnew 완
 "game/modules/tome/data/talents/techniques/combat-training.lua" gameatnew 완
 "game/modules/tome/data/talents/techniques/conditioning.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/dualweapon.lua" gameatnew 완
