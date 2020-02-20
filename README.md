@@ -111,6 +111,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/birth/classes/afflicted.lua"
 "game/modules/tome/data/birth/classes/celestial.lua" jirehthecat 완 **
 
+"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 **
 
 # 작업시 유의 사항
 
