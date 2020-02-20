@@ -33,3 +33,6 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/engine/ActorsSeenDisplay.lua" uueeck 완
 "game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
 "game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/combat-techniques.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/combat-training.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/conditioning.lua" gameatnew 완
