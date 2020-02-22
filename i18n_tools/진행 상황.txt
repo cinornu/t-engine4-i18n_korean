@@ -9,28 +9,99 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 완 : 완료됨
 ** : 재검토 필요
 ?? : 작업 중
+\/ : 검수 중
 
 ==================================================================
 
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
+
 "game/engines/default/data/keybinds/debug.lua" uueeck 완
+
 "game/engines/default/data/keybinds/hotkeys.lua" uueeck 완
+
 "game/engines/default/data/keybinds/interface.lua" uueeck 완 **
+
 "game/engines/default/data/keybinds/inventory.lua" uueeck 완
+
 "game/modules/tome/data/chats/arena-unlock.lua" beomkki 완 ** (존댓말 재검토)
+
 "game/modules/tome/data/achievements/arena.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/donator.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/events.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/infinite-dungeon.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/items.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/kills.lua"jirehthecat 완 **
+
 "game/modules/tome/data/achievements/lore.lua" jirehthecat 완
+
 "game/modules/tome/data/achievements/player.lua" jirehthecat 완 
+
 "game/modules/tome/data/achievements/quests.lua" jirehthecat 완 **
+
 "game/modules/tome/data/achievements/talents.lua" jirehthecat 완 **
+
 "game/engines/default/data/keybinds/move.lua" uueeck 완
+
 "game/engines/default/data/keybinds/mtxn.lua" uueeck 완
+
 "game/engines/default/engine/ActorsSeenDisplay.lua" uueeck 완
+
+"game/modules/tome/data/quests/orc-pride.lua" Highseeker 완
+
+"game/modules/tome/data/quests/paradoxology.lua" Highseeker 완
+
+"game/modules/tome/data/quests/pre-charred-scar.lua" Highseeker 완
+
+"game/modules/tome/data/general/npcs/humanoid_random_boss.lua" beomkki 완
+
+"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
+
+"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
+
+"game/engines/default/engine/Birther.lua" uueeck 완 **
+
+"game/engines/default/engine/DebugConsole.lua"
+"game/engines/default/engine/Game.lua"
+"game/engines/default/engine/I18N.lua"
+"game/engines/default/engine/Key.lua"
+"game/engines/default/engine/LogDisplay.lua"
+"game/engines/default/engine/MicroTxn.lua"
+"game/engines/default/engine/Module.lua"
+"game/engines/default/engine/Object.lua"
+"game/engines/default/engine/PlayerProfile.lua"
+"game/engines/default/engine/Savefile.lua"
+"game/engines/default/engine/SavefilePipe.lua"
+"game/engines/default/engine/Store.lua"
+"game/engines/default/engine/Trap.lua"
+"game/engines/default/data/keybinds/chat.lua" uueeck 완
+
+"game/engines/default/engine/dialogs/DisplayResolution.lua"
+"game/engines/default/engine/dialogs/Downloader.lua"
+"game/engines/default/engine/dialogs/GameMenu.lua"
+"game/engines/default/modules/boot/dialogs/NewGame.lua"
+"game/engines/default/modules/boot/dialogs/Profile.lua" uueeck 완
+
+"game/engines/default/engine/Quest.lua" uueeck 완 **
+
+"game/engines/default/modules/boot/dialogs/MainMenu.lua" uueeck ??
+
+"game/dlcs/tome-cults/data/zones/ft-horrors/npcs.lua" beomkki 완 **
+"game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua" beomkki 완
+"game/dlcs/tome-cults/data/zones/ft-horrors/zone.lua" beomkki 완
+"game/dlcs/tome-cults/data/zones/ft-yaech/npcs.lua" beomkki 완 **
+
+"game/modules/tome/data/birth/classes/adventurer.lua"
+"game/modules/tome/data/birth/classes/afflicted.lua"
+"game/modules/tome/data/birth/classes/celestial.lua" jirehthecat 완 **
+
+"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 ** \/
+"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 ** \/
+
 "game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
 "game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
 "game/modules/tome/data/talents/techniques/combat-techniques.lua" gameatnew 완
