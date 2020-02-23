@@ -10,6 +10,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ** : 재검토 필요
 ?? : 작업 중
 \/ : 검수 중
+*? : 번역 생략 (인게임 미출력)
 
 ==================================================================
 
