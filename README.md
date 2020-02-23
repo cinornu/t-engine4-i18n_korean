@@ -115,8 +115,8 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 ** \/
 "game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 ** \/
 
-"game/dlcs/tome-cults/data/talents/demented/tentacles.lua" beomkki ??
-"game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua" beomkki ??
+"game/dlcs/tome-cults/data/talents/demented/tentacles.lua" beomkki 완 **
+"game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua" beomkki 완
 "game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
 
 # 작업시 유의 사항
