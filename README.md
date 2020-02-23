@@ -121,7 +121,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
 
 "game/modules/tome/data/birth/classes/chronomancer.lua"
-"game/modules/tome/data/birth/classes/chronomancer.lua" jirehthecat 완 
+"game/modules/tome/data/birth/classes/corrupted.lua" jirehthecat 완 
 
 # 작업시 유의 사항
 
