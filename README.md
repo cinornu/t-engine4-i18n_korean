@@ -71,10 +71,6 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/general/npcs/humanoid_random_boss.lua" beomkki 완
 
-"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
-
-"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
-
 "game/engines/default/engine/Birther.lua" uueeck 완 **
 
 "game/engines/default/engine/DebugConsole.lua"
@@ -114,6 +110,16 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 **
 "game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 **
 "game/modules/tome/data/talents/cunning/lethality.lua" beomkki ??
+
+"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/combat-techniques.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/combat-training.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/conditioning.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/dualweapon.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/acrobatics.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/agility.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/archery.lua" gameatnew 완
 
 # 작업시 유의 사항
 
