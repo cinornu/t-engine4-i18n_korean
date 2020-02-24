@@ -19,8 +19,6 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ```완 : 완료됨
 ** : 재검토 필요
 ?? : 작업 중
-\/ : 검수 중
-*? : 번역 생략 (인게임 미출력)
 ```
 
 ```
@@ -113,15 +111,9 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/birth/classes/afflicted.lua"
 "game/modules/tome/data/birth/classes/celestial.lua" jirehthecat 완 **
 
-"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 ** \/ 완
-"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 ** \/
-
-"game/dlcs/tome-cults/data/talents/demented/tentacles.lua" beomkki 완 **
-"game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua" beomkki 완
-"game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
-
-"game/modules/tome/data/birth/classes/chronomancer.lua"
-"game/modules/tome/data/birth/classes/corrupted.lua" jirehthecat 완 
+"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 **
+"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 **
+"game/modules/tome/data/talents/cunning/lethality.lua" beomkki ??
 
 # 작업시 유의 사항
 
