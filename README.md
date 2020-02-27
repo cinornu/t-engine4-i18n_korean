@@ -19,12 +19,10 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ```완 : 완료됨
 ** : 재검토 필요
 ?? : 작업 중
-\/ : 검수 중
-*? : 번역 생략 (인게임 미출력)
 ```
 
 ```
-973 / 22213 문장 (4.3%) / 20.02.19 07:04 기준
+2044 / 28883 문장 (7.0%) / 20.02.26 16:09 기준
 ```
 
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
@@ -73,10 +71,6 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/general/npcs/humanoid_random_boss.lua" beomkki 완
 
-"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
-
-"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
-
 "game/engines/default/engine/Birther.lua" uueeck 완 **
 
 "game/engines/default/engine/DebugConsole.lua"
@@ -113,15 +107,23 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/birth/classes/afflicted.lua"
 "game/modules/tome/data/birth/classes/celestial.lua" jirehthecat 완 **
 
-"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 ** \/ 완
-"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 ** \/
+"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 **
+"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 **
+"game/modules/tome/data/talents/cunning/lethality.lua" beomkki ??
+
+"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/combat-techniques.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/combat-training.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/conditioning.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/dualweapon.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/acrobatics.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/agility.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/archery.lua" gameatnew 완
 
 "game/dlcs/tome-cults/data/talents/demented/tentacles.lua" beomkki 완 **
 "game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua" beomkki 완
 "game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
-
-"game/modules/tome/data/birth/classes/chronomancer.lua"
-"game/modules/tome/data/birth/classes/corrupted.lua" jirehthecat 완 
 
 # 작업시 유의 사항
 
