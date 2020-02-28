@@ -126,9 +126,16 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
 
 "game/modules/tome/data/resources.lua" Highseeker 완
+
 "game/modules/tome/data/talents/celestial/celestial.lua" Highseeker 완
 
 "game/dlcs/tome-cults/data/talents/demented/slow-death.lua" beomkki 완
+
+"game/modules/tome/data/talents/celestial/chants.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/circles.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/combat.lua" Highseeker 완
 
 # 작업시 유의 사항
 
