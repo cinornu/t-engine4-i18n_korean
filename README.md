@@ -125,6 +125,8 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua" beomkki 완
 "game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
 
+"game/engines/default/engine/UserChat.lua" uueeck ??
+
 "game/modules/tome/data/resources.lua" Highseeker 완
 
 "game/modules/tome/data/talents/celestial/celestial.lua" Highseeker 완
