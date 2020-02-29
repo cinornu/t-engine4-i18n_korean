@@ -22,7 +22,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ```
 
 ```
-2044 / 28883 문장 (7.0%) / 20.02.26 16:09 기준
+2226 / 28884 문장 (7.7%) / 20.02.29 19:25 기준
 ```
 
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
