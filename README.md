@@ -146,6 +146,12 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/engines/default/engine/dialogs/ChatIgnores.lua"
 "game/engines/default/engine/dialogs/KeyBinder.lua" uueeck 완
 
+"game/modules/tome/data/talents/celestial/crusader.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/eclipse.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/glyphs.lua" Highseeker **
+
 
 
 # 작업시 유의 사항
