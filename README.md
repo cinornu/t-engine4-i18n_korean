@@ -19,12 +19,10 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ```완 : 완료됨
 ** : 재검토 필요
 ?? : 작업 중
-\/ : 검수 중
-*? : 번역 생략 (인게임 미출력)
 ```
 
 ```
-973 / 22213 문장 (4.3%) / 20.02.19 07:04 기준
+2226 / 28884 문장 (7.7%) / 20.02.29 19:25 기준
 ```
 
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
@@ -73,10 +71,6 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/general/npcs/humanoid_random_boss.lua" beomkki 완
 
-"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
-
-"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
-
 "game/engines/default/engine/Birther.lua" uueeck 완 **
 
 "game/engines/default/engine/DebugConsole.lua"
@@ -113,12 +107,52 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/birth/classes/afflicted.lua"
 "game/modules/tome/data/birth/classes/celestial.lua" jirehthecat 완 **
 
-"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 ** \/ 완
-"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 ** \/
+"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 **
+"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 **
+"game/modules/tome/data/talents/cunning/lethality.lua" beomkki ??
+
+"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/combat-techniques.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/combat-training.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/conditioning.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/dualweapon.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/acrobatics.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/agility.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/archery.lua" gameatnew 완
 
 "game/dlcs/tome-cults/data/talents/demented/tentacles.lua" beomkki 완 **
 "game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua" beomkki 완
 "game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
+
+"game/engines/default/engine/UserChat.lua" uueeck 완
+
+"game/modules/tome/data/resources.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/celestial.lua" Highseeker 완
+
+"game/dlcs/tome-cults/data/talents/demented/slow-death.lua" beomkki 완
+
+"game/modules/tome/data/talents/celestial/chants.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/circles.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/combat.lua" Highseeker 완
+
+"game/engines/default/engine/Zone.lua"
+"game/engines/default/engine/dialogs/AudioOptions.lua"
+"game/engines/default/engine/dialogs/ChatChannels.lua"
+"game/engines/default/engine/dialogs/ChatFilter.lua"
+"game/engines/default/engine/dialogs/ChatIgnores.lua"
+"game/engines/default/engine/dialogs/KeyBinder.lua" uueeck 완
+
+"game/modules/tome/data/talents/celestial/crusader.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/eclipse.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/glyphs.lua" Highseeker **
+
+
 
 # 작업시 유의 사항
 
@@ -134,7 +168,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 - 번역하다보면 저 인자 위치를 바꿔야하거나, 인자에 조사(을, 를, 이, 가 등)를 붙여야할 상황이 올거임.
 그럴때는
-t("%d 원문 %d", "%d 번역문 %d", {인자 출력 순서}, {조사 지정})
+t("%s 원문 %s", "%s 번역문 %s", {인자 출력 순서}, {조사 지정})
 으로 작성하면 됨.
 예를 들어,
 t("%s resists %s attack!", "%s은(는) %s 공격을 저항했다!")
