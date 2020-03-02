@@ -167,6 +167,12 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/talents/cunning/poisons.lua" beomkki 완 **
 "game/modules/tome/data/talents/cunning/scoundrel.lua" beomkki ???
 
+"game/modules/tome/data/talents/celestial/sun.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/sunlight.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/twilight.lua" Highseeker 완
+
 
 
 # 작업시 유의 사항
