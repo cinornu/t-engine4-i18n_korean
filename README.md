@@ -152,6 +152,8 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/talents/celestial/glyphs.lua" Highseeker **
 
+"game/modules/tome/data/talents/cunning/poisons.lua" beomkki 완 **
+"game/modules/tome/data/talents/cunning/scoundrel.lua" beomkki ???
 
 
 # 작업시 유의 사항
