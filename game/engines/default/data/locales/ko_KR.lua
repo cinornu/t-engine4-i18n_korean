@@ -36,7 +36,7 @@ section "game/addons/tome-items-vault/data/entities/fortress-grids.lua"
 section "game/addons/tome-items-vault/init.lua"
 
 t("Items Vault", "아이템 금고")
-t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "아이템 금고를 이용할 수 있는 기능을 추가합니다. (후원자 전용) 아이템 볼트에 사용하지 않는 아이템을 플레이어의 온라인 프로필로 전송하여 다른 캐릭터로 옮길 수 있습니다.")
+t("Adds access to the items vault (donator feature). The items vault will let you upload a few unwanted items to your online profile and retrieve them on other characters.", "아이템 금고를 이용할 수 있는 기능을 추가합니다. (후원자 전용) 아이템 금고에 사용하지 않는 아이템을 플레이어의 온라인 프로필로 전송하여 다른 캐릭터로 옮길 수 있습니다.")
 
 
 ------------------------------------------------
@@ -283,6 +283,7 @@ section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/corruptions.lua"
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 
+t("%s is cured!", "%s 정화되었습니다!", nil, {"이"})
 
 
 ------------------------------------------------
@@ -808,6 +809,7 @@ section "game/dlcs/tome-cults/data/talents/demented/controlled-horrors.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/demented/demented.lua"
 
+t("other", "다른")
 
 
 ------------------------------------------------
@@ -946,6 +948,39 @@ section "game/dlcs/tome-cults/data/talents/demented/scourge-drake.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/demented/slow-death.lua"
 
+t("Digest", "삼키기")
+t("%s has no usable talents.", "%s 사용가능한 기술이 없습니다.", nil, {"는"})
+t("Choose a talent to use:", "사용할 기슬을 고르세요:")
+t([[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole.
+		While you digest it you gain %d insanity per turn.
+		The digestion lasts for 50 turns for an elite and 25 turns for others.]], [[%d%%의 무기 피해를 주는 근접 공격을 한 뒤, 대상의 체력이 %d%% 이하라면 대상을 꿀꺽 삼켜버립니다.
+		적을 삼킨 동안 매 턴 %d의 광기를 획득합니다.
+		삼킨 대상이 정예일 경우 50턴에 걸쳐 소화되고, 나머지 경우에는 25턴이 걸립니다.]])
+t("Painful Agony", "끔찍한 고통")
+t([[The pain you inflict to the victim you are digesting is so intense something breaks inside it, giving you a way into its mind.
+		When you digest you can steal a random talent from your victim and can use it for yourself at talent level %d.
+		At talent level 5 you can choose which talent to use.
+		You may not steal a talent which you already know.
+		The stolen talent will not use any resources to activate.
+		]], [[적을 삼킨동안 적은 끔찍한 고통에 시달려 정신이 붕괴되어, 머릿 속을 쉽게 들여다 볼 수 있게 됩니다.
+		적을 삼키면 대상이 가진 무작위 기술을 사용할 수 있게 됩니다. 이 때, 해당 기술의 레벨은 %d입니다.
+		끔찍한 고통의 레벨이 5가 되면 어떤 기술을 빼앗을 지 선택할 수 있습니다.
+		이미 알고 있는 기술을 빼앗을 수는 없습니다.
+		빼앗은 기술을 사용할 때에는 어떠한 원천력도 필요하지 않습니다.
+		]])
+t("Inner Tentacles", "내면의 촉수")
+t([[Your stomatch grows small tentacles inside which probe and torment your digested victim even more.
+		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
+		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 삼켜진 적을 관찰하며 끔찍한 고문을 가합니다.
+		치명타 공격을 가하면 적에게 더욱 끔찍한 고문을 가해 적이 느끼는 고통을 3턴 간 당신의 적들에게도 느낄 수 있게합니다.
+		3턴 간 20%% 확률로 당신의 공격은 피해량의 %d%%만큼의 체력을 회복시킵니다.]])
+t("Consume Whole", "소화")
+t("You are not digesting a creature.", "당신은 적을 삼키고 있지 않습니다.")
+t([[Instantly consume what remains of your victim, healing yourself for %d life and generating %d insanity.
+			Activating this will reset the cooldown of your Digest talent.
+		The life healed will increase with your Spellpower.]], [[즉시 삼킨 적을 소화시켜 %d의 생명력과 %d의 광기를 회복합니다.
+			이 기술을 사용하면 삼키기의 남은 재사용 대기시간이 초기화됩니다.
+		생명력 회복량은 주문력에 비례하여 증가합니다.]])
 
 
 ------------------------------------------------
@@ -1041,8 +1076,10 @@ section "game/dlcs/tome-cults/data/talents/spell/necro.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/timed_effects.lua"
 
+t("other", "다른")
 t("Carrion Feet", "썩어가는 발")
 t("Overgrowth", "과대성장")
+t("Inner Tentacles", "내면의 촉수")
 t("Dissolved Face", "녹아내린 얼굴")
 t("Glimpse of True Horror", "진정한 공포의 낌새")
 t("Writhing Hairs", "뒤틀린 머리카락")
@@ -1897,6 +1934,7 @@ section "game/dlcs/tome-orcs/data/general/objects/tinkers/smith.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/therapeutics.lua"
 
+t("light", "빛")
 
 
 ------------------------------------------------
@@ -2108,6 +2146,7 @@ section "game/dlcs/tome-orcs/data/talents.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua"
 
+t("celestial", "천공")
 
 
 ------------------------------------------------
@@ -2312,7 +2351,7 @@ section "game/dlcs/tome-orcs/data/talents/steam/gunslinging.lua"
 section "game/dlcs/tome-orcs/data/talents/steam/heavy-weapons.lua"
 
 t("%s resists the disarm!", "%s 무장해제에 저항합니다!", nil, {"가"})
-t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {"가"}, {"가"})
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {"가"})
 
 
 ------------------------------------------------
@@ -2358,6 +2397,7 @@ section "game/dlcs/tome-orcs/data/talents/steam/sawmaiming.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/steam.lua"
 
+t("other", "다른")
 
 
 ------------------------------------------------
@@ -2408,6 +2448,8 @@ section "game/dlcs/tome-orcs/data/timed_effects/floor.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/magical.lua"
 
+t("light", "빛")
+t("celestial", "천공")
 
 
 ------------------------------------------------
@@ -2418,6 +2460,8 @@ section "game/dlcs/tome-orcs/data/timed_effects/mental.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
 
+t("sun", "태양")
+t("other", "다른")
 
 
 ------------------------------------------------
@@ -3380,24 +3424,24 @@ t("failed", "실패")
 section "game/engines/default/engine/Savefile.lua"
 
 t("Please wait while saving the world...", "월드를 저장 중 입니다...")
-t("Saving world", "월드 저장")
+t("Saving world", "월드 저장 중")
 t("Please wait while saving the game...", "게임을 저장 중 입니다...")
-t("Saving game", "게임 저장")
+t("Saving game", "게임 저장 중")
 t("Please wait while saving the zone...", "지역을 저장 중 입니다...")
-t("Saving zone", "지역 저장")
-t("Please wait while saving the level...", "지역 내부를 저장 중 입니다...")
-t("Saving level", "지역 내부")
+t("Saving zone", "지역 저장 중")
+t("Please wait while saving the level...", "현재 층을 저장 중 입니다...")
+t("Saving level", "현재 층 저장 중")
 t("Please wait while saving the entity...", "엔티티를 저장 중 입니다...")
-t("Saving entity", "엔티티 저장")
-t("Loading world", "월드 불러오기")
+t("Saving entity", "엔티티 저장 중")
+t("Loading world", "월드 불러오는 중")
 t("Please wait while loading the world...", "월드를 불러오는 중 입니다...")
-t("Loading game", "게임 불러오기")
+t("Loading game", "게임 불러오는 중")
 t("Please wait while loading the game...", "게임을 불러오는 중 입니다...")
-t("Loading zone", "지역 불러오기")
+t("Loading zone", "지역 불러오는 중")
 t("Please wait while loading the zone...", "지역를 불러오는 중 입니다...")
-t("Loading level", "지역 내부 불러오기")
-t("Please wait while loading the level...", "지역 내부를 불러오는 중 입니다...")
-t("Loading entity", "엔티티 불러오기")
+t("Loading level", "현재 층 불러오는 중")
+t("Please wait while loading the level...", "현재 층을 불러오는 중 입니다...")
+t("Loading entity", "엔티티 불러오는 중")
 t("Please wait while loading the entity...", "엔티티를 불러오는 중 입니다...")
 
 
@@ -3431,13 +3475,41 @@ t("%s triggers a trap (%s)!", "%s %s 함정이 발동됨!")
 ------------------------------------------------
 section "game/engines/default/engine/UserChat.lua"
 
+t("Ignoring all new messages from %s.", "%s 로부터의 모든 메시지를 무시합니다.")
+t([[#{bold}#Thank you#{normal}# for you donation, your support means a lot for the continued survival of this game.
+
+Your current donation total is #LIGHT_GREEN#%0.2f euro#WHITE# which equals to #ROYAL_BLUE#%d voratun coins#WHITE# to use on te4.org.
+Your Item Vault has #TEAL#%d slots#WHITE#.
+
+Again, thank you, and enjoy Eyal!
+
+#{italic}#Your malevolent local god of darkness, #GOLD#DarkGod#{normal}#]], [[기부를 해주셔서 정말 #{bold}#감사합니다.#{normal}# 여러분의 후원은 이 게임이 계속 살아남는데에 큰 도움이 됩니다.
+
+당신의 후원액 총합은 #LIGHT_GREEN#%0.2f 유로#WHITE#이며 #ROYAL_BLUE#%d 보라툰 코인#WHITE#으로 te4.org 에서 사용이 가능합니다.
+당신의 아이템 금고는 총 #TEAL#%d 칸#WHITE#입니다.
+
+다시 한번 감사드리며, 에이얄을 즐겨주세요!!
+
+#{italic}#당신만의 악랄한 어둠의 신, darkgod#GOLD#DarkGod#{normal}#]])
+t("Thank you!", "감사합니다!")
+t("#{italic}#Joined channel#{normal}#", "#{italic}# 채널에 참가.#{normal}#")
+t("#{italic}#Left channel#{normal}#", "#{italic}# 채널에서 떠남.#{normal}#")
+t("#{italic}##FIREBRICK#has joined the channel#{normal}#", "#{italic}##FIREBRICK# 채널에 참가했습니다#{normal}#")
+t("#{italic}##FIREBRICK#has left the channel#{normal}#", "#{italic}##FIREBRICK# 채널을 떠났습니다#{normal}#")
+t("#CRIMSON#You are not subscribed to any channel, you can change that in the game options.#LAST#", "#CRIMSON#현재 아무런 채널에도 참가되어있지 않습니다. 게임 설정을 확인해주세요.#LAST#")
 t("Error", "오류")
+t("The server does not know about this player.", "서버에서 해당 유저를 찾을 수 없습니다.")
+t("Requesting user info...", "유저 정보 요청 중...")
+t("Requesting...", "요청 중...")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/Zone.lua"
 
-t("Loading level", "지역 내부 불러오기")
+t("Loading level", "현재 층 불러오는 중")
+t("Please wait while loading the level... ", "현재 층을 불러오는 중 입니다... ")
+t("Generating level", "현재 층 생성 중")
+t("Please wait while generating the level... ", "현재 층을 생성 중 입니다... ")
 
 
 ------------------------------------------------
@@ -3449,21 +3521,40 @@ section "game/engines/default/engine/ai/talented.lua"
 section "game/engines/default/engine/dialogs/AudioOptions.lua"
 
 t("Audio Options", "오디오 설정")
+t("Enable audio", "오디오 활성화")
+t("Music: ", "음악: ")
+t("Effects: ", "효과음: ")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ChatChannels.lua"
 
+t("Chat channels", "대화 채널")
+t("Global", "전세계")
+t(" [spoilers]", " [스포일러]")
+t("Select which channels to listen to. You can join new channels by typing '/join <channelname>' in the talkbox and leave channels by typing '/part <channelname>'", "대화를 들을 채널을 선택합니다. 새로운 채널에 참가하려면 '/join <채널명>' 을, 채널에서 나가려면 '/part <channelname>' 을 대화창에 입력해주세요.")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ChatFilter.lua"
 
+t("Chat filters", "대화 필터")
+t("Public chat", "공개 대화")
+t("Private whispers", "귓속말")
+t("Join/part messages", "메시지 참가/퇴장")
+t("First time achievements (recommended to keep them on)", "최초 달성 도전과제 (항상 켜두는 것을 추천)")
+t("Important achievements (recommended to keep them on)", "중요한 도전과제 (항상 켜두는 것을 추천)")
+t("Other achievements", "기타 도전과제")
+t("Select which types of chat events to see or not.", "확인할 메시지를 선택하세요.")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ChatIgnores.lua"
 
+t("Chat ignore list", "무시할 대화 목록")
+t("Really stop ignoring: %s", "정말로 %s 의 대화 무시를 해제하시겠습니까?")
+t("Stop ignoring", "대화 무시 해제")
+t("Click a user to stop ignoring her/his messages.", "유저명을 클릭 시 대화 무시를 해제합니다.")
 
 
 ------------------------------------------------
@@ -3495,7 +3586,7 @@ t("Cancel", "취소")
 section "game/engines/default/engine/dialogs/GameMenu.lua"
 
 t("Game Menu", "게임 메뉴")
-t("Resume", "재개")
+t("Resume", "돌아가기")
 t("Key Bindings", "키 설정")
 t("Video Options", "화면 설정")
 t("Display Resolution", "표시 해상도")
@@ -3529,20 +3620,27 @@ t("Exit Game", "게임 종료")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetQuantity.lua"
 
+t("Quantity", "수량")
+t("Accept", "수락")
 t("Cancel", "취소")
+t("Enter a quantity.", "수량 입력.")
 t("Error", "오류")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetQuantitySlider.lua"
 
+t("Quantity", "수량")
+t("Accept", "수락")
 t("Cancel", "취소")
+t("Enter a quantity.", "수량 입력.")
 t("Error", "오류")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/GetText.lua"
 
+t("Accept", "수락")
 t("Cancel", "취소")
 t("Error", "오류")
 
@@ -3550,6 +3648,12 @@ t("Error", "오류")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/KeyBinder.lua"
 
+t("Key bindings", "입력키 설정")
+t("      Press a key (escape to cancel, backspace to remove) for: %s", "      키 입력 (ESC로 취소, 백스페이스로 설정 해제) : %s")
+t("Bind alternate key", "보조 키 설정")
+t("Bind key", "키 설정")
+t("Make gesture (using right mouse button) or type it (or escape) for: %s", "마우스 제스쳐 (우클릭 후 드래그) 혹은 방향 입력 (혹은 ESC) : %s")
+t("Gesture", "제스쳐")
 
 
 ------------------------------------------------
@@ -3605,6 +3709,7 @@ section "game/engines/default/engine/dialogs/SteamOptions.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/Talkbox.lua"
 
+t("Accept", "수락")
 t("Cancel", "취소")
 
 
@@ -3740,7 +3845,7 @@ section "game/engines/default/engine/utils.lua"
 section "game/engines/default/modules/boot/class/Game.lua"
 
 t("Continue", "계속하기")
-t("Quit", "종료")
+t("Quit", "출구")
 
 
 ------------------------------------------------
@@ -4032,11 +4137,11 @@ section "game/modules/tome/class/FortressPC.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Game.lua"
 
-t("Loading level", "지역 내부 불러오기")
-t("Please wait while loading the level...", "지역 내부를 불러오는 중 입니다...")
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 데미지)%s.")
-t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입힘.")
-t("Kill (%d)!", "%d 죽음!", nil, {"가"})
+t("Loading level", "현재 층 불러오는 중")
+t("Please wait while loading the level...", "현재 층을 불러오는 중 입니다...")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했습니다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.")
+t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입혔습니다.")
+t("Kill (%d)!", "사망! (%d)!")
 t("Message Log", "메시지 로그")
 t("Show Achievements", "도전과제 확인")
 t("Character Sheet", "캐릭터 시트")
@@ -4048,6 +4153,7 @@ section "game/modules/tome/class/GameState.lua"
 
 t("Exterminator", "절멸자")
 t("but nobody knew why #sex# suddenly became evil", "하지만 왜 그 #sex#이 타락했는지는 아무도 모릅니다.")
+t("Accept", "수락")
 
 
 ------------------------------------------------
@@ -5517,6 +5623,7 @@ section "game/modules/tome/data/damage_types.lua"
 
 t("%s(%d blocked)#LAST#", "%s(%d 방어됨)#LAST#")
 t("%s(%d antimagic)#LAST#", "%s(%d 반마법)#LAST#")
+t("light", "빛")
 t("%s resists the silence!", "%s 침묵에 저항합니다!", nil, {"가"})
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
@@ -6018,6 +6125,7 @@ section "game/modules/tome/data/general/npcs/construct.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/crystal.lua"
 
+t("light", "빛")
 
 
 ------------------------------------------------
@@ -6410,6 +6518,7 @@ section "game/modules/tome/data/general/objects/egos/ammo.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/amulets.lua"
 
+t("eclipse", "일식")
 
 
 ------------------------------------------------
@@ -6456,6 +6565,7 @@ section "game/modules/tome/data/general/objects/egos/charms.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/cloak.lua"
 
+t("guardian", "수호자")
 
 
 ------------------------------------------------
@@ -6496,6 +6606,7 @@ section "game/modules/tome/data/general/objects/egos/light-boots.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/lite.lua"
 
+t("sun", "태양")
 
 
 ------------------------------------------------
@@ -6521,11 +6632,13 @@ section "game/modules/tome/data/general/objects/egos/ranged.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/rings.lua"
 
+t("light", "빛")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/robe.lua"
 
+t("light", "빛")
 
 
 ------------------------------------------------
@@ -6577,6 +6690,7 @@ section "game/modules/tome/data/general/objects/egos/weapon.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/wizard-hat.lua"
 
+t("light", "빛")
 
 
 ------------------------------------------------
@@ -6642,6 +6756,7 @@ section "game/modules/tome/data/general/objects/leather-caps.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/light-armors.lua"
 
+t("light", "빛")
 
 
 ------------------------------------------------
@@ -7510,6 +7625,30 @@ section "game/modules/tome/data/quests/wild-wild-east.lua"
 ------------------------------------------------
 section "game/modules/tome/data/resources.lua"
 
+t("Air", "호흡")
+t("Air capacity in your lungs. Entities that need not breathe are not affected.", "폐에 남아있는 공기의 양입니다. 숨을 쉬지 않는 존재들은 영향을 받지 않습니다.")
+t("Stamina", "체력")
+t("Stamina represents your physical fatigue.  Most physical abilities consume it.", "체력은 당신의 육체적 피로도를 나타냅니다. 대부분의 물리 기술은 체력을 소모합니다.")
+t("Mana", "마나")
+t("Mana represents your reserve of magical energies. Most spells cast consume mana and each sustained spell reduces your maximum mana.", "마나는 당신이 보유한 마법적 에너지의 양을 나타냅니다. 대부분의 주문은 마나를 소모하고 유지형 주문은 당신의 최대 마나를 감소시킵니다.")
+t("Equilibrium", "평정")
+t("Equilibrium represents your standing in the grand balance of nature. The closer it is to 0 the more balanced you are. Being out of equilibrium will adversely affect your ability to use Wild Gifts.", "평정은 위대한 자연의 균형 속에서 당신의 상태를 나타냅니다. 평정이 0에 가까울수록 당신이 균형을 잘 잡고 있다는 것을 의미합니다. 균형을 깨트리는 것은 자연의 권능을 사용하는 데 악영향을 미칠 것입니다.")
+t("%d (%d%%%% fail)", "%d (%d%%%% 실패)")
+t("Vim", "원기")
+t("Vim represents the amount of life energy/souls you have stolen. Each corruption talent requires some.", "원기는 당신이 강탈한 생명령과 영혼의 양을 나타냅니다. 타락 기술은 사용하는데 일정량의 원기를 요구합니다.")
+t("Positive energy", "양기")
+t("Positive energy represents your reserve of positive power. It slowly increases.", "양기는 당신이 가진 태양의 힘의 크기를 나타냅니다. 천천히 회복됩니다.")
+t("Negative energy", "음기")
+t("Negative energy represents your reserve of negative power. It slowly increases.", "음기는 당신이 가진 달의 힘의 크기를 나타냅니다. 천천히 회복됩니다.")
+t("Hate", "증오")
+t("Hate represents your soul's primal antipathy towards others.  It generally decreases whenever you have no outlet for your rage, and increases when you are damaged or destroy others.", "증오는 타인에 대한 당신 영혼의 원초적 반감을 나타냅니다. 증오는 당신이 분노를 향할 대상이 없으면 감소하고 피해를 입거나 적을 처치하면 증가합니다.")
+t("Paradox", "괴리")
+t("Paradox represents how much damage you've done to the space-time continuum. A high Paradox score makes Chronomancy less reliable and more dangerous to use but also amplifies its effects.", "괴리는 당신이 시공의 연속성에 얼마나 많은 피해를 주었는지 나타냅니다. 높은 괴리 수치는 시공 주문을 불안정하고 위험하게 만들지만 동시에 시공 주문의 위력을 증폭시킵니다.")
+t("%d/%d(anom: %s)", "%d/%d(역발: %s)")
+t("Psi", "염력")
+t("Psi represents your reserve of psychic energy.", "염력은 당신이 가진 초능력의 상태를 나타냅니다.")
+t("Souls", "원혼")
+t("This is the number of soul fragments you have extracted from your foes for your own use.", "원혼은 당신이 적에게서 추출한 영혼 파편의 수를 나타냅니다.")
 
 
 ------------------------------------------------
@@ -7530,21 +7669,150 @@ section "game/modules/tome/data/talents.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/celestial.lua"
 
+t("Your devotion grants you additional protection.", "태양에 대한 당신의 헌신은 강력한 보호를 제공합니다.")
+t("guardian", "수호자")
+t("Chant the glory of the Sun.", "태양의 영광을 노래합니다.")
+t("chants", "태양의 성가")
+t("Invoke the power of the light to heal and mend.", "빛의 힘을 일으켜 상처를 치유하고 복원합니다.")
+t("light", "빛")
+t("Your devotion allows you to combat your foes with indomitable determination.", "태양에 대한 당신의 헌신은 당신이 불굴의 의지를 가지고 적과 맞서게 해줍니다.")
+t("combat", "빛의 전투")
+t("You channel the light of the sun through your body.", "당신의 몸을 통해 태양의 빛을 뿜어냅니다.")
+t("radiance", "광휘")
+t("Forgo your shield for the chance to crush your foes with a mighty two handed weapon.", "강력한 양손 무기로 적을 분쇄하기 위해 방패를 버립니다.")
+t("crusader", "성전사")
+t("sunlight", "태양광")
+t("Summon the power of the Sun to burn your foes.", "태양의 힘을 소환해 적을 불태웁니다.")
+t("sun", "태양")
+t("Bind the brilliant powers into glyphs to trap your foes.", "태양의 힘을 문양에 불어넣어 적을 함정에 빠트립니다.")
+t("glyphs", "빛의 문양")
+t("Stand between the darkness and the light, harnessing both.", "어둠과 빛 사이에서 두 힘을 모두 사용합니다.")
+t("twilight", "황혼")
+t("Call the fury of the Stars and the Moon to destroy your foes.", "별과 달의 분노를 불러와 적을 파괴합니다.")
+t("star fury", "별의 분노")
+t("Chant the glory of the Moon.", "달의 영광을 노래합니다.")
+t("hymns", "달의 찬가")
+t("Bind the power of the Moon into circles at your feet.", "달의 힘을 불어넣은 마법진을 발 밑에 그립니다.")
+t("circles", "달의 마법진")
+t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "태양과 달이 맞닿고 세계의 에너지가 균형을 이루는 순간인 일식은 진실의 순간입니다. 뛰어난 아노리실은 이 힘을 집중시켜 파괴적인 힘을 발산할 수 있습니다.")
+t("eclipse", "일식")
+t("Other celestial powers.", "다른 천공의 힘.")
+t("Various celestial talents.", "다양한 천공 계열의 기술.")
+t("celestial", "천공")
+t("other", "다른")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/chants.lua"
 
+t("Chant of Fortitude", "불굴의 성가")
+t([[You chant the glory of the Sun, granting you %d Mental Save and increasing your maximum life by %0.1f%% (Currently:  %d).
+		You may only have one Chant active at once.
+		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 정신 내성을 %d 증가시키고 최대 체력을 %0.1f%% 증가시킵니다(현재: %d).
+		한 번에 하나의 성가만 활성화할 수 있습니다.
+		당신의 주문력에 따라 효과가 강화됩니다.]])
+t("Chant of Fortress", "인내의 성가")
+t([[You chant the glory of the Sun, granting you %d%% physical damage resistance, %d physical save, %d armour and +15%% armour hardiness.
+		You may only have one Chant active at once.
+		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 물리 저항을 %d%%, 물리 내성을 %d, 방어력을 %d, 방어 효율을 15%% 증가시킵니다.
+		한 번에 하나의 성가만 활성화할 수 있습니다.
+		당신의 주문력에 따라 효과가 강화됩니다.]])
+t("Chant of Resistance", "저항의 성가")
+t([[You chant the glory of the Sun, granting you %d%% fire, lightning, acid and cold damage resistance, %d spell save and reduces the damage from enemies 3 or more spaces away by %d%%.
+	You may only have one Chant active at once.
+	The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 화염/냉기/전기/산성 저항을 %d%%, 주문 내성을 %d 증가시키며 3칸 이상 떨어진 적으로부터 받는 피해를 %d%% 감소시킵니다.
+	한 번에 하나의 성가만 활성화할 수 있습니다.
+	당신의 주문력에 따라 효과가 강화됩니다.]])
+t("Chant of Light", "빛의 성가")
+t([[You chant the glory of the Sun, empowering your light and fire elemental attacks so that they do %d%% additional damage.
+		In addition, this talent surrounds you with a shield of light, dealing %0.1f light damage to anything that hits you in melee.
+		Your lite radius is also increased by %d.
+		You may only have one Chant active at once and this Chant costs less power to sustain.
+		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 화염, 빛 피해를 %d%% 증가시킵니다.
+		추가로 이 기술은 당신을 빛의 방패로 보호해 근접 공격하는 적에게 %0.1f 빛 피해를 줍니다.
+		광원 반경이 %d 증가합니다.
+		한 번에 하나의 성가만 활성화할 수 있고 이 성가는 유지 비용이 낮습니다.
+		당신의 주문력에 따라 효과가 강화됩니다.]])
+t([[You have learned to sing the praises of the Sun, in the form of three defensive Chants.
+			Chant of Fortitude: Increases your mental save by %d and maximum life by %d%%.
+			Chant of Fortress: Increases your physical save by %d, your physical resistance by %d%%, your armour by %d and your armour hardiness by 15%%.
+			Chant of Resistance: Increases you spell save by %d, your fire/cold/lightning/acid resistances by %d%% and reduces all damage that comes from distant enemies (3 spaces or more) by %d%%.
+			You may only have one Chant active at a time.]], [[당신은 태양을 찬미하는 3가지 방어적 성향의 성가를 배웠습니다.
+			불굴의 성가: 정신 내성을 %d 증가시키고 최대 체력을 %d%% 증가시킵니다.
+			인내의 성가: 물리 저항을 %d%%, 물리 내성을 %d, 방어력을 %d, 방어 효율을 15%% 증가시킵니다.
+			저항의 성가: 화염/냉기/전기/산성 저항을 %d%%, 주문 내성을 %d 증가시키며 3칸 이상 떨어진 적으로부터 받는 피해를 %d%% 감소시킵니다.
+			한 번에 하나의 성가만 활성화할 수 있습니다.]], {1,2,4,3,5,7,6,8})
+t([[Your Chants now bathe you in a cloak of light, which increases your stamina and mana regenerations by %0.2f per turn and does %0.2f light damage to anyone who hits you in melee.
+		These values scale with your Spellpower.]], [[당신의 성가가 당신을 빛의 망토로 감싸 안습니다. 체력과 마나 재생이 %0.2f 증가하고 근접 공격하는 적에게 %0.2f 빛 피해를 줍니다.
+		당신의 주문력에 따라 효과가 강화됩니다.]])
+t("%s is cured!", "%s 정화되었습니다!", nil, {"이"})
+t([[Your skill at Chanting now extends the cloak of light, increasing your light radius by %d.
+		Also, when you start a new Chant, you will be cured of all cross-tier effects and cured of up to %d debuffs.
+		Chant of Fortitude cures mental effects.
+		Chant of Fortress cures physical effects.
+		Chant of Resistance cures magical effects.]], [[당신의 숙련된 성가가 빛의 망토를 멀리 퍼트려 광원 반경을 %d 증가시킵니다.
+		추가로 당신이 새로운 성가를 부르기 시작할때마다 모든 압도 효과를 정화하고 부정적 효과를 최대 %d 개 정화합니다.
+		불굴의 성가는 정신 효과를 정화합니다.
+		인내의 성가는 물리 효과를 정화합니다.
+		저항의 성가는 마법 효과를 정화합니다.]])
+t([[Your passion for singing the praises of the Sun reaches its zenith.
+		Your Chanting now increases your light and fire damage by %d%% and up to %d times per turn, when you are hit by a weapon attack, you will gain %0.1f Positive.
+		These values scale with your Spellpower.]], [[태양을 찬미하는 당신의 열정은 절정에 이르렀습니다.
+		화염, 빛 피해가 %d%% 증가하고 한 턴에 최대 %d 번 무기에 공격당할 때마다 양기를 %0.1f 회복합니다.
+		당신의 주문력에 따라 효과가 강화됩니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/circles.lua"
 
+t("Circle of Shifting Shadows", "변화하는 그림자의 마법진")
+t([[Creates a circle of radius %d at your feet; the circle increases your defense and all saves by %d while dealing %0.2f darkness damage per turn to everyone else within its radius. The circle lasts %d turns.
+		The damage will increase with your Spellpower.]], [[발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 당신의 회피도와 모든 내성을 %d 증가시키고 매 턴 당신을 제외한 모든 대상에게 %0.2f 암흑 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.
+		당신의 주문력에 따라 효과가 강화됩니다.]])
+t("Circle of Sanctity", "신성의 마법진")
+t("Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 당신을 침묵 효과로부터 보호하고 마법진에 진입하는 당신을 제외한 모든 대상을 침묵시키고 %d 빛 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.")
+t("Circle of Warding", "수호의 마법진")
+t([[Creates a circle of radius %d at your feet; the circle slows incoming projectiles by %d%% and attempts to push all creatures other than yourself out of its radius, inflicting %0.2f light damage and %0.2f darkness damage per turn as it does so.  The circle lasts %d turns.
+		The effects will increase with your Spellpower.]], [[발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 마법진으로 들어오는 모든 투사체를 %d%% 감속시키고 당신을 제외한 모든 대상을 밀어내고 매 턴 %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.
+		당신의 주문력에 따라 효과가 강화됩니다.]])
+t("Celestial Surge", "천공 쇄도")
+t([[Conjure a surge of celestial power through your circles. Any foe standing within one of your circles will be slowed by %d%% for %d turns and take %d light and %d darkness damage.
+		Residual power from the surge will emanate from your circles for %d turns; each circle you stand in will increase your celestial resources.
+		Shifting Shadows: +1 negative.
+		Sanctity: +1 postive.
+		Warding: +0.5 postive and negative.]], [[당신의 마법진에 쇄도하는 천공의 힘을 불어넣습니다. 마법진 위에 서 있는 모든 적을 %d 턴간 %d%% 감속시키고 %d 빛 피해와 %d 암흑 피해를 줍니다.
+		천공 쇄도후 잔류 동력은 마법진에서 %d 턴간 방출됩니다. 잔류 동력은 당신의 천공 자원을 회복시킵니다.
+		변화하는 그림자: +1 음기.
+		신성: +1 양기.
+		수호: +0.5 양기와 음기.]], {2,1,3,4,5})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/combat.lua"
 
+t("Weapon of Light", "빛의 무기")
+t([[Infuse your weapon with the power of the Sun, adding %0.1f light damage on each melee hit.
+		Additionally, if you have a temporary damage shield active, melee hits will increase its power by %d once per turn.
+		The damage dealt and shield bonus will increase with your Spellpower.]], [[태양의 힘을 당신의 무기에 주입하여 근접 공격시 %0.1f 빛 피해를 추가합니다.
+		추가로 당신에게 피해 흡수 보호막이 활성화된 상태면 매 턴당 1번, 근접 공격시 보호막 수치를 %d 증가시킵니다.
+		당신의 주문력에 따라 효과가 강화됩니다.]])
+t("Wave of Power", "힘의 파동")
+t("#CRIMSON#%sstrikes twice with Wave of Power!#NORMAL#", "#CRIMSON#%s 힘의 파동으로 2번 공격합니다!#NORMAL#", nil, {"이"})
+t([[In a pure display of power, you project a ranged melee attack, doing %d%% weapon damage.
+		If the target is outside of melee range, you have a chance to project a second attack against it for %d%% weapon damage.
+		The second strike chance (which increases with distance) is %0.1f%% at range 2 and %0.1f%% at the maximum range of %d.
+		The range will increase with your Strength.]], [[순수한 힘의 과시를 위해 원거리 근접공격을 시도하여 %d%% 무기 피해를 줍니다.
+		만약 대상이 근접한 상태가 아니라면 %d%% 무기 피해를 주는 추가 공격 확률이 있습니다.
+		추가 공격 확률은 거리에 따라 증가하여 2 거리에서 %0.1f%% 최대 거리 %d 에서 %0.1f%% 입니다.
+		당신의 힘에 따라 사거리가 증가합니다.]])
+t("Weapon of Wrath", "분노의 무기")
+t([[Your weapon attacks burn with righteous fury, dealing %d%% of your lost HP as additional Fire damage (up to %d, Current:  %d).
+		Targets struck are also afflicted with a Martyrdom effect that causes them to take %d%% of all damage they deal for 4 turns.
+		The bonus damage can only occur once per turn.]], [[당신의 무기가 정의로운 분노로 타올라 근접 공격시 당신의 잃은 체력에 비례해 %d%% 화염 피해를 추가합니다.(최대 %d, 현재: %d).
+		피해를 받은 대상은 4턴간 순교 상태에 빠져 대상이 가한 피해의 %d%% 에 해당하는 반사 피해를 받습니다.
+		추가 피해는 한 턴에 한번만 발생합니다.]])
+t("Second Life", "두번째 생명")
+t("Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for %d.", "체력을 1 미만으로 감소시키는 공격은 두번쨰 생명을 발동시킵니다. 두번째 생명이 발동되면 두번째 생명을 비활성화하고 당신의 체력을 1로 설정한 뒤 체력을 %d 회복시킵니다.")
 
 
 ------------------------------------------------
@@ -7823,6 +8091,7 @@ t("%s resists the disarm!", "%s 무장해제에 저항합니다!", nil, {"가"})
 ------------------------------------------------
 section "game/modules/tome/data/talents/cunning/artifice.lua"
 
+t("%s is cured!", "%s 정화되었습니다!", nil, {"이"})
 t("You cannot move!", "움직일 수 없습니다!")
 
 
@@ -8169,11 +8438,13 @@ section "game/modules/tome/data/talents/gifts/venom-drake.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/horrors.lua"
 
+t("other", "다른")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/inscriptions.lua"
 
+t("%s is cured!", "%s 정화되었습니다!", nil, {"이"})
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
 
@@ -8185,7 +8456,8 @@ section "game/modules/tome/data/talents/misc/misc.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/npcs.lua"
 
-t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {"가"}, {"가"})
+t("other", "다른")
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {"가"})
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 t("You cannot be stealthy with such heavy armour on!", "중갑을 장비한 채로는 은신할 수 없습니다!")
 t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.")
@@ -8194,6 +8466,7 @@ t("You require two weapons to use this talent.", "이 기술을 사용하기 위
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/objects.lua"
 
+t("other", "다른")
 t("You require a shield to use this talent.", "이 기술을 사용하려면 방패가 필요합니다.")
 
 
@@ -8250,7 +8523,7 @@ section "game/modules/tome/data/talents/psionic/dream-forge.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/dream-smith.lua"
 
-t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {"가"}, {"가"})
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {"가"})
 
 
 ------------------------------------------------
@@ -8266,6 +8539,7 @@ section "game/modules/tome/data/talents/psionic/feedback.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/finer-energy-manipulations.lua"
 
+t("%s is cured!", "%s 정화되었습니다!", nil, {"이"})
 
 
 ------------------------------------------------
@@ -8321,6 +8595,7 @@ section "game/modules/tome/data/talents/psionic/psi-fighting.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/psionic.lua"
 
+t("other", "다른")
 
 
 ------------------------------------------------
@@ -8523,7 +8798,7 @@ section "game/modules/tome/data/talents/spells/spells.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/staff-combat.lua"
 
-t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {"가"}, {"가"})
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {"가"})
 
 
 ------------------------------------------------
@@ -8565,7 +8840,7 @@ section "game/modules/tome/data/talents/spells/wildfire.lua"
 section "game/modules/tome/data/talents/techniques/2h-assault.lua"
 
 t("Stunning Blow", "기절의 일격")
-t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {"가"}, {"가"})
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {"가"})
 t([[Hit the target twice with your two-handed weapon, doing %d%% damage. Each hit will try to stun the target for %d turns.
 		The stun chance increases with your Physical Power.]], [[양손 무기로 대상을 공격해 %d%% 피해를 줍니다. 매 공격마다 일정 확률로 대상을 %d턴 기절시킵니다.
 		기절 확률은 물리력의 영향을 받아 증가합니다.]])
@@ -8599,14 +8874,14 @@ t([[You enter an aggressive battle stance, increasing Accuracy by %d and Physica
 		광전사 상태에서는 무엇으로도 저지할 수 없습니다. 기절과 속박 저항을 %d%% 얻습니다.
 		명중률은 민첩의 영향을 받아 증가하고 물리력은 힘의 영향을 받아 증가합니다.]])
 t("Warshout", "전투함성")
-t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", {"가"})
-t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", {"가"})
+t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", nil, {"가"})
+t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", nil, {"가"})
 t("You cannot use Warshout without a two-handed weapon!", "양손 무기 없이는 전투함성을 사용할 수 없습니다!")
 t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "전방의 원뿔 범위 %d칸에 전투함성을 외칩니다. 범위 내의 대상은 %d턴 동안 혼란 상태(위력 %d%%)에 빠집니다.", {1,3,2})
 t("Death Blow", "죽음의 일격")
 t("You cannot use Death Blow without a two-handed weapon!", "양손 무기 없이는 죽음의 일격을 사용할 수 없습니다!")
-t("%s feels the pain of the death blow!", "%s 죽음의 일격으로 고통을 느끼고 있습니다!", {"가"})
-t("%s resists the death blow!", "%s 죽음의 일격에 저항합니다!", {"가"})
+t("%s feels the pain of the death blow!", "%s 죽음의 일격으로 고통을 느끼고 있습니다!", nil, {"가"})
+t("%s resists the death blow!", "%s 죽음의 일격에 저항합니다!", nil, {"가"})
 t([[Tries to perform a killing blow, doing %d%% weapon damage and dealing an automatic critical hit. If the target ends up with low enough life (<20%%), it might be instantly killed.
 		At level 4, it drains half your remaining stamina, and uses it to increase the blow damage by 100%% of it.
 		The chance to instantly kill will increase with your Physical Power.]], [[죽음의 일격으로 %d%% 무기 피해와 자동 치명타를 가합니다. 대상의 생명력이 충분히 낮아졌다면(<20%%), 즉시 처치합니다.
@@ -8614,7 +8889,7 @@ t([[Tries to perform a killing blow, doing %d%% weapon damage and dealing an aut
 		즉사 확률은 물리력의 영향을 받아 증가합니다.]])
 t("Stunning Blow", "기절의 일격")
 t("You cannot use Stunning Blow without a two-handed weapon!", "양손 무기 없이는 기절의 일격을 사용할 수 없습니다!")
-t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", {"가"}, {"가"})
+t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {"가"})
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target is stunned for %d turns.
 		The stun chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상은 %d턴 동안 기절합니다.
 		기절 확률은 물리력의 영향을 받아 증가합니다.]])
@@ -8996,8 +9271,8 @@ section "game/modules/tome/data/talents/techniques/field-control.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/techniques/finishing-moves.lua"
 
-t("%s feels the pain of the death blow!", "%s 죽음의 일격으로 고통을 느끼고 있습니다!", {"가"})
-t("%s resists the death blow!", "%s 죽음의 일격에 저항합니다!", {"가"})
+t("%s feels the pain of the death blow!", "%s 죽음의 일격으로 고통을 느끼고 있습니다!", nil, {"가"})
+t("%s resists the death blow!", "%s 죽음의 일격에 저항합니다!", nil, {"가"})
 
 
 ------------------------------------------------
@@ -9057,8 +9332,8 @@ section "game/modules/tome/data/talents/techniques/sniper.lua"
 section "game/modules/tome/data/talents/techniques/strength-of-the-berserker.lua"
 
 t("Warshout", "전투함성")
-t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", {"가"})
-t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", {"가"})
+t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", nil, {"가"})
+t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", nil, {"가"})
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's armour and saves are reduced by %d for %d turns.
 		Also if the target is protected by a temporary damage shield there is %d%% chance to shatter it.
 		Armor reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 방어와 모든 내성이 %d턴 동안 %d 감소합니다.
@@ -9140,6 +9415,7 @@ section "game/modules/tome/data/talents/uber/str.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/uber/uber.lua"
 
+t("other", "다른")
 
 
 ------------------------------------------------
@@ -9817,6 +10093,10 @@ section "game/modules/tome/data/timed_effects/floor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/magical.lua"
 
+t("radiance", "광휘")
+t("sun", "태양")
+t("celestial", "천공")
+t("light", "빛")
 
 
 ------------------------------------------------
@@ -9828,6 +10108,8 @@ section "game/modules/tome/data/timed_effects/mental.lua"
 section "game/modules/tome/data/timed_effects/other.lua"
 
 t("Unstoppable", "저지 불가")
+t("combat", "빛의 전투")
+t("sun", "태양")
 
 
 ------------------------------------------------
@@ -9836,6 +10118,7 @@ section "game/modules/tome/data/timed_effects/physical.lua"
 t("Sunder Armour", "방어구 부수기")
 t("Sunder Arms", "무기 부수기")
 t("Adrenaline Surge", "아드레날린 분출")
+t("light", "빛")
 t("Superb Agility", "우월한 재주")
 t("Garrote", "교살")
 t("Marked for Death", "죽음의 표식")
@@ -11626,6 +11909,7 @@ section "game/modules/tome/dialogs/ShowEquipment.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowIngredients.lua"
 
+t("Quantity", "수량")
 
 
 ------------------------------------------------
@@ -11677,6 +11961,7 @@ t("Passive", "지속형")
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/AdvanceActor.lua"
 
+t("Accept", "수락")
 t("Cancel", "취소")
 
 
