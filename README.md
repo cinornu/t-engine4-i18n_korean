@@ -109,7 +109,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 **
 "game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 **
-"game/modules/tome/data/talents/cunning/lethality.lua" beomkki ??
+"game/modules/tome/data/talents/cunning/lethality.lua" beomkki 완 **
 
 "game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
 "game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
@@ -133,7 +133,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/dlcs/tome-cults/data/talents/demented/slow-death.lua" beomkki 완
 
-"game/modules/tome/data/talents/celestial/chants.lua" Highseeker 완
+"game/modules/tome/data/talents/celestial/chants.lua" Highseeker 완 **
 
 "game/modules/tome/data/talents/celestial/circles.lua" Highseeker 완
 
@@ -151,6 +151,21 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/talents/celestial/eclipse.lua" Highseeker 완
 
 "game/modules/tome/data/talents/celestial/glyphs.lua" Highseeker **
+
+"game/modules/tome/data/talents/celestial/guardian.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/hymns.lua" Highseeker 완 **
+
+"game/modules/tome/data/talents/celestial/light.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/other.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/radiance.lua" Highseeker 완
+
+"game/modules/tome/data/talents/celestial/star-fury.lua" Highseeker 완
+
+"game/modules/tome/data/talents/cunning/poisons.lua" beomkki 완 **
+"game/modules/tome/data/talents/cunning/scoundrel.lua" beomkki ???
 
 
 
