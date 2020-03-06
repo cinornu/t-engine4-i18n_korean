@@ -175,7 +175,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/talents/spells/air.lua" beomkki 완
 "game/modules/tome/data/talents/spells/fire.lua" beomkki 완
-"game/modules/tome/data/talents/spells/ice.lua" beomkki ??
+"game/modules/tome/data/talents/spells/ice.lua" beomkki 완
 
 "game/modules/tome/class/interface/TooltipsData.lua" Highseeker ??
 
