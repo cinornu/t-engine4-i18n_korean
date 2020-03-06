@@ -179,6 +179,8 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/class/interface/TooltipsData.lua" Highseeker ??
 
+"game/modules/tome/data/talents/spells/meta.lua" beomkki 완
+"game/modules/tome/data/talents/spells/aegis.lua" beomkki ???
 
 # 작업시 유의 사항
 
