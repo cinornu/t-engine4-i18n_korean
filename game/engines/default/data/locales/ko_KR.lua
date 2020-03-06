@@ -289,6 +289,7 @@ t("%s is cured!", "%s 정화되었습니다!", nil, {"이"})
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -357,6 +358,8 @@ section "game/dlcs/tome-ashes-urhrok/data/talents/misc/races.lua"
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
 
+t("fire", "화염")
+t("arcane", "비전")
 
 
 ------------------------------------------------
@@ -789,6 +792,11 @@ section "game/dlcs/tome-cults/data/quests/start-cults.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua"
 
+t([[You harness the chaos created by high insanity.
+		Each time you trigger an insanity chaotic effect with a power higher than %d or lower than -%d you gain a chaos orb for 10 turns (this effect can only happen once per turn).
+		Each orb increases your damage by 3%% and can stack up to %d.]], [[harness the chaos created by high insanity.
+		Each time you trigger an insanity chaotic effect with a power higher than %d or lower than -%d you gain a chaos orb for 10 turns (this effect can only happen once per turn).
+		Each orb increases your damage by 3%% and can stack up to %d.]])
 
 
 ------------------------------------------------
@@ -1043,6 +1051,7 @@ t([[You extend your tentacle to grab a distant target, pulling it to you.
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/demented/timethief.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
 
@@ -1060,11 +1069,13 @@ t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #C
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/misc/misc.lua"
 
+t("golem", "골렘")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/misc/races.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
 
@@ -1083,6 +1094,8 @@ t("Inner Tentacles", "내면의 촉수")
 t("Dissolved Face", "녹아내린 얼굴")
 t("Glimpse of True Horror", "진정한 공포의 낌새")
 t("Writhing Hairs", "뒤틀린 머리카락")
+t("stone", "암석")
+t("temporal", "시간")
 t("Defiled Blood", "오염된 피")
 
 
@@ -1950,6 +1963,7 @@ section "game/dlcs/tome-orcs/data/general/stores/orcs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/traps/ritch.lua"
 
+t("trap", "함정")
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
 
@@ -2185,6 +2199,7 @@ section "game/dlcs/tome-orcs/data/talents/misc/npcs.lua"
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
 		Accuracy reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 명중률이 %d턴 동안 %d 감소합니다.
 		명중률 감소 확률은 물리력의 영향을 받아 증가합니다.]], {1,3,2,4})
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!")
 
 
@@ -2239,6 +2254,7 @@ section "game/dlcs/tome-orcs/data/talents/spells/other-technomancy.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/spells/spells.lua"
 
+t("spell", "주문")
 
 
 ------------------------------------------------
@@ -2274,6 +2290,7 @@ section "game/dlcs/tome-orcs/data/talents/steam/avoidance.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/battle-machinery.lua"
 
+t("trap", "함정")
 
 
 ------------------------------------------------
@@ -2377,6 +2394,7 @@ section "game/dlcs/tome-orcs/data/talents/steam/mechstar.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/other.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -2408,6 +2426,7 @@ section "game/dlcs/tome-orcs/data/talents/steam/thoughts-of-iron.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/turrets.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -2428,6 +2447,7 @@ section "game/dlcs/tome-orcs/data/talents/uber/dex.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/mag.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -2450,6 +2470,9 @@ section "game/dlcs/tome-orcs/data/timed_effects/magical.lua"
 
 t("light", "빛")
 t("celestial", "천공")
+t("arcane", "비전")
+t("temporal", "시간")
+t("spell", "주문")
 
 
 ------------------------------------------------
@@ -2462,14 +2485,18 @@ section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
 
 t("sun", "태양")
 t("other", "다른")
+t("spell", "주문")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/physical.lua"
 
 t("Cloak", "망토")
+t("water", "물")
+t("ice", "얼음")
 t("Marked for Death", "죽음의 표식")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했습니다!#LAST#", nil, {"가"})
+t("fire", "화염")
 
 
 ------------------------------------------------
@@ -2655,6 +2682,7 @@ section "game/dlcs/tome-orcs/data/zones/krimbul/grids.lua"
 
 t("trigger", "작동 장치")
 t("floor", "바닥")
+t("water", "물")
 
 
 ------------------------------------------------
@@ -3246,12 +3274,12 @@ t("Scroll map mode", "화면 이동 모드")
 ------------------------------------------------
 section "game/engines/default/data/keybinds/inventory.lua"
 
-t("Show inventory", "가방 보기")
-t("Show equipment", "장비창 보기")
+t("Show inventory", "소지품 보기")
+t("Show equipment", "장비품 보기")
 t("Pickup items", "물건 줍기")
 t("Drop items", "물건 버리기")
-t("Wield/wear items", "물건 들기/착용하기")
-t("Takeoff items", "물건 탈착하기")
+t("Wield/wear items", "장비 착용하기")
+t("Takeoff items", "장비 탈착하기")
 t("Use items", "물건 사용하기")
 t("Quick switch weapons set", "무기 세트 빠른 전환")
 
@@ -3374,7 +3402,7 @@ t("Test", "테스트")
 ------------------------------------------------
 section "game/engines/default/engine/Module.lua"
 
-t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로파일로 교체됨)", nil, {"이"})
+t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로필로 교체됨)", nil, {"이"})
 
 
 ------------------------------------------------
@@ -3659,16 +3687,21 @@ t("Gesture", "제스쳐")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowAchievements.lua"
 
+t("Achievements(%s/%s)", "도전과제(%s/%s)")
+t("Achievement", "도전과제")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowEquipInven.lua"
 
+t("Inventory", "소지품")
+t("Equipment", "장비")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowEquipment.lua"
 
+t("Equipment", "장비")
 
 
 ------------------------------------------------
@@ -3679,6 +3712,7 @@ section "game/engines/default/engine/dialogs/ShowErrorStack.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowInventory.lua"
 
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
@@ -3694,6 +3728,7 @@ section "game/engines/default/engine/dialogs/ShowQuests.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowStore.lua"
 
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
@@ -3828,6 +3863,7 @@ section "game/engines/default/engine/ui/Gestures.lua"
 ------------------------------------------------
 section "game/engines/default/engine/ui/Inventory.lua"
 
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
@@ -3890,6 +3926,7 @@ t("floor", "바닥")
 section "game/engines/default/modules/boot/data/general/grids/water.lua"
 
 t("floor", "바닥")
+t("water", "물")
 
 
 ------------------------------------------------
@@ -3911,6 +3948,10 @@ t("giant", "거인")
 ------------------------------------------------
 section "game/engines/default/modules/boot/data/talents.lua"
 
+t("Flame", "불꽃")
+t("Fireflash", "불꽃섬광")
+t("Lightning", "번개")
+t("Flameshock", "불꽃충격")
 
 
 ------------------------------------------------
@@ -4144,6 +4185,7 @@ t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 
 t("Kill (%d)!", "사망! (%d)!")
 t("Message Log", "메시지 로그")
 t("Show Achievements", "도전과제 확인")
+t("Inventory", "소지품")
 t("Character Sheet", "캐릭터 시트")
 t("Game Options", "게임 설정")
 
@@ -4159,11 +4201,13 @@ t("Accept", "수락")
 ------------------------------------------------
 section "game/modules/tome/class/Grid.lua"
 
+t("%s's %s", "%s 의 %s")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/MapEffects.lua"
 
+t("%s's %s", "%s 의 %s")
 
 
 ------------------------------------------------
@@ -4196,6 +4240,7 @@ section "game/modules/tome/class/Player.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Projectile.lua"
 
+t("%s's %s", "%s 의 %s")
 
 
 ------------------------------------------------
@@ -4209,6 +4254,8 @@ t("Sell", "판매")
 ------------------------------------------------
 section "game/modules/tome/class/Trap.lua"
 
+t("%s's %s", "%s 의 %s")
+t("trap", "함정")
 
 
 ------------------------------------------------
@@ -4291,6 +4338,244 @@ section "game/modules/tome/class/interface/PlayerExplore.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/TooltipsData.lua"
 
+t([[#GOLD#Gold#LAST#
+Money!
+With gold you can buy items in the various stores in town.
+You can gain money by looting it from your foes, by selling items and by doing some quests.
+]], [[#GOLD#골드#LAST#
+골드!
+마을의 다양한 상점에서 아이템을 골드로 구매할 수 있습니다.
+골드는 적을 처치하거나 아이템을 판매하거나 임무를 수행하여 얻을 수 있습니다.You can gain money by looting it from your foes, by selling items and by doing some quests.
+]])
+t([[#GOLD#Lives#LAST#
+How many lives you have and how many you lost.
+Your total number of lives depends on the permadeath setting you choose.
+You may find other ways to save yourself but they are not considered extra lives.
+]], [[#GOLD#목숨#LAST#
+남은 목숨의 수와 사망한 횟수입니다.
+총 목숨의 수는 당신이 선택한 퍼마데스 설정에 따라 달라집니다.
+부활하기 위한 다른 방법을 찾을수도 있지만 그것들은 여분 목숨으로 계산되지 않습니다.
+]])
+t([[#GOLD#Blood of Life#LAST#
+The Blood of Life courses through your veins.
+This can save you from death and restore you to full health (once) if you would otherwise die.
+]], [[#GOLD#생명의 피#LAST#
+생명의 피가 혈관을 타고 흐르고 있습니다.
+생명의 피 외의 다른 부활수단이 없다면 당신을 죽음으로부터 구원하고 생명력을 최대로 회복시켜줍니다(한번만).
+]])
+t([[#GOLD#Life#LAST#
+This is your life force, which is reduced each time you take damage.
+Normally, you will die if this drops below zero, though some effects will allow you survive with negative life.
+Death is usually permanent so beware!
+It is increased by Constitution.
+]], [[#GOLD#생명력#LAST#
+피해를 받으면 감소하는 생명력입니다.
+일반적으로 생명력이 0이 되면 사망하지만 몇몇 효과로 생명력이 음수인 상태로 살아남을 수 있습니다.
+죽음은 보통 영구적이기 때문에 조심하십시오!.
+체격에 따라 증가합니다.
+]])
+t([[#GOLD#Damage shields#LAST#
+Various talents, items and powers can grant you a temporary damage shield.
+Each works in a distinct manner, but will usually intercept a certain amount of damage that would otherwise hit you before crumbling.
+]], [[#GOLD#피해 흡수 보호막#LAST#
+다양한 기술, 아이템과 능력을 통해 일시적인 피해 흡수 보호막을 얻을수 있습니다.
+각각의 보호막은 고유한 방식으로 작동하지만, 일반적으로 파괴되기 전에 받는 피해를 흡수합니다.
+]])
+t([[#GOLD#Unnatrual Body Regeneration#LAST#
+Your Unnatural Body talent allows you to feed off the life of your fallen foes.
+Each time you kill a creature your maximum regeneration pool increases and each turn some of it transfers into your own life.
+]], [[#GOLD#저주받은 신체 재생#LAST#
+저주받은 신체는 당신이 처치한 적의 생명력을 갈취할 수 있게 해줍니다.
+적을 처치할 때마다 회복량을 저장하고 매 턴 저장한 회복량 일부를 생명력으로 회복합니다.
+]])
+t([[#GOLD#Life Regeneration#LAST#
+How much life you regenerate per turn.
+This value can be improved with spells, talents, infusions, equipment.
+]], [[#GOLD#생명력 재생#LAST#
+매 턴당 회복하는 생명력의 양입니다.
+이 수치는 주문, 기술, 주입물, 장비로 증가할 수 있습니다.
+]])
+t([[#GOLD#Healing mod#LAST#
+This represents how effective healing is for you.
+All healing values are multiplied by this value (including life regeneration).
+It is increased by Constitution.
+]], [[#GOLD#치유 효율#LAST#
+치유 효과의 효율을 나타냅니다.
+생명력 재생을 포함한 모든 회복은 이 수치의 영향을 받아 증가합니다.
+체격에 따라 증가합니다.
+]])
+t([[#GOLD#Air#LAST#
+The breath counter only appears when you are suffocating.
+If it reaches zero you will die. Being stuck in a wall, being in deep water, ... all those kinds of situations will decrease your air.
+When you come back into a breathable atmosphere you will slowly regain your air level.
+]], [[#GOLD#호흡#LAST#
+이 수치는 숨을 쉴 수없을 때에만 나타납니다.
+호흡이 0이 되면 사망합니다. 벽에 끼이거나 잠수하는 것을 비롯한 여러 상황은 호흡 수치를 감소시킵니다.
+호흡 가능한 공간으로 돌아오면 호흡이 천천히 회복됩니다.
+]])
+t([[#GOLD#Stamina#LAST#
+Stamina represents your physical fatigue. Each physical ability used reduces it.
+It regenerates slowly over time or when resting.
+It is increased by Willpower.
+]], [[#GOLD#체력#LAST#
+체력은 당신의 육체적 피로도를 나타냅니다. 대부분의 물리 기술은 체력을 소모합니다.
+시간이 지남에 따라 천천히 회복됩니다.
+의지에 따라 증가합니다.
+]])
+t([[#GOLD#Mana#LAST#
+Mana represents your reserve of magical energies. Each spell cast consumes mana and each sustained spell reduces your maximum mana.
+It is increased by Willpower.
+]], [[#GOLD#마나#LAST#
+마나는 당신이 보유한 마법적 에너지의 양을 나타냅니다. 대부분의 주문은 마나를 소모하고 유지형 주문은 당신의 최대 마나를 감소시킵니다.
+의지에 따라 증가합니다.
+]])
+t([[#GOLD#Positive Energy#LAST#
+Positive energy represents your reserve of positive "celestial" power, most closely associated with the Sun.
+]], [[#GOLD#양기#LAST#
+양기는 당신이 보유한 태양과 밀접한 연관을 지닌 긍정적 "천공"의 힘을 나타냅니다.
+]])
+t([[#GOLD#Negative Energy#LAST#
+Negative energy represents your reserve of negative "celestial" power, most closely associated with the Moon.
+]], [[#GOLD#음기#LAST#
+양기는 당신이 보유한 달과 밀접한 연관을 지닌 부정적 "천공"의 힘을 나타냅니다.
+]])
+t([[#GOLD#Vim#LAST#
+Vim represents the amount of life energy you control. Each corruption talent requires some.
+It does not regenerate naturally; you need to drain it from yourself or your victims.
+Each time you kill a creature you gain 30% of your Willpower + 1 as Vim.  This value is multiplied by half the rank of the creature.
+If you can't pay for the Vim cost of a talent you may instead pay with life at a rate of 200% of the Vim cost.
+]], [[#GOLD#원기#LAST#
+원기는 당신이 제어중인 생명 에너지의 양을 나타냅니다. 타락 기술은 사용하는데 일정량의 원기를 요구합니다.
+원기는 자연적으로 회복되지 않기 때문에 적이나 스스로에게서 흡수해야 합니다.
+적을 처치할때마다 의지의 30%+1의 원기를 회복합니다. 원기 회복량은 적의 희귀도에 따라 증가합니다.
+기술을 사용하는데 필요한 원기 비용이 부족하다면 원기 비용의 2배에 해당하는 생명력을 지불하고 사용할 수 있습니다.
+]])
+t([[#GOLD#Equilibrium#LAST#
+Equilibrium reflects your standing in the grand balance of nature and how easily you can access Wild Gifts.
+The closer it is to 0 the more in-balance you are.
+Being too far out of balance may cause your Wild Gifts to fail when called upon.
+]], [[#GOLD#평정#LAST#
+평정은 위대한 자연의 균형 속에서 당신의 상태를 나타내고 자연의 권능을 얼마나 쉽게 사용할 수 있는지를 나타냅니다.
+평정이 0에 가까울수록 당신이 균형을 잘 잡고 있다는 것을 의미합니다.
+균형이 깨진 상태에서는 자연의 권능을 사용하는데 실패할 수 있습니다.
+]])
+t([[#GOLD#Hate#LAST#
+Hate represents your inner rage against all that lives and dares face you.
+It is replenished by killing creatures and through the application of your talents.
+All afflicted talents are based on Hate, and many are more effective at higher levels of hate.
+]], [[#GOLD#증오#LAST#증오는 타인에 대한 당신 영혼의 원초적 반감을 나타냅니다. 증오는 당신이 분노를 향할 대상이 없으면 감소하고 피해를 입거나 적을 처치하면 증가합니다.
+증오는 당신과 마주하는 모든 생명체에 대한 내면의 분노를 나타냅니다.
+증오는 적을 처치하거나 기술을 사용하여 회복됩니다.
+모든 고통받는 자의 기술을 증오에 기반하며 대부분은 증오가 높을수록 효과적입니다.
+]])
+t([[#GOLD#Paradox#LAST#
+Paradox represents how stable the current timeline is. 
+As your Paradox grows so does your Spellpower, but you may be shifted to a more stable timeline when you attempt to use your magic.
+When your modified Paradox is above 600 the shifts will become more violent.
+Your control over chronomancy spells increases with your Willpower.
+]], [[#GOLD#괴리#LAST#
+괴리는 현재 시간선이 얼마나 안정적인지 나타냅니다.
+괴리가 증가함에 따라 당신의 주문력도 증가하지만 마법을 시전할때 시간선의 변화가 발생할 수도 있습니다.
+조정된 괴리가 600을 초과하면 이러한 변화는 더욱 끔찍해집니다.
+의지에 따라 시공 주문의 제어력이 증가합니다.
+]])
+t([[#GOLD#Psi#LAST#
+Psi represents how much energy your mind can harness. Like matter, it can be neither created nor destroyed.
+It regenerates naturally, though slowly, as you pull minute amounts of heat and kinetic energy from your surroundings.
+To get meaningful amounts back in combat, you must absorb it through shields or various other talents.
+Your capacity for storing energy is determined by your Willpower.
+]], [[#GOLD#염력#LAST#
+염력은 당신의 정신이 이용할 수 있는 에너지의 양을 나타냅니다. 염력은 물질처럼 임의로 생성하거나 파괴되지 않습니다.
+염력은 주변의 미세한 열과 운동 에너지를 이용해 느리지만 천천히 회복됩니다.
+전투에 활용하기 위한 의미있는 수준의 염력을 확보하기 위해선 보호막이나 다른 다양한 기술을 통해 염력을 흡수해야합니다.
+의지에 따라 증가합니다.
+]])
+t([[#GOLD#Feedback#LAST#
+Feedback represents using pain as a means of psionic grounding and it can be used to power feedback abilities.
+Feedback decays at the rate of 10% or 1 per turn (which ever is greater) depending on talents.
+All damage you take from an outside source will increase your Feedback based on to how much of your health is lost and your level.  First level characters gain 100 Feedback when losing 50% health, while 50th level characters gain the same amount when losing 20% health.
+]], [[#GOLD#반작용#LAST#
+반작용은 고통의 정신적 크기를 나타내며 강력한 반작용 능력을 사용하는데 활용됩니다.
+반작용은 매 턴마다 10% 또는 1 중 큰 값만큼 감소합니다.
+외부에서 받은 모든 피해는 반작용을 증가시키며 증가율은 잃은 생명력 양과 레벨에 비례합니다. 1레벨 캐릭터가 반작용 100을 얻기 위해선 생명력의 50%에 해당하는 피해를 받아야하지만 50레벨 캐릭터가 같은 수치를 얻기 위해선 생명력의 20%에 해당하는 피해만 받으면 됩니다.
+]])
+t([[#GOLD#Necrotic Aura#LAST#
+Represents the raw materials for creating undead minions.
+It increases each time you or your minions kill something that is inside the aura radius.
+]], [[#GOLD#원혼#LAST#
+원혼은 언데드 하수인을 생성하는데 필요한 재료를 나타냅니다.Represents the raw materials for creating undead minions.
+사령술의 기운 내에서 적이 죽을때마다 증가합니다.
+]])
+t([[#GOLD#Fortress Energy#LAST#
+The energy of the Sher'Tul Fortress. It is replenished by transmogrifying items and used to power all the Fortress systems.
+]], [[#GOLD#요새 에너지#LAST#
+쉐르'툴 요새에 저장된 에너지의 양입니다. 아이템을 변환하는것으로 회복하고 요새의 시설을 활성화하는데 사용됩니다.
+]])
+t([[#GOLD#Level and experience#LAST#
+Each time you kill a creature that is over your own level - 5 you gain some experience.
+When you reach enough experience you advance to the next level. There is a maximum of 50 levels you can gain.
+Each time you level you gain stat and talent points to use to improve your character.
+]], [[#GOLD#레벨과 경험치#LAST#
+당신보다 레벨이 5 이상 낮은 적을 처치해도 경험치를 얻을 수 없습니다.Each time you kill a creature that is over your own level - 5 you gain some experience.
+다음 레벨에 필요한 충분한 경험치를 획득하면 레벨이 상승하며 최대 50 레벨까지 상승합니다.
+레벨이 상승할 때마다 능력치 점수와 기술 점수를 획득하여 캐릭터를 강화할 수 있습니다.
+]])
+t([[#GOLD#Encumbrance#LAST#
+Each object you carry has an encumbrance value. Your maximum carrying capacity is determined by your strength.
+You cannot move while encumbered; drop some items.
+]], [[#GOLD#무게#LAST#
+당신이 소지한 모든 물품은 고유한 무게를 가지고 있습니다. 힘에 따라 최대 소지 무게가 증가합니다.
+과적 상태에서는 이동이 불가능하고 이동하기 위해선 물품을 버려야합니다.
+]])
+t([[#GOLD#Inscriptions#LAST#
+The people of Eyal have found a way to create herbal infusions and runes that can be inscribed on the skin of a creature.  More exotic types of inscriptions also exist.
+Those inscriptions give the bearer always-accessible powers that can be used an unlimited number of times.
+A simple regeneration infusion is the most common type of infusion, and the use of runes of various types is also common among arcane users.
+]], [[#GOLD#각인#LAST#
+에이얄의 주민들은 피부에 약초 주입물과 룬을 새기는 방법을 찾았고 그중에는 특이한 형태의 각인 역시 존재합니다.
+이러한 각인은 사용자에게 즉각적인 효과를 제공하며 영구적으로 사용할 수 있습니다.
+재생 주입물은 가장 일반적인 형태의 주입물이며 룬을 사용한 다양한 각인은 마법사들 사이에서 널리 활용됩니다.
+]])
+t([[#GOLD#Prodigies#LAST#
+Prodigies are special talents that only the most powerful of characters can acquire.
+All of them require at least 50 in a core stat and many also have other, very specific and/or demanding requirements to learn.
+Players can learn new prodigies at levels 30 and 42.]], [[#GOLD#특수기술#LAST#
+특수기술은 뛰어난 이들만이 배울수 있는 특별한 기술입니다.
+모든 특수기술은 주요 능력치가 50 이상이고 특별한 조건을 만족하면 배울 수 있습니다.
+플레이어는 25레벨과 42레벨에 새로운 특수기술을 배울 수 있습니다.]])
+t([[#GOLD#Item Talents#LAST#
+Some objects bestow additional talents on the wearer or holder.
+These talents work like normal, learned talents, but are lost if the object granting them is taken off or dropped, even for a moment.]], [[#GOLD#아이템 기술#LAST#
+몇몇 물품은 착용자에게 추가적인 기술을 제공합니다.
+이러한 기술은 습득한 기술과 동일하게 작동하지만 기술을 제공하던 물품을 해제하면 기술을 상실합니다.]])
+t([[#GOLD#Activated Talents#LAST#
+Most talents require activation (i.e. time) to use, and create a specific effect when called upon.
+Specific information on each talent appears its tooltip.]], [[#GOLD#발동형 기술#LAST#
+많은 능력은 사용하는데 활성화(즉, 시간)가 필요하고 필요할때 특정한 효과를 발생시킵니다.
+각 기술에 대한 정보는 기술의 툴팁에 표시됩니다.]])
+t([[#GOLD#Instant Talents#LAST#
+Some activated talents take no time to use, being activated with but a thought.
+Unlike most talents, instant talents are never put on cooldown from being stunned, and may be usable when most other talents are not.
+Specific information on each talent appears its tooltip.]], [[#GOLD#즉발형 기술#LAST#
+몇몇 발동형 기술은 사용하는데 시간이 필요하지 않고 단지 생각하는 것만으로 발동합니다.
+대부분의 기술과는 다르게 즉발형 기술은 기절로 재사용 대기시간이 발생하지 않으며 대부분의 기술이 사용 불가능한 상황에서도 사용 가능합니다.
+각 기술에 대한 정보는 기술의 툴팁에 표시됩니다.]])
+t([[#GOLD#Passive Talents#LAST#
+When learned, passive talents permanently alter the user in some way.
+The effects are always present and are usually not dispellable or removable, though other effects may counteract or negate them.
+Specific information on each talent appears its tooltip.]], [[#GOLD#지속형 기술#LAST#
+지속형 기술은 배웠을때 사용자를 영구적으로 변화시킵니다.
+지속형 기술의 효과는 항상 작동하며 다른 효과들과는 다르게 일반적인 방법으로 해제하거나 제거할 수 없습니다.The effects are always present and are usually not dispellable or removable, though other effects may counteract or negate them.
+각 기술에 대한 정보는 기술의 툴팁에 표시됩니다.]])
+t([[#GOLD#Sustained Talents#LAST#
+Sustained talents are turned on and left on.
+While active, a sustained talent produces some effects on the user that stay in effect until the talent is deactivated. Activating most sustained talents require the user to put aside some resources, which become unavailable until the talent is turned off.
+Deactivating a sustained talent causes it to go on cooldown.
+Specific information on each talent appears its tooltip.]], [[#GOLD#유지형 기술#LAST#
+Sustained talents are turned on and left on.
+While active, a sustained talent produces some effects on the user that stay in effect until the talent is deactivated. Activating most sustained talents require the user to put aside some resources, which become unavailable until the talent is turned off.
+Deactivating a sustained talent causes it to go on cooldown.
+Specific information on each talent appears its tooltip.]])
 
 
 ------------------------------------------------
@@ -4511,7 +4796,7 @@ t("Level 40", "레벨 40")
 t("Got a character to level 40.", "캐릭터가 레벨 40이 되었다.")
 t("Level 50", "레벨 50")
 t("Got a character to level 50.", "캐릭터가 레벨 50이 되었다.")
-t("Unstoppable", "저지 불가")
+t("Unstoppable", "저지불가")
 t("Returned from the dead.", "죽음으로부터 돌아왔다.")
 t("Utterly Destroyed", "완전히 파괴되다")
 t("Died on the Eidolon Plane.", "에이돌론의 차원에서 죽었다.")
@@ -5275,6 +5560,7 @@ section "game/modules/tome/data/chats/escort-quest-start.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/escort-quest.lua"
 
+t("spell", "주문")
 
 
 ------------------------------------------------
@@ -5623,7 +5909,11 @@ section "game/modules/tome/data/damage_types.lua"
 
 t("%s(%d blocked)#LAST#", "%s(%d 방어됨)#LAST#")
 t("%s(%d antimagic)#LAST#", "%s(%d 반마법)#LAST#")
+t("arcane", "비전")
 t("light", "빛")
+t("temporal", "시간")
+t("fire", "화염")
+t("ice", "얼음")
 t("%s resists the silence!", "%s 침묵에 저항합니다!", nil, {"가"})
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
@@ -5735,6 +6025,7 @@ section "game/modules/tome/data/general/events/noxious-caldera.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/events/old-battle-field.lua"
 
+t("grave", "묘지")
 
 
 ------------------------------------------------
@@ -5775,11 +6066,13 @@ section "game/modules/tome/data/general/events/sub-vault.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/events/thunderstorm.lua"
 
+t("Thunderstorm", "뇌우")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/tombstones.lua"
 
+t("grave", "묘지")
 
 
 ------------------------------------------------
@@ -5922,6 +6215,7 @@ t("trigger", "작동 장치")
 section "game/modules/tome/data/general/grids/ice.lua"
 
 t("floor", "바닥")
+t("ice", "얼음")
 
 
 ------------------------------------------------
@@ -6073,6 +6367,7 @@ t("open door", "열린 문")
 t("exit to the worldmap", "월드맵으로의 출구")
 t("previous level", "이전 층")
 t("floor", "바닥")
+t("water", "물")
 t("next level", "다음 층")
 
 
@@ -6120,6 +6415,7 @@ section "game/modules/tome/data/general/npcs/cold-drake.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/construct.lua"
 
+t("golem", "골렘")
 
 
 ------------------------------------------------
@@ -6145,6 +6441,7 @@ t("shalore", "샬로레")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/faeros.lua"
 
+t("fire", "화염")
 
 
 ------------------------------------------------
@@ -6155,6 +6452,7 @@ section "game/modules/tome/data/general/npcs/feline.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/fire-drake.lua"
 
+t("fire", "화염")
 
 
 ------------------------------------------------
@@ -6170,6 +6468,7 @@ section "game/modules/tome/data/general/npcs/ghoul.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/gwelgoroth.lua"
 
+t("air", "공기")
 
 
 ------------------------------------------------
@@ -6195,6 +6494,7 @@ section "game/modules/tome/data/general/npcs/horror_aquatic.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/horror_temporal.lua"
 
+t("temporal", "시간")
 
 
 ------------------------------------------------
@@ -6337,6 +6637,7 @@ section "game/modules/tome/data/general/npcs/shertul.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/shivgoroth.lua"
 
+t("ice", "얼음")
 
 
 ------------------------------------------------
@@ -6353,6 +6654,7 @@ section "game/modules/tome/data/general/npcs/snake.lua"
 section "game/modules/tome/data/general/npcs/snow-giant.lua"
 
 t("giant", "거인")
+t("ice", "얼음")
 
 
 ------------------------------------------------
@@ -6363,6 +6665,7 @@ section "game/modules/tome/data/general/npcs/spider.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/storm-drake.lua"
 
+t("storm", "폭풍")
 
 
 ------------------------------------------------
@@ -6380,6 +6683,7 @@ section "game/modules/tome/data/general/npcs/swarm.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/telugoroth.lua"
 
+t("temporal", "시간")
 
 
 ------------------------------------------------
@@ -6478,6 +6782,7 @@ section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -6513,6 +6818,8 @@ section "game/modules/tome/data/general/objects/digger.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/ammo.lua"
 
+t("fire", "화염")
+t("storm", "폭풍")
 
 
 ------------------------------------------------
@@ -6576,6 +6883,9 @@ section "game/modules/tome/data/general/objects/egos/digger.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/gloves.lua"
 
+t("storm", "폭풍")
+t("temporal", "시간")
+t("stone", "암석")
 
 
 ------------------------------------------------
@@ -6617,6 +6927,7 @@ section "game/modules/tome/data/general/objects/egos/massive-armor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/mindstars.lua"
 
+t("nightfall", "황혼")
 
 
 ------------------------------------------------
@@ -6627,18 +6938,23 @@ section "game/modules/tome/data/general/objects/egos/potions.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/ranged.lua"
 
+t("fire", "화염")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/rings.lua"
 
+t("fire", "화염")
 t("light", "빛")
+t("aether", "에테르")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/robe.lua"
 
+t("fire", "화염")
 t("light", "빛")
+t("storm", "폭풍")
 
 
 ------------------------------------------------
@@ -6649,6 +6965,10 @@ section "game/modules/tome/data/general/objects/egos/scrolls.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/shield.lua"
 
+t("fire", "화염")
+t("arcane", "비전")
+t("temporal", "시간")
+t("earth", "대지")
 
 
 ------------------------------------------------
@@ -6670,6 +6990,7 @@ section "game/modules/tome/data/general/objects/egos/torques-powers.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/totems-powers.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -6685,11 +7006,14 @@ section "game/modules/tome/data/general/objects/egos/wands.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/weapon.lua"
 
+t("fire", "화염")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/wizard-hat.lua"
 
+t("aegis", "수호")
+t("fire", "화염")
 t("light", "빛")
 
 
@@ -6817,6 +7141,7 @@ section "game/modules/tome/data/general/objects/money.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/mounts.lua"
 
+t("golem", "골렘")
 
 
 ------------------------------------------------
@@ -6889,6 +7214,7 @@ section "game/modules/tome/data/general/objects/rods.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/scrolls.lua"
 
+t("infusion", "주입")
 
 
 ------------------------------------------------
@@ -6955,6 +7281,8 @@ t("Genocide", "종족 학살")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts.lua"
 
+t("Radiance", "광휘")
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -6965,26 +7293,33 @@ section "game/modules/tome/data/general/stores/basic.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/alarm.lua"
 
+t("trap", "함정")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/annoy.lua"
 
+t("trap", "함정")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/complex.lua"
 
+t("trap", "함정")
+t("arcane", "비전")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/elemental.lua"
 
+t("trap", "함정")
+t("fire", "화염")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/natural_forest.lua"
 
+t("trap", "함정")
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
 
@@ -6996,16 +7331,22 @@ section "game/modules/tome/data/general/traps/store.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/teleport.lua"
 
+t("trap", "함정")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/temporal.lua"
 
+t("temporal", "시간")
+t("trap", "함정")
+t("water", "물")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/water.lua"
 
+t("trap", "함정")
+t("water", "물")
 
 
 ------------------------------------------------
@@ -7669,13 +8010,13 @@ section "game/modules/tome/data/talents.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/celestial.lua"
 
-t("Your devotion grants you additional protection.", "태양에 대한 당신의 헌신은 강력한 보호를 제공합니다.")
+t("Your devotion grants you additional protection.", "태양에 대한 헌신은 강력한 보호를 제공합니다.")
 t("guardian", "수호자")
 t("Chant the glory of the Sun.", "태양의 영광을 노래합니다.")
 t("chants", "태양의 성가")
 t("Invoke the power of the light to heal and mend.", "빛의 힘을 일으켜 상처를 치유하고 복원합니다.")
 t("light", "빛")
-t("Your devotion allows you to combat your foes with indomitable determination.", "태양에 대한 당신의 헌신은 당신이 불굴의 의지를 가지고 적과 맞서게 해줍니다.")
+t("Your devotion allows you to combat your foes with indomitable determination.", "태양에 대한 헌신은 불굴의 의지를 가지고 적과 맞서게 해줍니다.")
 t("combat", "빛의 전투")
 t("You channel the light of the sun through your body.", "당신의 몸을 통해 태양의 빛을 뿜어냅니다.")
 t("radiance", "광휘")
@@ -7710,56 +8051,56 @@ t([[You chant the glory of the Sun, granting you %d Mental Save and increasing y
 		You may only have one Chant active at once.
 		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 정신 내성을 %d 증가시키고 최대 체력을 %0.1f%% 증가시킵니다(현재: %d).
 		한 번에 하나의 성가만 활성화할 수 있습니다.
-		당신의 주문력에 따라 효과가 강화됩니다.]])
+		주문력에 따라 효과가 강화됩니다.]])
 t("Chant of Fortress", "인내의 성가")
 t([[You chant the glory of the Sun, granting you %d%% physical damage resistance, %d physical save, %d armour and +15%% armour hardiness.
 		You may only have one Chant active at once.
-		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 물리 저항을 %d%%, 물리 내성을 %d, 방어력을 %d, 방어 효율을 15%% 증가시킵니다.
+		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 물리 저항을 %d%% 물리 내성을 %d 방어력을 %d 방어 효율을 15%% 증가시킵니다.
 		한 번에 하나의 성가만 활성화할 수 있습니다.
-		당신의 주문력에 따라 효과가 강화됩니다.]])
+		주문력에 따라 효과가 강화됩니다.]])
 t("Chant of Resistance", "저항의 성가")
 t([[You chant the glory of the Sun, granting you %d%% fire, lightning, acid and cold damage resistance, %d spell save and reduces the damage from enemies 3 or more spaces away by %d%%.
 	You may only have one Chant active at once.
-	The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 화염/냉기/전기/산성 저항을 %d%%, 주문 내성을 %d 증가시키며 3칸 이상 떨어진 적으로부터 받는 피해를 %d%% 감소시킵니다.
+	The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 화염/냉기/전기/산성 저항을 %d%% 주문 내성을 %d 증가시키며 3칸 이상 떨어진 적으로부터 받는 피해를 %d%% 감소시킵니다.
 	한 번에 하나의 성가만 활성화할 수 있습니다.
-	당신의 주문력에 따라 효과가 강화됩니다.]])
+	주문력에 따라 효과가 강화됩니다.]])
 t("Chant of Light", "빛의 성가")
 t([[You chant the glory of the Sun, empowering your light and fire elemental attacks so that they do %d%% additional damage.
 		In addition, this talent surrounds you with a shield of light, dealing %0.1f light damage to anything that hits you in melee.
 		Your lite radius is also increased by %d.
 		You may only have one Chant active at once and this Chant costs less power to sustain.
-		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 화염, 빛 피해를 %d%% 증가시킵니다.
+		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 화염/빛 피해를 %d%% 증가시킵니다.
 		추가로 이 기술은 당신을 빛의 방패로 보호해 근접 공격하는 적에게 %0.1f 빛 피해를 줍니다.
 		광원 반경이 %d 증가합니다.
 		한 번에 하나의 성가만 활성화할 수 있고 이 성가는 유지 비용이 낮습니다.
-		당신의 주문력에 따라 효과가 강화됩니다.]])
+		주문력에 따라 효과가 강화됩니다.]])
 t([[You have learned to sing the praises of the Sun, in the form of three defensive Chants.
 			Chant of Fortitude: Increases your mental save by %d and maximum life by %d%%.
 			Chant of Fortress: Increases your physical save by %d, your physical resistance by %d%%, your armour by %d and your armour hardiness by 15%%.
 			Chant of Resistance: Increases you spell save by %d, your fire/cold/lightning/acid resistances by %d%% and reduces all damage that comes from distant enemies (3 spaces or more) by %d%%.
 			You may only have one Chant active at a time.]], [[당신은 태양을 찬미하는 3가지 방어적 성향의 성가를 배웠습니다.
 			불굴의 성가: 정신 내성을 %d 증가시키고 최대 체력을 %d%% 증가시킵니다.
-			인내의 성가: 물리 저항을 %d%%, 물리 내성을 %d, 방어력을 %d, 방어 효율을 15%% 증가시킵니다.
-			저항의 성가: 화염/냉기/전기/산성 저항을 %d%%, 주문 내성을 %d 증가시키며 3칸 이상 떨어진 적으로부터 받는 피해를 %d%% 감소시킵니다.
+			인내의 성가: 물리 저항을 %d%% 물리 내성을 %d 방어력을 %d 방어 효율을 15%% 증가시킵니다.
+			저항의 성가: 화염/냉기/전기/산성 저항을 %d%% 주문 내성을 %d 증가시키며 3칸 이상 떨어진 적으로부터 받는 피해를 %d%% 감소시킵니다.
 			한 번에 하나의 성가만 활성화할 수 있습니다.]], {1,2,4,3,5,7,6,8})
 t([[Your Chants now bathe you in a cloak of light, which increases your stamina and mana regenerations by %0.2f per turn and does %0.2f light damage to anyone who hits you in melee.
 		These values scale with your Spellpower.]], [[당신의 성가가 당신을 빛의 망토로 감싸 안습니다. 체력과 마나 재생이 %0.2f 증가하고 근접 공격하는 적에게 %0.2f 빛 피해를 줍니다.
-		당신의 주문력에 따라 효과가 강화됩니다.]])
+		주문력에 따라 효과가 강화됩니다.]])
 t("%s is cured!", "%s 정화되었습니다!", nil, {"이"})
 t([[Your skill at Chanting now extends the cloak of light, increasing your light radius by %d.
 		Also, when you start a new Chant, you will be cured of all cross-tier effects and cured of up to %d debuffs.
 		Chant of Fortitude cures mental effects.
 		Chant of Fortress cures physical effects.
 		Chant of Resistance cures magical effects.]], [[당신의 숙련된 성가가 빛의 망토를 멀리 퍼트려 광원 반경을 %d 증가시킵니다.
-		추가로 당신이 새로운 성가를 부르기 시작할때마다 모든 압도 효과를 정화하고 부정적 효과를 최대 %d 개 정화합니다.
+		추가로 새로운 성가를 부르기 시작할때마다 모든 압도 효과를 정화하고 부정적 효과를 최대 %d 개 정화합니다.
 		불굴의 성가는 정신 효과를 정화합니다.
 		인내의 성가는 물리 효과를 정화합니다.
 		저항의 성가는 마법 효과를 정화합니다.]])
 t([[Your passion for singing the praises of the Sun reaches its zenith.
 		Your Chanting now increases your light and fire damage by %d%% and up to %d times per turn, when you are hit by a weapon attack, you will gain %0.1f Positive.
 		These values scale with your Spellpower.]], [[태양을 찬미하는 당신의 열정은 절정에 이르렀습니다.
-		화염, 빛 피해가 %d%% 증가하고 한 턴에 최대 %d 번 무기에 공격당할 때마다 양기를 %0.1f 회복합니다.
-		당신의 주문력에 따라 효과가 강화됩니다.]])
+		화염/빛 피해가 %d%% 증가하고 한 턴에 최대 %d 번 무기에 공격당할 때마다 양기를 %0.1f 회복합니다.
+		주문력에 따라 효과가 강화됩니다.]])
 
 
 ------------------------------------------------
@@ -7768,20 +8109,20 @@ section "game/modules/tome/data/talents/celestial/circles.lua"
 t("Circle of Shifting Shadows", "변화하는 그림자의 마법진")
 t([[Creates a circle of radius %d at your feet; the circle increases your defense and all saves by %d while dealing %0.2f darkness damage per turn to everyone else within its radius. The circle lasts %d turns.
 		The damage will increase with your Spellpower.]], [[발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 당신의 회피도와 모든 내성을 %d 증가시키고 매 턴 당신을 제외한 모든 대상에게 %0.2f 암흑 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.
-		당신의 주문력에 따라 효과가 강화됩니다.]])
+		주문력에 따라 효과가 강화됩니다.]])
 t("Circle of Sanctity", "신성의 마법진")
 t("Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 당신을 침묵 효과로부터 보호하고 마법진에 진입하는 당신을 제외한 모든 대상을 침묵시키고 %d 빛 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.")
 t("Circle of Warding", "수호의 마법진")
 t([[Creates a circle of radius %d at your feet; the circle slows incoming projectiles by %d%% and attempts to push all creatures other than yourself out of its radius, inflicting %0.2f light damage and %0.2f darkness damage per turn as it does so.  The circle lasts %d turns.
 		The effects will increase with your Spellpower.]], [[발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 마법진으로 들어오는 모든 투사체를 %d%% 감속시키고 당신을 제외한 모든 대상을 밀어내고 매 턴 %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.
-		당신의 주문력에 따라 효과가 강화됩니다.]])
+		주문력에 따라 효과가 강화됩니다.]])
 t("Celestial Surge", "천공 쇄도")
 t([[Conjure a surge of celestial power through your circles. Any foe standing within one of your circles will be slowed by %d%% for %d turns and take %d light and %d darkness damage.
 		Residual power from the surge will emanate from your circles for %d turns; each circle you stand in will increase your celestial resources.
 		Shifting Shadows: +1 negative.
 		Sanctity: +1 postive.
 		Warding: +0.5 postive and negative.]], [[당신의 마법진에 쇄도하는 천공의 힘을 불어넣습니다. 마법진 위에 서 있는 모든 적을 %d 턴간 %d%% 감속시키고 %d 빛 피해와 %d 암흑 피해를 줍니다.
-		천공 쇄도후 잔류 동력은 마법진에서 %d 턴간 방출됩니다. 잔류 동력은 당신의 천공 자원을 회복시킵니다.
+		천공 쇄도후 잔류 동력은 마법진에서 %d 턴간 방출됩니다. 잔류 동력은 천공 자원을 회복시킵니다.
 		변화하는 그림자: +1 음기.
 		신성: +1 양기.
 		수호: +0.5 양기와 음기.]], {2,1,3,4,5})
@@ -7793,87 +8134,438 @@ section "game/modules/tome/data/talents/celestial/combat.lua"
 t("Weapon of Light", "빛의 무기")
 t([[Infuse your weapon with the power of the Sun, adding %0.1f light damage on each melee hit.
 		Additionally, if you have a temporary damage shield active, melee hits will increase its power by %d once per turn.
-		The damage dealt and shield bonus will increase with your Spellpower.]], [[태양의 힘을 당신의 무기에 주입하여 근접 공격시 %0.1f 빛 피해를 추가합니다.
-		추가로 당신에게 피해 흡수 보호막이 활성화된 상태면 매 턴당 1번, 근접 공격시 보호막 수치를 %d 증가시킵니다.
-		당신의 주문력에 따라 효과가 강화됩니다.]])
+		The damage dealt and shield bonus will increase with your Spellpower.]], [[태양의 힘을 무기에 주입하여 근접 공격시 %0.1f 빛 피해를 추가합니다.
+		추가로 피해 흡수 보호막이 활성화된 상태면 매 턴당 1번, 근접 공격시 보호막 수치를 %d 증가시킵니다.
+		주문력에 따라 효과가 강화됩니다.]])
 t("Wave of Power", "힘의 파동")
 t("#CRIMSON#%sstrikes twice with Wave of Power!#NORMAL#", "#CRIMSON#%s 힘의 파동으로 2번 공격합니다!#NORMAL#", nil, {"이"})
 t([[In a pure display of power, you project a ranged melee attack, doing %d%% weapon damage.
 		If the target is outside of melee range, you have a chance to project a second attack against it for %d%% weapon damage.
 		The second strike chance (which increases with distance) is %0.1f%% at range 2 and %0.1f%% at the maximum range of %d.
-		The range will increase with your Strength.]], [[순수한 힘의 과시를 위해 원거리 근접공격을 시도하여 %d%% 무기 피해를 줍니다.
+		The range will increase with your Strength.]], [[순수한 힘의 과시를 위한 원거리 근접공격을 시도하여 %d%% 무기 피해를 줍니다.
 		만약 대상이 근접한 상태가 아니라면 %d%% 무기 피해를 주는 추가 공격 확률이 있습니다.
 		추가 공격 확률은 거리에 따라 증가하여 2 거리에서 %0.1f%% 최대 거리 %d 에서 %0.1f%% 입니다.
-		당신의 힘에 따라 사거리가 증가합니다.]])
+		힘에 따라 사거리가 증가합니다.]], {1,2,3,5,4})
 t("Weapon of Wrath", "분노의 무기")
 t([[Your weapon attacks burn with righteous fury, dealing %d%% of your lost HP as additional Fire damage (up to %d, Current:  %d).
 		Targets struck are also afflicted with a Martyrdom effect that causes them to take %d%% of all damage they deal for 4 turns.
-		The bonus damage can only occur once per turn.]], [[당신의 무기가 정의로운 분노로 타올라 근접 공격시 당신의 잃은 체력에 비례해 %d%% 화염 피해를 추가합니다.(최대 %d, 현재: %d).
+		The bonus damage can only occur once per turn.]], [[무기가 정의로운 분노로 타올라 근접 공격시 잃은 체력에 비례해 %d%% 화염 피해를 추가합니다.(최대 %d, 현재: %d).
 		피해를 받은 대상은 4턴간 순교 상태에 빠져 대상이 가한 피해의 %d%% 에 해당하는 반사 피해를 받습니다.
 		추가 피해는 한 턴에 한번만 발생합니다.]])
 t("Second Life", "두번째 생명")
-t("Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for %d.", "체력을 1 미만으로 감소시키는 공격은 두번쨰 생명을 발동시킵니다. 두번째 생명이 발동되면 두번째 생명을 비활성화하고 당신의 체력을 1로 설정한 뒤 체력을 %d 회복시킵니다.")
+t("Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for %d.", "체력을 1 미만으로 감소시키는 공격은 두번쨰 생명을 발동시킵니다. 두번째 생명이 발동되면 두번째 생명을 비활성화하고 체력을 1로 설정한 뒤 체력을 %d 회복시킵니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/crusader.lua"
 
+t("Absorption Strike", "흡수의 일격")
+t([[You strike your foe with your two handed weapon, dealing %d%% weapon damage.
+		If the attack hits, all foes in radius 2 will have their light resistance reduced by %d%% and their damage reduced by %d%% for 5 turns.]], [[양손 무기로 적을 공격하여 %d%% 무기 피해를 줍니다.
+		공격이 적중하면 반경 2 내의 모든 적은 5턴간 빛 저항이 %d%% 감소하고 주는 피해가 %d%% 감소합니다.]])
+t("Mark of Light", "빛의 징표")
+t("You mark a target with light for 3 turns, causing all melee hits you deal to it to heal you for %d%% of the damage done.", "대상에게 3턴간 빛의 징표를 남깁니다. 징표가 남은 대상을 근접 공격하면 가한 피해의 %d%% 를 회복합니다.")
+t("Righteous Strength", "정의로운 힘")
+t([[While wielding a two handed weapon, your critical strike chance is increased by %d%%, and your melee criticals instill you with righteous strength, increasing all physical and light damage you deal by %d%%, stacking up to 3 times.
+		In addition, your melee critical strikes leave a lasting lightburn on the target, dealing %0.2f light damage over 5 turns and reducing opponents armour by %d.
+		The damage increases with your Spellpower.]], [[양손 무기를 장비한 상태라면 치명타율이 %d%% 증가하고 근접 치명타가 당신에게 정의로운 힘을 불어넣어 물리/빛 피해가 %d%% 증가합니다. 피해량 증가 효과는 최대 3회 중첩됩니다.
+		추가로 근접 치명타가 대상에게 광염을 남겨 5턴간 %0.2f 빛 피해를 주고 방어력을 %d 감소시킵니다.
+		주문력에 따라 피해량이 강화됩니다.]])
+t("Flash of the Blade", "검의 섬광")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.")
+t([[Infuse your two handed weapon with light while spinning around.
+		All creatures in radius one take %d%% weapon damage.
+		In addition while spinning your weapon shines so much it deals %d%% light weapon damage to all foes in radius 2.
+		At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.]], [[양손 무기에 빛의 힘을 주입하여 회전합니다.
+		반경 1 내의 모든 적에게 %d%% 무기 피해를 줍니다.
+		추가로 무기가 너무나도 밝게 빛나 반경 2 내의 모든 적에게 %d%% 빛 무기 피해를 줍니다.
+		기술 레벨 4에 도달하면 회전하는 검이 보호막을 생성해 1턴간 받는 모든 피해를 막아냅니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/eclipse.lua"
 
+t("Blood Red Moon", "핏빛 붉은 달")
+t("Increases your spell critical chance by %d%%.", "주문 치명타율을 %d%% 증가시킵니다.")
+t("Totality", "완전함")
+t([[Increases your light and darkness resistance penetration by %d%% for %d turns, and reduces the cooldown of all Celestial skills by %d.
+		The resistance penetration will increase with your Cunning.]], [[빛/암흑 저항 관통이 %d 턴간 %d%% 증가하고 모든 천공 기술의 재사용 대기시간이 %d 감소합니다.
+		교활에 따라 저항 관통이 강화됩니다.]], {2,1,3})
+t("Corona", "코로나")
+t([[Each time one of your spells criticals, you project a bolt of light or shadow at up to %d targets within radius %d, doing %0.2f light damage or %0.2f darkness damage per bolt.
+		This effect costs 2 positive or 2 negative energy each time it's triggered, and will not activate if either your positive or negative energy is below 2.
+		The damage scales with your Spellpower.
+		This spell cannot crit.]], [[주문 치명타가 발생할때 마다 반경 %d 내의 최대 %d 명의 적에게 마법 화살을 발사합니다. 화살은 %0.2f 빛 피해 또는 %0.2f 암흑 피해를 줍니다.
+		이 효과가 발동하는데 양기 2 또는 음기 2를 요구하며 양기 또는 음기가 2 미만일 경우 발동하지 않습니다.
+		주문력에 따라 피해량이 강화됩니다.
+		이 주문은 치명타가 발생하지 않습니다.]], {2,1,3,4})
+t("Darkest Light", "칠흑의 빛")
+t("Shroud foes within radius %d in darkest light, dealing %0.2f light and %0.2f darkness damage per turn and converting %d%% of the damage they deal between light and darkness for %d turns.", "반경 %d 내의 적을 %d 턴간 칠흑의 빛으로 덮어 매 턴당 %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다. 칠흑의 빛에 덮힌 적이 가하는 피해의 %d%% 는 빛과 암흑 피해로 전환됩니다.", {1,5,2,3,4})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/glyphs.lua"
 
+t("Glyphs", "빛의 문양")
+t("glyph of sunlight", "태양광의 문양")
+t("Deals %d light damage and heals the summoner for %d", "%d 빛 피해를 주고 소환자의 생명력을 %d 회복시킵니다.")
+t("glyph of moonlight", "월광의 문양")
+t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "%d 암흑 피해를 주고 적을 약화시켜 %d 턴간 주는 피해를 %d%% 감소시킵니다.", {1,3,2})
+t("glyph of twilight", "황혼의 문양")
+t("trap", "함정")
+t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "폭발하여 무작위 방향으로 적을 1칸 밀어내고 %d 빛 피해와 %d 암흑 피해를 줍니다.")
+t([[When one of your spells goes critical, you bind glyphs in radius 1 centered on a random target in range %d at the cost of 5 positive and 5 negative energy.
+		Glyphs last for %d turns and cause various effects when an enemy enters their grid.
+		Glyphs will only spawn on enemies that aren't adjacent to an existing glyph and will prioritize your own position if it is valid.
+		This can only happen every %d game turns.
+		Glyph effects will scale with your Spellpower.
+
+		Avalable glyphs are:
+		#ffd700#Glyph of Sunlight#LAST#:  Bind sunlight into a glyph. When triggered it will release a brilliant light, dealing %0.2f light damage and healing you for %d.
+		#7f7f7f#Glyph of Moonlight#LAST#:  Bind moonlight into a glyph. When triggered it will release a fatiguing darkness,  dealing %0.2f darkness damage and reducing the foes damage dealt by %d%% for %d turns.
+		#9D9DC9#Glyph of Twilight#LAST#:  Bind twilight into a glyph. When triggered it will release a burst of twilight, dealing %0.2f light and %0.2f darkness damage and knocking the foe back %d tiles.
+		]], [[주문 치명타가 발생하면 반경 %d 내의 무작위 대상 근처 1칸에 문양을 하나 새깁니다. 문양을 새기는데 양기 5와 음기 5가 필요합니다.
+		문양은 %d 턴간 지속되며 적이 문양이 새겨진 칸에 진입하면 다양한 효과가 발생합니다.
+		문양은 이미 문양에 인접하지 않은 적에게만 새겨지며 ...?Glyphs will only spawn on enemies that aren't adjacent to an existing glyph and will prioritize your own position if it is valid.
+		이 효과는 매 %d 게임 턴마다 발동합니다.
+		주문력에 따라 문양 효과가 강화됩니다.
+
+		새길 수 있는 문양:
+		#ffd700#태양광의 문양#LAST#:  태양광을 문양으로 새깁니다. 발동하면 찬란한 빛을 내뿜어 %0.2f 빛 피해를 주고 당신의 생명력을 %d 회복시킵니다.
+		#7f7f7f#월광의 문양#LAST#:  월광을 문양으로 새깁니다. 발동하면 약화의 어둠을 내뿜어 %0.2f 암흑 피해를 주고 %d 턴간 적이 주는 피해를 %d%% 감소시킵니다.
+		#9D9DC9#황혼의 문양#LAST#:  황혼을 문양으로 새깁니다. 발동하면 황혼을 내뿜어 %0.2f 빛 피해와 %0.2f 암흑 피해를 주고 적을 %d 칸 밀어냅니다.
+		]])
+t("Glyphs of Fury", "분노의 문양")
+t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
+		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
+		#7f7f7f#Glyph of Moonlight#LAST#:  Deals %0.2f darkness damage.
+		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[당신의 문양이 천공의 분노로 물듭니다. 문양의 지속시간이 %d 턴 증가하고 발동할때 추가 피해를 줍니다.
+		#ffd700#태양광의 문양#LAST#:  %0.2f 빛 피해를 줍니다.
+		#7f7f7f#월광의 문양#LAST#:  %0.2f 암흑 피해를 줍니다.
+		#9D9DC9#황혼의 문양#LAST#:  %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다.]])
+t("Empowered Glyphs", "문양 증강")
+t("Up to 3 times per turn when one of your glyphs triggers you feel a surge of celestial power, increasing your darkness and light resistance and affinity by 5%% for %d turns, stacking up to %d times.", "매 턴당 최대 3번, 문양이 발동할 때마다 당신에게 천공의 힘이 쇄도합니다. 천공의 힘은 %d 턴간 빛/암흑 저항과 친화도를 5%% 증가시킵니다. 천공의 힘은 최대 %d 회 중첩됩니다.")
+t("Destabilize Glyphs", "문양 붕괴")
+t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy standing on it.
+		At talent level 2 glyphs triggered this way will leave a residue of themselves on the ground, dealing damage each turn for %d turns.
+		#ffd700#Sunlight#LAST#:  %0.2f light damage.
+		#7f7f7f#Moonlight#LAST#:  %0.2f darkness damage.
+		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[문양을 붕괴시켜 반경 10 내의 적이 밟고 있는 문양을 발동시킵니다.
+		기술 레벨 2에 도달하면 문양 붕괴를 통해 발동한 문양은 잔해를 남겨 %d 턴간 피해를 줍니다.
+		#ffd700#태양광#LAST#:  %0.2f 빛 피해.
+		#7f7f7f#월광#LAST#:  %0.2f 암흑 피해.
+		#9D9DC9#황혼#LAST#:  %0.2f 빛 피해와 %0.2f 암흑 피해.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/guardian.lua"
 
+t("Shield of Light", "빛의 방패")
+t([[Infuse your shield with light, healing you for %0.2f each time you take damage at the expense of up to 2 positive energy.
+		If you do not have any positive energy, the effect will not trigger.
+		Additionally, once per turn successful melee attacks will trigger a bonus attack with your shield dealing %d%% light damage.
+		The healing done will increase with your Spellpower.]], [[방패에 빛의 힘을 주입하여 피해를 받을때마다 양기 2를 소모하여 생명력을 %0.2f 회복합니다.
+		소모할 양기가 없다면 이 효과는 발동하지 않습니다.
+		추가로 매 턴당 1번 근접 공격시 방패로 추가 공격하여 %d%% 빛 무기 피해를 줍니다.
+		주문력에 따라 회복량이 증가합니다.]])
+t("Brandish", "휘두르기")
+t("You cannot use Brandish without a shield!", "이 기술을 사용하려면 방패를 착용해야 합니다.")
+t([[Hits the target with your weapon doing %d%% damage, and with a shield strike doing %d%% damage. If the shield strike connects, your shield will explode in a burst of light that inflicts %0.2f light damage on all targets except yourself within radius %d of the target, and light up all tiles in that radius.
+		The light damage will increase with your Spellpower.]], [[무기로 공격하여 %d%% 무기 피해를 주고 이어서 방패로 공격하여 %d%% 무기 피해를 줍니다. 방패 공격이 적중하면 빛의 폭발이 발생하여 반경 %d 내의 모든 대상에게 %0.2f 빛 피해를 주고 어둠을 몰아냅니다.
+		주문력에 따라 빛 피해가 증가합니다.]], {1,2,4,3})
+t("Retribution", "응보")
+t("You cannot use Retribution without a shield!", "이 기술을 사용하려면 방패를 착용해야 합니다.")
+t("#RED#Absorb Remaining: %d", "#RED#남은 피해 흡수량: %d")
+t([[Retribution negates half of all damage you take while it is active. Once Retribution has negated %0.2f damage, your shield will explode in a burst of light, inflicting damage equal to the amount negated in a radius of %d and deactivating the talent.
+		The amount absorbed will increase with your Spellpower.
+		%s]], [[응보가 활성화된 상태면 받는 피해의 절반을 흡수합니다. 응보가 %0.2f 피해를 흡수하면 폭발하여 반경 %d 내의 모든 적에게 흡수한 피해를 빛 피해로 되돌려주고 응보를 비활성화합니다.
+		주문력에 따라 흡수량이 증가합니다.
+		%s]])
+t("Crusade", "성전")
+t("You cannot use Crusade without a shield!", "이 기술을 사용하려면 방패를 착용해야 합니다.")
+t([[You demonstrate your dedication to the light with a measured attack striking once with your weapon for %d%% Light damage and once with your shield for %d%% Light damage.
+			If the first strike connects %d random talent cooldowns are reduced by 1.
+			If the second strike connects you are cleansed of %d debuffs.]], [[무기로 공격하여 %d%% 빛 무기 피해를 주고 방패로 공격하여 %d%% 빛 무기 피해를 줍니다.
+			무기 공격이 적중하면 무작위 기술 %d 개의 재사용 대기시간이 1 감소합니다.
+			방패 공격이 적중하면 부정적 효과를 최대 %d 개 정화합니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/hymns.lua"
 
+t("Hymn of Shadows", "그림자의 찬가")
+t([[Chant the glory of the Moons, gaining the agility of shadows.
+		This increases your movement speed by %d%% and your spell speed by %d%%.
+		You may only have one Hymn active at once.
+		The effects will increase with your Spellpower.]], [[달의 영광을 노래하여 그림자의 기민함을 얻습니다.
+		이동속도가 %d%% 증가하고 시전속도가 %d%% 증가합니다.
+		한 번에 하나의 찬가만 활성화할 수 있습니다.
+		주문력에 따라 효과가 증가합니다.]])
+t("Hymn of Detection", "간파의 찬가")
+t([[Chant the glory of the Moons, granting you stealth detection (+%d power), and invisibility detection (+%d power).
+		You may also attack creatures you cannot see without penalty and your critical hits do %d%% more damage.
+		You may only have one Hymn active at once.
+		The stealth and invisibility detection will increase with your Spellpower.]], [[달의 영광을 노래하여 은신 감지가 %d 증가하고 투명 감지가 %d 증가합니다.
+		보이지 않는 적을 공격할때 패널티가 사라지고 치명타 피해량이 %d%% 증가합니다.
+		한 번에 하나의 찬가만 활성화할 수 있습니다.
+		주문력에 따라 은신 감지와 투명 감지가 증가합니다.]])
+t("Hymn of Perseverance", "의지의 찬가")
+t([[Chant the glory of the Moons, granting you %d%% stun, blindness and confusion resistance.
+		You may only have one Hymn active at once.]], [[달의 영광을 노래하여 기절/혼란/실명 저항이 %d%% 증가합니다.
+		한 번에 하나의 찬가만 활성화할 수 있습니다.]])
+t("Hymn of Moonlight", "월광의 찬가")
+t("#DARK_GREY#A shroud of shadow dances around %s!", "#DARK_GREY#%s 주위의 그림자가 춤추기 시작합니다!")
+t("%s's %s", "%s 의 %s")
+t("#DARK_GREY#The shroud of shadows around %s disappears.", "#DARK_GREY#%s 주위의 그림자가 사라집니다.")
+t([[Chant the glory of the Moons, conjuring a shroud of dancing shadows that follows you as long as this spell is active.
+		Each turn, a shadowy beam will hit up to %d of your foes within radius 5 for 1 to %0.2f damage.
+		This powerful spell will drain %0.1f negative energy for each beam; no beam will fire if your negative energy is too low.
+		You may only have one Hymn active at once.
+		The damage will increase with your Spellpower.]], [[달의 영광을 노래하여 찬가가 활성화된 동안 당신을 따르는 춤추는 그림자를 생성합니다.
+		매 턴, 그림자 광선이 반경 5 내의 최대 %d 명의 적을 공격하여 1에서 %0.2f 암흑 피해를 줍니다.
+		그림자 광선을 발사하는데 %0.1f 음기를 요구하며 음기가 부족할 경우 그림자 광선은 발사되지 않습니다.
+		한 번에 하나의 찬가만 활성화할 수 있습니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t([[You have learned to sing the praises of the Moons, in the form of three defensive Hymns:
+
+Hymn of Shadows: Increases your movement speed by %d%% and your spell casting speed by %d%%.
+
+Hymn of Detection: Increases your ability to see stealthy creatures by %d and invisible creatures by %d, and increases your critical power by %d%%.
+
+Hymn of Perseverance: Increases your resistance to stun, confusion and blinding by %d%%.
+
+You may only have one Hymn active at a time.]], [[달을 찬미하는 3가지 방어적 성향의 찬가를 배웁니다.
+
+그림자의 찬가: 이동속도가 %d%% 증가하고 시전속도가 %d%% 증가합니다.
+
+간파의 찬가: 은신 감지가 %d 투명 감지가 %d 증가하고 치명타 피해량이 %d%% 증가합니다.
+
+의지의 찬가: 기절/혼란/실명 저항이 %d%% 증가합니다.
+
+한 번에 하나의 찬가만 활성화할 수 있습니다.]])
+t([[Your Hymns now focus darkness near you, which increases your darkness damage by %d%% and does %0.2f darkness damage to anyone who hits you in melee.
+		These values scale with your Spellpower.]], [[찬가가 주변의 어둠을 집중시킵니다. 암흑 피해가 %d%% 증가하고 근접 공격하는 적에게 %0.2f% 암흑 피해를 줍니다.
+		주문력에 따라 효과가 증가합니다.]])
+t([[Your skill in Hymns now improves your sight in darkness, increasing your infravision radius by %d.
+		Also, when you end a Hymn, you will gain a buff of a type based on which Hymn you ended.
+		Hymn of Shadows increases your movement speed by %d%% for one turn.
+		Hymn of Detection makes you invisible (power %d) for %d turns.
+		Hymn of Perseverance grants a damage shield (power %d) for %d turns.]], [[당신의 숙련된 성가가 어둠을 꿰뚫어보는 시야를 제공하여 infravision 반경이 %d 증가합니다.
+		추가로 찬가가 끝날때마다 추가 효과를 얻습니다.
+		그림자의 찬가는 이동속도를 1턴간 %d%% 증가시킵니다.
+		간파의 찬가는 %d 턴간 투명(위력 %d) 상태에 돌입합니다.
+		의지의 찬가는 %d 턴간 피해 흡수 보호막(위력 %d)을 생성합니다.]], {1,2,4,3,6,5})
+t([[Your passion for singing the praises of the Moons reaches its zenith.
+		Your Hymns now fire shadowy beams that will hit up to %d of your foes within radius 5 for 1 to %0.2f damage, with a 20%% chance of blinding.
+		This powerful effect will drain %0.1f negative energy each time it fires at at least 1 target; no beam will fire if your negative energy is too low.
+		These values scale with your Spellpower.]], [[달을 찬미하는 당신의 열정은 절정에 이르렀습니다.
+		찬가가 그림자 광선을 발사해 반경 5 내의 최대 %d 명의 적을 공격하여 1에서 %0.2f 암흑 피해를 주고 20%% 확률로 실명시킵니다.
+		그림자 광선을 발사하는데 %0.1f 음기를 요구하며 음기가 부족할 경우 그림자 광선은 발사되지 않습니다.
+		주문력에 따라 효과가 증가합니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/light.lua"
 
+t("Healing Light", "회복의 빛")
+t([[An invigorating ray of Sunlight shines upon you, healing your body for %d life.
+		The amount healed will increase with your Spellpower.]], [[활기찬 한 줄기 햇빛을 비춰 생명력을 %d 회복합니다.
+		주문력에 따라 회복량이 증가합니다.]])
+t("Bathe in Light", "빛의 세례")
+t([[A magical zone of Sunlight appears around you, healing and shielding all within a radius of %d for %0.2f per turn and increasing healing effects on everyone within by %d%%. The effect lasts for %d turns.
+		Existing damage shields will be added to instead of overwritten and have their duration set to 2 if it isn't higher.
+		If the same shield is refreshed 20 times it will become unstable and explode, removing it.
+		It also lights up the affected area.
+		The amount healed will increase with the Magic stat]], [[햇빛이 내리쬐는 반경 %d의 영역을 생성합니다. 매 턴, 영역 내의 모든 대상은 치유 효율이 %d%% 증가하며 생명력을 %0.2f 회복하고 같은 수치의 피해 흡수 보호막을 얻습니다. 영역은 %d 턴간 유지됩니다.
+		이 효과로 얻는 피해 흡수 보호막은 기존의 피해 흡수 보호막을 덮어쓰지 않고 강화하며 지속시간이 2턴 미만이라면 2턴으로 설정합니다.
+		이 효과로 피해 흡수 보호막이 20회 강화되면 보호막이 불안정해져 파괴됩니다.
+		추가로 영역 내의 어둠을 몰아냅니다.
+		마법에 따라 회복량이 증가합니다.]])
+t("Barrier", "방벽")
+t([[A protective shield forms around you that lasts for up to 10 turns and negates %d damage.
+ 		The total damage the barrier can absorb will increase with your Spellpower and can crit.]], [[10턴간 유지되는 수호의 방벽을 생성하여 최대 %d 피해를 흡수합니다.
+ 		주문력에 따라 방벽의 피해 흡수량이 증가하고 치명타가 발생할 수 있습니다.]])
+t("Providence", "섭리")
+t("Places you under the protection of a ray of sunlight. For %d turns, the light removes a single negative effect from you every turn.", "햇빛의 가호 아래 자리잡습니다. 가호는 %d 턴간 유지되며 매 턴, 부정적 효과를 하나 정화합니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/other.lua"
 
+t("Glyph of Explosion", "폭발의 문양")
+t("You somehow fail to set the corrosive seed.", "부식성 씨앗을 놓는데 실패했습니다.")
+t("glyph of explosion", "폭발의 문양")
+t("Explodes (radius 1) for %d light damage.", "폭발(반경 1)하여 %d 빛 피해를 줍니다.")
+t("test glyph", "테스트 문양")
+t("Glyph of Paralysis", "마비의 문양")
+t("glyph of paralysis", "마비의 문양")
+t("Dazes for %d turns.", "%d 턴간 혼절시킵니다.")
+t([[You bind light in a glyph on the floor. All enemies walking over the glyph will be dazed for %d turns.
+		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.]], [[바닥에 문양을 새기고 빛을 불어넣습니다. 문양 위에 올라선 적은 %d 턴간 혼절합니다.
+		문양은 숨겨진 함정(탐지 난이도 %d 해체 난이도 %d)이며 %d 턴간 유지됩니다. 마법에 따라 함정의 탐지/해체 난이도가 증가합니다.]])
+t("Glyph of Repulsion", "반발의 문양")
+t("glyph of repulsion", "반발의 문양")
+t("Deals %d physical damage, knocking the target back.", "%d 물리 피해를 주고 대상을 밀어냅니다.")
+t([[You bind light in a glyph on the floor. All enemies walking over the glyph will be hit by a blast that does %0.2f physical damage and knocks them back.
+		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.
+		The damage will increase with your Spellpower.]], [[바닥에 문양을 새기고 빛을 불어넣습니다. 문양 위에 올라선 적은 폭발에 휘말려 %0.2f 물리 피해를 입고 밀려납니다.
+		문양은 숨겨진 함정(탐지 난이도 %d 해체 난이도 %d)이며 %d 턴간 유지됩니다. 마법에 따라 함정의 탐지/해체 난이도가 증가합니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t("Glyph of Fatigue", "피로의 문양")
+t("glyph of fatigue", "피로의 문양")
+t("trap", "함정")
+t("Slows (%d%%) for 5 turns.", "5턴간 전체속도를 %d%% 감소시킵니다.")
+t([[You bind light in a glyph on the floor. All enemies walking over the glyph will be slowed by %d%% for 5 turns.
+		The glyph is a hidden trap (%d detection and %d disarm power based on your Magic) and lasts for %d turns.]], [[바닥에 문양을 새기고 빛을 불어넣습니다. 문양 위에 올라선 적은 5턴간 전체속도가 %d%% 감소합니다.
+		문양은 숨겨진 함정(탐지 난이도 %d 해체 난이도 %d)이며 %d 턴간 유지됩니다. 마법에 따라 함정의 탐지/해체 난이도가 증가합니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/radiance.lua"
 
+t("Radiance", "광휘")
+t([[You are so infused with sunlight that your body glows permanently in radius %d, even in dark places.
+		Your vision adapts to this glow, giving you %d%% blindness resistance.
+		The light radius overrides your normal light if it is bigger (it does not stack).
+		]], [[신체에 태양광을 극도로 주입해 영구적으로 발광시켜 반경 %d 를 어둠속에서도 밝힙니다.
+		시야가 휘광에 적응해 실명 저항이 %d%% 증가합니다.
+		광원 반경이 광휘의 반경보다 작다면 광휘가 광원 반경을 덮어씁니다(중첩 불가).
+		]])
+t("Illumination", "발광")
+t([[The light of your Radiance allows you to see that which would normally be unseen.
+		All enemies in your Radiance aura have their invisibility and stealth power reduced by %d.
+		In addition, all actors affected by illumination are easier to see and therefore hit; their defense is reduced by %d and all evasion bonuses from being unseen are negated.
+		The effects increase with your Spellpower.]], [[빛의 광휘가 일반적으로 보이지 않는 적을 볼수 있게 해줍니다.
+		광휘의 반경 안에 있는 적은 투명과 은신의 위력이 %d 감소합니다.
+		추가로 발광의 영향을 받는 모든 적을 공격하기 쉬워져 회피도가 %d 감소하고 보이지 않는것으로 얻는 모든 회피 보너스를 잃습니다.
+		주문력에 따라 효과가 증가합니다.]])
+t("Searing Sight", "타오르는 시야")
+t([[Your Radiance is so powerful it burns all foes caught in it, doing %0.1f light damage to all non-dazed foes caught inside.
+		Each enemy effected has a %d%% chance of being dazed for 5 turns.
+		The damage increases with your Spellpower.]], [[극도로 강력해진 광휘가 반경 내의 혼절 상태가 아닌 모든 적을 불태워 %0.1f 빛 피해를 줍니다.
+		피해를 받는 모든 적을 %d%% 확률로 5턴간 혼절시킵니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t("Judgement", "심판")
+t("Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects dealing %d light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing %d light damage in radius 1 and healing you for 50%% of the damage dealt.", "광휘의 반경 내의 모든 적에게 발광하는 구체를 발사합니다. 각 구체는 대상을 천천히 추적하여 경로상의 모든 적에게 %d 빛 피해를 줍니다. 구체가 대상에게 적중하면 폭발하여 반경 1 내의 모든 적에게 %d 빛 피해를 주고 시전자의 생명력을 가한 피해의 50%%만큼 회복시킵니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/star-fury.lua"
 
+t("Moonlight Ray", "월광 광선")
+t([[Focuses the power of the Moon into a beam of shadows, doing %0.2f damage.
+		The damage dealt will increase with your Spellpower.]], [[달의 힘을 담은 그림자 광선을 발사하여 %0.2f 암흑 피해를 줍니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t("Shadow Blast", "그림자 폭발")
+t([[Invokes a blast of shadows that deals %0.2f darkness damage, and leaves a radius 3 field that does %0.2f darkness damage per turn for %d turns.
+		The damage dealt will increase with your Spellpower.]], [[그림자를 폭발시켜 %0.2f 암흑 피해를 주고 매 턴 %0.2f 암흑 피해를 주는 반경 3의 암흑 지대를 %d 턴간 생성합니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t("Twilight Surge", "황혼 쇄도")
+t([[A surge of twilight pulses from you, doing %0.2f light and %0.2f darkness damage to all others within radius %d.
+		The damage dealt will increase with your Spellpower.]], [[황혼의 파동이 당신으로부터 쇄도합니다. 반경 %d 내의 모든 대상에게 %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다.
+		주문력에 따라 피해량이 증가합니다.]], {3,1,2})
+t("Starfall", "별똥별")
+t([[A star falls on a radius %d area, doing %0.2f darkness damage on impact and stunning all within the area for 4 turns.
+		The damage dealt will increase with your Spellpower.]], [[대상 지역에 별을 떨어트려 반경 %d 내의 모든 대상에게 %0.2f 암흑 피해를 주고 4턴간 기절시킵니다.
+		주문력에 따라 피해량이 증가합니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/sun.lua"
 
+t("Sun Ray", "태양 광선")
+t([[Calls forth a ray of light from the Sun, doing %0.1f Light damage to the target.
+		At level 3 the ray will be so intense it will also blind the target and everyone in a radius 2 around it for %d turns.
+		The damage dealt will increase with your Spellpower.]], [[태양으로부터 한줄기 빛을 불러와 대상에게 %0.1f 빛 피해를 줍니다.
+		기술 레벨 3에 도달하면 강렬한 태양광이 대상 반경 2 내의 모든 대상을 %d 턴간 실명시킵니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t("Path of the Sun", "태양의 길")
+t([[A path of sunlight appears in front of you for 5 turns. All foes standing inside take %0.1f Light damage per turn.
+		While standing in the path, your movement takes no time and can not trigger traps.
+		The damage done will increase with your Spellpower.]], [[태양의 길이 전방에 5턴간 나타납니다. 길 위의 적은 매 턴 %0.1f 빛 피해를 받습니다.
+		태양의 길 위에 서 있는 동안, 턴 소모 없이 이동할 수 있으며 함정을 발동시키지 않습니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t("Sun's Vengeance", "태양의 복수")
+t([[Infuse yourself with the raging fury of the Sun, increasing your physical and spell critical chance by %d%%.
+		Each time you crit with a physical attack or a spell you have %d%% chance to gain Sun's Vengeance for 2 turns.
+		While affected by Sun's Vengeance, your Sun Ray will take no time to use and will deal 25%% more damage.
+		If Sun Ray was on cooldown, the remaining turns are reduced by one instead.
+		This effect can only happen once per turn.]], [[태양의 맹렬한 분노에 몸을 맡겨 물리/마법 치명타율이 %d%% 증가합니다.
+		물리/마법 치명타가 발생할 때마다 %d%% 확률로 2턴간 태양의 분노를 얻습니다.
+		태양의 분노가 활성화된 동안 태양 광선을 턴 소모 없이 시전할 수 있으며 피해량이 25%% 증가합니다.
+		태양 광선이 재사용 대기중이라면 재사용 대기시간이 즉시 1턴으로 감소합니다.
+		이 효과는 1턴에 한번만 발동합니다.]])
+t("Suncloak", "태양 망토")
+t([[You wrap yourself in a cloak of sunlight that empowers your magic and protects you for 6 turns.
+		While the cloak is active, your spell casting speed is increased by %d%%, your spell cooldowns are reduced by %d%%, and you cannot take more than %d%% of your maximum life from a single blow.
+		The effects will increase with your Spellpower.]], [[태양의 망토를 둘러 6턴간 마력을 강화하고 몸을 보호합니다.
+		태양의 망토가 활성화된 동안 시전속도가 %d%% 증가하고 주문 재사용 대기시간이 %d%% 감소하며 한번에 받는 피해가 최대 체력의 %d%% 를 초과하면 초과하는 피해를 무효화합니다.
+		주문력에 따라 효과가 강화됩니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/sunlight.lua"
 
+t("Searing Light", "타오르는 빛")
+t([[Calls the power of the Sun into a searing lance, doing %d damage to the target and leaving a radius 1 area of searing light on the ground for 4 turns that does %d light damage to all foes within it.
+		The damage dealt will increase with your Spellpower.]], [[태양의 힘을 불러와 타오르는 창으로 형상화하여 공격해 대상에게 %d 빛 피해를 주고 반경 1에 타오르는 빛을 남겨 4턴간 %d 빛 피해를 줍니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t("Sun Flare", "태양 플레어")
+t([[Invokes the Sun to cause a flare within radius %d, blinding your foes for %d turns and lighting up the area.
+		All enemies effected will take %0.2f light damage.
+		At talent level 3 you gain %d%% light, darkness, and fire resistance for %d turns.
+		The damage done and resistances will increase with your Spellpower.]], [[태양 플레어를 발생시켜 반경 %d 내를 밝히고 영역 내의 모든 적을 %d턴간 실명시킵니다.
+		영향을 받는 모든 적은 %0.2f 빛 피해를 받습니다.
+		기술 레벨 3에 도달하면 %d 턴간 빛/암흑/화염 저항이 %d%% 증가합니다.
+		주문력에 따라 피해량과 저항이 증가합니다.]], {1,2,3,5,4})
+t("Firebeam", "화염광선")
+t([[Call forth the Sun to summon a fiery beam that pierces to the farthest enemy dealing %d fire damage to all enemies hit.
+		This spell will automatically cast again at the start of your next two turns.
+		You will gain %0.2f positive energy each time firebeam or an instant damage proc caused by firebeam deals damage.
+		The damage done will increase with your Spellpower.]], [[적을 관통하는 타오르는 광선을 불러와 경로 상의 모든 적에게 %d 화염 피해를 줍니다.
+		이 주문은 다음 2턴의 시작시에 자동으로 재시전됩니다.
+		화염 광선으로 피해를 주거나 그로 인해 발생한 추가 피해 1회당 양기를 %0.2f 회복합니다.
+		주문력에 따라 피해량이 증가합니다.]])
+t("Sunburst", "태양광 폭발")
+t("Release a burst of sunlight beams at %d random foes in radius %d, dealing %d damage to all foes hit and increasing your bonus light damage by %d%% of your bonus darkness damage for %d turns.", "폭발적인 태양광선을 방출해 반경 %d 내의 무작위 %d 명의 적을 공격해 %d 빛 피해를 주고 %d 턴간 빛 피해가 현재 암흑 피해의 %d%% 만큼 증가합니다.", {1,2,3,5,4})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/twilight.lua"
 
+t("Twilight", "황혼")
+t([[You stand between the darkness and the light, allowing you to convert 15 positive energy into %d negative energy.
+		The negative energy gain will increase with your Cunning.]], [[빛과 어둠 사이에 선 당신은 양기 15를 음기 %d 로 전환할 수 있습니다.
+		교활에 따라 음기 획득량이 증가합니다.]])
+t("Jumpgate: Teleport To", "도약관문: 이동")
+t("You must sustain the Jumpgate spell to be able to teleport.", "도약관문 주문을 유지하고 있어야 도약할 수 있습니다.")
+t("Instantly travel to your jumpgate, as long as you are within %d tiles of it.", "도약관문에서 %d 칸 이내에 위치하고 있다면 도약관문의 위치로 즉시 이동합니다.")
+t("Jumpgate", "도약관문")
+t([[Create a shadow jumpgate at your current location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.
+		Note that any stairs underneath the jumpgate will be unusable while the spell is sustained, and you may need to cancel this sustain in order to leave certain locations.
+		At talent level 4, you learn to create and sustain a second jumpgate.]], [[현재 위치에 그림자 도약관문을 생성합니다. 주문을 유지하고 있고 도약관문에서 %d 칸 이내에 위치하고 있다면 '도약관문: 이동'을 사용하여 도약관문의 위치로 즉시 이동할 수 있습니다.
+		주문이 유지되는 동안 도약관문 아래의 계단은 비활성화되기 때문에 계단을 사용하기 위해서는 주문을 비활성화해야 합니다.
+		기술 레벨 4에 도달하면 도약관문을 최대 2개 생성하고 유지할 수 있습니다.]])
+t("Mind Blast", "정신 폭발")
+t([[Let out a mental cry that shatters the will of your targets within radius %d, dealing %0.2f darkness damage and confusing (%d%% to act randomly) them for %d turns.
+		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[적의 의지를 산산조각내는 마음의 외침을 내뱉습니다. 외침은 반경 %d 내의 적에게 %0.2f 암흑 피해를 주고 %d 턴간 혼란(위력: %d%%)시킵니다.
+		주문력에 따라 피해량이 증가하고 교활에 따라 지속시간이 증가합니다.]], {1,2,4,3})
+t("Shadow Simulacrum", "그림자 복제")
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
+t("You can't target summons!", "복제를 대상으로 할 수 없습니다.")
+t("You can't target allies!", "아군을 대상으로 할 수 없습니다.")
+t("A dark, shadowy shape whose form resembles the creature it was copied from. It is not a perfect replica, though, and it makes you feel uneasy to look at it.", "어두운 그림자의 형상을 한 모방체입니다. 완벽한 복제품은 아니지만 바라보고 있으면 불안한 마음이 듭니다.")
+t([[Creates a shadowy copy of a hostile target. The copy will attack its progenitor immediately and lasts for %d turns.
+		The duplicate has %d%% of the target's life, +50%% darkness resistance, -50%% light resistance, and deals 50%% less damage.
+		The duration and life scale with your Cunning.]], [[대상의 그림자 복제를 생성합니다. 복제품은 즉시 원본을 공격하기 시작하며 %d 턴간 지속됩니다.
+		복제품은 원본 생명력의 %d%% 를 가지며 암흑 저항이 50%% 증가하고 빛 저항이 50%% 감소하고 주는 피해가 50%% 감소합니다.
+		교활에 따라 지속시간과 생명력 비율이 증가합니다.]])
+t("Jumpgate Two", "도약관문 2호")
+t("jumpgate", "도약관문")
+t("Create a second shadow jumpgate at your location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within %d tiles of it.", "현재 위치에 2번째 그림자 도약관문을 생성합니다. 주문을 유지하고 있고 도약관문 2호에서 %d 칸 이내에 위치하고 있다면 '도약관문 2호: 이동'을 사용하여 도약관문 2호의 위치로 즉시 이동할 수 있습니다.")
+t("Jumpgate Two: Teleport To", "도약관문 2호: 이동")
+t("You must sustain the Jumpgate Two spell to be able to teleport.", "도약관문 2호 주문을 유지하고 있어야 도약할 수 있습니다.")
+t("Instantly travel to your second jumpgate, as long as you are within %d tiles of it.", "도약관문 2호에서 %d 칸 이내에 위치하고 있다면 도약관문 2호의 위치로 즉시 이동합니다.")
 
 
 ------------------------------------------------
@@ -7884,6 +8576,8 @@ section "game/modules/tome/data/talents/chronomancy/age-manipulation.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/anomalies.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
+t("trap", "함정")
 
 
 ------------------------------------------------
@@ -7947,16 +8641,19 @@ section "game/modules/tome/data/talents/chronomancy/matter.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/other.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/spacetime-folding.lua"
 
+t("trap", "함정")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/spacetime-weaving.lua"
 
+t("trap", "함정")
 
 
 ------------------------------------------------
@@ -7997,6 +8694,7 @@ section "game/modules/tome/data/talents/chronomancy/threaded-combat.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/timeline-threading.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
 
@@ -8114,16 +8812,127 @@ section "game/modules/tome/data/talents/cunning/dirty.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/cunning/lethality.lua"
 
+t("Lethality", "치명")
+t([[You have learned to find and hit weak spots. All your strikes have a %0.1f%% greater chance to be critical hits, and your critical hits do %0.1f%% more damage.
+		Also, when using knives and throwing knives, you now use your Cunning instead of your Strength for bonus damage.]], [[당신은 적의 약점을 파악하는 법을 배웠습니다. 당신의 모든 공격의 치명타 확률이 %0.1f%%만큼 증가하고, 치명타 피해량이 %0.1f@@만큼 증가합니다.
+		또한, knives and throwing knives를 사용할 때 추가 피해량은 힘이 아니라 교활에 비례하여 증가합니다.]])
+t("Expose Weakness", "약점 노출")
+t([[Focus on a single target and perform a probing attack to find flaws in its defences, striking with your melee weapon(s) for %d%% damage.
+		For %d turns thereafter, you gain %d armor penetration, %d accuracy, and %d%% all damage peneration.
+		Learning this technique allows you to permanently gain %d armour penetration with all melee and archery attacks.
+		The temporary armor penetration and accuracy bonuses increase with Cunning.]], [[단일 대상에게 집중하여 근접 무기를 이용해 적의 약점을 찾아내는 공격을 가해 %d%%의 피해를 줍니다.
+		그 후 %d 턴간, %d의 방어도 관통력, %d의 정확도, %d%%의 모든 피해 관통력이 증가합니다.
+		이 기술을 배움으로 인해 영구적으로 근접 무기 및 archery를 이용한 공격을 할 때 %d의 방어구 관통력을 얻습니다. 
+		약점 노출 사용 시 방어도 관통력과 정확도 증가량은 교활에 비례하여 증가합니다.]])
+t("Blade Flurry", "칼날 돌풍")
+t([[Become a whirling storm of blades, increasing attack speed by %d%% and causing melee attacks to strike an additional adjacent target other than your primary target for %d%% weapon damage. 
+This talent is exhausting to use, draining 4 stamina each turn.]], [[휘몰아치는 칼날 폭풍이 되어 공격 속도가 %d%%만큼 증가하고, 근접 공격이 주위의 추가 대상 한 명을 가격하여 %d%%의 무기 피해를 줍니다. 
+이 기술을 사용 할 때, 매 턴 4만큼의 체력을 소모합니다.]])
+t("Snap", "기민")
+t("Your quick wits allow you to reset the cooldown of up to %d of your combat talents (cunning or technique) of tier %d or less.", "재빠른 재치를 발휘해 전투 기술 %d 개의 남은 재사용 대기시간을 초기화합니다. %d 단계 이하의 기술만 초기화 할 수 있습니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/cunning/poisons.lua"
 
+t("Apply Poison", "독 바르기")
+t("%s resists the vile poison!", "%s 독에 저항합니다!", nil, {"을"})
+t([[Learn how to coat your melee weapons, throwing knives, sling and bow ammo with poison, giving your attacks a %d%% chance to poison the target for %d nature damage per turn for %d turns. Every application of the poison stacks, up to a maximum of %d nature damage per turn.
+		The damage scales with your Cunning.]], [[근접 무기, 칼날 투척, 새총 및 활에 독을 발라 당신의 공격이 %d%% 확률로 대상에게 턴마다 %d의 자연 피해를 %d턴 간 입힙니다. 독 피해는 중첩되어 최대 턴마다 %d의 자연 피해를 입힐 수 있습니다.
+		피해량은 교활에 비례하여 증가합니다.]])
+t("Toxic Death", "독성 죽음")
+t("#GREEN#Poison bursts out of %s's corpse!", "#GREEN#독이 %s의 시체에서 뿜어져 나옵니다!")
+t("When you kill a creature, all of your poisons affecting it will spread to foes in a radius of %d.", "적을 죽일 때, 대상이 걸린 독이 %d 범위의 적에게 퍼집니다.")
+t("Vile Poisons", "치명적인 독")
+t([[Learn how to enhance your Deadly Poison, adding additional effects. Each level, you will learn a new kind of poison enhancement:
+	Level 1: Numbing Poison
+	Level 2: Insidious Poison
+	Level 3: Crippling Poison
+	Level 4: Leeching Poison
+	Level 5: Volatile Poison
+	New poison enhancements can also be learned from special teachers in the world.
+	Also increases the effectiveness of your poisons by %d%%. (The effect varies for each poison.)
+	Adjusting your weapon coating takes no time and does not break stealth.
+	You may only have two poison enhancements active at once; applying a third will randomly cause one of the existing ones to be cancelled.]], [[독을 강화시켜 추가 효과를 얻는 법을 배웁니다. 스킬 레벨이 오를 때 마다 독을 강화시키는 새로운 방법을 알게 됩니다:
+	레벨 1: 마비성 독
+	레벨 2: 은밀한 독
+	레벨 3: 방해성 독
+	레벨 4: 흡혈성 독
+	레벨 5: 휘발성 독
+	특별한 스승으로부터 새로운 독 강화법을 배울 수 있습니다.
+	추가로, 독의 효과를 %d%%만큼 증가시킵니다. (효과는 각각의 독에 따라 상이합니다.)
+	무기에 바르는 독을 바꾸는 것은 턴을 소모하지 않고, 은신을 해제하지도 않습니다.
+	한번에 두 가지의 독을 바를 수 있습니다; 세 번째 독을 바르면 기존에 발려있는 독 중 하나가 무작위로 취소됩니다.]])
+t("Venomous Strike", "맹독성 타격")
+t("#GREEN#%s's %s is disrupted by crippling poison!", "#GREEN#%s %s 방해성 독에 의해 방해받았다!", nil, {"의","는"})
+t([[Numbing Poison - Reduces global speed by %d%% for 5 turns.
+		Insidious Poison - Applies a standard poison that deals %0.2f nature damage over 5 turns.
+		Crippling Poison - Places %d talents on cooldown for %d turns.
+		Leeching Poison - Heals you for %d.
+		Volatile Poison - Deals a further %0.2f nature damage to foes in a radius %d ball.
+		]], [[마비성 독 - 5턴 간 대상의 전체 속도를 %d%%만큼 감소시킵니다.
+		은밀한 독 - 5턴 동안 %0.2f의 자연 피해를 입힙니다.
+		방해성 독 - %d 종류의 기술을 %d 턴 간 재사용 대기시간에 돌입시킵니다. 
+		흡혈성 독 - %d의 생명력을 회복합니다.
+		휘발성 독 - 반경 %d의 적에게 %0.2f의 자연 피해를 입힙니다.
+		]])
+t([[You strike your target with your melee or ranged weapon, doing %d%% weapon damage as nature and inflicting additional effects based on your active vile poisons:
+		
+		%s
+		Learning this talent in addition to the Throwing Knives talent allows you to learn the Venomous Throw talent, which can be used to throw poisoned daggers at your foes, but is put on cooldown when this talent is used.
+		]], [[당신이 근접이나 원거리 무기로 공격할 때, %d%%의 무기 피해만큼 자연 피해를 주고, 치명적인 독에 의해 부여된 독에 따라 추가 효과를 줍니다.:
+		
+		%s
+		칼날 투척 기술을 배우고 있을 경우 맹독성 투척을 사용할 수 있게 됩니다. 맹독성 타격과 맹독성 투척은 재사용 대기시간을 공유합니다.
+		]])
+t("Numbing Poison", "마비성 독")
+t("Enhances your Deadly Poison with a numbing agent, causing the poison to reduce all damage the target deals by %d%%.", "당신의 독을 마비성 물질로 강화시켜, 대상이 입히는 피해량을 %d%%만큼 감소시킵니다.")
+t("Insidious Poison", "은밀한 독")
+t("Enhances your Deadly Poison with an insidious agent, causing it to reduce the healing taken by enemies by %d%%.", "당신의 독을 은밀한 물질로 강화시켜, 대상이 받는 치유량을 %d%%만큼 감소시킵니다.")
+t("Crippling Poison", "방해성 독")
+t("Enhances your Deadly Poison with a crippling agent, giving enemies a %d%% chance on using a talent to fail and lose a turn.", "당신의 독을 방해성 물질로 강화시켜, 대상이 %d%%의 확률로 기술 시전을 실패하게 합니다.")
+t("Leeching Poison", "흡혈성 독")
+t("Enhances your Deadly Poison with a leeching agent, causing it to heal you for %d%% of the damage it does to its target.", "당신의 독을 흡혈성 물질로 강화시켜, 대상에게 주는 피해의 %d%%만큼 당신의 생명력을 회복시킵니다.")
+t("Volatile Poison", "휘발성 독")
+t("Enhances your Deadly Poison with a volatile agent, causing the poison to deal %d%% increased damage to the victim and damage all of your enemies adjacent to it for 50%%.", "당신의 독을 휘발성 물질로 강화시켜, 대상에게 %d%%만큼 증가된 피해를 주고, 인접한 적들에게 50%%의 피해를 줍니다.")
+t("Vulnerability Poison", "취약성 독")
+t("Whenever you apply Deadly Poison, you also apply an unresistable magical poison dealing %0.2f arcane damage (based on your Magic) each turn. This poison reduces all damage resistance by 10%% and poison immunity by 50%%.", "당신의 독을 취약성 물질로 강화시켜, 대상에게 %0.2f의 아케인 피해 (마법에 비례) 를 매 턴간 주고, 모든 피해 저항력을 10%%만큼 감소시키고, 독 면역력을 50%%만큼 감소시킵니다.")
+t("Stoning Poison", "석화성 독")
+t([[Enhance your Deadly Poison with a stoning agent.  Whenever you apply Deadly Poison, you afflict your target with an additional earth-based poison that inflicts %d nature damage per turn (stacking up to %d damage per turn) for %d turns.
+		After either %d turns or the poison has run its course (<100%% chance, see effect description), the target will be turned to stone for %d turns.
+		The damage scales with your Cunning.]], [[당신의 독을 석화성 물질로 강화시켜, 대상에게 매 턴간 %d의 자연 피해(최대 매 턴 %d의 피해)를 %d턴 간 입힙니다.
+		%d 턴이 지나거나 독의 지속시간이 끝나면 (<100%% 확률, 효과 설명 참고), 대상은 %d턴 간 돌로 변합니다.
+		교활에 비례하여 피해량이 증가합니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/cunning/scoundrel.lua"
 
+t("Lacerating Strikes", "절단 타격")
+t("Your melee and ranged attacks have a %d%% chance to shred enemies inflicting an additional 100%% of the damage dealt as a bleed over 4 turns.", "근접 및 원거리 공격이 %d%% 확률로 적을 찢어 4턴에 걸쳐 피해량의 100%%의 출혈 피해를 줍니다.")
+t("Scoundrel's Strategies", "건달의 전략")
+t([[Your melee and ranged attacks inflict distracting wounds that reduce the target’s critical strike multiplier by %d%% for 5 turns. 
+In addition, your attacks have a %d%% chance to inflict a painful wound that causes them to forget a random talent for %d turns.  The last effect cannot occur more than once per turn per target.
+		]], [[근접 및 원거리 공격이 대상의 상처를 건들여 대상의 치명타 배율을 5턴 간 %d%%만큼 감소시킵니다. 
+추가로, 당신의 공격은 %d%% 확률로 대상의 상처를 헤집어 %d 턴간 고통으로 인해 무작위 기술을 잊어버리게 합니다. 추가 효과는 1턴에 1번만 발동하지만 대상 수의 제한은 없습니다.
+		]])
+t("Misdirection", "흘려내기")
+t("#ORANGE#%s redirects the effect '%s'!#LAST#", "#ORANGE#%s '%s' 흘려냈다!#LAST#", nil, {"는","을"})
+t([[Your abilities in sowing confusion and chaos have reached their peak.  Whenever a foe attempts to apply a detrimental physical effect to you, they have a %d%% chance to fail. If there is an adjacent enemy to you, you misdirect your foe into applying it to them at %d%% duration.
+You gain %d defense.
+The chance to apply status effects increases with your Accuracy and the Defense with your Cunning.]], [[혼란을 전파시키는 능력이 절정에 이르렀습니다. 적이 당신에게 detrimental physical effect를 입힐 때, %d%% 확률로 회피합니다. 회피 시 주변에 적이 있을 경우, 해당 효과를 %d%%의 지속시간 동안 주변의 적에게 적용합니다.
+회피도가 %d만큼 상승합니다.
+회피 확률은 정확도에 비례하고, 회피도 상승량은 교활에 비례합니다.]])
+t("Fumble", "헛발질")
+t([[Your melee and ranged attacks leave your foes unable to focus on any complex actions, giving them a stacking 3%% chance of failure the next time they try to use a talent (to a maximum of %d%%).
+		If any effect causes the target's turn to fail they fumble and injure themself, taking %0.2f physical damage.
+		If the turn loss was caused by this effect then Fumble is removed.
+		The damage dealt increases with your Cunning.
+		]], [[근접 및 원거리 공격이 적들이 복잡한 행동을 하지 못하게 만듭니다. 적을 공격할 때 마다 3%%의 확률로 다음 스킬 시전을 방해하고, 1턴을 낭비하게 합니다. (최대 %d%%까지 중첩)
+		헛발질에 의해 턴을 낭비한 적은 스스로에게 걷어차여 %0.2f의 물리 피해를 입습니다.
+		헛발질에 의해 턴을 낭비하게 되면 헛발질 상태이상은 초기화됩니다.
+		피해량은 교활에 비례합니다.
+		]])
 
 
 ------------------------------------------------
@@ -8185,6 +8994,8 @@ section "game/modules/tome/data/talents/cunning/tactical.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/cunning/traps.lua"
 
+t("trap", "함정")
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 
 
@@ -8312,6 +9123,8 @@ section "game/modules/tome/data/talents/gifts/cold-drake.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/gifts/corrosive-blades.lua"
 
+t("trap", "함정")
+t("You somehow fail to set the corrosive seed.", "부식성 씨앗을 놓는데 실패했습니다.")
 
 
 ------------------------------------------------
@@ -8418,16 +9231,19 @@ section "game/modules/tome/data/talents/gifts/summon-augmentation.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/gifts/summon-distance.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/gifts/summon-melee.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/gifts/summon-utility.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -8438,7 +9254,9 @@ section "game/modules/tome/data/talents/gifts/venom-drake.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/horrors.lua"
 
+t("spell", "주문")
 t("other", "다른")
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -8456,8 +9274,10 @@ section "game/modules/tome/data/talents/misc/misc.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/npcs.lua"
 
+t("spell", "주문")
 t("other", "다른")
 t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", nil, {"가"})
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 t("%s resists!", "%s 저항합니다!", nil, {"가"})
 t("You cannot be stealthy with such heavy armour on!", "중갑을 장비한 채로는 은신할 수 없습니다!")
 t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.")
@@ -8466,6 +9286,7 @@ t("You require two weapons to use this talent.", "이 기술을 사용하기 위
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/objects.lua"
 
+t("spell", "주문")
 t("other", "다른")
 t("You require a shield to use this talent.", "이 기술을 사용하려면 방패가 필요합니다.")
 
@@ -8477,6 +9298,7 @@ t("shalore", "샬로레")
 t("thalore", "탈로레")
 t("dwarf", "드워프")
 t("halfling", "하플링")
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 t("ogre", "오우거")
 
 
@@ -8575,6 +9397,7 @@ section "game/modules/tome/data/talents/psionic/nightmare.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/other.lua"
 
+t("%s's %s", "%s 의 %s")
 
 
 ------------------------------------------------
@@ -8626,6 +9449,7 @@ section "game/modules/tome/data/talents/psionic/thermal-mastery.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/thought-forms.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
@@ -8661,11 +9485,36 @@ section "game/modules/tome/data/talents/spells/aegis.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/aether.lua"
 
+t("trap", "함정")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/air.lua"
 
+t("Lightning", "번개")
+t([[Conjures up mana into a powerful beam of lightning, doing %0.2f to %0.2f damage (%0.2f average)
+		The damage will increase with your Spellpower.]], [[마나를 강력한 번개 기둥으로 변환시켜 적들에게 %0.2f에서 %0.2f의 피해를 줍니다. (피해량 평균 %0.2f)
+		피해량은 주문력이 비례합니다.]])
+t("Chain Lightning", "연쇄 번개")
+t([[Invokes a forking beam of lightning doing %0.2f to %0.2f damage (%0.2f average) and forking to another target.
+		It can hit up to %d targets up to 10 grids apart, and will never hit the same one twice; nor will it hit the caster.
+		The damage will increase with your Spellpower.]], [[갈라지는 번개를 소환하여 %0.2f에서 %0.2f의 피해를 주고 다른 적을 향해 갈라집니다. (피해량 평균 %0.2f).
+		최대 %d명의 적을 공격하며, 10칸만큼 떨어진 적을 공격할 수 있습니다. 한 대상이 여러 번 피해를 입을 수는 없고, 시전자에게 피해를 주지도 않습니다.
+		피해량은 주문력에 비례합니다.]])
+t("Feather Wind", "깃털 바람")
+t([[A gentle wind circles around the caster, increasing carrying capacity by %d, defense against projectiles by %d, pin immunity by %d%% and stun immunity by %d%%.
+		At level 4 it also makes you levitate slightly above the ground, allowing you to ignore some traps.
+		At level 5 it also grants %d%% movement speed and removes %d fatigue.]], [[부드러운 바람이 시전자 주위를 감싸안아 소지량 한도가 %d만큼 증가하며, 투사체 회피가 %d만큼 증가하고, 속박 면역력과 기절 면역력이 각 각 %d%%, %d%%만큼 증가합니다.
+		스킬 레벨이 4가 되면 지면에서 살짝 뜬 상태로 이동하여 몇 몇 함정을 무시할 수 있게 됩니다.
+		스킬 레벨이 5가 되면 이동 속도가 %d%%만큼 증가하며, 피로도가 %d 감소합니다.]])
+t("Thunderstorm", "뇌우")
+t("#0080FF#A furious lightning storm forms around %s!", "#0080FF#맹렬한 번개 폭풍이 %s 주위를 몰아칩니다!")
+t("#0080FF#The furious lightning storm around %s calms down and disappears.", "#0080FF#%s 주위의 맹렬한 번개 폭풍이 잠잠해집니다.")
+t([[Conjures a furious, raging lightning storm with a radius of 6 that follows you as long as this spell is active.
+		Each turn, a random lightning bolt will hit up to %d of your foes for 1.00 to %0.2f damage (%0.2f average) in a radius of 1.
+		The damage will increase with your Spellpower.]], [[맹렬한 번개 폭풍을 소환하여 반경 6칸 이내의 적을 공격합니다.
+		매 턴, 무작위 번개가 %d명의 적 대상 반경 1칸에 1.00에서 %0.2f의 피해를 줍니다. (피해량 평균 %0.2f)
+		피해량은 주문력에 비례합니다.]])
 
 
 ------------------------------------------------
@@ -8712,6 +9561,7 @@ section "game/modules/tome/data/talents/spells/eldritch-stone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/energy-alchemy.lua"
 
+t("%s's %s", "%s 의 %s")
 
 
 ------------------------------------------------
@@ -8732,6 +9582,24 @@ section "game/modules/tome/data/talents/spells/fire-alchemy.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/fire.lua"
 
+t("Flame", "불꽃")
+t([[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire damage over 3 turns.
+		At level 5, it will create a beam of flames.
+		The damage will increase with your Spellpower.]], [[화염 화살을 쏘아보내 대상을 불타게 해 3턴 간 %0.2f의 화염 피해를 입힙니다.
+		스킬 레벨이 5가 되면, 화염 기둥이 되어, 적을 관통합니다.
+		피해량은 주문력에 비례합니다.]])
+t("Flameshock", "불꽃충격")
+t([[Conjures up a cone of flame with radius %d. Any targets caught in the area will suffer Burning Shock, stunning them and dealing %0.2f fire damage over %d turns.
+		The damage will increase with your Spellpower.]], [[원뿔 모양의 불꽃으로 반경 %d 칸 내의 적을 불태웁니다. 범위 내 적은 화상 충격으로 인해 %d 턴에 걸쳐 %0.2f의 화염 피해를 입고, 기절합니다.
+		피해량은 주문력에 비례합니다.]])
+t("Fireflash", "불꽃섬광")
+t([[Conjures up a bolt of fire that moves toward the target and explodes into a flash of fire, doing %0.2f fire damage in a radius of %d.
+		The damage will increase with your Spellpower.]], [[대상을 향해 움직이는 불꽃을 던집니다. 목표 지점에 도달하면 불꽃이 번쩍이며 폭발하여 %0.2f의 화염 피해를 대상 주위 %d 칸에 입힙니다.
+		피해량은 주문력에 비례합니다.]])
+t("Inferno", "지옥불")
+t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
+		The damage will increase with your Spellpower.]], [[타오르는 불길이 적과 아군을 가리지 않고 불태워 %0.2f의 화염 피해를 %d 칸에 %d턴동안 입힙니다.
+		피해량은 주문력에 비례합니다.]])
 
 
 ------------------------------------------------
@@ -8747,6 +9615,7 @@ section "game/modules/tome/data/talents/spells/golem.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/golemancy.lua"
 
+t("drolem", "드롤렘")
 
 
 ------------------------------------------------
@@ -8788,11 +9657,99 @@ section "game/modules/tome/data/talents/spells/phantasm.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/shades.lua"
 
+t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/spells.lua"
 
+t("Arcane studies manipulate the raw magic energies to shape them into both offensive and defensive spells.", "비전 연구는 순수한 마법 에너지를 조종해 공격적이거나 방어적인 주문으로 창조합니다.")
+t("Tap on the core arcane forces of the aether, unleashing devastating effects on your foes.", "에테르의 핵심적인 비전을 다뤄 상대에게 치명적인 피해를 입힙니다.")
+t("aether", "에테르")
+t("Harness the power of fire to burn your foes to ashes.", "불의 힘을 제어해 상대를 잿더미로 태워버립니다.")
+t("fire", "화염")
+t("Harness the power of wildfire to burn your foes to ashes.", "열화의 힘을 제어해 상대를 잿더미로 태워버립니다.")
+t("wildfire", "열화")
+t("Harness the power of the earth to protect and destroy.", "대지의 힘을 제어해 방어하고 파괴합니다.")
+t("earth", "대지")
+t("Harness the power of the stone to protect and destroy.", "암석의 힘을 제어해 방어하고 파괴합니다.")
+t("stone", "암석")
+t("Harness the power of water to drown your foes.", "물의 힘을 제어해 상대를 익사시킵니다.")
+t("water", "물")
+t("Harness the power of ice to freeze and shatter your foes.", "얼음의 힘을 제어해 상대를 얼리고 산산조각 냅니다.")
+t("ice", "얼음")
+t("Harness the power of the air to fry your foes.", "공기의 힘을 제어해 상대를 감전시킵니다.")
+t("air", "공기")
+t("Harness the power of the storm to incinerate your foes.", "폭풍의 힘을 제어해 상대를 소각합니다.")
+t("storm", "폭풍")
+t("Meta spells alter the working of magic itself.", "초월 주문은 마법 자체의 원리를 변경합니다.")
+t("meta", "초월")
+t("The school of time manipulation.", "시간 조종 학파입니다.")
+t("temporal", "시간")
+t("Control the power of tricks and illusions.", "속임수와 환영의 힘을 조종합니다.")
+t("phantasm", "환영")
+t("Magical enhancement of your body.", "마법으로 신체를 강화합니다.")
+t("enhancement", "강화")
+t("Conveyance is the school of travel. It allows you to travel faster and to track others.", "전이는 이동 학파입니다. 더 빠르게 이동하고 상대를 추적할 수 있게 해줍니다.")
+t("conveyance", "전이")
+t("Divination allows the caster to sense its surroundings, and find hidden things.", "예지는 시전자로 하여금 주변을 감지하고 숨겨진 것들을 발견할 수 있게 해줍니다.")
+t("divination", "예지")
+t("Command the arcane forces into healing and protection.", "비전의 힘을 사용해 치료와 보호를 수행합니다.")
+t("aegis", "수호")
+t("Manipulate gems to turn them into explosive magical bombs.", "보석을 조작해 폭발성 마법 폭탄으로 바꿉니다.")
+t("explosive admixtures", "폭발성 혼합물")
+t("Infusion your gem bombs with the powers of the elements.", "보석 폭탄에 원소의 힘을 주입합니다.")
+t("infusion", "주입")
+t("Learn to craft and upgrade your golem.", "골렘을 제작하고 강화하는 법을 배웁니다.")
+t("golemancy", "골렘학")
+t("Advanced golem operations.", "골렘의 운용을 개선합니다.")
+t("advanced-golemancy", "고급 골렘학")
+t("Alchemical spells designed to wage war.", "전쟁을 치르기 위해 설계된 연금술 주문입니다.")
+t("Alchemical control over fire.", "화염을 통제하는 연금술입니다.")
+t("fire alchemy", "화염의 연금술")
+t("Alchemical control over acid.", "산성을 통제하는 연금술입니다.")
+t("acid alchemy", "산성의 연금술")
+t("Alchemical control over frost.", "서리를 통제하는 연금술입니다.")
+t("frost alchemy", "서리의 연금술")
+t("Alchemical control over lightning energies.", "번개 에너지를 통제하는 연금술입니다.")
+t("energy alchemy", "에너지의 연금술")
+t("Manipulate gems, and imbue their powers into other objects.", "보석을 조작해 보석의 힘을 다른 물체에 주입합니다.")
+t("Alchemical control over stone and gems.", "암석과 보석을 통제하는 연금술입니다.")
+t("stone alchemy", "암석의 연금술")
+t("Harness the power of magical staves.", "마법 지팡이의 힘을 제어합니다.")
+t("staff combat", "지팡이 전투기술")
+t("Golem melee capacity.", "골렘 근접 능력.")
+t("fighting", "전투기술")
+t("Golem arcane capacity.", "골렘 비전 능력.")
+t("arcane", "비전")
+t("Golem basic capacity.", "골렘 기본 능력.")
+t("Drolem basic capacity.", "드롤렘 기본 능력.")
+t("drolem", "드롤렘")
+t("golem", "골렘")
+t("Create and empower dumb undead minions.", "멍청한 언데드 하수인을 만들고 강화합니다.")
+t("necrotic minions", "사령의 하수인")
+t("Create and empower powerful undead minions.", "강력한 언데드 하수인을 만들고 강화합니다.")
+t("advanced necrotic minions", "고급 사령의 하수인")
+t("Manipulate darkness itself to slaughter your foes.", "어둠 그 자체를 조종해 적을 학살합니다.")
+t("nightfall", "황혼")
+t("Invoke and control shades.", "그림자를 사용하고 조종합니다.")
+t("shades", "그림자")
+t("Gain control over death, eventually turning into a lich.", "죽음에 대한 통제력을 얻고 최종적으로는 리치로 변신합니다.")
+t("necrosis", "사령술")
+t("Use the rotting cold doom of the tomb to fell your foes.", "묘지의 차갑고 부패한 힘을 사용해 적을 쓰러뜨립니다.")
+t("grave", "묘지")
+t("Crush the souls of your foes to improve yourself.", "적의 영혼을 짓뭉개고 스스로를 강화합니다.")
+t("animus", "증오")
+t("Infuse arcane forces into your shield.", "방패에 비전의 힘을 주입합니다.")
+t("eldritch shield", "엘드리치 방패")
+t("Summon stony spikes imbued with various powers.", "다양한 힘이 주입된 암석 기둥을 소환합니다.")
+t("eldritch stone", "엘드리치 암석")
+t("Harness the power of the world to turn into a Deeprock Form.", "세상의 힘을 통제해 기반암 형태로 변신합니다.")
+t("deeprock", "기반암")
+t("spell", "주문")
+t("Necrotic Minion", "사령의 하수인")
+t("#{bold}#%s decays into a pile of ash!#{normal}#", "#{bold}#%s 썩어 문드러졌습니다!#{normal}#", nil, {"가"})
+t("A soul returns to %s.", "영혼이 %s에 돌아갑니다.")
 
 
 ------------------------------------------------
@@ -9088,7 +10045,29 @@ section "game/modules/tome/data/talents/techniques/battle-tactics.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/techniques/bloodthirst.lua"
 
-t("Unstoppable", "저지 불가")
+t("Mortal Terror", "극심한 공포")
+t("%s resists the terror!", "%s 공포에 저항합니다!", nil, {"는"})
+t([[Your mighty blows inspire utter terror on your foes. Any melee strike you do that deals more than %d%% of the target's total life puts them in a mortal terror, dazing them for 5 turns.
+		Your critical strike chance also increase by %d%%.
+		The daze chance increase with your Physical Power.]], [[강력한 공격이 적에게 엄청난 공포를 안겨줍니다. 근접 공격으로 대상의 최대 생명력의 %d%%가 넘는 피해를 주면 대상은 극심한 공포에 빠지 5턴 동안 혼절합니다.
+		치명타 확률이 %d%% 증가합니다.
+		혼절 확률은 물리력의 영향을 받아 증가합니다.]])
+t("Bloodbath", "유혈사태")
+t([[Delight in spilling the blood of your foes.  After scoring a critical hit, your maximum hit points will be increased by %d%%, your life regeneration by %0.2f per turn, and your stamina regeneration by %0.2f per turn for %d turns.
+		The life and stamina regeneration will stack up to five times, for a maximum of %0.2f and %0.2f each turn, respectively.]], [[상대가 흘린 피에 희열을 느낍니다. 치명타를 가하면 최대 생명력이 %d%% 증가하고 턴 당 생명력 재생이 %0.2f / 체력 재생이 %0.2f 증가합니다. 효과는 %d턴 동안 유지됩니다.
+		생명력과 체력 재생 효과는 최대 5회까지 중첩되며, 턴 당 생명력 재생은 %0.2f, 체력 재생은 %0.2f 까지 증가합니다.]])
+t("Bloody Butcher", "피의 도살자")
+t([[You delight in the inflicting of wounds, providing %d physical power.
+		In addition when you make a creature bleed its physical damage resistance is reduced by %d%% (but never below 0%%).
+		Physical power depends on your Strength stat.]], [[적에게 상처를 내며 희열을 느끼고 물리력이 %d 증가합니다.
+		적이 출혈 상태에 걸릴 경우 적의 물리 피해 저항력이 %d%% 감소합니다, (단, 저항력은 0%% 밑으로 내려가지 않습니다)
+		물리력은 힘 능력치의 영향을 받아 증가합니다.]])
+t("Unstoppable", "저지불가")
+t([[You enter a battle frenzy for %d turns. During that time, you can not use items, healing has no effect, and your health cannot drop below 1.
+		At the end of the frenzy, you regain %d%% of your health per foe slain during the frenzy.
+		While Unstoppable is active, Berserker Rage critical bonus is disabled as you lose the thrill of the risk of death.]], [[%d턴 동안 전투 광란 상태에 돌입합니다. 상태가 지속되는 동안 아이템을 사용할 수 없고 치유 효과도 적용되지 않지만, 생명력이 1 밑으로 떨어지지 않습니다.
+		전투 광란 상태가 끝나면 광란 상태에서 처치한 적 하나당 생명력을 %d%% 회복합니다.
+		저지불가를 활성화한 동안 죽음에 대한 흥분을 잃기 때문에 광전사의 분노 치명타 보너스는 적용되지 않습니다.]])
 
 
 ------------------------------------------------
@@ -9099,6 +10078,7 @@ section "game/modules/tome/data/talents/techniques/bow.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/techniques/buckler-training.lua"
 
+t("Buckler Expertise", "방패 전문가")
 
 
 ------------------------------------------------
@@ -10093,30 +11073,66 @@ section "game/modules/tome/data/timed_effects/floor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/magical.lua"
 
+t("stone", "암석")
+t("phantasm", "환영")
 t("radiance", "광휘")
+t("Providence", "섭리")
+t("Totality", "완전함")
+t("Empowered Glyphs", "문양 증강")
+t("Sunburst", "태양광 폭발")
+t("Vulnerability Poison", "취약성 독")
+t("arcane", "비전")
+t("Sun's Vengeance", "태양의 복수")
+t("Suncloak", "태양 망토")
+t("Mark of Light", "빛의 징표")
+t("Righteous Strength", "정의로운 힘")
 t("sun", "태양")
+t("ice", "얼음")
+t("water", "물")
+t("temporal", "시간")
+t("earth", "대지")
+t("Bathe in Light", "빛의 세례")
 t("celestial", "천공")
 t("light", "빛")
+t("fire", "화염")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/mental.lua"
 
+t("Bloodbath", "유혈사태")
+t("fire", "화염")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/other.lua"
 
-t("Unstoppable", "저지 불가")
+t("Absorption Strike", "흡수의 일격")
+t("infusion", "주입")
+t("Path of the Sun", "태양의 길")
+t("arcane", "비전")
+t("fire", "화염")
+t("temporal", "시간")
+t("Unstoppable", "저지불가")
 t("combat", "빛의 전투")
+t("Thunderstorm", "뇌우")
+t("Scoundrel's Strategies", "건달의 전략")
+t("Fumble", "헛발질")
 t("sun", "태양")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/physical.lua"
 
+t("Insidious Poison", "은밀한 독")
+t("Crippling Poison", "방해성 독")
+t("Numbing Poison", "마비성 독")
+t("Stoning Poison", "석화성 독")
 t("Sunder Armour", "방어구 부수기")
 t("Sunder Arms", "무기 부수기")
+t("golem", "골렘")
+t("fire", "화염")
+t("Expose Weakness", "약점 노출")
 t("Adrenaline Surge", "아드레날린 분출")
 t("light", "빛")
 t("Superb Agility", "우월한 재주")
@@ -10124,7 +11140,9 @@ t("Garrote", "교살")
 t("Marked for Death", "죽음의 표식")
 t("Soothing Darkness", "위로하는 어둠")
 t("Shadow Dance", "어둠의 춤")
+t("earth", "대지")
 t("Bullseye", "정조준")
+t("Leeching Poison", "흡혈성 독")
 t("Shadowstrike", "암습")
 
 
@@ -10348,6 +11366,8 @@ section "game/modules/tome/data/zones/daikara/grids.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/daikara/npcs.lua"
 
+t("ice", "얼음")
+t("fire", "화염")
 
 
 ------------------------------------------------
@@ -10508,6 +11528,7 @@ section "game/modules/tome/data/zones/eruan/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/flooded-cave/npcs.lua"
 
+t("water", "물")
 
 
 ------------------------------------------------
@@ -10711,6 +11732,7 @@ section "game/modules/tome/data/zones/keepsake-meadow/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/keepsake-meadow/traps.lua"
 
+t("trap", "함정")
 
 
 ------------------------------------------------
@@ -10737,6 +11759,7 @@ section "game/modules/tome/data/zones/lake-nur/zone.lua"
 section "game/modules/tome/data/zones/last-hope-graveyard/grids.lua"
 
 t("wall", "벽")
+t("grave", "묘지")
 t("floor", "바닥")
 
 
@@ -10891,6 +11914,7 @@ section "game/modules/tome/data/zones/paradox-plane/grids.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/paradox-plane/npcs.lua"
 
+t("temporal", "시간")
 
 
 ------------------------------------------------
@@ -11125,6 +12149,7 @@ section "game/modules/tome/data/zones/shertul-fortress/zone.lua"
 section "game/modules/tome/data/zones/slazish-fen/grids.lua"
 
 t("wall", "벽")
+t("water", "물")
 
 
 ------------------------------------------------
@@ -11216,6 +12241,7 @@ section "game/modules/tome/data/zones/tannen-tower/npcs.lua"
 
 t("human", "인간")
 t("humanoid", "인간형")
+t("golem", "골렘")
 
 
 ------------------------------------------------
@@ -11287,6 +12313,7 @@ t("Temporal Warden", "시간 감시자")
 section "game/modules/tome/data/zones/temporal-rift/npcs.lua"
 
 t("humanoid", "인간형")
+t("temporal", "시간")
 
 
 ------------------------------------------------
@@ -11505,6 +12532,7 @@ section "game/modules/tome/data/zones/town-point-zero/grids.lua"
 
 t("wall", "벽")
 t("floor", "바닥")
+t("ice", "얼음")
 
 
 ------------------------------------------------
@@ -11513,6 +12541,7 @@ section "game/modules/tome/data/zones/town-point-zero/npcs.lua"
 t("human", "인간")
 t("humanoid", "인간형")
 t("shalore", "샬로레")
+t("temporal", "시간")
 
 
 ------------------------------------------------
@@ -11584,6 +12613,7 @@ section "game/modules/tome/data/zones/town-zigur/zone.lua"
 section "game/modules/tome/data/zones/trollmire/grids.lua"
 
 t("wall", "벽")
+t("water", "물")
 
 
 ------------------------------------------------
@@ -11768,6 +12798,8 @@ section "game/modules/tome/data/zones/vor-pride/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/wilderness/grids.lua"
 
+t("ice", "얼음")
+t("water", "물")
 t("floor", "바닥")
 t("wall", "벽")
 
@@ -11800,6 +12832,7 @@ t("Name", "이름")
 section "game/modules/tome/dialogs/CharacterSheet.lua"
 
 t("Name", "이름")
+t("Inventory", "소지품")
 t("Female", "여성")
 t("Male", "남성")
 t("Passive", "지속형")
@@ -11851,8 +12884,9 @@ section "game/modules/tome/dialogs/LorePopup.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/MapMenu.lua"
 
-t("Show inventory", "가방 보기")
+t("Show inventory", "소지품 보기")
 t("Auto-explore", "자동 탐색")
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
@@ -11899,11 +12933,14 @@ section "game/modules/tome/dialogs/ShowChatLog.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowEquipInven.lua"
 
+t("Inventory", "소지품")
+t("No Inventory", "소지품 없음")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowEquipment.lua"
 
+t("Equipment", "장비")
 
 
 ------------------------------------------------
@@ -11915,6 +12952,7 @@ t("Quantity", "수량")
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowInventory.lua"
 
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
@@ -11930,6 +12968,7 @@ section "game/modules/tome/dialogs/ShowMap.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowStore.lua"
 
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
@@ -11983,6 +13022,7 @@ section "game/modules/tome/dialogs/debug/ChangeZone.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/CreateItem.lua"
 
+t("NPC Inventory", "NPC 소지품")
 t("Cancel", "취소")
 
 
@@ -12020,6 +13060,8 @@ section "game/modules/tome/dialogs/debug/RandomActor.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/RandomObject.lua"
 
+t("Equipment", "장비")
+t("Inventory", "소지품")
 
 
 ------------------------------------------------
