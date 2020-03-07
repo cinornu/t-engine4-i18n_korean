@@ -113,6 +113,8 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 "game/modules/tome/data/talents/techniques/acrobatics.lua" gameatnew 완
 "game/modules/tome/data/talents/techniques/agility.lua" gameatnew 완
 "game/modules/tome/data/talents/techniques/archery.lua" gameatnew 완
+"game/modules/tome/data/talents/techniques/bloodthirst.lua" gameatnew 완
+ "game/modules/tome/data/talents/spells/spells.lua" gameatnew 완
 
 ==================================================================
 [1차 검수]
