@@ -181,6 +181,7 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 "game/modules/tome/data/talents/spells/meta.lua" beomkki 완
 "game/modules/tome/data/talents/spells/aegis.lua" beomkki ???
+"game/modules/tome/data/talents/corruptions/curses.lua" beomkki 완
 
 # 작업시 유의 사항
 
