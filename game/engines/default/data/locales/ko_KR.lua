@@ -107,6 +107,7 @@ section "game/addons/tome-possessors/data/birth/psionic.lua"
 
 t("Their most important stats are: Willpower and Cunning", "그들에게 가장 중요한 능력치는 의지와 교활입니다.")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
+t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -4")
 
 
 ------------------------------------------------
@@ -472,6 +473,7 @@ t("Their most important stats are: Magic and Cunning", "그들에게 가장 중�
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +0 체격")
 t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +6 마법, +0 의지, +3 교활")
+t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -4")
 
 
 ------------------------------------------------
@@ -864,6 +866,7 @@ t([[Whenever you use a disfigured face power you show a glimpse of what True Hor
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/demented/doom.lua"
 
+t("None", "없음")
 
 
 ------------------------------------------------
@@ -1003,7 +1006,7 @@ t([[Your left hand mutates into a disgusting mass of tentacles.
 
 		Your tentacle hand currently has these stats%s:
 		%s]], [[당신의 왼팔이 역겨운 촉수들로 변이합니다.
-		보조무기를 장착하고 있지 않고 기본 공격 시 촉수가 자동적으로 대상과 대상의 좌우를 공격합니다. **
+		보조무기를 장착하고 있지 않고 기본 공격 시 촉수가 자동적으로 대상과 대상의 좌우를 공격합니다. 
 		또한, 물리력이 %d만큼 중가하며, 촉수 공격시 %d%%만큼 무기 피해량이 증가합니다.
 		촉수를 이용하여 공격할 때마다 %d의 광기를 생성합니다.
 		#{italic}#'문명화된 생명체'#{normal}#가 근처에 있으면 약한 초능력장을 생성하여 당신의 팔이 얼마나 끔찍하게 생겼는지 알 수 없게 만듭니다.
@@ -1538,7 +1541,9 @@ section "game/dlcs/tome-orcs/data/achievements/story.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/birth/classes/empyreal.lua"
 
+t("Their most important stats are: Magic and Constitution", "그들의 가장 중요한 능력치는 마법과 체격입니다.")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
+t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +3 체격")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +0")
 
 
@@ -1548,6 +1553,9 @@ section "game/dlcs/tome-orcs/data/birth/classes/tinker.lua"
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +3 교활")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +3 민첩, +0 체격")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
+t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +4 민첩, +0 체격")
+t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +5 교활")
+t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -1")
 
 
 ------------------------------------------------
@@ -4565,17 +4573,532 @@ When learned, passive talents permanently alter the user in some way.
 The effects are always present and are usually not dispellable or removable, though other effects may counteract or negate them.
 Specific information on each talent appears its tooltip.]], [[#GOLD#지속형 기술#LAST#
 지속형 기술은 배웠을때 사용자를 영구적으로 변화시킵니다.
-지속형 기술의 효과는 항상 작동하며 다른 효과들과는 다르게 일반적인 방법으로 해제하거나 제거할 수 없습니다.The effects are always present and are usually not dispellable or removable, though other effects may counteract or negate them.
+지속형 기술의 효과는 항상 작동하며 다른 효과들과는 다르게 일반적인 방법으로 해제하거나 제거할 수 없습니다.
 각 기술에 대한 정보는 기술의 툴팁에 표시됩니다.]])
 t([[#GOLD#Sustained Talents#LAST#
 Sustained talents are turned on and left on.
 While active, a sustained talent produces some effects on the user that stay in effect until the talent is deactivated. Activating most sustained talents require the user to put aside some resources, which become unavailable until the talent is turned off.
 Deactivating a sustained talent causes it to go on cooldown.
 Specific information on each talent appears its tooltip.]], [[#GOLD#유지형 기술#LAST#
-Sustained talents are turned on and left on.
-While active, a sustained talent produces some effects on the user that stay in effect until the talent is deactivated. Activating most sustained talents require the user to put aside some resources, which become unavailable until the talent is turned off.
-Deactivating a sustained talent causes it to go on cooldown.
-Specific information on each talent appears its tooltip.]])
+유지형 기술은 발동 이후 효과가 계속해서 지속되는 기술입니다.
+대부분의 유지형 기술은 유지되는 동안 자원 최대치를 감소시키고 비활성화될 때까지 효과가 지속됩니다.
+유지형 기술을 비활성화하면 재사용 대기시간이 발생합니다.
+각 기술에 대한 정보는 기술의 툴팁에 표시됩니다.]])
+t([[#GOLD#Global Speed#LAST#
+Global speed represents how fast you are and affects everything you do.
+Higher is faster, so at 200% global speed you can performa twice as many actions as you would at 100% speed.
+Note that the amount of time to performa various actions like moving, casting spells, and attacking is also affected by their respective speeds.
+]], [[#GOLD#전체속도#LAST#
+전체속도는 당신의 행동이 얼마나 빠른지 나타냅니다.
+수치가 높을수록 더욱 빨라지며 전체속도 200%는 전체속도 100%보다 2배 빠르게 행동할 수 있습니다.
+이동, 주문 시전, 공격 등의 행동속도는 각각의 속도 역시 영향을 끼칩니다.
+]])
+t([[#GOLD#Movement Speed#LAST#
+How quickly you move compared to normal.
+Higher is faster, so 200% means that you move twice as fast as normal.
+Minimum:  40%
+]], [[#GOLD#이동속도#LAST#
+이동속도는 당신이 얼마나 빠르게 이동할 수 있는지 나타냅니다.
+수치가 높을수록 더욱 빨라지며 이동속도 200%는 이동속도 100%보다 2배 빠르게 이동할 수 있습니다.
+최소속도:  40%
+]])
+t([[#GOLD#Spell Speed#LAST#
+How quickly you cast spells.
+Higher is faster, so 200% means that you can cast spells twice as fast as normal.
+Minimum:  40%
+]], [[#GOLD#시전속도#LAST#
+시전속도는 당신이 얼마나 빠르게 주문을 시전할 수 있는지 나타냅니다.
+수치가 높을수록 더욱 빨라지며 시전속도 200%는 시전속도 100%보다 2배 빠르게 시전할 수 있습니다.
+최소속도:  40%
+]])
+t([[#GOLD#Attack Speed#LAST#
+How quickly you attack with weapons, either ranged or melee.
+Higher is faster, so 200% means that you can attack twice as fast as normal.
+The actual speed may also be affected by the weapon used.
+Minimum:  40%
+]], [[#GOLD#공격속도#LAST#
+공격속도는 당신이 얼마나 빠르게 무기로 공격할 수 있는지 나타냅니다.
+수치가 높을수록 더욱 빨라지며 공격속도 200%는 공격속도 100%보다 2배 빠르게 공격할 수 있습니다.
+공격속도는 사용하는 무기의 영향을 받습니다.
+최소속도:  40%
+]])
+t([[#GOLD#Mental Speed#LAST#
+How quickly you perform mind powers.
+Higher is faster, so 200% means that you can use mind powers twice as fast as normal.
+Minimum:  40%
+]], [[#GOLD#사고속도#LAST#
+사고속도는 당신이 얼마나 빠르게 정신력을 발휘할 수 있는지 나타냅니다.
+수치가 높을수록 더욱 빨라지며 사고속도 200%는 사고속도 100%보다 2배 빠르게 정신력을 사용할 수 있습니다.
+최소속도:  40%
+]])
+t([[#GOLD#Stats#LAST#
+Your character's primary attributes.  Base: the value inherent to your character, which may be increased by applying stat points (limited by character level). Current: the base value plus any bonuses from equipment, effects, certain talents, etc. that is used to determine the overall effectiveness of the stat.
+]], [[#GOLD#능력치#LAST#
+캐릭터의 주요 속성입니다. 기본: 능력치 점수를 투자하여 증가시키는 캐릭터의 기본 능력치입니다. 현재: 장비와 각종 기술 등의 영향을 받은 실제 능력치입니다.
+]])
+t([[#GOLD#Strength#LAST#
+Strength defines your character's ability to apply physical force. It increases Physical Power, damage done with heavy weapons, Physical Save, and carrying capacity.
+]], [[#GOLD#힘#LAST#
+힘은 캐릭터의 신체 능력을 나타냅니다. 무거운 무기로 가하는 피해량, 물리력, 물리내성, 소지한도가 증가합니다.
+]])
+t([[#GOLD#Dexterity#LAST#
+Dexterity defines your character's ability to be agile and alert. It increases Accuracy, Defense, chance to shrug off critical hits and your damage with light weapons.
+]], [[#GOLD#민첩#LAST#
+민첩은 캐릭터의 기민함을 나타냅니다. 가벼운 무기로 가하는 피해량, 정확도, 회피도, 피치명율 감소가 증가합니다.
+]])
+t([[#GOLD#Constitution#LAST#
+Constitution defines your character's ability to withstand and resist damage. It increases your maximum life, Physical Save and Healing mod.
+]], [[#GOLD#체격#LAST#
+체격은 캐릭터가 피해에 버티고 저항하는 정도를 나타냅니다. 최대 생명력, 물리내성, 회복효율이 증가합니다.
+]])
+t([[#GOLD#Magic#LAST#
+Magic defines your character's ability to manipulate the magical energy of the world. It increases your Spellpower, Spell Save, and the effect of spells and other magic items.
+]], [[#GOLD#마법#LAST#
+마법은 캐릭터가 마법적 에너지를 제어하는 능력을 나타냅니다. 주문력, 주문내성, 주문의 효과와 마법 물품의 효율이 증가합니다.
+]])
+t([[#GOLD#Willpower#LAST#
+Willpower defines your character's ability to concentrate. It increases your mana, stamina, psi capacity, Mindpower, Spell Save, and Mental Save.
+]], [[#GOLD#의지#LAST#
+의지는 캐릭터의 집중력을 나타냅니다. 마나, 체력, 염력 최대치와 정신력, 주문내성, 정신내성이 증가합니다.
+]])
+t([[#GOLD#Cunning#LAST#
+Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your Mindpower, Mental Save, and critical chance.
+]], [[#GOLD#교활#LAST#
+교활은 캐릭터가 배우고 생각하고 행동하는 능력을 나타냅니다. 세계의 다양한 능력을 배울 수 있게 해주며, 정신력, 정신내성, 치명율이 증가합니다.
+]])
+t([[#AQUAMARINE#Physical stats#LAST#
+---
+]], [[#AQUAMARINE#물리 능력치#LAST#
+---
+]])
+t([[#AQUAMARINE#Mental stats#LAST#
+---
+]], [[#AQUAMARINE#정신 능력치#LAST#
+---
+]])
+t([[#GOLD#Accuracy#LAST#
+Determines your chance to hit your target as well as knock your target off-balance when measured against the target's Defense.
+When you use Accuracy to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your accuracy will reduce the duration of the effect by 5%.
+Many weapon types will have an additional "accuracy bonus" scaling per point of Accuracy greater than the targets Defense.
+]], [[#GOLD#정확도#LAST#
+공격을 적중시킬 확률을 결정합니다.
+정확도를 사용하여 물리 상태이상을 시도할때 대상의 회피도가 정확도를 초과한 수치 1당 효과 지속시간이 5% 감소합니다.
+대부분의 무기는 정확도 보너스가 존재하여 대상의 회피도를 초과한 정확도 수치에 따른 다양한 추가 효과를 얻습니다.
+]])
+t([[#GOLD#Physical Power#LAST#
+Measures your ability to deal physical damage in combat.
+When you use Physical Power to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your physical power will reduce the duration of the effect by 5%.
+]], [[#GOLD#물리력#LAST#
+기술의 물리 피해량을 결정합니다.
+When you use Physical Power to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your physical power will reduce the duration of the effect by 5%.
+]])
+t([[#GOLD#Damage#LAST#
+This is the damage you inflict on your foes when you hit them.
+This damage can be reduced by the target's armour or by percentile damage resistances.
+It is improved by Strength or Dexterity, depending on your weapon. Some talents can change the stats that affect it.
+]], [[#GOLD#무기 공격력#LAST#
+This is the damage you inflict on your foes when you hit them.
+This damage can be reduced by the target's armour or by percentile damage resistances.
+It is improved by Strength or Dexterity, depending on your weapon. Some talents can change the stats that affect it.
+]])
+t([[#GOLD#Shield Block Value#LAST#
+The amount of damage a shield will block when actively used in defense.
+Usually this is only effective against Physical damage, but some special shields (and talents) allow the wearer to block other types.
+]], [[#GOLD#방패 막기 수치#LAST#
+The amount of damage a shield will block when actively used in defense.
+Usually this is only effective against Physical damage, but some special shields (and talents) allow the wearer to block other types.
+]])
+t([[#GOLD#Armour Penetration#LAST#
+Armour penetration allows you to ignore a part of the target's armour (this only works for armour, not damage resistance).
+This can never increase the damage you do beyond reducing armour, so it is only useful against armoured foes.
+]], [[#GOLD#방어력 관통#LAST#
+Armour penetration allows you to ignore a part of the target's armour (this only works for armour, not damage resistance).
+This can never increase the damage you do beyond reducing armour, so it is only useful against armoured foes.
+]])
+t([[#GOLD#Critical chance#LAST#
+Each time you deal damage you have a chance to make a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]], [[#GOLD#치명타율#LAST#
+Each time you deal damage you have a chance to make a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]])
+t([[#GOLD#Firing range#LAST#
+The maximum distance your weapon can reach.
+]], [[#GOLD#공격 사거리#LAST#
+The maximum distance your weapon can reach.
+]])
+t([[#GOLD#Archery range and speed#LAST#
+Archery attacks create projectiles with a maximum range, beyond which they will terminate.
+The projectiles travel at their own speed, measured as a percentage (higher, usually) of normal movement speed.
+]], [[#GOLD#탄환 사거리와 속도#LAST#
+Archery attacks create projectiles with a maximum range, beyond which they will terminate.
+The projectiles travel at their own speed, measured as a percentage (higher, usually) of normal movement speed.
+]])
+t([[#GOLD#Ammo remaining#LAST#
+This is the amount of ammunition you have left.
+Bows and slings must be reloaded when this reaches 0, which you will do automatically each turn you rest or don't perform a non-movement action.
+Alchemists use specially prepared gems as ammunition to throw bombs, which must be reloaded manually.
+]], [[#GOLD#장전된 탄환#LAST#
+This is the amount of ammunition you have left.
+Bows and slings must be reloaded when this reaches 0, which you will do automatically each turn you rest or don't perform a non-movement action.
+Alchemists use specially prepared gems as ammunition to throw bombs, which must be reloaded manually.
+]])
+t([[#GOLD#Fatigue#LAST#
+Fatigue is a percentile value that increases the cost of your talents and spells.
+It represents the fatigue created by wearing heavy equipment.
+Not all talents are affected; notably, Wild Gifts are not.
+]], [[#GOLD#피로도#LAST#
+Fatigue is a percentile value that increases the cost of your talents and spells.
+It represents the fatigue created by wearing heavy equipment.
+Not all talents are affected; notably, Wild Gifts are not.
+]])
+t([[#GOLD#Armour#LAST#
+Armour value is a damage reduction from all incoming melee and ranged weapon attacks.
+Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
+This is countered by armour penetration and is applied before all kinds of critical damage increase, talent multipliers and damage multiplier, thus making even small amounts have greater effects.
+]], [[#GOLD#방어력#LAST#
+Armour value is a damage reduction from all incoming melee and ranged weapon attacks.
+Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
+This is countered by armour penetration and is applied before all kinds of critical damage increase, talent multipliers and damage multiplier, thus making even small amounts have greater effects.
+]])
+t([[#GOLD#Armour Hardiness#LAST#
+Armour hardiness represents how much of each incoming blows the armour will affect.
+Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
+]], [[#GOLD#방어 효율#LAST#
+Armour hardiness represents how much of each incoming blows the armour will affect.
+Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
+]])
+t([[#GOLD#Crit Reduction#LAST#
+Crit reduction reduces the chance an opponent has of landing a critical strike with a melee or ranged attack.
+]], [[#GOLD#피치명율 감소#LAST#
+Crit reduction reduces the chance an opponent has of landing a critical strike with a melee or ranged attack.
+]])
+t([[#GOLD#Defense#LAST#
+Defense represents your chance to avoid melee weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
+]], [[#GOLD#회피도#LAST#
+Defense represents your chance to avoid melee weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
+]])
+t([[#GOLD#Ranged Defense#LAST#
+Defense represents your chance to avoid ranged weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
+]], [[#GOLD#원거리 회피도#LAST#
+Defense represents your chance to avoid ranged weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
+]])
+t([[#GOLD#Saves#LAST#
+Saving throws represent your ability to shrug off, partially or fully, detrimental effects applied to you.  Most detrimental effects will check their power (physical, spell, mental) vs your corresponding save type to determine if they take effect or not.  The chance is usually ~50% when power and save are equal.
+]], [[#GOLD#내성#LAST#
+Saving throws represent your ability to shrug off, partially or fully, detrimental effects applied to you.  Most detrimental effects will check their power (physical, spell, mental) vs your corresponding save type to determine if they take effect or not.  The chance is usually ~50% when power and save are equal.
+]])
+t([[#GOLD#Physical saving throw#LAST#
+Increases chance to shrug off physically-induced effects.  Also reduces duration of detrimental physical effects by up to 5% per point, depending on the power of the opponent's effect.
+]], [[#GOLD#물리 내성#LAST#
+Increases chance to shrug off physically-induced effects.  Also reduces duration of detrimental physical effects by up to 5% per point, depending on the power of the opponent's effect.
+]])
+t([[#GOLD#Spell saving throw#LAST#
+Increases chance to shrug off magically-induced effects.  Also reduces duration of detrimental magical effects by up to 5% per point, depending on the power of the opponent's effect.
+]], [[#GOLD#주문 내성#LAST#
+Increases chance to shrug off magically-induced effects.  Also reduces duration of detrimental magical effects by up to 5% per point, depending on the power of the opponent's effect.
+]])
+t([[#GOLD#Mental saving throw#LAST#
+Increases chance to shrug off mentally-induced effects.  Also reduces duration of detrimental mental effects by up to 5% per point, depending on the power of the opponent's effect.
+]], [[#GOLD#정신 내성#LAST#
+Increases chance to shrug off mentally-induced effects.  Also reduces duration of detrimental mental effects by up to 5% per point, depending on the power of the opponent's effect.
+]])
+t([[#GOLD#Physical Power#LAST#
+Your physical power represents how overwhelming your physcial abilities are. It is usually improved by Strength, but may be modified by your weapon.  It is opposed by your opponent's physical save.
+In addition, when your physical attacks inflict temporary detrimental effects, every point your opponent's save exceeds your physical power will reduce the duration of the effect by 5%.
+]], [[#GOLD#물리력#LAST#
+Your physical power represents how overwhelming your physcial abilities are. It is usually improved by Strength, but may be modified by your weapon.  It is opposed by your opponent's physical save.
+In addition, when your physical attacks inflict temporary detrimental effects, every point your opponent's save exceeds your physical power will reduce the duration of the effect by 5%.
+]])
+t([[#GOLD#Physical critical chance#LAST#
+Each time you deal damage with a physical ability you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage, and it may be modified by your weapon.
+It is improved by Cunning.
+]], [[#GOLD#물리 치명타율#LAST#
+Each time you deal damage with a physical ability you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage, and it may be modified by your weapon.
+It is improved by Cunning.
+]])
+t([[#GOLD#Spellpower#LAST#
+Your spellpower represents how powerful your magical spells are.  It is opposed by your opponent's spell save.
+In addition, when your spells inflict temporary detrimental effects, every point your opponent's save exceeds your spellpower will reduce the duration of the effect by 5%.
+]], [[#GOLD#주문력#LAST#
+Your spellpower represents how powerful your magical spells are.  It is opposed by your opponent's spell save.
+In addition, when your spells inflict temporary detrimental effects, every point your opponent's save exceeds your spellpower will reduce the duration of the effect by 5%.
+]])
+t([[#GOLD#Spell critical chance#LAST#
+Each time you deal damage with a spell you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]], [[#GOLD#주문 치명타율#LAST#
+Each time you deal damage with a spell you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]])
+t([[#GOLD#Spellcasting speed#LAST#
+Spellcasting speed represents how fast your spellcasting is compared to normal.
+Higher is faster - 200% means that you cast spells twice as fast as someone at 100%.
+]], [[#GOLD#주문 시전속도#LAST#
+Spellcasting speed represents how fast your spellcasting is compared to normal.
+Higher is faster - 200% means that you cast spells twice as fast as someone at 100%.
+]])
+t([[#GOLD#Spellcooldown#LAST#
+Spell cooldown represents how fast your spells will come off of cooldown.
+The lower it is, the more often you'll be able to use your spell talents and runes.
+]], [[#GOLD#주문 재사용 대기시간#LAST#
+Spell cooldown represents how fast your spells will come off of cooldown.
+The lower it is, the more often you'll be able to use your spell talents and runes.
+]])
+t([[#GOLD#Mindpower#LAST#
+Your mindpower represents how powerful your mental abilities are.  It is opposed by your opponent's mental save.
+In addition, when your mental abilities inflict temporary detrimental effects, every point your opponent's save exceeds your mindpower will reduce the duration of the effect by 5%.
+]], [[#GOLD#정신력#LAST#
+Your mindpower represents how powerful your mental abilities are.  It is opposed by your opponent's mental save.
+In addition, when your mental abilities inflict temporary detrimental effects, every point your opponent's save exceeds your mindpower will reduce the duration of the effect by 5%.
+]])
+t([[#GOLD#Mental critical chance#LAST#
+Each time you deal damage with a mental attack you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]], [[#GOLD#정신 치명타율#LAST#
+Each time you deal damage with a mental attack you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]])
+t([[#GOLD#Mental speed#LAST#
+Mental speed represents how fast you use psionic abilities compared to normal.
+Higher is faster.
+]], [[#GOLD#사고속도#LAST#
+Mental speed represents how fast you use psionic abilities compared to normal.
+Higher is faster.
+]])
+t([[#GOLD#Damage increase: all#LAST#
+All damage you deal, through any means, is increased by this percentage.
+This stacks with individual damage type increases.
+]], [[#GOLD#피해 증가: 전체#LAST#
+All damage you deal, through any means, is increased by this percentage.
+This stacks with individual damage type increases.
+]])
+t([[#GOLD#Damage increase: specific#LAST#
+All damage of this type that you deal, through any means, is increased by this percentage.
+]], [[#GOLD#피해 증가: 속성#LAST#
+All damage of this type that you deal, through any means, is increased by this percentage.
+]])
+t([[#GOLD#Damage increase: creature type#LAST#
+All damage you deal to creatures of this type, through any means, is increased by this percentage.  This is applied in addition to (stacks with) other damage modifiers.
+]], [[#GOLD#피해 증가: 개체 유형#LAST#
+All damage you deal to creatures of this type, through any means, is increased by this percentage.  This is applied in addition to (stacks with) other damage modifiers.
+]])
+t([[#GOLD#Critical multiplier#LAST#
+All critical hits (melee, spells, ...) do this much damage compared to normal.
+]], [[#GOLD#치명타 배율#LAST#
+All critical hits (melee, spells, ...) do this much damage compared to normal.
+]])
+t([[#GOLD#Damage resistance#LAST#
+Whenever you take damage, the percent resistance you have to its type, if any, is checked.  The damage is reduced by this percentage (which may be partially negated by the attacker's Damage Penetration) before being applied.
+Your effective resistance can never be higher than your resistance cap and negative resistances increase the damage you recieve (up to +100%).
+]], [[#GOLD#피해 저항#LAST#
+Whenever you take damage, the percent resistance you have to its type, if any, is checked.  The damage is reduced by this percentage (which may be partially negated by the attacker's Damage Penetration) before being applied.
+Your effective resistance can never be higher than your resistance cap and negative resistances increase the damage you recieve (up to +100%).
+]])
+t([[#GOLD#Damage resistance: all#LAST#
+All damage you receive, through any means, is decreased by this percentage.
+This stacks (multiplicatively) with individual damage type resistances up to their respective caps.
+(So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
+]], [[#GOLD#피해 저항: 전체#LAST#
+All damage you receive, through any means, is decreased by this percentage.
+This stacks (multiplicatively) with individual damage type resistances up to their respective caps.
+(So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
+]])
+t([[#GOLD#Damage resistance: absolute#LAST#
+All damage you receive, through any means, is decreased by this percentage.
+This is applied after normal damage resistance and is not affected by resistance penetration.
+]], [[#GOLD#피해 저항: 절대#LAST#
+All damage you receive, through any means, is decreased by this percentage.
+This is applied after normal damage resistance and is not affected by resistance penetration.
+]])
+t([[#GOLD#Damage resistance: specific#LAST#
+All damage of this type that you receive, through any means, is reduced by this percentage.
+]], [[#GOLD#피해 저항: 속성#LAST#
+All damage of this type that you receive, through any means, is reduced by this percentage.
+]])
+t([[#GOLD#Damage resistance: by speed#LAST#
+All damage you receive, through any means, is decreased by this percentage, which increases as your total movement speed (global times movement) decreases.
+This is applied after normal damage type resistances.
+]], [[#GOLD#피해 저항: 속도#LAST#
+All damage you receive, through any means, is decreased by this percentage, which increases as your total movement speed (global times movement) decreases.
+This is applied after normal damage type resistances.
+]])
+t([[#GOLD#Damage affinity: all#LAST#
+All damage you receive, through any means, also heals you for this percentage of the damage.
+This stacks with individual damage type affinities.
+Important: Affinity healing happens after damage has been taken, it can not prevent death.
+]], [[#GOLD#피해 친화: 전체#LAST#
+All damage you receive, through any means, also heals you for this percentage of the damage.
+This stacks with individual damage type affinities.
+Important: Affinity healing happens after damage has been taken, it can not prevent death.
+]])
+t([[#GOLD#Damage affinity: specific#LAST#
+All damage of this type that you receive, through any means, also heals you for this percentage of the damage.
+Important: Affinity healing happens after damage has been taken, it can not prevent death.
+]], [[#GOLD#피해 친화: 속성#LAST#
+All damage of this type that you receive, through any means, also heals you for this percentage of the damage.
+Important: Affinity healing happens after damage has been taken, it can not prevent death.
+]])
+t([[#GOLD#Status resistance#LAST#
+Most bad status effects can be avoided by having an appropriate immunity, represented by a percent chance to completely avoid the effect in question.  This chance is applied in addition to any saving throws or other checks that may apply.
+]], [[#GOLD#상태효과 저항#LAST#
+Most bad status effects can be avoided by having an appropriate immunity, represented by a percent chance to completely avoid the effect in question.  This chance is applied in addition to any saving throws or other checks that may apply.
+]])
+t([[#GOLD#Effect resistance chance#LAST#
+This represents your chance to completely resist this specific effect.
+]], [[#GOLD#효과 저항 확률#LAST#
+This represents your chance to completely resist this specific effect.
+]])
+t([[#GOLD#Stun immunity chance#LAST#
+This represents your chance to completely avoid being stunned, dazed, or frozen.
+]], [[#GOLD#기절 면역 확률#LAST#
+This represents your chance to completely avoid being stunned, dazed, or frozen.
+]])
+t([[#GOLD#Anomaly immunity chance#LAST#
+This represents your chance to avoid most chronomatic anomaly effects.
+]], [[#GOLD#역발 면역 확률#LAST#
+This represents your chance to avoid most chronomatic anomaly effects.
+]])
+t([[#GOLD#Instant death resistance#LAST#
+This represents your chance to avoid being instantly killed, severely incapacitated, or controlled by certain abilities.
+]], [[#GOLD#즉사 저항#LAST#
+This represents your chance to avoid being instantly killed, severely incapacitated, or controlled by certain abilities.
+]])
+t([[#GOLD#Negative status effect immunity chance#LAST#
+This represents your chance to completely avoid ANY persistent bad effects applied to you from others.
+]], [[#GOLD#부정적 상태효과 면역 확률#LAST#
+This represents your chance to completely avoid ANY persistent bad effects applied to you from others.
+]])
+t([[#GOLD#Negative mental effect immunity chance#LAST#
+This represents your chance to completely avoid ANY persistent bad mental effects applied to you from others.
+]], [[#GOLD#부정적 정신효과 면역 확률#LAST#
+This represents your chance to completely avoid ANY persistent bad mental effects applied to you from others.
+]])
+t([[#GOLD#Negative physical effect immunity chance#LAST#
+This represents your chance to completely avoid ANY persistent bad physical effects applied to you from others.
+]], [[#GOLD#부정적 물리효과 면역 확률#LAST#
+This represents your chance to completely avoid ANY persistent bad physical effects applied to you from others.
+]])
+t([[#GOLD#Negative magical effect immunity chance#LAST#
+This represents your chance to completely avoid ANY persistent bad magical effects applied to you from others.
+]], [[#GOLD#부정적 마법효과 면역 확률#LAST#
+This represents your chance to completely avoid ANY persistent bad magical effects applied to you from others.
+]])
+t([[#GOLD#Damage when hit#LAST#
+Each time a creature hits you with a melee attack, it will suffer damage or other effects.
+]], [[#GOLD#반사 피해#LAST#
+Each time a creature hits you with a melee attack, it will suffer damage or other effects.
+]])
+t([[#GOLD#Additional Melee Damage#LAST#
+Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
+]], [[#GOLD#근접공격 추가 피해#LAST#
+Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
+]])
+t([[#GOLD#Additional Ranged Damage#LAST#
+Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
+]], [[#GOLD#원거리공격 추가 피해#LAST#
+Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
+]])
+t([[#GOLD#Damage penetration: all#LAST#
+Reduces the amount of effective resistance of your foes to any damage you deal by this percent.
+If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
+This stacks with individual damage type penetrations.
+You can never have more than 70% penetration.
+]], [[#GOLD#피해 관통: 전체#LAST#
+Reduces the amount of effective resistance of your foes to any damage you deal by this percent.
+If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
+This stacks with individual damage type penetrations.
+You can never have more than 70% penetration.
+]])
+t([[#GOLD#Damage penetration: specific#LAST#
+Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
+If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
+You can never have more than 70% penetration.
+]], [[#GOLD#피해 관통: 속성#LAST#
+Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
+If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
+You can never have more than 70% penetration.
+]])
+t([[#GOLD#Flat resistances#LAST#
+Reduces each hit of a certain damage type (or all) by this amount.
+]], [[#GOLD#고정 피해 저항#LAST#
+Reduces each hit of a certain damage type (or all) by this amount.
+]])
+t([[#GOLD#Telepathy#LAST#
+Allows you to sense creatures of the given type(s) even if they are not currently in your line of sight.
+]], [[#GOLD#투시#LAST#
+Allows you to sense creatures of the given type(s) even if they are not currently in your line of sight.
+]])
+t([[#GOLD#Telepathy range#LAST#
+Determines the distance up to which you can sense creatures with telepathy.
+]], [[#GOLD#투시 범위#LAST#
+Determines the distance up to which you can sense creatures with telepathy.
+]])
+t([[#GOLD#Telepathy#LAST#
+Allows you to sense any creatures even if they are not currently in your line of sight.
+]], [[#GOLD#투시#LAST#
+Allows you to sense any creatures even if they are not currently in your line of sight.
+]])
+t([[#GOLD#Lite radius#LAST#
+The maximum distance your lite can light up. Anything further cannot be seen by natural means, unless the place itself is lit.
+]], [[#GOLD#광원 반경#LAST#
+The maximum distance your lite can light up. Anything further cannot be seen by natural means, unless the place itself is lit.
+]])
+t([[#GOLD#Sight range#LAST#
+How far you can see. This only works within your lite radius, or in lit areas.
+]], [[#GOLD#시야 반경#LAST#
+How far you can see. This only works within your lite radius, or in lit areas.
+]])
+t([[#GOLD#Stealth#LAST#
+To use stealth one must possess the 'Stealth' talent.
+Stealth allows you to try to hide from any creatures that would otherwise see you.
+Even if they have seen you they will have a harder time hitting you.
+Any creature can try to see through your stealth.
+]], [[#GOLD#은밀도#LAST#
+To use stealth one must possess the 'Stealth' talent.
+Stealth allows you to try to hide from any creatures that would otherwise see you.
+Even if they have seen you they will have a harder time hitting you.
+Any creature can try to see through your stealth.
+]])
+t([[#GOLD#See stealth#LAST#
+Your power to see stealthed creatures. The higher it is, the more likely you are to see them (based on their own stealth score).
+]], [[#GOLD#은신 감지도#LAST#
+Your power to see stealthed creatures. The higher it is, the more likely you are to see them (based on their own stealth score).
+]])
+t([[#GOLD#Invisibility#LAST#
+Invisible creatures are magically removed from the sight of all others. They can only be see by creatures that can see invisible.
+]], [[#GOLD#투명도#LAST#
+Invisible creatures are magically removed from the sight of all others. They can only be see by creatures that can see invisible.
+]])
+t([[#GOLD#See invisible#LAST#
+Your power to see invisible creatures. The higher it is, the more likely you are to see them (based on their own invisibility score).
+If you do not have any see invisible score you will never be able to see invisible creatures.
+]], [[#GOLD#투명 감지도#LAST#
+Your power to see invisible creatures. The higher it is, the more likely you are to see them (based on their own invisibility score).
+If you do not have any see invisible score you will never be able to see invisible creatures.
+]])
+t([[#GOLD#Detect Traps#LAST#
+Your power to find hidden traps. The higher it is, the more likely you are to notice a trap before setting it off  (based on its own detection score).
+If you do not have any detect traps score, you can not detect traps without triggering them.
+]], [[#GOLD#함정 감지도#LAST#
+Your power to find hidden traps. The higher it is, the more likely you are to notice a trap before setting it off  (based on its own detection score).
+If you do not have any detect traps score, you can not detect traps without triggering them.
+]])
+t([[#GOLD#Antimagic User#LAST#
+Dedicated to opposing and destroying magical and arcane influence in the world.
+The use of spells or arcane-powered equipment is impossible.
+]], [[#GOLD#반마법 사용자#LAST#
+Dedicated to opposing and destroying magical and arcane influence in the world.
+The use of spells or arcane-powered equipment is impossible.
+]])
 
 
 ------------------------------------------------
@@ -5029,8 +5552,8 @@ t("Paradox Mage", "괴리술사")
 t("A hand may clap alone if it returns to clap itself. Search for the power in the paradox.", "한 손을 내밀고 시간을 되돌려 그 손을 치면, 한 손만으로도 박수를 칠 수 있다. 괴리 속에서 힘을 찾아라.")
 t("A Paradox Mage studies the very fabric of spacetime, learning not just to bend it but shape it and remake it.", "괴리술사들은 시공간의 구조를 변형할 뿐만 아니라, 형성하고 재창조하는 방법까지도 익힙니다.")
 t("Most Paradox Mages lack basic skills that others take for granted (like general fighting sense), but they make up for it through control of cosmic forces.", "대부분의 괴리술사들은 일반적인 전투 기술을 잘 알지 못하지만 시공간의 힘을 다루는 것으로 대신합니다.")
-t("Paradox Mages start off with knowledge of all but the most complex Chronomantic schools.", "괴리술사들은 가장 복잡한 시공 마법들을 제외한 모든 시공 마법을 아는 채로 시작합니다.")
-t("Their most important stats are: Magic and Willpower", "그들에게 가장 중요한 능력치는 마법과 의지입니다.")
+t("Paradox Mages start off with knowledge of all but the most complex Chronomantic schools.", "괴리술사들은 가장 복잡한 시공 마법들을 제외한 모든 시공 마법을 아는 상태로 시작합니다.")
+t("Their most important stats are: Magic and Willpower", "그들의 가장 중요한 능력치는 마법과 의지입니다.")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +2 체격")
 t("#LIGHT_BLUE# * +5 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * +5 마법, +2 의지, +0 교활")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +0")
@@ -5064,7 +5587,7 @@ t("Blight and depravity hold the greatest powers. Accept temptation and become o
 t("A corruptor is a terrible foe, wielding dark magics that can sap the very soul of her target.", "희생양들의 영혼을 쥐어짜낼 수 있는 어둠의 마법을 다루는 타락자들은 무시무시한 적수입니다.")
 t("They can harness the blight of evil, crushing souls, stealing life force to replenish themselves.", "그들은 사악한 힘을 휘둘러 영혼을 파괴하고 생명력을 빼앗아 스스로를 채웁니다.")
 t("The most powerful corruptors can even take on some demonic aspects for themselves.", "가장 강력한 타락자들은 악마의 형상을 취할 수도 있습니다.")
-t("Their most important stats are: Magic and Willpower", "그들에게 가장 중요한 능력치는 마법과 의지입니다.")
+t("Their most important stats are: Magic and Willpower", "그들의 가장 중요한 능력치는 마법과 의지입니다.")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +2 체격")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 마법, +3 의지, +0 교활")
@@ -5074,29 +5597,100 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 ------------------------------------------------
 section "game/modules/tome/data/birth/classes/mage.lua"
 
-t("Their most important stats are: Magic and Willpower", "그들에게 가장 중요한 능력치는 마법과 의지입니다.")
+t("Mage", "마법사")
+t("Mages are the wielders of arcane powers, able to cast powerful spells of destruction or to heal their wounds with nothing but a thought.", "마법사들은 생각만으로 강력하고 파괴적인 주문을 시전하거나 상처를 치유할 수 있는 신비한 힘을 지녔습니다.")
+t("Alchemist", "연금술사")
+t("An Alchemist is a manipulator of materials using magic.", "연금술사란 마법을 사용하여 물질을 조작하는 마법사이다.")
+t("They do not use the forbidden arcane arts practised by the mages of old - such perverters of nature have been shunned or actively hunted down since the Spellblaze.", "그들은 옛 마법사들이 행하던 금지된 마법을 사용하지 않습니다 - 마법폭발 이후로 꺼려지거나 마법사 사냥의 대상이 된, 자연을 어지럽히는 자들 말입니다.")
+t("Alchemists can transmute gems to bring forth elemental effects, turning them into balls of fire, torrents of acid, and other effects.  They can also reinforce armour with magical effects using gems, and channel arcane staffs to produce bolts of energy.", "연금술사들은 보석을 불덩어리로 변환시켜 던지거나, 산성 액체로 바꿔 쏟아내는 등의 원소 효과를 일으킬 수 있습니다. 또한 갑옷에 보석을 박아서 마법효과를 부여하거나, 마법 지팡이로 에너지를 방출할 수도 있습니다.")
+t("Though normally physically weak, most alchemists are accompanied by magical golems which they construct and use as bodyguards.  These golems are enslaved to their master's will, and can grow in power as their master advances through the arts.", "대부분의 연금술사들은 신체적으로 약하지만 그들이 직접 만든 마법 골렘을 경호원으로 대동하여 이를 보완합니다. 골렘들은 주인에게 절대적으로 복종하며 주인의 힘이 강해짐에 따라 함께 강해집니다.")
+t("Their most important stats are: Magic and Constitution", "그들의 가장 중요한 능력치는 마법과 체격입니다.")
+t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +3 체격")
+t("#LIGHT_BLUE# * +5 Magic, +1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +5 마법, +1 의지, +0 교활")
+t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -1")
+t("Golem", "골렘")
+t("Golem becomes a Drolem", "골렘이 용 골렘이 됨")
+t("Archmage", "마도사")
+t("Hated, harrowed, hunted, hidden... Our ways are forbidden, but our cause is just. In our veiled valley we find solace from the world's wrath, free to study our arts. Only through charity and friendship can you earn our trust.", "증오받고, 괴로워하고, 사냥당하고, 숨어들었다... 우리의 기예는 금지되었지만 우리의 대의는 정당하다. 숨겨진 골짜기에서 우리는 세계의 분노를 피해 안식을 얻고, 자유롭게 기술을 연마한다. 오직 호의와 우정으로만 우리의 신뢰를 얻을 수 있으리라.")
+t("An Archmage devotes his whole life to the study of magic above anything else.", "마도사들은 모든 것을 뒤로 하고 마법의 연구에만 일생을 바쳤습니다.")
+t("Most Archmagi lack basic skills that others take for granted (like general fighting sense), but they make up for it by their raw magical power.", "대부분의 마도사들은 일반적인 전투 기술을 잘 알지 못하지만 그들이 가진 순수한 마법의 힘으로 대신합니다.")
+t("Archmagi start with knowledge of many schools of magic. However, they usually refuse to have anything to do with Necromancy.", "마도사들은 많은 종류의 마법을 아는 상태로 시작합니다. 하지만 그들은 대개 강령술과는 어떤 관계도 맺지 않으려 합니다.")
+t("Most Archmagi have been trained in the secret town of Angolwen and possess a unique spell to teleport to it directly.", "대부분의 마도사들은 숨겨진 마을 앙골웬에서 훈련받았으며 그곳으로 곧장 이동할 수 있는 특별한 주문을 알고 있습니다.")
+t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -4")
+t("Necromancer", "강령술사")
+t("The road to necromancy is a macabre path indeed. Walk with the dead, and drink deeply of their black knowledge.", "강령술의 길은 그야말로 섬뜩하다. 죽은 자들과 함께 걷고, 그들의 부정한 지식을 들이켜라.")
+t("While most magic is viewed with suspicion since the Spellblaze, the stigma surrounding the black art of Necromancy has been around since time immemorial.", "마법폭발 이후로 대부분의 마법이 의심의 눈초리를 받게 되었지만, 강령술의 부정한 기예는 훨씬 전부터 낙인이 찍혔습니다.")
+t("These dark spellcasters extinguish life, twist death, and raise armies of undead monsters to sate their lust for power and pursue their ultimate goal: Eternal life.", "이 어둠의 마법사들은 생명을 꺼뜨리고, 죽음을 뒤틀며 망자들의 군대를 일으킵니다. 힘에 대한 갈망을 충족시키기 위해, 그리고 궁극적인 목표인 영생을 얻기 위해.")
+t("Their most important stats are: Magic and Willpower", "그들의 가장 중요한 능력치는 마법과 의지입니다.")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +0 체격")
+t("#LIGHT_BLUE# * +5 Magic, +3 Willpower, +1 Cunning", "#LIGHT_BLUE# * +5 마법, +3 의지, +1 교활")
+t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -3")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/classes/none.lua"
 
+t("None", "없음")
+t("Your race cannot select a class; it has its own powers.", "당신의 종족은 직업을 선택할 수 없습니다. 그 대신 독자적인 능력을 가집니다.")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/classes/psionic.lua"
 
+t("Psionic", "초능력자")
+t("Weakness of flesh can be overcome by mental prowess. Find the way and fight for the way to open the key to your mind.", "육신의 나약함은 정신의 단련을 통해 극복할 수 있다. '길'을 찾고 '길'을 위해 싸워 그대의 정신을 개방하라.")
+t("Psionics find their power within themselves. Their highly trained minds can harness energy from many different sources and manipulate it to produce physical effects.", "초능력자들은 스스로의 내면에서 힘을 끌어냅니다. 그들의 고도로 훈련된 정신은 여러 원천으로부터 에너지를 끌어내고, 이를 조작하여 물리적인 효과로 변환할 수 있습니다.")
+t("Mindslayer", "정신파괴자")
+t("A thought can inspire; a thought can kill. After centuries of oppression, years of imprisonment, a thought shall break us free and vengeance will strike from our darkest dreams.", "생각으로 영감을 줄 수도 있고, 생각으로 죽일 수도 있다. 기나긴 억압과 구속이 끝나면 생각은 우리를 자유롭게 할 것이고 우리의 가장 어두운 꿈 속에서 복수가 오리라.")
+t("Mindslayers specialize in direct and brutal application of mental forces to their immediate surroundings.", "정신파괴자들은 정신의 힘을 직접적이고 잔혹하게 주변에 몰아치는 것에 특화되어 있습니다.")
+t("When Mindslayers do battle, they will most often be found in the thick of the fighting, vast energies churning around them and telekinetically-wielded weapons hewing nearby foes at the speed of thought.", "정신파괴자들은 전투의 한가운데에서 막대한 에너지를 휘두르며, 생각과 같은 속도로 염동력으로 제어되는 무기들을 휘둘러 주변의 적들을 베어넘깁니다.")
+t("#LIGHT_BLUE# * +1 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +1 힘, +0 민첩, +0 체격")
+t("#LIGHT_BLUE# * +0 Magic, +4 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +4 의지, +4 교활")
+t("#GOLD#Life per level:#LIGHT_BLUE# -2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -2")
+t("Solipsist", "유아론자")
+t("Some believe that the world is the collective dream of those that live in it.  Find and wake the sleeper and you'll unlock the potential of your dreams.", "어떤 이들은 세상이 그저 여럿이 꾸는 꿈이라고 믿는다. 잠든 자를 깨워 꿈의 잠재력을 개방하라.")
+t("The Solipsist believes that reality is malleable and nothing more than the collective vision of those that experience it.", "유아론자들은 현실은 가변적이며 그것을 경험하는 이들의 집단적 망상에 불과하다고 믿습니다.")
+t("They wield this knowledge to both create and destroy, to invade the minds of others, and to manipulate the dreams of those around them.", "그들은 이 지식을 이용하여 창조함와 동시에 파괴하고, 다른 이들의 정신을 침범하며 꿈을 조작합니다.")
+t("This knowledge comes with a heavy price and the Solipsist must guard his thoughts, lest he come to believe that the world exists only within his own mind.", "하지만 이 지식에는 무거운 대가가 따릅니다. 유아론자들은 세계가 그들의 망상일 뿐이라는 생각으로부터 스스로의 정신을 보호해야 합니다.")
 t("Their most important stats are: Willpower and Cunning", "그들에게 가장 중요한 능력치는 의지와 교활입니다.")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +0 체격")
+t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +5 의지, +4 교활")
+t("#GOLD#Life per level:#LIGHT_BLUE# -4 (*special*)", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -4 (*특수*)")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/classes/rogue.lua"
 
+t("Rogues are masters of tricks; they can strike from the shadows, and lure monsters into deadly traps.", "불한당들은 속임수의 달인입니다. 그림자 속에서 적들을 기습하고, 괴물들을 치명적인 함정으로 유인해 처치합니다.")
+t("Rogue", "불한당")
+t("Rogues are masters of tricks. A Rogue can get behind you unnoticed and stab you in the back for tremendous damage.", "불한당들은 속임수의 달인입니다. 적이 눈치채지 못하게 접근한 뒤 기습을 가하여 엄청난 피해를 입힐 수 있습니다.")
+t("Rogues usually prefer to dual-wield daggers. They can also become trapping experts, detecting and disarming traps as well as setting them.", "양쪽 손 모두에 단검을 드는 것을 선호하며, 함정을 탐지하고 해제하는 것 못지않게 설치에도 능한 전문가가 될 수도 있습니다.")
+t("#LIGHT_BLUE# * +1 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +1 힘, +3 민첩, +0 체격")
+t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +5 교활")
+t("Shadowblade", "그림자칼날")
+t("Shadowblades are Rogues that are touched by the gift of magic, able to kill with their daggers under a veil of stealth while casting spells to enhance their performance and survival.", "그림자칼날들은 마법의 재능을 타고난 불한당들로, 효율적인 마법을 펼치는 동시에 은폐의 장막 아래서 단검으로 적을 기습합니다.")
+t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "그들의 마법 능력은 배운 것이 아닌 선천적인 것이기 때문에, 자연적으로 마나를 재생할 수 없으며 회복을 위해서는 다른 수단이 필요합니다.")
+t("They use the schools of Phantasm, Temporal, Divination and Conveyance magic to enhance their arts.", "환상, 시간, 예지, 그리고 전이 마법 학파의 주문들을 사용합니다.")
+t("Their most important stats are: Dexterity, Cunning and Magic", "그들에게 가장 중요한 능력치는 민첩과 교활 그리고 마법입니다.")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +3 민첩, +0 체격")
+t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +3 교활")
+t("Marauder", "습격자")
+t("I will not hide and I will not sneak - come dance with my blades and we'll see who's weak. Snapping bone and cracking skull, it's the sounds of battle that make life full!", "숨지도, 은밀하게 움직이지도 않겠다. 와서 내 칼날과 춤을 춰 보면 누가 약한지 알게 되겠지. 뼈를 부러뜨리고 두개골을 부수는 소리야말로 삶을 충만케 한다!")
+t("The wilds of Maj'Eyal are not a safe place. Untamed beasts and wandering dragons may seem a great threat, but the true perils walk on two legs. Thieves and brigands, assassins and opportunistic adventurers, even mad wizards and magic-hating zealots all carry danger to those who venture beyond the safety of city walls.", "마즈'에이얄의 황야는 안전한 곳이 아닙니다. 길들여지지 않은 야수와 돌아다니는 용들도 위험하지만 진정한 위협은 두 발로 걷습니다. 도둑들과 산적들, 암살자들과 기회주의적인 모험가들, 심지어 미친 마법사들과 마법을 증오하는 광신도들까지. 이들은 모두 도시의 장벽을 넘어 여행하는 이들에게 위협이 됩니다.")
+t("Amidst this chaos wanders one class of rogue that has learned to take by force rather than subterfuge. With refined techniques, agile feats and brawn-backed blades the Marauder seeks out his targets and removes them by the most direct methods. He uses dual weapons backed by advanced combat training to become highly effective in battle, and he is unafraid to use the dirtiest tactics when the odds are against him.", "이러한 혼란 속에서 속임수보다는 힘으로 원하는 것을 얻는 한 종류의 불한당이 있습니다. 세련된 기술과 민첩함, 그리고 힘으로 칼을 휘두르는 습격자들은 먹잇감을 찾아내어 가장 빠르고 직접적인 방법으로 제거합니다. 이들은 매우 효과적인 쌍수 무기를 사용하며, 상황이 불리하게 돌아간다면 비열한 기술을 사용하는 것도 주저하지 않습니다.")
+t("Their most important stats are: Strength, Dexterity and Cunning", "그들에게 가장 중요한 능력치는 힘과 민첩 그리고 교활입니다.")
+t("#LIGHT_BLUE# * +4 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +4 힘, +4 민첩, +0 체격")
+t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +1 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +1 교활")
+t("Skirmisher", "척후병")
+t("Fleet of foot and strong of throw, overwhelming every foe, from afar we counter, strike and thud, in the chaos'd skirmish spilling blood.", "빠른 발과 강한 투척, 모든 적을 압도하며, 저 멀리서 우린 맞선다, 쿵 그리고 쾅! 뿌린 피와 혼돈 속에서.")
+t("While able to take maximum advantage of their sling by using deft movements to avoid and confuse enemies that try to get close, the Skirmisher truly excels when fighting other ranged users.", "접근하려 하는 적들을 혼란스럽게 하고 회피하는 것에도 일가견이 있지만, 척후병들은 다른 원거리 무기 사용자들을 상대할 때 그 진정한 빛을 발합니다.")
+t("They have mastered the use of their shield as well as their sling and are nearly impossible to defeat in a standoff.", "그들은 투석구와 동시에 방패를 사용하는 전투법에 숙달되어 있어 거리를 둔 채로 응사하여 그들을 무찌르는 것은 거의 불가능에 가깝습니다.")
+t("Their most important stats are: Dexterity and Cunning", "그들에게 가장 중요한 능력치는 민첩과 교활입니다.")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
+t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +4 민첩, +0 체격")
+t("#LIGHT_BLUE# * +0 Magic, +1 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +1 의지, +4 교활")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +0")
 
 
@@ -5111,6 +5705,8 @@ section "game/modules/tome/data/birth/classes/warrior.lua"
 t("Berserker", "광전사")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +0 교활")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +0")
+t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "그들의 마법 능력은 배운 것이 아닌 선천적인 것이기 때문에, 자연적으로 마나를 재생할 수 없으며 회복을 위해서는 다른 수단이 필요합니다.")
+t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +3 교활")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +3 교활")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +2")
@@ -5124,6 +5720,8 @@ t("Their most important stats are: Strength and Willpower", "그들에게 가장
 t("Oozemancer", "점액술사")
 t("Their most important stats are: Willpower and Cunning", "그들에게 가장 중요한 능력치는 의지와 교활입니다.")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +0 체격")
+t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +5 의지, +4 교활")
+t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -3")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 마법, +3 의지, +0 교활")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +2")
@@ -5340,6 +5938,7 @@ section "game/modules/tome/data/chats/ardhungol-start.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/arena-start.lua"
 
+t("None", "없음")
 
 
 ------------------------------------------------
@@ -6782,6 +7381,7 @@ section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 
+t("None", "없음")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 
 
@@ -7283,6 +7883,7 @@ section "game/modules/tome/data/general/objects/world-artifacts.lua"
 
 t("Radiance", "광휘")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.")
+t("None", "없음")
 
 
 ------------------------------------------------
@@ -7457,6 +8058,41 @@ section "game/modules/tome/data/lore/maze.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
 
+t([[#{bold}#Tract of Destruction#{normal}#
+
+Though armies would fall before the Spellblaze's might, though forests were razed and the skies bled red with fire, they always felt that the earth would endure. It seemed eternal, unmoving. Not even the fury of the Spellblaze could hope to destroy it.
+
+How wrong they were. The Nalorën people, long secluded, were prepared to fend off any attacks on their land, but how could they hope to stop the land itself crumbling? Seeing their home literally tearing itself apart, plains and forests tumbling into the seas... For one brief, terrible moment, they beheld the true extent of the Spellblaze's power. Not only was it destroying the people of the world, but the world itself.
+
+The lands of the Nalorën had sunk beneath the waves.]], [[#{bold}#Tract of Destruction#{normal}#
+
+주문폭발의 위력 속에 군대들이 무너지고ㅡ 숲이 불타 하늘이 핏빛으로 물들지라도, 대지는 결국 견뎌낼 것이라고 사람들은 생각했습니다. 대지는 영원하고 불멸하다. 날뛰는 주문폭발의 영향도 대지를 파괴할 수는 없을 것이다.
+
+얼마나 틀린 생각이었는지... 날로렌 인들은 오랫동안 은둔해 살면서 온갖 위협에 대비해 왔지만, 대지 그 자체가 무너져 내리는 광경을 멈추는 것이 가능이나 하겠습니까? 한 순간, 끔찍하게 고향이 산산조각나고 들판과 숲이 가라않아 바다가 되는 광경을 보면서 날로레 인들은 그저 지켜볼 수밖에 없었습니다. 주문폭발이 세상의 사람들만이 아니라 세상 자체를 갈기갈기 찢어놓는 것을...
+
+파도가 몰려와 날로레의 땅을 집어삼켰습니다.]])
+t([[#{bold}#Tract of Anarchy#{normal}#
+
+For the years following the cataclysm, chaos reigned. Their culture, their way of life, it was as broken and fractured as the land itself. Nalorë civilisation was reduced to a few isolated and feeble settlements, scratching out meagre existences as land, mind and body was warped in both shape and spirit.
+
+Faced with the idea of their great race failing – another victim of the Spellblaze, a footnote in the annals of history – impassioned pleas were sent to their elven brothers: The Shalorën, the Thalorën. Aid was even requested from human and halfling, embroiled in their own petty squabbles as they were.
+
+The Nalorën received no answer.]], [[#{bold}#Tract of Anarchy#{normal}#
+
+혼돈으로 가득찬 재앙의 시대를 지나오면서. 그들의 문화와 삶의 방식은 대지가 망가진 것처럼 무너지고 말았습니다. 날로레 문명은 소수의 작고 고립된 정착지만이 남을 정도로 쇠퇴했습니다. 심지어 그들의 정신과 육체마저 흐트러졌습니다.
+
+위대한 종족-역사서의 각주에 의하면, 또 다른 주문폭발의 희생자이다-이 붕괴해가는 현실을 마주하자, 날로레들은 엘프 형제들-샬로레와 탈로레를 말합니다-에게 도움을 요청했습니다. 자기들끼리 '사소한'언쟁을 벌이던 인간과 하플링에게도 도와달라고 간청했습니다. 
+
+그리고 아무 도움도 받지 못했습니다.]])
+t([[#{bold}#Tract of Acceptance#{normal}#
+
+Betrayed by the Shalorën, wilful and destructive, and the Thalorën, aloof and suspicious, a long, seething silence fell over the remaining Nalorën people. It was during this period of grim introspection that salvation was suddenly and unexpectedly granted. The ancient Sher'Tul magicks, long pondered over by the land's mystics, would bear fruit at last.
+
+The same force that destroyed the Nalorën would save them. Through the Sher'Tul's magic, the Nalorën became able to breathe water as if it was air. Their bodies became adapted for existence under the waves, their legs becoming long, snake-like tails. Such drastic metamorphosis would naturally cause horror, you may expect. However, the Nalorën saw the possibilities their new forms provided: Their sunken lands were their own once again. Their homes would be rebuilt, their civilisation reborn. Nalorën no more, the denizens of the sunken kingdom would come to be known as 'nagas'...]], [[#{bold}#Tract of Acceptance#{normal}#
+
+고집센 샬로레들과 신중하고 의심많은 탈로레들에게 배신당하고, 날로레 생존자들은 오랬동안 침묵 속에 속앓이하며 고통받을 수밖에 없었습니다. 암울하게 하루 하루를 보내던 중, 구원은 갚자기 찾아왔습니다. 오랜기간 수수께끼였던 쉐르'툴의 고대 마법이 마침내 열매를 맺은 것입니다.
+
+날로레를 파멸시켰던 힘이 이번에는 구원의 손을 내밀었습니다. 쉐르'툴의 마법을 통해 날로레들은 물 속에서 숨쉴 수 있게 되었습니다. 몸은 파도 아래의 생활에 적응하였고, 다리는 뱀같이 긴 꼬리가 되었습니다. 갑작스럽게 큰 변이가 일어나면 보통 놀라고 두려워하기 마련입니다. 그래도 날로레들은 새로운 육체에서 가능성을 보았습니다: 이제 가라앉은 땅은 다시 그들의 것이 되고, 집을 다시 짓고 문명이 일어설 것입니다. 날로레는 더 이상 없습니다. 이 가라않은 왕국의 거주자들은 '나가'라고 불리게 됩니다...]])
 
 
 ------------------------------------------------
@@ -8070,36 +8706,36 @@ t([[You chant the glory of the Sun, empowering your light and fire elemental att
 		Your lite radius is also increased by %d.
 		You may only have one Chant active at once and this Chant costs less power to sustain.
 		The effects will increase with your Spellpower.]], [[태양의 영광을 노래합니다. 화염/빛 피해를 %d%% 증가시킵니다.
-		추가로 이 기술은 당신을 빛의 방패로 보호해 근접 공격하는 적에게 %0.1f 빛 피해를 줍니다.
-		광원 반경이 %d 증가합니다.
-		한 번에 하나의 성가만 활성화할 수 있고 이 성가는 유지 비용이 낮습니다.
+		추가로 이 기술은 시전자를 빛의 방패로 보호해 근접 공격하는 적에게 %0.1f 빛 피해를 줍니다.
+		광원 반경이 %d칸 증가합니다.
+		한 번에 하나의 성가만 활성화할 수 있으며, 이 성가는 유지 비용이 낮습니다.
 		주문력에 따라 효과가 강화됩니다.]])
 t([[You have learned to sing the praises of the Sun, in the form of three defensive Chants.
 			Chant of Fortitude: Increases your mental save by %d and maximum life by %d%%.
 			Chant of Fortress: Increases your physical save by %d, your physical resistance by %d%%, your armour by %d and your armour hardiness by 15%%.
 			Chant of Resistance: Increases you spell save by %d, your fire/cold/lightning/acid resistances by %d%% and reduces all damage that comes from distant enemies (3 spaces or more) by %d%%.
-			You may only have one Chant active at a time.]], [[당신은 태양을 찬미하는 3가지 방어적 성향의 성가를 배웠습니다.
+			You may only have one Chant active at a time.]], [[태양을 찬미하는 3가지의 방어적인 성가를 배웠습니다.
 			불굴의 성가: 정신 내성을 %d 증가시키고 최대 체력을 %d%% 증가시킵니다.
 			인내의 성가: 물리 저항을 %d%% 물리 내성을 %d 방어력을 %d 방어 효율을 15%% 증가시킵니다.
 			저항의 성가: 화염/냉기/전기/산성 저항을 %d%% 주문 내성을 %d 증가시키며 3칸 이상 떨어진 적으로부터 받는 피해를 %d%% 감소시킵니다.
 			한 번에 하나의 성가만 활성화할 수 있습니다.]], {1,2,4,3,5,7,6,8})
 t([[Your Chants now bathe you in a cloak of light, which increases your stamina and mana regenerations by %0.2f per turn and does %0.2f light damage to anyone who hits you in melee.
-		These values scale with your Spellpower.]], [[당신의 성가가 당신을 빛의 망토로 감싸 안습니다. 체력과 마나 재생이 %0.2f 증가하고 근접 공격하는 적에게 %0.2f 빛 피해를 줍니다.
+		These values scale with your Spellpower.]], [[성가가 시전자를 빛의 망토로 감싸 안습니다. 체력과 마나 재생이 %0.2f 증가하고, 근접 공격을 하는 적에게 %0.2f 빛 피해를 줍니다.
 		주문력에 따라 효과가 강화됩니다.]])
 t("%s is cured!", "%s 정화되었습니다!", nil, {"이"})
 t([[Your skill at Chanting now extends the cloak of light, increasing your light radius by %d.
 		Also, when you start a new Chant, you will be cured of all cross-tier effects and cured of up to %d debuffs.
 		Chant of Fortitude cures mental effects.
 		Chant of Fortress cures physical effects.
-		Chant of Resistance cures magical effects.]], [[당신의 숙련된 성가가 빛의 망토를 멀리 퍼트려 광원 반경을 %d 증가시킵니다.
-		추가로 새로운 성가를 부르기 시작할때마다 모든 압도 효과를 정화하고 부정적 효과를 최대 %d 개 정화합니다.
+		Chant of Resistance cures magical effects.]], [[숙달된 성가로 빛의 망토를 멀리 퍼트려 광원 반경을 %d 증가시킵니다.
+		추가적으로 새로운 성가를 부르기 시작할때마다 모든 압도 효과를 정화하고 부정적 효과를 최대 %d개 정화합니다.
 		불굴의 성가는 정신 효과를 정화합니다.
 		인내의 성가는 물리 효과를 정화합니다.
 		저항의 성가는 마법 효과를 정화합니다.]])
 t([[Your passion for singing the praises of the Sun reaches its zenith.
 		Your Chanting now increases your light and fire damage by %d%% and up to %d times per turn, when you are hit by a weapon attack, you will gain %0.1f Positive.
-		These values scale with your Spellpower.]], [[태양을 찬미하는 당신의 열정은 절정에 이르렀습니다.
-		화염/빛 피해가 %d%% 증가하고 한 턴에 최대 %d 번 무기에 공격당할 때마다 양기를 %0.1f 회복합니다.
+		These values scale with your Spellpower.]], [[태양을 찬미하는 그 열정이 절정에 이르렀습니다.
+		화염/빛 피해가 %d%% 증가하고 한 턴에 최대 %d 번까지 무기에 공격당할 때마다 양기를 %0.1f 회복합니다.
 		주문력에 따라 효과가 강화됩니다.]])
 
 
@@ -8108,21 +8744,21 @@ section "game/modules/tome/data/talents/celestial/circles.lua"
 
 t("Circle of Shifting Shadows", "변화하는 그림자의 마법진")
 t([[Creates a circle of radius %d at your feet; the circle increases your defense and all saves by %d while dealing %0.2f darkness damage per turn to everyone else within its radius. The circle lasts %d turns.
-		The damage will increase with your Spellpower.]], [[발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 당신의 회피도와 모든 내성을 %d 증가시키고 매 턴 당신을 제외한 모든 대상에게 %0.2f 암흑 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.
+		The damage will increase with your Spellpower.]], [[발 밑부터 반경 %d 칸 크기의 마법진을 생성합니다. 마법진은 회피도와 모든 내성을 %d 증가시키고 매 턴 시전자를 제외한 모든 대상에게 %0.2f 암흑 피해를 줍니다. 마법진은 %d턴간 지속됩니다.
 		주문력에 따라 효과가 강화됩니다.]])
 t("Circle of Sanctity", "신성의 마법진")
-t("Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 당신을 침묵 효과로부터 보호하고 마법진에 진입하는 당신을 제외한 모든 대상을 침묵시키고 %d 빛 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.")
+t("Creates a circle of radius %d at your feet; the circle protects you from silence effects while you remain in its radius while silencing and dealing %d light damage to everyone else who enters. The circle lasts %d turns.", "발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 시전자를 침묵 효과로부터 보호하며, 마법진에 접근하는 시전자를 제외한 모든 대상을 침묵시키고 %d 빛 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.")
 t("Circle of Warding", "수호의 마법진")
 t([[Creates a circle of radius %d at your feet; the circle slows incoming projectiles by %d%% and attempts to push all creatures other than yourself out of its radius, inflicting %0.2f light damage and %0.2f darkness damage per turn as it does so.  The circle lasts %d turns.
-		The effects will increase with your Spellpower.]], [[발 밑에 반경 %d 의 마법진을 생성합니다. 마법진은 마법진으로 들어오는 모든 투사체를 %d%% 감속시키고 당신을 제외한 모든 대상을 밀어내고 매 턴 %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다. 마법진은 %d 턴간 지속됩니다.
+		The effects will increase with your Spellpower.]], [[발 밑에 반경 %d칸의 마법진을 생성합니다. 마법진은 마법진으로 들어오는 모든 투사체를 %d%% 감속시키며, 시전자를 제외한 모든 대상을 밀어내고 매 턴 %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다. 마법진은 %d턴간 지속됩니다.
 		주문력에 따라 효과가 강화됩니다.]])
 t("Celestial Surge", "천공 쇄도")
 t([[Conjure a surge of celestial power through your circles. Any foe standing within one of your circles will be slowed by %d%% for %d turns and take %d light and %d darkness damage.
 		Residual power from the surge will emanate from your circles for %d turns; each circle you stand in will increase your celestial resources.
 		Shifting Shadows: +1 negative.
 		Sanctity: +1 postive.
-		Warding: +0.5 postive and negative.]], [[당신의 마법진에 쇄도하는 천공의 힘을 불어넣습니다. 마법진 위에 서 있는 모든 적을 %d 턴간 %d%% 감속시키고 %d 빛 피해와 %d 암흑 피해를 줍니다.
-		천공 쇄도후 잔류 동력은 마법진에서 %d 턴간 방출됩니다. 잔류 동력은 천공 자원을 회복시킵니다.
+		Warding: +0.5 postive and negative.]], [[마법진에 쇄도하는 천공의 힘을 불어넣습니다. 마법진 위에 서 있는 모든 적을 %d턴 간 %d%% 감속시키고 %d 빛 피해와 %d 암흑 피해를 줍니다.
+		천공 쇄도 후 잔류 동력은 마법진에서 %d 턴간 방출됩니다. 잔류 동력은 천공 자원을 회복시킵니다.
 		변화하는 그림자: +1 음기.
 		신성: +1 양기.
 		수호: +0.5 양기와 음기.]], {2,1,3,4,5})
@@ -8135,25 +8771,25 @@ t("Weapon of Light", "빛의 무기")
 t([[Infuse your weapon with the power of the Sun, adding %0.1f light damage on each melee hit.
 		Additionally, if you have a temporary damage shield active, melee hits will increase its power by %d once per turn.
 		The damage dealt and shield bonus will increase with your Spellpower.]], [[태양의 힘을 무기에 주입하여 근접 공격시 %0.1f 빛 피해를 추가합니다.
-		추가로 피해 흡수 보호막이 활성화된 상태면 매 턴당 1번, 근접 공격시 보호막 수치를 %d 증가시킵니다.
+		추가로 피해 흡수 보호막이 활성화된 상태면 턴당 1번, 근접 공격시 보호막 수치를 %d 증가시킵니다.
 		주문력에 따라 효과가 강화됩니다.]])
 t("Wave of Power", "힘의 파동")
 t("#CRIMSON#%sstrikes twice with Wave of Power!#NORMAL#", "#CRIMSON#%s 힘의 파동으로 2번 공격합니다!#NORMAL#", nil, {"이"})
 t([[In a pure display of power, you project a ranged melee attack, doing %d%% weapon damage.
 		If the target is outside of melee range, you have a chance to project a second attack against it for %d%% weapon damage.
 		The second strike chance (which increases with distance) is %0.1f%% at range 2 and %0.1f%% at the maximum range of %d.
-		The range will increase with your Strength.]], [[순수한 힘의 과시를 위한 원거리 근접공격을 시도하여 %d%% 무기 피해를 줍니다.
-		만약 대상이 근접한 상태가 아니라면 %d%% 무기 피해를 주는 추가 공격 확률이 있습니다.
-		추가 공격 확률은 거리에 따라 증가하여 2 거리에서 %0.1f%% 최대 거리 %d 에서 %0.1f%% 입니다.
+		The range will increase with your Strength.]], [[힘을 과시하게 위해 원거리 근접 공격을 시도하여 %d%% 무기 피해를 줍니다.
+		만약 대상이 근접한 상태가 아니라면 일정 확률로 %d%% 무기 피해를 추가로 입힙니다.
+		추가 공격 확률은 거리에 따라 증가하며 2칸 거리에서 %0.1f%%, 최대 %d칸 거리 에서 %0.1f%% 입니다.
 		힘에 따라 사거리가 증가합니다.]], {1,2,3,5,4})
 t("Weapon of Wrath", "분노의 무기")
 t([[Your weapon attacks burn with righteous fury, dealing %d%% of your lost HP as additional Fire damage (up to %d, Current:  %d).
 		Targets struck are also afflicted with a Martyrdom effect that causes them to take %d%% of all damage they deal for 4 turns.
-		The bonus damage can only occur once per turn.]], [[무기가 정의로운 분노로 타올라 근접 공격시 잃은 체력에 비례해 %d%% 화염 피해를 추가합니다.(최대 %d, 현재: %d).
+		The bonus damage can only occur once per turn.]], [[무기를 정의로운 분노로 불태워서 근접 공격 시 잃은 체력에 비례하는 %d%% 화염 피해를 추가합니다.(최대 %d, 현재: %d).
 		피해를 받은 대상은 4턴간 순교 상태에 빠져 대상이 가한 피해의 %d%% 에 해당하는 반사 피해를 받습니다.
-		추가 피해는 한 턴에 한번만 발생합니다.]])
+		추가 피해는 한 턴에 한 번만 발생합니다.]])
 t("Second Life", "두번째 생명")
-t("Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for %d.", "체력을 1 미만으로 감소시키는 공격은 두번쨰 생명을 발동시킵니다. 두번째 생명이 발동되면 두번째 생명을 비활성화하고 체력을 1로 설정한 뒤 체력을 %d 회복시킵니다.")
+t("Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for %d.", "체력을 1 미만으로 감소시키는 공격이 두번째 생명을 발동시킵니다. 두번째 생명은 체력을 1로 만든 후, 체력을 %d 회복시킨 다음에 비활성화됩니다.")
 
 
 ------------------------------------------------
@@ -8162,13 +8798,13 @@ section "game/modules/tome/data/talents/celestial/crusader.lua"
 t("Absorption Strike", "흡수의 일격")
 t([[You strike your foe with your two handed weapon, dealing %d%% weapon damage.
 		If the attack hits, all foes in radius 2 will have their light resistance reduced by %d%% and their damage reduced by %d%% for 5 turns.]], [[양손 무기로 적을 공격하여 %d%% 무기 피해를 줍니다.
-		공격이 적중하면 반경 2 내의 모든 적은 5턴간 빛 저항이 %d%% 감소하고 주는 피해가 %d%% 감소합니다.]])
+		공격이 적중하면 반경 2칸 이내 모든 적의 5턴간 빛 저항이 %d%% 감소하고, 주는 피해가 %d%% 감소합니다.]])
 t("Mark of Light", "빛의 징표")
-t("You mark a target with light for 3 turns, causing all melee hits you deal to it to heal you for %d%% of the damage done.", "대상에게 3턴간 빛의 징표를 남깁니다. 징표가 남은 대상을 근접 공격하면 가한 피해의 %d%% 를 회복합니다.")
+t("You mark a target with light for 3 turns, causing all melee hits you deal to it to heal you for %d%% of the damage done.", "대상에게 3턴간 빛의 징표를 부여합니다. 징표가 부여된 대상을 근접 공격하면 가한 피해의 %d%% 를 회복합니다.")
 t("Righteous Strength", "정의로운 힘")
 t([[While wielding a two handed weapon, your critical strike chance is increased by %d%%, and your melee criticals instill you with righteous strength, increasing all physical and light damage you deal by %d%%, stacking up to 3 times.
 		In addition, your melee critical strikes leave a lasting lightburn on the target, dealing %0.2f light damage over 5 turns and reducing opponents armour by %d.
-		The damage increases with your Spellpower.]], [[양손 무기를 장비한 상태라면 치명타율이 %d%% 증가하고 근접 치명타가 당신에게 정의로운 힘을 불어넣어 물리/빛 피해가 %d%% 증가합니다. 피해량 증가 효과는 최대 3회 중첩됩니다.
+		The damage increases with your Spellpower.]], [[양손 무기를 장비한 상태라면 치명타율이 %d%% 증가하고, 근접 치명타가 시전자에게 정의로운 힘을 불어넣어 물리/빛 피해가 %d%% 증가합니다. 피해 증가 효과는 최대 3회 중첩됩니다.
 		추가로 근접 치명타가 대상에게 광염을 남겨 5턴간 %0.2f 빛 피해를 주고 방어력을 %d 감소시킵니다.
 		주문력에 따라 피해량이 강화됩니다.]])
 t("Flash of the Blade", "검의 섬광")
@@ -8176,9 +8812,9 @@ t("You require a two handed weapon to use this talent.", "이 기술을 사용�
 t([[Infuse your two handed weapon with light while spinning around.
 		All creatures in radius one take %d%% weapon damage.
 		In addition while spinning your weapon shines so much it deals %d%% light weapon damage to all foes in radius 2.
-		At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.]], [[양손 무기에 빛의 힘을 주입하여 회전합니다.
-		반경 1 내의 모든 적에게 %d%% 무기 피해를 줍니다.
-		추가로 무기가 너무나도 밝게 빛나 반경 2 내의 모든 적에게 %d%% 빛 무기 피해를 줍니다.
+		At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.]], [[양손 무기에 빛의 힘을 주입하고 회전하며 휘두릅니다.
+		반경 1칸 내의 모든 적에게 %d%% 무기 피해를 줍니다.
+		또한 너무나도 밝게 빛나는 무기가 반경 2칸 내의 모든 적에게 %d%% 빛 무기 피해를 줍니다.
 		기술 레벨 4에 도달하면 회전하는 검이 보호막을 생성해 1턴간 받는 모든 피해를 막아냅니다.]])
 
 
@@ -8189,18 +8825,18 @@ t("Blood Red Moon", "핏빛 붉은 달")
 t("Increases your spell critical chance by %d%%.", "주문 치명타율을 %d%% 증가시킵니다.")
 t("Totality", "완전함")
 t([[Increases your light and darkness resistance penetration by %d%% for %d turns, and reduces the cooldown of all Celestial skills by %d.
-		The resistance penetration will increase with your Cunning.]], [[빛/암흑 저항 관통이 %d 턴간 %d%% 증가하고 모든 천공 기술의 재사용 대기시간이 %d 감소합니다.
+		The resistance penetration will increase with your Cunning.]], [[빛/암흑 저항 관통이 %d턴간 %d%% 증가하고 모든 천공 기술의 재사용 대기시간이 %d턴 감소합니다.
 		교활에 따라 저항 관통이 강화됩니다.]], {2,1,3})
 t("Corona", "코로나")
 t([[Each time one of your spells criticals, you project a bolt of light or shadow at up to %d targets within radius %d, doing %0.2f light damage or %0.2f darkness damage per bolt.
 		This effect costs 2 positive or 2 negative energy each time it's triggered, and will not activate if either your positive or negative energy is below 2.
 		The damage scales with your Spellpower.
-		This spell cannot crit.]], [[주문 치명타가 발생할때 마다 반경 %d 내의 최대 %d 명의 적에게 마법 화살을 발사합니다. 화살은 %0.2f 빛 피해 또는 %0.2f 암흑 피해를 줍니다.
-		이 효과가 발동하는데 양기 2 또는 음기 2를 요구하며 양기 또는 음기가 2 미만일 경우 발동하지 않습니다.
+		This spell cannot crit.]], [[주문 치명타가 발생할 때마다 반경 %d칸 내의 최대 %d명의 적에게 마법 화살을 발사합니다. 화살은 %0.2f 빛 피해 또는 %0.2f 암흑 피해를 줍니다.
+		이 효과는 발동 시 양기 2 또는 음기 2를 요구하며, 양기 또는 음기가 2 미만일 경우 발동하지 않습니다.
 		주문력에 따라 피해량이 강화됩니다.
 		이 주문은 치명타가 발생하지 않습니다.]], {2,1,3,4})
 t("Darkest Light", "칠흑의 빛")
-t("Shroud foes within radius %d in darkest light, dealing %0.2f light and %0.2f darkness damage per turn and converting %d%% of the damage they deal between light and darkness for %d turns.", "반경 %d 내의 적을 %d 턴간 칠흑의 빛으로 덮어 매 턴당 %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다. 칠흑의 빛에 덮힌 적이 가하는 피해의 %d%% 는 빛과 암흑 피해로 전환됩니다.", {1,5,2,3,4})
+t("Shroud foes within radius %d in darkest light, dealing %0.2f light and %0.2f darkness damage per turn and converting %d%% of the damage they deal between light and darkness for %d turns.", "반경 %d칸 내의 적을 %d턴간 칠흑의 빛으로 덮어 매턴 %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다. 칠흑의 빛에 덮힌 적이 가하는 피해의 %d%%는 빛과 암흑 피해로 전환됩니다.", {1,5,2,3,4})
 
 
 ------------------------------------------------
@@ -8210,7 +8846,7 @@ t("Glyphs", "빛의 문양")
 t("glyph of sunlight", "태양광의 문양")
 t("Deals %d light damage and heals the summoner for %d", "%d 빛 피해를 주고 소환자의 생명력을 %d 회복시킵니다.")
 t("glyph of moonlight", "월광의 문양")
-t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "%d 암흑 피해를 주고 적을 약화시켜 %d 턴간 주는 피해를 %d%% 감소시킵니다.", {1,3,2})
+t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt by %d%% for %d turns.", "%d 암흑 피해를 주고 적을 약화시켜 %d턴간 주는 피해를 %d%% 감소시킵니다.", {1,3,2})
 t("glyph of twilight", "황혼의 문양")
 t("trap", "함정")
 t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "폭발하여 무작위 방향으로 적을 1칸 밀어내고 %d 빛 피해와 %d 암흑 피해를 줍니다.")
@@ -8224,34 +8860,34 @@ t([[When one of your spells goes critical, you bind glyphs in radius 1 centered 
 		#ffd700#Glyph of Sunlight#LAST#:  Bind sunlight into a glyph. When triggered it will release a brilliant light, dealing %0.2f light damage and healing you for %d.
 		#7f7f7f#Glyph of Moonlight#LAST#:  Bind moonlight into a glyph. When triggered it will release a fatiguing darkness,  dealing %0.2f darkness damage and reducing the foes damage dealt by %d%% for %d turns.
 		#9D9DC9#Glyph of Twilight#LAST#:  Bind twilight into a glyph. When triggered it will release a burst of twilight, dealing %0.2f light and %0.2f darkness damage and knocking the foe back %d tiles.
-		]], [[주문 치명타가 발생하면 반경 %d 내의 무작위 대상 근처 1칸에 문양을 하나 새깁니다. 문양을 새기는데 양기 5와 음기 5가 필요합니다.
-		문양은 %d 턴간 지속되며 적이 문양이 새겨진 칸에 진입하면 다양한 효과가 발생합니다.
-		문양은 이미 문양에 인접하지 않은 적에게만 새겨지며 ...?Glyphs will only spawn on enemies that aren't adjacent to an existing glyph and will prioritize your own position if it is valid.
+		]], [[주문 치명타가 발생하면 반경 %d칸 내 무작위 대상의 근처 1칸에 문양을 하나 새깁니다. 문양을 새기는데에는 양기 5와 음기 5가 필요합니다.
+		문양은 %d턴간 지속되며 적이 문양이 새겨진 칸에 올라서면 다양한 효과가 발생합니다.
+		기존 문양에 인접하지 않은 적의 주변에 문양이 새겨지며, 시전자의 위치에서 유효한 장소가 더 우선됩니다.
 		이 효과는 매 %d 게임 턴마다 발동합니다.
 		주문력에 따라 문양 효과가 강화됩니다.
 
 		새길 수 있는 문양:
-		#ffd700#태양광의 문양#LAST#:  태양광을 문양으로 새깁니다. 발동하면 찬란한 빛을 내뿜어 %0.2f 빛 피해를 주고 당신의 생명력을 %d 회복시킵니다.
-		#7f7f7f#월광의 문양#LAST#:  월광을 문양으로 새깁니다. 발동하면 약화의 어둠을 내뿜어 %0.2f 암흑 피해를 주고 %d 턴간 적이 주는 피해를 %d%% 감소시킵니다.
-		#9D9DC9#황혼의 문양#LAST#:  황혼을 문양으로 새깁니다. 발동하면 황혼을 내뿜어 %0.2f 빛 피해와 %0.2f 암흑 피해를 주고 적을 %d 칸 밀어냅니다.
+		#ffd700#태양광의 문양#LAST#:  태양광을 문양으로 새깁니다. 발동 시 찬란한 빛을 내뿜어 %0.2f 빛 피해를 주고 시전자의 생명력을 %d 회복시킵니다.
+		#7f7f7f#월광의 문양#LAST#:  월광을 문양으로 새깁니다. 발동 시 약화의 어둠을 내뿜어 %0.2f 암흑 피해를 주고 %d턴간 적이 주는 피해를 %d%% 감소시킵니다.
+		#9D9DC9#황혼의 문양#LAST#:  황혼을 문양으로 새깁니다. 발동 시 황혼을 내뿜어 %0.2f 빛 피해와 %0.2f 암흑 피해를 주고 적을 %d칸 밀어냅니다.
 		]])
 t("Glyphs of Fury", "분노의 문양")
 t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
 		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
 		#7f7f7f#Glyph of Moonlight#LAST#:  Deals %0.2f darkness damage.
-		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[당신의 문양이 천공의 분노로 물듭니다. 문양의 지속시간이 %d 턴 증가하고 발동할때 추가 피해를 줍니다.
+		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[시전자의 문양이 천공의 분노로 물듭니다. 문양의 지속시간이 %d 턴 증가하고 발동할때 추가 피해를 줍니다.
 		#ffd700#태양광의 문양#LAST#:  %0.2f 빛 피해를 줍니다.
 		#7f7f7f#월광의 문양#LAST#:  %0.2f 암흑 피해를 줍니다.
 		#9D9DC9#황혼의 문양#LAST#:  %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다.]])
 t("Empowered Glyphs", "문양 증강")
-t("Up to 3 times per turn when one of your glyphs triggers you feel a surge of celestial power, increasing your darkness and light resistance and affinity by 5%% for %d turns, stacking up to %d times.", "매 턴당 최대 3번, 문양이 발동할 때마다 당신에게 천공의 힘이 쇄도합니다. 천공의 힘은 %d 턴간 빛/암흑 저항과 친화도를 5%% 증가시킵니다. 천공의 힘은 최대 %d 회 중첩됩니다.")
+t("Up to 3 times per turn when one of your glyphs triggers you feel a surge of celestial power, increasing your darkness and light resistance and affinity by 5%% for %d turns, stacking up to %d times.", "매 턴 최대 3번, 문양이 발동할 때마다 시전자에게 천공의 힘이 쇄도합니다. 천공의 힘은 %d턴간 빛/암흑 저항과 친화도를 5%% 증가시킵니다. 천공의 힘은 최대 %d회 중첩됩니다.")
 t("Destabilize Glyphs", "문양 붕괴")
 t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy standing on it.
 		At talent level 2 glyphs triggered this way will leave a residue of themselves on the ground, dealing damage each turn for %d turns.
 		#ffd700#Sunlight#LAST#:  %0.2f light damage.
 		#7f7f7f#Moonlight#LAST#:  %0.2f darkness damage.
-		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[문양을 붕괴시켜 반경 10 내의 적이 밟고 있는 문양을 발동시킵니다.
-		기술 레벨 2에 도달하면 문양 붕괴를 통해 발동한 문양은 잔해를 남겨 %d 턴간 피해를 줍니다.
+		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[문양을 붕괴시켜 반경 10칸 내의 적이 밟고있는 문양을 발동시킵니다.
+		기술 레벨 2에 도달하면 문양 붕괴를 통해 발동한 문양이 잔해를 남겨 %d턴간 피해를 줍니다.
 		#ffd700#태양광#LAST#:  %0.2f 빛 피해.
 		#7f7f7f#월광#LAST#:  %0.2f 암흑 피해.
 		#9D9DC9#황혼#LAST#:  %0.2f 빛 피해와 %0.2f 암흑 피해.]])
@@ -8344,7 +8980,7 @@ You may only have one Hymn active at a time.]], [[달을 찬미하는 3가지 �
 
 한 번에 하나의 찬가만 활성화할 수 있습니다.]])
 t([[Your Hymns now focus darkness near you, which increases your darkness damage by %d%% and does %0.2f darkness damage to anyone who hits you in melee.
-		These values scale with your Spellpower.]], [[찬가가 주변의 어둠을 집중시킵니다. 암흑 피해가 %d%% 증가하고 근접 공격하는 적에게 %0.2f% 암흑 피해를 줍니다.
+		These values scale with your Spellpower.]], [[찬가가 주변의 어둠을 집중시킵니다. 암흑 피해가 %d%% 증가하고 근접 공격하는 적에게 %0.2f 암흑 피해를 줍니다.
 		주문력에 따라 효과가 증가합니다.]])
 t([[Your skill in Hymns now improves your sight in darkness, increasing your infravision radius by %d.
 		Also, when you end a Hymn, you will gain a buff of a type based on which Hymn you ended.
@@ -8384,7 +9020,7 @@ t([[A magical zone of Sunlight appears around you, healing and shielding all wit
 t("Barrier", "방벽")
 t([[A protective shield forms around you that lasts for up to 10 turns and negates %d damage.
  		The total damage the barrier can absorb will increase with your Spellpower and can crit.]], [[10턴간 유지되는 수호의 방벽을 생성하여 최대 %d 피해를 흡수합니다.
- 		주문력에 따라 방벽의 피해 흡수량이 증가하고 치명타가 발생할 수 있습니다.]])
+		주문력에 따라 방벽의 피해 흡수량이 증가하고 치명타가 발생할 수 있습니다.]])
 t("Providence", "섭리")
 t("Places you under the protection of a ray of sunlight. For %d turns, the light removes a single negative effect from you every turn.", "햇빛의 가호 아래 자리잡습니다. 가호는 %d 턴간 유지되며 매 턴, 부정적 효과를 하나 정화합니다.")
 
@@ -8527,7 +9163,7 @@ t([[Call forth the Sun to summon a fiery beam that pierces to the farthest enemy
 		화염 광선으로 피해를 주거나 그로 인해 발생한 추가 피해 1회당 양기를 %0.2f 회복합니다.
 		주문력에 따라 피해량이 증가합니다.]])
 t("Sunburst", "태양광 폭발")
-t("Release a burst of sunlight beams at %d random foes in radius %d, dealing %d damage to all foes hit and increasing your bonus light damage by %d%% of your bonus darkness damage for %d turns.", "폭발적인 태양광선을 방출해 반경 %d 내의 무작위 %d 명의 적을 공격해 %d 빛 피해를 주고 %d 턴간 빛 피해가 현재 암흑 피해의 %d%% 만큼 증가합니다.", {1,2,3,5,4})
+t("Release a burst of sunlight beams at %d random foes in radius %d, dealing %d damage to all foes hit and increasing your bonus light damage by %d%% of your bonus darkness damage for %d turns.", "폭발적인 태양광선을 방출해 반경 %d 내의 무작위 %d 명의 적을 공격해 %d 빛 피해를 주고 %d 턴간 빛 피해가 현재 암흑 피해의 %d%% 만큼 증가합니다.", {2,1,3,5,4})
 
 
 ------------------------------------------------
@@ -8599,6 +9235,7 @@ section "game/modules/tome/data/talents/chronomancy/chronomancer.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/chronomancy.lua"
 
+t("None", "없음")
 
 
 ------------------------------------------------
@@ -8664,6 +9301,7 @@ section "game/modules/tome/data/talents/chronomancy/speed-control.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/spellbinding.lua"
 
+t("None", "없음")
 
 
 ------------------------------------------------
@@ -8727,6 +9365,22 @@ section "game/modules/tome/data/talents/corruptions/corruptions.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/corruptions/curses.lua"
 
+t("Curse of Defenselessness", "무방비의 저주")
+t([[Curses your target, decreasing its Defense and all saves by %d for 5 turns.  This cannot be saved against.
+		The effects will improve with your Spellpower.]], [[대상에게 저주를 걸어 회피도와 모든 내성을 5턴 간 %d만큼 감소시킵니다. 이 저주는 저항할 수 없습니다.
+		효과는 주문력에 비례합니다.]])
+t("Curse of Impotence", "무기력의 저주")
+t([[Curses your target, decreasing all damage it does by %d%% for 10 turns.
+		The effects will improve with your Spellpower.]], [[대상에게 저주를 걸어 피해량을 10턴 간 %d만큼 감소시킵니다.
+		효과는 주문력에 비례합니다.]])
+t("Curse of Death", "죽음의 저주")
+t([[Curses your target, preventing normal life regeneration and dealing %0.2f darkness damage over 10 turns.
+		The damage will increase with your Spellpower.]], [[대상에게 저주를 걸어 기본 생명력 재생을 막고, 10턴 간 %0.2f의 암흑 피해를 줍니다.
+		피해량은 주문력에 비례합니다.]])
+t("Curse of Vulnerability", "취약의 저주")
+t([[Curses your target, decreasing all its resistances by %d%% for 7 turns.
+		The effect will improve with your Spellpower.]], [[대상에게 저주를 걸어 모든 저항력을 7턴 간 %d%% 감소시킵니다.
+		효과는 주문력에 비례합니다.]])
 
 
 ------------------------------------------------
@@ -9289,6 +9943,7 @@ section "game/modules/tome/data/talents/misc/objects.lua"
 t("spell", "주문")
 t("other", "다른")
 t("You require a shield to use this talent.", "이 기술을 사용하려면 방패가 필요합니다.")
+t("None", "없음")
 
 
 ------------------------------------------------
@@ -9298,6 +9953,7 @@ t("shalore", "샬로레")
 t("thalore", "탈로레")
 t("dwarf", "드워프")
 t("halfling", "하플링")
+t("Skirmisher", "척후병")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.")
 t("ogre", "오우거")
 
@@ -9480,6 +10136,36 @@ section "game/modules/tome/data/talents/spells/advanced-necrotic-minions.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/aegis.lua"
 
+t("Arcane Reconstruction", "비전 재건")
+t([[Imbues your body with arcane forces, reconstructing it to a default state, healing for %d life.
+		The life healed will increase with your Spellpower.]], [[신체에 비전력을 주입하여 재건시킵니다. 생명력을 %d 회복합니다.
+		생명력 회복량은 주문력에 비례합니다.]])
+t("Shielding", "보호막 강화")
+t([[Surround yourself with strengthening arcane forces.
+		Every damage shield, time shield, displacement shield, and disruption shield affecting you has its power increased by %d%%.
+		At level 5, it also increases the duration of all shields by 1 turn.
+		The shield value will increase with your Spellpower.]], [[주위를 강화된 비전력으로 둘러쌉니다.
+		모든 보호막의 파워가 %d%%만큼 증가합니다. 
+		스킬 레벨 5가 되면, 모든 보호막의 지속시간이 1턴 증가합니다.
+		증가량은 주문력에 비례합니다.]])
+t("Arcane Shield", "비전 보호막")
+t([[Surround yourself with protective arcane forces.
+		Each time you receive a direct heal (not a life regeneration effect), you automatically gain a damage shield equal to %d%% of the heal value for 3 turns.
+		This will replace an existing damage shield if the new shield value and duration would be greater than or equal to the old.
+		The shield value will increase with your Spellpower.]], [[주위를 비전력으로 둘러싸 스스로를 보호합니다.
+		(생명력 재생 효과가 아닌) 생명력 회복을 할 때마다, 3턴 간 생명력 회복량의 %d%%만큼의 피해 보호막을 얻습니다.
+		이 보호막은 중첩이 되지 않으며, 기존에 적용된 피해 보호막이 있을 경우, 보호량과 지속시간에 따라 교체됩니다.
+		보호막량은 주문력에 비례합니다.]])
+t("Aegis", "아이기스의 방패")
+t([[Release arcane energies into most magical shields currently protecting you.
+		It will affect at most %d shield effects.
+		Damage Shield, Time Shield, Displacement Shield:  Increase the damage absorption value by %d%%.
+		Disruption Shield: Tap into the stored energies to restore the shield (at a rate of 2 energy per 1 shield power). Any leftover energy is converted back into mana at a rate of %0.2f energy per mana.
+		The charging will increase with your Spellpower.]], [[자신을 보호하고 있는 마법 보호막의 비전 에너지를 방출합니다.
+		It will affect at most %d shield effects.
+		Damage Shield, Time Shield, Displacement Shield:  Increase the damage absorption value by %d%%.
+		Disruption Shield: Tap into the stored energies to restore the shield (at a rate of 2 energy per 1 shield power). Any leftover energy is converted back into mana at a rate of %0.2f energy per mana.
+		The charging will increase with your Spellpower.]])
 
 
 ------------------------------------------------
@@ -9616,6 +10302,7 @@ section "game/modules/tome/data/talents/spells/golem.lua"
 section "game/modules/tome/data/talents/spells/golemancy.lua"
 
 t("drolem", "드롤렘")
+t("Golem", "골렘")
 
 
 ------------------------------------------------
@@ -9626,11 +10313,62 @@ section "game/modules/tome/data/talents/spells/grave.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/ice.lua"
 
+t("Freeze", "빙결")
+t([[Condenses ambient water on a target, freezing it for %d turns and damaging it for %0.2f.
+		If this is used on a friendly target the cooldown is reduced by 33%%.%s
+		The damage will increase with your Spellpower.]], [[공기 중의 수분을 응집시킨 뒤 얼려서 대상을 %d 턴 간 빙결시키고 %0.2f의 피해를 줍니다.
+		아군에게 사용하면 재사용 대기시간이 33%%.%s 감소합니다.
+		피해량은 주문력이 비례합니다.]])
+t("\
+Affects all creatures in radius 2.", "\
+대상 주위 반경 2칸 내에 영향을 줍니다.")
+t("Frozen Ground", "얼어붙은 대지")
+t([[Blast a wave of cold all around you with a radius of %d, doing %0.2f cold damage and freezing creatures to the ground for 4 turns.
+		Affected creatures can still act, but cannot move.
+		For each affected creature that is also wet the cooldown of Shatter decreases by 2.
+		The damage will increase with your Spellpower.]], [[냉기 파동을 내뿜어 반경 %d 칸의 적에게 %0.2f의 얼음 피해를 주고 4턴 간 빙결시킵니다.
+		이 기술에 영향 받은 적들은 행동할 수 있지만, 이동할 수는 없습니다.
+		젖은 상태의 적들이 이 스킬에 영향을 받을 때마다 산산조각의 재사용 대기시간이 2턴 씩 감소합니다.
+		피해량은 주문력에 비례합니다.]])
+t("Shatter", "산산조각")
+t("%s shatters!", "%s 산산조각났다!", nil, {"는"})
+t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
+		Depending on the target's rank, there will also be an additional effect:
+		* Critters will be instantly killed
+		* +50%% critical chance against Normal rank
+		* +25%% critical chance against Elites or Bosses
+		All affected foes will get the wet effect.
+		At most, it will affect %d foes.
+		If you are yourself Frozen, it will instantly be destroyed.
+		The damage will increase with your Spellpower.]], [[빙결된 적을 산산조각 내, %0.2f의 냉기 피해를 줍니다.
+		대상의 등급에 따라 추가 효과를 줍니다:
+		* Critters는 즉시 사망합니다. 
+		* 일반 등급의 적에게는 치명타 확률이 50%% 증가합니다.
+		* 엘리트나 보스 등급의 적에게는 치명타 확률이 25%% 증가합니다.
+		영향 받은 적들은 젖습니다.
+		최대 %d명의 적에게 피해를 줍니다.
+		자신이 빙결된 상태라면, 빙결 상태를 즉시 해제합니다.
+		피해량은 주문력에 비례합니다.]])
+t("Uttercold", "절대영도")
+t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%% and ignoring %d%% cold resistance of your targets
+		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], [[차가운 냉기로 주위를 둘러싸 냉기 피해를 %0.1f%%만큼 증가시키고, %d%%만큼의 냉기 저항을 무시합니다.
+		또한 얼음을 관통하여 공격하는 법을 배워, 언 적을 공격할 때, 얼음이 흡수하는 피해량이 %d%%만큼 감소합니다.]])
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/meta.lua"
 
+t("Disperse Magic", "마법 분산")
+t([[Removes up to %d magical effects (good effects from foes, and bad effects from friends) from the target.
+		At level 3, it can be targeted.
+		]], [[%d개 의 마법 효과를 제거합니다. 
+		3레벨이 되면, 대상을 지정하여 사용할 수 있습니다.
+		]])
+t("Spellcraft", "주문학")
+t("Quicken Spells", "빠른 주문")
+t("Reduces the cooldown of all spells by %d%%.", "모든 주문의 재사용 대기시간이 %d%% 감소합니다.")
+t("Metaflow", "초월의 흐름")
+t("Your mastery of arcane flows allow you to reset the cooldown of up to %d of your spells (that don't have a fixed cooldown) of tier %d or less.", "비전의 흐름을 깨달아 %d개의 주문의 재사용 대기시간을 초기화합니다. (재사용 대기시간이 고정되어 있는 주문은 초기화하지 않음) %d 등급 이하의 주문만 초기화합니다.")
 
 
 ------------------------------------------------
@@ -11076,6 +11814,10 @@ section "game/modules/tome/data/timed_effects/magical.lua"
 t("stone", "암석")
 t("phantasm", "환영")
 t("radiance", "광휘")
+t("Curse of Vulnerability", "취약의 저주")
+t("Curse of Impotence", "무기력의 저주")
+t("Curse of Defenselessness", "무방비의 저주")
+t("Curse of Death", "죽음의 저주")
 t("Providence", "섭리")
 t("Totality", "완전함")
 t("Empowered Glyphs", "문양 증강")
@@ -11119,6 +11861,7 @@ t("Thunderstorm", "뇌우")
 t("Scoundrel's Strategies", "건달의 전략")
 t("Fumble", "헛발질")
 t("sun", "태양")
+t("Frozen Ground", "얼어붙은 대지")
 
 
 ------------------------------------------------
@@ -11266,6 +12009,7 @@ section "game/modules/tome/data/zones/blighted-ruins/npcs.lua"
 
 t("human", "인간")
 t("humanoid", "인간형")
+t("Necromancer", "강령술사")
 
 
 ------------------------------------------------
@@ -12364,6 +13108,7 @@ section "game/modules/tome/data/zones/town-angolwen/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-angolwen/traps.lua"
 
+t("Alchemist", "연금술사")
 
 
 ------------------------------------------------
@@ -13060,6 +13805,7 @@ section "game/modules/tome/dialogs/debug/RandomActor.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/RandomObject.lua"
 
+t("None", "없음")
 t("Equipment", "장비")
 t("Inventory", "소지품")
 
