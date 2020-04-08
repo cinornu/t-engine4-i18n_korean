@@ -233,6 +233,7 @@ newEffect{
 		self.faction = eff.src.faction
 		self:effectTemporaryValue(eff, "never_anger", 1)
 		self:effectTemporaryValue(eff, "invulnerable", 1)
+		self:effectTemporaryValue(eff, "hostile_for_level_change", 1)
 	end,
 	deactivate = function(self, eff)
 		if eff.particle then self:removeParticles(eff.particle) end
@@ -968,7 +969,7 @@ newEffect{
 	on_timeout = function(self, eff)
 		local tInstillFear = self:getTalentFromId(self.T_INSTILL_FEAR)
 --		if tInstillFear.hasEffect(eff.src, tInstillFear, self) then
-			if core.fov.distance(self.x, self.y, eff.src.x, eff.src.y) <= eff.range and self:hasLOS(eff.src.x, eff.src.y) then
+			if core.fov.distance(self.x, self.y, eff.src.x, eff.src.y) <= eff.range and eff.src:hasLOS(self.x, self.y) then
 				eff.turns_left = eff.turns_left - 1
 			end
 			if eff.turns_left <= 0 then
@@ -1626,6 +1627,11 @@ newEffect{
 	parameters = {chance=0},
 	on_gain = function(self, err) return _t"#F53CBE##Target# is plagued by inner demons!", _t"+Inner Demons" end,
 	on_lose = function(self, err) return _t"#Target# is freed from the demons.", _t"-Inner Demons" end,
+	activate = function(self, eff)
+		if core.shader.active() then
+			self:effectParticles(eff, {type="shader_shield", args={size_factor=1.5, img="inner_demons_tentacle_shader"}, shader={type="tentacles", wobblingType=0, appearTime=0.8, time_factor=2000, noup=0.0}})
+		end
+	end,
 	on_timeout = function(self, eff)
 		if eff.src.dead or not game.level:hasEntity(eff.src) then eff.dur = 0 return true end
 		local t = eff.src:getTalentFromId(eff.src.T_INNER_DEMONS)
@@ -2920,8 +2926,8 @@ newEffect{
 	name = "UNSEEN_FORCE", desc = _t"Unseen Force",
 	image="talents/unseen_force.png",
 	long_desc = function(self, eff)
-		local hits = (eff.extrahit > 0 and ("from %d to %d"):tformat(eff.hits, eff.hits + 1) or ""..eff.hits)
-		return ("An unseen force strikes %s targets in a range of 5 around this creature every turn, doing %d damage and knocking them back for %d tiles."):tformat(hits, eff.damage, eff.knockback) end,
+		local hits = (eff.extrahit > 0 and ("from %d to %d"):tformat(eff.hits, eff.hits + 1) or ("%s"):tformat(eff.hits))
+		return ("An unseen force strikes %s targets in a range of %d around this creature every turn, doing %d damage and knocking them back for %d tiles."):tformat(hits, eff.range, eff.damage, eff.knockback) end,
 	type = "mental",
 	subtype = {psionic=true},
 	status = "beneficial",
@@ -2935,8 +2941,7 @@ newEffect{
 	end,
 	on_timeout = function(self, eff)
 		local targets = {}
-		local tmp = {}
-		local grids = core.fov.circle_grids(self.x, self.y, 5, true)
+		local grids = core.fov.circle_grids(self.x, self.y, eff.range, true)
 		for x, yy in pairs(grids) do
 			for y, _ in pairs(grids[x]) do
 				local a = game.level.map(x, y, Map.ACTOR)
@@ -2954,7 +2959,7 @@ newEffect{
 			-- Randomly take targets
 			local sample = rng.tableSample(targets, hitCount)
 			for _, target in ipairs(sample) do
-				t.forceHit(self, t, target, target.x, target.y, eff.damage, eff.knockback, 7, 0.6, 10, tmp)
+				t.forceHit(self, t, target, target.x, target.y, eff.damage, eff.knockback, 7, 0.6, 10)
 			end
 		end
 	end,

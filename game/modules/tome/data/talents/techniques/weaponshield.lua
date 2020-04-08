@@ -122,11 +122,12 @@ newTalent{
 		if not target or not self:canProject(tg, x, y) then return nil end
 
 		local damage = t.getShieldDamage(self, t)
-		self:forceUseTalent(self.T_BLOCK, {ignore_energy=true, ignore_cd = true, silent = true})
 
 		self:attackTargetWith(target, shield_combat, nil, damage)
 		self:attackTargetWith(target, shield_combat, nil, damage)
 		self:attackTargetWith(target, shield_combat, nil, damage)
+
+		self:forceUseTalent(self.T_BLOCK, {ignore_energy=true, ignore_cd = true, silent = true})
 
 		return true
 	end,

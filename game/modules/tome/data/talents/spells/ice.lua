@@ -53,7 +53,7 @@ newTalent{
 
 		local dam = self:spellCrit(t.getDamage(self, t))
 		self:project(tg, x, y, DamageType.COLD, dam, {type="freeze"})
-		self:project(tg, x, y, DamageType.FREEZE, {dur=t.getDuration(self, t), hp=70 + dam * 1.5})
+		self:project(tg, x, y, DamageType.FREEZE, {dur=t.getDuration(self, t), hp=70 + dam * 0.7})
 
 		tg.type = "hit"
 		self:projectApply(tg, x, y, Map.ACTOR, function(target)

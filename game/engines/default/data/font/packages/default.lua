@@ -29,6 +29,7 @@ newPackage{ id = "basic", name = "Basic", weight = 1,
 	classic = {font="/data/font/Vera.ttf", normal=12, small=10, big=14},
 	classic_mono = {font="/data/font/VeraMono.ttf", normal=12, small=10, big=14},
 	insular = {font="/data/font/INSULA__.ttf", normal=14, small=12, big=16},
+	terminal = {font="/data/font/VeraMono.ttf", normal=12, small=10, big=14},
 }
 
 newPackage{ id = "web", name = "Web", weight = 10,
@@ -45,6 +46,7 @@ newPackage{ id = "web", name = "Web", weight = 10,
 	classic = {font="/data/font/USENET_.ttf", normal=16, small=14, big=18},
 	classic_mono = {font="/data/font/SVBasicManual.ttf", normal=14, small=10, big=16},
 	insular = {font="/data/font/INSULA__.ttf", normal=14, small=12, big=16},
+	terminal = {font="/data/font/DroidSansMono.ttf", normal=12, small=10, big=14},
 }
 
 newPackage{ id = "fantasy", name = "Fantasy", weight = 100,
@@ -60,10 +62,11 @@ newPackage{ id = "fantasy", name = "Fantasy", weight = 100,
 	classic = {font="/data/font/USENET_.ttf", normal=16, small=14, big=18},
 	classic_mono = {font="/data/font/SVBasicManual.ttf", normal=14, small=10, big=16},
 	insular = {font="/data/font/INSULA__.ttf", normal=14, small=12, big=16},
+	terminal = {font="/data/font/DroidSansMono.ttf", normal=12, small=10, big=14},
 }
 
 
-newPackage{ id = "korean", name = "Korean", weight = 100,
+newPackage{ id = "chinese", name = "Chinese", weight = 100,
 	small = {font="/data/font/WenQuanYiMicroHei.ttf", normal=12, small=10, big=14},
 	default = {font="/data/font/WenQuanYiMicroHei.ttf", normal=16, small=12, big=18},
 	bold = {font="/data/font/WenQuanYiMicroHei.ttf", normal=16, small=12, big=18},
@@ -75,4 +78,5 @@ newPackage{ id = "korean", name = "Korean", weight = 100,
 	resources_small = {font="/data/font/WenQuanYiMicroHei.ttf", normal=14},
 	classic = {font="/data/font/WenQuanYiMicroHei.ttf", normal=16, small=14, big=18},
 	classic_mono = {font="/data/font/WenQuanYiMicroHeiMono.ttf", normal=14, small=10, big=16},
+	terminal = {font="/data/font/WenQuanYiMicroHeiMono.ttf", normal=12, small=10, big=14},
 }

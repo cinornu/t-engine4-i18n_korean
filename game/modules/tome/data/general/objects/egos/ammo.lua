@@ -43,7 +43,7 @@ newEntity{
 				return ("Wound the target dealing #RED#%d#LAST# physical damage across 5 turns and reducing healing by %d%%"):tformat(dam, hf)
 			end,
 			wound=function(combat, who)
-				local dam = math.floor(who:combatStatScale(who:combatPhysicalpower(), 1, 350))  -- Doesn't stack
+				local dam = math.max(15, math.floor(who:combatStatScale(who:combatPhysicalpower(), 1, 350)))  -- Doesn't stack
 				local hf = 50
 				return dam, hf
 			end,
@@ -149,7 +149,7 @@ newEntity{
 				return ("Splash the target with acid dealing #VIOLET#%d#LAST# damage over 5 turns and reducing armor and accuracy by #VIOLET#%d#LAST#"):tformat(dam, math.ceil(dam / 8))
 			end,
 			acid_splash=function(who)
-				local dam = math.floor(who:combatStatScale(who:combatSpellpower(), 1, 250))
+				local dam = math.max(15, math.floor(who:combatStatScale(who:combatSpellpower(), 1, 250)))
 				return dam
 			end,
 			fct=function(combat, who, target, dam, special)
@@ -176,7 +176,7 @@ newEntity{
 				return ("#LIGHT_GREEN#25%%#LAST# chance for lightning to strike from the target to a second target dealing #VIOLET#%d#LAST# damage"):tformat(dam)
 			end,
 			arc=function(who)
-				local dam = math.floor(who:combatStatScale(who:combatSpellpower(), 1, 150))
+				local dam = math.max(15, math.floor(who:combatStatScale(who:combatSpellpower(), 1, 150)))
 				return dam
 			end,
 			on_kill=1, 
@@ -314,12 +314,13 @@ newEntity{
 			{engine.DamageType.ACID, "acid", _t"acid"},
 		},
 		special_on_hit = {
+			on_kill = 1,
 			desc=function(self, who, special)
 				local dam = special.explosion(self.combat, who)
 				return ("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)"):tformat(dam, self.combat.elemental_element and self.combat.elemental_element[3] or "<random on generation>" )
 			end,
 			explosion=function(self, who)
-				local dam = math.floor(who:combatStatScale(who:combatSpellpower(), 1, 150)) * (1 + (self.elemental_bonus or 0) / 100)
+				local dam = math.max(15, math.floor(who:combatStatScale(who:combatSpellpower(), 1, 150)) * (1 + (self.elemental_bonus or 0) / 100))
 				return dam
 			end,
 			fct=function(combat, who, target, dam, special)
@@ -467,7 +468,7 @@ newEntity{
 				return ("#LIGHT_GREEN#20%%#LAST# chance to create an air burst in radius 3 knocking enemies back 2 spaces and dealing #RED#%d#LAST# physical damage"):tformat(dam)
 			end,
 			explosion=function(who)
-				local dam = math.floor(who:combatStatScale(who:combatPhysicalpower(), 1, 250))
+				local dam = math.max(15, math.floor(who:combatStatScale(who:combatPhysicalpower(), 1, 250)))
 				return dam
 			end,
 			fct=function(combat, who, target, dam, special)
@@ -498,7 +499,7 @@ newEntity{
 				return ("#LIGHT_GREEN#20%%#LAST# chance to create vines that bind the target to the ground dealing #YELLOW#%d#LAST# nature damage and pinning them for 3 turns"):tformat(dam)
 			end,
 			damage=function(who)
-				local dam = math.floor(who:combatStatScale(who:combatMindpower(), 1, 350))
+				local dam = math.max(15, math.floor(who:combatStatScale(who:combatMindpower(), 1, 350)))
 				return dam
 			end,
 			fct=function(combat, who, target, dam, special)
@@ -577,7 +578,7 @@ newEntity{
 					tformat(manaburn or 0, 1 + math.ceil(who:combatMindpower() / 20))
 			end,
 			manaburn=function(who)
-				local dam = math.floor(who:combatStatScale(who:combatMindpower(), 1, 150))
+				local dam = math.max(10, math.floor(who:combatStatScale(who:combatMindpower(), 1, 150)))
 				return dam
 			end,
 			fct=function(combat, who, target, dam, special)
@@ -682,7 +683,7 @@ newEntity{
 				return ("#LIGHT_GREEN#20%%#LAST# chance to knock the target back 3 spaces and deal #YELLOW#%d#LAST# physical damage"):tformat(dam)
 			end,
 			psychokinetic_damage=function(who)
-				local dam = math.floor(who:combatStatScale(who:combatMindpower(), 1, 350))
+				local dam = math.max(15, math.floor(who:combatStatScale(who:combatMindpower(), 1, 350)))
 				return dam
 			end,
 			fct=function(combat, who, target, dam, special)

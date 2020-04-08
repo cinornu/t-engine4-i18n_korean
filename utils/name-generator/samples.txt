@@ -1,0 +1,26 @@
+
+List of samples:
+(Note: This library is intended for use in games, and sample texts are interpreted as such.)
+
+norse - Ancient norse names.
+norsemyth - Names from Norse myth. Also good dwarven names.
+odin - More than 200 different names for Odin, again, dwarven stuff.
+beowulf - Characters from the epic Beowulf, different norse variations.
+
+hebrew - Ancient Hebrew names. May inspire deities and divine beings.
+roman - Names used throughout the Roman Empire.
+celticmyth - Names from Celtic lore, also good for a fantasy setting.
+
+saxon - Ancient names from Brittany, may use in Arthurian settings.
+welsh - Ancient Welsh names, perhaps also fitting for Arthurian legends.
+elven - Selected names from the Welsh text, somehow they really sound like the names of elves.
+
+lusiadas - Classical Portuguese epic text, very big, a nice stress test. Smooth sounding names.
+russian,
+polish,
+greek,
+japanese - Modern names in different languages, setting-dependant. Samurai, Spartans?
+
+
+Sample sources:
+www.wikipedia.org

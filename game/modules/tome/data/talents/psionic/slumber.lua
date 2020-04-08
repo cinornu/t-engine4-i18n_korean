@@ -153,7 +153,7 @@ newTalent{
 		if target == self then return end
 		if target:attr("negative_status_effect_immune") or target:attr("status_effect_immune") then return nil end
 
-		if not self:canBe("planechange") or target.summon_time or target.summon then
+		if not self:canBe("planechange") or target.summon_time or target.summoner then
 			game.logPlayer(self, "The spell fizzles...")
 			return
 		end

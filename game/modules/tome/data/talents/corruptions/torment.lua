@@ -136,13 +136,13 @@ newTalent{
 	callbackPriorities={callbackOnHit = -1},  -- Before Bone Shield but after Rot
 	callbackOnHit = function(self, t, cb)
 		local eff = self:hasEffect(self.EFF_BLOOD_GRASP)
-		local life = self.max_life + (eff and eff.life or 0)
+		local max_life = self.max_life - (eff and eff.life or 0)
 		local l, c = t.getPower(self, t)
-		if cb.value >= self.max_life * l  / 100 then
+		if cb.value >= max_life * l  / 100 then
 		
 		local alt = {}
 		for tid, cd in pairs(self.talents_cd) do
-			if rng.percent(c) then alt[tid] = true end
+			if rng.percent(c) and not self:getTalentFromId(tid).fixed_cooldown then alt[tid] = true end
 		end
 		for tid, cd in pairs(alt) do
 			self:alterTalentCoolingdown(tid, -1)

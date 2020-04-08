@@ -238,9 +238,8 @@ newEntity{
 			[Stats.STAT_DEX] = resolvers.mbonus_material(5, 1),
 			[Stats.STAT_CON] = resolvers.mbonus_material(5, 1),
 		},
-		combat_spellresist = resolvers.mbonus_material(20, 10, function(e, v) return 0, -v end),
+		combat_spellresist = resolvers.mbonus_material(12, 3, function(e, v) return 0, v end),
 		stamina_regen = resolvers.mbonus_material(12, 3, function(e, v) v=v/10 return 0, v end),
-		mana_regen = resolvers.mbonus_material(50, 10, function(e, v) v=v/100 return 0, -v end),
 		talents_types_mastery = {
 			["technique/combat-training"] = resolvers.mbonus_material(2, 2, function(e, v) v=v/10 return 0, v end),
 		},

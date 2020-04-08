@@ -53,7 +53,7 @@ local turret = function()
 	talent_cd_reduction={[Talents.T_ELEMENTAL_BOLT]=3, },
 
 	resolvers.talents{
-		[Talents.T_ELEMENTAL_BOLT]={base=3, every=5, max=10},
+		[Talents.T_ELEMENTAL_BOLT]={base=3, every=3, max=8},
 	},
 
 	ai = "dumb_talented_simple", ai_state = { ai_move="move_complex", talent_in=3, },
@@ -85,12 +85,13 @@ defineTile('t', "FLOOR", {random_filter={add_levels=5, tome_mod="gvault"}}, turr
 
 local def = {
 [[##############]],
-[[##############]],
+[[#tjj##########]],
+[[#b$$##########]],
 [[##.##t$..t####]],
 [[#t.+...>..####]],
 [[##.##...$.####]],
 [[#b$$#$...t####]],
-[[#jjj##########]],
+[[#tjj##########]],
 [[##############]],
 }
 

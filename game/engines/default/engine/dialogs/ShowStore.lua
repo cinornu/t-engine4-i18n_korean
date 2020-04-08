@@ -126,7 +126,7 @@ function _M:generateList()
 	for item, o in ipairs(self.store_inven) do
 		if not self.store_filter or self.store_filter(o) then
 			local char = self:makeKeyChar(i)
-			list[#list+1] = { id=#list+1, char=char, name=o:getName(), color=o:getDisplayColor(), object=o, item=item, cat=_t(o.subtype), cost=o.cost, desc=o:getDesc(), desc_price=self.descprice("buy", o) }
+			list[#list+1] = { id=#list+1, char=char, name=o:getName(), color=o:getDisplayColor(), object=o, item=item, cat=_t(o.subtype, "entity subtype"), cost=o.cost, desc=o:getDesc(), desc_price=self.descprice("buy", o) }
 			list.chars[char] = #list
 			i = i + 1
 		end
@@ -140,7 +140,7 @@ function _M:generateList()
 	for item, o in ipairs(self.actor_inven) do
 		if not self.actor_filter or self.actor_filter(o) then
 			local char = self:makeKeyChar(i)
-			list[#list+1] = { id=#list+1, char=char, name=o:getName(), color=o:getDisplayColor(), object=o, item=item, cat=_t(o.subtype), cost=o.cost, desc=o:getDesc(), desc_price=self.descprice("sell", o) }
+			list[#list+1] = { id=#list+1, char=char, name=o:getName(), color=o:getDisplayColor(), object=o, item=item, cat=_t(o.subtype, "entity subtype"), cost=o.cost, desc=o:getDesc(), desc_price=self.descprice("sell", o) }
 			list.chars[char] = #list
 			i = i + 1
 		end

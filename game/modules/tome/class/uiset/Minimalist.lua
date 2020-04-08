@@ -1146,7 +1146,7 @@ function _M:handleEffect(player, eff_id, e, p, x, y, hs, bx, by, is_first, scale
 	if not self.tbuff[eff_id..":"..dur..":"..charges] then
 		local name = e.desc
 		local desc = nil
-		local eff_subtype = table.concat(table.ts(table.keys(e.subtype)), "/")
+		local eff_subtype = table.concat(table.ts(table.keys(e.subtype), "effect subtype"), "/")
 		if e.display_desc then name = e.display_desc(self, p) end
 		if p.save_string and p.amount_decreased and p.maximum and p.total_dur then
 			desc = ("#{bold}##GOLD#%s\n(%s: %s)#WHITE##{normal}#\n"):format(name, _t(e.type), eff_subtype)..e.long_desc(player, p).." "..("%s reduced the duration of this effect by %d turns, from %d to %d."):tformat(p.save_string, p.amount_decreased, p.maximum, p.total_dur)

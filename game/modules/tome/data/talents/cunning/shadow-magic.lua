@@ -82,7 +82,7 @@ newTalent{
 	require = cuns_req3,
 	tactical = { BUFF = 2 },
 	getManaRegen = function(self, t) return self:combatTalentScale(t, 1.5/5, 1, 0.75) / (1 - t.getAtkSpeed(self, t)/100) end,
-	getAtkSpeed = function(self, t) return self:combatTalentScale(t, 2.2, 11, 0.75) end,
+	getAtkSpeed = function(self, t) return self:combatTalentScale(t, 2.2, 15) end,
 	activate = function(self, t)
 		local speed = t.getAtkSpeed(self, t)/100
 		game:playSoundNear(self, "talents/arcane")

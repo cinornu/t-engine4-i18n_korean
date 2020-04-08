@@ -97,7 +97,7 @@ newTalent{
 	no_break_stealth = true,
 	no_energy = true,
 	deactivate_on = {no_combat=true, run=true, rest=true},
-	getSpeed = function(self, t) return self:combatTalentScale(t, 0.10, 0.30, 0.75) end,
+	getSpeed = function(self, t) return self:combatTalentScale(t, 0.10, 0.30) end,
 	getDamage = function(self, t) return 1 end,
 	activate = function(self, t)
 		local ret = {

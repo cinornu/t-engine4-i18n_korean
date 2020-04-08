@@ -55,7 +55,7 @@ newBirthDescriptor{
 		_t"#LIGHT_BLUE# * +0 Magic, +4 Willpower, +4 Cunning",
 		_t"#GOLD#Life per level:#LIGHT_BLUE# -2",
 	},
-	power_source = {psionic=true},
+	power_source = {psionic=true, technique=true},
 	stats = { str=1, wil=4, cun=4, },
 	birth_example_particles = {
 		function(actor)

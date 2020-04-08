@@ -66,11 +66,11 @@ newTalent{
 					effs[#effs+1] = {"effect", eff_id, priority=2}
 				elseif e.subtype.confusion and self:getTalentLevel(t) >=3 then
 					effs[#effs+1] = {"effect", eff_id, priority=3}
-				elseif e.subtype.pin and self:getTalentLevel(t) >=4 then
+				elseif e.subtype.pin and self:getTalentLevel(t) >=3 then
 					effs[#effs+1] = {"effect", eff_id, priority=4}
-				elseif e.subtype.slow and self:getTalentLevel(t) >=5 then
+				elseif e.subtype.disarm and self:getTalentLevel(t) >=4 then
 					effs[#effs+1] = {"effect", eff_id, priority=5}
-				elseif e.subtype.disarm and self:getTalentLevel(t) >=5 then
+				elseif e.subtype.slow and self:getTalentLevel(t) >=4 then
 					effs[#effs+1] = {"effect", eff_id, priority=6}
 				end
 			end
@@ -89,8 +89,8 @@ newTalent{
 	info = function(self, t)
 		local chance = t.getChance(self, t)
 		return ([[You've learned to recover quickly from effects that would disable you. Each turn, you have a %d%% chance to recover from a single stun effect.
-		At talent level 2 you may also recover from blindness, at level 3 confusion, level 4 pins, and level 5 disarms and slows.
-		Effects will be cleansed with the priority order Stun > Blind > Confusion > Pin > Slow > Disarm.
+		At talent level 2 you may also recover from Blindness, at level 3 Confusion and Pins, and level 4 Disarms and Slows.
+		Effects will be cleansed with the priority order Stun > Blind > Confusion > Pin > Disarm > Slow.
 		Only one effect may be recovered from each turn, and the chance to recover from an effect scales with your Constitution.]]):
 		tformat(chance)
 	end,

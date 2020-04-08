@@ -129,7 +129,7 @@ newTalent{
 	requires_target = true,
 	proj_speed = 10,
 	target = function(self, t)
-		return {type="beam", range=self:getTalentRange(t), selffire=false, talent=t, display={display='', particle="arrow", particle_args={tile="shockbolt/object/dream_hammer"}, trail="firetrail"}}
+		return {type="beam", range=self:getTalentRange(t), selffire=false, talent=t, nolock=true, display={display='', particle="arrow", particle_args={tile="shockbolt/object/dream_hammer"}, trail="firetrail"}}
 	end,
 	getDamage = function(self, t) return self:combatTalentWeaponDamage(t, 1, 1.5) end,
 	getAttack = function(self, t) return self:getTalentLevel(t) * 10 end, -- Used for the talent display
@@ -192,7 +192,7 @@ newTalent{
 	tactical = { ATTACK = { [hammer_tactical] = 1 }, DISABLE = { stun = 2 } },
 	getWeaponDamage = function(self, t) return self:combatTalentWeaponDamage(t, 1, 1.5) end,
 	getDamage = function(self, t) return 30 end,
-	getPercentInc = function(self, t) return math.sqrt(self:getTalentLevel(t) / 5) / 2 end,
+	getPercentInc = function(self, t) return math.sqrt(self:getTalentLevel(t) / 5) / 1.5 end,
 	getStun = function(self, t) return math.floor(self:combatTalentScale(t, 3, 7)) end,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	range = 1,

@@ -84,7 +84,7 @@ function _M:generatePlot(actor, t, nb_tl)
 	end
 	table.sort(vars)
 
-	local allcolors = {colors.GREEN, colors.LIGHT_BLUE, colors.LIGHT_RED, colors.ORANGE}
+	local allcolors = {colors.LIGHT_GREEN, colors.LIGHT_BLUE, colors.LIGHT_RED, colors.ORANGE, colors.PURPLE, colors.ANTIQUE_WHITE, colors.DARK_UMBER, colors.GREEN, colors.CYAN, colors.CRIMSON}
 	for _, var in ipairs(vars) do
 		local vo = core.display.newVO()
 		local color = table.remove(allcolors)

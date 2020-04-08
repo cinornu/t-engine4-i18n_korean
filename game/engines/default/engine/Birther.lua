@@ -66,7 +66,7 @@ function _M:newBirthDescriptor(t)
 	assert(t.type, "no birth type")
 	t.short_name = t.short_name or t.name
 	t.short_name = t.short_name:upper():gsub("[ ]", "_")
-	t.display_name = t.display_name or _t(t.name)
+	t.display_name = t.display_name or _t(t.name, "birth descriptor name")
 	assert(t.desc, "no birth description")
 	if type(t.desc) == "table" then t.desc = table.concat(t.desc, "\n") end
 	t.desc = t.desc:gsub("\n\t+", "\n")

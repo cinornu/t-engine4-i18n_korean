@@ -540,6 +540,9 @@ for i = 0, 10 * 10 do
 end
 
 function _M:playerFOV()
+	-- Safety
+	if not self.x or not game.level then return end
+
 	-- Clean FOV before computing it
 	game.level.map:cleanFOV()
 

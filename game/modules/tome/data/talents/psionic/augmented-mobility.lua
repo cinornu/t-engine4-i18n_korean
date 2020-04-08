@@ -60,7 +60,7 @@ newTalent{
 	no_energy = true,
 	tactical = { BUFF = 2 },
 	getDuration = function(self, t) return math.floor(self:combatLimit(self:combatMindpower(0.1), 10, 4, 0, 6, 6)) end, -- Limit < 10
-	speed = function(self, t) return self:combatTalentScale(t, 0.1, 0.4, 0.75) end,
+	speed = function(self, t) return self:combatTalentScale(t, 0.1, 0.4) end,
 	getBoost = function(self, t)
 		return self:combatScale(self:combatTalentMindDamage(t, 20, 60), 0, 0, 50, 100, 0.75)
 	end,

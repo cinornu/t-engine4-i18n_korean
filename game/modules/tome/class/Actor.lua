@@ -2104,7 +2104,7 @@ function _M:tooltip(x, y, seen_by)
 			tst = tst:splitLines(game.tooltip.max-1, game.tooltip.font, 2)
 			tst = tst:extractLines(true)[1]
 			local stats = self:getCombatStats("mainhand", self.INVEN_MAINHAND, i )
-			tst:add(" (#RED#"..math.floor(stats.dmg).."#LAST#)")
+			if stats then tst:add(" (#RED#"..math.floor(stats.dmg).."#LAST#)") end
 			table.append(ts, tst)
 			ts:add(true)
 		end
@@ -2115,7 +2115,7 @@ function _M:tooltip(x, y, seen_by)
 			tst = tst:splitLines(game.tooltip.max-1, game.tooltip.font, 2)
 			tst = tst:extractLines(true)[1]			
 			local stats = self:getCombatStats("offhand", self.INVEN_OFFHAND, i)
-			tst:add(" (#RED#"..math.floor(stats.dmg).."#LAST#)")
+			if stats then tst:add(" (#RED#"..math.floor(stats.dmg).."#LAST#)") end
 			table.append(ts, tst)
 			ts:add(true)
 		end
@@ -2126,7 +2126,7 @@ function _M:tooltip(x, y, seen_by)
 			tst = tst:splitLines(game.tooltip.max-1, game.tooltip.font, 2)
 			tst = tst:extractLines(true)[1]
 			local stats = self:getCombatStats("psionic", self.INVEN_PSIONIC_FOCUS, i)
-			tst:add(" (#RED#"..math.floor(stats.dmg).."#LAST#)")
+			if stats then tst:add(" (#RED#"..math.floor(stats.dmg).."#LAST#)") end
 			table.append(ts, tst)
 			ts:add(true)
 		end
@@ -2176,7 +2176,7 @@ function _M:tooltip(x, y, seen_by)
 
 	if self.desc then ts:add(self.desc, true) end
 	if self.descriptor and self.descriptor.classes then
-		ts:add(_t"Classes: ", table.concat(table.ts(self.descriptor.classes or {}), ","), true)
+		ts:add(_t"Classes: ", table.concat(table.ts(self.descriptor.classes or {}, "birth descriptor name"), ","), true)
 	end
 
 	if self.custom_tooltip then
@@ -2824,15 +2824,6 @@ function _M:onTakeHit(value, src, death_note)
 		end
 	end
 
-	if self:attr("unstoppable") then
-		if value > self.life - 1 then
-			game:delayedLogDamage(src, self, 0, ("#RED#(%d refused)#LAST#"):tformat(value - (self.life - 1)), false)
-			value = self.life - 1
-			if self.life <= 1 then value = 0 end
-			game:delayedLogMessage(self, nil, "unstoppable", "#RED##Source# is unstoppable!")
-		end
-	end
-
 	if value >= self.life then
 		local tal = self:isTalentActive(self.T_SECOND_LIFE)
 		if tal then
@@ -3001,6 +2992,16 @@ function _M:onTakeHit(value, src, death_note)
 	if self:knowTalent(self.T_DRACONIC_BODY) then
 		local t = self:getTalentFromId(self.T_DRACONIC_BODY)
 		t.trigger(self, t, value)
+	end
+
+	-- Needs to be done last, will break if any damage is taken between doing this and updating the actor's life
+	if self:attr("unstoppable") then
+		if value > self.life - 1 then
+			game:delayedLogDamage(src, self, 0, ("#RED#(%d refused)#LAST#"):tformat(value - (self.life - 1)), false)
+			value = self.life - 1
+			if self.life <= 1 then value = 0 end
+			game:delayedLogMessage(self, nil, "unstoppable", "#RED##Source# is unstoppable!")
+		end
 	end
 
 	return value
@@ -5348,8 +5349,9 @@ function _M:paradoxDoAnomaly(chance, paradox, def)
 							game.bignews:saySimple(180, "#STEEL_BLUE#Targeting %s", anom.name)
 						end
 
-						-- targeted talents don't work well with no_energy, so we call the action directly
-						anom.action(self, anom)
+						-- Targeted talents don't work well with no_energy, so we call the action directly.
+						-- In addition, prevent targeting from being cancelled by the player.
+						anom.doAction(self, anom, false)
 					elseif def.ignore_energy then
 						self:forceUseTalent(anom, {force_target=def.target or self, ignore_energy=true})
 					elseif self:knowTalent(self.T_TWIST_FATE) and not self:isTalentCoolingDown(self.T_TWIST_FATE) then
@@ -6201,9 +6203,11 @@ function _M:postUseTalent(ab, ret, silent)
 		-- Free melee blow
 		if ab.is_spell and ab.mode ~= "sustained" and self:knowTalent(self.T_CORRUPTED_STRENGTH) and not self:attr("forbid_corrupted_strength_blow") and not self.turn_procs.corrupted_strength then
 			local tgts = {}
-			for _, c in pairs(util.adjacentCoords(self.x, self.y)) do
-				local target = game.level.map(c[1], c[2], Map.ACTOR)
-				if target and self:reactionToward(target) < 0 then tgts[#tgts+1] = target end
+			if game.level:hasEntity(self) and self.x and self.y then
+				for _, c in pairs(util.adjacentCoords(self.x, self.y)) do
+					local target = game.level.map(c[1], c[2], Map.ACTOR)
+					if target and self:reactionToward(target) < 0 then tgts[#tgts+1] = target end
+				end
 			end
 			if #tgts > 0 then
 				self.turn_procs.corrupted_strength = true
@@ -7221,7 +7225,7 @@ function _M:hasLOS(x, y, what, range, source_x, source_y)
 			break
 		end
 		last_x, last_y = lx, ly
-		if game.level.map:checkAllEntities(lx, ly, what) then break end
+		if game.level.map:checkAllEntities(lx, ly, what, self) then break end
 
 		lx, ly, is_corner_blocked = l:step()
 	end

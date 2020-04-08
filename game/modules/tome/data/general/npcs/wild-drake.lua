@@ -105,7 +105,6 @@ newEntity{ base = "BASE_NPC_WILD_DRAKE",
 		[Talents.T_CHARGE_LEECH]={base=5, every=5, max = 10},
 		[Talents.T_INSATIABLE]={base=5, every=5, max = 30},
 		[Talents.T_PHASE_DOOR]={base=5, every=5, max = 10},
-		[Talents.T_PROBABILITY_TRAVEL]={base=5, every=5, max = 10},
 	},
 
 	resolvers.inscriptions(2, {"phase door rune", "phase door rune"}),

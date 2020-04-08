@@ -31,6 +31,7 @@ newEntity{ define_as = "RUNGOF_FANG",
 	level_range = {20, 35},
 	rarity = false,
 	display = "*", color=colors.DARK_RED,
+	cost = 100,
 	encumber = 1,
 	not_in_stores = true,
 	desc = _t[[A fang from the great warg, Rungof, still covered in blood.]],
@@ -124,24 +125,36 @@ newEntity{ base = "BASE_LONGSWORD", define_as = "RIFT_SWORD",
 	material_level = 4,
 	combat = {
 		dam = 40,
-		apr = 10,
+		apr = 40,
 		physcrit = 8,
 		dammod = {str=0.9,mag=0.2},
 		convert_damage={[DamageType.TEMPORAL] = 20},
-		special_on_hit = {desc=_t"inflicts bonus temporal damage and slows target", fct=function(combat, who, target)
-			local dam = (20 + who:getMag()/2)
-			local slow = (10 + who:getMag()/5)/100
-			who:project({type="hit", range=1}, target.x, target.y, engine.DamageType.CHRONOSLOW, {dam=dam, slow=slow})
+		special_on_hit = {
+			desc=function(self, who, special)
+				local dam, slow = special.proc_values(who)
+				return ("deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic"):tformat(dam, slow*100)
+			end,
+			proc_values=function(who)
+				local dam = (20 + who:getMag())
+				local slow = (30 + who:getMag())/100  -- This doesn't stack with the relatively easy to get basic slow proc, so it gets to be really big
+				return dam, slow
+			end,
+			fct=function(combat, who, target, dam, special)
+				local dam, slow = special.proc_values(who)
+				who:project({type="ball", range=1, radius=6, friendlyfire=false, selffire=false}, target.x, target.y, engine.DamageType.CHRONOSLOW, {dam=dam, slow=slow})
 		end},
 	},
 	wielder = {
 		inc_damage={
-			[DamageType.TEMPORAL] = 12,
-			[DamageType.PHYSICAL] = 10,
+			[DamageType.TEMPORAL] = 30,
+			[DamageType.PHYSICAL] = 30,
 		},
+		resist_all_on_teleport = 20,
+		defense_on_teleport = 20,
+		effect_reduction_on_teleport = 20,
 	},
-	max_power = 8, power_regen = 1,
-	use_talent = { id = Talents.T_RETHREAD, level = 2, power = 8 },
+	max_power = 10, power_regen = 1,
+	use_talent = { id = Talents.T_BLINK_BLADE, level = 4, power = 10 },
 }
 
 newEntity{ base = "BASE_RUNE", define_as = "RUNE_REFLECT",

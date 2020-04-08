@@ -33,7 +33,7 @@ newTalent{
 	requires_target = true,
 	is_melee = true,
 	target = function(self, t) return {type="bolt", range=self:getTalentRange(t), requires_knowledge=false, stop__block=true} end,
-	range = function(self, t) return math.floor(self:combatTalentScale(t, 6, 10)) end,
+	range = function(self, t) return math.min(14, math.floor(self:combatTalentScale(t, 6, 10))) end,
 	on_pre_use = function(self, t)
 		if self:attr("never_move") then return false end
 		return true
@@ -158,7 +158,7 @@ newTalent{
 		if target and core.fov.distance(self.x, self.y, target.x, target.y) <= 10 and self:hasLOS(target.x, target.y, "block_move") then return true end
 		return false
 	end,
-	getSpeed = function(self, t) return self:combatTalentScale(t, 0.14, 0.45, 0.75) end,
+	getSpeed = function(self, t) return self:combatTalentScale(t, 0.14, 0.45) end,
 	action = function(self, t)
 		self:setEffect(self.EFF_SPEED, 5, {power=t.getSpeed(self, t)})
 		return true

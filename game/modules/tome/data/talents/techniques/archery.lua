@@ -112,16 +112,14 @@ newTalent{
 		local mult = bombardment.damage_multiplier(self, bombardment)
 
 		-- Do targeting.
-		local old_target_forced = game.target.forced
 		local tg = {type = "bolt", range = archery_range(self),	talent = t}
 		local x, y, target = self:getTarget(tg)
 		if not x or not y then return end
-		game.target.forced = {x, y, target}
 
 		-- Fire all shots
 		local count = 0
 		for i = 1, shots do
-			local targets = self:archeryAcquireTargets(nil, {no_energy=true, one_shot=true, type="sling"})
+			local targets = self:archeryAcquireTargets(nil, {no_energy=true, one_shot=true, type="sling", x=x, y=y})
 			if not targets then break end
 			
 			count = i
@@ -131,7 +129,6 @@ newTalent{
 			local speed = self:combatSpeed(weapon or pf_weapon)
 			self:useEnergy(game.energy_to_act * (speed or 1))
 		end
-		game.target.forced = old_target_forced
 
 		return count > 0
 	end,
@@ -385,13 +382,11 @@ newTalent{
 		table.shuffle(targets)
 
 		-- Fire each shot individually.
-		local old_target_forced = game.target.forced
 		local shot_params_base = {mult = t.getDamage(self, t), phasing = true}
 		local fired = nil -- If we've fired at least one shot.
 		for i = 1, #targets do
 			local target = targets[i]
-			game.target.forced = {target.x, target.y, target}
-			local targets = self:archeryAcquireTargets({type = "hit", speed = 200}, {one_shot=true, no_energy = fired})
+			local targets = self:archeryAcquireTargets({type = "hit", speed = 200}, {one_shot=true, no_energy = fired, x = target.x, y = target.y})
 			if targets then
 				local params = table.clone(shot_params_base)
 				local target = targets.dual and targets.main[1] or targets[1]
@@ -404,7 +399,6 @@ newTalent{
 			end
 		end
 
-		game.target.forced = old_target_forced
 		return fired
 	end,
 	info = function(self, t)
@@ -550,13 +544,11 @@ newTalent{
 			table.shuffle(targets)
 	
 			-- Fire each shot individually.
-			local old_target_forced = game.target.forced
 			local shot_params_base = {mult = dam/2, phasing = true}
 			local fired = nil -- If we've fired at least one shot.
 			for i = 1, #targets do
 				local target = targets[i]
-				game.target.forced = {target.x, target.y, target}
-				local targets = self:archeryAcquireTargets({type = "hit", speed = 200}, {one_shot=true, infinite=true, no_energy = true})
+				local targets = self:archeryAcquireTargets({type = "hit", speed = 200}, {one_shot=true, infinite=true, no_energy = true, x = target.x, y = target.y})
 				if targets then
 					local params = table.clone(shot_params_base)
 					local target = targets.dual and targets.main[1] or targets[1]
@@ -575,7 +567,6 @@ newTalent{
 				if self:knowTalent(self.T_BULLSEYE) then self:callTalent(self.T_BULLSEYE, "proc") end
 			end
 		end 
-		game.target.forced = old_target_forced
 		return true
 	end,
 	info = function(self, t)

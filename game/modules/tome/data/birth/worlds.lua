@@ -78,7 +78,7 @@ newBirthDescriptor{
 	descriptor_choices = default_eyal_descriptors{},
 	game_state = {
 		campaign_name = "maj-eyal",
-		supports_lich_transform = true,
+		supports_lich_transform = "lichform",
 		stores_restock_by_level = 1,
 		__allow_rod_recall = true,
 		__allow_transmo_chest = true,

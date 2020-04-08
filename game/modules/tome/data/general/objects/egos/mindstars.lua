@@ -467,7 +467,7 @@ newEntity{
 					tformat(manaburn or 0, 1 + math.ceil(who:combatMindpower() / 20))
 			end,
 			manaburn=function(who)
-				local dam = math.floor(who:combatStatScale(who:combatMindpower(), 1, 150))
+				local dam = math.max(10, math.floor(who:combatStatScale(who:combatMindpower(), 1, 150)))
 				return dam
 			end,
 			fct=function(combat, who, target, dam, special)

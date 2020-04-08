@@ -362,9 +362,9 @@ function table.keys(t)
 	return tt
 end
 
-function table.ts(t)
+function table.ts(t, tag)
 	local tt = {}
-	for i, e in ipairs(t) do tt[i] = _t(e) end
+	for i, e in ipairs(t) do tt[i] = _t(e, tag) end
 	return tt
 end
 
@@ -380,12 +380,21 @@ function table.capitalize(t)
 	return tt
 end
 
-function string.tslash(str)
+function string.tslash(str, tag)
 	if str:find("/") then
 		local pos, _ = str:find("/")
-		return _t(str:sub(1, pos - 1)) .. "/" .. string.tslash(str:sub(pos + 1))
+		return _t(str:sub(1, pos - 1), tag) .. "/" .. string.tslash(str:sub(pos + 1), tag)
 	else
-		return _t(str)
+		return _t(str, tag)
+	end
+end
+
+function string.ttype(str, type)
+	if str:find("/") then
+		local pos, _ = str:find("/")
+		return _t(str:sub(1, pos - 1), type.. " type") .. "/" .. _t(str:sub(pos + 1), type.." subtype")
+	else
+		return _t(str, type.." type")
 	end
 end
 
@@ -1199,6 +1208,48 @@ function string.fromTable(src, recurse, offset, prefix, suffix, sort, key_recurs
 	if sort then table.sort(tt, sort) end
 	-- could sort here if desired
 	return prefix..table.concat(tt, offset)..suffix, tt
+end
+
+--- Returns the Levenshtein distance between the two given strings
+function string.levenshtein_distance(str1, str2)
+	local len1 = string.len(str1)
+	local len2 = string.len(str2)
+	local matrix = {}
+	local cost = 0
+	
+        -- quick cut-offs to save time
+	if (len1 == 0) then
+		return len2
+	elseif (len2 == 0) then
+		return len1
+	elseif (str1 == str2) then
+		return 0
+	end
+	
+        -- initialise the base matrix values
+	for i = 0, len1, 1 do
+		matrix[i] = {}
+		matrix[i][0] = i
+	end
+	for j = 0, len2, 1 do
+		matrix[0][j] = j
+	end
+	
+        -- actual Levenshtein algorithm
+	for i = 1, len1, 1 do
+		for j = 1, len2, 1 do
+			if (str1:byte(i) == str2:byte(j)) then
+				cost = 0
+			else
+				cost = 1
+			end
+			
+			matrix[i][j] = math.min(matrix[i-1][j] + 1, matrix[i][j-1] + 1, matrix[i-1][j-1] + cost)
+		end
+	end
+	
+        -- return the last value - this is the Levenshtein distance
+	return matrix[len1][len2]
 end
 
 -- Split a string by the given character(s)

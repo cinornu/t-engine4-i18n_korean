@@ -68,6 +68,7 @@ local stairs = function()
 		__applied_difficulty = true, -- Difficulty already applied to parent zone
 		level_scheme = "player",
 		max_level = 1,
+		actor_adjust_level = function(zone, level, e) return zone.base_level + e:getRankLevelAdjust() + level.level-1 + rng.range(0,4) end,
 		width = 20, height = 20,
 		ambient_music = "Swashing the buck.ogg",
 		persistent = "zone",

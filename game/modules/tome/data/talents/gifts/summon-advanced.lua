@@ -64,9 +64,9 @@ newTalent{
 	mode = "passive",
 	radius = function(self, t) return math.floor(self:combatTalentScale(t, 1.3, 3.7, "log")) end,
 	effectDuration = function(self, t) return math.floor(self:combatTalentScale(t, 5, 9)) end,
-	poisonDamage = function(self, t) return self:combatTalentMindDamage(t, 10, 60) end,
+	poisonDamage = function(self, t) return self:combatTalentMindDamage(t, 20, 133) end,
 	nbEscorts = function(self, t) return math.max(1,math.floor(self:combatTalentScale(t, 0.3, 2.7, "log"))) end,
-	resReduction = function(self, t) return self:combatTalentMindDamage(t, 15, 70) end,
+	resReduction = function(self, t) return self:combatTalentMindDamage(t, 12, 50) end,
 	amtHealing = function(self, t) return 30 + self:combatTalentMindDamage(t, 10, 350) end,
 	slowStrength = function(self, t) return self:combatLimit(self:combatTalentMindDamage(t, 5, 500), 1, 0.1, 0, 0.47 , 369) end, -- Limit speed loss to <100% 
 	info = function(self, t)

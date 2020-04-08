@@ -17,7 +17,7 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
-local sanddunes_editer = {method="borders_def", def="mountain"}
+local sanddunes_editer = {method="borders_def", def="dunes"}
 
 newEntity{
 	define_as = "SAND_FLOOR",
@@ -30,7 +30,7 @@ newEntity{
 newEntity{
 	define_as = "SAND_DUNE",
 	type = "dune", subtype = "sand",
-	name = "sand dune", image = "terrain/rocky_mountain.png",
+	name = "sand dune", image = "terrain/dunes/dunes5.png",
 	display = '^', color=colors.SANDY_BROWN, back_color=colors.LIGHT_UMBER,
 	always_remember = true,
 	can_pass = {pass_wall=1},
@@ -38,14 +38,14 @@ newEntity{
 	block_sight = true,
 	dig = "SAND_FLOOR",
 	nice_editer = sanddunes_editer,
-	nice_tiler = { method="replace", base={"SAND_DUNE", 70, 1, 6} },
+	nice_tiler = { method="replace", base={"SAND_DUNE", 100, 1, 7} },
 }
-for i = 1, 6 do newEntity{ base="SAND_DUNE", define_as = "SAND_DUNE"..i, image = "terrain/mountain5_"..i..".png"} end
+for i = 1, 7 do newEntity{ base="SAND_DUNE", define_as = "SAND_DUNE"..i, image = "terrain/dunes/dunes5_"..i..".png"} end
 
 newEntity{
 	define_as = "HARDSAND_DUNE",
 	type = "dune", subtype = "sand",
-	name = "solidified sand dune", image = "terrain/rocky_mountain.png",
+	name = "solidified sand dune", image = "terrain/dunes/dunes5.png",
 	display = '#', color=colors.SANDY_BROWN, back_color=colors.LIGHT_UMBER,
 	always_remember = true,
 	does_block_move = true,
@@ -53,9 +53,9 @@ newEntity{
 	block_sense = true,
 	block_esp = true,
 	nice_editer = sanddunes_editer,
-	nice_tiler = { method="replace", base={"HARDSAND_DUNE", 70, 1, 6} },
+	nice_tiler = { method="replace", base={"HARDSAND_DUNE", 100, 1, 7} },
 }
-for i = 1, 6 do newEntity{ base="HARDSAND_DUNE", define_as = "HARDSAND_DUNE"..i, image = "terrain/mountain5_"..i..".png"} end
+for i = 1, 7 do newEntity{ base="HARDSAND_DUNE", define_as = "HARDSAND_DUNE"..i, image = "terrain/dunes/dunes5_"..i..".png"} end
 
 newEntity{
 	define_as = "PALMTREE",

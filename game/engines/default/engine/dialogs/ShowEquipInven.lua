@@ -150,7 +150,7 @@ function _M:generateList(no_update)
 					o:forAllStack(function(o) enc=enc+o.encumber end)
 
 					list[#list+1] = { id=#list+1, char=char, name=o:getName(), sortname=o:getName():toString():removeColorCodes(), 
-					color=o:getDisplayColor(), object=o, inven=inven_id, item=item, cat=_t(o.subtype), encumberance=enc, desc=o:getDesc() }
+					color=o:getDisplayColor(), object=o, inven=inven_id, item=item, cat=_t(o.subtype, "entity subtype"), encumberance=enc, desc=o:getDesc() }
 					chars[char] = #list
 					i = i + 1
 				end
@@ -171,7 +171,7 @@ function _M:generateList(no_update)
 
 			local enc = 0
 			o:forAllStack(function(o) enc=enc+o.encumber end)
-			list[#list+1] = { id=#list+1, char=char, name=o:getName(), sortname=o:getName():toString():removeColorCodes(), color=o:getDisplayColor(), object=o, inven=self.actor.INVEN_INVEN, item=item, cat=_t(o.subtype), encumberance=enc, desc=o:getDesc() }
+			list[#list+1] = { id=#list+1, char=char, name=o:getName(), sortname=o:getName():toString():removeColorCodes(), color=o:getDisplayColor(), object=o, inven=self.actor.INVEN_INVEN, item=item, cat=_t(o.subtype, "entity subtype"), encumberance=enc, desc=o:getDesc() }
 			chars[char] = #list
 			i = i + 1
 		end

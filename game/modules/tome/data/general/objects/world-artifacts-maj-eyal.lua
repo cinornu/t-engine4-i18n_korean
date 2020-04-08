@@ -437,9 +437,9 @@ It seems somebody well versed in antimagic could use it to its fullest potential
 
 			self:specialWearAdd({"wielder","inc_stats"}, { [Stats.STAT_WIL] = 6, [Stats.STAT_CUN] = 6, [Stats.STAT_CON] = 6})
 			self:specialWearAdd({"wielder","combat_spellresist"}, 15)
-			self:specialSetAdd({"wielder","equilibrium_regen"}, -1)
-			self:specialSetAdd({"wielder","resists"}, {[engine.DamageType.ARCANE]=40})
-			self:specialSetAdd({"wielder","resists_cap"}, {[engine.DamageType.ARCANE]=10})			
+			self:specialWearAdd({"wielder","equilibrium_regen"}, -1)
+			self:specialWearAdd({"wielder","resists"}, {[engine.DamageType.ARCANE]=40})
+			self:specialWearAdd({"wielder","resists_cap"}, {[engine.DamageType.ARCANE]=10})			
 			game.logPlayer(who, "#LIGHT_BLUE#You feel a great hero guiding you!")
 		end
 	end,

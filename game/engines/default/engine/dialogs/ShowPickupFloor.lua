@@ -125,7 +125,7 @@ function _M:generateList()
 			local enc = 0
 			o:forAllStack(function(o) enc=enc+o.encumber end)
 
-			list[#list+1] = { char=char, name=o:getName(), sortname=o:getName():toString():removeColorCodes(), color=o:getDisplayColor(), object=o, item=idx, cat=_t(o.subtype), encumberance=enc, desc=o:getDesc() }
+			list[#list+1] = { char=char, name=o:getName(), sortname=o:getName():toString():removeColorCodes(), color=o:getDisplayColor(), object=o, item=idx, cat=_t(o.subtype, "entity subtype"), encumberance=enc, desc=o:getDesc() }
 			i = i + 1
 		end
 		idx = idx + 1

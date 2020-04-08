@@ -614,6 +614,14 @@ tDef(44, "#SLATE##{italic}#Your level of #LIGHT_BLUE#Full Control talent#LAST# i
 
 
 ------------------------------------------------
+section "game/addons/tome-vault_test/init.lua"
+
+tDef(20, "Vault Test", "init.lua long_name") -- 
+tDef(29, "Nothing\
+", "init.lua description") -- 
+
+
+------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/achievements/all.lua"
 
 tDef(20, "A Fist Full of Demons", "achievement name") -- 
@@ -1161,15 +1169,16 @@ section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
 tDef(23, "Draining Assault", "talent name") -- 
 tDef(59, "Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "tformat") -- 
 tDef(64, "Fiery Grasp", "talent name") -- 
-tDef(106, "%s resists the grasp!", "logSeen") -- 
-tDef(113, "Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.\
+tDef(108, "%s resists the silence!", "logSeen") -- 
+tDef(113, "%s resists the grasp!", "logSeen") -- 
+tDef(120, "Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.\
 		Starting from talent level 4, it will also silence.\
 		The beam damage and damage over time will increase with your Spellpower.", "tformat") -- 
-tDef(121, "Reckless Strike", "talent name") -- 
-tDef(167, "Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "tformat") -- 
-tDef(172, "Share the Pain", "talent name") -- 
-tDef(180, "You require a two handed weapon to use this talent.", "logPlayer") -- 
-tDef(204, "You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.\
+tDef(128, "Reckless Strike", "talent name") -- 
+tDef(174, "Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "tformat") -- 
+tDef(179, "Share the Pain", "talent name") -- 
+tDef(187, "You require a two handed weapon to use this talent.", "logPlayer") -- 
+tDef(211, "You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.\
 		You get once chance to deal this damage to a particular target each turn.", "tformat") -- 
 
 
@@ -1242,35 +1251,35 @@ tDef(364, "Whenever you are on an unlit grid you can meld with the shadows, gain
 		Moving will cancel the effect.\
 		Stealth power depends on Spellpower.", "tformat") -- 
 tDef(373, "Blood Shield", "talent name") -- 
-tDef(412, "By channeling doom forces in your shield you constantly apply 15%% of its block value as a flat damage reduction against all damage.\
+tDef(405, "By channeling doom forces in your shield you constantly apply 15%% of its block value as a flat damage reduction against all damage.\
 		Whenever you are hit in melee your shield retaliates automatically for %d%% of its block value as fire and darkness damage.", "tformat") -- 
-tDef(419, "Silence", "talent name") -- 
-tDef(437, "Corrupt the target, silencing it for %d turns.", "tformat") -- 
-tDef(443, "Fiery Portal", "talent name") -- 
-tDef(471, "fiery portal", "_t") -- 
-tDef(536, "Create two interlinked portals for %d turns.", "tformat") -- 
-tDef(542, "Doom Tendrils", "talent name") -- 
-tDef(571, "You turn into a pillar of doom, sprouting flame tendrils in radius 2 around you.\
+tDef(412, "Silence", "talent name") -- 
+tDef(430, "Corrupt the target, silencing it for %d turns.", "tformat") -- 
+tDef(436, "Fiery Portal", "talent name") -- 
+tDef(464, "fiery portal", "_t") -- 
+tDef(529, "Create two interlinked portals for %d turns.", "tformat") -- 
+tDef(535, "Doom Tendrils", "talent name") -- 
+tDef(564, "You turn into a pillar of doom, sprouting flame tendrils in radius 2 around you.\
 		All foes hit by the tendrils take %0.2f fire damage per turn.\
 		If the creature suffers damage from the fire it is pinned to the ground.", "tformat") -- 
-tDef(579, "Doomed Nature", "talent name") -- 
-tDef(604, "You curse a target for 5 turns to sever its connection to Nature.\
+tDef(572, "Doomed Nature", "talent name") -- 
+tDef(597, "You curse a target for 5 turns to sever its connection to Nature.\
 		Each time it tries to use a natural power it has %d%% chances to fail and instead trigger a fireball of radius 1 doing %0.2f fire damage.\
 		The damage increases with you Spellpower stat.", "tformat") -- 
-tDef(612, "Acid Burst", "talent name") -- 
-tDef(638, "Whenever you block an attack with your shield, you release a cloud of acidic vapour, dealing %d damage in an area of radius 3 over %d turns.\
+tDef(605, "Acid Burst", "talent name") -- 
+tDef(631, "Whenever you block an attack with your shield, you release a cloud of acidic vapour, dealing %d damage in an area of radius 3 over %d turns.\
 		The damage will increase with your spellpower.", "tformat") -- 
-tDef(645, "Corrosive Cone", "talent name") -- 
-tDef(666, "When you deal a critical strike in melee, you send out a cone of acid, dealing %d damage to all enemies and melting walls you hit.\
+tDef(638, "Corrosive Cone", "talent name") -- 
+tDef(659, "When you deal a critical strike in melee, you send out a cone of acid, dealing %d damage to all enemies and melting walls you hit.\
 		The damage will increase with your Spellpower.", "tformat") -- 
-tDef(673, "Armoured Leviathan", "talent name") -- 
-tDef(692, "You enchant your shield to grant you power for %d turns.\
+tDef(666, "Armoured Leviathan", "talent name") -- 
+tDef(685, "You enchant your shield to grant you power for %d turns.\
 		While the effect last your Strength and Magic stats are increased by 10%% of your shield block value.", "tformat") -- 
-tDef(699, "Flash Block", "talent name") -- 
-tDef(709, "You require a weapon and a shield to use this talent.", "logPlayer") -- 
-tDef(721, "In a fiery display of speed you raise your shield to block instantly.", "tformat") -- 
-tDef(727, "Blackice", "talent name") -- 
-tDef(765, "Each time your kill a creature with non-fire damage in melee range you gain a blackice charge for 20 turns (stacking to %d).\
+tDef(692, "Flash Block", "talent name") -- 
+tDef(702, "You require a weapon and a shield to use this talent.", "logPlayer") -- 
+tDef(714, "In a fiery display of speed you raise your shield to block instantly.", "tformat") -- 
+tDef(720, "Blackice", "talent name") -- 
+tDef(758, "Each time your kill a creature with non-fire damage in melee range you gain a blackice charge for 20 turns (stacking to %d).\
 		At any moment you can use a charge to infect a creature with blackice, reducing its fire resistance by %d%% for 7 turns.", "tformat") -- 
 
 
@@ -1386,22 +1395,22 @@ tDef(257, "When Dread End creates pools of darkness you can focus your raging th
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua"
 
 tDef(20, "Osmosis Shield", "talent name") -- 
-tDef(59, "#SLATE#(%d turned into osmosis)#LAST#", "tformat") -- 
-tDef(85, "You infuse your shield with the energies of Urh'Rok, bringing about a magical shield that heals you for the first points of all damage you receive (based on your shield's block value) over 3 turns. This effect stacks.\
+tDef(52, "#SLATE#(%d turned into osmosis)#LAST#", "tformat") -- 
+tDef(78, "You infuse your shield with the energies of Urh'Rok, bringing about a magical shield that heals you for the first points of all damage you receive (based on your shield's block value) over 3 turns. This effect stacks.\
 		Amount is 5 + %d%% of your shield block value (currently %d).\
 		At level 3 if a damage dealt is at least twice as high you have %d%% chance to also remove a physical detrimental effect. This effect can only happen once per turn.\
 		This spell disabled automatically on rest or run.\
 		#{bold}#Activating the shield takes no time but de-activating it does.#{normal}#\
 		The damage increases with spellpower.", "tformat") -- 
-tDef(96, "Hardened Core", "talent name") -- 
-tDef(120, "Taking example from Mal'Rok, the demon's homeworld you harden yourself.\
+tDef(89, "Hardened Core", "talent name") -- 
+tDef(113, "Taking example from Mal'Rok, the demon's homeworld you harden yourself.\
 		Increases total armour by %d%% + 10 and spellpower by %d.", "tformat") -- 
-tDef(127, "Demonic Madness", "talent name") -- 
-tDef(142, "You require a weapon and a shield to use this talent.", "logPlayer") -- 
-tDef(170, "You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns.\
+tDef(120, "Demonic Madness", "talent name") -- 
+tDef(135, "You require a weapon and a shield to use this talent.", "logPlayer") -- 
+tDef(163, "You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns.\
 		At level 4 you also automatically block at the end.", "tformat") -- 
-tDef(177, "Blighted Shield", "talent name") -- 
-tDef(196, "Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence.\
+tDef(170, "Blighted Shield", "talent name") -- 
+tDef(189, "Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence.\
 		Cursed creatures have all their damage decreased by %d%% for 5 turns.\
 		The effects will improve with your Spellpower.", "tformat") -- 
 
@@ -1509,20 +1518,20 @@ tDef(247, "You crush the spirit of a target with at least %d fear stacks, consum
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua"
 
 tDef(20, "Rain of Fire", "talent name") -- 
-tDef(78, "You unleash the fury of the Spellblaze, constantly draining your vim.\
+tDef(71, "You unleash the fury of the Spellblaze, constantly draining your vim.\
 		While this spell is active at most two meteors will fall near your per turn, dealing %0.2f physical and %0.2f fire damage in radius 2.\
 		This spell disabled automatically on rest or run.\
 		The effects increase with spellpower.", "tformat") -- 
-tDef(87, "Only Ashes Left", "talent name") -- 
-tDef(101, "Bringing about the darkest days of the Spellblaze you hasten the death of your foes.\
+tDef(80, "Only Ashes Left", "talent name") -- 
+tDef(94, "Bringing about the darkest days of the Spellblaze you hasten the death of your foes.\
 		When you deal damage to a creature in radius %d or less around you and it dips below 33%% life you automatically unleash the fury of the Spellblaze.\
 		Affected foes will start taking %0.2f darkness damage each turn until it dies as long as it remains in radius %d of you.\
 		The damage increases with spellpower.", "tformat") -- 
-tDef(110, "Shattered Mind", "talent name") -- 
-tDef(133, "When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns.\
+tDef(103, "Shattered Mind", "talent name") -- 
+tDef(126, "When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns.\
 		While affected the creature will suffer %d%% chances to fail using talents and %d reduced physical, mental and spell saves.", "tformat") -- 
-tDef(140, "Tale of Destruction", "talent name") -- 
-tDef(173, "You chant the destruction of Mal'Rok, the demon's homeworld.\
+tDef(133, "Tale of Destruction", "talent name") -- 
+tDef(166, "You chant the destruction of Mal'Rok, the demon's homeworld.\
 		Each time you kill a creature you send out a magical ripple in radius %d that applies a bane of blindness or confusion for %d turns.\
 		Baned creatures also suffer %0.2f darkness damage per turn.\
 		Damage increases with your spellpower.", "tformat") -- 
@@ -1754,64 +1763,65 @@ tDef(711, "#Target# is linked through pain.", "_t") --
 tDef(711, "+Link of Pain", "_t") -- 
 tDef(712, "#Target# link of pain disappears.", "_t") -- 
 tDef(712, "-Link of Pain", "_t") -- 
-tDef(718, "#ORANGE##Source# shares some pain with #target#!#LAST#", "delayedLogMessage") -- 
-tDef(748, "Only Ashes Left", "_t") -- 
-tDef(749, "The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "tformat") -- 
-tDef(751, "darkness", "effect subtype") -- 
-tDef(755, "#Target# burns with dark flames.", "_t") -- 
-tDef(755, "+Only Ashes Left", "_t") -- 
-tDef(756, "#Target# stops burning.", "_t") -- 
-tDef(756, "-Only Ashes Left", "_t") -- 
-tDef(775, "Shattered Mind", "_t") -- 
-tDef(776, "The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.", "tformat") -- 
-tDef(778, "spellblaze", "effect subtype") -- 
-tDef(781, "+Shattered Mind", "_t") -- 
-tDef(781, "The Spellblaze ripples through #target#!", "_t") -- 
-tDef(782, "#Target# is no longer influenced by the Spellblaze.", "_t") -- 
-tDef(782, "-Shattered Mind", "_t") -- 
-tDef(797, "Dark Reign", "_t") -- 
-tDef(798, "All damage affinity increased by %d%%.\
+tDef(719, "#ORANGE##Source# shares some pain with #target#!#LAST#", "delayedLogMessage") -- 
+tDef(720, "#CRIMSON#(%d linked)#LAST#", "tformat") -- 
+tDef(750, "Only Ashes Left", "_t") -- 
+tDef(751, "The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "tformat") -- 
+tDef(753, "darkness", "effect subtype") -- 
+tDef(757, "#Target# burns with dark flames.", "_t") -- 
+tDef(757, "+Only Ashes Left", "_t") -- 
+tDef(758, "#Target# stops burning.", "_t") -- 
+tDef(758, "-Only Ashes Left", "_t") -- 
+tDef(777, "Shattered Mind", "_t") -- 
+tDef(778, "The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.", "tformat") -- 
+tDef(780, "spellblaze", "effect subtype") -- 
+tDef(783, "+Shattered Mind", "_t") -- 
+tDef(783, "The Spellblaze ripples through #target#!", "_t") -- 
+tDef(784, "#Target# is no longer influenced by the Spellblaze.", "_t") -- 
+tDef(784, "-Shattered Mind", "_t") -- 
+tDef(799, "Dark Reign", "_t") -- 
+tDef(800, "All damage affinity increased by %d%%.\
 Will not die until %d life", "tformat") -- 
-tDef(804, "#Target# is filled with dark power!", "_t") -- 
-tDef(804, "+Dark Reign", "_t") -- 
-tDef(805, "#Target# is no longer subject to the dark power.", "_t") -- 
-tDef(805, "-Dark Reign", "_t") -- 
-tDef(837, "Blood Pact", "_t") -- 
-tDef(838, "All damage you deal is converted to darkness.", "tformat") -- 
-tDef(843, "#Target# becomes an avatar of darkness!", "_t") -- 
-tDef(843, "+Blood Pact", "_t") -- 
-tDef(844, "-Blood Pact", "_t") -- 
-tDef(844, "The darkness within #target# subsides.", "_t") -- 
-tDef(873, "Blackice", "_t") -- 
-tDef(874, "Fire resistance reduced by %d%%.", "tformat") -- 
-tDef(876, "cold", "effect subtype") -- 
-tDef(889, "Fire Haven", "_t") -- 
-tDef(890, "The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "_t") -- 
-tDef(899, "Bleak Outcome", "_t") -- 
-tDef(900, "Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "tformat") -- 
-tDef(900, "none", "_t") -- 
-tDef(902, "curse", "effect subtype") -- 
-tDef(935, "Stripped Life", "_t") -- 
-tDef(936, "Spellpower increased by %d.", "tformat") -- 
-tDef(938, "vim", "effect subtype") -- 
-tDef(952, "Ominous Shadow Charges", "_t") -- 
-tDef(953, "You have %d charges.", "tformat") -- 
-tDef(973, "Ominous Shadow", "_t") -- 
-tDef(974, "Improves/gives invisibility (power %d).", "tformat") -- 
-tDef(976, "dark", "effect subtype") -- 
-tDef(979, "#Target# vanishes from sight.", "_t") -- 
-tDef(979, "+Ominous Shadow", "_t") -- 
-tDef(980, "#Target# is no longer invisible.", "_t") -- 
-tDef(980, "-Ominous Shadow", "_t") -- 
-tDef(1005, "Corruption of the Doomed", "_t") -- 
-tDef(1006, "The target assumes the form of a dúathedlen.", "tformat") -- 
-tDef(1008, "arcane", "effect subtype") -- 
-tDef(1008, "blight", "effect subtype") -- 
-tDef(1011, "#Target# turns into a dúathedlen!", "_t") -- 
-tDef(1011, "+Corruption of the Doomed", "_t") -- 
-tDef(1012, "#Target# is no longer transformed.", "_t") -- 
-tDef(1012, "-Corruption of the Doomed", "_t") -- 
-tDef(1017, "#CRIMSON#Your corruption explodes around %s!", "logPlayer") -- 
+tDef(806, "#Target# is filled with dark power!", "_t") -- 
+tDef(806, "+Dark Reign", "_t") -- 
+tDef(807, "#Target# is no longer subject to the dark power.", "_t") -- 
+tDef(807, "-Dark Reign", "_t") -- 
+tDef(839, "Blood Pact", "_t") -- 
+tDef(840, "All damage you deal is converted to darkness.", "tformat") -- 
+tDef(845, "#Target# becomes an avatar of darkness!", "_t") -- 
+tDef(845, "+Blood Pact", "_t") -- 
+tDef(846, "-Blood Pact", "_t") -- 
+tDef(846, "The darkness within #target# subsides.", "_t") -- 
+tDef(875, "Blackice", "_t") -- 
+tDef(876, "Fire resistance reduced by %d%%.", "tformat") -- 
+tDef(878, "cold", "effect subtype") -- 
+tDef(891, "Fire Haven", "_t") -- 
+tDef(892, "The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "_t") -- 
+tDef(901, "Bleak Outcome", "_t") -- 
+tDef(902, "Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "tformat") -- 
+tDef(902, "none", "_t") -- 
+tDef(904, "curse", "effect subtype") -- 
+tDef(937, "Stripped Life", "_t") -- 
+tDef(938, "Spellpower increased by %d.", "tformat") -- 
+tDef(940, "vim", "effect subtype") -- 
+tDef(954, "Ominous Shadow Charges", "_t") -- 
+tDef(955, "You have %d charges.", "tformat") -- 
+tDef(975, "Ominous Shadow", "_t") -- 
+tDef(976, "Improves/gives invisibility (power %d).", "tformat") -- 
+tDef(978, "dark", "effect subtype") -- 
+tDef(981, "#Target# vanishes from sight.", "_t") -- 
+tDef(981, "+Ominous Shadow", "_t") -- 
+tDef(982, "#Target# is no longer invisible.", "_t") -- 
+tDef(982, "-Ominous Shadow", "_t") -- 
+tDef(1007, "Corruption of the Doomed", "_t") -- 
+tDef(1008, "The target assumes the form of a dúathedlen.", "tformat") -- 
+tDef(1010, "arcane", "effect subtype") -- 
+tDef(1010, "blight", "effect subtype") -- 
+tDef(1013, "#Target# turns into a dúathedlen!", "_t") -- 
+tDef(1013, "+Corruption of the Doomed", "_t") -- 
+tDef(1014, "#Target# is no longer transformed.", "_t") -- 
+tDef(1014, "-Corruption of the Doomed", "_t") -- 
+tDef(1019, "#CRIMSON#Your corruption explodes around %s!", "logPlayer") -- 
 
 
 ------------------------------------------------
@@ -4626,9 +4636,11 @@ tDef(258, "Storm Drake / Lightning Resistance", "_t") --
 tDef(259, "Sand Drake / Physical Resistance (1/3rd values)", "_t") -- 
 tDef(260, "Wild Drake / Nature Resistance", "_t") -- 
 tDef(261, "Acid Drake / Acid Resistance", "_t") -- 
-tDef(264, "Choose an aspect to bring forth:", "_t") -- 
-tDef(264, "Drake Aspect", "_t") -- 
-tDef(281, "Since ziguranth removed those filthy magic runes from your body you have needed an alternative form of power to sustain your body. Thanks to drake blood you have found that power.\
+tDef(262, "Never mind", "_t") -- 
+tDef(267, "#LAST# #{italic}#(current)#{normal}#", "_t") -- 
+tDef(271, "Choose an aspect to bring forth:", "_t") -- 
+tDef(271, "Drake Aspect", "_t") -- 
+tDef(288, "Since ziguranth removed those filthy magic runes from your body you have needed an alternative form of power to sustain your body. Thanks to drake blood you have found that power.\
 		Your blood hardens yourself, passively increasing stun resistance by %d%%, %s resistance by %d%% and dealing %d %s damage on melee attacks.\
 		You can activate this talent to change which drake aspect to bring forth, altering the elemental type of the bonus.\
 		The resistance and damage scales with your Willpower.\
@@ -4636,32 +4648,32 @@ tDef(281, "Since ziguranth removed those filthy magic runes from your body you h
 		Changing your aspect requires combat experience, you may only do so after slaying 100 enemies (current %d).\
 \
 		When you learn this talent you become so strong you can wield any type of one handed weapon in your offhand.", "tformat") -- 
-tDef(294, "Fuel Pain", "talent name") -- 
-tDef(318, "Your body is used to pain. When you take a hit of 20%% or more of your max life one of your inscriptions is taken off cooldown and infusion saturation is removed.\
+tDef(301, "Fuel Pain", "talent name") -- 
+tDef(325, "Your body is used to pain. When you take a hit of 20%% or more of your max life one of your inscriptions is taken off cooldown and infusion saturation is removed.\
 		This effect has a cooldown of %d turns.", "tformat") -- 
-tDef(325, "Drakeblood Strike", "talent name") -- 
-tDef(354, "You were created by ziguranth for one purpose only, to wage war on magic!\
+tDef(332, "Drakeblood Strike", "talent name") -- 
+tDef(361, "You were created by ziguranth for one purpose only, to wage war on magic!\
 			Strike your target dealing %d%% %s weapon damage and silencing them for %d turns.\
 			The damage type will change with your drake aspect.\
 			The chance to silence will increase with the highest of your physical or mind power.", "tformat") -- 
-tDef(364, "The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "_t") -- 
-tDef(364, "parasite", "_t") -- 
-tDef(364, "race", "talent category") -- 
-tDef(366, "Take a Bite", "talent name") -- 
-tDef(385, "#Source# tries to bite #target#!", "logCombat") -- 
-tDef(396, "%s resists!", "logSeen") -- 
-tDef(401, "You try to bite off your foe with your #{italic}#head#{normal}# for %d%% blight weapon damage.\
+tDef(371, "The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "_t") -- 
+tDef(371, "parasite", "_t") -- 
+tDef(371, "race", "talent category") -- 
+tDef(373, "Take a Bite", "talent name") -- 
+tDef(392, "#Source# tries to bite #target#!", "logCombat") -- 
+tDef(403, "%s resists!", "logSeen") -- 
+tDef(408, "You try to bite off your foe with your #{italic}#head#{normal}# for %d%% blight weapon damage.\
 		If the target falls under 20%% life you have %d%% chances to outright kill it (bosses are immune).\
 		Whenever you succesfully bite a foe you regenerate %0.1f life per turn for 5 turns.\
 		Instant kill chances and regeneration increase with your Constitution stat and weapon damage increases with the highest of your Strength, Dexterity or Magic stat.", "tformat") -- 
-tDef(410, "Ultra Instinct", "talent name") -- 
-tDef(420, "Without the distraction of #{bold}#thoughts#{normal}# or #{bold}#self#{normal}# your body reacts faster and better to aggressions.\
+tDef(417, "Ultra Instinct", "talent name") -- 
+tDef(427, "Without the distraction of #{bold}#thoughts#{normal}# or #{bold}#self#{normal}# your body reacts faster and better to aggressions.\
 		Increases global speed by %d%%.", "tformat") -- 
-tDef(427, "Corrupting Influence", "talent name") -- 
-tDef(444, "The parasite corruption seeps into your body, strengthening it.\
+tDef(434, "Corrupting Influence", "talent name") -- 
+tDef(451, "The parasite corruption seeps into your body, strengthening it.\
 		Increases blight, darkness, temporal and acid resistances by %d%% but decreases nature and light resistances by %d%%.", "tformat") -- 
-tDef(451, "Horror Shell", "talent name") -- 
-tDef(467, "Creates a shell around you, absorbing %d damage. Lasts for 10 turns.\
+tDef(458, "Horror Shell", "talent name") -- 
+tDef(474, "Creates a shell around you, absorbing %d damage. Lasts for 10 turns.\
 		The total damage the shield can absorb increases with your Constitution.", "tformat") -- 
 
 
@@ -4839,165 +4851,166 @@ tDef(1046, "#Target# is linked through the prophecy.", "_t") --
 tDef(1046, "+Mark of Treason", "_t") -- 
 tDef(1047, "#Target# prophetic link disappears.", "_t") -- 
 tDef(1047, "-Mark of Treason", "_t") -- 
-tDef(1053, "#ORANGE#The wounds of #Source# appear on #target#!#LAST#", "delayedLogMessage") -- 
-tDef(1078, "Nihil", "_t") -- 
-tDef(1079, "The target is engulfed in entropy, reducing the duration of new beneficial effects and increasing the duration of new negative effects by %d%%.\
+tDef(1054, "#ORANGE#The wounds of #Source# appear on #target#!#LAST#", "delayedLogMessage") -- 
+tDef(1055, "#CRIMSON#(%d linked)#LAST#", "tformat") -- 
+tDef(1080, "Nihil", "_t") -- 
+tDef(1081, "The target is engulfed in entropy, reducing the duration of new beneficial effects and increasing the duration of new negative effects by %d%%.\
 This effect will fade in 2 turns if the source is not in line of sight.", "tformat") -- 
-tDef(1085, "#Target# is wreathed in entropy.", "_t") -- 
-tDef(1086, "#Target# is free of the entropy.", "_t") -- 
-tDef(1163, "Atrophy", "_t") -- 
-tDef(1164, "The target's mind and body is wasting away, reducing all stats by %d.\
+tDef(1087, "#Target# is wreathed in entropy.", "_t") -- 
+tDef(1088, "#Target# is free of the entropy.", "_t") -- 
+tDef(1165, "Atrophy", "_t") -- 
+tDef(1166, "The target's mind and body is wasting away, reducing all stats by %d.\
 This effect will fade in 2 turns if the source is not in line of sight.", "tformat") -- 
-tDef(1169, "#Target# is wasting away.", "_t") -- 
-tDef(1170, "#Target# regains their strength.", "_t") -- 
-tDef(1227, "Temporal Feast", "_t") -- 
-tDef(1228, "Increases spellcast speed by %d%%.", "tformat") -- 
-tDef(1230, "%d Temporal Feast", "tformat") -- 
-tDef(1258, "Void Rift", "_t") -- 
-tDef(1259, "The target has %d active void rift(s).", "tformat") -- 
-tDef(1261, "%d Void Rifts", "tformat") -- 
-tDef(1347, "Accelerate", "_t") -- 
-tDef(1348, "Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "tformat") -- 
-tDef(1353, "#Target# is moving at extreme speed!", "_t") -- 
-tDef(1353, "+Accelerate", "_t") -- 
-tDef(1354, "#Target# slows down.", "_t") -- 
-tDef(1354, "-Accelerate", "_t") -- 
-tDef(1377, "The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, beneficial effects decrease in duration.", "_t") -- 
-tDef(1426, "Suspend", "_t") -- 
-tDef(1427, "The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, negative effects and cooldowns will decrease in duration.", "_t") -- 
-tDef(1433, "#Target# is removed from time!", "_t") -- 
-tDef(1433, "+Suspend", "_t") -- 
-tDef(1434, "#Target# is returned to normal time.", "_t") -- 
-tDef(1434, "-Suspend", "_t") -- 
-tDef(1489, "Jinxed", "_t") -- 
-tDef(1491, "The target has %d reduced saves and defense, and %d%% reduced critical chance.\
+tDef(1171, "#Target# is wasting away.", "_t") -- 
+tDef(1172, "#Target# regains their strength.", "_t") -- 
+tDef(1231, "Temporal Feast", "_t") -- 
+tDef(1232, "Increases spellcast speed by %d%%.", "tformat") -- 
+tDef(1234, "%d Temporal Feast", "tformat") -- 
+tDef(1262, "Void Rift", "_t") -- 
+tDef(1263, "The target has %d active void rift(s).", "tformat") -- 
+tDef(1265, "%d Void Rifts", "tformat") -- 
+tDef(1351, "Accelerate", "_t") -- 
+tDef(1352, "Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "tformat") -- 
+tDef(1357, "#Target# is moving at extreme speed!", "_t") -- 
+tDef(1357, "+Accelerate", "_t") -- 
+tDef(1358, "#Target# slows down.", "_t") -- 
+tDef(1358, "-Accelerate", "_t") -- 
+tDef(1381, "The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, beneficial effects decrease in duration.", "_t") -- 
+tDef(1430, "Suspend", "_t") -- 
+tDef(1431, "The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, negative effects and cooldowns will decrease in duration.", "_t") -- 
+tDef(1437, "#Target# is removed from time!", "_t") -- 
+tDef(1437, "+Suspend", "_t") -- 
+tDef(1438, "#Target# is returned to normal time.", "_t") -- 
+tDef(1438, "-Suspend", "_t") -- 
+tDef(1493, "Jinxed", "_t") -- 
+tDef(1495, "The target has %d reduced saves and defense, and %d%% reduced critical chance.\
 This effect will fade in 2 turns if the source is not in line of sight.", "_t") -- 
-tDef(1492, "The target has %d reduced saves and defense, %d%% reduced critical chance, and %d%% chance to fail talent use.\
+tDef(1496, "The target has %d reduced saves and defense, %d%% reduced critical chance, and %d%% chance to fail talent use.\
 This effect will fade in 2 turns if the source is not in line of sight.", "_t") -- 
-tDef(1576, "Fortune", "_t") -- 
-tDef(1579, "The target has %d increased saves and defense, and %d%% increased critical chance.", "_t") -- 
-tDef(1580, "The target has %d increased saves and defense, %d%% increased critical chance, and %d%% chance to avoid all damage.", "_t") -- 
-tDef(1584, "%d Jinx", "tformat") -- 
-tDef(1653, "Unravelling", "_t") -- 
-tDef(1654, "The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "tformat") -- 
-tDef(1659, "#Target# is being erased from reality!", "_t") -- 
-tDef(1660, "#Target# has survived the unraveling.", "_t") -- 
-tDef(1680, "#LIGHT_RED#A void annihilator manifests from %s!", "logSeen") -- 
-tDef(1688, "The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "tformat") -- 
-tDef(1693, "#Target# intertwines it's fate!", "_t") -- 
-tDef(1694, "#Target#'s fate is no longer linked to another.", "_t") -- 
-tDef(1738, "Fatebreaker", "_t") -- 
-tDef(1739, "Redirecting all damage as temporal and darkness to %s.", "tformat") -- 
-tDef(1741, "darkness", "effect subtype") -- 
-tDef(1741, "temporal", "effect subtype") -- 
-tDef(1758, "Decaying Ground", "_t") -- 
-tDef(1759, "All cooldowns increased by %d%%.", "tformat") -- 
-tDef(1761, "corrupted", "effect subtype") -- 
-tDef(1763, "#Target# is caught in decaying ground.", "_t") -- 
-tDef(1764, "#Target# is free from the decaying ground.", "_t") -- 
-tDef(1772, "Crippling Disease", "_t") -- 
-tDef(1773, "The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "tformat") -- 
-tDef(1775, "blight", "effect subtype") -- 
-tDef(1775, "disease", "effect subtype") -- 
-tDef(1775, "slow", "effect subtype") -- 
-tDef(1778, "#Target# is afflicted by a crippling disease!", "_t") -- 
-tDef(1779, "#Target# is free from the crippling disease.", "_t") -- 
-tDef(1797, "Defiled Blood", "_t") -- 
-tDef(1798, "Covered in defiled blood, healing the source for %d%% of all damage done.", "tformat") -- 
-tDef(1800, "blood", "effect subtype") -- 
-tDef(1800, "leech", "effect subtype") -- 
-tDef(1803, "#Target# is covered in black blood!", "_t") -- 
-tDef(1804, "#Target# is clear from the black blood.", "_t") -- 
-tDef(1810, "Teleport: Kroshkkur", "_t") -- 
-tDef(1811, "The target is waiting to be recalled back to Kroshkkur.", "_t") -- 
-tDef(1813, "teleport", "effect subtype") -- 
-tDef(1821, "#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "log") -- 
-tDef(1836, "There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "log") -- 
-tDef(1843, "You are yanked out of this place!", "logPlayer") -- 
-tDef(1848, "Space restabilizes around you.", "logPlayer") -- 
-tDef(1856, "Slowly transfered to a Forbidden Tome.", "_t") -- 
-tDef(1861, "#Target# is entering a Forbidden Tome!", "_t") -- 
-tDef(1862, "#Target# enters a Forbidden Tome!", "_t") -- 
-tDef(1879, "Forbidden Tome", "_t") -- 
-tDef(1880, "Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "tformat") -- 
-tDef(1903, "Forbidden Tome Cooldown", "_t") -- 
-tDef(1904, "Unable to enter Forbidden Tomes.", "_t") -- 
-tDef(1907, "book", "effect subtype") -- 
-tDef(1918, "Wrath of the Wilds", "_t") -- 
-tDef(1919, "%d%% chance to stun any foes hit.", "tformat") -- 
-tDef(1921, "frenzy", "effect subtype") -- 
-tDef(1942, "Warborn", "_t") -- 
-tDef(1943, "Reduces all damage taken by %d%%.", "tformat") -- 
-tDef(1960, "Awoken", "_t") -- 
-tDef(1961, "True power is revealed!\
+tDef(1580, "Fortune", "_t") -- 
+tDef(1583, "The target has %d increased saves and defense, and %d%% increased critical chance.", "_t") -- 
+tDef(1584, "The target has %d increased saves and defense, %d%% increased critical chance, and %d%% chance to avoid all damage.", "_t") -- 
+tDef(1588, "%d Jinx", "tformat") -- 
+tDef(1657, "Unravelling", "_t") -- 
+tDef(1658, "The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "tformat") -- 
+tDef(1663, "#Target# is being erased from reality!", "_t") -- 
+tDef(1664, "#Target# has survived the unraveling.", "_t") -- 
+tDef(1684, "#LIGHT_RED#A void annihilator manifests from %s!", "logSeen") -- 
+tDef(1692, "The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "tformat") -- 
+tDef(1697, "#Target# intertwines it's fate!", "_t") -- 
+tDef(1698, "#Target#'s fate is no longer linked to another.", "_t") -- 
+tDef(1742, "Fatebreaker", "_t") -- 
+tDef(1743, "Redirecting all damage as temporal and darkness to %s.", "tformat") -- 
+tDef(1745, "darkness", "effect subtype") -- 
+tDef(1745, "temporal", "effect subtype") -- 
+tDef(1762, "Decaying Ground", "_t") -- 
+tDef(1763, "All cooldowns increased by %d%%.", "tformat") -- 
+tDef(1765, "corrupted", "effect subtype") -- 
+tDef(1767, "#Target# is caught in decaying ground.", "_t") -- 
+tDef(1768, "#Target# is free from the decaying ground.", "_t") -- 
+tDef(1776, "Crippling Disease", "_t") -- 
+tDef(1777, "The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "tformat") -- 
+tDef(1779, "blight", "effect subtype") -- 
+tDef(1779, "disease", "effect subtype") -- 
+tDef(1779, "slow", "effect subtype") -- 
+tDef(1782, "#Target# is afflicted by a crippling disease!", "_t") -- 
+tDef(1783, "#Target# is free from the crippling disease.", "_t") -- 
+tDef(1801, "Defiled Blood", "_t") -- 
+tDef(1802, "Covered in defiled blood, healing the source for %d%% of all damage done.", "tformat") -- 
+tDef(1804, "blood", "effect subtype") -- 
+tDef(1804, "leech", "effect subtype") -- 
+tDef(1807, "#Target# is covered in black blood!", "_t") -- 
+tDef(1808, "#Target# is clear from the black blood.", "_t") -- 
+tDef(1814, "Teleport: Kroshkkur", "_t") -- 
+tDef(1815, "The target is waiting to be recalled back to Kroshkkur.", "_t") -- 
+tDef(1817, "teleport", "effect subtype") -- 
+tDef(1825, "#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "log") -- 
+tDef(1840, "There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "log") -- 
+tDef(1847, "You are yanked out of this place!", "logPlayer") -- 
+tDef(1852, "Space restabilizes around you.", "logPlayer") -- 
+tDef(1860, "Slowly transfered to a Forbidden Tome.", "_t") -- 
+tDef(1865, "#Target# is entering a Forbidden Tome!", "_t") -- 
+tDef(1866, "#Target# enters a Forbidden Tome!", "_t") -- 
+tDef(1883, "Forbidden Tome", "_t") -- 
+tDef(1884, "Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "tformat") -- 
+tDef(1907, "Forbidden Tome Cooldown", "_t") -- 
+tDef(1908, "Unable to enter Forbidden Tomes.", "_t") -- 
+tDef(1911, "book", "effect subtype") -- 
+tDef(1922, "Wrath of the Wilds", "_t") -- 
+tDef(1923, "%d%% chance to stun any foes hit.", "tformat") -- 
+tDef(1925, "frenzy", "effect subtype") -- 
+tDef(1946, "Warborn", "_t") -- 
+tDef(1947, "Reduces all damage taken by %d%%.", "tformat") -- 
+tDef(1964, "Awoken", "_t") -- 
+tDef(1965, "True power is revealed!\
 \
 All debuffs removed and all talent cooldowns reset on application.\
 \
 Each turn a radius 2 explosion will occur in a random space dealing %0.2f darkness and temporal damage and destroying any diggable walls.", "tformat") -- 
-tDef(1963, "opness", "effect subtype") -- 
-tDef(2000, "Total Collapse", "_t") -- 
-tDef(2001, "Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "tformat") -- 
-tDef(2003, "entropy", "effect subtype") -- 
-tDef(2026, "Save Kroshkkur", "_t") -- 
-tDef(2027, "Kroshkkur is still under threat from %s.", "tformat") -- 
-tDef(2029, "threat", "effect subtype") -- 
-tDef(2034, "#CRIMSON#You waited too long, Kroshkkur has been destroyed by %s!", "say") -- 
-tDef(2046, "Reduces all damage taken by %d%% and remove all detrimental effects on application.", "tformat") -- 
-tDef(2048, "protection", "effect subtype") -- 
-tDef(2059, "Covered in Gastric Fluids", "_t") -- 
-tDef(2060, "Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "tformat") -- 
-tDef(2062, "debilitate", "effect subtype") -- 
-tDef(2076, "Blinded", "_t") -- 
-tDef(2077, "The target is blinded, unable to see anything.", "_t") -- 
-tDef(2079, "blind", "effect subtype") -- 
-tDef(2082, "#Target# loses sight!", "_t") -- 
-tDef(2082, "+Blind", "_t") -- 
-tDef(2083, "#Target# recovers sight.", "_t") -- 
-tDef(2083, "-Blind", "_t") -- 
-tDef(2102, "Lost in a weird place", "_t") -- 
-tDef(2103, "The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "tformat") -- 
-tDef(2106, "confusion", "effect subtype") -- 
-tDef(2106, "insanity", "effect subtype") -- 
-tDef(2106, "madness", "effect subtype") -- 
-tDef(2142, "Glass Splinters", "_t") -- 
-tDef(2143, "Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "tformat") -- 
-tDef(2145, "bleed", "effect subtype") -- 
-tDef(2145, "cut", "effect subtype") -- 
-tDef(2145, "fail", "effect subtype") -- 
-tDef(2145, "wound", "effect subtype") -- 
-tDef(2148, "#Target# starts to bleed due to glass splinters.", "_t") -- 
-tDef(2149, "#Target# stops bleeding.", "_t") -- 
-tDef(2165, "Persistant Will", "_t") -- 
-tDef(2166, "Convinced that arcane users are filth to be destroyed.", "tformat") -- 
-tDef(2168, "domination", "effect subtype") -- 
-tDef(2168, "will", "effect subtype") -- 
-tDef(2171, "#PURPLE##Target# is convinced arcane users must be destroyed.", "_t") -- 
-tDef(2172, "#Target# looks more kindly toward arcane users.", "_t") -- 
-tDef(2189, "Twisted Evolution: Speed", "_t") -- 
-tDef(2190, "The target is evolved increasing its global speed by %d%%.", "tformat") -- 
-tDef(2195, "#Target# is evolved and acting faster!", "_t") -- 
-tDef(2196, "#Target# is no longer evolved to move faster.", "_t") -- 
-tDef(2204, "Twisted Evolution: Form", "_t") -- 
-tDef(2205, "The target is evolved increasing all its stats by %d.", "tformat") -- 
-tDef(2210, "#Target#'s body is evolved!", "_t") -- 
-tDef(2211, "#Target#'s body' is no longer evolved.", "_t") -- 
-tDef(2226, "Twisted Evolution: Power", "_t") -- 
-tDef(2227, "The target is evolved increasing its damage by %d%%.", "tformat") -- 
-tDef(2232, "#Target# is evolved to deal more damage!", "_t") -- 
-tDef(2233, "#Target# is no longer evolved to deal more damage.", "_t") -- 
-tDef(2242, "Shoes of Moving Slowly", "_t") -- 
-tDef(2243, "Stay put, increasing your armour and defense by %d.", "tformat") -- 
-tDef(2246, "speed", "effect subtype") -- 
-tDef(2279, "Entropic Feedback", "_t") -- 
-tDef(2280, "The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "tformat") -- 
-tDef(2285, "#Target# is enveloped with entropic forces!", "_t") -- 
-tDef(2286, "#Target# is no longer enveloped by entropic forces.", "_t") -- 
-tDef(2303, "Horrific Fortress", "_t") -- 
-tDef(2304, "All damages except physical reduced by %d as long as %s is alive.", "tformat") -- 
-tDef(2306, "armor", "effect subtype") -- 
-tDef(2306, "horror", "effect subtype") -- 
-tDef(2309, "#Target# is bolstered at the sight of the horror!", "_t") -- 
-tDef(2310, "#Target# is less armoured.", "_t") -- 
+tDef(1967, "opness", "effect subtype") -- 
+tDef(2004, "Total Collapse", "_t") -- 
+tDef(2005, "Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "tformat") -- 
+tDef(2007, "entropy", "effect subtype") -- 
+tDef(2030, "Save Kroshkkur", "_t") -- 
+tDef(2031, "Kroshkkur is still under threat from %s.", "tformat") -- 
+tDef(2033, "threat", "effect subtype") -- 
+tDef(2038, "#CRIMSON#You waited too long, Kroshkkur has been destroyed by %s!", "say") -- 
+tDef(2050, "Reduces all damage taken by %d%% and remove all detrimental effects on application.", "tformat") -- 
+tDef(2052, "protection", "effect subtype") -- 
+tDef(2063, "Covered in Gastric Fluids", "_t") -- 
+tDef(2064, "Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "tformat") -- 
+tDef(2066, "debilitate", "effect subtype") -- 
+tDef(2080, "Blinded", "_t") -- 
+tDef(2081, "The target is blinded, unable to see anything.", "_t") -- 
+tDef(2083, "blind", "effect subtype") -- 
+tDef(2086, "#Target# loses sight!", "_t") -- 
+tDef(2086, "+Blind", "_t") -- 
+tDef(2087, "#Target# recovers sight.", "_t") -- 
+tDef(2087, "-Blind", "_t") -- 
+tDef(2106, "Lost in a weird place", "_t") -- 
+tDef(2107, "The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "tformat") -- 
+tDef(2110, "confusion", "effect subtype") -- 
+tDef(2110, "insanity", "effect subtype") -- 
+tDef(2110, "madness", "effect subtype") -- 
+tDef(2146, "Glass Splinters", "_t") -- 
+tDef(2147, "Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "tformat") -- 
+tDef(2149, "bleed", "effect subtype") -- 
+tDef(2149, "cut", "effect subtype") -- 
+tDef(2149, "fail", "effect subtype") -- 
+tDef(2149, "wound", "effect subtype") -- 
+tDef(2152, "#Target# starts to bleed due to glass splinters.", "_t") -- 
+tDef(2153, "#Target# stops bleeding.", "_t") -- 
+tDef(2169, "Persistant Will", "_t") -- 
+tDef(2170, "Convinced that arcane users are filth to be destroyed.", "tformat") -- 
+tDef(2172, "domination", "effect subtype") -- 
+tDef(2172, "will", "effect subtype") -- 
+tDef(2175, "#PURPLE##Target# is convinced arcane users must be destroyed.", "_t") -- 
+tDef(2176, "#Target# looks more kindly toward arcane users.", "_t") -- 
+tDef(2193, "Twisted Evolution: Speed", "_t") -- 
+tDef(2194, "The target is evolved increasing its global speed by %d%%.", "tformat") -- 
+tDef(2199, "#Target# is evolved and acting faster!", "_t") -- 
+tDef(2200, "#Target# is no longer evolved to move faster.", "_t") -- 
+tDef(2208, "Twisted Evolution: Form", "_t") -- 
+tDef(2209, "The target is evolved increasing all its stats by %d.", "tformat") -- 
+tDef(2214, "#Target#'s body is evolved!", "_t") -- 
+tDef(2215, "#Target#'s body' is no longer evolved.", "_t") -- 
+tDef(2230, "Twisted Evolution: Power", "_t") -- 
+tDef(2231, "The target is evolved increasing its damage by %d%%.", "tformat") -- 
+tDef(2236, "#Target# is evolved to deal more damage!", "_t") -- 
+tDef(2237, "#Target# is no longer evolved to deal more damage.", "_t") -- 
+tDef(2246, "Shoes of Moving Slowly", "_t") -- 
+tDef(2247, "Stay put, increasing your armour and defense by %d.", "tformat") -- 
+tDef(2250, "speed", "effect subtype") -- 
+tDef(2283, "Entropic Feedback", "_t") -- 
+tDef(2284, "The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "tformat") -- 
+tDef(2289, "#Target# is enveloped with entropic forces!", "_t") -- 
+tDef(2290, "#Target# is no longer enveloped by entropic forces.", "_t") -- 
+tDef(2307, "Horrific Fortress", "_t") -- 
+tDef(2308, "All damages except physical reduced by %d as long as %s is alive.", "tformat") -- 
+tDef(2310, "armor", "effect subtype") -- 
+tDef(2310, "horror", "effect subtype") -- 
+tDef(2313, "#Target# is bolstered at the sight of the horror!", "_t") -- 
+tDef(2314, "#Target# is less armoured.", "_t") -- 
 
 
 ------------------------------------------------
@@ -5886,7 +5899,7 @@ tDef(196, "S.M.A.C.K", "_t") --
 section "game/dlcs/tome-cults/overload/mod/dialogs/FontSacrifice.lua"
 
 tDef(30, "The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).\
-Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#2000 gold#LAST# for a greater ego.  The price triples each time you try to reroll the same object.\
+Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#1000 gold#LAST# for a greater ego per each time you've rerolled that ego type on the same object.\
 Lesser and Greater egos can only be rerolled into the same type, and only egos with compatible power sources will be offered.\
 \
 Note:  Many egos and external talents don't currently display properly but will apply to the item correctly.", "_t") -- 
@@ -5909,13 +5922,14 @@ tDef(215, "Infused by #YELLOW#psionic forces#LAST#\
 ", "_t") -- 
 tDef(216, "Powered by #CRIMSON#unknown forces#LAST#\
 ", "_t") -- 
-tDef(292, " (Greater)", "_t") -- 
-tDef(299, "Select a properties set", "_t") -- 
-tDef(302, "Name", "_t") -- 
-tDef(304, "Confirm", "_t") -- 
-tDef(304, "Select properties set #{bold}#\"%s\"#{normal}# ?", "tformat") -- 
-tDef(345, "Error!", "_t") -- 
-tDef(345, "The gizmocombobulator of the font seems to have failed, you have not been billed.", "_t") -- 
+tDef(246, "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "log") -- 
+tDef(296, " (Greater)", "_t") -- 
+tDef(303, "Select a properties set", "_t") -- 
+tDef(306, "Name", "_t") -- 
+tDef(308, "Confirm", "_t") -- 
+tDef(308, "Select properties set #{bold}#\"%s\"#{normal}# ?", "tformat") -- 
+tDef(349, "Error!", "_t") -- 
+tDef(349, "The gizmocombobulator of the font seems to have failed, you have not been billed.", "_t") -- 
 
 
 ------------------------------------------------
@@ -6590,8 +6604,8 @@ tDef(439, "chemical", "_t") --
 tDef(466, "debilitating acid", "_t") -- 
 tDef(494, "caustic steam", "_t") -- 
 tDef(508, "galvanic", "_t") -- 
-tDef(518, "occult", "_t") -- 
-tDef(532, "terrene", "_t") -- 
+tDef(519, "occult", "_t") -- 
+tDef(540, "terrene", "_t") -- 
 
 
 ------------------------------------------------
@@ -7691,6 +7705,13 @@ tDef(2176, "deal a melee attack against all other enemies in a circle around you
 tDef(2205, "Galen's Flowing Robe", "entity name") -- 
 tDef(2206, "ample robe", "_t") -- 
 tDef(2207, "This robe was worn by the Technomancer Galen, infused with technomancy enchantments it is said to react to techno-spells!", "_t") -- 
+tDef(2229, "20% chance when casting a technomancy spell (or 10% chance when casting a normal spell) to power-up the internal defense circuits of the robe.\
+The circuit will do one of:\
+#AQUAMARINE#if more than one foe is in melee range#LAST#: teleport away all foes\
+#AQUAMARINE#if below 50% life#LAST#: increase all resistances by 20% for 5 turns\
+#AQUAMARINE#if below 20 steam#LAST#: supercharge the arcane dynamo to produce 4 more steam per 10 mana spent for 5 turns\
+#AQUAMARINE#otherwise#LAST#: reset the cooldown of the spell with the highest remaining cooldown\
+", "_t") -- 
 tDef(2244, "#PURPLE#%s activates and teleports away all nearby creatures!", "logSeen") -- 
 tDef(2253, "#PURPLE#%s activates and increases %s's resistances!", "logSeen") -- 
 tDef(2256, "#PURPLE#%s activates and increases %s's arcane dynamo power!", "logSeen") -- 
@@ -9547,37 +9568,39 @@ tDef(100, "Augment your rockets with highly flammable materials, causing them to
 Targets affected by this burning that fall below 25%% life enter a state of panic, giving them a %d%% chance each turn to flee in terror from you.\
 The fire damage will increase with your Steampower.", "tformat") -- 
 tDef(108, "Lock On", "talent name") -- 
-tDef(132, "Lock on to your target with your rocket pod for 5 turns.\
+tDef(133, "Lock on to your target with your rocket pod for 5 turns.\
 While locked on your regular rocket pod attacks are disabled. However, each turn you automatically fire a rocket barrage dealing %d%% increased damage at your target.\
 Marked targets also lose %d defense and cannot benefit from concealment or evasion.\
 The defense loss will increase with your Steampower.", "tformat") -- 
-tDef(141, "Death From Above", "talent name") -- 
-tDef(178, "You use your rocket pods to launch yourself into the air for 3 turns, firing a radius 2 barrage of rockets that deal %d%% steamgun damage as fire in radius 2. \
+tDef(142, "Death From Above", "talent name") -- 
+tDef(180, "You use your rocket pods to launch yourself into the air for 3 turns, firing a radius 2 barrage of rockets that deal %d%% steamgun damage as fire in radius 2. \
 		While flying you gain %d%% movement speed, %d%% chance to evade melee and ranged attacks, and can reactivate this talent at will to repeat the rocket barrage.\
 		Using any talent other than Rocket Barrage will end this effect immediately.", "tformat") -- 
-tDef(186, "Rocket Barrage", "talent name") -- 
-tDef(219, "Fires a barrage of rockets in radius 2, dealing %d%% steamgun damage as fire.", "tformat") -- 
+tDef(188, "Rocket Barrage", "talent name") -- 
+tDef(208, "You require a steamgun for this talent.", "logPlayer") -- 
+tDef(222, "Fires a barrage of rockets in radius 2, dealing %d%% steamgun damage as fire.", "tformat") -- 
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/automated-butchery.lua"
 
 tDef(24, "Continuous Butchery", "talent name") -- 
-tDef(47, "You attune your saws to a specific target for 5 turns.\
+tDef(34, "You require a steamsaw for this talent.", "logPlayer") -- 
+tDef(48, "You attune your saws to a specific target for 5 turns.\
 		Each time you strike this target all damage done with steamsaws (including by other talents) is increased by +%d%%.\
 		If you strike any other foe the bonus ends.\
 		#{italic}#Metal your foes to death!#{normal}#", "tformat") -- 
-tDef(56, "Explosive Saw", "talent name") -- 
-tDef(89, "You send a saw mounted on an automated steam propulsor to assault a foe, dealing %0.2f physical damage each turn for 4 turns and silencing it.\
+tDef(57, "Explosive Saw", "talent name") -- 
+tDef(90, "You send a saw mounted on an automated steam propulsor to assault a foe, dealing %0.2f physical damage each turn for 4 turns and silencing it.\
 		At the end of the duration, the saw explodes for %0.2f fire damage and flies back, pulling the target up to %d tiles towards you.\
 		The damage will increase with your Steampower.", "tformat") -- 
-tDef(97, "Mow Down", "talent name") -- 
-tDef(132, "When you kill a foe with a melee strike you quickly throw some of their remains in your steam engine, instantly regenerating %d steam.\
+tDef(98, "Mow Down", "talent name") -- 
+tDef(133, "When you kill a foe with a melee strike you quickly throw some of their remains in your steam engine, instantly regenerating %d steam.\
 		When you deal a critical melee strike you also have a %d%% chance to cut a part of your foe and use it in your steam engine.\
 		When either of those happens this strikes fear in all foes in radius 4 of the victim, brainlocking them for %d turns.\
 		#{italic}#To the meat grinder!#{normal}#", "tformat") -- 
-tDef(142, "Tech Overload", "talent name") -- 
-tDef(175, "You override all security measures of your tinkers, allowing you to reset the cooldown of %d of most of your steamtech talents of tier %d or less and instantly increases your steam level by %d%% of the maximum.\
+tDef(143, "Tech Overload", "talent name") -- 
+tDef(176, "You override all security measures of your tinkers, allowing you to reset the cooldown of %d of most of your steamtech talents of tier %d or less and instantly increases your steam level by %d%% of the maximum.\
 		In addition for 6 turns your maximum steam capacity is doubled, but steam regeneration is halved.\
 		#{italic}#Master of Tech, Master of Death!#{normal}#", "tformat") -- 
 
@@ -9917,23 +9940,23 @@ tDef(160, "When you reach 10 molten points your armour overheats, reaching tempe
 section "game/dlcs/tome-orcs/data/talents/steam/gadgets.lua"
 
 tDef(23, "Autoloader", "talent name") -- 
-tDef(58, "You link your weapons and shield to your steam generators, using them to load ammunition and improve the power of your weapons. \
+tDef(59, "You link your weapons and shield to your steam generators, using them to load ammunition and improve the power of your weapons. \
 		Each time you fire your Steamgun, you have a %d%% chance to reload 1 Heavy Weapon ammo.\
 		Each time you fire a Heavy Weapon you reload %d ammo.\
 		Each time you raise your shield to block, you reload 1 Heavy Weapon ammo.\
 		This also increases weapon damage by %d%% and Physical Power by 30 when using steamguns or heavy weapons.\
 		In addition, your steamgun and heavy weapon shots now bypass friendly targets harmlessly.", "tformat") -- 
-tDef(69, "Exoskeleton", "talent name") -- 
-tDef(124, "#STEEL_BLUE#(%d exoskeleton)#LAST#", "tformat") -- 
-tDef(142, "Current exoskeleton life: %d/%d\
+tDef(70, "Exoskeleton", "talent name") -- 
+tDef(125, "#STEEL_BLUE#(%d exoskeleton)#LAST#", "tformat") -- 
+tDef(143, "Current exoskeleton life: %d/%d\
 		You craft a set of steam powered armor that fits over your regular armor, enhancing your defense. The armor has %d life, and 50%% of all damage taken is redirected to it.\
 		Your powered armour repairs 5%% of it’s maximum life each turn, and each time you spend steam it will be repaired for %d%% of the steam cost.\
 		The armor's maximum life will increase with your Steampower.", "tformat") -- 
-tDef(150, "Hypervision Goggles", "talent name") -- 
-tDef(180, "Enhance your vision for %d turns, giving you vision of all targets in range %d, even through walls. While the goggles are active you also spot flaws in your opponent's defenses, increasing your resistance penetration by %d%%.\
+tDef(151, "Hypervision Goggles", "talent name") -- 
+tDef(181, "Enhance your vision for %d turns, giving you vision of all targets in range %d, even through walls. While the goggles are active you also spot flaws in your opponent's defenses, increasing your resistance penetration by %d%%.\
 In addition, the goggles passively increase your stealth, invisibility and trap detection by %d.", "tformat") -- 
-tDef(186, "AED", "talent name") -- 
-tDef(208, "Prepare a defensive device that stores an electrical charge for 8 turns.\
+tDef(187, "AED", "talent name") -- 
+tDef(209, "Prepare a defensive device that stores an electrical charge for 8 turns.\
 If your life falls below 0 while the AED is active it will activate to shock you back into life, negating the triggering attack, restoring %d life and dealing %0.2f lightning damage in radius %d that dazes affected enemies for 3 turns.\
 If the AED does not activate, the cooldown is reduced by 15 turns.\
 The healing and damage will increase with your Steampower.", "tformat") -- 
@@ -10003,54 +10026,56 @@ tDef(72, "You gain the ability to equip one of 3 heavy weapons listed below, tem
 		Firing your Steamgun will immediately unequip your heavy weapon.		\
 		", "tformat") -- 
 tDef(88, "Flamethrower", "talent name") -- 
-tDef(148, "You replace your steamgun and attack with an incendiary device that projects streams of liquid flame at your foes.\
+tDef(104, "You require heavy ammunition to use this talent.", "logPlayer") -- 
+tDef(152, "You replace your steamgun and attack with an incendiary device that projects streams of liquid flame at your foes.\
 		\
 		Deals %d%% steamgun damage as fire over 3 turns to enemies in radius 5.\
 \
 		These attacks cannot miss and ignore armor.", "tformat") -- 
-tDef(157, "Flame Jet", "talent name") -- 
-tDef(172, "You require heavy ammunition to fire your flamethrower.", "logPlayer") -- 
-tDef(224, "Fire a jet of flame, dealing %d%% weapon damage as fire over 3 turns.", "tformat") -- 
-tDef(231, "Shockstaff", "talent name") -- 
-tDef(291, "You replace your steamgun and attack with a lightning-charged staff to engage in close combat.\
+tDef(161, "Flame Jet", "talent name") -- 
+tDef(182, "You require heavy ammunition to fire your flamethrower.", "logPlayer") -- 
+tDef(239, "Fire a jet of flame, dealing %d%% weapon damage as fire over 3 turns.", "tformat") -- 
+tDef(246, "Shockstaff", "talent name") -- 
+tDef(262, "You require heavy ammunition to power your shockstaff.", "logPlayer") -- 
+tDef(310, "You replace your steamgun and attack with a lightning-charged staff to engage in close combat.\
 		\
 		Deals %d%% steamgun damage as lightning to enemies in a frontal arc, as well as reducing the damage they deal by %d%% for 3 turns. This counts as a melee attack but triggers ammunition on-hit effects. All shockstaff attacks will also make a shield slam for the same damage as lightning. \
 \
 		You can charge up to your steamgun's range to make shockstaff attacks.", "tformat") -- 
-tDef(334, "Stormstrike", "talent name") -- 
-tDef(346, "You require heavy ammunition to power your shockstaff.", "logPlayer") -- 
-tDef(395, "Sweep your shockstaff, striking all enemies in a frontal arc for %d%% weapon damage as lightning and reducing their damage dealt by %d%% for 3 turns.\
+tDef(353, "Stormstrike", "talent name") -- 
+tDef(371, "You require heavy ammunition to  power your shockstaff.", "logPlayer") -- 
+tDef(424, "Sweep your shockstaff, striking all enemies in a frontal arc for %d%% weapon damage as lightning and reducing their damage dealt by %d%% for 3 turns.\
 		If you have a shield, you will also strike them.\
 		While active this replaces your normal melee attack.", "tformat") -- 
-tDef(405, "Boltgun", "talent name") -- 
-tDef(416, "You require heavy ammunition to use this talent.", "logPlayer") -- 
-tDef(467, "You replace your steamgun and attack with a multi-barreled bolt launcher, firing deadly chemical-infused flechettes.\
+tDef(434, "Boltgun", "talent name") -- 
+tDef(500, "You replace your steamgun and attack with a multi-barreled bolt launcher, firing deadly chemical-infused flechettes.\
 		\
 		Each attack fires twice for %d%% weapon damage as acid and generates %d steam per hit.", "tformat") -- 
-tDef(474, "Flechette Burst", "talent name") -- 
-tDef(487, "You require heavy ammunition to fire your boltgun.", "logPlayer") -- 
-tDef(499, "%s resists the disarm!", "logSeen") -- 
-tDef(520, "Fire two chemical flechettes, dealing %d%% weapon damage as acid and generating %d steam per hit.", "tformat") -- 
-tDef(526, "Heavy Weapon Expertise", "talent name") -- 
-tDef(665, "%s resists the stunning blow!", "logSeen") -- 
-tDef(679, "%s resists the stunning shock!", "logSeen") -- 
-tDef(725, "Your advanced training unlocks specialised techniques, triggering an effect based on your current heavy weapon at the cost of 1 heavy weapon ammunition.\
+tDef(507, "Flechette Burst", "talent name") -- 
+tDef(526, "You require heavy ammunition to  fire your boltgun.", "logPlayer") -- 
+tDef(542, "%s resists the disarm!", "logSeen") -- 
+tDef(563, "Fire two chemical flechettes, dealing %d%% weapon damage as acid and generating %d steam per hit.", "tformat") -- 
+tDef(569, "Heavy Weapon Expertise", "talent name") -- 
+tDef(714, "%s resists the stunning blow!", "logSeen") -- 
+tDef(728, "%s resists the stunning shock!", "logSeen") -- 
+tDef(774, "Your advanced training unlocks specialised techniques, triggering an effect based on your current heavy weapon at the cost of 1 heavy weapon ammunition.\
 #AQUAMARINE#Flamethrower#LAST#: Sweep your flamethrower across the ground, dealing %d%% steamgun damage as fire and raising a length 7 wall of fire for 5 turns. Those inside the wall take %0.2f fire damage and have their fire resistance reduced by %d%% for 2 turns.\
 #AQUAMARINE#Shockstaff#LAST#: Slam your staff into the target, creating a radius 3 shockwave that deals %d%% shockstaff damage as lightning and stuns those within for %d turns.\
 #AQUAMARINE#Boltgun#LAST#: Fire %d boltgun shots dealing %d%% steamgun damage as acid and disarming the target for 5 turns.\
 The damage dealt by the fire wall and the chance to apply effects will increase with your Steampower.", "tformat") -- 
-tDef(735, "Automated Defenses", "talent name") -- 
-tDef(824, "You augment your shield with your heavy weapon technology, causing an effect when you Block with a heavy weapon equipped.\
+tDef(784, "Automated Defenses", "talent name") -- 
+tDef(873, "You augment your shield with your heavy weapon technology, causing an effect when you Block with a heavy weapon equipped.\
 #AQUAMARINE#Flamethrower#LAST#: Vent choking, burning smoke in an area of the same radius as your flamethrower. Enemies caught within take %d%% shield damage as fire and are silenced for %d turns.\
 #AQUAMARINE#Shockstaff#LAST#: Sheathe your shield in lightning and attack all enemies in radius 3, dealing %d%% shield damage as lightning and gaining a barrier absorbing an amount of damage equal to 100%% of the highest damage dealt for 6 turns.\
 #AQUAMARINE#Boltgun#LAST#: Fire a blast of flechettes from your shield at all enemies in radius 7, dealing %d%% shield damage as acid. %d flechettes remain embedded in each target for 6 turns, and when struck by a melee or ranged attack a flechette will detonate and cause acid damage equal to 50%% of the shield damage dealt.\
 These attacks will not trigger Counterstrike.\
 The chance to silence will increase with your Steampower.", "tformat") -- 
-tDef(835, "Safety Override", "talent name") -- 
-tDef(847, "You require heavy ammunition and a heavy weapon to use this talent.", "logPlayer") -- 
-tDef(922, "%s resists the stun!", "logSeen") -- 
-tDef(926, "%s slams into something solid, emitting a pulse of stunning lightning!", "logSeen") -- 
-tDef(974, "Push your heavy weapon beyond its normal limits to trigger a powerful effect. This will immediately disable your heavy weapon and expends all remaining ammunition.\
+tDef(884, "Safety Override", "talent name") -- 
+tDef(895, "You require a steamgun for this talent.", "logPlayer") -- 
+tDef(900, "You require heavy ammunition and a heavy weapon to use this talent.", "logPlayer") -- 
+tDef(975, "%s resists the stun!", "logSeen") -- 
+tDef(979, "%s slams into something solid, emitting a pulse of stunning lightning!", "logSeen") -- 
+tDef(1027, "Push your heavy weapon beyond its normal limits to trigger a powerful effect. This will immediately disable your heavy weapon and expends all remaining ammunition.\
 #AQUAMARINE#Flamethrower#LAST#: Detonate your fuel tanks, creating a radius 4 explosion that launches you to a chosen tile in range %d. Enemies caught within the explosion take %0.2f fire damage, and further fire damage equal to %d%% of their current burning damage from the volatile fuel.\
 #AQUAMARINE#Shockstaff#LAST#: Drive your staff into the ground, discharging all remaining power to deal %d%% shockstaff damage as lightning in radius %d. Those struck will be knocked back %d tiles, and if they strike a wall they will emit a static pulse dealing %0.2f lightning damage in radius 1 and stunning them for 5 turns.\
 #AQUAMARINE#Boltgun#LAST#: Overcharge your boltgun, firing a single deadly bolt dealing %d%% steamgun damage as acid in a piercing line. For each negative physical, magical, or mental effect on the target, they take an additional %d%% damage (to a maximum of %d%%) and the duration of each negative effect is increased by %d turns.", "tformat") -- 
@@ -10080,18 +10105,18 @@ tDef(59, "Using your Block talent surrounds you and your minions in a static bar
 		This effect cannot damage the same target more than once per turn, and will not interact with Counterstrike.\
 You now also use your Cunning in place of Strength when equipping shields as well as when calculating shield damage.", "tformat") -- 
 tDef(66, "Magnetic Field", "talent name") -- 
-tDef(100, "#Source# shatters '#Target#'.", "logCombat") -- 
-tDef(127, "You project a powerful blast of magnetic energy from your shield in radius %d around you. Enemies caught within are knocked back %d tiles and take %d%% shield damage as lightning, and any projectiles will be destroyed.\
+tDef(101, "#Source# shatters '#Target#'.", "logCombat") -- 
+tDef(128, "You project a powerful blast of magnetic energy from your shield in radius %d around you. Enemies caught within are knocked back %d tiles and take %d%% shield damage as lightning, and any projectiles will be destroyed.\
 		While this talent is not on cooldown, you also project a magnetic field from your shield, reducing the speed of incoming projectiles by %d%% and your chance to be critically hit by %d%%.", "tformat") -- 
-tDef(134, "Capacitor Discharge", "talent name") -- 
-tDef(245, "Mount capacitors to your shield that dampen the impact of attacks, increasing block value by %d%% and storing 100%% of the damage blocked as an electrical charge (to a maximum of %d).\
+tDef(135, "Capacitor Discharge", "talent name") -- 
+tDef(248, "Mount capacitors to your shield that dampen the impact of attacks, increasing block value by %d%% and storing 100%% of the damage blocked as an electrical charge (to a maximum of %d).\
 Activating this ability discharges blocked damage, firing a bolt of lightning dealing %d%% shield damage as lightning to the first target, then projecting a bolt of lightning that arcs to %d other targets dealing lightning damage equal to the stored amount.\
 If at maximum charge, this also dazes for 2 turns and the shield strike is a guarenteed critical hit.\
 The maximum damage you can absorb will increase with your Steampower.", "tformat") -- 
-tDef(254, "Lightning Web", "talent name") -- 
-tDef(266, "You require a shield for this talent.", "logPlayer") -- 
-tDef(289, "lightning web", "_t") -- 
-tDef(300, "Project a radius 3 electric field from your shield lasting %d turns. Enemies within this field will take an automatic shield strike for %d%% lightning damage each turn, while allies will gain flat damage reduction equal to %d%% (%d) of block value.\
+tDef(257, "Lightning Web", "talent name") -- 
+tDef(269, "You require a shield for this talent.", "logPlayer") -- 
+tDef(292, "lightning web", "_t") -- 
+tDef(303, "Project a radius 3 electric field from your shield lasting %d turns. Enemies within this field will take an automatic shield strike for %d%% lightning damage each turn, while allies will gain flat damage reduction equal to %d%% (%d) of block value.\
 		All damage reduced by this effect will be stored for Capacitor Discharge.", "tformat") -- 
 
 
@@ -10129,56 +10154,56 @@ tDef(530, "Armament", "_t") --
 tDef(553, "#LIGHT_RED#You must not be in combat to change the chassis.", "logPlayer") -- 
 tDef(554, "#LIGHT_RED#Your mecharachnid must not be in combat to change its chassis.", "logPlayer") -- 
 tDef(555, "#LIGHT_RED#Your mecharachnid is already in chassis %s.", "logPlayer") -- 
-tDef(618, "Mecharachnid chassis changed to: #GOLD#%s", "logPlayer") -- 
-tDef(626, "You require your mecharachnid to be adjacent, and must be out of combat.", "logPlayer") -- 
-tDef(639, "You craft a new chassis for your mecharachnid, allowing you to tailor it to different situations. Each chassis grants the mecharachnid a new talent category, the ability to attach a weapon to their tail, as well as granting them %d class talent points to spend in a new category based off their chassis.\
+tDef(623, "Mecharachnid chassis changed to: #GOLD#%s", "logPlayer") -- 
+tDef(631, "You require your mecharachnid to be adjacent, and must be out of combat.", "logPlayer") -- 
+tDef(644, "You craft a new chassis for your mecharachnid, allowing you to tailor it to different situations. Each chassis grants the mecharachnid a new talent category, the ability to attach a weapon to their tail, as well as granting them %d class talent points to spend in a new category based off their chassis.\
 \
 		You can choose from the 2 chassis below by activating this talent outside of combat (default chassis: Assault)\
 		- Assault: An armored chassis focused on close combat and defenses, specialising in wielding a steamsaw.\
 		- Armament: A heavily armed chassis focused on ranged combat, specialising in wielding an additional steamgun.\
 \
 		Tail weapons do not attack by default, and are instead used for special talents.", "tformat") -- 
-tDef(651, "Mecharachnid Piloting", "talent name") -- 
-tDef(661, "You require your mecharachnid to be adjacent.", "logPlayer") -- 
-tDef(673, "Leap into your mecharachnid, assuming direct control of it for %d turns. While piloting it, all damage dealt is increased by %d%%, resistances are increased by %d%%, and all of its talents cooldown twice as fast.", "tformat") -- 
-tDef(679, "Ranged combat mecharachnid abilities.", "_t") -- 
-tDef(679, "armament", "_t") -- 
-tDef(680, "Close combat mecharachnid abilities.", "_t") -- 
-tDef(680, "assault", "_t") -- 
-tDef(680, "steamtech", "talent category") -- 
-tDef(683, "Overrun", "talent name") -- 
-tDef(702, "Your mecharachnid cannot do that currently.", "logPlayer") -- 
-tDef(742, "#Source# provokes #Target# to attack it.", "logCombat") -- 
-tDef(749, "You rush to the target and strike with your tailsaw, dealing %d%% damage and taunting enemies within radius %d.\
+tDef(656, "Mecharachnid Piloting", "talent name") -- 
+tDef(666, "You require your mecharachnid to be adjacent.", "logPlayer") -- 
+tDef(678, "Leap into your mecharachnid, assuming direct control of it for %d turns. While piloting it, all damage dealt is increased by %d%%, resistances are increased by %d%%, and all of its talents cooldown twice as fast.", "tformat") -- 
+tDef(684, "Ranged combat mecharachnid abilities.", "_t") -- 
+tDef(684, "armament", "_t") -- 
+tDef(685, "Close combat mecharachnid abilities.", "_t") -- 
+tDef(685, "assault", "_t") -- 
+tDef(685, "steamtech", "talent category") -- 
+tDef(688, "Overrun", "talent name") -- 
+tDef(707, "Your mecharachnid cannot do that currently.", "logPlayer") -- 
+tDef(747, "#Source# provokes #Target# to attack it.", "logCombat") -- 
+tDef(754, "You rush to the target and strike with your tailsaw, dealing %d%% damage and taunting enemies within radius %d.\
 		You now also use your Dexterity in place of Strength when equipping Steamsaws as well as when calculating weapon damage, and have your Steamsaw damage increased by %d%% and Physical Power by %d.", "tformat") -- 
-tDef(756, "Defensive Protocol", "talent name") -- 
-tDef(790, "Enhancements to your mecharachnid combat skill increases your melee and ranged evasion by %d%%, and causes you to automatically strike adjacent enemies with your tailsaw for %d%% damage each turn.", "tformat") -- 
-tDef(796, "Pincer Strike", "talent name") -- 
-tDef(809, "You require a tail-mounted steamsaw for this talent.", "logPlayer") -- 
-tDef(824, "#Target# resists the pincer strike from #Source#!", "logCombat") -- 
-tDef(835, "You strike the target with your tailsaw for %d%% damage. If this hits, you attempt to clamp them with your pincers for %d turns. This pins, reduces their attack, spell and mind speed by %d%%, and lets you make a free, unavoidable strike with your tailsaw against them each turn for %d%% damage. This ends if you move more than 1 tile from the target.", "tformat") -- 
-tDef(841, "Automated Repair System", "talent name") -- 
-tDef(861, "On falling below 0 life, you engage an automated repair mode. While in this mode you cannot act, but can survive below -%d life, heal for %0.1f life each turn and have all resistances increased by %d%%. This will last until you are destroyed or until you are fully healed.\
+tDef(761, "Defensive Protocol", "talent name") -- 
+tDef(795, "Enhancements to your mecharachnid combat skill increases your melee and ranged evasion by %d%%, and causes you to automatically strike adjacent enemies with your tailsaw for %d%% damage each turn.", "tformat") -- 
+tDef(801, "Pincer Strike", "talent name") -- 
+tDef(814, "You require a tail-mounted steamsaw for this talent.", "logPlayer") -- 
+tDef(829, "#Target# resists the pincer strike from #Source#!", "logCombat") -- 
+tDef(840, "You strike the target with your tailsaw for %d%% damage. If this hits, you attempt to clamp them with your pincers for %d turns. This pins, reduces their attack, spell and mind speed by %d%%, and lets you make a free, unavoidable strike with your tailsaw against them each turn for %d%% damage. This ends if you move more than 1 tile from the target.", "tformat") -- 
+tDef(846, "Automated Repair System", "talent name") -- 
+tDef(866, "On falling below 0 life, you engage an automated repair mode. While in this mode you cannot act, but can survive below -%d life, heal for %0.1f life each turn and have all resistances increased by %d%%. This will last until you are destroyed or until you are fully healed.\
 		This effect has a cooldown.", "tformat") -- 
-tDef(868, "Gauss Cannon", "talent name") -- 
-tDef(896, "You require a tail-mounted steamgun for this talent.", "logPlayer") -- 
-tDef(906, "Fire a charged shot at the farthest target with your tail-mounted steamgun that pierces through your enemies, ignoring armor and dealing %d%% weapon damage as lightning.\
+tDef(873, "Gauss Cannon", "talent name") -- 
+tDef(901, "You require a tail-mounted steamgun for this talent.", "logPlayer") -- 
+tDef(911, "Fire a charged shot at the farthest target with your tail-mounted steamgun that pierces through your enemies, ignoring armor and dealing %d%% weapon damage as lightning.\
 		This takes no time to use.", "tformat") -- 
-tDef(913, "Magnetic Accelerator", "talent name") -- 
-tDef(945, "You must have an empty space to leap to.", "logPlayer") -- 
-tDef(958, "Improved power output increases the speed of your projectiles by %d%%, critical damage by %d%%, and allows you to automatically reload each turn.\
+tDef(918, "Magnetic Accelerator", "talent name") -- 
+tDef(950, "You must have an empty space to leap to.", "logPlayer") -- 
+tDef(963, "Improved power output increases the speed of your projectiles by %d%%, critical damage by %d%%, and allows you to automatically reload each turn.\
 		In addition, you can instantly activate this talent to gain a sudden burst of speed, moving to a tile in range %d.", "tformat") -- 
-tDef(965, "Haywire Missiles", "talent name") -- 
-tDef(981, "You require a steamgun for this talent.", "logPlayer") -- 
-tDef(1003, "Fires a barrage of charged missiles from your tail-mounted steamgun at a radius %d area, dealing %d%% steamgun damage as lightning as well as dazing those within for 2 turns.\
+tDef(970, "Haywire Missiles", "talent name") -- 
+tDef(986, "You require a steamgun for this talent.", "logPlayer") -- 
+tDef(1008, "Fires a barrage of charged missiles from your tail-mounted steamgun at a radius %d area, dealing %d%% steamgun damage as lightning as well as dazing those within for 2 turns.\
 		The daze chance increases with your Accuracy.", "tformat") -- 
-tDef(1010, "Advanced Targeting System", "talent name") -- 
-tDef(1039, "Enhancements to your targeting systems give all ranged attacks a %d%% chance to trigger an immediate shot from your tail-mounted steamgun for 100%% damage as lightning.\
+tDef(1015, "Advanced Targeting System", "talent name") -- 
+tDef(1044, "Enhancements to your targeting systems give all ranged attacks a %d%% chance to trigger an immediate shot from your tail-mounted steamgun for 100%% damage as lightning.\
 		In addition, your physical and lightning resistance penetration is increased by %d%%.", "tformat") -- 
-tDef(1046, "Tail Attachment", "talent name") -- 
-tDef(1095, "%s mounts %s to its tail.", "logSeen") -- 
-tDef(1103, "Attach which item?", "_t") -- 
-tDef(1111, "Attach the chosen weapon to your tail.", "_t") -- 
+tDef(1051, "Tail Attachment", "talent name") -- 
+tDef(1110, "%s mounts %s to its tail.", "logSeen") -- 
+tDef(1118, "Attach which item?", "_t") -- 
+tDef(1126, "Attach the chosen weapon to your tail.", "_t") -- 
 
 
 ------------------------------------------------
@@ -10233,169 +10258,169 @@ tDef(439, "Quickly create a psionic-enhanced metal contraption that lures all yo
 		The contraption will have %d life and last 5 turns.\
 		Damage, life, resists, and armor scale with your Steampower.", "tformat") -- 
 tDef(447, "Rocket Boots", "talent name") -- 
-tDef(472, "Activate the rocket boots, firing huge flames from your boots increasing your movement speed by %d%%.\
+tDef(471, "Activate the rocket boots, firing huge flames from your boots increasing your movement speed by %d%%.\
 		Each movement will leave a trail of flames doing %0.2f fire damage for 4 turns.\
 		Doing any other actions will break the effect.\
 		#{italic}#Burninate them all!#{normal}#", "tformat") -- 
-tDef(481, "Iron Grip", "talent name") -- 
-tDef(505, "%s resists the iron grip!", "logSeen") -- 
-tDef(512, "Activate the pistons to crush your target for %d turns and dealing %d%% unarmed melee damage.\
+tDef(480, "Iron Grip", "talent name") -- 
+tDef(504, "%s resists the iron grip!", "logSeen") -- 
+tDef(511, "Activate the pistons to crush your target for %d turns and dealing %d%% unarmed melee damage.\
 		While the target is held it can not move and its armour and defense are reduced by %d.\
 		#{italic}#Crush their bones!#{normal}#", "tformat") -- 
-tDef(520, "Spring Grapple", "talent name") -- 
-tDef(554, "Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "tformat") -- 
-tDef(560, "Toxic Cannister Launcher", "talent name") -- 
-tDef(593, "toxic cannister", "_t") -- 
-tDef(594, "A smelly cannister.", "_t") -- 
-tDef(651, "Launch a cannister filled with toxic gas at a location.\
+tDef(519, "Spring Grapple", "talent name") -- 
+tDef(553, "Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "tformat") -- 
+tDef(559, "Toxic Cannister Launcher", "talent name") -- 
+tDef(592, "toxic cannister", "_t") -- 
+tDef(593, "A smelly cannister.", "_t") -- 
+tDef(650, "Launch a cannister filled with toxic gas at a location.\
 		Every 2 turns the cannister emits a poison cloud of radius 3 around it each turn.\
 		The poison does %0.2f nature damage over 5 turns.\
 		The cannister has %d life and lasts 8 turns. When it ends or is destroyed a last cloud is created.\
 		Damage, life, resists, and armor scale with your Steampower.\
 		Damage and penetration are inherited from the creator.", "tformat") -- 
-tDef(662, "Steam Powered Armour", "talent name") -- 
-tDef(726, "Activate the armour's active defense system.\
+tDef(661, "Steam Powered Armour", "talent name") -- 
+tDef(725, "Activate the armour's active defense system.\
 		A flow of electricity covers your armour to attenuate the force of energy attacks while small steam engines move key pieces of the armour to attenuate physical attacks.\
 		All damage except mind damage is reduced by a flat %d.\
 		In addition the electric power of the armour sometimes leaks, each turn there is a 50%% chance to produce a electrical arc toward a foe, dealing %0.2f to %0.2f lightning damage to all foes in radius 1.\
 		The effects increase with your Steampower.", "tformat") -- 
-tDef(736, "Viral Needlegun", "talent name") -- 
-tDef(770, "You fire a cone of blighted needles, hitting everything in a frontal cone of radius %d for %0.2f physical damage.\
+tDef(735, "Viral Needlegun", "talent name") -- 
+tDef(769, "You fire a cone of blighted needles, hitting everything in a frontal cone of radius %d for %0.2f physical damage.\
 		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and reducing either Constitution, Strength or Dexterity by %d for 20 turns.\
 		The damage and disease effects increase with your Steampower.", "tformat") -- 
-tDef(777, "Sand Shredder", "talent name") -- 
-tDef(785, "%s shreds through sandwalls!", "logSeen") -- 
-tDef(789, "You shred pieces of sandwalls. Brrrmmm!.", "_t") -- 
-tDef(794, "Flamethrower", "talent name") -- 
-tDef(819, "Throw a cone of flame with radius %d\
+tDef(776, "Sand Shredder", "talent name") -- 
+tDef(784, "%s shreds through sandwalls!", "logSeen") -- 
+tDef(788, "You shred pieces of sandwalls. Brrrmmm!.", "_t") -- 
+tDef(793, "Flamethrower", "talent name") -- 
+tDef(818, "Throw a cone of flame with radius %d\
 		The damage will increase with your Steampower.", "tformat") -- 
-tDef(846, "Mass Repair", "talent name") -- 
-tDef(912, "Throw a cone of healing with radius %d, healing other mechanical creatures (steam spiders) for %d.\
+tDef(845, "Mass Repair", "talent name") -- 
+tDef(911, "Throw a cone of healing with radius %d, healing other mechanical creatures (steam spiders) for %d.\
 		The healing will increase with your Steampower.", "tformat") -- 
-tDef(920, "Arcane Disruption Wave", "talent name") -- 
-tDef(940, "Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user.\
+tDef(919, "Arcane Disruption Wave", "talent name") -- 
+tDef(939, "Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user.\
 		The silence chance will increase with your Steampower.", "tformat") -- 
-tDef(947, "Mind Crush", "talent name") -- 
-tDef(965, "%s resists the mental assault!", "logSeen") -- 
-tDef(976, "Shatters the mind of your victim, giving you full control over its actions for 6 turns.\
+tDef(946, "Mind Crush", "talent name") -- 
+tDef(964, "%s resists the mental assault!", "logSeen") -- 
+tDef(975, "Shatters the mind of your victim, giving you full control over its actions for 6 turns.\
 		When the effect ends, you pull out your mind and the victim's body collapses, dead.\
 		This effect does not work on rares, bosses, or undead.\
 		.", "tformat") -- 
-tDef(984, "Shocking Touch", "talent name") -- 
-tDef(1054, "Touch a creature to release a nasty electrical charge into them, doing %0.2f lightning damage.\
+tDef(983, "Shocking Touch", "talent name") -- 
+tDef(1053, "Touch a creature to release a nasty electrical charge into them, doing %0.2f lightning damage.\
 		If this tinker is above tier 1, the electricity can arc to another target up to 2 tiles away.\
 		The number of enemies hit is at most the tinker tier.\
 		The damage increases with your Steampower.", "tformat") -- 
-tDef(1062, "Flash Powder", "talent name") -- 
-tDef(1093, "Throw a handful of dust that rapidly oxidises, releasing a blinding light.\
+tDef(1061, "Flash Powder", "talent name") -- 
+tDef(1092, "Throw a handful of dust that rapidly oxidises, releasing a blinding light.\
 		Creatures in a cone of radius %d are blinded for %d turns.\
 		The blindness effect is applied with your Steampower.", "tformat") -- 
-tDef(1100, "Itching Powder", "talent name") -- 
-tDef(1123, "%s resists the itching powder!", "logSeen") -- 
-tDef(1132, "Throw a handful of dust that is very itchy to touch.\
+tDef(1099, "Itching Powder", "talent name") -- 
+tDef(1122, "%s resists the itching powder!", "logSeen") -- 
+tDef(1131, "Throw a handful of dust that is very itchy to touch.\
 		Creatures in a cone of radius %d are itchy for %d turns, causing them to fail talents %d%% of the time.\
 		The itchiness effect is applied with your Steampower.", "tformat") -- 
-tDef(1139, "Thunder Grenade", "talent name") -- 
-tDef(1163, "%s resists the explosion!", "logSeen") -- 
-tDef(1173, "Throw a grenade at your foes, dealing %0.2f physical damage in radius %d.\
+tDef(1138, "Thunder Grenade", "talent name") -- 
+tDef(1162, "%s resists the explosion!", "logSeen") -- 
+tDef(1172, "Throw a grenade at your foes, dealing %0.2f physical damage in radius %d.\
 		Creatures hit will also be stunned for %d turns.\
 		The stun effect is applied with your Steampower.", "tformat") -- 
-tDef(1180, "Project Saw", "talent name") -- 
-tDef(1204, "You activate hidden springs to project a saw towards your foes.\
+tDef(1179, "Project Saw", "talent name") -- 
+tDef(1203, "You activate hidden springs to project a saw towards your foes.\
 		Any creature caught in the beam takes %0.2f physical damage and bleeds for half more in 5 turns.\
 		The damage increases with your Steampower.", "tformat") -- 
-tDef(1211, "Voltaic Bolt", "talent name") -- 
-tDef(1232, "Fires a bolt of lightning, doing %0.2f lightning damage.\
+tDef(1210, "Voltaic Bolt", "talent name") -- 
+tDef(1231, "Fires a bolt of lightning, doing %0.2f lightning damage.\
 		The damage will increase with your Steampower.", "tformat") -- 
-tDef(1239, "Voltaic Sentry", "talent name") -- 
-tDef(1263, "Not enough space to summon!", "logPlayer") -- 
-tDef(1271, "volatic sentry", "_t") -- 
-tDef(1272, "A strange device. Your hair stands on end when you approach.", "_t") -- 
-tDef(1306, "Place an electrically charged sentry device at a location.\
+tDef(1238, "Voltaic Sentry", "talent name") -- 
+tDef(1262, "Not enough space to summon!", "logPlayer") -- 
+tDef(1270, "volatic sentry", "_t") -- 
+tDef(1271, "A strange device. Your hair stands on end when you approach.", "_t") -- 
+tDef(1305, "Place an electrically charged sentry device at a location.\
 		Every turn it will fire a bolt of electricity at a nearby enemy.\
 		The bolts do %0.2f lightning damage.\
 		The sentry has %d life and lasts 10 turns.\
 		Damage, life, resists, and armor scale with your Steampower.\
 		Damage and penetration are inherited from the creator.", "tformat") -- 
-tDef(1317, "Explosive Shell", "talent name") -- 
-tDef(1343, "You fire a special explosive shot with your steamgun(s) at a spot within range.\
+tDef(1316, "Explosive Shell", "talent name") -- 
+tDef(1342, "You fire a special explosive shot with your steamgun(s) at a spot within range.\
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which does %0.2f physical damage.\
 		This talent does not use ammo as it is the ammo.", "tformat") -- 
-tDef(1351, "Flare Shell", "talent name") -- 
-tDef(1372, "%s resists the blinding light!", "logSeen") -- 
-tDef(1387, "You fire a special explosive shot with your steamgun(s) at a spot within range.\
+tDef(1350, "Flare Shell", "talent name") -- 
+tDef(1371, "%s resists the blinding light!", "logSeen") -- 
+tDef(1386, "You fire a special explosive shot with your steamgun(s) at a spot within range.\
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which lights up the area and blinds for %d turns.\
 		This talent does not use ammo as it is the ammo.", "tformat") -- 
-tDef(1395, "Incendiary Shell", "talent name") -- 
-tDef(1410, "clusterbomb", "_t") -- 
-tDef(1457, "You fire a special explosive shot with your steamgun(s) at a spot within range.\
+tDef(1394, "Incendiary Shell", "talent name") -- 
+tDef(1409, "clusterbomb", "_t") -- 
+tDef(1456, "You fire a special explosive shot with your steamgun(s) at a spot within range.\
 		When each shot reaches its target, it does normal steamgun damage and releases %d explosive charges in a radius of 2.\
 		These charges will shortly explode for %0.2f fire damage in a radius of 1.\
 		This talent does not use ammo as it is the ammo.", "tformat") -- 
-tDef(1466, "Solid Shell", "talent name") -- 
-tDef(1483, "%s is knocked back!", "logSeen") -- 
-tDef(1485, "%s resists the knockback!", "logSeen") -- 
-tDef(1497, "You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.\
+tDef(1465, "Solid Shell", "talent name") -- 
+tDef(1482, "%s is knocked back!", "logSeen") -- 
+tDef(1484, "%s resists the knockback!", "logSeen") -- 
+tDef(1496, "You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.\
 		The weight of the shot will knock the target back %d tiles.\
 		This talent does not use ammo as it is the ammo.", "tformat") -- 
-tDef(1505, "Impaler Shell", "talent name") -- 
-tDef(1525, "%s resists the pin!", "logSeen") -- 
-tDef(1537, "You fire a special stake shot with your steamgun(s) at a target for %d%% physical weapon damage.\
+tDef(1504, "Impaler Shell", "talent name") -- 
+tDef(1524, "%s resists the pin!", "logSeen") -- 
+tDef(1536, "You fire a special stake shot with your steamgun(s) at a target for %d%% physical weapon damage.\
 		The weight of the shot will knock the target back 2 tiles and they will be pinned for %d turns.\
 		This talent does not use ammo as it is the ammo.", "tformat") -- 
-tDef(1545, "Saw Shell", "talent name") -- 
-tDef(1566, "You fire a special steamsaw shot with your steamgun(s) at a target for %d%% physical weapon damage.\
+tDef(1544, "Saw Shell", "talent name") -- 
+tDef(1565, "You fire a special steamsaw shot with your steamgun(s) at a target for %d%% physical weapon damage.\
 		The steamsaw will cut into the target, doing %d%% physical weapon damage over 5 turns.\
 		This talent does not use ammo as it is the ammo.", "tformat") -- 
-tDef(1574, "Hook Shell", "talent name") -- 
-tDef(1597, "%s resists the pull!", "logSeen") -- 
-tDef(1605, "You fire a special hook shot with your steamgun(s) at a target creature or location.\
+tDef(1573, "Hook Shell", "talent name") -- 
+tDef(1596, "%s resists the pull!", "logSeen") -- 
+tDef(1604, "You fire a special hook shot with your steamgun(s) at a target creature or location.\
 		If you target a creature, they are pulled up to %d tiles towards you.\
 		If you target an empty tile, you are pulled up to %d tiles towards it.\
 		This talent does not use ammo as it is the ammo.", "tformat") -- 
-tDef(1614, "Magnetic Shell", "talent name") -- 
-tDef(1639, "You fire a special magnetic shot with your steamgun(s) at a target for normal weapon damage.\
+tDef(1613, "Magnetic Shell", "talent name") -- 
+tDef(1638, "You fire a special magnetic shot with your steamgun(s) at a target for normal weapon damage.\
 		The shot will magnetise the target for %d turns. This lowers their defense and increases fatigue by %d.\
 		This talent does not use ammo as it is the ammo.\
 		Effect strength scales with Steampower.", "tformat") -- 
-tDef(1648, "Voltaic Shell", "talent name") -- 
-tDef(1692, "You fire a special voltaic shot with your steamgun(s) at a target for 100%% weapon damage as lightning.\
+tDef(1647, "Voltaic Shell", "talent name") -- 
+tDef(1691, "You fire a special voltaic shot with your steamgun(s) at a target for 100%% weapon damage as lightning.\
 		The shot will release powerful electrical currents at up to %d nearby enemies. \
 		Each bolt does %0.2f lightning damage.\
 		This talent does not use ammo as it is the ammo.\
 		Bolt damage scales with Steampower.", "tformat") -- 
-tDef(1702, "Antimagic Shell", "talent name") -- 
-tDef(1727, "You fire a special antimagic shot with your steamgun(s) at a target for 100%% normal weapon damage.\
+tDef(1701, "Antimagic Shell", "talent name") -- 
+tDef(1726, "You fire a special antimagic shot with your steamgun(s) at a target for 100%% normal weapon damage.\
 		The shot will release antimagic sap on the target, doing %0.2f arcane resource burn damage.\
 		This talent does not use ammo as it is the ammo.\
 		Sap damage scales with Steampower.", "tformat") -- 
-tDef(1736, "Botanical Shell", "talent name") -- 
-tDef(1773, "You fire a special botanical shot with your steamgun(s) at a target for 100%% weapon damage as nature.\
+tDef(1735, "Botanical Shell", "talent name") -- 
+tDef(1772, "You fire a special botanical shot with your steamgun(s) at a target for 100%% weapon damage as nature.\
 		The shot will release spores which grow into Nourishing Moss in a radius of %d for %d turns.\
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.\
 		This moss has vampiric properties and heals the user for %d%% of the damage done.\
 		This talent does not use ammo as it is the ammo.\
 		Moss damage scales with Steampower.", "tformat") -- 
-tDef(1784, "Corrosive Shell", "talent name") -- 
-tDef(1810, "You fire a special corrosive shot with your steamgun(s) at a target for %d%% weapon damage as acid.\
+tDef(1783, "Corrosive Shell", "talent name") -- 
+tDef(1809, "You fire a special corrosive shot with your steamgun(s) at a target for %d%% weapon damage as acid.\
 		The acid released by the shot will also corrode the target, reducing its accuracy, defense and armour by %d.\
 		This talent does not use ammo as it is the ammo.\
 		Corrosion strength scales with Steampower.", "tformat") -- 
-tDef(1819, "Toxic Shell", "talent name") -- 
-tDef(1829, "You require a steamgun for this talent.", "logPlayer") -- 
-tDef(1836, "%s resists the toxin!", "logSeen") -- 
-tDef(1848, "You fire a special toxic shot with your steamgun(s) at a target for 100%% weapon damage as blight.\
+tDef(1818, "Toxic Shell", "talent name") -- 
+tDef(1828, "You require a steamgun for this talent.", "logPlayer") -- 
+tDef(1835, "%s resists the toxin!", "logSeen") -- 
+tDef(1847, "You fire a special toxic shot with your steamgun(s) at a target for 100%% weapon damage as blight.\
 		The shot will release heavy metals into the target, inflicting %0.2f blight damage per turn and reducing their global speed by %d%% for %d turns.\
 		This talent does not use ammo as it is the ammo.\
 		Toxin strength scales with Steampower.", "tformat") -- 
-tDef(1857, "Moss Tread", "talent name") -- 
-tDef(1891, "For %d turns, you lay down Grasping Moss where you walk or stand.\
+tDef(1856, "Moss Tread", "talent name") -- 
+tDef(1890, "For %d turns, you lay down Grasping Moss where you walk or stand.\
 		The moss is placed automatically every step and lasts %d turns.\
 		Each turn the moss deals %0.2f nature damage to each foe standing on it.\
 		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.\
 		The damage scales with your Steampower.", "tformat") -- 
-tDef(1901, "Arcane Dynamo", "talent name") -- 
-tDef(1928, "Allows the use of Technomancy spells.\
+tDef(1900, "Arcane Dynamo", "talent name") -- 
+tDef(1927, "Allows the use of Technomancy spells.\
 		Grants a magical steam reserve that regenerates %d steam per 10 mana spent.\
 		Grants Spellpower based on current steam level (currently %d; %d%% steam filled).\
 		Outside of combat, you relax and let your steam reserve slowly wither away.\
@@ -10448,24 +10473,24 @@ tDef(175, "Attach a psionic steam device to a shot doing %d%% weapon damage.\
 section "game/dlcs/tome-orcs/data/talents/steam/sawmaiming.lua"
 
 tDef(20, "To The Arms", "talent name") -- 
-tDef(30, "You require a steamsaw for this talent.", "logPlayer") -- 
 tDef(47, "Hits the target on the arms with one rotating saw doing %d%% damage and trying to maim it for %d turns.\
 		Maimed foes deal %d%% less damage.\
 		The chance improves with your Physical power.\
 		#{italic}#Cutting your foes has never been so simple!#{normal}#", "tformat") -- 
 tDef(56, "Bloodstream", "talent name") -- 
-tDef(91, "You \"gently\" slam your saws into the wounds of a creature, dealing %d%% weapon damage and deepening the wounds.\
+tDef(92, "You \"gently\" slam your saws into the wounds of a creature, dealing %d%% weapon damage and deepening the wounds.\
 		All bleeding wounds durations are increased by %d turns and the damage by %d%% (this may be done only once per bleeding effect).\
 		When this happens a gush of blood is projected in a narrow cone of radius 4, dealing %0.2f physical damage to all creatures.\
 		The power and damage improves with your Steampower.\
 		#{italic}#The marvels of technology, now at the service of true butchery!#{normal}#", "tformat") -- 
-tDef(101, "Spinal Break", "talent name") -- 
-tDef(169, "You try to sever the spine of your foe, reducing its global speed by %d%% for 4 turns and dealing %d%% weapon damage.\
+tDef(102, "Spinal Break", "talent name") -- 
+tDef(171, "You try to sever the spine of your foe, reducing its global speed by %d%% for 4 turns and dealing %d%% weapon damage.\
 		The power of the blow also removes up to %d physical effects.\
 		If your talent level is at least 3 %d physical or magical sustains are also removed.\
 		#{italic}#Break them, grind them, mow them down!#{normal}#", "tformat") -- 
-tDef(179, "Goresplosion", "talent name") -- 
-tDef(216, "When you kill a foe you place small explosives with shrapnels inside its body, making it explode in radius %d.\
+tDef(181, "Goresplosion", "talent name") -- 
+tDef(192, "You require a steamsaw for this talent.", "logPlayer") -- 
+tDef(219, "When you kill a foe you place small explosives with shrapnels inside its body, making it explode in radius %d.\
 		Any foes hit will bleed for %0.2f damage per turn for 6 turns. The shrapnels also damage the vocal cords (or related organ), silencing them for %d turns.\
 		#{italic}#Use the finest of wartech now: shrapnels. For blood and mayhem!#{normal}#", "tformat") -- 
 
@@ -10628,7 +10653,7 @@ section "game/dlcs/tome-orcs/data/talents/uber/const.lua"
 tDef(20, "Subcutaneous Metallisation", "talent name") -- 
 tDef(32, "When your life dips below 50%% of your total life an automated process turns some of your lower skin layers (or other internal organs) into a thick metallic layer for 6 turns.\
 		While the effect lasts all damage done to you is reduced by a flat amount equal to 100%% of your Constitution.\
-		This effect can only trigger once every 10 turns.", "tformat") -- 
+		This effect can only trigger once every %d turns.", "tformat") -- 
 
 
 ------------------------------------------------
@@ -10916,23 +10941,19 @@ tDef(546, "#Target# shuts down and engages its automated repair system.", "_t") 
 tDef(546, "+Automated Repair System", "_t") -- 
 tDef(547, "#Target#'s repairs are complete.", "_t") -- 
 tDef(547, "-Automated Repair System", "_t") -- 
-tDef(567, "Bullet Mastery: Overheated", "_t") -- 
-tDef(568, "Bullets shot are overheated:  When striking their target, they set it on fire for %d fire damage over 5 turns", "tformat") -- 
-tDef(572, "#Target# tweaks some of %s bullets.", "tformat") -- 
-tDef(572, "+Bullet Mastery", "_t") -- 
-tDef(578, "Demagnetized", "_t") -- 
-tDef(579, "Beneficial effects of Magnetic Field lost.", "tformat") -- 
-tDef(581, "lightning", "effect subtype") -- 
-tDef(581, "steamtech", "effect subtype") -- 
-tDef(599, "Galvanic Rods", "_t") -- 
-tDef(601, "Rods available:\
+tDef(567, "Demagnetized", "_t") -- 
+tDef(568, "Beneficial effects of Magnetic Field lost.", "tformat") -- 
+tDef(570, "lightning", "effect subtype") -- 
+tDef(570, "steamtech", "effect subtype") -- 
+tDef(588, "Galvanic Rods", "_t") -- 
+tDef(590, "Rods available:\
 ", "_t") -- 
-tDef(604, "#LIGHT_GREEN#- Rod (%d): available\
+tDef(593, "#LIGHT_GREEN#- Rod (%d): available\
 ", "tformat") -- 
-tDef(605, "#LIGHT_RED#- Rod (%d): %d turns\
+tDef(594, "#LIGHT_RED#- Rod (%d): %d turns\
 ", "tformat") -- 
-tDef(610, "spell", "effect subtype") -- 
-tDef(610, "technomancy", "effect subtype") -- 
+tDef(599, "spell", "effect subtype") -- 
+tDef(599, "technomancy", "effect subtype") -- 
 
 
 ------------------------------------------------
@@ -11115,112 +11136,112 @@ tDef(775, "Vicious cut that bleeds, doing %0.2f physical damage per turn.", "tfo
 tDef(777, "bleed", "effect subtype") -- 
 tDef(777, "cut", "effect subtype") -- 
 tDef(777, "wound", "effect subtype") -- 
-tDef(803, "Metal Poisoning", "_t") -- 
-tDef(804, "The target is poisoned with heavy metals, taking %0.2f blight damage per turn and decreasing their global speed by %d%%.", "tformat") -- 
-tDef(806, "blight", "effect subtype") -- 
-tDef(806, "poison", "effect subtype") -- 
-tDef(809, "#Target# is poisoned!", "_t") -- 
-tDef(809, "+Metal Poisoning", "_t") -- 
-tDef(810, "#Target# is no longer poisoned.", "_t") -- 
-tDef(810, "-Metal Poisoning", "_t") -- 
-tDef(830, "Moss Tread", "_t") -- 
-tDef(831, "You lay moss where you walk.", "tformat") -- 
-tDef(833, "moss", "effect subtype") -- 
-tDef(836, "+Moss", "_t") -- 
-tDef(837, "-Moss", "_t") -- 
-tDef(846, "Stimulus", "_t") -- 
-tDef(847, "Resisting pain, reducing all incoming damage by %0.2f. When the effect ends, take %d un-resistable damage.", "tformat") -- 
-tDef(852, "#Target# starts to bleed.", "_t") -- 
-tDef(852, "+Bleeds", "_t") -- 
-tDef(853, "#Target# stops bleeding.", "_t") -- 
-tDef(853, "-Bleeds", "_t") -- 
-tDef(874, "To The Arms", "_t") -- 
-tDef(875, "Damage reduced by %d%%.", "tformat") -- 
-tDef(877, "maimed", "effect subtype") -- 
-tDef(880, "#Target# is suffering and fails to concentrate on dealing damage.", "_t") -- 
-tDef(881, "#Target# is suffering less.", "_t") -- 
-tDef(891, "Acid Burn", "_t") -- 
-tDef(892, "The target has been splashed with acid, taking %0.2f acid damage per turn.", "tformat") -- 
-tDef(897, "#Target# is covered in acid!", "_t") -- 
-tDef(898, "#Target# is free from the acid.", "_t") -- 
-tDef(916, "Static Shield", "_t") -- 
-tDef(917, "The target is surrounded by a static shield, increasing all resistances by %d%% and causing attacks against them to trigger a shield attack for %d%% damage as lightning.", "tformat") -- 
-tDef(922, "+Static Shield", "_t") -- 
-tDef(922, "A static shield forms around #target#.", "_t") -- 
-tDef(923, "-Static Shield", "_t") -- 
-tDef(923, "The static shield around #target# crumbles.", "_t") -- 
-tDef(954, "Lightning Web", "_t") -- 
-tDef(956, "The target is surrounded by a crackling web of lightning, reducing all damage taken by %d.", "tformat") -- 
-tDef(972, "#LIGHT_BLUE#(%d lightning web)#LAST#", "tformat") -- 
-tDef(979, "Incendiary Grenade", "_t") -- 
-tDef(980, "The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "tformat") -- 
-tDef(996, "Healing Mist", "_t") -- 
-tDef(997, "Newly applied status effects durations are reduced by %d%%.", "tformat") -- 
-tDef(1008, "#ORCHID#%s has recovered!#LAST#", "logSeen") -- 
-tDef(1031, "Overclock", "_t") -- 
-tDef(1032, "The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "tformat") -- 
-tDef(1034, "lightning", "effect subtype") -- 
-tDef(1034, "shield", "effect subtype") -- 
-tDef(1037, "#target# surges with power!", "_t") -- 
-tDef(1037, "+Overclock", "_t") -- 
-tDef(1038, "#target# looks less powerful.", "_t") -- 
-tDef(1038, "-Overclock", "_t") -- 
-tDef(1064, "#SLATE#(%d absorbed)#LAST#", "tformat") -- 
-tDef(1067, "Your shield crumbles under the damage!", "logPlayer") -- 
-tDef(1121, "Hypervision Goggles", "_t") -- 
-tDef(1122, "Improves senses, allowing the detection of enemies in radius %d and increasing resistance penetration by %d%%.", "tformat") -- 
-tDef(1124, "sense", "effect subtype") -- 
-tDef(1149, "AED", "_t") -- 
-tDef(1150, "If life is brought below 0, cancels the attack, heals for %d and deals %0.2f lightning damage in radius %d as well as dazing for 2 turns.", "tformat") -- 
-tDef(1155, "#Target# prepares their AED!", "_t") -- 
-tDef(1155, "+AED", "_t") -- 
-tDef(1156, "#Target#'s AED deactivates.", "_t") -- 
-tDef(1156, "-AED", "_t") -- 
-tDef(1168, "%s's AED triggers!", "logSeen") -- 
-tDef(1194, "Burning Phosphorous", "_t") -- 
-tDef(1195, "The target is covered in burning chemicals, taking %0.2f fire damage each turn. Subsequent shots deal %0.2f fire damage, and if they fall below 25%% life they have a %d%% chance to panic.", "tformat") -- 
-tDef(1232, "#F53CBE#%s resists the fear.", "logSeen") -- 
-tDef(1266, "#F53CBE#%s panics and flees from %s!", "logSeen") -- 
-tDef(1268, "#F53CBE#%s panics but fails to flee from %s!", "logSeen") -- 
-tDef(1278, "Scorched", "_t") -- 
-tDef(1279, "Fire resistance decreased by %d%%.", "tformat") -- 
-tDef(1281, "fire", "effect subtype") -- 
-tDef(1283, "#Target# is scorched.", "_t") -- 
-tDef(1284, "#Target# is no longer scorched.", "_t") -- 
-tDef(1293, "Pincer Strike", "_t") -- 
-tDef(1294, "The target is grappled by %s, pinning them, reducing attack, spell and mind speed by %d%% and subjecting them to an automatic tailsaw strike each turn for %d%% damage.", "tformat") -- 
-tDef(1296, "grapple", "effect subtype") -- 
-tDef(1296, "pin", "effect subtype") -- 
-tDef(1300, "%s clamps its pincers down on #Target#!", "tformat") -- 
-tDef(1300, "+Pincer Strike", "_t") -- 
-tDef(1301, "#Target# is free from %s's pincers.", "tformat") -- 
-tDef(1301, "-Pincer Strike", "_t") -- 
-tDef(1313, "#Source# #LIGHT_RED#strikes down at#LAST# #Target#!", "logCombat") -- 
-tDef(1328, "Reactive Armor", "_t") -- 
-tDef(1329, "Next melee or ranged attack that deals more than 8%% of maximum life is reduced by %d%% and triggers a radius %d conal explosion dealing %d%% steamgun damage. %d stacks remaining.", "tformat") -- 
-tDef(1355, "#LIGHT_BLUE#(%d reactive armor)#LAST#", "tformat") -- 
-tDef(1376, "Grenade Barrage", "_t") -- 
-tDef(1377, "Attack speed increased by %d%%. Next %d shot(s) trigger a grenade.", "tformat") -- 
-tDef(1382, "#Target# loads a magazine of grenades.", "_t") -- 
-tDef(1382, "+Grenade Barrage", "_t") -- 
-tDef(1391, "Miasma Adaptation", "_t") -- 
-tDef(1392, "Immune to miasma engine effects.", "_t") -- 
-tDef(1401, "Miasma Engine", "_t") -- 
-tDef(1402, "The target is surrounded by a toxic cloud or radius %d. Enemies within will suffer %d%% talent failure, %d%% reduced healing, and take %0.2f additional acid damage from melee and ranged attacks.", "tformat") -- 
-tDef(1447, "Smogscreen", "_t") -- 
-tDef(1448, "%d%% chance to fully absorb any damaging actions.", "tformat") -- 
-tDef(1463, "Miasma", "_t") -- 
-tDef(1464, "Affected by toxic chemicals. Has %d%% talent failure, %d%% reduced healing, and takes %0.2f additional acid damage from melee and ranged attacks.", "tformat") -- 
-tDef(1500, "Death From Above", "_t") -- 
-tDef(1501, "Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "tformat") -- 
-tDef(1506, "#Target# takes flight!", "_t") -- 
-tDef(1506, "+Death From Above", "_t") -- 
-tDef(1507, "#Target# lands.", "_t") -- 
-tDef(1507, "-Death From Above", "_t") -- 
-tDef(1555, "Corrosive Flechette", "_t") -- 
-tDef(1556, "%d corrosive flechettes are embedded in the target. Each melee and ranged attack against them will cause a flechette to burst for %0.2f acid damage", "tformat") -- 
-tDef(1559, "acid", "effect subtype") -- 
-tDef(1559, "steamtech", "effect subtype") -- 
+tDef(806, "Metal Poisoning", "_t") -- 
+tDef(807, "The target is poisoned with heavy metals, taking %0.2f blight damage per turn and decreasing their global speed by %d%%.", "tformat") -- 
+tDef(809, "blight", "effect subtype") -- 
+tDef(809, "poison", "effect subtype") -- 
+tDef(812, "#Target# is poisoned!", "_t") -- 
+tDef(812, "+Metal Poisoning", "_t") -- 
+tDef(813, "#Target# is no longer poisoned.", "_t") -- 
+tDef(813, "-Metal Poisoning", "_t") -- 
+tDef(833, "Moss Tread", "_t") -- 
+tDef(834, "You lay moss where you walk.", "tformat") -- 
+tDef(836, "moss", "effect subtype") -- 
+tDef(839, "+Moss", "_t") -- 
+tDef(840, "-Moss", "_t") -- 
+tDef(849, "Stimulus", "_t") -- 
+tDef(850, "Resisting pain, reducing all incoming damage by %0.2f. When the effect ends, take %d un-resistable damage.", "tformat") -- 
+tDef(855, "#Target# starts to bleed.", "_t") -- 
+tDef(855, "+Bleeds", "_t") -- 
+tDef(856, "#Target# stops bleeding.", "_t") -- 
+tDef(856, "-Bleeds", "_t") -- 
+tDef(877, "To The Arms", "_t") -- 
+tDef(878, "Damage reduced by %d%%.", "tformat") -- 
+tDef(880, "maimed", "effect subtype") -- 
+tDef(883, "#Target# is suffering and fails to concentrate on dealing damage.", "_t") -- 
+tDef(884, "#Target# is suffering less.", "_t") -- 
+tDef(894, "Acid Burn", "_t") -- 
+tDef(895, "The target has been splashed with acid, taking %0.2f acid damage per turn.", "tformat") -- 
+tDef(900, "#Target# is covered in acid!", "_t") -- 
+tDef(901, "#Target# is free from the acid.", "_t") -- 
+tDef(919, "Static Shield", "_t") -- 
+tDef(920, "The target is surrounded by a static shield, increasing all resistances by %d%% and causing attacks against them to trigger a shield attack for %d%% damage as lightning.", "tformat") -- 
+tDef(925, "+Static Shield", "_t") -- 
+tDef(925, "A static shield forms around #target#.", "_t") -- 
+tDef(926, "-Static Shield", "_t") -- 
+tDef(926, "The static shield around #target# crumbles.", "_t") -- 
+tDef(958, "Lightning Web", "_t") -- 
+tDef(960, "The target is surrounded by a crackling web of lightning, reducing all damage taken by %d.", "tformat") -- 
+tDef(976, "#LIGHT_BLUE#(%d lightning web)#LAST#", "tformat") -- 
+tDef(983, "Incendiary Grenade", "_t") -- 
+tDef(984, "The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "tformat") -- 
+tDef(1000, "Healing Mist", "_t") -- 
+tDef(1001, "Newly applied status effects durations are reduced by %d%%.", "tformat") -- 
+tDef(1012, "#ORCHID#%s has recovered!#LAST#", "logSeen") -- 
+tDef(1035, "Overclock", "_t") -- 
+tDef(1036, "The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "tformat") -- 
+tDef(1038, "lightning", "effect subtype") -- 
+tDef(1038, "shield", "effect subtype") -- 
+tDef(1041, "#target# surges with power!", "_t") -- 
+tDef(1041, "+Overclock", "_t") -- 
+tDef(1042, "#target# looks less powerful.", "_t") -- 
+tDef(1042, "-Overclock", "_t") -- 
+tDef(1068, "#SLATE#(%d absorbed)#LAST#", "tformat") -- 
+tDef(1071, "Your shield crumbles under the damage!", "logPlayer") -- 
+tDef(1125, "Hypervision Goggles", "_t") -- 
+tDef(1126, "Improves senses, allowing the detection of enemies in radius %d and increasing resistance penetration by %d%%.", "tformat") -- 
+tDef(1128, "sense", "effect subtype") -- 
+tDef(1153, "AED", "_t") -- 
+tDef(1154, "If life is brought below 0, cancels the attack, heals for %d and deals %0.2f lightning damage in radius %d as well as dazing for 2 turns.", "tformat") -- 
+tDef(1159, "#Target# prepares their AED!", "_t") -- 
+tDef(1159, "+AED", "_t") -- 
+tDef(1160, "#Target#'s AED deactivates.", "_t") -- 
+tDef(1160, "-AED", "_t") -- 
+tDef(1172, "%s's AED triggers!", "logSeen") -- 
+tDef(1198, "Burning Phosphorous", "_t") -- 
+tDef(1199, "The target is covered in burning chemicals, taking %0.2f fire damage each turn. Subsequent shots deal %0.2f fire damage, and if they fall below 25%% life they have a %d%% chance to panic.", "tformat") -- 
+tDef(1236, "#F53CBE#%s resists the fear.", "logSeen") -- 
+tDef(1270, "#F53CBE#%s panics and flees from %s!", "logSeen") -- 
+tDef(1272, "#F53CBE#%s panics but fails to flee from %s!", "logSeen") -- 
+tDef(1282, "Scorched", "_t") -- 
+tDef(1283, "Fire resistance decreased by %d%%.", "tformat") -- 
+tDef(1285, "fire", "effect subtype") -- 
+tDef(1287, "#Target# is scorched.", "_t") -- 
+tDef(1288, "#Target# is no longer scorched.", "_t") -- 
+tDef(1297, "Pincer Strike", "_t") -- 
+tDef(1298, "The target is grappled by %s, pinning them, reducing attack, spell and mind speed by %d%% and subjecting them to an automatic tailsaw strike each turn for %d%% damage.", "tformat") -- 
+tDef(1300, "grapple", "effect subtype") -- 
+tDef(1300, "pin", "effect subtype") -- 
+tDef(1304, "%s clamps its pincers down on #Target#!", "tformat") -- 
+tDef(1304, "+Pincer Strike", "_t") -- 
+tDef(1305, "#Target# is free from %s's pincers.", "tformat") -- 
+tDef(1305, "-Pincer Strike", "_t") -- 
+tDef(1317, "#Source# #LIGHT_RED#strikes down at#LAST# #Target#!", "logCombat") -- 
+tDef(1332, "Reactive Armor", "_t") -- 
+tDef(1333, "Next melee or ranged attack that deals more than 8%% of maximum life is reduced by %d%% and triggers a radius %d conal explosion dealing %d%% steamgun damage. %d stacks remaining.", "tformat") -- 
+tDef(1359, "#LIGHT_BLUE#(%d reactive armor)#LAST#", "tformat") -- 
+tDef(1380, "Grenade Barrage", "_t") -- 
+tDef(1381, "Attack speed increased by %d%%. Next %d shot(s) trigger a grenade.", "tformat") -- 
+tDef(1386, "#Target# loads a magazine of grenades.", "_t") -- 
+tDef(1386, "+Grenade Barrage", "_t") -- 
+tDef(1395, "Miasma Adaptation", "_t") -- 
+tDef(1396, "Immune to miasma engine effects.", "_t") -- 
+tDef(1405, "Miasma Engine", "_t") -- 
+tDef(1406, "The target is surrounded by a toxic cloud or radius %d. Enemies within will suffer %d%% talent failure, %d%% reduced healing, and take %0.2f additional acid damage from melee and ranged attacks.", "tformat") -- 
+tDef(1451, "Smogscreen", "_t") -- 
+tDef(1452, "%d%% chance to fully absorb any damaging actions.", "tformat") -- 
+tDef(1467, "Miasma", "_t") -- 
+tDef(1468, "Affected by toxic chemicals. Has %d%% talent failure, %d%% reduced healing, and takes %0.2f additional acid damage from melee and ranged attacks.", "tformat") -- 
+tDef(1504, "Death From Above", "_t") -- 
+tDef(1505, "Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "tformat") -- 
+tDef(1510, "#Target# takes flight!", "_t") -- 
+tDef(1510, "+Death From Above", "_t") -- 
+tDef(1511, "#Target# lands.", "_t") -- 
+tDef(1511, "-Death From Above", "_t") -- 
+tDef(1559, "Corrosive Flechette", "_t") -- 
+tDef(1560, "%d corrosive flechettes are embedded in the target. Each melee and ranged attack against them will cause a flechette to burst for %0.2f acid damage", "tformat") -- 
+tDef(1563, "acid", "effect subtype") -- 
+tDef(1563, "steamtech", "effect subtype") -- 
 
 
 ------------------------------------------------
@@ -12752,30 +12773,30 @@ tDef(63, "Tier 4", "_t") --
 tDef(64, "Tier 5", "_t") -- 
 tDef(154, "Requires talents:", "_t") -- 
 tDef(162, "Requires ingredients:", "_t") -- 
-tDef(167, " (You have: %s)", "tformat") -- 
-tDef(172, "Requires items:", "_t") -- 
-tDef(182, "Requires:", "_t") -- 
-tDef(196, "Example Item:", "_t") -- 
-tDef(247, "body", "_t") -- 
-tDef(259, "create tier( %s )", "tformat") -- 
-tDef(259, "missing reqs", "_t") -- 
+tDef(170, " (You have: %s)", "tformat") -- 
+tDef(175, "Requires items:", "_t") -- 
+tDef(185, "Requires:", "_t") -- 
+tDef(199, "Example Item:", "_t") -- 
+tDef(250, "body", "_t") -- 
+tDef(262, "create tier( %s )", "tformat") -- 
+tDef(262, "missing reqs", "_t") -- 
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/class/Actor.lua"
 
 tDef(49, "#FFD700#St. power#FFFFFF#: ", "_t") -- 
-tDef(139, "Kruk Invasion", "_t") -- 
-tDef(139, "You can not recall until you have placed the bomb at the tunnel's end!", "_t") -- 
-tDef(259, "scroll", "_t") -- 
-tDef(263, "This parchment contains some lore.", "_t") -- 
-tDef(265, "time-warped paper scrap", "_t") -- 
-tDef(266, "It came a long way away!", "_t") -- 
-tDef(271, "#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "saySimple") -- 
-tDef(319, "You gain %0.2f gold from the melting of %s.", "log") -- 
-tDef(325, "APE", "_t") -- 
-tDef(325, "When you close the inventory window, all items in the APE will be melted.", "_t") -- 
-tDef(337, "melt down", "_t") -- 
+tDef(140, "Kruk Invasion", "_t") -- 
+tDef(140, "You can not recall until you have placed the bomb at the tunnel's end!", "_t") -- 
+tDef(260, "scroll", "_t") -- 
+tDef(264, "This parchment contains some lore.", "_t") -- 
+tDef(266, "time-warped paper scrap", "_t") -- 
+tDef(267, "It came a long way away!", "_t") -- 
+tDef(272, "#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "saySimple") -- 
+tDef(320, "You gain %0.2f gold from the melting of %s.", "log") -- 
+tDef(326, "APE", "_t") -- 
+tDef(326, "When you close the inventory window, all items in the APE will be melted.", "_t") -- 
+tDef(338, "melt down", "_t") -- 
 
 
 ------------------------------------------------
@@ -13014,6 +13035,11 @@ tDef(117, "Run diagonally right and up", "_t") --
 tDef(123, "Run diagonally left and down", "_t") -- 
 tDef(129, "Run diagonally right and down", "_t") -- 
 tDef(135, "Auto-explore", "_t") -- 
+tDef(143, "Move left (WASD directions)", "_t") -- 
+tDef(149, "Move right (WASD directions)", "_t") -- 
+tDef(155, "Move up (WASD directions)", "_t") -- 
+tDef(160, "movement", "_t") -- 
+tDef(161, "Move down (WASD directions)", "_t") -- 
 
 
 ------------------------------------------------
@@ -13084,7 +13110,7 @@ tDef(414, "Missing!", "_t") --
 ------------------------------------------------
 section "game/engines/default/engine/I18N.lua"
 
-tDef(179, "Testing arg one %d and two %d", "tformat") -- 
+tDef(185, "Testing arg one %d and two %d", "tformat") -- 
 
 
 ------------------------------------------------
@@ -13108,7 +13134,7 @@ tDef(28, "Test", "_t") --
 ------------------------------------------------
 section "game/engines/default/engine/Module.lua"
 
-tDef(1131, "#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "log") -- 
+tDef(1132, "#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "log") -- 
 
 
 ------------------------------------------------
@@ -14936,13 +14962,13 @@ tDef(2391, "Looking around... (direction keys to select interesting things, shif
 tDef(2415, "Tooltip %s", "log") -- 
 tDef(2446, "Movement Mode: #LIGHT_GREEN#Default#LAST#.", "log") -- 
 tDef(2449, "Movement Mode: #LIGHT_RED#Passive#LAST#.", "log") -- 
-tDef(2537, "#GOLD#CHEAT MOVE ACTOR %s: ctrl+shift+alt+right click on an empty map spot to move it", "log") -- 
-tDef(2633, "Save and go back to main menu?", "_t") -- 
-tDef(2646, "quitting", "_t") -- 
-tDef(2649, "Save and exit game?", "_t") -- 
-tDef(2685, "saving", "_t") -- 
-tDef(2756, "Saving game...", "log") -- 
-tDef(2797, "#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "log") -- 
+tDef(2568, "#GOLD#CHEAT MOVE ACTOR %s: ctrl+shift+alt+right click on an empty map spot to move it", "log") -- 
+tDef(2664, "Save and go back to main menu?", "_t") -- 
+tDef(2677, "quitting", "_t") -- 
+tDef(2680, "Save and exit game?", "_t") -- 
+tDef(2716, "saving", "_t") -- 
+tDef(2787, "Saving game...", "log") -- 
+tDef(2828, "#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "log") -- 
 
 
 ------------------------------------------------
@@ -20165,327 +20191,327 @@ tDef(72, "...", "_t") --
 section "game/modules/tome/data/damage_types.lua"
 
 tDef(201, "%s(%d warded)#LAST#", "tformat") -- 
-tDef(266, "#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "delayedLogMessage") -- 
-tDef(290, "Something", "_t") -- 
-tDef(298, "%s forces the iceblock to shatter.", "logSeen") -- 
-tDef(398, "%s(%d to psi shield)#LAST#", "tformat") -- 
-tDef(412, "%s(%d blocked)#LAST#", "tformat") -- 
-tDef(427, "%s(%d antimagic)#LAST#", "tformat") -- 
-tDef(433, "%s(%d flat reduction)#LAST#", "tformat") -- 
-tDef(501, "You end your target with a crushing blow!", "logPlayer") -- 
-tDef(511, "#LIGHT_GREY#(%d resilience)#LAST#", "tformat") -- 
-tDef(554, "#CRIMSON##Source# damages %s through Martyrdom!", "delayedLogMessage") -- 
-tDef(560, "#CRIMSON##Source# reflects damage back to #Target#!", "delayedLogMessage") -- 
-tDef(596, "#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "tformat") -- 
-tDef(739, "cosmetic", "_t") -- 
-tDef(742, "cosmeticed", "_t") -- 
-tDef(751, "physical", "_t") -- 
-tDef(764, "battered", "_t") -- 
-tDef(764, "bled", "_t") -- 
-tDef(764, "bludgeoned", "_t") -- 
-tDef(764, "chopped into tiny pieces", "_t") -- 
-tDef(764, "cleaved", "_t") -- 
-tDef(764, "crushed", "_t") -- 
-tDef(764, "decapitated", "_t") -- 
-tDef(764, "disembowelled", "_t") -- 
-tDef(764, "dissected", "_t") -- 
-tDef(764, "eviscerated", "_t") -- 
-tDef(764, "ground", "_t") -- 
-tDef(764, "hacked apart", "_t") -- 
-tDef(764, "impaled", "_t") -- 
-tDef(764, "maimed", "_t") -- 
-tDef(764, "mauled", "_t") -- 
-tDef(764, "minced", "_t") -- 
-tDef(764, "mutilated", "_t") -- 
-tDef(764, "pierced", "_t") -- 
-tDef(764, "punctured", "_t") -- 
-tDef(764, "raked", "_t") -- 
-tDef(764, "shattered", "_t") -- 
-tDef(764, "skewered", "_t") -- 
-tDef(764, "sliced", "_t") -- 
-tDef(764, "smashed", "_t") -- 
-tDef(764, "splattered", "_t") -- 
-tDef(764, "squished", "_t") -- 
-tDef(764, "stabbed", "_t") -- 
-tDef(764, "struck", "_t") -- 
-tDef(764, "swiped", "_t") -- 
-tDef(764, "torn limb from limb", "_t") -- 
-tDef(764, "tortured", "_t") -- 
-tDef(769, "arcane", "_t") -- 
-tDef(771, "blasted", "_t") -- 
-tDef(771, "dweomered", "_t") -- 
-tDef(771, "energised", "_t") -- 
-tDef(771, "imploded", "_t") -- 
-tDef(771, "mana-torn", "_t") -- 
-tDef(800, "blazed", "_t") -- 
-tDef(800, "boiled", "_t") -- 
-tDef(800, "burnt", "_t") -- 
-tDef(800, "combusted", "_t") -- 
-tDef(800, "flamed", "_t") -- 
-tDef(800, "fried", "_t") -- 
-tDef(800, "roasted", "_t") -- 
-tDef(800, "scorched", "_t") -- 
-tDef(800, "slowly cooked", "_t") -- 
-tDef(800, "toasted", "_t") -- 
-tDef(819, "chilled", "_t") -- 
-tDef(819, "cooled", "_t") -- 
-tDef(819, "frozen", "_t") -- 
-tDef(819, "frozen and shattered into a million little shards", "_t") -- 
-tDef(819, "iced", "_t") -- 
-tDef(822, "lightning", "_t") -- 
-tDef(836, "amped", "_t") -- 
-tDef(836, "bolted", "_t") -- 
-tDef(836, "electrocuted", "_t") -- 
-tDef(836, "shocked", "_t") -- 
-tDef(836, "volted", "_t") -- 
-tDef(836, "zapped", "_t") -- 
-tDef(841, "acid", "_t") -- 
-tDef(854, "corroded", "_t") -- 
-tDef(854, "dissolved", "_t") -- 
-tDef(854, "melted", "_t") -- 
-tDef(854, "scalded", "_t") -- 
-tDef(859, "nature", "_t") -- 
-tDef(872, "naturalised", "_t") -- 
-tDef(872, "slimed", "_t") -- 
-tDef(872, "splurged", "_t") -- 
-tDef(872, "treehugged", "_t") -- 
-tDef(876, "blight", "_t") -- 
-tDef(895, "debilitated by noxious blight before falling", "_t") -- 
-tDef(895, "diseased", "_t") -- 
-tDef(895, "fouled", "_t") -- 
-tDef(895, "infected", "_t") -- 
-tDef(895, "plagued", "_t") -- 
-tDef(895, "poxed", "_t") -- 
-tDef(895, "tainted", "_t") -- 
-tDef(900, "light", "_t") -- 
-tDef(902, "jerkied", "_t") -- 
-tDef(902, "purified", "_t") -- 
-tDef(902, "radiated", "_t") -- 
-tDef(902, "seared", "_t") -- 
-tDef(902, "sun baked", "_t") -- 
-tDef(902, "tanned", "_t") -- 
-tDef(909, "darkened", "_t") -- 
-tDef(909, "shadowed", "_t") -- 
-tDef(909, "swallowed by the void", "_t") -- 
-tDef(927, "mind", "_t") -- 
-tDef(950, "mentally tortured", "_t") -- 
-tDef(950, "mindraped", "_t") -- 
-tDef(950, "psyched", "_t") -- 
-tDef(956, "winter", "_t") -- 
-tDef(978, "temporal", "_t") -- 
-tDef(992, "grandfathered", "_t") -- 
-tDef(992, "paradoxed", "_t") -- 
-tDef(992, "replaced by a time clone (and no one ever knew the difference)", "_t") -- 
-tDef(992, "spaghettified across the whole of space and time", "_t") -- 
-tDef(992, "temporally distorted", "_t") -- 
-tDef(992, "time dilated", "_t") -- 
-tDef(992, "timewarped", "_t") -- 
-tDef(997, "temporal stun", "_t") -- 
-tDef(1015, "lite", "_t") -- 
-tDef(1031, "illumination", "_t") -- 
-tDef(1062, "arcane silence", "_t") -- 
-tDef(1084, "silence", "_t") -- 
-tDef(1131, "blinding ink", "_t") -- 
-tDef(1140, "%s avoids the blinding ink!", "logSeen") -- 
-tDef(1146, "blindness", "_t") -- 
-tDef(1163, "bright light", "_t") -- 
-tDef(1195, "stunning fire", "_t") -- 
-tDef(1218, "fire burn", "_t") -- 
-tDef(1233, "devouring flames", "_t") -- 
-tDef(1242, "#Source# drains life from #Target#!", "logCombat") -- 
-tDef(1250, "shadowflame", "_t") -- 
-tDef(1261, "stunning darkness", "_t") -- 
-tDef(1280, "darkness", "_t") -- 
-tDef(1293, "fire", "_t") -- 
-tDef(1306, "cold", "_t") -- 
-tDef(1324, "flameshock", "_t") -- 
-tDef(1335, "%s resists the searing flame!", "logSeen") -- 
-tDef(1343, "ice", "_t") -- 
-tDef(1367, "slowing ice", "_t") -- 
-tDef(1387, "ice storm", "_t") -- 
-tDef(1406, "glacial vapour", "_t") -- 
-tDef(1423, "pinning cold", "_t") -- 
-tDef(1445, "freeze", "_t") -- 
-tDef(1455, "Frozen!", "_t") -- 
-tDef(1457, "Resist!", "_t") -- 
-tDef(1466, "sticky smoke", "_t") -- 
-tDef(1483, "acid blind", "_t") -- 
-tDef(1502, "blinding darkness", "_t") -- 
-tDef(1521, "blinding light", "_t") -- 
-tDef(1540, "dazing lightning", "_t") -- 
-tDef(1568, "cold repulsion", "_t") -- 
-tDef(1592, "%s resists the wave!", "logSeen") -- 
-tDef(1600, "bloodspring", "_t") -- 
-tDef(1615, "%s resists the bloody wave!", "logSeen") -- 
-tDef(1623, "fire repulsion", "_t") -- 
-tDef(1646, "burning repulsion", "_t") -- 
-tDef(1669, "darkness repulsion", "_t") -- 
-tDef(1684, "%s resists the darkness!", "logSeen") -- 
-tDef(1731, "%s resists the punch!", "logSeen") -- 
-tDef(1763, "fear repulsion", "_t") -- 
-tDef(1776, "%s resists the frightening sight!", "logSeen") -- 
-tDef(1784, "poison", "_t") -- 
-tDef(1804, "cleansing fire", "_t") -- 
-tDef(1830, "spydric poison", "_t") -- 
-tDef(1845, "crippling poison", "_t") -- 
-tDef(1860, "insidious poison", "_t") -- 
-tDef(1875, "bleed", "_t") -- 
-tDef(1905, "nature slow", "_t") -- 
-tDef(1920, "dig", "_t") -- 
-tDef(1946, "slow", "_t") -- 
-tDef(1961, "congeal time", "_t") -- 
-tDef(1975, "time prison", "_t") -- 
-tDef(1989, "%s resists the time prison.", "logSeen") -- 
-tDef(2032, "% chance of confusion", "_t") -- 
-tDef(2049, "% chance of gloom effects", "_t") -- 
-tDef(2086, "item darkness numbing", "_t") -- 
-tDef(2100, "* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "tformat") -- 
-tDef(2118, "item expose", "_t") -- 
-tDef(2132, "* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "tformat") -- 
-tDef(2150, "item temporal energize", "_t") -- 
-tDef(2163, "* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "tformat") -- 
-tDef(2172, "#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "logSeen") -- 
-tDef(2183, "item acid corrode", "_t") -- 
-tDef(2196, "* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "tformat") -- 
-tDef(2214, "item blight disease", "_t") -- 
-tDef(2227, "* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "tformat") -- 
-tDef(2247, "item manaburn arcane", "_t") -- 
-tDef(2259, "* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "tformat") -- 
-tDef(2274, "item nature slow", "_t") -- 
-tDef(2287, "* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "tformat") -- 
-tDef(2307, "item antimagic scouring", "_t") -- 
-tDef(2319, "* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "tformat") -- 
-tDef(2335, "item lightning daze", "_t") -- 
-tDef(2348, "* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "tformat") -- 
-tDef(2367, "item light blind", "_t") -- 
-tDef(2380, "* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "tformat") -- 
-tDef(2393, "%s resists the blinding light!", "logSeen") -- 
-tDef(2401, "item mind gloom", "_t") -- 
-tDef(2414, "* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "tformat") -- 
-tDef(2431, "confusion", "_t") -- 
-tDef(2436, "stun", "_t") -- 
-tDef(2441, "slow'", "_t") -- 
-tDef(2451, "blinding", "_t") -- 
-tDef(2461, "%s resists the blind!", "logSeen") -- 
-tDef(2469, "blinding physical", "_t") -- 
-tDef(2479, "%s resists the sandstorm!", "logSeen") -- 
-tDef(2487, "physical pinning", "_t") -- 
-tDef(2505, "regressive blight", "_t") -- 
-tDef(2515, "#Source# drains experience from #Target#!", "logCombat") -- 
-tDef(2526, "draining blight", "_t") -- 
-tDef(2543, "sanguine blight", "_t") -- 
-tDef(2559, "vim draining blight", "_t") -- 
-tDef(2575, "demonfire", "_t") -- 
-tDef(2592, "purging blight", "_t") -- 
-tDef(2646, "holy light", "_t") -- 
-tDef(2661, "healing", "_t") -- 
-tDef(2677, "healing light", "_t") -- 
-tDef(2703, "#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "logPlayer") -- 
-tDef(2715, "judgement", "_t") -- 
-tDef(2751, "infective blight", "_t") -- 
-tDef(2767, "hindering blight", "_t") -- 
-tDef(2781, "life leech", "_t") -- 
-tDef(2790, "physical stun", "_t") -- 
-tDef(2808, "physical bleed", "_t") -- 
-tDef(2824, "warp", "_t") -- 
-tDef(2835, "temporal darkness", "_t") -- 
-tDef(2846, "gravity", "_t") -- 
-tDef(2864, "gravity pin", "_t") -- 
-tDef(2889, "physical repulsion", "_t") -- 
-tDef(2915, "grow", "_t") -- 
-tDef(2928, "%s turns into %s.", "logSeen") -- 
-tDef(2938, "pinning nature", "_t") -- 
-tDef(2949, "%s resists the pinning!", "logSeen") -- 
-tDef(2956, "healing nature", "_t") -- 
-tDef(2969, "impeding nature", "_t") -- 
-tDef(2982, "confounding nature", "_t") -- 
-tDef(3000, "sanctity", "_t") -- 
-tDef(3013, "%s resists the silence!", "logSeen") -- 
-tDef(3020, "defensive darkness", "_t") -- 
-tDef(3036, "blazing light", "_t") -- 
-tDef(3053, "prismatic repulsion", "_t") -- 
-tDef(3076, "mind slow", "_t") -- 
-tDef(3089, "mind freeze", "_t") -- 
-tDef(3099, "%s resists the freezing!", "logSeen") -- 
-tDef(3106, "implosion", "_t") -- 
-tDef(3124, "regressive temporal", "_t") -- 
-tDef(3140, "wasting temporal", "_t") -- 
-tDef(3160, "stop", "_t") -- 
-tDef(3169, "%s has not been stopped!", "logSeen") -- 
-tDef(3176, "debilitating temporal", "_t") -- 
-tDef(3215, "draining physical", "_t") -- 
-tDef(3230, "#Source# consumes %d life from #Target#!", "logCombat") -- 
-tDef(3237, "temporal slow", "_t") -- 
-tDef(3258, "molten rock", "_t") -- 
-tDef(3268, "entangle", "_t") -- 
-tDef(3279, "%s resists entanglement!", "logSeen") -- 
-tDef(3286, "manaworm arcane", "_t") -- 
-tDef(3299, "%s has no mana to burn.", "logSeen") -- 
-tDef(3307, "arcane blast", "_t") -- 
-tDef(3321, "circle of death", "_t") -- 
-tDef(3336, "%s resists the baneful energy!", "logSeen") -- 
-tDef(3344, "decaying darkness", "_t") -- 
-tDef(3358, "abyssal darkness", "_t") -- 
-tDef(3383, "% chance to summon an orc spirit", "_t") -- 
-tDef(3392, "%s<%d%%%% orc summon chance>#LAST#", "tformat") -- 
-tDef(3396, "%s<orc summon>#LAST#", "tformat") -- 
-tDef(3419, "orc spirit", "_t") -- 
-tDef(3420, "An orc clad in massive armour, wielding a huge axe.", "_t") -- 
-tDef(3448, "Garkul Spirit", "_t") -- 
-tDef(3455, "nightmare", "_t") -- 
-tDef(3480, "cursed miasma", "_t") -- 
-tDef(3499, "weakness", "_t") -- 
-tDef(3513, "special effect", "_t") -- 
-tDef(3530, "manaburn arcane", "_t") -- 
-tDef(3548, "leaves", "_t") -- 
-tDef(3569, "distorting physical", "_t") -- 
-tDef(3612, "%s resists the knockback!", "logSeen") -- 
-tDef(3633, "dreamforge", "_t") -- 
-tDef(3658, "%s is knocked back!", "logSeen") -- 
-tDef(3660, "%s resists the forge bellow!", "logSeen") -- 
-tDef(3673, "%s resists the dream forge!", "logSeen") -- 
-tDef(3680, "natural mucus", "_t") -- 
-tDef(3708, "disarming acid", "_t") -- 
-tDef(3719, "%s resists disarming!", "logSeen") -- 
-tDef(3728, "corrosive acid", "_t") -- 
-tDef(3743, "bouncing slime", "_t") -- 
-tDef(3776, "caustic mire", "_t") -- 
-tDef(3791, "sun path", "_t") -- 
-tDef(3803, "telekinetic shove", "_t") -- 
-tDef(3816, "%s resists pinning!", "logSeen") -- 
-tDef(3823, "%s resists the shove!", "logSeen") -- 
-tDef(3832, "dimensional anchor", "_t") -- 
-tDef(3846, "phase pulse", "_t") -- 
-tDef(3862, "%s resists the stun!", "logSeen") -- 
-tDef(3868, "%s resists the blindness!", "logSeen") -- 
-tDef(3874, "%s resists the pin!", "logSeen") -- 
-tDef(3880, "%s resists the confusion!", "logSeen") -- 
-tDef(3887, "brain storm", "_t") -- 
-tDef(3897, "%s resists the mind attack!", "logSeen") -- 
-tDef(3911, "static net", "_t") -- 
-tDef(3926, "wormblight", "_t") -- 
-tDef(3942, "pestilent blight", "_t") -- 
-tDef(3955, "* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "tformat") -- 
-tDef(3990, "blight poison", "_t") -- 
-tDef(4022, "terror", "_t") -- 
-tDef(4029, "%s<terror chance>#LAST#", "tformat") -- 
-tDef(4057, "random poison", "_t") -- 
-tDef(4083, "blinding powder", "_t") -- 
-tDef(4090, "%s<blinding powder>#LAST#", "tformat") -- 
-tDef(4104, "smokescreen", "_t") -- 
-tDef(4111, "%s<smoke>#LAST#", "tformat") -- 
-tDef(4129, "flare", "_t") -- 
-tDef(4144, "%s resists the blinding flare!", "logSeen") -- 
-tDef(4152, "flare light", "_t") -- 
-tDef(4170, "sticky pitch", "_t") -- 
-tDef(4179, "%s resists!", "logSeen") -- 
-tDef(4187, "fire sunder", "_t") -- 
-tDef(4202, "shadow smoke", "_t") -- 
-tDef(4214, "frozen earth", "_t") -- 
-tDef(4229, "void echoes", "_t") -- 
-tDef(4239, "%s resists the void!", "logSeen") -- 
-tDef(4247, "#YELLOW#Lite Light#LAST# Burst (radius 1)", "_t") -- 
-tDef(4263, "dark light", "_t") -- 
+tDef(267, "#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "delayedLogMessage") -- 
+tDef(291, "Something", "_t") -- 
+tDef(299, "%s forces the iceblock to shatter.", "logSeen") -- 
+tDef(399, "%s(%d to psi shield)#LAST#", "tformat") -- 
+tDef(413, "%s(%d blocked)#LAST#", "tformat") -- 
+tDef(428, "%s(%d antimagic)#LAST#", "tformat") -- 
+tDef(434, "%s(%d flat reduction)#LAST#", "tformat") -- 
+tDef(502, "You end your target with a crushing blow!", "logPlayer") -- 
+tDef(512, "#LIGHT_GREY#(%d resilience)#LAST#", "tformat") -- 
+tDef(555, "#CRIMSON##Source# damages %s through Martyrdom!", "delayedLogMessage") -- 
+tDef(561, "#CRIMSON##Source# reflects damage back to #Target#!", "delayedLogMessage") -- 
+tDef(597, "#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "tformat") -- 
+tDef(740, "cosmetic", "_t") -- 
+tDef(743, "cosmeticed", "_t") -- 
+tDef(752, "physical", "_t") -- 
+tDef(765, "battered", "_t") -- 
+tDef(765, "bled", "_t") -- 
+tDef(765, "bludgeoned", "_t") -- 
+tDef(765, "chopped into tiny pieces", "_t") -- 
+tDef(765, "cleaved", "_t") -- 
+tDef(765, "crushed", "_t") -- 
+tDef(765, "decapitated", "_t") -- 
+tDef(765, "disembowelled", "_t") -- 
+tDef(765, "dissected", "_t") -- 
+tDef(765, "eviscerated", "_t") -- 
+tDef(765, "ground", "_t") -- 
+tDef(765, "hacked apart", "_t") -- 
+tDef(765, "impaled", "_t") -- 
+tDef(765, "maimed", "_t") -- 
+tDef(765, "mauled", "_t") -- 
+tDef(765, "minced", "_t") -- 
+tDef(765, "mutilated", "_t") -- 
+tDef(765, "pierced", "_t") -- 
+tDef(765, "punctured", "_t") -- 
+tDef(765, "raked", "_t") -- 
+tDef(765, "shattered", "_t") -- 
+tDef(765, "skewered", "_t") -- 
+tDef(765, "sliced", "_t") -- 
+tDef(765, "smashed", "_t") -- 
+tDef(765, "splattered", "_t") -- 
+tDef(765, "squished", "_t") -- 
+tDef(765, "stabbed", "_t") -- 
+tDef(765, "struck", "_t") -- 
+tDef(765, "swiped", "_t") -- 
+tDef(765, "torn limb from limb", "_t") -- 
+tDef(765, "tortured", "_t") -- 
+tDef(770, "arcane", "_t") -- 
+tDef(772, "blasted", "_t") -- 
+tDef(772, "dweomered", "_t") -- 
+tDef(772, "energised", "_t") -- 
+tDef(772, "imploded", "_t") -- 
+tDef(772, "mana-torn", "_t") -- 
+tDef(801, "blazed", "_t") -- 
+tDef(801, "boiled", "_t") -- 
+tDef(801, "burnt", "_t") -- 
+tDef(801, "combusted", "_t") -- 
+tDef(801, "flamed", "_t") -- 
+tDef(801, "fried", "_t") -- 
+tDef(801, "roasted", "_t") -- 
+tDef(801, "scorched", "_t") -- 
+tDef(801, "slowly cooked", "_t") -- 
+tDef(801, "toasted", "_t") -- 
+tDef(820, "chilled", "_t") -- 
+tDef(820, "cooled", "_t") -- 
+tDef(820, "frozen", "_t") -- 
+tDef(820, "frozen and shattered into a million little shards", "_t") -- 
+tDef(820, "iced", "_t") -- 
+tDef(823, "lightning", "_t") -- 
+tDef(837, "amped", "_t") -- 
+tDef(837, "bolted", "_t") -- 
+tDef(837, "electrocuted", "_t") -- 
+tDef(837, "shocked", "_t") -- 
+tDef(837, "volted", "_t") -- 
+tDef(837, "zapped", "_t") -- 
+tDef(842, "acid", "_t") -- 
+tDef(855, "corroded", "_t") -- 
+tDef(855, "dissolved", "_t") -- 
+tDef(855, "melted", "_t") -- 
+tDef(855, "scalded", "_t") -- 
+tDef(860, "nature", "_t") -- 
+tDef(873, "naturalised", "_t") -- 
+tDef(873, "slimed", "_t") -- 
+tDef(873, "splurged", "_t") -- 
+tDef(873, "treehugged", "_t") -- 
+tDef(877, "blight", "_t") -- 
+tDef(896, "debilitated by noxious blight before falling", "_t") -- 
+tDef(896, "diseased", "_t") -- 
+tDef(896, "fouled", "_t") -- 
+tDef(896, "infected", "_t") -- 
+tDef(896, "plagued", "_t") -- 
+tDef(896, "poxed", "_t") -- 
+tDef(896, "tainted", "_t") -- 
+tDef(901, "light", "_t") -- 
+tDef(903, "jerkied", "_t") -- 
+tDef(903, "purified", "_t") -- 
+tDef(903, "radiated", "_t") -- 
+tDef(903, "seared", "_t") -- 
+tDef(903, "sun baked", "_t") -- 
+tDef(903, "tanned", "_t") -- 
+tDef(910, "darkened", "_t") -- 
+tDef(910, "shadowed", "_t") -- 
+tDef(910, "swallowed by the void", "_t") -- 
+tDef(928, "mind", "_t") -- 
+tDef(951, "mentally tortured", "_t") -- 
+tDef(951, "mindraped", "_t") -- 
+tDef(951, "psyched", "_t") -- 
+tDef(957, "winter", "_t") -- 
+tDef(979, "temporal", "_t") -- 
+tDef(993, "grandfathered", "_t") -- 
+tDef(993, "paradoxed", "_t") -- 
+tDef(993, "replaced by a time clone (and no one ever knew the difference)", "_t") -- 
+tDef(993, "spaghettified across the whole of space and time", "_t") -- 
+tDef(993, "temporally distorted", "_t") -- 
+tDef(993, "time dilated", "_t") -- 
+tDef(993, "timewarped", "_t") -- 
+tDef(998, "temporal stun", "_t") -- 
+tDef(1016, "lite", "_t") -- 
+tDef(1032, "illumination", "_t") -- 
+tDef(1063, "arcane silence", "_t") -- 
+tDef(1085, "silence", "_t") -- 
+tDef(1132, "blinding ink", "_t") -- 
+tDef(1141, "%s avoids the blinding ink!", "logSeen") -- 
+tDef(1147, "blindness", "_t") -- 
+tDef(1164, "bright light", "_t") -- 
+tDef(1196, "stunning fire", "_t") -- 
+tDef(1219, "fire burn", "_t") -- 
+tDef(1234, "devouring flames", "_t") -- 
+tDef(1243, "#Source# drains life from #Target#!", "logCombat") -- 
+tDef(1251, "shadowflame", "_t") -- 
+tDef(1262, "stunning darkness", "_t") -- 
+tDef(1281, "darkness", "_t") -- 
+tDef(1294, "fire", "_t") -- 
+tDef(1307, "cold", "_t") -- 
+tDef(1325, "flameshock", "_t") -- 
+tDef(1336, "%s resists the searing flame!", "logSeen") -- 
+tDef(1344, "ice", "_t") -- 
+tDef(1368, "slowing ice", "_t") -- 
+tDef(1388, "ice storm", "_t") -- 
+tDef(1407, "glacial vapour", "_t") -- 
+tDef(1424, "pinning cold", "_t") -- 
+tDef(1446, "freeze", "_t") -- 
+tDef(1456, "Frozen!", "_t") -- 
+tDef(1458, "Resist!", "_t") -- 
+tDef(1467, "sticky smoke", "_t") -- 
+tDef(1484, "acid blind", "_t") -- 
+tDef(1503, "blinding darkness", "_t") -- 
+tDef(1522, "blinding light", "_t") -- 
+tDef(1541, "dazing lightning", "_t") -- 
+tDef(1569, "cold repulsion", "_t") -- 
+tDef(1593, "%s resists the wave!", "logSeen") -- 
+tDef(1601, "bloodspring", "_t") -- 
+tDef(1616, "%s resists the bloody wave!", "logSeen") -- 
+tDef(1624, "fire repulsion", "_t") -- 
+tDef(1647, "burning repulsion", "_t") -- 
+tDef(1670, "darkness repulsion", "_t") -- 
+tDef(1685, "%s resists the darkness!", "logSeen") -- 
+tDef(1732, "%s resists the punch!", "logSeen") -- 
+tDef(1764, "fear repulsion", "_t") -- 
+tDef(1777, "%s resists the frightening sight!", "logSeen") -- 
+tDef(1785, "poison", "_t") -- 
+tDef(1805, "cleansing fire", "_t") -- 
+tDef(1831, "spydric poison", "_t") -- 
+tDef(1846, "crippling poison", "_t") -- 
+tDef(1861, "insidious poison", "_t") -- 
+tDef(1876, "bleed", "_t") -- 
+tDef(1906, "nature slow", "_t") -- 
+tDef(1921, "dig", "_t") -- 
+tDef(1947, "slow", "_t") -- 
+tDef(1962, "congeal time", "_t") -- 
+tDef(1976, "time prison", "_t") -- 
+tDef(1990, "%s resists the time prison.", "logSeen") -- 
+tDef(2033, "% chance of confusion", "_t") -- 
+tDef(2050, "% chance of gloom effects", "_t") -- 
+tDef(2087, "item darkness numbing", "_t") -- 
+tDef(2101, "* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "tformat") -- 
+tDef(2119, "item expose", "_t") -- 
+tDef(2133, "* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "tformat") -- 
+tDef(2151, "item temporal energize", "_t") -- 
+tDef(2164, "* #LIGHT_GREEN#%d%%#LAST# chance to gain 10%% of a turn (3/turn limit)%s", "tformat") -- 
+tDef(2173, "#LIGHT_STEEL_BLUE#%s can't gain any more energy this turn! ", "logSeen") -- 
+tDef(2184, "item acid corrode", "_t") -- 
+tDef(2197, "* #LIGHT_GREEN#%d%%#LAST# chance to reduce armor by #VIOLET#%d%%#LAST#%s", "tformat") -- 
+tDef(2215, "item blight disease", "_t") -- 
+tDef(2228, "* #LIGHT_GREEN#%d%%#LAST# chance to reduce strength, dexterity, and constitution by #VIOLET#%d#LAST#%s", "tformat") -- 
+tDef(2248, "item manaburn arcane", "_t") -- 
+tDef(2260, "* #DARK_ORCHID#%d arcane resource#LAST# burn%s", "tformat") -- 
+tDef(2275, "item nature slow", "_t") -- 
+tDef(2288, "* #LIGHT_GREEN#%d%%#LAST# chance to slow global speed by #YELLOW#%d%%#LAST#%s", "tformat") -- 
+tDef(2308, "item antimagic scouring", "_t") -- 
+tDef(2320, "* #LIGHT_GREEN#%d%%#LAST# chance to #ORCHID#reduce effective powers#LAST# by %d%%%s", "tformat") -- 
+tDef(2336, "item lightning daze", "_t") -- 
+tDef(2349, "* #LIGHT_GREEN#%d%%#LAST# chance to #ROYAL_BLUE#daze#LAST# at end of turn%s", "tformat") -- 
+tDef(2368, "item light blind", "_t") -- 
+tDef(2381, "* #LIGHT_GREEN#%d%%#LAST# chance to #YELLOW#blind#LAST#%s", "tformat") -- 
+tDef(2394, "%s resists the blinding light!", "logSeen") -- 
+tDef(2402, "item mind gloom", "_t") -- 
+tDef(2415, "* #LIGHT_GREEN#%d%%#LAST# chance to cause #YELLOW#random gloom#LAST#%s", "tformat") -- 
+tDef(2432, "confusion", "_t") -- 
+tDef(2437, "stun", "_t") -- 
+tDef(2442, "slow'", "_t") -- 
+tDef(2452, "blinding", "_t") -- 
+tDef(2462, "%s resists the blind!", "logSeen") -- 
+tDef(2470, "blinding physical", "_t") -- 
+tDef(2480, "%s resists the sandstorm!", "logSeen") -- 
+tDef(2488, "physical pinning", "_t") -- 
+tDef(2506, "regressive blight", "_t") -- 
+tDef(2516, "#Source# drains experience from #Target#!", "logCombat") -- 
+tDef(2527, "draining blight", "_t") -- 
+tDef(2544, "sanguine blight", "_t") -- 
+tDef(2560, "vim draining blight", "_t") -- 
+tDef(2576, "demonfire", "_t") -- 
+tDef(2593, "purging blight", "_t") -- 
+tDef(2647, "holy light", "_t") -- 
+tDef(2662, "healing", "_t") -- 
+tDef(2678, "healing light", "_t") -- 
+tDef(2704, "#DARK_ORCHID#Your damage shield cannot be extended any farther and has exploded.", "logPlayer") -- 
+tDef(2716, "judgement", "_t") -- 
+tDef(2752, "infective blight", "_t") -- 
+tDef(2768, "hindering blight", "_t") -- 
+tDef(2782, "life leech", "_t") -- 
+tDef(2791, "physical stun", "_t") -- 
+tDef(2809, "physical bleed", "_t") -- 
+tDef(2825, "warp", "_t") -- 
+tDef(2836, "temporal darkness", "_t") -- 
+tDef(2847, "gravity", "_t") -- 
+tDef(2865, "gravity pin", "_t") -- 
+tDef(2890, "physical repulsion", "_t") -- 
+tDef(2916, "grow", "_t") -- 
+tDef(2929, "%s turns into %s.", "logSeen") -- 
+tDef(2939, "pinning nature", "_t") -- 
+tDef(2950, "%s resists the pinning!", "logSeen") -- 
+tDef(2957, "healing nature", "_t") -- 
+tDef(2970, "impeding nature", "_t") -- 
+tDef(2983, "confounding nature", "_t") -- 
+tDef(3001, "sanctity", "_t") -- 
+tDef(3014, "%s resists the silence!", "logSeen") -- 
+tDef(3021, "defensive darkness", "_t") -- 
+tDef(3037, "blazing light", "_t") -- 
+tDef(3054, "prismatic repulsion", "_t") -- 
+tDef(3077, "mind slow", "_t") -- 
+tDef(3090, "mind freeze", "_t") -- 
+tDef(3100, "%s resists the freezing!", "logSeen") -- 
+tDef(3107, "implosion", "_t") -- 
+tDef(3125, "regressive temporal", "_t") -- 
+tDef(3141, "wasting temporal", "_t") -- 
+tDef(3161, "stop", "_t") -- 
+tDef(3170, "%s has not been stopped!", "logSeen") -- 
+tDef(3177, "debilitating temporal", "_t") -- 
+tDef(3216, "draining physical", "_t") -- 
+tDef(3231, "#Source# consumes %d life from #Target#!", "logCombat") -- 
+tDef(3238, "temporal slow", "_t") -- 
+tDef(3259, "molten rock", "_t") -- 
+tDef(3269, "entangle", "_t") -- 
+tDef(3280, "%s resists entanglement!", "logSeen") -- 
+tDef(3287, "manaworm arcane", "_t") -- 
+tDef(3300, "%s has no mana to burn.", "logSeen") -- 
+tDef(3308, "arcane blast", "_t") -- 
+tDef(3322, "circle of death", "_t") -- 
+tDef(3337, "%s resists the baneful energy!", "logSeen") -- 
+tDef(3345, "decaying darkness", "_t") -- 
+tDef(3359, "abyssal darkness", "_t") -- 
+tDef(3384, "% chance to summon an orc spirit", "_t") -- 
+tDef(3393, "%s<%d%%%% orc summon chance>#LAST#", "tformat") -- 
+tDef(3397, "%s<orc summon>#LAST#", "tformat") -- 
+tDef(3420, "orc spirit", "_t") -- 
+tDef(3421, "An orc clad in massive armour, wielding a huge axe.", "_t") -- 
+tDef(3449, "Garkul Spirit", "_t") -- 
+tDef(3456, "nightmare", "_t") -- 
+tDef(3481, "cursed miasma", "_t") -- 
+tDef(3500, "weakness", "_t") -- 
+tDef(3514, "special effect", "_t") -- 
+tDef(3531, "manaburn arcane", "_t") -- 
+tDef(3549, "leaves", "_t") -- 
+tDef(3570, "distorting physical", "_t") -- 
+tDef(3613, "%s resists the knockback!", "logSeen") -- 
+tDef(3634, "dreamforge", "_t") -- 
+tDef(3659, "%s is knocked back!", "logSeen") -- 
+tDef(3661, "%s resists the forge bellow!", "logSeen") -- 
+tDef(3674, "%s resists the dream forge!", "logSeen") -- 
+tDef(3681, "natural mucus", "_t") -- 
+tDef(3709, "disarming acid", "_t") -- 
+tDef(3720, "%s resists disarming!", "logSeen") -- 
+tDef(3729, "corrosive acid", "_t") -- 
+tDef(3744, "bouncing slime", "_t") -- 
+tDef(3777, "caustic mire", "_t") -- 
+tDef(3792, "sun path", "_t") -- 
+tDef(3804, "telekinetic shove", "_t") -- 
+tDef(3817, "%s resists pinning!", "logSeen") -- 
+tDef(3824, "%s resists the shove!", "logSeen") -- 
+tDef(3833, "dimensional anchor", "_t") -- 
+tDef(3847, "phase pulse", "_t") -- 
+tDef(3863, "%s resists the stun!", "logSeen") -- 
+tDef(3869, "%s resists the blindness!", "logSeen") -- 
+tDef(3875, "%s resists the pin!", "logSeen") -- 
+tDef(3881, "%s resists the confusion!", "logSeen") -- 
+tDef(3888, "brain storm", "_t") -- 
+tDef(3898, "%s resists the mind attack!", "logSeen") -- 
+tDef(3912, "static net", "_t") -- 
+tDef(3927, "wormblight", "_t") -- 
+tDef(3943, "pestilent blight", "_t") -- 
+tDef(3956, "* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "tformat") -- 
+tDef(3991, "blight poison", "_t") -- 
+tDef(4023, "terror", "_t") -- 
+tDef(4030, "%s<terror chance>#LAST#", "tformat") -- 
+tDef(4058, "random poison", "_t") -- 
+tDef(4084, "blinding powder", "_t") -- 
+tDef(4091, "%s<blinding powder>#LAST#", "tformat") -- 
+tDef(4105, "smokescreen", "_t") -- 
+tDef(4112, "%s<smoke>#LAST#", "tformat") -- 
+tDef(4130, "flare", "_t") -- 
+tDef(4145, "%s resists the blinding flare!", "logSeen") -- 
+tDef(4153, "flare light", "_t") -- 
+tDef(4171, "sticky pitch", "_t") -- 
+tDef(4180, "%s resists!", "logSeen") -- 
+tDef(4188, "fire sunder", "_t") -- 
+tDef(4203, "shadow smoke", "_t") -- 
+tDef(4215, "frozen earth", "_t") -- 
+tDef(4230, "void echoes", "_t") -- 
+tDef(4240, "%s resists the void!", "logSeen") -- 
+tDef(4248, "#YELLOW#Lite Light#LAST# Burst (radius 1)", "_t") -- 
+tDef(4264, "dark light", "_t") -- 
 
 
 ------------------------------------------------
@@ -35810,6 +35836,9 @@ tDef(3704, "You are linked to your shadows for %d turns, diverting %d%% of all d
 tDef(3711, "Circle of Blazing Light", "talent name") -- 
 tDef(3748, "Creates a circle of radius %d at your feet; the circle lights up affected tiles, increases your positive energy by %d each turn and deals %0.2f light damage and %0.2f fire damage per turn to everyone else within its radius.  The circle lasts %d turns.\
 		The damage will increase with your Spellpower.", "tformat") -- 
+tDef(3755, "Blur Sight", "talent name") -- 
+tDef(3777, "The caster's image blurs, granting a %d bonus to Defense.\
+		The bonus will increase with your Spellpower.", "tformat") -- 
 
 
 ------------------------------------------------
@@ -37669,22 +37698,28 @@ tDef(189, "Invoke a ball of darkness that deals %0.2f darkness damage in a radiu
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/phantasm.lua"
 
-tDef(20, "Illuminate", "talent name") -- 
-tDef(64, "Creates a globe of pure light within a radius of %d that illuminates the area.\
-		At level 3, it also blinds all who see it (except the caster) for %d turns.\
-		At level 4, it also deals %0.2f light damage.", "tformat") -- 
-tDef(72, "Blur Sight", "talent name") -- 
-tDef(95, "The caster's image blurs, granting a %d bonus to Defense.\
-		The bonus will increase with your Spellpower.", "tformat") -- 
-tDef(102, "Phantasmal Shield", "talent name") -- 
-tDef(129, "The caster is surrounded by a phantasmal shield granting 10%% chance to evade weapon attacks. If hit in melee, the shield will deal %d light damage to the attacker.\
-		The damage will increase with your Spellpower.", "tformat") -- 
-tDef(136, "Invisibility", "talent name") -- 
-tDef(175, "The caster fades from sight, granting %d bonus to invisibility.\
-		Beware -- you should take off your light, or you will still be easily spotted.\
-		As you become invisible, you fade out of phase with reality. All your damage is reduced by 70%%.\
-		This powerful spell constantly drains your mana (2 per turn) while active.\
+tDef(23, "Illuminate", "talent name") -- 
+tDef(60, "Creates a globe of pure light within a radius of %d that illuminates the area and deals %0.2f damage to all creatures.\
+		At level 3, it also blinds all who see it (except the caster) for %d turns.", "tformat") -- 
+tDef(67, "Phantasmal Shield", "talent name") -- 
+tDef(115, "Surround yourself with a phantasmal shield of pure light.\
+		Whenever you would take damage there is %d%% chance to become ethereal for an instant and fully ignore it.\
+		If you do get it, the shield glow brightly, sending triggering a flash of light on the attacker, dealing %0.2f light damage in radius %d around it and dazzling any affected creature (deal 10%% less damage) for 5 turns. This can only happen every %d turns.\
+		The damage and ignore chance will increase with your Spellpower.", "tformat") -- 
+tDef(124, "Invisibility", "talent name") -- 
+tDef(139, "Weave a net of arcane disturbances around your body, removing yourself from the sight of all, granting %d bonus to invisibility for 7 turns.\
+		While invisible all damage you deal against blinded or dazzled foes is increased by %d%% (additive with other damage increases).\
 		The invisibility bonus will increase with your Spellpower.", "tformat") -- 
+tDef(147, "Elemental Mirage", "talent name") -- 
+tDef(240, "Your mastery of both illusion and elements knows no bound.\
+		Upon first sustaining this spell you may select two elements. You may later change them with the Alter Mirage spell, provided automatically upon learning this one.\
+\
+		Any time you deal damage with one of those elements, the other gets a bonus of %d%% damage for 3 turns.\
+		At level 5 if the target element has less resistance penetration, it gets increased to match the one of the source element.\
+\
+		Current elements selected: %s#LAST# and %s", "tformat") -- 
+tDef(252, "Alter Mirage", "talent name") -- 
+tDef(265, "Change your choice of elements for Elemental Mirage.", "_t") -- 
 
 
 ------------------------------------------------
@@ -41423,7 +41458,6 @@ tDef(119, "-Mana Overflow", "_t") --
 tDef(130, "Stoned", "_t") -- 
 tDef(131, "The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "_t") -- 
 tDef(133, "stone", "effect subtype") -- 
-tDef(133, "stun", "effect subtype") -- 
 tDef(136, "#Target# turns to #GREY#STONE#LAST#!", "_t") -- 
 tDef(136, "+Stoned", "_t") -- 
 tDef(137, "#Target# is no longer a #GREY#statue#LAST#.", "_t") -- 
@@ -41448,778 +41482,786 @@ tDef(227, "#Target#'s skin returns to normal.", "_t") --
 tDef(227, "-Reflective Skin", "_t") -- 
 tDef(240, "Vimsense", "_t") -- 
 tDef(241, "Reduces blight resistance by %d%% and all saves by %d.", "tformat") -- 
-tDef(258, "Invisibility", "_t") -- 
-tDef(259, " and preventing healing and life regeneration", "_t") -- 
-tDef(259, "Improves/gives invisibility (power %d), reducing damage dealt by %d%%%s.", "tformat") -- 
-tDef(264, "#Target# vanishes from sight.", "_t") -- 
-tDef(264, "+Invis", "_t") -- 
-tDef(265, "#Target# is no longer invisible.", "_t") -- 
-tDef(265, "-Invis", "_t") -- 
-tDef(298, "Ethereal", "_t") -- 
-tDef(299, "Invisible (power %d), damage dealt reduced by %d%%, all resistances increased by %d%%, movement speed increased by %d%%.", "tformat") -- 
-tDef(302, "phantasm", "effect subtype") -- 
-tDef(305, "#Target# becomes ethereal.", "_t") -- 
-tDef(305, "+Ethereal", "_t") -- 
-tDef(306, "#Target# is no longer ethereal.", "_t") -- 
-tDef(306, "-Ethereal", "_t") -- 
-tDef(336, "Stormshield", "_t") -- 
-tDef(337, "The target is protected a raging storm deflecting up to %d instances of damage over %d.", "tformat") -- 
-tDef(344, "#Target# summons a storm to protect them!", "_t") -- 
-tDef(344, "+Stormshield", "_t") -- 
-tDef(345, "#Target#'s storm dissipates.", "_t") -- 
-tDef(345, "-Stormshield", "_t") -- 
-tDef(358, "%s(%d stormshielded#LAST#%s)#LAST#", "tformat") -- 
-tDef(361, "#BLUE##Target#'s stormshield is out of charges and disspitates!#LAST#.", "logCombat") -- 
-tDef(370, "Prismatic Shield", "_t") -- 
-tDef(377, "The target is protected by a prismatic shield blocking many instances of damage.  Remaining:  %s", "tformat") -- 
-tDef(380, "ward", "effect subtype") -- 
-tDef(383, "#Target# summons a prismatic shield to protect him!", "_t") -- 
-tDef(383, "+Prismatic", "_t") -- 
-tDef(384, "#Target#'s prismatic shield fades.", "_t") -- 
-tDef(384, "-Prismatic", "_t") -- 
-tDef(394, "%s(%d to prism#LAST#%s)#LAST#", "tformat") -- 
-tDef(406, "PURGING", "_t") -- 
-tDef(407, "The target is being purged of 1 physical ailment each turn.", "tformat") -- 
-tDef(413, "#Target# is being purged of his physical ailments!", "_t") -- 
-tDef(413, "+Purging", "_t") -- 
-tDef(414, "#Target#'s is no longer being purged.", "_t") -- 
-tDef(414, "-Purging", "_t") -- 
-tDef(427, "Sensing (Vim)", "_t") -- 
-tDef(428, "Improves senses, allowing the detection of unseen things.", "_t") -- 
-tDef(456, "Sense Hidden", "_t") -- 
-tDef(457, "Improves/gives the ability to see invisible and stealthed creatures (power %d).", "tformat") -- 
-tDef(462, "#Target#'s eyes tingle.", "_t") -- 
-tDef(463, "#Target#'s eyes tingle no more.", "_t") -- 
-tDef(476, "Bane of Blindness", "_t") -- 
-tDef(477, "The target is blinded, unable to see anything and takes %0.2f darkness damage per turn.", "tformat") -- 
-tDef(479, "blind", "effect subtype") -- 
-tDef(482, "#Target# loses sight!", "_t") -- 
-tDef(482, "+Blind", "_t") -- 
-tDef(483, "#Target# recovers sight.", "_t") -- 
-tDef(483, "-Blind", "_t") -- 
-tDef(505, "Bane of Confusion", "_t") -- 
-tDef(506, "The target is confused, acting randomly (chance %d%%), unable to perform complex actions and takes %0.2f darkness damage per turn.", "tformat") -- 
-tDef(509, "bane", "effect subtype") -- 
-tDef(509, "confusion", "effect subtype") -- 
-tDef(512, "#Target# wanders around!.", "_t") -- 
-tDef(512, "+Confused", "_t") -- 
-tDef(513, "#Target# seems more focused.", "_t") -- 
-tDef(513, "-Confused", "_t") -- 
-tDef(529, "Supercharge Golem", "_t") -- 
-tDef(530, "The target is supercharged, increasing life regen by %0.2f and damage done by 20%%.", "tformat") -- 
-tDef(535, "+Supercharge", "_t") -- 
-tDef(536, "-Supercharge", "_t") -- 
-tDef(555, "Power Overload", "_t") -- 
-tDef(556, "The target radiates incredible power, increasing all damage done by %d%%.", "tformat") -- 
-tDef(561, "#Target# is overloaded with power.", "_t") -- 
-tDef(561, "+Overload", "_t") -- 
-tDef(562, "#Target# seems less dangerous.", "_t") -- 
-tDef(562, "-Overload", "_t") -- 
-tDef(573, "Life Tap", "_t") -- 
-tDef(574, "The target taps its blood's hidden power, healing for %d%% of all damage they deal.", "tformat") -- 
-tDef(579, "#Target# looks healthier as he deals damage.", "_t") -- 
-tDef(579, "+Life Tap", "_t") -- 
-tDef(580, "#Target# stops leeching life.", "_t") -- 
-tDef(580, "-Life Tap", "_t") -- 
-tDef(597, "Arcane Eye", "_t") -- 
-tDef(598, "You have an arcane eye observing for you in a radius of %d.", "tformat") -- 
-tDef(630, "Seen by Arcane Eye", "_t") -- 
-tDef(631, "An Arcane Eye has seen this creature.", "_t") -- 
-tDef(651, "All stats increase", "_t") -- 
-tDef(652, "All primary stats of the target are increased by %d.", "tformat") -- 
-tDef(675, "Displacement Shield", "_t") -- 
-tDef(676, "The target is surrounded by a space distortion that randomly sends (%d%% chance) incoming damage to another target (%s). Absorbs %d/%d damage before it crumbles.", "tformat") -- 
-tDef(681, "+Displacement Shield", "_t") -- 
-tDef(681, "The very fabric of space alters around #target#.", "_t") -- 
-tDef(682, "-Displacement Shield", "_t") -- 
-tDef(682, "The fabric of space around #target# stabilizes to normal.", "_t") -- 
-tDef(729, "Damage Shield", "_t") -- 
-tDef(730, "(reflecting %d%% back to the attacker)", "tformat") -- 
-tDef(730, "The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "tformat") -- 
-tDef(736, "+Shield", "_t") -- 
-tDef(736, "A shield forms around #target#.", "_t") -- 
-tDef(737, "-Shield", "_t") -- 
-tDef(737, "The shield around #target# crumbles.", "_t") -- 
-tDef(829, "Martyrdom", "_t") -- 
-tDef(830, "All damage done by the target will also hurt it for %d%%.", "tformat") -- 
-tDef(835, "#Target# is a martyr.", "_t") -- 
-tDef(835, "+Martyr", "_t") -- 
-tDef(836, "#Target# is no longer influenced by martyrdom.", "_t") -- 
-tDef(836, "-Martyr", "_t") -- 
-tDef(848, "Radiance Lost", "_t") -- 
-tDef(849, "You have expended the power of your Radiance temporarily reducing its radius to 1.", "tformat") -- 
-tDef(851, "radiance", "effect subtype") -- 
-tDef(853, "#Target#'s aura dims.", "_t") -- 
-tDef(853, "+Dim", "_t") -- 
-tDef(854, "#Target# shines with renewed light.", "_t") -- 
-tDef(854, "-Dim", "_t") -- 
-tDef(865, "Curse of Vulnerability", "_t") -- 
-tDef(866, "The target is cursed, reducing all resistances by %d%%.", "tformat") -- 
-tDef(885, "Curse of Impotence", "_t") -- 
-tDef(886, "The target is cursed, reducing all damage done by %d%%.", "tformat") -- 
-tDef(905, "Curse of Defenselessness", "_t") -- 
-tDef(906, "The target is cursed, reducing defence and all saves by %d.", "tformat") -- 
-tDef(929, "Curse of Death", "_t") -- 
-tDef(930, "The target is cursed, taking %0.2f darkness damage per turn and preventing natural life regeneration.", "tformat") -- 
-tDef(951, "Curse of Hate", "_t") -- 
-tDef(952, "The target is cursed, force all foes in a radius of 5 to attack it.", "_t") -- 
-tDef(954, "curse", "effect subtype") -- 
-tDef(957, "#Target# is cursed.", "_t") -- 
-tDef(957, "+Curse", "_t") -- 
-tDef(958, "#Target# is no longer cursed.", "_t") -- 
-tDef(958, "-Curse", "_t") -- 
-tDef(975, "Corrupting Strike", "_t") -- 
-tDef(976, "The targets natural essence in corrupted reducing disease resistance by 100%%.", "tformat") -- 
-tDef(981, "#Target# is completely vulnerable to disease!", "_t") -- 
-tDef(982, "#Target# no longer vulnerable to disease.", "_t") -- 
-tDef(992, "Bloodlust", "_t") -- 
-tDef(993, "The target is in a magical frenzy, improving spellpower by %d.", "tformat") -- 
-tDef(1015, "Acid Splash", "_t") -- 
-tDef(1016, "The target has been splashed with acid, taking %0.2f acid damage per turn, reducing armour by %d and attack by %d.", "tformat") -- 
-tDef(1018, "sunder", "effect subtype") -- 
-tDef(1039, "Bloodfury", "_t") -- 
-tDef(1040, "The target's blight and acid damage is increased by %d%%.", "tformat") -- 
-tDef(1056, "Reviving Phoenix", "_t") -- 
-tDef(1057, "Target is being brought back to life.", "_t") -- 
-tDef(1062, "#Target# is consumed in a burst of flame. All that remains is a fiery egg.", "_t") -- 
-tDef(1062, "+Phoenix", "_t") -- 
-tDef(1063, "#Target# bursts out from the egg.", "_t") -- 
-tDef(1063, "-Phoenix", "_t") -- 
-tDef(1096, "Hurricane", "_t") -- 
-tDef(1097, "The target is in the center of a lightning hurricane, doing %0.2f to %0.2f lightning damage to itself and others around every turn.", "tformat") -- 
-tDef(1102, "#Target# is caught inside a Hurricane.", "_t") -- 
-tDef(1102, "+Hurricane", "_t") -- 
-tDef(1103, "-Hurricane", "_t") -- 
-tDef(1103, "The Hurricane around #Target# dissipates.", "_t") -- 
-tDef(1118, "Teleport: Angolwen", "_t") -- 
-tDef(1119, "The target is waiting to be recalled back to Angolwen.", "_t") -- 
-tDef(1137, "There are creatures that could be watching you; you cannot take the risk of teleporting to Angolwen.", "log") -- 
-tDef(1144, "You are yanked out of this place!", "logPlayer") -- 
-tDef(1149, "Space restabilizes around you.", "logPlayer") -- 
-tDef(1156, "Timeport: Point Zero", "_t") -- 
-tDef(1157, "The target is waiting to be recalled back to Point Zero.", "_t") -- 
-tDef(1159, "timeport", "effect subtype") -- 
-tDef(1181, "There are creatures that could be watching you; you cannot take the risk of timeporting to Point Zero.", "log") -- 
-tDef(1188, "You are yanked out of this time!", "logPlayer") -- 
-tDef(1193, "Time restabilizes around you.", "logPlayer") -- 
-tDef(1200, "Premonition Shield", "_t") -- 
-tDef(1201, "Reduces %s damage received by %d%%.", "tformat") -- 
-tDef(1206, "#Target# casts a protective shield just in time!", "_t") -- 
-tDef(1206, "+Premonition Shield", "_t") -- 
-tDef(1207, "-Premonition Shield", "_t") -- 
-tDef(1207, "The protective shield of #Target# disappears.", "_t") -- 
-tDef(1218, "Corrosive Worm", "_t") -- 
-tDef(1219, "The target is infected with a corrosive worm, reducing blight and acid resistance by %d%%. When the effect ends, the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while under torment", "tformat") -- 
-tDef(1224, "#Target# is infected by a corrosive worm.", "_t") -- 
-tDef(1224, "+Corrosive Worm", "_t") -- 
-tDef(1225, "#Target# is free from the corrosive worm.", "_t") -- 
-tDef(1225, "-Corrosive Worm", "_t") -- 
-tDef(1248, "Wraithform", "_t") -- 
-tDef(1249, "Turn into a wraith, passing through walls (but not natural obstacles), granting %d defense and %d armour.", "tformat") -- 
-tDef(1254, "#Target# turns into a wraith.", "_t") -- 
-tDef(1254, "+Wraithform", "_t") -- 
-tDef(1255, "#Target# returns to normal.", "_t") -- 
-tDef(1255, "-Wraithform", "_t") -- 
-tDef(1287, "Empowered Healing", "_t") -- 
-tDef(1288, "Increases the effectiveness of all healing the target receives by %d%%.", "tformat") -- 
-tDef(1303, "Providence", "_t") -- 
-tDef(1304, "The target is under protection, removing one negative effect per turn.", "tformat") -- 
-tDef(1340, "Solar Infusion", "_t") -- 
-tDef(1341, "The target's light, darkness, and fire resistance has been increased by %d%%.", "tformat") -- 
-tDef(1360, "Totality", "_t") -- 
-tDef(1361, "The target's light and darkness spell penetration has been increased by %d%%.", "tformat") -- 
-tDef(1379, "Empowered Glyphs", "_t") -- 
-tDef(1381, "A divine glyph recently triggered, providing %d%% light and darkness affinity and resistence.", "tformat") -- 
-tDef(1410, "Fatiguing Starlight", "_t") -- 
-tDef(1412, "Inflicted with a fatiguing starlight, taking %d darkness damage and increasing the cooldown of a cooling-down talent by 1 whenever they act", "tformat") -- 
-tDef(1432, "Sunburst", "_t") -- 
-tDef(1434, "Light damage has been increased by %d%% to +%d%%.", "tformat") -- 
-tDef(1447, "Shrouded in Darklight", "_t") -- 
-tDef(1449, "%d%% of the targets damage is being split between light and darkness and they are taking %d light and %d darkness damage each turn.", "tformat") -- 
-tDef(1475, "Sanctity", "_t") -- 
-tDef(1476, "The target is protected from silence effects.", "_t") -- 
-tDef(1494, "Shifting Shadows", "_t") -- 
-tDef(1495, "The target's defense is increased by %d.", "tformat") -- 
-tDef(1519, "Blazing Light", "_t") -- 
-tDef(1520, "The target is gaining %d positive energy each turn.", "tformat") -- 
-tDef(1535, "Warding", "_t") -- 
-tDef(1536, "Projectiles aimed at the target are slowed by %d%%.", "tformat") -- 
-tDef(1538, "circle", "effect subtype") -- 
-tDef(1554, "Turn Back the Clock", "_t") -- 
-tDef(1555, "The target has been returned to a much younger state, reducing all its stats by %d.", "tformat") -- 
-tDef(1560, "#Target# is returned to a much younger state!", "_t") -- 
-tDef(1560, "+Turn Back the Clock", "_t") -- 
-tDef(1561, "#Target# has regained its natural age.", "_t") -- 
-tDef(1561, "-Turn Back the Clock", "_t") -- 
-tDef(1583, "Wasting", "_t") -- 
-tDef(1584, "The target is wasting away, taking %0.2f temporal damage per turn.", "tformat") -- 
-tDef(1589, "#Target# is wasting away!", "_t") -- 
-tDef(1589, "+Wasting", "_t") -- 
-tDef(1590, "#Target# stops wasting away.", "_t") -- 
-tDef(1590, "-Wasting", "_t") -- 
-tDef(1607, "Prescience", "_t") -- 
-tDef(1608, "The target's awareness is fully in the present, increasing stealth detection, see invisibility, defense, and accuracy by %d.", "tformat") -- 
-tDef(1613, "#Target# has found the present moment!", "_t") -- 
-tDef(1613, "+Prescience", "_t") -- 
-tDef(1614, "#Target#'s awareness returns to normal.", "_t") -- 
-tDef(1614, "-Prescience", "_t") -- 
-tDef(1631, "Invigorate", "_t") -- 
-tDef(1632, "The target is regaining %d life per turn and refreshing talents at twice the normal rate.", "tformat") -- 
-tDef(1634, "regeneration", "effect subtype") -- 
-tDef(1637, "#Target# is invigorated.", "_t") -- 
-tDef(1637, "+Invigorate", "_t") -- 
-tDef(1638, "#Target# is no longer invigorated.", "_t") -- 
-tDef(1638, "-Invigorate", "_t") -- 
-tDef(1665, "Gather the Threads", "_t") -- 
-tDef(1666, "The target's spellpower has been increased by %d and will continue to increase by %d each turn.", "tformat") -- 
-tDef(1672, "#Target# is gathering energy from other timelines.", "_t") -- 
-tDef(1672, "+Gather the Threads", "_t") -- 
-tDef(1673, "#Target# is no longer manipulating the timestream.", "_t") -- 
-tDef(1673, "-Gather the Threads", "_t") -- 
-tDef(1700, "Flawed Design", "_t") -- 
-tDef(1701, "The target's resistances have been reduced by %d%%.", "tformat") -- 
-tDef(1706, "#Target# is flawed.", "_t") -- 
-tDef(1706, "+Flawed", "_t") -- 
-tDef(1707, "#Target# is no longer flawed.", "_t") -- 
-tDef(1707, "-Flawed", "_t") -- 
-tDef(1720, "Manaworm", "_t") -- 
-tDef(1721, "The target is infected by a manaworm, draining %0.2f mana per turn and releasing it as arcane damage to the target.", "tformat") -- 
-tDef(1726, "#Target# is infected by a manaworm!", "_t") -- 
-tDef(1726, "+Manaworm", "_t") -- 
-tDef(1727, "#Target# is no longer infected.", "_t") -- 
-tDef(1727, "-Manaworm", "_t") -- 
-tDef(1738, "Surge of Undeath", "_t") -- 
-tDef(1739, "Increases the target combat power, spellpower, accuracy by %d, armour penetration by %d and critical chances by %d.", "tformat") -- 
-tDef(1741, "frenzy", "effect subtype") -- 
-tDef(1744, "#Target# is engulfed in dark energies.", "_t") -- 
-tDef(1744, "+Undeath Surge", "_t") -- 
-tDef(1745, "#Target# seems less powerful.", "_t") -- 
-tDef(1745, "-Undeath Surge", "_t") -- 
-tDef(1766, "Bone Shield", "_t") -- 
-tDef(1767, "Any attacks doing more than %d%% of your life is reduced to %d%%.", "tformat") -- 
-tDef(1772, "#Target# protected by flying bones.", "_t") -- 
-tDef(1772, "+Bone Shield", "_t") -- 
-tDef(1773, "#Target# flying bones crumble.", "_t") -- 
-tDef(1773, "-Bone Shield", "_t") -- 
-tDef(1790, "Redux", "_t") -- 
-tDef(1791, "Chronomancy spells with cooldown less than %d will not go on cooldown when cast.", "tformat") -- 
-tDef(1810, "Target is destabilized and in %d turns will start suffering %0.2f temporal damage per turn.  If it dies with this effect active after the damage starts it will explode.", "tformat") -- 
-tDef(1828, "Temporal Destabilization", "_t") -- 
-tDef(1829, "Target is destabilized and suffering %0.2f temporal damage per turn.  If it dies with this effect active it will explode.", "tformat") -- 
-tDef(1834, "#Target# is unstable.", "_t") -- 
-tDef(1834, "+Temporal Destabilization", "_t") -- 
-tDef(1835, "#Target# has regained stability.", "_t") -- 
-tDef(1835, "-Temporal Destabilization", "_t") -- 
-tDef(1849, "Celerity", "_t") -- 
-tDef(1850, "The target is moving is %d%% faster.", "tformat") -- 
-tDef(1852, "%d Celerity", "tformat") -- 
-tDef(1880, "Time Dilation", "_t") -- 
-tDef(1881, "Increases attack, spell, and mind speed by %d%%.", "tformat") -- 
-tDef(1883, "%d Time Dilation", "tformat") -- 
-tDef(1919, "Haste", "_t") -- 
-tDef(1920, "Increases global action speed by %d%%.", "tformat") -- 
-tDef(1925, "+Haste", "_t") -- 
-tDef(1926, "-Haste", "_t") -- 
-tDef(1951, "Cease to Exist", "_t") -- 
-tDef(1952, "The target is being removed from the timeline, its resistance to physical and temporal damage have been reduced by %d%%.", "tformat") -- 
-tDef(1957, "#Target# is being removed from the timeline.", "_t") -- 
-tDef(1957, "+Cease to Exist", "_t") -- 
-tDef(1973, "Impending Doom", "_t") -- 
-tDef(1974, "The target's final doom is drawing near, reducing healing factor by 80%% and dealing %0.2f arcane damage per turn. The effect will stop if the caster dies.", "tformat") -- 
-tDef(1979, "#Target# is doomed!", "_t") -- 
-tDef(1979, "+Doomed", "_t") -- 
-tDef(1980, "#Target# is freed from the impending doom.", "_t") -- 
-tDef(1980, "-Doomed", "_t") -- 
-tDef(1995, "Rigor Mortis", "_t") -- 
-tDef(1996, "The target takes %d%% more damage from necrotic minions.", "tformat") -- 
-tDef(2001, "#Target# feels death coming!", "_t") -- 
-tDef(2001, "+Rigor Mortis", "_t") -- 
-tDef(2002, "#Target# is freed from the rigor mortis.", "_t") -- 
-tDef(2002, "-Rigor Mortis", "_t") -- 
-tDef(2013, "Abyssal Shroud", "_t") -- 
-tDef(2014, "The target's lite radius has been reduced by %d, and its darkness resistance by %d%%.", "tformat") -- 
-tDef(2019, "#Target# feels closer to the abyss!", "_t") -- 
-tDef(2019, "+Abyssal Shroud", "_t") -- 
-tDef(2020, "#Target# is free from the abyss.", "_t") -- 
-tDef(2020, "-Abyssal Shroud", "_t") -- 
-tDef(2033, "Spin Fate", "_t") -- 
-tDef(2034, "The target's defense and saves have been increased by %d.", "tformat") -- 
-tDef(2035, "%d Spin", "tformat") -- 
-tDef(2041, "#Target# spins fate.", "_t") -- 
-tDef(2041, "+Spin Fate", "_t") -- 
-tDef(2042, "#Target# stops spinning fate.", "_t") -- 
-tDef(2042, "-Spin Fate", "_t") -- 
-tDef(2088, "Spellshocked", "_t") -- 
-tDef(2089, "Overwhelming magic has temporarily interfered with all damage resistances, lowering them by %d%%.", "tformat") -- 
-tDef(2091, "cross tier", "effect subtype") -- 
-tDef(2094, "+Spellshocked", "_t") -- 
-tDef(2095, "-Spellshocked", "_t") -- 
-tDef(2108, "Rotting Disease", "_t") -- 
-tDef(2109, "The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "tformat") -- 
-tDef(2114, "#Target# is afflicted by a rotting disease!", "_t") -- 
-tDef(2115, "#Target# is free from the rotting disease.", "_t") -- 
-tDef(2133, "Decrepitude Disease", "_t") -- 
-tDef(2134, "The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "tformat") -- 
-tDef(2139, "#Target# is afflicted by a decrepitude disease!", "_t") -- 
-tDef(2140, "#Target# is free from the decrepitude disease.", "_t") -- 
-tDef(2158, "Weakness Disease", "_t") -- 
-tDef(2159, "The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "tformat") -- 
-tDef(2164, "#Target# is afflicted by a weakness disease!", "_t") -- 
-tDef(2165, "#Target# is free from the weakness disease.", "_t") -- 
-tDef(2184, "Woeful Disease", "_t") -- 
-tDef(2185, "The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "tformat") -- 
-tDef(2191, "#Target# is afflicted by a woeful disease!", "_t") -- 
-tDef(2192, "#Target# is free from the woeful disease.", "_t") -- 
-tDef(2212, "Woeful Darkness", "_t") -- 
-tDef(2213, "The target is weakened and lost, all damage it does is reduced by %d%%.", "tformat") -- 
-tDef(2218, "#Target# is weakened by the darkness!", "_t") -- 
-tDef(2218, "+Woeful Darkness", "_t") -- 
-tDef(2219, "#Target# looks more determined.", "_t") -- 
-tDef(2219, "-Woeful Darkness", "_t") -- 
-tDef(2233, "Woeful Corrosion", "_t") -- 
-tDef(2234, "The target has been splashed with acid, taking %0.2f acid damage per turn.", "tformat") -- 
-tDef(2239, "#Target# is covered in acid!", "_t") -- 
-tDef(2240, "#Target# is free from the acid.", "_t") -- 
-tDef(2253, "Woeful Cripple", "_t") -- 
-tDef(2254, "The target is crippled, reducing melee, spellcasting and mind speed by %d%%.", "tformat") -- 
-tDef(2259, "#Target# is crippled.", "_t") -- 
-tDef(2260, "#Target# is not crippled anymore.", "_t") -- 
-tDef(2270, "Epidemic", "_t") -- 
-tDef(2271, "The target is infected by a disease, doing %0.2f blight damage per turn and reducing healing received by %d%%.\
+tDef(259, "Improves/gives invisibility (power %d), and increases damage dealt to blind or dazzled creatures by %d%%.", "tformat") -- 
+tDef(261, "invisibility", "effect subtype") -- 
+tDef(288, "Invisibility", "_t") -- 
+tDef(289, " and preventing healing and life regeneration", "_t") -- 
+tDef(289, "Improves/gives invisibility (power %d), reducing damage dealt by %d%%%s.", "tformat") -- 
+tDef(294, "#Target# vanishes from sight.", "_t") -- 
+tDef(294, "+Invis", "_t") -- 
+tDef(295, "#Target# is no longer invisible.", "_t") -- 
+tDef(295, "-Invis", "_t") -- 
+tDef(328, "Ethereal", "_t") -- 
+tDef(329, "Invisible (power %d), damage dealt reduced by %d%%, all resistances increased by %d%%, movement speed increased by %d%%.", "tformat") -- 
+tDef(335, "#Target# becomes ethereal.", "_t") -- 
+tDef(335, "+Ethereal", "_t") -- 
+tDef(336, "#Target# is no longer ethereal.", "_t") -- 
+tDef(336, "-Ethereal", "_t") -- 
+tDef(366, "Stormshield", "_t") -- 
+tDef(367, "The target is protected a raging storm deflecting up to %d instances of damage over %d.", "tformat") -- 
+tDef(374, "#Target# summons a storm to protect them!", "_t") -- 
+tDef(374, "+Stormshield", "_t") -- 
+tDef(375, "#Target#'s storm dissipates.", "_t") -- 
+tDef(375, "-Stormshield", "_t") -- 
+tDef(388, "%s(%d stormshielded#LAST#%s)#LAST#", "tformat") -- 
+tDef(391, "#BLUE##Target#'s stormshield is out of charges and disspitates!#LAST#.", "logCombat") -- 
+tDef(400, "Prismatic Shield", "_t") -- 
+tDef(407, "The target is protected by a prismatic shield blocking many instances of damage.  Remaining:  %s", "tformat") -- 
+tDef(410, "ward", "effect subtype") -- 
+tDef(413, "#Target# summons a prismatic shield to protect him!", "_t") -- 
+tDef(413, "+Prismatic", "_t") -- 
+tDef(414, "#Target#'s prismatic shield fades.", "_t") -- 
+tDef(414, "-Prismatic", "_t") -- 
+tDef(424, "%s(%d to prism#LAST#%s)#LAST#", "tformat") -- 
+tDef(436, "PURGING", "_t") -- 
+tDef(437, "The target is being purged of 1 physical ailment each turn.", "tformat") -- 
+tDef(443, "#Target# is being purged of his physical ailments!", "_t") -- 
+tDef(443, "+Purging", "_t") -- 
+tDef(444, "#Target#'s is no longer being purged.", "_t") -- 
+tDef(444, "-Purging", "_t") -- 
+tDef(457, "Sensing (Vim)", "_t") -- 
+tDef(458, "Improves senses, allowing the detection of unseen things.", "_t") -- 
+tDef(486, "Sense Hidden", "_t") -- 
+tDef(487, "Improves/gives the ability to see invisible and stealthed creatures (power %d).", "tformat") -- 
+tDef(492, "#Target#'s eyes tingle.", "_t") -- 
+tDef(493, "#Target#'s eyes tingle no more.", "_t") -- 
+tDef(506, "Bane of Blindness", "_t") -- 
+tDef(507, "The target is blinded, unable to see anything and takes %0.2f darkness damage per turn.", "tformat") -- 
+tDef(509, "blind", "effect subtype") -- 
+tDef(512, "#Target# loses sight!", "_t") -- 
+tDef(512, "+Blind", "_t") -- 
+tDef(513, "#Target# recovers sight.", "_t") -- 
+tDef(513, "-Blind", "_t") -- 
+tDef(535, "Bane of Confusion", "_t") -- 
+tDef(536, "The target is confused, acting randomly (chance %d%%), unable to perform complex actions and takes %0.2f darkness damage per turn.", "tformat") -- 
+tDef(539, "bane", "effect subtype") -- 
+tDef(539, "confusion", "effect subtype") -- 
+tDef(542, "#Target# wanders around!.", "_t") -- 
+tDef(542, "+Confused", "_t") -- 
+tDef(543, "#Target# seems more focused.", "_t") -- 
+tDef(543, "-Confused", "_t") -- 
+tDef(559, "Supercharge Golem", "_t") -- 
+tDef(560, "The target is supercharged, increasing life regen by %0.2f and damage done by 20%%.", "tformat") -- 
+tDef(565, "+Supercharge", "_t") -- 
+tDef(566, "-Supercharge", "_t") -- 
+tDef(585, "Power Overload", "_t") -- 
+tDef(586, "The target radiates incredible power, increasing all damage done by %d%%.", "tformat") -- 
+tDef(591, "#Target# is overloaded with power.", "_t") -- 
+tDef(591, "+Overload", "_t") -- 
+tDef(592, "#Target# seems less dangerous.", "_t") -- 
+tDef(592, "-Overload", "_t") -- 
+tDef(603, "Life Tap", "_t") -- 
+tDef(604, "The target taps its blood's hidden power, healing for %d%% of all damage they deal.", "tformat") -- 
+tDef(609, "#Target# looks healthier as he deals damage.", "_t") -- 
+tDef(609, "+Life Tap", "_t") -- 
+tDef(610, "#Target# stops leeching life.", "_t") -- 
+tDef(610, "-Life Tap", "_t") -- 
+tDef(627, "Arcane Eye", "_t") -- 
+tDef(628, "You have an arcane eye observing for you in a radius of %d.", "tformat") -- 
+tDef(660, "Seen by Arcane Eye", "_t") -- 
+tDef(661, "An Arcane Eye has seen this creature.", "_t") -- 
+tDef(681, "All stats increase", "_t") -- 
+tDef(682, "All primary stats of the target are increased by %d.", "tformat") -- 
+tDef(705, "Displacement Shield", "_t") -- 
+tDef(706, "The target is surrounded by a space distortion that randomly sends (%d%% chance) incoming damage to another target (%s). Absorbs %d/%d damage before it crumbles.", "tformat") -- 
+tDef(711, "+Displacement Shield", "_t") -- 
+tDef(711, "The very fabric of space alters around #target#.", "_t") -- 
+tDef(712, "-Displacement Shield", "_t") -- 
+tDef(712, "The fabric of space around #target# stabilizes to normal.", "_t") -- 
+tDef(759, "Damage Shield", "_t") -- 
+tDef(760, "(reflecting %d%% back to the attacker)", "tformat") -- 
+tDef(760, "The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "tformat") -- 
+tDef(766, "+Shield", "_t") -- 
+tDef(766, "A shield forms around #target#.", "_t") -- 
+tDef(767, "-Shield", "_t") -- 
+tDef(767, "The shield around #target# crumbles.", "_t") -- 
+tDef(859, "Martyrdom", "_t") -- 
+tDef(860, "All damage done by the target will also hurt it for %d%%.", "tformat") -- 
+tDef(865, "#Target# is a martyr.", "_t") -- 
+tDef(865, "+Martyr", "_t") -- 
+tDef(866, "#Target# is no longer influenced by martyrdom.", "_t") -- 
+tDef(866, "-Martyr", "_t") -- 
+tDef(878, "Radiance Lost", "_t") -- 
+tDef(879, "You have expended the power of your Radiance temporarily reducing its radius to 1.", "tformat") -- 
+tDef(881, "radiance", "effect subtype") -- 
+tDef(883, "#Target#'s aura dims.", "_t") -- 
+tDef(883, "+Dim", "_t") -- 
+tDef(884, "#Target# shines with renewed light.", "_t") -- 
+tDef(884, "-Dim", "_t") -- 
+tDef(895, "Curse of Vulnerability", "_t") -- 
+tDef(896, "The target is cursed, reducing all resistances by %d%%.", "tformat") -- 
+tDef(915, "Curse of Impotence", "_t") -- 
+tDef(916, "The target is cursed, reducing all damage done by %d%%.", "tformat") -- 
+tDef(935, "Curse of Defenselessness", "_t") -- 
+tDef(936, "The target is cursed, reducing defence and all saves by %d.", "tformat") -- 
+tDef(959, "Curse of Death", "_t") -- 
+tDef(960, "The target is cursed, taking %0.2f darkness damage per turn and preventing natural life regeneration.", "tformat") -- 
+tDef(981, "Curse of Hate", "_t") -- 
+tDef(982, "The target is cursed, force all foes in a radius of 5 to attack it.", "_t") -- 
+tDef(984, "curse", "effect subtype") -- 
+tDef(987, "#Target# is cursed.", "_t") -- 
+tDef(987, "+Curse", "_t") -- 
+tDef(988, "#Target# is no longer cursed.", "_t") -- 
+tDef(988, "-Curse", "_t") -- 
+tDef(1005, "Corrupting Strike", "_t") -- 
+tDef(1006, "The targets natural essence in corrupted reducing disease resistance by 100%%.", "tformat") -- 
+tDef(1011, "#Target# is completely vulnerable to disease!", "_t") -- 
+tDef(1012, "#Target# no longer vulnerable to disease.", "_t") -- 
+tDef(1022, "Bloodlust", "_t") -- 
+tDef(1023, "The target is in a magical frenzy, improving spellpower by %d.", "tformat") -- 
+tDef(1045, "Acid Splash", "_t") -- 
+tDef(1046, "The target has been splashed with acid, taking %0.2f acid damage per turn, reducing armour by %d and attack by %d.", "tformat") -- 
+tDef(1048, "sunder", "effect subtype") -- 
+tDef(1069, "Bloodfury", "_t") -- 
+tDef(1070, "The target's blight and acid damage is increased by %d%%.", "tformat") -- 
+tDef(1086, "Reviving Phoenix", "_t") -- 
+tDef(1087, "Target is being brought back to life.", "_t") -- 
+tDef(1092, "#Target# is consumed in a burst of flame. All that remains is a fiery egg.", "_t") -- 
+tDef(1092, "+Phoenix", "_t") -- 
+tDef(1093, "#Target# bursts out from the egg.", "_t") -- 
+tDef(1093, "-Phoenix", "_t") -- 
+tDef(1126, "Hurricane", "_t") -- 
+tDef(1127, "The target is in the center of a lightning hurricane, doing %0.2f to %0.2f lightning damage to itself and others around every turn.", "tformat") -- 
+tDef(1132, "#Target# is caught inside a Hurricane.", "_t") -- 
+tDef(1132, "+Hurricane", "_t") -- 
+tDef(1133, "-Hurricane", "_t") -- 
+tDef(1133, "The Hurricane around #Target# dissipates.", "_t") -- 
+tDef(1148, "Teleport: Angolwen", "_t") -- 
+tDef(1149, "The target is waiting to be recalled back to Angolwen.", "_t") -- 
+tDef(1167, "There are creatures that could be watching you; you cannot take the risk of teleporting to Angolwen.", "log") -- 
+tDef(1174, "You are yanked out of this place!", "logPlayer") -- 
+tDef(1179, "Space restabilizes around you.", "logPlayer") -- 
+tDef(1186, "Timeport: Point Zero", "_t") -- 
+tDef(1187, "The target is waiting to be recalled back to Point Zero.", "_t") -- 
+tDef(1189, "timeport", "effect subtype") -- 
+tDef(1211, "There are creatures that could be watching you; you cannot take the risk of timeporting to Point Zero.", "log") -- 
+tDef(1218, "You are yanked out of this time!", "logPlayer") -- 
+tDef(1223, "Time restabilizes around you.", "logPlayer") -- 
+tDef(1230, "Premonition Shield", "_t") -- 
+tDef(1231, "Reduces %s damage received by %d%%.", "tformat") -- 
+tDef(1236, "#Target# casts a protective shield just in time!", "_t") -- 
+tDef(1236, "+Premonition Shield", "_t") -- 
+tDef(1237, "-Premonition Shield", "_t") -- 
+tDef(1237, "The protective shield of #Target# disappears.", "_t") -- 
+tDef(1248, "Corrosive Worm", "_t") -- 
+tDef(1249, "The target is infected with a corrosive worm, reducing blight and acid resistance by %d%%. When the effect ends, the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while under torment", "tformat") -- 
+tDef(1254, "#Target# is infected by a corrosive worm.", "_t") -- 
+tDef(1254, "+Corrosive Worm", "_t") -- 
+tDef(1255, "#Target# is free from the corrosive worm.", "_t") -- 
+tDef(1255, "-Corrosive Worm", "_t") -- 
+tDef(1278, "Wraithform", "_t") -- 
+tDef(1279, "Turn into a wraith, passing through walls (but not natural obstacles), granting %d defense and %d armour.", "tformat") -- 
+tDef(1284, "#Target# turns into a wraith.", "_t") -- 
+tDef(1284, "+Wraithform", "_t") -- 
+tDef(1285, "#Target# returns to normal.", "_t") -- 
+tDef(1285, "-Wraithform", "_t") -- 
+tDef(1317, "Empowered Healing", "_t") -- 
+tDef(1318, "Increases the effectiveness of all healing the target receives by %d%%.", "tformat") -- 
+tDef(1333, "Providence", "_t") -- 
+tDef(1334, "The target is under protection, removing one negative effect per turn.", "tformat") -- 
+tDef(1370, "Solar Infusion", "_t") -- 
+tDef(1371, "The target's light, darkness, and fire resistance has been increased by %d%%.", "tformat") -- 
+tDef(1390, "Totality", "_t") -- 
+tDef(1391, "The target's light and darkness spell penetration has been increased by %d%%.", "tformat") -- 
+tDef(1409, "Empowered Glyphs", "_t") -- 
+tDef(1411, "A divine glyph recently triggered, providing %d%% light and darkness affinity and resistence.", "tformat") -- 
+tDef(1440, "Fatiguing Starlight", "_t") -- 
+tDef(1442, "Inflicted with a fatiguing starlight, taking %d darkness damage and increasing the cooldown of a cooling-down talent by 1 whenever they act", "tformat") -- 
+tDef(1462, "Sunburst", "_t") -- 
+tDef(1464, "Light damage has been increased by %d%% to +%d%%.", "tformat") -- 
+tDef(1477, "Shrouded in Darklight", "_t") -- 
+tDef(1479, "%d%% of the targets damage is being split between light and darkness and they are taking %d light and %d darkness damage each turn.", "tformat") -- 
+tDef(1505, "Sanctity", "_t") -- 
+tDef(1506, "The target is protected from silence effects.", "_t") -- 
+tDef(1524, "Shifting Shadows", "_t") -- 
+tDef(1525, "The target's defense is increased by %d.", "tformat") -- 
+tDef(1549, "Blazing Light", "_t") -- 
+tDef(1550, "The target is gaining %d positive energy each turn.", "tformat") -- 
+tDef(1565, "Warding", "_t") -- 
+tDef(1566, "Projectiles aimed at the target are slowed by %d%%.", "tformat") -- 
+tDef(1568, "circle", "effect subtype") -- 
+tDef(1584, "Turn Back the Clock", "_t") -- 
+tDef(1585, "The target has been returned to a much younger state, reducing all its stats by %d.", "tformat") -- 
+tDef(1590, "#Target# is returned to a much younger state!", "_t") -- 
+tDef(1590, "+Turn Back the Clock", "_t") -- 
+tDef(1591, "#Target# has regained its natural age.", "_t") -- 
+tDef(1591, "-Turn Back the Clock", "_t") -- 
+tDef(1613, "Wasting", "_t") -- 
+tDef(1614, "The target is wasting away, taking %0.2f temporal damage per turn.", "tformat") -- 
+tDef(1619, "#Target# is wasting away!", "_t") -- 
+tDef(1619, "+Wasting", "_t") -- 
+tDef(1620, "#Target# stops wasting away.", "_t") -- 
+tDef(1620, "-Wasting", "_t") -- 
+tDef(1637, "Prescience", "_t") -- 
+tDef(1638, "The target's awareness is fully in the present, increasing stealth detection, see invisibility, defense, and accuracy by %d.", "tformat") -- 
+tDef(1643, "#Target# has found the present moment!", "_t") -- 
+tDef(1643, "+Prescience", "_t") -- 
+tDef(1644, "#Target#'s awareness returns to normal.", "_t") -- 
+tDef(1644, "-Prescience", "_t") -- 
+tDef(1661, "Invigorate", "_t") -- 
+tDef(1662, "The target is regaining %d life per turn and refreshing talents at twice the normal rate.", "tformat") -- 
+tDef(1664, "regeneration", "effect subtype") -- 
+tDef(1667, "#Target# is invigorated.", "_t") -- 
+tDef(1667, "+Invigorate", "_t") -- 
+tDef(1668, "#Target# is no longer invigorated.", "_t") -- 
+tDef(1668, "-Invigorate", "_t") -- 
+tDef(1695, "Gather the Threads", "_t") -- 
+tDef(1696, "The target's spellpower has been increased by %d and will continue to increase by %d each turn.", "tformat") -- 
+tDef(1702, "#Target# is gathering energy from other timelines.", "_t") -- 
+tDef(1702, "+Gather the Threads", "_t") -- 
+tDef(1703, "#Target# is no longer manipulating the timestream.", "_t") -- 
+tDef(1703, "-Gather the Threads", "_t") -- 
+tDef(1730, "Flawed Design", "_t") -- 
+tDef(1731, "The target's resistances have been reduced by %d%%.", "tformat") -- 
+tDef(1736, "#Target# is flawed.", "_t") -- 
+tDef(1736, "+Flawed", "_t") -- 
+tDef(1737, "#Target# is no longer flawed.", "_t") -- 
+tDef(1737, "-Flawed", "_t") -- 
+tDef(1750, "Manaworm", "_t") -- 
+tDef(1751, "The target is infected by a manaworm, draining %0.2f mana per turn and releasing it as arcane damage to the target.", "tformat") -- 
+tDef(1756, "#Target# is infected by a manaworm!", "_t") -- 
+tDef(1756, "+Manaworm", "_t") -- 
+tDef(1757, "#Target# is no longer infected.", "_t") -- 
+tDef(1757, "-Manaworm", "_t") -- 
+tDef(1768, "Surge of Undeath", "_t") -- 
+tDef(1769, "Increases the target combat power, spellpower, accuracy by %d, armour penetration by %d and critical chances by %d.", "tformat") -- 
+tDef(1771, "frenzy", "effect subtype") -- 
+tDef(1774, "#Target# is engulfed in dark energies.", "_t") -- 
+tDef(1774, "+Undeath Surge", "_t") -- 
+tDef(1775, "#Target# seems less powerful.", "_t") -- 
+tDef(1775, "-Undeath Surge", "_t") -- 
+tDef(1796, "Bone Shield", "_t") -- 
+tDef(1797, "Any attacks doing more than %d%% of your life is reduced to %d%%.", "tformat") -- 
+tDef(1802, "#Target# protected by flying bones.", "_t") -- 
+tDef(1802, "+Bone Shield", "_t") -- 
+tDef(1803, "#Target# flying bones crumble.", "_t") -- 
+tDef(1803, "-Bone Shield", "_t") -- 
+tDef(1820, "Redux", "_t") -- 
+tDef(1821, "Chronomancy spells with cooldown less than %d will not go on cooldown when cast.", "tformat") -- 
+tDef(1840, "Target is destabilized and in %d turns will start suffering %0.2f temporal damage per turn.  If it dies with this effect active after the damage starts it will explode.", "tformat") -- 
+tDef(1858, "Temporal Destabilization", "_t") -- 
+tDef(1859, "Target is destabilized and suffering %0.2f temporal damage per turn.  If it dies with this effect active it will explode.", "tformat") -- 
+tDef(1864, "#Target# is unstable.", "_t") -- 
+tDef(1864, "+Temporal Destabilization", "_t") -- 
+tDef(1865, "#Target# has regained stability.", "_t") -- 
+tDef(1865, "-Temporal Destabilization", "_t") -- 
+tDef(1879, "Celerity", "_t") -- 
+tDef(1880, "The target is moving is %d%% faster.", "tformat") -- 
+tDef(1882, "%d Celerity", "tformat") -- 
+tDef(1910, "Time Dilation", "_t") -- 
+tDef(1911, "Increases attack, spell, and mind speed by %d%%.", "tformat") -- 
+tDef(1913, "%d Time Dilation", "tformat") -- 
+tDef(1949, "Haste", "_t") -- 
+tDef(1950, "Increases global action speed by %d%%.", "tformat") -- 
+tDef(1955, "+Haste", "_t") -- 
+tDef(1956, "-Haste", "_t") -- 
+tDef(1981, "Cease to Exist", "_t") -- 
+tDef(1982, "The target is being removed from the timeline, its resistance to physical and temporal damage have been reduced by %d%%.", "tformat") -- 
+tDef(1987, "#Target# is being removed from the timeline.", "_t") -- 
+tDef(1987, "+Cease to Exist", "_t") -- 
+tDef(2003, "Impending Doom", "_t") -- 
+tDef(2004, "The target's final doom is drawing near, reducing healing factor by 80%% and dealing %0.2f arcane damage per turn. The effect will stop if the caster dies.", "tformat") -- 
+tDef(2009, "#Target# is doomed!", "_t") -- 
+tDef(2009, "+Doomed", "_t") -- 
+tDef(2010, "#Target# is freed from the impending doom.", "_t") -- 
+tDef(2010, "-Doomed", "_t") -- 
+tDef(2025, "Rigor Mortis", "_t") -- 
+tDef(2026, "The target takes %d%% more damage from necrotic minions.", "tformat") -- 
+tDef(2031, "#Target# feels death coming!", "_t") -- 
+tDef(2031, "+Rigor Mortis", "_t") -- 
+tDef(2032, "#Target# is freed from the rigor mortis.", "_t") -- 
+tDef(2032, "-Rigor Mortis", "_t") -- 
+tDef(2043, "Abyssal Shroud", "_t") -- 
+tDef(2044, "The target's lite radius has been reduced by %d, and its darkness resistance by %d%%.", "tformat") -- 
+tDef(2049, "#Target# feels closer to the abyss!", "_t") -- 
+tDef(2049, "+Abyssal Shroud", "_t") -- 
+tDef(2050, "#Target# is free from the abyss.", "_t") -- 
+tDef(2050, "-Abyssal Shroud", "_t") -- 
+tDef(2063, "Spin Fate", "_t") -- 
+tDef(2064, "The target's defense and saves have been increased by %d.", "tformat") -- 
+tDef(2065, "%d Spin", "tformat") -- 
+tDef(2071, "#Target# spins fate.", "_t") -- 
+tDef(2071, "+Spin Fate", "_t") -- 
+tDef(2072, "#Target# stops spinning fate.", "_t") -- 
+tDef(2072, "-Spin Fate", "_t") -- 
+tDef(2118, "Spellshocked", "_t") -- 
+tDef(2119, "Overwhelming magic has temporarily interfered with all damage resistances, lowering them by %d%%.", "tformat") -- 
+tDef(2121, "cross tier", "effect subtype") -- 
+tDef(2124, "+Spellshocked", "_t") -- 
+tDef(2125, "-Spellshocked", "_t") -- 
+tDef(2138, "Rotting Disease", "_t") -- 
+tDef(2139, "The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "tformat") -- 
+tDef(2144, "#Target# is afflicted by a rotting disease!", "_t") -- 
+tDef(2145, "#Target# is free from the rotting disease.", "_t") -- 
+tDef(2163, "Decrepitude Disease", "_t") -- 
+tDef(2164, "The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "tformat") -- 
+tDef(2169, "#Target# is afflicted by a decrepitude disease!", "_t") -- 
+tDef(2170, "#Target# is free from the decrepitude disease.", "_t") -- 
+tDef(2188, "Weakness Disease", "_t") -- 
+tDef(2189, "The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "tformat") -- 
+tDef(2194, "#Target# is afflicted by a weakness disease!", "_t") -- 
+tDef(2195, "#Target# is free from the weakness disease.", "_t") -- 
+tDef(2214, "Woeful Disease", "_t") -- 
+tDef(2215, "The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "tformat") -- 
+tDef(2221, "#Target# is afflicted by a woeful disease!", "_t") -- 
+tDef(2222, "#Target# is free from the woeful disease.", "_t") -- 
+tDef(2242, "Woeful Darkness", "_t") -- 
+tDef(2243, "The target is weakened and lost, all damage it does is reduced by %d%%.", "tformat") -- 
+tDef(2248, "#Target# is weakened by the darkness!", "_t") -- 
+tDef(2248, "+Woeful Darkness", "_t") -- 
+tDef(2249, "#Target# looks more determined.", "_t") -- 
+tDef(2249, "-Woeful Darkness", "_t") -- 
+tDef(2263, "Woeful Corrosion", "_t") -- 
+tDef(2264, "The target has been splashed with acid, taking %0.2f acid damage per turn.", "tformat") -- 
+tDef(2269, "#Target# is covered in acid!", "_t") -- 
+tDef(2270, "#Target# is free from the acid.", "_t") -- 
+tDef(2283, "Woeful Cripple", "_t") -- 
+tDef(2284, "The target is crippled, reducing melee, spellcasting and mind speed by %d%%.", "tformat") -- 
+tDef(2289, "#Target# is crippled.", "_t") -- 
+tDef(2290, "#Target# is not crippled anymore.", "_t") -- 
+tDef(2300, "Epidemic", "_t") -- 
+tDef(2301, "The target is infected by a disease, doing %0.2f blight damage per turn and reducing healing received by %d%%.\
 Each non-disease blight damage done to it will spread the disease.", "tformat") -- 
-tDef(2276, "#Target# is afflicted by an epidemic!", "_t") -- 
-tDef(2277, "#Target# is free from the epidemic.", "_t") -- 
-tDef(2298, "Worm Rot", "_t") -- 
-tDef(2299, "The target is infected with carrion worm larvae.  Each turn it will lose one beneficial physical effect and %0.2f blight and acid damage will be inflicted.\
+tDef(2306, "#Target# is afflicted by an epidemic!", "_t") -- 
+tDef(2307, "#Target# is free from the epidemic.", "_t") -- 
+tDef(2328, "Worm Rot", "_t") -- 
+tDef(2329, "The target is infected with carrion worm larvae.  Each turn it will lose one beneficial physical effect and %0.2f blight and acid damage will be inflicted.\
 After five turns the disease will inflict %0.2f blight damage and spawn a carrion worm mass.", "tformat") -- 
-tDef(2304, "#Target# is afflicted by a terrible worm rot!", "_t") -- 
-tDef(2305, "#Target# is free from the worm rot.", "_t") -- 
-tDef(2349, "#LIGHT_RED#A carrion worm mass bursts out of %s!", "logSeen") -- 
-tDef(2357, "Ghoul Rot", "_t") -- 
-tDef(2360, "  If the target dies while ghoul rot is active it will rise as a ghoul.", "_t") -- 
-tDef(2361, "The target is infected by a disease doing %0.2f blight damage per turn.%s", "tformat") -- 
-tDef(2364, "disease", "effect subtype") -- 
-tDef(2367, "#Target# is afflicted by ghoul rot!", "_t") -- 
-tDef(2368, "#Target# is free from the ghoul rot.", "_t") -- 
-tDef(2383, "Bloodcasting", "_t") -- 
-tDef(2384, "Corruptions consume health instead of vim.", "_t") -- 
-tDef(2400, "Sanguine Infusion", "_t") -- 
-tDef(2402, "Maximum life increased by %d.", "tformat") -- 
-tDef(2404, "corruption", "effect subtype") -- 
-tDef(2425, "Arcane Supremacy", "_t") -- 
-tDef(2426, "The target's spellpower and spell save has been increased by %d", "tformat") -- 
-tDef(2431, "#Target# is surging with arcane energy.", "_t") -- 
-tDef(2431, "+Arcane Supremacy", "_t") -- 
-tDef(2432, "-Arcane Supremacy", "_t") -- 
-tDef(2432, "The arcane energy around #target# has dissipated.", "_t") -- 
-tDef(2447, "Ward", "_t") -- 
-tDef(2448, "Fully absorbs %d %s %s.", "tformat") -- 
-tDef(2448, "attack", "_t") -- 
-tDef(2448, "attacks", "_t") -- 
-tDef(2453, "#Target# warded against %s!", "tformat") -- 
-tDef(2453, "+Ward", "_t") -- 
-tDef(2454, "#Target#'s %s ward fades", "tformat") -- 
-tDef(2454, "-Ward", "_t") -- 
-tDef(2457, "Your %s ward absorbs the damage!", "logPlayer") -- 
-tDef(2479, "Spellsurge", "_t") -- 
-tDef(2480, "The target's spellpower has been increased by %d.", "tformat") -- 
-tDef(2486, "#Target# is surging arcane power.", "_t") -- 
-tDef(2486, "+Spellsurge", "_t") -- 
-tDef(2487, "#Target# is no longer surging arcane power.", "_t") -- 
-tDef(2487, "-Spellsurge", "_t") -- 
-tDef(2509, "Out of Phase", "_t") -- 
-tDef(2510, "The target is out of phase with reality, increasing defense by %d, resist all by %d%%, and reducing the duration of detrimental timed effects by %d%%.\
+tDef(2334, "#Target# is afflicted by a terrible worm rot!", "_t") -- 
+tDef(2335, "#Target# is free from the worm rot.", "_t") -- 
+tDef(2379, "#LIGHT_RED#A carrion worm mass bursts out of %s!", "logSeen") -- 
+tDef(2387, "Ghoul Rot", "_t") -- 
+tDef(2390, "  If the target dies while ghoul rot is active it will rise as a ghoul.", "_t") -- 
+tDef(2391, "The target is infected by a disease doing %0.2f blight damage per turn.%s", "tformat") -- 
+tDef(2394, "disease", "effect subtype") -- 
+tDef(2397, "#Target# is afflicted by ghoul rot!", "_t") -- 
+tDef(2398, "#Target# is free from the ghoul rot.", "_t") -- 
+tDef(2413, "Bloodcasting", "_t") -- 
+tDef(2414, "Corruptions consume health instead of vim.", "_t") -- 
+tDef(2430, "Sanguine Infusion", "_t") -- 
+tDef(2432, "Maximum life increased by %d.", "tformat") -- 
+tDef(2434, "corruption", "effect subtype") -- 
+tDef(2455, "Arcane Supremacy", "_t") -- 
+tDef(2456, "The target's spellpower and spell save has been increased by %d", "tformat") -- 
+tDef(2461, "#Target# is surging with arcane energy.", "_t") -- 
+tDef(2461, "+Arcane Supremacy", "_t") -- 
+tDef(2462, "-Arcane Supremacy", "_t") -- 
+tDef(2462, "The arcane energy around #target# has dissipated.", "_t") -- 
+tDef(2477, "Ward", "_t") -- 
+tDef(2478, "Fully absorbs %d %s %s.", "tformat") -- 
+tDef(2478, "attack", "_t") -- 
+tDef(2478, "attacks", "_t") -- 
+tDef(2483, "#Target# warded against %s!", "tformat") -- 
+tDef(2483, "+Ward", "_t") -- 
+tDef(2484, "#Target#'s %s ward fades", "tformat") -- 
+tDef(2484, "-Ward", "_t") -- 
+tDef(2487, "Your %s ward absorbs the damage!", "logPlayer") -- 
+tDef(2509, "Spellsurge", "_t") -- 
+tDef(2510, "The target's spellpower has been increased by %d.", "tformat") -- 
+tDef(2516, "#Target# is surging arcane power.", "_t") -- 
+tDef(2516, "+Spellsurge", "_t") -- 
+tDef(2517, "#Target# is no longer surging arcane power.", "_t") -- 
+tDef(2517, "-Spellsurge", "_t") -- 
+tDef(2539, "Out of Phase", "_t") -- 
+tDef(2540, "The target is out of phase with reality, increasing defense by %d, resist all by %d%%, and reducing the duration of detrimental timed effects by %d%%.\
 These effects cap at 40%%.", "tformat") -- 
-tDef(2515, "#Target# is out of phase.", "_t") -- 
-tDef(2515, "+Phased", "_t") -- 
-tDef(2516, "#Target# is no longer out of phase.", "_t") -- 
-tDef(2516, "-Phased", "_t") -- 
-tDef(2552, "Blood Lock", "_t") -- 
-tDef(2553, "Cannot heal higher than %d life.", "tformat") -- 
-tDef(2555, "blood", "effect subtype") -- 
-tDef(2558, "#Target# is blood locked.", "_t") -- 
-tDef(2558, "+Blood Lock", "_t") -- 
-tDef(2559, "#Target# is no longer blood locked.", "_t") -- 
-tDef(2559, "-Blood Lock", "_t") -- 
-tDef(2572, "Congeal Time", "_t") -- 
-tDef(2573, "Reduces global action speed by %d%% and all outgoing projectiles speed by %d%%.", "tformat") -- 
-tDef(2578, "#Target# slows down.", "_t") -- 
-tDef(2578, "+Congeal Time", "_t") -- 
-tDef(2579, "#Target# speeds up.", "_t") -- 
-tDef(2579, "-Congeal Time", "_t") -- 
-tDef(2597, "Arcane Vortex", "_t") -- 
-tDef(2598, "An arcane vortex follows the target. Each turn a manathrust fires from it to a random foe in sight doing %0.2f arcane damage to all. If no foes are found the main target takes 50%% more arcane damage this turn. If the target dies the remaining damage is dealt as a radius 2 ball of arcane.", "tformat") -- 
-tDef(2603, "#Target# is focused by an arcane vortex!.", "_t") -- 
-tDef(2603, "+Arcane Vortex", "_t") -- 
-tDef(2604, "#Target# is free from the arcane vortex.", "_t") -- 
-tDef(2604, "-Arcane Vortex", "_t") -- 
-tDef(2643, "Aether Breach", "_t") -- 
-tDef(2644, "Fires an arcane explosion each turn doing %0.2f arcane damage in radius 2.", "tformat") -- 
-tDef(2649, "#Target# begins channeling arcane through a breach in reality!", "_t") -- 
-tDef(2649, "+Aether Breach", "_t") -- 
-tDef(2650, "-Aether Breach", "_t") -- 
-tDef(2650, "The aetheric breach around #Target# seals itself.", "_t") -- 
-tDef(2682, "Aether Avatar", "_t") -- 
-tDef(2683, "Filled with pure aether forces!", "_t") -- 
-tDef(2716, "Vulnerability Poison", "_t") -- 
-tDef(2720, " and poison resistance is reduced by %s%%", "tformat") -- 
-tDef(2720, "The target is afflicted with a magical poison and is suffering %0.2f arcane damage per turn.  All resistances are reduced by 10%%%s.", "tformat") -- 
-tDef(2726, "#Target# is magically poisoned!", "_t") -- 
-tDef(2726, "+Vulnerability Poison", "_t") -- 
-tDef(2727, "#Target# is no longer magically poisoned.", "_t") -- 
-tDef(2727, "-Vulnerability Poison", "_t") -- 
-tDef(2746, "Irresistible Sun", "_t") -- 
-tDef(2747, "The target is attracting all toward it, also dealing fire, light and physical damage each turn..", "tformat") -- 
-tDef(2752, "#Target# starts to attract all creatures around!", "_t") -- 
-tDef(2752, "+Irresistible Sun", "_t") -- 
-tDef(2753, "#Target# is no longer attracting creatures.", "_t") -- 
-tDef(2753, "-Irresistible Sun", "_t") -- 
-tDef(2773, "%s is pulled in!", "logSeen") -- 
-tDef(2791, "Weight of the Sun", "_t") -- 
-tDef(2792, "The target is struggling against immense gravity, all damage it does is reduced by %d%%.", "tformat") -- 
-tDef(2797, "#Target# can barely stand!", "_t") -- 
-tDef(2797, "+Weight of the Sun", "_t") -- 
-tDef(2798, "#Target# can move freely once more.", "_t") -- 
-tDef(2798, "-Weight of the Sun", "_t") -- 
-tDef(2806, "Temporal Form", "_t") -- 
-tDef(2807, "The target assumes the form of a telugoroth.", "tformat") -- 
-tDef(2812, "#Target# threads time as a shell!", "_t") -- 
-tDef(2812, "+Temporal Form", "_t") -- 
-tDef(2813, "#Target# is no longer embeded in time.", "_t") -- 
-tDef(2813, "-Temporal Form", "_t") -- 
-tDef(2863, "Corrupted Losgoroth Form", "_t") -- 
-tDef(2864, "The target has assumed the form of a corrupted losgoroth, gaining immunity to poison, disease, bleeding, and confusion.  It does not need to breathe, and converts half of all damage to life draining blight.", "tformat") -- 
-tDef(2866, "arcane", "effect subtype") -- 
-tDef(2869, "#Target# turns into a losgoroth!", "_t") -- 
-tDef(2869, "+Corrupted Losgoroth Form", "_t") -- 
-tDef(2870, "-Corrupted Losgoroth Form", "_t") -- 
-tDef(2950, "Shivgoroth Form", "_t") -- 
-tDef(2951, "The target assumes the form of a shivgoroth.", "tformat") -- 
-tDef(2956, "#Target# turns into a shivgoroth!", "_t") -- 
-tDef(2956, "+Shivgoroth Form", "_t") -- 
-tDef(2957, "#Target# is no longer transformed.", "_t") -- 
-tDef(2957, "-Shivgoroth Form", "_t") -- 
-tDef(3001, "Keepers of Reality Rally Call", "_t") -- 
-tDef(3002, "The keepers of reality have called upon all to defend Point Zero. Life increased by 5000, damage by 300%.", "_t") -- 
-tDef(3021, "Receptive Mind", "_t") -- 
-tDef(3022, "You can sense the presence of all %s around you.", "tformat") -- 
-tDef(3024, "rune", "effect subtype") -- 
-tDef(3036, "Born into Magic", "_t") -- 
-tDef(3037, "%s damage increased by 20%%.", "tformat") -- 
-tDef(3039, "race", "effect subtype") -- 
-tDef(3051, "Essence of the Dead", "_t") -- 
-tDef(3052, "The target consumed souls to gain new powers. %d spells affected.", "tformat") -- 
-tDef(3055, "necrotic", "effect subtype") -- 
-tDef(3069, "Ice Armour", "_t") -- 
-tDef(3070, "The target is covered in a layer of ice. Its armour is increased by %d, it deals %0.1f Cold damage to attackers that hit in melee, and 50%% of its damage is converted to cold.", "tformat") -- 
-tDef(3072, "armour", "effect subtype") -- 
-tDef(3072, "cold", "effect subtype") -- 
-tDef(3075, "#Target# is covered in icy armor!", "_t") -- 
-tDef(3076, "#Target#'s ice coating crumbles away.", "_t") -- 
-tDef(3093, "Caustic Golem", "_t") -- 
-tDef(3094, "The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "tformat") -- 
-tDef(3096, "acid", "effect subtype") -- 
-tDef(3096, "coating", "effect subtype") -- 
-tDef(3099, "#Target# is coated in acid!", "_t") -- 
-tDef(3100, "#Target#'s acid coating is diluted.", "_t") -- 
-tDef(3121, "Sun's Vengeance", "_t") -- 
-tDef(3122, "The target is filled with the Sun's fury, next Sun Beam will be instant cast.", "tformat") -- 
-tDef(3127, "#Target# is filled with the Sun's fury!", "_t") -- 
-tDef(3127, "+Sun's Vengeance", "_t") -- 
-tDef(3128, "-Sun's Vengeance", "_t") -- 
-tDef(3136, "Suncloak", "_t") -- 
-tDef(3137, "The target is protected by the sun, increasing their spell casting speed by %d%%, reducing spell cooldowns by %d%%, and preventing damage over %d%% of your maximum life from a single hit.", "tformat") -- 
-tDef(3143, "#Target# is energized and protected by the Sun!", "_t") -- 
-tDef(3143, "+Suncloak", "_t") -- 
-tDef(3144, "#Target#'s solar fury subsides.", "_t") -- 
-tDef(3144, "-Suncloak", "_t") -- 
-tDef(3158, "Mark of Light", "_t") -- 
-tDef(3159, "The creature that marked the target with light will be healed for all melee attacks against it by %d%%.", "tformat") -- 
-tDef(3164, "#Target# is marked by light!", "_t") -- 
-tDef(3164, "+Mark of Light", "_t") -- 
-tDef(3165, "#Target#'s mark disappears.", "_t") -- 
-tDef(3165, "-Mark of Light", "_t") -- 
-tDef(3179, "Righteous Strength", "_t") -- 
-tDef(3180, "Increase light and physical damage by %d%%.", "tformat") -- 
-tDef(3185, "#Target# shines with light!", "_t") -- 
-tDef(3185, "+Righteous Strength", "_t") -- 
-tDef(3186, "#Target# stops shining.", "_t") -- 
-tDef(3186, "-Righteous Strength", "_t") -- 
-tDef(3206, "Lightburn", "_t") -- 
-tDef(3207, "The creature is burnt by light, dealing %0.2f light damage each turn and reducing armour by %d.", "tformat") -- 
-tDef(3212, "#Target# burns with light!", "_t") -- 
-tDef(3212, "+Lightburn", "_t") -- 
-tDef(3213, "#Target# stops burning.", "_t") -- 
-tDef(3213, "-Lightburn", "_t") -- 
-tDef(3233, "Illumination ", "_t") -- 
-tDef(3234, "The target glows in the light, reducing its stealth and invisibility power by %d, defense by %d and looses all evasion bonus from being unseen.", "tformat") -- 
-tDef(3239, "+Illumination", "_t") -- 
-tDef(3240, "-Illumination", "_t") -- 
-tDef(3251, "Light Burst ", "_t") -- 
-tDef(3252, "The is invigorated when dealing damage with Searing Sight.", "tformat") -- 
-tDef(3257, "+Light Burst", "_t") -- 
-tDef(3258, "-Light Burst", "_t") -- 
-tDef(3263, "Light Burst Speed", "_t") -- 
-tDef(3264, "The target is invigorated from Searing Sight, increasing movement speed by %d%%.", "tformat") -- 
-tDef(3266, "sun", "effect subtype") -- 
-tDef(3270, "+Light Burst Speed", "_t") -- 
-tDef(3271, "-Light Burst Speed", "_t") -- 
-tDef(3292, "Healing Inversion", "_t") -- 
-tDef(3293, "All healing done to the target will instead turn into %d%% blight damage.", "tformat") -- 
-tDef(3295, "heal", "effect subtype") -- 
-tDef(3298, "+Healing Inversion", "_t") -- 
-tDef(3299, "-Healing Inversion", "_t") -- 
-tDef(3322, "Shocked", "_t") -- 
-tDef(3323, "Target is reeling from an lightning shock, halving its stun and pinning resistance.", "tformat") -- 
-tDef(3325, "lightning", "effect subtype") -- 
-tDef(3327, "+Shocked", "_t") -- 
-tDef(3328, "-Shocked", "_t") -- 
-tDef(3343, "Wet", "_t") -- 
-tDef(3344, "Target is drenched with magical water, halving its stun resistance.", "tformat") -- 
-tDef(3346, "ice", "effect subtype") -- 
-tDef(3346, "water", "effect subtype") -- 
-tDef(3348, "+Wet", "_t") -- 
-tDef(3349, "-Wet", "_t") -- 
-tDef(3367, "Probability Travel", "_t") -- 
-tDef(3368, "Target is out of phase and may move through walls.", "tformat") -- 
-tDef(3373, "+Probability Travel", "_t") -- 
-tDef(3374, "-Probability Travel", "_t") -- 
-tDef(3385, "Blink", "_t") -- 
-tDef(3386, "Target is randomly teleporting every turn.", "tformat") -- 
-tDef(3390, "+Blink", "_t") -- 
-tDef(3391, "-Blink", "_t") -- 
-tDef(3401, "Dimensional Anchor", "_t") -- 
-tDef(3402, "The target is unable to teleport and takes %0.2f temporal and %0.2f physical damage if they try.", "tformat") -- 
-tDef(3404, "slow", "effect subtype") -- 
-tDef(3407, "#Target# is anchored.", "_t") -- 
-tDef(3407, "+Anchor", "_t") -- 
-tDef(3408, "#Target# is no longer anchored.", "_t") -- 
-tDef(3408, "-Anchor", "_t") -- 
-tDef(3423, "Breach", "_t") -- 
-tDef(3424, "The target's defenses have been breached, reducing armor hardiness, stun, pin, blindness, and confusion immunity by 50%%.", "tformat") -- 
-tDef(3428, "+Breach", "_t") -- 
-tDef(3429, "-Breach", "_t") -- 
-tDef(3454, "Braided", "_t") -- 
-tDef(3455, "The target is taking %d%% of all damage dealt to other braided targets.", "tformat") -- 
-tDef(3460, "#Target#'s lifeline has been braided.", "_t") -- 
-tDef(3460, "+Braided", "_t") -- 
-tDef(3461, "#Target#'s lifeline is no longer braided.", "_t") -- 
-tDef(3461, "-Braided", "_t") -- 
-tDef(3467, "#CRIMSON##Source# damages #Target# through the Braid!", "delayedLogMessage") -- 
-tDef(3468, "#PINK#%d braided #LAST#", "tformat") -- 
-tDef(3490, "Precognition", "_t") -- 
-tDef(3491, "Peer into the future, detecting enemies, increasing defense by %d, and granting a %d%% chance to ignore critical hits.", "tformat") -- 
-tDef(3493, "sense", "effect subtype") -- 
-tDef(3512, "Webs of Fate", "_t") -- 
-tDef(3513, "Displacing %d%% of all damage on to a random enemy.", "tformat") -- 
-tDef(3517, "+Webs of Fate", "_t") -- 
-tDef(3518, "-Webs of Fate", "_t") -- 
-tDef(3549, "%s(%d webs of fate)#LAST#", "tformat") -- 
-tDef(3568, "Seal Fate", "_t") -- 
-tDef(3575, "The target has a %d%% chance of increasing the duration of one detrimental status effects on targets it damages by one.", "tformat") -- 
-tDef(3578, "focus", "effect subtype") -- 
-tDef(3581, "+Seal Fate", "_t") -- 
-tDef(3582, "-Seal Fate", "_t") -- 
-tDef(3628, "Unravel", "_t") -- 
-tDef(3630, "The target is immune to further damage but is dealing %d%% less damage.", "tformat") -- 
-tDef(3632, "#Target# has started to unravel.", "_t") -- 
-tDef(3632, "+Unraveling", "_t") -- 
-tDef(3651, "Unravels!", "_t") -- 
-tDef(3652, "%s has unraveled!", "logSeen") -- 
-tDef(3660, "Entropy", "_t") -- 
-tDef(3661, "The target is losing one sustain per turn.", "_t") -- 
-tDef(3662, "#Target# is caught in an entropic field!", "_t") -- 
-tDef(3662, "+Entropy", "_t") -- 
-tDef(3663, "#Target# is free from the entropy.", "_t") -- 
-tDef(3663, "-Entropy", "_t") -- 
-tDef(3684, "Regression", "_t") -- 
-tDef(3685, "Reduces your three highest stats by %d.", "tformat") -- 
-tDef(3686, "#Target# has regressed.", "_t") -- 
-tDef(3686, "+Regression", "_t") -- 
-tDef(3687, "#Target# has returned to its natural state.", "_t") -- 
-tDef(3687, "-Regression", "_t") -- 
-tDef(3704, "The target is being removed from the timeline and is taking %0.2f temporal damage per turn.", "tformat") -- 
-tDef(3709, "#Target# is being being removed from the timeline!", "_t") -- 
-tDef(3710, "#Target# survived the attenuation.", "_t") -- 
-tDef(3725, "%s has been removed from the timeline!", "logSeen") -- 
-tDef(3742, "Attenuate", "_t") -- 
-tDef(3743, "The target is being grounded in the timeline and is healing %0.2f life per turn.", "tformat") -- 
-tDef(3748, "#Target# is being being grounded in the timeline!", "_t") -- 
-tDef(3748, "+Attenuate", "_t") -- 
-tDef(3749, "#Target# is no longer being grounded.", "_t") -- 
-tDef(3749, "-Attenuate", "_t") -- 
-tDef(3766, "Ogric Wrath", "_t") -- 
-tDef(3767, "Do not try to resist it!", "tformat") -- 
-tDef(3772, "#Target# enters an ogric frenzy.", "_t") -- 
-tDef(3772, "+Ogric Wrath", "_t") -- 
-tDef(3773, "#Target# calms down.", "_t") -- 
-tDef(3773, "-Ogric Wrath", "_t") -- 
-tDef(3816, "Ogre Fury", "_t") -- 
-tDef(3817, "Increases crit chance by %d%% and critical power by %d%%. %d charge(s).", "tformat") -- 
-tDef(3863, "Writ Large", "_t") -- 
-tDef(3864, "Inscriptions cooldown twice as fast.", "tformat") -- 
-tDef(3866, "runic", "effect subtype") -- 
-tDef(3869, "+Writ Large", "_t") -- 
-tDef(3870, "-Writ Large", "_t") -- 
-tDef(3891, "Static History", "_t") -- 
-tDef(3892, "Chronomancy spells cast by the target will not produce minor anomalies.", "tformat") -- 
-tDef(3897, "+Static History", "_t") -- 
-tDef(3897, "Spacetime has stabilized around #Target#.", "_t") -- 
-tDef(3898, "-Static History", "_t") -- 
-tDef(3898, "The fabric of spacetime around #Target# has returned to normal.", "_t") -- 
-tDef(3908, "Arrow Echoes", "_t") -- 
-tDef(3909, "Each turn will fire an arrow at %s.", "tformat") -- 
-tDef(3911, "time", "effect subtype") -- 
-tDef(3914, "+Arrow Echoes", "_t") -- 
-tDef(3915, "-Arrow Echoes", "_t") -- 
-tDef(3932, "Warden's Focus", "_t") -- 
-tDef(3934, "Focused on %s, +%d%% critical damage and +%d%% critical hit chance against this target.", "tformat") -- 
-tDef(3937, "tactic", "effect subtype") -- 
-tDef(3939, "+Warden's Focus", "_t") -- 
-tDef(3940, "-Warden's Focus", "_t") -- 
-tDef(3948, "%s(%d focus)#LAST#", "tformat") -- 
-tDef(3965, "Fateweaver", "_t") -- 
-tDef(3966, "The target's accuracy and power have been increased by %d.", "tformat") -- 
-tDef(3967, "%d Fateweaver", "tformat") -- 
-tDef(3973, "#Target# weaves fate.", "_t") -- 
-tDef(3973, "+Fateweaver", "_t") -- 
-tDef(3974, "#Target# stops weaving fate.", "_t") -- 
-tDef(3974, "-Fateweaver", "_t") -- 
-tDef(4012, "Fold Fate", "_t") -- 
-tDef(4013, "The target is nearing the end, its resistance to physical and temporal damage have been reduced by %d%%.", "tformat") -- 
-tDef(4018, "#Target# is nearing the end.", "_t") -- 
-tDef(4018, "+Fold Fate", "_t") -- 
-tDef(4051, "Spatial Tether", "_t") -- 
-tDef(4054, "The target has been tethered to the location and has a %d%% chance of being teleported back, creating an explosion for %0.2f physical and %0.2f temporal warp damage at both ends of the teleport.", "tformat") -- 
-tDef(4057, "teleport", "effect subtype") -- 
-tDef(4057, "temporal", "effect subtype") -- 
-tDef(4060, "#Target# has been tethered!", "_t") -- 
-tDef(4060, "+Tether", "_t") -- 
-tDef(4061, "#Target# is no longer tethered.", "_t") -- 
-tDef(4061, "-Tether", "_t") -- 
-tDef(4070, "Blight Poison", "_t") -- 
-tDef(4071, "The target is poisoned, taking %0.2f blight damage per turn.", "tformat") -- 
-tDef(4077, "#Target# is poisoned with blight!", "_t") -- 
-tDef(4077, "+Blight Poison", "_t") -- 
-tDef(4078, "#Target# is free from the blighted poison.", "_t") -- 
-tDef(4078, "-Blight Poison", "_t") -- 
-tDef(4098, "Insidious Blight", "_t") -- 
-tDef(4099, "The target is poisoned, taking %0.2f blight damage per turn and decreasing all heals received by %d%%.", "tformat") -- 
-tDef(4104, "#Target# is poisoned with insidious blight!!", "_t") -- 
-tDef(4104, "+Insidious Blight", "_t") -- 
-tDef(4105, "#Target# is free from the insidious blight.", "_t") -- 
-tDef(4105, "-Insidious Blight", "_t") -- 
-tDef(4126, "Crippling Blight", "_t") -- 
-tDef(4127, "The target is poisoned and sick, doing %0.2f blight damage per turn. Each time it tries to use a talent there is %d%% chance of failure.", "tformat") -- 
-tDef(4132, "#Target# is poisoned with crippling blight!", "_t") -- 
-tDef(4132, "+Crippling Blight", "_t") -- 
-tDef(4133, "#Target# is free from the crippling blight.", "_t") -- 
-tDef(4133, "-Crippling Blight", "_t") -- 
-tDef(4155, "Numbing Blight", "_t") -- 
-tDef(4156, "The target is poisoned and sick, doing %0.2f blight damage per turn. All damage it does is reduced by %d%%.", "tformat") -- 
-tDef(4158, "blight", "effect subtype") -- 
-tDef(4158, "poison", "effect subtype") -- 
-tDef(4161, "#Target# is poisoned numbing blight!", "_t") -- 
-tDef(4161, "+Numbing Blight", "_t") -- 
-tDef(4162, "#Target# is free from the numbing blight.", "_t") -- 
-tDef(4162, "-Numbing Blight", "_t") -- 
-tDef(4184, "Eldritch Stone Shield", "_t") -- 
-tDef(4186, "The target is surrounded by a stone shield absorbing %d/%d damage.  When the shield is removed, it will explode for up to %d (currently %d) Arcane damage in a radius %d.", "tformat") -- 
-tDef(4190, "shield", "effect subtype") -- 
-tDef(4193, "#Target# is encased in a stone shield.", "_t") -- 
-tDef(4195, "The stone shield around #Target# %s", "tformat") -- 
-tDef(4195, "crumbles.", "_t") -- 
-tDef(4195, "explodes!", "_t") -- 
-tDef(4238, "Deeprock Form", "_t") -- 
-tDef(4242, ", +%d%% Arcane damage and +%d%% Arcane damage penetration,", "tformat") -- 
-tDef(4245, ", +%d%% Nature damage and +%d%% Nature damage penetration", "tformat") -- 
-tDef(4248, ", %d%% bleeding, poison, disease, and stun immunity", "tformat") -- 
-tDef(4250, "  In addition, it uses its physical resistance against all damage.", "_t") -- 
-tDef(4250, "The target has turned into a huge deeprock elemental.  It gains 2 size categories%s and +%d%% Physical damage and +%d%% Physical damage penetration.%s", "tformat") -- 
-tDef(4253, "earth", "effect subtype") -- 
-tDef(4253, "elemental", "effect subtype") -- 
-tDef(4256, "#Target# is imbued by the power of the Stone.", "_t") -- 
-tDef(4256, "+Deeprock Form", "_t") -- 
-tDef(4257, "#Target# is abandoned by the Stone's power.", "_t") -- 
-tDef(4257, "-Deeprock Form", "_t") -- 
-tDef(4319, "Bathe in Light", "_t") -- 
-tDef(4320, "Fire and Light damage increased by %d%%.", "tformat") -- 
-tDef(4323, "celestial", "effect subtype") -- 
-tDef(4323, "light", "effect subtype") -- 
-tDef(4326, "#Target# glows intensely!", "_t") -- 
-tDef(4327, "#Target# is no longer glowing .", "_t") -- 
-tDef(4337, "Overseer of Nations", "_t") -- 
-tDef(4338, "Detects creatures of type %s/%s in radius 15.", "tformat") -- 
-tDef(4340, "higher", "effect subtype") -- 
-tDef(4354, "Pacification Hex", "_t") -- 
-tDef(4355, "The target is hexed, granting it %d%% chance each turn to be dazed for 3 turns.", "tformat") -- 
-tDef(4360, "+Pacification Hex", "_t") -- 
-tDef(4361, "-Pacification Hex", "_t") -- 
-tDef(4384, "Burning Hex", "_t") -- 
-tDef(4385, "The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "tformat") -- 
-tDef(4386, "%d%%", "tformat") -- 
-tDef(4390, "fire", "effect subtype") -- 
-tDef(4394, "#Target# is hexed!", "_t") -- 
-tDef(4394, "+Burning Hex", "_t") -- 
-tDef(4395, "-Burning Hex", "_t") -- 
-tDef(4400, "Empathic Hex", "_t") -- 
-tDef(4401, "The target is hexed, creating an empathic bond with its victims. It takes %d%% feedback damage from all damage done.", "tformat") -- 
-tDef(4407, "+Empathic Hex", "_t") -- 
-tDef(4408, "-Empathic hex", "_t") -- 
-tDef(4423, "Domination Hex", "_t") -- 
-tDef(4424, "The target is hexed, temporarily changing its faction to %s.", "tformat") -- 
-tDef(4426, "dominate", "effect subtype") -- 
-tDef(4426, "hex", "effect subtype") -- 
-tDef(4429, "#Target# is hexed.", "_t") -- 
-tDef(4429, "+Domination Hex", "_t") -- 
-tDef(4430, "#Target# is free from the hex.", "_t") -- 
-tDef(4430, "-Domination hex", "_t") -- 
-tDef(4448, "Shadowguard Immunity", "_t") -- 
-tDef(4449, "The target is immune to all detrimental effects.", "_t") -- 
-tDef(4453, "#Target#'s fades into the shadows.", "_t") -- 
-tDef(4453, "+Shadowguard", "_t") -- 
-tDef(4454, "#Target#'s can be afflicted again.", "_t") -- 
-tDef(4463, "Shadowguard", "_t") -- 
-tDef(4464, "The target is enveloped in shadows gaining %d spellpower and defense.", "tformat") -- 
-tDef(4466, "shadow", "effect subtype") -- 
-tDef(4469, "#Target#'s fully exits the shadows.", "_t") -- 
-tDef(4469, "-Shadowguard", "_t") -- 
-tDef(4479, "Retched", "_t") -- 
-tDef(4480, "The target is walking in its own retch, negating the natural ghoul's speed penalty.", "tformat") -- 
-tDef(4482, "speed", "effect subtype") -- 
-tDef(4482, "undead", "effect subtype") -- 
-tDef(4484, "#Target# speeds up in the retch.", "_t") -- 
-tDef(4484, "+Retched", "_t") -- 
-tDef(4485, "#Target# speeds down outside of the retch.", "_t") -- 
-tDef(4485, "-Retched", "_t") -- 
-tDef(4494, "Shadow Cut", "_t") -- 
-tDef(4495, "Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "tformat") -- 
-tDef(4497, "bleed", "effect subtype") -- 
-tDef(4497, "cut", "effect subtype") -- 
-tDef(4497, "wound", "effect subtype") -- 
-tDef(4500, "#Target# starts to bleed darkness.", "_t") -- 
-tDef(4500, "+Shadow Cut", "_t") -- 
-tDef(4501, "#Target# stops bleeding darkness.", "_t") -- 
-tDef(4501, "-Shadow Cut", "_t") -- 
-tDef(4526, "Draining Moonlight", "_t") -- 
-tDef(4527, "The target has been drained by a glyph, all damage it does is reduced by %d%%.", "tformat") -- 
-tDef(4529, "darkness", "effect subtype") -- 
-tDef(4532, "#Target# is weakened by the glyph of moonlight!", "_t") -- 
-tDef(4532, "+Draining Moonlight", "_t") -- 
-tDef(4533, "#Target# looks shakes off the effect of the glyph of moonlight.", "_t") -- 
-tDef(4533, "-Draining Moonlight", "_t") -- 
-tDef(4543, "Auger of Destruction", "_t") -- 
-tDef(4544, "Physical damage increased by %d%%.", "tformat") -- 
-tDef(4546, "physical", "effect subtype") -- 
-tDef(4558, "Immune to Frightening Presence", "_t") -- 
-tDef(4559, "You resisted a Lich and are immune to its frightening presence.", "_t") -- 
-tDef(4573, "Frightening Presence", "_t") -- 
-tDef(4574, "The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%.", "tformat") -- 
-tDef(4576, "fear", "effect subtype") -- 
-tDef(4592, "Commander of the Dead", "_t") -- 
-tDef(4593, "Physical power, spellpower and all saves increased by %d.", "tformat") -- 
-tDef(4595, "lich", "effect subtype") -- 
-tDef(4595, "power", "effect subtype") -- 
+tDef(2545, "#Target# is out of phase.", "_t") -- 
+tDef(2545, "+Phased", "_t") -- 
+tDef(2546, "#Target# is no longer out of phase.", "_t") -- 
+tDef(2546, "-Phased", "_t") -- 
+tDef(2582, "Blood Lock", "_t") -- 
+tDef(2583, "Cannot heal higher than %d life.", "tformat") -- 
+tDef(2585, "blood", "effect subtype") -- 
+tDef(2588, "#Target# is blood locked.", "_t") -- 
+tDef(2588, "+Blood Lock", "_t") -- 
+tDef(2589, "#Target# is no longer blood locked.", "_t") -- 
+tDef(2589, "-Blood Lock", "_t") -- 
+tDef(2602, "Congeal Time", "_t") -- 
+tDef(2603, "Reduces global action speed by %d%% and all outgoing projectiles speed by %d%%.", "tformat") -- 
+tDef(2608, "#Target# slows down.", "_t") -- 
+tDef(2608, "+Congeal Time", "_t") -- 
+tDef(2609, "#Target# speeds up.", "_t") -- 
+tDef(2609, "-Congeal Time", "_t") -- 
+tDef(2627, "Arcane Vortex", "_t") -- 
+tDef(2628, "An arcane vortex follows the target. Each turn a manathrust fires from it to a random foe in sight doing %0.2f arcane damage to all. If no foes are found the main target takes 50%% more arcane damage this turn. If the target dies the remaining damage is dealt as a radius 2 ball of arcane.", "tformat") -- 
+tDef(2633, "#Target# is focused by an arcane vortex!.", "_t") -- 
+tDef(2633, "+Arcane Vortex", "_t") -- 
+tDef(2634, "#Target# is free from the arcane vortex.", "_t") -- 
+tDef(2634, "-Arcane Vortex", "_t") -- 
+tDef(2673, "Aether Breach", "_t") -- 
+tDef(2674, "Fires an arcane explosion each turn doing %0.2f arcane damage in radius 2.", "tformat") -- 
+tDef(2679, "#Target# begins channeling arcane through a breach in reality!", "_t") -- 
+tDef(2679, "+Aether Breach", "_t") -- 
+tDef(2680, "-Aether Breach", "_t") -- 
+tDef(2680, "The aetheric breach around #Target# seals itself.", "_t") -- 
+tDef(2712, "Aether Avatar", "_t") -- 
+tDef(2713, "Filled with pure aether forces!", "_t") -- 
+tDef(2746, "Vulnerability Poison", "_t") -- 
+tDef(2750, " and poison resistance is reduced by %s%%", "tformat") -- 
+tDef(2750, "The target is afflicted with a magical poison and is suffering %0.2f arcane damage per turn.  All resistances are reduced by 10%%%s.", "tformat") -- 
+tDef(2756, "#Target# is magically poisoned!", "_t") -- 
+tDef(2756, "+Vulnerability Poison", "_t") -- 
+tDef(2757, "#Target# is no longer magically poisoned.", "_t") -- 
+tDef(2757, "-Vulnerability Poison", "_t") -- 
+tDef(2776, "Irresistible Sun", "_t") -- 
+tDef(2777, "The target is attracting all toward it, also dealing fire, light and physical damage each turn..", "tformat") -- 
+tDef(2782, "#Target# starts to attract all creatures around!", "_t") -- 
+tDef(2782, "+Irresistible Sun", "_t") -- 
+tDef(2783, "#Target# is no longer attracting creatures.", "_t") -- 
+tDef(2783, "-Irresistible Sun", "_t") -- 
+tDef(2803, "%s is pulled in!", "logSeen") -- 
+tDef(2821, "Weight of the Sun", "_t") -- 
+tDef(2822, "The target is struggling against immense gravity, all damage it does is reduced by %d%%.", "tformat") -- 
+tDef(2827, "#Target# can barely stand!", "_t") -- 
+tDef(2827, "+Weight of the Sun", "_t") -- 
+tDef(2828, "#Target# can move freely once more.", "_t") -- 
+tDef(2828, "-Weight of the Sun", "_t") -- 
+tDef(2836, "Temporal Form", "_t") -- 
+tDef(2837, "The target assumes the form of a telugoroth.", "tformat") -- 
+tDef(2842, "#Target# threads time as a shell!", "_t") -- 
+tDef(2842, "+Temporal Form", "_t") -- 
+tDef(2843, "#Target# is no longer embeded in time.", "_t") -- 
+tDef(2843, "-Temporal Form", "_t") -- 
+tDef(2893, "Corrupted Losgoroth Form", "_t") -- 
+tDef(2894, "The target has assumed the form of a corrupted losgoroth, gaining immunity to poison, disease, bleeding, and confusion.  It does not need to breathe, and converts half of all damage to life draining blight.", "tformat") -- 
+tDef(2896, "arcane", "effect subtype") -- 
+tDef(2899, "#Target# turns into a losgoroth!", "_t") -- 
+tDef(2899, "+Corrupted Losgoroth Form", "_t") -- 
+tDef(2900, "-Corrupted Losgoroth Form", "_t") -- 
+tDef(2980, "Shivgoroth Form", "_t") -- 
+tDef(2981, "The target assumes the form of a shivgoroth.", "tformat") -- 
+tDef(2986, "#Target# turns into a shivgoroth!", "_t") -- 
+tDef(2986, "+Shivgoroth Form", "_t") -- 
+tDef(2987, "#Target# is no longer transformed.", "_t") -- 
+tDef(2987, "-Shivgoroth Form", "_t") -- 
+tDef(3031, "Keepers of Reality Rally Call", "_t") -- 
+tDef(3032, "The keepers of reality have called upon all to defend Point Zero. Life increased by 5000, damage by 300%.", "_t") -- 
+tDef(3051, "Receptive Mind", "_t") -- 
+tDef(3052, "You can sense the presence of all %s around you.", "tformat") -- 
+tDef(3054, "rune", "effect subtype") -- 
+tDef(3066, "Born into Magic", "_t") -- 
+tDef(3067, "%s damage increased by 20%%.", "tformat") -- 
+tDef(3069, "race", "effect subtype") -- 
+tDef(3081, "Essence of the Dead", "_t") -- 
+tDef(3082, "The target consumed souls to gain new powers. %d spells affected.", "tformat") -- 
+tDef(3085, "necrotic", "effect subtype") -- 
+tDef(3099, "Ice Armour", "_t") -- 
+tDef(3100, "The target is covered in a layer of ice. Its armour is increased by %d, it deals %0.1f Cold damage to attackers that hit in melee, and 50%% of its damage is converted to cold.", "tformat") -- 
+tDef(3102, "armour", "effect subtype") -- 
+tDef(3102, "cold", "effect subtype") -- 
+tDef(3105, "#Target# is covered in icy armor!", "_t") -- 
+tDef(3106, "#Target#'s ice coating crumbles away.", "_t") -- 
+tDef(3123, "Caustic Golem", "_t") -- 
+tDef(3124, "The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "tformat") -- 
+tDef(3126, "acid", "effect subtype") -- 
+tDef(3126, "coating", "effect subtype") -- 
+tDef(3129, "#Target# is coated in acid!", "_t") -- 
+tDef(3130, "#Target#'s acid coating is diluted.", "_t") -- 
+tDef(3151, "Sun's Vengeance", "_t") -- 
+tDef(3152, "The target is filled with the Sun's fury, next Sun Beam will be instant cast.", "tformat") -- 
+tDef(3157, "#Target# is filled with the Sun's fury!", "_t") -- 
+tDef(3157, "+Sun's Vengeance", "_t") -- 
+tDef(3158, "-Sun's Vengeance", "_t") -- 
+tDef(3166, "Suncloak", "_t") -- 
+tDef(3167, "The target is protected by the sun, increasing their spell casting speed by %d%%, reducing spell cooldowns by %d%%, and preventing damage over %d%% of your maximum life from a single hit.", "tformat") -- 
+tDef(3173, "#Target# is energized and protected by the Sun!", "_t") -- 
+tDef(3173, "+Suncloak", "_t") -- 
+tDef(3174, "#Target#'s solar fury subsides.", "_t") -- 
+tDef(3174, "-Suncloak", "_t") -- 
+tDef(3188, "Mark of Light", "_t") -- 
+tDef(3189, "The creature that marked the target with light will be healed for all melee attacks against it by %d%%.", "tformat") -- 
+tDef(3194, "#Target# is marked by light!", "_t") -- 
+tDef(3194, "+Mark of Light", "_t") -- 
+tDef(3195, "#Target#'s mark disappears.", "_t") -- 
+tDef(3195, "-Mark of Light", "_t") -- 
+tDef(3209, "Righteous Strength", "_t") -- 
+tDef(3210, "Increase light and physical damage by %d%%.", "tformat") -- 
+tDef(3215, "#Target# shines with light!", "_t") -- 
+tDef(3215, "+Righteous Strength", "_t") -- 
+tDef(3216, "#Target# stops shining.", "_t") -- 
+tDef(3216, "-Righteous Strength", "_t") -- 
+tDef(3236, "Lightburn", "_t") -- 
+tDef(3237, "The creature is burnt by light, dealing %0.2f light damage each turn and reducing armour by %d.", "tformat") -- 
+tDef(3242, "#Target# burns with light!", "_t") -- 
+tDef(3242, "+Lightburn", "_t") -- 
+tDef(3243, "#Target# stops burning.", "_t") -- 
+tDef(3243, "-Lightburn", "_t") -- 
+tDef(3263, "Illumination ", "_t") -- 
+tDef(3264, "The target glows in the light, reducing its stealth and invisibility power by %d, defense by %d and looses all evasion bonus from being unseen.", "tformat") -- 
+tDef(3269, "+Illumination", "_t") -- 
+tDef(3270, "-Illumination", "_t") -- 
+tDef(3281, "Light Burst ", "_t") -- 
+tDef(3282, "The is invigorated when dealing damage with Searing Sight.", "tformat") -- 
+tDef(3287, "+Light Burst", "_t") -- 
+tDef(3288, "-Light Burst", "_t") -- 
+tDef(3293, "Light Burst Speed", "_t") -- 
+tDef(3294, "The target is invigorated from Searing Sight, increasing movement speed by %d%%.", "tformat") -- 
+tDef(3296, "sun", "effect subtype") -- 
+tDef(3300, "+Light Burst Speed", "_t") -- 
+tDef(3301, "-Light Burst Speed", "_t") -- 
+tDef(3322, "Healing Inversion", "_t") -- 
+tDef(3323, "All healing done to the target will instead turn into %d%% blight damage.", "tformat") -- 
+tDef(3325, "heal", "effect subtype") -- 
+tDef(3328, "+Healing Inversion", "_t") -- 
+tDef(3329, "-Healing Inversion", "_t") -- 
+tDef(3352, "Shocked", "_t") -- 
+tDef(3353, "Target is reeling from an lightning shock, halving its stun and pinning resistance.", "tformat") -- 
+tDef(3355, "lightning", "effect subtype") -- 
+tDef(3357, "+Shocked", "_t") -- 
+tDef(3358, "-Shocked", "_t") -- 
+tDef(3373, "Wet", "_t") -- 
+tDef(3374, "Target is drenched with magical water, halving its stun resistance.", "tformat") -- 
+tDef(3376, "ice", "effect subtype") -- 
+tDef(3376, "water", "effect subtype") -- 
+tDef(3378, "+Wet", "_t") -- 
+tDef(3379, "-Wet", "_t") -- 
+tDef(3397, "Probability Travel", "_t") -- 
+tDef(3398, "Target is out of phase and may move through walls.", "tformat") -- 
+tDef(3403, "+Probability Travel", "_t") -- 
+tDef(3404, "-Probability Travel", "_t") -- 
+tDef(3415, "Blink", "_t") -- 
+tDef(3416, "Target is randomly teleporting every turn.", "tformat") -- 
+tDef(3420, "+Blink", "_t") -- 
+tDef(3421, "-Blink", "_t") -- 
+tDef(3431, "Dimensional Anchor", "_t") -- 
+tDef(3432, "The target is unable to teleport and takes %0.2f temporal and %0.2f physical damage if they try.", "tformat") -- 
+tDef(3434, "slow", "effect subtype") -- 
+tDef(3437, "#Target# is anchored.", "_t") -- 
+tDef(3437, "+Anchor", "_t") -- 
+tDef(3438, "#Target# is no longer anchored.", "_t") -- 
+tDef(3438, "-Anchor", "_t") -- 
+tDef(3453, "Breach", "_t") -- 
+tDef(3454, "The target's defenses have been breached, reducing armor hardiness, stun, pin, blindness, and confusion immunity by 50%%.", "tformat") -- 
+tDef(3458, "+Breach", "_t") -- 
+tDef(3459, "-Breach", "_t") -- 
+tDef(3484, "Braided", "_t") -- 
+tDef(3485, "The target is taking %d%% of all damage dealt to other braided targets.", "tformat") -- 
+tDef(3490, "#Target#'s lifeline has been braided.", "_t") -- 
+tDef(3490, "+Braided", "_t") -- 
+tDef(3491, "#Target#'s lifeline is no longer braided.", "_t") -- 
+tDef(3491, "-Braided", "_t") -- 
+tDef(3497, "#CRIMSON##Source# damages #Target# through the Braid!", "delayedLogMessage") -- 
+tDef(3498, "#PINK#%d braided #LAST#", "tformat") -- 
+tDef(3520, "Precognition", "_t") -- 
+tDef(3521, "Peer into the future, detecting enemies, increasing defense by %d, and granting a %d%% chance to ignore critical hits.", "tformat") -- 
+tDef(3523, "sense", "effect subtype") -- 
+tDef(3542, "Webs of Fate", "_t") -- 
+tDef(3543, "Displacing %d%% of all damage on to a random enemy.", "tformat") -- 
+tDef(3547, "+Webs of Fate", "_t") -- 
+tDef(3548, "-Webs of Fate", "_t") -- 
+tDef(3579, "%s(%d webs of fate)#LAST#", "tformat") -- 
+tDef(3598, "Seal Fate", "_t") -- 
+tDef(3605, "The target has a %d%% chance of increasing the duration of one detrimental status effects on targets it damages by one.", "tformat") -- 
+tDef(3608, "focus", "effect subtype") -- 
+tDef(3611, "+Seal Fate", "_t") -- 
+tDef(3612, "-Seal Fate", "_t") -- 
+tDef(3658, "Unravel", "_t") -- 
+tDef(3660, "The target is immune to further damage but is dealing %d%% less damage.", "tformat") -- 
+tDef(3662, "#Target# has started to unravel.", "_t") -- 
+tDef(3662, "+Unraveling", "_t") -- 
+tDef(3681, "Unravels!", "_t") -- 
+tDef(3682, "%s has unraveled!", "logSeen") -- 
+tDef(3690, "Entropy", "_t") -- 
+tDef(3691, "The target is losing one sustain per turn.", "_t") -- 
+tDef(3692, "#Target# is caught in an entropic field!", "_t") -- 
+tDef(3692, "+Entropy", "_t") -- 
+tDef(3693, "#Target# is free from the entropy.", "_t") -- 
+tDef(3693, "-Entropy", "_t") -- 
+tDef(3714, "Regression", "_t") -- 
+tDef(3715, "Reduces your three highest stats by %d.", "tformat") -- 
+tDef(3716, "#Target# has regressed.", "_t") -- 
+tDef(3716, "+Regression", "_t") -- 
+tDef(3717, "#Target# has returned to its natural state.", "_t") -- 
+tDef(3717, "-Regression", "_t") -- 
+tDef(3734, "The target is being removed from the timeline and is taking %0.2f temporal damage per turn.", "tformat") -- 
+tDef(3739, "#Target# is being being removed from the timeline!", "_t") -- 
+tDef(3740, "#Target# survived the attenuation.", "_t") -- 
+tDef(3755, "%s has been removed from the timeline!", "logSeen") -- 
+tDef(3772, "Attenuate", "_t") -- 
+tDef(3773, "The target is being grounded in the timeline and is healing %0.2f life per turn.", "tformat") -- 
+tDef(3778, "#Target# is being being grounded in the timeline!", "_t") -- 
+tDef(3778, "+Attenuate", "_t") -- 
+tDef(3779, "#Target# is no longer being grounded.", "_t") -- 
+tDef(3779, "-Attenuate", "_t") -- 
+tDef(3796, "Ogric Wrath", "_t") -- 
+tDef(3797, "Do not try to resist it!", "tformat") -- 
+tDef(3802, "#Target# enters an ogric frenzy.", "_t") -- 
+tDef(3802, "+Ogric Wrath", "_t") -- 
+tDef(3803, "#Target# calms down.", "_t") -- 
+tDef(3803, "-Ogric Wrath", "_t") -- 
+tDef(3846, "Ogre Fury", "_t") -- 
+tDef(3847, "Increases crit chance by %d%% and critical power by %d%%. %d charge(s).", "tformat") -- 
+tDef(3893, "Writ Large", "_t") -- 
+tDef(3894, "Inscriptions cooldown twice as fast.", "tformat") -- 
+tDef(3896, "runic", "effect subtype") -- 
+tDef(3899, "+Writ Large", "_t") -- 
+tDef(3900, "-Writ Large", "_t") -- 
+tDef(3921, "Static History", "_t") -- 
+tDef(3922, "Chronomancy spells cast by the target will not produce minor anomalies.", "tformat") -- 
+tDef(3927, "+Static History", "_t") -- 
+tDef(3927, "Spacetime has stabilized around #Target#.", "_t") -- 
+tDef(3928, "-Static History", "_t") -- 
+tDef(3928, "The fabric of spacetime around #Target# has returned to normal.", "_t") -- 
+tDef(3938, "Arrow Echoes", "_t") -- 
+tDef(3939, "Each turn will fire an arrow at %s.", "tformat") -- 
+tDef(3941, "time", "effect subtype") -- 
+tDef(3944, "+Arrow Echoes", "_t") -- 
+tDef(3945, "-Arrow Echoes", "_t") -- 
+tDef(3962, "Warden's Focus", "_t") -- 
+tDef(3964, "Focused on %s, +%d%% critical damage and +%d%% critical hit chance against this target.", "tformat") -- 
+tDef(3967, "tactic", "effect subtype") -- 
+tDef(3969, "+Warden's Focus", "_t") -- 
+tDef(3970, "-Warden's Focus", "_t") -- 
+tDef(3978, "%s(%d focus)#LAST#", "tformat") -- 
+tDef(3995, "Fateweaver", "_t") -- 
+tDef(3996, "The target's accuracy and power have been increased by %d.", "tformat") -- 
+tDef(3997, "%d Fateweaver", "tformat") -- 
+tDef(4003, "#Target# weaves fate.", "_t") -- 
+tDef(4003, "+Fateweaver", "_t") -- 
+tDef(4004, "#Target# stops weaving fate.", "_t") -- 
+tDef(4004, "-Fateweaver", "_t") -- 
+tDef(4042, "Fold Fate", "_t") -- 
+tDef(4043, "The target is nearing the end, its resistance to physical and temporal damage have been reduced by %d%%.", "tformat") -- 
+tDef(4048, "#Target# is nearing the end.", "_t") -- 
+tDef(4048, "+Fold Fate", "_t") -- 
+tDef(4081, "Spatial Tether", "_t") -- 
+tDef(4084, "The target has been tethered to the location and has a %d%% chance of being teleported back, creating an explosion for %0.2f physical and %0.2f temporal warp damage at both ends of the teleport.", "tformat") -- 
+tDef(4087, "teleport", "effect subtype") -- 
+tDef(4087, "temporal", "effect subtype") -- 
+tDef(4090, "#Target# has been tethered!", "_t") -- 
+tDef(4090, "+Tether", "_t") -- 
+tDef(4091, "#Target# is no longer tethered.", "_t") -- 
+tDef(4091, "-Tether", "_t") -- 
+tDef(4100, "Blight Poison", "_t") -- 
+tDef(4101, "The target is poisoned, taking %0.2f blight damage per turn.", "tformat") -- 
+tDef(4107, "#Target# is poisoned with blight!", "_t") -- 
+tDef(4107, "+Blight Poison", "_t") -- 
+tDef(4108, "#Target# is free from the blighted poison.", "_t") -- 
+tDef(4108, "-Blight Poison", "_t") -- 
+tDef(4128, "Insidious Blight", "_t") -- 
+tDef(4129, "The target is poisoned, taking %0.2f blight damage per turn and decreasing all heals received by %d%%.", "tformat") -- 
+tDef(4134, "#Target# is poisoned with insidious blight!!", "_t") -- 
+tDef(4134, "+Insidious Blight", "_t") -- 
+tDef(4135, "#Target# is free from the insidious blight.", "_t") -- 
+tDef(4135, "-Insidious Blight", "_t") -- 
+tDef(4156, "Crippling Blight", "_t") -- 
+tDef(4157, "The target is poisoned and sick, doing %0.2f blight damage per turn. Each time it tries to use a talent there is %d%% chance of failure.", "tformat") -- 
+tDef(4162, "#Target# is poisoned with crippling blight!", "_t") -- 
+tDef(4162, "+Crippling Blight", "_t") -- 
+tDef(4163, "#Target# is free from the crippling blight.", "_t") -- 
+tDef(4163, "-Crippling Blight", "_t") -- 
+tDef(4185, "Numbing Blight", "_t") -- 
+tDef(4186, "The target is poisoned and sick, doing %0.2f blight damage per turn. All damage it does is reduced by %d%%.", "tformat") -- 
+tDef(4188, "blight", "effect subtype") -- 
+tDef(4188, "poison", "effect subtype") -- 
+tDef(4191, "#Target# is poisoned numbing blight!", "_t") -- 
+tDef(4191, "+Numbing Blight", "_t") -- 
+tDef(4192, "#Target# is free from the numbing blight.", "_t") -- 
+tDef(4192, "-Numbing Blight", "_t") -- 
+tDef(4214, "Eldritch Stone Shield", "_t") -- 
+tDef(4216, "The target is surrounded by a stone shield absorbing %d/%d damage.  When the shield is removed, it will explode for up to %d (currently %d) Arcane damage in a radius %d.", "tformat") -- 
+tDef(4220, "shield", "effect subtype") -- 
+tDef(4223, "#Target# is encased in a stone shield.", "_t") -- 
+tDef(4225, "The stone shield around #Target# %s", "tformat") -- 
+tDef(4225, "crumbles.", "_t") -- 
+tDef(4225, "explodes!", "_t") -- 
+tDef(4268, "Deeprock Form", "_t") -- 
+tDef(4272, ", +%d%% Arcane damage and +%d%% Arcane damage penetration,", "tformat") -- 
+tDef(4275, ", +%d%% Nature damage and +%d%% Nature damage penetration", "tformat") -- 
+tDef(4278, ", %d%% bleeding, poison, disease, and stun immunity", "tformat") -- 
+tDef(4280, "  In addition, it uses its physical resistance against all damage.", "_t") -- 
+tDef(4280, "The target has turned into a huge deeprock elemental.  It gains 2 size categories%s and +%d%% Physical damage and +%d%% Physical damage penetration.%s", "tformat") -- 
+tDef(4283, "earth", "effect subtype") -- 
+tDef(4283, "elemental", "effect subtype") -- 
+tDef(4286, "#Target# is imbued by the power of the Stone.", "_t") -- 
+tDef(4286, "+Deeprock Form", "_t") -- 
+tDef(4287, "#Target# is abandoned by the Stone's power.", "_t") -- 
+tDef(4287, "-Deeprock Form", "_t") -- 
+tDef(4349, "Bathe in Light", "_t") -- 
+tDef(4350, "Fire and Light damage increased by %d%%.", "tformat") -- 
+tDef(4353, "celestial", "effect subtype") -- 
+tDef(4353, "light", "effect subtype") -- 
+tDef(4356, "#Target# glows intensely!", "_t") -- 
+tDef(4357, "#Target# is no longer glowing .", "_t") -- 
+tDef(4367, "Overseer of Nations", "_t") -- 
+tDef(4368, "Detects creatures of type %s/%s in radius 15.", "tformat") -- 
+tDef(4370, "higher", "effect subtype") -- 
+tDef(4384, "Pacification Hex", "_t") -- 
+tDef(4385, "The target is hexed, granting it %d%% chance each turn to be dazed for 3 turns.", "tformat") -- 
+tDef(4390, "+Pacification Hex", "_t") -- 
+tDef(4391, "-Pacification Hex", "_t") -- 
+tDef(4414, "Burning Hex", "_t") -- 
+tDef(4415, "The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "tformat") -- 
+tDef(4416, "%d%%", "tformat") -- 
+tDef(4420, "fire", "effect subtype") -- 
+tDef(4424, "#Target# is hexed!", "_t") -- 
+tDef(4424, "+Burning Hex", "_t") -- 
+tDef(4425, "-Burning Hex", "_t") -- 
+tDef(4430, "Empathic Hex", "_t") -- 
+tDef(4431, "The target is hexed, creating an empathic bond with its victims. It takes %d%% feedback damage from all damage done.", "tformat") -- 
+tDef(4437, "+Empathic Hex", "_t") -- 
+tDef(4438, "-Empathic hex", "_t") -- 
+tDef(4453, "Domination Hex", "_t") -- 
+tDef(4454, "The target is hexed, temporarily changing its faction to %s.", "tformat") -- 
+tDef(4456, "dominate", "effect subtype") -- 
+tDef(4456, "hex", "effect subtype") -- 
+tDef(4459, "#Target# is hexed.", "_t") -- 
+tDef(4459, "+Domination Hex", "_t") -- 
+tDef(4460, "#Target# is free from the hex.", "_t") -- 
+tDef(4460, "-Domination hex", "_t") -- 
+tDef(4478, "Shadowguard Immunity", "_t") -- 
+tDef(4479, "The target is immune to all detrimental effects.", "_t") -- 
+tDef(4483, "#Target#'s fades into the shadows.", "_t") -- 
+tDef(4483, "+Shadowguard", "_t") -- 
+tDef(4484, "#Target#'s can be afflicted again.", "_t") -- 
+tDef(4493, "Shadowguard", "_t") -- 
+tDef(4494, "The target is enveloped in shadows gaining %d spellpower and defense.", "tformat") -- 
+tDef(4496, "shadow", "effect subtype") -- 
+tDef(4499, "#Target#'s fully exits the shadows.", "_t") -- 
+tDef(4499, "-Shadowguard", "_t") -- 
+tDef(4509, "Retched", "_t") -- 
+tDef(4510, "The target is walking in its own retch, negating the natural ghoul's speed penalty.", "tformat") -- 
+tDef(4512, "speed", "effect subtype") -- 
+tDef(4512, "undead", "effect subtype") -- 
+tDef(4514, "#Target# speeds up in the retch.", "_t") -- 
+tDef(4514, "+Retched", "_t") -- 
+tDef(4515, "#Target# speeds down outside of the retch.", "_t") -- 
+tDef(4515, "-Retched", "_t") -- 
+tDef(4524, "Shadow Cut", "_t") -- 
+tDef(4525, "Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "tformat") -- 
+tDef(4527, "bleed", "effect subtype") -- 
+tDef(4527, "cut", "effect subtype") -- 
+tDef(4527, "wound", "effect subtype") -- 
+tDef(4530, "#Target# starts to bleed darkness.", "_t") -- 
+tDef(4530, "+Shadow Cut", "_t") -- 
+tDef(4531, "#Target# stops bleeding darkness.", "_t") -- 
+tDef(4531, "-Shadow Cut", "_t") -- 
+tDef(4556, "Draining Moonlight", "_t") -- 
+tDef(4557, "The target has been drained by a glyph, all damage it does is reduced by %d%%.", "tformat") -- 
+tDef(4559, "darkness", "effect subtype") -- 
+tDef(4562, "#Target# is weakened by the glyph of moonlight!", "_t") -- 
+tDef(4562, "+Draining Moonlight", "_t") -- 
+tDef(4563, "#Target# looks shakes off the effect of the glyph of moonlight.", "_t") -- 
+tDef(4563, "-Draining Moonlight", "_t") -- 
+tDef(4573, "Auger of Destruction", "_t") -- 
+tDef(4574, "Physical damage increased by %d%%.", "tformat") -- 
+tDef(4576, "physical", "effect subtype") -- 
+tDef(4588, "Dazzled", "_t") -- 
+tDef(4589, "All damage decreased by %d%%.", "tformat") -- 
+tDef(4591, "stun", "effect subtype") -- 
+tDef(4603, "Immune to Frightening Presence", "_t") -- 
+tDef(4604, "You resisted a Lich and are immune to its frightening presence.", "_t") -- 
+tDef(4618, "Elemental Mirage (First Element)", "_t") -- 
+tDef(4634, "Frightening Presence", "_t") -- 
+tDef(4635, "The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%.", "tformat") -- 
+tDef(4637, "fear", "effect subtype") -- 
+tDef(4653, "Elemental Mirage (Second Element)", "_t") -- 
+tDef(4654, "%s damage increased by %d%% and resistance penetration by %d%%.", "tformat") -- 
+tDef(4656, "phantasm", "effect subtype") -- 
+tDef(4669, "Commander of the Dead", "_t") -- 
+tDef(4670, "Physical power, spellpower and all saves increased by %d.", "tformat") -- 
+tDef(4672, "lich", "effect subtype") -- 
+tDef(4672, "power", "effect subtype") -- 
 
 
 ------------------------------------------------
@@ -42716,14 +42758,17 @@ tDef(2893, "A psionic shield forms around #target#.", "_t") --
 tDef(2894, "-Shield", "_t") -- 
 tDef(2894, "The psionic shield around #target# crumbles.", "_t") -- 
 tDef(2926, "Unseen Force", "_t") -- 
-tDef(2936, "An unseen force begins to swirl around %s!", "logSeen") -- 
-tDef(2941, "The unseen force around %s subsides.", "logSeen") -- 
-tDef(2971, "Psionic Maelstrom", "_t") -- 
-tDef(2972, "This creature is standing in the eye of a powerful storm of psionic forces.", "tformat") -- 
-tDef(2974, "psionic", "effect subtype") -- 
-tDef(3021, "Caught Lightning", "_t") -- 
-tDef(3022, "Lightning Catcher has caught energy and is empowering you for +%d%% lightning damage and +%d to all stats.", "tformat") -- 
-tDef(3024, "lightning", "effect subtype") -- 
+tDef(2929, "%s", "tformat") -- 
+tDef(2929, "from %d to %d", "tformat") -- 
+tDef(2930, "An unseen force strikes %s targets in a range of %d around this creature every turn, doing %d damage and knocking them back for %d tiles.", "tformat") -- 
+tDef(2935, "An unseen force begins to swirl around %s!", "logSeen") -- 
+tDef(2940, "The unseen force around %s subsides.", "logSeen") -- 
+tDef(2970, "Psionic Maelstrom", "_t") -- 
+tDef(2971, "This creature is standing in the eye of a powerful storm of psionic forces.", "tformat") -- 
+tDef(2973, "psionic", "effect subtype") -- 
+tDef(3020, "Caught Lightning", "_t") -- 
+tDef(3021, "Lightning Catcher has caught energy and is empowering you for +%d%% lightning damage and +%d to all stats.", "tformat") -- 
+tDef(3023, "lightning", "effect subtype") -- 
 
 
 ------------------------------------------------
@@ -48105,74 +48150,76 @@ tDef(433, "When you do a mouse gesture (right click + drag) a color coded trail 
 tDef(434, "#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "_t") -- 
 tDef(442, "If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "_t") -- 
 tDef(443, "#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "_t") -- 
-tDef(451, "Sharpen Visuals, set to 0 to disable.#WHITE#", "_t") -- 
-tDef(452, "#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "_t") -- 
-tDef(455, "Enter Sharpen Power", "_t") -- 
-tDef(455, "From 0(disable) to 10", "_t") -- 
-tDef(472, "Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "_t") -- 
-tDef(473, "#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "_t") -- 
-tDef(476, "From 1 to 50", "_t") -- 
-tDef(476, "Scroll distance", "_t") -- 
-tDef(484, "If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "_t") -- 
-tDef(485, "#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "_t") -- 
-tDef(488, "From 1 to 99 (100 to disable)", "_t") -- 
-tDef(488, "Life lost percentage (out of max life)", "_t") -- 
-tDef(496, "Enables or disables weather effects in some zones.\
+tDef(451, "Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "_t") -- 
+tDef(452, "#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "_t") -- 
+tDef(461, "Sharpen Visuals, set to 0 to disable.#WHITE#", "_t") -- 
+tDef(462, "#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "_t") -- 
+tDef(465, "Enter Sharpen Power", "_t") -- 
+tDef(465, "From 0(disable) to 10", "_t") -- 
+tDef(482, "Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "_t") -- 
+tDef(483, "#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "_t") -- 
+tDef(486, "From 1 to 50", "_t") -- 
+tDef(486, "Scroll distance", "_t") -- 
+tDef(494, "If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "_t") -- 
+tDef(495, "#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "_t") -- 
+tDef(498, "From 1 to 99 (100 to disable)", "_t") -- 
+tDef(498, "Life lost percentage (out of max life)", "_t") -- 
+tDef(506, "Enables or disables weather effects in some zones.\
 Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#", "_t") -- 
-tDef(497, "#GOLD##{bold}#Weather effects#WHITE##{normal}#", "_t") -- 
-tDef(505, "Enables or disables day/night light variations effects..#WHITE#", "_t") -- 
-tDef(506, "#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "_t") -- 
-tDef(514, "Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "_t") -- 
-tDef(515, "#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "_t") -- 
-tDef(523, "Enables quick melee targeting.\
+tDef(507, "#GOLD##{bold}#Weather effects#WHITE##{normal}#", "_t") -- 
+tDef(515, "Enables or disables day/night light variations effects..#WHITE#", "_t") -- 
+tDef(516, "#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "_t") -- 
+tDef(524, "Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "_t") -- 
+tDef(525, "#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "_t") -- 
+tDef(533, "Enables quick melee targeting.\
 Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#", "_t") -- 
-tDef(524, "#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "_t") -- 
-tDef(532, "Enables quick melee targeting auto attacking.\
+tDef(534, "#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "_t") -- 
+tDef(542, "Enables quick melee targeting auto attacking.\
 Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#", "_t") -- 
-tDef(533, "#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "_t") -- 
-tDef(541, "Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "_t") -- 
-tDef(542, "#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "_t") -- 
-tDef(550, "Auto-validate targets. If you fire an arrow/talent/... it will automatically use the default target without asking\
+tDef(543, "#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "_t") -- 
+tDef(551, "Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "_t") -- 
+tDef(552, "#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "_t") -- 
+tDef(560, "Auto-validate targets. If you fire an arrow/talent/... it will automatically use the default target without asking\
 #LIGHT_RED#This is dangerous. Do not enable unless you know exactly what you are doing.#WHITE#\
 \
 Default target is always either one of:\
  - The last creature hovered by the mouse\
  - The last attacked creature\
  - The closest creature", "_t") -- 
-tDef(551, "#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "_t") -- 
-tDef(559, "New games begin with some talent points auto-assigned.#WHITE#", "_t") -- 
-tDef(560, "#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "_t") -- 
-tDef(568, "Always rest to full before auto-exploring.#WHITE#", "_t") -- 
-tDef(569, "#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "_t") -- 
-tDef(577, "When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "_t") -- 
-tDef(578, "#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "_t") -- 
-tDef(594, "Configure the chat filters to select what kind of messages to see.#WHITE#", "_t") -- 
-tDef(595, "#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "_t") -- 
-tDef(599, "Deaths", "_t") -- 
-tDef(600, "Object & Creatures links", "_t") -- 
-tDef(604, "Configure the chat ignore filter.#WHITE#", "_t") -- 
-tDef(605, "#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "_t") -- 
-tDef(609, "Configure the chat channels to listen to.#WHITE#", "_t") -- 
-tDef(610, "#GOLD##{bold}#Chat channels#WHITE##{normal}#", "_t") -- 
-tDef(611, "select to configure", "_t") -- 
-tDef(614, "Open links in external browser instead of the embedded one.\
+tDef(561, "#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "_t") -- 
+tDef(569, "New games begin with some talent points auto-assigned.#WHITE#", "_t") -- 
+tDef(570, "#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "_t") -- 
+tDef(578, "Always rest to full before auto-exploring.#WHITE#", "_t") -- 
+tDef(579, "#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "_t") -- 
+tDef(587, "When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "_t") -- 
+tDef(588, "#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "_t") -- 
+tDef(604, "Configure the chat filters to select what kind of messages to see.#WHITE#", "_t") -- 
+tDef(605, "#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "_t") -- 
+tDef(609, "Deaths", "_t") -- 
+tDef(610, "Object & Creatures links", "_t") -- 
+tDef(614, "Configure the chat ignore filter.#WHITE#", "_t") -- 
+tDef(615, "#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "_t") -- 
+tDef(619, "Configure the chat channels to listen to.#WHITE#", "_t") -- 
+tDef(620, "#GOLD##{bold}#Chat channels#WHITE##{normal}#", "_t") -- 
+tDef(621, "select to configure", "_t") -- 
+tDef(624, "Open links in external browser instead of the embedded one.\
 This does not affect addons browse and installation which always stays ingame.", "_t") -- 
-tDef(615, "#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "_t") -- 
-tDef(623, "Enable Discord's Rich Presence integration to show your current character on your currently playing profile on Discord (restart the game to apply).\
+tDef(625, "#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "_t") -- 
+tDef(633, "Enable Discord's Rich Presence integration to show your current character on your currently playing profile on Discord (restart the game to apply).\
 #ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.", "_t") -- 
-tDef(624, "#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "_t") -- 
-tDef(632, "Keep a copy of your character sheets (not the whole savefile) on the online vault at te4.org.\
+tDef(634, "#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "_t") -- 
+tDef(642, "Keep a copy of your character sheets (not the whole savefile) on the online vault at te4.org.\
 For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#", "_t") -- 
-tDef(633, "#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "_t") -- 
-tDef(642, "Allow various events that are pushed by the server when playing online\
+tDef(643, "#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "_t") -- 
+tDef(652, "Allow various events that are pushed by the server when playing online\
 #{bold}#All#{normal}#: Allow all server events (bonus zones, random events, ...)\
 #{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.\
 #{bold}#Disabled#{normal}#: Disallow all.\
 #WHITE#", "_t") -- 
-tDef(643, "#GOLD##{bold}#Allow online events#WHITE##{normal}#", "_t") -- 
-tDef(644, "all", "_t") -- 
-tDef(644, "technical help only", "_t") -- 
-tDef(653, "Disables all connectivity to the network.\
+tDef(653, "#GOLD##{bold}#Allow online events#WHITE##{normal}#", "_t") -- 
+tDef(654, "all", "_t") -- 
+tDef(654, "technical help only", "_t") -- 
+tDef(663, "Disables all connectivity to the network.\
 This includes, but is not limited to:\
 - Player profiles: You will not be able to login, register\
 - Characters vault: You will not be able to upload any character to the online vault to show your glory\
@@ -48189,25 +48236,25 @@ If you do not want that, simply run the game directly: the #{bold}#only#{normal}
 \
 #{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.\
 A full exit and restart of the game is neccessary to apply this setting.#{normal}#", "_t") -- 
-tDef(670, "#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "_t") -- 
-tDef(671, "no", "_t") -- 
-tDef(671, "yes", "_t") -- 
-tDef(686, "Saves in the background, allowing you to continue playing.\
+tDef(680, "#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "_t") -- 
+tDef(681, "no", "_t") -- 
+tDef(681, "yes", "_t") -- 
+tDef(696, "Saves in the background, allowing you to continue playing.\
 #LIGHT_RED#Disabling it is not recommended.#WHITE#", "_t") -- 
-tDef(687, "#GOLD##{bold}#Save in the background#WHITE##{normal}#", "_t") -- 
-tDef(695, "Forces the game to save each level instead of each zone.\
+tDef(697, "#GOLD##{bold}#Save in the background#WHITE##{normal}#", "_t") -- 
+tDef(705, "Forces the game to save each level instead of each zone.\
 This makes it save more often but the game will use less memory when deep in a dungeon.\
 \
 #LIGHT_RED#Changing this option will not affect already visited zones.\
 *THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.\
 #LIGHT_RED#Disabling it is not recommended#WHITE#", "_t") -- 
-tDef(696, "#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "_t") -- 
-tDef(704, "Disallow boot images that could be found 'offensive'.#WHITE#", "_t") -- 
-tDef(705, "#GOLD##{bold}#Censor boot#WHITE##{normal}#", "_t") -- 
-tDef(713, "Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "_t") -- 
-tDef(714, "#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "_t") -- 
-tDef(715, "disabled", "_t") -- 
-tDef(715, "enabled", "_t") -- 
+tDef(706, "#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "_t") -- 
+tDef(714, "Disallow boot images that could be found 'offensive'.#WHITE#", "_t") -- 
+tDef(715, "#GOLD##{bold}#Censor boot#WHITE##{normal}#", "_t") -- 
+tDef(723, "Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "_t") -- 
+tDef(724, "#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "_t") -- 
+tDef(725, "disabled", "_t") -- 
+tDef(725, "enabled", "_t") -- 
 
 
 ------------------------------------------------

@@ -836,7 +836,7 @@ The amount of %s automatically gained or lost each turn.]]):tformat(res_def.name
 			self:mouseTooltip(self.TOOLTIP_ESP,  s:drawColorStringBlended(self.font, _t("Telepathy of: "), w, h, 255, 255, 255, true)) h = h + self.font_h
 			if not esps_compare["All"] or not esps_compare["All"][2] or esps_compare["All"][2] == 0 then
 				for type, v in pairs(esps_compare) do
-					self:mouseTooltip(self.TOOLTIP_ESP,  s:drawColorStringBlended(self.font, ("%s%s "):format(v[2] and (v[1] and "#GOLD#" or "#00ff00#") or "#ff0000#", string.tslash(type):capitalize()), w, h, 255, 255, 255, true)) h = h + self.font_h
+					self:mouseTooltip(self.TOOLTIP_ESP,  s:drawColorStringBlended(self.font, ("%s%s "):format(v[2] and (v[1] and "#GOLD#" or "#00ff00#") or "#ff0000#", string.ttype(type, "entity"):capitalize()), w, h, 255, 255, 255, true)) h = h + self.font_h
 				end
 			else
 				self:mouseTooltip(self.TOOLTIP_ESP_ALL,  s:drawColorStringBlended(self.font, ("%sAll "):tformat(esps_compare["All"][2] and (esps_compare["All"][1] and "#GOLD#" or "#00ff00#") or "#ff0000#"), w, h, 255, 255, 255, true)) h = h + self.font_h

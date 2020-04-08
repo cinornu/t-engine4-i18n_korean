@@ -67,13 +67,15 @@ newBirthDescriptor{
 		["corruption/sanguisuge"]={true, 0.0},
 		["corruption/reaving-combat"]={true, 0.3},
 		["corruption/scourge"]={true, 0.3},
-		["corruption/plague"]={true, 0.0},
+		["corruption/plague"]={true, 0.3},
 		["corruption/hexes"]={false, 0.3},
 		["corruption/curses"]={false, 0.3},
 		["corruption/bone"]={true, 0.3},
 		["corruption/torment"]={true, 0.3},
 		["corruption/vim"]={true, 0.0},
 		["corruption/rot"]={false, 0.3},
+		["corruption/vile-life"]={false, 0.0},
+
 	},
 	talents = {
 		[ActorTalents.T_CORRUPTED_STRENGTH] = 1,

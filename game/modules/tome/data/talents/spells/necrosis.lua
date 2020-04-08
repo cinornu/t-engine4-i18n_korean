@@ -59,8 +59,8 @@ newTalent{
 	mana = 60,
 	cooldown = 25,
 	tactical = { ATTACK = { ARCANE = 3 }, DISABLE = 2 },
-	rnd_boss_restrict = function(self, t)
-		return self.level < 15
+	rnd_boss_restrict = function(self, t, data)
+		return data.level < 15
 	end,
 	range = 7,
 	requires_target = true,

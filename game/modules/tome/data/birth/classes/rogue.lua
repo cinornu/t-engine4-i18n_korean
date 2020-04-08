@@ -172,6 +172,7 @@ newBirthDescriptor{
 		_t"#LIGHT_BLUE# * +0 Magic, +0 Willpower, +1 Cunning",
 		_t"#GOLD#Life per level:#LIGHT_BLUE# +0",
 	},
+	power_source = {technique=true},
 	stats = { dex=4, str=4, cun=1, },
 	talents_types = {
 		["technique/dualweapon-attack"]={true, 0.3},
@@ -233,7 +234,7 @@ newBirthDescriptor{
 		_t"#GOLD#Life per level:#LIGHT_BLUE# +0",
 	},
 	--not_on_random_boss = true,
-	power_source = {technique=true},
+	power_source = {technique=true, technique_ranged=true},
 	stats = {dex = 4, cun = 4, wil = 1},
 	talents_types = {
 		-- class

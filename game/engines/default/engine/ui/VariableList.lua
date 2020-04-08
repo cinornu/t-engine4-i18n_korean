@@ -50,7 +50,7 @@ function _M:generate()
 	self.max = #self.list
 
 	local fw, fh = self.w, self.font_h
-	self.fw, self.fh = fw, fh
+	self.fw = fw, fh
 
 	self.frame = self:makeFrame(nil, fw, fh)
 	self.frame_sel = self:makeFrame("ui/selector-sel", fw, fh)
@@ -65,12 +65,18 @@ function _M:generate()
 			local color = item.color or {255,255,255}
 			local width = fw - self.frame_sel.b4.w - self.frame_sel.b6.w
 
-			local text = self.font:draw(item[self.display_prop], width, color[1], color[2], color[3])
+			local font, fh = self.font, fh
+			if item.font then
+				font = item.font
+				fh = font:lineSkip()
+			end
+
+			local text = font:draw(item[self.display_prop], width, color[1], color[2], color[3])
 			ifh = fh * #text + self.frame_sel.b8.w / 3 * 2
 
 			local texs = {}
 			for z, tex in ipairs(text) do
-				texs[z] = {t=tex._tex, tw=tex._tex_w, th = tex._tex_h, w=tex.w, h=tex.h, y = (z - 1) * self.font_h + self.frame_sel.b8.w / 3}
+				texs[z] = {t=tex._tex, tw=tex._tex_w, th = tex._tex_h, w=tex.w, h=tex.h, y = (z - 1) * fh + self.frame_sel.b8.w / 3}
 			end
 			item.start_h = sh
 			item.fh = ifh

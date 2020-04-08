@@ -100,7 +100,7 @@ uberTalent{
 	getDarkness = function(self, t) return self:combatStatScale("cun", 1, 30, 0.75) end,
 	getAcid = function(self, t) return self:combatStatScale("cun", 10, 100, 0.75) end,
 	getTemporal = function(self, t) return self:combatStatScale("cun", 1, 40, 0.75) end,
-	getMind = function(self, t) return self:combatStatScale("cun", 1, 40, 0.75) end,
+	getMind = function(self, t) return util.bound(self:combatStatScale("cun", 1, 40, 0.75), 0, 50) end,
 	range = 10,
 	radius = 3,
 	dts = {TEMPORAL=true, BLIGHT=true, ACID=true, DARKNESS=true, MIND=true, PHYSICAL=true},
@@ -169,7 +169,7 @@ uberTalent{
 			elseif damtype == DamageType.MIND and not self:hasProc("endless_woes_mind") then
 				self:setProc("endless_woes_mind", true, 10)
 				game.logSeen(self, "You unleash a confusing blast of #YELLOW#mental#LAST# energy!", self:getName():capitalize())
-				t.doProject(self, t, damtype, {id="EFF_CONFUSED", dur=5, params={power=50}, canbe="confusion"}, "starfall")
+				t.doProject(self, t, damtype, {id="EFF_CONFUSED", dur=5, params={power=t.getMind(self, t)}, canbe="confusion"}, "starfall")
 			elseif damtype == DamageType.PHYSICAL and not self:hasProc("endless_woes_physical") then
 				self:setProc("endless_woes_physical", true, 10)
 				game.logSeen(self, "You unleash a crippling blast of earthen energy!", self:getName():capitalize())
@@ -193,7 +193,7 @@ uberTalent{
 		Whenever you have stored %d damage of one type you unleash a powerful blast at a random enemy dealing %d damage of that type in radius %d and applying one of the following effects:
 
 		Physical:		Slows combat, mind, and spell speed by 20%%.
-		#GREEN#Acid:#LAST#  Deals %d acid damage each turn for 5 turns.
+		#GREEN#Acid:#LAST#  Deals %d acid damage each turn for 5 turns (%d total).
 		#DARK_GREEN#Blight:#LAST#  Deals %d blight damage each turn for 5 turns and reduces strength, constitution, and dexterity by %d.
 		#GREY#Darkness:#LAST#  Reduces damage dealt by %d%% for 5 turns.
 		#LIGHT_STEEL_BLUE#Temporal:#LAST#  Slows global action speed by %d%% for 5 turns.
@@ -202,7 +202,7 @@ uberTalent{
 		Each effect can only happen once per 10 player turns.  This does not count as a typical cooldown.
 		The damage and effect power increase with your Cunning, the threshold with your level, and the apply power is the highest of your mind or spell power.
 		%s]])
-		:tformat(t.getThreshold(self, t), t.getDamage(self, t), self:getTalentRadius(t), t.getAcid(self, t), blight_dam, blight_disease, t.getDarkness(self, t), t.getTemporal(self, t), t.getMind(self, t), str)
+		:tformat(t.getThreshold(self, t), t.getDamage(self, t), self:getTalentRadius(t), damDesc(self, DamageType.ACID, t.getAcid(self, t)), damDesc(self, DamageType.ACID, t.getAcid(self, t)*5), blight_dam, blight_disease, t.getDarkness(self, t), t.getTemporal(self, t), t.getMind(self, t), str)
 	end,
 }
 

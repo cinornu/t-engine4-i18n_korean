@@ -70,7 +70,7 @@ newTalent{
 	tactical = { BUFF = 3 },
 	-- The effect "ELEMENTAL_HARMONY" is defined in data\timed_effects\physical.lua and the duration applied in setDefaultProjector function in data\damagetypes.lua	
 	duration = function(self,t) return 5 end, --return math.floor(self:combatTalentScale(t, 6, 10, "log"))  end,
-	fireSpeed = function(self, t) return self:combatTalentScale(t, 0.1, 0.3, 0.75) end,
+	fireSpeed = function(self, t) return self:combatTalentScale(t, 0.1, 0.3) end,
 	coldArmor = function(self, t) return self:combatTalentScale(t, 8, 25, 0.75) end,
 	lightningStats = function(self, t) return self:combatTalentScale(t, 5, 20, 0.75) end,
 	acidRegen = function(self, t) return self:combatTalentScale(t, 10, 40, 0.75) end,

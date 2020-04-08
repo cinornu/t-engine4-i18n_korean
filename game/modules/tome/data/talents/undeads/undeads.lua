@@ -25,24 +25,21 @@ newTalentType{ type="undead/vampire", name = _t"vampire", generic = true, descri
 newTalentType{ type="undead/lich", name = _t"lich", generic = true, description = _t"Liches innate abilities." }
 
 -- Generic requires for undeads based on talent level
-undeads_req1 = {
-	level = function(level) return 0 + (level-1)  end,
-}
-undeads_req2 = {
-	level = function(level) return 4 + (level-1)  end,
-}
-undeads_req3 = {
-	level = function(level) return 8 + (level-1)  end,
-}
-undeads_req4 = {
-	level = function(level) return 12 + (level-1)  end,
-}
-undeads_req5 = {
-	level = function(level) return 16 + (level-1)  end,
-}
+undeads_req1 = { level = function(level) return 0 + (level-1)  end, }
+undeads_req2 = { level = function(level) return 4 + (level-1)  end, }
+undeads_req3 = { level = function(level) return 8 + (level-1)  end, }
+undeads_req4 = { level = function(level) return 12 + (level-1)  end, }
+undeads_req5 = { level = function(level) return 16 + (level-1)  end, }
+
+high_undeads_req1 = { level = function(level) return 25 + (level-1)  end }
+high_undeads_req2 = { level = function(level) return 28 + (level-1)  end }
+high_undeads_req3 = { level = function(level) return 30 + (level-1)  end }
+high_undeads_req4 = { level = function(level) return 32 + (level-1)  end }
+
 
 load("/data/talents/undeads/ghoul.lua")
 load("/data/talents/undeads/skeleton.lua")
+load("/data/talents/undeads/lich.lua")
 
 
 -- Undeads's power: ID

@@ -17,6 +17,8 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
+local Dialog = require "engine.ui.Dialog"
+
 uberTalent{
 	name = "Spectral Shield",
 	not_listed = true,  -- Functionality was baselined on shields
@@ -319,8 +321,8 @@ uberTalent{
 	name = "Cauterize",
 	mode = "passive",
 	cooldown = 12,
-	require = { special={desc=_t"Have received at least 7500 fire damage and have cast at least 1000 spells", fct=function(self) return
-		self.talent_kind_log and self.talent_kind_log.spell and self.talent_kind_log.spell >= 1000 and self.damage_intake_log and self.damage_intake_log[DamageType.FIRE] and self.damage_intake_log[DamageType.FIRE] >= 7500
+	require = { special={desc=_t"Have received at least 3500 fire damage and have cast at least 1000 spells", fct=function(self) return
+		self.talent_kind_log and self.talent_kind_log.spell and self.talent_kind_log.spell >= 1000 and self.damage_intake_log and self.damage_intake_log[DamageType.FIRE] and self.damage_intake_log[DamageType.FIRE] >= 3500
 	end} },
 	trigger = function(self, t, value)
 		self:startTalentCooldown(t)
@@ -334,5 +336,106 @@ uberTalent{
 		The flames will cauterize the wound, fully absorbing all damage done this turn, but they will continue to burn for 8 turns.
 		Each turn 10%% of the damage absorbed will be dealt by the flames. This will bypass resistance and affinity.
 		Warning: this has a cooldown.]]):tformat()
+	end,
+}
+
+uberTalent{
+	name = "Lich",
+	require = {
+		special={desc=_t"Is a living creature that knows necromancy", fct=function(self)
+			local nb = 0
+			for tid, lvl in pairs(self.talents) do local t = self:getTalentFromId(tid) if t.is_necromancy then nb = nb + lvl end end
+			return not self:attr("true_undead") and nb > 0
+		end},
+		special2={desc=_t"Have completed the ritual", fct=function(self)
+			if not game.state.birth.supports_lich_transform then return true else return self:isQuestStatus(game.state.birth.supports_lich_transform, engine.Quest.DONE) end
+		end},
+		stat = {wil=25},
+	},
+	is_race_evolution = function(self, t)
+		if self:attr("necromancy_immune") then return false end
+		if self:attr("greater_undead") then return false end
+		local nb = 0
+		for tid, lvl in pairs(self.talents) do local t = self:getTalentFromId(tid) if t.is_necromancy then nb = nb + lvl end end
+		return not self:attr("true_undead") and nb > 0
+	end,
+	cant_steal = true,
+	is_spell = true,
+	is_necromancy = true,
+	mode = "passive",
+	no_npc_use = true,
+	becomeLich = function(self, t)
+		self.descriptor.race = "Undead"
+		self.descriptor.subrace = "Lich"
+		if not self.has_custom_tile then
+			self.moddable_tile = "skeleton"
+			self.moddable_tile_nude = 1
+			self.moddable_tile_base = "base_lich_01.png"
+			self.moddable_tile_ornament = nil
+			self.moddable_tile_hair = nil
+			self.moddable_tile_facial_features = nil
+			self.moddable_tile_tatoo = nil
+			self.moddable_tile_horn = nil
+			self.attachement_spots = "race_skeleton"
+		end
+		self.blood_color = colors.GREY
+		self:attr("poison_immune", 1)
+		self:attr("disease_immune", 1)
+		self:attr("stun_immune", 1)
+		self:attr("cut_immune", 1)
+		self:attr("fear_immune", 1)
+		self:attr("no_breath", 1)
+		self:attr("mana_regen", 7)
+		self.resists[DamageType.COLD] = (self.resists[DamageType.COLD] or 0) + 20
+		self.resists[DamageType.DARKNESS] = (self.resists[DamageType.DARKNESS] or 0) + 20
+		self.inscription_forbids = self.inscription_forbids or {}
+		self.inscription_forbids["inscriptions/infusions"] = true
+
+		self:incIncStat("mag", 12) self:incIncStat("wil", 12) self:incIncStat("cun", 12)
+		self:attr("combat_spellresist", 35) self:attr("combat_mentalresist", 35)
+		self.life_rating = self.life_rating + 4
+		self:attr("ignore_direct_crits", 60)
+
+		self:attr("undead", 1)
+		self:attr("true_undead", 1)
+		self:attr("greater_undead", 1)
+
+		self:learnTalentType("undead/lich", true)
+
+		if self:attr("blood_life") then
+			self.blood_life = nil
+			game.log("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.")
+		end
+
+		if not self.has_custom_tile then
+			self:removeAllMOs()
+			self:updateModdableTile()
+			Dialog:yesnoLongPopup(_t"Lichform", _t"#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!\n\n#{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.", 600, function(ret) if ret then
+				require("mod.dialogs.Birther"):showCosmeticCustomizer(self, _t"Lich Cosmetic Options")
+			end end, _t"Customize Appearance", _t"Use Default", true)
+		else
+			Dialog:simplePopup(_t"Lichform", _t"#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!")
+		end
+
+		game.level.map:particleEmitter(self.x, self.y, 1, "demon_teleport")
+	end,
+	on_learn = function(self, t)
+		self:learnTalent(self.T_NEVERENDING_UNLIFE, true, 1)
+		game.bignews:say(120, "#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#")
+	end,
+	on_unlearn = function(self, t)
+	end,
+	info = function(self, t)
+		return ([[This is your true goal and the purpose of all necromancy - to become a powerful and everliving Lich!
+		Once learnt, the next time you are killed, the arcane forces you unleash will be able to rebuild your body into the desired Lichform.
+		Liches are immune to poisons, diseases, fear, cuts, stuns, do not need to breath and are 20%% resistant to cold and darkness.
+		Liches also gain +12 Magic, Willpower and Cunning, 60%% chance to ignore critical hits, +4 life rating (not retroactive), +35 spell and mental saves, all resistance caps raised by 15%% and 7 mana regeneration.
+
+		Liches gain a new racial tree with the following talents:
+		- Neverending Unlife: A Lich body is extremely resilient, being able to go into negative life and when destroyed it can regenerate itself.
+		- Frightening Presence: Your mere presence is enough to shatter the resolve of most, reducing their saves, damage and movement speed.
+		- Doomed for Eternity: As a creature of doom and despair you now constantly spawn undead shadows around you.
+		- Commander of the Dead: You are able to infuse all undead party members (including yourself) with un-natural power, increasing your physical and spellpower.
+		]]):tformat()
 	end,
 }

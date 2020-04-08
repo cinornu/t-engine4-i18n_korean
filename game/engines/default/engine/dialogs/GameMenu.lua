@@ -50,6 +50,12 @@ end
 function _M:generateList(actions)
 	local default_actions = {
 		resume = { _t"Resume", function() game:unregisterDialog(self) end },
+		language = { _t"Language", function()
+			game:unregisterDialog(self)
+			package.loaded["engine.dialogs.LanguageSelect"] = nil
+			local menu = require("engine.dialogs.LanguageSelect").new()
+			game:registerDialog(menu)
+		end },
 		keybinds = { _t"Key Bindings", function()
 			game:unregisterDialog(self)
 			local menu = require("engine.dialogs.KeyBinder").new(game.normal_key, nil, game.gestures)

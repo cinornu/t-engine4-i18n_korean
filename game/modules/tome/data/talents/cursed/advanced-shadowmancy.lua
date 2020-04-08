@@ -17,6 +17,15 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
+function shadowWarriorMult(self)
+	if self:knowTalent(self.T_SHADOW_WARRIORS) then
+		t = self:getTalentFromId(self.T_SHADOW_WARRIORS)
+		return 1 + t.getIncDamage(self, t) / 100
+	else
+		return 1
+	end
+end
+
 newTalent{
 	name = "Merge",
 	type = {"cursed/advanced-shadowmancy", 1},
@@ -30,7 +39,7 @@ newTalent{
 	getReduction = function(self, t) return self:combatTalentScale(t, 10, 40) end,
 	on_pre_use = function(self, t) return game.level and self:callTalent(self.T_CALL_SHADOWS, "nbShadowsUp") > 0 end,
 	action = function(self, t)
-		local tg = {type="hit", range=self:getTalentRange(t), talent=t, first_target="friend"}
+		local tg = {type="hit", range=self:getTalentRange(t), talent=t, first_target="friend", pass_terrain=self:knowTalent(self.T_SHADOW_SENSES)}
 		local x, y, target = self:getTargetLimited(tg)
 		if x and y and target and target.summoner and target.summoner == self and target.is_doomed_shadow then
 			local tg2 = {type="hit", range=self:getTalentRange(t), start_x=x, start_y=y, source_actor=target, pass_terrain=true}
@@ -67,7 +76,7 @@ newTalent{
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 0, 280) end,
 	on_pre_use = function(self, t) return game.level and self:callTalent(self.T_CALL_SHADOWS, "nbShadowsUp") > 0 end,
 	action = function(self, t)
-		local tg = {type="hit", range=self:getTalentRange(t), talent=t, first_target="friend"}
+		local tg = {type="hit", range=self:getTalentRange(t), talent=t, first_target="friend", pass_terrain=self:knowTalent(self.T_SHADOW_SENSES)}
 		local x, y, target = self:getTargetLimited(tg)
 		if x and y and target and target.x == x and target.y == y and target.is_doomed_shadow and target.summoner and target.summoner == self then
 			local tg2 = {type="hit", range=self:getTalentRange(t), start_x=x, start_y=y, source_actor=target, friendlyblock=false, pass_terrain=true,}
@@ -101,7 +110,7 @@ newTalent{
 		return ([[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0.1f Physical damage.
 		Your shadow will then set them as their target, and they will target your shadow.
 		Damage increases with your Mindpower.]]):
-		tformat(damDesc(self, DamageType.PHYSICAL, t.getDamage(self, t)))
+		tformat(t.getDamage(self, t) * shadowWarriorMult(self))
 	end,
 }
 
@@ -159,6 +168,7 @@ newTalent{
 		local _ _, x, y = self:canProject(tg, x, y)
 
 		-- Rushing time.
+		local dam = self:mindCrit(t.getDamage(self, t))
 		for i = 1, #shadows do
 			if #shadows <= 0 then break end
 			local a, id = rng.table(shadows)
@@ -170,7 +180,6 @@ newTalent{
 				game.level.map:particleEmitter(a.x, a.y, math.max(math.abs(x-a.x), math.abs(y-a.y)), "earth_beam", {tx=x-a.x, ty=y-a.y})
 				game.level.map:particleEmitter(a.x, a.y, math.max(math.abs(x-a.x), math.abs(y-a.y)), "shadow_beam", {tx=x-a.x, ty=y-a.y})
 
-				local dam = self:mindCrit(t.getDamage(self, t))
 				a:project(tg, x, y, DamageType.PHYSICAL, dam)
 
 				a:move(sx, sy, true)
@@ -186,7 +195,7 @@ newTalent{
 		return ([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
 		For the purpose of this talent, you force your shadows through any walls in their way.
 		Damage increases with your Mindpower.]]):
-		tformat(damDesc(self, DamageType.PHYSICAL, t.getDamage(self, t)))
+		tformat(t.getDamage(self, t) * shadowWarriorMult(self))
 	end,
 }
 
@@ -222,7 +231,7 @@ newTalent{
 			return
 		end
 		
-		local damage = self:mindCrit(t.getDamage(self, t))
+		local damage = t.getDamage(self, t)
 		
 		local first = true
 		local failed = false
@@ -234,10 +243,13 @@ newTalent{
 				local x, y = self:getTarget(tg)
 				local _ _, x, y = a:canProject(tg, x, y)
 				if x and y then
+					if first == true then
+						damage = self:mindCrit(damage)
+						first = false
+					end
 					a:project(tg, x, y, DamageType.MIND, {dist=10, dam=damage})
 					game.level.map:particleEmitter(x, y, 1, "mind")
 					game:playSoundNear(a, "talents/cloud")
-					if first == true then first = false end
 				elseif first == true then
 					first = false
 					failed = true
@@ -251,6 +263,6 @@ newTalent{
 		return ([[Share your hatred with all shadows within sight range, gaining temporary full control. You then fire a blast of pure hatred from all affected shadows, dealing %0.1f Mind damage per blast.
 		You cannot cancel this talent once the first bolt is cast.
 		Damage increases with your Mindpower.]]):
-		tformat(damDesc(self, DamageType.MIND, t.getDamage(self, t)))
+		tformat(t.getDamage(self, t) * shadowWarriorMult(self))
 	end,
 }

@@ -111,7 +111,10 @@ newTalent{
 			local dam = self:spellCrit(t.getDamage(self, t))
 			local olddie = rawget(m, "die")
 			m.die = function() end
+			local oldclone = m.clone_on_hit
+			m.clone_on_hit = nil
 			DamageType:get(DamageType.DARKNESS).projector(self, px, py, DamageType.DARKNESS, dam)
+			m.clone_on_hit = oldclone
 			m.die = olddie
 			game.level.map:particleEmitter(px, py, 1, "dark")
 			if 100 * m.life / m.max_life <= t.getMaxLife(self, t) and self:checkHit(self:combatSpellpower(), m:combatSpellResist()) and m:canBe("instakill") and m.rank <= 3.2 and not m:attr("undead") and not m.summoner and not m.summon_time then
@@ -133,6 +136,7 @@ newTalent{
 				m.no_breath = 1
 				m.unused_talents = 0
 				m.unused_generics = 0
+				m.unused_prodigies = 0
 				m.unused_talents_types = 0
 				m.silent_levelup = true
 				m.clone_on_hit = nil

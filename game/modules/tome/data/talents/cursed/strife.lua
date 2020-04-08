@@ -44,7 +44,7 @@ newTalent{
 	getDefenseChange = function(self, t)
 		return -self:combatTalentStatDamage(t, "wil", 6, 45)
 	end,
-	getResistPenetration = function(self, t) return self:combatLimit(self:combatTalentStatDamage(t, "wil", 30, 80), 100, 0, 0, 55, 55) end, -- Limit < 100%
+	getResistPenetration = function(self, t) return math.min(70, self:combatTalentStatDamage(t, "wil", 25, 60)) end, -- Limit < 70%
 	is_melee = true,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	action = function(self, t)

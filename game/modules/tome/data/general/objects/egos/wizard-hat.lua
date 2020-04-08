@@ -202,8 +202,6 @@ newEntity{
 		},
 		combat_mindcrit = resolvers.mbonus_material(4, 4),
 		combat_mentalresist = resolvers.mbonus_material(20, 10),
-		confusion_immune = -0.2,
-		fear_immune = -0.2,
 	},
 }
 

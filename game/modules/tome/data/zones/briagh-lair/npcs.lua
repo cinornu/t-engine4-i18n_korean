@@ -56,7 +56,6 @@ newEntity{ define_as = "BRIAGH",
 	resolvers.drops{chance=100, nb=5, {type="gem"} },
 
 	resolvers.talents{
-		[Talents.T_PROBABILITY_TRAVEL]=10,
 		[Talents.T_SUMMON]=1,
 		[Talents.T_SAND_BREATH]={base=8, every=8, max=12},
 		[Talents.T_STUN]={base=5, every=5, max=8},

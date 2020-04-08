@@ -59,7 +59,7 @@ newTalent{
 	tactical = { ATTACKAREA = {BLIGHT = 1}, DISABLE = 2 },
 	requires_target = true,
 	target = function(self, t)
-		return {type="ball", radius=self:getTalentRadius(t), range=self:getTalentRange(t), talent=t}
+		return {type="ball", radius=self:getTalentRadius(t), range=self:getTalentRange(t), selffire=false, talent=t}
 	end,
 	getRemoveCount = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5, "log")) end,  -- Oh for the love of god no, fix me
 	action = function(self, t)
@@ -72,7 +72,6 @@ newTalent{
 			local target = game.level.map(px, py, Map.ACTOR)
 			if not target then return end
 
-			DamageType:get(DamageType.BLIGHT).projector(self, px, py, DamageType.BLIGHT, dam)
 
 			local effs = {}
 
@@ -104,6 +103,9 @@ newTalent{
 					end
 				end
 			end
+
+			DamageType:get(DamageType.BLIGHT).projector(self, px, py, DamageType.BLIGHT, dam)
+
 		end)
 		local _ _, x, y = self:canProject(tg, x, y)
 		game.level.map:particleEmitter(x, y, tg.radius, "circle", {zdepth=6, oversize=1, a=130, appear=8, limit_life=8, speed=5, img="green_demon_fire_circle", radius=tg.radius})
@@ -111,9 +113,9 @@ newTalent{
 		return true
 	end,
 	info = function(self, t)
-		return ([[Project a corrupted blast of power that deals %0.2f blight damage and removes up to %d magical or physical effects or any type of sustain from any creatures caught in the radius 3 ball.
+		return ([[Project a corrupted blast of power that removes up to %d magical or physical effects or any type of sustain and deals %0.2f blight damage to any creatures caught in the radius 3 ball.
 		For each effect, the creature has a chance to resist based on its spell save.
-		The damage will increase with your Spellpower.]]):tformat(damDesc(self, DamageType.BLIGHT, self:combatTalentSpellDamage(t, 28, 120)), t.getRemoveCount(self, t))
+		The damage will increase with your Spellpower.]]):tformat(t.getRemoveCount(self, t), damDesc(self, DamageType.BLIGHT, self:combatTalentSpellDamage(t, 28, 120)))
 	end,
 }
 

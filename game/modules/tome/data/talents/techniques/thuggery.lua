@@ -138,7 +138,7 @@ newTalent{
 	end,
 	getCrit = function(self, t) return self:combatTalentStatDamage(t, "dex", 10, 50) / 1.5 end,
 	getPen = function(self, t) return self:combatLimit(self:combatTalentStatDamage(t, "str", 10, 50), 100, 0, 0, 35.7, 35.7) end, -- Limit to <100%
-	getSpeed = function(self, t) return self:combatTalentScale(t, 0.10, 0.20, 0.75) end,
+	getSpeed = function(self, t) return self:combatTalentScale(t, 0.10, 0.20) end,
 	deactivate_on = {no_combat=true, run=true, rest=true},
 	activate = function(self, t)
 		local ret = {

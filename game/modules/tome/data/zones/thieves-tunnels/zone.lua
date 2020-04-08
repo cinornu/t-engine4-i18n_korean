@@ -19,14 +19,14 @@
 
 return {
 	name = _t"Unknown tunnels",
-	level_range = {8, 18},
+	level_range = {14, 28},
 	level_scheme = "player",
 	max_level = 2,
 	actor_adjust_level = function(zone, level, e) return zone.base_level + e:getRankLevelAdjust() + level.level-1 + rng.range(-1,2) end,
 	width = 30, height = 30,
 	ambient_music = "Zangarang.ogg",
-	min_material_level = 1,
-	max_material_level = 2,
+	min_material_level = 2,
+	max_material_level = 3,
 	generator =  {
 		map = {
 			class = "engine.generator.map.TileSet",

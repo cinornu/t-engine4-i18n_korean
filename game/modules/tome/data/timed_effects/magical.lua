@@ -254,6 +254,36 @@ newEffect{
 }
 
 newEffect{
+	name = "GREATER_INVISIBILITY", image = "effects/invisibility.png",
+	desc = _t"Invisibility",
+	long_desc = function(self, eff) return ("Improves/gives invisibility (power %d), and increases damage dealt to blind or dazzled creatures by %d%%."):tformat(eff.power, eff.dam) end,
+	type = "magical",
+	subtype = { phantasm=true, invisibility=true },
+	status = "beneficial",
+	parameters = { power=10, dam=10 },
+	on_gain = function(self, err) return _t"#Target# vanishes from sight.", _t"+Invis" end,
+	on_lose = function(self, err) return _t"#Target# is no longer invisible.", _t"-Invis" end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "invisible", eff.power)
+		self:effectTemporaryValue(eff, "blind_inc_damage", eff.dam)
+		if not self.shader then
+			eff.set_shader = true
+			self.shader = "invis_edge"
+			self:removeAllMOs()
+			game.level.map:updateMap(self.x, self.y)
+		end
+	end,
+	deactivate = function(self, eff)
+		if eff.set_shader then
+			self.shader = nil
+			self:removeAllMOs()
+			game.level.map:updateMap(self.x, self.y)
+		end
+		self:resetCanSeeCacheOf()
+	end,
+}
+
+newEffect{
 	name = "INVISIBILITY", image = "effects/invisibility.png",
 	desc = _t"Invisibility",
 	long_desc = function(self, eff) return ("Improves/gives invisibility (power %d), reducing damage dealt by %d%%%s."):tformat(eff.power, eff.penalty*100, eff.regen and _t" and preventing healing and life regeneration" or "") end,
@@ -2525,9 +2555,9 @@ newEffect{
 		eff.particle = self:addParticles(Particles.new("phantasm_shield", 1))
 	end,
 	on_merge = function(self, old_eff, new_eff)
-		old_eff.defense = math.min(40, math.max(old_eff.defense, new_eff.defense)) or 0
-		old_eff.resists = math.min(40, math.max(old_eff.resists, new_eff.resists)) or 0
-		old_eff.effect_reduction = math.min(40, math.max(old_eff.effect_reduction, new_eff.effect_reduction)) or 0
+		old_eff.defense = math.min(40, math.max(old_eff.defense, new_eff.defense + (self:attr("defense_on_teleport") or 0)))
+		old_eff.resists = math.min(40, math.max(old_eff.resists, new_eff.resists + (self:attr("resist_all_on_teleport") or 0)))
+		old_eff.effect_reduction = math.min(40, math.max(old_eff.effect_reduction, new_eff.effect_reduction + (self:attr("effect_reduction_on_teleport") or 0)))
 
 		self:removeTemporaryValue("combat_def", old_eff.defid)
 		self:removeTemporaryValue("resists", old_eff.resid)
@@ -4432,6 +4462,7 @@ newEffect{
 		self:setTarget() -- clear ai target
 		eff.olf_faction = self.faction
 		self.faction = eff.src.faction
+		self:effectTemporaryValue(eff, "hostile_for_level_change", 1)
 		if core.shader.active() then
 			local h1x, h1y = self:attachementSpot("head", true) if h1x then eff.particle = self:addParticles(Particles.new("circle", 1, {shader=true, oversize=1, a=225, appear=8, speed=0, img="domination_hex_debuff_aura", base_rot=0, radius=0, x=h1x, y=h1y})) end
 		end
@@ -4549,5 +4580,104 @@ newEffect{
 	on_lose = function(self, err) return nil, true end,
 	activate = function(self, eff)
 		self:effectTemporaryValue(eff, "inc_damage", {[DamageType.PHYSICAL] = eff.power})
+	end,
+}
+
+newEffect{
+	name = "DAZZLED",
+	desc = _t"Dazzled",
+	long_desc = function(self, eff) return ("All damage decreased by %d%%."):tformat(eff.power) end,
+	type = "magical",
+	subtype = { stun=true,},
+	status = "detrimental",
+	parameters = {power=10},
+	on_gain = function(self, err) return nil, true end,
+	on_lose = function(self, err) return nil, true end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "generic_damage_penalty", eff.power)
+	end,
+}
+
+newEffect{
+	name = "LICH_RESISTED", image = "talents/lichform.png",
+	desc = _t"Immune to Frightening Presence",
+	long_desc = function(self, eff) return (_t"You resisted a Lich and are immune to its frightening presence.") end,
+	type = "magical",
+	subtype = { lich=true, fear=true},
+	status = "beneficial",
+	parameters = {},
+	on_gain = function(self, err) return nil, true end,
+	on_lose = function(self, err) return nil, true end,
+	activate = function(self, eff)
+		game:onTickEnd(function() self:removeEffect(self.EFF_LICH_FEAR) end)
+	end,
+}
+
+newEffect{
+	name = "ELEMENTAL_MIRAGE1", image = "talents/blur_sight.png",
+	desc = _t"Elemental Mirage (First Element)",
+	long_desc = function(self, eff) return ("%s damage increased by %d%% and resistance penetration by %d%%."):tformat(DamageType:get(eff.dt).name, eff.power, eff.pen or 0) end,
+	type = "magical",
+	subtype = { phantasm=true,},
+	status = "beneficial",
+	parameters = {dt=DamageType.ARCANE, power=10},
+	on_gain = function(self, err) return nil, true end,
+	on_lose = function(self, err) return nil, true end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "inc_damage", {[eff.dt] = eff.power})
+		if eff.pen then self:effectTemporaryValue(eff, "resists_pen", {[eff.dt] = eff.pen}) end
+	end,
+}
+
+newEffect{
+	name = "LICH_FEAR", image = "talents/lichform.png",
+	desc = _t"Frightening Presence",
+	long_desc = function(self, eff) return ("The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%."):tformat(eff.saves, eff.dam, eff.speed) end,
+	type = "magical",
+	subtype = { lich=true, fear=true},
+	status = "detrimental",
+	parameters = {},
+	on_gain = function(self, err) return nil, true end,
+	on_lose = function(self, err) return nil, true end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "inc_damage", {all = -eff.dam})
+		self:effectTemporaryValue(eff, "combat_mentalresist", -eff.saves)
+		self:effectTemporaryValue(eff, "combat_physresist", -eff.saves)
+		self:effectTemporaryValue(eff, "combat_spellresist", -eff.saves)
+		self:effectTemporaryValue(eff, "movement_speed", -eff.speed / 100)
+	end,
+}
+
+newEffect{
+	name = "ELEMENTAL_MIRAGE2", image = "talents/alter_mirage.png",
+	desc = _t"Elemental Mirage (Second Element)",
+	long_desc = function(self, eff) return ("%s damage increased by %d%% and resistance penetration by %d%%."):tformat(DamageType:get(eff.dt).name, eff.power, eff.pen or 0) end,
+	type = "magical",
+	subtype = { phantasm=true,},
+	status = "beneficial",
+	parameters = {dt=DamageType.FIRE, power=10},
+	on_gain = function(self, err) return nil, true end,
+	on_lose = function(self, err) return nil, true end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "inc_damage", {[eff.dt] = eff.power})
+		if eff.pen then self:effectTemporaryValue(eff, "resists_pen", {[eff.dt] = eff.pen}) end
+	end,
+}
+
+newEffect{
+	name = "COMMANDER_OF_THE_DEAD", image = "talents/commander_of_the_dead.png",
+	desc = _t"Commander of the Dead",
+	long_desc = function(self, eff) return ("Physical power, spellpower and all saves increased by %d."):tformat(eff.power) end,
+	type = "magical",
+	subtype = { lich=true, power=true },
+	status = "beneficial",
+	parameters = {},
+	on_gain = function(self, err) return nil, true end,
+	on_lose = function(self, err) return nil, true end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "combat_mentalresist", eff.power)
+		self:effectTemporaryValue(eff, "combat_physresist", eff.power)
+		self:effectTemporaryValue(eff, "combat_spellresist", eff.power)
+		self:effectTemporaryValue(eff, "combat_generic_power", eff.power)
 	end,
 }

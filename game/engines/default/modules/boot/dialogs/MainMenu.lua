@@ -64,6 +64,7 @@ function _M:init()
 				end
 				game:registerDialog(d)
 			end},
+			"language",
 			"video",
 			"sound",
 			"steam",

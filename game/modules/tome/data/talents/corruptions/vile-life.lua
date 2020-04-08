@@ -130,13 +130,14 @@ newTalent{
 	type = {"corruption/vile-life", 3},
 	require = corrs_req3,
 	points = 5,
-	cooldown = 15,
+	cooldown = 10,
 	vim = 16,
-	range = 10,
+	range = 8,
+	radius = 4,
 	tactical = { DISABLE = 2 },
 	direct_hit = true,
 	requires_target = true,
-	target = function(self, t) return {type="hit", range=self:getTalentRange(t), talent=t} end,
+	target = function(self, t) return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), friendlyfire=false, talent=t} end,
 	getPower = function(self,t) return self:combatLimit(self:combatTalentSpellDamage(t, 4, 100), 100, 0, 0, 18.1, 18.1) end, -- Limit to <100%
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
@@ -151,9 +152,9 @@ newTalent{
 		return true
 	end,
 	info = function(self, t)
-		return ([[You manipulate the vim of your target to temporarily invert all healing done to it (but not regeneration).
+		return ([[You manipulate the vim of enemies in radius %d to temporarily invert all healing done to them (but not natural regeneration).
 		For 5 turns all healing will instead damage them for %d%% of the healing done as blight.
-		The effect will increase with your Spellpower.]]):tformat(t.getPower(self,t))
+		The effect will increase with your Spellpower.]]):tformat(self:getTalentRadius(t), t.getPower(self,t))
 	end,
 }
 
@@ -162,14 +163,16 @@ newTalent{
 	type = {"corruption/vile-life", 4},
 	require = corrs_req4,
 	points = 5,
-	cooldown = 10,
+	cooldown = 15,
 	vim = 18,
 	direct_hit = true,
 	requires_target = true,
 	range = 4,
+	no_npc_use = true,  -- Bypasses all forms of immunity and such
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t), talent=t} end,
 	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 2, 4, "log")) end,
 	getDam = function(self, t) return self:combatTalentLimit(t, 2, 10, 5) end, --Limit < 10% life/effect
+	getVim = function(self, t) return 18 end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
@@ -187,26 +190,17 @@ newTalent{
 				end
 			end
 
-			local dam = t.getDam(self, t) * self.life / 100
 			while #list > 0 and nb > 0 do
-				if self:checkHit(self:combatSpellpower(), target:combatSpellResist(), 0, 95, 5) then
-					local eff_id = rng.tableRemove(list)
-					local p = self.tmp[eff_id]
-					local e = self.tempeffect_def[eff_id]
-					local effectParam = self:copyEffect(eff_id)
-					effectParam.__tmpparticles = nil
-					if effectParam then
-						effectParam.src = self
-
-						target:setEffect(eff_id, p.dur, effectParam)
-						self:removeEffect(eff_id)
-						local dead, val = self:takeHit(dam, self, {source_talent=t})
-						target:heal(val, self)
-						game:delayedLogMessage(self, target, "vile_transplant"..e.desc, ("#CRIMSON##Source# transfers an effect (%s) to #Target#!"):tformat(e.desc))
-					end
+				local eff_id = rng.tableRemove(list)
+				local e = self.tempeffect_def[eff_id]
+				self:cloneEffect(eff_id, target, {apply_power = self:combatSpellpower()})
+				if target:hasEffect(eff_id) then
+					self:removeEffect(eff_id)
+					game:delayedLogMessage(self, target, "vile_transplant"..e.desc, ("#CRIMSON##Source# transfers an effect (%s) to #Target#!"):tformat(e.desc))
+					self:incVim(-t.getVim(self, t))  -- Vim costs life if there isn't enough so no need to check total
 				end
-				nb = nb - 1
 			end
+			nb = nb - 1
 		end)
 		local _ _, _, _, x, y = self:canProject(tg, x, y)
 		game.level.map:particleEmitter(x, y, tg.radius, "circle", {oversize=0.7, g=100, r=100, a=90, limit_life=8, appear=8, speed=2, img="blight_circle", radius=self:getTalentRadius(t)})
@@ -214,9 +208,9 @@ newTalent{
 		return true
 	end,
 	info = function(self, t)
-		return ([[You transfer up to %d physical or magical detrimental effects currently affecting you to a nearby creature by touching it.
-		The transfer takes %0.1f%% of your remaining life for each effect transferred and heals the target for the same amount.
+		return ([[You transfer up to %d physical or magical detrimental effects currently affecting you to a nearby creature at a cost of %d vim per effect.
+		Specific effect immunities will not prevent the transfer.
 		The chance to transfer each effect increases with your Spellpower.]]):
-		tformat(t.getNb(self, t), t.getDam(self, t))
+		tformat(t.getNb(self, t), t.getVim(self, t))
 	end,
 }

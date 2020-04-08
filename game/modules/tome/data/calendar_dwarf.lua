@@ -18,15 +18,15 @@
 -- darkgod@te4.org
 
 return {
-	{ 31, _t"Iron", },
-	{ 45, _t"Steel", },
-	{ 30, _t"Gold", },
-	{ 45, _t"Stralite", },
-	{ 31, _t"Voratun", },
-	{ 3, _t"Acquisition", },
-	{ 45, _t"Profit", },
-	{ 30, _t"Wealth", },
-	{ 45, _t"Dearth", },
-	{ 30, _t"Loss", },
-	{ 30, _t"Shortage", },
+	{ 31, _t("Iron", "calendar dwarf") },
+	{ 45, _t("Steel", "calendar dwarf") },
+	{ 30, _t("Gold", "calendar dwarf") },
+	{ 45, _t("Stralite", "calendar dwarf") },
+	{ 31, _t("Voratun", "calendar dwarf") },
+	{ 3, _t("Acquisition", "calendar dwarf") },
+	{ 45, _t("Profit", "calendar dwarf") },
+	{ 30, _t("Wealth", "calendar dwarf") },
+	{ 45, _t("Dearth", "calendar dwarf") },
+	{ 30, _t("Loss", "calendar dwarf") },
+	{ 30, _t("Shortage", "calendar dwarf") },
 }

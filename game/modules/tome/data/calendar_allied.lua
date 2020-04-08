@@ -18,16 +18,16 @@
 -- darkgod@te4.org
 
 return {
-	{ 2, _t"Wintertide", },
-	{ 10, _t"Allure" },
-	{ 80, _t"Regrowth" },
-	{ 1, _t"Time of Balance" },
-	{ 79, _t"Pyre" },
-	{ 10, _t"Mirth" },
-	{ 3, _t"Summertide" },
-	{ 10, _t"Flare" },
-	{ 79, _t"Dusk" },
-	{ 1, _t"Time of Equilibrium" },
-	{ 80, _t"Haze" },
-	{ 10, _t"Decay" },
+	{ 2, _t("Wintertide", "calendar allied") },
+	{ 10, _t("Allure", "calendar allied") },
+	{ 80, _t("Regrowth", "calendar allied") },
+	{ 1, _t("Time of Balance", "calendar allied") },
+	{ 79, _t("Pyre", "calendar allied") },
+	{ 10, _t("Mirth", "calendar allied") },
+	{ 3, _t("Summertide", "calendar allied") },
+	{ 10, _t("Flare", "calendar allied") },
+	{ 79, _t("Dusk", "calendar allied") },
+	{ 1, _t("Time of Equilibrium", "calendar allied") },
+	{ 80, _t("Haze", "calendar allied") },
+	{ 10, _t("Decay", "calendar allied") },
 }

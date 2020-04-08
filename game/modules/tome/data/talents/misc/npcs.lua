@@ -3340,7 +3340,7 @@ newTalent{
 	require = techs_dex_req4,
 	tactical = { BUFF = 2 },
 	on_pre_use = function(self, t, silent) if self:hasArcheryWeapon() or not self:hasDualWeapon() then if not silent then game.logPlayer(self, "You require two melee weapons to use this talent.") end return false end return true end,
-	getSpeed = function(self, t) return self:combatTalentScale(t, 0.11, 0.40, 0.75) end,
+	getSpeed = function(self, t) return self:combatTalentScale(t, 0.11, 0.40) end,
 	activate = function(self, t)
 		local weapon, offweapon = self:hasDualWeapon()
 		if not weapon then
@@ -3748,5 +3748,34 @@ newTalent{
 		return ([[Creates a circle of radius %d at your feet; the circle lights up affected tiles, increases your positive energy by %d each turn and deals %0.2f light damage and %0.2f fire damage per turn to everyone else within its radius.  The circle lasts %d turns.
 		The damage will increase with your Spellpower.]]):
 		tformat(radius, 1 + (damage / 4), (damDesc (self, DamageType.LIGHT, damage)), (damDesc (self, DamageType.FIRE, damage)), duration)
+	end,
+}
+
+newTalent{
+	name = "Blur Sight",
+	type = {"spell/other", 1},
+	mode = "sustained",
+	points = 5,
+	sustain_mana = 30,
+	cooldown = 10,
+	tactical = { BUFF = 2 },
+	getDefense = function(self, t) return self:combatScale(self:getTalentLevel(t)*self:combatSpellpower(), 0, 0, 28.6, 267, 0.75) end,
+	activate = function(self, t)
+		game:playSoundNear(self, "talents/heal")
+		return {
+			particle = self:addParticles(Particles.new("phantasm_shield", 1)),
+			def = self:addTemporaryValue("combat_def", t.getDefense(self, t)),
+		}
+	end,
+	deactivate = function(self, t, p)
+		self:removeParticles(p.particle)
+		self:removeTemporaryValue("combat_def", p.def)
+		return true
+	end,
+	info = function(self, t)
+		local defence = t.getDefense(self, t)
+		return ([[The caster's image blurs, granting a %d bonus to Defense.
+		The bonus will increase with your Spellpower.]]):
+		tformat(defence)
 	end,
 }

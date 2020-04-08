@@ -1,0 +1,7 @@
+outputs
+old
+tmp.log
+merge_translation.*
+output_translation.*
+untranslated.*
+i18n_list.lua

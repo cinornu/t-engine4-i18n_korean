@@ -325,9 +325,6 @@ newEntity{
 	rarity = 30,
 	cost = 80,
 	wielder = {
-		resists={
-			[DamageType.LIGHT] = resolvers.mbonus_material(25, 15, function(e, v) return 0, -v end),
-		},
 		inc_stats = {
 			[Stats.STAT_STR] = resolvers.mbonus_material(8, 1),
 			[Stats.STAT_DEX] = resolvers.mbonus_material(8, 1),

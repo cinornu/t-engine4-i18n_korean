@@ -379,7 +379,7 @@ function _M:giveOrder(actor, order)
 					anchor = {x=x, y=y, name=_t"that location"}
 				end
 				actor.ai_state.tactic_leash_anchor = anchor
-				game.logPlayer(game.player, "%s will stay near %s.", actor:getName():capitalize(), anchor.name)
+				game.logPlayer(game.player, "%s will stay near %s.", actor:getName():capitalize(), _t(anchor.name))
 			end
 		end)
 		local ok, err = coroutine.resume(co)

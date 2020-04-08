@@ -168,8 +168,9 @@ newTalent{
 				game.bignews:saySimple(180, "#STEEL_BLUE#Targeting %s", anom.name)
 			end
 			
-			-- Call the anomoly action function directly
-			anom.action(self, anom)
+			-- Call the anomaly action function directly, while disabling the
+			-- ability to cancel targeting
+			anom.doAction(self, anom, false)
 			self:incParadox(-eff.paradox)
 		end
 			

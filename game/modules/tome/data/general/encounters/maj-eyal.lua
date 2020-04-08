@@ -44,9 +44,9 @@ newEntity{
 newEntity{
 	name = "Lost merchant",
 	type = "hostile", subtype = "special", unique = true,
-	level_range = {10, 20},
+	level_range = {14, 28},
 	rarity = 7,
-	min_level = 10,
+	min_level = 18,
 	on_world_encounter = "merchant-quest",
 	on_encounter = function(self, who)
 		who.energy.value = game.energy_to_act

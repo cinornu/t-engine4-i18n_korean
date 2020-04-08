@@ -125,13 +125,7 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 
 		local ignore_direct_crits = target:attr 'ignore_direct_crits'
 		if crit_power > 1 and ignore_direct_crits then -- Reduce the post crit damage, we have to do this here since most crits are calculated before knowing their target
-			dam = dam / crit_power
-			local reduce = (crit_power - 1) * (util.bound(ignore_direct_crits, 0, 100) / 100)
-			crit_power = math.max(1, crit_power - reduce)
-			dam = dam * crit_power
-			print("[PROJECTOR] crit power reduce dam", dam)
-		end
-		if crit_power > 1 then
+
 			-- Add crit bonus power for being unseen (direct damage only, diminished with range)
 			local unseen_crit = src.__is_actor and target.__is_actor and not src.__project_source and src.unseen_critical_power
 			if unseen_crit and not target:canSee(src) and src:canSee(target) then
@@ -144,11 +138,16 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 					if target.unseen_crit_defense and target.unseen_crit_defense > 0 then
 						unseen_crit = math.max(0, unseen_crit*(1 - target.unseen_crit_defense))
 					end
-					dam = dam * (crit_power + unseen_crit)/crit_power
 					crit_power = crit_power + unseen_crit
 					print("[PROJECTOR] after unseen_critical_power type/dam/range/power", type, dam, d, unseen_crit, "::", crit_power - unseen_crit, "=>", crit_power)
 				end
-			end
+			end	
+
+			dam = dam / crit_power
+			local reduce = (crit_power - 1) * (util.bound(ignore_direct_crits, 0, 100) / 100)
+			crit_power = math.max(1, crit_power - reduce)
+			dam = dam * crit_power
+			print("[PROJECTOR] crit power reduce dam", dam)
 		end
 
 		local hd = {"DamageProjector:base", src=src, x=x, y=y, type=type, dam=dam, state=state}
@@ -210,6 +209,7 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 			if src.combatGetDamageIncrease then inc = src:combatGetDamageIncrease(type)
 			else inc = (src.inc_damage.all or 0) + (src.inc_damage[type] or 0) end
 			if src.getVim and src:attr("demonblood_dam") then inc = inc + ((src.demonblood_dam or 0) * (src:getVim() or 0)) end
+			if src.attr and src:attr("blind_inc_damage") and (target:attr("blind") or target:attr("dazzled")) then inc = inc + src:attr("blind_inc_damage") end
 			if inc ~= 0 then print("[PROJECTOR] after DamageType increase dam", dam + (dam * inc / 100)) end
 		end
 
@@ -288,7 +288,7 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 		if src.attr and src:attr("encased_in_ice") then
 			local eff = src:hasEffect(src.EFF_FROZEN)
 			eff.hp = eff.hp - dam
-			local srcname = src.x and src.y and game.level.map.seens(src.x, src.y) and src.name:capitalize() or _t"Something"
+			local srcname = src.x and src.y and game.level.map.seens(src.x, src.y) and src:getName():capitalize() or _t"Something"
 			if eff.hp < 0 and not eff.begone then
 				game.logSeen(src, "%s forces the iceblock to shatter.", src:getName():capitalize())
 				game:onTickEnd(function() src:removeEffect(src.EFF_FROZEN) end)
@@ -2754,12 +2754,12 @@ newDamageType{
 		state = initState(state)
 		useImplicitCrit(src, state)
 		if _G.type(dam) == "number" then dam = {dam=dam} end
-		DamageType:get(DamageType.BLIGHT).projector(src, x, y, DamageType.BLIGHT, dam.dam, state)
 		local target = game.level.map(x, y, Map.ACTOR)
 		if target and target:canBe("disease") and rng.percent(dam.disease_chance or 20) then
 			local eff = rng.table{{target.EFF_ROTTING_DISEASE, "con"}, {target.EFF_DECREPITUDE_DISEASE, "dex"}, {target.EFF_WEAKNESS_DISEASE, "str"}}
 			target:setEffect(eff[1], dam.dur or 5, { src = src, [eff[2]] = dam.disease_power or 5, dam = dam.disease_dam or (dam.dam / 5) })
 		end
+		DamageType:get(DamageType.BLIGHT).projector(src, x, y, DamageType.BLIGHT, dam.dam, state)
 	end,
 }
 
@@ -4280,5 +4280,17 @@ newDamageType{
 		local realdam1 = DamageType:get(DamageType.PHYSICAL).projector(src, x, y, DamageType.PHYSICAL, dam / 2, state)
 		local realdam2 = DamageType:get(DamageType.FIRE).projector(src, x, y, DamageType.FIRE, dam / 2, state)
 		return (realdam1 or 0) + (realdam2 or 0)
+	end,
+}
+
+-- Cold/Darkness damage
+newDamageType{
+	name = "frostdusk", type = "FROSTDUSK", text_color = "#BLUE#",
+	damdesc_split = { {DamageType.TEMPORAL, 0.5}, {DamageType.DARKNESS, 0.5} },
+	projector = function(src, x, y, type, dam, state)
+		state = initState(state)
+		useImplicitCrit(src, state)
+		DamageType:get(DamageType.TEMPORAL).projector(src, x, y, DamageType.COLD, dam / 2, state)
+		DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, dam / 2, state)
 	end,
 }

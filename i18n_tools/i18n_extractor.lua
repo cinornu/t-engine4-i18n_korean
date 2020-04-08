@@ -59,9 +59,13 @@ local function explore(file, ast)
 			if e.tag == "Id" and e[1] == "_t" then
 				local en = ast[i+1]
 				if en and type(en) == "table" and en.tag == "ExpList" and type(en[1]) == "table" and en[1].tag == "String" then
+					local tag = "_t"
+					if en[2] and type(en[2]) == "table" and en[2].tag == "String" then
+						tag = en[2][1]
+					end
 					print(colors("%{bright cyan}_t"), en[1][1])
 					locales[file] = locales[file] or {}
-					locales[file][en[1][1]] = {line=en[1].nline, type="_t"}
+					locales[file][en[1][1]] = {line=en[1].nline, type=tag}
 				end
 			elseif e.tag == "String" and e[1] == "tformat" and i == 2 then
 				local en = ast[i-1]
@@ -317,7 +321,19 @@ local function dofolder(dir)
 		print(colors("%{bright}-------------------------------------"))
 		print(colors("%{bright}-- "..file))
 		print(colors("%{bright}-------------------------------------"))
-		explore(file:gsub("%.%./", ""), p:parse{file})
+		local function err(x)
+			io.stderr:write("In file ".. file .. ":\n")
+			io.stderr:write(x .. "\n")
+		end
+		local function parsefunc()
+			return p:parse{file}
+		end
+		local ok, parsed = xpcall(parsefunc, err)
+		if ok then
+			explore(file:gsub("%.%./", ""), parsed)
+		else
+			print()
+		end
 	end
 
 	if lfs.attributes(dir, "mode") == "file" then
@@ -348,17 +364,23 @@ for _, section in ipairs(slist) do
 	
 	local list = {}
 	for k, v in pairs(locales[section]) do
-		list[#list+1] = {text=k, line=v.line, type=v.type}
+		if type(k) == "string" then
+			list[#list+1] = {text=k, line=v.line, type=v.type}
+		end
 	end
-	table.sort(list, function(a,b) return a.line < b.line end)
+	table.sort(list, function(a,b) 
+		if a.line ~= b.line then
+			return a.line < b.line 
+		else
+			return a.text < b.text
+		end
+	end)
 
 	-- local list = table.keys(locales[section])
 	-- table.sort(list)
 
 	for _, s in ipairs(list) do
-		if type(s.text) == "string" then
-			f:write(('tDef(%s, %q) -- %s\n'):format(s.line, s.text, s.type))
-		end
+		f:write(('tDef(%s, %q, %q) -- \n'):format(s.line, s.text, s.type))
 	end
 	f:write('\n\n')
 end

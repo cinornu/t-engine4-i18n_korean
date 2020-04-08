@@ -146,14 +146,12 @@ newTalent {
 		table.shuffle(targets)
 
 		-- Fire each shot individually.
-		local old_target_forced = game.target.forced
 		local limit_shots = t.limit_shots(self, t)
 		local shot_params_base = {mult = t.damage_multiplier(self, t), phasing = true}
 		local fired = nil -- If we've fired at least one shot.
 		for i = 1, math.min(limit_shots, #targets) do
 			local target = targets[i]
-			game.target.forced = {target.x, target.y, target}
-			local targets = self:archeryAcquireTargets({type = "hit", speed = 200}, {one_shot=true, no_energy = fired})
+			local targets = self:archeryAcquireTargets({type = "hit", speed = 200}, {one_shot=true, no_energy = fired, x = target.x, y = target.y})
 			if targets then
 				local params = table.clone(shot_params_base)
 				local target = targets.dual and targets.main[1] or targets[1]
@@ -166,7 +164,6 @@ newTalent {
 			end
 		end
 
-		game.target.forced = old_target_forced
 		return fired
 	end,
 	info = function(self, t)

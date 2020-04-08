@@ -322,7 +322,7 @@ function _M:onTakeHit(value, src, death_note)
 		if src then
 			if src.targetable and not self.ai_target.actor and not (self.never_anger and self:reactionToward(src) > 0) then self:setTarget(src) end
 			-- Get angry if hurt by a friend
-			if src.faction and self:reactionToward(src) >= 0 and self.fov then
+			if src.faction and self:reactionToward(src) >= 0 and self.fov and self.checkAngered then
 				self:checkAngered(src, false, -50)
 
 				-- Share reaction with allies

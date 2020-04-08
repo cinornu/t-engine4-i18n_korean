@@ -21,7 +21,7 @@
 -- Where values are {major, minor, patch, engine_name, c_core}
 -- @script engine.version
 
-engine.version = {1,6,6,"te4",17}
+engine.version = {1,6,7,"te4",17}
 engine.require_c_core = engine.version[5]
 engine.version_id = ("%s-%d_%d.%d.%d"):format(engine.version[4], engine.require_c_core, engine.version[1], engine.version[2], engine.version[3])
 

@@ -1390,7 +1390,7 @@ function _M:changeLevelReal(lev, zone, params)
 	if self.level.last_turn and self.level.last_turn < self.turn then
 		local perc = util.bound(math.floor((self.turn - self.level.last_turn) / 10), 0, 10)
 		for uid, target in pairs(self.level.entities) do
-			if target.life and target.max_life and self.player:reactionToward(target) < 0 then
+			if target.life and target.max_life and ((self.player:reactionToward(target) < 0) or target:attr("hostile_for_level_change")) then
 				target.life = util.bound(target.life + target.max_life * perc / 10, 0, target.max_life)
 				target.changed = true
 				target.talents_cd = {}
@@ -2361,6 +2361,7 @@ do return end
 				{ _t"Inventory", function() self:unregisterDialog(menu) self.key:triggerVirtual("SHOW_INVENTORY") end },
 				{ _t"Character Sheet", function() self:unregisterDialog(menu) self.key:triggerVirtual("SHOW_CHARACTER_SHEET") end },
 				"keybinds",
+				"language",
 				{_t"Game Options", function() self:unregisterDialog(menu) self:registerDialog(require("mod.dialogs.GameOptions").new()) end},
 				"video",
 				"sound",
@@ -2480,7 +2481,38 @@ do return end
 		self.player:activateHotkey(i)
 	end, function() return self.player.allow_talents_worldmap end))
 
+	self:setupWASD()
 	self.key:setCurrent()
+end
+
+function _M:setupWASD()
+	self.wasd_state = {}
+	local function handle_wasd()
+		local ws = self.wasd_state
+		if     ws.left  and ws.up   then self.key:triggerVirtual("MOVE_LEFT_UP")
+		elseif ws.right and ws.up   then self.key:triggerVirtual("MOVE_RIGHT_UP")
+		elseif ws.left  and ws.down then self.key:triggerVirtual("MOVE_LEFT_DOWN")
+		elseif ws.right and ws.down then self.key:triggerVirtual("MOVE_RIGHT_DOWN")
+		elseif ws.right             then self.key:triggerVirtual("MOVE_RIGHT")
+		elseif ws.left              then self.key:triggerVirtual("MOVE_LEFT")
+		elseif ws.up                then self.key:triggerVirtual("MOVE_UP")
+		elseif ws.down              then self.key:triggerVirtual("MOVE_DOWN")
+		end
+	end
+
+	if config.settings.tome.use_wasd then
+		self.key:addBinds{
+			MOVE_WASD_UP    = function(sym, ctrl, shift, alt, meta, unicode, isup, key) if isup then handle_wasd() end self.wasd_state.up = not isup and true or false end,
+			MOVE_WASD_DOWN  = function(sym, ctrl, shift, alt, meta, unicode, isup, key) if isup then handle_wasd() end self.wasd_state.down = not isup and true or false end,
+			MOVE_WASD_LEFT  = function(sym, ctrl, shift, alt, meta, unicode, isup, key) if isup then handle_wasd() end self.wasd_state.left = not isup and true or false end,
+			MOVE_WASD_RIGHT = function(sym, ctrl, shift, alt, meta, unicode, isup, key) if isup then handle_wasd() end self.wasd_state.right = not isup and true or false end,
+		}
+	else
+		self.key:removeBind("MOVE_WASD_UP")
+		self.key:removeBind("MOVE_WASD_DOWN")
+		self.key:removeBind("MOVE_WASD_LEFT")
+		self.key:removeBind("MOVE_WASD_RIGHT")
+	end
 end
 
 function _M:setupMouse(reset)

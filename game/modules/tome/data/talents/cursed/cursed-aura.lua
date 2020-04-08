@@ -172,7 +172,7 @@ newTalent{
 							self:learnTalent(self.T_DEFILING_TOUCH, true, 1, {no_unlearn=true})
 							self:incIncStat(Stats.STAT_WIL, -2)
 						else
-							Dialog:simplePopup(_t"Cursed Fate", ("The %s returns to normal and your hate subsides."):tformat(item.name))
+							Dialog:simplePopup(_t"Cursed Fate", ("The %s returns to normal and your hate subsides."):tformat(item:getName()))
 						end
 					end,
 					_t"Release your hate upon the object",
@@ -363,7 +363,7 @@ newTalent{
 		self.cursed_sentry = o
 		return true
 	end,
-	info = function(self, t) return [[Choose a sentry to instill your affliction into.]] end,
+	info = function(self, t) return _t[[Choose a sentry to instill your affliction into.]] end,
 }
 
 newTalent{

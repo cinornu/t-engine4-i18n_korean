@@ -36,7 +36,7 @@ rotates = {"default", "90", "180", "270", "flipx", "flipy"}
 
 defineTile(',', data.floor or data['.'] or "FLOOR")
 defineTile('#', "HARDWALL")
-defineTile('w', "WALL")
+defineTile('!', "DOOR_VAULT")
 defineTile('d', "FLOOR", {random_filter={type="tool", subtype="digger", name="iron pickaxe", ego_chance=-1000, ego_chance=-1000}})
 
 local mobs = {
@@ -58,7 +58,7 @@ return {
 [[,,,,,,,,]],
 [[,######,]],
 [[,#sss##,]],
-[[,#ssswd,]],
+[[,#sss!d,]],
 [[,#sss##,]],
 [[,######,]],
 [[,,,,,,,,]],
