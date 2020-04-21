@@ -6412,6 +6412,7 @@ section "game/modules/tome/class/Game.lua"
 
 t("Loading level", "현재 층 불러오는 중", "_t")
 t("Please wait while loading the level...", "현재 층을 불러오는 중 입니다...", "_t")
+t("unknown", "알 수 없음", "_t")
 t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했습니다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.", "logMessage")
 t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입혔습니다.", "logMessage")
 t("Kill (%d)!", "사망! (%d)!", "tformat")
@@ -6450,6 +6451,7 @@ section "game/modules/tome/class/NPC.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Object.lua"
 
+t("unknown", "알 수 없음", "_t")
 t("Talent %s", "기술 %s", "tformat")
 
 
@@ -6550,6 +6552,7 @@ section "game/modules/tome/class/interface/Combat.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/PartyDeath.lua"
 
+t("unknown", "알 수 없음", "_t")
 
 
 ------------------------------------------------
@@ -7939,14 +7942,39 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 ------------------------------------------------
 section "game/modules/tome/data/birth/classes/wilder.lua"
 
+t("Wilder", "자연의 추종자", "birth descriptor name")
+t("Natural abilities can go beyond mere skill. Experience the true powers of nature to learn of its amazing gifts.", "자연의 능력은 한낱 스킬의 힘을 뛰어넘을 수 있습니다. 놀라운 선물을 익혀 자연의 진정한 힘을 체험하십시오.", "_t")
+t("Wilders are one with nature, in one manner or another. There are as many different Wilders as there are aspects of nature.", "자연의 추종자는 어떤 방식으로든 자연과 관계된 자들입니다. 자연에 많은 모습이 있듯이 자연의 추종자도 그 종류가 다양합니다.", "_t")
+t("They can take on the aspects of creatures, summon creatures to them, feel the druidic call, ...", "그들은 여러 생명체의 형상을 취하거나 생명체를 소환하거나 드루이드의 부름을 느낄 수 있습니다, ...", "_t")
+t("Summoner", "소환사", "birth descriptor name")
+t("Not all might comes from within. Hear the invocations of nature, hear its calling power. See that from without we can find our true strengths.", "모든 힘이 내면에서 오는 것은 아닙니다. 자연의 목소리와 그 힘을 들으십시오. 외부에서 우리의 진정한 힘을 찾을 수 있을 것입니다.", "_t")
+t("Summoners never fight alone. They are always ready to summon one of their many minions to fight at their side.", "소환사는 결코 홀로 싸우지 않습니다. 그들은 언제나 자신의 편에 서서 함께 싸워줄 많은 부하 중 하나를 소환할 준비를 하고 있습니다.", "_t")
+t("Summons can range from a combat hound to a fire drake.", "소환수는 전투 사냥개부터 화염 드레이크까지 다양합니다.", "_t")
+t("#LIGHT_BLUE# * +0 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +1 민첩, +0 체격", "_t")
+t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 마법, +5 의지, +3 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +0", "_t")
+t("Wyrmic", "용인", "birth descriptor name")
+t("Sleek, majestic, powerful... In the path of dragons we walk, and their breath is our breath. See their beating hearts with your eyes and taste their majesty between your teeth.", "매끈하고 위엄 넘치고 강력합니다... 우리는 용의 길을 따라 걸으며, 그들의 숨결은 우리의 숨결이 됩니다. 박동하는 용의 심장을 목격하고 그들의 위엄을 이빨로 씹어 맛보십시오.", "_t")
+t("Wyrmics are fighters who have learnt how to mimic some of the aspects of the dragons.", "용인은 용의 모습을 일부 흉내내는 방법을 배운 전사들입니다.", "_t")
+t("They have access to talents normally belonging to the various kind of drakes.", "그들에겐 다양한 종류의 드레이크가 가진 능력을 사용할 수 있는 재능이 있습니다.", "_t")
 t("Their most important stats are: Strength and Willpower", "그들에게 가장 중요한 능력치는 힘과 의지입니다.", "_t")
+t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +5 힘, +0 민첩, +1 체격", "_t")
+t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 마법, +3 의지, +0 교활", "_t")
 t("Oozemancer", "점액술사", "birth descriptor name")
+t("Magic must fail, magic must lose, nothing arcane can face the ooze...", "마법은 실패하고 패배해야 합니다. 어떤 마법도 점액에 대항할 수 없습니다...", "_t")
+t("Oozemancers separate themselves from normal civilisation so that they be more in harmony with Nature. Arcane force are reviled by them, and their natural attunement to the wilds lets them do battle with abusive magic-users on an equal footing.", "점액술사는 스스로 일반적인 문명과 분리하고 자연과 조화를 이루며 살아갑니다. 마법의 힘은 점액술사들에게 비난의 대상이며, 그들은 타고난 야생의 조율 능력을 통해 폭력적인 마법 사용자들과 같은 입장에서 싸울 수 있습니다.", "_t")
+t("They can spawn oozes to protect and attack from a distance while also being adept at harnessing the power of mindstars and psiblades.", "이들은 점액을 소환해 자신을 보호하고 멀리 떨어진 적을 공격하며, 마석과 염동력 칼의 힘을 다루는 데 익숙합니다.", "_t")
 t("Their most important stats are: Willpower and Cunning", "그들에게 가장 중요한 능력치는 의지와 교활입니다.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +5 의지, +4 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -3", "_t")
+t("Max summons: %d", "최대 소환수: %d", "tformat")
+t("Stone Warden", "스톤워든", "birth descriptor name")
+t("Stone Wardens are dwarves trained in both the eldritch arts and the worship of nature.", "스톤워든은 엘드리치의 능력과 자연에 대한 추종을 함께 훈련한 드워프입니다.", "_t")
+t("While other races are stuck in their belief that arcane forces and natural forces are meant to oppose, dwarves have found a way to combine them in harmony.", "다른 종족들이 비전의 힘과 자연의 힘이 반대된다는 믿음에 갇혀있을 때, 드워프들은 두 힘을 조화롭게 결합하는 법을 찾아냈습니다.", "_t")
+t("Stone Wardens are armoured fighters, dual wielding shields to channel many of their powers.", "스톤워든은 갑옷을 입고 양손에 방패를 방패를 들어 그들의 여러 가지 힘을 내보이는 전사들입니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +2 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 힘, +0 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 마법, +3 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +2", "_t")
 
@@ -11363,7 +11391,7 @@ t([[Infuse your two handed weapon with light while spinning around.
 		In addition while spinning your weapon shines so much it deals %d%% light weapon damage to all foes in radius 2.
 		At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.]], [[양손 무기에 빛의 힘을 주입하고 회전하며 휘두릅니다.
 		반경 1칸 내의 모든 적에게 %d%% 무기 피해를 줍니다.
-		또한 너무나도 밝게 빛나는 무기가 반경 2칸 내의 모든 적에게 %d%% 빛 무기 피해를 줍니다.
+		또한 무기에서 강렬한 빛이 뿜어져나와 반경 2칸 내의 모든 적에게 %d%% 빛 무기 피해를 줍니다.
 		기술 레벨 4에 도달하면 회전하는 검이 보호막을 생성해 1턴간 받는 모든 피해를 막아냅니다.]], "tformat")
 
 
@@ -14410,6 +14438,7 @@ t("Scoundrel's Strategies", "건달의 전략", "_t")
 t("Fumble", "헛발질", "_t")
 t("sun", "태양", "effect subtype")
 t("Frozen Ground", "얼어붙은 대지", "_t")
+t("unknown", "알 수 없음", "effect subtype")
 
 
 ------------------------------------------------
@@ -14793,6 +14822,7 @@ section "game/modules/tome/data/zones/dreamscape-talent/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/eidolon-plane/npcs.lua"
 
+t("unknown", "알 수 없음", "entity subtype")
 
 
 ------------------------------------------------
@@ -16106,6 +16136,7 @@ section "game/modules/tome/data/zones/wilderness/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/ArenaFinish.lua"
 
+t("unknown", "알 수 없음", "_t")
 t("Message Log", "메시지 로그", "_t")
 
 
@@ -16119,6 +16150,7 @@ t("There is already a character with this name, do you want to overwrite it?", "
 t("Yes", "네", "_t")
 t("No", "아니요", "_t")
 t("Cancel", "취소", "_t")
+t("Later", "보류", "_t")
 t("Name", "이름", "_t")
 
 
@@ -16168,6 +16200,7 @@ t("Cancel", "취소", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/LevelupDialog.lua"
 
+t("unknown", "알 수 없음", "_t")
 
 
 ------------------------------------------------
@@ -16354,6 +16387,7 @@ section "game/modules/tome/dialogs/debug/RandomActor.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/RandomObject.lua"
 
+t("unknown", "알 수 없음", "_t")
 t("None", "없음", "_t")
 t("Equipment", "장비", "_t")
 t("Inventory", "소지품", "_t")
@@ -16382,6 +16416,7 @@ section "game/modules/tome/dialogs/orders/Talents.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/shimmer/CommonData.lua"
 
+t("unknown", "알 수 없음", "_t")
 
 
 ------------------------------------------------

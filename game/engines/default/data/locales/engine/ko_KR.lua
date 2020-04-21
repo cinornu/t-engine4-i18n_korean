@@ -726,6 +726,7 @@ section "game/engines/default/engine/dialogs/UseTalents.lua"
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/UserInfo.lua"
 
+t("unknown", "알 수 없음", "_t")
 
 
 ------------------------------------------------
@@ -748,6 +749,7 @@ section "game/engines/default/engine/dialogs/microtxn/MTXMain.lua"
 section "game/engines/default/engine/dialogs/microtxn/ShowPurchasable.lua"
 
 t("Name", "이름", "_t")
+t("Connecting to server", "서버에 연결하는 중", "_t")
 t("Cancel", "취소", "_t")
 
 
@@ -773,6 +775,7 @@ section "game/engines/default/engine/interface/ActorTalents.lua"
 
 t("Cancel", "취소", "_t")
 t("Continue", "계속하기", "_t")
+t("unknown", "알 수 없음", "_t")
 
 
 ------------------------------------------------
