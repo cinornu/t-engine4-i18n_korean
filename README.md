@@ -15,181 +15,15 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 각자 작업 중인 영역이 겹치지 않도록 하기 위한 수단임.
 
-*끝에 부호를 붙여서 상태 표시하기
-```완 : 완료됨
-** : 재검토 필요
-?? : 작업 중
-```
-
 ```
 5726 / 31640 문장 / 20.04.25 19:10 기준
 ```
 
 ```
+번역 시 재검토가 필요한 문장은 ***를 줄 끝에 붙일 것.
+
 재검토 필요한 문장 (*** 검색) : 7줄
 ```
-
-
-
-"game/engines/default/data/keybinds/actions.lua" uueeck ?? **
-
-"game/engines/default/data/keybinds/debug.lua" uueeck 완
-
-"game/engines/default/data/keybinds/hotkeys.lua" uueeck 완
-
-"game/engines/default/data/keybinds/interface.lua" uueeck 완 **
-
-"game/engines/default/data/keybinds/inventory.lua" uueeck 완
-
-"game/modules/tome/data/chats/arena-unlock.lua" beomkki 완 ** (존댓말 재검토)
-
-"game/modules/tome/data/achievements/arena.lua" jirehthecat 완
-
-"game/modules/tome/data/achievements/donator.lua" jirehthecat 완
-
-"game/modules/tome/data/achievements/events.lua" jirehthecat 완
-
-"game/modules/tome/data/achievements/infinite-dungeon.lua" jirehthecat 완
-
-"game/modules/tome/data/achievements/items.lua" jirehthecat 완
-
-"game/modules/tome/data/achievements/kills.lua"jirehthecat 완 **
-
-"game/modules/tome/data/achievements/lore.lua" jirehthecat 완
-
-"game/modules/tome/data/achievements/player.lua" jirehthecat 완 
-
-"game/modules/tome/data/achievements/quests.lua" jirehthecat 완 **
-
-"game/modules/tome/data/achievements/talents.lua" jirehthecat 완 **
-
-"game/engines/default/data/keybinds/move.lua" uueeck 완
-
-"game/engines/default/data/keybinds/mtxn.lua" uueeck 완
-
-"game/engines/default/engine/ActorsSeenDisplay.lua" uueeck 완
-
-"game/modules/tome/data/quests/orc-pride.lua" Highseeker 완
-
-"game/modules/tome/data/quests/paradoxology.lua" Highseeker 완
-
-"game/modules/tome/data/quests/pre-charred-scar.lua" Highseeker 완
-
-"game/modules/tome/data/general/npcs/humanoid_random_boss.lua" beomkki 완
-
-"game/engines/default/engine/Birther.lua" uueeck 완 **
-
-"game/engines/default/engine/DebugConsole.lua"
-"game/engines/default/engine/Game.lua"
-"game/engines/default/engine/I18N.lua"
-"game/engines/default/engine/Key.lua"
-"game/engines/default/engine/LogDisplay.lua"
-"game/engines/default/engine/MicroTxn.lua"
-"game/engines/default/engine/Module.lua"
-"game/engines/default/engine/Object.lua"
-"game/engines/default/engine/PlayerProfile.lua"
-"game/engines/default/engine/Savefile.lua"
-"game/engines/default/engine/SavefilePipe.lua"
-"game/engines/default/engine/Store.lua"
-"game/engines/default/engine/Trap.lua"
-"game/engines/default/data/keybinds/chat.lua" uueeck 완
-
-"game/engines/default/engine/dialogs/DisplayResolution.lua"
-"game/engines/default/engine/dialogs/Downloader.lua"
-"game/engines/default/engine/dialogs/GameMenu.lua"
-"game/engines/default/modules/boot/dialogs/NewGame.lua"
-"game/engines/default/modules/boot/dialogs/Profile.lua" uueeck 완
-
-"game/engines/default/engine/Quest.lua" uueeck 완 **
-
-"game/engines/default/modules/boot/dialogs/MainMenu.lua" uueeck ??
-
-"game/dlcs/tome-cults/data/zones/ft-horrors/npcs.lua" beomkki 완 **
-"game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua" beomkki 완
-"game/dlcs/tome-cults/data/zones/ft-horrors/zone.lua" beomkki 완
-"game/dlcs/tome-cults/data/zones/ft-yaech/npcs.lua" beomkki 완 **
-
-"game/modules/tome/data/birth/classes/adventurer.lua"
-"game/modules/tome/data/birth/classes/afflicted.lua"
-"game/modules/tome/data/birth/classes/celestial.lua" jirehthecat 완 **
-
-"game/modules/tome/data/talents/techniques/assassination.lua" beomkki 완 **
-"game/modules/tome/data/talents/cunning/stealth.lua" beomkki 완 **
-"game/modules/tome/data/talents/cunning/lethality.lua" beomkki 완 **
-
-"game/modules/tome/data/talents/techniques/2h-assault.lua" gameatnew 완
-"game/modules/tome/data/talents/techniques/2hweapon.lua" gameatnew 완
-"game/modules/tome/data/talents/techniques/combat-techniques.lua" gameatnew 완
-"game/modules/tome/data/talents/techniques/combat-training.lua" gameatnew 완
-"game/modules/tome/data/talents/techniques/conditioning.lua" gameatnew 완
-"game/modules/tome/data/talents/techniques/dualweapon.lua" gameatnew 완
-"game/modules/tome/data/talents/techniques/acrobatics.lua" gameatnew 완
-"game/modules/tome/data/talents/techniques/agility.lua" gameatnew 완
-"game/modules/tome/data/talents/techniques/archery.lua" gameatnew 완
-
-"game/dlcs/tome-cults/data/talents/demented/tentacles.lua" beomkki 완 **
-"game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua" beomkki 완
-"game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
-
-"game/engines/default/engine/UserChat.lua" uueeck 완
-
-"game/modules/tome/data/resources.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/celestial.lua" Highseeker 완
-
-"game/dlcs/tome-cults/data/talents/demented/slow-death.lua" beomkki 완
-
-"game/modules/tome/data/talents/celestial/chants.lua" Highseeker 완 **
-
-"game/modules/tome/data/talents/celestial/circles.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/combat.lua" Highseeker 완
-
-"game/engines/default/engine/Zone.lua"
-"game/engines/default/engine/dialogs/AudioOptions.lua"
-"game/engines/default/engine/dialogs/ChatChannels.lua"
-"game/engines/default/engine/dialogs/ChatFilter.lua"
-"game/engines/default/engine/dialogs/ChatIgnores.lua"
-"game/engines/default/engine/dialogs/KeyBinder.lua" uueeck 완
-
-"game/modules/tome/data/talents/celestial/crusader.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/eclipse.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/glyphs.lua" Highseeker **
-
-"game/modules/tome/data/talents/celestial/guardian.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/hymns.lua" Highseeker 완 **
-
-"game/modules/tome/data/talents/celestial/light.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/other.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/radiance.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/star-fury.lua" Highseeker 완
-
-"game/modules/tome/data/talents/cunning/poisons.lua" beomkki 완 **
-"game/modules/tome/data/talents/cunning/scoundrel.lua" beomkki 완 **
-
-"game/modules/tome/data/talents/celestial/sun.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/sunlight.lua" Highseeker 완
-
-"game/modules/tome/data/talents/celestial/twilight.lua" Highseeker 완
-
-"game/modules/tome/data/talents/spells/air.lua" beomkki 완
-"game/modules/tome/data/talents/spells/fire.lua" beomkki 완
-"game/modules/tome/data/talents/spells/ice.lua" beomkki 완
-
-"game/modules/tome/class/interface/TooltipsData.lua" Highseeker ??
-
-"game/modules/tome/data/talents/spells/meta.lua" beomkki 완
-"game/modules/tome/data/talents/spells/aegis.lua" beomkki ???
-"game/modules/tome/data/talents/corruptions/curses.lua" beomkki 완
-
-"game/addons//tome-addon-dev/superload/mod/dialogs/debug/AddonDeveloper.lua" uueeck
 
 # 작업시 유의 사항
 
@@ -199,7 +33,6 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 
 - 검수 시 번역 문제같은게 발생되면 리포지트리 페이지에 들어가서 issue 메뉴를 쓸것.
 
-- 재확인이 필요한 문장이나 문제가 있어서 검수가 필요한 번역문의 경우는 줄 끝에 *** 을 붙일 것.
 
 - %d %s는 텍스트 출력할때 인자를 받아와서 해당 위치에 출력하는 코드임. 데미지라던가 그런거. %%는 %를 출력하기 위한 코드니 그대로 쓸것.
 
