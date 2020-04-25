@@ -22,8 +22,14 @@ section "game/addons/tome-items-vault/overload/mod/dialogs/ItemsVault.lua" - uue
 ```
 
 ```
-2226 / 28884 문장 (7.7%) / 20.02.29 19:25 기준
+5726 / 31640 문장 / 20.04.25 19:10 기준
 ```
+
+```
+재검토 필요한 문장 (*** 검색) : 7줄
+```
+
+
 
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
 
