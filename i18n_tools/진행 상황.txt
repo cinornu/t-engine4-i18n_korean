@@ -1,3 +1,12 @@
+완 : 완료됨
+** : 재검토 필요
+?? : 작업 중
+
+번역 시 재검토가 필요한 문장은 ***를 줄 끝에 붙일 것.
+번역 불가능한 문장도 마찬가지
+
+==============================================
+
 "game/engines/default/data/keybinds/actions.lua" uueeck ?? **
 
 "game/engines/default/data/keybinds/debug.lua" uueeck 완
@@ -96,15 +105,6 @@
 
 "game/dlcs/tome-cults/data/talents/demented/tentacles.lua" beomkki 완 **
 "game/dlcs/tome-cults/data/talents/demented/disfigured-face.lua" beomkki 완
-완 : 완료됨
-** : 재검토 필요
-?? : 작업 중
-
-번역 시 재검토가 필요한 문장은 ***를 줄 끝에 붙일 것.
-번역 불가능한 문장도 마찬가지
-
-==============================================
-
 "game/dlcs/tome-cults/data/talents/demented/horrific-body.lua" beomkki 완
 
 "game/engines/default/engine/UserChat.lua" uueeck 완
