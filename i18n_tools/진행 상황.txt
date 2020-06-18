@@ -166,3 +166,7 @@
 "game/modules/tome/data/talents/corruptions/curses.lua" beomkki 완
 
 "game/addons//tome-addon-dev/superload/mod/dialogs/debug/AddonDeveloper.lua" uueeck
+
+"game/modules/tome//data/texts/tutorial/stats/stats1.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats2.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats3.lua" Khelerd 완 **
