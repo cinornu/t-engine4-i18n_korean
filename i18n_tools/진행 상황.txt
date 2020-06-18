@@ -2,7 +2,7 @@
 ** : 재검토 필요
 ?? : 작업 중
 
-번역 시 재검토가 필요한 문장은 ***를 줄 끝에 붙일 것.
+파일 내에서 번역 시 재검토가 필요한 문장은 ***를 줄 끝에 붙일 것.
 번역 불가능한 문장도 마찬가지
 
 ==============================================
@@ -165,7 +165,15 @@
 "game/modules/tome/data/talents/spells/aegis.lua" beomkki ???
 "game/modules/tome/data/talents/corruptions/curses.lua" beomkki 완
 
-"game/addons//tome-addon-dev/superload/mod/dialogs/debug/AddonDeveloper.lua" uueeck
+"game/addons//tome-addon-dev/superload/mod/dialogs/debug/AddonDeveloper.lua"
+"game/addons//tome-addon-dev/superload/mod/dialogs/debug/DebugMain.lua"
+"game/addons//tome-items-vault/data/entities/fortress-grids.lua"
+"game/addons//tome-items-vault/init.lua"
+"game/addons//tome-items-vault/overload/data/chats/items-vault-command-orb-offline.lua"
+"game/addons//tome-items-vault/overload/data/chats/items-vault-command-orb.lua"
+"game/addons//tome-items-vault/overload/mod/class/ItemsVaultDLC.lua"
+"game/addons//tome-items-vault/overload/mod/dialogs/ItemsVault.lua"
+"game/addons//tome-items-vault/overload/mod/dialogs/ItemsVaultOffline.lua" uueeck 완 **
 
 "game/modules/tome//data/texts/tutorial/stats/stats1.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats2.lua"
