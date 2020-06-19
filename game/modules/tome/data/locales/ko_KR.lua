@@ -6388,6 +6388,7 @@ section "game/modules/tome/ai/target.lua"
 ------------------------------------------------
 section "game/modules/tome/class/Actor.lua"
 
+t("hostile", "적대적인", "_t")
 t("female", "여성", "_t")
 t("male", "남성", "_t")
 t("Effective talent level: ", "효과 기술 레벨: ", "_t")
@@ -6489,6 +6490,7 @@ t("Sell", "판매", "_t")
 section "game/modules/tome/class/Trap.lua"
 
 t("%s's %s", "%s 의 %s", "tformat")
+t("hostile", "적대적인", "_t")
 t("trap", "함정", "_t")
 
 
@@ -6505,6 +6507,7 @@ section "game/modules/tome/class/World.lua"
 ------------------------------------------------
 section "game/modules/tome/class/WorldNPC.lua"
 
+t("hostile", "적대적인", "_t")
 
 
 ------------------------------------------------
@@ -8346,6 +8349,7 @@ section "game/modules/tome/data/chats/assassin-lord-thieves.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/assassin-lord.lua"
 
+t("[attack]", "[공격]", "_t")
 
 
 ------------------------------------------------
@@ -8366,6 +8370,7 @@ section "game/modules/tome/data/chats/command-staff.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/conclave-vault-greeting.lua"
 
+t("[attack]", "[공격]", "_t")
 
 
 ------------------------------------------------
@@ -8627,6 +8632,42 @@ t("[Leave the orb alone]", "[오브를 두고 떠난다.]", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/slasul.lua"
 
+t([[What is this? Why have you entered my temple and slain my followers?
+Speak or die, for I am Slasul and you shall not disrupt my plans.]], "대체 무슨짓이지? 왜 내 사원에 들어와 내 추종자들을 학살한것이냐? 죽기 싫다면 말해라, 나는 슬라슐이며 너는 내 계획을 방해할수 없다.", "_t")
+t("I was sent by Ukllmswwik to stop your mad schemes to control all underwater life!", "나는 ukllmswwik에 의해 수중생물을 지배하려는 너의 정신나간 계획을 저지하기 위해 보내졌다!", "_t")
+t([[I see. So the dragon sent you. He told you I am insane, I assume?
+But which of us is truly evil? Myself, working to better my people, doing no harm to anyone, or you, who comes here to kill me, destroying my friends and planning to do the same to me?
+Who is the insane one?]], "알겠다, 용이 너를 보냈군. 추측컨데 그가 내가 미쳤다고 하던가? 하지만 대체 누가 진정으로 사악하단 말인가? 내 스스로, 내 백성들을 위해 일하고, 내 친구들을 파괴하고, 나를 죽이려 온 너를 포함한 누구도 해하지 않았다, 대체 누가 미치광이란 말인가? ", "_t")
+t("If you refuse to see reason, you leave me no choice!", "이성적으로 받아들이기를 거부한다면, 선택의 여지가 없다!", "_t")
+t("Your feeble attempt to sway me from the side of good will not work. Pay for you sins!", "나를 흔들리게 하려는 너의 누가 선한지에관한 하찮은 시도는 소용없다. 네 죄값을 치뤄라! ", "_t")
+t("Your words are... disturbing. Why should I spare you?", "네 말들은... 날 혼란스럽게 하는군. 내가 왜 너에게 자비를 배풀어야 하지?", "_t")
+t([[Spare me?#LIGHT_GREEN#*He laughs.*#WHITE#
+Do not be so hasty to assume YOU are in a position to offer mercy to ME!
+Yet I shall tell you my story. You surface dwellers do not know much about nagas, but let me tell you this: our current condition was not our choice.
+When Nalore sank, many of us died, so we resorted to using the magic of this temple. It worked, it saved us, and yet we are cursed. Cursed in this form by the terrible magic.
+If you do not believe anything else of what I say, please believe at least this: the Sher'Tul are hiding, not gone, and they are not benevolent entities.
+Recently, that water dragon that sent you here started sending "agents" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.]], [[자비를 배풀어?#LIGHT_GREEN#*그가 웃었다.*#WHITE#
+섣부르게 네가 내게 자비를 배풀수 있는 위치에 있다 상정하지마라!
+내 이야기를 네게 해주지 않은것 같군. 너같은 지상의 거주자들은 나가에 대해 잘 모르고있지, 하지만 내가 한가지 말해주마: 우리의 현 상태는 우리가 선택한게 아니다.
+날로레가 수몰되고, 우리중 많은 수가 죽었다, 그래서 우린 최후의 수단으로 이 사원의 힘을 사용하려 했지. 그건 작동했고, 우릴 살려냈지만, 우린 저주받았다. 끔찍한 마법에 의해 이런 모습으로 저주받은것이다.
+네가 내가 말한것중에 그 무엇도 믿지 않는다면, 부탁하건데 이 한가지만 믿어다오: 쉐르'툴은 숨은것이지, 사라진게 아니다, 그리고 그들은 자애로운 존재들이 아니었다.
+최근에, 너를 이곳으로 보낸 그 수룡이 '요원들'을 보내기 시작했다 . 나는 그의 목표를 상상밖에 할수 없지만, 절대 평화적인것은 아닐것 같군.]], "_t")
+t("You do not sound mad to me... could Ukllmswwik have lied?", "당신은 내게 미친것처럼 보이지 않는군요... Ukllmswwik이 내게 거짓말을 한걸까요?", "_t")
+t("As you wish. It did not have to come to this...", "당신이 소망한대로, 이처럼 되진 않았어야 했습니다...", "_t")
+t("I will not be deceived by your lies! I will make your pay for your victims!", "난 네놈의 거짓말에 기만당하지 않을것이다! 네 희생자들을 위해 값을 치루게 해주마!", "_t")
+t("Use this portal. It will bring you back to his cave; ask him the truth.", "이 포탈을 사용해라. 이게 너를 그의 동굴로 되돌려보내 줄것이다; 그에게 진실을 물어라.", "_t")
+t("I will make him pay for his treachery.", "나는 그가 배반에대한 죄값을 치루게 할것입니다.", "_t")
+t("Thank you for listening to me.", "내 말을 들어주어 고맙구나.", "_t")
+t("The dragon was lying, I can feel it. I have decided to embrace your cause.", "용은 거짓말을 했습니다, 저는 그걸 느낄 수 있습니다. 저는 당신의 뜻을 받아들이기로 했습니다.", "_t")
+t("Farewell, Slasul.", "슬라술이여 안녕히", "_t")
+t("So be it... Die now!", "그렇다면... 지금 죽어라!", "_t")
+t("[attack]", "[공격]", "_t")
+t([[I secretly hoped you would.
+Then let us seal this alliance. Share your lifeforce with me! So long you should live I shall not be killed!
+In return let me offer you this powerful trident.]], "나는 사실 네가 그러길 바랬다. 그럼 우리의 동맹을 확고히 하자꾸나. 너의 생명력을 나와 공유해라! 네가 살아있는 동안 내가 결코 죽지않게! 보답으로 너에게 이 강력한 삼지창을 주겠다.", "_t")
+t("I shall accept your offer, my liege.", "당신의 뜻을 받들겠나이다 나의 주군이여.", "_t")
+t("LET US BE BOUND!", "우리가 결속되게 하라!", "_t")
+t("This sounds strange. I need to think about it.", "이건 이상하게 들린다. 나는 좀 더 생각해봐야 겠다.", "_t")
 
 
 ------------------------------------------------
@@ -8683,11 +8724,13 @@ section "game/modules/tome/data/chats/tutorial-start.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/ukllmswwik.lua"
 
+t("[attack]", "[공격]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/undead-start-game.lua"
 
+t("[attack]", "[공격]", "_t")
 
 
 ------------------------------------------------
@@ -8753,6 +8796,13 @@ section "game/modules/tome/data/chats/zigur-trainer.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/zoisla.lua"
 
+t([[#LIGHT_GREEN#*A naga steps through the portal, she seems to be a high ranked one.*#WHITE#
+NO! You fool, the portal is breaking down!]], "#LIGHT_GREEN#*나가 한마리가 포탈에서 나왔습니다, 그녀는 고위 개체로 보입니다.*#WHITE#안돼! 이 멍청한놈, 포탈이 무너지고 있잖아!", "_t")
+t("And thus my task is done, serpent!", "그리하여 내 임무가 끝난다면 그리 하겠다, 이 뱀아!", "_t")
+t("You do not understand: it will explode!", "넌 이해하지 못하고 있어: 이게 폭발할 거라고!", "_t")
+t([[The portal randomly teleported us before exploding.
+You fool! You have doomed us, we could be #{bold}#anywhere!#{normal}#
+DIE !]], "포탈이 폭발하기전 우리를 임의로 텔레포트 시켰습니다. 이 멍청한놈! 넌 우리를 파멸시켰어, 우린 #{bold}#어디로 온지도 모른다고!#{normal}#죽어라 !", "_t")
 
 
 ------------------------------------------------
@@ -8772,42 +8822,109 @@ t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 ------------------------------------------------
 section "game/modules/tome/data/factions.lua"
 
+t("Neutral", "중립", "faction name")
+t("Unaligned", "비동맹", "faction name")
+t("Merchant Caravan", "대상 행렬", "faction name")
+t("Point Zero Onslaught", "영점 맹습자", "faction name")
+t("Point Zero Guardians", "영점 수호자들", "faction name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/encounters/fareast-npcs.lua"
 
+t("Sun Paladins patrol", "태양의 기사 순찰대", "entity name")
+t("Anorithil patrol", "아노리실 순찰대", "entity name")
+t("sunwall", "태양의 장벽", "entity subtype")
+t("Orcs patrol", "오크 순찰대", "entity name")
+t("orc pride", "오크 긍지", "entity subtype")
+t("patrol", "순찰대", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/encounters/fareast.lua"
 
+t("Underwater Cave", "수중동굴", "entity name")
+t("harmless", "무해한", "entity type")
+t("Entrance to an underwater cave", "수중동굴로 향하는 입구", "_t")
+t("#LIGHT_BLUE#You notice an entrance to an underwater cave.", "#LIGHT_BLUE#당신은 수중동굴로 향하는 입구를 발견했다.", "logPlayer")
+t("Shadow Crypt", "그림자 지하실", "entity name")
+t("hostile", "적대적인", "entity type")
+t("special", "특별한", "entity subtype")
+t("Entrance to a dark crypt", "어두운 지하실로 향하는 입구", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/encounters/maj-eyal-npcs.lua"
 
+t("Allied Kingdoms human patrol", "왕국연합의 인간 순찰대", "entity name")
+t("Allied Kingdoms halfling patrol", "왕국연합의 하플링 순찰대", "entity name")
+t("allied kingdoms", "왕국연합", "entity subtype")
+t("patrol", "순찰대", "entity type")
+t("adventurers party", "모험가 무리", "entity name")
+t("ziguranth patrol", "지구르 추종자 순찰대", "entity name")
+t("hostile", "적대적인", "entity type")
 t("humanoid", "인간형", "entity subtype")
+t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "당신이 추잡한 비전 마법 사용자가 아니라면 두려워할 필요는 없습니다. 반대라면: 죽어라!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/encounters/maj-eyal.lua"
 
+t("Novice mage", "초보 마법사", "_t")
+t("Lost merchant", "길 잃은 상인", "entity name")
+t("You find a hidden trap door, and hear cries for help from within...", "당신은 숨겨진 지하실 문을 발견했습니다, 그리고 안에서 도움을 바라는 비명을 들었습니다...", "_t")
+t("#LIGHT_RED#You carefully open the trap door and enter the underground tunnels...", "#LIGHT_RED#당신은 조심스럽게 지하실 문을 열고 지하 터널로 들어섰습니다...", "logPlayer")
+t("#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED# 당신은 들어서자 문의 안쪽면에 손잡이가 보이지 않다는것을 깨달았습니다. 당신은 이곳에 갇혔습니다!", "logPlayer")
+t("Enter the tunnels", "터널로 들어가다", "_t")
+t("Sect of Kryl-Faijan", "크릴-파이얀의 이교도", "entity name")
+t("hostile", "적대적인", "entity type")
+t("Encounter", "만남", "_t")
+t([[You find an entrance to an old crypt. An aura of terrible evil emanates from this place. You feel threatened just standing there.
+You hear the muffled cries of a woman coming from inside.]], "당신은 오래된 지하실의 입구를 발견했습니다. 끔찍하게 사악한 기운이 이 장소에서 뿜어져나옵니다. 당신은 이곳에 서있는것만으로도 위협받는 느낌을 받습니다. 당신은 안에서부터 여인의 숨죽인 울음소리가 흘러나오는것을 들었습니다.", "_t")
+t("#LIGHT_BLUE#You carefully get away without making a sound.", "#LIGHT_BLUE#당신은 조심스럽게 소리 없이 빠져나왔습니다 .", "logPlayer")
+t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#당신은 조심스럽게 문을 열고 지하 묘실에 들어섰습니다...", "logPlayer")
+t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#당신은 들어서자 문의 안쪽면에 손잡이가 보이지 않다는것을 깨달았습니다. 당신은 이곳에 갇혔습니다!", "logPlayer")
+t("Enter the crypt", "지하실에 들어사다", "_t")
+t("Leave carefully", "조심스럽게 떠나다", "_t")
+t("Lost kitten", "길잃은 새끼 고양이", "entity name")
+t("Lost Kitty", "길잃은 새끼 고양이", "_t")
+t("Ancient Elven Ruins", "고대 엘프의 폐허", "entity name")
+t("Entrance to some ancient elven ruins", "고대 엘프의 폐허로 가는 입구", "_t")
+t("Cursed Village", "저주받은 마을", "entity name")
+t("Half-dead lumberjack", "반쯤 죽은 나무꾼", "_t")
+t("Ruined Dungeon", "파괴된 던전", "entity name")
+t("Entrance to a ruined dungeon", "파괴된 던전의 입구", "_t")
+t("Mark of the Spellblaze", "스펠블레이즈의 표시", "_t")
+t("Golem Graveyard", "골렘의 묘지", "_t")
+t("Agrimley the Hermit", "은둔자 아그림레이", "_t")
+t("Ring of Blood", "피의 투기장", "entity name")
+t("Hidden compound", "숨겨진 노예 수용소", "_t")
+t("Tranquil Meadow", "고요한 목초지", "entity name")
+t("harmless", "무해한", "entity type")
+t("special", "특별한", "entity subtype")
+t("tranquil meadow", "고요한 목초지", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/antimagic-bush.lua"
 
+t("antimagic bush", "반마법 덤불", "_t")
+t("%s (antimagic aura)", "%s (밥마법 기운)", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/bligthed-soil.lua"
 
+t("blighted soil", "황폐화된 토양", "_t")
+t("%s (blighted aura)", "%s (황폐한 기운)", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/conclave-vault.lua"
 
+t("Director Hompalan", "감독관 홈팔란", "_t")
+t([[Only crumbling bones are left of what once was the proud Director Hompalan, chief of this facility.
+Now those remains look at you with empty eyes but you can not mistake their intent.]], "오직 이 시설의 책임자였던, 감독관 홈팔란의 부서진 뼈조각만이 남아있습니다, 이제 그 유해는 당신을 텅빈 눈구멍으로 쳐다보고 있지만 당신은 그것의 관심을 알아차리지 않을수 없습니다.", "_t")
 
 
 ------------------------------------------------
@@ -9634,6 +9751,9 @@ section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
 section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 
 t("None", "없음", "_t")
+t("broken staff", "부서진 지팡이", "_t")
+t("Telos's Staff (Top Half)", "텔로스 지팡이 (윗부분)", "entity name")
+t("The top part of Telos' broken staff.", "부서진 텔로스 지팡이의 윗부분입니다.", "_t")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
 
 
@@ -14112,16 +14232,59 @@ section "game/modules/tome/data/texts/tutorial/stats/mechintro.lua"
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats1.lua"
 
+t([[Basic character attributes such as strength and willpower are important, but their importance lies in how they affect your #GOLD#combat stats#WHITE#, the subject of this entire tutorial.
+The first two of these #GOLD#combat stats#WHITE# are:
+
+#LIGHT_GREEN#Accuracy: #WHITE#Determines whether your physical attacks hit your target.  
+#LIGHT_GREEN#Defense: #WHITE#Your ability to avoid attacks.
+
+When you try to stab somebody, your #LIGHT_GREEN#Accuracy#WHITE# score is measured against your target's #LIGHT_GREEN#Defense#WHITE# score, and a percentage chance of success is determined. We'll look at the exact calculation later.
+
+]], [[힘이나 의지 같은 기초 캐릭터 속성은 중요하지만, 특히나 그것들이 이번 튜토리얼의 주제인 당신의 #GOLD#전투 능력치#WHITE#에 얼마나 영향을 주느냐가 중요합니다.
+이러한 #GOLD#전투 능력치#WHITE#들 중 가장 먼저 소개드릴 두 가지는,
+
+#LIGHT_GREEN#정확도: #WHITE#당신의 물리 공격이 대상을 맞히는가를 결정합니다.  
+#LIGHT_GREEN#회피도: #WHITE#당신이 공격을 피하기 위해 필요한 능력입니다.
+
+당신이 누군가를 찌르려고 할 때, 당신의 #LIGHT_GREEN#정확도#WHITE# 수치가 대상의 #LIGHT_GREEN#회피도#WHITE# 수치와 비교되고, 성공 확률이 결정됩니다. 정확한 계산은 나중에 살펴 보도록 하겠습니다.
+
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats2.lua"
 
+t([[The next three important #GOLD#combat stats#WHITE#:
+
+#LIGHT_GREEN#Physical save: #WHITE#Your ability to shrug off physical effects.
+#LIGHT_GREEN#Spell save: #WHITE#Your ability to shrug off magical effects.
+#LIGHT_GREEN#Mental save: #WHITE#Your ability to shrug off mental effects.
+
+]], [[다음으로 소개드릴 중요한 #GOLD#전투 능력치#WHITE# 세 가지는,
+
+#LIGHT_GREEN#물리내성: #WHITE#당신이 물리 상태효과에 저항하기 위해 필요한 능력입니다.
+#LIGHT_GREEN#주문내성: #WHITE#당신이 주문 상태효과에 저항하기 위해 필요한 능력입니다.
+#LIGHT_GREEN#정신내성: #WHITE#당신이 정신 상태효과에 저항하기 위해 필요한 능력입니다.
+
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats3.lua"
 
+t([[The final three important #GOLD#combat stats#WHITE# of your character are these:
+
+#LIGHT_GREEN#Physical power: #WHITE#Your ability to inflict damage and effects with weapons (including fists).
+#LIGHT_GREEN#Spellpower: #WHITE#Your ability to inflict damage and effects with spells.
+#LIGHT_GREEN#Mindpower: #WHITE#Your ability to inflict damage and effects with your mind.
+
+]], [[마지막으로 소개드릴 당신의 캐릭터의 중요한 #GOLD#전투 능력치#WHITE# 세 가지는,
+
+#LIGHT_GREEN#물리력: #WHITE#당신의 (주먹을 포함한)무기로 피해를 입히고 여러 상태효과들을 주기 위해 필요한 능력입니다.
+#LIGHT_GREEN#주문력: #WHITE#당신의 주문으로 피해를 입히고 여러 상태효과들을 주기 위해 필요한 능력입니다.
+#LIGHT_GREEN#정신력: #WHITE#당신의 정신으로 피해를 입히고 여러 상태효과들을 주기 위해 필요한 능력입니다.
+
+]], "_t")
 
 
 ------------------------------------------------
@@ -14889,6 +15052,7 @@ section "game/modules/tome/data/zones/golem-graveyard/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/golem-graveyard/zone.lua"
 
+t("Golem Graveyard", "골렘의 묘지", "_t")
 
 
 ------------------------------------------------
@@ -15061,6 +15225,7 @@ t("trap", "함정", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/keepsake-meadow/zone.lua"
 
+t("Tranquil Meadow", "고요한 목초지", "_t")
 
 
 ------------------------------------------------
@@ -15122,6 +15287,7 @@ section "game/modules/tome/data/zones/mark-spellblaze/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/mark-spellblaze/zone.lua"
 
+t("Mark of the Spellblaze", "스펠블레이즈의 표시", "_t")
 
 
 ------------------------------------------------
@@ -15347,6 +15513,7 @@ section "game/modules/tome/data/zones/ring-of-blood/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/ring-of-blood/zone.lua"
 
+t("Ring of Blood", "피의 투기장", "_t")
 
 
 ------------------------------------------------
@@ -15368,6 +15535,7 @@ t("sealed door", "봉인된 문", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/ruined-dungeon/zone.lua"
 
+t("Ruined Dungeon", "파괴된 던전", "_t")
 
 
 ------------------------------------------------
@@ -15429,6 +15597,7 @@ t("but nobody knew why #sex# suddenly became evil", "하지만 왜 그 #sex#이 
 ------------------------------------------------
 section "game/modules/tome/data/zones/shadow-crypt/zone.lua"
 
+t("Shadow Crypt", "그림자 지하실", "_t")
 
 
 ------------------------------------------------
@@ -15586,6 +15755,9 @@ t("Back and there again", "다시 또 그곳에", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/telmur/objects.lua"
 
+t("broken staff", "부서진 지팡이", "_t")
+t("Telos's Staff (Bottom Half)", "텔로스 지팡이 (아랫부분)", "entity name")
+t("The bottom part of Telos' broken staff.", "부서진 텔로스 지팡이의 아랫부분입니다.", "_t")
 
 
 ------------------------------------------------
@@ -16339,6 +16511,7 @@ section "game/modules/tome/dialogs/debug/AdvanceZones.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/AlterFaction.lua"
 
+t("hostile", "적대적인", "_t")
 
 
 ------------------------------------------------

@@ -173,7 +173,8 @@
 "game/addons//tome-items-vault/overload/data/chats/items-vault-command-orb.lua"
 "game/addons//tome-items-vault/overload/mod/class/ItemsVaultDLC.lua"
 "game/addons//tome-items-vault/overload/mod/dialogs/ItemsVault.lua"
-"game/addons//tome-items-vault/overload/mod/dialogs/ItemsVaultOffline.lua" uueeck 완 **
+"game/addons//tome-items-vault/overload/mod/dialogs/ItemsVaultOffline.lua"
+"game/addons//tome-possessors/data/achievements/possessors.lua" uueeck 완 **
 
 "game/modules/tome//data/texts/tutorial/stats/stats1.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats2.lua"
