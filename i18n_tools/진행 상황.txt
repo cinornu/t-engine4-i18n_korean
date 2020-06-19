@@ -178,4 +178,11 @@
 
 "game/modules/tome//data/texts/tutorial/stats/stats1.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats2.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats3.lua" Khelerd 완 **
+"game/modules/tome//data/texts/tutorial/stats/stats3.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats4.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats5.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats6.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats7.1.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats7.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats8.lua"
+"game/modules/tome//data/texts/tutorial/stats/stats9.lua" Khelerd 완 **
