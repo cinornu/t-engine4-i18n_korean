@@ -1,4 +1,4 @@
-완 : 완료됨
+﻿완 : 완료됨
 ** : 재검토 필요
 ?? : 작업 중
 
@@ -186,3 +186,15 @@
 "game/modules/tome//data/texts/tutorial/stats/stats7.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats8.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats9.lua" Khelerd 완 **
+
+"game/engines//default/engine/dialogs/ShowErrorStack.lua"
+"game/engines//default/engine/dialogs/ShowInventory.lua"
+"game/engines//default/engine/dialogs/ShowPickupFloor.lua"
+"game/engines//default/engine/dialogs/ShowQuests.lua"
+"game/engines//default/engine/dialogs/ShowStore.lua"
+"game/engines//default/engine/dialogs/ShowText.lua" ***
+"game/engines//default/engine/dialogs/SteamOptions.lua"
+"game/engines//default/engine/dialogs/Talkbox.lua"
+"game/engines//default/engine/dialogs/UseTalents.lua"
+"game/engines//default/engine/dialogs/UserInfo.lua"
+"game/engines//default/engine/dialogs/VideoOptions.lua" *** Magpie 완
