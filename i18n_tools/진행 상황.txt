@@ -186,7 +186,11 @@
 "game/modules/tome//data/texts/tutorial/stats/stats7.1.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats7.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats8.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats9.lua" Khelerd 완 **
+"game/modules/tome//data/texts/tutorial/stats/stats9.lua"
+"game/modules/tome//data/texts/tutorial/tactics1.lua"
+"game/modules/tome//data/texts/tutorial/tactics2.lua"
+"game/modules/tome//data/texts/tutorial/talents.lua"
+"game/modules/tome//data/texts/tutorial/terrain.lua" ** ('기믹' 단어 사용) Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
