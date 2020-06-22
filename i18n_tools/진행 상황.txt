@@ -177,6 +177,10 @@
 "game/addons//tome-possessors/data/achievements/possessors.lua"
 "game/addons//tome-possessors/data/birth/psionic.lua" uueeck 완 **
 
+"game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
+"game/modules/tome//data/texts/tutorial/done.lua"
+"game/modules/tome//data/texts/tutorial/levelup.lua" Khelerd 완
+
 "game/modules/tome//data/texts/tutorial/stats/stats1.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats2.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats3.lua"
