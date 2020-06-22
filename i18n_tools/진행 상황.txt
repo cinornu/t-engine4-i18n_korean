@@ -216,3 +216,13 @@
 "game/engines//default/engine/interface/ActorLife.lua"
 "game/engines//default/engine/interface/ActorTalents.lua" **
 "game/engines//default/engine/interface/GameTargeting.lua" Magpie 완
+
+"game/engines//default/engine/interface/ObjectActivable.lua"
+"game/engines//default/engine/interface/PlayerExplore.lua"
+"game/engines//default/engine/interface/PlayerHotkeys.lua"
+"game/engines//default/engine/interface/PlayerMouse.lua"
+"game/engines//default/engine/interface/PlayerRest.lua"
+"game/engines//default/engine/interface/PlayerRun.lua"
+"game/engines//default/engine/interface/WorldAchievements.lua"
+"game/engines//default/engine/ui/Dialog.lua"
+"game/engines//default/engine/ui/Gestures.lua" Magpie 완
