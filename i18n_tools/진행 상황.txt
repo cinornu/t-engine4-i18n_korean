@@ -201,4 +201,10 @@
 "game/engines//default/engine/dialogs/VideoOptions.lua" ** Magpie 완
 
 "game/engines//default/engine/dialogs/ViewHighScores.lua"
-"game/engines//default/engine/dialogs/microtxn/MTXMain.lua" ** Magpie 완
+"game/engines//default/engine/dialogs/microtxn/MTXMain.lua" ** 
+"game/engines//default/engine/dialogs/microtxn/ShowPurchasable.lua"
+"game/engines//default/engine/dialogs/microtxn/UsePurchased.lua"
+"game/engines//default/engine/interface/ActorInventory.lua"
+"game/engines//default/engine/interface/ActorLife.lua"
+"game/engines//default/engine/interface/ActorTalents.lua" **
+"game/engines//default/engine/interface/GameTargeting.lua" Magpie 완
