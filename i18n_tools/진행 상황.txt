@@ -229,8 +229,7 @@
 "game/engines//default/engine/dialogs/Talkbox.lua"
 "game/engines//default/engine/dialogs/UseTalents.lua"
 "game/engines//default/engine/dialogs/UserInfo.lua"
-"game/engines//default/engine/dialogs/VideoOptions.lua" ** Magpie 완
-
+"game/engines//default/engine/dialogs/VideoOptions.lua" ** 
 "game/engines//default/engine/dialogs/ViewHighScores.lua"
 "game/engines//default/engine/dialogs/microtxn/MTXMain.lua" ** 
 "game/engines//default/engine/dialogs/microtxn/ShowPurchasable.lua"
@@ -238,8 +237,7 @@
 "game/engines//default/engine/interface/ActorInventory.lua"
 "game/engines//default/engine/interface/ActorLife.lua"
 "game/engines//default/engine/interface/ActorTalents.lua" **
-"game/engines//default/engine/interface/GameTargeting.lua" Magpie 완
-
+"game/engines//default/engine/interface/GameTargeting.lua" 
 "game/engines//default/engine/interface/ObjectActivable.lua"
 "game/engines//default/engine/interface/PlayerExplore.lua"
 "game/engines//default/engine/interface/PlayerHotkeys.lua"
@@ -248,4 +246,6 @@
 "game/engines//default/engine/interface/PlayerRun.lua"
 "game/engines//default/engine/interface/WorldAchievements.lua"
 "game/engines//default/engine/ui/Dialog.lua"
-"game/engines//default/engine/ui/Gestures.lua" Magpie 완
+"game/engines//default/engine/ui/Gestures.lua"
+"game/engines//default/engine/ui/Inventory.lua"
+"game/engines//default/engine/ui/WebView.lua" Magpie 완
