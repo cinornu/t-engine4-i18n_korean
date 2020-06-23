@@ -177,9 +177,17 @@
 "game/addons//tome-possessors/data/achievements/possessors.lua"
 "game/addons//tome-possessors/data/birth/psionic.lua" uueeck 완 **
 
+"game/modules/tome//data/quests/tutorial.lua"
+"game/modules/tome//data/texts/intro-tutorial.lua" Khelerd 완
+
 "game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
 "game/modules/tome//data/texts/tutorial/done.lua"
-"game/modules/tome//data/texts/tutorial/levelup.lua" Khelerd 완
+"game/modules/tome//data/texts/tutorial/levelup.lua"
+"game/modules/tome//data/texts/tutorial/melee.lua"
+"game/modules/tome//data/texts/tutorial/move.lua"
+"game/modules/tome//data/texts/tutorial/objects.lua"
+"game/modules/tome//data/texts/tutorial/quests.lua"
+"game/modules/tome//data/texts/tutorial/ranged.lua" Khelerd 완
 
 "game/modules/tome//data/texts/tutorial/stats/stats1.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats2.lua"
@@ -195,6 +203,9 @@
 "game/modules/tome//data/texts/tutorial/tactics2.lua"
 "game/modules/tome//data/texts/tutorial/talents.lua"
 "game/modules/tome//data/texts/tutorial/terrain.lua" ** ('기믹' 단어 사용) Khelerd 완
+
+"game/modules/tome//data/zones/tutorial-combat-stats/zone.lua"
+"game/modules/tome//data/zones/tutorial/npcs.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
