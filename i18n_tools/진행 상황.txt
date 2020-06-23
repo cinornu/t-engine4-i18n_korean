@@ -189,6 +189,18 @@
 "game/modules/tome//data/texts/tutorial/quests.lua"
 "game/modules/tome//data/texts/tutorial/ranged.lua" Khelerd 완
 
+"game/modules/tome//data/texts/tutorial/stats-calc/calc0.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc1.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc10.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc11.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc2.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc3.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc4.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc5.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc6.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc7.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc8.lua"
+"game/modules/tome//data/texts/tutorial/stats-calc/calc9.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats1.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats2.lua"
 "game/modules/tome//data/texts/tutorial/stats/stats3.lua"
