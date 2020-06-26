@@ -1,6341 +1,6 @@
 locale "ko_KR"
 
 ------------------------------------------------
-section "game/modules/tome//ai/escort.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/improved_tactical.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/improved_talented.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/maintenance.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/quests.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/sandworm_tunneler.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/shadow.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/special_movements.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/tactical.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//ai/target.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Actor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/FortressPC.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Game.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/GameState.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Grid.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/MapEffects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/NPC.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Object.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Party.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/PartyMember.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Player.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Projectile.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Store.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/Trap.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/UserChatExtension.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/World.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/WorldNPC.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/generator/actor/Arena.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/generator/actor/HighPeakFinal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/generator/actor/ValleyMoon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/ActorAI.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/ActorInscriptions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/ActorObjectUse.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/Archery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/Combat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/PartyDeath.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/PartyIngredients.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/PartyLore.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/PlayerExplore.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/TooltipsData.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/interface/WorldAchievements.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/uiset/Classic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/uiset/ClassicPlayerDisplay.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//class/uiset/Minimalist.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/arena.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/donator.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/events.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/infinite-dungeon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/items.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/kills.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/lore.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/player.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/quests.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/achievements/talents.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/adventurer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/afflicted.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/celestial.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/chronomancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/corrupted.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/mage.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/none.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/psionic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/rogue.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/tutorial.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/warrior.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/classes/wilder.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/descriptors.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/construct.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/dwarf.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/elf.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/giant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/halfling.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/human.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/tutorial.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/undead.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/races/yeek.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/sexes.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/birth/worlds.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/calendar_allied.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/calendar_dwarf.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/alchemist-derth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/alchemist-elvala.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/alchemist-golem.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/alchemist-hermit.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/alchemist-last-hope.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/angolwen-leader.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/angolwen-staves-store.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/antimagic-end.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/ardhungol-end.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/ardhungol-start.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/arena-start.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/arena-unlock.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/arena.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/artifice-mastery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/artifice.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/assassin-lord-thieves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/assassin-lord.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/chronomancy-bias-weave.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/chronomancy-see-threads.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/command-staff.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/conclave-vault-greeting.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/corruptor-quest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/derth-attack-over.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/dreadfell-ambush.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/east-portal-end.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/eidolon-plane.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/elisa-orb-scrying.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/elisa-shop.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/escort-quest-start.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/escort-quest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/fallen-aeryn.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/gates-of-morning-main.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/gates-of-morning-welcome.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/golbug-explains.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/jewelry-store.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/keepsake-berethh-encounter.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/keepsake-caravan-destroyed.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/keepsake-kyless-death.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/last-hope-elder.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/last-hope-lost-merchant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/last-hope-melinda-father.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/last-hope-weapon-store.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/limmir-valley-moon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/lost-merchant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/lumberjack-quest-done.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/lumberjack-quest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/mage-apprentice-quest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/magic-store.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/melinda-beach-end.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/melinda-beach.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/melinda-fortress.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/message-last-hope.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/myssil.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/norgan-saved.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/orc-breeding-pits.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/paradoxology.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/player-inscription.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/point-zero-zemekkys.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/pre-charred-scar-eruan.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/pre-charred-scar.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/ring-of-blood-master.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/ring-of-blood-orb.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/ring-of-blood-win.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/sage-kitty.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/shadow-crypt-yeek-clone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-butler.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-caldizar.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-command-orb.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-gladium-orb.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-shimmer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/shertul-fortress-training-orb.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/slasul.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/sorcerer-end.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/sorcerer-fight.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/tannen.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/tarelion-start-archmage.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/tarelion.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/temporal-rift-end.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/temporal-rift-start.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/the-master-resurrect.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/trap-priming.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/tutorial-start.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/ukllmswwik.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/undead-start-game.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/undead-start-kill.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/unremarkable-cave-bosses.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/unremarkable-cave-fillarel.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/unremarkable-cave-krogar.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/ward.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/worldly-knowledge.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/yeek-wayist.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/zemekkys-done.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/zemekkys-start-chronomancers.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/zemekkys.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/zigur-mindstar-store.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/zigur-trainer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/chats/zoisla.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/damage_types.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/factions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/encounters/fareast-npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/encounters/fareast.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/encounters/maj-eyal-npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/encounters/maj-eyal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/antimagic-bush.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/bligthed-soil.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/conclave-vault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/cultists.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/damp-cave.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/drake-cave.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/fearscape-portal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/fell-aura.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/font-life.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/glimmerstone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/glowing-chest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/meteor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/naga-portal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/necrotic-air.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/noxious-caldera.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/old-battle-field.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/protective-aura.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/rat-lich.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/slimey-pool.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/sludgenest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/snowstorm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/spellblaze-scar.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/sub-vault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/thunderstorm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/tombstones.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/weird-pedestals.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/events/whistling-vortex.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/autumn_forest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/basic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/bone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/burntland.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/cave.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/crystal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/elven_forest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/forest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/fortress.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/gothic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/ice.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/icecave.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/jungle.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/jungle_hut.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/lava.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/mountain.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/psicave.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/sand.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/sanddunes.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/slime.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/slimy_walls.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/snowy_forest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/underground_dreamy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/underground_gloomy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/underground_slimy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/void.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/grids/water.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/ant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/aquatic_critter.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/aquatic_demon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/bear.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/bird.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/bone-giant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/canine.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/cold-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/construct.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/crystal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/elven-caster.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/elven-warrior.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/faeros.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/feline.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/fire-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/ghost.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/ghoul.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/gwelgoroth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/horror-corrupted.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/horror-undead.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/horror.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/horror_aquatic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/horror_temporal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/humanoid_random_boss.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/jelly.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/lich.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/losgoroth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/major-demon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/minor-demon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/minotaur.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/molds.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/multihued-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/mummy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/naga.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/ogre.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/ooze.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/orc-gorbat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/orc-grushnak.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/orc-rak-shor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/orc-vor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/orc.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/plant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/ritch.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/rodent.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/sandworm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/shade.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/shertul.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/shivgoroth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/skeleton.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/snake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/snow-giant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/spider.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/storm-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/sunwall-town.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/swarm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/telugoroth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/thieve.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/troll.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/undead-rat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/vampire.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/venom-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/vermin.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/wight.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/wild-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/xorn.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/yaech.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/npcs/ziguranth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/2haxes.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/2hmaces.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/2hswords.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/2htridents.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/axes.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/boss-artifacts-far-east.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/boss-artifacts-maj-eyal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/boss-artifacts.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/bows.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/brotherhood-artifacts.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/cloak.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/cloth-armors.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/digger.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/ammo.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/amulets.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/armor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/belt.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/boots.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/bow.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/charged-attack.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/charged-defensive.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/charged-utility.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/charms.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/cloak.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/digger.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/gloves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/heavy-armor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/helm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/infusions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/light-armor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/light-boots.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/lite.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/massive-armor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/mindstars.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/potions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/ranged.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/rings.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/robe.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/scrolls.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/shield.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/sling.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/staves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/torques-powers.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/totems-powers.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/wands-powers.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/wands.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/weapon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/egos/wizard-hat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/elixir-ingredients.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/gauntlets.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/gem.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/gloves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/heavy-armors.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/heavy-boots.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/helms.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/jewelry.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/knifes.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/leather-belt.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/leather-boots.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/leather-caps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/light-armors.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/lites.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/lore/fun.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/lore/maj-eyal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/lore/misc.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/lore/spellhunt.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/lore/sunwall.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/maces.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/massive-armors.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/mindstars.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/misc-tools.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/money.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/mounts.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/mummy-wrappings.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/objects-far-east.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/potions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/quest-artifacts.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/random-artifacts.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/random-artifacts/ammo.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/random-artifacts/generic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/random-artifacts/gloves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/random-artifacts/melee.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/random-artifacts/ranged.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/random-artifacts/shields.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/random-artifacts/staves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/rods.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/scrolls.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/shields.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/slings.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/special-artifacts.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/staves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/swords.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/torques.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/totems.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/wands.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/whips.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/wizard-hat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/world-artifacts-far-east.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/world-artifacts-maj-eyal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/objects/world-artifacts.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/stores/basic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/alarm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/annoy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/complex.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/elemental.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/natural_forest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/store.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/teleport.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/temporal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/general/traps/water.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/ingredients.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/keybinds/tome.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/age-allure.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/age-pyre.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/angolwen.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/ardhungol.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/arena.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/blighted-ruins.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/daikara.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/derth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/dreadfell.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/elvala.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/fearscape.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/fun.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/high-peak.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/infinite-dungeon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/iron-throne.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/keepsake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/kor-pul.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/last-hope.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/maze.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/misc.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/noxious-caldera.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/old-forest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/orc-prides.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/rhaloren.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/sandworm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/scintillating-caves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/shertul.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/slazish.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/spellblaze.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/spellhunt.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/sunwall.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/tannen.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/trollmire.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/lore/zigur.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/towns/gates-of-morning.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/towns/last-hope.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/towns/shatur.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/auto/greater/living-weapons.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/auto/greater/orc-hatred.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/auto/greater/portal-vault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/auto/greater/sleeping-dragons.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/auto/lesser/loot-vault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/collapsed-tower.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/greater-crypt.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/grushnak-armory.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/lava_island.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/renegade-pyromancers.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/renegade-undead.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/renegade-wyrmics.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/test.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/vaults/trickvault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/wilderness/eyal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/zones/collapsed-tower.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/zones/halfling-ruins-last.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/zones/shertul-fortress-caldizar.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/zones/tannen-tower-1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/zones/tempest-peak-top.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/maps/zones/valley-moon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/mapscripts/lib/subvault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/anti-antimagic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/antimagic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/arena-unlock.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/arena.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/brotherhood-of-alchemists.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/charred-scar.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/deep-bellow.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/dreadfell.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/east-portal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/escort-duty.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/grave-necromancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/high-peak.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/infinite-dungeon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/keepsake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/kryl-feijan-escape.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/lichform.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/lightning-overload.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/lost-merchant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/love-melinda.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/lumberjack-cursed.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/mage-apprentice.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/master-jeweler.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/orb-command.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/orc-breeding-pits.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/orc-hunt.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/orc-pride.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/paradoxology.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/pre-charred-scar.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/rel-tunnel.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/ring-of-blood.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/shertul-fortress.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/spydric-infestation.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/staff-absorption.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-allied.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-archmage.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-dwarf.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-point-zero.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-shaloren.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-sunwall.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-thaloren.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-undead.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/start-yeek.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/starter-zones.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/strange-new-world.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/temple-of-creation.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/temporal-rift.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/trollmire-treasure.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/tutorial-combat-stats.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/tutorial.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/void-gerlyk.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/west-portal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/quests/wild-wild-east.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/resources.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/rooms/greater_vault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/rooms/lesser_vault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/celestial.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/chants.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/circles.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/combat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/crusader.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/eclipse.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/glyphs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/guardian.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/hymns.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/light.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/other.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/radiance.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/star-fury.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/sun.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/sunlight.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/celestial/twilight.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/age-manipulation.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/anomalies.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/blade-threading.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/bow-threading.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/chronomancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/chronomancy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/energy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/fate-weaving.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/flux.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/gravity.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/guardian.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/induced-phenomena.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/matter.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/other.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/spacetime-folding.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/spacetime-weaving.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/speed-control.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/spellbinding.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/stasis.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/temporal-archery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/temporal-combat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/temporal-hounds.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/threaded-combat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/timeline-threading.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/chronomancy/timetravel.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/blight.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/blood.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/bone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/corruptions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/curses.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/hexes.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/plague.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/reaving-combat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/rot.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/sanguisuge.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/scourge.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/shadowflame.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/torment.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/vile-life.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/corruptions/vim.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/ambush.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/artifice.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/called-shots.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/cunning.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/dirty.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/lethality.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/poisons.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/scoundrel.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/shadow-magic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/stealth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/survival.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/tactical.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cunning/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/advanced-shadowmancy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/cursed-aura.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/cursed-form.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/cursed.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/dark-figure.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/dark-sustenance.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/darkness.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/endless-hunt.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/fears.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/force-of-will.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/gestures.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/gloom.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/one-with-shadows.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/predator.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/primal-magic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/punishments.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/rampage.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/shadows.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/slaughter.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/strife.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/cursed/traveler.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/antimagic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/call.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/cold-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/corrosive-blades.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/dwarven-nature.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/earthen-power.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/earthen-vines.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/eyals-fury.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/fire-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/fungus.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/gifts.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/harmony.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/higher-draconic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/malleable-body.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/mindstar-mastery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/moss.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/mucus.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/ooze.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/oozing-blades.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/sand-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/slime.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/storm-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/summon-advanced.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/summon-augmentation.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/summon-distance.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/summon-melee.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/summon-utility.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/gifts/venom-drake.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/misc/horrors.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/misc/inscriptions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/misc/misc.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/misc/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/misc/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/misc/races.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/misc/tutorial.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/absorption.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/augmented-mobility.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/augmented-striking.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/charged-mastery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/discharge.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/distortion.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/dream-forge.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/dream-smith.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/dreaming.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/feedback.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/finer-energy-manipulations.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/focus.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/grip.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/kinetic-mastery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/mental-discipline.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/mentalism.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/nightmare.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/other.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/projection.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/psi-archery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/psi-fighting.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/psionic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/psychic-assault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/slumber.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/solipsism.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/telekinetic-combat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/thermal-mastery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/thought-forms.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/trance.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/psionic/voracity.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/acid-alchemy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/advanced-golemancy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/advanced-necrotic-minions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/aegis.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/aether.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/air.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/animus.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/arcane.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/conveyance.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/deeprock.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/divination.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/earth.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/eldritch-shield.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/eldritch-stone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/energy-alchemy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/enhancement.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/explosives.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/fire-alchemy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/fire.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/frost-alchemy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/golem.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/golemancy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/grave.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/ice.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/meta.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/necrosis.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/necrotic-minions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/nightfall.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/phantasm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/shades.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/spells.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/staff-combat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/stone-alchemy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/stone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/storm.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/temporal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/war-alchemy.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/water.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/spells/wildfire.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/2h-assault.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/2hweapon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/acrobatics.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/agility.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/archery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/assassination.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/battle-tactics.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/bloodthirst.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/bow.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/buckler-training.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/combat-techniques.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/combat-training.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/conditioning.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/dualweapon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/duelist.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/excellence.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/field-control.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/finishing-moves.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/grappling.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/magical-combat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/marksmanship.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/mobility.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/munitions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/pugilism.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/reflexes.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/skirmisher-slings.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/sling.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/sniper.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/strength-of-the-berserker.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/superiority.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/techniques.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/throwing-knives.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/thuggery.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/tireless-combatant.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/unarmed-discipline.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/unarmed-training.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/warcries.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/techniques/weaponshield.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/uber/const.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/uber/cun.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/uber/dex.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/uber/mag.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/uber/str.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/uber/uber.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/uber/wil.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/undeads/ghoul.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/undeads/lich.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/undeads/skeleton.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/talents/undeads/undeads.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-archmage.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-arena.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-chronomancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-cornac.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-dwarf.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-ghoul.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-halfling.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-higher.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-infinite-dungeon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-ogre.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-orc.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-shalore.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-skeleton.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-sunwall.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-thalore.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-tutorial-combat-stats.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-tutorial.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/intro-yeek.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/message-last-hope.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/done.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/levelup.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/melee.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/move.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/quests.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/ranged.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc0.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc10.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc11.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc2.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc3.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc4.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc5.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc6.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc7.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc8.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-calc/calc9.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/informed1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale10.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale11.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale12.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale2.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale3.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale4.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale5.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale6.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale7.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale8.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-scale/scale9.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier0.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier10.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier11.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier12.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier2.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier3.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier4.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier5.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier6.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier7.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier8.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-tier/tier9.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed0.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed2.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed3.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed4.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed5.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed6.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed7.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats-timed/timed8.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/mechintro.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats2.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats3.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats4.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats5.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats6.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats7.1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats7.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats8.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/stats/stats9.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/tactics1.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/tactics2.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/talents.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/tutorial/terrain.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-adventurer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-afflicted_cursed.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-afflicted_doomed.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-birth_transmo_chest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-birth_zigur_sacrifice.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-campaign_arena.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-campaign_infinite_dungeon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-chronomancer_paradox_mage.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-chronomancer_temporal_warden.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-corrupter_corruptor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-corrupter_reaver.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-cosmetic_bikini.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-cosmetic_class_alchemist_drolem.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-cosmetic_race_dwarf_female_beard.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-cosmetic_race_human_redhead.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-difficulty_insane.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-difficulty_madness.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-divine_anorithil.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-divine_sun_paladin.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-mage.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-mage_cryomancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-mage_geomancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-mage_necromancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-mage_pyromancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-mage_tempest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-psionic_mindslayer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-psionic_solipsist.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-race_ogre.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-rogue_marauder.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-rogue_poisons.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-rogue_skirmisher.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-undead_ghoul.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-undead_skeleton.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-warrior_brawler.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-wilder_oozemancer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-wilder_stone_warden.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-wilder_summoner.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-wilder_wyrmic.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/texts/unlock-yeek.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/timed_effects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/timed_effects/floor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/timed_effects/magical.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/timed_effects/mental.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/timed_effects/other.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/timed_effects/physical.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/wda/eyal.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/abashed-expanse/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/abashed-expanse/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/abashed-expanse/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/abashed-expanse/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ancient-elven-ruins/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ancient-elven-ruins/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ancient-elven-ruins/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ancient-elven-ruins/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ardhungol/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ardhungol/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ardhungol/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ardhungol/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/arena-unlock/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/arena-unlock/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/arena-unlock/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/arena/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/arena/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/arena/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/arena/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/blighted-ruins/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/blighted-ruins/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/blighted-ruins/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/blighted-ruins/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/briagh-lair/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/briagh-lair/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/briagh-lair/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/charred-scar/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/charred-scar/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/charred-scar/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/conclave-vault/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/conclave-vault/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/conclave-vault/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/conclave-vault/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/crypt-kryl-feijan/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/crypt-kryl-feijan/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/crypt-kryl-feijan/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/crypt-kryl-feijan/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/daikara/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/daikara/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/daikara/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/daikara/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/deep-bellow/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/deep-bellow/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/deep-bellow/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/deep-bellow/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/demon-plane-spell/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/demon-plane-spell/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/demon-plane/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/demon-plane/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/demon-plane/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/demon-plane/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreadfell-ambush/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreadfell-ambush/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreadfell-ambush/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreadfell/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreadfell/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreadfell/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreadfell/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreams/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreams/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreams/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreamscape-talent/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/dreamscape-talent/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/eidolon-plane/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/eidolon-plane/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/eruan/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/eruan/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/eruan/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/flooded-cave/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/flooded-cave/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/gladium/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/gladium/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/golem-graveyard/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/golem-graveyard/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/golem-graveyard/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/golem-graveyard/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/gorbat-pride/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/gorbat-pride/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/gorbat-pride/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/gorbat-pride/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/grushnak-pride/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/grushnak-pride/mapscripts/last.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/grushnak-pride/mapscripts/main.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/grushnak-pride/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/grushnak-pride/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/grushnak-pride/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/halfling-ruins/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/halfling-ruins/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/halfling-ruins/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/heart-gloom/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/heart-gloom/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/heart-gloom/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/high-peak/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/high-peak/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/high-peak/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/high-peak/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/illusory-castle/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/infinite-dungeon/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/infinite-dungeon/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/infinite-dungeon/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/keepsake-meadow/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/keepsake-meadow/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/keepsake-meadow/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/keepsake-meadow/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/keepsake-meadow/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/lake-nur/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/lake-nur/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/lake-nur/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/last-hope-graveyard/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/last-hope-graveyard/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/last-hope-graveyard/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/last-hope-graveyard/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/mark-spellblaze/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/mark-spellblaze/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/mark-spellblaze/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/mark-spellblaze/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/maze/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/maze/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/maze/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/maze/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/murgol-lair/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/murgol-lair/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/norgos-lair/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/norgos-lair/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/noxious-caldera/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/noxious-caldera/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/noxious-caldera/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/noxious-caldera/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/old-forest/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/old-forest/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/old-forest/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/old-forest/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/orc-breeding-pit/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/orc-breeding-pit/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/orc-breeding-pit/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/paradox-plane/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/paradox-plane/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/paradox-plane/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/paradox-plane/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/rak-shor-pride/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/rak-shor-pride/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/rak-shor-pride/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/reknor-escape/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/reknor-escape/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/reknor-escape/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/reknor-escape/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/reknor/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/reknor/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/reknor/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/reknor/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/rhaloren-camp/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/rhaloren-camp/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/rhaloren-camp/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ring-of-blood/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ring-of-blood/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ring-of-blood/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ring-of-blood/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ritch-tunnels/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ritch-tunnels/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ruined-dungeon/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ruined-dungeon/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ruins-kor-pul/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ruins-kor-pul/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/ruins-kor-pul/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/sandworm-lair/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/sandworm-lair/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/sandworm-lair/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/scintillating-caves/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/scintillating-caves/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/scintillating-caves/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shadow-crypt/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shadow-crypt/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shadow-crypt/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shertul-fortress-caldizar/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shertul-fortress-caldizar/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shertul-fortress-caldizar/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shertul-fortress/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shertul-fortress/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shertul-fortress/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/shertul-fortress/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/slazish-fen/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/slazish-fen/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/slazish-fen/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/slazish-fen/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/slime-tunnels/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/slime-tunnels/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/sludgenest/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/sludgenest/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/sludgenest/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/south-beach/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/south-beach/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/south-beach/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/south-beach/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/stellar-system-shandral/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/stellar-system-shandral/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tannen-tower/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tannen-tower/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tannen-tower/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tannen-tower/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/telmur/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/telmur/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/telmur/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tempest-peak/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tempest-peak/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/temple-of-creation/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/temple-of-creation/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/temple-of-creation/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/temporal-reprieve-talent/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/temporal-rift/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/temporal-rift/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/temporal-rift/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/temporal-rift/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/test/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/thieves-tunnels/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/thieves-tunnels/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-angolwen/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-angolwen/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-angolwen/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-angolwen/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-angolwen/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-derth/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-derth/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-derth/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-derth/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-elvala/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-elvala/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-elvala/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-elvala/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-gates-of-morning/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-gates-of-morning/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-gates-of-morning/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-gates-of-morning/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-irkkk/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-irkkk/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-irkkk/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-irkkk/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-iron-council/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-iron-council/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-iron-council/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-iron-council/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-last-hope/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-last-hope/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-last-hope/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-last-hope/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-last-hope/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-lumberjack-village/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-lumberjack-village/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-point-zero/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-point-zero/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-point-zero/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-point-zero/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-point-zero/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-shatur/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-shatur/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-shatur/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-shatur/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-zigur/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-zigur/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-zigur/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-zigur/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/town-zigur/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/trollmire/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/trollmire/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/trollmire/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/trollmire/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tutorial-combat-stats/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tutorial-combat-stats/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tutorial-combat-stats/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tutorial-combat-stats/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tutorial-combat-stats/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tutorial/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tutorial/traps.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/tutorial/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/unhallowed-morass/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/unhallowed-morass/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/unhallowed-morass/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/unhallowed-morass/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/unremarkable-cave/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/unremarkable-cave/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/valley-moon-caverns/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/valley-moon-caverns/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/valley-moon-caverns/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/valley-moon/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/valley-moon/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/valley-moon/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/void/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/void/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/void/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/vor-armoury/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/vor-armoury/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/vor-armoury/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/vor-pride/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/vor-pride/npcs.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/vor-pride/objects.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/vor-pride/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/wilderness/grids.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//data/zones/wilderness/zone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ArenaFinish.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/Birther.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/CharacterSheet.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/CursedAuraSelect.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/DeathDialog.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/Donation.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/GameOptions.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/GraphicMode.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/LevelupDialog.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/LorePopup.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/MapMenu.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/PartyOrder.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/PartySelect.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/PartySendItem.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/QuestPopup.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/SentientWeapon.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowAchievements.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowChatLog.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowEquipInven.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowEquipment.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowIngredients.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowInventory.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowLore.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowMap.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/ShowStore.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/TrapsSelect.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/UberTalent.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/UnlockDialog.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/UseItemDialog.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/UseTalents.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/AdvanceActor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/AdvanceZones.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/AlterFaction.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/ChangeZone.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/CreateItem.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/CreateTrap.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/DebugMain.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/Endgamify.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/GrantQuest.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/PlotTalent.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/RandomActor.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/RandomObject.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/SpawnEvent.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/debug/SummonCreature.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/orders/Behavior.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/orders/Talents.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/shimmer/CommonData.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/shimmer/Shimmer.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/shimmer/ShimmerDemo.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/shimmer/ShimmerOther.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/shimmer/ShimmerOutfits.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/shimmer/ShimmerRemoveSustains.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/talents/ChronomancyContingency.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/talents/ChronomancyEmpower.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/talents/ChronomancyExtension.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/talents/ChronomancyMatrix.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/talents/ChronomancyQuicken.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//dialogs/talents/MagicalCombatArcaneCombat.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//init.lua"
-
-
-
-------------------------------------------------
-section "game/modules/tome//load.lua"
-
-
-
-------------------------------------------------
 section "game/modules/tome/ai/escort.lua"
 
 
@@ -6391,6 +56,10 @@ section "game/modules/tome/class/Actor.lua"
 t("hostile", "적대적인", "_t")
 t("female", "여성", "_t")
 t("male", "남성", "_t")
+t("LEVEL UP!", "레벨업!", "_t")
+t("unarmed", "unarmed", "_t")
+t("activates", "발동", "_t")
+t("deactivates", "해제", "_t")
 t("Effective talent level: ", "효과 기술 레벨: ", "_t")
 t("Passive", "지속형", "_t")
 t("Sustained", "유지형", "_t")
@@ -6400,7 +69,15 @@ t("Feedback cost: ", "반작용 비용: ", "_t")
 t("Fortress Energy cost: ", "요새 에너지 비용: ", "_t")
 t("Sustain feedback cost: ", "반작용 유지 비용: ", "_t")
 t("Cancel", "취소", "_t")
+t("%s drops on the floor: %s.", "%s %s 바닥에 버렸다.", "logSeen", nil, {"는","을"})
 t("Transmogrification Chest", "변환 상자", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/class/EscortRewards.lua"
+
+t("mental", "정신적 효과", "_t")
+t("spell", "주문", "_t")
 
 
 ------------------------------------------------
@@ -6413,6 +90,7 @@ section "game/modules/tome/class/Game.lua"
 
 t("Loading level", "현재 층 불러오는 중", "_t")
 t("Please wait while loading the level...", "현재 층을 불러오는 중 입니다...", "_t")
+t("something", "물체", "_t")
 t("unknown", "알 수 없음", "_t")
 t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했습니다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.", "logMessage")
 t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입혔습니다.", "logMessage")
@@ -6447,12 +125,17 @@ t("%s's %s", "%s 의 %s", "tformat")
 ------------------------------------------------
 section "game/modules/tome/class/NPC.lua"
 
+t("Target: ", "대상: ", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/Object.lua"
 
+t("%s is still recharging.", "%s 재충전 중입니다.", "logPlayer", nil, {"는"})
+t("%s can not be used anymore.", "%s 더 이상 사용할 수 없습니다.", "logPlayer", nil, {"는"})
 t("unknown", "알 수 없음", "_t")
+t("Talent", "기술", "_t")
+t("It can be used to %s, with %d charges out of %d.", "%s 사용할 수 있습니다. %d 중에서 %d 번 남았습니다.", "tformat", {1,3,2}, {"를"})
 t("Talent %s", "기술 %s", "tformat")
 
 
@@ -6465,11 +148,16 @@ t("Name", "이름", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/PartyMember.lua"
 
+t("default", "기본", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/Player.lua"
 
+t("%s available", "%s 사용 가능", "tformat")
+t("at %s", "%s에 도착", "tformat")
+t("Item not found", "아이템 없음", "_t")
+t("Pickup", "줍기", "_t")
 
 
 ------------------------------------------------
@@ -6508,6 +196,7 @@ section "game/modules/tome/class/World.lua"
 section "game/modules/tome/class/WorldNPC.lua"
 
 t("hostile", "적대적인", "_t")
+t("Target: ", "대상: ", "_t")
 
 
 ------------------------------------------------
@@ -6571,6 +260,10 @@ section "game/modules/tome/class/interface/PartyLore.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/PlayerExplore.lua"
 
+t("Running...", "움직이는 중...", "_t")
+t("You are exploring, press any key to stop.", "탐험 중입니다. 멈추시려면 아무 키나 누르세요.", "_t")
+t("at %s", "%s에 도착", "tformat")
+t("the path is blocked", "이 길은 막혔습니다", "_t")
 
 
 ------------------------------------------------
@@ -7339,6 +1032,7 @@ section "game/modules/tome/class/interface/WorldAchievements.lua"
 ------------------------------------------------
 section "game/modules/tome/class/uiset/Classic.lua"
 
+t("Game: ", "게임: ", "_t")
 
 
 ------------------------------------------------
@@ -7349,6 +1043,7 @@ section "game/modules/tome/class/uiset/ClassicPlayerDisplay.lua"
 ------------------------------------------------
 section "game/modules/tome/class/uiset/Minimalist.lua"
 
+t("Game: ", "게임: ", "_t")
 
 
 ------------------------------------------------
@@ -7492,7 +1187,6 @@ t("Failed to save any escorted adventurers.", "모험가를 호위하는 데 전
 t("Guiding Hand", "이끄는 손", "achievement name")
 t("Saved all escorted adventurers.", "모험가를 호위하는 데 전부 성공했다.", "_t")
 t("Earth Master", "대지의 달인", "achievement name")
-t("Killed Harkor'Zun and unlocked Stone magic.", "하코르'준을 죽이고 바위 마법을 해금했다.", "_t")
 t("Kill Bill!", "킬 빌!", "achievement name")
 t("Killed Bill in the Trollmire without leveling beyond your starting level.", "게임을 시작한 뒤 레벨을 올리지 않은 채로 Trollmire에서 빌을 처치했다.", "_t")
 t("Atamathoned!", "'아타마쏜'당하다!", "achievement name")
@@ -7985,6 +1679,8 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 ------------------------------------------------
 section "game/modules/tome/data/birth/descriptors.lua"
 
+t("base", "베이스", "birth descriptor name")
+t("Tutorial", "튜토리얼", "birth descriptor name")
 
 
 ------------------------------------------------
@@ -8004,7 +1700,9 @@ t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#경험치 패널티:#LIGHT_
 ------------------------------------------------
 section "game/modules/tome/data/birth/races/elf.lua"
 
+t("Shalore", "샬로레", "birth descriptor name")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 12%", "_t")
+t("Thalore", "탈로레", "birth descriptor name")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 11", "_t")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 0%", "_t")
@@ -8416,7 +2114,6 @@ section "game/modules/tome/data/chats/escort-quest-start.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/escort-quest.lua"
 
-t("spell", "주문", "_t")
 
 
 ------------------------------------------------
@@ -8626,6 +2323,7 @@ section "game/modules/tome/data/chats/shertul-fortress-shimmer.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-training-orb.lua"
 
+t("From 0 to 100", "0부터 100까지", "_t")
 t("[Leave the orb alone]", "[오브를 두고 떠난다.]", "_t")
 
 
@@ -9119,6 +2817,7 @@ t("way to the next level", "다음 층으로의 길", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/cave.lua"
 
+t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("floor", "바닥", "entity type")
 
@@ -9127,22 +2826,29 @@ t("floor", "바닥", "entity type")
 section "game/modules/tome/data/general/grids/crystal.lua"
 
 t("wall", "벽", "entity type")
+t("crystals", "수정", "entity name")
 t("floor", "바닥", "entity type")
+t("underground", "지하", "entity subtype")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/elven_forest.lua"
 
+t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
+t("tree", "나무", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/forest.lua"
 
+t("tree", "나무", "entity name")
+t("flower", "꽃", "entity name")
 t("wall", "벽", "entity type")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("floor", "바닥", "entity type")
+t("grass", "잔디", "entity subtype")
 t("way to the next level", "다음 층으로의 길", "entity name")
 
 
@@ -9197,9 +2903,11 @@ t("floor", "바닥", "entity type")
 section "game/modules/tome/data/general/grids/jungle.lua"
 
 t("wall", "벽", "entity type")
+t("tree", "나무", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("floor", "바닥", "entity type")
+t("grass", "잔디", "entity subtype")
 t("way to the next level", "다음 층으로의 길", "entity name")
 
 
@@ -9217,6 +2925,18 @@ section "game/modules/tome/data/general/grids/lava.lua"
 
 t("wall", "벽", "entity type")
 t("floor", "바닥", "entity type")
+
+
+------------------------------------------------
+section "game/modules/tome/data/general/grids/malrok_walls.lua"
+
+t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("previous level", "이전 층", "entity name")
+t("next level", "다음 층", "entity name")
+t("floor", "바닥", "entity name")
+t("door", "문", "entity name")
+t("wall", "벽", "entity type")
+t("open door", "열린 문", "entity name")
 
 
 ------------------------------------------------
@@ -9240,6 +2960,7 @@ t("floor", "바닥", "entity type")
 section "game/modules/tome/data/general/grids/sand.lua"
 
 t("wall", "벽", "entity type")
+t("tree", "나무", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("way to the next level", "다음 층으로의 길", "entity name")
@@ -9250,6 +2971,7 @@ t("floor", "바닥", "entity type")
 section "game/modules/tome/data/general/grids/sanddunes.lua"
 
 t("wall", "벽", "entity type")
+t("tree", "나무", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("floor", "바닥", "entity type")
@@ -9303,6 +3025,7 @@ section "game/modules/tome/data/general/grids/underground_dreamy.lua"
 
 t("wall", "벽", "entity type")
 t("floor", "바닥", "entity type")
+t("underground", "지하", "entity subtype")
 
 
 ------------------------------------------------
@@ -9310,6 +3033,7 @@ section "game/modules/tome/data/general/grids/underground_gloomy.lua"
 
 t("wall", "벽", "entity type")
 t("floor", "바닥", "entity type")
+t("underground", "지하", "entity subtype")
 
 
 ------------------------------------------------
@@ -9317,6 +3041,7 @@ section "game/modules/tome/data/general/grids/underground_slimy.lua"
 
 t("wall", "벽", "entity type")
 t("floor", "바닥", "entity type")
+t("underground", "지하", "entity subtype")
 
 
 ------------------------------------------------
@@ -9332,6 +3057,7 @@ section "game/modules/tome/data/general/grids/water.lua"
 t("door", "문", "entity name")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
+t("deep water", "깊은 물", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("previous level", "이전 층", "entity name")
 t("floor", "바닥", "entity type")
@@ -9352,32 +3078,46 @@ section "game/modules/tome/data/general/npcs/aquatic_critter.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/aquatic_demon.lua"
 
+t("demon", "악마", "entity subtype")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/bear.lua"
 
+t("animal", "동물", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/bird.lua"
 
+t("animal", "동물", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/bone-giant.lua"
 
 t("giant", "거인", "entity subtype")
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/canine.lua"
 
+t("animal", "동물", "entity type")
+t("canine", "개", "entity subtype")
+t("wolf", "늑대", "entity name")
+t("Lean, mean, and shaggy, it stares at you with hungry eyes.", "비쩍 마르고 털이 텁수룩한 것이 굶주린 눈으로 바라보고 있다.", "_t")
+t("white wolf", "흰 늑대", "entity name")
+t("warg", "와르그", "entity name")
+t("It is a large wolf with eyes full of cunning.", "교활한 눈을 가진 늑대다.", "_t")
+t("fox", "여우", "entity name")
+t("The quick brown fox jumps over the lazy dog.", "빠른 갈색 여우가 게으른 개를 뛰어 넘는다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/cold-drake.lua"
 
+t("dragon", "용", "entity type")
 
 
 ------------------------------------------------
@@ -9415,22 +3155,26 @@ t("fire", "화염", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/feline.lua"
 
+t("animal", "동물", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/fire-drake.lua"
 
+t("dragon", "용", "entity type")
 t("fire", "화염", "entity subtype")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/ghost.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/ghoul.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
@@ -9447,6 +3191,7 @@ section "game/modules/tome/data/general/npcs/horror-corrupted.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/horror-undead.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
@@ -9486,6 +3231,7 @@ section "game/modules/tome/data/general/npcs/jelly.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/lich.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
@@ -9496,11 +3242,13 @@ section "game/modules/tome/data/general/npcs/losgoroth.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/major-demon.lua"
 
+t("demon", "악마", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/minor-demon.lua"
 
+t("demon", "악마", "entity type")
 
 
 ------------------------------------------------
@@ -9512,16 +3260,19 @@ t("giant", "거인", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/molds.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/multihued-drake.lua"
 
+t("dragon", "용", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/mummy.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
@@ -9590,11 +3341,13 @@ section "game/modules/tome/data/general/npcs/rodent.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/sandworm.lua"
 
+t("dragon", "용", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/shade.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
@@ -9611,11 +3364,18 @@ t("ice", "얼음", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/skeleton.lua"
 
+t("skeleton", "스켈레톤", "entity subtype")
+t("undead", "언데드", "entity type")
+t("degenerated skeleton warrior", "낡은 스켈레톤 전사", "entity name")
+t("skeleton mage", "스켈레톤 마법사", "entity name")
+t("skeleton warrior", "스켈레톤 전사", "entity name")
+t("armoured skeleton warrior", "무장한 스켈레톤 전사", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/snake.lua"
 
+t("animal", "동물", "entity type")
 
 
 ------------------------------------------------
@@ -9633,6 +3393,7 @@ section "game/modules/tome/data/general/npcs/spider.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/storm-drake.lua"
 
+t("dragon", "용", "entity type")
 t("storm", "폭풍", "entity subtype")
 
 
@@ -9665,21 +3426,34 @@ t("humanoid", "인간형", "entity type")
 section "game/modules/tome/data/general/npcs/troll.lua"
 
 t("giant", "거인", "entity type")
+t("troll", "트롤", "entity subtype")
+t("forest troll", "숲 트롤", "entity name")
+t("Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.", "녹색 피부를 가진 거대하고 못생긴 이족 보행체가 사마귀투성이인 녹색 주먹을 꽉 쥐며 당신을 응시한다.", "_t")
+t("stone troll", "돌 트롤", "entity name")
+t("A giant troll with scabrous black skin. With a shudder, you notice the belt of dwarf skulls around his massive waist.", "우둘투둘한 검은 거죽을 가진 자이언트 트롤. 당신은 전율하면서 그의 거대한 허리춤에 달린 허리띠가 드워프 해골로 만들어졌다는 것을 알아차린다.", "_t")
+t("cave troll", "동굴 트롤", "entity name")
+t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "이 거대한 트롤은 거대한 창을 휘두르면서 이상하게도 그 살찐 눈에 총명한 표정을 짓는다.", "_t")
+t("mountain troll", "산 트롤", "entity name")
+t("mountain troll thunderer", "산 트롤 번개부르미", "entity name")
+t("A large and athletic troll with an extremely tough and warty hide.", "아주 질기고 사마귀 투성이 거죽을 지닌 크고 건강한 트롤.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/undead-rat.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/vampire.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/venom-drake.lua"
 
+t("dragon", "용", "entity type")
 
 
 ------------------------------------------------
@@ -9690,11 +3464,13 @@ section "game/modules/tome/data/general/npcs/vermin.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/wight.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/wild-drake.lua"
 
+t("dragon", "용", "entity type")
 
 
 ------------------------------------------------
@@ -9878,6 +3654,7 @@ section "game/modules/tome/data/general/objects/egos/infusions.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/light-armor.lua"
 
+t("troll", "트롤", "entity keyword")
 
 
 ------------------------------------------------
@@ -9894,6 +3671,7 @@ t("sun", "태양", "entity keyword")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/massive-armor.lua"
 
+t("dragon", "용", "entity keyword")
 
 
 ------------------------------------------------
@@ -9926,6 +3704,7 @@ section "game/modules/tome/data/general/objects/egos/robe.lua"
 
 t("fire", "화염", "entity keyword")
 t("light", "빛", "entity keyword")
+t("Angolwen", "앙골웬", "entity keyword")
 t("storm", "폭풍", "entity keyword")
 
 
@@ -9940,6 +3719,7 @@ section "game/modules/tome/data/general/objects/egos/shield.lua"
 t("fire", "화염", "entity keyword")
 t("arcane", "비전", "entity keyword")
 t("temporal", "시간", "entity keyword")
+t("living", "살아있음", "entity keyword")
 t("earth", "대지", "entity keyword")
 
 
@@ -10098,6 +3878,7 @@ section "game/modules/tome/data/general/objects/massive-armors.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/mindstars.lua"
 
+t("living", "살아있음", "entity short_name")
 
 
 ------------------------------------------------
@@ -10256,6 +4037,7 @@ section "game/modules/tome/data/general/objects/world-artifacts.lua"
 t("Radiance", "광휘", "entity name")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
 t("None", "없음", "_t")
+t("something", "물체", "_t")
 
 
 ------------------------------------------------
@@ -10540,6 +4322,7 @@ section "game/modules/tome/data/lore/blighted-ruins.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/daikara.lua"
 
+t("daikara", "다이카라", "newLore category")
 
 
 ------------------------------------------------
@@ -10972,6 +4755,8 @@ section "game/modules/tome/data/maps/zones/halfling-ruins-last.lua"
 ------------------------------------------------
 section "game/modules/tome/data/maps/zones/shertul-fortress-caldizar.lua"
 
+t("Control Room", "제어실", "_t")
+t("Exploratory Farportal", "탐험용 장거리 관문", "_t")
 
 
 ------------------------------------------------
@@ -11044,6 +4829,7 @@ t("Back and there again", "다시 또 그곳에", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/quests/escort-duty.lua"
 
+t("something", "물체", "_t")
 
 
 ------------------------------------------------
@@ -11278,6 +5064,9 @@ section "game/modules/tome/data/quests/tutorial-combat-stats.lua"
 ------------------------------------------------
 section "game/modules/tome/data/quests/tutorial.lua"
 
+t("Tutorial", "튜토리얼", "_t")
+t("You must venture in the heart of the forest and kill the Lone Wolf, who randomly attacks villagers.", "당신은 숲의 최심부를 향해 모험하여, 마을 사람들 아무나 공격하는 외톨이 늑대를 죽여야 합니다.", "_t")
+t("Tutorial: Movement", "튜토리얼: 움직이기", "_t")
 
 
 ------------------------------------------------
@@ -11715,9 +5504,6 @@ t([[A magical zone of Sunlight appears around you, healing and shielding all wit
 		추가로 영역 내의 어둠을 몰아냅니다.
 		마법 능력치에 따라 회복량이 증가합니다.]], "tformat")
 t("Barrier", "방벽", "talent name")
-t([[A protective shield forms around you that lasts for up to 10 turns and negates %d damage.
- 		The total damage the barrier can absorb will increase with your Spellpower and can crit.]], [[10턴간 유지되는 수호의 방벽을 생성하여 최대 %d 피해를 흡수합니다.
-		주문력에 따라 방벽의 피해 흡수량이 증가하고 치명타가 발생할 수 있습니다.]], "tformat")
 t("Providence", "섭리", "talent name")
 t("Places you under the protection of a ray of sunlight. For %d turns, the light removes a single negative effect from you every turn.", "햇빛의 가호 아래에 자리잡습니다. 가호는 %d턴간 유지되며, 매 턴 부정적 효과를 하나 정화합니다.", "tformat")
 
@@ -12113,6 +5899,7 @@ section "game/modules/tome/data/talents/corruptions/scourge.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/corruptions/shadowflame.lua"
 
+t("Fearscape", "공포의 영역", "talent name")
 
 
 ------------------------------------------------
@@ -12215,7 +6002,7 @@ t([[Learn how to enhance your Deadly Poison, adding additional effects. Each lev
 	무기에 바르는 독을 바꾸는 것은 턴을 소모하지 않고, 은신을 해제하지도 않습니다.
 	한번에 두 가지의 독을 바를 수 있습니다; 세 번째 독을 바르면 기존에 발려있는 독 중 하나가 무작위로 취소됩니다.]], "tformat")
 t("Venomous Strike", "맹독성 타격", "talent name")
-t("#GREEN#%s's %s is disrupted by crippling poison!", "#GREEN#%s %s 방해성 독에 의해 방해받았다!", "logSeen", nil, {"의","는"})
+t("#GREEN#%s's %s is disrupted by crippling poison!", "#GREEN#%s의 %s 방해성 독에 의해 방해받았다!", "logSeen", nil, {[2]="는"})
 t([[Numbing Poison - Reduces global speed by %d%% for 5 turns.
 		Insidious Poison - Applies a standard poison that deals %0.2f nature damage over 5 turns.
 		Crippling Poison - Places %d talents on cooldown for %d turns.
@@ -12620,6 +6407,7 @@ t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/misc.lua"
 
+t("base", "베이스", "talent category")
 
 
 ------------------------------------------------
@@ -12627,9 +6415,11 @@ section "game/modules/tome/data/talents/misc/npcs.lua"
 
 t("spell", "주문", "talent category")
 t("other", "다른", "_t")
+t("undead", "언데드", "talent category")
 t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", "logSeen", nil, {"가"})
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("something", "물체", "_t")
 t("You cannot be stealthy with such heavy armour on!", "중갑을 장비한 채로는 은신할 수 없습니다!", "logPlayer")
 t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.", "logPlayer")
 
@@ -12658,6 +6448,7 @@ t("ogre", "오우거", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/tutorial.lua"
 
+t("Shove", "밀치기", "talent name")
 
 
 ------------------------------------------------
@@ -12872,6 +6663,11 @@ t("trap", "함정", "_t")
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/spells/age-of-dusk.lua"
+
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/spells/air.lua"
 
 t("Lightning", "번개", "talent name")
@@ -12916,12 +6712,23 @@ section "game/modules/tome/data/talents/spells/conveyance.lua"
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/spells/death.lua"
+
+t("Utterly Destroyed", "완전히 파괴되다", "talent name")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/spells/deeprock.lua"
 
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/divination.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/dreadmaster.lua"
 
 
 
@@ -12949,6 +6756,11 @@ t("%s's %s", "%s 의 %s", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/enhancement.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/eradication.lua"
 
 
 
@@ -12991,6 +6803,11 @@ section "game/modules/tome/data/talents/spells/frost-alchemy.lua"
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/spells/glacial-waste.lua"
+
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/spells/golem.lua"
 
 
@@ -13011,14 +6828,6 @@ section "game/modules/tome/data/talents/spells/grave.lua"
 section "game/modules/tome/data/talents/spells/ice.lua"
 
 t("Freeze", "빙결", "talent name")
-t([[Condenses ambient water on a target, freezing it for %d turns and damaging it for %0.2f.
-		If this is used on a friendly target the cooldown is reduced by 33%%.%s
-		The damage will increase with your Spellpower.]], [[공기 중의 수분을 응집시킨 뒤 얼려서 대상을 %d 턴 간 빙결시키고 %0.2f의 피해를 줍니다.
-		아군에게 사용하면 재사용 대기시간이 33%%.%s 감소합니다.
-		피해량은 주문력이 비례합니다.]], "tformat")
-t("\
-Affects all creatures in radius 2.", "\
-대상 주위 반경 2칸 내에 영향을 줍니다.", "_t")
 t("Frozen Ground", "얼어붙은 대지", "talent name")
 t([[Blast a wave of cold all around you with a radius of %d, doing %0.2f cold damage and freezing creatures to the ground for 4 turns.
 		Affected creatures can still act, but cannot move.
@@ -13053,6 +6862,21 @@ t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%%
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/spells/master-necromancer.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/master-of-bones.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/master-of-flesh.lua"
+
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/spells/meta.lua"
 
 t("Disperse Magic", "마법 분산", "talent name")
@@ -13065,13 +6889,11 @@ t("Spellcraft", "주문학", "talent name")
 t("Quicken Spells", "빠른 주문", "talent name")
 t("Reduces the cooldown of all spells by %d%%.", "모든 주문의 재사용 대기시간이 %d%% 감소합니다.", "tformat")
 t("Metaflow", "초월의 흐름", "talent name")
-t("Your mastery of arcane flows allow you to reset the cooldown of up to %d of your spells (that don't have a fixed cooldown) of tier %d or less.", "비전의 흐름을 깨달아 %d개의 주문의 재사용 대기시간을 초기화합니다. (재사용 대기시간이 고정되어 있는 주문은 초기화하지 않음) %d 등급 이하의 주문만 초기화합니다.", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/necrosis.lua"
 
-t("Lichform", "리치 형상", "_t")
 
 
 ------------------------------------------------
@@ -13090,9 +6912,18 @@ section "game/modules/tome/data/talents/spells/phantasm.lua"
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/spells/rime-wraith.lua"
+
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/spells/shades.lua"
 
-t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/spectre.lua"
+
 
 
 ------------------------------------------------
@@ -13161,20 +6992,13 @@ t("Golem basic capacity.", "골렘 기본 능력.", "_t")
 t("Drolem basic capacity.", "드롤렘 기본 능력.", "_t")
 t("drolem", "드롤렘", "_t")
 t("golem", "골렘", "talent category")
-t("Create and empower dumb undead minions.", "멍청한 언데드 하수인을 만들고 강화합니다.", "_t")
-t("necrotic minions", "사령의 하수인", "_t")
-t("Create and empower powerful undead minions.", "강력한 언데드 하수인을 만들고 강화합니다.", "_t")
-t("advanced necrotic minions", "고급 사령의 하수인", "_t")
 t("Manipulate darkness itself to slaughter your foes.", "어둠 그 자체를 조종해 적을 학살합니다.", "_t")
 t("nightfall", "황혼", "_t")
-t("Invoke and control shades.", "그림자를 사용하고 조종합니다.", "_t")
-t("shades", "그림자", "_t")
-t("Gain control over death, eventually turning into a lich.", "죽음에 대한 통제력을 얻고 최종적으로는 리치로 변신합니다.", "_t")
-t("necrosis", "사령술", "_t")
 t("Use the rotting cold doom of the tomb to fell your foes.", "묘지의 차갑고 부패한 힘을 사용해 적을 쓰러뜨립니다.", "_t")
 t("grave", "묘지", "_t")
 t("Crush the souls of your foes to improve yourself.", "적의 영혼을 짓뭉개고 스스로를 강화합니다.", "_t")
 t("animus", "증오", "_t")
+t("necrosis", "사령술", "_t")
 t("Infuse arcane forces into your shield.", "방패에 비전의 힘을 주입합니다.", "_t")
 t("eldritch shield", "엘드리치 방패", "_t")
 t("Summon stony spikes imbued with various powers.", "다양한 힘이 주입된 암석 기둥을 소환합니다.", "_t")
@@ -13183,8 +7007,6 @@ t("Harness the power of the world to turn into a Deeprock Form.", "세상의 힘
 t("deeprock", "기반암", "_t")
 t("spell", "주문", "talent category")
 t("Necrotic Minion", "사령의 하수인", "_t")
-t("#{bold}#%s decays into a pile of ash!#{normal}#", "#{bold}#%s 썩어 문드러졌습니다!#{normal}#", "logSeen", nil, {"가"})
-t("A soul returns to %s.", "영혼이 %s에 돌아갑니다.", "logPlayer")
 
 
 ------------------------------------------------
@@ -13852,6 +7674,9 @@ t("Skeleton", "스켈레톤", "talent name")
 ------------------------------------------------
 section "game/modules/tome/data/talents/undeads/undeads.lua"
 
+t("base", "베이스", "_t")
+t("skeleton", "스켈레톤", "_t")
+t("undead", "언데드", "talent category")
 
 
 ------------------------------------------------
@@ -13937,6 +7762,31 @@ section "game/modules/tome/data/texts/intro-tutorial-combat-stats.lua"
 ------------------------------------------------
 section "game/modules/tome/data/texts/intro-tutorial.lua"
 
+t([[#LIGHT_GREEN#Welcome to Tales of Maj'Eyal!#LAST#
+
+This tutorial will present you with a short quest to familiarise yourself with the game.
+You are a Human adventurer sent into the forest by the local village to dispose of the "Lone Wolf".
+
+This tutorial character is more powerful than a normal starting character and has infinite lives.
+A normal character has limited lives, and once you run out, you stay dead (unless you found or accomplished things that allow you to resurrect).
+
+During this tutorial you will be guided by dialog boxes such as this one, explaining how things work.
+Dialog boxes can be dismissed by pressing Escape or clicking outside of their zone (or on the title bar).
+
+Now press #LIGHT_BLUE#escape#LAST# or #LIGHT_BLUE#click outside#LAST# this dialog to close it and proceed.
+]], [[#LIGHT_GREEN#마즈'에이알의 이야기에 어서 오십시오!#LAST#
+
+이 튜토리얼은 당신이 게임에 익숙해질 수 있도록 짧은 퀘스트를 제공할 것입니다.
+당신은 어떤 마을에서 "외톨이 늑대" 를 처리하기 위해 숲으로 보낸 인간 모험가입니다.
+
+이 튜토리얼 캐릭터는 평범한 시작 캐릭터보다 강하며 목숨도 무제한입니다.
+평범한 캐릭터는 목숨 개수가 제한되어 있고, 목숨을 다 쓰게 되면 죽은 채로 남게 됩니다(당신이 부활할 수 있게 해 주는 물건을 찾아냈거나 얻어내지 않은 이상은요).
+
+이번 튜토리얼 동안, 당신은 이런 대화 상자로 뭐가 어떻게 돌아가는지에 대한 설명과 안내를 보게 될 것입니다.
+대화 상자는 ESC 키를 누르거나 상자 밖을 눌러서 없앨 수 있습니다.
+
+이제 #LIGHT_BLUE#ESC#LAST#나 #LIGHT_BLUE#대화 상자 바깥#LAST#을 눌러서 창을 닫고 진행하세요.
+]], "_t")
 
 
 ------------------------------------------------
@@ -13952,101 +7802,411 @@ section "game/modules/tome/data/texts/message-last-hope.lua"
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/combat-stats-intro.lua"
 
+t([[Onward! The #GOLD#Dungeon of Adventurer Enlightenment#WHITE# awaits you!
+]], [[계속 나아가세요! #GOLD#모험가 계몽의 던전#WHITE#이 당신을 기다리고 있습니다!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/done.lua"
 
+t([[#GOLD#Congratulations !#WHITE#
+
+You have completed this small tutorial, and should now know the basics of ToME4. You are ready to step forward into the world to find glory, treasures and be mercilessly slaughtered by hordes of creatures you thought you could handle!
+During this tutorial some creatures were adjusted to the need of the teachings, beware, in the real world trolls are not usually this nice!
+
+If you need a reminder of which key does what, you can access the game menu by pressing #GOLD#Escape#WHITE# and checking the key binds (you can also adjust them to your needs).
+
+As this is probably your first time with the game you will find there is a limited number of races and classes available to play, many many more do exist but you will unlock them while playing.
+
+Now go boldly and remember: #GOLD#Have fun!#WHITE#
+Press Escape, save & exit and create a new character!
+]], [[#GOLD#축하합니다 !#WHITE#
+
+당신은 이 간단한 튜토리얼을 완수하였고, 아마 이제 ToME4의 기본을 알게 되었을 것입니다. 당신은 영광과 보물을 찾아 세계로 나아갈 준비가 되었고, 또한 당신이 감당할 수 있다고 생각했던 수많은 생명체들에게 무자비하게 학살당할 준비도 되었습니다!
+이 튜토리얼은 배우는 게 목적이기 때문에, 몇몇 생명체들은 약간의 조정을 거친 것이었습니다. 조심하세요, 진짜 세계의 트롤들은 보통 이렇게 다정하진 않답니다!
+
+당신이 어떤 키가 무슨 기능이었는지 기억이 안 난다면, #GOLD#ESC#WHITE# 키를 눌러 게임 메뉴로 가서 키 설정을 확인할 수 있습니다 (필요하다면 조정도 가능하지요).
+
+이게 아마 당신의 첫 번째 플레이일 것이기 때문에, 당장 게임에 쓸 수 있는 종족과 직업들이 몇 가지 안 된다는 걸 알게 될 겁니다. 종족과 직업들은 어마무시하게 많지만, 당신은 게임 플레이 중에 그것들을 해금하게 될 겁니다.
+
+이제 앞으로 담대하게 나아가세요. 그리고 기억하세요, #GOLD#재밌게 즐겨요!#WHITE#
+ESC 키를 누르고, 저장과 종료를 누른 다음 새 캐릭터를 만드세요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/levelup.lua"
 
+t([[In ToME4 a character's power depends on her/his level: players can get up to level 50.
+
+Each level brings more life and resources (like stamina, mana, etc.) and different kinds of points that can improve your character:
+* #GOLD#Stat points#WHITE#: They allow you to raise the six main stats: Strength, Dexterity, Magic, Willpower, Cunning and Constitution. You get 3 points per level.
+* #GOLD#Class talent points#WHITE#: Class talents define the core functions of your class. You gain 1 point every level, plus 1 extra point on multiples of 5.
+* #GOLD#Generic talent points#WHITE#: Generic talents provide utility and/or more power, but are not always specific to your class. You gain 1 point on levels that aren't multiples of 5.
+* #GOLD#Category talent points#WHITE#: They allow you to improve your mastery of a talent category (increasing the power of all talents inside) or to learn a new talent category.
+
+Levels are gained when experience reaches 100%. You gain experience from killing a hostile creature whose level is similar to yours.
+
+To open the character levelup screen either press 'p' or right-click on yourself and choose 'Levelup'.
+
+Now open the levelup screen and assign your points.
+]], [[ToME4에서 캐릭터의 힘은 그녀의/그의 레벨에 의존하고, 플레이어는 레벨 50까지 달성할 수 있습니다.
+
+각 레벨마다 더 많은 생명력과 원천력(체력이나 마나 같은 것들)을 얻을 수 있고 또한 다음과 같은, 당신의 캐릭터를 성장시킬 수 있는 다양한 점수들을 획득할 수 있습니다.
+* #GOLD#능력치 점수#WHITE#: 여섯 가지 주 능력치인 힘, 민첩, 마법, 의지, 교활, 건강을 증가시킬 수 있습니다. 각 레벨마다 3점을 얻습니다.
+* #GOLD#직업기술 점수#WHITE#: 직업 기술은 당신 직업의 핵심 기능입니다. 각 레벨마다 1점을 얻고, 5의 배수 레벨마다 1점을 추가로 얻습니다.
+* #GOLD#일반기술 점수#WHITE#: 일반 기술은 더 많은 유용한 능력을 제공하지만, 항상 당신의 직업과 관련이 있지는 않습니다. 각 레벨마다 1점을 얻지만, 5의 배수 레벨에서는 얻을 수 없습니다.
+* #GOLD#기술계열 점수#WHITE#: 이 점수는 당신이 어떤 기술계열의 숙련도를 증가시키거나 (해당 기술계열에 속한 모든 기술의 효과가 상승합니다), 새로운 기술계열을 배우는 데에 사용할 수 있습니다.
+
+경험치가 100%에 도달하면 레벨이 올라갑니다. 당신과 비슷한 레벨의 적대적인 생명체를 죽이면 경험치를 얻습니다.
+
+캐릭터 레벨업 화면을 열려면 'p'를 누르거나 당신을 우클릭하고 '레벨업' 을 선택하세요.
+
+이제 레벨업 화면을 열고 점수들을 투자하세요.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/melee.lua"
 
+t([[Melee attacks work like movement. Just move in your foe's direction, or click it, to attack it.
+If it is not hostile you will talk to it, or switch places with it.
+
+Melee combat mainly uses five stats:
+* #GOLD#Accuracy#WHITE#: Your chance to hit.
+* #GOLD#Damage#WHITE#: How much damage you do per blow.
+* #GOLD#Defense#WHITE#: Your chance to avoid attacks.
+* #GOLD#Armour#WHITE#: Flat reduction to damage done.
+* #GOLD#Armour Penetration#WHITE#: How much of the target's armour you can ignore.
+
+You can view those stats, and many others, in the character sheet.
+Press 'C' or right-click your character and choose 'Inspect Creature' to open the character sheet.
+
+You have spotted some hostile jellies guarding an item.
+Attack them!
+]], [[근접 공격은 움직이는 것과 비슷합니다. 그냥 상대방 방향으로 움직이거나, 그것을 클릭하면 공격할 수 있습니다.
+만약 상대방이 적대적이지 않다면 당신은 공격 대신 대화를 하게 되거나, 서로 위치를 바꾸게 됩니다.
+
+근접 전투는 주로 다음과 같은 다섯 가지 능력치를 사용합니다.
+* #GOLD#정확도#WHITE#: 당신이 공격을 맞힐 수 있는 확률입니다.
+* #GOLD#피해량#WHITE#: 당신이 매 공격마다 가할 수 있는 피해량입니다.
+* #GOLD#회피도#WHITE#: 당신이 공격을 피할 수 있는 확률입니다.
+* #GOLD#방어도#WHITE#: 일정한 피해 감소량입니다.
+* #GOLD#방어도 관통력#WHITE#: 당신이 대상의 방어도를 얼마만큼 무시할 수 있는가를 나타냅니다.
+
+이런 능력치나 그 외 다른 것들은 캐릭터 시트에서 확인할 수 있습니다.
+캐릭터 시트를 열려면 'C' 를 누르거나 당신의 캐릭터를 우클릭하고 '생명체 조사'를 선택하세요.
+
+당신은 어떤 아이템을 지키고 있는 적대적인 젤리 몇 마리를 발견했습니다.
+젤리들을 공격하세요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/move.lua"
 
+t([[Movement is simple. You can use the keyboard, the mouse, or both.
+
+#GOLD#Keyboard:#WHITE#
+- Press the arrow keys or keypad to move in the given direction.
+- Press shift + the arrow keys or keypad to run in the given direction.
+- Press 5 on the keypad to stay put for a turn (doing nothing).
+- Press z to "auto explore" until you find something dangerous or interesting.
+
+#GOLD#Mouse:#WHITE#
+- Click on a spot on the map to move there.
+- If there are no monsters and the way is known you will run there.
+- If there are unknown or interesting grids along the way you may stop.
+- If there is a hostile creature in sight you will only move one grid per click, to prevent stupid deaths.
+- Clicking on yourself will make you stay put for a turn (doing nothing).
+
+You can scroll the map by pressing shift and click+dragging with your mouse, or pressing "L" and using shift+the movement keys.
+
+Now close this dialog and go west (left) until you arrive in a bigger area.
+]], [[움직이는 것은 간단합니다. 당신은 키보드나 마우스를, 또는 그 둘 모두를 쓸 수 있습니다.
+
+#GOLD#키보드:#WHITE#
+- 방향키나 숫자 패드를 누르면 해당 방향으로 움직입니다.
+- Shift + 방향키를 누르면 해당 방향으로 뛰어갑니다.
+- 숫자 패드의 5를 누르면 한 턴을 넘깁니다 (아무것도 하지 않습니다).
+- z를 누르면 뭔가 위험한 것이나 흥미로운 것을 찾을 때 까지 "자동 탐색" 을 합니다.
+
+#GOLD#마우스:#WHITE#
+- 맵의 한 지점을 클릭하면 그곳으로 이동합니다.
+- 만약 몬스터가 없으며, 지점까지의 길을 알고 있다면 그곳으로 뛰어갑니다.
+- 만약 지점까지의 길을 모르거나, 경로에 흥미로운 것이 있다면 중간에 멈출 수도 있습니다.
+- 만약 시야 안에 적대적인 생명체가 있다면, 클릭 한 번당 한 칸만 움직일 수 있습니다. 당신이 멍청하게 죽는 것을 방지하기 위함입니다.
+- 당신을 클릭하면 한 턴을 넘깁니다 (아무것도 하지 않습니다).
+
+Shift를 누른 상태에서 마우스로 클릭 + 드래그하거나, "L" 을 누르고 Shift + 이동 키를 누르는 것으로 맵을 스크롤할 수 있습니다.
+
+이제 이 대화창을 닫고, 더 넓은 구역에 도착할 때 까지 서쪽(왼쪽)으로 가세요.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/objects.lua"
 
+t([[During your adventures you will find items.
+Each item has a weight. How much you can carry depends on your Strength: this is your maximum encumbrance.
+To pickup an item, press 'g' or right click on yourself and choose 'Pickup item' while standing over it.
+To view your inventory, press 'i' or right-click on yourself and choose 'Inventory'.
+
+Your inventory is split in two panels: your equipped items and your backpack.
+To select an item, use the movement keys and press enter, click it with the mouse, or press the key next to its name.
+
+The item you've found is an infusion. Infusions and runes allow you to bind a power to your body, gaining new abilities.
+Infusions come from the powers of nature while runes use magic and have unlimited uses once inscribed.
+This infusion inscribes you with the power to regenerate your life at will. You can only have a finite number of inscriptions, but they can easily be replaced.
+
+Now move on to the west.
+]], [[모험을 하며 당신은 여러 아이템들을 찾아내게 될 것입니다.
+각 아이템들은 무게가 있습니다. 당신이 얼마나 들고 다닐 수 있는지는 당신의 힘 능력치와 직결되고, 이것이 당신의 최대 소지 무게입니다.
+아이템을 주우려면 그 위에 서서 'g' 를 누르거나 당신을 우클릭하여 '물건 줍기' 를 선택하세요.
+당신의 소지품을 보려면 'i' 를 누르거나 당신을 우클릭하고 '소지품' 을 선택하세요.
+
+당신의 소지품은 당신이 장비하고 있는 아이템들과 당신의 배낭, 두 부분으로 구분됩니다.
+아이템을 선택하려면 이동 키를 이용한 뒤 Enter를 누르거나, 마우스로 클릭하거나, 아이템 이름 옆의 키를 누르세요.
+
+방금 당신이 발견한 아이템은 주입물입니다. 주입물과 룬은 당신의 신체에 힘을 부여하여 새로운 능력을 얻을 수 있게 해 줍니다.
+주입물은 자연으로부터 오는 힘이고, 룬은 마법의 힘입니다. 두 가지 모두 한 번 새기면 영구적으로 사용할 수 있습니다.
+이 주입물은 당신에게 생명력을 재생시킬 수 있는 힘을 새겨줍니다. 당신이 쓸 수 있는 각인의 개수는 제한되어 있지만, 각인들은 다른 것으로 쉽게 바꿀 수 있습니다.
+
+이제 서쪽으로 나아가세요.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/quests.lua"
 
+t([[During your adventures you will find quests.
+A quest can come from performing an action, finding an item, speaking to somebody, and more.
+
+You can view your current quests by pressing 'j' or right-clicking yourself.
+
+Once a quest is finished or failed it will disappear from the quest log. Most quests in ToME are optional, if you don't think you can survive one, don't do it.
+
+When this tutorial started you were tasked to kill the Lone Wolf, you are nearing its position.
+#GOLD#Beware and fight with honour!#WHITE#
+]], [[모험을 하며 당신은 여러 퀘스트들을 찾아내게 될 것입니다.
+퀘스트는 어떤 행동을 취하거나, 어떤 아이템을 찾아내거나, 누군가와 대화하는 등 다양한 방법으로 일어납니다.
+
+현재 받고 있는 퀘스트들은 'j' 를 누르거나 당신을 우클릭하여 볼 수 있습니다.
+
+퀘스트를 완수하거나 실패하게 되면 그 퀘스트는 퀘스트 로그에서 사라지게 됩니다. ToME의 퀘스트들 대부분은 선택사항이니, 만약 어떤 걸 하다가 죽을 것 같다면, 하지 마세요.
+
+이 튜토리얼을 시작할 때 당신은 외톨이 늑대를 죽이라는 과제를 받았었고, 그 늑대가 지금 근처에 있습니다.
+#GOLD#조심하시고, 명예롭게 싸우세요!#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/ranged.lua"
 
+t([[Ranged combat typically revolves around firing arrows, slinging stones, or casting spells.
+You have been given a bow, which you wield with both hands.
+Arrows are infinite but need reloading from time to time, by waiting, resting or walking around. You can add special arrows to your quiver for extra damage and/or effects.
+To fire an arrow, use the Shoot talent. The target interface will pop-up, just like for other talents.
+
+To equip your bow and arrows:
+* Open your inventory.
+* Click on the Off Set button to switch weapons.
+* Select your bow and arrows, wield them.
+
+There are trolls to the west. Go use your bow and arrows to kill them!
+]], [[원거리 전투는 일반적으로 다들 그러듯이 화살 쏘기, 돌팔매질, 아니면 주문 사용 같은 것입니다.
+당신은 양손으로 잡는 활을 받았습니다.
+화살 자체는 무한하지만, 틈틈이 재장전이 필요합니다. 재장전은 대기나 휴식, 걸어다닐 때 합니다. 추가 피해나 효과를 노리고 특수한 화살을 화살통에 추가할 수도 있습니다.
+화살을 쏘려면 사격 기술을 사용하세요. 다른 기술들처럼 조준 인터페이스가 표시될 것입니다.
+
+활과 화살을 장비하려면,
+* 소지품을 여세요.
+* 보조장비 버튼을 클릭해 무기를 바꾸세요.
+* 당신의 활과 화살을 선택하고 장비하세요.
+
+서쪽에 트롤들이 있습니다. 가서 활과 화살로 죽이세요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc0.lua"
 
+t([[It's finally time to stab something.
+
+There's an orc up ahead; make sure you're wearing your #GOLD#Helmet of Accuracy (+6)#WHITE# from earlier, and go attack him!
+]], [[드디어 뭘 좀 찔러 볼 시간이군요.
+
+위쪽에 오크가 있습니다. 미리 얻어 둔 #GOLD#정확도의 투구 (+6)#WHITE#를 장비했는지 확인하시고, 가서 오크를 공격하세요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc1.lua"
 
+t([[Sucker can dodge some.
+
+As you know by now, the game was comparing your #LIGHT_GREEN#Accuracy#WHITE# to the orc's #LIGHT_GREEN#Defense#WHITE# to determine whether your blows landed. Evidently, the comparison did not go well for you.
+
+What is your #LIGHT_GREEN#Accuracy#WHITE#, and what is his #LIGHT_GREEN#Defense#WHITE#?
+]], [[저 놈은 꽤 잘 피하는군요.
+
+아시다시피, 게임은 당신이 공격을 맞힐지 아닐지 결정하기 위해 당신의 #LIGHT_GREEN#정확도#WHITE#와 오크의 #LIGHT_GREEN#회피도#WHITE#를 비교했습니다. 확실히 그 비교는 당신에게 유리하게 돌아간 게 아니었지요.
+
+당신의 #LIGHT_GREEN#정확도#WHITE# 수치는 얼마이고, 오크의 #LIGHT_GREEN#회피도#WHITE# 수치는 얼마입니까?
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc10.lua"
 
+t([[Congratulations! Hopefully this series of obstacles has led you to some conclusions:
+
+1) When comparing #GOLD#combat stat#WHITE# scores, a difference of ten is the magic number that maximizes success.
+
+2) Comparing roughly equal #GOLD#combat stat#WHITE# scores results in a success about half the time.
+
+For the purposes of this tutorial, the maximum success chance is 100%, which will mostly not be the case in the proper game-- but a difference of ten points is still what you're shooting for in order to hit the max, whatever it happens to be.
+
+You might also have concluded that this simple "win by ten points for best results" rule means that maximizing success becomes harder and harder when comparing higher-tier #GOLD#combat stat#WHITE# scores. True enough!
+]], [[축하합니다! 이 일련의 장애물들이 당신이 몇 가지 결론에 도달하게 해 주었기를 바랍니다.
+
+1) #GOLD#전투 능력치#WHITE# 수치를 비교할 때, 10점 차이에서 성공률이 최대가 됩니다.
+
+2) 비교되는 #GOLD#전투 능력치#WHITE# 수치들이 대충 같으면 대부분 성공합니다.
+
+튜토리얼이기 때문에 여기서 최대 성공률은 100%였지만, 실제 게임에서는 보통 불가능한 확률입니다. 하지만 10점 차이는 여전히 어떤 경우에도 성공률을 최대로 만듭니다.
+
+당신이 이런 결론을 지었을지도 모르겠습니다. 이런 "최상의 결과를 위해 10점 차로 이기자" 같은 간단한 규칙은, 더 높은 #GOLD#전투 능력치#WHITE# 수치와 비교를 할 때 성공 확률을 최대로 만드는 게 점점 더 어려워진다는 의미라고. 사실입니다!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc11.lua"
 
+t([[Descend to the penultimate level of the #GOLD#Dungeon of Adventurer Enlightenment#WHITE# to learn all about detrimental #GOLD#timed effects.#WHITE#
+]], [[#GOLD#모험가 계몽의 던전#WHITE#의 끝의 직전 층으로 내려가 해로운 #GOLD#일시적 효과#WHITE#들에 대한 모든 것을 배우세요.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc2.lua"
 
+t([[If you were wearing your #GOLD#Helmet of Accuracy (+6)#WHITE#, then you should have #LIGHT_GREEN#38 Accuracy#WHITE#, while the orc has #LIGHT_GREEN#48 Defense#WHITE#. The difference is ten in the orc's favor, which is apparently too much for you to be able to hit him.
+
+There's another orc ahead with slightly lower defense. Go get him!
+]], [[당신이 #GOLD#정확도의 투구 (+6)#WHITE#를 장비하고 있었다면, 당신은 #LIGHT_GREEN#정확도를 38점#WHITE# 정도 갖고 있을 것인데, 반면에 오크는 #LIGHT_GREEN#회피도를 48점#WHITE# 갖고 있습니다. 오크 쪽이 10점 더 유리하고, 보아하니 당신이 오크를 맞히기에는 차이가 너무 큽니다.
+
+저 앞에 회피도가 살짝 낮은 다른 오크가 있습니다. 가서 그를 처리하세요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc3.lua"
 
+t([[That one you should have been able to occasionally hit, and-- if you were persistent-- kill. 
+
+I hope you took note of its #LIGHT_GREEN#Defense#WHITE# score before it died.
+
+(If not, it was 47, which is nine more than your #LIGHT_GREEN#38 Accuracy#WHITE#)
+]], [[당신은 그 오크를 가끔 맞힐 수 있었고, 당신이 끈질기게 공격했다면 죽일 수도 있었어야 합니다. 
+
+그 오크가 죽기 전에 그의 #LIGHT_GREEN#회피도#WHITE# 수치를 기록해 놓았길 바랍니다.
+
+(만약 기록 못했다면, 47점이었습니다. 당신의 #LIGHT_GREEN#정확도 38점#WHITE#보다 9점 더 컸지요)
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc4.lua"
 
+t([[They were more successful at hitting you, though their damage wasn't enough to be threatening. 
+
+Compare their #LIGHT_GREEN#Accuracy#WHITE#, 14, to your #LIGHT_GREEN#Defense#WHITE#.
+
+Does it seem reasonable that they were hitting you (or missing you) as much as they did?
+]], [[그들의 피해량은 간지러웠을지 몰라도, 그들은 당신을 더 잘 맞혔습니다. 
+
+그들의 #LIGHT_GREEN#정확도#WHITE# 14점과, 당신의 #LIGHT_GREEN#회피도#WHITE#를 비교해 보세요.
+
+그들이 당신을 그만큼 맞힌 것이(또는 그들이 그만큼 못 맞힌 것이) 합리적인 것 같습니까?
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc5.lua"
 
+t([[There's an orc ahead with some prodigous health regeneration.
+
+Compare your #LIGHT_GREEN#Accuracy#WHITE# and #LIGHT_GREEN#Defense#WHITE# to its #LIGHT_GREEN#Defense#WHITE# and #LIGHT_GREEN#Accuracy#WHITE#.
+
+Do you expect to be successful attacking it? 
+
+Do you expect it to be successful attacking you?
+]], [[저 앞에 어처구니없는 생명력 재생 능력을 가진 오크가 있습니다.
+
+당신의 #LIGHT_GREEN#정확도#WHITE#와 #LIGHT_GREEN#회피도#WHITE#를, 그 오크의 #LIGHT_GREEN#회피도#WHITE#와 #LIGHT_GREEN#정확도#WHITE#와 비교해 보세요.
+
+당신이 오크를 성공적으로 공격할 수 있을 것 같습니까? 
+
+그 오크가 당신을 성공적으로 공격할 수 있을 것 같습니까?
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc6.lua"
 
+t([[You've learned Shove, a weak knockback effect.
+
+Which #GOLD#combat stats#WHITE# will get compared when you attempt to Shove somebody?
+
+Try to push your way into the next room!
+]], [[당신은 약한 밀어내기 효과를 내는 밀치기 기술을 배웠습니다.
+
+당신이 누군가를 밀치려 할 때, 어떤 #GOLD#전투 능력치#WHITE#들이 비교될까요?
+
+다음 방으로 밀고 들어가세요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc7.lua"
 
+t([[Did you try shoving both the enemies blocking passage into this room? 
+
+Can you say now which #GOLD#combat stats#WHITE# get compared when you Shove somebody?
+
+
+]], [[이 방으로 오는 길을 막고 있던 적 둘을 모두 밀치려 해 보셨습니까? 
+
+이제 당신이 누군가를 밀치려 할 때 어떤 #GOLD#전투 능력치#WHITE#들이 비교되는지 확실히 알게 되셨습니까?
+
+
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc8.lua"
 
+t([[There's another pesky orc plugging the tunnel to the west, and some new tools in the cave to the north.
+
+Find a means to push that orc out of the way!  
+
+]], [[또 귀찮은 오크가 서쪽으로 가는 터널을 막고 있습니다. 북쪽 동굴에 새로운 도구도 몇 개 있네요.
+
+저 오크를 밀어낼 방법을 찾으세요!  
+
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats-calc/calc9.lua"
 
+t([[Once again, the route ahead is blocked. Find a way through!
+
+]], [[또 다시 길이 막혔습니다. 지나갈 방법을 찾으세요!
+
+]], "_t")
 
 
 ------------------------------------------------
@@ -14290,56 +8450,269 @@ t([[The final three important #GOLD#combat stats#WHITE# of your character are th
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats4.lua"
 
+t([[To summarize the information thus far:
+
+Every being in ToME has eight important #GOLD#combat stats#WHITE# that determine combat success.
+Four of them are offensive...
+#LIGHT_GREEN#Accuracy#WHITE#
+#LIGHT_GREEN#Physical power#WHITE#
+#LIGHT_GREEN#Spellpower#WHITE#
+#LIGHT_GREEN#Mindpower#WHITE#
+
+...and four of them are defensive.
+#LIGHT_GREEN#Defense#WHITE#
+#LIGHT_GREEN#Physical save#WHITE#
+#LIGHT_GREEN#Spell save#WHITE#
+#LIGHT_GREEN#Mental save#WHITE#
+
+]], [[지금까지 소개드린 것들을 정리하면,
+
+ToME의 살아있는 존재들 모두는 전투의 성공을 결정짓는, 여덟 가지의 중요한 #GOLD#전투 능력치#WHITE#들을 가집니다.
+그 중 다음 네 가지는 공격적인 것들이고...
+#LIGHT_GREEN#정확도#WHITE#
+#LIGHT_GREEN#물리력#WHITE#
+#LIGHT_GREEN#주문력#WHITE#
+#LIGHT_GREEN#정신력#WHITE#
+
+...나머지 네 가지는 방어적입니다.
+#LIGHT_GREEN#회피도#WHITE#
+#LIGHT_GREEN#물리내성#WHITE#
+#LIGHT_GREEN#주문내성#WHITE#
+#LIGHT_GREEN#정신내성#WHITE#
+
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats5.lua"
 
+t([[Many times when you perform an attack, or suffer one, the success of the attack is determined by comparing #GOLD#combat stat#WHITE# scores of the attacker and defender. We saw already that physical attacks, such as melee blows or an archer's loosed arrow, involve comparing the attacker's #LIGHT_GREEN#Accuracy#WHITE# and the defender's #LIGHT_GREEN#Defense#WHITE#.
+
+What about the other #GOLD#combat stats#WHITE#?
+
+They're a little harder to pin down. #LIGHT_GREEN#Physical save#WHITE#,  #LIGHT_GREEN#Spell save#WHITE#,  and #LIGHT_GREEN#Mental save#WHITE# are generally used by a defender when there's some sort of unpleasant effect at stake-- say, getting pinned to the ground or blinded or knocked flying. The #GOLD#combat stat#WHITE# used by the attacker in such cases depends on the source of the attack. Let's consider a few examples...
+]], [[당신이 누군가를 공격하거나 공격당할 때 마다, 공격자와 방어자의 #GOLD#전투 능력치#WHITE# 수치들이 비교되고 공격의 성공이 결정됩니다. 우리는 물리 공격들, 예를 들어 근접 공격이나 궁수가 쏜 화살 같은 것들이, 공격자의 #LIGHT_GREEN#정확도#WHITE#와 방어자의 #LIGHT_GREEN#회피도#WHITE#를 비교한다는 것을 이미 살펴 보았습니다.
+
+다른 #GOLD#전투 능력치#WHITE#들은 어떨까요?
+
+이것들은 분명히 하기가 약간 더 어렵습니다. #LIGHT_GREEN#물리내성#WHITE#,  #LIGHT_GREEN#주문내성#WHITE#,  그리고 #LIGHT_GREEN#정신내성#WHITE#은 일반적으로 위험한 방해 상태효과들, 예를 들어 속박이나 실명, 밀려 날아가는 것 같은 것들이 있을 때 방어자가 쓰게 됩니다. 몇몇 경우에서 공격자가 쓰는 #GOLD#전투 능력치#WHITE#는, 공격의 원천에 따라 달라지게 됩니다. 몇 가지 예시를 생각해 봅시다...
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats6.lua"
 
+t([[Suppose you're a berserker, and you attempt to stun an enemy. If you're to succeed, two things must happen:
+
+First, your attack needs to hit! That means comparing your #LIGHT_GREEN#Accuracy#WHITE# to the target's #LIGHT_GREEN#Defense#WHITE#.
+
+Second, the stun must take effect. The source of the stun is you, a rampaging berserker, so we use your #LIGHT_GREEN#Physical power#WHITE#.
+A stun is a physical effect, so we use the target's #LIGHT_GREEN#Physical save#WHITE#. Thus we'll be comparing your #LIGHT_GREEN#Physical power#WHITE# to the target's #LIGHT_GREEN#Physical save#WHITE#.
+
+It seems quite natural to always compare #LIGHT_GREEN#Physical power#WHITE# with #LIGHT_GREEN#Physical save#WHITE#, but let's consider another example. 
+]], [[당신이 광전사이고, 적을 기절시키려 한다고 가정해 봅시다. 당신이 성공하려면, 두 가지 일이 반드시 일어나야 합니다.
+
+우선, 당신의 공격이 명중해야 합니다! 이건 당신의 #LIGHT_GREEN#정확도#WHITE#와 대상의 #LIGHT_GREEN#회피도#WHITE#를 비교한다는 의미입니다.
+
+다음으로, 기절 효과가 나타나야 합니다. 기절 효과의 원천은 당신, 미쳐 날뛰는 중인 광전사이고, 그러므로 우리는 당신의 #LIGHT_GREEN#물리력#WHITE#을 사용합니다.
+기절은 물리 상태효과이므로, 우리는 대상의 #LIGHT_GREEN#물리내성#WHITE#을 사용합니다. 따라서 우리는 당신의 #LIGHT_GREEN#물리력#WHITE# 과 대상의 #LIGHT_GREEN#물리내성#WHITE#을 비교할 겁니다.
+
+#LIGHT_GREEN#물리력#WHITE#은 항상 #LIGHT_GREEN#물리내성#WHITE#과 비교하는 것이 꽤 자연스럽겠지만, 다른 예시를 생각해 봅시다. 
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats7.1.lua"
 
+t([[Finally, suppose you're a rogue, and you use Dual Strike to attempt to knock somebody senseless. 
+
+As with the berserker example, first you must hit, so you compare your #LIGHT_GREEN#Accuracy#WHITE# to the target's #LIGHT_GREEN#Defense#WHITE#.
+
+We can guess now that the target will use their #LIGHT_GREEN#Physical save#WHITE# to attempt to shrug off the stun. But what will you use? You're not getting the job done with raw muscle, like a berserker. You're doing this with finesse, so we'll use your #LIGHT_GREEN#Accuracy#WHITE#.
+]], [[마지막으로, 당신이 도적이고, 이중 타격 기술을 사용하여 누군가를 뻗게 만들려 한다고 가정해 봅시다. 
+
+광전사 예시에서처럼, 우선 당신이 제대로 쳐야 할 것이고, 그러므로 당신은 당신의 #LIGHT_GREEN#정확도#WHITE#와 대상의 #LIGHT_GREEN#회피도#WHITE#를 비교합니다.
+
+이제 우리는 대상이 기절 효과에 저항하기 위해 자신의 #LIGHT_GREEN#물리내성#WHITE#을 사용할 것이라고 짐작할 수 있습니다. 하지만 당신은 어떤 걸 써야 할까요? 당신은 광전사처럼 순수한 근육으로 일을 처리하지는 않습니다. 당신은 기교를 이용해 일을 처리하므로, 우리는 당신의 #LIGHT_GREEN#정확도#WHITE#를 사용할 것입니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats7.lua"
 
+t([[Suppose you're an archmage, and you blast somebody with the Flameshock spell. 
+
+This spell does fire damage, which is determined by your #LIGHT_GREEN#Spellpower#WHITE#. #GOLD#Combat stats#WHITE# are not used to mitigate damage, so the defender is going to take the full force of the spell, barring fire resistance (which is a subject for another tutorial).
+
+The spell will also attempt to stun the target. Stunning, you recall, is a physical effect, so the target defends with their #LIGHT_GREEN#Physical save#WHITE#. However, unlike the previous example, the source of this stun is a spell. You will thus compare your #LIGHT_GREEN#Spellpower#WHITE# to the target's #LIGHT_GREEN#Physical save#WHITE# to determine the success of the stun.
+]], [[당신이 마도사이고, 화염 충격 주문으로 누군가를 날려버린다고 가정해 봅시다. 
+
+이 주문은 당신의 #LIGHT_GREEN#주문력#WHITE#에 의해 결정되는 화염 피해를 줍니다. #GOLD#전투 능력치#WHITE#들은 피해 자체를 줄이는 데에는 사용되지 않으므로, 방어자는 (또 다른 튜토리얼의 주제인)화염 저항이 없다면, 주문의 피해를 온전히 받게 될 것입니다.
+
+또, 이 주문은 대상을 기절시키려 할 것입니다. 당신이 기억하는 것처럼, 기절은 물리 상태효과이므로, 대상은 자신의 #LIGHT_GREEN#물리내성#WHITE#으로 방어하게 됩니다. 하지만 이전 예제와는 다르게, 이 기절의 원천은 주문입니다. 따라서 당신은 기절 효과의 성공을 결정하기 위해 당신의 #LIGHT_GREEN#주문력#WHITE#과 대상의 #LIGHT_GREEN#물리내성#WHITE#을 비교하게 됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats8.lua"
 
+t([[It looks like there are quite a few ways to match up the offensive #GOLD#combat stats#WHITE#...
+#LIGHT_GREEN#Accuracy#WHITE#
+#LIGHT_GREEN#Physical power#WHITE#
+#LIGHT_GREEN#Spellpower#WHITE#
+#LIGHT_GREEN#Mindpower#WHITE#
+
+...with the defensive #GOLD#combat stats#WHITE#.
+#LIGHT_GREEN#Defense#WHITE#
+#LIGHT_GREEN#Physical save#WHITE#
+#LIGHT_GREEN#Spell save#WHITE#
+#LIGHT_GREEN#Mental save#WHITE#
+
+But don't worry. It's usually easy to know what will get used for two reasons:
+
+#GOLD#1)#WHITE#  Defensive #GOLD#combat stats#WHITE# are used quite consistently; physical effects use #LIGHT_GREEN#Physical save#WHITE#, no matter their source. Magical effects use #LIGHT_GREEN#Spell save#WHITE#, no matter their source. Mental effects use #LIGHT_GREEN#Mental save#WHITE#, no matter their source.
+
+#GOLD#2)#WHITE#  For the most part, any given class uses a single offensive #GOLD#combat stat#WHITE#, so there's not much potential for confusion. A berserker will only be using #LIGHT_GREEN#Physical power#WHITE# to apply effects. Similarly, an archmage will only use #LIGHT_GREEN#Spellpower#WHITE#. 
+]], [[보아하니 이런 공격적인 #GOLD#전투 능력치#WHITE#들을...
+#LIGHT_GREEN#정확도#WHITE#
+#LIGHT_GREEN#물리력#WHITE#
+#LIGHT_GREEN#주문력#WHITE#
+#LIGHT_GREEN#정신력#WHITE#
+
+...이런 방어적인 #GOLD#전투 능력치#WHITE#들과 짝지을 수 있는 경우의 수가 꽤 많은 것 같습니다.
+#LIGHT_GREEN#회피도#WHITE#
+#LIGHT_GREEN#물리내성#WHITE#
+#LIGHT_GREEN#주문내성#WHITE#
+#LIGHT_GREEN#정신내성#WHITE#
+
+하지만 걱정하지 마세요. 다음 두 가지 이유 덕분에 어떤 것이 쓰일지는 일반적으로 알기 쉽습니다.
+
+#GOLD#1)#WHITE#  방어적인 #GOLD#전투 능력치#WHITE#들은 꽤 일관적으로 사용되는데, 물리 상태효과에겐 원천과 관계없이 #LIGHT_GREEN#물리내성#WHITE#을 씁니다. 주문 상태효과에겐 원천과 관계없이 #LIGHT_GREEN#주문내성#WHITE#을 씁니다. 정신 상태효과에겐 원천과 관계없이 #LIGHT_GREEN#정신내성#WHITE#을 씁니다.
+
+#GOLD#2)#WHITE#  대부분의 경우, 어떤 특정 직업은 단 하나의 공격적인 #GOLD#전투 능력치#WHITE#를 사용하기 때문에, 헷갈릴 일이 그렇게 많지는 않습니다. 광전사는 상태효과를 적용하기 위해 #LIGHT_GREEN#물리력#WHITE#만 쓸 것입니다. 비슷하게, 마도사는 #LIGHT_GREEN#주문력#WHITE#만 쓸 것입니다. 
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/stats/stats9.lua"
 
+t([[Now you know the basics: what these eight #GOLD#combat stats#WHITE# mean and when they're used. It's time to look at some numbers.
+
+Head north to the stairs, and descend into the #GOLD#Dungeon of Adventurer Enlightenment.#WHITE#
+]], [[당신은 이제 여덟 가지 #GOLD#전투 능력치#WHITE#들의 의미와 그것들이 어떨 때 쓰이는지에 대해 알게 되었습니다. 이제 숫자들을 좀 살펴볼 시간이군요.
+
+북쪽의 계단으로 가서, #GOLD#모험가 계몽의 던전#WHITE#으로 내려가세요.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/tactics1.lua"
 
+t([[You have found a nest of snakes! If you let them surround you, you might be in trouble!
+A basic tactic is to never get surrounded, do not hesitate to backtrack a bit to a safer spot.
+
+#GOLD#Always control the fight.#WHITE#
+
+After the combat you will probably be low on health, you can rest for a while to regain lost health and resources.
+Either press 'R' or right-click on yourself to rest. You will rest until fully restored or until a creature disturbs you.
+
+Now take a few steps back so you only have to fight one snake at a time, and you should survive.
+Remember to use your talents, infusions and runes to win the fight.
+]], [[당신은 뱀들의 둥지를 찾아내셨습니다! 만약 뱀들이 당신을 에워싸도록 내버려 둔다면, 당신은 위험에 처할 수도 있겠지요!
+기본적인 전술은 절대로 에워싸이지 않는 것입니다. 더 안전한 장소를 찾기 위해 왔던 길을 조금 되돌아가는 걸 꺼리지 마십시오.
+
+#GOLD#항상 싸움을 제어하세요.#WHITE#
+
+전투가 끝나면 아마 당신의 생명력은 낮아졌을 것이고, 당신은 잃어버린 생명력과 원천력을 회복하기 위해 잠깐 쉴 수 있습니다.
+휴식하려면 'R'을 누르거나 당신을 마우스 우클릭하세요. 다른 생물이 방해하지 않는 한, 완전히 회복될 때 까지 휴식할 것입니다.
+
+이제 한번에 뱀 한 마리와만 싸울 수 있게 몇 걸음 뒤로 가서, 살아남으세요.
+싸움에서 승리하기 위해 당신의 기술들과 주입물들, 그리고 룬들을 사용하는 걸 잊지 마세요.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/tactics2.lua"
 
+t([[A skeleton mage just fired a spell at you.
+While the fireworks look nice, you don't want to get hit too much.
+When under the fire of archers or spell casters always try to break line of sight with them, they will be forced to come to you (unless they are smart).
+#GOLD#Take cover: Never let them get a clean shot!#WHITE#
+
+Now take cover and wait for the skeleton.
+]], [[스켈레톤 마법사가 방금 당신에게 주문을 쏘았습니다.
+불꽃놀이는 멋지지만, 당신은 너무 많이 맞고 싶진 않겠지요.
+궁수들이나 주문 시전자들의 공격에 노출되고 있다면, 항상 그들의 시야에서 벗어나려 노력하세요. 그들이 (똑똑하지 않다면) 당신에게 가까이 갈 수 밖에 없을 것입니다.
+#GOLD#엄폐하세요, 절대 그들에게 유효타를 허용하지 마세요!#WHITE#
+
+이제 엄폐해서 저 스켈레톤을 기다리세요.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/talents.lua"
 
+t([[You now possess the Shield Pummel and Shield Wall talents.
+Talents show up in the lower left part of the screen with their assigned hotkey.
+You can right-click on a talent to remove it from the list, or you can add talents by pressing 'M' to get the talents list and then pressing a hotkey.
+Hotkeys by default are the 1 to 0 keys, and can also be assigned to items.
+
+You can use a talent by pressing its hotkey, selecting it from the talents list, clicking on it in the lower right corner, or right-clicking on the map.
+
+Talents come in three types:
+* #GOLD#Active#WHITE#: A talent that is activated when you use it and has an instantaneous effect.
+* #GOLD#Sustained#WHITE#: A talent that must be turned on and lasts until it is turned off. Usually this will reduce your maximum resource available (stamina in this case).
+* #GOLD#Passive#WHITE#: A talent that provides an ever-present benefit.
+
+Some talents require a target, when you use them the interface will change to let you select the target:
+* #GOLD#Using the keyboard#WHITE#: Pressing a direction key will shift between possible targets. Pressing shift+direction will move freely to any spot. Enter or space will confirm the target.
+* #GOLD#Using the mouse#WHITE#: Moving your mouse will move the target around. Left-click will confirm it.
+
+Now go forward and try using your talents:
+* #GOLD#Shield Pummel#WHITE#: This talent will attack the target trying to stun it, rendering much slower and less able to harm you for a few turns.
+* #GOLD#Shield Wall#WHITE#: This talent will increase your defense and armour but reduce your damage.
+* #GOLD#Block#WHITE#: This talent is given by your shield, letting you block the next blow and triggering a deadly counterstrike opportunity.
+]], [[당신은 이제 방패 치기 기술과 방패의 벽 기술을 갖게 되었습니다.
+기술들은 그것들에게 지정된 단축키와 함께, 화면의 왼쪽 아래 부분에 표시됩니다.
+당신은 기술을 우클릭하여 그 목록에서 뺄 수 있고, 'M'을 눌러 별도의 기술 목록을 불러온 후 어떤 기술 위에 마우스를 올린 상태에서 단축키를 누르는 것으로 그 기술을 단축키 목록에 추가할 수 있습니다.
+기본 단축키들은 1 키 부터 0 키 까지이고, 아이템들에도 단축키를 지정할 수 있습니다.
+
+특정 기술을 사용하려면 그 기술의 단축키를 누르거나, 기술 목록에서 선택하거나, 화면 왼쪽 아래 부분에서 클릭하거나, 아니면 맵에서 마우스 우클릭하세요.
+
+기술들에는 세 가지 유형이 있는데,
+* #GOLD#발동형#WHITE#: 당신이 사용했을 때 발동되며 즉각적인 효과를 내는 기술입니다.
+* #GOLD#유지형#WHITE#: 한 번 활성화되면 비활성화될 때 까지 효과가 유지되는 기술입니다. 이 유형은 일반적으로 당신이 사용 가능한 원천력의 최대치를(이 경우에는 체력을) 감소시킵니다.
+* #GOLD#지속형#WHITE#: 이로운 효과를 항상 제공하는 기술입니다.
+
+어떤 기술들은 기술의 대상이 필요합니다. 그런 기술을 사용하면 당신이 커서로 대상을 지정할 수 있도록 인터페이스가 바뀔 것인데,
+* #GOLD#키보드를 사용할 때#WHITE#: 방향키를 눌러 지정 가능한 대상들을 차례차례 가리킬 수 있습니다. Shift+방향키를 누르면 커서를 움직여, 아무 지점이나 대상으로 지정할 수 있습니다. Enter나 Space를 눌러 커서 위치로 대상을 확정합니다.
+* #GOLD#마우스를 사용할 때#WHITE#: 마우스 커서의 위치를 따라 대상 커서가 움직이며, 좌클릭으로 커서 위치로 대상을 확정합니다.
+
+이제 앞으로 나아가 당신의 기술들을 시험해 보세요.
+* #GOLD#방패 치기#WHITE#: 이 기술은 대상을 공격하고 기절시켜, 대상을 몇 턴간 매우 느리게 만들고 대상이 당신을 해치기 어렵게 만듭니다.
+* #GOLD#방패의 벽#WHITE#: 이 기술은 당신의 회피도와 방어도를 증가시키지만 동시에 당신의 공격력을 감소시킵니다.
+* #GOLD#막기#WHITE#: 이 기술은 당신의 방패가 제공하는 기술이며, 다음 번에 받는 공격을 막고 적에게 치명적인 반격을 가할 기회를 얻을 수 있습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/tutorial/terrain.lua"
 
+t([[During your adventures you will encounter a variety of terrains you can pass on: grass, sand, water, lava, ...
+
+Some of those terrains have innate penalties or tricks. You will have to learn them and how to deal with them.
+
+You are about to enter a pond of water; you will not be able to breath inside. When you are in an area where you cannot breathe, an "Air" counter will appear on the left side of the screen. Do not let it reach zero or you will die.
+
+Now go to the other side of the pond.
+]], [[모험을 하는 동안 당신은 풀밭이나 모래, 물, 용암 등과 같은, 지나갈 수 있는 다양한 지형들을 맞닥뜨리게 될 것입니다.
+
+이런 지형들 중 몇몇은 불이익이나 특수한 기믹들을 갖고 있습니다. 당신은 이런 지형들 자체와, 그 지형들을 어떻게 이용하는지에 대해 배워야 할 것입니다.
+
+당신은 연못으로 들어가려 하고 있고, 그 안에서는 숨을 쉴 수 없게 될 것입니다. 당신이 숨을 쉴 수 없는 영역에 있다면, "호흡" 수치가 화면 왼쪽에 나타날 것입니다. 호흡 수치가 0이 되면 죽게 되니, 그 수치가 0으로 떨어지지 않게 하세요.
+
+이제 연못의 반대편으로 가세요.
+]], "_t")
 
 
 ------------------------------------------------
@@ -14575,6 +8948,7 @@ t("Bathe in Light", "빛의 세례", "_t")
 t("celestial", "천공", "effect subtype")
 t("light", "빛", "effect subtype")
 t("fire", "화염", "effect subtype")
+t("undead", "언데드", "effect subtype")
 t("phantasm", "환영", "effect subtype")
 
 
@@ -14582,6 +8956,7 @@ t("phantasm", "환영", "effect subtype")
 section "game/modules/tome/data/timed_effects/mental.lua"
 
 t("Bloodbath", "유혈사태", "_t")
+t("summon", "summon", "effect subtype")
 t("fire", "화염", "effect subtype")
 
 
@@ -14593,6 +8968,7 @@ t("infusion", "주입", "effect subtype")
 t("Path of the Sun", "태양의 길", "_t")
 t("arcane", "비전", "effect subtype")
 t("fire", "화염", "effect subtype")
+t("undead", "언데드", "effect subtype")
 t("temporal", "시간", "effect subtype")
 t("Unstoppable", "저지불가", "_t")
 t("combat", "빛의 전투", "effect subtype")
@@ -14620,6 +8996,7 @@ t("Adrenaline Surge", "아드레날린 분출", "_t")
 t("light", "빛", "effect subtype")
 t("Superb Agility", "우월한 재주", "_t")
 t("Garrote", "교살", "_t")
+t("something", "물체", "_t")
 t("Marked for Death", "죽음의 표식", "_t")
 t("Soothing Darkness", "위로하는 어둠", "_t")
 t("Shadow Dance", "어둠의 춤", "_t")
@@ -14662,6 +9039,7 @@ section "game/modules/tome/data/zones/ancient-elven-ruins/grids.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/ancient-elven-ruins/npcs.lua"
 
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
@@ -14723,6 +9101,7 @@ t("wall", "벽", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/zones/arena/npcs.lua"
 
+t("undead", "언데드", "entity type")
 t("halfling", "하플링", "entity subtype")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
@@ -14765,6 +9144,7 @@ section "game/modules/tome/data/zones/blighted-ruins/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/briagh-lair/npcs.lua"
 
+t("dragon", "용", "entity type")
 
 
 ------------------------------------------------
@@ -14851,6 +9231,7 @@ section "game/modules/tome/data/zones/daikara/grids.lua"
 section "game/modules/tome/data/zones/daikara/npcs.lua"
 
 t("ice", "얼음", "entity subtype")
+t("dragon", "용", "entity type")
 t("fire", "화염", "entity subtype")
 
 
@@ -14892,6 +9273,7 @@ section "game/modules/tome/data/zones/demon-plane-spell/grids.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/demon-plane-spell/zone.lua"
 
+t("Fearscape", "공포의 영역", "_t")
 
 
 ------------------------------------------------
@@ -14903,6 +9285,7 @@ t("Back and there again", "다시 또 그곳에", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/demon-plane/npcs.lua"
 
+t("demon", "악마", "entity type")
 t("Back and there again", "다시 또 그곳에", "_t")
 
 
@@ -14914,6 +9297,7 @@ section "game/modules/tome/data/zones/demon-plane/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/demon-plane/zone.lua"
 
+t("Fearscape", "공포의 영역", "_t")
 
 
 ------------------------------------------------
@@ -14939,6 +9323,8 @@ section "game/modules/tome/data/zones/dreadfell/grids.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/dreadfell/npcs.lua"
 
+t("skeleton", "스켈레톤", "entity subtype")
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
@@ -14949,11 +9335,13 @@ section "game/modules/tome/data/zones/dreadfell/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/dreadfell/zone.lua"
 
+t("Dreadfell", "두려움의 영역", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/dreams/grids.lua"
 
+t("grass", "잔디", "entity subtype")
 t("door", "문", "entity name")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
@@ -15013,6 +9401,7 @@ section "game/modules/tome/data/zones/eruan/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/flooded-cave/npcs.lua"
 
+t("dragon", "용", "entity type")
 t("water", "물", "entity subtype")
 
 
@@ -15132,6 +9521,7 @@ section "game/modules/tome/data/zones/halfling-ruins/zone.lua"
 section "game/modules/tome/data/zones/heart-gloom/grids.lua"
 
 t("wall", "벽", "entity type")
+t("tree", "나무", "entity name")
 
 
 ------------------------------------------------
@@ -15177,6 +9567,8 @@ section "game/modules/tome/data/zones/illusory-castle/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/infinite-dungeon/grids.lua"
 
+t("underground", "지하", "entity subtype")
+t("grass", "잔디", "entity subtype")
 t("door", "문", "entity name")
 t("open door", "열린 문", "entity name")
 t("wall", "벽", "entity type")
@@ -15197,6 +9589,7 @@ section "game/modules/tome/data/zones/infinite-dungeon/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/keepsake-meadow/grids.lua"
 
+t("grass", "잔디", "entity name")
 t("door", "문", "entity name")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
@@ -15206,6 +9599,7 @@ t("open door", "열린 문", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/keepsake-meadow/npcs.lua"
 
+t("undead", "언데드", "entity type")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
 t("thalore", "탈로레", "entity subtype")
@@ -15246,6 +9640,8 @@ section "game/modules/tome/data/zones/lake-nur/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/last-hope-graveyard/grids.lua"
 
+t("tree", "나무", "entity name")
+t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("grave", "묘지", "entity name")
 t("floor", "바닥", "entity subtype")
@@ -15336,6 +9732,7 @@ section "game/modules/tome/data/zones/norgos-lair/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/noxious-caldera/grids.lua"
 
+t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 
 
@@ -15354,12 +9751,15 @@ section "game/modules/tome/data/zones/noxious-caldera/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/noxious-caldera/zone.lua"
 
+t("dream", "dream", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/old-forest/grids.lua"
 
 t("floor", "바닥", "entity type")
+t("tree", "나무", "entity name")
+t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 
 
@@ -15463,6 +9863,7 @@ section "game/modules/tome/data/zones/reknor/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("demon", "악마", "entity type")
 t("Back and there again", "다시 또 그곳에", "_t")
 
 
@@ -15541,6 +9942,8 @@ t("Ruined Dungeon", "파괴된 던전", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/ruins-kor-pul/npcs.lua"
 
+t("skeleton", "스켈레톤", "entity subtype")
+t("undead", "언데드", "entity type")
 
 
 ------------------------------------------------
@@ -15556,6 +9959,7 @@ section "game/modules/tome/data/zones/ruins-kor-pul/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/sandworm-lair/npcs.lua"
 
+t("dragon", "용", "entity type")
 
 
 ------------------------------------------------
@@ -15603,6 +10007,7 @@ t("Shadow Crypt", "그림자 지하실", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/shertul-fortress-caldizar/grids.lua"
 
+t("Exploratory Farportal", "탐험용 장거리 관문", "entity name")
 
 
 ------------------------------------------------
@@ -15618,6 +10023,7 @@ section "game/modules/tome/data/zones/shertul-fortress-caldizar/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/shertul-fortress/grids.lua"
 
+t("Exploratory Farportal", "탐험용 장거리 관문", "_t")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
 
@@ -15625,6 +10031,7 @@ t("wall", "벽", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/zones/shertul-fortress/npcs.lua"
 
+t("Sher'Tul", "쉐르'툴", "entity subtype")
 
 
 ------------------------------------------------
@@ -15642,6 +10049,7 @@ section "game/modules/tome/data/zones/slazish-fen/grids.lua"
 
 t("wall", "벽", "entity type")
 t("water", "물", "entity subtype")
+t("tree", "나무", "entity name")
 
 
 ------------------------------------------------
@@ -15681,6 +10089,7 @@ t("sealed door", "봉인된 문", "entity name")
 section "game/modules/tome/data/zones/sludgenest/npcs.lua"
 
 t("giant", "거인", "entity type")
+t("troll", "트롤", "entity subtype")
 
 
 ------------------------------------------------
@@ -15692,6 +10101,7 @@ section "game/modules/tome/data/zones/sludgenest/zone.lua"
 section "game/modules/tome/data/zones/south-beach/grids.lua"
 
 t("floor", "바닥", "entity type")
+t("grass", "잔디", "entity subtype")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 
 
@@ -15749,6 +10159,7 @@ section "game/modules/tome/data/zones/tannen-tower/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/telmur/npcs.lua"
 
+t("undead", "언데드", "entity type")
 t("Back and there again", "다시 또 그곳에", "_t")
 
 
@@ -15791,6 +10202,7 @@ section "game/modules/tome/data/zones/temple-of-creation/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/temple-of-creation/zone.lua"
 
+t("Temple of Creation", "창조의 사원", "_t")
 
 
 ------------------------------------------------
@@ -15808,6 +10220,7 @@ t("Temporal Warden", "시간 감시자", "_t")
 section "game/modules/tome/data/zones/temporal-rift/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
+t("dragon", "용", "entity type")
 t("temporal", "시간", "entity subtype")
 
 
@@ -15818,6 +10231,16 @@ section "game/modules/tome/data/zones/temporal-rift/objects.lua"
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/temporal-rift/zone.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/zones/test/mapscripts/rooms_test.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/zones/test/mapscripts/rooms_test2.lua"
 
 
 
@@ -15865,6 +10288,7 @@ t("Alchemist", "연금술사", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-angolwen/zone.lua"
 
+t("Angolwen", "앙골웬", "_t")
 
 
 ------------------------------------------------
@@ -15918,6 +10342,7 @@ section "game/modules/tome/data/zones/town-elvala/zone.lua"
 section "game/modules/tome/data/zones/town-gates-of-morning/grids.lua"
 
 t("floor", "바닥", "entity subtype")
+t("grass", "잔디", "entity subtype")
 
 
 ------------------------------------------------
@@ -15962,7 +10387,9 @@ section "game/modules/tome/data/zones/town-irkkk/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-iron-council/grids.lua"
 
+t("underground", "지하", "entity subtype")
 t("wall", "벽", "entity type")
+t("crystals", "수정", "entity name")
 
 
 ------------------------------------------------
@@ -16103,19 +10530,23 @@ section "game/modules/tome/data/zones/town-zigur/traps.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-zigur/zone.lua"
 
+t("Zigur", "지구르", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/trollmire/grids.lua"
 
+t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("water", "물", "entity subtype")
+t("tree", "나무", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/trollmire/npcs.lua"
 
 t("giant", "거인", "entity type")
+t("troll", "트롤", "entity subtype")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
 
@@ -16133,6 +10564,10 @@ section "game/modules/tome/data/zones/trollmire/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/tutorial-combat-stats/grids.lua"
 
+t("grass", "잔디", "entity name")
+t("Rune of Enlightenment: Shove", "계몽의 룬: 밀치기", "entity name")
+t("Teaches the player 'Shove'.", "플레이어에게 '밀치기' 를 가르칩니다.", "_t")
+t("#VIOLET#You have learned the talent Shove.", "#VIOLET#당신은 밀치기 기술을 배웠습니다.", "logPlayer")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
 t("sealed door", "봉인된 문", "entity name")
@@ -16143,6 +10578,13 @@ section "game/modules/tome/data/zones/tutorial-combat-stats/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("skeleton mage", "스켈레톤 마법사", "entity name")
+t("half-dead forest troll", "다 죽어 가는 숲 트롤", "entity name")
+t([[Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.
+He looks hurt.]], [[못생기고 피부가 초록색인, 거대한 인간형 생물이 사마귀로 덮인 녹색 주먹을 움켜쥐고 당신을 노려보고 있습니다.
+다친 것처럼 보입니다.]], "_t")
+t("Lone Wolf", "외톨이 늑대", "entity name")
+t("It is a large wolf with eyes full of cunning, only 3 times bigger than a normal wolf. It looks hungry. You look tasty!", "눈에 교활함이 가득한 큰 늑대입니다. 평범한 늑대보다 고작 3배밖에 안 크네요. 배고파 보입니다. 너 맛있어 보인다!", "_t")
 
 
 ------------------------------------------------
@@ -16158,11 +10600,20 @@ section "game/modules/tome/data/zones/tutorial-combat-stats/traps.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/tutorial-combat-stats/zone.lua"
 
+t("Tutorial", "튜토리얼", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/tutorial/npcs.lua"
 
+t("skeleton mage", "스켈레톤 마법사", "entity name")
+t("half-dead forest troll", "다 죽어 가는 숲 트롤", "entity name")
+t([[Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.
+He looks hurt.]], [[못생기고 피부가 초록색인, 거대한 인간형 생물이 사마귀로 덮인 녹색 주먹을 움켜쥐고 당신을 노려보고 있습니다.
+다친 것처럼 보입니다.]], "_t")
+t("Lone Wolf", "외톨이 늑대", "entity name")
+t("It is a large wolf with eyes full of cunning, only 3 times bigger than a normal wolf. It looks hungry. You look tasty!", "눈에 교활함이 가득한 큰 늑대입니다. 평범한 늑대보다 고작 3배밖에 안 크네요. 배고파 보입니다. 너 맛있어 보인다!", "_t")
+t("Tutorial: Finish", "튜토리얼: 완료", "_t")
 
 
 ------------------------------------------------
@@ -16173,6 +10624,7 @@ section "game/modules/tome/data/zones/tutorial/traps.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/tutorial/zone.lua"
 
+t("Tutorial", "튜토리얼", "_t")
 
 
 ------------------------------------------------
@@ -16226,11 +10678,13 @@ section "game/modules/tome/data/zones/valley-moon-caverns/zone.lua"
 section "game/modules/tome/data/zones/valley-moon/grids.lua"
 
 t("floor", "바닥", "entity type")
+t("grass", "잔디", "entity subtype")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/valley-moon/npcs.lua"
 
+t("demon", "악마", "entity type")
 t("humanoid", "인간형", "entity type")
 
 
@@ -16296,8 +10750,11 @@ section "game/modules/tome/data/zones/wilderness/grids.lua"
 
 t("ice", "얼음", "entity subtype")
 t("water", "물", "entity subtype")
+t("deep water", "깊은 물", "entity name")
+t("grass", "잔디", "entity subtype")
 t("floor", "바닥", "entity type")
 t("wall", "벽", "entity type")
+t("Zigur", "지구르", "_t")
 
 
 ------------------------------------------------
@@ -16315,6 +10772,7 @@ t("Message Log", "메시지 로그", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/Birther.lua"
 
+t("Tutorial", "튜토리얼", "_t")
 t("Female", "여성", "_t")
 t("Male", "남성", "_t")
 t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?", "_t")
@@ -16361,6 +10819,8 @@ section "game/modules/tome/dialogs/GameOptions.lua"
 
 t("Game Options", "게임 설정", "_t")
 t("no", "아니요", "_t")
+t("disabled", "끄기", "_t")
+t("enabled", "켜기", "_t")
 
 
 ------------------------------------------------
@@ -16372,6 +10832,7 @@ t("Cancel", "취소", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/LevelupDialog.lua"
 
+t("not enough stat", "스탯 부족", "_t")
 t("unknown", "알 수 없음", "_t")
 
 
@@ -16383,14 +10844,17 @@ section "game/modules/tome/dialogs/LorePopup.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/MapMenu.lua"
 
+t("Pickup item", "물건 줍기", "_t")
 t("Show inventory", "소지품 보기", "_t")
 t("Auto-explore", "자동 탐색", "_t")
 t("Inventory", "소지품", "_t")
+t("Inspect Creature", "생명체 조사", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/PartyOrder.lua"
 
+t("default", "기본", "_t")
 
 
 ------------------------------------------------
@@ -16434,6 +10898,7 @@ section "game/modules/tome/dialogs/ShowEquipInven.lua"
 
 t("Inventory", "소지품", "_t")
 t("No Inventory", "소지품 없음", "_t")
+t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
 
 
 ------------------------------------------------
@@ -16445,6 +10910,7 @@ t("Equipment", "장비", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowIngredients.lua"
 
+t("Category", "분류", "_t")
 t("Quantity", "수량", "_t")
 
 
@@ -16457,6 +10923,7 @@ t("Inventory", "소지품", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowLore.lua"
 
+t("Category", "분류", "_t")
 
 
 ------------------------------------------------
@@ -16468,6 +10935,9 @@ section "game/modules/tome/dialogs/ShowMap.lua"
 section "game/modules/tome/dialogs/ShowStore.lua"
 
 t("Inventory", "소지품", "_t")
+t("Store", "상점", "_t")
+t("Category", "분류", "_t")
+t("Price", "가격", "_t")
 
 
 ------------------------------------------------
@@ -16494,6 +10964,10 @@ section "game/modules/tome/dialogs/UseItemDialog.lua"
 section "game/modules/tome/dialogs/UseTalents.lua"
 
 t("Passive", "지속형", "_t")
+t("Talent", "기술", "_t")
+t("Status", "상태", "_t")
+t("%s assigned to hotkey %s", "%s %s의 단축키로 지정되었습니다.", "tformat", {2,1}, {[2]="가"})
+t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
 
 
 ------------------------------------------------
@@ -16628,31 +11102,37 @@ t("Cancel", "취소", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyContingency.lua"
 
+t("Talent", "기술", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyEmpower.lua"
 
+t("Talent", "기술", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyExtension.lua"
 
+t("Talent", "기술", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyMatrix.lua"
 
+t("Talent", "기술", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyQuicken.lua"
 
+t("Talent", "기술", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/MagicalCombatArcaneCombat.lua"
 
+t("Talent", "기술", "_t")
 
 
 ------------------------------------------------
