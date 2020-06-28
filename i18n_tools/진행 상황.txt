@@ -263,4 +263,10 @@
 "game/engines/default/modules/boot/data/general/npcs/canine.lua"
 "game/engines/default/modules/boot/data/general/npcs/skeleton.lua"
 "game/engines/default/modules/boot/data/general/npcs/troll.lua"
-"game/engines/default/modules/boot/data/talents.lua" Magpie 완
+"game/engines/default/modules/boot/data/talents.lua"
+"game/engines/default/modules/boot/data/timed_effects.lua"
+"game/engines/default/modules/boot/data/zones/dungeon/zone.lua"
+"game/engines/default/modules/boot/dialogs/Addons.lua"
+"game/engines/default/modules/boot/dialogs/Credits.lua"
+"game/engines/default/modules/boot/dialogs/FirstRun.lua"
+"game/engines/default/modules/boot/dialogs/LoadGame.lua" Magpie 완
