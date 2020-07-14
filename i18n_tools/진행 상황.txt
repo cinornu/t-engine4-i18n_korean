@@ -270,3 +270,9 @@
 "game/engines/default/modules/boot/dialogs/Credits.lua"
 "game/engines/default/modules/boot/dialogs/FirstRun.lua"
 "game/engines/default/modules/boot/dialogs/LoadGame.lua" Magpie 완
+
+
+game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua Stéphanois 완
+game/dlcs/tome-cults/data/talents/demented/calamity.lua Stéphanois 완
+game/dlcs/tome-cults/data/talents/demented/chronophage.lua Stéphanois 완
+game/dlcs/tome-cults/data/talents/demented/doom.luaStéphanois  완
