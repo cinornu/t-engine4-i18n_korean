@@ -1594,38 +1594,114 @@ t("A large and athletic troll with an extremely tough and warty hide.", "아주 
 ------------------------------------------------
 section "game/engines/default/modules/boot/data/talents.lua"
 
+t("misc", "도구", "talent category")
+t("Kick", "발차기", "talent name")
+t("Acid Spray", "산성 스프레이", "talent name")
+t("Manathrust", "마나 스러스트", "talent name")
 t("Flame", "불꽃", "talent name")
 t("Fireflash", "불꽃섬광", "talent name")
 t("Lightning", "번개", "talent name")
+t("Sunshield", "태양 방패", "talent name")
 t("Flameshock", "불꽃충격", "talent name")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/data/timed_effects.lua"
 
+t("Burning from acid", "산성액으로 인한 화상", "_t")
+t("#Target# is covered in acid!", "#Target2# 산성액을 맞았다!", "_t")
+t("+Acid", "+산성액", "_t")
+t("#Target# is free from the acid.", "#Target2# 산성액의 영향을 받지 않는다.", "_t")
+t("-Acid", "-산성액", "_t")
+t("Sunshield", "태양 방패", "_t")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/data/zones/dungeon/zone.lua"
 
+t("Forest", "숲", "_t")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/Addons.lua"
 
+t("Configure Addons", "애드온 설정", "_t")
+t("You can get new addons at #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", "새로운 애드온을 다음 주소에서 받으실 수 있습니다: #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", "_t")
+t("You can get new addons on #LIGHT_BLUE##{underline}#Steam Workshop#{normal}#", "새로운 애드온을 다음 장소에서 받으실 수 있습니다: #LIGHT_BLUE##{underline}#Steam Workshop#{normal}#", "_t")
+t(", #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", ", #LIGHT_BLUE##{underline}#Te4.org 애드온#{normal}#", "_t")
 t("Show incompatible", "호환되지 않는 버전 보이기", "_t")
+t("Auto-update on start", "시작하면 자동 업데이트", "_t")
 t("Game Module", "게임 모듈", "_t")
 t("Version", "버전", "_t")
+t("Addon", "애드온", "_t")
+t("Active", "켜짐", "_t")
+t("#GREY#Developer tool", "#GREY#개발자 도구", "_t")
+t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#기부자 상태: 꺼짐", "_t")
+t("#LIGHT_GREEN#Manual: Active", "#LIGHT_GREEN#수동 조작: 켜짐", "_t")
+t("#LIGHT_RED#Manual: Disabled", "#LIGHT_RED#수동 조작: 꺼짐", "_t")
+t("#LIGHT_GREEN#Auto: Active", "#LIGHT_GREEN#자동 조작: 켜짐", "_t")
+t("#LIGHT_RED#Auto: Incompatible", "#LIGHT_RED#자동 조작: 호환되지 않음", "_t")
+t("Addon Version", "애드온 버전", "_t")
+t("Game Version", "게임 버전", "_t")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/Credits.lua"
 
+t("Project Lead", "프로젝트 리더", "_t")
+t("Lead Coder", "코더 리더", "_t")
+t("World Builders", "맵 제작자", "_t")
+t("Graphic Artists", "그래픽 아티스트", "_t")
+t("Expert Shaders Design", "셰이더 디자인", "_t")
+t("Soundtracks", "사운드트랙", "_t")
+t("Sound Designer", "사운드 엔지니어", "_t")
+t("Lore Creation and Writing", "스토리 작가", "_t")
+t("Code Helpers", "코드 헬퍼", "_t")
+t("Community Managers", "커뮤니티 관리자", "_t")
+t("Text Editors", "텍스트 편집", "_t")
+t("The Community", "커뮤니티", "_t")
+t("Others", "그 밖에 도움을 주신 분들", "_t")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/FirstRun.lua"
 
+t("Welcome to Tales of Maj'Eyal", "Tales of Maj'Eyal에 오신 것을 환영합니다", "_t")
+t("Register now!", "새로 가입!", "_t")
+t("Login existing account", "존재하는 계정에 로그인", "_t")
+t("Maybe later", "나중에", "_t")
+t("#RED#Disable all online features", "#RED#모든 온라인 기능을 끈다", "_t")
+t("Disable all connectivity", "모든 연결을 끊는다", "_t")
+t([[You are about to disable all connectivity to the network.
+This includes, but is not limited to:
+- Player profiles: You will not be able to login, register
+- Characters vault: You will not be able to upload any character to the online vault to show your glory
+- Item's Vault: You will not be able to access the online item's vault, this includes both storing and retrieving items.
+- Ingame chat: The ingame chat requires to connect to the server to talk to other players, this will not be possible.
+- Purchaser / Donator benefits: The base game being free, the only way to give donators their bonuses fairly is to check their online profile. This will thus be disabled.
+- Easy addons downloading & installation: You will not be able to see ingame the list of available addons, nor to one-click install them. You may still do so manually.
+- Version checks: Addons will not be checked for new versions.
+- Discord: If you are a Discord user, Rich Presence integration will also be disabled by this setting.
+- Ingame game news: The main menu will stop showing you info about new updates to the game.
+
+#{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.#{normal}#
+
+If you disable this option you can always re-activate it in the Online category of the Game Options menu later on.]], [[네트워크 연결을 끊으시려는 중입니다.
+다음과 같은 기능들을 사용할 수 없게 됩니다. 이 밖에도 사용할 수 없는 기능이 있을 수 있습니다.
+- 플레이어 프로필: 로그인이나 가입을 할 수 없게 됩니다
+- 캐릭터 페이지: 캐릭터의 진행 로그를 업로드할 수 없게 되어 영광의 궤적을 보여줄 수 없게 됩니다
+- 아이템 금고: 아이템 금고에 접속할 수 없게 됩니다. 아이템을 꺼낼 수도, 보관할 수도 없게 됩니다
+- 인게임 채팅: 인게임 채팅은 다른 사람들과 대화하기 위해 온라인 연결을 필요로 합니다. 고로 할 수 없게 됩니다
+- 구매자 / 기부자 혜택: 기본 게임은 무료이기 때문에 기부자나 구매자에게 보너스를 주기 위해서는 온라인 프로필을 확인해야 합니다. 고로 혜택을 받으실 수 없게 됩니다.
+- 애드온의 쉬운 다운로드 및 설치: 사용할 수 있는 애드온 리스트를 인게임에서 확인할 수 없게 되며, 한 번의 클릭으로 설치하는 것도 할 수 없게 됩니다. 이 모든 것을 수동으로 하셔야 합니다.
+- 버전 체크: 애드온 업데이트를 확인할 수 없게 됩니다.
+- Discord: Discord를 사용하고 계신다면 Rich Presence 기능을 사용할 수 없게 됩니다.
+- 인게임 뉴스: 메인 메뉴가 새로운 업데이트에 대한 사항을 알려주지 않게 됩니다.
+
+#{bold}##CRIMSON#정말 할 수 있는 게 제한되고, 많은 즐거움과 기능을 제거하기 때문에 다른 방법이 없을 경우에만 추천드립니다.#{normal}#
+
+이 옵션을 끄신다면 언제든 게임 옵션의 온라인 항목에서 재활성화할 수 있습니다.]], "_t")
+t("#RED#Disable all!", "#RED#전부 끄기!", "_t")
 t("Cancel", "취소", "_t")
 
 
@@ -1633,8 +1709,37 @@ t("Cancel", "취소", "_t")
 section "game/engines/default/modules/boot/dialogs/LoadGame.lua"
 
 t("Load Game", "게임 불러오기", "_t")
+t("Show older versions", "이전 버전 보기", "_t")
+t("Ignore unloadable addons", "불러올 수 없는 애드온 무시", "_t")
+t("  Play!  ", "  플레이!  ", "_t")
+t([[#{bold}##GOLD#%s: %s#WHITE##{normal}#
+Game version: %d.%d.%d
+Requires addons: %s
+
+%s]], [[#{bold}##GOLD#%s: %s#WHITE##{normal}#
+게임 버전: %d.%d.%d
+애드온 요구사항: %s
+
+%s]], "tformat")
+t("You can simply grab an older version of the game from where you downloaded it.", "게임을 다운로드한 곳에서 이전 버전을 가지고 오셔도 됩니다.", "_t")
+t("You can downgrade the version by selecting it in the Steam's \"Beta\" properties of the game.", "스팀에서 이 게임의 \"Beta\" 항목을 조작하는 것으로 게임을 다운그레이드할 수 있습니다.", "_t")
+t("Original game version not found", "원래 게임 버전을 찾을 수 없습니다", "_t")
+t([[This savefile was created with game version %s. You can try loading it with the current version if you wish but it is recommended you play it with the old version to ensure compatibility
+%s]], [[이 세이브 파일은 다음 게임 버전에서 작성되었습니다: %s. 현재 버전에서 실행하실 수도 있지만 권장하지는 않으며 가급적이면 이전 버전에서 로드하시는 것을 추천드립니다.
+%s]], "tformat")
+t("Run with newer version", "최신 버전에서 실행", "_t")
+t("#LIGHT_RED#WARNING: #LAST#Loading a savefile while in developer mode will permanently invalidate it. Proceed?", "#LIGHT_RED#경고: #LAST#개발자 모드에서 세이브 파일을 로드하는 것은 이를 영구적으로 망가트릴 수도 있습니다. 계속하시겠습니까?", "_t")
 t("Developer Mode", "개발자 모드", "_t")
+t("Load anyway", "어쨌든 로드한다", "_t")
+t("Delete savefile", "세이브 파일 삭제", "_t")
+t("Really delete #{bold}##GOLD#%s#WHITE##{normal}#", "정말로 #{bold}##GOLD#%s#WHITE##{normal}# 삭제하시겠습니까?", "tformat", nil, {"를"})
 t("Cancel", "취소", "_t")
+t("Delete", "삭제", "_t")
+t("No data available for this game version.", "이 게임 버전에서 사용할 수 있는 데이터가 없습니다.", "_t")
+t("Downloading old game data: #LIGHT_GREEN#", "구 버전 데이터를 다운로드하는 중: #LIGHT_GREEN#", "_t")
+t("Old game data for %s correctly installed. You can now play.", "구 버전 데이터 %s 올바르게 설치되었습니다. 이제 플레이하실 수 있습니다.", "tformat", nil, {"가"})
+t("Failed to install.", "설치 실패.", "_t")
+t("Old game data", "구 버전 데이터", "_t")
 
 
 ------------------------------------------------
