@@ -272,7 +272,36 @@
 "game/engines/default/modules/boot/dialogs/LoadGame.lua" Magpie 완
 
 
-game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua Stéphanois 완
-game/dlcs/tome-cults/data/talents/demented/calamity.lua Stéphanois 완
-game/dlcs/tome-cults/data/talents/demented/chronophage.lua Stéphanois 완
-game/dlcs/tome-cults/data/talents/demented/doom.luaStéphanois  완
+section "game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/calamity.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/chronophage.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/doom.lua" Stéphanois  완
+section "game/dlcs/tome-cults/data/talents/demented/entropy.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/madness.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/nether.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/oblivion.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/rift.lua" stephanois 완
+section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois 완
+section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
+section "game/modules/tome/data/talents/corruptions/blight.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/blood.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/bone.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/corruptions.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/sanguisuge.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/scourge.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/shadowflame.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/torment.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/vile-life.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/vim.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/ambush.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/artifice.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/called-shots.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/cunning.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/dirty.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/shadow-magic.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois 완
+
+
+
+
