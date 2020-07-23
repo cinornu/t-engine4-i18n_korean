@@ -232,7 +232,6 @@ t("#Source# misses #target#.", "#Source1# #target3# 빗맞힘.", "logCombat")
 ------------------------------------------------
 section "game/modules/tome/class/interface/Combat.lua"
 
-t("#Source# misses #Target#.", "#Source1# #target3# 빗맞힘.", "logCombat")
 
 
 ------------------------------------------------
@@ -1687,6 +1686,7 @@ section "game/modules/tome/data/birth/descriptors.lua"
 
 t("base", "베이스", "birth descriptor name")
 t("Tutorial", "튜토리얼", "birth descriptor name")
+t("Nightmare", "악몽", "birth descriptor name")
 
 
 ------------------------------------------------
@@ -2147,6 +2147,7 @@ section "game/modules/tome/data/chats/golbug-explains.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/jewelry-store.lua"
 
+t("Use which gem?", "어떤 보석을 사용할까?", "_t")
 
 
 ------------------------------------------------
@@ -2539,14 +2540,16 @@ section "game/modules/tome/data/damage_types.lua"
 t("%s(%d blocked)#LAST#", "%s(%d 방어됨)#LAST#", "tformat")
 t("%s(%d antimagic)#LAST#", "%s(%d 반마법)#LAST#", "tformat")
 t("arcane", "비전", "_t")
-t("blight", "황폐의 그림자", "_t")
+t("blight", "황폐", "_t")
 t("light", "빛", "_t")
 t("temporal", "시간", "_t")
 t("fire", "화염", "_t")
 t("ice", "얼음", "_t")
 t("%s resists the silence!", "%s 침묵에 저항합니다!", "logSeen", nil, {"가"})
+t("nightmare", "악몽", "_t")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"는"})
 t("%s resists the pin!", "%s 속박에 저항했다!", "logSeen", nil, {"가"})
+t("terror", "공포", "_t")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 
 
@@ -3625,7 +3628,7 @@ section "game/modules/tome/data/general/objects/egos/boots.lua"
 
 t("void", "공허", "entity keyword")
 t("blood", "혈액", "entity keyword")
-t("blight", "황폐의 그림자", "entity keyword")
+t("blight", "황폐", "entity keyword")
 
 
 ------------------------------------------------
@@ -3706,6 +3709,7 @@ section "game/modules/tome/data/general/objects/egos/lite.lua"
 
 t("sun", "태양", "entity keyword")
 t("void", "공허", "entity keyword")
+t("focus", "집중", "entity keyword")
 
 
 ------------------------------------------------
@@ -3737,7 +3741,8 @@ section "game/modules/tome/data/general/objects/egos/rings.lua"
 t("fire", "화염", "entity keyword")
 t("light", "빛", "entity keyword")
 t("aether", "에테르", "entity keyword")
-t("blight", "황폐의 그림자", "entity keyword")
+t("blight", "황폐", "entity keyword")
+t("psionic", "초능력", "entity keyword")
 
 
 ------------------------------------------------
@@ -3745,9 +3750,10 @@ section "game/modules/tome/data/general/objects/egos/robe.lua"
 
 t("fire", "화염", "entity keyword")
 t("light", "빛", "entity keyword")
-t("blight", "황폐의 그림자", "entity keyword")
+t("blight", "황폐", "entity keyword")
 t("Angolwen", "앙골웬", "entity keyword")
 t("storm", "폭풍", "entity keyword")
+t("focus", "집중", "entity keyword")
 
 
 ------------------------------------------------
@@ -3774,7 +3780,7 @@ t("halfling", "하플링", "entity keyword")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/staves.lua"
 
-t("blight", "황폐의 그림자", "entity keyword")
+t("blight", "황폐", "entity keyword")
 
 
 ------------------------------------------------
@@ -3805,6 +3811,7 @@ section "game/modules/tome/data/general/objects/egos/weapon.lua"
 t("fire", "화염", "_t")
 t("plague", "유행병", "entity keyword")
 t("corruption", "타락", "entity keyword")
+t("projection", "투사", "entity keyword")
 t("torment", "고문", "entity keyword")
 
 
@@ -3815,7 +3822,7 @@ t("aegis", "수호", "entity keyword")
 t("madness", "광기", "entity keyword")
 t("fire", "화염", "entity keyword")
 t("light", "빛", "entity keyword")
-t("blight", "황폐의 그림자", "entity keyword")
+t("blight", "황폐", "entity keyword")
 
 
 ------------------------------------------------
@@ -4093,6 +4100,7 @@ t("Radiance", "광휘", "entity name")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
 t("Summon", "소환", "_t")
 t("None", "없음", "_t")
+t("Use which gem?", "어떤 보석을 사용할까?", "_t")
 t("something", "물체", "_t")
 
 
@@ -4151,6 +4159,7 @@ section "game/modules/tome/data/general/traps/temporal.lua"
 t("temporal", "시간", "entity type")
 t("trap", "함정", "_t")
 t("water", "물", "entity subtype")
+t("distortion", "왜곡", "_t")
 
 
 ------------------------------------------------
@@ -4378,12 +4387,15 @@ section "game/modules/tome/data/lore/blighted-ruins.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/daikara.lua"
 
+t("Dragonsfire Trap", "용의 화염 함정", "_t")
 t("daikara", "다이카라", "newLore category")
+t("Freezing Trap", "동결 함정", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/derth.lua"
 
+t("Beam Trap", "광선 함정", "_t")
 
 
 ------------------------------------------------
@@ -4701,6 +4713,7 @@ section "game/modules/tome/data/lore/trollmire.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/zigur.lua"
 
+t("Purging Trap", "정화 함정", "_t")
 
 
 ------------------------------------------------
@@ -5896,7 +5909,8 @@ t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 section "game/modules/tome/data/talents/chronomancy/timetravel.lua"
 
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
-t("The spell fizzles...", "주문이 쉬이익 소리만을 낸다...", "logPlayer")
+t("This talent cannot be used here.", "이 기술은 아곳에서 사용할 수 없다.", "logPlayer")
+t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
 
 
 ------------------------------------------------
@@ -5928,7 +5942,7 @@ t([[A furious storm of blighted poison rages around the caster in a radius of %d
 		The damage will increase with your Spellpower.]], [[격렬한 독성 폭풍이 시전자 주변 반경 %d 칸 내에서 %d 턴 동안 일어납니다. 폭풍에 영향을 받은 대상은 %0.2f 황폐 피해를 받고, 중독되어 %0.2f 황폐 피해를 4턴에 걸쳐 받습니다.
 		기술 레벨 2 : 폭풍은 조용히 퍼지는 역병을 퍼뜨릴 확률을 갖게됩니다. 이는 생명력 회복을 %d%% 낮춥니다.
 		기술 레벨 4 : 폭풍은 마비성 역병을 퍼뜨릴 확률을 갖게됩니다. 이는 모든 피해량을 %d%% 낮춥니다.
-		기술 레벨 6 : 폭풍은 장애를 초래하는	 역병을 퍼뜨릴 확률을 갖게됩니다, 이는 %d%% 확률로 기술 사용을 실패하게 합니다.
+		기술 레벨 6 : 폭풍은 집중을 방해하는 역병을 퍼뜨릴 확률을 갖게됩니다, 이는 %d%% 확률로 기술 사용을 실패하게 합니다.
 		각 효과의 적용 확률은 모두 같습니다.
 		독 피해는 치명타를 가할 확률을 갖습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -5940,7 +5954,7 @@ section "game/modules/tome/data/talents/corruptions/blood.lua"
 t("Blood Spray", "혈액 흩뿌리기", "talent name")
 t([[You extract corrupted blood from your own body, hitting everything in a frontal cone of radius %d for %0.2f blight damage.
 		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and weakening either Constitution, Strength or Dexterity for 6 turns.
-		The damage will increase with your Spellpower.]], [[당신의 몸에서 타락한 피를 뽑아냅니다. 반경 %d 원뿔 내의 모든 대상은 %0.2f 황폐 피해를 입습니다.
+		The damage will increase with your Spellpower.]], [[당신의 몸에서 타락한 피를 뽑아냅니다. 반경 %d 원뿔 범위 내의 모든 대상은 %0.2f 황폐 피해를 입습니다.
 		타락한 피에 닿은 적은 %d%% 확률로 무작위한 질병에 걸려,  6 턴 동안 총 %0.2f 황폐 속성 피해를 나눠 받으며 힘, 체격, 민첩 능력치 중 하나가 감소됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blood Grasp", "피의 움켜쥠", "talent name")
@@ -6019,7 +6033,7 @@ t("reaving combat", "파열의 전투", "_t")
 t("Harness the power of blood, both your own and your foes'.", "피의 힘을 사용합니다. 자신의 것이든, 남의 것이든.", "_t")
 t("blood", "혈액", "_t")
 t("Bring corruption and decay to all who oppose you.", "당신을 가로막는 이들을 오염시키고 부패시킵니다.", "_t")
-t("blight", "황폐의 그림자", "_t")
+t("blight", "황폐", "_t")
 t("Harness the power of the demonic shadowflame.", "악마들의 어둠의 불꽃을 다룹니다.", "_t")
 t("Shadowflame", "그림자불꽃", "_t")
 t("Become one with rot and decay.", "스스로를 타락하고 부패하게 합니다.", "_t")
@@ -6247,7 +6261,7 @@ t([[Call upon the essence of the supreme demon overlord Urh'Rok to turn into a d
 t("Fearscape", "공포의 영역", "talent name")
 t("This spell cannot be used from within the Fearscape.", "이 주문은 공포의 영역 내에서는 사용할 수 없다.", "logPlayer")
 t("This spell cannot be cast here.", "이 주문을 이곳에서 시전할 수 없다.", "logPlayer")
-t("The spell fizzles...", "주문이 쉬이익 소리만을 낸다...", "logPlayer")
+t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
 t("#LIGHT_RED#You are taken to the Fearscape!", "#LIGHT_RED#당신은 공포의 영역으로 끌려갔다!", "logPlayer")
 t("#LIGHT_RED#You are brought back from the Fearscape!", "#LIGHT_RED#당신은 공포의 영역에서 빠저나왔다!", "logPlayer")
 t([[Summon a part of the Fearscape to intersect with the current level.
@@ -6551,7 +6565,7 @@ t("traps", "함정", "_t")
 t("The knowledge of poisons and how to apply them to 'good' effects.", "독극물의 '더 좋은' 사용법에 대한 지식들 입니다.", "_t")
 t("Collection of known poisons.", "알려진 독극물들.", "_t")
 t("poisons", "독극물", "_t")
-t("Teaches various talents to cripple your foes.", "무력화 상태에 빠지게하는 다양한 방법을 적에게 가르처줍니다.", "_t")
+t("Teaches various talents to cripple your foes.", "적을 방해하는 다양한 방법을 가르처줍니다.", "_t")
 t("dirty fighting", "야비한 싸움", "_t")
 t("How to make your foes feel the pain.", "적에게 더 강렬한 고통을 주는 기술입니다.", "_t")
 t("lethality", "치명", "_t")
@@ -6587,11 +6601,11 @@ For this purpose, disabling effects are stun, blind, daze, confuse, pin, disarm,
 In addition, for each disabling effect the target is under, your melee attacks have a %d%% (to a maximum of %d%%) chance to inflict a new effect on them (that they do not already have): either disarm, cripple (25%% power) or pin for 2 turns.
 The chance to further disable the target increases with your Accuracy.]], [[당신의 번뜩이는 재치는 무력화된 대상을 상대할때 큰 이점을 가저옵니다. 상대의 무력화 효과 하나 당 %d%% 추가 피해를 입히며, 피해는 최대 %d%%까지 상승합니다.
 무력화 효과는 기절, 실명, 혼절, 혼란, 속박, 무장해제, 불구 그리고 침묵 효과를 포함합니다.
-대상의 무력화 효과마다 당신의 근접 공격은 %d%% (최대 %d%%) 확률로 적에게 적용되지 않은 다음 효과 중 하나를 적에게 발생시킵니다 : 2턴 동안의 무장해제, 불구 (25%% 위력), 속박 .
+대상의 무력화 효과마다 당신의 근접 공격은 %d%% (최대 %d%%) 확률로 적에게 적용되지 않은 다음 효과 중 하나를 적에게 발생시킵니다 : 2턴 동안의 무장해제, 방해 (25%% 위력), 속박 .
 추가적인 무력화 확률은 정확도에 비례해 증가합니다.]], "tformat")
 t("Blinding Powder", "실명 가루", "talent name")
 t([[Throw a cloud of blinding dust in a radius %d cone. Enemies within will be blinded, as well as having their accuracy reduced by %d and movement speed decreased by %d%% for %d turns.
-		The chance to inflict these effects increase with your Accuracy.]], [[반경 %d 칸의 원뿔에 실명 가루를 뿌립니다. 대상 위치 내의 적들은 실명되어, %d 턴 동안 정확도를 %d 낮추고 이동속도를 %d%% 만큼 낮춥니다 .
+		The chance to inflict these effects increase with your Accuracy.]], [[반경 %d 칸의 원뿔 범위에 실명 가루를 뿌립니다. 대상 위치 내의 적들은 실명되어, %d 턴 동안 정확도를 %d 낮추고 이동속도를 %d%% 만큼 낮춥니다 .
 		이 효과의 성공 확률은 정확도에 비례해 증가합니다.]], "tformat")
 t("Twist the Knife", "단검 뒤틀기", "talent name")
 t("#CRIMSON#%s's %s was extended!#LAST#", "#CRIMSON#%s의 %s 연장됐다!#LAST#", "logSeen", nil, {"nil","는"})
@@ -6862,9 +6876,205 @@ t([[Systematically find the weaknesses in your opponents' physical resists, at t
 ------------------------------------------------
 section "game/modules/tome/data/talents/cunning/traps.lua"
 
+t("You cannot place a trap there.", "당신은 그곳에 함정을 설치하지 못한다.", "logPlayer")
+t("There is already a trap there.", "그곳엔 이미 함정이 있다.", "_t")
+t("You somehow fail to set the trap.", "함정 설치에 실패했다.", "_t")
 t("trap", "함정", "_t")
+t("#CADET_BLUE#Your %s has expired.", "#CADET_BLUE#당신은 %s 사용하기에는 너무 많은 시간이 흘렀다.", "logPlayer", nil, {"를"})
+t("@Source@ activates a prepared device.", "@Source2@ 준비된 장치를 발동시켰다.", "_t")
+t("shadowy assassin", "그림자속의 암살자", "_t")
+t("A shadowy figure, garbed all in black.", "그림자속의 형상이, 온통 옷을 입고 서있다.", "_t")
+t("#PINK#A %s materializes from the shadows!", "#PINK#A %s 그림자속에서 구현되었다!", "logSeen", nil, {"는"})
+t("bladestorm construct", "칼날폭풍 구조물", "_t")
+t("A lethal contraption of whirling blades.", "소용돌이 치는 칼날의 죽음의 기계장치.", "_t")
+t("Trap Mastery", "함정 숙련", "talent name")
+t("\
+#YELLOW#Newly prepared traps are put on cooldown.#LAST#", "\
+#YELLOW#새로 설치한 함정이 재사용 대기 시간 중이다.#LAST#", "_t")
+t("\
+Game Start: Newly prepared traps will NOT start on cooldown.", "\
+게임 시작: 새로 설치될 함정들은 즉시 효과를 발휘한다.", "_t")
+t("Prepare which traps? (maximum: %d, up to tier %d)%s", "어떤 함정을 설치할까? (최대 종류: %d, 최대 품질 %d)%s", "tformat")
+t("Select Prepared Traps", "설치할 함정을 선택", "_t")
+t("#YELLOW_GREEN#Dismantling %s", "#YELLOW_GREEN#%s 해체", "log")
+t(" (normal trigger)", " (일반 방아쇠)", "_t")
+t([[This talent allows you to prepare up to %d different trap(s) of tier %d or less for later deployment. (Use this ability to select which to prepare.)
+		Designs known:
+%s
+
+		Traps prepared this way are difficult to detect (%d detection 'power') and disarm (%d disarm 'power') based on your Cunning.  They gain %+d%% effectiveness, and can be deployed without breaking stealth %d%% of the time.
+		You are immune to the damage and negative effects of your traps, and traps may critically strike based on your physical crit chance.
+		Most traps last %d turns if not triggered, and refund 80%% of their stamina cost on expiration.
+		More designs may be discovered via disarming or learned from special instructors in the world.]], [[함정 설치법을 배웁니다. 최대 %d 종류의 함정을 설치할 수 있고, 최대 %d 등급의 함정을 설치할 수 있습니다. 이 기술을 사용함으로써 준비할 함정을 선택할 수 있습니다.
+		알고있는 함정 도안 :
+%s
+
+		이런 식으로 설치된 함정을 발각되기 어렵고 (%d 탐지력) 해체하기도 어렵습니다 (%d 해체력) 이 효과는 교활 능력치에 비례해 증가합니다.  함정의 효과를 %+d%% 증가 시키고, 함정 설치가 %d%% 확률로 은신상태를 해제하지 않게됩니다.
+		당신의 함정의 피해와 부정적인 효과에 면역이 됩니다. 추가로 함정은 당신의 물리 치명타율에 비례한 치명타 효과를 내게 됩니다.
+		함정이 발동되지 않으면 %d 턴 동안 지속되며, 지속이 끝나면 설치에 사용된 체력의 80%% 를 되돌려 받습니다.
+		여행중에 함정들을 해체하거나, 특별한 교관에게 배움으로써 더 많은 함정 도안을 획득할수 있습니다.]], "tformat")
+t("Lure", "미끼", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
+t("lure", "미끼", "_t")
+t("A noisy lure.", "시끄러운 미끼.", "_t")
+t([[Deploy a noisy lure that attracts all creatures within radius %d to it for %d turns.
+		It has %d life (based on your Cunning) and is very durable, with %d armor and %d%% resistance to non-physical damage.
+		At level 5, when the lure is destroyed, it will trigger some traps in a radius of 2 around it (check individual trap descriptions to see if they are triggered).
+		Use of this talent will not break stealth.]], [[시끄러운 미끼를 설치해 반경 %d 내의 모든 개체의 주의를 끕니다. 미끼는 %d 턴 동안 지속됩니다.
+		미끼는 %d 생명력을 갖고 (교활 능력치에 비례해 증가합니다) 매우 튼튼합니다. %d 방어력과 비물리적 공격에 대한 %d%%의 저항을 갖고있습니다.
+		기술 레벨이 5일때, 미끼가 부서지면, 미끼 주변 반경 2 칸 내의 특수한 함정들이 발동됩니다. (각 함정의 설명문에 어떤 함정이 발동되는지 알 수 있습니다).
+		이 기술의 사용은 은신을 해제하지 않습니다.]], "tformat")
+t("Advanced Trap Deployment", "진보된 함정 설치", "talent name")
+t([[You learn new techniques for setting traps.
+		Deploying one of your traps is possible up to %d grids from you, takes %d%% less time than normal, and has %d%% less chance to break stealth.]], [[당신은 함정 설치의 새 기술을 배웠습니다.
+		함정을 당신 인근 %d 칸에 설치 할 수 있고 평상시보다 %d%% 빠르게 설치합니다, 추가로 %d%% 낮은 은신 해제 확률응 적용합니다.]], "tformat")
+t("Trap Priming", "뇌관 장착", "talent name")
+t("#LIGHT_BLUE#Cancelled Trap Priming.", "#LIGHT_BLUE#뇌관 장착을 취소했다.", "logPlayer")
+t("#YELLOW_GREEN#Dismantling %s (instant trigger)", "#YELLOW_GREEN#해체 %s (즉발식 방아쇠)", "logPlayer")
+t("#GREY#(see trap description)#LAST#", "#GREY#(함정 설명을 확인하세요.)#LAST#", "_t")
+t([[%sTier %d: %s#LAST#
+%s]], [[%등급 %d: %s#LAST#
+%s]], "tformat")
+t([[You prepare an additional trap (up to tier %d) with a special primed trigger that causes it to activate immediately when deployed. (Use this ability to select the trap.)
+		Not all traps can be prepared this way and each trap can have only one type of preparation.
+		Known primable designs:
+%s
+
+A trap with a primed trigger gains %+d%% effectiveness (replacing the normal bonus from Trap Mastery) and won't break stealth %d%% of the time.
+#YELLOW#Current primed trap: %s#LAST#]], [[당신은 특별한 뇌관을 장착한 함정 하나를 추가로 준비하여 (최대 %d 등급) 설치 즉시 발동시킵니다. (이 기술을 사용함으로써 준비할 함정을 선택할 수 있습니다.)
+		모든 함정을 이런식으로 준비할 수 있는 것은 아닙니다. 그리고 한 종류의 함정은 한 종류 이상의 준비 강화효과를 받지 못합니다.
+		뇌관 장착 가능한 함정 도안:
+%s
+
+뇌관을 단 함정의 효과는 %+d%% 증가됩니다. (함정 숙련의 효과를 대체합니다) %d%% 확률로 은신을 해제하지 않습니다.
+#YELLOW#현재 뇌관 장착 함정: %s#LAST#]], "tformat")
+t("Springrazor Trap", "면도날 지뢰", "talent name")
+t("springrazor trap", "면도날 지뢰", "_t")
+t("Shrapnel (radius 2) deals %0.2f physical damage, reduces accuracy, armour, and defence by %d.", "파편으로 (반경 2) %0.2f 물리피해를 입힙니다, 정확도, 방어력, 회피도를 %d 만큼 줄입니다.", "tformat")
+t([[Lay a pressure triggered trap that explodes into a radius 2 wave of razor sharp wire, doing %0.2f physical damage. Those struck by the wire may be shredded, reducing accuracy, armor and defence by %d.
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[폭발시 반경 2칸을 날카로운 철사로 쓸어버리는 압력 발동식 함정을 설치합니다. %0.2f 물리 피해를 가하고 희생자는 철사로 인해 조각날것입니다. 정확도, 방어력, 회피도를 %d 만큼 줄입니다.
+		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
+t("Bear Trap", "곰 덫", "talent name")
+t("bear trap", "곰 덫", "_t")
+t("Deals %0.2f physical damage and pins, slows (30%%), and wounds for an additional %0.2f damage over 5 turns).", "%0.2f 물리 피해를 입히고 속박, 감속 (30%%), 그리고 5턴간 %0.2f의 추가 피해를 입힙니다).", "tformat")
+t("Lay a pressure triggered bear trap that snaps onto the first creature passing over it.  Victims are dealt %0.2f physical damage and become snared (pinned and slowed 30%%) and wounded for %0.2f bleeding damage over 5 turns.  Creatures that avoid being snared still suffer bleeding damage.%s", "압력 발동식 곰 덫을 설치해 함정을 지나가는 첫번째 적을 공격합니다. 희생자는 %0.2f 물리 피해를 입고 속박과 감속을 (30%%) 적용하고 %0.2f 출혈 피해를 5턴에 걸쳐 입힙니다. 대상이 속박과 감속에 저항했다해도 여전히 출혈 피해는 적용됩니다.%s", "tformat")
+t("Disarming Trap", "무장해제 함정", "talent name")
+t("disarming trap", "무장해제 함정", "_t")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("Deals %0.2f acid damage, disarms for %d turns.", "%0.2f 산성 피해를 입하고 %d 턴 동안 무장을 해제합니다.", "tformat")
+t("Lay a tricky trap that maims creatures passing by with acid doing %0.2f damage and disarming them for %d turns.", "지나가는 이를 불구로 만드는 교묘한 함정을 설치합니다. %0.2f 산성피해를 입히고 %d 턴 동안 무장 해제 합니다.", "tformat")
+t("Pitfall Trap", "구덩이 함정", "talent name")
+t("pitfall trap", "구덩이 함정", "_t")
+t("%s disappears into a collapsing pit!", "%s 구덩이 함정 속으로 사라졌다!", "logSeen", nil, {"가"})
+t("%s is partially buried in a collapsing pit!", "%s 부분적으로 구덩이 속에 묻혔다!", "logSeen", nil, {"가"})
+t("%s avoids a collapsing pit!", "%s 무너지는 구덩이에 빠지지 않았다!", "logSeen", nil, {"가"})
+t("Something has prevented the pit.", "뭔가 구덩이를 막고있다.", "logPlayer")
+t("pit", "구덩이", "_t")
+t("%s emerges from a collapsed pit.", "%s 구덩이에서 나왔다.", "logSeen", {"가"})
+t("Deals %0.2f physical damage.  Target removed from combat or pinned 5 turns.", "%0.2f 물리 피해를 줍니다. 대상은 전투에서 이탈하거나 5턴동안 속박됩니다.", "tformat")
+t([[Lay a pressure triggered trap that collapses the ground under the target, dealing %0.2f physical damage while burying them (removing from combat) for 5 turns.
+Victims may resist being buried, in which case they are pinned (ignores 50%% pin immunity) instead.]], [[대상이 딛고 선 지면을 무너뜨리는 압력 발동식 함정을 설치합니다. 적이 구덩이에 빠져있는 5 턴 동안 (전투에서 이탈합니다) %0.2f 물리피해를 입힙니다.
+희생자는 구덩이에 파묻히는 것을 저항할 수 있습니다. 그럴 경우 속박을 부여합니다. (50%% 의 속박 저항을 무시합니다)]], "tformat")
+t("Flash Bang Trap", "섬광탄 함정", "talent name")
+t("flash bang trap", "섬광탄 함정", "_t")
+t("Explodes (radius 2) for %0.2f physical damage, 50%% blind/daze for %d turns.", "폭발하여 (반경 2 칸) %0.2f 물리 피해를 입, 50%% 확률로 %d 동안 지속되는 실명/혼절을 겁니다.", "tformat")
+t([[Lay a trap that explodes in a radius of 2, dealing %0.2f physical damage and blinding and dazing (50%% chance of each) any creature caught inside for %d turns.
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[반경 2 칸의 폭발을 일으키는 함정을 설치합니다. %0.2f 물리 피해와 %d 동안 지속되는 실명/혼절을 (각각 50%%의 성공률을 갖습니다.) 범위내의 대상에게 겁니다.
+		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
+t("Bladestorm Trap", "칼날 폭풍 함정", "talent name")
+t("bladestorm trap", "칼날 폭풍 함정", "_t")
+t("Construct attacks all adjacent enemies each turn for %d turns.", "이 구조물은 %d 턴 동안 인접한 모든 적을 매 턴 공격합니다.", "tformat")
+t("Lay a trap that activates a lethal contraption of whirling blades, lasting %d turns.  This stationary construct is very durable, receives your damage bonuses, and automatically attacks all adjacent enemies each turn.", "소용돌이 치는 칼날의 죽음의 기계장치를 설치합니다. %d 턴동안 지속되는 이 구조물은 매우 견고합니다. 매 턴 인접한 모든 적을 공격합니다. 당신의 피해 증가량을 적용받습니다.", "tformat")
+t("Beam Trap", "광선 함정", "talent name")
+t("beam trap", "광선 함정", "_t")
+t("Fires a beam (range 5) at a foe each turn for %0.2f arcane damage.  Lasts %d turns.", "사거리 5의 광선을 발사하여 적에게 턴 당 %0.2f 비전 피해를 입힙니다. %d 턴 동안 지속됩니다.", "tformat")
+t([[Lay a magical trap that fires a beam of arcane energy at a random foe (within range 5) each turn for %d turns, inflicting %0.2f arcane damage.
+This trap requires 20 Magic to prepare and does not refund stamina when it expires.
+#YELLOW#Activates immediately when placed.#LAST#]], [[반경 5칸 이내의 무작위 적을 %d 턴 동안 매 턴 광선으로 공격하는 마법 함정을 설치합니다. %0.2f 비전 피해를 가합니다.
+이 함정을 준비하는데에는 20 마법 능력치가 필요합니다. 지속이 끝나도 체력을 되돌려받지 않습니다.
+#YELLOW#이 함정은 설치되자마자 작동합니다.#LAST#]], "tformat")
+t("Poison Gas Trap", "독가스 함정", "talent name")
+t("You have learned how to create Poison Gas traps!", "당신은 독가스 함정을 만드는 법을 배웠다!", "_t")
+t("poison gas trap", "독가스 함정", "_t")
+t([[Lay a trap that releases a radius 3 cloud of thick poisonous gas lasting 4 turns.
+		Each turn, the cloud poisons all within (%0.2f nature damage over 5 turns).   There is a 25%% chance the poison is enhanced with crippling, numbing or insidious effects.
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[4 턴동안 반경 3칸 내에 짙은 독가스를 살포하는 함정을 설치합니다.
+		매 턴 독가스는 범위 내의 모든 적에게 %0.2f 의 피해를 5 턴동안 나눠서 입히는 독을 겁니다. 25%% 확률로 방해성, 마비성, 은밀한 독 효과로 강화됩니다.
+		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
+t("Freezing Trap", "동결 함정", "talent name")
+t("freezing trap", "동결 함정", "_t")
+t([[Lay a trap that explodes into a radius 2 cloud of freezing vapour when triggered.  Foes take %0.2f cold damage and are pinned for 3 turns.
+		The freezing vapour persists for 5 turns, dealing %0.2f cold damage each turn to foes with a 25%% chance to freeze.
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[반경 2칸 내에 냉기 구름을 퍼뜨리는 폭발 함정을 설치합니다. 적은 %0.2f 냉기 피해를 입고 3턴 동안 속박됩니다.
+		냉기 구름은 5 턴동안 지속됩니다. %0.2f 냉기 피해를 매 턴 적에게 입히고 25%% 확률로 얼려버립니다.
+		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
+t("Dragonsfire Trap", "용의 화염 함정", "talent name")
+t("dragonsfire trap", "용의 화염 함정 trap", "_t")
+t("Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "반경 2칸의 폭발: 적을 기절 시키고 적을 불태워 %0.2f 화염 피해를 3턴 동안 줍니다. 5 턴 동안 지역을 불사릅니다. (%0.2f 화염피해).", "tformat")
+t([[Lay a pressure triggered trap that explodes in a radius 2 cloud of searing flames when triggered, stunning foes with the blast (%0.2f fire damage per turn) for 3 turns.
+		The deflagration persists in the area for 5 turns, burning foes for %0.2f fire damage each turn.
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[반경 2칸 내에 화염 구름을 생성하는 압력 발동식 폭발 함정을 설치합니다. 기절과 함께 턴마다 %0.2f 화염피해를 줍니다.
+		지역을 5 턴동안 불사르고 적애게 %0.2f 화염 피해를 매 턴 입힙니다.
+		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
+t("Gravitic Trap", "중력 함정", "talent name")
+t("@Source@ deploys a warped device.", "@Source1@ 뒤틀린 장치를 설치한다.", "_t")
+t("gravitic trap", "중력 함정", "_t")
+t("#LIGHT_STEEL_BLUE#%s distorts time and space!", "#LIGHT_STEEL_BLUE#%s 시공간을 비튼다!", "logSeen", nil, {"가"})
+t("#LIGHT_STEEL_BLUE##Target# pulls #Source# in!", "#LIGHT_STEEL_BLUE##Source1# #Target3# 끌어당겼다!", "logCombat")
+t("#LIGHT_STEEL_BLUE##Source# resists the pull of #Target#!", "#LIGHT_STEEL_BLUE##Source2# #Target#의 인력에 저항했다!", "logCombat")
+t("Creates a radius 5 gravitic anomaly lasting up to %d turns.  Hostile creatures are dealt %d temporal damgae and pulled in.  Triggers out to range 1.", "%d 턴동안 지속되는 5칸 반경의 중력 이상현상을 일으킵니다. 적은 %d 시간 피해를 입으며 안으로 끌어당겨집니다. 적이 주위 한 칸 내에만 있어도 발동합니다.", "tformat")
+t([[Lay a trap that creates a radius 5 gravitic anomaly when triggered by foes approaching within range 1.  Each turn, the anomaly deals %0.2f temporal damage (based on your Magic) to foes whle pulling them towards its center (chance increases with your combat accuracy or spell power, whichever is higher).
+		Each anomaly lasts %d turns (up to the amount of time since the last anomaly dissipated, based on your Trap Mastery skill).
+		The trap may trigger more than once, but requires at least 2 turns to recharge between activations.
+This design does not require advanced preparation to use.]], [[발동 시 반경 5 칸의 중력 이상 현상을 일으키는 함정을 설치합니다. 적이 주위 1칸 이내에만 있어도 발동합니다. 매 턴 이상 현상은 %0.2f 시간 피해를 입히고 (마법 능력치에 비례해 증가합니다) 적을 증심으로 끌어당깁니다. (확률은 정확도와 주문력중 더 높은 것에 비례합니다)
+		각각의 이상 현상은 %d 턴 동안 지속됩니다. (전에 발생한 중력 이상 현상에 따라 변동됩니다. 또 함정 숙련 기술에 영향을 받습니다)
+		함정은 한 번 이상 발동할 수 있지만, 한 함정이 발동 되고 나서 2턴 뒤에 다른 함정이 발동됩니다.
+이 함정은 사용하는 데엔 준비가 필요하지 않습니다.]], "tformat")
+t("Ambush Trap", "기습 함정", "talent name")
+t("You have learned how to create Ambush traps!", "당신은 기습 함정을 만드는 법을 배웠다!", "_t")
+t("ambush trap", "기습 함정", "_t")
+t("3 stealthed rogues attack the target for %d turns.", "3 명의 은신한 불한당이 %d 턴 동안 적을 공격합니다.", "tformat")
+t([[Lay a magical trap that summons a trio of shadowy rogues to attack the target.
+The rogues receive your damage bonuses and are permanently stealthed.
+They disappear after %d turns or when their work is done.]], [[대상을 공격하는 그림자 불한당 셋을 소환하는 마법 함정을 설치합니다.
+이 불한당들은 당신의 피해 증가량을 적용받습니다. 불한당들은 항구적인 은신상태입니다.
+%d 턴이 지나거나 일이 마무리 지어지면, 불한당들은 사라집니다 .]], "tformat")
+t("Purging Trap", "정화 함정", "talent name")
+t("purging trap", "정화 함정", "_t")
+t("Radius 2 antimagic: Drains up to %d mana, %d vim, %d positive/negative, deals up to %0.2f arcane damage.  Removes %d magical effects and silences for %d turns.", "반경 2 칸의 반 마법장 : 최대 %d 마나, %d 원기, %d 양기/음기를 흡수하고 최대 %0.2f 비전 피해를 입힙니다.  %d 개의 마법 효과를 제거하고 %d 턴 동안 침묵 시킵니다.", "tformat")
+t([[Lay a trap that releases a burst of antimagic energies (radius 2), draining up to %d mana, %d vim, %d positive and %d negative energies from affected targets, while inflicting up to %0.2f arcane damage based on the resources drained, silencing for %d turns, and removing up to %d beneficial magical effects or sustains.
+		The draining effect scales with your Willpower, and you must have 25 Willpower to prepare this trap.
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[2 칸 반경에 반마법 에너지를 터뜨리는 함정을 설치합니다. 효과를 받는 대상의 %d 마나, %d 원기, %d 양기/음기를 흡수하고 원천력 흡수에 비례한 %0.2f 비전 피해를 입힙니다. 적을 %d 턴동안 침묵시키며, 최대 %d 개의 이로운 마법적 효과나 유지기를 제거합니다.
+		원천력 릅수 효과는 당신의 의지 능력치에 비례하여 증가합니다. 이 함정을 설치하기 위해서는 25 이상의 의지 능력치가 필요합니다.
+		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
+t("Explosion Trap", "폭발 함정", "talent name")
+t("You have learned how to create Explosion traps!", "당신은 폭발 함정을 만드는 법을 배웠다!", "_t")
+t("explosion trap", "폭발 함정", "_t")
+t("Explodes (radius 2) for %0.2f fire damage over 3 turns.", "반경 2칸의 폭발을 일으켜 %0.2f 화염 피해를 3턴에 걸쳐 입힙니다.", "tformat")
+t("\
+#YELLOW#Triggers immediately when placed.#LAST#", "\
+#YELLOW#설치 즉시 발동한다.#LAST#", "_t")
+t([[Lay a simple yet effective trap that explodes in a radius 2 on contact, setting those affected on fire for %0.2f fire damage over 3 turns.
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[접촉하면 반경 2칸의 폭발을 일으키는 단순하지만 효과적인 함정을 설치합니다. %0.2f 화염 피해를 3턴에 걸쳐 입힙니다.
+		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
+t("Catapult Trap", "투석 함정", "talent name")
+t("You have learned how to create Catapult traps!", "당신은 투석 함정을 만드는 법을 배웠다!", "_t")
+t("catapult trap", "투석 함정", "_t")
+t("Target knocked back up to %d grids%s and dazed.", "대상은 최대 %d 칸 밀려나며 %s 혼절합니다.", "tformat")
+t("%s knocks %s back!", "%s %s 뒤로 밀쳐냈다!", "logSeen", nil, {"가","를"})
+t("%s fails to knock %s back!", "%s %s 뒤로 밀쳐내는 데 실패했다!", "logSeen", nil, {"가","를"})
+t("#LIGHT_BLUE#Aim the catapult", "#LIGHT_BLUE#투석기가 조준한다", "logPlayer")
+t("Target knocked back %d grids and dazed.", "대상은 최대 %d 칸 밀려나며 혼절합니다.", "tformat")
+t([[Deploy a hidden spring-loaded catapult that will trigger (by pressure) for any creature passing over it.  Victims will be knocked back towards a target location up to %d grids away and be dazed for 5 turns.
+		This trap has a %d%% chance to reset itself after triggering, but can only trigger once per turn.
+		The chance to affect the target improves with your combat accuracy.]], [[숨겨진 용수철이 장착된 압력발동식 투석 함정으로 누군가가 지나가면 발동합니다.  희생양은 목표 지점 쪽으로 %d 칸 밀려나며,5 턴 동안 혼절합니다.
+		이 함정은 발동된 후 %d%% 확률로 스스로 재장전합니다. 하지만 한 턴에 한번만 발동 될 수 있습니다.
+		대상에게 효과를 줄 확률은 정확도에 비례합니다.]], "tformat")
+t("Nightshade Trap", "밤그림자 함정", "talent name")
+t("You have learned how to create Nightshade traps!", "당신은 밤그림자 함정을 만드는 법을 배웠다!", "_t")
+t("nightshade trap", "밤그림자 함정", "_t")
+t("Deals %0.1f nature damage, stuns and poisons for %0.1f nature/turn for 4 turns.", "%0.1f 자연 피해를 입히고, 기절을 겁니다. 적은 중독되어 4턴동안 %0.1f 자연피해를 매 턴 입힙니다.", "tformat")
+t("Lay a trap armed with potent venom.  A creature passing over it will be dealt %0.2f nature damage and be stunned and poisoned for %0.2f nature damage per turn for 4 turns.", "맹독을 장착한 함정을 설치합니다. 위를 지나가는 대상은 %0.2f 자연 피해를 받고 기절합니다. 적은 중독되어 4턴동안 %0.1f 자연피해를 매 턴 입힙니다.", "tformat")
 
 
 ------------------------------------------------
@@ -7128,6 +7338,7 @@ section "game/modules/tome/data/talents/gifts/venom-drake.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/horrors.lua"
 
+t("psionic", "초능력", "talent category")
 t("spell", "주문", "talent category")
 t("corruption", "타락", "talent category")
 t("other", "다른", "talent category")
@@ -7146,7 +7357,7 @@ t("Summon", "소환", "_t")
 section "game/modules/tome/data/talents/misc/misc.lua"
 
 t("base", "베이스", "talent category")
-t("The spell fizzles...", "주문이 쉬이익 소리만을 낸다...", "logPlayer")
+t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
 
 
 ------------------------------------------------
@@ -7154,6 +7365,7 @@ section "game/modules/tome/data/talents/misc/npcs.lua"
 
 t("spell", "주문", "talent category")
 t("corruption", "타락", "talent category")
+t("psionic", "초능력", "talent category")
 t("other", "다른", "_t")
 t("undead", "언데드", "talent category")
 t("Talents of the various entities of the world.", "세상의 여러 개체에 관한 기술들.", "_t")
@@ -7171,6 +7383,7 @@ t("You cannot do that currently.", "지금은 할 수 없습니다.", "logPlayer
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 t("something", "물체", "_t")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"는"})
+t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source2# #Target#의 염동력에 저항했다!", "logCombat")
 t("You cannot be stealthy with such heavy armour on!", "중갑을 장비한 채로는 은신할 수 없습니다!", "logPlayer")
 t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.", "logPlayer")
 t("#Source# slams #Target# into the ground!", "#Source1# #Target3# 지면에 처박았다!", "logCombat")
@@ -7216,7 +7429,7 @@ t([[Surround yourself with a shield that will absorb %d%% of any physical/acid/n
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
 		You can only have two of these shields active at once.]], [[시전자 주변을 보호막으로 둘러싸 물리/산성/자연/시간 속성 피해의 %d%% 를 막아냅니다. 한번에 %d 피해까지 막아낼 수 있습니다.
 		보호막이 피해를 흡수할 때마다, 공격의 일부를 염력으로 변환하여, 염력을 1 회복하며, %0.1f 피해를 흡수할 때마다 추가로 염력을 1 회복합니다, 한턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
-		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 3 턴동안 흡수한 피해량의 두배에 해당하는 강도를 가진 보호막을 생성합니다.
+		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴동안 흡수한 피해량의 두배에 해당하는 강도를 가진 보호막을 생성합니다.
 		보호막의 최대 피해 흡수량과 염력 회복 효율은 정신력의 비례하여 증가합니다.
 		보호막은 한번에 2개 까지만 유지할 수 있습니다.]], "tformat")
 t("Thermal Shield", "열역학 보호막", "talent name")
@@ -7226,9 +7439,10 @@ t([[Surround yourself with a shield that will absorb %d%% of any fire/cold/light
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
 		You can only have two of these shields active at once.]], [[시전자 주변을 보호막으로 둘러싸 화염/냉기/빛/비전 속성 피해의 %d%% 를 막아냅니다. 한번에 %d 피해까지 막아낼 수 있습니다.
 		보호막이 피해를 흡수할 때마다, 공격의 일부를 염력으로 변환하여, 염력을 1 회복하며, %0.1f 피해를 흡수할 때마다 추가로 염력을 1 회복합니다, 한턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
-		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 3 턴동안 흡수한 피해량의 두배에 해당하는 강도를 가진 보호막을 생성합니다.
-		보호막의 최대 피해 흡수량과 염력 회복 효율은 정신력의 비례하여 증가합니다.]], "tformat")
-t("Charged Shield", "전하 보호막", "talent name")
+		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴동안 흡수한 피해량의 두배에 해당하는 강도를 가진 보호막을 생성합니다.
+		보호막의 최대 피해 흡수량과 염력 회복 효율은 정신력의 비례하여 증가합니다.
+		보호막은 한번에 2개 까지만 유지할 수 있습니다.]], "tformat")
+t("Charged Shield", "전기역학 보호막", "talent name")
 t("You may only sustain two shields at once. Shield activation cancelled.", "당신은 최대 두개의 보호막만 유지할 수 있다. 보호막 활성화가 실패했다.", "logSeen")
 t([[Surround yourself with a shield that will absorb %d%% of any lightning/blight/darkness/mind attack, up to a maximum of %d damage per attack.
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
@@ -7236,8 +7450,9 @@ t([[Surround yourself with a shield that will absorb %d%% of any lightning/bligh
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
 		You can only have two of these shields active at once.]], [[시전자 주변을 보호막으로 둘러싸 전기/황폐/암흑/정신 속성 피해의 %d%% 를 막아냅니다. 한번에 %d 피해까지 막아낼 수 있습니다.
 		보호막이 피해를 흡수할 때마다, 공격의 일부를 염력으로 변환하여, 염력을 1 회복하며, %0.1f 피해를 흡수할 때마다 추가로 염력을 1 회복합니다, 한턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
-		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 3 턴동안 흡수한 피해량의 두배에 해당하는 강도를 가진 보호막을 생성합니다.
-		보호막의 최대 피해 흡수량과 염력 회복 효율은 정신력의 비례하여 증가합니다.]], "tformat")
+		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴동안 흡수한 피해량의 두배에 해당하는 강도를 가진 보호막을 생성합니다.
+		보호막의 최대 피해 흡수량과 염력 회복 효율은 정신력의 비례하여 증가합니다.
+		보호막은 한번에 2개 까지만 유지할 수 있습니다.]], "tformat")
 t("Forcefield", "역장", "talent name")
 t([[Surround yourself with a forcefield, reducing all incoming damage by %d%%.
 		Such a shield is very expensive to maintain, draining 5%% of your maximum psi per turn initially plus an addition 5%% for each turn it has been maintained. For example, on turn 2 it will drain 10%%.
@@ -7296,15 +7511,15 @@ t([[Focus thermal energy and strike an enemy for %d%% weapon damage as cold.
 		냉기 폭발이 대상을 에워싸, 추가로 %0.1f 냉기 피해를 입히고 %d 턴 동안 빙결 시킵니다.
 		이 공격이 속박된 적을 빙결시킬 경우 얼음덩어리가 솟아나 대상과 시전자를 둘러싸는 얼음벽이 3턴동안 생성됩니다.
 		냉기 폭발 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
-t("Charged Strike", "전하 강타", "talent name")
-t("You cannot do that without a weapon in your hands.", " 손에 무기를 들고 있지 않으면 사용할 수 없다.", "logPlayer")
+t("Charged Strike", "전기역학 강타", "talent name")
+t("You cannot do that without a weapon in your hands.", "근접무기없이는 불가능하다.", "logPlayer")
 t([[Focus charged energy and strike an enemy for %d%% weapon damage as lightning.
 		Energy will then discharge from your weapon, doing an extra %0.2f lightning damage and halving their stun/daze/freeze/pin resistance for %d turns.
 		If the target is pinned and Charged Shield is sustained, its absorb value will be increased by %0.2f.
 		If the target is frozen, the ice will melt in a flash of vapour, knocking back all creatures around it in radius 2.
-		The discharge damage will scale with your Mindpower.]], [[전하적 에너지를 집중시켜, 적에게 %d%% 무기 피해를 전기 속성으로 입힙니다.
+		The discharge damage will scale with your Mindpower.]], [[전기역학적 에너지를 집중시켜, 적에게 %d%% 무기 피해를 전기 속성으로 입힙니다.
 		에너지가 무기에서 방전되어, %0.2f 전기 피해를 추가로 입히고 %d 턴 동안 기절/혼절/빙결/속박 면역력을 절반으로 감소시킵니다.
-		대상이 속박되어 있고, 당신의 전하 보호막이 유지중일 경우, 보호막의 피해 흡수량이 %0.2f 만큼 증가합니다.
+		대상이 속박되어 있고, 당신의 전기 =역학 보호막이 유지중일 경우, 보호막의 피해 흡수량이 %0.2f 만큼 증가합니다.
 		상대가 이미 빙결되어 있다면, 증기의 섬광으로  얼음 덩어리를 녹이고, 반경 2칸 내의 모든 개체를 밀어냅니다.
 		방전 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Wrap a psionic energy field around your weapons, increasing their armour penentration by %d and allowing you to siphon excess energy from each weapon hit you land, gaining %0.1f psi per hit.", "무기를 염동력 역장으로 감싸, 방어도 관통력을 %d 만큼 증가시키고 무기에서 발생하는 과잉 에너지를 흡수하여 타격 당 %0.1f 염력을 획득합니다.", "tformat")
@@ -7313,146 +7528,908 @@ t("Wrap a psionic energy field around your weapons, increasing their armour pene
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/charged-mastery.lua"
 
+t("Transcendent Electrokinesis", "초월 - 전기역학", "talent name")
+t([[For %d turns your electrokinesis transcends your normal limits, increasing your Lightning damage by %d%% and your Lightning resistance penetration by %d%%.
+		In addition:
+		The cooldowns of Charged Shield, Charged Leech, Charged Aura, Charged Strike and Brainstorm are reset.
+		Charged Aura effects will have their radius increased by 1.
+		Your Charged Shield will have 100%% absorption efficiency and will absorb twice the normal amount of damage.
+		Brainstorm will also inflict blindness.
+		Charge Leech will also inflict confusion (%d%% effect).
+		Charged Strike will have its secondary lightning burst chain to up to 3 targets in a radius of 3.
+		The damage bonus and resistance penetration scale with your Mindpower.
+		Only one Transcendent talent may be in effect at a time.]], [[%d 턴 동안, 한계를 뛰어넘은 초월적인 전기역학 염동력을 휘두룹니다. 전기 피해량을 %d%% 만큼, 전기 저항 관통을 %d%% 만큼 증가시킵니다.
+		추가 효과 :
+		전기역학 보호막, 전기역학 흡수, 전기역학 아우라, 전기역학 강타, 뇌파 폭풍의 재사용 대기 시간이 0이 됩니다.
+		전기역학 아우라의 범위는 1칸 늘어납니다.
+		전기역학 보호막은 100%% 의 흡수 효율을 얻으며 평상시 흡수량의 2배의 피해를 흡수합니다.
+		뇌파 폭풍에 실명 효과가 적용됩니다.
+		전기역학 흡수에 혼란 효과가 적용됩니다 (%d%% 위력).
+		전기역학 강타에 반경 3칸 이내의 3 대상에게 연쇄하는 부가적인 전기 폭발이 일어납니다.
+		전기 피해 상승량과 전기 저항 관통치는 정신력에 비례하여 증가합니다.
+		한번에 단 하나의 '초월' 기술만을 사용할 수 있습니다.]], "tformat")
+t("Thought Sense", "사고 감지", "talent name")
+t([[Detect the mental activity of creatures in a radius of %d for %d turns.
+		This reveals their location and boosts your defense by %d.
+		The defense scales with you Mindpower and the range with your Willpower.]], [[주변 %d 칸 반경에 있는 적들의 정신 활동을 %d 턴 동안 감지합니다.
+		이를 통해 적들의 위치를 감지하며, 시전자의 회피도가 %d 상승합니다.
+		회피도 상승량은 정신력에 비례하여 증가하고 감지 반경에 비례하여 증가합니다.]], "tformat")
+t("Static Net", "정전기 망", "talent name")
+t([[Cast a net of static electricity in a radius of %d for %d turns.
+		Enemies standing in the net will take %0.1f Lightning damage and be slowed by %d%%.
+		When you move through the net, a static charge will accumulate on your weapon which will add %0.1f additional Lightning damage to your next attack for each turn you spend within its area.
+		These effects scale with your Mindpower.]], [[%d 칸 반경에 %d 턴 동안 유지되는 정전기 망을 설치합니다.
+		정전기 망 안에 있는 적은 %0.1f 전기 피해를 입고 %d%% 감속됩니다.
+		당신이 망 위를 걸을 떄, 정전하가 무기에 충전되어 다음 공격에 %0.1f 만큼의 추가 전기 피해를 입힙니다. 이 효과는 당신이 망 안에서 시간을 보낼 때마다 축적됩니다.
+		효과는 정신력에 비례하여 증가합니다.]], "tformat")
+t("Heartstart", "심소생", "talent name")
+t([[Store an electric charge for saving your life at a later time.
+		If you are reduced to less than zero life while this is active, it will deactivate, cure you of all stun/daze/freeze effects and allow you to survive with up to %d negative health for %d turns.
+		The negative health limit scales with your Mindpower and maxium life.]], [[스스로의 생명을 구하기 위해 전하를 미리 충전합니다.
+		기술이 유지되는 동안 생명력이 0 이하로 떨어질 경우, 기술은 비활성화되고 모든 기절/혼절/빙결 상태효과를 해제시킵니다. 그리고 생명력이 최대 -%d 일 때 까지 %d 턴 간 생존할 수 있게됩니다.
+		최저 생명력 한계수치는 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/discharge.lua"
 
+t("Mind Storm", "정신 폭풍", "talent name")
+t([[Unleash your subconscious on the world around you.  While active, you fire up to %d bolts each turn (one per hostile target) that deal %0.2f mind damage.  Each bolt consumes 5 Feedback.
+		Feedback gains beyond your maximum allowed amount may generate extra bolts (one bolt per %d excess Feedback per target), but no more than %d extra bolts per turn. 
+		This effect is a psionic channel, increasing the range of Mind Sear, Psychic Lobotomy, and Sunder Mind to 10 but will break if you move.
+		The damage will scale with your Mindpower.]], [[당신을 둘러싼 현실 세계에 잠재의식을 해방시킵니다. 기술이 활성화 된 상태에서는, 매 턴 최대 %d 개의 정신력으로 이루어진 화살을 발사하여 %0.2f 정신 피해를 줍니다. 화살은 적 1 명 당 1 개로 제한됩니다.  화살 1 개 당 반작용이 5 소모 됩니다.
+		최대 반작용 이상의 반작용을 얻으면, 화살이 추가로 발사됩니다 (%d 의 초과 반작용 수치마다 하나의 대상에게 발사하는 화살이 1개 증가 합니다), 초과 피드백으로 얻는 화살은 수는 한 턴에 %d 개를 넘을 수 없습니다. 
+		이 기술은 초능력 집중으로, 정신 파괴, Psychic Lobotomy, 정신 붕괴의 범위를 10으로 늘리지만 당신이 이동할 시, 효과는 즉시 종료됩니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Feedback Loop", "반작용 순환", "talent name")
+t("You have no feedback to start a feedback loop!", "당신은 반작용 순환을 시작하는 데 필요한 반작용이 부족하다!", "logPlayer")
+t([[Activate to invert your Feedback decay for %d turns.  This effect can be a critical hit, increasing the duration even further.
+		You must have some Feedback in order to start the loop.
+		The maximum Feedback gain will scale with your Mindpower.]], [[매 턴마다 일어나는 반발력 소모를 %d턴 동안 역전시킵니다. 이 효과에는 치명타가 적용되며, 치명타시 지속시간이 더 길어집니다.
+		반작용 순환을 하기 위해서는 충분한 반작용을 갖고 있어야합니다.
+		최대 반작용 획득량은 정신력에 비례하여 증가합니다.]], "tformat")
+t([[Your subconscious now retaliates when you take damage.  If the attacker is within range (%d), you'll inflict mind damage equal to the Feedback gained from the attack or %0.2f, whichever is lower.
+		This effect can only happen once per creature per turn.
+		The damage will scale with your Mindpower.]], [[이제 당신의 잠재의식은 적의 공격에 즉각적으로 보복합니다.  반경 %d 칸 이내의 공격자에게, 피격으로 획득한 반작용과 같은 수치의 정신 피해나 %0.2f 정신 피해 중에 낮은 것을 적용하여 피해를 입힙니다.
+		이 효과는 한 턴에 한 개체당 한 번씩 발동됩니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Focused Wrath", "집중된 분노", "talent name")
+t([[Focus your mind on a single target, diverting all offensive Discharge talent effects to it for %d turns.  While this effect is active, all Discharge talents gain %d%% critical power and you ignore %d%% mind resistance of your targets.
+		If the target is killed, the effect will end early.
+		The damage bonus will scale with your Mindpower.]], [[하나의 대상에게 정신을 집중하여, 모든 방출 계열 기술이 %d 턴 동안 그 대상만을 향하게 만듭니다. 이 효과가 적용되는 동안, 모든 방출 계열 기술의 치명타 위력이 %d%% 증가하고 대상의 정신 피해저항을 %d%% 무시합니다.
+		대상이 사망하면 효과가 끝납니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/distortion.lua"
 
+t("Distortion Bolt", "왜곡 화살", "talent name")
+t([[Fire a bolt of distortion that ignores resistance and inflicts %0.2f physical damage.  This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
+		If the bolt comes in contact with a target that's already distorted, a detonation will occur, inflicting 150%% of the base damage in a radius of %d.
+		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
+		At talent level 5, you learn to shape your distortion effects, preventing them from hitting you or your allies.
+		The damage will scale with your Mindpower.]], [[왜곡 화살을 발사하여, 저항을 무시하고 %0.2f 물리 피해를 줍니다.  이 피해는 대상에게 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소 시키고 2턴동안 다른 왜곡 효과에 취약하게 만듭니다.
+		왜곡 화살이 이미 왜곡의 영향을 받는 적에 접촉할 경우, 폭발이 일어나 반경 %d 칸 내에 기본 피해량의 150%% 에 달하는 피해를 줍니다.
+		이 기술에 기술 점수를 투자할 때마다, 모든 왜곡 효과의 물리 저항력 감소 효과가 상승하게 됩니다.
+		기술 레벨이 5 이상이면, 왜곡의 형태를 조절하여 자신과 아군은 폭발에 휘말리지 않게 됩니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Distortion Wave", "왜곡 파동", "talent name")
+t([[Creates a distortion wave in a radius %d cone that deals %0.2f physical damage and knocks back targets in the blast radius.
+		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
+		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
+		If the target is already distorted, they'll be stunned for %d turns as well.
+		The damage will scale with your Mindpower.]], [[반경 %d 칸의 원뿔 범위에 왜곡 파동을 만들어 내 %0.2f 물리 피해를 주고 적들을 뒤로 밀어냅니다.
+		이 피해는 대상에게 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소 시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
+		이 기술에 기술 점수를 투자할 때마다, 모든 왜곡 효과의 물리 저항력 감소 효과가 상승하게 됩니다.
+		대상이 이미 왜곡의 영향을 받는 경우, %d 턴 동안 기절합니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Ravage", "대파괴", "talent name")
+t([[Ravages the target with distortion, inflicting %0.2f physical damage each turn for %d turns.
+		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
+		If the target is already distorted when Ravage is applied, the damage will be increased by 50%% and the target will lose one beneficial physical effect or sustain each turn.
+		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
+		The damage will scale with your Mindpower.]], [[왜곡의 힘으로 대상을 파괴합니다. %0.2f 물리 피해를 매 턴 입힙니다. 효과는 %d turns 동안 지속됩니다.
+		이 피해는 대상에게 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소 시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
+		대파괴가 이미 왜곡의 영향을 받는 적에 적용될` 경우, 피해량이 50%% 증가하고 대상은 매 턴 이로운 물리적 효과나 유지기를 하나 잃게 됩니다.
+		이 기술에 기술 점수를 투자할 때마다, 모든 왜곡 효과의 물리 저항력 감소 효과가 상승하게 됩니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Maelstrom", "염동력 소용돌이", "talent name")
+t("%s's maelstrom", "%s'의 소용돌이", "tformat")
 t("#Source# pulls #Target# in!", "#Source1# #Target3# 끌어당겼다!", "logCombat")
+t([[Create a powerful maelstorm for %d turns.  Each turn, the maelstrom will pull in targets within a radius of %d, and inflict %0.2f physical damage.
+		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
+		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
+		The damage will scale with your Mindpower.]], [[%d 턴 동안 지속되는 강력한 염력의 소용돌이를 생성합니다.  매 턴마다 소용돌이는 반경 %d 칸 내의 적들을 끌어당기며, %0.2f 물리 피해를 가합니다
+		이 피해는 대상에게 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소 시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
+		이 기술에 기술 점수를 투자할 때마다, 모든 왜곡 효과의 물리 저항력 감소 효과가 상승하게 됩니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/dream-forge.lua"
 
+t("Forge Shield", "방패 벼림", "talent name")
+t("#ORANGE#%s forges a dream shield to block the attack!", "#ORANGE#%s 공격을 막기위해 방패를 벼려낸다!", "logSeen", nil, {"가"})
+t("#ORANGE#%s's dream shield has been strengthened by the attack!", "#ORANGE#%s의 꿈의 방패가 공격에 의해 재련된다!", "logSeen")
+t([[When an attack would deal 15%% or more of your effective total health, you forge the Dream Shield to protect yourself, reducing the damage of all attacks of that type by %0.2f for the next %d turn(s).
+		You may block multiple damage types at one time, but the base damage threshold increases by 15%% per damage type the shield is already blocking.
+		If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (a normal melee or ranged attack will instead deal 200%% damage) for one turn.
+		At talent level 5, the block effect will last two turns.
+		This damage reduction scales with your Mindpower.]], [[최대 생명력의 15%%에 해당하는 피해를 한 번에 받을 때, 꿈의 방패를 버려내 스스로를 보호합니다. 다음 %d 턴 동안 기술을 발동시킨 속성의 피해를 %0.2f 만큼 덜 받게 됩니다.
+		한번에 여러 속성의 공격을 막아낼 수 있지만, 추가 속성 마다 발동에 필요한 생명력 감소량이 15%% 증가합니다.
+		꿈의 방패로 공격을 완전히 막아내면, 1 턴 동안 공격자가 치명적인 반격에 취약해지게 됩니다 (근접공격이나 활, 투석구를 사용한 원거리 공격의 피해량이 2 배로 증폭됩니다)
+		기술 레벨이 5 일때, 방패는 2 턴 동안 지속됩니다.
+		피해감소량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Forge Bellows", "대장간의 풀무", "talent name")
+t("%s's forge barrier", "%s의 벼려낸 장벽", "tformat")
+t("a summoned wall of mental energy", "정신 에너지로 구체화된 벽", "_t")
+t([[Release the bellows of the forge upon your surroundings, inflicting %0.2f mind damage, %0.2f burning damage, and knocking back your enemies in a radius %d cone.
+		Empty terrain may be changed (50%% chance) for %d turns into forge walls, which block movement and inflict %0.2f mind and %0.2f fire damage on nearby enemies.
+		The damage and knockback chance will scale with your Mindpower.]], [[꿈의 대장간의 풀무로 열기를 당신 주변에 해방시킵니다. 반경 %d 칸의 원뿔 범위 내의 적들에게 %0.2f 정신 피해와 %0.2f 화염 피해를 가하고 뒤로 밀어냅니다.
+		적이 없는 칸에 50%% 확률로 %d 턴 동안 지속되는 벽을 벼려냅니다. 이 벽은 이동을 막고 %0.2f 정신 피해와 %0.2f 화염 피해를 인접한 적에게 가합니다.
+		피해량과 밀어낼 확률은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Forge Armor", "갑옷 벼림", "talent name")
+t([[Your Forge Shield talent now increases your Armour by %d, your Defense by %d, and gives you %0.2f psi when you're hit by a melee or ranged attack.
+		The bonuses will scale with your Mindpower.]], [[당신의 방패 벼림 기술은 이제 방어력을 %d 증가기키고, 회피도를 %d 증가 시킵니다. 그리고 근접/원거리 공격에 피격 당할때마다 %0.2f 염력을 회복합니다.
+		이 효과는 정신력에 비례하여 증가합니다.]], "tformat")
+t("Dreamforge", "꿈의 대장간", "talent name")
+t("#GOLD#%s strikes the dreamforge!", "#GOLD#%s 꿈의 대장간을 두들긴다!", "logSeen", nil, {"는"})
+t("#GOLD#%s begins breaking dreams!", "#GOLD#%s 꿈을 파괴하기 시작한다!", "logSeen", nil, {"는"})
+t([[The pounding forge of thought in your mind is released upon your surroundings.  Each turn that you remain stationary, you'll strike the dreamforge, inflicting mind and burning damage on enemies around you.
+		The effect will build over five turns, until it reaches a maximum radius of %d, maximum mind damage of %0.2f, and maximum burning damage of %0.2f.
+		At this point you'll begin breaking the dreams of enemies who hear the forge, reducing their Mental Save by %d and giving them a %d%% chance of spell failure due to the tremendous echo in their minds for %d turns.
+		Broken Dreams has a %d%% chance to brainlock your enemies.
+		The damage and dream breaking effect will scale with your Mindpower.]], [[당신의 생각을 벼리던 정신의 대장간을 당신 주위로 해방시킵니다. 당신이 이동하지 않은 턴 마다 꿈의 대장간을 두들겨 , 근처의 적에게 정신 피해와 화염 피해를 입힙니다.
+		효과는 5 턴에 걸쳐 완성되며, 최대 반경인 %d 칸에 이르기 전까지, 최대 정신 피해 %0.2f 와 최대 화염 피해 %0.2f 를 가합니다.
+		효과가 완성되면, 효과 범위 내의 적들의 꿈을 파괴해, %d 턴 동안 정신 내성을 %d 감소시키고 %d%% 의 주문 실패 확률을 적용합니다..
+		부서진 꿈은 %d%% 확률로 당신의 적에게 사고정지를 겁니다.
+		피해량과 꿈 파괴 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/dream-smith.lua"
 
+t("Dream Smith's Hammer", "꿈 주조자의 망치", "talent name")
+t([[Craft a hammer from the dream forge and strike an adjacent foe, inflicting %d%% weapon damage. If the attack hits, it will bring one random Dream Smith talent off cooldown.
+		At talent level 5, you'll bring a second random talent off cooldown.
+		The base power, Accuracy, Armour penetration, and critical strike chance of the weapon will scale with your Mindpower.
+		
+		Current Dream Hammer Stats:
+		%s]], [[꿈의 대장간에서 망치를 만들어내어 인접한 적을 공격합니다. %d%% 무기 피해를 입히며, 공격이 명중하면 무작위한 꿈 주조자 기술의 재사용 대기시간이 초기화됩니다.
+		기술 레벨이 5 일때, 기술 두 개의 재사용 대기시간이 초기화됩니다
+		꿈의 망치의 기본 공격력, 정확도, 방어도 관통, 치명타율은 정신력에 비례하여 증가합니다.
+		
+		현재 꿈의 망치의 능력치 :
+		%s]], "tformat")
+t("Hammer Toss", "망치 던지기", "_t")
+t([[Throw your Dream Hammer at a distant location, inflicting %d%% weapon damage on all targets between you and it.  After reaching its destination, the Dream Hammer will return, potentially hitting targets a second time.
+		Learning this talent increases the Accuracy of your Dream Hammer by %d.]], [[꿈의 망치를 던져, 망치의 이동 경로에 있는 모든 적들에게 %d%% 무기 피해를 줍니다.  목표 지점까지 날아간 뒤에, 망치가 돌아오면서 적들을 한 번 더 공격할 수도 있습니다.
+		이 기술을 배우는 것은 꿈의 망치의 정확도를 %d 상승시킵니다.]], "tformat")
+t("Dream Crusher", "꿈 분쇄자", "talent name")
 t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", "logSeen", nil, {"가"})
+t([[Crush your enemy with your Dream Hammer, inflicting %d%% weapon damage.  If the attack hits, the target is stunned for %d turns.
+		Stun chance improves with your Mindpower.  Learning this talent increases your Physical Power for Dream Hammer damage calculations by %d and all damage with Dream Hammer attacks by %d%%.
+		]], [[꿈의 망치를 휘둘러, 적을 부숴버립니다. %d%% 무기 피해를 주고, 명중시 %d 턴 동안 적을 기절시킵니다.
+		기절 확률은 정신력에 비례하여 증가합니다. 이 기술을 배우는 것은 꿈의 망치의 공격력 계산에 적용되는 물리력을 %d 상승 꿈의 망치로 가하는 모든 피해량을 %d%% 증가시킵니다.
+		]], "tformat")
+t("Forge Echoes", "대장간의 메아리", "talent name")
+t([[Strike an adjacent target with a mighty blow from the forge, inflicting %d%% weapon damage.  If the attack hits, the echo of the attack will lash out at all enemies in a %d radius of the impact.
+		Learning this talent adds %0.2f mind damage and %0.2f burning damage to your Dream Hammer strikes.
+		The mind and fire damage will scale with your Mindpower.]], [[대장간에서 강력한 일격을 불러와 인접한 적을 공격합니다. %d%% 무기피해를 가하고, 공격이 적중하면 반경 %d 내에 메아리가 터져나와 적들을 타격합니다.
+		이 기술을 배우는 것은 꿈의 망치로 가하는 공격에 %0.2f 정신 피해와 %0.2f 화염 피해를 추가합니다.
+		정신 피해량과 화염 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/dreaming.lua"
 
+t("Sleep", "수면", "talent name")
+t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
+t([[Puts targets in a radius of %d to sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
+		When Sleep ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
+		At talent level 5 Sleep will become contagious and has a 25%% chance to spread to nearby targets each turn.
+		The damage threshold will scale with your Mindpower.]], [[반경 %d 칸 이내의 적들을 %d 턴 동안 재웁니다. 수면 중에는 행동이 불가능하며. 매 %d 피해를 받을 때마다 수면의 지속시간이 1 턴씩 줄어듭니다.
+		수면이 끝나면, 대상은 불면증 상태가 되며, (불면증의 지속기간은 잠들어있던 시간과 같습니다) 추가로 잠들었던 턴 당 %d%% 수면 면역을 얻게 됩니다. (최대 10턴으로 제한됩니다).
+		기술 레벨이 5 이상이면 수면이 전염성을 띄게 되어, 매 턴마다 25%% 확률로 잠든 대상 근처의 잠들지 않은 적을 자게합니다.
+		피해 한계량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Lucid Dreamer", "자각몽", "talent name")
+t([[Slip into a lucid dream.  While in this state, you are considered sleeping, but can still act, are immune to insomnia, inflict %d%% more damage to targets under the effects of Insomnia, and your Physical, Mental, and Spell saves are increased by %d.
+		Note that being asleep may make you more vulnerable to certain effects (such as Inner Demons, Night Terror, and Waking Nightmare).
+		The saving throw bonuses scale with your Mindpower.]], [[자각몽에 빠집니다.  이 상테동안 당신은 수면 중인것으로 여겨집니다. 하지만 여전히 움직일 수 있고, 불면증에도 면역입니다. 불면증 상태의 적에게 %d%% 더 증가된 피해를 입힙니다 당신의 물리, 주문, 정신 내성은 %d만큼 증가합니다.
+		하지만 수면 상태에서는 몇몇 효과에 취약해짐을 잊지마십시오. (내면의 악마, Night Terror, and Waking Nightmare 등).
+		내성 증가량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Dream Walk", "꿈 걸음", "talent name")
+t("You may only dream walk to an open space within your line of sight.", "당신은 오직 시야내의 개방된 위치에만 꿈 걸음을 쓸 수 있다.", "logPlayer")
+t("Your dream walk fails!", "꿈 걸음이 실패했다!", "logSeen")
+t([[You move through the dream world, reappearing at a nearby location.
+		If there is a sleeping creature at the target location, you'll appear as close to them as possible, otherwise, you'll appear within %d tiles of your intended destination.]], [[꿈속 세계를 통과하여, 인접한 지역에 다시 나타납니다`.
+		목표 지점에 잠든 개체가 존재할 경우, 당신은 가능한한 그 개체 가까이로 이동합니다. 그렇지 않을 경우에, 대상 지점에 최대 %d 칸 떨어진 장소로 이동합니다.]], "tformat")
+t("Dream Prison", "꿈의 감옥", "talent name")
+t([[Imprisons all sleeping targets within range in their dream state, effectively extending sleeping effects for as long as Dream Prison is maintainted.
+		This powerful effect constantly drains %0.2f%% of your maximum Psi (excluding this talent) per turn, and is considered a psionic channel; as such it will break if you move.
+		(Note that sleeping effects that happen each turn, such as Nightmare's damage and Sleep's contagion, will cease to function for the duration of the effect.)]], [[대상 지역내의 모든 잠자는 개체들을 꿈의 감옥으로 투옥시킵니다, 이는 사실상 수면 지속시간을 꿈의 감옥 지속시간으로 늘리는 것과 같습니다.
+		이 강력한 효과는 매 턴 당신의 최대 염동력의 %0.2f%% 를 흡수합니다 (이 기술로 감소된 양을 제외한 최대치입니다), 기술은 초능력 집중으로  당신이 이동할 경우, 효과는 즉시 해제됩니다.
+		(Note that sleeping effects that happen each turn, such as Nightmare's damage and Sleep's contagion, will cease to function for the duration of the effect.)]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/feedback.lua"
 
+t("Biofeedback", "생체 반작용", "talent name")
+t([[Your Feedback decay now heals you for %0.1f times the loss, and the decay rate is reduced to %d%% of the normal rate (up to %0.1f%% per turn).  As a result, you are healed for %0.2f%% of your feedback pool each turn.
+		The healing effect improves with your Willpower.]], [[턴당 반작용 소모가 %0.1f%% 효율로 생명력을 회복시킵니다, 또한 반작용 소모가 원래 소모량의 %d%% 만큼만 적용됩니다. (매 턴 %0.1f%% 까지).  결과적으로, 매 턴마다 반작용 총량의 %0.2f%% 만큼의 생명력을 회복합니다.
+		회복 효과는 정신력에 비례하여 증가합니다.]], "tformat")
+t("Resonance Field", "반향 역장", "talent name")
+t([[Activate to create a resonance field that will absorb 50%% of all damage you take (%d max absorption).  The field will not interfere with Feedback gain.
+		The max absorption value will scale with your Mindpower, and the effect lasts up to ten turns.]], [[반향 역장을 만들어, 받 피해의 50%% 를 흡수합니다. (최대 %d 피해까지 흡수 가능합니다) 역장이 활성화 되어있어도 반작용 수치 획득량은 줄어들지 않습니다.
+		최대 흡수 가능 수치는 정신력에 비례하여 증가하고 역장은 최대 10턴 동안 지속됩니다.]], "tformat")
+t("Amplification", "증폭", "talent name")
+t([[Increases your maximum Feedback by %d, and increases your base Feedback gain ratio to %d%%.
+		The Feedback gain will scale with your Mindpower.]], [[최대 반작용 수치를 %d 증가시키고, 반작용 획득 기본 비율을 %d%% 로 증가시킵니다.
+		반작용 획득량은 정신력에 비례하여 증가합니다.]], "tformat")
+t([[Increases your maximum Feedback by %d, and increases the Feedback you gain from damage by %0.1f%% (to %0.1f%% of damage received).
+		The Feedback gain will scale with your Mindpower.]], [[최대 반작용 수치를 %d 증가시키고, 피해로부터 받는 반작용이 %0.1f%% 증가합니다. (즉, 피해량의 %0.1f%% 만큼 획득합니다).
+		반작용 획득량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Conversion", "변환", "talent name")
+t([[Use Feedback to replenish yourself.  This heals you for %d life, and restores %d stamina, %d mana, %d equilibrium, %d vim, %d positive and negative energies, %d psi energy, and %d hate.
+		The heal and resource gain will improve with your Mindpower.]], [[반작용을 사용하여 다른 원천력을 회복합니다.  생명력이 %d / 체력이 %d / 마나가 %d / 평정이 %d / 원기가 %d / 양기와 음기가 %d / 염력이 %d / 증오가 %d 회복됩니다.
+		회복 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/finer-energy-manipulations.lua"
 
+t("Realign", "재조정", "talent name")
 t("%s is cured!", "%s 정화되었습니다!", "logSeen", nil, {"이"})
+t([[Realign and readjust your body with the power of your mind, curing up to %d detrimental physical effects and healing you for %d life.
+		The life healed increases with your Mindpower.]], [[정신의 힘으로 육체를 재조정하고 재구성합니다. %d 개의 부정적인 물리적 상태 이상을 치료하고 생명력을 %d 회복합니다.
+		회복량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Form and Function", "형태와 기능", "talent name")
+t([[Manipulate forces on the molecular level to realign, rebalance, and synergize equipment you wear to your form and function.
+		The accuracy and damage of any weapon will act as if it were %d higher. (Mindstars cannot be manipulated in this way because they are already in an ideal natural state.)
+		Your total armour will increase by %d and your fatigue will decrease by %d for each body armour and shield worn.
+		The effects increase with your Mindpower.]], [[분자단위의 조작능력으로 당신이 장착한 장비들을 당신의 의도에 맞게 형태와 기능을 재조정, 재구성하고 시너지 효과를 불어넣습니다.
+		어떤 형태의 무기든 정확도와 피해량이 %d 증가 됩니다. (하지만 마석은 이미 자연적으로 이상적인 상태이기에 조정이 불가능합니다)
+		당신이 장비한 방어구들과 방패의 방어력이 %d 만큼 증가하고 피로도는 %d 만큼 감소합니다.
+		이 효과는 정신력에 비례하여 증가합니다.]], "tformat")
+t("Matter is Energy", "에너지 추출", "talent name")
+t("Use which gem?", "어떤 보석을 사용할까?", "_t")
+t([[Matter is energy, as any good Mindslayer knows. Unfortunately, the various bonds and particles involved are just too numerous and complex to make the conversion feasible in most cases. The ordered, crystalline structure of a gem, however, make it possible to transform a small percentage of its matter into usable energy.
+		This talent consumes one gem and grants %d psi per turn for between 5 and 13 turns, depending on the quality of the gem used.
+		This process also creates a resonance field that provides the (imbued) effects of the gem to you while this effect lasts.]], [[능력있는 정신파괴자라면 들어봤을 "물질은 곧 에너지다" 라는 말이 있습니다. 불행히도, 대부분의 물체들은 너무나 복잡한 구성 방식을 가지고 있어서 에너지로 환원 할 수 없습니다. 반대로, 보석의 결정은 비교적 단순하여 보석의 총 질랑의 작은 양을 에너지로 환원할 수 있습니다.
+		이 기술은 보석을 하나 소모하여, 5 - 13 턴 동안 매 턴마다 %d 염력을 추가로 회복합니다. 회복량은 보석의 질에 따라 결정됩니다.
+		이 과정은 공명 역장을 형성해, 염력을 회복하는 동안 보석의 합성 효과를 제공합니다.]], "tformat")
+t("Resonant Focus", "공명 집중", "talent name")
+t([[By carefully synchronizing your mind to the resonant frequencies of your psionic focus, you strengthen its effects.
+		For conventional weapons, this increases the percentage of your willpower and cunning that is used in place of strength and dexterity for all weapon attacks, from 60%% to %d%%.
+		For mindstars, this increases the chance to pull enemies to you by +%d%%.
+		For gems, this increases the bonus stats by %d.]], [[당신의 정신과 초능력 공명파를 조심스럽게 동기화 해, 그 효과를 증폭시킵니다..
+		염동력으로 쥐고있는 무기는 무기 공격에 있어 힘과 민첩 능력치 대신 의지와 교활함의 비율을 강화시킵니다, (기존 60%% 에서 %d%%)
+		마석의 경우, 적을 끌어 당길 확률이 +%d%%만큼 상승합니다.
+		보석의 경우, 능력치가 %d 만큼 더 상승합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/focus.lua"
 
+t("Mindlash", "염력 채찍", "talent name")
+t([[Focus energies into a beam to lash all creatures in a line with physical force, doing %d Physical damage and knocking them off balance (-15%% damage penalty) for 2 turns.
+		The damage will scale with your Mindpower.]], [[에너지를 집중하여 직선내의 모든 적에게 물리 피해를 입히는 광선을 발사합니다. %d 물리 피해를 가하고 2턴간 균형을 잃음 을 적용시킵니다 (-15%% 의 모든 피해량 감소) for 2 turns.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Pyrokinesis", "염화", "talent name")
+t("Telekinetically energize the matter of all foes within %d squares at the molecular level, setting them ablaze. This does %0.1f fire damage over six turns.", "%d 의 사각혐 범위 내의 모든 적의 육신을 분자 단위에서 가열하여 불타오르게 만듭니다. %0.1f 화염 피해를 6턴에 걸쳐 나눠 받습니다.", "tformat")
+t("Brain Storm", "뇌파 폭풍", "talent name")
+t([[Mentally focus electricity into a ball of plasma and hurl it at the target.
+		The plasma will explode on impact, dealing %0.1f Lightning damage within radius %d.
+		This talent will apply cross tier Brainlock.
+		The damage will increase with your Mindpower.]], [[정신을 집중해 전하를 플라즈마 구체로 생성해 대상에게 던집니다.
+		대상이 플라즈마에 맞으면 폭발하여 반경 %d 칸 이내에 %0.1f 전기 피해를 가합니다.
+		이 기술은 압도 효과인 사고 정지를 상대에게 적용합니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Iron Will", "강철의 의지", "talent name")
+t("#ORCHID#%s has recovered!", "#ORCHID#%s 정신적 효과를 이겨냈다!", "logSeen", nil, {"이"})
+t("Your Iron Will improves your stun immunity by %d%% and gives you a %d%% chance of recovering from a random mental effect each turn.", "강철과도 같은 의지로 기절 면역력을 %d%% 상승시키며 매 턴마다 %d%% 확률로 무작위한 정신적 효과 하나로부터 회복합니다.", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/grip.lua"
 
+t("Bind", "결박", "talent name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/kinetic-mastery.lua"
 
+t("Transcendent Telekinesis", "초월 - 동역학", "talent name")
+t([[For %d turns your telekinesis transcends your normal limits, increasing your Physical damage by %d%% and your Physical resistance penetration by %d%%.
+		In addition:
+		The cooldowns of Kinetic Shield, Kinetic Leech, Kinetic Aura, Kinetic Strike and Mindlash are reset.
+		Kinetic Aura effects will have their radius increased by 1.
+		Your Kinetic Shield will have 100%% absorption efficiency and will absorb twice the normal amount of damage.
+		Mindlash will also inflict stun.
+		Kinetic Leech will put enemies to sleep.
+		Kinetic Strike will hit 2 adjacent enemies in a sweeping attack.
+		The damage bonus and resistance penetration scale with your Mindpower.
+		Only one Transcendent talent may be in effect at a time.]], [[%d 턴 동안, 한계를 뛰어넘은 초월적인 동역학 염동력을 휘두룹니다. 물리 피해량을 %d%% 만큼, 물리 저항 관통을 %d%% 만큼 증가시킵니다.
+		추가 효과 :
+		동역학 보호막, 동역학 흡수, 동역학 아우라, 동역학 강타, 염력 채찍의 재사용 대기 시간이 0이 됩니다.
+		동역학 아우라의 범위는 1칸 늘어납니다.
+		동역학 보호막은 100%% 의 흡수 효율을 얻으며 평상시 흡수량의 2배의 피해를 흡수합니다.
+		염력 채찍은 기절 효과가 적용됩니다.
+		동역학 흡수에 수면 효과가 적용됩니다
+		동역학 강타에 인접한 두 적까지 휩쓸어 공격하는 능력이 적용됩니다.
+		물리 피해 상승량과 물리 저항 관통치는 정신력에 비례하여 증가합니다.
+		한번에 단 하나의 '초월' 기술만을 사용할 수 있습니다.]], "tformat")
+t("Kinetic Surge", "동역학 쇄도", "talent name")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"는"})
+t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source2# #Target#의 염동력에 저항했다!", "logCombat")
+t([[Build telekinetic power and dump it into an adjacent creature or yourself.
+		This will launch them to a targeted location in radius %d.
+
+		Launched enemies take %0.1f Physical damage and are stunned for %d turns upon landing.
+		When the target lands, creatures within radius 2 take %0.1f Physical damage and are knocked away from you.
+		This talent ignores %d%% of the knockback resistance of the thrown target, which takes half damage if it resists being thrown.
+
+		When used on yourself, you will launch in a straight line, knocking enemies flying and doing %0.1f Physical damage to each.
+		You can break through %d walls while doing this.
+		The damage and range increases with Mindpower.]], [[동역학적 힘을 모아 인접한 적이나 자기 스스로에게 풀어 놓습니다.
+		이것은 대상을 반경 %d 칸 내의 지정한 위치로 날려버립니다.
+
+		적을 발사한 경우, 상대는 땅에 떨어진 충격으로 %0.1f 물리 피해를 받고, %d 턴 동안 기절하게 됩니다.
+		낙하 지점으로부터 2 칸 이내에 있는 모든 존재는 %0.1f 물리 피해를 받고, 당신의 반대편으로 밀려나게 됩니다.
+		이 기술은 대상의 밀어내기 면역력을 %d%% 만큼 무시합니다. 던지기에 실패한 경우에는 피해를 절반만 주게 됩니다.
+
+		스스로를 발사한 경우, 직선으로 날아가게 됩니다. 날아가는 동안 경로에 있는 적들은 각각 %0.1f 물리 피해를 받고 밀려나게 됩니다.
+		이렇게 날아가는 동안 %d 개의 벽을 파괴하여 뚫고 지나갈 수 있습니다
+		피해량과 사정거리는 정신력에 비례하여 증가합니다.]], "tformat")
+t("Deflect Projectiles", "투사체 편향", "talent name")
+t([[You learn to devote a portion of your attention to mentally swatting, grabbing, or otherwise deflecting incoming projectiles.
+		All projectiles targeting you have a %d%% chance to instead target another spot within radius %d and move %d%% slower.
+		If you choose, you can use your mind to grab all projectiles within radius 10 of you and hurl them toward any location within range %d of you, but this will break your concentration.
+		To do this, deactivate this sustained talent.]], [[당신의 주의 일부를 할애해 날아드는 투사체를 정신적으로 튕겨내고, 잡고, 되돌려 보내는 법을 배웁니다.
+		당신을 대상으로 한 모든 투사체는 %d%% 확룰로 반경 %d 내의 다른 지점으로 향하고, %d%% 느리게 날아갑니다.
+		정신의 힘을 아용하여 당신을 기준으로, 반경 10칸 내의 모든 투사체를 붙잡아 반경 %d 내의 위치에 쏟아 부울 수 있습니다. 하지만 이는 당신의 정신집중을 깰것입니다.
+		이를 위해서는 이 기술을 비활성화하면 됩니다.]], "tformat")
+t("Implode", "내파", "talent name")
+t([[Bind the target mercilessly with constant, bone-shattering pressure, pinning and slowing it by 50%% for %d turns and dealing %0.1f Physical damage each turn.
+		The duration and damage improve with Mindpower.]], [[대상을 뼈를 부숴버리는 압력으로 봉쇄하여, %d 턴 동안 속박을 걸고 50%% 느려지게합니다. %0.1f 물리 피해를 매 턴 가합니다.
+		피해량과 지속시간은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/mental-discipline.lua"
 
+t("Aura Discipline", "아우라 단련", "talent name")
+t([[Your expertise in the art of energy projection grows.
+		Aura cooldowns are all reduced by %d turns. Aura damage drains energy more slowly (+%0.2f damage required to lose a point of energy).]], [[당신의 에너지 투사 기술은 한 층 더 성장했습니다.
+		모든 아우라의 재사용 대기시간은 %d 턴 줄어들고 아우라의 에너지 소모가 줄어듭니다. (+%0.2f damage required to lose a point of energy).]], "tformat")
+t("Iron Will", "강철의 의지", "talent name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/mentalism.lua"
 
+t("Psychometry", "초감각", "talent name")
+t([[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.2f or %d%% of the object's material level (whichever is lower).
+		This effect stacks and applies for each qualifying object worn.]], [[착용하고 있는 염력, 자연의 힘, 반마법 속성의 무기와 공명하여, 물리력과 정신력이 %0.2f 혹은 장비 등급의 %d%% 만큼 상승합니다 (둘 중 낮은 쪽이 적용됩니다).
+		이 효과는 모든 종류의 장비에 적용되며, 누적됩니다.]], "tformat")
+t("Mental Shielding", "정신 방어", "talent name")
+t("%s's mind is clear!", "%s의 정신은 정화된다!", "logSeen")
+t("Clears your mind of current mental effects, and blocks additional ones over 6 turns.  At most, %d mental effects will be affected.", "현재 정신적 효과를 받고있는 정신을 정화하고 6 턴동안 하나의 정신적 효과를 방어합니다. 촤대 %d 개의 정신적 효과에 적용됩니다.", "tformat")
+t("Projection", "투영", "talent name")
+t("Not enough space to invoke your spirit!", "당신의 영혼을 불러내기에는 너무 좁다!", "logPlayer")
+t("A ghostly figure.", "귀신같은 형상.", "_t")
+t("Projection of %s", "%s의 투영", "tformat")
+t([[Activate to project your mind from your body for %d turns.  In this state you're invisible (+%d power), can see invisible and stealthed creatures (+%d detection power), can move through walls, and do not need air to survive.
+		All damage you suffer is shared with your physical body, and while in this form you may only deal damage to 'ghosts' or through an active mind link (mind damage only in the second case.)
+		To return to your body, simply release control of the projection.]], [[당신의 육체로부터 %d 턴 동안 정신을 투영 합니다.  이 상태에서 당신은 투명하며 (+%d 위력), 투명하거나 은신은 물체들을 볼 수 있습니다. (+%d 탐지력), 벽응 통과해 움직일 수 있고, 호흡할 필요가 없습니다.
+		당신이 받는 모든 피해는 당신의 물리적인 육신과 당신에게 나누어집니다. 이 상태에서는 오직 '유령' 형태의 적과 정신 연결의 효과를 받는 적에게만 피해를 적용할 수 있습니다.
+		육체로 돌아가기 위해서는, 그저 투영을 끝내면 됩니다.]], "tformat")
+t("Mind Link", "정신 연결", "talent name")
+t([[Link minds with the target.  While your minds are linked, you'll inflict %d%% more mind damage to the target and gain telepathy for its creature type.
+		Only one mindlink can be maintained at a time, and the effect will break if the target dies or goes beyond range (%d)).
+		The mind damage bonus will scale with your Mindpower.]], [[정신을 대상과 연결합니다.  정신이 공유된 동안 대상에게 %d%% 정신 피해를 더 줄 수 있게 되며 대상의 종족에 대한 정신 감응을 얻습니다.
+		한번에 하나의 대상만 정신을 공유할 수 있으며, 대상이 사망하거나 %d 칸 이상 멀어지면 공유가 중지됩니다.
+		추가 정신 피해량은 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/nightmare.lua"
 
+t("Nightmare", "악몽", "talent name")
+t([[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
+		Each turn, they'll suffer %0.2f darkness damage.  This damage will not reduce the duration of the effect.
+		When Nightmare ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
+		The damage threshold and mind damage will scale with your Mindpower.]], [[반경 %d 칸의 원뿔 범위 내의 적들을 %d 턴 동안 끔찍한 잠에 빠저들게 합니다. 악몽을 꾸는 동안에는 행동할 수 없게 되며,  %d 피해를 받을 때마다 지속시간이 1 턴씩 줄어들게 됩니다.
+		매 턴마다 %0.2f 암흑 피해를 입게 되며, 이 피해는 지속시간 감소에 영향을 주지 않습니다.
+		악몽이 끝나면, 대상은 불면증 상태가 되며, (불면증의 지속기간은 잠들어있던 시간과 같습니다) 추가로 잠들었던 턴 당 %d%% 수면 면역을 얻게 됩니다.
+		피해 한계량과 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Inner Demons", "내면의 악마", "talent name")
+t("%s's Inner Demon", "%s의 내면의 악마", "tformat")
+t("A hideous, demonic entity that resembles the creature it came from.", "본래의 모습과 닮은 끔찍하고 악마적인 존재.", "_t")
+t("#F53CBE#%s's Inner Demon manifests!", "#F53CBE#%s의 내면의 악마가 모습을 드러냈다!", "logSeen")
+t("%s resists the demons!", "%s 악마에 저항했다!", "logSeen", nil, {"는"})
+t([[Brings the target's inner demons to the surface.  Each turn, for %d turns, there's a %d%% chance that a demon will surface, requiring the target to make a Mental Save to keep it from manifesting.
+		If the target is sleeping, the chance to save will be halved, and fear immunity will be ignored.  Otherwise, if the summoning is resisted, the effect will end early.
+		The summon chance will scale with your Mindpower and the demon's life will scale with the target's rank.
+		If a demon manifests the sheer terror will remove all sleep effects from the victim, but not the Inner Demons.]], [[대상 내면의 악마를 표면으로 불러냅니다. %d 턴 동안, 대상을 %d%% 확률로 악마를 불러옵니다, 높은 수치의 정신 내성은 내면의 악마의 생성을 저항하는데 도움을 줍니다.
+		대상이 수면중일때, 내면의 악마에 저항하는 내성은 반이되며, 이는 공포저항을 무시합니다. 대상이 내면의 악마의 생성에 저항할 경우, 효과는 일찍 끝납니다.
+		소환 확률은 정신력에 비례해 증가하고, 악마의 생명력은 대상의 등급에 비례해 증가합니다.
+		내면의 악마의 등장은 막대한 공포로, 내면의 악마를 제외한 대상의 모든 수면 계열 효과를 즉시 제거합니다.]], "tformat")
+t("%s resists the nightmare!", "%s 악몽에 저항했다!", "logSeen", nil, {"는"})
+t([[Inflicts %0.2f darkness damage each turn for %d turns, and has a %d%% chance to randomly cause blindness, stun, or confusion (lasting 3 turns).
+		If the target is sleeping, the chance of avoiding a negative effect will be halved and fear immunity will be ignored.
+		The damage will scale with your Mindpower.]], [[d 턴 동안, 매 턴마다 %0.2f 암흑 피해를 주고 %d%% 확률로 3 턴 동안 유지되는 실명, 기절, 혼란 상태효과 중 하나를 일으킵니다.
+		대상이 수면 상태라면 상태 이상효과에 저항할 확률이 반이 되며, 이는 공포저항을 무시합니다
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("You can't cast this on friendly targets.", "우호적인 대상에게 시전할 수 없다.", "logPlayer")
+t("terror", "공포", "_t")
+t("A formless terror that seems to cut through the air, and its victims, like a knife.", "형태없는 공포로, 단검처럼 허공과 그의 희생양을 찔러 베고 있는것만 같다.", "_t")
+t("Night Terror", "밤의 공포", "_t")
+t([[Increases your damage and resistance penetration on sleeping targets by %d%%.  Additionally, every time you slay a sleeping target, a Night Terror will be summoned for %d turns.
+		The Night Terror's stats will scale with your Mindpower, as will the damage bonus to sleeping targets.]], [[잠든 대상에 대한 피해량과 저항 관통을 %d%% 만큼 향상시킵니다. 추가로, 잠든 적을 쓰러트릴 때마다, %d 턴 동안 지속되는 밤의 공포가 소환됩니다.
+		밤의 공포의 능력치와 수면중인 대상에 대한 피해량 증가치는 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/other.lua"
 
+t("Telekinetic Grasp", "염동력의 손아귀", "talent name")
+t("Telekinetically grasp which item?", "어떤 아이템을 염동력으로 쥐겠습니까?", "_t")
+t("%s telekinetically seizes: %s.", "%s %s 염동력 악력으로 끌어옵니다!", "logSeen", nil, {"는","을"})
+t([[Telekinetically grasp a weapon or gem using mentally-directed forces, holding it aloft and bringing it to bear with the power of your mind alone.
+		Note: The normal restrictions on worn equipment do not apply to this item.]], [[정신적인 염동력으로 무기나 보석을 붙잡습니다. 오직 당신의 정신력으로 허공에 물체를 띄우고 그 물체의 힘을 사용합니다.
+		알림: 장비 장착 제한은 염동력적 손아귀로 장착하는 아이템에는 적용되지 않습니다.]], "tformat")
+t("Beyond the Flesh", "육체 초월", "talent name")
+t("#Source#'s mindstar telekinetically grabs #target#!", "#Source#의 마석이 #target3# 염동력으로 붙잡았다 !", "logCombat")
+t("%s telekinetically grabs %s!", "%s %s 염동력으로 붙잡는다 !", "logSeen", nil, {"는","을"})
+t("You require a telekinetically wielded weapon or gem for your psionic focus.", "초능력적 집중을 위해서는 염동력으로 장착한 무기나 보석이 필요하다.", "logPlayer")
 t("%s's %s", "%s 의 %s", "tformat")
+t([[Allows you to wield a physical melee or ranged weapon, a mindstar or a gem telekinetically, gaining a special effect for each.
+		A gem will provide a +3 bonus to all primary stats per tier of the gem.
+		A mindstar will randomly try to telekinetically grab a far away foe (10% chance and range 3 for a tier 1 mindstar, +1 range and +5% chance for each tier above 1) and pull it into melee range.
+		A physical melee weapon will act as a semi independant entity, automatically attacking adjacent foes each turn, while a ranged weapon will fire at your target whenever you perform a ranged attack.
+		While this talent is active, all melee and ranged attacks use 60% of your Cunning and Willpower in place of Dexterity and Strength for accuracy and damage calculations respectively.
+		
+
+		]], [[근접무기나 원거리무기, 마석이나 보석을 염동력으로 장착할 수 있는 능력을 얻습니다. 각각 특별한 능력을 제공합니다.
+		보석은 보석의 등급 당 모든 능력치를 3 추가합니다.
+		마석은 멀리 떨어진 무작위의 적을 끌고 올 것입니다. (1등급 마석의 경우10% 확률, 사거리 3 , 이후 등급마다 5% 확률과 1의 사거리가 추가됩니다)
+		근접 무기는 반 독립적인 개체로 행동합니다. 매 턴 인접한 적을 공격하며, 원거리 무기의 경우, 당신이 사격할 때마다 같은 염동력으로 장착된 무기도 같은 대상을 향해 사격합니다.
+		이 기술이 활성화 된 동안, 모든 근접과 원거리 무기는 민첩과 힘 능력치 대신 교활과 의지 능력치의 60%%를 이용하여 피해량과 정확도를 산출합니다.
+		
+
+		]], "_t")
+t("The telekinetically-wielded gem grants you +%d stats.", "염동력으로 장비된 보석은 +%d 의 추가 능력치를 제공합니다.", "tformat")
+t("The telekinetically-wielded mindstar has a %d%% chance to grab a foe up to %d range away.", "염동력으로 장비된 마석은 %d%% 확률로 %d 칸 이상 떨어진 적을 끌고옵니다.", "tformat")
+t([[The telekinetically-wielded ranged weapon uses Willpower in place of Strength, and Cunning in place of Dexterity, to determine Accuracy and damage respectively.
+			Combat stats:
+			Range: %d
+			Accuracy: %d
+			Damage: %d
+			APR: %d
+			Crit: %0.1f%%
+			Speed: %0.1f%%]], [[염동력으로 장비된 원거리 무기는 피해량과 정확도를 산출하기 위해 힘 대신 교활, 민첩 대신 의지를 이용합니다.
+			전투 능력치:
+			거리: %d
+			정확도: %d
+			피해량: %d
+			방어력 관통: %d
+			치명타율: %0.1f%%
+			속도: %0.1f%%]], "tformat")
+t([[The telekinetically-wielded weapon uses Willpower in place of Strength, and Cunning in place of Dexterity, to determine damage and Accuracy respectively.
+			Combat stats:
+			Accuracy: %d
+			Damage: %d
+			APR: %d
+			Crit: %0.2f
+			Speed: %0.2f]], [[염동력으로 장비된 근접 무기는 피해량과 정확도를 산출하기 위해 힘 대신 교활, 민첩 대신 의지를 의지를 이용합니다
+			전투 능력치:
+			정확도: %d
+			피해량: %d
+			방어력 관통: %d
+			치명타율: %0.2f
+			속도: %0.2f]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/projection.lua"
 
+t("Kinetic Aura", "동역학 아우라", "talent name")
+t([[Fills the air around you with reactive currents of force.
+		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Physical damage to all adjacent enemies, costing %0.1f energy per creature. 
+		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Physical damage to all your weapon hits, costing %0.1f energy per hit.
+		When deactivated, if you have at least %d energy, a massive spike of kinetic energy is released as a range %d beam, smashing targets for up to %d physical damage and sending them flying.
+		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
+		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
+		You can only have two of these auras active at once.]], [[당신 주위의 공기를 반응성을 띈 힘의 흐름으로 가득 채웁니다.
+		당신이 보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 물리 피해를 모든 인접한 적에게 입힙니다. 이 때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
+		당신이 일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 물리 피해를 당신의 모든 무기 공격에 추가합니다. 이 때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
+		아우라를 비활성화 할 때, 적어도 %d 에너지를 갖고 있는 경우, 거대한 동역학 에너지 반응이 해방되어, %d 사거리의 광선으로 발사 경로의 적들을 꿰뚫고, %d 물리 피해를 가하며 적을 밀어냅니다.
+		#{bold}#아우라의 활성화는 턴을 소모하지 않지만, 비-활성화는 턴을 소모합니다.#{normal}#
+		비활성화 시의 반응 효과를 원치 않는 경우, 자신을 대상으로 두면 됩니다. 피해량은 정신력에 비례하여 증가합니다.
+		아우라는 한 번애 두개까지만 활성화 가능합니다.]], "tformat")
+t("Thermal Aura", "열역학 아우라", "talent name")
+t([[Fills the air around you with reactive currents of furnace-like heat.
+		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Fire damage to all adjacent enemies, costing %0.1f energy per creature. 
+		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Fire damage to all your weapon hits, costing %0.1f energy per hit.
+		When deactivated, if you have at least %d energy, a massive spike of thermal energy is released as a conical blast (radius %d) of superheated air. Anybody caught in it will suffer up to %d fire damage over several turns.
+		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
+		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
+		You can only have two of these auras active at once.]], [[당신 주위의 공기를 반응성을 띈 용광로같은 열기로 가득 채웁니다.
+		당신이 보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 화염 피해를 모든 인접한 적에게 입힙니다. 이 때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
+		당신이 일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 화염 피해를 당신의 모든 무기 공격에 추가합니다. 이 때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
+		아우라를 비활성화 할 때, 적어도 %d 에너지를 갖고 있는 경우, 거대한 열역학 에너지 반응이 해방되어, 범위 %d의 원뿔 범위의 과열돤 공기 폭발을 일으킵니다. 범위내의 모든 대상은 최대 %d 화염 피해를 여러 턴에 걸쳐 받게됩니다.
+		#{bold}#아우라의 활성화는 턴을 소모하지 않지만, 비-활성화는 턴을 소모합니다.#{normal}#
+		비활성화 시의 반응 효과를 원치 않는 경우, 자신을 대상으로 두면 됩니다. 피해량은 정신력에 비례하여 증가합니다.
+		아우라는 한 번애 두개까지만 활성화 가능합니다.]], "tformat")
+t("Charged Aura", "전기역학 아우라", "talent name")
+t("You may only sustain two auras at once. Aura activation cancelled.", "아우라는 한 번애 두개까지만 활성화 가능하다. 아우라 활성이 취소되었다.", "logSeen")
+t("The aura dissipates without producing a spike.", "아우라는 반응을 일으키지 않고 사라졌다.", "logPlayer")
+t([[Fills the air around you with crackling energy.
+		If you have a gem or mindstar in your psionically wielded slot, this will do %0.1f Lightning damage to all adjacent enemies, costing %0.1f energy per creature. 
+		If you have a conventional weapon in your psionically wielded slot, this will add %0.1f Lightning damage to all your weapon hits, costing %0.1f energy per hit.
+		When deactivated, if you have at least %d energy, a massive spike of electrical energy jumps between up to %d nearby targets, doing up to %0.1f Lightning damage to each with a 50%% chance of dazing them.
+		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
+		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
+		You can only have two of these auras active at once.]], [[[당신 주위의 공기를 탁탁 튀는 전하로 가득 채웁니다.
+		당신이 보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 전기 피해를 모든 인접한 적에게 입힙니다. 이 때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
+		당신이 일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 전기 피해를 당신의 모든 무기 공격에 추가합니다. 이 때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
+		아우라를 비활성화 할 때, 적어도 %d 에너지를 갖고 있는 경우, 거대한 전기역학 에너지 반응이 해방되어, 인근의 최대 %d 의 대상에게 연쇄됩니다. %0.1f 전기 피해를 각각 적에게 가하며 50%% 확률로 혼절을 일으킵니다.
+		#{bold}#아우라의 활성화는 턴을 소모하지 않지만, 비-활성화는 턴을 소모합니다.#{normal}#
+		비활성화 시의 반응 효과를 원치 않는 경우, 자신을 대상으로 두면 됩니다. 피해량은 정신력에 비례하여 증가합니다.
+		아우라는 한 번애 두개까지만 활성화 가능합니다.]], "tformat")
+t("Frenzied Focus", "광폭화된 집중", "talent name")
+t([[Overcharge your psionic focus with energy for %d turns, producing a different effect depending on what it is.
+		A telekinetically wielded melee weapon enters a frenzy, striking up to %d enemies per turn, also increases the radius by %d.
+		A mindstar will attempt to pull in all enemies within its normal range.
+		A gem will fire an energy bolt at a random enemy in range 6, each turn for %0.1f damage. The type is determined by the colour of the gem. Damage scales with Mindpower.]], [[%d 턴 동안 염동력을 과부화시켜, 염동력 장착 장비에 따른 서로 다른 효과를 발생시킵니다.
+		근접 무기는 광폭화 상태애 진입하며, 최대 %d 의 적을 동시에 타격하며, 범위 또한 %d 증가 합니다.
+		마석은 범위 내의 모든 적을 끌어당길 것입니다.
+		보석은 6칸 이내의 무작위한 적에게 에너지의 화살을 쏘아, 매 턴 %0.1f 피해를 입힙니다. 피해 속성은 보석의 색에 의해 결정됩니다. 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/psi-archery.lua"
 
+t("Guided Shot", "유도 사격", "talent name")
+t("Fire and guide an arrow to its target with precise telekinetic nudges. Does normal damage, but accuracy and crit chance are increased by %d.", "염동력적 탄도 보정을 받은 화살을 날립니다. 일반적인 피해를 입히지만, 정확도와 치명타율이 %d만큼 증가됩니다.", "tformat")
+t("Augmented Shot", "강화 사격", "talent name")
+t("Use telekinetic forces to greatly augment the durability and tension of your bow in order to fire an arrow with velocity unmatched by even the mightiest mundane archers. Increases armor penetration by %d, and deals %d%% damage.", "염동력을 이용하여 활의 내구성과 장력을 크게 향상시킵니다. order to fire an arrow with velocity unmatched by even the mightiest mundane archers. Increases armor penetration by %d, and deals %d%% damage.", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/psi-fighting.lua"
 
-t("You cannot do that without a weapon in your hands.", " 손에 무기를 들고 있지 않으면 사용할 수 없다.", "logPlayer")
+t("Telekinetic Smash", "염동 강타", "talent name")
+t("You cannot do that without a weapon in your hands.", "근접무기없이는 불가능하다.", "logPlayer")
+t([[Gather your will, and brutally smash the target with your mainhand weapon and then your telekinetically wielded weapon, doing %d%% weapon damage.
+		If your mainhand weapon hits, you will also stun the target for %d turns.
+		This attack uses 60%% of your Willpower and Cunning instead of Strength and Dexterity to determine weapon damage and accuracy, for both attacks.
+		Any active Aura damage bonusses will extend to the weapons used for this attack.]], [[의지를 모아, 주무기로 대상을 난폭하게 강타한 후 염동력 장착 무기로 공격합니디. %d%% 무기 피해를 줍니다.
+		주무기 공격이 명중한 경우, %d 간 대상을 기절시킵니다.
+		두번의 공격 모두 피해량과 정확도를 산출하기 위해 힘 대신 교활, 민첩 대신 의지를 의지를 이용합니다.
+		활성화돤 아우라의 추가피해가 두번의 공격에 적용됩니다.]], "tformat")
+t("Augmentation", "강화", "talent name")
+t([[While active, you give your flesh and blood body a boost in the form of precisely applied mental forces. Increases Strength and Dexterity by %d%% of your Willpower and Cunning, respectively.
+		Strength increased by %d
+		Dexterity increased by %d]], [[활성화 하여 정밀한 정신력으로 당산의 피와 살의 육신을 강화합니다. 의지와 교활의 %d%% 만큼 힘과 민첩이 각각 상승합니다.
+		증가된 힘 :  %d
+		증가된 민첩 :  %d]], "tformat")
+t("Warding Weapon", "감시하는 무기", "talent name")
+t([[Assume a defensive mental state.
+		For one turn, you will fully block the next melee attack used against you with your telekinetically-wielded weapon and then strike the attacker with it for %d%% weapon damage.
+		At raw talent level 3 you will also disarm the attacker for 3 turns.
+		At raw talent level 5 you will be able to reflexively block up to one attack per turn with a %d%% chance, based on your cunning. Each trigger requires and uses 10 Psi.
+		This requires a telekinetically-wielded weapon.]], [[방어적인 정신상태를 수용합니다.
+		1 턴 동안, 다음 물리 공격을 염동력으로 쥐고 있는 무기로 완전히 방어한 뒤 %d%% 주무기 피해로 반격합니다.
+		순수 기술 레벨이 3 이상일 경우, 공격과 함께 적의 무장을 3 턴 동안 해제시킵니다.
+		순수 기술 레벨이 5 이상일 경우, 이 기술을 사용하지 않아도 매 턴 마다 한번씩 %d%% 확률의 반사적인 막기를 사용 할 수 있습니다. 이 확률은 교활함 능력치에 따라 결정됩니다. 반사적으로 막을 때마다 염력이 10 씩 사용되고, 염력이 부족한 경우 반사적인 막기를 사용하지 않습니다.
+		기술을 사용하기 위해서는 염동력 장착 무기가 필요합니다]], "tformat")
+t("Impale", "꿰뚫기", "talent name")
+t("You cannot do that without a weapon in your telekinetic slot.", "염동력 장착 무기가 없이는 할 수 없다.", "logPlayer")
+t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방패를 박살냈다!", "logSeen", nil, {"는","nil"})
+t([[Focus your will into a powerful thrust of your telekinetically-wielded weapon to impale your target and then viciously rip it free.
+		This deals %d%% weapon damage and then causes the victim to bleed for %0.1f Physical damage over four turns.
+		At level 3 the thrust is so powerful that it has %d%% chance to shatter a temporary damage shield if one exists.
+		The bleeding damage increases with your Mindpower.]], [[당신의 염동력 장착무기로 의지를 집중하여 심각한 관통상을 내고 적을 찢어버립니다.
+		%d%% 의 무기 피해를 가하여 출혈을 걸고 대상은 4턴에 걸처 %0.1f 물리피해를 입습니다.
+		기술 레벨이 3 일 때 관통은 너무 강력한 나머지 %d%% 확률로 상대의 일시적 피해 보호막 하나를 산산조각 냅니다.
+		출혈 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/psionic.lua"
 
+t("Absorb damage and gain energy.", "피해를 흡수하고 에너지를 획득합니다.", "_t")
+t("absorption", "흡수", "_t")
+t("Project energy to damage foes.", "에너지를 투사해 적에게 피해를 입힙니다.", "_t")
+t("projection", "투사", "_t")
+t("Wield melee weapons with mentally-manipulated forces.", "염동력으로 들어올려진 근접 무기의 사용법에 관하여 배웁니다.", "_t")
+t("psi-fighting", "초능력 전투", "_t")
+t("Use gems to focus your energies.", "보석을 이용한 에너지 집중을 다룹니다.", "_t")
+t("focus", "집중", "_t")
+t("Use energy to move yourself and others.", "에너지를 이용해 당신 스스로나 상대를 움직입니다.", "_t")
+t("augmented mobility", "강화된 이동", "_t")
+t("Augment melee attacks with psionic enegies.", "초능력으로 근접 공격을 강화합니다.", "_t")
+t("augmented striking", "강화된 강타", "_t")
+t("Pull energy from your surroundings.", "주위로부터 에너지를 끌어옵니다.", "_t")
+t("voracity", "탐식", "_t")
+t("Subtle applications of the psionic arts.", "초능력의 기예에 관한 섬세한 적용을 배웁니다.", "_t")
+t("finer energy manipulations", "미세 에너지 조작", "_t")
+t("Various psionic talents.", "여러가지 초능력 기술들.", "_t")
 t("other", "다른", "_t")
+t("Mastery of telekinetic forces.", "동역학적 힘에 대한 숙련.", "_t")
+t("kinetic mastery", "동역학 숙련", "_t")
+t("Mastery of pyrokinetic forces.", "열역학적 힘에 대한 숙련.", "_t")
+t("thermal mastery", "열역학 숙련", "_t")
+t("Mastery of electrokinetic forces.", "전기학적 힘에 대한 숙련.", "_t")
+t("charged mastery", "전기역학 숙련", "_t")
+t("Project feedback on the world around you.", "주변 세계에 반작용을 투사합니다.", "_t")
+t("discharge", "방출", "_t")
+t("Distort reality with your mental energy.", "정신 에너지로 현실을 왜곡합니다.", "_t")
+t("distortion", "왜곡", "_t")
+t("Call the dream-forge hammer to smite your foes.", "꿈 주조자의 망치를 불러내어 적을 강타합니다.", "_t")
+t("Dream Smith", "꿈 주조자", "_t")
+t("Manifest your enemies nightmares.", "적의 악몽을 실체화 시킵니다.", "_t")
+t("nightmare", "악몽", "_t")
+t("Directly attack your opponents minds.", "상대의 정신을 직접적으로 공격합니다.", "_t")
+t("Psychic Assault", "초능력적 쇄도", "_t")
+t("Force enemies into a deep sleep.", "적들을 강제로 깊은 수면에 빠지게 합니다.", "_t")
+t("slumber", "수면", "_t")
+t("Nothing exists outside the minds ability to perceive it.", "인지능력 밖의 것들은 존재하지 않습니다.", "_t")
+t("solipsism", "유아론", "_t")
+t("Manifest your thoughts as psionic summons.", "당신의 생각을 초능력적 호출로 구현합니다.", "_t")
+t("Thought-Forms", "생각의 형태", "_t")
+t("Dream Forge", "꿈의 대장간", "_t")
+t("Master the dream forge to create powerful armor and effects.", "보다 강력한 보호구를 만들고 효과를 얻기 위해 꿈의 벼림에 통달합니다.", "_t")
+t("Manipulate the sleep cycles of yourself and your enemies.", "당신 스스로와 적들의 수면 주기를 조작합니다.", "_t")
+t("dreaming", "꿈", "_t")
+t("Various mind based effects.", "다양한 기본 효과.", "_t")
+t("mentalism", "심리주의", "_t")
+t("Store feedback as you get damaged and use it to protect and heal your body.", "피해를 받을 때 반작용을 쌓고, 그것을 이용해 자신의 몸을 방어하고 회복하는 기술들 입니다.", "_t")
+t("feedback", "반작용", "_t")
+t("Put your mind into a deep trance.", "당신의 정신을 깊은 무아지경에 빠지게합니다.", "_t")
+t("psionic", "초능력", "talent category")
+t("trance", "무아지경", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/psychic-assault.lua"
 
+t("Mind Sear", "정신 불사르기", "talent name")
+t([[Sends a telepathic attack, trying to destroy the brains of any target in the beam, doing %0.2f mind damage.
+		The damage will increase with your Mindpower.]], [[정신감응 공격을 보내, 광선 안의 모든 적의 두뇌를 파괴합니다. %0.2f 정신피해를 가합니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Psychic Lobotomy", "초능력 뇌 절제", "talent name")
+t("%s resists the lobotomy!", "%s 는 절개에 저항했다!", "logSeen", nil, {"는"})
+t([[Inflicts %0.2f mind damage and cripples the target's higher mental functions, reducing cunning by %d and confusing (%d%% power) the target for %d turns.
+		The damage, cunning penalty, and confusion power will scale with your Mindpower.]], [[%0.2f 정신 피해를 입히고 대상의 고등적인 두뇌 활동을 막습니다. 교활을 %d 낮추고 혼란을 (%d%% 위력) 대상에게 %d 턴동안 적용합니다.
+		피해량, 교활 감소량, 혼란릐 위력은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Synaptic Static", "시냅스 흐름 정체", "talent name")
+t([[Sends out a blast of telepathic static in a %d radius, inflicting %0.2f mind damage.  This attack can brainlock affected targets.
+		The damage will increase with your Mindpower.]], [[반경 %d 내에 시냅스 정체를 일으키는 정신감응 폭발을 내보냅니다. %0.2f 정신 피해를 가핮니다. 이 공격은 대상에게 사고정지를 유발할수 있습니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Sunder Mind", "정신 분할", "talent name")
+t([[Cripples the target's mind, inflicting %0.2f mind damage and reducing its Mental Save by %d for 4 turns.  This attack always hits, and the mental save reduction stacks.
+		Against brainlocked targets, the damage and Mental Save reduction will be doubled.
+		The damage and save reduction will scale with your Mindpower.]], [[대상의 정신을 무럭화합니다. %0.2f 정신 피해를 가하고 정신 내성을 4 턴 동안 %d 낮춥니다. 이 공격은 항상 명중하며, 정신내성 감소는 중첩됩니다.
+		사고정지가 적용된 적을 대상으로 할 때, 피해량과 정신 내성 감소치가 두배가 됩니다.
+		피해량과 정신 내성 감소치는 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/slumber.lua"
 
-t("The spell fizzles...", "주문이 쉬이익 소리만을 낸다...", "logPlayer")
+t("Slumber", "숙면", "talent name")
+t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
+t([[Puts the target into a deep sleep for %d turns, rendering it unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
+		When Slumber ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
+		The damage threshold will scale with your Mindpower.]], [[대상을 %d 턴 간 깊은 잠에 빠지게 합니다. 수면 중에는 행동이 불가능하며.  %d 피해를 받을 때마다 수면의 지속시간이 1 턴씩 줄어들게 됩니다.
+		숙면이 끝나면, 대상은 불면증 상태가 되며, (불면증의 지속기간은 잠들어있던 시간과 같습니다) 추가로 잠들었던 턴 당 %d%% 수면 면역을 얻게 됩니다.
+		피해 한계량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Restless Night", "휴식 없는 밤", "talent name")
+t([[Targets you have slept take %0.2f mind damage each turn for five turns upon waking.
+		The damage will scale with your Mindpower.]], [[당신이 잠재운 적은 잠에서 깨어난 후 5 턴 동안 %0.2f 정신 피해를 매 턴 받습니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Sandman", "잠귀신", "talent name")
+t([[Increases the amount of damage you can deal to sleeping targets before reducing the effect duration by %d%%, and reduces the sleep immunity of your Insomnia effects by %d%%.
+		These effects will be directly reflected in the appropriate talent descriptions.
+		The damage threshold bonus will scale with your Mindpower.]], [[수면 지속시간을 단축시키는 피해 한계량이 %d%%만큼 증가합니다. 더 많은 피해를 줘도 적의 수면 상태가 풀리지 않게 됩니다. 적이 불면증 상태가 되었을 때 얻는 수면 면역력이 %d%% 감소합니다.
+		이 효과가 모두 적용된 수치가 다른 기술들의 설명에 표시됩니다.
+		피해 한계량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Dreamscape", "꿈 속 세계", "talent name")
+t("You feel it unwise to travel to the dreamscape in such a fragile form.", "지금과같이 약해진 모습으로 꿈 속 세계를 가는것은 좋은 생각이 아니다.", "logPlayer")
+t("This talent cannot be used from within the Dreamscape.", "이 기술은 꿈 속 세계에서 사용할 수 없다.", "logPlayer")
+t("This talent cannot be used here.", "이 기술은 아곳에서 사용할 수 없다.", "logPlayer")
+t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
+t("Your target must be sleeping in order to enter its dreamscape.", "당신의 적이 잠들어 있어야 대상의 꿈 속 세계로 이동할 수 있다.", "logPlayer")
+t("You can't cast this on friendly targets.", "우호적인 대상에게 시전할 수 없다.", "logPlayer")
+t("#LIGHT_BLUE#You are taken to the Dreamscape!", "#LIGHT_BLUE#당신은 꿈 속 세계로 끌려들어갔다!", "logPlayer")
+t([[Enter a sleeping target's dreams for %d turns.  While in the Dreamscape, you'll encounter the target's invulnerable sleeping form as well as dream projections that it will spawn every other turn to defend its mind.
+		Projections inflict 50%% less damage than the original, unless the target has Lucid Dreamer active.
+		When the Dreamscape ends, for each projection destroyed, the target's life will be reduced by 10%% and it will be brainlocked for one turn.
+		In the Dreamscape, your damage will be improved by %d%%.
+		The damage bonus will improve with your Mindpower.]], [[잠자는 대상의 꿈속을 %d 턴 동안 거닙니다. 꿈속 세계에 있는 동안, 당신은 무적상태로 잠든 대상과 조우합니다. 대상은 매 턴 자신의 정신을 지키기 위해 꿈의 투영체를 소환합니다.
+		대상이 자각몽 상태가 아닌 한, 투영체는 기본적으로 본체보다 50%% 더 적은 피해를 입힙니다.
+		꿈 속 여행이 끝나면 파괴된 투영체 1 개마다 대상의 생명력이 최대 생명력의 10%% 만큼 감소하며, 1 턴 동안 정신 잠금에 걸립니다.
+		꿈 속 세계에서, 당신의 피해량이 %d%% 만큼 증가합니다.
+		피해 증가량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/solipsism.lua"
 
+t("Solipsism", "유아론", "talent name")
+t([[You believe that your mind is the center of everything.  Permanently increases the amount of psi you gain per level by 5 and reduces your life rating (affects life at level up) by 50%% (one time only adjustment).
+		You also have learned to overcome damage with your mind alone, and convert %d%% of all damage you receive into Psi damage and %d%% of your healing and life regen now recovers Psi instead of life.
+		Converted Psi damage you take will be further reduced by %0.1f%% (%0.1f%% from character level with the remainder further reduced by %0.1f%% from talent level).
+		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
+		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], [[당신은 당신의 자아가 모든 것의 중심이라고 믿습니다. 영구적으로 레벨마다 획득하는 염동력 수치가 5 추가되며 생명력 증가량을 50%% 감소 시킵니다. (레벨업시 상승하는 생명력 양에 적용됩니다) (위 효과는 단 한번만 적용됩니다).
+		정신력만으로 피해를 극복하는 법을 배워 적에게 받는 피해량의 %d%% 가 생명력 대신 염력을 소진시키고 회복과 재생의 생명력 회복량의 %d%% 가 생명력 대신 염력을 회복시킵니다.
+		또한 생명력 대신 염력으로 피해를 받을 때, 염력 소진량이 %0.1f%% 감소합니다 (캐릭터 레벨을 통해 %0.1f%% 만큼, 기술 레벨을 통해 %0.1f%% 만큼 추가로 감소).
+		기술 레벨이 1 이 될 때, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
+또한 독존 한계량이 기본적으로 20%% (현재 : %d%%) 가 되며, 현재 염력이 독존 한계량보다 부족할 경우 부족한 %% 만큼 전체 속도가 1%% 감소하게 됩니다.]], "tformat")
+t("Balance", "균형", "talent name")
+t([[You now substitute %d%% of your Mental Save for %d%% of your Physical and Spell Saves throws (so at 100%%, you would effectively use mental save for all saving throw rolls).
+		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
+		Learning this talent also increases your solipsism threshold by 10%% (currently %d%%).]], [[물리 내성과 주문 내성의 %d%% 만큼을 정신 내성의 %d%% 로 대체합니다. (즉 이 비율이 100%% 가 되면, 정신 내성이 물리 내성과 주문 내성을 완전히 대체하게 됩니다)
+		기술 레벨이 1 이 될 때, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
+		이 기술을 배우면 독존 한계량이 10%% 증가하게 됩니다. (현재 : %d%%)]], "tformat")
+t("Clarity", "깨달음", "talent name")
+t([[For every percent that your Psi pool exceeds %d%%, you gain 1%% global speed (up to a maximum of %+d%%).
+		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25 and will increase your solipsism threshold by 10%% (currently %d%%).]], [[현재 염력이 최대 염력의 %d%% 이상일 경우, 초과 수치 만큼 전체 속도가 증가합니다. (최대 %+d%%)
+		의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 이 기술을 배우면 독존 한계량이 10%% 증가하게 됩니다. (현재 : %d%%).]], "tformat")
+t("Dismissal", "무시", "talent name")
+t("#TAN##Source# mentally dismisses some damage!", "#TAN##Source1# 피해량 일부를 정신적으로 무시했다!", "delayedLogMessage")
+t([[Each time you take damage, you roll %d%% of your mental save against it.  A successful saving throw can crit and will reduce the damage by at least 50%%.
+		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
+		The first talent point also increases your solipsism threshold by 10%% (currently %d%%).]], [[피해를 받을 때마다, 정신 내성의 %d%% 를 이용해서 저항을 시도합니다. 저항이 성공할 경우, 받는 피해량이 50%% 이상 감소합니다 이 판정에는 치명타율이 적용됩니다.
+		기술 레벨이 1 이 될 때, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
+		이 기술을 배우면 독존 한계량이 10%% 증가하게 됩니다. (현재 : %d%%)]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/telekinetic-combat.lua"
 
-t("You cannot do that without a weapon in your hands.", " 손에 무기를 들고 있지 않으면 사용할 수 없다.", "logPlayer")
+t("You cannot do that without a weapon in your hands.", "근접무기없이는 불가능하다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/thermal-mastery.lua"
 
+t("Transcendent Pyrokinesis", "초월 - 열역학", "talent name")
+t("Brainfreeze", "두뇌 동결", "talent name")
+t([[Quickly drain the heat from your target's brain, dealing %0.1f Cold damage.
+		Affected creatures will also be brainlocked for 4 turns, putting a random talent on cooldown, and freezing cooldowns.
+		The damage and chance to brainlock increase with your Mindpower.]], [[대상의 두뇌가 가진 열을 빠르개 흡수합니다. %0.1f 냉기 피해를 입힙니다.
+		대상에 4 턴간 사고 정지를 겁니다. 무작위한 기술에 재사용 대기 시간을 적용하고, 재사용 대기 시간을 동결합니다.
+		피해량과 사고 정지 확률은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Heat Shift", "열 전환", "talent name")
+t([[Within radius %d, transfer heat from a group of enemies bodies to their equipment, freezing them to the floor while the excess heat disables their weapons and armor.
+		Those afflicted will be dealt %0.1f Cold and %0.1f Fire damage, and be pinned (Frozen Feet) and disarmed for %d turns.
+		Targets suffering both types of damage will also have have their Armour and saves reduced by %d.
+		The chance to apply the effects and the duration increase with your Mindpower.]], [[반경 %d 칸 내의 모든 적들의 육체와 장비의 열을 교환합니다, 적의 육신은 바닥위에 얼어붙고, 무기와 방어구는 과열되어 쓰지를 못하게됩니다.
+		이는 %0.1f 냉기 피해와 %0.1f 화염 피해를 가합니다. 또한 %d 턴 동안 속박되고 (얼어붙은 발) 무장이 해제됩니다.
+		두 속성의 피해를 받은 적은 방어도와 내성이 %d 감소하게 됩니다.
+		효과 적용 확률과 지속 시간은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Thermal Balance", "열에너지 균형", "talent name")
+t([[You seek balance between fire and cold based on your current Psi level.
+		You blast your foes with %0.1f Fire damage based on your current Psi, %0.1f Cold damage based on your max Psi minus your current Psi, in a radius %d ball.
+		This sets your current Psi to half of your maximum Psi.
+		The damage scales with your Mindpower.]], [[당신은 현재 염력 수치에 따른 화염과 냉기의 균형을 구도합니다.
+		%d 칸 반경의 적들에게 현재 남은 염력에 따라 적들에게 %0.1f 화염 피해를 주고, (최대 염력 - 남은 염력) 에 따라 %0.1f 냉기 피해를 줍니다.
+		이를 통해 현재 염력을 최대 염력의 절반으로 조정합니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/thought-forms.lua"
 
+t("thought-form", "생각의 구현", "_t")
+t("Thought-Form: Bowman", "생각의 구현 : 궁수", "talent name")
+t("thought-forged bowman", "생각으로 벼려낸 궁수", "_t")
+t("A thought-forged bowman.  It appears ready for battle.", "생각으로 벼려낸 궁수. 전투에 준비된 것 처럼 보인다.", "_t")
+t([[Forge a bowman, clad in leather armor, from your thoughts.  The bowman learns Bow Mastery, Combat Accuracy, Steady Shot, Crippling Shot, and Rapid Shot as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
+		Activating this talent will put all other thought-forms on cooldown.
+		The stat bonuses will improve with your Mindpower.]], [[당신의 생각에서 가죽 갑옷을 입은 궁수를 버려냅니다. 레벨에 따라 궁수는 활 숙련, Combat Accuracy, Steady Shot, Crippling Shot, and Rapid Shot 기술을 습득합니다. 궁사의 능력치는 +%d 힘, +%d 민첩, +%d 체격입니다.
+		이 기술의 활성화는 다른 생각의 구현 기술에 재사용 대기 시간을 적용합니다.
+		궁사의 능력치는 정신력에 비례하여 증가합니다.]], "tformat")
+t("Thought-Form: Warrior", "생각의 구현 : 전사", "talent name")
+t("thought-forged warrior", "생각으로 벼려낸 전사", "_t")
+t("A thought-forged warrior wielding a massive battle-axe and clad in heavy armor.  It appears ready for battle.", "전투 도끼와 중갑을 착용한 생각으로 벼려낸 전사. 전투에 준비된 것 처럼 보인다.", "_t")
+t([[Forge a warrior wielding a battle-axe from your thoughts.  The warrior learns Weapon Mastery, Combat Accuracy, Berserker, Death Dance, and Rush as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
+		Activating this talent will put all other thought-forms on cooldown.
+		The stat bonuses will improve with your Mindpower.]], [[당신의 생각에서 전투 도끼를 든 전사를 버려냅니다. 레벨에 따라 전사는 무기 숙련, Combat Accuracy, Berserker, Death Dance, and Rush 기술을 습득합니다. 전사의 능력치는 +%d 힘, +%d 민첩, +%d 체격입니다.
+		이 기술의 활성화는 다른 생각의 구현 기술에 재사용 대기 시간을 적용합니다.
+		전사의 능력치는 정신력에 비례하여 증가합니다.]], "tformat")
+t("Thought-Form: Defender", "생각의 구현 : 방어자", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
+t("thought-forged defender", "생각으로 벼려낸 방어자", "_t")
+t("A thought-forged defender clad in massive armor.  It wields a sword and shield and appears ready for battle.", "검과 방패, 판갑을 착용한 생각으로 벼려낸 방어자. 전투에 준비된 것 처럼 보인다.", "_t")
+t([[Forge a defender wielding a sword and shield from your thoughts.  The solider learns Armor Training, Weapon Mastery, Combat Accuracy, Shield Pummel, and Shield Wall as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
+		Activating this talent will put all other thought-forms on cooldown.
+		The stat bonuses will improve with your Mindpower.]], [[당신의 생각에서 검과 방패를 든 방어자를 버려냅니다. 레벨에 따라 방어자는 갑옷 숙련, 무기 숙련, Combat Accuracy, Shield Pummel, and Shield Wall 기술을 습득합니다. 수호자의 능력치는 +%d 힘, +%d 민첩, +%d 체격입니다.
+		이 기술의 활성화는 다른 생각의 구현 기술에 재사용 대기 시간을 적용합니다.
+		수호자의 능력치는 정신력에 비례하여 증가합니다.]], "tformat")
+t("Thought-Forms", "생각의 구현", "talent name")
+t([[Forge a guardian from your thoughts alone.  Your guardian's primary stat will be improved by %d, its two secondary stats by %d, and it will have Magic, Cunning, and Willpower equal to your own.
+		At talent level one, you may forge a mighty bowman clad in leather armor; at level three a powerful warrior wielding a two-handed weapon; and at level five a strong defender using a sword and shield.
+		Thought forms can only be maintained up to a range of %d, and will rematerialize next to you if this range is exceeded.
+		Only one thought-form may be active at a time, and the stat bonuses will improve with your Mindpower.]], [[당신의 생각만으로 수호자를 벼려냅니다. 수호자의 우선적 능력치는 %d 만큼 증가되고 두개의 부가적 능력치는 %d 만큼 증가됩니다. 그리고 마법, 교활, 의지 능력치는 당신의 것과 동일합니다.
+		기술 레벨 1 에서 당신은 가죽 갑옷을 입은 강력한 궁수를 버려냅니다. 기술 레벨 3 에서 양손 무기를 든 막강한 전사를, 기술 레벨 5 에서 방패와 검을 쓰는 강인한 전사를 벼립니다.
+		생각의 구현체들은 반경 %d 이내에서만 유지 될 수 있습니다. 범위를 벗어난 경우, 당신 옆에서 재구성됩니다.
+		한번에 단 하나의 구현체만 존재할 수 있으며, 능력치 상승량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Transcendent Thought-Forms", "초월 - 생각의 구현", "talent name")
+t("Your thought-forms now know Lucid Dreamer, Biofeedback, and Psychometry at talent level %d.", "당신의 구현체들은 이제 레벨 %d 의 자각몽, 생체 반작용, 초감각 기술 이용합니다 .", "tformat")
+t("Over Mind", "정신을 넘어", "talent name")
+t("You must have an active Thought-Form to use this talent!", "이 기술을 이용하가 위해서는 생각의 구현을 활성화 해야한다!", "logPlayer")
+t([[Take direct control of your active thought-form, improving its damage, attack speed, and maximum life by %d%%, but leaving your body a defenseless shell.
+		At talent level 1, any Feedback your Thought-Forms gain will be given to you as well. At level 3, your Thought-Forms gain a bonus to all saves equal to your Mental Save. At level 5, they gain a bonus to all damage equal to your bonus mind damage.
+		The secondary bonuses apply whether or not this talent is currently active.
+		The life, damage, and speed bonus will improve with your Mindpower.]], [[생각의 구현체를 직접적으로 조종합니다. 피해량과 공격속도, 최대 체력을 %d%% 증기 시킵니다. 하지만 당신의 육체는 무방비하게 남아있을 것입니다.
+		기술 레벨 1 에서 구현체가 얻은 반작용이 본체에도 적용됩니다. 기술 레벨 3 에서 구현체는 당신의 정신 내성과 같은 수치를 구현체의 모든 내성에 더합니다. 기술 레벨 5 에서 구현체는 본체의 정신 피해량 증가량과 같은 수치를 구현체의 모든 속성 피해량에 더합니다.
+		이러한 부가 효과는 기술이 활성화가 되지 않았어도 적용됩니다.
+		구현체의 생명력, 피해량, 속도 증가량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Thought-Form Unity", "구현체 일치", "talent name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/trance.lua"
 
+t("Trance of Purity", "순수성의 무아지경", "talent name")
+t([[Activate to purge negative status effects (100%% chance for the first effect, -%d%% less chance for each subsequent effect).  While this talent is sustained all your saving throws are increased by %d.
+		The chance to purge and saving throw bonus will scale with your mindpower.
+		Only one trance may be active at a time.]], [[활성화하면 나쁜 상태효과들이 제거됩니다. (100%% 확률로 첫번째 상태효과가 제거되며, 두번째 상태효과부터는 확률이 %d%% 씩 낮아집니다)  무아지경이 유지되는 동안, 모든 내성이 %d 향상됩니다.
+		상태효과 제거 확률과 내성 증가량은 정신력에 비례하여 증가합니다.
+		한번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
+t("Trance of Well-Being", "치유의 무아지경", "talent name")
+t([[Activate to heal yourself for %0.2f life.  While this talent is sustained your healing modifier will be increased by %d%% and your life regen by %0.2f.
+		The effects will scale with your mindpower.
+		Only one trance may be active at a time.]], [[활성화하면 생명력이 %0.2f 회복됩니다. 무아지경이 유지되는 동안, 치유 효율이 %d%% 증가하고 생명력 재생이 %0.2f 증가합니다.
+		효과는 정신력에 비례하여 증가합니다.
+		한번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
+t("Trance of Focus", "집중의 무아지경", "talent name")
+t([[Activate to increase your critical strike damage by %d%% for 10 turns.  While this talent is sustained your critical strike chance is improved by +%d%%.
+		The effects will scale with your mindpower.
+		Only one trance may be active at a time.]], [[사용하면 치명타 피해량이 10 턴 동안 %d%% 증가합니다. 무아지경이 유지되는 동안, 치명타율이 %d%% 증가합니다.
+		효과는 정신력에 비례하여 증가합니다.
+		한번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
+t("Deep Trance", "깊은 무아지경", "talent name")
+t([[When you wield or wear an item infused by psionic, nature, or arcane-disrupting forces you improve all values under its 'when wielded/worn' field %d%%.
+		Note this doesn't change the item itself, but rather the effects it has on your person (the item description will not reflect the improved values).]], [[염력, 자연, 반마법의 힘이 깃든 장비를 착용하면, 해당 장비의 '착용시 적용' 항목에 있는 모든 능력치가 %d%% 향상됩니다.
+		장비 자체의 능력을 바꾸지는 않으며, 사용자에게만 적용됩니다. (장비 설명에는 향상된 수치가 표시되지 않습니다).]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/voracity.lua"
 
+t("Kinetic Leech", "동역학 흡수", "talent name")
+t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
+t([[You draw kinetic energy from your surroundings to replenish your Psi.
+		This will slow all targets within radius %d by %d%% (max %d%%) for four turns, draining %0.1f (max %0.1f) stamina from each.
+		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
+		The strength of these effects increases as your Psi depletes and with your Mindpower.]], [[당신 주변에서 동역학 에너지를 흡수하여 당신의 염력을 회복합니다.
+		반경 %d 칸 내의 모든 적은 4턴 간 %d%% 느려집니다. (최대 %d%%) 대상 하나 마다 %0.1f 체력을 회복합니다. (최대 %0.1f).
+		당신은 첫번째 대상으로부터 %d 염력을 회복합니다 (최대 %d). 범위 내 다른 적에게서도 염력을 획득하지만, 획득이 한 개체에 적용될 때 마다 염동력 획득량이 20%% 씩 적어집니다. 
+		효과는 정신력에 비례하고, 남은 염력 양에는 반비례하여 증가합니다.]], "tformat")
+t("Thermal Leech", "열역학 흡수", "talent name")
+t([[You draw thermal energy from your surroundings to replenish your Psi.
+		This will freeze all targets within radius %d for %d (max %d) turns, and deal %0.1f (max %0.1f) Cold damage.
+		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
+		The damage and the strength of these effects increases as your Psi depletes and with your Mindpower.]], [[당신 주변에서 열역학 에너지를 흡수하여 당신의 염력을 회복합니다.
+		반경 %d 칸 내의 모든 적은 %d 턴 동안 (최대 %d) 얼어 붙을 것입니다. %0.1f (최대 %0.1f) 냉기 피해를 입힙니다.
+		당신은 첫번째 대상으로부터 %d 염력을 회복합니다 (최대 %d). 범위 내 다른 적에게서도 염력을 획득하지만, 획득이 한 개체에 적용될 때 마다 염동력 획득량이 20%% 씩 적어집니다.
+		효과는 정신력에 비례하고, 남은 염력 양에는 반비례하여 증가합니다.]], "tformat")
+t("Charge Leech", "전기역학 흡수", "talent name")
+t([[You draw electical potential energy from your surroundings to replenish your Psi.
+		This deals %0.1f (max %0.1f) Lightning damage to all targets around you within radius %d, and has a %d%% (max %d%%) chance to daze them for 3 turns.
+		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
+		The strength of these effects increases as your Psi depletes and with your Mindpower.]], [[당신 주변에서 전기역학 에너지를 흡수하여 당신의 염력을 회복합니다.
+		%0.1f (max %0.1f) 전가피해를 반경 %d 칸 내의 적 모두에게 가합니다. 이 공격은 %d%% (최대 %d%%) 확률로 3턴동안 지속되는 혼절을 적용합니다.
+		당신은 첫번째 대상으로부터 %d 염력을 회복합니다 (최대 %d). 범위 내 다른 적에게서도 염력을 획득하지만, 획득이 한 개체에 적용될 때 마다 염동력 획득량이 20%% 씩 적어집니다.
+		효과는 정신력에 비례하고, 남은 염력 양에는 반비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -7561,7 +8538,7 @@ t("Manathrust", "마나 스러스트", "talent name")
 section "game/modules/tome/data/talents/spells/conveyance.lua"
 
 t("The spell fizzles!", "주문이 실패했다!", "logSeen")
-t("Select a teleport location...", "순간이동할 위치를 설정중...", "logPlayer")
+t("Select a teleport location...", "순간이동 시킬 위치를 설정중...", "logPlayer")
 
 
 ------------------------------------------------
@@ -7873,6 +8850,7 @@ t("%s resists the stunning blow!", "%s 기절의 일격에 저항합니다!", "l
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/stone-alchemy.lua"
 
+t("Use which gem?", "어떤 보석을 사용할까?", "_t")
 
 
 ------------------------------------------------
@@ -7964,6 +8942,7 @@ t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the
 		기절 확률은 물리력의 영향을 받아 증가합니다.]], "tformat")
 t("Sunder Armour", "방어구 부수기", "talent name")
 t("You cannot use Sunder Armour without a two-handed weapon!", "양손 무기 없이는 방어구 부수기를 사용할 수 없습니다!!", "logPlayer")
+t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방패를 박살냈다!", "logSeen", nil, {"는","nil"})
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's armour and saves are reduced by %d for %d turns.
 		Also if the target is protected by a temporary damage shield there is %d%% chance to shatter it.
 		Armor reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 방어와 모든 내성이 %d턴 동안 %d 감소합니다.
@@ -8055,7 +9034,7 @@ Requires a sling to use.]], [[근거리 전투에 능한 유연하고 유동적�
 section "game/modules/tome/data/talents/techniques/archery.lua"
 
 t("Shoot", "사격", "talent name")
-t("@Source@ shoots!", "@Source1@ 사격합니다!", "_t")
+t("@Source@ shoots!", "#Source1# 사격합니다!", "_t")
 t("Shoot your bow, sling or other missile launcher!", "활, 투석구 혹은 기타 투사체 발사기로 사격합니다!", "tformat")
 t("Steady Shot", "안정된 사격", "talent name")
 t([[Fire a steady shot, doing %d%% damage with a %d%% chance to mark the target.
@@ -8420,6 +9399,7 @@ section "game/modules/tome/data/talents/techniques/strength-of-the-berserker.lua
 t("Warshout", "전투함성", "talent name")
 t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", "_t", nil, {"가"})
 t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", "_t", nil, {"가"})
+t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방패를 박살냈다!", "logSeen", nil, {"는","nil"})
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's armour and saves are reduced by %d for %d turns.
 		Also if the target is protected by a temporary damage shield there is %d%% chance to shatter it.
 		Armor reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 방어와 모든 내성이 %d턴 동안 %d 감소합니다.
@@ -8441,6 +9421,33 @@ section "game/modules/tome/data/talents/techniques/techniques.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents/techniques/throwing-knives.lua"
 
+t("Throwing Knives", "단검 투척", "talent name")
+t("Throwing Knife", "단검 투척", "_t")
+t([[Equip a bandolier holding up to %d throwing knives, allowing you to attack from range.  You automatically reload %d knives per turn while resting, or half as many while moving.
+		The base power, Accuracy, Armour penetration, and critical strike chance of your knives increase with talent level, and damage is improved with Dagger Mastery.
+		Throwing Knives count as melee attacks for the purpose of on-hit effects.
+		Effective Throwing Knife Stats:
+
+%s]], [[멀리서 적을 공격할 수 있는 투척용 단검을 최대 %d 개 수납 할수 있는 가죽띠를 맵니다.  당신은 가만히 쉬고 있는 턴 당 %d 개의 단검을 보충합니다, 이동시에는 보충률이 절반이 됩니다.
+		투척용 단검의 기본 공격력, 정확도, 방어도 관통력, 치명타율은 기술 레밸에 비례하여 증가합니다, 피해량은 단검 숙련 기술에 비례하여 증가합니다.
+		단검 투척은 근접 공격으로 계산되며, 단검 투척으로 발생하는 피해는 온-힛 효과를 냅니다.
+		Effective Throwing Knife Stats:
+
+%s]], "tformat")
+t("Fan of Knives", "칼날 부채", "_t")
+t([[You keep a special stash of %d throwing knives in your bandolier, which you can throw all at once at enemies within a radius %d cone, for %d%% damage each.
+		Each target can be hit up to 5 times, if the number of knives exceeds the number of enemies.  Creatures block knives from hitting targets behind them.]], [[당신은 가죽띠에 %d 개의 투척용 단검을 저장하는 특별한 보관소를 장착했습니다. 당신은 이 단검을 한번에 던저 반경 %d 의 원뿔 범위 내의 적을 공격합니다. 단검 하나당 %d%% 피해를 입힙니다.
+		던저진 단검의 수가 적의 수보다 많다면, 각각 대상을 최대 5번 까지 공격 할 수 있습니다. 발사 궤도상에 존재하는 개체의 뒤에 숨어 단검을 피할 수 있습니다.]], "tformat")
+t("Precise Aim", "정밀 조준", "talent name")
+t([[You are able to target your throwing knives with pinpoint accuracy, increasing their critical strike chance by %d%% and critical strike damage by %d%%. 
+In addition, your critical strikes with throwing knives have a %d%% chance to randomly disable your target, possibly disarming, silencing or pinning them for 2 turns.]], [[당신은 투척단검을 한 치의 오차도 없이 투척할 수 있습니다. 치명타율을 %d%% 증가시키고 치명타 피해량을 %d%% 증가시킵니다. 
+추가로, 투척 단검을 통한 치명타는 %d%% 확률로 2 턴 동안 무장해제, 침묵, 속박 효과 중 하나를 적용합니다.]], "tformat")
+t("Quickdraw", "빨리 뽑기", "talent name")
+t("Quickdraw Knife", "단검 빨리뽑기", "_t")
+t([[You can throw knives with lightning speed, increasing your attack speed with them by %d%% and giving you a %d%% chance when striking a target in melee to throw a knife at a random foe within 7 tiles for 100%% damage. 
+		This bonus attack can only trigger once per turn, and does not trigger from throwing knife attacks.]], [[당신은 빛의 속도로 단검을 뽑아 던집니다. 당신의 공격 속도를 %d%% 증가시키고, 근접 공격시 %d%% 확률로 7칸 이내의 무작위한 적에게 100%% 의 피해를 가하는 단검을 던집니다. 
+		이 추가 공격은 한 턴에 한번만 발동합니다. 단검 투척 기술로는 발동하지 않습니다.]], "tformat")
+t("Venomous Throw", "맹독성 투척", "_t")
 
 
 ------------------------------------------------
@@ -9838,8 +10845,9 @@ t("sun", "태양", "effect subtype")
 t("Healing Inversion", "회복 역전", "_t")
 t("ice", "얼음", "effect subtype")
 t("water", "물", "effect subtype")
+t("focus", "집중", "effect subtype")
 t("temporal", "시간", "effect subtype")
-t("blight", "황폐의 그림자", "effect subtype")
+t("blight", "황폐", "effect subtype")
 t("earth", "대지", "effect subtype")
 t("Bathe in Light", "빛의 세례", "_t")
 t("celestial", "천공", "effect subtype")
@@ -9857,10 +10865,29 @@ t("phantasm", "환영", "effect subtype")
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/mental.lua"
 
+t("Frenzied Focus", "광폭화된 집중", "_t")
 t("madness", "광기", "effect subtype")
+t("Inner Demons", "내면의 악마", "_t")
+t("focus", "집중", "effect subtype")
 t("Bloodbath", "유혈사태", "_t")
 t("summon", "summon", "effect subtype")
+t("Resonance Field", "반향 역장", "_t")
+t("Mind Link", "정신 연결", "_t")
+t("Feedback Loop", "반작용 순환", "_t")
+t("Focused Wrath", "집중된 분노", "_t")
+t("Sleep", "수면", "_t")
+t("Slumber", "숙면", "_t")
+t("Nightmare", "악몽", "_t")
+t("nightmare", "악몽", "effect subtype")
+t("Restless Night", "휴식 없는 밤", "_t")
+t("Forge Shield", "방패 벼림", "_t")
+t("Mindlash", "염력 채찍", "_t")
+t("Thought Sense", "사고 감지", "_t")
+t("Transcendent Telekinesis", "초월 - 동역학", "_t")
+t("Transcendent Pyrokinesis", "초월 - 열역학", "_t")
 t("fire", "화염", "effect subtype")
+t("Transcendent Electrokinesis", "초월 - 전기역학", "_t")
+t("psionic", "초능력", "effect subtype")
 
 
 ------------------------------------------------
@@ -9871,7 +10898,13 @@ t("infusion", "주입", "effect subtype")
 t("Path of the Sun", "태양의 길", "_t")
 t("Shadow Veil", "그림자 장막", "_t")
 t("Summon", "소환", "_t")
+t("A formless terror that seems to cut through the air, and its victims, like a knife.", "형태없는 공포로, 단검처럼 허공과 그의 희생양을 찔러 베고 있는것만 같다.", "_t")
+t("Nightmare", "악몽", "_t")
 t("arcane", "비전", "effect subtype")
+t("Solipsism", "유아론", "_t")
+t("Clarity", "깨달음", "_t")
+t("Dreamscape", "꿈 속 세계", "_t")
+t("psionic", "초능력", "effect subtype")
 t("fire", "화염", "effect subtype")
 t("undead", "언데드", "effect subtype")
 t("madness", "광기", "effect subtype")
@@ -9879,6 +10912,7 @@ t("temporal", "시간", "effect subtype")
 t("Unstoppable", "저지불가", "_t")
 t("combat", "빛의 전투", "effect subtype")
 t("Thunderstorm", "뇌우", "_t")
+t("Throwing Knives", "단검 투척", "_t")
 t("Scoundrel's Strategies", "건달의 전략", "_t")
 t("Fumble", "헛발질", "_t")
 t("sun", "태양", "effect subtype")
@@ -9901,6 +10935,8 @@ t("Expose Weakness", "약점 노출", "_t")
 t("Set Up", "흐트러진 자세", "_t")
 t("Adrenaline Surge", "아드레날린 분출", "_t")
 t("light", "빛", "effect subtype")
+t("Ravage", "대파괴", "_t")
+t("distortion", "왜곡", "effect subtype")
 t("Superb Agility", "우월한 재주", "_t")
 t("Garrote", "교살", "_t")
 t("something", "물체", "_t")
@@ -9909,6 +10945,7 @@ t("Dirty Fighting", "야비한 싸움", "_t")
 t("Soothing Darkness", "위로하는 어둠", "_t")
 t("Shadow Dance", "어둠의 춤", "_t")
 t("Rogue's Brew", "불한당의 양조주", "_t")
+t("Bear Trap", "곰 덫", "_t")
 t("earth", "대지", "effect subtype")
 t("tactical", "전략", "effect subtype")
 t("Bullseye", "정조준", "_t")
@@ -10279,6 +11316,7 @@ t("floor", "바닥", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/dreamscape-talent/zone.lua"
 
+t("Dreamscape", "꿈 속 세계", "_t")
 
 
 ------------------------------------------------
@@ -11716,6 +12754,7 @@ t("Name", "이름", "_t")
 section "game/modules/tome/dialogs/CharacterSheet.lua"
 
 t("Name", "이름", "_t")
+t("Sleep", "수면", "_t")
 t("Inventory", "소지품", "_t")
 t("Female", "여성", "_t")
 t("Male", "남성", "_t")
