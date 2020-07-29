@@ -117,7 +117,7 @@ end)
 section "always_merge"
 
 t("3-head", "3-head", nil)
-t("3-headed hydra", "머리3개 달린 히드라", nil)
+t("3-headed hydra", "세 머리 히드라", nil)
 t("Agrimley the hermit", "Agrimley the hermit", nil)
 t("Allied Kingdoms", "왕국연합", nil)
 t("Angolwen", "앙골웬", nil)
@@ -1288,8 +1288,8 @@ t("resting", "휴식 중", "_t")
 t("rested", "휴식 완료", "_t")
 t("You are %s, press Enter to stop.", "%s 중입니다. Enter키로 종료합니다.", "tformat")
 t("%s starts...", "%s 시작...", "log")
-t("%s for %d turns (stop reason: %s).", "%d 턴 동안 %s (종료 원인: %s).", "log")
-t("%s for %d turns.", "%d 턴 동안 %s", "log")
+t("%s for %d turns (stop reason: %s).", "%d 턴 동안 %s (종료 원인: %s).", "log", {2,1,3})
+t("%s for %d turns.", "%d 턴 동안 %s", "log", {2,1})
 
 
 ------------------------------------------------
