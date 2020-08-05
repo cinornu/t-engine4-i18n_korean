@@ -221,7 +221,11 @@
 "game/modules/tome//data/zones/tutorial-combat-stats/zone.lua"
 "game/modules/tome//data/zones/tutorial/npcs.lua" Khelerd 완
 
-"game/modules/tome/data/zones/halfling-ruins/npcs.lua" Khelerd ??
+"game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
+
+"game/modules/tome/data/zones/halfling-ruins/npcs.lua"
+"game/modules/tome/data/zones/halfling-ruins/objects.lua"
+"game/modules/tome/data/zones/halfling-ruins/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
