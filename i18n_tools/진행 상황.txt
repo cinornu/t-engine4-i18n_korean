@@ -306,7 +306,22 @@ section "game/modules/tome/data/talents/cunning/shadow-magic.lua" Stéphanois �
 section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois 완
 
+section "game/modules/tome/data/timed_effects/floor.lua" 완
+section "game/modules/tome/data/timed_effects/magical.lua" ** 네크로맨서 번역 안함
+section "game/modules/tome/data/timed_effects/mental.lua" ??
 
+
+section "game/modules/tome/dialogs/ShowLore.lua" 완
+section "game/modules/tome/dialogs/ShowMap.lua" 완
+section "game/modules/tome/dialogs/MapMenu.lua" 완
+section "game/modules/tome/dialogs/LevelupDialog.lua" 완
+section "game/modules/tome/dialogs/GraphicMode.lua" 완
+section "game/modules/tome/dialogs/DeathDialog.lua" 완
+section "game/modules/tome/dialogs/Birther.lua" 완
+section "game/modules/tome/dialogs/ArenaFinish.lua" 완
+section "game/modules/tome/data/birth/descriptors.lua" 완
+section "game/modules/tome/data/zones/wilderness/zone.lua" 완
+section "game/modules/tome/data/zones/wilderness/grids.lua" 완
 
 section "game/modules/tome/data/ingredients.lua" ukdong90 ??
 
