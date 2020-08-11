@@ -287,16 +287,7 @@ section "game/dlcs/tome-cults/data/talents/demented/oblivion.lua" Stéphanois �
 section "game/dlcs/tome-cults/data/talents/demented/rift.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
-section "game/modules/tome/data/talents/corruptions/blight.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/blood.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/bone.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/corruptions.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/sanguisuge.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/scourge.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/shadowflame.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/torment.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/vile-life.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/vim.lua" Stéphanois 완
+
 section "game/modules/tome/data/talents/cunning/ambush.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/artifice.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/called-shots.lua" Stéphanois 완
@@ -305,23 +296,61 @@ section "game/modules/tome/data/talents/cunning/dirty.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/shadow-magic.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/age-manipulation.lua" 더미데이터
+section "game/modules/tome/data/talents/chronomancy/anomalies.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/blade-threading.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/bow-threading.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/chronomancer.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/chronomancy.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/energy.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/fate-weaving.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/flux.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/gravity.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/guardian.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/induced-phenomena.lua" 더미데이터
+section "game/modules/tome/data/talents/chronomancy/matter.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/other.lua" Stéphanois  ** 해당 파일 맨 위의 spacetime tuning 이외의 것들은 더미 데이터로 보여짐.
+section "game/modules/tome/data/talents/chronomancy/spacetime-folding.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/spacetime-weaving.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/speed-control.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/spellbinding.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/stasis.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/temporal-archery.lua" 더미데이터
+section "game/modules/tome/data/talents/chronomancy/temporal-combat.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/temporal-hounds.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/threaded-combat.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/timeline-threading.lua" Stéphanois 완
+section "game/modules/tome/data/talents/chronomancy/timetravel.lua" Stéphanois  ** Temporal reprieve 플레이버 텍스트 번역안함
+section "game/modules/tome/data/talents/corruptions/blight.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/blood.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/bone.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/corruptions.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/curses.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/hexes.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/plague.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/reaving-combat.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/rot.lua" Stéphanois 완
 
+
+section "game/modules/tome/data/timed_effects.lua" 완
 section "game/modules/tome/data/timed_effects/floor.lua" 완
 section "game/modules/tome/data/timed_effects/magical.lua" ** 네크로맨서 번역 안함
-section "game/modules/tome/data/timed_effects/mental.lua" ??
+section "game/modules/tome/data/timed_effects/mental.lua" 완
+section "game/modules/tome/data/timed_effects/other.lua" ??
 
 
-section "game/modules/tome/dialogs/ShowLore.lua" 완
-section "game/modules/tome/dialogs/ShowMap.lua" 완
-section "game/modules/tome/dialogs/MapMenu.lua" 완
-section "game/modules/tome/dialogs/LevelupDialog.lua" 완
-section "game/modules/tome/dialogs/GraphicMode.lua" 완
-section "game/modules/tome/dialogs/DeathDialog.lua" 완
-section "game/modules/tome/dialogs/Birther.lua" 완
-section "game/modules/tome/dialogs/ArenaFinish.lua" 완
-section "game/modules/tome/data/birth/descriptors.lua" 완
-section "game/modules/tome/data/zones/wilderness/zone.lua" 완
-section "game/modules/tome/data/zones/wilderness/grids.lua" 완
+section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
+section "game/modules/tome/dialogs/ShowMap.lua" Stéphanois  완
+section "game/modules/tome/dialogs/MapMenu.lua" Stéphanois  완
+section "game/modules/tome/dialogs/LevelupDialog.lua" Stéphanois  완
+section "game/modules/tome/dialogs/GraphicMode.lua" Stéphanois  완
+section "game/modules/tome/dialogs/DeathDialog.lua" Stéphanois  완
+section "game/modules/tome/dialogs/Birther.lua" Stéphanois  완
+section "game/modules/tome/dialogs/ArenaFinish.lua" Stéphanois  완
+section "game/modules/tome/data/birth/descriptors.lua" Stéphanois  완
+section "game/modules/tome/data/zones/wilderness/zone.lua" Stéphanois  완
+section "game/modules/tome/data/zones/wilderness/grids.lua" Stéphanois  완
+section "game/modules/tome/data/damage_types.lua" Stéphanois ** 네크로맨서 번역 안함
 
 section "game/modules/tome/data/ingredients.lua" ukdong90 완
 
