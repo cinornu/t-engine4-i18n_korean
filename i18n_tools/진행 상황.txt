@@ -323,5 +323,5 @@ section "game/modules/tome/data/birth/descriptors.lua" 완
 section "game/modules/tome/data/zones/wilderness/zone.lua" 완
 section "game/modules/tome/data/zones/wilderness/grids.lua" 완
 
-section "game/modules/tome/data/ingredients.lua" ukdong90 ??
+section "game/modules/tome/data/ingredients.lua" ukdong90 완
 
