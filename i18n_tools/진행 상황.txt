@@ -352,5 +352,5 @@ section "game/modules/tome/data/zones/wilderness/zone.lua" Stéphanois  완
 section "game/modules/tome/data/zones/wilderness/grids.lua" Stéphanois  완
 section "game/modules/tome/data/damage_types.lua" Stéphanois ** 네크로맨서 번역 안함
 
-section "game/modules/tome/data/ingredients.lua" ukdong90 ??
+section "game/modules/tome/data/ingredients.lua" ukdong90 완
 
