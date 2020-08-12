@@ -180,6 +180,7 @@
 "game/modules/tome//data/quests/tutorial.lua"
 "game/modules/tome/data/texts/intro-tutorial-combat-stats.lua"
 "game/modules/tome//data/texts/intro-tutorial.lua"
+"game/modules/tome/data/texts/intro-archmage.lua"
 "game/modules/tome/data/texts/intro-yeek.lua" Khelerd 완
 
 "game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
