@@ -288,14 +288,6 @@ section "game/dlcs/tome-cults/data/talents/demented/rift.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
 
-section "game/modules/tome/data/talents/cunning/ambush.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cunning/artifice.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cunning/called-shots.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cunning/cunning.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cunning/dirty.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cunning/shadow-magic.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois 완
 section "game/modules/tome/data/talents/chronomancy/age-manipulation.lua" 더미데이터
 section "game/modules/tome/data/talents/chronomancy/anomalies.lua" Stéphanois 완
 section "game/modules/tome/data/talents/chronomancy/blade-threading.lua" Stéphanois 완
@@ -330,13 +322,42 @@ section "game/modules/tome/data/talents/corruptions/hexes.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/plague.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/reaving-combat.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/rot.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/torment.lua" Stéphanois
+section "game/modules/tome/data/talents/corruptions/vile-life.lua" Stéphanois
+section "game/modules/tome/data/talents/corruptions/vim.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/ambush.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/artifice.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/called-shots.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/cunning.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/dirty.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/shadow-magic.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois
+section "game/modules/tome/data/talents/cunning/traps.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/advanced-shadowmancy.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/cursed-aura.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/cursed-form.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/cursed.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/dark-figure.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/dark-sustenance.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/darkness.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/endless-hunt.lua" Stéphanois
+
+section "game/engines/default/engine/dialogs/LanguageSelect.lua"
+section "game/engines/default/engine/dialogs/ShowAchievements.lua"
+section "game/modules/tome/class/Actor.lua"
+section "game/modules/tome/class/FortressPC.lua"
+section "game/modules/tome/class/Game.lua"
+section "game/modules/tome/class/Object.lua"
+section "game/modules/tome/class/interface/PlayerExplore.lua"
+section "game/modules/tome/class/interface/WorldAchievements.lua"
 
 
-section "game/modules/tome/data/timed_effects.lua" 완
-section "game/modules/tome/data/timed_effects/floor.lua" 완
+section "game/modules/tome/data/timed_effects.lua" Stéphanois   완
+section "game/modules/tome/data/timed_effects/floor.lua" Stéphanois  완
 section "game/modules/tome/data/timed_effects/magical.lua" ** 네크로맨서 번역 안함
-section "game/modules/tome/data/timed_effects/mental.lua" 완
-section "game/modules/tome/data/timed_effects/other.lua" ??
+section "game/modules/tome/data/timed_effects/mental.lua"  Stéphanois 완
+section "game/modules/tome/data/timed_effects/other.lua"  Stéphanois ??
 
 
 section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
