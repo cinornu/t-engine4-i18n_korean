@@ -292,7 +292,9 @@ section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois �
 section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
 
 section "game/modules/tome/data/talents.lua" Stéphanois 완
-section "game/modules/tome/data/talents/misc/horrors.lua" ** horror 이름 번역 안함
+section "game/modules/tome/data/talents/misc/horrors.lua" ** horror 이름 번역 안함 (devaoureur인가?)
+section "game/modules/tome/data/talents/misc/inscriptions.lua" 완 (더미데이터 안함)
+
 
 section "game/modules/tome/data/talents/chronomancy/age-manipulation.lua" 더미데이터
 section "game/modules/tome/data/talents/chronomancy/anomalies.lua" Stéphanois 완
