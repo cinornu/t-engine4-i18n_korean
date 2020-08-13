@@ -183,6 +183,7 @@
 "game/modules/tome/data/texts/intro-archmage.lua"
 "game/modules/tome/data/texts/intro-arena.lua"
 "game/modules/tome/data/texts/intro-chronomancer.lua"
+"game/modules/tome/data/texts/intro-cornac.lua"
 "game/modules/tome/data/texts/intro-yeek.lua" Khelerd 완
 
 "game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
