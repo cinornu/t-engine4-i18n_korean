@@ -812,17 +812,18 @@ t("Enc.", "기타", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowErrorStack.lua"
 
-t("If you already reported that error, you do not have to do it again (unless you feel the situation is different).", "만약 이 에러를 이미 알려 주셨다면 또 하실 필요는 없습니다 (다른 상황에서 겪었다면 알려 주세요).", "_t")
-t("You #LIGHT_GREEN#already reported#WHITE# that error, you do not have to do it again (unless you feel the situation is different).", "만약 이 에러를 #LIGHT_GREEN#이미 알려 주셨다면#WHITE# 또 하실 필요는 없습니다 (다른 상황에서 겪었다면 알려 주세요).", "_t")
-t("You have already got this error but #LIGHT_RED#never reported#WHITE# it, please do.", "이미 이 에러를 보셨더라도 #LIGHT_RED#알려 주시지 않으셨다면#WHITE# 보고해 주시기 바랍니다.", "_t")
-t("You have #LIGHT_RED#never seen#WHITE# that error, please report it.", "이 에러를 #LIGHT_RED#처음으로 보셨다면#WHITE# 알려 주시기 바랍니다.", "_t")
+t("Lua Error", "Lua 오류", "_t")
+t("If you already reported that error, you do not have to do it again (unless you feel the situation is different).", "만약 이 오류를 이미 알려 주셨다면 또 하실 필요는 없습니다 (다른 상황에서 겪었다면 알려 주세요).", "_t")
+t("You #LIGHT_GREEN#already reported#WHITE# that error, you do not have to do it again (unless you feel the situation is different).", "만약 이 오류를 #LIGHT_GREEN#이미 알려 주셨다면#WHITE# 또 하실 필요는 없습니다 (다른 상황에서 겪었다면 알려 주세요).", "_t")
+t("You have already got this error but #LIGHT_RED#never reported#WHITE# it, please do.", "이미 이 오류를 보셨더라도 #LIGHT_RED#알려 주시지 않으셨다면#WHITE# 보고해 주시기 바랍니다.", "_t")
+t("You have #LIGHT_RED#never seen#WHITE# that error, please report it.", "이 오류를 #LIGHT_RED#처음으로 보셨다면#WHITE# 알려 주시기 바랍니다.", "_t")
 t([[#{bold}#Oh my! It seems there was an error!
 The game might still work but this is suspect, please type in your current situation and click on "Send" to send an error report to the game creator.
 If you are not currently connected to the internet, please report this bug when you can on the forums at http://forums.te4.org/
 
-]], [[#{bold}#이럴 수가! 아무래도 에러 같네요!
-게임은 여전히 작동하겠지만, 이 부분은 의심스러워요. 현재 상황을 써주시고 "보내기"를 눌러 제작자에게 에러를 알려 주시기 바랍니다.
-지금 인터넷에 연결되지 않으셨다면, 가능하실 때 이 버그를 다음 주소의 게시판에 올려 주시기 바랍니다. http://forums.te4.org/
+]], [[#{bold}#이럴 수가! 아무래도 오류가 발생한 것 같네요!
+게임은 여전히 작동하겠지만, 이 부분은 의심스러워요. 현재 상황을 써주시고 "보내기"를 눌러 제작자에게 오류가 발생했다는 것을 알려 주시기 바랍니다.
+지금 인터넷에 연결되어있지 않다면, 가능할 때 이 오류를 다음 주소의 게시판에 올려 주시기 바랍니다. http://forums.te4.org/
 
 ]], "_t")
 t("What happened?: ", "무엇이 일어났죠?: ", "_t")
@@ -881,19 +882,19 @@ section "game/engines/default/engine/dialogs/SteamOptions.lua"
 t("Steam Options", "스팀 설정", "_t")
 t([[Enable Steam Cloud saves.
 Your saves will be put on steam cloud and always be available everywhere.
-Disable if you have bandwidth limitations.#WHITE#]], [[스팀 클라우드 저장 사용
-세이브 파일이 스팀 클라우드에 저장되고 그것을 어디서든 불러 올 수 있게 됩니다.
-대역폭이 제한된 상태라면 끄십시오.#WHITE#]], "_t")
-t("#GOLD##{bold}#Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우드 세이브#WHITE##{normal}#", "_t")
+Disable if you have bandwidth limitations.#WHITE#]], [[Steam 클라우드 저장을 활성화합니다.
+저장된 게임이 Steam 클라우드에 동기화되며, 어디에서든 동기화된 게임을 불러올 수 있게됩니다.
+인터넷 속도가 제한된 환경이라면 꺼주세요.#WHITE#]], "_t")
+t("#GOLD##{bold}#Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우드 동기화#WHITE##{normal}#", "_t")
 t("disabled", "끄기", "_t")
 t("enabled", "켜기", "_t")
 t([[Purge all Steam Cloud saves.
-This will remove all saves from the cloud cloud (but not your local copy). Only use if you somehow encounter storage problems on it (which should not happen, the game automatically manages it for you).#WHITE#]], [[모든 스팀 클라우드 세이브 제거
-클라우드 내 세이브를 전부 제거합니다. 로컬 파일은 여전히 남아 있습니다. 저장 공간 문제를 겪고 있을 때만 사용하십시오. (그런 일이 없다면 자동으로 관리됩니다.)#WHITE#]], "_t")
-t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우드 세이브 제거#WHITE##{normal}#", "_t")
+This will remove all saves from the cloud cloud (but not your local copy). Only use if you somehow encounter storage problems on it (which should not happen, the game automatically manages it for you).#WHITE#]], [[Steam 클라우드에 저장된 모든 게임을 제거합니다.
+컴퓨터 내에 저장된 세이브 파일은 제거되지 않습니다. Steam 클라우드의 저장 공간 문제를 발생했을 때만 사용해주세요. (그러한 문제가 발생하지 않았다면 자동으로 관리됩니다.)#WHITE#]], "_t")
+t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우드 파일 제거#WHITE##{normal}#", "_t")
 t("Confirm purge?", "제거에 동의하십니까?", "_t")
-t("All data purged from the cloud.", "모든 데이터가 클라우드에서 제거되었습니다.", "_t")
-t("Steam Cloud Purge", "스팀 클라우드 제거", "_t")
+t("All data purged from the cloud.", "모든 파일이 Steam 클라우드에서 제거되었습니다.", "_t")
+t("Steam Cloud Purge", "Steam 클라우드 제거", "_t")
 
 
 ------------------------------------------------
@@ -943,93 +944,93 @@ section "game/engines/default/engine/dialogs/VideoOptions.lua"
 t("Video Options", "비디오 설정", "_t")
 t("Display resolution.", "화면 해상도.", "_t")
 t("#GOLD##{bold}#Resolution#WHITE##{normal}#", "#GOLD##{bold}#해상도#WHITE##{normal}#", "_t")
-t("If you have a very high DPI screen you may want to raise this value. Requires a restart to take effect.#WHITE#", "DPi가 높은 모니터를 사용하신다면 이 수치를 올리는 게 좋습니다. 적용에는 재시작이 필요합니다.#WHITE#", "_t")
+t("If you have a very high DPI screen you may want to raise this value. Requires a restart to take effect.#WHITE#", "DPI가 높은 모니터를 사용하신다면 이 수치를 올리는 게 좋습니다. 적용에는 재시작이 필요합니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Screen Zoom#WHITE##{normal}#", "#GOLD##{bold}#화면 확대/축소#WHITE##{normal}#", "_t")
 t("Enter Zoom %", "비율 입력 %", "_t")
 t("From 50 to 400", "50부터 400까지", "_t")
 t([[Request this display refresh rate.
-Set it lower to reduce CPU load, higher to increase interface responsiveness.#WHITE#]], [[화면 재생률을 조정
+Set it lower to reduce CPU load, higher to increase interface responsiveness.#WHITE#]], [[화면 재생률을 조정합니다.
 값을 낮추면 CPU 부하가 적어지고, 높이면 인터페이스 반응성이 증가합니다.#WHITE#]], "_t")
 t("#GOLD##{bold}#Requested FPS#WHITE##{normal}#", "#GOLD##{bold}#FPS 조정#WHITE##{normal}#", "_t")
 t("From 5 to 60", "5부터 60까지", "_t")
 t([[Controls the particle effects density.
 This option allows to change the density of the many particle effects in the game.
-If the game is slow when displaying spell effects try to lower this setting.#WHITE#]], [[입자효과 밀도 조정
+If the game is slow when displaying spell effects try to lower this setting.#WHITE#]], [[입자 효과의 밀도를 조정합니다.
 게임 내에서 많은 입자가 사용되는 효과의 밀도를 조절할 수 있습니다.
-주문 효과가 느리게 출력된다면 이 설정값을 낮춰 보십시오.#WHITE#]], "_t")
-t("#GOLD##{bold}#Particle effects density#WHITE##{normal}#", "#GOLD##{bold}#입자효과 밀도#WHITE##{normal}#", "_t")
+주문의 시각적 효과가 느리게 출력된다면 이 설정값을 낮춰 보십시오.#WHITE#]], "_t")
+t("#GOLD##{bold}#Particle effects density#WHITE##{normal}#", "#GOLD##{bold}#입자 효과 밀도#WHITE##{normal}#", "_t")
 t("Enter density", "밀도 입력", "_t")
 t("From 0 to 100", "0부터 100까지", "_t")
 t([[Activates antialiased texts.
 Texts will look nicer but it can be slower on some computers.
 
-#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[안티 앨리어싱 텍스트 활성화
-글자가 깔끔히 표시되지만 어떤 컴퓨터에서는 게임이 느려질 수도 있습니다.
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[글자 출력 시 계단 현상을 방지합니다.
+글자가 깔끔하게 표시되지만, 일부 컴퓨터에서는 게임이 느려질 수도 있습니다.
 
-#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작하셔야 합니다.#WHITE#]], "_t")
-t("#GOLD##{bold}#Antialiased texts#WHITE##{normal}#", "#GOLD##{bold}#안티 앨리어싱 텍스트#WHITE##{normal}#", "_t")
+#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작해야 합니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#Antialiased texts#WHITE##{normal}#", "#GOLD##{bold}#텍스트 안티 앨리어싱#WHITE##{normal}#", "_t")
 t([[Apply a global scaling to all fonts.
-Applies after restarting the game]], [[모든 폰트에 전반적인 스케일링을 적용합니다.
+Applies after restarting the game]], [[모든 글자의 크기 배율을 설정합니다.
 게임 재시작 후 적용됩니다.]], "_t")
-t("#GOLD##{bold}#Font Scale#WHITE##{normal}#", "#GOLD##{bold}#폰트 크기#WHITE##{normal}#", "_t")
-t("Font Scale %", "폰트 크기 %", "_t")
+t("#GOLD##{bold}#Font Scale#WHITE##{normal}#", "#GOLD##{bold}#글자 크기#WHITE##{normal}#", "_t")
+t("Font Scale %", "글자 크기 %", "_t")
 t([[Activates framebuffers.
 This option allows for some special graphical effects.
 If you encounter weird graphical glitches try to disable it.
 
-#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[프레임 버퍼 활성화
-이 기능은 어떠한 특수 그래픽 효과를 허용합니다.
-이상한 그래픽 깨짐이 발생했다면 이 기능을 꺼 보십시오.
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[프레임 버퍼 기능을 활성화합니다.
+이 기능은 특수한 시각적 효과를 활성화합니다.
+만약 시각적 효과에 문제가 발생했다면, 이 기능을 비활성화해보세요.
 
-#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작하셔야 합니다.#WHITE#]], "_t")
+#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작해야 합니다.#WHITE#]], "_t")
 t("#GOLD##{bold}#Framebuffers#WHITE##{normal}#", "#GOLD##{bold}#프레임 버퍼#WHITE##{normal}#", "_t")
 t([[Activates OpenGL Shaders.
 This option allows for some special graphical effects.
 If you encounter weird graphical glitches try to disable it.
 
-#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[OpenGL 셰이더 활성화
-이 기능은 어떠한 특수 그래픽 효과를 허용합니다.
-이상한 그래픽 깨짐이 발생했다면 이 기능을 꺼 보십시오.
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[OpenGL 셰이더를 활성화합니다.
+이 기능은 특수한 시각적 효과를 활성화합니다.
+만약 시각적 효과에 문제가 발생했다면, 이 기능을 비활성화해보세요.
 
-#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작하셔야 합니다.#WHITE#]], "_t")
+#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작해야 합니다.#WHITE#]], "_t")
 t("#GOLD##{bold}#OpenGL Shaders#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 셰이더#WHITE##{normal}#", "_t")
 t([[Activates advanced shaders.
 This option allows for advanced effects (like water surfaces, ...). Disabling it can improve performance.
 
-#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[상급 셰이더 활성화
-이 옵션은 수면 묘사 같은 향상된 효과를 허용합니다. 이 기능을 끄면 게임 성능이 개선될 수 있습니다.
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[고급 OpenGL 셰이더를 활성화합니다.
+이 옵션은 수면 묘사같은 향상된 시각적 효과를 활성화합니다. 이 기능을 끄면 게임 성능이 향상될 수 있습니다.
 
-#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작하셔야 합니다.#WHITE#]], "_t")
-t("#GOLD##{bold}#OpenGL Shaders: Advanced#WHITE##{normal}#", "#GOLD##{bold}#상급 OpenGL 셰이더#WHITE##{normal}#", "_t")
+#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작해야 합니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#OpenGL Shaders: Advanced#WHITE##{normal}#", "#GOLD##{bold}#고급 OpenGL 셰이더#WHITE##{normal}#", "_t")
 t([[Activates distorting shaders.
 This option allows for distortion effects (like spell effects doing a visual distortion, ...). Disabling it can improve performance.
 
-#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[왜곡 효과 활성화
-이 기능은 화면 왜곡을 행하는 주문 표현에 쓰이는 왜곡 효과를 허용합니다. 이 기능을 끄면 게임 성능이 개선될 수 있습니다.
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[왜곡 효과를 활성화합니다.
+이 기능은 주문의 시각적 효과에 쓰이는 화면 왜곡 효과를 활성화합니다. 이 기능을 끄면 게임 성능이 향상될 수 있습니다.
 
-#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작하셔야 합니다.#WHITE#]], "_t")
+#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작해야 합니다.#WHITE#]], "_t")
 t("#GOLD##{bold}#OpenGL Shaders: Distortions#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 셰이더: 왜곡#WHITE##{normal}#", "_t")
 t([[Activates volumetric shaders.
 This option allows for volumetricion effects (like deep starfields). Enabling it will severely reduce performance when shaders are displayed.
 
-#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[부피 셰이더 활성화
-이 기능은 밤하늘 등에 쓰이는 부피 효과를 허용합니다. 이 기능을 켜면 그림자가 표시될 때, 게임 성능이 몹시 저하될 수 있습니다.
+#LIGHT_RED#You must restart the game for it to take effect.#WHITE#]], [[입체 셰이더를 활성화합니다.
+이 기능은 밤하늘 등에 쓰이는 입체 효과를 활성화합니다. 이 기능을 켜면 그림자가 표시될 때 게임 성능이 저하될 수 있습니다.
 
-#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작하셔야 합니다.#WHITE#]], "_t")
-t("#GOLD##{bold}#OpenGL Shaders: Volumetric#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 셰이더: 부피#WHITE##{normal}#", "_t")
+#LIGHT_RED#효과를 적용하려면 반드시 게임을 재시작해야 합니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#OpenGL Shaders: Volumetric#WHITE##{normal}#", "#GOLD##{bold}#OpenGL 셰이더: 입체#WHITE##{normal}#", "_t")
 t([[Use the custom cursor.
-Disabling it will use your normal operating system cursor.#WHITE#]], [[커스텀 커서 사용
-이 기능을 끄면 기존 커서 대신 시스템 커서를 사용할 수 있습니다.#WHITE#]], "_t")
+Disabling it will use your normal operating system cursor.#WHITE#]], [[게임 내의 마우스 커서를 사용합니다.
+이 기능을 끄면 게임 내 커서 대신 기본 마우스 커서를 사용할 수 있습니다.#WHITE#]], "_t")
 t("#GOLD##{bold}#Mouse cursor#WHITE##{normal}#", "#GOLD##{bold}#마우스 커서#WHITE##{normal}#", "_t")
 t([[Gamma correction setting.
-Increase this to get a brighter display.#WHITE#]], [[감마 조절 설정
+Increase this to get a brighter display.#WHITE#]], [[감마 수치를 조절합니다.
 이 수치를 높이면 화면이 밝아집니다.#WHITE#]], "_t")
 t("#GOLD##{bold}#Gamma correction#WHITE##{normal}#", "#GOLD##{bold}#감마 조절#WHITE##{normal}#", "_t")
 t("From 50 to 300", "50부터 300까지", "_t")
 t("Gamma correction", "감마 조절", "_t")
 t([[Enable/disable usage of tilesets.
-In some rare cases on very slow machines with bad GPUs/drivers it can be detrimental.]], [[타일셋 사용 켜기/끄기
-GPu와 드라이버 성능이 나빠서 느린 컴퓨터 같은 드문 조건에서 성능이 나빠질 수 있습니다.]], "_t")
+In some rare cases on very slow machines with bad GPUs/drivers it can be detrimental.]], [[타일셋 사용 유무를 변경합니다.
+성능이 좋지않거나 드라이버에 문제가 있는 일부 컴퓨터에서 문제가 발생할 수도 있습니다.]], "_t")
 t("#GOLD##{bold}#Use tilesets#WHITE##{normal}#", "#GOLD##{bold}#타일셋 사용#WHITE##{normal}#", "_t")
 t("disabled", "끄기", "_t")
 t("enabled", "켜기", "_t")
@@ -1039,18 +1040,18 @@ Useful when dealing with multiple monitors and borderless windows.
 
 The default origin is (0,0).
 
-Note: This value will automatically revert after ten seconds if not confirmed by the user.#WHITE#]], [[게임 윈도우 상 특정한 입력 지점 조정
+Note: This value will automatically revert after ten seconds if not confirmed by the user.#WHITE#]], [[게임 창의 기준점을 설정합니다.
 이 지점은 윈도우가 위치한 좌상단 부분과 일치합니다.
-멀티 모니터를 사용하거나 경계선 없는 창을 띄우고 있을 때 유용합니다.
+여러 개의 모니터를 사용하거나, 경계없는 창을 사용할 때 유용합니다.
 
-디폴트 원점은 (0,0)입니다.
+기본값은 (0,0)입니다.
 
-Note: 유저가 수정값을 10초 이내로 확정하지 않는다면 자동적으로 원래 값으로 되돌아 갑니다.#WHITE#]], "_t")
-t("#GOLD##{bold}#Requested Window Position#WHITE##{normal}#", "#GOLD##{bold}#윈도우 위치 설정#WHITE##{normal}#", "_t")
+노트: 사용자가 10초 내로 결과값을 확정짓지 않으면 이전 값으로 되돌아갑니다..#WHITE#]], "_t")
+t("#GOLD##{bold}#Requested Window Position#WHITE##{normal}#", "#GOLD##{bold}#창 위치 설정#WHITE##{normal}#", "_t")
 t("Enter the x-coordinate", "x값을 입력", "_t")
-t("Window Origin: X-Coordinate", "윈도우 원점: X값", "_t")
+t("Window Origin: X-Coordinate", "창 기준점: X값", "_t")
 t("Enter the y-coordinate", "y값을 입력", "_t")
-t("Window Origin: Y-Coordinate", "윈도우 원점: Y값", "_t")
+t("Window Origin: Y-Coordinate", "창 기준점: Y값", "_t")
 t("Position changed.", "위치 변경됨", "_t")
 t("Save position?", "위치를 저장하시겠습니까?", "_t")
 
@@ -1464,7 +1465,7 @@ Check out the following folder on your computer:
 t("Updating addon: #LIGHT_GREEN#%s", "애드온 업데이트 중: #LIGHT_GREEN#%s", "tformat")
 t("Really exit T-Engine/ToME?", "T-Engine/ToME를 끄시겠습니까?", "_t")
 t("Continue", "계속하기", "_t")
-t("Quit", "출구", "_t")
+t("Quit", "나가기", "_t")
 t([[Welcome to #LIGHT_GREEN#Tales of Maj'Eyal#LAST#!
 
 Before you can start dying in many innovative ways we need to ask you about online play.
