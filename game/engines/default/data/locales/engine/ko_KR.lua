@@ -217,7 +217,7 @@ t("temporal hound", "시간의 사냥개", nil)
 t("thermal", "열역학", nil)
 t("throwing", "투척", nil)
 t("turtle", "거북이", nil)
-t("unarmed", "맨손 전투", nil)
+t("unarmed", "맨손", nil)
 t("undead", "언데드", nil)
 t("unliving", "unliving", nil)
 t("unnatural", "비자연적 존재", nil)
@@ -690,6 +690,7 @@ section "game/engines/default/engine/dialogs/GameMenu.lua"
 
 t("Game Menu", "게임 메뉴", "_t")
 t("Resume", "돌아가기", "_t")
+t("Language", "언어", "_t")
 t("Key Bindings", "키 설정", "_t")
 t("Video Options", "비디오 설정", "_t")
 t("Display Resolution", "표시 해상도", "_t")
@@ -762,14 +763,31 @@ t("Gesture", "제스쳐", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/LanguageSelect.lua"
 
+t("Language Selection", "언어 선택", "_t")
 
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowAchievements.lua"
 
 t("Achievements(%s/%s)", "도전과제(%s/%s)", "tformat")
+t("Yours only", "현재 플레이 중", "_t")
+t("All achieved", "모두 달성", "_t")
+t("Everything", "전체 실적", "_t")
 t("Achievement", "도전과제", "_t")
 t("Category", "분류", "_t")
+t("When", "위치", "_t")
+t("Who", "달성자", "_t")
+t([[#GOLD#Also achieved by your current character#LAST#
+]], [[#GOLD#현재 캐릭터도 도전과제를 달성했습니다#LAST#
+]], "_t")
+t([[#GOLD#Achieved on:#LAST# %s
+#GOLD#Achieved by:#LAST# %s
+%s
+#GOLD#Description:#LAST# %s]], [[#GOLD#달성 일자:#LAST# %s
+#GOLD#달성한 캐릭터:#LAST# %s
+%s
+#GOLD#해제 조건:#LAST# %s]], "tformat")
+t("Progress: ", "진행상황: ", "_t")
 
 
 ------------------------------------------------
@@ -1218,8 +1236,8 @@ t("Use %s?", "%s 사용하시겠습니까?", "tformat", nil, {"를"})
 t("Cancel", "취소", "_t")
 t("Continue", "계속하기", "_t")
 t("unknown", "알 수 없음", "_t")
-t("activates", "발동", "_t")
-t("deactivates", "해제", "_t")
+t("activates", "활성화한다", "_t")
+t("deactivates", "비활성화한다", "_t")
 t("%s uses %s.", "%s %s 사용했다.", "logSeen", nil, {"는","를"})
 t("not enough stat: %s", "능력치 부족: %s", "tformat")
 t("not enough levels", "레벨 부족", "_t")
@@ -1780,6 +1798,9 @@ section "game/engines/default/modules/boot/dialogs/NewGame.lua"
 t("New Game", "새 게임", "_t")
 t("Show all versions", "모든 버전 보이기", "_t")
 t("Show incompatible", "호환되지 않는 버전 보이기", "_t")
+t([[You can get new games at
+#LIGHT_BLUE##{underline}#https://te4.org/games#{normal}#]], [[다음 사이트에서 최신 버전을 다운로드 할 수 있습니다
+#LIGHT_BLUE##{underline}#https://te4.org/games#{normal}#]], "_t")
 t("Game Module", "게임 모듈", "_t")
 t("Version", "버전", "_t")
 t("Enter your character's name", "캐릭터 이름을 입력해주세요", "_t")
