@@ -187,6 +187,12 @@
 "game/modules/tome/data/texts/intro-dwarf.lua"
 "game/modules/tome/data/texts/intro-ghoul.lua"
 "game/modules/tome/data/texts/intro-halfling.lua"
+"game/modules/tome/data/texts/intro-higher.lua"
+"game/modules/tome/data/texts/intro-infinite-dungeon.lua"
+"game/modules/tome/data/texts/intro-ogre.lua"
+"game/modules/tome/data/texts/intro-orc.lua"
+"game/modules/tome/data/texts/intro-shalore.lua"
+"game/modules/tome/data/texts/intro-skeleton.lua"
 "game/modules/tome/data/texts/intro-yeek.lua" Khelerd 완
 
 "game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
