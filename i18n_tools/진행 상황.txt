@@ -291,6 +291,9 @@ section "game/dlcs/tome-cults/data/talents/demented/rift.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
 
+section "game/modules/tome/data/talents.lua" Stéphanois 완
+section "game/modules/tome/data/talents/misc/horrors.lua" ** horror 이름 번역 안함
+
 section "game/modules/tome/data/talents/chronomancy/age-manipulation.lua" 더미데이터
 section "game/modules/tome/data/talents/chronomancy/anomalies.lua" Stéphanois 완
 section "game/modules/tome/data/talents/chronomancy/blade-threading.lua" Stéphanois 완
@@ -315,7 +318,7 @@ section "game/modules/tome/data/talents/chronomancy/temporal-combat.lua" Stépha
 section "game/modules/tome/data/talents/chronomancy/temporal-hounds.lua" Stéphanois 완
 section "game/modules/tome/data/talents/chronomancy/threaded-combat.lua" Stéphanois 완
 section "game/modules/tome/data/talents/chronomancy/timeline-threading.lua" Stéphanois 완
-section "game/modules/tome/data/talents/chronomancy/timetravel.lua" Stéphanois  ** Temporal reprieve 플레이버 텍스트 번역안함
+section "game/modules/tome/data/talents/chronomancy/timetravel.lua" Stéphanois  완
 section "game/modules/tome/data/talents/corruptions/blight.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/blood.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/bone.lua" Stéphanois 완
@@ -325,26 +328,45 @@ section "game/modules/tome/data/talents/corruptions/hexes.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/plague.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/reaving-combat.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/rot.lua" Stéphanois 완
-section "game/modules/tome/data/talents/corruptions/torment.lua" Stéphanois
-section "game/modules/tome/data/talents/corruptions/vile-life.lua" Stéphanois
-section "game/modules/tome/data/talents/corruptions/vim.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/ambush.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/artifice.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/called-shots.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/cunning.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/dirty.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/shadow-magic.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois
-section "game/modules/tome/data/talents/cunning/traps.lua" Stéphanois
-section "game/modules/tome/data/talents/cursed/advanced-shadowmancy.lua" Stéphanois
-section "game/modules/tome/data/talents/cursed/cursed-aura.lua" Stéphanois
-section "game/modules/tome/data/talents/cursed/cursed-form.lua" Stéphanois
-section "game/modules/tome/data/talents/cursed/cursed.lua" Stéphanois
-section "game/modules/tome/data/talents/cursed/dark-figure.lua" Stéphanois
-section "game/modules/tome/data/talents/cursed/dark-sustenance.lua" Stéphanois
-section "game/modules/tome/data/talents/cursed/darkness.lua" Stéphanois
-section "game/modules/tome/data/talents/cursed/endless-hunt.lua" Stéphanois
+section "game/modules/tome/data/talents/corruptions/torment.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/vile-life.lua" Stéphanois 완
+section "game/modules/tome/data/talents/corruptions/vim.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/ambush.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/artifice.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/called-shots.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/cunning.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/dirty.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/shadow-magic.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cunning/traps.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/advanced-shadowmancy.lua" Stéphanois ** 스킬 이름 번역은 '그림자 강타'로 해놨는데 '스톤'이라고 뜨네용 ㅠㅠ
+section "game/modules/tome/data/talents/cursed/cursed-aura.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/cursed-form.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/cursed.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/dark-figure.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/dark-sustenance.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/darkness.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/endless-hunt.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/fears.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/force-of-will.lua" **  Stéphanois Unseen Force 적용안됨
+section "game/modules/tome/data/talents/cursed/gestures.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/gloom.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/one-with-shadows.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/predator.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/primal-magic.lua" 더미데이터
+section "game/modules/tome/data/talents/cursed/punishments.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/rampage.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/shadows.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/slaughter.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/strife.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/traveler.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/antimagic.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/call.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/cold-drake.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/corrosive-blades.lua" Stéphanois
+
+
 
 section "game/engines/default/engine/dialogs/LanguageSelect.lua"
 section "game/engines/default/engine/dialogs/ShowAchievements.lua"
@@ -366,7 +388,7 @@ section "game/modules/tome/data/timed_effects/other.lua"  Stéphanois ??
 section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
 section "game/modules/tome/dialogs/ShowMap.lua" Stéphanois  완
 section "game/modules/tome/dialogs/MapMenu.lua" Stéphanois  완
-section "game/modules/tome/dialogs/LevelupDialog.lua" Stéphanois  완
+section "game/modules/tome/dialogs/LevelupDialog.lua" Stéphanois  ** 이 기술계열은 레벨 %d 부터 사용할 수 있습니다. 지금 이 기술계열을 익히는 것은 쓸모가 없습니다 <- 짤려나옴
 section "game/modules/tome/dialogs/GraphicMode.lua" Stéphanois  완
 section "game/modules/tome/dialogs/DeathDialog.lua" Stéphanois  완
 section "game/modules/tome/dialogs/Birther.lua" Stéphanois  완
