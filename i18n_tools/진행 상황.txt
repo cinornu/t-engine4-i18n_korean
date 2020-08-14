@@ -193,6 +193,8 @@
 "game/modules/tome/data/texts/intro-orc.lua"
 "game/modules/tome/data/texts/intro-shalore.lua"
 "game/modules/tome/data/texts/intro-skeleton.lua"
+"game/modules/tome/data/texts/intro-sunwall.lua"
+"game/modules/tome/data/texts/intro-thalore.lua"
 "game/modules/tome/data/texts/intro-yeek.lua" Khelerd 완
 
 "game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
