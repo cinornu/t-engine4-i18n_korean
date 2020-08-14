@@ -292,20 +292,10 @@
 "game/engines/default/modules/boot/dialogs/LoadGame.lua" Magpie 완
 
 
-section "game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua" Stéphanois 완
-section "game/dlcs/tome-cults/data/talents/demented/calamity.lua" Stéphanois 완
-section "game/dlcs/tome-cults/data/talents/demented/chronophage.lua" Stéphanois 완
-section "game/dlcs/tome-cults/data/talents/demented/doom.lua" Stéphanois  완
-section "game/dlcs/tome-cults/data/talents/demented/entropy.lua" Stéphanois 완
-section "game/dlcs/tome-cults/data/talents/demented/madness.lua" Stéphanois 완
-section "game/dlcs/tome-cults/data/talents/demented/nether.lua" Stéphanois 완
-section "game/dlcs/tome-cults/data/talents/demented/oblivion.lua" Stéphanois 완
-section "game/dlcs/tome-cults/data/talents/demented/rift.lua" stephanois 완
-section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois 완
-section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
+본편 기술들---------------------------------------------------------------------------------------
 
 section "game/modules/tome/data/talents.lua" Stéphanois 완
-section "game/modules/tome/data/talents/misc/horrors.lua" ** horror 이름 번역 안함 (devaoureur인가?)
+section "game/modules/tome/data/talents/misc/horrors.lua" ** horror 이름 번역 안함 (devaureur인가?)
 section "game/modules/tome/data/talents/misc/inscriptions.lua" 완 (더미데이터 안함)
 
 
@@ -380,19 +370,93 @@ section "game/modules/tome/data/talents/gifts/antimagic.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/call.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/cold-drake.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/corrosive-blades.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/dwarven-nature.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/earthen-power.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/earthen-vines.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/eyals-fury.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/fire-drake.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/fungus.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/gifts.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/harmony.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/higher-draconic.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/malleable-body.lua" 더미데이터
+section "game/modules/tome/data/talents/gifts/mindstar-mastery.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/moss.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/mucus.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/ooze.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/oozing-blades.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/sand-drake.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/slime.lua" Stéphanois
+
+컬트 기술들-----------------------------------------------------------------------------------
+
+section "game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/calamity.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/chronophage.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/doom.lua" Stéphanois  완
+section "game/dlcs/tome-cults/data/talents/demented/entropy.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/madness.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/nether.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/oblivion.lua" Stéphanois 완
+section "game/dlcs/tome-cults/data/talents/demented/rift.lua" stephanois 완
+section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois 완
+section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
 
 
+장비 설명들--------------------------------------------------------------
+section "game/modules/tome/data/general/objects/2haxes.lua" Stéphanois
+section "game/modules/tome/data/general/objects/2hmaces.lua" Stéphanois
+section "game/modules/tome/data/general/objects/2hswords.lua" Stéphanois
+section "game/modules/tome/data/general/objects/2htridents.lua" Stéphanois
+section "game/modules/tome/data/general/objects/axes.lua" Stéphanois
+section "game/modules/tome/data/general/objects/bows.lua" Stéphanois
+section "game/modules/tome/data/general/objects/cloak.lua" Stéphanois
+section "game/modules/tome/data/general/objects/cloth-armors.lua" Stéphanois
+section "game/modules/tome/data/general/objects/digger.lua" Stéphanois
+section "game/modules/tome/data/general/objects/gauntlets.lua" Stéphanois
+section "game/modules/tome/data/general/objects/gloves.lua" Stéphanois
+section "game/modules/tome/data/general/objects/heavy-armors.lua" Stéphanois
+section "game/modules/tome/data/general/objects/heavy-boots.lua" Stéphanois
+section "game/modules/tome/data/general/objects/helms.lua" Stéphanois
+section "game/modules/tome/data/general/objects/jewelry.lua" Stéphanois
+section "game/modules/tome/data/general/objects/knifes.lua" Stéphanois
+section "game/modules/tome/data/general/objects/leather-belt.lua" Stéphanois
+section "game/modules/tome/data/general/objects/leather-boots.lua" Stéphanois
+section "game/modules/tome/data/general/objects/leather-caps.lua" Stéphanois
+section "game/modules/tome/data/general/objects/light-armors.lua" Stéphanois
+section "game/modules/tome/data/general/objects/lites.lua" Stéphanois
+section "game/modules/tome/data/general/objects/maces.lua" Stéphanois
+section "game/modules/tome/data/general/objects/massive-armors.lua" Stéphanois
+section "game/modules/tome/data/general/objects/mindstars.lua" Stéphanois
+section "game/modules/tome/data/general/objects/misc-tools.lua" Stéphanois
+section "game/modules/tome/data/general/objects/money.lua" Stéphanois
+section "game/modules/tome/data/general/objects/mounts.lua" Stéphanois 더미데이터인 것으로 보이나 그냥 번역함
+section "game/modules/tome/data/general/objects/mummy-wrappings.lua" Stéphanois
+section "game/modules/tome/data/general/objects/scrolls.lua" Stéphanois 더미데이터 번역 안함 
+section "game/modules/tome/data/general/objects/shields.lua" Stéphanois
+section "game/modules/tome/data/general/objects/slings.lua" Stéphanois
+section "game/modules/tome/data/general/objects/staves.lua" Stéphanois
+section "game/modules/tome/data/general/objects/swords.lua" Stéphanois
+section "game/modules/tome/data/general/objects/torques.lua" Stéphanois
+section "game/modules/tome/data/general/objects/totems.lua" Stéphanois
+section "game/modules/tome/data/general/objects/wands.lua" Stéphanois
+section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
+section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
 
-section "game/engines/default/engine/dialogs/LanguageSelect.lua"
-section "game/engines/default/engine/dialogs/ShowAchievements.lua"
-section "game/modules/tome/class/Actor.lua"
-section "game/modules/tome/class/FortressPC.lua"
-section "game/modules/tome/class/Game.lua"
-section "game/modules/tome/class/Object.lua"
-section "game/modules/tome/class/interface/PlayerExplore.lua"
-section "game/modules/tome/class/interface/WorldAchievements.lua"
+section "game/modules/tome/class/Game.lua" Stéphanois - 기본적인 게임 로그메시지들
+section "game/modules/tome/class/Object.lua" Stéphanois - 게임 시스템 / 아이템 창
+section "game/modules/tome/class/Actor.lua" Stéphanois - 오른쪽 아래에 뜨는 설명창과 레벨 업 창, 다양한 로그메시지들
+section "game/modules/tome/dialogs/CharacterSheet.lua" Stéphanois 캐릭터 시트 ???
 
+section "game/engines/default/engine/dialogs/LanguageSelect.lua" Stéphanois
+section "game/engines/default/engine/dialogs/ShowAchievements.lua" Stéphanois
 
+section "game/modules/tome/class/FortressPC.lua" Stéphanois
+
+section "game/modules/tome/class/interface/PlayerExplore.lua" Stéphanois
+section "game/modules/tome/class/interface/WorldAchievements.lua" Stéphanois
+
+section "game/modules/tome/data/damage_types.lua" Stéphanois ** 네크로맨서 번역 안함
 section "game/modules/tome/data/timed_effects.lua" Stéphanois   완
 section "game/modules/tome/data/timed_effects/floor.lua" Stéphanois  완
 section "game/modules/tome/data/timed_effects/magical.lua" ** 네크로맨서 번역 안함
@@ -403,15 +467,22 @@ section "game/modules/tome/data/timed_effects/other.lua"  Stéphanois ??
 section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
 section "game/modules/tome/dialogs/ShowMap.lua" Stéphanois  완
 section "game/modules/tome/dialogs/MapMenu.lua" Stéphanois  완
-section "game/modules/tome/dialogs/LevelupDialog.lua" Stéphanois  ** 이 기술계열은 레벨 %d 부터 사용할 수 있습니다. 지금 이 기술계열을 익히는 것은 쓸모가 없습니다 <- 짤려나옴
 section "game/modules/tome/dialogs/GraphicMode.lua" Stéphanois  완
+
+section "game/modules/tome/dialogs/ArenaFinish.lua" Stéphanois  완
+
+section "game/modules/tome/data/birth/descriptors.lua" Stéphanois  완
 section "game/modules/tome/dialogs/DeathDialog.lua" Stéphanois  완
 section "game/modules/tome/dialogs/Birther.lua" Stéphanois  완
-section "game/modules/tome/dialogs/ArenaFinish.lua" Stéphanois  완
-section "game/modules/tome/data/birth/descriptors.lua" Stéphanois  완
+section "game/modules/tome/dialogs/LevelupDialog.lua" Stéphanois  ** 이 기술계열은 레벨 %d 부터 사용할 수 있습니다. 지금 이 기술계열을 익히는 것은 쓸모가 없습니다 <- 짤려나옴
+section "game/modules/tome/dialogs/PartyOrder.lua
+
 section "game/modules/tome/data/zones/wilderness/zone.lua" Stéphanois  완
 section "game/modules/tome/data/zones/wilderness/grids.lua" Stéphanois  완
-section "game/modules/tome/data/damage_types.lua" Stéphanois ** 네크로맨서 번역 안함
+
+
+
+
 
 section "game/modules/tome/data/ingredients.lua" ukdong90 완
 
