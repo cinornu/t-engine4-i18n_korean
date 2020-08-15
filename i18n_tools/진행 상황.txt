@@ -475,8 +475,8 @@ section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
 
 section "game/modules/tome/class/Game.lua" Stéphanois - 기본적인 게임 로그메시지들
-section "game/modules/tome/class/Object.lua" Stéphanois - 게임 시스템 / 아이템 창
-section "game/modules/tome/class/Actor.lua" Stéphanois - 오른쪽 아래에 뜨는 설명창과 레벨 업 창, 다양한 로그메시지들
+section "game/modules/tome/class/Object.lua" Stéphanois - 게임 시스템 / 아이템 창					
+section "game/modules/tome/class/Actor.lua" Stéphanois - 오른쪽 아래에 뜨는 설명창과 레벨 업 창, 다양한 로그메시지들	
 section "game/modules/tome/dialogs/CharacterSheet.lua" Stéphanois 캐릭터 시트 ???
 
 section "game/engines/default/engine/dialogs/LanguageSelect.lua" Stéphanois
@@ -506,7 +506,8 @@ section "game/modules/tome/data/birth/descriptors.lua" Stéphanois  완
 section "game/modules/tome/dialogs/DeathDialog.lua" Stéphanois  완
 section "game/modules/tome/dialogs/Birther.lua" Stéphanois  완
 section "game/modules/tome/dialogs/LevelupDialog.lua" Stéphanois  ** 이 기술계열은 레벨 %d 부터 사용할 수 있습니다. 지금 이 기술계열을 익히는 것은 쓸모가 없습니다 <- 짤려나옴
-section "game/modules/tome/dialogs/PartyOrder.lua
+section "game/modules/tome/dialogs/PartyOrder.lua 완
+section "game/modules/tome/dialogs/CharacterSheet.lua" 완
 
 section "game/modules/tome/data/zones/wilderness/zone.lua" Stéphanois  완
 section "game/modules/tome/data/zones/wilderness/grids.lua" Stéphanois  완
