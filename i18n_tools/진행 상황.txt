@@ -485,4 +485,6 @@ section "game/modules/tome/data/zones/wilderness/grids.lua" Stéphanois  완
 
 
 section "game/modules/tome/data/ingredients.lua" ukdong90 완
+section "game/dlcs/tome-ashes-urhrok/overload/data/chats/ashes-urhrok-walrog-pop.lua" ukdong90 *** (indecision에 대한 배경 지식을 알 수 없어 번역하지 못함)
+section "game/dlcs/tome-cults/data/lore/fay-willows.lua" ukdong90 작업중
 
