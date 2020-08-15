@@ -298,9 +298,6 @@ section "game/modules/tome/data/zones/reknor-escape/npcs.lua" Khelerd 완
 본편 기술들---------------------------------------------------------------------------------------
 
 section "game/modules/tome/data/talents.lua" Stéphanois 완
-section "game/modules/tome/data/talents/misc/horrors.lua" ** horror 이름 번역 안함 (devaureur인가?)
-section "game/modules/tome/data/talents/misc/inscriptions.lua" 완 (더미데이터 안함)
-
 
 section "game/modules/tome/data/talents/chronomancy/age-manipulation.lua" 더미데이터
 section "game/modules/tome/data/talents/chronomancy/anomalies.lua" Stéphanois 완
@@ -327,6 +324,7 @@ section "game/modules/tome/data/talents/chronomancy/temporal-hounds.lua" Stépha
 section "game/modules/tome/data/talents/chronomancy/threaded-combat.lua" Stéphanois 완
 section "game/modules/tome/data/talents/chronomancy/timeline-threading.lua" Stéphanois 완
 section "game/modules/tome/data/talents/chronomancy/timetravel.lua" Stéphanois  완
+
 section "game/modules/tome/data/talents/corruptions/blight.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/blood.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/bone.lua" Stéphanois 완
@@ -339,6 +337,7 @@ section "game/modules/tome/data/talents/corruptions/rot.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/torment.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/vile-life.lua" Stéphanois 완
 section "game/modules/tome/data/talents/corruptions/vim.lua" Stéphanois 완
+
 section "game/modules/tome/data/talents/cunning/ambush.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/artifice.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/called-shots.lua" Stéphanois 완
@@ -348,6 +347,7 @@ section "game/modules/tome/data/talents/cunning/shadow-magic.lua" Stéphanois �
 section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/traps.lua" Stéphanois 완
+
 section "game/modules/tome/data/talents/cursed/advanced-shadowmancy.lua" Stéphanois ** 스킬 이름 번역은 '그림자 강타'로 해놨는데 '스톤'이라고 뜨네용 ㅠㅠ
 section "game/modules/tome/data/talents/cursed/cursed-aura.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cursed/cursed-form.lua" Stéphanois 완
@@ -369,6 +369,7 @@ section "game/modules/tome/data/talents/cursed/shadows.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/slaughter.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/strife.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/traveler.lua" Stéphanois
+
 section "game/modules/tome/data/talents/gifts/antimagic.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/call.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/cold-drake.lua" Stéphanois
@@ -390,6 +391,22 @@ section "game/modules/tome/data/talents/gifts/ooze.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/oozing-blades.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/sand-drake.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/slime.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/storm-drake.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/summon-advanced.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/summon-augmentation.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/summon-distance.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/summon-melee.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/summon-utility.lua" Stéphanois
+section "game/modules/tome/data/talents/gifts/venom-drake.lua" Stéphanois
+
+section "game/modules/tome/data/talents/misc/horrors.lua" Stéphanois  ** horror 이름 번역 안함 (devaureur인가?)
+section "game/modules/tome/data/talents/misc/npcs.lua" Stéphanois 
+section "game/modules/tome/data/talents/misc/inscriptions.lua" Stéphanois  완 (더미데이터 안함)
+section "game/modules/tome/data/talents/misc/objects.lua" ** yiilkgur / morrigor 번역명 필요
+section "game/modules/tome/data/talents/misc/tutorial.lua" Stéphanois 
+section "game/modules/tome/data/talents/misc/races.lua" **Conclave 번역명 필요
+section "game/modules/tome/data/talents/misc/misc.lua"
+
 
 컬트 기술들-----------------------------------------------------------------------------------
 
