@@ -407,6 +407,17 @@ section "game/modules/tome/data/talents/misc/tutorial.lua" Stéphanois
 section "game/modules/tome/data/talents/misc/races.lua" **Conclave 번역명 필요
 section "game/modules/tome/data/talents/misc/misc.lua"
 
+section "game/modules/tome/data/talents/psionic/absorption.lua"
+section "game/modules/tome/data/talents/psionic/augmented-mobility.lua"
+section "game/modules/tome/data/talents/psionic/augmented-striking.lua"
+section "game/modules/tome/data/talents/psionic/charged-mastery.lua"
+section "game/modules/tome/data/talents/psionic/discharge.lua"
+section "game/modules/tome/data/talents/psionic/distortion.lua"
+section "game/modules/tome/data/talents/psionic/dream-forge.lua"
+section "game/modules/tome/data/talents/psionic/dream-smith.lua"
+section "game/modules/tome/data/talents/psionic/dreaming.lua"
+section "game/modules/tome/data/talents/psionic/feedback.lua"
+
 
 컬트 기술들-----------------------------------------------------------------------------------
 
