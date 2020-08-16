@@ -426,6 +426,21 @@ section "game/modules/tome/data/talents/psionic/nightmare.lua"
 section "game/modules/tome/data/talents/psionic/other.lua"
 section "game/modules/tome/data/talents/psionic/projection.lua"
 section "game/modules/tome/data/talents/psionic/psi-archery.lua" 더미데이터
+section "game/modules/tome/data/talents/psionic/psi-fighting.lua"
+section "game/modules/tome/data/talents/psionic/psionic.lua"
+section "game/modules/tome/data/talents/psionic/psychic-assault.lua"
+section "game/modules/tome/data/talents/psionic/slumber.lua"
+section "game/modules/tome/data/talents/psionic/solipsism.lua"
+section "game/modules/tome/data/talents/psionic/telekinetic-combat.lua" 더미데이터
+section "game/modules/tome/data/talents/psionic/thermal-mastery.lua"
+section "game/modules/tome/data/talents/psionic/thought-forms.lua"
+section "game/modules/tome/data/talents/psionic/trance.lua" 더미데이터
+section "game/modules/tome/data/talents/psionic/voracity.lua"
+
+section "game/modules/tome/data/talents/spells/acid-alchemy.lua"
+section "game/modules/tome/data/talents/spells/advanced-golemancy.lua"
+section "game/modules/tome/data/talents/spells/advanced-necrotic-minions.lua" 더미데이터
+section "game/modules/tome/data/talents/spells/aegis.lua"
 
 
 컬트 기술들-----------------------------------------------------------------------------------
