@@ -417,6 +417,15 @@ section "game/modules/tome/data/talents/psionic/dream-forge.lua"
 section "game/modules/tome/data/talents/psionic/dream-smith.lua"
 section "game/modules/tome/data/talents/psionic/dreaming.lua"
 section "game/modules/tome/data/talents/psionic/feedback.lua"
+section "game/modules/tome/data/talents/psionic/finer-energy-manipulations.lua"
+section "game/modules/tome/data/talents/psionic/focus.lua"
+section "game/modules/tome/data/talents/psionic/kinetic-mastery.lua"
+section "game/modules/tome/data/talents/psionic/mental-discipline.lua" 더미데이터
+section "game/modules/tome/data/talents/psionic/mentalism.lua"
+section "game/modules/tome/data/talents/psionic/nightmare.lua"
+section "game/modules/tome/data/talents/psionic/other.lua"
+section "game/modules/tome/data/talents/psionic/projection.lua"
+section "game/modules/tome/data/talents/psionic/psi-archery.lua" 더미데이터
 
 
 컬트 기술들-----------------------------------------------------------------------------------
