@@ -441,6 +441,16 @@ section "game/modules/tome/data/talents/spells/acid-alchemy.lua"
 section "game/modules/tome/data/talents/spells/advanced-golemancy.lua"
 section "game/modules/tome/data/talents/spells/advanced-necrotic-minions.lua" 더미데이터
 section "game/modules/tome/data/talents/spells/aegis.lua"
+section "game/modules/tome/data/talents/spells/aether.lua"
+section "game/modules/tome/data/talents/spells/age-of-dusk.lua" 네크
+section "game/modules/tome/data/talents/spells/air.lua"
+section "game/modules/tome/data/talents/spells/animus.lua" 네크
+section "game/modules/tome/data/talents/spells/arcane.lua"
+section "game/modules/tome/data/talents/spells/conveyance.lua"
+section "game/modules/tome/data/talents/spells/death.lua" 네크
+section "game/modules/tome/data/talents/spells/deeprock.lua"
+section "game/modules/tome/data/talents/spells/divination.lua"
+section "game/modules/tome/data/talents/spells/dreadmaster.lua" 네크
 
 
 컬트 기술들-----------------------------------------------------------------------------------
