@@ -408,54 +408,54 @@ section "game/modules/tome/data/talents/gifts/venom-drake.lua" Stéphanois
 section "game/modules/tome/data/talents/misc/horrors.lua" Stéphanois  ** horror 이름 번역 안함 (devaureur인가?)
 section "game/modules/tome/data/talents/misc/npcs.lua" Stéphanois 
 section "game/modules/tome/data/talents/misc/inscriptions.lua" Stéphanois  완 (더미데이터 안함)
-section "game/modules/tome/data/talents/misc/objects.lua" ** yiilkgur / morrigor 번역명 필요
+section "game/modules/tome/data/talents/misc/objects.lua" Stéphanois ** yiilkgur / morrigor 번역명 필요
 section "game/modules/tome/data/talents/misc/tutorial.lua" Stéphanois 
 section "game/modules/tome/data/talents/misc/races.lua" **Conclave 번역명 필요
 section "game/modules/tome/data/talents/misc/misc.lua"
 
-section "game/modules/tome/data/talents/psionic/absorption.lua"
-section "game/modules/tome/data/talents/psionic/augmented-mobility.lua"
-section "game/modules/tome/data/talents/psionic/augmented-striking.lua"
-section "game/modules/tome/data/talents/psionic/charged-mastery.lua"
-section "game/modules/tome/data/talents/psionic/discharge.lua"
-section "game/modules/tome/data/talents/psionic/distortion.lua"
-section "game/modules/tome/data/talents/psionic/dream-forge.lua"
-section "game/modules/tome/data/talents/psionic/dream-smith.lua"
-section "game/modules/tome/data/talents/psionic/dreaming.lua"
-section "game/modules/tome/data/talents/psionic/feedback.lua"
-section "game/modules/tome/data/talents/psionic/finer-energy-manipulations.lua"
-section "game/modules/tome/data/talents/psionic/focus.lua"
-section "game/modules/tome/data/talents/psionic/kinetic-mastery.lua"
+section "game/modules/tome/data/talents/psionic/absorption.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/augmented-mobility.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/augmented-striking.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/charged-mastery.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/discharge.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/distortion.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/dream-forge.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/dream-smith.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/dreaming.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/feedback.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/finer-energy-manipulations.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/focus.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/kinetic-mastery.lua" Stéphanois 
 section "game/modules/tome/data/talents/psionic/mental-discipline.lua" 더미데이터
-section "game/modules/tome/data/talents/psionic/mentalism.lua"
-section "game/modules/tome/data/talents/psionic/nightmare.lua"
-section "game/modules/tome/data/talents/psionic/other.lua"
-section "game/modules/tome/data/talents/psionic/projection.lua"
+section "game/modules/tome/data/talents/psionic/mentalism.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/nightmare.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/other.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/projection.lua" Stéphanois 
 section "game/modules/tome/data/talents/psionic/psi-archery.lua" 더미데이터
-section "game/modules/tome/data/talents/psionic/psi-fighting.lua"
-section "game/modules/tome/data/talents/psionic/psionic.lua"
-section "game/modules/tome/data/talents/psionic/psychic-assault.lua"
-section "game/modules/tome/data/talents/psionic/slumber.lua"
-section "game/modules/tome/data/talents/psionic/solipsism.lua"
+section "game/modules/tome/data/talents/psionic/psi-fighting.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/psionic.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/psychic-assault.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/slumber.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/solipsism.lua" Stéphanois 
 section "game/modules/tome/data/talents/psionic/telekinetic-combat.lua" 더미데이터
-section "game/modules/tome/data/talents/psionic/thermal-mastery.lua"
-section "game/modules/tome/data/talents/psionic/thought-forms.lua"
+section "game/modules/tome/data/talents/psionic/thermal-mastery.lua" Stéphanois 
+section "game/modules/tome/data/talents/psionic/thought-forms.lua" Stéphanois 
 section "game/modules/tome/data/talents/psionic/trance.lua" 더미데이터
-section "game/modules/tome/data/talents/psionic/voracity.lua"
+section "game/modules/tome/data/talents/psionic/voracity.lua" Stéphanois 
 
-section "game/modules/tome/data/talents/spells/acid-alchemy.lua"
-section "game/modules/tome/data/talents/spells/advanced-golemancy.lua"
+section "game/modules/tome/data/talents/spells/acid-alchemy.lua" Stéphanois 
+section "game/modules/tome/data/talents/spells/advanced-golemancy.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/advanced-necrotic-minions.lua" 더미데이터
-section "game/modules/tome/data/talents/spells/aegis.lua"
-section "game/modules/tome/data/talents/spells/aether.lua"
+section "game/modules/tome/data/talents/spells/aegis.lua" Stéphanois 
+section "game/modules/tome/data/talents/spells/aether.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/age-of-dusk.lua" 네크
-section "game/modules/tome/data/talents/spells/air.lua"
+section "game/modules/tome/data/talents/spells/air.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/animus.lua" 네크
-section "game/modules/tome/data/talents/spells/arcane.lua"
-section "game/modules/tome/data/talents/spells/conveyance.lua"
+section "game/modules/tome/data/talents/spells/arcane.lua" Stéphanois 
+section "game/modules/tome/data/talents/spells/conveyance.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/death.lua" 네크
-section "game/modules/tome/data/talents/spells/deeprock.lua"
-section "game/modules/tome/data/talents/spells/divination.lua"
+section "game/modules/tome/data/talents/spells/deeprock.lua" Stéphanois 
+section "game/modules/tome/data/talents/spells/divination.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/dreadmaster.lua" 네크
 
 
