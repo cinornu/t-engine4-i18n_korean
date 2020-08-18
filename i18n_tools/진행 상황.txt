@@ -243,8 +243,14 @@
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
 "game/modules/tome/data/zones/halfling-ruins/zone.lua" Khelerd 완
 
-section "game/modules/tome/data/zones/reknor-escape/grids.lua"
-section "game/modules/tome/data/zones/reknor-escape/npcs.lua" Khelerd 완
+"game/modules/tome/data/zones/reknor-escape/grids.lua"
+"game/modules/tome/data/zones/reknor-escape/npcs.lua"
+"game/modules/tome/data/zones/reknor-escape/objects.lua"
+"game/modules/tome/data/zones/reknor-escape/zone.lua"
+"game/modules/tome/data/zones/reknor/grids.lua"
+"game/modules/tome/data/zones/reknor/npcs.lua"
+"game/modules/tome/data/zones/reknor/objects.lua"
+"game/modules/tome/data/zones/reknor/zone.lua"Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
