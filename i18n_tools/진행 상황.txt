@@ -534,12 +534,14 @@ section "game/modules/tome/class/FortressPC.lua" Stéphanois
 section "game/modules/tome/class/interface/PlayerExplore.lua" Stéphanois
 section "game/modules/tome/class/interface/WorldAchievements.lua" Stéphanois
 
+지속 효과들--------------------------------------------------------------
 section "game/modules/tome/data/damage_types.lua" Stéphanois ** 네크로맨서 번역 안함
 section "game/modules/tome/data/timed_effects.lua" Stéphanois   완
 section "game/modules/tome/data/timed_effects/floor.lua" Stéphanois  완
 section "game/modules/tome/data/timed_effects/magical.lua" ** 네크로맨서 번역 안함
 section "game/modules/tome/data/timed_effects/mental.lua"  Stéphanois 완
-section "game/modules/tome/data/timed_effects/other.lua"  Stéphanois ??
+section "game/modules/tome/data/timed_effects/other.lua"  Stéphanois 완
+section "game/modules/tome/data/timed_effects/physical.lua" Stéphanois
 
 
 section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
