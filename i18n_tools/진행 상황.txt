@@ -472,6 +472,14 @@ section "game/dlcs/tome-cults/data/talents/demented/oblivion.lua" Stéphanois �
 section "game/dlcs/tome-cults/data/talents/demented/rift.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
+section "game/dlcs/tome-cults/data/talents/demented/scourge-drake.lua"
+section "game/dlcs/tome-cults/data/talents/demented/writhing-body.lua" 더미데이터
+
+section "game/dlcs/tome-cults/data/talents/misc/misc.lua" ** Kroshkkur /  Amakthel 번역명필요
+section "game/dlcs/tome-cults/data/talents/misc/races.lua"
+
+오크 기술들------------------------------------------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents.lua"
 
 
 장비 설명들--------------------------------------------------------------
@@ -513,6 +521,9 @@ section "game/modules/tome/data/general/objects/totems.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wands.lua" Stéphanois
 section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
+
+section "game/modules/tome/data/general/objects/egos/ammo.lua" Stéphanois
+
 
 section "game/modules/tome/class/Game.lua" Stéphanois - 기본적인 게임 로그메시지들
 section "game/modules/tome/class/Object.lua" Stéphanois - 게임 시스템 / 아이템 창					
