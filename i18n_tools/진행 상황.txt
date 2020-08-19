@@ -250,7 +250,18 @@
 "game/modules/tome/data/zones/reknor/grids.lua"
 "game/modules/tome/data/zones/reknor/npcs.lua"
 "game/modules/tome/data/zones/reknor/objects.lua"
-"game/modules/tome/data/zones/reknor/zone.lua"Khelerd 완
+"game/modules/tome/data/zones/reknor/zone.lua"
+"game/modules/tome/data/zones/rhaloren-camp/npcs.lua"
+"game/modules/tome/data/zones/rhaloren-camp/objects.lua"
+"game/modules/tome/data/zones/rhaloren-camp/zone.lua"
+"game/modules/tome/data/zones/ring-of-blood/grids.lua"
+"game/modules/tome/data/zones/ring-of-blood/npcs.lua"
+"game/modules/tome/data/zones/ring-of-blood/objects.lua"
+"game/modules/tome/data/zones/ring-of-blood/zone.lua"
+"game/modules/tome/data/zones/ritch-tunnels/npcs.lua"
+"game/modules/tome/data/zones/ritch-tunnels/zone.lua"
+"game/modules/tome/data/zones/ruined-dungeon/grids.lua"
+"game/modules/tome/data/zones/ruined-dungeon/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
