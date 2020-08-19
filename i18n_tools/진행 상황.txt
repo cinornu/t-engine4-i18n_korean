@@ -259,7 +259,9 @@
 "game/modules/tome/data/zones/ring-of-blood/objects.lua"
 "game/modules/tome/data/zones/ring-of-blood/zone.lua"
 "game/modules/tome/data/zones/ritch-tunnels/npcs.lua"
-"game/modules/tome/data/zones/ritch-tunnels/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/ritch-tunnels/zone.lua"
+"game/modules/tome/data/zones/ruined-dungeon/grids.lua"
+"game/modules/tome/data/zones/ruined-dungeon/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
