@@ -556,6 +556,7 @@ function _M:loadAddons(mod, saveuse)
 	if saveuse then saveuse = table.reverse(saveuse) end
 
 	local force_remove_addons = {}
+	local beta_removed = {}
 
 	-- Filter based on settings
 	for i = #adds, 1, -1 do
@@ -585,6 +586,10 @@ function _M:loadAddons(mod, saveuse)
 					print("Removing addon "..add.short_name..": not allowed by config")
 					table.remove(adds, i) removed = true
 				end
+			elseif not config.settings.cheat and not engine.beta_allow_addon(add) then
+				print("Removing addon "..add.short_name..": game beta forbids")
+				table.remove(adds, i) removed = true
+				beta_removed[#beta_removed+1] = add.long_name
 			else
 				-- Forbidden by version
 				if not add.natural_compatible then
@@ -625,6 +630,12 @@ You may try to force loading if you are sure the savefile does not use that addo
 			if add.disable_addons then
 				table.merge(force_remove_addons, table.reverse(add.disable_addons))
 			end
+		end
+	end
+	if #beta_removed > 0 then
+		mod.post_load_exec = mod.post_load_exec or {}
+		mod.post_load_exec[#mod.post_load_exec+1] = function()
+			require("engine.ui.Dialog"):simpleLongPopup(_t"Beta Addons Disabled", _t"This beta version is meant to be tested without addons, as such the following ones are currently disabled:\n#GREY#"..table.concat(beta_removed, '#LAST#, #GREY#').."#LAST#\n\n".._t"#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", 600)
 		end
 	end
 
@@ -1144,6 +1155,8 @@ function _M:instanciate(mod, name, new_game, no_reboot, extra_module_info)
 	core.display.resetAllFonts("normal")
 
 	if mod.short_name ~= "boot" then profile:noMoreAuthWait() end
+
+	if mod.post_load_exec then for _, fct in ipairs(mod.post_load_exec) do fct() end end
 end
 
 --- Setup write dir for a module

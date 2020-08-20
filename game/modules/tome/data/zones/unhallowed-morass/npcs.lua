@@ -163,7 +163,13 @@ newEntity{ base = "BASE_NPC_SPIDER", define_as = "WEAVER_QUEEN",
 	on_die = function(self, who)
 		game.player:resolveSource():setQuestStatus("start-point-zero", engine.Quest.COMPLETED, "morass")
 		require("engine.ui.Dialog"):simplePopup(_t"Weaver Queen", _t"As you vanquish the queen you notice a temporal thread that seems to have been controlling her. It seems to go through a rift.")
-		local rift = game.zone:makeEntityByName(game.level, "terrain", "RIFT_HOME")
-		game.zone:addEntity(game.level, rift, "terrain", self.x, self.y)
+
+		local g = game.zone:makeEntityByName(game.level, "terrain", "RIFT_HOME")
+		local oe = game.level.map(self.x, self.y, engine.Map.TERRAIN)
+		if oe:attr("temporary") and oe.old_feat then
+			oe.old_feat = g
+		else
+			game.zone:addEntity(game.level, g, "terrain", self.x, self.y)
+		end
 	end,
 }

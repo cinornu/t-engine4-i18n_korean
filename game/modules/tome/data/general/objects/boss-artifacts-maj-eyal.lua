@@ -1646,7 +1646,7 @@ It has been kept somewhat intact with layers of salt and clay, but in spite of t
 			-- Go through all spell effects
 			for eff_id, p in pairs(target.tmp) do
 				local e = target.tempeffect_def[eff_id]
-				if e.subtype.pin or e.subtype.stun then
+				if e and (e.subtype.pin or e.subtype.stun) then
 					effs[#effs+1] = {"effect", eff_id}
 					num = 1
 				end
@@ -1749,7 +1749,7 @@ newEntity{ base = "BASE_GAUNTLETS", define_as = "STORM_BRINGER_GAUNTLETS",
 		inc_stats = { [Stats.STAT_MAG] = 6, },
 		combat_spellpower = 12,
 		resists = { [DamageType.LIGHTNING] = 15, },
-		inc_damage = { [DamageType.LIGHTNING] = 20 },
+		inc_damage = { [DamageType.LIGHTNING] = 15 },
 		combat_spellcrit = 5,
 		combat_critical_power = 20,
 		combat_armor = 5,
@@ -1760,9 +1760,19 @@ newEntity{ base = "BASE_GAUNTLETS", define_as = "STORM_BRINGER_GAUNTLETS",
 			physspeed = 0.2,
 			dammod = {dex=0.4, str=-0.6, cun=0.4 },
 			melee_project={ [DamageType.LIGHTNING] = 20, },
-			talent_on_hit = { [Talents.T_CHAIN_LIGHTNING] = {level=3, chance=20}, [Talents.T_NOVA] = {level=2, chance=15} },
+			talent_on_hit = { [Talents.T_CHAIN_LIGHTNING] = {level=2, chance=20}, [Talents.T_NOVA] = {level=1, chance=15} },
 			damrange = 0.3,
 		},
+	},
+	talents_add_levels_filters = {
+		{desc=_t"+1 to all lightning damage spells", filter=function(who, t, lvl)
+			if t.is_spell and t.tactical and (
+				table.has(t.tactical, "attack", "LIGHTNING") or
+				table.has(t.tactical, "attackarea", "LIGHTNING")
+			) then
+				return lvl + 1
+			end
+		end},
 	},
 	talent_on_spell = {
 		{chance=10, talent=Talents.T_LIGHTNING, level=1},

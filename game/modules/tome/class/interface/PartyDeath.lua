@@ -26,6 +26,10 @@ module(..., package.seeall, class.make)
 function _M:onPartyDeath(src, death_note)
 	if self.dead then if game.level:hasEntity(self) then game.level:removeEntity(self, true) end return true end
 
+	-- Die
+	death_note = death_note or {}
+	if not mod.class.Actor.die(self, src, death_note) then return end
+
 	-- Remove from the party if needed
 	if self.remove_from_party_on_death then
 		game.party:removeMember(self, true)
@@ -34,12 +38,8 @@ function _M:onPartyDeath(src, death_note)
 		game.party:setDeathTurn(self, game.turn)
 	end
 
-	-- Die
-	death_note = death_note or {}
-	mod.class.Actor.die(self, src, death_note)
-
 	-- Was not the current player, just die
-	if game.player ~= self then return end
+	if game.player ~= self then return true end
 
 	-- Check for any survivor that can be controlled
 	local game_ender = not game.party:findSuitablePlayer()
@@ -88,7 +88,11 @@ function _M:onPartyDeath(src, death_note)
 		if not death_note.special_death_msg then
 			msg = _t"%s the level %d %s %s was %s to death by %s%s%s on level %s of %s."
 			short_msg = _t"%s(%d %s %s) was %s to death by %s%s on %s %s."
-			local srcname = src.unique and src:getName() or src:getName():a_an()
+			local srcname
+			if src.getName and src.unique then srcname = src:getName()
+			elseif src.getName then srcname = src:getName():a_an()
+			else srcname = src.name and tostring(src.name) or "(???)"
+			end
 			local killermsg = (src.killer_message and " "..src.killer_message or ""):gsub("#sex#", game.player.female and _t"her" or _t"him")
 			if src.name == game.player.name then
 				srcname = game.player.female and _t"herself" or _t"himself"
@@ -138,4 +142,5 @@ function _M:onPartyDeath(src, death_note)
 			profile.chat.uc_ext:sendKillerLink(msg, short_msg, src)
 		end
 	end
+	return true
 end

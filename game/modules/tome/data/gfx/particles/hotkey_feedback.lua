@@ -71,4 +71,4 @@ function(self)
 	if nb <= 10 then self.ps:emit(4) end
 	nb = nb + 1
 end,
-40, nil, true
+40

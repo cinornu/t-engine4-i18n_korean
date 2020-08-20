@@ -25,7 +25,7 @@ return {
 	decay = {300, 800},
 	actor_adjust_level = function(zone, level, e) return zone.base_level + e:getRankLevelAdjust() + level.level-1 + rng.range(-1,2) end,
 	width = 50, height = 50,
-	all_remembered = true,
+	-- all_remembered = true,
 	all_lited = true,
 	no_level_connectivity = true,
 	
@@ -42,12 +42,12 @@ return {
 			['_'] = "FLOOR", ['O'] = "WALL", 
 			[';'] = "GRASS", ['T'] = "TREE",
 			['='] = "DEEP_WATER",
-			-- mapscript = "!rooms_test",
+			mapscript = "!rooms_test2",
 			-- greater_vaults_list = {"portal-vault"},
 			-- mapscript = "!bsp_islands",
 			-- mapscript = "!cavernous_forest",
 			-- mapscript = "!testroom2",
-			mapscript = "!inner_outer",
+			-- mapscript = "!inner_outer",
 --]]
 --[[
 			class = "engine.generator.map.Hexacle",

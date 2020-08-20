@@ -58,7 +58,7 @@ uberTalent{
 			self:setMoveAnim(ox, oy, 8, 5)
 		end
 
-		self:removeEffectsFilter({subtype={stun=true, daze=true, pin=true, pinned=true, pinning=true}}, 50)
+		self:removeEffectsFilter(self, {subtype={stun=true, daze=true, pin=true, pinned=true, pinning=true}}, 50)
 
 		self:project(tg, self.x, self.y, function(px, py, tg, self)
 			local target = game.level.map(px, py, Map.ACTOR)

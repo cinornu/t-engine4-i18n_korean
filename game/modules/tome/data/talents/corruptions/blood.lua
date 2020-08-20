@@ -143,7 +143,7 @@ newTalent{
 		self:project(tg, x, y, function(px, py)
 			local target = game.level.map(px, py, Map.ACTOR)
 			if not target then return end
-			local eff = target:removeEffectsFilter(function(e) return e.subtype.poison or e.subtype.disease or e.subtype.wound end, 1)
+			local eff = target:removeEffectsFilter(self, function(e) return e.subtype.poison or e.subtype.disease or e.subtype.wound end, 1)
 			if eff and eff > 0 then
 				local dealt = DamageType:get(DamageType.BLIGHT).projector(self, target.x, target.y, DamageType.BLIGHT, damage)
 				target:setEffect(target.EFF_SLOW, 5, {src=self, power=slow})

@@ -162,7 +162,7 @@ newTalent{
 	stamina = 30,
 	requires_target = true,
 	no_break_stealth = true,
-	tactical = { ATTACK = { PHYSICAL = 2 }, BUFF = 1},
+	no_npc_use = true, -- lol 
 	getPower = function(self, t) return self:combatTalentScale(t, 15, 40) end,
 	getPercent = function(self, t) return self:combatTalentLimit(t, 50, 10, 40) end,
 	getDamage = function(self,t) return self:combatTalentStatDamage(t, "dex", 15, 180) end,

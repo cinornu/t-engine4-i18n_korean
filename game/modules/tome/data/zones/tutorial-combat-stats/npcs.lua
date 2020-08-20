@@ -190,7 +190,7 @@ newEntity{ base = "BASE_NPC_ELVEN_CASTER",
 		[Talents.T_AEGIS]={base=5, every=8, max=5},
 		[Talents.T_HEALING_LIGHT]={base=5, every=8, max=6},
 		[Talents.T_BARRIER]={base=5, every=8, max=5},
-		[Talents.T_QUICKEN_SPELLS]={base=5, every=8, max=6},
+		[Talents.T_SPELLCRAFT]={base=5, every=8, max=6},
 		[Talents.T_METAFLOW]={base=5, every=8, max=5},
 	},
 }

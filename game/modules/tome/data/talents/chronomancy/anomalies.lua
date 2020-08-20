@@ -148,7 +148,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		local radius = self:getTalentRadius(t)
@@ -198,7 +198,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		local range = self:getTalentRange(t)
@@ -261,7 +261,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[You swap locations with a random target.]]):tformat()
@@ -311,11 +311,11 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[50%% chance that damage the caster takes will be warped to a set target.
-		Once the maximum damage (%d) is absorbed, the time runs out, or the target dies, the shield will crumble.]]):tformat(getAnomalyDamage(self, t)*2)
+		Once the maximum damage (%d) is absorbed, the time runs out, or the target dies, the shield will crumble.]]):tformat(self:getShieldAmount(getAnomalyDamage(self, t)*2))
 	end,
 }
 
@@ -410,7 +410,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Creates a wormhole nearby and a second wormhole up to ten tiles away.]]):tformat()
@@ -458,7 +458,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Allows up to five targets in a radius of %d to travel up to %d tiles through walls.]]):
@@ -507,7 +507,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Up to five targets in a radius of %d are teleporting %d tiles every turn.]]):
@@ -622,7 +622,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Pulls innocent people into the fight.]]):tformat()
@@ -672,7 +672,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Slows up to five targets in a radius %d ball by %d%%.]]):
@@ -721,7 +721,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Increases global speed of up to five targets in a radius %d ball by %d%%.]]):
@@ -771,7 +771,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Stuns up to five targets in a radius %d ball.]]):
@@ -821,7 +821,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Time Prisons up to five targets in a radius %d ball.]]):
@@ -869,7 +869,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Time Shields up to five targets in a radius of %d.]]):
@@ -917,7 +917,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Invigorates up to five targets in a radius of %d.]]):
@@ -970,7 +970,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Clones a random creature within range.]]):tformat()
@@ -1014,7 +1014,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		local duration = self:combatScale(getParadoxSpellpower(self, t), 4, 10, 12, 100, 0.75)/2
@@ -1068,7 +1068,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Increases localized gravity, pulling in targets in a radius of %d.]]):tformat(self:getTalentRadius(t))
@@ -1106,7 +1106,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Digs out all terrain in a radius %d ball.]]):tformat(self:getTalentRadius(t))
@@ -1188,7 +1188,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Entombs a single target in a wall of stone.]]):tformat()
@@ -1252,7 +1252,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Places between three and six talents of up to 5 targets in a radius %d ball on cooldown for up to %d turns.]]):
@@ -1303,7 +1303,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Creates a gravity well in a radius %d ball, pinning up to five targets.]]):tformat(self:getTalentRadius(t))
@@ -1344,7 +1344,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Causes an earthquake in a radius of %d.]]):
@@ -1392,7 +1392,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Reduces the resistances of up to five targets in a ball of radius %d by %d%%.]]):tformat(self:getTalentRadius(t), getAnomalyEffectPower(self, t))
@@ -1459,7 +1459,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Summons three to six dust storms.]]):tformat()
@@ -1521,7 +1521,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Summons three to six blazing fires.]]):tformat()
@@ -1565,7 +1565,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Turns up to 5 targets in a radius %d ball to stone for %d turns.]]):
@@ -1610,7 +1610,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Teleports between 3 and 6 targets to the caster.]]):
@@ -1654,7 +1654,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Substantially toughens and hastes one target for %d turns.]]):tformat(getAnomalyDuration(self, t))
@@ -1697,7 +1697,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Clones the caster.]]):tformat(getAnomalyDuration(self, t))
@@ -1746,7 +1746,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Clones all creatures in a radius of 10.]]):tformat(getAnomalyDuration(self, t))
@@ -1782,7 +1782,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Digs out all terrain in between three and six radius %d balls.]]):tformat(self:getTalentRadius(t))
@@ -1842,7 +1842,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Summons a sphere of destruction.]]):tformat()
@@ -1921,7 +1921,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Summons three to six tornados.]]):tformat()
@@ -2017,7 +2017,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Causes a meteor to fall from the sky.]]):
@@ -2101,7 +2101,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Tears a hole in the fabric of spacetime.]]):
@@ -2153,7 +2153,7 @@ newTalent{
 		return true
 	end,
 	action = function(self, t, cancellable)
-		t.doAction(self, t, true)
+		return t.doAction(self, t, true)
 	end,
 	info = function(self, t)
 		return ([[Time elementals have been attracted to the timeline.]]):

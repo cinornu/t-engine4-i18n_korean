@@ -167,6 +167,9 @@ newEntity{ define_as = "ACOLYTE",
 			game.zone:addEntity(game.level, g, "terrain", spot.x, spot.y)
 
 			if melinda then
+				local g = game.zone:makeEntityByName(game.level, "terrain", "ALTAR_BARE")
+				game.zone:addEntity(game.level, g, "terrain", melinda.x, melinda.y)
+
 				melinda:removeEffect(melinda.EFF_TIME_PRISON)
 				melinda.display_w = nil
 				melinda.image = "npc/woman_redhair_naked.png"

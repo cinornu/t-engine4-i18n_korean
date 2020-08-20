@@ -133,6 +133,16 @@ function resolvers.calc.rngtalent(t, e)
 	return nil
 end
 
+--- Talents resolver, random choice of set of talents
+function resolvers.rngtalentsets(list)
+	return {__resolver="rngtalentsets", list}
+end
+function resolvers.calc.rngtalentsets(t, e)
+	local set = rng.table(t[1])
+	resolvers.calc.talents({set}, e)
+	return nil
+end
+
 --- Talents masteries
 function resolvers.tmasteries(list)
 	return {__resolver="tmasteries", list}

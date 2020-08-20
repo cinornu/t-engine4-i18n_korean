@@ -163,6 +163,7 @@ newTalent{
 			return self.ai_state._pref_staff_element ~= (staff.combat.element or staff.combat.damtype)
 		end
 	end,
+	on_pre_use = function(self, t, silent) if not self:hasStaffWeapon() then if not silent then game.logPlayer(self, "You need a staff.") end return false end return true end,
 	action = function(self, t)
 		local staff = self:hasStaffWeapon()
 		if not staff or not staff.wielder or not staff.wielder.learn_talent or not staff.wielder.learn_talent[self.T_COMMAND_STAFF] then
@@ -413,11 +414,7 @@ newTalent{
 			end
 				local eff = rng.tableRemove(effs)
 				if eff then
-					if eff[1] == "effect" then
-						target:removeEffect(eff[2])
-					else
-						target:forceUseTalent(eff[2], {ignore_energy=true})
-					end
+					target:dispel(eff[2], self)
 				end
 			end
 			if self:getTalentLevel(t)>=5 then

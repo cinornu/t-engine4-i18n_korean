@@ -188,7 +188,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		local statinc = t.getStatIncrease(self, t)
-		local absorb = t.getShield(self, t) * (100 + (self:attr("shield_factor") or 0)) / 100
+		local absorb = self:getShieldAmount(t.getShield(self, t))
 		return ([[You concentrate on your inner self, increasing your Strength, Dexterity, Magic, and Cunning by %d.
 		Additionally, you gain a shield absorbing %d damage before you take damage every %d turns.
 		The stat increase and shield will improve with your Spellpower.]]):

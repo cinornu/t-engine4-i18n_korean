@@ -141,9 +141,9 @@ newEntity{ base = "BASE_NPC_UNDEAD_RAT",
 	combat = { dam=resolvers.levelup(resolvers.rngavg(25,35), 1, 0.6), atk=resolvers.rngavg(25,50), apr=22, dammod={str=1.1} },
 
 	resolvers.talents{
-		[Talents.T_VAMPIRIC_GIFT]={base=1, every=5, max=4},
+		[Talents.T_ETERNAL_NIGHT]={base=1, every=5, max=4},
 		[Talents.T_INVOKE_DARKNESS]={base=1, every=8, max=5},
-		[Talents.T_COLD_FLAMES]={base=1, every=9, max=5},
+		[Talents.T_BLACK_ICE]={base=1, every=9, max=5},
 	},
 
 	emote_random = {chance=1, _t"Squeak! Blood!", _t"Squeak??", _t"SQUEAK!!!!!"},
@@ -230,8 +230,8 @@ newEntity{ base = "BASE_NPC_UNDEAD_RAT", define_as="RATLICH",
 			self:learnTalent(self.T_ARCANE_POWER, true, 3)
 			self:forceUseTalent(self.T_ARCANE_POWER, {ignore_energy=true, ignore_cd=true, no_equilibrium_fail=true, no_paradox_fail=true})
 
-			self:learnTalent(self.T_FROSTDUSK, true, 2)
-			self:forceUseTalent(self.T_FROSTDUSK, {ignore_energy=true, ignore_cd=true, no_equilibrium_fail=true, no_paradox_fail=true})
+			self:learnTalent(self.T_ETERNAL_NIGHT, true, 2)
+			self:forceUseTalent(self.T_ETERNAL_NIGHT, {ignore_energy=true, ignore_cd=true, no_equilibrium_fail=true, no_paradox_fail=true})
 
 			self:forceUseTalent(self.T_CALL_SHADOWS, {ignore_energy=true, ignore_cd=true, no_equilibrium_fail=true, no_paradox_fail=true})
 
@@ -259,7 +259,7 @@ newEntity{ base = "BASE_NPC_UNDEAD_RAT", define_as="RATLICH",
 		--Magic
 		[Talents.T_INVOKE_DARKNESS]={base=3, every=6, max=7},
 		[Talents.T_MANATHRUST]={base=3, every=8, max=6},
-		[Talents.T_FEAR_THE_NIGHT]={base=2, every=7, max=5},
+		[Talents.T_CREPUSCULE]={base=2, every=7, max=5},
 		--Anorithil
 		[Talents.T_MOONLIGHT_RAY]={base=2, every=6, max=7},
 		[Talents.T_SHADOW_BLAST]={base=1, every=7, max=5},

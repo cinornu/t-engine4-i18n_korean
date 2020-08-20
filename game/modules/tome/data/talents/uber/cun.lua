@@ -151,7 +151,7 @@ uberTalent{
 			if damtype == DamageType.TEMPORAL and not self:hasProc("endless_woes_temporal") then
 				self:setProc("endless_woes_temporal", true, 10)
 				game.logSeen(self, "You unleash a blast of #LIGHT_STEEL_BLUE#temporal#LAST# energy!", self:getName():capitalize())
-				t.doProject(self, t, damtype, {id="EFF_SLOW", dur=5, params={power=0.3}, canbe="slow"}, "ball_temporal")
+				t.doProject(self, t, damtype, {id="EFF_SLOW", dur=5, params={power=t.getTemporal(self, t)/100}, canbe="slow"}, "ball_temporal")
 			elseif damtype == DamageType.BLIGHT and not self:hasProc("endless_woes_blight") then
 				self:setProc("endless_woes_blight", true, 10)				
 				game.logSeen(self, "You unleash a blast of #DARK_GREEN#virulent blight!#LAST#!", self:getName():capitalize())
@@ -217,7 +217,7 @@ uberTalent{
 		return o1 and o2 and o3
 	end} },
 	cant_steal = true,
-	np_npc_use = true,
+	no_npc_use = true,
 	on_learn = function(self, t)
 		if not game.party:hasMember(self) then return end
 		local list = mod.class.Object:loadList("/data/general/objects/special-artifacts.lua")
@@ -302,7 +302,7 @@ uberTalent{
 			if damtype == DamageType.PHYSICAL and not self:hasProc("elemental_surge_physical") then
 				self:setProc("elemental_surge_physical", true, 10)
 				game.logSeen(self, "%s surges with earthen power!", self:getName():capitalize())
-				self:removeEffectsFilter({status="detrimental", type="physical", ignore_crosstier=true}, 1)
+				self:removeEffectsFilter(self, {status="detrimental", type="physical", ignore_crosstier=true}, 1)
 				self:setEffect(self.EFF_ELEMENTAL_SURGE_PHYSICAL, 2, {})
 				t.doProject(self, t, damtype, "ball_earth")
 			elseif damtype == DamageType.ARCANE and not self:hasProc("elemental_surge_arcane") then
@@ -333,7 +333,7 @@ uberTalent{
 			elseif damtype == DamageType.NATURE and not self:hasProc("elemental_surge_nature") then
 				self:setProc("elemental_surge_nature", true, 10)
 				game.logSeen(self, "%s surges with #LIGHT_GREEN#natural#LAST# power!", self:getName():capitalize())
-				self:removeEffectsFilter({status="detrimental", type="magical", ignore_crosstier=true}, 1)
+				self:removeEffectsFilter(self, {status="detrimental", type="magical", ignore_crosstier=true}, 1)
 				self:setEffect(self.EFF_ELEMENTAL_SURGE_NATURE, 2, {})
 				t.doProject(self, t, damtype, "slime")
 			end
@@ -467,21 +467,15 @@ uberTalent{
 
 -- Re-used icon
 uberTalent{
-	name = "Adept", image = "talents/meditation.png",
+	name = "Adept",
 	mode = "passive",
 	cant_steal = true,
 	info = function(self, t)
-		return ([[Your talent masteries are increased by 0.3.  Note that many talents will not benefit from this increase.]])
-		:tformat()
+		return ([[You are adept at many different skills, granting you +2 to all talent levels.
+		This works on already known talents and those that you will learn afterwards.]]):tformat()
 	end,
-	passives = function(self, t, tmptable)
-		self:talentTemporaryValue(tmptable, "talents_mastery_bonus", {all = 0.3})
-		
-		if not self._updating_adept then
-			self._updating_adept = true
-			self:updateAllTalentsPassives()
-			self._updating_adept = nil
-		end
+	passives = function(self, t, p)
+		self:talentTemporaryValue(p, "all_talents_bonus_level", 2)
 	end,
 }
 

@@ -29,6 +29,11 @@ local function evil(npc, player)
 			p:learnTalentType("cunning/poisons", true)
 			p:setTalentTypeMastery("cunning/poisons", 1.3)
 		end
+	elseif p.descriptor.subclass == "Marauder" or p.descriptor.subclass == "Archer" or p.descriptor.subclass == "Skirmisher" then
+		if p:knowTalentType("cunning/poisons") == nil then
+			p:learnTalentType("cunning/poisons", false)
+			if p.descriptor.subclass == "Skirmisher" then p:setTalentTypeMastery("cunning/poisons", 1.3) end
+		end
 	end
 	if p:knowTalentType("cunning/trapping") then
 		game.log("#LIGHT_GREEN#You and the Lord discuss your new relationship at some length, including the merits of assassination by proxy and some additional trapping techniques.")

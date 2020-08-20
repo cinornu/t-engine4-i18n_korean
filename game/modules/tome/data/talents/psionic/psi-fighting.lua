@@ -183,8 +183,9 @@ newTalent{
 				local eff = rng.tableRemove(effs)
 
 				if eff[1] == "effect" then
-					game.logSeen(self, "#CRIMSON#%s shatters %s shield!", self:getName():capitalize(), target:getName())
-					target:removeEffect(eff[2])
+					if target:dispel(eff[2], self) then
+						game.logSeen(self, "#CRIMSON#%s shatters %s shield!", self:getName():capitalize(), target:getName())
+					end
 				end
 			end
 		end

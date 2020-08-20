@@ -26,6 +26,7 @@ newTalent{
 	vim = 20,
 	range = 10,
 	tactical = { DISABLE = 2 },
+	is_curse = true,
 	direct_hit = true,
 	requires_target = true,
 	action = function(self, t)
@@ -56,6 +57,7 @@ newTalent{
 	vim = 20,
 	range = 10,
 	tactical = { DISABLE = 2 },
+	is_curse = true,
 	direct_hit = true,
 	requires_target = true,
 	imppower = function(self,t) return self:combatLimit(self:combatTalentSpellDamage(t, 10, 30),100, 0, 0, 19.36, 19.36) end, -- Limit to <100%
@@ -87,6 +89,7 @@ newTalent{
 	vim = 20,
 	range = 10,
 	tactical = { ATTACK = {DARKNESS = 2}, DISABLE = 1 },
+	is_curse = true,
 	direct_hit = true,
 	requires_target = true,
 	action = function(self, t)
@@ -117,6 +120,7 @@ newTalent{
 	vim = 20,
 	range = 10,
 	tactical = { DISABLE = 2 },
+	is_curse = true,
 	requires_target = true,
 	direct_hit = true,
 	action = function(self, t)

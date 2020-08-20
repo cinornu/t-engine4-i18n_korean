@@ -57,7 +57,7 @@ uberTalent{
 		local lava_dam = t.getLava(self, t)
 		local dam = t.getDamage(self, t)
 		if self:combatMindCrit() > self:combatSpellCrit() then 
-			_dam = self:mindCrit(dam)
+			dam = self:mindCrit(dam)
 			lava_dam = self:mindCrit(lava_dam)
 		else 
 			dam = self:spellCrit(dam)

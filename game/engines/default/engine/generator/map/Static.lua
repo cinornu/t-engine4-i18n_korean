@@ -262,6 +262,9 @@ function _M:tmxLoad(file)
 	if mapprops.lua then
 		self:loadLuaInEnv(g, nil, "return "..mapprops.lua)
 	end
+	if mapprops.lua_exec then
+		self:loadLuaInEnv(g, nil, mapprops.lua_exec)
+	end
 
 	-- copy certain variables from the map file
 	if mapprops.roomcheck then
@@ -362,7 +365,7 @@ function _M:tmxLoad(file)
 		for _, o in ipairs(map:findAll("object")) do
 			local props = o:findOne("properties"):findAllAttrs("property", "name", "value")
 
-			if og.attr.name:find("^addSpot") then
+			if og.attr.name and og.attr.name:find("^addSpot") then
 				local x, y, w, h = math.floor(tonumber(o.attr.x) / tw), math.floor(tonumber(o.attr.y) / th), math.floor(tonumber(o.attr.width) / tw), math.floor(tonumber(o.attr.height) / th)
 				if props.start then m.startx = x m.starty = y end
 				if props['end'] then m.endx = x m.endy = y end
@@ -374,7 +377,7 @@ function _M:tmxLoad(file)
 						g.addSpot({i, j}, t, st, props)
 					end end
 				end
-			elseif og.attr.name:find("^addZone") then
+			elseif og.attr.name and og.attr.name:find("^addZone") then
 				local x, y, w, h = math.floor(tonumber(o.attr.x) / tw), math.floor(tonumber(o.attr.y) / th), math.floor(tonumber(o.attr.width) / tw), math.floor(tonumber(o.attr.height) / th)
 				if props.type and props.subtype then
 					local t, st = props.type, props.subtype
@@ -383,7 +386,7 @@ function _M:tmxLoad(file)
 					local i2, j2 = rotate_coords(x + w, y + h)
 					g.addZone({i1, j1, i2, j2}, t, st, props)
 				end
-			elseif og.attr.name:find("^attrs") then
+			elseif og.attr.name and og.attr.name:find("^attrs") then
 				local x, y, w, h = math.floor(tonumber(o.attr.x) / tw), math.floor(tonumber(o.attr.y) / th), math.floor(tonumber(o.attr.width) / tw), math.floor(tonumber(o.attr.height) / th)
 				for k, v in pairs(props) do
 					for i = x, x + w do for j = y, y + h do
@@ -394,7 +397,7 @@ function _M:tmxLoad(file)
 						-- print("====", i, j, k)
 					end end
 				end
-			elseif og.attr.name:find("^spawn#") then
+			elseif og.attr.name and og.attr.name:find("^spawn#") then
 				local layername = og.attr.name:sub(7)
 				local x, y, w, h = math.floor(tonumber(o.attr.x) / tw), math.floor(tonumber(o.attr.y) / th), math.floor(tonumber(o.attr.width) / tw), math.floor(tonumber(o.attr.height) / th)
 				if props.id then
@@ -700,6 +703,7 @@ function _M:generate(lev, old_lev)
 		local map = self.zone.map_class.new(g.w, g.h)
 		data.__import_offset_x = self.data.__import_offset_x+g.x
 		data.__import_offset_y = self.data.__import_offset_y+g.y
+		data.parent_data = self.data
 		local generator = require(g.generator).new(
 			self.zone,
 			map,
@@ -707,6 +711,7 @@ function _M:generate(lev, old_lev)
 			data
 		)
 		local ux, uy, dx, dy, subspots = generator:generate(lev, old_lev)
+		data.parent_data = nil
 		if ux and uy then
 			if data.overlay or g.overlay then
 				self.map:overlay(map, g.x, g.y)

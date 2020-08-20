@@ -1,5 +1,5 @@
 -- ToME - Tales of Maj'Eyal
--- Copyright (C) 2009 - 2019 Nicolas Casalini
+-- Copyright (C) 2009 - 2017 Nicolas Casalini
 --
 -- This program is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -57,39 +57,38 @@ game.zone.on_turn = function()
 
 	game.zone.meteor_event_levels[game.level.level] = nil
 
-	game.level.map:particleEmitter(game.level.data.meteor_x, game.level.data.meteor_y, 10, "meteor").on_remove = function()
-		local x, y = game.level.data.meteor_x, game.level.data.meteor_y
-		game.level.map:particleEmitter(x, y, 5, "fireflash", {radius=5})
-		game:playSoundNear(game.player, "talents/fireflash")
+	game.level.map:particleEmitter(game.level.data.meteor_x, game.level.data.meteor_y, 10, "meteor")
+	local x, y = game.level.data.meteor_x, game.level.data.meteor_y
+	game.level.map:particleEmitter(x, y, 5, "fireflash", {radius=5})
+	game:playSoundNear(game.player, "talents/fireflash")
 
-		local terrains = mod.class.Grid:loadList("/data/general/grids/lava.lua")
-		local npcs = mod.class.NPC:loadList("/data/general/npcs/losgoroth.lua")
+	local terrains = mod.class.Grid:loadList("/data/general/grids/lava.lua")
+	local npcs = mod.class.NPC:loadList("/data/general/npcs/losgoroth.lua")
 
-		for i = x-2, x+2 do for j = y-2, y+2 do
-			local og = game.level.map(i, j, engine.Map.TERRAIN)
-			if (core.fov.distance(x, y, i, j) <= 1 or rng.percent(40)) and og and not og.escort_portal then
-				local g = terrains.LAVA_FLOOR:clone()
-				g:resolve() g:resolve(nil, true)
-				game.zone:addEntity(game.level, g, "terrain", i, j)
+	for i = x-2, x+2 do for j = y-2, y+2 do
+		local og = game.level.map(i, j, engine.Map.TERRAIN)
+		if (core.fov.distance(x, y, i, j) <= 1 or rng.percent(40)) and og and not og.escort_portal then
+			local g = terrains.LAVA_FLOOR:clone()
+			g:resolve() g:resolve(nil, true)
+			game.zone:addEntity(game.level, g, "terrain", i, j)
 
-				if rng.percent(30) and not game.level.map(i, j, engine.Map.ACTOR) then
-					local m = game.zone:makeEntity(game.level, "actor", {base_list=npcs}, nil, true)
-					if m then
-						m.resists = m.resists or {}
-						m.resists[engine.DamageType.FIRE] = 100
-						game.zone:addEntity(game.level, m, "actor", i, j)
-					end
+			if rng.percent(30) and not game.level.map(i, j, engine.Map.ACTOR) then
+				local m = game.zone:makeEntity(game.level, "actor", {base_list=npcs}, nil, true)
+				if m then
+					m.resists = m.resists or {}
+					m.resists[engine.DamageType.FIRE] = 100
+					game.zone:addEntity(game.level, m, "actor", i, j)
 				end
 			end
-		end end
-		for i = x-2, x+2 do for j = y-2, y+2 do
-			game.nicer_tiles:updateAround(game.level, i, j)
-		end end
+		end
+	end end
+	for i = x-2, x+2 do for j = y-2, y+2 do
+		game.nicer_tiles:updateAround(game.level, i, j)
+	end end
 
-		world:gainAchievement("EVENT_METEOR", game:getPlayer(true))
-		game:getPlayer(true):attr("meteoric_crash", 1)
-		require("engine.ui.Dialog"):simplePopup(_t"Meteor!", _t"As you walk you notice a huge rock falling from the sky. It crashes right near you!")
-	end
+	world:gainAchievement("EVENT_METEOR", game:getPlayer(true))
+	game:getPlayer(true):attr("meteoric_crash", 1)
+	require("engine.ui.Dialog"):simplePopup("Meteor!", "As you walk you notice a huge rock falling from the sky. It crashes right near you!")
 end
 
 return true

@@ -27,43 +27,44 @@ newTalent{
 	tactical = { ATTACKAREA = { COLD = 1, stun = 1 } },
 	range = 10,
 	radius = 1,
+	is_beam_spell = true,
 	proj_speed = 8,
 	requires_target = true,
 	target = function(self, t)
-		return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), talent=t}
+		if thaumaturgyCheck(self) then return {type="widebeam", radius=1, range=self:getTalentRange(t), talent=t, selffire=false, friendlyfire=self:spellFriendlyFire()}
+		else return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), talent=t} end
 	end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 18, 200) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
-		local empower = necroEssenceDead(self)
-		self:project(tg, x, y, function(px, py)
-			local actor = game.level.map(px, py, Map.ACTOR)
-			if actor and actor ~= self then
-				if empower then
-					local tg2 = {type="beam", range=self:getTalentRange(t), talent=t}
-					self:project(tg2, px, py, DamageType.ICE, {chance=25, do_wet=true, dam=self:spellCrit(t.getDamage(self, t))})
-					game.level.map:particleEmitter(self.x, self.y, math.max(math.abs(px-self.x), math.abs(py-self.y)), "ice_beam", {tx=px-self.x, ty=py-self.y})
-				else
+
+		local dam = thaumaturgyBeamDamage(self, self:spellCrit(t.getDamage(self, t)))
+		if thaumaturgyCheck(self) then
+			self:project(tg, x, y, DamageType.ICE, {chance=25, do_wet=true, dam=dam})
+			game.level.map:particleEmitter(self.x, self.y, tg.radius, "ice_beam_wide", {tx=x-self.x, ty=y-self.y})
+		else
+			self:project(tg, x, y, function(px, py)
+				local actor = game.level.map(px, py, Map.ACTOR)
+				if actor and actor ~= self then
 					local tg2 = {type="bolt", range=self:getTalentRange(t), talent=t, display={particle="arrow", particle_args={tile="particles_images/ice_shards"}}}
-					self:projectile(tg2, px, py, DamageType.ICE, {chance=25, do_wet=true, dam=self:spellCrit(t.getDamage(self, t))}, {type="freeze"})
+					self:projectile(tg2, px, py, DamageType.ICE, {chance=25, do_wet=true, dam=dam}, {type="freeze"})
 				end
-			end
-		end)
-		if empower then empower() end
+			end)
+		end
 
 		game:playSoundNear(self, "talents/ice")
 		return true
 	end,
 	info = function(self, t)
 		local damage = t.getDamage(self, t)
-		return ([[Hurl ice shards at the targets in the selected area. Each shard %s and does %0.2f ice damage, hitting all adjacent targets on impact with 25%% chance to freeze them.
+		return ([[Hurl ice shards at the targets in the selected area. Each shard travels slowly and does %0.2f ice damage, hitting all adjacent targets on impact with 25%% chance to freeze them.
 		If the target resists being frozen, it instead get wet.
 		If the target is wet the damage increases by 30%% and the ice freeze chance increases to 50%%.
 		This spell will never hit the caster.
 		The damage will increase with your Spellpower.]]):
-		tformat(necroEssenceDead(self, true) and _t"affects all foes on its path" or _t"travels slowly", damDesc(self, DamageType.COLD, damage))
+		tformat(damDesc(self, DamageType.COLD, damage))
 	end,
 }
 
@@ -88,6 +89,7 @@ newTalent{
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
+		self:callTalent(self.T_ENERGY_ALTERATION, "forceActivate", DamageType.COLD)
 		local _ _, _, _, x, y = self:canProject(tg, x, y)
 		-- Add a lasting map effect
 		game.level.map:addEffect(self,
@@ -133,6 +135,7 @@ newTalent{
 	action = function(self, t)
 		-- Add a lasting map effect
 		game.logSeen(self, "A #LIGHT_BLUE#wave of icy water#LAST# erupts from the ground!")
+		self:callTalent(self.T_ENERGY_ALTERATION, "forceActivate", DamageType.COLD)
 		game.level.map:addEffect(self,
 			self.x, self.y, t.getDuration(self, t),
 			DamageType.WAVE, {dam=t.getDamage(self, t), x=self.x, y=self.y, apply_wet=5},
@@ -222,6 +225,7 @@ newTalent{
 	getDuration = function(self, t) return 5 + self:combatSpellpower(0.05) + self:getTalentLevel(t) end,
 	action = function(self, t)
 		-- Add a lasting map effect
+		self:callTalent(self.T_ENERGY_ALTERATION, "forceActivate", DamageType.COLD)
 		game.level.map:addEffect(self,
 			self.x, self.y, t.getDuration(self, t),
 			DamageType.ICE_STORM, t.getDamage(self, t),

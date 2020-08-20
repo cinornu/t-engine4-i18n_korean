@@ -134,7 +134,7 @@ newTalent{
 	vim = 16,
 	range = 8,
 	radius = 4,
-	tactical = { DISABLE = 2 },
+	no_npc_use = true,
 	direct_hit = true,
 	requires_target = true,
 	target = function(self, t) return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), friendlyfire=false, talent=t} end,

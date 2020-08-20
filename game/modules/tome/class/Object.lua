@@ -206,6 +206,7 @@ function _M:useObject(who, ...)
 	if not game:hasEntity(self) then game:addEntity(self) end
 
 	local reduce = 100 - util.bound(who:attr("use_object_cooldown_reduce") or 0, 0, 100)
+	if self:attr("unaffected_device_mastery") then reduce = 100 end
 	local usepower = function(power) return math.ceil(power * reduce / 100) end
 
 	if self.use_power then
@@ -239,7 +240,17 @@ function _M:useObject(who, ...)
 			local id = self.use_talent.id
 			local ab = self:getTalentFromId(id)
 			local old_level = who.talents[id]; who.talents[id] = self.use_talent.level
-			local ret = ab.action(who, ab)
+
+			who:attr("force_talent_ignore_ressources", 1)
+			local ret = false
+			if not who:preUseTalent(ab) then 
+				ret = false
+			else
+				local ok, special
+				ok, ret, special = xpcall(function() return ab.action(who, ab) end, debug.traceback)
+				if not ok then who:onTalentLuaError(ab, ret) error(ret) end
+			end
+			who:attr("force_talent_ignore_ressources", -1)
 			who.talents[id] = old_level
 
 			if ret then
@@ -401,7 +412,7 @@ end
 function _M:descAttribute(attr)
 	local power = function(c)
 		if config.settings.tome.advanced_weapon_stats then
-			return ("%d%% power"):tformat(math.floor(game.player:combatDamagePower(self.combat)*100))
+			return ("%d%% power"):tformat(math.floor(game.player:combatDamagePower(self.special_combat or self.combat)*100))
 		else
 			return ("%d-%d power"):tformat(c.dam, (c.dam*(c.damrange or 1.1)))
 		end
@@ -2055,6 +2066,18 @@ function _M:getTextualDesc(compare_with, use_actor)
 		use_actor.__inscription_data_fake = nil
 	end
 
+	if self.wielder and self.wielder.talents_add_levels then
+		for tid, lvl in pairs(self.wielder.talents_add_levels) do
+			local t = use_actor:getTalentFromId(tid)
+			desc:add(lvl < 0 and {"color","FIREBRICK"} or {"color","OLIVE_DRAB"}, ("Talent level: %+d %s."):tformat(lvl, t and t.name or "???"), {"color","LAST"}, true)
+		end
+	end
+	if self.talents_add_levels_filters then
+		for _, data in ipairs(self.talents_add_levels_filters) do
+			desc:add(data.detrimental and {"color","FIREBRICK"} or {"color","OLIVE_DRAB"}, ("Talent level: %s."):tformat(data.desc), {"color","LAST"}, true)
+		end
+	end
+
 	local talents = {}
 	if self.talent_on_spell then
 		for _, data in ipairs(self.talent_on_spell) do if data.talent then
@@ -2208,8 +2231,6 @@ function _M:getDesc(name_param, compare_with, never_compare, use_actor)
 		desc:merge(reqs)
 	end
 
-	print("[DEBUG XXX power source]")
-	table.print(desc)
 	if self.power_source then
 		if self.power_source.arcane then desc:merge((_t"Powered by #VIOLET#arcane forces#LAST#\n"):toTString()) end
 		if self.power_source.nature then desc:merge((_t"Infused by #OLIVE_DRAB#nature#LAST#\n"):toTString()) end
@@ -2219,7 +2240,6 @@ function _M:getDesc(name_param, compare_with, never_compare, use_actor)
 		if self.power_source.unknown then desc:merge((_t"Powered by #CRIMSON#unknown forces#LAST#\n"):toTString()) end
 		self:triggerHook{"Object:descPowerSource", desc=desc, object=self}
 	end
-	table.print(desc)
 
 	if self.encumber then
 		desc:add({"color",0x67,0xAD,0x00}, ("%0.2f Encumbrance."):tformat(self.encumber), {"color", "LAST"})
@@ -2263,6 +2283,7 @@ local type_sort = {
 	weapon = 100,
 	armor = 101,
 }
+_M.type_sort = type_sort
 
 --- Sorting by type function
 -- By default, sort by type name

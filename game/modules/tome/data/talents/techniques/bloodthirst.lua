@@ -99,6 +99,7 @@ newTalent{
 	cooldown = 45,
 	stamina = 120,
 	fixed_cooldown = true,
+	random_boss_rarity = 20,
 	tactical = { DEFEND = 4, STAMINA = -2,
 		HEAL = function(self, t, target) -- up to 2 if there are enemies near
 			local val = 0
@@ -112,7 +113,7 @@ newTalent{
 		end
 	},
 	getHealPercent = function(self,t) return self:combatTalentLimit(t, 50, 3.5, 17.5) end, -- Limit <50%
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 3, 7, true)) end, -- Limit < 25
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 6, true)) end, -- Limit < 10
 	action = function(self, t)
 		self:setEffect(self.EFF_UNSTOPPABLE, t.getDuration(self, t), {hp_per_kill=t.getHealPercent(self,t)})
 		return true

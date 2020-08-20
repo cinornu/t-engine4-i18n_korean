@@ -95,7 +95,6 @@ newEntity{
 		[Talents.T_STAFF_MASTERY]={base=5, every=8},
 		[Talents.T_ARMOUR_TRAINING]=1,
 		[Talents.T_STONE_SKIN]={base=7, every=6},
-		[Talents.T_QUICKEN_SPELLS]={base=7, every=6},
 		[Talents.T_SPELLCRAFT]={base=7, every=6},
 		[Talents.T_ARCANE_POWER]={base=7, every=6},
 		[Talents.T_ESSENCE_OF_SPEED]={base=7, every=6},

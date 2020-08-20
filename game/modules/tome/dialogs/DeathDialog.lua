@@ -39,18 +39,9 @@ function _M:init(actor)
 	if self.dont_show then return end
 	if not config.settings.cheat then game:onTickEnd(function() game:saveGame() end) end
 
-	local text = _t[[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
-You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
-]]
-
-	if #game.party.on_death_show_achieved > 0 then
-		self.c_achv = Textzone.new{width=self.iw, scrollbar=true, height=100, text=("#LIGHT_GREEN#During your game you#WHITE#:\n* %s"):tformat(table.concat(game.party.on_death_show_achieved, "\n* "))}
-	end
+	self:setupDescription()
 
 	self:setTitleShadowShader(Shader.default.textoutline and Shader.default.textoutline.shad, 1.5)
-	self.c_desc = Textzone.new{width=self.iw, auto_height=true, text=text}
-	self.c_desc:setTextShadow(1)
-	self.c_desc:setShadowShader(Shader.default.textoutline and Shader.default.textoutline.shad, 1.2)
 
 	self.c_list = List.new{width=self.iw, nb_items=#self.list, list=self.list, fct=function(item) self:use(item) end, select=function(item) self.cur_item = item end}
 
@@ -86,6 +77,18 @@ You can dump your character data to a file to remember her/him forever, or you c
 	end
 	self:setFocus(self.c_list)
 	self:setupUI(false, true)
+end
+
+function _M:setupDescription()
+	self.c_desc = Textzone.new{width=self.iw, auto_height=true, text=_t[[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
+You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
+]]}
+	self.c_desc:setTextShadow(1)
+	self.c_desc:setShadowShader(Shader.default.textoutline and Shader.default.textoutline.shad, 1.2)
+
+	if #game.party.on_death_show_achieved > 0 then
+		self.c_achv = Textzone.new{width=self.iw, scrollbar=true, height=100, text=("#LIGHT_GREEN#During your game you#WHITE#:\n* %s"):tformat(table.concat(game.party.on_death_show_achieved, "\n* "))}
+	end
 end
 
 --- Clean the actor from debuffs/buffs
@@ -128,7 +131,7 @@ function _M:restoreResources(actor)
 end
 
 --- Basic resurrection
-function _M:resurrectBasic(actor)
+function _M:resurrectBasic(actor, reason)
 	actor.dead = false
 	actor.died = (actor.died or 0) + 1
 	
@@ -160,6 +163,8 @@ function _M:resurrectBasic(actor)
 	game.paused = true
 
 	actor:checkTwoHandedPenalty()
+
+	actor:fireTalentCheck("callbackOnResurrect", reason or "unknown")
 end
 
 --- Send the party to the Eidolon Plane
@@ -177,10 +182,10 @@ function _M:eidolonPlane()
 
 		local is_exploration = game.permadeath == game.PERMADEATH_INFINITE
 		self:cleanActor(self.actor)
-		self:resurrectBasic(self.actor)
-		for e, _ in pairs(game.party.members) do
+		self:resurrectBasic(self.actor, "eidolon_plane")
+		for e, _ in pairs(game.party.members) do if e ~= self.actor then
 			self:cleanActor(e)
-		end
+		end end
 		for uid, e in pairs(game.level.entities) do
 			if not is_exploration or game.party:hasMember(e) then
 				self:restoreResources(e)
@@ -222,7 +227,7 @@ function _M:use(item)
 		game.logPlayer(self.actor, "#LIGHT_BLUE#You resurrect! CHEATER!")
 
 		self:cleanActor(self.actor)
-		self:resurrectBasic(self.actor)
+		self:resurrectBasic(self.actor, "cheat")
 		self:restoreResources(self.actor)
 		self.actor:check("on_resurrect", "cheat")
 		self.actor:triggerHook{"Actor:resurrect", reason="cheat"}
@@ -231,7 +236,7 @@ function _M:use(item)
 		game.logPlayer(self.actor, "#LIGHT_RED#The Blood of Life rushes through your dead body. You come back to life!")
 
 		self:cleanActor(self.actor)
-		self:resurrectBasic(self.actor)
+		self:resurrectBasic(self.actor, "blood_life")
 		self:restoreResources(self.actor)
 		world:gainAchievement("UNSTOPPABLE", actor)
 		self.actor:check("on_resurrect", "blood_life")
@@ -251,7 +256,7 @@ function _M:use(item)
 		game.logPlayer(self.actor, "#YELLOW#Your bones magically knit back together. You are once more able to dish out pain to your foes!")
 
 		self:cleanActor(self.actor)
-		self:resurrectBasic(self.actor)
+		self:resurrectBasic(self.actor, "skeleton")
 		self:restoreResources(self.actor)
 		world:gainAchievement("UNSTOPPABLE", actor)
 		self.actor:check("on_resurrect", "skeleton")
@@ -263,7 +268,7 @@ function _M:use(item)
 		game.logPlayer(self.actor, "#YELLOW#Your %s is consumed and disappears! You come back to life!", o:getName{do_colour=true})
 
 		self:cleanActor(self.actor)
-		self:resurrectBasic(self.actor)
+		self:resurrectBasic(self.actor, "consume", o)
 		self:restoreResources(self.actor)
 		world:gainAchievement("UNSTOPPABLE", actor)
 		self.actor:check("on_resurrect", "consume", o)

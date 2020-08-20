@@ -710,8 +710,8 @@ end
 
 function _M:freemove(dir)
 	local dx, dy = util.dirToCoord(dir, self.target.x, self.target.y)
-	self.target.x = self.target.x + dx
-	self.target.y = self.target.y + dy
+	self.target.x = (self.target.x or 0) + dx
+	self.target.y = (self.target.y or 0) + dy
 	self.target.entity = game.level.map(self.target.x, self.target.y, engine.Map.ACTOR)
 	if self.on_set_target then self:on_set_target("freemove") end
 end

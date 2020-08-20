@@ -346,7 +346,7 @@ newEntity{
 	cleansing_amount = resolvers.mbonus_material(2, 1),
 	charm_on_use = {
 		{100, function(self, who) return ("cleanse %d total effects of type disease, wound, or poison"):tformat(self.cleansing_amount) end, function(self, who)
-			who:removeEffectsFilter(function(e) return e.subtype.poison or e.subtype.wound or e.subtype.disease end, self.cleansing_amount)	
+			who:removeEffectsFilter(who, function(e) return e.subtype.poison or e.subtype.wound or e.subtype.disease end, self.cleansing_amount)	
 		end},
 	},
 	use_power = {tactical = {CURE = 0.2}}
@@ -363,7 +363,7 @@ newEntity{
 	cleansing_amount = resolvers.mbonus_material(2, 1),
 	charm_on_use = {
 		{100, function(self, who) return ("cleanse %d total effects of type disease, wound, or poison"):tformat(self.cleansing_amount) end, function(self, who)
-			who:removeEffectsFilter(function(e) return e.subtype.poison or e.subtype.wound or e.subtype.disease end, self.cleansing_amount)	
+			who:removeEffectsFilter(who, function(e) return e.subtype.poison or e.subtype.wound or e.subtype.disease end, self.cleansing_amount)	
 		end},
 	},
 	use_power = {tactical = {CURE = 0.2}}

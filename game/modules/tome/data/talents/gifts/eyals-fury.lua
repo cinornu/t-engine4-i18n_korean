@@ -99,7 +99,7 @@ newTalent{
 	getDuration = function(self, t) return 5 end,
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 10, 120) end,
 	getChance = function(self, t) return self:combatTalentLimit(t, 100, 20, 40) end, --Limit < 100%
-	removeEffect = function(target) -- remove one random beneficial magical effect or sustain
+	removeEffect = function(self, target) -- remove one random beneficial magical effect or sustain
 	-- Go through all beneficial magical effects
 		local effs = {}
 		for eff_id, p in pairs(target.tmp) do
@@ -119,11 +119,7 @@ newTalent{
 		if #effs == 0 then return end
 		local eff = rng.tableRemove(effs)
 
-		if eff[1] == "effect" then
-			target:removeEffect(eff[2])
-		else
-			target:forceUseTalent(eff[2], {ignore_energy=true})
-		end
+		target:dispel(eff[2], self)
 	end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
@@ -144,7 +140,7 @@ newTalent{
 						act = game.level.map(i, j, engine.Map.ACTOR)
 						if act then
 							if rng.percent(eff.chance) then
-								eff.removeEffect(act)
+								eff.removeEffect(eff.src, act)
 							end
 						end
 					end
@@ -195,7 +191,7 @@ newTalent{
 	action = function(self, t)
 		-- Add a lasting map effect
 		local eff = game.level.map:addEffect(self,
-			self.x, self.y, 7,
+			self.x, self.y, t.getDuration(self, t),
 			DamageType.NATURE, self:mindCrit(t.getDamage(self, t)),
 			t.radius(self, t),
 			5, nil,

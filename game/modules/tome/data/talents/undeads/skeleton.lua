@@ -44,15 +44,17 @@ newTalent{
 	getShield = function(self, t)
 		return 3.5*self:getDex()+self:combatTalentScale(t, 120, 400) + self:combatTalentLimit(t, 0.1, 0.01, 0.05)*self.max_life
 	end,
-
+	getDuration = function(self, t)
+		return 10
+	end,
 	action = function(self, t)
-		self:setEffect(self.EFF_DAMAGE_SHIELD, 10, {color={0xcb/255, 0xcb/255, 0xcb/255}, power=t.getShield(self, t)})
+		self:setEffect(self.EFF_DAMAGE_SHIELD, t.getDuration(self, t), {color={0xcb/255, 0xcb/255, 0xcb/255}, power=t.getShield(self, t)})
 		return true
 	end,
 	info = function(self, t)
-		return ([[Creates a shield of bones, absorbing %d damage. Lasts for 10 turns.
+		return ([[Creates a shield of bones, absorbing %d damage. Lasts for %d turns.
 		The total damage the shield can absorb increases with your Dexterity.]]):
-		tformat(t.getShield(self, t) * (100 + (self:attr("shield_factor") or 0)) / 100)
+		tformat(self:getShieldAmount(t.getShield(self, t)), self:getShieldDuration(t.getDuration(self, t)))
 	end,
 }
 

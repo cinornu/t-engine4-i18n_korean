@@ -124,14 +124,21 @@ function RoomInstance:discard()
 	end end
 end
 
-function RoomInstance:mergedAt(x, y)
-	Tilemap.mergedAt(self, x, y)
+function RoomInstance:mergedAt(x, y, into)
+	local function translate(map, x, y, into)
+		local d = self:point(x, y) - 1
+		self.mapscript.maps_positions[self.room_id] = self.mapscript.maps_positions[self.room_id] + d
+		for _, open in pairs(self.exits.openables) do open.x, open.y = open.x + d.x, open.y + d.y end
+		for _, door in pairs(self.exits.doors) do door.x, door.y = door.x + d.x, door.y + d.y end
+		return true
+	end
+	Tilemap.mergedAt(self, x, y, into)
 
-	local d = self:point(x - 1, y - 1)
+	-- Tell the tilemap we merge into to keep translating the map positions if it is itself on_merged_at
+	into.on_merged_at[#into.on_merged_at+1] = translate
 
-	self.mapscript.maps_positions[self.room_id] = self.mapscript.maps_positions[self.room_id] + d
-	for _, open in pairs(self.exits.openables) do open.x, open.y = open.x + d.x, open.y + d.y end
-	for _, door in pairs(self.exits.doors) do door.x, door.y = door.x + d.x, door.y + d.y end
+	-- And translate right now too
+	translate(self, x, y, into)
 end
 
 function RoomInstance:findExits(pos, kind)

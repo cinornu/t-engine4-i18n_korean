@@ -138,7 +138,10 @@ newTalent{
 	requires_target = true,
 	cooldown = 60,
 	no_sustain_autoreset = true,
-	random_boss_rarity = 10,
+	random_boss_rarity = 5,
+	rnd_boss_restrict = function(self, t, data)
+		return data.level < 20
+	end,
 	tactical = {
 		-- heals (negative attack) demons hurts others
 		ATTACKAREA = {FIRE = function(self, t, target) return target:attr("demon") and -2 or 2 end},

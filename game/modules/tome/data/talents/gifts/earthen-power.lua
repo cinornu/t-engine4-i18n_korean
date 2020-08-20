@@ -103,24 +103,26 @@ newTalent{
 	tactical = { DEFEND = 2, EQUILIBRIUM=1, MANA=1 },
 	radius = function(self, t) return math.floor(self:combatTalentScale(t, 2.5, 4.5)) end,
 	getPower = function(self, t) return 70 + self:combatTalentStatDamage(t, "wil", 5, 400) end,
+	getDuration = function(self, t) return 7 end,
 	manaRegen = function(self, t) return self:combatTalentScale(t, 0.25, 1, 0.75) end,
 	maxDamage = function(self, t) return self:combatTalentScale(t, 150, 500) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "mana_regen_on_rest", t.manaRegen(self, t))
 	end,
 	action = function(self, t)
-		self:setEffect(self.EFF_ELDRITCH_STONE, 7, {power=t.getPower(self, t), radius=self:getTalentRadius(t), maxdam = t.maxDamage(self, t)})
+		self:setEffect(self.EFF_ELDRITCH_STONE, t.getDuration(self, t), {power=t.getPower(self, t), radius=self:getTalentRadius(t), maxdam = t.maxDamage(self, t)})
 		game:playSoundNear(self, "talents/stone")
 		return true
 	end,
 	info = function(self, t)
-		local power = t.getPower(self, t)
+		local dur = self:getShieldDuration(t.getDuration(self, t))
+		local power = self:getShieldAmount(t.getPower(self, t))
 		local radius = self:getTalentRadius(t)
-		return ([[Creates a shield of impenetrable stone around you for 7 turns, absorbing up to %d damage.
+		return ([[Creates a shield of impenetrable stone around you for %d turns, absorbing up to %d damage.
 		Your equilibrium will increase by twice the damage absorbed.
 		When the effect ends, all equilibrium above minimum will be converted to mana in a storm of arcane energy and the cooldown of your Block is reset.
 		The storm inflicts Arcane damage equal to the converted equilibrium (maximum %d) against everyone around you in a radius %d.
 		Also while resting you will passively regenerate %0.2f mana each turn.
-		The shield strength will increase with Willpower]]):tformat(power, t.maxDamage(self, t), radius, t.manaRegen(self, t))
+		The shield strength will increase with Willpower]]):tformat(dur, power, t.maxDamage(self, t), radius, t.manaRegen(self, t))
 	end,
 }

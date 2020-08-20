@@ -189,7 +189,7 @@ upgrade_rod = function(self)
 	if not rod then return end
 
 	game.player:setQuestStatus("shertul-fortress", self.COMPLETED, "recall-done")
-	rod.shertul_fortress = true
+	rod.recall_target = "shertul-fortress"
 	game.log("#VIOLET#Your rod of recall glows brightly for a moment.")
 end
 
@@ -201,6 +201,7 @@ upgrade_transmo_gems = function(self)
 	end
 	self.shertul_energy = self.shertul_energy - 25
 
+	game.state.transmo_chest_extract_gems = true
 	game.player:setQuestStatus("shertul-fortress", self.COMPLETED, "transmo-chest-extract-gems")
 	game.log("#VIOLET#Your transmogrification chest glows brightly for a moment.")
 end

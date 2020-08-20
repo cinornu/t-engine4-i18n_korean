@@ -18,6 +18,7 @@
 -- darkgod@te4.org
 
 local psitech_wall_editer = { method="sandWalls_def", def="psitechwall"}
+local psitech_floor_editer = { method="borders_def", def="psitechfloor"}
 
 newEntity{
 	define_as = "PSYCAVEFLOOR",
@@ -26,6 +27,7 @@ newEntity{
 	display = '.', color=colors.SANDY_BROWN, back_color=colors.DARK_UMBER,
 	grow = "PSYCAVEWALL",
 	nice_tiler = { method="replace", base={"PSYCAVEFLOOR", 100, 1, 5}},
+	nice_editer = psitech_floor_editer,
 }
 for i = 1, 5 do newEntity{ base = "PSYCAVEFLOOR", define_as = "PSYCAVEFLOOR"..i, image = "terrain/psicave/psitech_floor_"..i.."_01.png"} end
 
@@ -41,6 +43,7 @@ newEntity{
 	air_level = -10,
 	dig = "PSYCAVEFLOOR",
 	nice_editer = psitech_wall_editer,
+	nice_editer2 = psitech_floor_editer,
 	nice_tiler = { method="replace", base={"PSYCAVEWALL", 100, 1, 9}},
 }
 for i = 1, 9 do newEntity{ base = "PSYCAVEWALL", define_as = "PSYCAVEWALL"..i, image = "terrain/psicave/psitechwall_5_"..i..".png"} end
@@ -61,6 +64,7 @@ newEntity{
 	is_door = true,
 	door_opened = "PSYCAVE_DOOR_OPEN",
 	dig = "FLOOR",
+	nice_editer = psitech_floor_editer,
 }
 newEntity{
 	define_as = "PSYCAVE_DOOR_OPEN",
@@ -70,11 +74,33 @@ newEntity{
 	always_remember = true,
 	is_door = true,
 	door_closed = "PSYCAVE_DOOR",
+	nice_editer = psitech_floor_editer,
 }
 newEntity{ base = "PSYCAVE_DOOR", define_as = "PSYCAVE_DOOR_HORIZ", z=3, image = "terrain/psicave/psitech_door1.png", add_displays = {class.new{image="terrain/psicave/psitechwall_8_1.png", z=18, display_y=-1}}, door_opened = "PSYCAVE_DOOR_HORIZ_OPEN"}
 newEntity{ base = "PSYCAVE_DOOR_OPEN", define_as = "PSYCAVE_DOOR_HORIZ_OPEN", image = "terrain/psicave/psitech_floor_1_01.png", add_mos={{image="terrain/psicave/psitech_door1_open_backg.png"}}, add_displays = {class.new{image="terrain/psicave/psitech_door1_open.png", z=17}, class.new{image="terrain/psicave/psitechwall_8_1.png", z=18, display_y=-1}}, door_closed = "PSYCAVE_DOOR_HORIZ"}
 newEntity{ base = "PSYCAVE_DOOR", define_as = "PSYCAVE_DOOR_VERT", image = "terrain/psicave/psitech_floor_1_01.png", add_displays = {class.new{image="terrain/psicave/psitech_door1_vert.png", z=17}, class.new{image="terrain/psicave/psitech_door1_vert_north.png", z=18, display_y=-1}}, door_opened = "PSYCAVE_DOOR_OPEN_VERT", dig = "PSYCAVE_DOOR_OPEN_VERT"}
 newEntity{ base = "PSYCAVE_DOOR_OPEN", define_as = "PSYCAVE_DOOR_OPEN_VERT", z=3, image = "terrain/psicave/psitech_floor_1_01.png", add_mos={{image="terrain/psicave/psitech_door1_open_vert_backg.png"}}, add_displays = {class.new{image="terrain/psicave/psitech_door1_open_vert.png", z=17, add_mos={{image="terrain/psicave/psitech_door1_open_vert_north_backg.png", display_y=-1}}}, class.new{image="terrain/psicave/psitech_door1_open_vert_north.png", z=18, display_y=-1}}, door_closed = "PSYCAVE_DOOR_VERT"}
+
+newEntity{
+	define_as = "PSYCAVE_DOOR_SEALED",
+	type = "wall", subtype = "psitech",
+	name = "psitech door", image = "terrain/psicave/psitech_door1.png",
+	display = '+', color={r=203,g=189,b=72}, back_color={r=93,g=79,b=22},
+	nice_tiler = { method="door3d", north_south="PSYCAVE_DOOR_SEALED_VERT", west_east="PSYCAVE_DOOR_SEALED_HORIZ" },
+	door_sound = "ambient/door_creaks/icedoor-break",
+	notice = true,
+	always_remember = true,
+	block_sight = true,
+	block_sense = true,
+	block_esp = true,
+	is_door = true,
+	door_player_stop = _t"This door seems to be sealed.",
+	door_opened = "PSYCAVE_DOOR_OPEN",
+	dig = "FLOOR",
+	nice_editer = psitech_floor_editer,
+}
+newEntity{ base = "PSYCAVE_DOOR_SEALED", define_as = "PSYCAVE_DOOR_SEALED_HORIZ", z=3, image = "terrain/psicave/psitech_door1.png", add_displays = {class.new{image="terrain/psicave/psitechwall_8_1.png", z=18, display_y=-1, add_mos={{image="terrain/padlock2.png"}}}}, door_opened = "PSYCAVE_DOOR_HORIZ_OPEN"}
+newEntity{ base = "PSYCAVE_DOOR_SEALED", define_as = "PSYCAVE_DOOR_SEALED_VERT", image = "terrain/psicave/psitech_floor_1_01.png", add_displays = {class.new{image="terrain/psicave/psitech_door1_vert.png", z=17, add_mos={{image="terrain/padlock2.png", display_x=0.15, display_y=-0.3}}}, class.new{image="terrain/psicave/psitech_door1_vert_north.png", z=18, display_y=-1}}, door_opened = "PSYCAVE_DOOR_OPEN_VERT", dig = "PSYCAVE_DOOR_OPEN_VERT"}
 
 -----------------------------------------
 -- Cavy exits
@@ -88,6 +114,7 @@ newEntity{
 	notice = true,
 	always_remember = true,
 	change_level = 1,
+	nice_editer = psitech_floor_editer,
 }
 newEntity{
 	define_as = "PSYCAVE_LADDER_UP",
@@ -97,6 +124,7 @@ newEntity{
 	notice = true,
 	always_remember = true,
 	change_level = -1,
+	nice_editer = psitech_floor_editer,
 }
 newEntity{
 	define_as = "PSYCAVE_LADDER_UP_WILDERNESS",
@@ -106,4 +134,5 @@ newEntity{
 	notice = true,
 	change_level = 1,
 	change_zone = "wilderness",
+	nice_editer = psitech_floor_editer,
 }

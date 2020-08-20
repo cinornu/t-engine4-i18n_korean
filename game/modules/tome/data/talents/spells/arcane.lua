@@ -32,8 +32,10 @@ newTalent{
 	proj_speed = 20,
 	direct_hit = function(self, t) if self:getTalentLevel(t) >= 3 then return true else return false end end,
 	reflectable = true,
+	is_beam_spell = true,
 	requires_target = true,
 	target = function(self, t)
+		if thaumaturgyCheck(self) then return {type="widebeam", radius=1, range=self:getTalentRange(t), talent=t, selffire=false, friendlyfire=self:spellFriendlyFire()} end
 		local tg = {type="bolt", range=self:getTalentRange(t), talent=t, display={particle="bolt_arcane", trail="arcanetrail"}}
 		if self:getTalentLevel(t) >= 3 then tg.type = "beam" end
 		return tg
@@ -43,11 +45,17 @@ newTalent{
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
-		if tg.type == "beam" then
-			self:project(tg, x, y, DamageType.ARCANE, self:spellCrit(t.getDamage(self, t)), nil)
-			game.level.map:particleEmitter(self.x, self.y, math.max(math.abs(x-self.x), math.abs(y-self.y)), "mana_beam", {tx=x-self.x, ty=y-self.y})
+		local dam = thaumaturgyBeamDamage(self, self:spellCrit(t.getDamage(self, t)))
+		if tg.type == "beam" or tg.type == "widebeam" then
+			self:project(tg, x, y, DamageType.ARCANE, dam, nil)
+			local _ _, x, y = self:canProject(tg, x, y)
+			if thaumaturgyCheck(self) then
+				game.level.map:particleEmitter(self.x, self.y, math.max(math.abs(x-self.x), math.abs(y-self.y)), "mana_beam_wide", {tx=x-self.x, ty=y-self.y})
+			else
+				game.level.map:particleEmitter(self.x, self.y, math.max(math.abs(x-self.x), math.abs(y-self.y)), "mana_beam", {tx=x-self.x, ty=y-self.y})
+			end
 		else
-			self:projectile(tg, x, y, DamageType.ARCANE, self:spellCrit(t.getDamage(self, t)), {type="manathrust"})
+			self:projectile(tg, x, y, DamageType.ARCANE, dam, {type="manathrust"})
 		end
 		game:playSoundNear(self, "talents/arcane")
 		return true
@@ -117,6 +125,7 @@ newTalent{
 		target = game.level.map(tx, ty, Map.ACTOR)
 		if not target then return nil end
 
+		self:callTalent(self.T_ENERGY_ALTERATION, "forceActivate", DamageType.ARCANE)
 		target:setEffect(target.EFF_ARCANE_VORTEX, 6, {src=self, dam=self:spellCrit(t.getDamage(self, t))})
 		game:playSoundNear(self, "talents/arcane")
 		return true
@@ -144,7 +153,7 @@ newTalent{
 	no_energy = true,
 	tactical = { MANA = 3, DEFEND = 2, },
 	radius = 5,
-	getMaxAbsorb = function(self, t) return self:combatTalentSpellDamage(t, 50, 450) * (100 + (self:attr("shield_factor") or 0)) / 100 end,
+	getMaxAbsorb = function(self, t) return self:getShieldAmount(self:combatTalentSpellDamage(t, 50, 450)) end,
 	getManaRatio = function(self, t) return self:combatTalentLimit(t, 0.2, 1.1, 0.4) end,
 	-- Note: effects handled in mod.class.Actor:onTakeHit function
 	getMaxDamageLimit = function(self, t) return self:combatTalentLimit(t, 1200, 400, 1000) end,
@@ -215,16 +224,18 @@ newTalent{
 		-- if self:reactionToward(src) > 0 then return end
 		self.disruption_shield_power = self.disruption_shield_power or 0
 		self.disruption_shield_storage = self.disruption_shield_storage or 0
+		local absorbed = 0
 
 		if cb.value <= self.disruption_shield_power then
-			game:delayedLogDamage(src, self, 0, ("#SLATE#(%d absorbed)#LAST#"):tformat(cb.value), false)
 			self.disruption_shield_power = self.disruption_shield_power - cb.value
+			absorbed = cb.value
 			cb.value = 0
+			game:delayedLogDamage(src, self, 0, ("#SLATE#(%d absorbed)#LAST#"):tformat(absorbed), false)
 			return true
 		else
-			game:delayedLogDamage(src, self, 0, ("#SLATE#(%d absorbed)#LAST#"):tformat(cb.value), false)
-			self.disruption_shield_power = 0
 			cb.value = cb.value - self.disruption_shield_power
+			absorbed = self.disruption_shield_power
+			self.disruption_shield_power = 0
 		end
 
 		local do_explode = false
@@ -232,18 +243,23 @@ newTalent{
 		local mana_usage = cb.value * ratio
 		local store = cb.value
 
+		if self.disruption_shield_storage + store >= t.getMaxDamage(self, t) then
+			do_explode = true
+			store = t.getMaxDamage(self, t) - self.disruption_shield_storage
+			mana_usage = store * ratio
+		end
 		if (self:getMana() - mana_usage) / self:getMaxMana() < 0.5 then
 			do_explode = true
 			local mana_limit = self:getMaxMana() * 0.3
 			mana_usage = self:getMana() - mana_limit
-			cb.value = cb.value - mana_usage / ratio
 			store = mana_usage / ratio
-		else
-			cb.value = 0
 		end
+		cb.value = cb.value - store
+		absorbed = absorbed + store
 		self:incMana(-mana_usage)
 		self.disruption_shield_storage = math.min(self.disruption_shield_storage + store, t.getMaxDamage(self, t))
 
+		game:delayedLogDamage(src, self, 0, ("#SLATE#(%d absorbed)#LAST#"):tformat(absorbed), false)
 		game:delayedLogDamage(src, self, 0, ("#PURPLE#(%d mana)#LAST#"):tformat(store), false)
 
 		if do_explode then	

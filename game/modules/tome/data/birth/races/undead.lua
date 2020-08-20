@@ -36,8 +36,6 @@ newBirthDescriptor{
 			__ALL__ = "disallow",
 			Ghoul = "allow",
 			Skeleton = "allow",
-			Vampire = "allow",
-			Wight = "allow",
 		},
 		class =
 		{

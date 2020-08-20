@@ -38,6 +38,8 @@ cs_player_dup = nil
 local tabs_list = {general=true, attack=true, defense=true, talents=true, equipment=true}
 
 function _M:init(actor, start_tab)
+	if actor.showCharacterSheet then actor = actor:showCharacterSheet() end
+
 	if _M.cs_player_dup and _M.cs_player_dup.name ~= actor.name then _M.cs_player_dup = nil end
 
 	self.actor = actor
@@ -713,7 +715,7 @@ The amount of %s automatically gained or lost each turn.]]):tformat(res_def.name
 		end
 		color = player.healing_factor
 		color = color >= 1 and "#LIGHT_GREEN#" or "#LIGHT_RED#"
-		text = compare_fields(player, actor_to_compare, function(actor) return util.bound((actor.healing_factor or 1), 0, 2.5) end, color.."%.1f%%", "%+.1f%%", 100)
+		text = compare_fields(player, actor_to_compare, function(actor) return util.bound((actor.healing_factor or 1), 0, actor.healing_factor_max or 2.5) end, color.."%.1f%%", "%+.1f%%", 100)
 		self:mouseTooltip(self.TOOLTIP_HEALING_MOD, s:drawColorStringBlended(self.font, ("Healing mod.   : #00ff00#%s"):tformat(text), w, h, 255, 255, 255, true)) h = h + self.font_h
 		color = player.life_regen
 		color = color >= 0 and "#LIGHT_GREEN#" or "#LIGHT_RED#"

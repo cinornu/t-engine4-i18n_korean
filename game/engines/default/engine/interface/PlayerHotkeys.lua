@@ -29,7 +29,7 @@ module(..., package.seeall, class.make)
 _M.quickhotkeys = {}
 _M.quickhotkeys_specifics = {}
 
-_M.nb_hotkey_pages = 5
+_M.nb_hotkey_pages = 7
 
 function _M:init(t)
 	self.hotkey = self.hotkey or {}
@@ -308,7 +308,7 @@ function _M:updateQuickHotkeys(actor)
 	end
 end
 
-local page_to_hotkey = {"", "SECOND_", "THIRD_", "FOURTH_", "FIFTH_"}
+local page_to_hotkey = {"", "SECOND_", "THIRD_", "FOURTH_", "FIFTH_", "SIX_", "SEVEN_"}
 
 function _M:bindAllHotkeys(key, fct)
 	for page = 1, self.nb_hotkey_pages do for x = 1, 12 do

@@ -88,6 +88,7 @@ newBirthDescriptor{
 			{name=_t"Redhead 4", file="hair_redhead_04", unlock="cosmetic_race_human_redhead", only_for={sex="Female"}},
 			{name=_t"Redhead 5", file="hair_redhead_05", unlock="cosmetic_race_human_redhead", only_for={sex="Female"}},
 			{name=_t"Redhead 6", file="hair_redhead_06", unlock="cosmetic_race_human_redhead", only_for={sex="Female"}},
+			{name=_t"Redhead Melinda", file="hair_redhead_melinda", unlock="cosmetic_race_human_redhead", only_for={sex="Female"}},
 		},
 		facial_features = {
 			{name=_t"Dark Beard 1", file="beard_cornac_01", only_for={sex="Male"}},

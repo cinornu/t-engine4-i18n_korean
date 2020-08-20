@@ -188,6 +188,7 @@ newTalent{
 	require = gifts_req_high4,
 	points = 5,
 	mode = "passive",
+	no_npc_use = true, -- breaths are high damage on rares already; should really change this to be less binary in general, this is weird design
 	getDamageIncrease = function(self, t) return self:combatTalentLimit(t, 50, 5, 15) end, -- Limit < 50%
 	getResists = function(self, t) return self:combatTalentScale(t, 0.6, 2.5) end,
 	getResistPen = function(self, t) return self:combatTalentLimit(t, 50, 5, 15) end, -- Limit < 50%

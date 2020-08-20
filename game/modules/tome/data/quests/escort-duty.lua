@@ -17,6 +17,7 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
+local EscortRewards = require("mod.class.EscortRewards")
 local Talents = require("engine.interface.ActorTalents")
 local Stats = require("engine.interface.ActorStats")
 local NameGenerator = require("engine.NameGenerator")
@@ -44,224 +45,6 @@ local name_rules = {
 		rules = "$s$v$35m$10m$e",
 	},
 }
-
-local possible_types = {
-	{ name="lost warrior", random="male", chance=70,
-		text = _t[[Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?]],
-		actor = {
-			type = "humanoid", subtype = "human", image = "player/higher_male.png",
-			display = "@", color=colors.UMBER,
-			name = _t"%s, the lost warrior",
-			desc = _t[[He looks tired and wounded.]],
-			autolevel = "warrior",
-			ai = "escort_quest", ai_state = { talent_in=4, },
-			stats = { str=18, dex=13, mag=5, con=15 },
-
-			body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, QUIVER=1 },
-			resolvers.equip{ {type="weapon", subtype="greatsword", autoreq=true} },
-			resolvers.talents{ [Talents.T_STUNNING_BLOW]=1, },
-			lite = 4,
-			rank = 2,
-			exp_worth = 1,
-			antimagic_ok = true,
-
-			max_life = 50, life_regen = 0,
-			life_rating = 12,
-			combat_armor = 3, combat_def = 3,
-			inc_damage = {all=-50},
-
-			reward_type = "warrior",
-		},
-	},
-	{ name="injured seer", random="female", chance=70,
-		text = _t[[Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?]],
-		actor = {
-			name = _t"%s, the injured seer",
-			type = "humanoid", subtype = "elf", female=true, image = "player/halfling_female.png",
-			display = "@", color=colors.LIGHT_BLUE,
-			desc = _t[[She looks tired and wounded.]],
-			autolevel = "caster",
-			ai = "escort_quest", ai_state = { talent_in=4, },
-			stats = { str=8, dex=7, mag=18, con=12 },
-
-			body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, QUIVER=1 },
-			resolvers.equip{ {type="weapon", subtype="staff", autoreq=true} },
-			resolvers.talents{ [Talents.T_MANATHRUST]=1, },
-			lite = 4,
-			rank = 2,
-			exp_worth = 1,
-
-			max_life = 50, life_regen = 0,
-			life_rating = 11,
-			combat_armor = 3, combat_def = 3,
-			inc_damage = {all=-50},
-
-			reward_type = "divination",
-		},
-	},
-	{ name="repented thief", random="male", chance=70,
-		text = _t[[Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?]],
-		actor = {
-			name = _t"%s, the repented thief",
-			type = "humanoid", subtype = "halfling", image = "player/cornac_male.png",
-			display = "@", color=colors.BLUE,
-			desc = _t[[He looks tired and wounded.]],
-			autolevel = "rogue",
-			ai = "escort_quest", ai_state = { talent_in=4, },
-			stats = { str=8, dex=7, mag=18, con=12 },
-
-			body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, QUIVER=1 },
-			resolvers.equip{ {type="weapon", subtype="dagger", autoreq=true}, {type="weapon", subtype="dagger", autoreq=true} },
-			resolvers.talents{ [Talents.T_DIRTY_FIGHTING]=1, },
-			lite = 4,
-			rank = 2,
-			exp_worth = 1,
-			antimagic_ok = true,
-
-			max_life = 50, life_regen = 0,
-			life_rating = 11,
-			combat_armor = 3, combat_def = 3,
-			inc_damage = {all=-50},
-
-			reward_type = "survival",
-		},
-	},
-	{ name="lone alchemist", random="male", chance=70,
-		text = _t[[Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?]],
-		actor = {
-			name = _t"%s, the lone alchemist",
-			type = "humanoid", subtype = "human", image = "player/shalore_male.png",
-			display = "@", color=colors.AQUAMARINE,
-			desc = _t[[He looks tired and wounded.]],
-			autolevel = "rogue",
-			ai = "escort_quest", ai_state = { talent_in=4, },
-			stats = { str=8, dex=7, mag=18, con=12 },
-
-			body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, QUIVER=1 },
-			resolvers.equip{ {type="weapon", subtype="staff", autoreq=true} },
-			resolvers.talents{ [Talents.T_HEAT]=1, },
-			lite = 4,
-			rank = 2,
-			exp_worth = 1,
-
-			max_life = 50, life_regen = 0,
-			life_rating = 11,
-			combat_armor = 3, combat_def = 3,
-			inc_damage = {all=-50},
-
-			reward_type = "alchemy",
-		},
-	},
-	{ name="lost sun paladin", random="female", chance=70,
-		text = _t[[Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?]],
-		actor = {
-			name = _t"%s, the lost sun paladin",
-			type = "humanoid", subtype = "human", female=true, image = "player/higher_female.png",
-			display = "@", color=colors.GOLD,
-			desc = _t[[She looks tired and wounded.]],
-			autolevel = "warriormage",
-			ai = "escort_quest", ai_state = { talent_in=4, },
-			stats = { str=18, dex=7, mag=18, con=12 },
-
-			body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, QUIVER=1 },
-			resolvers.equip{ {type="weapon", subtype="mace", autoreq=true} },
-			resolvers.talents{ [Talents.T_CHANT_OF_FORTRESS]=1, },
-			lite = 4,
-			rank = 2,
-			exp_worth = 1,
-
-			max_life = 50, life_regen = 0,
-			life_rating = 12,
-			combat_armor = 3, combat_def = 3,
-			inc_damage = {all=-50},
-
-			reward_type = "sun_paladin",
-			sunwall_query = true,
-		},
-	},
-	{ name="lost defiler", random="female", chance=70,
-		text = _t[[Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?]],
-		actor = {
-			name = _t"%s, the lost defiler",
-			type = "humanoid", subtype = "human", female=true, image = "player/higher_female.png",
-			display = "@", color=colors.YELLOW,
-			desc = _t[[She looks tired and wounded.]],
-			autolevel = "caster",
-			ai = "escort_quest", ai_state = { talent_in=4, },
-			stats = { str=8, dex=7, mag=18, con=12 },
-
-			body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, QUIVER=1 },
-			resolvers.equip{ {type="weapon", subtype="staff", autoreq=true} },
-			resolvers.talents{ [Talents.T_CURSE_OF_IMPOTENCE]=1, },
-			lite = 4,
-			rank = 2,
-			exp_worth = 1,
-
-			max_life = 50, life_regen = 0,
-			life_rating = 11,
-			combat_armor = 3, combat_def = 3,
-			inc_damage = {all=-50},
-
-			reward_type = "defiler",
-		},
-	},
-	{ name="temporal explorer", random="player", portal=_t"temporal portal", chance=30,
-		text = _t[[Oh but you are ... are you ?! ME?!
-So I was right, this is not my original time-thread!
-Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]],
-		actor = {
-			name = _t"%s, temporal explorer",
-			type = "humanoid", subtype = "human", female=true, image = "player/higher_female.png",
-			display = "@", color=colors.YELLOW,
-			desc = _t[[She looks tired and wounded. She is so similar to you and yet completely different. Weird.]],
-			autolevel = "caster",
-			ai = "escort_quest", ai_state = { talent_in=4, },
-			stats = { str=8, dex=7, mag=18, con=12 },
-
-			body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, QUIVER=1 },
-			resolvers.equip{ {type="weapon", subtype="staff", autoreq=true} },
-			resolvers.talents{ [Talents.T_DUST_TO_DUST]=1, },
-			lite = 4,
-			rank = 2,
-			exp_worth = 1,
-
-			max_life = 50, life_regen = 0,
-			life_rating = 11,
-			combat_armor = 3, combat_def = 3,
-			inc_damage = {all=-50},
-
-			reward_type = "temporal",
-		},
-	},
-	{ name="worried loremaster", random="female", chance=30,
-		text = _t[[Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?]],
-		actor = {
-			name = _t"%s, the worried loremaster",
-			type = "humanoid", subtype = "human", female=true, image = "player/thalore_female.png",
-			display = "@", color=colors.LIGHT_GREEN,
-			desc = _t[[She looks tired and wounded.]],
-			autolevel = "wildcaster",
-			ai = "escort_quest", ai_state = { talent_in=4, },
-			stats = { str=8, dex=7, mag=18, con=12 },
-
-			body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, QUIVER=1 },
-			resolvers.equip{ {type="weapon", subtype="staff", autoreq=true} },
-			resolvers.talents{ [Talents.T_MIND_SEAR]=1, },
-			lite = 4,
-			rank = 2,
-			exp_worth = 1,
-			antimagic_ok = true,
-
-			max_life = 50, life_regen = 0,
-			life_rating = 10,
-			combat_armor = 3, combat_def = 3,
-			inc_damage = {all=-50},
-
-			reward_type = "exotic",
-		},
-	},
-}
-local possible_types_safe = table.clone(possible_types, true)
 
 --------------------------------------------------------------------------------
 -- Quest code
@@ -338,24 +121,8 @@ on_grant = function(self, who)
 
 	self.on_grant = nil
 
-	local hd = {"Quest:escort:assign", possible_types=possible_types}
-	if self:triggerHook(hd) then possible_types = hd.possible_types end
-
-	game.state.escorts_seen = game.state.escorts_seen or {}
-	local escorts_seen = game.state.escorts_seen
-	while true do
-		self.kind = rng.table(possible_types)
-		if not self.kind then
-			-- If some bad addon borked us, revert to base list
-			possible_types = possible_types_safe
-		else
-			if not self.kind.unique or not escorts_seen[self.kind.name] then
-				if rng.percent(self.kind.chance) then break end
-			end
-		end
-	end
-
-	escorts_seen[self.kind.name] = (escorts_seen[self.kind.name] or 0) + 1
+	self.kind_id, self.kind = EscortRewards:getGiver()
+	self.kind = self.kind.escort
 
 	if self.kind.random == "player" then
 		self.kind.actor.name = self.kind.actor.name:format(game.player.name)
@@ -368,6 +135,7 @@ on_grant = function(self, who)
 	self.kind.actor.faction = who.faction
 	self.kind.actor.summoner = who
 	self.kind.actor.quest_id = self.id
+	self.kind.actor.reward_type = self.kind_id
 	self.kind.actor.no_inventory_access = true
 	self.kind.actor.escort_quest = true
 	self.kind.actor.remove_from_party_on_death = true

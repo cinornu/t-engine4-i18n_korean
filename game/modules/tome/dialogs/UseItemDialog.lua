@@ -103,7 +103,11 @@ function _M:use(item)
 		local list = {}
 		for inven_idx, inven in pairs(self.actor.inven) do if inven.worn then
 			for item_idx, o in ipairs(inven) do
-				if o:canAttachTinker(self.object, true) then list[#list+1] = {name=o:getName{do_color=true}, inven=inven, item=item_idx, o=o} end
+				if self.actor.tinker_restrict_slots and (not self.actor.tinker_restrict_slots[inven.name] or self.actor.tinker_restrict_slots[inven.name] < item_idx) then
+					-- nothing
+				else
+					if o:canAttachTinker(self.object, true) then list[#list+1] = {name=o:getName{do_color=true}, inven=inven, item=item_idx, o=o} end
+				end
 			end
 		end end
 		local doit = function(w)

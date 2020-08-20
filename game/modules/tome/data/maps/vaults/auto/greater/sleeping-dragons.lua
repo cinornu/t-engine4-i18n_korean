@@ -81,6 +81,7 @@ local aggro_wyrm = function()
       if e.sleeping_wyrm == true then
          e:removeEffect(e.EFF_DOZING)
          e:setTarget(game.player)
+         e.faction = "enemies"
       end
    end
    game.log("#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!")
@@ -106,8 +107,8 @@ local aggro_wyrm_grid = function(chance)
    return g
 end
 defineTile('1', aggro_wyrm_grid(3), {random_filter={add_levels=25, type="money"}})
-defineTile('2', aggro_wyrm_grid(10), {random_filter={add_levels=15, tome_mod="uvault"}})
-defineTile('3', aggro_wyrm_grid(33), {random_filter={add_levels=25, tome_mod="gvault"}})
+defineTile('2', aggro_wyrm_grid(10), {random_filter={add_levels=15, tome_mod="gvault"}})
+defineTile('3', aggro_wyrm_grid(33), {random_filter={unique=true, not_properties={"lore"}, add_levels=25, tome_mod="gvault"}})
 defineTile('W', "FLOOR", nil,
    {entity_mod=function(e)
       e.make_escort = nil
@@ -116,6 +117,7 @@ defineTile('W', "FLOOR", nil,
       e.on_takehit = aggro_wyrm_takehit
       e.aggro_wyrm = aggro_wyrm
       e.sleeping_wyrm = true
+      e.hard_faction = "neutral"
       return e
    end,
    random_filter={special_rarity="wyrm_rarity",
@@ -132,6 +134,7 @@ defineTile('D', "FLOOR", nil,
       e.on_takehit = aggro_wyrm_takehit
       e.aggro_wyrm = aggro_wyrm
       e.sleeping_wyrm = true
+      e.hard_faction = "neutral"
       return e
    end,
    random_filter={special_rarity="drake_rarity",

@@ -1145,15 +1145,21 @@ function _M:addEffect(src, x, y, duration, damtype, dam, radius, dir, angle, ove
 
 	while overlay_particle do
 		e.particles = e.particles or {}
-		if overlay_particle.only_one then
-			e.particles[#e.particles+1] = self:particleEmitter(x, y, 1, overlay_particle.type, overlay_particle.args, nil, overlay_particle.zdepth)
+		if overlay_particle.stack then
+			for _, def in ipairs(overlay_particle.stack) do
+				e.particles[#e.particles+1] = self:particleEmitter(x, y, 1, def.type, def.args, def.shader, def.zdepth)
+				e.particles[#e.particles].__map_effect = e
+			end
+			e.particles_only_one = true
+		elseif overlay_particle.only_one then
+			e.particles[#e.particles+1] = self:particleEmitter(x, y, 1, overlay_particle.type, overlay_particle.args, overlay_particle.shader, overlay_particle.zdepth)
 			e.particles[#e.particles].__map_effect = e
 			e.particles_only_one = true
 		else
 			e.fake_overlay = overlay_particle
 			for lx, ys in pairs(grids) do
 				for ly, _ in pairs(ys) do
-					e.particles[#e.particles+1] = self:particleEmitter(lx, ly, 1, overlay_particle.type, overlay_particle.args, nil, overlay_particle.zdepth)
+					e.particles[#e.particles+1] = self:particleEmitter(lx, ly, 1, overlay_particle.type, overlay_particle.args, overlay_particle.shader, overlay_particle.zdepth)
 					e.particles[#e.particles].__map_effect = e
 				end
 			end
@@ -1280,9 +1286,11 @@ function _M:processEffects(update_shape_only)
 				else e.grids = core.fov.beam_grids(e.x, e.y, e.radius, e.dir, e.angle, true) end
 				if e.particles then
 					if e.particles_only_one then
-						e.particles[1]:shiftCustom(self.tile_w * (e.particles[1].x - e.x), self.tile_h * (e.particles[1].y - e.y))
-						e.particles[1].x = e.x
-						e.particles[1].y = e.y
+						for i, p in ipairs(e.particles) do
+							p:shiftCustom(self.tile_w * (p.x - e.x), self.tile_h * (p.y - e.y))
+							p.x = e.x
+							p.y = e.y
+						end
 					else
 						for j, ps in ipairs(e.particles) do self:removeParticleEmitter(ps) end
 						e.particles = {}
@@ -1308,6 +1316,19 @@ function _M:processEffects(update_shape_only)
 			self.z_effects[e.overlay.zdepth][e] = nil
 		end
 	end
+end
+
+function _M:removeEffect(e)
+	if e.particles then
+		for j, ps in ipairs(e.particles) do self:removeParticleEmitter(ps) end
+	end
+	if e.overlay then
+		self.z_effects[e.overlay.zdepth][e] = nil
+	end
+	for i, ee in ipairs(self.effects) do if ee == e then
+		table.remove(self.effects, i)
+		break
+	end end
 end
 
 --- Returns the first effect matching the given damage type, if any

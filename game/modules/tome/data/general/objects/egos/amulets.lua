@@ -113,9 +113,9 @@ newEntity{
 		local tt = rng.table(tts)
 		if not tt then tt = "technique/combat-training" end
 
-		e.wielder.talents_types_mastery = {}
+		e.wielder.talents_types_mastery = e.wielder.talents_types_mastery or {}
 		local v = (10 + rng.mbonus(math.ceil(30 * e.material_level / 5), resolvers.current_level, 50)) / 100
-		e.wielder.talents_types_mastery[tt] = v
+		e.wielder.talents_types_mastery[tt] = (e.wielder.talents_types_mastery[tt] or 0) + v
 		e.cost = e.cost + v * 60
 	end),
 }
@@ -552,10 +552,10 @@ newEntity{
 		local tt = rng.tableRemove(tts)
 		local tt2 = rng.tableRemove(tts)
 
-		e.wielder.talents_types_mastery = {}
+		e.wielder.talents_types_mastery = e.wielder.talents_types_mastery or {}
 		local v = (10 + rng.mbonus(math.ceil(30 * e.material_level / 5), resolvers.current_level, 50)) / 100
-		if tt then e.wielder.talents_types_mastery[tt] = v end
-		if tt2 then e.wielder.talents_types_mastery[tt2] = v end
+		if tt then e.wielder.talents_types_mastery[tt] = (e.wielder.talents_types_mastery[tt] or 0) + v end
+		if tt2 then e.wielder.talents_types_mastery[tt2] = (e.wielder.talents_types_mastery[tt2] or 0) + v end
 		e.cost = e.cost + v * 60
 	end),
 }

@@ -211,7 +211,7 @@ newChat{ id="permanent-cloak",
 However, I suggest you still carry it with you in case something manages to remove it from you.]],
 	answers = {
 		{_t"Not now."},
-		{_t"That could be quite useful. Yes, please do it.", action=function(npc, player)
+		{_t"That could be quite useful. Yes, please do it.", cond=function() return q.shertul_energy >= 10 end,action=function(npc, player)
 			local cloak = player:findInAllInventoriesBy("define_as", "CLOAK_DECEPTION")
 			cloak.upgraded_cloak = true
 			player.permanent_undead_cloak = true  -- Prevents the effect being removed from moving the flags

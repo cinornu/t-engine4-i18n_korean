@@ -387,12 +387,161 @@ defineAction{
 	name = _t"Fifth Hotkey 12",
 }
 
+-- Alt + Ctrl + Hotkeys
+defineAction{
+	default = { "sym:_1:true:false:true:false" },
+	type = "HOTKEY_SIX_1",
+	group = "hotkeys",
+	name = _t"Six Hotkey 1",
+}
+defineAction{
+	default = { "sym:_2:true:false:true:false" },
+	type = "HOTKEY_SIX_2",
+	group = "hotkeys",
+	name = _t"Six Hotkey 2",
+}
+defineAction{
+	default = { "sym:_3:true:false:true:false" },
+	type = "HOTKEY_SIX_3",
+	group = "hotkeys",
+	name = _t"Six Hotkey 3",
+}
+defineAction{
+	default = { "sym:_4:true:false:true:false" },
+	type = "HOTKEY_SIX_4",
+	group = "hotkeys",
+	name = _t"Six Hotkey 4",
+}
+defineAction{
+	default = { "sym:_5:true:false:true:false" },
+	type = "HOTKEY_SIX_5",
+	group = "hotkeys",
+	name = _t"Six Hotkey 5",
+}
+defineAction{
+	default = { "sym:_6:true:false:true:false" },
+	type = "HOTKEY_SIX_6",
+	group = "hotkeys",
+	name = _t"Six Hotkey 6",
+}
+defineAction{
+	default = { "sym:_7:true:false:true:false" },
+	type = "HOTKEY_SIX_7",
+	group = "hotkeys",
+	name = _t"Six Hotkey 7",
+}
+defineAction{
+	default = { "sym:_8:true:false:true:false" },
+	type = "HOTKEY_SIX_8",
+	group = "hotkeys",
+	name = _t"Six Hotkey 8",
+}
+defineAction{
+	default = { "sym:_9:true:false:true:false" },
+	type = "HOTKEY_SIX_9",
+	group = "hotkeys",
+	name = _t"Six Hotkey 9",
+}
+defineAction{
+	default = { "sym:_0:true:false:true:false" },
+	type = "HOTKEY_SIX_10",
+	group = "hotkeys",
+	name = _t"Six Hotkey 10",
+}
+defineAction{
+	default = { "sym:_MINUS:true:false:true:false" },
+	type = "HOTKEY_SIX_11",
+	group = "hotkeys",
+	name = _t"Six Hotkey 11",
+}
+defineAction{
+	default = { "sym:_EQUALS:true:false:true:false" },
+	type = "HOTKEY_SIX_12",
+	group = "hotkeys",
+	name = _t"Six Hotkey 12",
+}
+
+-- Alt + Shift + Ctrl + Hotkeys
+defineAction{
+	default = { "sym:_1:true:true:true:false" },
+	type = "HOTKEY_SEVEN_1",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 1",
+}
+defineAction{
+	default = { "sym:_2:true:true:true:false" },
+	type = "HOTKEY_SEVEN_2",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 2",
+}
+defineAction{
+	default = { "sym:_3:true:true:true:false" },
+	type = "HOTKEY_SEVEN_3",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 3",
+}
+defineAction{
+	default = { "sym:_4:true:true:true:false" },
+	type = "HOTKEY_SEVEN_4",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 4",
+}
+defineAction{
+	default = { "sym:_5:true:true:true:false" },
+	type = "HOTKEY_SEVEN_5",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 5",
+}
+defineAction{
+	default = { "sym:_6:true:true:true:false" },
+	type = "HOTKEY_SEVEN_6",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 6",
+}
+defineAction{
+	default = { "sym:_7:true:true:true:false" },
+	type = "HOTKEY_SEVEN_7",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 7",
+}
+defineAction{
+	default = { "sym:_8:true:true:true:false" },
+	type = "HOTKEY_SEVEN_8",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 8",
+}
+defineAction{
+	default = { "sym:_9:true:true:true:false" },
+	type = "HOTKEY_SEVEN_9",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 9",
+}
+defineAction{
+	default = { "sym:_0:true:true:true:false" },
+	type = "HOTKEY_SEVEN_10",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 10",
+}
+defineAction{
+	default = { "sym:_MINUS:true:true:true:false" },
+	type = "HOTKEY_SEVEN_11",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 11",
+}
+defineAction{
+	default = { "sym:_EQUALS:true:true:true:false" },
+	type = "HOTKEY_SEVEN_12",
+	group = "hotkeys",
+	name = _t"Seven Hotkey 12",
+}
+
 defineAction{
 	default = { "sym:_PAGEUP:false:false:false:false" },
 	type = "HOTKEY_PREV_PAGE",
 	group = "hotkeys",
 	name = _t"Previous Hotkey Page",
 }
+
 defineAction{
 	default = { "sym:_PAGEDOWN:false:false:false:false" },
 	type = "HOTKEY_NEXT_PAGE",

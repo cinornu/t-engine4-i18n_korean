@@ -75,7 +75,7 @@ newTalent{
 		talents = table.keys(talents)
 		while #talents > 0 and nb > 0 do
 			local tid = rng.tableRemove(talents)
-			target:forceUseTalent(tid, {ignore_energy=true})
+			target:dispel(tid, self)
 			nb = nb - 1
 			local tt = self:getTalentFromId(tid)
 			if tt.is_spell then dispeltypes.spell = true

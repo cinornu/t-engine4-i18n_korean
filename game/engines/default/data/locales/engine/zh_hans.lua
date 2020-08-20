@@ -1,4 +1,8 @@
-locale "zh_hans"-- COPYforceFontPackage("chinese")setFlag("break_text_all_character", true)
+locale "zh_hans"
+-- COPY
+forceFontPackage("chinese")
+setFlag("break_text_all_character", true)
+
 ------------------------------------------------
 section "always_merge"
 
@@ -270,6 +274,11 @@ t("Run diagonally right and up", "向右上方奔跑", "_t")
 t("Run diagonally left and down", "向左下方奔跑", "_t")
 t("Run diagonally right and down", "向右下方奔跑", "_t")
 t("Auto-explore", "自动探索", "_t")
+t("Move left (WASD directions)", "向左移动 (WASD 方向键)", "_t")
+t("Move right (WASD directions)", "向右移动 (WASD 方向键)", "_t")
+t("Move up (WASD directions)", "向上移动 (WASD 方向键)", "_t")
+t("movement", "移动", "_t")
+t("Move down (WASD directions)", "向下移动 (WASD 方向键)", "_t")
 
 
 ------------------------------------------------
@@ -578,6 +587,7 @@ section "game/engines/default/engine/dialogs/GameMenu.lua"
 
 t("Game Menu", "游戏目录", "_t")
 t("Resume", "暂停游戏", "_t")
+t("Language", "语言", "_t")
 t("Key Bindings", "按键绑定", "_t")
 t("Video Options", "图像设置", "_t")
 t("Display Resolution", "显示分辨率", "_t")
@@ -651,6 +661,7 @@ t("Gesture", "鼠标手势", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/LanguageSelect.lua"
 
+t("Language Selection", "语言选择", "_t")
 
 
 ------------------------------------------------

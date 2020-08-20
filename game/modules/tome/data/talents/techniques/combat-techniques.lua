@@ -152,13 +152,14 @@ newTalent{
 	stamina = 25,
 	no_energy = true,
 	require = techs_strdex_req4,
+	random_boss_rarity = 33, -- common tree on classes and global speed is immensely powerful 
 	tactical = { BUFF = 2, CLOSEIN = 2, ESCAPE = 2 },
 	on_pre_use_ai = function(self, t) -- don't use out of combat
 		local target = self.ai_target.actor
 		if target and core.fov.distance(self.x, self.y, target.x, target.y) <= 10 and self:hasLOS(target.x, target.y, "block_move") then return true end
 		return false
 	end,
-	getSpeed = function(self, t) return self:combatTalentScale(t, 0.14, 0.45) end,
+	getSpeed = function(self, t) return self:combatTalentScale(t, 0.14, 0.4) end,
 	action = function(self, t)
 		self:setEffect(self.EFF_SPEED, 5, {power=t.getSpeed(self, t)})
 		return true
@@ -207,6 +208,7 @@ newTalent{
 	require = techs_strdex_req3,
 	mode = "passive",
 	points = 5,
+	random_boss_rarity = 50, -- super common tree and this disproportionately targets mages
 	getSaves = function(self, t) return math.floor(self:combatTalentScale(t, 12, 48)) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "combat_spellresist", t.getSaves(self,t))

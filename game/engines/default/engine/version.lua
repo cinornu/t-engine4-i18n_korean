@@ -21,7 +21,7 @@
 -- Where values are {major, minor, patch, engine_name, c_core}
 -- @script engine.version
 
-engine.version = {1,6,7,"te4",17}
+engine.version = {1,7,0,"te4",17}
 engine.require_c_core = engine.version[5]
 engine.version_id = ("%s-%d_%d.%d.%d"):format(engine.version[4], engine.require_c_core, engine.version[1], engine.version[2], engine.version[3])
 
@@ -110,6 +110,22 @@ end
 --- Check if we are running as beta
 function engine.version_hasbeta()
 	if fs.exists("/engine/version_beta.lua") then
-		return dofile("/engine/version_beta.lua")
+		local beta = dofile("/engine/version_beta.lua")
+		return beta
+	end
+end
+
+--- Check if we are running as beta
+function engine.beta_allow_addon(add)
+	if fs.exists("/engine/version_beta.lua") then
+		local beta, allowed_addons = dofile("/engine/version_beta.lua")
+		if not beta or not allowed_addons then return true end
+		for _, test in ipairs(allowed_addons) do
+			if type(test) == "function" then return test(add)
+			elseif add.short_name == test then return true
+			elseif add.short_name:find(test) then return true end
+		end
+	else
+		return true
 	end
 end

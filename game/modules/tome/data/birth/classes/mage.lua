@@ -188,9 +188,13 @@ newBirthDescriptor{
 		["spell/arcane"]={true, 0.3},
 		["spell/aether"]={false, 0.3},
 		["spell/fire"]={true, 0.3},
+		["spell/wildfire"]={false, 0.3},
 		["spell/earth"]={true, 0.3},
+		["spell/stone"]={false, 0.3},
 		["spell/water"]={true, 0.3},
+		["spell/ice"]={false, 0.3},
 		["spell/air"]={true, 0.3},
+		["spell/storm"]={false, 0.3},
 		["spell/phantasm"]={true, 0.3},
 		["spell/temporal"]={true, 0.3},
 		["spell/meta"]={false, 0.3},
@@ -198,12 +202,6 @@ newBirthDescriptor{
 		["spell/conveyance"]={true, 0.3},
 		["spell/aegis"]={true, 0.3},
 		["cunning/survival"]={false, 0.0},
-	},
-	unlockable_talents_types = {
-		["spell/wildfire"]={false, 0.3, "mage_pyromancer"},
-		["spell/ice"]={false, 0.3, "mage_cryomancer"},
-		["spell/stone"]={false, 0.3, "mage_geomancer"},
-		["spell/storm"]={false, 0.3, "mage_tempest"},
 	},
 	talents = {
 		[ActorTalents.T_MANATHRUST] = 1,
@@ -222,6 +220,9 @@ newBirthDescriptor{
 				self.starting_intro = "archmage"
 				self.faction = "angolwen"
 				self:learnTalent(self.T_TELEPORT_ANGOLWEN, true, nil, {no_unlearn=true})
+			end
+			if not profile.mod.allow_build.mage_thaumaturgist then
+				self:learnTalent(self.T_THAUMATURGIST_UNLOCK_CHECKER, true)
 			end
 			self:triggerHook{"BirthStartZone:archmage"}
 		end,
@@ -257,22 +258,23 @@ newBirthDescriptor{
 	talents_types = {
 		["spell/master-of-bones"]={true, 0.3},
 		["spell/master-of-flesh"]={true, 0.3},
-		["spell/master-necromancer"]={true, 0.3},
+		["spell/master-necromancer"]={false, 0.3},
 		["spell/grave"]={true, 0.3},
 		["spell/glacial-waste"]={true, 0.3},
-		["spell/rime-wraith"]={true, 0.3},
+		["spell/rime-wraith"]={false, 0.3},
 		["spell/nightfall"]={true, 0.3},
 		["spell/dreadmaster"]={true, 0.3},
-		["spell/age-of-dusk"]={true, 0.3},
+		["spell/age-of-dusk"]={false, 0.3},
 		["spell/death"]={true, 0.3},
 		["spell/animus"]={true, 0.3},
-		["spell/eradication"]={true, 0.3},
+		["spell/eradication"]={false, 0.3},
 		["spell/spectre"]={true, 0.3},
 		["spell/necrosis"]={true, 0.3},
 		["cunning/survival"]={true, 0.0},
 	},
 	birth_example_particles = {
 		"necrotic-aura",
+		-- DGDGDGDG: update
 		function(actor)
 			if core.shader.active(4) then local x, y = actor:attachementSpot("back", true) actor:addParticles(Particles.new("shader_wings", 1, {x=x, y=y, infinite=1, img="darkwings"}))
 			end
@@ -287,11 +289,10 @@ newBirthDescriptor{
 		end,
 	},
 	talents = {
-		[ActorTalents.T_NECROTIC_AURA] = 1,
-		[ActorTalents.T_CREATE_MINIONS] = 1,
-		[ActorTalents.T_ARCANE_EYE] = 1,
-		[ActorTalents.T_INVOKE_DARKNESS] = 1,
+		[ActorTalents.T_CALL_OF_THE_CRYPT] = 1,
 		[ActorTalents.T_BLURRED_MORTALITY] = 1,
+		[ActorTalents.T_INVOKE_DARKNESS] = 1,
+		[ActorTalents.T_SOUL_LEECH] = 1,
 	},
 	copy = {
 		soul = 1,
@@ -301,6 +302,10 @@ newBirthDescriptor{
 			{type="weapon", subtype="staff", name="elm staff", autoreq=true, ego_chance=-1000},
 			{type="armor", subtype="cloth", name="linen robe", autoreq=true, ego_chance=-1000},
 		},
+		resolvers.for_campaign("Maj'Eyal", function()
+			local p = game:getPlayer(true)
+			if p:callTalent(p.T_LICH, "canGrantQuest") then p:grantQuest("lichform") end
+		end)
 	},
 	copy_add = {
 		life_rating = -3,

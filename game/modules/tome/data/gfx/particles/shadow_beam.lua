@@ -22,6 +22,7 @@ local tx = tx * engine.Map.tile_w
 local ty = ty * engine.Map.tile_h
 local basesize = math.sqrt((ty*ty)+(tx*tx))
 local basedir = math.atan2(ty, tx)
+local widebeam = widebeam and true or false
 
 local nbp = 0
 local points = {}
@@ -32,28 +33,28 @@ local function make_beam(fork_i)
 	local size = fork_i == 1 and 1 or 1
 	local starta = basedir+math.pi/2
 	local starts = rng.range(-0, 0)
-	points[#points+1] = {c=c, a=a, size=size, x=math.cos(starta) * starts, y=math.sin(starta) * starts, prev=-1}
+	points[#points+1] = {c=c, a=a, size=size * (widebeam and 2 or 1), x=math.cos(starta) * starts, y=math.sin(starta) * starts, prev=-1}
 
-	local nb = 3
+	local nb = widebeam and 6 or 3
 	for i = 0, nb - 1 do
 		-- Split point in the segment
 		local split = rng.range(0, basesize / nb) + i * (basesize / nb)
-		local dev = rng.range(-4, 4) * (9 + fork_i) / 10
+		local dev = (rng.range(-4, 4) * (9 + fork_i) / 10) * (widebeam and 3 or 1)
 		points[#points+1] = {
 			c=c, a=a, 
 			movea=basedir+dev+math.pi/2, 
-			size=size + rng.range(-2, 2), 
+			size=(size + rng.range(-2, 2)) * (widebeam and 2 or 1), 
 			x=math.cos(basedir) * split + math.cos(basedir+math.pi/2) * dev,
 			y=math.sin(basedir) * split + math.sin(basedir+math.pi/2) * dev,
 			prev=#points-1
 		}
 	end
 
-	points[#points+1] = {c=c, a=a, size=size, x=tx, y=ty, prev=#points-1}
+	points[#points+1] = {c=c, a=a, size=size * (widebeam and 2 or 1), x=tx, y=ty, prev=#points-1}
 	nbp = #points
 end
 
-for fork_i = 1, 20 do make_beam(fork_i) end
+for fork_i = 1, widebeam and 60 or 20 do make_beam(fork_i) end
 
 local last_id = -1
 
@@ -80,8 +81,8 @@ return { engine=core.particles.ENGINE_LINES, generator = function(id)
 end, },
 function(self)
 	if nbp > 0 then
-		self.ps:emit(10)
-		nbp = nbp - 10
+		self.ps:emit(widebeam and 60 or 10)
+		nbp = nbp - (widebeam and 60 or 10)
 	end
 end,
 nbp, "particles_images/beam"

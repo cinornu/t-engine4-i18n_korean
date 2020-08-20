@@ -43,3 +43,21 @@ newEntity{
 	notice = true,
 	always_remember = true,
 }
+
+newEntity{
+	define_as = "ALTAR_BARE",
+	name = "altar",
+	image = "terrain/marble_floor.png", z=3, add_mos = {{image="terrain/altar.png", display_w=2}},
+	display = ';', color=colors.RED, back_color=colors.DARK_UMBER,
+	notice = true,
+	always_remember = true,
+}
+
+newEntity{
+	define_as = "ALTAR_SPLATTER",
+	name = "altar",
+	image = "terrain/marble_floor.png", z=3, add_mos = {{image="terrain/woman_splatered_altar.png", display_w=2}},
+	display = ';', color=colors.RED, back_color=colors.DARK_UMBER,
+	notice = true,
+	always_remember = true,
+}

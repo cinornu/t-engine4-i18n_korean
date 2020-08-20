@@ -23,21 +23,22 @@ local BSP = require "engine.tilemaps.BSP"
 
 local tm = Tilemap.new(self.mapsize, '=', 1)
 
-local bsp = BSP.new(10, 10, 2):make(50, 50, nil, '=')
+local bsp = BSP.new(7, 7, 3):make(50, 50, nil, '=')
 
 for _, room in ipairs(bsp.rooms) do
-	local pond = Heightmap.new(1.6, {up_left=0, down_left=0, up_right=0, down_right=0, middle=1}):make(room.map.data_w, room.map.data_h, {' ', ' ', ';', ';', 'T', ';', ';', ';'})
+	local room_size = room:size()
+	local pond = Heightmap.new(1.6, {up_left=0, down_left=0, up_right=0, down_right=0, middle=1}):make(room_size.x, room_size.y, {' ', ' ', ';', ';', 'T', ';', ';', ';'})
 	-- Ensure exit from the lake to exterrior
 	local pond_exit = pond:findRandomExit(pond:centerPoint(), nil, {';'})
 	pond:tunnelAStar(pond:centerPoint(), pond_exit, ';', {'T'}, {}, {erraticness=9})
 	-- If lake is big enough and we find a spot, place it
-	if pond:eliminateByFloodfill{'T', ' '} < 8 then return self:regenerate() end
+	if pond:eliminateByFloodfill{'T', ' '} < 8 then return self:redo() end
 
-	room.map:merge(1, 1, pond)
+	tm:merge(room:submap(tm).merged_pos, pond)
 end
 
-tm:merge(1, 1, bsp)
+-- tm:merge(1, 1, bsp)
 
--- if tm:eliminateByFloodfill{'T','#'} < 800 then return self:regenerate() end
+-- if tm:eliminateByFloodfill{'T','#'} < 800 then return self:redo() end
 
 return tm

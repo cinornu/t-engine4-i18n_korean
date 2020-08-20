@@ -18,9 +18,8 @@
 -- darkgod@te4.org
 
 require "engine.class"
---local Base = require "engine.interface.ActorAI"
+local ActorAI = require "engine.interface.ActorAI"
 local DamageType = require "engine.DamageType"
-local Actor = require "mod.class.Actor"
 local ActorResource = require "engine.interface.ActorResource"
 local Astar = require "engine.Astar"
 local Talents = require "engine.interface.ActorTalents"
@@ -28,7 +27,7 @@ local Talents = require "engine.interface.ActorTalents"
 --- Additional AI functions
 --module(..., package.seeall, class.inherit(Base))
 
-module(..., package.seeall, class.inherit(engine.interface.ActorAI))
+module(..., package.seeall, class.inherit(ActorAI))
 
 --config.settings.log_detail_ai = 0 -- debugging general output for AI messages
 
@@ -36,6 +35,10 @@ module(..., package.seeall, class.inherit(engine.interface.ActorAI))
 -- soft switch enabling new AIs during transition phase
 -- set true to redirect "tactical" to "improved_tactical" and "dumb_talented_simple" to "improved_talented_simple"
 config.settings.ai_transition = true -- set for transition AIs
+
+function _M:init(...)
+	ActorAI.init(self, ...)
+end
 
 --- Overloaded to force certain NPC's to use the new AI's
 --- Run an AI for an actor
@@ -212,31 +215,35 @@ function _M.aiParseTalent(t, who)
 	end
 end
 
--- Special attributes contributing to an actor's defensive hash value for the tactical AI (self.aiDHash)
--- These directly affect the TACTICAL VALUEs of targeted actors (defenders)
---		changes cause the cache reset
--- used by Actor:onTemporaryValueChange(prop, v, base)
--- The defensive hash value is used as a fingerprint by aiTalentTactics when updating its cache
--- Update as needed (for custom tactics in the tactical AI)
-_M.aiDHashProps = {}
-local DHashProps = {"aiDHashvalue", "fly", "levitation", "never_move", "encased_in_ice", "stoned", "invulnerable", "negative_status_effect_immune", "mental_negative_status_effect_immune", "physical_negative_status_effect_immune", "spell_negative_status_effect_immune", "lucid_dreamer"}
-for typ, tag in pairs(Actor.StatusTypes) do
-	table.insert(DHashProps, type(tag) == "string" and tag or typ .. "_immune")
-end
-for i, prop in ipairs(DHashProps) do -- use random values to keep these variables independent
-	_M.aiDHashProps[prop] = rng.float(0, 1)
-end
+function _M:staticInitActorAI()
+	local Actor = require "mod.class.Actor"
 
--- Special attributes contributing to an actor's offensive hash value for the tactical AI (self.aiOHash)
--- These directly affect the TACTICAL VALUEs of actors targeting other actors (attackers)
---		changes cause the cache reset
--- used by Actor:onTemporaryValueChange(prop, v, base)
--- The offensive hash value is used as a fingerprint by aiTalentTactics when updating its cache
--- Update as needed (for custom tactics in the tactical AI)
-_M.aiOHashProps = {}
-local OHashProps = {"aiOHashvalue", "disarmed", "additional_melee_chance"}
-for i, prop in ipairs(OHashProps) do -- use random values to keep these variables independent
-	_M.aiOHashProps[prop] = rng.float(0, 1)
+	-- Special attributes contributing to an actor's defensive hash value for the tactical AI (self.aiDHash)
+	-- These directly affect the TACTICAL VALUEs of targeted actors (defenders)
+	--		changes cause the cache reset
+	-- used by Actor:onTemporaryValueChange(prop, v, base)
+	-- The defensive hash value is used as a fingerprint by aiTalentTactics when updating its cache
+	-- Update as needed (for custom tactics in the tactical AI)
+	_M.aiDHashProps = {}
+	local DHashProps = {"aiDHashvalue", "fly", "levitation", "never_move", "encased_in_ice", "stoned", "invulnerable", "negative_status_effect_immune", "mental_negative_status_effect_immune", "physical_negative_status_effect_immune", "spell_negative_status_effect_immune", "lucid_dreamer"}
+	for typ, tag in pairs(Actor.StatusTypes) do
+		table.insert(DHashProps, type(tag) == "string" and tag or typ .. "_immune")
+	end
+	for i, prop in ipairs(DHashProps) do -- use random values to keep these variables independent
+		_M.aiDHashProps[prop] = rng.float(0, 1)
+	end
+
+	-- Special attributes contributing to an actor's offensive hash value for the tactical AI (self.aiOHash)
+	-- These directly affect the TACTICAL VALUEs of actors targeting other actors (attackers)
+	--		changes cause the cache reset
+	-- used by Actor:onTemporaryValueChange(prop, v, base)
+	-- The offensive hash value is used as a fingerprint by aiTalentTactics when updating its cache
+	-- Update as needed (for custom tactics in the tactical AI)
+	_M.aiOHashProps = {}
+	local OHashProps = {"aiOHashvalue", "disarmed", "additional_melee_chance"}
+	for i, prop in ipairs(OHashProps) do -- use random values to keep these variables independent
+		_M.aiOHashProps[prop] = rng.float(0, 1)
+	end
 end
 
 --- Substitute DamageTypes

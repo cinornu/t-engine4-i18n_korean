@@ -207,6 +207,7 @@ local function clonerecurs(d)
 		if type(e) == "table" and not e.__ATOMIC and not e.__CLASSNAME then ne = clonerecurs(e) end
 		n[nk] = ne
 	end
+	setmetatable(n, getmetatable(d))
 	return n
 end
 --[[
@@ -296,7 +297,7 @@ local function cloneCustomRecurs(clonetable, d, noclonecall, use_saveinstead, al
 	while k do
 		local skip = false
 		local nk_alt, ne_alt = nil, nil
-		if alt_nodes then
+		if alt_nodes and first then
 			for node, alt in pairs(alt_nodes) do
 				if node == k or node == e then
 					if alt == false then 

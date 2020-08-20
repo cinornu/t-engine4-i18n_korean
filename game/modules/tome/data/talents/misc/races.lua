@@ -755,7 +755,7 @@ newTalent{
 		if self:isTalentCoolingDown(t) then return end
 		if not ( (self.life - dam) < (self.max_life * 0.5) ) then return end
 		
-		local nb = self:removeEffectsFilter({status = "detrimental", type = "mental"}, t.getDebuff(self, t))
+		local nb = self:removeEffectsFilter(self, {status = "detrimental", type = "mental"}, t.getDebuff(self, t))
 		if nb > 0 then
 			game.logSeen(self, "#CRIMSON#%s roars with rage shaking off %d mental debuffs!", self:getName():capitalize(), nb)
 			self:startTalentCooldown(t)

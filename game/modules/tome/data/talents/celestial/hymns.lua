@@ -439,8 +439,7 @@ newTalent{
 		Also, when you end a Hymn, you will gain a buff of a type based on which Hymn you ended.
 		Hymn of Shadows increases your movement speed by %d%% for one turn.
 		Hymn of Detection makes you invisible (power %d) for %d turns.
-		Hymn of Perseverance grants a damage shield (power %d) for %d turns.]]):tformat(t.getBonusInfravision(self, t), t.getSpeed(self, t),
-			t.invisPower(self, t), t.invisDur(self, t), t.shieldPower(self, t), t.shieldDur(self, t) * (100 + (self:attr("shield_factor") or 0)) / 100)
+		Hymn of Perseverance grants a damage shield (power %d) for %d turns.]]):tformat(t.getBonusInfravision(self, t), t.getSpeed(self, t), t.invisPower(self, t), t.invisDur(self, t), self:getShieldAmount(t.shieldPower(self, t)), self:getShieldDuration(t.shieldDur(self, t)))
 	end,
 }
 

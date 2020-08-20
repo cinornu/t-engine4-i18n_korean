@@ -290,15 +290,16 @@ newTalent{
 			if #effs > 0 then
 				local eff = rng.tableRemove(effs)
 				if eff[1] == "effect" then
-					target:removeEffect(eff[2])
-					game.logSeen(self, "#CRIMSON#%s's beneficial effect was stripped!#LAST#", target:getName():capitalize())
-					if what == "physical" then p.physical[target] = true end
-					if what == "magical" then p.magical[target] = true end
-					
-					-- The Cure achievement
-					local acheive = self.player and not target.training_dummy and target ~= self
-					if acheive then
-						world:gainAchievement("THE_CURE", self)
+					if target:removeEffect(eff[2], self) then
+						game.logSeen(self, "#CRIMSON#%s's beneficial effect was stripped!#LAST#", target:getName():capitalize())
+						if what == "physical" then p.physical[target] = true end
+						if what == "magical" then p.magical[target] = true end
+						
+						-- The Cure achievement
+						local acheive = self.player and not target.training_dummy and target ~= self
+						if acheive then
+							world:gainAchievement("THE_CURE", self)
+						end
 					end
 				end
 			end

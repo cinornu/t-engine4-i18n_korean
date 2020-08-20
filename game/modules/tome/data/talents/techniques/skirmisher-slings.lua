@@ -179,7 +179,7 @@ newTalent {
 	points = 5,
 	mode = "sustained",
 	no_energy = true,
-	tactical = { BUFF = 2, STAMINA = -2 },
+	no_npc_use = true, -- let's not allow NPCs to attack three times a turn for over 100% weapon damage at high TL
 	on_pre_use = function(self, t, silent) return archerPreUse(self, t, silent, "sling") end,
 	cooldown = function(self, t)
 		return 10

@@ -138,25 +138,25 @@ defineAction{
 
 -- Character movements with classic WASD
 defineAction{
-	default = { "sym:_a:false:false:false:false", "sym:_LEFT:false:false:false:false" },
+	default = { "sym:_a:false:false:false:false" },
 	type = "MOVE_WASD_LEFT", updown=true,
 	group = _t"movement",
 	name = _t"Move left (WASD directions)",
 }
 defineAction{
-	default = { "sym:_d:false:false:false:false", "sym:_RIGHT:false:false:false:false" },
+	default = { "sym:_d:false:false:false:false" },
 	type = "MOVE_WASD_RIGHT", updown=true,
 	group = _t"movement",
 	name = _t"Move right (WASD directions)",
 }
 defineAction{
-	default = { "sym:_w:false:false:false:false", "sym:_UP:false:false:false:false" },
+	default = { "sym:_w:false:false:false:false" },
 	type = "MOVE_WASD_UP", updown=true,
 	group = _t"movement",
 	name = _t"Move up (WASD directions)",
 }
 defineAction{
-	default = { "sym:_s:false:false:false:false", "sym:_DOWN:false:false:false:false" },
+	default = { "sym:_s:false:false:false:false" },
 	type = "MOVE_WASD_DOWN", updown=true,
 	group = _t"movement",
 	name = _t"Move down (WASD directions)",

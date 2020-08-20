@@ -274,6 +274,7 @@ newBirthDescriptor{
 		["spell/fire"]={true, 0.3},
 		["spell/air"]={true, 0.3},
 		["spell/earth"]={true, 0.3},
+		["spell/stone"]={false, 0.3},
 		["spell/conveyance"]={true, 0.0},
 		["spell/aegis"]={true, 0.0},
 		["spell/enhancement"]={true, 0.3},
@@ -287,9 +288,6 @@ newBirthDescriptor{
 		["technique/dualweapon-attack"]={false, 0.0},
 		["cunning/survival"]={true, 0.0},
 		["cunning/dirty"]={true, 0.3},
-	},
-	unlockable_talents_types = {
-		["spell/stone"]={false, 0.3, "mage_geomancer"},
 	},
 	birth_example_particles = {
 		function(actor) if core.shader.active(4) then

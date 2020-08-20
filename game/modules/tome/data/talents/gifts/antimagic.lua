@@ -67,6 +67,9 @@ newTalent{
 	equilibrium = 20,
 	cooldown = 12,
 	tactical = { DISABLE = { silence = 4 } },
+	rnd_boss_restrict = function(self, t, data) -- Restrict silencing until the player has the tools needed to deal with it
+		return data.level < 16
+	end,
 	range = 6,
 	radius = function(self, t) return 3 end,
 	getduration = function(self, t) return 3 end,
@@ -124,6 +127,9 @@ newTalent{
 	sustain_equilibrium = 30,
 	cooldown = 6,
 	tactical = { DEFEND = 2 },
+	rnd_boss_restrict = function(self, t, data) -- Flat damage reduction can be obnoxious early game
+		return data.level < 18
+	end,
 	getMax = function(self, t)
 		local v = combatTalentPhysicalMindDamage(self, t, 20, 85)
 		if self:knowTalent(self.T_TRICKY_DEFENSES) then
@@ -180,6 +186,9 @@ newTalent{
 	cooldown = 15,
 	range = 10,
 	tactical = { ATTACK = { ARCANE = 3 } },
+	rnd_boss_restrict = function(self, t, data) -- Restrict antimagic until the player has the tools to deal with it
+		return data.level < 22
+	end,
 	direct_hit = true,
 	requires_target = true,
 	getDamage = function(self, t) return combatTalentPhysicalMindDamage(self, t, 10, 460) end,
@@ -199,7 +208,7 @@ newTalent{
 			DamageType:get(DamageType.MANABURN).projector(self, px, py, DamageType.MANABURN, base)
 		
 			if self:knowTalent(self.T_ANTIMAGIC_ADEPT) then
-				target:removeSustainsFilter(function(o)
+				target:removeSustainsFilter(self, function(o)
 					if o.is_spell then return true else return false end
 				end, 4)
 			end

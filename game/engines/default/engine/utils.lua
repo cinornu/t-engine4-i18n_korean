@@ -244,8 +244,9 @@ end
 -- @param tbl The original table to be cloned
 -- @param deep Boolean allow recursive cloning (unless .__ATOMIC or .__CLASSNAME is defined)
 -- @param k_skip A table containing key values set to true if you want to skip them.
+-- @param clone_meta If true table and subtables that have a metatable will have it assigned to the clone too
 -- @return The cloned table.
-function table.clone(tbl, deep, k_skip)
+function table.clone(tbl, deep, k_skip, clone_meta)
 	if not tbl then return nil end
 	local n = {}
 	k_skip = k_skip or {}
@@ -253,11 +254,14 @@ function table.clone(tbl, deep, k_skip)
 		if not k_skip[k] then
 			-- Deep copy subtables, but not objects!
 			if deep and type(e) == "table" and not e.__ATOMIC and not e.__CLASSNAME then
-				n[k] = table.clone(e, true, k_skip)
+				n[k] = table.clone(e, true, k_skip, clone_meta)
 			else
 				n[k] = e
 			end
 		end
+	end
+	if clone_meta then
+		setmetatable(n, getmetatable(tbl))
 	end
 	return n
 end
@@ -606,6 +610,18 @@ function table.compareKeys(left, right)
 	return result
 end
 
+--- Checks if a (sub)subentry of a table exists
+function table.has(t, ...)
+	if type(t) ~= 'table' then return false end
+	local args = {...}
+	local last = table.remove(args)
+	for _, key in ipairs(args) do
+		t = t[key]
+		if type(t) ~= 'table' then return false end
+	end
+	return t[last]
+end
+
 --[=[
   Decends recursively through a table by the given list of keys.
 
@@ -692,7 +708,7 @@ function table.orderedPairs(t)
 	return function ()
 		if i < n then
 			i = i + 1
-			return sorted_keys[i], t[sorted_keys[i]]
+			return sorted_keys[i], t[sorted_keys[i]], i == n
 		end
 	end
 end
@@ -708,7 +724,7 @@ function table.orderedPairs2(t, ordering)
 		if index <= #t then
 			value = t[index]
 			index = index + 1
-			return value[1], value[2]
+			return value[1], value[2], index == #t + 1
 		end
 	end
 end
@@ -1686,13 +1702,14 @@ function tstring:splitLines(max_width, font, max_lines)
 end
 
 function tstring:tokenize(tokens)
+	if type(tokens) == "string" then tokens = lpeg.S("\n"..tokens) end
 	local ret = tstring{}
 	local v, tv
 	for i = 1, #self do
 		v = self[i]
 		tv = type(v)
 		if tv == "string" then
-			local ls = v:split(lpeg.S("\n"..tokens), true)
+			local ls = v:split(tokens, true)
 			for i = 1, #ls do
 				local vv = ls[i]
 				if vv == "\n" then
@@ -1867,6 +1884,27 @@ function tstring:diffWith(str2, on_diff)
 			res:add(self[i])
 		end
 		j = j + 1
+	end
+	return res
+end
+
+function tstring:diffMulti(list, on_diff)
+	local res = tstring{}
+	for i = 1, #list[1] do
+		local diffs = {}
+		local has_diffs = false
+		for j = 2, #list do
+			if type(list[1][i]) == "string" and list[1][i] ~= list[j][i] then has_diffs = true break end
+		end
+
+		if not has_diffs then
+			res:add(list[1][i])
+		else
+			for j = 1, #list do
+				diffs[#diffs+1] = {id=j, str=list[j][i]}
+			end
+			on_diff(diffs, res)
+		end
 	end
 	return res
 end

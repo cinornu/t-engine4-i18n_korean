@@ -236,6 +236,7 @@ local make_poltergeist = function(type)
     --if class ==
     e:resolve()
     e:resolve(nil, true)
+    game.zone:addEntity(game.level, o, "object")
     e:wearObject(o, true, false, "MAINHAND")
     for _, v in ipairs(el) do
         e:wearObject(v[1], true, false, v[2])

@@ -27,7 +27,8 @@ newEntity{
 	display = "@", color=colors.LIGHT_BLUE,
 	image = "player/cornac_female_redhair.png",
 	moddable_tile = "human_female",
-	moddable_tile_base = "base_redhead_01.png",
+	moddable_tile_base = "base_04.png",
+	moddable_tile_hair = "hair_redhead_melinda",
 	desc = _t[[Enjoying a lovely day at the beach.]],
 	autolevel = "tank",
 	ai = "move_complex", ai_state = { ai_target="target_player", talent_in=4, },
@@ -38,7 +39,6 @@ newEntity{
 	resists = {all=86},
 
 	moddable_tile_nude = 1,
-	moddable_tile_ornament = {female="braid_redhead_01"},
 	resolvers.equip{ id=true,
 		{defined="MELINDA_BIKINI", autoreq=true, ego_chance=-1000}
 	},

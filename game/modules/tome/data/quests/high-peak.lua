@@ -156,7 +156,7 @@ function win(self, how)
 		pwinner.ai_state = {talent_in=1, ai_move="move_astar"}
 		pwinner.faction="enemies"
 		pwinner.life = pwinner.max_life
-		pwinner:removeEffectsFilter(function() return true end, 9999, true, true)
+		pwinner:removeEffectsFilter(pwinner, function() return true end, 9999, true, true)
 		-- Remove some talents
 		local tids = {}
 		for tid, _ in pairs(pwinner.talents) do

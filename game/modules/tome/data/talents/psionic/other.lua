@@ -140,8 +140,9 @@ newTalent{
 		end
 		return hit
 	end,
-	do_mindstar_grab = function(self, t, p)
+	do_mindstar_grab = function(self, t)
 		local p = self.sustain_talents[t.id]
+		if not p then return end
 
 		if self:hasEffect(self.EFF_PSIFRENZY) then
 			if p.mindstar_grab then

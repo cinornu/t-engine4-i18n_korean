@@ -56,6 +56,7 @@ newTalent{
 	vim = 30,
 	range = 10,
 	radius = 3,
+	random_boss_rarity = 50, -- prevent sustain removal from being too common on NPCs
 	tactical = { ATTACKAREA = {BLIGHT = 1}, DISABLE = 2 },
 	requires_target = true,
 	target = function(self, t)
@@ -96,11 +97,7 @@ newTalent{
 
 				if self:checkHit(self:combatSpellpower(), target:combatSpellResist(), 0, 95, 5) then
 					target:crossTierEffect(target.EFF_SPELLSHOCKED, self:combatSpellpower())
-					if eff[1] == "effect" then
-						target:removeEffect(eff[2])
-					else
-						target:forceUseTalent(eff[2], {ignore_energy=true})
-					end
+					target:dispel(eff[2], self)
 				end
 			end
 

@@ -71,7 +71,7 @@ end
 
 newEntity{ define_as = "CLIFFSIDE",
 	type = "floor", subtype = "rock",
-	name = "cliffside",  image = "terrain/rocky_ground.png", add_mos = {{image = "terrain/half_wall.png"}},
+	name = "cliffside",  image = "terrain/rocky_ground.png", add_displays = {class.new{z = 16, image = "terrain/half_wall.png"}},
 	display = 'v', color=colors.UMBER, back_color=colors.LIGHT_UMBER,
 	always_remember = true,
 

@@ -78,7 +78,7 @@ start_ambush = function(self, who)
 
 		-- Protect from other hits on the same turn
 		self:setEffect(self.EFF_DAMAGE_SHIELD, 3, {power=1000000})
-		self:removeEffectsFilter{status="detrimental"}
+		self:removeEffectsFilter(self, {status="detrimental"})
 
 		local carry, o, item, inven_id = game.party:findInAllInventoriesBy("define_as", "STAFF_ABSORPTION")
 		if carry and o then

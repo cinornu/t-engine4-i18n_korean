@@ -499,7 +499,12 @@ function _M:generateRandart(data)
 	-----------------------------------------------------------
 	local themename = power_themes[#power_themes]
 	themename = themename and themename[1] or nil
-	local ngd = NameGenerator.new(rng.chance(2) and self:getRandartNameRule().default or self:getRandartNameRule().default2)
+	local ngd
+	if self.birth.world_base_random_name_def then
+		ngd = NameGenerator2.new("/data/languages/names/"..self.birth.world_base_random_name_def:gsub("#sex#", rng.chance(2) and "female" or "male")..".txt")
+	else
+		ngd = NameGenerator.new(rng.chance(2) and self:getRandartNameRule().default or self:getRandartNameRule().default2)
+	end
 	local ngt = (themename and self:getRandartNameRule()[themename] and NameGenerator.new(self:getRandartNameRule()[themename])) or ngd
 	local name
 	local namescheme = data.namescheme or ((ngt ~= ngd) and rng.range(1, 4) or rng.range(1, 3))
@@ -831,7 +836,7 @@ function _M:spawnWorldAmbush(enc, dx, dy, kind)
 		},
 
 		reload_lists = false,
-		npc_list = mod.class.NPC:loadList("/data/general/npcs/all.lua", nil, nil, 
+		npc_list = mod.class.NPC:loadList(enc.npc_list or "/data/general/npcs/all.lua", nil, nil, 
 			function(e) 
 				e.make_escort=nil
 				e.instakill_immune = 1
@@ -2097,10 +2102,11 @@ function _M:applyRandomClass(b, data, instant)
 		if data.autolevel ~= false then b.autolevel = data.autolevel or "random_boss" end
 		
 		-- Class talent categories
-		for tt, d in pairs(mclass.talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) end
-		for tt, d in pairs(mclass.unlockable_talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) end
-		for tt, d in pairs(class.talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) end
-		for tt, d in pairs(class.unlockable_talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) end
+		local ttypes = {}
+		for tt, d in pairs(mclass.talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) ttypes[tt] = table.clone(d) end
+		for tt, d in pairs(mclass.unlockable_talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) ttypes[tt] = table.clone(d) end
+		for tt, d in pairs(class.talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) ttypes[tt] = table.clone(d) end
+		for tt, d in pairs(class.unlockable_talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) ttypes[tt] = table.clone(d) end
 
 		-- Non-class talent categories
 		if data.add_trees then
@@ -2109,9 +2115,11 @@ function _M:applyRandomClass(b, data, instant)
 					if type(d) ~= "number" then d = rng.range(1, 3)*0.1 end
 					b:learnTalentType(tt, true)
 					b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d)
+					ttypes[tt] = {true, d}
 				end
 			end
 		end
+
 		-- Add starting equipment
 		local apply_resolvers = function(k, resolver)
 			if type(resolver) == "table" and resolver.__resolver then
@@ -2156,78 +2164,138 @@ function _M:applyRandomClass(b, data, instant)
 		if not tres then tres = resolvers.talents{} b[#b+1] = tres end
 		for tid, v in pairs(class.talents or {}) do
 			local t = b:getTalentFromId(tid)
-			if not t.no_npc_use and not t.no_npc_autolevel and (not t.random_boss_rarity or rng.chance(t.random_boss_rarity)) and not (t.rnd_boss_restrict and t.rnd_boss_restrict(b, t, data) ) then
+			if not t.no_npc_use and not t.no_npc_autolevel and (not t.random_boss_rarity or rng.chance(t.random_boss_rarity)) and not (t.rnd_boss_restrict and util.getval(t.rnd_boss_restrict, b, t, data) ) then
 				local max = (t.points == 1) and 1 or math.ceil(t.points * 1.2)
-				local step = max / 50
+				local step = max / 70
 				tres[1][tid] = v + math.ceil(step * data.level)
 			end
 		end
 
-		-- Select additional talents from the class
-		local known_types = {}
-		for tt, d in pairs(b.talents_types) do
-			known_types[tt] = b:numberKnownTalent(tt)
+		-- learn talents based on trees: focus trees we take 3-4 talents from with a decent amount of point investment, shallow trees we only take 1 or 2 with not many points
+		-- ideally rares should feel different even within the same class based on what focus trees they get
+		local nb_focus, nb_shallow = 0, 0
+		local rank = b.rank
+		if rank <= 3.2 then 	--rare
+			nb_focus = math.floor(0.2 + rng.float(0.22, 0.35)*(math.max(0,data.level-3))^0.5)
+			nb_shallow = 2 + math.floor(0.25 + rng.float(0.08, 0.2)*(math.max(0,data.level-6))^0.5)
+		elseif rank >= 4 then 	--boss/elite boss 
+			nb_focus = 1 + math.floor(0.25 + rng.float(0.15, 0.35)*(math.max(0,data.level-6))^0.5)
+			nb_shallow = 1 + math.floor(0.3 + rng.float(0.1, 0.2)*(math.max(0,data.level-4))^0.5)
+		else 					--unique
+			nb_focus = 1 + math.floor(0.2 + rng.float(0.15, 0.3)*(math.max(0,data.level-10))^0.5)
+			nb_shallow = 1 + math.floor(0.55 + rng.float(0.1, 0.2)*(math.max(0,data.level-8))^0.5)
 		end
+		print("Adding "..nb_focus.." primary trees to boss")
+		print("Adding "..nb_shallow.." secondary trees to boss")
 
-		local list = {}
-		for _, t in pairs(b.talents_def) do
-			if b.talents_types[t.type[1]] then
+ 		local tt_choices = {}
+		for tt, d in pairs(ttypes) do
+			d.tt = tt
+			table.insert(tt_choices, d)
+		end
+		print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		table.print(tt_choices)
+		print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+		
+		local fails = 0
+		local focus_trees = {}
+		local shallow_trees = {}
+		local tt, tt_idx, tt_def
+		local t, t_idx
+		while #focus_trees < nb_focus or #shallow_trees < nb_shallow do
+			local ok = false
+			while not ok do
+				tt = rng.tableRemove(tt_choices)
+				if not tt or not tt.tt then break end
+				if not (tt.tt=="technique/combat-training" or tt.tt=="cunning/survival") then ok=true end
+			end
+			if not ok then break end
+			tt = tt.tt
+			tt_def = tt and b:knowTalentType(tt) and b.talents_types_def[tt]
+			if not tt_def then break end
+			print("[applyRandomClass] Attempting to add tree "..tt.." to boss")
+			local t_choices = {}
+			local nb_known = b:numberKnownTalent(tt)
+			for i, t in ipairs(tt_def.talents) do
+				local ok = true
 				if t.no_npc_use or t.not_on_random_boss then
-					known_types[t.type[1]] = known_types[t.type[1]] + 1 -- allows higher tier talents to be learnt
-				else
-					local ok = true
-					if t.rnd_boss_restrict and t.rnd_boss_restrict(b, t, data) then
+					nb_known = nb_known + 1 -- treat as known to allow later talents to be learned
+					print(" * Random boss forbade talent because talent not allowed on random bosses", t.name, t.id, data.level)
+					ok = false
+				end
+				if t.rnd_boss_restrict and util.getval(t.rnd_boss_restrict, b, t, data) and ok then
+					print(" * Random boss forbade talent because of special talent restriction", t.name, t.id, data.level)
+					nb_known = nb_known + 1 -- treat as known to allow later talents to be learned
+					ok = false
+				end
+				if t.random_boss_rarity and rng.percent(t.random_boss_rarity) and ok then
+					print(" * Random boss forbade talent because of random boss rarity random chance", t.name, t.id, data.level)
+					nb_known = nb_known + 1 -- treat as known to allow later talents to be learned
+					ok = false
+				end
+				if data.check_talents_level and rawget(t, 'require') and ok then
+					local req = t.require
+					if type(req) == "function" then req = req(b, t) end
+					if req and req.level and util.getval(req.level, 1) > math.ceil(data.level) then
+						print(" * Random boss forbade talent because of level", t.name, t.id, data.level)
 						ok = false
-						print("[applyRandomClass] Random boss forbade talent because of special talent restriction", t.name, t.id, data.level)
 					end
-					if data.check_talents_level and rawget(t, 'require') then
-						local req = t.require
-						if type(req) == "function" then req = req(b, t) end
-						if req and req.level and util.getval(req.level, 1) > math.ceil(data.level/2) then
-							print("[applyRandomClass] Random boss forbade talent because of level", t.name, t.id, data.level)
-							ok = false
+				end
+				if ok then
+					table.insert(t_choices, t)
+				end
+			end
+			print(" Talent choices for "..tt..":")	for i, t in ipairs(t_choices) do print("\t", i, t.id, t.name) end
+			if #t_choices <= 2 or #focus_trees >= nb_focus then 
+				if #t_choices > 0 and #shallow_trees < nb_shallow then
+					table.insert(shallow_trees, tt) -- record that we added the tree as a minor tree
+					max_talents_from_tree = rng.percent(65) and 2 or 1
+					print("Adding secondary tree "..tt.." to boss with "..max_talents_from_tree.." talents")
+					for i = max_talents_from_tree,1,-1 do
+						local t = table.remove(t_choices, 1)
+						if not t then break end
+						local max = (t.points == 1) and 1 or math.ceil(t.points * 1.2)
+						local step = max / 60
+						local lev = math.max(1, math.round(rng.float(0.75,1.15)*math.ceil(step * data.level)))
+						print(#shallow_trees, " * talent:", t.id, lev)
+						if instant then -- affected by game difficulty settings
+							if b:getTalentLevelRaw(t) < lev then b:learnTalent(t.id, true, lev - b:getTalentLevelRaw(t.id)) end
+							if t.mode == "sustained" and data.auto_sustain then b:forceUseTalent(t, {ignore_energy=true}) end
+						else  -- applied when added to the level (unaffected by game difficulty settings)
+							b.learn_tids[t.id] = lev
 						end
 					end
-					if t.type[1]:find("/other$") then
-						print("[applyRandomClass] Random boss forbase talent because category /other", t.name, t.id, t.type[1])
-						ok = false
-					end
-					if ok then list[t.id] = true end
+				else 
+					print("Tree "..tt.." rejected")
 				end
-			end
-		end
-
-		local nb = 4 + 0.38*data.level^.75 -- = 11 at level 50
-		nb = math.max(rng.range(math.floor(nb * 0.7), math.ceil(nb * 1.3)), 1)
-		print("Adding "..nb.." random class talents to boss")
-
-		local count, fails = 0, 0
-		while count < nb do
-			local tid = rng.tableIndex(list, b.learn_tids)
-			if not tid or fails > nb * 5 then break end
-			local t = b:getTalentFromId(tid)
-			if t then
-				if t.type[2] and known_types[t.type[1]] < t.type[2] - 1 then -- not enough of talents of type
-					fails = fails + 1
-				else -- ok to add
-					count = count + 1
+			else
+				table.insert(focus_trees, tt) --record that we added the tree as a major tree
+				local max_talents_from_tree = rng.percent(75) and 4 or 3 
+				print("Adding primary tree "..tt.." to boss with "..max_talents_from_tree.." talents")
+				for i = max_talents_from_tree,1,-1 do
+					local t = table.remove(t_choices, 1)
+					if not t then break end
 					local max = (t.points == 1) and 1 or math.ceil(t.points * 1.2)
 					local step = max / 50
-					local lev = math.ceil(step * data.level)
-					print(count, " * talent:", tid, lev)
+					local lev = math.max(1, math.round(rng.float(0.75,1.25)*math.ceil(step * data.level)))
+					print(#focus_trees, " * talent:", t.id, lev)
 					if instant then -- affected by game difficulty settings
-						if b:getTalentLevelRaw(tid) < lev then b:learnTalent(tid, true, lev - b:getTalentLevelRaw(tid)) end
-						if t.mode == "sustained" and data.auto_sustain then b:forceUseTalent(tid, {ignore_energy=true}) end
+						if b:getTalentLevelRaw(t) < lev then b:learnTalent(t.id, true, lev - b:getTalentLevelRaw(t.id)) end
+						if t.mode == "sustained" and data.auto_sustain then b:forceUseTalent(t, {ignore_energy=true}) end
 					else  -- applied when added to the level (unaffected by game difficulty settings)
-						b.learn_tids[tid] = lev
+						b.learn_tids[t.id] = lev
 					end
-					known_types[t.type[1]] = known_types[t.type[1]] + 1
-					list[tid] = nil
 				end
-			else list[tid] = nil
 			end
-		end
-		print(" ** Finished adding", count, "of", nb, "random class talents")
+		end	
+		print(" ** Finished adding", #focus_trees, "of", nb_focus, "primary class trees") for i, tt in ipairs(focus_trees) do print("\t * ", tt) end
+		print(" ** Finished adding", #shallow_trees, "of", nb_shallow, "secondary class trees") for i, tt in ipairs(shallow_trees) do print("\t * ", tt) end
 
 		return true
 	end
@@ -2309,8 +2377,10 @@ function _M:createRandomBoss(base, data)
 	-- Basic stuff, name, rank, ...
 	------------------------------------------------------------
 	local ngd, name
-	if base.random_name_def then
-		ngd = NameGenerator2.new("/data/languages/names/"..base.random_name_def:gsub("#sex#", base.female and "female" or "male")..".txt")
+	local random_name_def = base.random_name_def
+	if not random_name_def and self.birth.world_base_random_name_def then random_name_def = self.birth.world_base_random_name_def end
+	if random_name_def then
+		ngd = NameGenerator2.new("/data/languages/names/"..random_name_def:gsub("#sex#", base.female and "female" or "male")..".txt")
 		name = ngd:generate(nil, base.random_name_min_syllables, base.random_name_max_syllables)
 	else
 		ngd = NameGenerator.new(self:getRandartNameRule().default)
@@ -2687,8 +2757,10 @@ function _M:createRandomBossNew(base, data)
 	-- Basic stuff, name, rank, ...
 	------------------------------------------------------------
 	local ngd, name
-	if base.random_name_def then
-		ngd = NameGenerator2.new("/data/languages/names/"..base.random_name_def:gsub("#sex#", base.female and "female" or "male")..".txt")
+	local random_name_def = base.random_name_def
+	if not random_name_def and self.birth.world_base_random_name_def then random_name_def = self.birth.world_base_random_name_def end
+	if random_name_def then
+		ngd = NameGenerator2.new("/data/languages/names/"..random_name_def:gsub("#sex#", base.female and "female" or "male")..".txt")
 		name = ngd:generate(nil, base.random_name_min_syllables, base.random_name_max_syllables)
 	else
 		ngd = NameGenerator.new(self:getRandartNameRule().default)
@@ -3557,7 +3629,7 @@ function _M:infiniteDungeonChallengeFinish(zone, level)
 			end)
 			level.turn_counter = turns * 10
 			level.max_turn_counter = turns * 10
-			level.turn_counter_desc = _t"Survive the multiplicative madness!."
+			level.turn_counter_desc = _t"Survive the multiplicative madness!"
 		end end, _t"Refuse", _t"Accept", true)
 	elseif id_challenge == "headhunter" then
 		local mlist = {} -- add random elite "spawns of Urh'Rok"

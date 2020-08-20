@@ -117,7 +117,7 @@ newTalent{
 		target:move(sx, sy, true)
 		self:move(tx, ty, true)
 
-		self:removeEffectsFilter(function(t) return (t.type == "physical" or t.type == "magical") and t.status == "detrimental" end, t.getNb(self, t))
+		self:removeEffectsFilter(self, function(t) return (t.type == "physical" or t.type == "magical") and t.status == "detrimental" end, t.getNb(self, t))
 
 		return true
 	end,

@@ -27,7 +27,7 @@ newTalent{
 	getDieAt = function(self, t) return math.ceil(self:combatTalentLimit(t, 150, 20, 100)) end,
 	getTurns = function(self, t) return math.ceil(self:combatTalentLimit(t, 300, 50, 150)) end,
 	passives = function(self, t, p)
-		self:talentTemporaryValue(p, "die_at", t.getDieAt(self, t))
+		self:talentTemporaryValue(p, "die_at", -t.getDieAt(self, t))
 	end,
 	callbackOnDeathbox = function(self, t, dialog, list)
 		if not self.lich_first_rez then
@@ -35,7 +35,7 @@ newTalent{
 			self.lich_first_rez = true
 			_G.a=dialog
 			dialog:cleanActor(self)
-			dialog:resurrectBasic(self)
+			dialog:resurrectBasic(self, "lich_rebirth")
 			dialog:restoreResources(self)
 			self:callTalent(self.T_LICH, "becomeLich")
 
@@ -48,7 +48,7 @@ newTalent{
 		elseif not self:hasEffect(self.EFF_LICH_HUNGER) and not self.lich_no_more_regen then
 			list[#list+1] = {name=("Lich Regeneration (%d turns)"):tformat(t.getTurns(self, t)), action=function()
 				dialog:cleanActor(self)
-				dialog:resurrectBasic(self)
+				dialog:resurrectBasic(self, "lich_regen")
 				dialog:restoreResources(self)
 
 				game.level.map:particleEmitter(self.x, self.y, 1, "demon_teleport")
@@ -158,7 +158,7 @@ local function createLichShadow(self, level, tCallShadows, tShadowWarriors, tSha
 	local npc = require("mod.class.NPC").new{
 		type = "undead", subtype = "lich shadow",
 		name = "shadow",
-		desc = [[]], image = "npc/undead_shadow_shadow.png",
+		desc = [[]], image = "npc/lich_s_shadow.png",
 		display = 'b', color=colors.BLACK,
 
 		never_anger = true,

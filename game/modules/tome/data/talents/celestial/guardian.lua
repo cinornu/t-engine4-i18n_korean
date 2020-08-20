@@ -212,7 +212,7 @@ newTalent{
 		if hit then self:talentCooldownFilter(nil, 1, t.getCooldownReduction(self, t), true) end
 
 		local hit2 = self:attackTargetWith(target, shield_combat, DamageType.LIGHT, t.getShieldDamage(self, t))
-		if hit2 then self:removeEffectsFilter({status = "detrimental"}, t.getDebuff(self, t)) end
+		if hit2 then self:removeEffectsFilter(self, {status = "detrimental"}, t.getDebuff(self, t)) end
 
 		return true
 	end,

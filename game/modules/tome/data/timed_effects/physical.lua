@@ -633,6 +633,8 @@ newEffect{
 	on_lose = function(self, err) return _t"#Target# speeds up.", _t"-Slow" end,
 	on_merge = function(self, old_eff, new_eff)
 		if new_eff.power > old_eff.power then
+			self:removeTemporaryValue("global_speed_add", old_eff.tmpid)
+			old_eff.tmpid = self:addTemporaryValue("global_speed_add", -new_eff.power)
 			old_eff.power = new_eff.power
 			old_eff.dur = new_eff.dur
 		end 
@@ -669,28 +671,6 @@ newEffect{
 			self:resetCanSeeCache()
 			if self.player then for uid, e in pairs(game.level.entities) do if e.x then game.level.map:updateMap(e.x, e.y) end end game.level.map.changed = true end
 		end
-	end,
-}
-
-newEffect{
-	name = "DWARVEN_RESILIENCE", image = "talents/dwarf_resilience.png",
-	desc = _t"Dwarven Resilience",
-	long_desc = function(self, eff) return ("The target's skin turns to stone, granting %d armour, %d physical save and %d spell save."):tformat(eff.armor, eff.physical, eff.spell) end,
-	type = "physical",
-	subtype = { earth=true },
-	status = "beneficial",
-	parameters = { armor=10, spell=10, physical=10 },
-	on_gain = function(self, err) return _t"#Target#'s skin turns to stone." end,
-	on_lose = function(self, err) return _t"#Target#'s skin returns to normal." end,
-	activate = function(self, eff)
-		eff.aid = self:addTemporaryValue("combat_armor", eff.armor)
-		eff.pid = self:addTemporaryValue("combat_physresist", eff.physical)
-		eff.sid = self:addTemporaryValue("combat_spellresist", eff.spell)
-	end,
-	deactivate = function(self, eff)
-		self:removeTemporaryValue("combat_armor", eff.aid)
-		self:removeTemporaryValue("combat_physresist", eff.pid)
-		self:removeTemporaryValue("combat_spellresist", eff.sid)
 	end,
 }
 
@@ -1287,7 +1267,7 @@ newEffect{
 	subtype = { speed=true, tactic=true },
 	status = "beneficial",
 	parameters = {power=1000},
-	on_gain = function(self, err) return _t"#Target# prepares for the next kill!.", _t"+Step Up" end,
+	on_gain = function(self, err) return _t"#Target# prepares for the next kill!", _t"+Step Up" end,
 	on_lose = function(self, err) return _t"#Target# slows down.", _t"-Step Up" end,
 	get_fractional_percent = function(self, eff)
 		local d = game.turn - eff.start_turn
@@ -1317,7 +1297,7 @@ newEffect{
 	subtype = { lightning=true, speed=true },
 	status = "beneficial",
 	parameters = {},
-	on_gain = function(self, err) return _t"#Target# turns into pure lightning!.", _t"+Lightning Speed" end,
+	on_gain = function(self, err) return _t"#Target# turns into pure lightning!", _t"+Lightning Speed" end,
 	on_lose = function(self, err) return _t"#Target# is back to normal.", _t"-Lightning Speed" end,
 	get_fractional_percent = function(self, eff)
 		local d = game.turn - eff.start_turn
@@ -2317,6 +2297,7 @@ newEffect{
 	on_gain = function(self, eff) return nil, nil end,
 	on_lose = function(self, eff) return nil, nil end,
 	do_block = function(type, dam, eff, self, src)
+		if self == src then return dam end
 		local dur_inc = 0
 		local crit_inc = 0
 		local nb = 1
@@ -2563,11 +2544,7 @@ newEffect{
 
 			if #effs > 0 then
 				local eff = rng.tableRemove(effs)
-				if eff[1] == "effect" then
-					self:removeEffect(eff[2])
-				else
-					self:forceUseTalent(eff[2], {ignore_energy=true})
-				end
+				self:dispel(eff[2], eff.src)
 			end
 		end
 		self:setEffect(self.EFF_DISTORTION, 2, {power=eff.distort})
@@ -3635,15 +3612,15 @@ newEffect{
 	desc = _t"Dwarven Resilience",
 	long_desc = function(self, eff)
 		if eff.mid_ac then
-			return ("The target's skin turns to stone, granting %d armour, %d physical save and %d spell save. Also applies %d armour to all non-physical damage."):tformat(eff.armor, eff.physical, eff.spell, eff.mid_ac)
+			return ("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, %d physical save and %d spell save. Also applies %d armour to all non-physical damage."):tformat(eff.armor, eff.armor_hardiness, eff.physical, eff.spell, eff.mid_ac)
 		else
-			return ("The target's skin turns to stone, granting %d armour, %d physical save and %d spell save."):tformat(eff.armor, eff.physical, eff.spell)
+			return ("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, %d physical save and %d spell save."):tformat(eff.armor, eff.armor_hardiness, eff.physical, eff.spell)
 		end
 	end,
 	type = "physical",
 	subtype = { earth=true },
 	status = "beneficial",
-	parameters = { armor=10, spell=10, physical=10 },
+	parameters = { armor=10, armor_hardiness=20, spell=10, physical=10 },
 	on_gain = function(self, err) return _t"#Target#'s skin turns to stone." end,
 	on_lose = function(self, err) return _t"#Target#'s skin returns to normal." end,
 	activate = function(self, eff)
@@ -3841,7 +3818,7 @@ newEffect{
 	subtype = { tactic=true, speed=true },
 	status = "beneficial",
 	parameters = {power=1000},
-	on_gain = function(self, err) return _t"#Target# enters an evasive stance!.", _t"+Escape!" end,
+	on_gain = function(self, err) return _t"#Target# enters an evasive stance!", _t"+Escape!" end,
 	on_lose = function(self, err) return _t"#Target# slows down.", _t"-Escape" end,
 	get_fractional_percent = function(self, eff)
 		local d = game.turn - eff.start_turn
@@ -4317,5 +4294,27 @@ newEffect{
 	end,
 	deactivate = function(self, eff)
 		self:removeTemporaryValue("healing_factor", eff.tmpid)
+	end,
+}
+
+newEffect{
+	name = "INTANGIBILITY", image = "talents/intangibility.png",
+	desc = _t"Intangible",
+	long_desc = function(self, eff) return ("%d%% chance to fully evade any damaging actions or negative effects."):tformat(eff.power) end,
+	type = "physical",
+	subtype = { nature=true },
+	status = "beneficial",
+	parameters = { power=10 },
+	activate = function(self, eff)
+		eff.tmpid = self:addTemporaryValue("cancel_damage_chance", eff.power)
+	end,
+	deactivate = function(self, eff)
+		self:removeTemporaryValue("cancel_damage_chance", eff.tmpid)
+	end,
+	callbackOnTemporaryEffect = function(self, eff, eff_id, e, p)
+		if e.status ~= "detrimental" or e.type == "other" or not rng.percent(eff.power) then return end
+		game.logSeen(self, "#LIGHT_BLUE#%s evades the effect '%s'!", self.name:capitalize(), e.desc)
+		p.dur = 0
+		return true
 	end,
 }

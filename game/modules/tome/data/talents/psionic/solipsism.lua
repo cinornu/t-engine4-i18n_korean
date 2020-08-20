@@ -35,8 +35,8 @@ newTalent{
 		return 100 - (100 - talentmod)/lifemod, 1-1/lifemod, talentmod
 	end,
 
-	on_levelup_close = function(self, t)
-		if self:getTalentLevelRaw(t) == 1 then
+	on_levelup_close = function(self, t, lvl, old_lvl, lvl_raw, old_lvl_raw)
+		if old_lvl_raw == 0 and lvl_raw >= 1 then
 			self.inc_resource_multi.psi = (self.inc_resource_multi.psi or 0) + 0.5
 			self.inc_resource_multi.life = (self.inc_resource_multi.life or 0) - 0.25
 			self.life_rating = math.ceil(self.life_rating/2)

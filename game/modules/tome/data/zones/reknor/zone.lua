@@ -24,7 +24,7 @@ return {
 	max_level = 4,
 	decay = {300, 800},
 	actor_adjust_level = function(zone, level, e) return zone.base_level + e:getRankLevelAdjust() + level.level-1 + rng.range(-1,2) end,
-	width = 70, height = 70,
+	width = 42, height = 42,
 --	all_remembered = true,
 --	all_lited = true,
 	persistent = "zone",
@@ -64,6 +64,7 @@ return {
 		},
 		[4] = {
 			decay = false,
+			width = 70, height = 70,
 			generator = {
 				map = {
 					class = "engine.generator.map.Static",

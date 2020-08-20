@@ -34,6 +34,17 @@ specialList("terrain", {
 setStatusAll{no_teleport=true}
 rotates = {"default", "90", "180", "270", "flipx", "flipy"}
 
+local lore = mod.class.Object.new{
+	type = "lore", subtype="lore",
+	unided_name = _t"scroll", identified=true,
+	display = "?", color=colors.ANTIQUE_WHITE, image="object/scroll.png",
+	encumber = 0,
+	name = _t"How to Summon a Phoenix", lore="renegade-pyromancers-vault",
+	desc = _t[[An old and singed scroll, the bottom half burnt off.]],
+	level_range = {1, 20},
+	rarity = false,
+}
+
 defineTile('.', "BURNT_GROUND")
 defineTile('T', "LAVA_WALL")
 defineTile('L', function() if rng.percent(50) then return "LAVA_FLOOR" else return "BURNT_GROUND" end end)
@@ -50,12 +61,13 @@ defineTile('F', "LAVA_FLOOR", {random_filter={add_levels=25, tome_mod="uvault"}}
 defineTile('f', "BURNT_GROUND", nil, {random_filter={add_levels=5, name = "greater faeros"}} )
 defineTile('M', "BURNT_GROUND", {random_filter={add_levels=12, tome_mod="uvault"}}, {random_filter={add_levels=7, name = "orc high pyromancer", random_boss={name_scheme=_t"#rng# the Invoker", nb_classes=0, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.5, force_classes={Archmage=true}}}})
 defineTile('m', "BURNT_GROUND", nil, {random_filter={add_levels=5, name = "orc pyromancer"}} )
+defineTile('l', "BURNT_GROUND", lore, {random_filter={add_levels=5, name = "orc pyromancer"}} )
 
 if rng.percent(7) then --rare phoenix-7% to show in here plus 35% this vault shows gives 2.5% chance per game for a phoenix from one of these
 return {
  [[###########]],
  [[#**Tf.fT**#]],
- [[#mm.LLL.mm#]],
+ [[#lm.LLL.mm#]],
  [[#MB.LPL.BM#]],
  [[#T..LLL..T#]],
  [[#TT.....TT#]],
@@ -66,7 +78,7 @@ else
 return {
  [[###########]],
  [[#**Tf.fT**#]],
- [[#mm.LLL.mm#]],
+ [[#mm.LLL.ml#]],
  [[#MB.LFL.BM#]],
  [[#T..LLL..T#]],
  [[#TT.....TT#]],

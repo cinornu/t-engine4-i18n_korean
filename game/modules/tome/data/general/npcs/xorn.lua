@@ -164,6 +164,7 @@ newEntity{ base = "BASE_NPC_XORN",
 
 -- Does not appear randomly, it is summoned by killing the fragments
 newEntity{ base = "BASE_NPC_XORN", define_as = "FULL_HARKOR_ZUN",
+	type = "demon", subtype = "major",
 	name = "Harkor'Zun", color=colors.VIOLET, unique=true,
 	resolvers.nice_tile{image="invis.png", add_mos = {{image="npc/elemental_xorn_harkor_zun.png", display_h=2, display_y=-1}}},
 	desc = _t[[A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.]],
@@ -204,16 +205,6 @@ newEntity{ base = "BASE_NPC_XORN", define_as = "FULL_HARKOR_ZUN",
 	resolvers.sustains_at_birth(),
 
 	on_die = function(self)
-		if profile.mod.allow_build.mage then
-			game:setAllowedBuild("mage_geomancer", true)
-			world:gainAchievement("GEOMANCER", game.player)
-			local p = game.party:findMember{main=true}
-			if p.descriptor.subclass == "Archmage" or p.descriptor.subclass == "Arcane Blade" then
-				if p:knowTalentType("spell/stone") == nil then
-					p:learnTalentType("spell/stone", false)
-					p:setTalentTypeMastery("spell/stone", p.descriptor.subclass == "Archmage" and 1.3 or 1.1)
-				end
-			end
-		end
+		world:gainAchievement("GEOMANCER", game.player)
 	end,
 }

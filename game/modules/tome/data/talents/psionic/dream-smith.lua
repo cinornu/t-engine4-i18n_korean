@@ -147,6 +147,8 @@ newTalent{
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
 		local _ _, x, y = self:canProject(tg, x, y)
+		tg.toss_end_x = x
+		tg.toss_end_y = y
 
 		print("[Dream Hammer Throw] Projection from", self.x, self.y, "to", x, y)
 		self:projectile(tg, x, y, function(px, py, tg, self)
@@ -155,7 +157,7 @@ newTalent{
 				local t = self:getTalentFromId(self.T_HAMMER_TOSS)
 				self:attackTargetWith(tmp_target, t.getDreamHammer(self, t), nil, t.getDamage(self, t))
 			end
-			if x == px and y == py and self and self.x and self.y then
+			if tg.toss_end_x == px and tg.toss_end_y == py and self and self.x and self.y then
 				print("[Dream Hammer Return] Projection from", x, y, "to", self.x, self.y)
 				local tgr = tg
 				tgr.name = _t"Hammer Toss"

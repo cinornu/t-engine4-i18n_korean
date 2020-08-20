@@ -56,7 +56,7 @@ newEntity{
 			end
 			-- Make sure a previous amulet didnt bug it out
 			if who:getTalentTypeMastery("corruption/vile-life") == 0 then who:setTalentTypeMastery("corruption/vile-life", 1) end
-			game.logPlayer(who, "You are transformed by the corrupted heart of the Queen!.")
+			game.logPlayer(who, "You are transformed by the corrupted heart of the Queen!")
 			game.logPlayer(who, "#00FF00#You gain an affinity for blight. You can now learn new Vile Life talents (press p).")
 
 			who:attr("drake_touched", 1)
