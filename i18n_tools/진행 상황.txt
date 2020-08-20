@@ -241,10 +241,7 @@
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
-"game/modules/tome/data/zones/halfling-ruins/zone.lua"
-"game/modules/tome/data/zones/heart-gloom/grids.lua"
-"game/modules/tome/data/zones/heart-gloom/npcs.lua"
-"game/modules/tome/data/zones/heart-gloom/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/halfling-ruins/zone.lua" Khelerd 완
 
 "game/modules/tome/data/zones/reknor-escape/grids.lua"
 "game/modules/tome/data/zones/reknor-escape/npcs.lua"
@@ -264,10 +261,7 @@
 "game/modules/tome/data/zones/ritch-tunnels/npcs.lua"
 "game/modules/tome/data/zones/ritch-tunnels/zone.lua"
 "game/modules/tome/data/zones/ruined-dungeon/grids.lua"
-"game/modules/tome/data/zones/ruined-dungeon/zone.lua"
-"game/modules/tome/data/zones/ruins-kor-pul/npcs.lua"
-"game/modules/tome/data/zones/ruins-kor-pul/objects.lua"
-"game/modules/tome/data/zones/ruins-kor-pul/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/ruined-dungeon/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
@@ -422,7 +416,7 @@ section "game/modules/tome/data/talents/gifts/summon-melee.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/summon-utility.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/venom-drake.lua" Stéphanois
 
-section "game/modules/tome/data/talents/misc/horrors.lua" Stéphanois  ** horror 이름 번역 안함 (devaureur인가?)
+section "game/modules/tome/data/talents/misc/horrors.lua" Stéphanois 
 section "game/modules/tome/data/talents/misc/npcs.lua" Stéphanois 
 section "game/modules/tome/data/talents/misc/inscriptions.lua" Stéphanois  완 (더미데이터 안함)
 section "game/modules/tome/data/talents/misc/objects.lua" Stéphanois ** yiilkgur / morrigor 번역명 필요
@@ -491,11 +485,14 @@ section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois �
 section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/scourge-drake.lua"
 section "game/dlcs/tome-cults/data/talents/demented/writhing-body.lua" 더미데이터
+section "game/dlcs/tome-cults/data/talents/demented/friend-of-the-worm.lua"
+section "game/dlcs/tome-cults/data/talents/demented/controlled-horrors.lua"
 
 section "game/dlcs/tome-cults/data/talents/misc/misc.lua" ** Kroshkkur /  Amakthel 번역명필요
 section "game/dlcs/tome-cults/data/talents/misc/races.lua"
 
-오크 기술들------------------------------------------------------------------------------------
+
+엠버오브레이지 기술들------------------------------------------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents.lua"
 
 section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua"
@@ -571,7 +568,7 @@ section "game/modules/tome/data/timed_effects/magical.lua" ** 네크로맨서 �
 section "game/modules/tome/data/timed_effects/mental.lua"  Stéphanois 완
 section "game/modules/tome/data/timed_effects/other.lua"  Stéphanois 완
 section "game/modules/tome/data/timed_effects/physical.lua" Stéphanois
-
+section "game/dlcs/tome-cults/data/timed_effects.lua" Stéphanois
 
 section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
 section "game/modules/tome/dialogs/ShowMap.lua" Stéphanois  완
