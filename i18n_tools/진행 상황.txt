@@ -492,6 +492,14 @@ section "game/dlcs/tome-cults/data/talents/misc/races.lua"
 오크 기술들------------------------------------------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents.lua"
 
+section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua"
+section "game/dlcs/tome-orcs/data/talents/celestial/cosmic.lua"
+section "game/dlcs/tome-orcs/data/talents/celestial/crepescula.lua"
+section "game/dlcs/tome-orcs/data/talents/celestial/energies.lua"
+section "game/dlcs/tome-orcs/data/talents/celestial/reflection.lua"
+section "game/dlcs/tome-orcs/data/talents/celestial/sol.lua"
+section "game/dlcs/tome-orcs/data/talents/celestial/void.lua"
+
 
 장비 설명들--------------------------------------------------------------
 section "game/modules/tome/data/general/objects/2haxes.lua" Stéphanois
