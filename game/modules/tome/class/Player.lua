@@ -125,7 +125,7 @@ function _M:onBirth(birther)
 		local zones = {}
 		for i, zd in ipairs(def) do for j = zd[2], zd[3] do zones[#zones+1] = {zd[1], j} end end
 		self.random_escort_levels = {}
-		for i = 1, 9 do
+		for i = 1, world.random_escort_possibilities_max or 9 do
 			local z = rng.tableRemove(zones)
 			print("Random escort on", z[1], z[2])
 			self.random_escort_levels[z[1]] = self.random_escort_levels[z[1]] or {}
@@ -167,7 +167,11 @@ function _M:onEnterLevel(zone, level)
 
 	-- Fire random escort quest
 	if self.random_escort_levels and self.random_escort_levels[escort_zone_name] and self.random_escort_levels[escort_zone_name][level.level - escort_zone_offset] then
-		self:grantQuest("escort-duty")
+		if self:triggerHook{"Player:onEnterLevel:generateEscort", zone=zone, level=level} then
+			-- nothing
+		elseif game:isCampaign("Maj'Eyal") then
+			self:grantQuest("escort-duty")
+		end
 	end
 
 	-- Cancel effects
@@ -178,7 +182,7 @@ function _M:onEnterLevel(zone, level)
 			if type(self.tempeffect_def[eff_id].cancel_on_level_change) == "function" then self.tempeffect_def[eff_id].cancel_on_level_change(self, p) end
 		end
 	end
-	for i, eff_id in ipairs(effs) do self:removeEffect(eff_id) end
+	for i, eff_id in ipairs(effs) do self:removeEffect(eff_id, nil, true) end
 
 	-- Clear existing player created effects on the map
 	for i, eff in ipairs(level.map.effects) do
@@ -381,7 +385,7 @@ function _M:act()
 	self:updateMainShader()
 
 	if config.settings.tome.life_lost_warning and self.shader_old_life then
-		local perc = (self.shader_old_life - self.life) / self.max_life
+		local perc = (self.shader_old_life - self.life) / (self.max_life - self.die_at)
 		if perc > (config.settings.tome.life_lost_warning / 100) then
 			game.bignews:say(100, "#LIGHT_RED#LIFE LOST WARNING!")
 			game.key.disable_until = core.game.getTime() + 2000
@@ -455,7 +459,7 @@ function _M:updateMainShader()
 
 		-- Set shader HP warning
 		if self.life ~= self.shader_old_life then
-			if self.life < self.max_life / 2 then game.fbo_shader:setUniform("hp_warning", 1 - (self.life / self.max_life))
+			if (self.life - self.die_at) < (self.max_life - self.die_at) / 2 then game.fbo_shader:setUniform("hp_warning", 1 - (self.life / (self.max_life - self.die_at)))
 			else game.fbo_shader:setUniform("hp_warning", 0) end
 		end
 		-- Set shader air warning
@@ -671,6 +675,26 @@ function _M:playerFOV()
 			for i = 1, #arr do
 				act = arr[i]
 				if act and not act.dead and act.x and tbl[act] and shadow:canSee(act) and tbl[act].sqdist <= sqsense then
+					game.level.map.seens(act.x, act.y, 0.6)
+				end
+			end
+		end end
+	end
+
+	if self:knowTalent(self.T_SPECTRAL_SIGHT) then
+		local t = self:getTalentFromId(self.T_SPECTRAL_SIGHT)
+		local range = self:getTalentRange(t)
+		local sqsense = range * range
+
+		for minion, _ in pairs(game.party.members) do if minion.necrotic_minion and not minion.dead and minion.x then
+			local arr = minion.fov.actors_dist
+			local tbl = minion.fov.actors
+			local act
+			game.level.map:apply(minion.x, minion.y, 0.6)
+			game.level.map:applyExtraLite(minion.x, minion.y)
+			for i = 1, #arr do
+				act = arr[i]
+				if act and not act.dead and act.x and tbl[act] and minion:canSee(act) and tbl[act].sqdist <= sqsense then
 					game.level.map.seens(act.x, act.y, 0.6)
 				end
 			end

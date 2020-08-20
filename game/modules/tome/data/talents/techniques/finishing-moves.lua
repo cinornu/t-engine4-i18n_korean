@@ -206,7 +206,7 @@ newTalent{
 	cooldown = 8,
 	stamina = 12,
 	message = _t"@Source@ throws a wild haymaker!",
-	tactical = { ATTACK = { weapon = 2 } },
+	no_npc_use = true, -- easily reaches >400% weapon damage
 	requires_target = true,
 	range = 1,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,

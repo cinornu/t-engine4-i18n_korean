@@ -121,7 +121,7 @@ newTalent{
 		- Spider: Knocks back all foes %d tiles
 		In addition, a random summon will come off cooldown.
 		Hostile effects will not hit you or your other summons.
-		The effects improve with your mindpower, and can crit.]]):tformat(radius, t.explodeSecondary(self,t), t.hydraAffinity(self,t), t.hydraRegen(self,t), t.explodeSecondary(self,t), t.explodeFire(self,t), t.explodeBleed(self,t) / 6, t.explodeSecondary(self,t), t.jellySlow(self,t) * 100, t.minotaurConfuse(self,t), t.golemArmour(self,t), t.golemHardiness(self,t), t.shellShielding(self,t), t.spiderKnockback(self,t)) 
+		The effects improve with your mindpower, and some can crit.]]):tformat(radius, t.explodeSecondary(self,t), t.hydraAffinity(self,t), t.hydraRegen(self,t), t.explodeSecondary(self,t), t.explodeFire(self,t), t.explodeBleed(self,t) / 6, t.explodeSecondary(self,t), t.jellySlow(self,t) * 100, t.minotaurConfuse(self,t), t.golemArmour(self,t), t.golemHardiness(self,t), t.shellShielding(self,t), t.spiderKnockback(self,t)) 
 	end,
 }
 
@@ -159,11 +159,8 @@ newTalent{
 		target:setEffect(target.EFF_EVASION, dur, {chance=50})
 
 		-- Displace
-		game.level.map:remove(self.x, self.y, Map.ACTOR)
-		game.level.map:remove(target.x, target.y, Map.ACTOR)
-		game.level.map(self.x, self.y, Map.ACTOR, target)
-		game.level.map(target.x, target.y, Map.ACTOR, self)
-		self.x, self.y, target.x, target.y = target.x, target.y, self.x, self.y
+		target:forceMoveAnim(self.x, self.y)
+		self:forceMoveAnim(tx, ty)
 
 		game:playSoundNear(self, "talents/teleport")
 		return true

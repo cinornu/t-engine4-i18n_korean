@@ -114,7 +114,7 @@ function _M:replaceAll(level)
 		local r = self.repl[i]
 		-- Safety check
 		local og = level.map(r[1], r[2], Map.TERRAIN)
-		if og and (og.change_zone or og.change_level) then
+		if og and (og.change_zone or og.change_level) and not og.change_level_allow_nice_tile then
 			print("[NICE TILER] *warning* refusing to remove zone/level changer at ", r[1], r[2], og.change_zone, og.change_level)
 		else
 			local no = overlay(self, level, "replace", r[1], r[2], r[3])
@@ -1260,6 +1260,22 @@ psitechwall = { method="walls", type="psitechwall", forbid={}, use_type=true, ex
 
 	default4={add_displays={{image="terrain/psicave/psitech_ver_edge_left_01.png", display_x=-1}}, min=1, max=1},
 	default6={add_displays={{image="terrain/psicave/psitech_ver_edge_right_01.png", display_x=1}}, min=1, max=1},
+},
+psitechfloor = { method="borders", type="psitech", forbid={lava=true, rock=true},
+	default8={add_mos={{image="terrain/psicave/psitech_floor_trans3_2_%02d.png", display_y=-1}}, min=1, max=1},
+	default2={add_mos={{image="terrain/psicave/psitech_floor_trans3_8_%02d.png", display_y=1}}, min=1, max=1},
+	default4={add_mos={{image="terrain/psicave/psitech_floor_trans3_6_%02d.png", display_x=-1}}, min=1, max=1},
+	default6={add_mos={{image="terrain/psicave/psitech_floor_trans3_4_%02d.png", display_x=1}}, min=1, max=1},
+
+	default1={z=3,add_mos={{image="terrain/psicave/psitech_floor_trans3_9_%02d.png", display_x=-1, display_y=1}}, min=1, max=1},
+	default3={z=3,add_mos={{image="terrain/psicave/psitech_floor_trans3_7_%02d.png", display_x=1, display_y=1}}, min=1, max=1},
+	default7={z=3,add_mos={{image="terrain/psicave/psitech_floor_trans3_3_%02d.png", display_x=-1, display_y=-1}}, min=1, max=1},
+	default9={z=3,add_mos={{image="terrain/psicave/psitech_floor_trans3_1_%02d.png", display_x=1, display_y=-1}}, min=1, max=1},
+
+	default1i={add_mos={{image="terrain/psicave/psitech_floor_trans3_inner_1_%02d.png", display_x=-1, display_y=1}}, min=1, max=1},
+	default3i={add_mos={{image="terrain/psicave/psitech_floor_trans3_inner_3_%02d.png", display_x=1, display_y=1}}, min=1, max=1},
+	default7i={add_mos={{image="terrain/psicave/psitech_floor_trans3_inner_7_%02d.png", display_x=-1, display_y=-1}}, min=1, max=1},
+	default9i={add_mos={{image="terrain/psicave/psitech_floor_trans3_inner_9_%02d.png", display_x=1, display_y=-1}}, min=1, max=1},
 },
 }
 _M.generic_borders_defs = defs

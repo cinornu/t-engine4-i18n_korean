@@ -476,7 +476,7 @@ At the other end of the cavern a wall of ice blocked our way.  Linaniil held up 
 
 This cold, crypt-like hollow was covered in smooth, glistening ice on all sides.  The walls were square and straight, and ancient pillars of marble were dotted about the room.  On the pillars and walls were weathered runes and symbols.  I came close to study some, but couldn’t recognise them from any of my studies.  “What was this place?” I asked, turning to Linaniil.  “It seems older even than Sher’Tul.”
 
-She ran her hand over one of the walls, tracing the outline of a door.  “It be a temple to Quekorja, god of a race called the Weissi.  The were killed off by the Sher’Tul long before our races were born.  They did build this temple in honour of Quekorja, and the last of them did die here defending her.”
+She ran her hand over one of the walls, tracing the outline of a door.  “It be a temple to Quekorja, god of a race whose name somehow escapes my mind.  The were killed off by the Sher’Tul long before our races were born.  They did build this temple in honour of Quekorja, and the last of them did die here defending her.”
 
 I looked about in awe.  Though I had explored many Sher’Tul ruins I hadn’t seen anything like this.  The architecture was simple but elegant.  There was a crude beauty to it all.  I turned back to the door Linaniil was examining.
 

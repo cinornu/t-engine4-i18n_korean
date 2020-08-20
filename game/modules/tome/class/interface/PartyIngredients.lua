@@ -88,6 +88,7 @@ function _M:collectIngredient(id, nb, silent)
 		end
 		game.log("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", d.display_entity:getDisplayString(), _t(d.name), nb)
 	end
+	self:triggerHook{"PartyIngredients:collectIngredient", id=id, nb=nb, silent=silent}
 end
 
 function _M:hasIngredient(id, nb)

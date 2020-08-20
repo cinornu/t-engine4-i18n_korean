@@ -579,6 +579,7 @@ function _M:onWear(o, inven_id)
 	-- Apply wielder properties
 	o.wielded = {}
 	o:check("on_wear", self, inven_id)
+	self:triggerHook{"Actor:onWear", o=o, inven_id=inven_id}
 	if o.wielder then
 		for k, e in pairs(o.wielder) do
 			o.wielded[k] = self:addTemporaryValue(k, e)
@@ -601,6 +602,7 @@ function _M:onTakeoff(o, inven_id)
 		end
 	end
 	o:check("on_takeoff", self, inven_id)
+	self:triggerHook{"Actor:onTakeoff", o=o, inven_id=inven_id}
 	o.wielded = nil
 end
 

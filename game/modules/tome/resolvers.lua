@@ -1175,7 +1175,7 @@ function resolvers.racial(race)
 	return {__resolver="racial", race}
 end
 function resolvers.calc.racial(t, e)
-	if e.type ~= "humanoid" and e.type ~= "giant" and e.type ~= "undead" then return end
+	if e.type ~= "humanoid" and e.type ~= "giant" and e.type ~= "undead" and e.type ~= "construct" then return end
 	local race = t[1] or e.subtype
 	if not racials[race] then return end
 
@@ -1196,6 +1196,14 @@ local racials_visuals = {
 		Cornac = {
 			{kind="skin", filter={"oneof", {"Skin Color 1", "Skin Color 2", "Skin Color 3", "Skin Color 4", "Skin Color 5"}}},
 			{kind="skin", percent=5, filter={"oneof", {"Skin Color 6", "Skin Color 7", "Skin Color 8"}}},
+			{kind="hairs", filter={"findname", "Dark Hair"}},
+			{kind="hairs", percent=10, filter={"findname", "Redhead "}},
+			{kind="facial_features", percent=20, filter={"findname", "Dark Beard "}},
+			{kind="facial_features", percent=20, filter={"findname", "Dark Mustache "}},
+		},
+		Sholtar = {
+			{kind="skin", filter={"oneof", {"Skin Color 6", "Skin Color 7", "Skin Color 8"}}},
+			{kind="skin", percent=5, filter={"oneof", {"Skin Color 1", "Skin Color 2", "Skin Color 3", "Skin Color 4", "Skin Color 5"}}},
 			{kind="hairs", filter={"findname", "Dark Hair"}},
 			{kind="hairs", percent=10, filter={"findname", "Redhead "}},
 			{kind="facial_features", percent=20, filter={"findname", "Dark Beard "}},
@@ -1227,6 +1235,11 @@ local racials_visuals = {
 		Halfling = {
 			{kind="skin", filter={"oneof", {"Skin Color 1", "Skin Color 2", "Skin Color 3", "Skin Color 4"}}},
 			{kind="skin", percent=5, filter={"oneof", {"Skin Color 5", "Skin Color 6"}}},
+			{kind="hairs", filter={"all"}},
+		},
+		DarkSkinHalfling = {
+			{kind="skin", filter={"oneof", {"Skin Color 5", "Skin Color 6"}}},
+			{kind="skin", percent=5, filter={"oneof", {"Skin Color 1", "Skin Color 2", "Skin Color 3", "Skin Color 4"}}},
 			{kind="hairs", filter={"all"}},
 		},
 	},
@@ -1313,7 +1326,9 @@ function resolvers.nice_tile(def)
 end
 function resolvers.calc.nice_tile(t, e)
 	if engine.Map.tiles.nicer_tiles then
-		if t[1].tall then t[1] = {image="invis.png", add_mos = {{image="=BASE=TILE=", display_h=2, display_y=-1}}} end
+		if t[1].tall and not t[1].wide then t[1] = {image="invis.png", add_mos = {{image="=BASE=TILE=", display_h=2, display_y=-1}}}
+		elseif t[1].tall and t[1].wide then t[1] = {image="invis.png", add_mos = {{image="=BASE=TILE=", display_h=2, display_y=-1, display_w=2, display_x=-0.5}}}
+		elseif not t[1].tall and t[1].wide then t[1] = {image="invis.png", add_mos = {{image="=BASE=TILE=", display_w=2, display_x=-0.5}}} end
 		if t[1].add_mos and t[1].add_mos[1] and t[1].add_mos[1].image == "=BASE=TILE=" then t[1].add_mos[1].image = e.image end
 		if t[1].add_mos and t[1].add_mos[1] and t[1].add_mos[1].image then t[1].attachement_spots = t[1].add_mos[1].image end
 		table.merge(e, t[1])
@@ -1389,4 +1404,12 @@ function resolvers.calc.robe_stats(t, e)
 	e.wielder = e.wielder or {}
 	e.wielder.resists = e.wielder.resists or {}
 	e.wielder.resists.all = (e.wielder.resists.all or 0) + 5 + ((e.material_level or 1) * 2)
+end
+
+--- Make robes great again
+function resolvers.for_campaign(id, fct)
+	return {__resolver="for_campaign", __resolve_last=true, id, fct}
+end
+function resolvers.calc.for_campaign(t, e)
+	if game:isCampaign(t[1]) then t[2](e) end
 end

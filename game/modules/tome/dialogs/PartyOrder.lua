@@ -32,6 +32,7 @@ local orders = {
 	leash = {4, function(actor) return ("Set the leash distance [current: %d]"):tformat(actor.ai_state.tactic_leash) end},
 	talents = {5, function(actor) return (_t"Define tactical talents usage") end},
 	rename = {6, function(actor) return (_t"Rename") end},
+	dismiss = {7, function(actor) return (_t"Dismiss") end},
 }
 
 function _M:init(actor, def)
@@ -64,6 +65,11 @@ end
 
 function _M:generateList()
 	local list = {}
+
+	if not _M.additional_hook_fired then
+		_M.additional_hook_fired = true
+		self:triggerHook{"PartyOrder:define", orders=orders}
+	end
 
 	for o, _ in pairs(self.def.orders) do
 		if orders[o] then

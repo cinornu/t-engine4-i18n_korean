@@ -247,7 +247,7 @@ newEntity{ base = "BASE_LONGBOW",
 	material_level = 5,
 	combat = {
 		range = 10,
-		physspeed = 0.7,
+		physspeed = 0.85,
 		apr = 12,
 	},
 	wielder = {
@@ -459,7 +459,7 @@ newEntity{ base = "BASE_SLING",
 	material_level = 3,
 	combat = {
 		range = 10,
-		physspeed = 0.7,
+		physspeed = 0.85,
 	},
 	wielder = {
 		inc_stats = { [Stats.STAT_DEX] = 4, [Stats.STAT_CUN] = 3,  },
@@ -880,9 +880,9 @@ newEntity{ base = "BASE_LEATHER_BELT",
 	},
 	max_power = 20, power_regen = 1,
 	use_power = {
-		name = function(self, who) return ("surround yourself with a magical shield (strength %d, based on Magic) for 10 turns"):tformat(self.use_power.shield(self, who)) end,
+		name = function(self, who) return ("surround yourself with a magical shield (strength %d, based on Magic) for %d turns"):tformat(who:getShieldAmount(self.use_power.shield(self, who)), who:getShieldDuration(10)) end,
 		power = 20,
-		shield = function(self, who) return 100 + who:getMag(250) * (100 + (who:attr("shield_factor") or 0)) / 100 end,
+		shield = function(self, who) return 100 + who:getMag(250) end,
 		use = function(self, who)
 			game.logSeen(who, "%s invokes the memory of Neira!", who:getName():capitalize())
 			who:setEffect(who.EFF_DAMAGE_SHIELD, 10, {power=self.use_power.shield(self, who)})
@@ -1123,7 +1123,7 @@ newEntity{ base = "BASE_AMULET", --Thanks Grayswandir!
 	},
 	max_power = 24, power_regen = 1,
 	use_power = {
-		name = function(self, who) return ("create a reflective shield (50%% reflection rate, %d strength, based on Magic) for 5 turns"):tformat(self.use_power.shield(self, who) * (100 + (who:attr("shield_factor") or 0)) / 100) end,
+		name = function(self, who) return ("create a reflective shield (50%% reflection rate, %d strength, based on Magic) for %d turns"):tformat(who:getShieldAmount(self.use_power.shield(self, who)), who:getShieldDuration(5)) end,
 		power = 24,
 		shield = function(self, who) return 150 + 2*who:getMag(100) end,
 		use = function(self, who)

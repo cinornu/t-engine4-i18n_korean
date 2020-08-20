@@ -269,24 +269,28 @@ newTalent{
 		local blastX, blastY = self:getTarget(tg)
 		if not self:canProject(tg, blastX, blastY) then return nil end
 
-		local list = {}
-		self:project(tg, blastX, blastY, function(x, y, target, self)
-			-- your will ignores friendly targets (except for knockback hits)
-			local target = game.level.map(x, y, Map.ACTOR)
-			if target and self:reactionToward(target) < 0 then
-				local distance = core.fov.distance(blastX, blastY, x, y)
-				local power = 1 - 0.5 * (distance / radius)
-				list[#list + 1] = {target = target, power = power, damage = damage * power, knockback = math.max(0, knockback - distance)}
-			end
-		end)
+		local tmp = {}
+		local targets = {}
+		local grids = self:project(tg, blastX, blastY,
+			function(x, y, target, self)
+				-- your will ignores friendly targets (except for knockback hits)
+				local target = game.level.map(x, y, Map.ACTOR)
+				if target and self:reactionToward(target) < 0 then
+					targets[#targets+1] = target
 
-		if #list == 0 then return end
-		local dazeDuration = t.getDazeDuration(self, t)
-		for i = 1, #list do
-			local hit = list[i]
-			self:callTalent(self.T_WILLFUL_STRIKE, "forceHit", hit.target, blastX, blastY, hit.damage, hit.knockback, 7, hit.power, 10)
-			if hit.target:canBe("stun") then
-				hit.target:setEffect(hit.target.EFF_DAZED, dazeDuration, {src=self})
+				end
+			end,
+			nil, nil)
+
+		for _,target in ipairs(targets) do
+			local distance = core.fov.distance(blastX, blastY, target.x, target.y)
+			local power = (1 - (distance / radius))
+			local localDamage = damage * power
+			local dazeDuration = t.getDazeDuration(self, t)
+
+			self:callTalent(self.T_WILLFUL_STRIKE, "forceHit", target, blastX, blastY, damage, math.max(0, knockback - distance), 7, power, 10, tmp)
+			if target:canBe("stun") then
+				target:setEffect(target.EFF_DAZED, dazeDuration, {src=self})
 			end
 		end
 

@@ -356,7 +356,7 @@ end
 
 --- Tries to apply all birth options to the actor. Should only be called once, at the end of creation
 -- 
-function _M:apply()
+function _M:apply(self_contained)
 	self.actor.descriptor = {}
 	local stats, inc_stats = {}, {}
 	for i, d in ipairs(self.descriptors) do
@@ -421,7 +421,7 @@ function _M:apply()
 			self.actor.body = d.body
 			self.actor:initBody()
 		end
-		if self.applyingDescriptor then self:applyingDescriptor(i, d) end
+		if self.applyingDescriptor then self:applyingDescriptor(i, d, self_contained) end
 	end
 
 	-- Apply stats now to not be overridden by other things

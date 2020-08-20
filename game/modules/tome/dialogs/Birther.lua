@@ -252,7 +252,7 @@ function _M:checkNew(fct)
 	end
 end
 
-function _M:applyingDescriptor(i, d)
+function _M:applyingDescriptor(i, d, self_contained)
 	if d.unlockable_talents_types then
 		for t, v in pairs(d.unlockable_talents_types) do
 			if profile.mod.allow_build[v[3]] then
@@ -267,17 +267,19 @@ function _M:applyingDescriptor(i, d)
 			end
 		end
 	end
-	if d.party_copy then
-		local copy = table.clone(d.party_copy, true)
-		-- Append array part
-		while #copy > 0 do
-			local f = table.remove(copy)
-			table.insert(game.party, f)
+	if not self_contained then
+		if d.party_copy then
+			local copy = table.clone(d.party_copy, true)
+			-- Append array part
+			while #copy > 0 do
+				local f = table.remove(copy)
+				table.insert(game.party, f)
+			end
+			-- Copy normal data
+			table.merge(game.party, copy, true)
 		end
-		-- Copy normal data
-		table.merge(game.party, copy, true)
+		self:applyGameState(d)
 	end
-	self:applyGameState(d)
 end
 
 function _M:applyGameState(d)

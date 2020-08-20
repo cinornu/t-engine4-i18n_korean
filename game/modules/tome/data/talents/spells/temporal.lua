@@ -73,8 +73,8 @@ newTalent{
 		return true
 	end,
 	info = function(self, t)
-		local maxabsorb = t.getMaxAbsorb(self, t)
-		local duration = t.getDuration(self, t)
+		local maxabsorb = self:getShieldAmount(t.getMaxAbsorb(self, t))
+		local duration = self:getShieldDuration(t.getDuration(self, t))
 		local time_reduc = t.getTimeReduction(self,t)
 		return ([[This intricate spell instantly erects a time shield around the caster, preventing any incoming damage and sending it forward in time.
 		Once either the maximum damage (%d) is absorbed, or the time runs out (%d turns), the stored damage will return as a temporal restoration field over time (5 turns).
@@ -122,11 +122,11 @@ newTalent{
 	require = spells_req4,
 	points = 5,
 	mode = "sustained",
-	sustain_mana = 180,
+	sustain_mana = 120,
 	cooldown = 20,
 	use_only_arcane = 4,
 	tactical = { BUFF = 2 },
-	getHaste = function(self, t) return self:combatTalentLimit(t, 0.35, 0.05, 0.25) end,
+	getHaste = function(self, t) return self:combatTalentScale(t, 0.075, 0.26, 1/3) end, -- +10~30% for players, cube root scaling to prevent excessive strength on NPCs
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/spell_generic")
 		local power = t.getHaste(self, t)

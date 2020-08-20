@@ -25,6 +25,7 @@ newEntity{
 	on_encounter = function(self, who)
 		local x, y = self:findSpot(who)
 		if not x then return end
+		if game:getPlayer(true).faction == "zigur" then return end
 
 		local g = mod.class.WorldNPC.new{
 			name=_t"Novice mage",

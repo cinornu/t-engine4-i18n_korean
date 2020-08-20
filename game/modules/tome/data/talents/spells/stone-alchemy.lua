@@ -102,14 +102,7 @@ newTalent{
 		return true
 	end,
 	info = function(self, t)
-		local material = ""
-		if self:getTalentLevelRaw(t) >=1 then material=material.._t"	-Iron\n" end
-		if self:getTalentLevelRaw(t) >=2 then material=material.._t"	-Steel\n" end
-		if self:getTalentLevelRaw(t) >=3 then material=material.._t"	-Dwarven-steel\n" end
-		if self:getTalentLevelRaw(t) >=4 then material=material.._t"	-Stralite\n" end
-		if self:getTalentLevelRaw(t) >=5 then material=material.._t"	-Voratun" end
-		return ([[Extract magical gems from metal weapons and armours. At this skill level you can work with:
-		%s]]):tformat(material)
+		return ([[Extract magical gems from metal weapons and armours. At this skill level you can work with metals of at maximum tier %d.]]):tformat(self:getTalentLevelRaw(t))
 	end,
 }
 

@@ -183,7 +183,7 @@ newTalent{
 }
 
 newTalent{
-	name = "Focused Wrath",   
+	name = "Focused Wrath",
 	type = {"psionic/discharge", 4},
 	points = 5, 
 	require = psi_wil_high4,
@@ -209,6 +209,9 @@ newTalent{
 		if not target or target == self then return nil end
 
 		self:setEffect(self.EFF_FOCUSED_WRATH, t.getDuration(self, t), {target=target, pen=t.getResistPenalty(self, t), power=t.getCritBonus(self, t)/100})
+		if self:getTalentLevel(t) >= 5 then
+			self:alterTalentCoolingdown(self.T_MIND_STORM, -1000)
+		end
 
 		game.level.map:particleEmitter(self.x, self.y, 1, "generic_charge", {rm=255, rM=255, gm=180, gM=255, bm=0, bM=0, am=35, aM=90})
 		game:playSoundNear(self, "talents/fireflash")
@@ -220,6 +223,7 @@ newTalent{
 		local crit_bonus = t.getCritBonus(self, t)
 		return ([[Focus your mind on a single target, diverting all offensive Discharge talent effects to it for %d turns.  While this effect is active, all Discharge talents gain %d%% critical power and you ignore %d%% mind resistance of your targets.
 		If the target is killed, the effect will end early.
+		At level level 5 your single-minded focus also resets the cooldown of Mind Storm.
 		The damage bonus will scale with your Mindpower.]]):tformat(duration, crit_bonus, penetration)
 	end,
 }

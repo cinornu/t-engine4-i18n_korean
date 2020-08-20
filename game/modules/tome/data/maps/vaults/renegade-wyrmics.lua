@@ -81,15 +81,15 @@ defineTile('C', "ICY_FLOOR", {random_filter={add_levels=25, tome_mod="uvault"}},
 			[Talents.T_BODY_OF_ICE]={base=3, every=15, max=8},
 			[Talents.T_UTTERCOLD]={base=3, every=15, max=7},}
 			e:resolve()
-		 return e end, random_filter={add_levels=25, name = "ice wyrm", random_boss={name_scheme=_t"#rng# the Fozen Terror", nb_classes=2, class_filter=function(d) return d.power_source and (d.power_source.nature or d.power_source.technique) and d.name ~= "Wyrmic" end, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=4, force_classes={Wyrmic=true}}}} )
+		 return e end, random_filter={add_levels=25, name = "ice wyrm", random_boss={name_scheme=_t"#rng# the Frozen Terror", nb_classes=2, class_filter=function(d) return d.power_source and (d.power_source.nature or d.power_source.technique) and d.name ~= "Wyrmic" end, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=4, force_classes={Wyrmic=true}}}} )
 defineTile('c', "ICY_FLOOR", {random_filter={add_levels=20, type="money"}}, {random_filter={add_levels=12, name = "cold drake"}} )
 defineTile('V', "SLIME_FLOOR", {random_filter={add_levels=25, tome_mod="uvault"}}, {entity_mod=function(e) 
 		e[#e+1] = resolvers.talents{
-			[Talents.T_INDISCERNIBLE_ANATOMY]={base=4, every=12, max=10},
-			[Talents.T_GRAND_ARRIVAL]=3,
-			[Talents.T_WILD_SUMMON]=4,
-			[Talents.T_ACIDIC_SOIL]={base=3, every=15, max=7},
-			[Talents.T_UNSTOPPABLE_NATURE]={base=3, every=15, max=7},}
+			[Talents.T_INDISCERNIBLE_ANATOMY]={base=2, every=15, max=8},
+			[Talents.T_GRAND_ARRIVAL]=2,
+			[Talents.T_WILD_SUMMON]=3,
+			[Talents.T_ACIDIC_SOIL]={base=3, every=15, max=5},
+			[Talents.T_UNSTOPPABLE_NATURE]={base=3, every=15, max=5},}
 			e:resolve()
 		 return e end, random_filter={add_levels=25, name = "venom wyrm", random_boss={name_scheme=_t"#rng# the Caustic Terror", nb_classes=2, class_filter=function(d) return d.power_source and (d.power_source.nature) and d.name ~= "Oozemancer" end, loot_quality="store", loot_quantity=1, ai_move="move_complex", rank=4, force_classes={Oozemancer=true}}}} )
 defineTile('v', "SLIME_FLOOR", {random_filter={add_levels=20, type="money"}}, {random_filter={add_levels=12, name = "venom drake"}} )

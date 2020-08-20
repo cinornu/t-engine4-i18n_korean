@@ -428,6 +428,7 @@ newEntity{
 		local _ _, x, y = who:canProject(tg, x, y)
 		local target = game.level.map(x, y, engine.Map.ACTOR)
 		if not target then return end
+		if who:reactionToward(target) >= 0 then return end
 
 		game.level.map:particleEmitter(who.x, who.y, 1, "teleport")
 		who:teleportRandom(target.x, target.y, 2)

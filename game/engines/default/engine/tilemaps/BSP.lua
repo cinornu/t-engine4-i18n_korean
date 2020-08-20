@@ -165,8 +165,8 @@ function _M:mstEdges(fatten)
 	return edges
 end
 
-function _M:mergedAt(x, y)
-	Tilemap.mergedAt(self, x, y)
+function _M:mergedAt(x, y, into)
+	Tilemap.mergedAt(self, x, y, tino)
 
 	for idx, room in ipairs(self.rooms) do
 		room:translate(self.merged_pos - 1)

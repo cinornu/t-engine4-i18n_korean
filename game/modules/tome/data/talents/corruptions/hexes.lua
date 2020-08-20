@@ -27,6 +27,7 @@ newTalent{
 	range = 10,
 	radius = 2,
 	tactical = { DISABLE = {stun = 2} },
+	is_hex = true,
 	direct_hit = true,
 	requires_target = true,
 	target = function(self, t)
@@ -65,6 +66,7 @@ newTalent{
 	range = 10,
 	radius = 2,
 	tactical = { DISABLE = 2, ATTACK = {FIRE = 1} },
+	is_hex = true,
 	direct_hit = true,
 	requires_target = true,
 	target = function(self, t)
@@ -103,6 +105,7 @@ newTalent{
 	range = 10,
 	radius = 2,
 	tactical = { ATTACK = 2 },
+	is_hex = true,
 	direct_hit = true,
 	requires_target = true,
 	target = function(self, t)

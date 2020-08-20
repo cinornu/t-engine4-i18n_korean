@@ -576,7 +576,7 @@ newTalent{
 -- learned from the lost merchant
 newTalent{
 	name = "Stoning Poison",
-	type = {"cunning/poisons", 4},
+	type = {"cunning/poisons-effects", 1},
 	require = {stat = {cun=40}, level=25},
 	hide = true,
 	points = 1,

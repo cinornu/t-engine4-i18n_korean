@@ -70,7 +70,7 @@ newTalent{
 	requires_target = true,
 	target = function(self, t) return {type="ball", range=self:getTalentRange(t), radius=2, selffire=false, talent=t} end,
 	action = function(self, t)
-		local tg = {type="hit", range=1, nowarning=true, nolock=true }
+		local tg = {type="hit", range=1, nowarning=true, nolock=true, simple_dir_request=true }
 		local x, y, target = self:getTarget(tg)
 		if not x or not y or not target then return nil end
 		if core.fov.distance(self.x, self.y, x, y) > 1 then return nil end

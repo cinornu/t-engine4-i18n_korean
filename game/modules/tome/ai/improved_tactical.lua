@@ -102,11 +102,11 @@ For example:
 defines a tactical bias towards disabling the target (2x) and escape (3x, with a further increase if the target is closer than range 4).
 
 ALGORITHM and IMPLEMENTATION:
-The main (local) variables used by this AI are want, actions, and avail.  The want table (stored in SELF.ai_state._want) contains the WANT VALUEs for each TACTIC considered:
+The main (local) variables used by this AI are want, actions, and avail.  The want table (stored in SELF.ai_state_volatile._want) contains the WANT VALUEs for each TACTIC considered:
 
 	want = {TACTIC1 = value1, TACTIC2 = value2, ...}
 	
-The actions table (stored in SELF.ai_state._actions) contains a list of all available actions (each either a talent or another AI) and the parameters to perform them:
+The actions table (stored in SELF.ai_state_volatile._actions) contains a list of all available actions (each either a talent or another AI) and the parameters to perform them:
 
 	actions = {{action1 parameters, ...}, {action2 parameters, ...})
 	
@@ -127,7 +127,7 @@ while for AI's they are:
 	speed:		relative energy cost to perform the action (minimum 0.1)
 	... :		indexed parameters to be passed to the action AI as SELF:runAI(action.ai, unpack(action))
 	
-The avail table (stored in SELF.ai_state._avail) contains data on each TACTIC supported by the available actions:
+The avail table (stored in SELF.ai_state_volatile._avail) contains data on each TACTIC supported by the available actions:
 
 	avail = {TACTIC1 = {data1, ...}, TACTIC2 = {data2, ...}, ...}
 	
@@ -178,7 +178,7 @@ During its processing, the AI gathers some statistics about SELF's talents and t
 		actions: total number of actions taken in the current fight
 		attacks: total number of attacks performed in the current fight
 
-	talent_stats (SELF.ai_state._talent_stats, updated every 100 game turns -- every 10 actions, usually):
+	talent_stats (SELF.ai_state_volatile._talent_stats, updated every 100 game turns -- every 10 actions, usually):
 		talent_count: number of non-passive talents known
 		is_attack: list of talents fulfilling the ATTACK, ATTACKAREA, or ATTACKALL TACTICs
 		attack_count: number of talents considered to be attacks
@@ -369,9 +369,9 @@ newAI("use_improved_tactical", function(self, t_filter, t_list)
 	-- avail holds information on TACTICs for which available actions are available
 	local avail = {attack={num=0, best=base_attack/2}, escape={num=0, best=0}}
 	-- make tactical data accessible outside of this AI
-	self.ai_state._actions = actions
-	self.ai_state._want = want
-	self.ai_state._avail = avail
+	self.ai_state_volatile._actions = actions
+	self.ai_state_volatile._want = want
+	self.ai_state_volatile._avail = avail
 	local _
 	local aitarget = self.ai_target.actor
 	local ax, ay = self:aiSeeTargetPos(aitarget)
@@ -384,10 +384,10 @@ newAI("use_improved_tactical", function(self, t_filter, t_list)
 	local ally_compassion = (self.ai_state.ally_compassion == false and 0) or self.ai_state.ally_compassion or 1
 
 	-- update talent stats every 100 game turns (accounts for actors (i.e. party members) learning new talents)
-	local update_stats = not self.ai_state._talent_stats or (self.ai_state._talent_stats.last_update or 0) + 100 < game.turn and next(t_list)
+	local update_stats = not self.ai_state_volatile._talent_stats or (self.ai_state_volatile._talent_stats.last_update or 0) + 100 < game.turn and next(t_list)
 
 	if update_stats then
-		self.ai_state._talent_stats = {last_update=game.turn, combat_only={},
+		self.ai_state_volatile._talent_stats = {last_update=game.turn, combat_only={},
 			talent_count=0,
 			attack_ranges={},
 			attack_desired_range = self.ai_tactic.safe_range or 1, -- default
@@ -396,7 +396,7 @@ newAI("use_improved_tactical", function(self, t_filter, t_list)
 		update_stats = next(t_list)
 		--print("[tactical AI] updating talent stats for", self.name, self.uid)
 	end
-	local talent_stats = self.ai_state._talent_stats
+	local talent_stats = self.ai_state_volatile._talent_stats
 	
 	-- keep track of the current fight (reset if no hostile target)
 	self.ai_state._fight_data = self.ai_state._fight_data or {actions=0, attacks=0}

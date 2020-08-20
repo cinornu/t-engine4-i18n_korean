@@ -435,8 +435,8 @@ newEffect{
 		end
 	end,
 	activate = function(self, eff)
-		if self:attr("shield_factor") then eff.power = eff.power * (100 + self:attr("shield_factor")) / 100 end
-		if self:attr("shield_dur") then eff.dur = eff.dur + self:attr("shield_dur") end
+		eff.power = self:getShieldAmount(eff.power)
+		eff.dur = self:getShieldDuration(eff.dur)
 		eff.durid = self:addTemporaryValue("reduce_detrimental_status_effects_time", eff.time_reducer)
 		eff.tmpid = self:addTemporaryValue("time_shield", eff.power)
 		--- Warning there can be only one time shield active at once for an actor
@@ -495,7 +495,7 @@ newEffect{
 	subtype = { miscellaneous=true },
 	status = "detrimental",
 	parameters = { },
-	on_gain = function(self, err) return _t"#LIGHT_RED##Target# is out of sight of its master; direct control will break!.", _t"+Out of sight" end,
+	on_gain = function(self, err) return _t"#LIGHT_RED##Target# is out of sight of its master; direct control will break!", _t"+Out of sight" end,
 	activate = function(self, eff)
 	end,
 	deactivate = function(self, eff)
@@ -522,7 +522,7 @@ newEffect{
 	subtype = { miscellaneous=true },
 	status = "detrimental",
 	parameters = { },
-	on_gain = function(self, err) return _t"#LIGHT_RED##Target# is out of sight of its master; direct control will break!.", _t"+Out of sight" end,
+	on_gain = function(self, err) return _t"#LIGHT_RED##Target# is out of sight of its master; direct control will break!", _t"+Out of sight" end,
 	activate = function(self, eff)
 	end,
 	deactivate = function(self, eff)
@@ -549,7 +549,7 @@ newEffect{
 	subtype = { miscellaneous=true },
 	status = "detrimental",
 	parameters = { },
-	on_gain = function(self, err) return _t"#LIGHT_RED##Target# is out of sight of its master; direct control will break!.", _t"+Out of sight" end,
+	on_gain = function(self, err) return _t"#LIGHT_RED##Target# is out of sight of its master; direct control will break!", _t"+Out of sight" end,
 	activate = function(self, eff)
 	end,
 	deactivate = function(self, eff)
@@ -1553,11 +1553,11 @@ newEffect{
 		(function()
 			local def, level, bonusLevel = self.tempeffect_def[self.EFF_CURSE_OF_NIGHTMARES], eff.level, math.min(eff.unlockLevel, eff.level)
 			if math.min(eff.unlockLevel, eff.level) >= 3 then
-				--if e.status == "detrimental" and not e.subtype["cross tier"] and p.src and p.src._is_actor and not p.src.dead then
+				--if e.status == "detrimental" and not e.subtype["cross tier"] and p.src and p.src.__is_actor and not p.src.dead then
 					--local e = self.tempeffect_def[eff_id]
 				if e.status ~= "detrimental" or e.type == "other" or e.subtype["cross tier"] then return end
 				local harrowDam = def.getHarrowDam(self, level)
-				if p.src and p.src._is_actor then
+				if p.src and p.src.__is_actor then
 					DamageType:get(DamageType.MIND).projector(self, p.src.x, p.src.y, DamageType.MIND, harrowDam)
 					DamageType:get(DamageType.MIND).projector(self, p.src.x, p.src.y, DamageType.DARKNESS, harrowDam)
 					--game.logSeen(self, "#F53CBE#%s harrows '%s'!", self:getName():capitalize(), p.src.name)
@@ -3986,8 +3986,15 @@ newEffect{
 	subtype = { lich = true },
 	status = "neutral",
 	parameters = { },
+	callbackOnSummonKill = function(self, t, minion, who, death_note)
+		if who.rank >= 3.5 then
+			eff.success = true
+			self:removeEffect(self.EFF_LICH_HUNGER)
+			game.bignews:say(120, "#DARK_ORCHID#Lichform regeneration is complete!#{normal}#")
+		end
+	end,
 	callbackOnKill = function(self, eff, who, death_note)
-		if who.rank >= 3.2 then
+		if who.rank >= 3.5 then
 			eff.success = true
 			self:removeEffect(self.EFF_LICH_HUNGER)
 			game.bignews:say(120, "#DARK_ORCHID#Lichform regeneration is complete!#{normal}#")
@@ -4021,7 +4028,7 @@ newEffect{
 	name = "DOZING", image = "talents/sleep.png",
 	desc = _t"Dozing",
 	long_desc = function(self, eff) return _t"The target is completely asleep, unable to act." end,
-	type = "other",
+	type = "otber",
 	subtype = { sleep=true },
 	status = "detrimental",
 	parameters = { },
@@ -4029,5 +4036,59 @@ newEffect{
 		self:effectTemporaryValue(eff, "dont_act", 1)
 	end,
 	deactivate = function(self, eff)
+	end,
+}
+
+newEffect{
+	name = "MIRROR_IMAGE_REAL", image = "talents/mirror_images.png",
+	desc = _t"Protected by a Mirror Image",
+	long_desc = function(self, eff) return ("Target is protected by a mirror image. Increases damage dealt to blind or dazzled creatures by %d%%"):tformat(eff.dam) end,
+	type = "other",
+	subtype = { phantasm=true },
+	status = "beneficial", decrease = 0,
+	cancel_on_level_change = true,
+	parameters = { dam=10 },
+	callbackOnTalentPost = function(self, eff, ab, ret, silent)
+		if ab.id == self.T_MIRROR_IMAGES then return end
+		if not ab.is_spell or ab.is_inscription then return end
+		if ab.mode ~= "activated" then return end
+		if not ret then return end
+		local x, y, tgt = self:getTarget()
+		if not tgt or not ab.requires_target then return end
+		if eff.image:attr("dead") or not game.level:hasEntity(eff.image) then return end
+
+		pcall(function() -- Just in case
+			eff.image:forceUseTalent(ab.id, {force_level=self:getTalentLevelRaw(ab.id), ignore_cd=true, no_talent_fail=true, ignore_energy=true, force_talent_ignore_ressources=true, force_target=tgt})
+			-- eff.image:takeHit(1, eff.image)
+			eff.image:useCharge()
+		end)
+
+		eff.last_talent = true
+	end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "blind_inc_damage", eff.dam)
+	end,
+}
+
+newEffect{
+	name = "MIRROR_IMAGE_FAKE", image = "talents/mirror_images.png",
+	desc = _t"Protected by a Mirror Image",
+	long_desc = function(self, eff) return ("Target is protected by a mirror image. Increases damage dealt to blind or dazzled creatures by %d%%"):tformat(eff.dam) end,
+	type = "other",
+	subtype = { phantasm=true },
+	status = "beneficial", decrease = 0,
+	cancel_on_level_change = true,
+	parameters = { dam=10 },
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "blind_inc_damage", eff.dam)	
+		eff.out_of_combat = 5
+	end,
+	on_timeout = function(self, eff)
+		if not self.in_combat then
+			eff.out_of_combat = eff.out_of_combat - 1
+			if eff.out_of_combat <= 0 then
+				self:die(self)
+			end
+		end
 	end,
 }

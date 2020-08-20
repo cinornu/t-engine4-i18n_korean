@@ -55,8 +55,8 @@ function spawnFortress(self, who) game:onTickEnd(function()
 		display = "@", color=colors.LIGHT_BLUE,
 		image = "player/cornac_female_redhair.png",
 		moddable_tile = "human_female",
-		moddable_tile_base = "base_redhead_01.png",
-		moddable_tile_ornament = {female="braid_redhead_01"},
+		moddable_tile_base = "base_04.png",
+		moddable_tile_hair = "hair_redhead_melinda",
 		desc = _t[[You saved her from the depth of a cultists' lair and fell in love with her. She has moved into the Fortress to see you more often.]],
 		autolevel = "tank",
 		ai = "none",
@@ -102,7 +102,7 @@ function melindaCompanion(self, who, c, sc)
 	birth:setDescriptor("class", c)
 	birth:setDescriptor("subclass", sc)
 	birth.actor = melinda
-	birth:apply()
+	birth:apply(true)
 	melinda.image = "player/cornac_female_redhair.png"
 	melinda.moddable_tile_base = "base_redhead_01.png"
 	melinda.moddable_tile_ornament = {female="braid_redhead_01"}

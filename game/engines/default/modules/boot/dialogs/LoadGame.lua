@@ -122,8 +122,8 @@ function _M:generateList()
 					save.screenshot = { save.screenshot:glTexture() }
 					save.screenshot.w, save.screenshot.h = w, h
 				end
-				table.sort(nodes, function(a, b) return (a.timestamp or 0) > (b.timestamp or 0) end)
 				table.insert(nodes, save)
+				table.sort(nodes, function(a, b) return (a.timestamp or 0) > (b.timestamp or 0) end)
 				found = true
 			end
 		end

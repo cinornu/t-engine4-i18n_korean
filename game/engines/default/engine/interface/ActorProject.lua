@@ -356,7 +356,7 @@ function _M:projectCollect(t, x, y, kind, cond, tgts, particles)
 		else
 			if cond(tgt, px, py) then ok = true end
 		end
-		if ok then tgts[tgt] = {x=px, y=py, dist=core.fov.distance(self.x, self.y, px, py)} end
+		if ok then tgts[tgt] = {x=px, y=py, target=tgt, dist=core.fov.distance(self.x, self.y, px, py)} end
 	end, nil, particles)
 	return tgts
 end

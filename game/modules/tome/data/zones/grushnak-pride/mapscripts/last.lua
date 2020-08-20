@@ -86,7 +86,7 @@ tm:applyOnGroups(bsp.rooms, function(room, idx)
 end, true)
 
 -- Ensure enough size
-if tm:eliminateByFloodfill{'#', '"', 'T'} < 210 then return self:redo() end
+if tm:eliminateByFloodfill{'#', '"', 'T'} < 190 then return self:redo() end
 
 
 -- Start a WFC for the slime pit while we do the rest

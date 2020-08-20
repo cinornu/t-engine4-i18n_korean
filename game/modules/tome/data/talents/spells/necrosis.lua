@@ -21,277 +21,162 @@ newTalent{
 	name = "Blurred Mortality",
 	type = {"spell/necrosis",1},
 	require = spells_req1,
-	mode = "sustained",
+	mode = "passive",
 	points = 5,
-	sustain_mana = 30,
-	cooldown = 30,
-	tactical = { BUFF = 2 },
-	lifeBonus = function(self, t) -- Add fraction of max life
-		return 50 * self:getTalentLevelRaw(t) + self.max_life * self:combatTalentLimit(t, 1, .01, .05)
+	getLifeBonus = function(self, t)
+		return self:combatTalentStatDamage(t, "con", 30, 1000)
 	end,
-	activate = function(self, t)
-		if self.player and not self:attr("no_lichform_quest") and not self:hasQuest("lichform") and not self:attr("undead") then
-			self:grantQuest("lichform")
-			if not game:isCampaign("Maj'Eyal") then self:setQuestStatus("lichform", engine.Quest.DONE) end
-			require("engine.ui.Dialog"):simplePopup(_t"Lichform", _t"You have mastered the lesser arts of overcoming death, but your true goal is before you: the true immortality of Lichform!")
+	getLifeLostFactor = function(self, t)
+		return 0.5
+	end,
+	getResists = function(self, t)
+		return self:combatTalentScale(t, 6, 12)
+	end,
+	callbackOnStatChange = function(self, t, stat, v)
+		if stat == self.STAT_CON then self:updateTalentPassives(t) end
+	end,
+	callbackOnAct = checkLifeThreshold(1, function(self, t)
+		self:updateTalentPassives(t)
+	end),
+	passives = function(self, t, p)
+		if type(self.max_life) ~= "number" then return end -- Prevent running on NPCs being spawned
+		local bonus = t.getLifeBonus(self, t)
+		self:talentTemporaryValue(p, "die_at", -bonus)
+		self:talentTemporaryValue(p, "max_life", -math.ceil(bonus * t.getLifeLostFactor(self, t)))
+		if self.life < 1 then
+			self:talentTemporaryValue(p, "resists", {all=t.getResists(self, t)})
 		end
-
-		local ret = {
-			die_at = self:addTemporaryValue("die_at", -t.lifeBonus(self, t)),
-		} -- Add up to 100% max life
-		return ret
-	end,
-	deactivate = function(self, t, p)
-		self:removeTemporaryValue("die_at", p.die_at)
-		return true
 	end,
 	info = function(self, t)
-		return ([[The line between life and death blurs for you; you can only die when you reach -%d life.]]):
-		tformat(t.lifeBonus(self, t))
+		local bonus = t.getLifeBonus(self, t)
+		return ([[The line between life and death blurs for you.
+		You can only die when you reach -%d life but your maximum life is reduced by %d.
+		When you are below 1 life you gain %d%% to all resistances.
+		The life amount is based on your Constitution attribute.]]):
+		tformat(bonus, math.ceil(bonus * t.getLifeLostFactor(self, t)), t.getResists(self, t))
 	end,
 }
 
 newTalent{
-	name = "Impending Doom",
+	name = "Across the Veil",
 	type = {"spell/necrosis",2},
 	require = spells_req2,
+	mode = "passive",
 	points = 5,
-	mana = 60,
-	cooldown = 25,
-	tactical = { ATTACK = { ARCANE = 3 }, DISABLE = 2 },
-	rnd_boss_restrict = function(self, t, data)
-		return data.level < 15
-	end,
-	range = 7,
-	requires_target = true,
-	getMax = function(self, t) return 200 + self:combatTalentSpellDamage(t, 28, 850) end,
-	getDamage = function(self, t) return self:combatLimit(self:combatTalentSpellDamage(t, 10, 100), 150, 50, 0, 117, 67) end, -- Limit damage factor to < 150%
-	action = function(self, t)
-		local tg = {type="hit", range=self:getTalentRange(t), talent=t}
-		local x, y = self:getTarget(tg)
-		if not x or not y then return nil end
-		self:project(tg, x, y, function(px, py)
-			local target = game.level.map(px, py, Map.ACTOR)
-			if not target then return end
-			local dam = target.life * t.getDamage(self, t) / 100
-			dam = math.min(dam, t.getMax(self, t))
-			target:setEffect(target.EFF_IMPENDING_DOOM, 10, {apply_power=self:combatSpellpower(), dam=dam/10, src=self})
-		end, 1, {type="freeze"})
+	radius = function(self, t) return self:combatTalentLimit(t, 10, 2, 6) end,
+	getCD = function(self, t) return math.ceil(self:combatTalentLimit(t, 12, 2, 8)) end,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 30, 260) end,
+	callbackOnAct = checkLifeThreshold(1, function(self, t)
+		local list = {}
+		for tid, c in pairs(self.talents_cd) do
+			local t = self:getTalentFromId(tid)
+			if t and not t.fixed_cooldown then list[#list+1] = tid end
+		end
+		
+		local cd = t.getCD(self, t)
+		local dam = self:spellCrit(t.getDamage(self, t))
+		game.logSeen(self, "#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", self:getName():capitalize(), string.he_she(self))
+		self:projectApply({type="ball", radius=self:getTalentRadius(t), talent=t, friendlyfire=false}, self.x, self.y, Map.ACTOR, function(target, px, py)
+			local d = DamageType:get(DamageType.FROSTDUSK).projector(self, target.x, target.y, DamageType.FROSTDUSK, dam)
+			if d > 0 and #list > 0 then
+				self:alterTalentCoolingdown(rng.tableRemove(list), -cd)
+			end
+		end, "hostile")
+		game.level.map:particleEmitter(self.x, self.y, self:getTalentRadius(t), "shockwave", {radius=self:getTalentRadius(t), distort_color=colors.simple1(colors.BLACK), allow=core.shader.allow("distort")})
 		return true
-	end,
+	end),
 	info = function(self, t)
-		return ([[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as arcane damage.
+		return ([[As you learn to tiptoe across the veil of death you learn to master the dark forces.
+		Each time you cross the 1 life threshold you automatically unleash a blast of %0.2f frostdusk damage in radius %d.
+		For each creature that takes damage from the blast one of your talent's cooldown is reduced by %d turns.
 		The damage will increase with your Spellpower.]]):
-		tformat(t.getDamage(self, t), t.getMax(self, t))
+		tformat(damDesc(self, DamageType.FROSTDUSK, t.getDamage(self, t)), self:getTalentRadius(t), t.getCD(self, t))
 	end,
 }
 
 newTalent{
-	name = "Undeath Link",
+	name = "Runeskin",
 	type = {"spell/necrosis",3},
 	require = spells_req3,
 	points = 5,
-	random_ego = "attack",
-	mana = 30,
-	cooldown = 18,
-	tactical = { HEAL = 2 },
-	is_heal = true,
-	getHeal = function(self, t) return self:combatLimit(self:combatTalentSpellDamage(t, 10, 70), 100, 20, 0,  66.7, 46.7) end, --Limit to <100%
-	on_pre_use = function(self, t)
-		if game.party and game.party:hasMember(self) then
-			for act, def in pairs(game.party.members) do
-				if act.summoner and act.summoner == self and act.necrotic_minion then
-					return true
-				end
-			end
-		else
-			for uid, act in pairs(game.level.entities) do
-				if act.summoner and act.summoner == self and act.necrotic_minion then
-					return true
-				end
+	mode = "passive",
+	no_npc_use = true, -- They mostly wouldnt use it efficiently
+	getLifeBonus = function(self, t) return self:combatTalentScale(t, 8, 30) end,
+	getCrit = function(self, t) return self:combatTalentScale(t, 1, 3) end,
+	countRunes = function(self, t)
+		local nb = 0
+		for tid, lvl in pairs(self.talents) do
+			local tt = self:getTalentFromId(tid)
+			if tt.is_inscription then
+				if tt.is_nature then nb = -1 break end -- FILTHY NATURE USER! WE ARE DONE WITH YOU!
+				if tt.is_spell then nb = nb + 1 end
 			end
 		end
-		return false
+		return nb
+	end,	
+	callbackOnTalentChange = function(self, t, tid, mode, lvldiff)
+		if self:getTalentFromId(tid).is_inscription then self:updateTalentPassives(t) end
 	end,
-	action = function(self, t)
-		local heal = t.getHeal(self, t)
-		local maxdrain = 0 --Use biggest drain for healing purposes
-		local drain = 0
-		if game.party and game.party:hasMember(self) then
-			for act, def in pairs(game.party.members) do
-				if act.summoner and act.summoner == self and act.necrotic_minion then
-					drain = math.min(act.max_life * heal / 100, act.life-act.die_at)
-					act:takeHit(drain, self)
-					maxdrain = math.max(maxdrain, drain)
-				end
-			end
-		else
-			for uid, act in pairs(game.level.entities) do
-				if act.summoner and act.summoner == self and act.necrotic_minion then
-					drain = math.min(act.max_life * heal / 100, act.life-act.die_at)
-					act:takeHit(drain, self)
-					maxdrain = math.max(maxdrain, drain)
-				end
-			end
-		end
-		self:attr("allow_on_heal", 1)
-		self:heal(maxdrain)
-		local empower = necroEssenceDead(self)
-		if empower then
-			self:setEffect(self.EFF_DAMAGE_SHIELD, 4, {color={0xcb/255, 0xcb/255, 0xcb/255}, power=maxdrain * 0.3})
-			empower()
-		end
-		self:attr("allow_on_heal", -1)
-		if core.shader.active(4) then
-			self:addParticles(Particles.new("shader_shield_temp", 1, {size_factor=1.5, y=-0.3, img="healdark", life=25}, {type="healing", time_factor=6000, beamsCount=15, noup=2.0, beamColor1={0xcb/255, 0xcb/255, 0xcb/255, 1}, beamColor2={0x35/255, 0x35/255, 0x35/255, 1}}))
-			self:addParticles(Particles.new("shader_shield_temp", 1, {size_factor=1.5, y=-0.3, img="healdark", life=25}, {type="healing", time_factor=6000, beamsCount=15, noup=1.0, beamColor1={0xcb/255, 0xcb/255, 0xcb/255, 1}, beamColor2={0x35/255, 0x35/255, 0x35/255, 1}}))
-		end
-		game:playSoundNear(self, "talents/ice")
-		return true
+	passives = function(self, t, p)
+		local nb = t.countRunes(self, t)
+		if nb < 1 then return end
+		self:talentTemporaryValue(p, "die_at", -t.getLifeBonus(self, t) * nb)
+		self:talentTemporaryValue(p, "combat_spellcrit", t.getCrit(self, t) * nb)
 	end,
 	info = function(self, t)
-		local heal = t.getHeal(self, t)
-		return ([[Absorb up to %d%% of the maximum life of each of your necrotic minions (even negative life, possibly destroying them). This will heal you for the greatest amount absorbed.
-		The healing will increase with your Spellpower.]]):
-		tformat(heal)
+		local bonus
+		local nb = t.countRunes(self, t)
+		if nb == -1 then bonus = _t"effects disabled because of an infusion"
+		elseif nb == 0 then bonus = _t"effects disabled because of no rune"
+		elseif nb > 0 then bonus = ("%d runes active"):tformat(nb) end
+
+		return ([[As you continue to attune your body to undeath you reject nature as a whole.
+		As long as you have no natural infusion on your skin, each rune on it increases your minimum negative life by -%d and your spells critical chance by %0.1f%%.
+
+		Currently: %s]]):
+		tformat(t.getLifeBonus(self, t), t.getCrit(self, t), bonus)
 	end,
 }
 
 newTalent{
-	name = "Lichform",
+	name = "Spikes of Decrepitude",
 	type = {"spell/necrosis",4},
-	require = {
-		stat = { mag=function(level) return 40 + (level-1) * 2 end },
-		level = function(level) return 20 + (level-1)  end,
-		special = { desc=_t"'From Death, Life' quest completed and not already undead", fct=function(self, t) return not self:attr("undead") and (self:isQuestStatus("lichform", engine.Quest.DONE) or game.state.birth.ignore_prodigies_special_reqs) end},
-	},
+	require = spells_req4,
 	mode = "sustained",
 	points = 5,
-	sustain_mana = 150,
-	cooldown = 30,
-	no_unlearn_last = true,
-	no_npc_use = true,
-	becomeLich = function(self, t)
-		self.has_used_lichform = true
-		self.descriptor.race = "Undead"
-		self.descriptor.subrace = "Lich"
-		if not self.has_custom_tile then
-			self.moddable_tile = "skeleton"
-			self.moddable_tile_nude = 1
-			self.moddable_tile_base = "base_lich_01.png"
-			self.moddable_tile_ornament = nil
-			self.moddable_tile_hair = nil
-			self.moddable_tile_facial_features = nil
-			self.moddable_tile_tatoo = nil
-			self.moddable_tile_horn = nil
-			self.attachement_spots = "race_skeleton"
+	radius = 10,
+	sustain_mana = 10,
+	sustain_soul = 2,
+	cooldown = 10,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 5, 70) end,
+	getReduce = function(self, t) return self:combatTalentLimit(t, 50, 8, 25) end,
+	callbackOnActBase = function(self, t)
+		local runes = self:callTalent(self.T_RUNESKIN, "countRunes")
+		if runes < 1 then return end
+		local dam = t.getDamage(self, t) -- no crit
+		local reduce = t.getReduce(self, t)
+		local targets = table.keys(self:projectCollect({type="ball", radius=self:getTalentRadius(t), talent=t}, self.x, self.y, Map.ACTOR, "hostile"))
+		while #targets > 0 and runes > 0 do
+			local target = rng.tableRemove(targets)
+			runes = runes - 1
+			DamageType:get(DamageType.FROSTDUSK).projector(self, target.x, target.y, DamageType.FROSTDUSK, dam)
+			game.level.map:particleEmitter(target.x, target.y, 1, "spike_decrepitude", {})
+			if self.life < 1 then
+				target:setEffect(target.EFF_SPIKE_OF_DECREPITUDE, 2, {apply_power=self:combatSpellpower(), power=reduce})
+			end
 		end
-		self.blood_color = colors.GREY
-		self:attr("poison_immune", 1)
-		self:attr("disease_immune", 1)
-		self:attr("stun_immune", 1)
-		self:attr("cut_immune", 1)
-		self:attr("fear_immune", 1)
-		self:attr("no_breath", 1)
-		self:attr("undead", 1)
-		self.resists[DamageType.COLD] = (self.resists[DamageType.COLD] or 0) + 20
-		self.resists[DamageType.DARKNESS] = (self.resists[DamageType.DARKNESS] or 0) + 20
-		self.inscription_forbids = self.inscription_forbids or {}
-		self.inscription_forbids["inscriptions/infusions"] = true
-
-		local level = self:getTalentLevel(t)
-		if level < 2 then
-			self:incIncStat("mag", -3) self:incIncStat("wil", -3)
-			self.resists.all = (self.resists.all or 0) - 10
-		elseif level < 3 then
-			-- nothing
-		elseif level < 4 then
-			self:incIncStat("mag", 3) self:incIncStat("wil", 3)
-			self.life_rating = self.life_rating + 1
-		elseif level < 5 then
-			self:incIncStat("mag", 3) self:incIncStat("wil", 3)
-			self:attr("combat_spellresist", 10) self:attr("combat_mentalresist", 10)
-			self.life_rating = self.life_rating + 2
-			self:learnTalentType("celestial/star-fury", true)
-			self:setTalentTypeMastery("celestial/star-fury", self:getTalentTypeMastery("celestial/star-fury") - 0.3)
-			self.negative_regen = self.negative_regen + 0.2 + 0.1
-		elseif level < 6 then
-			self:incIncStat("mag", 5) self:incIncStat("wil", 5)
-			self:attr("combat_spellresist", 10) self:attr("combat_mentalresist", 10)
-			self.resists_cap.all = (self.resists_cap.all or 0) + 10
-			self.life_rating = self.life_rating + 2
-			self:learnTalentType("celestial/star-fury", true)
-			self:setTalentTypeMastery("celestial/star-fury", self:getTalentTypeMastery("celestial/star-fury") - 0.1)
-			self.negative_regen = self.negative_regen + 0.2 + 0.5
-		elseif level < 7 then
-			self:incIncStat("mag", 6) self:incIncStat("wil", 6) self:incIncStat("cun", 6)
-			self:attr("combat_spellresist", 15) self:attr("combat_mentalresist", 15)
-			self.resists_cap.all = (self.resists_cap.all or 0) + 15
-			self.life_rating = self.life_rating + 3
-			self:learnTalentType("celestial/star-fury", true)
-			self:setTalentTypeMastery("celestial/star-fury", self:getTalentTypeMastery("celestial/star-fury") + 0.1)
-			self.negative_regen = self.negative_regen + 0.2 + 1
-		else -- level 7
-			self:incIncStat("mag", 12) self:incIncStat("wil", 12) self:incIncStat("cun", 12)
-			self:attr("combat_spellresist", 35) self:attr("combat_mentalresist", 35)
-			self.resists_cap.all = (self.resists_cap.all or 0) + 15
-			self.life_rating = self.life_rating + 4
-			self:attr("ignore_direct_crits", 60)
-			self:learnTalentType("celestial/star-fury", true)
-			self:setTalentTypeMastery("celestial/star-fury", self:getTalentTypeMastery("celestial/star-fury") + 0.3)
-			self.negative_regen = self.negative_regen + 0.2 + 1
-		end
-
-		if self:attr("blood_life") then
-			self.blood_life = nil
-			game.log("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.")
-		end
-
-		if not self.has_custom_tile then
-			self:removeAllMOs()
-			self:updateModdableTile()
-			require("engine.ui.Dialog"):yesnoLongPopup(_t"Lichform", _t"#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!\n\n#{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.", 600, function(ret) if ret then
-				require("mod.dialogs.Birther"):showCosmeticCustomizer(self, "Lich Cosmetic Options")
-			end end, _t"Customize Appearance", _t"Use Default", true)
-		else
-			require("engine.ui.Dialog"):simplePopup(_t"Lichform", _t"#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!")
-		end
-
-		game.level.map:particleEmitter(self.x, self.y, 1, "demon_teleport")
-	end,
-	on_pre_use = function(self, t)
-		if self:attr("undead") then return false else return true end
 	end,
 	activate = function(self, t)
-		local ret = {
-			mana = self:addTemporaryValue("mana_regen", -4),
-		}
-		return ret
+		return {}
 	end,
 	deactivate = function(self, t, p)
-		self:removeTemporaryValue("mana_regen", p.mana)
 		return true
 	end,
 	info = function(self, t)
-		return ([[This is your true goal and the purpose of all necromancy - to become a powerful and everliving Lich!
-		If you are killed while this spell is active, the arcane forces you unleash will be able to rebuild your body into the desired Lichform.
-		All liches gain the following intrinsics:
-		- Poison, cut, and fear immunity.
-		- 100%% disease and stun resistance.
-		- 20%% cold and darkness resistance.
-		- No need to breathe.
-		- Infusions do not work.
-		Also:
-		At level 1: -3 to all stats, -10%% to all resistances. Such meagre devotion!
-		At level 2: Nothing.
-		At level 3: +3 Magic and Willpower, +1 life rating (not retroactive).
-		At level 4: +3 Magic and Willpower, +2 life rating (not retroactive), +10 spell and mental saves, Celestial/Star Fury category (0.7) and 0.1 negative energies regeneration.
-		At level 5: +5 Magic and Willpower, +2 life rating (not retroactive), +10 spell and mental saves, all resistance caps raised by 10%%, Celestial/Star Fury category (0.9) and 0.5 negative energy regeneration.
-		At level 6: +6 Magic, Willpower and Cunning, +3 life rating (not retroactive), +15 spell and mental saves, all resistance caps raised by 15%%, Celestial/Star Fury category (1.1) and 1.0 negative energy regeneration.
-		At level 7: #CRIMSON##{bold}#Your power becomes overwhelming!#{normal}##LAST# +12 Magic, Willpower and Cunning, 60%% chance to ignore critical hits, +4 life rating (not retroactive), +35 spell and mental saves, all resistance caps raised by 15%%, Celestial/Star Fury category (1.3) and 1.0 negative energy regeneration.
-		The undead cannot use this talent.
-		While active, it will drain 4 mana per turn.
-		Once you die and turn into a Lich you can not invest any more in this talent.]]):
-		tformat()
+		return ([[Each turn you unleash dark powers through your runeskin.
+		For each rune you have a random foe in sight will be hit by a spike of decrepitude, dealing %0.2f frostdusk damage.
+		A foe can only be hit by one spike per turn.
+		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]]):
+		tformat(damDesc(self, DamageType.FROSTDUSK, t.getDamage(self, t)), t.getReduce(self, t))
 	end,
 }

@@ -61,23 +61,53 @@ newEntity{ base = "BASE_NPC_ORC_RAK_SHOR",
 	},
 	combat_armor = 0, combat_def = 5,
 
-	soul = resolvers.rngavg(5, 10),
+	soul = 10,
 
 	resolvers.talents{
-		[Talents.T_NECROTIC_AURA] = 1,
-		[Talents.T_AURA_MASTERY] = 5,
-		[Talents.T_CREATE_MINIONS]={base=4, every=5, max=7},
-		[Talents.T_RIGOR_MORTIS]={base=3, every=5, max=7},
-		[Talents.T_INVOKE_DARKNESS]={base=5, every=5, max=9},
-		[Talents.T_VAMPIRIC_GIFT]={base=2, every=7, max=7},
+		[Talents.T_HIEMAL_SHIELD]={base=2, every=7, max=7},
+		[Talents.T_DESOLATE_WASTE]={last=25, base=0, every=7, max=7},
+		[Talents.T_BLEAK_GUARD]={last=30, base=0, every=7, max=7},
+		[Talents.T_BLURRED_MORTALITY]={base=3, every=5, max=7},
+		[Talents.T_SOUL_LEECH]={base=2, every=8, max=5},
 		[Talents.T_STAFF_MASTERY]={base=2, every=8, max=5},
 	},
-	resolvers.rngtalent{
-		[Talents.T_CIRCLE_OF_DEATH]={base=3, every=5, max=7},
-		[Talents.T_SURGE_OF_UNDEATH]={base=3, every=5, max=7},
-		[Talents.T_WILL_O__THE_WISP]={base=3, every=5, max=7},
-		[Talents.T_FORGERY_OF_HAZE]={base=3, every=5, max=7},
-		[Talents.T_FROSTDUSK]={base=3, every=5, max=7},
+	resolvers.rngtalentsets{
+		-- Skeleton theme
+		{
+			[Talents.T_CALL_OF_THE_CRYPT]={base=5, every=5, max=9},
+			[Talents.T_ASSEMBLE]={base=3, every=5, max=7},
+			[Talents.T_LORD_OF_SKULLS]={last=25, base=0, every=5, max=7},
+			[Talents.T_NECROTIC_AURA]={base=1, every=5, max=7},
+			[Talents.T_SURGE_OF_UNDEATH]={base=3, every=5, max=7},
+			[Talents.T_RECALL_MINIONS]={base=3, every=5, max=7},
+		},
+		-- Ghoul theme
+		{
+			[Talents.T_CALL_OF_THE_MAUSOLEUM]={base=5, every=5, max=9},
+			[Talents.T_CORPSE_EXPLOSION]={base=3, every=5, max=7},
+			[Talents.T_PUTRESCENT_LIQUEFACTION]={last=25, base=0, every=5, max=7},
+			[Talents.T_NECROTIC_AURA]={base=1, every=5, max=7},
+			[Talents.T_SURGE_OF_UNDEATH]={base=3, every=5, max=7},
+			[Talents.T_SUFFER_FOR_ME]={base=3, every=5, max=7},
+		},
+		-- Darkness theme
+		{
+			[Talents.T_INVOKE_DARKNESS]={base=5, every=5, max=9},
+			[Talents.T_CIRCLE_OF_DEATH]={base=3, every=5, max=7},
+			[Talents.T_ERUPTING_SHADOWS]={last=25, base=0, every=5, max=7},
+			[Talents.T_RIVER_OF_SOULS]={last=40, base=0, every=5, max=7},
+			[Talents.T_DREAD]={base=3, every=5, max=7},
+			[Talents.T_CREPUSCULE]={base=3, every=5, max=7},
+		},
+		-- Cold theme
+		{
+			[Talents.T_CHILL_OF_THE_TOMB]={base=5, every=5, max=9},
+			[Talents.T_BLACK_ICE]={base=3, every=5, max=7},
+			[Talents.T_CORPSELIGHT]={base=3, every=5, max=7},
+			[Talents.T_RIME_WRAITH]={base=3, every=5, max=7},
+			[Talents.T_FRIGID_PLUNGE]={base=3, every=5, max=7},
+			[Talents.T_PERMAFROST]={base=3, every=5, max=7},
+		},
 	},
 	resolvers.sustains_at_birth(),
 }

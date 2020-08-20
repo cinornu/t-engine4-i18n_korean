@@ -44,7 +44,7 @@ newEntity{
 	rarity = 20,
 	charm_power_def = {add=1, max=5, floor=true},
 	resolvers.charm(_t"remove 1 confusion or silence effect and prevent the application of %d detrimental mental effects for 5 turns", 25, function(self, who)
-		who:removeEffectsFilter(function(e) return (e.subtype.confusion or e.subtype.silence) end, 1)
+		who:removeEffectsFilter(who, function(e) return (e.subtype.confusion or e.subtype.silence) end, 1)
 		who:setEffect(who.EFF_CLEAR_MIND, 5, {power=self:getCharmPower(who)})
 		game.logSeen(who, "%s uses %s!", who:getName():capitalize(), self:getName{no_add_name=true, do_color=true})
 		return {id=true, used=true}

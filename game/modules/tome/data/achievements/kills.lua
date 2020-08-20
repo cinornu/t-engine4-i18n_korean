@@ -130,7 +130,7 @@ newAchievement{
 newAchievement{
 	name = "Earth Master", id = "GEOMANCER",
 	show = "name",
-	desc = _t[[Killed Harkor'Zun and unlocked Stone magic.]],
+	desc = _t[[Killed Harkor'Zun.]],
 	mode = "player",
 }
 

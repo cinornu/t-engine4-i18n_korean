@@ -403,8 +403,8 @@ return {
 				game.flyers:add(x, y, 90, 0, -1, ("Round Clear! +%s EXP!"):tformat(expAward), { 2, 57, 185 }, true)
 				game.log("%sWave clear!", col)
 				game.log("%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", col, hgh, clearBonus, col, hgh, scoreBonus, col, hgh, dangerBonus, col, hgh, rankBonus, col)
-				game.log("%sYour experience increases by %s%s%s!", hgh, expAward, col)
-				game.log("%sYou earn %s gold for your victory!", game.level.arena.bonusMultiplier)
+				game.log("%sYour experience increases by %s%d%s!", col, hgh, expAward, col)
+				game.log("%sYou earn %s gold for your victory!", col, game.level.arena.bonusMultiplier)
 				game.player.changed = true
 			end,
 

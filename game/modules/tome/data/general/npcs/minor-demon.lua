@@ -89,6 +89,37 @@ newEntity{ base = "BASE_NPC_DEMON",
 }
 
 newEntity{ base = "BASE_NPC_DEMON",
+	name = "onilug", color=colors.GREY,
+	desc = _t[[A gaunt vaguely humanoid shape featuring unadorned grey leathery skin. Its arms and legs seem somehow too long and it stands tall, projecting an ominous shadow even in darkness.
+Its glowing red eyes shine with both cruelty and a deep frightening intellect.]],
+	resolvers.nice_tile{tall=1},
+	level_range = {10, nil}, exp_worth = 1,
+	rarity = 1,
+	rank = 3,
+	size_category = 3,
+	autolevel = "caster",
+	combat_armor = 0, combat_def = 0,
+	body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, FINGER=2, NECK=1 },
+
+	resolvers.talents{
+		[Talents.T_CURSE_OF_DEFENSELESSNESS]={last=16, base=0, every=7},
+		[Talents.T_CURSE_OF_VULNERABILITY]={base=2, every=6},
+		[Talents.T_SOUL_ROT]={base=3, every=6},
+		[Talents.T_VIMSENSE]={base=1, every=5},
+		[Talents.T_LEECH]={base=4, every=5},
+		[Talents.T_DRAIN]={base=3, every=6},
+		[Talents.T_CHANNEL_STAFF]={base=2, every=5},
+	},
+	resolvers.auto_equip_filters("Corruptor"),
+	resolvers.equip{
+		{type="weapon", subtype="staff", autoreq=true},
+		{type="jewelry", subtype="ring", autoreq=true},
+		{type="jewelry", subtype="ring", autoreq=true},
+		{type="jewelry", subtype="amulet", autoreq=true},
+	},
+}
+
+newEntity{ base = "BASE_NPC_DEMON",
 	name = "quasit", color=colors.LIGHT_GREY,
 	desc = _t"A small, heavily armoured demon, rushing toward you.",
 	level_range = {20, nil}, exp_worth = 1,

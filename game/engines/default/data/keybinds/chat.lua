@@ -32,7 +32,7 @@ defineAction{
 }
 
 defineAction{
-	default = { "sym:_SPACE:false:true:false:false" },
+	default = {  },
 	type = "USERCHAT_SWITCH_CHANNEL",
 	group = "user chat",
 	name = _t"Cycle chat channels",

@@ -40,6 +40,7 @@ return {
 		map = {
 			class = "engine.generator.map.Static",
 			map = "zones/shertul-fortress",
+			fortress_mode = "shertul",
 		},
 		actor = {
 			class = "mod.class.generator.actor.Random",

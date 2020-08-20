@@ -59,7 +59,7 @@ You could ... consume it, should you feel mad enough or you could try to corrupt
 			end
 			-- Make sure a previous amulet didnt bug it out
 			if who:getTalentTypeMastery("wild-gift/harmony") == 0 then who:setTalentTypeMastery("wild-gift/harmony", 1) end
-			game.logPlayer(who, "You are transformed by the heart of the Queen!.")
+			game.logPlayer(who, "You are transformed by the heart of the Queen!")
 			game.logPlayer(who, "#00FF00#You gain an affinity for nature. You can now learn new Harmony talents (press p).")
 
 			who:attr("drake_touched", 1)

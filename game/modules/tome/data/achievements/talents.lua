@@ -27,16 +27,6 @@ newAchievement{
 		return self.nb > 1000000 and profile.mod.allow_build.mage
 	end,
 	track = function(self) return tstring{tostring(math.floor(self.nb or 0))," / 1000000"} end,
-	on_gain = function(_, src, personal)
-		game:setAllowedBuild("mage_pyromancer", true)
-		local p = game.party:findMember{main=true}
-		if p.descriptor.subclass == "Archmage"  then
-			if p:knowTalentType("spell/wildfire") == nil then
-				p:learnTalentType("spell/wildfire", false)
-				p:setTalentTypeMastery("spell/wildfire", 1.3)
-			end
-		end
-	end,
 }
 newAchievement{
 	name = "Cryomancer",
@@ -48,16 +38,6 @@ newAchievement{
 		return self.nb > 1000000 and profile.mod.allow_build.mage
 	end,
 	track = function(self) return tstring{tostring(math.floor(self.nb or 0))," / 1000000"} end,
-	on_gain = function(_, src, personal)
-		game:setAllowedBuild("mage_cryomancer", true)
-		local p = game.party:findMember{main=true}
-		if p.descriptor.subclass == "Archmage"  then
-			if p:knowTalentType("spell/ice") == nil then
-				p:learnTalentType("spell/ice", false)
-				p:setTalentTypeMastery("spell/ice", 1.3)
-			end
-		end
-	end,
 }
 newAchievement{
 	name = "Lichform",

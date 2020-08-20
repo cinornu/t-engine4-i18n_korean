@@ -18,18 +18,16 @@
 -- darkgod@te4.org
 
 require "engine.class"
-local ActorAI = require "mod.class.interface.ActorAI"
 local Faction = require "engine.Faction"
 local Emote = require("engine.Emote")
 local Chat = require "engine.Chat"
 local Particles = require "engine.Particles"
-require "mod.class.Actor"
+local Actor = require "mod.class.Actor"
 
-module(..., package.seeall, class.inherit(mod.class.Actor, mod.class.interface.ActorAI))
+module(..., package.seeall, class.inherit(mod.class.Actor))
 
 function _M:init(t, no_default)
 	mod.class.Actor.init(self, t, no_default)
-	ActorAI.init(self, t)
 
 	-- Grab default image name if none is set
 	if not self.image and self.name ~= "unknown actor" then self.image = "npc/"..tostring(self.type or "unknown").."_"..tostring(self.subtype or "unknown"):lower():gsub("[^a-z0-9]", "_").."_"..(self.name or "unknown"):lower():gsub("[^a-z0-9]", "_")..".png" end
@@ -79,7 +77,7 @@ function _M:act()
 		if self.emote_random and self.x and self.y and game.level.map.seens(self.x, self.y) and rng.range(0, 999) < self.emote_random.chance * 10 then
 			local e = util.getval(rng.table(self.emote_random))
 			if e then
-				local dur = util.bound(#e, 45, 90)
+				local dur = util.bound(#e, 80, 120)
 				self:doEmote(e, dur)
 			end
 		end
@@ -427,7 +425,7 @@ function _M:getTarget(typ)
 	if self:attr("encased_in_ice") then	return self.x, self.y, self end
 	
 	-- get our ai_target according to the targeting parameters (possibly talent-specific)
-	return ActorAI.getTarget(self, typ)
+	return Actor.getTarget(self, typ)
 end
 
 --- Make emotes appear in the log too
@@ -534,5 +532,5 @@ function _M:aiSeeTargetPos(target, add_spread, max_spread)
 	if self.rank > 3 and target.canMove and not target:canMove(self.x, self.y, true) then
 		return util.bound(tx, 0, game.level.map.w - 1), util.bound(ty, 0, game.level.map.h - 1)
 	end
-	return ActorAI.aiSeeTargetPos(self, target, add_spread, max_spread)
+	return Actor.aiSeeTargetPos(self, target, add_spread, max_spread)
 end

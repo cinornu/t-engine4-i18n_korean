@@ -311,8 +311,8 @@ newTalent{
 	end,
 	info = function(self, t)
 		local chance = t.getTransferChange(self, t)
-		local maxabsorb = t.getMaxAbsorb(self, t) * (100 + (self:attr("shield_factor") or 0)) / 100
-		local duration = t.getDuration(self, t)
+		local maxabsorb = self:getShieldAmount(t.getMaxAbsorb(self, t))
+		local duration = self:getShieldDuration(t.getDuration(self, t))
 		return ([[This intricate spell erects a space distortion around the caster that is linked to another distortion, placed around a target.
 		Any time the caster should take damage, there is a %d%% chance that it will instead be warped by the shield and hit the designated target.
 		Once the maximum damage (%d) is absorbed, the time runs out (%d turns), or the target dies, the shield will crumble.

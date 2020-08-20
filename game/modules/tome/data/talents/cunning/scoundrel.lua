@@ -58,7 +58,7 @@ newTalent{
 	require = cuns_req2,
 	mode = "passive",
 	points = 5,
-	getCritPenalty = function(self,t) return self:combatTalentScale(t, 20, 60) end,
+	getCritPenalty = function(self,t) return self:combatTalentLimit(t, 100, 20, 60) end,
 	getDuration = function(self,t) return 4 end,
 	getChance = function(self, t) return self:combatTalentLimit(t, 100, 8, 35) end, -- Limit < 100%
 	callbackOnMeleeAttack = function(self, t, target, hitted, crit, weapon, damtype, mult, dam)
@@ -129,7 +129,7 @@ newTalent{
 		end
 	end,
 	callbackOnTemporaryEffect = function(self, eff, eff_id, e, p)
-		if e.status ~= "detrimental" or e.type ~= "physical" or not (p.src and p.src._is_actor) then return end
+		if e.status ~= "detrimental" or e.type ~= "physical" or not (p.src and p.src.__is_actor) then return end
 		local chance = self:callTalent(self.T_MISDIRECTION, "getChance")
 		if not rng.percent(chance) then return end
 		game.logSeen(self, "#ORANGE#%s redirects the effect '%s'!#LAST#", self:getName():capitalize(), e.desc)

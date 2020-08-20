@@ -89,8 +89,8 @@ local changer = function(id)
 				rat.summoner = who
 				rat.summon_time = 10
 
-				local necroSetupSummon = getfenv(who:getTalentFromId(who.T_CREATE_MINIONS).action).necroSetupSummon
-				necroSetupSummon(who, rat, x, y, nil, true, true)
+				local necroSetupSummon = getfenv(who:getTalentFromId(who.T_CALL_OF_THE_CRYPT).action).necroSetupSummon
+				necroSetupSummon(who, rat, x, y, nil, nil, true)
 				game.logSeen(rat, "From the dust of decay a %s forms!", rat.name:capitalize())
 				game:playSoundNear(who, "talents/spell_generic2")
 			end

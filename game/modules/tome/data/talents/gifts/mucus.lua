@@ -299,7 +299,7 @@ newTalent{
 			game.logPlayer(self, "You can only Oozewalk from one area of mucus to another.")
 			return nil 
 		end
-		self:removeEffectsFilter(t.effectFilter, t.getNb(self, t))
+		self:removeEffectsFilter(self, t.effectFilter, t.getNb(self, t))
 
 		game.level.map:particleEmitter(self.x, self.y, 1, "slime")
 		self:move(x, y, true)

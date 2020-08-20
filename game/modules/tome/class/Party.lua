@@ -404,6 +404,9 @@ function _M:giveOrder(actor, order)
 		game:registerDialog(require("mod.dialogs.orders."..order:capitalize()).new(actor, def))
 	elseif order == "talents" then
 		game:registerDialog(require("mod.dialogs.orders."..order:capitalize()).new(actor, def))
+	elseif order == "dismiss" then
+		game.log("%s is dismissed!", actor:getName():capitalize())
+		actor:die(actor)
 
 	-------------------------------------------
 	-- Escort specifics
@@ -422,6 +425,8 @@ function _M:giveOrder(actor, order)
 
 		local dir = game.level.map:compassDirection(actor.escort_target.x - actor.x, actor.escort_target.y - actor.y)
 		actor:doEmote(("The portal is %s, to the %s."):tformat(dist, dir or "???"), 45)
+	else
+		self:triggerHook{"PartyOrder:execute", order=order, actor=actor}
 	end
 
 	return true

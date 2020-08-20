@@ -55,63 +55,67 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 	local crit_power = state.crit_power
 
 	local add_dam = 0
-	if src:attr("all_damage_convert") and src:attr("all_damage_convert_percent") and src.all_damage_convert ~= type then
-		local ndam = dam * src.all_damage_convert_percent / 100
-		dam = dam - ndam
-		local nt = src.all_damage_convert
-		src.all_damage_convert = nil
-		add_dam = DamageType:get(nt).projector(src, x, y, nt, ndam, state)
-		src.all_damage_convert = nt
-		if dam <= 0 then return add_dam end
-	end
+	if not src.turn_procs or not src.turn_procs.damage_type_fix_type then
+		if src:attr("all_damage_convert") and src:attr("all_damage_convert_percent") and src.all_damage_convert ~= type then
+			local ndam = dam * src.all_damage_convert_percent / 100
+			dam = dam - ndam
+			local nt = src.all_damage_convert
+			-- src.all_damage_convert = nil
+			add_dam = DamageType:get(nt).projector(src, x, y, nt, ndam, state)
+			-- src.all_damage_convert = nt
+			if dam <= 0 then return add_dam end
+		end
 
-	if src:attr("elemental_mastery") then
-		local ndam = dam * src.elemental_mastery
-		local old = src.elemental_mastery
-		src.elemental_mastery = nil
-		dam = 0
-		dam = dam + DamageType:get(DamageType.FIRE).projector(src, x, y, DamageType.FIRE, ndam, state)
-		dam = dam + DamageType:get(DamageType.COLD).projector(src, x, y, DamageType.COLD, ndam, state)
-		dam = dam + DamageType:get(DamageType.LIGHTNING).projector(src, x, y, DamageType.LIGHTNING, ndam, state)
-		dam = dam + DamageType:get(DamageType.ARCANE).projector(src, x, y, DamageType.ARCANE, ndam, state)
-		src.elemental_mastery = old
-		return dam
-	end
+		if src:attr("elemental_mastery") then
+			local ndam = dam * src.elemental_mastery
+			local old = src.elemental_mastery
+			src.elemental_mastery = nil
+			dam = 0
+			dam = dam + DamageType:get(DamageType.FIRE).projector(src, x, y, DamageType.FIRE, ndam, state)
+			dam = dam + DamageType:get(DamageType.COLD).projector(src, x, y, DamageType.COLD, ndam, state)
+			dam = dam + DamageType:get(DamageType.LIGHTNING).projector(src, x, y, DamageType.LIGHTNING, ndam, state)
+			dam = dam + DamageType:get(DamageType.ARCANE).projector(src, x, y, DamageType.ARCANE, ndam, state)
+			src.elemental_mastery = old
+			return dam
+		end
 
-	if src:attr("twilight_mastery") then
-		local ndam = dam * src.twilight_mastery
-		local old = src.twilight_mastery
-		src.twilight_mastery = nil
-		dam = 0
-		dam = dam + DamageType:get(DamageType.LIGHT).projector(src, x, y, DamageType.LIGHT, ndam, state)
-		dam = dam + DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, ndam, state)
-		src.twilight_mastery = old
-		return dam
-	end
+		if src:attr("twilight_mastery") then
+			local ndam = dam * src.twilight_mastery
+			local old = src.twilight_mastery
+			src.twilight_mastery = nil
+			dam = 0
+			dam = dam + DamageType:get(DamageType.LIGHT).projector(src, x, y, DamageType.LIGHT, ndam, state)
+			dam = dam + DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, ndam, state)
+			src.twilight_mastery = old
+			return dam
+		end
 
-	if src:attr("darkest_light_mastery") and type == "LIGHT" then
-		local ndam = dam * src.darkest_light_mastery
-		dam = dam - ndam
-		local old = src.darkest_light_mastery
-		src.darkest_light_mastery = nil
-		add_dam = DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, ndam, state)
-		src.darkest_light_mastery = old
-		if dam <= 0 then return add_dam end
-	end
+		if src:attr("darkest_light_mastery") and type == "LIGHT" then
+			local ndam = dam * src.darkest_light_mastery
+			dam = dam - ndam
+			local old = src.darkest_light_mastery
+			src.darkest_light_mastery = nil
+			add_dam = DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, ndam, state)
+			src.darkest_light_mastery = old
+			if dam <= 0 then return add_dam end
+		end
 
-	if src:attr("darklight") then
-		local add_dam = 0
-		local ndam = dam * src.darklight / 2
-		dam = dam - ndam * 2
-		local old = src.darklight
-		src.darklight = nil
-		add_dam = DamageType:get(DamageType.LIGHT).projector(src, x, y, DamageType.LIGHT, ndam, state)
-		+ DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, ndam, state)
-		src.darklight = old
-		if dam <= 0 then return add_dam end
+		if src:attr("darklight") then
+			local add_dam = 0
+			local ndam = dam * src.darklight / 2
+			dam = dam - ndam * 2
+			local old = src.darklight
+			src.darklight = nil
+			add_dam = DamageType:get(DamageType.LIGHT).projector(src, x, y, DamageType.LIGHT, ndam, state)
+			+ DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, ndam, state)
+			src.darklight = old
+			if dam <= 0 then return add_dam end
+		end
 	end
 
 	local source_talent = src.__projecting_for and src.__projecting_for.project_type and (src.__projecting_for.project_type.talent_id or src.__projecting_for.project_type.talent) and src.getTalentFromId and src:getTalentFromId(src.__projecting_for.project_type.talent or src.__projecting_for.project_type.talent_id)
+	local source_talent_mode = src.__projecting_for and src.__projecting_for.project_type and src.__projecting_for.project_type.talent_mode
+	if not source_talent_mode and src.getCurrentTalentMode then source_talent_mode = src:getCurrentTalentMode() end
 
 	local terrain = game.level.map(x, y, Map.TERRAIN)
 	if terrain then terrain:check("damage_project", src, x, y, type, dam, source_talent) end
@@ -481,13 +485,13 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 		end
 
 		--Dark Empathy (Reduce damage against summoner)
-		if src.necrotic_minion_be_nice and src.summoner == target then
-			dam = dam * (1 - src.necrotic_minion_be_nice)
+		if src.minion_be_nice and src.summoner == target then
+			dam = dam * (1 - src.minion_be_nice)
 		end
 
 		--Dark Empathy (Reduce damage against other minions)
-		if src.necrotic_minion_be_nice and target.summoner and src.summoner == target.summoner then
-			dam = dam * (1 - src.necrotic_minion_be_nice)
+		if src.minion_be_nice and target.summoner and src.summoner == target.summoner then
+			dam = dam * (1 - src.minion_be_nice)
 		end
 
 		-- Curse of Misfortune: Unfortunate End (chance to increase damage enough to kill)
@@ -517,7 +521,7 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 
 		print("[PROJECTOR] final dam after static checks", dam)
 
-		local hd = {"DamageProjector:final", src=src, target=target, x=x, y=y, type=type, dam=dam, state=state, source_talent=source_talent}
+		local hd = {"DamageProjector:final", src=src, target=target, x=x, y=y, type=type, dam=dam, state=state, source_talent=source_talent, source_talent_mode=source_talent_mode}
 		if src:triggerHook(hd) then dam = hd.dam if hd.stopped then return hd.stopped end end
 		if target.iterCallbacks then
 			for cb in target:iterCallbacks("callbackOnTakeDamage") do
@@ -537,7 +541,7 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 		print("[PROJECTOR] final dam after hooks and callbacks", dam)
 
 		local dead
-		dead, dam = target:takeHit(dam, src, {damtype=type, damstate=state, source_talent=source_talent, initial_dam=initial_dam})
+		dead, dam = target:takeHit(dam, src, {damtype=type, damstate=state, source_talent=source_talent, source_talent_mode=source_talent_mode, initial_dam=initial_dam})
 
 		-- Log damage for later
 		if not DamageType:get(type).hideMessage then
@@ -672,7 +676,7 @@ setDefaultProjector(function(src, x, y, type, dam, state)
 						target:triggerTalent(target.T_NATURE_S_DEFIANCE, nil, src, t)
 					end
 				end
-				if t.is_spell and src.knowTalent and src:knowTalent(src.T_BORN_INTO_MAGIC) then
+				if t.is_spell and src.knowTalent and src:knowTalent(src.T_BORN_INTO_MAGIC) and type ~= DamageType.THAUM then
 					src:triggerTalent(target.T_BORN_INTO_MAGIC, nil, type)
 				end
 
@@ -1819,7 +1823,7 @@ newDamageType{
 			end
 			if #effs > 0 then
 				local eff = rng.tableRemove(effs)
-				target:removeEffect(eff[2])
+				target:dispel(eff[2], src)
 			end
 		end
 		return realdam
@@ -2615,7 +2619,7 @@ newDamageType{
 					end
 					if #effs > 0 then
 						local eff = rng.tableRemove(effs)
-						target:removeEffect(eff[2])
+						target:dispel(eff[2], src)
 					end
 				end
 			end
@@ -4262,17 +4266,20 @@ newDamageType{
 -- Light + Darkness
 newDamageType{
 	name = _t"dark light", type = "DARKLIGHT", text_color = "#9D9DC9#",
+	damdesc_split = { {DamageType.DARKNESS, 0.5}, {DamageType.LIGHT, 0.5} },
 	projector = function(src, x, y, type, dam, state)
 		state = initState(state)
 		useImplicitCrit(src, state)
-		DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, dam / 2, state)
-		DamageType:get(DamageType.LIGHT).projector(src, x, y, DamageType.LIGHT, dam / 2, state)
+		local realdam1 = DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, dam / 2, state)
+		local realdam2 = DamageType:get(DamageType.LIGHT).projector(src, x, y, DamageType.LIGHT, dam / 2, state)
+		return (realdam1 or 0) + (realdam2 or 0)
 	end,
 }
 
 -- Fire + Physical
 newDamageType{
-	name = "meteor", type = "METEOR", text_color = "#CRIMSON#",
+	name = _t"meteor", type = "METEOR", text_color = "#CRIMSON#",
+	damdesc_split = { {DamageType.PHYSICAL, 0.5}, {DamageType.FIRE, 0.5} },
 	projector = function(src, x, y, type, dam, state)
 		state = initState(state)
 		useImplicitCrit(src, state)
@@ -4283,14 +4290,126 @@ newDamageType{
 	end,
 }
 
--- Cold/Darkness damage
 newDamageType{
-	name = "frostdusk", type = "FROSTDUSK", text_color = "#BLUE#",
-	damdesc_split = { {DamageType.TEMPORAL, 0.5}, {DamageType.DARKNESS, 0.5} },
+	name = _t"fetid", type = "FETID", text_color = "#DARK_GREEN#",
+	damdesc_split = { {DamageType.BLIGHT, 0.5}, {DamageType.DARKNESS, 0.5} },
 	projector = function(src, x, y, type, dam, state)
 		state = initState(state)
 		useImplicitCrit(src, state)
-		DamageType:get(DamageType.TEMPORAL).projector(src, x, y, DamageType.COLD, dam / 2, state)
-		DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, dam / 2, state)
+		local realdam1 = DamageType:get(DamageType.BLIGHT).projector(src, x, y, DamageType.BLIGHT, dam / 2, state)
+		local realdam2 = DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, dam / 2, state)
+		return (realdam1 or 0) + (realdam2 or 0)
+	end,
+}
+
+-- Cold/Darkness damage
+newDamageType{
+	name = _t"frostdusk", type = "FROSTDUSK", text_color = "#DARK_BLUE#",
+	damdesc_split = { {DamageType.COLD, 0.5}, {DamageType.DARKNESS, 0.5} },
+	projector = function(src, x, y, type, dam, state)
+		state = initState(state)
+		useImplicitCrit(src, state)
+		local realdam1 = DamageType:get(DamageType.COLD).projector(src, x, y, DamageType.COLD, dam / 2, state)
+		local realdam2 = DamageType:get(DamageType.DARKNESS).projector(src, x, y, DamageType.DARKNESS, dam / 2, state)
+		return (realdam1 or 0) + (realdam2 or 0)
+	end,
+}
+
+newDamageType{
+	name = _t"chill of the tomb", type = "CHILL_OF_THE_TOMB", text_color = "#DARK_BLUE#",
+	projector = function(src, x, y, type, dam, state)
+		state = initState(state)
+		useImplicitCrit(src, state)
+		local target = game.level.map(x, y, Map.ACTOR)
+		if not target then return end
+		local realdam = 0
+		if src:reactionToward(target) < 0 then
+			realdam = DamageType:get(DamageType.COLD).projector(src, x, y, DamageType.COLD, dam.dam, state)
+		elseif target.summoner == src and target.necrotic_minion then
+			target:setEffect(target.EFF_CHILL_OF_THE_TOMB, 4, {power=dam.resist})
+		end
+		return realdam
+	end,
+}
+
+newDamageType{
+	name = _t"putrescent liquefaction", type = "PUTRESCENT_LIQUEFACTION", text_color = "#OLIVE_DRAB#",
+	projector = function(src, x, y, type, dam, state)
+		state = initState(state)
+		useImplicitCrit(src, state)
+		local realdam = DamageType:get(DamageType.FROSTDUSK).projector(src, x, y, DamageType.FROSTDUSK, dam, state)
+		return realdam or 0
+	end,
+}
+
+newDamageType{
+	name = _t"boneyard", type = "BONEYARD", text_color = "#GREY#",
+	projector = function(src, x, y, type, dam, state)
+		state = initState(state)
+		useImplicitCrit(src, state)
+		local target = game.level.map(x, y, Map.ACTOR)
+		if not target then return end
+
+		if src:reactionToward(target) < 0 then
+			target:setEffect(target.EFF_BRITTLE_BONES, 1, {apply_power=src:combatSpellpower(), resist=dam.resist, cooldown=dam.cooldown})
+		elseif target.summoner == src and target.necrotic_minion then
+			target:setEffect(target.EFF_BONEYARD, 1, {power=dam.power})
+		end
+	end,
+}
+
+newDamageType{
+	name = _t"desolate waste", type = "DESOLATE_WASTE", text_color = "#BLUE#",
+	projector = function(src, x, y, type, dam, state)
+		state = initState(state)
+		useImplicitCrit(src, state)
+		local target = game.level.map(x, y, Map.ACTOR)
+		if target and (target.old_x ~= x or target.old_y ~= y) and src:knowTalent(src.T_CRUMBLING_EARTH) and src:reactionToward(target) < 0 then
+			src:callTalent(src.T_CRUMBLING_EARTH, "trigger", target)
+		end
+		return DamageType:get(DamageType.COLD).projector(src, x, y, DamageType.COLD, dam, state)
+	end,
+}
+
+newDamageType{
+	name = _t"desolate waste", type = "HIEMAL_SHIELD", text_color = "#BLUE#",
+	projector = function(src, x, y, type, dam, state)
+		state = initState(state)
+		useImplicitCrit(src, state)
+		local target = game.level.map(x, y, Map.ACTOR)
+		local dam = DamageType:get(DamageType.COLD).projector(src, x, y, DamageType.COLD, dam, state)
+		if dam > 0 and target then
+			local waste = game.level.map:hasEffectType(x, y, DamageType.DESOLATE_WASTE)
+			if waste then
+				src:callTalent(src.T_DESOLATE_WASTE, "trigger")
+			end			
+		end
+	end,
+}
+
+-- Unresistible damage, always uses highest resistance penetration, highest damage increase and can never be altered into something else
+-- NEVER add items that resist that! Use sparingly!
+newDamageType{
+	name = _t"thaumic energy", type = "THAUM", text_color = "#C259D0#",
+	death_message = {_t"utterly vaporized", _t"annihilated", _t"disintegrated"},
+	projector = function(src, x, y, type, dam, state)
+		state = initState(state)
+		useImplicitCrit(src, state)
+		if src.combatGetResistPen then
+			if not src.auto_highest_resists_pen then src.auto_highest_resists_pen = {} end
+			if not src.auto_highest_resists_pen[DamageType.THAUM] then src.auto_highest_resists_pen[DamageType.THAUM] = 1 end
+		end
+		if src.combatGetDamageIncrease then
+			if not src.auto_highest_inc_damage then src.auto_highest_inc_damage = {} end
+			if not src.auto_highest_inc_damage[DamageType.THAUM] then src.auto_highest_inc_damage[DamageType.THAUM] = 1 end
+		end
+
+		local target = game.level.map(x, y, Map.ACTOR)
+		if target and target:hasEffect(target.EFF_WET) and src.hasEffect and src:hasEffect(src.EFF_SHIVGOROTH_FORM) then dam = dam * 1.3 end
+
+		if src.turn_procs then src.turn_procs.damage_type_fix_type = true end
+		local realdam = DamageType.defaultProjector(src, x, y, type, dam, state)
+		if src.turn_procs then src.turn_procs.damage_type_fix_type = nil end
+		return realdam
 	end,
 }

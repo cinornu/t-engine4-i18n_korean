@@ -641,6 +641,51 @@ Love, #{italic}#Eden#{normal}#]]
 }
 
 newLore{
+	id = "bandit-vault-guard",
+	category = "vault",
+	name = _t"Guard's Journal",
+	lore = _t[[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
+
+Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]]
+}
+
+newLore{
+	id = "bandit-vault-boss",
+	category = "vault",
+	name = _t"Boss's Journal",
+	lore = _t[[The best haul we ever got, gone. We could have been set for life, the most legendary outlaws in all the lands! Villages would tremble at the thought of us roaming the woods.
+
+Only a matter of time until that nobleman catches wind and comes after us. We were about to get more gold than we could count for his lassie back, and that dirt farmer set her on fire. Of all the skullbrained things to do for fun!
+
+Ordered my men to kill any who pass by and been running triple guard. We need all the time we can get before they come for us, can't let any word out. Once we find somewhere new, I'll leave that idiot burnt on a stake as tribute and hope we don't catch chase. 
+
+I'm going to enjoy hearing his screams, a log on the pyre a gold he cost us. Nice and slow, need to make sure he doesn't die easy.]]
+}
+
+newLore{
+	id = "renegade-pyromancers-vault",
+	category = "vault",
+	name = _t"How to Summon a Phoenix",
+	lore = _t[[#{bold}#How to Summon a Phoenix#{normal}#
+	  10 pouches faeros ash
+	  5 vials fire wyrm saliva
+	  3 red crystal shards
+	  3 pouches bone giant dust
+	  1 vial greater demon bile
+	  1 skeleton mage skull
+	  pinch of luminous horror dust
+
+This is a long and complex ceremony, and all steps must be followed precisely if you wish to succeed. Heed well that for the errant fool who takes on what they cannot finish, there will be consequences. To play with fire and assert your dominance over the flames comes with risks if you overestimate your power. 
+	
+The ritual begins with a vessel; any man will do. Bind them in place with flame secure bindings, and give a sound gag. The gag isn't strictly necessary, but the screams of agony tend to be quite distracting and inspirit mistakes after a few days.
+
+Take 2 vials fire wyrm saliva and dissolve 2 pouches faeros ash in each. Be sure to dissolve completely. A few fireballs at the vial can do the trick if they're stubborn. Using one of the prepared vials, begin to etch the saliva in the skin of the vessel, heating it so that it brands the shape of --- 
+
+#{italic}#The remainder of the scroll has been singed into a pile of char, illegible and scattering into a cloud of ash as you grasp it#{normal}#
+	]]
+}
+
+newLore{
 	id = "nature-vs-magic",
 	category = "magic",
 	name = _t"Nature vs Magic",

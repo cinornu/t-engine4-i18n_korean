@@ -1,5 +1,5 @@
 -- ToME - Tales of Maj'Eyal
--- Copyright (C) 2009 - 2019 Nicolas Casalini
+-- Copyright (C) 2009 - 2020 Nicolas Casalini
 --
 -- This program is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -17,254 +17,169 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
-local Object = require "mod.class.Object"
-
 newTalent{
-	name = "Consume Soul",
+	name = "Soul Leech",
 	type = {"spell/animus",1},
 	require = spells_req1,
 	points = 5,
+	mode = "passive",
+	autolearn_talent = "T_SOUL_POOL",
+	getTurns = function(self, t) return self:combatTalentLimit(t, 1, 10, 3) end,
+	getTurnsByRank = function(self, t, target)
+		local base = t.getTurns(self, t)
+		if target.innate_player then return math.ceil(base), true -- Player is like a boss for NPCs
+		elseif target.rank == 3.2 then return math.ceil(base * 3), true
+		elseif target.rank == 3.5 then return math.ceil(base * 2.2), true
+		elseif target.rank == 4 then return math.ceil(base * 1.3), true
+		elseif target.rank == 5 then return math.ceil(base), true
+		elseif target.rank >= 10 then return math.ceil(base / 2), true
+		else return 20, false
+		end
+	end,
+	callbackOnDealDamage = function(self, t, val, target, dead, death_note)
+		if target.necrotic_minion then return end
+		if dead then
+			t:_gainSoul(self, target, "death")
+		else
+			if target:hasEffect(target.EFF_SOUL_LEECH) or target == self or target == self.summoner then return end -- Dont reset, we want it to exprei to leech
+			local turns, powerful = t.getTurnsByRank(self, t, target)
+			target:setEffect(target.EFF_SOUL_LEECH, turns, {src=self, powerful=powerful})
+		end
+	end,
+	gainSoul = function(self, t, src, mode)
+		if mode == "death" then
+			if src.turn_procs.soul_leeched_death then return end
+			src.turn_procs.soul_leeched_death = true
+		end
+		local summoner = self:resolveSource()
+		summoner:incSoul(1)
+		summoner:triggerHook{"Necromancer:SoulLeech:GainSoul", src=src}
+	end,
+	info = function(self, t)
+		local _, c_rare = self:textRank(3.2)
+		local _, c_unique = self:textRank(3.5)
+		local _, c_boss = self:textRank(4)
+		local _, c_eboss = self:textRank(5)
+
+		return ([[Each time you or your undead minions deal damage to a creature you apply Soul Leech to them.
+		If a creature dies with this effect active, you steal its soul.
+		Strong creatures and bosses are so overflowing with soul power that you steal a fragment of their soul every few turns:
+		%s- rare: at most every %d turns
+		%s- unique: at most every %d turns
+		%s- boss: at most every %d turns
+		%s- elite boss: at most every %d turns
+		]]):tformat(c_rare, t.getTurnsByRank(self, t, {rank=3.2}), c_unique, t.getTurnsByRank(self, t, {rank=3.5}), c_boss, t.getTurnsByRank(self, t, {rank=4}), c_eboss, t.getTurnsByRank(self, t, {rank=5}))
+	end,
+}
+
+newTalent{
+	name = "Consume Soul",
+	type = {"spell/animus", 2},
+	require = spells_req2,
+	points = 5,
 	soul = 1,
-	cooldown = 10,
-	tactical = { HEAL = 1, MANA = 1 },
-	getHeal = function(self, t) return (40 + self:combatTalentSpellDamage(t, 10, 520)) * (necroEssenceDead(self, true) and 1.5 or 1) end,
-	is_heal = true,
-	action = function(self, t)
+	cooldown = 15,
+	getHeal = function(self, t) return 20 + self:combatTalentSpellDamage(t, 40, 450) end,
+	getMana = function(self, t) return 10 + self:combatTalentSpellDamage(t, 40, 180) end,
+	getSpellpower = function(self, t) return self:combatTalentScale(t, 15, 50) end,
+	tactical = { MANA=1, HEAL=2, BUFF=function(self) return self.life < 1 and 2 or 0 end},
+	action = function(self, t, p)
+		if self.life < 1 then
+			self:setEffect(self.EFF_CONSUME_SOUL, 10, {power=t.getSpellpower(self, t)})
+		end
 		self:attr("allow_on_heal", 1)
 		self:heal(self:spellCrit(t.getHeal(self, t)), self)
 		self:attr("allow_on_heal", -1)
-		self:incMana(self:spellCrit(t.getHeal(self, t)) / 3, self)
-		if core.shader.active(4) then
-			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=true , size_factor=1.5, y=-0.3, img="healdark", life=25}, {type="healing", time_factor=6000, beamsCount=15, noup=2.0, beamColor1={0xcb/255, 0xcb/255, 0xcb/255, 1}, beamColor2={0x35/255, 0x35/255, 0x35/255, 1}}))
-			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=false, size_factor=1.5, y=-0.3, img="healdark", life=25}, {type="healing", time_factor=6000, beamsCount=15, noup=1.0, beamColor1={0xcb/255, 0xcb/255, 0xcb/255, 1}, beamColor2={0x35/255, 0x35/255, 0x35/255, 1}}))
-		end
-		game:playSoundNear(self, "talents/heal")
-		if necroEssenceDead(self, true) then necroEssenceDead(self)() end
+		self:incMana(t.getMana(self, t))
 		return true
-	end,
+	end,	
 	info = function(self, t)
-		local heal = t.getHeal(self, t)
-		return ([[Crush and consume one of your captured souls, healing you for %d life and restoring %d mana.
-		The life and mana healed will increase with your Spellpower.]]):
-		tformat(heal, heal / 3)
+		return ([[Consume a soul whole to rebuild your body, healing you for %d and generating %d mana.
+		If used below 1 life the surge increases your spellpower by %d for 10 turns.
+		The heal and mana increases with your Spellpower.]]):
+		tformat(t.getHeal(self, t), t.getMana(self, t), t.getSpellpower(self, t))
 	end,
 }
 
 newTalent{
-	name = "Animus Hoarder",
-	type = {"spell/animus",2},
-	require = spells_req2,
-	mode = "passive",
-	points = 5,
-	getMax = function(self, t) return math.floor(self:combatTalentScale(t, 2, 8)) end,
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 20, 80) end,
-	passives = function(self, t, p)
-		self:talentTemporaryValue(p, "extra_soul_chance", t.getChance(self, t))
-		self:talentTemporaryValue(p, "max_soul", t.getMax(self, t))
-	end,
-	info = function(self, t)
-		local max, chance = t.getMax(self, t), t.getChance(self, t)
-		return ([[Your hunger for souls grows ever more. When you kill a creature you rip away its animus with great force, granting you a %d%% chance to gain one additional soul.
-		In addition you are able to store %d more souls.]]):
-		tformat(chance, max)
-	end,
-}
-
-newTalent{
-	name = "Animus Purge",
-	type = {"spell/animus",3},
+	name = "Torture Souls",
+	type = {"spell/animus", 3},
 	require = spells_req3,
 	points = 5,
-	mana = 45,
-	soul = 2,
-	cooldown = 15,
-	range = 6,
-	proj_speed = 20,
-	requires_target = true,
-	no_npc_use = true,
-	direct_hit = function(self, t) if self:getTalentLevel(t) >= 3 then return true else return false end end,
-	target = function(self, t)
-		local tg = {type="hit", range=self:getTalentRange(t), talent=t}
-		return tg
-	end,
-	getMaxLife = function(self, t) return self:combatTalentLimit(t, 50, 10, 25) end,
-	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 35, 330) end,
+	mana = 25,
+	cooldown = 18,
+	tactical = { ATTACKAREA = { COLD=1, DARK=1 }, SOUL=2 },
+	radius = 10,
+	range = 0,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 30, 300) end,
+	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
+	target = function(self, t) return {type="ball", radius=self:getTalentRadius(t), talent=t} end,
 	action = function(self, t)
-		local tg = self:getTalentTarget(t)
-		local x, y = self:getTarget(tg)
-		if not x or not y then return nil end
-		self:project(tg, x, y, function(px, py)
-			local m = game.level.map(px, py, Map.ACTOR)
-			if not m or not m.max_life or not m.life or m.on_die then return end
-
-			if game.party and game.party:hasMember(self) then
-				for act, def in pairs(game.party.members) do
-					if act.summoner and act.summoner == self then
-						if act.type == "undead" and act.subtype == "husk" then
-							game.party:removeMember(act)
-							act:disappear(act)							
-						end
-					end
-				end
+		local dam = self:spellCrit(t.getDamage(self, t))
+		local nb = 0
+		self:projectApply(self:getTalentTarget(t), self.x, self.y, Map.ACTOR, function(target)
+			if not target:hasEffect(target.EFF_SOUL_LEECH) then return end
+			if DamageType:get(DamageType.FROSTDUSK).projector(self, target.x, target.y, DamageType.FROSTDUSK, dam) > 0 then
+				nb = nb + 1
 			end
-
-			local dam = self:spellCrit(t.getDamage(self, t))
-			local olddie = rawget(m, "die")
-			m.die = function() end
-			local oldclone = m.clone_on_hit
-			m.clone_on_hit = nil
-			DamageType:get(DamageType.DARKNESS).projector(self, px, py, DamageType.DARKNESS, dam)
-			m.clone_on_hit = oldclone
-			m.die = olddie
-			game.level.map:particleEmitter(px, py, 1, "dark")
-			if 100 * m.life / m.max_life <= t.getMaxLife(self, t) and self:checkHit(self:combatSpellpower(), m:combatSpellResist()) and m:canBe("instakill") and m.rank <= 3.2 and not m:attr("undead") and not m.summoner and not m.summon_time then
-				m.type = "undead"
-				m.subtype = "husk"
-				m:attr("no_life_regen", 1)
-				m:attr("no_healing", 1)
-				m.ai_state.tactic_leash = 100
-				m.remove_from_party_on_death = true
-				m.no_inventory_access = true
-				m.no_party_reward = true
-				m.life = m.max_life
-				m.move_others = true
-				m.summoner = self
-				m.summoner_gain_exp = true
-				m.unused_stats = 0
-				m.dead = nil
-				m.undead = 1
-				m.no_breath = 1
-				m.unused_talents = 0
-				m.unused_generics = 0
-				m.unused_prodigies = 0
-				m.unused_talents_types = 0
-				m.silent_levelup = true
-				m.clone_on_hit = nil
-				if m:knowTalent(m.T_BONE_SHIELD) then m:unlearnTalent(m.T_BONE_SHIELD, m:getTalentLevelRaw(m.T_BONE_SHIELD)) end
-				if m:knowTalent(m.T_MULTIPLY) then m:unlearnTalent(m.T_MULTIPLY, m:getTalentLevelRaw(m.T_MULTIPLY)) end
-				if m:knowTalent(m.T_SUMMON) then m:unlearnTalent(m.T_SUMMON, m:getTalentLevelRaw(m.T_SUMMON)) end
-				m:learnTalent(m.T_HUSK_DESTRUCT, 1)
-				m.no_points_on_levelup = true
-				m.faction = self.faction
-
-				m.on_act = function(self)
-					if game.player ~= self then return end
-					if not self.summoner.dead and not self:hasLOS(self.summoner.x, self.summoner.y) then
-						if not self:hasEffect(self.EFF_HUSK_OFS) then
-							self:setEffect(self.EFF_HUSK_OFS, 3, {})
-						end
-					else
-						if self:hasEffect(self.EFF_HUSK_OFS) then
-							self:removeEffect(self.EFF_HUSK_OFS)
-						end
-					end
-				end
-
-				m.on_can_control = function(self, vocal)
-					if not self:hasLOS(self.summoner.x, self.summoner.y) then
-						if vocal then game.logPlayer(game.player, "Your husk is out of sight; you cannot establish direct control.") end
-						return false
-					end
-					return true
-				end
-
-				m:removeEffectsFilter({status="detrimental"}, nil, true)
-				game.level.map:particleEmitter(px, py, 1, "demon_teleport")
-
-				applyDarkEmpathy(self, m)
-
-				game.party:addMember(m, {
-					control="full",
-					type="husk",
-					title=_t"Lifeless Husk",
-					orders = {leash=true, follow=true},
-					on_control = function(self)
-						self:hotkeyAutoTalents()
-					end,
-				})
-				game:onTickEnd(function() self:incSoul(2) end)
-
-				self:logCombat(m, "#GREY##Source# rips apart the animus of #target# and creates an undead husk.")
-			end
-		end)
-
-		game:playSoundNear(self, "talents/spell_generic")
+			game.level.map:particleEmitter(target.x, target.y, 1, "circle", {oversize=1.7, a=170, base_rot=0, limit_life=12, shader=true, appear=12, speed=0, img="torture_souls_aura", radius=0})
+		end, "hostile")
+		self:incSoul(math.min(nb, t.getNb(self, t)))
 		return true
 	end,
 	info = function(self, t)
-		local damage = t.getDamage(self, t)
-		return ([[Try to crush the soul of your foe, doing %0.2f darkness damage (that can never kill the target).
-		If the target is left with less than %d%% life you try to take control of its body.
-		Should this succeed the target becomes your permanent minion (unaffected by your aura) and you regain 2 souls.
-		Husks prossess the same abilities as they had in life (affected by Dark Empathy), are healed to full when created but can never heal or be healed by any means.
-		Only one husk can be controlled at any time, if this spell is cast again it will dispell the previous husk, even if no new one is created.
-		Bosses, other undeads and summoned creatures can not be turned into husks.
-		The damage and chance will increase with your Spellpower.]]):
-		tformat(damDesc(self, DamageType.DARKNESS, damage), t.getMaxLife(self, t))
+		return ([[Unleash dark forces to all foes in sight that are afflicted by Soul Leech, dealing %0.2f frostdusk damage to them and tearing apart their souls.
+		This returns up to %d souls to you (based on number of foes hit).
+		The damage increases with your Spellpower.]]):
+		tformat(damDesc(self, DamageType.FROSTDUSK, t.getDamage(self, t)), t.getNb(self, t))
 	end,
 }
 
 newTalent{
-	name = "Essence of the Dead",
+	name = "Reaping",
 	type = {"spell/animus",4},
 	require = spells_req4,
 	points = 5,
-	mana = 20,
-	soul = 2,
-	cooldown = 20,
-	tactical = { BUFF = 3 },
-	getnb = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
-	action = function(self, t)
-		self:setEffect(self.EFF_ESSENCE_OF_THE_DEAD, 1, {nb=t.getnb(self, t)})
-		return true
+	mode = "sustained",
+	cooldown = 30,
+	sustain_mana = 30,
+	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 2, 8)) end,
+	getMana = function(self, t) return math.floor(self:combatTalentScale(t, 5, 30)) / 10 end,
+	getSpellpower = function(self, t) return math.floor(self:combatTalentScale(t, 10, 40)) end,
+	getResists = function(self, t) return math.floor(self:combatTalentLimit(t, 20, 5, 10)) end,
+	callbackOnActBase = function(self, t)
+		if not self.__old_reaping_souls then self.__old_reaping_souls = self:getSoul() end
+		if self.__old_reaping_souls == self:getSoul() then return end
+		self:updateTalentPassives(t)
 	end,
-	info = function(self, t)
-		local nb = t.getnb(self, t)
-		return ([[Crush and consume two souls to empower your next %d spells, granting them a special effect.
-		Affected spells are:
-		- Undeath Link: in addition to the heal a shield is created for half the heal power
-		- Create Minions: allows you to summon 2 more minions
-		- Assemble: allows you to summon a second bone golem
-		- Invoke Darkness: becomes a cone of darkness
-		- Shadow Tunnel: teleported minions will also be healed for 30%% of their max life
-		- Cold Flames: freeze chance increased to 100%%
-		- Freeze: becomes a ball of radius 2 and makes all targets wet
-		- Consume Soul: effect increased by 50%%]]):
-		tformat(nb)
+	passives = function(self, t, p)
+		if not self:isTalentActive(t.id) then return end
+		local s = self:getSoul()
+		if s >= 2 then self:talentTemporaryValue(p, "mana_regen", t.getMana(self, t)) end
+		if s >= 5 then self:talentTemporaryValue(p, "combat_spellpower", t.getSpellpower(self, t)) end
+		if s >= 8 then self:talentTemporaryValue(p, "resists", {all=t.getResists(self, t)}) end
+		self:talentTemporaryValue(p, "max_soul", t.getNb(self, t))
 	end,
-}
+	activate = function(self, t)
+		local ret = {}
+		game:onTickEnd(function() self:updateTalentPassives(t) end)
 
-
-newTalent{
-	name = "Self-destruction", short_name = "HUSK_DESTRUCT", image = "talents/golem_destruct.png",
-	type = {"spell/other", 1},
-	points = 1,
-	range = 0,
-	radius = 4,
-	no_unlearn_last = true,
-	target = function(self, t)
-		return {type="ball", range=self:getTalentRange(t), selffire=false, radius=self:getTalentRadius(t)}
-	end,
-	tactical = { ATTACKAREA = { DARKNESS = 3 } },
-	no_npc_use = true,
-	on_pre_use = function(self, t)
-		return self.summoner and self.summoner.dead
-	end,
-	action = function(self, t)
-		local tg = self:getTalentTarget(t)
-		self:project(tg, self.x, self.y, DamageType.DARKNESS, 50 + 10 * self.level)
-		if core.shader.active() then
-			game.level.map:particleEmitter(self.x, self.y, tg.radius, "starfall", {radius=tg.radius})
-		else
-			game.level.map:particleEmitter(self.x, self.y, tg.radius, "shadow_flash", {radius=tg.radius})
+		if core.shader.active(4) then
+			self:talentParticles(ret, {type="shader_shield", args={toback=true,  size_factor=1.2, img="reaping_shieldwall"}, shader={type="rotatingshield", noup=2.0, time_factor=500, appearTime=0.8}})
+			self:talentParticles(ret, {type="shader_shield", args={toback=false, size_factor=1.2, img="reaping_shieldwall"}, shader={type="rotatingshield", noup=1.0, time_factor=500, appearTime=0.8}})
 		end
-		game:playSoundNear(self, "talents/fireflash")
-		self:die(self)
+
+		return ret
+	end,
+	deactivate = function(self, t)
 		return true
 	end,
 	info = function(self, t)
-		local rad = self:getTalentRadius(t)
-		return ([[The husk self-destructs, destroying itself and generating a blast of shadows in a radius of %d, doing %0.2f darkness damage.
-		This spell is only usable when the husk's master is dead.]]):tformat(rad, damDesc(self, DamageType.DARKNESS, 50 + 10 * self.level))
+		return ([[You draw constant power from the souls you hold within your grasp.
+		If you hold at least 2, your mana regeneration is increased by %0.1f per turn.
+		If you hold at least 5, your spellpower is increased by %d.
+		If you hold at least 8, all your resistances are increased by %d.
+		Also increases your maximum souls capacity by %d.]]):
+		tformat(t.getMana(self, t), t.getSpellpower(self, t), t.getResists(self, t), t.getNb(self, t))
 	end,
 }

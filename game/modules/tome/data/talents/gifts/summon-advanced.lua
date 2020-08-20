@@ -66,7 +66,7 @@ newTalent{
 	effectDuration = function(self, t) return math.floor(self:combatTalentScale(t, 5, 9)) end,
 	poisonDamage = function(self, t) return self:combatTalentMindDamage(t, 20, 133) end,
 	nbEscorts = function(self, t) return math.max(1,math.floor(self:combatTalentScale(t, 0.3, 2.7, "log"))) end,
-	resReduction = function(self, t) return self:combatTalentMindDamage(t, 12, 50) end,
+	resReduction = function(self, t) return self:combatTalentMindDamage(t, 12, 44) end,
 	amtHealing = function(self, t) return 30 + self:combatTalentMindDamage(t, 10, 350) end,
 	slowStrength = function(self, t) return self:combatLimit(self:combatTalentMindDamage(t, 5, 500), 1, 0.1, 0, 0.47 , 369) end, -- Limit speed loss to <100% 
 	info = function(self, t)
@@ -114,7 +114,7 @@ newTalent{
 	on_pre_use = function(self, t, silent)
 		return self:isTalentActive(self.T_MASTER_SUMMONER)
 	end,
-	duration = function(self, t) return  math.floor(self:combatTalentLimit(t, 25, 1, 5)) end, -- Limit <25
+	duration = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 1, 6)) end, -- Limit <25
 	action = function(self, t)
 		self:setEffect(self.EFF_WILD_SUMMON, t.duration(self,t), {chance=100})
 		game:playSoundNear(self, "talents/teleport")

@@ -55,7 +55,7 @@ newTalent{
 		return ([[Release a powerful shout, doing %0.2f physical damage in a radius %d cone in front of you.
 		At level 5 the shout is so strong it shatters all incomming projectiles caught inside.
 		The damage increases with your Strength.]])
-		:tformat(damDesc(self, DamageType.PHYSICAL, t.getdamage(self,t)), t.radius(self,t))
+		:tformat(damDesc(self, DamageType.PHYSICAL, t.getDamage(self,t)), t.radius(self,t))
 	end,
 }
 

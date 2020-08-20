@@ -533,6 +533,7 @@ newTalent{
 	no_sustain_autoreset = true,
 	cooldown = 24,
 	no_npc_use = true,
+	unlearn_on_clone = true,
 	getControlBonus = function(self, t) return self:combatTalentMindDamage(t, 5, 50) end,
 --	getRangeBonus = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
 	on_pre_use = function(self, t, silent) if not game.party:findMember{type="thought-form"} then if not silent then game.logPlayer(self, "You must have an active Thought-Form to use this talent!") end return false end return true end,

@@ -17,6 +17,52 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
+--------------------------------------------------------------------------------------
+-- Advanced shaders
+--------------------------------------------------------------------------------------
+if core.shader.active(4) then
+use_shader = {type="fireflash"}
+base_size = 64
+
+local nb = 0
+
+local dir = 0
+if proj_x and src_x then
+	dir = math.deg(math.atan2(proj_y-src_y, proj_x-src_x))
+end
+
+return {
+	system_rotation = dir, system_rotationv = 0,
+	generator = function()
+	return {
+		life = 42,
+		--size = 30, sizev = 2.1*64*radius/16, sizea = 0,
+		size = 3.5*64*radius, sizev = 0, sizea = 0,
+
+		x = 0, xv = 0, xa = 0,
+		y = 0, yv = 0, ya = 0,
+		dir = 0, dirv = dirv, dira = 0,
+		vel = 0, velv = 0, vela = 0,
+
+		r = 1, rv = 0, ra = 0,
+		g = 1, gv = 0, ga = 0,
+		b = 1, bv = 0, ba = 0,
+		a = 1, av = 0, aa = 0,
+	}
+end, },
+function(self)
+	if nb < 1 then
+		self.ps:emit(1)
+	end
+	nb = nb + 1
+end,
+1, "particles_images/ice_fireflash"
+
+
+--------------------------------------------------------------------------------------
+-- Default
+--------------------------------------------------------------------------------------
+else
 local nb = 0
 return { generator = function()
 	local radius = radius
@@ -61,3 +107,4 @@ function(self)
 	end
 end,
 5*radius*266
+end

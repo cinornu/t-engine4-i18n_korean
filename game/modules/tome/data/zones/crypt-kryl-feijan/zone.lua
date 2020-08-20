@@ -86,12 +86,18 @@ return {
 					if e.define_as and e.define_as == "MELINDA" then
 						local x, y = e.x, e.y
 						e:die()
+
+						local g = game.zone:makeEntityByName(game.level, "terrain", "ALTAR_SPLATTER")
+						game.zone:addEntity(game.level, g, "terrain", x, y)
+
 						local m = game.zone:makeEntityByName(game.level, "actor", "KRYL_FEIJAN")
 						if m then
 							game.zone:addEntity(game.level, m, "actor", x, y)
 							game.level.map:particleEmitter(x, y, 1, "blood")
 						end
 						game.player:setQuestStatus("kryl-feijan-escape", engine.Quest.FAILED)
+
+						game.level.map:particleEmitter(x, y, 3, "corpse_explosion", {radius=3})
 
 						local spot = game.level:pickSpot{type="locked-door", subtype="locked-door"}
 						local g = game.zone:makeEntityByName(game.level, "terrain", "FLOOR")

@@ -1,5 +1,5 @@
 -- ToME - Tales of Maj'Eyal
--- Copyright (C) 2009 - 2019 Nicolas Casalini
+-- Copyright (C) 2009 - 2017 Nicolas Casalini
 --
 -- This program is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -70,23 +70,22 @@ if not game.zone.pyroclast_event_on_turn then
 		table.remove(game.zone.pyroclast_event_levels[game.level.level], si)
 
 		game.level.data.meteor_x, game.level.data.meteor_y = x, y
-		game.level.map:particleEmitter(game.level.data.meteor_x, game.level.data.meteor_y, 10, "meteor").on_remove = function()
-			local x, y = game.level.data.meteor_x, game.level.data.meteor_y
-			game.level.map:particleEmitter(x, y, 5, "fireflash", {radius=5})
-			game:playSoundNear(game.player, "talents/fireflash")
+		game.level.map:particleEmitter(game.level.data.meteor_x, game.level.data.meteor_y, 10, "meteor")
+		local x, y = game.level.data.meteor_x, game.level.data.meteor_y
+		game.level.map:particleEmitter(x, y, 5, "fireflash", {radius=5})
+		game:playSoundNear(game.player, "talents/fireflash")
 
-			for i = x-2, x+2 do for j = y-2, y+2 do
-				local og = game.level.map(i, j, engine.Map.TERRAIN)
-				if (core.fov.distance(x, y, i, j) <= 1 or rng.percent(40)) and og and not og.escort_portal and not og.change_level and not og.special then
-					local g = game.zone.grid_list.LAVA_FLOOR:clone()
-					g:resolve() g:resolve(nil, true)
-					game.zone:addEntity(game.level, g, "terrain", i, j)
-				end
-			end end
-			for i = x-2, x+2 do for j = y-2, y+2 do
-				game.nicer_tiles:updateAround(game.level, i, j)
-			end end
-		end
+		for i = x-2, x+2 do for j = y-2, y+2 do
+			local og = game.level.map(i, j, engine.Map.TERRAIN)
+			if (core.fov.distance(x, y, i, j) <= 1 or rng.percent(40)) and og and not og.escort_portal and not og.change_level and not og.special then
+				local g = game.zone.grid_list.LAVA_FLOOR:clone()
+				g:resolve() g:resolve(nil, true)
+				game.zone:addEntity(game.level, g, "terrain", i, j)
+			end
+		end end
+		for i = x-2, x+2 do for j = y-2, y+2 do
+			game.nicer_tiles:updateAround(game.level, i, j)
+		end end
 	end
 end
 return true

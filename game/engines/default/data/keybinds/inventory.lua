@@ -24,7 +24,7 @@ defineAction{
 	name = _t"Show inventory",
 }
 defineAction{
-	default = { "sym:=e:false:false:false:false", },
+	default = { "sym:=e:false:true:false:false", },
 	type = "SHOW_EQUIPMENT",
 	group = "inventory",
 	name = _t"Show equipment",
@@ -37,14 +37,14 @@ defineAction{
 	name = _t"Pickup items",
 }
 defineAction{
-	default = { "sym:=d:false:false:false:false" },
+	default = { "sym:=d:false:true:false:false" },
 	type = "DROP_FLOOR",
 	group = "inventory",
 	name = _t"Drop items",
 }
 
 defineAction{
-	default = { "sym:=w:false:false:false:false", },
+	default = { "sym:=w:false:false:false:false", "sym:=e:false:false:false:false", },
 	type = "WEAR_ITEM",
 	group = "inventory",
 	name = _t"Wield/wear items",

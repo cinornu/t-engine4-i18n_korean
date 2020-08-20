@@ -333,13 +333,13 @@ You have heard of such items before. They are very useful to adventurers, allowi
 			end
 			if not who:attr("never_move") then
 				if who:canBe("worldport") then
-					who:setEffect(who.EFF_RECALL, 40, { where = self.shertul_fortress and "shertul-fortress" or nil })
+					who:setEffect(who.EFF_RECALL, 40, { where = self.recall_target or nil })
 					game.logPlayer(who, "Space around you starts to dissolve...")
 					return {id=true, used=true}
 				elseif game.zone.force_farportal_recall then
 					require("engine.ui.Dialog"):yesnoLongPopup(_t"Force a recall", _t"The Fortress Shadow warned you that trying to force a recall without finding the portal back could break the exploratory farportal forever.", 500, function(ret)
 						if not ret then
-							who:setEffect(who.EFF_RECALL, 40, { where = self.shertul_fortress and "shertul-fortress" or nil, allow_override=true })
+							who:setEffect(who.EFF_RECALL, 40, { where = self.recall_target or nil, allow_override=true })
 							game.logPlayer(who, "Space around you starts to dissolve...")
 							if rng.percent(90) and who:hasQuest("shertul-fortress") then
 								who:hasQuest("shertul-fortress"):break_farportal()

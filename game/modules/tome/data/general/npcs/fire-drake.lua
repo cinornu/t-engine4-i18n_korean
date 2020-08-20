@@ -43,7 +43,7 @@ newEntity{
 	blind_immune = 0.5,
 }
 
-newEntity{ base = "BASE_NPC_FIRE_DRAKE",
+newEntity{ base = "BASE_NPC_FIRE_DRAKE", define_as = "FIRE_DRAKE_HATCHLING",
 	name = "fire drake hatchling", color=colors.RED, display="d",
 	desc = _t[[A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.]],
 	level_range = {8, nil}, exp_worth = 1,

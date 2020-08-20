@@ -17,67 +17,48 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
-local isFF = function(self)
-	if self:getTalentLevel(self.T_INVOKE_DARKNESS) >= 5 then return false
-	else return true
-	end
-end
-
 newTalent{
 	name = "Invoke Darkness",
 	type = {"spell/nightfall",1},
 	require = spells_req1,
 	points = 5,
-	random_ego = "attack",
 	mana = 10,
 	cooldown = 3,
-	tactical = { ATTACK = { DARKNESS = 2 } },
+	tactical = { ATTACKAREA = { DARKNESS = 2 } },
 	range = 10,
 	reflectable = true,
 	proj_speed = 20,
 	requires_target = true,
-	direct_hit = function(self, t) if self:getTalentLevel(t) >= 3 then return true else return false end end,
+	direct_hit = true,
 	target = function(self, t)
-		local tg = {type="bolt", range=self:getTalentRange(t), friendlyfire=isFF(self), talent=t, display={particle="bolt_dark", trail="darktrail"}}
-		if self:getTalentLevel(t) >= 3 then tg.type = "beam" end
-		if necroEssenceDead(self, true) then tg.radius, tg.range = tg.range, 0 tg.type = "cone" tg.cone_angle = 25 end
+		local tg = {type="beam", range=self:getTalentRange(t), friendlyfire=false, talent=t}
+		if self:getTalentLevel(t) >= 5 then tg = {type="widebeam", radius=1, range=self:getTalentRange(t), friendlyfire=false, talent=t} end
 		return tg
 	end,
-	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 25, 230) end,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 25, 220) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
-		local empower = necroEssenceDead(self)
-		if empower then
-			self:project(tg, x, y, DamageType.DARKNESS, self:spellCrit(t.getDamage(self, t)))
-			game.level.map:particleEmitter(self.x, self.y, tg.radius, "breath_shadow", {radius=tg.radius, tx=x-self.x, ty=y-self.y, spread=20})
-			empower()
-		elseif self:getTalentLevel(t) < 3 then
-			self:projectile(tg, x, y, DamageType.DARKNESS, self:spellCrit(t.getDamage(self, t)), function(self, tg, x, y, grids)
-				game.level.map:particleEmitter(x, y, 1, "dark")
-			end)
-		else
-			self:project(tg, x, y, DamageType.DARKNESS, self:spellCrit(t.getDamage(self, t)))
-			local _ _, x, y = self:canProject(tg, x, y)
-			game.level.map:particleEmitter(self.x, self.y, tg.radius, "shadow_beam", {tx=x-self.x, ty=y-self.y})
-		end
+
+		self:project(tg, x, y, DamageType.DARKNESS, self:spellCrit(t.getDamage(self, t)))
+		local _ _, x, y = self:canProject(tg, x, y)
+		game.level.map:particleEmitter(self.x, self.y, tg.radius, "shadow_beam", {widebeam=self:getTalentLevel(t) >= 5, tx=x-self.x, ty=y-self.y})
 
 		game:playSoundNear(self, "talents/spell_generic")
 		return true
 	end,
 	info = function(self, t)
 		local damage = t.getDamage(self, t)
-		return ([[Conjures up a bolt of darkness, doing %0.2f darkness damage.
-		At level 3, it will create a beam of shadows.
-		At level 5, none of your Nightfall spells will hurt your minions.
+		return ([[Conjures up a beam of darkness, doing %0.2f darkness damage.
+		At level 5, the beam widens to hit foes on each side.
 		The damage will increase with your Spellpower.]]):
 		tformat(damDesc(self, DamageType.DARKNESS, damage))
 	end,
 }
 
 newTalent{
-	name = "Circle of Death",
+	name = "Night Sphere", short_name = "CIRCLE_OF_DEATH",
 	type = {"spell/nightfall",2},
 	require = spells_req2,
 	points = 5,
@@ -91,7 +72,7 @@ newTalent{
 	target = function(self, t)
 		return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t)}
 	end,
-	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 15, 40) end,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 15, 60) end,
 	getDuration = function(self, t) return 5 end,
 	getBaneDur = function(self,t) return math.floor(self:combatTalentScale(t, 4.5, 6.5)) end,
 	action = function(self, t)
@@ -102,12 +83,12 @@ newTalent{
 		-- Add a lasting map effect
 		game.level.map:addEffect(self,
 			x, y, t.getDuration(self, t),
-			DamageType.CIRCLE_DEATH, {dam=self:spellCrit(t.getDamage(self, t)), dur=t.getBaneDur(self,t), ff=isFF(self)},
+			DamageType.CIRCLE_DEATH, {dam=self:spellCrit(t.getDamage(self, t)), dur=t.getBaneDur(self,t), ff=true},
 			self:getTalentRadius(t),
 			5, nil,
 			{type="circle_of_death", overlay_particle={zdepth=6, only_one=true, type="circle", args={oversize=1, a=100, appear=8, speed=-0.05, img="necromantic_circle", radius=self:getTalentRadius(t)}}},
 --			{zdepth=6, only_one=true, type="circle", args={oversize=1, a=130, appear=8, speed=-0.03, img="arcane_circle", radius=self:getTalentRadius(t)}},
-			nil, false
+			nil, false, false
 		)
 
 		game:playSoundNear(self, "talents/fire")
@@ -124,72 +105,111 @@ newTalent{
 }
 
 newTalent{
-	name = "Fear the Night",
+	name = "Erupting Shadows",
 	type = {"spell/nightfall",3},
 	require = spells_req3,
 	points = 5,
-	random_ego = "attack",
-	mana = 30,
+	mode = "sustained",
+	sutain_mana = 20,
 	cooldown = 10,
-	direct_hit = true,
-	tactical = { ATTACKAREA = { DARKNESS = 2 }, DISABLE = { knockback = 2 }, ESCAPE = { knockback = 1 } },
-	range = 0,
-	radius = function(self, t) return math.floor(self:combatTalentScale(t, 4, 8)) end,
-	requires_target = true,
-	target = function(self, t) return {type="cone", range=self:getTalentRange(t), radius=self:getTalentRadius(t), friendlyfire=isFF(self), talent=t} end,
-	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 230) end,
-	action = function(self, t)
-		local tg = self:getTalentTarget(t)
-		local x, y = self:getTarget(tg)
-		if not x or not y then return nil end
-		self:project(tg, x, y, DamageType.DARKKNOCKBACK, {dist=4, dam=self:spellCrit(t.getDamage(self, t))})
-		game.level.map:particleEmitter(self.x, self.y, tg.radius, "breath_dark", {radius=tg.radius, tx=x-self.x, ty=y-self.y})
-		game:playSoundNear(self, "talents/fire")
+	tactical = { BUFF=1 },
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 30, 250) / 5 end,
+	callbackOnDealDamage = function(self, t, val, target, dead, death_note)
+		if dead or not death_note or not death_note.damtype or target == self then return end
+		if death_note.damtype ~= DamageType.DARKNESS then return end
+		if target.turn_procs.doing_bane_damage then return end
+
+		local banes = target:effectsFilter{subtype={bane=true}}
+		if #banes == 0 then return end
+
+		for _, baneid in ipairs(banes) do
+			local bane = target:hasEffect(baneid)
+			if bane then bane.dur = bane.dur + 1 end
+		end
+		
+		if target.turn_procs.erupting_shadows then return end
+		target.turn_procs.erupting_shadows = true
+
+		DamageType:get(DamageType.DARKNESS).projector(self, target.x, target.y, DamageType.DARKNESS, t:_getDamage(self))
+	end,
+	activate = function(self, t)
+		local ret = {}
+		return ret
+	end,
+	deactivate = function(self, t)
 		return true
 	end,
 	info = function(self, t)
 		local damage = t.getDamage(self, t)
 		local radius = self:getTalentRadius(t)
-		return ([[Invoke a cone dealing %0.2f darkness damage in a radius of %d. Any creatures caught inside must make check against their Mental Save or be knocked back 4 grids away.
+		return ([[Shadows engulf your foes, anytime you deal darkness damage to a creature affected by a bane, the bane's duration is increased by 1 turn and the shadows erupt, dealing an additional %0.2f darkness damage.
+		The damage can only happen once per turn per creature, the turn increase however always happens.
 		The damage will increase with your Spellpower.]]):
-		tformat(damDesc(self, DamageType.DARKNESS, damage), self:getTalentRadius(t))
+		tformat(damDesc(self, DamageType.DARKNESS, damage))
 	end,
 }
 
 newTalent{
-	name = "Rigor Mortis",
+	name = "River of Souls",
 	type = {"spell/nightfall",4},
 	require = spells_req4,
 	points = 5,
-	mana = 60,
-	cooldown = 20,
-	tactical = { ATTACKAREA = 3 },
+	mode = "sustained",
+	mana = 30, -- Not sustain cost, cast cost
+	cooldown = 15,
+	tactical = { ATTACKAREA = { DARKNESS = 3 } },
 	range = 7,
-	radius = 1,
 	direct_hit = true,
 	requires_target = true,
-	target = function(self, t) return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), friendlyfire=isFF(self), talent=t, display={particle="bolt_dark", trail="darktrail"}} end,
-	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 28, 280) end,
-	getMinion = function(self, t) return 10 + self:combatTalentSpellDamage(t, 10, 30) end,
-	getDur = function(self, t) return math.floor(self:combatTalentScale(t, 3.6, 6.3)) end,
-	getSpeed = function(self, t) return math.min(self:getTalentLevel(t) * 0.065, 0.5) end,
-	action = function(self, t)
+	radius = function(self, t) return math.floor(self:combatTalentScale(t, 3, 4)) end,
+	target = function(self, t) return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), friendlyfire=false, talent=t, display={particle="bolt_dark", trail="darktrail"}} end,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 20, 220) end,
+	iconOverlay = function(self, t, p)
+		local val = p.dur
+		if val <= 0 then return "" end
+		return tostring(math.ceil(val)), "buff_font_small"
+	end,
+	callbackOnChangeLevel = function(self, t, what)
+		local p = self:isTalentActive(t.id)
+		if not p then return end
+		if what ~= "leave" then return end
+		self:forceUseTalent(t.id, {ignore_energy=true})
+	end,
+	callbackOnActBase = function(self, t)
+		local p = self:isTalentActive(t.id)
+		if not p then return end
+
+		if self:getSoul() <= 0 then
+			self:forceUseTalent(t.id, {ignore_energy=true})
+			return
+		end
+
+		local tg = self:getTalentTarget(t)
+		self:projectile(tg, p.x, p.y, DamageType.DARKNESS, self:spellCrit(t.getDamage(self, t)), {type="dark"})
+		self:incSoul(-1)
+		p.dur = p.dur - 1
+
+		if self:getSoul() <= 0 or p.dur <= 0 then
+			self:forceUseTalent(t.id, {ignore_energy=true})
+			return
+		end
+	end,
+	on_pre_use = function(self, t) return self:getSoul() > 0 end,
+	activate = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
-		self:projectile(tg, x, y, DamageType.RIGOR_MORTIS, {dam=self:spellCrit(t.getDamage(self, t)), minion=t.getMinion(self, t), speed=t.getSpeed(self, t), dur=t.getDur(self, t)}, {type="dark"})
-		game:playSoundNear(self, "talents/fireflash")
+		return {x=x, y=y, dur=5}
+	end,
+	deactivate = function(self, t, p)
 		return true
 	end,
 	info = function(self, t)
 		local damage = t.getDamage(self, t)
-		local speed = t.getSpeed(self, t) * 100
-		local dur = t.getDur(self, t)
-		local minion = t.getMinion(self, t)
-		return ([[Invoke a ball of darkness that deals %0.2f darkness damage in a radius of %d. Every creature hit will start to become closer to death,  reducing their global speed by %d%%.
-		Necrotic minions' damage against those creatures is increased by %d%%.
-		The effects last for %d turns.
-		The damage done and the minions' damage increase will increase with your Spellpower.]]):
-		tformat(damDesc(self, DamageType.DARKNESS, damage), self:getTalentRadius(t), speed, minion, dur)
+		return ([[You summon a river of tortured souls to launch an onslaught of darkness against your foes.
+		Every turn for 5 turns you launch a projectile towards the designated area that explodes in radius %d, dealing %0.2f darkness damage.
+		Each projectile consumes a soul and the spell ends when it has sent 5 projectiles or when you have no more souls to use.
+		The damage will increase with your Spellpower.]]):
+		tformat(self:getTalentRadius(t), damDesc(self, DamageType.DARKNESS, damage))
 	end,
 }

@@ -85,7 +85,7 @@ newEntity{
 			local g = game.zone.grid_list.BAMBOO_HUT_FLOOR:clone()
 			game.zone:addEntity(game.level, g, "terrain", x, y)
 			who:heal(100, self)
-			who:removeEffectsFilter{status="detrimental"}
+			who:removeEffectsFilter(self, {status="detrimental"})
 			game.logPlayer(who, "You touch the dreamstone and it disappears. You feel better.")
 		end
 		return true

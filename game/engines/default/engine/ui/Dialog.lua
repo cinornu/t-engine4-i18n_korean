@@ -732,6 +732,11 @@ function _M:setFocus(id, how)
 	self:on_focus(id, ui)
 end
 
+function _M:getFocus()
+	if not self.focus_ui then return nil end
+	return self.focus_ui.ui, self.focus_ui
+end
+
 function _M:moveUIElement(id, left, right, top, bottom)
 	if type(id) == "table" then
 		for i = 1, #self.uis do

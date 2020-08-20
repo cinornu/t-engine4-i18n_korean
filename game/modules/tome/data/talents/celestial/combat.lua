@@ -127,6 +127,7 @@ newTalent{
 	points = 5,
 	cooldown = 10,
 	sustain_positive = 10,
+	rnd_boss_restrict = function(self, t, data) return true end, -- martyrdom is fine on fixedbosses specifically given the talents but let's avoid it on randbosses
 	tactical = { BUFF = 2 },
 	range = 10,
 	getMartyrDamage = function(self, t) return self:combatTalentLimit(t, 50, 5, 25) end, --Limit < 50%

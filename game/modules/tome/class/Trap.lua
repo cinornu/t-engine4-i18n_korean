@@ -197,29 +197,6 @@ function _M:onDisarm(x, y, who)
 			local diff_level = (t.trap_mastery_level or 5)
 			local success, consec, msg = false, 0
 			local oldrestCheck = rawget(who, "restCheck") -- hack restCheck to perform action each turn
-			who.restCheck = function(player)
-				if not player.resting then player.restCheck = oldrestCheck return false, _t"not resting" end
-				if player.resting.cnt >= diff_level then -- start making checks at diff_level turns
-					if rng.percent(chance) then
-						consec = consec + 1
-					else -- reset success count
-						consec = 0
-						if rng.percent(10) then -- oops! 10% chance to set it off
-							game:onTickEnd(function() self:triggered(player.x, player.y, player) end)
-							msg = _t"You set off the trap!"
-							return false, msg
-						end
-					end
-				end
-				if consec >= diff_level then -- success after diff_level consecutive checks
-					msg = _t"You successfully dismantled the trap."
-					success = true return false, msg
-				end
-				local continue, reason = mod.class.Player.restCheck(player)
-				if not continue then msg = _t"You were interrupted." end
-				return continue, reason
-			end
-
 			local turns = math.ceil(diff_level*(1 + rng.float(1, 6*(1-chance/200)))) -- random turns to dismantle
 			local dismantle = coroutine.create(function(self, who)
 				local wait = function()
@@ -255,6 +232,28 @@ function _M:onDisarm(x, y, who)
 ]]):tformat(turns, desc), math.min(800, game.w*.75),
 			function(quit)
 				if quit == true then
+					who.restCheck = function(player)
+						if not player.resting then player.restCheck = oldrestCheck return false, _t"not resting" end
+						if player.resting.cnt >= diff_level then -- start making checks at diff_level turns
+							if rng.percent(chance) then
+								consec = consec + 1
+							else -- reset success count
+								consec = 0
+								if rng.percent(10) then -- oops! 10% chance to set it off
+									game:onTickEnd(function() self:triggered(player.x, player.y, player) end)
+									msg = _t"You set off the trap!"
+									return false, msg
+								end
+							end
+						end
+						if consec >= diff_level then -- success after diff_level consecutive checks
+							msg = _t"You successfully dismantled the trap."
+							success = true return false, msg
+						end
+						local continue, reason = mod.class.Player.restCheck(player)
+						if not continue then msg = _t"You were interrupted." end
+						return continue, reason
+					end
 					game:playSoundNear(who, "ambient/town/town_large2")
 					coroutine.resume(dismantle, self, who)
 				end

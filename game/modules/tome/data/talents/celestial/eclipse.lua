@@ -143,7 +143,7 @@ newTalent{
 	cooldown = 15,
 	positive = 25,
 	negative = 25,
-	tactical = { ATTACKAREA = {LIGHT = 2} },
+	tactical = { ATTACKAREA = {LIGHT = 1.5, DARKNESS = 1.5} },
 	range = 0,
 	radius = 10,
 	direct_hit = true,

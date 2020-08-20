@@ -358,7 +358,7 @@ newEntity{ base = "BASE_AMULET", define_as = "SET_GARKUL_TEETH",
 	end,
 }
 
-newEntity{ base = "BASE_LITE",
+newEntity{ base = "BASE_LITE", define_as = "SUMMERTIDE_PHIAL",
 	power_source = {nature=true},
 	unique = true,
 	name = "Summertide Phial", image="object/artifact/summertide_phial.png",
@@ -497,7 +497,9 @@ newEntity{
 
 	use_simple = { name = _t"quaff the Blood of Life to grant an extra life", use = function(self, who)
 		game.logSeen(who, "%s quaffs the %s!", who:getName():capitalize(), self:getName({no_add_name = true, do_color = true}))
-		if not who:attr("undead") then
+		if self:triggerHook{"Artifact:BloodOfLife:used", who=who} then
+			-- let addons do stuff
+		elseif not who:attr("undead") then
 			who.blood_life = true
 			game.logPlayer(who, "#LIGHT_RED#You feel the Blood of Life rushing through your veins.")
 		else
@@ -2655,8 +2657,9 @@ newEntity{ base = "BASE_STAFF", define_as = "SET_SCEPTRE_LICH",
 		},
 		talents_types_mastery = {
 			["celestial/star-fury"] = 0.2,
-			["spell/necrotic-minions"] = 0.2,
-			["spell/advanced-necrotic-minions"] = 0.2,
+			["spell/master-of-bones"] = 0.2,
+			["spell/master-of-flesh"] = 0.2,
+			["spell/master-necromancer"] = 0.2,
 		}
 	},
 	on_wear = function(self, who)
@@ -3927,11 +3930,7 @@ newEntity{ base = "BASE_GAUNTLETS",
 						end
 						local eff = rng.tableRemove(effs)
 						if eff then
-							if eff[1] == "effect" then
-							target:removeEffect(eff[2])
-							else
-								target:forceUseTalent(eff[2], {ignore_energy=true})
-							end
+							target:dispel(eff[2], who)
 						end
 					end
 					if target.undead or target.construct then
@@ -4130,6 +4129,9 @@ newEntity{ base = "BASE_CLOTH_ARMOR", --Thanks Grayswandir!
 			["spell/water"] = 0.3,
 			["spell/ice"] = 0.3,
 			["spell/frost-alchemy"] = 0.3, --more!
+			["spell/grave"] = 0.3, --more!
+			["spell/glacial-waste"] = 0.3, --more!
+			["spell/rime-wraith"] = 0.3, --more!
  		},
 	},
 	talent_on_spell = {
@@ -4508,7 +4510,8 @@ newEntity{ base = "BASE_LITE", --Thanks Grayswandir!
 		resists_pen = {[DamageType.COLD]=10},
 
 		talent_cd_reduction = {
-			[Talents.T_CHILL_OF_THE_TOMB] = 2,
+			-- DGDGDGDG !!!!
+			-- [Talents.T_CHILL_OF_THE_TOMB] = 2,
 		},
 	},
 	max_power = 20, power_regen = 1,
@@ -4959,13 +4962,15 @@ newEntity{ base = "BASE_GREATMAUL",
 			local is_shield = false
 			-- Make them EXPLODE !!!, I mean, remove them.
 			for i, d in ipairs(shields) do
-				target:removeEffect(d.id)
-				is_shield=true
+				if target:dispel(d.id, who) then
+					is_shield = true
+				end
 			end
 
 			if target:attr("disruption_shield") then
-				target:forceUseTalent(target.T_DISRUPTION_SHIELD, {ignore_energy=true})
-				is_shield = true
+				if target:dispel(target.T_DISRUPTION_SHIELD, who) then
+					is_shield = true
+				end
 			end
 			if is_shield == true then
 				game.logSeen(target, "%s's magical shields are shattered!", target:getName():capitalize())
@@ -5300,7 +5305,7 @@ newEntity{ base = "BASE_LIGHT_ARMOR", --Thanks SageAcrin!
  		},
  		talents_types_mastery = {
  			["spell/phantasm"] = 0.1,
- 			["spell/shades"] = 0.1,
+ 			["spell/dreadmaster"] = 0.1,
 			["cunning/stealth"] = 0.1,
  		},
 	},

@@ -199,7 +199,7 @@ newTalent{
 	tactical = { ATTACK = 2 },
 	requires_target = true,
 	range = 5,
---	no_npc_use = true,
+	random_boss_rarity = 50,
 	unlearn_on_clone = true,
 	target = function(self, t) return {type="bolt", range=self:getTalentRange(t), talent=t} end,
 	getDuration = function(self, t) return math.floor(self:combatTalentStatDamage(t, "cun", 3, 10)+1) end,

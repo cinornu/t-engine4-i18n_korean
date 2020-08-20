@@ -30,20 +30,26 @@ newTalent{
 	reflectable = true,
 	requires_target = true,
 	target = function(self, t)
+		if thaumaturgyCheck(self) then return {type="widebeam", radius=1, range=self:getTalentRange(t), talent=t, selffire=false, friendlyfire=self:spellFriendlyFire()} end
 		return {type="beam", range=self:getTalentRange(t), talent=t}
 	end,
 	allow_for_arcane_combat = true,
+	is_beam_spell = true,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 20, 350) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
-		local dam = self:spellCrit(t.getDamage(self, t))
+		local dam = thaumaturgyBeamDamage(self, self:spellCrit(t.getDamage(self, t)))
 		self:project(tg, x, y, DamageType.LIGHTNING_DAZE, {dam=rng.avg(dam / 3, dam, 3), daze=self:attr("lightning_daze_tempest") or 0})
 		local _ _, x, y = self:canProject(tg, x, y)
-		if core.shader.active() then game.level.map:particleEmitter(self.x, self.y, math.max(math.abs(x-self.x), math.abs(y-self.y)), "lightning_beam", {tx=x-self.x, ty=y-self.y}, {type="lightning"})
-		else game.level.map:particleEmitter(self.x, self.y, math.max(math.abs(x-self.x), math.abs(y-self.y)), "lightning_beam", {tx=x-self.x, ty=y-self.y})
+
+		if thaumaturgyCheck(self) then
+			game.level.map:particleEmitter(self.x, self.y, math.max(math.abs(x-self.x), math.abs(y-self.y)), "lightning_beam_wide", {tx=x-self.x, ty=y-self.y}, core.shader.active() and {type="lightning"} or nil)
+		else
+			game.level.map:particleEmitter(self.x, self.y, math.max(math.abs(x-self.x), math.abs(y-self.y)), "lightning_beam", {tx=x-self.x, ty=y-self.y}, core.shader.active() and {type="lightning"} or nil)
 		end
+
 		game:playSoundNear(self, "talents/lightning")
 		return true
 	end,
@@ -233,6 +239,7 @@ newTalent{
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/thunderstorm")
 		game.logSeen(self, "#0080FF#A furious lightning storm forms around %s!", self:getName())
+		self:callTalent(self.T_ENERGY_ALTERATION, "forceActivate", DamageType.LIGHTNING)
 		return {
 		}
 	end,

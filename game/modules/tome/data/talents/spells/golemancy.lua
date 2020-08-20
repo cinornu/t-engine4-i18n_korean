@@ -372,7 +372,7 @@ newTalent{
 		end
 	end,
 	info = function(self, t)
-		if not self.alchemy_golem then return "Improves your golem's proficiency with weapons, increasing its attack and damage." end
+		if not self.alchemy_golem then return _t"Improves your golem's proficiency with weapons, increasing its attack and damage." end
 		local rawlev = self:getTalentLevelRaw(t)
 		local olda, oldd = self.alchemy_golem.talents[Talents.T_WEAPON_COMBAT], self.alchemy_golem.talents[Talents.T_WEAPONS_MASTERY]
 		self.alchemy_golem.talents[Talents.T_WEAPON_COMBAT], self.alchemy_golem.talents[Talents.T_WEAPONS_MASTERY] = 1 + rawlev, rawlev
@@ -409,7 +409,7 @@ newTalent{
 		self:talentTemporaryValue(p, "alchemy_golem", {healing_factor=t.getHealingFactor(self, t)})
 	end,
 	info = function(self, t)
-		if not self.alchemy_golem then return "Improves your golem's armour training, damage resistance, and healing efficiency." end
+		if not self.alchemy_golem then return _t"Improves your golem's armour training, damage resistance, and healing efficiency." end
 		local rawlev = self:getTalentLevelRaw(t)
 		local oldh, olda = self.alchemy_golem.talents[Talents.T_THICK_SKIN], self.alchemy_golem.talents[Talents.T_GOLEM_ARMOUR]
 		self.alchemy_golem.talents[Talents.T_THICK_SKIN], self.alchemy_golem.talents[Talents.T_GOLEM_ARMOUR] = rawlev, 1 + rawlev

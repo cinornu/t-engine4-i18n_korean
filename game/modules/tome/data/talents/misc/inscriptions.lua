@@ -103,7 +103,7 @@ newInscription{
 			return cut + poison + disease
 		end
 	},
-	is_heal = true,
+	is_heal = true, ignore_is_heal_test = true,
 	no_energy = true,
 	action = function(self, t)
 		local data = self:getInscriptionData(t.short_name)
@@ -113,9 +113,9 @@ newInscription{
 		self:attr("disable_ancestral_life", -1)
 		self:attr("allow_on_heal", -1)
 
-		self:removeEffectsFilter(function(e) return e.subtype.wound end, 1)
-		self:removeEffectsFilter(function(e) return e.subtype.poison end, 1)
-		self:removeEffectsFilter(function(e) return e.subtype.disease end, 1)
+		self:removeEffectsFilter(self, function(e) return e.subtype.wound end, 1)
+		self:removeEffectsFilter(self, function(e) return e.subtype.poison end, 1)
+		self:removeEffectsFilter(self, function(e) return e.subtype.disease end, 1)
 
 		if core.shader.active(4) then
 			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=true , size_factor=1.5, y=-0.3, img="healgreen", life=25}, {type="healing", time_factor=2000, beamsCount=20, noup=2.0}))
@@ -153,9 +153,9 @@ newInscription{
 		local force = {}
 		local removed = 0
 
-		removed = target:removeEffectsFilter({types=data.what, subtype={["cross tier"] = true}, status="detrimental"})
+		removed = target:removeEffectsFilter(self, {types=data.what, subtype={["cross tier"] = true}, status="detrimental"})
 		for k,v in pairs(data.what) do
-			removed = removed + target:removeEffectsFilter({type=k, status="detrimental"}, 1)
+			removed = removed + target:removeEffectsFilter(self, {type=k, status="detrimental"}, 1)
 		end
 
 		if removed > 0 then
@@ -345,11 +345,11 @@ newInscription{
 	end,
 	info = function(self, t)
 		local data = self:getInscriptionData(t.short_name)
-		return ([[Activate the rune to create a protective shield absorbing at most %d damage for %d turns.]]):tformat((data.power + data.inc_stat) * (100 + (self:attr("shield_factor") or 0)) / 100, data.dur)
+		return ([[Activate the rune to create a protective shield absorbing at most %d damage for %d turns.]]):tformat(self:getShieldAmount(data.power + data.inc_stat), self:getShieldDuration(data.dur))
 	end,
 	short_info = function(self, t)
 		local data = self:getInscriptionData(t.short_name)
-		return ([[absorb %d; dur %d; cd %d]]):tformat((data.power + data.inc_stat) * (100 + (self:attr("shield_factor") or 0)) / 100, data.dur, data.cooldown)
+		return ([[absorb %d; dur %d; cd %d]]):tformat(self:getShieldAmount(data.power + data.inc_stat), self:getShieldDuration(data.dur), data.cooldown)
 	end,
 }
 
@@ -361,27 +361,37 @@ newInscription{
 	allow_autocast = true,
 	no_energy = true,
 	tactical = { DEFEND = 2 },
+	getPower = function(self, t)
+		local data = self:getInscriptionData(t.short_name)
+		if data.power and data.inc_stat then 
+			return data.power + data.inc_stat
+		else
+			return 100+5*self:getMag()
+		end
+	end,
+	getDuration = function(self, t)
+		local data = self:getInscriptionData(t.short_name)
+		return data.dur or 5
+	end,
 	on_pre_use = function(self, t)
 		return not self:hasEffect(self.EFF_DAMAGE_SHIELD)
 	end,
 	action = function(self, t)
-		local data = self:getInscriptionData(t.short_name)
-		local power = 100+5*self:getMag()
-		if data.power and data.inc_stat then power = data.power + data.inc_stat end
-		self:setEffect(self.EFF_DAMAGE_SHIELD, data.dur or 5, {power=power, reflect=100})
+		local power = t.getPower(self, t)
+		local dur = t.getDuration(self, t)
+		self:setEffect(self.EFF_DAMAGE_SHIELD, dur, {power=power, reflect=100})
 		return true
 	end,
 	info = function(self, t)
-		local data = self:getInscriptionData(t.short_name)
-		local power = 100+5*self:getMag()
-		if data.power and data.inc_stat then power = data.power + data.inc_stat end
-		return ([[Activate the rune to create a protective shield absorbing and reflecting at most %d damage for %d turns.]]):tformat(power, data.dur or 5)
+		local power = t.getPower(self, t)
+		local dur = t.getDuration(self, t)
+		return ([[Activate the rune to create a protective shield absorbing and reflecting at most %d damage for %d turns.]]):tformat(self:getShieldAmount(power), self:getShieldDuration(dur))
 	end,
 	short_info = function(self, t)
 		local data = self:getInscriptionData(t.short_name)
-		local power = 100+5*self:getMag()
-		if data.power and data.inc_stat then power = data.power + data.inc_stat end
-		return ([[absorb and reflect %d; dur %d; cd %d]]):tformat(power, data.dur or 5, data.cd)
+		local power = t.getPower(self, t)
+		local dur = t.getDuration(self, t)
+		return ([[absorb and reflect %d; dur %d; cd %d]]):tformat(self:getShieldAmount(power), self:getShieldDuration(dur), data.cd)
 	end,
 }
 
@@ -653,7 +663,7 @@ newInscription{
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
 		if not x then return end
-		if not self:hasLOS(x, y) then return end
+		if not self:hasLOS(x, y) or game.level.map:checkEntity(x, y, Map.TERRAIN, "block_move") then return end
 
 		local _ _, x, y = self:canProject(tg, x, y)
 		local rad = 0
@@ -673,7 +683,7 @@ newInscription{
 		local data = self:getInscriptionData(t.short_name)
 		local power = data.power + data.inc_stat * 3
 		return ([[Activate the rune to teleport up to %d spaces within line of sight.  Afterwards you stay out of phase for %d turns. In this state all new negative status effects duration is reduced by %d%%, your defense is increased by %d and all your resistances by %d%%.]]):
-			tformat(data.range + data.inc_stat, t.getDur(self, t), power, power, power)
+			tformat(t.range(self, t), t.getDur(self, t), power, power, power)
 	end,
 	short_info = function(self, t)
 		local data = self:getInscriptionData(t.short_name)
@@ -824,61 +834,62 @@ newInscription{
 		return res
 	end,
 	action = function(self, t)
-			if not self:canBe("summon") then game.logPlayer(self, "You cannot summon; you are suppressed!") return end
+		if not self:canBe("summon") then game.logPlayer(self, "You cannot summon; you are suppressed!") return end
 
-			-- Find all actors in radius 10 and add them to a table
-			local tg = {type="ball", radius=self.sight}
-			local grids = self:project(tg, self.x, self.y, function() end)
-			local tgts = {}
-			for x, ys in pairs(grids) do for y, _ in pairs(ys) do
-				local target = game.level.map(x, y, Map.ACTOR)
-				if target and self:reactionToward(target) < 0 then tgts[#tgts+1] = target end
-			end end
+		-- Find all actors in radius 10 and add them to a table
+		local tg = {type="ball", radius=self.sight}
+		local grids = self:project(tg, self.x, self.y, function() end)
+		local tgts = {}
+		for x, ys in pairs(grids) do for y, _ in pairs(ys) do
+			local target = game.level.map(x, y, Map.ACTOR)
+			if target and self:reactionToward(target) < 0 then tgts[#tgts+1] = target end
+		end end
 
-			for _ = 1,3 do
-				local target = rng.tableRemove(tgts)
-				if target then
-					local tx, ty = util.findFreeGrid(target.x, target.y, 10, true, {[Map.ACTOR]=true})
-					if tx then
-						local Talents = require "engine.interface.ActorTalents"
-						local NPC = require "mod.class.NPC"
-						local caster = self
-						local image = NPC.new{
-							name = _t"Mirror Image",
-							type = "image", subtype = "image",
-							ai = "summoned", ai_real = nil, ai_state = { talent_in=1, }, ai_target = {actor=nil},
-							desc = _t"A blurred image.",
-							image = caster.image,
-							add_mos = caster.add_mos, -- this is horribly wrong isn't it?  seems to work though
-							shader = "shadow_simulacrum", shader_args = { color = {0.0, 0.4, 0.8}, base = 0.6, time_factor = 1500 },
-							exp_worth=0,
-							max_life = caster.max_life,
-							life = caster.max_life, -- We don't want to make this only useful before you take damage
-							combat_armor_hardiness = caster:combatArmorHardiness(),
-							combat_def = caster:combatDefense(),
-							combat_armor = caster:combatArmor(),
-							size_category = caster.size_category,
-							resists = t.getInheritedResist(self, t),
-							rank = 1,
-							life_rating = 0,
-							cant_be_moved = 1,
-							never_move = 1,
-							never_anger = true,
-							resolvers.talents{
-								[Talents.T_TAUNT]=1, -- Add the talent so the player can see it even though we cast it manually
-							},
-							on_act = function(self) -- avoid any interaction with .. uh, anything
-								self:forceUseTalent(self.T_TAUNT, {ignore_cd=true, no_talent_fail = true})
-							end,
-							faction = caster.faction,
-							summoner = caster,
-							summon_time=t.getDur(self, t),
-							no_breath = 1,
-							remove_from_party_on_death = true,
-						}
+		for _ = 1,3 do
+			local target = rng.tableRemove(tgts)
+			if target then
+				local tx, ty = util.findFreeGrid(target.x, target.y, 10, true, {[Map.ACTOR]=true})
+				if tx then
+					local Talents = require "engine.interface.ActorTalents"
+					local NPC = require "mod.class.NPC"
+					local caster = self
+					local image = NPC.new{
+						name = _t"Mirror Image",
+						type = "image", subtype = "image",
+						ai = "summoned", ai_real = nil, ai_state = { talent_in=1, }, ai_target = {actor=nil},
+						desc = _t"A blurred image.",
+						image = caster.image,
+						add_mos = table.clone(caster.add_mos, true),
+						shader = "shadow_simulacrum", shader_args = { color = {0.0, 0.4, 0.8}, base = 0.6, time_factor = 1500 },
+						exp_worth=0,
+						max_life = caster.max_life,
+						life = caster.max_life, -- We don't want to make this only useful before you take damage
+						combat_armor_hardiness = caster:combatArmorHardiness(),
+						combat_def = caster:combatDefense(),
+						combat_armor = caster:combatArmor(),
+						size_category = caster.size_category,
+						resists = t.getInheritedResist(self, t),
+						rank = 1,
+						life_rating = 0,
+						cant_be_moved = 1,
+						never_move = 1,
+						never_anger = true,
+						resolvers.talents{
+							[Talents.T_TAUNT]=1, -- Add the talent so the player can see it even though we cast it manually
+						},
+						on_act = function(self) -- avoid any interaction with .. uh, anything
+							self:forceUseTalent(self.T_TAUNT, {ignore_cd=true, no_talent_fail = true})
+						end,
+						faction = caster.faction,
+						summoner = caster,
+						summon_time=t.getDur(self, t),
+						no_breath = 1,
+						remove_from_party_on_death = true,
+					}
 
-						image:resolve()
-						game.zone:addEntity(game.level, image, "actor", tx, ty)
+					image:resolve()
+					game.zone:addEntity(game.level, image, "actor", tx, ty)
+					if game.party:hasMember(self) then
 						game.party:addMember(image, {
 							control=false,
 							type="summon",
@@ -886,11 +897,12 @@ newInscription{
 							temporary_level = true,
 							orders = {},
 						})
-
-						image:forceUseTalent(image.T_TAUNT, {ignore_cd=true, no_talent_fail = true})
 					end
+
+					image:forceUseTalent(image.T_TAUNT, {ignore_cd=true, no_talent_fail = true})
 				end
 			end
+		end
 
 		return true
 	end,
@@ -927,6 +939,9 @@ newInscription{
 		local data = self:getInscriptionData(t.short_name)
 		return data.shield + data.inc_stat
 	end,
+	getDuration = function(self, t)
+		return 3
+	end,
 	on_pre_use = function(self, t)
 		if next(self:effectsFilter({type="physical", status="detrimental"}, 1)) then return true end
 		if next(self:effectsFilter({type="magical", status="detrimental"}, 1)) then return true end
@@ -937,16 +952,16 @@ newInscription{
 	action = function(self, t)
 		local data = self:getInscriptionData(t.short_name)
 		
-		local crosstiers = self:removeEffectsFilter({subtype={["cross tier"] = true}, status="detrimental"}, 3)
+		local crosstiers = self:removeEffectsFilter(self, {subtype={["cross tier"] = true}, status="detrimental"}, 3)
 		local cleansed = 0
-		cleansed = cleansed + self:removeEffectsFilter({type="physical", status="detrimental"}, 1)
-		cleansed = cleansed + self:removeEffectsFilter({type="magical", status="detrimental"}, 1)
-		cleansed = cleansed + self:removeEffectsFilter({type="mental", status="detrimental"}, 1)
+		cleansed = cleansed + self:removeEffectsFilter(self, {type="physical", status="detrimental"}, 1)
+		cleansed = cleansed + self:removeEffectsFilter(self, {type="magical", status="detrimental"}, 1)
+		cleansed = cleansed + self:removeEffectsFilter(self, {type="mental", status="detrimental"}, 1)
 
 		if crosstiers == 0 and cleansed == 0 then return nil end
 
 		if cleansed > 0 then
-			self:setEffect(self.EFF_DAMAGE_SHIELD, 3, {power=(data.shield + data.inc_stat) * cleansed})
+			self:setEffect(self.EFF_DAMAGE_SHIELD, t.getDuration(self, t), {power=(data.shield + data.inc_stat) * cleansed})
 		else
 			game:onTickEnd(function() self:alterTalentCoolingdown(t.id, -math.floor((self.talents_cd[t.id] or 0) * 0.75)) end)
 		end
@@ -955,13 +970,13 @@ newInscription{
 	end,
 	info = function(self, t)
 		return ([[Activate the rune to instantly dissipate the energy of your ailments, cleansing all cross tier effects and 1 physical, mental, and magical effect.
-		You use the dissipated energy to create a shield lasting 3 turns and blocking %d damage per debuff cleansed (not counting cross-tier ones).
+		You use the dissipated energy to create a shield lasting %d turns and blocking %d damage per debuff cleansed (not counting cross-tier ones).
 		If there were only cross-tier effects to cleanse, no shield is created and the rune goes on a 75%% reduced cooldown.]])
-		:tformat(t.getShield(self, t) * (100 + (self:attr("shield_factor") or 0)) / 100)
+		:tformat(self:getShieldDuration(t.getDuration(self, t)), self:getShieldAmount(t.getShield(self, t)))
 	end,
 	short_info = function(self, t)
 		local data = self:getInscriptionData(t.short_name)
-		return ([[absorb %d; cd %d]]):tformat(t.getShield(self, t) * (100 + (self:attr("shield_factor") or 0)) / 100, data.cooldown)
+		return ([[absorb %d; cd %d]]):tformat(self:getShieldAmount(t.getShield(self, t)), data.cooldown)
 	end,
 }
 
@@ -991,7 +1006,7 @@ newInscription{
 		if not (x and y) or not target or not self:canProject(tg, x, y) then return nil end
 
 		if self:reactionToward(target) < 0 then
-			target:removeSustainsFilter(function(o)
+			target:removeSustainsFilter(self, function(o)
 				if o.type == "magical" or o.is_spell then
 					if o.status and o.status == "detrimental" then return false end
 					return true
@@ -1000,7 +1015,7 @@ newInscription{
 			end,
 			8)
 		else
-			target:removeEffectsFilter({type="magical", status="detrimental"}, 999)
+			target:removeEffectsFilter(self, {type="magical", status="detrimental"}, 999)
 		end
 
 		game:playSoundNear(self, "talents/spell_generic")
@@ -1237,7 +1252,7 @@ newInscription{
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
 		self:project(tg, x, y, DamageType.ICE, data.power + data.inc_stat, {type="freeze"})
-		self:removeEffectsFilter({status="detrimental", type="mental", ignore_crosstier=true}, 1)
+		self:removeEffectsFilter(self, {status="detrimental", type="mental", ignore_crosstier=true}, 1)
 		game:playSoundNear(self, "talents/ice")
 		attack_rune(self, t.id)
 		return true
@@ -1286,7 +1301,7 @@ newInscription{
 		self:project(tg, x, y, DamageType.FIREBURN, {dur=5, initial=0, dam=data.power + data.inc_stat})
 		local _ _, x, y = self:canProject(tg, x, y)
 		game.level.map:particleEmitter(self.x, self.y, tg.radius, "flamebeam", {tx=x-self.x, ty=y-self.y})
-		self:removeEffectsFilter({status="detrimental", type="physical", ignore_crosstier=true}, 1)
+		self:removeEffectsFilter(self, {status="detrimental", type="physical", ignore_crosstier=true}, 1)
 		game:playSoundNear(self, "talents/fire")
 		attack_rune(self, t.id)
 		return true
@@ -1502,7 +1517,7 @@ newInscription{
 		local x, y = self:getTarget(tg)
 		if not x or not y then return nil end
 		self:projectile(tg, x, y, DamageType.INSIDIOUS_POISON, {dam=data.power + data.inc_stat, dur=7, heal_factor=data.heal_factor}, {type="slime"})
-		self:removeEffectsFilter({status="detrimental", type="magical", ignore_crosstier=true}, 1)
+		self:removeEffectsFilter(self, {status="detrimental", type="magical", ignore_crosstier=true}, 1)
 		game:playSoundNear(self, "talents/slime")
 		return true
 	end,

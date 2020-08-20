@@ -62,10 +62,25 @@ function _M:init(actor, levelup_end_prodigies)
 	self.actor:learnTalentType("uber/magic", true)
 	self.actor:learnTalentType("uber/willpower", true)
 	self.actor:learnTalentType("uber/cunning", true)
+
+	self.fake_evol_attr = 0
+	for tid, v in pairs(self.levelup_end_prodigies) do if v then
+		local t = self.actor:getTalentFromId(tid)
+		if t.is_class_evolution or t.is_race_evolution then
+			self.fake_evol_attr = self.fake_evol_attr + 1
+			self.actor:attr("has_evolution", 1)
+		end
+	end end
+	self.actor.is_in_uber_dialog = self
 end
 
 function _M:on_register()
 	game:onTickEnd(function() self.key:unicodeInput(true) end)
+end
+
+function _M:unload()
+	if self.fake_evol_attr > 0 then self.actor:attr("has_evolution", -self.fake_evol_attr) end
+	self.actor.is_in_uber_dialog = nil
 end
 
 function _M:ignoreUnlocks()
@@ -186,16 +201,26 @@ function _M:createDisplay()
 end
 
 function _M:use(item)
+	local t = self.actor:getTalentFromId(item.talent)
 	if self.actor:knowTalent(item.talent) then
 	elseif self.levelup_end_prodigies[item.talent] then
 		self.levelup_end_prodigies[item.talent] = false
 		self.actor.unused_prodigies = self.actor.unused_prodigies + 1
+		if t.is_class_evolution or t.is_race_evolution then
+			self.actor:attr("has_evolution", -1)
+			self.fake_evol_attr = self.fake_evol_attr - 1
+		end
 		self.c_tut.text = self.tuttext:format(self.actor.unused_prodigies or 0)
 		self.c_tut:generate()
-	elseif (self.actor:canLearnTalent(self.actor:getTalentFromId(item.talent)) and self.actor.unused_prodigies > 0) or config.settings.cheat then
+	elseif (self.actor:canLearnTalent(self.actor:getTalentFromId(item.talent)) and self.actor.unused_prodigies > 0) then
+	-- elseif (self.actor:canLearnTalent(self.actor:getTalentFromId(item.talent)) and self.actor.unused_prodigies > 0) or config.settings.cheat then
 		if not self.levelup_end_prodigies[item.talent] then
 			self.levelup_end_prodigies[item.talent] = true
 			self.actor.unused_prodigies = math.max(0, self.actor.unused_prodigies - 1)
+			if t.is_class_evolution or t.is_race_evolution then
+				self.actor:attr("has_evolution", 1)
+				self.fake_evol_attr = self.fake_evol_attr + 1
+			end
 		end
 		self.c_tut.text = self.tuttext:format(self.actor.unused_prodigies or 0)
 		self.c_tut:generate()

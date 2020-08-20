@@ -123,7 +123,7 @@ function _M:custom(lev, old_lev)
 
 	if ret then
 		return ret
-	elseif self.force_regen then
+	elseif self.force_regen or (self.force_redo and next(self.maps_registers)) then
 		return nil
 	elseif self.force_redo then
 		return self:custom(lev, old_lev)
@@ -144,7 +144,7 @@ function _M:generate(lev, old_lev)
 	end
 
 	-- We do it AFTER importing submaps to ensure entities on them are correctly released
-	if self.force_regen then self.level.force_recreate = true return false end
+	if self.force_regen or (self.force_redo and next(self.maps_registers)) then self.level.force_recreate = true return false end
 
 	if not self.entrance_pos then self.entrance_pos = data:locateTile('<') end
 	if not self.exit_pos then self.exit_pos = data:locateTile('>') end

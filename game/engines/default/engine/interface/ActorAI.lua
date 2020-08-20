@@ -71,6 +71,9 @@ function _M:autoLoadedAI()
 
 	self.ai_actors_seen = self.ai_actors_seen or {}
 	setmetatable(self.ai_actors_seen, {__mode='k'})
+
+	-- Rebuild volative ai state, as it is not saved
+	self.ai_state_volatile = self.ai_state_volatile or {}
 end
 
 function _M:aiCanPass(x, y)

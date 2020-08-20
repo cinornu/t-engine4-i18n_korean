@@ -86,6 +86,9 @@ newEntity{ base = "BASE_NPC_MINOTAUR",
 	max_mana = 100,
 	resolvers.talents{
 		[Talents.T_FLAME]={base=3, every=8, max=6},
-		[Talents.T_FIREFLASH]={base=2, every=10, max=6}
+		[Talents.T_FIREFLASH]={base=2, every=10, max=6},
+		[Talents.T_ARCANE_COMBAT]={base=2, every=10, max=4},
+		[Talents.T_STUNNING_BLOW]={base=3, every=10, max=6},
+		[Talents.T_SUNDER_ARMOUR]={base=2, every=10, max=5},
 	},
 }

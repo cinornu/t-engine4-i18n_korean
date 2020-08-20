@@ -186,7 +186,7 @@ newTalent{
 		local target = game.level.map(x, y, Map.ACTOR)
 		if not x or not y or not target then return nil end
 
-		target:setEffect(target.EFF_ENTROPY, t.getDuration(self, t), {apply_power=getParadoxSpellpower(self, t)})
+		target:setEffect(target.EFF_ENTROPY, t.getDuration(self, t), {src=self, apply_power=getParadoxSpellpower(self, t)})
 
 		game:playSoundNear(self, "talents/dispel")
 

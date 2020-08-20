@@ -169,11 +169,7 @@ newTalent{
 
 				if self:checkHit(self:combatSpellpower(), target:combatSpellResist(), 0, 95, 5) then
 					target:crossTierEffect(target.EFF_SPELLSHOCKED, self:combatSpellpower())
-					if eff[1] == "effect" then
-						target:removeEffect(eff[2])
-					else
-						target:forceUseTalent(eff[2], {ignore_energy=true})
-					end
+					target:dispel(eff[2], self)
 				end
 			end
 

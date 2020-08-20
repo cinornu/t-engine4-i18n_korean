@@ -149,7 +149,7 @@ newTalent {
 		return math.floor(self:combatTalentScale(t, 2, 4))
 	end,
 	target = function(self, t)
-		return {type="beam", talent=t, range=self:getTalentRange(t),
+		return {type="beam", talent=t, no_lock=true, range=self:getTalentRange(t),
 			-- Set up grid_params. Desired range depends on if we have a target and the current tactic.
 			grid_params = {want_range=(not self.ai_target.actor or self.ai_state.tactic == "escape") and 10 + self:getTalentCooldown(t) or 0, max_delta=-1}
 		}

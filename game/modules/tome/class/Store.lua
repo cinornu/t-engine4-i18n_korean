@@ -280,6 +280,12 @@ end
 --- Actor interacts with the store
 -- @param who the actor who interacts
 function _M:interact(who, name)
+	-- Nice try
+	if who.no_inventory_access then
+		game.logPlayer(who, "This entity can not access inventories.") 
+		return
+	end
+
 	-- Lore-ize me?
 	if who.level < (self.store.minimum_level or 0) then 
 		game.logPlayer(who, "You must be level %d to access this shop.", self.store.minimum_level or 0) 

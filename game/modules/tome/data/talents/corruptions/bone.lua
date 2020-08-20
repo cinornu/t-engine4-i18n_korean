@@ -73,60 +73,55 @@ newTalent{
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 5, 140) end,
 	action = function(self, t)
 		local tg = {type="bolt", range=self:getTalentRange(t), friendlyblock=false, talent=t}
-		local x, y = self:getTarget(tg)
-		if not x or not y then return nil end
-
+		local x, y, target = self:getTargetLimited(tg)
+		if not target or target == self then return nil end
+		
 		local dam = self:spellCrit(t.getDamage(self, t))
-		self:project(tg, x, y, function(px, py)
-			local target = game.level.map(px, py, engine.Map.ACTOR)
-			if not target then return end
-
-			if core.fov.distance(self.x, self.y, target.x, target.y) > 1 then
-				DamageType:get(DamageType.PHYSICAL).projector(self, target.x, target.y, DamageType.PHYSICAL, dam)
-				if target:canBe("pin") then
-					target:setEffect(target.EFF_BONE_GRAB, t.getDuration(self, t), {apply_power=self:combatSpellpower()})
-				else
-					game.logSeen(target, "%s resists the pin!", target:getName():capitalize())
-				end
-
-				local hit = self:checkHit(self:combatSpellpower(), target:combatSpellResist() + (target:attr("continuum_destabilization") or 0))
-				if not target:canBe("teleport") or not hit then
-					game.logSeen(target, "%s resists being teleported by Bone Grab!", target:getName():capitalize())
-					return true
-				end
-
-				-- Grab the closest adjacent grid that doesn't have block_move or no_teleport
-				local grid = util.closestAdjacentCoord(self.x, self.y, target.x, target.y, true, function(x, y) return game.level.map.attrs(x, y, "no_teleport") end)							
-				if not grid then return true end
-				target:teleportRandom(grid[1], grid[2], 0)				
+		if core.fov.distance(self.x, self.y, target.x, target.y) > 1 then
+			DamageType:get(DamageType.PHYSICAL).projector(self, target.x, target.y, DamageType.PHYSICAL, dam)
+			if target:canBe("pin") then
+				target:setEffect(target.EFF_BONE_GRAB, t.getDuration(self, t), {apply_power=self:combatSpellpower()})
 			else
-				local tg = {type="cone", cone_angle=90, range=0, radius=6, friendlyfire=false}
-				
-				local grids = {}
-				self:project(tg, x, y, function(px, py)
-					if game.level.map(tx, ty, engine.Map.ACTOR) then return end
-					grids[#grids+1] = {px, py, core.fov.distance(self.x, self.y, px, py)}
-				end)
-				table.sort(grids, function(a, b) return a[3] > b[3] end )
-
-				DamageType:get(DamageType.PHYSICAL).projector(self, target.x, target.y, DamageType.PHYSICAL, dam)
-				if target:canBe("pin") then
-					target:setEffect(target.EFF_BONE_GRAB, t.getDuration(self, t), {apply_power=self:combatSpellpower()})
-				else
-					game.logSeen(target, "%s resists the pin!", target:getName():capitalize())
-				end
-
-				local hit = self:checkHit(self:combatSpellpower(), target:combatSpellResist() + (target:attr("continuum_destabilization") or 0))
-				if not target:canBe("teleport") or not hit then
-					game.logSeen(target, "%s resists being teleported by Bone Grab!", target:getName():capitalize())
-					return true
-				end
-				
-				if #grids <= 0 then return end
-				target:teleportRandom(grids[1][1], grids[1][2], 0)
+				game.logSeen(target, "%s resists the pin!", target:getName():capitalize())
 			end
-		end)
-			game:playSoundNear(self, "talents/arcane")
+
+			local hit = self:checkHit(self:combatSpellpower(), target:combatSpellResist() + (target:attr("continuum_destabilization") or 0))
+			if not target:canBe("teleport") or not hit then
+				game.logSeen(target, "%s resists being teleported by Bone Grab!", target:getName():capitalize())
+				return true
+			end
+
+			-- Grab the closest adjacent grid that doesn't have block_move or no_teleport
+			local grid = util.closestAdjacentCoord(self.x, self.y, target.x, target.y, true, function(x, y) return game.level.map.attrs(x, y, "no_teleport") end)							
+			if not grid then return true end
+			target:teleportRandom(grid[1], grid[2], 0)				
+		else
+			local tg = {type="cone", cone_angle=90, range=0, radius=6, friendlyfire=false}
+			
+			local grids = {}
+			self:project(tg, x, y, function(px, py)
+				if game.level.map(tx, ty, engine.Map.ACTOR) then return end
+				grids[#grids+1] = {px, py, core.fov.distance(self.x, self.y, px, py)}
+			end)
+			table.sort(grids, function(a, b) return a[3] > b[3] end )
+
+			DamageType:get(DamageType.PHYSICAL).projector(self, target.x, target.y, DamageType.PHYSICAL, dam)
+			if target:canBe("pin") then
+				target:setEffect(target.EFF_BONE_GRAB, t.getDuration(self, t), {apply_power=self:combatSpellpower()})
+			else
+				game.logSeen(target, "%s resists the pin!", target:getName():capitalize())
+			end
+
+			local hit = self:checkHit(self:combatSpellpower(), target:combatSpellResist() + (target:attr("continuum_destabilization") or 0))
+			if not target:canBe("teleport") or not hit then
+				game.logSeen(target, "%s resists being teleported by Bone Grab!", target:getName():capitalize())
+				return true
+			end
+			
+			if #grids <= 0 then return end
+			target:teleportRandom(grids[1][1], grids[1][2], 0)
+		end
+		game:playSoundNear(self, "talents/arcane")
 		return true
 	end,
 	info = function(self, t)

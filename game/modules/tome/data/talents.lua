@@ -71,6 +71,11 @@ Talents.newTalent = function(self, t)
 		t.name = ("#SANDY_BROWN#%s (Race Evolution)"):tformat(_t(t.name))
 	end
 
+	-- Generate easier, reverse parameters, calls for methods
+	for k, e in pairsclone(t) do if type(e) == "function" and type(k) == "string" then
+		t["_"..k] = function(t, self, ...) return e(self, t, ...) end
+	end end
+
 	return oldNewTalent(self, t)
 end
 

@@ -186,7 +186,9 @@ function _M:targetMode(v, msg, co, typ)
 			end
 			if do_scan then
 				local filter = nil
-				if not (type(typ) == "table" and typ.no_first_target_filter) then
+				if typ.custom_scan_filter then
+					filter = typ.custom_scan_filter
+				elseif not (type(typ) == "table" and typ.no_first_target_filter) then
 					if type(typ) == "table" and typ.first_target and typ.first_target == "friend" then
 						filter = function(a) return self.player:reactionToward(a) >= 0 end
 					else

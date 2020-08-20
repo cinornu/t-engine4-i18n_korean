@@ -59,6 +59,7 @@ local frames_colors = {
 air_c = {0x92/255, 0xe5, 0xe8}
 air_sha = Shader.new("resources", {require_shader=4, delay_load=true, color=air_c, speed=100, amp=0.8, distort={2,2.5}})
 life_c = {0xc0/255, 0, 0}
+neg_life_c = {0x50/255, 0, 0}
 life_sha = Shader.new("resources", {require_shader=4, delay_load=true, color=life_c, speed=1000, distort={1.5,1.5}})
 shield_c = {0.5, 0.5, 0.5}
 shield_sha = Shader.new("resources", {require_shader=4, delay_load=true, color=shield_c, speed=5000, a=0.5, distort={0.5,0.5}})
@@ -768,10 +769,14 @@ function _M:displayResources(scale, bx, by, a)
 		-- Life & shield
 		sshat[1]:toScreenFull(x-6, y+8, sshat[6], sshat[7], sshat[2], sshat[3], 1, 1, 1, a)
 		bshat[1]:toScreenFull(x, y, bshat[6], bshat[7], bshat[2], bshat[3], 1, 1, 1, a)
-		if life_sha.shad then life_sha:setUniform("a", a) life_sha.shad:use(true) end
-		local p = math.min(1, math.max(0, player.life / player.max_life))
-		shat[1]:toScreenPrecise(x+49, y+10, shat[6] * p, shat[7], 0, p * 1/shat[4], 0, 1/shat[5], life_c[1], life_c[2], life_c[3], a)
+		local bar_c = player.life < 0 and neg_life_c or life_c
+		if life_sha.shad then life_sha:setUniform("a", a) life_sha:setUniform("color", bar_c) life_sha.shad:use(true) end
+		local p = math.min(1, math.max(0, (player.life - player.die_at) / (player.max_life - player.die_at)))
+		shat[1]:toScreenPrecise(x+49, y+10, shat[6] * p, shat[7], 0, p * 1/shat[4], 0, 1/shat[5], bar_c[1], bar_c[2], bar_c[3], a)
 		if life_sha.shad then life_sha.shad:use(false) end
+		if player.die_at ~= 0 then
+			core.display.drawQuad(x+49 + shat[6] * (-player.die_at / (player.max_life - player.die_at)), y+10, 2, shat[7], 0, 0, 0, 255)
+		end
 
 		local life_regen = player.life_regen * util.bound((player.healing_factor or 1), 0, 2.5)
 		if not self.res.life or self.res.life.vc ~= player.life or self.res.life.vm ~= player.max_life or self.res.life.vr ~= life_regen then
@@ -1164,7 +1169,7 @@ function _M:handleEffect(player, eff_id, e, p, x, y, hs, bx, by, is_first, scale
 			txt.fw, txt.fh = font:size(dur)
 		end
 		if e.charges then
-			local font = e.decrease > 0 and self.buff_font_smallmed or self.buff_font
+			local font = (e.decrease > 0 or e.charges_smallfont) and self.buff_font_smallmed or self.buff_font
 
 			txt2 = font:draw(charges, 40, colors.WHITE.r, colors.WHITE.g, colors.WHITE.b, true)[1]
 			txt2.fw, txt2.fh = font:size(charges)
