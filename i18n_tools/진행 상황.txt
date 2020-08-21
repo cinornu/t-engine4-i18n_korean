@@ -545,6 +545,20 @@ section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
 
 section "game/modules/tome/data/general/objects/egos/ammo.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/amulets.lua"
+section "game/modules/tome/data/general/objects/egos/armor.lua"
+section "game/modules/tome/data/general/objects/egos/belt.lua"
+section "game/modules/tome/data/general/objects/egos/boots.lua"
+section "game/modules/tome/data/general/objects/egos/bow.lua"
+section "game/modules/tome/data/general/objects/egos/charged-attack.lua"
+section "game/modules/tome/data/general/objects/egos/charged-defensive.lua"
+section "game/modules/tome/data/general/objects/egos/charged-utility.lua"
+section "game/modules/tome/data/general/objects/egos/charms.lua"
+section "game/modules/tome/data/general/objects/egos/cloak.lua"
+section "game/modules/tome/data/general/objects/egos/digger.lua"
+section "game/modules/tome/data/general/objects/egos/gloves.lua"
+section "game/modules/tome/data/general/objects/egos/heavy-armor.lua"
+section "game/modules/tome/data/general/objects/egos/helm.lua"
 
 
 section "game/modules/tome/class/Game.lua" Stéphanois - 기본적인 게임 로그메시지들
