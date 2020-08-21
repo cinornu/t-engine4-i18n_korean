@@ -94,7 +94,7 @@ setFlag("noun_target_sub", function(str, type, noun)
 	end
 end)
 
-setFlag("tformat_special", function(s, locales_args, special, ...)
+setFlag("tformat_special", function(s, tag, locales_args, special, ...)
 	local args
 	if locales_args then
 		local sargs = {...}
@@ -105,7 +105,7 @@ setFlag("tformat_special", function(s, locales_args, special, ...)
 	else
 		args = {...}
 	end
-	s = _t(s)
+	s = _t(s, tag)
 	for k, v in pairs(special) do
 		args[k] = addJosa(args[k], v)
 	end

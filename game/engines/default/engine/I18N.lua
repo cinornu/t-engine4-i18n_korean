@@ -80,7 +80,7 @@ _G.default_tformat = function(s, tag, ...)
 	end
 end
 function string.tformat(s, ...)
-	if cur_locale_special[s] then
+	if cur_locale_special["nil"][s] then
 		local args_proc = _getFlagI18N("tformat_special") or default_tformat
 		return args_proc(s, "tformat", get(cur_locale_args, s, nil), get(cur_locale_special, s, "tformat"), ...)
 	end
