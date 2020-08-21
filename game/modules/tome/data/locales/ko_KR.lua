@@ -1,117 +1,4 @@
 locale "ko_KR"
--- COPY
-forceFontPackage("chinese")
-local function findJosaType(str)
-	local length = str:len()
-	
-	local c1, c2
-	local c3 = str:lower():byte(length)
-	
-	local last = 0
-	if ( length < 3 ) or ( c3 < 128 ) then
-		--@ 여기오면 일단 한글은 아님
-
-		--@ 여기에 숫자나 알파벳인지 검사해서 아니면 마지막 글자 빼고 재귀호출하는 코드 삽입 필요
-		
-		if ( c3 == '1' or c3 == '7' or c3 == '8' or c3 == 'l' or c3 == 'r' ) then
-			last = 8 --@ 한글이 아니고, josa2를 사용하지만 '로'가 맞는 경우
-		elseif ( c3 == '3' or c3 == '6' or c3 == '0' or c3 == 'm' or c3 == 'n' ) then
-			last = 100 --@ 한글이 아니고, josa2를 사용하는 경우
-		end  
-	else --@ 한글로 추정 (정확히는 더 검사가 필요하지만..)
-		c1 = str:byte(length-2)
-		c2 = str:byte(length-1)
-		
-		last = ( (c1-234)*4096 + (c2-128)*64 + (c3-128) - 3072 )%28
-	end
-	
-	return last
-end
-
-local function addJosa(str, temp)
-	local josa1, josa2, index
-
-	if temp == 1 or temp == "가" or temp == "이" then
-		josa1 = "가"
-		josa2 = "이"
-		index = 1
-	elseif temp == 2 or temp == "는" or temp == "은" then
-		josa1 = "는"
-		josa2 = "은"
-		index = 2
-	elseif temp == 3 or temp == "를" or temp == "을" then
-		josa1 = "를"
-		josa2 = "을"
-		index = 3
-	elseif temp == 4 or temp == "로" or temp == "으로" then
-		josa1 = "로"
-		josa2 = "으로"
-		index = 4
-	elseif temp == 5 or temp == "다" or temp == "이다" then
-		josa1 = "다"
-		josa2 = "이다"
-		index = 5
-	elseif temp == 6 or temp == "와" or temp == "과" then
-		josa1 = "와"
-		josa2 = "과"
-		index = 6
-	elseif temp == 7 then
-		josa1 = ""
-		josa2 = "이"
-		index = 7
-	else
-		if type(temp) == string then return str .. temp
-		else return str end 
-	end
-	
-	local type = findJosaType(str)
-	
-	if type == 0 or ( index == 4 and type == 8 ) then
-		return str .. josa1
-	else
-		return str .. josa2
-	end
-end
-
-setFlag("noun_target_sub", function(str, type, noun)
-	if type == "#Source#" then
-		return str:gsub("#Source#", noun):gsub("#Source1#", addJosa(noun, "가")):gsub("#Source2#", addJosa(noun, "는")):gsub("#Source3#", addJosa(noun, "를")):gsub("#Source4#", addJosa(noun, "로")):gsub("#Source5#", addJosa(noun, "다")):gsub("#Source6#", addJosa(noun, "과")):gsub("#Source7#", addJosa(noun, 7))
-	elseif type == "#source#" then
-		return str:gsub("#source#", noun):gsub("#source#", addJosa(noun, "가")):gsub("#source2#", addJosa(noun, "는")):gsub("#source3#", addJosa(noun, "를")):gsub("#source4#", addJosa(noun, "로")):gsub("#source5#", addJosa(noun, "다")):gsub("#source6#", addJosa(noun, "과")):gsub("#source7#", addJosa(noun, 7))
-	elseif type == "#Target#" then
-		return str:gsub("#Target#", noun):gsub("#Target1#", addJosa(noun, "가")):gsub("#Target2#", addJosa(noun, "는")):gsub("#Target3#", addJosa(noun, "를")):gsub("#Target4#", addJosa(noun, "로")):gsub("#Target5#", addJosa(noun, "다")):gsub("#Target6#", addJosa(noun, "과")):gsub("#Target7#", addJosa(noun, 7))
-	elseif type == "#target#" then
-		return str:gsub("#target#", noun):gsub("#target#", addJosa(noun, "가")):gsub("#target2#", addJosa(noun, "는")):gsub("#target3#", addJosa(noun, "를")):gsub("#target4#", addJosa(noun, "로")):gsub("#target5#", addJosa(noun, "다")):gsub("#target6#", addJosa(noun, "과")):gsub("#target7#", addJosa(noun, 7))
-	elseif type == "@Target@" then
-		return str:gsub("@Target@", noun):gsub("@Target@", addJosa(noun, "가")):gsub("@Target2@", addJosa(noun, "는")):gsub("@Target3@", addJosa(noun, "를")):gsub("@Target4@", addJosa(noun, "로")):gsub("@Target5@", addJosa(noun, "다")):gsub("@Target6@", addJosa(noun, "과")):gsub("@Target7@", addJosa(noun, 7))
-	elseif type == "@target@" then
-		return str:gsub("@target@", noun):gsub("@target@", addJosa(noun, "가")):gsub("@target2@", addJosa(noun, "는")):gsub("@target3@", addJosa(noun, "를")):gsub("@target4@", addJosa(noun, "로")):gsub("@target5@", addJosa(noun, "다")):gsub("@target6@", addJosa(noun, "과")):gsub("@target7@", addJosa(noun, 7))
-	elseif str == "@playername@" then
-		return str:gsub("@playername@", noun):gsub("@playername@", addJosa(noun, "가")):gsub("@playername2@", addJosa(noun, "는")):gsub("@playername3@", addJosa(noun, "를")):gsub("@playername4@", addJosa(noun, "로")):gsub("@playername5@", addJosa(noun, "다")):gsub("@playername6@", addJosa(noun, "과")):gsub("@playername7@", addJosa(noun, 7))
-	elseif type == "@npcname@" then
-		return str:gsub("@npcname@", noun):gsub("@npcname@", addJosa(noun, "가")):gsub("@npcname2@", addJosa(noun, "는")):gsub("@npcname3@", addJosa(noun, "를")):gsub("@npcname4@", addJosa(noun, "로")):gsub("@npcname5@", addJosa(noun, "다")):gsub("@npcname6@", addJosa(noun, "과")):gsub("@npcname7@", addJosa(noun, 7))
-	else
-		return str:gsub(type, noun)
-	end
-end)
-
-setFlag("tformat_special", function(s, locales_args, special, ...)
-	local args
-	if locales_args then
-		local sargs = {...}
-		args = {}
-		for sidx, didx in pairs(locales_args) do
-			args[sidx] = sargs[didx]
-		end
-	else
-		args = {...}
-	end
-	s = _t(s)
-	for k, v in pairs(special) do
-		args[k] = addJosa(args[k], v)
-	end
-	return s:format(unpack(args))
-end)
 
 ------------------------------------------------
 section "game/modules/tome/ai/escort.lua"
@@ -470,10 +357,10 @@ t("Welcome to #LIGHT_BLUE#Tales of Maj'Eyal", "#LIGHT_BLUE#테일즈 오브 마�
 t([[%s the level %d %s %s.
 Difficulty: %s / %s
 Campaign: %s
-Exploring level %s of %s.]], [[%s의 레벨 %d %s %s.
+Exploring level %s of %s.]], [[%s 레벨 %d %s %s.
 난이도: %s / %s
 캠페인: %s
-현재 %s 의 %s 층 탐색중.]], "tformat", {2,1,3,4,5,6,7,8,9})
+현재 %s 의 %s 층 탐색중.]], "tformat")
 t([[%s the %s %s.
 Difficulty: %s / %s
 Campaign: %s]], [[%s %s %s.
@@ -802,7 +689,7 @@ t("Combat speed: ", "전투속도: ", "_t")
 t("Casting speed: ", "시전 속도: ", "_t")
 t("Mental speed: ", "사고 속도: ", "_t")
 t("Healing mod.: ", "회복 효율.: ", "_t")
-t("Heals friendly targets nearby when you use a nature summon: ", "당신이 자연적인 소환수를 소환할 시, 우호적인 대상들을 회복시킵니다: ", "_t")
+t("Heals friendly targets nearby when you use a nature summon: ", "당신이 자연적인 소환수를 소환할 시, 아군을 회복시킵니다: ", "_t")
 t("Life leech chance: ", "생명력 강탈 확률: ", "_t")
 t("Life leech: ", "생명력 강탈: ", "_t")
 t("Resource leech chance: ", "원천력 강탈 확률: ", "_t")
@@ -871,13 +758,13 @@ t("Talent on hit(nature): %s (%d%% chance level %d).", "기술 명중 시(자연
 t("Talent on hit(mindpower): %s (%d%% chance level %d).", "기술 명중 시(정신력): %s (%d%% 확률 레벨 %d).", "tformat")
 t("Activating this item is instant.", "이 물품의 사용은 턴을 소모하지 않습니다.", "_t")
 t("It can be used to %s, with %d charges out of %d.", "%s 사용할 수 있습니다. %d 중에서 %d 번 남았습니다.", "tformat", {1,3,2}, {"를"})
-t("Talent %s", "기술 %s", "tformat")
+t("Talent %s", "기술 : %s", "tformat")
 t("all charms", "모든 부적", "_t")
 t([[It can be used to %s
 
 Activation puts %s on cooldown for %d turns.]], [[사용 시 %s
 
-활성화 하면 %s에 %d 턴 동안 재사용 대기시간이 적용됩니다.]], "tformat")
+활성화 시 %s에 %d 턴 동안 재사용 대기시간이 적용됩니다.]], "tformat")
 t([[It can be used to %s
 
 Activation costs %d power out of %d/%d.]], [[사용 시 %s
@@ -886,9 +773,9 @@ Activation costs %d power out of %d/%d.]], [[사용 시 %s
 t("It can be used to %s.", "사용 시 %s.", "tformat")
 t("%d out of %d/%d.", "%d/%d 중 %d 소모.", "tformat", {2,3,1})
 t("Power cost: ", "위력 소모: ", "_t")
-t("It can be used to activate talent %s, placing all other charms into a %s cooldown :", "활성화시 %s 발동되고, 다른 모든 부적에 재사용 대기시간 %s 턴이 적용됩니다 :", "tformat", nil, {"가"})
+t("It can be used to activate talent %s, placing all other charms into a %s cooldown :", "활성화 시 '%s' 발동되고, 다른 모든 부적에 재사용 대기시간 %s 턴이 적용됩니다 :", "tformat")
 t("It can be used to activate talent %s (costing %s power out of %s/%s) :", "활성화시 %s 발동되고, %s/%s 중 %s 소모됩니다 :", "tformat", {1,3,4,2}, {"가"})
-t("When used:", "사용 시:", "_t")
+t("When used:", "사용 시 :", "_t")
 t("%s%% chance to %s", "%s%% 확률로 %s", "tformat")
 t("Newly picked up", "새로 손에 넣음", "_t")
 t("This item will automatically be transmogrified when you leave the level.", "이 당신이 지역을 떠날 때 자동으로 물품을 변환합니다.", "_t")
@@ -4397,6 +4284,7 @@ t("golem", "골렘", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/crystal.lua"
 
+t("crystal", "수정술사", "entity subtype")
 t("elemental", "원소", "entity type")
 t("light", "경갑", "entity subtype")
 
@@ -4460,6 +4348,7 @@ t("elemental", "원소", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/horror-corrupted.lua"
 
+t("corrupted", "부패", "entity subtype")
 t("horror", "공포", "entity type")
 t("drem", "드렘", "entity name")
 
@@ -4477,6 +4366,8 @@ section "game/modules/tome/data/general/npcs/horror.lua"
 
 t("horror", "공포", "entity type")
 t("worm that walks", "걸어다니는 벌레떼", "entity name")
+t("bloated horror", "부풀어오른 공포", "entity name")
+t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 띈 공포가 이곳에 떠있다. 벗겨진, 아이의 것 같은 머리는 몸에 비해 불균형적으로 거대하고 그 피부는 붉은 상처로 곰보 자국이 잔뜩 나있다..", "_t")
 t("+Blind", "+실명", "_t")
 t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "머리가 없는 둥근 생명체로, 짧은 다리와 팔을 갖고 있다. 몸 전체가 이빨로만 이루어저 있는 것 같다.", "_t")
 t("eldritch", "섬뜩한 자", "entity subtype")
@@ -5021,7 +4912,7 @@ section "game/modules/tome/data/general/objects/egos/ammo.lua"
 
 t("barbed ", "가시돋친", "entity name")
 t("barbed", "가시", "entity keyword")
-t("Wound the target dealing #RED#%d#LAST# physical damage across 5 turns and reducing healing by %d%%", "대상에 상처를 남겨, 5 턴에 걸쳐 #RED#%d#LAST# 물리 피해를 주고, 회복 효율을 %d%% 낮춥니다.", "tformat")
+t("Wound the target dealing #RED#%d#LAST# physical damage across 5 turns and reducing healing by %d%%", "대상에 상처를 남겨, 5 턴에 걸쳐 #RED#%d#LAST# 물리 피해를 주고, 회복 효율을 %d%% 낮춥니다", "tformat")
 t("deadly ", "죽음의 ", "entity name")
 t("deadly", "죽음", "entity keyword")
 t("high-capacity ", "대용량의 ", "entity name")
@@ -5057,7 +4948,7 @@ t("fire", "화염", "_t")
 t("cold", "냉기", "_t")
 t("lightning", "전기", "_t")
 t("acid", "산성", "_t")
-t("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "폭발을 일으켜 #VIOLET#%d#LAST# %s 피해를 줍니다. 폭발은 한 턴에 1 번 일어납니다.", "tformat")
+t("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "폭발을 일으켜 #VIOLET#%d#LAST# %s 피해를 줍니다. 폭발은 한 턴에 1 번 일어납니다", "tformat")
 t("plaguebringer's ", "질병전파자의 ", "entity name")
 t("plague", "질병", "entity keyword")
 t("sentry's ", "감시자의 ", "entity name")
@@ -5077,7 +4968,7 @@ t("wind", "바람", "entity keyword")
 t("#LIGHT_GREEN#20%%#LAST# chance to create an air burst in radius 3 knocking enemies back 2 spaces and dealing #RED#%d#LAST# physical damage", "#LIGHT_GREEN#20%%#LAST# 확률로 반경 3 칸 범위 내의 공기를 터뜨려 적들을 2 칸 밀치고, #RED#%d#LAST# 물리 피해를 줍니다", "tformat")
 t(" of grasping", " (덩쿨)", "entity name")
 t("grasping", "덩쿨", "entity keyword")
-t("#LIGHT_GREEN#20%%#LAST# chance to create vines that bind the target to the ground dealing #YELLOW#%d#LAST# nature damage and pinning them for 3 turns", "#LIGHT_GREEN#20%%#LAST# 확률로 대상을 속박하는 덩쿨이 옭아매어, #YELLOW#%d#LAST# 자연 피해를 주고 3 턴 동안 속박합니다.", "tformat")
+t("#LIGHT_GREEN#20%%#LAST# chance to create vines that bind the target to the ground dealing #YELLOW#%d#LAST# nature damage and pinning them for 3 turns", "#LIGHT_GREEN#20%%#LAST# 확률로 대상을 속박하는 덩쿨이 옭아매어, #YELLOW#%d#LAST# 자연 피해를 주고 3 턴 동안 속박합니다", "tformat")
 t("%s resists the grasping vines!", "%s 덩쿨에 저항했다!", "logSeen", nil, {"는"})
 t("manaburning ", "마나소각의 ", "entity name")
 t("manaburning", "마나소각", "entity keyword")
@@ -5087,11 +4978,11 @@ t(" of persecution", " (마법사냥)", "entity name")
 t("persecution", "마법 사냥", "entity keyword")
 t("inquisitor's ", "이단 심문관의 ", "entity name")
 t("inquisitors", "이단 심문", "entity keyword")
-t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다. (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has their %s spell disrupted for for %d turns!", "#YELLOW#%s의 %s 주문이 방해되어 %d 턴 동안 사용이 불가능하다!", "logSeen")
 t(" of disruption", " (주문 방해)", "entity name")
 t("disruption", "주문 방해", "entity keyword")
-t("Cause the target to have a 10%% chance to fail spellcasting and 10%% chance to lose a magical sustain each turn, stacking up to 50%%", "10%% 확률로 주문 시전을 방해하고, 매 턴 10%% 확률로 마법 유지기 하나를 비활성화 시킵니다. 최대 50%% 까지 중첩됩니다", "tformat")
+t("Cause the target to have a 10%% chance to fail spellcasting and 10%% chance to lose a magical sustain each turn, stacking up to 50%%", "10%% 확률로 주문 시전을 방해하고, 매 턴 10%% 확률로 마법 유지기 하나를 비활성화 시킵니다 최대 50%% 까지 중첩됩니다", "tformat")
 t("hateful ", "증오의 ", "entity name")
 t("hateful", "증오", "entity keyword")
 t("thought-forged ", "생각으로 단조한 ", "entity name")
@@ -5101,121 +4992,571 @@ t("psychokinetic", "염력", "entity keyword")
 t("#LIGHT_GREEN#20%%#LAST# chance to knock the target back 3 spaces and deal #YELLOW#%d#LAST# physical damage", "#LIGHT_GREEN#20%%#LAST# 확률로 적을 3 칸 밀치고 #YELLOW#%d#LAST# 물리 피해를 줍니다", "tformat")
 t(" of amnesia", " (기억상실)", "entity name")
 t("amnesia", "기억상실", "entity keyword")
-t("#LIGHT_GREEN#50%%#LAST# chance to put 1 talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#LIGHT_GREEN#50%%#LAST# 확률로 기술 하나의 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다. (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("#LIGHT_GREEN#50%%#LAST# chance to put 1 talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#LIGHT_GREEN#50%%#LAST# 확률로 기술 하나의 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has temporarily forgotten %s for %d turns!", "#YELLOW#%s 일시적으로 %s 기술을 %d 턴 동안 망각한다!", "logSeen", nil, {"는"})
 t(" of torment", " (고문)", "entity name")
 t("torment", "고문", "entity keyword")
-t("#LIGHT_GREEN#20%#LAST# chance to stun, blind, pin, confuse, or silence the target for 3 turns", "#LIGHT_GREEN#20%#LAST# 확률로 3 턴 동안 기절, 실명, 속박, 혼란, 또는 침묵 중 하나를 적용합니다.", "_t")
+t("#LIGHT_GREEN#20%#LAST# chance to stun, blind, pin, confuse, or silence the target for 3 turns", "#LIGHT_GREEN#20%#LAST# 확률로 3 턴 동안 기절, 실명, 속박, 혼란, 또는 침묵 중 하나를 적용합니다", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/amulets.lua"
 
+t(" of cunning (#STATBONUS#)", " (교활) (#STATBONUS#)", "entity name")
 t("cunning", "교활", "entity keyword")
+t(" of willpower (#STATBONUS#)", " (의지) (#STATBONUS#)", "entity name")
 t("willpower", "의지", "entity keyword")
+t(" of dexterity (#STATBONUS#)", " (민첩) (#STATBONUS#)", "entity name")
 t("dexterity", "민첩", "entity keyword")
+t(" of strength (#STATBONUS#)", " (힘) (#STATBONUS#)", "entity name")
 t("strength", "힘", "entity keyword")
+t(" of constitution (#STATBONUS#)", " (체격) (#STATBONUS#)", "entity name")
 t("constitution", "체격", "entity keyword")
+t(" of magic (#STATBONUS#)", " (마법) (#STATBONUS#)", "entity name")
 t("magic", "마법", "entity keyword")
-t("mastery", "계열 숙련도 향상", "entity keyword")
+t(" of mastery (#MASTERY#)", " (숙련) (#MASTERY#)", "entity name")
+t("mastery", "숙련", "entity keyword")
+t("insulating ", "단열의 ", "entity name")
+t("insulating", "단열", "entity keyword")
+t("grounding ", "접지의 ", "entity name")
+t("grounding", "접지", "entity keyword")
+t("stabilizing ", "안정화의 ", "entity name")
+t("stabilizing", "안정", "entity keyword")
+t("warrior's ", "전사의 ", "entity name")
+t("warrior", "전사", "entity keyword")
+t("clarifying ", "명석한 ", "entity name")
+t("clarifying", "명석", "entity keyword")
+t("starlit ", "별빛의 ", "entity name")
+t("starlit", "별빛", "entity keyword")
+t("cleansing ", "정화하는 ", "entity name")
+t("cleansing", "정화", "entity keyword")
+t("restful ", "휴식의 ", "entity name")
+t("restful", "휴식", "entity keyword")
+t("vitalizing ", "활력의 ", "entity name")
+t("vitalizing", "활력", "entity keyword")
+t(" of murder", " (살해)", "entity name")
+t("murder", "살해", "entity keyword")
+t(" of vision", " (시야)", "entity name")
+t("vision", "시야의", "entity keyword")
+t(" of healing", " (회복)", "entity name")
 t("healing", "회복", "entity keyword")
+t("protective ", "보호의 ", "entity name")
+t("protect", "보호", "entity keyword")
+t("enraging ", "격분의 ", "entity name")
+t("enraging", "격분", "entity keyword")
+t("archmage's ", "대마법사의 ", "entity name")
+t("archmage", "대마법사", "entity keyword")
+t("starseer's ", "점성술사의 ", "entity name")
+t("starseer", "점성술사", "entity keyword")
+t("warmaker's ", "전쟁광의 ", "entity name")
+t("warmaker", "전쟁광", "entity keyword")
+t("mindweaver's ", "정신 대장장이의 ", "entity name")
+t("mindweaver", "정신 대장장이", "entity keyword")
+t("savior's ", "구원자의 ", "entity name")
+t("savior", "구원자", "entity keyword")
+t("wanderer's ", "방랑자의 ", "entity name")
+t("wanderer", "방랑자", "entity keyword")
+t("serendipitous ", "행운의 ", "entity name")
+t("serend.", "행운.", "entity keyword")
+t(" of soulsearing", " (정신마비)", "entity name")
+t("soulsear", "정신마비", "entity keyword")
+t(" of manastreaming", " (마나흐름)", "entity name")
+t("manastream", "마나흐름", "entity keyword")
+t(" of the eclipse", " (일식)", "entity name")
 t("eclipse", "일식", "entity keyword")
+t(" of perfection (#MASTERY#)", " (완벽) (#MASTERY#)", "entity name")
+t("perfection", "완벽", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/armor.lua"
 
+t(" of fire resistance", " (화염 저항)", "entity name")
+t("fire res", "화염 저항", "entity keyword")
+t(" of cold resistance", " (냉기 저항)", "entity name")
+t("cold res", "냉기 저항", "entity keyword")
+t(" of acid resistance", " (산성 저항)", "entity name")
+t("acid res", "산성 저항", "entity keyword")
+t(" of lightning resistance", " (전기 저항)", "entity name")
+t("lightning res", "전기 저항", "entity keyword")
+t(" of temporal resistance", " (시간 저항)", "entity name")
+t("temporal res", "시간 저항", "entity keyword")
+t("prismatic ", "다색의 ", "entity name")
+t("prismatic", "다색의", "entity keyword")
+t("cleansing ", "정화하는 ", "entity name")
+t("cleansing", "정화", "entity keyword")
+t(" of stability", " (안정화)", "entity name")
+t("stable", "안정", "entity keyword")
+t(" of spell shielding", " (마법 방어)", "entity name")
+t("shielding", "마법 방어", "entity keyword")
+t(" of clarity", " (명석함)", "entity name")
+t("clarity", "명석", "entity keyword")
+t("searing ", "지지는 ", "entity name")
+t("searing", "지지는", "entity keyword")
+t("radiant ", "광휘의 ", "entity name")
+t("radiant", "광휘", "entity keyword")
+t(" of Eyal", " (에이얄)", "entity name")
+t("eyal", "에이얄", "entity keyword")
+t("enlightening ", "계몽의 ", "entity name")
+t("enlight", "계몽", "entity keyword")
+t(" of command", " (명령)", "entity name")
+t("command", "명령", "entity keyword")
+t(" of delving", " (탐구)", "entity name")
+t("delving", "탐구", "entity keyword")
+t(" of the deep", " (심연)", "entity name")
+t("deep", "심연", "entity keyword")
+t(" of thunder", " (천둥)", "entity name")
+t("thunder", "천둥", "entity keyword")
+t("rejuvenating ", "활기의 ", "entity name")
+t("rejuv", "활기", "entity keyword")
+t(" of resilience", " (강인함)", "entity name")
+t("resilience", "강인", "entity keyword")
+t(" of natural resilience", " 자연적인 강인함", "entity name")
+t("natural_resilience", "자연 강인", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/belt.lua"
 
-t("reinforced", "강화", "entity keyword")
+t(" of carrying", " (휴대)", "entity name")
+t("carrying", "휴대", "entity keyword")
+t("cleansing ", "정화하는 ", "entity name")
+t("cleansing", "정화", "entity keyword")
+t("insulating ", "단열의 ", "entity name")
+t("insulate", "단열", "entity keyword")
+t("grounding ", "접지의 ", "entity name")
+t("grounding", "접지", "entity keyword")
+t("nightruned ", "밤의 룬의 ", "entity name")
+t("nightruned", "밤의 룬", "entity keyword")
+t(" of dampening", " (원소 타격)", "entity name")
+t("dampening", "원소 타격", "entity keyword")
+t("blurring ", "흐린 ", "entity name")
+t("blurring", "흐림", "entity keyword")
+t("reinforced ", "보강의 ", "entity name")
+t("reinforced", "보강", "entity keyword")
+t(" of transcendence", " (초월)", "entity name")
+t("transcend", "초월", "entity keyword")
+t(" of the mystic", " (신비)", "entity name")
+t("mystic", "신비", "entity keyword")
+t(" of the giants", " (거인)", "entity name")
 t("giant", "거인", "entity keyword")
+t("monstrous ", "괴물같은 ", "entity name")
+t("monstrous", "괴물", "entity keyword")
+t("balancing ", "균형의 ", "entity name")
+t("balancing", "균형", "entity keyword")
+t(" of recklessness", " (무모함)", "entity name")
+t("reckless", "무모", "entity keyword")
+t(" of burglary", " (도둑질)", "entity name")
+t("burglary", "도둑질", "entity keyword")
+t("ravager's ", "파괴자의 ", "entity name")
+t("ravager", "파괴자", "entity keyword")
+t("skylord's ", "하늘 군주의 ", "entity name")
+t("skylord", "하늘 군주", "entity keyword")
+t("spiritwalker's ", "영혼 보행자의 ", "entity name")
+t("spiritwalk", "영혼 걸음", "entity keyword")
+t(" of magery", " (마법)", "entity name")
+t("magery", "마법", "entity keyword")
+t(" of unlife", " (불생)", "entity name")
+t("unlife", "불생", "entity keyword")
+t(" of the vagrant", " (부랑자)", "entity name")
+t("vagrant", "부랑자", "entity keyword")
+t(" of shielding", " (보호막)", "entity name")
+t("shielding", "마법 방어", "entity keyword")
+t("create a temporary shield that absorbs %d damage", "%d 피해를 흡수하는 일시적인 보호막을 생성합니다.", "tformat")
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
+t(" of life", " (생명)", "entity name")
+t("life", "생명", "entity keyword")
+t(" of resilience", " (강인함)", "entity name")
+t("resilience", "강인", "entity keyword")
+t(" of valiance", " (용맹함)", "entity name")
+t("valiance", "용맹", "entity keyword")
+t(" of containment", " (예방)", "entity name")
+t("containment", "예방", "entity keyword")
+t("noble's ", "귀족의 ", "entity name")
+t("noble", "귀족", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/boots.lua"
 
+t(" of tirelessness", " (철인)", "entity name")
+t("tireless", "철인", "entity keyword")
+t("traveler's ", "여행자의 ", "entity name")
+t("traveler", "여행자", "entity keyword")
+t("scholar's ", "학자의 ", "entity name")
+t("scholar", "학자", "entity keyword")
+t("miner's ", "광부의 ", "entity name")
+t("miner", "광부", "entity keyword")
+t(" of phasing", " (위상)", "entity name")
+t("phasing", "위상", "entity keyword")
+t("blink to a nearby random location (rad %d)", "반경 %d 칸의 무작위한 위치로 순간이동합니다", "_t")
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
+t(" of evasion", " (회피)", "entity name")
+t("evasion", "회피", "entity keyword")
+t(" of speed", " (속도)", "entity name")
 t("speed", "속도", "entity keyword")
+t(" of rushing", " (돌진)", "entity name")
+t("rushing", "돌진", "entity keyword")
+t(" of void walking", " (공허 걸음)", "entity name")
 t("void", "공허", "entity keyword")
-t("blood", "혈액", "entity keyword")
+t(" of disengagement", " (후퇴)", "entity name")
+t("disengage", "후퇴", "entity keyword")
+t("blood-soaked ", "피에 젖은 ", "entity name")
+t("blood", "할마법", "entity keyword")
+t("restorative ", "복원의 ", "entity name")
+t("restorative", "복원", "entity keyword")
+t("invigorating ", "원기 주입 ", "entity name")
+t("invigor.", "원기.", "entity keyword")
+t("blightbringer's ", "황폐를 몰고오는 자의", "entity name")
 t("blight", "황폐", "entity keyword")
-t("reinforced", "강화", "entity keyword")
-t("eldritch", "섬뜩한 자", "entity keyword")
-t("massive", "판갑", "entity keyword")
-t("strife", "갈등", "entity keyword")
+t("wanderer's ", "방랑자의 ", "entity name")
+t("wanderer", "방랑자", "entity keyword")
+t("undeterred ", "불굴의 ", "entity name")
+t("undeterred", "불굴", "entity keyword")
+t("reinforced ", "보강의 ", "entity name")
+t("reinforced", "보강", "entity keyword")
+t("eldritch ", "뒤틀린 ", "entity name")
+t("eldritch", "뒤틀림", "entity keyword")
+t(" of massiveness", " (육중함)", "entity name")
+t("massive", "육중", "entity keyword")
+t("fleetfooted ", "쾌속의 ", "entity name")
+t("fleetfooted", "쾌속", "entity keyword")
+t(" of force", " (힘)", "entity name")
+t("force", "힘", "entity keyword")
+t(" of invasion", " (침략)", "entity name")
+t("invasion", "침량", "entity keyword")
+t(" of spellbinding", " (주문 엮음)", "entity name")
+t("spellbinding", "주문엮음", "entity keyword")
+t("insulating ", "단열의 ", "entity name")
+t("insulate", "단열", "entity keyword")
+t("grounding ", "접지의 ", "entity name")
+t("grounding", "접지", "entity keyword")
+t("dreamer's ", "꿈꾸는 자의 ", "entity name")
+t("dreamer", "꿈", "entity keyword")
+t(" of strife", " (투쟁)", "entity name")
+t("strife", "투쟁", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/bow.lua"
 
+t(" of dexterity (#STATBONUS#)", " (민첩) (#STATBONUS#)", "entity name")
+t("dex", "민첩", "entity keyword")
+t("keeper's ", "보관자의 ", "entity name")
+t("keepers", "보관자", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/charged-attack.lua"
 
+t("charged(#USE_TALENT#) ", "충전된(#USE_TALENT#) ", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/charged-defensive.lua"
 
+t("charged(#USE_TALENT#) ", "충전된(#USE_TALENT#) ", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/charged-utility.lua"
 
+t("charged(#USE_TALENT#) ", "충전된(#USE_TALENT#) ", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/charms.lua"
 
+t("quick ", "빠른 ", "entity name")
+t("quick", "빠름", "entity keyword")
+t("supercharged ", "과충전된 ", "entity name")
+t("supercharged", "과충전", "entity keyword")
+t("overpowered ", "압도적인 ", "entity name")
+t("overpower", "압도", "entity keyword")
+t("focusing ", "집중의 ", "entity name")
+t("focusing", "집중", "entity keyword")
+t("reduce %d talent cooldowns by 2", "%d 개의 기술의 재사용 대기시간을 2 턴 단축합니다", "tformat")
+t("extending ", "연장의 ", "entity name")
+t("extending", "연장", "entity keyword")
+t("increase the duration of %d beneficial effects by %d", "%d 개의 이로운 효과의 지속시간을 %d 턴 연장합니다", "tformat")
+t("evasive ", "피해 무효의 ", "entity name")
+t("evasive", "피해 무효", "entity keyword")
+t("gain a %d%% chance to evade weapon attacks for 2 turns", "2 턴 동안 받는 무기 피해를 %d%% 확률로 무효화 합니다", "tformat")
+t("soothing ", "진정의 ", "entity name")
+t("soothing", "진정", "entity keyword")
+t("heal for %d", "생명력을 %d 회복합니다", "tformat")
+t("cleansing ", "정화하는 ", "entity name")
+t("cleansing", "정화", "entity keyword")
+t("cleanse %d total effects of type disease, wound, or poison", "최대 %d 개의 질병, 상처, 중독 효과를 제거합니다", "tformat")
+t("piercing ", "관통하는 ", "entity name")
+t("piercing", "관통", "entity keyword")
+t("increase all damage penetration by %d%% for 2 turns", "2 턴 동안 모든 저항 관통이 %d%% 상승합니다", "tformat")
+t("powerful ", "강력한 ", "entity name")
+t("powerful", "강력", "entity keyword")
+t("increase all damage by %d%% for 2 turns", "2 턴 동안 가하는 피해량이 %d%% 증가됩니다", "tformat")
+t("innervating ", "신경 자극의 ", "entity name")
+t("innervating", "신경 자극", "entity keyword")
+t("reduce fatigue by %d%% for 2 turns", "2 턴 동안 피로도를 %d%% 감소합니다", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/cloak.lua"
 
+t("thick ", "두꺼운 ", "entity name")
+t("thick", "두꺼움", "entity keyword")
+t("shadow ", "그림자 ", "entity name")
 t("shadow", "그림자", "entity keyword")
+t(" of Eldoral", " (엘도랄)", "entity name")
+t("eldoral", "엘도랄", "entity keyword")
+t(" of the Shaloren", " (샬로레)", "entity name")
+t("shaloren", "(샬로레)", "entity keyword")
+t(" of Iron Throne", " (철의 왕좌)", "entity name")
+t("iron.throne", "철왕좌", "entity keyword")
+t(" of fog", " (안개)", "entity name")
+t("fog", "안개", "entity keyword")
+t(" of protection", " (보호)", "entity name")
+t("protection", "보호", "entity keyword")
+t(" of implacability", " (앙심)", "entity name")
+t("implacable", "앙심", "entity keyword")
+t("resilient ", "강인한 ", "entity name")
+t("resilient", "강인", "entity keyword")
+t("enveloping ", "감싸는 ", "entity name")
+t("enveloping", "감싸는", "entity keyword")
+t("regal ", "장엄한 ", "entity name")
+t("regal", "장엄", "entity keyword")
+t("restorative ", "복원의 ", "entity name")
+t("restorative", "복원", "entity keyword")
+t("wyrmwaxed ", "용 살해의 ", "entity name")
+t("wyrmwaxed", "용 살해", "entity keyword")
+t("battlemaster's ", "전투 달인의 ", "entity name")
+t("battlemaster", "전투 달인", "entity keyword")
+t(" of sorcery", " (주술)", "entity name")
+t("sorcery", "주술", "entity keyword")
+t(" of mindcraft", " (사고 제작)", "entity name")
+t("mindcraft", "사고 제작", "entity keyword")
+t("spellcowled ", "마법 부여된 ", "entity name")
+t("spellcowled", "마법 부여", "entity keyword")
+t("marshal's ", "지휘관의 ", "entity name")
+t("marshal", "지휘관", "entity keyword")
+t("murderer's ", "살인자의 ", "entity name")
+t("murderer", "살인자", "entity keyword")
+t(" of the guardian", "수호자", "entity name")
 t("guardian", "수호자", "entity keyword")
+t(" of conjuring", " (비술)", "entity name")
+t("conjuring", "비술", "entity keyword")
+t(" of battle", " (전투)", "entity name")
+t("battle", "전투", "entity keyword")
+t(" of the hunter", " (사냥꾼)", "entity name")
+t("hunter", "사냥꾼", "entity keyword")
+t(" of the voidstalker", " (공허 추적자)", "entity name")
+t("voidstriker", "공허 추적자", "entity keyword")
+t("blink randomly (up to range 8) within 2 spaces of a target hostile creature", "최대 8칸 내의 무작위한 대상 근처 2 칸 이내로 순간이동합니다", "_t")
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
+t(" of backstabbing", " (암습)", "entity name")
+t("backstab", "암습", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/digger.lua"
 
+t(" of delving", " (탐구)", "entity name")
+t("delving", "탐구", "entity keyword")
+t(" of endurance", " (인내)", "entity name")
+t("endurance", "인내", "entity keyword")
+t("miner's ", "광부의 ", "entity name")
+t("miner", "광부", "entity keyword")
+t("woodsman's ", "나무꾼의 ", "entity name")
+t("woodsman", "나무꾼", "entity keyword")
+t(" of the Iron Throne", " (철의 왕좌)", "entity name")
+t("iron.throne", "철왕좌", "entity keyword")
+t(" of Reknor", " (레크놀)", "entity name")
+t("reknor", "레크놀", "entity keyword")
+t("brutal ", "난폭한 ", "entity name")
+t("brutal", "난폭", "entity keyword")
+t("dream-smith's ", "꿈 대장장이의 ", "entity name")
+t("smiths", "대장장이", "entity keyword")
+t("soldier's ", "병사의 ", "entity name")
+t("soldier", "병사", "entity keyword")
+t("bloodhexed ", "혈마법의 ", "entity name")
+t("bloodhexed", "혈마법", "entity keyword")
+t("crystalomancer's ", "수정술사의 ", "entity name")
+t("crystal", "수정술사", "entity keyword")
+t("shattering ", "분쇄하는 ", "entity name")
+t("shattering", "분쇄", "entity keyword")
+t("sapper's ", "공병의 ", "entity name")
+t("sapper", "공병", "entity keyword")
+t("dwarven ", "드워프의 ", "entity name")
 t("dwarven", "드워프", "entity keyword")
+t(" of quickening", " (힘의 회복)", "entity name")
+t("quickening", "힘의 회복", "entity keyword")
+t(" of predation", " (포식)", "entity name")
+t("predation", "포식", "entity keyword")
+t(" of deeplife", " (심연)", "entity name")
+t("deeplife", "심연", "entity keyword")
+t(" of wreckage", " (잔해)", "entity name")
+t("wreckage", "잔해", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/gloves.lua"
 
+t("cinder ", "잉걸불 ", "entity name")
+t("cinder", "잉걸불", "entity keyword")
+t("corrosive ", "부식성 ", "entity name")
+t("corrosive", "부식성", "entity keyword")
+t("naturalist's ", "자연주의자의 ", "entity name")
+t("natural", "자연", "entity keyword")
+t("polar ", "극지의 ", "entity name")
+t("polar", "극지", "entity keyword")
+t("psychic's ", "초능력자의 ", "entity name")
+t("psychic", "초능력자", "entity keyword")
+t("sand ", "모래 ", "entity name")
 t("sand", "모래", "entity keyword")
+t("storm ", "폭풍 ", "entity name")
 t("storm", "폭풍", "entity keyword")
+t("blighted ", "황폐한 ", "entity name")
+t("blighted", "황폐", "entity keyword")
+t("umbral ", "그림자의 ", "entity name")
+t("umbral", "그림자", "entity keyword")
+t("radiant ", "광휘의 ", "entity name")
+t("radiant", "광휘", "entity keyword")
+t("temporal ", "시간의 ", "entity name")
 t("temporal", "시간", "entity keyword")
+t(" of dexterity (#STATBONUS#)", " (민첩) (#STATBONUS#)", "entity name")
+t("dex", "민첩", "entity keyword")
+t(" of magic (#STATBONUS#)", " (마법) (#STATBONUS#)", "entity name")
 t("magic", "마법", "entity keyword")
+t(" of strength (#STATBONUS#)", " (힘) (#STATBONUS#)", "entity name")
 t("strength", "힘", "entity keyword")
-t("iron", "무쇠", "entity keyword")
+t("restful ", "휴식의 ", "entity name")
+t("restful", "휴식", "entity keyword")
+t("steady ", "잠잠한 ", "entity name")
+t("steady", "잠잠", "entity keyword")
+t(" of war-making", " (전쟁 개시)", "entity name")
+t("war", "전쟁", "entity keyword")
+t(" of the iron hand", " (철권)", "entity name")
+t("iron", "철권", "entity keyword")
+t("alchemist's ", "연금술사의 ", "entity name")
 t("alchemist", "연금술사", "entity keyword")
-t("stone", "암석", "entity keyword")
+t("brawler's ", "격투가의 ", "entity name")
+t("brawler", "격투가", "entity keyword")
+t(" of butchering", " (도살)", "entity name")
+t("butchering", "도살", "entity keyword")
+t(" of the verdant", " (신록)", "entity name")
+t("verdant", "신록", "entity keyword")
+t("scouring ", "마법 분쇄의 ", "entity name")
+t("scouring", "마법 분쇄", "entity keyword")
+t(" of the nighthunter", " (밤사냥꾼)", "entity name")
+t("nighthunter", "밤사냥꾼", "entity keyword")
+t("stone warden's ", "바위 감시자의 ", "entity name")
+t("stone", "바위 감시자", "entity keyword")
+t(" of the starseeker", " (별의 구도자)", "entity name")
+t("starseeker", "별 구도자", "entity keyword")
+t(" of spellstriking", " (주문 타격)", "entity name")
+t("spellstriking", "주문 타격", "entity keyword")
+t(" of regeneration", " (재생)", "entity name")
+t("regen", "재생", "entity keyword")
+t(" of sorrow", " (슬픔)", "entity name")
+t("sorrow", "슬픔", "entity keyword")
+t(" of the juggernaut", " (파괴전차)", "entity name")
+t("juggernaut", "파괴 전차", "entity keyword")
+t("spellstreaming ", "주문 흐름의 ", "entity name")
+t("spellstream", "주문 흐름", "entity keyword")
+t("heroic ", "영웅의 ", "entity name")
+t("heroic", "영웅", "entity keyword")
+t(" of archery", " (사격술)", "entity name")
+t("archer", "사격", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/heavy-armor.lua"
 
-t("hardened", "경화", "entity keyword")
+t("impenetrable ", "뚫리지 않는 ", "entity name")
+t("impenetrable", "관통 불가", "entity keyword")
+t("hardened ", "단단한 ", "entity name")
+t("hardened", "단단함", "entity keyword")
+t("fearforged ", "공포로 단조된 ", "entity name")
+t("fearforged", "공포단조", "entity keyword")
+t(" of implacability", " (앙심)", "entity name")
+t("implac.", "앙심", "entity keyword")
+t("fortifying ", "요새화 ", "entity name")
+t("fortif.", "요새화.", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/helm.lua"
 
+t(" of strength (#STATBONUS#)", " (힘) (#STATBONUS#)", "entity name")
 t("strength", "힘", "entity keyword")
-t("ground", "곤죽이 되어", "entity keyword")
-t("blood", "혈액", "entity keyword")
-t("sanctity", "신성함", "entity keyword")
+t(" of constitution (#STATBONUS#)", " (체격) (#STATBONUS#)", "entity name")
+t("con", "체격", "entity keyword")
+t(" of dexterity (#STATBONUS#)", " (민첩) (#STATBONUS#)", "entity name")
+t("dex", "민첩", "entity keyword")
+t("thaloren ", "탈로레의 ", "entity name")
+t("thaloren", "탈로레의", "entity keyword")
+t("prismatic ", "다색의 ", "entity name")
+t("prismatic", "다색의", "entity keyword")
+t(" of precognition", " (예지)", "entity name")
+t("precog", "예지", "entity keyword")
+t(" of the depths", " (심연)", "entity name")
+t("depths", "심연", "entity keyword")
+t(" of absorption", " (흡수)", "entity name")
+t("absorb", "흡수", "entity keyword")
+t("miner's ", "광부의 ", "entity name")
+t("miner", "광부", "entity keyword")
+t("insulating ", "단열의 ", "entity name")
+t("insulate", "단열", "entity keyword")
+t("grounding ", "접지의 ", "entity name")
+t("ground", "접지", "entity keyword")
+t("stabilizing ", "안정화의 ", "entity name")
+t("stabilize", "안정", "entity keyword")
+t("cleansing ", "정화하는 ", "entity name")
+t("cleanse", "정화", "entity keyword")
+t(" of knowledge", " (지식)", "entity name")
+t("knowledge", "지식", "entity keyword")
+t(" of might", " (우세)", "entity name")
+t("might", "우세", "entity keyword")
+t(" of trickery", " (사기)", "entity name")
+t("trickery", "사기", "entity keyword")
+t("warlord's ", "전쟁군주의 ", "entity name")
+t("warlord", "전쟁군주", "entity keyword")
+t("defender's ", "방어자의 ", "entity name")
+t("defender", "방어자", "entity keyword")
+t("dragonslayer's ", "용 살해자의 ", "entity name")
+t("dragonslayer", "용 살해자", "entity keyword")
+t("werebeast's ", "짐승인간의 ", "entity name")
+t("werebeast", "짐승인간", "entity keyword")
+t("mindcaging ", "정신 방어의 ", "entity name")
+t("mindcage", "정신 방어", "entity keyword")
+t("champion's ", "대전사의 ", "entity name")
+t("champion", "대전사의", "entity keyword")
+t("leafwalker's ", "나뭇잎 걸음의 ", "entity name")
+t("learwalker", "나뭇잎걸음", "entity keyword")
+t("catburglar's ", "도둑의 ", "entity name")
+t("catburglar", "도둑", "entity keyword")
+t(" of blood magic", " (혈마법)", "entity name")
+t("blood", "할마법", "entity keyword")
+t(" of fortune", " (행운)", "entity name")
+t("fortune", "행운", "entity keyword")
+t(" of sanctity", " (신성)", "entity name")
+t("sanctity", "신성", "entity keyword")
+t(" of ire", " (격노)", "entity name")
+t("ire", "격노", "entity keyword")
+t("bladed ", "칼날이 선 ", "entity name")
+t("bladed", "칼날", "entity keyword")
+t(" of the bounder", " (망나니)", "entity name")
+t("bounder", "망나니", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/infusions.lua"
 
+t(" of the warrior", " (전사)", "entity name")
+t(" of the duelist", " (결투자)", "entity name")
+t(" of the wizard", " (마법사)", "entity name")
+t(" of the psychic", " (초능력자)", "entity name")
+t(" of the sneak", " (도적)", "entity name")
+t(" of the titan", " (수호자)", "entity name")
 
 
 ------------------------------------------------
@@ -5224,6 +5565,7 @@ section "game/modules/tome/data/general/objects/egos/light-armor.lua"
 t("troll", "트롤", "entity keyword")
 t("duelist", "결투사", "entity keyword")
 t("void", "공허", "entity keyword")
+t("blink to a nearby random location (rad %d)", "반경 %d 칸의 무작위한 위치로 순간이동합니다", "_t")
 t("wind", "바람", "entity keyword")
 
 
@@ -5237,6 +5579,11 @@ t("stealth", "은신", "entity keyword")
 section "game/modules/tome/data/general/objects/egos/lite.lua"
 
 t("sun", "태양", "entity keyword")
+t(" of clarity", " (명석함)", "entity name")
+t("clarity", "명석", "entity keyword")
+t("piercing ", "관통하는 ", "entity name")
+t("piercing", "관통", "entity keyword")
+t("dreamer's ", "꿈꾸는 자의 ", "entity name")
 t("void", "공허", "entity keyword")
 t("focus", "집중", "entity keyword")
 
@@ -5245,23 +5592,37 @@ t("focus", "집중", "entity keyword")
 section "game/modules/tome/data/general/objects/egos/massive-armor.lua"
 
 t("dragon", "용", "entity keyword")
-t("hardened", "경화", "entity keyword")
+t("impenetrable ", "뚫리지 않는 ", "entity name")
+t("impenetrable", "관통 불가", "entity keyword")
+t("hardened ", "단단한 ", "entity name")
+t("hardened", "단단함", "entity keyword")
+t("fearforged ", "공포로 단조된 ", "entity name")
+t("fearforged", "공포단조", "entity keyword")
+t(" of implacability", " (앙심)", "entity name")
+t("implac.", "앙심", "entity keyword")
+t("fortifying ", "요새화 ", "entity name")
+t("fortif.", "요새화.", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/mindstars.lua"
 
 t("nature", "자연", "entity keyword")
+t(" of life", " (생명)", "entity name")
+t("life", "생명", "entity keyword")
 t("sand", "모래", "entity keyword")
 t("manaburning ", "마나소각의 ", "entity name")
 t("manaburning", "마나소각", "entity keyword")
 t("inquisitor's ", "이단 심문관의 ", "entity name")
 t("inquisitors", "이단 심문", "entity keyword")
-t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다. (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has their %s spell disrupted for for %d turns!", "#YELLOW#%s의 %s 주문이 방해되어 %d 턴 동안 사용이 불가능하다!", "logSeen")
 t(" of disruption", " (주문 방해)", "entity name")
 t("disruption", "주문 방해", "entity keyword")
-t("Cause the target to have a 10%% chance to fail spellcasting and 10%% chance to lose a magical sustain each turn, stacking up to 50%%", "10%% 확률로 주문 시전을 방해하고, 매 턴 10%% 확률로 마법 유지기 하나를 비활성화 시킵니다. 최대 50%% 까지 중첩됩니다", "tformat")
+t("Cause the target to have a 10%% chance to fail spellcasting and 10%% chance to lose a magical sustain each turn, stacking up to 50%%", "10%% 확률로 주문 시전을 방해하고, 매 턴 10%% 확률로 마법 유지기 하나를 비활성화 시킵니다 최대 50%% 까지 중첩됩니다", "tformat")
+t(" of clarity", " (명석함)", "entity name")
+t("clarity", "명석", "entity keyword")
+t("dreamer's ", "꿈꾸는 자의 ", "entity name")
 t("hateful ", "증오의 ", "entity name")
 t("hateful", "증오", "entity keyword")
 t("%s resists the mind attack!", "%s 정신공격에 저항했다!", "logSeen", nil, {"는"})
@@ -5276,16 +5637,23 @@ section "game/modules/tome/data/general/objects/egos/potions.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/ranged.lua"
 
+t("steady ", "잠잠한 ", "entity name")
+t("steady", "잠잠", "entity keyword")
+t("piercing", "관통", "entity keyword")
 t("fire", "화염", "entity keyword")
 t("cold", "냉기", "entity keyword")
 t("acid", "산성", "entity keyword")
 t("lightning", "전기", "entity keyword")
 t("runic", "룬의 기술", "entity keyword")
+t(" of dampening", " (원소 타격)", "entity name")
+t("dampening", "원소 타격", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/rings.lua"
 
+t(" of clarity", " (명석함)", "entity name")
+t("clarity", "명석", "entity keyword")
 t("fire", "화염", "entity keyword")
 t("nature", "자연", "entity keyword")
 t("lightning", "전기", "entity keyword")
@@ -5295,9 +5663,16 @@ t("aether", "에테르", "entity keyword")
 t("blight", "황폐", "entity keyword")
 t("mind", "정신", "entity keyword")
 t("time", "시간", "entity keyword")
+t("warrior's ", "전사의 ", "entity name")
+t("warrior", "전사", "entity keyword")
 t("psionic", "초능력", "entity keyword")
 t("power", "힘", "entity keyword")
+t("savior's ", "구원자의 ", "entity name")
+t("savior", "구원자", "entity keyword")
+t(" of life", " (생명)", "entity name")
+t("life", "생명", "entity keyword")
 t("treant", "나무 정령", "entity keyword")
+t(" of speed", " (속도)", "entity name")
 t("speed", "속도", "entity keyword")
 
 
@@ -5312,9 +5687,16 @@ t("darkness", "암흑", "entity keyword")
 t("blight", "황폐", "entity keyword")
 t("mind", "정신", "entity keyword")
 t("time", "시간", "entity keyword")
+t(" of protection", " (보호)", "entity name")
+t("dreamer's ", "꿈꾸는 자의 ", "entity name")
+t("dreamer", "꿈", "entity keyword")
 t("Angolwen", "앙골웬", "entity keyword")
 t("power", "힘", "entity keyword")
+t(" of life", " (생명)", "entity name")
+t("life", "생명", "entity keyword")
 t("storm", "폭풍", "entity keyword")
+t("verdant", "신록", "entity keyword")
+t("focusing ", "집중의 ", "entity name")
 t("focus", "집중", "entity keyword")
 
 
@@ -5338,8 +5720,15 @@ t("flaming ", "화염의 ", "entity name")
 t("flaming", "화염", "entity keyword")
 t("acidic ", "산성의 ", "entity name")
 t("acidic", "산성", "entity keyword")
-t("reinforced", "강화", "entity keyword")
+t("corrosive ", "부식성 ", "entity name")
+t("corrosive", "부식성", "entity keyword")
+t("reinforced ", "보강의 ", "entity name")
+t("reinforced", "보강", "entity keyword")
+t(" of resilience", " (강인함)", "entity name")
+t("resilience", "강인", "entity keyword")
 t("living", "살아있음", "entity keyword")
+t("scouring ", "마법 분쇄의 ", "entity name")
+t("scouring", "마법 분쇄", "entity keyword")
 t("ward", "보호", "entity keyword")
 t("earth", "대지", "entity keyword")
 
@@ -5347,26 +5736,34 @@ t("earth", "대지", "entity keyword")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/sling.lua"
 
+t(" of cunning (#STATBONUS#)", " (교활) (#STATBONUS#)", "entity name")
 t("halfling", "하플링", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/staves.lua"
 
+t("blighted ", "황폐한 ", "entity name")
 t("blight", "황폐", "entity keyword")
 t("illumination", "휘광", "entity keyword")
+t(" of might", " (우세)", "entity name")
+t("might", "우세", "entity keyword")
 t("power", "힘", "entity keyword")
+t(" of protection", " (보호)", "entity name")
+t("protection", "보호", "entity keyword")
 t("prodigy", "특수 기술", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/torques-powers.lua"
 
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/totems-powers.lua"
 
+t(" of healing", " (회복)", "entity name")
 t("healing", "회복", "entity keyword")
 t(" of thorny skin", "가시 피부의", "entity name")
 t("thorny", "가시의", "entity keyword")
@@ -5378,6 +5775,8 @@ t("Summon", "소환", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/wands-powers.lua"
 
+t(" of shielding", " (보호막)", "entity name")
+t("shielding", "마법 방어", "entity keyword")
 
 
 ------------------------------------------------
@@ -5389,10 +5788,12 @@ t("ward", "보호", "entity keyword")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/weapon.lua"
 
+t("quick ", "빠른 ", "entity name")
+t("quick", "빠름", "entity keyword")
 t(" of crippling", "( 무력화)", "entity name")
 t("crippling", "무력화", "entity keyword")
 t("Cripple the target reducing mind, spell, and combat action speeds by 30%", "대상을 무력화해 공격, 시전, 사고 속도를 30% 낮춥니다", "_t")
-t("Wound the target dealing #RED#%d#LAST# physical damage across 5 turns and reducing healing by %d%%", "대상에 상처를 남겨, 5 턴에 걸쳐 #RED#%d#LAST# 물리 피해를 주고, 회복 효율을 %d%% 낮춥니다.", "tformat")
+t("Wound the target dealing #RED#%d#LAST# physical damage across 5 turns and reducing healing by %d%%", "대상에 상처를 남겨, 5 턴에 걸쳐 #RED#%d#LAST# 물리 피해를 주고, 회복 효율을 %d%% 낮춥니다", "tformat")
 t("acidic ", "산성의 ", "entity name")
 t("acidic", "산성", "entity keyword")
 t("Splash the target with acid dealing #VIOLET#%d#LAST# damage over 5 turns and reducing armor and accuracy by #VIOLET#%d#LAST#", "대상에게 산성 물질을 튀겨, 5 턴에 걸쳐 #VIOLET#%d#LAST# 피해를 주고, 방어력과 정확도를 #VIOLET#%d#LAST# 낮춥니다", "tformat")
@@ -5405,6 +5806,7 @@ t("chilling ", "냉기의 ", "entity name")
 t("chilling", "냉기", "entity keyword")
 t(" of daylight", " (태양빛)", "entity name")
 t("daylight", "태양빛", "entity keyword")
+t(" of phasing", " (위상)", "entity name")
 t(" of vileness", " (사악함)", "entity name")
 t("vile", "사악", "entity keyword")
 t(" of paradox", " (괴리)", "entity name")
@@ -5415,11 +5817,13 @@ t("fire", "화염", "_t")
 t("cold", "냉기", "_t")
 t("lightning", "전기", "_t")
 t("acid", "산성", "_t")
-t("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "폭발을 일으켜 #VIOLET#%d#LAST# %s 피해를 줍니다. 폭발은 한 턴에 1 번 일어납니다.", "tformat")
+t("Create an explosion dealing #VIOLET#%d#LAST# %s damage (1/turn)", "폭발을 일으켜 #VIOLET#%d#LAST# %s 피해를 줍니다. 폭발은 한 턴에 1 번 일어납니다", "tformat")
 t("plaguebringer's ", "질병전파자의 ", "entity name")
 t("plague", "질병", "entity keyword")
 t(" of corruption", " (타락)", "entity name")
 t("corruption", "타락", "entity keyword")
+t(" of the mystic", " (신비)", "entity name")
+t("mystic", "신비", "entity keyword")
 t(" of erosion", " (침식)", "entity name")
 t("erosion", "침식", "entity keyword")
 t("manaburning ", "마나소각의 ", "entity name")
@@ -5429,11 +5833,13 @@ t(" of persecution", " (마법사냥)", "entity name")
 t("persecution", "마법 사냥", "entity keyword")
 t("inquisitor's ", "이단 심문관의 ", "entity name")
 t("inquisitors", "이단 심문", "entity keyword")
-t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다. (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has their %s spell disrupted for for %d turns!", "#YELLOW#%s의 %s 주문이 방해되어 %d 턴 동안 사용이 불가능하다!", "logSeen")
 t(" of disruption", " (주문 방해)", "entity name")
 t("disruption", "주문 방해", "entity keyword")
-t("Cause the target to have a 10%% chance to fail spellcasting and 10%% chance to lose a magical sustain each turn, stacking up to 50%%", "10%% 확률로 주문 시전을 방해하고, 매 턴 10%% 확률로 마법 유지기 하나를 비활성화 시킵니다. 최대 50%% 까지 중첩됩니다", "tformat")
+t("Cause the target to have a 10%% chance to fail spellcasting and 10%% chance to lose a magical sustain each turn, stacking up to 50%%", "10%% 확률로 주문 시전을 방해하고, 매 턴 10%% 확률로 마법 유지기 하나를 비활성화 시킵니다 최대 50%% 까지 중첩됩니다", "tformat")
+t(" of dampening", " (원소 타격)", "entity name")
+t("dampening", "원소 타격", "entity keyword")
 t("hateful ", "증오의 ", "entity name")
 t("hateful", "증오", "entity keyword")
 t("projection", "투사", "entity keyword")
@@ -5441,19 +5847,33 @@ t("thought-forged ", "생각으로 단조한 ", "entity name")
 t("thought", "사고단조", "entity keyword")
 t(" of amnesia", " (기억상실)", "entity name")
 t("amnesia", "기억상실", "entity keyword")
-t("#LIGHT_GREEN#50%%#LAST# chance to put 1 talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#LIGHT_GREEN#50%%#LAST# 확률로 기술 하나의 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다. (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("#LIGHT_GREEN#50%%#LAST# chance to put 1 talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#LIGHT_GREEN#50%%#LAST# 확률로 기술 하나의 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has temporarily forgotten %s for %d turns!", "#YELLOW#%s 일시적으로 %s 기술을 %d 턴 동안 망각한다!", "logSeen", nil, {"는"})
 t(" of torment", " (고문)", "entity name")
 t("torment", "고문", "entity keyword")
-t("#LIGHT_GREEN#20%#LAST# chance to stun, blind, pin, confuse, or silence the target for 3 turns", "#LIGHT_GREEN#20%#LAST# 확률로 3 턴 동안 기절, 실명, 속박, 혼란, 또는 침묵 중 하나를 적용합니다.", "_t")
+t("#LIGHT_GREEN#20%#LAST# chance to stun, blind, pin, confuse, or silence the target for 3 turns", "#LIGHT_GREEN#20%#LAST# 확률로 3 턴 동안 기절, 실명, 속박, 혼란, 또는 침묵 중 하나를 적용합니다", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/wizard-hat.lua"
 
-t("eldritch", "섬뜩한 자", "entity keyword")
+t("starseer's ", "점성술사의 ", "entity name")
+t("eldritch ", "뒤틀린 ", "entity name")
+t("eldritch", "뒤틀림", "entity keyword")
+t("cleansing ", "정화하는 ", "entity name")
+t("cleanse", "정화", "entity keyword")
+t("insulating ", "단열의 ", "entity name")
+t("insulating", "단열", "entity keyword")
+t("grounding ", "접지의 ", "entity name")
+t("grounding", "접지", "entity keyword")
+t(" of knowledge", " (지식)", "entity name")
+t("knowledge", "지식", "entity keyword")
 t("aegis", "수호", "entity keyword")
 t("madness", "광기", "entity keyword")
+t("stabilizing ", "안정화의 ", "entity name")
+t("stabilize", "안정", "entity keyword")
+t("clarifying ", "명석한 ", "entity name")
+t("clarifying", "명석", "entity keyword")
 t("shield", "보호막", "entity keyword")
 t("fire", "화염", "entity keyword")
 t("nature", "자연", "entity keyword")
@@ -5904,12 +6324,14 @@ section "game/modules/tome/data/general/objects/random-artifacts/generic.lua"
 section "game/modules/tome/data/general/objects/random-artifacts/gloves.lua"
 
 t("damage", "피해", "entity name")
+t("phasing", "위상", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/random-artifacts/melee.lua"
 
 t("damage", "피해", "entity name")
+t("phasing", "위상", "entity name")
 
 
 ------------------------------------------------
@@ -6143,7 +6565,7 @@ t("Summon", "소환", "_t")
 section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua"
 
 t("Genocide", "종족 학살", "entity name")
-t("Eldoral Last Resort", "엘도라의 최후의 수단", "entity name")
+t("Eldoral Last Resort", "엘도랄의 최후의 수단", "entity name")
 
 
 ------------------------------------------------
@@ -6211,6 +6633,7 @@ t("fire", "화염", "entity subtype")
 section "game/modules/tome/data/general/traps/natural_forest.lua"
 
 t("forest", "숲", "entity subtype")
+t("natural", "자연", "entity type")
 t("trap", "함정", "_t")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 
@@ -6239,6 +6662,7 @@ t("distortion", "왜곡", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/water.lua"
 
+t("natural", "자연", "entity type")
 t("trap", "함정", "_t")
 t("water", "물", "entity subtype")
 
@@ -6833,6 +7257,7 @@ In all those centuries I still searched for the woman and found no trace. I know
 시간이 흐르고, 다른 생물들이 발견됬다. 종종 새로 발견된 생물들은 사악한 존재였으며, 우린 그들과 전쟁을 벌였다. 그리고 우리는 쉐르'툴을 발견했다. 그들은 우리의 아름다움에 환희했고 the ways of the Arts를 가르쳐 주었다. 그 전쟁이 찾아오자 우리 중 일부는 그들의 편에서 싸웠지만, 그런 대가들 옆에 설 자리는 없다는 걸 깨달았다. 그래서 우리는 숲속으로 후퇴했고, 전쟁이 재앙이나 다름없는 결과로 맹렬히 치닫는 것을 볼 수 밖에 없었다.
 
 지난 수 세기 동안 나는 그 여인을 찾았고 어떠한 흔적도 발견할 수 없었다. 신들은 모두 사냥당한 것을 알고 있었고, 그들이 성전을 치룰 동안 쉐르'툴을 철저히 수색한 것도 기억한다. 난 이제 늙었다. 나와 함께 처음 깨어난 이들은 하나 둘씩 세상을 떠나기 시작했다. 밤이 지날때마다 점점 더 춥고 외로워짐을 느낀다. 하지만 잠자리에 들때면 꿈속에서 그녀의 얼굴을 보고 목소리를 듣는다. 언젠가, 어떻게든, 그녀를 다시 볼 수 있을 거라는 느낌이 든다.]], "_t")
+t("eyal", "에이얄", "newLore category")
 t("vault", "보물창고", "newLore category")
 t("magic", "마법", "newLore category")
 t("boss", "보스", "newLore category")
@@ -11890,7 +12315,7 @@ t("%s resists the cut!", "%s 출혈에 저항했다!", "logSeen", nil, {"는"})
 t([[Bites the target for %d%% weapon damage, potentially causing it to bleed for %d%% weapon damage over five turns.
 		If the target is affected by the bleed it will send the devourer into a frenzy for %d turns (which in turn will frenzy other nearby devourers).
 		The frenzy will increase global speed by %d%%, physical crit chance by %d%%, and prevent death until -%d%% life.]], [[적을 물어 뜯어 %d%% 무기 피해를 주고 확률적으로 5 턴에 걸쳐 %d%% 무기 피해를 입히는 출혈효과를 유발합니다.
-		대상이 출혈 시, devourer 가 %d 턴 동안 광란 상태에 돌입하고, 주변의 devourer 역시 광란 상태에 빠집니다.
+		대상이 출혈 시, 포식귀가 %d 턴 동안 광란 상태에 돌입하고, 주변의 devourer 역시 광란 상태에 빠집니다.
 		광란시 전체속도가 %d%% , 물리 치명타 확률이 %d%% 증가하고 생명선 하한이 -%d%% 됩니다.]], "tformat")
 t("Abyssal Shroud", "심연의 장막", "talent name")
 t("Creates a shroud of darkness over a radius 3 area that lasts %d turns.  The shroud causes %0.2f darkness damage each turn, reduces light radius by %d, and darkness resistance by %d%% of those within.", "반경 3 칸 내에 %d 턴 동안 지속되는 심연의 장막을 생성합니다. 장막 내부의 모든 대상은 매 턴 %0.2f 암흑 피해를 받고, 광원 반경이 %d 줄어듭니다. 추가로 어둠 저항이 %d%% 감소합니다.", "tformat")
@@ -13802,7 +14227,7 @@ t([[You believe that your mind is the center of everything.  Permanently increas
 		You also have learned to overcome damage with your mind alone, and convert %d%% of all damage you receive into Psi damage and %d%% of your healing and life regen now recovers Psi instead of life.
 		Converted Psi damage you take will be further reduced by %0.1f%% (%0.1f%% from character level with the remainder further reduced by %0.1f%% from talent level).
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
-		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], [[시전자의 자아가 모든 것의 중심이라고 믿습니다. 레벨마다 획득하는 염동력 수치가 5 추가되며 생명력 증가량이 50%% 감소됩니다. (레벨 업시 상승하는 생명력 양에 영향을 주며, 위 효과는 단 한번만 적용됩니다).
+		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], [[시전자의 자아가 모든 것의 중심이라고 믿습니다. 레벨마다 획득하는 염동력 수치가 5 추가되며 생명력 증가량이 50%% 감소됩니다. (레벨 업 시 상승하는 생명력 양에 영향을 주며, 위 효과는 단 한번만 적용됩니다).
 		정신력만으로 피해를 극복하는 법을 배워, 피격시 피해량의 %d%% 를 염력으로 대신 받습니다. 또한 생명력 회복량과 재생량의 %d%% 가 생명력 대신 염력을 회복시킵니다.
 		생명력 대신 염력으로 피해를 받을 때, %0.1f%% 감소한 값의 염력이 소모됩니다 (캐릭터 레벨을 통해 %0.1f%% 만큼, 기술 레벨을 통해 %0.1f%% 만큼 추가로 감소).
 		이 기술을 배우면, 의지 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
@@ -19499,6 +19924,7 @@ t("cooldown", "재사용 대기시간", "effect subtype")
 t("power", "힘", "effect subtype")
 t("blind", "실명", "effect subtype")
 t("darkness", "암흑", "effect subtype")
+t("disease", "질병", "effect subtype")
 t("bleed", "출혈", "effect subtype")
 t("cut", "상처", "effect subtype")
 t("wound", "상처", "effect subtype")
@@ -19801,7 +20227,7 @@ t("+Bloodbath", "+유혈사태", "_t")
 t("-Bloodbath", "-유혈사태", "_t")
 t("%s's blood frenzy intensifies!", "%s의 피에젖은 광란이 더 강화된다!", "logSeen")
 t("%s revels in the spilt blood and grows stronger!", "%s 흩뿌려진 피와 그로부터 얻는 힘에 도취된다!", "logSeen")
-t("%s no longer revels in blood quite so much.", "%s의 학살이 끝났다.", "logSeen", nil, {"는"})
+t("%s no longer revels in blood quite so much.", "%s의 학살이 끝났다.", "logSeen")
 t("Bloodrage", "피의 분노", "_t")
 t("The target's strength is increased by %d by the thrill of combat.", "힘 +%d.", "tformat")
 t("Increased Life", "생명력 증가", "_t")
@@ -19971,7 +20397,7 @@ t("+Crystal Resonance", "+수정 공명", "_t")
 t("#Target# is no longer glinting.", "#Target2# 더 이상 반짝이지 않는다.", "_t")
 t("-Crystal Resonance", "-수정 공명", "_t")
 t("Weapon Warding", "감시하는 무기", "_t")
-t("Target is using %s telekinetically wielded weapon defensively and will block the next melee attack and retaliate.", "염동력 장착무기인 %s 사용하여 다음 근접 공격을 막아내고 즉시 보복.", "tformat", nil, {"이"})
+t("Target is using %s telekinetically wielded weapon defensively and will block the next melee attack and retaliate.", "염동력 장착무기인 %s 사용하여 다음 근접 공격을 막아내고 즉시 보복.", "tformat", nil, {"를"})
 t("#CRIMSON##Source# blocks #Target#'s attack and retaliates with %s telekinetically wielded weapon!#LAST#", "#CRIMSON##Source1# #Target#의 공격을 염동력 장착 무기인 %s 이용해 막아내고 보복했다!#LAST#", "logCombat", nil, {"을"})
 t("Thought Sense", "사고 감지", "_t")
 t("Detect nearby thoughts, revealing creature locations in a radius of %d and boosting defense by %d.", "반경 %d 칸 내의 모든 적 감지 / 회피도 +%d.", "tformat")
@@ -20971,7 +21397,7 @@ t("-Leaves Cover", "-나뭇잎의 보호", "_t")
 t("Parrying melee attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).", "다음 %0.1f 번의 공격을 %d%% 확률로 받아 넘겨, 최대 %d 의 피해량 감소.", "tformat", {3,1,2})
 t("Parrying", "받아넘기기", "_t")
 t(" and ranged", " , 원거리", "_t")
-t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "근접%s 공격을 받아 넘김 : 다음 %0.1f 번의 공격을 %d%% 확률로 받아 넘겨, 최대 %d 의 피해량을 감소함. 받아넘겨진 공격은 치명타가 일어나지 않음.", "tformat", {3,1,2})
+t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "근접%s 공격을 받아 넘김 : 다음 %0.1f 번의 공격을 %d%% 확률로 받아 넘겨, 최대 %d 의 피해량을 감소함. 받아넘겨진 공격은 치명타가 일어나지 않음.", "tformat", {1,4,2,3})
 t("Reduces all damage taken by %d.", "받는 피해량 -%d.", "tformat")
 t("#CRIMSON##Source# heals from blocking with %s shield!", "#CRIMSON##Source2# 공격을%s 방패로 막아내, 생명력을 회복한다!", "delayedLogMessage")
 t("%s resists the disarming attempt!", "%s 무장 해제에 저항했다", "logSeen", nil, {"는"})
@@ -21298,7 +21724,7 @@ t("Increases attack speed by %d%%.", "공격 속도 +%d%%.", "tformat")
 t("tactic", "전술", "effect subtype")
 t("Crooked", "비틀림", "_t")
 t("The target becomes more and more primitive, reducing accuracy and powers by %d", "정확도, 물리력, 주문력, 정신력 -%d", "tformat")
-t("Eldoral", "엘도라의 최후의 수단", "_t")
+t("Eldoral", "엘도랄의 최후의 수단", "_t")
 t("Firing slings does not consume shots.", "투석구 사격이 탄환을 소모하지 않음.", "tformat")
 t("#Target# is focused on firing.", "#Target2# 사격에 집중한다.", "_t")
 t("+Eldoral", "+최후수단", "_t")
@@ -21427,6 +21853,7 @@ t("humanoid", "인간형", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/zones/arena/objects.lua"
 
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 t("armor", "방어구", "entity type")
 t("feet", "다리", "entity subtype")
 
@@ -21689,6 +22116,7 @@ section "game/modules/tome/data/zones/dreams/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
 t("yeek", "이크", "entity subtype")
+t("bloated horror", "부풀어오른 공포", "entity subtype")
 
 
 ------------------------------------------------
@@ -21951,6 +22379,7 @@ section "game/modules/tome/data/zones/illusory-castle/zone.lua"
 section "game/modules/tome/data/zones/infinite-dungeon/grids.lua"
 
 t("underground", "지하", "entity subtype")
+t("crystal", "수정술사", "entity subtype")
 t("sand", "모래", "entity subtype")
 t("grass", "잔디", "entity subtype")
 t("burnt", "숯덩이가되어", "entity subtype")
@@ -22092,6 +22521,7 @@ t("wall", "벽", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/zones/maze/npcs.lua"
 
+t("corrupted", "부패", "entity subtype")
 t("horror", "공포", "entity type")
 t("giant", "거인", "entity type")
 
@@ -22166,6 +22596,7 @@ t("wall", "벽", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/zones/old-forest/npcs.lua"
 
+t("crystal", "수정술사", "entity subtype")
 t("giant", "거인", "entity type")
 t("treant", "나무 정령", "entity subtype")
 
@@ -23273,6 +23704,7 @@ t("Temporal Warden", "시간 감시자", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/void/npcs.lua"
 
+t("eyal", "에이얄", "entity subtype")
 t("god", "신", "entity type")
 
 
@@ -23303,6 +23735,7 @@ section "game/modules/tome/data/zones/vor-armoury/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/vor-pride/grids.lua"
 
+t("book", "책", "entity name")
 t("floor", "바닥", "entity subtype")
 
 
@@ -24487,6 +24920,7 @@ t("Strength", "힘", "stat name")
 t("Strength defines your character's ability to apply physical force. It increases your melee damage, damage done with heavy weapons, your chance to resist physical effects, and carrying capacity.", "힘은 물리적 힘을 행사하는 능력을 결정합니다. 근접 피해와 무거운 무기로 입히는 피해를 증가시킵니다. 물리 상태 효과에 저항할 확률과 당신이 지닐 수 있는 무게를 증가시킵니다.", "_t")
 t("Dexterity", "민첩", "stat name")
 t("Dexterity defines your character's ability to be agile and alert. It increases your chance to hit, your ability to avoid attacks, and your damage with light or ranged weapons.", "민첩은 기민하고 경계하는 능력을 결정합니다. 적중 확률을 증가시키고, 공격을 피하는 능력을 향상시킵니다. 가벼운 무기와 원거리 무기로 가하는 피해를 증가시킵니다.", "_t")
+t("dex", "민첩", "stat short_name")
 t("Magic", "마법", "stat name")
 t("Magic defines your character's ability to manipulate the magical energy of the world. It increases your spell power, and the effect of spells and other magic items.", "마법은 마법 에너지를 다루는 능력을 결정합니다. 주문력과 주문 상태 효과를 입힐 확률을 증가시키고, 마법 아이템들을 다루는 능력을 향상시킵니다.", "_t")
 t("Willpower", "의지", "stat name")
@@ -24495,6 +24929,7 @@ t("Cunning", "교활", "stat name")
 t("Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your mental capabilities and chance of critical hits.", "교활은 배우고, 생각하여, 반응하는 능력을 결정합니다. 다양하고 광범위한 능력을 배우게 도와주고, 정신적 가능성과 치명타 확률을 증가시킵니다.", "_t")
 t("Constitution", "체격", "stat name")
 t("Constitution defines your character's ability to withstand and resist damage. It increases your maximum life and physical resistance.", "체격은 피해를 견디고 저항해내는 능력을 결정합니다. 최대 생명력과 물리 저항을 증가시킵니다.", "_t")
+t("con", "체격", "stat short_name")
 t("Luck", "행운", "stat name")
 t("Luck defines your character's fortune when dealing with unknown events. It increases your critical strike chance, your chance of random encounters, ...", "행운은 미지의 사건에 대처하는 능력을 결정합니다. 치명타 확률과 랜덤 인카운터 확률을 증가시킵니다.", "_t")
 t("All kinds of weapons", "모든 무기", "_t")

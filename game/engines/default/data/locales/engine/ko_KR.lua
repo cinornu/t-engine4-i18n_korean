@@ -95,7 +95,7 @@ setFlag("noun_target_sub", function(str, type, noun)
 	end
 end)
 
-setFlag("tformat_special", function(s, locales_args, special, ...)
+setFlag("tformat_special", function(s, tag, locales_args, special, ...)
 	local args
 	if locales_args then
 		local sargs = {...}
@@ -106,7 +106,7 @@ setFlag("tformat_special", function(s, locales_args, special, ...)
 	else
 		args = {...}
 	end
-	s = _t(s)
+	s = _t(s, tag)
 	for k, v in pairs(special) do
 		args[k] = addJosa(args[k], v)
 	end
@@ -493,7 +493,7 @@ t("Requires:", "요구사항:", "_t")
 t("%s (level %d)", "%s (%d 레벨)", "tformat")
 t("Level %d", "%d 레벨", "tformat")
 t("Talent %s (level %d)", "기술 %s (%d 레벨)", "tformat")
-t("Talent %s", "기술 %s", "tformat")
+t("Talent %s", "기술 : %s", "tformat")
 
 
 ------------------------------------------------
@@ -1875,6 +1875,8 @@ section "game/engines/default/modules/boot/load.lua"
 
 t("Strength", "힘", "stat name")
 t("Dexterity", "민첩", "stat name")
+t("dex", "민첩", "stat short_name")
 t("Constitution", "체격", "stat name")
+t("con", "체격", "stat short_name")
 
 
