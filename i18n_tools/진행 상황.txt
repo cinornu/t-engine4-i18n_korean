@@ -513,6 +513,11 @@ section "game/dlcs/tome-orcs/data/talents/celestial/reflection.lua"
 section "game/dlcs/tome-orcs/data/talents/celestial/sol.lua"
 section "game/dlcs/tome-orcs/data/talents/celestial/void.lua"
 
+section "game/dlcs/tome-orcs/data/talents/misc/objects.lua"
+
+section "game/dlcs/tome-orcs/data/talents/psionic/action-at-a-distance.lua"
+section "game/dlcs/tome-orcs/data/talents/psionic/gestalt.lua"
+
 
 장비 설명들--------------------------------------------------------------
 section "game/modules/tome/data/general/objects/2haxes.lua" Stéphanois
@@ -614,9 +619,11 @@ section "game/modules/tome/dialogs/Birther.lua" Stéphanois  완
 section "game/modules/tome/dialogs/LevelupDialog.lua" Stéphanois  ** 이 기술계열은 레벨 %d 부터 사용할 수 있습니다. 지금 이 기술계열을 익히는 것은 쓸모가 없습니다 <- 짤려나옴
 section "game/modules/tome/dialogs/PartyOrder.lua 완
 section "game/modules/tome/dialogs/CharacterSheet.lua" 완
+section "game/modules/tome/class/interface/TooltipsData.lua" (중간부터 끝냄)
 
 section "game/modules/tome/data/zones/wilderness/zone.lua" Stéphanois  완
 section "game/modules/tome/data/zones/wilderness/grids.lua" Stéphanois  완
+section "game/modules/tome/class/interface/TooltipsData.lua"
 
 
 
