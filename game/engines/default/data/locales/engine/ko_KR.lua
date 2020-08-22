@@ -82,6 +82,10 @@ setFlag("noun_target_sub", function(str, type, noun)
 		return str:gsub("#Target#", noun):gsub("#Target1#", addJosa(noun, "가")):gsub("#Target2#", addJosa(noun, "는")):gsub("#Target3#", addJosa(noun, "를")):gsub("#Target4#", addJosa(noun, "로")):gsub("#Target5#", addJosa(noun, "다")):gsub("#Target6#", addJosa(noun, "과")):gsub("#Target7#", addJosa(noun, 7))
 	elseif type == "#target#" then
 		return str:gsub("#target#", noun):gsub("#target#", addJosa(noun, "가")):gsub("#target2#", addJosa(noun, "는")):gsub("#target3#", addJosa(noun, "를")):gsub("#target4#", addJosa(noun, "로")):gsub("#target5#", addJosa(noun, "다")):gsub("#target6#", addJosa(noun, "과")):gsub("#target7#", addJosa(noun, 7))
+	elseif type == "@Source@" then
+		return str:gsub("@Source@", noun):gsub("@Source1@", addJosa(noun, "가")):gsub("@Source2@", addJosa(noun, "는")):gsub("@Source3@", addJosa(noun, "를")):gsub("@Source4@", addJosa(noun, "로")):gsub("@Source5@", addJosa(noun, "다")):gsub("@Source6@", addJosa(noun, "과")):gsub("@Source7@", addJosa(noun, 7))
+	elseif type == "@source@" then
+		return str:gsub("@source@", noun):gsub("@source@", addJosa(noun, "가")):gsub("@source2@", addJosa(noun, "는")):gsub("@source3@", addJosa(noun, "를")):gsub("@source4@", addJosa(noun, "로")):gsub("@source5@", addJosa(noun, "다")):gsub("@source6@", addJosa(noun, "과")):gsub("@source7@", addJosa(noun, 7))
 	elseif type == "@Target@" then
 		return str:gsub("@Target@", noun):gsub("@Target@", addJosa(noun, "가")):gsub("@Target2@", addJosa(noun, "는")):gsub("@Target3@", addJosa(noun, "를")):gsub("@Target4@", addJosa(noun, "로")):gsub("@Target5@", addJosa(noun, "다")):gsub("@Target6@", addJosa(noun, "과")):gsub("@Target7@", addJosa(noun, 7))
 	elseif type == "@target@" then
@@ -127,18 +131,18 @@ t("Cosmic Fauna", "Cosmic Fauna", nil)
 t("Dreadfell", "두려움의 영역", nil)
 t("Enemies", "적", nil)
 t("Experimentation Room", "연습실", nil)
-t("Exploratory Farportal", "탐험용 장거리 포탈", nil)
+t("Exploratory Farportal", "탐험용 장거리 차원문", nil)
 t("FINGER", "반지", nil)
 t("Fearscape", "공포의 영역", nil)
 t("Hall of Reflection", "반사의 전당", nil)
 t("Horrors", "공포", nil)
 t("Iron Throne", "철의 왕좌", nil)
-t("Keepers of Reality", "현실 감시원", nil)
+t("Keepers of Reality", "현실의 수호자", nil)
 t("MAINHAND", "주무기", nil)
 t("Marus of Elvala", "엘발라의 말루스", nil)
 t("OFFHAND", "보조무기", nil)
 t("Orc Pride", "오크 긍지", nil)
-t("Portal Room", "관문의 방", nil)
+t("Portal Room", "차원문의 방", nil)
 t("Rhalore", "랄로레", nil)
 t("Sandworm Burrowers", "굴 파는 지렁이", nil)
 t("Shalore", "샬로레", nil)
@@ -195,8 +199,8 @@ t("north", "북쪽", nil)
 t("northeast", "북동쪽", nil)
 t("northwest", "북서쪽", nil)
 t("offhand", "offhand", nil)
-t("portal", "관문", nil)
-t("portal back", "돌아가는 관문", nil)
+t("portal", "차원문", nil)
+t("portal back", "돌아가는 차원문", nil)
 t("ranged", "원거리", nil)
 t("repented thief", "회개한 도적", nil)
 t("rimebark", "서리 나무", nil)
@@ -1258,12 +1262,12 @@ t("- Is %s", "- %s", "tformat")
 ------------------------------------------------
 section "game/engines/default/engine/interface/GameTargeting.lua"
 
-t("Tactical display disabled. Press shift+'t' to enable.", "전술 시야 비활성. Press shift+'t'로 활성화", "_t")
+t("Tactical display disabled. Press shift+'t' to enable.", "전술 시야 비활성. shift+'t'로 활성화", "_t")
 t("Are you sure you want to target yourself?", "정말 스스로를 대상으로 하겠습니까?", "_t")
 t("No", "아니요", "_t")
 t("Target yourself?", "스스로를 대상으로 합니까?", "_t")
 t("Yes", "네", "_t")
-t("Tactical display enabled. Press shift+'t' to disable.", "전술 시야 활성. Press shift+'t'로 비활성화.", "_t")
+t("Tactical display enabled. Press shift+'t' to disable.", "전술 시야 활성. shift+'t'로 비활성화.", "_t")
 
 
 ------------------------------------------------
