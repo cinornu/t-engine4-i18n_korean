@@ -241,11 +241,7 @@
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
-"game/modules/tome/data/zones/halfling-ruins/zone.lua"
-"game/modules/tome/data/zones/heart-gloom/grids.lua"
-"game/modules/tome/data/zones/heart-gloom/npcs.lua"
-"game/modules/tome/data/zones/heart-gloom/zone.lua"
-"game/modules/tome/data/zones/high-peak/grids.lua" Khelerd 완
+"game/modules/tome/data/zones/halfling-ruins/zone.lua" Khelerd 완
 
 "game/modules/tome/data/zones/reknor-escape/grids.lua"
 "game/modules/tome/data/zones/reknor-escape/npcs.lua"
@@ -265,10 +261,7 @@
 "game/modules/tome/data/zones/ritch-tunnels/npcs.lua"
 "game/modules/tome/data/zones/ritch-tunnels/zone.lua"
 "game/modules/tome/data/zones/ruined-dungeon/grids.lua"
-"game/modules/tome/data/zones/ruined-dungeon/zone.lua"
-"game/modules/tome/data/zones/ruins-kor-pul/npcs.lua"
-"game/modules/tome/data/zones/ruins-kor-pul/objects.lua"
-"game/modules/tome/data/zones/ruins-kor-pul/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/ruined-dungeon/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
@@ -566,6 +559,13 @@ section "game/modules/tome/data/general/objects/egos/digger.lua"
 section "game/modules/tome/data/general/objects/egos/gloves.lua"
 section "game/modules/tome/data/general/objects/egos/heavy-armor.lua"
 section "game/modules/tome/data/general/objects/egos/helm.lua"
+section "game/modules/tome/data/general/objects/egos/infusions.lua"
+section "game/modules/tome/data/general/objects/egos/light-armor.lua"
+section "game/modules/tome/data/general/objects/egos/light-boots.lua"
+section "game/modules/tome/data/general/objects/egos/lite.lua"
+section "game/modules/tome/data/general/objects/egos/massive-armor.lua"
+section "game/modules/tome/data/general/objects/egos/mindstars.lua"
+section "game/modules/tome/data/general/objects/egos/potions.lua"
 
 
 section "game/modules/tome/class/Game.lua" Stéphanois - 기본적인 게임 로그메시지들
