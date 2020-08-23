@@ -256,7 +256,13 @@
 "game/modules/tome/data/zones/keepsake-meadow/grids.lua"
 "game/modules/tome/data/zones/keepsake-meadow/npcs.lua"
 "game/modules/tome/data/zones/keepsake-meadow/objects.lua"
-"game/modules/tome/data/zones/keepsake-meadow/traps.lua" Khelerd 완
+"game/modules/tome/data/zones/keepsake-meadow/traps.lua"
+"game/modules/tome/data/zones/lake-nur/grids.lua"
+"game/modules/tome/data/zones/lake-nur/objects.lua"
+"game/modules/tome/data/zones/lake-nur/zone.lua"
+"game/modules/tome/data/zones/last-hope-graveyard/grids.lua"
+"game/modules/tome/data/zones/last-hope-graveyard/npcs.lua"
+"game/modules/tome/data/zones/last-hope-graveyard/objects.lua" Khelerd 완
 
 "game/modules/tome/data/zones/reknor-escape/grids.lua"
 "game/modules/tome/data/zones/reknor-escape/npcs.lua"
