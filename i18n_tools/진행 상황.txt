@@ -525,6 +525,17 @@ section "game/dlcs/tome-orcs/data/talents/misc/objects.lua"
 
 section "game/dlcs/tome-orcs/data/talents/psionic/action-at-a-distance.lua"
 section "game/dlcs/tome-orcs/data/talents/psionic/gestalt.lua"
+section "game/dlcs/tome-orcs/data/talents/psionic/psionic-fog.lua"
+section "game/dlcs/tome-orcs/data/talents/psionic/psionic.lua"
+
+section "game/dlcs/tome-orcs/data/talents/spells/galvanic-technomancy.lua"
+section "game/dlcs/tome-orcs/data/talents/spells/occult-technomancy.lua"
+section "game/dlcs/tome-orcs/data/talents/spells/other-technomancy.lua"
+section "game/dlcs/tome-orcs/data/talents/spells/spells.lua"
+section "game/dlcs/tome-orcs/data/talents/spells/terrene-technomancy.lua"
+section "game/dlcs/tome-orcs/data/talents/spells/undead-drake.lua"
+
+section "game/dlcs/tome-orcs/data/talents/steam/artillery.lua"
 
 
 장비 설명들--------------------------------------------------------------
