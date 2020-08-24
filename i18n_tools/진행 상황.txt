@@ -266,7 +266,11 @@
 "game/modules/tome/data/zones/last-hope-graveyard/zone.lua"
 "game/modules/tome/data/zones/mark-spellblaze/grids.lua"
 "game/modules/tome/data/zones/mark-spellblaze/npcs.lua
-"game/modules/tome/data/zones/mark-spellblaze/objects.lua" Khelerd 완
+"game/modules/tome/data/zones/mark-spellblaze/objects.lua"
+"game/modules/tome/data/zones/maze/grids.lua"
+"game/modules/tome/data/zones/maze/npcs.lua"
+"game/modules/tome/data/zones/maze/objects.lua"
+"game/modules/tome/data/zones/maze/zone.lua" Khelerd 완
 
 "game/modules/tome/data/zones/reknor-escape/grids.lua"
 "game/modules/tome/data/zones/reknor-escape/npcs.lua"
