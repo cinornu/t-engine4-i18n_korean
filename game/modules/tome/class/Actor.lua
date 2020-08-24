@@ -7219,10 +7219,10 @@ function _M:dispel(effid_or_tid, src, allow_immunity, params)
 			if not self:canBe("dispel_effects") then allowed = false end
 		end
 		if allowed and allow_immunity then
-			if self:fireTalentCheck("callbackOnDispel", "effect", effid_or_tid, src, allow_immunity) then allowed = false end
+			if self:fireTalentCheck("callbackOnDispel", "effect", effid_or_tid, src, allow_immunity, eff.desc) then allowed = false end
 		end
 		if allowed then
-			self:fireTalentCheck("callbackOnDispelled", "effect", effid_or_tid, src, allow_immunity)
+			self:fireTalentCheck("callbackOnDispelled", "effect", effid_or_tid, src, allow_immunity, eff.desc)
 			self:removeEffect(effid_or_tid, params.silent, params.force)
 			return true
 		else
@@ -7239,10 +7239,10 @@ function _M:dispel(effid_or_tid, src, allow_immunity, params)
 			if not self:canBe("dispel_sustains") then allowed = false end
 		end
 		if allowed and allow_immunity then
-			if self:fireTalentCheck("callbackOnDispel", "sustain", effid_or_tid, src, allow_immunity) then allowed = false end
+			if self:fireTalentCheck("callbackOnDispel", "sustain", effid_or_tid, src, allow_immunity, t.name) then allowed = false end
 		end
 		if allowed then
-			self:fireTalentCheck("callbackOnDispelled", "sustain", effid_or_tid, src, allow_immunity)
+			self:fireTalentCheck("callbackOnDispelled", "sustain", effid_or_tid, src, allow_immunity, t.name)
 			self:forceUseTalent(effid_or_tid, params)
 			return true
 		else

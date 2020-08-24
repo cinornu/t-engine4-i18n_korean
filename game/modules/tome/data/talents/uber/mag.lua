@@ -70,24 +70,32 @@ uberTalent{
 
 uberTalent{
 	name = "Aether Permeation",
-	mode = "passive",
-	require = { special={desc=_t"Have at least 25% arcane damage reduction and have been exposed to the void of space", fct=function(self)
-		return (game.state.birth.ignore_prodigies_special_reqs or self:attr("planetary_orbit")) and self:combatGetResist(DamageType.ARCANE) >= 25
+	mode = "sustained",
+	require = { special={desc=_t"Have been exposed to the void of space", fct=function(self)
+		return (game.state.birth.ignore_prodigies_special_reqs or self:attr("planetary_orbit"))
 	end} },
-	cant_steal = true,
-	on_learn = function(self, t)
+	cooldown = 20,
+	callbackPriorities={callbackOnDispel = -9999}, -- Never set anything lower heh, it should trigger before anything else
+	callbackOnDispel = function(self, t, type, effid_or_tid, src, allow_immunity, name)
+		if not allow_immunity then return false end
+		if self:hasEffect(self.EFF_AETHER_PERMEATION) then return end
+		self:setEffect(self.EFF_AETHER_PERMEATION, 6, {})
+		game:onTickEnd(function() self:forceUseTalent(t.id, {ignore_energy=true}) end)
+		game.logSeen(self, "#ORCHID#Aether Permeation protects %s from a dispel!", name)
+		return true
+	end,
+	activate = function(self, t)
 		local ret = {}
-		self:talentTemporaryValue(ret, "force_use_resist", DamageType.ARCANE)
-		self:talentTemporaryValue(ret, "force_use_resist_percent", 66)
-		self:talentTemporaryValue(ret, "resists", {[DamageType.ARCANE] = 20})
-		self:talentTemporaryValue(ret, "resists_cap", {[DamageType.ARCANE] = 10})
+		self:talentTemporaryValue(ret, "combat_spellpower", 40)
 		return ret
 	end,
-	on_unlearn = function(self, t)
+	deactivate = function(self, t, p)
+		return true
 	end,
 	info = function(self, t)
-		return ([[You manifest a thin layer of aether all around you. Any attack passing through it will check arcane resistance instead of the incoming damage resistance.
-		In effect, all of your resistances are equal to 66%% of your arcane resistance, which is increased by 20%% (and cap increased by 10%%).]])
+		return ([[You manifest a thin layer of aether all around you. 
+		Any time you are the target of a dispel effect the aether strengthens around you, protecting you from the dispel and any further ones for 6 turns and unsustaining this spell.
+		While undisturbed the layer of aether provides you with 40 raw spellpower.]])
 		:tformat()
 	end,
 }

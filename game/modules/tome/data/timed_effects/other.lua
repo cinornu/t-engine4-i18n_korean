@@ -3986,7 +3986,7 @@ newEffect{
 	subtype = { lich = true },
 	status = "neutral",
 	parameters = { },
-	callbackOnSummonKill = function(self, t, minion, who, death_note)
+	callbackOnSummonKill = function(self, eff, minion, who, death_note)
 		if who.rank >= 3.5 then
 			eff.success = true
 			self:removeEffect(self.EFF_LICH_HUNGER)
@@ -3999,6 +3999,9 @@ newEffect{
 			self:removeEffect(self.EFF_LICH_HUNGER)
 			game.bignews:say(120, "#DARK_ORCHID#Lichform regeneration is complete!#{normal}#")
 		end
+	end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "lich_hunger", 1)
 	end,
 	deactivate = function(self, eff)
 		if eff.success then return end
@@ -4090,5 +4093,21 @@ newEffect{
 				self:die(self)
 			end
 		end
+	end,
+}
+
+newEffect{
+	name = "AETHER_PERMEATION", image = "talents/aether_permeation.png",
+	desc = _t"Aether Permeation",
+	long_desc = function(self, eff) return ("Target is protected from dispels"):tformat() end,
+	type = "other",
+	subtype = { prodigy=true, arcane=true },
+	status = "beneficial",
+	parameters = { },
+	callbackPriorities={callbackOnDispel = -9999999}, -- Never set anything lower heh, it should trigger before anything else
+	callbackOnDispel = function(self, t, type, effid_or_tid, src, allow_immunity, name)
+		if not allow_immunity then return false end
+		game.logSeen(self, "#ORCHID#Aether Permeation protects %s from a dispel!", name)
+		return true
 	end,
 }

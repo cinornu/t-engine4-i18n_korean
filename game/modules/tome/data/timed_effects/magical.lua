@@ -4958,7 +4958,7 @@ newEffect{
 	status = "beneficial",
 	charges = function(self, eff) return math.floor(eff.stacks) end,
 	parameters = {stacks=0, max_stacks=3, dam=20, radius=3},
-	on_gain = function(self, err) return "#Target# summons a corpselight!", true end,
+	on_gain = function(self, err) return _t"#Target# summons a corpselight!", true end,
 	on_lose = function(self, err) return nil, true end,
 	callbackOnChangeLevel = function(self, eff, what)
 		if what ~= "leave" then return end

@@ -43,4 +43,7 @@ return {
 			down = "LAVA_FLOOR",
 		},
 	},
+	on_enter = function()
+		game.player:attr("planetary_orbit", 1)
+	end,
 }

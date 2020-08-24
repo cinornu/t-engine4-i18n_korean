@@ -441,7 +441,7 @@ uberTalent{
 		self:talentTemporaryValue(tmptable, "unused_generics", 5)
 	end,
 	info = function(self, t)
-		return ([[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are available only to people without any spells or runes, and Group 3 are not available to followers of Zigur.
+		return ([[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are available only to characters that know antimagic, and Group 3 are not available to antimagic characters.
 		GROUP 1:
 		- Technique / Conditioning
 		- Cunning / Survival

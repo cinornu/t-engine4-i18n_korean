@@ -66,6 +66,7 @@ return {
 		},
 	},
 	on_enter = function(lev, old_lev, newzone)
+		game.player:attr("planetary_orbit", 1)
 		if newzone then game.party:learnLore("fearscape-entry") end
 	end,
 }

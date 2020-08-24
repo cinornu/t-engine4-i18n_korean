@@ -1561,6 +1561,8 @@ wooden_barricade = { method="road", marker="barricade",
 	default6={add_mos={{image="terrain/wooden_barricade/barricade_end_a_01.png"}}, min=1, max=1},
 	default2={add_mos={{image="terrain/wooden_barricade/barricade_end_a_03.png"}}, min=1, max=1},
 	default8={add_mos={{image="terrain/wooden_barricade/barricade_end_a_04.png"}}, min=1, max=1},
+
+	pillar={add_mos={{image="terrain/wooden_barricade/barricade_pillar.png"}}, min=1, max=1},
 },
 }
 _M.generic_roads_defs = defs
@@ -1581,7 +1583,8 @@ function _M:editTileGenericRoad(level, i, j, g, nt, type)
 	local id = "genroad:"..table.concat({g.define_as or "--",type,tostring(g1==g5),tostring(g2==g5),tostring(g3==g5),tostring(g4==g5),tostring(g5==g5),tostring(g6==g5),tostring(g7==g5),tostring(g8==g5),tostring(g9==g5)}, ",")
 
 	-- Cross & semi cross
-	if     g5 == g8 and g5 == g2 and g5 == g4 and g5 == g6 then self:edit(i, j, id, nt["default8246"])
+	if     g5 ~= g8 and g5 ~= g2 and g5 ~= g4 and g5 ~= g6 and nt["pillar"] then self:edit(i, j, id, nt["pillar"])
+	elseif g5 == g8 and g5 == g2 and g5 == g4 and g5 == g6 then self:edit(i, j, id, nt["default8246"])
 	elseif g5 ~= g8 and g5 == g2 and g5 == g4 and g5 == g6 then self:edit(i, j, id, nt["default246"])
 	elseif g5 == g8 and g5 ~= g2 and g5 == g4 and g5 == g6 then self:edit(i, j, id, nt["default846"])
 	elseif g5 == g8 and g5 == g2 and g5 ~= g4 and g5 == g6 then self:edit(i, j, id, nt["default826"])
