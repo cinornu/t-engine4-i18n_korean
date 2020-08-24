@@ -338,6 +338,14 @@ t("You fail to attach %s to %s.", "당신은 %s 당신의 %s 에 장착하는데
 
 
 ------------------------------------------------
+section "game/modules/tome/class/EscortRewards.lua"
+
+t("mental", "정신적 효과", "_t")
+t("physical", "물리", "_t")
+t("spell", "주문", "_t")
+
+
+------------------------------------------------
 section "game/modules/tome/class/FortressPC.lua"
 
 t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, 쉐르'툴 요새", "_t")
@@ -584,7 +592,7 @@ t("Effects on melee hit: ", "근접 공격 명중 시 효과: ", "_t")
 t("Damage (Melee): ", "피해량 (근접 공격): ", "_t")
 t("Effects on ranged hit: ", "원거리 공격 명중 시 효과: ", "_t")
 t("Damage (Ranged): ", "피해량 (원거리 공격): ", "_t")
-t("Effects when hit in melee: ", "근접 공격 피격시 효과: ", "_t")
+t("Effects when hit in melee: ", "근접 공격 피격 시 효과: ", "_t")
 t("Damage when hit (Melee): ", "보복 피해 (근접): ", "_t")
 t("#YELLOW#On shield block:#LAST#", "#YELLOW#방패로 방어 시:#LAST#", "_t")
 t("Changes stats: ", "능력치 변화: ", "_t")
@@ -613,7 +621,7 @@ t("Talent", "기술", "_t")
 t("Talents", "기술", "_t")
 t("Allows you to breathe in: ", "호흡 가능: ", "_t")
 t("Critical mult.: ", "치명타 피해 증가.: ", "_t")
-t("Reduces incoming crit damage: ", "피격시 치명타 무효화: ", "_t")
+t("Reduces incoming crit damage: ", "피격 시 치명타 무효화: ", "_t")
 t("Reduces opponents crit chance: ", "공격자의 치명타 확률 감소: ", "_t")
 t("Trap disarming bonus: ", "추가 함정 해체력: ", "_t")
 t("Stealth bonus: ", "추가 은신력: ", "_t")
@@ -702,7 +710,7 @@ t("Chance to avoid any damage: ", "피해 무효화 확률: ", "_t")
 t("Defense after a teleport: ", "순간이동 후 회피도 상승: ", "_t")
 t("Resist all after a teleport: ", "순간이동 후 모든 저항 상승: ", "_t")
 t("New effects duration reduction after a teleport: ", "순간이동 후 새로운 효과 지속시간 감소: ", "_t")
-t("Damage Resonance (when hit): ", "피격시 받는 피해 증폭: ", "_t")
+t("Damage Resonance (when hit): ", "피격 시 받는 피해 증폭: ", "_t")
 t("Size category: ", "몸집 크기: ", "_t")
 t("Max wilder summons: ", "최대 자연적인 소환수: ", "_t")
 t("Life regen bonus (wilder-summons): ", "자연적인 소환수 생명력 재생: ", "_t")
@@ -960,10 +968,10 @@ t([[#GOLD#Gold#LAST#
 Money!
 With gold you can buy items in the various stores in town.
 You can gain money by looting it from your foes, by selling items and by doing some quests.
-]], [[#GOLD#골드#LAST#
-골드!
-마을의 다양한 상점에서 아이템을 골드로 구매할 수 있습니다.
-골드는 적을 처치하거나 아이템을 판매하거나 임무를 수행하여 얻을 수 있습니다.You can gain money by looting it from your foes, by selling items and by doing some quests.
+]], [[#GOLD#금화#LAST#
+돈!
+마을의 다양한 상점에서 물품들을 금화로 구매할 수 있습니다.
+금화는 적을 처치하거나 물건을 판매하거나 임무를 수행하여 얻을 수 있습니다.
 ]], "_t")
 t([[#GOLD#Lives#LAST#
 How many lives you have and how many you lost.
@@ -971,15 +979,15 @@ Your total number of lives depends on the permadeath setting you choose.
 You may find other ways to save yourself but they are not considered extra lives.
 ]], [[#GOLD#목숨#LAST#
 남은 목숨의 수와 사망한 횟수입니다.
-총 목숨의 수는 당신이 선택한 퍼마데스 설정에 따라 달라집니다.
-부활하기 위한 다른 방법을 찾을수도 있지만 그것들은 여분 목숨으로 계산되지 않습니다.
+총 목숨의 수는 당신이 선택한 영구적 죽음 설정에 따라 달라집니다.
+부활하기 위한 다른 방법을 찾을수도 있지만 그것들은 추가적인 목숨으로 계산되지 않습니다.
 ]], "_t")
 t([[#GOLD#Blood of Life#LAST#
 The Blood of Life courses through your veins.
 This can save you from death and restore you to full health (once) if you would otherwise die.
 ]], [[#GOLD#생명의 피#LAST#
 생명의 피가 혈관을 타고 흐르고 있습니다.
-생명의 피 외의 다른 부활수단이 없다면 당신을 죽음으로부터 구원하고 생명력을 최대로 회복시켜줍니다(한번만).
+생명의 피 외의 다른 부활 수단이 없다면, 단 한번 생명의 피를 소모하여 당신을 죽음으로부터 구원하고 생명력을 최대로 회복시켜줍니다.
 ]], "_t")
 t([[#GOLD#Life#LAST#
 This is your life force, which is reduced each time you take damage.
@@ -987,31 +995,31 @@ Normally, you will die if this drops below zero, though some effects will allow 
 Death is usually permanent so beware!
 It is increased by Constitution.
 ]], [[#GOLD#생명력#LAST#
-피해를 받으면 감소하는 생명력입니다.
+당신의 생명의 힘으로, 피해를 받을 때 마다 점점 줄어듭니다.
 일반적으로 생명력이 0이 되면 사망하지만 몇몇 효과로 생명력이 음수인 상태로 살아남을 수 있습니다.
-죽음은 보통 영구적이기 때문에 조심하십시오!.
+죽음은 되돌리기 매우 힘들기 때문에 조심하십시오!.
 체격에 따라 증가합니다.
 ]], "_t")
 t([[#GOLD#Damage shields#LAST#
 Various talents, items and powers can grant you a temporary damage shield.
 Each works in a distinct manner, but will usually intercept a certain amount of damage that would otherwise hit you before crumbling.
-]], [[#GOLD#피해 흡수 보호막#LAST#
-다양한 기술, 아이템과 능력을 통해 일시적인 피해 흡수 보호막을 얻을수 있습니다.
-각각의 보호막은 고유한 방식으로 작동하지만, 일반적으로 파괴되기 전에 받는 피해를 흡수합니다.
+]], [[#GOLD#피해 보호막#LAST#
+다양한 기술, 아이템과 능력을 통해 일시적인 피해 보호막을 얻을수 있습니다.
+각각의 보호막은 제각기 다른 방식으로 작동하지만, 일반적으로 파괴되기 전에 받는 피해를 흡수합니다.
 ]], "_t")
 t([[#GOLD#Unnatrual Body Regeneration#LAST#
 Your Unnatural Body talent allows you to feed off the life of your fallen foes.
 Each time you kill a creature your maximum regeneration pool increases and each turn some of it transfers into your own life.
 ]], [[#GOLD#저주받은 신체 재생#LAST#
-저주받은 신체는 당신이 처치한 적의 생명력을 갈취할 수 있게 해줍니다.
+저주받은 신체 기술을 통해 당신이 처치한 적의 생명력을 갈취할 수 있게 해줍니다.
 적을 처치할 때마다 회복량을 저장하고 매 턴 저장한 회복량 일부를 생명력으로 회복합니다.
 ]], "_t")
 t([[#GOLD#Life Regeneration#LAST#
 How much life you regenerate per turn.
 This value can be improved with spells, talents, infusions, equipment.
 ]], [[#GOLD#생명력 재생#LAST#
-매 턴당 회복하는 생명력의 양입니다.
-이 수치는 주문, 기술, 주입물, 장비로 증가할 수 있습니다.
+매 턴 회복하는 생명력의 양입니다.
+이 수치는 주문, 기술, 주입물, 장비로 인해 증가될 수 있습니다.
 ]], "_t")
 t([[#GOLD#Healing mod#LAST#
 This represents how effective healing is for you.
@@ -1027,7 +1035,7 @@ The breath counter only appears when you are suffocating.
 If it reaches zero you will die. Being stuck in a wall, being in deep water, ... all those kinds of situations will decrease your air.
 When you come back into a breathable atmosphere you will slowly regain your air level.
 ]], [[#GOLD#호흡#LAST#
-이 수치는 숨을 쉴 수없을 때에만 나타납니다.
+이 수치는 숨을 쉴 수 없을 때에만 나타납니다.
 호흡이 0이 되면 사망합니다. 벽에 끼이거나 잠수하는 것을 비롯한 여러 상황은 호흡 수치를 감소시킵니다.
 호흡 가능한 공간으로 돌아오면 호흡이 천천히 회복됩니다.
 ]], "_t")
@@ -1050,12 +1058,12 @@ It is increased by Willpower.
 t([[#GOLD#Positive Energy#LAST#
 Positive energy represents your reserve of positive "celestial" power, most closely associated with the Sun.
 ]], [[#GOLD#양기#LAST#
-양기는 당신이 보유한 태양과 밀접한 연관을 지닌 긍정적 "천공"의 힘을 나타냅니다.
+양기는 태양과 밀접한 연관을 지닌 빛의 "천공"의 힘을 나타냅니다.
 ]], "_t")
 t([[#GOLD#Negative Energy#LAST#
 Negative energy represents your reserve of negative "celestial" power, most closely associated with the Moon.
 ]], [[#GOLD#음기#LAST#
-양기는 당신이 보유한 달과 밀접한 연관을 지닌 부정적 "천공"의 힘을 나타냅니다.
+음기  달과 밀접한 연관을 지닌 어둠의 "천공"의 힘을 나타냅니다.
 ]], "_t")
 t([[#GOLD#Vim#LAST#
 Vim represents the amount of life energy you control. Each corruption talent requires some.
@@ -1063,7 +1071,7 @@ It does not regenerate naturally; you need to drain it from yourself or your vic
 Each time you kill a creature you gain 30% of your Willpower + 1 as Vim.  This value is multiplied by half the rank of the creature.
 If you can't pay for the Vim cost of a talent you may instead pay with life at a rate of 200% of the Vim cost.
 ]], [[#GOLD#원기#LAST#
-원기는 당신이 제어중인 생명 에너지의 양을 나타냅니다. 타락 기술은 사용하는데 일정량의 원기를 요구합니다.
+원기는 당신이 제어중인 생명 에너지의 양을 나타냅니다. 타락 계통 기술은 사용하는데 일정량의 원기를 요구합니다.
 원기는 자연적으로 회복되지 않기 때문에 적이나 스스로에게서 흡수해야 합니다.
 적을 처치할때마다 의지의 30%+1의 원기를 회복합니다. 원기 회복량은 적의 희귀도에 따라 증가합니다.
 기술을 사용하는데 필요한 원기 비용이 부족하다면 원기 비용의 2배에 해당하는 생명력을 지불하고 사용할 수 있습니다.
@@ -1081,10 +1089,9 @@ t([[#GOLD#Hate#LAST#
 Hate represents your inner rage against all that lives and dares face you.
 It is replenished by killing creatures and through the application of your talents.
 All afflicted talents are based on Hate, and many are more effective at higher levels of hate.
-]], [[#GOLD#증오#LAST#증오는 타인에 대한 당신 영혼의 원초적 반감을 나타냅니다. 증오는 당신이 분노를 향할 대상이 없으면 감소하고 피해를 입거나 적을 처치하면 증가합니다.
-증오는 당신과 마주하는 모든 생명체에 대한 내면의 분노를 나타냅니다.
+]], [[#GOLD#증오#LAST#증오는 당신과 마주하는 모든 생명체에 대한 내면의 분노를 나타냅니다.
 증오는 적을 처치하거나 기술을 사용하여 회복됩니다.
-모든 고통받는 자의 기술을 증오에 기반하며 대부분은 증오가 높을수록 효과적입니다.
+모든 저주 계통 기술은 증오에 기반하며 대부분은 증오가 높을수록 효과적입니다.
 ]], "_t")
 t([[#GOLD#Paradox#LAST#
 Paradox represents how stable the current timeline is. 
@@ -1114,8 +1121,8 @@ Feedback decays at the rate of 10% or 1 per turn (which ever is greater) dependi
 All damage you take from an outside source will increase your Feedback based on to how much of your health is lost and your level.  First level characters gain 100 Feedback when losing 50% health, while 50th level characters gain the same amount when losing 20% health.
 ]], [[#GOLD#반작용#LAST#
 반작용은 고통의 정신적 크기를 나타내며 강력한 반작용 능력을 사용하는데 활용됩니다.
-반작용은 매 턴 마다 10% 또는 1 중 큰 값만큼 감소합니다.
-외부에서 받은 모든 피해는 반작용을 증가시키며 증가율은 잃은 생명력 양과 레벨에 비례합니다. 1레벨 캐릭터가 반작용 100을 얻기 위해선 생명력의 50%에 해당하는 피해를 받아야하지만 50레벨 캐릭터가 같은 수치를 얻기 위해선 생명력의 20%에 해당하는 피해만 받으면 됩니다.
+반작용은 매 턴 마다 10% 또는 1 중 더 큰 값에 해당하는 수치가 감소됩니다.
+외부에서 받은 모든 피해는 반작용을 증가시키며 증가율은 잃은 생명력 양과 레벨에 비례합니다. 1 레벨 캐릭터가 반작용 100 을 얻기 위해선 생명력의 50% 에 해당하는 피해를 받아야하지만 50 레벨 캐릭터가 같은 수치를 얻기 위해선 생명력의 20% 에 해당하는 피해만 받으면 됩니다.
 ]], "_t")
 t([[#GOLD#Necrotic Aura#LAST#
 Represents the raw materials for creating undead minions.
@@ -1134,7 +1141,7 @@ Each time you kill a creature that is over your own level - 5 you gain some expe
 When you reach enough experience you advance to the next level. There is a maximum of 50 levels you can gain.
 Each time you level you gain stat and talent points to use to improve your character.
 ]], [[#GOLD#레벨과 경험치#LAST#
-당신보다 레벨이 5 이상 낮은 적을 처치해도 경험치를 얻을 수 없습니다.Each time you kill a creature that is over your own level - 5 you gain some experience.
+당신보다 레벨이 5 이상 낮은 적은 처치해도 경험치를 얻을 수 없습니다.
 다음 레벨에 필요한 충분한 경험치를 획득하면 레벨이 상승하며 최대 50 레벨까지 상승합니다.
 레벨이 상승할 때마다 능력치 점수와 기술 점수를 획득하여 캐릭터를 강화할 수 있습니다.
 ]], "_t")
@@ -1150,7 +1157,7 @@ The people of Eyal have found a way to create herbal infusions and runes that ca
 Those inscriptions give the bearer always-accessible powers that can be used an unlimited number of times.
 A simple regeneration infusion is the most common type of infusion, and the use of runes of various types is also common among arcane users.
 ]], [[#GOLD#각인#LAST#
-에이얄의 주민들은 피부에 약초 주입물과 룬을 새기는 방법을 찾았고 그중에는 특이한 형태의 각인 역시 존재합니다.
+에이얄의 주민들은 피부에 약초 주입물과 룬을 새기는 방법을 찾았고 그 중에는 특이한 형태의 각인 역시 존재합니다.
 이러한 각인은 사용자에게 즉각적인 효과를 제공하며 영구적으로 사용할 수 있습니다.
 재생 주입물은 가장 일반적인 형태의 주입물이며 룬을 사용한 다양한 각인은 마법사들 사이에서 널리 활용됩니다.
 ]], "_t")
@@ -1158,7 +1165,7 @@ t([[#GOLD#Prodigies#LAST#
 Prodigies are special talents that only the most powerful of characters can acquire.
 All of them require at least 50 in a core stat and many also have other, very specific and/or demanding requirements to learn.
 Players can learn new prodigies at levels 30 and 42.]], [[#GOLD#특수 기술#LAST#
-특수 기술은 뛰어난 이들만이 배울수 있는 특별한 기술입니다.
+특수 기술은 가장 강력한 이들만이 배울수 있는 특별한 기술입니다.
 모든 특수 기술은 주요 능력치가 50 이상이고 특별한 조건을 만족하면 배울 수 있습니다.
 플레이어는 25레벨과 42레벨에 새로운 특수 기술을 배울 수 있습니다.]], "_t")
 t([[#GOLD#Item Talents#LAST#
@@ -1200,7 +1207,7 @@ Higher is faster, so at 200% global speed you can performa twice as many actions
 Note that the amount of time to performa various actions like moving, casting spells, and attacking is also affected by their respective speeds.
 ]], [[#GOLD#전체속도#LAST#
 전체속도는 당신의 행동이 얼마나 빠른지 나타냅니다.
-수치가 높을수록 더욱 빨라지며 전체속도 200%는 전체속도 100%보다 2배 빠르게 행동할 수 있습니다.
+수치가 높을수록 더욱 빨라지며 전체속도 200% 는 전체속도 100% 보다 2 배 빠르게 행동할 수 있습니다.
 이동, 주문 시전, 공격 등의 행동속도는 각각의 속도 역시 영향을 끼칩니다.
 ]], "_t")
 t([[#GOLD#Movement Speed#LAST#
@@ -1209,7 +1216,7 @@ Higher is faster, so 200% means that you move twice as fast as normal.
 Minimum:  40%
 ]], [[#GOLD#이동속도#LAST#
 이동속도는 당신이 얼마나 빠르게 이동할 수 있는지 나타냅니다.
-수치가 높을수록 더욱 빨라지며 이동속도 200%는 이동속도 100%보다 2배 빠르게 이동할 수 있습니다.
+수치가 높을수록 더욱 빨라지며 이동속도 200% 는 이동속도 100% 보다 2 배 빠르게 이동할 수 있습니다.
 최소속도:  40%
 ]], "_t")
 t([[#GOLD#Spell Speed#LAST#
@@ -1218,7 +1225,7 @@ Higher is faster, so 200% means that you can cast spells twice as fast as normal
 Minimum:  40%
 ]], [[#GOLD#시전 속도#LAST#
 시전 속도는 당신이 얼마나 빠르게 주문을 시전할 수 있는지 나타냅니다.
-수치가 높을수록 더욱 빨라지며 시전 속도 200%는 시전 속도 100%보다 2배 빠르게 시전할 수 있습니다.
+수치가 높을수록 더욱 빨라지며 시전 속도 200% 는 시전 속도 100% 보다 2 배 빠르게 주문을 시전할 수 있습니다.
 최소속도:  40%
 ]], "_t")
 t([[#GOLD#Attack Speed#LAST#
@@ -1228,7 +1235,7 @@ The actual speed may also be affected by the weapon used.
 Minimum:  40%
 ]], [[#GOLD#공격 속도#LAST#
 공격 속도는 당신이 얼마나 빠르게 무기로 공격할 수 있는지 나타냅니다.
-수치가 높을수록 더욱 빨라지며 공격 속도 200%는 공격 속도 100%보다 2배 빠르게 공격할 수 있습니다.
+수치가 높을수록 더욱 빨라지며 공격 속도 200% 는 공격 속도 100% 보다 2 배 빠르게 공격할 수 있습니다.
 공격 속도는 사용하는 무기의 영향을 받습니다.
 최소속도:  40%
 ]], "_t")
@@ -1238,7 +1245,7 @@ Higher is faster, so 200% means that you can use mind powers twice as fast as no
 Minimum:  40%
 ]], [[#GOLD#사고 속도#LAST#
 사고 속도는 당신이 얼마나 빠르게 정신력을 발휘할 수 있는지 나타냅니다.
-수치가 높을수록 더욱 빨라지며 사고 속도 200%는 사고 속도 100%보다 2배 빠르게 정신력을 사용할 수 있습니다.
+수치가 높을수록 더욱 빨라지며 사고 속도 200% 는 사고 속도 100% 보다 2 배 빠르게 정신력을 방출할 수 있습니다.
 최소속도:  40%
 ]], "_t")
 t([[#GOLD#Stats#LAST#
@@ -1254,7 +1261,7 @@ Strength defines your character's ability to apply physical force. It increases 
 t([[#GOLD#Dexterity#LAST#
 Dexterity defines your character's ability to be agile and alert. It increases Accuracy, Defense, chance to shrug off critical hits and your damage with light weapons.
 ]], [[#GOLD#민첩#LAST#
-민첩은 캐릭터의 기민함을 나타냅니다. 가벼운 무기로 가하는 피해량, 정확도, 회피도, 피격시 치명타 확률 감소가 증가합니다.
+민첩은 캐릭터의 기민함을 나타냅니다. 가벼운 무기로 가하는 피해량, 정확도, 회피도, 피격 시 치명타 확률 감소가 증가합니다.
 ]], "_t")
 t([[#GOLD#Constitution#LAST#
 Constitution defines your character's ability to withstand and resist damage. It increases your maximum life, Physical Save and Healing mod.
@@ -1274,7 +1281,7 @@ Willpower defines your character's ability to concentrate. It increases your man
 t([[#GOLD#Cunning#LAST#
 Cunning defines your character's ability to learn, think, and react. It allows you to learn many worldly abilities, and increases your Mindpower, Mental Save, and critical chance.
 ]], [[#GOLD#교활#LAST#
-교활은 캐릭터가 배우고 생각하고 행동하는 능력을 나타냅니다. 세계의 다양한 능력을 배울 수 있게 해주며, 정신력, 정신 내성, 치명율이 증가합니다.
+교활은 캐릭터가 배우고 생각하고 행동하는 능력을 나타냅니다. 세계의 다양한 능력을 배울 수 있게 해주며, 정신력, 정신 내성, 치명타 확률이 증가합니다.
 ]], "_t")
 t([[#AQUAMARINE#Physical stats#LAST#
 ---
@@ -1300,334 +1307,344 @@ Measures your ability to deal physical damage in combat.
 When you use Physical Power to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your physical power will reduce the duration of the effect by 5%.
 ]], [[#GOLD#물리력#LAST#
 기술의 물리 피해량을 결정합니다.
-When you use Physical Power to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your physical power will reduce the duration of the effect by 5%.
+물리력을 이용해서 적에게 일시적인 물리 효과를 일으킬 때, 대상의 내성 판정 값이 시전자의 물리력을 1 초과할 때 마다 효과의 지속시간이 5% 씩 줄어듭니다.
 ]], "_t")
 t([[#GOLD#Damage#LAST#
 This is the damage you inflict on your foes when you hit them.
 This damage can be reduced by the target's armour or by percentile damage resistances.
 It is improved by Strength or Dexterity, depending on your weapon. Some talents can change the stats that affect it.
-]], [[#GOLD#무기 공격력#LAST#
-This is the damage you inflict on your foes when you hit them.
-This damage can be reduced by the target's armour or by percentile damage resistances.
-It is improved by Strength or Dexterity, depending on your weapon. Some talents can change the stats that affect it.
+]], [[#GOLD#피해#LAST#
+당신이 적을 공격했을 때 입히는 피해입니다.
+피해는 대상의 방어력이나 피해 저항 수치로 줄일 수 있습니다.
+무기에 따라 힘이나 민첩에 비례하여 피해량이 증가합니다. 몇몇 기술들은 무기 공격력의 영향을 받기도 합니다.
 ]], "_t")
 t([[#GOLD#Shield Block Value#LAST#
 The amount of damage a shield will block when actively used in defense.
 Usually this is only effective against Physical damage, but some special shields (and talents) allow the wearer to block other types.
 ]], [[#GOLD#방패 막기 수치#LAST#
-The amount of damage a shield will block when actively used in defense.
-Usually this is only effective against Physical damage, but some special shields (and talents) allow the wearer to block other types.
+피격 시, 방패를 이용하여 줄일 수 있는 피해량입니다.
+보통 물리 피해에만 효과적이지만, 몇몇 특별한 방패 (또는 기술) 는 사용자로 하여금 다른 속성의 피해도 막을 수 있게 해줍니다.
 ]], "_t")
 t([[#GOLD#Armour Penetration#LAST#
 Armour penetration allows you to ignore a part of the target's armour (this only works for armour, not damage resistance).
 This can never increase the damage you do beyond reducing armour, so it is only useful against armoured foes.
 ]], [[#GOLD#방어력 관통#LAST#
-Armour penetration allows you to ignore a part of the target's armour (this only works for armour, not damage resistance).
-This can never increase the damage you do beyond reducing armour, so it is only useful against armoured foes.
+방어력 관통은 대상의 방어력을 일부 무시하고 공격할 수 있게 해줍니다. 이는 오직 방어력에만 적용됩니다. 피해 저항에는 적용되지 않습니다.
+방어력 관통은 피해량 자체를 늘려주지는 않습니다. 따라서, 방어력 관통은 오직 중무장한 적에게만 효율적입니다.
 ]], "_t")
 t([[#GOLD#Critical chance#LAST#
 Each time you deal damage you have a chance to make a critical hit that deals extra damage.
 Some talents allow you to increase this percentage.
 It is improved by Cunning.
 ]], [[#GOLD#치명타 확률#LAST#
-Each time you deal damage you have a chance to make a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
+당신이 피해를 줄 때마다, 일정 확률로 치명타를 가해 추가적인 피해를 가합니다.
+몇몇 기술들은 이 확률을 증가시킵니다.
+치명타 확률은 교활에 비례하여 증가합니다.
 ]], "_t")
 t([[#GOLD#Attack speed#LAST#
 Attack speed represents how fast your attacks are compared to normal.
 Higher is faster, representing more attacks performed in the same amount of time.
 ]], [[#GOLD#공격 속도#LAST#
-Attack speed represents how fast your attacks are compared to normal.
-Higher is faster, representing more attacks performed in the same amount of time.
+공격 속도는 일반 상태에 비교에 얼마나 빨리 공격하는 지를 나타냅니다.
+높을 수록 빠르게 공격합니다. 1 턴 동안 얼마나 더 많은 공격을 가할 수 있는지 나타냅니다.
 ]], "_t")
 t([[#GOLD#Firing range#LAST#
 The maximum distance your weapon can reach.
 ]], [[#GOLD#공격 사거리#LAST#
-The maximum distance your weapon can reach.
+당신의 무기가 도달할 수 있는 최대 사정거리를 나타냅니다..
 ]], "_t")
 t([[#GOLD#Archery range and speed#LAST#
 Archery attacks create projectiles with a maximum range, beyond which they will terminate.
 The projectiles travel at their own speed, measured as a percentage (higher, usually) of normal movement speed.
-]], [[#GOLD#탄환 사거리와 속도#LAST#
-Archery attacks create projectiles with a maximum range, beyond which they will terminate.
-The projectiles travel at their own speed, measured as a percentage (higher, usually) of normal movement speed.
+]], [[#GOLD#투사체 사거리와 속도#LAST#
+사격은 항상 최대 사정거리까지 도달하는 투사체를 발사합니다. 발사한 투사체가 최대 사거리에 도달 했을 때, 투사체는 사라지게됩니다.
+투사체는 자체적인 속도를 갖고있으며, 보통 이동 속도를 기준으로 표시됩니다. (보통 100% 보다 높습니다)
 ]], "_t")
 t([[#GOLD#Ammo remaining#LAST#
 This is the amount of ammunition you have left.
 Bows and slings must be reloaded when this reaches 0, which you will do automatically each turn you rest or don't perform a non-movement action.
 Alchemists use specially prepared gems as ammunition to throw bombs, which must be reloaded manually.
 ]], [[#GOLD#장전된 탄환#LAST#
-This is the amount of ammunition you have left.
-Bows and slings must be reloaded when this reaches 0, which you will do automatically each turn you rest or don't perform a non-movement action.
-Alchemists use specially prepared gems as ammunition to throw bombs, which must be reloaded manually.
+당신에게 남아있는 탄환의 양을 나타냅니다.
+이 수치가 0 이 되었을 때, 반드시 활이나 투석구를 재장전 해야합니다. 휴식을 취하거나, 이동 계열 행동을 취하면, 매 턴 자동으로 재장전됩니다.
+연금술사는 특이하게도 연금술 보석을 탄환으로 사용하는데, 이는 자동 재장전이 불가능하며 직접 재장전 해야합니다.
 ]], "_t")
 t([[#GOLD#Fatigue#LAST#
 Fatigue is a percentile value that increases the cost of your talents and spells.
 It represents the fatigue created by wearing heavy equipment.
 Not all talents are affected; notably, Wild Gifts are not.
 ]], [[#GOLD#피로도#LAST#
-Fatigue is a percentile value that increases the cost of your talents and spells.
-It represents the fatigue created by wearing heavy equipment.
-Not all talents are affected; notably, Wild Gifts are not.
+피로도에 따라 기술을 시전할 때 발생하는 원천력 비용이 늘어납니다.
+무거운 장비를 입었을 때 피로도가 증가하게됩니다.
+모든 기술이 피로도에 영향을 받는 것은 아닙니다. 예를들면, 자연 계통은 영향을 받지 않습니다.
 ]], "_t")
 t([[#GOLD#Armour#LAST#
 Armour value is a damage reduction from all incoming melee and ranged weapon attacks.
 Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
 This is countered by armour penetration and is applied before all kinds of critical damage increase, talent multipliers and damage multiplier, thus making even small amounts have greater effects.
 ]], [[#GOLD#방어력#LAST#
-Armour value is a damage reduction from all incoming melee and ranged weapon attacks.
-Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
-This is countered by armour penetration and is applied before all kinds of critical damage increase, talent multipliers and damage multiplier, thus making even small amounts have greater effects.
+방어력은 근접 무기 공격이나, 원거리 무기 공격으로 받는 피해를 감소시킵니다.
+피해량은 (방어 효율%) 만큼 감소되며, 최대 (방어력) 만큼의 피해를 감소시킵니다.
+방어력은 방어력 관통에 의해 일정 부분 무시되나, 치명타나 기술, 속성 피해 증가가 계산되기 전에 먼저 적용이 됩니다. 따라서,  적은 값의 변동이 큰 결과를 초래할 수도 있습니다.
 ]], "_t")
 t([[#GOLD#Armour Hardiness#LAST#
 Armour hardiness represents how much of each incoming blows the armour will affect.
 Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
 ]], [[#GOLD#방어 효율#LAST#
-Armour hardiness represents how much of each incoming blows the armour will affect.
-Absorbs (hardiness)% of incoming weapon damage, up to a maximum of (armour) damage absorbed.
+방어 효율은 얼마나 효율적으로 적의 공격을 막아내는 가를 나타냅니다.
+피해량은 (방어 효율%) 만큼 감소되며, 최대 (방어력) 만큼의 피해를 감소시킵니다.
 ]], "_t")
 t([[#GOLD#Crit Reduction#LAST#
 Crit reduction reduces the chance an opponent has of landing a critical strike with a melee or ranged attack.
-]], [[#GOLD#피격시 치명타 확률 감소#LAST#
-Crit reduction reduces the chance an opponent has of landing a critical strike with a melee or ranged attack.
+]], [[#GOLD#피격 시 치명타 확률 감소#LAST#
+피격 시 치명타 확률 감소는 적의 근접, 원거리 공격의 치명타 확률을 줄입니다.
 ]], "_t")
 t([[#GOLD#Crits Shrug Off#LAST#
 Gives a chance to ignore the bonus critical damage from any direct damage attacks (melee, spells, ranged, mind powers, ...).
 ]], [[#GOLD#치명타 무효화#LAST#
-Gives a chance to ignore the bonus critical damage from any direct damage attacks (melee, spells, ranged, mind powers, ...).
+치명타로 인한 추가 피해량을 무효화합니다. 이 효과는 모든 형태의 공격에 적용됩니다. (근접, 주문, 원거리, 정신력...)
 ]], "_t")
 t([[#GOLD#Defense#LAST#
 Defense represents your chance to avoid melee weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
 ]], [[#GOLD#회피도#LAST#
-Defense represents your chance to avoid melee weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
+회피도는 근접 공격을 회피하고 불균형 상태가 일어날 확률을 줄입니다. 공격자의 정확도에 대한 대항 능력입니다.
 ]], "_t")
 t([[#GOLD#Ranged Defense#LAST#
 Defense represents your chance to avoid ranged weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
 ]], [[#GOLD#원거리 회피도#LAST#
-Defense represents your chance to avoid ranged weapon attacks and reduces the chance you'll be knocked off-balance by an enemy's attack. It is measured against the attacker's Accuracy.
+회피도는 원거리 공격을 회피하고 불균형 상태가 일어날 확률을 줄입니다. 공격자의 정확도에 대한 대항 능력입니다.
 ]], "_t")
 t([[#GOLD#Saves#LAST#
 Saving throws represent your ability to shrug off, partially or fully, detrimental effects applied to you.  Most detrimental effects will check their power (physical, spell, mental) vs your corresponding save type to determine if they take effect or not.  The chance is usually ~50% when power and save are equal.
 ]], [[#GOLD#내성#LAST#
-Saving throws represent your ability to shrug off, partially or fully, detrimental effects applied to you.  Most detrimental effects will check their power (physical, spell, mental) vs your corresponding save type to determine if they take effect or not.  The chance is usually ~50% when power and save are equal.
+내성은 당신에게 가해지는 부정적인 효과를 부분적으로, 또는 완전히 막아주는 능력입니다. 대부분의 부정적인 효과는 물리력, 주문력, 정신력과 그에 상응하는 내성을 비교하여 적용합니다. 내성과 그에 상응하는 힘이 같은 값일 경우 대게 50%의 적용 확률을 갖습니다.
 ]], "_t")
 t([[#GOLD#Physical saving throw#LAST#
 Increases chance to shrug off physically-induced effects.  Also reduces duration of detrimental physical effects by up to 5% per point, depending on the power of the opponent's effect.
 ]], [[#GOLD#물리 내성#LAST#
-Increases chance to shrug off physically-induced effects.  Also reduces duration of detrimental physical effects by up to 5% per point, depending on the power of the opponent's effect.
+부정적인 물리 효과를 무시할 확률을 높입니다. 상대의 물리력보다 더 높은 내성을 갖고 있다면, 초과하는 내성 1 점 당 부정적인 물리 효과의 지속시간이 5% 단축됩니다.
 ]], "_t")
 t([[#GOLD#Spell saving throw#LAST#
 Increases chance to shrug off magically-induced effects.  Also reduces duration of detrimental magical effects by up to 5% per point, depending on the power of the opponent's effect.
 ]], [[#GOLD#주문 내성#LAST#
-Increases chance to shrug off magically-induced effects.  Also reduces duration of detrimental magical effects by up to 5% per point, depending on the power of the opponent's effect.
+부정적인 마법 효과를 무시할 확률을 높입니다. 상대의 주문력보다 더 높은 내성을 갖고 있다면, 초과하는 내성 1 점 당 부정적인 마법 효과의 지속시간이 5% 단축됩니다
 ]], "_t")
 t([[#GOLD#Mental saving throw#LAST#
 Increases chance to shrug off mentally-induced effects.  Also reduces duration of detrimental mental effects by up to 5% per point, depending on the power of the opponent's effect.
 ]], [[#GOLD#정신 내성#LAST#
-Increases chance to shrug off mentally-induced effects.  Also reduces duration of detrimental mental effects by up to 5% per point, depending on the power of the opponent's effect.
+부정적인 정신 효과를 무시할 확률을 높입니다. 상대의 정신력보다 더 높은 내성을 갖고 있다면, 초과하는 내성 1 점 당 부정적인 정신 효과의 지속시간이 5% 단축됩니다.
 ]], "_t")
 t([[#GOLD#Physical Power#LAST#
 Your physical power represents how overwhelming your physcial abilities are. It is usually improved by Strength, but may be modified by your weapon.  It is opposed by your opponent's physical save.
 In addition, when your physical attacks inflict temporary detrimental effects, every point your opponent's save exceeds your physical power will reduce the duration of the effect by 5%.
 ]], [[#GOLD#물리력#LAST#
-Your physical power represents how overwhelming your physcial abilities are. It is usually improved by Strength, but may be modified by your weapon.  It is opposed by your opponent's physical save.
-In addition, when your physical attacks inflict temporary detrimental effects, every point your opponent's save exceeds your physical power will reduce the duration of the effect by 5%.
+물리력은 당신의 육체적 능력이 얼마나 압도적인지를 나타냅니다. 대게 힘에 비례하여 증가하지만, 당신의 무기에 의해 수치가 변화될 수 있습니다.  물리력은 적의 물리 내성에 대응합니다.
+추가로, 당신의 물리 공격이 부정적인 물리 효과를 낼 때, 대상의 초과하는 내성 1 점 당 부정적인 물리 효과의 지속시간이 5% 단축됩니다.
 ]], "_t")
 t([[#GOLD#Physical critical chance#LAST#
 Each time you deal damage with a physical ability you may have a chance to perform a critical hit that deals extra damage.
 Some talents allow you to increase this percentage, and it may be modified by your weapon.
 It is improved by Cunning.
 ]], [[#GOLD#물리 치명타 확률#LAST#
-Each time you deal damage with a physical ability you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage, and it may be modified by your weapon.
-It is improved by Cunning.
+당신이 물리 능력으로 피해를 줄 때, 일정 확률로 치명타를 가해 추가적인 피해를 입힙니다.
+몇몇 기술들은 이 확률을 증가시킵니다. 또한 당신의 무기에 의해 수치가 변화될 수 있습니다.
+치명타 확률은 교활에 비례하여 증가합니다.
 ]], "_t")
 t([[#GOLD#Spellpower#LAST#
 Your spellpower represents how powerful your magical spells are.  It is opposed by your opponent's spell save.
 In addition, when your spells inflict temporary detrimental effects, every point your opponent's save exceeds your spellpower will reduce the duration of the effect by 5%.
 ]], [[#GOLD#주문력#LAST#
-Your spellpower represents how powerful your magical spells are.  It is opposed by your opponent's spell save.
-In addition, when your spells inflict temporary detrimental effects, every point your opponent's save exceeds your spellpower will reduce the duration of the effect by 5%.
+주문력은 당신의 마법적 능력이 얼마나 강력한지를 나타냅니다.  주문력은 적의 주문 내성에 대응합니다.
+추가로, 당신의 주문이 부정적인 마법 효과를 낼 때, 대상의 초과하는 내성 1 점 당 부정적인 마법 효과의 지속시간이 5% 단축됩니다.
 ]], "_t")
 t([[#GOLD#Spell critical chance#LAST#
 Each time you deal damage with a spell you may have a chance to perform a critical hit that deals extra damage.
 Some talents allow you to increase this percentage.
 It is improved by Cunning.
 ]], [[#GOLD#주문 치명타 확률#LAST#
-Each time you deal damage with a spell you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
+당신이 주문으로 피해를 줄 때, 일정 확률로 치명타를 가해 추가적인 피해를 입힙니다.
+몇몇 기술들은 이 확률을 증가시킵니다.
+치명타 확률은 교활에 비례하여 증가합니다.
 ]], "_t")
 t([[#GOLD#Spellcasting speed#LAST#
 Spellcasting speed represents how fast your spellcasting is compared to normal.
 Higher is faster - 200% means that you cast spells twice as fast as someone at 100%.
 ]], [[#GOLD#주문 시전 속도#LAST#
-Spellcasting speed represents how fast your spellcasting is compared to normal.
-Higher is faster - 200% means that you cast spells twice as fast as someone at 100%.
+시전 속도는 당신이 얼마나 빠르게 주문을 시전할 수 있는지 나타냅니다.
+수치가 높을수록 더욱 빨라지며 시전 속도 200% 는 시전 속도 100% 보다 2 배 빠르게 주문을 시전할 수 있습니다.
 ]], "_t")
 t([[#GOLD#Spellcooldown#LAST#
 Spell cooldown represents how fast your spells will come off of cooldown.
 The lower it is, the more often you'll be able to use your spell talents and runes.
 ]], [[#GOLD#주문 재사용 대기시간#LAST#
-Spell cooldown represents how fast your spells will come off of cooldown.
-The lower it is, the more often you'll be able to use your spell talents and runes.
-]], "_t")
+주문 재사용 대기시간은 얼마나 빨리 재사용 대기시간을 돌릴 수 있는지 나타냅니다.
+이 수치가 낮을 수록, 당신은 주문과 룬을 더 자주 사용할 수 있게됩니다.]], "_t")
 t([[#GOLD#Mindpower#LAST#
 Your mindpower represents how powerful your mental abilities are.  It is opposed by your opponent's mental save.
 In addition, when your mental abilities inflict temporary detrimental effects, every point your opponent's save exceeds your mindpower will reduce the duration of the effect by 5%.
 ]], [[#GOLD#정신력#LAST#
-Your mindpower represents how powerful your mental abilities are.  It is opposed by your opponent's mental save.
-In addition, when your mental abilities inflict temporary detrimental effects, every point your opponent's save exceeds your mindpower will reduce the duration of the effect by 5%.
+정신력 당신의 정신적 능력이 얼마나 효과적인지를 나타냅니다.  정신력은 적의 정신 내성에 대응합니다.
+추가로, 당신의 정신적 능력이 부정적인 정신 효과를 낼 때, 대상의 초과하는 내성 1 점 당 부정적인 정신 효과의 지속시간이 5% 단축됩니다
 ]], "_t")
 t([[#GOLD#Mental critical chance#LAST#
 Each time you deal damage with a mental attack you may have a chance to perform a critical hit that deals extra damage.
 Some talents allow you to increase this percentage.
 It is improved by Cunning.
 ]], [[#GOLD#정신 치명타 확률#LAST#
-Each time you deal damage with a mental attack you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
+당신이 정신 공격으로 피해를 줄 때, 일정 확률로 치명타를 가해 추가적인 피해를 입힙니다.
+몇몇 기술들은 이 확률을 증가시킵니다.
+치명타 확률은 교활에 비례하여 증가합니다.
 It is improved by Cunning.
 ]], "_t")
 t([[#GOLD#Mental speed#LAST#
 Mental speed represents how fast you use psionic abilities compared to normal.
 Higher is faster.
 ]], [[#GOLD#사고 속도#LAST#
-Mental speed represents how fast you use psionic abilities compared to normal.
-Higher is faster.
+사고 속도는 당신이 얼마나 빠르게 정신력을 발휘할 수 있는지 나타냅니다.
+수치가 높을수록 더욱 빨라지며 사고 속도 200% 는 사고 속도 100% 보다 2 배 빠르게 정신력을 방출할 수 있습니다.
 ]], "_t")
 t([[#GOLD#Damage increase: all#LAST#
 All damage you deal, through any means, is increased by this percentage.
 This stacks with individual damage type increases.
 ]], [[#GOLD#피해 증가: 전체#LAST#
-All damage you deal, through any means, is increased by this percentage.
-This stacks with individual damage type increases.
+당신이 가하는 피해량이 이 수치만큼 증가합니다.
+이 수치는 각 속성의 피해량과 중첩됩니다.
 ]], "_t")
 t([[#GOLD#Damage increase: specific#LAST#
 All damage of this type that you deal, through any means, is increased by this percentage.
 ]], [[#GOLD#피해 증가: 속성#LAST#
-All damage of this type that you deal, through any means, is increased by this percentage.
+각각 속성에 해당하는 피해량이 이 수치만큼 증가합니다.
 ]], "_t")
 t([[#GOLD#Damage increase: creature type#LAST#
 All damage you deal to creatures of this type, through any means, is increased by this percentage.  This is applied in addition to (stacks with) other damage modifiers.
 ]], [[#GOLD#피해 증가: 개체 유형#LAST#
-All damage you deal to creatures of this type, through any means, is increased by this percentage.  This is applied in addition to (stacks with) other damage modifiers.
+특정한 종류의 개체에게 이 수치만큼 추가적인 피해를 가합니다. 다른 피해량 증가치와 중복 적용됩니다.
 ]], "_t")
 t([[#GOLD#Critical multiplier#LAST#
 All critical hits (melee, spells, ...) do this much damage compared to normal.
-]], [[#GOLD#치명타 배율#LAST#
-All critical hits (melee, spells, ...) do this much damage compared to normal.
+]], [[#GOLD#치명타 피해 증가#LAST#
+가하는 모든 치명타가 (근접, 주문, ...) 이 수치만큼 증가된 피해를 입힙니다.
 ]], "_t")
 t([[#GOLD#Damage resistance#LAST#
 Whenever you take damage, the percent resistance you have to its type, if any, is checked.  The damage is reduced by this percentage (which may be partially negated by the attacker's Damage Penetration) before being applied.
 Your effective resistance can never be higher than your resistance cap and negative resistances increase the damage you recieve (up to +100%).
 ]], [[#GOLD#피해 저항#LAST#
-Whenever you take damage, the percent resistance you have to its type, if any, is checked.  The damage is reduced by this percentage (which may be partially negated by the attacker's Damage Penetration) before being applied.
-Your effective resistance can never be higher than your resistance cap and negative resistances increase the damage you recieve (up to +100%).
+피격 시, 해당 속성의 피해 저항 수치만큼 피해량을 줄입니다. (피해 저항은 공격자의 저항 관통에 의해 부분적으로 무시될 수 있습니다)
+실질 피해 저항은 당신의 저항 한계보다 높아질 수 없습니다. 저항값이 음수가 되면 받게되는 피해량이 증폭됩니다 (최대 +100%).
 ]], "_t")
 t([[#GOLD#Damage resistance: all#LAST#
 All damage you receive, through any means, is decreased by this percentage.
 This stacks (multiplicatively) with individual damage type resistances up to their respective caps.
 (So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
-]], [[#GOLD#피해 저항: 전체#LAST#
-All damage you receive, through any means, is decreased by this percentage.
-This stacks (multiplicatively) with individual damage type resistances up to their respective caps.
-(So 20% resistance: All + 50% resistance: Fire = 60% total resistance to Fire.)
+]], [[#GOLD#모든 피해 저항#LAST#
+피격 시 받는 모든 피해량이 이 수치만큼 줄어듭니다.
+해당 속성의 실질 피해 저항과 곱연산으로 계산됩니다.
+(즉 20% 모든 피해 저항 + 50% 화염 피해 저항 = 총 60% 화염 피해 저항.)
 ]], "_t")
 t([[#GOLD#Damage resistance: absolute#LAST#
 All damage you receive, through any means, is decreased by this percentage.
 This is applied after normal damage resistance and is not affected by resistance penetration.
 ]], [[#GOLD#피해 저항: 절대#LAST#
-All damage you receive, through any means, is decreased by this percentage.
-This is applied after normal damage resistance and is not affected by resistance penetration.
+받는 모든 피해량이 이 수치만큼 감소됩니다.
+이 피해량은 일반 피해 저항이 감소된 후 적용되며, 공격자의 저항 관통에 영향을 받지 않습니다.
 ]], "_t")
 t([[#GOLD#Damage resistance: specific#LAST#
 All damage of this type that you receive, through any means, is reduced by this percentage.
 ]], [[#GOLD#피해 저항: 속성#LAST#
-All damage of this type that you receive, through any means, is reduced by this percentage.
+피격 시, 해당 수치만큼 피해량을 줄입니다.
 ]], "_t")
 t([[#GOLD#Damage resistance: by speed#LAST#
 All damage you receive, through any means, is decreased by this percentage, which increases as your total movement speed (global times movement) decreases.
 This is applied after normal damage type resistances.
 ]], [[#GOLD#피해 저항: 속도#LAST#
-All damage you receive, through any means, is decreased by this percentage, which increases as your total movement speed (global times movement) decreases.
-This is applied after normal damage type resistances.
+피격 시, 해당 수치만큼 피해량을 줄입니다. 최종 이동 속도가 (전체 속도 × 이동 속도) 감소될수록 이 수치가 증가합니다.
+이 피해량은 일반 피해 저항이 감소된 후 적용됩니다.
+]], "_t")
+t([[#GOLD#Damage resistance: creature type#LAST#
+All damage you receive from creatures of this type, through any means, is decreased by this percentage.  This is applied separately to (stacks with) normal resistances.
+]], [[#GOLD#피해 저항: 개체 유형#LAST#
+특정한 종류의 개체에게 받는 모든 피해량이 해당 수치만큼 줄어듭니다.  이는 일반적인 저항과는 개별적으로 적용됩니다.
 ]], "_t")
 t([[#GOLD#Damage affinity: all#LAST#
 All damage you receive, through any means, also heals you for this percentage of the damage.
 This stacks with individual damage type affinities.
 Important: Affinity healing happens after damage has been taken, it can not prevent death.
 ]], [[#GOLD#피해 친화: 전체#LAST#
-All damage you receive, through any means, also heals you for this percentage of the damage.
-This stacks with individual damage type affinities.
-Important: Affinity healing happens after damage has been taken, it can not prevent death.
+피격 시, 피해량의 일부를 생명력으로 회복합니다.
+중요 : 친화로 받는 회복은 피해를 받고 난 후 적용됩니다. 친화로는 죽음을 막을 수 없습니다.
 ]], "_t")
 t([[#GOLD#Damage affinity: specific#LAST#
 All damage of this type that you receive, through any means, also heals you for this percentage of the damage.
 Important: Affinity healing happens after damage has been taken, it can not prevent death.
 ]], [[#GOLD#피해 친화: 속성#LAST#
-All damage of this type that you receive, through any means, also heals you for this percentage of the damage.
-Important: Affinity healing happens after damage has been taken, it can not prevent death.
+피격 시, 받는 속성 피해량의 일부를 생명력으로 회복합니다.
+중요 : 친화로 받는 회복은 피해를 받고 난 후 적용됩니다. 친화로는 죽음을 막을 수 없습니다.
 ]], "_t")
 t([[#GOLD#Status resistance#LAST#
 Most bad status effects can be avoided by having an appropriate immunity, represented by a percent chance to completely avoid the effect in question.  This chance is applied in addition to any saving throws or other checks that may apply.
 ]], [[#GOLD#상태효과 저항#LAST#
-Most bad status effects can be avoided by having an appropriate immunity, represented by a percent chance to completely avoid the effect in question.  This chance is applied in addition to any saving throws or other checks that may apply.
+대부분의 부정적인 효과는 대응하는 면역력으로 막아낼 수 있습니다. 해당하는 효과들을 확률적으로 완전히 무효화합니다.  이 확률은 내성 판정과 기타 판정에 중복되어 적용됩니다.
 ]], "_t")
 t([[#GOLD#Effect resistance chance#LAST#
 This represents your chance to completely resist this specific effect.
 ]], [[#GOLD#효과 저항 확률#LAST#
-This represents your chance to completely resist this specific effect.
+특정 효과를 일정 확률로 완전히 저항합니다.
 ]], "_t")
 t([[#GOLD#Stun immunity chance#LAST#
 This represents your chance to completely avoid being stunned, dazed, or frozen.
 ]], [[#GOLD#기절 면역 확률#LAST#
-This represents your chance to completely avoid being stunned, dazed, or frozen.
+기절, 혼절, 빙결을 일정 확률로 완전히 저항합니다.
 ]], "_t")
 t([[#GOLD#Anomaly immunity chance#LAST#
 This represents your chance to avoid most chronomatic anomaly effects.
 ]], [[#GOLD#역발 면역 확률#LAST#
-This represents your chance to avoid most chronomatic anomaly effects.
+시간의 이상현상을 일정 확률로 완전히 저항합니다.
 ]], "_t")
 t([[#GOLD#Instant death resistance#LAST#
 This represents your chance to avoid being instantly killed, severely incapacitated, or controlled by certain abilities.
 ]], [[#GOLD#즉사 면역력#LAST#
-This represents your chance to avoid being instantly killed, severely incapacitated, or controlled by certain abilities.
+즉사, 심각한 수준의 무력화, 특정 기술에 의한 지배 효과를 일정 확률로 완전히 저항합니다..
 ]], "_t")
 t([[#GOLD#Negative status effect immunity chance#LAST#
 This represents your chance to completely avoid ANY persistent bad effects applied to you from others.
 ]], [[#GOLD#부정적 상태효과 면역 확률#LAST#
-This represents your chance to completely avoid ANY persistent bad effects applied to you from others.
+모든 부정적인 효과를 일정 확률로 완전히 저항합니다.
 ]], "_t")
 t([[#GOLD#Negative mental effect immunity chance#LAST#
 This represents your chance to completely avoid ANY persistent bad mental effects applied to you from others.
 ]], [[#GOLD#부정적 정신효과 면역 확률#LAST#
-This represents your chance to completely avoid ANY persistent bad mental effects applied to you from others.
+모든 부정적인 정신 효과를 일정 확률로 완전히 저항합니다.
 ]], "_t")
 t([[#GOLD#Negative physical effect immunity chance#LAST#
 This represents your chance to completely avoid ANY persistent bad physical effects applied to you from others.
 ]], [[#GOLD#부정적 물리효과 면역 확률#LAST#
-This represents your chance to completely avoid ANY persistent bad physical effects applied to you from others.
+모든 부정적인 물리 효과를 일정 확률로 완전히 저항합니다.
 ]], "_t")
 t([[#GOLD#Negative magical effect immunity chance#LAST#
 This represents your chance to completely avoid ANY persistent bad magical effects applied to you from others.
 ]], [[#GOLD#부정적 마법효과 면역 확률#LAST#
-This represents your chance to completely avoid ANY persistent bad magical effects applied to you from others.
+모든 부정적인 마법 효과를 일정 확률로 완전히 저항합니다..
 ]], "_t")
 t([[#GOLD#Damage when hit#LAST#
 Each time a creature hits you with a melee attack, it will suffer damage or other effects.
 ]], [[#GOLD#반사 피해#LAST#
-Each time a creature hits you with a melee attack, it will suffer damage or other effects.
+근접 공격에 피격 당할 때 마다, 공격자에게 피해를 가하거나, 특정 효과를 일으킵니다.
 ]], "_t")
 t([[#GOLD#Additional Melee Damage#LAST#
 Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
 ]], [[#GOLD#근접 공격 추가 피해#LAST#
-Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
+근접 공격을 가할 때, 추가적인 피해를 입히거나, 특정 효과를 일으킵니다.
+]], "_t")
+t([[This is separate from any special damage of your weapon.
+]], [[이 효과는 무기의 툭수 피해와는 별개로 작동합니다.
 ]], "_t")
 t([[#GOLD#Additional Ranged Damage#LAST#
 Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
 ]], [[#GOLD#원거리공격 추가 피해#LAST#
-Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
+원거리 공격을 가할 때, 추가적인 피해를 입히거나, 특정 효과를 일으킵니다.
+]], "_t")
+t([[This is separate from any special damage of your weapon or ammo.
+]], [[이 효과는 무기나 탄환의 툭수 피해와는 별개로 작동합니다.
 ]], "_t")
 t([[#GOLD#Damage penetration: all#LAST#
 Reduces the amount of effective resistance of your foes to any damage you deal by this percent.
@@ -1635,34 +1652,35 @@ If you have 50% penetration against a creature with 50% resistance it will have 
 This stacks with individual damage type penetrations.
 You can never have more than 70% penetration.
 ]], [[#GOLD#저항 관통: 전체#LAST#
-Reduces the amount of effective resistance of your foes to any damage you deal by this percent.
-If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
-This stacks with individual damage type penetrations.
-You can never have more than 70% penetration.
+공격 시, 적의 피해 저항을 이 수치만큼 감소시킵니다.
+만약 당신의 저항 관통이 50% 이고, 대상의 저항이 50% 일 경우, 대상의 저항 값은 25% 가 됩니다.
+각 속성의 저항 관통과 중첩됩니다.
+저항 관통은 최대 70% 만 적용됩니다.
 ]], "_t")
 t([[#GOLD#Damage penetration: specific#LAST#
 Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
 If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
 You can never have more than 70% penetration.
 ]], [[#GOLD#저항 관통: 속성#LAST#
-Reduces the effective resistance of your foes to all damage of this type you deal by this percent.
-If you have 50% penetration against a creature with 50% resistance it will have an effective resistance of 25%.
-You can never have more than 70% penetration.
+공격 시, 적의 해당하는 속성 저항을 이 수치만큼 감소시킵니다.
+만약 당신의 저항 관통이 50% 이고, 대상의 저항이 50% 일 경우, 대상의 저항 값은 25% 가 됩니다.
+각 속성의 저항 관통과 중첩됩니다.
+저항 관통은 최대 70% 만 적용됩니다.
 ]], "_t")
 t([[#GOLD#Flat resistances#LAST#
 Reduces each hit of a certain damage type (or all) by this amount.
 ]], [[#GOLD#고정 피해 감소#LAST#
-Reduces each hit of a certain damage type (or all) by this amount.
+매 타격 당 받는 특정, 또는 모든 피해를 감소시킵니다.
 ]], "_t")
 t([[#GOLD#Telepathy#LAST#
 Allows you to sense creatures of the given type(s) even if they are not currently in your line of sight.
-]], [[#GOLD#투시#LAST#
-Allows you to sense creatures of the given type(s) even if they are not currently in your line of sight.
+]], [[#GOLD#정신 감응#LAST#
+당신 주위의 특정 종류의 개체의 위치를 감지합니다.
 ]], "_t")
 t([[#GOLD#Telepathy range#LAST#
 Determines the distance up to which you can sense creatures with telepathy.
-]], [[#GOLD#투시 범위#LAST#
-Determines the distance up to which you can sense creatures with telepathy.
+]], [[#GOLD#정신 감응 범위#LAST#
+정신 감응 범위를 결정합니다.
 ]], "_t")
 t([[#GOLD#Telepathy#LAST#
 Allows you to sense any creatures even if they are not currently in your line of sight.
@@ -1672,54 +1690,59 @@ Allows you to sense any creatures even if they are not currently in your line of
 t([[#GOLD#Lite radius#LAST#
 The maximum distance your lite can light up. Anything further cannot be seen by natural means, unless the place itself is lit.
 ]], [[#GOLD#광원 반경#LAST#
-The maximum distance your lite can light up. Anything further cannot be seen by natural means, unless the place itself is lit.
+광원히 밝힐 수 있는 최대 반경을 나타냅니다. 불이 밝혀진 위치를 제외하고, 이 범위 밖은 자연적인 방법으로는 볼 수 없습니다.
 ]], "_t")
 t([[#GOLD#Sight range#LAST#
 How far you can see. This only works within your lite radius, or in lit areas.
 ]], [[#GOLD#시야 반경#LAST#
-How far you can see. This only works within your lite radius, or in lit areas.
+당신이 얼마나 멀리 볼 수 있는지를 나타냅니다. 시야 반경은 광원 반경과 밝혀진 지역 내에서만 작동합니다.
+]], "_t")
+t([[#GOLD#Heightened Senses#LAST#
+Special vision (including infravision) that works even in the dark, but only creatures can be seen this way.  Only the best ability is used.
+]], [[#GOLD#향상된 감각#LAST#
+적외선 시야를 포함한, 어둠 속에서도 적을 감지할 수 있는 시야입니다. 지형을 제외하고, 오직 개체들만 볼 수 있습니다. 가장 효과적인 시야가 우선적으로 적용됩니다.
 ]], "_t")
 t([[#GOLD#Stealth#LAST#
 To use stealth one must possess the 'Stealth' talent.
 Stealth allows you to try to hide from any creatures that would otherwise see you.
 Even if they have seen you they will have a harder time hitting you.
 Any creature can try to see through your stealth.
-]], [[#GOLD#은밀도#LAST#
-To use stealth one must possess the 'Stealth' talent.
-Stealth allows you to try to hide from any creatures that would otherwise see you.
-Even if they have seen you they will have a harder time hitting you.
-Any creature can try to see through your stealth.
+]], [[#GOLD#은신도#LAST#
+은신 기술 없이는 이 능력치는 쓸모가 없습니다
+은신은 당신을 볼 수 있는 생명체들로부터 몸을 숨길 수 있습니다.
+적이 당신을 발각했더라도, 당신을 공격하기 훨씬 어려워집니다.
+모든 적은 당신을 찾아내려고 시도할 것입니다.
 ]], "_t")
 t([[#GOLD#See stealth#LAST#
 Your power to see stealthed creatures. The higher it is, the more likely you are to see them (based on their own stealth score).
 ]], [[#GOLD#은신 탐지력#LAST#
-Your power to see stealthed creatures. The higher it is, the more likely you are to see them (based on their own stealth score).
+은신한 개체를 발견하는 능력입니다. 높을 수록, 당신이 적을 발견하기 쉬워집니다. (발각 확률은 적의 은신력에 비례합니다).
 ]], "_t")
 t([[#GOLD#Invisibility#LAST#
 Invisible creatures are magically removed from the sight of all others. They can only be see by creatures that can see invisible.
-]], [[#GOLD#투명도#LAST#
-Invisible creatures are magically removed from the sight of all others. They can only be see by creatures that can see invisible.
+]], [[#GOLD#투명#LAST#
+투명한 개체는 다른 이들의 시야에서 마법적으로 사라집니다. 투명 탐지 능력을 가진 개체에게 발각될 수 있습니다.
 ]], "_t")
 t([[#GOLD#See invisible#LAST#
 Your power to see invisible creatures. The higher it is, the more likely you are to see them (based on their own invisibility score).
 If you do not have any see invisible score you will never be able to see invisible creatures.
 ]], [[#GOLD#투명 탐지력#LAST#
-Your power to see invisible creatures. The higher it is, the more likely you are to see them (based on their own invisibility score).
-If you do not have any see invisible score you will never be able to see invisible creatures.
+투명한 개체를 발견하는 능력입니다. 높을 수록, 당신이 적을 발견하기 쉬워집니다. (발각 확률은 적의 투명력에 비례합니다).
+투명 탐지력이 없을 경우, 당신은 절대 투명한 적을 발각할 수 없습니다.
 ]], "_t")
 t([[#GOLD#Detect Traps#LAST#
 Your power to find hidden traps. The higher it is, the more likely you are to notice a trap before setting it off  (based on its own detection score).
 If you do not have any detect traps score, you can not detect traps without triggering them.
 ]], [[#GOLD#함정 탐지력#LAST#
-Your power to find hidden traps. The higher it is, the more likely you are to notice a trap before setting it off  (based on its own detection score).
-If you do not have any detect traps score, you can not detect traps without triggering them.
+함정을 발견하는 능력입니다. 높을 수록, 당신이 함정을 발견하기 쉬워집니다. (발각 확률은 함정의 탐지력에 비례합니다).
+함정 탐지력이 없을 경우, 당신은 절대 함정을 발동시키지 않고 함정을 발각할 수 없습니다.
 ]], "_t")
 t([[#GOLD#Antimagic User#LAST#
 Dedicated to opposing and destroying magical and arcane influence in the world.
 The use of spells or arcane-powered equipment is impossible.
 ]], [[#GOLD#반마법 사용자#LAST#
-Dedicated to opposing and destroying magical and arcane influence in the world.
-The use of spells or arcane-powered equipment is impossible.
+에이얄의 마법의 영향력을 제거하고 파괴하기위해 헌신하고 있습니다.
+주문과 마법의 힘이 주입된 장비를 사용할 수 없습니다.
 ]], "_t")
 
 
@@ -2456,7 +2479,7 @@ t("Full talent respec is always available.", "기술 습득 취소는 제한없�
 t("Adventure", "모험", "birth descriptor name")
 t("#GOLD##{bold}#Adventure mode#WHITE#", "#GOLD##{bold}#모험 모드#WHITE#", "_t")
 t("Provides you with limited extra lives.", "제한된 추가 생명을 제공합니다.", "_t")
-t("Use it if you want normal playing conditions but do not feel ready for just one life.#{normal}#", "적당히 어렵지만 로그라이크 모드는 꺼린다면 선택하십시오..#{normal}#", "_t")
+t("Use it if you want normal playing conditions but do not feel ready for just one life.#{normal}#", "적당히 어렵지만 로그라이크 모드는 꺼린다면 선택하십시오.#{normal}#", "_t")
 t("At level 1,2,5,7,14,24,35 get one more 'life' that allows you to resurrect at the start of the level.", "레벨 1,2,5,7,14,24,35 을 달성하면 당신은 '추가 생명'을 획득합니다.", "_t")
 t("Roguelike", "로그라이크", "birth descriptor name")
 t("#GOLD##{bold}#Roguelike mode#WHITE#", "#GOLD##{bold}#로그라이크 모드#WHITE#", "_t")
@@ -2919,9 +2942,6 @@ section "game/modules/tome/data/chats/escort-quest-start.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/escort-quest.lua"
 
-t("mental", "정신적 효과", "_t")
-t("physical", "물리", "_t")
-t("spell", "주문", "_t")
 
 
 ------------------------------------------------
@@ -3325,6 +3345,7 @@ section "game/modules/tome/data/chats/zigur-mindstar-store.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/zigur-trainer.lua"
 
+t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
 
 
 ------------------------------------------------
@@ -3894,6 +3915,8 @@ t("Thunderstorm", "뇌우", "_t")
 section "game/modules/tome/data/general/events/tombstones.lua"
 
 t("grave", "묘지", "_t")
+t("You were not the first here: the corpse was turned into an undead.", "당신은 첫 손님이 아니다. 시체가 언데드로 변해 있다.", "log")
+t("There is nothing there.", "아무것도 없다.", "log")
 
 
 ------------------------------------------------
@@ -3912,6 +3935,7 @@ section "game/modules/tome/data/general/grids/autumn_forest.lua"
 t("wall", "벽", "entity type")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
+t("autumn_grass", "가을 초목", "entity subtype")
 t("floor", "바닥", "entity type")
 t("way to the next level", "다음 층으로의 길", "entity name")
 
@@ -3967,7 +3991,7 @@ section "game/modules/tome/data/general/grids/burntland.lua"
 t("wall", "벽", "entity type")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
-t("burnt", "숯덩이가되어", "entity subtype")
+t("burnt", "불탄", "entity subtype")
 t("floor", "바닥", "entity type")
 t("way to the next level", "다음 층으로의 길", "entity name")
 
@@ -3975,8 +3999,10 @@ t("way to the next level", "다음 층으로의 길", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/cave.lua"
 
+t("cave floor", "동굴 바닥", "entity name")
 t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
+t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("floor", "바닥", "entity type")
 
 
@@ -3993,6 +4019,8 @@ t("underground", "지하", "entity subtype")
 section "game/modules/tome/data/general/grids/elven_forest.lua"
 
 t("grass", "잔디", "entity subtype")
+t("snowy_grass", "눈 덮인 초목", "entity subtype")
+t("autumn_grass", "가을 초목", "entity subtype")
 t("wall", "벽", "entity type")
 t("tree", "나무", "entity name")
 
@@ -4003,6 +4031,7 @@ section "game/modules/tome/data/general/grids/forest.lua"
 t("tree", "나무", "entity name")
 t("flower", "꽃", "entity name")
 t("wall", "벽", "entity type")
+t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("floor", "바닥", "entity type")
@@ -4081,9 +4110,23 @@ t("open door", "열린 문", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/lava.lua"
 
+t("lava floor", "용암 바닥", "entity name")
 t("lava", "용암", "entity subtype")
 t("wall", "벽", "entity type")
+t("lava wall", "용암 벽", "entity name")
 t("floor", "바닥", "entity type")
+
+
+------------------------------------------------
+section "game/modules/tome/data/general/grids/malrok_walls.lua"
+
+t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("previous level", "이전 층", "entity name")
+t("next level", "다음 층", "entity name")
+t("floor", "바닥", "entity name")
+t("door", "문", "entity name")
+t("wall", "벽", "entity type")
+t("open door", "열린 문", "entity name")
 
 
 ------------------------------------------------
@@ -4094,6 +4137,7 @@ t("rockwall", "바위 장벽", "entity type")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("floor", "바닥", "entity type")
+t("rock", "바위", "entity subtype")
 t("way to the next level", "다음 층으로의 길", "entity name")
 
 
@@ -4164,10 +4208,13 @@ t("trigger", "작동 장치", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/snowy_forest.lua"
 
+t("snowy grass", "눈 덮인 초목", "entity name")
+t("winter tree", "겨울 나무", "entity name")
 t("wall", "벽", "entity type")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("floor", "바닥", "entity type")
+t("snowy_grass", "눈 덮인 초목", "entity subtype")
 t("way to the next level", "다음 층으로의 길", "entity name")
 
 
@@ -4175,6 +4222,7 @@ t("way to the next level", "다음 층으로의 길", "entity name")
 section "game/modules/tome/data/general/grids/underground_dreamy.lua"
 
 t("wall", "벽", "entity type")
+t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 
@@ -4183,6 +4231,7 @@ t("underground", "지하", "entity subtype")
 section "game/modules/tome/data/general/grids/underground_gloomy.lua"
 
 t("wall", "벽", "entity type")
+t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 
@@ -4191,6 +4240,7 @@ t("underground", "지하", "entity subtype")
 section "game/modules/tome/data/general/grids/underground_slimy.lua"
 
 t("wall", "벽", "entity type")
+t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 
@@ -4201,13 +4251,16 @@ section "game/modules/tome/data/general/grids/void.lua"
 t("void", "공허", "entity name")
 t("rift", "균열", "entity subtype")
 t("wall", "벽", "entity type")
+t("crack in spacetime", "시공간의 균열", "entity name")
 t("floor", "바닥", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/water.lua"
 
+t("coral wall", "산호 벽", "entity name")
 t("door", "문", "entity name")
+t("underwater", "수중", "entity subtype")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
 t("deep water", "깊은 물", "entity name")
@@ -4286,7 +4339,7 @@ t("golem", "골렘", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/crystal.lua"
 
-t("crystal", "수정술사", "entity subtype")
+t("crystal", "수정", "entity subtype")
 t("elemental", "원소", "entity type")
 t("light", "경갑", "entity subtype")
 
@@ -4688,6 +4741,8 @@ t("dragon", "용", "entity type")
 section "game/modules/tome/data/general/npcs/xorn.lua"
 
 t("elemental", "원소", "entity type")
+t("demon", "악마", "entity type")
+t("major", "고위", "entity subtype")
 
 
 ------------------------------------------------
@@ -4868,6 +4923,7 @@ t("quiver of dragonbone arrows", "용뼈 화살묶음", "entity name")
 section "game/modules/tome/data/general/objects/brotherhood-artifacts.lua"
 
 t("green", "초록색", "entity subtype")
+t("potion", "물약", "entity subtype")
 
 
 ------------------------------------------------
@@ -6878,6 +6934,7 @@ section "game/modules/tome/data/general/objects/objects-far-east.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/potions.lua"
 
+t("potion", "물약", "_t")
 
 
 ------------------------------------------------
@@ -7233,6 +7290,8 @@ t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
 section "game/modules/tome/data/general/objects/world-artifacts.lua"
 
 t("blue", "파란색", "entity subtype")
+t("potion", "물약", "entity subtype")
+t("%s quaffs the %s!", "%s %s 마셨다!", "logSeen", nil, {"는","을"})
 t("misc", "도구", "entity type")
 t("Frozen", "빙결", "_t")
 t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
@@ -7244,6 +7303,7 @@ t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 �
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
 t("a spot nearby", "근처의 위치", "_t")
 t("Summon", "소환", "_t")
+t("Temporal Rift", "시간의 균열", "entity name")
 t("None", "없음", "_t")
 t("Use which gem?", "어떤 보석을 쓸까?", "_t")
 t("You imbue your %s with %s.", "당신은 %s에 %s 꽂아넣었다.", "logPlayer", nil, {[2]="을"})
@@ -7699,6 +7759,11 @@ section "game/modules/tome/data/lore/high-peak.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/infinite-dungeon.lua"
 
+t("The Hunter and the Hunted chapter 1", "사냥꾼과 사냥감 1장", "_t")
+t("The Hunter and the Hunted chapter 2", "사냥꾼과 사냥감 2장", "_t")
+t("The Hunter and the Hunted chapter 3", "사냥꾼과 사냥감 3장", "_t")
+t("The Hunter and the Hunted chapter 4", "사냥꾼과 사냥감 4장", "_t")
+t("The Hunter and the Hunted chapter 5", "사냥꾼과 사냥감 5장", "_t")
 
 
 ------------------------------------------------
@@ -7715,6 +7780,7 @@ t("iron throne", "철의 왕좌", "newLore category")
 ------------------------------------------------
 section "game/modules/tome/data/lore/keepsake.lua"
 
+t("Kyless", "키레스", "_t")
 
 
 ------------------------------------------------
@@ -8015,6 +8081,12 @@ section "game/modules/tome/data/maps/towns/shatur.lua"
 
 
 ------------------------------------------------
+section "game/modules/tome/data/maps/vaults/auto/greater/greater-checkerboard.lua"
+
+t("#rng# the Guardian", "수호자 #rng#", "_t")
+
+
+------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/living-weapons.lua"
 
 
@@ -8027,6 +8099,7 @@ section "game/modules/tome/data/maps/vaults/auto/greater/orc-hatred.lua"
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
 
+t("corrupted lava floor", "오염된 용암 바닥", "_t")
 
 
 ------------------------------------------------
@@ -8043,6 +8116,12 @@ section "game/modules/tome/data/maps/vaults/auto/greater/sleeping-dragons.lua"
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/lesser/loot-vault.lua"
+
+t("scroll", "두루마리", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/data/maps/vaults/bandit-fortress.lua"
 
 t("scroll", "두루마리", "_t")
 
@@ -8070,6 +8149,7 @@ section "game/modules/tome/data/maps/vaults/lava_island.lua"
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/renegade-pyromancers.lua"
 
+t("scroll", "두루마리", "_t")
 
 
 ------------------------------------------------
@@ -8097,6 +8177,12 @@ section "game/modules/tome/data/maps/wilderness/eyal.lua"
 
 t("Charred Scar", "검게 탄 상처", "_t")
 t("Maj'Eyal", "마즈'에이얄", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/data/maps/zones/bandit-fortress.lua"
+
+t("scroll", "두루마리", "_t")
 
 
 ------------------------------------------------
@@ -8208,6 +8294,7 @@ section "game/modules/tome/data/quests/infinite-dungeon.lua"
 ------------------------------------------------
 section "game/modules/tome/data/quests/keepsake.lua"
 
+t("Berethh", "베레스", "_t")
 
 
 ------------------------------------------------
@@ -9589,6 +9676,12 @@ t("Damage Smearing", "피해 희석", "talent name")
 t("You do not have line of sight.", "시야 밖의 대상입니다.", "logSeen")
 t("The spell fizzles!", "주문이 실패했다!", "logSeen")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
+t("Carbon Spikes", "탄소 가시", "talent name")
+t([[Fragile spikes of carbon protrude from your flesh, clothing, and armor, increasing your armor rating by %d and inflicting %0.2f bleed damage over six turns on attackers.   Each time you're struck, the armor increase will be reduced by 1.  Each turn the spell will regenerate 1 armor up to its starting value.
+		If the armor increase from the spell ever falls below 1, the sustain will deactivate and the effect will end.
+		The armor and bleed damage will increase with your Spellpower.]], [[쉽게 부서지는 탄소 재질의 가시가 살갗과 옷과 갑옷에서 솟아올라, 방어력을 %d 향상시키고, 피격시, 공격자에게 출혈을 유발 해 6 턴에 걸쳐 %0.2f 출혈피해를 입힙니다.   피격당할 때마다, 방어력은 1 씩 낮아집니다.  이렇게 소모된 방어력은 매 턴 1 씩 회복되며, 시전 당시의 방어력 수치까지 회복됩니다.
+		주문으로 증가된 방어력이 1 이하로 떨어지게 되면, 유지기가 즉시 비활성화되고, 지속효과가 종료됩니다.
+		방어력과 출혈 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -11078,13 +11171,6 @@ t("#LIGHT_STEEL_BLUE#%s distorts time and space!", "#LIGHT_STEEL_BLUE#%s 시공�
 t("#LIGHT_STEEL_BLUE##Target# pulls #Source# in!", "#LIGHT_STEEL_BLUE##Source1# #Target3# 끌어당겼다!", "logCombat")
 t("#LIGHT_STEEL_BLUE##Source# resists the pull of #Target#!", "#LIGHT_STEEL_BLUE##Source2# #Target#의 인력에 저항했다!", "logCombat")
 t("Creates a radius 5 gravitic anomaly lasting up to %d turns.  Hostile creatures are dealt %d temporal damgae and pulled in.  Triggers out to range 1.", "%d 턴 동안 지속되는 5 칸 반경의 중력 이상현상을 일으킵니다. 적은 %d 시간 피해를 입으며 안으로 끌어당겨집니다. 적이 주위 한 칸 내에만 있어도 발동합니다.", "tformat")
-t([[Lay a trap that creates a radius 5 gravitic anomaly when triggered by foes approaching within range 1.  Each turn, the anomaly deals %0.2f temporal damage (based on your Magic) to foes whle pulling them towards its center (chance increases with your combat accuracy or spell power, whichever is higher).
-		Each anomaly lasts %d turns (up to the amount of time since the last anomaly dissipated, based on your Trap Mastery skill).
-		The trap may trigger more than once, but requires at least 2 turns to recharge between activations.
-This design does not require advanced preparation to use.]], [[발동 시, 반경 5 칸의 중력 이상 현상을 일으키는 함정을 설치합니다. 적이 주위 1 칸 내에만 있어도 발동합니다. 매 턴 이상 현상은 %0.2f 시간 피해를 입히고 (마법 능력치에 비례해 증가합니다) 적을 증심으로 끌어당깁니다. (확률은 정확도와 주문력중 더 높은 것에 비례합니다)
-		각각의 이상 현상은 %d 턴 동안 지속됩니다. (전에 발생한 이상 현상이 사라진 후의 경과 시간에 따라 변화합니다. 또 함정 숙련 기술에 영향을 받습니다)
-		함정은 한 번 이상 발동할 수 있지만, 다시 발동되기까지 2 턴 의 재사용 대기시간이 존재합니다.
-		이 함정은 사용하는 데에는 준비가 필요하지 않습니다.]], "tformat")
 t("Ambush Trap", "기습 함정", "talent name")
 t("You have learned how to create Ambush traps!", "당신은 기습 함정을 만드는 법을 배웠다!", "_t")
 t("ambush trap", "기습 함정", "_t")
@@ -12431,7 +12517,7 @@ t("Indiscernible Anatomy", "불가해한 해부학", "talent name")
 t([[Your body's internal organs are indistinct, disguising your vital areas.
 		You have a %d%% chance to shrug off all direct critical hits (physical, mental, spell).
 		In addition you gain %d%% resistance to disease, poison, wounds and blindness.]], [[신체 내부 장기의 형태는 불분명해지고 공격자가 급소를 노리기 힘들어집니다.
-		치명타 피격시 모든 치명타를 (물리, 정신, 주문) %d%% 확률로 무효화합니다.
+		치명타 피격 시 모든 치명타를 (물리, 정신, 주문) %d%% 확률로 무효화합니다.
 		추가로 %d%% 질병, 독, 상처, 실명 면역력을 얻습니다.]], "tformat")
 
 
@@ -12676,33 +12762,6 @@ t([[Induces a killing rage in all your summons within a radius of 5 when a summo
 		The bonus will increase with your mindpower.]], [[소환수가 살해됐을 때, 반경 5 칸 이내의 모든 소환수에 살육의 분노를 유발합니다. 소환수들의 모든 능력치를 5 턴 동안 %d 증가 시킵니다. 
 		추가 능력치는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Detonate", "소환수 폭발", "talent name")
-t([[Destroys one of your summons, making it detonate in radius of %d.
-		- Ritch Flamespitter: Explodes into a fireball dealing %d damage, flameshocking damaged foes
-		- Hydra: Grants %d%% lightning, acid, and nature affinity as well as %d life regen per turn to all friendly creatures for 7 turns
-		- Rimebark: Explodes into an iceball dealing %d ice damage, possibly freezing damaged foes
-		- Fire Drake: Explodes into a cloud of lingering fire, dealing %d damage per turn
-		- War Hound: Explodes into a sharp ball, cutting all creatures for %0.1f bleeding damage per turn for 6 turns
-		- Jelly: Explodes into a ball of slowing slime, dealing %d nature damage and slowing foes by %0.1f%%
-		- Minotaur: Confuses foes at %d%% power for 5 turns
-		- Stone Golem: Grants %d armour and %d%% armour hardiness to all friendly creatures for 5 turns
-		- Turtle: Grants a small shell shield to all friendly creatures, granting %d%% all resist for 5 turns
-		- Spider: Knocks back all foes %d tiles
-		In addition, a random summon will come off cooldown.
-		Hostile effects will not hit you or your other summons.
-		The effects improve with your mindpower, and can crit.]], [[소환수 중 하나를 자폭시켜 반경 %d 칸 범위에 폭발을 일으킵니다.
-		- 불을 뿜는 릿치: %d 피해를 주는 화염구가 폭발합니다. 적들에게 화염 충격을 적용합니다
-		- 히드라: 7 턴 동안 모든 아군의 전기, 산성, 자연 속성 친화를 %d%% 증가시키고 턴 당 생명력 재생을 %d 증가시킵니다.
-		- 서리나무: %d 얼음 피해를 주는 얼음 구체가 폭발합니다. 적을 얼릴 수 있습니다
-		- 화염 드레이크: 오랫동안 지속되는 화염 구름을 퍼뜨려, %d 피해를 턴 마다 입힙니다.
-		- 전투견: 6 턴 동안 %0.1f 출혈 피해를 입히는, 파편성 구체가 폭발합니다.
-		- 젤리: 느리게 만드는 점액질 구체가 폭발합니다. %d 자연 피해를 입히고 상대를 %0.1f%% 느려지게 합니다.
-		- 미노타우르스: 5 턴 동안 적들에게 위력 %d%% 의 혼란을 겁니다.
-		- 암석 골렘: 5 턴 동안 모든 아군의 방어력을 %d, 방어 효율을 %d%% 증가시킵니다.
-		- 거북이: 5 턴 동안 작은 껍질 보호막을 모든 아군에게 적용합니다. 모든 피해 저항을 %d%% 향상시킵니다.
-		- 거미: 모든 적을 %d 칸 뒤로 밀칩니다
-		추가로, 무작위 소환 기술의 재사용 대기시간이 초기화 됩니다.
-		적대적인 효과는 시전자나 시전자의 소환수들에게 영향을 미치지 않습니다.
-		효과는 정신력에 비례하여 증가하고, 치명타가 일어날 수 있습니다.]], "tformat")
 t("Resilience", "회복력", "talent name")
 t("Increases all your summons' max life by %0.1f%% and extends your summons' maximum lifetime by %d turns.", "모든 소환수들의 최대 체력이 %0.1f%% 증가하고, 소환수들의 최대 지속시간이 %d 턴 연장됩니다.", "tformat")
 t("Phase Summon", "위치 전환", "talent name")
@@ -13700,6 +13759,8 @@ t("cold flames", "냉기 화염", "_t")
 t([[Cold Flames slowly spread from %d spots in a radius of %d around the targeted location. The flames deal %0.2f cold damage, and have a chance of freezing.
 		Damage improves with your Spellpower.]], [[냉기 화염이 반경 %d 칸 범위 내의 %d 지점에서 느리게 퍼저나갑니다. 화염은 %0.2f 냉기 피해를 주고, 적을 얼려버릴 확률이 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,1,3})
+t("Quicken Spells", "빠른 주문", "talent name")
+t("Reduces the cooldown of all spells by %d%%.", "모든 주문의 재사용 대기시간이 %d%% 감소합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -13714,11 +13775,11 @@ t("spell", "주문", "talent category")
 t("Abilities of the various objects of the world.", "세상의 다양한 물체에 대한 능력들입니다.", "_t")
 t("object powers", "물체 힘", "_t")
 t("other", "기타", "talent category")
-t("Techniques of the various objects of the world.", "세상의 다양한 물체에 대한 전투 기술들입니다.", "_t")
+t("Techniques of the various objects of the world.", "세상의 다양한 물체에 대한 전투 능력들입니다.", "_t")
 t("technique", "전투 기술", "talent category")
-t("Wild gifts of the various objects of the world.", "세상의 다양한 물체에 대한 자연 권능들입니다.", "_t")
+t("Wild gifts of the various objects of the world.", "세상의 다양한 물체에 대한 자연 능력들입니다.", "_t")
 t("wild-gift", "자연의 권능", "talent category")
-t("Powers of the various objects of the world.", "세상의 다양한 물체에 대한 권능들입니다.", "_t")
+t("Powers of the various objects of the world.", "세상의 다양한 물체에 대한 능력들입니다.", "_t")
 t("misc", "도구", "talent category")
 t("object techniques", "물체 전투기술", "_t")
 t("charms", "부적", "talent name")
@@ -14218,11 +14279,6 @@ t([[Your subconscious now retaliates when you take damage.  If the attacker is w
 		이 효과는 한 턴에 한 개체당 1 번씩 발동됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Focused Wrath", "집중된 분노", "talent name")
-t([[Focus your mind on a single target, diverting all offensive Discharge talent effects to it for %d turns.  While this effect is active, all Discharge talents gain %d%% critical power and you ignore %d%% mind resistance of your targets.
-		If the target is killed, the effect will end early.
-		The damage bonus will scale with your Mindpower.]], [[하나의 대상에게 정신을 집중하여, %d 턴 동안 모든 방출 계열 기술이 대상에게 유도됩니다. 이 효과가 적용되는 동안, 모든 방출 계열 기술의 치명타 위력이 %d%% 증가하고 대상의 정신 피해 저항을 %d%% 무시합니다.
-		대상이 사망하면 효과가 끝납니다.
-		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -14892,7 +14948,7 @@ t([[You believe that your mind is the center of everything.  Permanently increas
 		Converted Psi damage you take will be further reduced by %0.1f%% (%0.1f%% from character level with the remainder further reduced by %0.1f%% from talent level).
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
 		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], [[시전자의 자아가 모든 것의 중심이라고 믿습니다. 레벨마다 획득하는 염동력 수치가 5 추가되며 생명력 증가량이 50%% 감소됩니다. (레벨 업 시 상승하는 생명력 양에 영향을 주며, 위 효과는 단 한번만 적용됩니다).
-		정신력만으로 피해를 극복하는 법을 배워, 피격시 피해량의 %d%% 를 염력으로 대신 받습니다. 또한 생명력 회복량과 재생량의 %d%% 가 생명력 대신 염력을 회복시킵니다.
+		정신력만으로 피해를 극복하는 법을 배워, 피격 시 피해량의 %d%% 를 염력으로 대신 받습니다. 또한 생명력 회복량과 재생량의 %d%% 가 생명력 대신 염력을 회복시킵니다.
 		생명력 대신 염력으로 피해를 받을 때, %0.1f%% 감소한 값의 염력이 소모됩니다 (캐릭터 레벨을 통해 %0.1f%% 만큼, 기술 레벨을 통해 %0.1f%% 만큼 추가로 감소).
 		이 기술을 배우면, 의지 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
 		또한 독존 한계량이 기본적으로 20%% (현재 : %d%%) 가 되며, 현재 염력이 독존 한계량 이하일 경우 부족한 1%% 만큼 전체 속도가 1%% 감소하게 됩니다.]], "tformat")
@@ -15901,8 +15957,6 @@ t([[Removes up to %d magical effects (good effects from foes, and bad effects fr
 		3레벨이 되면, 대상을 지정하여 사용할 수 있습니다.
 		]], "tformat")
 t("Spellcraft", "주문학", "talent name")
-t("Quicken Spells", "빠른 주문", "talent name")
-t("Reduces the cooldown of all spells by %d%%.", "모든 주문의 재사용 대기시간이 %d%% 감소합니다.", "tformat")
 t("Metaflow", "초월의 흐름", "talent name")
 
 
@@ -15942,22 +15996,11 @@ t([[Weave a net of arcane disturbances around your body, removing yourself from 
 		The invisibility bonus will increase with your Spellpower.]], [[시각을 흩뜨러뜨리는 신비한 그물망을 짜서 몸에 두릅니다. 자신은 모든 개체의 시야에서 사라지고, 투명 상태에서의 은신력이 7 턴 동안 %d 상승합니다.
 		투명한 상태 동안, 실명하거나, 눈부심 상태이상을 적용한 적에 대한 피해량이 %d%% 증가합니다. (다른 피해량 증가치에 더해집니다).
 		은신력 상승량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Elemental Mirage", "원소 환영", "talent name")
-t([[Your mastery of both illusion and elements knows no bound.
-		Upon first sustaining this spell you may select two elements. You may later change them with the Alter Mirage spell, provided automatically upon learning this one.
-
-		Any time you deal damage with one of those elements, the other gets a bonus of %d%% damage for 3 turns.
-		At level 5 if the target element has less resistance penetration, it gets increased to match the one of the source element.
-
-		Current elements selected: %s#LAST# and %s]], [[환영과 원소에 대한 숙련은 멈출줄을 모릅니다.
-		처음 이 주문을 활성화 할때, 두가지 원소를 선택할 수 있습니다. 선택한 원소는 나중에 환영 변경 기술로 교체 가능합니다. 이 기술을 배우면 환영 변경은 저절로 익히게됩니다.
-
-		선택한 두 원소중 하나로 공격할 때, 3 턴 동안 다른 속성의 피해량이 %d%% 증가합니다.
-		기술 레벨 5 일때 대상 속성 중 하나가 더 낮은 저항 관통을 갖고있다면, 자동적으로 다른 한 속성의 저항 관통으로 맞춰줍니다.
-
-		현재 선택된 원소 : %s#LAST# 와 %s]], "tformat")
-t("Alter Mirage", "환영 변경", "talent name")
-t("Change your choice of elements for Elemental Mirage.", "원소 환영으로 선택했던 원소를 다시 선택합니다.", "_t")
+t("Mirror Image", "거울의 상", "talent name")
+t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
+t("Mirror Image (%s)", "거울의 상 (%s)", "tformat")
+t("A blurred image.", "흐린 상.", "_t")
+t("Summon", "소환", "_t")
 
 
 ------------------------------------------------
@@ -16096,22 +16139,6 @@ t([[Carve 40 to 80 alchemist gems out of a natural gemstone.
 t("Extract Gems", "보석 추출", "talent name")
 t("You extract %s from %s", "%s 에서 %s 추출합니다", "logPlayer", {2,1}, {[2]="를"})
 t("Try to extract gems from which metallic item?", "어떤 금속 재질 물건에서 보석을 추출할까요?", "_t")
-t([[	-Iron
-]], [[	-무쇠
-]], "_t")
-t([[	-Steel
-]], [[	-강철
-]], "_t")
-t([[	-Dwarven-steel
-]], [[	-드워프 강철
-]], "_t")
-t([[	-Stralite
-]], [[	-스타라라이트
-]], "_t")
-t("	-Voratun", "	-보라툰", "_t")
-t([[Extract magical gems from metal weapons and armours. At this skill level you can work with:
-		%s]], [[금속 무기나 방어구에서 보석 을 추출합니다. 현재 스킬 레벨에서 다음과 같은 재질에서 추출 가능합니다 :
-		%s]], "tformat")
 t("Imbue Item", "아이템 강화", "talent name")
 t("Use which gem?", "어떤 보석을 쓸까?", "_t")
 t("Imbue which armour?", "어떤 방어구를 강화할까?", "_t")
@@ -16190,7 +16217,7 @@ t("Tempest", "폭풍우", "talent name")
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/temporal.lua"
 
-t("Congeal Time", "시간 빙결", "talent name")
+t("Congeal Time", "시간 동결", "talent name")
 t("Project a bolt of time distortion, decreasing the target's global speed by %d%% and all projectiles it fires by %d%% for 7 turns.", "시간 왜곡의 화살을 날려, 대상의 전체 속도를 7 턴 동안 %d%% 감소시키고, 투사체의 속도 역시 %d%% 감소시킵니다.", "tformat")
 t("Temporal Shield", "시간 보호막", "talent name")
 t([[This intricate spell instantly erects a time shield around the caster, preventing any incoming damage and sending it forward in time.
@@ -16208,6 +16235,11 @@ t([[Removes the target from the flow of time for %d turns. In this state, the ta
 		지속시간은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Essence of Speed", "속도의 정수", "talent name")
 t("Increases the caster's global speed by %d%%.", "시전자의 전체 속도를 %d%% 증가시킵니다.", "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/thaumaturgy.lua"
+
 
 
 ------------------------------------------------
@@ -16277,11 +16309,6 @@ t([[Your Flame, Flameshock, Fireflash and Blastwave spells leave a burning wake 
 		The damage will increase with your Spellpower.]], [[불꽃, 불꽃 충격, 불꽃 섬광과 후폭풍의 궤적이 대지를 불태워, 해당 범위 내의 모든 개체에 %0.2f 화염 피해를 4 턴간 줍니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Cleansing Flames", "정화의 불꽃", "talent name")
-t([[When your Burning Wake talent is active, your Inferno and Burning Wake effects have a %d%% chance, each turn, to remove a status effect (physical or magical) from the targets.
-		If the target is hostile, it will remove a beneficial effect.
-		If the target is friendly, it will remove a detrimental effect (but still burn).]], [[타오르는 궤적이 활성화 됐을 때, 지옥불과 타오르는 궤적의 효과가 강화되어, 매 턴 %d%% 확률로, 대상의 물리적, 혹은 마법적 효과를 제거합니다.
-		대상이 적대적일 경우, 이로운 효과를 제거합니다.
-		대상이 우호적일 경우, 부정적인 효과를 제거하지만, 여전히 화상 상태로 남습니다.]], "tformat")
 t("Wildfire", "열화", "talent name")
 t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, ignoring %d%% fire resistance of your targets and reducing self-inflicted fire damage by %d%%.", "주변에 열화를 일으켜, 모든 화염 피해를 %0.1f%% 증가시키고, 대상의 화염 저항을 %d%% 무시합니다. 또한 자신이 가하는 화염 피해를 %d%% 덜 받게됩니다.", "tformat")
 
@@ -16624,7 +16651,7 @@ t([[Allows shields to be equipped, using Cunning instead of strength as a requir
 t("Bash and Smash", "후리고 박살내기", "talent name")
 t("You require a ranged weapon and a shield to use this talent.", "이 기술을 사용하기 위해서는 방패와 원거리 무기가 필요하다.", "logPlayer")
 t("%s resists the knockback!", "%s 꿈쩍도 하지 않았다!", "logSeen", nil, {"는"})
-t("Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", "인접한 적을 방패로 후려쳐, (기술 레벨 5 이상일때, 두번 후려칩니다) 적을 %d 칸 뒤로 밀어냅니다. 이후 투석구로  투석구로 치명적인 영거리 사격을 가해, %d%% 피해를 줍니다. 방패 공격은 힘 대신 민첩을 사용해 추가 피해량을 결정합니다.", "tformat")
+t("Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", "인접한 적을 방패로 후려쳐, (기술 레벨 5 이상일때, 2 번 후려칩니다) 적을 %d 칸 뒤로 밀어냅니다. 이후 투석구로 치명적인 영거리 사격을 가해, %d%% 피해를 줍니다. 방패 공격은 힘 대신 민첩을 사용해 추가 피해량을 결정합니다.", "tformat", {2,1})
 t("Buckler Mastery", "방패 숙련", "talent name")
 t(" At talent level 5, your Bash and Smash shield hits are guaranteed criticals.", "기술 레벨이 5 일때 방패 타격이 치명타가 됩니다.", "_t")
 t(" At talent level 5, your Bash and Smash shield hit is a guaranteed critical.", "기술 레벨이 5 일때 방패 타격이 치명타가 됩니다.", "_t")
@@ -17506,7 +17533,7 @@ t("Your mastery of unarmed combat unifies your body. Increases your Strength by 
 t("Heightened Reflexes", "향상된 반사 신경", "talent name")
 t("When you're targeted by a projectile, your global speed is increased by %d%% for 1 turn.  Taking any action other than movement will break the effect.", "투사체의 대상이 됐을 때, 전체 속도가 1 턴 동안 %d%% 증가합니다. 이동을 제외한 모든 행동은 이 효과를 즉시 중단시킵니다.", "tformat")
 t("Reflex Defense", "유연한 회피", "talent name")
-t("Your understanding of physiology allows you to apply your reflexes in new ways, increasing the flat damage reduction granted by Striking Stance by %d%% and causing direct critical hits (physical, mental, spells) against you to have a %d%% lower Critical multiplier (but always do at least normal damage).", "인체 구조에 대한 통달은 반사 신경의 새로운 방식의 적용을 가능캐했습니다. 타격 자세로 얻는 고정 피해 감소량을 %d%% 증가시키고, 치명타 피격시, 치명타 피해량을 %d%% 낮춥니다. (하지만 적어도 기본 피해는 받습니다).", "tformat")
+t("Your understanding of physiology allows you to apply your reflexes in new ways, increasing the flat damage reduction granted by Striking Stance by %d%% and causing direct critical hits (physical, mental, spells) against you to have a %d%% lower Critical multiplier (but always do at least normal damage).", "인체 구조에 대한 통달은 반사 신경의 새로운 방식의 적용을 가능캐했습니다. 타격 자세로 얻는 고정 피해 감소량을 %d%% 증가시키고, 치명타 피격 시, 치명타 피해량을 %d%% 낮춥니다. (하지만 적어도 기본 피해는 받습니다).", "tformat")
 
 
 ------------------------------------------------
@@ -17616,7 +17643,7 @@ t("Have dealt over 50000 darkness damage", "적에게 총 50,000 이상의 암�
 t([[You know how to protect yourself with the deepest shadows. As long as you stand on an unlit tile you gain %d armour, 50%% armour hardiness, and 20%% evasion.
 		Any time you deal darkness damage, you will unlight both the target tile and yours.
 		Passively increases your stealth rating by %d.
-		The armor bonus scales with your Constitution.]], [[심연의 그림자로 어떻게 몸을 보호하는지 배웁니다. 불빛이 없는 위치에 있는 동안, 방어력이 %d, 방어 효율이 50%% 증가하고 피격시 20%% 의 확률로 피해를 무시합니다.
+		The armor bonus scales with your Constitution.]], [[심연의 그림자로 어떻게 몸을 보호하는지 배웁니다. 불빛이 없는 위치에 있는 동안, 방어력이 %d, 방어 효율이 50%% 증가하고 피격 시 20%% 의 확률로 피해를 무시합니다.
 		암흑 피해를 가할 때마다, 대상과 자신이 있는 위치의 불빛을 없애버립니다.
 		또한 지속 효과로써 은신력이 %d 상승합니다.
 		방어력증가치는 체격에 비례하여 증가합니다.]], "tformat")
@@ -17652,7 +17679,7 @@ t([[When moving over 800%% speed for at least 3 steps in the same direction, you
 		초신속 상태로 움직이는 동안, 50%% 의 확률로 위치를 바꾸면서 공격을 피해 공격을 완전히 무시합니다. (이 효과는 한 턴에 한번 일어납니다)
 		이동 방향을 바꾸면 효과가 사라집니다.]], "tformat")
 t("Tricky Defenses", "교묘한 방어", "talent name")
-t("Antimagic", "마법을 증오할 것", "_t")
+t("Antimagic", "반마법", "_t")
 t([[You are full of tricks and surprises; your Antimagic Shield can absorb %d%% more damage.
 		The increase scales with your Cunning.]], [[속임수와 각종 기술의 달인이 되어, 반마법 보호막이 %d%% 더 많은 피해량을 흡수하게 됩니다.
 		피해흡수량은 교활에 비례하여 증가합니다.]], "tformat")
@@ -17738,47 +17765,7 @@ t([[%s
 		This can only happen once per turn per type, and cannot affect the talent that triggers it.]], [[%s		
 		종류 당 1 턴에 1 번만 효과가 발생하며, 효과를 발생시킨 기술은 재사용 대기시간 단축 효과를 받을 수 없습니다.]], "tformat")
 t("Worldly Knowledge", "세계의 지식", "_t")
-t([[Gain 5 generic talent points and learn a new talent category from one of the below at 1.0 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are available only to people without any spells or runes, and Group 3 are not available to followers of Zigur.
-		GROUP 1:
-		- Technique / Conditioning
-		- Cunning / Survival
-		- Wild Gift / Harmony
-		GROUP 2:
-		- Wild Gift / Call of the Wild
-		- Wild Gift / Mindstar Mastery
-		- Psionic / Dreaming
-		- Psionic / Augmented Mobility
-		- Psionic / Feedback
-		GROUP 3:
-		- Spell / Divination
-		- Spell / Staff Combat
-		- Spell / Stone Alchemy
-		- Corruption / Vile Life
-		- Corruption / Hexes
-		- Corruption / Curses
-		- Celestial / Chants
-		- Chronomancy / Chronomancy]], [[일반 기술 점수 5 점을 획득하고, 다음 기술군 중 하나를 선택해 1.0 숙련치로 해제합니다. 1번 기술군은 누구나 습득 가능합니다. 2 번 기술군은 주문이나 룬을 사용할 수 있으면 습득 불가능합니다. 3 번 기술군은 지구르의 추종자는 습득할 수 없습니다.
-		GROUP 1:
-		- 전투 기술 / 상태 조절
-		- 교활 / 생존
-		- 자연의 권능 / 조화
-		GROUP 2:
-		- 자연의 권능 / 야생의 부름
-		- 자연의 권능 / 마석 수련
-		- 초능력 / 꿈
-		- 초능력 / 강화된 이동
-		- 초능력 / 반작용
-		GROUP 3:
-		- 주문 / 예지
-		- 주문 / 지팡이 전투기술
-		- 주문 / 암석의 연금술
-		- 타락 / 용납될 수 없는 삶
-		- 타락 / 비술
-		- 타락 / 저주
-		- 천공 / 성가
-		- 시공 제어 / 시공 제어]], "tformat")
 t("Adept", "뛰어난 재능", "talent name")
-t("Your talent masteries are increased by 0.3.  Note that many talents will not benefit from this increase.", "모든 계열 숙련도가 by 0.3 상승합니다. 알림 : 몇몇 기술은 이 효과를 제대로 받지 못할 수도 있습니다.", "tformat")
 t("Tricks of the Trade", "뒷세계의 거래", "talent name")
 t("Have sided with the Assassin Lord", "암살단 단장 편에 설 것", "_t")
 t([[You have friends in low places and have learned some underhanded tricks.
@@ -17851,10 +17838,6 @@ t([[You gain 25%% absolute damage resistance and 25%% all damage penetration.  E
 			Additionally, you gain 70%% of the highest of your Magic or Dexterity stat as defense (%d)]], [[절대적 피해 저항을 25%% 와 모든 저항 관통 25%% 를 얻습니다. 무기 공격을 받을 때마다 이 효과는 5%% 씩 감소하지만, 감소 이후 8 턴후에 완전히 재생됩니다.
 			추가로, 마법과 민첩 중에 더 높은 값의 70%% 에 해당하는 수치를 회피도로 얻습니다. (%d)]], "tformat")
 t("Aether Permeation", "에테르 침투", "talent name")
-t("Have at least 25% arcane damage reduction and have been exposed to the void of space", "비전 피해 저항이 25% 이상이며, 공허의 공간에 노출된 적이 있을 것", "_t")
-t([[You manifest a thin layer of aether all around you. Any attack passing through it will check arcane resistance instead of the incoming damage resistance.
-		In effect, all of your resistances are equal to 66%% of your arcane resistance, which is increased by 20%% (and cap increased by 10%%).]], [[주변에 에테르로 이루어진 얇은 막을 만들어, 이 막을 뚫고 들어오는 모든 공격을 비전 저항력으로 저항할 수 있게 됩니다.
-		이 효과로, 모든 속성들의 저항력이 마법 저항력의 66%% 에 해당하는 값을 가지게 됩니다, 또한 비전 피해 저항이 20%% 증가하고 최대 비전 저항도 10%% 증가합니다.]], "tformat")
 t("Mystical Cunning", "신화적인 교묘함", "talent name")
 t("Know how to either prepare traps or apply poisons", "독이나 함정을 다룰 수 있을 것", "_t")
 t([[Your study of arcane forces has let you develop a new way of applying your aptitude for trapping and poisons.
@@ -17891,49 +17874,6 @@ t([[You can wrap temporal threads around you, assuming the form of a telugoroth 
 		또한, 이상현상을 일으킬 수 있습니다: 이상현상 재조절, 이상현상 시간 폭풍, 이상현상 결함, 이상현상 중력 견인 그리고 이상현상 웜홀.]], "tformat")
 t("Blighted Summoning", "황폐의 소환술", "talent name")
 t("Have summoned at least 100 creatures. More permanent summons may count as more than 1.", "소환을 100 번 이상 해봤을 것. 영구적으로 지속되는 소환물을 한 번 소환해봤을 것.", "_t")
-t([[You infuse blighted energies into all of your summons, granting them Bone Shield (level 3) and a bonus to Spellpower equal to your Magic.
-		Your Wilder Summons and Necrotic Minions will gain special corrupted talents (level 3), other summons will gain 10%% Blight damage conversion and Virulent Disease (level 3).
-		#GREEN#Wilder Summons:#LAST#
-		- War Hound: Gnaw
-		- Jelly: Curse of Defencelessness
-		- Minotaur: Ruin
-		- Golem: Acid Blood
-		- Ritch: Life Tap
-		- Hydra: Blood Spray
-		- Rimebark: Poison Storm
-		- Fire Drake: Flame of Urh’Rok
-		- Turtle: Elemental Discord
-		- Spider: Blood Grasp
-		#GREY#Necrotic Minions:#LAST#
-		- Skeleton Mages: Bone Spear
-		- Skeleton Archers: Bone Spike
-		- Skeleton Warriors: Ruin
-		- Bone Giants: Bone Spike and Ruin
-		- Ghouls: Virulent Disease
-		- Vampires / Liches: Blood Grasp and Blood Boil
-		- Ghosts / Wights: Blood Fury and Curse of Death
-		]], [[모든 소환수들에게 황폐의 힘을 주입하여, 기술 레벨 3 의 뼈의 방패를 부여하고, 소환수의 주문력에 소환사의 마법 수치를 더합니다.
-		야생의 소환수와 사령술 하수인들은 기술 레벨 3의 새로운 타락의 기술을 배우게 됩니다. 그밖의 소환물들은 가하는 피해의 10%% 가 황폐 피해로 전환되며, 기술 레벨 3 의 치명적인 질병을 배웁니다.
-		#GREEN#야생의 소환수:#LAST#
-		- 전투견: 물어뜯기
-		- 젤리: 무방비의 저주
-		- 미노타우르스: 파멸
-		- 암석 골렘: 산성 피
-		- 릿치: 생명의 힘
-		- 히드라: 혈액 흩뿌리기
-		- 서리 나무: 독성 폭풍
-		- 화염 드레이크: 울흐'록의 불꽃
-		- 거북이: 원소의 불협화음
-		- 거미: 피의 움켜쥠
-		#GREY#사령술 하수인:#LAST#
-		- 스켈레톤 마법사: 뼈의 창
-		- 스켈레톤 궁수: 뼈의 가시
-		- 스켈레톤 전사: 파멸
-		- 해골 거인: 뼈의 가시와 파멸
-		- 구울: 치명적인 질병
-		- 뱀파이어 / 리치: 피의 움켜쥠과 끓어오르는 피
-		- ghosts / Wights: 피의 분노와 죽음의 저주
-		]], "tformat")
 t("Revisionist History", "수정론자의 역사", "talent name")
 t("Have time-travelled at least once", "시간 여행을 경험해볼 것", "_t")
 t([[You can now control the recent past. Upon using this prodigy you gain a temporal effect for 20 turns.
@@ -17948,9 +17888,9 @@ t("Have received at least 3500 fire damage and have cast at least 1000 spells", 
 t([[Your inner flame is strong. Each time that you receive a blow that would kill you, your body is wreathed in flames.
 		The flames will cauterize the wound, fully absorbing all damage done this turn, but they will continue to burn for 8 turns.
 		Each turn 10%% of the damage absorbed will be dealt by the flames. This will bypass resistance and affinity.
-		Warning: this has a cooldown.]], [[내면에 불꽃을 키워. 시전자의 목숨을 끊어버릴 일격이 날아오기 직전에 몸을 불태웁니다.
+		Warning: this has a cooldown.]], [[내면의 불꽃을 키워. 시전자의 목숨을 끊어버릴 일격이 날아오기 직전에 몸을 불태웁니다.
 		불꽃은 상처를 급속도로 지져 해당 턴에 받은 피해를 무효화시키지만, 8 턴 동안 상처가 불타오릅니다.
-		매 턴 마다 무효화시킨 피해량의 10% 에 해당하는 피해를 받습니다. 이 피해는 피해 저항이나 속성 친화력을 무시합니다.
+		매 턴 마다 무효화시킨 피해량의 10%% 에 해당하는 피해를 받습니다. 이 피해는 피해 저항이나 속성 친화력을 무시합니다.
 		알림 : 이 효과는 재사용 대기시간이 존재합니다.]], "tformat")
 t("Lich", "리치", "talent name")
 t("Is a living creature that knows necromancy", "사령술을 알고있는 살아있는 생명체일 것", "_t")
@@ -18069,7 +18009,7 @@ t([[Your will is so strong that you simply ignore mental effects used against yo
 		This effect can only occur once every 5 turns.]], [[극한의 의지로, 정신 상태효과를 무시할 수 있게 됩니다.
 		이 효과는 5 턴 마다 한 번씩 일어납니다.]], "tformat")
 t("Spell Feedback", "주문 반작용", "talent name")
-t("Antimagic", "마법을 증오할 것", "_t")
+t("Antimagic", "반마법", "_t")
 t("#LIGHT_BLUE##Source# punishes #Target# for casting a spell!", "#LIGHT_BLUE##Source2# #Target# 에게 주문 시전의 징벌을 내린다!", "logCombat")
 t([[Your will is a shield against assaults from crazed arcane users.
 		Each time that you take damage from a spell, you punish the spellcaster with %0.2f mind damage.
@@ -19655,6 +19595,11 @@ section "game/modules/tome/data/texts/unlock-mage_tempest.lua"
 
 
 ------------------------------------------------
+section "game/modules/tome/data/texts/unlock-mage_thaumaturgist.lua"
+
+
+
+------------------------------------------------
 section "game/modules/tome/data/texts/unlock-psionic_mindslayer.lua"
 
 
@@ -19844,6 +19789,7 @@ t("#Target# is no longer invisible.", "#Target2# 다시 불투명해졌다.", "_
 t("-Invis", "-투명", "_t")
 t("Ethereal", "영체화", "_t")
 t("Invisible (power %d), damage dealt reduced by %d%%, all resistances increased by %d%%, movement speed increased by %d%%.", "투명화 (은신력 %d), 가하는 피해 -%d%%, 모든 피해 저항 +%d%%, 이동속도 +%d%%.", "tformat")
+t("phantasm", "환영", "effect subtype")
 t("#Target# becomes ethereal.", "#Target1# 영체로 변했다.", "_t")
 t("+Ethereal", "+영체", "_t")
 t("#Target# is no longer ethereal.", "#Target2# 더 이상 영체가 아니다.", "_t")
@@ -20285,7 +20231,7 @@ t("armour", "갑옷", "effect subtype")
 t("#Target# is covered in icy armor!", "#Target2# 얼음 갑옷으로 덮혀있다!", "_t")
 t("#Target#'s ice coating crumbles away.", "#Target#의 얼음 갑옷이 떨어져 나갔다.", "_t")
 t("Caustic Golem", "부식성 골렘", "_t")
-t("The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "근접 공격 피격시 %d%% 확률로 산을 내뿜어 %0.1f 피해.", "tformat")
+t("The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "근접 공격 피격 시 %d%% 확률로 산을 내뿜어 %0.1f 피해.", "tformat")
 t("acid", "산성", "effect subtype")
 t("coating", "막", "effect subtype")
 t("#Target# is coated in acid!", "#Target#의 외피가 산성막에 덮혀있다!", "_t")
@@ -20317,7 +20263,6 @@ t("Lightburn", "광염", "_t")
 t("The creature is burnt by light, dealing %0.2f light damage each turn and reducing armour by %d.", "매 턴 %0.2f 빛 피해 / 방어력 -%d.", "tformat")
 t("#Target# burns with light!", "#Target2# 빛으로 인해 불탄다!", "_t")
 t("+Lightburn", "+광염", "_t")
-t("#Target# stops burning.", "#Target#의 화상이 치유되었다.", "_t")
 t("-Lightburn", "-광염", "_t")
 t("Illumination ", "밝혀짐", "_t")
 t("The target glows in the light, reducing its stealth and invisibility power by %d, defense by %d and looses all evasion bonus from being unseen.", "은신력 -%d / 회피도 -%d / 은신으로 인한 피해 무시 효과 제거.", "tformat")
@@ -20523,7 +20468,6 @@ t("+Pacification Hex", "+진정의 비술", "_t")
 t("-Pacification Hex", "-진정의 비술", "_t")
 t("Burning Hex", "화염의 비술", "_t")
 t("The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "기술 사용시 %0.2f 화염 피해 받음 / 기술 재사용 대기시간 증가 %s + 1 턴.", "tformat")
-t("fire", "화염", "effect subtype")
 t("#Target# is hexed!", "#Target2# 비술에 걸렸다!", "_t")
 t("+Burning Hex", "+화염의 비술", "_t")
 t("-Burning Hex", "-화염의 비술", "_t")
@@ -20575,25 +20519,28 @@ t("physical", "물리", "effect subtype")
 t("Dazzled", "혼절", "_t")
 t("All damage decreased by %d%%.", "가하는 모든 피해량 -%d%%.", "tformat")
 t("stun", "기절", "effect subtype")
-t("Elemental Mirage (First Element)", "원소 환영 (첫번째 원소)", "_t")
 t("Frightening Presence", "두려운 존재감", "_t")
 t("The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%.", "모든 저항 -%d / 가하는 모든 피해량 -%d%% / 이동속도  -%d%%.", "tformat")
 t("fear", "공포", "effect subtype")
-t("Elemental Mirage (Second Element)", "원소 환영 (두번째 원소)", "_t")
-t("%s damage increased by %d%% and resistance penetration by %d%%.", "%s 피해량 +%d%% / 저항 관통 +%d%%.", "tformat")
-t("phantasm", "환영", "effect subtype")
 t("lich", "리치", "effect subtype")
 t("ghoul", "구울", "effect subtype")
 t("cooldown", "재사용 대기시간", "effect subtype")
 t("resistance", "저항", "effect subtype")
 t("power", "힘", "effect subtype")
 t("blind", "실명", "effect subtype")
-t("darkness", "암흑", "effect subtype")
 t("disease", "질병", "effect subtype")
 t("bleed", "출혈", "effect subtype")
 t("cut", "상처", "effect subtype")
 t("wound", "상처", "effect subtype")
 t("cold", "냉기", "effect subtype")
+t("Cleansing Flames", "정화의 불꽃", "_t")
+t("cleanse", "정화", "effect subtype")
+t("fire", "화염", "effect subtype")
+t("#Target# stops burning.", "#Target#의 화상이 치유되었다.", "_t")
+t("darkness", "암흑", "effect subtype")
+t("movement", "이동", "effect subtype")
+t("Metaflow", "초월의 흐름", "_t")
+t("meta", "초월", "effect subtype")
 
 
 ------------------------------------------------
@@ -21114,7 +21061,7 @@ t("Immune to detrimental magical effects", "부정적인 마법 효과에 면역
 t("Elemental Surge: Fire", "원소 고조 : 화염", "_t")
 t("All damage increased by %d%%", "가하는 피해 +%d%%", "tformat")
 t("Elemental Surge: Cold", "원소 고조 : 냉기", "_t")
-t("Armor increased by %d, deals %d ice damage when hit in melee.", "방어력 +%d / 근접공격 피격시 %d 얼음 피해로 보복.", "tformat")
+t("Armor increased by %d, deals %d ice damage when hit in melee.", "방어력 +%d / 근접공격 피격 시 %d 얼음 피해로 보복.", "tformat")
 t("Elemental Surge: Lightning", "원소 고조 : 전기", "_t")
 t("Movement speed increased by %d%%.", "이동 속도 +%d%%.", "tformat")
 t("Elemental Surge: Light", "원소 고조 : 빛", "_t")
@@ -21354,7 +21301,6 @@ t("+Faded", "+흐려짐", "_t")
 t("Highborn's Bloom", "고귀한 개화", "_t")
 t("The target is using talents without consuming resources.", "기술 사용시 원천력 소모 없음.", "_t")
 t("The thrill of victory makes this creature invulnerable.", "피해 면역.", "_t")
-t("arcane", "비전", "effect subtype")
 t("Solipsism", "유아론", "_t")
 t("This creature has fallen into a solipsistic state and is caught up in its own egoic thoughts (-%d%% global speed).", "염력이 독존 한계량보다 낮음 / 전체 속도 -%d%% .", "tformat")
 t("Clarity", "깨달음", "_t")
@@ -21437,7 +21383,6 @@ t("Your arcane powers are disrupted by your antimagic equipment.  Arcane talents
 t("antimagic", "반마법", "effect subtype")
 t("Swift Hands", "빠른 손놀림", "_t")
 t("You swaped an item without taking time this turn.", "턴을 소모하지 않고 장비를 교체할 수 있음.", "_t")
-t("prodigy", "특수 기술", "effect subtype")
 t("Hunter!", "사냥꾼!", "_t")
 t("Knows where you are!", "당신을 추적한다!", "_t")
 t("madness", "광기", "effect subtype")
@@ -21606,6 +21551,10 @@ t("sense", "감지", "effect subtype")
 t("Dozing", "수면", "_t")
 t("The target is completely asleep, unable to act.", "행동 불가.", "_t")
 t("sleep", "수면", "effect subtype")
+t("phantasm", "환영", "effect subtype")
+t("Aether Permeation", "에테르 침투", "_t")
+t("arcane", "비전", "effect subtype")
+t("prodigy", "특수 기술", "effect subtype")
 
 
 ------------------------------------------------
@@ -21656,7 +21605,7 @@ t("#Target# starts regenerating health quickly.", "#Target#의 생명력이 빠�
 t("+Regen", "+재생", "_t")
 t("#Target# stops regenerating health quickly.", "#Target#의 생명력 재생이 느려졌다.", "_t")
 t("-Regen", "-재생", "_t")
-t("Poison", "독", "_t")
+t("Poison", "중독", "_t")
 t("The target is poisoned, taking %0.2f nature damage per turn.", "매 턴 %0.2f 자연 피해 받음.", "tformat")
 t("+Poison", "+중독", "_t")
 t("#Target# stops being poisoned.", "#Target#의 중독 효과가 끝났다.", "_t")
@@ -22337,7 +22286,7 @@ t("+Pitch", "+타르", "_t")
 t("#Target# is free from the pitch.", "#Target1# 타르에서 벗어났다.", "_t")
 t("-Pitch", "-타르", "_t")
 t("Punctured Armour", "구멍 뚫린 방어구", "_t")
-t("Armour has been punctured, increasing all damage taken by %d%%.", "피격시 피해량 +%d%%.", "tformat")
+t("Armour has been punctured, increasing all damage taken by %d%%.", "피격 시 피해량 +%d%%.", "tformat")
 t("sunder", "찢어짐", "effect subtype")
 t("#Target#'s armour is punctured!", "#Target#의 방어구에 구멍이 뚫렸다!", "_t")
 t("+Punctured Armour!", "+방어구 파손!", "_t")
@@ -22655,6 +22604,7 @@ section "game/modules/tome/data/zones/crypt-kryl-feijan/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/daikara/grids.lua"
 
+t("Temporal Rift", "시간의 균열", "_t")
 
 
 ------------------------------------------------
@@ -22668,6 +22618,7 @@ t("fire", "화염", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/zones/daikara/objects.lua"
 
+t("A paper scrap, left by an adventurer.", "어떤 모험가가 남긴 종잇조각입니다.", "_t")
 t("Rune of the Rift", "균열의 룬", "entity name")
 
 
@@ -22891,6 +22842,7 @@ t("door", "문", "entity name")
 t("open door", "열린 문", "entity name")
 t("sand", "모래", "entity subtype")
 t("wall", "벽", "entity type")
+t("huge loose rock", "흔들리는 거대 바위", "entity name")
 
 
 ------------------------------------------------
@@ -23103,20 +23055,36 @@ t("High Peak (%d)", "최고봉 (%d)", "tformat")
 ------------------------------------------------
 section "game/modules/tome/data/zones/illusory-castle/zone.lua"
 
+t("Illusory Castle", "환상의 성", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/infinite-dungeon/grids.lua"
 
 t("underground", "지하", "entity subtype")
-t("crystal", "수정술사", "entity subtype")
+t("crystal", "수정", "entity subtype")
 t("sand", "모래", "entity subtype")
 t("grass", "잔디", "entity subtype")
-t("burnt", "숯덩이가되어", "entity subtype")
+t("autumn_grass", "가을 초목", "entity subtype")
+t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("burnt", "불탄", "entity subtype")
+t("burnt passage", "불탄 통로", "entity name")
+t("snowy grass", "눈 덮인 초목", "entity name")
+t("winter tree", "겨울 나무", "entity name")
+t("rock", "바위", "entity subtype")
+t("snowy_grass", "눈 덮인 초목", "entity subtype")
+t("snowy passage", "눈 덮인 통로", "entity name")
+t("Temporal Rift", "시간의 균열", "entity name")
+t("The rift leads to another floor of the dungeon.", "이 균열은 던전의 다른 층으로 이어집니다.", "_t")
 t("rift", "균열", "entity subtype")
+t("crack in spacetime", "시공간의 균열", "entity name")
+t("coral wall", "산호 벽", "entity name")
 t("door", "문", "entity name")
+t("underwater", "수중", "entity subtype")
 t("open door", "열린 문", "entity name")
+t("lava floor", "용암 바닥", "entity name")
 t("wall", "벽", "entity type")
+t("lava wall", "용암 벽", "entity name")
 t("floor", "바닥", "entity type")
 t("lava", "용암", "entity subtype")
 t("next level", "다음 층", "entity name")
@@ -23125,19 +23093,72 @@ t("next level", "다음 층", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/infinite-dungeon/objects.lua"
 
-t("Antimagic", "마법을 증오할 것", "_t")
+t("The Hunter and the Hunted", "사냥꾼과 사냥감", "entity name")
+t("The infinite hunt.", "끝없이 쫓고 쫓기는 이야기입니다.", "_t")
+t("Potion of Martial Prowess", "무예의 물약", "entity name")
+t("phial filled with metallic liquid", "금속성 액체가 든 작은 병", "_t")
+t("This potent elixir can give insights into martial combat to those unlucky enough to ignore the basics.", "이 강력한 영약은 전투 기술의 기초를 무시할 수 밖에 없었던 안타까운 이들에게 전투에 대한 지식을 선사합니다.", "_t")
+t("#VIOLET#You seem to understand the basic martial pratices. (Combat Training talents unlocked)", "#VIOLET#기초적인 전투 기술을 깨우친 것 같다. (전투 훈련 기술 해금됨)", "logPlayer")
+t("#VIOLET#You seem to now know how to properly use a bow or a sling.", "#VIOLET#이제 활이나 투석구를 제대로 쓰는 방법을 알게 된 것 같다.", "logPlayer")
+t("#VIOLET#Images of yourself beating people with a stick spring into your mind. (Staff Combat category can be bought)", "#VIOLET#막대기로 사람들을 두드려 패는 자신의 모습이 갑자기 머릿속으로 밀려 들어왔다. (지팡이 전투기술 기술계열 해금 가능)", "logPlayer")
+t("#VIOLET#You suddenly understand how to channel your mental force through mindstars. (Mindstar Mastery category can be bought)", "#VIOLET#순간 자신의 정신력을 마석에 흘려보내는 방법을 깨달았다. (마석 수련 기술계열 해금 가능)", "logPlayer")
+t("#VIOLET#It seems you already knew all the elixir could teach you.", "#VIOLET#영약이 가르쳐줄 수 있는 전투기술들을 이미 모두 알고 있는 것 같다.", "logPlayer")
+t("potion", "물약", "entity subtype")
+t("Antimagic Wyrm Bile Extract", "반마법 용의 담즙 추출액", "entity name")
+t("phial filled with slimy liquid", "끈적거리는 액체가 든 작은 병", "_t")
+t("This potent elixir extracted from a powerful wyrm can grant the power to repel arcane forces.", "이 강력한 영약은 어떤 강한 용에게서 추출한 것으로, 비전의 힘에 대항하는 힘을 선사합니다.", "_t")
+t("Antimagic", "반마법", "_t")
+t("Quaffing this potion will grant you access to the antimagic talents but at the cost of all access to runes, arcane items and spells.", "이 물약을 마시면 반마법 기술계열을 쓸 수 있게 되지만, 그 대가로 모든 룬, 비전의 힘이 담긴 물건, 그리고 주문을 쓸 수 없게 될 것입니다.", "_t")
+t("%s quaffs the %s!", "%s %s 마셨다!", "logSeen", nil, {"는","을"})
+t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/infinite-dungeon/zone.lua"
 
 t("Infinite Dungeon", "무한의 던전", "_t")
+t(", carefully excavated area", " 조심스럽게 발굴된 곳", "_t")
+t(" wilderness", " 황야", "_t")
+t(" cavern", " 동굴", "_t")
+t(" network of corridors", " 미로", "_t")
+t(", settled area", " 정착지", "_t")
+t(", constructed area", " 건물", "_t")
+t(", subsided area", " 가라앉은 곳", "_t")
+t(", geometrically ordered area", " 기하학적으로 정렬된 곳", "_t")
+t("hewn", "깔끔한", "_t")
+t("sylvan", "숲의", "_t")
+t("subterranean", "지하의", "_t")
+t("crystalline", "수정의", "_t")
+t("sandy", "모래사장의", "_t")
+t("arrid", "사막의", "_t")
+t("slimey", "끈적한", "_t")
+t("humid, tropical", "열대 지방의", "_t")
+t("unhewn", "조잡한", "_t")
+t("burned", "불탄", "_t")
+t("mountainous", "산악의", "_t")
+t("alpine", "알프스 지방의", "_t")
+t("cold, wooded", "냉대림의", "_t")
+t("empty", "텅 빈", "_t")
+t("flooded", "침수된", "_t")
+t("molten", "녹아내린", "_t")
+t("temperate", "온대 지방의", "_t")
+t("\
+Encroaching terrain:\
+%s%s", "\
+잠식되고 있는 지형:\
+%s%s", "tformat")
+t("continuation of the Infinite Dungeon", "무한의 던전을 계속 진행", "_t")
+t("indistinct", "알 수 없음", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/keepsake-meadow/grids.lua"
 
+t("troll stew", "트롤 스튜", "entity name")
 t("grass", "잔디", "entity name")
+t("dirt", "흙", "entity subtype")
+t("cave floor", "동굴 바닥", "entity name")
+t("cave marker", "동굴 표식", "entity name")
 t("door", "문", "entity name")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
@@ -23147,25 +23168,71 @@ t("open door", "열린 문", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/keepsake-meadow/npcs.lua"
 
+t("Die!", "죽어라!", "_t")
+t("Monster!", "이 괴물아!", "_t")
+t("To arms!", "전투 준비!", "_t")
+t("We will end this!", "끝장내주마!", "_t")
+t("You will not kill us!", "우릴 죽일 순 없을 거다!", "_t")
+t("caravan merchant", "대상 행렬 상인", "entity name")
+t("A caravan merchant.", "대상 행렬의 상인입니다.", "_t")
+t("caravan guard", "대상 행렬 호위", "entity name")
+t("A caravan guard.", "대상 행렬의 호위입니다.", "_t")
+t("caravan porter", "대상 행렬 짐꾼", "entity name")
+t("A caravan porter.", "대상 행렬의 짐꾼입니다.", "_t")
+t("war dog", "전투견", "entity name")
+t("This is a large dog, bred and trained for fighting.", "싸움을 위해 길러지고 교육받은 커다란 개입니다.", "_t")
+t("corrupted war dog", "오염된 전투견", "entity name")
+t("This is a large dog, bred and trained for fighting. Something about the way it moves doesn't look normal.", "싸움을 위해 길러지고 교육받은 커다란 개입니다. 움직이는 모습이 뭔가 정상같아 보이지 않습니다.", "_t")
 t("shadow", "그림자", "entity subtype")
 t("undead", "언데드", "entity type")
+t("A shadow, almost humanoid in shape. Long claws extend in front of it as is swims through the air.", "거의 사람 형체의 그림자입니다. 앞쪽으로 길게 뻗은 갈퀴손은 수영하듯이 허공을 가릅니다.", "_t")
+t("shadow stalker", "그림자 추적자", "entity name")
+t("A shadow, almost humanoid in shape. It seems to move carefully and with cunning before swiftly striking.", "거의 사람 형체의 그림자입니다. 신중하고 교활하게 움직이다가 순식간에 공격합니다.", "_t")
+t("shadow claw", "그림자 갈퀴손", "entity name")
+t("A shadow, almost humanoid in shape. At times its form seems to be a force of will rather than something real.", "거의 사람 형체의 그림자입니다. 그 모습은 가끔씩 실존하는 것이라기보단 의지력의 구현처럼 보입니다.", "_t")
+t("Companion Warrior", "동료 전사", "entity name")
+t("This elf is a companion of Berethh. He's dressed in light armor and wields a sword.", "이 엘프는 베레스의 동료입니다. 경갑과 검으로 무장하고 있습니다.", "_t")
+t("Companion Archer", "동료 궁수", "entity name")
+t("This elf is a companion of Berethh. He's dressed in light armor and wields a bow.", "이 엘프는 베레스의 동료입니다. 경갑과 활로 무장하고 있습니다.", "_t")
+t("Kyless", "키레스", "entity name")
 t("human", "인간", "entity subtype")
+t("This is Kyless, your old friend. He seems dirtier than you recall and a good bit more dangerous.", "당신의 오랜 친구인 키레스입니다. 당신이 기억하던 것보다 더 사악하고 훨씬 더 위험해 보입니다.", "_t")
+t("and fed to his corrupted dogs", "그리고 그 시체는 개 먹이가 되었습니다.", "_t")
+t("Berethh", "베레스", "entity name")
 t("humanoid", "인간형", "entity type")
 t("thalore", "탈로레", "entity subtype")
+t("This is Berethh, your old friend. He is dressed in well-worn leather and skillfully wields a bow. There is something noble about the way he carries himself but his expression carries no emotion.", "당신의 오랜 친구인 베레스입니다. 해진 가죽옷을 입고 있으며 활을 능숙하게 다룹니다. 그의 행동에는 어딘가 고귀함이 엿보이지만, 아무런 감정도 느껴지지 않습니다.", "_t")
+t("and quickly burned in a pyre", "그리고 그 시체는 곧바로 불태워졌습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/keepsake-meadow/objects.lua"
 
+t("folded up piece of paper", "접혀 있는 종잇조각", "entity name")
+t("A folded up piece of paper with a few notes written on it.", "접힌 종잇조각입니다. 뭔가가 쓰여 있습니다.", "_t")
+t("A small acorn, crafted crudely out of iron.", "철로 조잡하게 만들어진 작은 도토리입니다.", "_t")
+t("Iron Acorn", "철 도토리", "entity name")
+t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. You find having the acorn helps to anchor your mind and prepare you for the trials ahead.", "철로 조잡하게 만들어진 작은 도토리입니다. 원래 밴더의 것이었지만 이제 당신 것입니다. 당신은 이 도토리가 제정신을 유지하고 앞으로 마주하게 될 시련들에 대비하는 걸 도와줄 것이라 믿습니다.", "_t")
+t("Cold Iron Acorn", "차가운 철 도토리", "entity name")
+t("A small acorn, crafted crudely out of iron. It once belonged to Bander, but now it is yours. The acorn serves as a reminder of who and what you are.", "철로 조잡하게 만들어진 작은 도토리입니다. 원래 밴더의 것이었지만 이제 당신 것입니다. 이 도토리는 당신이 누구이고 무엇인지를 떠올리게 해 줍니다.", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 t("journal page", "일지 한 장", "entity name")
+t("A page containing an entry from Kyless' journal.", "키레스의 일지가 쓰여 있는 페이지입니다.", "_t")
+t("Kyless' Book", "키레스의 책", "entity name")
 t("misc", "도구", "entity type")
+t("trinket", "장식품", "entity subtype")
+t("This was the book that gave power to Kyless and eventually led to his doom. The book is simple in appearance, bound in leather with no markings on the cover. All of the pages are blank.", "키레스에게 힘을 주고 결국엔 그를 파멸로 이끈 책입니다. 겉으로는 평범해 보이며 가죽 표지에는 아무것도 쓰여있지 않습니다. 내용도 전부 백지입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/keepsake-meadow/traps.lua"
 
+t("creeping darkness", "뻗어나가는 어둠", "entity name")
+t("A creeping darkness spreads through the air!", "뻗어나가는 어둠이 공중에 퍼진다!", "_t")
+t("event", "이벤트", "entity subtype")
 t("trap", "함정", "_t")
+t("summon shadow", "그림자 소환", "entity name")
+t("A shadow traces across the floor.", "그림자가 바닥 위로 쫓아 온다.", "_t")
 
 
 ------------------------------------------------
@@ -23177,27 +23244,41 @@ t("Tranquil Meadow", "고요한 목초지", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/lake-nur/grids.lua"
 
+t("way to the old forest", "오래된 숲으로 가는 길", "entity name")
+t("entrance to the Sher'Tul ruins", "쉐르'툴 유적 입구", "entity name")
+t("#ANTIQUE_WHITE#You notice a hole that could fit the gem key you found earlier, inserting it reveals the passage to the next level.", "#ANTIQUE_WHITE#예전에 찾아냈던 보석 열쇠에 꼭 맞는 구멍이 있는 걸 알아채고, 열쇠를 넣어서 다음 층으로 가는 통로를 열었다.", "logPlayer")
+t("#ANTIQUE_WHITE#The way seems closed, maybe you need a key.", "#ANTIQUE_WHITE#길이 막힌 것 같다. 열쇠가 필요할 수도 있겠다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/lake-nur/objects.lua"
 
 t("journal page", "일지 한 장", "entity name")
+t("A paper scrap, left by an adventurer.", "어떤 모험가가 남긴 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/lake-nur/zone.lua"
 
+t("You descend into the submerged ruins. The walls look extremely ancient, yet you feel power within this place.", "당신은 물에 잠긴 유적으로 내려갔습니다. 벽들은 굉장히 오래되어 보이지만 이곳에서는 어떤 힘이 느껴집니다.", "_t")
+t("As you descend to the next level you traverse a kind of magical barrier keeping the water away. The barrier seems to be failing however and the next level is flooded too.", "다음 층으로 내려가면서 당신은 물을 밀어내는 어떤 마법 보호막 같은 것을 통과했습니다. 그러나 보호막은 잘 작동하진 않는 것 같으며 다음 층도 물에 잠겨 있습니다.", "_t")
+t("Lake of Nur", "누르 호수", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/last-hope-graveyard/grids.lua"
 
 t("tree", "나무", "entity name")
+t("road", "길", "entity subtype")
+t("cobblestone road", "조약돌 길", "entity name")
 t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("grave", "묘지", "entity name")
+t("coffin", "관", "entity name")
+t("open coffin", "열린 관", "entity name")
+t("open mausoleum", "열린 무덤", "entity name")
 t("floor", "바닥", "entity subtype")
+t("ritualistic symbol", "의식의 상징", "entity name")
 
 
 ------------------------------------------------
@@ -23205,19 +23286,48 @@ section "game/modules/tome/data/zones/last-hope-graveyard/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("A tall woman stands before you in a stained robe. Her sallow skin is marked by pox and open sores, but her eyes are bright and keen. The bulge around her abdomen would indicate that she is several months pregnant.", "얼룩진 로브를 입고 있는 장신의 여인이 눈 앞에 서 있습니다. 누렇게 뜬 피부에는 천연두 자국과 덜 아문 상처가 있지만, 눈동자는 밝고 날카롭습니다. 불룩한 배는 그녀가 임신한 지 몇 개월은 됐다는 걸 알려 주고 있습니다.", "_t")
+t("You receive: %s.", "%s 받았다.", "logPlayer", nil, {"을"})
+t([[As you deal the last blow you quickly carve out Celia's heart for your Lichform ritual.
+Carefully weaving magic around it to keep it beating.]], [[최후의 일격을 가하자마자, 리치 형상의 의식을 위해 셀리아의 심장을 뽑아냈습니다.
+그 심장이 계속해서 뛰도록 조심스럽게 마법을 겁니다.]], "_t")
+t("Celia", "셀리아", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/last-hope-graveyard/objects.lua"
 
+t("creased letter", "구겨진 편지", "entity name")
 t("A letter.", "편지입니다.", "_t")
 t("heart", "심장", "entity subtype")
 t("misc", "도구", "entity type")
+t("bloody heart", "피투성이 심장", "_t")
+t("Celia's Still Beating Heart", "여전히 뛰고 있는 셀리아의 심장", "entity name")
+t("The living heart of the necromancer Celia, carved out of her chest and preserved with magic.", "강령술사 셀리아의 살아있는 심장입니다. 그녀의 가슴에서 뽑아냈으며 마법으로 보호되어 있습니다.", "_t")
+t("extract a tiny part of Celia's soul", "셀리아의 조그만 영혼 조각을 추출한다", "_t")
+t("You squeeze Celia's heart in your hand, absorbing part of her soul into your necrotic aura.", "셀리아의 심장을 손으로 쥐어짜, 그녀의 영혼 조각을 원혼들에 흡수시켰다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/last-hope-graveyard/zone.lua"
 
+t("Last Hope Graveyard", "마지막 희망 공동묘지", "_t")
+t("You were not the first here: the corpse was turned into an undead.", "당신은 첫 손님이 아니다. 시체가 언데드로 변해 있다.", "log")
+t("The corpse had a treasure!", "시체가 부장품을 갖고 있었다!", "log")
+t("There is nothing there.", "아무것도 없다.", "log")
+t("In rich families the dead are sometimes put to rest with some treasures. However they also sometime protect the coffins with powerful curses. Open?", "가끔 유족이 부유하다면 관에 부장품을 넣고 매장하기도 합니다. 하지만 또 유족들은 가끔 관에 강력한 저주를 걸어 보호하기도 합니다. 열겠습니까?", "_t")
+t("Open the coffin", "관을 연다", "_t")
+t("#YELLOW#You hear all the doors being shattered into pieces.", "#YELLOW#문이 죄다 조각조각으로 박살나는 소리를 들었다.", "log")
+t([[As you tread softly down the stairs a large stone slab slides into place behind you, blocking all retreat. The air is still and stuffy, and in this tight space you feel as if in a coffin, buried alive.
+
+Adding to your unease is a rising feeling of dread, overwhelming fear in fact. A hall of doors lies ahead, and behind each you sense a power of great malevolence and unholy horror. At the end of the corridor you see a faint light beneath a large black door, and you have a vague sense that the other doors are enslaved to this one - obedient, subservient, and waiting...
+
+You hear the sound of a woman sobbing, and every now and then it turns into a fit of pained moans and screams. They echo round the dark chamber and through the darkest parts of your mind, reminding you of every black deed and vile sin you have ever committed. Guilt, horror and terror flood through your thoughts, each competing for stronger control of your psyche. Your only clear thought is of escape, by whatever means you can find.]], [[계단을 내려가자 뒤에서 커다란 돌이 밀려나와 돌아가는 길을 막아 버렸습니다. 공기는 여전히 고요하며 답답하고, 이 비좁은 공간은 관 속에 갇혀 산 채로 매장된 것 같은 느낌을 줍니다.
+
+두려움이 커져 가면서 점점 더 불안해집니다. 앞에는 문들이 죽 늘어서 있고, 당신은 각각의 문 뒤쪽에 있는 힘을, 엄청난 악의와 부정한 공포의 힘을 느낄 수 있습니다. 복도 끝에 있는 시커먼 문 아래로 새어나오는 희미한 빛이 보였고, 그러자 양 옆의 문들이 저 시커먼 문의 하수인이 아닐까 하는 막연한 생각이 듭니다. 주인에게 순종적이고 복종하며, 명령을 기다리고 있는 그런 하수인 말입니다...
+
+웬 여인의 울음소리가 들리고, 그 소리는 이따금씩 고통스러운 신음소리나 비명으로 변했습니다. 그 소리는 이 어두운 방은 물론이고 당신 정신의 가장 어두운 부분에까지도 메아리쳐, 자신이 지금껏 저질러왔던 모든 악행들과 악랄한 죄를 떠올리게 만듭니다. 극심한 두려움과 죄책감이 머릿속으로 밀려 들어와 미칠 지경입니다. 무슨 수를 써서라도 탈출해야 한다는 생각밖에 들지 않습니다.]], "_t")
+t("Mausoleum", "무덤", "_t")
 
 
 ------------------------------------------------
@@ -23307,6 +23417,7 @@ t("thalore", "탈로레", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/zones/noxious-caldera/objects.lua"
 
+t("A paper scrap, left by an adventurer.", "어떤 모험가가 남긴 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -23328,7 +23439,7 @@ t("wall", "벽", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/zones/old-forest/npcs.lua"
 
-t("crystal", "수정술사", "entity subtype")
+t("crystal", "수정", "entity subtype")
 t("giant", "거인", "entity type")
 t("treant", "나무 정령", "entity subtype")
 
@@ -23337,6 +23448,7 @@ t("treant", "나무 정령", "entity subtype")
 section "game/modules/tome/data/zones/old-forest/objects.lua"
 
 t("journal page", "일지 한 장", "entity name")
+t("A paper scrap, left by an adventurer.", "어떤 모험가가 남긴 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -23364,6 +23476,7 @@ section "game/modules/tome/data/zones/orc-breeding-pit/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/paradox-plane/grids.lua"
 
+t("Temporal Rift", "시간의 균열", "entity name")
 
 
 ------------------------------------------------
@@ -23563,7 +23676,7 @@ Healing during current combat:  #GREEN#%0.2f#LAST#]], [[사용자는 자신이 �
 ------------------------------------------------
 section "game/modules/tome/data/zones/ring-of-blood/zone.lua"
 
-t("Slavers Compound (%d)", "노예상들의 복합 단지 (%d)", "tformat")
+t("Slavers Compound (%d)", "노예 수용소 (%d)", "tformat")
 t("Ring of Blood", "피의 투기장", "_t")
 
 
@@ -23690,6 +23803,7 @@ section "game/modules/tome/data/zones/scintillating-caves/npcs.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/scintillating-caves/objects.lua"
 
+t("A paper scrap, left by an adventurer.", "어떤 모험가가 남긴 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -23938,6 +24052,7 @@ t("Temporal Reprieve", "시간의 유예", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/temporal-rift/grids.lua"
 
+t("Temporal Rift", "시간의 균열", "entity name")
 t("Temporal Warden", "시간 감시자", "_t")
 
 
@@ -23957,6 +24072,17 @@ t("Rune of the Rift", "균열의 룬", "entity name")
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/temporal-rift/zone.lua"
+
+t("Temporal Rift", "시간의 균열", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/data/zones/test/mapscripts/rooms_test.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/zones/test/mapscripts/rooms_test2.lua"
 
 
 
@@ -23981,6 +24107,7 @@ section "game/modules/tome/data/zones/thieves-tunnels/zone.lua"
 section "game/modules/tome/data/zones/town-angolwen/grids.lua"
 
 t("cultivated fields", "경작지", "entity name")
+t("cobblestone road", "조약돌 길", "entity name")
 
 
 ------------------------------------------------
@@ -24012,6 +24139,7 @@ t("Angolwen", "앙골웬", "_t")
 section "game/modules/tome/data/zones/town-derth/grids.lua"
 
 t("cultivated fields", "경작지", "entity name")
+t("cobblestone road", "조약돌 길", "entity name")
 
 
 ------------------------------------------------
@@ -24215,6 +24343,7 @@ section "game/modules/tome/data/zones/town-point-zero/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-shatur/grids.lua"
 
+t("cobblestone road", "조약돌 길", "entity name")
 
 
 ------------------------------------------------
@@ -24239,6 +24368,7 @@ section "game/modules/tome/data/zones/town-zigur/grids.lua"
 
 t("lava pit", "용암 구덩이", "entity name")
 t("cultivated fields", "경작지", "entity name")
+t("cobblestone road", "조약돌 길", "entity name")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
 
@@ -24269,6 +24399,7 @@ t("Zigur", "지구르", "_t")
 section "game/modules/tome/data/zones/trollmire/grids.lua"
 
 t("grass", "잔디", "entity subtype")
+t("troll stew", "트롤 스튜", "entity name")
 t("wall", "벽", "entity type")
 t("water", "물", "entity subtype")
 t("tree", "나무", "entity name")
@@ -24286,6 +24417,7 @@ t("humanoid", "인간형", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/zones/trollmire/objects.lua"
 
+t("A paper scrap, left by an adventurer.", "어떤 모험가가 남긴 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -24366,8 +24498,10 @@ t("Tutorial", "튜토리얼", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/unhallowed-morass/grids.lua"
 
+t("Temporal Rift", "시간의 균열", "entity name")
 t("rift", "균열", "entity subtype")
 t("wall", "벽", "entity type")
+t("crack in spacetime", "시공간의 균열", "entity name")
 
 
 ------------------------------------------------
@@ -24437,6 +24571,7 @@ section "game/modules/tome/data/zones/valley-moon/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/void/grids.lua"
 
+t("Temporal Rift", "시간의 균열", "entity name")
 t("Temporal Warden", "시간 감시자", "_t")
 
 
@@ -24603,20 +24738,11 @@ t("Eyal", "에이얄", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/ArenaFinish.lua"
 
-t("Arena mode", "아레나 모드", "_t")
 t("#LIGHT_GREEN#No high scores. This should not happen.", "#LIGHT_GREEN#점수가 없습니다. 이것은 기록되지 않을 것입니다.", "_t")
 t([[%s (%s %s %s)
  Score %d[%s]) - Wave: %d]], [[%s (%s %s %s)
  점수 %d[%s]) - 웨이브: %d]], "tformat")
 t("unknown", "알 수 없음", "_t")
-t("#LIGHT_BLUE#You resurrect! CHEATER !", "#LIGHT_BLUE#당신은 부활했다! 사기꾼같으니라고!", "logPlayer")
-t("Resurrect by cheating", "치트로 부활한다", "_t")
-t("Message Log", "메시지 로그", "_t")
-t("Message/Chat log (allows to talk)", "메시지/채팅 로그 열기 (대화를 할 수 있습니다)", "_t")
-t("Character dump", "캐릭터 덤프", "_t")
-t("Restart the same character", "같은 캐릭터로 재시작", "_t")
-t("Restart with a new character", "새로운 캐릭터로 재시작", "_t")
-t("Exit to main menu", "메인 메뉴로 나가기", "_t")
 
 
 ------------------------------------------------
@@ -24640,7 +24766,7 @@ t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?", "_t")
 t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?", "_t")
 t("Yes", "네", "_t")
 t("Antimagic Magic combo", "반마법-마법 충돌", "_t")
-t("The selected race/class has both magic and antimagic, this is unlikely to work. Continue?", "선택한 종족/직업은 마법 기술과 반마법 기술을 동시에 갖고있습니다, 제대로 작동할 것 같진 않은데, 계속할까요?", "_t")
+t("The selected race/class has both magic and antimagic, this is unlikely to work. Continue?", "선택한 종족/직업은 마법 기술과 반마법 기술을 동시에 갖고 있습니다. 제대로 작동할 것 같진 않은데, 계속할까요?", "_t")
 t("No", "아니요", "_t")
 t("Yes I'm sure", "아, 물론이지!", "_t")
 t("Tutorials", "튜토리얼", "_t")
@@ -24766,7 +24892,7 @@ t([[#GOLD#Days adventuring / current month:#LAST# %d / %s
 #GOLD#살해 수:           #ANTIQUE_WHITE#%d
 #GOLD#정예/희귀/보스: #YELLOW#%d/#SALMON#%d/#ORANGE#%d
 ]], "tformat")
-t("Poison", "독", "_t")
+t("Poison", "중독", "_t")
 t("Bleed", "출혈", "_t")
 t("Confusion", "혼란", "_t")
 t("Disease", "질병", "_t")
@@ -24832,8 +24958,8 @@ t("Heighten Senses: #00ff00#%s", "향상된 감각	: #00ff00#%s", "tformat")
 t("Detect Traps   : #00ff00#%s", "함정 탐지력	: #00ff00#%s", "tformat")
 t("Stealth        : #00ff00#%s", "은신		: #00ff00#%s", "tformat")
 t("See stealth    : #00ff00#%s", "은신 탐지력	: #00ff00#%s", "tformat")
-t("Invisibility   : #00ff00#%s", "투명   		: #00ff00#%s", "tformat")
-t("See invisible  : #00ff00#%s", "투명 탐지력  	: #00ff00#%s", "tformat")
+t("Invisibility   : #00ff00#%s", "투명   	: #00ff00#%s", "tformat")
+t("See invisible  : #00ff00#%s", "투명 탐지력  : #00ff00#%s", "tformat")
 t("Telepathy range: #00ff00#%s", "정신 감응 반경: #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Stats:        Base/Current", "#LIGHT_BLUE#능력치:        기본수치/현재수치", "_t")
 t("#AQUAMARINE#Inscriptions (%d/%d)", "#AQUAMARINE#각인 (%d/%d)", "tformat")
@@ -25185,6 +25311,7 @@ t("none", "없음", "_t")
 t("Set the leash distance [current: %d]", "최대 거리 설정 [현재: %d]", "tformat")
 t("Define tactical talents usage", "전략적 기술 사용 설정", "_t")
 t("Rename", "이름 바꾸기", "_t")
+t("Dismiss", "해산", "_t")
 t("Order: %s", "명령: %s", "tformat")
 
 
