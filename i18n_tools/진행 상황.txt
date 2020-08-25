@@ -177,6 +177,8 @@
 "game/addons//tome-possessors/data/achievements/possessors.lua"
 "game/addons//tome-possessors/data/birth/psionic.lua" uueeck 완 **
 
+"game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
+
 "game/modules/tome//data/quests/tutorial.lua"
 "game/modules/tome/data/texts/intro-tutorial-combat-stats.lua"
 "game/modules/tome//data/texts/intro-tutorial.lua"
@@ -270,7 +272,22 @@
 "game/modules/tome/data/zones/maze/grids.lua"
 "game/modules/tome/data/zones/maze/npcs.lua"
 "game/modules/tome/data/zones/maze/objects.lua"
-"game/modules/tome/data/zones/maze/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/maze/zone.lua"
+"game/modules/tome/data/zones/murgol-lair/npcs.lua"
+"game/modules/tome/data/zones/murgol-lair/zone.lua"
+"game/modules/tome/data/zones/norgos-lair/npcs.lua"
+"game/modules/tome/data/zones/norgos-lair/zone.lua"
+"game/modules/tome/data/zones/noxious-caldera/grids.lua"
+"game/modules/tome/data/zones/noxious-caldera/npcs.lua"
+"game/modules/tome/data/zones/noxious-caldera/objects.lua"
+"game/modules/tome/data/zones/noxious-caldera/zone.lua"
+"game/modules/tome/data/zones/old-forest/grids.lua"
+"game/modules/tome/data/zones/old-forest/npcs.lua"
+"game/modules/tome/data/zones/old-forest/objects.lua"
+"game/modules/tome/data/zones/old-forest/zone.lua"
+"game/modules/tome/data/zones/orc-breeding-pit/npcs.lua" * 더미 데이터
+"game/modules/tome/data/zones/orc-breeding-pit/objects.lua" * 더미 데이터
+"game/modules/tome/data/zones/orc-breeding-pit/zone.lua" * 더미 데이터 Khelerd 완 
 
 "game/modules/tome/data/zones/reknor-escape/grids.lua"
 "game/modules/tome/data/zones/reknor-escape/npcs.lua"
