@@ -274,7 +274,13 @@
 "game/modules/tome/data/zones/maze/objects.lua"
 "game/modules/tome/data/zones/maze/zone.lua"
 "game/modules/tome/data/zones/murgol-lair/npcs.lua"
-"game/modules/tome/data/zones/murgol-lair/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/murgol-lair/zone.lua"
+"game/modules/tome/data/zones/norgos-lair/npcs.lua"
+"game/modules/tome/data/zones/norgos-lair/zone.lua"
+"game/modules/tome/data/zones/noxious-caldera/grids.lua"
+"game/modules/tome/data/zones/noxious-caldera/npcs.lua"
+"game/modules/tome/data/zones/noxious-caldera/objects.lua"
+"game/modules/tome/data/zones/noxious-caldera/zone.lua" Khelerd 완
 
 "game/modules/tome/data/zones/reknor-escape/grids.lua"
 "game/modules/tome/data/zones/reknor-escape/npcs.lua"
