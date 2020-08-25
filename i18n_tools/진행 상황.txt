@@ -284,7 +284,10 @@
 "game/modules/tome/data/zones/old-forest/grids.lua"
 "game/modules/tome/data/zones/old-forest/npcs.lua"
 "game/modules/tome/data/zones/old-forest/objects.lua"
-"game/modules/tome/data/zones/old-forest/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/old-forest/zone.lua"
+"game/modules/tome/data/zones/orc-breeding-pit/npcs.lua" * 더미 데이터
+"game/modules/tome/data/zones/orc-breeding-pit/objects.lua" * 더미 데이터
+"game/modules/tome/data/zones/orc-breeding-pit/zone.lua" * 더미 데이터 Khelerd 완 
 
 "game/modules/tome/data/zones/reknor-escape/grids.lua"
 "game/modules/tome/data/zones/reknor-escape/npcs.lua"
