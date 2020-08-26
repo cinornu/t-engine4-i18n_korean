@@ -291,8 +291,10 @@
 "game/modules/tome/data/zones/paradox-plane/grids.lua"
 "game/modules/tome/data/zones/paradox-plane/npcs.lua"
 "game/modules/tome/data/zones/paradox-plane/objects.lua"
-"game/modules/tome/data/zones/paradox-plane/zone.lua" Khelerd 완
-
+"game/modules/tome/data/zones/paradox-plane/zone.lua"
+"game/modules/tome/data/zones/rak-shor-pride/npcs.lua"
+"game/modules/tome/data/zones/rak-shor-pride/objects.lua"
+"game/modules/tome/data/zones/rak-shor-pride/zone.lua"
 "game/modules/tome/data/zones/reknor-escape/grids.lua"
 "game/modules/tome/data/zones/reknor-escape/npcs.lua"
 "game/modules/tome/data/zones/reknor-escape/objects.lua"
