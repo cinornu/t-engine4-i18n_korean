@@ -241,6 +241,8 @@
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
 
+"game/modules/tome/data/zones/ancient-elven-ruins/grids.lua" Khelerd 완
+
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
 "game/modules/tome/data/zones/halfling-ruins/zone.lua"
@@ -322,7 +324,12 @@
 "game/modules/tome/data/zones/sandworm-lair/zone.lua"
 "game/modules/tome/data/zones/scintillating-caves/npcs.lua"
 "game/modules/tome/data/zones/scintillating-caves/objects.lua"
-"game/modules/tome/data/zones/scintillating-caves/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/scintillating-caves/zone.lua"
+"game/modules/tome/data/zones/shadow-crypt/grids.lua"
+"game/modules/tome/data/zones/shadow-crypt/npcs.lua"
+"game/modules/tome/data/zones/shertul-fortress-caldizar/grids.lua"
+"game/modules/tome/data/zones/shertul-fortress-caldizar/npcs.lua"
+"game/modules/tome/data/zones/shertul-fortress-caldizar/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
