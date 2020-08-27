@@ -319,7 +319,10 @@
 "game/modules/tome/data/zones/ruins-kor-pul/zone.lua"
 "game/modules/tome/data/zones/sandworm-lair/npcs.lua"
 "game/modules/tome/data/zones/sandworm-lair/objects.lua"
-"game/modules/tome/data/zones/sandworm-lair/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/sandworm-lair/zone.lua"
+"game/modules/tome/data/zones/scintillating-caves/npcs.lua"
+"game/modules/tome/data/zones/scintillating-caves/objects.lua"
+"game/modules/tome/data/zones/scintillating-caves/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
