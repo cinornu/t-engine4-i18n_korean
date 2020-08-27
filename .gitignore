@@ -39,3 +39,4 @@ i18n_tools/i18n_list.lua
 i18n_tools/output_translation.ko_KR.lua
 i18n_tools/untranslated.ko_KR.lua
 game/addons/tome-addon-dev/
+i18n_tools/b_merge_translation.ko_KR.lua
