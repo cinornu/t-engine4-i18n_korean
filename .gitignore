@@ -40,3 +40,8 @@ i18n_tools/output_translation.ko_KR.lua
 i18n_tools/untranslated.ko_KR.lua
 game/addons/tome-addon-dev/
 i18n_tools/b_merge_translation.ko_KR.lua
+i18n_tools/translate_data_copyer.bat
+game/addons/tome-items-vault/
+game/addons/tome-possessors/
+*.teaa
+*.teaac
