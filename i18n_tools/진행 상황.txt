@@ -352,7 +352,15 @@
 "game/modules/tome/data/zones/tannen-tower/grids.lua"
 "game/modules/tome/data/zones/tannen-tower/npcs.lua"
 "game/modules/tome/data/zones/tannen-tower/objects.lua"
-"game/modules/tome/data/zones/tannen-tower/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/tannen-tower/zone.lua"
+"game/modules/tome/data/zones/telmur/npcs.lua"
+"game/modules/tome/data/zones/telmur/objects.lua"
+"game/modules/tome/data/zones/telmur/zone.lua"
+"game/modules/tome/data/zones/tempest-peak/npcs.lua"
+"game/modules/tome/data/zones/tempest-peak/zone.lua"
+"game/modules/tome/data/zones/temple-of-creation/npcs.lua"
+"game/modules/tome/data/zones/temple-of-creation/objects.lua"
+"game/modules/tome/data/zones/temple-of-creation/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
