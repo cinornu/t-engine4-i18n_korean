@@ -348,7 +348,7 @@ t("spell", "주문", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/FortressPC.lua"
 
-t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, 쉐르'툴 요새", "_t")
+t("Yiilkgur, the Sher'Tul Fortress", "쉐르'툴 요새 일크구르", "_t")
 t("You are unable to move!", "당신은 움직일 수 없다!", "logPlayer")
 t("You have found a trap (%s)!", "당신은 함정을 발견했다 (%s)!", "logPlayer")
 t("Do you wish to teleport to the fortress?", "요새로 순간이동 하시겠습니까?", "_t")
@@ -1836,15 +1836,15 @@ t("Killed a Bringer of Doom.", "멸망의 인도자를 처치했다.", "_t")
 t("A living one!", "생존자!", "achievement name")
 t("Was teleported into Caldizar's Fortress, far into the void between the stars.", "별들 사이의 머나먼 공허에 있는 칼디자르의 요새로 순간이동했다.", "_t")
 t("Slimefest", "슬라임 축제", "achievement name")
-t("Have 100 walls on the sludgenest turn into hostile creatures.", "sludgenest의 벽 100개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
+t("Have 100 walls on the sludgenest turn into hostile creatures.", "진창 소굴의 벽 100개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
 t("Slime killer party", "슬라임 처치 대잔치", "achievement name")
-t("Have 200 walls on the sludgenest turn into hostile creatures.", "sludgenest의 벽 200개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
+t("Have 200 walls on the sludgenest turn into hostile creatures.", "진창 소굴의 벽 200개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
 t("Mad slime dash", "미친 슬라임 질주", "achievement name")
-t("Have 300 walls on the sludgenest turn into hostile creatures.", "sludgenest의 벽 300개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
+t("Have 300 walls on the sludgenest turn into hostile creatures.", "진창 소굴의 벽 300개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
 t("Don't mind the slimy smell", "슬라임 냄새는 신경쓰지 마", "achievement name")
-t("Have 400 walls on the sludgenest turn into hostile creatures.", "sludgenest의 벽 400개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
+t("Have 400 walls on the sludgenest turn into hostile creatures.", "진창 소굴의 벽 400개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
 t("In the company of slimes", "슬라임 중대와 함께", "achievement name")
-t("Have 500 walls on the sludgenest turn into hostile creatures.", "sludgenest의 벽 500개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
+t("Have 500 walls on the sludgenest turn into hostile creatures.", "진창 소굴의 벽 500개가 적대적인 생명체로 변할 때까지 기다렸다.", "_t")
 
 
 ------------------------------------------------
@@ -2010,7 +2010,7 @@ t("Gave the staff of absorption to the apprentice mage and watched the fireworks
 t("Against all odds", "불가능에 맟서다", "achievement name")
 t("Killed Ukruk in the ambush.", "습격해 온 우크룩을 처치했다.", "_t")
 t("Sliders", "슬라이더", "achievement name")
-t("Activated a portal using the Orb of Many Ways.", "Orb of Many Ways를 사용하여 차원문을 활성화했다.", "_t")
+t("Activated a portal using the Orb of Many Ways.", "여러 장소로의 오브를 사용하여 차원문을 활성화했다.", "_t")
 t("Destroyer's bane", "파괴자의 파멸", "achievement name")
 t("Killed Golbug the Destroyer.", "파괴자 골버그를 처치했다.", "_t")
 t("Brave new world", "멋진 신세계", "achievement name")
@@ -3006,6 +3006,7 @@ t("Name", "이름", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/last-hope-melinda-father.lua"
 
+t("Melinda", "멜린다", "_t")
 
 
 ------------------------------------------------
@@ -3122,6 +3123,8 @@ section "game/modules/tome/data/chats/ring-of-blood-win.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/sage-kitty.lua"
 
+t("Oh kitty kitty!", "오 야옹아 이리 온!", "_t")
+t("No time for cats!", "고양이 같은 것과 놀 시간은 없다!", "_t")
 
 
 ------------------------------------------------
@@ -3240,6 +3243,8 @@ t("I am glad to have you at my side, my Lady. Let's hunt some wizards!", "그대
 ------------------------------------------------
 section "game/modules/tome/data/chats/tannen.lua"
 
+t("Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields,\" return with it and your odds of surviving our portal attempt will go up drastically.", "Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"반전되고 역행된 확률론적 역장\" return with it and your odds of surviving our portal attempt will go up drastically.", "_t")
+t("Fear not. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields\", return with it and your odds of surviving our portal attempt will go up drastically.", "Fear not. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"반전되고 역행된 확률론적 역장\", return with it and your odds of surviving our portal attempt will go up drastically.", "_t")
 
 
 ------------------------------------------------
@@ -3819,7 +3824,9 @@ section "game/modules/tome/data/general/events/drake-cave.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/events/fearscape-portal.lua"
 
+t("#VIOLET#The portal is already broken!", "#VIOLET#이 차원문은 이미 부서진 상태다!", "log")
 t("Destroy", "파괴", "_t")
+t("Enter", "들어간다", "_t")
 t("Quit", "출구", "_t")
 
 
@@ -3851,7 +3858,9 @@ section "game/modules/tome/data/general/events/meteor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/events/naga-portal.lua"
 
+t("#VIOLET#The portal is already broken!", "#VIOLET#이 차원문은 이미 부서진 상태다!", "log")
 t("Destroy", "파괴", "_t")
+t("Enter", "들어간다", "_t")
 t("Quit", "출구", "_t")
 
 
@@ -4340,6 +4349,7 @@ t("dragon", "용", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/construct.lua"
 
+t("construct", "구조체", "entity type")
 t("golem", "골렘", "entity name")
 
 
@@ -4434,6 +4444,7 @@ t("+Blind", "+실명", "_t")
 t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "머리가 없는 둥근 생명체로, 짧은 다리와 팔을 갖고 있다. 몸 전체가 이빨로만 이루어저 있는 것 같다.", "_t")
 t("eldritch", "섬뜩한 자", "entity subtype")
 t("mass of parasitic leeches", "기생성 거머리 떼", "entity name")
+t("construct", "구조체", "entity type")
 t("weapon", "무기", "entity subtype")
 
 
@@ -6957,6 +6968,10 @@ section "game/modules/tome/data/general/objects/quest-artifacts.lua"
 
 t("weapon", "무기", "entity type")
 t("staff", "마법 지팡이", "entity combat talented")
+t("swirling orb", "소용돌이치는 오브", "_t")
+t("Orb of Many Ways", "여러 장소로의 오브", "entity name")
+t("activate a portal", "차원문을 활성화한다", "_t")
+t("There is no portal to activate here.", "활성화할 차원문이 없다.", "logPlayer")
 t("orb", "구체", "entity subtype")
 t("Space around you starts to dissolve...", "당신 주변의 공간이 흩어져 사라지기 시작한다...", "logPlayer")
 t("Cancel", "취소", "_t")
@@ -8050,6 +8065,7 @@ t("sher'tul", "쉐르'툴", "newLore category")
 ------------------------------------------------
 section "game/modules/tome/data/lore/slazish.lua"
 
+t("slazish fens", "슬라지쉬 늪지", "newLore category")
 
 
 ------------------------------------------------
@@ -8343,6 +8359,8 @@ section "game/modules/tome/data/quests/lost-merchant.lua"
 ------------------------------------------------
 section "game/modules/tome/data/quests/love-melinda.lua"
 
+t("Melinda, lucky girl", "운 좋은 소녀 멜린다", "_t")
+t("Melinda", "멜린다", "_t")
 
 
 ------------------------------------------------
@@ -8441,6 +8459,7 @@ section "game/modules/tome/data/quests/ring-of-blood.lua"
 ------------------------------------------------
 section "game/modules/tome/data/quests/shertul-fortress.lua"
 
+t("Fortress Shadow", "요새의 그림자", "_t")
 
 
 ------------------------------------------------
@@ -13848,7 +13867,7 @@ t("Reduces the cooldown of all spells by %d%%.", "모든 주문의 재사용 대
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/objects.lua"
 
-t("Yiilkgur abilities.", "Yiilkgur 능력.", "_t")
+t("Yiilkgur abilities.", "일크구르 능력.", "_t")
 t("fortress", "요새", "_t")
 t("sher'tul", "쉐르'툴", "talent category")
 t("Spell abilities of the various objects of the world.", "세상의 다양한 물체에 대한 주문 능력들입니다.", "_t")
@@ -13882,7 +13901,7 @@ t([[Bring a damage-type-specific ward into being. The ward will fully negate as 
 		You can activate the following wards: %s]], [[주변에 특수한 속성 피해를 막아내는 보호구역을 만들어냅니다. 보호구역은 도구의 충전량만큼 해당 속성 공격을 무효화합니다.
 		다음 속성에 대한 보호구역을 만들어낼 수 있습니다: %s]], "tformat")
 t("Teleport to the ground", "지표면으로 순간이동", "talent name")
-t("Use Yiilkgur's teleporter to teleport to the ground.", "Yiilkgur의 순간이동 장치를 이용해 지표면으로 순간이동합니다.", "tformat")
+t("Use Yiilkgur's teleporter to teleport to the ground.", "일크구르의 순간이동 장치를 이용해 지표면으로 순간이동합니다.", "tformat")
 t("Block", "방패 막기", "talent name")
 t("You require a shield to use this talent.", "이 기술을 사용하려면 방패가 필요합니다.", "logPlayer")
 t("None", "없음", "_t")
@@ -22746,6 +22765,7 @@ section "game/modules/tome/data/zones/crypt-kryl-feijan/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Melinda", "멜린다", "_t")
 
 
 ------------------------------------------------
@@ -22821,6 +22841,7 @@ t("Fearscape", "공포의 영역", "_t")
 section "game/modules/tome/data/zones/demon-plane/grids.lua"
 
 t("Back and there again", "다시 또 그곳에", "_t")
+t("Enter", "들어간다", "_t")
 t("Stay", "그대로 있는다", "_t")
 
 
@@ -23024,6 +23045,8 @@ section "game/modules/tome/data/zones/gorbat-pride/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/grushnak-pride/grids.lua"
 
+t("dummy", "더미", "entity subtype")
+t("training", "훈련용", "entity type")
 
 
 ------------------------------------------------
@@ -24226,33 +24249,81 @@ t("With a sudden jolt you find yourself... somewhere familiar. The smooth walls 
 ------------------------------------------------
 section "game/modules/tome/data/zones/shertul-fortress/grids.lua"
 
+t("%0.2f Energy Stored", "에너지 %0.2f 만큼 저장됨", "tformat")
+t("stair back to the lake of Nur", "누르 호수로 돌아가는 계단", "entity name")
+t("teleportation circle to the surface", "지상으로 통하는 순간이동진", "entity name")
+t("teleportation circle for Melinda", "멜린다에게로 통하는 순간이동진", "entity name")
 t("Sher'Tul Control Orb", "쉐르'툴 제어 오브", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They were left behind by the powerful Sher'tul race.
 This farportal is not connected to any other portal. It is made for exploration; you cannot know where it will send you.
 It should automatically create a portal back, but it might not be near your arrival zone.]], [[장거리 차원문은 엄청난 거리를 눈 깜박할 새에 이동할 수 있는 통로입니다. 강대한 쉐르'툴 종족이 남긴 것이지요.
 이 차원문은 다른 어떤 차원문과도 연결되어 있지 않습니다. 이건 탐험용입니다. 즉, 이게 당신을 어디로 보내줄 지는 알 수 없습니다.
 이것은 어딘가에 다시 돌아올 수 있는 차원문을 만들어 주지만, 아마 당신이 도착한 곳 근처는 아닐 것입니다.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in a strangely familiar zone, right next to a farportal...", "#VIOLET#소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 이상하게 낯익은 지역에 착지했다. 장거리 포탈이 바로 옆에 있다...", "log")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in strange empty space...", "#VIOLET#소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 이상하게 텅 빈 장소에 도착했다...", "log")
 t("The farportal seems to be inactive", "이 장거리 차원문은 비활성 상태인 것 같습니다.", "_t")
+t("The farportal is broken and will not be usable anymore.", "이 장거리 차원문은 부서져서 더는 쓸 수 없습니다.", "_t")
+t("The fortress does not have enough energy to power a trip through the portal.", "요새에 차원문을 사용하기 위한 에너지가 부족합니다.", "_t")
+t("Do you want to travel in the farportal? You cannot know where you will end up.", "장거리 차원문을 사용하시겠습니까? 어디에 도착할지는 알 수 없습니다.", "_t")
 t("Exploratory Farportal", "탐험용 장거리 차원문", "_t")
+t("Exploratory Farportal exit", "탐험용 장거리 차원문의 출구", "_t")
+t("#VIOLET#As %s falls you notice a portal appearing.", "#VIOLET#%s 쓰러지자 차원문이 나타나고 있다.", "logSeen", nil, {"이"})
+t("#VIOLET#Your rod of recall shakes, a portal appears beneath you.", "#VIOLET#귀환의 장대가 흔들리자, 발밑에 차원문이 나타났다.", "logSeen")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in an unfamiliar zone, with no trace of the portal...", "#VIOLET#소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 낯선 장소에 착지했다. 차원문은 흔적조차 보이지 않는다...", "log")
+t("Library of Lost Mysteries", "잊혀진 신비의 도서관", "entity name")
+t("Receiving the lost knowledge of the universe...", "이 우주의 잊혀진 지식들을 받아 보관하고 있습니다...", "_t")
+t("Yiilkgur's Library of Lost Mysteries", "일크구르의 잊혀진 신비의 도서관", "_t")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
+t("mural painting", "벽화", "entity name")
+t("Training Control Orb", "훈련 제어 오브", "entity name")
+t([[Turns: %d
+Total Damage: %d
+Damage/turns: %d]], [[턴: %d
+총 피해량: %d
+턴당 피해량: %d]], "tformat")
+t("Training Monitor Orb", "훈련 관찰 오브", "entity name")
+t("Mirror of Reflection", "반영의 거울", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/shertul-fortress/npcs.lua"
 
+t("Weirdling Beast", "기이한 짐승", "entity name")
+t("A roughly humanoid creature, with tentacle-like appendages in the place of arms and legs. You gasp in horror as you notice it has no head. Putrid warts form quickly on its skin and explode as quickly.", "대충 사람처럼 생긴 생명체로, 팔다리 대신에 촉수 같은 부속지가 달려 있습니다. 저 생물의 머리가 없다는 걸 눈치채자 자신도 모르게 숨을 들이키게 됩니다. 썩어가는 사마귀들이 피부에 빠르게 생겨났다가 또 빠르게 터지고 있습니다.", "_t")
+t("and slowly consumed", "그리고 그 시체는 천천히 먹혔습니다.", "_t")
+t("#LIGHT_RED#As the Weirdling beast falls it shrieks one last time and the door behind it shatters and explodes, revealing the room behind it. The stair up vanishes!", "#LIGHT_RED#기이한 짐승이 쓰러지자 그것은 마지막으로 비명을 질렀고, 뒤에 있던 문이 산산조각으로 폭발해 뒷편의 방이 드러났다. 위로 올라가는 계단이 사라졌다!", "log")
+t("Teleportation portal to the Sher'Tul Fortress", "쉐르'툴 요새로 통하는 순간이동 차원문", "_t")
 t("Sher'Tul", "쉐르'툴", "entity subtype")
+t("Fortress Shadow", "요새의 그림자", "entity name")
+t("The shadow created by the fortress, it resembles somewhat the horrors you saw previously, but it is not the same.", "요새가 만들어낸 그림자입니다. 예전에 본 적 있는 공포와 약간 닮았지만 똑같은 놈은 아닙니다.", "_t")
+t("dummy", "더미", "entity subtype")
+t("training", "훈련용", "entity type")
+t("Training Dummy", "훈련용 더미", "entity name")
+t("Training dummy.", "훈련용 더미입니다.", "_t")
+t("Pumpkin, the little kitty", "꼬마 고양이 펌킨", "entity name")
+t("An orange kitty with a white star blaze on his chest. Has a strange affinity for licking your face whenever possible.", "오렌지색 털을 가진 새끼 고양이입니다. 가슴팍에 하얀 별모양 무늬가 있습니다. 이상하게도 틈만 나면 당신의 얼굴을 핥으려 듭니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/shertul-fortress/objects.lua"
 
+t("simple gown", "단순하게 생긴 가운", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/shertul-fortress/zone.lua"
 
-t("Yiilkgur, the Sher'Tul Fortress", "Yiilkgur, 쉐르'툴 요새", "_t")
+t("%s (Yiilkgur, the Sher'Tul Fortress)", "%s (쉐르'툴 요새 일크구르)", "tformat")
+t("Yiilkgur, the Sher'Tul Fortress", "쉐르'툴 요새 일크구르", "_t")
+t("This level seems to be removed from the rest of the ruins. The air is fresh and the level is lighted. You hear the distant crackling of magical energies.", "이 층은 유적의 나머지 부분에서 분리된 것 같습니다. 공기는 상쾌하며 빛도 환합니다. 멀리서 마법적인 에너지가 탁탁거리는 소리가 들렸습니다.", "_t")
+t([[As you enter the familiar Fortress you notice a small orange cat has followed you somehow.
+It looks like the kitty you fed earlier.]], [[익숙한 요새로 들어가자, 오렌지색의 작은 고양이가 대체 어떻게 한지는 몰라도 당신을 따라와 있었습니다.
+예전에 먹이를 줬던 그 새끼 고양이 같습니다.]], "_t")
+t("Yiilkgur", "일크구르", "_t")
+t("Your %s is magically sorted by the storage room.", "%s 마법의 힘으로 창고에 정리되었다.", "logPlayer", nil, {"은"})
+t("Your %s is magically sorted by the storage room and put in a pile with the others items of the same type.", "%s 마법의 힘으로 창고에 정리되었고 같은 종류의 물건 더미에 놓였다.", "logPlayer", nil, {"은"})
+t("It seems the room has no more space to sort your %s.", "방에 더 공간이 없어 %s 정리할 수가 없어 보인다.", "logPlayer", nil, {"을"})
 
 
 ------------------------------------------------
@@ -24261,6 +24332,12 @@ section "game/modules/tome/data/zones/slazish-fen/grids.lua"
 t("wall", "벽", "entity type")
 t("water", "물", "entity subtype")
 t("tree", "나무", "entity name")
+t("bog water", "늪지", "entity name")
+t("coral portal", "산호 차원문", "entity name")
+t("#VIOLET#The portal is already broken!", "#VIOLET#이 차원문은 이미 부서진 상태다!", "log")
+t("destroyed the portal", "차원문을 파괴했습니다", "_t")
+t("destroying the portal", "차원문 파괴 중", "_t")
+t("#VIOLET#The portal starts to break down, run!", "#VIOLET#차원문이 부서지고 있다. 도망치자!", "log")
 
 
 ------------------------------------------------
@@ -24269,38 +24346,87 @@ section "game/modules/tome/data/zones/slazish-fen/npcs.lua"
 t("humanoid", "인간형", "entity type")
 t("naga", "나가", "entity subtype")
 t("naga tidewarden", "나가 파도감시자", "entity name")
+t("Before you stands a tall figure, propped high by a serpent's tail in place of where his legs should rightly be. His torso is slim and muscular, and his face has an elven beauty to it, framed by locks of blonde hair. But there is a fierceness to this creature too, and his bright eyes veil a smouldering anger.", "사람의 다리가 있어야 할 자리에 뱀꼬리가 꼿꼿이 서 있는 훤칠한 생물입니다. 그의 상반신은 날씬하면서 근육질이고, 머리칼은 황금빛이며 얼굴은 엘프처럼 아름답습니다. 그러나 의외로 성격이 불 같아, 밝은 눈동자에는 끓어오르는 분노가 감추어져 있습니다.", "_t")
 t("naga tidecaller", "나가 파도소환사", "entity name")
+t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "상반신은 엘프와 닮은 아름다운 여인이지만, 하반신은 뱀 꼬리를 닮은 이상한 생물입니다. 지금 그 꼬리를 꼿꼿이 세워서 서 있으며, 움직일 때 마다 스르르 하는 소리가 납니다. 섬세한 손이 움직이면 땅에서 물이 솟아나며 그걸 보고 있으면 그녀가 단순한 괴물이 아니라 경외심마저 들게 하는 강력한 존재라는 생각이 듭니다.", "_t")
 t("naga nereid", "나가 네레이드", "entity name")
 t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "부드럽고 창백한 피부 위로 물결치듯 늘어뜨려진 황금색 머리칼 뒤에서, 초록빛의 눈동자가 당신을 노려보고 있습니다. 그녀의 알몸에 저절로 눈길이 가지만, 멀리서 보면 새까만 비늘과 그 뒤의 기다란 뱀꼬리에 눈길이 갑니다. 그녀가 움직이자 당신은 머리칼 뒤에 숨겨져 있던 갸름하고 아름다운 얼굴을, 높은 광대뼈와 통통한 입술을 보았습니다. 그러나 이 모든 것에도 불구하고 그 공포스러운 뱀꼬리가 등골을 서늘하게 만듭니다.", "_t")
+t("Lady Zoisla the Tidebringer", "파도를 이끄는 레이디 조이슬라", "entity name")
+t("Water circles slowly on the ground around this naga's tail, some droplets leaping up now and then as if they are impatient to do their mistress' bidding. Her dark tail is coiled tight, making her look short, but her calm and confident stare assure you that she will not be easily overcome. As the water begins to rise around her the air starts to shimmer, and you feel her dark eyes are penetrating into you deeper than is comfortable.", "이 나가의 꼬리 주변의 땅에서 물줄기가 천천히 원을 그리고 있고, 마치 주인의 명령을 도저히 못 기다리겠다는 듯이 물방울들이 이따금씩 튀어오르고 있습니다. 검정색 꼬리로 똬리를 세게 틀고 있어 키가 작아 보이지만, 침착하고 자신감에 찬 눈빛으로 미루어 보아 손쉬운 상대는 아닌 게 확실합니다. 그녀 주위로 물이 솟아오르자 공기가 일렁이기 시작하고, 그녀의 새까만 눈동자는 불편할 정도로 당신을 깊이 꿰뚫어보고 있다는 생각이 듭니다.", "_t")
+t("and brought back to Vargh for experimentation", "그리고 그 시체는 실험을 위해 바르그로 보내졌습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/slazish-fen/objects.lua"
 
+t("weird conch", "기묘한 소라고둥", "entity name")
+t("A conch; it seems the naga was using it as a communication tool.", "소라고둥입니다. 나가들은 이걸로 의사소통을 했던 것 같습니다.", "_t")
+t("Robes of Deflection", "굴절의 로브", "entity name")
+t("iridescent robe", "무지갯빛 로브", "_t")
+t("This set of robes seems to shine with metallic colors.", "이 로브는 금속성 색깔로 빛나는 것 같다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/slazish-fen/zone.lua"
 
+t("Slazish Fens", "슬라지쉬 늪지", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/slime-tunnels/grids.lua"
 
+t("This pedestal looks old, you can see the shape of an orb carved on it.", "이 받침대는 꽤 오래된 걸로 보이고, 어떤 구체를 끼울 수 있는 구멍이 있습니다.", "_t")
+t("Strange Pedestal", "이상한 받침대", "_t")
+t([[The pedestal seems to react to something in your bag. After some tests you notice it is the %s.
+Do you wish to use the orb on the pedestal?]], [[받침대가 배낭 안의 뭔가에 반응하는 것 같습니다. 몇 번 시험해본 결과 %s에 반응하고 있다는 걸 알았습니다.
+받침대에 오브를 사용하겠습니까?]], "tformat")
+t("orb pedestal (dragon)", "오브 받침대 (용)", "entity name")
+t("#rng# the Fearsome", "무시무시한 자 #rng#", "_t")
+t("orb pedestal (undeath)", "오브 받침대 (역생)", "entity name")
+t("#rng# the Neverdead", "죽지 않는 자 #rng#", "_t")
+t("orb pedestal (elements)", "오브 받침대 (정령)", "entity name")
+t("#rng# the Silent Death", "소리없는 죽음 #rng#", "_t")
+t("orb pedestal (destruction)", "오브 받침대 (파괴)", "entity name")
+t("#rng# the Crusher", "깨부수는 자 #rng#", "_t")
 t("sealed door", "봉인된 문", "entity name")
+t("exit to Grushnak Pride", "그루쉬낙 긍지로 나가는 출구", "entity name")
+t("Entrance to the High Peak", "최고봉으로 가는 입구", "entity name")
+t("The way forward is blocked. There must be some way around here to unlock those doors.", "앞으로 가는 길이 막혔습니다. 문을 열 방법이 분명 근처에 있을 것입니다.", "_t")
+t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
+Enter?]], [[계단에 올라서자, 당신은 앞으로 가면 다시는 돌아올 수 없으며, 성공하지 못하면 죽음 뿐이라는 것을 직감했습니다.
+나아가겠습니까?]], "_t")
 t("High Peak", "최고봉", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/slime-tunnels/zone.lua"
 
+t("Slime Tunnels", "슬라임 굴", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/sludgenest/grids.lua"
 
+t("This pedestal looks old, you can see the shape of an orb carved on it.", "이 받침대는 꽤 오래된 걸로 보이고, 어떤 구체를 끼울 수 있는 구멍이 있습니다.", "_t")
+t("Strange Pedestal", "이상한 받침대", "_t")
+t([[The pedestal seems to react to something in your bag. After some tests you notice it is the %s.
+Do you wish to use the orb on the pedestal?]], [[받침대가 배낭 안의 뭔가에 반응하는 것 같습니다. 몇 번 시험해본 결과 %s에 반응하고 있다는 걸 알았습니다.
+받침대에 오브를 사용하겠습니까?]], "tformat")
+t("orb pedestal (dragon)", "오브 받침대 (용)", "entity name")
+t("#rng# the Fearsome", "무시무시한 자 #rng#", "_t")
+t("orb pedestal (undeath)", "오브 받침대 (역생)", "entity name")
+t("#rng# the Neverdead", "죽지 않는 자 #rng#", "_t")
+t("orb pedestal (elements)", "오브 받침대 (정령)", "entity name")
+t("#rng# the Silent Death", "소리없는 죽음 #rng#", "_t")
+t("orb pedestal (destruction)", "오브 받침대 (파괴)", "entity name")
+t("#rng# the Crusher", "깨부수는 자 #rng#", "_t")
 t("sealed door", "봉인된 문", "entity name")
+t("Entrance to the High Peak", "최고봉으로 가는 입구", "entity name")
+t([[As you stand on the stairs you can feel this is a "do or die" one way trip. If you enter there will be no coming back.
+Enter?]], [[계단에 올라서자, 당신은 앞으로 가면 다시는 돌아올 수 없으며, 성공하지 못하면 죽음 뿐이라는 것을 직감했습니다.
+나아가겠습니까?]], "_t")
 t("High Peak", "최고봉", "_t")
+t("exit to Grushnak Pride", "그루쉬낙 긍지로 나가는 출구", "entity name")
 
 
 ------------------------------------------------
@@ -24308,53 +24434,85 @@ section "game/modules/tome/data/zones/sludgenest/npcs.lua"
 
 t("giant", "거인", "entity type")
 t("troll", "트롤", "entity subtype")
+t("Corrupted Oozemancer", "타락한 점액술사", "entity name")
+t("This blight-ridden troll was once a proud defender of Nature. His corruption is spreading, eating away at the forest around him.", "황폐에 지배당한 이 트롤은 원래 자랑스러운 자연의 수호자였습니다. 그를 타락시킨 힘은 퍼져나가, 근처의 숲을 침식하고 있습니다.", "_t")
+t("and dissolved into acidic ooze", "그리고 그 시체는 녹아서 산성 점액이 되었습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/sludgenest/zone.lua"
 
+t("It seems the slimes coming from the walls become stronger with time.", "벽에서 나오는 슬라임들은 시간이 지날수록 점점 더 강해지는 것 같습니다.", "_t")
+t("Sludgenest", "진창 소굴", "_t")
+t("#YELLOW_GREEN#One of the wall shakes for a moment and then turns into %s!", "#YELLOW_GREEN#벽의 일부가 잠시 흔들리더니 %s로 변했다!", "logSeen")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/south-beach/grids.lua"
 
+t("lovely umbrella", "예쁜 파라솔", "entity name")
 t("sand", "모래", "entity subtype")
+t("picnic basket", "소풍 바구니", "entity name")
 t("floor", "바닥", "entity type")
 t("grass", "잔디", "entity subtype")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("You have not finished your romantic time at the beach.", "아직 해변에서의 낭만적인 데이트가 끝나지 않았다.", "log")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/south-beach/npcs.lua"
 
+t("Melinda", "멜린다", "entity name")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Enjoying a lovely day at the beach.", "해변에서의 행복한 시간을 즐기고 있습니다.", "_t")
+t("What..! Please lets run!", "뭐야..! 도망쳐요!", "_t")
+t("#DARK_GREEN#As Melinda is about to die a powerful wave of blight emanates from her!", "#DARK_GREEN#멜린다가 죽기 직전에 그녀에게서 강력한 황폐의 파동이 뿜어져 나왔다!", "say")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/south-beach/objects.lua"
 
+t("beach bikini", "해변의 비키니", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/south-beach/zone.lua"
 
+t("Southern Beach", "남쪽 해변", "_t")
+t("Look over there!", "저기 좀 봐요!", "_t")
+t("#DARK_GREEN#Melinda begins to glow with an eerie aura!", "#DARK_GREEN#멜린다의 몸이 섬뜩한 빛으로 빛나기 시작했다!", "say")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/stellar-system-shandral/grids.lua"
 
+t("Shandral (Sun)", "샨드랄 (태양)", "entity name")
+t("The sun of the Shandral star system.", "샨드랄 성계의 태양입니다.", "_t")
+t("Eyal (Planet)", "에이알 (행성)", "entity name")
+t("Summertide (Moon of Eyal)", "밀려오는 여름 (에이알의 달)", "entity name")
+t("Wintertide (Moon of Eyal)", "밀려오는 겨울 (에이알의 달)", "entity name")
+t("One of the moons of Eyal.", "에이알의 달 중 하나입니다.", "_t")
+t("Kolal (Planet)", "코랄 (행성)", "entity name")
+t("Luxam (Planet)", "룩삼 (행성)", "entity name")
+t("Ponx (Gaz Planet)", "폰스 (가스 행성)", "entity name")
+t("One of the main planets of the Shandral system.", "샨드랄 계의 주요 행성 중 하나입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/stellar-system-shandral/zone.lua"
 
+t("Stellar System: Shandral", "샨드랄 성계", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/tannen-tower/grids.lua"
 
+t("Portal to Last Hope", "마지막 희망으로 통하는 차원문", "entity name")
+t("This portal seems to be connected with Last Hope; you could probably use it to go back.", "이 차원문은 마지막 희망으로 이어진 것 같습니다. 돌아가는 데 이걸 쓸 수 있을 겁니다.", "_t")
 t("Back and there again", "다시 또 그곳에", "_t")
+t("Enter the portal back to Last Hope?", "마지막 희망으로 통하는 차원문으로 들어갑니까?", "_t")
+t("Enter", "들어간다", "_t")
 t("Stay", "그대로 있는다", "_t")
 
 
@@ -24363,7 +24521,15 @@ section "game/modules/tome/data/zones/tannen-tower/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Tannen", "탄넨", "entity name")
+t("The traitor has been revealed, and he does not intend to let you escape to tell the tale.", "이 놈이 바로 배신자고, 그는 당신이 탈출하여 모든 사실을 말하게 놔 두지 않을 것입니다.", "_t")
+t("construct", "구조체", "entity type")
 t("golem", "골렘", "entity subtype")
+t("Drolem", "드롤렘", "entity name")
+t([[This is Tannen's construct, a HUGE golem in the rough shape of a dragon.
+It is so huge that it blocks sight beyond it.]], [[탄넨이 만들어낸 대충 용과 닮은 골렘으로, 말도 안 되게 거대합니다.
+너무나 거대해서 뒤쪽 너머가 보이지도 않습니다.]], "_t")
+t("and was neither found nor heard from again", "그리고 그의 소식은 완전히 끊겨 다시는 들리지 않았습니다.", "_t")
 
 
 ------------------------------------------------
@@ -24376,13 +24542,24 @@ t("Blood-Runed Athame", "피의 룬 제례단검", "entity name")
 t("An athame, covered in blood runes. It radiates power.", "피의 룬에 덮인 제례용 단검입니다. 어떤 힘을 내뿜고 있습니다.", "_t")
 t("jewelry", "장신구", "entity type")
 t("orb", "구체", "entity subtype")
+t("swirling orb", "소용돌이치는 오브", "_t")
+t("Orb of Many Ways", "여러 장소로의 오브", "entity name")
+t([[The orb projects images of distant places, some that seem not to be of this world, switching rapidly.
+If used near a portal, it could probably activate it.]], [[이 오브는 다양한 장소의 모습을 비추고 있습니다. 그 모습들은 빠르게 바뀌고 있으며 그 중에는 이 세계가 아닌 것처럼 보이는 곳도 있습니다.
+근처의 차원문에 사용하면 차원문을 활성화할 수 있을 것입니다.]], "_t")
+t("activate a portal", "차원문을 활성화한다", "_t")
+t("There is no portal to activate here.", "활성화할 차원문이 없다.", "logPlayer")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 t("tattered paper scrap", "너덜너덜한 종잇조각", "entity name")
+t("A paper scrap, left by Tannen.", "탄넨이 남긴 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/tannen-tower/zone.lua"
 
+t("The portal brought you to what seems to be a cell in the basement of the tower. You must escape!", "차원문은 당신을 어떤 탑의 지하 감옥처럼 보이는 곳으로 보냈습니다. 탈출해야 합니다!", "_t")
+t("As you climb up the steps, you see Tannen standing with his drolem, reading a scrap of parchment.  As he reads, his eyes grow wider, and he starts sweating and pacing back and forth.  When he reaches to stuff it in his pocket, he sees you and jumps back like a startled cat.  \"No!  Not now!  You have no idea what's at stake!\"  He retrieves a fistful of brightly-colored flasks from his robes, and his drolem's eyes glow as it springs to life, metal screeching in an impressive imitation of a roar.", "계단을 올라가자 탄넨이 그의 드롤렘을 데리고 웬 양피지 조각을 읽고 있는 게 보였습니다.  그걸 읽자 그의 눈이 점점 휘둥그레해졌고, 그러고는 땀을 흘리면서 앞뒤로 서성이기 시작했습니다.  그 조각을 주머니에 쑤셔 넣으려 할 때 그가 당신을 보았고, 놀란 고양이마냥 뒤로 펄쩍 뛰었습니다.  \"안 된다!  지금은 안 된다!  넌 지금 중요한 게 뭔지 전혀 몰라!\"  그는 로브에서 밝은 색의 플라스크들을 한 움큼 꺼냈고, 드롤렘의 눈이 빛나며 살아 움직이기 시작합니다. 그것이 지르는 새된 금속 소리는 함성과 비슷했습니다.", "_t")
+t("Tannen's Tower", "탄넨의 탑", "_t")
 
 
 ------------------------------------------------
@@ -24390,6 +24567,10 @@ section "game/modules/tome/data/zones/telmur/npcs.lua"
 
 t("ghost", "유령", "entity subtype")
 t("undead", "언데드", "entity type")
+t("The Shade of Telos", "텔로스의 그림자", "entity name")
+t("Everybody thought Telos dead and his spirit destroyed, but it seems he still lingers in his old place of power.", "사람들 모두가 텔로스는 죽었고 그의 영혼은 파괴되었다고 생각하지만, 그는 아직도 그의 오랜 거처에서 연명하고 있던 것 같습니다.", "_t")
+t("and was savagely mutilated, a show of his rage towards all living things", "그리고 모든 생명체들에 대한 그의 분노 때문에, 시체는 잔혹하게 훼손되었습니다.", "_t")
+t("As the shade dissipates, you see no sign of the text entitled \"Inverted and Reverted Probabilistic Fields\". You should go back to Tannen.", "그림자는 사라졌지만, \"반전되고 역행된 확률론적 역장\" 이라는 문서는 흔적조차 보이지 않습니다. 탄넨에게 돌아가 봐야 할 것 같습니다.", "_t")
 t("Back and there again", "다시 또 그곳에", "_t")
 
 
@@ -24404,6 +24585,9 @@ t("The bottom part of Telos' broken staff.", "부서진 텔로스 지팡이의 �
 ------------------------------------------------
 section "game/modules/tome/data/zones/telmur/zone.lua"
 
+t("Ruins of Telmur", "텔무르의 폐허", "_t")
+t("As you approach the tower you notice it is utterly destroyed, only the basement remaining.", "탑에 다가가자 이 건물은 완전히 파괴되었고 지하 부분만 남아있다는 걸 알았습니다.", "_t")
+t("Telmur", "텔무르", "_t")
 
 
 ------------------------------------------------
@@ -24411,11 +24595,15 @@ section "game/modules/tome/data/zones/tempest-peak/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Urkis, the High Tempest", "고위 폭풍술사 우르키스", "entity name")
+t("Lightning crackles around this middle-aged man. He radiates power.", "파직거리는 번개를 주변에 두른 중년의 남성입니다. 그에게서 마법적인 힘이 뿜어져 나옵니다.", "_t")
+t("and used in mad electrical reanimation experiments", "그리고 그 시체는 전기를 사용한 정신나간 소생 실험에 쓰였습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/tempest-peak/zone.lua"
 
+t("Tempest Peak", "폭풍우 봉우리", "_t")
 
 
 ------------------------------------------------
@@ -24423,19 +24611,37 @@ section "game/modules/tome/data/zones/temple-of-creation/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
 t("naga", "나가", "entity subtype")
+t("Slasul", "슬라술", "entity name")
+t("This towering naga exudes power, and radiates a certain charismatic charm as well. His masculine face stares at you with great intensity, and you struggle to meet his gaze. His torso is bare apart from an exquisite pearl set directly in his chest, and in his muscular arms he holds ready a heavy mace and shield. You sense there is more to him also, as if the very power of the ocean were concentrated in this great creature, and that the wrath of it may come flooding out at any moment.", "힘이 넘쳐 보이는 훤칠한 나가로, 어떤 카리스마적인 매력 또한 발산하고 있습니다. 남자다운 얼굴은 매우 강렬하게 당신을 응시하고 있고, 당신은 그와 눈을 마주치려 안간힘을 씁니다. 가슴 한복판에는 매우 아름다운 진주가 박혀 있고, 근육질 팔은 무거운 철퇴와 방패를 들고 있습니다. 그러고도 당신은 그에게는 뭔가가 더 있다는 걸 눈치챘습니다. 마치 바다의 강력한 힘이 그에게 모여 있는 것처럼, 그의 분노가 언제든지 당신에게 쏟아져 나올 것만 같습니다.", "_t")
+t("and perverted into a monstrous aberration as a warning to the surface", "그리고 그 시체는 물밖에 보내는 경고의 의미로 끔찍한 괴물처럼 변했습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/temple-of-creation/objects.lua"
 
+t("bright pearl", "밝은 진주", "_t")
+t("Eldritch Pearl", "섬뜩한 진주", "entity name")
+t("Thousands of years spent inside the temple of creation have infused this pearl with the fury of rushing water. It pulses light.", "창조의 사원에서 수천년을 보낸 결과 이 진주에는 세차게 흐르는 물의 분노가 깃들었습니다. 빛을 내고 있습니다.", "_t")
+t("tract", "책자", "entity name")
+t("A tract revealing the history of the Nagas.", "나가 종족의 역사를 밝히고 있는 책자입니다.", "_t")
+t("note", "메모", "entity name")
 t("A note.", "메모입니다.", "_t")
+t("ornate orichalcum trident", "화려하게 장식된 오리하르콘 삼지창", "_t")
 t("Legacy of the Naloren", "날로레의 유산", "entity name")
+t([[This incredibly beautiful -- and powerful -- trident is made of the rare metal orichalcum. An amazing pearl is seated in head of the trident, as it spreads into three razor sharp prongs.
+It is imbued with the greatest strengths of all of the most powerful Naga warriors.
+Slasul gave it to you as a sign of his faith in you. It is a sign of hope for all of the Naloren race, that one outside of their tribe could be so trusted.]], [[희귀한 금속 오리하르콘으로 만들어진, 믿을 수 없을 정도로 아름답고 강력한 삼지창입니다. 앞쪽 끝부분에는 감탄이 절로 나오는 진주가 박혀 있으며, 그것이 세 방향으로 갈라져서 날카로운 날이 되어 있습니다.
+이 삼지창에는 가장 강력했던 나가 전사들의 힘의 정수가 담겨 있습니다.
+슬라술이 신뢰의 증표로써 당신에게 준 것입니다. 이 삼지창은 날로레 종족의 희망의 상징이기 때문에, 날로레가 아닌 당신을 진심으로 믿을 수 있다는 의미입니다.]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/temple-of-creation/zone.lua"
 
 t("Temple of Creation", "창조의 사원", "_t")
+t("#AQUAMARINE#You arrive deep under water, at the sea floor, as you look upwards you only see a glimpse of light coming through.", "#AQUAMARINE#당신은 깊은 물밑, 바다 밑바닥에 도착했고, 위를 올려다보니 희미한 빛만 보일 뿐 아무것도 보이지 않는다.", "logPlayer")
+t("#AQUAMARINE#You should be crushed by the pressure, but strangely you feel no discomfort.", "#AQUAMARINE#본래라면 수압에 으스러져야 하지만, 이상하게 아무렇지도 않다.", "logPlayer")
+t("#AQUAMARINE#All around you there is only water as far as you can see, except to your left, a giant coral structure. This is probably the temple of Creation.", "#AQUAMARINE#보이는 거리 안에서는, 주변에 있는 건 오직 물뿐이다. 왼쪽에 있는 거대한 산호 건축물만 빼고. 이게 아마 창조의 사원일 것이다.", "logPlayer")
 
 
 ------------------------------------------------
@@ -24589,6 +24795,7 @@ t("floor", "바닥", "entity subtype")
 t("grass", "잔디", "entity subtype")
 t("rockwall", "바위 장벽", "entity type")
 t("Sunwall mountain", "태양의 장벽 산", "entity name")
+t("Way into the Slazish fens", "슬라지쉬 늪지로 가는 길", "entity name")
 
 
 ------------------------------------------------
@@ -24801,6 +25008,7 @@ t("troll stew", "트롤 스튜", "entity name")
 t("wall", "벽", "entity type")
 t("water", "물", "entity subtype")
 t("tree", "나무", "entity name")
+t("bog water", "늪지", "entity name")
 
 
 ------------------------------------------------
@@ -24827,6 +25035,7 @@ section "game/modules/tome/data/zones/trollmire/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/tutorial-combat-stats/grids.lua"
 
+t("Enter", "들어간다", "_t")
 t("Stay", "그대로 있는다", "_t")
 t("grass", "잔디", "entity name")
 t("Rune of Enlightenment: Shove", "계몽의 룬: 밀치기", "entity name")
