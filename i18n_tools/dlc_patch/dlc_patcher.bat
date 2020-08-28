@@ -1,5 +1,5 @@
 @echo off
-title ToME4 dlc ìž„ì‹œ í•œê¸€ íŒ¨ì¹˜ ì£¼ìž…ê¸°
+title ToME4 dlc ÀÓ½Ã ÇÑ±Û ÆÐÄ¡ ÁÖÀÔ±â
 echo * initialize...
 mkdir temp
 echo * tome-addon-dev unpacking...
@@ -77,7 +77,7 @@ echo * Finalizing...
 del /F dlcs\orcs-KR.teaac
 ren orcs-KR.zip orcs-KR.teaac
 move orcs-KR.teaac dlcs\
-rmdir /S /Q temp\orcs-KR
+rmdir /S /Q temp\
 cls
 
 echo COMPLETE!!!

@@ -45,3 +45,4 @@ game/addons/tome-items-vault/
 game/addons/tome-possessors/
 *.teaa
 *.teaac
+i18n_tools/dlc_translate_ext.bat
