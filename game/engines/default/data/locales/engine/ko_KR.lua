@@ -1167,8 +1167,8 @@ To activate it you will need to have your online events option set to "all" (whi
 t("#{bold}##GOLD#Non Immediate#WHITE##{normal}#: This events adds new content that you have to find by exploration. If you die before finding it, there can be no refunds.", "#{bold}##GOLD#비즉시요소#WHITE##{normal}#: 이 이벤트는 당신이 탐험에서 찾을 수 있는 새로운 컨텐츠를 추가합니다. 만약 당신이 이를 찾기 전에 죽는다면 무용지물이 됩니다.", "_t")
 t("#{bold}##GOLD#Once per Character#WHITE##{normal}#: This event can only be received #{bold}#once per character#{normal}#. Usualy because it adds a new zone or effect to the game that would not make sense to duplicate.", "#{bold}##GOLD#한 캐릭터 한정#WHITE##{normal}#: 이 이벤트는 한 캐릭터가 #{bold}#한 번만#{normal}# 받을 수 있습니다. 왜냐하면 대체로 새로운 지역이나 효과를 추가하기 때문에 두 번 적용받는 의미가 없기 때문입니다.", "_t")
 t([[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will automatically install the shimmer pack to your game and enable it for your current character too (you will still need to use the Mirror of Reflection to switch them on).
-#LIGHT_GREEN#Bonus perk:#LAST# purchasing any shimmer pack will also give your characters a portable Mirror of Reflection to be able to change your appearance anywhere, anytime!]], [[#{bold}##GOLD#광원팩#WHITE##{normal}#: 구매 후에 자동으로 게임에 적용됩니다. 지금 모험하고 있는 캐릭터에게도 적용됩니다. (물론 반사의 거울을 켜야 적용됩니다.)
-#LIGHT_GREEN#추가 기능:#LAST# 광원팩을 구입하시면 당신의 캐릭터는 휴대할 수 있는 반사의 거울을 받게 됩니다. 반사의 거울을 통해 언제 어디서든 당신의 모습을 바꿀 수 있습니다.]], "_t")
+#LIGHT_GREEN#Bonus perk:#LAST# purchasing any shimmer pack will also give your characters a portable Mirror of Reflection to be able to change your appearance anywhere, anytime!]], [[#{bold}##GOLD#광원팩#WHITE##{normal}#: 구매 후에 자동으로 게임에 적용됩니다. 지금 모험하고 있는 캐릭터에게도 적용됩니다. (물론 반영의 거울을 켜야 적용됩니다.)
+#LIGHT_GREEN#추가 기능:#LAST# 광원팩을 구입하시면 당신의 캐릭터는 휴대할 수 있는 반영의 거울을 받게 됩니다. 반영의 거울을 통해 언제 어디서든 당신의 모습을 바꿀 수 있습니다.]], "_t")
 t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#금고 공간#WHITE##{normal}#: 구매하시면 금고 공간이 영구적으로 늘어납니다.", "_t")
 t("Online Store", "온라인 상점", "_t")
 
