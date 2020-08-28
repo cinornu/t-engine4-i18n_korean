@@ -342,7 +342,17 @@
 "game/modules/tome/data/zones/slime-tunnels/zone.lua"
 "game/modules/tome/data/zones/sludgenest/grids.lua"
 "game/modules/tome/data/zones/sludgenest/npcs.lua"
-"game/modules/tome/data/zones/sludgenest/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/sludgenest/zone.lua"
+"game/modules/tome/data/zones/south-beach/grids.lua"
+"game/modules/tome/data/zones/south-beach/npcs.lua"
+"game/modules/tome/data/zones/south-beach/objects.lua"
+"game/modules/tome/data/zones/south-beach/zone.lua"
+"game/modules/tome/data/zones/stellar-system-shandral/grids.lua"
+"game/modules/tome/data/zones/stellar-system-shandral/zone.lua"
+"game/modules/tome/data/zones/tannen-tower/grids.lua"
+"game/modules/tome/data/zones/tannen-tower/npcs.lua"
+"game/modules/tome/data/zones/tannen-tower/objects.lua"
+"game/modules/tome/data/zones/tannen-tower/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
