@@ -362,7 +362,12 @@
 "game/modules/tome/data/zones/temple-of-creation/objects.lua"
 "game/modules/tome/data/zones/temple-of-creation/zone.lua"
 "game/modules/tome/data/zones/temporal-rift/npcs.lua"
-"game/modules/tome/data/zones/temporal-rift/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/temporal-rift/zone.lua"
+"game/modules/tome/data/zones/test/zone.lua"
+"game/modules/tome/data/zones/thieves-tunnels/npcs.lua"
+"game/modules/tome/data/zones/thieves-tunnels/zone.lua"
+"game/modules/tome/data/zones/town-angolwen/grids.lua"
+"game/modules/tome/data/zones/town-angolwen/npcs.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
