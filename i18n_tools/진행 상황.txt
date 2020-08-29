@@ -367,7 +367,9 @@
 "game/modules/tome/data/zones/thieves-tunnels/npcs.lua"
 "game/modules/tome/data/zones/thieves-tunnels/zone.lua"
 "game/modules/tome/data/zones/town-angolwen/grids.lua"
-"game/modules/tome/data/zones/town-angolwen/npcs.lua" Khelerd 완
+"game/modules/tome/data/zones/town-angolwen/npcs.lua"
+"game/modules/tome/data/zones/town-angolwen/objects.lua"
+"game/modules/tome/data/zones/town-angolwen/traps.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
