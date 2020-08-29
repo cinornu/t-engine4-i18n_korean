@@ -376,7 +376,9 @@
 "game/modules/tome/data/zones/town-elvala/npcs.lua"
 "game/modules/tome/data/zones/town-elvala/objects.lua"
 "game/modules/tome/data/zones/town-elvala/traps.lua"
-"game/modules/tome/data/zones/town-elvala/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/town-elvala/zone.lua"
+"game/modules/tome/data/zones/town-gates-of-morning/grids.lua"
+"game/modules/tome/data/zones/town-gates-of-morning/npcs.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
