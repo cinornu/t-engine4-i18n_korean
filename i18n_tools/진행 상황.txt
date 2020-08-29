@@ -369,7 +369,14 @@
 "game/modules/tome/data/zones/town-angolwen/grids.lua"
 "game/modules/tome/data/zones/town-angolwen/npcs.lua"
 "game/modules/tome/data/zones/town-angolwen/objects.lua"
-"game/modules/tome/data/zones/town-angolwen/traps.lua" Khelerd 완
+"game/modules/tome/data/zones/town-angolwen/traps.lua"
+"game/modules/tome/data/zones/town-derth/npcs.lua"
+"game/modules/tome/data/zones/town-derth/traps.lua"
+"game/modules/tome/data/zones/town-derth/zone.lua"
+"game/modules/tome/data/zones/town-elvala/npcs.lua"
+"game/modules/tome/data/zones/town-elvala/objects.lua"
+"game/modules/tome/data/zones/town-elvala/traps.lua"
+"game/modules/tome/data/zones/town-elvala/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
