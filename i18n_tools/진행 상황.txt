@@ -384,7 +384,11 @@
 "game/modules/tome/data/zones/town-irkkk/grids.lua"
 "game/modules/tome/data/zones/town-irkkk/npcs.lua"
 "game/modules/tome/data/zones/town-irkkk/traps.lua"
-"game/modules/tome/data/zones/town-irkkk/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/town-irkkk/zone.lua"
+"game/modules/tome/data/zones/town-iron-council/grids.lua"
+"game/modules/tome/data/zones/town-iron-council/npcs.lua"
+"game/modules/tome/data/zones/town-iron-council/traps.lua"
+"game/modules/tome/data/zones/town-iron-council/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
