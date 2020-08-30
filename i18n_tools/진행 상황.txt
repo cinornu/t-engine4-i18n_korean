@@ -393,7 +393,14 @@
 "game/modules/tome/data/zones/town-last-hope/npcs.lua"
 "game/modules/tome/data/zones/town-last-hope/objects.lua"
 "game/modules/tome/data/zones/town-last-hope/traps.lua"
-"game/modules/tome/data/zones/town-last-hope/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/town-last-hope/zone.lua"
+"game/modules/tome/data/zones/town-lumberjack-village/npcs.lua"
+"game/modules/tome/data/zones/town-lumberjack-village/zone.lua"
+"game/modules/tome/data/zones/town-point-zero/grids.lua"
+"game/modules/tome/data/zones/town-point-zero/npcs.lua"
+"game/modules/tome/data/zones/town-point-zero/objects.lua"
+"game/modules/tome/data/zones/town-point-zero/traps.lua"
+"game/modules/tome/data/zones/town-point-zero/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
