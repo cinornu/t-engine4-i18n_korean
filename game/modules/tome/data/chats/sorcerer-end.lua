@@ -119,6 +119,9 @@ Please, make sure the world is safe.]],
 		{_t"You will never be forgotten.", action=function(npc, player)
 			local aeryn = aeryn_alive(npc, player)
 			game.level:removeEntity(aeryn, true)
+			if p.descriptor.subclass == "Sun Paladin" then
+				game:setAllowedBuild("paladin_fallen", true)
+			end
 			player:hasQuest("high-peak"):win("aeryn-sacrifice")
 		end},
 	}

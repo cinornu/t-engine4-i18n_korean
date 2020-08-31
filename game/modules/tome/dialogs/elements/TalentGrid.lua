@@ -30,6 +30,7 @@ function _M:init(t)
 	self.grid = t.grid or {}
 	self.w = assert(t.width, "no width")
 	self.h = assert(t.height, "no height")
+	self.auto_shrink = t.auto_shrink
 	self.tooltip = assert(t.tooltip, "no tooltip")
 	self.on_use = assert(t.on_use, "no on_use")
 	self.on_expand = t.on_expand
@@ -53,14 +54,18 @@ function _M:generate()
 	self.mouse:reset()
 	self.key:reset()
 	
-	-- generate the scrollbar
-	if self.scrollbar then self.scrollbar = Slider.new{size=self.h, max=1} end
-	
 	self.sel_i = 1
 	self.sel_j = 1
 	self.max_h = self.grid.max * (self.frame_size + self.frame_offset)
+	if self.h == "auto" then self.h = self.max_h end
 
-	if self.scrollbar then self.scrollbar.max = self.max_h - self.h end
+	-- generate the scrollbar
+	if self.scrollbar then
+		self.scrollbar = Slider.new{size=self.h, max=1}
+		self.scrollbar.max = self.max_h - self.h
+	end
+
+	if self.auto_shrink and self.h > self.max_h then self.h = self.max_h end
 	
 	self.mousezones = {}
 	self:redrawAllItems()
@@ -210,7 +215,7 @@ function _M:display(x, y, nb_keyframes, screen_x, screen_y, offset_x, offset_y, 
 
 	local mz = {}
 	self.mousezones = mz
-	local dx, dy = 3, -self.scrollbar.pos + 3
+	local dx, dy = 3, (self.scrollbar and -self.scrollbar.pos or 0) + 3
 
 	core.display.glScissor(true, screen_x, screen_y, self.w, self.h)
 
@@ -243,7 +248,7 @@ function _M:display(x, y, nb_keyframes, screen_x, screen_y, offset_x, offset_y, 
 
 		addw = addw + self.frame_size
 
-		dy = -self.scrollbar.pos + 3
+		dy = (self.scrollbar and -self.scrollbar.pos or 0) + 3
 		dx = dx + addw + 12
 	end
 	core.display.glScissor(false)

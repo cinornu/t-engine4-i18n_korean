@@ -28,7 +28,7 @@ newTalent{
 	no_energy = true,
 	tactical = { ATTACK = { PHYSICAL = 2 }, BUFF = 2, DISABLE = { pin = 2 } },
 	radius = function(self, t) return math.floor(self:combatTalentScale(t, 4.5, 6.5)) end,
-	getValues = function(self, t) return math.floor(self:combatTalentScale(t, 5, 9)), self:combatTalentStatDamage(t, "wil", 3, 50), self:knowTalent(self.T_ELDRITCH_VINES) and self:callTalent(self.T_ELDRITCH_VINES, "getDamage") or nil end,
+	getValues = function(self, t) return math.floor(self:combatTalentScale(t, 5, 9)), self:combatTalentStatDamage(t, "wil", 6, 80), self:knowTalent(self.T_ELDRITCH_VINES) and self:callTalent(self.T_ELDRITCH_VINES, "getDamage") or nil end,
 	callbackOnActBase = function(self, t)
 		local p = self:isTalentActive(t.id)
 		local rad = self:getTalentRadius(t)
@@ -46,7 +46,7 @@ newTalent{
 		-- Randomly take targets
 		local tg = {type="hit", range=self:getTalentRange(t), talent=t}
 		local a, id = rng.table(tgts)
-		local hit, chance = a:checkHit(self:combatTalentStatDamage(t, "wil", 5, 110), a:combatPhysicalResist(), 0, 95, 5)
+		local hit, chance = a:checkHit(self:combatMindpower(), a:combatPhysicalResist(), 0, 95, 5)
 		if a:canBe("pin") and hit then
 			local turns, dam, arcanedam = t.getValues(self, t)
 			a:setEffect(a.EFF_STONE_VINE, turns, {dam=dam, arcanedam = arcanedam, src=self, free=rad+4, free_chance=100-chance})
@@ -82,7 +82,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	-- called by "STONE_VINE" effect
-	getDamage = function(self, t) return self:combatTalentStatDamage(t, "wil", 3, 50) end,
+	getDamage = function(self, t) return self:combatTalentStatDamage(t, "wil", 6, 80) end,
 	getEquilibrium = function(self, t) return self:combatTalentScale(t, 0.3, 1.25, "log", 0, 3) end,
 	getMana = function(self, t) return self:combatTalentScale(t, 0.4, 1.67) end,
 	info = function(self, t)

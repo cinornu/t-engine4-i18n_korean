@@ -96,7 +96,7 @@ function _M:cleanActor(actor)
 	local effs = {}
 
 	-- Remove chronoworlds
-	if game._chronoworlds then game._chronoworlds = nil end
+	game:chronoCancel()
 
 	-- Go through all spell effects
 	for eff_id, p in pairs(actor.tmp) do
@@ -245,7 +245,7 @@ function _M:use(item)
 	elseif act == "threads" then
 		game:chronoRestore("see_threads_base", true)
 		game:onTickEnd(function()
-			game._chronoworlds = nil
+			game:chronoCancel()
 			game.player:removeEffect(game.player.EFF_SEE_THREADS)end
 		)
 		game:saveGame()

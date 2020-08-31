@@ -55,7 +55,7 @@ newTalent{
 			poison_immune = 1,
 			undead = 1,
 			rarity = 1,
-			skeleton_minion = "warrior",
+			skeleton_minion = "warrior", basic_skeleton_minion = true,
 
 			max_life = resolvers.rngavg(90,100),
 			combat_armor = 5, combat_def = 1,
@@ -185,6 +185,30 @@ newTalent{
 		if ignore then return max end
 		return math.max(0, max - necroArmyStats(self).nb_skeleton)
 	end,
+	-- Fucking respec.
+	on_levelup_changed = function(self, t, lvl, old_lvl, lvl_raw, old_lvl_raw)
+		local stats = necroArmyStats(self)
+		for i, minion in ipairs(stats.list) do if minion.skeleton_minion then
+			if self:getTalentLevel(t) < 3 and not minion.basic_skeleton_minion then
+				game.party:removeMember(minion, true)
+				minion:disappear(self)
+			elseif self:getTalentLevel(t) < 5 and (minion.skeleton_minion == "mage" or minion.skeleton_minion == "archer") then
+				game.party:removeMember(minion, true)
+				minion:disappear(self)
+			end
+		end end
+		while true do
+			local stats = necroArmyStats(self)
+			local max = t:_getMax(self, true)
+			if lvl_raw <= 0 then max = 0 end
+			if stats.nb_skeleton <= max then break end
+			for i, minion in ipairs(stats.list) do if minion.skeleton_minion then
+				game.party:removeMember(minion, true)
+				minion:disappear(self)
+				break
+			end end
+		end
+	end,
 	getLevel = function(self, t) return math.floor(self:combatScale(self:getTalentLevel(t), -6, 0.9, 2, 5)) end, -- -6 @ 1, +2 @ 5, +5 @ 8
 	on_pre_use = function(self, t) return math.min(t.getMax(self, t), self:getSoul()) >= 1 end,
 	action = function(self, t)
@@ -234,15 +258,28 @@ newTalent{
 			end
 		end
 
+		-- Ensure max capacity only
+		while true do
+			local stats = necroArmyStats(self)
+			local max = t:_getMax(self, true)
+			if stats.nb_skeleton <= max then break end
+			for i, minion in ipairs(stats.list) do if minion.skeleton_minion == "warrior" then
+				game.party:removeMember(minion, true)
+				minion:disappear(self)
+				self:incSoul(1)
+				break
+			end end
+		end
+
 		if use_ressource then self:incMana(-util.getval(t.mana, self, t) * (100 + 2 * self:combatFatigue()) / 100) end
 		game:playSoundNear(self, "talents/skeleton")
 		return true
 	end,
 	info = function(self, t)
 		return ([[Call upon the battlefields of old, collecting bones, fusing them with souls, and forging them into skeletal minions.
-		Up to %d skeleton warriors of level %d are summonedn, and up to %d skeletons can be controlled at once.
+		Up to %d skeleton warriors of level %d are summoned, and up to %d skeletons can be controlled at once.
 		At level 3 the summons become armoured skeletons warriors.
-		At level 5, for every 3 skeleton warriors, a skeleton mage or archer will also be created without costing any souls.
+		At level 5, for every 3 skeleton warriors, a skeleton mage or archer will also be created without costing any souls. If this makes you go veor your skeleton limit, a normal skeleton will be removed and its soul refunded.
 
 		#GREY##{italic}#Skeleton minions come in fewer numbers than ghoul minions but are generally more durable.#{normal}#
 		]]):tformat(t:_getNb(self), math.max(1, self.level + t:_getLevel(self)), t:_getMax(self, true))
@@ -250,113 +287,36 @@ newTalent{
 }
 
 newTalent{
-	name = "Bone Wall",
+	name = "Shattered Remains", image = "talents/bone_wall.png",
 	type = {"spell/master-of-bones", 2},
 	require = spells_req2,
 	points = 5,
-	mana = 20,
-	cooldown = 18, fixed_cooldown = true,
-	range = 10,
-	tactical = { ATTACKAREA = {COLD = 1, DARKNESS=1}, DISABLE = {pin=1} },
-	requires_target = true,
-	target = function(self, t)
-		local halflength = math.floor(t.getLength(self,t)/2)
-		local block = function(_, lx, ly)
-			return game.level.map:checkAllEntities(lx, ly, "block_move")
-		end
-		return {
-			type="wall", range=self:getTalentRange(t), halflength=halflength, talent=t, halfmax_spots=halflength+1, block_radius=block,
-			nowarning=true, first_target="friend", custom_scan_filter=function(target)
-				return target.summoner == self and target.necrotic_minion and target.skeleton_minion
-			end,
-		}
-	end,
-	getChance = function(self, t) return math.floor(self:combatTalentScale(t, 20, 50)) end,
-	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 4, 8)) end,
-	getLength = function(self, t) return 1 + math.floor(self:combatTalentScale(t, 3, 7)/2)*2 end,
-	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 3, 15) end,
-	on_pre_use = function(self, t) return necroArmyStats(self).nb_skeleton > 0 end,
-	action = function(self, t)
-		local tg = self:getTalentTarget(t)
-		local x, y, target = self:getTargetLimited(tg)
-		if not target or not target.summoner == self or not target.necrotic_minion or not target.skeleton_minion then return nil end
-
-		target:die(self)
-
-		local damage = self:spellCrit(t:_getDamage(self))
-		local chance = t:_getChance(self)
-		local radius = 1
-
-		self:project(tg, x, y, function(px, py, tg, self)
-			local oe = game.level.map(px, py, Map.TERRAIN)
-			if not oe or oe.special then return end
-			if not oe or oe:attr("temporary") or game.level.map:checkAllEntities(px, py, "block_move") or oe.special then return end
-			local e = mod.class.Object.new{
-				old_feat = oe,
-				name = _t"bone wall",
-				image = oe.image,
-				add_mos = table.clone(oe.add_mos or {}, true),
-				add_displays = table.clone(oe.add_displays or {}),
-				desc = _t"a summoned wall of bones",
-				type = "wall",
-				display = '#', color=colors.GREY, back_color=colors.BLUE,
-				always_remember = true,
-				can_pass = {pass_wall=1},
-				does_block_move = true,
-				pass_projectile = true,
-				show_tooltip = true,
-				block_move = true,
-				block_sight = false,
-				temporary = t.getDuration(self, t),
-				x = px, y = py,
-				canAct = false,
-				dam = damage,
-				pin_chance = chance,
-				act = function(self)
-					local t = self.summoner:getTalentFromId(self.T_BONE_WALL)
-					local tg = {type="ball", range=0, radius=1, friendlyfire=false, talent=t, x=self.x, y=self.y}
-					self.summoner.__project_source = self
-					self.summoner:projectApply(tg, self.x, self.y, engine.Map.ACTOR, function(target)
-						if target.turn_procs.bone_wall then return end
-						target.turn_procs.bone_wall = true
-						target.turn_procs.bone_wall = true
-						engine.DamageType:get(engine.DamageType.FROSTDUSK).projector(self.summoner, target.x, target.y, engine.DamageType.FROSTDUSK, self.dam)
-						if target:canBe("pin") and rng.percent(self.pin_chance) then
-							target:setEffect(target.EFF_PINNED, 4, {apply_power=self.summoner:combatSpellpower()})
-						end
-					end, "hostile")
-					self.summoner.__project_source = nil
-					self:useEnergy()
-					self.temporary = self.temporary - 1
-					if self.temporary <= 0 then
-						game.level.map(self.x, self.y, engine.Map.TERRAIN, self.old_feat)
-						game.level:removeEntity(self)
-						game.level.map:updateMap(self.x, self.y)
-						game.nicer_tiles:updateAround(game.level, self.x, self.y)
-					end
-				end,
-				dig = function(src, x, y, old)
-					game.level:removeEntity(old, true)
-					return nil, old.old_feat
-				end,
-				summoner_gain_exp = true,
-				summoner = self,
-			}
-			e.add_displays[#e.add_displays+1] = mod.class.Grid.new{image="terrain/bone_wall_0"..rng.range(1,4)..".png", z=19}
-			e.tooltip = mod.class.Grid.tooltip
-			game.level:addEntity(e)
-			game.level.map(px, py, Map.TERRAIN, e)
-		--	game.nicer_tiles:updateAround(game.level, px, py)
-		--	game.level.map:updateMap(px, py)
+	mode = "passive",
+	radius = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
+	getRetaliation = function(self, t) return self:combatTalentScale(t, 3, 50) end,
+	getArmor = function(self, t) return math.floor(self:combatTalentScale(t, 6, 15)) end,
+	getHealth = function(self, t) return math.floor(self:combatTalentScale(t, 30, 130)) end,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 30, 200) end,
+	callbackOnSummonDeath = function(self, t, summon, killer, death_note)
+		if not summon.is_bone_giant and not summon.skeleton_minion then return end
+		-- if killer and killer.reactionToward and killer:reactionToward(summon) >= 0 then return end
+		summon:projectApply({type="ball", radius=self:getTalentRadius(t)}, summon.x, summon.y, Map.ACTOR, function(target)
+			if target.summoner == self and (target.is_bone_giant or target.skeleton_minion) then
+				target:setEffect(target.EFF_SHATTERED_REMAINS, 20, {health=t:_getHealth(self), armor=t:_getArmor(self), retaliation=t:_getRetaliation(self)})
+			elseif self:reactionToward(target) < 0 and target:canBe("bleed") then
+				target:setEffect(target.EFF_CUT, 5, {power=t:_getDamage(self) / 5, apply_power=self:combatSpellpower(), src=self})
+			end
 		end)
-		game:playSoundNear(self, "talents/skeleton")
-		return true
+
+		game.logSeen(summon, "#GREY#%s shatters!", summon:getName():capitalize())
+		game.level.map:particleEmitter(summon.x, summon.y, self:getTalentRadius(t), "bone_explosion", {radius=self:getTalentRadius(t)})
+		game:playSoundNear(summon, "talents/skeleton")
 	end,
 	info = function(self, t)
-		return ([[Sacrifice one skeleton to turn it into a wall of bones of length %d for %d turns.
-		The wall is strong enough to block movement but projectiles and sight are not hampered.
-		Any foes adjacent to it take %0.2f frostdusk damage and has %d%% chances to be pinned for 4 turns.
-		]]):tformat(3 + math.floor(self:getTalentLevel(t) / 2) * 2, t:_getDuration(self), damDesc(self, DamageType.FROSTDUSK, t:_getDamage(self)), t:_getChance(self))
+		return ([[Any time one of your skeleton or bone giant dies, it shatters in radius %d, making any foe bleed for %0.2f physical damage over 5 turns.
+		If any other skeleton or bone giant minion is in the radius it will pickup some of the bones to enhance itself, increasing maximum and current life by %d, armour by %d and gain %0.2f physical melee retaliation for 20 turns.
+		This talent never works when you kill your own minions.
+		]]):tformat(self:getTalentRadius(t), t:_getDamage(self), t:_getHealth(self), t:_getArmor(self), t:_getRetaliation(self))
 	end,
 }
 
@@ -484,6 +444,15 @@ newTalent{
 	range = 10,
 	getLevel = function(self, t) return math.floor(self:combatScale(self:getTalentLevel(t), -6, 0.9, 2, 5)) end, -- -6 @ 1, +2 @ 5, +5 @ 8
 	on_pre_use = function(self, t) local stats = necroArmyStats(self) return stats.nb_skeleton >= (stats.lord_of_skulls and 4 or 3) end,
+	-- Fucking respec.
+	on_levelup_changed = function(self, t, lvl, old_lvl, lvl_raw, old_lvl_raw)
+		if lvl >= old_lvl then return end
+		local stats = necroArmyStats(self)
+		if stats.bone_giant then
+			game.party:removeMember(stats.bone_giant, true)
+			stats.bone_giant:disappear(self)
+		end
+	end,
 	action = function(self, t)
 		local stats = necroArmyStats(self)
 		if stats.nb_skeleton < (stats.lord_of_skulls and 4 or 3) then return end

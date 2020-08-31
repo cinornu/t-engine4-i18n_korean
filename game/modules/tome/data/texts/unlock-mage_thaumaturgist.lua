@@ -31,5 +31,5 @@ Features:
   - #YELLOW#Elemental Array Burst#WHITE#: The ultimate beam spell, the culmination of your deep understanding of magic. A 3-wide beam of pure thaumic energy that can never be resisted.
 
 
-Class evolutions are selected as prodigies and grant new ways to build and expand you class and are only visible to the concerned class.
+Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
 ]]

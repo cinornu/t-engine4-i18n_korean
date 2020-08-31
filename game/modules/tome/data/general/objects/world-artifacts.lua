@@ -2656,7 +2656,7 @@ newEntity{ base = "BASE_STAFF", define_as = "SET_SCEPTRE_LICH",
 			[DamageType.DARKNESS] = 35,
 		},
 		talents_types_mastery = {
-			["celestial/star-fury"] = 0.2,
+			["spell/animus"] = 0.2,
 			["spell/master-of-bones"] = 0.2,
 			["spell/master-of-flesh"] = 0.2,
 			["spell/master-necromancer"] = 0.2,
@@ -2666,12 +2666,12 @@ newEntity{ base = "BASE_STAFF", define_as = "SET_SCEPTRE_LICH",
 		if who.descriptor and who.descriptor.race == "Undead" then
 			local Talents = require "engine.interface.ActorStats"
 			self:specialWearAdd({"wielder", "talents_types_mastery"}, { ["spell/nightfall"] = 0.2 })
+			self:specialWearAdd({"wielder","combat_spellresist"}, 15)
 			self:specialWearAdd({"wielder","combat_spellpower"}, 12)
 			self:specialWearAdd({"wielder","combat_spellresist"}, 10)
 			self:specialWearAdd({"wielder","combat_mentalresist"}, 10)
 			self:specialWearAdd({"wielder","max_mana"}, 50)
 			self:specialWearAdd({"wielder","mana_regen"}, 0.5)
-			self:specialWearAdd({"wielder","negative_regen"}, 0.5)
 			game.logPlayer(who, "#LIGHT_BLUE#You feel the power of the sceptre flow over your undead form!")
 		end
 	end,
@@ -3616,6 +3616,7 @@ newEntity{ base = "BASE_LONGSWORD", define_as="MORRIGOR",
 		special_on_kill = {desc=_t"swallows the victim's soul, gaining a new power", fct=function(combat, who, target)
 			local o, item, inven_id = who:findInAllInventoriesBy("define_as", "MORRIGOR")
 			if o.use_talent then return end
+			game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
 			local got_talent = false
 			local tids = {}
 			for tid, _ in pairs(target.talents) do
@@ -6556,6 +6557,13 @@ Perhaps it feels all the death you will bring to others in the near future.]],
 		self.use_talent = { id = "T_IMPENDING_DOOM", level = 2, power = 40 }
 		self:specialSetAdd({"wielder","inc_damage"}, { [engine.DamageType.DARKNESS] = 14 })
 		self:specialSetAdd({"wielder","resists"}, { [engine.DamageType.DARKNESS] = 5 })
+		self:specialSetAdd({"wielder","talents_add_levels"}, {
+			T_CALL_OF_THE_CRYPT = 1,
+			T_CALL_OF_THE_MAUSOLEUM = 1,
+			T_DREAD = 1,
+			T_RIME_WRAITH = 1,
+			T_BONEYARD = 1,
+		})
 	end,
 	on_set_broken = function(self, who)
 		game.logPlayer(who, "#DARK_GREY#Your ring's power fades away.")

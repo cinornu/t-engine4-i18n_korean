@@ -70,7 +70,7 @@ newTalent{
 		return ([[When switching targets your rime wraith now always prefers the one farther away if possible.
 		Any creatures on the path of the wraith while it travels are affected:
 		- if friendly: they are healed for %d
-		- if hostile: they take %0.2f cold damage
+		- if hostile: they take %0.2f cold damage, because the wraith is inside the creature the damage fully ignores any damage shield
 		The damage and healing will increase with your Spellpower.]]):
 		tformat(t:_getHeal(self), damDesc(self, DamageType.COLD, t:_getDamage(self)))
 	end,

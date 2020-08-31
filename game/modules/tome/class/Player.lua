@@ -849,6 +849,10 @@ function _M:setName(name)
 	game.save_name = name
 end
 
+function _M:playerControlled()
+	return self.player and true or false
+end
+
 --- Notify the player of available cooldowns
 function _M:onTalentCooledDown(tid)
 	if not self:knowTalent(tid) then return end

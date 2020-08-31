@@ -66,7 +66,7 @@ newTalent{
 	cooldown = 16,
 	tactical = { ATTACKAREA = { DARKNESS = 2 }, DISABLE = { confusion = 1.5, blind = 1.5 } },
 	range = 6,
-	radius = 3,
+	radius = function(self,t) return math.floor(self:combatTalentScale(t, 3, 4)) end,
 	direct_hit = true,
 	requires_target = true,
 	target = function(self, t)
@@ -96,11 +96,11 @@ newTalent{
 	end,
 	info = function(self, t)
 		local damage = t.getDamage(self, t)
-		return ([[Dark fumes erupt from the ground for 5 turns. Any creature entering the circle will receive either a bane of confusion or a bane of blindness.
+		return ([[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature entering the circle will receive either a bane of confusion or a bane of blindness.
 		Only one bane can affect a creature.
 		Banes last for %d turns, and also deal %0.2f darkness damage.
 		The damage will increase with your Spellpower.]]):
-		tformat(t.getBaneDur(self,t), damDesc(self, DamageType.DARKNESS, damage))
+		tformat(self:getTalentRadius(t), t.getBaneDur(self,t), damDesc(self, DamageType.DARKNESS, damage))
 	end,
 }
 

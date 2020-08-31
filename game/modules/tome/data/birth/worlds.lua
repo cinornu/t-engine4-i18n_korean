@@ -79,6 +79,24 @@ newBirthDescriptor{
 	game_state = {
 		campaign_name = "maj-eyal",
 		supports_lich_transform = "lichform",
+		supports_fallen_transform = function(actor)
+			-- Didn't save the merchant
+			if actor:hasQuest("lost-merchant") then
+				if actor:hasQuest("lost-merchant"):isCompleted("evil") then return true end
+				if actor:hasQuest("lost-merchant"):isFailed() then return true end
+				if not actor:hasQuest("lost-merchant"):isCompleted("saved") then return true end
+			end
+			-- Let Melinda die
+			if (actor:hasQuest("kryl-feijan-escape") and actor:hasQuest("kryl-feijan-escape"):isStatus(engine.Quest.FAILED)) then return true end
+			-- Sided with the Grand Corruptor
+			if (actor:hasQuest("anti-antimagic") and actor:hasQuest("anti-antimagic"):isStatus(engine.Quest.DONE)) then return true end
+			-- Killed an escort yourself
+			local id = world:getCurrentAchievementDifficultyId(game, "ESCORT_KILL")
+			if actor.achievement_data[id] and actor.achievement_data[id].nb > 0 then return true end
+			-- Lumberjack massacre
+			if (actor:hasQuest("lumberjack-cursed") and (actor:hasQuest("lumberjack-cursed").lumberjacks_died or 0) >= 20) then return true end
+			return false
+		end,
 		stores_restock_by_level = 1,
 		__allow_rod_recall = true,
 		__allow_transmo_chest = true,

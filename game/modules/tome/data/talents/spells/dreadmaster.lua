@@ -71,13 +71,7 @@ newTalent{
 			dread_minion = "dread",
 			no_boneyard_resurrect = true,
 
-			resolvers.talents{
-				T_BURNING_HEX={base=1, every=5},
-				T_EMPATHIC_HEX={base=0, last=10, every=5},
-				T_PACIFICATION_HEX={base=0, last=15, every=5},
-				T_BLUR_SIGHT={base=3, every=5},
-				T_PHASE_DOOR={base=1, every=6},
-			},
+			-- Dread talents are learnt after summoning
 			max_life = resolvers.rngavg(90,100),
 		},
 		dreadmaster = {
@@ -121,25 +115,35 @@ newTalent{
 			dread_minion = "dread",
 			no_boneyard_resurrect = true,
 
-			resolvers.talents{
-				T_BURNING_HEX={base=1, every=5},
-				T_EMPATHIC_HEX={base=0, last=10, every=5},
-				T_PACIFICATION_HEX={base=0, last=15, every=5},
-				T_BLUR_SIGHT={base=3, every=5},
-				T_PHASE_DOOR={base=1, every=6},
-				-- Dreadmaster talents are learnt after summoning
-			},
+			-- Dreadmaster talents are learnt after summoning
 			max_life = resolvers.rngavg(140,170),
 		},
 	},
 	getLevel = function(self, t) return math.floor(self:combatScale(self:getTalentLevel(t), -6, 0.9, 2, 5)) end, -- -6 @ 1, +2 @ 5, +5 @ 8
 	on_pre_use = function(self, t) return not necroArmyStats(self).dread end,
+	-- Fucking respec.
+	on_levelup_changed = function(self, t, lvl, old_lvl, lvl_raw, old_lvl_raw)
+		if lvl >= old_lvl then return end
+		local stats = necroArmyStats(self)
+		if stats.dread then
+			game.party:removeMember(stats.dread, true)
+			stats.dread:disappear(self)
+		end
+	end,
 	action = function(self, t)
 		local lev = t.getLevel(self, t)
 
 		local x, y = util.findFreeGrid(self.x, self.y, 5, true, {[Map.ACTOR]=true})
 		if not x then return end
 		local dread = necroSetupSummon(self, self:knowTalent(self.T_DREADMASTER) and t.minions_list.dreadmaster or t.minions_list.dread, x, y, lev, nil, true)
+
+		local lvl = math.floor(self:getTalentLevel(t))
+		dread:learnTalent(dread.T_BURNING_HEX, true, lvl)
+		dread:learnTalent(dread.T_EMPATHIC_HEX, true, lvl)
+		dread:learnTalent(dread.T_PACIFICATION_HEX, true, lvl)
+		dread:learnTalent(dread.T_BLUR_SIGHT, true, lvl + 2)
+		dread:learnTalent(dread.T_PHASE_DOOR, true, lvl)
+
 		if self:knowTalent(self.T_DREADMASTER) then
 			local lvl = math.floor(self:getTalentLevel(self.T_DREADMASTER))
 			dread:learnTalent(dread.T_SILENCE, true, lvl)
@@ -150,8 +154,15 @@ newTalent{
 		return true
 	end,
 	info = function(self, t)
+		local lvl = math.floor(self:getTalentLevel(t))
 		return ([[Summon a Dread of level %d that will annoyingly blink around, hexing your foes.
-		]]):tformat(math.max(1, self.level + t:_getLevel(self)))
+		It knows the following spells:
+		- Burning Hex at level %d
+		- Empathic Hex at level %d
+		- Pacification Hex at level %d
+		- Blur Sight at level %d
+		- Phase Door at level %d
+		]]):tformat(math.max(1, self.level + t:_getLevel(self)), lvl, lvl, lvl, lvl + 2, lvl)
 	end,
 }
 
@@ -233,6 +244,15 @@ newTalent{
 	require = spells_req4,
 	points = 5,
 	mode = "passive",
+	-- Fucking respec.
+	on_levelup_changed = function(self, t, lvl, old_lvl, lvl_raw, old_lvl_raw)
+		if lvl >= old_lvl then return end
+		local stats = necroArmyStats(self)
+		if stats.dread then
+			game.party:removeMember(stats.dread, true)
+			stats.dread:disappear(self)
+		end
+	end,
 	info = function(self, t)
 		return ([[You now summon a Dreadmaster instead of a Dread.
 		Dreadmasters learn to cast silence, disperse magic and mind disruption, making them the ultimate annoyance tool.

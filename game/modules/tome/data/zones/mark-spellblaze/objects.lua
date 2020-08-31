@@ -48,7 +48,7 @@ newEntity{
 
 		if not who:attr("forbid_arcane") then
 			if who:knowTalentType("corruption/vile-life") then
-				who:setTalentTypeMastery("corruption/vile-life", who:getTalentTypeMastery("corruption/vile-life") + 0.2)
+				who:setTalentTypeMastery("corruption/vile-life", who:getTalentTypeMastery("corruption/vile-life", true) + 0.2)
 			elseif who:knowTalentType("corruption/vile-life") == false then
 				who:learnTalentType("corruption/vile-life", true)
 			else

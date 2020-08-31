@@ -233,12 +233,14 @@ newEntity{
 
 			profile:setConfigsBatch(true)
 			if profile.mod.lore and profile.mod.lore.lore then
+				game.party:relearningLore(true)
 				for lore, _ in pairs(profile.mod.lore.lore) do
 					if game.party:isLoreShareable(lore) then
 						game.party:learnLore(lore, true, true)
 						core.wait.manualTick(1)
 					end
 				end
+				game.party:relearningLore(false)
 			end
 			profile:setConfigsBatch(false)
 

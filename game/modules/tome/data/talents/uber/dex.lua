@@ -91,6 +91,7 @@ uberTalent{
 uberTalent{
 	name = "Swift Hands",
 	mode = "passive",
+	cant_steal = true,
 	on_learn = function(self, t)
 		self:attr("quick_weapon_swap", 1)
 		self:attr("quick_equip_cooldown", 1)

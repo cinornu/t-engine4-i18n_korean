@@ -317,7 +317,6 @@ function _M:targetGetForPlayer(typ)
 		end
 		if typ.immediate_keys then self.target_style = "immediate" end
 		if typ.nolock then self.target_style = "free" end
-		if typ.nowarning then self.target_warning = false end
 		return coroutine.yield()
 	end
 	return self.target.target.x, self.target.target.y, self.target.target.entity

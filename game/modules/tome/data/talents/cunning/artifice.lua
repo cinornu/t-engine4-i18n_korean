@@ -689,7 +689,7 @@ newTalent{
 	stamina = 14,
 	requires_target = true,
 	getDollImage = function(self, t) return self:knowTalent(self.T_GRAPPLING_HOOK_MASTERY) and "artifices/mastery_grappling_hook" or "artifices/grappling_hook" end,
-	target = function(self, t) return {type="bolt", range=t.range(self,t), talent=t, nolock=true} end,
+	target = function(self, t) return {type="bolt", range=self:getTalentRange(t), talent=t, nolock=true} end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y, target = self:getTarget(tg)

@@ -37,6 +37,8 @@ end
 local imbue_ring = function(npc, player)
 	player:showInventory(_t"Imbue which ring?", player:getInven("INVEN"), function(o) return o.type == "jewelry" and o.subtype == "ring" and o.material_level and not o.unique and not o.plot and not o.special and not o.tinker and not o.shop_gem_imbue end, function(ring, ring_item)
 		player:showInventory(_t"Use which gem?", player:getInven("INVEN"), function(gem) return gem.type == "gem" and gem.imbue_powers and gem.material_level end, function(gem, gem_item)
+			game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
+
 			local lev = (ring.material_level + gem.material_level) / 2 * 10 + 10  -- Average the material level then add a bonus so we guarantee greater ego level range
 			local new_ring
 			local r = rng.range(0, 99)
@@ -84,6 +86,8 @@ local artifact_imbue_amulet = function(npc, player)
 	player:showInventory(_t"Imbue which amulet?", player:getInven("INVEN"), function(o) return o.type == "jewelry" and o.subtype == "amulet" and o.material_level and not o.unique and not o.plot and not o.special and not o.tinker end, function(amulet, amulet_item)
 		player:showInventory(_t"Use which first gem?", player:getInven("INVEN"), function(gem1) return gem1.type == "gem" and (gem1.material_level or 99) <= amulet.material_level and gem1.imbue_powers end, function(gem1, gem1_item)
 			player:showInventory(_t"Use which second gem?", player:getInven("INVEN"), function(gem2) return gem2.type == "gem" and (gem2.material_level or 99) <= amulet.material_level and gem1.name ~= gem2.name and gem2.imbue_powers end, function(gem2, gem2_item)
+				game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
+
 				local price = 1000
 				if price > player.money then require("engine.ui.Dialog"):simplePopup(_t"Not enough money", _t"Limmir needs more gold for the magical plating.") return end
 

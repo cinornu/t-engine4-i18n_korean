@@ -96,7 +96,8 @@ newLore{
 Actually...  You fight in a more subtle way than most, do you not?  It is a point of pride for many of us that we stand tall in the face of arcane aggression and give warlocks one chance to repent before purging them, and much of our training reflects that, but I won't deny that less...  #{italic}#traditionally glorious#{normal}# methods can be extremely effective.  Decorum's no reason to let a necromancer get away alive when you could've planted a trap in their escape route.
 
 (She hands you a scroll.) Here - some of us have come up with a pre-prepared device which will sap magic from whoever or whatever sets it off.  All we ask is that you use discretion with these devices; no matter what our #{italic}#last#{normal}# assassin thought, planting them in some lesser rune-scribe's shop would be more likely to do us harm than good in the long run.]],
-	on_learn = function(who)
+	on_learn = function(who, relearning)
+		if relearning then return end
 		local p = game.party:findMember{main=true}
 		if p:knowTalentType("cunning/trapping") then
 			game.state:unlockTalent(p.T_PURGING_TRAP, p)

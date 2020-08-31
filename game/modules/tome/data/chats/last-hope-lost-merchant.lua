@@ -179,10 +179,7 @@ local maker_list = function()
 							player:addObject(player.INVEN_INVEN, art)
 							player:incMoney(-4000)
 							-- clear chrono worlds and their various effects
-							if game._chronoworlds then
-								game.log("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
-								game._chronoworlds = nil
-							end
+							game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
 							if not config.settings.cheat then game:saveGame() end
 
 							newChat{ id="naming",

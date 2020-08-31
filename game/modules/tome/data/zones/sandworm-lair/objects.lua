@@ -51,7 +51,7 @@ You could ... consume it, should you feel mad enough or you could try to corrupt
 
 		if not who:attr("forbid_nature") then
 			if who:knowTalentType("wild-gift/harmony") then
-				who:setTalentTypeMastery("wild-gift/harmony", who:getTalentTypeMastery("wild-gift/harmony") + 0.2)
+				who:setTalentTypeMastery("wild-gift/harmony", who:getTalentTypeMastery("wild-gift/harmony", true) + 0.2)
 			elseif who:knowTalentType("wild-gift/harmony") == false then
 				who:learnTalentType("wild-gift/harmony", true)
 			else
@@ -82,6 +82,7 @@ newEntity{
 	quest = 1,
 
 	use_simple = { name=_t"drink the vile fluid", use = function(self, who)
+		game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
 		game.logPlayer(who, "#00FFFF#You drink the wyrm bile and feel forever transformed!")
 		who.unused_talents_types = who.unused_talents_types + 1
 		game.log("You have %d category point(s) to spend. Press p to use them.", who.unused_talents_types)

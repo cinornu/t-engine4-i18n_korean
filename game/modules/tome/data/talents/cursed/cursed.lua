@@ -41,6 +41,12 @@ newTalentType{ allow_random=true, is_mind=true, type="cursed/cursed-aura", name 
 newTalentType{ allow_random=false, is_mind=true, type="cursed/curses", name = _t"curses", hide = true, description = _t"The effects of cursed objects." }
 newTalentType{ allow_random=true, is_mind=true, type="cursed/fears", name = _t"fears", description = _t"Use the fear that lies at the heart of your curse to attack the minds of your enemies." }
 
+-- Fallen Class Evolution
+newTalentType{ allow_random=true, type="cursed/bloodstained", name = "Bloodstained", description = "You, like your weapons, are tainted forever." }
+newTalentType{ allow_random=true, type="cursed/crimson-templar", name = "Crimson Templar", description = "Blood is power. Let the rivers run red." }
+newTalentType{ allow_random=true, generic=true, type="cursed/self-hatred", name = "Self-Hatred", description = "Of all the things in this dark world, you are the worst.  Torment yourself and find the power therein." }
+newTalentType{ allow_random=false, type="cursed/other", name = "Cursed", description = "Hate-powered abilities that don't belong anywhere else." }
+
 cursed_wil_req1 = {
 	stat = { wil=function(level) return 12 + (level-1) * 2 end },
 	level = function(level) return 0 + (level-1)  end,
@@ -83,6 +89,27 @@ cursed_str_req5 = {
 	level = function(level) return 16 + (level-1)  end,
 }
 
+cursed_str_req_high1 = {
+	stat = { str=function(level) return 22 + (level-1) * 2 end },
+	level = function(level) return 10 + (level-1)  end,
+}
+cursed_str_req_high2 = {
+	stat = { str=function(level) return 30 + (level-1) * 2 end },
+	level = function(level) return 14 + (level-1)  end,
+}
+cursed_str_req_high3 = {
+	stat = { str=function(level) return 38 + (level-1) * 2 end },
+	level = function(level) return 18 + (level-1)  end,
+}
+cursed_str_req_high4 = {
+	stat = { str=function(level) return 46 + (level-1) * 2 end },
+	level = function(level) return 22 + (level-1)  end,
+}
+cursed_str_req_high5 = {
+	stat = { str=function(level) return 54 + (level-1) * 2 end },
+	level = function(level) return 26 + (level-1)  end,
+}
+
 cursed_cun_req1 = {
 	stat = { cun=function(level) return 12 + (level-1) * 2 end },
 	level = function(level) return 0 + (level-1)  end,
@@ -122,6 +149,27 @@ cursed_cun_req_high4 = {
 }
 cursed_cun_req_high5 = {
 	stat = { cun=function(level) return 54 + (level-1) * 2 end },
+	level = function(level) return 26 + (level-1)  end,
+}
+
+cursed_mag_req_high1 = {
+	stat = { mag=function(level) return 22 + (level-1) * 2 end },
+	level = function(level) return 10 + (level-1)  end,
+}
+cursed_mag_req_high2 = {
+	stat = { mag=function(level) return 30 + (level-1) * 2 end },
+	level = function(level) return 14 + (level-1)  end,
+}
+cursed_mag_req_high3 = {
+	stat = { mag=function(level) return 38 + (level-1) * 2 end },
+	level = function(level) return 18 + (level-1)  end,
+}
+cursed_mag_req_high4 = {
+	stat = { mag=function(level) return 46 + (level-1) * 2 end },
+	level = function(level) return 22 + (level-1)  end,
+}
+cursed_mag_req_high5 = {
+	stat = { mag=function(level) return 54 + (level-1) * 2 end },
 	level = function(level) return 26 + (level-1)  end,
 }
 
@@ -175,3 +223,7 @@ load("/data/talents/cursed/advanced-shadowmancy.lua")
 load("/data/talents/cursed/cursed-form.lua")
 load("/data/talents/cursed/cursed-aura.lua")
 load("/data/talents/cursed/fears.lua")
+
+load("/data/talents/cursed/bloodstained.lua")
+load("/data/talents/cursed/self-hatred.lua")
+load("/data/talents/cursed/crimson-templar.lua")

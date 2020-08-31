@@ -320,6 +320,8 @@ newTalent{
 			self.alchemy_golem:setTarget(nil)
 			self.alchemy_golem.ai_state.tactic_leash_anchor = self
 			self.alchemy_golem:removeAllEffects()
+			self.alchemy_golem.max_level = self.max_level
+			self.alchemy_golem:forceLevelup(new_level)
 		end
 
 		game:playSoundNear(self, "talents/arcane")

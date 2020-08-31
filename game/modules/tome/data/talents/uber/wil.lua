@@ -294,3 +294,104 @@ uberTalent{
 		tformat()
 	end,
 }
+
+uberTalent{
+	name = "Fallen", image="talents/splatter_sigils.png",
+	require = {
+		birth_descriptors={{"subclass", "Sun Paladin"}},
+		special={desc=_t"Unlocked the Fallen evolution", fct=function(self) return profile.mod.allow_build.paladin_fallen end},
+		special2={desc=_t"Committed a heinous act", fct=function(self) if not game.state.birth.supports_fallen_transform then return true else return game.state.birth.supports_fallen_transform(self) end end},
+		stat = {mag=25},
+	},
+	is_class_evolution = "Sun Paladin",
+	cant_steal = true,
+	mode = "passive",
+	no_npc_use = true,
+	unlearnTalents = function(self, t, cats)
+		local tids = {}
+		local types = {}
+		for id, lvl in pairs(self.talents) do
+			local t = self.talents_def[id]
+			if t.type[1] and cats[t.type[1]] ~= nil then
+				types[t.type[1]] = true
+				tids[id] = lvl
+			end
+		end
+		local unlearnt = 0
+		for id, lvl in pairs(tids) do self:unlearnTalent(id, lvl, nil, {no_unlearn=true}) unlearnt = unlearnt + lvl end
+		self.unused_talents = self.unused_talents + unlearnt
+		
+		for cat, v in pairs(cats) do
+			self.talents_types[cat] = nil
+		end
+	end,
+	learnAndMaster = function(self, cat, unlocked, mastery)
+		self:learnTalentType(cat, unlocked)
+		self:setTalentTypeMastery(cat, mastery)
+	end,
+	on_learn = function(self, t)
+		t.learnAndMaster(self, "cursed/bloodstained", true, 1.3)
+		t.learnAndMaster(self, "celestial/darkside", true, 1.3)
+		
+		t.learnAndMaster(self, "cursed/gloom", self:knowTalentType("celestial/radiance"), 1.3)
+		
+		t.learnAndMaster(self, "cursed/crimson-templar", self:knowTalentType("celestial/guardian"), 1.3)
+		t.learnAndMaster(self, "celestial/black-sun", self:knowTalentType("celestial/crusader"), 1.3)
+		
+		t.learnAndMaster(self, "cursed/self-hatred", true, 1.3)
+		t.learnAndMaster(self, "celestial/dirge", true, 1.3)
+		
+		local removes = {
+			["celestial/crusader"] = true,
+			["celestial/guardian"] = true,
+			["celestial/radiance"] = true,
+			["technique/2hweapon-assault"] = true,
+			["technique/shield-offense"] = true,
+		}
+		t.unlearnTalents(self, t, removes)
+
+		self:attr("swap_combat_techniques_hate", 1)
+		
+		self:learnTalent(self.T_DIRGE_ACOLYTE, true, 1)
+		self:learnTalent(self.T_SELF_HARM, true, 1)
+
+		game.bignews:say(120, "#CRIMSON#You give in to the darkness. You have fallen!")
+		
+		self:incHate(100)
+
+		-- Remove stamina bar if we dont need it anymore
+		local remove = true
+		for tid, lvl in pairs(self.talents) do
+			local t = self:getTalentFromId(tid)
+			if t.stamina and util.getval(t.stamina, self, t) then remove = false break end
+			if t.sustain_stamina and util.getval(t.sustain_stamina, self, t) then remove = false break end
+			if t.drain_stamina and util.getval(t.drain_stamina, self, t) then remove = false break end
+		end
+		if remove then
+			self:unlearnTalent(self.T_STAMINA_POOL)
+		end
+	end,
+	info = function(self, t)
+		return ([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
+		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
+		
+		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
+
+		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
+
+		The following talent trees are swapped:
+		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
+		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
+		- #GOLD#Crusader#LAST# turns into #CRIMSON#Black Sun#LAST#: Call upon the energies of dead suns to crush your foes
+
+		You will learn the following talents trees:
+		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
+		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
+		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
+		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strength your resolve
+
+		You will forget the following talent trees: Shield Offense, Two-handed Assault.
+		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
+		]]):tformat()
+	end,
+}

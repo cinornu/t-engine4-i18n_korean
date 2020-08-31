@@ -37,7 +37,7 @@ newChat{ id="training",
 			player:incMoney(-100)
 			player:learnTalentType("spell/staff-combat", false)
 			if player:getTalentTypeMastery("spell/staff-combat") < 1 then
-				player:setTalentTypeMastery("spell/staff-combat", math.min(1.1, player:getTalentTypeMastery("spell/staff-combat") + 0.3))
+				player:setTalentTypeMastery("spell/staff-combat", math.min(1.1, player:getTalentTypeMastery("spell/staff-combat", true) + 0.3))
 				game.logPlayer(player, "He is surprised at how quickly you are able to follow his tutelage.")
 			end
 			player.changed = true
@@ -52,7 +52,7 @@ newChat{ id="training",
 			player:incMoney(-500)
 			player:learnTalentType("spell/staff-combat", true)
 			if player:getTalentTypeMastery("spell/staff-combat") < 1 then -- Special case for previously locked category (escort)
-				player:setTalentTypeMastery("spell/staff-combat", math.max(1.0, player:getTalentTypeMastery("spell/staff-combat") + 0.3))
+				player:setTalentTypeMastery("spell/staff-combat", math.max(1.0, player:getTalentTypeMastery("spell/staff-combat", true) + 0.3))
 			end
 			if player:getTalentTypeMastery("spell/staff-combat") > 1 then
 				game.logPlayer(player, "He is impressed with your mastery and shows you a few extra techniques.")
@@ -67,7 +67,7 @@ newChat{ id="training",
 		{_t"I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", action=function(npc, player) --Enhanced intensive training
 			player:incMoney(-750)
 			player:learnTalentType("spell/staff-combat", true)
-			player:setTalentTypeMastery("spell/staff-combat", player:getTalentTypeMastery("spell/staff-combat") + 0.2)
+			player:setTalentTypeMastery("spell/staff-combat", player:getTalentTypeMastery("spell/staff-combat", true) + 0.2)
 			game.logPlayer(player, ("The staff carver spends a great deal of time going over the finer details of staff combat with you%s."):tformat(player:getTalentTypeMastery("spell/staff-combat")>1 and _t", including some esoteric techniques" or ""))
 			player.changed = true
 		end, cond=function(npc, player)

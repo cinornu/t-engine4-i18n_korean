@@ -217,9 +217,14 @@ newTalent{
 			self:project(tg, target.x, target.y, function(tx, ty)
 				local target2 = game.level.map(tx, ty, Map.ACTOR)
 				if not target2 or target2 == target then return end
+				local vul_poison = poisons.EFF_VULNERABILITY_POISON
+				if vul_poison then
+					target2:setEffect(self.EFF_VULNERABILITY_POISON, vul_poison.dur, table.clone(vul_poison))
+					poisons.EFF_VULNERABILITY_POISON = nil
+				end
 				for eff, p in pairs(poisons) do
 					game:playSoundNear(target, "creatures/jelly/jelly_hit")
-					if p.unresistable or target2:canBe("poison") then target2:setEffect(eff, p.dur, table.clone(p)) end
+					if (p.unresistable or target2:canBe("poison")) and (eff ~= target2.EFF_STONE_POISON or not target2:hasEffect(target.EFF_STONED)) then target2:setEffect(eff, p.dur, table.clone(p)) end
 				end
 			end)
 			target.dead = true

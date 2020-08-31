@@ -27,6 +27,8 @@ module(..., package.seeall, class.inherit(Base))
 function _M:init(t)
 	self.dir = assert(t.dir, "no separator dir")
 	self.size = assert(t.size, "no separator size")
+	self.text = t.text
+	self.text_shadow = t.text_shadow or self.text_shadow
 
 	self.dest_area = {w = 1, h = 1}
 	Base.init(self, t)
@@ -44,6 +46,10 @@ function _M:generate()
 		self.middle = self:getUITexture("ui/border_hor_middle.png")
 		self.right = self:getUITexture("ui/border_hor_right.png")
 		self.w, self.h = self.size, self.middle.h
+
+		if self.text then
+			self.text_tex = self:drawFontLine(self.font, self.text)
+		end
 	end
 	self.dest_area.w = self.w
 	self.dest_area.h = self.h
@@ -58,5 +64,10 @@ function _M:display(x, y, nb_keyframes)
 		self.left.t:toScreenFull(x, y, self.left.w, self.left.h, self.left.tw, self.left.th)
 		self.right.t:toScreenFull(x + self.w - self.right.w, y, self.right.w, self.right.h, self.right.tw, self.right.th)
 		self.middle.t:toScreenFull(x + self.left.w, y, self.w - self.left.w - self.right.w, self.middle.h, self.middle.tw, self.middle.th)
+
+		if self.text_tex then
+			if self.text_shadow then self:textureToScreen(self.text_tex, x + (self.w - self.text_tex.w) / 2 + 1, y + (self.h - self.text_tex.h) / 2 + 1, 0, 0, 0, self.text_shadow) end
+			self:textureToScreen(self.text_tex, x + (self.w - self.text_tex.w) / 2, y + (self.h - self.text_tex.h) / 2)
+		end
 	end
 end
