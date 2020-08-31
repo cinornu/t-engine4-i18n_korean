@@ -236,8 +236,7 @@
 "game/modules/tome//data/texts/tutorial/talents.lua"
 "game/modules/tome//data/texts/tutorial/terrain.lua" ** ('기믹' 단어 사용) Khelerd 완
 
-"game/modules/tome//data/zones/tutorial-combat-stats/zone.lua"
-"game/modules/tome//data/zones/tutorial/npcs.lua" Khelerd 완
+
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
 
@@ -407,7 +406,13 @@
 "game/modules/tome/data/zones/town-zigur/grids.lua"
 "game/modules/tome/data/zones/town-zigur/npcs.lua"
 "game/modules/tome/data/zones/town-zigur/objects.lua"
-"game/modules/tome/data/zones/town-zigur/traps.lua" Khelerd 완
+"game/modules/tome/data/zones/town-zigur/traps.lua"
+"game/modules/tome/data/zones/trollmire/grids.lua"
+"game/modules/tome/data/zones/trollmire/npcs.lua"
+"game/modules/tome/data/zones/trollmire/zone.lua"
+"game/modules/tome/data/zones/tutorial-combat-stats/zone.lua" * 더미 데이터
+"game/modules/tome/data/zones/tutorial/npcs.lua"
+"game/modules/tome/data/zones/tutorial/traps.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
