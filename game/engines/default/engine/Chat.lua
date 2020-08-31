@@ -25,6 +25,9 @@ local slt2 = require "slt2"
 -- @classmod engine.Chat
 module(..., package.seeall, class.make)
 
+_M.chat_context_strings = {"#{italic}##LIGHT_GREEN#", "#LAST##{normal}#"}
+_M.chat_bold_strings = {"#{bold}#", "#{normal}#"}
+
 --- Init
 -- @string name used to load a chat file
 -- @param[type=Actor] npc the NPC that the player is talking to
@@ -86,6 +89,11 @@ function _M:addChat(c)
 	assert(c.answers, "no chat answers")
 	self.chats[c.id] = c
 	print("[CHAT] loaded", c.id, c)
+
+	if not c.ignore_easy_controls and c.text then
+		c.text = c.text:gsub("<<<(.-)>>>", self.chat_context_strings[1].."%1"..self.chat_context_strings[2])
+		c.text = c.text:gsub("%*%*(.-)%*%*", self.chat_bold_strings[1].."%1"..self.chat_bold_strings[2])
+	end
 
 	-- Parse answers looking for quick replies
 	for i, a in ipairs(c.answers) do

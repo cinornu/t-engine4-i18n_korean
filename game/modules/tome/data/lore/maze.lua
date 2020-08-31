@@ -66,7 +66,8 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 
 #{italic}#You find a dusty case filled with many small vials of powder. They seem serviceable.#{normal}#]],
-	on_learn = function(who)
+	on_learn = function(who, relearning)
+		if relearning then return end
 		local p = game.party:findMember{main=true}
 		if p:knowTalentType("cunning/trapping") then
 			game.state:unlockTalent(p.T_POISON_GAS_TRAP, p)

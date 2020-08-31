@@ -69,6 +69,7 @@ local credits = {
 	{"Hetdegon"},
 	{"Jamie 'Orange' Martin"},
 	{"John 'Benli' Truchard"},
+	{"McIntyre 'Recaiden' Watts"},
 	{"Nicolas 'DarkGod' Casalini"},
 	{"StarKeep"},
 	{"Simon 'HousePet' Curtis"},

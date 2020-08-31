@@ -24,6 +24,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	autolearn_talent = "T_SOUL_POOL",
+	no_unlearn_last = true,
 	getTurns = function(self, t) return self:combatTalentLimit(t, 1, 10, 3) end,
 	getTurnsByRank = function(self, t, target)
 		local base = t.getTurns(self, t)
@@ -35,6 +36,10 @@ newTalent{
 		elseif target.rank >= 10 then return math.ceil(base / 2), true
 		else return 20, false
 		end
+	end,
+	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 2, 8)) end,
+	passives = function(self, t, p)
+		self:talentTemporaryValue(p, "max_soul", t.getNb(self, t))
 	end,
 	callbackOnDealDamage = function(self, t, val, target, dead, death_note)
 		if target.necrotic_minion then return end
@@ -67,8 +72,10 @@ newTalent{
 		%s- rare: at most every %d turns
 		%s- unique: at most every %d turns
 		%s- boss: at most every %d turns
-		%s- elite boss: at most every %d turns
-		]]):tformat(c_rare, t.getTurnsByRank(self, t, {rank=3.2}), c_unique, t.getTurnsByRank(self, t, {rank=3.5}), c_boss, t.getTurnsByRank(self, t, {rank=4}), c_eboss, t.getTurnsByRank(self, t, {rank=5}))
+		%s- elite boss: at most every %d turns#WHITE#
+
+		Also increases your maximum souls capacity by %d .
+		]]):tformat(c_rare, t.getTurnsByRank(self, t, {rank=3.2}), c_unique, t.getTurnsByRank(self, t, {rank=3.5}), c_boss, t.getTurnsByRank(self, t, {rank=4}), c_eboss, t.getTurnsByRank(self, t, {rank=5}), t.getNb(self, t))
 	end,
 }
 
@@ -129,7 +136,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		return ([[Unleash dark forces to all foes in sight that are afflicted by Soul Leech, dealing %0.2f frostdusk damage to them and tearing apart their souls.
-		This returns up to %d souls to you (based on number of foes hit).
+		This returns up to %d souls to you (one for each foe hit).
 		The damage increases with your Spellpower.]]):
 		tformat(damDesc(self, DamageType.FROSTDUSK, t.getDamage(self, t)), t.getNb(self, t))
 	end,
@@ -143,11 +150,10 @@ newTalent{
 	mode = "sustained",
 	cooldown = 30,
 	sustain_mana = 30,
-	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 2, 8)) end,
 	getMana = function(self, t) return math.floor(self:combatTalentScale(t, 5, 30)) / 10 end,
 	getSpellpower = function(self, t) return math.floor(self:combatTalentScale(t, 10, 40)) end,
 	getResists = function(self, t) return math.floor(self:combatTalentLimit(t, 20, 5, 10)) end,
-	callbackOnActBase = function(self, t)
+	callbackOnAct = function(self, t)
 		if not self.__old_reaping_souls then self.__old_reaping_souls = self:getSoul() end
 		if self.__old_reaping_souls == self:getSoul() then return end
 		self:updateTalentPassives(t)
@@ -158,7 +164,6 @@ newTalent{
 		if s >= 2 then self:talentTemporaryValue(p, "mana_regen", t.getMana(self, t)) end
 		if s >= 5 then self:talentTemporaryValue(p, "combat_spellpower", t.getSpellpower(self, t)) end
 		if s >= 8 then self:talentTemporaryValue(p, "resists", {all=t.getResists(self, t)}) end
-		self:talentTemporaryValue(p, "max_soul", t.getNb(self, t))
 	end,
 	activate = function(self, t)
 		local ret = {}
@@ -178,8 +183,7 @@ newTalent{
 		return ([[You draw constant power from the souls you hold within your grasp.
 		If you hold at least 2, your mana regeneration is increased by %0.1f per turn.
 		If you hold at least 5, your spellpower is increased by %d.
-		If you hold at least 8, all your resistances are increased by %d.
-		Also increases your maximum souls capacity by %d.]]):
-		tformat(t.getMana(self, t), t.getSpellpower(self, t), t.getResists(self, t), t.getNb(self, t))
+		If you hold at least 8, all your resistances are increased by %d.]]):
+		tformat(t.getMana(self, t), t.getSpellpower(self, t), t.getResists(self, t))
 	end,
 }

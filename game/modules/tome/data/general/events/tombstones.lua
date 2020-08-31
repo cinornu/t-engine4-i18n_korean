@@ -44,6 +44,7 @@ if tries < 100 then
 		if not who or not who.player or not act then return false end
 		who:runStop(_t"grave")
 		require("engine.ui.Dialog"):yesnoPopup(_t"Grave", _t"Do you wish to disturb the grave?", function(ret) if ret then
+			game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
 			local g = game.level.map(x, y, engine.Map.TERRAIN)
 			g:removeAllMOs()
 			if g.add_displays then

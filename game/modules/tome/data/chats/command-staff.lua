@@ -141,7 +141,7 @@ local aspect_chat_id = not is_sentient() and "welcome" or "which_aspect"
 for _, flavor in ipairs(flavor_list) do
 	local damtypes = o:getStaffFlavor(flavor)
 	local answers = {}
-	for i, dtype in ipairs(damtypes) do
+	for i, dtype in ipairs(damtypes or {}) do
 		local name = ("[%s]"):format(DamageType:get(dtype).name:capitalize())
 		answers[i] = {name, action = function() set_element(dtype, flavor, game.player) end}
 	end

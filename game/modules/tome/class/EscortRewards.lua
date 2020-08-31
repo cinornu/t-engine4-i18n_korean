@@ -555,7 +555,7 @@ function _M:rewardChatAnwsers(who, reward, jump_to, on_chose)
 			local tt_def = who:getTalentTypeFrom(tt)
 			local cat = tt_def.type:gsub("/.*", "")
 			local doit = function(npc, player) game.party:reward(_t"Select the party member to receive the reward:", function(player)
-				if player:knowTalentType(tt) == nil then player:setTalentTypeMastery(tt, mastery - 1 + player:getTalentTypeMastery(tt)) end
+				if player:knowTalentType(tt) == nil then player:setTalentTypeMastery(tt, mastery - 1 + player:getTalentTypeMastery(tt, true)) end
 				player:learnTalentType(tt, false)
 				on_chose(npc, player, "talent_type", tt, mastery, ("gained talent category %s (at mastery %0.2f)"):tformat(_t(cat):capitalize().." / "..tt_def.name:capitalize(), mastery))
 			end) end

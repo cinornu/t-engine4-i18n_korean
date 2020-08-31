@@ -200,7 +200,15 @@ function _M:finish()
 
 	-- Prodigies
 	if self.on_finish_prodigies then
-		for tid, ok in pairs(self.on_finish_prodigies) do if ok then self.actor:learnTalent(tid, true, nil, {no_unlearn=true}) end end
+		for tid, ok in pairs(self.on_finish_prodigies) do if ok then
+			local t = self.actor:getTalentFromId(tid)
+			if self.actor:canLearnTalent(t) or config.settings.cheat then
+				self.actor:learnTalent(tid, true, nil, {no_unlearn=true})
+			else
+				game.log("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", t.name)
+				self.actor.unused_prodigies = self.actor.unused_prodigies + 1
+			end
+		end end
 	end
 
 	if not self.on_birth then
@@ -218,6 +226,17 @@ function _M:finish()
 			local old_lvl = self.actor_dup:getTalentLevel(t_id)
 			local old_lvl_raw = self.actor_dup:getTalentLevelRaw(t_id)
 			t.on_levelup_close(self.actor, t, lvl, old_lvl, lvl_raw, old_lvl_raw, true)
+		end
+	end
+
+	for t_id, _ in pairs(self.talents_changed) do
+		local t = self.actor:getTalentFromId(t_id)
+		if t.on_levelup_changed then
+			local lvl = self.actor:getTalentLevel(t_id)
+			local lvl_raw = self.actor:getTalentLevelRaw(t_id)
+			local old_lvl = self.actor_dup:getTalentLevel(t_id)
+			local old_lvl_raw = self.actor_dup:getTalentLevelRaw(t_id)
+			t.on_levelup_changed(self.actor, t, lvl, old_lvl, lvl_raw, old_lvl_raw)
 		end
 	end
 

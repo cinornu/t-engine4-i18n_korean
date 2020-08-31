@@ -69,6 +69,7 @@ newTalent{
 	getSpeed = function(self, t) return math.floor(self:combatTalentScale(t, 2, 5)) end,
 	getHeal = function(self, t) return math.floor(self:combatTalentScale(t, 12, 22)) end,
 	getDaze = function(self, t) return math.floor(self:combatTalentScale(t, 4, 10)) end,
+	getGhoulDur = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
 	on_pre_use = function(self, t) return self:isTalentActive(self.T_NECROTIC_AURA) end,
 	action = function(self, t, p)
 		local tg = self:getTalentTarget(t)
@@ -77,17 +78,31 @@ newTalent{
 				if target:canBe("stun") then target:setEffect(target.EFF_DAZED, t:_getDaze(self), {apply_power=self:combatSpellpower()}) end
 			elseif target.summoner == self and target.necrotic_minion then
 				target:setEffect(target.EFF_HASTE, t:_getSpeed(self), {power=0.25})
-				target:heal(target.max_life * t:_getHeal(self) / 100, self)
+				if not target.ghoul_minion then target:heal(target.max_life * t:_getHeal(self) / 100, self) end
 			end
 		end)
+
+		if self:knowTalent(self.T_CALL_OF_THE_MAUSOLEUM) then
+			for i = 1, t:_getGhoulDur(self) do self:callTalent(self.T_CALL_OF_THE_MAUSOLEUM, "callbackOnActBase") end
+		end
+		if self:hasEffect(self.EFF_CORPSE_EXPLOSION) then
+			self:hasEffect(self.EFF_CORPSE_EXPLOSION).dur = self:hasEffect(self.EFF_CORPSE_EXPLOSION).dur + t:_getGhoulDur(self)
+		end
+		if self:isTalentActive(self.T_PUTRESCENT_LIQUEFACTION) then
+			self:isTalentActive(self.T_PUTRESCENT_LIQUEFACTION).dur = self:isTalentActive(self.T_PUTRESCENT_LIQUEFACTION).dur + t:_getGhoulDur(self)
+		end
+
 		game.level.map:particleEmitter(self.x, self.y, tg.radius, "ball_darkness", {radius=tg.radius})
 		return true
 	end,	
 	info = function(self, t)
 		return ([[Sends out a surge of undeath energies into your aura.
-		All minions inside gain 25%% speed for %d turns and are healed by %d%%.
+		All minions inside gain 25%% speed for %d turns
+		All non-ghoul minions are healed by %d%%.
+		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
+		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
 		All non-undead foes caught inside are dazed for %d turns.]]):
-		tformat(t:_getSpeed(self), t:_getHeal(self), t:_getDaze(self))
+		tformat(t:_getSpeed(self), t:_getHeal(self), t:_getGhoulDur(self), t:_getGhoulDur(self), t:_getDaze(self))
 	end,
 }
 

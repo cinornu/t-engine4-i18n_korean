@@ -65,7 +65,7 @@ This shall help you on your travels. Farewell!]],
 		{_t"Thank you, Protector.", action=function(npc, player)
 			player:hasQuest("lightning-overload"):create_entrance()
 			if player:knowTalentType("wild-gift/fungus") then
-				player:setTalentTypeMastery("wild-gift/fungus", player:getTalentTypeMastery("wild-gift/fungus") + 0.1)
+				player:setTalentTypeMastery("wild-gift/fungus", player:getTalentTypeMastery("wild-gift/fungus", true) + 0.1)
 			elseif player:knowTalentType("wild-gift/fungus") == false then
 				player:learnTalentType("wild-gift/fungus", true)
 			else

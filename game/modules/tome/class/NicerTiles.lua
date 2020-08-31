@@ -578,7 +578,8 @@ function _M:niceTileSingleWall(level, i, j, g, nt)
 	local g4 = level.map:checkEntity(i-1, j, Map.TERRAIN, kind) or type
 	local g6 = level.map:checkEntity(i+1, j, Map.TERRAIN, kind) or type
 
-	if     g5 ~= g4 and g5 == g6 and g5 == g8 and g5 == g2 then self:replace(i, j, self:getTile(nt["e_cross"]))
+	if     g5 ~= g4 and g5 ~= g6 and g5 ~= g8 and g5 ~= g2 and nt["solo"] then self:replace(i, j, self:getTile(nt["solo"]))
+	elseif g5 ~= g4 and g5 == g6 and g5 == g8 and g5 == g2 then self:replace(i, j, self:getTile(nt["e_cross"]))
 	elseif g5 == g4 and g5 ~= g6 and g5 == g8 and g5 == g2 then self:replace(i, j, self:getTile(nt["w_cross"]))
 	elseif g5 == g4 and g5 == g6 and g5 ~= g8 and g5 == g2 then self:replace(i, j, self:getTile(nt["s_cross"]))
 	elseif g5 == g4 and g5 == g6 and g5 == g8 and g5 ~= g2 then self:replace(i, j, self:getTile(nt["n_cross"]))

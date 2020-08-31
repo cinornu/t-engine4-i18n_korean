@@ -571,7 +571,7 @@ function _M:attackTargetWith(target, weapon, damtype, mult, force_dam)
 		dam = dam * mult
 		print("[ATTACK] after mult", dam)
 
-		if target:hasEffect(target.EFF_COUNTERSTRIKE) then
+		if target:hasEffect(target.EFF_COUNTERSTRIKE) and not self:attr("ignore_counterstrike") then
 			dam = target:callEffect(target.EFF_COUNTERSTRIKE, "onStrike", dam, self)
 			print("[ATTACK] after counterstrike", dam)
 		end
@@ -1131,7 +1131,9 @@ function _M:attackTargetHitProcs(target, weapon, dam, apr, armor, damtype, mult,
 		local t = target:getTalentFromId(target.T_SHARDS)
 		target.turn_procs.shield_shards = true
 		self.logCombat(target, self, "#Source# counter attacks #Target# with %s shield shards!", string.his_her(target))
+		target:attr("ignore_counterstrike", 1)
 		target:attackTarget(self, DamageType.NATURE, self:combatTalentWeaponDamage(t, 0.4, 1), true)
+		target:attr("ignore_counterstrike", -1)
 	end
 	-- post melee attack hooks/callbacks, not included: apr, armor, atk, def, evaded, repelled, old_target_life
 	local hd = {"Combat:attackTargetWith", hitted=hitted, crit=crit, target=target, weapon=weapon, damtype=damtype, mult=mult, dam=dam}
@@ -1781,6 +1783,9 @@ function _M:combatSpellpowerRaw(add)
 	if self:knowTalent(self.T_SHADOW_CUNNING) then
 		add = add + self:callTalent(self.T_SHADOW_CUNNING,"getSpellpower") * self:getCun() / 100
 	end
+	if self:knowTalent(self.T_LUNACY) then
+		add = add + self:callTalent(self.T_LUNACY,"getSpellpower") * self:getWil() / 100
+	end
 	if self:hasEffect(self.EFF_BLOODLUST) then
 		add = add + self:hasEffect(self.EFF_BLOODLUST).spellpower * self:hasEffect(self.EFF_BLOODLUST).stacks
 	end
@@ -2112,6 +2117,9 @@ function _M:combatMindpowerRaw(add)
 	if self:knowTalent(self.T_GESTURE_OF_POWER) then
 		local t = self:getTalentFromId(self.T_GESTURE_OF_POWER)
 		add = add + t.getMindpowerChange(self, t)
+	end
+	if self:knowTalent(self.T_LUNACY) then
+		add = add + self:callTalent(self.T_LUNACY,"getMindpower") * self:getMag() / 100
 	end
 	if self:attr("psychometry_power") then
 		add = add + self:attr("psychometry_power")

@@ -999,6 +999,8 @@ function _M:removeTemporaryValue(prop, id, noupdate)
 	-- The recursive enclosure
 	local recursive
 	recursive = function(base, prop, v, method)
+		if not base then util.send_error_backtrace("Error removing property "..tostring(prop).." with value "..tostring(v).." : base is nil") return end
+
 		method = self.temporary_values_conf[prop] or method
 		if type(v) == "number" then
 			-- Simple addition
@@ -1111,6 +1113,7 @@ function _M:tableTemporaryValuesRemove(t)
 	for i = 1, #t do
 		self:removeTemporaryValue(t[i][1], t[i][2])
 	end
+	table.empty(t)
 end
 
 --- Called when a temporary value changes (added or deleted)

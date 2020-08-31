@@ -27,7 +27,8 @@ newTalent{
 	require = techs_strdex_req1,
 	points = 5,
 	random_ego = "attack",
-	stamina = function(self, t) return self:knowTalent(self.T_STEAMROLLER) and 2 or 22 end,
+	stamina = function(self, t) return not self:attr("swap_combat_techniques_hate") and (self:knowTalent(self.T_STEAMROLLER) and 2 or 22) end,
+	hate = function(self, t) return self:attr("swap_combat_techniques_hate") and (self:knowTalent(self.T_STEAMROLLER) and 1 or 6) end,
 	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 36, 20)) end, --Limit to >0
 	tactical = { ATTACK = { weapon = 1, stun = 1 }, CLOSEIN = 3 },
 	requires_target = true,
@@ -95,7 +96,8 @@ newTalent{
 	points = 5,
 	require = techs_strdex_req2,
 	cooldown = 30,
-	sustain_stamina = 30,
+	sustain_stamina = function(self, t) return not self:attr("swap_combat_techniques_hate") and 30 end,
+	sustain_hate = function(self, t) return self:attr("swap_combat_techniques_hate") and 9 end,
 	tactical = { BUFF = 1 },
 	getAtk = function(self, t) return self:combatScale(self:getTalentLevel(t) * self:getDex(), 4, 0, 37, 500) end,
 	getCrit = function(self, t)
@@ -128,7 +130,8 @@ newTalent{
 	points = 5,
 	random_ego = "attack",
 	cooldown = 25,
-	stamina = 25,
+	stamina = function(self, t) return not self:attr("swap_combat_techniques_hate") and 25 end,
+	hate = function(self, t) return self:attr("swap_combat_techniques_hate") and 7 end,
 	require = techs_strdex_req3,
 	no_energy = true,
 	tactical = { BUFF = 2 },
@@ -149,7 +152,8 @@ newTalent{
 	points = 5,
 	random_ego = "utility",
 	cooldown = 55,
-	stamina = 25,
+	stamina = function(self, t) return not self:attr("swap_combat_techniques_hate") and 25 end,
+	hate = function(self, t) return self:attr("swap_combat_techniques_hate") and 7 end,
 	no_energy = true,
 	require = techs_strdex_req4,
 	random_boss_rarity = 33, -- common tree on classes and global speed is immensely powerful 
@@ -179,10 +183,19 @@ newTalent{
 	mode = "passive",
 	points = 5,
 	getStamRecover = function(self, t) return self:combatTalentScale(t, 0.6, 2.5, 0.75) end,
+	getHateRecover = function(self, t) return self:combatTalentScale(t, 0.2, 1, 0.75) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "stamina_regen", t.getStamRecover(self, t))
 	end,
+	callbackOnTalentPost = function(self, t, ab, ret, silent)
+		if ab.no_energy then return end
+		if ab.mode ~= "activated" then return end
+		if not self:attr("swap_combat_techniques_hate") then return end
+		if not ab.hate or util.getval(ab.hate, self, ab) <= 0 then return end
+		self:incHate(t.getHateRecover(self, t))
+	end,
 	info = function(self, t)
+		if self:attr("swap_combat_techniques_hate") then return ([[Your combat focus allows you to keep your hatred burning (%0.1f hate refunded after spending hate on a talent)]]):tformat(t.getHateRecover(self, t)) end
 		return ([[Your combat focus allows you to regenerate stamina faster (+%0.1f stamina/turn).]]):tformat(t.getStamRecover(self, t))
 	end,
 }
@@ -225,8 +238,15 @@ newTalent{
 	mode = "passive",
 	-- called by mod.class.Actor:die
 	getStamRecover = function(self, t) return self:combatTalentScale(t, 5, 20, 0.5) end, -- Lower scaling than other recovery talents because it effectively scales with character speed and can trigger more than once a turn
+	getHateRecover = function(self, t) return self:combatTalentScale(t, 1, 4.5, 0.5) end,
 	points = 5,
+	passives = function(self, t, p)
+		if self:attr("swap_combat_techniques_hate") then
+			self:talentTemporaryValue(p, "hate_per_kill", t.getHateRecover(self,t))
+		end
+	end,
 	info = function(self, t)
+		if self:attr("swap_combat_techniques_hate") then return ([[You revel in the death of your foes, regaining %0.1f additional hate with each death you cause.]]):tformat(t.getHateRecover(self, t)) end
 		return ([[You revel in the death of your foes, regaining %0.1f stamina with each death you cause.]]):tformat(t.getStamRecover(self, t))
 	end,
 }

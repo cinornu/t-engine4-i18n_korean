@@ -173,16 +173,18 @@ newTalent{
 		end
 		return false
 	end,
-	callbackOnActEnd = function(self, t)
+	callbackOnActBase = function(self, t)
 		if self:isTalentActive(self.T_GLOOM) and t.hasFoes(self) then
 			local tg = self:getTalentTarget(t)
 			local damage = self:mindCrit(t.getDamage(self, t) * 0.5)
+			damage = damage * (self.global_speed or 1)
 			self:projectSource(tg, self.x, self.y, DamageType.MIND, damage, nil, t)
 			self:projectSource(tg, self.x, self.y, DamageType.DARKNESS, damage, nil, t)
 		end
 	end,
 	info = function(self, t)
-		return ([[Every time you act, all enemies in your gloom take %0.2f mind damage and %0.2f darkness damage.
+		return ([[Every turn, all enemies in your gloom take %0.2f mind damage and %0.2f darkness damage.
+		This damage is increased by your global speed but only happens ever game turn.
 		The damage scales with your Mindpower.
 		Each point in Gloom talents increases your Mindpower (current total: %d).]]):tformat(damDesc(self, DamageType.MIND, t.getDamage(self, t) * 0.5), damDesc(self, DamageType.DARKNESS, t.getDamage(self, t) * 0.5), gloomTalentsMindpower(self))
 	end,

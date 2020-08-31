@@ -1413,3 +1413,31 @@ end
 function resolvers.calc.for_campaign(t, e)
 	if game:isCampaign(t[1]) then t[2](e) end
 end
+
+--- Make defining combat tables for npcs easy
+function resolvers.easy_combat_table(def)
+	return {__resolver="easy_combat_table", def}
+end
+function resolvers.calc.easy_combat_table(t, e)
+	local def = table.clone(t[1], true)
+	if not e._levelup_info then e._levelup_info = {} end
+	local base_level = 1
+	if e.level_range and e.level_range[1] then base_level = e.level_range[1] end
+
+	if type(def.dam) == "table" then
+		local per_level = (def.dam[2] - def.dam[1]) / 50
+		e._levelup_info[#e._levelup_info+1] = {every=1, inc=per_level, max=def.dam.max_at, kchain={"combat"}, k="dam"}
+		def.dam = base_level * per_level + def.dam[1]
+	end
+	if type(def.atk) == "table" then
+		local per_level = (def.atk[2] - def.atk[1]) / 50
+		e._levelup_info[#e._levelup_info+1] = {every=1, inc=per_level, max=def.atk.max_at, kchain={"combat"}, k="atk"}
+		def.atk = base_level * per_level + def.atk[1]
+	end
+	if type(def.apr) == "table" then
+		local per_level = (def.apr[2] - def.apr[1]) / 50
+		e._levelup_info[#e._levelup_info+1] = {every=1, inc=per_level, max=def.apr.max_at, kchain={"combat"}, k="apr"}
+		def.apr = base_level * per_level + def.apr[1]
+	end
+	return def
+end

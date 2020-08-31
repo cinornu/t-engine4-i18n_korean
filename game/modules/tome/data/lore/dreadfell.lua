@@ -171,7 +171,8 @@ But ah, it's not truly an end, for you get to experience the wonder of undead en
 I have let you keep your little sling, since I know you like to play with it. Such a quaint weapon... But this staff I found in your possession - my, what a treasure you have brought me! I do not know whence you stole this artifact, but you clearly were completely unaware of its value or power. It has a history beyond your very comprehension, and in my hands it shall change the future! Thank you kindly, my servant; already you have served your Master well. I'm sure we shall enjoy a great friendship over the many years to come. Well, not friendship exactly - it more involves eternal agony on your part, and a rise to ultimate power and majesty for me. Such is the fate of the weak and the strong, a lesson you have already learned well. What a great teacher I make...
 
 - The Master]],
-	on_learn = function(who)
+	on_learn = function(who, relearning)
+		if relearning then return end
 		local p = game.party:findMember{main=true}
 		if p:knowTalentType("cunning/trapping") then
 			game.log("#0080FF#On the back of the letter you can just make out a coarsely scrawled and badly faded diagram.#LAST#")

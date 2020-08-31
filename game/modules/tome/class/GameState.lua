@@ -2103,10 +2103,10 @@ function _M:applyRandomClass(b, data, instant)
 		
 		-- Class talent categories
 		local ttypes = {}
-		for tt, d in pairs(mclass.talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) ttypes[tt] = table.clone(d) end
-		for tt, d in pairs(mclass.unlockable_talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) ttypes[tt] = table.clone(d) end
-		for tt, d in pairs(class.talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) ttypes[tt] = table.clone(d) end
-		for tt, d in pairs(class.unlockable_talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d[2]) ttypes[tt] = table.clone(d) end
+		for tt, d in pairs(mclass.talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt, true) or 1) + d[2]) ttypes[tt] = table.clone(d) end
+		for tt, d in pairs(mclass.unlockable_talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt, true) or 1) + d[2]) ttypes[tt] = table.clone(d) end
+		for tt, d in pairs(class.talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt, true) or 1) + d[2]) ttypes[tt] = table.clone(d) end
+		for tt, d in pairs(class.unlockable_talents_types or {}) do b:learnTalentType(tt, true) b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt, true) or 1) + d[2]) ttypes[tt] = table.clone(d) end
 
 		-- Non-class talent categories
 		if data.add_trees then
@@ -2114,7 +2114,7 @@ function _M:applyRandomClass(b, data, instant)
 				if not b:knowTalentType(tt) then
 					if type(d) ~= "number" then d = rng.range(1, 3)*0.1 end
 					b:learnTalentType(tt, true)
-					b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt) or 1) + d)
+					b:setTalentTypeMastery(tt, (b:getTalentTypeMastery(tt, true) or 1) + d)
 					ttypes[tt] = {true, d}
 				end
 			end

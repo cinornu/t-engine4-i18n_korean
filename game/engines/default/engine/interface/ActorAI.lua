@@ -59,13 +59,14 @@ function _M:loadDefinition(dir)
 end
 
 function _M:init(t)
-	self.ai_state = self.ai_state or {}
-	self.ai_target = self.ai_target or {}
-	self.ai_actors_seen = self.ai_actors_seen or {}  -- List of actors the AI has had LOS of at least once (regardless of target)
 	self:autoLoadedAI()
 end
 
 function _M:autoLoadedAI()
+	self.ai_state = self.ai_state or {}
+	self.ai_target = self.ai_target or {}
+	self.ai_actors_seen = self.ai_actors_seen or {}  -- List of actors the AI has had LOS of at least once (regardless of target)
+
 	-- Make the table with weak values, so that threat list does not prevent garbage collection
 	setmetatable(self.ai_target, {__mode='v'})
 
