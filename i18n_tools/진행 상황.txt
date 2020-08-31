@@ -421,7 +421,13 @@
 "game/modules/tome/data/zones/unremarkable-cave/zone.lua"
 "game/modules/tome/data/zones/valley-moon-caverns/grids.lua"
 "game/modules/tome/data/zones/valley-moon-caverns/objects.lua"
-"game/modules/tome/data/zones/valley-moon-caverns/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/valley-moon-caverns/zone.lua"
+"game/modules/tome/data/zones/valley-moon/grids.lua"
+"game/modules/tome/data/zones/valley-moon/npcs.lua"
+"game/modules/tome/data/zones/valley-moon/zone.lua"
+"game/modules/tome/data/zones/void/zone.lua" * 더미 데이터
+"game/modules/tome/data/zones/vor-armoury/npcs.lua"
+"game/modules/tome/data/zones/vor-armoury/zone.lua" Khelerd 완
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
