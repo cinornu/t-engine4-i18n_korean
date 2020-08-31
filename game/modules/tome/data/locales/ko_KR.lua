@@ -1750,7 +1750,7 @@ The use of spells or arcane-powered equipment is impossible.
 ------------------------------------------------
 section "game/modules/tome/class/interface/WorldAchievements.lua"
 
-t("Maj'Eyal", "마즈'에이얄", "_t")
+t("Maj'Eyal", "마즈'에이알", "_t")
 t("%s (Roguelike)", "%s (로그라이크)", "tformat")
 t("%s (Exploration mode)", "%s (탐험)", "tformat")
 t("%s (Nightmare (Adventure) difficulty)", "%s (악몽 (모험) 난이도)", "tformat")
@@ -4537,7 +4537,7 @@ t("multihued", "다색", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/mummy.lua"
 
-t("mummy", "미이라", "entity subtype")
+t("mummy", "미라", "entity subtype")
 t("undead", "언데드", "entity type")
 
 
@@ -6541,7 +6541,7 @@ t("chunk of rotten flesh", "썩어가는 살코기", "_t")
 t("chunk of ghoul flesh", "구울의 살코기", "entity name")
 t("Rotten and reeking. It still twitches occasionally.", "심하게 썩었으며 악취가 납니다. 가끔씩 경련을 일으킵니다.", "_t")
 t("dry, flesh-encrusted bone", "말라버린, 살코기가 붙어있는 뼈", "_t")
-t("mummified bone", "미이라화 된 뼈", "entity name")
+t("mummified bone", "미라화 된 뼈", "entity name")
 t("Bits of dry flesh still cling to this ancient bone.", "오래된 뼈에 아직도 마른 살덩이 조각이 붙어 있습니다.", "_t")
 t("small, pointed tooth", "작고 뾰족한 이빨", "_t")
 t("sandworm tooth", "샌드웜 이빨", "entity name")
@@ -6961,9 +6961,9 @@ t("alchemist golem mount", "연금술사 골렘", "entity name")
 section "game/modules/tome/data/general/objects/mummy-wrappings.lua"
 
 t("armor", "방어구", "entity type")
-t("Decaying mummy wrappings.", "썩어가는 미이라의 붕대입니다.", "_t")
-t("mummy", "미이라", "entity short_name")
-t("mummy wrappings", "미이라 붕대", "entity name")
+t("Decaying mummy wrappings.", "썩어가는 미라의 붕대입니다.", "_t")
+t("mummy", "미라", "entity short_name")
+t("mummy wrappings", "미라 붕대", "entity name")
 
 
 ------------------------------------------------
@@ -7504,9 +7504,9 @@ t("Keep this stuff well away from your campfire unless you want me to have to fi
 t("chunk of ghoul flesh", "구울의 살코기", "ingredient name")
 t("Rotten and reeking. It still twitches occasionally.", "심하게 썩었으며 악취가 납니다. 가끔씩 경련을 일으킵니다.", "_t")
 t("Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "안 좋은 소식이지만, 구울에게서 이따금 떨어져 나오는 살덩이로는 안 되네. 구울에게서 직접 신선한 놈으로 도축해와야 해.", "_t")
-t("mummified bone", "미이라화 된 뼈", "ingredient name")
+t("mummified bone", "미라화 된 뼈", "ingredient name")
 t("Bits of dry flesh still cling to this ancient bone.", "오래된 뼈에 아직도 마른 살덩이 조각이 붙어 있습니다.", "_t")
-t("That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "미이라 처리 된 시체에서 나온 뼈가 필요하네. 사실 그런 시체에서 나온 거라면 어느 신체 부위든 상관 없네만, 미이라를 걷어차서 얻어낼 수 있는 신체 부위 중에서 뼈를 못 찾을 일은 없거든. 저주에 걸리지 않은 놈을 찾는 걸 추천하지.", "_t")
+t("That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "미라 처리 된 시체에서 나온 뼈가 필요하네. 사실 그런 시체에서 나온 거라면 어느 신체 부위든 상관 없네만, 미라를 걷어차서 얻어낼 수 있는 신체 부위 중에서 뼈를 못 찾을 일은 없거든. 저주에 걸리지 않은 놈을 찾는 걸 추천하지.", "_t")
 t("sandworm tooth", "샌드웜 이빨", "ingredient name")
 t("Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "작고, 검회색이며, 매우 날카롭습니다. 뼈보단 돌에 가깝게 생겼습니다.", "_t")
 t("Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "그래, 지렁이도 이빨이 있다고. 엄청나게 작을 뿐이야. 그런 것들을 찾을 만한 곳으로 가더라도 잘 살아서 돌아오라고.", "_t")
@@ -8245,7 +8245,8 @@ section "game/modules/tome/data/maps/vaults/trickvault.lua"
 section "game/modules/tome/data/maps/wilderness/eyal.lua"
 
 t("Charred Scar", "검게 탄 상처", "_t")
-t("Maj'Eyal", "마즈'에이얄", "_t")
+t("Far East", "동쪽 대륙", "_t")
+t("Maj'Eyal", "마즈'에이알", "_t")
 
 
 ------------------------------------------------
@@ -16506,8 +16507,8 @@ t([[You enter an aggressive battle stance, increasing Accuracy by %d and Physica
 		광전사 상태에서는 무엇으로도 저지할 수 없습니다. 기절과 속박 면역력을 %d%% 얻습니다.
 		정확도는 민첩에 비례하여 증가하고, 물리력은 힘에 비례하여 증가합니다.]], "tformat")
 t("Warshout", "전투함성", "talent name")
-t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", "_t", nil, {"가"})
-t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", "_t", nil, {"가"})
+t("@Source@ uses Warshout.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
+t("@Source@ uses Warsqueak.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
 t("You cannot use Warshout without a two-handed weapon!", "양손 무기 없이는 전투함성을 사용할 수 없습니다!", "logPlayer")
 t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "반경 %d 칸 범위에 전투함성을 외칩니다. 범위 내의 대상은 %d 턴 동안 위력 %d%% 의 혼란 상태에 빠집니다.", "tformat", {1,3,2})
 t("Death Blow", "죽음의 일격", "talent name")
@@ -16561,7 +16562,7 @@ t([[Use an adjacent friend or foe as a springboard, vaulting over them to anothe
 		만약 방향을 바꾸거나 움직임을 멈추면 증가된 속도 효과는 사라질 것입니다.
 		]], "tformat")
 t("Tumble", "공중제비", "talent name")
-t("@Source@ tumbles to a better position!", "@Source@ 더 나은 위치로 공중제비했습니다!", "_t", nil, {"가"})
+t("@Source@ tumbles to a better position!", "@Source1@ 더 나은 위치로 공중제비했습니다!", "_t")
 t("You cannot move!", "움직일 수 없습니다!", "logPlayer")
 t("You cannot tumble to that space.", "해당 위치로는 공중제비할 수 없습니다.", "logPlayer")
 t([[Move to a spot within range, bounding around, over, or through any enemies in the way.
@@ -17038,7 +17039,7 @@ t("%s resists the knockback!", "%s 꿈쩍도 하지 않았다!", "logSeen", nil,
 section "game/modules/tome/data/talents/techniques/finishing-moves.lua"
 
 t("Uppercut", "턱 강타", "talent name")
-t("@Source@ throws a finishing uppercut.", "@Source2@ 마무리 어퍼컷을 턱에 꽂아넣었다!", "_t", nil, {"는"})
+t("@Source@ throws a finishing uppercut.", "@Source2@ 마무리 어퍼컷을 턱에 꽂아넣었다!", "_t")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
 t([[A finishing uppercut that deals %d%% damage, and attempts to stun your target for %d to %d turns, depending on the amount of combo points you've accumulated.
 		The stun chance will improve with your Physical Power.
@@ -17401,8 +17402,8 @@ t("Fire a lethal shot. This shot will bypass other enemies between you and your 
 section "game/modules/tome/data/talents/techniques/strength-of-the-berserker.lua"
 
 t("Warshout", "전투함성", "talent name")
-t("@Source@ uses Warshout.", "@Source@ 전투함성을 사용합니다.", "_t", nil, {"가"})
-t("@Source@ uses Warsqueak.", "@Source@ 전투함성을 사용합니다.", "_t", nil, {"가"})
+t("@Source@ uses Warshout.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
+t("@Source@ uses Warsqueak.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
 t("Berserker Rage", "광전사의 분노", "talent name")
 t("#Source#'s rage awakens!", "#Source#의 순수한 분노가 타오른다!", "logCombat")
 t("#Source#'s rage subsides!", "#Source#의 분노가 가라앉는다!", "logCombat")
@@ -22445,7 +22446,7 @@ t("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, 
 t("#Target#'s skin turns to stone.", "#Target#의 피부가 돌로 변한다.", "_t")
 t("#Target#'s skin returns to normal.", "#Target#의 피부가 원래대로 돌아온다.", "_t")
 t("The target protects all those around it in radius %d by redirecting all damage against them to itself.", "반경 %d 칸의 아군이 받는 피해를 대신 받음.", "tformat")
-t("#Target# begins protecting %s friends with a stone shield.", "#Target1# 바위 방패를 펼쳐%s  아군을 보호한다.", "tformat")
+t("#Target# begins protecting %s friends with a stone shield.", "#Target1# 바위 방패를 펼쳐 %s 아군을 보호한다.", "tformat")
 t("#Target# is no longer protecting anyone.", "#Target#의 보호 효과가 끝났다.", "_t")
 t("Stone Link", "바위 연결", "_t")
 t("The target is protected by %s, redirecting all damage to it.", "%s에게 보호받고 있음 / 받는 모든 피해가 보호자에게 전달됨.", "tformat")
@@ -22572,17 +22573,24 @@ t("nature", "자연", "effect subtype")
 ------------------------------------------------
 section "game/modules/tome/data/wda/eyal.lua"
 
-t("Maj'Eyal", "마즈'에이얄", "_t")
+t("Maj'Eyal", "마즈'에이알", "_t")
+t("Far East", "동쪽 대륙", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/abashed-expanse/grids.lua"
 
+t("unstable wormhole", "불안정한 웜홀", "entity name")
+t("stable wormhole", "안정된 웜홀", "_t")
+t("#VIOLET#The wormhole absorbs energies and stabilizes. You can now use it to travel.", "#VIOLET#웜홀이 에너지를 흡수하고 안정화되었다. 이제 웜홀을 써서 다른 곳으로 이동할 수 있다.", "logSeen")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/abashed-expanse/npcs.lua"
 
+t("Spacial Disturbance", "공간의 혼란", "entity name")
+t("A hole in the fabric of space, it seems to be the source of the expanse instability.", "공간 구조 그 자체에 난 구멍입니다. 광활한 공간이 불안정해진 원인으로 보입니다.", "_t")
+t("and folded out of existence", "그리고 그의 존재 자체가 사라져 버렸습니다.", "_t")
 
 
 ------------------------------------------------
@@ -22608,8 +22616,19 @@ t("teleporting circle to the surface", "지상으로 통하는 순간이동진",
 ------------------------------------------------
 section "game/modules/tome/data/zones/ancient-elven-ruins/npcs.lua"
 
-t("mummy", "미이라", "entity subtype")
+t("mummy", "미라", "entity subtype")
 t("undead", "언데드", "entity type")
+t("Greater Mummy Lord", "위대한 미라 군주", "entity name")
+t("The wrappings of this mummy radiate with so much power it feels like wind is blowing from them.", "이 미라의 붕대는 너무나 강력한 힘을 내뿜고 있어 마치 바람이 불어오는 것 같습니다.", "_t")
+t("and raised as a soulless shuffling mummy", "그리고 그 시체는 영혼 없이 방황하는 미라로 일으켜졌습니다.", "_t")
+t("ancient elven mummy", "고대의 엘프 미라", "entity name")
+t("An animated corpse in mummy wrappings.", "붕대가 둘러진 살아 움직이는 시체입니다.", "_t")
+t("animated mummy wrappings", "살아 움직이는 미라 붕대", "entity name")
+t("An animated set of mummy wrappings, without a corpse inside; it seems like it cannot move.", "안에 시체 없이 살아 움직이는 미라의 붕대입니다. 걷지는 못하는 것 같습니다.", "_t")
+t("rotting mummy", "썩어가는 미라", "entity name")
+t("A rotting animated corpse in mummy wrappings.", "붕대가 둘러진 살아 움직이는 시체입니다. 썩어가고 있습니다.", "_t")
+t("greater mummy", "위대한 미라", "entity name")
+t("An animated corpse in mummy wrappings, both very well preserved.", "붕대가 둘러진 살아 움직이는 시체입니다. 시체의 보존 상태가 매우 좋습니다.", "_t")
 
 
 ------------------------------------------------
@@ -22625,6 +22644,7 @@ section "game/modules/tome/data/zones/ancient-elven-ruins/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/ardhungol/grids.lua"
 
+t("unstable wormhole", "불안정한 웜홀", "entity name")
 
 
 ------------------------------------------------
