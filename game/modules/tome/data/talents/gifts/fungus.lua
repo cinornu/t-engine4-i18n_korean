@@ -49,10 +49,10 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	getDurationBonus = function(self, t) return math.min(150, self:combatTalentMindDamage(t, 1, 100)) / 100 end,  -- +1 on 5 duration effects (Regeneration infusion) every 20%
-	callbackOnTemporaryEffectAdd = function(self, t, eff_id, e_def, eff)
+	newDuration = function(self, t, dur) return dur + math.ceil(dur * t.getDurationBonus(self, t)) + 1 end,
+	callbackOnTemporaryEffect = function(self, t, eff_id, e_def, eff)
 		if e_def.subtype.regeneration and e_def.type ~= "other" then
-			local add = math.ceil(eff.dur * t.getDurationBonus(self, t)) + 1
-			eff.dur = eff.dur + add
+			eff.dur = t:_newDuration(self, eff.dur)
 		end
 	end,
 	info = function(self, t)

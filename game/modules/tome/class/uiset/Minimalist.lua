@@ -1458,7 +1458,7 @@ function _M:displayParty(scale, bx, by)
 					core.display.glScissor(false)
 
 					local p = (game.player == a) and portrait or portrait_unsel
-					if a.unused_stats > 0 or a.unused_talents > 0 or a.unused_generics > 0 or a.unused_talents_types > 0 and def.control == "full" then
+					if (a.unused_stats > 0 or a.unused_talents > 0 or a.unused_generics > 0 or a.unused_talents_types > 0) and def.control == "full" then
 						p = (game.player == a) and portrait_lev or portrait_unsel_lev
 					end
 					p[1]:toScreenFull(x, y, p[6], p[7], p[2], p[3])

@@ -67,7 +67,7 @@ t("exit", "出口", nil)
 t("harmonystaff", "和谐法杖", nil)
 t("humanoid", "人形生物", nil)
 t("humanoid/orc", "人形生物/兽人", nil)
-t("husk", "不死傀儡", nil)
+t("husk", "尸傀", nil)
 t("hydra", "多头蛇", nil)
 t("image", "镜像", nil)
 t("injured seer", "受伤的先知", nil)
@@ -223,6 +223,30 @@ t("Fifth Hotkey 9", "第五快捷键 9", "_t")
 t("Fifth Hotkey 10", "第五快捷键 10", "_t")
 t("Fifth Hotkey 11", "第五快捷键 11", "_t")
 t("Fifth Hotkey 12", "第五快捷键 12", "_t")
+t("Six Hotkey 1", "第六快捷键 1", "_t")
+t("Six Hotkey 2", "第六快捷键 2", "_t")
+t("Six Hotkey 3", "第六快捷键 3", "_t")
+t("Six Hotkey 4", "第六快捷键 4", "_t")
+t("Six Hotkey 5", "第六快捷键 5", "_t")
+t("Six Hotkey 6", "第六快捷键 6", "_t")
+t("Six Hotkey 7", "第六快捷键 7", "_t")
+t("Six Hotkey 8", "第六快捷键 8", "_t")
+t("Six Hotkey 9", "第六快捷键 9", "_t")
+t("Six Hotkey 10", "第六快捷键 10", "_t")
+t("Six Hotkey 11", "第六快捷键 11", "_t")
+t("Six Hotkey 12", "第六快捷键 12", "_t")
+t("Seven Hotkey 1", "第七快捷键 1", "_t")
+t("Seven Hotkey 2", "第七快捷键 2", "_t")
+t("Seven Hotkey 3", "第七快捷键 3", "_t")
+t("Seven Hotkey 4", "第七快捷键 4", "_t")
+t("Seven Hotkey 5", "第七快捷键 5", "_t")
+t("Seven Hotkey 6", "第七快捷键 6", "_t")
+t("Seven Hotkey 7", "第七快捷键 7", "_t")
+t("Seven Hotkey 8", "第七快捷键 8", "_t")
+t("Seven Hotkey 9", "第七快捷键 9", "_t")
+t("Seven Hotkey 10", "第七快捷键 10", "_t")
+t("Seven Hotkey 11", "第七快捷键 11", "_t")
+t("Seven Hotkey 12", "第七快捷键 12", "_t")
 t("Previous Hotkey Page", "上一页快捷键", "_t")
 t("Next Hotkey Page", "下一页快捷键", "_t")
 t("Quick switch to Hotkey Page 2", "快速切换到快捷键第2页", "_t")
@@ -344,6 +368,7 @@ t("Missing!", "不见了！", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/HotkeysIconsDisplay.lua"
 
+t("Unknown!", "未知!", "_t")
 t("Missing!", "不见了！", "_t")
 
 
@@ -374,6 +399,11 @@ t("Test", "测试", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/Module.lua"
 
+t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#插件开发者可以通过开启调试模式继续测试他们的插件。#{normal}#", "_t")
+t("Beta Addons Disabled", "Beta版禁用插件", "_t")
+t([[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
+#GREY#]], [[本Beta版本设计上用于纯原版测试环境，因此，以下插件被自动禁用:
+#GREY#]], "_t")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#由于 %s ，在线存档无法运行（切换至离线存档）", "log")
 
 

@@ -302,7 +302,7 @@ newTalent{
 	getTargetCount = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
 	getNegativeDrain = function(self, t) return self:combatTalentLimit(t, 0, 8, 3) end, -- Limit > 0, no regen at high levels
 	target = function(self, t) -- for AI only
-		 return {type="ball", friendlyfire=false, friendlyblock=false, radius=t.range, range=0, talent=t}
+		 return {type="ball", friendlyfire=false, friendlyblock=false, radius=self:getTalentRange(t), range=0, talent=t}
 	end,
 	callbackOnActBase = function(self, t)
 		local drain = t.getNegativeDrain(self, t)
@@ -460,7 +460,7 @@ newTalent{
 		end
 	},
 	target = function(self, t) -- for AI only
-		 return {type="ball", friendlyfire=false, friendlyblock=false, radius=t.range, range=0, talent=t}
+		 return {type="ball", friendlyfire=false, friendlyblock=false, radius=self:getTalentRange(t), range=0, talent=t}
 	end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 1, 50) end,
 	getTargetCount = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,

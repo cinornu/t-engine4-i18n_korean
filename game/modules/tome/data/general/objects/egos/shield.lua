@@ -573,7 +573,7 @@ newEntity{
 newEntity{
 	power_source = {technique=true},
 	name = "swashbuckler's ", prefix=true, instant_resolve=true,
-	keywords = {impervious=true},
+	keywords = {swashbuckler=true},
 	level_range = {10, 50},
 	greater_ego = 1,
 	rarity = 18,

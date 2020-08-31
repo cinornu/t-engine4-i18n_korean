@@ -1450,6 +1450,24 @@ function _M:isLoadable()
 end
 
 --- Clones the game world for chronomancy spells
+function _M:chronoCancel(reason, name)
+	if not self._chronoworlds then return end
+	if name then
+		if self._chronoworlds[name] then
+			self._chronoworlds[name] = nil
+			if reason then game.log(reason) end
+			return true
+		end
+	else
+		if next(self._chronoworlds) then
+			self._chronoworlds = nil
+			if reason then game.log(reason) end
+			return true
+		end
+	end
+end
+
+--- Clones the game world for chronomancy spells
 function _M:chronoClone(name)
 	self:getPlayer(true):attr("time_travel_times", 1)
 
@@ -2035,16 +2053,16 @@ function _M:setupCommands()
 			print("===============")
 		end end,
 		[{"_g","ctrl"}] = function() if config.settings.cheat then
+			local f, err = loadfile("/data/general/events/glowing-chest.lua")
+			print(f, err)
+			setfenv(f, setmetatable({level=self.level, zone=self.zone}, {__index=_G}))
+			print(pcall(f))
+do return end
 			game.player:takeHit(100, game.player)
 			game.player:useEnergy()
 			-- DamageType:get(DamageType.ACID).projector(game.player, game.player.x, game.player.y, DamageType.ACID, 100)
 do return end
 			game.player:setEffect("EFF_STUNNED", 1, {apply_power=200})
-do return end
-			local f, err = loadfile("/data/general/events/rat-lich.lua")
-			print(f, err)
-			setfenv(f, setmetatable({level=self.level, zone=self.zone}, {__index=_G}))
-			print(pcall(f))
 do return end
 			self:changeLevel(game.level.level + 1)
 do return end

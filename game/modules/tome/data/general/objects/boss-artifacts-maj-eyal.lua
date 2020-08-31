@@ -217,7 +217,7 @@ It is said the Conclave created this weapon for their warmaster during the dark 
 		tactical = function(self, who, aitarget)
 			if not (self.winterStorm and aitarget) then return end
 			local tx, ty
-			if who.aiSeeTargetPos then tx, ty = who:aiSeeTargetPos(aitarget)
+			if not who:playerControlled() then tx, ty = who:aiSeeTargetPos(aitarget)
 			else tx, ty = aitarget.x, aitarget.y end
 			local TDist, TEnv, SEnv=
 				core.fov.distance(who.x, who.y, tx, ty), -- dist to target
@@ -1052,6 +1052,7 @@ newEntity{ base = "BASE_SHIELD",
 		life_regen = 5,
 		on_melee_hit = {[DamageType. DRAINLIFE] = 15},
 		learn_talent = { [Talents.T_BLOCK] = 1, },
+		talents_types_mastery = { ["cursed/bloodstained"] = 0.3, },
 	},
 }
 

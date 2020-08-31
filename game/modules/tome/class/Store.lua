@@ -104,10 +104,7 @@ function _M:loadup(level, zone)
 		zone.base_level = oldlev
 
 		-- clear chrono worlds and their various effects
-		if game._chronoworlds then
-			game.log("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
-			game._chronoworlds = nil
-		end
+		game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
 	end
 end
 

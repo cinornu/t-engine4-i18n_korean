@@ -17,7 +17,7 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
--- Corruptions
+-- Celestial Spells
 newTalentType{ allow_random=true, no_silence=true, is_spell=true, type="celestial/guardian", name = _t"guardian", min_lev = 10, description = _t"Your devotion grants you additional protection." }
 newTalentType{ allow_random=true, no_silence=true, is_spell=true, type="celestial/chants", name = _t"chants", generic = true, description = _t"Chant the glory of the Sun." }
 newTalentType{ allow_random=true, no_silence=true, is_spell=true, type="celestial/chants-chants", name = _t"chants", generic = true, on_mastery_change = function(self, m, tt) if self:knowTalentType("celestial/chants") ~= nil then self.talents_types_mastery[tt] = self.talents_types_mastery["celestial/chants"] end end, description = _t"Chant the glory of the Sun." }
@@ -39,7 +39,13 @@ newTalentType{ allow_random=true, no_silence=true, is_spell=true, type="celestia
 
 newTalentType{ no_silence=true, is_spell=true, type="celestial/other", name = _t"other", description = _t"Various celestial talents." }
 
--- Generic requires for corruptions based on talent level
+-- Fallen Class Evolution
+newTalentType{ allow_random=false, no_silence=true, is_spell=true, type="celestial/dirges", name = "Dirges", description = "The songs the Fallen sing." }
+newTalentType{ allow_random=false, no_silence=true, is_spell=true, type="celestial/darkside", name = "Darkside", description = "Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike." }
+newTalentType{ allow_random=false, no_silence=true, is_spell=true, type="celestial/black-sun", name = "Black Sun", description = "Celestial combat techniques inspired by the dark places that are not empty." }
+newTalentType{ allow_random=false, no_silence=true, is_spell=true, generic=true, type="celestial/dirge", name = "Dirges", description = "Sing of death and damnation." }
+
+-- Generic requires for celestial spells based on talent level
 divi_req1 = {
 	stat = { mag=function(level) return 12 + (level-1) * 2 end },
 	level = function(level) return 0 + (level-1)  end,
@@ -99,3 +105,6 @@ load("/data/talents/celestial/circles.lua")
 
 load("/data/talents/celestial/other.lua")
 
+load("/data/talents/celestial/darkside.lua")
+load("/data/talents/celestial/black-sun.lua")
+load("/data/talents/celestial/dirge.lua")

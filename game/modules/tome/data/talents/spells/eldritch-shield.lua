@@ -74,31 +74,54 @@ newTalent{
 	cooldown = 30,
 	tactical = { ATTACK = 3, BUFF = 2 },
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 15, 40) end,
+	getPower = function(self, t) return self:combatTalentScale(t, 5, 10) end,
+	getPowerBonus = function(self, t)
+		local power = t:_getPower(self)
+		local tiers = 0
+		local offshield, _, mainshield = self:hasShield()
+		if mainshield then tiers = tiers + mainshield.material_level or 1 end
+		if offshield then tiers = tiers + (offshield.material_level or 1) * 0.5 end
+		return power * tiers
+	end,
 	getBlockCD = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 0, 2)) end,
 	on_pre_use = function(self, t, silent)
 		if not self:hasShield() then if not silent then game.logPlayer(self, "You require a shield to use this talent.") end return false end
 		return true
 	end,
+	updatePowers = function(self, t, p)
+		if not p then return end
+
+		self:tableTemporaryValuesRemove(p.powers)
+		self:tableTemporaryValue(p.powers, "combat_spellpower", t:_getPowerBonus(self))
+		self:tableTemporaryValue(p.powers, "combat_mindpower", t:_getPowerBonus(self))
+	end,
+	callbackOnQuickSwitchWeapons = function(self, t) t.updatePowers(self, t, self:isTalentActive(t.id)) end,
+	callbackOnWear = function(self, t) t.updatePowers(self, t, self:isTalentActive(t.id)) end,
+	callbackOnTakeoff = function(self, t) t.updatePowers(self, t, self:isTalentActive(t.id)) end,
 	activate = function(self, t)
 		local dam = t.getDamage(self, t)
 		local block_cd = t.getBlockCD(self, t)
 
-		local ret = {}
+		local ret = {powers={}}
 		self:talentTemporaryValue(ret, "allow_incomplete_blocks", 1)
 		self:talentTemporaryValue(ret, "talent_cd_reduction", {[self.T_BLOCK]=block_cd})
 		self:talentTemporaryValue(ret, "melee_project", {[DamageType.ARCANE]=dam})
 		self:talentTemporaryValue(ret, "on_melee_hit", {[DamageType.ARCANE]=dam * 0.7})
+		self:tableTemporaryValue(ret.powers, "combat_spellpower", t:_getPowerBonus(self))
+		self:tableTemporaryValue(ret.powers, "combat_mindpower", t:_getPowerBonus(self))
 		return ret
 	end,
 	deactivate = function(self, t, p)
+		self:tableTemporaryValuesRemove(p.powers)
 		return true
 	end,
 	info = function(self, t)
 		local dam = t.getDamage(self, t)
 		return ([[Imbues your shields with arcane power, dealing %0.2f arcane damage with each melee strike and %0.2f arcane damage when hit.
+		Your shields radiate with eldritch forces, imbuing you back with %d spellpower and mindpower per tier of your shields (offhand counts for half). Current bonus is %d.
 		Allows counterstrikes after incomplete blocks and the cooldown of Block is reduced by %d turns.
 		The damage will increase with Spellpower.]]):
-		tformat(damDesc(self, DamageType.ARCANE, dam), damDesc(self, DamageType.ARCANE, dam * 0.7), t.getBlockCD(self, t))
+		tformat(damDesc(self, DamageType.ARCANE, dam), damDesc(self, DamageType.ARCANE, dam * 0.7), t:_getPower(self), t:_getPowerBonus(self), t.getBlockCD(self, t))
 	end,
 }
 

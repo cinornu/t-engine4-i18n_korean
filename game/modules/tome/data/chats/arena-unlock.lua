@@ -132,12 +132,14 @@ Good luck in your adventures, and come visit us when you are done!
 			g.name = _t"exit to Derth"
 			game.zone:addEntity(game.level, g, "terrain", player.x, player.y)
 
-			game.party:reward(_t"Select the party member to receive the +2 generic talent points:", function(player)
-				player.unused_generics = player.unused_generics + 2
-			end)
-			game:setAllowedBuild("campaign_arena", true)
-			game.player:setQuestStatus("arena-unlock", engine.Quest.COMPLETED)
-			world:gainAchievement("THE_ARENA", game.player)
+			if game.player:isQuestStatus("arena-unlock", engine.Quest.DONE) then
+				game.party:reward(_t"Select the party member to receive the +2 generic talent points:", function(player)
+					player.unused_generics = player.unused_generics + 2
+				end)
+				game:setAllowedBuild("campaign_arena", true)
+				game.player:setQuestStatus("arena-unlock", engine.Quest.COMPLETED)
+				world:gainAchievement("THE_ARENA", game.player)
+			end
 		end) end},
 	}
 }

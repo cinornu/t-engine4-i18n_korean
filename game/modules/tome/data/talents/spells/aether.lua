@@ -210,6 +210,7 @@ newTalent{
 	callbackOnTalentPost = function(self, t, ab)
 		if not self:hasEffect(self.EFF_AETHER_AVATAR) then return end
 		if ab.mode == "sustained" then return end
+		if not ab.is_spell then return end
 		if ab.use_only_arcane and self:getTalentLevel(t) >= ab.use_only_arcane then return end
 		if self:attr("force_talent_ignore_ressources") then return end
 		if self.turn_procs.aether_avatar_penalty then return end

@@ -91,7 +91,6 @@ newTalent{
 		-- ressurect the golem
 		if not game.level:hasEntity(self.alchemy_golem) or self.alchemy_golem.dead then
 			self.alchemy_golem.dead = nil
-			self.alchemy_golem.life = self.alchemy_golem.max_life / 100 * hp
 
 			-- Find space
 			local x, y = util.findFreeGrid(self.x, self.y, 5, true, {[Map.ACTOR]=true})
@@ -103,6 +102,9 @@ newTalent{
 			self.alchemy_golem:setTarget(nil)
 			self.alchemy_golem.ai_state.tactic_leash_anchor = self
 			self.alchemy_golem:removeAllEffects()
+			self.alchemy_golem.max_level = self.max_level
+			self.alchemy_golem:forceLevelup(new_level)
+			self.alchemy_golem.life = self.alchemy_golem.max_life / 100 * hp
 		end
 
 		local mover, golem = getGolem(self)

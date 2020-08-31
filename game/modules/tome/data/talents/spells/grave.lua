@@ -74,7 +74,7 @@ newTalent{
 	tactical = { ATTACKAREA = { COLD = 2 } },
 	range = 7,
 	radius = function(self, t)
-		return math.floor(self:combatTalentScale(t, 2, 6, 0.5, 0, 0, true))
+		return math.floor(self:combatTalentScale(t, 2, 6))
 	end,
 	proj_speed = 4,
 	direct_hit = true,

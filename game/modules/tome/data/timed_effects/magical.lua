@@ -3158,6 +3158,11 @@ newEffect{
 	parameters = {},
 	on_gain = function(self, err) return _t"#Target# is filled with the Sun's fury!", _t"+Sun's Vengeance" end,
 	on_lose = function(self, err) return _t"#Target#'s solar fury subsides.", _t"-Sun's Vengeance" end,
+	callbackOnKill = function(self, eff, src, msg)
+		if src.getHate and src:getHate() > 0 then
+      game:setAllowedBuild("paladin_fallen", true)
+		end
+	end,
 	activate = function(self, eff)
 		self:effectTemporaryValue(eff, "amplify_sun_beam", 25)
 	end
@@ -4157,6 +4162,7 @@ newEffect{
 	name = "CRIPPLING_BLIGHT", image = "talents/crippling_poison.png",
 	desc = _t"Crippling Blight",
 	long_desc = function(self, eff) return ("The target is poisoned and sick, doing %0.2f blight damage per turn. Each time it tries to use a talent there is %d%% chance of failure."):tformat(eff.power, eff.fail) end,
+	charges = function(self, eff) return (math.floor(eff.fail).."%") end,
 	type = "magical",
 	subtype = { poison=true, blight=true }, no_ct_effect = true,
 	status = "detrimental",
@@ -5099,6 +5105,39 @@ newEffect{
 	end,
 }
 
+newEffect{
+	name = "SHATTERED_REMAINS", image = "talents/bone_wall.png",
+	desc = _t"Shattered Remains",
+	long_desc = function(self, eff) return ("health increased by %d, armour by %d and melee retaliation by %d."):tformat(eff.health, eff.armor, eff.retaliation) end,
+	type = "magical",
+	subtype = { skeleton=true, bone=true },
+	status = "beneficial",
+	parameters = { health=10, armor=10, retaliation=10 },
+	on_gain = function(self, err) return _t"#Target# picks up the remains of its fallen comrade.", true end,
+	on_lose = function(self, err) return _t"#Target# drops its additional bones.", true end,
+	updateBonus = function(self, eff)
+		if eff.tmpids then self:tableTemporaryValuesRemove(eff.tmpids) end
+		eff.tmpids = {}
+		self:tableTemporaryValue(eff.tmpids, "max_life", eff.health)
+		self:tableTemporaryValue(eff.tmpids, "life", eff.health)
+		self:tableTemporaryValue(eff.tmpids, "combat_armor", eff.armor)
+		self:tableTemporaryValue(eff.tmpids, "on_melee_hit", {[DamageType.PHYSICAL]=eff.retaliation})
+	end,
+	on_merge = function(self, old_eff, new_eff, ed)
+		old_eff.health = old_eff.health + new_eff.health
+		old_eff.armor = old_eff.armor + new_eff.armor
+		old_eff.retaliation = old_eff.retaliation + new_eff.retaliation
+		ed.updateBonus(self, old_eff)
+		return old_eff
+	end,
+	activate = function(self, eff, ed)
+		ed.updateBonus(self, eff)
+	end,
+	deactivate = function(self, eff)
+		self:tableTemporaryValuesRemove(eff.tmpids)
+	end,
+}
+
 local rime_wraith_def = {
 	type = "magical",
 	subtype = { necrotic=true, cold=true, parasitic=true },
@@ -5157,7 +5196,9 @@ local rime_wraith_def = {
 			local dam = eff.src:callTalent(eff.src.T_FRIGID_PLUNGE, "getDamage")
 			eff.src:projectApply({type="beam", range=10, x=self.x, y=self.y}, target.x, target.y, Map.ACTOR, function(m)
 				if eff.src:reactionToward(m) < 0 then
-					DamageType:get(DamageType.COLD).projector(eff.src, m.x, m.y, DamageType.COLD, dam)
+					eff.src:attr("damage_shield_penetrate", 100)
+					pcall(function() DamageType:get(DamageType.COLD).projector(eff.src, m.x, m.y, DamageType.COLD, dam) end)
+					eff.src:attr("damage_shield_penetrate", -100)
 				else
 					m:heal(heal, eff.src)
 				end
@@ -5372,5 +5413,145 @@ newEffect{
 		self:udpateSustains()
 		if eff.particle1 then self:removeParticles(eff.particle1) end
 		if eff.particle2 then self:removeParticles(eff.particle2) end
+	end,
+}
+
+newEffect{
+	name = "DIRGE_OF_FAMINE", image = "talents/dirge_of_famine.png",
+	desc = _t"Dirge of Famine",
+	long_desc = function(self, eff) return ("The target is regenerating health"):tformat() end,
+	type = "magical",
+	subtype = { regen=true },
+	status = "beneficial",
+	parameters = { heal=1 },
+	activate = function(self, eff)
+		eff.healid = self:addTemporaryValue("life_regen", eff.heal)
+	end,
+	deactivate = function(self, eff)
+		self:removeTemporaryValue("life_regen", eff.healid)
+	end,
+}
+
+newEffect{
+	name = "DIRGE_OF_CONQUEST", image = "talents/dirge_of_conquest.png",
+	desc = _t"Dirge of Conquest",
+	long_desc = function(self, eff) return ("The target will gain a surge of energy on kill or crit"):tformat() end,
+	type = "magical",
+	subtype = { haste=true },
+	status = "beneficial",
+	parameters = { heal=1 },
+	
+	callbackOnCrit = function(self, eff)
+		if self.turn_procs.fallen_conquest_on_crit then return end
+		self.turn_procs.fallen_conquest_on_crit = true
+		
+		self.energy.value = self.energy.value + 100
+		if core.shader.active(4) then
+			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=true , size_factor=1.5, y=-0.3, img="healgreen", life=25}, {type="healing", time_factor=2000, beamsCount=20, noup=2.0, circleDescendSpeed=3.5}))
+			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=false, size_factor=1.5, y=-0.3, img="healgreen", life=25}, {type="healing", time_factor=2000, beamsCount=20, noup=1.0, circleDescendSpeed=3.5}))
+		end
+	end,
+	callbackOnKill = function(self, t)
+		if self.turn_procs.fallen_conquest_on_kill then return end
+		self.turn_procs.fallen_conquest_on_kill = true
+		
+		self.energy.value = self.energy.value + 500
+		if core.shader.active(4) then
+			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=true , size_factor=1.5, y=-0.3, img="healgreen", life=25}, {type="healing", time_factor=2000, beamsCount=20, noup=2.0, circleDescendSpeed=3.5}))
+			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=false, size_factor=1.5, y=-0.3, img="healgreen", life=25}, {type="healing", time_factor=2000, beamsCount=20, noup=1.0, circleDescendSpeed=3.5}))
+		end
+	end,
+	
+	activate = function(self, eff)
+	end,
+	deactivate = function(self, eff)
+	end,
+}
+
+newEffect{
+	name = "DIRGE_OF_PESTILENCE", image = "talents/dirge_of_pestilence.png",
+	desc = _t"Dirge of Pestilence",
+	long_desc = function(self, eff) return ("The target will gain a shield upon suffering a detrimental effect"):tformat() end,
+	type = "magical",
+	subtype = { shield=true },
+	status = "beneficial",
+	parameters = { shield=50, cd=5 },
+	callbackOnTemporaryEffectAdd = function(self, eff, eff_id, e_def, eff_incoming)
+		if not self:hasProc("dirge_shield") then
+			if e_def.status == "detrimental" and e_def.type ~= "other" and eff_incoming.src ~= self then
+				self:setProc("dirge_shield", true, eff.cd)
+				self:setEffect(self.EFF_DAMAGE_SHIELD, eff_incoming.dur, {color={0xff/255, 0x3b/255, 0x3f/255}, power=self:spellCrit(eff.shield)})
+			end
+		end
+	end,
+	activate = function(self, eff)
+	end,
+	deactivate = function(self, eff)
+	end,
+}
+
+newEffect{
+	name = "BLINDING_LIGHT", image = "talents/splatter_sigils.png",
+	desc = _t"Blinding Light",
+	long_desc = function(self, eff) return ("The target is blinded by a magical light and unable to see anything."):tformat(eff.dam) end,
+	type = "magical",
+	subtype = { light=true, blind=true },
+	status = "detrimental",
+	parameters = { dam=10},
+	on_gain = function(self, err) return _t"#Target# loses sight!", _t"+Blind" end,
+	on_lose = function(self, err) return _t"#Target# recovers sight.", _t"-Blind" end,
+	on_timeout = function(self, eff)
+	end,
+	activate = function(self, eff)
+		eff.tmpid = self:addTemporaryValue("blind", 1)
+		if game.level then
+			self:resetCanSeeCache()
+			if self.player then for uid, e in pairs(game.level.entities) do if e.x then game.level.map:updateMap(e.x, e.y) end end game.level.map.changed = true end
+		end
+	end,
+	deactivate = function(self, eff)
+		self:removeTemporaryValue("blind", eff.tmpid)
+		if game.level then
+			self:resetCanSeeCache()
+			if self.player then for uid, e in pairs(game.level.entities) do if e.x then game.level.map:updateMap(e.x, e.y) end end game.level.map.changed = true end
+		end
+	end,
+}
+
+newEffect{
+	name = "DEVOURER_STANCE", image = "talents/devourer_stance.png",
+	desc = _t"Devourer Stance",
+	long_desc = function(self, eff)
+		local heal_note = (eff.counter and eff.counter < 3) and ("The target is storing up healing energy, currently %d"):tformat(eff.heal) or ""
+		return ("The target is redirecting energy, adding %d gravity damage to their attacks.%s"):tformat(eff.gravity, heal_note)
+	end,
+	type = "magical",
+	subtype = { gravity=true },
+	status = "beneficial",
+	parameters = { gravity=10, heal=0 },
+	callbackOnTakeDamage = function(self, eff, src, x, y, type, dam, tmp)
+		if eff.counter < 3 then
+			local dam_absorb = dam * 0.5
+			eff.heal = eff.heal + dam_absorb
+		end
+		return {dam=dam}
+	end,
+	activate = function(self, eff)
+		eff.counter = 0
+		local damtype = DamageType.BLACK_HOLE_GRAVITY
+		eff.onhit = self:addTemporaryValue("melee_project", {[damtype] = eff.gravity})
+	end,
+	deactivate = function(self, eff)
+		self:removeTemporaryValue("melee_project", eff.onhit)
+	end,
+	on_timeout = function(self, eff)
+		if not eff.counter then eff.counter = 0 end
+		eff.counter = eff.counter + 1
+		if eff.counter == 3 then
+			self:attr("allow_on_heal", 1)
+			self:heal(eff.heal, eff.src)
+			self:attr("allow_on_heal", -1)
+			eff.heal = 0
+		end
 	end,
 }

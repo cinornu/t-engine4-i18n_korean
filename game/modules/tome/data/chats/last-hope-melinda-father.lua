@@ -66,7 +66,7 @@ newChat{ id="reward",
 				game.logPlayer(player, "Melinda's father gives you: %s", ro:getName{do_color=true})
 				game.zone:addEntity(game.level, ro, "object")
 				player:addObject(player:getInven("INVEN"), ro)
-				game._chronoworlds = nil
+				game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
 			end
 			player:grantQuest("love-melinda")
 			ql = player:hasQuest("love-melinda")

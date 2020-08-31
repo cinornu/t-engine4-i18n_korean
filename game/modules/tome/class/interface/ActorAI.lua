@@ -693,7 +693,7 @@ function _M:aiGridDamage(gx, gy)
 	
 -- can check map effects here also? (need to be standardized, particularly w.r.t. damage types)
 
-	if g.DamageType and not self:attr("invulnerable") then -- check for damaging terrain
+	if g.DamageType and g.on_stand and not self:attr("invulnerable") then -- check for damaging terrain
 		if not g.faction or self:reactionToward(g) < 0 then
 			if type(g.maxdam) == "table" or type(g.mindam) == "table" then dam = 0
 			else dam = ((g.maxdam or 0) + (g.mindam or 0))/2 * (100 - self:combatGetResist(g.DamageType)-self:combatGetAffinity(g.DamageType))/100

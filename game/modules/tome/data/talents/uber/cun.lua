@@ -486,12 +486,12 @@ uberTalent{
 	require = { special={desc=_t"Have sided with the Assassin Lord", fct=function(self) return game.state.birth.ignore_prodigies_special_reqs or (self:isQuestStatus("lost-merchant", engine.Quest.COMPLETED, "evil")) end} },
 	on_learn = function(self, t) 
 		if self:knowTalentType("cunning/stealth") then
-			self:setTalentTypeMastery("cunning/stealth", self:getTalentTypeMastery("cunning/stealth") + 0.2)
+			self:setTalentTypeMastery("cunning/stealth", self:getTalentTypeMastery("cunning/stealth", true) + 0.2)
 		elseif self:knowTalentType("cunning/stealth") == false then
 			self:learnTalentType("cunning/stealth", true)
 		end
 		if self:knowTalentType("cunning/scoundrel") then
-			self:setTalentTypeMastery("cunning/scoundrel", self:getTalentTypeMastery("cunning/scoundrel") + 0.1)
+			self:setTalentTypeMastery("cunning/scoundrel", self:getTalentTypeMastery("cunning/scoundrel", true) + 0.1)
 		else
 			self:learnTalentType("cunning/scoundrel", true)
 			self:setTalentTypeMastery("cunning/scoundrel", 0.9)

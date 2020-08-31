@@ -182,6 +182,7 @@ newTalent{
 	points = 5,
 	mode = "sustained",
 	sustain_mana = 50,
+	sustain_soul = 2,
 	cooldown = 30,
 	tactical = { BUFF = 2 },
 	getDamageIncrease = function(self, t) return self:combatTalentScale(t, 2.5, 10) end,

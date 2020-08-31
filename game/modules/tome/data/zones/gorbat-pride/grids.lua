@@ -49,6 +49,7 @@ newEntity{
 	air_level = -5,
 	dig = "FENCE_FLOOR",
 	nice_tiler = { method="singleWall",  use_subtype=true, type="bamboo hut",
+		solo={"BHW_SOLO", 100, 1, 1},
 		v_full={"BHW_V_FULL", 100, 1, 1},
 		h_full={"BHW_H_FULL", 20, 1, 8},
 		n_cross={"BHW_N_CROSS", 100, 1, 1},
@@ -77,6 +78,8 @@ newEntity{base="FENCE_WALL", define_as="BHW_E_CROSS1", add_displays={class.new{z
 newEntity{base="FENCE_WALL", define_as="BHW_W_CROSS1", add_displays={class.new{z=17, image="terrain/bamboo/hut_wall_full_hor_01.png"}, class.new{image="terrain/bamboo/wall_hor_divider_right_bottom_01.png", z=16, add_mos={{image="terrain/bamboo/wall_hor_divider_right_top_01.png", display_y=-1}}}}}
 
 newEntity{base="FENCE_WALL", define_as="BHW_CROSS1", add_displays={class.new{z=17, image="terrain/bamboo/hut_wall_bottom_hor_01.png"}, class.new{image="terrain/bamboo/hut_wall_top_hor_01.png", z=16, display_y=-1, add_mos={{image="terrain/bamboo/hut_wall_full_hor_01.png"},{image="terrain/bamboo/hut_corner_vert_4_7_8_top_01.png", display_y=-1}}}}}
+
+newEntity{base="FENCE_WALL", define_as="BHW_SOLO1", add_displays={class.new{z=16, image="terrain/bamboo/south_right_vert_end_bottom_01.png"}, class.new{image="terrain/bamboo/south_right_vert_end_top_01.png", z=17, display_y=-1}}}
 
 newEntity{base="FENCE_WALL", define_as="BHW_NE1", add_displays={class.new{z=17, image="terrain/bamboo/hut_corner_4_1_2_bottom_01.png"}, class.new{image="terrain/bamboo/hut_corner_4_1_2_top_01.png", display_y=-1, z=16}}}
 newEntity{base="FENCE_WALL", define_as="BHW_NW1", add_displays={class.new{z=17, image="terrain/bamboo/hut_corner_6_3_2_bottom_01.png"}, class.new{image="terrain/bamboo/hut_corner_6_3_2_top_01.png", display_y=-1, z=16}}}

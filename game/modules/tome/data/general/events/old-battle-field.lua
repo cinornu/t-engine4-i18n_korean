@@ -151,6 +151,7 @@ if tries < 100 then
 		g.change_level=1 g.change_zone=id g.glow=true
 		g.real_change = changer
 		g.change_level_check = function(self)
+			game:chronoCancel(_t"#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.")
 			if game.level.event_battlefield_entered then return true end
 			self:removeAllMOs()
 			if self.add_displays then

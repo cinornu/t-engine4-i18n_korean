@@ -63,6 +63,7 @@ end
 --		infinite = true (use no ammo)
 --		one_shot = true(fire one shot), multishot (# of targets to hit)
 --		limit_shots = maximum # of shots to fire
+--		ignore_ressources = true, ignore ressource check and don't consume them
 --		ignore_weapon_range = true (fire all weapons even if out of range of target)
 --		add_speed = add to combat_physspeed for this attack
 -- returns a table of target data containing a list of target spots {x=tx, y=ty, ammo=a.combat}
@@ -94,7 +95,7 @@ function _M:archeryAcquireTargets(tg, params, force)
 
 	local weaponC, offweaponC, pf_weaponC
 	local use_resources
-	if weapon then
+	if weapon and not params.ignore_ressources then
 		weaponC = weapon.combat
 		max_range =  math.max(max_range, weaponC.range or 6)
 		warn_range = math.min(warn_range, weaponC.range or 6)
@@ -109,7 +110,7 @@ function _M:archeryAcquireTargets(tg, params, force)
 			end
 		end
 	end
-	if offweapon then
+	if offweapon and not params.ignore_ressources then
 		offweaponC = offweapon.combat
 		max_range =  math.max(max_range, offweaponC.range or 6)
 		warn_range = math.min(warn_range, offweaponC.range or 6)
@@ -117,13 +118,12 @@ function _M:archeryAcquireTargets(tg, params, force)
 		if use_resources then
 			local ok, kind = self:useResources(use_resources, true)
 			if not ok then
-				print("== no ressource", kind)
 				game.logPlayer(self, "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", offweapon:getName({do_color=true, no_add_name=true}), table.get(self.resources_def[kind], "color") or "#SALMON#", table.get(self.resources_def[kind], "name") or kind:capitalize())
 				offweaponC = nil
 			end
 		end
 	end
-	if pf_weapon then
+	if pf_weapon and not params.ignore_ressources then
 		pf_weaponC = pf_weapon.combat
 		max_range =  math.max(max_range, pf_weaponC.range or 6)
 		warn_range = math.min(warn_range, pf_weaponC.range or 6)
@@ -131,7 +131,6 @@ function _M:archeryAcquireTargets(tg, params, force)
 		if use_resources then
 			local ok, kind = self:useResources(use_resources, true)
 			if not ok then
-				print("== no ressource", kind)
 				game.logPlayer(self, "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", pf_weapon:getName({do_color=true, no_add_name=true}), table.get(self.resources_def[kind], "color") or "#SALMON#", table.get(self.resources_def[kind], "name") or kind:capitalize())
 				pf_weaponC = nil
 			end

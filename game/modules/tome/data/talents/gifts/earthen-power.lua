@@ -65,7 +65,8 @@ newTalent{
 	end,
 	info = function(self, t)
 		return ([[When you use your Resilience of the Dwarves racial power your skin becomes so tough that it even absorbs damage from non-physical attacks.
-		Non-physical damage is reduced by %d%% of your total armour value (ignoring hardiness).]]):
+		Non-physical damage is reduced by %d%% of your total armour value (ignoring hardiness).
+		While this effect is not active, half of it is still applied against foes entangled by your stone vines.]]):
 		tformat(t.getPercent(self, t))
 	end,
 }
@@ -88,7 +89,7 @@ newTalent{
 	info = function(self, t)
 		return ([[Sharp shards of stone grow from your shields.
 		When you are hit in melee, you will get a free attack against the attacker with the shards doing %d%% shield damage (as Nature).
-		This effect can only happen once per turn.]]):
+		This effect can only happen once per turn and is not affected by counterstrike.]]):
 		tformat(self:combatTalentWeaponDamage(t, 0.4, 1) * 100)
 	end,
 }

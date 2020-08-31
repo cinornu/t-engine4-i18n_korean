@@ -1087,7 +1087,7 @@ newEffect{
 	type = "mental",
 	subtype = { fear=true },
 	status = "detrimental",
-	parameters = {},
+	parameters = {tyrantDur=5, tyrantPower=2},
 	on_gain = function(self, err) return _t"#F53CBE##Target# is in despair!", _t"+Despair" end,
 	on_lose = function(self, err) return _t"#Target# is no longer in despair", _t"-Despair" end,
 	activate = function(self, eff)
@@ -1117,7 +1117,7 @@ newEffect{
 	type = "mental",
 	subtype = { fear=true },
 	status = "detrimental",
-	parameters = {},
+	parameters = {tyrantDur=5, tyrantPower=2},
 	charges = function(self, eff) return (tostring(math.floor(eff.cooldownPower * 100)).."%") end,
 	on_gain = function(self, err) return _t"#F53CBE##Target# becomes terrified!", _t"+Terrified" end,
 	on_lose = function(self, err) return _t"#Target# is no longer terrified", _t"-Terrified" end,
@@ -1175,7 +1175,7 @@ newEffect{
 	type = "mental",
 	subtype = { fear=true },
 	status = "detrimental",
-	parameters = {damage=10},
+	parameters = {damage=10, tyrantDur=5, tyrantPower=2},
 	on_gain = function(self, err) return _t"#F53CBE##Target# becomes haunted!", _t"+Haunted" end,
 	on_lose = function(self, err) return _t"#Target# is no longer haunted", _t"-Haunted" end,
 	activate = function(self, eff)
@@ -3057,3 +3057,30 @@ newEffect{
 		})
 	end,
 }
+
+newEffect{
+	name = "MARK_OF_THE_VAMPIRE", image = "talents/mark_of_the_vampire.png",
+	desc = _t"Mark of the Vampire",
+	long_desc = function(self, eff) return ("The target is doomed to die a bloody death.  Each time it uses an ability it takes %0.2f physical damage, and incoming bleeds are strengthened by %d%%."):
+		tformat(eff.dam, eff.power*100)
+	end,
+	charges = function(self, eff) return (tostring(math.floor((eff.power-1)*100)).."%") end,
+	type = "mental",
+	subtype = { psionic=true },
+	status = "detrimental",
+	parameters = {dam=10, power = 0.1},
+	
+	callbackOnTalentPost = function(self, eff, ab)
+		DamageType:get(DamageType.PHYSICAL).projector(eff.src, self.x, self.y, DamageType.PHYSICAL, eff.dam)
+	end,
+	
+	callbackOnTemporaryEffectAdd = function(self, eff, eff_id, e_def, new_eff)
+		if e_def.subtype.bleed and e_def.type ~= "other" then
+			new_eff.power = new_eff.power * (1+eff.power)
+		end
+	end,
+	
+	on_gain = function(self, err) return _t"#Target# is doomed!", _t"+Vampire Mark" end,
+	on_lose = function(self, err) return _t"#Target# is free from their doom.", _t"-Vampire Mark" end,
+}
+

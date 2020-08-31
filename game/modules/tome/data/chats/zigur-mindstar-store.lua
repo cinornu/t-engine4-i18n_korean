@@ -37,7 +37,7 @@ newChat{ id="training",
 			player:incMoney(-100)
 			player:learnTalentType("wild-gift/mindstar-mastery", false)
 			if player:getTalentTypeMastery("wild-gift/mindstar-mastery") < 1 then
-				player:setTalentTypeMastery("wild-gift/mindstar-mastery", math.min(1.1, player:getTalentTypeMastery("wild-gift/mindstar-mastery") + 0.3))
+				player:setTalentTypeMastery("wild-gift/mindstar-mastery", math.min(1.1, player:getTalentTypeMastery("wild-gift/mindstar-mastery", true) + 0.3))
 				game.logPlayer(player, "He is impressed with your affinity for natural forces.")
 			end
 			player.changed = true
@@ -51,7 +51,7 @@ newChat{ id="training",
 			player:incMoney(-500)
 			player:learnTalentType("wild-gift/mindstar-mastery", true)
 			if player:getTalentTypeMastery("wild-gift/mindstar-mastery") < 1 then -- Special case for previously locked category (escort)
-				player:setTalentTypeMastery("wild-gift/mindstar-mastery", math.max(1.0, player:getTalentTypeMastery("wild-gift/mindstar-mastery") + 0.3))
+				player:setTalentTypeMastery("wild-gift/mindstar-mastery", math.max(1.0, player:getTalentTypeMastery("wild-gift/mindstar-mastery", true) + 0.3))
 			end
 			if player:getTalentTypeMastery("wild-gift/mindstar-mastery") > 1 then
 				game.logPlayer(player, "He is impressed with your mastery and shows you a few tricks to handle stronger energy flows.")
@@ -65,7 +65,7 @@ newChat{ id="training",
 		{_t"I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", action=function(npc, player) --Enhanced intensive training
 			player:incMoney(-750)
 			player:learnTalentType("wild-gift/mindstar-mastery", true)
-			player:setTalentTypeMastery("wild-gift/mindstar-mastery", player:getTalentTypeMastery("wild-gift/mindstar-mastery") + 0.2)
+			player:setTalentTypeMastery("wild-gift/mindstar-mastery", player:getTalentTypeMastery("wild-gift/mindstar-mastery", true) + 0.2)
 			game.logPlayer(player, ("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you%s."):tformat(player:getTalentTypeMastery("wild-gift/mindstar-mastery")>1 and _t", and teaches you enhanced mental discipline needed to maintain powerful energy fields" or ""))
 			player.changed = true
 		end, cond=function(npc, player)
