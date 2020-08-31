@@ -45,3 +45,7 @@ game/addons/tome-possessors/
 *.teaa
 *.teaac
 i18n_tools/dlc_translate_ext.bat
+t-engine.exe
+t-engine_1.7b.exe
+t-engine-debug.exe
+t-engine-debug_1.7b.exe

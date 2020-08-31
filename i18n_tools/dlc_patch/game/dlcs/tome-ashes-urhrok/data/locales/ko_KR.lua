@@ -45,6 +45,8 @@ section "game/dlcs/tome-ashes-urhrok/data/general/events/fire-haven.lua"
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
 
+t("the Corrupted Daelach", "오염된 댈라크", "_t")
+t("a daelach", "댈라크", "_t")
 t("Lithfengel", "리스펭겔", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
 t("floor", "바닥", "entity type")
@@ -75,7 +77,9 @@ section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/lore/demon.lua"
 
+t("demon statue: daelach", "악마상: 댈라크", "_t")
 t("demon statue: Lithfengel", "악마상: 리스펭겔", "_t")
+t("demon statue: Corrupted Daelach", "악마상: 오염된 댈라크", "_t")
 
 
 ------------------------------------------------
@@ -103,6 +107,7 @@ t("You require a two handed weapon to use this talent.", "이 기술을 사용�
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/corruptions.lua"
 
+t("spellblaze", "마법폭발", "_t")
 t("torture", "고문", "_t")
 t("wrath", "분노", "_t")
 t("corruption", "타락", "talent category")
@@ -229,6 +234,7 @@ t("#Target# stops bleeding darkness.", "#Target#의 그림자 상처가 아물�
 t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d 연결)#LAST#", "tformat")
 t("darkness", "암흑", "effect subtype")
 t("#Target# stops burning.", "#Target#의 화상이 치유되었다.", "_t")
+t("spellblaze", "마법폭발", "effect subtype")
 t("cold", "냉기", "effect subtype")
 t("none", "없음", "_t")
 t("curse", "저주", "effect subtype")
