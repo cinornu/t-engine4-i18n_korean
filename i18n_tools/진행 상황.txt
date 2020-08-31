@@ -240,9 +240,13 @@
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
 
------------------------------- 이하 data/zones ---------------------------------
+------------------------------ 이하 본편 data/zones ---------------------------------
 
-"game/modules/tome/data/zones/ancient-elven-ruins/grids.lua" Khelerd 완
+"game/modules/tome/data/zones/abashed-expanse/grids.lua"
+"game/modules/tome/data/zones/abashed-expanse/npcs.lua"
+"game/modules/tome/data/zones/abashed-expanse/objects.lua"
+"game/modules/tome/data/zones/ancient-elven-ruins/grids.lua"
+"game/modules/tome/data/zones/ancient-elven-ruins/npcs.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
@@ -435,7 +439,7 @@
 "game/modules/tome/data/zones/vor-pride/objects.lua"
 "game/modules/tome/data/zones/vor-pride/zone.lua" Khelerd 완
 
------------------------------- 이상 data/zones ---------------------------------
+------------------------------ 이상 본편 data/zones ---------------------------------
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
