@@ -80,3 +80,19 @@ newPackage{ id = "chinese", name = "Chinese", weight = 100,
 	classic_mono = {font="/data/font/WenQuanYiMicroHeiMono.ttf", normal=14, small=10, big=16},
 	terminal = {font="/data/font/WenQuanYiMicroHeiMono.ttf", normal=12, small=10, big=14},
 }
+
+
+newPackage{ id = "korean", name = "Korean", weight = 100,
+	small = {font="/data/font/IBMPlexSansKR-Regular.ttf", normal=12, small=10, big=14},
+	default = {font="/data/font/IBMPlexSansKR-Regular.ttf", normal=16, small=12, big=18},
+	bold = {font="/data/font/IBMPlexSansKR-Bold.ttf", normal=16, small=12, big=18},
+	mono = {font="/data/font/IBMPlexMono-Regular.ttf", normal=16, small=12, big=18},
+	mono_small = {font="/data/font/IBMPlexMono-Regular.ttf", normal=14, small=10, big=16},
+	flyer = {font="/data/font/IBMPlexSansKR-Regular.ttf", normal=14, small=12, big=16},
+	bignews = {font="/data/font/IBMPlexSansKR-Regular.ttf", normal=30},
+	resources_normal = {font="/data/font/IBMPlexSansKR-Regular.ttf", normal=16},
+	resources_small = {font="/data/font/IBMPlexSansKR-Regular.ttf", normal=14},
+	classic = {font="/data/font/IBMPlexSansKR-Regular.ttf", normal=16, small=14, big=18},
+	classic_mono = {font="/data/font/IBMPlexMono-Regular.ttf", normal=14, small=10, big=16},
+	terminal = {font="/data/font/IBMPlexMono-Regular.ttf", normal=12, small=10, big=14},
+}
