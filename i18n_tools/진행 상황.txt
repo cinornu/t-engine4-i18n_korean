@@ -254,7 +254,8 @@
 "game/modules/tome/data/zones/ardhungol/objects.lua"
 "game/modules/tome/data/zones/ardhungol/zone.lua"
 "game/modules/tome/data/zones/arena-unlock/npcs.lua"
-"game/modules/tome/data/zones/arena-unlock/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/arena-unlock/zone.lua"
+"game/modules/tome/data/zones/arena/npcs.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
