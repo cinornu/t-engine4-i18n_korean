@@ -246,7 +246,15 @@
 "game/modules/tome/data/zones/abashed-expanse/npcs.lua"
 "game/modules/tome/data/zones/abashed-expanse/objects.lua"
 "game/modules/tome/data/zones/ancient-elven-ruins/grids.lua"
-"game/modules/tome/data/zones/ancient-elven-ruins/npcs.lua" Khelerd 완
+"game/modules/tome/data/zones/ancient-elven-ruins/npcs.lua"
+"game/modules/tome/data/zones/ancient-elven-ruins/objects.lua"
+"game/modules/tome/data/zones/ancient-elven-ruins/zone.lua"
+"game/modules/tome/data/zones/ardhungol/grids.lua"
+"game/modules/tome/data/zones/ardhungol/npcs.lua"
+"game/modules/tome/data/zones/ardhungol/objects.lua"
+"game/modules/tome/data/zones/ardhungol/zone.lua"
+"game/modules/tome/data/zones/arena-unlock/npcs.lua"
+"game/modules/tome/data/zones/arena-unlock/zone.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
