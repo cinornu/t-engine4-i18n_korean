@@ -240,6 +240,8 @@
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
 
+------------------------------ 이하 data/zones ---------------------------------
+
 "game/modules/tome/data/zones/ancient-elven-ruins/grids.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
@@ -427,7 +429,13 @@
 "game/modules/tome/data/zones/valley-moon/zone.lua"
 "game/modules/tome/data/zones/void/zone.lua" * 더미 데이터
 "game/modules/tome/data/zones/vor-armoury/npcs.lua"
-"game/modules/tome/data/zones/vor-armoury/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/vor-armoury/zone.lua"
+"game/modules/tome/data/zones/vor-pride/grids.lua"
+"game/modules/tome/data/zones/vor-pride/npcs.lua"
+"game/modules/tome/data/zones/vor-pride/objects.lua"
+"game/modules/tome/data/zones/vor-pride/zone.lua" Khelerd 완
+
+------------------------------ 이상 data/zones ---------------------------------
 
 "game/engines//default/engine/dialogs/ShowErrorStack.lua"
 "game/engines//default/engine/dialogs/ShowInventory.lua"
