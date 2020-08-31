@@ -3695,6 +3695,7 @@ t("dark light", "어둠의 빛", "_t")
 t("meteor", "운석", "_t")
 t("frostdusk", "서리황혼", "_t")
 t("chill of the tomb", "무덤의 냉기", "_t")
+t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -6126,8 +6127,8 @@ t("wrathful ", "분노의 ", "entity name")
 t("wrathful", "분노", "entity keyword")
 t("Deals #VIOLET#%d#LAST# light and fire damage to each enemy blocked", "막아낸 적마다 #VIOLET#%d#LAST# 빛과 화염 피해를 줍니다", "tformat")
 t("impervious ", "불변의 ", "entity name")
-t("swashbuckler's ", "건달의 ", "entity name")
 t("impervious", "불변", "entity keyword")
+t("swashbuckler's ", "건달의 ", "entity name")
 t(" of resistance", " (저항)", "entity name")
 t("resistance", "저항", "entity keyword")
 t(" of patience", " (인내)", "entity name")
@@ -8667,6 +8668,12 @@ t("usable during Aether Avatar", "에테르의 화신 도중 사용 가능", "_t
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/celestial/black-sun.lua"
+
+t("Breach", "균열", "talent name")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/celestial/celestial.lua"
 
 t("Your devotion grants you additional protection.", "태양에 대한 헌신은 강력한 보호를 제공합니다.", "_t")
@@ -8698,8 +8705,8 @@ t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in ta
 t("eclipse", "일식", "_t")
 t("Other celestial powers.", "다른 천공의 힘.", "_t")
 t("Various celestial talents.", "다양한 천공 계열의 기술.", "_t")
-t("celestial", "천공", "talent category")
 t("other", "기타", "_t")
+t("celestial", "천공", "talent category")
 
 
 ------------------------------------------------
@@ -8839,6 +8846,16 @@ t([[Infuse your two handed weapon with light while spinning around.
 		반경 1 칸 내의 모든 적에게 %d%% 무기 피해를 줍니다.
 		또한 무기에서 강렬한 빛이 뿜어져나와 반경 2 칸 내의 모든 적에게 %d%% 빛 무기 피해를 줍니다.
 		기술 레벨 4에 도달하면 회전하는 검이 보호막을 생성해 1턴 동안 받는 모든 피해를 막아냅니다.]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/celestial/darkside.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/celestial/dirge.lua"
+
 
 
 ------------------------------------------------
@@ -11348,6 +11365,17 @@ t([[Share your hatred with all shadows within sight range, gaining temporary ful
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/cursed/bloodstained.lua"
+
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/cursed/crimson-templar.lua"
+
+t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/cursed/cursed-aura.lua"
 
 t("Defiling Touch", "모독의 손길", "talent name")
@@ -11464,8 +11492,8 @@ t("cursed aura", "저주받은 아우라", "_t")
 t("The effects of cursed objects.", "저주받은 물품들의 효과들.", "_t")
 t("curses", "저주", "_t")
 t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "저주의 정수인 공포를 이용하여 적들의 정신을 공격합니다.", "_t")
-t("cursed", "저주", "talent category")
 t("fears", "공포", "_t")
+t("cursed", "저주", "talent category")
 
 
 ------------------------------------------------
@@ -11693,11 +11721,6 @@ t([[Each turn, those caught in your gloom must save against your Mindpower, or h
 		상태 이상 확률은 사고 속도에 비례하여 증가합니다.
 		암울 계열 기술에 투자한 기술 점수 마다 정신력이 증가됩니다 (현재 : %d).]], "tformat")
 t("Mindrot", "부패하는 정신", "talent name")
-t([[Every time you act, all enemies in your gloom take %0.2f mind damage and %0.2f darkness damage.
-		The damage scales with your Mindpower.
-		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[시전자가 행동을 취할 때마다, 암울한 기운 속의 모든 적에게 %0.2f 정신 피해와 %0.2f 암흑 피해를 입힙니다.
-		피해량은 정신력에 비례하여 증가합니다.
-		암울 계열 기술에 투자한 기술 점수 마다 정신력이 증가됩니다 (현재 : %d).]], "tformat")
 t("Sanctuary", "성역", "talent name")
 t([[Your gloom has become a sanctuary from the outside world. Damage from any attack that originates beyond the boundary of your gloom is reduced by %d%%.
 		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[암울한 기운은 바깥 세계로부터의 성역이 됩니다. 암울한 기운 밖에서 오는 모든 공격의 피해량은 %d%% 감소됩니다.
@@ -11817,6 +11840,11 @@ t("#F53CBE#Your rampage is invigorated by the collosal slam! (+1 duration)", "#F
 t([[While rampaging, you slam up to %d adjacent opponents, stunning them for %d turns and damaging them for between %d and %d physical damage. Your first slam of at least two opponents increases the rampage duration by 1.
 		Damage increases with your Physical Power.]], [[광란 중에, 인접한 %d 체의 적을 후려쳐, %d 턴 동안 기절시키고  %d - %d 물리 피해를 입힙니다. 처음으로 2 체 이상의 적을 후려칠경우, 광란의 지속시간이 1 턴 연장됩니다.
 		피해량은 물리력에 비례하여 증가합니다.]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/cursed/self-hatred.lua"
+
 
 
 ------------------------------------------------
@@ -12153,15 +12181,7 @@ t([[The first time you take damage each turn, you regenerate %d%% of the damage 
 		물리력이 %d, 방패로 가하는 피해가 %d%% 향상되고, 두 손에 방패를 장착할 수 있게됩니다.
 		시전자가 가하는 모든 근접 공격은 방패로 인한 추가 공격을 유발합니다.]], "tformat")
 t("Stone Fortress", "바위 요새", "talent name")
-t([[When you use your Resilience of the Dwarves racial power your skin becomes so tough that it even absorbs damage from non-physical attacks.
-		Non-physical damage is reduced by %d%% of your total armour value (ignoring hardiness).]], [[드워프의 체질 (종족 기술) 을 사용할 때, 피부는 너무나도 강인해져 비물리적 공격마저 흡수합니다
-		비물리적 피해가 총 방어력의 %d%% 만큼 감소합니다. (방어 효율은 무시됩니다)]], "tformat")
 t("Shards", "바위 조각", "talent name")
-t([[Sharp shards of stone grow from your shields.
-		When you are hit in melee, you will get a free attack against the attacker with the shards doing %d%% shield damage (as Nature).
-		This effect can only happen once per turn.]], [[날카로운 바위 조각이 방패에서 자라납니다.
-		근접 공격을 받았을 때, 방패 위력의 %d%% 에 해당하는 자연 피해로 공격자에게 반격합니다.
-		이 효과는 1 턴에 한번 일어납니다.]], "tformat")
 t("Eldritch Stone", "일그러진 바위", "talent name")
 t([[Creates a shield of impenetrable stone around you for %d turns, absorbing up to %d damage.
 		Your equilibrium will increase by twice the damage absorbed.
@@ -15675,11 +15695,6 @@ t([[Channel eldritch forces into a melee attack, hitting the target with your we
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Eldritch Infusion", "일그러진 혼합물", "talent name")
 t("You require a shield to use this talent.", "이 기술을 사용하려면 방패가 필요합니다.", "logPlayer")
-t([[Imbues your shields with arcane power, dealing %0.2f arcane damage with each melee strike and %0.2f arcane damage when hit.
-		Allows counterstrikes after incomplete blocks and the cooldown of Block is reduced by %d turns.
-		The damage will increase with Spellpower.]], [[방패를 비전의 힘으로 강화하여, %0.2f 비전 피해를 매 물리 공격에 추가하고, 피격 시 %0.2f 비전 피해로 적에게 보복합니다.
-		완전한 방패 막기에 실패하더라도, 대상에게 반격을 가할 수 있습니다. 또한 방패 막기의 재사용 대기 시간이 %d 턴 줄어듭니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Eldritch Fury", "일그러진 분노", "talent name")
 t("You cannot use Eldricth Fury without a shield!", "방패없이 일그러진 분노를 사용할 수 없다!", "logPlayer")
 t("%s resists the dazing blows!", "%s 혼절의 일격에 저항했다!", "logSeen", nil, {"는"})
@@ -16131,13 +16146,6 @@ t([[Creates a globe of pure light within a radius of %d that illuminates the are
 		At level 3, it also blinds all who see it (except the caster) for %d turns.]], [[반경 %d 칸 범위에 순수한 빛의 구를 만들어 내 지역을 밝히고 %0.2f 빛 피해를 모든 개체에게 가합니다.
 		기술 레벨 3 일때, 시전자를 제외한 시야가 존재하는 개체는 %d 턴 동안 눈이 멀게 됩니다.]], "tformat")
 t("Phantasmal Shield", "환영 보호막", "talent name")
-t([[Surround yourself with a phantasmal shield of pure light.
-		Whenever you would take damage there is %d%% chance to become ethereal for an instant and fully ignore it.
-		If you do get hit, the shield glow brightly, sending triggering a flash of light on the attacker, dealing %0.2f light damage in radius %d around it and dazzling any affected creature (deal 10%% less damage) for 5 turns. This can only happen every %d turns.
-		The damage and ignore chance will increase with your Spellpower.]], [[순수한 빛으로 구성된 환영의 보호막을 둘러칩니다.
-		공격을 받을 때마다, %d%% 확률로 짧은 시간 동안 영체 상태에 돌입해 피해를 완전히 무시합니다.
-		피격 당할 경우, 보호막이 밝게 빛나며, 섬광을 공격자에게 내뿜어, %0.2f 빛 피해를 반경 %d 칸 범위 내의 모든 대상에게 가하고 5 턴 동안, 눈부심 상태 이상을 부여해 가하는 모든 피해를 10%% 감소시킵니다. 이 효과는 %d 턴에 한번씩만 발동됩니다.
-		피해량과 무시 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Invisibility", "투명화", "talent name")
 t([[Weave a net of arcane disturbances around your body, removing yourself from the sight of all, granting %d bonus to invisibility for 7 turns.
 		While invisible all damage you deal against blinded or dazzled foes is increased by %d%% (additive with other damage increases).
@@ -19811,6 +19819,11 @@ section "game/modules/tome/data/texts/unlock-mage_thaumaturgist.lua"
 
 
 ------------------------------------------------
+section "game/modules/tome/data/texts/unlock-paladin_fallen.lua"
+
+
+
+------------------------------------------------
 section "game/modules/tome/data/texts/unlock-psionic_mindslayer.lua"
 
 
@@ -20035,10 +20048,6 @@ t("#Target#'s eyes tingle.", "#Target#의 눈에 빛이 인다.", "_t")
 t("#Target#'s eyes tingle no more.", "#Target#의 눈은 원래대로 돌아왔다.", "_t")
 t("Bane of Blindness", "실명의 파멸", "_t")
 t("The target is blinded, unable to see anything and takes %0.2f darkness damage per turn.", "실명 : 아무것도 볼 수 없음 / 매 턴 %0.2f 암흑 피해 받음.", "tformat")
-t("#Target# loses sight!", "#Target2# 앞을 보지 못한다!", "_t")
-t("+Blind", "+실명", "_t")
-t("#Target# recovers sight.", "#Target2# 시야를 회복했다.", "_t")
-t("-Blind", "-실명", "_t")
 t("Bane of Confusion", "혼란의 파멸", "_t")
 t("The target is confused, acting randomly (chance %d%%), unable to perform complex actions and takes %0.2f darkness damage per turn.", "혼란 : %d%% 확률로 멋대로 행동 / 매 턴 %0.2f 암흑 피해 받음.", "tformat")
 t("bane", "파멸", "effect subtype")
@@ -20647,7 +20656,6 @@ t("#Target# is free from the numbing blight.", "#Target2# 마비성 역병에서
 t("-Numbing Blight", "-마비성 역병", "_t")
 t("Eldritch Stone Shield", "일그러진 바위 방패", "_t")
 t("The target is surrounded by a stone shield absorbing %d/%d damage.  When the shield is removed, it will explode for up to %d (currently %d) Arcane damage in a radius %d.", "피해 흡수량 %d/%d damage / 보호막이 사라질 때 최대 %d 비전 피해(현재 %d) 를 반경 %d 칸에 터뜨림.", "tformat")
-t("shield", "보호막", "effect subtype")
 t("#Target# is encased in a stone shield.", "#Target2# 바위 보호막으로 둘러쌓였다.", "_t")
 t("The stone shield around #Target# %s", "#Target# 을 감싸는 바위 보호막이 %s", "tformat")
 t("crumbles.", "으스러진다.", "_t")
@@ -20667,7 +20675,6 @@ t("-Deeprock Form", "-깊은 바위 형상", "_t")
 t("Bathe in Light", "빛의 세례", "_t")
 t("Fire and Light damage increased by %d%%.", "화염, 빛 피해 +%d%%.", "tformat")
 t("celestial", "천공", "effect subtype")
-t("light", "빛", "effect subtype")
 t("#Target# glows intensely!", "#Target1# 강렬하게 빛난다!", "_t")
 t("#Target# is no longer glowing .", "#Target# 광휘가 사라졌다 .", "_t")
 t("Overseer of Nations", "국가의 감시자", "_t")
@@ -20738,11 +20745,12 @@ t("ghoul", "구울", "effect subtype")
 t("cooldown", "재사용 대기시간", "effect subtype")
 t("resistance", "저항", "effect subtype")
 t("power", "힘", "effect subtype")
-t("blind", "실명", "effect subtype")
 t("disease", "질병", "effect subtype")
 t("bleed", "출혈", "effect subtype")
 t("cut", "상처", "effect subtype")
 t("wound", "상처", "effect subtype")
+t("bone", "뼈", "effect subtype")
+t("skeleton", "스켈레톤", "effect subtype")
 t("cold", "냉기", "effect subtype")
 t("Cleansing Flames", "정화의 불꽃", "_t")
 t("cleanse", "정화", "effect subtype")
@@ -20752,6 +20760,15 @@ t("darkness", "암흑", "effect subtype")
 t("movement", "이동", "effect subtype")
 t("Metaflow", "초월의 흐름", "_t")
 t("meta", "초월", "effect subtype")
+t("regen", "재생", "effect subtype")
+t("shield", "보호막", "effect subtype")
+t("blind", "실명", "effect subtype")
+t("light", "빛", "effect subtype")
+t("#Target# loses sight!", "#Target2# 앞을 보지 못한다!", "_t")
+t("+Blind", "+실명", "_t")
+t("#Target# recovers sight.", "#Target2# 시야를 회복했다.", "_t")
+t("-Blind", "-실명", "_t")
+t("gravity", "중력", "effect subtype")
 
 
 ------------------------------------------------
@@ -21252,10 +21269,10 @@ t("An unseen force begins to swirl around %s!", "보이지 않는 힘이 %s 주�
 t("The unseen force around %s subsides.", "%s 주위의 보이지 않는 힘이 사그라들었다.", "logSeen")
 t("Psionic Maelstrom", "초능력 소용돌이", "_t")
 t("This creature is standing in the eye of a powerful storm of psionic forces.", "강력한 초능력 소용돌이의 눈에 서있다.", "tformat")
-t("psionic", "초능력", "effect subtype")
 t("Caught Lightning", "전기 포집", "_t")
 t("Lightning Catcher has caught energy and is empowering you for +%d%% lightning damage and +%d to all stats.", "전기 피해 +%d%% / 모든 능력치 +%d.", "tformat")
 t("lightning", "전기", "effect subtype")
+t("psionic", "초능력", "effect subtype")
 
 
 ------------------------------------------------
@@ -21766,6 +21783,10 @@ t("phantasm", "환영", "effect subtype")
 t("Aether Permeation", "에테르 침투", "_t")
 t("arcane", "비전", "effect subtype")
 t("prodigy", "특수 기술", "effect subtype")
+t("Marked for Death", "죽음의 표식", "_t")
+t("status", "상태", "effect subtype")
+t("magic", "마법", "effect subtype")
+t("bleed", "출혈", "effect subtype")
 
 
 ------------------------------------------------
@@ -21859,7 +21880,6 @@ t("Stunned", "기절", "_t")
 t("The target is stunned, reducing damage by 50%%, putting 3 random talents on cooldown and reducing movement speed by 50%%.  While stunned talents cooldown twice as slow.", "기절 / 가하는 피해량 -50%% / 3 개의 무작위한 기술에 재사용 대기시간 적용 / 이동 속도 -50%% / 지속시간 중에는 쿨다운이 2 배 늦게 돔.", "tformat")
 t("#Target# is stunned!", "#Target1# 기절했다!", "_t")
 t("+Stunned", "+기절", "_t")
-t("#Target# is not stunned anymore.", "#Target1# 제정신을 되찾았다.", "_t")
 t("-Stunned", "-기절", "_t")
 t("Disarmed", "무장 해제", "_t")
 t("The target is maimed, unable to correctly wield a weapon.", "무기를 놓침.", "_t")
@@ -22336,7 +22356,6 @@ t("#Target# loses speed.", "#Target2# 느려진다.", "_t")
 t("-Directed Speed", "-직행 속도", "_t")
 t("Target is currently moving with %d%% additional speed in a single direction (%s). Stopping or changing directions will remove this effect.", "%s으로 이동할 때, 이동 속도 +%d%% / 이동을 멈추거나, 방향을 바꾸면 이 효과가 즉시 중단됨.", "tformat")
 t("Stun Lengthen", "길어진 기절", "_t")
-t("stun", "기절", "effect subtype")
 t("#Target# is stunned further! (now %d turns)", "#Target2# 더 오랫동안 기절한다! (%d 턴)", "tformat")
 t("Eternal Warrior", "영원한 전사", "_t")
 t("morale", "사기", "effect subtype")
@@ -22568,6 +22587,8 @@ t("-Blind", "-실명", "_t")
 t("Gift of the Woods", "나무의 선물", "_t")
 t("Increases the effectiveness of all healing the target receives by %d%%.", "회복 효율 +%d%%.", "tformat")
 t("nature", "자연", "effect subtype")
+t("stun", "기절", "effect subtype")
+t("#Target# is not stunned anymore.", "#Target1# 제정신을 되찾았다.", "_t")
 
 
 ------------------------------------------------
