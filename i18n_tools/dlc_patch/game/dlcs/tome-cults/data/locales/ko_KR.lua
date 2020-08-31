@@ -275,11 +275,13 @@ section "game/dlcs/tome-cults/data/general/npcs/tentacle-tree.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/objects/forbidden-tomes-base.lua"
 
+t("tome", "고서", "entity type")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/objects/lore/eyal.lua"
 
+t("analysis", "분석", "entity subtype")
 
 
 ------------------------------------------------
@@ -954,13 +956,47 @@ Asking him what was wrong the dark blue glow went away from the ogres eyes and I
 
 갑작스런 요청에 나는 벙찐 채로 말을 더듬었다. "아, 알겠네." 그 오우거는 바로 다른 이들에게 소리쳤다. "가자고!" 그는 잽싸게 내 팔을 부여잡고 달리기 시작했다. 다른 오우거들이 따라오는 발소리가 우렁차게 들려왔다. 우리는 죽음이 도사리는 땅 위로 무작정 달렸고, 땅의 균열과 날카로운 바위를 지나쳤다. 내가 걸어오는 데에 하루가 꼬박 걸린 거리를 그들은 한 시간만에 돌파했다. 내 팔을 잡고 달리던 오우거는 때때로 나를 위로 들어올리며 온갖 위험한 지형들을 돌파했다. 우리는 해안선이 보일때까지 계속 달렸다. 나는 다른 팔로 우리가 가야할 서쪽 방향을 가리켰고, 오크 무리는 용암 웅덩이를 피해가며 달렸다.
 
-날 잡고 있던 오우거가 숨을 헐떡이며 휘청거릴 즈음에서야 속도를 줄였다. Beginning to pant and weave at this point, the ogre holding my arm finally began to slow down. Stopping he turned his head to look to our rear, the same dark blue glow appearing over his eyes once more. No longer content with my ignorance I finally asked what he was doing. The dark blue glow immediately faded as the ogre looked at me directly before giving a response. "I take it you aren't very well versed in runes, I suppose I shouldn't be surprised being how adverse you thaloren are to the arcane. I'm using a rune that grants me vision of what the terrain is like around me, though I'm not necessarily using it for that specific purpose right now." The ogre stopped talking for a moment to look back again.
+날 잡고 있던 오우거가 숨을 헐떡이며 휘청거릴 즈음에서야 속도를 줄였다. 그는 멈춘 뒤 뒤를 돌아봤고, 방금처럼 검푸른 빛의 안광이 눈에서 빛났다. 더 이상 아무런 설명도 받지 않고 어리둥절해 있을 수는 없었기에 나는 무얼하는 것이냐고 물었다. 오우거가 나를 돌아보자 검푸른 안광은 사라졌고 이내 대답했다. "당신이 룬에 대해 잘 모른다는 건 알겠네. 탈로렌들이 마법을 그다지 좋아하지 않는다는 걸 생각하면 그다지 놀랄만한 일도 아니구만. 이 주변 지역의 모습을 비춰주는 룬을 사용하고 있네. 물론 주변의 지형만을 보기 위해서 지금 이 룬을 쓰고 있는 건 당연히 아니지만." 오우거는 말을 멈추며 다시 뒤를 돌아봤다.
 
-Chiming in to continue the explanation another ogre stated, "He's looking back to see how far away those zealots chasing us from their encampment are. "We were being chased? I suppose I shouldn't have expected any less from those magic hating fanatics. Likely they would very much want to recapture the ogres for whatever nefarious intentions they had. I began to recall the events I had recently witnessed them perpetrate and how I felt sick afterwards. I wondered what atrocities these ogres had suffered by their hands. Looking to stop myself from recalling anymore of those terrible memories I quickly pressed the ogre on how they knew we were being chased.
+그 말에 맞장구를 치며 다른 오우거가 말을 이었다. "그는 광신도들이 야영지로부터 얼마나 멀리 떨어져왔는지 보려고 하고 있어." 우리가 쫓기고 있었다고? 마법을 혐오하는 미친 작자들이 할 일이라곤 그런 거밖에 없긴 했다. 어떤 흉악한 의도를 지녔든 간에 그들은 오우거들을 다시 잡고 싶은 듯했다. 난 가면을 쓴 자들이 저질렀던 행위들을 떠올렸고 그것이 얼마나 역겨운 짓이었는지 되새겼다. 이 오우거들이 그들에게서 어떤 끔찍한 일을 당했는지는 모르겠지만 비슷한 일이었을 것이다. 끔찍한 기억들에 다시금 빠지지 않기 위해 그가 어떻게 우리가 쫓기는 지 알아냈냐고 물었다.
 
-"To give you the short version, his vision rune is giving him the power to see the general location of the individuals pursuing us. There is a bit more to it than that but for our purposes he can get a pretty good glimpse of where those zealots following us are and how close they are relative our position." Rather impressed that the ogre could do that, I wondered what other feats the runes could allow the ogres to do. I figured when we were in relative safety that maybe I should ask the ogres a bit more about what their runes. Suddenly though I heard a curse, and turned to see the dark blue glowing eyes of the ogre now seemingly peering ahead us at something else.
+"간단하게 설명하자면, 그의 정찰 룬은 우리를 쫓아오는 자들의 전반적인 위치를 보는 힘을 부여하네. 그것말고도 더한 능력이 있긴 하지만 일단 그 광신도들이 지금 어디 쯤인지, 여기에서 어느 정도 거리에 있는지를 알 수 있지." 그 오우거가 그 정도의 능력이 있다는 것에 놀랍기도 했지만, 다른 룬으로는 무엇을 할 수 있는지도 궁금했다. 나중에 우리가 더 안전해졌을 떼 오우거들이 지닌 룬에 대해 더 물어볼기로 했다. 이내 갑자기 욕지거리가 들려왔고, 난 검푸른 안광이 나는 오우거가 우리 앞의 다른 방향을 쳐다보고 있다는 것을 깨달았다.
 
-Asking him what was wrong the dark blue glow went away from the ogres eyes and I quietly received the grave response, "There is a group of people in front of us, and there are definitely zealots among them too." At this the other ogres faces turned to a look of total dismay. I could hear the yelling from behind me. "What do we do now?" one said. "I don't want to go back" another would say. Cowardly words spewed from the mouth of a new ogre every moment until it seemed everyone in the group was erupting in fear. For a moment the sorry display continued until finally the ogre holding my arm let go and yelled to the others "ENOUGH OF YOUR SNIVELING!" The other ogres went silent at this, now looking up as if waiting for directions on what to do. ]], "_t")
+무엇이 잘못 되었는지 물어보자 오우거의 눈에서 안광이 사라졌고, 이내 오우거는 낮은 목소리로 대답했다. "우리 앞에 다른 인간 무리가 있어." 이에 다른 오우거들이 경악하며 소리지르기 시작했다. "이제 어떻게 하냐고!", "돌라가고 싶지 않아." 따위의 말이 들려왔다. 겁에 질린 목소리와 말들이 오우거들에게서 자꾸 튀어나왔으며 이내 모든 오우거들이 공포에 빠졌다. 잠시동안 그 비참하기 짝이없는 전경이 이어지다가 내 팔을 잡고 있었던 오우거가 나를 놓고선 소리쳤다. "그만 징징대라!" 그 외침에 다른 오우거들이 조용해졌다. 그리고 그들은 소리 친 오우거를 쳐다보았다. 다음에 무엇을 해야할지 명령을 기다리는 것처럼 말이다.]], "_t")
+t("Escapades of Fay Willows [Book 3, Chapter 3] - Battle Preparations", "페이 윌로우즈의 탈출기 [3권, 제 3장] - 전투 준비", "_t")
+t([[[i]I had never seen a battle before in my life, let alone been a part of one. However I do not believe this is necessarily the case for the ogres. They say that they lived as nomadic peddlers but I wonder if perhaps that was just a cover story for themselves. Maybe they hired themselves out as mercenaries or other such adventures of combat? It is hard to know what lies within their past.[/i]
+
+Realizing the situation at hand, the ogre who had moments ago been holding my arm this entire time now took up the task of preparing the other ogres for the fight at hand. Stepping forward to address the others he quickly broke into a speech. "The enemy is on both sides of us, but we aren't trapped yet. Those behind us have to travel through the treacherous ground we had to pass through here ourselves and those ahead of us are still some distance away. We have time to form a plan and prepare for battle before either group arrives." As the ogre finished, one of the others soon piped up, "What will you have us do commander!" The newly minted commander grunted before replying, "First, we need a plan of attack."
+
+To this another ogre stepped up and stated, "How fast is each group moving towards us, which one will be on us first?" At this the commander paused for a moment before taking a look in front and behind him at the two approaching groups. When he was finished he responded, "The ones behind us are closer, but it looks like they are only slowly navigating the landscape we crossed due to all the hazards. The other group is approaching at rapid speed. They will likely get to us first. Do you think we should hit the front group first, strategist?” I could see the strategist raise his head and smile a bit upon being named before stating, "Yes Sir! Maybe we can punch through them before getting hit in our rear?"
+
+The commander nodded to this and then noted, "We don't have any weapons to fight with, but we can use the environment to our advantage. Knock them into hostile terrain, use choke points in the land to avoid being overwhelmed by their numbers, fight dirty and kick the blackened dirt into their faces." The commander stopped to take a breath before hollering "WE WILL NOT BE GOING BACK!" To this the other ogres hollered the same "WE WILL NOT BE GOING BACK!" Then all the ogres broke into a resounding roar as they raised both their arms and their voices, shaking their hands while making odd gestures with them, and completely showing no more signs of the craven display I had just witnessed of them moments ago.
+
+I immediately notice the bigger ogres break off towards several dead trees, and with surprising ease ripped them from the ground. After breaking the branches and roots off they proceeded to swing the trunks around like giant clubs. More ingenious ogres ripped their clothing into careful strips. Taking their belts off they fashioned them together with the strips to construct crude slings. Other ogres collected rocks and piled them on the ground nearby, ammo I assumed for the slings. Other ogres seemed to pair off with each other and perform odd poses one after the other. When finished they would seemingly begin to punch and kick in the air, which I assumed was practice for fighting unarmed.
+
+I stood awestruck at the sight of the ogres and their astounding ability to turn into a fighting force. I didn't even notice when the commander came up to me. Attempting to get my attention he loudly stated, "Thalore, Focus!" I snapped my head quickly in his direction. "Whaa-wha. What?" I stammered my words as I quickly zoned back into my immediate situation. "Do you have anything that can be used to help us out?" Registering the words of the ogre I quickly pulled my pack off my shoulders and reached in to display its contents. "This is all I have" I said. The commander peered into the bag, then reached in to grab the hatchet and the utility knife that I had purchased back in the Nargol Kingdom.
+
+He weighed the two objects in each hand, then taking the hatchet he proceeded to take a few swings with it. Wearing a satisfied expression he handed the knife back to me saying "I can't use this, its too small for my hands to use effectively. You take it and use it to defend yourself." Hearing those words I soon realized something, I would be in this fight. While I might have chased off a hungry animal or too, I didn't have any actual combat experience against a real foe. The commander seeing my discouraged face then stated, "That you have come this far I can tell you aren't with those zealots. If need be, just run and save yourself. They likely will let you go, it is us ogres they are after, not you."
+
+The words pierced through me, making me quite angry. Shouting back at the Commander I responded, "No, I will fight with you." I'm not sure if it was the anger within me that caused me to say those words, but I knew that I would not let the ogres fight alone. I might die in the fight but I would not run from it. To this the commander and the other ogres quickly glanced in my direction, surprised but nonetheless happy. One ogre gave a cheerful shout "TO BATTLE!" The other ogres soon shouted "TO BATTLE" as well. Smiling the commander raised his hand to signal the other ogres to be silent before giving a slight nod to me and saying to me "To Battle."
+
+The commander didn't give much more time for the other ogres to get themselves ready; likely mindful of the group coming from behind us. Giving a command for the ogres to gather, he formed them into several small groups. I was told to join the group closest to the sea while the commander assumed his position in one of the middle groups. When the ogres were assembled he gave the order to advance and we quickly began to forge ahead over the landscape. The hazards of the land prevented each group from keeping pace with each other, though each individual group moved in a fairly disciplined manner. I dodged lava, uneven ground, burnt foliage, and the crashing waves of boiling water as I tried to keep up with my group. This would continue until we could see the image of the group of fanatics in front us.]], [[[i]난 그때까지 그런 전투를 난생 본 적이 없고, 그런 전투에 참여한 적도 없었다. 하지만 오우거들에겐 그렇지 않았을 것이다. 그들은 스스로를 행상인이라고 소개했으나, 그것은 그저 하나의 포장에 지나지 않나 싶다. 그들은 용병으로서나 여러 전투에 고용되었던 것이 아닐까? 과거에 그들에 무슨 일이 있었는지 지금 와서 알기는 어렵다.[/i]
+
+지금 마주한 상황을 직시한 채, 내 팔을 계속 잡고 있던 오우거가 이제는 다른 오우거들이 마주할 싸움을 준비시키는 역할을 맡았다. 다른 오우거들에게 말하기 위해 그는 한 발 내딛으며 외치기 시작했다. "적들은 양쪽에서 다가오고 있어. 하지만 우리가 아직 갇힌 건 아니야. 우리 뒤쪽에 있는 놈들은 우리가 거쳐왔던 위험한 지형을 뚫고 와야 하고 앞쪽에 있는 놈들은 여기까지 오기에 시간이 걸린다. 우리는 계획을 짤 시간이 있고 두 무리와 마주치기 까지 시간이 전투 준비를 끝마칠 수 있어." 그 오우거가 말을 마치자, 다른 오우거가 외쳤다. "우리가 뭘 하면 됩니까, 대장!" 그 순간 새롭게 선출된 대장이 잠시 투덜거리는 듯하더니 대답했다. "먼저, 공격 계획을 짜야지."
+
+이내 다른 오우거가 나서며 말했다. "두 무리가 우리가 얼마나 빠르게 오고 있으며, 어느 쪽이 더 빨리 도착하는 거지?" 이에 대해 대장은 잠시 멈칫하다가 앞뒤를 돌아봤다. "뒤쪽에 있는 자들이 더 가깝지만, 그 개박살이 난 땅을 건너오느라 조금 느린 것 같군. 앞쪽에서 오는 놈들은 순식간에 다가오고 있어. 앞쪽 놈들이 더 빨리 도착할 거다. 앞쪽 놈들을 먼저 치는 게 옳다고 생각핬나, 참모?" 그때 참모가 고개를 들며 잠시 그 직함이 마음에 드는 듯 미소를 짓다가 대답했다. "예, 대장! 아마 뒤쪽에서 공격받기 전에 앞쪽 놈들을 갖다팰 수 있을 지도?"
+
+대장은 이에 고개를 끄덕이며 말했다. "우리에겐 무기가 없으니까, 주변의 환경을 이용해야겠지. 그들을 이 위험한 지형에서 빠르게 타격하고, 좁은 길목 앞에 자리 잡아 포위 되는 상황을 막는다. 치사하게 싸워라. 그들의 상판에 모래를 흩뿌려라." 대장은 잠시 숨을 고르더니 크게 소리쳤다. "우리는 다시는 돌아가지 않을 것이다!" 그러자 모든 오우거들이 따라 고함을 지르며 두 팔을 들어올리고 목소리를 높였다. 내가 알아볼 수 없는 이상한 몸동작을 하며 서로 손을 흔들었다. 아까와 같이 비참한 모습을 보였던 흔적은 온데간데 없었다.
+
+I immediately notice the bigger ogres break off towards several dead trees, and with surprising ease ripped them from the ground. After breaking the branches and roots off they proceeded to swing the trunks around like giant clubs. More ingenious ogres ripped their clothing into careful strips. Taking their belts off they fashioned them together with the strips to construct crude slings. Other ogres collected rocks and piled them on the ground nearby, ammo I assumed for the slings. Other ogres seemed to pair off with each other and perform odd poses one after the other. When finished they would seemingly begin to punch and kick in the air, which I assumed was practice for fighting unarmed.
+
+I stood awestruck at the sight of the ogres and their astounding ability to turn into a fighting force. I didn't even notice when the commander came up to me. Attempting to get my attention he loudly stated, "Thalore, Focus!" I snapped my head quickly in his direction. "Whaa-wha. What?" I stammered my words as I quickly zoned back into my immediate situation. "Do you have anything that can be used to help us out?" Registering the words of the ogre I quickly pulled my pack off my shoulders and reached in to display its contents. "This is all I have" I said. The commander peered into the bag, then reached in to grab the hatchet and the utility knife that I had purchased back in the Nargol Kingdom.
+
+He weighed the two objects in each hand, then taking the hatchet he proceeded to take a few swings with it. Wearing a satisfied expression he handed the knife back to me saying "I can't use this, its too small for my hands to use effectively. You take it and use it to defend yourself." Hearing those words I soon realized something, I would be in this fight. While I might have chased off a hungry animal or too, I didn't have any actual combat experience against a real foe. The commander seeing my discouraged face then stated, "That you have come this far I can tell you aren't with those zealots. If need be, just run and save yourself. They likely will let you go, it is us ogres they are after, not you."
+
+The words pierced through me, making me quite angry. Shouting back at the Commander I responded, "No, I will fight with you." I'm not sure if it was the anger within me that caused me to say those words, but I knew that I would not let the ogres fight alone. I might die in the fight but I would not run from it. To this the commander and the other ogres quickly glanced in my direction, surprised but nonetheless happy. One ogre gave a cheerful shout "TO BATTLE!" The other ogres soon shouted "TO BATTLE" as well. Smiling the commander raised his hand to signal the other ogres to be silent before giving a slight nod to me and saying to me "To Battle."
+
+The commander didn't give much more time for the other ogres to get themselves ready; likely mindful of the group coming from behind us. Giving a command for the ogres to gather, he formed them into several small groups. I was told to join the group closest to the sea while the commander assumed his position in one of the middle groups. When the ogres were assembled he gave the order to advance and we quickly began to forge ahead over the landscape. The hazards of the land prevented each group from keeping pace with each other, though each individual group moved in a fairly disciplined manner. I dodged lava, uneven ground, burnt foliage, and the crashing waves of boiling water as I tried to keep up with my group. This would continue until we could see the image of the group of fanatics in front us.]], "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 
 
@@ -1135,7 +1171,7 @@ t("writhing body", "뒤틀린 신체", "_t")
 t("Continue your journey on the side of horror.", "공포의 옆에서 힘의 탐구를 계속합니다.", "_t")
 t("path of horror", "공포의 길", "_t")
 t("Summon decaying horrors to do your bidding!", "썩어가는 공포를 불러내어 명령에 복종하게 합니다!", "_t")
-t("controlled horrors", "통제된 공포", "_t")
+t("controlled horrors", "공포 통제", "_t")
 t("Turn the insides of your body into a digesting weapon of pain!", "내장을 적들을 집어삼켜 소화하는 끔찍한 병기로 탈바꿈합니다!", "_t")
 t("slow death", "느린 죽음", "_t")
 t("Your face is the stuff of nightmares!", "악몽에서나 볼 수 있던 광경이 자신의 얼굴에 나타납니다!", "_t")
@@ -2215,7 +2251,7 @@ t("Forbidden Tome Cooldown", "금지된 고서 재사용 대기시간", "_t")
 t("Unable to enter Forbidden Tomes.", "금지된 고서로 들어갈 수 없다.", "_t")
 t("book", "책", "effect subtype")
 t("Wrath of the Wilds", "야생의 분노", "_t")
-t("%d%% chance to stun any foes hit.", "%d%% 확률로, 적에게 피해를 줄 떄 기절을 유발함.", "tformat")
+t("%d%% chance to stun any foes hit.", "%d%% 확률로, 적에게 피해를 줄 때 기절을 유발함.", "tformat")
 t("frenzy", "광란", "effect subtype")
 t("Warborn", "전쟁 태생", "_t")
 t("Reduces all damage taken by %d%%.", "받는 피해량 -%d%%.", "tformat")
@@ -2429,7 +2465,7 @@ t("Even as this creature focuses its attention on you, many of its tentacles are
 section "game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua"
 
 t("A page of the tome.", "두꺼운 책의 한 페이지.", "_t")
-t("Forbidden Tome: \"Home, Horrific Home\"", "금지된 책: \"집, 무시무시한 집\"", "entity name")
+t("Forbidden Tome: \"Home, Horrific Home\"", "금지된 고서: \"집, 무시무시한 집\"", "entity name")
 t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "잃어버린 지식을 담고 있는 두꺼운 책. 만지면 역겨움과 평화를 동시에 느낄 수 있다.", "_t")
 
 
@@ -2610,11 +2646,21 @@ section "game/dlcs/tome-cults/data/zones/test/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
 t("thalore", "탈로레", "entity subtype")
+t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
+t("thalore wilder", "탈로레 자연의 추종자", "entity name")
+t("A tall elf, his skin covered in green moss.", "피부를 녹색 이끼로 덮고 있는 장신의 엘프입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/test/traps.lua"
 
+t("Armoury", "병기창", "entity name")
+t("Tanner", "무두장이", "entity name")
+t("Swordsmith", "도검 장인", "entity name")
+t("Nature's Punch", "대지의 주먹다짐", "entity name")
+t("Silent Hunter", "소리없는 사냥꾼", "entity name")
+t("Herbalist", "약초상", "entity name")
+t("Night's Star", "밤길의 별", "entity name")
 
 
 ------------------------------------------------
@@ -2648,6 +2694,13 @@ section "game/dlcs/tome-cults/data/zones/town-kroshkkur/objects.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/town-kroshkkur/traps.lua"
 
+t("Armoury", "병기창", "entity name")
+t("Tanner", "무두장이", "entity name")
+t("Swordsmith", "도검 장인", "entity name")
+t("Nature's Punch", "대지의 주먹다짐", "entity name")
+t("Silent Hunter", "소리없는 사냥꾼", "entity name")
+t("Herbalist", "약초상", "entity name")
+t("Night's Star", "밤길의 별", "entity name")
 
 
 ------------------------------------------------
@@ -2734,7 +2787,7 @@ t([[Infused by #YELLOW#psionic forces#LAST#
 ]], [[#YELLOW#초능력의 힘#LAST#으로 벼려짐
 ]], "_t")
 t([[Powered by #CRIMSON#unknown forces#LAST#
-]], [[#CRIMSON#알수없는 힘#LAST#이 스며듬
+]], [[#CRIMSON#알 수 없는 힘#LAST#이 스며듬
 ]], "_t")
 t("Name", "이름", "_t")
 t("Confirm", "확인", "_t")

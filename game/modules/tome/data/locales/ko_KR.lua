@@ -545,7 +545,7 @@ t("#YELLOW#On weapon crit:#LAST#", "#YELLOW#치명타 시:#LAST#", "_t")
 t("#YELLOW#On weapon kill:#LAST#", "#YELLOW#살해 시:#LAST#", "_t")
 t("When used from stealth a simple attack with it will not break stealth.", "이 무기를 이용한 단순 공격은 은신을 해제하지 않습니다.", "_t")
 t("Crushing Blows: ", "으스러뜨리는 일격: ", "_t")
-t("Damage dealt by this weapon is increased by half your critical multiplier, if doing so would kill the target.", "증폭된 피해로 적을 죽일 수 있을 떄, 치명타 피해 증가량의 50%% 만큼 가하는 피해량이 증폭됩니다.", "_t")
+t("Damage dealt by this weapon is increased by half your critical multiplier, if doing so would kill the target.", "증폭된 피해로 적을 죽일 수 있을 때, 치명타 피해 증가량의 50%% 만큼 가하는 피해량이 증폭됩니다.", "_t")
 t("Travel speed: ", "투사체 속도: ", "_t")
 t("Damage Shield penetration (this weapon only): ", "피해 보호막 관통 (이 무기만 적용): ", "_t")
 t("Lifesteal (this weapon only): ", "흡혈 (이 무기만 적용): ", "_t")
@@ -773,7 +773,7 @@ t([[It can be used to %s
 
 Activation puts %s on cooldown for %d turns.]], [[사용 시 %s
 
-활성화 시 %s에 %d 턴 동안 재사용 대기시간이 적용됩니다.]], "tformat")
+활성화 시 %s에 %d 턴의 재사용 대기시간이 적용됩니다.]], "tformat")
 t([[It can be used to %s
 
 Activation costs %d power out of %d/%d.]], [[사용 시 %s
@@ -804,7 +804,7 @@ t([[Infused by #YELLOW#psionic forces#LAST#
 ]], [[#YELLOW#초능력의 힘#LAST#으로 벼려짐
 ]], "_t")
 t([[Powered by #CRIMSON#unknown forces#LAST#
-]], [[#CRIMSON#알수없는 힘#LAST#이 스며듬
+]], [[#CRIMSON#알 수 없는 힘#LAST#이 스며듬
 ]], "_t")
 t("%0.2f Encumbrance.", "무게 %0.2f.", "tformat")
 t("This object's appearance was changed to %s", "이 물품은 %s 의 외형을 가집니다", "tformat")
@@ -1352,7 +1352,7 @@ Higher is faster, representing more attacks performed in the same amount of time
 t([[#GOLD#Firing range#LAST#
 The maximum distance your weapon can reach.
 ]], [[#GOLD#공격 사거리#LAST#
-당신의 무기가 도달할 수 있는 최대 사정거리를 나타냅니다..
+당신의 무기가 도달할 수 있는 최대 사정거리를 나타냅니다.
 ]], "_t")
 t([[#GOLD#Archery range and speed#LAST#
 Archery attacks create projectiles with a maximum range, beyond which they will terminate.
@@ -1742,7 +1742,7 @@ t([[#GOLD#Antimagic User#LAST#
 Dedicated to opposing and destroying magical and arcane influence in the world.
 The use of spells or arcane-powered equipment is impossible.
 ]], [[#GOLD#반마법 사용자#LAST#
-에이얄의 마법의 영향력을 제거하고 파괴하기위해 헌신하고 있습니다.
+에이얄에서의 마법의 영향력을 제거하고 파괴하기 위해 헌신하고 있습니다.
 주문과 마법의 힘이 주입된 장비를 사용할 수 없습니다.
 ]], "_t")
 
@@ -1931,13 +1931,13 @@ t("Ate 20 bosses.", "20명의 보스를 삼켰다.", "_t")
 t("Headbanger", "박치기 왕", "achievement name")
 t("Headbanged 20 bosses to death.", "20명의 보스를 박치기로 처치했다.", "_t")
 t("Are you out of your mind?!", "미친 거 아냐?!", "achievement name")
-t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "보르 무기고에 있는 무지막지한 고위 다색 용들의 관심을 끌었다. 아마 도망치는 것이 알맞을지도...", "_t")
+t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "보르 무기고에 있는 초월적인 거대 다색 용들의 관심을 끌었다. 아마 도망치는 것이 알맞을지도...", "_t")
 t("I cleared the room of death and all I got was this lousy achievement!", "이 죽음의 방을 싹쓸이했지만 내가 얻은 것이라고는 이 바보 같은 도전과제 뿐이라네!", "achievement name")
-t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "보르 무기고의 \"죽음의 방\"에 있는 무지막지한 일곱 용들을 처치했다.", "_t")
+t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "보르 무기고의 \"죽음의 방\"에 있는 초월적인 일곱 용들을 처치했다.", "_t")
 t("I'm a cool hero", "나는 쿨한 영웅", "achievement name")
 t("Saved Derth without a single inhabitant dying.", "한 명의 마을 주민도 죽게 놔두지 않고 데르스를 구했다.", "_t")
 t("Kickin' it old-school", "옛 방식으로 작살내기", "achievement name")
-t("Killed Urkis, the Tempest, causing him to drop the Rod of Recall.", "폭풍술사 우르키스를 처치하고 그에게서 Rod of Recall을 얻었다.", "_t")
+t("Killed Urkis, the Tempest, causing him to drop the Rod of Recall.", "대기술사 우르키스를 처치하고 그에게서 Rod of Recall을 얻었다.", "_t")
 t("Leave the big boys alone", "다 큰 놈은 내버려 둬", "achievement name")
 t("Killed The Master, causing him to drop the Rod of Recall.", "'주인' 을 처치하고 그에게서 Rod of Recall을 얻었다.", "_t")
 t("You know who's to blame", "누구의 책임인지 알지", "achievement name")
@@ -2023,7 +2023,7 @@ t("Evil denied", "악을 저지하다", "achievement name")
 t("Won ToME by preventing the Void portal from opening.", "공허의 차원문이 열리는 것을 막아내어 ToME에서 승리했다.", "_t")
 t("The High Lady's destiny", "고귀한 여인의 운명", "achievement name")
 t("Won ToME by closing the Void portal using Aeryn as a sacrifice.", "아에린의 희생으로 공허의 차원문을 닫아 ToME에서 승리했다.", "_t")
-t("The Sun Still Shines", "태양은 여전히 빛나고", "achievement name")
+t("The Sun Still Shines", "태양은 여전히 빛나고 있다", "achievement name")
 t("Aeryn survived the last battle.", "아에린이 마지막 전투에서 살아남았다.", "_t")
 t("Selfless", "이타심", "achievement name")
 t("Won ToME by closing the Void portal using yourself as a sacrifice.", "당신의 희생으로 공허의 차원문을 닫아 ToME에서 승리했다.", "_t")
@@ -2064,7 +2064,7 @@ t("Killed Ben Cruthdar the Cursed.", "저주받은 자 벤 크루스달을 처�
 t("Fast Curse Dispel", "빠른 해주", "achievement name")
 t("Killed Ben Cruthdar the Cursed while saving all the lumberjacks.", "한 명의 나무꾼도 죽게 두지 않고 저주받은 자 벤 크루스달을 처치했다.", "_t")
 t("Eye of the storm", "폭풍의 눈", "achievement name")
-t("Freed Derth from the onslaught of the mad Tempest, Urkis.", "미친 폭풍술사 우르키스로부터 데르스를 해방시켰다.", "_t")
+t("Freed Derth from the onslaught of the mad Tempest, Urkis.", "미친 대기술사 우르키스로부터 데르스를 해방시켰다.", "_t")
 t("Antimagic!", "반마법!", "achievement name")
 t("Completed antimagic training in the Ziguranth camp.", "지구르의 캠프에서 반마법 훈련을 마쳤다.", "_t")
 t("Anti-Antimagic!", "반-반마법!", "achievement name")
@@ -3825,6 +3825,7 @@ section "game/modules/tome/data/general/events/drake-cave.lua"
 section "game/modules/tome/data/general/events/fearscape-portal.lua"
 
 t("#VIOLET#The portal is already broken!", "#VIOLET#이 차원문은 이미 부서진 상태다!", "log")
+t("Fearscape Portal", "공포의 땅 차원문", "_t")
 t("Destroy", "파괴", "_t")
 t("Enter", "들어간다", "_t")
 t("Quit", "출구", "_t")
@@ -3946,6 +3947,7 @@ section "game/modules/tome/data/general/grids/autumn_forest.lua"
 
 t("wall", "벽", "entity type")
 t("tall thick tree", "아름드리나무", "entity name")
+t("old road", "오래된 길", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("autumn_grass", "가을 초목", "entity subtype")
@@ -4047,6 +4049,7 @@ t("tall thick tree", "아름드리나무", "entity name")
 t("flower", "꽃", "entity name")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("old road", "오래된 길", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("floor", "바닥", "entity type")
@@ -4227,6 +4230,7 @@ t("snowy grass", "눈 덮인 초목", "entity name")
 t("winter tree", "겨울 나무", "entity name")
 t("wall", "벽", "entity type")
 t("tall thick tree", "아름드리나무", "entity name")
+t("old road", "오래된 길", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("way to the previous level", "이전 층으로의 길", "entity name")
 t("floor", "바닥", "entity type")
@@ -4357,7 +4361,7 @@ t("golem", "골렘", "entity name")
 section "game/modules/tome/data/general/npcs/crystal.lua"
 
 t("crystal", "수정", "entity subtype")
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 t("light", "경갑", "entity subtype")
 
 
@@ -4378,7 +4382,7 @@ t("shalore", "샬로레", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/faeros.lua"
 
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 t("fire", "화염", "entity subtype")
 
 
@@ -4400,6 +4404,7 @@ section "game/modules/tome/data/general/npcs/ghost.lua"
 
 t("ghost", "유령", "entity subtype")
 t("undead", "언데드", "entity type")
+t("dread", "공포", "entity name")
 
 
 ------------------------------------------------
@@ -4414,7 +4419,7 @@ t("Flesh is falling off in chunks from this decaying abomination.", "이 썩어�
 section "game/modules/tome/data/general/npcs/gwelgoroth.lua"
 
 t("air", "공기", "entity subtype")
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 
 
 ------------------------------------------------
@@ -4490,7 +4495,7 @@ t("lich", "리치", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/losgoroth.lua"
 
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 t("void", "공허", "entity subtype")
 
 
@@ -4499,6 +4504,7 @@ section "game/modules/tome/data/general/npcs/major-demon.lua"
 
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
+t("daelach", "댈라크", "entity name")
 
 
 ------------------------------------------------
@@ -4547,6 +4553,7 @@ section "game/modules/tome/data/general/npcs/ogre.lua"
 
 t("giant", "거인", "entity type")
 t("ogre", "오우거", "entity subtype")
+t("ogre rune-spinner", "오우거 룬 방적공", "entity name")
 
 
 ------------------------------------------------
@@ -4638,7 +4645,7 @@ t("sher'tul", "쉐르'툴", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/shivgoroth.lua"
 
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 t("ice", "얼음", "entity subtype")
 t("shivgoroth", "쉬브고로스", "entity name")
 
@@ -4670,6 +4677,9 @@ t("ice", "얼음", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/spider.lua"
 
+t("spider", "거미", "entity subtype")
+t("spiderkin", "거미류", "entity type")
+t("Arachnophobia...", "거미 공포증...", "_t")
 
 
 ------------------------------------------------
@@ -4684,6 +4694,8 @@ section "game/modules/tome/data/general/npcs/sunwall-town.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
+t("elf", "엘프", "entity subtype")
 
 
 ------------------------------------------------
@@ -4696,7 +4708,7 @@ t("insect", "곤충", "entity type")
 section "game/modules/tome/data/general/npcs/telugoroth.lua"
 
 t("The spell fizzles!", "주문이 실패했다!", "logSeen")
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 t("temporal", "시간", "entity subtype")
 
 
@@ -4766,7 +4778,7 @@ t("dragon", "용", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/xorn.lua"
 
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
 
@@ -4890,6 +4902,7 @@ t("voratun waraxe", "보라툰 전투 도끼", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
 
+t("Warmaster Gnarg's Murderblade", "사령관 나르그의 Murderblade", "entity name")
 t("Molten Skin", "용암 외피", "entity name")
 
 
@@ -6831,7 +6844,7 @@ t("alchemist", "연금술사", "entity short_name")
 t("alchemist's lamp", "연금술사의 랜턴", "entity name")
 t("A normal brass lantern, enhanced by alchemy to make it brighter.", "평범한 놋쇠 랜턴이지만, 연금술을 통해 보다 강한 빛을 냅니다.", "_t")
 t("dwarven", "드워프", "entity short_name")
-t("dwarven lantern", "드워프들의 랜턴", "entity name")
+t("dwarven lantern", "드워프 랜턴", "entity name")
 t("Made by the Dwarves, this lantern provides light in the darkest recesses of the earth.", "드워프들이 만든 랜턴으로, 대지의 가장 어두운 부분까지 빛이 닿습니다.", "_t")
 
 
@@ -6843,6 +6856,7 @@ section "game/modules/tome/data/general/objects/lore/fun.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/lore/maj-eyal.lua"
 
+t("analysis", "분석", "entity subtype")
 
 
 ------------------------------------------------
@@ -6955,6 +6969,7 @@ t("mummy wrappings", "미이라 붕대", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/objects-far-east.lua"
 
+t("tome", "고서", "entity subtype")
 
 
 ------------------------------------------------
@@ -7305,6 +7320,7 @@ t("elven-silk wizard hat", "엘프 비단 마법 모자", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts-far-east.lua"
 
+t("tome", "고서", "entity subtype")
 t("Summon", "소환", "_t")
 
 
@@ -7346,6 +7362,8 @@ t("Lightning Catcher", "전기 포집기", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/stores/basic.lua"
 
+t("tanner", "무두장이", "entity name")
+t("tailor", "재단사", "entity name")
 
 
 ------------------------------------------------
@@ -7372,7 +7390,7 @@ t("arcane", "비전", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/elemental.lua"
 
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 t("trap", "함정", "_t")
 t("acid", "산성", "entity subtype")
 t("cold", "냉기", "entity subtype")
@@ -7728,6 +7746,8 @@ section "game/modules/tome/data/lore/age-pyre.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/angolwen.lua"
 
+t("Lecture on Humility by Archmage Linaniil", "마도사 리나니일의 겸손에 대한 강의", "_t")
+t("Lecture on the nature of magic by Archmage Tarelion", "마도사 타레리온의 마법의 본질에 대한 강의", "_t")
 
 
 ------------------------------------------------
@@ -7767,6 +7787,7 @@ section "game/modules/tome/data/lore/dreadfell.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/elvala.lua"
 
+t("spellblaze", "마법폭발", "newLore category")
 
 
 ------------------------------------------------
@@ -7821,6 +7842,11 @@ section "game/modules/tome/data/lore/kor-pul.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/last-hope.lua"
 
+t("The Diaries of King Toknor the Brave", "용감한 왕 토크놀의 일기", "_t")
+t("The Pale King, part one", "창백한 왕, 제1장", "_t")
+t("southspar", "남쪽스파", "newLore category")
+t("The Pale King, part two", "창백한 왕, 제2장", "_t")
+t("The Oceans of Eyal", "에이알의 대양들", "_t")
 
 
 ------------------------------------------------
@@ -8037,6 +8063,11 @@ section "game/modules/tome/data/lore/old-forest.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/orc-prides.lua"
 
+t("Records of Lorekeeper Hadak part one", "전승지기 하다크의 기록 제1부", "_t")
+t("Records of Lorekeeper Hadak part two", "전승지기 하다크의 기록 제2부", "_t")
+t("Records of Lorekeeper Hadak part three", "전승지기 하다크의 기록 제3부", "_t")
+t("Records of Lorekeeper Hadak part four", "전승지기 하다크의 기록 제4부", "_t")
+t("Records of Lorekeeper Hadak part five", "전승지기 하다크의 기록 제5부", "_t")
 t("The Legend of Garkul", "가르쿨의 전설", "_t")
 t("Captain Gumlarat's report", "대장 검라랏의 보고서", "_t")
 
@@ -8071,6 +8102,7 @@ t("slazish fens", "슬라지쉬 늪지", "newLore category")
 ------------------------------------------------
 section "game/modules/tome/data/lore/spellblaze.lua"
 
+t("spellblaze", "마법폭발", "newLore category")
 
 
 ------------------------------------------------
@@ -8097,12 +8129,14 @@ t("tattered paper scrap (trollmire)", "너덜너덜한 종잇조각 (트롤 늪)
 ------------------------------------------------
 section "game/modules/tome/data/lore/zigur.lua"
 
+t("The Great Evil", "강대한 악", "_t")
 t("Purging Trap", "정화 함정", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/towns/gates-of-morning.lua"
 
+t("Limmir the Jeweler", "보석 세공사 리미르", "_t")
 
 
 ------------------------------------------------
@@ -8366,6 +8400,7 @@ t("Melinda", "멜린다", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/quests/lumberjack-cursed.lua"
 
+t("Small lumberjack village", "작은 나무꾼 마을", "_t")
 t("all", "모든", "_t")
 
 
@@ -8443,7 +8478,7 @@ t("Important news", "중대한 소식", "_t")
 t("Orcs were spotted with the staff you seek in an arid waste in the southern desert.", "남부 사막지대의 에류안 불모지에서 흡수의 지팡이를 가진 오크 무리가 발견되었습니다.", "_t")
 t("You should go investigate what is happening there.", "당신은 그곳으로 가서 어떤 일이 벌어지고 있는지 조사해야 합니다.", "_t")
 t("High Sun Paladin Aeryn", "고위 태양의 기사 아에린", "_t")
-t("Aeryn explained where the orcs were spotted.", "아에린이 오크 무리가 어디서 발견되었는지 설명해주었습니다", "logPlayer")
+t("Aeryn explained where the orcs were spotted.", "아에린이 오크 무리가 어디서 발견되었는지 설명해 주었다.", "logPlayer")
 
 
 ------------------------------------------------
@@ -15064,7 +15099,7 @@ t("Balance", "균형", "talent name")
 t([[You now substitute %d%% of your Mental Save for %d%% of your Physical and Spell Saves throws (so at 100%%, you would effectively use mental save for all saving throw rolls).
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
 		Learning this talent also increases your solipsism threshold by 10%% (currently %d%%).]], [[물리 내성과 주문 내성의 %d%% 를 정신 내성의 %d%% 로 대체합니다. (즉 이 비율이 100%% 가 되면, 정신 내성이 물리 내성과 주문 내성을 완전히 대체하게 됩니다)
-		기술 레벨이 1 일떄, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
+		기술 레벨이 1 일때, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
 		이 기술을 배우면 독존 한계량이 10%% 증가하게 됩니다. (현재 : %d%%)]], "tformat")
 t("Clarity", "깨달음", "talent name")
 t([[For every percent that your Psi pool exceeds %d%%, you gain 1%% global speed (up to a maximum of %+d%%).
@@ -15167,7 +15202,7 @@ t([[Forge a guardian from your thoughts alone.  Your guardian's primary stat wil
 		At talent level one, you may forge a mighty bowman clad in leather armor; at level three a powerful warrior wielding a two-handed weapon; and at level five a strong defender using a sword and shield.
 		Thought forms can only be maintained up to a range of %d, and will rematerialize next to you if this range is exceeded.
 		Only one thought-form may be active at a time, and the stat bonuses will improve with your Mindpower.]], [[생각만으로 수호자를 단조해냅니다. 수호자들의 우선적 능력치를 %d 만큼 늘리고, 2 개의 부가적 능력치를 %d 만큼 늘립니다. 그리고 마법, 교활, 의지 능력치는 시전자의 것을 따릅니다.
-		기술 레벨 1 일 때 가죽 갑옷을 입은 위력적인 궁수를 버려냅니다. 기술 레벨 3 일 때 양손 무기를 든 막강한 전사를, 기술 레벨 5 일 떄 방패와 검을 쓰는 강인한 수호자를 단조합니다.
+		기술 레벨 1 일 때 가죽 갑옷을 입은 위력적인 궁수를 버려냅니다. 기술 레벨 3 일 때 양손 무기를 든 막강한 전사를, 기술 레벨 5 일 때 방패와 검을 쓰는 강인한 수호자를 단조합니다.
 		생각의 구현체들은 시전자를 중심으로 반경 %d 내에서만 유지될 수 있습니다. 범위를 벗어난 경우, 시전자의 옆에서 재구성됩니다.
 		한번에 단 하나의 구현체만 존재할 수 있으며, 능력치 상승량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Transcendent Thought-Forms", "초월적인 구현", "talent name")
@@ -17407,7 +17442,7 @@ t([[Concentrate on the battle, ignoring some of the damage you take.
 		20 턴 동안, 물리 피해 저항이 %d%% 상승하며, %d%% 확률로 치명타를 무효화합니다.]], "tformat")
 t("Onslaught", "맹공", "talent name")
 t([[Take an offensive stance. As you attack your foes, you knock your target and foes adjacent to them in a frontal arc back (up to %d grids).
-		This consumes stamina rapidly (-1 stamina/turn).]], [[공격적인 자세를 취합니다. 적을 공격할 때, 당신과 인접한 대상과 대상 양쪽의 적을 최대 %d 칸 밀칩니다.
+		This consumes stamina rapidly (-1 stamina/turn).]], [[공격적인 자세를 취합니다. 적을 공격할 때, 당신과 인접한 대상과 대상 양 옆의 적을 최대 %d 칸 밀칩니다.
 		이 기술의 활성화는 체력을 급격하게 소진합니다 (-1 체력/턴).]], "tformat")
 t("Battle Call", "전투의 부름", "talent name")
 t("%s is called to battle!", "%s 전투에 끌려나왓다!", "logSeen", nil, {"는"})
@@ -17660,7 +17695,7 @@ t("Your mastery of unarmed combat unifies your body. Increases your Strength by 
 t("Heightened Reflexes", "향상된 반사 신경", "talent name")
 t("When you're targeted by a projectile, your global speed is increased by %d%% for 1 turn.  Taking any action other than movement will break the effect.", "투사체의 대상이 됐을 때, 전체 속도가 1 턴 동안 %d%% 증가합니다. 이동을 제외한 모든 행동은 이 효과를 즉시 중단시킵니다.", "tformat")
 t("Reflex Defense", "유연한 회피", "talent name")
-t("Your understanding of physiology allows you to apply your reflexes in new ways, increasing the flat damage reduction granted by Striking Stance by %d%% and causing direct critical hits (physical, mental, spells) against you to have a %d%% lower Critical multiplier (but always do at least normal damage).", "인체 구조에 대한 통달은 반사 신경의 새로운 방식의 적용을 가능캐했습니다. 타격 자세로 얻는 고정 피해 감소량을 %d%% 증가시키고, 치명타 피격 시, 치명타 피해량을 %d%% 낮춥니다. (하지만 적어도 기본 피해는 받습니다).", "tformat")
+t("Your understanding of physiology allows you to apply your reflexes in new ways, increasing the flat damage reduction granted by Striking Stance by %d%% and causing direct critical hits (physical, mental, spells) against you to have a %d%% lower Critical multiplier (but always do at least normal damage).", "인체 구조에 대한 통달은 반사 신경을 새로운 경지로 이끌었습니다. 타격 자세로 얻는 고정 피해 감소량을 %d%% 증가시키고, 치명타 피격 시, 치명타 피해량을 %d%% 낮춥니다. (하지만 적어도 기본 피해는 받습니다).", "tformat")
 
 
 ------------------------------------------------
@@ -21452,7 +21487,7 @@ t([[Mayhem and destruction seem to follow you.
 #CRIMSON#위력	 1+	 : %s잘못된 노력	: +%d%% 함정 회피
 #CRIMSON#위력	 2+	 : %s%+d 행운, %+d 교활
 #CRIMSON#위력	 3+	 : %s놓처버린 기회  : 모든 피해 무효화 확률 +%d%%.
-#CRIMSON#위력	 4+	 : %s불행한 끝		: 증폭된 피해로 적을 죽일 수 있을 떄, 피해량이 %d%% 증폭됨.]], "tformat")
+#CRIMSON#위력	 4+	 : %s불행한 끝		: 증폭된 피해로 적을 죽일 수 있을 때, 피해량이 %d%% 증폭됨.]], "tformat")
 t("#F53CBE#%s suffers an unfortunate end.", "#F53CBE#%s 불행한 끝으로 고통받는다.", "logSeen", nil, {"가"})
 t("#F53CBE#%s suffers an unfortunate blow.", "#F53CBE#%s 불행의 일격으로 고통받는다.", "logSeen", nil, {"가"})
 t("Unstable Probabilites", "불안정한 가능성", "_t")
@@ -22553,6 +22588,9 @@ section "game/modules/tome/data/zones/abashed-expanse/npcs.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/abashed-expanse/objects.lua"
 
+t("Void Star", "공허의 별", "entity name")
+t("tiny black star", "조그만 검정색 별", "_t")
+t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", "아주 조그만 별처럼 보이는 물건입니다. 칠흑같은 빛깔인데도 어째서인지 빛이 납니다.", "_t")
 
 
 ------------------------------------------------
@@ -22609,12 +22647,14 @@ section "game/modules/tome/data/zones/ardhungol/zone.lua"
 section "game/modules/tome/data/zones/arena-unlock/grids.lua"
 
 t("wall", "벽", "entity name")
+t("closed gate", "닫힌 문", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/arena-unlock/npcs.lua"
 
 t("gladiator", "검투사", "entity name")
+t("halfling slinger", "하플링 투석꾼", "entity name")
 t("halfling", "하플링", "entity subtype")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
@@ -22628,8 +22668,10 @@ section "game/modules/tome/data/zones/arena-unlock/zone.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/arena/grids.lua"
 
+t("closed gate", "닫힌 문", "entity name")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
+t("open gate", "열린 문", "entity name")
 
 
 ------------------------------------------------
@@ -22641,6 +22683,7 @@ t("gladiator", "검투사", "entity name")
 t("alchemist", "연금술사", "entity name")
 t("rogue", "불한당", "entity name")
 t("human", "인간", "entity subtype")
+t("elf", "엘프", "entity subtype")
 t("humanoid", "인간형", "entity type")
 
 
@@ -22764,6 +22807,7 @@ t("sealed door", "봉인된 문", "entity name")
 section "game/modules/tome/data/zones/crypt-kryl-feijan/npcs.lua"
 
 t("human", "인간", "entity subtype")
+t("elf", "엘프", "entity subtype")
 t("humanoid", "인간형", "entity type")
 t("Melinda", "멜린다", "_t")
 
@@ -22789,6 +22833,8 @@ t("Temporal Rift", "시간의 균열", "_t")
 section "game/modules/tome/data/zones/daikara/npcs.lua"
 
 t("ice", "얼음", "entity subtype")
+t("Rantha the Worm", "'벌레' 란싸", "entity name")
+t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...", "발톱과 이빨. 얼음과 죽음. 용들은 죄다 멸종된 게 아니었던 모양입니다...", "_t")
 t("dragon", "용", "entity type")
 t("fire", "화염", "entity subtype")
 
@@ -22824,6 +22870,7 @@ section "game/modules/tome/data/zones/deep-bellow/objects.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/deep-bellow/zone.lua"
 
+t("The Deep Bellow", "깊은 포효", "_t")
 
 
 ------------------------------------------------
@@ -23781,7 +23828,7 @@ t("The rift leads... somewhere.", "이 균열은 어딘가로... 이어집니다
 ------------------------------------------------
 section "game/modules/tome/data/zones/paradox-plane/npcs.lua"
 
-t("elemental", "원소", "entity type")
+t("elemental", "정령", "entity type")
 t("temporal", "시간", "entity subtype")
 t("Epoch", "에폭", "entity name")
 t("A huge being composed of sparking blue and yellow energy stands before you.  It shifts and flows as it moves, at once erratic and graceful.", "탁탁 튀는 푸른색과 노란색 에너지들의 거대한 집합체입니다. 다채롭게 움직이며, 그 움직임은 불규칙적이고 우아합니다.", "_t")
@@ -24595,7 +24642,7 @@ section "game/modules/tome/data/zones/tempest-peak/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
-t("Urkis, the High Tempest", "고위 폭풍술사 우르키스", "entity name")
+t("Urkis, the High Tempest", "고위 대기술사 우르키스", "entity name")
 t("Lightning crackles around this middle-aged man. He radiates power.", "파직거리는 번개를 주변에 두른 중년의 남성입니다. 그에게서 마법적인 힘이 뿜어져 나옵니다.", "_t")
 t("and used in mad electrical reanimation experiments", "그리고 그 시체는 전기를 사용한 정신나간 소생 실험에 쓰였습니다.", "_t")
 
@@ -24632,7 +24679,7 @@ t([[This incredibly beautiful -- and powerful -- trident is made of the rare met
 It is imbued with the greatest strengths of all of the most powerful Naga warriors.
 Slasul gave it to you as a sign of his faith in you. It is a sign of hope for all of the Naloren race, that one outside of their tribe could be so trusted.]], [[희귀한 금속 오리하르콘으로 만들어진, 믿을 수 없을 정도로 아름답고 강력한 삼지창입니다. 앞쪽 끝부분에는 감탄이 절로 나오는 진주가 박혀 있으며, 그것이 세 방향으로 갈라져서 날카로운 날이 되어 있습니다.
 이 삼지창에는 가장 강력했던 나가 전사들의 힘의 정수가 담겨 있습니다.
-슬라술이 신뢰의 증표로써 당신에게 준 것입니다. 이 삼지창은 날로레 종족의 희망의 상징이기 때문에, 날로레가 아닌 당신을 진심으로 믿을 수 있다는 의미입니다.]], "_t")
+슬라술이 신뢰의 증표로써 당신에게 준 것입니다. 이 삼지창은 날로레 종족의 희망의 상징이기 때문에, 동족이 아닌 당신을 진심으로 믿을 수 있다는 의미입니다.]], "_t")
 
 
 ------------------------------------------------
@@ -24662,8 +24709,15 @@ t("Temporal Warden", "시간 감시자", "_t")
 section "game/modules/tome/data/zones/temporal-rift/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
+t("Ben Cruthdar, the Abomination", "혐오체 벤 크루스달", "entity name")
+t("This crazed madman seems twisted and corrupted by temporal energy, his body shifting and phasing in and out of reality.", "이 정신나간 광인은 시간 에너지에 의해 비틀리고 오염된 것으로 보이며, 그 몸통은 현실에 나타났다 사라졌다 하고 있습니다.", "_t")
 t("dragon", "용", "entity type")
+t("Rantha the Abomination", "혐오체 란싸", "entity name")
+t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...  and this one seems to have been corrupted by the time rift.", "발톱과 이빨. 얼음과 죽음. 용들은 죄다 멸종된 게 아니었던 모양입니다... 그리고 이 용은 시간의 균열에 의해 오염된 것 같습니다.", "_t")
+t("Chronolith Twin", "크로노리스의 쌍둥이", "entity name")
+t("Chronolith Clone", "크로노리스의 클론", "entity name")
 t("temporal", "시간", "entity subtype")
+t("A six-armed creature, dressed in robes, with black insectile eyes.", "로브를 입고 새까만 곤충 눈을 가진, 팔이 여섯 개 달린 생물입니다.", "_t")
 
 
 ------------------------------------------------
@@ -24675,7 +24729,14 @@ t("Rune of the Rift", "균열의 룬", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/temporal-rift/zone.lua"
 
+t("Temporal Rift: Lumberjack village", "시간의 균열: 나무꾼 마을", "_t")
+t("Temporal Rift: Daikara", "시간의 균열: 다이카라", "_t")
+t("Temporal Rift: Lake of Nur", "시간의 균열: 누르 호수", "_t")
+t("Space and time distort and lose meaning as you pass through the rift. This place is alien.", "균열을 통과하자 시공간이 왜곡되며 그 의미를 잃습니다. 이 장소는 낯선 곳입니다.", "_t")
+t("This looks like Maj'Eyal's forest but it looks strangely distorted, beware...", "이곳은 마즈'에이알의 숲 같지만 이상하게 뒤틀린 것 같습니다. 조심하십시오...", "_t")
+t("As you pass the rift you see what seems to be the Daikara mountains, yet they are not.", "균열을 통과하자, 진짜가 아님에도 불구하고 다이카라 산에서 봤던 것들이 보입니다.", "_t")
 t("Temporal Rift", "시간의 균열", "_t")
+t("The peace of this place has been disturbed.", "이곳의 평화로움은 깨져 버렸습니다.", "_t")
 
 
 ------------------------------------------------
@@ -24691,18 +24752,25 @@ section "game/modules/tome/data/zones/test/mapscripts/rooms_test2.lua"
 ------------------------------------------------
 section "game/modules/tome/data/zones/test/zone.lua"
 
+t("TestZone!", "테스트존!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/thieves-tunnels/npcs.lua"
 
+t("Assassin Lord", "암살단장", "entity name")
+t("He is the leader of a gang of bandits; watch out for his men.", "도적단의 우두머리입니다. 조심하세요.", "_t")
+t("#DARK_GREY#The assassin lord throws a smoke bomb and disappears!", "#DARK_GREY#암살단장이 연막탄을 던지고 사라졌다!", "logPlayer")
+t("As the assassin dies the magical veil protecting the stairs out vanishes.", "암살자가 죽자 나가는 계단을 막고 있던 마법의 장막이 사라졌다.", "logSeen")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Lost Merchant", "길 잃은 상인", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/thieves-tunnels/zone.lua"
 
+t("Unknown tunnels", "미지의 터널", "_t")
 
 
 ------------------------------------------------
@@ -24710,25 +24778,54 @@ section "game/modules/tome/data/zones/town-angolwen/grids.lua"
 
 t("cultivated fields", "경작지", "entity name")
 t("cobblestone road", "조약돌 길", "entity name")
+t("magical rock", "마법의 바위", "entity name")
+t("fountain", "분수", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-angolwen/npcs.lua"
 
+t("Linaniil, Supreme Archmage of Angolwen", "앙골웬의 대마도사 리나니일", "entity name")
+t("A tall, pale woman dressed in a revealing silk robe. Her gaze is so intense it seems to burn.", "창백한 피부를 가진 장신의 여성입니다. 노출이 많은 실크 로브를 입고 있습니다. 눈빛이 너무나 강렬해서 불탈 것만 같습니다.", "_t")
+t("#GOLD#Linaniil concentrates her formidable will to restore her body!", "#GOLD#리나니일이 상처를 회복하기 위해 어마어마한 의지력을 집중한다!", "saySimple")
 t("shalore", "샬로레", "entity subtype")
+t("Archmage Tarelion", "마도사 타레리온", "entity name")
+t("A tall Shalore in a flowing robe, he looks calm and at peace, but you can feel his tremendous power.", "옷깃이 늘어진 로브를 입은 장신의 샬로레입니다. 온화한 사람처럼 보이지만, 그에게서 엄청난 힘이 느껴집니다.", "_t")
+t("Remove @himher@!", "@himher@를 없애라!", "_t")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Catch @himher@!", "@himher@를 잡아라!", "_t")
+t("apprentice mage", "수습 마법사", "entity name")
+t("An apprentice, learning the ways of the arcane arts.", "비전의 힘을 배우고 있는 수습생입니다.", "_t")
+t("pyromancer", "화염술사", "entity name")
+t("An archmage specializing in fire magic.", "화염 마법을 전공한 마도사입니다.", "_t")
+t("cryomancer", "냉기술사", "entity name")
+t("An archmage specializing in ice magic.", "냉기 마법을 전공한 마도사입니다.", "_t")
+t("geomancer", "대지술사", "entity name")
+t("An archmage specializing in earth magic.", "대지 마법을 전공한 마도사입니다.", "_t")
+t("tempest", "대기술사", "entity name")
+t("An archmage specializing in lightning magic.", "대기 마법을 전공한 마도사입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-angolwen/objects.lua"
 
+t("lecture on humility", "겸손에 대한 강의", "entity subtype")
+t("Lecture on Humility by Archmage Linaniil", "겸손에 대한 강의, 마도사 리나니일 지음", "entity name")
+t("Lecture on Humility by Archmage Linaniil. A tale of the first ages and the Spellblaze.", "마도사 리나니일의 겸손에 대한 강의입니다. 최초의 시대와 마법폭발에 대한 이야기입니다.", "_t")
+t("magic teaching", "마법 수업", "entity subtype")
+t("'What is Magic' by Archmage Tarelion", "'마법이란 무엇인가', 마도사 타레리온 지음", "entity name")
+t("Lecture on the nature of magic by Archmage Tarelion.", "마도사 타레리온의 마법의 본질에 대한 강의입니다.", "_t")
+t("Rune of Dissipation", "소멸의 룬", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-angolwen/traps.lua"
 
-t("Alchemist", "연금술사", "entity name")
+t("Shining Jewel", "빛나는 보석", "entity name")
+t("Alchemist", "연금술", "entity name")
+t("Library", "도서관", "entity name")
+t("Tools of the Art", "마법 도구들", "entity name")
 
 
 ------------------------------------------------
@@ -24749,19 +24846,38 @@ section "game/modules/tome/data/zones/town-derth/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Catch @himher@!", "@himher@를 잡아라!", "_t")
+t("derth guard", "데르스 경비병", "entity name")
+t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
+t("halfling slinger", "하플링 투석꾼", "entity name")
+t("A Halfling, with a sling. Beware.", "투석구를 들고 있는 하플링입니다. 조심하세요.", "_t")
 t("human farmer", "인간 농부", "entity name")
+t("A weather-worn Human farmer.", "햇빛에 탄 인간 농부입니다.", "_t")
 t("halfling gardener", "하플링 정원사", "entity name")
 t("halfling", "하플링", "entity subtype")
+t("A Halfling, he seems to be looking for plants.", "식물을 찾고 있는 걸로 보이는 하플링입니다.", "_t")
+t("Shady cornac man", "수상한 코르낙 남성", "entity name")
+t("Hey you. Come here.", "거기 당신, 잠깐 이야기 좀 하자.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-derth/traps.lua"
 
+t("Armoury", "병기창", "entity name")
+t("Tanner", "무두장이", "entity name")
+t("Swordsmith", "도검 장인", "entity name")
+t("Knives and daggers", "단검과 비수", "entity name")
+t("Death from Afar", "멀리서 내리는 죽음", "entity name")
+t("Herbalist", "약초상", "entity name")
+t("Jewelry", "장신구점", "entity name")
+t("Survival Supplies", "생존의 필수품", "entity name")
+t("Home of Stire the Alchemist", "연금술사 스타이어의 집", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-derth/zone.lua"
 
+t("Derth", "데르스", "_t")
 
 
 ------------------------------------------------
@@ -24769,29 +24885,51 @@ section "game/modules/tome/data/zones/town-elvala/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
 t("shalore", "샬로레", "entity subtype")
+t("elvala guard", "엘발라 경비병", "entity name")
+t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
+t("shalore rune master", "샬로레 룬 마스터", "entity name")
+t("A tall Elf, his skin covered in runes.", "피부에 룬이 새겨진 장신의 엘프입니다.", "_t")
 t("giant", "거인", "entity type")
 t("ogre", "오우거", "entity subtype")
+t("Catch @himher@!", "@himher@를 잡아라!", "_t")
+t("ogre rune-spinner", "오우거 룬 방적공", "entity name")
+t("A towering ogre guard, her skin covered in runes.", "피부에 룬이 새겨진 거대한 오우거 경비병입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-elvala/objects.lua"
 
+t("spellblaze", "마법폭발", "entity subtype")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-elvala/traps.lua"
 
+t("Tailor", "재단사", "entity name")
+t("Tanner", "무두장이", "entity name")
+t("Swordsmith", "도검 장인", "entity name")
+t("Staff carver", "지팡이 장인", "entity name")
+t("Runemaster", "룬 마스터", "entity name")
+t("Home of Marus the Alchemist", "연금술사 말루스의 집", "entity name")
+t("Shady Library", "수상한 도서관", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-elvala/zone.lua"
 
+t("Elvala", "엘발라", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-gates-of-morning/grids.lua"
 
 t("floor", "바닥", "entity subtype")
+t("old road", "오래된 길", "entity name")
+t("Farportal: Last Hope", "장거리 차원문: 마지막 희망", "entity name")
+t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
+This one seems to go near the town of Last Hope in Maj'Eyal.]], [[장거리 차원문은 엄청난 거리를 눈 깜박할 새에 이동할 수 있는 통로입니다. 일반적으로 이용하려면 특정한 물건이 필요합니다. 당신은 이걸로 왕복이 가능한지조차도 짐작이 안 갑니다.
+이 차원문은 마즈'에이알의 마지막 희망 근처로 통하는 것으로 보입니다.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot on the outskirts of Last Hope, with no trace of the portal...", "#VIOLET#당신은 소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 마지막 희망의 교외에 착지했습니다. 차원문은 흔적조차 보이지 않습니다...", "_t")
 t("grass", "잔디", "entity subtype")
 t("rockwall", "바위 장벽", "entity type")
 t("Sunwall mountain", "태양의 장벽 산", "entity name")
@@ -24805,21 +24943,36 @@ t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
 t("High Sun Paladin Aeryn", "고위 태양의 기사 아에린", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "빛나는 판금 갑옷을 입은 아름다운 여인입니다. 그녀에게서 강렬한 힘이 뿜어져 나옵니다.", "_t")
+t("You find a note containing the location of the Orc Prides on Aeryn's body.", "아에린의 시체에서 오크 긍지들의 위치가 적힌 메모를 찾아냈다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-gates-of-morning/traps.lua"
 
+t("Impenetrable Plates", "뚫리지 않는 편안함", "entity name")
+t("Quality Leather", "끝내주는 가죽갑", "entity name")
+t("Arcane Cloth", "신비한 옷가게", "entity name")
+t("Swordmaster", "소드마스터", "entity name")
+t("Night Affairs", "밤손님", "entity name")
+t("Orc Cutters", "오크 절단기", "entity name")
+t("Mauling for Brutes", "머리통을 깨자", "entity name")
+t("Bows and Slings", "활과 투석구", "entity name")
+t("Sook's Arcane Goodness", "수크네 신비한 물건가게", "entity name")
+t("Sarah's Herbal Infusions", "세라네 약초 주입물", "entity name")
+t("Sook's Runes and other Harmless Contraptions", "수크네 룬과 잡동사니들", "entity name")
+t("Zemekkys Home", "제메키스의 집", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-gates-of-morning/zone.lua"
 
+t("Gates of Morning", "아침의 문", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-irkkk/grids.lua"
 
+t("cooking pit", "조리용 모닥불", "entity name")
 
 
 ------------------------------------------------
@@ -24827,17 +24980,40 @@ section "game/modules/tome/data/zones/town-irkkk/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
 t("yeek", "이크", "entity subtype")
+t("Catch @himher@!", "@himher@를 잡아라!", "_t")
 t("yeek mindslayer", "이크 정신파괴자", "entity name")
+t("A mindslayer in training.", "훈련 중인 정신파괴자입니다.", "_t")
+t("yeek psionic", "이크 초능력자", "entity name")
+t("You can literaly feel the mental energies emitted by this yeek.", "이 이크가 뿜어내는 정신 에너지를 몸으로 느낄 수 있습니다.", "_t")
+t("gem crafter", "보석 장인", "entity name")
+t("This yeek has all sorts of gems to sell.", "보석을 파는 이크입니다.", "_t")
+t("two hander weapons crafter", "양손 무기 장인", "entity name")
+t("This yeek has all sorts of two handed weapons to sell.", "양손 무기를 파는 이크입니다.", "_t")
+t("one hander weapons crafter", "한손 무기 장인", "entity name")
+t("This yeek has all sorts of one handed weapons to sell.", "한손 무기를 파는 이크입니다.", "_t")
+t("tailor", "재단사", "entity name")
+t("This yeek has all sorts of cloth to sell.", "옷을 파는 이크입니다.", "_t")
+t("tanner", "무두장이", "entity name")
+t("This yeek has all sorts of leathers to sell.", "가죽 물건을 파는 이크입니다.", "_t")
+t("natural infusions", "자연의 주입물", "entity name")
+t("This yeek has all sorts of infusions to sell.", "주입물을 파는 이크입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-irkkk/traps.lua"
 
+t("Tailor", "재단사", "entity name")
+t("Tanner", "무두장이", "entity name")
+t("Swordsmith", "도검 장인", "entity name")
+t("Staff carver", "지팡이 장인", "entity name")
+t("Runemaster", "룬 마스터", "entity name")
+t("Home of Marus the Alchemist", "연금술사 말루스의 집", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-irkkk/zone.lua"
 
+t("Irkkk", "읽크크", "_t")
 
 
 ------------------------------------------------
@@ -24846,6 +25022,12 @@ section "game/modules/tome/data/zones/town-iron-council/grids.lua"
 t("underground", "지하", "entity subtype")
 t("wall", "벽", "entity type")
 t("crystals", "수정", "entity name")
+t("Escape route from Reknor", "레크놀에서의 탈출구", "entity name")
+t("The Deep Bellow", "깊은 포효", "entity name")
+t("The Dwarven Empire Incarnate", "드워프 제국의 이념상", "entity name")
+t("Mystic of the Empire", "제국의 신비", "entity name")
+t("Defender of the Empire", "제국의 보호자", "entity name")
+t("Warrior of the Empire", "제국의 전사", "entity name")
 
 
 ------------------------------------------------
@@ -24853,22 +25035,42 @@ section "game/modules/tome/data/zones/town-iron-council/npcs.lua"
 
 t("dwarf", "드워프", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Catch @himher@!", "@himher@를 잡아라!", "_t")
+t("dwarven guard", "드워프 경비병", "entity name")
+t("dwarven earthwarden", "드워프 대지감시자", "entity name")
+t("A stocky dwarf, he looks angry.", "다부진 체격의 드워프입니다. 화가 난 것 같습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-iron-council/traps.lua"
 
+t("Armoury", "병기창", "entity name")
+t("Tanner", "무두장이", "entity name")
+t("Tailor", "재단사", "entity name")
+t("Sword smith", "도검 장인", "entity name")
+t("Axe smith", "도끼 장인", "entity name")
+t("Mace smith", "철퇴 장인", "entity name")
+t("Runemaster", "룬 마스터", "entity name")
+t("Jewelry", "장신구점", "entity name")
+t("Delver's Delights", "광부의 친구", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-iron-council/zone.lua"
 
+t("Iron Council", "철의 평의회", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-last-hope/grids.lua"
 
 t("floor", "바닥", "entity subtype")
+t("old road", "오래된 길", "entity name")
+t("Farportal: Gates of Morning", "장거리 차원문: 아침의 문", "entity name")
+t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
+This one seems to go near the Gates of Morning in the Far East.]], [[장거리 차원문은 엄청난 거리를 눈 깜박할 새에 이동할 수 있는 통로입니다. 일반적으로 이용하려면 특정한 물건이 필요합니다. 당신은 이걸로 왕복이 가능한지조차도 짐작이 안 갑니다.
+이 차원문은 동쪽 대륙의 아침의 문 근처로 통하는 것으로 보입니다.]], "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in sight of the Gates of Morning, with no trace of the portal...", "#VIOLET#당신은 소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 아침의 문이 보이는 곳에 착지했습니다. 차원문은 흔적조차 보이지 않습니다...", "_t")
 
 
 ------------------------------------------------
@@ -24876,39 +25078,88 @@ section "game/modules/tome/data/zones/town-last-hope/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Catch @himher@!", "@himher@를 잡아라!", "_t")
+t("last hope guard", "마지막 희망 경비병", "entity name")
+t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
+t("halfling guard", "하플링 경비병", "entity name")
+t("A Halfling, with a sling. Beware.", "투석구를 들고 있는 하플링입니다. 조심하세요.", "_t")
+t("human citizen", "인간 시민", "entity name")
+t("A clean-looking Human resident of Last Hope.", "마지막 희망에 사는, 말끔해 보이는 인간입니다.", "_t")
+t("halfling citizen", "하플링 시민", "entity name")
 t("halfling", "하플링", "entity subtype")
+t("A clean-looking Halfling resident of Last Hope.", "마지막 희망에 사는, 말끔해 보이는 하플링입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-last-hope/objects.lua"
 
+t("last hope foundation", "마지막 희망의 설립", "entity subtype")
+t("The Diaries of King Toknor the Brave (%d)", "용감한 왕 토크놀의 일기 (%d)", "tformat")
+t("A part of the history of Last Hope, and King Toknor the Brave.", "마지막 희망과 용감한 왕 토크놀에 대한 기록 중 일부입니다.", "_t")
+t("analysis", "분석", "entity subtype")
+t("southspar", "남쪽스파", "entity subtype")
+t("one", "1", "_t")
+t("the Pale King part %s", "창백한 왕 제%s장", "tformat")
+t("two", "2", "_t")
+t("A study of Southspar's most unusual ruler.", "남쪽스파의 가장 특이한 지도자에 대한 연구입니다.", "_t")
+t("oceans", "바다", "entity subtype")
+t("The Oceans of Eyal", "에이알의 대양들", "entity name")
+t("Thoughts about the impossibility of sea travel.", "항해가 왜 불가능한가에 대한 생각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-last-hope/traps.lua"
 
+t("Hormond & Son Plates", "호르먼드 가족의 갑옷가게", "entity name")
+t("Rila's Leather", "릴라네 가죽품", "entity name")
+t("Toxar Alchemical Tailor", "연금재단사 톡살", "entity name")
+t("Herk's Cutting Edge", "허크네 날붙이", "entity name")
+t("Yulek's Tools of the Night", "율렉네 밤길 도구", "entity name")
+t("Vortal's Trees Choppers", "보르탈네 벌목 도끼", "entity name")
+t("Raber's Blunt Paradise", "레이버네 둔기천국", "entity name")
+t("Dala's Far Reaching Implements", "달라네 사격 도구", "entity name")
+t("Sarah's Herbal Infusions", "세라네 약초 주입물", "entity name")
+t("Sook's Runes and other Harmless Contraptions", "수크네 룬과 잡동사니들", "entity name")
+t("Library", "도서관", "entity name")
+t("The Elder", "장로", "entity name")
+t("Tannen's Door", "탄넨의 집 대문", "entity name")
+t("Home of Ungrol the Alchemist", "연금술사 웅그롤의 집", "entity name")
+t("Rich merchant", "거상", "entity name")
+t("Urthol's Wondrous Emporium", "우르톨의 놀라운 가게", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-last-hope/zone.lua"
 
+t("Last Hope", "마지막 희망", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-lumberjack-village/npcs.lua"
 
+t("Ben Cruthdar, the Cursed", "저주받은 자 벤 크루스달", "entity name")
+t([[This madman looks extremely dangerous. He wields a big axe and means to use it.
+A gloomy aura emanates from him.]], [[매우 위험해 보이는 미치광이입니다. 커다란 도끼를 들고 있고 그걸 쓰고 싶어합니다.
+암울한 기운이 그에게서 뿜어져 나오고 있습니다.]], "_t")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("lumberjack", "나무꾼", "entity name")
+t("A lumberjack. Cutting wood is his job, dream and passion.", "나무꾼입니다. 나무를 베는 것은 그의 일이고, 꿈과 열정을 담아 일합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-lumberjack-village/zone.lua"
 
+t("Small lumberjack village", "작은 나무꾼 마을", "_t")
+t("Screams", "비명", "_t")
+t("You hear screaming not too far from you.", "가까운 곳에서 비명 소리를 들었습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-point-zero/grids.lua"
 
+t("Temporal Rift to Maj'Eyal", "마즈'에이알로 통하는 시간의 균열", "entity name")
+t("The rift leads to Maj'Eyal.", "이 균열은 마즈'에이알과 이어져 있습니다.", "_t")
 t("wall", "벽", "entity type")
 t("cold forest", "차가운 숲", "entity name")
 t("floor", "바닥", "entity type")
@@ -24921,26 +25172,48 @@ section "game/modules/tome/data/zones/town-point-zero/npcs.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
-t("elemental", "원소", "entity type")
+t("Catch @himher@!", "@himher@를 잡아라!", "_t")
+t("guardian of reality", "현실의 수호자", "entity name")
+t("A stern-looking guardian, ever vigilant against the threats of the paradox.", "괴리의 위협을 경계하고 있는, 엄격한 얼굴을 한 수호자입니다.", "_t")
+t("elemental", "정령", "entity type")
 t("void", "공허", "entity subtype")
+t("Losgoroth are mighty void elementals, native to the void between the stars; they are rarely seen on the planet's surface.", "로스고로스는 별들 사이의 공허에 사는 강력한 공허의 정령들입니다. 이 행성의 표면에서는 거의 볼 수 없습니다.", "_t")
+t("monstrous losgoroth", "무시무시한 로스고로스", "entity name")
+t("Zemekkys, Grand Keeper of Reality", "위대한 현실의 수호자 제메키스", "entity name")
 t("shalore", "샬로레", "entity subtype")
+t("A timeless elf stands before you. Even though his age is impossible to determine, you feel he has seen many things.", "시간의 굴레에서 벗어난 엘프입니다. 나이를 가늠하기가 극히 어려움에도 불구하고, 그는 매우 많은 것들을 지켜봐 왔다는 느낌이 듭니다.", "_t")
 t("horror", "공포", "entity type")
 t("temporal", "시간", "entity subtype")
+t("Temporal Defiler", "시간의 모독자", "entity name")
+t("A huge, slender, metallic monstrosity with long claws in place of fingers, and razor-sharp teeth. It seems to seek something here.", "거대하고 늘씬한 금속질의 괴물입니다. 손가락 대신에 기다란 갈퀴가 달려 있으며 날카로운 이빨도 가지고 있습니다. 뭔가를 찾아 이곳에 온 것 같습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-point-zero/objects.lua"
 
+t("An iridescent shard of violet crystal.  Its light ebbs and flows, sometimes fast and sometimes slow, keeping pace with the chaotic streams of time itself.  It makes you feel both old and young, a newborn child and an ancient being, your flesh simply one instance in a thousand refractions of a single timeless and eternal soul.", "무지갯빛으로 빛나는 보라색 결정 조각입니다.  조각의 빛은 시간 그 자체의 종잡을 수 없는 흐름과 맞추어, 어떨 때는 밝아지고 또 어떨 때는 어두워집니다.  이것은 당신이 늙었으면서도 젊은듯한, 신생아인 동시에 까마득한 고대의 존재인듯한 느낌이 들게 만들고, 당신의 육신은 그저 시간의 굴레를 벗어나 불멸하는 영혼의 수천가지 모습 중 하나일 뿐이라는 생각이 들게 합니다.", "_t")
+t("Shard of Crystalized Time", "결정화된 시간의 조각", "entity name")
+t("glowing shard", "빛나는 조각", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-point-zero/traps.lua"
 
+t("Tailor", "재단사", "entity name")
+t("Tanner", "무두장이", "entity name")
+t("Knives and daggers", "단검과 비수", "entity name")
+t("Death from Afar", "멀리서 내리는 죽음", "entity name")
+t("Swordsmith", "도검 장인", "entity name")
+t("Staff carver", "지팡이 장인", "entity name")
+t("Runemaster", "룬 마스터", "entity name")
+t("Jewelry", "장신구점", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-point-zero/zone.lua"
 
+t("Point Zero", "영점", "_t")
+t("temporal beam endpoint", "시간 광선의 종점", "_t")
 
 
 ------------------------------------------------
@@ -24954,26 +25227,44 @@ section "game/modules/tome/data/zones/town-shatur/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
 t("thalore", "탈로레", "entity subtype")
+t("Catch @himher@!", "@himher@를 잡아라!", "_t")
+t("thalore hunter", "탈로레 사냥꾼", "entity name")
+t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
+t("thalore wilder", "탈로레 자연의 추종자", "entity name")
+t("A tall elf, his skin covered in green moss.", "피부를 녹색 이끼로 덮고 있는 장신의 엘프입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-shatur/traps.lua"
 
+t("Armoury", "병기창", "entity name")
+t("Tanner", "무두장이", "entity name")
+t("Swordsmith", "도검 장인", "entity name")
+t("Nature's Punch", "대지의 주먹다짐", "entity name")
+t("Silent Hunter", "소리없는 사냥꾼", "entity name")
+t("Herbalist", "약초상", "entity name")
+t("Night's Star", "밤길의 별", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-shatur/zone.lua"
 
+t("Shatur", "샤툴", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-zigur/grids.lua"
 
+t("Zigur Postsign", "지구르 포고문", "entity name")
+t("The laws of the Ziguranth", "지구르 추종자들의 규율", "_t")
 t("lava pit", "용암 구덩이", "entity name")
 t("cultivated fields", "경작지", "entity name")
 t("cobblestone road", "조약돌 길", "entity name")
+t("giant rock", "거대 바위", "entity name")
+t("closed gate", "닫힌 문", "entity name")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
+t("open gate", "열린 문", "entity name")
 
 
 ------------------------------------------------
@@ -24981,17 +25272,33 @@ section "game/modules/tome/data/zones/town-zigur/npcs.lua"
 
 t("Grand Corruptor", "위대한 타락자", "entity name")
 t("An Elven corruptor, drawn to these blighted lands.", "이 황폐화된 땅에 이끌린 엘프 타락자입니다.", "_t")
+t("Protector Myssil", "보호자 미씰", "entity name")
+t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "어두운 색의 강철 갑옷을 입고 있는 하플링 지구르 추종자입니다. 지구르의 현 지도자입니다.", "_t")
 t("halfling", "하플링", "entity subtype")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-zigur/objects.lua"
 
+t("the great evil", "강대한 악", "entity subtype")
+t("The Great Evil", "강대한 악", "entity name")
+t("History of the horrors of magic.", "마법의 공포에 대한 기록입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/town-zigur/traps.lua"
 
+t("Horman's Plates", "홀먼네 갑옷", "entity name")
+t("Infused Leather", "자연이 스며든 가죽품", "entity name")
+t("Slash & Dash", "베고 달려들자", "entity name")
+t("Nature's Punch", "대지의 주먹다짐", "entity name")
+t("Slice & Dice", "자르고 토막내자", "entity name")
+t("Nature's Reach", "대자연의 화살", "entity name")
+t("A Million Cuts", "수천의 연격", "entity name")
+t("Purification Tools", "정화 도구점", "entity name")
+t("Library", "도서관", "entity name")
+t("Trainer", "훈련 교관", "entity name")
+t("Nature's Emporium", "대자연의 은총", "entity name")
 
 
 ------------------------------------------------
@@ -25003,6 +25310,7 @@ t("Zigur", "지구르", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/trollmire/grids.lua"
 
+t("dirt road", "흙길", "entity name")
 t("grass", "잔디", "entity subtype")
 t("troll stew", "트롤 스튜", "entity name")
 t("wall", "벽", "entity type")
@@ -25014,10 +25322,27 @@ t("bog water", "늪지", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/trollmire/npcs.lua"
 
+t("Prox the Mighty", "힘센 프록스", "entity name")
+t("A huge troll, he might move slowly but he does look dangerous nonetheless.", "거대한 트롤입니다. 느릿하게 움직일지도 모르지만 그럼에도 위험해 보입니다.", "_t")
+t("Prox staggers for a moment. A note seems to drop at his feet.", "프록스가 잠시 비틀거렸다. 그의 발밑에 쪽지가 떨어진 것 같다.", "logSeen")
+t("Shax the Slimy", "끈적끈적한 샥스", "entity name")
+t("A huge troll, he seems to be adapted to aquatic life.", "거대한 트롤입니다. 물 속에서의 삶에 적응한 것으로 보입니다.", "_t")
+t("and eaten raw", "그리고 그 시체는 그대로 먹혔습니다.", "_t")
+t("Shax staggers for a moment. A note seems to drop at his feet.", "샥스가 잠시 비틀거렸다. 그의 발밑에 쪽지가 떨어진 것 같다.", "logSeen")
+t("... and we thought the trollmire was safer now!", "... 트롤 늪이 이제 더 안전해졌다고 생각했었는데!", "_t")
 t("giant", "거인", "entity type")
 t("troll", "트롤", "entity subtype")
+t("Bill the Stone Troll", "바위 트롤 빌", "entity name")
+t([[Big, brawny, powerful and with a taste for Halfling.
+He is wielding a small tree trunk and lumbering toward you.
+This is the troll the notes spoke about, no doubt.]], [[크고 건장한 체격의 강력한 트롤입니다. 하플링을 먹는 걸 좋아합니다.
+작은 통나무를 들고 당신에게 다가가고 있습니다.
+쪽지에 적힌 그 트롤이 틀림없습니다.]], "_t")
+t("and clobbered into soup", "그리고 그 시체는 곤죽이 되었습니다.", "_t")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Aluin the Fallen", "타락한 자 알루인", "entity name")
+t("His once-shining armour now dull and bloodstained, this Sun Paladin has given in to despair.", "절망에 빠진 태양의 기사입니다. 한때 빛나던 갑옷은 그 빛을 잃었고 피투성이가 되어 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -25030,6 +25355,7 @@ t("A paper scrap, left by an adventurer.", "어떤 모험가가 남긴 종잇조
 ------------------------------------------------
 section "game/modules/tome/data/zones/trollmire/zone.lua"
 
+t("Trollmire", "트롤 늪", "_t")
 
 
 ------------------------------------------------
@@ -25058,6 +25384,9 @@ He looks hurt.]], [[못생기고 피부가 초록색인, 거대한 인간형 생
 다친 것처럼 보입니다.]], "_t")
 t("Lone Wolf", "외톨이 늑대", "entity name")
 t("It is a large wolf with eyes full of cunning, only 3 times bigger than a normal wolf. It looks hungry. You look tasty!", "눈에 교활함이 가득한 큰 늑대입니다. 평범한 늑대보다 고작 3배밖에 안 크네요. 배고파 보입니다. 너 맛있어 보인다!", "_t")
+t("spider", "거미", "entity subtype")
+t("spiderkin", "거미류", "entity type")
+t("Arachnophobia...", "거미 공포증...", "_t")
 
 
 ------------------------------------------------
@@ -25069,7 +25398,18 @@ section "game/modules/tome/data/zones/tutorial-combat-stats/objects.lua"
 section "game/modules/tome/data/zones/tutorial-combat-stats/traps.lua"
 
 t("tutorial", "튜토리얼", "_t")
+t("A tutorial", "튜토리얼", "_t")
+t("Tutorial: %s", "튜토리얼: %s", "tformat")
+t("Movement", "이동", "entity name")
+t("Melee Combat", "근접 전투", "entity name")
+t("Objects", "사물", "entity name")
 t("Talents", "기술", "entity name")
+t("Experience and Levels", "경험치와 레벨", "entity name")
+t("Different terrains", "다양한 지형", "entity name")
+t("Basic tactic: Do not get surrounded", "전술의 기초: 에워싸이지 않기", "entity name")
+t("Basic tactic: Take cover", "전술의 기초: 엄폐하기", "entity name")
+t("Ranged Combat", "원거리 전투", "entity name")
+t("Quests", "퀘스트들", "entity name")
 
 
 ------------------------------------------------
@@ -25095,7 +25435,18 @@ t("Tutorial: Finish", "튜토리얼: 완료", "_t")
 section "game/modules/tome/data/zones/tutorial/traps.lua"
 
 t("tutorial", "튜토리얼", "_t")
+t("A tutorial", "튜토리얼", "_t")
+t("Tutorial: %s", "튜토리얼: %s", "tformat")
+t("Movement", "이동", "entity name")
+t("Melee Combat", "근접 전투", "entity name")
+t("Objects", "사물", "entity name")
 t("Talents", "기술", "entity name")
+t("Experience and Levels", "경험치와 레벨", "entity name")
+t("Different terrains", "다양한 지형", "entity name")
+t("Basic tactic: Do not get surrounded", "전술의 기초: 에워싸이지 않기", "entity name")
+t("Basic tactic: Take cover", "전술의 기초: 엄폐하기", "entity name")
+t("Ranged Combat", "원거리 전투", "entity name")
+t("Quests", "퀘스트들", "entity name")
 
 
 ------------------------------------------------
@@ -25108,6 +25459,11 @@ t("Tutorial", "튜토리얼", "_t")
 section "game/modules/tome/data/zones/unhallowed-morass/grids.lua"
 
 t("Temporal Rift", "시간의 균열", "entity name")
+t("The rift leads to another part of the morass.", "이 균열은 다른 지역으로 이어집니다.", "_t")
+t("Point Zero", "영점", "_t")
+t([[The rift has brought you back to Point Zero, and the source of the disturbances.
+A temporal defiler is attacking the town, all the Keepers in range are attacking it!]], [[균열은 당신을 영점으로 보내 주었고, 그곳에 이 사태의 원인이 있었습니다.
+시간의 모독자가 마을을 공격하고 있고, 근처의 수호자들이 모독자를 공격하고 있습니다!]], "_t")
 t("rift", "균열", "entity subtype")
 t("wall", "벽", "entity type")
 t("crack in spacetime", "시공간의 균열", "entity name")
@@ -25116,44 +25472,72 @@ t("crack in spacetime", "시공간의 균열", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/unhallowed-morass/npcs.lua"
 
+t("spider", "거미", "entity subtype")
+t("spiderkin", "거미류", "entity type")
+t("Arachnophobia...", "거미 공포증...", "_t")
+t("weaver hatchling", "새끼 무당거미", "entity name")
+t("A nearly translucent spider hatchling.", "거의 투명한 새끼 거미입니다.", "_t")
+t("orb spinner", "구체의 방적거미", "entity name")
+t("A large brownish arachnid, its fangs drip with a strange fluid.", "커다란 갈색 거미로, 송곳니에서 이상한 액체가 흐르고 있습니다.", "_t")
+t("orb weaver", "구체의 무당거미", "entity name")
+t("A large brownish arachnid spinning its web.  It doesn't look pleased that you've disturbed its work.", "거미줄을 짜고 있는 커다란 갈색 거미입니다.  당신이 일을 방해해서 기분이 좋지 않은 모양입니다.", "_t")
+t("fate spinner", "운명의 방적거미", "entity name")
+t("Easily as big as a horse, this giant spider menaces at you with claws and fangs.", "틀림없이 말 정도 크기는 되어보이는 거대한 거미입니다. 발톱과 송곳니로 당신을 위협하고 있습니다.", "_t")
+t("fate weaver", "운명의 무당거미", "entity name")
+t("A large white spider.", "거대한 하얀색 거미입니다.", "_t")
+t("As you vanquish the queen you notice a temporal thread that seems to have been controlling her. It seems to go through a rift.", "여왕을 무찌르자 그녀가 조작하고 있던 것 같은 시간의 가닥을 발견했습니다. 균열 너머로 이어진 것 같습니다.", "_t")
+t("Weaver Queen", "무당거미 여왕", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/unhallowed-morass/objects.lua"
 
+t("Void Star", "공허의 별", "entity name")
+t("tiny black star", "조그만 검정색 별", "_t")
+t("It looks like a very tiny star -- deep black -- and yet it somehow shines.", "아주 조그만 별처럼 보이는 물건입니다. 칠흑같은 빛깔인데도 어째서인지 빛이 납니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/unhallowed-morass/zone.lua"
 
+t("Unhallowed Morass", "부정한 저습지", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/unremarkable-cave/npcs.lua"
 
+t("elf", "엘프", "entity subtype")
+t("Fillarel Aldaren", "필라렐 알다렌", "entity name")
+t("An Elven woman. She wears a tight robe decorated with symbols of the Sun and the Moon and wields a staff.", "엘프 여성입니다. 태양과 달의 표식으로 장식된, 몸에 딱 붙는 로브를 입고 있으며 지팡이를 들고 있습니다.", "_t")
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
+t("Krogar", "크로가", "entity name")
+t("An orc clad in mail armour, he wields a staff and looks menacing.", "사슬 갑옷을 입은 오크입니다. 지팡이를 들고 있으며 위험해 보입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/unremarkable-cave/zone.lua"
 
+t("Unremarkable Cave", "평범한 동굴", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/valley-moon-caverns/grids.lua"
 
+t("exit to the lost valley", "잃어버린 협곡으로 나가는 출구", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/valley-moon-caverns/objects.lua"
 
 t("tattered paper scrap", "너덜너덜한 종잇조각", "entity name")
+t("A paper scrap, left by somebody named Rassir.", "라씨르라는 사람이 남긴 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/valley-moon-caverns/zone.lua"
 
+t("Caverns to the hidden valley", "비밀의 협곡으로 가는 동굴", "_t")
 
 
 ------------------------------------------------
@@ -25162,6 +25546,7 @@ section "game/modules/tome/data/zones/valley-moon/grids.lua"
 t("moonstone", "월석", "entity name")
 t("floor", "바닥", "entity type")
 t("grass", "잔디", "entity subtype")
+t("Fearscape Portal", "공포의 땅 차원문", "entity name")
 t("An invocation portal, perpetually summoning beings through it.", "영구적인 소환물을 불러내는 소환 차원문입니다.", "_t")
 
 
@@ -25170,12 +25555,19 @@ section "game/modules/tome/data/zones/valley-moon/npcs.lua"
 
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
+t("Corrupted Daelach", "오염된 댈라크", "entity name")
+t("Shadow and flames. The huge beast of fire moves speedily toward you, its huge shadowy wings deployed.", "그림자와 불꽃. 불꽃으로 이루어진 거대한 짐승이 그림자 같은 날개를 펼친 채로 당신을 향해 빠르게 다가오고 있습니다.", "_t")
+t("elf", "엘프", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Limmir the Jeweler", "보석 세공사 리미르", "entity name")
+t("An Elven Anorithil, specializing in the art of jewelry.", "보석학을 전공한 엘프 아노리실입니다.", "_t")
+t("#VIOLET#Limmir is attacked! Defend him!", "#VIOLET#리미르가 공격당했다! 그를 지켜야 한다!", "say")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/valley-moon/zone.lua"
 
+t("Ithilthum, Valley of the Moon", "달의 협곡 이실툼", "_t")
 
 
 ------------------------------------------------
@@ -25191,16 +25583,21 @@ section "game/modules/tome/data/zones/void/npcs.lua"
 
 t("eyal", "에이얄", "entity subtype")
 t("god", "신", "entity type")
+t("Gerlyk, the Creator", "창조자 게를릭", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/void/zone.lua"
 
+t("Void between worlds", "세계 사이의 공허", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/vor-armoury/npcs.lua"
 
+t("Warmaster Gnarg", "사령관 나르그", "entity name")
+t("This ugly orc looks really nasty and vicious. He wields a huge two-handed sword and means to use it.", "정말로 사악하고 악랄해 보이는 못생긴 오크입니다. 거대한 양손검을 들고 있으며 그걸 휘두르고 싶어 합니다.", "_t")
+t("overpowered greater multi-hued wyrm", "초월적인 거대 다색 용", "entity name")
 
 
 ------------------------------------------------
@@ -25215,6 +25612,7 @@ t("An athame, covered in blood runes. It radiates power.", "피의 룬에 덮인
 ------------------------------------------------
 section "game/modules/tome/data/zones/vor-armoury/zone.lua"
 
+t("Vor Armoury", "보르 무기고", "_t")
 
 
 ------------------------------------------------
@@ -25222,23 +25620,42 @@ section "game/modules/tome/data/zones/vor-pride/grids.lua"
 
 t("book", "책", "entity name")
 t("floor", "바닥", "entity subtype")
+t("reading candle", "촛대", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/vor-pride/npcs.lua"
 
+t("Vor, Grand Geomancer of the Pride", "긍지의 위대한 풍수사 보르", "entity name")
+t("An old orc, wearing multi-colored robes. Ice shards fly around him, leaving a trail of fire and lightning bursts.", "여러 색이 들어간 로브를 입고 있는 늙은 오크입니다. 얼음 조각들이 불꽃과 번개의 흔적을 남기며 그의 주변을 날아다니고 있습니다.", "_t")
+t("and used as target practice for initiate mages", "그리고 그 시체는 수습 마법사들의 훈련 표적으로 이용되었습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/vor-pride/objects.lua"
 
+t("Tome of Wildfire", "열화의 서", "entity name")
+t("burning book", "불타고 있는 책", "_t")
+t("This huge book is covered in searing flames. Yet they do not harm you.", "이 거대한 책은 이글거리는 불꽃으로 덮여 있습니다. 그럼에도 불에 데거나 하지는 않습니다.", "_t")
+t("#00FFFF#You read the tome and learn about ancient forgotten fire magic!", "#00FFFF#고서를 읽었고 잊혀진 고대의 화염 마법에 대한 지식을 얻었다!", "logPlayer")
+t("#00FFFF#You read the tome and perfect your mastery of fire magic!", "#00FFFF#고서를 읽었고 당신의 화염 마법을 완성하였다!", "logPlayer")
+t("tome", "고서", "entity subtype")
+t("Tome of Uttercold", "절대영도의 서", "entity name")
+t("frozen book", "얼어붙은 책", "_t")
+t("This huge book is covered in slowly shifting patterns of ice. Yet they do not harm you.", "이 거대한 책은 느리게 무늬가 변하고 있는 얼음으로 덮여 있습니다. 그럼에도 손이 얼거나 하지는 않습니다.", "_t")
+t("learn the ancient secrets", "고대의 비밀을 배운다", "_t")
+t("#00FFFF#You read the tome and learn about ancient forgotten ice magic!", "#00FFFF#고서를 읽었고 잊혀진 고대의 얼음 마법에 대한 지식을 얻었다!", "logPlayer")
+t("#00FFFF#You read the tome and perfect your mastery of ice magic!", "#00FFFF#고서를 읽었고 당신의 얼음 마법을 완성하였다!", "logPlayer")
 t("draft note", "메모 초고", "entity name")
 t("A note.", "메모입니다.", "_t")
+t("Records of Lorekeeper Hadak", "전승지기 하다크의 기록", "entity name")
+t("Part of the long history of the Orc race.", "오크 종족의 기나긴 역사에 대한 기록 중 일부입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/vor-pride/zone.lua"
 
+t("Vor Pride", "보르 긍지", "_t")
 
 
 ------------------------------------------------
@@ -25315,7 +25732,7 @@ t("Entrance to the Scintillating Caves", "번뜩이는 동굴의 입구", "entit
 t("Stairway into the Rhaloren Camp", "랄로레 야영지로 가는 계단", "entity name")
 t("Way into the heart of the gloom", "어둠의 심장으로의 길", "entity name")
 t("A mysterious hole in the beach", "해안의 알 수 없는 구멍", "entity name")
-t("Tunnel into the ritchs grounds", "ritchs grounds 로 가는 굴", "entity name")
+t("Tunnel into the ritchs grounds", "릿치의 땅으로 가는 굴", "entity name")
 t("Charred Scar Volcano", "검게탄 상처의 화산", "entity name")
 t("Tunnel to Maj'Eyal", "마즈'에이얄로 통하는 굴", "entity name")
 t("Long tunnel", "긴 터널", "_t")
@@ -25344,8 +25761,8 @@ t("The arid wastes of Erúan", "에류안의 불모지", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/wilderness/zone.lua"
 
-t("World of Eyal", "에이얄의 세계", "_t")
-t("Eyal", "에이얄", "_t")
+t("World of Eyal", "에이알의 세계", "_t")
+t("Eyal", "에이알", "_t")
 
 
 ------------------------------------------------
@@ -25533,7 +25950,7 @@ t("Sex  : ", "성  : ", "_t")
 t("Race : ", "종족 : ", "_t")
 t("Type : ", "속성 : ", "_t")
 t("Class: ", "직업: ", "_t")
-t("Stype: ", "스타이프: ", "_t")
+t("Stype: ", "세부 속성: ", "_t")
 t("Antimagic adherent", "반마법 숙련", "_t")
 t("Zigur follower", "지구르의 추종자", "_t")
 t("Size : ", "몸집 크기 : ", "_t")
