@@ -1,4 +1,6 @@
 locale "ko_KR"
+-- COPY
+setFlag("ego_always_prefix", true)
 
 ------------------------------------------------
 section "game/modules/tome/ai/escort.lua"
@@ -402,7 +404,7 @@ t("Unfolding the space time structure...", "시공간 구조를 다시 펴는 �
 t("something", "물체", "_t")
 t("unknown", "알 수 없음", "_t")
 t(" #LIGHT_GREEN#[%0.0f healing]#LAST#", " #LIGHT_GREEN#[%0.0f 회복]#LAST#", "tformat")
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했습니다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.", "logMessage")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.", "logMessage")
 t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입혔다.", "logMessage")
 t("#Source# receives %s.", "#Source2# %s 피해를 받았다.", "logMessage")
 t("#Target# receives %s from #Source#.", "#Target2# %s #Source4#부터 받았다.", "logMessage", nil, {"을"})
@@ -4326,6 +4328,7 @@ section "game/modules/tome/data/general/npcs/bone-giant.lua"
 
 t("giant", "거인", "entity subtype")
 t("undead", "언데드", "entity type")
+t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "키가 큰 생명체로, 수많은 시체들의 뼈를 모아 만들어졌습니다. 부정한 기운에 덮여 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -4597,6 +4600,8 @@ section "game/modules/tome/data/general/npcs/orc.lua"
 
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
+t("orc warrior", "오크 전사", "entity name")
+t("A fierce soldier-orc.", "맹렬한 오크의 전사입니다.", "_t")
 
 
 ------------------------------------------------
@@ -4696,6 +4701,7 @@ section "game/modules/tome/data/general/npcs/sunwall-town.lua"
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
 t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
+t("human sun-paladin", "인간 태양의 기사", "entity name")
 t("elf", "엘프", "entity subtype")
 
 
@@ -7740,6 +7746,7 @@ The military are annoying me to no end. I told them to find me more test subject
 군인들은 끝도 없이 나를 짜증나게 만든다. 나는 군인들에게 당장 실험체를 더 구해오라고 했지만, 놈들은 지역에 적 순찰대가 있다는 변명을 했다. 내가 그런 사소한 일을 신경이나 쓸 것 같은가?! 그리고 지금은 회랑에서 싸움이나 연습하는 놈들의 소리가 들린다. 놈들은 가짜로 싸우면서도 멍청한 애들처럼 신음소리를 내고 비명을 지른다. 여기가 얼마나 중요한 시설인지 알고는 있는 건가? 내 천재성이 얼마나 방해받고 있는지 이해를---
 ]], "_t")
 t("order for director Hompalan", "감독관 홈팔란에게 내리는 명령서", "_t")
+t("investigator Churrack note", "조사원 출라크의 메모", "_t")
 
 
 ------------------------------------------------
@@ -8176,6 +8183,7 @@ section "game/modules/tome/data/maps/vaults/auto/greater/orc-hatred.lua"
 section "game/modules/tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
 
 t("corrupted lava floor", "오염된 용암 바닥", "_t")
+t("human sun-paladin", "인간 태양의 기사", "_t")
 
 
 ------------------------------------------------
@@ -11944,7 +11952,7 @@ t([[Assault nearby foes with 4 fast attacks for %d%% (at 0 Hate) to %d%% (at 100
 t("Reckless Charge", "무모한 돌진", "talent name")
 t("#Source# knocks back #Target#!", "#Source2# #Target3# 뒤로 밀쳤다!", "logCombat")
 t("#Target# blocks #Source#!", "#Target2# #Source3# 막아냈다!", "logCombat")
-t("Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "대상에게 돌진하면서, 대상은 물론 돌진하는 경로 근처에 있는 적들에게까지 %d%% 에서 %d%% 피해를 줍니다. (증오심 0 일 때 최소 피해, 증오심 100 이상일 때 최대 피해) 공격 당한 적들은 경로에서 밀려납니다. 최대 %d 번 까지 공격할 수 있습니다. 한 대상을 여러 번 공격할 수도 있습니다.", "tformat")
+t("Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "대상에게 돌진하면서, 대상은 물론 돌진하는 경로 근처에 있는 적들에게까지 %d%% 에서 %d%% 피해를 줍니다. (증오심 0 일 때 최소 피해, 증오심 100 이상일 때 최대 피해) 공격 당한 %s 적들은 경로에서 밀려납니다. 최대 %d 번 까지 공격할 수 있습니다. 한 대상을 여러 번 공격할 수도 있습니다.", "tformat")
 t("Cleave", "두개골 쪼개기", "talent name")
 t("#Source# cleaves through #Target#!", "#Source2# #Target#의 두개골을 쪼갠다!", "logCombat")
 t([[While active, every swing of your weapon strikes strikes other adjacent enemies for %d%% (at 0 hate) to %d%% (at 100 hate) physical damage. The recklessness of your attacks brings you bad luck (luck -3).
@@ -16132,6 +16140,7 @@ t("Surge of Undeath", "불사자들의 분노", "talent name")
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/master-of-bones.lua"
 
+t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "키가 큰 생명체로, 수많은 시체들의 뼈를 모아 만들어졌습니다. 부정한 기운에 덮여 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -17771,7 +17780,7 @@ t([[Improves your ability to perform counterstrikes after blocks in the followin
 		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
 		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[방패막기 이후의 반격 능력을 다음과 같이 강화합니다 :
 		완전한 방패 막기에 실패하더라도, 대상에게 반격을 가할 수 있습니다.
-		공격자의 반격 당함 부정적 효과의 지속시간을 %d%s 턴 연장합니다.
+		공격자의 반격 당함 부정적 효과의 지속시간을 %d%s 연장합니다.
 		대상에게 가할 수 있는 반격 회수 상한이 %d 회 증가합니다.
 		반격의 치명타 확률이 %d%% 증가합니다. 이 효과들은 민첩에 비례하여 증가합니다.]], "tformat")
 t("turn", "턴", "_t")
@@ -22872,12 +22881,32 @@ t("rough leather sling of flare", "거친 가죽 조명탄 투석구", "entity n
 section "game/modules/tome/data/zones/arena/zone.lua"
 
 t("The Arena", "투기장", "_t")
+t("#GOLD#Miniboss round starts!!", "#GOLD#중간 보스 라운드 시작!!", "log")
+t("#VIOLET#Boss round starts!!!", "#VIOLET#보스 라운드 시작!!!", "log")
+t("#LIGHT_RED#Final round starts!!!!", "#LIGHT_RED#최종 라운드 시작!!!!", "log")
+t("#YELLOW#The gates open!", "#YELLOW#문이 열렸다!", "log")
+t("#LIGHT_RED#The gates close!", "#LIGHT_RED#문이 닫혔다!", "log")
+t("RANK UP!!", "승급!!", "_t")
+t("#LIGHT_GREEN#The public is pleased by your performance! You now have the rank of #WHITE#%s#LIGHT_GREEN#!", "#LIGHT_GREEN#관중들이 당신의 솜씨에 감탄한다! 이제 당신의 등급은 #WHITE#%s#LIGHT_GREEN#이다!", "log")
+t("%d kills!", "%d 명 격파!", "tformat")
+t("#YELLOW#You killed %d enemies in a single turn! The public is excited!", "#YELLOW#단 한 턴 동안에 %d 명의 적을 죽였다! 관중들이 열광한다!", "log")
+t("#YELLOW#Items lying around will disappear in #WHITE#%d#YELLOW# turns!#LAST#", "#YELLOW#땅에 떨어져 있는 물건들은 #WHITE#%d#YELLOW# 턴에 사라질 것이다!#LAST#", "log")
+t("#VIOLET#Boss round!!!", "#VIOLET#보스 라운드!!!", "log")
+t("#GOLD#Miniboss round!", "#GOLD#중간 보스 라운드!", "log")
+t("#LIGHT_RED#Final round!!!", "#LIGHT_RED#최종 라운드!!!", "log")
+t("Round Clear! +%s EXP!", "라운드 클리어! +%s 경험치!", "tformat")
+t("%sWave clear!", "%s웨이브 클리어!", "log")
+t("%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", "%s클리어 보너스: %s%s%s! 점수 보너스: %s%s%s! 위험 보너스: %s%s%s! 등급 보너스: %s%s%s!", "log")
+t("%sYour experience increases by %s%d%s!", "%s경험치를 %s%d%s 만큼 얻었다!", "log")
+t("%sYou earn %s gold for your victory!", "%s승리에 대한 보상으로 %s 골드를 얻었다!", "log")
 t("Arena mode", "아레나 모드", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/blighted-ruins/grids.lua"
 
+t("unholy circle", "부정한 마법진", "entity name")
+t("broken unholy circle", "깨진 부정한 마법진", "entity name")
 
 
 ------------------------------------------------
@@ -22886,6 +22915,17 @@ section "game/modules/tome/data/zones/blighted-ruins/npcs.lua"
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
 t("Necromancer", "강령술사", "entity name")
+t("A Human dressed in black robes. He mumbles in a harsh tongue. He seems to think you are his slave.", "검정색 로브를 입은 인간입니다. 거슬리게 혀를 날름거리며 웅얼거리고 있습니다. 당신이 자신의 노예라고 생각하고 있는 모양입니다.", "_t")
+t("Half-Finished Bone Giant", "반쯤만 완성된 해골 거인", "entity name")
+t([[A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.
+This specimen looks like it was hastily assembled and is not really complete yet.]], [[키가 큰 생명체로, 수많은 시체들의 뼈를 모아 만들어졌습니다. 부정한 기운에 덮여 있습니다.
+이것은 급하게 만들어졌고 완성된 게 아닌 것 같습니다.]], "_t")
+t("fleshy experiment", "살점의 실험체", "entity name")
+t("This pile of rotting flesh twitches and makes horrid noises.", "이 썩어가는 살덩어리는 꿈틀거리며 진저리나는 소음을 내고 있습니다.", "_t")
+t("boney experiment", "뼈의 실험체", "entity name")
+t("This pile of bones appears to move on its own, but it can't seem to organise itself into something dangerous.", "이 뼈 무더기는 스스로 움직이는 것 같지만, 뭔가 위험한 것으로 스스로를 재구성할 수는 없는 모양입니다.", "_t")
+t("sanguine experiment", "피의 실험체", "entity name")
+t("It looks like a giant blood clot. Is that what its creator intended?", "거대한 핏덩이 같습니다. 이걸 만든 자가 정말로 이런 걸 원했을까요?", "_t")
 
 
 ------------------------------------------------
@@ -22893,13 +22933,17 @@ section "game/modules/tome/data/zones/blighted-ruins/objects.lua"
 
 t("armor", "방어구", "entity type")
 t("cloak", "망토", "entity subtype")
+t("black cloak", "검정색 망토", "_t")
 t("Cloak of Deception", "기만의 망토", "entity name")
+t("A black cloak, with subtle illusion enchantments woven into its very fabric.", "미묘한 환각 마법이 걸려 있는 검정색 망토입니다.", "_t")
 t("journal page", "일지 한 장", "entity name")
+t("A paper scrap, left by the Necromancer.", "강령술사가 남긴 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/blighted-ruins/zone.lua"
 
+t("Blighted Ruins", "황폐화된 폐허", "_t")
 
 
 ------------------------------------------------
@@ -22907,6 +22951,8 @@ section "game/modules/tome/data/zones/briagh-lair/npcs.lua"
 
 t("dragon", "용", "entity type")
 t("sand", "모래", "entity subtype")
+t("Briagh, Great Sand Wyrm", "거대 모래 용 브리아그흐", "entity name")
+t("A towering sand drake stands before you. This wingless worm is mighty and could easily crush you.", "거대한 모래 용입니다. 날개가 없음에도 강력하며 당신을 손쉽게 으깰 수 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -22918,6 +22964,7 @@ t("Resonating Diamond", "공명하는 다이아몬드", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/briagh-lair/zone.lua"
 
+t("Briagh's Lair", "브리아그흐의 동굴", "_t")
 
 
 ------------------------------------------------
@@ -22926,24 +22973,39 @@ section "game/modules/tome/data/zones/charred-scar/grids.lua"
 t("floor", "바닥", "entity type")
 t("lava", "용암", "entity subtype")
 t("Farportal: the Far East", "장거리 차원문: 동쪽의 대륙", "entity name")
+t("A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "장거리 차원문은 엄청난 거리를 눈 깜박할 새에 이동할 수 있는 통로입니다. 일반적으로 이용하려면 특정한 물건이 필요합니다.", "_t")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "#VIOLET#당신은 소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 동쪽 대륙으로 돌아왔습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/charred-scar/npcs.lua"
 
+t("human sun-paladin", "인간 태양의 기사", "entity name")
+t("High Sun-Paladin Rodmour", "고위 태양의 기사 로드모어", "entity name")
+t("A Human in shiny plate armour.", "빛나는 갑옷을 입은 인간입니다.", "_t")
+t("Go %s! We will hold the line!", "가십시오, %s! 이곳은 우리가 막겠습니다!", "tformat")
 t("orc", "오크", "entity subtype")
+t("orc warrior", "오크 전사", "entity name")
+t("A fierce soldier-orc.", "맹렬한 오크의 전사입니다.", "_t")
 t("shalore", "샬로레", "entity subtype")
 t("Elandar", "엘란다르", "entity name")
+t("Damn you, you only postpone your death! Fyrk!", "얼간이가, 죽음을 피할 수는 없거늘! 피르크!", "_t")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
 t("Argoniel", "아르고니엘", "entity name")
 t("Renegade mages from Angolwen, the Sorcerers have set up in the Far East, slowly growing corrupt. Now they must be stopped.", "앙골웬 출신의 탈주 마법사들로, 동쪽의 대륙에 거점을 차리고 점차 타락했습니다. 이들을 반드시 막아야 합니다.", "_t")
+t("Fyrk, Faeros High Guard", "패로스 고위 수호자 피르크", "entity name")
+t([[Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.
+This one looks even nastier and looks toward you with what seems to be disdain. Flames swirl all around him.]], [[패로스는 매우 지적인 화염의 정령들로, 화산 밖에서는 거의 볼 수 없습니다. 아마 이 세계에서 살아가는 존재는 아닐 것입니다.
+이 패로스는 특히나 사악해 보이고 당신을 낮잡아보고 있는 것처럼 보입니다. 불꽃이 그의 주위에서 회전하고 있습니다.]], "_t")
+t("and a sole piece of char was sent to his masters as a totem", "그리고 숯덩이가 된 시체는 그의 주인들에게 토템인 것 마냥 보내졌습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/charred-scar/zone.lua"
 
 t("Charred Scar", "검게 탄 상처", "_t")
+t("Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "태양의 기사들이 오크들을 막고 있는 동안 서둘러 남쪽으로 내려가야 합니다. 그들의 희생을 헛되이 해서는 안 됩니다!", "_t")
 
 
 ------------------------------------------------
@@ -22951,22 +23013,46 @@ section "game/modules/tome/data/zones/conclave-vault/grids.lua"
 
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity name")
+t("body remains", "시체", "entity name")
+t("bone pile", "뼈 무더기", "entity name")
+t("infusion rack", "주입물 선반", "entity name")
+t("operating table", "수술대", "entity name")
+t("broken vat", "부서진 용기", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/conclave-vault/npcs.lua"
 
+t("old vats", "오래된 용기", "entity name")
+t("structure", "구조물", "entity type")
+t("vat", "용기", "entity subtype")
+t("degenerated ogric mass", "퇴화된 오우거 덩어리", "entity name")
+t("This huge mass of deformed flesh was probably once an ogre, but something had gone wrong.", "기형의 거대 살덩어리입니다. 아마 원래는 오우거였을 것이지만, 뭔가가 잘못되었습니다.", "_t")
+t("ogric abomination", "오우거 흉물", "entity name")
+t("This ogre seems to have tried to graft golem parts on its own body. To various interresting results.", "이 오우거는 자신의 몸에 골렘의 부품을 이식하려 했던 것 같습니다. 그 결과는 여러 의미로 흥미롭습니다.", "_t")
+t("ogre sentry", "오우거 파수꾼", "entity name")
+t("This greatsword-wielding ogre looks at you with contempt and hatred.", "양손검을 들고 있는 오우거로, 경멸과 증오를 담아 당신을 바라보고 있습니다.", "_t")
+t("Healer Astelrid", "치유사 아스트렐리드", "entity name")
+t("An enormous ogre, clad in a tattered set of robes with an officer's badge.  She clutches a healer's staff, wrapped in casting plaster and scalpels for use as a massive spiked club.", "너덜너덜한 로브를 입고 있는 거대한 오우거입니다. 로브에는 장교 계급장이 달려 있습니다.  석고로 메스들을 붙여서 거대한 가시 몽둥이로 개조한, 원래 치유사의 지팡이였던 것을 휘두르고 있습니다.", "_t")
+t("and spliced for experiments", "그리고 그 시체는 실험을 위해 이어붙여졌습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/conclave-vault/objects.lua"
 
+t("log of healer Astelrid", "치유사 아스트렐리드의 일지", "entity name")
+t("investigator Churrack note", "조사원 출라크의 메모", "entity name")
 t("A very faded note, nearly unreadable.", "매우 바래서 내용을 거의 알아볼 수 없는 메모입니다.", "_t")
+t("Astelrid's Clubstaff", "아스트렐리드의 지팡이였던 몽둥이", "entity name")
+t("huge maul", "거대 둔기", "_t")
+t("Like its former owner, this was once an instrument of altruistic healing, before fury and fear caused its twisting into a sadistic weapon.  Surges of restorative magic can be faintly felt under the layers of plaster and sharp surgical equipment.", "원 주인이 그랬던 것처럼, 분노와 공포가 이걸 잔혹한 무기로 바꿔 놓기 전에는 원래 이타적인 치유 도구였습니다. 석고 반죽과 날카로운 수술 도구들 아래에서 흐르고 있는 치유의 마법을 희미하게나마 느낄 수 있습니다.", "_t")
+t("Improves the contribution of primary stats on infusions and runes by 15%", "기초 능력치가 주입물과 룬에 미치는 영향력을 15% 증가시킵니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/conclave-vault/zone.lua"
 
+t("Old Conclave Vault", "고대의 비밀 볼트", "_t")
 
 
 ------------------------------------------------
@@ -23006,10 +23092,12 @@ t("Temporal Rift", "시간의 균열", "_t")
 section "game/modules/tome/data/zones/daikara/npcs.lua"
 
 t("ice", "얼음", "entity subtype")
-t("Rantha the Worm", "'벌레' 란싸", "entity name")
+t("Rantha the Worm", "빙룡 란싸", "entity name")
 t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...", "발톱과 이빨. 얼음과 죽음. 용들은 죄다 멸종된 게 아니었던 모양입니다...", "_t")
 t("dragon", "용", "entity type")
 t("fire", "화염", "entity subtype")
+t("Varsha the Writhing", "몸부림 치는 바르샤", "entity name")
+t("Massok the Dragonslayer", "용살자 마소크", "entity name")
 
 
 ------------------------------------------------
@@ -24036,7 +24124,7 @@ t("The ground shakes as %s steps!", "%s 발을 내딛자 땅이 흔들린다!", 
 t("Glacial Legion", "빙하의 군단", "entity name")
 t("A massive, shifting, ethereal form floats in the air around an orb of frozen blood.  The air around it condenses into freezing pools on the floor beneath it.", "피가 얼어붙은 구체 주변의 공중에 거대하고 변화무쌍한, 유령 같은 형체가 떠 있습니다. 그 주변의 공기는 응결되어 아래쪽 바닥의 얼어붙은 웅덩이가 되고 있습니다.", "_t")
 t("Heavy Sentinel", "중장갑 보초", "entity name")
-t("A towering creature, made from the bones of countless bodies. An aura of flame billows from within its chest.", "수많은 시체들의 뼈를 모아 만들어진, 우뚝 솟아 있는 생명체입니다. 가슴 안쪽에서 불꽃의 기운이 솟아나고 있습니다.", "_t")
+t("A towering creature, made from the bones of countless bodies. An aura of flame billows from within its chest.", "수많은 시체들의 뼈를 모아 만들어진, 거대한 생명체입니다. 가슴 안쪽에서 불꽃의 기운이 솟아나고 있습니다.", "_t")
 t("Arch Zephyr", "아크 제피르", "entity name")
 t("The robes of this ancient vampire billow with intense winds. Bolts of lightning arc along its body. In its hand it holds a bow, electricity streaking across it.", "고대의 흡혈귀로, 입고 있는 로브가 강한 바람에 휘날리고 있습니다. 몸에는 번개가 둘러져 있으며 손에 든 활에도 전류가 흐르고 있습니다.", "_t")
 t("Void Spectre", "공허의 유령", "entity name")
@@ -26198,7 +26286,7 @@ t("Mindpower: #00ff00#%s", "정신력: #00ff00#%s", "tformat")
 t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
 t("Mind speed : #00ff00#%s", "사고 속도 : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Damage Modifiers:", "#LIGHT_BLUE#피해량 변동치:", "_t")
-t("Critical mult.: #00ff00#%s", "치명타 배율.: #00ff00#%s", "tformat")
+t("Critical mult.: #00ff00#%s", "치명타 배율: #00ff00#%s", "tformat")
 t([[#GOLD#Restance Penetration#LAST#
 Ability to reduce opponent resistances to your damage]], [[#GOLD#저항 관통#LAST#
 적의 저항을 관통해 피해를 입히는 능력입니다.]], "_t")
