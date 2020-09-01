@@ -509,7 +509,7 @@ t("%s def, %s armour", "%s 회피도, %s 방어력", "tformat")
 t("%s accuracy, %s apr, %s power", "%s 정확도, %s 방어력 관통, %s 위력", "tformat")
 t("worth %0.2f", "가격 %0.2f", "tformat")
 t("dig speed %d turns", "굴착 속도 %d 턴", "tformat")
-t(" [power %d]", " [능력 %d]", "tformat")
+t(" [power %d]", " [기술 %d]", "tformat")
 t(" (%d/%d cooldown)", " (%d/%d 재사용 대기시간)", "tformat")
 t(" (%d cooldown)", " (%d 재사용 대기시간)", "tformat")
 t("object", "물체", "_t")
@@ -565,8 +565,8 @@ t("[Unique]", "[유니크]", "_t")
 t("Type: %s / %s", "속성: %s / %s", "tformat")
 t("unknown", "알 수 없음", "_t")
 t(" ; tier ", " ; 등급 ", "_t")
-t("It must be held with both hands.", "반드시 두 손으로 들어야한다.", "_t")
-t("It can be used as a weapon and offhand.", "주 무기나 보조 무기로 들수있습니다.", "_t")
+t("It must be held with both hands.", "반드시 두 손으로 들어야 합니다.", "_t")
+t("It can be used as a weapon and offhand.", "주 무기나 보조 무기로 들 수 있습니다.", "_t")
 t("Mastery: ", "숙련: ", "_t")
 t("Accuracy is based on willpower for this weapon.", "이 무기는 의지에 비례하여 정확도가 상승합니다.", "_t")
 t("Weapon Damage: ", "무기 피해: ", "_t")
@@ -575,7 +575,7 @@ t("#ORCHID#It can cause special effects when a melee attack is blocked.#LAST#", 
 t("It %s ambient light (%+d radius).", "주위에 %s (반경 %+d).", "tformat")
 t("dims", "그림자를 드리웁니다", "_t")
 t("provides", "빛을 내리쬡니다", "_t")
-t("#ORANGE#It has an activatable power.#LAST#", "#ORANGE#이것은 발동 가능한 능력이 있습니다.#LAST#", "_t")
+t("#ORANGE#It has an activatable power.#LAST#", "#ORANGE#발동 가능합니다.#LAST#", "_t")
 t("It is part of a set of items.", "이 장비는 짝이 존재합니다.", "_t")
 t("The set is complete.", "이 장비의 짝이 완성되었습니다.", "_t")
 t("Accuracy: ", "정확도: ", "_t")
@@ -1957,8 +1957,8 @@ t("Avoid death 50 times with a life-saving talent.", "생존 기술로 50번의 
 ------------------------------------------------
 section "game/modules/tome/data/achievements/lore.lua"
 
-t("Tales of the Spellblaze", "Spellblaze의 이야기", "achievement name")
-t("Learned the eight chapters of the Spellblaze Chronicles.", "Spellblaze 연대기의 여덟 장을 배웠다.", "_t")
+t("Tales of the Spellblaze", "마법폭발의 이야기", "achievement name")
+t("Learned the eight chapters of the Spellblaze Chronicles.", "마법폭발 연대기의 여덟 장을 배웠다.", "_t")
 t("The Legend of Garkul", "가르쿨의 전설", "achievement name")
 t("Learned the five chapters of the Legend of Garkul.", "가르쿨의 전설의 다섯 장을 배웠다.", "_t")
 t("A different point of view", "다른 시점에서 보기", "achievement name")
@@ -2323,14 +2323,14 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -4 (*special*)", "#GOLD#레벨 당 생명�
 ------------------------------------------------
 section "game/modules/tome/data/birth/classes/rogue.lua"
 
-t("Rogues are masters of tricks; they can strike from the shadows, and lure monsters into deadly traps.", "불한당들은 속임수의 달인입니다. 그림자 속에서 적들을 기습하고, 괴물들을 치명적인 함정으로 유인해 처치합니다.", "_t")
-t("Rogue", "불한당", "birth descriptor name")
-t("Rogues are masters of tricks. A Rogue can get behind you unnoticed and stab you in the back for tremendous damage.", "불한당들은 속임수의 달인입니다. 적이 눈치채지 못하게 접근한 뒤 기습을 가하여 엄청난 피해를 입힐 수 있습니다.", "_t")
+t("Rogues are masters of tricks; they can strike from the shadows, and lure monsters into deadly traps.", "도적들은 속임수의 달인입니다. 그림자 속에서 적들을 기습하고, 괴물들을 치명적인 함정으로 유인해 처치합니다.", "_t")
+t("Rogue", "도적", "birth descriptor name")
+t("Rogues are masters of tricks. A Rogue can get behind you unnoticed and stab you in the back for tremendous damage.", "도적들은 속임수의 달인입니다. 적이 눈치채지 못하게 접근한 뒤 기습을 가하여 엄청난 피해를 입힐 수 있습니다.", "_t")
 t("Rogues usually prefer to dual-wield daggers. They can also become trapping experts, detecting and disarming traps as well as setting them.", "양쪽 손 모두에 단검을 드는 것을 선호하며, 함정을 탐지하고 해제하는 것 못지않게 설치에도 능한 전문가가 될 수도 있습니다.", "_t")
 t("#LIGHT_BLUE# * +1 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +1 힘, +3 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +5 교활", "_t")
 t("Shadowblade", "그림자칼날", "birth descriptor name")
-t("Shadowblades are Rogues that are touched by the gift of magic, able to kill with their daggers under a veil of stealth while casting spells to enhance their performance and survival.", "그림자칼날들은 마법의 재능을 타고난 불한당들로, 효율적인 마법을 펼치는 동시에 은폐의 장막 아래서 단검으로 적을 기습합니다.", "_t")
+t("Shadowblades are Rogues that are touched by the gift of magic, able to kill with their daggers under a veil of stealth while casting spells to enhance their performance and survival.", "그림자칼날들은 마법의 재능을 타고난 도적들로, 효율적인 마법을 펼치는 동시에 은폐의 장막 아래서 단검으로 적을 기습합니다.", "_t")
 t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "그들의 마법 능력은 배운 것이 아닌 선천적인 것이기 때문에, 자연적으로 마나를 재생할 수 없으며 회복을 위해서는 다른 수단이 필요합니다.", "_t")
 t("They use the schools of Phantasm, Temporal, Divination and Conveyance magic to enhance their arts.", "환상, 시간, 예지, 그리고 전이 마법 학파의 주문들을 사용합니다.", "_t")
 t("Their most important stats are: Dexterity, Cunning and Magic", "그들에게 가장 중요한 능력치는 민첩과 교활 그리고 마법입니다.", "_t")
@@ -2339,7 +2339,7 @@ t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +3 마법
 t("Marauder", "습격자", "birth descriptor name")
 t("I will not hide and I will not sneak - come dance with my blades and we'll see who's weak. Snapping bone and cracking skull, it's the sounds of battle that make life full!", "숨지도, 은밀하게 움직이지도 않겠다. 와서 내 칼날과 춤을 춰 보면 누가 약한지 알게 되겠지. 뼈를 부러뜨리고 두개골을 부수는 소리야말로 삶을 충만케 한다!", "_t")
 t("The wilds of Maj'Eyal are not a safe place. Untamed beasts and wandering dragons may seem a great threat, but the true perils walk on two legs. Thieves and brigands, assassins and opportunistic adventurers, even mad wizards and magic-hating zealots all carry danger to those who venture beyond the safety of city walls.", "마즈'에이얄의 황야는 안전한 곳이 아닙니다. 길들여지지 않은 야수와 돌아다니는 용들도 위험하지만 진정한 위협은 두 발로 걷습니다. 도둑들과 산적들, 암살자들과 기회주의적인 모험가들, 심지어 미친 마법사들과 마법을 증오하는 광신도들까지. 이들은 모두 도시의 장벽을 넘어 여행하는 이들에게 위협이 됩니다.", "_t")
-t("Amidst this chaos wanders one class of rogue that has learned to take by force rather than subterfuge. With refined techniques, agile feats and brawn-backed blades the Marauder seeks out his targets and removes them by the most direct methods. He uses dual weapons backed by advanced combat training to become highly effective in battle, and he is unafraid to use the dirtiest tactics when the odds are against him.", "이러한 혼란 속에서 속임수보다는 힘으로 원하는 것을 얻는 한 종류의 불한당이 있습니다. 세련된 기술과 민첩함, 그리고 힘으로 칼을 휘두르는 습격자들은 먹잇감을 찾아내어 가장 빠르고 직접적인 방법으로 제거합니다. 이들은 매우 효과적인 쌍수 무기를 사용하며, 상황이 불리하게 돌아간다면 비열한 기술을 사용하는 것도 주저하지 않습니다.", "_t")
+t("Amidst this chaos wanders one class of rogue that has learned to take by force rather than subterfuge. With refined techniques, agile feats and brawn-backed blades the Marauder seeks out his targets and removes them by the most direct methods. He uses dual weapons backed by advanced combat training to become highly effective in battle, and he is unafraid to use the dirtiest tactics when the odds are against him.", "이러한 혼란 속에서 속임수보다는 힘으로 원하는 것을 얻는 한 종류의 도적이 있습니다. 세련된 기술과 민첩함, 그리고 힘으로 칼을 휘두르는 습격자들은 먹잇감을 찾아내어 가장 빠르고 직접적인 방법으로 제거합니다. 이들은 매우 효과적인 쌍수 무기를 사용하며, 상황이 불리하게 돌아간다면 비열한 기술을 사용하는 것도 주저하지 않습니다.", "_t")
 t("Their most important stats are: Strength, Dexterity and Cunning", "그들에게 가장 중요한 능력치는 힘과 민첩 그리고 교활입니다.", "_t")
 t("#LIGHT_BLUE# * +4 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +4 힘, +4 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +1 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +1 교활", "_t")
@@ -2443,7 +2443,6 @@ t("Stairs can not be used for 2 turns after a kill.", "살해 후 2 턴 동안 �
 t("Nightmare", "악몽", "birth descriptor name")
 t("#GOLD##{bold}#Nightmare mode#WHITE##{normal}#", "#GOLD##{bold}#악몽 난이도#WHITE##{normal}#", "_t")
 t("Unfair game setting", "불합리한 게임 난이도", "_t")
-t("All zone levels increased by 50% by the time Player reaches level 10", "플레이어가 레벨 10 에 도달할 때, 모든 지역의 레벨이 50% 증가됩니다.", "_t")
 t("All creature talent levels increased by 30%", "모든 개체의 기술 레벨이 30% 증가합니다", "_t")
 t("Unique (fixed) bosses advance in bonus classes 30% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 30% 빠릅니다", "_t")
 t("Rare creatures are slightly more frequent", "희귀 등급의 적이 좀 더 자주 등장합니다.", "_t")
@@ -2461,7 +2460,6 @@ t("Player can earn Insane version of achievements if also playing in Roguelike o
 t("Madness", "광기", "birth descriptor name")
 t("Insane is for the weak! Bring on the true mind-shattering experience!", "미친 난이도도 너무 쉽다! 진정한 정신 붕괴를 내게 가저와라!", "_t")
 t("#GOLD##{bold}#Madness mode#WHITE##{normal}#", "#GOLD##{bold}#광기 난이도#WHITE##{normal}#", "_t")
-t("Absolutely unfair game setting.  You are really mentally ill and wish to get worse to play this mode!", "지극히 불합리한 게임 난이도입니다. 정신적인 문제를 겪고싶으시면 선택하세요!", "_t")
 t("All zone levels increased by 150% + 2 by the time Player reaches level 10", "플레이어가 레벨 10 에 도달할 때, 모든 지역의 레벨이 150% + 2 만큼 증가됩니다", "_t")
 t("All creature talent levels increased by 170%", "모든 개체의 기술 레벨이 170% 증가합니다%", "_t")
 t("Unique (fixed) bosses advance in bonus classes 170% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 170% 빠릅니다", "_t")
@@ -4446,6 +4444,8 @@ t("horror", "공포", "entity type")
 t("worm that walks", "걸어다니는 벌레떼", "entity name")
 t("bloated horror", "부풀어오른 공포", "entity name")
 t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 띈 공포가 이곳에 떠있다. 벗겨진, 아이의 것 같은 머리는 몸에 비해 불균형적으로 거대하고 그 피부는 붉은 상처로 곰보 자국이 잔뜩 나있다..", "_t")
+t("headless horror", "머리 없는 공포", "entity name")
+t("#AQUAMARINE#As %s falls all its eyes fall to the ground!", "#AQUAMARINE#%s 쓰러지자 그것의 눈알들이 모두 땅으로 떨어졌다!", "logSeen", nil, {"가"})
 t("+Blind", "+실명", "_t")
 t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "머리가 없는 둥근 생명체로, 짧은 다리와 팔을 갖고 있다. 몸 전체가 이빨로만 이루어저 있는 것 같다.", "_t")
 t("eldritch", "섬뜩한 자", "entity subtype")
@@ -4718,7 +4718,9 @@ section "game/modules/tome/data/general/npcs/thieve.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
-t("rogue", "불한당", "entity name")
+t("rogue", "도적", "entity name")
+t("shadowblade", "그림자칼날", "entity name")
+t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "야바위로 승리를 거머쥐려 하는 은밀한 싸움꾼들입니다. 조심하지 않으면 목이 달아날 겁니다!", "_t")
 
 
 ------------------------------------------------
@@ -4741,6 +4743,7 @@ t("A large and athletic troll with an extremely tough and warty hide.", "아주 
 section "game/modules/tome/data/general/npcs/undead-rat.lua"
 
 t("undead", "언데드", "entity type")
+t("skeletal rat", "스켈레톤 쥐", "entity name")
 
 
 ------------------------------------------------
@@ -5944,8 +5947,8 @@ t(" of time (#RESIST#)", " (시간) (#RESIST#)", "entity name")
 t("time", "시간", "entity keyword")
 t("warrior's ", "전사의 ", "entity name")
 t("warrior", "전사", "entity keyword")
-t("rogue's ", "불한당의 ", "entity name")
-t("rogue", "불한당", "entity keyword")
+t("rogue's ", "도적의 ", "entity name")
+t("rogue", "도적", "entity keyword")
 t("marksman's ", "명사수의 ", "entity name")
 t("marksman", "명사수", "entity keyword")
 t("titan's ", "수호자의 ", "entity name")
@@ -7754,11 +7757,13 @@ t("Lecture on the nature of magic by Archmage Tarelion", "마도사 타레리온
 ------------------------------------------------
 section "game/modules/tome/data/lore/ardhungol.lua"
 
+t("scrap of paper", "종잇조각", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/arena.lua"
 
+t("Arena for dummies", "천치도 이해할 수 있는 투기장", "_t")
 
 
 ------------------------------------------------
@@ -8045,6 +8050,7 @@ In all those centuries I still searched for the woman and found no trace. I know
 
 지난 수 세기 동안 나는 그 여인을 찾았고 어떠한 흔적도 발견할 수 없었다. 신들은 모두 사냥당한 것을 알고 있었고, 그들이 성전을 치룰 동안 쉐르'툴을 철저히 수색한 것도 기억한다. 난 이제 늙었다. 나와 함께 처음 깨어난 이들은 하나 둘씩 세상을 떠나기 시작했다. 밤이 지날때마다 점점 더 춥고 외로워짐을 느낀다. 하지만 잠자리에 들때면 꿈속에서 그녀의 얼굴을 보고 목소리를 듣는다. 언젠가, 어떻게든, 그녀를 다시 볼 수 있을 거라는 느낌이 든다.]], "_t")
 t("eyal", "에이얄", "newLore category")
+t("ancient papyrus scroll", "고대의 파피루스 두루마리", "_t")
 t("vault", "보물창고", "newLore category")
 t("magic", "마법", "newLore category")
 t("boss", "보스", "newLore category")
@@ -8657,7 +8663,7 @@ section "game/modules/tome/data/rooms/lesser_vault.lua"
 ------------------------------------------------
 section "game/modules/tome/data/talents.lua"
 
-t("#LIGHT_STEEL_BLUE#%s (Class Evolution)", "#LIGHT_STEEL_BLUE#%s (직업 개화)", "tformat")
+t("#LIGHT_STEEL_BLUE#%s (Class Evolution)", "#LIGHT_STEEL_BLUE#%s (직업 진화)", "tformat")
 t("#SANDY_BROWN#%s (Race Evolution)", "#SANDY_BROWN#%s (종족 개화)", "tformat")
 t("a spell", "주문", "_t")
 t("a mind power", "정신", "_t")
@@ -8890,27 +8896,6 @@ t("Deals %d darkness damage and saps the foes energy, reducing all damage dealt 
 t("glyph of twilight", "황혼의 문양", "_t")
 t("trap", "함정", "_t")
 t("Explodes knocking the enemy 1 space in a random direction and dealing %d light and %d darkness damage.", "폭발하여 무작위 방향으로 적을 1 칸 밀어내고 %d 빛 피해와 %d 암흑 피해를 줍니다.", "tformat")
-t([[When one of your spells goes critical, you bind glyphs in radius 1 centered on a random target in range %d at the cost of 5 positive and 5 negative energy.
-		Glyphs last for %d turns and cause various effects when an enemy enters their grid.
-		Glyphs will only spawn on enemies that aren't adjacent to an existing glyph and will prioritize your own position if it is valid.
-		This can only happen every %d game turns.
-		Glyph effects will scale with your Spellpower.
-
-		Avalable glyphs are:
-		#ffd700#Glyph of Sunlight#LAST#:  Bind sunlight into a glyph. When triggered it will release a brilliant light, dealing %0.2f light damage and healing you for %d.
-		#7f7f7f#Glyph of Moonlight#LAST#:  Bind moonlight into a glyph. When triggered it will release a fatiguing darkness,  dealing %0.2f darkness damage and reducing the foes damage dealt by %d%% for %d turns.
-		#9D9DC9#Glyph of Twilight#LAST#:  Bind twilight into a glyph. When triggered it will release a burst of twilight, dealing %0.2f light and %0.2f darkness damage and knocking the foe back %d tiles.
-		]], [[주문 치명타가 발생하면 반경 %d칸 내 무작위 대상의 근처 1 칸에 문양을 하나 새깁니다. 문양을 새기는데에는 양기 5와 음기 5가 필요합니다.
-		문양은 %d 턴 동안 지속되며 적이 문양이 새겨진 칸에 올라서면 다양한 효과가 발생합니다.
-		기존 문양에 인접하지 않은 적의 주변에 문양이 새겨지며, 시전자의 위치에서 유효한 장소가 더 우선됩니다.
-		이 효과는 매 %d 게임 턴 마다 발동합니다.
-		주문력에 따라 문양 효과가 강화됩니다.
-
-		새길 수 있는 문양:
-		#ffd700#태양광의 문양#LAST#:  태양광을 문양으로 새깁니다. 발동 시 찬란한 빛을 내뿜어 %0.2f 빛 피해를 주고 시전자의 생명력을 %d 회복시킵니다.
-		#7f7f7f#월광의 문양#LAST#:  월광을 문양으로 새깁니다. 발동 시 약화의 어둠을 내뿜어 %0.2f 암흑 피해를 주고 %d 턴 동안 적이 주는 피해를 %d%% 감소시킵니다.
-		#9D9DC9#황혼의 문양#LAST#:  황혼을 문양으로 새깁니다. 발동 시 황혼을 내뿜어 %0.2f 빛 피해와 %0.2f 암흑 피해를 주고 적을 %d칸 밀어냅니다.
-		]], "tformat")
 t("Glyphs of Fury", "분노의 문양", "talent name")
 t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
 		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
@@ -9100,29 +9085,9 @@ t([[You bind light in a glyph on the floor. All enemies walking over the glyph w
 section "game/modules/tome/data/talents/celestial/radiance.lua"
 
 t("Radiance", "광휘", "talent name")
-t([[You are so infused with sunlight that your body glows permanently in radius %d, even in dark places.
-		Your vision adapts to this glow, giving you %d%% blindness resistance.
-		The light radius overrides your normal light if it is bigger (it does not stack).
-		]], [[신체에 태양광을 극도로 주입해 영구적으로 발광시켜 반경 %d 를 어둠속에서도 밝힙니다.
-		시야가 휘광에 적응해 실명 면역력이 %d%% 증가합니다.
-		광원 반경이 광휘의 반경보다 작다면 광휘가 광원 반경을 덮어씁니다(중첩 불가).
-		]], "tformat")
-t("Illumination", "발광", "talent name")
-t([[The light of your Radiance allows you to see that which would normally be unseen.
-		All enemies in your Radiance aura have their invisibility and stealth power reduced by %d.
-		In addition, all actors affected by illumination are easier to see and therefore hit; their defense is reduced by %d and all evasion bonuses from being unseen are negated.
-		The effects increase with your Spellpower.]], [[빛의 광휘가 일반적으로 보이지 않는 적을 볼수 있게 해줍니다.
-		광휘의 반경 안에 있는 적은 투명과 은신의 위력이 %d 감소합니다.
-		추가로 발광의 영향을 받는 모든 적을 공격하기 쉬워져 회피도가 %d 감소하고 보이지 않는것으로 얻는 모든 회피 보너스를 잃습니다.
-		주문력에 따라 효과가 증가합니다.]], "tformat")
-t("Searing Sight", "타오르는 시야", "talent name")
-t([[Your Radiance is so powerful it burns all foes caught in it, doing %0.1f light damage to all non-dazed foes caught inside.
-		Each enemy effected has a %d%% chance of being dazed for 5 turns.
-		The damage increases with your Spellpower.]], [[극도로 강력해진 광휘가 반경 내의 혼절 상태가 아닌 모든 적을 불태워 %0.1f 빛 피해를 줍니다.
-		피해를 받는 모든 적을 %d%% 확률로 5 턴 동안 혼절시킵니다.
-		주문력에 따라 피해량이 증가합니다.]], "tformat")
 t("Judgement", "심판", "_t")
-t("Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects dealing %d light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing %d light damage in radius 1 and healing you for 50%% of the damage dealt.", "광휘의 반경 내의 모든 적에게 발광하는 구체를 발사합니다. 각 구체는 대상을 천천히 추적하여 경로상의 모든 적에게 %d 빛 피해를 줍니다. 구체가 대상에게 적중하면 폭발하여 반경 1 내의 모든 적에게 %d 빛 피해를 주고 시전자의 생명력을 가한 피해의 50%%만큼 회복시킵니다.", "tformat")
+t("Searing Sight", "타오르는 시야", "talent name")
+t("Illumination", "발광", "talent name")
 
 
 ------------------------------------------------
@@ -10657,7 +10622,7 @@ t([[You veil yourself in shadows and let them control you.
 section "game/modules/tome/data/talents/cunning/artifice.lua"
 
 t("#GREY#You notice %s has prepared: %s.", "#GREY#%s 해당 장비를 착용했다 : %s.", "logSeen", nil, {"은"})
-t("Rogue's Tools", "불한당의 암기", "talent name")
+t("Rogue's Tools", "도적의 암기", "talent name")
 t([[With some advanced preparation, you learn to create and equip one of a number of useful tools (at #YELLOW#level %d#WHITE#):
 
 %s
@@ -10720,15 +10685,15 @@ t("You prime your Hidden Blades to cause bleeding and facilitate the Assassinate
 t([[You strike your target with your Hidden Blades twice in a vital spot for %d%% unarmed (physical) damage.  You must be able to see your target to use this attack, but it always hits and ignores all armor and physical resistance.
 In addition, your hidden blades now inflict a further %d%% of all damage dealt as bleeding over 5 turns.]], [[암살검으로 대상의 급소에 칼날을 2 번 찔러넣어 %d%% 의 맨손 피해 (물리)를 가합니다. 이 공격을 위해서는 적이 제대로 보여야 하지만, 이 공격은 반드시 명중하고 모든 방어력 수치와 물리 저항을 무시합니다.
 암살검은 출혈을 일으켜 대상은 %d%% 의 피해를 5 턴에 걸쳐 받습니다.]], "tformat")
-t("Rogue's Brew", "불한당의 양조주", "talent name")
+t("Rogue's Brew", "도적의 양조주", "talent name")
 t("%s is cured!", "%s 정화되었습니다!", "logSeen", nil, {"이"})
 t("Prepare a potion that restores %d life, %d stamina, and cures %d negative physical effects. 20 turn cooldown.", "생명력울 %d, 체력을 %d, 그리고 부정적인 물리적 효과를 %d 개 제거하는 물약을 준비합니다. 20 턴의 재사용 대기시간을 갖습니다.", "tformat")
 t([[Imbibe a potent mixture of energizing and restorative substances, restoring %d life, %d stamina and curing %d detrimental physical effects.  The restorative effects improve with your Cunning.
 	#YELLOW#Prepared with: %s#LAST#]], [[힘을 돋구고 상처릉 치유하는 물질을 혼합한 물약을 마십니다. 생명력 %d 과 체력 %d 을 회복하고 %d 개의 부정적인 물리적 효과를 제거합니다. 회복량은 교활 능력치에 비례하여 증가합니다.
 	#YELLOW#현재 암기: %s#LAST#]], "tformat")
-t("Rogue's Brew Mastery", "불한당의 숙련된 양조 기술", "talent name")
-t("Your Rogue's Brew fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "불한당의 양조주가 8 턴 동안 생명력이 -%d 이하로 떨어지기 전 까지 죽지 않게합니다.", "tformat")
-t("Adjust your Rogue's Brew formulation so that it fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "불한당의 양조주의 제조법을 조금 손봤습니다. 이제 8 턴 동안 시전자는 생명력이 -%d 이하로 떨어지기 전 까지 죽지 않게됩니다.", "tformat")
+t("Rogue's Brew Mastery", "도적의 숙련된 양조 기술", "talent name")
+t("Your Rogue's Brew fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "도적의 양조주가 8 턴 동안 생명력이 -%d 이하로 떨어지기 전 까지 죽지 않게합니다.", "tformat")
+t("Adjust your Rogue's Brew formulation so that it fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "도적의 양조주의 제조법을 조금 손봤습니다. 이제 8 턴 동안 시전자는 생명력이 -%d 이하로 떨어지기 전 까지 죽지 않게됩니다.", "tformat")
 t("Smokescreen", "연막탄", "talent name")
 t("Throw a smokebomb creating a radius 2 cloud of smoke, lasting %d turns, that blocks sight and reduces enemies' vision by %d. 15 turn cooldown.", "연막탄을 던저 반경 2 칸의 연기 구름을 생성합니다. 구름은 %d 턴 동안 유지되고, 적의 시야를 가로막고 영향을 받는 적의 최대 시야를 %d 만큼 줄입니다. 15 턴의 재사용 대기시간을 갖습니다.", "tformat")
 t([[Throw a vial of volatile liquid that explodes in a radius %d cloud of smoke lasting %d turns.  The smoke blocks line of sight, and enemies within will have their vision range reduced by %d.
@@ -11292,12 +11257,12 @@ This design does not require advanced preparation to use.]], "tformat")
 t("Ambush Trap", "기습 함정", "talent name")
 t("You have learned how to create Ambush traps!", "당신은 기습 함정을 만드는 법을 배웠다!", "_t")
 t("ambush trap", "기습 함정", "_t")
-t("3 stealthed rogues attack the target for %d turns.", "3 명의 은신한 불한당이 %d 턴 동안 적을 공격합니다.", "tformat")
+t("3 stealthed rogues attack the target for %d turns.", "3 명의 은신한 도적이 %d 턴 동안 적을 공격합니다.", "tformat")
 t([[Lay a magical trap that summons a trio of shadowy rogues to attack the target.
 The rogues receive your damage bonuses and are permanently stealthed.
-They disappear after %d turns or when their work is done.]], [[대상을 그림자 불한당 셋을 소환하여 대상을 공격하는 마법 함정을 설치합니다.
-		이 불한당들은 시전자의 피해 증가량을 적용받습니다. 불한당들은 영구적인 은신상태입니다.
-		%d 턴이 지나거나 일이 마무리 지어지면, 불한당들은 사라집니다 .]], "tformat")
+They disappear after %d turns or when their work is done.]], [[대상을 그림자 도적 셋을 소환하여 대상을 공격하는 마법 함정을 설치합니다.
+		이 도적들은 시전자의 피해 증가량을 적용받습니다. 도적들은 영구적인 은신상태입니다.
+		%d 턴이 지나거나 일이 마무리 지어지면, 도적들은 사라집니다 .]], "tformat")
 t("Purging Trap", "정화 함정", "talent name")
 t("purging trap", "정화 함정", "_t")
 t("Radius 2 antimagic: Drains up to %d mana, %d vim, %d positive/negative, deals up to %0.2f arcane damage.  Removes %d magical effects and silences for %d turns.", "반경 2 칸의 반마법장 : 최대 %d 마나, %d 원기, %d 양기/음기를 흡수하고 최대 %0.2f 비전 피해를 입힙니다.  %d 개의 마법 효과를 제거하고 %d 턴 동안 침묵 시킵니다.", "tformat")
@@ -11367,11 +11332,71 @@ t([[Share your hatred with all shadows within sight range, gaining temporary ful
 ------------------------------------------------
 section "game/modules/tome/data/talents/cursed/bloodstained.lua"
 
+t("Blood Clot", "핏덩이", "talent name")
+t("Reduces the damage you take from bleeds by %d%%", "출혈로 받는 피해를 %d%% 줄입니다", "tformat")
+t("Blood Rush", "피의 쇄도", "talent name")
+t("Nowhere to appear!", "나타날 곳이 없다!", "logSeen")
+t("The bloodrush fizzles!", "피의 쇄도가 실패했다!", "logSeen")
+t([[Teleport to an enemy, striking them for 100%% weapon damage, bleeding them for %d%% weapon damage over five turns, and marking them for six turns.
+
+When the marked enemy dies, the cooldown of this talent will be reduced by two turns for every turn the mark had remaining.
+
+Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[적의 옆으로 이동해, 100%% 무기 피해를 주고, 출혈을 일으켜 %d%% 무기 피해를 5 턴에 걸쳐 가합니다. 또한 6 턴 동안 지속되는 표식을 남깁니다.
+
+표식이 찍힌 적이 쓰러지면, 표식의 남은 지속시간 × 2 턴 만큼 이 기술의 재사용 대기시간이 줄어듭니다.
+
+피칠갑 기술에 투자된 기술 점수 하나 당 출혈 효과로 받는 피해량이 2%% 줄어듭니다.]], "tformat")
+t("Blood Rage", "피의 격노", "talent name")
+t([[Cut into an enemy and twist the blade, dealing %d%% damage and increasing the intensity of their existing bleed effects by %d%%.
+
+Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[적에게 칼날을 꽂고, 거칠게 비틀어, %d%% 피해를 주고, 적에게 적용된 출혈 효과의 위력이 %d%% 상승합니다.
+
+피칠갑 기술에 투자된 기술 점수 하나 당 출혈 효과로 받는 피해량이 2%% 줄어듭니다.]], "tformat")
+t("Blood Bath", "피의 목욕", "talent name")
+t([[Your melee attacks also cause the target to bleed for %d%% of the damage dealt over five turns.
+The bleed chance increases with your Physical Power.
+
+Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[기본 근접 공격이 출혈을 일으켜, 5 턴에 걸쳐 %d%% 피해를 가합니다.
+출혈 확률은 물리력에 비례하여 증가합니다.
+
+피칠갑 기술에 투자된 기술 점수 하나 당 출혈 효과로 받는 피해량이 2%% 줄어듭니다.]], "tformat")
+t("Blood Thirst", "피의 목마름", "talent name")
+t([[Your hunger for violence and suffering sustains you.  All damage you do heals you for a portion of the damage done, from %d%% (at 0 Hate to) %d%% (at max Hate).  You can recover no more than 1/6 of your max life each turn this way.
+
+Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[폭력에 대한 굶주림과 고통이 시전자를 살아가게 합니다. 시전자가 가하는 모든 피해의 %d%% - %d%% 가 생명력으로 회복됩니다. 하지만 한 턴에 최대 생명력의 1/6 이상을 회복할 수는 없습니다.
+
+피칠갑 기술에 투자된 기술 점수 하나 당 출혈 효과로 받는 피해량이 2%% 줄어듭니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/cursed/crimson-templar.lua"
 
+t("Shared Agony", "격통 분산", "talent name")
+t("%s(%d shared agony)#LAST#", "%s(%d 격통 분산)#LAST#", "tformat")
+t([[You displace %d%% of any damage you receive onto a random bleeding enemy within range 5.	This redirected damage is amplified by %d%%.
+
+#{italic}#All living things are linked by blood.	It is one river, flowing through all.#{normal}#]], [[피격 시, 받은 피해의 %d%% 를 반경 5 칸 내의 출혈 효과가 적용된 무작위한 적에게 전송합니다.	전송된 피해는 %d%% 강하게 증폭됩니다.
+
+#{italic}#모든 생명체는 피로 이어져있다.	이는 강줄기요, 모든 이들에게 흐른다.#{normal}#]], "tformat")
+t("Splatter Sigils", "유혈의 인장", "talent name")
+t([[When you kill an enemy, their death forms a cursed magical pattern on the ground. This creates a circle of radius %d which blinds enemies and deals them %0.2f light damage, while giving you %d positive energy per turn.	 The circle lasts for %d turns.
+							The damage will increase with your Spellpower.
+							The duration of the circle can be increased by a critical hit.
+							The blind chance increases with your Spellpower.
+							You can activate this talent to draw the pattern in your own blood, creating it underneath you at the cost of %d%% of your maximum life.
+]], [[적을 살해할 때, 적의 죽음이 저주받은 마법의 인장이 되어 땅에 세겨집니다. 반경 %d 칸 내의 지역에 마법진이 나타나, 적들을 실명시키고  %0.2f 빛 피해를 입힙니다. 또한 시전자의 양기가 %d 씩 재생됩니다.	 마법진은 %d 턴 동안 유지됩니다.
+							피해량은 주문력에 비례하여 증가합니다.
+							치명타 시, 마법진의 지속시간이 연장됩니다.
+							실명 확률은 주문력에 비례하여 증가합니다.
+							이 기술을 발동해, 인장을 시전자의 피 속에서 뽑아내, 발 밑에 마법진을 그립니다. 최대 생명력의 %d%% 를 소모합니다.
+]], "tformat")
+t("Mark of the Vampire", "흡혈귀의 표식", "talent name")
+t([[Dooms your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a talent, it takes %0.2f physical damage as its life is drawn out.	In addition, any bleed applied to the target will have its power increased by %d%%.
+							The damage will increase with your Spellpower.
+							The chance to apply will increase with your Spellpower.]], [[대상과 대상 주변 반경 2 칸 내의 모든 것에게 20 턴 간 파멸을 내립니다. 영향을 받은 적은 기술 시전 시, %0.2f 물리 피해를 받고, 생명력이 뽑혀 나옵니다.	추가로, 대상에게 적용된 모든 출혈 효과의 위력이 %d%% 증폭됩니다.
+							피해량은 주문력에 비례하여 증가합니다.
+							적용 확률은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Rosebloom", "장미 개화", "talent name")
 t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
 
 
@@ -13814,7 +13839,7 @@ t("@Source@ dashes quickly!", "@Source1@ 날렵하게 이동한다!", "_t")
 t("You can not do that currently.", "현재 그것을 할 수 없다.", "logPlayer")
 t("You cannot dash through that!", "그것을 뚫고 이동할 수 없다!", "logPlayer")
 t("Quickly and quietly dash your way to the target square, if it is not blocked by enemies or obstacles. This talent will not break Stealth.", "날렵하고 조용하게 이동해 대상에게 접근합니다. 이 기술은 은신을 해제하지 않습니다.", "tformat")
-t("Hide in Plain Sight", "다 보이는 데서 숨기", "talent name")
+t("Hide in Plain Sight", "몸 숨기기", "talent name")
 t("You cannot be stealthy with such heavy armour on!", "중갑을 장비한 채로는 은신할 수 없습니다!", "logPlayer")
 t([[You have learned how to be stealthy even when in plain sight of your foes.  You may attempt to enter stealth regardless of how close you are to your enemies, but success is more likely against fewer opponents that are farther away.
 		Your chance to succeed is determined by comparing %0.2f times your stealth power (currently %d) to the stealth detection of all enemies (reduced by 10%% per tile distance) that have a clear line of sight to you.
@@ -17527,7 +17552,7 @@ t("agility", "기민함", "_t")
 t("Stealth and specialised long range archery techniques.", "은신과 전문화된 장거리 사격 기술입니다.", "_t")
 t("sniper", "저격", "_t")
 t("Acrobatics", "곡예", "_t")
-t("For light footed Rogues who prefer flight to fighting fair!", "전투보다 도주를 선호하는 발 빠른 불한당을 위한 기술입니다!", "_t")
+t("For light footed Rogues who prefer flight to fighting fair!", "전투보다 도주를 선호하는 발 빠른 도적을 위한 기술입니다!", "_t")
 t("Buckler Training", "방패 훈련", "_t")
 t("Mastery over their shields separates Skirmishers from Archers, and gives them an edge.", "방패 숙달이야 말로 궁수와 척후병을 구분하는 가장 큰 특징입니다. 방패의 사용은 그들에게 큰 이점을 안깁니다.", "_t")
 t("Skirmisher - Slings", "척후 - 투석구", "_t")
@@ -17646,7 +17671,6 @@ section "game/modules/tome/data/talents/techniques/tireless-combatant.lua"
 t("Breathing Room", "숨 돌리기", "talent name")
 t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. With the third talent point, you also gain an equal amount of life regen when Breathing Room is active.", "사용자와 인접한 칸에 적이 존재하지 않을 경우, 체력이 매 턴 %0.1f 재생됩니다. 기술 레벨 3 일 때, 숨돌리기 활성화 시, 같은 수치의 생명력도 재생합니다.", "tformat")
 t("Pace Yourself", "숨 고르기", "talent name")
-t("Control your movements to conserve your energy.  While this talent is activated, you are globally slowed by %0.1f%%, and your fatigue is decreased by %d%% (to a minimum of 0%%).", "움직임을 조절하고 힘을 비축합니다. 활성화 시, 당신의 전체 속도는 %0.1f%% 감소하지만, 당신의 피로도도 %d%% 감소합니다 (최소 피로도는 0%% 입니다).", "tformat")
 t("Dauntless Challenger", "불굴의 도전자", "talent name")
 t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning with the third talent point, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "상황이 안좋게 돌아갈 수록, 척후병은 더 강해집니다. 시야에 보이는 적 하나 당 %0.1f 체력 재생을 얻습니다. 기술 레벨 3 일 때, 적 하나 당 %0.1f 생명력 재생을 얻습니다. 재생 효과는 최대 적 4 체에게서 발생합니다.", "tformat")
 t("The Eternal Warrior", "영원한 전사", "talent name")
@@ -20085,7 +20109,7 @@ t("-Displacement Shield", "-변위 보호막", "_t")
 t("The fabric of space around #target# stabilizes to normal.", "#target# 주위의 공간의 구조가 다시 안정화됐다.", "_t")
 t("Damage Shield", "피해 보호막", "_t")
 t("(reflecting %d%% back to the attacker)", "(받은 피해량의 %d%% 가 공격자에게 반사됨)", "tformat")
-t("The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "피해%s 흡수량 %d/%d", "tformat")
+t("The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "피해%s 흡수량 %d/%d", "tformat", {3,1,2})
 t("+Shield", "+보호막", "_t")
 t("A shield forms around #target#.", "#target2# 주위에 마력의 보호막을 형성했다.", "_t")
 t("-Shield", "-보호막", "_t")
@@ -20481,9 +20505,9 @@ t("#Target# stops shining.", "#Target#의 광휘가 사라졌다.", "_t")
 t("-Righteous Strength", "-정의로운 힘", "_t")
 t("Lightburn", "광염", "_t")
 t("The creature is burnt by light, dealing %0.2f light damage each turn and reducing armour by %d.", "매 턴 %0.2f 빛 피해 / 방어력 -%d.", "tformat")
-t("#Target# burns with light!", "#Target2# 빛으로 인해 불탄다!", "_t")
 t("+Lightburn", "+광염", "_t")
 t("-Lightburn", "-광염", "_t")
+t("#Target# burns with light!", "#Target2# 빛으로 인해 불탄다!", "_t")
 t("Illumination ", "밝혀짐", "_t")
 t("The target glows in the light, reducing its stealth and invisibility power by %d, defense by %d and looses all evasion bonus from being unseen.", "은신력 -%d / 회피도 -%d / 은신으로 인한 피해 무시 효과 제거.", "tformat")
 t("+Illumination", "+빛남", "_t")
@@ -21272,6 +21296,7 @@ t("This creature is standing in the eye of a powerful storm of psionic forces.",
 t("Caught Lightning", "전기 포집", "_t")
 t("Lightning Catcher has caught energy and is empowering you for +%d%% lightning damage and +%d to all stats.", "전기 피해 +%d%% / 모든 능력치 +%d.", "tformat")
 t("lightning", "전기", "effect subtype")
+t("Mark of the Vampire", "흡혈귀의 표식", "_t")
 t("psionic", "초능력", "effect subtype")
 
 
@@ -22439,7 +22464,7 @@ t("sleep", "수면", "effect subtype")
 t("#Target# is in a deep sleep.", "#Target2# 깊은 잠에 들었다.", "_t")
 t("#Target# is no longer sleeping.", "#Target1# 잠에서 깨어났다.", "_t")
 t("-Sedated", "-진정제", "_t")
-t("Rogue's Brew", "불한당의 양조주", "_t")
+t("Rogue's Brew", "도적의 양조주", "_t")
 t("The target will not die until falling below -%d life.", "생명력이 -%d 에 도달할 때까지 죽지 않음.", "tformat")
 t("Bear Trap", "곰 덫", "_t")
 t("slowed (%d%%)", "감속 (%d%%)", "tformat")
@@ -22655,33 +22680,67 @@ t("An animated corpse in mummy wrappings, both very well preserved.", "붕대가
 ------------------------------------------------
 section "game/modules/tome/data/zones/ancient-elven-ruins/objects.lua"
 
+t("ancient papyrus scroll", "고대의 파피루스 두루마리", "entity name")
+t("This seems to be an account of the last days of a great Shaloren mage.", "이것은 어떤 훌륭한 샬로레 마법사의 마지막 날들에 대한 이야기로 보입니다.", "_t")
+t("Bindings of Eternal Night", "영원한 밤의 구속구", "entity name")
+t("blackened, slithering mummy wrappings", "검게 변한, 미끄러운 미라 붕대", "_t")
+t("Woven through with fell magics of undeath, these bindings suck the light and life out of everything they touch. Any who don them will find themselves suspended in a nightmarish limbo between life and death.", "사악한 역생의 마법으로 엮어낸 구속구로, 맞닿은 모든 빛과 생명을 빨아들입니다. 이것을 사용하는 사람은 누구든지 자신이 삶과 죽음의 사이에 위치한 악몽과도 같은 감옥에 갇혔다는 걸 깨닫게 될 것입니다.", "_t")
+t("A complementing item would be your crowning glory.", "특정한 물건이 있다면, 그야말로 딱 어울리는 왕관을 쓴 격일 것입니다.", "_t")
+t("Crown of Eternal Night", "영원한 밤의 왕관", "entity name")
+t("blackened crown", "검게 변한 왕관", "_t")
+t("This crown looks useless, yet you can feel it is woven with fell magics of undeath. Maybe it has a use.", "이 왕관은 쓸모가 없어 보이지만, 사악한 역생의 마법으로 엮여 있다는 것을 느낄 수 있습니다. 어딘가 쓸모가 있을 것입니다.", "_t")
+t("You need to find something to bind its powers.", "이 물건의 힘을 구속할만한 것을 찾아야 합니다.", "_t")
+t("#ANTIQUE_WHITE#The Crown of Eternal Night seems to react with the Bindings, you feel tremendous dark power.", "#ANTIQUE_WHITE#영원한 밤의 왕관이 구속구에 반응하는 것 같다. 어마어마한 어둠의 힘이 느껴진다.", "logSeen")
+t("#ANTIQUE_WHITE#The powerful darkness aura you felt wanes away.", "#ANTIQUE_WHITE#강력한 어둠의 기운이 사라졌다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/ancient-elven-ruins/zone.lua"
 
+t("Elven Ruins", "엘프의 폐허", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/ardhungol/grids.lua"
 
 t("unstable wormhole", "불안정한 웜홀", "entity name")
+t("#VIOLET#The wormhole absorbs the energy of the spell and teleports %s away!", "#VIOLET#웜홀이 주문의 에너지를 흡수하고 %s 멀리 순간이동시켰다!", "logSeen", nil, {"을"})
+t("#VIOLET#The wormhole absorbs the energy of the spell and explodes in a burst of nullmagic!", "#VIOLET#웜홀이 주문의 에너지를 흡수하고 마법 무효의 파동을 방출하며 폭발했다!", "logSeen")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/ardhungol/npcs.lua"
 
+t("Ungolë", "웅골레", "entity name")
+t("A huge spider, shrouded in darkness, her red glowing eyes darting to fix on you. She looks hungry.", "거대한 거미입니다. 어둠 속에서 붉게 빛나는 눈동자가 당신을 바라보고 있습니다. 배가 고파 보입니다.", "_t")
+t("and devoured alongside a Sun Paladin", "그리고 태양의 기사와 함께 잡아먹혔습니다.", "_t")
+t("Sun Paladin Rashim", "태양의 기사 라심", "_t")
+t("xhaiak", "샤이악", "entity subtype")
+t("xhaiak arachnomancer", "샤이악 거미술사", "entity name")
+t("A strange looking humanoid spiderkin, its body half covered by a light flowing robe. It looks like tiny spiders are crawling on his skin.", "이상하게 생긴 인간형 거미족으로, 몸의 반 정도가 가볍고 늘어진 로브로 덮여 있습니다. 조그만 거미들이 피부 위에 기어다니고 있는 걸로 보입니다.", "_t")
+t("shiaak", "시악", "entity subtype")
+t("shiaak venomblade", "시악 맹독칼날", "entity name")
+t("A strange looking humanoid, covered in black chitinous skin. He dual wields sinuous daggers and seems bent on plunging them in your body.", "이상하게 생긴 인간형 생물로, 온몸이 검정색 키틴질 껍질로 덮여 있습니다. 구불구불한 단검을 양손에 한 자루씩 들고 있으며 그것들을 당신에게 꽂아넣지 못해 안달이 나 있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/ardhungol/objects.lua"
 
+t("diary page", "일기 페이지", "entity name")
+t("A page of a diary.", "일기의 페이지 한 장입니다.", "_t")
+t("scrap of paper", "종잇조각", "entity name")
+t("A scrap of paper.", "종잇조각입니다.", "_t")
+t("poison dripping wand", "독이 방울져 떨어지는 마법봉", "_t")
+t("Rod of Spydric Poison", "거미독의 장대", "entity name")
+t("This rod carved out of a giant spider fang continuously drips venom.", "이 장대는 끊임없이 맹독이 방울져 떨어지는 거대 거미의 송곳니를 깎아 만들어진 것입니다.", "_t")
+t("shoot a bolt of spydric poison out to range %d, dealing %0.2f nature damage (based on Magic) over %d turns while rendering the target unable to move", "%d 칸 범위 내에 거미독의 화살을 쏘아, %0.2f 자연 피해 (마법 능력치 기반) 를 %d 턴에 걸쳐 입힙니다. 이 피해를 받는 동안에는 대상은 움직일 수 없습니다.", "tformat")
 t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/ardhungol/zone.lua"
 
+t("Ardhungol", "알드훈골", "_t")
 
 
 ------------------------------------------------
@@ -22695,15 +22754,21 @@ t("closed gate", "닫힌 문", "entity name")
 section "game/modules/tome/data/zones/arena-unlock/npcs.lua"
 
 t("gladiator", "검투사", "entity name")
+t("A menacing man in heavy armor, wielding a mace. He looks battle-hardened.", "중갑을 입고 철퇴를 들고 있는 위협적인 남자입니다. 전투에 익숙한 것으로 보입니다.", "_t")
 t("halfling slinger", "하플링 투석꾼", "entity name")
 t("halfling", "하플링", "entity subtype")
+t("A Halfling slinger. He seems adept at combat.", "하플링 투석꾼입니다. 전투에 적응한 것 같습니다.", "_t")
+t("arcane blade", "마법 검사", "entity name")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("A Human Arcane Blade. His body shows multiple scars from battle.", "인간 마법 검사입니다. 몸에 전투에서 얻은 흉터가 많습니다.", "_t")
+t("Cornac rogue", "코르낙 도적", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/arena-unlock/zone.lua"
 
+t("Derth (Southeast)", "데르스 (남동쪽)", "_t")
 
 
 ------------------------------------------------
@@ -22718,22 +22783,89 @@ t("open gate", "열린 문", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/zones/arena/npcs.lua"
 
+t("skeletal rat", "스켈레톤 쥐", "entity name")
 t("undead", "언데드", "entity type")
+t("The diminutive skeleton of a giant rat, charged with evil energies. Nobody understands the usefulness of undead rodents until several of them come after you.", "사악한 에너지로 가득 찬 거대 쥐의 작은 스켈레톤입니다. 아무도 언데드 설치류가 유용하다고 생각하지 않습니다. 그들 중 몇몇이 당신을 쫓아가기 전까지는 그랬죠.", "_t")
+t("homeless fighter", "노숙자 싸움꾼", "entity name")
+t("Will fight for a meal.", "한 끼 식사를 위해 싸웁니다.", "_t")
+t("golden crystal", "황금빛 수정", "entity name")
+t("A formation of golden crystal. It emits a golden radiance equalling the sun itself.", "황금빛 수정 결정체입니다. 태양 그 자체와 맞먹을 정도의 황금색 빛을 내뿜습니다.", "_t")
+t("master alchemist", "숙달된 연금술사", "entity name")
+t("multihued wyrmic", "다색 용인", "entity name")
+t("A powerful wyrmic with mastery over several elements.", "여러 가지 원소들에 통달한 강력한 용인입니다.", "_t")
+t("master slinger", "숙달된 투석꾼", "entity name")
 t("halfling", "하플링", "entity subtype")
+t("Expert slingers on hire by the arena. They are great at their jobs.", "투기장에서 일하는 숙련된 투석꾼입니다. 일을 아주 잘 합니다.", "_t")
 t("gladiator", "검투사", "entity name")
+t("reaver", "약탈자", "entity name")
+t("A warrior of death.", "죽음의 전사입니다.", "_t")
+t("headless horror", "머리 없는 공포", "entity name")
+t("A headless gangly humanoid with a large distended stomach. Was captured and tamed by the first master of the arena.", "머리가 없고 흐느적거리며, 복부가 크게 팽창되어 있는 인간과 닮은 무언가입니다. 투기장의 초대 주인에게 포획되었고 길들여졌습니다.", "_t")
+t("#AQUAMARINE#As %s falls all its eyes fall to the ground!", "#AQUAMARINE#%s 쓰러지자 그것의 눈알들이 모두 땅으로 떨어졌다!", "logSeen", nil, {"가"})
+t("Ryal", "라이알", "entity name")
+t("A gargantuan bone giant resembling a wingless wyrm. He is fully sentient and surprisingly fast.", "날개 없는 용과 닮은 엄청난 해골 거인입니다. 지각력이 매우 좋으며 놀랄 만큼 빠릅니다.", "_t")
+t("Fryjia Loren", "프리지아 로렌", "entity name")
+t("A young girl with skin pale as snow. She is small, but deadly in battle, unleashing a constant barrage of ice shards.", "피부가 눈처럼 흰 어린 소녀입니다. 조그만 소녀지만 위험한 상대로, 무수한 얼음 조각들을 끊임없이 쏘아댑니다.", "_t")
+t("Riala Shalarak", "리아라 샬라락", "entity name")
+t("A strong female magician. Years of experience make her a dangerous combatant.", "강한 여마법사입니다. 다년간의 경험으로 그녀는 위험한 투사가 되었습니다.", "_t")
+t("Valfren Loren", "발프렌 로렌", "entity name")
+t("A massive suit of armor with a massive axe containing a massively cursed person. He is cursed to fight eternally.", "육중한 갑옷과 육중한 도끼로 무장하고, 육중한 저주를 짊어진 사람입니다. 영원히 싸움을 계속하게 되는 저주를 받았습니다.", "_t")
+t("Rej Arkatis", "레이 알카티스", "entity name")
+t("A Cornac fighter of respectable talent. He emerged from nowhere and became the true master of fighting.", "훌륭한 실력을 가진 코르낙 전사입니다. 어디선가 나타나서 진정한 전투의 달인이 되었습니다.", "_t")
+t("slinger", "투석꾼", "entity name")
+t("high slinger", "숙련된 투석꾼", "entity name")
+t("Ranged fighters coming to the arena looking for wealth and glory, just like you.", "부와 영광을 찾아 투기장에 온 사수입니다. 당신처럼요.", "_t")
 t("alchemist", "연금술사", "entity name")
-t("rogue", "불한당", "entity name")
+t("Deadly fighters using explosive gems to attack.", "폭발하는 보석으로 공격하는 위험한 싸움꾼들입니다.", "_t")
+t("blood mage", "피의 마법사", "entity name")
+t("A man dressed in black robes. You feel weak as you hear his ominous chanting.", "검은 로브를 입은 남자입니다. 그가 읊는 불길한 영창을 들으면 힘이 빠져나가는 느낌이 듭니다.", "_t")
+t("hexer", "주술사", "entity name")
+t("A man dressed in black robes. You feel a thousand curses being put on you.", "검은 로브를 입은 남자입니다. 당신은 자신에게 끼얹어지는 수많은 저주를 느낄 수 있습니다.", "_t")
+t("rogue", "도적", "entity name")
+t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your sight!", "야바위로 승리를 거머쥐려 하는 은밀한 싸움꾼들입니다. 조심하지 않으면 기습당할 겁니다!", "_t")
+t("trickster", "은신 사수", "entity name")
+t("Stealthy ranged fighters trying to achieve victory with trickery. Be careful or they will shoot your heart!", "야바위로 승리를 거머쥐려 하는 은밀한 사수들입니다. 조심하지 않으면 심장이 꿰뚫릴 겁니다!", "_t")
+t("shadowblade", "그림자칼날", "entity name")
+t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "야바위로 승리를 거머쥐려 하는 은밀한 싸움꾼들입니다. 조심하지 않으면 목이 달아날 겁니다!", "_t")
+t("fire wyrmic", "화염 용인", "entity name")
+t("A fire wyrmic aspiring to win the tournament. He comes paired with an ice wyrmic.", "대회 우승을 노리는 화염 용인입니다. 얼음 용인과 조를 짜고 왔습니다.", "_t")
+t("ice wyrmic", "얼음 용인", "entity name")
+t("An ice wyrmic aspiring to win the tournament. He comes paired with a fire wyrmic.", "대회 우승을 노리는 얼음 용인입니다. 화염 용인과 조를 짜고 왔습니다.", "_t")
+t("sand wyrmic", "모래 용인", "entity name")
+t("A sand wyrmic aspiring to win the tournament. He comes paired with a storm wyrmic.", "대회 우승을 노리는 모래 용인입니다. 폭풍 용인과 조를 짜고 왔습니다.", "_t")
+t("storm wyrmic", "폭풍 용인", "entity name")
+t("A storm wyrmic aspiring to win the tournament. He comes paired with a sand wyrmic.", "대회 우승을 노리는 폭풍 용인입니다. 모래 용인과 조를 짜고 왔습니다.", "_t")
+t("high gladiator", "숙련된 검투사", "entity name")
+t("great gladiator", "능숙한 검투사", "entity name")
+t("Mercenaries hired by the arena for the sole purpose of entertainment. They make a living beating people up.", "오직 흥을 돋우기 위해서 투기장에 고용된 용병입니다. 사람들을 두들겨 패는 게 일입니다.", "_t")
+t("martyr", "순교자", "entity name")
+t("A devout soldier.", "독실한 전사입니다.", "_t")
+t("anorithil", "아노리실", "entity name")
+t("Warriors from afar. They use the power of light and darkness against you!", "멀리서 온 전사입니다. 당신에게 빛과 어둠의 힘을 맛보여 줍니다!", "_t")
+t("sun paladin", "태양의 기사", "entity name")
 t("human", "인간", "entity subtype")
+t("Warriors from afar. They wield the power of light, and a mean sword.", "멀리서 온 전사입니다. 빛의 힘과 끝내주는 검을 휘두릅니다.", "_t")
+t("star crusader", "별의 성기사", "entity name")
 t("elf", "엘프", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Warriors from afar. They wield the power of light, and a mean sword. Darkness, too.", "멀리서 온 전사입니다. 빛의 힘과 끝내주는 검을 휘두릅니다. 그리고 어둠도요.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/arena/objects.lua"
 
+t("Arena for dummies", "천치도 이해할 수 있는 투기장", "entity name")
+t("A note explaining the arena's scoring rules. Someone must have dropped it.", "투기장의 점수 체계에 대한 설명이 담긴 쪽지입니다. 누군가가 떨어뜨린 게 틀림없습니다.", "_t")
+t("a pair of leather boots of disengagement", "후퇴의 가죽 부츠", "entity name")
+t("a pair of leather boots of phasing", "전이의 가죽 부츠", "entity name")
+t("blink to a nearby random location within range %d (based on Magic)", "%d 칸 (마법 능력치 비례) 내의 무작위 지점으로 순간이동합니다.", "tformat")
 t("%s uses %s!", "%s %s 사용한다!", "logSeen", nil, {"는","를"})
+t("a pair of leather boots of rushing", "돌진의 가죽 부츠", "entity name")
 t("armor", "방어구", "entity type")
 t("feet", "다리", "entity subtype")
+t("A pair of boots made of leather. They seem to be of exceptional quality.", "가죽으로 만들어진 부츠입니다. 품질이 아주 뛰어납니다.", "_t")
+t("elm longbow of piercing arrows", "꿰뚫는 느릅나무 활", "entity name")
+t("rough leather sling of flare", "거친 가죽 조명탄 투석구", "entity name")
 
 
 ------------------------------------------------
@@ -22943,6 +23075,7 @@ t("Back and there again", "다시 또 그곳에", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/zones/demon-plane/objects.lua"
 
+t("blink to a nearby random location within range %d (based on Magic)", "%d 칸 (마법 능력치 비례) 내의 무작위 지점으로 순간이동합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -24150,7 +24283,6 @@ t("Ruined Dungeon", "파괴된 던전", "_t")
 t("#rng# the Guardian", "수호자 #rng#", "_t")
 t("Guardian", "수호자", "_t")
 t("You can hear a magical trigger firing off.", "마법적인 장치가 켜지는 소리가 들립니다.", "_t")
-t("The orb seems to react badly to your touch, there is a high shriek!", "당신이 건드린 구체의 반응은 뭔가 잘못된 것 같습니다. 찢어지는 비명 소리가 들립니다!", "_t")
 t("%s appears out of the thin air!", "허공에서 %s 튀어나왔다!", "logSeen", nil, {"이"})
 t("The orb glows brightly. There is a loud crack coming from the northern central chamber.", "구체가 밝게 빛납니다. 북쪽 중앙의 방에서 요란하게 갈라지는 소리가 들립니다.", "_t")
 t("Strange Orb", "이상한 구체", "_t")
@@ -26799,13 +26931,13 @@ t("Though slavery is illegal there is still a black market for it, and in some a
 t("Maj'Eyal is the biggest continent in the world of Eyal. Though records suggest other continents and islands may exist it has not been possible to cross the wide and stormy oceans since the Spellblaze and the Cataclysm.", "마즈'에이알은 에이알의 세계에서 가장 큰 대륙입니다. 기록에 따르면 다른 대륙과 섬들이 있지만, 대재앙과 마법폭발이후로 드넓은 대양을 건너는 것은 불가능해졌습니다.", "init.lua load_tips")
 t("The effects of the Spellblaze were not all instant, and many centuries later the Cataclysm tore the continent apart once more, devastating coastal areas the destroying all of the Naloren lands.", "마법 폭발의 여파는 모두가 즉각적인 것이 아니였습니다. 수세기 후 대재앙이 닥처 대륙을 다시 한반 찢어놓고 해안에 있던 날로레의 모든 땅을 붕괴시켰습니다.", "init.lua load_tips")
 t("Archers are fast and deadly, and with pinning shots can render their foes helpless as they swiftly dispatch them.", "궁수는 빠르고 치명적입니다. 화살을 꽂아넣어 적들이 접근하기도 전에 무력화시킬 수 있습니다.", "init.lua load_tips")
-t("Reavers are powerful fighters with corrupted blood, and the strength to wield a one-handed weapon in each arm.", "타락한 피를 가진 파괴자들은 강력한 투사입니다. 두 손 모두에 한손무기를  장비할 수 있습니다.", "init.lua load_tips")
+t("Reavers are powerful fighters with corrupted blood, and the strength to wield a one-handed weapon in each arm.", "타락한 피를 가진 약탈자들은 강력한 투사입니다. 두 손 모두에 한손무기를  장비할 수 있습니다.", "init.lua load_tips")
 t("Corruptors feed off the essence of others, and can use their own corrupted blood to launch deadly magical attacks.", "타락자들은 다른 생명의 정수를 포식합니다. 타락한 피를 이용하여 치명적인 마법 공격을 할 수 있습니다.", "init.lua load_tips")
 t("Clever rogues can lay traps to damage or debilitate their foes without having to go near them.", "영리한 도적은 덫을 놓아 적과 근접하지 않은 상태에서 피해를 주고 무력화시킬 수 있습니다.", "init.lua load_tips")
 t("Rogues can move silently and stealthily, letting them approach foes unaware or avoid them entirely.", "도적들은 조용하고 은밀하게 움직입니다. 적이 눈치채기 전에 접근하거나, 완전히 적을 무시하고 지나갈 수 있습니다.", "init.lua load_tips")
 t("A movement infusion can let you quickly approach a ranged opponent, or quickly escape a melee one.", "이동 주입물은 원거리 적에 빠르게 접근하거나, 근접 적에게서 빠르게 도망치게 해줍니다.", "init.lua load_tips")
 t("Invisibility lets you escape notice, giving you the freedom to move or recover your resources, but reduces your damage.", "투명화는 적들의 주의에서 도망치게 해주고, 자유롭게 움직일 수 있게 하며 자원을 회복할 시간을 벌어줍니다. 하지만 가하는 피해가 감소합니다.", "init.lua load_tips")
-t("Poison is the domain of assassins and master rogues, and its cunning use can cripple or kill enemies over a long fight.", "독은 암살자들과 숙련된 불한당들의 영역입니다. 적을 불구로 만들거나 오랜 시간에 걸쳐 적을 죽일 수 있습니다.", "init.lua load_tips")
+t("Poison is the domain of assassins and master rogues, and its cunning use can cripple or kill enemies over a long fight.", "독은 암살자들과 숙련된 도적들의 영역입니다. 적을 불구로 만들거나 오랜 시간에 걸쳐 적을 죽일 수 있습니다.", "init.lua load_tips")
 t("Summoners can call upon a variety of natural creatures to protect and support them, reducing the risk to their own flesh considerably.", "소환술사들은 다양한 자연의 생명체들을 불러일으켜 자신을 보호하거나 돕게 합니다. 이런 소환물들은 소환술사가 다칠 위험을 줄여줍니다.", "init.lua load_tips")
 t("The highest sorcerers are known as archmages, and the masters amongst them are said to have the power to change the world. They are feared immensely.", "고위 주술사들은 마도사라고 불리웁니다. 숙련된 마도사들은 세상을 바꿀 힘을 가지고 있습니다. 그러기에 그들은 공포의 대상입니다.", "init.lua load_tips")
 t("Bulwarks are defensive fighters that can take hits more readily than other warriors whilst preparing for the most effective counter attacks.", "기사들은 방어적인 투사들로서 더 많은 피해를 안정적으로 받을 수 있고, 피해를 입는 동안 치명적인 반격을 준비합니다.", "init.lua load_tips")
