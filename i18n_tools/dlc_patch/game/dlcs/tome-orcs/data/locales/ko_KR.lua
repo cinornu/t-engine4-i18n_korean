@@ -343,6 +343,7 @@ section "game/dlcs/tome-orcs/data/general/npcs/sunwall-mage.lua"
 
 t("elf", "엘프", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("anorithil", "아노리실", "entity name")
 t("human", "인간", "entity subtype")
 
 
@@ -351,6 +352,7 @@ section "game/dlcs/tome-orcs/data/general/npcs/sunwall-warrior.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("sun paladin", "태양의 기사", "entity name")
 t("elf", "엘프", "entity subtype")
 
 
@@ -424,6 +426,7 @@ section "game/dlcs/tome-orcs/data/general/objects/lore.lua"
 section "game/dlcs/tome-orcs/data/general/objects/quest-artifacts.lua"
 
 t("power", "힘", "entity subtype")
+t("Automated Portable Extractor", "휴대용 자동 추출기", "entity name")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 
@@ -648,6 +651,7 @@ section "game/dlcs/tome-orcs/data/lore/yeti.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/maps/zones/worldmap.lua"
 
+t("Far East", "동쪽 대륙", "_t")
 
 
 ------------------------------------------------
@@ -2051,7 +2055,7 @@ t([[Steam generator that permanently creates %0.1f steam per turn.
 t("steam %d", "증기 %d", "tformat")
 t("Implant: Medical Injector", "이식: 의료용 주사기", "talent name")
 t("#LIGHT_BLUE#Medical injector selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 해당 주사기가 먼저 사용됩니다.", "saySimple")
-t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 떄, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
+t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
 t("Medical injector allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "의료용 주사기는 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있게 해줍니다.", "tformat")
 t("efficiency %d%% / cooldown %d%%", "효율 %d%% / 대기 %d%%", "tformat")
 
@@ -2222,7 +2226,7 @@ t("#LIGHT_BLUE#Medical Urgency Vest selected to be used first by salves.", "#LIG
 t("The medical urgency vest allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "응급 의료지원 조끼는 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있게 해줍니다.", "tformat")
 t("Life Support", "생명 유지 장치", "talent name")
 t("#LIGHT_BLUE#Life Support Suit selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 생명 유지복이 먼저 사용됩니다.", "saySimple")
-t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 떄, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
+t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
 t("The life support suit allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "생명 유지복은 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있게 해줍니다.", "tformat")
 t("Create Tinker", "발명", "talent name")
 t("Allows you to create tinkers.", "발명품을 제작합니다.", "_t")
@@ -2234,7 +2238,7 @@ t("An Automaton wielding a chosen weapon.", "선택한 무기를 들고있는 �
 t("#F53CBE#%s runs out of power.", "#F53CBE#%s 동력이 모두 소진되었다.", "logSeen", nil, {"는"})
 t("Summon", "소환", "_t")
 t([[Deploy a Weapon Automaton based on a selected one handed melee item.  The Automaton will wield the selected weapon and drop it when it times out or is destroyed.  Aside from the weapon selected, the Automaton will scale off Tinker talent levels, your own stats, and other things that will be described in this tooltip at some point.  
-		]], [[선택한 한손 무기를 든 로봇을 배치합니다.  로봇은 선택된 무기를 들어 전투를 보조하고, 동력이 다 되거나, 파괴될 떄 해당 무기를 땅에 내려놓습니다. 로봇은 발명 기술 레벨, 시전자의 능력치와 이 설명란에 쓰여있는 기타 요소들에 비례하여 강해집니다.  
+		]], [[선택한 한손 무기를 든 로봇을 배치합니다.  로봇은 선택된 무기를 들어 전투를 보조하고, 동력이 다 되거나, 파괴될 때 해당 무기를 땅에 내려놓습니다. 로봇은 발명 기술 레벨, 시전자의 능력치와 이 설명란에 쓰여있는 기타 요소들에 비례하여 강해집니다.  
 		]], "tformat")
 t("Hand Cannon", "핸드 캐논", "talent name")
 t("You have no ammo!", "탄환이 없다!", "logPlayer")
@@ -2537,13 +2541,63 @@ t("Increases the capacity of your steam tank by %d.", "최대 증기 보유량�
 section "game/dlcs/tome-orcs/data/talents/steam/psytech-gunnery.lua"
 
 t("Psyshot", "싸이샷", "talent name")
+t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamguns.
+		When your bullets hit a target you instinctively reach out to the impact and use the kinetic force to project a mindstar attack doing %d%% damage (guaranteed hit), if you wield one in the offhand.
+		This projection requires a pure mindstar; it will not work if extended into a psiblade.
+
+		Also activable for a shot that deals %d%% weapon damage as mind damage.]], [[총기를 사용할 때, 무기 피해가 %d%%, 물리력이 30 증가합니다.
+		마석 장착 중, 탄환이 적에게 명중 시, 무의식적으로 손을 치켜들어 염동력을 투사해 빗나가지 않는 %d%% 마석 공격을 가합니다.
+		염동력 투사는 기본 상태 그대로의 마석을 요구합니다. 염동 칼날이 활성화 되어있는 경우, 이 효과는 일어나지 않습니다.
+
+		이 기술을 활성화 할 경우 %d%% 무기 피해를 정신 속성으로 가합니다.]], "tformat")
+t("Boiling Shot", "들끓는 탄환", "talent name")
+t([[Using psionic energies you overheat your shot, making it deal %d%% damage.
+		If the shot hits a wet foe it will vaporize, removing the wet effect and dealing %0.2f fire damage in a radius 4.]], [[초능력 에너지로 탄환을 과열하여 %d%% 피해를 가합니다.
+		젖음 상태의 적을 대상으로 사용할 경우, 뜨거운 증기를 분출하며 젖음 효과를 제거하고 반경 4 칸에 %0.2f 화염 피해를 줍니다.]], "tformat")
+t("Blunt Shot", "둔탁한 탄환", "talent name")
+t("Fire a relatively low-powered shot at a foe doing %d%% weapon damage, if it hits a cone-shaped shockwave of radius 4 emanates from the impact, stunning it and all creatures caught inside for %d turns.", "비교적 약한 위력의 탄환을 발사 해, %d%% 무기 피해를 가합니다. 공격이 명중하면 반경 4 칸의 원뿔 범위 충격파가 일어나, 대상과 해당 범위내의 모든 개체를 %d 턴 동안 기절시킵니다.", "tformat")
+t("Vacuum Shot", "진공 탄환", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
+t([[Attach a psionic steam device to a shot doing %d%% weapon damage.
+		When it hits a foe the device activates, violently sucking all the air nearby, pulling in all creatures in radius %d.]], [[초능력 증기 장치를 탄환에 설치하고, 발사하여 %d%% 무기 피해를 줍니다.
+		공격이 명중하면 장치가 기동해, 주변의 모든 공기를 빨아들여, 반경 %d 칸 내의 모든 개체를 끌어당깁니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/sawmaiming.lua"
 
+t([[Hits the target on the arms with one rotating saw doing %d%% damage and trying to maim it for %d turns.
+		Maimed foes deal %d%% less damage.
+		The chance improves with your Physical power.
+		#{italic}#Cutting your foes has never been so simple!#{normal}#]], [[회전하는 증기톱으로 적의 두 팔을 베어내어 %d%% 피해를 가하고, 확률적으로 %d 턴 동안 사지 손상을 일으킵니다.
+		사지 손상이 일어난 적은 %d%% 적은 피해를 입힙니다.
+		사지 손상 확률은 물리력에 비례하여 증가합니다.
+		#{italic}#너희들을 썰어내는 게 이렇게 쉬운적은 없었다!#{normal}#]], "tformat")
+t("Bloodstream", "혈류", "talent name")
+t([[You "gently" slam your saws into the wounds of a creature, dealing %d%% weapon damage and deepening the wounds.
+		All bleeding wounds durations are increased by %d turns and the damage by %d%% (this may be done only once per bleeding effect).
+		When this happens a gush of blood is projected in a narrow cone of radius 4, dealing %0.2f physical damage to all creatures.
+		The power and damage improves with your Steampower.
+		#{italic}#The marvels of technology, now at the service of true butchery!#{normal}#]], [[대상의 상처를 증기톱으로 "부드럽게" 강타해, %d%% 무기 피해를 주고 상처를 악화시킵니다.
+		모든 출혈 효과의 지속시간이 %d 턴 연장되고, 피해량이 %d%% 증가합니다. 이 효과는 하나의 출혈 효과에 대해 1 번만 발생합니다.
+		기술이 명중하면, 피가 반경 4 칸의 원뿔 범위에 분출되어, 범위 내의 모든 개체에게 %0.2f 물리 피해를 가합니다
+		효과와 피해량은 증기력에 비례하여 증가합니다.
+		#{italic}#경이로운 기술이, 이제는 진정한 도살을 위해 존재한다!#{normal}#]], "tformat")
+t("Spinal Break", "척추 파괴", "talent name")
+t([[You try to sever the spine of your foe, reducing its global speed by %d%% for 4 turns and dealing %d%% weapon damage.
+		The power of the blow also removes up to %d physical effects.
+		If your talent level is at least 3 %d physical or magical sustains are also removed.
+		#{italic}#Break them, grind them, mow them down!#{normal}#]], [[적의 척추를 파괴하여, 4 턴 동안 전체 속도를 %d%% 감소시키고, %d%% 무기 피해를 가합니다.
+		이 강력한 일격으로 인해 최대 %d 개의 물리 효과가 제거됩니다.
+		기술레벨이 3 일때, %d 개의 물리적, 마법적 유지기 역시 제거됩니다.
+		#{italic}#놈들을 파괴하고, 잡초처럼 베어버리고, 갈아버리자!#{normal}#]], "tformat")
+t("Goresplosion", "뼈와 살의 폭발", "talent name")
 t("You require a steamsaw for this talent.", "이 기술을 사용하기 위해서는 증기톱이 필요합니다.", "logPlayer")
+t([[When you kill a foe you place small explosives with shrapnels inside its body, making it explode in radius %d.
+		Any foes hit will bleed for %0.2f damage per turn for 6 turns. The shrapnels also damage the vocal cords (or related organ), silencing them for %d turns.
+		#{italic}#Use the finest of wartech now: shrapnels. For blood and mayhem!#{normal}#]], [[적을 살해했을 때, 적의 신체가 반경 %d 칸의 피와 살의 파편 폭발을 일으킵니다.
+		폭발에 휘말린 적은 6 턴 동안 %0.2f 피해를 매 턴 받습니다. 파편은 성대나 그에 준하는 기관에 피해를 가해, %d 턴 동안 침묵시킵니다.
+		#{italic}#최첨단 전쟁 기술인 파편들을 사용한다. 피와 아수라장을 위하여!#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -2624,47 +2678,209 @@ t("#{italic}#* ...perhaps more to discover...#{normal}#", "#{italic}#* ...이 �
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/thoughts-of-iron.lua"
 
-t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 떄, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
+t("Molten Iron Blood", "철혈", "talent name")
+t([[Using psionic energies you temporarily alter your blood, turning it into molten iron.
+		When affected by molten blood all creatures that hit you in melee take %0.2f fire damage, all your resistances are increased by %d%% and all new detrimental effects on you have their duration reduced by %d%%.
+		Damage increases with your Steampower.
+		]], [[초능력으로 짧은 시간 동안 혈액을 뜨거운 쇳물로 바꿉니다.
+		지속 시간 동안, 시전자에게 근접 공격을 가한 적은 %0.2f 화염 피해를 입습니다. 시전자의 모든 저항은 %d%% 증가하고, 새로 받는 부정적인 효과들의 지속시간이 %d%% 감소합니다.
+		피해량은 증기력에 비례하여 증가합니다.
+		]], "tformat")
+t("Mind Drones", "정신 드론", "talent name")
+t([[Melding psionics with steamtech you create 5 mind drones at your sides that fly towards your target.
+		If they encounter a creature they will latch on it and bore into its skull for 6 turns, disrupting its thoughts.
+		Disrupted creatures have %d%% chances to fail to use talents and suffer a -%d%% reduction to fear and sleep immunity.]], [[초능력과 증기 공학을 이용해 5 개의 정신 드론을 단조해냅니다. 드론은 시전자의 곁에서 대상을 향해 날아갑니다.
+		정신 드론이 한 개체와 접족하면, 드론은 적을 붙잡고, 두개골에 구멍을 파고 들어가, 6 턴 동안 정상적인 사고를 방해합니다.
+		사고를 방해받는 개체는 %d%% 확률로 기술 사용에 실패하고, 공포와 수면 저항이 %d%% 감소합니다.]], "tformat")
+t("Psionic Mirror", "염동 거울", "talent name")
+t([[You cleanse your mind of %d mental debuffs.
+		Cleansed effects will be randomly sent to closeby foes (range 5, subject to a mental save).]], [[정신을 맑게하여 %d 개의 부정적 정신 효과를 제거합니다.
+		제거된 효과는 근처의 무작위한 적들에게 전파됩니다. (범위 5 칸, 정신 내성 판정이 적용됩니다)]], "tformat")
+t("Mind Injection", "정신 주입", "talent name")
+t("#LIGHT_BLUE#Mind Injection selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 정신 주입이 먼저 사용됩니다.", "saySimple")
+t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
+t("By using a direct psionic link to your body you can use even more therapeutics. %d%% efficiency and %d%% cooldown mod.", "신체의 정신적인 연결을 통해, 의료용 주사기를 하나 더 사용할 수 있습니다. 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있습니다.", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/turrets.lua"
 
+t([[You are able to deploy turrets, stationary constructs that defend you in combat. Turrets last 10 turns, have a 20 turn cooldown, and deploying a turret places the others on a 5 turn cooldown.
+You learn new turrets as you invest in this talent.
+
+At raw talent level 1 you can use Steamgun turrets, which fire at a random target nearby for %d%% steamgun damage. These shots bypass allies.
+At raw talent level 3 you can use Flame turrets, which deal fire damage to enemies in a radius 3 cone. Flame turrets gain %d bonus armor and 30%% resistance to all damage.
+At raw talent level 4 you can use Medic turrets, which emit a healing mist that restores %d life to allies and reduces the duration of newly applied detrimental effects by %d%%.
+This talent also increases the Dexterity, Constitution and Cunning of all Turrets by %d.
+
+All turrets gain bonus armor equal to 1/2 your level, are immune to all detrimental effects, and inherit your increased damage, resistance penetration, Steampower, Physical Power, and Accuracy.
+The stat bonus as well as the damage and healing dealt by Flame and Medic Turrets will increase with your Steampower.]], [[전투에서 시전자를 도울, 고정된 구조물인 포탑을 설치할 수 있게됩니다. 포탑은 10 턴 동안 유지되며, 20 턴의 재사용 대기시간을 갖고있고, 포탑 설치 후 다른 포탑을 설치하는 것은 5 턴의 재사용 대기시간이 적용됩니다.
+이 기술에 기술 점수를 투자할 시, 새로운 포탑의 도면을 배우게됩니다.
+
+이 기술에 기술 점수를 1 점 투자했을 때, 근처의 무작위한 적에게 %d%% 총기 피해를 가하는 총기 포탑을 배웁니다. 총기 포탑의 사격은 아군에게 영향을 주지 않습니다.
+이 기술에 기술 점수를 3 점 투자했을 때, 반경 3 칸의 원뿔 범위에 화염 피해를 주는 화염 포탑을 설치할 수 있게됩니다. 화염 포탑은  추가 방어력 %d 과 모든 피해 저항 30%% 를 갖습니다.
+이 기술에 기술 점수를 4 점 투자했을 때, 아군에게 회복 안개를 내뿜어 생명력을 %d 회복시키고, 새로 적용된 부정적인 효과의 지속시간을 %d%% 줄여주는 의료 포탑을 설치할 수 있게됩니다.
+이 기술은 모든 포탑의 민첩, 체격, 교활을 %d 늘려줍니다.
+
+모든 포탑은 시전자의 레벨에 절반에 해당하는 방어력을 추가로 갖습니다. 또한 포탑은 모든 부정적 효과에 면역이며, 시전자의 피해 증가량, 저항 관통, 증기력, 물리력, 정확도를 적용받습니다.
+능력치 증가량과 화염 포탑의 피해량, 의료 포탑의 회복량은 시전자의 증기력에 비례하여 증가합니다.]], "tformat")
+t("Steamgun Turret", "총기 포탑", "talent name")
+t("steamgun turret", "총기 포탑", "_t")
+t("An automated turret equipped with a steamgun.", "총기가 장착된 자동 포탑.", "_t")
+t("Deploy a turret mounted with a steamgun that fires at foes within range for %d%% steamgun damage. The turret gains +%d Dexterity, Constitution and Cunning and %0.2f Steamgun Mastery.", "범위 내의 적에게 %d%% 총기 피해를 가하는 포탑을 설치합니다. 포탑은 +%d 민첩, 체격 그리고 교활을 가지며, %0.2f 레벨의 총기 숙련을 가집니다.", "tformat")
+t("Rocket Launcher", "로켓 발사기", "talent name")
+t("Fire a missile dealing steamgun damage as fire in radius 2.", "로켓을 발사해 반경 2 칸에 총기 피해를 화염 속성으로 가합니다.", "tformat")
+t("Dual Steamgun", "이중 총열", "talent name")
+t("Gain a second steamgun that deals %d%% damage.", "%d%% 피해를 가하는 2 번째 총열을 장착합니다.", "tformat")
+t("Flame Turret", "화염 포탑", "talent name")
+t("flame turret", "화염 포탑", "_t")
+t("An automated turret equiped with a flamethrower.", "화염 방사기가 장착된 자동 포탑.", "_t")
+t("Deploy a turret mounted with a flamethrower, scorching nearby targets. The turret gains +%d Dexterity, Constitution and Cunning.", "근처의 적을 불사르는, 화염방사기가 장착된 자동 포탑을 설치합니다. 포탑은 +%d 민첩, 체격 그리고 교활을 가집니다.", "tformat")
 t("Flamethrower", "화염 방사기", "talent name")
+t([[Throw a cone of flame with radius %d, dealing %0.2f fire damage.
+		The damage will increase with your Steampower.]], [[반경 %d 칸의 원뿔 범위 내에, %0.2f 화염 피해를 가합니다.
+		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
+t("Flame Vortex", "화염 소용돌이", "talent name")
+t([[Project a radius %d vortex of superheated air, dealing %0.2f fire damage and pulling targets towards you.
+		The damage will increase with your Steampower.]], [[반경 %d 칸의, 공기를 뜨겁게 데우는 소용돌이를 만들어 내, %0.2f 화염 피해를 주고, 적들을 시전자에게로 끌고옵니다.
+		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
+t("Medic Turret", "의료 포탑", "talent name")
+t("medic turret", "의료 포탑", "_t")
+t("An automated turret emitting a healing mist.", "회복 안개를 내뿜는 자동 포탑.", "_t")
+t("Turret", "포탑", "_t")
+t("Deploy a turret that emits a healing mist in radius 3. The turret gains +%d Dexterity, Constitution and Cunning.", "반경 3 칸에 회복 안개를 내뿜는 포탑을 설치합니다. 포탑은 +%d 민첩, 체격 그리고 교활을 가집니다.", "tformat")
+t("Overclock", "오버클록", "talent name")
+t([[Send a surge of power into all turrets in sight, extending their duration by %d turns and granting them a charged shield absorbing %d damage for 10 turns. While the shield holds, each turn the turret will project a bolt of lightning dealing %0.2f lightning damage to a random enemy in radius 6, with a 25%% chance to daze.
+		The effects will increase with your Steampower.]], [[시야 내의 모든 포탑에 힘의 쇄도를 불어넣습니다. 모든 포탑의 지속 시간이 %d 턴 연장되고, 10 턴 동안 %d 피해를 흡수하는 전하 보호막이 포탑에 생성됩니다. 보호막이 유지되는 동안, 매 턴 포탑이 반경 6 칸 내의 무작위한 적에게 %0.2f 전기 피해를 가하고, 25%% 확률로 혼절을 일으키는 번개 화살을 날립니다.
+		이 효과는 증기력에 비례하여 증가합니다.]], "tformat")
+t("Upgrade", "업그레이드", "talent name")
+t([[Upgrade the target turret, granting it %d%% increased maximum life and enhanced abilities based on type:
+		Steamgun: Gains a second steamgun dealing %d%% damage, and every 3 turns will fire a rocket dealing %d%% steamgun damage as fire in radius 2.
+		Flame: Increases damage by %d%%, range by %d, and every 3 turns will project a vortex of superheated air that drags targets within range %d towards the turret as well as dealing normal flamethrower damage.
+		Medic: Increases healing on affected targets by %d%%, and has a %d%% chance to cleanse a negative effect each turn.]], [[지정한 포탑을 업그레이드 하여, 최대 내구도를 %d%% 늘리고, 포탑의 종류에 따라 강화된 기술을 부여합니다 :
+		총기 : %d%% 피해를 가하는 2 번째 총열을 장착합니다. 또한 매 3 턴 마다 로켓을 발사해 반경 2 칸에 %d%% 총기 피해를 가합니다.
+		화염 : 피해량이 %d%%, 사거리가 %d 증가합니다. 매 3 턴 마다 과열된 공기 소용돌이를 만들어 내 반경 %d 칸 내의 적들을 포탑으로 끌고오고 일반 화염 방사기 피해를 입힙니다.
+		의료 : 회복량을 %d%% 늘리고, 매 턴 %d%% 확률로 부정적인 효과를 제거합니다.]], "tformat")
+t("Hunker Down", "전선 지원", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
+t("guardian turret", "수호 포탑", "_t")
+t("An advanced turret equipped with dual steamguns.", "이중 총열이 장착된 첨단 포탑.", "_t")
+t([[Deploy a defensive emplacement around you, summoning 2 guardian turrets in adjacent tiles for %d turns. Guardian turrets redirect %d%% of all damage taken by other adjacent allies (other than fellow guardian turrets) to themselves, and each is armed with a powerful turret capable of firing piercing bullets.
+			Guardian Turrets gain %0.2f ranks in Steamgun Mastery based on your Hunker Down talent level.]], [[주변에 전선을 만들어, 인근에 %d 턴 동안 유지되는 수호 포탑을 2 개 생성합니다. 수호 포탑은 인접한 아군이 받는 피해의 %d%% 를 대신 받습니다. (다른 수호 포탑이 받는 피해는 대신 받지 않습니다) 포탑은 강력한 관통탄으로 무장되어 있습니다.
+			수호 포탑은 %0.2f 레벨의 총기 숙련을 갖고있고, 이는 전선 지원 기술 레벨에 비례하여 증가합니다.]], "tformat")
 t("Gauss Cannon", "가우스 캐논", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
+t("Fire your twin-linked gauss cannons, dealing 100%% steamgun damage as lightning in a piercing beam that bypasses all armor. This does not harm friendly targets.", "2 연장 가우스 캐넌을 발사해, 100%% 총기 피해를 전기 속성으로 줍니다. 이 공격은 방어력을 무시하며, 발사 궤도 내의 모든 적을 관통합니다. 이 공격은 아군에게 영향을 주지 않습니다.", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/const.lua"
 
+t("Subcutaneous Metallisation", "피하 도금", "talent name")
+t([[When your life dips below 50%% of your total life an automated process turns some of your lower skin layers (or other internal organs) into a thick metallic layer for 6 turns.
+		While the effect lasts all damage done to you is reduced by a flat amount equal to 100%% of your Constitution.
+		This effect can only trigger once every %d turns.]], [[생명력이 최대 생명력의 50%% 미만으로 떨어졌을 때, 6 턴 동안 자동화 프로세서가 피하 조직과 기타 내부 장기에 철판은 덧댑니다.
+		지속 시간 동안, 받는 피해량이 현재 체격 수치만큼 감소합니다.
+		이 효과는 매 %d 턴 마다 1 번씩 일어납니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/cun.lua"
 
+t("Skeleton and Ghoul unlocked and not already undead.", "스켈레톤과 구울이 해금 되어 있고, 아직 언데드가 아닐 것.", "_t")
+t("Rak'Shor's Cunning", "락쇼르의 비술", "_t")
+t([[Set up some cunning contingency plans in case of death.
+		If you die you will have the option to raise back from the dead once, but at the cost of becoming a ghoul or a skeleton, at random.
+		When rising this way you will lose access to your racial tree, if any, get refunded for half the points you spent in it and gain access to the ghoul or skeleton racial tree.
+		As undead are not able to use infusions you will lose any that you may have upon turning.]], [[만에 하나, 죽게될 때를 위한 계획을 세워둡니다.
+		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게됩니다. 하지만 캐릭터는 구울이나 스켈레톤 중 무작위한 종족으로 소생하게됩니다.
+		이 특수 기술로 소생할 시, 모든 종족 기술을 잃어버리지만, 투자한 기술 점수의 절반을 환불 받고 구울과 스켈레톤의 종족 기술을 배울 수 있게됩니다.
+		언데드는 주입물을 사용하지 못하기 때문에, 세겨져있던 주입물들이 사라지게 됩니다.]], "tformat")
+t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때 마다, 증기 공학 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 1 턴 단축시킵니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/dex.lua"
 
+t("Automated Reflex System", "자동 반사작용 시스템", "talent name")
+t("Have gained the #{italic}#Matrix Style#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "지금 이 캐릭터나, 과거에 어떤 캐릭터로든, 현재 난이도와 영구적 죽음 설정으로 #{italic}#매트릭스처럼!#{normal}# 도전과제를 달성했을 것.", "_t")
+t([[A small automatic detection system is always looking for incoming projectiles, when one is about to hit you it injects drugs into your system to boost your reactivity, granting you a free turn.
+		This effect can not happen more than once every 5 turns.]], [[작은 자동 탐지 시스템이 항상 시전자에게 다가오는 투사체를 감지합니다. 투사체가 명중하는 순간, 약품을 신경계에 주입하여 반사 신경을 극대화해, 1 턴을 획득합니다.
+		이 효과는 매 5 턴마다 한 번씩 일어납니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/mag.lua"
 
+t("Arcane Amplification Drone Effect", "비전 증폭 드론 효과", "talent name")
+t("Spell damage done to it ripples in radius 4 doing 160% arcane damage.", "드론에게 가해진 주문 피해의 160% 비전 피해를 입히는 반경 4 칸의 폭발을 일으킵니다.", "_t")
+t("Arcane Amplification Drone", "비전 증폭 드론", "talent name")
+t("Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "지금 이 캐릭터나, 과거에 어떤 캐릭터로든, 현재 난이도와 영구적 죽음 설정으로 #{italic}#마법폭발의 이야기#{normal}# 도전과제를 달성했을 것.", "_t")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
+t("arcane amplification drone", "비전 증폭 드론", "_t")
+t("Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "드론에게 가해진 주문 피해가 반경 4 칸 범위에 160% 비전 피해를 가하게됩니다.", "_t")
+t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
+		When you cast a spell that damages the drone it will ripple the damage as 160%% arcane damage of the initial hit in radius 4.]], [[3 턴 동안 유지되는 비전 증폭 드론을 대상 위치에 생성합니다.
+		드론에 주문 피해를 가할 시, 드론에게 가해진 주문 피해의 160% 비전 피해를 입히는 반경 4 칸의 폭발을 일으킵니다.]], "tformat")
+t("Unlocked the Technomancer evolution", "마도공학자 직업 진화", "_t")
+t("Occult Technomancy", "비술 마도공학", "_t")
+t("These talents focus on arcane and temporal damage, using a super-spinned steamsaw to rip holes in reality.", "이 기술들은 비전과 시간 속성에 집중합니다. 초고속으로 회전하는 증기톱을 이용해 현실 구조를 찢어 구멍을 냅니다.", "_t")
+t("Galvanic Technomancy", "전열 마도공학", "_t")
+t("These talents focus on fire and lightning damage, strategically placing galvanic rods to create fields of death and stuns.", "이 기술들은 화염과 전기 속성에 집중합니다, 전열 막대를 전략적으로 배치해 죽음과 기절의 전열 지대를 생성합니다.", "_t")
+t("Terrene Technomancy", "극지 마도공학", "_t")
+t("These talents focus on cold and physical damage, summoning micro spiderbots to harass and pin their foes or protect themselves.", "이 기술들은 물리와 냉기 피해에 집중합니다. 작은 거미봇을 소환해 적을 괴롭히고 속박하거나, 시전자를 피해에서 보호합니다.", "_t")
+t("Choose your free Technomancy unlock?", "어떤 마도공학을 개방 하시겠습니까?", "_t")
+t("Technomancer", "마도공학자", "_t")
+t([[Available talents:
+]], [[가능한 기술들:
+]], "_t")
+t([[Technomancers are Archmages that dabble in steam technology to enhance their already formidable arsenal of spells.
+		Once this class evolution is taken, you gain the following:
+		- Arcane Dynamo tinker schematic
+		- Steamtech/Physics category (unlocked)
+		- Steamtech/Chemistry category (locked)
+		- An Automated Portable Extractor (A.P.E.)
+		- One point in the Physics talent Smith and two in Mechanical and Electricity
+		- Spell/Galvanic Technomancy category (locked) - deals with fire and lightning
+		- Spell/Terrene Technomancy category (locked) - deals with earth and water
+		- Spell/Occult Technomancy category (locked) - deals with time and arcane
+		- The ability to unlock one of the three Technomancy categories for free
+
+		Once put in a robe, the Arcane Dynamo will regenerate Steam each time mana is spent and increase Spellpower based on current steam level.
+
+		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[마도 공학은 증기 공학에 관심을 갖는 대마법사들로, 이미 가공할 위력의 주문들을 더욱 더 강화합니다.
+		이 직업 진화가 진행되면, 시전자들은 다음과 같은 기술들을 얻습니다 :
+		- 비전 발전기 발명품 도안
+		- 증기 공학/물리학 계열 (열림)
+		- 증기 공학/화학 계열 (잠김)
+		- 휴대용 자동 추출기
+		- 야금학 기술에 1 점, 기계학과 전기학 기술에 2 점을 받습니다.
+		- 주문/전열의 마도 공학 계열 (잠김) - 화염과 전기로 적을 공격합니다.
+		- 주문/극지의 마도 공학 계열 (잠김) - 물과 대지로 적을 공격합니다.
+		- 주문/비술의 마도 공학 계열 (잠김) - 시간과 순수한 마력으로 적을 공격합니다.
+		- 세 가지 마도 공학 계열 중 하나를 무료로 해금합니다.
+
+		비전 발전기가 로브에 장착되면, 마나가 소모될 때 마다 증기를 생성하고, 현재 증기 수치에 비례하여 주문력이 상승합니다.
+
+		#{bold}#직업 진화를 선택하면, 비전 발전기를 제작하고, 로브에 장착하여야 모든 마도 공학 기술을 사용할 수 있게됩니다.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/str.lua"
 
+t("Pain Enhancement System", "고통 향상 시스템", "talent name")
+t("Earned the achievement 'Size Matters' on this character.", "이 캐릭터로 '크기는 상관있다' 도전 과제를 달성했을 것.", "_t")
+t("When you deal a critical hit your embedded system activates, increasing all your primary stats except Strength by 50%% of your Strength for 6 turns.", "치명타를 가하면, 내장된 시스템이 가동해, 6 턴 동안 힘을 제외한 모든 능력치에 힘 수치의 절반을 더합니다.", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/wil.lua"
 
+t("Range Amplification Device", "사거리 증폭 장치", "talent name")
+t("Have a light radius of 10 or more", "광원 반경이 10 이상일 것", "_t")
+t([[Activate a special focusing device that extends all your ranged spells and psionic powers range by 3 (only works on those with range 2 or more and up to 10 max).
+		The use of this device is very strenuous, increasing fatigue by 20%% while active.]], [[특별한 조준 장치를 이용해 원거리 주문이나 초능력의 사거리를 3 칸 늘립니다. (이 장치는 최소, 사거리가 2 이상인 기술에만 효과가 있고, 최대 사거리 제한은 10 칸 입니다)
+		이 장치를 사용하는 것은 매우 지치기 때문에, 활성화 시 피로도가 20%% 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -2736,6 +2952,7 @@ t("-Confused", "-혼란", "_t")
 t("sun", "태양", "effect subtype")
 t("other", "다른", "effect subtype")
 t("Capacitor Discharge", "축전기 방전", "_t")
+t("Upgrade", "업그레이드", "_t")
 t("tactical", "전술", "effect subtype")
 t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d 피해분담)#LAST#", "tformat")
 t("miscellaneous", "기타", "effect subtype")
@@ -2769,8 +2986,11 @@ t("disease", "질병", "effect subtype")
 t("Tech Overload", "기술 폭주", "_t")
 t("Continuous Butchery", "끝나지않는 도살", "_t")
 t("Explosive Saw", "폭발하는 톱날", "_t")
+t("Subcutaneous Metallisation", "피하 도금", "_t")
+t("Pain Enhancement System", "고통 향상 시스템", "_t")
 t("power", "힘", "effect subtype")
 t("Net Projector", "그물 발사기", "_t")
+t("Molten Iron Blood", "철혈", "_t")
 t("psionic", "초능력", "effect subtype")
 t("Awesome Toss", "화려한 던지기", "_t")
 t("resistance", "저항", "effect subtype")
@@ -2801,6 +3021,7 @@ t("#Target# is free from the acid.", "#Target2# 고통의 부식에서 벗어났
 t("Lightning Web", "전기망", "_t")
 t("Incendiary Grenade", "발화성 수류탄", "_t")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했습니다!#LAST#", "logSeen", nil, {"가"})
+t("Overclock", "오버클록", "_t")
 t("lightning", "전기", "effect subtype")
 t("shield", "보호막", "effect subtype")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 분해됨)#LAST#", "tformat")
@@ -2879,7 +3100,6 @@ section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua"
 
 t("Rocket Boots", "로켓 장화", "_t")
 t("Hand Cannon", "핸드 캐논", "_t")
-t("Weapon Automaton: One Handed", "무기 로봇 : 한손 무기", "_t")
 t("Fatal Attractor", "치명적 인력 발생기", "_t")
 t("Iron Grip", "무쇠 손아귀", "_t")
 t("Spring Grapple", "용수철 바이스", "_t")

@@ -1,6 +1,6 @@
 locale "ko_KR"
 -- COPY
-forceFontPackage("korean")
+forceFontPackage("chinese")
 local function findJosaType(str)
 	local length = str:len()
 	

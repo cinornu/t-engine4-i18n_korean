@@ -118,7 +118,20 @@ section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 
 t("%s is cured!", "%s 정화되었습니다!", "logSeen", nil, {"이"})
 t("Silence", "침묵", "talent name")
+t("firestorm", "화염 폭풍", "_t")
+t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
+		You closely control the firestorm, preventing it from harming your party members.
+		The damage and duration will increase with your Spellpower.]], [[맹렬한 화염 폭풍을 생성하여, 반경 3 턴 이내의 모든 대상에게 매 턴 %0.2f 화염 피해를 %d 턴 동안 가합니다
+		화염 폭풍은 주의깊게 통제되기 때문에 아군에게 피해를 가하지 않습니다.
+		피해량과 지속시간은 주문력에 비례하여 증가합니다.]], "tformat")
 t("You require a weapon and a shield to use this talent.", "방패와 근접무기 없이 이 기술을 사용할 수 없다.", "logPlayer")
+t("Frost Grab", "서리 손아귀", "talent name")
+t([[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
+		The ice will also deal %0.2f cold damage.
+		The damage and chance to slow will increase with your Spellpower.]], [[대상을 붙잡아 시전자 옆으로 끌고옵니다. 대상은 서리에 뒤덮혀 이동속도가 %d 턴 동안 50%% 감소합니다.
+		얼음은 %0.2f 냉기피해를 가합니다.
+		피해량과 감속 확률은 주문력에 비례하여 증가합니다.]], "tformat")
+t("raging volcano", "분출하는 화산", "_t")
 
 
 ------------------------------------------------
@@ -244,6 +257,7 @@ t("#Target# is no longer invisible.", "#Target2# 다시 불투명해졌다.", "_
 t("arcane", "비전", "effect subtype")
 t("blight", "황폐", "effect subtype")
 t("#Target# is no longer transformed.", "#Target#의 변신이 끝났다.", "_t")
+t("demon", "악마", "effect subtype")
 
 
 ------------------------------------------------
