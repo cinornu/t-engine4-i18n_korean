@@ -1105,45 +1105,16 @@ t("#SLATE#* You have to destroy the controlling crystal before leaving or the de
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/black-magic.lua"
--- 8 entries
-t("Bleak Outcome", "Bleak Outcome", "talent name")
-t([[Your actions foreshadow a bleak outcome for your foes.
-		Each time you deal darkness, fire, blight or acid damage you curse your foe with an effect that stacks up to %d times (this can happen only once per creature per turn).
-		The vim you get for killing the creature is increased by 100%% for every stack of Bleak Outcome.
-		The vim's worth of a creature depends on your Willpower.]], [[Your actions foreshadow a bleak outcome for your foes.
-		Each time you deal darkness, fire, blight or acid damage you curse your foe with an effect that stacks up to %d times (this can happen only once per creature per turn).
-		The vim you get for killing the creature is increased by 100%% for every stack of Bleak Outcome.
-		The vim's worth of a creature depends on your Willpower.]], "tformat")
-t("Stripped Life", "Stripped Life", "talent name")
-t("When a creature dies with at least 5 stacks of Bleak Outcome you feast on every last bit of vim it had, increasing your own spellpower by %d for 6 turns.", "When a creature dies with at least 5 stacks of Bleak Outcome you feast on every last bit of vim it had, increasing your own spellpower by %d for 6 turns.", "tformat")
-t("Grim Future", "Grim Future", "talent name")
-t([[The future looks grim indeed... for your foes.
-		When you kill a creature afflicted with Bleak Outcome all creatures allied to it in radius %d will be dazed for 2 turns.
-		This effect will only trigger every %d turns (after a successful daze has been applied).]], [[The future looks grim indeed... for your foes.
-		When you kill a creature afflicted with Bleak Outcome all creatures allied to it in radius %d will be dazed for 2 turns.
-		This effect will only trigger every %d turns (after a successful daze has been applied).]], "tformat")
-t("Ominous Shadow", "Ominous Shadow", "talent name")
-t([[When a creature afflicted with Bleak Outcome dies you gain a charge of Ominous Shadow (up to %d) for 12 turns.
-		Each charge can be used to become invisible (power %d) for 2 turns.]], [[When a creature afflicted with Bleak Outcome dies you gain a charge of Ominous Shadow (up to %d) for 12 turns.
-		Each charge can be used to become invisible (power %d) for 2 turns.]], "tformat")
-
-
-------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
--- 9 entries
-t("Draining Assault", "Draining Assault", "talent name")
+-- 5 entries
 t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "tformat")
-t("Fiery Grasp", "Fiery Grasp", "talent name")
 t("%s resists the grasp!", "%s resists the grasp!", "logSeen")
 t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.
 		Starting from talent level 4, it will also silence.
 		The beam damage and damage over time will increase with your Spellpower.]], [[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.
 		Starting from talent level 4, it will also silence.
 		The beam damage and damage over time will increase with your Spellpower.]], "tformat")
-t("Reckless Strike", "Reckless Strike", "talent name")
 t("Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "tformat")
-t("Share the Pain", "Share the Pain", "talent name")
 t([[You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.
 		You get once chance to deal this damage to a particular target each turn.]], [[You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.
 		You get once chance to deal this damage to a particular target each turn.]], "tformat")
@@ -1804,7 +1775,7 @@ t([[You launch a mental assault on the target.
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
--- 177 entries
+-- 173 entries
 t("Demon Blade", "Demon Blade", "_t")
 t("Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "tformat")
 t("demonic", "demonic", "effect subtype")
@@ -1861,7 +1832,6 @@ t("+Fire", "+Fire", "_t")
 t("#Target#'s purification is complete.", "#Target#'s purification is complete.", "_t")
 t("-Fire", "-Fire", "_t")
 t("%s loses %d health to the soulburn.", "%s loses %d health to the soulburn.", "logSeen")
-t("Fiery Grasp", "Fiery Grasp", "_t")
 t("The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.", "The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.", "tformat")
 t("The target is pinned and on fire, taking %0.2f fire damage per turn.", "The target is pinned and on fire, taking %0.2f fire damage per turn.", "tformat")
 t("#Target# is grabbed!", "#Target# is grabbed!", "_t")
@@ -1955,9 +1925,7 @@ t("Blackice", "Blackice", "_t")
 t("Fire and physical resistance reduced by %d%%.", "Fire and physical resistance reduced by %d%%.", "tformat")
 t("Fire Haven", "Fire Haven", "_t")
 t("The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "_t")
-t("Bleak Outcome", "Bleak Outcome", "_t")
 t("Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "tformat")
-t("Stripped Life", "Stripped Life", "_t")
 t("Spellpower increased by %d.", "Spellpower increased by %d.", "tformat")
 t("Ominous Shadow Charges", "Ominous Shadow Charges", "_t")
 t("You have %d charges.", "You have %d charges.", "tformat")
@@ -1970,7 +1938,6 @@ t("The bloodlust of #target# subsides.", "The bloodlust of #target# subsides.", 
 t("Pain Affinity", "Pain Affinity", "_t")
 t("All damage affinity increased by %d%%.", "All damage affinity increased by %d%%.", "tformat")
 t("affinity", "affinity", "effect subtype")
-t("Ominous Shadow", "Ominous Shadow", "_t")
 t("Improves/gives invisibility (power %d).", "Improves/gives invisibility (power %d).", "tformat")
 t("dark", "dark", "effect subtype")
 t("+Ominous Shadow", "+Ominous Shadow", "_t")
@@ -16018,12 +15985,11 @@ t("#LIGHT_RED#%s raises from the dead!", "#LIGHT_RED#%s raises from the dead!", 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/bone-giant.lua"
--- 7 entries
+-- 6 entries
 t("bone giant", "bone giant", "entity name")
 t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "_t")
 t("eternal bone giant", "eternal bone giant", "entity name")
 t("heavy bone giant", "heavy bone giant", "entity name")
-t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "_t")
 t("runed bone giant", "runed bone giant", "entity name")
 t("A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "_t")
 
@@ -16530,12 +16496,10 @@ t("An orc dressed in cold blue robes. He mumbles in a harsh tongue.", "An orc dr
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/orc.lua"
--- 14 entries
-t("orc warrior", "orc warrior", "entity name")
+-- 12 entries
 t("orc archer", "orc archer", "entity name")
 t("He is a hardy, well-weathered survivor.", "He is a hardy, well-weathered survivor.", "_t")
 t("orc soldier", "orc soldier", "entity name")
-t("A fierce soldier-orc.", "A fierce soldier-orc.", "_t")
 t("fiery orc wyrmic", "fiery orc wyrmic", "entity name")
 t("icy orc wyrmic", "icy orc wyrmic", "entity name")
 t("A fierce soldier-orc trained in the discipline of dragons.", "A fierce soldier-orc trained in the discipline of dragons.", "_t")
@@ -16711,10 +16675,9 @@ t("An old and powerful storm drake, armed with deadly breath and nasty claws.", 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/sunwall-town.lua"
--- 6 entries
+-- 5 entries
 t("human guard", "human guard", "entity name")
 t("elven archer", "elven archer", "entity name")
-t("human sun-paladin", "human sun-paladin", "entity name")
 t("A human in shiny plate armour.", "A human in shiny plate armour.", "_t")
 t("elven sun-mage", "elven sun-mage", "entity name")
 t("An elf dressed in glowing robes.", "An elf dressed in glowing robes.", "_t")
@@ -19022,7 +18985,7 @@ t("Toggle automatic accept target option", "Toggle automatic accept target optio
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/age-allure.lua"
--- 15 entries
+-- 14 entries
 t([[#{italic}#To: Research Director Hompalan - #{bold}#TOP PRIORITY#{normal}#
 
 Thanks to one of our scouting parties catching a Conclave lieutenant's squad off-guard, we have found directions to a noteworthy laboratory hidden underground, in what's newly Nargol territory.  Unfortunately, the long-legs scuttled the entrances before we could arrive, and it'd take us years to dig ourselves in, even if we could afford recalling our geomancers from the front lines to work on it - which we can't.  
@@ -19138,7 +19101,6 @@ It has been an honor working with such talented individuals, and an honor doing 
 Long live the Conclave!
 Healer Astelrid]], "_t")
 t("age of allure", "age of allure", "newLore category")
-t("investigator Churrack note", "investigator Churrack note", "_t")
 t([[FROM: Investigator Churrack
 TO: Whoever holds the position of High Overseer of Loyalty when we're let out
 
@@ -24777,10 +24739,9 @@ t("Something in the floor clicks ominously.", "Something in the floor clicks omi
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
--- 4 entries
+-- 3 entries
 t("#Source# emits dark energies at your feet.", "#Source# emits dark energies at your feet.", "logCombat")
 t("The corrupted lava reanimates %s's corpse!", "The corrupted lava reanimates %s's corpse!", "logSeen")
-t("human sun-paladin", "human sun-paladin", "_t")
 t("A Human in shining plate armour.", "A Human in shining plate armour.", "_t")
 
 
@@ -26766,7 +26727,7 @@ t([[By creating an arcane link with your minion army you are able to redirect pa
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/master-of-bones.lua"
--- 11 entries
+-- 10 entries
 t("Call of the Crypt", "Call of the Crypt", "talent name")
 t([[Call upon the battlefields of old, collecting bones, fusing them with souls, and forging them into skeletal minions.
 		Up to %d skeleton warriors of level %d are summoned, and up to %d skeletons can be controlled at once.
@@ -26792,7 +26753,6 @@ t([[Any time one of your skeleton or bone giant dies, it shatters in radius %d, 
 		]], "tformat")
 t("Assemble", "Assemble", "talent name")
 t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "_t")
-t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "_t")
 t([[Every army of undead minions needs its spearhead. To that end you combine 3 skeleton minions into a bone giant of level %d.
 		The minions used are selected from the weakest first, and a Lord of Skulls will never be used. 
 		At level 3 an eternal bone giant is created instead.
@@ -29368,153 +29328,6 @@ t("-Brutalized", "-Brutalized", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/zones/arena/zone.lua"
--- 18 entries
-t("#GOLD#Miniboss round starts!!", "#GOLD#Miniboss round starts!!", "log")
-t("#VIOLET#Boss round starts!!!", "#VIOLET#Boss round starts!!!", "log")
-t("#LIGHT_RED#Final round starts!!!!", "#LIGHT_RED#Final round starts!!!!", "log")
-t("#YELLOW#The gates open!", "#YELLOW#The gates open!", "log")
-t("#LIGHT_RED#The gates close!", "#LIGHT_RED#The gates close!", "log")
-t("RANK UP!!", "RANK UP!!", "_t")
-t("#LIGHT_GREEN#The public is pleased by your performance! You now have the rank of #WHITE#%s#LIGHT_GREEN#!", "#LIGHT_GREEN#The public is pleased by your performance! You now have the rank of #WHITE#%s#LIGHT_GREEN#!", "log")
-t("%d kills!", "%d kills!", "tformat")
-t("#YELLOW#You killed %d enemies in a single turn! The public is excited!", "#YELLOW#You killed %d enemies in a single turn! The public is excited!", "log")
-t("#YELLOW#Items lying around will disappear in #WHITE#%d#YELLOW# turns!#LAST#", "#YELLOW#Items lying around will disappear in #WHITE#%d#YELLOW# turns!#LAST#", "log")
-t("#VIOLET#Boss round!!!", "#VIOLET#Boss round!!!", "log")
-t("#GOLD#Miniboss round!", "#GOLD#Miniboss round!", "log")
-t("#LIGHT_RED#Final round!!!", "#LIGHT_RED#Final round!!!", "log")
-t("Round Clear! +%s EXP!", "Round Clear! +%s EXP!", "tformat")
-t("%sWave clear!", "%sWave clear!", "log")
-t("%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", "%sClear bonus: %s%s%s! Score bonus: %s%s%s! Danger bonus: %s%s%s! Rank bonus: %s%s%s!", "log")
-t("%sYour experience increases by %s%d%s!", "%sYour experience increases by %s%d%s!", "log")
-t("%sYou earn %s gold for your victory!", "%sYou earn %s gold for your victory!", "log")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/blighted-ruins/grids.lua"
--- 2 entries
-t("unholy circle", "unholy circle", "entity name")
-t("broken unholy circle", "broken unholy circle", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/blighted-ruins/npcs.lua"
--- 9 entries
-t("A Human dressed in black robes. He mumbles in a harsh tongue. He seems to think you are his slave.", "A Human dressed in black robes. He mumbles in a harsh tongue. He seems to think you are his slave.", "_t")
-t("Half-Finished Bone Giant", "Half-Finished Bone Giant", "entity name")
-t([[A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.
-This specimen looks like it was hastily assembled and is not really complete yet.]], [[A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.
-This specimen looks like it was hastily assembled and is not really complete yet.]], "_t")
-t("fleshy experiment", "fleshy experiment", "entity name")
-t("This pile of rotting flesh twitches and makes horrid noises.", "This pile of rotting flesh twitches and makes horrid noises.", "_t")
-t("boney experiment", "boney experiment", "entity name")
-t("This pile of bones appears to move on its own, but it can't seem to organise itself into something dangerous.", "This pile of bones appears to move on its own, but it can't seem to organise itself into something dangerous.", "_t")
-t("sanguine experiment", "sanguine experiment", "entity name")
-t("It looks like a giant blood clot. Is that what its creator intended?", "It looks like a giant blood clot. Is that what its creator intended?", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/blighted-ruins/objects.lua"
--- 3 entries
-t("black cloak", "black cloak", "_t")
-t("A black cloak, with subtle illusion enchantments woven into its very fabric.", "A black cloak, with subtle illusion enchantments woven into its very fabric.", "_t")
-t("A paper scrap, left by the Necromancer.", "A paper scrap, left by the Necromancer.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/blighted-ruins/zone.lua"
--- 1 entries
-t("Blighted Ruins", "Blighted Ruins", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/briagh-lair/npcs.lua"
--- 2 entries
-t("Briagh, Great Sand Wyrm", "Briagh, Great Sand Wyrm", "entity name")
-t("A towering sand drake stands before you. This wingless worm is mighty and could easily crush you.", "A towering sand drake stands before you. This wingless worm is mighty and could easily crush you.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/briagh-lair/zone.lua"
--- 1 entries
-t("Briagh's Lair", "Briagh's Lair", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/charred-scar/grids.lua"
--- 2 entries
-t("A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use.", "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back to the far east.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/charred-scar/npcs.lua"
--- 10 entries
-t("human sun-paladin", "human sun-paladin", "entity name")
-t("High Sun-Paladin Rodmour", "High Sun-Paladin Rodmour", "entity name")
-t("A Human in shiny plate armour.", "A Human in shiny plate armour.", "_t")
-t("Go %s! We will hold the line!", "Go %s! We will hold the line!", "tformat")
-t("orc warrior", "orc warrior", "entity name")
-t("A fierce soldier-orc.", "A fierce soldier-orc.", "_t")
-t("Damn you, you only postpone your death! Fyrk!", "Damn you, you only postpone your death! Fyrk!", "_t")
-t("Fyrk, Faeros High Guard", "Fyrk, Faeros High Guard", "entity name")
-t([[Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.
-This one looks even nastier and looks toward you with what seems to be disdain. Flames swirl all around him.]], [[Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.
-This one looks even nastier and looks toward you with what seems to be disdain. Flames swirl all around him.]], "_t")
-t("and a sole piece of char was sent to his masters as a totem", "and a sole piece of char was sent to his masters as a totem", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/charred-scar/zone.lua"
--- 1 entries
-t("Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "Hurry down south while the sun-paladins are holding off the orcs. Make their sacrifice worth it!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/conclave-vault/grids.lua"
--- 5 entries
-t("body remains", "body remains", "entity name")
-t("bone pile", "bone pile", "entity name")
-t("infusion rack", "infusion rack", "entity name")
-t("operating table", "operating table", "entity name")
-t("broken vat", "broken vat", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/conclave-vault/npcs.lua"
--- 12 entries
-t("old vats", "old vats", "entity name")
-t("structure", "structure", "entity type")
-t("vat", "vat", "entity subtype")
-t("degenerated ogric mass", "degenerated ogric mass", "entity name")
-t("This huge mass of deformed flesh was probably once an ogre, but something had gone wrong.", "This huge mass of deformed flesh was probably once an ogre, but something had gone wrong.", "_t")
-t("ogric abomination", "ogric abomination", "entity name")
-t("This ogre seems to have tried to graft golem parts on its own body. To various interresting results.", "This ogre seems to have tried to graft golem parts on its own body. To various interresting results.", "_t")
-t("ogre sentry", "ogre sentry", "entity name")
-t("This greatsword-wielding ogre looks at you with contempt and hatred.", "This greatsword-wielding ogre looks at you with contempt and hatred.", "_t")
-t("Healer Astelrid", "Healer Astelrid", "entity name")
-t("An enormous ogre, clad in a tattered set of robes with an officer's badge.  She clutches a healer's staff, wrapped in casting plaster and scalpels for use as a massive spiked club.", "An enormous ogre, clad in a tattered set of robes with an officer's badge.  She clutches a healer's staff, wrapped in casting plaster and scalpels for use as a massive spiked club.", "_t")
-t("and spliced for experiments", "and spliced for experiments", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/conclave-vault/objects.lua"
--- 6 entries
-t("log of healer Astelrid", "log of healer Astelrid", "entity name")
-t("investigator Churrack note", "investigator Churrack note", "entity name")
-t("Astelrid's Clubstaff", "Astelrid's Clubstaff", "entity name")
-t("huge maul", "huge maul", "_t")
-t("Like its former owner, this was once an instrument of altruistic healing, before fury and fear caused its twisting into a sadistic weapon.  Surges of restorative magic can be faintly felt under the layers of plaster and sharp surgical equipment.", "Like its former owner, this was once an instrument of altruistic healing, before fury and fear caused its twisting into a sadistic weapon.  Surges of restorative magic can be faintly felt under the layers of plaster and sharp surgical equipment.", "_t")
-t("Improves the contribution of primary stats on infusions and runes by 15%", "Improves the contribution of primary stats on infusions and runes by 15%", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/conclave-vault/zone.lua"
--- 1 entries
-t("Old Conclave Vault", "Old Conclave Vault", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/zones/crypt-kryl-feijan/grids.lua"
 -- 2 entries
 t("demonic symbol", "demonic symbol", "entity name")
@@ -29564,12 +29377,10 @@ t("The rift is too unstable to cross it.", "The rift is too unstable to cross it
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/daikara/npcs.lua"
--- 6 entries
-t("Varsha the Writhing", "Varsha the Writhing", "entity name")
+-- 4 entries
 t("Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "_t")
 t("and fed to the hatchlings", "and fed to the hatchlings", "_t")
 t("I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "_t")
-t("Massok the Dragonslayer", "Massok the Dragonslayer", "entity name")
 t("A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "_t")
 
 
