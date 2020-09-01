@@ -158,7 +158,7 @@ newTalent{
 		self:project(tg, x, y, function(tx, ty)
 									 local target = game.level.map(tx, ty, Map.ACTOR)
 									 if not target or target == self then return end
-									 target:setEffect(target.EFF_MARK_OF_THE_VAMPIRE, 20, {src=self, dam=dam, power=1+t.getBleedIncrease(self, t), apply_power=self:combatSpellpower()})
+									 target:setEffect(target.EFF_MARK_OF_THE_VAMPIRE, 20, {src=self, dam=dam, power=t.getBleedIncrease(self, t), apply_power=self:combatSpellpower()})
 													 end)
 		local _ _, _, _, x, y = self:canProject(tg, x, y)
 		game.level.map:particleEmitter(x, y, tg.radius, "circle", {oversize=0.7, g=90, b=100, a=100, limit_life=8, appear=8, speed=2, img="blight_circle", radius=self:getTalentRadius(t)})

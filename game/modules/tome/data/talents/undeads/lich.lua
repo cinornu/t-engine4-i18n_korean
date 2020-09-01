@@ -56,7 +56,7 @@ newTalent{
 				self:triggerHook{"Actor:resurrect", reason="lich_regen"}
 				self:setEffect(self.EFF_LICH_HUNGER, t.getTurns(self, t), {})
 				game:saveGame()
-			end}
+			end, force_choice=true}
 		end
 	end,
 	info = function(self, t)

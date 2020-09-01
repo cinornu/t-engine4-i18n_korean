@@ -50,6 +50,7 @@ defineTile('T', "LAVA_WALL")
 defineTile('L', function() if rng.percent(50) then return "LAVA_FLOOR" else return "BURNT_GROUND" end end)
 defineTile('#', "HARDWALL")
 defineTile('!', "DOOR_VAULT")
+defineTile('D', "DOOR")
 defineTile('B', "GENERIC_BOOK2")
 
 defineTile('*', "BURNT_GROUND", {random_filter={add_levels=15, tome_mod="gvault"}})
@@ -72,6 +73,8 @@ return {
  [[#T..LLL..T#]],
  [[#TT.....TT#]],
  [[#+*T...T*+#]],
+ [[#TTTTDTTTT#]],
+ [[#m.......m#]],
  [[#####!#####]],
 }
 else
@@ -83,6 +86,8 @@ return {
  [[#T..LLL..T#]],
  [[#TT.....TT#]],
  [[#+*T...T*+#]],
+ [[#TTTTDTTTT#]],
+ [[#m.......m#]],
  [[#####!#####]],
 }
 end

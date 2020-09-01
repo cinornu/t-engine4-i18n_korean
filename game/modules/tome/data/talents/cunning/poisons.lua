@@ -587,6 +587,7 @@ newTalent{
 	points = 1,
 	mode = "sustained",
 	cooldown = 10,
+	no_npc_use = true,
 	no_break_stealth = true,
 	no_energy = true,
 	target = poisonTarget,

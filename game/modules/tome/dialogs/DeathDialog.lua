@@ -305,11 +305,6 @@ function _M:generateList()
 		
 		if self.actor:fireTalentCheck("callbackOnDeathbox", self, list) then return end
 
-		if self.actor:attr("easy_mode_lifes") or self.actor:attr("infinite_lifes") then
-			self:use{action="easy_mode"}
-			self.dont_show = true
-			return
-		end
 		if self.actor:attr("blood_life") and not self.actor:attr("undead") then list[#list+1] = {name=_t"Resurrect with the Blood of Life", action="blood_life"} end
 		if self.actor:getTalentLevelRaw(self.actor.T_SKELETON_REASSEMBLE) >= 5 and not self.actor:attr("re-assembled") then list[#list+1] = {name=_t"Re-assemble your bones and resurrect (Skeleton ability)", action="skeleton"} end
 
@@ -321,6 +316,26 @@ function _M:generateList()
 				self.possible_items.consume = true
 			end
 		end)
+
+		local can_auto_select = true
+		for i, d in ipairs(list) do if d.force_choice then can_auto_select = false break end end
+
+		if self.actor:attr("easy_mode_lifes") then
+			list[#list+1] = {name=("Resurrect with Adventurer Mode (%d life(s) left)"):tformat(self.actor.easy_mode_lifes), action="easy_mode"}
+			if can_auto_select then
+				self:use{action="easy_mode"}
+				self.dont_show = true
+				return
+			end
+		end
+		if self.actor:attr("infinite_lifes") then
+			list[#list+1] = {name=_t"Resurrect with Exploration Mode", action="easy_mode"}
+			if can_auto_select then
+				self:use{action="easy_mode"}
+				self.dont_show = true
+				return
+			end
+		end
 	end
 
 	list[#list+1] = {name=(not profile.auth and _t"Message Log" or _t"Message/Chat log (allows to talk)"), action="log"}

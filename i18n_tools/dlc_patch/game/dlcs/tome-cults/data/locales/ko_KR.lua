@@ -95,6 +95,13 @@ t("Encounter", "만남", "_t")
 
 
 ------------------------------------------------
+section "game/dlcs/tome-cults/data/general/encounters/tar-eyal.lua"
+
+t("harmless", "무해한", "entity type")
+t("special", "특별한", "entity subtype")
+
+
+------------------------------------------------
 section "game/dlcs/tome-cults/data/general/encounters/var-eyal.lua"
 
 t("harmless", "무해한", "entity type")

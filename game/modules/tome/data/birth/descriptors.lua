@@ -197,7 +197,7 @@ newBirthDescriptor{
 	{
 		_t"#GOLD##{bold}#Nightmare mode#WHITE##{normal}#",
 		_t"Unfair game setting",
-		_t"All zone levels increased by 50% by the time Player reaches level 10",
+		_t"All zone levels increased by 25% by the time Player reaches level 10",
 		_t"All creature talent levels increased by 30%",
 		_t"Unique (fixed) bosses advance in bonus classes 30% faster",		
 		_t"Rare creatures are slightly more frequent",
@@ -214,9 +214,9 @@ newBirthDescriptor{
 		__game_difficulty = 3,
 	},
 	game_state = {
-		default_random_rare_chance = 15,
+		default_random_rare_chance = 8,
 		
-		difficulty_level_mult = 1.5,  -- Level multiplier for Zone.level_range, handled in Game.applyDifficulty
+		difficulty_level_mult = 1.25,  -- Level multiplier for Zone.level_range, handled in Game.applyDifficulty
 		difficulty_level_add = 0,  -- Flat value added to Zone.level_range, handled in Game.applyDifficulty 
 
 		difficulty_talent_mult = 1.3,  -- Talent level multiplier for non-summoned NPC talents and base (non-autoclass) fixedboss talents, handled in NPC.addedToLevel
@@ -271,7 +271,7 @@ newBirthDescriptor{
 	desc =
 	{
 		_t"#GOLD##{bold}#Madness mode#WHITE##{normal}#",
-		_t"Absolutely unfair game setting.  You are really mentally ill and wish to get worse to play this mode!",
+		_t"Absolutely unfair game setting. Prepare for the full wrath of DarkGod!",
 		_t"All zone levels increased by 150% + 2 by the time Player reaches level 10",
 		_t"All creature talent levels increased by 170%",
 		_t"Unique (fixed) bosses advance in bonus classes 170% faster",

@@ -255,7 +255,22 @@
 "game/modules/tome/data/zones/ardhungol/zone.lua"
 "game/modules/tome/data/zones/arena-unlock/npcs.lua"
 "game/modules/tome/data/zones/arena-unlock/zone.lua"
-"game/modules/tome/data/zones/arena/npcs.lua" Khelerd 완
+"game/modules/tome/data/zones/arena/npcs.lua"
+"game/modules/tome/data/zones/arena/objects.lua"
+"game/modules/tome/data/zones/arena/zone.lua"
+"game/modules/tome/data/zones/blighted-ruins/grids.lua"
+"game/modules/tome/data/zones/blighted-ruins/npcs.lua"
+"game/modules/tome/data/zones/blighted-ruins/objects.lua"
+"game/modules/tome/data/zones/blighted-ruins/zone.lua"
+"game/modules/tome/data/zones/briagh-lair/npcs.lua"
+"game/modules/tome/data/zones/briagh-lair/zone.lua"
+"game/modules/tome/data/zones/charred-scar/grids.lua"
+"game/modules/tome/data/zones/charred-scar/npcs.lua"
+"game/modules/tome/data/zones/charred-scar/zone.lua"
+"game/modules/tome/data/zones/conclave-vault/grids.lua"
+"game/modules/tome/data/zones/conclave-vault/npcs.lua"
+"game/modules/tome/data/zones/conclave-vault/objects.lua"
+"game/modules/tome/data/zones/conclave-vault/zone.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"

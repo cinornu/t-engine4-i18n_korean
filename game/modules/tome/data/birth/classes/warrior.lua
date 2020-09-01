@@ -306,6 +306,7 @@ newBirthDescriptor{
 		[ActorTalents.T_ARCANE_COMBAT] = 1,
 		[ActorTalents.T_DIRTY_FIGHTING] = 1,
 		[ActorTalents.T_WEAPON_COMBAT] = 1,
+		[ActorTalents.T_WEAPONS_MASTERY] = 1,
 	},
 	copy = {
 		max_life = 100,

@@ -215,6 +215,7 @@ newEntity{ base = "BASE_NPC_SKELETON",
 		[Talents.T_SHADOWSTEP]={base=1, every=10, max=7},
 		[Talents.T_STEALTH]={base=2, every=10, max=7},
 	},
+	resolvers.sustains_at_birth(),
 	
 	resolvers.equip{
 		{type="weapon", subtype="dagger", autoreq=true, forbid_power_source={antimagic=true}},

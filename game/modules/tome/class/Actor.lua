@@ -2376,7 +2376,7 @@ function _M:onTakeHit(value, src, death_note)
 	end
 
 	-- Un-daze
-	if self:hasEffect(self.EFF_DAZED) and not self:attr("damage_dont_undaze") then
+	if self:hasEffect(self.EFF_DAZED) and not self:attr("damage_dont_undaze") and (not src or not src.turn_procs or not src.turn_procs.dealing_damage_dont_undaze) then
 		self:removeEffect(self.EFF_DAZED)
 	end
 

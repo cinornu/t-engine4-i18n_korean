@@ -31,7 +31,6 @@ return {
 	day_night = true,
 	no_worldport = true,
 	persistent = "zone",
-	objects_cost_modifier = 0.2, --prevent celestial starts from getting enough gold to buy items from Gates of Morning 
 	color_shown = {0.7, 0.7, 0.7, 1},
 	color_obscure = {0.7*0.6, 0.7*0.6, 0.7*0.6, 0.6},
 	ambient_music = "Valve.ogg",
