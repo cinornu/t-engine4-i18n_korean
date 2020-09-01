@@ -1,4 +1,6 @@
 locale "ko_KR"
+-- COPY
+setFlag("ego_always_prefix", true)
 
 ------------------------------------------------
 section "game/modules/tome/ai/escort.lua"
@@ -402,7 +404,7 @@ t("Unfolding the space time structure...", "시공간 구조를 다시 펴는 �
 t("something", "물체", "_t")
 t("unknown", "알 수 없음", "_t")
 t(" #LIGHT_GREEN#[%0.0f healing]#LAST#", " #LIGHT_GREEN#[%0.0f 회복]#LAST#", "tformat")
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했습니다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.", "logMessage")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.", "logMessage")
 t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입혔다.", "logMessage")
 t("#Source# receives %s.", "#Source2# %s 피해를 받았다.", "logMessage")
 t("#Target# receives %s from #Source#.", "#Target2# %s #Source4#부터 받았다.", "logMessage", nil, {"을"})
@@ -17771,7 +17773,7 @@ t([[Improves your ability to perform counterstrikes after blocks in the followin
 		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
 		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[방패막기 이후의 반격 능력을 다음과 같이 강화합니다 :
 		완전한 방패 막기에 실패하더라도, 대상에게 반격을 가할 수 있습니다.
-		공격자의 반격 당함 부정적 효과의 지속시간을 %d%s 턴 연장합니다.
+		공격자의 반격 당함 부정적 효과의 지속시간을 %d%s 연장합니다.
 		대상에게 가할 수 있는 반격 회수 상한이 %d 회 증가합니다.
 		반격의 치명타 확률이 %d%% 증가합니다. 이 효과들은 민첩에 비례하여 증가합니다.]], "tformat")
 t("turn", "턴", "_t")
@@ -26198,7 +26200,7 @@ t("Mindpower: #00ff00#%s", "정신력: #00ff00#%s", "tformat")
 t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
 t("Mind speed : #00ff00#%s", "사고 속도 : #00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Damage Modifiers:", "#LIGHT_BLUE#피해량 변동치:", "_t")
-t("Critical mult.: #00ff00#%s", "치명타 배율.: #00ff00#%s", "tformat")
+t("Critical mult.: #00ff00#%s", "치명타 배율: #00ff00#%s", "tformat")
 t([[#GOLD#Restance Penetration#LAST#
 Ability to reduce opponent resistances to your damage]], [[#GOLD#저항 관통#LAST#
 적의 저항을 관통해 피해를 입히는 능력입니다.]], "_t")
