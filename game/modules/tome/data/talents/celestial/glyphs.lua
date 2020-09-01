@@ -79,22 +79,18 @@ newTalent{
 			return true
 		end
 
-		-- Prioritize self, else pick a random valid target
 		local target
-		if valid_for_glyph(self) then
-			target = self
-		else
-			local tgts = {}
-			local grids = core.fov.circle_grids(self.x, self.y, self:getTalentRange(t), true)
-			for x, yy in pairs(grids) do for y, _ in pairs(grids[x]) do
-				local a = game.level.map(x, y, Map.ACTOR)
-				if a and self:reactionToward(a) < 0 and valid_for_glyph(a) then
-					tgts[#tgts+1] = a
-				end
-			end end
-			if #tgts < 1 then return nil end
-			target = rng.tableRemove(tgts)
-		end
+
+		local tgts = {}
+		local grids = core.fov.circle_grids(self.x, self.y, self:getTalentRange(t), true)
+		for x, yy in pairs(grids) do for y, _ in pairs(grids[x]) do
+			local a = game.level.map(x, y, Map.ACTOR)
+			if a and self:reactionToward(a) < 0 and valid_for_glyph(a) then
+				tgts[#tgts+1] = a
+			end
+		end end
+		if #tgts < 1 then return nil end
+		target = rng.tableRemove(tgts)
 
 		-- Set cooldown after we think a glyph can be placed
 		p.glyphs_last_turn = game.turn
@@ -347,7 +343,7 @@ end
 		local dist = t.getTwilightKnockback(self, t)
 		return ([[When one of your spells goes critical, you bind glyphs in radius 1 centered on a random target in range %d at the cost of 5 positive and 5 negative energy.
 		Glyphs last for %d turns and cause various effects when an enemy enters their grid.
-		Glyphs will only spawn on enemies that aren't adjacent to an existing glyph and will prioritize your own position if it is valid.
+		Glyphs will only spawn on enemies that aren't adjacent to an existing glyph.
 		This can only happen every %d game turns.
 		Glyph effects will scale with your Spellpower.
 

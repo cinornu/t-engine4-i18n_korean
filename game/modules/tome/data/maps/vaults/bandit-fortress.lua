@@ -47,8 +47,8 @@ local stairs = function()
 		persistent = "zone",
 		
 		no_worldport = true,
-		min_material_level = util.getval(game.zone.min_material_level) + 1, -- vaults have better loot! acts as reward to compensate for the significant difficulty
-		max_material_level = util.getval(game.zone.max_material_level) + 1,
+		min_material_level = util.bound(util.getval(game.zone.min_material_level) + 1, 1, 5), -- vaults have better loot! acts as reward to compensate for the significant difficulty
+		max_material_level = util.bound(util.getval(game.zone.max_material_level) + 1, 1, 5),
 		generator = {
 			map = {
 				class = "engine.generator.map.Static",

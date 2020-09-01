@@ -79,15 +79,15 @@ newTalent {
 	mode = "sustained",
 	points = 5,
 	cooldown = 10,
-	sustain_stamina = 0,
+	sustain_stamina = 15,
 	no_energy = true,
 	require = techs_strdex_req2,
-	tactical = { STAMINA = 2 },
+	tactical = { DEFENSE = 2 },
 	random_ego = "utility",
 	activate = function(self, t)
 		local ret = {}
 		self:talentTemporaryValue(ret, "global_speed_add", -t.getSlow(self, t))
-		self:talentTemporaryValue(ret, "fatigue", -t.getReduction(self, t))
+		self:talentTemporaryValue(ret, "flat_damage_armor", {all = t.getReduction(self, t)})
 		if core.shader.active(4) then
 			self:talentParticles(ret, {type="shader_shield", args={toback=true,  size_factor=1, img="pace_yourself_shieldwall"}, shader={type="rotatingshield", noup=2.0, time_factor=2500, appearTime=0.2}})
 			self:talentParticles(ret, {type="shader_shield", args={toback=false, size_factor=1, img="pace_yourself_shieldwall"}, shader={type="rotatingshield", noup=1.0, time_factor=2500, appearTime=0.2}})
@@ -99,13 +99,34 @@ newTalent {
 		return  self:combatTalentLimit(t, 0, 0.15, .05)
 	end,
 	getReduction = function(self, t)
-		return self:combatTalentScale(t, 10, 30)
+		return self:combatScale(self:combatDefense() * self:getTalentLevel(t), 5, 10, 30, 450)
+	end,
+	getBlockChance = function(self, t)
+		return self:combatTalentLimit(t, 100, 25, 55)
+	end,
+	callbackOnTakeDamageBeforeResists = function(self, t, src, x, y, type, dam, tmp)
+		local shield = self:hasShield()
+		local chance = t.getBlockChance(self, t)
+		if not shield or not self:knowTalent(self.T_BLOCK) then return end
+		local eff = self:hasEffect(self.EFF_BLOCKING)
+		local t2 = self:getTalentFromId(self.T_BLOCK)
+		local bt, bt_string = t2.getBlockedTypes(self, t2)
+		local bv = t2.getBlockValue(self, t2)
+		if not bt[type] then return end -- ignore types we can't block
+		if rng.percent(chance) and dam > bv/4 and not self:isTalentCoolingDown(t2) and not eff then 
+			self:forceUseTalent(self.T_BLOCK, {ignore_energy=true})
+			return {dam=dam}
+		end
 	end,
 	info = function(self, t)
 		local slow = t.getSlow(self, t) * 100
 		local reduction = t.getReduction(self, t)
-		return ([[Control your movements to conserve your energy.  While this talent is activated, you are globally slowed by %0.1f%%, and your fatigue is decreased by %d%% (to a minimum of 0%%).]])
-		:tformat(slow, reduction)
+		chance = t.getBlockChance(self, t)
+		return ([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
+		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
+		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 25%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
+		The flat damage reduction will increase with your defense.]])
+		:tformat(slow, reduction, chance)
 	end,
 }
 

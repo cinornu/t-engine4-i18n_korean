@@ -93,6 +93,7 @@ newBirthDescriptor{
 		[ActorTalents.T_WEAPON_OF_LIGHT] = 1,
 		[ActorTalents.T_CHANT_ACOLYTE] = 1,
 		[ActorTalents.T_ARMOUR_TRAINING] = 2,
+		[ActorTalents.T_WEAPONS_MASTERY] = 1,
 	},
 	copy = {
 		max_life = 110,

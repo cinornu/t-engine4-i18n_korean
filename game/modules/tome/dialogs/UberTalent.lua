@@ -195,7 +195,8 @@ All of them require at least 50 in a core stat and many also have more special d
 _M.evotext = _t"\nEvolutions are special prodigies specific to a class or race. Only one evolution can be choosen, if any are available at all."
 
 function _M:createDisplay()
-	self.c_tut = Textzone.new{ width=self.iw, auto_height = true, text=self.tuttext:format(self.actor.unused_prodigies or 0, self.has_evos and self.evotext or "")}
+	self.regentuttext = function() return self.tuttext:format(self.actor.unused_prodigies or 0, self.has_evos and self.evotext or "") end
+	self.c_tut = Textzone.new{ width=self.iw, auto_height = true, text=self.regentuttext()}
 	
 	local vsep = Separator.new{dir="horizontal", size=self.ih - 20 - self.c_tut.h}
 	local listsep = Separator.new{dir="vertical", size=370, text="#{bold}##GOLD#Prodigies#{normal}#", text_shadow=1}
@@ -266,7 +267,7 @@ function _M:use(item)
 			self.actor:attr("has_evolution", -1)
 			self.fake_evol_attr = self.fake_evol_attr - 1
 		end
-		self.c_tut.text = self.tuttext:format(self.actor.unused_prodigies or 0)
+		self.c_tut.text = self.regentuttext()
 		self.c_tut:generate()
 	elseif (self.actor:canLearnTalent(self.actor:getTalentFromId(item.talent)) and self.actor.unused_prodigies > 0) or config.settings.cheat then
 		if not self.levelup_end_prodigies[item.talent] then
@@ -277,7 +278,7 @@ function _M:use(item)
 				self.fake_evol_attr = self.fake_evol_attr + 1
 			end
 		end
-		self.c_tut.text = self.tuttext:format(self.actor.unused_prodigies or 0)
+		self.c_tut.text = self.regentuttext()
 		self.c_tut:generate()
 	else
 	end

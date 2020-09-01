@@ -3266,6 +3266,30 @@ newEffect{
 }
 
 newEffect{
+	name = "LIGHTBLIGHT", image = "talents/judgement.png",
+	desc = _t"Lightblight",
+	long_desc = function(self, eff) return ("The creature is blighted by light reducing saves by %d, critical power by %d%%, and causing all light damage received to splash in radius 2 for %d%% damage once a turn."):tformat(eff.saves, eff.crit, eff.splash) end,
+	type = "magical",
+	subtype = { sun=true, },
+	status = "detrimental",
+	parameters = { saves = 10, crit = 10, splash = 33 },
+	on_gain = function(self, err) return _t"#Target# burns with light!", _t"+Lightblight" end,
+	on_lose = function(self, err) return _t"#Target# stops burning.", _t"-Lightblight" end,
+	activate = function(self, eff)
+		self:effectTemporaryValue(eff, "combat_critical_power", -eff.crit)
+		self:effectTemporaryValue(eff, "combat_physresist", -eff.saves)
+		self:effectTemporaryValue(eff, "combat_mindresist", -eff.saves)
+		self:effectTemporaryValue(eff, "combat_spellresist", -eff.saves)
+	end,
+	callbackOnTakeDamage = function(self, eff, src, x, y, type, dam, state)
+		if dam <= 80 or src~= eff.src or type ~= engine.DamageType.LIGHT or self.turn_procs.light_blight_reflect then return end
+		self.turn_procs.light_blight_reflect = true
+		local grids = eff.src:project({type="ball", radius=2, x=self.x, y=self.y}, self.x, self.y, engine.DamageType.LIGHT, dam * eff.splash/100)
+		game.level.map:particleEmitter(self.x, self.y, 1, "sunburst", {radius=2, grids=grids, tx=self.x, ty=self.y})
+	end,
+}
+
+newEffect{
 	name = "ILLUMINATION",
 	desc = _t"Illumination ", image = "talents/illumination.png",
 	long_desc = function(self, eff) return ("The target glows in the light, reducing its stealth and invisibility power by %d, defense by %d and looses all evasion bonus from being unseen."):tformat(eff.power, eff.def) end,

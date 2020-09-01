@@ -51,6 +51,7 @@ return {
 			nb_trap = {0, 0},
 		},
 	},
+	sequence_failures = 0,
 	post_process = function(level)
 		-- Everything hates you in the infinite dungeon!
 		for uid, e in pairs(level.entities) do e.faction="enemies" end
@@ -109,17 +110,31 @@ return {
 		for i = 1, #o do
 			-- Failed!
 			if o[i] ~= order[i] then
+				game.level.data.sequence_failures = game.level.data.sequence_failures + 1
+				local sequence_failures = game.level.data.sequence_failures
 				game.level.orbs_touched = {}
-				Dialog:simplePopup(_t"Strange Orb", _t"The orb seems to react badly to your touch, there is a high shriek!")
+				if sequence_failures<4 then Dialog:simplePopup(_t"Strange Orb", _t"The orb seems to react badly to your touch; there is a high shriek!")
+				elseif sequence_failures<6 then Dialog:simplePopup(_t"Strange Orb", _t"The orb burns to your touch and a loud shout screams out!")
+				else Dialog:simplePopup(_t"Strange Orb", _t"The orb reacts violently to your touch and the walls begin to rumble!") end
+				local random_elite = 0
 				for i = 1, 4 do
 					-- Find space
 					local x, y = util.findFreeGrid(sx, sy, 10, true, {[game.level.map.ACTOR]=true})
 					if not x then
 						break
 					end
+					
+					local filter = {}
+					if sequence_failures >= 10 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=5, rank = 10}} random_elite = random_elite + 1
+					elseif sequence_failures >= 9 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=4, rank = 5}} random_elite = random_elite + 1
+					elseif sequence_failures >= 7 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=3, rank = 4}} random_elite = random_elite + 1
+					elseif sequence_failures >= 6 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, rank = 3.5}} random_elite = random_elite + 1
+					elseif sequence_failures >=4 and random_elite < 2 then filter = {random_elite = {power_source = {nature=true, psionic=true, technique=true}}} random_elite = random_elite + 1
+					end
+					filter.add_levels = math.floor(5+1.5*sequence_failures^1.5)
 
 					-- Find an actor with that filter
-					local m = game.zone:makeEntity(game.level, "actor")
+					local m = game.zone:makeEntity(game.level, "actor", filter)
 					if m then
 						m.exp_worth = 0
 						m:emptyDrops()

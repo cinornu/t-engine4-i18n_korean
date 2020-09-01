@@ -50,15 +50,6 @@ newEntity{
 	ingredient_on_death = "ORC_HEART",
 }
 
-local summoner_equip_filters = resolvers.auto_equip_filters{
-	MAINHAND = {type="weapon", subtype="sling"},
-	QUIVER={properties={"archery_ammo"}, special=function(e, filter) -- must match the MAINHAND weapon, if any
-		local mh = filter._equipping_entity and filter._equipping_entity:getInven(filter._equipping_entity.INVEN_MAINHAND)
-		mh = mh and mh[1]
-		if not mh or mh.archery == e.archery_ammo then return true end
-	end}
-}
-
 newEntity{ base = "BASE_NPC_ORC_GORBAT",
 	name = "orc summoner", color=colors.YELLOW,
 	desc = _t[[A fierce orc attuned to the wilds.]],
@@ -67,25 +58,23 @@ newEntity{ base = "BASE_NPC_ORC_GORBAT",
 	rank = 2,
 	max_life = resolvers.rngavg(80,110),
 	life_rating = 12,
-	summoner_equip_filters,
-	resolvers.equip{
-		{type="weapon", subtype="sling", forbid_power_source={arcane=true}, autoreq=true},
-		{type="ammo", subtype="shot", forbid_power_source={arcane=true}, autoreq=true},
-		{type="charm", subtype="totem"}
-	},
+	resolvers.equip{ {type="weapon", subtype="mindstar", forbid_power_source={arcane=true}, autoreq=true},
+		{type="weapon", subtype="mindstar", forbid_power_source={arcane=true}, autoreq=true},
+		{type="charm", subtype="totem"} },
 	combat_armor = 2, combat_def = 0,
 
 	resolvers.inscriptions(1, "infusion"),
 
 	autolevel = "summoner",
 	resolvers.talents{
-		[Talents.T_SLING_MASTERY]={base=3, every=5, max=10},
+		[Talents.T_PSIBLADES]={base=2, every=10, max=5},
 		[Talents.T_MINOTAUR]={base=4, every=6, max=7},
 		[Talents.T_RITCH_FLAMESPITTER]={base=4, every=5, max=7},
 		[Talents.T_SPIDER]={base=3, every=5, max=6},
 		[Talents.T_FRANTIC_SUMMONING]={base=1, every=5, max=5},
-		[Talents.T_SHOOT]=1,
 	},
+	resolvers.sustains_at_birth(),
+	
 	resolvers.racial(),
 }
 
@@ -97,12 +86,10 @@ newEntity{ base = "BASE_NPC_ORC_GORBAT",
 	rank = 3,
 	max_life = resolvers.rngavg(100,110),
 	life_rating = 13,
-	summoner_equip_filters,
-	resolvers.equip{
-		{type="weapon", subtype="sling", forbid_power_source={arcane=true}, autoreq=true},
-		{type="ammo", subtype="shot", forbid_power_source={arcane=true}, autoreq=true},
-		{type="charm", subtype="totem"}
-	},
+	resolvers.equip{ {type="weapon", subtype="mindstar", forbid_power_source={arcane=true}, autoreq=true},
+		{type="weapon", subtype="mindstar", forbid_power_source={arcane=true}, autoreq=true},
+		{type="armor", subtype="cloth", forbid_power_source={arcane=true}, autoreq=true},
+		{type="charm", subtype="totem"} },
 	combat_armor = 2, combat_def = 0,
 
 	autolevel = "summoner",
@@ -110,16 +97,16 @@ newEntity{ base = "BASE_NPC_ORC_GORBAT",
 	resolvers.inscriptions(2, "infusion"),
 
 	resolvers.talents{
-		[Talents.T_SLING_MASTERY]={base=2, every=10, max=5},
+		[Talents.T_PSIBLADES]={base=2, every=10, max=5},
 		[Talents.T_MINOTAUR]={base=5, every=6, max=9},
 		[Talents.T_STONE_GOLEM]={base=5, every=6, max=9},
 		[Talents.T_RITCH_FLAMESPITTER]={base=4, every=5, max=9},
 		[Talents.T_SPIDER]={base=5, every=5, max=8},
 		[Talents.T_RESOLVE]={base=4, every=5, max=6},
+		[Talents.T_RESILIENCE]={base=3, every=10, max=6},
 		[Talents.T_NATURE_TOUCH]={base=3, every=5, max=8},
 		[Talents.T_FRANTIC_SUMMONING]={base=2, every=5, max=7},
 		[Talents.T_NATURE_S_BALANCE]=5,
-		[Talents.T_SHOOT]=1,
 	},
 	resolvers.racial(),
 }

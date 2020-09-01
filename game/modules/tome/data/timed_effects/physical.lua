@@ -4323,7 +4323,7 @@ newEffect{
 newEffect{
 	name = "Brutalized", image = "effects/stunned.png",
 	desc = _t"Brutalized",
-	long_desc = function(self, eff) return ("The target is brutally stunned, reducing damage by 60%%, movement speed by 50%%, bleed resist by 50%%, and halving talent cooldown."):tformat() end,
+	long_desc = function(self, eff) return ("The target is brutally stunned, reducing damage by 50%%, movement speed by 50%%, bleed resist by 50%%, and halving talent cooldown."):tformat() end,
 	type = "physical",
 	subtype = { stun=true },
 	status = "detrimental",

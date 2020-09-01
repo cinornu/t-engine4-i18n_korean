@@ -1552,7 +1552,10 @@ newDamageType{
 		useImplicitCrit(src, state)
 		if _G.type(dam) == "number" then dam = {dam=dam, daze=25} end
 		dam.daze = dam.daze or 25
+		local oldundaze
+		if src.turn_procs then src.turn_procs.dealing_damage_dont_undaze, oldundaze = true, src.turn_procs.dealing_damage_dont_undaze end
 		local realdam = DamageType:get(DamageType.LIGHTNING).projector(src, x, y, DamageType.LIGHTNING, dam.dam, state)
+		if src.turn_procs then src.turn_procs.dealing_damage_dont_undaze = oldundaze end
 		local target = game.level.map(x, y, Map.ACTOR)
 		if target and dam.daze > 0 and rng.percent(dam.daze) then
 			if target:canBe("stun") then

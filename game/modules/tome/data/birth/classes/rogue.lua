@@ -198,6 +198,7 @@ newBirthDescriptor{
 		[ActorTalents.T_SKULLCRACKER] = 1,
 		[ActorTalents.T_VITALITY] = 1,
 		[ActorTalents.T_DUAL_STRIKE] = 1,
+		[ActorTalents.T_KNIFE_MASTERY] = 1,
 		[ActorTalents.T_ARMOUR_TRAINING] = 1,
 	},
 	copy = {

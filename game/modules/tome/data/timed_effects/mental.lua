@@ -3064,7 +3064,7 @@ newEffect{
 	long_desc = function(self, eff) return ("The target is doomed to die a bloody death.  Each time it uses an ability it takes %0.2f physical damage, and incoming bleeds are strengthened by %d%%."):
 		tformat(eff.dam, eff.power*100)
 	end,
-	charges = function(self, eff) return (tostring(math.floor((eff.power-1)*100)).."%") end,
+	charges = function(self, eff) return (tostring(math.floor((eff.power)*100)).."%") end,
 	type = "mental",
 	subtype = { psionic=true },
 	status = "detrimental",

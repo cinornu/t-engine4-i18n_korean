@@ -43,7 +43,7 @@ newEntity{ base = "BASE_KNIFE",
 		dam = resolvers.rngavg(9,11),
 		apr = 5,
 		physcrit = 4,
-		dammod = {dex=0.45,str=0.45},
+		dammod = {dex=0.5,str=0.5},
 	},
 }
 
@@ -57,7 +57,7 @@ newEntity{ base = "BASE_KNIFE",
 		dam = resolvers.rngavg(10,14),
 		apr = 6,
 		physcrit = 5,
-		dammod = {dex=0.45,str=0.45},
+		dammod = {dex=0.5,str=0.5},
 	},
 }
 
@@ -71,7 +71,7 @@ newEntity{ base = "BASE_KNIFE",
 		dam = resolvers.rngavg(14,22),
 		apr = 7,
 		physcrit = 6,
-		dammod = {dex=0.45,str=0.45},
+		dammod = {dex=0.5,str=0.5},
 	},
 }
 
@@ -85,7 +85,7 @@ newEntity{ base = "BASE_KNIFE",
 		dam = resolvers.rngavg(25,32),
 		apr = 9,
 		physcrit = 8,
-		dammod = {dex=0.45,str=0.45},
+		dammod = {dex=0.5,str=0.5},
 	},
 }
 
@@ -99,6 +99,6 @@ newEntity{ base = "BASE_KNIFE",
 		dam = resolvers.rngavg(36,40),
 		apr = 9,
 		physcrit = 10,
-		dammod = {dex=0.45,str=0.45},
+		dammod = {dex=0.5,str=0.5},
 	},
 }

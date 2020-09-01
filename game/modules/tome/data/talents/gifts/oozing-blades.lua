@@ -97,7 +97,7 @@ newTalent{
 	requires_target = true,
 	getChance = function(self, t) return math.max(0, self:combatLimit(self:combatTalentMindDamage(t, 10, 70), 100, 39, 9, 86, 56)) end, -- Limit < 100%
 	getNb = function(self, t) return math.ceil(self:combatTalentLimit(t, 4, 1, 2)) end,
-	getTurns = function(self, t) return math.ceil(self:combatTalentLimit(t, 20, 2, 12)) end,
+	getTurns = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 2, 6)) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)

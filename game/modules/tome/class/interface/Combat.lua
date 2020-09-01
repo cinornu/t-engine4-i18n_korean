@@ -318,7 +318,9 @@ function _M:crossTierEffect(eff_id, apply_power, apply_save, use_given_e)
 		ct_effect = cross_tier_effects[save_for_effects[e.type]]
 	end
 	local dur = self:getTierDiff(apply_power, save)
+	print("!!!!! from", eff_id," =>" , ct_effect, dir, apply_power, save)
 	self:setEffect(ct_effect, dur, {})
+	return ct_effect
 end
 
 function _M:getTierDiff(atk, def)
@@ -1703,7 +1705,7 @@ function _M:combatDamagePower(weapon_combat, add)
 	if not weapon_combat then return 1 end
 	local power = math.max((weapon_combat.dam or 1) + (add or 0), 1)
 
-	if self:knowTalent(self["T_FORM_AND_FUNCTION"]) then power = power + self:callTalent(self["T_FORM_AND_FUNCTION"], "getDamBoost", weapon) end
+	if self:knowTalent(self["T_FORM_AND_FUNCTION"]) then power = power + self:callTalent(self["T_FORM_AND_FUNCTION"], "getDamBoost", weapon_combat) end
 
 	return (math.sqrt(power / 10) - 1) * 0.5 + 1
 end
