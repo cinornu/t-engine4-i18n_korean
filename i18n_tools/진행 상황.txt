@@ -270,7 +270,11 @@
 "game/modules/tome/data/zones/conclave-vault/grids.lua"
 "game/modules/tome/data/zones/conclave-vault/npcs.lua"
 "game/modules/tome/data/zones/conclave-vault/objects.lua"
-"game/modules/tome/data/zones/conclave-vault/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/conclave-vault/zone.lua"
+"game/modules/tome/data/zones/crypt-kryl-feijan/grids.lua"
+"game/modules/tome/data/zones/crypt-kryl-feijan/npcs.lua"
+"game/modules/tome/data/zones/crypt-kryl-feijan/objects.lua"
+"game/modules/tome/data/zones/crypt-kryl-feijan/zone.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
