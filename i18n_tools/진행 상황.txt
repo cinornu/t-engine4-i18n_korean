@@ -278,7 +278,10 @@
 "game/modules/tome/data/zones/daikara/grids.lua"
 "game/modules/tome/data/zones/daikara/npcs.lua"
 "game/modules/tome/data/zones/daikara/objects.lua"
-"game/modules/tome/data/zones/daikara/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/daikara/zone.lua"
+"game/modules/tome/data/zones/deep-bellow/npcs.lua"
+"game/modules/tome/data/zones/deep-bellow/objects.lua"
+"game/modules/tome/data/zones/deep-bellow/zone.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
