@@ -307,8 +307,16 @@
 "game/modules/tome/data/zones/gladium/zone.lua"
 "game/modules/tome/data/zones/golem-graveyard/grids.lua"
 "game/modules/tome/data/zones/golem-graveyard/npcs.lua"
-"game/modules/tome/data/zones/golem-graveyard/objects.lua" Khelerd 완
-
+"game/modules/tome/data/zones/golem-graveyard/objects.lua"
+"game/modules/tome/data/zones/gorbat-pride/grids.lua"
+"game/modules/tome/data/zones/gorbat-pride/npcs.lua"
+"game/modules/tome/data/zones/gorbat-pride/zone.lua"
+"game/modules/tome/data/zones/grushnak-pride/grids.lua"
+"game/modules/tome/data/zones/grushnak-pride/mapscripts/last.lua"
+"game/modules/tome/data/zones/grushnak-pride/mapscripts/main.lua"
+"game/modules/tome/data/zones/grushnak-pride/npcs.lua"
+"game/modules/tome/data/zones/grushnak-pride/objects.lua"
+"game/modules/tome/data/zones/grushnak-pride/zone.lua"
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
 "game/modules/tome/data/zones/halfling-ruins/zone.lua"
