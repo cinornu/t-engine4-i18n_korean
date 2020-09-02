@@ -179,6 +179,14 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
+------------------------------ 이하 본편 data/quests ---------------------------------
+
+"game/modules/tome/data/quests/anti-antimagic.lua"
+"game/modules/tome/data/quests/antimagic.lua"
+"game/modules/tome/data/quests/arena-unlock.lua" Khelerd 완
+
+------------------------------ 이상 본편 data/quests ---------------------------------
+
 "game/modules/tome//data/quests/tutorial.lua"
 "game/modules/tome/data/texts/intro-tutorial-combat-stats.lua"
 "game/modules/tome//data/texts/intro-tutorial.lua"
