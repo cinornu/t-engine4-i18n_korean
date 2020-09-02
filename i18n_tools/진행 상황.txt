@@ -289,7 +289,9 @@
 "game/modules/tome/data/zones/dreadfell-ambush/npcs.lua"
 "game/modules/tome/data/zones/dreadfell-ambush/objects.lua"
 "game/modules/tome/data/zones/dreadfell-ambush/zone.lua"
-"game/modules/tome/data/zones/dreadfell/grids.lua" Khelerd 완
+"game/modules/tome/data/zones/dreadfell/grids.lua"
+"game/modules/tome/data/zones/dreadfell/npcs.lua"
+"game/modules/tome/data/zones/dreadfell/objects.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
