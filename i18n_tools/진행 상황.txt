@@ -300,7 +300,14 @@
 "game/modules/tome/data/zones/eidolon-plane/zone.lua"
 "game/modules/tome/data/zones/eruan/grids.lua"
 "game/modules/tome/data/zones/eruan/npcs.lua"
-"game/modules/tome/data/zones/eruan/zone.lua" Khelerd 완
+"game/modules/tome/data/zones/eruan/zone.lua"
+"game/modules/tome/data/zones/flooded-cave/npcs.lua"
+"game/modules/tome/data/zones/flooded-cave/zone.lua"
+"game/modules/tome/data/zones/gladium/grids.lua"
+"game/modules/tome/data/zones/gladium/zone.lua"
+"game/modules/tome/data/zones/golem-graveyard/grids.lua"
+"game/modules/tome/data/zones/golem-graveyard/npcs.lua"
+"game/modules/tome/data/zones/golem-graveyard/objects.lua" Khelerd 완
 
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
