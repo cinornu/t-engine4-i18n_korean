@@ -572,53 +572,235 @@ t("Restore yourself to full health, but take damage equal to the damage healed o
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
 
-t("Flame Leash", "화염 채찍", "talent name")
+t("Flame Leash", "화염의 속박", "talent name")
+t([[Tendrils of flame fire from your hands in a narrow cone. Any foes caught inside will be pulled in towards you and have its movement speed reduced by %d%% for 4 turns.
+		Each tendril will leave a trail of fire in its path dealing %0.2f fire damage for 4 turns.
+		The damage increases with spellpower.]], [[손에서 좁은 원뿔 범위의 화염 덩쿨을 발사해, 범위 내의 적을 시전자 앞으로 끌고오고, 4 턴 동안 이동속도를 %d%% 낮춥니다.
+		화염 덩쿨은 화염의 궤적을 남겨, %0.2f 화염 피해를 4 턴 동안 가합니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Demon Blade", "악마의 칼날", "talent name")
+t([[Imbue your weapon with fire for 5 turns. During this time all your melee hits will trigger a ball of fire of radius 1 dealing %0.2f fire damage.
+		This effect can only happen once per turn.
+		The damage increases with spellpower.]], [[5 턴 동안 무기에 화염을 주입합니다. 지속시간 동안, 모든 근접 공격이 화염구를 발동해, 반경 1 칸 범위에 %0.2f 화염 피해를 가합니다.
+		이 효과는 한 턴에 1 번만 발동합니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Link of Pain", "고통의 연결", "talent name")
+t("Select the source:", "숙주 선택:", "logPlayer")
+t("Select the victim:", "희생양 선택:", "logPlayer")
+t([[Using demonic forces you create a link of pain from a source creature to a victim for %d turns.
+		Each time the source creature takes damage the victim takes %d%% of the damage.
+		If the victim dies from the effect you gain a burst of energy, reducing all remaining cooldowns by 1.]], [[악마의 힘을 사용해, 숙주와 희생양을 %d 턴 동안 고통의 연결로 묶어버립니다.
+		숙주가 피해를 받으면, 희생양 역시 해당 피해의 %d%% 를 받게됩니다.
+		이 효과로 희생양이 쓰러지면, 에너지 쇄도가 일어나, 모든 재사용 대기시간이 1 턴 단축됩니다.]], "tformat")
+t("Demon Horns", "악마의 뿔", "talent name")
 t("You require a weapon and a shield to use this talent.", "방패와 근접무기 없이 이 기술을 사용할 수 없다.", "logPlayer")
 t("%s resists the shield bash!", "%s 방패 강타에 저항했다!", "logSeen", nil, {"가"})
+t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d%% damage.
+		If the attack hits the creature is impaled by the horns, causing it to bleed black blood for 50%% of the damage done as darkness over 5 turns.
+		Any time you damage this foe in melee while it bleeds you get healed for %d (this can only happen once per turn).
+		The healing power increases with your spellpower.]], [[일시적으로 방패에 악마의 뿔을 자라나게 해, 적을 %d%% 피해로 가격합니다.
+		공격이 적중하면 대상은 뿔에 관통되어, 검은 피 출혈이 일어나 받은 피해의 50%% 에 해당하는 피해를 5 턴에 걸쳐 암흑 속성으로 받습니다.
+		출혈이 일어난 적을 근접 공격으로 공격할 시, 시전자의 생명력이 %d 회복됩니다. (이 효과는 한 턴에 1 번 일어납니다)
+		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/npcs.lua"
 
+t("Soul Eater", "영혼 포식자", "talent name")
+t("#CRIMSON#%s is bound to %s will.", "#CRIMSON#%s %s의 의지에 속박되어 있다.", "logSeen", nil, {"는"})
+t("#PURPLE#As %s falls down you see %s reach to it, devour its essence and raise it back as a demonic husk.", "#PURPLE#%s 쓰러지자, %s 접근해, 정수를 먹어치우고, demonic husk로 되살렸습니다.", "logSeen")
+t([[Any nearby allied creature that is not a summon will be bound to your will.
+		Each time a creature bound to your will dies it is resurrected as a demonic husk.
+		Demonic husks have:
+		- slow movement speed
+		- more life
+		- new demonic talents]], [[근처의 소환되지 않은 우호적인 개체들은 시전자의 의지에 속박됩니다.
+		시전자의 의지에 속박된 개체는 죽을 때, demonic husk 로 부활합니다.
+		Demonic husks :
+		- 느린 이동 속도
+		- 더 많은 생명력
+		- 새로운 악마의 기술들]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/oppression.lua"
 
+t("Horrifying Blows", "두려운 맹습", "talent name")
+t([[Your successful melee hits apply a stacking effect that decreases damage done by %d%%.
+		You can have up to %d stacks per target and further attacks refresh the duration, but any turn you are farther than %d spaces from the victim the fear will wear off quickly.
+		At level 3 it also slows by %0.2f%% per stack.
+		At level 5 you can horrify enemies in a radius of %d.
+		This talent ignores saves and immunities.
+		]], [[근접 공격을 명중시키면, 피해량을 %d%% 감소시키는 중첩형 효과를 적에게 적용합니다.
+		한 대상 당 %d 중첩을 쌓을 수 있고, 중첩을 쌓을 때 마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면, 이 효과는 즉시 사라집니다.
+		기술 레벨 3 일 때, 중첩 당 %0.2f%% 의 감속을 적용합니다.
+		기술 레벨 5 일 떄, 반경 %d 칸 내의 적을 두려움에 떨게합니다.
+		This talent ignores saves and immunities.
+		]], "tformat")
+t("Mass Hysteria", "집단 히스테리", "talent name")
+t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d.", "공포의 힘을 증폭해, 대상에게 중첩 당 효과 효율이 %d%% 상승하고, 지속시간이 %d 재설정됩니다. 증폭된 공포는 반경 %d 칸 내의 모든 적에게 전파됩니다.", "tformat")
+t("Fearfeast", "공포 포식", "talent name")
+t("You gain %.1f turns!", "당신은 %.1f 턴을 획득했다!", "logPlayer")
+t("You consume the fear of enemies in radius %d, healing for %d life and gaining %0.1f%% of a turn for each stack up to a max of %.1f turns.", "반경 %d 칸 내의 적들의 공포를 삼켜, 생명력을 %d 회복하고, 중첩 당 %0.1f%% 턴을 획득합니다. 최대 %.1f 턴을 획득할 수 있습니다.", "tformat")
+t("Hope Wanes", "흩어지느 희망", "talent name")
+t([[You crush the spirit of a target with at least %d fear stacks, consuming all stacks and making it unable to act for %d turns.
+		This talent ignores saves and immunities.]], [[적어도 %d 중첩 이상을 가진 적의 영혼을 파쇄합니다. 모든 중첩이 소모되고, %d 턴 동안 행동할 수 없게합니다.
+		이 기술은 모든 내성과 면역을 무시합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua"
 
+t("Rain of Fire", "화염의 비", "talent name")
+t([[You unleash the fury of the Spellblaze, constantly draining your vim.
+		While this spell is active at most two meteors will fall near your per turn, dealing %0.2f physical and %0.2f fire damage in radius 2.
+		This spell disabled automatically on rest or run.
+		The effects increase with spellpower.]], [[마법폭발의 분노를 표출합니다. 활성화 중에는 지속적으로 원기를 소모합니다
+		이 주문이 활성화 되면, 매 턴, 2 개의 운석우가 시전자 근처로 떨어져, 반경 2 칸 범위에 %0.2f 물리 피해와 %0.2f 화염 피해를 가합니다.
+		이 주문은 휴식 중이거나, 탐험 중일때 자동으로 비활성화됩니다.
+		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
+t("Only Ashes Left", "먼지만이 남으리라", "talent name")
+t([[Bringing about the darkest days of the Spellblaze you hasten the death of your foes.
+		When you deal damage to a creature in radius %d or less around you and it dips below 33%% life you automatically unleash the fury of the Spellblaze.
+		Affected foes will start taking %0.2f darkness damage each turn until it dies as long as it remains in radius %d of you.
+		The damage increases with spellpower.]], [[마법폭발의 가장 어두운 날을 현현시켜, 빠르게 죽음을 선고합니다.
+		반경 %d 칸 내의 적에게 공격을 가할 때, 대상의 생명력이 33%% 이하로 떨어지면 마법폭발의 분노를 자동으로 해방시킵니다.
+		영향을 받은 적은 매 턴 %0.2f 암흑 피해를 받습니다. 이 효과는 시전자를 기준으로 반경 %d 칸 내에 있을 시, 죽을 때 까지 지속됩니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Shattered Mind", "파괴된 정신", "talent name")
+t([[When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns.
+		While affected the creature will suffer %d%% chances to fail using talents and %d reduced physical, mental and spell saves.]], [[공격을 막을 시, 5 턴 동안 마법폭발의 충격이 공격자의 정신에 침투합니다.
+		지속시간 동안 대상은 %d%% 확률로 주문 시전에 실패하고, 물리, 정신, 마법 내성이 %d 감소합니다.]], "tformat")
+t("Tale of Destruction", "파괴의 이야기", "talent name")
+t([[You chant the destruction of Mal'Rok, the demon's homeworld.
+		Each time you kill a creature you send out a magical ripple in radius %d that applies a bane of blindness or confusion for %d turns.
+		Baned creatures also suffer %0.2f darkness damage per turn.
+		Damage increases with your spellpower.]], [[악마들의 모성인 말'록의 파괴에 대한 찬가를 부릅니다.
+		적으 쓰러뜨릴 때마다, 반경 %d 칸의 마법의 파문을 발산해, %d 턴 동안 지속되는 실명의 파멸이나 혼란의 파멸을 유발합니다
+		파멸한 적은 매 턴 %0.2f 암흑 피해를 받습니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/torture.lua"
 
 t("Incinerating Blows", "소각의 타격", "talent name")
+t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal %0.2f fire damage, spread over 3 turns.
+		Additionally, every time you attack, there is a %d%% chance of releasing a burst of powerful fire that will deal %0.2f fire damage to all enemies in radius %d over %d turns.
+		If this talent is not on cooldown, the burst of fire will instead be radius %d, and stun all targets in addition to burning them.
+		For the purposes of applying the stun, you have %d bonus spellpower.
+		The damage will increase with your Spellpower.]], [[공포의 영역의 힘을 무기에 주입하여 근접 공격이 3 턴에 걸쳐 %0.2f 화염 피해를 입힙니다.
+		추가로, 공격 시, %d%% 확률로 강렬한 화염 폭발을 일으켜, 반경 %d 칸 내의 모든 적에에게 %d 턴에 걸쳐 %0.2f 화염 피해를 가합니다.
+		이 기술이 재사용 대기시간이 아닐 시, 화염 폭발의 범위가 %d 칸이 되고, 폭발에 휘말린 적은 기절하고 화상을 입게됩니다.
+		기절 성공 여부를 판정할 때, 시전자는 추가적인 %d 주문력을 가진 것으로 간주됩니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {1,3,4,2,5,6})
+t("Abduction", "납치", "talent name")
+t("Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", "대상을 공격해 %d%% 무기 피해를 가합니다. 명중 시, 대상을 끌여들이고 한번 더 공격하여, %d%% 무기 피해를 추가로 가합니다.", "tformat")
+t("Fiery Torment", "불타는 고문", "talent name")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
+t([[Hits the target with your weapon doing %d%% weapon damage. If the attack hits, the target is afflicted with Fiery Torment for %d turns, reducing their fire resistance by %d%%.
+		When Fiery Torment ends the victim will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment.
+		The damage dealt by the effect will increase with spellpower.
+		Demons under fiery torment will be burned by the flames of the Fearscape.]], [[대상을 공격하여 %d%% 무기 피해를 가합니다. 명중 시, 대상은 %d 턴 동안 불타는 고문 효과를 받게되어 화염 저항이 %d%% 감소합니다.
+		불타는 고문의 효과가 끝나면 희생양은 %d 화염 피해를 받습니다. 이 피해량은 고문 동안 받은 모든 피해의 %d%% 만큼 증가합니다.
+		효과로 인해 받게되는 피해량은 주문력에 비례하여 증가합니다.
+		이 기술은 악마들에게 있어, 공포의 영역의 화염으로 취급됩니다.]], "tformat")
+t("Eternal Suffering", "영원한 고통", "talent name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
 
+t("Obliterating Smash", "소멸의 강타", "talent name")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
+t([[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
+		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d.
+		This attack can not miss.]], [[무기를 말도 안되는 힘으로 휘둘러, 반경 %d 칸의 반원 범위 내의 모든 적에게 %d%% 무기 피해를 가합니다.
+		기술 레벨 5 일 때, 공격받은 모든 적의 방어력과 내성이 %d 감소합니다.
+		이 공격은 반드시 명중합니다.]], "tformat")
+t("Detonating Charge", "격발의 돌진", "talent name")
 t("You can not do that currently.", "현재 그것을 할 수 없다.", "logPlayer")
 t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
+t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
+		If the attack hits you release a massive burst of fire in radius %d, knocking away all enemies except your target and dealing %d damage.
+		You must charge from at least 2 tiles away.]], [[대상에게 돌격해, %d%% 무기 피해를 가합니다.
+		명중 시, 강렬한 화염 폭발을 반경 %d 칸 내에 일으켜, 기술의 대상을 제외한 모든 적을 뒤로 밀치고 %d 피해를 가합니다.
+		적어도 2 칸 떨어진 적에게만 사용할 수 있습니다.]], "tformat")
+t("Voracious Blade", "탐식의 칼날", "talent name")
+t([[Your blade drinks in death. Whenever you score a kill with this talent off cooldown, your next %d melee attacks within 6 turns will always critically strike, and you gain %d%% critical multiplier for the duration.
+		Additionally, you gain an extra %d vim per kill.]], [[칼날이 죽음을 삼킵니다. 적을 쓰러뜨렸을 때, 이 기술의 재사용 대기시간이 초기화되고, 6 턴 동안 다음 %d 번의 근접 공격이 언제나 치명타를 유발합니다. 또한 지속시간 동안 치명타 피해량이 %d%% 증가합니다.
+		추가로, 적을 쓸어뜨렸을 때, 원기를 %d 추가로 획득합니다.]], "tformat")
 t("Destroyer", "파괴자", "talent name")
+t([[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
+		The physical power, stamina regen, and status resistances increase with your spellpower.
+		Your other talents also gain a variety of bonuses:
+		-Draining Assault: Reduces cooldown by %d.
+		-Reckless Strike: Gain %d%% resistance penetration for all elements for %d turns.
+		-Obliterating Smash: Increases range by %d.
+		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
+		-Incinerating Blows: Increases chance of bonus damage to %d%%.
+		-Fearfeast: Gain %0.1f vim per stack.
+		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[신체에서 공포의 구역의 두려운 힘이 흘러넘쳐, %d 턴 동안 강력한 악마로 변신할 수 있게됩니다. 물리력과 체력 재생이 %d 증가하고, 기절과 무장 해제 면역력이 %d%% 증가합니다.
+		물리력, 체력 재생, 상태 면역력은 주문력에 비례하여 증가합니다.
+		또한 다른 기술들도 이 기술에 영향을 받아, 보다 강력해집니다.
+		-흡수의 맹공 : 재사용 대기시간이 %d 턴 단축됩니다.
+		-난폭한 일격 : 모든 속성에 대한 %d%% 의 저항관통을 %d 턴 동안 얻습니다.
+		-소멸의 강타 : 범위가 %d 칸 증가합니다.
+		-납치 : 명중 시, %d 번의 공격을 추가로 가해, 타격 당 35%% 무기 피해를 가합니다.
+		-소각의 타격 : 추가 피해를 가할 확률이 %d%% 증가합니다.
+		-공포 포식 : 중첩 당 원기를 %0.1f 회복합니다.
+		-울흐'록의 아가리 : 원뿔 범위 각도가 %d 도 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/misc/races.lua"
 
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
+t("doomelf", "둠엘프", "_t")
 t("race", "종족", "talent category")
+t("Haste of the Doomed", "몰락한 자의 재빠름", "talent name")
+t("You must have an empty space to teleport to.", "순간이동을 하기 위해선 비어있는 위치를 대상으로 해야한다.", "logPlayer")
+t([[Hasten yourself out of phase, teleporting you to a specific location up to %d spaces away.
+		You can activate this talent up to twice within the same turn, but the second activation will not be instant.
+		Afterwards you stay out of phase for 5 turns. In this state your defense is increased by %d and all your resistances by %d%%.
+		The bonus will increase with your Willpower.]], [[재빠르게 위상에서 이탈해, 최대 %d 칸 내의 특정한 지역으로 순간이동합니다.
+		이 기술은 한 턴에 최대 2 번 사용할 수 있지만, 2 번째 사용은 턴을 소모합니다.
+		위상에서 이탈하고 다음 5 턴 동안, 회피도가 %d 상승하고, 모든 저항이 %d%% 증가합니다.
+		이 효과는 의지력에 비례하여 증가합니다.]], "tformat")
+t("Resilience of the Doomed", "몰락한 자의 강인함", "talent name")
+t([[The tortures you had to endure on the Fearscape have increased your resilience.
+		All detrimental status effects last %d%% less on you and all direct critical hits (physical, mental, spells) against you have a %d%% lower critical multiplier (but always do at least normal damage).]], [[공포의 구역에서 겪은 갖은 고문들은, 신체와 정신을 더욱 강하게 단련시켜주었습니다.
+		모든 부정적인 효과의 지속시간이 %d%% 단축되고, 모든 물리, 정신, 주문 치명타 피격 시, 치명타 피해량이 %d%% 감소합니다 (기본 피해량 이하로 피해를 줄일 수는 없습니다)]], "tformat")
+t("Corruption of the Doomed", "몰락한 자의 타락", "talent name")
+t([[Your original invisibility talent was corrupted and twisted.
+		You have %d%% chance to turn into a dúathedlen for 5 turns, when hit by a blow doing at least 10%% of your total life.
+		While in this form you gain the following effects:
+		- you have permanent stealth (power %d)
+		- your darkness damage is increased by %d%%
+		- any non mind and non physical damage you deal above %d triggers a darkness explosion of radius 1 for half the damage (this can only happen once per turn)
+		- when you transform the cooldowns of Haste of the Doomed and Pitiless are reset
+		]], [[원래 갖고있던 투명화 기술이 뒤틀리고, 타락되었습니다.
+		최대 생명력의 10%% 이상의 피해를 한 번에 받았을 떄, %d%% 확률로 5 턴 동안 듀아세들렌으로 변신합니다
+		이 떄 다음과 같은 효과를 받습니다.
+		- 영구적인 은신. (은신력 %d)
+		- 암흑 피해량이 %d%% 증가합니다.
+		- 피해량 %d 이상의 비정신적, 비물리적 피해가 반경 1 칸의 폭발을 일으켜, 폭발에 휩쓸린 적에게 절반의 피해를 줍니다. (이 효과는 한 턴에 1 번만 발동됩니다)
+		- 변신할 떄, 몰락한 자의 재빠름과 냉혹함의 재사용 대기시간이 초기화됩니다.
+		]], "tformat")
+t("Pitiless", "냉혹함", "talent name")
+t([[You launch a mental assault on the target.
+		The assult increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[대상에게 정신적 맹공을 가합니다.
+		맹공은 이미 재사용 대기시간 중인 %d 개의 기술의 재사용 대기시간을 연장합니다. 또한 모든 부정적인 마법, 물리, 또는 정신 효과의 지속시간을 %d 턴 연장하고, (최대 4 배 까지 연장 가능합니다) 모든 이로운 마법, 물리, 또는 정신 효과의 지속시간을 %d 턴 단축합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
 
+t("Demon Blade", "악마의 칼날", "_t")
+t("Fiery Torment", "불타는 고문", "_t")
 t("Destroyer", "파괴자", "_t")
+t("Voracious Blade", "탐식의 칼날", "_t")
 t("Blazing Rebirth", "불사르는 부활", "_t")
 t("Fiery Grasp", "불타는 손아귀", "_t")
 t("pin", "속박", "effect subtype")
@@ -648,9 +830,12 @@ t("cut", "상처", "effect subtype")
 t("wound", "상처", "effect subtype")
 t("#Target# starts to bleed darkness.", "#Target#의 그림자 상처에서 피가 흘러나온다.", "_t")
 t("#Target# stops bleeding darkness.", "#Target#의 그림자 상처가 아물었다.", "_t")
+t("Link of Pain", "고통의 연결", "_t")
 t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d 연결)#LAST#", "tformat")
+t("Only Ashes Left", "먼지만이 남으리라", "_t")
 t("darkness", "암흑", "effect subtype")
 t("#Target# stops burning.", "#Target#의 화상이 치유되었다.", "_t")
+t("Shattered Mind", "파괴된 정신", "_t")
 t("spellblaze", "마법폭발", "effect subtype")
 t("Dark Reign", "어둠의 지배", "_t")
 t("Blood Pact", "피의 계약", "_t")
@@ -664,6 +849,7 @@ t("Blood Drinker", "피를 마시는 자", "_t")
 t("Ominous Shadow", "불길한 그림자", "_t")
 t("#Target# vanishes from sight.", "#Target1# 시야에서 사라졌다.", "_t")
 t("#Target# is no longer invisible.", "#Target2# 다시 불투명해졌다.", "_t")
+t("Corruption of the Doomed", "몰락한 자의 타락", "_t")
 t("arcane", "비전", "effect subtype")
 t("blight", "황폐", "effect subtype")
 t("#Target# is no longer transformed.", "#Target#의 변신이 끝났다.", "_t")

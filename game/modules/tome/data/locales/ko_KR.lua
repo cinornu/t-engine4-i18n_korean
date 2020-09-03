@@ -2448,6 +2448,7 @@ t("Stairs can not be used for 2 turns after a kill.", "살해 후 2 턴 동안 �
 t("Nightmare", "악몽", "birth descriptor name")
 t("#GOLD##{bold}#Nightmare mode#WHITE##{normal}#", "#GOLD##{bold}#악몽 난이도#WHITE##{normal}#", "_t")
 t("Unfair game setting", "불합리한 게임 난이도", "_t")
+t("All zone levels increased by 25% by the time Player reaches level 10", "플레이어가 레벨 10 에 도달할 때, 모든 지역의 레벨이 25% 증가됩니다", "_t")
 t("All creature talent levels increased by 30%", "모든 개체의 기술 레벨이 30% 증가합니다", "_t")
 t("Unique (fixed) bosses advance in bonus classes 30% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 30% 빠릅니다", "_t")
 t("Rare creatures are slightly more frequent", "희귀 등급의 적이 좀 더 자주 등장합니다.", "_t")
@@ -2465,6 +2466,7 @@ t("Player can earn Insane version of achievements if also playing in Roguelike o
 t("Madness", "광기", "birth descriptor name")
 t("Insane is for the weak! Bring on the true mind-shattering experience!", "미친 난이도도 너무 쉽다! 진정한 정신 붕괴를 내게 가저와라!", "_t")
 t("#GOLD##{bold}#Madness mode#WHITE##{normal}#", "#GOLD##{bold}#광기 난이도#WHITE##{normal}#", "_t")
+t("Absolutely unfair game setting. Prepare for the full wrath of DarkGod!", "지극히 불합리한 게임 난이도입니다. 다크갓의 분노를 목도하라!", "_t")
 t("All zone levels increased by 150% + 2 by the time Player reaches level 10", "플레이어가 레벨 10 에 도달할 때, 모든 지역의 레벨이 150% + 2 만큼 증가됩니다", "_t")
 t("All creature talent levels increased by 170%", "모든 개체의 기술 레벨이 170% 증가합니다%", "_t")
 t("Unique (fixed) bosses advance in bonus classes 170% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 170% 빠릅니다", "_t")
@@ -7877,6 +7879,7 @@ t("iron throne", "철의 왕좌", "newLore category")
 section "game/modules/tome/data/lore/keepsake.lua"
 
 t("Kyless", "키레스", "_t")
+t("Keepsake", "남겨진 것", "_t")
 
 
 ------------------------------------------------
@@ -8534,7 +8537,7 @@ t("You have prevented the portal to the Void from opening and thus stopped the C
 t("In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "지극히 이타적인 마음으로, 고위 태양의 기사 아에린은 그녀 스스로를 희생하여 공허와 통하는 차원문을 닫아, 창조자가 이 세상을 끝내려 강림하려는 것을 저지했습니다.", "_t")
 t("In a selfless act, you sacrificed yourself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "지극히 이타적인 마음으로, 당신은 스스로를 희생하여 공허와 통하는 차원문을 닫아, 창조자가 이 세상을 끝내려 강림하려는 것을 저지했습니다.", "_t")
 t("The Gates of Morning have been destroyed and the Sunwall has fallen. The last remnants of the free people in the Far East will surely diminish, and soon only orcs will inhabit this land.", "아침의 문은 파괴되었고 태양의 장벽은 몰락했습니다. 동대륙의 나머지 사람들도 곧 사라질 것이고, 머지않아 오크가 이 땅을 지배하게 될 것입니다.", "_t")
-t("The orc presence in the Far East has greatly been diminished by the loss of their leaders and the destruction of the Sorcerers. The free people of the Sunwall will be able to prosper and thrive on this land.", "동대륙 오크들은 그들의 지배자를 잃은 것과 주술사들의 죽음으로 세력이 굉장히 약화되었습니다. 자유로워진 태양의 장벽의 사람들은 이 땅에서 번영하게 될 것입니다.", "_t")
+t("The orc presence in the Far East has greatly been diminished by the loss of their leaders and the destruction of the Sorcerers. The free people of the Sunwall will be able to prosper and thrive on this land.", "동대륙 오크들은 그들의 지도자를 잃은 것과 주술사들의 죽음으로 세력이 굉장히 약화되었습니다. 자유로워진 태양의 장벽의 사람들은 이 땅에서 번영하게 될 것입니다.", "_t")
 t("Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", "마즈'에이알은 다시 한 번 평화로워질 것입니다. 대부분의 사람들은 자신들의 삶이 벼랑 끝까지 몰렸었다는 것을 영영 알지 못할 것입니다. 하지만 그 누구도 알지 못한다 해도 올바른 일을 하는 것이야말로, 그것이야말로 진정한 영웅이 된다는 것입니다.", "_t")
 t("You may continue playing and enjoy the rest of the world.", "계속해서 플레이해, 이 세상의 나머지 부분을 즐길 수도 있습니다.", "_t")
 
@@ -8542,29 +8545,106 @@ t("You may continue playing and enjoy the rest of the world.", "계속해서 플
 ------------------------------------------------
 section "game/modules/tome/data/quests/infinite-dungeon.lua"
 
+t("The Infinite Dungeon", "무한의 던전", "_t")
+t("You have entered the Infinite Dungeon. There is no going back now.", "무한의 던전에 들어왔습니다. 돌아가는 길은 없습니다.", "_t")
+t("Go deep, fight, win or die in a blaze of glory!", "깊이 내려가, 싸우고, 승리하거나 영광의 불꽃 속에서 죽으세요!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/keepsake.lua"
 
+t("Keepsake", "남겨진 것", "_t")
+t("You have begun to look for a way to overcome the curse that afflicts you.", "스스로를 좀먹고 있는 저주를 극복할 방법을 찾기 시작했습니다.", "_t")
+t("Your curse has changed the iron acorn which now serves as a cruel reminder of your past and present.", "당신의 저주가 철 도토리를 변화시켰습니다. 이제 도토리는 당신의 과거와 현재를 잔혹하게 떠올리게 해 주는 물건이 되었습니다.", "_t")
+t("You have found a small iron acorn which you keep as a reminder of your past", "과거를 잊지 않게 해 주는 물건으로 간직하고 있던, 작은 철 도토리를 찾아냈습니다.", "_t")
+t("Berethh is dead, may he rest in peace.", "베레스는 죽었습니다. 그가 안식을 찾았길.", "_t")
+t("Your curse has defiled the iron acorn which now serves as a reminder of your vile nature.", "당신의 저주는 철 도토리를 오염시켰습니다. 이제 도토리는 당신의 혐오스러운 본성을 떠올리게 해 주는 물건이 되었습니다.", "_t")
+t("Kyless, the one who brought the curse, is dead by your hand.", "저주를 갖고 있던 자들 중 한 명이었던 키레스는 당신의 손에 죽었습니다.", "_t")
+t("#LIGHT_GREEN#You need to find Berethh, the last person who may be able to help you.", "#LIGHT_GREEN#당신을 도울 수도 있는 마지막 사람인 베레스를 찾아야 합니다.", "_t")
+t("You have destroyed the merchant caravan that you once considered family.", "한때 가족이라고 생각했던 캐러밴을 전부 죽였습니다.", "_t")
+t("#LIGHT_GREEN#Seek out Kyless' cave in the northern part of the meadow and end him. Perhaps the curse will end with him.", "#LIGHT_GREEN#목초지 북쪽에서 키레스의 동굴을 찾아내 그를 끝장내야 합니다. 아마도 저주는 그와 함께 사라질 것입니다.", "_t")
+t("You have found a small iron acorn which you keep as a reminder of your past.", "과거를 잊지 않게 해 주는 물건으로 간직하고 있던, 작은 철 도토리를 찾아냈습니다.", "_t")
+t("#LIGHT_GREEN#Discover the meaning of the acorn and the dream.", "#LIGHT_GREEN#도토리와 꿈의 의미를 알아내야 합니다.", "_t")
+t("#LIGHT_GREEN#You may have to revist your past to unlock some secret buried there.", "#LIGHT_GREEN#당신의 과거를 되돌아보아야 할 지도 모릅니다. 뭔가 비밀이 숨겨져 있을 수도 있으니.", "_t")
+t("#VIOLET#The time has come to learn the true nature of your curse.", "#VIOLET#저주의 본질에 대해 알게 될 시간이다.", "logPlayer")
+t("#VIOLET#You find yourself in a dream.", "#VIOLET#꿈 속에서 자신을 찾아냈다.", "logPlayer")
+t("#VIOLET#Your hate surges. You refuse to succumb to death!", "#VIOLET#증오가 끓어오른다. 죽음의 손길을 거부했다!", "logPlayer")
+t("#VIOLET#You have discovered a small iron acorn, a link to your past.", "#VIOLET#자신의 과거와 연결되어 있는 작은 철 도토리를 발견했다.", "logPlayer")
+t("#VIOLET#The merchant caravan from the past has appeared in your dream.", "#VIOLET#옛날의 캐러밴이 꿈에 나타났다.", "logPlayer")
+t("Last of the Caravan", "캐러밴 최후의 생존자", "_t")
+t("secret path to the cave", "동굴로 통하는 숨겨진 길", "_t")
+t("#VIOLET#You have begun your hunt for Kyless!", "#VIOLET#키레스 사냥을 시작했다!", "logPlayer")
+t("#VIOLET#You have a marker to the entrance of Kyless' cave!", "#VIOLET#키레스의 동굴 입구의 표식이 있다!", "logPlayer")
+t("#VIOLET#You have found the entrance to Kyless' cave!", "#VIOLET#키레스의 동굴 입구를 찾아냈다!", "logPlayer")
+t("#VIOLET#You have found the entrance to a vault!", "#VIOLET#볼트 입구를 찾아냈다!", "logPlayer")
+t("#VIOLET#The shadows have noticed you!", "#VIOLET#그림자가 당신을 발견했다!", "logPlayer")
+t("A Second Vault", "두 번째 볼트", "_t")
+t("You recoginize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "이 문이 두 번째 볼트의 입구였다는 걸 떠올렸습니다. 문의 반대편에서 슥슥 움직이는 소리와 거친 숨소리가 들리고 있습니다.", "_t")
+t("#VIOLET#You have found Kyless. You must destroy him.", "#VIOLET#키레스를 찾아냈다. 박살내야 한다.", "logPlayer")
+t("Death of Kyless", "키레스의 죽음", "_t")
+t("#VIOLET#Kyless is dead.", "#VIOLET#키레스가 죽었다.", "logPlayer")
 t("Berethh", "베레스", "_t")
+t("#VIOLET#Berethh lies dead.", "#VIOLET#베레스가 죽어 널부러져 있다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/kryl-feijan-escape.lua"
 
+t("The Sect of Kryl-Feijan", "키릴-페이얀의 사교도", "_t")
+t("You discovered a sect worshipping a demon named Kryl-Feijan in a crypt.", "지하실에서 키릴-페이얀이라는 이름의 악마를 숭배하는 사교도들을 발견했습니다.", "_t")
+t("They were trying to bring it back into the world using a human sacrifice.", "그들은 인신공양을 통해 그 악마를 이 세계로 다시 불러들이려 하고 있습니다.", "_t")
+t("You defeated the acolytes and saved the woman. She told you she is the daughter of a rich merchant of Last Hope.", "악마의 시종들을 처치하고 여자를 구했습니다. 그녀는 자신이 마지막 희망에 사는 부유한 상인의 딸이라고 했습니다.", "_t")
+t("You failed to protect her when escorting her out of the crypt.", "지하실을 나가면서 그녀를 호위하는 데에 실패했습니다.", "_t")
+t("You failed to defeat the acolytes in time - the woman got torn apart by the demon growing inside her.", "악마의 시종들을 제때 처치하지 못했습니다 - 여자는 그녀의 몸 속에서 자라고 있던 악마가 산산조각 내 버렸습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/lichform.lua"
 
+t("From Death, Life", "죽음으로부터 얻는 삶", "_t")
+t("The affairs of this mortal world are trifling compared to your true goal: To conquer death.", "이 필멸자들의 세상에서 일어나는 일들은 하찮기 짝이 없는 것들입니다. 당신의 진정한 목표와 비교하면 말입니다. 바로 죽음을 정복하는 것이죠.", "_t")
+t("Your studies have uncovered much surrounding this subject, but now you must prepare for your glorious rebirth.", "당신의 연구는 이 주제와 관련된 것들을 대부분 밝혀냈지만, 이제 스스로의 영예로운 환생을 준비해야만 합니다.", "_t")
+t("You will need:", "필요할 것들:", "_t")
+t("#LIGHT_GREEN#* You are experienced enough.#WHITE#", "#LIGHT_GREEN#* 당신의 경험은 충분합니다.#WHITE#", "_t")
+t("#SLATE#* The ceremony will require that you are worthy, experienced, and possessed of a certain amount of power (level 25, Magic over 50, Willpower over 25 and one prodigy point available).#WHITE#", "#SLATE#* 이 의식을 거행하려면 당신은 충분히 가치가 있고, 경험이 풍부해야 하며, 힘을 어느 정도 갖고 있어야 합니다 (레벨 25, 마법 능력치 50 이상, 의지 능력치 25 이상, 그리고 특수 기술 점수 1점이 필요).#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have 'extracted' the heart of one of your fellow necromancers.#WHITE#", "#LIGHT_GREEN#* 동기뻘 강령술사 중 한 명의 심장을 '추출' 했습니다.#WHITE#", "_t")
+t("#SLATE#* The beating heart of a powerful necromancer.#WHITE#", "#SLATE#* 강력한 강령술사의 살아 있는 심장.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Yiilkgur the Sher'tul Fortress is a suitable location.#WHITE#", "#LIGHT_GREEN#* 쉐르'툴 요새 일크구르가 적당한 장소일 것입니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Yiilkgur has enough energy.#WHITE#", "#LIGHT_GREEN#* 일크구르에 충분한 에너지가 모여 있습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You are now on the path of lichdom.#WHITE#", "#LIGHT_GREEN#* 리치가 되기 위한 모든 준비가 끝났습니다.#WHITE#", "_t")
+t("#SLATE#* Use the control orb of Yiilkgur to begin the ceremony.#WHITE#", "#SLATE#* 의식을 시작하려면 일크구르의 제어 오브를 사용하세요.#WHITE#", "_t")
+t("#SLATE#* Your lair must amass enough energy to use in your rebirth (40 energy).#WHITE#", "#SLATE#* 당신의 거처에 환생에 쓸 수 있을 만큼의 충분한 에너지가 필요합니다 (40 에너지).#WHITE#", "_t")
+t("#SLATE#* The ceremony will require a suitable location, secluded and given to the channelling of energy#WHITE#", "#SLATE#* 의식을 치르려면 적합한 장소가 필요합니다. 고립되어 있고, 에너지를 집중시킬 수 있는 장소가 좋겠습니다.#WHITE#", "_t")
 t("Lichform", "리치 형상", "_t")
+t("The secrets of death lay open to you! You are to become a Lich upon your next death!", "죽음의 비밀이 눈앞에 열려 있습니다! 다음 번에 죽으면 리치가 됩니다!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/lightning-overload.lua"
 
+t("Storming the city", "폭풍 치는 마을", "_t")
+t("As you approached Derth you saw a huge dark cloud over the small town.", "데르스에 가까이 가자 그 조그만 마을 위에 거대한 먹구름이 끼어 있는 게 보였습니다.", "_t")
+t("When you entered you were greeted by an army of air elementals slaughtering the population.", "마을에 들어가자, 사람들을 학살하고 있는 대기의 정령 군단이 반겨 줍니다.", "_t")
+t(" * You have dispatched the elementals but the cloud lingers still. You must find a powerful ally to remove it. There are rumours of a secret town in the mountains, to the southwest. You could also check out the Ziguranth group that is supposed to fight magic.", " * 정령들을 전부 처리했지만 여전히 구름이 남아 있습니다. 이걸 없앨 수 있을 만한 사람들을 찾아야 합니다. 그러고보니 남서쪽 산 안쪽에 비밀스러운 마을이 있다는 소문이 있습니다. 또, 마법에 맞서 싸우려는 지구랏 단체를 확인해 볼 수도 있습니다.", "_t")
+t(" * You have learned the real threat comes from a rogue Archmage, a Tempest named Urkis. The mages of Angolwen are ready to teleport you there.", " * 이 사태의 원인은 우르키스라는 이름의 탈주 대기술사라는 것을 알았습니다. 앙골웬의 마법사들이 당신을 우르키스가 있는 곳으로 보내 줄 준비를 마쳤습니다.", "_t")
+t(" * You have learned the real threat comes from a rogue Archmage, a Tempest. You have been shown a secret entrance to his stronghold.", " * 이 사태의 원인은 탈주한 대기술사라는 것을 알았습니다. 놈의 거점으로 통하는 숨겨진 입구를 찾아냈습니다.", "_t")
+t(" * You have slain Urkis.  Return to Angolwen or Zigur for a reward.", " * 우르키스를 처단했습니다. 앙골웬이나 지구르로 돌아가 보상을 받으세요.", "_t")
+t(" * Urkis has been dealt with. Permanently.", " * 우르키스 건은 잘 처리되었습니다. 영원히요.", "_t")
+t("Scared Halfling", "겁먹은 하플링", "_t")
+t([[You step out on unfamiliar grounds. You are nearly on top of one of the highest peaks you can see.
+The storm is raging above your head.]], [[낯선 곳으로 발걸음을 내딛습니다. 눈으로 볼 수 있는 곳들 중 가장 높은 봉우리들, 그 중 하나의 정상 근처에 와 있습니다.
+머리 위쪽에서 폭풍이 휘몰아치고 있습니다.]], "_t")
+t([[As you arrive in Derth you notice a huge dark cloud hovering over the town.
+You hear screams coming from the town square.]], [[데르스에 도착하자 거대한 먹구름이 마을 위를 떠다니고 있는 걸 발견했습니다.
+마을 광장 쪽에서 비명 소리가 들립니다.]], "_t")
 t("Danger...", "위험...", "_t")
+t([[It seems the Ziguranth have kept their word.
+Derth is free of the storm cloud.]], [[지구랏이 약속을 지킨 모양입니다.
+데르스는 폭풍에서 해방되었습니다.]], "_t")
+t("Clear sky", "쾌청한 하늘", "_t")
+t([[It seems the mages have kept their word.
+Derth is free of the storm cloud.]], [[마법사들이 약속을 지킨 모양입니다.
+데르스는 폭풍에서 해방되었습니다.]], "_t")
 
 
 ------------------------------------------------
@@ -13038,7 +13118,7 @@ t([[While Master Summoner is active, when a creature you summon appears in the w
 		- Spider: Pins all foes in the radius
 		Radius for effects is %d, and the duration of each lasting effect is %d turns.
 		The effects improve with your mindpower.]], [[소환의 달인이 활성화 된 동안, 이 세계로 불러온 소환수들이 야성적인 효과를 얻게됩니다.
-		- 불꽃뿜는 리치: 주위 적들의 화염 피해 저항을 %d%% 감소 시킵니다.
+		- 불꽃뿜는 릿치: 주위 적들의 화염 피해 저항을 %d%% 감소 시킵니다.
 		- 히드라: 오랫동안 유지되는 독구름을 생성하여, 범위 내의 모든 적에게 %0.1f 자연 피해를 턴 마다 입힙니다. (중첩 가능합니다)
 		- 서리 나무: 주위 적들의 냉기 피해 저항을 %d%% 감소 시킵니다.
 		- 화염 드레이크: %d 어린 화염 드레이크가 추가로 나타납니다.
@@ -13071,7 +13151,7 @@ t([[For %d turn(s), you have 100%% chance that your summons appear as a wild ver
 		Effects scale with levels in summon talents.]], [[%d 턴 동안, 100%% 확률로 야생의 소환수를 소환합니다.
 		이 확률은 턴 마다 점점 감소합니다.
 		야생의 소환수는 일반 소환수보다 하나 더 많은 기술을 가지고 있습니다:
-		- 불꽃뿜는 리치: 하늘을 날수 있으며, 대상과 리치 사이의 적들을 무시하고 대상을 공격합니다.
+		- 불꽃뿜는 릿치: 하늘을 날수 있으며, 대상과 릿치 사이의 적들을 무시하고 대상을 공격합니다.
 		- 히드라: 숨결에 아군이 휘말릴 경우, 숨결대신 압축한 화살을 뱉어냅니다.
 		- 서리 나무: 적들을 붙잡아, 얼음 폭풍 쪽으로 끌어당깁니다.
 		- 화염 드레이크: 적들을 침묵시키는 강력한 포효를 내지릅니다.
@@ -15176,7 +15256,7 @@ t([[Assume a defensive mental state.
 		기술을 사용하기 위해서는 염동력 장착 무기가 필요합니다]], "tformat")
 t("Impale", "꿰뚫기", "talent name")
 t("You cannot do that without a weapon in your telekinetic slot.", "염동력 장착 무기가 없이는 할 수 없다.", "logPlayer")
-t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방어구를 박살낸다!", "logSeen", {"가"}, {"는"})
+t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방어구를 박살낸다!", "logSeen", nil, {"가","는"})
 t([[Focus your will into a powerful thrust of your telekinetically-wielded weapon to impale your target and then viciously rip it free.
 		This deals %d%% weapon damage and then causes the victim to bleed for %0.1f Physical damage over four turns.
 		At level 3 the thrust is so powerful that it has %d%% chance to shatter a temporary damage shield if one exists.
@@ -16694,7 +16774,7 @@ t("Death Dance", "죽음의 무도", "talent name")
 t("You cannot use Death Dance without a two-handed weapon!", "양손 무기가 없으면 죽음의 무도를 사용할 수 없습니다!", "logPlayer")
 t([[Spin around, extending your weapon in radius %d and damaging all targets around you for %d%% weapon damage.
 		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]], [[회전하며 반경 %d 칸까지 무기를 뻗어 범위 내에 %d%% 무기 피해를 줍니다.
-		기술 레벨 3 에서, 가해진 피해가 대상에게 출혈을 유발해 추가 피해 %d%% 를 5 턴]], "tformat")
+		기술 레벨 3 에서, 가해진 피해가 대상에게 출혈을 유발해 추가 피해 %d%% 를 5 턴 걸쳐 가합니다.]], "tformat")
 t("Execution", "처형", "talent name")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
 t([[Takes advantage of a wounded foe to perform a killing strike.  This attack is an automatic critical hit that does %0.1f%% extra weapon damage for each %% of life the target is below maximum.
@@ -16739,7 +16819,7 @@ t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the
 		기절 확률은 물리력에 비례하여 증가합니다.]], "tformat")
 t("Sunder Armour", "방어구 부수기", "talent name")
 t("You cannot use Sunder Armour without a two-handed weapon!", "양손 무기 없이는 방어구 부수기를 사용할 수 없습니다!!", "logPlayer")
-t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방어구를 박살낸다!", "logSeen", {"가"}, {"는"})
+t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방어구를 박살낸다!", "logSeen", nil, {"가","는"})
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's armour and saves are reduced by %d for %d turns.
 		Also if the target is protected by a temporary damage shield there is %d%% chance to shatter it.
 		Armor reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 방어와 모든 내성이 %d 턴 동안 %d 감소합니다.
@@ -17626,7 +17706,7 @@ t([[You enter an aggressive battle rage, increasing Accuracy by %d and Physical 
 		이 기술이 유지 중일지라도, 시야 내에 적이 없다면 활성화 되지 않습니다.
 		정확도 상승량은 민첩에 비례하여 증가하고, 물리력 상승량은 힘에 비례하여 증가합니다.]], "tformat")
 t("Shattering Blow", "파쇄의 일격", "talent name")
-t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방어구를 박살낸다!", "logSeen", {"가"}, {"는"})
+t("#CRIMSON#%s shatters %s shield!", "#CRIMSON#%s %s의 방어구를 박살낸다!", "logSeen", nil, {"가","는"})
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's armour and saves are reduced by %d for %d turns.
 		Also if the target is protected by a temporary damage shield there is %d%% chance to shatter it.
 		Armor reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 방어와 모든 내성이 %d 턴 동안 %d 감소합니다.
@@ -18317,6 +18397,8 @@ t("Lich", "리치", "talent name")
 t("Is a living creature that knows necromancy", "사령술을 알고있는 살아있는 생명체일 것", "_t")
 t("Have completed the ritual", "의식을 모두 완료했을 것", "_t")
 t("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "#GREY#강력한 언데드로 변하자, 당신의 몸이 생명의 피를 강하게 거부하는 것을 느꼈다.", "log")
+t("Customize Appearance", "외형 변경", "_t")
+t("Use Default", "기본 사용", "_t")
 t("Lichform", "리치 형상", "_t")
 
 
@@ -20859,7 +20941,7 @@ t("-Numbing Blight", "-마비성 역병", "_t")
 t("Eldritch Stone Shield", "일그러진 바위 방패", "_t")
 t("The target is surrounded by a stone shield absorbing %d/%d damage.  When the shield is removed, it will explode for up to %d (currently %d) Arcane damage in a radius %d.", "피해 흡수량 %d/%d damage / 보호막이 사라질 때 최대 %d 비전 피해(현재 %d) 를 반경 %d 칸에 터뜨림.", "tformat")
 t("#Target# is encased in a stone shield.", "#Target2# 바위 보호막으로 둘러쌓였다.", "_t")
-t("The stone shield around #Target# %s", "#Target# 을 감싸는 바위 보호막이 %s", "tformat")
+t("The stone shield around #Target# %s", "#Target3# 감싸는 바위 보호막이 %s", "tformat")
 t("crumbles.", "으스러진다.", "_t")
 t("explodes!", "폭발한다!", "_t")
 t("Deeprock Form", "깊은 바위 형상", "_t")
@@ -21183,19 +21265,19 @@ t("#Target# is no longer frenzied.", "#Target2# 더 이상 광폭화 상태가 �
 t("Spiked Kinetic Shield", "해방된 동역학 보호막", "_t")
 t(", nature", ", 자연", "_t")
 t(", temporal", ", 시간", "_t")
-t("The target erects a powerful kinetic shield capable of absorbing %d/%d physical%s or acid damage before it crumbles.", "물리%s, 산성 피해 보호막 %d/%d.", "tformat")
+t("The target erects a powerful kinetic shield capable of absorbing %d/%d physical%s or acid damage before it crumbles.", "물리 %s, 산성 피해 보호막 %d/%d.", "tformat", {3,1,2})
 t("A powerful kinetic shield forms around #target#.", "강력한 동역학 보호막이 #target3# 둘러싼다.", "_t")
 t("The powerful kinetic shield around #target# crumbles.", "#target#의 강력한 동역학 보호막이 부서진다.", "_t")
 t("Spiked Thermal Shield", "해방된 열역학 보호막", "_t")
 t(", arcane", ", 비전", "_t")
 t(", light", ", 빛", "_t")
-t("The target erects a powerful thermal shield capable of absorbing %d/%d fire%s or cold damage before it crumbles.", "화염%s, 냉기 피해 보호막 %d/%d.", "tformat")
+t("The target erects a powerful thermal shield capable of absorbing %d/%d fire%s or cold damage before it crumbles.", "화염 %s, 냉기 피해 보호막 %d/%d.", "tformat", {3,1,2})
 t("A powerful thermal shield forms around #target#.", "강력한 열역학 보호막이 #target3# 둘러싼다.", "_t")
 t("The powerful thermal shield around #target# crumbles.", "#target#의 강력한 열역학 보호막이 부서진다.", "_t")
 t("Spiked Charged Shield", "해방된 전기역학 보호막", "_t")
 t(", darkness", ", 암흑", "_t")
 t(", mind", ", 정신", "_t")
-t("The target erects a powerful charged shield capable of absorbing %d/%d lightning%s or blight damage before it crumbles.", "빛%s, 황폐 피해 보호막 %d/%d.", "tformat")
+t("The target erects a powerful charged shield capable of absorbing %d/%d lightning%s or blight damage before it crumbles.", "전기 %s, 황폐 피해 보호막 %d/%d.", "tformat", {3,1,2})
 t("A powerful charged shield forms around #target#.", "강력한 전기역학 보호막이 #target3# 둘러싼다.", "_t")
 t("The powerful charged shield around #target# crumbles.", "#target#의 강력한 전기역학 보호막이 부서진다.", "_t")
 t("Perfect control", "완벽한 통제", "_t")
@@ -21295,7 +21377,7 @@ t("+Rampage", "+광란", "_t")
 t("-Rampage", "-광란", "_t")
 t("%s has shrugged off %d damage and is ready for more.", "%s %d 피해를 감소시켰다. 아직 더 감소시킬 수 있다.", "logSeen", nil, {"는"})
 t("#F53CBE#Your rampage is invigorated by the intense onslaught! (+1 duration)", "#F53CBE#당신의 저돌적인 맹공이 광란 상태를 1 턴 연장시킨다!", "logPlayer")
-t("#F53CBE#You feel your rampage slowing down. (-1 duration)", "#F53CBE#당신은 광란이 꺼저가는것을 느꼈다. 지속시간 -1 턴)", "logPlayer")
+t("#F53CBE#You feel your rampage slowing down. (-1 duration)", "#F53CBE#당신은 광란이 꺼져가는것을 느꼈다. 지속시간 -1 턴)", "logPlayer")
 t("Orcish Fury", "오크의 분노", "_t")
 t("The target enters a destructive fury, increasing all damage done by %d%%.", "가하는 모든 피해량 +%d%%.", "tformat")
 t("#Target# enters a state of bloodlust.", "#Target2# 오크의 분노에 돌입했다.", "_t")
@@ -22447,7 +22529,7 @@ t("Parrying", "받아넘기기", "_t")
 t(" and ranged", " , 원거리", "_t")
 t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "근접%s 공격을 받아 넘김 : 다음 %0.1f 번의 공격을 %d%% 확률로 받아 넘겨, 최대 %d 의 피해량을 감소함. 받아넘겨진 공격은 치명타가 일어나지 않음.", "tformat", {1,4,2,3})
 t("Reduces all damage taken by %d.", "받는 피해량 -%d.", "tformat")
-t("#CRIMSON##Source# heals from blocking with %s shield!", "#CRIMSON##Source2# 공격을%s 방패로 막아내, 생명력을 회복한다!", "delayedLogMessage")
+t("#CRIMSON##Source# heals from blocking with %s shield!", "#CRIMSON##Source2# 공격을 %s 방패로 막아내, 생명력을 회복한다!", "delayedLogMessage")
 t("%s resists the disarming attempt!", "%s 무장 해제에 저항했다", "logSeen", nil, {"는"})
 t("Counterstrike", "반격 약화", "_t")
 t("Vulnerable to deadly counterstrikes. Next melee attack will inflict double damage.", "다음 근접 공격의 피해량이 2 배가 됨.", "_t")
@@ -22463,7 +22545,7 @@ t("Grappling Defensively", "방어적인 유술", "_t")
 t("Has a %d%% chance to counter attack with a defensive throw when avoiding a melee attack, possibly throwing the target to the ground and stunning it. (%0.1f throws remaining)", "근접 공격 회피 시 %d%% 확률로 대상을 업어침. 기술에 당한 대상은 속박되고, 기절함. (남은 업어치기 횟수 %0.1f)", "tformat")
 t("Ravage", "대파괴", "_t")
 t("each turn.", "매 턴.", "_t")
-t("The target is being ravaged by distortion, taking %0.2f physical damage %s", "%s %0.2f 물리피해 받음", "tformat")
+t("The target is being ravaged by distortion, taking %0.2f physical damage %s", "%s %0.2f 물리피해 받음", "tformat", {2,1})
 t("+Ravage", "+대파괴", "_t")
 t("#Target# is no longer being ravaged.", "#Target2# 대파괴의 영향에서 벗어났다.", "_t")
 t("-Ravage", "-대파괴", "_t")
@@ -22546,7 +22628,7 @@ t("+Juggernaut", "+파괴 전차", "_t")
 t("-Juggernaut", "-파괴 전차", "_t")
 t("Natural Replenishment", "자연적 보급", "_t")
 t("The target has been directly exposed to arcane energies and has responded by reasserting it's connection to nature, restoring %0.1f Equilibrium per turn.", "-매 턴 평정 %0.1f.", "tformat")
-t("#Target# defiantly reasserts %s connection to nature!", "#Target1# 자연과의 관개를 재확인했다!", "tformat")
+t("#Target# defiantly reasserts %s connection to nature!", "#Target1# %s 자연과의 관계를 재확인했다!", "tformat")
 t("+Nature Replenishment", "+자연적 보급", "_t")
 t("#Target# stops restoring Equilibrium.", "#Target#의 평정 회복이 끝났다.", "_t")
 t("-Nature Replenishment", "-자연적 보급", "_t")
@@ -22557,7 +22639,7 @@ t("Increases stamina regeneration by %d, movement and attack speed by %d%%.", "�
 t("Directed Speed", "직행 속도", "_t")
 t("#Target# loses speed.", "#Target2# 느려진다.", "_t")
 t("-Directed Speed", "-직행 속도", "_t")
-t("Target is currently moving with %d%% additional speed in a single direction (%s). Stopping or changing directions will remove this effect.", "%s으로 이동할 때, 이동 속도 +%d%% / 이동을 멈추거나, 방향을 바꾸면 이 효과가 즉시 중단됨.", "tformat")
+t("Target is currently moving with %d%% additional speed in a single direction (%s). Stopping or changing directions will remove this effect.", "%s으로 이동할 때, 이동 속도 +%d%% / 이동을 멈추거나, 방향을 바꾸면 이 효과가 즉시 중단됨.", "tformat", {2,1})
 t("Stun Lengthen", "길어진 기절", "_t")
 t("#Target# is stunned further! (now %d turns)", "#Target2# 더 오랫동안 기절한다! (%d 턴)", "tformat")
 t("Eternal Warrior", "영원한 전사", "_t")
@@ -24754,7 +24836,10 @@ section "game/modules/tome/data/zones/ruined-dungeon/zone.lua"
 t("Ruined Dungeon", "파괴된 던전", "_t")
 t("#rng# the Guardian", "수호자 #rng#", "_t")
 t("Guardian", "수호자", "_t")
-t("You can hear a magical trigger firing off.", "마법적인 장치가 켜지는 소리가 들립니다.", "_t")
+t("You can hear a magical trigger firing off.", "마법적인 장치가 켜지는 소리가 들렸습니다.", "_t")
+t("The orb seems to react badly to your touch; there is a high shriek!", "당신이 건드린 구체의 반응은 뭔가 잘못된 것 같습니다. 찢어지는 비명 소리가 들립니다!", "_t")
+t("The orb burns to your touch and a loud shout screams out!", "건드린 구체가 불타면서 시끄러운 함성 소리를 냅니다!", "_t")
+t("The orb reacts violently to your touch and the walls begin to rumble!", "건드린 구체가 난폭하게 반응했고, 벽에서 낮게 울리는 소리가 나기 시작합니다!", "_t")
 t("%s appears out of the thin air!", "허공에서 %s 튀어나왔다!", "logSeen", nil, {"이"})
 t("The orb glows brightly. There is a loud crack coming from the northern central chamber.", "구체가 밝게 빛납니다. 북쪽 중앙의 방에서 요란하게 갈라지는 소리가 들립니다.", "_t")
 t("Strange Orb", "이상한 구체", "_t")
