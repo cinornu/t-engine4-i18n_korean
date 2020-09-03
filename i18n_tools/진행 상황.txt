@@ -185,7 +185,10 @@
 "game/modules/tome/data/quests/antimagic.lua"
 "game/modules/tome/data/quests/arena-unlock.lua"
 "game/modules/tome/data/quests/arena.lua"
-"game/modules/tome/data/quests/brotherhood-of-alchemists.lua" Khelerd 완
+"game/modules/tome/data/quests/brotherhood-of-alchemists.lua"
+"game/modules/tome/data/quests/charred-scar.lua"
+"game/modules/tome/data/quests/deep-bellow.lua"
+"game/modules/tome/data/quests/dreadfell.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
