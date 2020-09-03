@@ -179,6 +179,23 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
+------------------------------ 이하 본편 data/quests ---------------------------------
+
+"game/modules/tome/data/quests/anti-antimagic.lua"
+"game/modules/tome/data/quests/antimagic.lua"
+"game/modules/tome/data/quests/arena-unlock.lua"
+"game/modules/tome/data/quests/arena.lua"
+"game/modules/tome/data/quests/brotherhood-of-alchemists.lua"
+"game/modules/tome/data/quests/charred-scar.lua"
+"game/modules/tome/data/quests/deep-bellow.lua"
+"game/modules/tome/data/quests/dreadfell.lua"
+"game/modules/tome/data/quests/east-portal.lua"
+"game/modules/tome/data/quests/escort-duty.lua"
+"game/modules/tome/data/quests/grave-necromancer.lua"
+"game/modules/tome/data/quests/high-peak.lua" Khelerd 완
+
+------------------------------ 이상 본편 data/quests ---------------------------------
+
 "game/modules/tome//data/quests/tutorial.lua"
 "game/modules/tome/data/texts/intro-tutorial-combat-stats.lua"
 "game/modules/tome//data/texts/intro-tutorial.lua"
@@ -289,8 +306,34 @@
 "game/modules/tome/data/zones/dreadfell-ambush/npcs.lua"
 "game/modules/tome/data/zones/dreadfell-ambush/objects.lua"
 "game/modules/tome/data/zones/dreadfell-ambush/zone.lua"
-"game/modules/tome/data/zones/dreadfell/grids.lua" Khelerd 완
-
+"game/modules/tome/data/zones/dreadfell/grids.lua"
+"game/modules/tome/data/zones/dreadfell/npcs.lua"
+"game/modules/tome/data/zones/dreadfell/objects.lua"
+"game/modules/tome/data/zones/dreams/grids.lua"
+"game/modules/tome/data/zones/dreams/npcs.lua"
+"game/modules/tome/data/zones/dreams/zone.lua"
+"game/modules/tome/data/zones/dreamscape-talent/grids.lua"
+"game/modules/tome/data/zones/eidolon-plane/npcs.lua"
+"game/modules/tome/data/zones/eidolon-plane/zone.lua"
+"game/modules/tome/data/zones/eruan/grids.lua"
+"game/modules/tome/data/zones/eruan/npcs.lua"
+"game/modules/tome/data/zones/eruan/zone.lua"
+"game/modules/tome/data/zones/flooded-cave/npcs.lua"
+"game/modules/tome/data/zones/flooded-cave/zone.lua"
+"game/modules/tome/data/zones/gladium/grids.lua"
+"game/modules/tome/data/zones/gladium/zone.lua"
+"game/modules/tome/data/zones/golem-graveyard/grids.lua"
+"game/modules/tome/data/zones/golem-graveyard/npcs.lua"
+"game/modules/tome/data/zones/golem-graveyard/objects.lua"
+"game/modules/tome/data/zones/gorbat-pride/grids.lua"
+"game/modules/tome/data/zones/gorbat-pride/npcs.lua"
+"game/modules/tome/data/zones/gorbat-pride/zone.lua"
+"game/modules/tome/data/zones/grushnak-pride/grids.lua"
+"game/modules/tome/data/zones/grushnak-pride/mapscripts/last.lua"
+"game/modules/tome/data/zones/grushnak-pride/mapscripts/main.lua"
+"game/modules/tome/data/zones/grushnak-pride/npcs.lua"
+"game/modules/tome/data/zones/grushnak-pride/objects.lua"
+"game/modules/tome/data/zones/grushnak-pride/zone.lua"
 "game/modules/tome/data/zones/halfling-ruins/npcs.lua"
 "game/modules/tome/data/zones/halfling-ruins/objects.lua"
 "game/modules/tome/data/zones/halfling-ruins/zone.lua"
@@ -595,7 +638,7 @@ section "game/modules/tome/data/talents/cursed/dark-sustenance.lua" Stéphanois 
 section "game/modules/tome/data/talents/cursed/darkness.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cursed/endless-hunt.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cursed/fears.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cursed/force-of-will.lua" **  Stéphanois Unseen Force 적용안됨
+section "game/modules/tome/data/talents/cursed/force-of-will.lua"
 section "game/modules/tome/data/talents/cursed/gestures.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/gloom.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/one-with-shadows.lua" Stéphanois
