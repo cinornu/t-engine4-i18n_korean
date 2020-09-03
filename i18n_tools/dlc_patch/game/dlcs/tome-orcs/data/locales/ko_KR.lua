@@ -155,6 +155,7 @@ t("volatile fuel", "휘발성 연료", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/factions.lua"
 
+t("Whitehooves", "하얀 발굽", "faction name")
 
 
 ------------------------------------------------
@@ -282,6 +283,7 @@ section "game/dlcs/tome-orcs/data/general/npcs/alligator.lua"
 section "game/dlcs/tome-orcs/data/general/npcs/domestic-yeti.lua"
 
 t("giant", "거인", "entity type")
+t("yeti", "예티", "entity subtype")
 
 
 ------------------------------------------------
@@ -389,6 +391,7 @@ t("undead", "언데드", "entity type")
 section "game/dlcs/tome-orcs/data/general/npcs/yeti.lua"
 
 t("giant", "거인", "entity type")
+t("yeti", "예티", "entity name")
 
 
 ------------------------------------------------
@@ -997,8 +1000,56 @@ t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/misc/races.lua"
 
+t("yeti", "예티", "_t")
+t("Algid Rage", "차가운 분노", "talent name")
+t([[Your yeti is attuned to the cold climates.
+		For 5 turns all damage you deal has %d%% chance to encase the target in an iceblock for 3 turns.
+		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
+		The bonus will increase with your Willpower.]], [[예티 종족은 추운 기후에 적응했습니다.
+		5 턴 동안 시전자가 가하는 모든 공격이 %d%% 확률로 대상을 3 턴 동안 얼려버립니다.
+		지속 시간 중, 시전자는 간단하게 얼음을 관통할 수 있게됩니다. 얼음의 피해 흡수량이 50%% 감소됩니다.
+		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
+t("Thick Fur", "두꺼운 털", "talent name")
+t("Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "예티의 털은 방패처럼 기능해, 냉기 저항을 %d%%, 물리 저항을 %d%% 증가시키고, 주문 내성을 %d 증가시킵니다.", "tformat")
+t("Resilient Body", "강인한 육체", "talent name")
+t([[Your yeti's body is very resilient to detrimental effects.
+		Each time you are hit by a physical, magical, or mental detrimental effect your body reacts with a burst of healing.
+		This effect heals for %d and can only occur up to 3 times per turn.
+		It increases with your Constitution stat.]], [[예티의 육체는 부정적인 효과에 굉장히 강인합니다.
+		부정적인 물리, 마법, 정신 효과에 적용 될 때마다, 강력한 회복 효과를 받습니다.
+		이 효과는 생명력을 %d 회복시키고, 한 턴에 최대 3 번만 일어납니다.
+		이 효과는 체격에 비례하여 증가합니다.]], "tformat")
+t("Mindwave", "정신파", "talent name")
+t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic blast in cone of radius %d.
+		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
+		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], [[자신의 뇌의 일부분을 튀겨, 강력한 정신파를 반경 %d 칸의 원뿔 범위에 방출합니다.
+		범위 내의 적은 %0.2f 정신 피해를 받고, 35%% 위력의 혼란을 %d 턴 동안 적용합니다.
+		피해량은 체격에 비례하고, 혼란 내성 판정에 정신력, 주문력, 물리력 중 가장 높은 수치를 사용합니다.]], "tformat")
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
 t("race", "종족", "talent category")
+t("whitehooves", "하얀 발굽", "_t")
+t("Whitehooves", "하얀 발굽", "talent name")
+t([[Improves your undead body, increasing Strength and Magic by %d.
+		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
+		Each turn spent not moving you lose a charge.]], [[언데드 신체를 강화하여, 힘과 마법이 %d 증가합니다.
+		또한 이동할 때마다, 최대 %d 번 중첩되는 죽음의 기세 중첩을 얻어, 이동 속도를 20%% 늘립니다.
+		이동을 하지 않으면, 중첩을 하나씩 잃게됩니다.]], "tformat")
+t("Dead Hide", "죽은 가죽", "talent name")
+t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "언데드 가죽이 부하로 인해 경화됩니다. 죽음의 기세 중첩 마다, 모든 속성에 대한 고정 피해 감소 %d 를 얻습니다.", "tformat")
+t("Lifeless Rush", "생명없는 돌진", "talent name")
+t([[You summon your undead energies to instantly build up death momentum to its maximum possible charges.
+		The effect will only start to decrease after %d turns.
+		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], [[죽음의 에너지를 불러내, 즉시 죽음의 기세를 최대치로 얻습니다.
+		이 효과는 시전한 뒤 %d 턴 후에 완전히 사라집니다.
+		추가로, 매 죽음의 기세 중첩 당 가하는 모든 피해가 +%d%% 증가합니다.]], "tformat")
+t("Essence Drain", "정수 흡수", "talent name")
+t([[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
+		The darkness will drain a part of its life essence (only works on living targets) to increase the duration before the next charge of death momentum is used by %d.
+		Only usable when you have the death momentum effect.
+		The damage scales with your Magic stat.]], [[어둠의 파장를 적에게 내보내, %0.2f 어둠 피해를 줍니다.
+		이 어둠은 적의 생명 정수 일부분을 흡수하여 죽음의 기세의 지속시간을 %d 턴 증가시킵니다. (이 효과는 살아있는 생명체에게만 영향을 미칩니다) 이 기술을 발동하면, 죽음의 기세의 중첩을 하나 잃습니다.
+		이 기술은 죽음의 기세의 효과를 받고있을 떄만 사용 가능합니다.
+		피해량은 마법에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -2797,6 +2848,19 @@ section "game/dlcs/tome-orcs/data/talents/uber/cun.lua"
 
 t("Rak'Shor's Cunning", "락쇼르의 비술", "_t")
 t("Cosmetic Options", "치장 옵션", "_t")
+t("Customize Appearance", "외형 변경", "_t")
+t("Use Default", "기본 사용", "_t")
+t("Rak'Shor's Cunning (Skeleton)", "락쇼르의 비술 (스켈레톤)", "_t")
+t("Rak'Shor's Cunning (Ghoul)", "락쇼르의 비술 (구울)", "_t")
+t([[Set up some cunning contingency plans in case of death.
+		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
+		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
+		As undead will not able to use infusions anymore.
+		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[만에 하나, 죽게될 때를 위한 계획을 세워둡니다.
+		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게됩니다. 캐릭터는 구울이나 스켈레톤 종족 중 하나를 선택하여 해당 종족으로 다시 부활합니다.
+		이 특수 기술로 소생할 시, 종족 기술을 유지한 채로, 구울과 스켈레톤의 종족 기술을 배울 수 있게됩니다. 모든 스켈레톤, 구울 기술은 2 점씩 투자가 된 상태입니다.
+		As undead will not able to use infusions anymore.
+		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], "tformat")
 t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때 마다, 증기 공학 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 1 턴 단축시킵니다.", "_t")
 
 
@@ -2983,6 +3047,7 @@ t("water", "물", "effect subtype")
 t("slow", "감속", "effect subtype")
 t("Supercharge Tinkers", "발명품 폭주", "_t")
 t("Overcharge Saws", "과충전 톱니", "_t")
+t("Algid Rage", "차가운 분노", "_t")
 t("ice", "얼음", "effect subtype")
 t("disease", "질병", "effect subtype")
 t("Tech Overload", "기술 폭주", "_t")

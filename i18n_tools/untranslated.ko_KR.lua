@@ -1158,139 +1158,14 @@ t("Devouring Flames", "Devouring Flames", "talent name")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
--- 9 entries
-t([[Tendrils of flame fire from your hands in a narrow cone. Any foes caught inside will be pulled in towards you and have its movement speed reduced by %d%% for 4 turns.
-		Each tendril will leave a trail of fire in its path dealing %0.2f fire damage for 4 turns.
-		The damage increases with spellpower.]], [[Tendrils of flame fire from your hands in a narrow cone. Any foes caught inside will be pulled in towards you and have its movement speed reduced by %d%% for 4 turns.
-		Each tendril will leave a trail of fire in its path dealing %0.2f fire damage for 4 turns.
-		The damage increases with spellpower.]], "tformat")
-t("Demon Blade", "Demon Blade", "talent name")
-t([[Imbue your weapon with fire for 5 turns. During this time all your melee hits will trigger a ball of fire of radius 1 dealing %0.2f fire damage.
-		This effect can only happen once per turn.
-		The damage increases with spellpower.]], [[Imbue your weapon with fire for 5 turns. During this time all your melee hits will trigger a ball of fire of radius 1 dealing %0.2f fire damage.
-		This effect can only happen once per turn.
-		The damage increases with spellpower.]], "tformat")
-t("Link of Pain", "Link of Pain", "talent name")
-t("Select the source:", "Select the source:", "logPlayer")
-t("Select the victim:", "Select the victim:", "logPlayer")
-t([[Using demonic forces you create a link of pain from a source creature to a victim for %d turns.
-		Each time the source creature takes damage the victim takes %d%% of the damage.
-		If the victim dies from the effect you gain a burst of energy, reducing all remaining cooldowns by 1.]], [[Using demonic forces you create a link of pain from a source creature to a victim for %d turns.
-		Each time the source creature takes damage the victim takes %d%% of the damage.
-		If the victim dies from the effect you gain a burst of energy, reducing all remaining cooldowns by 1.]], "tformat")
-t("Demon Horns", "Demon Horns", "talent name")
-t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d%% damage.
-		If the attack hits the creature is impaled by the horns, causing it to bleed black blood for 50%% of the damage done as darkness over 5 turns.
-		Any time you damage this foe in melee while it bleeds you get healed for %d (this can only happen once per turn).
-		The healing power increases with your spellpower.]], [[Demon horns temporarily grow on your shield as you bash a foe with it for %d%% damage.
-		If the attack hits the creature is impaled by the horns, causing it to bleed black blood for 50%% of the damage done as darkness over 5 turns.
-		Any time you damage this foe in melee while it bleeds you get healed for %d (this can only happen once per turn).
-		The healing power increases with your spellpower.]], "tformat")
-
-
-------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/npcs.lua"
--- 5 entries
-t("Soul Eater", "Soul Eater", "talent name")
-t("#CRIMSON#%s is bound to %s will.", "#CRIMSON#%s is bound to %s will.", "logSeen")
-t("#PURPLE#As %s falls down you see %s reach to it, devour its essence and raise it back as a demonic husk.", "#PURPLE#As %s falls down you see %s reach to it, devour its essence and raise it back as a demonic husk.", "logSeen")
+-- 1 entries
 t("%s (demonic husk)", "%s (demonic husk)", "tformat")
-t([[Any nearby allied creature that is not a summon will be bound to your will.
-		Each time a creature bound to your will dies it is resurrected as a demonic husk.
-		Demonic husks have:
-		- slow movement speed
-		- more life
-		- new demonic talents]], [[Any nearby allied creature that is not a summon will be bound to your will.
-		Each time a creature bound to your will dies it is resurrected as a demonic husk.
-		Demonic husks have:
-		- slow movement speed
-		- more life
-		- new demonic talents]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/oppression.lua"
--- 9 entries
-t("Horrifying Blows", "Horrifying Blows", "talent name")
-t([[Your successful melee hits apply a stacking effect that decreases damage done by %d%%.
-		You can have up to %d stacks per target and further attacks refresh the duration, but any turn you are farther than %d spaces from the victim the fear will wear off quickly.
-		At level 3 it also slows by %0.2f%% per stack.
-		At level 5 you can horrify enemies in a radius of %d.
-		This talent ignores saves and immunities.
-		]], [[Your successful melee hits apply a stacking effect that decreases damage done by %d%%.
-		You can have up to %d stacks per target and further attacks refresh the duration, but any turn you are farther than %d spaces from the victim the fear will wear off quickly.
-		At level 3 it also slows by %0.2f%% per stack.
-		At level 5 you can horrify enemies in a radius of %d.
-		This talent ignores saves and immunities.
-		]], "tformat")
-t("Mass Hysteria", "Mass Hysteria", "talent name")
-t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d.", "Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d.", "tformat")
-t("Fearfeast", "Fearfeast", "talent name")
-t("You gain %.1f turns!", "You gain %.1f turns!", "logPlayer")
-t("You consume the fear of enemies in radius %d, healing for %d life and gaining %0.1f%% of a turn for each stack up to a max of %.1f turns.", "You consume the fear of enemies in radius %d, healing for %d life and gaining %0.1f%% of a turn for each stack up to a max of %.1f turns.", "tformat")
-t("Hope Wanes", "Hope Wanes", "talent name")
-t([[You crush the spirit of a target with at least %d fear stacks, consuming all stacks and making it unable to act for %d turns.
-		This talent ignores saves and immunities.]], [[You crush the spirit of a target with at least %d fear stacks, consuming all stacks and making it unable to act for %d turns.
-		This talent ignores saves and immunities.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua"
--- 8 entries
-t("Rain of Fire", "Rain of Fire", "talent name")
-t([[You unleash the fury of the Spellblaze, constantly draining your vim.
-		While this spell is active at most two meteors will fall near your per turn, dealing %0.2f physical and %0.2f fire damage in radius 2.
-		This spell disabled automatically on rest or run.
-		The effects increase with spellpower.]], [[You unleash the fury of the Spellblaze, constantly draining your vim.
-		While this spell is active at most two meteors will fall near your per turn, dealing %0.2f physical and %0.2f fire damage in radius 2.
-		This spell disabled automatically on rest or run.
-		The effects increase with spellpower.]], "tformat")
-t("Only Ashes Left", "Only Ashes Left", "talent name")
-t([[Bringing about the darkest days of the Spellblaze you hasten the death of your foes.
-		When you deal damage to a creature in radius %d or less around you and it dips below 33%% life you automatically unleash the fury of the Spellblaze.
-		Affected foes will start taking %0.2f darkness damage each turn until it dies as long as it remains in radius %d of you.
-		The damage increases with spellpower.]], [[Bringing about the darkest days of the Spellblaze you hasten the death of your foes.
-		When you deal damage to a creature in radius %d or less around you and it dips below 33%% life you automatically unleash the fury of the Spellblaze.
-		Affected foes will start taking %0.2f darkness damage each turn until it dies as long as it remains in radius %d of you.
-		The damage increases with spellpower.]], "tformat")
-t("Shattered Mind", "Shattered Mind", "talent name")
-t([[When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns.
-		While affected the creature will suffer %d%% chances to fail using talents and %d reduced physical, mental and spell saves.]], [[When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns.
-		While affected the creature will suffer %d%% chances to fail using talents and %d reduced physical, mental and spell saves.]], "tformat")
-t("Tale of Destruction", "Tale of Destruction", "talent name")
-t([[You chant the destruction of Mal'Rok, the demon's homeworld.
-		Each time you kill a creature you send out a magical ripple in radius %d that applies a bane of blindness or confusion for %d turns.
-		Baned creatures also suffer %0.2f darkness damage per turn.
-		Damage increases with your spellpower.]], [[You chant the destruction of Mal'Rok, the demon's homeworld.
-		Each time you kill a creature you send out a magical ripple in radius %d that applies a bane of blindness or confusion for %d turns.
-		Baned creatures also suffer %0.2f darkness damage per turn.
-		Damage increases with your spellpower.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/torture.lua"
--- 7 entries
-t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal %0.2f fire damage, spread over 3 turns.
-		Additionally, every time you attack, there is a %d%% chance of releasing a burst of powerful fire that will deal %0.2f fire damage to all enemies in radius %d over %d turns.
-		If this talent is not on cooldown, the burst of fire will instead be radius %d, and stun all targets in addition to burning them.
-		For the purposes of applying the stun, you have %d bonus spellpower.
-		The damage will increase with your Spellpower.]], [[The power of the Fearscape infuses your weapon: Your melee attacks will deal %0.2f fire damage, spread over 3 turns.
-		Additionally, every time you attack, there is a %d%% chance of releasing a burst of powerful fire that will deal %0.2f fire damage to all enemies in radius %d over %d turns.
-		If this talent is not on cooldown, the burst of fire will instead be radius %d, and stun all targets in addition to burning them.
-		For the purposes of applying the stun, you have %d bonus spellpower.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Abduction", "Abduction", "talent name")
-t("Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", "Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", "tformat")
-t("Fiery Torment", "Fiery Torment", "talent name")
-t([[Hits the target with your weapon doing %d%% weapon damage. If the attack hits, the target is afflicted with Fiery Torment for %d turns, reducing their fire resistance by %d%%.
-		When Fiery Torment ends the victim will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment.
-		The damage dealt by the effect will increase with spellpower.
-		Demons under fiery torment will be burned by the flames of the Fearscape.]], [[Hits the target with your weapon doing %d%% weapon damage. If the attack hits, the target is afflicted with Fiery Torment for %d turns, reducing their fire resistance by %d%%.
-		When Fiery Torment ends the victim will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment.
-		The damage dealt by the effect will increase with spellpower.
-		Demons under fiery torment will be burned by the flames of the Fearscape.]], "tformat")
-t("Eternal Suffering", "Eternal Suffering", "talent name")
+-- 1 entries
 t([[Your strikes are imbued with a vile power that extends your victim's suffering. When hitting in melee, you have a (%d%%) chance to extend the length of all negative effects and reduce the length of all positive effects on the target by %d turn(s).
 		This can only trigger on any particular target once every 6 turns.]], [[Your strikes are imbued with a vile power that extends your victim's suffering. When hitting in melee, you have a (%d%%) chance to extend the length of all negative effects and reduce the length of all positive effects on the target by %d turn(s).
 		This can only trigger on any particular target once every 6 turns.]], "tformat")
@@ -1298,95 +1173,19 @@ t([[Your strikes are imbued with a vile power that extends your victim's sufferi
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
--- 8 entries
-t("Obliterating Smash", "Obliterating Smash", "talent name")
-t([[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
-		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d.
-		This attack can not miss.]], [[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
-		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d.
-		This attack can not miss.]], "tformat")
-t("Detonating Charge", "Detonating Charge", "talent name")
+-- 1 entries
 t("You require a two handed weapon and being able to move to use this talent.", "You require a two handed weapon and being able to move to use this talent.", "logPlayer")
-t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
-		If the attack hits you release a massive burst of fire in radius %d, knocking away all enemies except your target and dealing %d damage.
-		You must charge from at least 2 tiles away.]], [[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
-		If the attack hits you release a massive burst of fire in radius %d, knocking away all enemies except your target and dealing %d damage.
-		You must charge from at least 2 tiles away.]], "tformat")
-t("Voracious Blade", "Voracious Blade", "talent name")
-t([[Your blade drinks in death. Whenever you score a kill with this talent off cooldown, your next %d melee attacks within 6 turns will always critically strike, and you gain %d%% critical multiplier for the duration.
-		Additionally, you gain an extra %d vim per kill.]], [[Your blade drinks in death. Whenever you score a kill with this talent off cooldown, your next %d melee attacks within 6 turns will always critically strike, and you gain %d%% critical multiplier for the duration.
-		Additionally, you gain an extra %d vim per kill.]], "tformat")
-t([[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
-		The physical power, stamina regen, and status resistances increase with your spellpower.
-		Your other talents also gain a variety of bonuses:
-		-Draining Assault: Reduces cooldown by %d.
-		-Reckless Strike: Gain %d%% resistance penetration for all elements for %d turns.
-		-Obliterating Smash: Increases range by %d.
-		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
-		-Incinerating Blows: Increases chance of bonus damage to %d%%.
-		-Fearfeast: Gain %0.1f vim per stack.
-		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
-		The physical power, stamina regen, and status resistances increase with your spellpower.
-		Your other talents also gain a variety of bonuses:
-		-Draining Assault: Reduces cooldown by %d.
-		-Reckless Strike: Gain %d%% resistance penetration for all elements for %d turns.
-		-Obliterating Smash: Increases range by %d.
-		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
-		-Incinerating Blows: Increases chance of bonus damage to %d%%.
-		-Fearfeast: Gain %0.1f vim per stack.
-		-Maw of Urh'rok: Increases cone width by %d degrees.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/misc/races.lua"
--- 10 entries
-t("doomelf", "doomelf", "_t")
-t("Haste of the Doomed", "Haste of the Doomed", "talent name")
-t("You must have an empty space to teleport to.", "You must have an empty space to teleport to.", "logPlayer")
-t([[Hasten yourself out of phase, teleporting you to a specific location up to %d spaces away.
-		You can activate this talent up to twice within the same turn, but the second activation will not be instant.
-		Afterwards you stay out of phase for 5 turns. In this state your defense is increased by %d and all your resistances by %d%%.
-		The bonus will increase with your Willpower.]], [[Hasten yourself out of phase, teleporting you to a specific location up to %d spaces away.
-		You can activate this talent up to twice within the same turn, but the second activation will not be instant.
-		Afterwards you stay out of phase for 5 turns. In this state your defense is increased by %d and all your resistances by %d%%.
-		The bonus will increase with your Willpower.]], "tformat")
-t("Resilience of the Doomed", "Resilience of the Doomed", "talent name")
-t([[The tortures you had to endure on the Fearscape have increased your resilience.
-		All detrimental status effects last %d%% less on you and all direct critical hits (physical, mental, spells) against you have a %d%% lower critical multiplier (but always do at least normal damage).]], [[The tortures you had to endure on the Fearscape have increased your resilience.
-		All detrimental status effects last %d%% less on you and all direct critical hits (physical, mental, spells) against you have a %d%% lower critical multiplier (but always do at least normal damage).]], "tformat")
-t("Corruption of the Doomed", "Corruption of the Doomed", "talent name")
-t([[Your original invisibility talent was corrupted and twisted.
-		You have %d%% chance to turn into a dúathedlen for 5 turns, when hit by a blow doing at least 10%% of your total life.
-		While in this form you gain the following effects:
-		- you have permanent stealth (power %d)
-		- your darkness damage is increased by %d%%
-		- any non mind and non physical damage you deal above %d triggers a darkness explosion of radius 1 for half the damage (this can only happen once per turn)
-		- when you transform the cooldowns of Haste of the Doomed and Pitiless are reset
-		]], [[Your original invisibility talent was corrupted and twisted.
-		You have %d%% chance to turn into a dúathedlen for 5 turns, when hit by a blow doing at least 10%% of your total life.
-		While in this form you gain the following effects:
-		- you have permanent stealth (power %d)
-		- your darkness damage is increased by %d%%
-		- any non mind and non physical damage you deal above %d triggers a darkness explosion of radius 1 for half the damage (this can only happen once per turn)
-		- when you transform the cooldowns of Haste of the Doomed and Pitiless are reset
-		]], "tformat")
-t("Pitiless", "Pitiless", "talent name")
-t([[You launch a mental assault on the target.
-		The assult increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[You launch a mental assault on the target.
-		The assult increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
--- 161 entries
-t("Demon Blade", "Demon Blade", "_t")
+-- 154 entries
 t("Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "tformat")
 t("demonic", "demonic", "effect subtype")
 t("#Target# imbues its weapon with demonic fire.", "#Target# imbues its weapon with demonic fire.", "_t")
 t("+Demon Blade", "+Demon Blade", "_t")
 t("#Target#'s weapon looks less threatening.", "#Target#'s weapon looks less threatening.", "_t")
 t("-Demon Blade", "-Demon Blade", "_t")
-t("Fiery Torment", "Fiery Torment", "_t")
 t("The target's fire resistance is reduced by %d%%, and the target is highly vulnerable to the flames of the fearscape. When the effect ends, the target will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment", "The target's fire resistance is reduced by %d%%, and the target is highly vulnerable to the flames of the fearscape. When the effect ends, the target will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment", "tformat")
 t("+Fiery Torment", "+Fiery Torment", "_t")
 t("-Fiery Torment", "-Fiery Torment", "_t")
@@ -1394,7 +1193,6 @@ t("The target assumes the form of a powerful demon.", "The target assumes the fo
 t("#Target# turns into a demon!", "#Target# turns into a demon!", "_t")
 t("+Destroyer", "+Destroyer", "_t")
 t("-Destroyer", "-Destroyer", "_t")
-t("Voracious Blade", "Voracious Blade", "_t")
 t("Next %d melee attacks are certain to critically strike, and this unit has %d%% more critical power.", "Next %d melee attacks are certain to critically strike, and this unit has %d%% more critical power.", "tformat")
 t("#Target#'s weapon glows with critical power!", "#Target#'s weapon glows with critical power!", "_t")
 t("+Voracious", "+Voracious", "_t")
@@ -1484,7 +1282,6 @@ t("Demonic Cut", "Demonic Cut", "_t")
 t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "tformat")
 t("+Demonic Cut", "+Demonic Cut", "_t")
 t("-Demonic Cut", "-Demonic Cut", "_t")
-t("Link of Pain", "Link of Pain", "_t")
 t("When this target is damaged %d%% of the damage will also be done to an other victim.", "When this target is damaged %d%% of the damage will also be done to an other victim.", "tformat")
 t("ritual", "ritual", "effect subtype")
 t("#Target# is linked through pain.", "#Target# is linked through pain.", "_t")
@@ -1492,12 +1289,10 @@ t("+Link of Pain", "+Link of Pain", "_t")
 t("#Target# link of pain disappears.", "#Target# link of pain disappears.", "_t")
 t("-Link of Pain", "-Link of Pain", "_t")
 t("#ORANGE##Source# shares some pain with #target#!#LAST#", "#ORANGE##Source# shares some pain with #target#!#LAST#", "delayedLogMessage")
-t("Only Ashes Left", "Only Ashes Left", "_t")
 t("The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "tformat")
 t("#Target# burns with dark flames.", "#Target# burns with dark flames.", "_t")
 t("+Only Ashes Left", "+Only Ashes Left", "_t")
 t("-Only Ashes Left", "-Only Ashes Left", "_t")
-t("Shattered Mind", "Shattered Mind", "_t")
 t("The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.", "The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.", "tformat")
 t("+Shattered Mind", "+Shattered Mind", "_t")
 t("The Spellblaze ripples through #target#!", "The Spellblaze ripples through #target#!", "_t")
@@ -1534,7 +1329,6 @@ t("Improves/gives invisibility (power %d), converts all damage to darkness and u
 t("dark", "dark", "effect subtype")
 t("+Ominous Shadow", "+Ominous Shadow", "_t")
 t("-Ominous Shadow", "-Ominous Shadow", "_t")
-t("Corruption of the Doomed", "Corruption of the Doomed", "_t")
 t("The target assumes the form of a dúathedlen.", "The target assumes the form of a dúathedlen.", "tformat")
 t("#Target# turns into a dúathedlen!", "#Target# turns into a dúathedlen!", "_t")
 t("+Corruption of the Doomed", "+Corruption of the Doomed", "_t")
@@ -5312,10 +5106,9 @@ t("terrene", "terrene", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/factions.lua"
--- 7 entries
+-- 6 entries
 t("Kruk Pride", "Kruk Pride", "faction name")
 t("Free Whitehooves", "Free Whitehooves", "faction name")
-t("Whitehooves", "Whitehooves", "faction name")
 t("Kar'Haïb Dominion", "Kar'Haïb Dominion", "faction name")
 t("Atmos Tribe", "Atmos Tribe", "faction name")
 t("Kaltor's Shop", "Kaltor's Shop", "faction name")
@@ -5462,8 +5255,7 @@ t("This thing looks like an alligator, but it has unnaturally large, grey eyes. 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/domestic-yeti.lua"
--- 7 entries
-t("yeti", "yeti", "entity subtype")
+-- 6 entries
 t("pet yeti", "pet yeti", "entity name")
 t("This yeti is somewhat smaller than the average yeti, and its fur seems well groomed. Nonetheless, it looks quite unhappy to see its master's home invaded.", "This yeti is somewhat smaller than the average yeti, and its fur seems well groomed. Nonetheless, it looks quite unhappy to see its master's home invaded.", "_t")
 t("guard yeti", "guard yeti", "entity name")
@@ -5647,10 +5439,9 @@ t("The air seems to freeze and wither around this terrible undead.", "The air se
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/yeti.lua"
--- 8 entries
+-- 7 entries
 t("yeti cub", "yeti cub", "entity name")
 t("This humanoid form is coated with a thick white fur.", "This humanoid form is coated with a thick white fur.", "_t")
-t("yeti", "yeti", "entity name")
 t("This large humanoid form is coated with a thick white fur.", "This large humanoid form is coated with a thick white fur.", "_t")
 t("yeti warrior", "yeti warrior", "entity name")
 t("This huge humanoid form is coated with a thick white fur, with large, vicious claws. It looks angry.", "This huge humanoid form is coated with a thick white fur, with large, vicious claws. It looks angry.", "_t")
@@ -8436,59 +8227,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/talents/misc/races.lua"
--- 18 entries
-t("yeti", "yeti", "_t")
-t("Algid Rage", "Algid Rage", "talent name")
-t([[Your yeti is attuned to the cold climates.
-		For 5 turns all damage you deal has %d%% chance to encase the target in an iceblock for 3 turns.
-		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
-		The bonus will increase with your Willpower.]], [[Your yeti is attuned to the cold climates.
-		For 5 turns all damage you deal has %d%% chance to encase the target in an iceblock for 3 turns.
-		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
-		The bonus will increase with your Willpower.]], "tformat")
-t("Thick Fur", "Thick Fur", "talent name")
-t("Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "tformat")
-t("Resilient Body", "Resilient Body", "talent name")
-t([[Your yeti's body is very resilient to detrimental effects.
-		Each time you are hit by a physical, magical, or mental detrimental effect your body reacts with a burst of healing.
-		This effect heals for %d and can only occur up to 3 times per turn.
-		It increases with your Constitution stat.]], [[Your yeti's body is very resilient to detrimental effects.
-		Each time you are hit by a physical, magical, or mental detrimental effect your body reacts with a burst of healing.
-		This effect heals for %d and can only occur up to 3 times per turn.
-		It increases with your Constitution stat.]], "tformat")
-t("Mindwave", "Mindwave", "talent name")
-t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic blast in cone of radius %d.
-		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
-		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], [[You willingly fry a few parts of your yeti's brain to trigger a huge psionic blast in cone of radius %d.
-		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
-		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], "tformat")
-t("whitehooves", "whitehooves", "_t")
-t("Whitehooves", "Whitehooves", "talent name")
-t([[Improves your undead body, increasing Strength and Magic by %d.
-		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
-		Each turn spent not moving you lose a charge.]], [[Improves your undead body, increasing Strength and Magic by %d.
-		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
-		Each turn spent not moving you lose a charge.]], "tformat")
-t("Dead Hide", "Dead Hide", "talent name")
-t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "tformat")
-t("Lifeless Rush", "Lifeless Rush", "talent name")
-t([[You summon your undead energies to instantly build up death momentum to its maximum possible charges.
-		The effect will only start to decrease after %d turns.
-		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], [[You summon your undead energies to instantly build up death momentum to its maximum possible charges.
-		The effect will only start to decrease after %d turns.
-		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], "tformat")
-t("Essence Drain", "Essence Drain", "talent name")
-t([[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
-		The darkness will drain a part of its life essence (only works on living targets) to increase the duration before the next charge of death momentum is used by %d.
-		Only usable when you have the death momentum effect.
-		The damage scales with your Magic stat.]], [[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
-		The darkness will drain a part of its life essence (only works on living targets) to increase the duration before the next charge of death momentum is used by %d.
-		Only usable when you have the death momentum effect.
-		The damage scales with your Magic stat.]], "tformat")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/psionic/psionic-fog.lua"
 -- 1 entries
 t("#STEEL_BLUE#(%d quantum shifted)#LAST#", "#STEEL_BLUE#(%d quantum shifted)#LAST#", "tformat")
@@ -8539,7 +8277,7 @@ t("Deploy Turret", "Deploy Turret", "talent name")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/cun.lua"
--- 9 entries
+-- 4 entries
 t("Master of Disasters", "Master of Disasters", "talent name")
 t([[You are adept at wreaking havoc onto your foes!
 		Any time you deal damage to a creature you apply the Incoming Disasters effect for 20 turns.
@@ -8556,19 +8294,6 @@ t([[#GREY#Applying you cunning plans, you escape death by turning to undeath in 
 #{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#Applying you cunning plans, you escape death by turning to undeath in an instant!
 
 #{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], "_t")
-t("Customize Appearance", "Customize Appearance", "_t")
-t("Use Default", "Use Default", "_t")
-t("Rak'Shor's Cunning (Skeleton)", "Rak'Shor's Cunning (Skeleton)", "_t")
-t("Rak'Shor's Cunning (Ghoul)", "Rak'Shor's Cunning (Ghoul)", "_t")
-t([[Set up some cunning contingency plans in case of death.
-		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
-		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
-		As undead will not able to use infusions anymore.
-		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[Set up some cunning contingency plans in case of death.
-		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
-		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
-		As undead will not able to use infusions anymore.
-		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], "tformat")
 
 
 ------------------------------------------------
@@ -8736,7 +8461,7 @@ t("Vulnerable to more cross tier effects.", "Vulnerable to more cross tier effec
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/physical.lua"
--- 212 entries
+-- 211 entries
 t("Strafing", "Strafing", "_t")
 t("The target is moving while shooting, and will reload %sammo when finished strafing.", "The target is moving while shooting, and will reload %sammo when finished strafing.", "tformat")
 t("%s reloads.", "%s reloads.", "logSeen")
@@ -8805,7 +8530,6 @@ t("#Target# overcharges saw motors.", "#Target# overcharges saw motors.", "_t")
 t("+Overcharge Saws", "+Overcharge Saws", "_t")
 t("#Target#'s saw motors are back to normal.", "#Target#'s saw motors are back to normal.", "_t")
 t("-Overcharge Saws", "-Overcharge Saws", "_t")
-t("Algid Rage", "Algid Rage", "_t")
 t("You have %d%% chances to encase your foes in iceblocks.", "You have %d%% chances to encase your foes in iceblocks.", "tformat")
 t("Larvae Infestation", "Larvae Infestation", "_t")
 t("The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.", "The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.", "tformat")
@@ -11817,13 +11541,6 @@ but little can change how the partisans feel.
 Nature and arcane could bridge their divide -
 and when it comes down to it, gold won't take sides...]], "_t")
 t("Their most important stats are: Strength, Magic and Willpower", "Their most important stats are: Strength, Magic and Willpower", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/birth/descriptors.lua"
--- 2 entries
-t("All zone levels increased by 25% by the time Player reaches level 10", "All zone levels increased by 25% by the time Player reaches level 10", "_t")
-t("Absolutely unfair game setting. Prepare for the full wrath of DarkGod!", "Absolutely unfair game setting. Prepare for the full wrath of DarkGod!", "_t")
 
 
 ------------------------------------------------
@@ -20987,7 +20704,7 @@ Must stay down here to be close to the dreams, yes yes. Must plant my mouth in t
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/keepsake.lua"
--- 33 entries
+-- 32 entries
 t("A Tranquil Meadow", "A Tranquil Meadow", "_t")
 t([[You've entered a tranquil meadow. Something about this place seems familiar but you're not quite sure.
 The only thing that you are sure of is that it has offered you a moment of rest from the long suffering of your cursed life.
@@ -21259,7 +20976,6 @@ Dogs barking. Following that come the voices of men. These must be Berethh's com
 You rise and prepare to kill again.
 ]], "_t")
 t("keepsake", "keepsake", "newLore category")
-t("Keepsake", "Keepsake", "_t")
 t([[Berethh lies dead. Kyless has been destroyed. The merchant caravan wiped out. Nothing of your past remains.
 You thought you might find answers in this place but you have been left with only one certainty. You are cursed.
 As you try to push these thoughts out of your mind, you find yourself turning the iron acorn in your hand.
@@ -24527,108 +24243,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/quests/infinite-dungeon.lua"
--- 3 entries
-t("The Infinite Dungeon", "The Infinite Dungeon", "_t")
-t("You have entered the Infinite Dungeon. There is no going back now.", "You have entered the Infinite Dungeon. There is no going back now.", "_t")
-t("Go deep, fight, win or die in a blaze of glory!", "Go deep, fight, win or die in a blaze of glory!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/keepsake.lua"
--- 31 entries
-t("Keepsake", "Keepsake", "_t")
-t("You have begun to look for a way to overcome the curse that afflicts you.", "You have begun to look for a way to overcome the curse that afflicts you.", "_t")
-t("Your curse has changed the iron acorn which now serves as a cruel reminder of your past and present.", "Your curse has changed the iron acorn which now serves as a cruel reminder of your past and present.", "_t")
-t("You have found a small iron acorn which you keep as a reminder of your past", "You have found a small iron acorn which you keep as a reminder of your past", "_t")
-t("Berethh is dead, may he rest in peace.", "Berethh is dead, may he rest in peace.", "_t")
-t("Your curse has defiled the iron acorn which now serves as a reminder of your vile nature.", "Your curse has defiled the iron acorn which now serves as a reminder of your vile nature.", "_t")
-t("Kyless, the one who brought the curse, is dead by your hand.", "Kyless, the one who brought the curse, is dead by your hand.", "_t")
-t("#LIGHT_GREEN#You need to find Berethh, the last person who may be able to help you.", "#LIGHT_GREEN#You need to find Berethh, the last person who may be able to help you.", "_t")
-t("You have destroyed the merchant caravan that you once considered family.", "You have destroyed the merchant caravan that you once considered family.", "_t")
-t("#LIGHT_GREEN#Seek out Kyless' cave in the northern part of the meadow and end him. Perhaps the curse will end with him.", "#LIGHT_GREEN#Seek out Kyless' cave in the northern part of the meadow and end him. Perhaps the curse will end with him.", "_t")
-t("You have found a small iron acorn which you keep as a reminder of your past.", "You have found a small iron acorn which you keep as a reminder of your past.", "_t")
-t("#LIGHT_GREEN#Discover the meaning of the acorn and the dream.", "#LIGHT_GREEN#Discover the meaning of the acorn and the dream.", "_t")
-t("#LIGHT_GREEN#You may have to revist your past to unlock some secret buried there.", "#LIGHT_GREEN#You may have to revist your past to unlock some secret buried there.", "_t")
-t("#VIOLET#The time has come to learn the true nature of your curse.", "#VIOLET#The time has come to learn the true nature of your curse.", "logPlayer")
-t("#VIOLET#You find yourself in a dream.", "#VIOLET#You find yourself in a dream.", "logPlayer")
-t("#VIOLET#Your hate surges. You refuse to succumb to death!", "#VIOLET#Your hate surges. You refuse to succumb to death!", "logPlayer")
-t("#VIOLET#You have discovered a small iron acorn, a link to your past.", "#VIOLET#You have discovered a small iron acorn, a link to your past.", "logPlayer")
-t("#VIOLET#The merchant caravan from the past has appeared in your dream.", "#VIOLET#The merchant caravan from the past has appeared in your dream.", "logPlayer")
-t("Last of the Caravan", "Last of the Caravan", "_t")
-t("secret path to the cave", "secret path to the cave", "_t")
-t("#VIOLET#You have begun your hunt for Kyless!", "#VIOLET#You have begun your hunt for Kyless!", "logPlayer")
-t("#VIOLET#You have a marker to the entrance of Kyless' cave!", "#VIOLET#You have a marker to the entrance of Kyless' cave!", "logPlayer")
-t("#VIOLET#You have found the entrance to Kyless' cave!", "#VIOLET#You have found the entrance to Kyless' cave!", "logPlayer")
-t("#VIOLET#You have found the entrance to a vault!", "#VIOLET#You have found the entrance to a vault!", "logPlayer")
-t("#VIOLET#The shadows have noticed you!", "#VIOLET#The shadows have noticed you!", "logPlayer")
-t("A Second Vault", "A Second Vault", "_t")
-t("You recoginize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "You recoginize this door as the entrance to a second vault. There are some scuffling noises and heavy breathing coming from the other side of the door.", "_t")
-t("#VIOLET#You have found Kyless. You must destroy him.", "#VIOLET#You have found Kyless. You must destroy him.", "logPlayer")
-t("Death of Kyless", "Death of Kyless", "_t")
-t("#VIOLET#Kyless is dead.", "#VIOLET#Kyless is dead.", "logPlayer")
-t("#VIOLET#Berethh lies dead.", "#VIOLET#Berethh lies dead.", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/kryl-feijan-escape.lua"
--- 6 entries
-t("The Sect of Kryl-Feijan", "The Sect of Kryl-Feijan", "_t")
-t("You discovered a sect worshipping a demon named Kryl-Feijan in a crypt.", "You discovered a sect worshipping a demon named Kryl-Feijan in a crypt.", "_t")
-t("They were trying to bring it back into the world using a human sacrifice.", "They were trying to bring it back into the world using a human sacrifice.", "_t")
-t("You defeated the acolytes and saved the woman. She told you she is the daughter of a rich merchant of Last Hope.", "You defeated the acolytes and saved the woman. She told you she is the daughter of a rich merchant of Last Hope.", "_t")
-t("You failed to protect her when escorting her out of the crypt.", "You failed to protect her when escorting her out of the crypt.", "_t")
-t("You failed to defeat the acolytes in time - the woman got torn apart by the demon growing inside her.", "You failed to defeat the acolytes in time - the woman got torn apart by the demon growing inside her.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/lichform.lua"
--- 15 entries
-t("From Death, Life", "From Death, Life", "_t")
-t("The affairs of this mortal world are trifling compared to your true goal: To conquer death.", "The affairs of this mortal world are trifling compared to your true goal: To conquer death.", "_t")
-t("Your studies have uncovered much surrounding this subject, but now you must prepare for your glorious rebirth.", "Your studies have uncovered much surrounding this subject, but now you must prepare for your glorious rebirth.", "_t")
-t("You will need:", "You will need:", "_t")
-t("#LIGHT_GREEN#* You are experienced enough.#WHITE#", "#LIGHT_GREEN#* You are experienced enough.#WHITE#", "_t")
-t("#SLATE#* The ceremony will require that you are worthy, experienced, and possessed of a certain amount of power (level 25, Magic over 50, Willpower over 25 and one prodigy point available).#WHITE#", "#SLATE#* The ceremony will require that you are worthy, experienced, and possessed of a certain amount of power (level 25, Magic over 50, Willpower over 25 and one prodigy point available).#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have 'extracted' the heart of one of your fellow necromancers.#WHITE#", "#LIGHT_GREEN#* You have 'extracted' the heart of one of your fellow necromancers.#WHITE#", "_t")
-t("#SLATE#* The beating heart of a powerful necromancer.#WHITE#", "#SLATE#* The beating heart of a powerful necromancer.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Yiilkgur the Sher'tul Fortress is a suitable location.#WHITE#", "#LIGHT_GREEN#* Yiilkgur the Sher'tul Fortress is a suitable location.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Yiilkgur has enough energy.#WHITE#", "#LIGHT_GREEN#* Yiilkgur has enough energy.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You are now on the path of lichdom.#WHITE#", "#LIGHT_GREEN#* You are now on the path of lichdom.#WHITE#", "_t")
-t("#SLATE#* Use the control orb of Yiilkgur to begin the ceremony.#WHITE#", "#SLATE#* Use the control orb of Yiilkgur to begin the ceremony.#WHITE#", "_t")
-t("#SLATE#* Your lair must amass enough energy to use in your rebirth (40 energy).#WHITE#", "#SLATE#* Your lair must amass enough energy to use in your rebirth (40 energy).#WHITE#", "_t")
-t("#SLATE#* The ceremony will require a suitable location, secluded and given to the channelling of energy#WHITE#", "#SLATE#* The ceremony will require a suitable location, secluded and given to the channelling of energy#WHITE#", "_t")
-t("The secrets of death lay open to you! You are to become a Lich upon your next death!", "The secrets of death lay open to you! You are to become a Lich upon your next death!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/lightning-overload.lua"
--- 14 entries
-t("Storming the city", "Storming the city", "_t")
-t("As you approached Derth you saw a huge dark cloud over the small town.", "As you approached Derth you saw a huge dark cloud over the small town.", "_t")
-t("When you entered you were greeted by an army of air elementals slaughtering the population.", "When you entered you were greeted by an army of air elementals slaughtering the population.", "_t")
-t(" * You have dispatched the elementals but the cloud lingers still. You must find a powerful ally to remove it. There are rumours of a secret town in the mountains, to the southwest. You could also check out the Ziguranth group that is supposed to fight magic.", " * You have dispatched the elementals but the cloud lingers still. You must find a powerful ally to remove it. There are rumours of a secret town in the mountains, to the southwest. You could also check out the Ziguranth group that is supposed to fight magic.", "_t")
-t(" * You have learned the real threat comes from a rogue Archmage, a Tempest named Urkis. The mages of Angolwen are ready to teleport you there.", " * You have learned the real threat comes from a rogue Archmage, a Tempest named Urkis. The mages of Angolwen are ready to teleport you there.", "_t")
-t(" * You have learned the real threat comes from a rogue Archmage, a Tempest. You have been shown a secret entrance to his stronghold.", " * You have learned the real threat comes from a rogue Archmage, a Tempest. You have been shown a secret entrance to his stronghold.", "_t")
-t(" * You have slain Urkis.  Return to Angolwen or Zigur for a reward.", " * You have slain Urkis.  Return to Angolwen or Zigur for a reward.", "_t")
-t(" * Urkis has been dealt with. Permanently.", " * Urkis has been dealt with. Permanently.", "_t")
-t("Scared Halfling", "Scared Halfling", "_t")
-t([[You step out on unfamiliar grounds. You are nearly on top of one of the highest peaks you can see.
-The storm is raging above your head.]], [[You step out on unfamiliar grounds. You are nearly on top of one of the highest peaks you can see.
-The storm is raging above your head.]], "_t")
-t([[As you arrive in Derth you notice a huge dark cloud hovering over the town.
-You hear screams coming from the town square.]], [[As you arrive in Derth you notice a huge dark cloud hovering over the town.
-You hear screams coming from the town square.]], "_t")
-t([[It seems the Ziguranth have kept their word.
-Derth is free of the storm cloud.]], [[It seems the Ziguranth have kept their word.
-Derth is free of the storm cloud.]], "_t")
-t("Clear sky", "Clear sky", "_t")
-t([[It seems the mages have kept their word.
-Derth is free of the storm cloud.]], [[It seems the mages have kept their word.
-Derth is free of the storm cloud.]], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/quests/lost-merchant.lua"
 -- 5 entries
 t("Trapped!", "Trapped!", "_t")
@@ -26602,7 +26216,7 @@ t([[Control your movements to increase your defenses. This allows you to shrug o
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/uber/mag.lua"
--- 13 entries
+-- 11 entries
 t("#ORCHID#Aether Permeation protects %s from a dispel!", "#ORCHID#Aether Permeation protects %s from a dispel!", "logSeen")
 t([[%s
 #YELLOW#%s#LAST#
@@ -26658,8 +26272,6 @@ t([[#GREY#You feel your life slip away, only to be replaced by pure arcane force
 
 #{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.]], "_t")
 t("Lich Cosmetic Options", "Lich Cosmetic Options", "_t")
-t("Customize Appearance", "Customize Appearance", "_t")
-t("Use Default", "Use Default", "_t")
 t("#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!", "#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!", "_t")
 t("#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#", "#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#", "say")
 t([[This is your true goal and the purpose of all necromancy - to become a powerful and everliving Lich!
@@ -28731,14 +28343,6 @@ t("The target is brutally stunned, reducing damage by 50%%, movement speed by 50
 t("#Target# is stunned by the brutal strike!", "#Target# is stunned by the brutal strike!", "_t")
 t("+Brutalized", "+Brutalized", "_t")
 t("-Brutalized", "-Brutalized", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/ruined-dungeon/zone.lua"
--- 3 entries
-t("The orb seems to react badly to your touch; there is a high shriek!", "The orb seems to react badly to your touch; there is a high shriek!", "_t")
-t("The orb burns to your touch and a loud shout screams out!", "The orb burns to your touch and a loud shout screams out!", "_t")
-t("The orb reacts violently to your touch and the walls begin to rumble!", "The orb reacts violently to your touch and the walls begin to rumble!", "_t")
 
 
 ------------------------------------------------
