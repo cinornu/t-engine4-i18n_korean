@@ -817,6 +817,15 @@ function resolvers.calc.sustains_at_birth(_, e)
 	end
 end
 
+--- Registers callbacks on the actor itself
+function resolvers.register_callbacks(list)
+	return {__resolver="register_callbacks", __resolve_last=true, list}
+end
+function resolvers.calc.register_callbacks(t, e)
+	e.__self_callbacks = t[1]
+	e:registerCallbacks(e.__self_callbacks, e, "self")
+end
+
 --- Help creating randarts
 function resolvers.randartmax(v, max)
 	return {__resolver="randartmax", v=v, max=max}

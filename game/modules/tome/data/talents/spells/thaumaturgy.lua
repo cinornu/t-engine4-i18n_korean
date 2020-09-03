@@ -75,6 +75,12 @@ newTalent{
 		if not death_note.source_talent or not death_note.source_talent.is_beam_spell then return end
 		if not thaumaturgyCheck(self) then return end
 
+		if self._orb_of_thaumaturgy_recurs then
+			if self.turn_procs.multicaster_orb then return end
+		else
+			if self.turn_procs.multicaster then return end
+		end
+
 		local tids = {}
 		local is_aethar_avatar = self:hasEffect(self.EFF_AETHER_AVATAR)
 		for kind, list in pairs(t.spells_list) do
@@ -89,6 +95,9 @@ newTalent{
 		local choice = rng.rarityTable(tids, "cd")
 		if not choice then return end
 		self:forceUseTalent(choice.tid, {ignore_cooldown=true, ignore_energy=true, force_target=self._orb_of_thaumaturgy_recurs or target})
+
+		if self._orb_of_thaumaturgy_recurs then self.turn_procs.multicaster_orb = true
+		else self.turn_procs.multicaster = true end
 	end,	
 	activate = function(self, t)
 		local ret = {}
@@ -99,8 +108,9 @@ newTalent{
 	end,
 	info = function(self, t)
 		return ([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
-		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know. This can only happen once per turn.
+		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
 		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
+		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
 		The additional cast will cost mana but no turn and will not active its cooldown.
 		During Aether Avatar only compatible spells are used.]]):
 		tformat(t:_getChance(self))

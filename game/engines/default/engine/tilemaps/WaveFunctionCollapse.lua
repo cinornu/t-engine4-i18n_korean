@@ -57,6 +57,7 @@ function _M:parseResult(data)
 			x = x + 1
 		end
 	end
+	return true
 end
 
 --- Called by the constructor to actaully start doing stuff
@@ -79,7 +80,7 @@ function _M:waitCompute()
 	local data = self.async_data:wait()
 	self.async_data = nil
 
-	self:parseResult(data)	
+	if not self:parseResult(data) then return end
 	return self:hasResult()
 end
 
@@ -89,7 +90,7 @@ function _M:waitAll(...)
 	local all_have_data = true
 	for _, wfcasync in ipairs{...} do
 		wfcasync:waitCompute()
-		if not wfcasync:hasResult() then all_have_data = false end -- We cant break, we need to wait all the threads to not leave them dangling in the wind
+		if not wfcasync:hasResult() or wfcasync:isEmpty() then all_have_data = false end -- We cant break, we need to wait all the threads to not leave them dangling in the wind
 	end
 	return all_have_data
 end

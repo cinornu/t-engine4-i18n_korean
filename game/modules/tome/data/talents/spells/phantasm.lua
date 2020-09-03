@@ -209,14 +209,14 @@ newTalent{
 			summoner = self,
 			heal = function() return 0 end, -- Cant ever heal
 			useCharge = function(self)
-				self.charges = self.charges - 1
-				self.max_life = self.max_charges
+				self.charges = (self.charges or 1) - 1
+				self.max_life = self.max_charges or 1
 				self.life = self.charges
 				if self.charges < 0 then self:die(self) end
 			end,
 			callbackOnAct = function(self)
-				self.max_life = self.max_charges
-				self.life = self.charges
+				self.max_life = self.max_charges or 1
+				self.life = self.charges or 1
 			end,
 			onTemporaryValueChange = function(self, ...)
 				self:callbackOnAct()

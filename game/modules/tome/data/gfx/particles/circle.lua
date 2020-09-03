@@ -28,7 +28,7 @@ else
 end
 
 local speed = speed or 0.023
-local a = (a or 60) / 255
+local a = ((type(a) == "number" and a) or 60) / 255
 local basesize = (shader and 1.75 or 1) * 2 * radius * (engine.Map.tile_w + engine.Map.tile_h) / 2 + engine.Map.tile_w * 1.8 * (oversize or 1)
 local appear = appear or 0
 local appear_size = appear_size or 3

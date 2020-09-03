@@ -107,7 +107,7 @@ newTalent{
 		local nb = 0
 		for tid, lvl in pairs(self.talents) do
 			local tt = self:getTalentFromId(tid)
-			if tt.is_inscription then
+			if tt and tt.is_inscription then
 				if tt.is_nature then nb = -1 break end -- FILTHY NATURE USER! WE ARE DONE WITH YOU!
 				if tt.is_spell then nb = nb + 1 end
 			end
@@ -155,7 +155,7 @@ newTalent{
 		if runes < 1 then return end
 		local dam = t.getDamage(self, t) -- no crit
 		local reduce = t.getReduce(self, t)
-		local targets = table.keys(self:projectCollect({type="ball", radius=self:getTalentRadius(t), talent=t}, self.x, self.y, Map.ACTOR, "hostile"))
+		local targets = table.keys(self:projectCollect({type="ball", radius=self:getTalentRadius(t), talent=t}, self.x, self.y, Map.ACTOR, function(tgt) return self:canSee(tgt) and self:reactionToward(tgt) < 0 end))
 		while #targets > 0 and runes > 0 do
 			local target = rng.tableRemove(targets)
 			runes = runes - 1

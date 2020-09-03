@@ -63,8 +63,8 @@ on_grant = function(self, who)
 
 	for i = 1, 7 do
 		spot = game.level:pickSpot{type="arrival", subtype="ziguranth"}
-		x, y = util.findFreeGrid(spot.x, spot.y, 5, true, {[engine.Map.ACTOR]=true})
-		m = game.zone:makeEntity(game.level, "actor", {special_rarity="ziguranth_rarity"}, nil, true)
+		if spot then x, y = util.findFreeGrid(spot.x, spot.y, 5, true, {[engine.Map.ACTOR]=true}) end
+		if x then m = game.zone:makeEntity(game.level, "actor", {special_rarity="ziguranth_rarity"}, nil, true) end
 		if m and x and y then game.zone:addEntity(game.level, m, "actor", x, y) end
 	end
 

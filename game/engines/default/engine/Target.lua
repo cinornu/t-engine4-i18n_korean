@@ -739,6 +739,8 @@ function _M:scan(dir, radius, sx, sy, filter, kind)
 	sy = sy or self.target.y
 	if not sx or not sy then return end
 
+	if not filter and self.target_type and self.target_type.custom_scan_filter then filter = self.target_type.custom_scan_filter end
+
 	kind = kind or engine.Map.ACTOR
 	radius = radius or 20
 	local actors = {}

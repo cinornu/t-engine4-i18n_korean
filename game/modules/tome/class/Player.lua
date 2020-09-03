@@ -911,7 +911,7 @@ end
 
 local function spotHostiles(self, actors_only)
 	local seen = {}
-	if not self.x then return seen end
+	if not self.x or not game.level then return seen end
 
 	-- Check for visible monsters, only see LOS actors, so telepathy wont prevent resting
 	core.fov.calc_circle(self.x, self.y, game.level.map.w, game.level.map.h, self.sight or 10, function(_, x, y) return game.level.map:opaque(x, y) end, function(_, x, y)
@@ -1319,6 +1319,20 @@ end
 --- Uses an hotkeyed talent
 -- This requires the ActorTalents interface to use talents and a method player:playerUseItem(o, item, inven) to use inventory objects
 function _M:activateHotkey(id)
+	local kind, tid = self:getHotkeyInfo(id)
+	if kind == "talent" then
+		local t = self:getTalentFromId(tid)
+		if (not t) or (not t.allow_use_worldmap and not self.allow_talents_worldmap and (not game.zone or game.zone.wilderness)) then
+			game.logPlayer(self, "You cannot do that on the world map.")
+			return false
+		end
+	else
+		if not game.zone or game.zone.wilderness then
+			game.logPlayer(self, "You cannot do that on the world map.")
+			return false
+		end
+	end
+
 	-- Visual feedback to show whcih key was pressed
 	if config.settings.tome.visual_hotkeys and game.uiset.hotkeys_display and game.uiset.hotkeys_display.clics and game.uiset.hotkeys_display.clics[id] and self.hotkey[id] then
 		local zone = game.uiset.hotkeys_display.clics[id]

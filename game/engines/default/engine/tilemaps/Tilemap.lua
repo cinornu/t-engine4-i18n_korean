@@ -61,6 +61,19 @@ function _M:makeData(w, h, fill_with)
 	return data
 end
 
+function _M:isEmpty(filled_with)
+	if not filled_with then filled_with = ' ' end
+	if not self.data then return true end
+	for y = 1, self.data_h do
+		for x = 1, self.data_w do
+			if self.data[y][x] ~= filled_with then
+				return false
+			end
+		end
+	end
+	return true
+end
+
 function _M:erase(fill_with)
 	self.data = self:makeData(self.data_w, self.data_h, fill_with or '#')
 end
@@ -865,7 +878,11 @@ function _M:fillGroup(group, char)
 	-- print("[Tilemap] Filling group of", #group.list, "with", char)
 	for j = 1, #group.list do
 		local jn = group.list[j]
-		self.data[jn.y][jn.x] = char
+		if type(char) == "function" then
+			self.data[jn.y][jn.x] = char(jn.x, jn.y, self.data[jn.y][jn.x])
+		else
+			self.data[jn.y][jn.x] = char
+		end
 	end
 end
 
@@ -1117,8 +1134,10 @@ function _M:merge(x, y, tm, char_order, empty_char)
 							self.data[sj][si] = tm.data[j][i]
 						end
 					else
-						if char_order(si, sj, sc, c) then
-							self.data[sj][si] = tm.data[j][i]
+						local v = char_order(si, sj, sc, c)
+						if v then
+							if v == true then v = tm.data[j][i] end
+							self.data[sj][si] = v
 						end
 					end
 				end

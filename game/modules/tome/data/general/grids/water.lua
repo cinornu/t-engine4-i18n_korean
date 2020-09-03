@@ -161,6 +161,7 @@ newEntity{
 --	add_displays = class:makeWater(true, "poison_"),
 	always_remember = true,
 	air_level = -5, air_condition="water",
+	special_minimap = colors.DARK_GREEN,
 
 	mindam = resolvers.mbonus(10, 25),
 	maxdam = resolvers.mbonus(20, 50),

@@ -318,7 +318,6 @@ function _M:crossTierEffect(eff_id, apply_power, apply_save, use_given_e)
 		ct_effect = cross_tier_effects[save_for_effects[e.type]]
 	end
 	local dur = self:getTierDiff(apply_power, save)
-	print("!!!!! from", eff_id," =>" , ct_effect, dir, apply_power, save)
 	self:setEffect(ct_effect, dur, {})
 	return ct_effect
 end

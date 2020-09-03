@@ -2030,7 +2030,15 @@ function _M:setupCommands()
 	if self.posteffects and self.posteffects.gestures and self.posteffects.gestures.shad then self.gestures.shader = self.posteffects.gestures.shad end
 
 	-- Helper function to not allow some actions on the wilderness map
-	local not_wild = function(f, bypass) return function(...) if self.zone and (not self.zone.wilderness or (bypass and bypass())) then f(...) else self.logPlayer(self.player, "You cannot do that on the world map.") end end end
+	local not_wild = function(f, bypass)
+		return function(...)
+			if self.zone and (not self.zone.wilderness or (bypass and bypass()))
+				then f(...)
+			else
+				self.logPlayer(self.player, "You cannot do that on the world map.")
+			end
+		end
+	end
 
 	-- Debug mode
 	self.key:addCommands{
@@ -2513,10 +2521,10 @@ do return end
 		end,
 		LUA_CONSOLE = self.key.virtuals.LUA_CONSOLE,
 	}
-	engine.interface.PlayerHotkeys:bindAllHotkeys(self.key, not_wild(function(i)
+	engine.interface.PlayerHotkeys:bindAllHotkeys(self.key, function(i)
 		self:targetTriggerHotkey(i)
 		self.player:activateHotkey(i)
-	end, function() return self.player.allow_talents_worldmap end))
+	end)
 
 	self:setupWASD()
 	self.key:setCurrent()

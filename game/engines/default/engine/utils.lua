@@ -2874,7 +2874,7 @@ function util.findFreeGrid(sx, sy, radius, block, what)
 		end
 	end end
 
-	if #gs == 0 then return nil end
+	if #gs == 0 then return nil, nil, {} end
 
 	table.sort(gs, function(a, b)
 		if a[3] == b[3] then

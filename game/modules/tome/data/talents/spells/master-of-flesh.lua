@@ -376,7 +376,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		return ([[Shattering up to %d ghouls or ghasts you create a putrescent swirling cloud of radius %d that follows you around for 3 turns per dead ghoul plus one turn. Oldest ghouls are prioritized for destruction.
-		Any ghoul or ghast dying or expiring within this cloud increases its duration by %d turn and every two aborbed ghoul/ghast your gain back one soul.
+		Any ghoul or ghast dying or expiring within this cloud increases its duration by %d turn and every two absorbed ghoul/ghast your gain back one soul.
 		The cloud deals %0.2f frostdusk damage to any foes caught inside.
 		The damage will increase with your Spellpower.
 		]]):tformat(t:_getNb(self), self:getTalentRadius(t), t:_getIncrease(self), damDesc(self, DamageType.FROSTDUSK, t:_getDamage(self)))
@@ -429,7 +429,7 @@ newTalent{
 		return ([[Whenever you would be affected by a detrimental physical effect you instead transfer it instantly to one of your ghouls.
 		The ghoul dies from the process.
 		While under 1 life it also affects magical and mental effects.
-		At most %d effects can be affected by turn.
+		At most %d effects can be affected per turn.
 		Cross-tier effects are never affected.]]):
 		tformat(t:_getNb(self))
 	end,

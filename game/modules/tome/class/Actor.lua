@@ -6156,6 +6156,8 @@ function _M:fireTalentCheck(event, ...)
 				self.__object_use_running = tid
 				ret = tid:check(event, self, ...) or ret
 				self.__object_use_running = nil
+			elseif kind == "self" then
+				ret = tid.__self_callbacks[event](self, ...) or ret
 			else
 				self.__project_source = self.sustain_talents[tid]
 				ret = self:callTalent(tid, event, ...) or ret
@@ -6200,6 +6202,11 @@ function _M:iterCallbacks(event)
 					self.__project_source = tid
 					local ret = tid:check(event, self, ...)
 					self.__project_source = old_ps
+					return ret
+				end, priority, kind
+			elseif kind == "self" then
+				return function(...)
+					local ret = tid.__self_callbacks[event](self, ...)
 					return ret
 				end, priority, kind
 			else

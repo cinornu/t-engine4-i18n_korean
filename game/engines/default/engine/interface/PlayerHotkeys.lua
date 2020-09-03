@@ -165,6 +165,15 @@ function _M:activateHotkey(id)
 	end
 end
 
+--- Grabs info of an hotkey
+function _M:getHotkeyInfo(id)
+	if self.hotkey[id] then
+		return self.hotkey[id][1], self.hotkey[id][2]
+	else
+		return nil
+	end
+end
+
 --- Activates a hotkey with a type "talent"
 function _M:hotkeyTalent(tid)
 	self:useTalent(tid)
