@@ -194,7 +194,10 @@
 "game/modules/tome/data/quests/grave-necromancer.lua"
 "game/modules/tome/data/quests/high-peak.lua"
 "game/modules/tome/data/quests/infinite-dungeon.lua"
-"game/modules/tome/data/quests/keepsake.lua" Khelerd 완
+"game/modules/tome/data/quests/keepsake.lua"
+"game/modules/tome/data/quests/kryl-feijan-escape.lua"
+"game/modules/tome/data/quests/lichform.lua"
+"game/modules/tome/data/quests/lightning-overload.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
