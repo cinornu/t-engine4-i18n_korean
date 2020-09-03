@@ -73,6 +73,7 @@ section "game/addons/tome-possessors/data/talents/psionic/ravenous-mind.lua"
 ------------------------------------------------
 section "game/addons/tome-possessors/data/timed_effects.lua"
 
+t("Kryl-Feijan", "키릴-페이얀", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
 t("High Sun Paladin Aeryn", "고위 태양의 기사 아에린", "_t")
 t("#Target# is stunned!", "#Target1# 기절했다!", "_t")

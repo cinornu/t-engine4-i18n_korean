@@ -348,7 +348,7 @@ t([[As long as you have at least a stack of Sadist you can mentally lash out at 
 
 ------------------------------------------------
 section "game/addons/tome-possessors/data/timed_effects.lua"
--- 58 entries
+-- 57 entries
 t("Ominous Form", "Ominous Form", "_t")
 t("You stole your current form and share damage and healing with it.", "You stole your current form and share damage and healing with it.", "_t")
 t("Assume Form", "Assume Form", "_t")
@@ -356,7 +356,6 @@ t("You use the body of one of your fallen victims. You can not heal in this form
 t("#CRIMSON#While you assume a form you may not levelup. All exp gains are delayed and will be granted when you reintegrate your own body.", "#CRIMSON#While you assume a form you may not levelup. All exp gains are delayed and will be granted when you reintegrate your own body.", "_t")
 t("#CRIMSON#Your body died! You quickly return to your normal one but the shock is terrible!", "#CRIMSON#Your body died! You quickly return to your normal one but the shock is terrible!", "say")
 t("was killed by possession aftershock", "was killed by possession aftershock", "_t")
-t("Kryl-Feijan", "Kryl-Feijan", "_t")
 t("Your possessed body's eyelids briefly flutter, and a tear rolls down its cheek. You didn't tell it to do that.", "Your possessed body's eyelids briefly flutter, and a tear rolls down its cheek. You didn't tell it to do that.", "_t")
 t("The flames surrounding Shasshhiy'Kaish slowly die as she falls to her knees.  \"Fiend...  and I thought #{italic}#I#{normal}# could cause suffering.  It's the one thing Eyalites always did best,\" she spits.  \"I heard what had happened to him, and my followers have given more than enough of their life to restore me after this.  All you've accomplished here - [cough] - is giving us a worthwhile new goal...  and target.  All will be repaid tenfold, Eyalite.\"  Her coughing grows weaker, until she abruptly bursts into flame; her ashes scatter into the wind.", "The flames surrounding Shasshhiy'Kaish slowly die as she falls to her knees.  \"Fiend...  and I thought #{italic}#I#{normal}# could cause suffering.  It's the one thing Eyalites always did best,\" she spits.  \"I heard what had happened to him, and my followers have given more than enough of their life to restore me after this.  All you've accomplished here - [cough] - is giving us a worthwhile new goal...  and target.  All will be repaid tenfold, Eyalite.\"  Her coughing grows weaker, until she abruptly bursts into flame; her ashes scatter into the wind.", "_t")
 t("Aeryn's bewildered and terrified cries grow quiet, but...  your ears don't ring or hurt as screams of horror and rage surround you, louder than should be deafening.  When they shift to accusations, an unfamiliar guilt dominates your thoughts; you are forced to abandon your body before it can compel you to punish yourself.", "Aeryn's bewildered and terrified cries grow quiet, but...  your ears don't ring or hurt as screams of horror and rage surround you, louder than should be deafening.  When they shift to accusations, an unfamiliar guilt dominates your thoughts; you are forced to abandon your body before it can compel you to punish yourself.", "_t")
@@ -457,7 +456,7 @@ t("#SLATE##{italic}#Your level of #LIGHT_BLUE#Full Control talent#LAST# is not h
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/achievements/all.lua"
--- 19 entries
+-- 18 entries
 t("A Fist Full of Demons", "A Fist Full of Demons", "achievement name")
 t("Killed 1000 demons.", "Killed 1000 demons.", "_t")
 t("Glory to the Fearscape", "Glory to the Fearscape", "achievement name")
@@ -474,7 +473,6 @@ t("The Old Ones", "The Old Ones", "achievement name")
 t("Kill all the three demons that are on Eyal since before the Spellblaze: Shasshhiy'Kaish, Kryl'Feijan and Walrog.", "Kill all the three demons that are on Eyal since before the Spellblaze: Shasshhiy'Kaish, Kryl'Feijan and Walrog.", "_t")
 t("#LIGHT_GREEN#Shasshhiy'Kaish#LAST#", "#LIGHT_GREEN#Shasshhiy'Kaish#LAST#", "_t")
 t("#LIGHT_GREEN#Kryl-Feijan#LAST#", "#LIGHT_GREEN#Kryl-Feijan#LAST#", "_t")
-t("Kryl-Feijan", "Kryl-Feijan", "_t")
 t("#LIGHT_GREEN#Walrog#LAST#", "#LIGHT_GREEN#Walrog#LAST#", "_t")
 t("Walrog", "Walrog", "_t")
 
@@ -555,16 +553,14 @@ t("fire haven", "fire haven", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
--- 23 entries
+-- 21 entries
 t("Rogroth, Eater of Souls", "Rogroth, Eater of Souls", "_t")
 t("a champion of Urh'Rok", "a champion of Urh'Rok", "_t")
 t("a dolleg", "a dolleg", "_t")
-t("Draebor, the Imp", "Draebor, the Imp", "_t")
 t("a dúathedlen", "a dúathedlen", "_t")
 t("a fire imp", "a fire imp", "_t")
 t("a forge giant", "a forge giant", "_t")
 t("Khulmanar, General of Urh'Rok", "Khulmanar, General of Urh'Rok", "_t")
-t("Kryl-Feijan", "Kryl-Feijan", "_t")
 t("an onilug", "an onilug", "_t")
 t("a quasit", "a quasit", "_t")
 t("a thaurhereg", "a thaurhereg", "_t")
@@ -1105,139 +1101,27 @@ t("#SLATE#* You have to destroy the controlling crystal before leaving or the de
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
--- 5 entries
-t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "tformat")
-t("%s resists the grasp!", "%s resists the grasp!", "logSeen")
-t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.
-		Starting from talent level 4, it will also silence.
-		The beam damage and damage over time will increase with your Spellpower.]], [[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.
-		Starting from talent level 4, it will also silence.
-		The beam damage and damage over time will increase with your Spellpower.]], "tformat")
-t("Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "tformat")
-t([[You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.
-		You get once chance to deal this damage to a particular target each turn.]], [[You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.
-		You get once chance to deal this damage to a particular target each turn.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/corruptions.lua"
--- 26 entries
-t("Demon seeds powers can not be learnt, they must be used from demon seeds attached to your equipment.", "Demon seeds powers can not be learnt, they must be used from demon seeds attached to your equipment.", "_t")
-t("demon seeds", "demon seeds", "_t")
-t("Bind and use demons to do your bidding.", "Bind and use demons to do your bidding.", "_t")
-t("demonic pact", "demonic pact", "_t")
-t("Imbue your melee attacks with lethal demonic powers.", "Imbue your melee attacks with lethal demonic powers.", "_t")
-t("infernal combat", "infernal combat", "_t")
-t("Imbue yourself with the forces of Mal'Rok, the demon's homeworld, to protect and enhance.", "Imbue yourself with the forces of Mal'Rok, the demon's homeworld, to protect and enhance.", "_t")
-t("doom shield", "doom shield", "_t")
-t("That Old Black Magic.", "That Old Black Magic.", "_t")
-t("black-magic", "black-magic", "_t")
-t("Control darkness to crush your foes.", "Control darkness to crush your foes.", "_t")
-t("doom covenant", "doom covenant", "_t")
-t("Use the very power of the Spellblaze to destroy your foes.", "Use the very power of the Spellblaze to destroy your foes.", "_t")
-t("Devastating two-handed physical attacks fueled by demonic power.", "Devastating two-handed physical attacks fueled by demonic power.", "_t")
-t("brutality", "brutality", "_t")
-t("Cripple your enemies with vicious two-handed attacks.", "Cripple your enemies with vicious two-handed attacks.", "_t")
-t("Destroy your enemies with intense two-handed physical attacks fueled by demonic power.", "Destroy your enemies with intense two-handed physical attacks fueled by demonic power.", "_t")
-t("Call upon the flames of the Fearscape, incinerating all.", "Call upon the flames of the Fearscape, incinerating all.", "_t")
-t("Fearfire", "Fearfire", "_t")
-t("Fire is your lifeblood; it revitalizes you as it burns your foes.", "Fire is your lifeblood; it revitalizes you as it burns your foes.", "_t")
-t("Heart of Fire", "Heart of Fire", "_t")
-t("Infuse your body with the power of Demons.", "Infuse your body with the power of Demons.", "_t")
-t("demonic strength", "demonic strength", "_t")
-t("Make your blows terrify your foes and manipulate their fear.", "Make your blows terrify your foes and manipulate their fear.", "_t")
-t("Oppression", "Oppression", "_t")
-t("Demon", "Demon", "_t")
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/black-magic.lua"
+-- 4 entries
+t("Weakened Soul", "Weakened Soul", "talent name")
+t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, dealing 2%% less damage.", "For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, dealing 2%% less damage.", "tformat")
+t([[The future looks grim indeed... for your foes.
+		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
+		While powered-up you can not apply new Bleak Outcome stacks.		
+		Damage is based on your Spellpower.]], [[The future looks grim indeed... for your foes.
+		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
+		While powered-up you can not apply new Bleak Outcome stacks.		
+		Damage is based on your Spellpower.]], "tformat")
+t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you turn into an Ominous Shadow for one turn per stack.
+		While transformed you are invisible (power %d), convert 100%% of all damage done to darkness and gain darkness resistance penetration and damage increase equal to your highest.
+		While transformed you can not apply new Bleak Outcome stacks.]], [[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you turn into an Ominous Shadow for one turn per stack.
+		While transformed you are invisible (power %d), convert 100%% of all damage done to darkness and gain darkness resistance penetration and damage increase equal to your highest.
+		While transformed you can not apply new Bleak Outcome stacks.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
--- 66 entries
-t("Flame Bolts", "Flame Bolts", "talent name")
-t([[Randomly (%d%% chance) hurls up to %d flame bolts dealing %0.2f fire damage to foes in sight when you hit in melee.
-		The damage will increase with your Spellpower.]], [[Randomly (%d%% chance) hurls up to %d flame bolts dealing %0.2f fire damage to foes in sight when you hit in melee.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Fiery Cleansing", "Fiery Cleansing", "talent name")
-t("Deals 20%% of your total life to cleanse your afflictions, removing up to %d physical, mental or magical detrimental effects.", "Deals 20%% of your total life to cleanse your afflictions, removing up to %d physical, mental or magical detrimental effects.", "tformat")
-t("Farstrike", "Farstrike", "talent name")
-t("You send your weapon flying to the target, dealing %d%% weapon damage.", "You send your weapon flying to the target, dealing %d%% weapon damage.", "tformat")
-t("Corrosive Slashes", "Corrosive Slashes", "talent name")
-t([[You cover your weapon in acid, turning all melee damage into acid.
-		All melee attacks also gain %d armor penetration.]], [[You cover your weapon in acid, turning all melee damage into acid.
-		All melee attacks also gain %d armor penetration.]], "tformat")
-t("Acidic Bath", "Acidic Bath", "talent name")
-t([[You spawn a pool of acid in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
-		You also gain 40%% acid resistance and %d%% acid affinity.
-		The damage scales with your Spellpower.]], [[You spawn a pool of acid in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
-		You also gain 40%% acid resistance and %d%% acid affinity.
-		The damage scales with your Spellpower.]], "tformat")
-t("Blighted Path", "Blighted Path", "_t")
-t("Select a use for the %s charge(s):", "Select a use for the %s charge(s):", "tformat")
-t("Shield for %d damage (50%% reflect).", "Shield for %d damage (50%% reflect).", "tformat")
-t("Attack for #DARK_GREEN#%0.2f blight damage", "Attack for #DARK_GREEN#%0.2f blight damage", "tformat")
-t("Restore #904010#%0.2f vim", "Restore #904010#%0.2f vim", "tformat")
-t([[Each time you walk or move you gain a blight charge. You can store up to %d charges.
-		When you de-activate the talent you can use the charges to either:
-		- restore %0.2f vim per charge
-		- deal %0.2f blight damage per charge to a target in range %d.
-		- create a shield absorbing %d per chage damage and refelcting half of it back to attackers.
-		The damage scales with your Spellpower.]], [[Each time you walk or move you gain a blight charge. You can store up to %d charges.
-		When you de-activate the talent you can use the charges to either:
-		- restore %0.2f vim per charge
-		- deal %0.2f blight damage per charge to a target in range %d.
-		- create a shield absorbing %d per chage damage and refelcting half of it back to attackers.
-		The damage scales with your Spellpower.]], "tformat")
-t("Corrupt Light", "Corrupt Light", "talent name")
-t([[Weave darkness in a radius of %d. All unlit grids contribute to your power by increasing all your damage done for %d turns.
-		Damage increase depends on the number of grids extinguished.]], [[Weave darkness in a radius of %d. All unlit grids contribute to your power by increasing all your damage done for %d turns.
-		Damage increase depends on the number of grids extinguished.]], "tformat")
-t("Shadowmeld", "Shadowmeld", "talent name")
-t([[Whenever you are on an unlit grid you can meld with the shadows, gaining %d stealth power.
-		While stealthed you wrap shadows around you in a defensive cloak, giving you a %d%% chance to ignore physical or magical detrimental effects.
-		Your equiped lite does not count and will be turned off when activating.
-		Moving will cancel the effect.
-		Stealth power depends on Spellpower.]], [[Whenever you are on an unlit grid you can meld with the shadows, gaining %d stealth power.
-		While stealthed you wrap shadows around you in a defensive cloak, giving you a %d%% chance to ignore physical or magical detrimental effects.
-		Your equiped lite does not count and will be turned off when activating.
-		Moving will cancel the effect.
-		Stealth power depends on Spellpower.]], "tformat")
-t("Blood Shield", "Blood Shield", "talent name")
-t([[By channeling doom forces in your shield you constantly apply 15%% of its block value as a flat damage reduction against all damage.
-		Whenever you are hit in melee your shield retaliates automatically for %d%% of its block value as fire and darkness damage.]], [[By channeling doom forces in your shield you constantly apply 15%% of its block value as a flat damage reduction against all damage.
-		Whenever you are hit in melee your shield retaliates automatically for %d%% of its block value as fire and darkness damage.]], "tformat")
-t("Corrupt the target, silencing it for %d turns.", "Corrupt the target, silencing it for %d turns.", "tformat")
-t("Fiery Portal", "Fiery Portal", "talent name")
-t("fiery portal", "fiery portal", "_t")
-t([[Create two interlinked portals for %d turns.
-		Only you can use the portal willingly.
-		If a creature stands on the other end of the portal when you enter, you will switch places with it.]], [[Create two interlinked portals for %d turns.
-		Only you can use the portal willingly.
-		If a creature stands on the other end of the portal when you enter, you will switch places with it.]], "tformat")
-t("Doom Tendrils", "Doom Tendrils", "talent name")
-t([[You turn into a pillar of doom, sprouting flame tendrils in radius 2 around you.
-		All foes hit by the tendrils take %0.2f fire damage per turn.
-		If the creature suffers damage from the fire it is pinned to the ground.]], [[You turn into a pillar of doom, sprouting flame tendrils in radius 2 around you.
-		All foes hit by the tendrils take %0.2f fire damage per turn.
-		If the creature suffers damage from the fire it is pinned to the ground.]], "tformat")
-t("Doomed Nature", "Doomed Nature", "talent name")
-t([[You curse a target for 5 turns to sever its connection to Nature.
-		Each time it tries to use a natural or psionic power it has %d%% chances to fail and instead trigger a fireball of radius 1 doing %0.2f fire damage.
-		The damage increases with you Spellpower stat.]], [[You curse a target for 5 turns to sever its connection to Nature.
-		Each time it tries to use a natural or psionic power it has %d%% chances to fail and instead trigger a fireball of radius 1 doing %0.2f fire damage.
-		The damage increases with you Spellpower stat.]], "tformat")
-t("Acid Burst", "Acid Burst", "talent name")
-t([[Whenever you block an attack with your shield, you release a cloud of acidic vapour, dealing %d damage in an area of radius 3 over %d turns.
-		The damage will increase with your spellpower.]], [[Whenever you block an attack with your shield, you release a cloud of acidic vapour, dealing %d damage in an area of radius 3 over %d turns.
-		The damage will increase with your spellpower.]], "tformat")
-t("Corrosive Cone", "Corrosive Cone", "talent name")
-t([[When you deal a critical strike in melee, you send out a cone of acid, dealing %d damage to all enemies and melting walls you hit.
-		The damage will increase with your Spellpower.]], [[When you deal a critical strike in melee, you send out a cone of acid, dealing %d damage to all enemies and melting walls you hit.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Armoured Leviathan", "Armoured Leviathan", "talent name")
-t([[You enchant your shield to grant you power for %d turns.
-		While the effect last your Strength and Magic stats are increased by 10%% of your shield block value.]], [[You enchant your shield to grant you power for %d turns.
-		While the effect last your Strength and Magic stats are increased by 10%% of your shield block value.]], "tformat")
+-- 15 entries
 t("Flash Block", "Flash Block", "talent name")
 t("In a fiery display of speed you raise your shield to block instantly.", "In a fiery display of speed you raise your shield to block instantly.", "tformat")
 t("Blackice", "Blackice", "talent name")
@@ -1263,299 +1147,19 @@ t([[Whenever make a melee attack, you have a %d%% chance to randomly curse the t
 		This may only happen once per turn.]], [[Whenever make a melee attack, you have a %d%% chance to randomly curse the target with one of the curses: Defenselessness, Impotence, Death or Vulnerability as if cast at talent level %d.
 		This may only happen once per turn.]], "tformat")
 t("Doom Storm", "Doom Storm", "talent name")
-t("Frostfire Nova", "Frostfire Nova", "talent name")
-t([[Fire a blast of frostfire in radius %d, doing %0.2f fire damage and freezing creatures in ice blocks for 4 turns.
-		For each frozen creature you regenerate %d vim.
-		The damage will increase with your Spellpower.]], [[Fire a blast of frostfire in radius %d, doing %0.2f fire damage and freezing creatures in ice blocks for 4 turns.
-		For each frozen creature you regenerate %d vim.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Fetid Breath", "Fetid Breath", "talent name")
-t("@Source@ breathes fetid matter!", "@Source@ breathes fetid matter!", "_t")
-t([[You breathe a mix of darkness and flight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
-		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
-		The damage will increase with your Spellpower.
-		]], [[You breathe a mix of darkness and flight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
-		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
-		The damage will increase with your Spellpower.
-		]], "tformat")
-t("Blood Drinker", "Blood Drinker", "talent name")
-t([[Deal a blight-enhanced melee blow, dealing %d%% blight damage.
-		If the attack hits and the creature dies in the next 2 turns you drink its essence which makes you regenerate 7 vim per turn and gain 40%% chance to evade attacks for the next %d turns.
-		]], [[Deal a blight-enhanced melee blow, dealing %d%% blight damage.
-		If the attack hits and the creature dies in the next 2 turns you drink its essence which makes you regenerate 7 vim per turn and gain 40%% chance to evade attacks for the next %d turns.
-		]], "tformat")
 t("Meteor Slam", "Meteor Slam", "talent name")
-t("You cannot use Meteor Slam without a shield!", "You cannot use Meteor Slam without a shield!", "logPlayer")
 t("", "", "log")
-t([[Using demonic forces you jump high in the sky and fall down on your target as a meteor, slamming the ground with your shield.
-		The impact is so powerful it shakes the ground in radius %d, dealing a %d%% fire and physical shield attack to all foes and turning the ground into lava.]], [[Using demonic forces you jump high in the sky and fall down on your target as a meteor, slamming the ground with your shield.
-		The impact is so powerful it shakes the ground in radius %d, dealing a %d%% fire and physical shield attack to all foes and turning the ground into lava.]], "tformat")
-t("Blazing Phase", "Blazing Phase", "talent name")
-t([[By seathing yourself in flames you phase to a distant location.
-		Any creature caught in the way is burnt for %0.2f fire damage which you use to regain %d vim.
-		The damage will increase with your Spellpower.
-		]], [[By seathing yourself in flames you phase to a distant location.
-		Any creature caught in the way is burnt for %0.2f fire damage which you use to regain %d vim.
-		The damage will increase with your Spellpower.
-		]], "tformat")
-t("Diseased Body", "Diseased Body", "talent name")
-t([[Whenever you take direct damage, there is a %d%% chance that your your diseased body erupts in blight, diseasing your attacker with a random disease for %d turns.
-		Each turn the disease deals %0.2f blight damage and reduce one random attribute (strength, dexterity, constitution) by %d.
-		This may only happen once per turn.
-		The damage increases with your spellpower.]], [[Whenever you take direct damage, there is a %d%% chance that your your diseased body erupts in blight, diseasing your attacker with a random disease for %d turns.
-		Each turn the disease deals %0.2f blight damage and reduce one random attribute (strength, dexterity, constitution) by %d.
-		This may only happen once per turn.
-		The damage increases with your spellpower.]], "tformat")
-t("Volcanic Skin", "Volcanic Skin", "talent name")
-t([[For every turn where you take damage you have a %d%% chance to store a seismic charge.
-		You can activate this spell to consume the charges, spawning a raging volcano that lasts for 2 turns per charges.
-		Each turn the volcano spews 2 flaming boulders that deal %0.2f fire and %0.2f physical damage.
-		The charges quickly fade when outside of combat.
-		The damage increases with your spellpower.]], [[For every turn where you take damage you have a %d%% chance to store a seismic charge.
-		You can activate this spell to consume the charges, spawning a raging volcano that lasts for 2 turns per charges.
-		Each turn the volcano spews 2 flaming boulders that deal %0.2f fire and %0.2f physical damage.
-		The charges quickly fade when outside of combat.
-		The damage increases with your spellpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
--- 25 entries
-t("13%% chance to trigger a Blood Grasp cast of level %d", "13%% chance to trigger a Blood Grasp cast of level %d", "tformat")
-t("Reduces duration of detrimental effects by 40%", "Reduces duration of detrimental effects by 40%", "_t")
-t("+2 to all Demon Seeds, Spellblaze and Demonic Pact talents", "+2 to all Demon Seeds, Spellblaze and Demonic Pact talents", "_t")
-t("%s (%d/%d life, level %d)", "%s (%d/%d life, level %d)", "tformat")
-t("demon seed", "demon seed", "_t")
-t("The seed of a demon.", "The seed of a demon.", "_t")
-t("Demon status: %s.", "Demon status: %s.", "tformat")
-t("alive (%d%% life)", "alive (%d%% life)", "tformat")
-t("dead (can not be summoned)", "dead (can not be summoned)", "_t")
-t("#CRIMSON#You extract a %s and add it to your inventory.", "#CRIMSON#You extract a %s and add it to your inventory.", "logPlayer")
-t("#CRIMSON#You extract a %s and bind it to your %s.", "#CRIMSON#You extract a %s and bind it to your %s.", "logPlayer")
-t("#CRIMSON#You feed vim into your %s, increasing its level to %d and healing it.", "#CRIMSON#You feed vim into your %s, increasing its level to %d and healing it.", "logPlayer")
-t("Demon Seed", "Demon Seed", "talent name")
-t([[Strike a blow with your weapon for %d%% blight damage.
-		If the attack hits a demonic seed tries to take hold inside your foe and you follow up with a shield strike dealing %d%% damage and dazing your target for %d turns.
-		
-		The seed requires a powerful host to nourish it and can only take hold in creatures that are worth experience and that are not summoned demons.
-		The chance for the seed to take hold is based on the creatures rank:
-		%sNormal#LAST#:  5%%
-		%sElite#LAST#:  20%%
-		%sRare#LAST# or %sUnique#LAST#:  50%%
-		%sBoss#LAST#:  100%%
-		When the host dies the seed fills with the vim of the dying creature and turns into a specific demon seed that can be used to summon that demon.
-		If you already have a seed of the same time in your inventory or equipment it will instead increase its level if the host was of higher level than the seed and the demon inside will regenerate %d%% health and resurrect if it was dead.
-
-		Higher talent levels allow for more powerful demon types.
-		Implanting a seed into unique demons, if successful, will always try to grant a seed of that type, if available.]], [[Strike a blow with your weapon for %d%% blight damage.
-		If the attack hits a demonic seed tries to take hold inside your foe and you follow up with a shield strike dealing %d%% damage and dazing your target for %d turns.
-		
-		The seed requires a powerful host to nourish it and can only take hold in creatures that are worth experience and that are not summoned demons.
-		The chance for the seed to take hold is based on the creatures rank:
-		%sNormal#LAST#:  5%%
-		%sElite#LAST#:  20%%
-		%sRare#LAST# or %sUnique#LAST#:  50%%
-		%sBoss#LAST#:  100%%
-		When the host dies the seed fills with the vim of the dying creature and turns into a specific demon seed that can be used to summon that demon.
-		If you already have a seed of the same time in your inventory or equipment it will instead increase its level if the host was of higher level than the seed and the demon inside will regenerate %d%% health and resurrect if it was dead.
-
-		Higher talent levels allow for more powerful demon types.
-		Implanting a seed into unique demons, if successful, will always try to grant a seed of that type, if available.]], "tformat")
-t("Bind Demon", "Bind Demon", "talent name")
-t("Summon demon", "Summon demon", "_t")
-t("Which seed to use:", "Which seed to use:", "_t")
-t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to you and to summon demons.
-		You channel your arcane corruption through a demon seed to temporarily summon the corresponding demon for %d turns.
-		Summoned demons can regen their life and resummoning them keeps the life they had when they were last used.
-		If the demon dies it will not be available for summoning anymore until resurrected.
-		This spell can summon demons from any seeds available in either your equipment or inventory.
-
-		As you learn to bind more easily you can also use more seeds:
-		At level 2 it lets you bind a seed to your first ring.
-		At level 3 it lets you bind a seed to your shield.
-		At level 4 it lets you bind a seed to your second ring.
-		At level 5 it lets you bind a seed to your main body armour.
-		]], [[Your knowledge of demonic forces grows, allowing you to bind more seeds to you and to summon demons.
-		You channel your arcane corruption through a demon seed to temporarily summon the corresponding demon for %d turns.
-		Summoned demons can regen their life and resummoning them keeps the life they had when they were last used.
-		If the demon dies it will not be available for summoning anymore until resurrected.
-		This spell can summon demons from any seeds available in either your equipment or inventory.
-
-		As you learn to bind more easily you can also use more seeds:
-		At level 2 it lets you bind a seed to your first ring.
-		At level 3 it lets you bind a seed to your shield.
-		At level 4 it lets you bind a seed to your second ring.
-		At level 5 it lets you bind a seed to your main body armour.
-		]], "tformat")
-t("Twisted Portal", "Twisted Portal", "talent name")
-t("The targetted phase door fizzles and works randomly!", "The targetted phase door fizzles and works randomly!", "logPlayer")
-t([[Teleports you randomly within a small range of up to %d grids with %d precision.
-		In the spot you left you will summon a random demon from your seeds for %d turns.
-		If the target area is not in line of sight, there is a chance the spell will fizzle.
-		This spell requires an unsummoned, alive, demon seed equiped in a worn equipment to work.
-		The range will increase with your Spellpower.]], [[Teleports you randomly within a small range of up to %d grids with %d precision.
-		In the spot you left you will summon a random demon from your seeds for %d turns.
-		If the target area is not in line of sight, there is a chance the spell will fizzle.
-		This spell requires an unsummoned, alive, demon seed equiped in a worn equipment to work.
-		The range will increase with your Spellpower.]], "tformat")
-t("Doom Concordat", "Doom Concordat", "talent name")
-t("#CRIMSON#Your %s is healed!", "#CRIMSON#Your %s is healed!", "logPlayer")
-t("#CRIMSON#Your %s is brought back to life!", "#CRIMSON#Your %s is brought back to life!", "logPlayer")
-t([[You use your demon seeds to the fullest of their potential.
-		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if not other summoned demon is from Doom Concordat.
-		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
-		In addition you feed of the arrival, departure or death of your demons, each time healing yourself for %d life.
-		The healing is based on your Spellpower.]], [[You use your demon seeds to the fullest of their potential.
-		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if not other summoned demon is from Doom Concordat.
-		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
-		In addition you feed of the arrival, departure or death of your demons, each time healing yourself for %d life.
-		The healing is based on your Spellpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demonic-strength.lua"
--- 8 entries
-t("Dismember", "Dismember", "talent name")
-t([[Your melee attacks cripple your targets when they critically strike, lowering their movement speed by %d%% and their accuracy by %d for %d turns.
-		Additionally, you gain %d%% chance to critically strike with your melee attacks.]], [[Your melee attacks cripple your targets when they critically strike, lowering their movement speed by %d%% and their accuracy by %d for %d turns.
-		Additionally, you gain %d%% chance to critically strike with your melee attacks.]], "tformat")
-t("Surge of Power", "Surge of Power", "talent name")
-t([[Use your stored vim to supercharge your body, recovering %d stamina and %d life.
-		Additionally, you will be able to survive your HP going under 0, down to -%d HP, for the next 8 turns.
-		These values will increase with your Spellpower.
-		Spell criticals with this talent also effect the stamina gain.]], [[Use your stored vim to supercharge your body, recovering %d stamina and %d life.
-		Additionally, you will be able to survive your HP going under 0, down to -%d HP, for the next 8 turns.
-		These values will increase with your Spellpower.
-		Spell criticals with this talent also effect the stamina gain.]], "tformat")
-t("Demonic Blood", "Demonic Blood", "talent name")
-t([[Demonic Blood flows through your veins, increasing your spellpower by %d and your maximum vim by %d.
-		Additionally, you will recieve a bonus to all damage equal to %d%% of your current vim (Currently %d%%).]], [[Demonic Blood flows through your veins, increasing your spellpower by %d and your maximum vim by %d.
-		Additionally, you will recieve a bonus to all damage equal to %d%% of your current vim (Currently %d%%).]], "tformat")
-t("Abyssal Shield", "Abyssal Shield", "talent name")
-t([[Surround yourself with a defensive aura, increasing armor by %d, and inflicting %0.2f fire and %0.2f blight damage to all attacking foes.
-Additionally, your vim will enhance your defences, reducing all damage by %d%% of your current vim (currently %d), but never reducing by more than half of the original damage. This will cost vim equal to 5%% of the damage blocked.
-The damage will scale with your Spellpower.]], [[Surround yourself with a defensive aura, increasing armor by %d, and inflicting %0.2f fire and %0.2f blight damage to all attacking foes.
-Additionally, your vim will enhance your defences, reducing all damage by %d%% of your current vim (currently %d), but never reducing by more than half of the original damage. This will cost vim equal to 5%% of the damage blocked.
-The damage will scale with your Spellpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua"
--- 8 entries
-t("Dark Reign", "Dark Reign", "talent name")
-t([[Your affinity for the shadows grow stronger.
-		Each time you kill or deal damage above %d%% of a creatures max life with darkness you gain 8%% to all damage affinity for 8 turns.
-		You can only gain one stack of Dark Reign per turn.
-		This effect stacks multiplicatively up to %d times.]], [[Your affinity for the shadows grow stronger.
-		Each time you kill or deal damage above %d%% of a creatures max life with darkness you gain 8%% to all damage affinity for 8 turns.
-		You can only gain one stack of Dark Reign per turn.
-		This effect stacks multiplicatively up to %d times.]], "tformat")
-t("Dread End", "Dread End", "talent name")
-t([[You learn to use death around you to an even greater advantage. 
-		Each time you kill or deal damage above %d%% of a creatures max life with non-darkness damage while Dark Reign is active the death will create a pool of dark energies of radius 1 for 5 turns.
-		This pool spawns on top of a random enemy within radius %d.
-		Any foes standing inside will take %0.2f darkness damage each turn.
-		This effect can only happen once per turn.
-		The damage increases with spellpower.
-		At talent level 3 your Dark Reign buff also protects you from death until reaching %d life per stack.]], [[You learn to use death around you to an even greater advantage. 
-		Each time you kill or deal damage above %d%% of a creatures max life with non-darkness damage while Dark Reign is active the death will create a pool of dark energies of radius 1 for 5 turns.
-		This pool spawns on top of a random enemy within radius %d.
-		Any foes standing inside will take %0.2f darkness damage each turn.
-		This effect can only happen once per turn.
-		The damage increases with spellpower.
-		At talent level 3 your Dark Reign buff also protects you from death until reaching %d life per stack.]], "tformat")
-t("Blood Pact", "Blood Pact", "talent name")
-t([[Pay %d%% of your current life and gain 100%% darkness damage conversion for 1 turns.
-			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[Pay %d%% of your current life and gain 100%% darkness damage conversion for 1 turns.
-			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], "tformat")
-t("Erupting Darkness", "Erupting Darkness", "talent name")
-t([[When Dread End creates pools of darkness you can focus your raging thoughts on them to make them erupt into volcanos.
-		Up to %d pools in radius %d will erupt, producing a volcano for %d turns.
-		Each turn the volcano will send out fiery boulders that deal %0.2f fire and %0.2f physical damage.
-		The effects will improve with your Spellpower.]], [[When Dread End creates pools of darkness you can focus your raging thoughts on them to make them erupt into volcanos.
-		Up to %d pools in radius %d will erupt, producing a volcano for %d turns.
-		Each turn the volcano will send out fiery boulders that deal %0.2f fire and %0.2f physical damage.
-		The effects will improve with your Spellpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua"
--- 9 entries
-t("Osmosis Shield", "Osmosis Shield", "talent name")
-t("#SLATE#(%d turned into osmosis)#LAST#", "#SLATE#(%d turned into osmosis)#LAST#", "tformat")
-t([[You infuse your shield with the energies of Urh'Rok, bringing about a magical shield that heals you for the first points of all damage you receive (based on your shield's block value) over 3 turns. This effect stacks.
-		Amount is 5 + %d%% of your shield block value (currently %d).
-		At level 3 if a damage dealt is at least twice as high you have %d%% chance to also remove a physical detrimental effect. This effect can only happen once per turn.
-		This spell disabled automatically on rest or run.
-		#{bold}#Activating the shield takes no time but de-activating it does.#{normal}#
-		The damage increases with spellpower.]], [[You infuse your shield with the energies of Urh'Rok, bringing about a magical shield that heals you for the first points of all damage you receive (based on your shield's block value) over 3 turns. This effect stacks.
-		Amount is 5 + %d%% of your shield block value (currently %d).
-		At level 3 if a damage dealt is at least twice as high you have %d%% chance to also remove a physical detrimental effect. This effect can only happen once per turn.
-		This spell disabled automatically on rest or run.
-		#{bold}#Activating the shield takes no time but de-activating it does.#{normal}#
-		The damage increases with spellpower.]], "tformat")
-t("Hardened Core", "Hardened Core", "talent name")
-t([[Taking example from Mal'Rok, the demon's homeworld you harden yourself.
-		Increases total armour by %d%% + 10 and spellpower by %d.]], [[Taking example from Mal'Rok, the demon's homeworld you harden yourself.
-		Increases total armour by %d%% + 10 and spellpower by %d.]], "tformat")
-t("Demonic Madness", "Demonic Madness", "talent name")
-t([[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns.
-		At level 4 you also automatically block at the end.]], [[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns.
-		At level 4 you also automatically block at the end.]], "tformat")
-t("Blighted Shield", "Blighted Shield", "talent name")
-t([[Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence.
-		Cursed creatures have all their damage decreased by %d%% for 5 turns.
-		The effects will improve with your Spellpower.]], [[Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence.
-		Cursed creatures have all their damage decreased by %d%% for 5 turns.
-		The effects will improve with your Spellpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/fearfire.lua"
--- 6 entries
-t("Fearscape Shift", "Fearscape Shift", "talent name")
-t([[Open a gateway to the Fearscape, stepping through it to a nearby location. As you step out, a burst of fire will leave with you, dealing %0.2f demonfire damage to everyone within %d spaces and leaving flames which will deal an additional %0.2f demonfire damage over 4 turns.
-		Additionally, shifting through reality enhances your awareness, allowing you to see all enemies within %d spaces for the next 3 turns.
-		The damage will scale with your Spellpower and the range will increase with the talent level.]], [[Open a gateway to the Fearscape, stepping through it to a nearby location. As you step out, a burst of fire will leave with you, dealing %0.2f demonfire damage to everyone within %d spaces and leaving flames which will deal an additional %0.2f demonfire damage over 4 turns.
-		Additionally, shifting through reality enhances your awareness, allowing you to see all enemies within %d spaces for the next 3 turns.
-		The damage will scale with your Spellpower and the range will increase with the talent level.]], "tformat")
-t("Cauterize Spirit", "Cauterize Spirit", "talent name")
-t([[Removes all detrimental effects but causes you to burn for %d%% of your max health per effect, over 7 turns.
-		This ignores all resists, defenses, and affinities.
-		This does not take a turn.]], [[Removes all detrimental effects but causes you to burn for %d%% of your max health per effect, over 7 turns.
-		This ignores all resists, defenses, and affinities.
-		This does not take a turn.]], "tformat")
-t("Maw of Urh'rok", "Maw of Urh'rok", "talent name")
-t([[Your body becomes a nexus for the Fearscape, causing you to drag enemies towards you in a cone with a radius of %d, dealing %0.2f fire damage every turn.
-		The damage will increase with your Spellpower.]], [[Your body becomes a nexus for the Fearscape, causing you to drag enemies towards you in a cone with a radius of %d, dealing %0.2f fire damage every turn.
-		The damage will increase with your Spellpower.]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua"
--- 8 entries
-t("Burning Sacrifice", "Burning Sacrifice", "talent name")
-t([[Whenever you kill a burning enemy, you will instantly deal a melee attack against a random adjacant enemy at %d%% power. 
-		Additionally, Incinerating Blows will always trigger on this attack (or your next attack), dealing %d%% of its normal damage to all enemies hit and stunning, ignoring the cooldown.
-		This can only trigger once every 5 turns.]], [[Whenever you kill a burning enemy, you will instantly deal a melee attack against a random adjacant enemy at %d%% power. 
-		Additionally, Incinerating Blows will always trigger on this attack (or your next attack), dealing %d%% of its normal damage to all enemies hit and stunning, ignoring the cooldown.
-		This can only trigger once every 5 turns.]], "tformat")
-t("Fiery Aegis", "Fiery Aegis", "talent name")
-t([[Draw in the raging fires and envelop yourself in them. Remove all burns from enemies in a radius of 5 around you, and create a shield lasting %d turns with a power of %d, increased by 15%% for each burn removed.
-		When the shield ends, it releases a burst of fire in a radius of %d around you, burning all enemies for 3 turns, doing damage equal to the initial power of the shield.]], [[Draw in the raging fires and envelop yourself in them. Remove all burns from enemies in a radius of 5 around you, and create a shield lasting %d turns with a power of %d, increased by 15%% for each burn removed.
-		When the shield ends, it releases a burst of fire in a radius of %d around you, burning all enemies for 3 turns, doing damage equal to the initial power of the shield.]], "tformat")
+-- 1 entries
 t("Devouring Flames", "Devouring Flames", "talent name")
-t([[Your connection to fire nourishes you. Whenever you strike an enemy in melee, you inflict a burning curse upon them. As long as they continue to burn, you gain %0.2f health and %0.2f vim per turn.
-		Each turn they remain within 10 spaces of you, all enemies with cursed flames will spread it to other burning enemies in radius 1, causing you to heal for the same amount for each enemy, as well as dealing %d fire damage on spreading.]], [[Your connection to fire nourishes you. Whenever you strike an enemy in melee, you inflict a burning curse upon them. As long as they continue to burn, you gain %0.2f health and %0.2f vim per turn.
-		Each turn they remain within 10 spaces of you, all enemies with cursed flames will spread it to other burning enemies in radius 1, causing you to heal for the same amount for each enemy, as well as dealing %d fire damage on spreading.]], "tformat")
-t("Blazing Rebirth", "Blazing Rebirth", "talent name")
-t("Restore yourself to full health, but take damage equal to the damage healed over %d turns. This damage is split evenly among you and all burning enemies in radius %d. Damage you take is irresistable. Damage to enemies is fire damage.", "Restore yourself to full health, but take damage equal to the damage healed over %d turns. This damage is split evenly among you and all burning enemies in radius %d. Damage you take is irresistable. Damage to enemies is fire damage.", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
--- 10 entries
-t("Flame Leash", "Flame Leash", "talent name")
+-- 9 entries
 t([[Tendrils of flame fire from your hands in a narrow cone. Any foes caught inside will be pulled in towards you and have its movement speed reduced by %d%% for 4 turns.
 		Each tendril will leave a trail of fire in its path dealing %0.2f fire damage for 4 turns.
 		The damage increases with spellpower.]], [[Tendrils of flame fire from your hands in a narrow cone. Any foes caught inside will be pulled in towards you and have its movement speed reduced by %d%% for 4 turns.
@@ -1666,8 +1270,7 @@ t([[You chant the destruction of Mal'Rok, the demon's homeworld.
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/torture.lua"
--- 8 entries
-t("Incinerating Blows", "Incinerating Blows", "talent name")
+-- 7 entries
 t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal %0.2f fire damage, spread over 3 turns.
 		Additionally, every time you attack, there is a %d%% chance of releasing a burst of powerful fire that will deal %0.2f fire damage to all enemies in radius %d over %d turns.
 		If this talent is not on cooldown, the burst of fire will instead be radius %d, and stun all targets in addition to burning them.
@@ -1775,7 +1378,7 @@ t([[You launch a mental assault on the target.
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
--- 173 entries
+-- 161 entries
 t("Demon Blade", "Demon Blade", "_t")
 t("Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "tformat")
 t("demonic", "demonic", "effect subtype")
@@ -1825,7 +1428,6 @@ t("+Eternal Suffering", "+Eternal Suffering", "_t")
 t("Cleansing flames", "Cleansing flames", "_t")
 t("The target is purified by fire, losing %0.2f%% of their max health per turn.", "The target is purified by fire, losing %0.2f%% of their max health per turn.", "tformat")
 t("Damage from soulburn.", "Damage from soulburn.", "_t")
-t("Blazing Rebirth", "Blazing Rebirth", "_t")
 t("The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.", "The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.", "tformat")
 t("#Target# is purified by fire.", "#Target# is purified by fire.", "_t")
 t("+Fire", "+Fire", "_t")
@@ -1838,9 +1440,7 @@ t("#Target# is grabbed!", "#Target# is grabbed!", "_t")
 t("+Fiery Grasp", "+Fiery Grasp", "_t")
 t("#Target# is released.", "#Target# is released.", "_t")
 t("-Fiery Grasp", "-Fiery Grasp", "_t")
-t("Fiery Aegis", "Fiery Aegis", "_t")
 t("The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.", "The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.", "tformat")
-t("Surge of Power", "Surge of Power", "_t")
 t("This unit will not die until it has less than -%d HP.", "This unit will not die until it has less than -%d HP.", "tformat")
 t("#Target# surges with an incredible power!", "#Target# surges with an incredible power!", "_t")
 t("+Surge of Power", "+Surge of Power", "_t")
@@ -1852,7 +1452,6 @@ t("#Target# is surrounded by a vile flame!", "#Target# is surrounded by a vile f
 t("+Reckless", "+Reckless", "_t")
 t("-Reckless", "-Reckless", "_t")
 t("The black flame around #Target# dies down", "The black flame around #Target# dies down", "_t")
-t("Demon Seed", "Demon Seed", "_t")
 t("Infected by a demon seed. When it dies the caster has a %d%% chance to get back the matured seed.", "Infected by a demon seed. When it dies the caster has a %d%% chance to get back the matured seed.", "tformat")
 t("#Target# is infected by a demon seed!", "#Target# is infected by a demon seed!", "_t")
 t("+Demon Seed", "+Demon Seed", "_t")
@@ -1862,7 +1461,6 @@ t("Osmosis Regeneration", "Osmosis Regeneration", "_t")
 t("You regenerate a total of %0.2f life over the duration of the effect.", "You regenerate a total of %0.2f life over the duration of the effect.", "tformat")
 t("+Osmosis Regen", "+Osmosis Regen", "_t")
 t("-Osmosis Regen", "-Osmosis Regen", "_t")
-t("Acidic Bath", "Acidic Bath", "_t")
 t("Gain %d%% resistance and %d%% affinity to acid.", "Gain %d%% resistance and %d%% affinity to acid.", "tformat")
 t("+Acidic Bath", "+Acidic Bath", "_t")
 t("-Acidic Bath", "-Acidic Bath", "_t")
@@ -1872,13 +1470,11 @@ t("Corrupted Light", "Corrupted Light", "_t")
 t("The target is overflowing with power, increasing all damage done by %d%%.", "The target is overflowing with power, increasing all damage done by %d%%.", "tformat")
 t("+Corrupted Light", "+Corrupted Light", "_t")
 t("-Corrupted Light", "-Corrupted Light", "_t")
-t("Armoured Leviathan", "Armoured Leviathan", "_t")
 t("Increases your Strength and Magic stats by %d.", "Increases your Strength and Magic stats by %d.", "tformat")
 t("#Target# is filled with raw power!", "#Target# is filled with raw power!", "_t")
 t("+Armoured Leviathan", "+Armoured Leviathan", "_t")
 t("#Target# is no longer filled with power.", "#Target# is no longer filled with power.", "_t")
 t("-Armoured Leviathan", "-Armoured Leviathan", "_t")
-t("Doomed Nature", "Doomed Nature", "_t")
 t("The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "tformat")
 t("#Target# is cut off from nature!", "#Target# is cut off from nature!", "_t")
 t("+Doomed Nature", "+Doomed Nature", "_t")
@@ -1907,7 +1503,6 @@ t("+Shattered Mind", "+Shattered Mind", "_t")
 t("The Spellblaze ripples through #target#!", "The Spellblaze ripples through #target#!", "_t")
 t("#Target# is no longer influenced by the Spellblaze.", "#Target# is no longer influenced by the Spellblaze.", "_t")
 t("-Shattered Mind", "-Shattered Mind", "_t")
-t("Dark Reign", "Dark Reign", "_t")
 t([[All damage affinity increased by %d%%.
 Will not die until %d life]], [[All damage affinity increased by %d%%.
 Will not die until %d life]], "tformat")
@@ -1915,22 +1510,19 @@ t("#Target# is filled with dark power!", "#Target# is filled with dark power!", 
 t("+Dark Reign", "+Dark Reign", "_t")
 t("#Target# is no longer subject to the dark power.", "#Target# is no longer subject to the dark power.", "_t")
 t("-Dark Reign", "-Dark Reign", "_t")
-t("Blood Pact", "Blood Pact", "_t")
 t("All damage you deal is converted to darkness.", "All damage you deal is converted to darkness.", "tformat")
 t("#Target# becomes an avatar of darkness!", "#Target# becomes an avatar of darkness!", "_t")
 t("+Blood Pact", "+Blood Pact", "_t")
 t("-Blood Pact", "-Blood Pact", "_t")
 t("The darkness within #target# subsides.", "The darkness within #target# subsides.", "_t")
+t("You have %d charges.", "You have %d charges.", "tformat")
 t("Blackice", "Blackice", "_t")
 t("Fire and physical resistance reduced by %d%%.", "Fire and physical resistance reduced by %d%%.", "tformat")
 t("Fire Haven", "Fire Haven", "_t")
 t("The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "_t")
 t("Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "tformat")
 t("Spellpower increased by %d.", "Spellpower increased by %d.", "tformat")
-t("Ominous Shadow Charges", "Ominous Shadow Charges", "_t")
-t("You have %d charges.", "You have %d charges.", "tformat")
 t("Triggers Blood Drinker if this creature dies.", "Triggers Blood Drinker if this creature dies.", "_t")
-t("Blood Drinker", "Blood Drinker", "_t")
 t("%d vim regen and %d%% evasion chance.", "%d vim regen and %d%% evasion chance.", "tformat")
 t("death", "death", "effect subtype")
 t("#Target# is drunk with blood!", "#Target# is drunk with blood!", "_t")
@@ -1938,7 +1530,7 @@ t("The bloodlust of #target# subsides.", "The bloodlust of #target# subsides.", 
 t("Pain Affinity", "Pain Affinity", "_t")
 t("All damage affinity increased by %d%%.", "All damage affinity increased by %d%%.", "tformat")
 t("affinity", "affinity", "effect subtype")
-t("Improves/gives invisibility (power %d).", "Improves/gives invisibility (power %d).", "tformat")
+t("Improves/gives invisibility (power %d), converts all damage to darkness and uses your highest damage penetration and increase for darkness.", "Improves/gives invisibility (power %d), converts all damage to darkness and uses your highest damage penetration and increase for darkness.", "tformat")
 t("dark", "dark", "effect subtype")
 t("+Ominous Shadow", "+Ominous Shadow", "_t")
 t("-Ominous Shadow", "-Ominous Shadow", "_t")
@@ -1948,7 +1540,6 @@ t("#Target# turns into a dúathedlen!", "#Target# turns into a dúathedlen!", "_
 t("+Corruption of the Doomed", "+Corruption of the Doomed", "_t")
 t("-Corruption of the Doomed", "-Corruption of the Doomed", "_t")
 t("#CRIMSON#Your corruption explodes around %s!", "#CRIMSON#Your corruption explodes around %s!", "logPlayer")
-t("Volcanic Skin", "Volcanic Skin", "_t")
 t("%d charges.", "%d charges.", "tformat")
 t("seismic", "seismic", "effect subtype")
 
@@ -2013,8 +1604,7 @@ t("You made it to Eyal! You are not quite sure where, but it can not be worse th
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/npcs.lua"
--- 10 entries
-t("minor", "minor", "entity subtype")
+-- 9 entries
 t("demonic clerk", "demonic clerk", "entity name")
 t("A small demon, he looks alarmed at your seeming freedom.", "A small demon, he looks alarmed at your seeming freedom.", "_t")
 t("mutilator", "mutilator", "entity name")
@@ -2960,7 +2550,7 @@ t("The Conjointed", "The Conjointed", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
--- 11 entries
+-- 10 entries
 t("#PURPLE#A Font of Sacrifice appears nearby!", "#PURPLE#A Font of Sacrifice appears nearby!", "_t")
 t("Portal", "Portal", "_t")
 t("You feel this portal leads to a place from where you are likely to not come back.", "You feel this portal leads to a place from where you are likely to not come back.", "_t")
@@ -2969,7 +2559,6 @@ t("#PURPLE#A portal appears inside the Occult Egress!", "#PURPLE#A portal appear
 t("#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "_t")
 t("splattered remains of an adventurer", "splattered remains of an adventurer", "_t")
 t("log entry", "log entry", "_t")
-t("A paper scrap.", "A paper scrap.", "_t")
 t("#PURPLE#An item appears on the egress!", "#PURPLE#An item appears on the egress!", "_t")
 t("#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "_t")
 
@@ -4167,9 +3756,8 @@ t("#CRIMSON#As %s takes an other blow you see part of it split into a drem!", "#
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/objects.lua"
--- 2 entries
+-- 1 entries
 t("drem research paper", "drem research paper", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 
 
 ------------------------------------------------
@@ -4520,9 +4108,8 @@ t("This gritty adventurer saved you.", "This gritty adventurer saved you.", "_t"
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/godfeaster/objects.lua"
--- 4 entries
+-- 3 entries
 t("log entry", "log entry", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 t("strange piece of organic matter", "strange piece of organic matter", "entity name")
 t("Organic matter.", "Organic matter.", "_t")
 
@@ -4555,9 +4142,8 @@ t("One of the centers of the nervous system of the Maggot, if severed the Maggot
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/maggot/objects.lua"
--- 2 entries
+-- 1 entries
 t("log entry", "log entry", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 
 
 ------------------------------------------------
@@ -4586,9 +4172,8 @@ t("How this giant, this force of Nature has been captured and subdued is proof t
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/necromancers-ruins/zone.lua"
--- 6 entries
+-- 5 entries
 t("Necromancers' Ruins", "Necromancers' Ruins", "_t")
-t("The cultists are about to sacrifice the woman. Stop them!", "The cultists are about to sacrifice the woman. Stop them!", "_t")
 t("Chanting", "Chanting", "_t")
 t("The foul stench of rotten ichor and undeath hangs over this place. There is necromancy at work here. As you listen more closely, you can hear anguished bellows coming from further inside the lair. There's a certain rough and deep timbre to the voice, sounding like a mix of a dragon's roar and a giant's rumblings. That could be none other than the Krogs you came to rescue. You do not know what experiments the necromancers are performing on them, but you're certain that you need to stop them before they succeed.", "The foul stench of rotten ichor and undeath hangs over this place. There is necromancy at work here. As you listen more closely, you can hear anguished bellows coming from further inside the lair. There's a certain rough and deep timbre to the voice, sounding like a mix of a dragon's roar and a giant's rumblings. That could be none other than the Krogs you came to rescue. You do not know what experiments the necromancers are performing on them, but you're certain that you need to stop them before they succeed.", "_t")
 t("Captive Krogs", "Captive Krogs", "_t")
@@ -4606,9 +4191,8 @@ t("Strange Glyph", "Strange Glyph", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/occult-egress/objects.lua"
--- 2 entries
+-- 1 entries
 t("log entry", "log entry", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 
 
 ------------------------------------------------
@@ -4630,9 +4214,8 @@ t("and fed to the corrupt writhing tentacles", "and fed to the corrupt writhing 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/scourged-pits/objects.lua"
--- 2 entries
+-- 1 entries
 t("page of a logbook", "page of a logbook", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
 
 
 ------------------------------------------------
@@ -5002,7 +4585,7 @@ t("S.M.A.C.K", "S.M.A.C.K", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/FontSacrifice.lua"
--- 13 entries
+-- 12 entries
 t([[The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).
 Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#1000 gold#LAST# for a greater ego per each time you've rerolled that ego type on the same object.
 Lesser and Greater egos can only be rerolled into the same type, and only egos with compatible power sources will be offered.
@@ -5018,7 +4601,6 @@ t("Reroll properties set", "Reroll properties set", "_t")
 t("Not enough money", "Not enough money", "_t")
 t("You need at least #GOLD#%s gold#LAST# to reroll this item.", "You need at least #GOLD#%s gold#LAST# to reroll this item.", "tformat")
 t("So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "tformat")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "log")
 t(" (Greater)", " (Greater)", "_t")
 t("Select a properties set", "Select a properties set", "_t")
 t("Select properties set #{bold}#\"%s\"#{normal}# ?", "Select properties set #{bold}#\"%s\"#{normal}# ?", "tformat")
@@ -6126,6 +5708,17 @@ t(" of life draining", " of life draining", "entity name")
 t("draining", "draining", "entity keyword")
 t("overgrown ", "overgrown ", "entity name")
 t("overgrown", "overgrown", "entity keyword")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/generic-world-artifacts.lua"
+-- 6 entries
+t("Blood of Undeath", "Blood of Undeath", "entity name")
+t("crimson phial", "crimson phial", "_t")
+t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "_t")
+t("quaff the Blood of Undeath to prepare your body for undeath", "quaff the Blood of Undeath to prepare your body for undeath", "_t")
+t("#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "logPlayer")
+t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "logPlayer")
 
 
 ------------------------------------------------
@@ -8570,7 +8163,7 @@ t("Clork Peninsula", "Clork Peninsula", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/amakthel.lua"
--- 17 entries
+-- 16 entries
 t("The Dead God Awaits", "The Dead God Awaits", "_t")
 t("Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "_t")
 t("Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "_t")
@@ -8579,7 +8172,6 @@ t("The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping fo
 t("#LIGHT_GREEN#You have won the game!.#WHITE#", "#LIGHT_GREEN#You have won the game!.#WHITE#", "_t")
 t("#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "log")
 t("Orc Warrior", "Orc Warrior", "_t")
-t("Winner", "Winner", "_t")
 t("#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "_t")
 t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "_t")
 t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "_t")
@@ -8946,6 +8538,40 @@ t("Deploy Turret", "Deploy Turret", "talent name")
 
 
 ------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/uber/cun.lua"
+-- 9 entries
+t("Master of Disasters", "Master of Disasters", "talent name")
+t([[You are adept at wreaking havoc onto your foes!
+		Any time you deal damage to a creature you apply the Incoming Disasters effect for 20 turns.
+		Each time you (or any others) would try to apply a cross-tier effect to this creature, you also try to apply the other two.
+		In addition your physical, steam, spell and mind powers are increased by %d.
+		The powers increase scales of your Cunning.]], [[You are adept at wreaking havoc onto your foes!
+		Any time you deal damage to a creature you apply the Incoming Disasters effect for 20 turns.
+		Each time you (or any others) would try to apply a cross-tier effect to this creature, you also try to apply the other two.
+		In addition your physical, steam, spell and mind powers are increased by %d.
+		The powers increase scales of your Cunning.]], "tformat")
+t("Quaffed the Blood of Undeath, not already undead and not antimagic.", "Quaffed the Blood of Undeath, not already undead and not antimagic.", "_t")
+t([[#GREY#Applying you cunning plans, you escape death by turning to undeath in an instant!
+
+#{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#Applying you cunning plans, you escape death by turning to undeath in an instant!
+
+#{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], "_t")
+t("Customize Appearance", "Customize Appearance", "_t")
+t("Use Default", "Use Default", "_t")
+t("Rak'Shor's Cunning (Skeleton)", "Rak'Shor's Cunning (Skeleton)", "_t")
+t("Rak'Shor's Cunning (Ghoul)", "Rak'Shor's Cunning (Ghoul)", "_t")
+t([[Set up some cunning contingency plans in case of death.
+		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
+		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
+		As undead will not able to use infusions anymore.
+		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[Set up some cunning contingency plans in case of death.
+		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
+		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
+		As undead will not able to use infusions anymore.
+		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], "tformat")
+
+
+------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/floor.lua"
 -- 6 entries
 t("Warm", "Warm", "_t")
@@ -9039,7 +8665,7 @@ t("#Target# is cursed!", "#Target# is cursed!", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
--- 58 entries
+-- 60 entries
 t("Your movement speed is increased by %d%%.", "Your movement speed is increased by %d%%.", "tformat")
 t("Your casting speed is increased by %d%%.", "Your casting speed is increased by %d%%.", "tformat")
 t("Your attack speed is increased by %d%%.", "Your attack speed is increased by %d%%.", "tformat")
@@ -9104,6 +8730,8 @@ t([[#LIGHT_RED#- Rod (%d): %d turns
 ]], [[#LIGHT_RED#- Rod (%d): %d turns
 ]], "tformat")
 t("technomancy", "technomancy", "effect subtype")
+t("Incoming Disasters", "Incoming Disasters", "_t")
+t("Vulnerable to more cross tier effects.", "Vulnerable to more cross tier effects.", "tformat")
 
 
 ------------------------------------------------
@@ -9815,8 +9443,7 @@ t("...it's gone...  FINE!  I don't need that power to destroy you!", "...it's go
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/krimbul/objects.lua"
--- 6 entries
-t("A paper scrap.", "A paper scrap.", "_t")
+-- 5 entries
 t("Visage of Nektosh", "Visage of Nektosh", "entity name")
 t("horned helm", "horned helm", "_t")
 t("You always thought his horns looked kind of stupid, to be honest.", "You always thought his horns looked kind of stupid, to be honest.", "_t")
@@ -9902,9 +9529,7 @@ Two steamguns mounted on its top constantly swivel back and forth, seeking enemi
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/palace-fumes/objects.lua"
--- 4 entries
-t("paper scrap", "paper scrap", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
+-- 2 entries
 t("DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "entity name")
 t("A flyer.", "A flyer.", "_t")
 
@@ -9960,8 +9585,7 @@ t("This once great primal tree has been infused and corrupted by crystals growin
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/primal-forest/objects.lua"
--- 2 entries
-t("A paper scrap.", "A paper scrap.", "_t")
+-- 1 entries
 t("schematic: Life Support Suit", "schematic: Life Support Suit", "entity name")
 
 
@@ -10175,12 +9799,6 @@ t("A nasty looking orc armed with double steamguns.", "A nasty looking orc armed
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/objects.lua"
--- 1 entries
-t("A paper scrap.", "A paper scrap.", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/zone.lua"
 -- 3 entries
 t("Sunwall Outpost", "Sunwall Outpost", "_t")
@@ -10210,12 +9828,10 @@ t("Ancient Cave", "Ancient Cave", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
--- 8 entries
+-- 6 entries
 t("Coward!", "Coward!", "_t")
 t("You are not coward enough to leave your home unprotected!", "You are not coward enough to leave your home unprotected!", "_t")
 t("wooden barricade", "wooden barricade", "entity name")
-t("bamboo wall", "bamboo wall", "entity name")
-t("bamboo hut", "bamboo hut", "entity subtype")
 t("ladder to the next level", "ladder to the next level", "entity name")
 t("cave", "cave", "entity subtype")
 t("tunnel weakness", "tunnel weakness", "entity name")
@@ -10268,9 +9884,7 @@ t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stu
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/ureslak-host/objects.lua"
--- 3 entries
-t("paper scrap", "paper scrap", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
+-- 1 entries
 t("schematic: Hands of Creation", "schematic: Hands of Creation", "entity name")
 
 
@@ -10521,7 +10135,7 @@ Features:#YELLOW#
 - Access to physics and chemistry: All Technomancers know the basics of crafting tinkers
 #WHITE#
 
-Class evolutions are selected as prodigies and grant new ways to build and expand you class and are only visible to the concerned class.
+Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
 ]], [[#{bold}##GOLD#EUREKA!#LAST##{normal}#
 
 As an archmage you are trained into the intricacies of the arcane forces, but as a tinker you know how to build and create. And suddently it hit you!
@@ -10537,7 +10151,7 @@ Features:#YELLOW#
 - Access to physics and chemistry: All Technomancers know the basics of crafting tinkers
 #WHITE#
 
-Class evolutions are selected as prodigies and grant new ways to build and expand you class and are only visible to the concerned class.
+Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
 ]], "_t")
 
 
@@ -10738,7 +10352,7 @@ Talents:
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
--- 37 entries
+-- 36 entries
 t("Steam", "Steam", "_t")
 t("Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "_t")
 t("Object held in your tail. It can be a steamgun or steamsaw.", "Object held in your tail. It can be a steamgun or steamsaw.", "_t")
@@ -10767,7 +10381,6 @@ t("gained knowledge of tinker technology", "gained knowledge of tinker technolog
 t("Steamtech", "Steamtech", "_t")
 t("I've changed my mind.", "I've changed my mind.", "_t")
 t("Which kind of item would you like ?", "Which kind of item would you like ?", "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "log")
 t([[Do you want to name your item?
 %s]], [[Do you want to name your item?
 %s]], "tformat")
@@ -11288,12 +10901,6 @@ t([[Bootmenu!
 
 
 ------------------------------------------------
-section "game/engines/default/modules/boot/load.lua"
--- 1 entries
-t("str", "str", "stat short_name")
-
-
-------------------------------------------------
 section "game/modules/tome/ai/escort.lua"
 -- 2 entries
 t(" %s to the %s!", " %s to the %s!", "tformat")
@@ -11436,7 +11043,7 @@ t("%s", "%s", "log")
 
 ------------------------------------------------
 section "game/modules/tome/class/GameState.lua"
--- 75 entries
+-- 74 entries
 t("#AQUAMARINE#Most stores should have new stock now.", "#AQUAMARINE#Most stores should have new stock now.", "log")
 t("faceted", "faceted", "_t")
 t("faded", "faded", "_t")
@@ -11457,7 +11064,6 @@ t("silvered", "silvered", "_t")
 t("twisted", "twisted", "_t")
 t("unblemished", "unblemished", "_t")
 t("%s '%s'", "%s '%s'", "tformat")
-t("Ambush!", "Ambush!", "_t")
 t("You have been ambushed!", "You have been ambushed!", "_t")
 t("%s the %s", "%s the %s", "tformat")
 t("Infinite Dungeon Challenge (Level %s): %s", "Infinite Dungeon Challenge (Level %s): %s", "tformat")
@@ -11679,8 +11285,7 @@ t("projectile", "projectile", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/class/Store.lua"
--- 12 entries
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
+-- 11 entries
 t("Not enough gold", "Not enough gold", "_t")
 t("You do not have the %0.2f gold needed!", "You do not have the %0.2f gold needed!", "tformat")
 t("Buy %d %s for %0.2f gold%s?", "Buy %d %s for %0.2f gold%s?", "tformat")
@@ -12716,8 +12321,7 @@ t("There is no in-game difference between the two sexes.", "There is no in-game 
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/worlds.lua"
--- 18 entries
-t("Maj'Eyal: The Age of Ascendancy", "Maj'Eyal: The Age of Ascendancy", "_t")
+-- 16 entries
 t("The people of Maj'Eyal: Humans, Halflings, Elves and Dwarves.", "The people of Maj'Eyal: Humans, Halflings, Elves and Dwarves.", "_t")
 t("The known world has been at relative peace for over one hundred years, and people are prospering again.", "The known world has been at relative peace for over one hundred years, and people are prospering again.", "_t")
 t("You are an adventurer, setting out to find lost treasure and glory.", "You are an adventurer, setting out to find lost treasure and glory.", "_t")
@@ -12729,7 +12333,6 @@ t("The only limit to how far you can go is your own skill!", "The only limit to 
 t("Inside the infinite dungeon you will yourself be limitless. You can level up beyond level 50 and continue to gain stat and talent points (at a reduced rate).", "Inside the infinite dungeon you will yourself be limitless. You can level up beyond level 50 and continue to gain stat and talent points (at a reduced rate).", "_t")
 t("Every level after level 50 the maximum of stats will increase by one.", "Every level after level 50 the maximum of stats will increase by one.", "_t")
 t("Every 10 levels after level 50 the maximum points of each talent will increase by one.", "Every 10 levels after level 50 the maximum points of each talent will increase by one.", "_t")
-t("The Arena: Challenge of the Master", "The Arena: Challenge of the Master", "_t")
 t("Blood spilled on sand, only the strong survive. Prove yourself worthy to enter.", "Blood spilled on sand, only the strong survive. Prove yourself worthy to enter.", "_t")
 t("Play as a lone warrior facing the Arena's challenge!", "Play as a lone warrior facing the Arena's challenge!", "_t")
 t("You can use any class and race for it.", "You can use any class and race for it.", "_t")
@@ -13876,7 +13479,7 @@ t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[Attack]", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/jewelry-store.lua"
--- 28 entries
+-- 27 entries
 t("Imbue which ring?", "Imbue which ring?", "_t")
 t("%s failed to craft with %s and %s!", "%s failed to craft with %s and %s!", "logPlayer")
 t("This costs %d gold, you need more gold.", "This costs %d gold, you need more gold.", "tformat")
@@ -13886,7 +13489,6 @@ t("weird", "weird", "_t")
 t("Imbue which amulet?", "Imbue which amulet?", "_t")
 t("Use which first gem?", "Use which first gem?", "_t")
 t("Use which second gem?", "Use which second gem?", "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
 t("Limmir needs more gold for the magical plating.", "Limmir needs more gold for the magical plating.", "_t")
 t("Not enough money", "Not enough money", "_t")
 t("Imbue cost", "Imbue cost", "_t")
@@ -13999,7 +13601,7 @@ t("Thank you.", "Thank you.", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/last-hope-lost-merchant.lua"
--- 41 entries
+-- 40 entries
 t([[Ah, my #{italic}#good#{normal}# friend @playername@!
 Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[Ah, my #{italic}#good#{normal}# friend @playername@!
 Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], "_t")
@@ -14043,7 +13645,6 @@ t("Yes, please!", "Yes, please!", "_t")
 t("HOW MUCH?! Please, excuse me, I- I need some fresh air...", "HOW MUCH?! Please, excuse me, I- I need some fresh air...", "_t")
 t("Not now, thank you.", "Not now, thank you.", "_t")
 t("I've changed my mind.", "I've changed my mind.", "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
 t([[Do you want to name your item?
 %s]], [[Do you want to name your item?
 %s]], "tformat")
@@ -14061,7 +13662,7 @@ t("[leave]", "[leave]", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/last-hope-melinda-father.lua"
--- 52 entries
+-- 51 entries
 t([[#LIGHT_GREEN#*A man talks to you from inside, the door half open. His voice is sad.*#WHITE#
 Sorry, the store is closed.]], [[#LIGHT_GREEN#*A man talks to you from inside, the door half open. His voice is sad.*#WHITE#
 Sorry, the store is closed.]], "_t")
@@ -14073,7 +13674,6 @@ t("Sorry, I have to go!", "Sorry, I have to go!", "_t")
 t("Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "Please take this. It is nothing compared to the life of my child. Oh, and she wanted to thank you in person; I will call her.", "_t")
 t("Thank you.", "Thank you.", "_t")
 t("Melinda's father gives you: %s", "Melinda's father gives you: %s", "logPlayer")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
 t("@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "@playername@! #LIGHT_GREEN#*She jumps for joy and hugs you while her father returns to his shop.*#WHITE#", "_t")
 t("I am glad to see you are fine. It seems your scars are healing quite well.", "I am glad to see you are fine. It seems your scars are healing quite well.", "_t")
 t("I am glad to see you well. Take care.", "I am glad to see you well. Take care.", "_t")
@@ -15530,7 +15130,7 @@ t("You feel a tremor in the ground for a few seconds and it disappears...", "You
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/old-battle-field.lua"
--- 11 entries
+-- 10 entries
 t("ramp up to %s", "ramp up to %s", "tformat")
 t("#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "log")
 t("Cavern beneath tombstones", "Cavern beneath tombstones", "_t")
@@ -15538,7 +15138,6 @@ t("Undead are rising from the ground! You must hold on!", "Undead are rising fro
 t("You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "_t")
 t("Do you wish to disturb the grave?", "Do you wish to disturb the grave?", "_t")
 t("Grave", "Grave", "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
 t("opened grave", "opened grave", "_t")
 t("As you began digging up the grave, the ground collapsed beneath you. You fall into an eerily lit cavern.", "As you began digging up the grave, the ground collapsed beneath you. You fall into an eerily lit cavern.", "_t")
 t("Fall...", "Fall...", "_t")
@@ -15621,10 +15220,9 @@ t("As you walk into the area you notice a huge thunderstorm over your head. Bewa
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/tombstones.lua"
--- 4 entries
+-- 3 entries
 t("Do you wish to disturb the grave?", "Do you wish to disturb the grave?", "_t")
 t("Grave", "Grave", "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
 t("grave (opened)", "grave (opened)", "_t")
 
 
@@ -15664,8 +15262,7 @@ t("autumn tree", "autumn tree", "entity name")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/basic.lua"
--- 4 entries
-t("glass wall", "glass wall", "entity name")
+-- 3 entries
 t("glass door", "glass door", "entity name")
 t("open glass door", "open glass door", "entity name")
 t("bool", "bool", "entity subtype")
@@ -15755,17 +15352,14 @@ t("muddy floor", "muddy floor", "entity name")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/jungle_hut.lua"
--- 4 entries
+-- 2 entries
 t("bamboo floor", "bamboo floor", "entity subtype")
 t("bamboo hut floor", "bamboo hut floor", "entity name")
-t("bamboo wall", "bamboo wall", "entity name")
-t("bamboo hut", "bamboo hut", "entity subtype")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/lava.lua"
--- 7 entries
-t("#Source# burns #Target#!", "#Source# burns #Target#!", "logCombat")
+-- 6 entries
 t("molten_lava", "molten_lava", "entity subtype")
 t("molten lava", "molten lava", "entity name")
 t("ladder to the next level", "ladder to the next level", "entity name")
@@ -16177,7 +15771,7 @@ t("This crimson shape drips ceaselessly, spattering the nearby ground. The dropl
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/horror.lua"
--- 50 entries
+-- 49 entries
 t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
 Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
 Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], "_t")
@@ -16226,7 +15820,6 @@ You can discern a huge round mouth covered in razor-sharp teeth.]], "_t")
 t("Grgglck's Tentacle", "Grgglck's Tentacle", "entity name")
 t("This is one of Grgglck's tentacles. It looks more vulnerable than the main body.", "This is one of Grgglck's tentacles. It looks more vulnerable than the main body.", "_t")
 t("#AQUAMARINE#With Grgglck's death its tentacle also falls lifeless on the ground!", "#AQUAMARINE#With Grgglck's death its tentacle also falls lifeless on the ground!", "logSeen")
-t("#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "logCombat")
 t("Ak'Gishil", "Ak'Gishil", "entity name")
 t("This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "_t")
 t("Animated Sword", "Animated Sword", "entity name")
@@ -16342,8 +15935,7 @@ t("This massive form, sheathed in dark flames, stands tall above a legion of les
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/minor-demon.lua"
--- 9 entries
-t("minor", "minor", "entity subtype")
+-- 8 entries
 t("fire imp", "fire imp", "entity name")
 t("A small demon, lobbing spells at you.", "A small demon, lobbing spells at you.", "_t")
 t("wretchling", "wretchling", "entity name")
@@ -17128,63 +16720,51 @@ t("#DARK_GREEN#You feel like Nature's Wrath incarnate!", "#DARK_GREEN#You feel l
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/brotherhood-artifacts.lua"
--- 71 entries
-t("Elixir of the Fox", "Elixir of the Fox", "entity name")
+-- 59 entries
 t("vial of pink fluid", "vial of pink fluid", "_t")
 t("A vial of pink, airy fluid.", "A vial of pink, airy fluid.", "_t")
 t("permanently increase your dexterity and cunning by three", "permanently increase your dexterity and cunning by three", "_t")
 t("#00FF00#The elixir has given you foxlike physical and mental agility!", "#00FF00#The elixir has given you foxlike physical and mental agility!", "logPlayer")
-t("Elixir of Avoidance", "Elixir of Avoidance", "entity name")
 t("vial of green fluid", "vial of green fluid", "_t")
 t("A vial of opaque green fluid.", "A vial of opaque green fluid.", "_t")
 t("permanently increase your defense and ranged defense by six", "permanently increase your defense and ranged defense by six", "_t")
 t("#00FF00#The elixir has improved your defensive instincts!", "#00FF00#The elixir has improved your defensive instincts!", "logPlayer")
-t("Elixir of Precision", "Elixir of Precision", "entity name")
 t("vial of red fluid", "vial of red fluid", "_t")
 t("A vial of chunky red fluid.", "A vial of chunky red fluid.", "_t")
 t("permanently increase your physical critical strike chance by 4%", "permanently increase your physical critical strike chance by 4%", "_t")
 t("#00FF00#The elixir has improved your eye for an enemy's weak points!", "#00FF00#The elixir has improved your eye for an enemy's weak points!", "logPlayer")
-t("Elixir of Mysticism", "Elixir of Mysticism", "entity name")
 t("vial of cyan fluid", "vial of cyan fluid", "_t")
 t("A vial of glowing cyan fluid.", "A vial of glowing cyan fluid.", "_t")
 t("permanently increase your magic and willpower by three", "permanently increase your magic and willpower by three", "_t")
 t("#00FF00#The elixir has augmented your magical and mental capacity!", "#00FF00#The elixir has augmented your magical and mental capacity!", "logPlayer")
-t("Elixir of the Savior", "Elixir of the Savior", "entity name")
 t("vial of grey fluid", "vial of grey fluid", "_t")
 t("A vial of bubbling, slate-colored fluid.", "A vial of bubbling, slate-colored fluid.", "_t")
 t("permanently increase all your saving throws by 4", "permanently increase all your saving throws by 4", "_t")
 t("#00FF00#The elixir has improved your resistance to unpleasant effects!", "#00FF00#The elixir has improved your resistance to unpleasant effects!", "logPlayer")
-t("Elixir of Mastery", "Elixir of Mastery", "entity name")
 t("vial of maroon fluid", "vial of maroon fluid", "_t")
 t("A vial of thick maroon fluid.", "A vial of thick maroon fluid.", "_t")
 t("grant you four additional stat points", "grant you four additional stat points", "_t")
 t("#00FF00#The elixir has greatly expanded your capacity for improving your mind and body.", "#00FF00#The elixir has greatly expanded your capacity for improving your mind and body.", "logPlayer")
 t("You have %d stat point(s) to spend. Press G to use them.", "You have %d stat point(s) to spend. Press G to use them.", "logPlayer")
-t("Elixir of Explosive Force", "Elixir of Explosive Force", "entity name")
 t("vial of orange fluid", "vial of orange fluid", "_t")
 t("A vial of churning orange fluid.", "A vial of churning orange fluid.", "_t")
 t("permanently increase your chance to critically strike with spells by 4%", "permanently increase your chance to critically strike with spells by 4%", "_t")
 t("#00FF00#The elixir has improved your eye for an enemy's magical weak points!", "#00FF00#The elixir has improved your eye for an enemy's magical weak points!", "logPlayer")
-t("Elixir of Serendipity", "Elixir of Serendipity", "entity name")
 t("vial of yellow fluid", "vial of yellow fluid", "_t")
 t("A vial of lively yellow fluid.", "A vial of lively yellow fluid.", "_t")
 t("permanently increase your luck by 5", "permanently increase your luck by 5", "_t")
 t("#00FF00#The elixir seems to have subtly repositioned your entire being within the fabric of reality!", "#00FF00#The elixir seems to have subtly repositioned your entire being within the fabric of reality!", "logPlayer")
-t("Elixir of Focus", "Elixir of Focus", "entity name")
 t("vial of clear fluid", "vial of clear fluid", "_t")
 t("A vial of clear, steaming fluid.", "A vial of clear, steaming fluid.", "_t")
 t("grant you two additional class talent points", "grant you two additional class talent points", "_t")
-t("Elixir of Brawn", "Elixir of Brawn", "entity name")
 t("vial of tan fluid", "vial of tan fluid", "_t")
 t("A vial of sluggish tan fluid.", "A vial of sluggish tan fluid.", "_t")
 t("permanently increase your strength and constitution by three", "permanently increase your strength and constitution by three", "_t")
 t("#00FF00#The elixir has augmented your physical might and resilience!", "#00FF00#The elixir has augmented your physical might and resilience!", "logPlayer")
-t("Elixir of Stoneskin", "Elixir of Stoneskin", "entity name")
 t("vial of iron-colored fluid", "vial of iron-colored fluid", "_t")
 t("A vial of grainy, iron-colored fluid.", "A vial of grainy, iron-colored fluid.", "_t")
 t("permanently increase your armor by four", "permanently increase your armor by four", "_t")
 t("#00FF00#The elixir has reinforced your entire body!", "#00FF00#The elixir has reinforced your entire body!", "logPlayer")
-t("Elixir of Foundations", "Elixir of Foundations", "entity name")
 t("vial of white fluid", "vial of white fluid", "_t")
 t("A vial of murky white fluid.", "A vial of murky white fluid.", "_t")
 t("grant you two additional generic talent points", "grant you two additional generic talent points", "_t")
@@ -17892,7 +17472,7 @@ t("#DARK_GREEN#The armor molds comfortably to one of its caretakers.", "#DARK_GR
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts.lua"
--- 817 entries
+-- 816 entries
 t("windy gem", "windy gem", "_t")
 t("Windborne Azurite", "Windborne Azurite", "entity name")
 t("Air currents swirl around this bright blue jewel.", "Air currents swirl around this bright blue jewel.", "_t")
@@ -18273,7 +17853,6 @@ t("jagged, segmented, sword", "jagged, segmented, sword", "_t")
 t("This heavy, ridged blade emanates magical power, yet as you grasp the handle an icy chill runs its course through your spine. You feel the disembodied presence of all those slain by it. In unison, they demand company.", "This heavy, ridged blade emanates magical power, yet as you grasp the handle an icy chill runs its course through your spine. You feel the disembodied presence of all those slain by it. In unison, they demand company.", "_t")
 t("deal %0.2f arcane and %0.2f darkness damage (based on Magic) in a radius 1 around the target", "deal %0.2f arcane and %0.2f darkness damage (based on Magic) in a radius 1 around the target", "tformat")
 t("swallows the victim's soul, gaining a new power", "swallows the victim's soul, gaining a new power", "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
 t("@Source@ taps the #SALMON#trapped soul#LAST# of %s, xmanifesting %s!", "@Source@ taps the #SALMON#trapped soul#LAST# of %s, xmanifesting %s!", "tformat")
 t("%s's %s #SALMON#CONSUMES THE SOUL#LAST# of %s, gaining the power of %s!", "%s's %s #SALMON#CONSUMES THE SOUL#LAST# of %s, gaining the power of %s!", "logSeen")
 t("Hydra's Bite", "Hydra's Bite", "entity name")
@@ -19540,7 +19119,7 @@ It's not that I don't trust her, not after you and they - mostly you! - saved us
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/dreadfell.lua"
--- 24 entries
+-- 21 entries
 t([[MINIONS: Perhaps you feel your Master has been lax or absent? Well, I shall amend that. I have been studying an object of great import. It is of much greater interest than your foolish unlives. But do not think that I will let you get away with things because of this.
 
 Skeletons, you have been getting noticeably behind in your adventurer slaughtering quotas. The next skeleton archer I see drinking coffee and chatting with the wights shall be rent limb from limb and fed to the orcs. Also, as a punishment for your general laxness, 1,000 skeletons shall be remanded down to Kor'Pul as punishment. A further 250 shall be slaughtered. These orders to be carried out by myself tomorrow at 3am.]], [[MINIONS: Perhaps you feel your Master has been lax or absent? Well, I shall amend that. I have been studying an object of great import. It is of much greater interest than your foolish unlives. But do not think that I will let you get away with things because of this.
@@ -19571,7 +19150,6 @@ t([[MINIONS: To my newest vampire: burn, foolish adventurer, burn! I bet you are
 To the rest of you, there will be punishment. An adventurer got down to my bedroom and surprised me. I, Myself, was hurt and almost had to use My special power. All is well now and I am as dangerous as ever, but you shall suffer for letting him get so low. The next minion I see shall be toasted with my marshmallows. Where then were the special pits of doom I organized? Where were the poisons of my wights or the diseases of my ghouls? Indeed, I should slaughter all of you, and I would, but those who were most foully remiss were already slaughtered by the adventurer. The rest of you? Beware My wrath.]], [[MINIONS: To my newest vampire: burn, foolish adventurer, burn! I bet you are sorry for that flame spell now, aren't you? Suffer as I revisit it upon you.
 
 To the rest of you, there will be punishment. An adventurer got down to my bedroom and surprised me. I, Myself, was hurt and almost had to use My special power. All is well now and I am as dangerous as ever, but you shall suffer for letting him get so low. The next minion I see shall be toasted with my marshmallows. Where then were the special pits of doom I organized? Where were the poisons of my wights or the diseases of my ghouls? Indeed, I should slaughter all of you, and I would, but those who were most foully remiss were already slaughtered by the adventurer. The rest of you? Beware My wrath.]], "_t")
-t("A smudged poem chalked on a dark piece of slate", "A smudged poem chalked on a dark piece of slate", "_t")
 t([[Master of life, Master of death,
 All fall to a word
 From his dreaded breath!
@@ -19607,7 +19185,6 @@ Or your blood will spill!
 
 Master of shadows beyond mortal thought,
 Against undying death all are as naught.]], "_t")
-t("A poem written in scribbled, child-like writing", "A poem written in scribbled, child-like writing", "_t")
 t([[Me like Master,
 He's a real laster,
 He is faster
@@ -19625,7 +19202,6 @@ Need more'n a plaster
 After his attackaster...
 
 Alabaster... raster... pastor? Grr, need more brains...]], "_t")
-t("A poem written in an elegant Gothic script", "A poem written in an elegant Gothic script", "_t")
 t([[No staff will save thee
 Against the blindness of pride
 Death will catch thee up]], [[No staff will save thee
@@ -22582,7 +22158,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 92 entries
+-- 89 entries
 t("tract of destruction", "tract of destruction", "_t")
 t("tract of anarchy", "tract of anarchy", "_t")
 t("tract of acceptance", "tract of acceptance", "_t")
@@ -22593,10 +22169,7 @@ t("letter to Weisman (1)", "letter to Weisman (1)", "_t")
 t("letter to Rolf (2)", "letter to Rolf (2)", "_t")
 t("letter to Weisman (2)", "letter to Weisman (2)", "_t")
 t("letter to Weisman (3)", "letter to Weisman (3)", "_t")
-t("letter to Rolf (3)", "letter to Rolf (3)", "_t")
-t("letter to Weisman (4)", "letter to Weisman (4)", "_t")
 t("adventures", "adventures", "newLore category")
-t("Last Will of Rolf", "Last Will of Rolf", "_t")
 t("memories of Artelia Firstborn", "memories of Artelia Firstborn", "_t")
 t("human myth of creation", "human myth of creation", "_t")
 t([[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
@@ -24924,199 +24497,33 @@ t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET#
 
 
 ------------------------------------------------
-section "game/modules/tome/data/quests/anti-antimagic.lua"
--- 10 entries
-t("The fall of Zigur", "The fall of Zigur", "_t")
-t("You decided to side with the Grand Corruptor and joined forces to assault the Ziguranth main base of power.", "You decided to side with the Grand Corruptor and joined forces to assault the Ziguranth main base of power.", "_t")
-t("The Grand Corruptor died during the attack before he had time to teach you his ways.", "The Grand Corruptor died during the attack before he had time to teach you his ways.", "_t")
-t("The defenders of Zigur were crushed, the Ziguranth scattered and weakened.", "The defenders of Zigur were crushed, the Ziguranth scattered and weakened.", "_t")
-t("In the aftermath you turned against the Grand Corruptor and dispatched him.", "In the aftermath you turned against the Grand Corruptor and dispatched him.", "_t")
-t("Select the party member to receive the hexes generic talent tree:", "Select the party member to receive the hexes generic talent tree:", "_t")
-t("#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "_t")
-t("While you were in the Far East, the Grand Corruptor was busy in Maj'Eyal.", "While you were in the Far East, the Grand Corruptor was busy in Maj'Eyal.", "_t")
-t("With the fall of Zigur he was able to attack and take control of Elvala, the Shaloren capital city.", "With the fall of Zigur he was able to attack and take control of Elvala, the Shaloren capital city.", "_t")
-t("His plans however do not stop there.", "His plans however do not stop there.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/antimagic.lua"
--- 5 entries
-t("The Curse of Magic", "The Curse of Magic", "_t")
-t("You have been invited to join a group called the Ziguranth, dedicated to opposing magic.", "You have been invited to join a group called the Ziguranth, dedicated to opposing magic.", "_t")
-t("Grim-looking fighter", "Grim-looking fighter", "_t")
-t("#VIOLET#A foe is summoned to the arena!", "#VIOLET#A foe is summoned to the arena!", "logSeen")
-t("#VIOLET#Another foe is summoned to the arena!", "#VIOLET#Another foe is summoned to the arena!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/arena-unlock.lua"
--- 3 entries
-t("The agent of the arena", "The agent of the arena", "_t")
-t("You were asked to prove your worth as a fighter by a rogue, in order to participate in the arena", "You were asked to prove your worth as a fighter by a rogue, in order to participate in the arena", "_t")
-t("You succesfully defeated your adversaries and gained access to the arena!", "You succesfully defeated your adversaries and gained access to the arena!", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/quests/arena.lua"
--- 7 entries
-t("Seeking wealth, glory, and a great fight, you challenge the Arena!", "Seeking wealth, glory, and a great fight, you challenge the Arena!", "_t")
-t("Can you defeat your foes and become Master of Arena?", "Can you defeat your foes and become Master of Arena?", "_t")
-t("Winner", "Winner", "_t")
-t("#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "#GOLD#Well done! You have won the Arena: Challenge of the Master#WHITE#", "_t")
+-- 1 entries
 t("", "", "_t")
-t("You valiantly fought every creature the arena could throw at you and you emerged victorious!", "You valiantly fought every creature the arena could throw at you and you emerged victorious!", "_t")
-t("Glory to you, you are now the new master and your future characters will challenge you.", "Glory to you, you are now the new master and your future characters will challenge you.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/brotherhood-of-alchemists.lua"
--- 25 entries
-t("The Brotherhood of Alchemists", "The Brotherhood of Alchemists", "_t")
-t("#LIGHT_GREEN#Thanks to your timely aid, %s is the newest member of the Brotherhood of Alchemists.#WHITE#", "#LIGHT_GREEN#Thanks to your timely aid, %s is the newest member of the Brotherhood of Alchemists.#WHITE#", "tformat")
-t("#RED#You aided various denizens of Maj'Eyal in their attempts to join the Brotherhood of Alchemists, though you did not prove the deciding factor for any. This year's new member is %s.#WHITE#", "#RED#You aided various denizens of Maj'Eyal in their attempts to join the Brotherhood of Alchemists, though you did not prove the deciding factor for any. This year's new member is %s.#WHITE#", "tformat")
-t("#LIGHT_BLUE#Various alchemists around Maj'Eyal are competing to gain entry into the great Brotherhood of Alchemists, and one or more have enlisted your aid.#WHITE#", "#LIGHT_BLUE#Various alchemists around Maj'Eyal are competing to gain entry into the great Brotherhood of Alchemists, and one or more have enlisted your aid.#WHITE#", "_t")
-t("#GREEN#You have aided %s in creating an %s.#WHITE#", "#GREEN#You have aided %s in creating an %s.#WHITE#", "tformat")
-t("#RED#%s has completed an %s without your aid.#WHITE#", "#RED#%s has completed an %s without your aid.#WHITE#", "tformat")
-t("#SLATE#Having failed to gain admittance to the Brotherhood of the Alchemists, %s no longer needs your help making the %s.", "#SLATE#Having failed to gain admittance to the Brotherhood of the Alchemists, %s no longer needs your help making the %s.", "tformat")
-t("%s needs your help making an %s. He has given you some notes on the ingredients:", "%s needs your help making an %s. He has given you some notes on the ingredients:", "tformat")
-t("#SLATE#  * 'Needed: one %s. %s'#WHITE#", "#SLATE#  * 'Needed: one %s. %s'#WHITE#", "tformat")
-t("#LIGHT_GREEN#  * You've found the needed %s.#WHITE#", "#LIGHT_GREEN#  * You've found the needed %s.#WHITE#", "tformat")
-t("#VIOLET#You can check the ingredients you possess by pressing Escape and selecting 'Show ingredients'.", "#VIOLET#You can check the ingredients you possess by pressing Escape and selecting 'Show ingredients'.", "log")
-t("You receive: %s", "You receive: %s", "logPlayer")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
-t("elixir of the fox", "elixir of the fox", "_t")
-t("elixir of avoidance", "elixir of avoidance", "_t")
-t("elixir of precision", "elixir of precision", "_t")
-t("elixir of mysticism", "elixir of mysticism", "_t")
-t("elixir of the savior", "elixir of the savior", "_t")
-t("elixir of mastery", "elixir of mastery", "_t")
-t("elixir of explosive force", "elixir of explosive force", "_t")
-t("elixir of serendipity", "elixir of serendipity", "_t")
-t("elixir of focus", "elixir of focus", "_t")
-t("elixir of brawn", "elixir of brawn", "_t")
-t("elixir of stoneskin", "elixir of stoneskin", "_t")
-t("elixir of foundations", "elixir of foundations", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/charred-scar.lua"
--- 12 entries
-t("The Doom of the World!", "The Doom of the World!", "_t")
-t("You were sent to the Charred Scar at the heart of which lies a huge volcano. In the Age of Pyre it destroyed the old Sher'Tul ruins that stood there, absorbing much of their latent magic.", "You were sent to the Charred Scar at the heart of which lies a huge volcano. In the Age of Pyre it destroyed the old Sher'Tul ruins that stood there, absorbing much of their latent magic.", "_t")
-t("This place is still full of that power and the orcs intend to absorb this power using the Staff of Absorption!", "This place is still full of that power and the orcs intend to absorb this power using the Staff of Absorption!", "_t")
-t("Whatever their plan may be, they must be stopped at all cost.", "Whatever their plan may be, they must be stopped at all cost.", "_t")
-t("The volcano is attacked by orcs. A few Sun Paladins made it there with you. They will hold the line at the cost of their lives to buy you some time.", "The volcano is attacked by orcs. A few Sun Paladins made it there with you. They will hold the line at the cost of their lives to buy you some time.", "_t")
-t("Honor their sacrifice; do not let the orcs finish their work!", "Honor their sacrifice; do not let the orcs finish their work!", "_t")
-t("You arrived too late. The place has been drained of its power and the sorcerers have left.", "You arrived too late. The place has been drained of its power and the sorcerers have left.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("You arrived in time and interrupted the ritual. The sorcerers have departed.", "You arrived in time and interrupted the ritual. The sorcerers have departed.", "_t")
-t("Use the portal to go back to the Far East. You *MUST* stop them, no matter the cost.", "Use the portal to go back to the Far East. You *MUST* stop them, no matter the cost.", "_t")
-t("#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "#VIOLET#A portal activates in the distance. You hear the orcs shout, 'The Sorcerers have departed! Follow them!'", "logPlayer")
-t("#VIOLET#The Sorcerers flee through a portal. As you prepare to follow them, a huge faeros appears to block the way.", "#VIOLET#The Sorcerers flee through a portal. As you prepare to follow them, a huge faeros appears to block the way.", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/deep-bellow.lua"
--- 5 entries
-t("From bellow, it devours", "From bellow, it devours", "_t")
-t("Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "_t")
-t("Maybe it is time for you to start an adventurer's career. Deep below the Iron Throne mountains lies the Deep Bellow.", "Maybe it is time for you to start an adventurer's career. Deep below the Iron Throne mountains lies the Deep Bellow.", "_t")
-t("It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "_t")
-t("None that you know of has come back yet, but you did survive Reknor. You are great.", "None that you know of has come back yet, but you did survive Reknor. You are great.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/dreadfell.lua"
--- 4 entries
-t("The Island of Dread", "The Island of Dread", "_t")
-t("You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "You have heard that near the Charred Scar, to the south, lies a ruined tower known as the Dreadfell.", "_t")
-t("There are disturbing rumors of greater undead, and nobody who reached it ever returned.", "There are disturbing rumors of greater undead, and nobody who reached it ever returned.", "_t")
-t("Perhaps you should explore it and find the truth, and the treasures, for yourself!", "Perhaps you should explore it and find the truth, and the treasures, for yourself!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/east-portal.lua"
--- 15 entries
-t("You have created a portal back to Maj'Eyal. You should try to talk to someone in Last Hope about establishing a link back.", "You have created a portal back to Maj'Eyal. You should try to talk to someone in Last Hope about establishing a link back.", "_t")
-t("You talked to the Elder in Last Hope who in turn told you to talk to Tannen, who lives in the north of the city.", "You talked to the Elder in Last Hope who in turn told you to talk to Tannen, who lives in the north of the city.", "_t")
-t("You gave the Orb of Many Ways to Tannen to study while you look for the athame and diamond in Reknor.", "You gave the Orb of Many Ways to Tannen to study while you look for the athame and diamond in Reknor.", "_t")
-t("You kept the Orb of Many Ways despite Tannen's request to study it. You must now look for the athame and diamond in Reknor.", "You kept the Orb of Many Ways despite Tannen's request to study it. You must now look for the athame and diamond in Reknor.", "_t")
-t("You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "_t")
-t("You brought back the diamond and athame to Tannen who asked you to contact Zemekkys to ask some delicate questions.", "You brought back the diamond and athame to Tannen who asked you to contact Zemekkys to ask some delicate questions.", "_t")
-t("You brought back the diamond and athame to Tannen who asked you to come back in a few days.", "You brought back the diamond and athame to Tannen who asked you to come back in a few days.", "_t")
-t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "_t")
-t("Tannen revealed himself as the vile scum he really is and trapped you in his tower.", "Tannen revealed himself as the vile scum he really is and trapped you in his tower.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("#LIGHT_GREEN#* The portal to the Far East is now functional and can be used to go back.#WHITE#", "#LIGHT_GREEN#* The portal to the Far East is now functional and can be used to go back.#WHITE#", "_t")
-t("Tannen points to the location of Telmur on your map.", "Tannen points to the location of Telmur on your map.", "logPlayer")
-t("A portal appears in the center of the tower!", "A portal appears in the center of the tower!", "_t")
-t("Meranas, Herald of Angolwen", "Meranas, Herald of Angolwen", "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back in Last Hope.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back in Last Hope.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/escort-duty.lua"
--- 10 entries
+-- 1 entries
 t("", "", "_t")
-t("You successfully escorted the %s to the recall portal on level %s.", "You successfully escorted the %s to the recall portal on level %s.", "tformat")
-t("As a reward you %s.", "As a reward you %s.", "tformat")
-t("You abandoned %s, to death.", "You abandoned %s, to death.", "tformat")
-t("You failed to protect the %s from death by %s.", "You failed to protect the %s from death by %s.", "tformat")
-t("Escort the %s to the recall portal on level %s.", "Escort the %s to the recall portal on level %s.", "tformat")
-t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s is dead, quest failed!", "logPlayer")
-t("Recall Portal", "Recall Portal", "_t")
-t("%s of %s", "%s of %s", "tformat")
-t("Escort: %s (level %s)", "Escort: %s (level %s)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/grave-necromancer.lua"
--- 6 entries
-t("And now for a grave", "And now for a grave", "_t")
-t("Ungrol of Last Hope asked you to look for his wife's friend Celia, who has been reported missing. She frequently visits her late husband's mausoleum, in the graveyard near Last Hope.", "Ungrol of Last Hope asked you to look for his wife's friend Celia, who has been reported missing. She frequently visits her late husband's mausoleum, in the graveyard near Last Hope.", "_t")
-t("You searched for Celia in the graveyard near Last Hope, and found a note. In it, Celia reveals that she has been conducting experiments in the dark arts, in an attempt to extend her life... also, she is pregnant.", "You searched for Celia in the graveyard near Last Hope, and found a note. In it, Celia reveals that she has been conducting experiments in the dark arts, in an attempt to extend her life... also, she is pregnant.", "_t")
-t("You have tracked Celia to her husband's mausoleum in the graveyard near Last Hope. It seems she has taken some liberties with the corpses there.", "You have tracked Celia to her husband's mausoleum in the graveyard near Last Hope. It seems she has taken some liberties with the corpses there.", "_t")
-t("You have laid Celia to rest, putting an end to her gruesome experiments.", "You have laid Celia to rest, putting an end to her gruesome experiments.", "_t")
-t("You have laid Celia to rest, putting an end to her failed experiments. You have taken her heart, for your own experiments. You do not plan to fail as she did.", "You have laid Celia to rest, putting an end to her failed experiments. You have taken her heart, for your own experiments. You do not plan to fail as she did.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/high-peak.lua"
--- 34 entries
-t("Falling Toward Apotheosis", "Falling Toward Apotheosis", "_t")
-t("You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "You have vanquished the masters of the Orc Pride. Now you must venture inside the most dangerous place of this world: the High Peak.", "_t")
-t("Seek the Sorcerers and stop them before they bend the world to their will.", "Seek the Sorcerers and stop them before they bend the world to their will.", "_t")
-t("To enter, you will need the four orbs of command to remove the shield over the peak.", "To enter, you will need the four orbs of command to remove the shield over the peak.", "_t")
-t("The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "The entrance to the peak passes through a place called 'the slime tunnels', probably located inside or near Grushnak Pride.", "_t")
-t("You have reached the summit of the High Peak, entered the sanctum of the Sorcerers and destroyed them, freeing the world from the threat of evil.", "You have reached the summit of the High Peak, entered the sanctum of the Sorcerers and destroyed them, freeing the world from the threat of evil.", "_t")
-t("You have won the game!", "You have won the game!", "_t")
-t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall. You were forced to kill her.#LAST#", "#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall. You were forced to kill her.#LAST#", "_t")
-t("#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall, but you spared her.#LAST#", "#LIGHT_GREEN#* You encountered Sun Paladin Aeryn who blamed you for the loss of the Sunwall, but you spared her.#LAST#", "_t")
-t("#LIGHT_GREEN#* You defeated the Sorcerers before the Void portal could open.#LAST#", "#LIGHT_GREEN#* You defeated the Sorcerers before the Void portal could open.#LAST#", "_t")
-t("#LIGHT_GREEN#* You defeated the Sorcerers and Aeryn sacrificed herself to close the Void portal.#LAST#", "#LIGHT_GREEN#* You defeated the Sorcerers and Aeryn sacrificed herself to close the Void portal.#LAST#", "_t")
-t("#LIGHT_GREEN#* You defeated the Sorcerers and sacrificed yourself to close the Void portal.#LAST#", "#LIGHT_GREEN#* You defeated the Sorcerers and sacrificed yourself to close the Void portal.#LAST#", "_t")
-t("Endgame", "Endgame", "_t")
-t("#LIGHT_RED#As you enter the level you hear a familiar voice.", "#LIGHT_RED#As you enter the level you hear a familiar voice.", "logPlayer")
-t("#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "#LIGHT_RED#Fallen Sun Paladin Aeryn: '%s YOU BROUGHT ONLY DESTRUCTION TO THE SUNWALL! YOU WILL PAY!'", "logPlayer")
-t("Ruins of the Gates of Morning", "Ruins of the Gates of Morning", "_t")
-t("The Sunwall was destroyed while you were trapped in the High Peak.", "The Sunwall was destroyed while you were trapped in the High Peak.", "_t")
-t("Winner", "Winner", "_t")
-t("#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "#GOLD#Well done! You have won the Tales of Maj'Eyal: The Age of Ascendancy#WHITE#", "_t")
-t("The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "The Sorcerers are dead, and the Orc Pride lies in ruins, thanks to your efforts.", "_t")
-t("Your sacrifice worked. Your mental energies were imbued with farportal energies. The Way radiated from the High Peak toward the rest of Eyal like a mental tidal wave.", "Your sacrifice worked. Your mental energies were imbued with farportal energies. The Way radiated from the High Peak toward the rest of Eyal like a mental tidal wave.", "_t")
-t("Every sentient being in Eyal is now part of the Way. Peace and happiness are enforced for all.", "Every sentient being in Eyal is now part of the Way. Peace and happiness are enforced for all.", "_t")
-t("Only the mages of Angolwen were able to withstand the mental shock and thus are the only unsafe people left. But what can they do against the might of the Way?", "Only the mages of Angolwen were able to withstand the mental shock and thus are the only unsafe people left. But what can they do against the might of the Way?", "_t")
-t("In the aftermath of the battle the Way tried to force you to act as a vessel to bring the Way to every sentient being.", "In the aftermath of the battle the Way tried to force you to act as a vessel to bring the Way to every sentient being.", "_t")
-t("Through an incredible display of willpower you resisted long enough to ask Aeryn to kill you.", "Through an incredible display of willpower you resisted long enough to ask Aeryn to kill you.", "_t")
-t("She sadly agreed and ran her sword through you, enabling you to do the last sacrifice you could for the world.", "She sadly agreed and ran her sword through you, enabling you to do the last sacrifice you could for the world.", "_t")
-t("You have prevented the portal to the Void from opening and thus stopped the Creator from bringing about the end of the world.", "You have prevented the portal to the Void from opening and thus stopped the Creator from bringing about the end of the world.", "_t")
-t("In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "In a selfless act, High Sun Paladin Aeryn sacrificed herself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "_t")
-t("In a selfless act, you sacrificed yourself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "In a selfless act, you sacrificed yourself to close the portal to the Void and thus stopped the Creator from bringing about the end of the world.", "_t")
-t("The Gates of Morning have been destroyed and the Sunwall has fallen. The last remnants of the free people in the Far East will surely diminish, and soon only orcs will inhabit this land.", "The Gates of Morning have been destroyed and the Sunwall has fallen. The last remnants of the free people in the Far East will surely diminish, and soon only orcs will inhabit this land.", "_t")
-t("The orc presence in the Far East has greatly been diminished by the loss of their leaders and the destruction of the Sorcerers. The free people of the Sunwall will be able to prosper and thrive on this land.", "The orc presence in the Far East has greatly been diminished by the loss of their leaders and the destruction of the Sorcerers. The free people of the Sunwall will be able to prosper and thrive on this land.", "_t")
-t("Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", "Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("You may continue playing and enjoy the rest of the world.", "You may continue playing and enjoy the rest of the world.", "_t")
 
 
 ------------------------------------------------
@@ -25259,7 +24666,7 @@ t("#LIGHT_RED#A lumberjack falls to the ground, dead.", "#LIGHT_RED#A lumberjack
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/mage-apprentice.lua"
--- 8 entries
+-- 7 entries
 t("An apprentice task", "An apprentice task", "_t")
 t("You met a novice mage who was tasked to collect an arcane powered artifact.", "You met a novice mage who was tasked to collect an arcane powered artifact.", "_t")
 t("He asked for your help, should you collect some that you do not need.", "He asked for your help, should you collect some that you do not need.", "_t")
@@ -25267,7 +24674,6 @@ t("#SLATE#* Collect an artifact arcane powered item.#WHITE#", "#SLATE#* Collect 
 t("Offer which item?", "Offer which item?", "_t")
 t("#LIGHT_RED#As the apprentice touches the staff he begins to scream, flames bursting out of his mouth. Life seems to be drained away from him, and in an instant he collapses in a lifeless husk.", "#LIGHT_RED#As the apprentice touches the staff he begins to scream, flames bursting out of his mouth. Life seems to be drained away from him, and in an instant he collapses in a lifeless husk.", "logPlayer")
 t("You have no more %s", "You have no more %s", "log")
-t("You receive: %s", "You receive: %s", "logPlayer")
 
 
 ------------------------------------------------
@@ -25395,7 +24801,7 @@ t("A portal appears right under you, and Rashim rushes through.", "A portal appe
 
 ------------------------------------------------
 section "game/modules/tome/data/quests/staff-absorption.lua"
--- 17 entries
+-- 16 entries
 t("A mysterious staff", "A mysterious staff", "_t")
 t("Deep in the Dreadfell you fought and destroyed the Master, a powerful vampire.", "Deep in the Dreadfell you fought and destroyed the Master, a powerful vampire.", "_t")
 t("They asked about the staff.", "They asked about the staff.", "_t")
@@ -25412,7 +24818,6 @@ t("#VIOLET#As you come out of the Dreadfell, you encounter a band of orcs!", "#V
 t([[You wake up after a few hours, surprised to be alive, but the staff is gone!
 #VIOLET#Go at once to Last Hope to report those events!]], [[You wake up after a few hours, surprised to be alive, but the staff is gone!
 #VIOLET#Go at once to Last Hope to report those events!]], "_t")
-t("Ukruk the Fierce", "Ukruk the Fierce", "_t")
 t("Ambush", "Ambush", "_t")
 t([[You are surprised to still be alive.
 #VIOLET#Go at once to Last Hope to report those events!]], [[You are surprised to still be alive.
@@ -26241,7 +25646,7 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/misc/inscriptions.lua"
--- 36 entries
+-- 35 entries
 t(" ", " ", "tformat")
 t("Infusion: Sun", "Infusion: Sun", "talent name")
 t([[Activate the infusion to brighten the area in a radius of %d and illuminate stealthy creatures, possibly revealing them (reduces stealth power by %d).%s
@@ -26279,7 +25684,6 @@ t([[Activate the rune to teleport randomly in a range of %d.
 		Afterwards you stay out of phase for %d turns. In this state all new negative status effects duration is reduced by %d%%, your defense is increased by %d and all your resistances by %d%%.]], "tformat")
 t("range %d; power %d; dur %d", "range %d; power %d; dur %d", "tformat")
 t("Rune: Controlled Phase Door", "Rune: Controlled Phase Door", "talent name")
-t("The targetted phase door fizzles and works randomly!", "The targetted phase door fizzles and works randomly!", "logPlayer")
 t("Activate the rune to teleport in a range of %d.", "Activate the rune to teleport in a range of %d.", "tformat")
 t("Rune: Lightning", "Rune: Lightning", "talent name")
 t([[Activate the rune to fire a beam of lightning, doing %0.2f to %0.2f lightning damage.
@@ -26732,13 +26136,13 @@ t("Call of the Crypt", "Call of the Crypt", "talent name")
 t([[Call upon the battlefields of old, collecting bones, fusing them with souls, and forging them into skeletal minions.
 		Up to %d skeleton warriors of level %d are summoned, and up to %d skeletons can be controlled at once.
 		At level 3 the summons become armoured skeletons warriors.
-		At level 5, for every 3 skeleton warriors, a skeleton mage or archer will also be created without costing any souls. If this makes you go veor your skeleton limit, a normal skeleton will be removed and its soul refunded.
+		At level 5, for every 3 skeleton warriors, a skeleton mage or archer will also be created without costing any souls. If this makes you go over your skeleton limit, a normal skeleton will be removed and its soul refunded.
 
 		#GREY##{italic}#Skeleton minions come in fewer numbers than ghoul minions but are generally more durable.#{normal}#
 		]], [[Call upon the battlefields of old, collecting bones, fusing them with souls, and forging them into skeletal minions.
 		Up to %d skeleton warriors of level %d are summoned, and up to %d skeletons can be controlled at once.
 		At level 3 the summons become armoured skeletons warriors.
-		At level 5, for every 3 skeleton warriors, a skeleton mage or archer will also be created without costing any souls. If this makes you go veor your skeleton limit, a normal skeleton will be removed and its soul refunded.
+		At level 5, for every 3 skeleton warriors, a skeleton mage or archer will also be created without costing any souls. If this makes you go over your skeleton limit, a normal skeleton will be removed and its soul refunded.
 
 		#GREY##{italic}#Skeleton minions come in fewer numbers than ghoul minions but are generally more durable.#{normal}#
 		]], "tformat")
@@ -26823,11 +26227,11 @@ t([[Ghouls are nothing but mere tools to you, for %d turns you render them bloat
 t("Putrescent Liquefaction", "Putrescent Liquefaction", "talent name")
 t("#GREY#%s dissolves into the cloud of gore.", "#GREY#%s dissolves into the cloud of gore.", "logSeen")
 t([[Shattering up to %d ghouls or ghasts you create a putrescent swirling cloud of radius %d that follows you around for 3 turns per dead ghoul plus one turn. Oldest ghouls are prioritized for destruction.
-		Any ghoul or ghast dying or expiring within this cloud increases its duration by %d turn and every two aborbed ghoul/ghast your gain back one soul.
+		Any ghoul or ghast dying or expiring within this cloud increases its duration by %d turn and every two absorbed ghoul/ghast your gain back one soul.
 		The cloud deals %0.2f frostdusk damage to any foes caught inside.
 		The damage will increase with your Spellpower.
 		]], [[Shattering up to %d ghouls or ghasts you create a putrescent swirling cloud of radius %d that follows you around for 3 turns per dead ghoul plus one turn. Oldest ghouls are prioritized for destruction.
-		Any ghoul or ghast dying or expiring within this cloud increases its duration by %d turn and every two aborbed ghoul/ghast your gain back one soul.
+		Any ghoul or ghast dying or expiring within this cloud increases its duration by %d turn and every two absorbed ghoul/ghast your gain back one soul.
 		The cloud deals %0.2f frostdusk damage to any foes caught inside.
 		The damage will increase with your Spellpower.
 		]], "tformat")
@@ -26836,11 +26240,11 @@ t("%s sacrifices a ghoul to avoid being affected by %s!", "%s sacrifices a ghoul
 t([[Whenever you would be affected by a detrimental physical effect you instead transfer it instantly to one of your ghouls.
 		The ghoul dies from the process.
 		While under 1 life it also affects magical and mental effects.
-		At most %d effects can be affected by turn.
+		At most %d effects can be affected per turn.
 		Cross-tier effects are never affected.]], [[Whenever you would be affected by a detrimental physical effect you instead transfer it instantly to one of your ghouls.
 		The ghoul dies from the process.
 		While under 1 life it also affects magical and mental effects.
-		At most %d effects can be affected by turn.
+		At most %d effects can be affected per turn.
 		Cross-tier effects are never affected.]], "tformat")
 
 
@@ -27073,12 +26477,14 @@ t([[You create an orb attuned to thaumaturgy for %d turns.
 		]], "tformat")
 t("Multicaster", "Multicaster", "talent name")
 t([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
-		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know. This can only happen once per turn.
+		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
 		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
+		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
 		The additional cast will cost mana but no turn and will not active its cooldown.
 		During Aether Avatar only compatible spells are used.]], [[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
-		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know. This can only happen once per turn.
+		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
 		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
+		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
 		The additional cast will cost mana but no turn and will not active its cooldown.
 		During Aether Avatar only compatible spells are used.]], "tformat")
 t("Slipstream", "Slipstream", "talent name")
@@ -29328,457 +28734,11 @@ t("-Brutalized", "-Brutalized", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/zones/crypt-kryl-feijan/grids.lua"
--- 2 entries
-t("demonic symbol", "demonic symbol", "entity name")
-t("altar", "altar", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/crypt-kryl-feijan/npcs.lua"
--- 7 entries
-t("Kryl-Feijan", "Kryl-Feijan", "entity name")
-t("This huge demon is covered in darkness. The ripped flesh of its \"mother\" still hangs from its sharp claws.", "This huge demon is covered in darkness. The ripped flesh of its \"mother\" still hangs from its sharp claws.", "_t")
-t("and devoured as a demonic breakfast", "and devoured as a demonic breakfast", "_t")
-t("A female Human with twisted sigils scored into her naked flesh. Her wrists and ankles are sore and hurt by ropes and chains. You can discern great beauty beyond the stains of blood covering her skin.", "A female Human with twisted sigils scored into her naked flesh. Her wrists and ankles are sore and hurt by ropes and chains. You can discern great beauty beyond the stains of blood covering her skin.", "_t")
-t("Acolyte of the Sect of Kryl-Feijan", "Acolyte of the Sect of Kryl-Feijan", "entity name")
-t("Black-robed Elves with a mad look in their eyes.", "Black-robed Elves with a mad look in their eyes.", "_t")
-t([[The woman seems to be freed from her bonds.
-She stumbles on her feet, her naked body still dripping in blood. 'Please get me out of here!']], [[The woman seems to be freed from her bonds.
-She stumbles on her feet, her naked body still dripping in blood. 'Please get me out of here!']], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/crypt-kryl-feijan/objects.lua"
--- 3 entries
-t("Writhing Essence of Nightmares", "Writhing Essence of Nightmares", "entity name")
-t("Whispers seem to ceaselessly emanate from this writhing mass of black tentacles, murmuring unspeakable horrors into the ears of any unfortunate enough to hear them.", "Whispers seem to ceaselessly emanate from this writhing mass of black tentacles, murmuring unspeakable horrors into the ears of any unfortunate enough to hear them.", "_t")
-t("writhing mindstar", "writhing mindstar", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/crypt-kryl-feijan/zone.lua"
--- 7 entries
-t("Dark crypt", "Dark crypt", "_t")
-t("You hear an eerie chanting echoing from a distance.", "You hear an eerie chanting echoing from a distance.", "_t")
-t("The chanting grows louder. You hear a sudden high-pitched scream.", "The chanting grows louder. You hear a sudden high-pitched scream.", "_t")
-t("The cultists are about to sacrifice the woman. Stop them!", "The cultists are about to sacrifice the woman. Stop them!", "_t")
-t("The woman lets out a sudden ear-splitting scream that turns from pain to horror as her stomach is ripped open from within by long dark claws. A towering black demon arises, rending her flesh to shreds, and replacing her dying scream with a terrifying roar.", "The woman lets out a sudden ear-splitting scream that turns from pain to horror as her stomach is ripped open from within by long dark claws. A towering black demon arises, rending her flesh to shreds, and replacing her dying scream with a terrifying roar.", "_t")
-t("Crypt", "Crypt", "_t")
-t("You cannot abandon Melinda here!", "You cannot abandon Melinda here!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/daikara/grids.lua"
--- 2 entries
-t("Are you sure you want to enter? There's no telling where you will end up or if you will be able to make it back.", "Are you sure you want to enter? There's no telling where you will end up or if you will be able to make it back.", "_t")
-t("The rift is too unstable to cross it.", "The rift is too unstable to cross it.", "log")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/daikara/npcs.lua"
--- 4 entries
-t("Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "_t")
-t("and fed to the hatchlings", "and fed to the hatchlings", "_t")
-t("I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "_t")
-t("A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "A huge and heavily-scarred orc with a gigantic sword. His helm is fashioned from a dragon's skull.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/daikara/objects.lua"
--- 1 entries
-t("daikara expedition note", "daikara expedition note", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/daikara/zone.lua"
--- 3 entries
-t("Daikara", "Daikara", "_t")
-t([[As you walk toward the Daikara you can not fail to notice the huge volcano that erupts in the center of it, right where the path is taking you.
-You see pyroclasts ejected from the heart of the volcano, they look relatively harmless but very impressive.]], [[As you walk toward the Daikara you can not fail to notice the huge volcano that erupts in the center of it, right where the path is taking you.
-You see pyroclasts ejected from the heart of the volcano, they look relatively harmless but very impressive.]], "_t")
-t("BOOM!", "BOOM!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/deep-bellow/npcs.lua"
--- 12 entries
-t("The Mouth", "The Mouth", "entity name")
-t("\"From bellow, it devours.\"", "\"From bellow, it devours.\"", "_t")
-t("and revived as a screeching drem bat", "and revived as a screeching drem bat", "_t")
-t("#CRIMSON#%s seems invulnerable, there must be an other way to kill it!", "#CRIMSON#%s seems invulnerable, there must be an other way to kill it!", "logSeen")
-t("I have heard a dwarf whispering about some abomination in the deep bellow.", "I have heard a dwarf whispering about some abomination in the deep bellow.", "_t")
-t("slimy crawler", "slimy crawler", "entity name")
-t([[This disgusting... thing crawls on the floor toward you with great speed.
-It seems to come from the digestive system of the mouth.]], [[This disgusting... thing crawls on the floor toward you with great speed.
-It seems to come from the digestive system of the mouth.]], "_t")
-t("#AQUAMARINE#With the Mouth's death its crawler also falls lifeless on the ground!", "#AQUAMARINE#With the Mouth's death its crawler also falls lifeless on the ground!", "logSeen")
-t("#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "logCombat")
-t("The Abomination", "The Abomination", "entity name")
-t("A horrid mass of pustulent flesh, sinew, and bone; this creature seems to constantly be in pain. Two heads glare malevolently at you, an intruder in its domain.", "A horrid mass of pustulent flesh, sinew, and bone; this creature seems to constantly be in pain. Two heads glare malevolently at you, an intruder in its domain.", "_t")
-t("A parchment falls to the floor near The Abomination.", "A parchment falls to the floor near The Abomination.", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/deep-bellow/objects.lua"
--- 5 entries
-t("Deep Bellow excavation report %d", "Deep Bellow excavation report %d", "tformat")
-t("letter to Rolf (3)", "letter to Rolf (3)", "entity name")
-t("letter to Weisman (4)", "letter to Weisman (4)", "entity name")
-t("Last Will of Rolf", "Last Will of Rolf", "entity name")
-t("A paper scrap.", "A paper scrap.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/demon-plane-spell/grids.lua"
--- 2 entries
-t("#Source# burns #Target#!", "#Source# burns #Target#!", "logCombat")
-t("#Source# heals #Target#!", "#Source# heals #Target#!", "logCombat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/demon-plane/grids.lua"
--- 4 entries
-t("Demonic Portal", "Demonic Portal", "entity name")
-t("This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "This portal seems to be connected with Maj'Eyal; you could probably use it to go back.", "_t")
-t("Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "Enter the portal back to Maj'Eyal? (Warning loot Draebor first)", "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "#VIOLET#You enter the swirling portal and in the blink of an eye you are back to Maj'Eyal, near the Daikara.", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/demon-plane/npcs.lua"
--- 4 entries
-t("minor", "minor", "entity subtype")
-t("Draebor, the Imp", "Draebor, the Imp", "entity name")
-t("An intensely irritating git of a monster.", "An intensely irritating git of a monster.", "_t")
-t("As the annoying imp falls a portal appears under its corpse.", "As the annoying imp falls a portal appears under its corpse.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/demon-plane/objects.lua"
--- 4 entries
-t("Shifting Boots", "Shifting Boots", "entity name")
-t("pair of shifting boots", "pair of shifting boots", "_t")
-t("Those leather boots can make anybody as annoying as their former possessor, Draebor.", "Those leather boots can make anybody as annoying as their former possessor, Draebor.", "_t")
-t("%s taps %s %s together!", "%s taps %s %s together!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreadfell-ambush/npcs.lua"
--- 2 entries
-t("Ukruk the Fierce", "Ukruk the Fierce", "entity name")
-t("This ugly orc looks really nasty and vicious. He is obviously looking for something and bears an unknown symbol on his shield.", "This ugly orc looks really nasty and vicious. He is obviously looking for something and bears an unknown symbol on his shield.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreadfell-ambush/objects.lua"
--- 2 entries
-t("hastily written log", "hastily written log", "entity name")
-t("A paper scrap, left by Ukruk.", "A paper scrap, left by Ukruk.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreadfell-ambush/zone.lua"
--- 1 entries
-t("Ambush!", "Ambush!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreadfell/grids.lua"
--- 1 entries
-t("sign post with a note", "sign post with a note", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreadfell/npcs.lua"
--- 14 entries
-t("The Master", "The Master", "entity name")
-t("A terrifying vampiric figure of power, with flowing robes and an intense aura of fright.  His cold, sinewy flesh seems to cling to this world through greed and malice, and his eyes betray a strength of mind beyond any puny mortal.  All nearby are utterly subservient to his will, though he stands aloof from them, as if to say he needs not the pathetic meddling of minions to help him overcome his foes.  Your eyes are drawn to a dark staff in his hands which seems to suck the very life from the air around it.  It looks ancient and dangerous and terrible, and the sight of it fills you with fervent desire.", "A terrifying vampiric figure of power, with flowing robes and an intense aura of fright.  His cold, sinewy flesh seems to cling to this world through greed and malice, and his eyes betray a strength of mind beyond any puny mortal.  All nearby are utterly subservient to his will, though he stands aloof from them, as if to say he needs not the pathetic meddling of minions to help him overcome his foes.  Your eyes are drawn to a dark staff in his hands which seems to suck the very life from the air around it.  It looks ancient and dangerous and terrible, and the sight of it fills you with fervent desire.", "_t")
-t("and raised as his tortured undead thrall", "and raised as his tortured undead thrall", "_t")
-t("It has been months since the hero cleansed the Dreadfell, yet rumours are growing: evil is back.", "It has been months since the hero cleansed the Dreadfell, yet rumours are growing: evil is back.", "_t")
-t("Pale Drake", "Pale Drake", "entity name")
-t("A malevolent skeleton archmage that has taken control of the Dreadfell since the Master's demise.", "A malevolent skeleton archmage that has taken control of the Dreadfell since the Master's demise.", "_t")
-t("Borfast the Broken", "Borfast the Broken", "entity name")
-t([[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
-What proud hero of renown was this before he was condemned to such a terrible fate?]], [[Thick skin hangs loosely from this short, shambling form. Tufts of hair sticking out from its chin give evidence of a once magnificent dwarven beard. Half its face seems to have been seared in acid at some point, the flesh melted away from the skull and an eyeball drooping low from its socket. There is a unique sadness to its eyes, and a slump of resignation to its gait.
-What proud hero of renown was this before he was condemned to such a terrible fate?]], "_t")
-t("Aletta Soultorn", "Aletta Soultorn", "entity name")
-t([[What once must have been an enchantingly beautiful Higher woman now looks to be a ghost of utter despair. Her thin, elegant form ripples gently in the air, whilst her tattered robes seem oddly still. The ghost's face looks jittery and pained whilst her wild, glowing eyes move rapidly back and forth in their sockets.
-Now and then she seems to see something and her jaw pulls back, her whole face splitting apart as she shrieks an unholy cry of pain and torment.]], [[What once must have been an enchantingly beautiful Higher woman now looks to be a ghost of utter despair. Her thin, elegant form ripples gently in the air, whilst her tattered robes seem oddly still. The ghost's face looks jittery and pained whilst her wild, glowing eyes move rapidly back and forth in their sockets.
-Now and then she seems to see something and her jaw pulls back, her whole face splitting apart as she shrieks an unholy cry of pain and torment.]], "_t")
-t("and offered to her dark Master", "and offered to her dark Master", "_t")
-t("Filio Flightfond", "Filio Flightfond", "entity name")
-t([[A short, furtive-looking skeleton with padded feet. He moves quickly and silently, and seems to meld into the shadows with ease. In one hand he holds a sling, and the other a short dagger.
-There is a cunning air to his hollow skull, and his empty sockets reveal nothing of what tricks and tactics he has planned.]], [[A short, furtive-looking skeleton with padded feet. He moves quickly and silently, and seems to meld into the shadows with ease. In one hand he holds a sling, and the other a short dagger.
-There is a cunning air to his hollow skull, and his empty sockets reveal nothing of what tricks and tactics he has planned.]], "_t")
-t("and offered to his dark Master", "and offered to his dark Master", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreadfell/objects.lua"
--- 6 entries
-t("A smudged poem chalked on a dark piece of slate", "A smudged poem chalked on a dark piece of slate", "_t")
-t("A poem written in scribbled, child-like writing", "A poem written in scribbled, child-like writing", "_t")
-t("paper scrap", "paper scrap", "entity name")
-t("A poem written in an elegant Gothic script", "A poem written in an elegant Gothic script", "_t")
-t("a letter from the Master", "a letter from the Master", "entity name")
-t("A letter written in a bold, commanding script", "A letter written in a bold, commanding script", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreams/grids.lua"
--- 8 entries
-t("Dream Portal", "Dream Portal", "entity name")
-t("mouse hole", "mouse hole", "entity name")
-t("A hole small enough that only you can go through.", "A hole small enough that only you can go through.", "_t")
-t("Dreamstone", "Dreamstone", "entity name")
-t("You touch the dreamstone and it disappears. You feel better.", "You touch the dreamstone and it disappears. You feel better.", "logPlayer")
-t("weird floor", "weird floor", "entity name")
-t("bamboo hut", "bamboo hut", "entity subtype")
-t("bamboo wall", "bamboo wall", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreams/npcs.lua"
--- 10 entries
-t("yeek illusion", "yeek illusion", "entity name")
-t("What?!", "What?!", "_t")
-t("Do you have anything worth living for?", "Do you have anything worth living for?", "_t")
-t("What do you want?", "What do you want?", "_t")
-t("Where are you going?", "Where are you going?", "_t")
-t("Who are you?", "Who are you?", "_t")
-t("Why are you here?", "Why are you here?", "_t")
-t("GRrrrrrllllll!", "GRrrrrrllllll!", "_t")
-t("lost wife", "lost wife", "entity name")
-t("Your wife has been turned into a giant, bloated form that towers above you. Mucus and slime ooze from every orifice, dripping onto the floor. The sight and the smell make you retch.", "Your wife has been turned into a giant, bloated form that towers above you. Mucus and slime ooze from every orifice, dripping onto the floor. The sight and the smell make you retch.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreams/zone.lua"
--- 13 entries
-t("Dreams", "Dreams", "_t")
-t("Dream of vulnerability", "Dream of vulnerability", "_t")
-t("Dream of loss", "Dream of loss", "_t")
-t("Dream ???", "Dream ???", "_t")
-t("frail mouse", "frail mouse", "_t")
-t([[The noxious fumes have invaded all your body, you suddenty fall into a deep slumber...
-... you feel weak ...
-... you feel unimportant ...
-... you feel like ... food ...
-You feel like running away!]], [[The noxious fumes have invaded all your body, you suddenty fall into a deep slumber...
-... you feel weak ...
-... you feel unimportant ...
-... you feel like ... food ...
-You feel like running away!]], "_t")
-t([[As your mind-mouse enters the dream portal you suddenly wake up.
-You feel good!]], [[As your mind-mouse enters the dream portal you suddenly wake up.
-You feel good!]], "_t")
-t("lost man", "lost man", "_t")
-t([[The noxious fumes have invaded all your body, you suddenty fall into a deep slumber...
-... you feel you forgot something ...
-... you feel lost ...
-... you feel sad ...
-You forgot your wife! Find her!]], [[The noxious fumes have invaded all your body, you suddenty fall into a deep slumber...
-... you feel you forgot something ...
-... you feel lost ...
-... you feel sad ...
-You forgot your wife! Find her!]], "_t")
-t([[As you enter the dream portal you suddenly wake up.
-You feel good!]], [[As you enter the dream portal you suddenly wake up.
-You feel good!]], "_t")
-t("%s has %d stat point(s) to spend. Press p to use them.", "%s has %d stat point(s) to spend. Press p to use them.", "log")
-t([[As you die in a dream you suddenly wake up.
-Poisonous fumes take their toll on your body!]], [[As you die in a dream you suddenly wake up.
-Poisonous fumes take their toll on your body!]], "_t")
-t("Deep slumber...", "Deep slumber...", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/dreamscape-talent/grids.lua"
--- 1 entries
-t("cloud", "cloud", "entity subtype")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/eidolon-plane/npcs.lua"
--- 2 entries
-t("The Eidolon", "The Eidolon", "entity name")
-t("A ripple in the void that somehow seems... alive, this creature stares at you with interest.", "A ripple in the void that somehow seems... alive, this creature stares at you with interest.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/eidolon-plane/zone.lua"
--- 3 entries
-t("Eidolon Plane", "Eidolon Plane", "_t")
-t("The Eidolon Plane seems not to physically exist in the same way the normal world does. You cannot seem to drop anything here. %s comes back into your backpack.", "The Eidolon Plane seems not to physically exist in the same way the normal world does. You cannot seem to drop anything here. %s comes back into your backpack.", "logPlayer")
-t("#LIGHT_RED#You are sent back to the material plane!", "#LIGHT_RED#You are sent back to the material plane!", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/eruan/grids.lua"
--- 3 entries
-t("Farportal: Charred Scar", "Farportal: Charred Scar", "entity name")
-t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], [[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
-This one seems to go to the west, to Charred Scar. A fiery volcano that can only spell death...]], "_t")
-t("#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "#VIOLET#You enter the swirling portal while it fades away and in the blink of an eye you set foot on hellish land, the heart of a volcano...", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/eruan/npcs.lua"
--- 2 entries
-t("Sun Paladin Guren", "Sun Paladin Guren", "entity name")
-t("A Human warrior, clad in shining plate armour. Power radiates from him.", "A Human warrior, clad in shining plate armour. Power radiates from him.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/eruan/zone.lua"
--- 1 entries
-t("Erúan", "Erúan", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/flooded-cave/npcs.lua"
--- 2 entries
-t("Ukllmswwik the Wise", "Ukllmswwik the Wise", "entity name")
-t("It looks like a cross between a shark and a dragon, only nastier.", "It looks like a cross between a shark and a dragon, only nastier.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/flooded-cave/zone.lua"
--- 1 entries
-t("Flooded Cave", "Flooded Cave", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/gladium/grids.lua"
--- 2 entries
-t("Gladium Control Orb", "Gladium Control Orb", "entity name")
-t("glass wall", "glass wall", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/gladium/zone.lua"
--- 1 entries
-t("Fortress Gladium", "Fortress Gladium", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/golem-graveyard/grids.lua"
--- 9 entries
-t("the remains of Atamathon", "the remains of Atamathon", "entity name")
-t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
-Its body is made of marble, its joints of solid voratun, and its sole eye of purest ruby; the other one seems to be missing. At over 40 feet tall, it towers above you.
-Someone foolish has tried to reconstruct it, but was unable to complete the task; the golem needs another eye to be complete.]], [[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
-Its body is made of marble, its joints of solid voratun, and its sole eye of purest ruby; the other one seems to be missing. At over 40 feet tall, it towers above you.
-Someone foolish has tried to reconstruct it, but was unable to complete the task; the golem needs another eye to be complete.]], "_t")
-t("Atamathon", "Atamathon", "_t")
-t("It seems that your %s is made to fit inside the empty eye socket of Atamathon. This is probably very unwise.", "It seems that your %s is made to fit inside the empty eye socket of Atamathon. This is probably very unwise.", "tformat")
-t("The socket seems broken.", "The socket seems broken.", "log")
-t("#LIGHT_RED#As you insert the gem the golem starts to shake. All its systems and magics are reactivating.", "#LIGHT_RED#As you insert the gem the golem starts to shake. All its systems and magics are reactivating.", "log")
-t("#LIGHT_RED#Atamathon walks the world again, but without control.", "#LIGHT_RED#Atamathon walks the world again, but without control.", "log")
-t("Activating defenses. Targetting hostile. **DESTRUCTION**!", "Activating defenses. Targetting hostile. **DESTRUCTION**!", "_t")
-t("Insert", "Insert", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/golem-graveyard/npcs.lua"
--- 11 entries
-t("Atamathon the Giant Golem", "Atamathon the Giant Golem", "entity name")
-t("This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "_t")
-t("DESTROY!", "DESTROY!", "_t")
-t("LIFE-ENDING SYSTEMS ACTIVATED!", "LIFE-ENDING SYSTEMS ACTIVATED!", "_t")
-t("GLORY TO THE HALFLINGS!", "GLORY TO THE HALFLINGS!", "_t")
-t("YOUR DEATH IS NECESSARY", "YOUR DEATH IS NECESSARY", "_t")
-t("ACTIVATING PAIN GIVING SUBMODULES!", "ACTIVATING PAIN GIVING SUBMODULES!", "_t")
-t("YOUR LIFE WILL END, PLEASE DO NOT RESIST!", "YOUR LIFE WILL END, PLEASE DO NOT RESIST!", "_t")
-t("RESISTANCE IS FUTILE, YOUR WILL BE EXTERMINATED!", "RESISTANCE IS FUTILE, YOUR WILL BE EXTERMINATED!", "_t")
-t("PLEASE STAY STEADY AS YOU ARE ERASED FROM THE WORLD!", "PLEASE STAY STEADY AS YOU ARE ERASED FROM THE WORLD!", "_t")
-t("EXECUTE PHASE COMMENCING!", "EXECUTE PHASE COMMENCING!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/golem-graveyard/objects.lua"
--- 2 entries
-t("Atamathon's Ruby Eye", "Atamathon's Ruby Eye", "entity name")
-t([[One of the ruby eyes of the legendary giant golem Atamathon.
-It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed, it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], [[One of the ruby eyes of the legendary giant golem Atamathon.
-It is said it was made by the halflings during the Age of Pyre as a weapon against the orcs. Even though it was destroyed, it managed to deal a crippling blow by killing their leader, Garkul the Devourer.]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/gorbat-pride/grids.lua"
--- 3 entries
-t("roost", "roost", "entity subtype")
-t("This rock seems to have been sealed off. You need to find a way to open it.", "This rock seems to have been sealed off. You need to find a way to open it.", "_t")
-t("#VIOLET#You hear a rock crumbling opening.", "#VIOLET#You hear a rock crumbling opening.", "log")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/gorbat-pride/npcs.lua"
--- 3 entries
-t("Gorbat, Supreme Wyrmic of the Pride", "Gorbat, Supreme Wyrmic of the Pride", "entity name")
-t("An orc with scaly skin, claws and a pair of small wings on his back.", "An orc with scaly skin, claws and a pair of small wings on his back.", "_t")
-t("and fed to the hatchlings", "and fed to the hatchlings", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/gorbat-pride/zone.lua"
--- 1 entries
-t("Gorbat Pride", "Gorbat Pride", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/grushnak-pride/grids.lua"
--- 2 entries
-t("entrance to a slimy pit", "entrance to a slimy pit", "entity name")
-t("training dummy", "training dummy", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/grushnak-pride/mapscripts/last.lua"
--- 1 entries
-t("Combat Trainer #rng#", "Combat Trainer #rng#", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/grushnak-pride/mapscripts/main.lua"
--- 1 entries
-t("Combat Trainer #rng#", "Combat Trainer #rng#", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/grushnak-pride/npcs.lua"
--- 3 entries
-t("Grushnak, Battlemaster of the Pride", "Grushnak, Battlemaster of the Pride", "entity name")
-t("An old orc, covered in battle scars, he looks fierce and very, very, dangerous.", "An old orc, covered in battle scars, he looks fierce and very, very, dangerous.", "_t")
-t("and mounted on the barracks wall", "and mounted on the barracks wall", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/grushnak-pride/objects.lua"
--- 1 entries
-t("The Legend of Garkul the Devourer, mightiest of all orcs.", "The Legend of Garkul the Devourer, mightiest of all orcs.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/grushnak-pride/zone.lua"
--- 1 entries
-t("Grushnak Pride", "Grushnak Pride", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/zones/ruined-dungeon/zone.lua"
 -- 3 entries
 t("The orb seems to react badly to your touch; there is a high shriek!", "The orb seems to react badly to your touch; there is a high shriek!", "_t")
 t("The orb burns to your touch and a loud shout screams out!", "The orb burns to your touch and a loud shout screams out!", "_t")
 t("The orb reacts violently to your touch and the walls begin to rumble!", "The orb reacts violently to your touch and the walls begin to rumble!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/zones/sandworm-lair/objects.lua"
--- 1 entries
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "_t")
 
 
 ------------------------------------------------
@@ -31053,11 +30013,8 @@ t("All known spells that can be used with Arcane Combat.", "All known spells tha
 
 ------------------------------------------------
 section "game/modules/tome/load.lua"
--- 5 entries
+-- 2 entries
 t("Second weapon set: psionic focus", "Second weapon set: psionic focus", "_t")
-t("str", "str", "stat short_name")
-t("mag", "mag", "stat short_name")
-t("wil", "wil", "stat short_name")
 t("lck", "lck", "stat short_name")
 
 

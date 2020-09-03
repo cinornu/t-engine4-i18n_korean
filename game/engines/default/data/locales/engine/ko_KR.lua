@@ -1878,6 +1878,7 @@ section "game/engines/default/modules/boot/init.lua"
 section "game/engines/default/modules/boot/load.lua"
 
 t("Strength", "힘", "stat name")
+t("str", "힘", "stat short_name")
 t("Dexterity", "민첩", "stat name")
 t("dex", "민첩", "stat short_name")
 t("Constitution", "체격", "stat name")

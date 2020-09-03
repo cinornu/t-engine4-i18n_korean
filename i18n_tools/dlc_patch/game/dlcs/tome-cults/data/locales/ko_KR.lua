@@ -338,6 +338,7 @@ t("book", "책", "entity subtype")
 section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
 
 t("Enter", "들어간다", "_t")
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -2352,6 +2353,7 @@ section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/npcs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/objects.lua"
 
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -2552,6 +2554,7 @@ t("shalore", "샬로레", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/godfeaster/objects.lua"
 
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -2573,6 +2576,7 @@ section "game/dlcs/tome-cults/data/zones/maggot/npcs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/maggot/objects.lua"
 
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -2603,6 +2607,7 @@ t("The bottom part of Telos' broken staff.", "부서진 텔로스 지팡이의 �
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/necromancers-ruins/zone.lua"
 
+t("The cultists are about to sacrifice the woman. Stop them!", "광신도들이 여자를 희생시키려 합니다. 그들을 막아야 합니다!", "_t")
 
 
 ------------------------------------------------
@@ -2613,6 +2618,7 @@ section "game/dlcs/tome-cults/data/zones/occult-egress/grids.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/occult-egress/objects.lua"
 
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -2630,6 +2636,7 @@ t("scourge", "재앙", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/scourged-pits/objects.lua"
 
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -2796,6 +2803,7 @@ t([[Infused by #YELLOW#psionic forces#LAST#
 t([[Powered by #CRIMSON#unknown forces#LAST#
 ]], [[#CRIMSON#알 수 없는 힘#LAST#이 스며듬
 ]], "_t")
+t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "log")
 t("Name", "이름", "_t")
 t("Confirm", "확인", "_t")
 

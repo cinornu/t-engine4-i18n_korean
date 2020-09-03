@@ -402,6 +402,13 @@ section "game/dlcs/tome-orcs/data/general/objects/egos/steamgun.lua"
 
 
 ------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/objects/generic-world-artifacts.lua"
+
+t("potion", "물약", "entity subtype")
+t("%s quaffs the %s!", "%s %s 마셨다!", "logSeen", nil, {"는","을"})
+
+
+------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/inscriptions.lua"
 
 t("scroll", "두루마리", "entity type")
@@ -657,6 +664,7 @@ t("Far East", "동쪽 대륙", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/amakthel.lua"
 
+t("Winner", "승리자", "_t")
 
 
 ------------------------------------------------
@@ -911,7 +919,7 @@ t("@Source@ spawns a tentacle near @target@.", "@Source1@ @target@ 근처에 촉
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
 t("#ORCHID#%s summons a %s...", "#ORCHID#%s %s 소환한다...", "saySimple", nil, {"는","를"})
-t("The Dead God wishes to tickle you...", "죽은 신은 너를 간지럽히고싶어 해...", "_t")
+t("The Dead God wishes to tickle you...", "죽은 신은 널 간지럽히고 싶어 해...", "_t")
 t("Curse of Amakthel", "아마크텔의 저주", "talent name")
 t([[Create a circle of cursed ground (radius %d) for %d turns. Any foes inside will be cursed, all new negative effects on them will have their duration doubled.
 		]], [[반경 %d 칸의 저주의 마법진을 %d 턴 동안 세겨넣습니다. 내부의 모든 적은 저주 받아, 새로 받는 부정적 효과의 지속 시간이 2 배로 연장됩니다.
@@ -2787,15 +2795,8 @@ t([[When your life dips below 50%% of your total life an automated process turns
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/cun.lua"
 
-t("Skeleton and Ghoul unlocked and not already undead.", "스켈레톤과 구울이 해금 되어 있고, 아직 언데드가 아닐 것.", "_t")
 t("Rak'Shor's Cunning", "락쇼르의 비술", "_t")
-t([[Set up some cunning contingency plans in case of death.
-		If you die you will have the option to raise back from the dead once, but at the cost of becoming a ghoul or a skeleton, at random.
-		When rising this way you will lose access to your racial tree, if any, get refunded for half the points you spent in it and gain access to the ghoul or skeleton racial tree.
-		As undead are not able to use infusions you will lose any that you may have upon turning.]], [[만에 하나, 죽게될 때를 위한 계획을 세워둡니다.
-		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게됩니다. 하지만 캐릭터는 구울이나 스켈레톤 중 무작위한 종족으로 소생하게됩니다.
-		이 특수 기술로 소생할 시, 모든 종족 기술을 잃어버리지만, 투자한 기술 점수의 절반을 환불 받고 구울과 스켈레톤의 종족 기술을 배울 수 있게됩니다.
-		언데드는 주입물을 사용하지 못하기 때문에, 세겨져있던 주입물들이 사라지게 됩니다.]], "tformat")
+t("Cosmetic Options", "치장 옵션", "_t")
 t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때 마다, 증기 공학 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 1 턴 단축시킵니다.", "_t")
 
 
@@ -2965,6 +2966,7 @@ t("healing", "회복", "effect subtype")
 t("lightning", "전기", "effect subtype")
 t("steamtech", "증기 공학", "effect subtype")
 t("spell", "주문", "effect subtype")
+t("cunning", "교활", "effect subtype")
 
 
 ------------------------------------------------
@@ -3333,6 +3335,7 @@ section "game/dlcs/tome-orcs/data/zones/krimbul/npcs.lua"
 section "game/dlcs/tome-orcs/data/zones/krimbul/objects.lua"
 
 t("tattered paper scrap", "너덜너덜한 종잇조각", "entity name")
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -3381,6 +3384,8 @@ t("construct", "구조체", "entity type")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/palace-fumes/objects.lua"
 
+t("paper scrap", "종잇조각", "entity name")
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -3430,6 +3435,7 @@ t("treant", "나무 정령", "entity subtype")
 section "game/dlcs/tome-orcs/data/zones/primal-forest/objects.lua"
 
 t("journal page", "일지 한 장", "entity name")
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -3554,6 +3560,7 @@ t("orc", "오크", "entity subtype")
 section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/objects.lua"
 
 t("letter", "편지", "entity name")
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -3583,7 +3590,9 @@ section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("old road", "오래된 길", "entity name")
 t("grass", "잔디", "entity subtype")
+t("bamboo wall", "대나무 벽", "entity name")
 t("door", "문", "entity name")
+t("bamboo hut", "대나무 오두막", "entity subtype")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
 t("rock", "바위", "entity subtype")
@@ -3626,6 +3635,8 @@ section "game/dlcs/tome-orcs/data/zones/ureslak-host/npcs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/ureslak-host/objects.lua"
 
+t("paper scrap", "종잇조각", "entity name")
+t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
@@ -3769,6 +3780,7 @@ section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
 
 t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
 t("steamtech", "증기 공학", "_t")
+t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Name", "이름", "_t")
 
 
