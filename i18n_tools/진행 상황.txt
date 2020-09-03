@@ -197,7 +197,10 @@
 "game/modules/tome/data/quests/keepsake.lua"
 "game/modules/tome/data/quests/kryl-feijan-escape.lua"
 "game/modules/tome/data/quests/lichform.lua"
-"game/modules/tome/data/quests/lightning-overload.lua" Khelerd 완
+"game/modules/tome/data/quests/lightning-overload.lua"
+"game/modules/tome/data/quests/lost-merchant.lua"
+"game/modules/tome/data/quests/love-melinda.lua"
+"game/modules/tome/data/quests/lumberjack-cursed.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
