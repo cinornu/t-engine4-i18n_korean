@@ -200,7 +200,8 @@
 "game/modules/tome/data/quests/lightning-overload.lua"
 "game/modules/tome/data/quests/lost-merchant.lua"
 "game/modules/tome/data/quests/love-melinda.lua"
-"game/modules/tome/data/quests/lumberjack-cursed.lua" Khelerd 완
+"game/modules/tome/data/quests/lumberjack-cursed.lua"
+"game/modules/tome/data/quests/mage-apprentice.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
@@ -265,7 +266,7 @@
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
 
------------------------------- 이하 본편 data/zones ---------------------------------
+------------------------------ 이하 본편 data/zones (완역) ---------------------------------
 
 "game/modules/tome/data/zones/abashed-expanse/grids.lua"
 "game/modules/tome/data/zones/abashed-expanse/npcs.lua"
