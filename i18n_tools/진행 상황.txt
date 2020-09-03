@@ -192,7 +192,9 @@
 "game/modules/tome/data/quests/east-portal.lua"
 "game/modules/tome/data/quests/escort-duty.lua"
 "game/modules/tome/data/quests/grave-necromancer.lua"
-"game/modules/tome/data/quests/high-peak.lua" Khelerd 완
+"game/modules/tome/data/quests/high-peak.lua"
+"game/modules/tome/data/quests/infinite-dungeon.lua"
+"game/modules/tome/data/quests/keepsake.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
