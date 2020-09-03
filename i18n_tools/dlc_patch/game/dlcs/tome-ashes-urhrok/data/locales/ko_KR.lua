@@ -95,12 +95,36 @@ section "game/dlcs/tome-ashes-urhrok/data/quests/start-ashes.lua"
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/black-magic.lua"
 
+t("Bleak Outcome", "암울한 결과", "talent name")
+t([[Your actions foreshadow a bleak outcome for your foes.
+		Each time you deal darkness, fire, blight or acid damage you curse your foe with an effect that stacks up to %d times (this can happen only once per creature per turn).
+		The vim you get for killing the creature is increased by 100%% for every stack of Bleak Outcome.
+		The vim's worth of a creature depends on your Willpower.]], [[시전자의 행동은 적들에게 있어, 암울한 결과를 암시하는 전조가 됩니다.
+		암흑, 화염, 황폐 또는 산성 피해를 가할 때 마다, 최대 %d 번 중첩되는 저주를 겁니다. (이 효과는 하나의 적에게 한 턴에 한 번 적용됩니다.)
+		적을 죽이고 얻는 원기 획득량이, 적에게 적용된 암울한 결과 중첩마다 100%% 씩 상승합니다.
+		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat")
+t("Stripped Life", "뜯겨진 생명", "talent name")
+t("When a creature dies with at least 5 stacks of Bleak Outcome you feast on every last bit of vim it had, increasing your own spellpower by %d for 6 turns.", "적어도 5 중첩 이상의 암울한 결과 중첩이 쌓인 적이 죽으면, 적이 가진 원기를 마지막 한 톨마저 집어삼켜 시전자의 주문력이 6 턴 동안 %d 상승합니다.", "tformat")
+t("Grim Future", "음침한 미래", "talent name")
+t([[The future looks grim indeed... for your foes.
+		When you kill a creature afflicted with Bleak Outcome all creatures allied to it in radius %d will be dazed for 2 turns.
+		This effect will only trigger every %d turns (after a successful daze has been applied).]], [[미래는 확실히 어둡습니다... 적들에게 말이죠.
+		암울한 결과가 적용된 적을 살해하면, 반경 %d 칸 내의 적들에게 2 턴 동안 지속되는 혼절을 유발합니다.
+		이 효과는 매 %d 턴 마다 한번 씩 일어납니다. (혼절 효과가 적용된 이후)]], "tformat")
+t("Ominous Shadow", "불길한 그림자", "talent name")
+t([[When a creature afflicted with Bleak Outcome dies you gain a charge of Ominous Shadow (up to %d) for 12 turns.
+		Each charge can be used to become invisible (power %d) for 2 turns.]], [[암울한 결과가 적용된 적이 죽으면, 시전자는 불길한 그림자 중첩을 하나 얻습니다. 불길한 그림자는 최대 %d 번 중첩되고, 12 턴 동안 유지됩니다.
+		불길한 그림자 중첩을 하나 소모하여, 2 턴 동안 지속되는 투명 상태로 진입할 수 있습니다. (투명 위력 %d)]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
 
+t("Draining Assault", "흡수의 맹공", "talent name")
+t("Fiery Grasp", "불타는 손아귀", "talent name")
 t("%s resists the silence!", "%s 침묵에 저항합니다!", "logSeen", nil, {"가"})
+t("Reckless Strike", "난폭한 일격", "talent name")
+t("Share the Pain", "고통 공유", "talent name")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
 
 
@@ -223,6 +247,7 @@ t("race", "종족", "talent category")
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
 
 t("Destroyer", "파괴자", "_t")
+t("Fiery Grasp", "불타는 손아귀", "_t")
 t("pin", "속박", "effect subtype")
 t("shield", "보호막", "effect subtype")
 t("+Shield", "+보호막", "_t")
@@ -249,9 +274,12 @@ t("darkness", "암흑", "effect subtype")
 t("#Target# stops burning.", "#Target#의 화상이 치유되었다.", "_t")
 t("spellblaze", "마법폭발", "effect subtype")
 t("cold", "냉기", "effect subtype")
+t("Bleak Outcome", "암울한 결과", "_t")
 t("none", "없음", "_t")
 t("curse", "저주", "effect subtype")
+t("Stripped Life", "뜯겨진 생명", "_t")
 t("vim", "원기", "effect subtype")
+t("Ominous Shadow", "불길한 그림자", "_t")
 t("#Target# vanishes from sight.", "#Target1# 시야에서 사라졌다.", "_t")
 t("#Target# is no longer invisible.", "#Target2# 다시 불투명해졌다.", "_t")
 t("arcane", "비전", "effect subtype")
