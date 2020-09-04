@@ -173,7 +173,7 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
------------------------------- 이하 본편 data/quests ---------------------------------
+------------------------------ 이하 본편 data/quests (완역) ---------------------------------
 
 "game/modules/tome/data/quests/anti-antimagic.lua"
 "game/modules/tome/data/quests/antimagic.lua"
@@ -204,12 +204,31 @@
 "game/modules/tome/data/quests/paradoxology.lua"
 "game/modules/tome/data/quests/pre-charred-scar.lua" Highseeker 완
 
-
-
+"game/modules/tome/data/quests/rel-tunnel.lua"
+"game/modules/tome/data/quests/ring-of-blood.lua"
+"game/modules/tome/data/quests/shertul-fortress.lua"
+"game/modules/tome/data/quests/spydric-infestation.lua"
+"game/modules/tome/data/quests/staff-absorption.lua"
+"game/modules/tome/data/quests/start-allied.lua"
+"game/modules/tome/data/quests/start-archmage.lua"
+"game/modules/tome/data/quests/start-dwarf.lua"
+"game/modules/tome/data/quests/start-point-zero.lua"
+"game/modules/tome/data/quests/start-shaloren.lua"
+"game/modules/tome/data/quests/start-sunwall.lua"
+"game/modules/tome/data/quests/start-thaloren.lua"
+"game/modules/tome/data/quests/start-undead.lua"
+"game/modules/tome/data/quests/start-yeek.lua"
+"game/modules/tome/data/quests/starter-zones.lua"
+"game/modules/tome/data/quests/strange-new-world.lua"
+"game/modules/tome/data/quests/temple-of-creation.lua"
+"game/modules/tome/data/quests/temporal-rift.lua"
+"game/modules/tome/data/quests/trollmire-treasure.lua"
+"game/modules/tome/data/quests/tutorial.lua"
+"game/modules/tome/data/quests/west-portal.lua"
+"game/modules/tome/data/quests/wild-wild-east.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
-"game/modules/tome//data/quests/tutorial.lua"
 "game/modules/tome/data/texts/intro-tutorial-combat-stats.lua"
 "game/modules/tome//data/texts/intro-tutorial.lua"
 "game/modules/tome/data/texts/intro-archmage.lua"
