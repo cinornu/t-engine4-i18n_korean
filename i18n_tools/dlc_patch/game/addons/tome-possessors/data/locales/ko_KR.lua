@@ -28,6 +28,7 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 ------------------------------------------------
 section "game/addons/tome-possessors/data/talents/psionic/battle-psionics.lua"
 
+t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
 
 
 ------------------------------------------------
@@ -51,6 +52,7 @@ t("Yes", "네", "_t")
 ------------------------------------------------
 section "game/addons/tome-possessors/data/talents/psionic/psionic-menace.lua"
 
+t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
 
 
 ------------------------------------------------
@@ -62,6 +64,7 @@ t("psionic", "초능력", "talent category")
 ------------------------------------------------
 section "game/addons/tome-possessors/data/talents/psionic/psychic-blows.lua"
 
+t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
 
 

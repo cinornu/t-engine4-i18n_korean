@@ -1099,10 +1099,7 @@ t("#SLATE#* You have to destroy the controlling crystal before leaving or the de
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
--- 2 entries
-t([[Whenever you block an attack with your shield, you randomly hex the attacker with one of the hexes: Pacification, Domination, Burning or Empathic as if cast at talent level %d.
-		This may only happen once per turn.]], [[Whenever you block an attack with your shield, you randomly hex the attacker with one of the hexes: Pacification, Domination, Burning or Empathic as if cast at talent level %d.
-		This may only happen once per turn.]], "tformat")
+-- 1 entries
 t("", "", "log")
 
 

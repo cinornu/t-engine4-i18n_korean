@@ -1171,6 +1171,7 @@ section "game/dlcs/tome-cults/data/talents/demented/demented.lua"
 
 t("Insanity Pool", "광기", "talent name")
 t("Allows you to have an insanity pool. Insanity is used for most demented powers.", "광기 주문에 접근할 수 있게됩니다. 광기는 대부분의 광기 계통 주문에서 소모됩니다.", "_t")
+t("Grow horrific tentacles to assail your foes.", "끔찍한 촉수를 돋아나게 해, 적들에게 공격을 가합니다.", "_t")
 t("tentacles", "촉수", "_t")
 t("Let your body mutate in terrible and efficient ways.", "자신의 신체를 끔찍하지만 효율적이게 변화시킵니다.", "_t")
 t("horrific body", "끔찍한 신체", "_t")
@@ -1592,6 +1593,7 @@ t("temporal vortex", "시간의 소용돌이", "_t")
 t("dimensional gateway", "차원 관문", "_t")
 t("void skitterer", "공허 미물", "_t")
 t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "뒤틀린 덩쿨손으로 뒤덮한 괴이한 생명체로, 먹잇감을 향하여 빠르게 순간이동한다.", "_t")
+t("%s (empowered)", "%s (강화됨)", "tformat")
 t("Summon", "소환", "_t")
 t([[Pouring more energy into your rifts, you have a %d%% chance for each one to instead appear as a more powerful type.
 #PURPLE#Nether Breach:#LAST# Fires a beam dealing %0.2f darkness damage at a random target in radius 10.
@@ -1797,6 +1799,7 @@ t([[Consuming a void star, you use it to summon a void monolith at the targeted 
 			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], [[공허의 별을 하나 소모하여, 대상 위치에 %d 턴 동안 지속되는 공허 거석을 불러 일으킵니다. 거석은 매우 단단하며 움직일 수 없고, 반경 %d 내의 적에게 매 0.5 턴 마다 혼절을 일으킵니다. 적의 혼절 내성 판정에 당신의 주문력을 사용합니다.
 			거석은 당신의 마법 능력치에 따라 레벨 당 생명력 증가량이 %d 증가하고, 모든 피해 저항을 %d%% 얻습니다.]], "tformat")
 t("Essence Reave", "정수 찢기", "talent name")
+t("%s rends the essence of %s, restoring %d void shards!", "%s %s의 정수를 찢어발겨, %d 개의 공허의 별로 전환했다!", "logSeen", nil, {"가"})
 t([[You rend the very essence of the target, drawing on their life and converting it to void stars. The target takes %0.2f darkness and %0.2f temporal damage, and you gain %d void star(s).
 		The damage will increase with your Spellpower.]], [[당신은 대상의 정수를 찢어 발김으로써, 그 생명력을 공허의 별로 변환합니다. 대상은 %0.2f 암흑 피해와 %0.2f 시간 피해를 입고, 시전자는 %d 개의 공허의 별을 얻습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -2003,6 +2006,8 @@ t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/spell/necro.lua"
 
+t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락 거린다. 돌출된 수많은 뼈의 손이, 서로 얽히고, 섥혀 뼈로 이루어진 거대한 부속지를 이뤄 흉곽을 지탱하고 있다. 한편, 다른 부속지는 부서지고, 붕괴되고 있다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 한다.", "_t")
+t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#뼈의 공포는 부셔졌지만, 당신은 남은 뼈의 잔재가 다른 해골로 재구성되는것을 보았다!!", "logSeen")
 
 
 ------------------------------------------------
@@ -2204,6 +2209,7 @@ t("#Target# is removed from time!", "#Target1# 시간선에서 지워졌다!", "
 t("+Suspend", "+유보", "_t")
 t("#Target# is returned to normal time.", "#Target1# 시간선으로 돌아왔다.", "_t")
 t("-Suspend", "-유보", "_t")
+t("Jinxed", "불운", "_t")
 t([[The target has %d reduced saves and defense, and %d%% reduced critical chance.
 This effect will fade in 2 turns if the source is not in line of sight.]], [[모든 내성과 회피도 -%d / 치명타 확률 -%d%%.
 이 효과는 효과 부여자의 시선에서 2 턴 동안 사라지면 즉시 중단됨.]], "_t")
@@ -2211,6 +2217,7 @@ t([[The target has %d reduced saves and defense, %d%% reduced critical chance, a
 This effect will fade in 2 turns if the source is not in line of sight.]], [[모든 내성과 회피도 -%d / 치명타 확률 -%d%% / 기술 사용실패 확률 %d%%.
 이 효과는 효과 부여자의 시선에서 2 턴 동안 사라지면 즉시 중단됨.]], "_t")
 t("Fortune", "행운", "_t")
+t("The target has %d increased saves and defense, and %d%% increased critical chance.", "모든 내성과 회피도 +%d / 치명타 확률 +%d%%", "_t")
 t("The target has %d increased saves and defense, %d%% increased critical chance, and %d%% chance to avoid all damage.", "모든 내성, 회피도 +%d / 치명타 확률 +%d%%  / 피해 무효화 확률 +%d%%.", "_t")
 t("%d Jinx", "불운 %d 중첩", "tformat")
 t("Unravelling", "존재 해체", "_t")

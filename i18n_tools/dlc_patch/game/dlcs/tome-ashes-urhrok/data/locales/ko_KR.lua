@@ -108,8 +108,22 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		암흑, 화염, 황폐 또는 산성 피해를 가할 때 마다, 최대 %d 번 중첩되는 저주를 겁니다. (이 효과는 하나의 적에게 한 턴에 한 번 적용됩니다.)
 		적을 죽이고 얻는 원기 획득량이, 적에게 적용된 암울한 결과 중첩마다 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat")
+t("Weakened Soul", "약해진 영혼", "talent name")
+t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, dealing 2%% less damage.", "최대 %d 체의, 암울한 결과를 적용 받은 적이 약해져, 암울한 결과 중첩마다 2%% 감소한 피해를 가합니다.", "tformat")
 t("Grim Future", "음침한 미래", "talent name")
+t([[The future looks grim indeed... for your foes.
+		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
+		While powered-up you can not apply new Bleak Outcome stacks.		
+		Damage is based on your Spellpower.]], [[미래는 확실히 어둡습니다... 적들에게 말이죠...
+		암울한 결과가 적용된 적을 지정하여, 최대 %s 중첩을 소모해, 소모된 중첩 당 %0.2f 암흑 피해를 주고, 시전자의 주문력이 6 턴 동안 4 증가합니다.
+		지속 시간 동안, 암울한 결과 중첩을 쌓을 수 없습니다.		
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Ominous Shadow", "불길한 그림자", "talent name")
+t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you turn into an Ominous Shadow for one turn per stack.
+		While transformed you are invisible (power %d), convert 100%% of all damage done to darkness and gain darkness resistance penetration and damage increase equal to your highest.
+		While transformed you can not apply new Bleak Outcome stacks.]], [[대상에게서 최대 %d 중첩의 암울한 결과 중첩을 흡수해, 중첩 당 1 턴 동안 유지되는 불길한 그림자로 변신합니다.
+		지속시간 동안 시전자는 투명 상태이며, (위력 %d), 모든 피해를 어둠 속성으로 가하고, 시전자의 모든 저항 관통과 모든 속성 피해량 변동치 중 가장 높은 값을 적용하여 피해를 계산합니다.
+		While transformed you can not apply new Bleak Outcome stacks.]], "tformat")
 
 
 ------------------------------------------------
@@ -258,6 +272,28 @@ t("Armoured Leviathan", "중무장한 괴수", "talent name")
 t([[You enchant your shield to grant you power for %d turns.
 		While the effect last your Strength and Magic stats are increased by 10%% of your shield block value.]], [[방패를 강화해 시전자는 막강한 힘을 %d 턴 동안 누립니다.
 		지속시간 동안 방패 막기 수치의 10%% 에 해당하는 수치만큼 힘과 마법이 증가합니다.]], "tformat")
+t("Flash Block", "섬광의 방어", "talent name")
+t("In a fiery display of speed you raise your shield to block instantly.", "불같이 빠른 속도로 방패를 들어, 피해를 막아냅니다.", "tformat")
+t("Blackice", "검은 얼음", "talent name")
+t([[Each time your kill a creature with non-fire damage you gain a blackice charge for 20 turns (stacking to %d).
+		At any moment you can use a charge to infect a creature with blackice, reducing its fire and physical resistance by %d%% for 7 turns.]], [[화염이 아닌 피해로 적을 쓰러뜨리면, 20 턴 동안 지속되는 검은 얼음 중첩을 얻습니다. (최대 %d 번 중첩됩니다)
+		언제라도 중첩을 이용하여 검은 얼음을 적용할 수 있습니다. 검은 얼음은 7 턴 동안 화염과 물리 저항을 %d%% 감소시킵니다.]], "tformat")
+t("Doomfire", "파멸의 불", "talent name")
+t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
+		Demons standing in the doomfire will instead be healed.
+		The damage will increase with your Spellpower.]], [[맹렬한 불길로, 적과 아군 모두를 태웁니다. 반경 %d 칸 범위에 %d 턴 동안 %0.2f 화염 피해를 매 턴 줍니다.
+		파멸의 불에 영향을 받는 악마는 피해를 입는 대신 생명력이 회복됩니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,3,1})
+t("Pain Affinity", "고통 친화", "talent name")
+t([[Whenever you take blight damage you bask in the sweet pain for 2 turns, increasing all damage affinity by 15%%.
+		This can only happen every %d turns.]], [[황폐 피해를 입으면, 달콤한 고통을 2 턴간 만끽합니다. 모든 속성에 대한 친화가 15%% 상승합니다.
+		이 효과는 매 %d 턴 마다 일어납니다.]], "tformat")
+t("Hexed Shield", "비술 방패", "talent name")
+t("Cursed Arm", "저주받은 팔", "talent name")
+t([[Whenever make a melee attack, you have a %d%% chance to randomly curse the target with one of the curses: Defenselessness, Impotence, Death or Vulnerability as if cast at talent level %d.
+		This may only happen once per turn.]], [[근접 공격을 가할 때, %d%% 확률로 무방비의 저주, 무기력의 저주, 죽음의 저주, 취약의 저주 중 하나를 겁니다. 이로 인해 발동되는 비술은 기술 레벨 %d 입니다.
+		이 효과는 한 턴에 1 번만 발생합니다.]], "tformat")
+t("Doom Storm", "파멸의 폭풍", "talent name")
 t("firestorm", "화염 폭풍", "_t")
 t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
 		You closely control the firestorm, preventing it from harming your party members.
@@ -285,6 +321,7 @@ t([[Deal a blight-enhanced melee blow, dealing %d%% blight damage.
 		]], [[황폐의 힘이 담긴 근접 공격을 가해, %d%% 황폐 피해를 줍니다.
 		공격이 명중하고, 대상이 2 턴 이내에 쓰러질 시, 정수를 먹어치워, 다음 %d 턴 동안 원기를 7 매 턴 회복하고, 40%% 확률로 받은 공격을 무효화합니다.
 		]], "tformat")
+t("Meteor Slam", "운석 강타", "talent name")
 t("You require a weapon and a shield to use this talent.", "방패와 근접무기 없이 이 기술을 사용할 수 없다.", "logPlayer")
 t("You cannot use Meteor Slam without a shield!", "방패 없이 운석 강타를 사용할 수 없다!", "logPlayer")
 t([[Using demonic forces you jump high in the sky and fall down on your target as a meteor, slamming the ground with your shield.
@@ -562,9 +599,10 @@ t("Fiery Aegis", "불타는 아이기스", "talent name")
 t([[Draw in the raging fires and envelop yourself in them. Remove all burns from enemies in a radius of 5 around you, and create a shield lasting %d turns with a power of %d, increased by 15%% for each burn removed.
 		When the shield ends, it releases a burst of fire in a radius of %d around you, burning all enemies for 3 turns, doing damage equal to the initial power of the shield.]], [[격렬한 화염을 끌어내, 시전자 주위에 두릅니다. 시전자를 기준으로, 반경 5 칸 이내의 모든 화상 효과를 제거하는 대신, %d 턴 동안 유지되는 %d 위력의 보호막을 생성합니다. 보호막은 제거된 화상 효과 하나 당 15%% 씩 강력해집니다.
 		보호막이 사라지면, 시전자를 기준으로 반경 %d 칸 내에 화염 폭발을 일으켜, 모든 적에게 3 턴 동안 지속되는 화상을 입힙니다. 피해량온 보호막의 기본 위력과 같습니다.]], "tformat")
+t("Devouring Flames", "집어 삼키는 화염", "talent name")
 t([[Your connection to fire nourishes you. Whenever you strike an enemy in melee, you inflict a burning curse upon them. As long as they continue to burn, you gain %0.2f health and %0.2f vim per turn.
 		Each turn they remain within 10 spaces of you, all enemies with cursed flames will spread it to other burning enemies in radius 1, causing you to heal for the same amount for each enemy, as well as dealing %d fire damage on spreading.]], [[화염과의 연결을 이용해 힘을 취합니다. 적에게 근접 공격을 가할 때, 적에게 불타는 저주를 내립니다. 적이 화염으로 고통받는 동안 시전자는 생명력 %0.2f 과 원기 %0.2f 를 회복합니다.
-		대상이 시전자를 기준으로 반경 10 칸 내에 머물러 있을 떄, 저주받은 화염을 반경 1 칸 내의 화상의 효과를 받은 다른 적에게 퍼뜨립니다. 이 때, 시전자는 영향을 받은 적마다 같은 수치의 생명력을 회복합니다. 저주받은 화염이 퍼저나갈 때, %d 화염 피해를 가합니다.]], "tformat")
+		대상이 시전자를 기준으로 반경 10 칸 내에 머물러 있을 때, 저주받은 화염을 반경 1 칸 내의 화상의 효과를 받은 다른 적에게 퍼뜨립니다. 이 때, 시전자는 영향을 받은 적마다 같은 수치의 생명력을 회복합니다. 저주받은 화염이 퍼저나갈 때, %d 화염 피해를 가합니다.]], "tformat")
 t("Blazing Rebirth", "불사르는 부활", "talent name")
 t("Restore yourself to full health, but take damage equal to the damage healed over %d turns. This damage is split evenly among you and all burning enemies in radius %d. Damage you take is irresistable. Damage to enemies is fire damage.", "최대 생명력으로 회복되는 대신, 회복된 수치만큼 %d 턴에 걸쳐 피해를 받습니다. 이 피해는 반경 %d 칸 내의 모든 화상의 효과를 받은 적과 나눠집니다. 시전자가 받는 피해는 저항이 불가능하며, 적에게 가하는 피해는 화염 속성을 가집니다.", "tformat")
 
@@ -635,7 +673,7 @@ t([[Your successful melee hits apply a stacking effect that decreases damage don
 		]], [[근접 공격을 명중시키면, 피해량을 %d%% 감소시키는 중첩형 효과를 적에게 적용합니다.
 		한 대상 당 %d 중첩을 쌓을 수 있고, 중첩을 쌓을 때 마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면, 이 효과는 즉시 사라집니다.
 		기술 레벨 3 일 때, 중첩 당 %0.2f%% 의 감속을 적용합니다.
-		기술 레벨 5 일 떄, 반경 %d 칸 내의 적을 두려움에 떨게합니다.
+		기술 레벨 5 일 때, 반경 %d 칸 내의 적을 두려움에 떨게합니다.
 		This talent ignores saves and immunities.
 		]], "tformat")
 t("Mass Hysteria", "집단 히스테리", "talent name")
@@ -643,7 +681,7 @@ t("Amplifies the power of your fear on the target by %d%% per stack and sets its
 t("Fearfeast", "공포 포식", "talent name")
 t("You gain %.1f turns!", "당신은 %.1f 턴을 획득했다!", "logPlayer")
 t("You consume the fear of enemies in radius %d, healing for %d life and gaining %0.1f%% of a turn for each stack up to a max of %.1f turns.", "반경 %d 칸 내의 적들의 공포를 삼켜, 생명력을 %d 회복하고, 중첩 당 %0.1f%% 턴을 획득합니다. 최대 %.1f 턴을 획득할 수 있습니다.", "tformat")
-t("Hope Wanes", "흩어지느 희망", "talent name")
+t("Hope Wanes", "흩어지는 희망", "talent name")
 t([[You crush the spirit of a target with at least %d fear stacks, consuming all stacks and making it unable to act for %d turns.
 		This talent ignores saves and immunities.]], [[적어도 %d 중첩 이상을 가진 적의 영혼을 파쇄합니다. 모든 중첩이 소모되고, %d 턴 동안 행동할 수 없게합니다.
 		이 기술은 모든 내성과 면역을 무시합니다.]], "tformat")
@@ -707,6 +745,9 @@ t([[Hits the target with your weapon doing %d%% weapon damage. If the attack hit
 		효과로 인해 받게되는 피해량은 주문력에 비례하여 증가합니다.
 		이 기술은 악마들에게 있어, 공포의 영역의 화염으로 취급됩니다.]], "tformat")
 t("Eternal Suffering", "영원한 고통", "talent name")
+t([[Your strikes are imbued with a vile power that extends your victim's suffering. When hitting in melee, you have a (%d%%) chance to extend the length of all negative effects and reduce the length of all positive effects on the target by %d turn(s).
+		This can only trigger on any particular target once every 6 turns.]], [[공격에 끔찍한 힘을 담아 희생양의 고통을 연장합니다. 근접 공격 시, %d%% 확률로 대상의 모든 부정적인 효과와 모든 이로운 효과를 %d 턴 연장 / 단축 합니다.
+		이 효과는 하나의 대상에 대해 6 턴 마다 1 번 씩 발동합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -720,6 +761,7 @@ t([[Swing your weapon with incredible force, striking all enemies in a radius %d
 		기술 레벨 5 일 때, 공격받은 모든 적의 방어력과 내성이 %d 감소합니다.
 		이 공격은 반드시 명중합니다.]], "tformat")
 t("Detonating Charge", "격발의 돌진", "talent name")
+t("You require a two handed weapon and being able to move to use this talent.", "이 기술을 사용하기 위해서는, 양손 무기를 장착하고, 이동이 가능하여야 한다.", "logPlayer")
 t("You can not do that currently.", "현재 그것을 할 수 없다.", "logPlayer")
 t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
 t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
@@ -781,12 +823,12 @@ t([[Your original invisibility talent was corrupted and twisted.
 		- any non mind and non physical damage you deal above %d triggers a darkness explosion of radius 1 for half the damage (this can only happen once per turn)
 		- when you transform the cooldowns of Haste of the Doomed and Pitiless are reset
 		]], [[원래 갖고있던 투명화 기술이 뒤틀리고, 타락되었습니다.
-		최대 생명력의 10%% 이상의 피해를 한 번에 받았을 떄, %d%% 확률로 5 턴 동안 듀아세들렌으로 변신합니다
-		이 떄 다음과 같은 효과를 받습니다.
+		최대 생명력의 10%% 이상의 피해를 한 번에 받았을 때, %d%% 확률로 5 턴 동안 듀아세들렌으로 변신합니다
+		이 때 다음과 같은 효과를 받습니다.
 		- 영구적인 은신. (은신력 %d)
 		- 암흑 피해량이 %d%% 증가합니다.
 		- 피해량 %d 이상의 비정신적, 비물리적 피해가 반경 1 칸의 폭발을 일으켜, 폭발에 휩쓸린 적에게 절반의 피해를 줍니다. (이 효과는 한 턴에 1 번만 발동됩니다)
-		- 변신할 떄, 몰락한 자의 재빠름과 냉혹함의 재사용 대기시간이 초기화됩니다.
+		- 변신할 때, 몰락한 자의 재빠름과 냉혹함의 재사용 대기시간이 초기화됩니다.
 		]], "tformat")
 t("Pitiless", "냉혹함", "talent name")
 t([[You launch a mental assault on the target.
@@ -810,7 +852,7 @@ t("+Shield", "+보호막", "_t")
 t("A shield forms around #target#.", "#target2# 주위에 마력의 보호막을 형성했다.", "_t")
 t("-Shield", "-보호막", "_t")
 t("The shield around #target# crumbles.", "#target#의 보호막이 부셔졌다.", "_t")
-t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 분해됨)#LAST#", "tformat")
+t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부셔졌다!", "logPlayer")
 t("Surge of Power", "힘의 쇄도", "_t")
 t("Demon Seed", "악마의 씨앗", "_t")
@@ -839,6 +881,7 @@ t("Shattered Mind", "파괴된 정신", "_t")
 t("spellblaze", "마법폭발", "effect subtype")
 t("Dark Reign", "어둠의 지배", "_t")
 t("Blood Pact", "피의 계약", "_t")
+t("Blackice", "검은 얼음", "_t")
 t("cold", "냉기", "effect subtype")
 t("Bleak Outcome", "암울한 결과", "_t")
 t("none", "없음", "_t")
@@ -846,6 +889,7 @@ t("curse", "저주", "effect subtype")
 t("vim", "원기", "effect subtype")
 t("Grim Future", "음침한 미래", "_t")
 t("Blood Drinker", "피를 마시는 자", "_t")
+t("Pain Affinity", "고통 친화", "_t")
 t("Ominous Shadow", "불길한 그림자", "_t")
 t("#Target# vanishes from sight.", "#Target1# 시야에서 사라졌다.", "_t")
 t("#Target# is no longer invisible.", "#Target2# 다시 불투명해졌다.", "_t")

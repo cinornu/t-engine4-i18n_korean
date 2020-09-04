@@ -76,11 +76,13 @@ section "game/dlcs/tome-orcs/data/birth/worlds.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/aaa.lua"
 
+t("[leave]", "[떠난다]", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/aaf.lua"
 
+t("[leave]", "[떠난다]", "_t")
 
 
 ------------------------------------------------
@@ -91,6 +93,7 @@ section "game/dlcs/tome-orcs/data/chats/destructicus-lead.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/destructicus.lua"
 
+t("[leave]", "[떠난다]", "_t")
 
 
 ------------------------------------------------
@@ -137,6 +140,7 @@ section "game/dlcs/tome-orcs/data/chats/shertul-priest.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/weissi-machine.lua"
 
+t("[leave]", "[떠난다]", "_t")
 t("Talents", "기술", "_t")
 t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
 
@@ -609,6 +613,7 @@ section "game/dlcs/tome-orcs/data/lore/krimbul.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/misc.lua"
 
+t("var'eyal", "바르'에이알", "newLore category")
 
 
 ------------------------------------------------
@@ -662,6 +667,7 @@ section "game/dlcs/tome-orcs/data/lore/yeti.lua"
 section "game/dlcs/tome-orcs/data/maps/zones/worldmap.lua"
 
 t("Far East", "동쪽 대륙", "_t")
+t("Var'Eyal", "바르'에이알", "_t")
 
 
 ------------------------------------------------
@@ -1048,7 +1054,7 @@ t([[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
 		Only usable when you have the death momentum effect.
 		The damage scales with your Magic stat.]], [[어둠의 파장를 적에게 내보내, %0.2f 어둠 피해를 줍니다.
 		이 어둠은 적의 생명 정수 일부분을 흡수하여 죽음의 기세의 지속시간을 %d 턴 증가시킵니다. (이 효과는 살아있는 생명체에게만 영향을 미칩니다) 이 기술을 발동하면, 죽음의 기세의 중첩을 하나 잃습니다.
-		이 기술은 죽음의 기세의 효과를 받고있을 떄만 사용 가능합니다.
+		이 기술은 죽음의 기세의 효과를 받고있을 때만 사용 가능합니다.
 		피해량은 마법에 비례하여 증가합니다.]], "tformat")
 
 
@@ -1135,7 +1141,7 @@ t([[You concentrate your will to psychoport some of the steam of your generator 
 		폭발은 %0.2f 화염 피해를 입히고, 매 중첩 당 피해량이 상승하지만, 중첩으로 인한 피해량 증가는 점점 감쇠됩니다. 1 중첩 시 피해량은 33%% 상승합니다. 폭발에 휘말린 적은 젖음 상태가 됩니다.
 		비활성화 시, 해당 지역에 누군가 있는 경우, 또는 시야 밖에 있을 경우 기술이 실패합니다.
 		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Inhale Vapours", "증기흡입", "talent name")
+t("Inhale Vapours", "증기 흡입", "talent name")
 t([[When you deactivate Vaporous Step, if the psychoport succeeds you inhale some of the vapours, regenerating %d steam and %d life.
 		The effects will be multiplied by 33%% (diminutive) for each charge of Vaporous Step.
 		The healing done will increase with your Mindpower.]], [[증기 걸음을 비활성화하여 정신 이동에 성공하면, 중첩된 증기의 일부를 들이마셔 증기를 %d 회복하고, 생명력을 %d 회복합니다.
@@ -1146,6 +1152,7 @@ t([[Using the steam of your generators you shape it into a psionic fog that last
 		The damage will increase with your Mindpower.]], [[증기 발생기의 증기를 일부 사용해, 초능력 안개로 다시 빛어냅니다. 안개는 %d 턴 동안 지속됩니다. 안개 내의 모든 적은 매 턴 %0.2f 피해를 받고 증기에 데여, 화염 저항력이 %d%% 감소하고, 정신 내성이 %d 감소됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Uncertainty Principle", "불확실성 원리", "talent name")
+t("#STEEL_BLUE#(%d quantum shifted)#LAST#", "#STEEL_BLUE#(%d 양자 왜곡)#LAST#", "tformat")
 t([[While inside a psionic fog the quantum state of space is warped by your powerful tech-augmented psionic powers.
 		When you would get hit you instead find yourself in an adjacent location.
 		This effect has a cooldown.]], [[초능력 안개에 있을 때, 강력한 기술 강화 초능력으로 인해 공간의 양자 상태가 왜곡됩니다.
@@ -1503,6 +1510,7 @@ t([[Your cloak is lined with an automated health system that activate when no en
 		기술 레벨 3 일 때, 하나의 부정적인 물리 효과를 제거합니다.
 		시스템은 매 %d 턴마다 1 번씩 활성화됩니다.]], "tformat")
 t("Cloaking Device", "은폐 장치", "talent name")
+t("You require a cloak to use this talent.", "이 기술을 사용하기 위해서는 망토를 장착해야 한다.", "logPlayer")
 t([[Trigger an array of small mirrors to appear all over your cloak.
 		The mirrors are positioned to reflect all light shining on you, granting %d stealth power for 10 turns.
 		Stealth power increases with your steampower.]], [[장치를 가동해, 수 많은 작은 거울들을 망토 위에 배열합니다.
@@ -1762,6 +1770,7 @@ t([[You load advanced grenades into your launcher.
 	추가로, 시전자의 포탑이 파괴될 때 폭발을 일으켜, %0.2f 물리 피해를 반경 3 칸 범위에 일으킵니다.
 	한번에 하나의 수류탄만을 선택할 수 있습니다.]], "tformat")
 t("Barrage", "수류탄 세례", "talent name")
+t("You require a steamgun and an empty grenade launcher for this talent.", "이 기술을 사용하기 위해서는 총기와 비어있는 수류탄 발사기가 필요하다.", "logPlayer")
 t([[You load a magazine of %d grenades into your launcher, causing your next %d shots to fire a random grenade type in place of your usual Grenade Launcher, dealing 50%% of the usual grenade damage.
 		While the magazine is loaded your attack speed is increased by %d%%.
 		Your Grenade Launcher talent must be on cooldown to use this talent, and the magazine will only last for 6 turns.]], [[%d 개 들이의 수류탄 다발을 장전해, 다음 %d 발의 사격에 시전자가 선택한 수류탄 대신, 무작위한 종류의 강화 수류탄을 추가로 발사합니다. 이 수류탄들은 평상 시보다 50%% 낮은 피해량을 갖습니다.
@@ -1979,10 +1988,11 @@ t([[You have learned to fire while moving.
 		이동 사격이 끝나면 %d - %d 탄환을 장전합니다. (장전량은 이동 사격을 사용한 횟수와 최대 탄약 소지량에 비례합니다)]], "tformat")
 t("Startling Shot", "경고 사격", "talent name")
 t("Something", "무엇인가", "_t")
+t("%s misses %s shot.", "%s %s 사격을 빗맞췄다.", "logSeen", {"가"})
 t([[You deliberately fire a missing shot at a target, startling it for 3 turns.
 		If the target fails a mental save it instinctively recoils two steps back.
 		The next shot that hits the startled creature will deal %d%% more damage.]], [[총알을 빗나가게끔 발사해, 대상을 3 턴 동안 소극적으로 만듭니다.
-		대상이 정신 내성 판정에 실패할 경우, 본능적으로 2 칸 물러서게 됩니다. two steps back.
+		대상이 정신 내성 판정에 실패할 경우, 본능적으로 2 칸 물러서게 됩니다.
 		기술 사용 이후, 소극적인 대상에게 가하는 다음번 사격의 피해량이 %d%% 증가합니다.]], "tformat")
 t("#Source# fires a retaliatory shot at #Target#!", "#Source1# #Target#에게 보복 사격을 가했다!", "logCombat")
 t("Evasive Shots", "회피 사격", "talent name")
@@ -2024,6 +2034,7 @@ t([[You gain the ability to equip one of 3 heavy weapons listed below, temporari
 		일반 총기로 사격 시, 중화기를 즉시 장착 해제합니다.
 		]], "tformat")
 t("Flamethrower", "화염 방사기", "talent name")
+t("You require heavy ammunition to use this talent.", "이 기술을 사용하기 위해서는 중화기 탄약이 필요하다.", "logPlayer")
 t([[You replace your steamgun and attack with an incendiary device that projects streams of liquid flame at your foes.
 		
 		Deals %d%% steamgun damage as fire over 3 turns to enemies in radius 5.
@@ -2034,6 +2045,7 @@ t([[You replace your steamgun and attack with an incendiary device that projects
 
 		화염 방사기는 방어력을 무시하며, 반드시 명중합니다.]], "tformat")
 t("Flame Jet", "화염 방사", "talent name")
+t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
 t("You require heavy ammunition to fire your flamethrower.", "화염 방사기를 사용하기 위해서는 중화기 탄환이 필요하다.", "logPlayer")
 t("Fire a jet of flame, dealing %d%% weapon damage as fire over 3 turns.", "화염을 쏘아내, 3 턴에 걸쳐 %d%% 무기 피해를 화염 속성으로 가합니다.", "tformat")
 t("Shockstaff", "감전 지팡이", "talent name")
@@ -2536,6 +2548,7 @@ t([[You fire a special corrosive shot with your steamgun(s) at a target for %d%%
 		부식 위력은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Toxic Shell", "맹독 포탄", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
+t("%s resists the toxin!", "%s 맹독에 저항한다!", "logSeen", nil, {"는"})
 t([[You fire a special toxic shot with your steamgun(s) at a target for 100%% weapon damage as blight.
 		The shot will release heavy metals into the target, inflicting %0.2f blight damage per turn and reducing their global speed by %d%% for %d turns.
 		This talent does not use ammo as it is the ammo.
@@ -2625,6 +2638,7 @@ t([[Attach a psionic steam device to a shot doing %d%% weapon damage.
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/sawmaiming.lua"
 
+t("To The Arms", "사지 손상", "talent name")
 t([[Hits the target on the arms with one rotating saw doing %d%% damage and trying to maim it for %d turns.
 		Maimed foes deal %d%% less damage.
 		The chance improves with your Physical power.
@@ -2764,6 +2778,7 @@ t("By using a direct psionic link to your body you can use even more therapeutic
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/turrets.lua"
 
+t("Deploy Turret", "포탑 설치", "talent name")
 t([[You are able to deploy turrets, stationary constructs that defend you in combat. Turrets last 10 turns, have a 20 turn cooldown, and deploying a turret places the others on a 5 turn cooldown.
 You learn new turrets as you invest in this talent.
 
@@ -2846,6 +2861,22 @@ t([[When your life dips below 50%% of your total life an automated process turns
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/cun.lua"
 
+t("Master of Disasters", "재앙의 주인", "talent name")
+t([[You are adept at wreaking havoc onto your foes!
+		Any time you deal damage to a creature you apply the Incoming Disasters effect for 20 turns.
+		Each time you (or any others) would try to apply a cross-tier effect to this creature, you also try to apply the other two.
+		In addition your physical, steam, spell and mind powers are increased by %d.
+		The powers increase scales of your Cunning.]], [[능숙하게 혼란을 몰고올 수 있게되었습니다.
+		피해를 가할 때 마다, 공격한 대상에게 20 턴 동안 다가오는 재앙 효과가 적용됩니다.
+		시전자가 (또는 그 밖의 개체들) 이 개체에게 압도 효과를 적용하려 할 때 마다, 다른 두 압도 효과까지 같이 걸어버립니다.
+		추가로 물리력, 증기력, 주문력, 정신력이 %d 증가합니다.
+		위력은 교활에 비례하여 증가합니다.]], "tformat")
+t("Quaffed the Blood of Undeath, not already undead and not antimagic.", "불사의 피를 마시고, 현재 언데드가 아니며, 반마법 추종자가 아닐것.", "_t")
+t([[#GREY#Applying you cunning plans, you escape death by turning to undeath in an instant!
+
+#{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#자신을 위한 교활한 계획을 새워, 언데드로 변해 죽음에게서 벗어납니다!
+
+#{italic}#지금 당신이 적용한 외형은 이후에 변경할 수 없습니다.]], "_t")
 t("Rak'Shor's Cunning", "락쇼르의 비술", "_t")
 t("Cosmetic Options", "치장 옵션", "_t")
 t("Customize Appearance", "외형 변경", "_t")
@@ -2859,8 +2890,8 @@ t([[Set up some cunning contingency plans in case of death.
 		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[만에 하나, 죽게될 때를 위한 계획을 세워둡니다.
 		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게됩니다. 캐릭터는 구울이나 스켈레톤 종족 중 하나를 선택하여 해당 종족으로 다시 부활합니다.
 		이 특수 기술로 소생할 시, 종족 기술을 유지한 채로, 구울과 스켈레톤의 종족 기술을 배울 수 있게됩니다. 모든 스켈레톤, 구울 기술은 2 점씩 투자가 된 상태입니다.
-		As undead will not able to use infusions anymore.
-		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], "tformat")
+		언데드는 주입물을 사용하지 못하기 때문에, 세겨져있던 주입물들이 사라지게 됩니다.
+		만일 스켈레톤을 선택한 경우, 재구성 기술을 배워도 부활은 불가능 합니다.]], "tformat")
 t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때 마다, 증기 공학 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 1 턴 단축시킵니다.", "_t")
 
 
@@ -2887,7 +2918,7 @@ t("Any spell damage you deal to it will ripple around in radius 4 as 160% arcane
 t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
 		When you cast a spell that damages the drone it will ripple the damage as 160%% arcane damage of the initial hit in radius 4.]], [[3 턴 동안 유지되는 비전 증폭 드론을 대상 위치에 생성합니다.
 		드론에 주문 피해를 가할 시, 드론에게 가해진 주문 피해의 160% 비전 피해를 입히는 반경 4 칸의 폭발을 일으킵니다.]], "tformat")
-t("Unlocked the Technomancer evolution", "마도공학자 직업 진화", "_t")
+t("Unlocked the Technomancer evolution", "마도공학자 직업 진화 해금", "_t")
 t("Occult Technomancy", "비술 마도공학", "_t")
 t("These talents focus on arcane and temporal damage, using a super-spinned steamsaw to rip holes in reality.", "이 기술들은 비전과 시간 속성에 집중합니다. 초고속으로 회전하는 증기톱을 이용해 현실 구조를 찢어 구멍을 냅니다.", "_t")
 t("Galvanic Technomancy", "전열 마도공학", "_t")
@@ -3081,6 +3112,7 @@ t("#Target# starts to bleed.", "#Target1# 피를 흘리기 시작한다.", "_t")
 t("+Bleeds", "+출혈", "_t")
 t("#Target# stops bleeding.", "#Target#의 피가 멎었다.", "_t")
 t("-Bleeds", "-출혈", "_t")
+t("To The Arms", "사지 손상", "_t")
 t("maimed", "고통받아", "effect subtype")
 t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "매 턴 마다 산성 피해 %0.2f.", "tformat")
 t("#Target# is covered in acid!", "#Target2# 고통의 부식에 휩쌓였다!", "_t")
@@ -3091,7 +3123,7 @@ t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했습니다!#LAST#", "lo
 t("Overclock", "오버클록", "_t")
 t("lightning", "전기", "effect subtype")
 t("shield", "보호막", "effect subtype")
-t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 분해됨)#LAST#", "tformat")
+t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부셔졌다!", "logPlayer")
 t("Hypervision Goggles", "고성능 시야 보안경", "_t")
 t("sense", "감지", "effect subtype")
@@ -3206,6 +3238,7 @@ t("Moss Tread", "이끼 장화", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/wda/orcs.lua"
 
+t("Var'Eyal", "바르'에이알", "_t")
 
 
 ------------------------------------------------
