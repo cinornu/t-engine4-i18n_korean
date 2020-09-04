@@ -45,12 +45,6 @@
 
 "game/engines/default/engine/ActorsSeenDisplay.lua" uueeck 완
 
-"game/modules/tome/data/quests/orc-pride.lua" Highseeker 완
-
-"game/modules/tome/data/quests/paradoxology.lua" Highseeker 완
-
-"game/modules/tome/data/quests/pre-charred-scar.lua" Highseeker 완
-
 "game/modules/tome/data/general/npcs/humanoid_random_boss.lua" beomkki 완
 
 "game/engines/default/engine/Birther.lua" uueeck 완 **
@@ -201,7 +195,17 @@
 "game/modules/tome/data/quests/lost-merchant.lua"
 "game/modules/tome/data/quests/love-melinda.lua"
 "game/modules/tome/data/quests/lumberjack-cursed.lua"
-"game/modules/tome/data/quests/mage-apprentice.lua" Khelerd 완
+"game/modules/tome/data/quests/mage-apprentice.lua"
+"game/modules/tome/data/quests/master-jeweler.lua"
+"game/modules/tome/data/quests/orb-command.lua"
+"game/modules/tome/data/quests/orc-hunt.lua" Khelerd 완
+
+"game/modules/tome/data/quests/orc-pride.lua"
+"game/modules/tome/data/quests/paradoxology.lua"
+"game/modules/tome/data/quests/pre-charred-scar.lua" Highseeker 완
+
+
+
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
