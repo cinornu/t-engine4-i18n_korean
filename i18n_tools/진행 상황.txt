@@ -207,7 +207,17 @@
 "game/modules/tome/data/quests/rel-tunnel.lua"
 "game/modules/tome/data/quests/ring-of-blood.lua"
 "game/modules/tome/data/quests/shertul-fortress.lua"
-"game/modules/tome/data/quests/spydric-infestation.lua" Khelerd 완
+"game/modules/tome/data/quests/spydric-infestation.lua"
+"game/modules/tome/data/quests/staff-absorption.lua"
+"game/modules/tome/data/quests/start-allied.lua"
+"game/modules/tome/data/quests/start-archmage.lua"
+"game/modules/tome/data/quests/start-dwarf.lua"
+"game/modules/tome/data/quests/start-point-zero.lua"
+"game/modules/tome/data/quests/start-shaloren.lua"
+"game/modules/tome/data/quests/start-sunwall.lua"
+"game/modules/tome/data/quests/start-thaloren.lua"
+"game/modules/tome/data/quests/start-undead.lua"
+"game/modules/tome/data/quests/start-yeek.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
