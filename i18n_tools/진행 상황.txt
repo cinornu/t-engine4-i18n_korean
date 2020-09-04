@@ -204,8 +204,8 @@
 "game/modules/tome/data/quests/paradoxology.lua"
 "game/modules/tome/data/quests/pre-charred-scar.lua" Highseeker 완
 
-
-
+"game/modules/tome/data/quests/rel-tunnel.lua"
+"game/modules/tome/data/quests/ring-of-blood.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/quests ---------------------------------
 
