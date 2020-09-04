@@ -173,6 +173,12 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
+------------------------------ 이하 본편 data/chats ---------------------------------
+
+"game/modules/tome/data/chats/alchemist-derth.lua" Khelerd 완
+
+------------------------------ 이상 본편 data/chats ---------------------------------
+
 ------------------------------ 이하 본편 data/quests (완역) ---------------------------------
 
 "game/modules/tome/data/quests/anti-antimagic.lua"
