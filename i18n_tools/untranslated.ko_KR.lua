@@ -4136,19 +4136,8 @@ t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +6 Magic,
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/birth/classes/tinker.lua"
--- 21 entries
-t("Tinkers use steamtech to power their attacks, defenses, ...", "Tinkers use steamtech to power their attacks, defenses, ...", "_t")
-t("%s healing salve", "%s healing salve", "tformat")
-t("%s frost salve", "%s frost salve", "tformat")
+-- 10 entries
 t("simple", "simple", "_t")
-t("A formidable behemoth of war using steamsaws to improve his deadliness.", "A formidable behemoth of war using steamsaws to improve his deadliness.", "_t")
-t("Their most important stats are: Strength and Cunning", "Their most important stats are: Strength and Cunning", "_t")
-t("#GOLD#Life per level:#LIGHT_BLUE# 2", "#GOLD#Life per level:#LIGHT_BLUE# 2", "_t")
-t("A tinker who dual-wields steamguns to great effect.", "A tinker who dual-wields steamguns to great effect.", "_t")
-t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +1 Constitution", "_t")
-t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 Magic, +0 Willpower, +4 Cunning", "_t")
-t("Build, experiment, discover. The path of inventions is never over!", "Build, experiment, discover. The path of inventions is never over!", "_t")
-t("Bend the mind, bend the tech. All around inspire dread.", "Bend the mind, bend the tech. All around inspire dread.", "_t")
 t("Powerful psionics are able to enter a gestalt with steam generators and technology to enhance their own mental prowess.", "Powerful psionics are able to enter a gestalt with steam generators and technology to enhance their own mental prowess.", "_t")
 t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "_t")
 t("Their most important stats are: Cunning, Willpower and Dexterity", "Their most important stats are: Cunning, Willpower and Dexterity", "_t")
@@ -5333,15 +5322,13 @@ t("CLOAK", "CLOAK", "entity on slot")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/therapeutics.lua"
--- 30 entries
+-- 28 entries
 t("amazing", "amazing", "_t")
 t("great", "great", "_t")
 t("simple", "simple", "_t")
-t("%s healing salve", "%s healing salve", "tformat")
 t("heal %d", "heal %d", "_t")
 t("%s pain suppressor salve", "%s pain suppressor salve", "tformat")
 t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "tformat")
-t("%s frost salve", "%s frost salve", "tformat")
 t("remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "tformat")
 t("%s fiery salve", "%s fiery salve", "tformat")
 t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "tformat")
