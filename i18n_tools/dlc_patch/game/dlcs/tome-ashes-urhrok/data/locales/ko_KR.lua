@@ -289,6 +289,9 @@ t([[Whenever you take blight damage you bask in the sweet pain for 2 turns, incr
 		This can only happen every %d turns.]], [[황폐 피해를 입으면, 달콤한 고통을 2 턴간 만끽합니다. 모든 속성에 대한 친화가 15%% 상승합니다.
 		이 효과는 매 %d 턴 마다 일어납니다.]], "tformat")
 t("Hexed Shield", "비술 방패", "talent name")
+t([[Whenever you block an attack with your shield, you randomly hex the attacker with one of the hexes: Pacification, Domination, Burning or Empathic as if cast at talent level %d.
+		This may only happen once per turn.]], [[방패로 공격을 막을 때, 공격자에게 진정의 비술, 화염의 비술, 공감의 비술, 또는 지배의 비술 중 하나를 겁니다. 이로 인해 발동되는 비술은 기술 레벨 %d 입니다.
+		이 효과는 한 턴에 1 번만 발생합니다.]], "tformat")
 t("Cursed Arm", "저주받은 팔", "talent name")
 t([[Whenever make a melee attack, you have a %d%% chance to randomly curse the target with one of the curses: Defenselessness, Impotence, Death or Vulnerability as if cast at talent level %d.
 		This may only happen once per turn.]], [[근접 공격을 가할 때, %d%% 확률로 무방비의 저주, 무기력의 저주, 죽음의 저주, 취약의 저주 중 하나를 겁니다. 이로 인해 발동되는 비술은 기술 레벨 %d 입니다.
@@ -889,6 +892,7 @@ t("curse", "저주", "effect subtype")
 t("vim", "원기", "effect subtype")
 t("Grim Future", "음침한 미래", "_t")
 t("Blood Drinker", "피를 마시는 자", "_t")
+t("death", "죽음", "effect subtype")
 t("Pain Affinity", "고통 친화", "_t")
 t("Ominous Shadow", "불길한 그림자", "_t")
 t("#Target# vanishes from sight.", "#Target1# 시야에서 사라졌다.", "_t")

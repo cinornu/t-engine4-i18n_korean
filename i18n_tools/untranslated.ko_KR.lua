@@ -6,349 +6,15 @@ t("Temporal Locked Vault", "Temporal Locked Vault", "_t")
 
 
 ------------------------------------------------
-section "game/addons/tome-possessors/data/talents/psionic/battle-psionics.lua"
--- 9 entries
-t("You require a mainhand weapon and an offhand mindstar to use this talent.", "You require a mainhand weapon and an offhand mindstar to use this talent.", "logPlayer")
-t("Psionic Disruption", "Psionic Disruption", "talent name")
-t([[You imbue your offhand mindstar with wild psionic forces.
-		While active you gain %d%% more of your mindstar's mindpower and mind critical chance.
-		Each time you make a melee attack you also add a stack of Psionic Disruption to your target.
-		Each stack lasts for %d turns and deals %0.2f mind damage over the duration (max %d stacks).
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[You imbue your offhand mindstar with wild psionic forces.
-		While active you gain %d%% more of your mindstar's mindpower and mind critical chance.
-		Each time you make a melee attack you also add a stack of Psionic Disruption to your target.
-		Each stack lasts for %d turns and deals %0.2f mind damage over the duration (max %d stacks).
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], "tformat")
-t("Shockstar", "Shockstar", "talent name")
-t([[You make a first attack with your mainhand for %d%% weapon damage.
-		If the attack hits the target is distracted and you use that to violently slam your mindstar into it, dealing %d%% damage.
-		The shock is so powerful the target is stunned for %d turns and all creatures around in radius %d are dazed for the same time.
-		The stun and daze duration is dependant on the number of psionic disruption charges on the target, the given number is for 4 charges.
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[You make a first attack with your mainhand for %d%% weapon damage.
-		If the attack hits the target is distracted and you use that to violently slam your mindstar into it, dealing %d%% damage.
-		The shock is so powerful the target is stunned for %d turns and all creatures around in radius %d are dazed for the same time.
-		The stun and daze duration is dependant on the number of psionic disruption charges on the target, the given number is for 4 charges.
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], "tformat")
-t("Dazzling Lights", "Dazzling Lights", "talent name")
-t([[Raising your mindstar in the air you channel a bright flash of light through it. Any creatures in radius %d is blinded for %d turns.
-		If any foe in melee range is blinded by the effect you quickly use that to your advantage by striking them with a blow of your main hand weapon doing %d%% damage.
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[Raising your mindstar in the air you channel a bright flash of light through it. Any creatures in radius %d is blinded for %d turns.
-		If any foe in melee range is blinded by the effect you quickly use that to your advantage by striking them with a blow of your main hand weapon doing %d%% damage.
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], "tformat")
-t("Psionic Block", "Psionic Block", "talent name")
-t([[You concentrate to create a psionic block field all around you for 5 turns.
-		While the effect holds all damage against you have a %d%% chance to be fully ignored.
-		When damage is cancelled you instinctively make a retaliation mind strike against the source, dealing %0.2f mind damage. (The retaliation may only happen 2 times per turn.)
-		]], [[You concentrate to create a psionic block field all around you for 5 turns.
-		While the effect holds all damage against you have a %d%% chance to be fully ignored.
-		When damage is cancelled you instinctively make a retaliation mind strike against the source, dealing %0.2f mind damage. (The retaliation may only happen 2 times per turn.)
-		]], "tformat")
-
-
-------------------------------------------------
-section "game/addons/tome-possessors/data/talents/psionic/body-snatcher.lua"
--- 12 entries
-t("Bodies Reserve", "Bodies Reserve", "talent name")
-t([[Your mind is so powerful it can bend reality, providing you with an extra-natural #{italic}#storage#{normal}# for bodies you snatch.
-		You can store up to %d bodies.]], [[Your mind is so powerful it can bend reality, providing you with an extra-natural #{italic}#storage#{normal}# for bodies you snatch.
-		You can store up to %d bodies.]], "tformat")
-t("Psionic Minion", "Psionic Minion", "talent name")
-t("Not enough space to invoke your minion!", "Not enough space to invoke your minion!", "logPlayer")
-t("%s (Psionic Minion)", "%s (Psionic Minion)", "tformat")
-t([[You imbue a part of your own mind into a body without actually taking its form.
-		The body will work as your minion for %d turns.
-		Psionic minions can not heal in any way.
-		When the effect ends the body is permanently lost.]], [[You imbue a part of your own mind into a body without actually taking its form.
-		The body will work as your minion for %d turns.
-		Psionic minions can not heal in any way.
-		When the effect ends the body is permanently lost.]], "tformat")
-t("Psionic Duplication", "Psionic Duplication", "talent name")
-t([[When you store a body you also store %d more identical copies of it that you can use later.
-		When you store a rare/unique/boss or higher rank creature you only get a third of the uses (but never less than one).]], [[When you store a body you also store %d more identical copies of it that you can use later.
-		When you store a rare/unique/boss or higher rank creature you only get a third of the uses (but never less than one).]], "tformat")
-t("Cannibalize", "Cannibalize", "talent name")
-t("You require need to assume a form first.", "You require need to assume a form first.", "logPlayer")
-t("Rank of body too low.", "Rank of body too low.", "logPlayer")
-t([[When you assume a form you may cannibalize a body in your reserve to replenish your current body.
-		You can only use bodies that are of same or higher rank for the effect to work and each time you heal a body the effect will be reduced by 33%% for that body.
-		Your current body will heal for %d%% of the max life of the cannibalized one and you will also regenerate 50%% of this value as psi.
-		The healing effect is more psionic in nature than a real heal. As such may things that prevent healing will not prevent cannibalize from working.
-		Cannibalize is the only possible way to heal a body.
-		]], [[When you assume a form you may cannibalize a body in your reserve to replenish your current body.
-		You can only use bodies that are of same or higher rank for the effect to work and each time you heal a body the effect will be reduced by 33%% for that body.
-		Your current body will heal for %d%% of the max life of the cannibalized one and you will also regenerate 50%% of this value as psi.
-		The healing effect is more psionic in nature than a real heal. As such may things that prevent healing will not prevent cannibalize from working.
-		Cannibalize is the only possible way to heal a body.
-		]], "tformat")
-
-
-------------------------------------------------
-section "game/addons/tome-possessors/data/talents/psionic/deep-horror.lua"
--- 13 entries
-t("%s resists the mind steal!", "%s resists the mind steal!", "logSeen")
-t("%s has no stealable talents.", "%s has no stealable talents.", "logPlayer")
-t("Choose a talent to steal:", "Choose a talent to steal:", "_t")
-t("Mind Steal", "Mind Steal", "_t")
-t([[Your mere presence is a blight in your foes minds. Using this link you are able to reach out and steal a talent from a target.
-		For %d turns you will be able to use a random active (not passive, not sustained) talent from your target, and they will loose it.
-		You may not steal a talent which you already know.
-		The stolen talent will not use any resources to activate.
-		At level 5 you are able to choose which talent to steal.
-		The talent stolen will be limited to at most level %d.]], [[Your mere presence is a blight in your foes minds. Using this link you are able to reach out and steal a talent from a target.
-		For %d turns you will be able to use a random active (not passive, not sustained) talent from your target, and they will loose it.
-		You may not steal a talent which you already know.
-		The stolen talent will not use any resources to activate.
-		At level 5 you are able to choose which talent to steal.
-		The talent stolen will be limited to at most level %d.]], "tformat")
-t("Spectral Dash", "Spectral Dash", "talent name")
-t([[For a brief moment your whole body becomes etheral and you dash into a nearby creature and all those in straight line behind it (in range %d).
-		You reappear on the other side, with %d more psi and having dealt %0.2f mind damage to your targets.
-		]], [[For a brief moment your whole body becomes etheral and you dash into a nearby creature and all those in straight line behind it (in range %d).
-		You reappear on the other side, with %d more psi and having dealt %0.2f mind damage to your targets.
-		]], "tformat")
-t("Writhing Psionic Mass", "Writhing Psionic Mass", "talent name")
-t([[Your physical form is but a mere extension of your mind, you can bend it at will for %d turns.
-		While under the effect you gain %d%% all resistances and have %d%% chance to ignore all critical hits.
-		On activation you also remove up to %d physical or mental effects.
-		]], [[Your physical form is but a mere extension of your mind, you can bend it at will for %d turns.
-		While under the effect you gain %d%% all resistances and have %d%% chance to ignore all critical hits.
-		On activation you also remove up to %d physical or mental effects.
-		]], "tformat")
-t("Ominous Form", "Ominous Form", "talent name")
-t("You are already assuming a form.", "You are already assuming a form.", "logPlayer")
-t("%s resists your attack!", "%s resists your attack!", "logPlayer")
-t([[Your psionic powers have no limits. You are now able to assault a target and clone its body without killing it.
-		The form is only temporary, lasting %d turns and subject to the same restrictions as your normal powers.
-		While using a stolen form your health is bound to your target. (Your life%% will always be identical to your target's life%%)
-		]], [[Your psionic powers have no limits. You are now able to assault a target and clone its body without killing it.
-		The form is only temporary, lasting %d turns and subject to the same restrictions as your normal powers.
-		While using a stolen form your health is bound to your target. (Your life%% will always be identical to your target's life%%)
-		]], "tformat")
-
-
-------------------------------------------------
-section "game/addons/tome-possessors/data/talents/psionic/possession.lua"
--- 28 entries
-t("Possession Talent %d", "Possession Talent %d", "tformat")
-t("You must assume a form to use that form's talents.", "You must assume a form to use that form's talents.", "logPlayer")
-t([[When you assume a form, this talent will be replaced with one of the body's talents.
-			The only use for this talent is to pre-organize your hotkeys bar.]], [[When you assume a form, this talent will be replaced with one of the body's talents.
-			The only use for this talent is to pre-organize your hotkeys bar.]], "tformat")
-t("\
-%s%s%d)%s#LAST# (#LIGHT_BLUE#lv %d#LAST#, #LIGHT_RED#HP:%d/%d#LAST#)", "\
-%s%s%d)%s#LAST# (#LIGHT_BLUE#lv %d#LAST#, #LIGHT_RED#HP:%d/%d#LAST#)", "tformat")
-t("Destroy Body", "Destroy Body", "talent name")
-t("You have no stored bodies to delete.", "You have no stored bodies to delete.", "logPlayer")
-t([[Discard a body from your psionic reserve.
-		Bodies possessed:
-		%s]], [[Discard a body from your psionic reserve.
-		Bodies possessed:
-		%s]], "tformat")
-t("Assume Form", "Assume Form", "talent name")
-t("You have no stored bodies to use.", "You have no stored bodies to use.", "logPlayer")
-t("#CRIMSON#A strange feeling comes over you as two words imprint themselves on your mind: '#{italic}#Not yet.#{normal}#'", "#CRIMSON#A strange feeling comes over you as two words imprint themselves on your mind: '#{italic}#Not yet.#{normal}#'", "logPlayer")
-t([[You call upon one of your reserve bodies, assuming its form.
-		A body used this way may not be healed in any way.
-		You can choose to exit the body at any moment by using this talent again, returning it to your reserve as it is.
-		When you reach 0 life you are forced out of it and the shock deals %d%% of the maximum life of your normal body to you while reducing your movement speed by 50%% and your damage by 60%% for 6 turns.
-		The cooldown only starts when you resume your normal form.
-		While in another body all experience you gain still goes to you but will not be applied until you revert back.
-		While in another body your currently equiped objects are #{italic}#merged#{normal}# in you, you can not take them of or wear new ones.
-		Bodies possessed:
-		%s]], [[You call upon one of your reserve bodies, assuming its form.
-		A body used this way may not be healed in any way.
-		You can choose to exit the body at any moment by using this talent again, returning it to your reserve as it is.
-		When you reach 0 life you are forced out of it and the shock deals %d%% of the maximum life of your normal body to you while reducing your movement speed by 50%% and your damage by 60%% for 6 turns.
-		The cooldown only starts when you resume your normal form.
-		While in another body all experience you gain still goes to you but will not be applied until you revert back.
-		While in another body your currently equiped objects are #{italic}#merged#{normal}# in you, you can not take them of or wear new ones.
-		Bodies possessed:
-		%s]], "tformat")
-t("You do not have enough room in your bodies storage.", "You do not have enough room in your bodies storage.", "logPlayer")
-t("This creature is immune to possession.", "This creature is immune to possession.", "logPlayer")
-t("You may not possess a creature which you summoned.", "You may not possess a creature which you summoned.", "logPlayer")
-t("You may not possess a creature which has an expiration time or a master.", "You may not possess a creature which has an expiration time or a master.", "logPlayer")
-t("You may not possess a creature of this rank (%s%s#LAST#).", "You may not possess a creature of this rank (%s%s#LAST#).", "logPlayer")
-t("Permanently learn to possess creatures of type #LIGHT_BLUE#%s#LAST# (you may only do that a few times, based on talent level) ?", "Permanently learn to possess creatures of type #LIGHT_BLUE#%s#LAST# (you may only do that a few times, based on talent level) ?", "tformat")
-t("Possess", "Possess", "_t")
-t("You may not possess this kind of creature.", "You may not possess this kind of creature.", "logPlayer")
-t("You have no more room available to store a new body.", "You have no more room available to store a new body.", "logPlayer")
-t("Your target is dead!", "Your target is dead!", "logPlayer")
-t([[You cast a psionic web at a target that lasts for %d turns. Each turn it deals %0.2f mind damage.
-		If the target dies with the web in place you will capture its body and store it in a hidden psionic reserve.
-		At any further time you can use the Assume Form talent to temporarily shed your own body and assume your new form, strengths and weaknesses both.
-		You may only use this power if you have room for a new body in your storage.
-
-		You may only steal the body of creatures of the following rank %s%s#LAST# or lower.
-		At level 3 up to rank %s%s#LAST#.
-		At level 5 up to rank %s%s#LAST#.
-		At level 7 up to rank %s%s#LAST#.
-
-		You may only steal the body of creatures of the following types: #LIGHT_BLUE#%s#LAST#
-		When you try to possess a creature of a different type you may learn this type permanently, you can do that %d more times.]], [[You cast a psionic web at a target that lasts for %d turns. Each turn it deals %0.2f mind damage.
-		If the target dies with the web in place you will capture its body and store it in a hidden psionic reserve.
-		At any further time you can use the Assume Form talent to temporarily shed your own body and assume your new form, strengths and weaknesses both.
-		You may only use this power if you have room for a new body in your storage.
-
-		You may only steal the body of creatures of the following rank %s%s#LAST# or lower.
-		At level 3 up to rank %s%s#LAST#.
-		At level 5 up to rank %s%s#LAST#.
-		At level 7 up to rank %s%s#LAST#.
-
-		You may only steal the body of creatures of the following types: #LIGHT_BLUE#%s#LAST#
-		When you try to possess a creature of a different type you may learn this type permanently, you can do that %d more times.]], "tformat")
-t("Self Persistence", "Self Persistence", "talent name")
-t("When you assume the form of an other body you can still keep %d%% of the values (defences, crits, powers, save, ...) of your own body.", "When you assume the form of an other body you can still keep %d%% of the values (defences, crits, powers, save, ...) of your own body.", "tformat")
-t("Improved Form", "Improved Form", "talent name")
-t([[When you assume the form of another body you gain %d%% of the values (defences, crits, powers, save, ...) of the body.
-		In addition talents gained from bodies are limited to level %0.1f.]], [[When you assume the form of another body you gain %d%% of the values (defences, crits, powers, save, ...) of the body.
-		In addition talents gained from bodies are limited to level %0.1f.]], "tformat")
-t("Full Control", "Full Control", "talent name")
-t([[When you assume the form of an other body you gain more control over the body:
-		- at level 1 you gain one more talent slot
-		- at level 2 you gain one more talent slot
-		- at level 3 you gain resistances and flat resistances
-		- at level 4 you gain one more talent slot
-		- at level 5 you gain all speeds (only if they are superior to yours)
-		- at level 6+ you gain one more talent slot
-		]], [[When you assume the form of an other body you gain more control over the body:
-		- at level 1 you gain one more talent slot
-		- at level 2 you gain one more talent slot
-		- at level 3 you gain resistances and flat resistances
-		- at level 4 you gain one more talent slot
-		- at level 5 you gain all speeds (only if they are superior to yours)
-		- at level 6+ you gain one more talent slot
-		]], "tformat")
-
-
-------------------------------------------------
-section "game/addons/tome-possessors/data/talents/psionic/psionic-menace.lua"
--- 12 entries
-t("You require two mindstars to use this talent.", "You require two mindstars to use this talent.", "logPlayer")
-t("Mind Whip", "Mind Whip", "talent name")
-t([[You lash out your psionic fury at a distant creature, doing %0.2f mind damage.
-		The whip can cleave to one nearby foe.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[You lash out your psionic fury at a distant creature, doing %0.2f mind damage.
-		The whip can cleave to one nearby foe.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], "tformat")
-t("Psychic Wipe", "Psychic Wipe", "talent name")
-t([[You project ethereal fingers inside the target's brain.
-		Over %d turns it will take %0.2f total mind damage and have its mental save reduced by %d.
-		This powerful effect uses 130%% of your Mindpower to try to overcome your target's initial mental save.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[You project ethereal fingers inside the target's brain.
-		Over %d turns it will take %0.2f total mind damage and have its mental save reduced by %d.
-		This powerful effect uses 130%% of your Mindpower to try to overcome your target's initial mental save.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], "tformat")
-t("Ghastly Wail", "Ghastly Wail", "talent name")
-t([[You let your mental forces go unchecked for an instant. All foes in a radius %d are knocked 3 grids away from you.
-		Creatures that fail a mental save are also dazed for %d turns and take %0.2f mind damage.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[You let your mental forces go unchecked for an instant. All foes in a radius %d are knocked 3 grids away from you.
-		Creatures that fail a mental save are also dazed for %d turns and take %0.2f mind damage.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], "tformat")
-t("Finger of Death", "Finger of Death", "talent name")
-t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "logCombat")
-t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it but has no room to store the body.", "#PURPLE##Source# shatters #Target#'s mind, utterly destroying it but has no room to store the body.", "logCombat")
-t("#CRIMSON#Target is not affected by ghastly wail!", "#CRIMSON#Target is not affected by ghastly wail!", "logPlayer")
-t([[You point your ghastly finger at a foe affected by Ghastly Wail and send a psionic impulse to tell it to simply die.
-		The target will take %d%% of the life it already lost as mind damage.
-		On targets of rank boss or higher the damage is limited to %d.
-		If the target dies from the Finger and is of a type you can already absorb it is directly absorbed into your bodies reserve.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[You point your ghastly finger at a foe affected by Ghastly Wail and send a psionic impulse to tell it to simply die.
-		The target will take %d%% of the life it already lost as mind damage.
-		On targets of rank boss or higher the damage is limited to %d.
-		If the target dies from the Finger and is of a type you can already absorb it is directly absorbed into your bodies reserve.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], "tformat")
-
-
-------------------------------------------------
-section "game/addons/tome-possessors/data/talents/psionic/psionic.lua"
--- 14 entries
-t("Learn to possess the bodies of your foes!", "Learn to possess the bodies of your foes!", "_t")
-t("possession", "possession", "_t")
-t("Manipulate your dead foes bodies for power and success!", "Manipulate your dead foes bodies for power and success!", "_t")
-t("body snatcher", "body snatcher", "_t")
-t("Laught terrible mind attacks to wear down your foes from afar with your double mindstars!", "Laught terrible mind attacks to wear down your foes from afar with your double mindstars!", "_t")
-t("psionic menace", "psionic menace", "_t")
-t("Wield a two handed weapon to channel your psionics into your foes' faces!", "Wield a two handed weapon to channel your psionics into your foes' faces!", "_t")
-t("psychic blows", "psychic blows", "_t")
-t("Dual wield a one handed weapon and a mindstar to assail your enemies's minds and bodies!", "Dual wield a one handed weapon and a mindstar to assail your enemies's minds and bodies!", "_t")
-t("battle psionics", "battle psionics", "_t")
-t("Through your psionic powers you become a nightmare for your foes.", "Through your psionic powers you become a nightmare for your foes.", "_t")
-t("deep horror", "deep horror", "_t")
-t("Your mind hungers for pain and suffering! Feed it!", "Your mind hungers for pain and suffering! Feed it!", "_t")
-t("ravenous mind", "ravenous mind", "_t")
-
-
-------------------------------------------------
-section "game/addons/tome-possessors/data/talents/psionic/psychic-blows.lua"
--- 11 entries
-t("Psychic Crush", "Psychic Crush", "talent name")
-t("%s's Psychic Image", "%s's Psychic Image", "tformat")
-t("#ROYAL_BLUE#%s's psychic imprint appears!", "#ROYAL_BLUE#%s's psychic imprint appears!", "logSeen")
-t("%s resists the psychic blow!", "%s resists the psychic blow!", "logSeen")
-t([[Using both your mind and your arms you propel your two handed weapon to deal a huge strike doing %d%% weapon mind damage.
-		If the blow connects and the target fails a mental save there is %d%% chance that the blow was so powerful it ripped a psychic imprint off the target.
-		It will appear nearby and serve you for %d turns.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[Using both your mind and your arms you propel your two handed weapon to deal a huge strike doing %d%% weapon mind damage.
-		If the blow connects and the target fails a mental save there is %d%% chance that the blow was so powerful it ripped a psychic imprint off the target.
-		It will appear nearby and serve you for %d turns.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], "tformat")
-t("Force Shield", "Force Shield", "talent name")
-t([[You create a psionic shield from your weapon that prevents you from ever taking blows that deal more than %d%% of your maximum life and gives you %d%% evasion.
-		In addition, each time you take a melee hit the attacker automatically takes revenge strike that deals %d%% weapon damage as mind damage. (This effect can only happen once per turn)
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[You create a psionic shield from your weapon that prevents you from ever taking blows that deal more than %d%% of your maximum life and gives you %d%% evasion.
-		In addition, each time you take a melee hit the attacker automatically takes revenge strike that deals %d%% weapon damage as mind damage. (This effect can only happen once per turn)
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], "tformat")
-t("Unleashed Mind", "Unleashed Mind", "talent name")
-t([[You concentrate your powerful psionic powers on your weapon and briefly unleash your fury.
-		All foes in radius %d will take a melee attack dealing %d%% weapon damage as mind damage.
-		Any psionic clones in the radius will have its remaining time extended by %d turns.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[You concentrate your powerful psionic powers on your weapon and briefly unleash your fury.
-		All foes in radius %d will take a melee attack dealing %d%% weapon damage as mind damage.
-		Any psionic clones in the radius will have its remaining time extended by %d turns.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], "tformat")
-t("Seismic Mind", "Seismic Mind", "talent name")
-t([[You shatter your weapon in the ground, projecting a psionic shockwave in a cone of radius %d.
-		Any foes in the area will take %d%% weapon damage as mind damage.
-		Any psionic clones hit will instantly shatter, exploding for %0.2f physical damage in radius 1.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[You shatter your weapon in the ground, projecting a psionic shockwave in a cone of radius %d.
-		Any foes in the area will take %d%% weapon damage as mind damage.
-		Any psionic clones hit will instantly shatter, exploding for %0.2f physical damage in radius 1.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], "tformat")
-
-
-------------------------------------------------
 section "game/addons/tome-possessors/data/talents/psionic/ravenous-mind.lua"
--- 11 entries
-t("Sadist", "Sadist", "talent name")
-t([[You feed on the pain of all foes in sight. For each one of them with life under 80%% you gain a stack of Sadist effect that increases your raw mindpower by %d.
-		]], [[You feed on the pain of all foes in sight. For each one of them with life under 80%% you gain a stack of Sadist effect that increases your raw mindpower by %d.
-		]], "tformat")
-t("Channel Pain", "Channel Pain", "talent name")
-t("#ORANGE#%s channels pain to %s!", "#ORANGE#%s channels pain to %s!", "logSeen")
-t("#ORANGE#%s channels pain!", "#ORANGE#%s channels pain!", "logSeen")
-t([[As long as you have at least a stack of Sadist whenever you take damage you use %d psi to harness your stacks of Sadist to divide the damage by your stacks + 1.
-		Each time this happens a random foe in sight with 80%% or less life left will take a backlash of %d%% of the absorbed damage as mind damage.
-		This effect can only happen once per turn and only triggers for hits over 10%% of your max life.]], [[As long as you have at least a stack of Sadist whenever you take damage you use %d psi to harness your stacks of Sadist to divide the damage by your stacks + 1.
-		Each time this happens a random foe in sight with 80%% or less life left will take a backlash of %d%% of the absorbed damage as mind damage.
-		This effect can only happen once per turn and only triggers for hits over 10%% of your max life.]], "tformat")
-t("Radiate Agony", "Radiate Agony", "talent name")
-t([[As long as you have at least a stack of Sadist you can radiate agony to all those you see in radius %d with 80%% or lower life left.
-		For 5 turns their mind will be so focused on their own pain that they will deal %d%% less damage to you.]], [[As long as you have at least a stack of Sadist you can radiate agony to all those you see in radius %d with 80%% or lower life left.
-		For 5 turns their mind will be so focused on their own pain that they will deal %d%% less damage to you.]], "tformat")
-t("Torture Mind", "Torture Mind", "talent name")
+-- 1 entries
 t("You need a Sadist stack to use this talent.", "You need a Sadist stack to use this talent.", "logPlayer")
-t([[As long as you have at least a stack of Sadist you can mentally lash out at a target, sending horrible images to its mind.
-		The target will reel from the effect for %d turns, rendering %d random talents unusable for the duration.]], [[As long as you have at least a stack of Sadist you can mentally lash out at a target, sending horrible images to its mind.
-		The target will reel from the effect for %d turns, rendering %d random talents unusable for the duration.]], "tformat")
 
 
 ------------------------------------------------
 section "game/addons/tome-possessors/data/timed_effects.lua"
--- 57 entries
-t("Ominous Form", "Ominous Form", "_t")
+-- 44 entries
 t("You stole your current form and share damage and healing with it.", "You stole your current form and share damage and healing with it.", "_t")
-t("Assume Form", "Assume Form", "_t")
 t("You use the body of one of your fallen victims. You can not heal in this form.", "You use the body of one of your fallen victims. You can not heal in this form.", "_t")
 t("#CRIMSON#While you assume a form you may not levelup. All exp gains are delayed and will be granted when you reintegrate your own body.", "#CRIMSON#While you assume a form you may not levelup. All exp gains are delayed and will be granted when you reintegrate your own body.", "_t")
 t("#CRIMSON#Your body died! You quickly return to your normal one but the shock is terrible!", "#CRIMSON#Your body died! You quickly return to your normal one but the shock is terrible!", "say")
@@ -358,42 +24,31 @@ t("The flames surrounding Shasshhiy'Kaish slowly die as she falls to her knees. 
 t("Aeryn's bewildered and terrified cries grow quiet, but...  your ears don't ring or hurt as screams of horror and rage surround you, louder than should be deafening.  When they shift to accusations, an unfamiliar guilt dominates your thoughts; you are forced to abandon your body before it can compel you to punish yourself.", "Aeryn's bewildered and terrified cries grow quiet, but...  your ears don't ring or hurt as screams of horror and rage surround you, louder than should be deafening.  When they shift to accusations, an unfamiliar guilt dominates your thoughts; you are forced to abandon your body before it can compel you to punish yourself.", "_t")
 t("Possession Aftershock", "Possession Aftershock", "_t")
 t("The target is reeling from the aftershock of a destroyed possessed body, reducing damage by 60%%, reducing movement speed by 50%%.", "The target is reeling from the aftershock of a destroyed possessed body, reducing damage by 60%%, reducing movement speed by 50%%.", "tformat")
-t("possession", "possession", "effect subtype")
-t("Possess", "Possess", "_t")
 t("The victim is snared in a psionic web that is destroying its mind and preparing its body for possession.  It takes %0.2f Mind damage per turn.", "The victim is snared in a psionic web that is destroying its mind and preparing its body for possession.  It takes %0.2f Mind damage per turn.", "tformat")
 t("possess", "possess", "effect subtype")
 t("#Target#'s mind is convulsing.", "#Target#'s mind is convulsing.", "_t")
 t("#Target#'s mind is not convulsing anymore.", "#Target#'s mind is not convulsing anymore.", "_t")
 t("#PURPLE##Source# shatters #Target#'s mind and takes possession of its body.", "#PURPLE##Source# shatters #Target#'s mind and takes possession of its body.", "logCombat")
-t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "logCombat")
-t("Psychic Wipe", "Psychic Wipe", "_t")
 t("Ethereal fingers destroy the brain dealing %0.2f mind damage per turn and reducing mental save by %d.", "Ethereal fingers destroy the brain dealing %0.2f mind damage per turn and reducing mental save by %d.", "tformat")
 t("#Target# suddently feels strange in the brain.", "#Target# suddently feels strange in the brain.", "_t")
 t("#Target# feels less strange.", "#Target# feels less strange.", "_t")
-t("Ghastly Wail", "Ghastly Wail", "_t")
 t("%s can not use %s because it was stolen!", "%s can not use %s because it was stolen!", "_t")
-t("Mind Steal", "Mind Steal", "_t")
 t("Stolen talent: %s", "Stolen talent: %s", "tformat")
 t("#Target# stole a talent!", "#Target# stole a talent!", "_t")
 t("#Target# forgot a talent.", "#Target# forgot a talent.", "_t")
-t("Writhing Psionic Mass", "Writhing Psionic Mass", "_t")
 t("All resists increased by %d%%, chance to be crit reduced by %d%%.", "All resists increased by %d%%, chance to be crit reduced by %d%%.", "tformat")
 t("#Target#'s body writhe in psionic energies!", "#Target#'s body writhe in psionic energies!", "_t")
 t("#Target#'s body looks more at rest.", "#Target#'s body looks more at rest.", "_t")
-t("Psionic Disruption", "Psionic Disruption", "_t")
 t("%d stacks. Each stack deals %0.2f mind damage per turn.", "%d stacks. Each stack deals %0.2f mind damage per turn.", "tformat")
 t("#Target# is disprupted by psionic energies!", "#Target# is disprupted by psionic energies!", "_t")
 t("#Target# no longer tormented by psionic energies.", "#Target# no longer tormented by psionic energies.", "_t")
-t("Psionic Block", "Psionic Block", "_t")
 t("%d%% chances to ignore damage and to retaliate with %0.2f mind damage.", "%d%% chances to ignore damage and to retaliate with %0.2f mind damage.", "tformat")
 t("#Target# is protected by a psionic block!", "#Target# is protected by a psionic block!", "_t")
 t("#Target# no longer protected by the psionic block.", "#Target# no longer protected by the psionic block.", "_t")
 t("#ROYAL_BLUE#The attack against %s is cancelled by a psionic block!", "#ROYAL_BLUE#The attack against %s is cancelled by a psionic block!", "logSeen")
-t("Sadist", "Sadist", "_t")
 t("Mindpower (raw) increased by %d.", "Mindpower (raw) increased by %d.", "tformat")
 t("#Target# is empowered by the suffering of others!", "#Target# is empowered by the suffering of others!", "_t")
 t("#Target# is no longer empowered.", "#Target# is no longer empowered.", "_t")
-t("Radiate Agony", "Radiate Agony", "_t")
 t("All damage reduced by %d%%.", "All damage reduced by %d%%.", "tformat")
 t("#Target# focuses on pain!", "#Target# focuses on pain!", "_t")
 t("#Target# is no longer focusing on pain.", "#Target# is no longer focusing on pain.", "_t")
@@ -414,16 +69,13 @@ t("Possessor class.", "Possessor class.", "init.lua description")
 
 ------------------------------------------------
 section "game/addons/tome-possessors/overload/mod/dialogs/AssumeForm.lua"
--- 26 entries
-t("Assume Form", "Assume Form", "_t")
+-- 23 entries
 t("Possess Body", "Possess Body", "_t")
 t("#SLATE##{italic}#Choose which body to assume. Bodies can never be healed and once they reach 0 life they are permanently destroyed.", "#SLATE##{italic}#Choose which body to assume. Bodies can never be healed and once they reach 0 life they are permanently destroyed.", "_t")
 t("Create Minion", "Create Minion", "_t")
 t("#SLATE##{italic}#Choose which body to summon. Once the effect ends the body will be lost.", "#SLATE##{italic}#Choose which body to summon. Once the effect ends the body will be lost.", "_t")
-t("Cannibalize", "Cannibalize", "_t")
 t("Cannibalize Body", "Cannibalize Body", "_t")
 t("#SLATE##{italic}#Choose which body to cannibalize. The whole stack of clones will be destroyed.", "#SLATE##{italic}#Choose which body to cannibalize. The whole stack of clones will be destroyed.", "_t")
-t("Destroy Body", "Destroy Body", "_t")
 t("#SLATE##{italic}#Choose which body to destroy.", "#SLATE##{italic}#Choose which body to destroy.", "_t")
 t("You have no bodies to use.", "You have no bodies to use.", "logPlayer")
 t("Discard Body", "Discard Body", "_t")
@@ -1111,7 +763,7 @@ t("%s (demonic husk)", "%s (demonic husk)", "tformat")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
--- 152 entries
+-- 151 entries
 t("Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "tformat")
 t("demonic", "demonic", "effect subtype")
 t("#Target# imbues its weapon with demonic fire.", "#Target# imbues its weapon with demonic fire.", "_t")
@@ -1250,7 +902,6 @@ t("Victim is tormented with impending death.  When it dies, it will restore to t
 t("Spellpower increased by %d.", "Spellpower increased by %d.", "tformat")
 t("Triggers Blood Drinker if this creature dies.", "Triggers Blood Drinker if this creature dies.", "_t")
 t("%d vim regen and %d%% evasion chance.", "%d vim regen and %d%% evasion chance.", "tformat")
-t("death", "death", "effect subtype")
 t("#Target# is drunk with blood!", "#Target# is drunk with blood!", "_t")
 t("The bloodlust of #target# subsides.", "The bloodlust of #target# subsides.", "_t")
 t("All damage affinity increased by %d%%.", "All damage affinity increased by %d%%.", "tformat")
@@ -11915,79 +11566,6 @@ t("Shortage", "Shortage", "calendar dwarf")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/alchemist-golem.lua"
--- 16 entries
-t("Equipment(%s) <=> Inventory(%s)", "Equipment(%s) <=> Inventory(%s)", "tformat")
-t("Change your golem's name", "Change your golem's name", "_t")
-t("I want to change your equipment.", "I want to change your equipment.", "_t")
-t("I want to change your talents.", "I want to change your talents.", "_t")
-t("I want to change your tactics.", "I want to change your tactics.", "_t")
-t("I want to take direct control.", "I want to take direct control.", "_t")
-t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "log")
-t("Telos the Great and Powerful (reluctant follower of %s)", "Telos the Great and Powerful (reluctant follower of %s)", "tformat")
-t("I want to change your name.", "I want to change your name.", "_t")
-t("How is it that you speak?", "How is it that you speak?", "_t")
-t("I want to change your appearance (one-time only).", "I want to change your appearance (one-time only).", "_t")
-t("Nothing, let's go.", "Nothing, let's go.", "_t")
-t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Though I guess you are making up for it with your golem crafting skills.", "What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Though I guess you are making up for it with your golem crafting skills.", "_t")
-t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "_t")
-t([[I'm a golem. How droll!
-Oh, did you want something?]], [[I'm a golem. How droll!
-Oh, did you want something?]], "_t")
-t([[#LIGHT_GREEN#*The golem talks in a monotonous voice*#WHITE#
-Yes master.]], [[#LIGHT_GREEN#*The golem talks in a monotonous voice*#WHITE#
-Yes master.]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/alchemist-hermit.lua"
--- 29 entries
-t("SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "_t")
-t([[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
-		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], [[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
-		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], "tformat")
-t([[#LIGHT_GREEN#*After a great deal of pounding, a halfling wrapped in charred, smoking robes opens the door. He looks irritated.*#WHITE#
-IT'S NOT ENOUGH THAT I WORK ALL MORNING TO MAKE A POTION THAT ENDS UP NEARLY BLOWING MY ASS OFF, BUT NOW I'VE GOT IDIOTS BEATING DOWN MY DAMNED FRONT DOOR WITH WHAT SOUNDS LIKE A BATTERING RAM, AND YES, I HEARD IT, THOUGH I CAN HARDLY MAKE OUT A BLEEDING THING WITH THESE BLEEDING, CONCUSSED EARS. WHAT DO YOU WANT?]], [[#LIGHT_GREEN#*After a great deal of pounding, a halfling wrapped in charred, smoking robes opens the door. He looks irritated.*#WHITE#
-IT'S NOT ENOUGH THAT I WORK ALL MORNING TO MAKE A POTION THAT ENDS UP NEARLY BLOWING MY ASS OFF, BUT NOW I'VE GOT IDIOTS BEATING DOWN MY DAMNED FRONT DOOR WITH WHAT SOUNDS LIKE A BATTERING RAM, AND YES, I HEARD IT, THOUGH I CAN HARDLY MAKE OUT A BLEEDING THING WITH THESE BLEEDING, CONCUSSED EARS. WHAT DO YOU WANT?]], "_t")
-t("Perhaps there's something that I can help you with.", "Perhaps there's something that I can help you with.", "_t")
-t("SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "_t")
-t("I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "_t")
-t("STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "_t")
-t("HOW CAN I HELP?", "HOW CAN I HELP?", "_t")
-t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "_t")
-t("THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "_t")
-t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "_t")
-t("I'M IN.", "I'M IN.", "_t")
-t("I CANNOT AID YOU AT THIS TIME.", "I CANNOT AID YOU AT THIS TIME.", "_t")
-t([[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
-THE INGREDIENTS TO THESE SUCKERS ARE SORT OF A TRADE SECRET, SO I'LL TELL YOU ABOUT ONE AND WE'LL SEE HOW THAT GOES. OH, AND I'LL MAKE ENOUGH FOR YOU TO HAVE A SWIG WHEN I'M DONE, SO GOOD FOR YOU. WHICH ONE WILL IT BE? JUST POINT AT THE DAMNED LIST. I HAVEN'T HEARD A THING YOU'VE SAID YET. I HOPE TO HELL YOU'RE NOT STANDING THERE TRYING TO SELL ME SOMETHING.]], [[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
-THE INGREDIENTS TO THESE SUCKERS ARE SORT OF A TRADE SECRET, SO I'LL TELL YOU ABOUT ONE AND WE'LL SEE HOW THAT GOES. OH, AND I'LL MAKE ENOUGH FOR YOU TO HAVE A SWIG WHEN I'M DONE, SO GOOD FOR YOU. WHICH ONE WILL IT BE? JUST POINT AT THE DAMNED LIST. I HAVEN'T HEARD A THING YOU'VE SAID YET. I HOPE TO HELL YOU'RE NOT STANDING THERE TRYING TO SELL ME SOMETHING.]], "_t")
-t("HERE'S A LIST OF THE STUFF I NEED. MOST OF IT WILL TRY TO KILL YOU, SO I HOPE YOU'RE NOT INCOMPETENT. I'VE GOT PLENTY OF INCOMPETENT HELP ALREADY. I HOPE FOR YOUR SAKE THAT YOU'RE SMARTER AND FASTER THAN THEM.", "HERE'S A LIST OF THE STUFF I NEED. MOST OF IT WILL TRY TO KILL YOU, SO I HOPE YOU'RE NOT INCOMPETENT. I'VE GOT PLENTY OF INCOMPETENT HELP ALREADY. I HOPE FOR YOUR SAKE THAT YOU'RE SMARTER AND FASTER THAN THEM.", "_t")
-t([[#LIGHT_GREEN#*The halfling, still smoking, opens his door.*#WHITE#
-I LIVE WAY THE HELL OUT HERE FOR A REASON, YOU PIECE OF... OH. IT'S YOU.]], [[#LIGHT_GREEN#*The halfling, still smoking, opens his door.*#WHITE#
-I LIVE WAY THE HELL OUT HERE FOR A REASON, YOU PIECE OF... OH. IT'S YOU.]], "_t")
-t("I'VE RETURNED WITH THE INGREDIENTS FOR THE %s.", "I'VE RETURNED WITH THE INGREDIENTS FOR THE %s.", "tformat")
-t("I'VE COME TO OFFER MORE AID.", "I'VE COME TO OFFER MORE AID.", "_t")
-t([[#LIGHT_GREEN#*For the first time you've seen, genuine pleasure lights up the halfling's soot-smeared face.*#WHITE#
-GOOD WORK, WHOEVER YOU ARE. ALL OF MAJ'EYAL OWES YOU THEIR THANKS, EXCEPT FOR MEMBERS OF THE BROTHERHOOD OF ALCHEMISTS, WHO MIGHT TRY TO DO YOU BODILY HARM. FORTUNATELY FOR YOU, THEY'RE MOSTLY HARMLESS.]], [[#LIGHT_GREEN#*For the first time you've seen, genuine pleasure lights up the halfling's soot-smeared face.*#WHITE#
-GOOD WORK, WHOEVER YOU ARE. ALL OF MAJ'EYAL OWES YOU THEIR THANKS, EXCEPT FOR MEMBERS OF THE BROTHERHOOD OF ALCHEMISTS, WHO MIGHT TRY TO DO YOU BODILY HARM. FORTUNATELY FOR YOU, THEY'RE MOSTLY HARMLESS.]], "_t")
-t("WAIT HERE. THERE'S A GOOD CHANCE YOU'LL GET BLOWN INTO ADVENTURER KIBBLE IF YOU STEP INSIDE THIS BUILDING. MY ROBE OF MAD ALCHEMIST PROTECTION IS THE ONLY REASON I'M NOT VAPOUR.", "WAIT HERE. THERE'S A GOOD CHANCE YOU'LL GET BLOWN INTO ADVENTURER KIBBLE IF YOU STEP INSIDE THIS BUILDING. MY ROBE OF MAD ALCHEMIST PROTECTION IS THE ONLY REASON I'M NOT VAPOUR.", "_t")
-t("GIVE ME AN HOUR, AND THINK UNPLEASANT THOUGHTS ABOUT THE BROTHERHOOD. IF ANYTHING EXPLODES, COME RESCUE ME, EVEN IF IT LOOKS LIKE THE BUILDING IS AN INFERNO OF POISONOUS SMOKE AND POLKA-DOT FLAMES.", "GIVE ME AN HOUR, AND THINK UNPLEASANT THOUGHTS ABOUT THE BROTHERHOOD. IF ANYTHING EXPLODES, COME RESCUE ME, EVEN IF IT LOOKS LIKE THE BUILDING IS AN INFERNO OF POISONOUS SMOKE AND POLKA-DOT FLAMES.", "_t")
-t([[#LIGHT_GREEN#*Disaster fails to occur. The halfling finally returns and hands you a small vial of sooty glass.*#WHITE#
-ENJOY, AND COME BACK ANY TIME IF YOU'RE INTERESTED IN SIMILAR WORK. I HAVEN'T WON YET. THE LONGER YOU WAIT, THE MORE LIKELY IT IS THAT YOU'LL RETURN TO A SMOKING CRATER AND ONE TRULY IRATE HALFLING.]], [[#LIGHT_GREEN#*Disaster fails to occur. The halfling finally returns and hands you a small vial of sooty glass.*#WHITE#
-ENJOY, AND COME BACK ANY TIME IF YOU'RE INTERESTED IN SIMILAR WORK. I HAVEN'T WON YET. THE LONGER YOU WAIT, THE MORE LIKELY IT IS THAT YOU'LL RETURN TO A SMOKING CRATER AND ONE TRULY IRATE HALFLING.]], "_t")
-t([[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#WHITE#
-YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], [[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#WHITE#
-YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], "_t")
-t("THANK YOU. I'LL BE OFF.", "THANK YOU. I'LL BE OFF.", "_t")
-t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "_t")
-t("[Indicate the %s.]", "[Indicate the %s.]", "tformat")
-t("TAKE THIS LIST OF INGREDIENTS, AND HURRY THE HELL UP.", "TAKE THIS LIST OF INGREDIENTS, AND HURRY THE HELL UP.", "_t")
-t("I'LL BE OFF.", "I'LL BE OFF.", "_t")
-t("TOO SLOW, HAMBRAIN. ELIXIR'S MADE ALREADY, AND SOMEBODY ELSE WALKED OFF WITH THE REWARD. IF YOU'RE FEELING SORRY FOR YOURSELF, ASK WHETHER THIS IS MORE OR LESS PLEASANT THAN GETTING APPRECIABLE CHUNKS OF YOUR ANATOMY BLASTED CLEAN OFF YOUR BODY THIS MORNING. THAT'S RIGHT. BYE.", "TOO SLOW, HAMBRAIN. ELIXIR'S MADE ALREADY, AND SOMEBODY ELSE WALKED OFF WITH THE REWARD. IF YOU'RE FEELING SORRY FOR YOURSELF, ASK WHETHER THIS IS MORE OR LESS PLEASANT THAN GETTING APPRECIABLE CHUNKS OF YOUR ANATOMY BLASTED CLEAN OFF YOUR BODY THIS MORNING. THAT'S RIGHT. BYE.", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/chats/alchemist-last-hope.lua"
 -- 28 entries
 t("Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "tformat")
@@ -12468,7 +12046,7 @@ t("The third.", "The third.", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/command-staff.lua"
--- 28 entries
+-- 27 entries
 t("Greetings. How can I help you?", "Greetings. How can I help you?", "_t")
 t("Hurry up and make with the foe-blasting.", "Hurry up and make with the foe-blasting.", "_t")
 t("O wise wielder, instruct me that I may better serve you.", "O wise wielder, instruct me that I may better serve you.", "_t")
@@ -12492,7 +12070,6 @@ t("Certainly. You should be impressed, by the way, that I can do such a thing. M
 t("Fine, as long as it leads to blasting something soon. What do you want me to change?", "Fine, as long as it leads to blasting something soon. What do you want me to change?", "_t")
 t("Choose different aspect", "Choose different aspect", "_t")
 t("Call forth which element?", "Call forth which element?", "_t")
-t("How is it that you speak?", "How is it that you speak?", "_t")
 t("I'd like you to bring forth a different aspect.", "I'd like you to bring forth a different aspect.", "_t")
 t("I'd like to alter your basic properties.", "I'd like to alter your basic properties.", "_t")
 t("Never mind.", "Never mind.", "_t")
@@ -15107,9 +14684,8 @@ t("An old and powerful fire drake, armed with deadly breath and nasty claws.", "
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/ghost.lua"
--- 7 entries
+-- 6 entries
 t("It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "_t")
-t("dreadmaster", "dreadmaster", "entity name")
 t("It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "_t")
 t("banshee", "banshee", "entity name")
 t("It is a ghostly woman's form that wails mournfully.", "It is a ghostly woman's form that wails mournfully.", "_t")
@@ -16179,6 +15755,12 @@ t("#00FF00#You feel indestructible!", "#00FF00#You feel indestructible!", "logPl
 
 
 ------------------------------------------------
+section "game/modules/tome/data/general/objects/egos/belt.lua"
+-- 1 entries
+t(" of unlife", " of unlife", "entity name")
+
+
+------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/shield.lua"
 -- 1 entries
 t("swashbuckler", "swashbuckler", "entity keyword")
@@ -16638,16 +16220,6 @@ t("lore", "lore", "entity subtype")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/objects/slings.lua"
--- 5 entries
-t("rough leather sling", "rough leather sling", "entity name")
-t("cured leather sling", "cured leather sling", "entity name")
-t("hardened leather sling", "hardened leather sling", "entity name")
-t("reinforced leather sling", "reinforced leather sling", "entity name")
-t("drakeskin leather sling", "drakeskin leather sling", "entity name")
-
-
-------------------------------------------------
 section "game/modules/tome/data/general/objects/special-artifacts.lua"
 -- 5 entries
 t("Telos Spire of Power", "Telos Spire of Power", "entity name")
@@ -16719,7 +16291,7 @@ t("A plain looking ceremonial rod. It has connections with Time that even chrono
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua"
--- 130 entries
+-- 129 entries
 t("Penitence", "Penitence", "entity name")
 t("glowing staff", "glowing staff", "_t")
 t("A powerful staff sent in secret to Angolwen by the Shaloren, to aid their fighting of the plagues following the Spellblaze. Its power is not to harm, but to heal and protect.", "A powerful staff sent in secret to Angolwen by the Shaloren, to aid their fighting of the plagues following the Spellblaze. Its power is not to harm, but to heal and protect.", "_t")
@@ -16802,7 +16374,6 @@ t("The fusing fails!", "The fusing fails!", "logPlayer")
 t("#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "logSeen")
 t("#CRIMSON#The unearthly glow fades away.", "#CRIMSON#The unearthly glow fades away.", "logPlayer")
 t("Telos Golem (reluctant follower of %s)", "Telos Golem (reluctant follower of %s)", "tformat")
-t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "log")
 t("I feel lost!", "I feel lost!", "_t")
 t("Voice of Telos", "Voice of Telos", "entity name")
 t("scintillating white staff", "scintillating white staff", "_t")
@@ -23311,7 +22882,7 @@ Your disobedient son]], "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/spellhunt.lua"
--- 9 entries
+-- 8 entries
 t("memories of archmage Varil", "memories of archmage Varil", "_t")
 t([[From an objective viewpoint, you would think the Spellhunt futile, but it was not so. You couldn't imagine the barbarism of the magehunting mobs; they would abuse and persecute any they saw as eccentric, many of whom had no connection to magic at all.
 ...
@@ -23400,7 +22971,6 @@ Necromancers and fell conjurers can present a great threat when they summon thei
 Hexes and curses can wreak terror upon you, and you would do well to have an infusion that removes these and other blighted magic effects when facing dread occultists. Infusions to augment your natural healing are also a must for difficult battles.
 
 Remember to show no mercy, for they will give you none.]], "_t")
-t("age of dusk", "age of dusk", "newLore category")
 t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Spellhunter's Guide part 3: How to Kill a Magic-User", "_t")
 t([[When a magic-user is captured, they must be slain, and slain fast. Captivity is too great a risk. Preferably they should be killed in a way that utterly removes any means for the body to recover through arcane force. Remember that coming back from the dead is no alien feat to these abominations.
 
@@ -24344,170 +23914,15 @@ t("#GREY#Your hiemal shield regenerates to full!", "#GREY#Your hiemal shield reg
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/necrosis.lua"
--- 12 entries
-t("Blurred Mortality", "Blurred Mortality", "talent name")
-t([[The line between life and death blurs for you.
-		You can only die when you reach -%d life but your maximum life is reduced by %d.
-		When you are below 1 life you gain %d%% to all resistances.
-		The life amount is based on your Constitution attribute.]], [[The line between life and death blurs for you.
-		You can only die when you reach -%d life but your maximum life is reduced by %d.
-		When you are below 1 life you gain %d%% to all resistances.
-		The life amount is based on your Constitution attribute.]], "tformat")
-t("Across the Veil", "Across the Veil", "talent name")
+-- 1 entries
 t("#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "logSeen")
-t([[As you learn to tiptoe across the veil of death you learn to master the dark forces.
-		Each time you cross the 1 life threshold you automatically unleash a blast of %0.2f frostdusk damage in radius %d.
-		For each creature that takes damage from the blast one of your talent's cooldown is reduced by %d turns.
-		The damage will increase with your Spellpower.]], [[As you learn to tiptoe across the veil of death you learn to master the dark forces.
-		Each time you cross the 1 life threshold you automatically unleash a blast of %0.2f frostdusk damage in radius %d.
-		For each creature that takes damage from the blast one of your talent's cooldown is reduced by %d turns.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Runeskin", "Runeskin", "talent name")
-t("effects disabled because of an infusion", "effects disabled because of an infusion", "_t")
-t("effects disabled because of no rune", "effects disabled because of no rune", "_t")
-t("%d runes active", "%d runes active", "tformat")
-t([[As you continue to attune your body to undeath you reject nature as a whole.
-		As long as you have no natural infusion on your skin, each rune on it increases your minimum negative life by -%d and your spells critical chance by %0.1f%%.
-
-		Currently: %s]], [[As you continue to attune your body to undeath you reject nature as a whole.
-		As long as you have no natural infusion on your skin, each rune on it increases your minimum negative life by -%d and your spells critical chance by %0.1f%%.
-
-		Currently: %s]], "tformat")
-t("Spikes of Decrepitude", "Spikes of Decrepitude", "talent name")
-t([[Each turn you unleash dark powers through your runeskin.
-		For each rune you have a random foe in sight will be hit by a spike of decrepitude, dealing %0.2f frostdusk damage.
-		A foe can only be hit by one spike per turn.
-		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]], [[Each turn you unleash dark powers through your runeskin.
-		For each rune you have a random foe in sight will be hit by a spike of decrepitude, dealing %0.2f frostdusk damage.
-		A foe can only be hit by one spike per turn.
-		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/spells/nightfall.lua"
--- 8 entries
-t("Invoke Darkness", "Invoke Darkness", "talent name")
-t([[Conjures up a beam of darkness, doing %0.2f darkness damage.
-		At level 5, the beam widens to hit foes on each side.
-		The damage will increase with your Spellpower.]], [[Conjures up a beam of darkness, doing %0.2f darkness damage.
-		At level 5, the beam widens to hit foes on each side.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Night Sphere", "Night Sphere", "talent name")
-t([[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature entering the circle will receive either a bane of confusion or a bane of blindness.
-		Only one bane can affect a creature.
-		Banes last for %d turns, and also deal %0.2f darkness damage.
-		The damage will increase with your Spellpower.]], [[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature entering the circle will receive either a bane of confusion or a bane of blindness.
-		Only one bane can affect a creature.
-		Banes last for %d turns, and also deal %0.2f darkness damage.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Erupting Shadows", "Erupting Shadows", "talent name")
-t([[Shadows engulf your foes, anytime you deal darkness damage to a creature affected by a bane, the bane's duration is increased by 1 turn and the shadows erupt, dealing an additional %0.2f darkness damage.
-		The damage can only happen once per turn per creature, the turn increase however always happens.
-		The damage will increase with your Spellpower.]], [[Shadows engulf your foes, anytime you deal darkness damage to a creature affected by a bane, the bane's duration is increased by 1 turn and the shadows erupt, dealing an additional %0.2f darkness damage.
-		The damage can only happen once per turn per creature, the turn increase however always happens.
-		The damage will increase with your Spellpower.]], "tformat")
-t("River of Souls", "River of Souls", "talent name")
-t([[You summon a river of tortured souls to launch an onslaught of darkness against your foes.
-		Every turn for 5 turns you launch a projectile towards the designated area that explodes in radius %d, dealing %0.2f darkness damage.
-		Each projectile consumes a soul and the spell ends when it has sent 5 projectiles or when you have no more souls to use.
-		The damage will increase with your Spellpower.]], [[You summon a river of tortured souls to launch an onslaught of darkness against your foes.
-		Every turn for 5 turns you launch a projectile towards the designated area that explodes in radius %d, dealing %0.2f darkness damage.
-		Each projectile consumes a soul and the spell ends when it has sent 5 projectiles or when you have no more souls to use.
-		The damage will increase with your Spellpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/spells/rime-wraith.lua"
--- 8 entries
-t("Rime Wraith", "Rime Wraith", "talent name")
-t([[You summon a Rime Wraith inside of you, an intangible creature, that haunts both foes and allies for %d turns.
-		Every turn the wraith will select a new target and jump to it.
-		When the wraith enters a creature they are covered in hoarfrost for 3 turns:
-		- if friendly: increases cold resistance by %d%%, converts all damage done to cold and increases cold damage by %d%%.
-		- if hostile: reduces cold resistance by %d%% and move %d%% slower
-		When selecting a target the wraith prefers one that is not affected by hoarfrost if possible.
-		]], [[You summon a Rime Wraith inside of you, an intangible creature, that haunts both foes and allies for %d turns.
-		Every turn the wraith will select a new target and jump to it.
-		When the wraith enters a creature they are covered in hoarfrost for 3 turns:
-		- if friendly: increases cold resistance by %d%%, converts all damage done to cold and increases cold damage by %d%%.
-		- if hostile: reduces cold resistance by %d%% and move %d%% slower
-		When selecting a target the wraith prefers one that is not affected by hoarfrost if possible.
-		]], "tformat")
-t("Frigid Plunge", "Frigid Plunge", "talent name")
-t([[When switching targets your rime wraith now always prefers the one farther away if possible.
-		Any creatures on the path of the wraith while it travels are affected:
-		- if friendly: they are healed for %d
-		- if hostile: they take %0.2f cold damage, because the wraith is inside the creature the damage fully ignores any damage shield
-		The damage and healing will increase with your Spellpower.]], [[When switching targets your rime wraith now always prefers the one farther away if possible.
-		Any creatures on the path of the wraith while it travels are affected:
-		- if friendly: they are healed for %d
-		- if hostile: they take %0.2f cold damage, because the wraith is inside the creature the damage fully ignores any damage shield
-		The damage and healing will increase with your Spellpower.]], "tformat")
-t("Gelid Host", "Gelid Host", "talent name")
-t([[By crushing one more soul you reinforce your existing rime wraith, duplicating it out of its current host.
-		The new wraith will exist for %d turns and cannot be used for another cast of Gelid Host.
-		When it is created the current host and all foes in radius %d are blasted for %0.2f cold damage.
-		The damage will increase with your Spellpower.]], [[By crushing one more soul you reinforce your existing rime wraith, duplicating it out of its current host.
-		The new wraith will exist for %d turns and cannot be used for another cast of Gelid Host.
-		When it is created the current host and all foes in radius %d are blasted for %0.2f cold damage.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Permafrost", "Permafrost", "talent name")
-t([[Hoarfrost now has additional effects:
-		- if friendly: magical and physical saves increased by %d, at level 5 healing factor is also increased by 15%%.
-		- if hostile: magical and physical saves reduced by %d, at level 5 all talents cool down 15%% slower.
-		]], [[Hoarfrost now has additional effects:
-		- if friendly: magical and physical saves increased by %d, at level 5 healing factor is also increased by 15%%.
-		- if hostile: magical and physical saves reduced by %d, at level 5 all talents cool down 15%% slower.
-		]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/spells/spectre.lua"
--- 11 entries
-t("Ghost Walk", "Ghost Walk", "talent name")
-t([[Taking on a spectral form, you teleport to the target tile within range %d. 
-		For 3 turns after using this spell, you gain the ability to instantly teleport back to your original tile as long as you are within range of it.]], [[Taking on a spectral form, you teleport to the target tile within range %d. 
-		For 3 turns after using this spell, you gain the ability to instantly teleport back to your original tile as long as you are within range of it.]], "tformat")
-t("Ghost Walk - Return", "Ghost Walk - Return", "talent name")
-t("%s's ghost walk fizzles!", "%s's ghost walk fizzles!", "logSeen")
-t("Return to the location you used Ghost Walk from.", "Return to the location you used Ghost Walk from.", "tformat")
-t("Spectral Sight", "Spectral Sight", "talent name")
-t([[While in your spectral form from Ghost Walk and for %d turns afterwards, you gain vision of all enemies within radius %d.
-In addition, at all times you gain the ability to sense undead within %d tiles, and can perceive any foe within %d tiles of your necrotic minions.]], [[While in your spectral form from Ghost Walk and for %d turns afterwards, you gain vision of all enemies within radius %d.
-In addition, at all times you gain the ability to sense undead within %d tiles, and can perceive any foe within %d tiles of your necrotic minions.]], "tformat")
-t("Intangibility", "Intangibility", "talent name")
-t("While in your spectral form from Ghost Walk and for %d turns afterwards, damage and detrimental effects have a %d%% chance to harmlessly pass through you.", "While in your spectral form from Ghost Walk and for %d turns afterwards, damage and detrimental effects have a %d%% chance to harmlessly pass through you.", "tformat")
-t("Path to Beyond", "Path to Beyond", "talent name")
-t("On using Ghost Walk - Return, you create a portal that summons %d spirits around you for %d turns. The spirits do very little damage, but taunt all enemies in radius 3 into attacking them.", "On using Ghost Walk - Return, you create a portal that summons %d spirits around you for %d turns. The spirits do very little damage, but taunt all enemies in radius 3 into attacking them.", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/spells.lua"
--- 24 entries
+-- 2 entries
 t("The pinacle of spellcasting.", "The pinacle of spellcasting.", "_t")
 t("thaumaturgy", "thaumaturgy", "_t")
-t("Become of the master of bones, creating skeletal minions to do your bidding.", "Become of the master of bones, creating skeletal minions to do your bidding.", "_t")
-t("master of bones", "master of bones", "_t")
-t("Become of the master of flesh, creating ghoul minions to do your bidding", "Become of the master of flesh, creating ghoul minions to do your bidding", "_t")
-t("master of flesh", "master of flesh", "_t")
-t("Full and total control over your undead army.", "Full and total control over your undead army.", "_t")
-t("master necromancer", "master necromancer", "_t")
-t("Summon an undead minion of pure darkness to harass your foes.", "Summon an undead minion of pure darkness to harass your foes.", "_t")
-t("dreadmaster", "dreadmaster", "_t")
-t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "_t")
-t("age of dusk", "age of dusk", "_t")
-t("Wither the land into a cold, dead ground to protect yourself.", "Wither the land into a cold, dead ground to protect yourself.", "_t")
-t("glacial waste", "glacial waste", "_t")
-t("Summon an undead minion of pure cold to harass your foes.", "Summon an undead minion of pure cold to harass your foes.", "_t")
-t("rime wraith", "rime wraith", "_t")
-t("Learn to fasten your foes way into the grave.", "Learn to fasten your foes way into the grave.", "_t")
-t("death", "death", "_t")
-t("Doom to all your foes. Crush them.", "Doom to all your foes. Crush them.", "_t")
-t("eradication", "eradication", "_t")
-t("Gain control over death, by unnaturally expanding your life.", "Gain control over death, by unnaturally expanding your life.", "_t")
-t("Turn into a spectre to move around the battlefield.", "Turn into a spectre to move around the battlefield.", "_t")
-t("spectre", "spectre", "_t")
-t("#GREY#%s can not be healed this way!", "#GREY#%s can not be healed this way!", "logSeen")
 
 
 ------------------------------------------------
@@ -24516,56 +23931,6 @@ section "game/modules/tome/data/talents/spells/stone-alchemy.lua"
 t([[Imbue %s with a gem (up to tier %d), granting it additional powers.
 		You can only imbue items once, and it is permanent.]], [[Imbue %s with a gem (up to tier %d), granting it additional powers.
 		You can only imbue items once, and it is permanent.]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/spells/thaumaturgy.lua"
--- 11 entries
-t("Orb of Thaumaturgy", "Orb of Thaumaturgy", "talent name")
-t([[You create an orb attuned to thaumaturgy for %d turns.
-		While it lasts, any beam spell you cast will be duplicated and also cast for free at the orb for %d%% of the normal damage.
-		]], [[You create an orb attuned to thaumaturgy for %d turns.
-		While it lasts, any beam spell you cast will be duplicated and also cast for free at the orb for %d%% of the normal damage.
-		]], "tformat")
-t("Multicaster", "Multicaster", "talent name")
-t([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
-		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
-		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
-		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
-		The additional cast will cost mana but no turn and will not active its cooldown.
-		During Aether Avatar only compatible spells are used.]], [[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
-		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
-		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
-		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
-		The additional cast will cost mana but no turn and will not active its cooldown.
-		During Aether Avatar only compatible spells are used.]], "tformat")
-t("Slipstream", "Slipstream", "talent name")
-t("#PURPLE#Your Slipstream does not have enough resources!", "#PURPLE#Your Slipstream does not have enough resources!", "logPlayer")
-t("#PURPLE#Your Slipstream regenerates to full!", "#PURPLE#Your Slipstream regenerates to full!", "logPlayer")
-t([[By weaving arcane triggers around you feet you can use the residual energies of your beam spells for free movement.
-		Each time you cast a beam spell you can move right afterwards without spending a turn.
-		This spell has %d charges. Once all charges are spent it unsustains.
-		If you exit combat with some charges left it will after 10 turn regenerates its charges, if you have enough mana.]], [[By weaving arcane triggers around you feet you can use the residual energies of your beam spells for free movement.
-		Each time you cast a beam spell you can move right afterwards without spending a turn.
-		This spell has %d charges. Once all charges are spent it unsustains.
-		If you exit combat with some charges left it will after 10 turn regenerates its charges, if you have enough mana.]], "tformat")
-t("Elemental Array Burst", "Elemental Array Burst", "talent name")
-t([[Using your near-perfect knowledge of beam spells you combine them all into a powerful 3-wide beam of pure energy.
-		The beam deals %0.2f thaumic damage and always goes as far as possible.
-		Thaumic damage can never be resisted by anything but "Resistance: All", always uses your highest resistance penetration and highest damage type bonus and can never be altered into other damage types.
-		It can trigger Burning Wake and Hurricane.
-		It is affected by the wet status (+30%% damage) if you are in Shivgoroth Form.
-		It has a 25%% chance to either stun or freeze the targets for 3 turns (if Crystalline Focus or Uttercold are active, respectively).
-		Each time you deal damage with a beam spell, the remaining cooldown is reduced by 1 (this can happen only once per turn).
-		The damage will increase with your Spellpower.]], [[Using your near-perfect knowledge of beam spells you combine them all into a powerful 3-wide beam of pure energy.
-		The beam deals %0.2f thaumic damage and always goes as far as possible.
-		Thaumic damage can never be resisted by anything but "Resistance: All", always uses your highest resistance penetration and highest damage type bonus and can never be altered into other damage types.
-		It can trigger Burning Wake and Hurricane.
-		It is affected by the wet status (+30%% damage) if you are in Shivgoroth Form.
-		It has a 25%% chance to either stun or freeze the targets for 3 turns (if Crystalline Focus or Uttercold are active, respectively).
-		Each time you deal damage with a beam spell, the remaining cooldown is reduced by 1 (this can happen only once per turn).
-		The damage will increase with your Spellpower.]], "tformat")
-t("Thaumaturgy Unlock Checker", "Thaumaturgy Unlock Checker", "talent name")
 
 
 ------------------------------------------------
@@ -24604,7 +23969,7 @@ t("%d%% %s", "%d%% %s", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/uber/mag.lua"
--- 10 entries
+-- 2 entries
 t("#ORCHID#Aether Permeation protects %s from a dispel!", "#ORCHID#Aether Permeation protects %s from a dispel!", "logSeen")
 t([[%s
 #YELLOW#%s#LAST#
@@ -24613,85 +23978,6 @@ t([[%s
 #YELLOW#%s#LAST#
 %s
 ]], "tformat")
-t([[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
-
-#{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.]], [[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
-
-#{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.]], "_t")
-t("Lich Cosmetic Options", "Lich Cosmetic Options", "_t")
-t("#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!", "#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!", "_t")
-t("#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#", "#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#", "say")
-t([[This is your true goal and the purpose of all necromancy - to become a powerful and everliving Lich!
-		Once learnt, the next time you are killed, the arcane forces you unleash will be able to rebuild your body into the desired Lichform.
-		Liches are immune to poisons, diseases, fear, cuts, stuns, do not need to breath and are 20%% resistant to cold and darkness.
-		Liches also gain +12 Magic, Willpower and Cunning, 60%% chance to ignore critical hits, +4 life rating (not retroactive), +35 spell and mental saves and 7 mana regeneration.
-
-		Liches gain a new racial tree with the following talents:
-		- Neverending Unlife: A Lich body is extremely resilient, being able to go into negative life and when destroyed it can regenerate itself.
-		- Frightening Presence: Your mere presence is enough to shatter the resolve of most, reducing their saves, damage and movement speed.
-		- Doomed for Eternity: As a creature of doom and despair you now constantly spawn undead shadows around you.
-		- Commander of the Dead: You are able to infuse all undead party members (including yourself) with un-natural power, increasing your physical and spellpower.
-		]], [[This is your true goal and the purpose of all necromancy - to become a powerful and everliving Lich!
-		Once learnt, the next time you are killed, the arcane forces you unleash will be able to rebuild your body into the desired Lichform.
-		Liches are immune to poisons, diseases, fear, cuts, stuns, do not need to breath and are 20%% resistant to cold and darkness.
-		Liches also gain +12 Magic, Willpower and Cunning, 60%% chance to ignore critical hits, +4 life rating (not retroactive), +35 spell and mental saves and 7 mana regeneration.
-
-		Liches gain a new racial tree with the following talents:
-		- Neverending Unlife: A Lich body is extremely resilient, being able to go into negative life and when destroyed it can regenerate itself.
-		- Frightening Presence: Your mere presence is enough to shatter the resolve of most, reducing their saves, damage and movement speed.
-		- Doomed for Eternity: As a creature of doom and despair you now constantly spawn undead shadows around you.
-		- Commander of the Dead: You are able to infuse all undead party members (including yourself) with un-natural power, increasing your physical and spellpower.
-		]], "tformat")
-t("Unlocked the High Thaumaturgist evolution", "Unlocked the High Thaumaturgist evolution", "_t")
-t("High Thaumaturgist", "High Thaumaturgist", "_t")
-t([[Thaumaturgists have unlocked a deeper understanding of their spells, allowing them to combine the elements into new ways and to empower them.
-		The spells Flame, Manathrust, Lightning, Pulverizing Auger and Ice Shards are permanently turned into 3-wide beams spells.
-		In addition they have access to the unique Thaumaturgy class tree:
-		- Orb of Thaumaturgy: a temporary orb that duplicates any beam spells that you cast
-		- Multicaster: When casting a beam spell adds a chance to also cast an other archmage spell
-		- Slipstream: Allows movement when casting beams
-		- Elemental Array Burst: a powerful, multi-elemental beam spell that can inflict all elemental ailments and can not be resisted
-		#CRIMSON#The fine spellcasting required for wide beams and all thaumaturgy spells can only happen while wearing cloth. Anything heavier will hinder the casting too much.]], [[Thaumaturgists have unlocked a deeper understanding of their spells, allowing them to combine the elements into new ways and to empower them.
-		The spells Flame, Manathrust, Lightning, Pulverizing Auger and Ice Shards are permanently turned into 3-wide beams spells.
-		In addition they have access to the unique Thaumaturgy class tree:
-		- Orb of Thaumaturgy: a temporary orb that duplicates any beam spells that you cast
-		- Multicaster: When casting a beam spell adds a chance to also cast an other archmage spell
-		- Slipstream: Allows movement when casting beams
-		- Elemental Array Burst: a powerful, multi-elemental beam spell that can inflict all elemental ailments and can not be resisted
-		#CRIMSON#The fine spellcasting required for wide beams and all thaumaturgy spells can only happen while wearing cloth. Anything heavier will hinder the casting too much.]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/undeads/lich.lua"
--- 10 entries
-t("Neverending Unlife", "Neverending Unlife", "talent name")
-t("Lich Regeneration (%d turns)", "Lich Regeneration (%d turns)", "tformat")
-t([[A Lich's body is extremely hard to fully destroy. You only die with your life reaches -%d.
-		In addition even when destroyed your body regenerates to full life.
-		The first time this happens, your transformation into a Lich is completed, granting you all the powers of Lichdom.
-		Any further death will still regenerate you but you will need to consume the essence of a creature of unique/boss/elite boss or more rank within %d turns to sustain yourself.
-		If you have not killed one when the duration expires or if you are killed again in this duration, you die permanently.
-		If this happens this power can never re-activate, even if you managed to resurrect by other means.]], [[A Lich's body is extremely hard to fully destroy. You only die with your life reaches -%d.
-		In addition even when destroyed your body regenerates to full life.
-		The first time this happens, your transformation into a Lich is completed, granting you all the powers of Lichdom.
-		Any further death will still regenerate you but you will need to consume the essence of a creature of unique/boss/elite boss or more rank within %d turns to sustain yourself.
-		If you have not killed one when the duration expires or if you are killed again in this duration, you die permanently.
-		If this happens this power can never re-activate, even if you managed to resurrect by other means.]], "tformat")
-t([[Your mere presence is terrying to any foes that dare stand against you.
-		Every turn all foes in radius %d must make a metal save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
-		If they successfully resist, they are immune for %d turns.]], [[Your mere presence is terrying to any foes that dare stand against you.
-		Every turn all foes in radius %d must make a metal save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
-		If they successfully resist, they are immune for %d turns.]], "tformat")
-t("Shadow Invoke Darkness", "Shadow Invoke Darkness", "talent name")
-t("Shadow Cold Touch", "Shadow Cold Touch", "talent name")
-t("Doomed For Eternity", "Doomed For Eternity", "talent name")
-t([[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
-		Shadows ignore %d%% of the damage dealt to them by their master.]], [[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
-		Shadows ignore %d%% of the damage dealt to them by their master.]], "tformat")
-t("Commander of the Dead", "Commander of the Dead", "talent name")
-t([[You are so full with power that it overflows out of you whenever you cast a spell.
-		Upon spell cast you have %d%% chances to boost the physical power, spellpower, mindpower and all saves of all friendly undeads in sight (including yourself) by %d for 4 turns.]], [[You are so full with power that it overflows out of you whenever you cast a spell.
-		Upon spell cast you have %d%% chances to boost the physical power, spellpower, mindpower and all saves of all friendly undeads in sight (including yourself) by %d for 4 turns.]], "tformat")
 
 
 ------------------------------------------------
@@ -26454,7 +25740,7 @@ Wyrmics are also trained in the martial arts and use stamina for some techniques
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/magical.lua"
--- 106 entries
+-- 103 entries
 t("#Target# stops leeching life.", "#Target# stops leeching life.", "_t")
 t("The target's final doom is drawing near, reducing healing factor by 80%% and dealing %0.2f frostdusk damage per turn. The effect will stop if the caster dies.", "The target's final doom is drawing near, reducing healing factor by 80%% and dealing %0.2f frostdusk damage per turn. The effect will stop if the caster dies.", "tformat")
 t("#Target# is doomed!", "#Target# is doomed!", "_t")
@@ -26486,7 +25772,6 @@ t("Immune to Frightening Presence", "Immune to Frightening Presence", "_t")
 t("You resisted a Lich and are immune to its frightening presence.", "You resisted a Lich and are immune to its frightening presence.", "_t")
 t("Energy Alteration (%s)", "Energy Alteration (%s)", "tformat")
 t("%d%% of all damage converted to %s.", "%d%% of all damage converted to %s.", "tformat")
-t("Commander of the Dead", "Commander of the Dead", "_t")
 t("Physical power, spellpower and all saves increased by %d.", "Physical power, spellpower and all saves increased by %d.", "tformat")
 t("Spellpower increased by %d.", "Spellpower increased by %d.", "tformat")
 t("Necrotic Aura", "Necrotic Aura", "_t")
@@ -26529,7 +25814,6 @@ t("-Frost Cut", "-Frost Cut", "_t")
 t("health increased by %d, armour by %d and melee retaliation by %d.", "health increased by %d, armour by %d and melee retaliation by %d.", "tformat")
 t("#Target# picks up the remains of its fallen comrade.", "#Target# picks up the remains of its fallen comrade.", "_t")
 t("#Target# drops its additional bones.", "#Target# drops its additional bones.", "_t")
-t("Rime Wraith", "Rime Wraith", "_t")
 t("Host of a Rime Wraith!", "Host of a Rime Wraith!", "_t")
 t("Rime Wraith (Gelid Host)", "Rime Wraith (Gelid Host)", "_t")
 t("Host of a Rime Wraith (Gelid Host)!", "Host of a Rime Wraith (Gelid Host)!", "_t")
@@ -26539,7 +25823,6 @@ t("Cold resistance reduced by %d%%, movement speed reduced by %d%%.", "Cold resi
 t("necrotic", "necrotic", "effect subtype")
 t("The target is on fire, taking %0.2f fire damage per turn and %d%% chance per turn of removing a physical or magical effect from all targets affected by Inferno, Burning Wake or Cleansing Flames.", "The target is on fire, taking %0.2f fire damage per turn and %d%% chance per turn of removing a physical or magical effect from all targets affected by Inferno, Burning Wake or Cleansing Flames.", "tformat")
 t("#Target# bathes in cleansing flames!", "#Target# bathes in cleansing flames!", "_t")
-t("Ghost Walk", "Ghost Walk", "_t")
 t("Taking on a spectral form, allowing teleportation back to their original tile.", "Taking on a spectral form, allowing teleportation back to their original tile.", "tformat")
 t("#Target#'s form becomes intangible!", "#Target#'s form becomes intangible!", "_t")
 t("+Ghost Walk", "+Ghost Walk", "_t")
@@ -26607,9 +25890,8 @@ t("#CRIMSON#%d Bleed #LAST#", "#CRIMSON#%d Bleed #LAST#", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/physical.lua"
--- 12 entries
+-- 11 entries
 t("#Target# is free of the stone poison!", "#Target# is free of the stone poison!", "_t")
-t("and is losing one physical effect turn.", "and is losing one physical effect turn.", "_t")
 t("%0.1f%%", "%0.1f%%", "tformat")
 t("Target is watched, causing the next talent used to fail and trigger a counterattack.", "Target is watched, causing the next talent used to fail and trigger a counterattack.", "tformat")
 t("Intangible", "Intangible", "_t")

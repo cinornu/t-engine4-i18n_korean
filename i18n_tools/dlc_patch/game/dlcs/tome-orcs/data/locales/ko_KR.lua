@@ -1568,7 +1568,7 @@ t([[Firmly plant your steamsaws in the ground, using them to propel yourself ver
 		Any foes on either side of your movement get wrecked by the saws, knocking them 3 tiles away from you.
 		Attacking or using any talent will break this effect.
 		When this effect is broken or cancelled the sudden change in motion deals %d%% weapon damage to all foes around you. To do full damage you need to have moved at least 5 times, otherwise damage is lower (or null for no movement).
-		#{italic}#The wheels of death! Amazing!#{normal}#]], [[증기톱을 지면에 단단히 고정하고, 작동시켜 시전자를 아주 빠른 속도로 몰고갑니다 (이동 속도 +%d%%).
+		#{italic}#The wheels of death! Amazing!#{normal}#]], [[증기톱을 지면에 단단히 고정하고, 작동시켜 시전자의 이동속도를 큰 폭으로 증가시킵니다. (이동 속도 +%d%%).
 		진행방향 양쪽의 적은 톱에 의해 파괴되고, 시전자로부터 3 칸 밀쳐집니다.
 		공격이나 기술의 사용은 이 효과를 즉시 중단합니다.
 		효과가 종료되거나 시전자에 의해 비활성화 됐을 시, 자세를 급격하게 바꿔 인접한 모든 적에게 %d%% 무기 피해를 줍니다. 이동한 칸이 5 칸 이상일 때, 최대 피해량을 냅니다. 그 미만일 경우, 피해가 줄어들거나, 움직이지 않은 경우 피해가 발생하지 않습니다
@@ -2876,7 +2876,7 @@ t([[#GREY#Applying you cunning plans, you escape death by turning to undeath in 
 
 #{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#자신을 위한 교활한 계획을 새워, 언데드로 변해 죽음에게서 벗어납니다!
 
-#{italic}#지금 당신이 적용한 외형은 이후에 변경할 수 없습니다.]], "_t")
+#{italic}#당신은 언데드가 된캐릭터의 외형을 변경할 수 있습니다. 지금 당신이 적용한 외형은 이후에 변경할 수 없습니다.]], "_t")
 t("Rak'Shor's Cunning", "락쇼르의 비술", "_t")
 t("Cosmetic Options", "치장 옵션", "_t")
 t("Customize Appearance", "외형 변경", "_t")
