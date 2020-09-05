@@ -210,7 +210,7 @@ t("You cannot switch equipment while sleeping!", "잠자고 있는 동안 장비
 t("unarmed", "맨손", "_t")
 t("%s warps space-time to equip: %s.", "%s 시공간을 왜곡해 장착함: %s.", "logSeen", nil, {"이"})
 t("%s switches %s weapons to: %s.", "1번 %s 2번 %s 무기를 3번 %s 변경했다.", "logSeen", nil, {"은","가"})
-t("%s wears %s%s.", "%s %s %s 장비했다.", "logSeen", nil, {"는"})
+t("%s wears %s%s.", "1번%s 2번%s 3번%s 장비했다.", "logSeen")
 t("antimagic", "반마법", "_t")
 t("%s #LIGHT_STEEL_BLUE#Triggers an Anomaly! (%s).", "%s #LIGHT_STEEL_BLUE#이상현상을 발동했다! (%s).", "logSeen")
 t("#STEEL_BLUE#Casting %s.", "#STEEL_BLUE#%s 시전.", "logPlayer", nil, {"을"})
