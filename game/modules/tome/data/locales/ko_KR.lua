@@ -2780,19 +2780,82 @@ t("Hrmph.", "후...", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/alchemist-golem.lua"
 
+t("Equipment(%s) <=> Inventory(%s)", "장비(%s) <=> 배낭(%s)", "tformat")
+t("Change your golem's name", "골렘의 이름을 바꾼다", "_t")
 t("Name", "이름", "_t")
 t("%s (servant of %s)", "%s (%s의 종)", "tformat")
+t("I want to change your equipment.", "네 장비를 바꾸고 싶어.", "_t")
+t("I want to change your talents.", "네 기술을 바꾸고 싶어.", "_t")
+t("I want to change your tactics.", "네 전술을 바꾸고 싶어.", "_t")
+t("I want to take direct control.", "널 직접 조종하고 싶어.", "_t")
+t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#골렘은 스스로의 이름을 #{bold}#%s#{normal}#로 바꾸기로 하였다.", "log")
+t("Telos the Great and Powerful (reluctant follower of %s)", "위대하고 강력한 텔로스 (별 수 없이 %s 따름)", "tformat", nil, {"를"})
+t("I want to change your name.", "네 이름을 바꾸고 싶어.", "_t")
+t("How is it that you speak?", "너 말은 어떻게 하는 거야?", "_t")
+t("I want to change your appearance (one-time only).", "네 모습을 바꾸고 싶어 (오직 한 번만 가능).", "_t")
+t("Nothing, let's go.", "아무것도 아니야, 가자.", "_t")
+t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Though I guess you are making up for it with your golem crafting skills.", "말도 못 하면 불멸이라는 게 무슨 의미가 있겠어? 밥값도 못하는 칠푼이가 아닌 이상에야, 무슨 불멸의 삶이나 사후의 삶 같은 걸 설계할 때 자기 의사 표명도 못하도록 계획을 세우는 마도사는 없다고. 그리고 딴 얘기지만, 네 에너지 조작 실력은 대충 내 발치 정도 수준이구만. 넌 골렘 제작 기술로 그걸 보완하고 있다고는 생각하지만.", "_t")
+t("Change my name? I'm quite happy being 'Telos' thankyou. Though I wouldn't mind being 'Telos the Great and Powerful'. Do that actually. Yes!", "내 이름을 바꾸겠다고? 난 '텔로스' 로 살아도 충분히 행복해 신경써줘서고마워. '위대하고 강력한 텔로스' 로 바꾸겠다면 말리진 않겠지만. 아니, 그렇게 하자. 딱 좋아!", "_t")
+t([[I'm a golem. How droll!
+Oh, did you want something?]], [[나아-는 골-렘이라네. 이 얼-마나 우스꽝-스러운가!
+오, 뭐 필요한 거라도 있나?]], "_t")
+t([[#LIGHT_GREEN#*The golem talks in a monotonous voice*#WHITE#
+Yes master.]], [[#LIGHT_GREEN#*골렘이 단조로운 목소리로 말합니다*#WHITE#
+예, 주인이시여.]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/alchemist-hermit.lua"
 
+t("SON OF A RITCH! YOU SHOW UP TEN MINUTES AFTER I GET THE NEWS THAT SOME JACKASS ALREADY FINISHED THE ELIXIRS AND IS GETTING ACCEPTED BY THE BROTHERHOOD. WHAT THE HELL TOOK YOU SO LONG? MIRVENIA'S MAMMARIES, I'LL TAKE THESE AND MAKE YOU YOUR REWARD, BUT ONLY BECAUSE A CURSE WILL KILL ME IF I DON'T. AND IF IT TASTES LIKE PISS, THAT'S YOUR IMAGINATION, I'M SURE.", "이 릿치 새끼가! 어떤 얼간이가 영약 완성하고 형제단 들어갔다는 소식 들리고 10분이나 지나서 어기적거리면서 나타나? 씨부럴 대체 왜 그렇게 오래 걸린 거야? 미르베니아의 젖통에 걸고, 네놈의 보상은 만들어 주마. 하지만 이건 그냥 내가 안 만들어 주면 저주 때문에 내가 죽기 때문이다. 그리고 만약 좆같은 맛이 난다면, 그건 네 착각이다. 보증한다.", "_t")
+t([[#LIGHT_GREEN#*The halfling hands you a note that says, 'Heard %s managed to make a %s while you've been loafing. Hurry the hell up next time.*#WHITE#
+		I STILL CAN'T HEAR A DAMNED THING. FORTUNATELY, YOU DON'T LOOK LIKE THE SORT THAT MAKES INTERESTING CONVERSATION.]], [[#LIGHT_GREEN#*하플링이 어떤 쪽지를 주었습니다, '네가 빈둥거리는 동안 %s %s 간신히 만들었다는 소릴 들었다. 제기랄, 다음 번엔 서두르라고'.*#WHITE#
+		난 여전히 귀머거리다. 거 참 다행스럽게, 넌 대화를 재밌게 만들 수 있는 족속처럼 보이진 않네.]], "tformat", nil, {"이","를"})
+t([[#LIGHT_GREEN#*After a great deal of pounding, a halfling wrapped in charred, smoking robes opens the door. He looks irritated.*#WHITE#
+IT'S NOT ENOUGH THAT I WORK ALL MORNING TO MAKE A POTION THAT ENDS UP NEARLY BLOWING MY ASS OFF, BUT NOW I'VE GOT IDIOTS BEATING DOWN MY DAMNED FRONT DOOR WITH WHAT SOUNDS LIKE A BATTERING RAM, AND YES, I HEARD IT, THOUGH I CAN HARDLY MAKE OUT A BLEEDING THING WITH THESE BLEEDING, CONCUSSED EARS. WHAT DO YOU WANT?]], [[#LIGHT_GREEN#*한참을 문을 두드리자, 그을린 연기가 피어오르는 로브를 입은 하플링이 문을 열었습니다. 짜증이 난 것처럼 보입니다.*#WHITE#
+아침부터 하루종일 일해서 만들어 낸 게 고작 내 엉덩이를 거의 날려먹을 뻔한 물약인 것 까진 괜찮아, 근데 이젠 빌어먹을 대문을 무슨 숫양 새끼 두드려패는 것마냥 두드려대는 멍청이들을 상대해야 한다고? 그래, 들었어, 이 빌어처먹게 안 들리는 귀로도 다 들었다고. 원하는 게 뭐야?]], "_t")
+t("Perhaps there's something that I can help you with.", "내가 도울 수 있는 게 있을 것 같아서.", "_t")
+t("SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-THE-PYRE POTION GONE SOUTH, REMEMBER? THRICE-DAMNED THING WAS GOING PERFECTLY, TOO. TOKNOR'S TACKLE!", "크게 말해, 닭대가리야. 내가 방금 귀 안 들린다고 했잖아, 어? 빌어먹을 물약을 만들다가 고막을 날려먹었다고. 지랄맞은 삼중 과제도 완벽하게 되어가고 있었는데, 이런 토크놀의 태클같은!", "_t")
+t("I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "내가, 도울 수, 있는 게, 있을 것, 같다고!", "_t")
+t("STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "난 안 들리는 건 매한가지지만, 넌 잘 들어라. 연금술사 형제단에서 새 형제를 뽑고 있다. 더럽게 복잡한 영약 세 가지를 가장 먼저 만드는 놈만 뽑는다고. 그딴 멍청이들이랑 호형호제하는 건 이쪽에서 사양이지만, 연금술사 형제단이 엉덩이를 날려먹는 흔한 사고에 대한 비밀스러운 치료법을 갖고 있다지 뭐야? 내가 그놈들 소꿉놀이에 어울려주는 이유가 그것 때문이라고.", "_t")
+t("HOW CAN I HELP?", "뭘, 해 주면, 되는데?", "_t")
+t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "형제단 놈들은 연금술 분야의 발전이 현존하는 모든 문명에게 꿀을 빨게 해 줄수 있다는 걸 존나게 잘 알고 있어. 그런데도 그 비밀들을 숨겨두고 있다고. 지들 쓰레기 더미 위에 버티고 서 있는 용대가리 새끼들마냥! 그거 알아? 사실 난 내 엉덩이에 약 바르려고 이 짓거리를 하고 있는 것도 아니야. 그놈들의 비밀을 싹 다 훔쳐서, 종이에 옮겨서, 그걸 수백 장은 만들어서, 마즈'에이알 온 동네마다 한 장씩 나무에다가 못으로 박아 둘 거라고.", "_t")
+t("THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "은둔자 답지 않은데?", "_t")
+t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "그렇게 되면 놈들은 어떻게 될까? 한 번 놈들의 중요한 비밀-- 모든 가능성을 고려하면 그런 게 없을 수도 있거나 비밀 레시피라는 게 죄다 무슨 날아다니는오리선물의 영약 같은 거일 수도 있지만-- 아무튼 그것들이 낱낱이 공개되면, 후장닦이 형제단에게 남은 건 지들 눈물의 영약 뿐일거고 온 세상으로부터 손가락질을 받게 될 거다. 이제 좀 크게 말해봐, 할 거냐 말 거냐?", "_t")
+t("I'M IN.", "할게!", "_t")
+t("I CANNOT AID YOU AT THIS TIME.", "지금은, 못, 도와주겠네!", "_t")
+t([[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
+THE INGREDIENTS TO THESE SUCKERS ARE SORT OF A TRADE SECRET, SO I'LL TELL YOU ABOUT ONE AND WE'LL SEE HOW THAT GOES. OH, AND I'LL MAKE ENOUGH FOR YOU TO HAVE A SWIG WHEN I'M DONE, SO GOOD FOR YOU. WHICH ONE WILL IT BE? JUST POINT AT THE DAMNED LIST. I HAVEN'T HEARD A THING YOU'VE SAID YET. I HOPE TO HELL YOU'RE NOT STANDING THERE TRYING TO SELL ME SOMETHING.]], [[#LIGHT_GREEN#*그는 당신에게 영약들의 이름과 그 효과들이 적힌 쪽지를 주었습니다.*#WHITE#
+이 빌어먹을 것들의 재료는 사업 비밀 같은 것들이고, 그러니까 너한테는 약 하나의 재료만 가르쳐 주고 나머지는 그 뒤에 생각해 볼 거다. 오, 그리고 난 네가 마실 수 있을 만큼은 만들어 줄 테니까 이 일은 너한테도 좋은 거지. 어떤 걸로 할 거냐? 그냥 엿 같은 목록을 손으로 가리켜라. 난 아직도 네가 하는 말을 듣지를 못 했으니까. 네가 씨부럴 나한테 뭘 팔아먹으려고 여기 서 있는게 아니길 빈다.]], "_t")
+t("HERE'S A LIST OF THE STUFF I NEED. MOST OF IT WILL TRY TO KILL YOU, SO I HOPE YOU'RE NOT INCOMPETENT. I'VE GOT PLENTY OF INCOMPETENT HELP ALREADY. I HOPE FOR YOUR SAKE THAT YOU'RE SMARTER AND FASTER THAN THEM.", "이게 나한테 필요한 재료 목록이다. 거기 있는 것들은 대부분 널 죽이려 들 거고, 그러니까 네가 칠푼이가 아니었으면 좋겠다. 이미 그런 칠푼이 놈들을 많이 보냈거든. 네가 그놈들보다 더 똑똑하고 더 재빠른 녀석이길 빈다.", "_t")
 t("#LIGHT_GREEN#*The door is locked and nobody responds to your knocks*#WHITE#", "#LIGHT_GREEN#*문은 잠겨 있고 노크에 응답하는 사람은 없습니다*#WHITE#", "_t")
 t("[Leave]", "[떠난다]", "_t")
+t([[#LIGHT_GREEN#*The halfling, still smoking, opens his door.*#WHITE#
+I LIVE WAY THE HELL OUT HERE FOR A REASON, YOU PIECE OF... OH. IT'S YOU.]], [[#LIGHT_GREEN#*여전히 연기가 나는 하플링이 문을 열었습니다.*#WHITE#
+내가 이런 데 사는 건 다 이유가 있다, 이 씨ㅂ... 오, 너였구만.]], "_t")
+t("I'VE RETURNED WITH THE INGREDIENTS FOR THE %s.", "%s의, 재료들을, 가져, 왔어!", "tformat")
+t("I'VE COME TO OFFER MORE AID.", "도움을, 더, 주러, 왔어!", "_t")
 t("[Give him the monster bits.]", "[괴물들의 조각을 넘긴다.]", "_t")
+t([[#LIGHT_GREEN#*For the first time you've seen, genuine pleasure lights up the halfling's soot-smeared face.*#WHITE#
+GOOD WORK, WHOEVER YOU ARE. ALL OF MAJ'EYAL OWES YOU THEIR THANKS, EXCEPT FOR MEMBERS OF THE BROTHERHOOD OF ALCHEMISTS, WHO MIGHT TRY TO DO YOU BODILY HARM. FORTUNATELY FOR YOU, THEY'RE MOSTLY HARMLESS.]], [[#LIGHT_GREEN#*그를 보고 나서 처음으로, 하플링의 반들반들하게 그을린 얼굴에 진심으로 기쁜 표정이 떠올랐습니다.*#WHITE#
+훌륭하다, 네가 누구든 간에. 마즈'에이알의 모든 주민들이 네게 감사할 거다. 너한테 피의 복수를 할 수도 있는 연금술사 형제단 놈들 빼고. 다행스럽게도, 그놈들은 대부분 그럴 힘이 없지만.]], "_t")
 t("[Give him the monster bits]", "[괴물들의 조각을 넘긴다]", "_t")
+t("WAIT HERE. THERE'S A GOOD CHANCE YOU'LL GET BLOWN INTO ADVENTURER KIBBLE IF YOU STEP INSIDE THIS BUILDING. MY ROBE OF MAD ALCHEMIST PROTECTION IS THE ONLY REASON I'M NOT VAPOUR.", "여기서 기다려. 이 안에 있으면 가루 되기 딱 좋다. 내가 지금 증기 상태가 아닌 건 내가 입고 있는 미친 연금술사 보호의 로브 덕분이라고.", "_t")
+t("GIVE ME AN HOUR, AND THINK UNPLEASANT THOUGHTS ABOUT THE BROTHERHOOD. IF ANYTHING EXPLODES, COME RESCUE ME, EVEN IF IT LOOKS LIKE THE BUILDING IS AN INFERNO OF POISONOUS SMOKE AND POLKA-DOT FLAMES.", "한 시간만 줘, 그리고 형제단에 대한 기분 나쁜 생각을 좀 하고 있어 봐. 만약에 뭔가 폭발하면 와서 나 좀 구해줘. 건물이 독성 연기랑 땡땡이 불꽃으로 지옥 같은 꼴이 되어 있어도 말이야.", "_t")
 t("[Wait]", "[기다린다]", "_t")
+t([[#LIGHT_GREEN#*Disaster fails to occur. The halfling finally returns and hands you a small vial of sooty glass.*#WHITE#
+ENJOY, AND COME BACK ANY TIME IF YOU'RE INTERESTED IN SIMILAR WORK. I HAVEN'T WON YET. THE LONGER YOU WAIT, THE MORE LIKELY IT IS THAT YOU'LL RETURN TO A SMOKING CRATER AND ONE TRULY IRATE HALFLING.]], [[#LIGHT_GREEN#*재앙은 일어나지 않았습니다. 마침내 하플링이 돌아왔고 당신에게 그을린 작은 유리병을 주었습니다.*#WHITE#
+잘 쓰고, 비슷한 일에 관심이 있으면 언제든지 찾아와라. 난 아직 이긴 게 아니니까. 네가 오래 기다릴수록, 네가 돌아왔을 때 연기 나는 구덩이랑 깊게 빡친 하플링을 만나게 될 확률이 높아지는 거 아니겠냐.]], "_t")
+t([[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#WHITE#
+YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], [[#LIGHT_GREEN#*마침내 하플링이 유리병과 작은 주머니를 들고 돌아왔습니다.*#WHITE#
+여기 네 영약, 그리고 이것도. 이 주입물은 존나게 희귀한 거니까 낭비하지 마라.]], "_t")
+t("THANK YOU. I'LL BE OFF.", "고마워, 이제, 가야겠어.", "_t")
+t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "어떤 영약 만드는 걸 도와주고 싶은데? 그냥 도와주려고 온거 맞지? 사랑의 영약 같은 걸 찾으러 온 얼간이는 아니지?", "_t")
+t("[Indicate the %s.]", "[%s 가리킨다.]", "tformat", nil, {"를"})
 t("[leave]", "[떠난다]", "_t")
+t("TAKE THIS LIST OF INGREDIENTS, AND HURRY THE HELL UP.", "재료 목록 받아, 그리고 제기랄, 서둘러.", "_t")
+t("I'LL BE OFF.", "이제, 가야겠어.", "_t")
+t("TOO SLOW, HAMBRAIN. ELIXIR'S MADE ALREADY, AND SOMEBODY ELSE WALKED OFF WITH THE REWARD. IF YOU'RE FEELING SORRY FOR YOURSELF, ASK WHETHER THIS IS MORE OR LESS PLEASANT THAN GETTING APPRECIABLE CHUNKS OF YOUR ANATOMY BLASTED CLEAN OFF YOUR BODY THIS MORNING. THAT'S RIGHT. BYE.", "너무 굼떠, 닭대가리. 영약은 이미 완성됐고, 다른 놈이 보상을 챙겨 갔다. 이걸로 좌절감이 든다면, 네 몸의 어떤 부분이 오늘 아침에 깔끔하게 날아갔다고 생각해 봐. 그것보단 낫지 않냐? 그럼 안녕.", "_t")
 t("Hrmph.", "후...", "_t")
 
 
@@ -3019,6 +3082,7 @@ section "game/modules/tome/data/chats/chronomancy-see-threads.lua"
 section "game/modules/tome/data/chats/command-staff.lua"
 
 t("staff", "마법 지팡이", "_t")
+t("How is it that you speak?", "너 말은 어떻게 하는 거야?", "_t")
 
 
 ------------------------------------------------
@@ -4554,6 +4618,7 @@ section "game/modules/tome/data/general/npcs/ghost.lua"
 t("ghost", "유령", "entity subtype")
 t("undead", "언데드", "entity type")
 t("dread", "공포", "entity name")
+t("dreadmaster", "두려움의 주인", "entity name")
 
 
 ------------------------------------------------
@@ -5436,7 +5501,6 @@ t("spiritwalker's ", "영혼 보행자의 ", "entity name")
 t("spiritwalk", "영혼 걸음", "entity keyword")
 t(" of magery", " 마법 ", "entity name")
 t("magery", "마법", "entity keyword")
-t(" of unlife", " 불생 ", "entity name")
 t("unlife", "불생", "entity keyword")
 t(" of the vagrant", " 부랑자 ", "entity name")
 t("vagrant", "부랑자", "entity keyword")
@@ -5482,7 +5546,7 @@ t("void", "공허", "entity keyword")
 t(" of disengagement", " 후퇴 ", "entity name")
 t("disengage", "후퇴", "entity keyword")
 t("blood-soaked ", "피에 젖은 ", "entity name")
-t("blood", "할마법", "entity keyword")
+t("blood", "피", "entity keyword")
 t("restorative ", "복원의 ", "entity name")
 t("restorative", "복원", "entity keyword")
 t("invigorating ", "원기 주입 ", "entity name")
@@ -5814,8 +5878,8 @@ t("leafwalker's ", "나뭇잎 걸음의 ", "entity name")
 t("learwalker", "나뭇잎걸음", "entity keyword")
 t("catburglar's ", "도둑의 ", "entity name")
 t("catburglar", "도둑", "entity keyword")
-t(" of blood magic", " 혈마법 ", "entity name")
-t("blood", "할마법", "entity keyword")
+t(" of blood magic", " 피의 마법 ", "entity name")
+t("blood", "피", "entity keyword")
 t(" of fortune", " 행운 ", "entity name")
 t("fortune", "행운", "entity keyword")
 t(" of sanctity", " 신성 ", "entity name")
@@ -5831,12 +5895,12 @@ t("bounder", "망나니", "entity keyword")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/egos/infusions.lua"
 
-t(" of the warrior", " 전사 ", "entity name")
-t(" of the duelist", " 결투사 ", "entity name")
-t(" of the wizard", " 마법사 ", "entity name")
-t(" of the psychic", " 초능력자 ", "entity name")
-t(" of the sneak", " 도적 ", "entity name")
-t(" of the titan", " 수호자 ", "entity name")
+t(" of the warrior", "전사의 ", "entity name")
+t(" of the duelist", "결투사의 ", "entity name")
+t(" of the wizard", "마법사의 ", "entity name")
+t(" of the psychic", "초능력자의 ", "entity name")
+t(" of the sneak", "도적의 ", "entity name")
+t(" of the titan", "수호자의 ", "entity name")
 
 
 ------------------------------------------------
@@ -7357,10 +7421,15 @@ section "game/modules/tome/data/general/objects/slings.lua"
 t("weapon", "무기", "entity type")
 t("Slings are used to hurl stones or metal shots at your foes.", "투석구는 적에게 돌이나 금속 탄환을 던질 때 사용됩니다.", "_t")
 t("rough", "거친", "entity short_name")
+t("rough leather sling", "거친 가죽 투석구", "entity name")
 t("cured", "가공", "entity short_name")
+t("cured leather sling", "가공 가죽 투석구", "entity name")
 t("hardened", "경화", "entity short_name")
+t("hardened leather sling", "경화 가죽 투석구", "entity name")
 t("reinforced", "강화", "entity short_name")
+t("reinforced leather sling", "강화 가죽 투석구", "entity name")
 t("drakeskin", "용가죽", "entity short_name")
+t("drakeskin leather sling", "용가죽 투석구", "entity name")
 t("ammo", "화살과 탄환", "entity type")
 t("shot", "탄환", "entity subtype")
 t("sling", "투석구", "entity combat talented")
@@ -7508,6 +7577,7 @@ section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua"
 t("Genocide", "종족 학살", "entity name")
 t("Eldoral Last Resort", "엘도랄의 최후의 수단", "entity name")
 t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
+t("#ROYAL_BLUE#The golem decides to change it's name to #{bold}#%s#{normal}#.", "#ROYAL_BLUE#골렘은 스스로의 이름을 #{bold}#%s#{normal}#로 바꾸기로 하였다.", "log")
 
 
 ------------------------------------------------
@@ -8298,6 +8368,7 @@ t("spellblaze", "마법폭발", "newLore category")
 ------------------------------------------------
 section "game/modules/tome/data/lore/spellhunt.lua"
 
+t("age of dusk", "황혼의 시대", "newLore category")
 
 
 ------------------------------------------------
@@ -12771,7 +12842,7 @@ t("Call Shadows", "그림자 소환", "talent name")
 t("Your hate is too low to call another shadow!", "다른 그림자를 소환하기에는 당신의 증오가 부족하다!", "logPlayer")
 t("Summon", "소환", "_t")
 t([[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Each shadow costs 5 hate to summon. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
-		Shadows ignore %d%% of the damage dealt to them by their master.]], [[이 기술이 활성화 된 동안, 지속적으로 그림자들이 소환됩니다. 최대 %d 개의 그림자가 레벨 %d 로 전장에서 기술 시전자를 돕기위해 소환됩니다. 그림자를 소환 할 때마다 증오가 5 소모됩니다. 그림자는 비교적 약한 전투원이지만 다음과 같은 기술을 사용할 수 있습니다: 기술 레벨 %d 의 비전 재건을 사용해 스스로를 회복합니다 / 기술 레벨 %d 의 그림자 기습으로 적을 공격합니다 / 위상 관문으로 순간 이동합니다.
+		Shadows ignore %d%% of the damage dealt to them by their master.]], [[이 기술이 활성화 된 동안, 지속적으로 그림자들이 소환됩니다. 최대 %d 개의 그림자가 레벨 %d 로 전장에서 시전자를 돕기위해 소환됩니다. 그림자를 소환 할 때마다 증오가 5 소모됩니다. 그림자는 비교적 약한 전투원이지만 다음과 같은 기술을 사용할 수 있습니다 : 기술 레벨 %d 의 비전 재건을 사용해 스스로를 회복합니다 / 기술 레벨 %d 의 그림자 기습으로 적을 공격합니다 / 위상 관문으로 순간 이동합니다.
 		그림자는 주인이 가한 피해의 %d%% 를 무시합니다.]], "tformat")
 t("Shadow Warriors", "그림자 전사", "talent name")
 t("Instill hate in your shadows, strengthening their attacks. They gain %d%% extra Accuracy and %d%% extra damage. The fury of their attacks gives them the ability to try to Dominate their foes, increasing all damage taken by that foe for 4 turns (level %d, %d%% chance at range 1). They also gain the ability to Fade when hit, avoiding all damage until their next turn (%d turn cooldown).", "그림자에 증오를 먹여 공격능력을 향상시킵니다. 그림자는 %d%% 향상된 정확도와 %d%% 향상된 피해량을 갖습니다. 그림자의 공격에 서린 분노로 인해 그림자는 적들에게 기술 레벨 %d 의 지배를 %d%% 확률로 적용해 적들이 받는 피해를 4 턴 동안 늘립니다.(하지만 확률은 기술 레벨 1 의 지배를 따릅니다) 또한 흐려짐 기술을 얻게되어, 다음 턴 동안 받는 모든 피해를 무효화합니다 (재사용 대기시간은 %d 턴 입니다).", "tformat")
@@ -15198,7 +15269,7 @@ t([[Surround yourself with a shield that will absorb %d%% of any fire/cold/light
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
 		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], [[속성 피해를 %d%% 막아냅니다. 한 번에 최대 %d 피해를 막아냅니다.
+		You can only have two of these shields active at once.]], [[시전자 주변을 보호막으로 둘러 싸, 받는 화염/냉기/빛/비전 속성 피해를 %d%% 막아냅니다. 한 번에 최대 %d 피해를 막아냅니다.
 		보호막이 피해를 흡수할 때마다 피해량의 일부를 염력으로 변환하여 염력을 1 회복합니다. 추가로, 매 %0.1f 피해를 흡수할 때마다 염력을 1 회복합니다. 1 턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
 		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴 동안 보호막이 흡수한 피해량의 2 배에 해당하는 강도를 가진 보호막을 생성합니다.
 		보호막의 최대 피해 흡수량과 최대 염력 회복 제한은 정신력의 비례하여 증가합니다.
@@ -15890,8 +15961,8 @@ t([[Assume a defensive mental state.
 		At raw talent level 5 you will be able to reflexively block up to one attack per turn with a %d%% chance, based on your cunning. Each trigger requires and uses 10 Psi.
 		This requires a telekinetically-wielded weapon.]], [[방어적인 정신상태를 수용합니다.
 		1 턴 동안, 다음 물리 공격을 염동력으로 쥐고 있는 무기로 완전히 방어한 뒤 주 무기를 휘둘러 %d%% 피해로 반격합니다.
-		순수 기술 레벨이 3 이상일 경우, 공격과 함께 적의 무장을 3 턴 동안 해제시킵니다.
-		순수 기술 레벨이 5 이상일 경우, 이 기술을 사용하지 않아도 매 턴 마다 1 번씩 %d%% 확률의 반사적인 막기를 사용 할 수 있습니다. 이 확률은 교활함 능력치에 따라 결정됩니다. 반사적으로 막을 때마다 염력이 10 씩 소모되고, 염력이 부족한 경우 반사적인 막기를 사용하지 않습니다.
+		이 기술에 투자된 기술 점수가 3 이상일 경우, 공격과 함께 적의 무장을 3 턴 동안 해제시킵니다.
+		이 기술에 투자된 기술 점수가 5 이상일 경우, 이 기술을 사용하지 않아도 매 턴 마다 1 번씩 %d%% 확률의 반사적인 막기를 사용 할 수 있습니다. 이 확률은 교활함 능력치에 따라 결정됩니다. 반사적으로 막을 때마다 염력이 10 씩 소모되고, 염력이 부족한 경우 반사적인 막기를 사용하지 않습니다.
 		기술을 사용하기 위해서는 염동력 장착 무기가 필요합니다]], "tformat")
 t("Impale", "꿰뚫기", "talent name")
 t("You cannot do that without a weapon in your telekinetic slot.", "염동력 장착 무기가 없이는 할 수 없다.", "logPlayer")
@@ -17261,7 +17332,7 @@ t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
 		최대 %d명의 적에게 피해를 줍니다.
 		자신이 빙결된 상태라면, 빙결 상태를 즉시 해제합니다.
 		피해량은 주문력에 비례합니다.]], "tformat")
-t("Uttercold", "절대영도", "talent name")
+t("Uttercold", "절대 영도", "talent name")
 t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%% and ignoring %d%% cold resistance of your targets
 		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], [[차가운 냉기로 주위를 둘러싸 냉기 피해를 %0.1f%%만큼 증가시키고, %d%%만큼의 냉기 저항을 무시합니다.
 		또한 얼음을 관통하여 공격하는 법을 배워, 언 적을 공격할 때, 얼음이 흡수하는 피해량이 %d%%만큼 감소합니다.]], "tformat")
@@ -17402,7 +17473,7 @@ t([[Ghouls are nothing but mere tools to you, for %d turns you render them bloat
 		폭발에 휘말린 적은 무작위한 질병에 감염되어, 6 턴에 걸쳐 %0.2f 황폐 피해를 받고, 능력치 하나가 %d 감소합니다.
 		한 턴에 구울 하나만 폭발합니다. 지속시간이 얼마 남지 않은 구울이 항상 먼저 폭발합니다.
 		피해량과 질병의 위력은 주문력에 비례하여 증가합니다.
-		]], "tformat", {1,3,2,4})
+		]], "tformat", {1,3,2,4,5})
 t("Putrescent Liquefaction", "부패 구름", "talent name")
 t("#GREY#%s dissolves into the cloud of gore.", "#GREY#%s 녹아내려, 피와 살의 구름을 형성했다.", "logSeen", nil, {"는"})
 t([[Shattering up to %d ghouls or ghasts you create a putrescent swirling cloud of radius %d that follows you around for 3 turns per dead ghoul plus one turn. Oldest ghouls are prioritized for destruction.
@@ -17457,11 +17528,74 @@ t([[Your mastery of arcane flows allow you to reset the cooldown of up to %d of 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/necrosis.lua"
 
+t("Blurred Mortality", "희미한 필멸성", "talent name")
+t([[The line between life and death blurs for you.
+		You can only die when you reach -%d life but your maximum life is reduced by %d.
+		When you are below 1 life you gain %d%% to all resistances.
+		The life amount is based on your Constitution attribute.]], [[삶과 죽음의 경계가 흐려집니다.
+		시전자는 생명력이 -%d 에 도달해야 죽게되지만, 최대 생명력 역시 %d 감소합니다.
+		생명력이 1 이하일 경우, 모든 속성저항이 %d%% 상승합니다.
+		생명력 수치는 체격에 비례하여 증가합니다.]], "tformat")
+t("Across the Veil", "장막을 넘어", "talent name")
+t([[As you learn to tiptoe across the veil of death you learn to master the dark forces.
+		Each time you cross the 1 life threshold you automatically unleash a blast of %0.2f frostdusk damage in radius %d.
+		For each creature that takes damage from the blast one of your talent's cooldown is reduced by %d turns.
+		The damage will increase with your Spellpower.]], [[죽음의 장막을 넘는 방법을 터득해, 어둠의 힘을 다루는 방법을 배우게됩니다.
+		생명력이 1 이하로 떨어질 경우, 즉시 반경 %d 칸의 폭발을 해방시켜 %0.2f 서리 황혼 피해를 가합니다.
+		폭발에 휘말린 적 하나 당, 시전자의 기술 하나의 재사용 대기시간이 %d 턴 감소합니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,1,3})
+t("Runeskin", "룬 피부", "talent name")
+t("effects disabled because of an infusion", "주입물 때문에 룬 피부의 효과가 해제된다.", "_t")
+t("effects disabled because of no rune", "룬이 없기 때문에 룬 피부의 효과가 해제된다.", "_t")
+t("%d runes active", "%d 개의 룬 활성화 중", "tformat")
+t([[As you continue to attune your body to undeath you reject nature as a whole.
+		As long as you have no natural infusion on your skin, each rune on it increases your minimum negative life by -%d and your spells critical chance by %0.1f%%.
+
+		Currently: %s]], [[불사 그 자체에 신체를 적응시켜, 자연을 완전히 배격하게 되었습니다.
+		시전자가 자연적인 주입물을 사용하지 않을 때, 세겨진 룬 하나 당, 시전자의 최저 생명력 하한이 -%d 으로 감소되고, 주문 치명타 확류이 %0.1f%% 증가합니다.
+
+		현재 수치 : %s]], "tformat")
+t("Spikes of Decrepitude", "노쇠의 가시", "talent name")
+t([[Each turn you unleash dark powers through your runeskin.
+		For each rune you have a random foe in sight will be hit by a spike of decrepitude, dealing %0.2f frostdusk damage.
+		A foe can only be hit by one spike per turn.
+		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]], [[매 턴, 룬 피부를 통해 어두운 힘을 해방합니다.
+		세겨진 룬 하나 당, 시전자의 시야 내의 무작위한 적은 노쇠의 가시에 찔려, %0.2f 서리 황혼 피해를 가합니다.
+		하나의 적에 대해, 가시는 한 턴에 1 번만 피해를 가합니다.
+		시전자의 생명력이 1 이하일 경우, 가시는 대상이 가하는 모든 피해를 %d%% 줄입니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/nightfall.lua"
 
+t("Invoke Darkness", "일어나는 어둠", "talent name")
+t([[Conjures up a beam of darkness, doing %0.2f darkness damage.
+		At level 5, the beam widens to hit foes on each side.
+		The damage will increase with your Spellpower.]], [[어둠의 광선을 쏘아, %0.2f 어둠 피해를 가합니다.
+		기술 레벨 5 일 때, 광선은 보다 넓어져, 양 옆의 적까지 동시에 타격합니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Night Sphere", "밤의 구체", "talent name")
+t([[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature entering the circle will receive either a bane of confusion or a bane of blindness.
+		Only one bane can affect a creature.
+		Banes last for %d turns, and also deal %0.2f darkness damage.
+		The damage will increase with your Spellpower.]], [[반경 %d 칸 내의 대지에서 검은 연기가 5 턴 동안 솟아나, 마법진에 진입하는 모든 적은 혼란의 파멸이나 실명의 파멸의 영향을 받습니다.
+		하나의 대상 당, 하나의 파멸이 적용됩니다.
+		파멸은 %d 턴 동안 지속되고, %0.2f 암흑 피해를 가합니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Erupting Shadows", "그림자 분출", "talent name")
+t([[Shadows engulf your foes, anytime you deal darkness damage to a creature affected by a bane, the bane's duration is increased by 1 turn and the shadows erupt, dealing an additional %0.2f darkness damage.
+		The damage can only happen once per turn per creature, the turn increase however always happens.
+		The damage will increase with your Spellpower.]], [[그림자가 적의 숨통을 조여, 파멸의 영향을 받고있는 적에게 어둠 피해를 가할 때마다, 파멸의 지속 시간이 1 턴 연장되고, 그림자가 분출되어 추가적인 %0.2f 암흑 피해를 가합니다.
+		이렇게 발생하는 피해는 하나의 적에 대해, 한 턴에 1 번만 발생합니다. 지속시간 연장 효과는 언제나 일어납니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("River of Souls", "영혼의 강", "talent name")
+t([[You summon a river of tortured souls to launch an onslaught of darkness against your foes.
+		Every turn for 5 turns you launch a projectile towards the designated area that explodes in radius %d, dealing %0.2f darkness damage.
+		Each projectile consumes a soul and the spell ends when it has sent 5 projectiles or when you have no more souls to use.
+		The damage will increase with your Spellpower.]], [[고문당한 영혼들의 강을 불러내, 적에게 어둠의 맹공을 퍼붓습니다.
+		5 턴 동안, 대상 지역을 향해 투사체를 매 턴 발사해, 반경 %d 칸의 폭발을 일으키고, %0.2f 어둠 피해를 입힙니다.
+		투사체들은 원혼을 하나씩 소모하며. 투사체가 5 개 발사되거나, 남은 원혼이 없을 때 효과가 중지됩니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -17506,12 +17640,67 @@ t([[Create a perfect lookalike of your own form made out of pure light near a cr
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/rime-wraith.lua"
 
+t("Rime Wraith", "서리 분노", "talent name")
+t([[You summon a Rime Wraith inside of you, an intangible creature, that haunts both foes and allies for %d turns.
+		Every turn the wraith will select a new target and jump to it.
+		When the wraith enters a creature they are covered in hoarfrost for 3 turns:
+		- if friendly: increases cold resistance by %d%%, converts all damage done to cold and increases cold damage by %d%%.
+		- if hostile: reduces cold resistance by %d%% and move %d%% slower
+		When selecting a target the wraith prefers one that is not affected by hoarfrost if possible.
+		]], [[자신의 내면으로부터 서리 분노를 소환합니다. 서리 분노는 무형의 존재로, 적과 아군을 %d 턴 동안 성에에 뒤덮히게 합니다.
+		매 턴, 서리 분노는 새로운 희생양을 찾습니다.
+		서리 분노가 개체 속으로 들어갈 때, 대상은 3 턴 동안 성에에 뒤덮힙니다.
+		- 우호적인 대상일 경우: 냉기 저항이 %d%% 증가하고, 모든 피해가 냉기 속성으로 치환됩니다. 또한 대상이 가하는 냉기 속성 피해가 %d%% 증가합니다.
+		- 적대적인 대상일 경우: 냉기 저항이 %d%% 감소하고, 이동 속도가 %d%% 감소합니다.
+		서리 분노는 가능한 한, 아직 성에에 덮히지 않은 대상을 주로 선택합니다.
+		]], "tformat")
+t("Frigid Plunge", "빠저드는 오한", "talent name")
+t([[When switching targets your rime wraith now always prefers the one farther away if possible.
+		Any creatures on the path of the wraith while it travels are affected:
+		- if friendly: they are healed for %d
+		- if hostile: they take %0.2f cold damage, because the wraith is inside the creature the damage fully ignores any damage shield
+		The damage and healing will increase with your Spellpower.]], [[대상을 변경할 때, 이제 서리 분노는 가능한 경우, 가장 멀리있는 적을 선호하게됩니다.
+		서리 분노의 이동 경로에 존재하는 모든 개체는 다음과 같은 효과를 받습니다.
+		- 우호적인 대상일 경우: 생명력이 %d 회복됩니다.
+		- 적대적인 대상일 경우: %0.2f 냉기 피해를 받습니다. 서리 분노는 적의 본체 그 자체를 직접 공격하기 때문에 모든 피해 보호막을 완전히 무시합니다.
+		회복량과 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Gelid Host", "얼어붙는 숙주", "talent name")
+t([[By crushing one more soul you reinforce your existing rime wraith, duplicating it out of its current host.
+		The new wraith will exist for %d turns and cannot be used for another cast of Gelid Host.
+		When it is created the current host and all foes in radius %d are blasted for %0.2f cold damage.
+		The damage will increase with your Spellpower.]], [[원혼을 하나 더 소모해, 이미 존재하는 서리 분노를 복제합니다.
+		새로운 서리 분노는 %d 턴 동안 유지되고, 얼어붙은 숙주의 대상이 될 수 없습니다.
+		복제 시, 서리 분노의 숙주와 반경 %d 칸 내의 모든 적은 폭발에 휘말려, %0.2f 냉기 피해를 받습니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Permafrost", "만년설", "talent name")
+t([[Hoarfrost now has additional effects:
+		- if friendly: magical and physical saves increased by %d, at level 5 healing factor is also increased by 15%%.
+		- if hostile: magical and physical saves reduced by %d, at level 5 all talents cool down 15%% slower.
+		]], [[성에가 다음과 같은 효과를 추가로 갖게됩니다.
+		- 우호적인 대상일 경우: 물리 내성과 주문 내성이 %d 증가합니다. 기술 레벨 5 일때, 회복 효율도 15%% 증가합니다.
+		- 적대적인 대상일 경우: 물리 내성과 주문 내성이 %d 감소합니다, 기술 레벨 5 일때, 모든 기술의 재사용 대기시간이 15%% 느리게 돌아갑니다.
+		]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/spectre.lua"
 
+t("Ghost Walk", "유령 걸음", "talent name")
+t([[Taking on a spectral form, you teleport to the target tile within range %d. 
+		For 3 turns after using this spell, you gain the ability to instantly teleport back to your original tile as long as you are within range of it.]], [[유령같은 형체를 취해, 반경 %d 칸 내의 장소로 이동합니다. 
+		이 주문을 사용하고 난 후, 범위 내에만 있다면, 3 턴 동안 원래 있던 위치로 돌아올 수 있는 능력을 갖게됩니다.]], "tformat")
+t("Ghost Walk - Return", "유령 걸음 - 귀환", "talent name")
 t("You do not have line of sight.", "시야 밖의 대상입니다.", "logPlayer")
+t("%s's ghost walk fizzles!", "%s의 유령 걸음이 실패했다!", "logSeen")
+t("Return to the location you used Ghost Walk from.", "유령 걸음을 사용했던 장소로 돌아갑니다.", "tformat")
+t("Spectral Sight", "유령의 시야", "talent name")
+t([[While in your spectral form from Ghost Walk and for %d turns afterwards, you gain vision of all enemies within radius %d.
+In addition, at all times you gain the ability to sense undead within %d tiles, and can perceive any foe within %d tiles of your necrotic minions.]], [[유령 걸음을 사용하고, 이후 %d 턴 동안 반경 %d 칸 내의 모든 적을 감지할 수 있게됩니다.
+추가로, 지속 효과로써, 반경 %d 칸 내의 언데드들을 감지할 수 있게되며, 강령술 하수인들을 기준으로 반경 %d 칸 내의 적을 감지할 수 있게됩니다.]], "tformat")
+t("Intangibility", "비존재", "talent name")
+t("While in your spectral form from Ghost Walk and for %d turns afterwards, damage and detrimental effects have a %d%% chance to harmlessly pass through you.", "유령 걸음을 사용하고, 이후 %d 턴 동안, 모든 피해와 부정적인 효과가 %d%% 확률로 시전자에게 해를 끼치지 않고 그대로 통과합니다.", "tformat")
+t("Path to Beyond", "저 너머로의 길", "talent name")
+t("On using Ghost Walk - Return, you create a portal that summons %d spirits around you for %d turns. The spirits do very little damage, but taunt all enemies in radius 3 into attacking them.", "유령 걸음 - 귀환을 사용할 때, 시전자 주변에 %d 체의 귀신을 소환하는 차원문을 %d 턴 동안 엽니다. 귀신들은 아주 경미한 피해만을 입히지만, 반경 3 칸 내의 모든 적을 도발해 자신들에게 공격을 강제합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -17580,20 +17769,42 @@ t("Golem basic capacity.", "골렘 기본 능력.", "_t")
 t("Drolem basic capacity.", "드롤렘 기본 능력.", "_t")
 t("drolem", "드롤렘", "_t")
 t("golem", "골렘", "talent category")
+t("Become of the master of bones, creating skeletal minions to do your bidding.", "뼈의 주인이 되어, 의지대로 스켈레톤 하수인들을 만들어 낼 수 있게됩니다.", "_t")
+t("master of bones", "뼈의 주인", "_t")
+t("Become of the master of flesh, creating ghoul minions to do your bidding", "육신의 주인이 되어, 의지대로 구울 하수인들을 만들어 낼 수 있게됩니다.", "_t")
+t("master of flesh", "육신의 주인", "_t")
+t("Full and total control over your undead army.", "언데드 군단을 완전 무결하게 조종합니다.", "_t")
+t("master necromancer", "강령술의 주인", "_t")
 t("Manipulate darkness itself to slaughter your foes.", "어둠 그 자체를 조종해 적을 학살합니다.", "_t")
 t("nightfall", "황혼", "_t")
+t("Summon an undead minion of pure darkness to harass your foes.", "순수한 어둠으로 이루어진 강령술 하수인을 만들어 적들을 농락합니다.", "_t")
+t("dreadmaster", "두려움의 주인", "_t")
+t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "강령술사들이 모두를 지배했던 황혼의 시대의 영광스런 날들을 다시 불러옵니다.", "_t")
+t("age of dusk", "황혼의 시대", "_t")
 t("Use the rotting cold doom of the tomb to fell your foes.", "묘지의 차갑고 부패한 힘을 사용해 적을 쓰러뜨립니다.", "_t")
 t("grave", "묘지", "_t")
-t("Crush the souls of your foes to improve yourself.", "적의 영혼을 짓뭉개고 스스로를 강화합니다.", "_t")
-t("animus", "증오", "_t")
-t("necrosis", "사령술", "_t")
+t("Wither the land into a cold, dead ground to protect yourself.", "냉기로 땅을 황폐화 시키고, 죽은 땅으로 자신을 보호합니다.", "_t")
+t("glacial waste", "빙하 황무지", "_t")
+t("Summon an undead minion of pure cold to harass your foes.", "순수한 냉기로 이루어진 강령술 하수인을 만들어 적들을 농락합니다.", "_t")
+t("rime wraith", "서리 분노", "_t")
+t("Crush the souls of your foes to improve yourself.", "적의 영혼을 짓뭉게, 자신의 힘으로 사용합니다.", "_t")
+t("animus", "원혼", "_t")
+t("Learn to fasten your foes way into the grave.", "적들을 빠르게 묘지로 보내는 방법을 익힙니다.", "_t")
+t("death", "죽음", "_t")
+t("Doom to all your foes. Crush them.", "적들에게 파멸을 선사합니다. 모두 부셔지리라.", "_t")
+t("eradication", "박멸", "_t")
+t("Gain control over death, by unnaturally expanding your life.", "비 정상적으로 목숨을 늘린 결과, 죽음을 다스릴 수 있게됩니다.", "_t")
+t("necrosis", "강령술", "_t")
+t("Turn into a spectre to move around the battlefield.", "유령으로 변해 전장을 거닙니다.", "_t")
+t("spectre", "유령", "_t")
 t("Infuse arcane forces into your shield.", "방패에 비전의 힘을 주입합니다.", "_t")
-t("eldritch shield", "엘드리치 방패", "_t")
+t("eldritch shield", "뒤틀린 방패", "_t")
 t("Summon stony spikes imbued with various powers.", "다양한 힘이 주입된 암석 기둥을 소환합니다.", "_t")
-t("eldritch stone", "엘드리치 암석", "_t")
+t("eldritch stone", "뒤틀린 암석", "_t")
 t("Harness the power of the world to turn into a Deeprock Form.", "세상의 힘을 통제해 기반암 형태로 변신합니다.", "_t")
 t("deeprock", "기반암", "_t")
 t("spell", "주문", "talent category")
+t("#GREY#%s can not be healed this way!", "#GREY#%s 이 방법으로 회복할 수 없다!", "logSeen", nil, {"는"})
 t("Necrotic Minion", "사령의 하수인", "_t")
 
 
@@ -17739,6 +17950,51 @@ t("Increases the caster's global speed by %d%%.", "시전자의 전체 속도를
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/thaumaturgy.lua"
 
+t("Orb of Thaumaturgy", "주술의 보주", "talent name")
+t([[You create an orb attuned to thaumaturgy for %d turns.
+		While it lasts, any beam spell you cast will be duplicated and also cast for free at the orb for %d%% of the normal damage.
+		]], [[%d 턴 동안 유지되는 주술의 보주를 만듭니다.
+		지속시간 동안, 시전자가 시전하는 모든 광선 주문이 복제되어, 구체가 원래의 %d%% 피해로 같은 주문을 시전합니다.
+		]], "tformat")
+t("Multicaster", "다중 시전자", "talent name")
+t([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
+		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
+		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
+		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
+		The additional cast will cost mana but no turn and will not active its cooldown.
+		During Aether Avatar only compatible spells are used.]], [[광선 주문의 시전은 본능의 영역에 다다라, 동시에 다른 주문을 손쉽게 엮어낼 수 있게됩니다.
+		광선 마법을 시전할 때, %d%% 확률로 시전자가 알고있는 공격 주문을 자동으로 시전합니다.
+		주술의 보주로 복제된 광선 주문도 이 효과를 발동시킵니다.
+		이 효과는 한 턴에 1 번 발동되며, 주술의 보주가 활성화 된 상태라면 2 번까지 발동됩니다.
+		추가 시전에는 마나가 소모되지만 턴을 소모하지 않고, 재사용 대기시간 역시 적용되지 않습니다.
+		에테르의 화신의 지속 시간 동안, 에테르의 화신에 맞는 주문들만 사용됩니다.]], "tformat")
+t("Slipstream", "후폭풍", "talent name")
+t("#PURPLE#Your Slipstream does not have enough resources!", "#PURPLE#당신은 후폭풍을 사용할 충분한 마나가 없다!", "logPlayer")
+t("#PURPLE#Your Slipstream regenerates to full!", "#PURPLE#당신의 후폭풍은 완전히 충전되었다!", "logPlayer")
+t([[By weaving arcane triggers around you feet you can use the residual energies of your beam spells for free movement.
+		Each time you cast a beam spell you can move right afterwards without spending a turn.
+		This spell has %d charges. Once all charges are spent it unsustains.
+		If you exit combat with some charges left it will after 10 turn regenerates its charges, if you have enough mana.]], [[비전의 방아쇠를 발 밑에 생성해, 광선 주문의 남은 에너지를 이용해 즉시 이동할 수 있게됩니다.
+		매 턴, 광선 주문을 사용한 뒤, 턴의 소모 없이 이동할 수 있게됩니다.
+		이 주문은 %d 번 충전되어 있으며, 충전을 모두 소모하면 주문이 비활성화됩니다.
+		전투에서 벗어나고 나고 10 턴 후, 마나만 충분히 존재 한다면 후폭풍이 완전히 충전됩니다.]], "tformat")
+t("Elemental Array Burst", "원소 배열 폭발", "talent name")
+t([[Using your near-perfect knowledge of beam spells you combine them all into a powerful 3-wide beam of pure energy.
+		The beam deals %0.2f thaumic damage and always goes as far as possible.
+		Thaumic damage can never be resisted by anything but "Resistance: All", always uses your highest resistance penetration and highest damage type bonus and can never be altered into other damage types.
+		It can trigger Burning Wake and Hurricane.
+		It is affected by the wet status (+30%% damage) if you are in Shivgoroth Form.
+		It has a 25%% chance to either stun or freeze the targets for 3 turns (if Crystalline Focus or Uttercold are active, respectively).
+		Each time you deal damage with a beam spell, the remaining cooldown is reduced by 1 (this can happen only once per turn).
+		The damage will increase with your Spellpower.]], [[완벽에 가까운 광선 주문에 대한 지식으로, 순수한 에너지로 이루어진 3 칸 두께의 광선을 만들어냅니다.
+		광선은 %0.2f 주술 피해를 주며, 항상 최대 사거리로 발사됩니다.
+		주술 피해는 "모든 속성 저항" 으로만 저항할 수 있고, 시전자의 가장 높은 속성 피해 변동치와, 가장 높은 저항 관통 수치를 이용하며, 다른 속성으로 변환될 수 없습니다.
+		이 주문은 타오르는 궤적과 태풍의 눈 효과를 발동합니다.
+		시전자가 쉬브고로스의 형상을 취한 상태라면, 젖음 효과에 영향을 받습니다 (피해량 30%% 증가)
+		결정화된 집중이나, 절대 영도가 활성화 되어있을 시, 25%% 확률로, 대상에게 3 턴 동안 기절이나 동결을 적용합니다.
+		광선 주문으로 피해를 가할 때 마다, 남은 재사용 대기시간이 1 턴 씩 감소합니다 (이 효과는 한 턴에 1 번만 발동합니다.).
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Thaumaturgy Unlock Checker", "주술사 해제 체크", "talent name")
 
 
 ------------------------------------------------
@@ -18495,7 +18751,7 @@ t([[Raw magical damage channels through the caster's weapon, increasing raw Phys
 		If you are using a shield this will only occur 50%% of the time.
 		If you are dual wielding this will only occur 50%% of the time.
 		At level 5 the ball becomes radius 2.
-		]], [[당신의 무기에 순수한 마력을 집중시킵니다. 마법의 %d%% 만큼 물리력을 증가시킵니다 (현재 증가량: %d).
+		]], [[당신의 무기에 순수한 마력을 집중시킵니다. 마법의 %d%% 만큼 순수 물리력을 증가시킵니다 (현재 증가량: %d).
 		근접 치명타를 낼 시, 반경 %d 범위의 비전의 구슬을 해방시켜 %0.2f 피해를 가합니다.
 		물리력 증가치는  주문력과 기술 레벨에 비례하여 증가합니다.
 		방패를 사용할 시, 확률은 반으로 감소합니다.
@@ -19415,7 +19671,7 @@ t([[You manifest a thin layer of aether all around you.
 		Any time you are the target of a dispel effect the aether strengthens around you, protecting you from the dispel and any further ones for 6 turns and unsustaining this spell.
 		While undisturbed the layer of aether provides you with 40 raw spellpower.]], [[시전자는 에테르로 이루어진 얇은 막을 만들어 주변에 두릅니다. 
 		마법 해제 효과의 대상이 될 때, 에테르의 막은 강화되어, 시전자를 대상으로 한 마법 해제 효과를 6 턴 동안 무시하고, 이 주문을 비활성화합니다.
-		방해받지 않는 상태의 에테르 막은 시전자에게 40 주문력을 제공합니다.]], "tformat")
+		방해받지 않는 상태의 에테르 막은 시전자에게 40 순수 주문력을 제공합니다.]], "tformat")
 t("Mystical Cunning", "신화적인 교묘함", "talent name")
 t("Know how to either prepare traps or apply poisons", "독이나 함정을 다룰 수 있을 것", "_t")
 t([[Your study of arcane forces has let you develop a new way of applying your aptitude for trapping and poisons.
@@ -19441,7 +19697,7 @@ t([[You have learned to harness your latent arcane powers, channeling them throu
 		Your physical critical chance is increased by 25%% of your bonus spell critical chance.]], [[잠재적인 마법의 힘을 끌어올려, 무기에 실어냅니다.
 		다음과 같은 효과가 발생합니다:
 		장비한 무기의 적용 능력치에 마법 능력치가 50%% 만큼 추가됩니다.
-		기본 물리력의 100%%에 해당하는 수치가 기본 주문력에 추가됩니다.
+		순수 물리력의 100%%에 해당하는 수치가 순수 주문력에 추가됩니다.
 		물리 치명타 확률이 주문 치명타 확률의 25%% 만큼 상승합니다.]], "tformat")
 t("Temporal Form", "시간의 형상", "talent name")
 t("Have cast over 1000 spells and visited a zone outside of time", "마법을 1,000 번 이상 사용하였으며, 시간 밖의 공간을 방문한 적이 있을 것", "_t")
@@ -19515,9 +19771,55 @@ t("Lich", "리치", "talent name")
 t("Is a living creature that knows necromancy", "사령술을 알고있는 살아있는 생명체일 것", "_t")
 t("Have completed the ritual", "의식을 모두 완료했을 것", "_t")
 t("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "#GREY#강력한 언데드로 변하자, 당신의 몸이 생명의 피를 강하게 거부하는 것을 느꼈다.", "log")
+t([[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
+
+#{italic}#You may now choose to customize the appearance of your Lich, this can not be changed afterwards.]], [[#GREY#당신은 생명이 서서히 사라지는 것을 느꼈다. 그 빈 자리는 오직 순수한 비전의 힘으로 채워지리라! 당신의 육신은 뼈 위에서 썩어가기 시작했고, 당신의 두 눈알은 굴러 떨어졌다. 당신은 마침내 리치로 다시 태어나게 되었다!
+
+#{italic}#당신은 리치의 외형을 변경할 수 있습니다. 지금 당신이 적용한 외형은 이후에 변경할 수 없습니다.]], "_t")
+t("Lich Cosmetic Options", "리치 치장 옵션", "_t")
 t("Customize Appearance", "외형 변경", "_t")
 t("Use Default", "기본 사용", "_t")
+t("#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!", "#GREY#당신은 생명이 서서히 사라지는 것을 느꼈다. 그 빈 자리는 오직 순수한 비전의 힘으로 채워지리라! 당신의 육신은 뼈 위에서 썩어가기 시작했고, 당신의 두 눈알은 굴러 떨어졌다. 당신은 마침내 리치로 다시 태어나게 되었다!", "_t")
 t("Lichform", "리치 형상", "_t")
+t("#DARK_ORCHID#You are on your way to Lichdom. #{bold}#Your next death will finish the ritual.#{normal}#", "#DARK_ORCHID#당신은 리치의 형상으로 향하는 여로의 정점에 서있다. #{bold}#죽음은 이 의식을 성공적으로 끝마치게 해줄 것이다.#{normal}#", "say")
+t([[This is your true goal and the purpose of all necromancy - to become a powerful and everliving Lich!
+		Once learnt, the next time you are killed, the arcane forces you unleash will be able to rebuild your body into the desired Lichform.
+		Liches are immune to poisons, diseases, fear, cuts, stuns, do not need to breath and are 20%% resistant to cold and darkness.
+		Liches also gain +12 Magic, Willpower and Cunning, 60%% chance to ignore critical hits, +4 life rating (not retroactive), +35 spell and mental saves and 7 mana regeneration.
+
+		Liches gain a new racial tree with the following talents:
+		- Neverending Unlife: A Lich body is extremely resilient, being able to go into negative life and when destroyed it can regenerate itself.
+		- Frightening Presence: Your mere presence is enough to shatter the resolve of most, reducing their saves, damage and movement speed.
+		- Doomed for Eternity: As a creature of doom and despair you now constantly spawn undead shadows around you.
+		- Commander of the Dead: You are able to infuse all undead party members (including yourself) with un-natural power, increasing your physical and spellpower.
+		]], [[이것은 모든 강령술의 진정한 끝이자, 최종 목적입니다 - 강력하고 영생하는 리치가 되는 것!
+		이 특수 기술을 배우면, 다음번 당신이 살해당할 때, 강력한 마법의 힘이 해방되어 신체를 당신이 항상 바래왔던 리치의 형상으로 재구축합니다.
+		리치는 독, 질병, 공포, 출혈, 기절에 면역이며, 쉽을 쉴 필요가 없습니다. 또한 냉기와 어둠 저항이 20%% 증가합니다.
+		리치는 마법, 의지, 교활 능력치가 12 상승하고, 60%% 확률로 치명타를 무시합니다. 또한 레벨 당 생명력 증가율이 +4 가 됩니다. (이 수치가 그대로 적용됩니다) 또한, 주문과 정신 내성이 +35 상승하며 마나 재생이 7 상승합니다.
+
+		리치는 다음 기술들이 포함된 새로운 종족 계열을 얻습니다.
+		- 끝나지않는 불생 : 리치의 신체는 극도로 강인합니다. 생명력이 1 이하로 떨어저도 살아남을 수 있고, 파괴되었을 때, 다시 재생할 수 있게됩니다.
+		- 두려운 존재감 : 당신의 존재만으로도 만인의 결의를 깨부수기 충분합니다. 각종 내성, 피해량과 이동 속도를 감소시킵니다.
+		- 영원히 저주받을 자 : 절망과 파멸의 존재들이 당신의 곁에서 끊임없이 생성됩니다.
+		- 죽은 자들의 지휘관 : 자신을 포함한, 모든 언데드 군단 개개인에게 비 자연적인 힘을 불어넣어 주문력과 물리력을 증가시킵니다.
+		]], "tformat")
+t("Unlocked the High Thaumaturgist evolution", "고위 주술사 진화를 해금", "_t")
+t("High Thaumaturgist", "고위 주술사", "_t")
+t([[Thaumaturgists have unlocked a deeper understanding of their spells, allowing them to combine the elements into new ways and to empower them.
+		The spells Flame, Manathrust, Lightning, Pulverizing Auger and Ice Shards are permanently turned into 3-wide beams spells.
+		In addition they have access to the unique Thaumaturgy class tree:
+		- Orb of Thaumaturgy: a temporary orb that duplicates any beam spells that you cast
+		- Multicaster: When casting a beam spell adds a chance to also cast an other archmage spell
+		- Slipstream: Allows movement when casting beams
+		- Elemental Array Burst: a powerful, multi-elemental beam spell that can inflict all elemental ailments and can not be resisted
+		#CRIMSON#The fine spellcasting required for wide beams and all thaumaturgy spells can only happen while wearing cloth. Anything heavier will hinder the casting too much.]], [[주술사들은 주문에 대한 깊은 이해에 도달해, 새로운 방법으로 여러 원소를 혼합해 주문을 강력하게 강화합니다.
+		불꽃, 마나 쐐기, 번개, 파쇄의 나선 그리고 얼음 조각 주문들 영구적으로 3 칸 두께의 광선으로 변화합니다.
+		추가로, 주술 기술 계열에 접근할 수 있게됩니다.
+		- 주술의 보주 : 당신이 시전하는 주문을 그대로 복제하여 시전합니다.
+		- 다중 시전자 : 광선 주문을 사용할 때, 확률적으로 다른 마도사 주문을 시전합니다.
+		- 후폭풍 : 광선을 시전하면서 이동할 수 있게됩니다.
+		- 원소 배열 폭발 : 강력한, 다중 속성의 광선을 발사합니다. 이 주문은 모든 속성의 추가 효과를 가하고, 저항이 불가능합니다.
+		#CRIMSON#넓은 광선을 쏘기 위한 양질의 주문 시전과 모든 주술 주문의 시전을 위해서는, 천 옷을 입고 있어야 합니다. 그보다 무거운 장비는 주문 시전을 심각하게 방해합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -19733,10 +20035,38 @@ t([[Gnaw your target for %d%% damage.  If your attack hits, the target may be in
 ------------------------------------------------
 section "game/modules/tome/data/talents/undeads/lich.lua"
 
+t("Neverending Unlife", "끝나지않는 불생", "talent name")
+t("Lich Regeneration (%d turns)", "리치 재생 (%d 턴)", "tformat")
+t([[A Lich's body is extremely hard to fully destroy. You only die with your life reaches -%d.
+		In addition even when destroyed your body regenerates to full life.
+		The first time this happens, your transformation into a Lich is completed, granting you all the powers of Lichdom.
+		Any further death will still regenerate you but you will need to consume the essence of a creature of unique/boss/elite boss or more rank within %d turns to sustain yourself.
+		If you have not killed one when the duration expires or if you are killed again in this duration, you die permanently.
+		If this happens this power can never re-activate, even if you managed to resurrect by other means.]], [[리치의 신체는 완전히 파괴되기에는 너무나도 튼튼합니다. 생명력이 -%d 에 도달하기 전까지 죽지 않습니다.
+		추가로, 신체가 파괴될 지라도, 일정 조건 하에 최대 생명력으로 회복됩니다.
+		이 효과가 처음 발생하면, 리치로의 변신이 완료되어, 리치의 모든 힘을 누릴 수 있게됩니다.
+		그 이후로도 죽음에서 살아남을 수 있지만, %d 턴 내에 단일/보스/정예 보스를 쓰러뜨려, 그 정수를 소모해 스스로를 유지해야 합니다.
+		지속 시간 중, 해당하는 적을 쓰러뜨리지 못했거나, 지속 시간 중에 또 다시 살해당할 경우, 영구히 사망하게됩니다.
+		이 효과가 발생하면, 설령 다른 방식으로 부활했다 하더라도, 이 기술은 절대 재사용될 수 없습니다.]], "tformat")
 t("Frightening Presence", "두려운 존재감", "talent name")
+t([[Your mere presence is terrying to any foes that dare stand against you.
+		Every turn all foes in radius %d must make a metal save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
+		If they successfully resist, they are immune for %d turns.]], [[시전자의 존재만으로도 감히 대적하려는 적들을 겁에 질리게합니다.
+		매 턴, 반경 %d 칸 내의 모든 적들은 시전자의 물리력, 주문력 중 높은 수치에 대항한 정신 내성 판정을 하여, 실패할 경우 겁에 질려, (공포 면역력을 무시합니다) 모든 내성이 %d 감소하고, 가하는 모든 피해량이 %d%% 줄어들고 이동속도가 %d%% 감소합니다.
+		판정에 성공할 경우, %d 턴 동안 이 효과에 면역이 됩니다.]], "tformat")
+t("Shadow Invoke Darkness", "어둠을 부르는 그림자", "talent name")
+t("Shadow Cold Touch", "차가운 그림자 손길", "talent name")
 t([[Bathes the target in flames doing %0.2f damage
 		The damage will increase with the Magic stat]], [[대상을 불태워, %0.2f 피해를 줍니다.
 		피해는 마법에 비례하여 증가합니다]], "tformat")
+t("Doomed For Eternity", "영원히 저주받을 자", "talent name")
+t([[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
+		Shadows ignore %d%% of the damage dealt to them by their master.]], [[이 기술이 활성화 된 동안, 최대 %d 레벨의 그림자 %d 체를 지속적으로 소환해, 전투를 돕게합니다. 그림자는 비교적 약한 전투원이지만 다음과 같은 기술을 사용할 수 있습니다 : 기술 레벨 %d 의 비전 재건을 사용해 스스로를 회복합니다 / 기술 레벨 %d 의 그림자 기습으로 적을 공격합니다 / 위상 관문으로 순간 이동합니다.
+		그림자는 주인이 가한 피해의 %d%% 를 무시합니다.]], "tformat")
+t("Commander of the Dead", "죽은 자들의 지휘관", "talent name")
+t([[You are so full with power that it overflows out of you whenever you cast a spell.
+		Upon spell cast you have %d%% chances to boost the physical power, spellpower, mindpower and all saves of all friendly undeads in sight (including yourself) by %d for 4 turns.]], [[주문을 시전할 때 마다, 강력한 힘이 끓어 넘치게됩니다.
+		주문을 시전할 때마다 %d%% 확률로 시야 내의 모든 우호적인 언데드들의 물리력, 주문력, 정신력과 모든 내성을 4 턴 동안 %d 증가시킵니다. 시전자도 이 효과의 영향을 받습니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -21407,30 +21737,30 @@ t("The target is infected by a disease, reducing its dexterity, strength, and co
 t("#Target# is afflicted by a crippling illness!", "#Target2# 병으로 인해 고통받는다!", "_t")
 t("#Target# is free from the illness.", "#Target2# 병으로부터 회복됐다.", "_t")
 t("Armor Corroded", "갑옷 부식", "_t")
-t("The target has been splashed with acid, reducing armour by %d%% (#RED#%d#LAST#).", "산에 적셔짐 : 방어력 -%d%% (#RED#%d#LAST#).", "tformat")
+t("The target has been splashed with acid, reducing armour by %d%% (#RED#%d#LAST#).", "산성 물질에 닿음 : 방어력 -%d%% (#RED#%d#LAST#).", "tformat")
 t("#Target#'s armor corrodes!", "#Target#의 갑옷이 부식된다!", "_t")
-t("#Target# is fully armored again.", "#Target2# 다시 완전히 방어 되고있다.", "_t")
+t("#Target# is fully armored again.", "#Target2# 다시 무장을 갖췄다.", "_t")
 t("Surging mana", "마나 쇄도", "_t")
-t("The mana surge engulfs the target, regenerating %0.2f mana per turn.", "마나 쇄도 : 마나 재생 +%0.2f.", "tformat")
+t("The mana surge engulfs the target, regenerating %0.2f mana per turn.", "마나의 쇄도가 대상을 둘러쌈 : 마나 재생 +%0.2f.", "tformat")
 t("#Target# starts to surge mana.", "#Target1# 마나를 끌어모으기 시작했다.", "_t")
 t("+Manasurge", "+마나 쇄도", "_t")
 t("#Target# stops surging mana.", "#Target1# 마나를 모두 끌어모았다.", "_t")
 t("-Manasurge", "-마나 쇄도", "_t")
 t("Mana Overflow", "마나 범람", "_t")
-t("The mana is overflowing, increasing your max mana by %d%%.", "마나 범람 : 최대 마나 +%d%%", "tformat")
+t("The mana is overflowing, increasing your max mana by %d%%.", "마나가 범람함 : 최대 마나 +%d%%", "tformat")
 t("#Target# starts to overflow mana.", "#Target#의 마나가 범람하기 시작했다.", "_t")
 t("+Mana Overflow", "+마나 범람", "_t")
 t("#Target# stops overflowing mana.", "#Target#의 마나가 범람을 끝냈다.", "_t")
 t("-Mana Overflow", "-마나 범람", "_t")
 t("Stoned", "석화", "_t")
-t("The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "석화 : 행동할 수 없음, 최대 체력의 30% 이상의 피해를 받으면 확률적으로 부서져 즉사 / 독과 상처에 면역 / 물리 저항 +20% / 화염 저항 +80% / 전기 저항 +50%", "_t")
+t("The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "대상이 돌로 변함 : 바닥에 고정됨 / 행동할 수 없음 / 최대 체력의 30% 이상의 피해를 한번에 받으면 부서져 즉사 / 독과 상처에 면역 / 물리 저항 +20% / 화염 저항 +80% / 전기 저항 +50%", "_t")
 t("stone", "암석", "effect subtype")
 t("#Target# turns to #GREY#STONE#LAST#!", "#Target1# #GREY#석화#LAST#된다!", "_t")
 t("+Stoned", "+석화", "_t")
 t("#Target# is no longer a #GREY#statue#LAST#.", "#Target2# 더 이상 #GREY#석화#LAST# 상태가 아니다.", "_t")
 t("-Stoned", "-석화", "_t")
 t("Arcane Storm", "비전 폭풍", "_t")
-t("The target is the epicenter of a terrible arcane storm, providing +%d%% arcane resistance.", "비전 폭풍의 중심 / 비전저항 +%d%%.", "tformat")
+t("The target is the epicenter of a terrible arcane storm, providing +%d%% arcane resistance.", "끔찍한 비전 폭풍의 중심 : 비전저항 +%d%%.", "tformat")
 t("Earthen Barrier", "대지의 방어막", "_t")
 t("Reduces physical damage received by %d%%.", "받는 물리피해 -%d%%.", "tformat")
 t("#Target# hardens its skin.", "#Target#의 피부가 경화된다.", "_t")
@@ -22188,6 +22518,7 @@ t("stun", "기절", "effect subtype")
 t("Frightening Presence", "두려운 존재감", "_t")
 t("The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%.", "모든 저항 -%d / 가하는 모든 피해량 -%d%% / 이동속도  -%d%%.", "tformat")
 t("fear", "공포", "effect subtype")
+t("Commander of the Dead", "죽은 자들의 지휘관", "_t")
 t("lich", "리치", "effect subtype")
 t("Consume Soul", "영혼 삼키기", "_t")
 t("Lord of Skulls", "해골의 군주", "_t")
@@ -22213,11 +22544,13 @@ t("wound", "상처", "effect subtype")
 t("Shattered Remains", "산산조각난 잔해", "_t")
 t("bone", "뼈", "effect subtype")
 t("skeleton", "스켈레톤", "effect subtype")
+t("Rime Wraith", "서리 분노", "_t")
 t("cold", "냉기", "effect subtype")
 t("Cleansing Flames", "정화의 불꽃", "_t")
 t("cleanse", "정화", "effect subtype")
 t("fire", "화염", "effect subtype")
 t("#Target# stops burning.", "#Target#의 화상이 치유되었다.", "_t")
+t("Ghost Walk", "유령 걸음", "_t")
 t("darkness", "암흑", "effect subtype")
 t("movement", "이동", "effect subtype")
 t("Metaflow", "초월의 흐름", "_t")
@@ -23239,7 +23572,7 @@ t("psychic_drain", "초능력 흡수", "effect subtype")
 t("Lich Hunger", "리치의 굶주림", "_t")
 t("To complete your resurrection you must kill a unique/boss/elite boss rank creature before the duration expires.", "부활을 완성시키기 위해서는 단일/보스/정예 보스 등급의 적을 지속 시간내에 처치해야한다.", "_t")
 t("lich", "리치", "effect subtype")
-t("#DARK_ORCHID#Lichform regeneration is complete!#{normal}#", "#DARK_ORCHID#리치폼의 재생이 완료되었다!#{normal}#", "say")
+t("#DARK_ORCHID#Lichform regeneration is complete!#{normal}#", "#DARK_ORCHID#정수를 흡수하여 재생을 완료했다!#{normal}#", "say")
 t("Sensing Everything", "모든 것 감지", "_t")
 t("Improves senses, allowing the detection of everything.", "모든 것을 감지.", "_t")
 t("sense", "감지", "effect subtype")
@@ -23728,7 +24061,8 @@ t("Grappling Defensively", "방어적인 유술", "_t")
 t("Has a %d%% chance to counter attack with a defensive throw when avoiding a melee attack, possibly throwing the target to the ground and stunning it. (%0.1f throws remaining)", "근접 공격 회피 시 %d%% 확률로 대상을 업어침. 기술에 당한 대상은 속박되고, 기절함. (남은 업어치기 횟수 %0.1f)", "tformat")
 t("Ravage", "대파괴", "_t")
 t("each turn.", "매 턴.", "_t")
-t("The target is being ravaged by distortion, taking %0.2f physical damage %s", "%s %0.2f 물리피해 받음", "tformat", {2,1})
+t("and is losing one physical effect turn.", "그리고 매 턴 물리 효과가 하나씩 제거됨.", "_t")
+t("The target is being ravaged by distortion, taking %0.2f physical damage %s", " %0.2f 물리피해 받음 %s", "tformat", {2,1})
 t("+Ravage", "+대파괴", "_t")
 t("#Target# is no longer being ravaged.", "#Target2# 대파괴의 영향에서 벗어났다.", "_t")
 t("-Ravage", "-대파괴", "_t")
