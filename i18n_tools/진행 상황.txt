@@ -824,6 +824,8 @@ section "game/dlcs/tome-orcs/data/talents/spells/undead-drake.lua"
 
 section "game/dlcs/tome-orcs/data/talents/steam/artillery.lua"
 
+기술 그냥 다함 
+
 
 장비 설명들--------------------------------------------------------------
 section "game/modules/tome/data/general/objects/2haxes.lua" Stéphanois
@@ -901,6 +903,20 @@ section "game/modules/tome/class/FortressPC.lua" Stéphanois
 
 section "game/modules/tome/class/interface/PlayerExplore.lua" Stéphanois
 section "game/modules/tome/class/interface/WorldAchievements.lua" Stéphanois
+
+
+section "game/dlcs/tome-ashes-urhrok/data/birth/corrupted.lua"
+section "game/dlcs/tome-ashes-urhrok/data/birth/doomelf.lua"
+section "game/dlcs/tome-ashes-urhrok/data/birth/races_cosmetic.lua"
+section "game/dlcs/tome-cults/data/birth/demented.lua"
+section "game/dlcs/tome-cults/data/birth/drem.lua"
+section "game/dlcs/tome-cults/data/birth/krog.lua"
+section "game/dlcs/tome-cults/data/birth/misc.lua"
+section "game/dlcs/tome-orcs/data/birth/classes/empyreal.lua"
+section "game/dlcs/tome-orcs/data/birth/classes/tinker.lua"
+section "game/dlcs/tome-orcs/data/birth/races/orc.lua"
+
+
 
 지속 효과들--------------------------------------------------------------
 section "game/modules/tome/data/damage_types.lua" Stéphanois ** 네크로맨서 번역 안함
