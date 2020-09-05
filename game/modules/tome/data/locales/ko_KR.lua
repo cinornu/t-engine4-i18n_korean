@@ -18107,7 +18107,7 @@ section "game/modules/tome/data/talents/techniques/2hweapon.lua"
 
 t("Death Dance", "죽음의 무도", "talent name")
 t("You cannot use Death Dance without a two-handed weapon!", "양손 무기가 없으면 죽음의 무도를 사용할 수 없습니다!", "logPlayer")
-t("Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage.", "회전하며 반경 %d 칸까지 무기를 뻗어 범위 내에 %d%% 무기 피해를 줍니다.", "tformat")
+t("Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage.", "회전하며 반경 인접한 적들에게 %d%% 무기 피해를 줍니다.", "tformat")
 t("Berserker", "광전사", "talent name")
 t("You cannot use Berserker without a two-handed weapon!", "양손 무기가 없으면 광전사를 사용할 수 없습니다!", "logPlayer")
 t([[You enter an aggressive battle stance, increasing Accuracy by %d and Physical Power by %d, at the cost of -10 Defense and -10 Armour.
@@ -24062,7 +24062,7 @@ t("Has a %d%% chance to counter attack with a defensive throw when avoiding a me
 t("Ravage", "대파괴", "_t")
 t("each turn.", "매 턴.", "_t")
 t("and is losing one physical effect turn.", "그리고 매 턴 물리 효과가 하나씩 제거됨.", "_t")
-t("The target is being ravaged by distortion, taking %0.2f physical damage %s", " %0.2f 물리피해 받음 %s", "tformat", {2,1})
+t("The target is being ravaged by distortion, taking %0.2f physical damage %s", " %0.2f 물리피해 받음 %s", "tformat")
 t("+Ravage", "+대파괴", "_t")
 t("#Target# is no longer being ravaged.", "#Target2# 대파괴의 영향에서 벗어났다.", "_t")
 t("-Ravage", "-대파괴", "_t")
