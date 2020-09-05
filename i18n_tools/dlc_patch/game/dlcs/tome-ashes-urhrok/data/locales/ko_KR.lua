@@ -15,8 +15,16 @@ t("Weapon in hand and sheathed in flame, a Doombringer is a terrifying force in 
 t("Doombringers are engines of war, cleaving and burning their way through entire armies.", "종말을 부르는 자는 그 자체로 전쟁 기계로, 적의 군대 전체를 불사르고 도살합니다.", "_t")
 t("The most powerful Doombringers can harness the full power of their demonic ties and transform themselves into a gigantic demon.", "강력한 종말을 부르는 자는, 그들의 악마적인 힘을 마음껏 휘두르며, 거대한 악마로 변신할 수 있게됩니다.", "_t")
 t("Their most important stats are: Strength and Magic", "그들에게 가장 중요한 능력치는 힘과 마법입니다.", "_t")
+t("#LIGHT_BLUE# * +4 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +4 힘, +0 민첩, +2 체격", "_t")
+t("#LIGHT_BLUE# * +2 Magic, +0 Willpower, +1 Cunning", "#LIGHT_BLUE# * +2 마법, +0 의지, +1 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +3", "_t")
+t("Demonologist", "악마술사", "birth descriptor name")
+t("Most simply run, but I understand: a distant planet, ravaged and damned. Burnt creations seek righteous vengeance, Urh'Rok's ashes, now destruction's engines. Harness their power! Capture and tame! I call on you, demons - UNLEASH THE FLAMES!", "다른이들이 모두 도망갈 때, 나는 깨달았다. 머나먼 행성, 파괴되고 저주받은... 불타버린 존재들이 정당한 복수를 구도하고, 이제 울흐'록의 잿더미 속에서 파괴의 엔진이되었다. 그들의 힘을 휘둘러라! 그들을 포획하고 길들여라! 내, 그대에게 명하노니, 악마들이여 - 화염을 해방하라!", "_t")
+t("Contrary to popular beliefs Demonologists are not the pawns of demons, they enact pacts with them but always very carefully.", "사람들에게 알려진것과 달리, 악마학자들은 악마의 하수인이 아닙니다. 악마학자들은 악마와 계약을 맺긴 하지만, 항상 매우 신중하게 계약을 맺습니다.", "_t")
+t("They use those demonic powers for their own purpose, often evil but a few have been known to use demonic powers to fight demons.", "그들은 악마의 힘을 스스로의 목적을 위해 사용합니다. 대게는 사악하지만, 소수의 악마학자들은 악마에게 대항하기 위해 악마의 힘을 사용하는 방법을 배웠습니다.", "_t")
+t("Demonologists are melee fighters, bashing their foes skulls with their shields while calling down rains of fire and darkness.", "악마학자는 근접 전사로, 화염과 어둠의 비를 내리게 하는 동안, 적들의 두개골을 방패로 깨부숩니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, +0 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +2", "_t")
 
@@ -24,13 +32,48 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/birth/doomelf.lua"
 
+t("Doomelf", "둠엘프", "birth descriptor name")
+t([[The demons of Mal'Rok would never bless you!
+Three could tell them of the horrors elves wrought.
+One rages and torments in deep oceans blue,
+one fights for the third with the cultists she taught.
+Silence these beings, maintain your deception,
+and then you may witness a new elf's conception...]], [[말'록의 악마들은 당신을 결코 축복하지 않을겁니다!
+오직 세 악마만이 그들에게 엘프들이 야기한 공포에 대해 말할 수 있었습니다.
+첫번째 악마는 격노한 채, 바다 깊은 곳에서 고문당했고,
+두번째 악마는는 세번째 악마를 위해 그녀가 가르친 광신도들과 함께 싸우고 있습니다.
+이 존재들의 목소리를 앗아가고, 기만을 유지하십시오.
+그리하면 새로운 엘프의 탄생을 목도할 수 있겠지요...]], "_t")
+t("Doomelves are not a real race, they are Shaloren that have been taken by demons and transformed into harbingers of doom.", "그들은 둠엘프라는 별개의 종족이 아니라, 악마들에게 납치되고, 파멸의 인도자로써 변화된 샬로레들입니다.", "_t")
+t("They enjoy unleashing torments and suffering on their victims.", "둠 엘프들은 희생자를 고문하고, 고통 속에 빠뜨리는 것을 즐깁니다.", "_t")
+t("They possess the #GOLD#Haste of the Doomed#WHITE# talent which allows them to phase away once in a while.", "둠엘프는 #GOLD#몰락한 자의 신속함#WHITE# 기술로 위상에서 빠르게 이탈할 수 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * -2 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * -2 힘, +1 민첩, +1 체격", "_t")
+t("#LIGHT_BLUE# * +3 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +2 의지, +0 교활", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 9", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 9", "_t")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 12%", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/birth/races_cosmetic.lua"
 
+t("Demonic Red Skin", "악마적인 붉은 피부", "_t")
+t("Demonic Horns 1", "악마의 뿔 1", "_t")
+t("Demonic Horns 2", "악마의 뿔 2", "_t")
+t("Demonic Horns 3", "악마의 뿔 3", "_t")
+t("Demonic Horns 4", "악마의 뿔 4", "_t")
+t("Demonic Horns 5", "악마의 뿔 5", "_t")
+t("Demonic Horns 6", "악마의 뿔 6", "_t")
+t("Demonic Horns 7", "악마의 뿔 7", "_t")
+t("Demonic Horns 8", "악마의 뿔 8", "_t")
+t("Demonic Tatoos 1", "악마적인 문신 1", "_t")
+t("Demonic Tatoos 2", "악마적인 문신 2", "_t")
+t("Demonic Tatoos 3", "악마적인 문신 3", "_t")
+t("Demonic Tatoos 4", "악마적인 문신 4", "_t")
+t("Demonic Tatoos 5", "악마적인 문신 5", "_t")
+t("Demonic Tatoos 6", "악마적인 문신 6", "_t")
+t("Demonic Tatoos 7", "악마적인 문신 7", "_t")
+t("Demonic Tatoos 8", "악마적인 문신 8", "_t")
 
 
 ------------------------------------------------
@@ -804,7 +847,7 @@ section "game/dlcs/tome-ashes-urhrok/data/talents/misc/races.lua"
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
 t("doomelf", "둠엘프", "_t")
 t("race", "종족", "talent category")
-t("Haste of the Doomed", "몰락한 자의 재빠름", "talent name")
+t("Haste of the Doomed", "몰락한 자의 신속함", "talent name")
 t("You must have an empty space to teleport to.", "순간이동을 하기 위해선 비어있는 위치를 대상으로 해야한다.", "logPlayer")
 t([[Hasten yourself out of phase, teleporting you to a specific location up to %d spaces away.
 		You can activate this talent up to twice within the same turn, but the second activation will not be instant.
