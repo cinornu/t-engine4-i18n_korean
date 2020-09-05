@@ -904,6 +904,7 @@ section "game/modules/tome/class/FortressPC.lua" Stéphanois
 section "game/modules/tome/class/interface/PlayerExplore.lua" Stéphanois
 section "game/modules/tome/class/interface/WorldAchievements.lua" Stéphanois
 
+캐릭터 생성시 birth들
 
 section "game/dlcs/tome-ashes-urhrok/data/birth/corrupted.lua"
 section "game/dlcs/tome-ashes-urhrok/data/birth/doomelf.lua"
@@ -915,6 +916,8 @@ section "game/dlcs/tome-cults/data/birth/misc.lua"
 section "game/dlcs/tome-orcs/data/birth/classes/empyreal.lua"
 section "game/dlcs/tome-orcs/data/birth/classes/tinker.lua"
 section "game/dlcs/tome-orcs/data/birth/races/orc.lua"
+section "game/dlcs/tome-orcs/data/birth/races/whitehooves.lua"
+section "game/dlcs/tome-orcs/data/birth/races/yeti.lua"
 
 
 
