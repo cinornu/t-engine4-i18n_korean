@@ -2575,6 +2575,7 @@ t("Blond Beard 4", "금빛 수염 4", "_t")
 t("Blond Beard 5", "금빛 수염 5", "_t")
 t("Redhead Beard 1", "붉은 수염 1", "_t")
 t("Redhead Beard 2", "붉은 수염 2", "_t")
+t("Redhead Beard", "붉은 수염", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 
 
@@ -2816,12 +2817,15 @@ t("Skin Color 5", "피부 색 5", "_t")
 t("Skin Color 6", "피부 색 6", "_t")
 t("Skin Color 7", "피부 색 7", "_t")
 t("Skin Color 8", "피부 색 8", "_t")
+t("Hair 1", "머리카락 1", "_t")
+t("Hair 2", "머리카락 2", "_t")
 t("Redhead Hair 1", "붉은 머리카락 1", "_t")
 t("Redhead Hair 2", "붉은 머리카락 2", "_t")
 t("Beard 1", "수염 1", "_t")
 t("Beard 2", "수염 2", "_t")
 t("Redhead Beard 1", "붉은 수염 1", "_t")
 t("Redhead Beard 2", "붉은 수염 2", "_t")
+t("Mustache", "콧수염", "_t")
 
 
 ------------------------------------------------
@@ -2844,8 +2848,13 @@ t("Skin Color 6", "피부 색 6", "_t")
 t("Skin Color 7", "피부 색 7", "_t")
 t("Skin Color 8", "피부 색 8", "_t")
 t("Skin Color 9", "피부 색 9", "_t")
+t("Hair 1", "머리카락 1", "_t")
+t("Hair 2", "머리카락 2", "_t")
+t("Hair 3", "머리카락 3", "_t")
+t("Hair 4", "머리카락 4", "_t")
 t("Beard 1", "수염 1", "_t")
 t("Beard 2", "수염 2", "_t")
+t("Beard 3", "수염 3", "_t")
 t("Tatoos 1", "문신 1", "_t")
 t("Tatoos 2", "문신 2", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
@@ -13395,7 +13404,7 @@ t([[Creates a shield of impenetrable stone around you for %d turns, absorbing up
 		효과가 끝날때, 최소 평정을 초과한 평정은 마나로 변환되어, 비전 에너지의 폭풍의 핵이됩니다. 방패 막기의 재사용 대기시간이 초기화됩니다.
 		폭풍은 마나로 변환된 평정만큼의 비전 피해를 시전자를 기준으로 반경 %d 칸 내의 모든 개체에게 가합니다. (최대 %d 피해량)
 		지속 효과로써, 쉬는 동안 턴 당 %0.2f 마나가 회복됩니다.
-		방패의 피해 흡수량은 의지에 비례하여 증가합니다.]], "tformat")
+		방패의 피해 흡수량은 의지에 비례하여 증가합니다.]], "tformat", {1,2,4,3,5})
 
 
 ------------------------------------------------
