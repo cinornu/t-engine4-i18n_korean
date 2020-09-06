@@ -180,7 +180,8 @@
 "game/modules/tome/data/chats/alchemist-golem.lua"
 "game/modules/tome/data/chats/alchemist-hermit.lua"
 "game/modules/tome/data/chats/alchemist-last-hope.lua"
-"game/modules/tome/data/chats/angolwen-leader.lua" Khelerd 완
+"game/modules/tome/data/chats/angolwen-leader.lua"
+"game/modules/tome/data/chats/angolwen-staves-store.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
