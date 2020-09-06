@@ -208,9 +208,9 @@ t("#00FF00#You are no longer encumbered.", "#00FF00#다시 움직일 수 있게 
 t("-ENCUMBERED!", "-무게 제한!", "_t")
 t("You cannot switch equipment while sleeping!", "잠자고 있는 동안 장비를 바꿀 수 없다!", "logPlayer")
 t("unarmed", "맨손", "_t")
-t("%s warps space-time to equip: %s.", "%s 시공간을 왜곡해 장착함: %s.", "logSeen", nil, {"이"})
-t("%s switches %s weapons to: %s.", "%s %s 무기를 %s 변경했다.", "logSeen", nil, {"는",[3]="으로"})
-t("%s wears %s%s.", "%s %s %s 장비했다.", "logSeen", nil, {"는"})
+t("%s warps space-time to equip: %s.", "%s 시공간을 왜곡해 장착했다: %s.", "logSeen", nil, {"이"})
+t("%s switches %s weapons to: %s.", "%s %s의 무기를 변경했다: %s.", "logSeen", nil, {"은"})
+t("%s wears %s%s.", "%s %s%s 장비했다.", "logSeen", nil, {"는"})
 t("antimagic", "반마법", "_t")
 t("%s #LIGHT_STEEL_BLUE#Triggers an Anomaly! (%s).", "%s #LIGHT_STEEL_BLUE#이상현상을 발동했다! (%s).", "logSeen")
 t("#STEEL_BLUE#Casting %s.", "#STEEL_BLUE#%s 시전.", "logPlayer", nil, {"을"})
@@ -477,6 +477,7 @@ t("%s's %s", "%s 의 %s", "tformat")
 ------------------------------------------------
 section "game/modules/tome/class/NPC.lua"
 
+t("#PINK#Your summoned %s disappears.", "#PINK#소환했던 %s 사라졌다.", "logPlayer", nil, {"가"})
 t("Target: ", "대상: ", "_t")
 t("none", "없음", "_t")
 
@@ -830,10 +831,14 @@ t("default", "기본", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/Player.lua"
 
+t("There is an item here: %s", "물건이 있다: %s", "logSeen")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#당신은 너무 많은 것을 들고있어 움직일 수 없다!", "logPlayer")
 t("#FF0000#Drop some of your items.", "#FF0000#물건을 조금 버리십시오.", "logPlayer")
+t("#PINK#Your summoned %s disappears.", "#PINK#소환했던 %s 사라졌다.", "logPlayer", nil, {"가"})
+t("LOW HEALTH!", "생명력 낮음!", "_t")
 t("suffocating", "질식", "_t")
 t("%s available", "%s 사용 가능", "tformat")
+t("#00ff00#%sTalent %s is ready to use.", "#00ff00#기술 %s %s 사용할 수 있게 되었다.", "log", nil, {[2]="를"})
 t("something interesting", "흥미로운 것", "_t")
 t("at %s", "%s에 도착", "tformat")
 t("interesting terrain", "흥미로운 지형", "_t")
@@ -2575,6 +2580,7 @@ t("Blond Beard 4", "금빛 수염 4", "_t")
 t("Blond Beard 5", "금빛 수염 5", "_t")
 t("Redhead Beard 1", "붉은 수염 1", "_t")
 t("Redhead Beard 2", "붉은 수염 2", "_t")
+t("Redhead Beard", "붉은 수염", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 
 
@@ -2816,12 +2822,15 @@ t("Skin Color 5", "피부 색 5", "_t")
 t("Skin Color 6", "피부 색 6", "_t")
 t("Skin Color 7", "피부 색 7", "_t")
 t("Skin Color 8", "피부 색 8", "_t")
+t("Hair 1", "머리카락 1", "_t")
+t("Hair 2", "머리카락 2", "_t")
 t("Redhead Hair 1", "붉은 머리카락 1", "_t")
 t("Redhead Hair 2", "붉은 머리카락 2", "_t")
 t("Beard 1", "수염 1", "_t")
 t("Beard 2", "수염 2", "_t")
 t("Redhead Beard 1", "붉은 수염 1", "_t")
 t("Redhead Beard 2", "붉은 수염 2", "_t")
+t("Mustache", "콧수염", "_t")
 
 
 ------------------------------------------------
@@ -2844,8 +2853,13 @@ t("Skin Color 6", "피부 색 6", "_t")
 t("Skin Color 7", "피부 색 7", "_t")
 t("Skin Color 8", "피부 색 8", "_t")
 t("Skin Color 9", "피부 색 9", "_t")
+t("Hair 1", "머리카락 1", "_t")
+t("Hair 2", "머리카락 2", "_t")
+t("Hair 3", "머리카락 3", "_t")
+t("Hair 4", "머리카락 4", "_t")
 t("Beard 1", "수염 1", "_t")
 t("Beard 2", "수염 2", "_t")
+t("Beard 3", "수염 3", "_t")
 t("Tatoos 1", "문신 1", "_t")
 t("Tatoos 2", "문신 2", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
@@ -13395,7 +13409,7 @@ t([[Creates a shield of impenetrable stone around you for %d turns, absorbing up
 		효과가 끝날때, 최소 평정을 초과한 평정은 마나로 변환되어, 비전 에너지의 폭풍의 핵이됩니다. 방패 막기의 재사용 대기시간이 초기화됩니다.
 		폭풍은 마나로 변환된 평정만큼의 비전 피해를 시전자를 기준으로 반경 %d 칸 내의 모든 개체에게 가합니다. (최대 %d 피해량)
 		지속 효과로써, 쉬는 동안 턴 당 %0.2f 마나가 회복됩니다.
-		방패의 피해 흡수량은 의지에 비례하여 증가합니다.]], "tformat")
+		방패의 피해 흡수량은 의지에 비례하여 증가합니다.]], "tformat", {1,2,4,3,5})
 
 
 ------------------------------------------------

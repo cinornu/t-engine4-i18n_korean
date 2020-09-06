@@ -3964,77 +3964,9 @@ t("simple", "simple", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/birth/races/orc.lua"
--- 9 entries
+-- 2 entries
 t("Jaws 1", "Jaws 1", "_t")
 t("Jaws 2", "Jaws 2", "_t")
-t("Orcs have a long and sad history. They are seen, and are, as an aggressive race that more than one time managed to imperil all of Maj'Eyal.", "Orcs have a long and sad history. They are seen, and are, as an aggressive race that more than one time managed to imperil all of Maj'Eyal.", "_t")
-t("But one year ago the Scourge from the West came and wiped four of the five Prides. And a hundred years ago King Toknor wiped all traces of orcs from Maj'Eyal.", "But one year ago the Scourge from the West came and wiped four of the five Prides. And a hundred years ago King Toknor wiped all traces of orcs from Maj'Eyal.", "_t")
-t("The orc race is dangerously on the brink of destruction. One wrong move is all that is needed.", "The orc race is dangerously on the brink of destruction. One wrong move is all that is needed.", "_t")
-t("But they are strong and will face whatever is needed to ensure a future of their own!", "But they are strong and will face whatever is needed to ensure a future of their own!", "_t")
-t("They possess the #GOLD#Orcish Fury#WHITE# which allows them to increase all their damage for a few turns.", "They possess the #GOLD#Orcish Fury#WHITE# which allows them to increase all their damage for a few turns.", "_t")
-t("#LIGHT_BLUE# * +2 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +2 Strength, +1 Dexterity, +1 Constitution", "_t")
-t("#LIGHT_BLUE# * -1 Magic, +1 Willpower, +1 Cunning", "#LIGHT_BLUE# * -1 Magic, +1 Willpower, +1 Cunning", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/birth/races/whitehooves.lua"
--- 17 entries
-t("Redhead Beard", "Redhead Beard", "_t")
-t("Hair 1", "Hair 1", "_t")
-t("Hair 2", "Hair 2", "_t")
-t("Hair 3", "Hair 3", "_t")
-t("Hair 4", "Hair 4", "_t")
-t("Horns 1", "Horns 1", "_t")
-t("Horns 2", "Horns 2", "_t")
-t("Horns 3", "Horns 3", "_t")
-t("Horns 4", "Horns 4", "_t")
-t("Whitehoof", "Whitehoof", "birth descriptor name")
-t("A clan of minotaurs turned to necromancy when faced with imminent destruction.", "A clan of minotaurs turned to necromancy when faced with imminent destruction.", "_t")
-t("Whitehooves are resilient and magic imbued undead, hardened by their trials and made stronger by their undeath.", "Whitehooves are resilient and magic imbued undead, hardened by their trials and made stronger by their undeath.", "_t")
-t("They now seek to help their orc allies, in hope they will help them back.", "They now seek to help their orc allies, in hope they will help them back.", "_t")
-t("They have access to #GOLD#special talents#WHITE# and a wide range of undead abilities:", "They have access to #GOLD#special talents#WHITE# and a wide range of undead abilities:", "_t")
-t("- silence resistance", "- silence resistance", "_t")
-t("- special whitehoof talents: dead hide, lifeless rush, essence drain", "- special whitehoof talents: dead hide, lifeless rush, essence drain", "_t")
-t("#LIGHT_BLUE# * +2 Magic, -3 Willpower, +1 Cunning", "#LIGHT_BLUE# * +2 Magic, -3 Willpower, +1 Cunning", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/birth/races/yeti.lua"
--- 16 entries
-t("Yeti", "Yeti", "birth descriptor name")
-t("Yetis are a towering mass of muscle.", "Yetis are a towering mass of muscle.", "_t")
-t("Hair 1", "Hair 1", "_t")
-t("Hair 2", "Hair 2", "_t")
-t("Beard 3", "Beard 3", "_t")
-t("Eyebrows", "Eyebrows", "_t")
-t("Fangs", "Fangs", "_t")
-t("Mustache", "Mustache", "_t")
-t("Kruk Yeti", "Kruk Yeti", "birth descriptor name")
-t("Infuse the mind, sacrifice the body but the Pride remains.", "Infuse the mind, sacrifice the body but the Pride remains.", "_t")
-t("Yetis are a towering mass of muscle. While normal yetis are non-sentient beasts this kind is special.", "Yetis are a towering mass of muscle. While normal yetis are non-sentient beasts this kind is special.", "_t")
-t("A few orcs of the Kruk pride have mastered techno-psionics, allowing them to literally hijack a yeti's mind and transfer their own mind inside.", "A few orcs of the Kruk pride have mastered techno-psionics, allowing them to literally hijack a yeti's mind and transfer their own mind inside.", "_t")
-t("Doing so drains their old knowledge and they need to start afresh, gaining considerable strength in the process; for the good of the Prides.", "Doing so drains their old knowledge and they need to start afresh, gaining considerable strength in the process; for the good of the Prides.", "_t")
-t("They possess the #GOLD#Algid Rage#WHITE# talent which allows them to encase their foes in blocks of ice.", "They possess the #GOLD#Algid Rage#WHITE# talent which allows them to encase their foes in blocks of ice.", "_t")
-t("#LIGHT_BLUE# * +5 Strength, -3 Dexterity, +4 Constitution", "#LIGHT_BLUE# * +5 Strength, -3 Dexterity, +4 Constitution", "_t")
-t("#LIGHT_BLUE# * +0 Magic, +1 Willpower, -1 Cunning", "#LIGHT_BLUE# * +0 Magic, +1 Willpower, -1 Cunning", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/birth/worlds.lua"
--- 13 entries
-t("Orcs: Embers of Rage", "Orcs: Embers of Rage", "_t")
-t("The Prides lie in ruins!", "The Prides lie in ruins!", "_t")
-t("The Sorcerers have been defeated!", "The Sorcerers have been defeated!", "_t")
-t("Orcs in all Var'Eyal are in dismay, hunted by the Sunwall and their newfound allies from the west.", "Orcs in all Var'Eyal are in dismay, hunted by the Sunwall and their newfound allies from the west.", "_t")
-t("The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "_t")
-t("But not all hope is lost.", "But not all hope is lost.", "_t")
-t("On the isolated Clork Peninsula lies the fifth pride: Kruk's Pride; unseen and unharmed by the Scourge.", "On the isolated Clork Peninsula lies the fifth pride: Kruk's Pride; unseen and unharmed by the Scourge.", "_t")
-t("Yet not all is great there either, the Sunwall offensive has set up an outpost blocking the way to the mainland.", "Yet not all is great there either, the Sunwall offensive has set up an outpost blocking the way to the mainland.", "_t")
-t("But the worst threat comes from the peninsula itself, the main inhabitants are not the orcs, but the Atmos Tribe.", "But the worst threat comes from the peninsula itself, the main inhabitants are not the orcs, but the Atmos Tribe.", "_t")
-t("A civilization of steam giants whose mastery of steamtech makes them incredible foes.", "A civilization of steam giants whose mastery of steamtech makes them incredible foes.", "_t")
-t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "_t")
-t("Craft your own steamsaws, rocket boots, steam powered armours, and all kind of steamy technology!", "Craft your own steamsaws, rocket boots, steam powered armours, and all kind of steamy technology!", "_t")
-t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "_t")
 
 
 ------------------------------------------------
@@ -7459,7 +7391,7 @@ t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards o
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/yeti-abduction.lua"
--- 13 entries
+-- 12 entries
 t("Yeti Reinforcements", "Yeti Reinforcements", "_t")
 t("You found a yeti mind control tinker. If you can tame 8 wild yetis and send them back to Kruk Pride they can be trained and sent back to you at your request using a psychoportation beacon.", "You found a yeti mind control tinker. If you can tame 8 wild yetis and send them back to Kruk Pride they can be trained and sent back to you at your request using a psychoportation beacon.", "_t")
 t("Wild yetis are mostly found in yeti's caves.", "Wild yetis are mostly found in yeti's caves.", "_t")
@@ -7471,7 +7403,6 @@ t("Call a trained yeti to your side.", "Call a trained yeti to your side.", "_t"
 t("Yetis left to call: %d", "Yetis left to call: %d", "tformat")
 t("call a trained yeti for help", "call a trained yeti for help", "_t")
 t("The yetis are not ready yet.", "The yetis are not ready yet.", "log")
-t("Yeti", "Yeti", "_t")
 t("You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "log")
 
 
@@ -10071,8 +10002,7 @@ t("area effect", "area effect", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/class/NPC.lua"
--- 8 entries
-t("#PINK#Your summoned %s disappears.", "#PINK#Your summoned %s disappears.", "logPlayer")
+-- 7 entries
 t("her", "her", "_t")
 t("him", "him", "_t")
 t("Killed by you: %s", "Killed by you: %s", "tformat")
@@ -10131,19 +10061,15 @@ t("Action radius: %d", "Action radius: %d", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/Player.lua"
--- 48 entries
-t("There is an item here: %s", "There is an item here: %s", "logSeen")
+-- 44 entries
 t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "logPlayer")
 t("Level change (%s)!", "Level change (%s)!", "tformat")
-t("#PINK#Your summoned %s disappears.", "#PINK#Your summoned %s disappears.", "logPlayer")
 t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#LIFE LOST WARNING!", "say")
 t("", "", "log")
 t("taken damage", "taken damage", "_t")
-t("LOW HEALTH!", "LOW HEALTH!", "_t")
 t("detrimental status effect", "detrimental status effect", "_t")
 t("died", "died", "_t")
 t("chat started", "chat started", "_t")
-t("#00ff00#%sTalent %s is ready to use.", "#00ff00#%sTalent %s is ready to use.", "log")
 t("Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "logPlayer")
 t("losing health!", "losing health!", "_t")
 t("all resources and life at maximum", "all resources and life at maximum", "_t")
@@ -10764,7 +10690,7 @@ t("Tatoos 7", "Tatoos 7", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/races/dwarf.lua"
--- 42 entries
+-- 41 entries
 t("All dwarves are united under the Empire and their love of money.", "All dwarves are united under the Empire and their love of money.", "_t")
 t("Dwarves are a secretive people, hailing from their underground home of the Iron Throne.", "Dwarves are a secretive people, hailing from their underground home of the Iron Throne.", "_t")
 t("They are a sturdy race and are known for their masterwork, yet they are not well loved, having left other races to fend for themselves in past conflicts.", "They are a sturdy race and are known for their masterwork, yet they are not well loved, having left other races to fend for themselves in past conflicts.", "_t")
@@ -10794,7 +10720,6 @@ t("Redhead Mustache 3", "Redhead Mustache 3", "_t")
 t("Redhead Mustache 4", "Redhead Mustache 4", "_t")
 t("Dark Beard", "Dark Beard", "_t")
 t("Blond Beard", "Blond Beard", "_t")
-t("Redhead Beard", "Redhead Beard", "_t")
 t("Dark Donut", "Dark Donut", "_t")
 t("Blond Donut", "Blond Donut", "_t")
 t("Redhead Donut", "Redhead Donut", "_t")
@@ -10917,14 +10842,12 @@ t("A Human hailing from the northern town of Derth. A common kind of man, unrema
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/races/undead.lua"
--- 39 entries
+-- 36 entries
 t("Alternative Face", "Alternative Face", "_t")
 t("Fangs 1", "Fangs 1", "_t")
 t("Fangs 2", "Fangs 2", "_t")
 t("Bloodstains", "Bloodstains", "_t")
 t("Bones", "Bones", "_t")
-t("Hair 1", "Hair 1", "_t")
-t("Hair 2", "Hair 2", "_t")
 t("White Hair 1", "White Hair 1", "_t")
 t("White Hair 2", "White Hair 2", "_t")
 t("White Beard 1", "White Beard 1", "_t")
@@ -10932,7 +10855,6 @@ t("White Beard 2", "White Beard 2", "_t")
 t("Eyes 1", "Eyes 1", "_t")
 t("Eyes 2", "Eyes 2", "_t")
 t("Eyes 3", "Eyes 3", "_t")
-t("Mustache", "Mustache", "_t")
 t("Redhead Mustache", "Redhead Mustache", "_t")
 t("White Mustache", "White Mustache", "_t")
 t("Teeth 1", "Teeth 1", "_t")
@@ -10961,19 +10883,14 @@ t("Rust", "Rust", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/races/yeek.lua"
--- 37 entries
+-- 32 entries
 t("Skin Color 10", "Skin Color 10", "_t")
-t("Hair 1", "Hair 1", "_t")
-t("Hair 2", "Hair 2", "_t")
-t("Hair 3", "Hair 3", "_t")
-t("Hair 4", "Hair 4", "_t")
 t("Hair 5", "Hair 5", "_t")
 t("Redfur Hair 1", "Redfur Hair 1", "_t")
 t("Redfur Hair 2", "Redfur Hair 2", "_t")
 t("Redfur Hair 3", "Redfur Hair 3", "_t")
 t("Redfur Hair 4", "Redfur Hair 4", "_t")
 t("Redfur Hair 5", "Redfur Hair 5", "_t")
-t("Beard 3", "Beard 3", "_t")
 t("Redfur Beard 1", "Redfur Beard 1", "_t")
 t("Redfur Beard 2", "Redfur Beard 2", "_t")
 t("Redfur Beard 3", "Redfur Beard 3", "_t")
