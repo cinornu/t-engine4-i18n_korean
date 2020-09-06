@@ -10002,8 +10002,7 @@ t("area effect", "area effect", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/class/NPC.lua"
--- 8 entries
-t("#PINK#Your summoned %s disappears.", "#PINK#Your summoned %s disappears.", "logPlayer")
+-- 7 entries
 t("her", "her", "_t")
 t("him", "him", "_t")
 t("Killed by you: %s", "Killed by you: %s", "tformat")
@@ -10062,19 +10061,15 @@ t("Action radius: %d", "Action radius: %d", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/Player.lua"
--- 48 entries
-t("There is an item here: %s", "There is an item here: %s", "logSeen")
+-- 44 entries
 t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "logPlayer")
 t("Level change (%s)!", "Level change (%s)!", "tformat")
-t("#PINK#Your summoned %s disappears.", "#PINK#Your summoned %s disappears.", "logPlayer")
 t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#LIFE LOST WARNING!", "say")
 t("", "", "log")
 t("taken damage", "taken damage", "_t")
-t("LOW HEALTH!", "LOW HEALTH!", "_t")
 t("detrimental status effect", "detrimental status effect", "_t")
 t("died", "died", "_t")
 t("chat started", "chat started", "_t")
-t("#00ff00#%sTalent %s is ready to use.", "#00ff00#%sTalent %s is ready to use.", "log")
 t("Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "Automatic use of talent %s #DARK_RED#skipped#LAST#: cooldown too low (%d).", "logPlayer")
 t("losing health!", "losing health!", "_t")
 t("all resources and life at maximum", "all resources and life at maximum", "_t")

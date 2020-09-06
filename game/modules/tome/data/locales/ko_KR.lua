@@ -208,9 +208,9 @@ t("#00FF00#You are no longer encumbered.", "#00FF00#다시 움직일 수 있게 
 t("-ENCUMBERED!", "-무게 제한!", "_t")
 t("You cannot switch equipment while sleeping!", "잠자고 있는 동안 장비를 바꿀 수 없다!", "logPlayer")
 t("unarmed", "맨손", "_t")
-t("%s warps space-time to equip: %s.", "%s 시공간을 왜곡해 장착함: %s.", "logSeen", nil, {"이"})
-t("%s switches %s weapons to: %s.", "1번 %s 2번 %s 무기를 3번 %s 변경했다.", "logSeen", nil, {"은","가"})
-t("%s wears %s%s.", "1번%s 2번%s 3번%s 장비했다.", "logSeen")
+t("%s warps space-time to equip: %s.", "%s 시공간을 왜곡해 장착했다: %s.", "logSeen", nil, {"이"})
+t("%s switches %s weapons to: %s.", "%s %s의 무기를 변경했다: %s.", "logSeen", nil, {"은"})
+t("%s wears %s%s.", "%s %s%s 장비했다.", "logSeen", nil, {"는"})
 t("antimagic", "반마법", "_t")
 t("%s #LIGHT_STEEL_BLUE#Triggers an Anomaly! (%s).", "%s #LIGHT_STEEL_BLUE#이상현상을 발동했다! (%s).", "logSeen")
 t("#STEEL_BLUE#Casting %s.", "#STEEL_BLUE#%s 시전.", "logPlayer", nil, {"을"})
@@ -477,6 +477,7 @@ t("%s's %s", "%s 의 %s", "tformat")
 ------------------------------------------------
 section "game/modules/tome/class/NPC.lua"
 
+t("#PINK#Your summoned %s disappears.", "#PINK#소환했던 %s 사라졌다.", "logPlayer", nil, {"가"})
 t("Target: ", "대상: ", "_t")
 t("none", "없음", "_t")
 
@@ -830,10 +831,14 @@ t("default", "기본", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/Player.lua"
 
+t("There is an item here: %s", "물건이 있다: %s", "logSeen")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#당신은 너무 많은 것을 들고있어 움직일 수 없다!", "logPlayer")
 t("#FF0000#Drop some of your items.", "#FF0000#물건을 조금 버리십시오.", "logPlayer")
+t("#PINK#Your summoned %s disappears.", "#PINK#소환했던 %s 사라졌다.", "logPlayer", nil, {"가"})
+t("LOW HEALTH!", "생명력 낮음!", "_t")
 t("suffocating", "질식", "_t")
 t("%s available", "%s 사용 가능", "tformat")
+t("#00ff00#%sTalent %s is ready to use.", "#00ff00#기술 %s %s 사용할 수 있게 되었다.", "log", nil, {[2]="를"})
 t("something interesting", "흥미로운 것", "_t")
 t("at %s", "%s에 도착", "tformat")
 t("interesting terrain", "흥미로운 지형", "_t")
