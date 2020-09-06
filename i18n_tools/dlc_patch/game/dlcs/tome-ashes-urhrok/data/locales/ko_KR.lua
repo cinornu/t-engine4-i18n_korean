@@ -5,6 +5,7 @@ section "game/dlcs/tome-ashes-urhrok/data/achievements/all.lua"
 
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
 t("Kryl-Feijan", "키릴-페이얀", "_t")
+t("Walrog", "왈록", "_t")
 
 
 ------------------------------------------------
@@ -51,7 +52,7 @@ t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * -2 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * -2 힘, +1 민첩, +1 체격", "_t")
 t("#LIGHT_BLUE# * +3 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +2 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 9", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 9", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 12%", "_t")
 
 
 ------------------------------------------------
@@ -96,6 +97,7 @@ t("Draebor, the Imp", "임프 드래보르", "_t")
 t("Kryl-Feijan", "키릴-페이얀", "_t")
 t("Lithfengel", "리스펭겔", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
+t("Walrog", "왈록", "_t")
 t("floor", "바닥", "entity type")
 t("lava", "용암", "entity subtype")
 t("No", "아니요", "_t")
@@ -105,6 +107,7 @@ t("Yes", "네", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/npcs/aquatic-demon.lua"
 
+t("Walrog", "왈록", "entity name")
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
 
@@ -401,7 +404,7 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		You can activate this spell to consume the charges, spawning a raging volcano that lasts for 2 turns per charges.
 		Each turn the volcano spews 2 flaming boulders that deal %0.2f fire and %0.2f physical damage.
 		The charges quickly fade when outside of combat.
-		The damage increases with your spellpower.]], [[매 턴, 피격시, %d%% 확률로 여진 중첩을 얻습니다.
+		The damage increases with your spellpower.]], [[매 턴, 피격 시, %d%% 확률로 여진 중첩을 얻습니다.
 		이 주문을 활성화 하여 중첩 당 2 턴의 지속시간을 갖는 분출하는 화산을 일으켜 세울 수 있습니다. 기술 시전시 중첩을 소모합니다.
 		매 턴 화산은  %0.2f 화염 피해와 %0.2f 물리 피해를 주는 2 개의 불타는 암석을 분출합니다  damage.
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
@@ -439,7 +442,7 @@ t([[Strike a blow with your weapon for %d%% blight damage.
 
 		Higher talent levels allow for more powerful demon types.
 		Implanting a seed into unique demons, if successful, will always try to grant a seed of that type, if available.]], [[무기로 적을 가격해 %d%% 황폐 피해를 가합니다.
-		명중시, 악마의 씨앗이 적에게 파종되고, 이어서 %d%% 피해의 방패 공격을 가해, 대상에게 %d 턴의 혼절을 유발합니다.
+		명중 시, 악마의 씨앗이 적에게 파종되고, 이어서 %d%% 피해의 방패 공격을 가해, 대상에게 %d 턴의 혼절을 유발합니다.
 		
 		씨앗은 영양분을 공급할 수 있는 강력한 숙주가 필요합니다. 아주 하찮은 적이나 소환된 악마는 숙주가 될 수 없습니다.
 		등급에 비례한 씨앗 파종 확률은 다음과 같습니다.
@@ -716,7 +719,7 @@ t([[Your successful melee hits apply a stacking effect that decreases damage don
 		At level 3 it also slows by %0.2f%% per stack.
 		At level 5 you can horrify enemies in a radius of %d.
 		This talent ignores saves and immunities.
-		]], [[근접 공격을 명중시키면, 피해량을 %d%% 감소시키는 중첩형 효과를 적에게 적용합니다.
+		]], [[근접 공격을 명중 시키면, 피해량을 %d%% 감소시키는 중첩형 효과를 적에게 적용합니다.
 		한 대상 당 %d 중첩을 쌓을 수 있고, 중첩을 쌓을 때 마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면, 이 효과는 즉시 사라집니다.
 		기술 레벨 3 일 때, 중첩 당 %0.2f%% 의 감속을 적용합니다.
 		기술 레벨 5 일 때, 반경 %d 칸 내의 적을 두려움에 떨게합니다.
@@ -927,6 +930,7 @@ t("Shattered Mind", "파괴된 정신", "_t")
 t("spellblaze", "마법폭발", "effect subtype")
 t("Dark Reign", "어둠의 지배", "_t")
 t("Blood Pact", "피의 계약", "_t")
+t("You have %d charges.", "용해 점수 %d 점.", "tformat")
 t("Blackice", "검은 얼음", "_t")
 t("cold", "냉기", "effect subtype")
 t("Bleak Outcome", "암울한 결과", "_t")
@@ -938,6 +942,7 @@ t("Blood Drinker", "피를 마시는 자", "_t")
 t("death", "죽음", "effect subtype")
 t("Pain Affinity", "고통 친화", "_t")
 t("Ominous Shadow", "불길한 그림자", "_t")
+t("dark", "어둠", "effect subtype")
 t("#Target# vanishes from sight.", "#Target1# 시야에서 사라졌다.", "_t")
 t("#Target# is no longer invisible.", "#Target2# 다시 불투명해졌다.", "_t")
 t("Corruption of the Doomed", "몰락한 자의 타락", "_t")

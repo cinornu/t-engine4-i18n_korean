@@ -41,7 +41,7 @@ t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +3 힘, +1 민첩, +1 체격", "_t")
 t("#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +2 마법, -1 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 12", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 12%", "_t")
 t("Facial features", "얼굴 특징", "birth facial category")
 t("Hairs", "머리카락", "birth facial category")
 t("Horns", "뿔", "birth facial category")
@@ -87,7 +87,7 @@ t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * -2 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 마법, +2 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 13", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 15%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 15%", "_t")
 t("Facial features", "얼굴 특징", "birth facial category")
 t("Hairs", "머리카락", "birth facial category")
 t("Skin", "피부", "birth facial category")
@@ -369,6 +369,7 @@ section "game/dlcs/tome-cults/data/general/npcs/scourge-drake.lua"
 
 t("dragon", "용", "entity type")
 t("scourge", "재앙", "entity subtype")
+t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
 t("scourge drake", "폐룡의 위상", "entity name")
 
 
@@ -2112,7 +2113,7 @@ t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembl
 section "game/dlcs/tome-cults/data/timed_effects.lua"
 
 t("Fight your foe! If anything wrong happens, the Fortress will pull you out.", "적과 맞써라! 안좋은일이 일어난다면, 요새가 당신을 끌어올림.", "_t")
-t("other", "다른", "effect subtype")
+t("other", "기타", "effect subtype")
 t("Frenzy", "광폭화", "_t")
 t("Class talents have no cooldown the first time they are used.", "첫번째로 사용하는 직업 기술에는 재사용 대기시간이 적용되지 않음.", "_t")
 t("Black Blood Bleeding", "검은 피 출혈 중", "_t")

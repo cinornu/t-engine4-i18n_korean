@@ -246,8 +246,8 @@ t("%s's %s is interrupted by the shot!", "%s의 %s 사격에 의해 방해받았
 t("%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "%s #{bold}##ORANGE#%s#LAST# %s#{normal}#", "logSeen", {1,3,2}, {"는","을"})
 t("activates", "활성화한다", "_t")
 t("deactivates", "비활성화한다", "_t")
-t("%s casts #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 시전했다", "logSeen", nil, {"는",[3]="을"})
-t("%s uses #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 사용했다", "logSeen", nil, {"는",[3]="을"})
+t("%s casts #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 시전했다.", "logSeen", nil, {"는",[3]="을"})
+t("%s uses #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 사용했다.", "logSeen", nil, {"는",[3]="을"})
 t("%s talent '%s%s' is disrupted by the mind parasite.", "%s의 '%s%s' 정신 기생충에 의해 방해받았다.", "logSeen", nil, {[3]="은"})
 t("Effective talent level: ", "효과 기술 레벨: ", "_t")
 t("Passive", "지속형", "_t")
@@ -542,9 +542,9 @@ t("Firing range: ", "사거리: ", "_t")
 t("Capacity: ", "탄환 수: ", "_t")
 t("Reload speed: ", "재장전 속도: ", "_t")
 t("Turns elapse between self-loadings: ", "재장전시 소모하는 턴: ", "_t")
-t("When this weapon hits: %s (%d%% chance level %d).", "이 무기로 적중 시: %s (%d%% 확률 레벨 %d).", "tformat")
+t("When this weapon hits: %s (%d%% chance level %d).", "이 무기로 명중 시: %s (%d%% 확률 레벨 %d).", "tformat")
 t("When this weapon crits: %s (%d%% chance level %d).", "이 무기로 치명타 시: %s (%d%% 확률 레벨 %d).", "tformat")
-t("#YELLOW#On weapon hit:#LAST#", "#YELLOW#적중 시:#LAST#", "_t")
+t("#YELLOW#On weapon hit:#LAST#", "#YELLOW#명중 시:#LAST#", "_t")
 t("#YELLOW#On weapon crit:#LAST#", "#YELLOW#치명타 시:#LAST#", "_t")
 t("#YELLOW#On weapon kill:#LAST#", "#YELLOW#살해 시:#LAST#", "_t")
 t("When used from stealth a simple attack with it will not break stealth.", "이 무기를 이용한 단순 공격은 은신을 해제하지 않습니다.", "_t")
@@ -556,7 +556,7 @@ t("Lifesteal (this weapon only): ", "흡혈 (이 무기만 적용): ", "_t")
 t("Multiple attacks: ", "다중 타격: ", "_t")
 t("Multiple attacks procs power reduction: ", "다중 타격으로 인한 명중 시 추가 효과 위력 감소: ", "_t")
 t("Shots beam through all targets.", "모든 대상을 관통합니다.", "_t")
-t("Damage (radius 1) on hit: ", "적중 시 피해 (범위 1): ", "_t")
+t("Damage (radius 1) on hit: ", "명중 시 피해 (범위 1): ", "_t")
 t("Damage (radius 2) on crit: ", "치명타 시 피해 (범위 2): ", "_t")
 t("Damage conversion: ", "피해 전환: ", "_t")
 t("#ORANGE#Attacks use: #LAST#", "#ORANGE#원천력 사용: #LAST#", "_t")
@@ -1309,7 +1309,7 @@ Determines your chance to hit your target as well as knock your target off-balan
 When you use Accuracy to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your accuracy will reduce the duration of the effect by 5%.
 Many weapon types will have an additional "accuracy bonus" scaling per point of Accuracy greater than the targets Defense.
 ]], [[#GOLD#정확도#LAST#
-공격을 적중시킬 확률을 결정합니다.
+공격을 명중 시킬 확률을 결정합니다.
 정확도를 사용하여 물리 상태이상을 시도할때 대상의 회피도가 정확도를 초과한 수치 1당 효과 지속시간이 5% 감소합니다.
 대부분의 무기는 정확도 보너스가 존재하여 대상의 회피도를 초과한 정확도 수치에 따른 다양한 추가 효과를 얻습니다.
 ]], "_t")
@@ -2367,23 +2367,52 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 ------------------------------------------------
 section "game/modules/tome/data/birth/classes/tutorial.lua"
 
+t("Tutorial Adventurer", "튜토리얼 모험가", "birth descriptor name")
+t("Adventurers have a generic talent set to teach to young ones.", "젊은 이들을 가르칠 때 쓰이는 일반적인 기술들을 갖고있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/classes/warrior.lua"
 
 t("Warrior", "전사", "birth descriptor name")
+t("Warriors train in all aspects of physical combat. They can be juggernauts of destruction wielding two-handed greatswords, or massive iron-clad protectors with gleaming shields.", "전사는 물리적 전투에서의 모든 방면을 수련합니다. 전사들은 대검을 든 무지막지한 파괴 전차가 될 수도 있고, 매우 무거운 철갑과  번쩍이는 방패를 장착한 수호자가 될 수도 있습니다.", "_t")
 t("Berserker", "광전사", "birth descriptor name")
+t("A Berserker wields huge two-handed weapons of destruction, bringing pain and death to his foes as he cleaves them in two.", "광전사는 거대하고, 파괴적인 양손무기를 들고 적을 두 쪽으로 쪼개버려 고통과 죽음을 몰고옵니다.", "_t")
+t("A Berserker usually forfeits all ideas of self-defense to concentrate on what he does best: killing things.", "광전사는 보통 그들이 가장 잘 해낼 수 있는 단 한 가지만을 위해 자기 방어를 포기합니다. 바로 살해 말이지요.", "_t")
+t("Their most important stats are: Strength and Constitution", "그들에게 가장 중요한 능력치는 힘과 체격입니다.", "_t")
+t("#LIGHT_BLUE# * +5 Strength, +1 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +5 힘, +1 민첩, +3 체격", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +3", "_t")
 t("Bulwark", "기사", "birth descriptor name")
+t("A Bulwark specializes in weapon and shield combat, rarely leaving the cover of her many protective techniques.", "기사는 한손 무기와 방패를 이용한 전투의 전문가입니다. 기사들은 방어 자세에서 벗어나는 일이 거의 없습니다.", "_t")
+t("A good Bulwark is able to withstand terrible attacks from all sides, protected by her shield, and when the time comes lash out at her foes with incredible strength.", "숙련된 기사는 모든 방향에서 들어오는 끔찍한 공격을 방패로 막아내어 버틸 수 있습니다. 그리고 때가 되면, 말도안되는 힘으로 적에게 맹타를 가합니다.", "_t")
+t("Their most important stats are: Strength and Dexterity", "그들에게 가장 중요한 능력치는 힘과 민첩입니다", "_t")
+t("#LIGHT_BLUE# * +5 Strength, +2 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +5 힘, +2 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +0 교활", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# +6", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +6", "_t")
 t("Archer", "궁수", "birth descriptor name")
+t("Archers can become good with either longbows or slings.", "궁수는 활과 투석구. 두 원거리 무기에서 강한 모습을 보여줍니다.", "_t")
+t("Their most important stats are: Dexterity and Strength (when using bows) or Cunning (when using slings)", "그들에게 가장 중요한 능력치는, 활을 사용할 경우 민첩과 힘이고 투석구를 사용할 경우 교활입니다.", "_t")
+t("#LIGHT_BLUE# * +2 Strength, +5 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 힘, +5 민첩, +0 체격", "_t")
+t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +2 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +2 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +0", "_t")
 t("Arcane Blade", "마법 검사", "birth descriptor name")
+t("The Arcane Blade is a warrior who has been touched by the gift of magic.", "마법 검사들은 마법의 힘을 깨우친 전사들입니다.", "_t")
 t("Their use of magic is innate and not really studied; as such they do not naturally regenerate mana and must use external means of recharging.", "그들의 마법 능력은 배운 것이 아닌 선천적인 것이기 때문에, 자연적으로 마나를 재생할 수 없으며 회복을 위해서는 다른 수단이 필요합니다.", "_t")
+t("They can cast spells from a limited selection but have the unique capacity to 'channel' their attack spells through their melee attacks.", "마법 검사는 적은 수의 주문만을 사용하지만, 공격 주문을 선택해 근접 공격에 '담아' 적에게 해방할 수 있습니다.", "_t")
+t("They are adept with two-handed weapons, for the sheer destruction they can bring.", "마법 검사는 양손 무기의 전문가들로, 순전히 양손 무기의 파괴력 때문입니다.", "_t")
+t("Their most important stats are: Strength, Cunning and Magic", "그들에게 가장 중요한 능력치는 힘과 교활, 그리고 마법입니다.", "_t")
+t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 힘, +0 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +3 교활", "_t")
 t("Brawler", "격투가", "birth descriptor name")
+t("Though you may fight alone against many, destined to fight till you die, still you do not relent. In a ring of blood you learn that a pair of fists can face the world.", "만인과 대적하더라도, 설령 목숨을 잃을지라도 격투가는 물러서지 않습니다. 피의 원형 경기장에서 격투가들은 두 주먹으로 세상에 대적하는 방법을 배웠습니다.", "_t")
+t("The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.", "마법폭발의 대파괴로 인해 세계 각지의 군대들은 각지에서 사건을 수습하기 바뻤고, 따라서 많은 이들이 보호를 받지 못하게 되었습니다. 또한 모든 이가 '무기'라는 사치를 누릴 수 있던 것은 아니였지요.", "_t")
+t("Without steel or iron, poor communities of all races turned to the strength of their own bodies for defense against the darkness.", "무쇠나, 강철 없이 모든 종족의 가난한 공동체들은 어둠에 맞서 몸을 지키기 위해 스스로의 육체의 힘을 길렀습니다.", "_t")
+t("Whether a pit-fighter, a boxer, or just an amateur practitioner, the Brawler's skills are still handy today.", "구덩이 싸움꾼, 권투 선수, 또는 그저 취미로 배우는 견습생이던 간에, 격투가의 기술들은 오늘 날에도 꽤 쓸만합니다.", "_t")
+t("Many of the Brawler's abilities will earn combo points which they can use on finishing moves that will have added effect.", "격투가의 기술 대부분은 사용 시, 연계 점수를 얻게되며 이를 사용하여 마무리 기술의 효과를 증폭시킵니다.", "_t")
+t("The unarmed fighting styles the Brawler uses rely on maneuverability and having both hands available. As such, they cannot make use of their training wearing massive armour or while a weapon or shield is equipped.", "격투가가 사용하는 맨손 격투 기술은 기동성과 두 손을 모두 사용할 수 있어야합니다. 따라서 무거운 갑옷이나, 무기, 방패를 장착할 시, 격투 기술을 사용할 수 없게됩니다.", "_t")
+t("Their most important stats are: Strength, Dexterity, and Cunning", "그들에게 가장 중요한 능력치는 힘과 민첩, 그리고 교활입니다", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +3 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 힘, +3 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +3 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +2", "_t")
 
@@ -2418,10 +2447,17 @@ t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +
 t("#LIGHT_BLUE# * +0 Magic, +5 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +5 의지, +4 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# -3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -3", "_t")
 t("Max summons: %d", "최대 소환수: %d", "tformat")
-t("Stone Warden", "스톤워든", "birth descriptor name")
-t("Stone Wardens are dwarves trained in both the eldritch arts and the worship of nature.", "스톤워든은 엘드리치의 능력과 자연에 대한 추종을 함께 훈련한 드워프입니다.", "_t")
+t("Stone Warden", "바위 감시자", "birth descriptor name")
+t([[The Spellblaze's scars may be starting to heal,
+but little can change how the partisans feel.
+Nature and arcane could bridge their divide -
+and when it comes down to it, gold won't take sides...]], [[마법 폭발의 상처가 치유되기 시작할지도 모릅니다.
+하지만 열성적인 이들의 생각을 바꿔놓기에는 너무 작은 변화입니다.
+자연과 마법의 힘의 단절은 매꿔질 수도 있었습니다 -
+그 때가 올지라도, 황금은 편을 들지 않겠지만 말이죠...]], "_t")
+t("Stone Wardens are dwarves trained in both the eldritch arts and the worship of nature.", "바위 감시자은 엘드리치의 능력과 자연에 대한 추종을 함께 훈련한 드워프입니다.", "_t")
 t("While other races are stuck in their belief that arcane forces and natural forces are meant to oppose, dwarves have found a way to combine them in harmony.", "다른 종족들이 비전의 힘과 자연의 힘이 반대된다는 믿음에 갇혀있을 때, 드워프들은 두 힘을 조화롭게 결합하는 법을 찾아냈습니다.", "_t")
-t("Stone Wardens are armoured fighters, dual wielding shields to channel many of their powers.", "스톤워든은 갑옷을 입고 양손에 방패를 방패를 들어 그들의 여러 가지 힘을 내보이는 전사들입니다.", "_t")
+t("Stone Wardens are armoured fighters, dual wielding shields to channel many of their powers.", "바위 감시자은 갑옷을 입고 양손에 방패를 방패를 들어 그들의 여러 가지 힘을 내보이는 전사들입니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 힘, +0 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 마법, +3 의지, +0 교활", "_t")
@@ -2505,9 +2541,16 @@ t("Only one life, unless ways to self-resurrect are found in-game.", "게임 내
 section "game/modules/tome/data/birth/races/construct.lua"
 
 t("Construct", "구조물", "birth descriptor name")
+t("Constructs are not natural creatures.", "구조물은 자연적인 생명체가 아닙니다.", "_t")
+t("The most usual contructs are golems, but they can vary in shape, form and abilities.", "가장 잘 알려진 구조물은 골렘입니다만, 모양과 형태, 기능이 다양할 수 있습니다.", "_t")
 t("Runic Golem", "룬 골렘", "birth descriptor name")
+t("Runic Golems are creatures made of solid rock and animated using arcane forces.", "룬 골렘은 단단한 바위로 이루어져있으며, 마법의 힘으로 움직입니다.", "_t")
+t("They cannot be of any class, but they have many intrinsic abilities.", "룬 골렘은 직업을 가질 수 없지만, 고유한 기술들을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +3 Strength, -2 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +3 힘, -2 민첩, +3 체격", "_t")
+t("#LIGHT_BLUE# * +2 Magic, +2 Willpower, -5 Cunning", "#LIGHT_BLUE# * +2 마법, +2 의지, -5 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 13", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 25%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 25%", "_t")
 t("Facial features", "얼굴 특징", "birth facial category")
 t("Hairs", "머리카락", "birth facial category")
 t("Skin", "피부", "birth facial category")
@@ -2518,19 +2561,41 @@ t("Skin Color 2", "피부 색 2", "_t")
 t("Skin Color 3", "피부 색 3", "_t")
 t("Skin Color 4", "피부 색 4", "_t")
 t("Skin Color 5", "피부 색 5", "_t")
+t("Face 1", "얼굴 1", "_t")
+t("Face 2", "얼굴 2", "_t")
+t("Face 3", "얼굴 3", "_t")
+t("Mustache 1", "콧수염 1", "_t")
+t("Mustache 2", "콧수염 2", "_t")
+t("Mustache 3", "콧수염 3", "_t")
+t("Mustache 4", "콧수염 4", "_t")
+t("Mustache 5", "콧수염 5", "_t")
+t("Mustache 6", "콧수염 6", "_t")
+t("Mustache 7", "콧수염 7", "_t")
+t("Mustache 8", "콧수염 8", "_t")
+t("Mustache 9", "콧수염 9", "_t")
 t("Tatoos 1", "문신 1", "_t")
 t("Tatoos 2", "문신 2", "_t")
 t("Tatoos 3", "문신 3", "_t")
+t("Tatoos 4", "문신 4", "_t")
+t("Tatoos 5", "문신 5", "_t")
+t("Tatoos 6", "문신 6", "_t")
+t("Tatoos 7", "문신 7", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/races/dwarf.lua"
 
+t("All dwarves are united under the Empire and their love of money.", "모든 드워프들은 그들의 제국과 황금에 대한 사랑 아래 단결합니다.", "_t")
 t("Dwarf", "드워프", "birth descriptor name")
+t("Dwarves are a secretive people, hailing from their underground home of the Iron Throne.", "드워프들은 비밀스러운 민족으로, 철의 왕좌의 지하에서 태어났습니다.", "_t")
+t("They are a sturdy race and are known for their masterwork, yet they are not well loved, having left other races to fend for themselves in past conflicts.", "드워프는 강인하고, 장인의 기술을 가진 민족입니다. 과거의 분쟁을 피하기 위해 다른 종족들에게서 떠나갔기 때문에 아직 많은 이들에게 사랑을 받는 것은 아니지만요.", "_t")
+t("They possess the #GOLD#Resilience of the Dwarves#WHITE# which allows them to increase their armour, physical and spell saves for a few turns.", "드워프는 방어력과 물리, 주문 저항을 몇 턴 동안 향상시킬 수 있는 #GOLD#드워프의 강인함#WHITE# 기술을 갖고 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +4 Strength, -2 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +4 힘, -2 민첩, +3 체격", "_t")
+t("#LIGHT_BLUE# * -2 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 마법, +3 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 14", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 0%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 0%", "_t")
 t("Facial features", "얼굴 특징", "birth facial category")
 t("Hairs", "머리카락", "birth facial category")
 t("Skin", "피부", "birth facial category")
@@ -2552,6 +2617,8 @@ t("Dark Hair 5", "검은 머리카락 5", "_t")
 t("Dark Hair 6", "검은 머리카락 6", "_t")
 t("Dark Hair 7", "검은 머리카락 7", "_t")
 t("Dark Hair 8", "검은 머리카락 8", "_t")
+t("Dark Hair 9", "검은 머리카락 9", "_t")
+t("Dark Hair 10", "검은 머리카락 10", "_t")
 t("Blond Hair 1", "금빛 머리카락 1", "_t")
 t("Blond Hair 2", "금빛 머리카락 2", "_t")
 t("Blond Hair 3", "금빛 머리카락 3", "_t")
@@ -2560,6 +2627,8 @@ t("Blond Hair 5", "금빛 머리카락 5", "_t")
 t("Blond Hair 6", "금빛 머리카락 6", "_t")
 t("Blond Hair 7", "금빛 머리카락 7", "_t")
 t("Blond Hair 8", "금빛 머리카락 8", "_t")
+t("Blond Hair 9", "금빛 머리카락 9", "_t")
+t("Blond Hair 10", "금빛 머리카락 10", "_t")
 t("Redhead Hair 1", "붉은 머리카락 1", "_t")
 t("Redhead Hair 2", "붉은 머리카락 2", "_t")
 t("Redhead Hair 3", "붉은 머리카락 3", "_t")
@@ -2568,6 +2637,8 @@ t("Redhead Hair 5", "붉은 머리카락 5", "_t")
 t("Redhead Hair 6", "붉은 머리카락 6", "_t")
 t("Redhead Hair 7", "붉은 머리카락 7", "_t")
 t("Redhead Hair 8", "붉은 머리카락 8", "_t")
+t("Redhead Hair 9", "붉은 머리카락 9", "_t")
+t("Redhead Hair 10", "붉은 머리카락 10", "_t")
 t("Dark Beard 1", "검은 수염 1", "_t")
 t("Dark Beard 2", "검은 수염 2", "_t")
 t("Dark Beard 3", "검은 수염 3", "_t")
@@ -2580,7 +2651,36 @@ t("Blond Beard 4", "금빛 수염 4", "_t")
 t("Blond Beard 5", "금빛 수염 5", "_t")
 t("Redhead Beard 1", "붉은 수염 1", "_t")
 t("Redhead Beard 2", "붉은 수염 2", "_t")
+t("Redhead Beard 3", "붉은 수염 3", "_t")
+t("Redhead Beard 4", "붉은 수염 4", "_t")
+t("Redhead Beard 5", "붉은 수염 5", "_t")
+t("Dark Mustache 1", "검은 콧수염 1", "_t")
+t("Dark Mustache 2", "검은 콧수염 2", "_t")
+t("Dark Mustache 3", "검은 콧수염 3", "_t")
+t("Dark Mustache 4", "검은 콧수염 4", "_t")
+t("Blond Mustache 1", "금빛 콧수염 1", "_t")
+t("Blond Mustache 2", "금빛 콧수염 2", "_t")
+t("Blond Mustache 3", "금빛 콧수염 3", "_t")
+t("Blond Mustache 4", "금빛 콧수염 4", "_t")
+t("Redhead Mustache 1", "붉은 콧수염 1", "_t")
+t("Redhead Mustache 2", "붉은 콧수염 2", "_t")
+t("Redhead Mustache 3", "붉은 콧수염 3", "_t")
+t("Redhead Mustache 4", "붉은 콧수염 4", "_t")
+t("Dark Beard", "검은 수염", "_t")
+t("Blond Beard", "금빛 수염", "_t")
 t("Redhead Beard", "붉은 수염", "_t")
+t("Dark Donut", "검은 도넛", "_t")
+t("Blond Donut", "금빛 도넛", "_t")
+t("Redhead Donut", "붉은 도넛", "_t")
+t("Dark Flip", "검은 플립", "_t")
+t("Blond Flip", "금빛 플립", "_t")
+t("Redhead Flip", "붉은 플립", "_t")
+t("Dark Mustache", "검은 콧수염", "_t")
+t("Blond Mustache", "금빛 콧수염", "_t")
+t("Redhead Mustache", "붉은 콧수염", "_t")
+t("Dark Sideburns", "검은 구레나룻", "_t")
+t("Blond Sideburns", "금빛 구레나룻", "_t")
+t("Redhead Sideburns", "붉은 구레나룻", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 
 
@@ -2588,6 +2688,10 @@ t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 section "game/modules/tome/data/birth/races/elf.lua"
 
 t("Elf", "엘프", "birth descriptor name")
+t("The elven races are usually named as a whole 'elves', but this is incorrect.", "엘프 종족들은 대게 '엘프' 라고 뭉뚱그려 호칭되지만, 이는 잘못된 것입니다.", "_t")
+t("Elves are split into three separate races - albeit related - of which only two remain in the current age.", "엘프들은 세 종류의 서로 다른 종족으로 구분되고 - 연관성이 없는것은 아니지만 - 현재 시대에는 두 종족만이 남아있습니다.", "_t")
+t("Elves usually live about one thousand years, except for the Shaloren who magically sustain themselves forever.", "엘프들은 대게 천년 가까이 삽니다, 마법의 힘으로 스스로를 영원히 유지할 수 있는 샬로레를 제외하고 말이죠.", "_t")
+t("Their view of the world varies wildly across the different elven races.", "엘프 종족들은 세계관이 모두 제각기 다릅니다.", "_t")
 t("Hairs", "머리카락", "birth facial category")
 t("Skin", "피부", "birth facial category")
 t("Special", "특별", "birth facial category")
@@ -2615,13 +2719,24 @@ t("Redhead Hair 4", "붉은 머리카락 4", "_t")
 t("Redhead Hair 5", "붉은 머리카락 5", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 t("Shalore", "샬로레", "birth descriptor name")
+t("Shaloren elves have close ties with the magic of the world, and produced in the past many great mages.", "샬로레 엘프들은 세계의 마법과 단단히 엮여있어, 과거에 위대한 마법사들을 많이 배출해냈습니다.", "_t")
+t("Yet they remain quiet and try to hide their magic from the world, for they remember too well the Spellblaze - and the Spellhunt that followed.", "하지만 샬로레들은 침묵을 지키며 그들이 사용하는 마법을 세계에서 숨기려고 합니다. 샬로레들은 마법폭발의 참사와 - 또 그 후에 시작된 마법 사냥을 아주 잘 기억하고 있습니다.", "_t")
+t("They possess the #GOLD#Grace of the Eternals#WHITE# talent which allows them a boost of speed every once in a while.", "샬로레는 지속 시간 동안 전체 속도를 향상시키는 #GOLD#영원의 은총#WHITE# 기술을 갖고있습니다.", "_t")
+t("#LIGHT_BLUE# * -2 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * -2 힘, +1 민첩, +0 체격", "_t")
+t("#LIGHT_BLUE# * +2 Magic, +3 Willpower, +1 Cunning", "#LIGHT_BLUE# * +2 마법, +3 의지, +1 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 9", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 9", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 12%", "_t")
 t("Blond Hair 1", "금빛 머리카락 1", "_t")
 t("Thalore", "탈로레", "birth descriptor name")
+t("Thaloren elves have spent most of the ages hidden within their forests, seldom leaving them.", "탈로레는 대부분의 시대를 그들이 살고있는 숲에서 보냈고, 좀처럼 숲을 떠나지 않습니다.", "_t")
+t("The ages of the world passed by and yet they remained unchanged.", "세계의 여러 시대들이 지나갔지만, 탈로레는 변하지 않은 그대로입니다.", "_t")
+t("Their affinity for nature and their reclusion have made them great protectors of the natural order, often opposing their Shaloren cousins.", "탈로레의 자연에 대한 친화력과 오랜 시간동안 지속된 은둔으로 인해, 탈로레는 자연 질서의 위대한 보호자로 여겨집니다. 때때로 샬로레 사촌들과 대적하기도 하지요.", "_t")
+t("They possess the #GOLD#Gift of the Woods#WHITE# talent, which allows them to regenerate life and increase healing once in a while.", "탈로레는 생명력을 회복하고, 회복 효율을 상승시키는 #GOLD#나무의 선물#WHITE# 기술을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +2 Strength, +3 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +2 힘, +3 민첩, +1 체격", "_t")
+t("#LIGHT_BLUE# * -2 Magic, +1 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 마법, +1 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 11", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 0%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 0%", "_t")
 t("Dark Hair 1", "검은 머리카락 1", "_t")
 
 
@@ -2629,10 +2744,29 @@ t("Dark Hair 1", "검은 머리카락 1", "_t")
 section "game/modules/tome/data/birth/races/giant.lua"
 
 t("Giant", "거인", "birth descriptor name")
+t("Powerful beings that tower over all, but the bigger they are, the harder they fall...", "우뚝 선 강력한 존재들로, 거대할 수록 쓰러지기 어렵기 마련입니다...", "_t")
+t("#{italic}#\"Giant\"#{normal}# is a catch-all term for humanoids which are typically over eight feet in height.  Their origins, cultures, and relationships to other races differ wildly, but they tend to live as refugees and outcasts, shunned by smaller sentient races who usually see them as a threat.", "#{italic}#\"거인\"#{normal}#은 2.5m 이상의 모든 인간형 종족을 가리키는 만능 단어입니다.  그들의 기원, 문화, 그리고 다른 종족들과의 관계는 아주 크게 다릅니다. 하지만 거인들은 주로 난민이나, 부랑자로 사는 경향이 있는데, 일반적인 작은 종족들에게 있어 위협적으로 느껴져 기피되기 때문입니다.", "_t")
 t("Ogre", "오우거", "birth descriptor name")
+t([[Forged in the hatred of ages long passed,
+made for a war that they've come to outlast.
+Their forgotten birthplace lies deep underground,
+its tunnels ruined so it wouldn't be found.
+Past burglars have failed, but their data's immortal;
+to start, look where halflings once tinkered with portals...]], [[아주 오래 전, 시대에 걸친 증오로 단조되어,
+더 오래 지속되게 끔 전쟁을 위해 만들어졌다.
+거인들의 잊혀진 출생지는 깊은 지하에 자리잡고있고,
+파괴된 터널로 인해 발견되지 않았다.
+과거의 절도는 실패했지만, 그들의 자료는 불멸한다;
+시작하기 위해선, 한 때 하플링들이 차원문으로 실험했던 곳부터 찾아보아라...]], "_t")
+t("Ogres are an altered form of Human, created in the Age of Allure as workers and warriors for the Conclave.", "오우거는 인간의 변형된 모습으로, 매혹의 시대 때, Conclave를 위해 일하던 노동자들과 전사였습니다.", "_t")
+t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "각인은 오우거에게 자연의 한계를 뛰어넘은 강력한 육체적인 힘과 마법적인 힘을 주었습니다. 그러나 룬 마법에 대한 의존으로 인해, 마법사냥 기간동안 오우거들은 주된 표적이 되었고, 그로인해 샬로레의 영역 내로 피난을 가게되었습니다.", "_t")
+t("Their preference for simple and direct solutions has given them an undeserved reputation as dumb brutes, despite their extraordinary talent with runes and their humble, dutiful nature.", "오우거는 단순하고 직접적인 해결법을 선호하기 때문에, 룬과 그들의 겸손하고 순종적인 성향에도 불구하고 덜떨어지고, 무식한 짐승이라는 평판을 갖게되었습니다.", "_t")
+t("They possess the #GOLD#Ogric Wrath#WHITE# talent, which grants them critical chance and power, as well as resistance to confusion and stuns, when their attacks miss or are blocked.", "오우거는 치명타 확률과 피해량을 상승시키는 #GOLD#오우거의 분노#WHITE# 기술을 갖고있습니다. 근접 공격이 빗나가거나, 적이 공격을 막아냈을 경우 효과가 상승하며, 기절과 속박 면역력이 상승합니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +0 체격", "_t")
+t("#LIGHT_BLUE# * +2 Magic, -2 Willpower, +2 Cunning", "#LIGHT_BLUE# * +2 마법, -2 의지, +2 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 13", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 15%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 15%", "_t")
 t("Facial features", "얼굴 특징", "birth facial category")
 t("Hairs", "머리카락", "birth facial category")
 t("Skin", "피부", "birth facial category")
@@ -2655,6 +2789,7 @@ t("Dark Hair 5", "검은 머리카락 5", "_t")
 t("Dark Hair 6", "검은 머리카락 6", "_t")
 t("Dark Hair 7", "검은 머리카락 7", "_t")
 t("Dark Hair 8", "검은 머리카락 8", "_t")
+t("Dark Hair 9", "검은 머리카락 9", "_t")
 t("Blond Hair 1", "금빛 머리카락 1", "_t")
 t("Blond Hair 2", "금빛 머리카락 2", "_t")
 t("Blond Hair 3", "금빛 머리카락 3", "_t")
@@ -2663,6 +2798,7 @@ t("Blond Hair 5", "금빛 머리카락 5", "_t")
 t("Blond Hair 6", "금빛 머리카락 6", "_t")
 t("Blond Hair 7", "금빛 머리카락 7", "_t")
 t("Blond Hair 8", "금빛 머리카락 8", "_t")
+t("Blond Hair 9", "금빛 머리카락 9", "_t")
 t("Redhead Hair 1", "붉은 머리카락 1", "_t")
 t("Redhead Hair 2", "붉은 머리카락 2", "_t")
 t("Redhead Hair 3", "붉은 머리카락 3", "_t")
@@ -2671,6 +2807,21 @@ t("Redhead Hair 5", "붉은 머리카락 5", "_t")
 t("Redhead Hair 6", "붉은 머리카락 6", "_t")
 t("Redhead Hair 7", "붉은 머리카락 7", "_t")
 t("Redhead Hair 8", "붉은 머리카락 8", "_t")
+t("Redhead Hair 9", "붉은 머리카락 9", "_t")
+t("Facial Infusions 1", "얼굴 주입물 1", "_t")
+t("Facial Infusions 2", "얼굴 주입물 2", "_t")
+t("Facial Runes 1", "얼굴 룬 1", "_t")
+t("Facial Runes 2", "얼굴 룬 2", "_t")
+t("Facial Runes 3", "얼굴 룬 3", "_t")
+t("Facial Runes 4", "얼굴 룬 4", "_t")
+t("Body Tatoos 1", "몸 문신 1", "_t")
+t("Body Tatoos 2", "몸 문신 2", "_t")
+t("Body Tatoos 3", "몸 문신 3", "_t")
+t("Body Tatoos 4", "몸 문신 4", "_t")
+t("Body Tatoos 5", "몸 문신 5", "_t")
+t("Body Tatoos 6", "몸 문신 6", "_t")
+t("Body Tatoos 7", "몸 문신 7", "_t")
+t("Body Tatoos 8", "몸 문신 8", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 
 
@@ -2693,6 +2844,10 @@ t("Blond Hair 4", "금빛 머리카락 4", "_t")
 t("Dark Hair 2", "검은 머리카락 2", "_t")
 t("Dark Hair 3", "검은 머리카락 3", "_t")
 t("Dark Hair 4", "검은 머리카락 4", "_t")
+t("Redhead 1", "붉은 머리카락 1", "_t")
+t("Redhead 2", "붉은 머리카락 2", "_t")
+t("Redhead 3", "붉은 머리카락 3", "_t")
+t("Redhead 4", "붉은 머리카락 4", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 t("Halfling", "하플링", "birth descriptor name")
 t("Halflings are a race of very short stature, rarely exceeding four feet in height.", "하플링들은 대부분 120cm를 넘기지 못하는 작은 종족입니다.", "_t")
@@ -2704,7 +2859,7 @@ t("#LIGHT_BLUE# * -3 Strength, +3 Dexterity, +1 Constitution", "#LIGHT_BLUE# * -
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +3 교활", "_t")
 t("#LIGHT_BLUE# * +5 Luck", "#LIGHT_BLUE# * +5 행운", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 12", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 10%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 10%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 10%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 10%", "_t")
 t("Blond Hair 1", "금빛 머리카락 1", "_t")
 t("Dark Hair 1", "검은 머리카락 1", "_t")
 
@@ -2739,13 +2894,34 @@ t("Blond Hair 3", "금빛 머리카락 3", "_t")
 t("Blond Hair 4", "금빛 머리카락 4", "_t")
 t("Blond Hair 5", "금빛 머리카락 5", "_t")
 t("Blond Hair 6", "금빛 머리카락 6", "_t")
+t("Redhead 1", "붉은 머리카락 1", "_t")
+t("Redhead 2", "붉은 머리카락 2", "_t")
+t("Redhead 3", "붉은 머리카락 3", "_t")
+t("Redhead 4", "붉은 머리카락 4", "_t")
+t("Redhead 5", "붉은 머리카락 5", "_t")
+t("Redhead 6", "붉은 머리카락 6", "_t")
+t("Redhead Melinda", "붉은 머리카락 멜린다", "_t")
 t("Dark Beard 1", "검은 수염 1", "_t")
 t("Dark Beard 2", "검은 수염 2", "_t")
 t("Dark Beard 3", "검은 수염 3", "_t")
 t("Dark Beard 4", "검은 수염 4", "_t")
 t("Dark Beard 5", "검은 수염 5", "_t")
+t("Blonde Beard 1", "금빛 수염 1", "_t")
+t("Blonde Beard 2", "금빛 수염 2", "_t")
+t("Blonde Beard 3", "금빛 수염 3", "_t")
+t("Blonde Beard 4", "금빛 수염 4", "_t")
+t("Blonde Beard 5", "금빛 수염 5", "_t")
 t("Redhead Beard 1", "붉은 수염 1", "_t")
 t("Redhead Beard 2", "붉은 수염 2", "_t")
+t("Redhead Beard 3", "붉은 수염 3", "_t")
+t("Redhead Beard 4", "붉은 수염 4", "_t")
+t("Redhead Beard 5", "붉은 수염 5", "_t")
+t("Dark Mustache 1", "검은 콧수염 1", "_t")
+t("Dark Mustache 2", "검은 콧수염 2", "_t")
+t("Blond Mustache 1", "금빛 콧수염 1", "_t")
+t("Blond Mustache 2", "금빛 콧수염 2", "_t")
+t("Redhead Mustache 1", "붉은 콧수염 1", "_t")
+t("Redhead Mustache 2", "붉은 콧수염 2", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 t("Higher", "하이어", "birth descriptor name")
 t("Highers are a special branch of Humans that have been imbued with latent magic since the Age of Allure.", "하이어는 매혹의 시대로부터 마법의 잠재력을 물려받은 인간의 부류입니다.", "_t")
@@ -2757,18 +2933,23 @@ t("#GOLD#Life per level:#LIGHT_BLUE# 11", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 t("Blond Hair 1", "금빛 머리카락 1", "_t")
 t("Cornac", "코르낙", "birth descriptor name")
 t("Cornacs are Humans from the northern parts of the Allied Kingdoms.", "코르낙은 왕국연합의 북부에서 온 사람들입니다.", "_t")
-t("Humans are an inherently very adaptable race and as such they gain a #GOLD#talent category point#WHITE# (others only gain one at levels 10, 20 and 34) and both #GOLD#a class and a generic talent point#WHITE# at birth and every 10 levels.", "인간은 선천적으로 아주 적응적인 종족으로 #GOLD#talent category point#WHITE# (다른 종족들은 레벨 10, 20, 34에만 하나씩 얻을 수 있습니다.)와 #GOLD#a class and a generic talent point#WHITE#를 캐릭터 생성시와 레벨 10마다 얻습니다.", "_t")
+t("Humans are an inherently very adaptable race and as such they gain a #GOLD#talent category point#WHITE# (others only gain one at levels 10, 20 and 34) and both #GOLD#a class and a generic talent point#WHITE# at birth and every 10 levels.", "인간은 선천적으로 아주 적응적인 종족으로 #GOLD#기술 계열 점수 1 점#WHITE# (다른 종족들은 레벨 10, 20, 34에만 하나씩 얻을 수 있습니다.)과 #GOLD#일반 기술 점수 1 점#WHITE#을 캐릭터 생성시와 레벨 10 마다 얻습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 10", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 10", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 0%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 0%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 0%", "_t")
 t("Dark Hair 1", "검은 머리카락 1", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/races/tutorial.lua"
 
+t("Tutorial Human", "튜토리얼 인간", "birth descriptor name")
+t("A special tutorial race.", "특별한 튜토리얼 인간.", "_t")
+t("Tutorial Basic", "튜토리얼 기본", "birth descriptor name")
+t("Tutorial Stats", "튜토리얼 능력치", "birth descriptor name")
+t("A Human hailing from the northern town of Derth. A common kind of man, unremarkable in all respects.", "북방의 데르스에서 온 인간으로, 모든 면에서 눈에 띄지 않는 흔한 인간입니다.", "_t")
 
 
 ------------------------------------------------
@@ -2784,16 +2965,21 @@ t("Ghoul", "구울", "birth descriptor name")
 t("Slow to shuffle, quick to bite, learn from master, rule the night!", "느리게 걸으나, 물때는 빠르니, 주인에게서 배워, 밤을 지배하리라.", "_t")
 t("Ghouls are dumb, but resilient, rotting undead creatures, making good fighters.", "구울은 멍청하지만, 강인하여 좋은 투사인 썩어가는 언데드 괴물입니다.", "_t")
 t("They have access to #GOLD#special ghoul talents#WHITE# and a wide range of undead abilities:", "그들은 #GOLD#구울 종족 특성#WHITE#을 가지며 다양한 언데드 능력을 사용할 수 있습니다.:", "_t")
-t("- great poison resistance", "- great 중독 면역력", "_t")
+t("- great poison resistance", "- 굉장한 중독 면역력", "_t")
 t("- stun resistance", "- 기절 면역력", "_t")
-t("- special ghoul talents: ghoulish leap, gnaw and retch", "- 구울 종족 특성: 구울의 도약, 물어뜯기와 구토하기", "_t")
+t("- special ghoul talents: ghoulish leap, gnaw and retch", "- 구울 종족 특성: 구울의 도약, 물어뜯기와 구역질", "_t")
 t("The rotting bodies of ghouls also force them to act a bit more slowly than most creatures.", "구울의 썩어가는 육체 때문에 구울들은 대다수의 생물보다 조금 느리게 움직입니다.", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +5 Constitution", "#LIGHT_BLUE# * +3 힘, +1 민첩, +5 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, -2 Willpower, -2 Cunning", "#LIGHT_BLUE# * +0 마법, -2 의지, -2 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 14", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 12%", "_t")
-t("#GOLD#Speed penalty:#LIGHT_BLUE# -20%", "#GOLD#속도 패널티:#LIGHT_BLUE# -20%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Speed penalty:#LIGHT_BLUE# -20%", "#GOLD#속도 불이익:#LIGHT_BLUE# -20%", "_t")
 t("Skin Color 9", "피부 색 9", "_t")
+t("Alternative Face", "대체 얼굴", "_t")
+t("Fangs 1", "송곳니 1", "_t")
+t("Fangs 2", "송곳니 2", "_t")
+t("Bloodstains", "피칠갑", "_t")
+t("Bones", "뼈", "_t")
 t("Skeleton", "스켈레톤", "birth descriptor name")
 t("The marching bones, each step we rattle; but servants no more, we march to battle!", "진군하는 해골의 군단, 걸음마다 부들대지만, 더 이상 섬기지 않으리라. 우리는 전장으로 향하리라!", "_t")
 t("Skeletons are animated bones, undead creatures both strong and dexterous.", "움직이는 뼈다귀인 스켈레톤은 강하고 민첩한 언데드 괴물입니다.", "_t")
@@ -2807,7 +2993,7 @@ t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 힘, +4 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 12", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 20%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 20%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 20%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 20%", "_t")
 t("Lich", "리치", "birth descriptor name")
 t("You should not see this!", "넌 이거 못볼걸 ㅋㅋ!", "_t")
 t("Facial features", "얼굴 특징", "birth facial category")
@@ -2826,11 +3012,42 @@ t("Hair 1", "머리카락 1", "_t")
 t("Hair 2", "머리카락 2", "_t")
 t("Redhead Hair 1", "붉은 머리카락 1", "_t")
 t("Redhead Hair 2", "붉은 머리카락 2", "_t")
+t("White Hair 1", "하얀 머리카락 1", "_t")
+t("White Hair 2", "머리카락 2", "_t")
 t("Beard 1", "수염 1", "_t")
 t("Beard 2", "수염 2", "_t")
 t("Redhead Beard 1", "붉은 수염 1", "_t")
 t("Redhead Beard 2", "붉은 수염 2", "_t")
+t("White Beard 1", "하얀 수염 1", "_t")
+t("White Beard 2", "하얀 수염 2", "_t")
+t("Eyes 1", "눈 1", "_t")
+t("Eyes 2", "눈 2", "_t")
+t("Eyes 3", "눈 3", "_t")
 t("Mustache", "콧수염", "_t")
+t("Redhead Mustache", "붉은 콧수염", "_t")
+t("White Mustache", "하얀 콧수염", "_t")
+t("Teeth 1", "치아 1", "_t")
+t("Teeth 2", "치아 2", "_t")
+t("Lich Eyes 1", "리치 눈 1", "_t")
+t("Lich Eyes 2", "리치 눈 2", "_t")
+t("Lich Eyes 3", "리치 눈 3", "_t")
+t("Lich Regalia 1", "리치 휘장 1", "_t")
+t("Lich Regalia 2", "리치 휘장 2", "_t")
+t("Lich Regalia 3", "리치 휘장 3", "_t")
+t("Lich Regalia 4", "리치 휘장 4", "_t")
+t("Lich Regalia 5", "리치 휘장 5", "_t")
+t("Lich Regalia 6", "리치 휘장 6", "_t")
+t("Lich Regalia 7", "리치 휘장 7", "_t")
+t("Lich Regalia 8", "리치 휘장 8", "_t")
+t("Lich Regalia 9", "리치 휘장 9", "_t")
+t("Lich Regalia 10", "리치 휘장 10", "_t")
+t("Cracks", "갈라짐", "_t")
+t("Guts", "내장", "_t")
+t("Iron Bolt", "쇠 징", "_t")
+t("Molds", "곰팡이", "_t")
+t("Runes 1", "룬 1", "_t")
+t("Runes 2", "룬 2", "_t")
+t("Rust", "녹", "_t")
 
 
 ------------------------------------------------
@@ -2853,15 +3070,47 @@ t("Skin Color 6", "피부 색 6", "_t")
 t("Skin Color 7", "피부 색 7", "_t")
 t("Skin Color 8", "피부 색 8", "_t")
 t("Skin Color 9", "피부 색 9", "_t")
+t("Skin Color 10", "피부 색 10", "_t")
 t("Hair 1", "머리카락 1", "_t")
 t("Hair 2", "머리카락 2", "_t")
 t("Hair 3", "머리카락 3", "_t")
 t("Hair 4", "머리카락 4", "_t")
+t("Hair 5", "머리카락 5", "_t")
+t("Redfur Hair 1", "붉은 머리카락 1", "_t")
+t("Redfur Hair 2", "붉은 머리카락 2", "_t")
+t("Redfur Hair 3", "붉은 머리카락 3", "_t")
+t("Redfur Hair 4", "붉은 머리카락 4", "_t")
+t("Redfur Hair 5", "붉은 머리카락 5", "_t")
 t("Beard 1", "수염 1", "_t")
 t("Beard 2", "수염 2", "_t")
 t("Beard 3", "수염 3", "_t")
+t("Redfur Beard 1", "붉은 수염 1", "_t")
+t("Redfur Beard 2", "붉은 수염 2", "_t")
+t("Redfur Beard 3", "붉은 수염 3", "_t")
+t("Eyes 1", "눈 1", "_t")
+t("Eyes 2", "눈 2", "_t")
+t("Eyes 3", "눈 3", "_t")
+t("Eyes 4", "눈 4", "_t")
+t("Eyes 5", "눈 5", "_t")
+t("Eyes 6", "눈 6", "_t")
+t("Eyes 7", "눈 7", "_t")
+t("Eyes 8", "눈 8", "_t")
+t("Eyes 9", "눈 9", "_t")
+t("Eyes 10", "눈 10", "_t")
+t("Eyes 11", "눈 11", "_t")
+t("Eyes 12", "눈 12", "_t")
+t("Eyes 13", "눈 13", "_t")
+t("Mustache 1", "콧수염 1", "_t")
+t("Mustache 2", "콧수염 2", "_t")
+t("Mustache 3", "콧수염 3", "_t")
+t("Redfur Mustache 1", "붉은 콧수염 1", "_t")
+t("Redfur Mustache 2", "붉은 콧수염 2", "_t")
+t("Redfur Mustache 3", "붉은 콧수염 3", "_t")
+t("Bodypaint 1", "바디 페인트 1", "_t")
+t("Bodypaint 2", "바디 페인트 2", "_t")
 t("Tatoos 1", "문신 1", "_t")
 t("Tatoos 2", "문신 2", "_t")
+t("Redfur", "붉은털", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 t("Yeek", "이크", "birth descriptor name")
 t("One race, one mind, one way. Our oppression shall end, and we shall inherit Eyal. Do not presume we are weak - our way is true, and only those who help us shall see our strength.", "한 종족, 한 정신, 한 길. 억압은 끝나리라, 그리고 우리는 에이알을 물려받으리니. 우리의 힘을 얕보지 말지어다. 우리의 방식은 옳으니, 우리를 돕는 자만이 우리의 진정한 힘을 보게 될 것이다.", "_t")
@@ -2874,7 +3123,7 @@ t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * -3 Strength, -2 Dexterity, -5 Constitution", "#LIGHT_BLUE# * -3 힘, -2 민첩, -5 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +6 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +6 의지, +4 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 7", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 7", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# -15%", "#GOLD#경험치 패널티:#LIGHT_BLUE# -15%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# -15%", "#GOLD#경험치 불이익:#LIGHT_BLUE# -15%", "_t")
 t("#GOLD#Confusion resistance:#LIGHT_BLUE# 35%", "#GOLD#혼란 면역력:#LIGHT_BLUE# 35%", "_t")
 
 
@@ -2882,14 +3131,33 @@ t("#GOLD#Confusion resistance:#LIGHT_BLUE# 35%", "#GOLD#혼란 면역력:#LIGHT_
 section "game/modules/tome/data/birth/sexes.lua"
 
 t("Female", "여성", "birth descriptor name")
+t("You are a female of the species.", "해당 종족의 여성입니다.", "_t")
 t("Male", "남성", "birth descriptor name")
+t("You are a male of the species.", "해당 종족의 남성입니다.", "_t")
+t("There is no in-game difference between the two sexes.", "외관을 제외하고, 두 성별간의 차이점은 존재하지 않습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/birth/worlds.lua"
 
 t("Maj'Eyal: The Age of Ascendancy", "마즈'에이알: 주도의 시대", "_t")
+t("The people of Maj'Eyal: Humans, Halflings, Elves and Dwarves.", "마즈'에이알의 종족들 : 인간, 하플링, 엘프와 드워프.", "_t")
+t("The known world has been at relative peace for over one hundred years, and people are prospering again.", "이 세계는 100 년 이상동안 상대적으로 평화로웠고, 사람들은 다시 번영하고 있습니다.", "_t")
+t("You are an adventurer, setting out to find lost treasure and glory.", "당신은 모험가로, 잃어버린 보물들과 영광을 쫓습니다.", "_t")
+t("But what lurks in the shadows of the world?", "하지만 세계의 그림자 속에는 어떤 위협이 도사리고 있을까요?", "_t")
+t("Infinite Dungeon: The Neverending Descent", "무한 던전: 끝나지않는 하강", "_t")
+t("Ever deeper, never ending, no reprieve, keep descending. In ruins old, through barred gate, once riddle solved, find thy fate.", "더 깊은 곳으로, 절대로 끝나지 않으며, 그 어떤 유예도 없이, 끝임없이 내려가라. 오래된 폐허, 빗장문을 열고, 수수께끼가 풀리면, 그대의 운명을 찾을 지어다.", "_t")
+t("Play as your favorite race and class and venture into the infinite dungeon.", "당신이 가장 선호하는 종족과 직업으로 무한한 던전을 탐색합니다.", "_t")
+t("The only limit to how far you can go is your own skill!", "어디까지 도달할 수 있는지는 순전히 당신의 능력에 달렸습니다!", "_t")
+t("Inside the infinite dungeon you will yourself be limitless. You can level up beyond level 50 and continue to gain stat and talent points (at a reduced rate).", "무한한 던전 내에서는 당신의 능력에는 제한이 없어집니다. 레벨 50 이상으로 레벨 업 할 수 있고, 지속적으로 능력치와 기술 점수를 획득합니다. (그러나 획득량은 점점 낮아집니다).", "_t")
+t("Every level after level 50 the maximum of stats will increase by one.", "레벨 50 이후, 매 레벨마다 최대 능력치 한계가 1 씩 증가합니다.", "_t")
+t("Every 10 levels after level 50 the maximum points of each talent will increase by one.", "레벨 50 이후, 매 10 레벨마다 최대 기술 레벨 한계가 1 씩 증가합니다.", "_t")
 t("The Arena: Challenge of the Master", "아레나: 정점을 향한 도전", "_t")
+t("Blood spilled on sand, only the strong survive. Prove yourself worthy to enter.", "모래 위에 피가 흩뿌려지고, 강한 자만이 살아납니다. 들어갈 자격이 있음을 증명하십시오.", "_t")
+t("Play as a lone warrior facing the Arena's challenge!", "아레나의 도전에 마주한 고독한 전사로 게임을 진행합니다!", "_t")
+t("You can use any class and race for it.", "당신은 모든 직업과 종족을 선택할 수 있습니다.", "_t")
+t("See how far you can go! Can you become the new Master of the Arena?", "당신이 어디까지 갈 수 있을지 봅시다! 과연 아레나의 새로운 주인이 될 수 있을까요?", "_t")
+t("If so, you will battle your own champion next time!", "그렇다면, 다음 번엔 당신의 챔피언과 싸우게 될겁니다!", "_t")
 
 
 ------------------------------------------------
@@ -3079,7 +3347,7 @@ ENJOY, AND COME BACK ANY TIME IF YOU'RE INTERESTED IN SIMILAR WORK. I HAVEN'T WO
 잘 쓰고, 비슷한 일에 관심이 있으면 언제든지 찾아와라. 난 아직 이긴 게 아니니까. 네가 오래 기다릴수록, 네가 돌아왔을 때 연기 나는 구덩이랑 깊게 빡친 하플링을 만나게 될 확률이 높아지는 거 아니겠냐.]], "_t")
 t([[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#WHITE#
 YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], [[#LIGHT_GREEN#*마침내 하플링이 유리병과 작은 주머니를 들고 돌아왔습니다.*#WHITE#
-여기 네 영약, 그리고 이것도. 이 주입물은 존나게 희귀한 거니까 낭비하지 마라.]], "_t")
+여기 네 영약, 그리고 이것도. 이 주입물은 존나게 희귀한 거니까 낭비하지 마.]], "_t")
 t("THANK YOU. I'LL BE OFF.", "고마워, 이제, 가야겠어.", "_t")
 t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "어떤 영약 만드는 걸 도와주고 싶은데? 그냥 도와주려고 온거 맞지? 사랑의 영약 같은 걸 찾으러 온 얼간이는 아니지?", "_t")
 t("[Indicate the %s.]", "[%s 가리킨다.]", "tformat", nil, {"를"})
@@ -3093,31 +3361,117 @@ t("Hrmph.", "후...", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/alchemist-last-hope.lua"
 
+t("Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "제기랄, 너무 늦었어. %s 벌써 형제단에 들어갔다더군. 하지만 네가 노력까진 했다는 건 알고 있으니까, 혼합물은 이번만 특별히 만들어 주도록 하지.", "tformat", nil, {"이"})
+t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "잘 했어! 그리고 아직까진 사지가 말짱하구만. 늘 그랬듯이 멋져. 지금 특히 까다로운 조합물을 안전하게 만들었을 때랑 비슷한 느낌이야. 내 얼굴을 깨끗하게 날려먹을 뻔한 적이 꽤 있었으니까. 오, 그런데 네가 없는 동안 %s %s 간신히 만들었다는 소식을 들었어. 그가 나보다 먼저 과제를 끝내게 놔 두진 말라고!", "tformat", nil, {"이","를"})
+t([[#LIGHT_GREEN#*A dwarf in stained, battered mail armor opens the door.*#WHITE#
+Say, you interested in dismembering stuff and getting paid?]], [[#LIGHT_GREEN#*얼룩지고 낡은 사슬 갑옷을 입은 드워프가 문을 열었습니다.*#WHITE#
+자, 뭔가를 잘라내고 보수를 받는 일에 관심이 있으신가?]], "_t")
+t("Always.", "항상 관심 있지.", "_t")
+t("By the corpses of the gods, I love adventurers. Was about to become one myself when it suddenly hit me. And by \"it\" I mean \"my wife.\" Har!", "오, 신들의 시체들이시여, 이래서 내가 모험가들을 참 좋아한다니까. 나도 모험가가 되려 했었는데, 그거에 얻어맞아 버려서 말이야. \"그거\" 는 사실, \"우리 집사람\" 이지만. 핫하!", "_t")
 t("What do you propose?", "목적이 뭔데?", "_t")
+t("I propose that I give you a list of monster parts to fetch, then you go and fetch them, then I make some blindingly amazing brews with said monster parts, then I get accepted into the Brotherhood of Alchemists.", "내가 너한테 뜯어와야 할 괴물들 조각의 목록을 주면, 넌 가서 그것들을 뜯어 오고, 그걸 나한테 주면 내가 그것들로 믿기지 않을 정도로 놀라운 혼합물들을 만들어서, 연금술사 형제단에 들어가는 거지.", "_t")
+t("Sounds like a plan.", "계획이 참 멋지네.", "_t")
+t("I make excellent plans. And brews, which the Brotherhood will no doubt make me call 'elixirs' once I'm in. And I'll obey, because they have ways of getting what they want. Now, where were we?", "내가 계획은 참 잘 짜지. 그리고 혼합물들도. 물론 내가 형제단에 들어가면 그쪽에선 그걸 '영약' 이라고 부르라고 할 테지만. 그리고 난 거기에 따라야만 하겠지, 형제단은 자기들이 원하는 대로 하게 만들 수단이 많으니까 말이야. 그래서, 어디까지 얘기했더라?", "_t")
+t("Aiding you with getting into some Brotherhood. What's in it for me?", "당신이 무슨 형제단에 들어가게 도와주는 것 까지. 그 보수라는 건 어떤 거야?", "_t")
+t("Oh, easy. You get a swig of each brew, of course. They'll put hair on your chest, and possibly your eyelids and fingernails. And, if your aid proves the deciding factor, then I've got a real treat for you: perhaps the last Taint of Purging left in Maj'Eyal.", "오, 간단하지. 당연히 네겐 마실 만한 혼합물들을 줄게. 그것들은 네 가슴팍에다가 힘을 채워 줄 거고, 아마 눈썹이랑 손톱에도 그렇게 해 줄 거야. 그리고 만약 네가 결정적인 도움을 주었다면, 진짜로 도움이 될 만한 걸 하나 주지. '해방의 낙인'. 아마 마즈'에이알에 마지막으로 남아 있는 것일 거야.", "_t")
 t("I accept.", "좋아, 도와주지.", "_t")
 t("I cannot aid you at this time.", "지금은 못 도와주겠네.", "_t")
+t("One last thing. There's a few other fellows angling for the same slot in the Brotherhood that I am. They're not going to be sitting on their hands while we're at work here, so best move quick-like. Now, which of these do you want to help me with first: the Brew of Brawn, the Brew of Stoneskin, or the Brew of Foundations? Or Elixirs, rather. Not Brews. Best get in the habit now, I suppose.", "마지막으로 하나 알아 둬. 형제단에 들어가길 바라는 사람들은 더 있어. 내 경쟁자들이지. 우리가 일하고 있는 동안 그네들도 손 놓고 가만히 있진 않을 거고, 그러니까 번개같이 움직이려고 노력해야 해. 이제, 이것들 중 가장 먼저 어떤 걸 도와줄 건가? 하나, 건강의 혼합물, 둘, 돌 피부의 혼합물, 셋, 기초의 혼합물. 혼합물이 아니라 영약으로 하자. 영약이라고 부르는 습관을 미리 들여 놔야겠어.", "_t")
+t("Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.", "그래, 여기 재료 목록. 오, 하나 더. 이 재료들 구하라고 사냥꾼 친구들을 이미 몇 명 보내 놨는데, 난 누굴 편애하거나 하진 않아. 그네들 중 누군가가 너보다 빨리 재료들을 가져 오면, 네 몫은 없어지는 거야. 그러니 서두르라고.", "_t")
+t([[Right, here's the list. Oh, one more thing. Got me some fellas already out hunting for this stuff, and I'll not play favorites. One of them brings me those ingredients before you do, and you're out of luck. Hurry back.
+
+Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], [[그래, 여기 재료 목록. 오, 하나 더. 이 재료들 구하라고 사냥꾼 친구들을 이미 몇 명 보내 놨는데, 난 누굴 편애하거나 하진 않아. 그네들 중 누군가가 너보다 빨리 재료들을 가져 오면, 네 몫은 없어지는 거야. 그러니 서두르라고.
+
+오, 딱 하나만 더... 혹시 심부름 하나 더 할 시간이 남는다면 다른 부탁이 있는데. 줄 보수가 없지만.]], "_t")
 t("#LIGHT_GREEN#*The door is locked and nobody responds to your knocks*#WHITE#", "#LIGHT_GREEN#*문은 잠겨 있고 노크에 응답하는 사람은 없습니다*#WHITE#", "_t")
 t("[Leave]", "[떠난다]", "_t")
+t([[#LIGHT_GREEN#*The mailed dwarf opens his door.*#WHITE#
+Aha, my favorite adventurer.]], [[#LIGHT_GREEN#*갑옷 입은 드워프가 문을 열었습니다.*#WHITE#
+아하, 우리 모험가 양반이구만.]], "_t")
 t("I've returned with the ingredients for the %s.", "%s의 재료들을 가져 왔어.", "tformat")
 t("I've come to offer more aid.", "도움을 더 주러 왔어.", "_t")
 t("[Give him the monster bits.]", "[괴물들의 조각을 넘긴다.]", "_t")
+t([[#LIGHT_GREEN#*He gleefully claps you on the shoulder.*#WHITE#
+Ha ha! This is the last one! Stire and Marus and that damned hermit can suck on my beard! And so can my wife! YES, I KNOW YOU CAN HEAR ME. Good work, friend. Let's have them.]], [[#LIGHT_GREEN#*그는 유쾌하게 당신의 어깨를 두어 번 쳤습니다.*#WHITE#
+하 하! 이게 마지막이야! 스타이어랑 말루스랑 그 망할 은둔자 놈이 내 수염을 빨게 생겼구만! 우리 집사람도 말이야! 늬들 내 말 들리는 거 다 안다고! 훌륭했어, 친구. 어서 만들자고.]], "_t")
 t("[Give him the monster bits]", "[괴물들의 조각을 넘긴다]", "_t")
+t("Give me an hour or so to make with the alchemy. Don't go anywhere.", "연금술 좀 부리게 한 시간만 줘. 어디 가지 말라고.", "_t")
+t("I'd invite you inside while you wait, but the she-dwarf's in there, and I've grown fond of you.", "안쪽에서 기다리게 하고 싶지만, 집사람도 있어서 말이야. 그리고 네가 마음에 들었거든.", "_t")
 t("[Wait]", "[기다린다]", "_t")
+t([[#LIGHT_GREEN#*The dwarf finally returns with a vial.*#WHITE#
+Tastes like Urh'Rok's own piss, but it gets the job done.]], [[#LIGHT_GREEN#*마침내 드워프가 유리병을 들고 돌아왔습니다.*#WHITE#
+울흐'록의 오줌 같은 맛이 나겠지만, 효과는 확실할 거야.]], "_t")
+t([[#LIGHT_GREEN#*The dwarf finally returns with a vial and a small pouch.*#WHITE#
+I put a bit of the good stuff in this one, though it won't do you any favors tomorrow morning. And careful with that Taint of Purging, especially if the wife answers the door the next time you knock. Har!]], [[#LIGHT_GREEN#*마침내 드워프가 유리병과 작은 주머니를 들고 돌아왔습니다.*#WHITE#
+이번엔 좋은 걸 하나 끼워넣었는데, 내일 아침 쯤 되면 별 효과가 없어질 거야. 그리고 그 해방의 낙인은 조심해서 쓰라고, 특히나 네가 다음번에 여기 왔을 때 집사람이 맞이를 해준다면 말이야. 핫하!]], "_t")
 t("Thank you. I'll be off.", "고마워. 이제 가야겠어.", "_t")
+t("Bless you adventurers. Which will it be?", "그대에게 축복을, 모험가 양반. 어떤 걸로 할래?", "_t")
 t("The %s.", "%s.", "tformat")
 t("[leave]", "[떠난다]", "_t")
+t("Here's a list of the creature bits I need. Good luck with the murdering!", "여기 필요한 조각들의 목록. 처리할 때 행운을 빈다!", "_t")
 t("I'll be off.", "이제 가야겠어.", "_t")
+t([[Here's a list of the creature bits I need. Good luck with the murdering!
+
+Oh, and one other last thing... if you have the time for another errand, though I've got no reward on this one.]], [[여기 필요한 조각들의 목록. 처리할 때 행운을 빈다!
+
+오, 딱 하나만 더... 혹시 심부름 하나 더 할 시간이 남는다면 다른 부탁이 있는데. 줄 보수가 없지만.]], "_t")
+t("Well, I'll see if I can help.", "뭐, 내가 도울 수 있는 거라면야.", "_t")
+t("I'm here for profit, not errands - I have the list and will work on it; sort your own sidejobs out.", "보수 때문에 일하는 거지, 심부름은 아니야 - 나도 해야 될 일 목록이 있다고, 곁다리 일은 됐어.", "_t")
+t("Er, it seems that while you were out, somebody else managed to bring me the ingredients. I've got no reward for you! Sorry about that, but when time is of the essence, 'first come, first served' is the only sensible policy.", "어어, 네가 나가 있는 동안 다른 녀석이 겨우 재료를 갖다 준 모양이야. 너한테 줄 게 없어! 그건 미안하긴 하지만 시간이 금인 경우에는 말이야, '선착순' 이 제1원칙이라고.", "_t")
 t("Hrmph.", "후...", "_t")
+t([[Well, it's like this, one of my wife's friends has gone missing. A young alchemist in training, called Celia. Thing is, her husband died recently, and the grief done drove her mad. She used to go out to his grave every day, until one day she didn't come back. Personally I don't think she was able to live without him; the two were inseparable. If you get a chance on your travels, could you pass by the mausoleum to the east and check... well, you get the idea.
+
+It's strange what death can do to people, how it can take over their minds. Sometimes they forget it's the living that matter... See she gets a proper burial - treated respectfully, eh?]], [[좋아, 간단히 말하면, 우리 집사람의 친구들 중 한 명이 사라졌어. 이름은 셀리아고, 수련 중이던 젊은 연금술사였지. 근데 최근에 남편이 죽어 버렸고, 미쳐버린 게 아닌가 싶을 정도로 슬퍼하더라고. 그녀가 남편의 묘에 자주 다녀 오곤 했었는데, 어느 날 갔다가 돌아오질 않았어. 개인적인 생각으로는, 그녀가 남편 없이 살 수 있을 것 같진 않아. 그 둘이 금슬이 정말로 좋았거든. 만약에 여행을 하다가 기회가 있으면, 동쪽의 무덤에 잠시 들러서 확인해 줄 수 있겠나... 그, 뭔 소린지 알겠지?
+
+참 기묘하지, 죽음이 사람들이 어떤 일까지 저지르게 만드는지는, 사람들의 정신을 어디까지 빼놓을 수 있는지는. 사람들은 가끔씩 자기가 살아 있다는 게 중요하다는 걸 잊게 되지... 가서 그녀가 제대로 묻혀 있는지 - 정중하게 장례가 치러져 있는지 확인해 주지 않겠나, 응?]], "_t")
+t("I'll do what I can.", "내가 할 수 있는 일을 해 보겠어.", "_t")
+t("He points out the location of the graveyard on your map.", "그가 지도에 묘지의 위치를 표시해 주었다.", "log")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/angolwen-leader.lua"
 
+t([[#LIGHT_GREEN#*A tall woman stands before you. Her fair skin radiates incredible power through her white robe.*#WHITE#
+I am Linaniil of the Kar'Krul. Welcome to our city, @playerdescriptor.subclass@. What may I do for thee?]], [[#LIGHT_GREEN#*장신의 여성이 눈앞에 서 있습니다. 그녀의 새하얀 로브 너머의 옅은 피부에서 놀라운 힘이 뿜어져 나오고 있습니다.*#WHITE#
+전 카르'크룰의 리나니일입니다. 우리 도시에 오신 걸 환영해요, @playerdescriptor.subclass@님. 그대를 위해 제가 무엇을 해 드릴 수 있을까요?]], "_t")
+t("I require all the help I can get, not for my sake but for the town of Derth, to the northeast of here.", "제가 구할 수 있는 최대한의 도움이 필요합니다. 절 위해서가 아니라 북동쪽의 데르스 마을을 위해서.", "_t")
+t("I am ready! Send me to Urkis!", "준비되었습니다! 우르키스에게로 보내 주십시오!", "_t")
+t("Urkis has been slain.", "우르키스는 처단되었습니다.", "_t")
+t("Nothing for now. Sorry to have taken your time. Farewell, my lady.", "지금은 아무 일도 없습니다. 소중한 시간을 뺏어서 죄송합니다. 안녕히, 고귀한 여인이시여.", "_t")
+t([[Yes, we have noticed the devastation that happened there. I have sent some friends thence to disperse the cloud, but the true threat lies not there.
+He who created this abomination is Urkis. He is a Tempest, a powerful Archmage who channels the storms.
+Years ago he went rogue, severing himself from Angolwen. At first he remained quiet, and thus we withheld action, but it seems we have no choice now.
+Cleansing the skies will take much time. In the meanwhile, if thou art willing, we can send thee to Urkis' lair to face him.
+I will not lie to thee: we can send thee thence, but this could be a death trap, and we have no means for thou to depart his lair, as he lives atop a tall peak in the Daikara mountains.]], [[네, 우리도 그곳에서 일어난 참사에 대해 알고 있습니다. 그 구름을 없애기 위해 동지들을 조금 보냈지만, 진정한 위협은 그곳에 있는 것이 아니었어요.
+그 끔찍한 구름을 만들어 낸 건 우르키스라는 남자입니다. 폭풍을 모을 수 있는 강력한 마도사지요.
+그는 수년 전에 앙골웬을 떠났습니다. 그는 처음에는 조용히 지냈고, 그래서 우리도 행동을 보류했었지만, 이제는 선택의 여지가 없는 것 같네요.
+하늘을 맑게 바꾸는 데에는 다소 시간이 필요할 것입니다. 그 동안에, 만약 그대가 원하신다면, 우리는 그대가 우르키스를 마주할 수 있도록 그의 거처로 보내드리겠습니다.
+거짓말은 하지 않겠습니다. 우린 그대를 보내드릴 순 있지만, 그건 그대를 죽음으로 내모는 것이 될 수도 있습니다. 또한 그의 거처는 다이카라 산의 높은 봉우리에 있기 때문에, 우리에겐 그대를 그곳에서 귀환시킬 방법이 없습니다.]], "_t")
+t("I need to prepare myself. I will be back soon.", "준비가 필요할 것 같습니다. 곧 돌아오지요.", "_t")
+t("I am ready. Send me. I will not let the good people of Derth down.", "준비가 되었습니다. 보내 주십시오. 전 데르스의 선량한 사람들을 못 본체 하지 않을 겁니다.", "_t")
+t("Good luck to thee. Thou hast the blessings of Angolwen.", "그대에게 행운이 있기를. 앙골웬의 축복이 그대와 함께 할 것입니다.", "_t")
+t("I see the storm is calmed.  Take this rune as a token of my appreciation.", "폭풍이 잦아든 것을 보았습니다.  이 룬을 받아 주세요. 제 감사의 증표로써.", "_t")
+t("Thank you.", "감사합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/angolwen-staves-store.lua"
 
+t("Welcome @playername@ to my shop.", "내 가게에 어서 와, @playername@.", "_t")
+t("Let me see your wares.", "물건을 보고 싶어.", "_t")
+t("I am looking for staff training.", "지팡이 기술을 배울 데를 찾고 있는데.", "_t")
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t("I can teach you staff combat (talent category Spell/Staff combat).  Learning the basics costs 100 gold, while more intensive tutelage to gain proficiency costs 500 gold.  Once you're proficient, I can teach you more refined techniques for an additional 750 gold.", "내가 지팡이 전투기술 (기술 계열 주문/지팡이 전투기술) 을 가르쳐 줄 수 있어. 기초는 100 골드, 좀 더 심도있는 지식은 500 골드. 심도있는 지식을 알고 있다면, 750 골드 추가로 조금 더 다듬어진 기술들을 가르쳐 주지.", "_t")
+t("Just give me the basics (reveals locked talent category) - 100 gold.", "기초만 가르쳐 줘 (잠겨있는 기술 계열이 보이게 됨) - 100 골드.", "_t")
+t("The staff carver spends some time with you, teaching you the basics of staff combat.", "지팡이 장인은 잠깐 시간을 내어 당신에게 지팡이 전투의 기초를 가르쳤다.", "logPlayer")
+t("He is surprised at how quickly you are able to follow his tutelage.", "그는 당신의 놀라운 습득 속도에 놀랐다.", "logPlayer")
+t("Please teach me what I need to know (unlocks talent category) - %d gold.", "내가 알아야 하는 걸 가르쳐 줘 (기술 계열 해금) - %d 골드.", "tformat")
+t("The staff carver spends a substantial amount of time teaching you all of the techniques of staff combat.", "지팡이 장인은 상당한 시간을 내어 당신에게 지팡이 전투 기술의 모든 것을 가르쳤다.", "logPlayer")
+t("He is impressed with your mastery and shows you a few extra techniques.", "그는 당신의 능숙함에 감탄하며, 몇 가지 추가적인 기술들을 보여 주었다.", "logPlayer")
+t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "배울 건 다 배웠지만, 난 전문가가 되고 싶어 (기술 계열 숙련도 0.2 증가) - 750 골드.", "_t")
+t(", including some esoteric techniques", " 몇 가지 비장의 기술도요.", "_t")
+t("The staff carver spends a great deal of time going over the finer details of staff combat with you%s.", "지팡이 장인은 엄청난 시간을 들여 당신에게 지팡이 전투의 세세한 부분까지 가르쳤습니다.%s", "tformat")
+t("No thanks.", "사양하지.", "_t")
 
 
 ------------------------------------------------
@@ -3295,6 +3649,7 @@ t("[leave]", "[떠난다]", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/assassin-lord.lua"
 
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
 t("[attack]", "[공격]", "_t")
 
 
@@ -3365,6 +3720,7 @@ section "game/modules/tome/data/chats/escort-quest-start.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/escort-quest.lua"
 
+t("Thank you.", "감사합니다.", "_t")
 
 
 ------------------------------------------------
@@ -3375,11 +3731,13 @@ section "game/modules/tome/data/chats/fallen-aeryn.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/gates-of-morning-main.lua"
 
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/gates-of-morning-welcome.lua"
 
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
 
 
 ------------------------------------------------
@@ -3392,6 +3750,7 @@ section "game/modules/tome/data/chats/jewelry-store.lua"
 
 t("Use which gem?", "어떤 보석을 쓸까?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t("Let me see your wares.", "물건을 보고 싶어.", "_t")
 
 
 ------------------------------------------------
@@ -3412,17 +3771,20 @@ section "game/modules/tome/data/chats/keepsake-kyless-death.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/last-hope-elder.lua"
 
+t("Thank you.", "감사합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/last-hope-lost-merchant.lua"
 
 t(".", "없습니다.", "_t")
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
 t("dragonbone wand", "용뼈 마법봉", "_t")
 t("dragonbone totem", "용뼈 토템", "_t")
 t("voratun torque", "보라툰 주술 고리", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Name", "이름", "_t")
+t("No thanks.", "사양하지.", "_t")
 t("[leave]", "[떠난다]", "_t")
 
 
@@ -3430,13 +3792,19 @@ t("[leave]", "[떠난다]", "_t")
 section "game/modules/tome/data/chats/last-hope-melinda-father.lua"
 
 t("[leave]", "[떠난다]", "_t")
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
 t("Melinda", "멜린다", "_t")
+t("Thank you.", "감사합니다.", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/last-hope-weapon-store.lua"
 
+t("Welcome @playername@ to my shop.", "내 가게에 어서 와, @playername@.", "_t")
+t("Let me see your wares.", "물건을 보고 싶어.", "_t")
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t("No thanks.", "사양하지.", "_t")
 
 
 ------------------------------------------------
@@ -3448,6 +3816,7 @@ t("[leave]", "[떠난다]", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/lost-merchant.lua"
 
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
 
 
 ------------------------------------------------
@@ -3468,6 +3837,8 @@ section "game/modules/tome/data/chats/mage-apprentice-quest.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/magic-store.lua"
 
+t("Let me see your wares.", "물건을 보고 싶어.", "_t")
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
 
 
 ------------------------------------------------
@@ -3712,6 +4083,7 @@ section "game/modules/tome/data/chats/trap-priming.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/tutorial-start.lua"
 
+t("Thank you.", "감사합니다.", "_t")
 
 
 ------------------------------------------------
@@ -3775,11 +4147,19 @@ section "game/modules/tome/data/chats/zemekkys-start-chronomancers.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/zemekkys.lua"
 
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t("Thank you.", "감사합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/zigur-mindstar-store.lua"
 
+t("Welcome @playername@ to my shop.", "내 가게에 어서 와, @playername@.", "_t")
+t("Let me see your wares.", "물건을 보고 싶어.", "_t")
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t("Just give me the basics (reveals locked talent category) - 100 gold.", "기초만 가르쳐 줘 (잠겨있는 기술 계열이 보이게 됨) - 100 골드.", "_t")
+t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "배울 건 다 배웠지만, 난 전문가가 되고 싶어 (기술 계열 숙련도 0.2 증가) - 750 골드.", "_t")
+t("No thanks.", "사양하지.", "_t")
 
 
 ------------------------------------------------
@@ -4054,7 +4434,7 @@ t("debilitating temporal", "쇠약성 시간", "_t")
 t("draining physical", "흡수성 물리", "_t")
 t("#Source# consumes %d life from #Target#!", "#Source1# #Target#의 생명력 %d 를 흡수했다!", "logCombat")
 t("temporal slow", "시간적 감속", "_t")
-t("molten rock", "용암 외피", "_t")
+t("molten rock", "용암 암석", "_t")
 t("entangle", "덩굴에 옳아매여짐", "_t")
 t("%s resists entanglement!", "%s 덩굴에 저항했다!", "logSeen", nil, {"는"})
 t("manaworm arcane", "비전의 마나벌레", "_t")
@@ -4733,31 +5113,95 @@ t("next level", "다음 층", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/ant.lua"
 
+t("ant", "개미", "entity subtype")
 t("insect", "곤충", "entity type")
+t("giant white ant", "거대한 하얀 개미", "entity name")
+t("It's a large white ant.", "거대한 하얀 개미입니다.", "_t")
+t("giant brown ant", "거대한 갈색 개미", "entity name")
+t("It's a large brown ant.", "거대한 갈색 개미입니다.", "_t")
+t("giant carpenter ant", "거대한 목수 개미", "entity name")
+t("It's a large black ant with huge mandibles.", "거대한 턱을 가진 거대한 검은 개미입니다.", "_t")
+t("giant green ant", "거대한 초록 개미", "entity name")
+t("It's a large green ant.", "거대한 초록 개미입니다.", "_t")
+t("giant red ant", "거대한 빨간 개미", "entity name")
+t("It's a large red ant.", "거대한 빨간 개미입니다.", "_t")
+t("giant blue ant", "거대한 파란 개미", "entity name")
+t("It's a large blue ant.", "거대한 파란 개미입니다.", "_t")
+t("giant yellow ant", "거대한 노란 개미", "entity name")
+t("It's a large yellow ant.", "거대한 노란 개미입니다.", "_t")
+t("giant black ant", "거대한 검은 개미", "entity name")
+t("It's a large black ant.", "거대한 검은 개미입니다.", "_t")
+t("giant fire ant", "거대한 불 개미", "entity name")
+t("It's a large red ant, wreathed in flames.", "거대한 빨간 개미로, 불길에 휩싸여있습니다.", "_t")
+t("giant ice ant", "거대한 얼음 개미", "entity name")
+t("It's a large white ant. The air is frigid around it.", "거대한 하얀 개미로, 주변의 공기가 차가워집니다.", "_t")
+t("giant lightning ant", "거대한 전기 개미", "entity name")
+t("It's a large yellow ant with sparks arcing across its body.", "거대한 노란 개미로, 몸에서 스파크가 튑니다.", "_t")
+t("giant acid ant", "거대한 산성 개미", "entity name")
+t("It's a large black ant.  Its porous skin oozes acid.", "거대한 검은 개미로,  구멍난 피부에서 끈적이는 산성물질을 내뿜습니다.", "_t")
+t("giant army ant", "거대한 군대 개미", "entity name")
+t("It's a large ant with a heavy exoskeleton, geared for war.", "무거운 외골격을 가진 거대한 개미로, 전쟁에 대비하는 것 같습니다.", "_t")
+t("Queen Ant", "여왕 개미", "entity name")
+t("Queen of the ants, queen of the biting death!", "여왕 개미. 물어 뜯는 죽음의 여왕!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/aquatic_critter.lua"
 
+t("aquatic", "수생", "entity type")
 t("critter", "졸개", "entity subtype")
+t("giant eel", "거대 뱀장어", "entity name")
+t("A snake-like being, moving toward you.", "뱀과 흡사한 생명체로, 당신을 향해 움직입니다.", "_t")
+t("electric eel", "전기 뱀장어", "entity name")
+t("A snake-like being, radiating electricity.", "뱀과 흡사한 생명체로, 전류를 방출합니다.", "_t")
+t("dragon turtle", "용 거북", "entity name")
+t("A huge, elongated sea-green reptile.", "거대하고, 기이할 정도로 길쭉한 바다의 초록 파충류입니다.", "_t")
+t("ancient dragon turtle", "고대 용 거북", "entity name")
+t("A huge, elongated sea-green reptile, it looks old and impenetrable.", "거대하고, 기이할 정도로 길쭉한 바다의 초록 파충류로, 늙었지만 껍질을 뚫을 수 없을 것 같습니다.", "_t")
+t("squid", "오징어", "entity name")
+t("Darting its many tentacles toward you, it tries to lock you down.", "당신을 향해 수많은 촉수를 움직이며, 당신을 가라앉히려 합니다.", "_t")
+t("ink squid", "먹물 오징어", "entity name")
+t("Darting its many tentacles toward you, it tries to blind you with its murky ink.", "당신을 향해 수많은 촉수를 움직이며, 탁한 먹물로 당신을 실명 시키려합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/aquatic_demon.lua"
 
+t("aquatic", "수생", "entity type")
 t("demon", "악마", "entity subtype")
+t("water imp", "물 임프", "entity name")
+t("A small water demon, lobbing spells at you.", "작음 물의 악마로, 당신에게 주문을 던집니다.", "_t")
+t("Walrog", "왈록", "entity name")
+t("Walrog, the lord of Water, is fearsome to behold. The water writhes around him as if trying to escape, making his form indistinct. He does not seem surprised to see you.", "왈록, 물의 주인으로 바라보기만해도 소름이 끼칩니다. 물이 그에게서 벗어나려는 듯이 그의 주변을 휘감아 그의 형태를 제대로 가늠할 수 없습니다. 그는 당신을 보고도 놀라지 않은 것 같습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/bear.lua"
 
 t("animal", "동물", "entity type")
+t("bear", "곰", "entity subtype")
+t("brown bear", "갈색 곰", "entity name")
+t("The weakest of bears, covered in brown shaggy fur.", "가장 약한 곰으로, 덥수룩한 갈색 털로 덮혀있습니다.", "_t")
+t("black bear", "검은 곰", "entity name")
+t("Do you smell like honey? 'Cause this bear wants honey.", "꿀 좋아하나? 이 곰이 꿀을 찾고있어서 말이지.", "_t")
+t("cave bear", "동굴 곰", "entity name")
+t("It has come down from its cave foraging for food. Unfortunately, it found you.", "식량을 채집하기 위해 동굴에서 내려온 곰. 불행히도, 당신을 찾고 말았습니다.", "_t")
+t("war bear", "전투곰", "entity name")
+t("Bears with tusks, trained to kill.", "어금니가 난 곰으로, 살육을 위해 훈련 받았습니다.", "_t")
+t("grizzly bear", "회색 곰", "entity name")
+t("A huge, beastly bear, more savage than most of its kind.", "거대하고, 야수같은 곰으로, 다른 곰보다 훨신 흉폭합니다.", "_t")
+t("polar bear", "극지 곰", "entity name")
+t("This huge white bear has wandered south in search of food.", "이 거대하고 하얀 곰은 먹이를 찾아 남부를 떠돌아다녔습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/bird.lua"
 
 t("animal", "동물", "entity type")
+t("bird", "새", "entity subtype")
+t("Phoenix", "불사조", "entity name")
+t("Ever burning, ever dying, ever reviving, the Phoenix swoops down upon you, seeking to share its fiery fate with you.", "영원히 불타며, 죽을 때마다 항상 되살아나는, 불사조가 그 화염의 운명을 당신과 함께하려고 하는 듯 당신을 덮칩니다.", "_t")
+t("#LIGHT_RED#%s raises from the dead!", "#LIGHT_RED#%s 죽음에서 일어난다!", "logSeen", nil, {"는"})
 t("RESURRECT!", "부활!", "_t")
 
 
@@ -4771,20 +5215,28 @@ t("A towering creature, made from the bones of dozens of dead bodies. It is cove
 t("eternal bone giant", "영원의 해골 거인", "entity name")
 t("heavy bone giant", "거대한 해골 거인", "entity name")
 t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "키가 큰 언데드로, 수많은 시체들의 뼈를 모아 만들어졌습니다. 부정한 기운에 덮여 있습니다.", "_t")
+t("A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "우뚝 선 언데드로, 수많은 시체들의 뼈를 모아 만들어졌습니다. 룬이 뼈에 새겨지고 혐오스러운 주술이 주입되었습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/canine.lua"
 
 t("animal", "동물", "entity type")
-t("canine", "개", "entity subtype")
+t("canine", "개과", "entity subtype")
 t("wolf", "늑대", "entity name")
 t("Lean, mean, and shaggy, it stares at you with hungry eyes.", "비쩍 마르고 털이 텁수룩한 것이 굶주린 눈으로 바라보고 있다.", "_t")
+t("great wolf", "거대 늑대", "entity name")
+t("Larger than a normal wolf, it prowls and snaps at you.", "일반 늑대보다 거대하고, 당신 주위를 배회하며, 당신을 물어뜯습니다.", "_t")
+t("dire wolf", "재앙 늑대", "entity name")
+t("Easily as big as a horse, this wolf menaces you with its claws and fangs.", "말 만큼이나 거대한 늑대로, 발톱과 이빨로 당신을 위협합니다.", "_t")
 t("white wolf", "흰 늑대", "entity name")
+t("A large and muscled wolf from the northern wastes. Its breath is cold and icy, and its fur coated in frost.", "북부 황무지에서 온 거대하고 근육질의 늑대입니다. 숨결은 차갑게 얼어 붙어있고, 털 역시 서리로 뒤덮혀있습니다.", "_t")
 t("warg", "와르그", "entity name")
-t("It is a large wolf with eyes full of cunning.", "교활한 눈을 가진 늑대다.", "_t")
+t("It is a large wolf with eyes full of cunning.", "교활함으로 가득 찬 눈을 가진 거대한 늑대입니다.", "_t")
 t("fox", "여우", "entity name")
 t("The quick brown fox jumps over the lazy dog.", "빠른 갈색 여우가 게으른 개를 뛰어 넘는다.", "_t")
+t("Rungof the Warg Titan", "룽고프, 거대 와르그", "entity name")
+t("It is a large wolf with eyes full of cunning, thrice the size of a normal warg.", "교활함으로 가득 찬 눈을 가진 거대한 늑대로, 일반 와르그의 3 배 크기입니다.", "_t")
 
 
 ------------------------------------------------
@@ -4792,21 +5244,49 @@ section "game/modules/tome/data/general/npcs/cold-drake.lua"
 
 t("cold", "냉기", "entity subtype")
 t("dragon", "용", "entity type")
+t("cold drake hatchling", "냉기 드레이크 해츨링", "entity name")
+t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
+t("cold drake", "냉기 드레이크", "entity name")
+t("A mature cold drake, armed with deadly breath and nasty claws.", "성년 냉기 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
+t("ice wyrm", "얼음 용", "entity name")
+t("An old and powerful cold drake, armed with deadly breath and nasty claws.", "늙고 강력한 얼음 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/construct.lua"
 
 t("construct", "구조체", "entity type")
+t("broken golem", "부서진 골렘", "entity name")
+t("This golem is badly damaged.", "이 골렘은 심각하게 파괴되었습니다.", "_t")
 t("golem", "골렘", "entity name")
+t("alchemist golem", "연금술사 골렘", "entity name")
+t("This golem's eyes glow with magical energies.", "이 골렘의 눈은 마법 에너지로 번뜩입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/crystal.lua"
 
 t("crystal", "수정", "entity subtype")
+t("immovable", "부동생물", "entity type")
+t("A shining crystal formation charged with magical energies.", "마법의 힘으로 가득찬 수정 결정입니다.", "_t")
+t("wisp", "위습", "entity name")
 t("elemental", "정령", "entity type")
 t("light", "경갑", "entity subtype")
+t("A floating orb of magical energy. It shines with a radiant light. They explode upon contact.", "떠다니는 마법 에너지의 구채입니다. 눈부신 빛을 내며, 접촉할 경우 폭발합니다.", "_t")
+t("red crystal", "붉은 수정", "entity name")
+t("A formation of red crystal. It emits bright red, scorching light.", "붉은 수정 결정으로, 밝은 붉은색의, 불태워 버릴 것 같은 빛을 발산합니다.", "_t")
+t("white crystal", "하얀 수정", "entity name")
+t("A formation of white crystal. It emits bright white, chilling light.", "하얀 수정 결정으로, 밝은 흰색의, 으스스한 빛을 발산합니다.", "_t")
+t("black crystal", "검은 수정", "entity name")
+t("A formation of black crystal. It absorbs all light around it.", "검은 수정 결정으로, 주변의 모든 빛을 흡수합니다.", "_t")
+t("crimson crystal", "핏빛 수정", "entity name")
+t("A formation of crimson crystal. It emits a crimson light reminiscent of blood.", "핏빛 수정 결정으로, 피를 연상시키는 진홍색 빛을 발산합니다.", "_t")
+t("blue crystal", "파란 수정", "entity name")
+t("A formation of blue crystal. Its light shines like the ocean's waves.", "파란 수정 결정으로, 대양의 파도와 같은 빛으로 빛납니다.", "_t")
+t("multi-hued crystal", "다색 수정", "entity name")
+t("A formation of multi-hued crystal. It shines with all the colors of the rainbow.", "다색 수정 결정으로, 무지개의 모든 색으로 빛납니다.", "_t")
+t("shimmering crystal", "어른거리는 수정", "entity name")
+t("A formation of shimmering crystal. Orbs of light circle around it.", "어른거리는 수정 결정으로, 빛의 구체가 주변을 떠다닙니다.", "_t")
 
 
 ------------------------------------------------
@@ -4814,6 +5294,16 @@ section "game/modules/tome/data/general/npcs/elven-caster.lua"
 
 t("humanoid", "인간형", "entity type")
 t("shalore", "샬로레", "entity subtype")
+t("elven mage", "엘프 마법사", "entity name")
+t("An elven mage, dressed in dark robes.", "엘프 마법사로, 검은 로브를 입고있습니다.", "_t")
+t("elven tempest", "엘프 대기술사", "entity name")
+t("An elven mage, dressed in crackling blue robes, and smelling of ozone.", "엘프 마법사로, 탁탁 소리가 나는 파란 로브를 입고있습니다. 오존의 냄새가 나는군요.", "_t")
+t("elven cultist", "엘프 광신도", "entity name")
+t("An elven cultist, dressed in sickening green robes.", "엘프 광신도로, 소름끼치는 초록색 로브를 입고있습니다.", "_t")
+t("elven blood mage", "엘프 혈마법사", "entity name")
+t("An elven blood mage, dressing in dark, bloodied robes.", "엘프 혈마법사로, 검고, 피투성이의 로브를 입고있습니다.", "_t")
+t("elven corruptor", "엘프 타락자", "entity name")
+t("An elven corruptor, drawn to these blighted lands.", "엘프 타락자로, 이 황폐한 땅의 힘을 사용합니다.", "_t")
 
 
 ------------------------------------------------
@@ -4821,6 +5311,13 @@ section "game/modules/tome/data/general/npcs/elven-warrior.lua"
 
 t("humanoid", "인간형", "entity type")
 t("shalore", "샬로레", "entity subtype")
+t("elven guard", "엘프 경비병", "entity name")
+t("An elven guard.", "엘프 경비병입니다.", "_t")
+t("mean looking elven guard", "야위여보이는 엘프 경비병", "entity name")
+t("An elven guard, scarred and sullen.", "흉터와 좋지 않은 표정의 엘프 경비병입니다.", "_t")
+t("elven warrior", "엘프 전사", "entity name")
+t("elven elite warrior", "엘프 정예 전사", "entity name")
+t("An elven warrior, clad in heavy armour.", "엘프 전사로, 중갑을 착용하고있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -4828,12 +5325,25 @@ section "game/modules/tome/data/general/npcs/faeros.lua"
 
 t("elemental", "정령", "entity type")
 t("fire", "화염", "entity subtype")
+t("faeros", "패로스", "entity name")
+t("greater faeros", "고위 패로스", "entity name")
+t("ultimate faeros", "궁극의 패로스", "entity name")
+t("Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.", "패로스는 높은 지능을 가진 불의 정령으로, 용암 밖에서 드물게 목격됩니다. 패로스는 아마 이 세계의 존재가 아닐 것입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/feline.lua"
 
 t("animal", "동물", "entity type")
+t("feline", "고양잇과", "entity subtype")
+t("snow cat", "눈 고양이", "entity name")
+t("A large cat with a grey fur matted with black.", "거대한 고양잇과 동물로, 검은 점이 박힌 회색 털을 갖고있습니다.", "_t")
+t("panther", "팬서", "entity name")
+t("A large black cat, slender and muscular.", "거대한 검정색 고양잇과 동물로, 날씬하지만 근육질입니다.", "_t")
+t("tiger", "호랑이", "entity name")
+t("A truly magnificent beast, with fur striped black and yellow.", "참으로 훌륭한 짐승으로, 검정색과 노란색의 줄무늬 가죽을 갖고있습니다.", "_t")
+t("sabertooth tiger", "검치호", "entity name")
+t("This cat is simply enormous, and has fangs with the size and sharpness of short swords.", "이 고양잇과 동물은 거대합니다. 단검과 같은 크기와 날카로움의 송곳니가 나있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -4841,6 +5351,12 @@ section "game/modules/tome/data/general/npcs/fire-drake.lua"
 
 t("dragon", "용", "entity type")
 t("fire", "화염", "entity subtype")
+t("fire drake hatchling", "화염 드레이크 해츨링", "entity name")
+t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
+t("fire drake", "화염 드레이크", "entity name")
+t("A mature fire drake, armed with deadly breath and nasty claws.", "성년 화염 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
+t("fire wyrm", "화염 용", "entity name")
+t("An old and powerful fire drake, armed with deadly breath and nasty claws.", "늙고 강력한 화염 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 
 
 ------------------------------------------------
@@ -4849,7 +5365,13 @@ section "game/modules/tome/data/general/npcs/ghost.lua"
 t("ghost", "유령", "entity subtype")
 t("undead", "언데드", "entity type")
 t("dread", "공포", "entity name")
+t("It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "비명으로써 당신의 두 눈에 존재를 내보이는 유령으로, 죽음의 구현체입니다. 그 흉물스런 검은 몸은, 우주 그 자체가 이 존재를 추방하기 위해 분투하는 것으로 보입니다.", "_t")
 t("dreadmaster", "두려움의 주인", "entity name")
+t("It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "필적할 것이 없는 힘을 가진유령으로, 그 자체가 존재에 대한 모욕이며, 이 존재의 손길만으로 생명의 흐름을 방해하고, 뒤틀리게합니다. 또한 섬뜩하고 순수한 암흑으로 구성된 사지는, 돌 마저 쉽게 으스러뜨리며 피부와 살을 빠르게 시들게합니다.", "_t")
+t("banshee", "밴시", "entity name")
+t("It is a ghostly woman's form that wails mournfully.", "슬프게 울부짖은 여성의 모습을 한 유령입니다.", "_t")
+t("ruin banshee", "파멸의 밴시", "entity name")
+t("A vengeful, screaming soul given form with the breath of Urh'Rok himself. The vapors of the Fearscape seep from its dimension-bending form, withering and searing.", "복수심에 불타는, 울부짖는 영혼으로, 울흐'록의 숨결로 인해 지금 형태를 갖췄습니다. 몸이 다른 차원과 연결되면서, 몸에서 발산되는 공포의 영역의 증기로 인해 주변의 모든것이 시들고 불타오릅니다.", "_t")
 
 
 ------------------------------------------------
@@ -4907,6 +5429,7 @@ t("weapon", "무기", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/horror_aquatic.lua"
 
+t("aquatic", "수생", "entity subtype")
 t("horror", "공포", "entity type")
 
 
@@ -4933,6 +5456,7 @@ t("ogre", "오우거", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/jelly.lua"
 
+t("immovable", "부동생물", "entity type")
 t("A strange blob on the dungeon floor.", "던전 바닥에서 볼 수 있는 이상하게 생긴 부정형의 존재.", "_t")
 
 
@@ -4976,6 +5500,7 @@ t("It is a cross between a human and a bull.", "황소와 인간의 혼종입니
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/molds.lua"
 
+t("immovable", "부동생물", "entity type")
 t("undead", "언데드", "entity type")
 
 
@@ -4984,6 +5509,7 @@ section "game/modules/tome/data/general/npcs/multihued-drake.lua"
 
 t("dragon", "용", "entity type")
 t("multihued", "다색", "entity subtype")
+t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
 
 
 ------------------------------------------------
@@ -5055,6 +5581,7 @@ t("A fierce soldier-orc.", "맹렬한 오크의 전사입니다.", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/plant.lua"
 
+t("immovable", "부동생물", "entity type")
 t("treant", "나무 정령", "entity name")
 
 
@@ -5141,6 +5668,7 @@ section "game/modules/tome/data/general/npcs/storm-drake.lua"
 
 t("dragon", "용", "entity type")
 t("storm", "폭풍", "entity subtype")
+t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
 
 
 ------------------------------------------------
@@ -5431,6 +5959,8 @@ t("Elixir of Focus", "집중의 영약", "entity name")
 t("Elixir of Brawn", "건강의 영약", "entity name")
 t("Elixir of Stoneskin", "돌 피부 영약", "entity name")
 t("Elixir of Foundations", "기초의 영약", "entity name")
+t("Taint of Purging", "해방의 낙인", "entity name")
+t("Infusion of Wild Growth", "급성장의 주입물", "entity name")
 t("Lifebinding Emerald", "생명을 묶는 에메랄드", "entity name")
 t("green", "초록색", "entity subtype")
 t("potion", "물약", "entity subtype")
@@ -7453,7 +7983,14 @@ t("potion", "물약", "_t")
 section "game/modules/tome/data/general/objects/quest-artifacts.lua"
 
 t("weapon", "무기", "entity type")
+t("dark runed staff", "검은 룬의 지팡이", "_t")
+t("Staff of Absorption", "흡수의 지팡이", "entity name")
+t([[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
+Light around it seems to dim and you can feel its tremendous power simply by touching it.]], [[힘의 룬으로 덮여 있는 이 지팡이는 먼 옛날에 만들어졌음에도 흠집 하나 없어 보입니다.
+이 지팡이 주변의 빛은 어두워지고 있으며, 단순히 만져 보기만 해도 지팡이의 터무니없는 힘을 느낄 수 있습니다.]], "_t")
 t("staff", "마법 지팡이", "entity combat talented")
+t("absorb energies", "에너지 흡수", "_t")
+t("This power seems too much to wield; you fear it might absorb YOU.", "이 지팡이의 힘은 다루기엔 너무나 강력하다. 이게 '스스로를' 흡수해 버릴까봐 무섭다.", "logPlayer")
 t("swirling orb", "소용돌이치는 오브", "_t")
 t("Orb of Many Ways", "여러 장소로의 오브", "entity name")
 t("activate a portal", "차원문을 활성화한다", "_t")
@@ -7594,13 +8131,13 @@ section "game/modules/tome/data/general/objects/scrolls.lua"
 t("Magical scrolls can have wildly different effects!", "마법의 두루마리는 여러가지 다른 효과를 가질 수 있습니다! 대부분은 마법 능력치가 높을수록 더 높은 효과를 보입니다!", "_t")
 t("infusion", "주입", "_t")
 t("Natural infusions may be grafted onto your body, granting you an on-demand nature talent.", "자연적 주입물을 육체에 새겨넣어, 필요한 기술을 가질 수 있습니다.", "_t")
-t("inscribe your skin with the infusion", "주입물을 피부에 새겨 넣으십시오.", "_t")
+t("inscribe your skin with the infusion", "주입물을 피부에 새겨 넣습니다", "_t")
 t("rune", "룬", "_t")
 t("Magical runes may be inscribed onto your body, granting you an on-demand spell talent.", "마법의 룬을 당신의 육체에 새겨넣어, 필요한 기술을 가질 수 있습니다.", "_t")
-t("inscribe your skin with the rune", "룬을 피부에 새겨 넣으십시오.", "_t")
-t("taint", "감염", "_t")
-t("Corrupted taints may be inscribed onto your body, granting you an on-demand ability.", "타락한 감염물을 당신의 육체에 새겨, 필요한 기술을 가질 수 있습니다.", "_t")
-t("inscribe your skin with the taint", "감염을 피부에 새겨 넣으십시오.", "_t")
+t("inscribe your skin with the rune", "룬을 피부에 새겨 넣습니다", "_t")
+t("taint", "낙인", "_t")
+t("Corrupted taints may be inscribed onto your body, granting you an on-demand ability.", "타락한 낙인을 당신의 육체에 새겨, 필요한 기술을 가질 수 있습니다.", "_t")
+t("inscribe your skin with the taint", "낙인을 피부에 새겨 넣습니다", "_t")
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
 t("read it", "읽기", "_t")
@@ -7923,34 +8460,34 @@ section "game/modules/tome/data/ingredients.lua"
 
 t("length of troll intestine", "트롤의 창자", "ingredient name")
 t("A length of troll intestines. Fortunately, the troll appears to have eaten nothing in some time.", "트롤의 기다란 창자 한 줄. 다행히도, 이 트롤은 한동안 아무것도 먹지 않았던 것 같습니다.", "_t")
-t("Kindly empty it before returning.", "부디 주기 전에 깔끔하게 안을 비워놓게.", "_t")
+t("Kindly empty it before returning.", "부디 주기 전에 깔끔하게 안을 비워 줘.", "_t")
 t("skeleton mage skull", "스켈레톤 마법사의 해골", "ingredient name")
 t("The skull of a skeleton mage. The eyes have stopped glowing... for now.", "스켈레톤 마법사의 해골. 눈이 더 이상 빛나지 않고 있습니다... 지금은.", "_t")
 t("If the eyes are still glowing, please bash it around a bit until they fade. I'll not have another one of those coming alive and wreaking havoc in my lab.", "만약 눈이 계속 빛난다면, 빛이 사라질 때까지 계속 후려치도록 해. 내 연구실에서 이런 게 살아나서 아수라장을 만들어 놓는 꼴은 다시는 못 봐.", "_t")
 t("ritch stinger", "릿치의 독침", "ingredient name")
 t("A ritch stinger, still glistening with venom.", "릿치의 독침으로, 아직도 독액으로 흥건합니다.", "_t")
-t("Keep as much venom in it as possible.", "그 안에 독을 최대한 많이 남겨놓도록 하게.", "_t")
+t("Keep as much venom in it as possible.", "그 안에 독을 최대한 많이 남겨놓도록.", "_t")
 t("orc heart", "오크의 심장", "ingredient name")
 t("The heart of an orc. Perhaps surprisingly, it isn't green.", "한 오크의 심장. 놀랍게도, 녹색이 아닙니다.", "_t")
-t("If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "만약 아직 뛰고 있는 오크의 심장을 가져다 준다면 훨씬 낫겠지. 하지만 당신은 뛰어난 사령술사처럼 보이진 않는구만.", "_t")
+t("If you can fetch me a still-beating orc heart, that would be even better. But you don't look like a master necromancer to me.", "만약 아직 뛰고 있는 오크의 심장을 가져다 준다면 훨씬 낫겠지. 하지만 넌 뛰어난 강령술사처럼 보이진 않는구만.", "_t")
 t("naga tongue", "나가의 혀", "ingredient name")
 t("A severed naga tongue. It reeks of brine.", "나가에게서 잘라낸 혀. 지독한 소금물 냄새가 납니다.", "_t")
-t("Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "불경한 말을 담은 적이 없는 혀가 가장 좋은 법이지. 그러니 성자 처럼 독실한 나가를 알고 있다면...", "_t")
+t("Best results occur with tongues never tainted by profanity, so if you happen to know any saintly nagas...", "불경한 말을 담은 적이 없는 혀가 가장 좋은 법이지. 그러니 성자처럼 독실한 나가를 알고 있다면...", "_t")
 t("vial of greater demon bile", "고위 악마의 담즙이 담긴 유리병", "ingredient name")
 t("A vial of greater demon bile. It hurts your sinuses even with the vial's stopper firmly in place.", "고위 악마의 담즙이 담긴 약병. 병마개를 단단히 잠가 두었는데도 악취가 코를 찌릅니다.", "_t")
-t("Don't drink it, even if it tells you to.", "마시지 말게. 마시라는 속삭임이 들려와도 말이야.", "_t")
+t("Don't drink it, even if it tells you to.", "마시지 마. 마시라는 속삭임이 들려와도 말이야.", "_t")
 t("pouch of bone giant dust", "해골 거인의 가루 주머니", "ingredient name")
 t("Once the magics animating the bone giant fled, its remains crumbled to dust. It might be your imagination, but it looks like the dust occasionally stirs on its own.", "해골 거인을 움직이게 하는 마법이 사라지고 나면, 해골 거인은 가루가 되어 스러집니다. 착각일지도 모르겠지만, 가끔씩 가루가 스스로 움직이며 섞이는 것 같습니다.", "_t")
-t("Never, ever to be confused with garlic powder. Trust me.", "절대, 절대로 마늘 가루랑 헷갈리지 말게. 명심하라고.", "_t")
+t("Never, ever to be confused with garlic powder. Trust me.", "절대, 절대로 마늘 가루랑 헷갈리지 마. 명심하라고.", "_t")
 t("ice ant stinger", "얼음 개미의 침", "ingredient name")
 t("Wickedly sharp and still freezing cold.", "매우 날카로우며, 지금도 살을 에는 듯이 차갑습니다.", "_t")
 t("If you've the means to eliminate the little venom problem, these make miraculous instant drink-chilling straws.", "이 침에 남아있는 독 같은 사소한 문제를 해결할 방법만 있다면, 음료를 차갑게 마실 수 있는 훌륭한 즉석 빨대로 쓸 수 있지.", "_t")
 t("minotaur nose", "미노타우르스의 코", "ingredient name")
 t("The severed front half of a minotaur snout, ring and all.", "미노타우르스의 코 앞부분을 잘라낸 것이며 코뚜레를 한 고리까지 달려있습니다.", "_t")
-t("You'll need to find one with a ring, preferably an expensive one.", "고리가 달린 걸 찾는 게 좋을 걸세. 기왕이면 비싼 게 좋겠지.", "_t")
+t("You'll need to find one with a ring, preferably an expensive one.", "고리가 달린 걸 찾는 게 좋을 거야. 기왕이면 비싼 게 좋겠지.", "_t")
 t("vial of elder vampire blood", "흡혈귀 장로의 피가 담긴 유리병", "ingredient name")
 t("Thick, clotted, and foul. The vial is cold to the touch.", "질척거리고 엉겨붙은 피로, 악취가 난다. 유리병을 만지니 냉기가 느껴집니다.", "_t")
-t("Once you've gotten it, cross some moving water on your way back.", "이걸 얻고 나면, 돌아오는 길에 흐르는 물을 건너서 오도록 하게.", "_t")
+t("Once you've gotten it, cross some moving water on your way back.", "이걸 얻고 나면, 돌아오는 길에 흐르는 물을 건너서 오도록 하라고.", "_t")
 t("multi-hued wyrm scale", "무지갯빛 용 비늘", "ingredient name")
 t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "아름다우며 믿을 수 없을 정도로 튼튼합니다. 용에게서 이 비늘을 뜯는 건 꽤 힘든 일이었을 겁니다.", "_t")
 t("If you think collecting one of these is hard, try liquefying one.", "이걸 뜯어 내는 것 쯤을 어렵다고 생각한다면, 한번 이걸 액화시켜 보라고.", "_t")
@@ -7959,10 +8496,10 @@ t("An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orif
 t("The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "당신네 헛간에 사는 거미들은 소용이 없네. 거대 거미가 뭔지는 만나보면 바로 알 거야. 마즈'에이알에서 찾기 힘든 놈들이지만 말이야.", "_t")
 t("honey tree root", "벌꿀 나무의 뿌리", "ingredient name")
 t("The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "벌꿀 나무 뿌리의 끝 부분을 잘라낸 것입니다. 이따금씩 꿈틀 거린다. 이 움직임은 마치 이미 죽었다는 것을 부정하려는 듯 합니다... 자신이 *식물*이라는 것마저도.", "_t")
-t("Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "꽉 붙잡고 있게. 만약 떨어뜨리면 이것들은 땅 속으로 바로 파고들 거야.", "_t")
+t("Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "꽉 붙잡고 있어야 해. 만약 떨어뜨리면 이것들은 땅 속으로 바로 파고들 거야.", "_t")
 t("bloated horror heart", "부풀어오른 공포의 심장.", "ingredient name")
 t("Diseased-looking and reeking. It seems to be decaying as you watch.", "그 자체로 질병과 악취를 풍기고 있습니다. 매 순간 부패해가고 있는듯 합니다.", "_t")
-t("Don't worry if it dissolves. Just don't get any on you.", "터져도 걱정하지 말게. 닿지만 않으면 되니까.", "_t")
+t("Don't worry if it dissolves. Just don't get any on you.", "터져도 걱정하지 말라고. 닿지만 않으면 되니까.", "_t")
 t("electric eel tail", "전기 뱀장어의 꼬리", "ingredient name")
 t("Slimy, wriggling, and crackling with electricity.", "끈적거리고 꿈틀거리며, 아직 전기로 파직거립니다.", "_t")
 t("I know, I know. Where does the eel stop and the tail start? It doesn't much matter. The last ten inches or so should do nicely.", "알았어, 알겠다고. 뱀장어의 꼬리가 어디부터인지 궁금하다고? 그건 별로 중요하지 않아. 끝에서 25cm 정도만 가져오면 돼.", "_t")
@@ -7971,65 +8508,65 @@ t("Thick, black and opaque.", "짙고, 새까맣고, 불투명합니다.", "_t")
 t("However annoying this will be for you to gather, I promise that the reek it produces in my lab will prove even more annoying.", "이런 걸 모아오는 게 꽤 짜증나는 일이긴 하겠지만, 내 연구실에서 먹물이 뿜어낼 악취가 더 짜증날 거라고 내 약속하지.", "_t")
 t("bear paw", "곰 발", "ingredient name")
 t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "살을 찢어내는 발톱이 달려있으며 커다랗고 털이 수북하다. 살짝 생선 비린내가 납니다.", "_t")
-t("You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "이 주변 사냥꾼에게서 하나 얻어올 수 있을 거라고 생각할지도 모르지. 그런데 그 사냥꾼들은 통 운이 없었어. 자넨 먹히지 말게.", "_t")
+t("You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "이 주변 사냥꾼에게서 하나 얻어올 수 있을 거라고 생각할지도 모르지. 그런데 그 사냥꾼들은 통 운이 없었어. 넌 먹히지 말라고.", "_t")
 t("ice wyrm tooth", "얼음 용의 이빨", "ingredient name")
 t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "이 이빨은 세월에 따라 무뎌졌지만, 제 기능을 하는 데엔 아직까지 무리가 없어보입니다.", "_t")
-t("Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "얼음 용들은 이빨을 잘 흘리고 다니는 편이지. 그러니 만약 자네가 운이 좋다면 싸우지도 않고 얻을 수 있을 거야. 하지만 만일을 대비해 따뜻하게 입어 둬야겠지.", "_t")
+t("Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "얼음 용들은 이빨을 잘 흘리고 다니는 편이지. 그러니 만약 네가 운이 좋다면 싸우지도 않고 얻을 수 있을 거야. 하지만 만일을 대비해 따뜻하게 입어 둬야겠지.", "_t")
 t("red crystal shard", "붉은 크리스탈 조각", "ingredient name")
 t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "투명한 수정 안에서 작은 불꽃들이 일렁인다. 일단은 열기가 점점 사라지는 듯하다고 믿고 있다...", "_t")
-t("I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "엘발라 주변의 동굴에서 찾을 수 있다고 들었네. 사람 쯤이야 자연 발화시킬 수도 있다고 들었으니, 당신이 만신창이가 돼서 돌아와도 이상한 일은 아닐 거야.", "_t")
+t("I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "엘발라 주변의 동굴에서 찾을 수 있다고 들었네. 사람 쯤이야 자연 발화시킬 수도 있다고 들었으니, 네가 만신창이가 돼서 돌아와도 이상한 일은 아닐 거야.", "_t")
 t("vial of fire wyrm saliva", "화염 용의 타액이 든 약병", "ingredient name")
 t("Clear and slightly thicker than water. It froths when shaken.", "맑으며 물보다는 조금 더 점성이 있습니다. 흔들 때마다 거품이 생깁니다.", "_t")
-t("Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "내가 다른 살아있는 모험자를 구하는 꼴을 보고 싶은 게 아니라면 모닥불과 가까이 두지 말게.", "_t")
+t("Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "내가 다른 살아있는 모험자를 구하는 꼴을 보고 싶은 게 아니라면 모닥불과 가까이 두지 말라고.", "_t")
 t("chunk of ghoul flesh", "구울의 살코기", "ingredient name")
 t("Rotten and reeking. It still twitches occasionally.", "심하게 썩었으며 악취가 납니다. 가끔씩 경련을 일으킵니다.", "_t")
-t("Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "안 좋은 소식이지만, 구울에게서 이따금 떨어져 나오는 살덩이로는 안 되네. 구울에게서 직접 신선한 놈으로 도축해와야 해.", "_t")
+t("Unfortunately for you, the chunks that regularly fall off ghouls won't do. I need one freshly carved off.", "안 좋은 소식이지만, 구울에게서 이따금 떨어져 나오는 살덩이로는 안 돼. 구울에게서 직접 신선한 놈으로 도축해와야 해.", "_t")
 t("mummified bone", "미라화 된 뼈", "ingredient name")
 t("Bits of dry flesh still cling to this ancient bone.", "오래된 뼈에 아직도 마른 살덩이 조각이 붙어 있습니다.", "_t")
-t("That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "미라 처리 된 시체에서 나온 뼈가 필요하네. 사실 그런 시체에서 나온 거라면 어느 신체 부위든 상관 없네만, 미라를 걷어차서 얻어낼 수 있는 신체 부위 중에서 뼈를 못 찾을 일은 없거든. 저주에 걸리지 않은 놈을 찾는 걸 추천하지.", "_t")
+t("That is, a bone from a corpse that's undergone mummification. Actually, any bit of the body would do, but the bones are the only parts you're certain to find when you kick a mummy apart. I recommend finding one that doesn't apply curses.", "미라 처리 된 시체에서 나온 뼈가 필요해. 사실 그런 시체에서 나온 거라면 어느 신체 부위든 상관 없네만, 미라를 걷어차서 얻어낼 수 있는 신체 부위 중에서 뼈를 못 찾을 일은 없거든. 저주에 걸리지 않은 놈을 찾는 걸 추천하지.", "_t")
 t("sandworm tooth", "샌드웜 이빨", "ingredient name")
 t("Tiny, dark grey, and wickedly sharp. It looks more like rock than bone.", "작고, 검회색이며, 매우 날카롭습니다. 뼈보단 돌에 가깝게 생겼습니다.", "_t")
 t("Yes, sandworms have teeth. They're just very small and well back from where you're ever likely to see them and live.", "그래, 지렁이도 이빨이 있다고. 엄청나게 작을 뿐이야. 그런 것들을 찾을 만한 곳으로 가더라도 잘 살아서 돌아오라고.", "_t")
 t("black mamba head", "블랙 맘바의 머리", "ingredient name")
 t("Unlike the rest of the black mamba, the severed head isn't moving.", "다른 블랙 맘바와는 다르게, 잘린 머리가 움직이지 않습니다.", "_t")
-t("If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "만약 물리더라도 머리만 가져오면 내가 살려줄 수 있네... 물론 물리고 나서 1분 안에 오면 돼. 행운을 빌지.", "_t")
+t("If you get bitten, I can save your life if you still manage to bring back the head... and if it happens within about a minute from my door. Good luck.", "만약 물리더라도 머리만 가져오면 내가 살려줄 수 있네... 물론 물리고 나서 1분 안에 와야겠지만. 행운을 빌지.", "_t")
 t("snow giant kidney", "설원 거인의 신장", "ingredient name")
 t("As unpleasant-looking as any exposed organ.", "몸 밖으로 나온 내장이 으레 그렇듯, 썩 보기 좋지는 않습니다.", "_t")
 t("I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "설원 거인을 죽일 때 신장을 찌르지 않는 걸 권장하지. 다른 놈을 찾아야 할 거거든.", "_t")
 t("storm wyrm claw", "폭풍 용의 발톱", "ingredient name")
 t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "푸르스름하고 매우 날카롭습니다. 보기만 해도 소름이 끼칩니다.", "_t")
-t("I recommend severing one of dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "며느리발톱을 잘라오는 게 나을 거야. 더 작고 뽑아오기 더 쉽거든. 하지만 쓴 적이 없는 발톱이니 매우 날카로워. 그러니 찔리지 말게. 아 맞아, 먹히지도 말고.", "_t")
+t("I recommend severing one of dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "며느리발톱을 잘라오는 게 나을 거야. 더 작고 뽑아오기 더 쉽거든. 하지만 쓴 적이 없는 발톱이니 매우 날카로워. 그러니 찔리지 말라고. 아 맞아, 먹히지도 말고.", "_t")
 t("green worm", "녹색 벌레", "ingredient name")
 t("A dead green worm, painstakingly separated from its tangle of companions.", "죽은 녹색 벌레. 벌레 뭉치에서 힘들게 떼어냈습니다.", "_t")
-t("Try to get any knots out before returning. Wear gloves.", "주기 전에 엉켜져 있는 부분은 다 풀어주도록 하게. 장갑은 쓰고.", "_t")
+t("Try to get any knots out before returning. Wear gloves.", "주기 전에 엉켜져 있는 부분은 다 풀어주도록. 장갑은 쓰고.", "_t")
 t("vial of wight ectoplasm", "와이트 심령체의 약병", "ingredient name")
 t("Cloudy and thick. Only by bottling it can you prevent it from evaporating within minutes.", "탁하고 짙습니다. 병에 넣어두지 않으면 순식간에 증발해버릴 것입니다.", "_t")
 t("If you ingest any of this, never mind coming back here. Please.", "혹시 이걸 조금이라도 들이마셨다면, 여기로 오진 않았으면 좋겠군. 내 부탁하지.", "_t")
 t("xorn fragment", "쏜의 파편", "ingredient name")
 t("Looks much like any other rock, though this one was recently sentient and trying to murder you.", "다른 돌이랑 다를 바 없이 생겼습니다. 다만 이 돌은 최근에 지성을 지니고 당신을 죽이려고 했습니다.", "_t")
-t("Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "쏜의 눈이 있는 부분은 가져오지 말게. 연금술 재료한테 관찰당하는 게 얼마나 불쾌한지 자네가 알 턱이 있나.", "_t")
+t("Avoid fragments that contained the xorn's eyes. You've no idea how unpleasant it is being watched by your ingredients.", "쏜의 눈이 있는 부분은 가져오지 마. 연금술 재료한테 관찰당하는 게 얼마나 불쾌한지 네가 알 턱이 있나.", "_t")
 t("warg claw", "와르그의 발톱", "ingredient name")
 t("Unpleasantly large and sharp for a canine's claw.", "개과 동물의 발톱이라고 하기엔 괴상하게 크고 날카롭다.", "_t")
-t("My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "보통 내 재료 수집 의뢰를 받는 녀석들은 와르그를 사냥해달라고 하면 내빼버리지. 돌아오는 길에 그들은 놀리는 것쯤이야 얼마든지 해도 된다네.", "_t")
+t("My usual ingredient gatherers draw the line at hunting wargs. Feel free to mock them on your way back.", "보통 내 재료 수집 의뢰를 받는 녀석들은 와르그를 사냥해달라고 하면 내빼버리지. 돌아오는 길에 그들은 놀리는 것쯤이야 얼마든지 해도 된다고.", "_t")
 t("pouch of faeros ash", "패로스의 재가 담긴 주머니", "ingredient name")
 t("Unremarkable grey ash.", "딱히 눈에 띄는 점이 없는 회색 재", "_t")
 t("They're creatures of pure flame, and likely of extraplanar origin, but the ash of objects consumed by their fire has remarkable properties.", "이들은 순수한 불꽃으로 이뤄졌지. 아마도 다른 차원에서 온 것 같아. 그런데 이들의 불꽃으로 타버리고 남은 재는 상당히 특이한 점이 많단 말이지.", "_t")
 t("wretchling eyeball", "렛츨링의 눈알", "ingredient name")
 t("Small and bloodshot. Its dead gaze still burns your skin.", "작고 충혈된 눈입니다. 이 죽은 눈의 시선으로도 당신의 살갗이 타오릅니다.", "_t")
-t("Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "렛츨링, 조그맣고 악독한 놈들이지. 할 수 있는 만큼 최대한 많이 죽이게. 내가 필요한 건 멀쩡한 눈알 하나 뿐이지만 말이야.", "_t")
+t("Evil little things, wretchlings. Feel free to kill as many as you can, though I just need the one intact eyeball.", "렛츨링, 조그맣고 악독한 놈들이지. 할 수 있는 만큼 최대한 많이 죽여 봐. 내가 필요한 건 멀쩡한 눈알 하나 뿐이지만 말이야.", "_t")
 t("faerlhing fang", "패를링의 송곳니", "ingredient name")
 t("It still drips venom and crackles with magical energy.", "아직도 독이 뚝뚝 떨어지고 마법의 힘으로 파직거립니다.", "_t")
-t("I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "이 놈 때문에 내 의뢰를 받은 수많은 모험가들을 잃었지. 하지만 당신은 괜찮을 거야.", "_t")
+t("I've lost a number of adventurers to this one, but I'm sure you'll be fine.", "이 놈 때문에 내 의뢰를 받은 수많은 모험가들을 잃었지. 하지만 넌 괜찮을 거야.", "_t")
 t("vampire lord fang", "흡혈귀 군주의 송곳니", "ingredient name")
 t("Brilliantly white, but surrounded by blackest magic.", "새하얗지만, 음험하고 사악한 마법의 기운이 도사립니다.", "_t")
-t("You should definitely consider not pricking yourself with it.", "이 이빨에 찔리지 않도록 정말 조심해야 하네.", "_t")
+t("You should definitely consider not pricking yourself with it.", "이 이빨에 찔리지 않도록 정말 조심해야 해.", "_t")
 t("hummerhorn wing", "허밍뿔의 날개", "ingredient name")
 t("Translucent and delicate-looking, but surprisingly durable.", "반투명하고 연약해보이지만, 놀라울 정도로 튼튼합니다.", "_t")
-t("If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "허밍뿔을 본 적이 없다면, 그냥 말벌 같은거라고 생각하게. 다만 엄청나게 크고 위험할 뿐이지.", "_t")
+t("If you've not encountered hummerhorns before, they're like wasps, only gigantic and lethal.", "허밍뿔을 본 적이 없다면, 그냥 말벌 같은거라고 생각해. 다만 엄청나게 크고 위험할 뿐이지.", "_t")
 t("organic", "장기", "ingredient type")
 t("pouch of luminous horror dust", "밤에 빛나는 공포의 가루가 담긴 주머니", "ingredient name")
 t("Weightless and glowing; not your usual dust.", "무게가 느껴지지 않으며 빛이 납니다. 평범한 가루같지는 않습니다.", "_t")
-t("Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "발광의 공포와 헷갈리지 말게. 발광의 공포와 마주친다면... 내 의뢰를 받아줄 모험가는 언제나 많다는 것만 알아두게.", "_t")
+t("Not to be confused with radiant horrors. If you encounter the latter, then I suppose there are always more adventurers.", "발광의 공포와 헷갈리지 말라고. 발광의 공포와 마주친다면... 내 의뢰를 받아줄 모험가는 항상 널려 있다는 것만 알아둬.", "_t")
 
 
 ------------------------------------------------
@@ -8538,6 +9075,7 @@ t("ancient papyrus scroll", "고대의 파피루스 두루마리", "_t")
 t("vault", "보물창고", "newLore category")
 t("magic", "마법", "newLore category")
 t("boss", "보스", "newLore category")
+t("Walrog", "왈록", "_t")
 
 
 ------------------------------------------------
@@ -8929,7 +9467,7 @@ t("Escort the %s to the recall portal on level %s.", "%s %s의 귀환 차원문�
 t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s 죽었다. 임무 실패다!", "logPlayer", nil, {"이"})
 t("something", "물체", "_t")
 t("Recall Portal", "귀환 차원문", "_t")
-t("%s of %s", "%s의 %s층", "tformat", {2,1})
+t("%s of %s", "%s %s층", "tformat", {2,1})
 t("Escort: %s (level %s)", "호위: %s (%s)", "tformat")
 
 
@@ -10197,7 +10735,7 @@ t("Illumination", "발광", "talent name")
 t([[The light of your Radiance allows you to see that which would normally be unseen and strike that which would normally be protected.
 		All enemies in your Radiance aura have their invisibility and stealth power reduced by %d; all actors affected by illumination have their defense reduced by %d as well as all evasion bonuses from being unseen negated.
 		In addition, your light damage is increased by %d%% and your strikes ignore %d%% of the light resistance of your targets.
-		The invisibility, stealth power, and defense reductions increase with your Spellpower.]], [[광휘의 빛으로 인해, 평상시라면 보지 못했을 것을 볼 수 있게되고, 빗나갔을 공격을 명중시킬 수 있게 되었습니다.
+		The invisibility, stealth power, and defense reductions increase with your Spellpower.]], [[광휘의 빛으로 인해, 평상시라면 보지 못했을 것을 볼 수 있게되고, 빗나갔을 공격을 명중 시킬 수 있게 되었습니다.
 		광휘 내의 모든 적의 은신력과 투명 은신력이 %d 감소합니다. 또한 발광의 영향을 받는 모든 개체의 회피도가 %d 감소하고, 은신으로 받는 모든 이득을 무효화합니다.
 		추가로, 빛 피해량이 %d%% 증가하고, 빛 속성 공격이 대상의 빛 피해 저항을 %d%% 무시합니다.
 		은신력과 회피도 감소는 주문력에 비례하여 증가합니다.]], "tformat")
@@ -10859,7 +11397,7 @@ t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
 t("Carbon Spikes", "탄소 가시", "talent name")
 t([[Fragile spikes of carbon protrude from your flesh, clothing, and armor, increasing your armor rating by %d and inflicting %0.2f bleed damage over six turns on attackers.   Each time you're struck, the armor increase will be reduced by 1.  Each turn the spell will regenerate 1 armor up to its starting value.
 		If the armor increase from the spell ever falls below 1, the sustain will deactivate and the effect will end.
-		The armor and bleed damage will increase with your Spellpower.]], [[쉽게 부서지는 탄소 재질의 가시가 살갗과 옷과 갑옷에서 솟아올라, 방어력을 %d 향상시키고, 피격시, 공격자에게 출혈을 유발 해 6 턴에 걸쳐 %0.2f 출혈피해를 입힙니다.   피격당할 때마다, 방어력은 1 씩 낮아집니다.  이렇게 소모된 방어력은 매 턴 1 씩 회복되며, 시전 당시의 방어력 수치까지 회복됩니다.
+		The armor and bleed damage will increase with your Spellpower.]], [[쉽게 부서지는 탄소 재질의 가시가 살갗과 옷과 갑옷에서 솟아올라, 방어력을 %d 향상시키고, 피격 시, 공격자에게 출혈을 유발 해 6 턴에 걸쳐 %0.2f 출혈피해를 입힙니다.   피격당할 때마다, 방어력은 1 씩 낮아집니다.  이렇게 소모된 방어력은 매 턴 1 씩 회복되며, 시전 당시의 방어력 수치까지 회복됩니다.
 		주문으로 증가된 방어력이 1 이하로 떨어지게 되면, 유지기가 즉시 비활성화되고, 지속효과가 종료됩니다.
 		방어력과 출혈 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -11091,7 +11629,7 @@ t("You require a weapon to use this talent.", "이 기술을 사용하기 위해
 t([[Attack the target with either your ranged or melee weapons for %d%% damage.
 		If the attack hits you'll breach the target's immunities, reducing armor hardiness, stun, pin, blindness, and confusion immunity by 50%% for %d turns.
 		Breach chance scales with your Spellpower.]], [[원거리 무기나 근접무기로 적을 공격해 %d%% 피해를 줍니다.
-		적중시, 대상의 상태 면역력에 균열을 남겨, %d 턴 동안 방어 효율과 기절, 속박, 실명, 혼란 면역력을 50%% 감소시킵니다.
+		명중 시, 대상의 상태 면역력에 균열을 남겨, %d 턴 동안 방어 효율과 기절, 속박, 실명, 혼란 면역력을 50%% 감소시킵니다.
 		균열 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -12773,7 +13311,7 @@ t([[Instill fear in your foes within %d radius of a target location dealing %0.2
 		공포의 효과는 정신력에 비례하여 증가합니다.
 
 		가능한 공포 :
-		#ORANGE#피해망상:#LAST#  %d%% 확률로 인접한 개체에 물리 공격을 가합니다. 적중시, 공격받은 적 역시 피해망상에 빠집니다.
+		#ORANGE#피해망상:#LAST#  %d%% 확률로 인접한 개체에 물리 공격을 가합니다. 명중 시, 공격받은 적 역시 피해망상에 빠집니다.
 		#ORANGE#절망:#LAST# 정신 피해 저항과 정신 내성, 방어력과 회피도를 %d 낮춥니다.
 		#ORANGE#불안:#LAST# 매 턴 %0.2f 정신 피해와 %0.2f 암흑 피해를 가하고  재사용 대기시간을 %d%% 연장합니다.
 		#ORANGE#고통:#LAST# 부정적인 정신적 효과 하나 당 %0.2f 정신 피해와 %0.2f 암흑 피해를 매 턴 가합니다.
@@ -12839,7 +13377,7 @@ t([[Use a gesture of pain in place of a normal attack to assault the minds of yo
 		This strike replaces your melee physical and checks your Mindpower against your opponent's Mental Save, and is thus not affected by your Accuracy or the enemy's Defense. The base damage (doubled) and the critical chance of any Mindstars equipped are added in when this attack is performed.
 		This talent requires two free or mindstar-equipped hands and has a 25%% chance to inflict brainlock, which can critically hit. The damage will increase with your Mindpower.
 		If attacking with two mindstars the attack will trigger their proc effects, if any.
-		Mindstars bonuses from damage and physical criticals: (+%d damage, +%d critical chance)]], [[기본 공격 대신 고통의 손길로 적의 정신을 공격합니다. %0.1f - %0.1f 정신 피해를 입히며, 적중 시, %d%% 확률로 적을 3 턴 동안 기절시킵니다.
+		Mindstars bonuses from damage and physical criticals: (+%d damage, +%d critical chance)]], [[기본 공격 대신 고통의 손길로 적의 정신을 공격합니다. %0.1f - %0.1f 정신 피해를 입히며, 명중 시, %d%% 확률로 적을 3 턴 동안 기절시킵니다.
 		이 공격은 시전자의 물리 근접 공격을 대체합니다. 정확도와 회피도를 이용한 명중 판정 대신, 정신력과 정신 내성을 이용한 정신 내성 판정으로 대체합니다. 또한 장착한 마석의 기본 피해량이 2 배가 되고, 이로 가하는 피해에 마석의 치명타 확률이 그대로 적용됩니다.
 		이 기술은 마석을 두 손에 장비하거나, 손이 비어 있는 경우에만 사용 가능합니다. 25%% 확률로 사고정지를 일으키고 치명타도 발생합니다. 피해량은 정신력에 비례하여 증가합니다.
 		마석을 장착 시, 마석의 명중 시 추가효과 역시 적용됩니다.
@@ -14300,7 +14838,7 @@ t("Forces all hostile foes in radius %d to attack you.", "반경 %d 칸 내의 �
 t("Shell Shield", "껍데기 보호막", "talent name")
 t("Under the cover of your shell, gain %d%% all resistance for %d turns", "껍데기에 숨어, %d 턴 동안 모든 피해 저항 %d%% 가 상승합니다.", "tformat", {2,1})
 t("Web", "거미줄", "talent name")
-t("Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "거미줄을 자아내 대상에게 던집니다. 적중 시, 대상은 %d 턴 동안 이동하지 못합니다.", "tformat")
+t("Spread a web and throw it toward your target. If caught, it won't be able to move for %d turns.", "거미줄을 자아내 대상에게 던집니다. 명중 시, 대상은 %d 턴 동안 이동하지 못합니다.", "tformat")
 t("Turtle", "거북이", "talent name")
 t("@Source@ summons a Turtle!", "@Source1@ 거북이를 소환했다!", "_t")
 t([[Summon a Turtle for %d turns to distract your foes. Turtles are resilient, but not very powerful. However, they will periodically force any foes to attack them, and can protect themselves with their shell.
@@ -14595,12 +15133,12 @@ t([[Activate the rune to instantly dissipate the energy of your ailments, cleans
 t("absorb %d; cd %d", "흡수 %d / 대기시간 %d", "tformat")
 t("Rune: Dissipation", "룬 : 해산", "talent name")
 t("Activate the rune to remove 8 beneficial magical sustains from an enemy target or all magical debuffs from you.", "룬을 발동하여, 적대적인 대상의 마법 유지기 8 종을 해제하거나, 시전자의 모든 부정적인 마법 효과를 제거합니다.", "tformat")
-t("Taint: Devourer", "감염 : 포식", "talent name")
-t("Activate the taint on a foe, removing up to %d magical or physical effects or sustains from it and healing you for %d for each effect.", "적에게 오염을 불어넣어, 최대 %d 개의 마법적, 혹은 물리적 효과나 유지기를 해제하고 영향을 받은 효과와 유지기 하나마다 생명력을 %d 회복합니다.", "tformat")
+t("Taint: Devourer", "낙인 : 포식", "talent name")
+t("Activate the taint on a foe, removing up to %d magical or physical effects or sustains from it and healing you for %d for each effect.", "적을 향해 낙인을 사용하여, 최대 %d 개의 마법적, 혹은 물리적 효과나 유지기를 해제하고 영향을 받은 효과와 유지기 하나마다 생명력을 %d 회복합니다.", "tformat")
 t("%d effects / %d heal", "포식횟수 %d / 회복 %d", "tformat")
-t("Taint: Purging", "오염 : 절개", "talent name")
+t("Taint: Purging", "낙인 : 해방", "talent name")
 t([[Activate the taint to purge your body of physical afflictions for %d turns.
-			Each turn the purge will attempt to cleanse 1 physical debuff from you, and if one is removed, increase its duration by 1.]], [[자신에게 오염을 불어넣어 자신의 부정적인 물리적 효과를 %d 턴 동안 제거합니다.
+			Each turn the purge will attempt to cleanse 1 physical debuff from you, and if one is removed, increase its duration by 1.]], [[자신에게 낙인을 사용하여, 자신의 부정적인 물리적 효과를 %d 턴 동안 제거합니다.
 			매 턴 하나의 부정적인 물리적 효과를 제거하고, 제거했을 시, 지속시간이 1 턴 연장됩니다.]], "tformat")
 t("%d turns", "%d 턴", "tformat")
 t("The targetted phase door fizzles and works randomly!", "대상 위치를 출구로하는 위상 관문의 시전이 실패했다! 위상관문이 멋대로 작동한다!", "logPlayer")
@@ -14615,13 +15153,13 @@ t("class", "직업", "_t")
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
 t("base", "베이스", "talent category")
 t("race", "종족", "_t")
-t("Infusions are not class abilities, you must find them or learn them from other people.", "주입물은 직업 기술이 아니며, 당신은 반드시 모험 중에 찾아내거나, 타인으로 부터 얻어야한다.", "_t")
+t("Infusions are not class abilities, you must find them or learn them from other people.", "주입물은 직업 기술이 아니며, 당신은 반드시 모험 중에 찾아내거나, 타인으로부터 얻어야 합니다.", "_t")
 t("infusions", "주입물", "_t")
-t("Runes are not class abilities, you must find them or learn them from other people.", "룬은 직업 기술이 아니며, 당신은 반드시 모험 중에 찾아내거나, 타인으로 부터 얻어야한다.", "_t")
+t("Runes are not class abilities, you must find them or learn them from other people.", "룬은 직업 기술이 아니며, 당신은 반드시 모험 중에 찾아내거나, 타인으로부터 얻어야 합니다.", "_t")
 t("runes", "룬", "_t")
-t("Taints are not class abilities, you must find them or learn them from other people.", "오염은 직업 기술이 아니며, 당신은 반드시 모험 중에 찾아내거나, 타인으로 부터 얻어야한다.", "_t")
+t("Taints are not class abilities, you must find them or learn them from other people.", "낙인은 직업 기술이 아니며, 당신은 반드시 모험 중에 찾아내거나, 타인으로부터 얻어야 합니다.", "_t")
 t("inscriptions", "각인", "talent category")
-t("taints", "오염", "_t")
+t("taints", "낙인", "_t")
 t("Attack", "공격", "talent name")
 t("#Source# attacks empty space.", "#Source2# 허공을 공격한다.", "logCombat")
 t("Hack and slash, baby!", "핵 앤 슬래쉬, 베이베!!", "tformat")
@@ -16696,7 +17234,7 @@ t("Golden Age of Necromancy", "강령술의 황금기", "talent name")
 t([[You recall the age long gone where necromancers had free reign over the world.
 		Increases all saves by %d, confusion and teleport resistances by %d%%.
 		At level 5 any time you cross the 1 life threshold you become invulnerable for 1 turns.]], [[먼 옛날 강력술사들이 세상을 자유롭게 지배하던 때의 힘을 다시 불러옵니다.
-		모든 저항이 %d 증가하고, 혼란과 순간이동 면역력이 %d%% 증가합니다.
+		모든 내성이 %d 증가하고, 혼란과 순간이동 면역력이 %d%% 증가합니다.
 		기술 레벨 5 일 때, 생명력이 1 로 떨어졌을 경우, 1 턴 동안 무적이 됩니다.]], "tformat")
 
 
@@ -18572,7 +19110,7 @@ t([[After killing a foe, you have a %d%% chance to gain a 1000%% movement speed 
 t("Bleeding Edge", "열상", "talent name")
 t([[Lashes at the target, doing %d%% weapon damage.
 		If the attack hits, the target will bleed for %d%% weapon damage over 7 turns, and all healing will be reduced by %d%%.]], [[대상을 후려쳐, %d%% 무기 피해를 가합니다.
-		적중 시, 대상은 출혈 상태에 빠지며, %d%% 무기 피해를 7 턴 동안 나눠서 받습니다. 적의 회복 효율이 %d%% 감소합니다.]], "tformat")
+		명중 시, 대상은 출혈 상태에 빠지며, %d%% 무기 피해를 7 턴 동안 나눠서 받습니다. 적의 회복 효율이 %d%% 감소합니다.]], "tformat")
 t("True Grit", "진정한 투지", "talent name")
 t([[Take a defensive stance to resist the onslaught of your foes.
 		While wounded, you gain all damage resistance equal to %d%% of your missing health.
@@ -18894,7 +19432,7 @@ t("Concussive Punch", "충격파 강타", "talent name")
 t("@Source@ throws a concussive punch.", "@Source2@ 충격파 강타를 꽂아넣었다!", "_t")
 t([[A powerful concussive punch that deals %d%% weapon damage to your target. If the punch hits, all targets in a radius of %d will take %0.2f to %0.2f damage, depending on the amount of combo points you've accumulated.
 		The area damage will scale with your Strength, and the radius will increase by 1 per combo point.
-		Using this talent removes your combo points.]], [[강력한 충격파를 일으키는 일격을 대상에게 꽂아넣어, %d%% 무기 피해를 가합니다. 적중 시, 반경 %d 칸 이내의 모든 대상에게 %0.2f - %0.2f 피해를 가하는 충격파가 터저나옵니다. 당신이 모은 연계 점수에 따라 피해량이 결정됩니다.
+		Using this talent removes your combo points.]], [[강력한 충격파를 일으키는 일격을 대상에게 꽂아넣어, %d%% 무기 피해를 가합니다. 명중 시, 반경 %d 칸 이내의 모든 대상에게 %0.2f - %0.2f 피해를 가하는 충격파가 터저나옵니다. 당신이 모은 연계 점수에 따라 피해량이 결정됩니다.
 		충격파 피해량은 힘에 비례하여 증가하고, 연계 점수 당 범위가 1 칸씩 증가합니다.
 		이 기술의 사용은 연계 점수를 모두 소모합니다.]], "tformat")
 t("Butterfly Kick", "나비 차기", "talent name")
@@ -19490,7 +20028,7 @@ t([[Control your movements to increase your defenses. This allows you to shrug o
 		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
 		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 25%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
 		The flat damage reduction will increase with your defense.]], [[방어 능력을 향상시키기 위해 움직임을 조정합니다. 크지 않은 피해를 무시할 수 있게되고, 방패를 착용한 경우, 다가올 피해에 대해 선제 반응을 취하게됩니다.  
-		이 기술이 활성화 된 동안, 전체 속도가 %0.1f%%  감소하지만, 피격시 받는 피해량이 고정적으로 %0.1f 감소합니다.
+		이 기술이 활성화 된 동안, 전체 속도가 %0.1f%%  감소하지만, 피격 시 받는 피해량이 고정적으로 %0.1f 감소합니다.
 		방패를 장착 중이고, 방패 막기가 재사용 대시기간이 아닐 경우, 방패 수치의 25%% 이상의 방어 가능한 공격에 대해 %d%% 확률로 방패 막기를 즉시 발동합니다.
 		고정 피해 감소량은 회피도에 비례하여 증가합니다.]], "tformat")
 t("Dauntless Challenger", "불굴의 도전자", "talent name")
@@ -19584,7 +20122,7 @@ t("Shield Pummel", "방패 연타", "talent name")
 t("You cannot use Shield Pummel without a shield!", "방패 없이 방패 연타를 사용할 수 없다!", "logPlayer")
 t("%s resists the shield bash!", "%s 방패 강타에 저항했다!", "logSeen", nil, {"가"})
 t([[Hits the target with two shield strikes, doing %d%% and %d%% shield damage. If it hits a second time, it stuns the target for %d turns.
-		The stun chance increases with your Accuracy and your Strength.]], [[대상을 방패로 2 번 강타하여, %d%% 와 %d%% 방패 피해를 입힙니다. 2 번째 공격이 적중 시, 대상을 %d 턴 동안 기절시킵니다.
+		The stun chance increases with your Accuracy and your Strength.]], [[대상을 방패로 2 번 강타하여, %d%% 와 %d%% 방패 피해를 입힙니다. 2 번째 공격이 명중 시, 대상을 %d 턴 동안 기절시킵니다.
 		기절 확률은 정확도와 힘에 비례하여 증가합니다.]], "tformat")
 t("Riposte", "응수", "talent name")
 t([[Improves your ability to perform counterstrikes after blocks in the following ways:
@@ -20305,6 +20843,7 @@ section "game/modules/tome/data/talents/undeads/skeleton.lua"
 
 t("Skeleton", "스켈레톤", "talent name")
 t("Improves your skeletal condition, increasing Strength and Dexterity by %d.", "골격 상태를 개선하여, 힘과 민첩 능력치를 각각 %d 만큼 증가시킵니다.", "tformat")
+t("Bone Armour", "뼈의 갑옷", "talent name")
 t([[Creates a shield of bones, absorbing %d damage. Lasts for %d turns.
 		The total damage the shield can absorb increases with your Dexterity.]], [[뼈의 보호막을 만들어, %d 피해를 흡수합니다. %d 턴 동안 지속됩니다.
 		최대 흡수량은 민첩에 비례하여 증가합니다.]], "tformat")
@@ -22753,6 +23292,7 @@ t("Commander of the Dead", "죽은 자들의 지휘관", "_t")
 t("lich", "리치", "effect subtype")
 t("Consume Soul", "영혼 삼키기", "_t")
 t("Lord of Skulls", "해골의 군주", "_t")
+t("Damage reduced by %d%%.", "가하는 피해량 -%d%%.", "tformat")
 t("Soul Leech", "영혼 착취", "_t")
 t("Corpse Explosion", "시체 폭발", "_t")
 t("ghoul", "구울", "effect subtype")
@@ -22826,7 +23366,7 @@ t("The target has been marked as the focus for all nature summons within %d radi
 t("Summons flock towards #Target#.", "소환수들이 #Target# 에게 쇄도한다.", "_t")
 t("#Target# is no longer being targeted by summons.", "#Target2# 더 이상 소환수들에게 집중 공격 당하지 않는다.", "_t")
 t("Confused", "혼란", "_t")
-t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "%d%% 확률로 기술 사용 실패.", "tformat")
+t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "혼란스러움 : %d%% 확률로 무작위한 행동을 함 / 복잡한 행동 불가.", "tformat")
 t("#Target# wanders around!", "#Target1# 주위를 서성인다!", "_t")
 t("#Target# seems more focused.", "#Target#의 혼란이 끝났다.", "_t")
 t("The target's mind has been shattered. Its body remains as a thrall to %s.", "%s 의 노예.", "tformat")
@@ -23361,14 +23901,14 @@ t("+Pinned", "+속박", "_t")
 t("#LIGHT_BLUE##Target# is no longer a badass tree.", "#LIGHT_BLUE##Target2# 더 이상 개멋있는 나무가 아니다.", "_t")
 t("-Pinned", "-속박", "_t")
 t("Infusion Saturation", "주입물 포화", "_t")
-t("The more you use infusions, the longer they will take to recharge (+%d cooldowns).", "주입물을 사용 할 수록, 주입물의 재사용 대기시간 증가 (+%d).", "tformat")
+t("The more you use infusions, the longer they will take to recharge (+%d cooldowns).", "주입물을 사용할수록, 주입물의 재사용 대기시간 증가 (+%d).", "tformat")
 t("infusion", "주입", "effect subtype")
 t("Runic Saturation", "룬 포화", "_t")
-t("The more you use runes, the longer they will take to recharge (+%d cooldowns).", "룬을 사용 할 수록, 룬의 재사용 대기시간 증가 (+%d).", "tformat")
+t("The more you use runes, the longer they will take to recharge (+%d cooldowns).", "룬을 사용할수록, 룬의 재사용 대기시간 증가 (+%d).", "tformat")
 t("rune", "룬", "effect subtype")
-t("Tainted", "오염됨", "_t")
-t("The more you use taints, the longer they will take to recharge (+%d cooldowns).", "감염을 사용 할 수록, 감염의 재사용 대기시간 증가 (+%d).", "tformat")
-t("taint", "감염", "effect subtype")
+t("Tainted", "낙인찍힘", "_t")
+t("The more you use taints, the longer they will take to recharge (+%d cooldowns).", "낙인을 사용할수록, 낙인의 재사용 대기시간 증가 (+%d).", "tformat")
+t("taint", "낙인", "effect subtype")
 t("Path of the Sun", "태양의 길", "_t")
 t("The target is able to instantly travel alongside Sun Paths.", "태양의 길을 이동할 때 턴을 소모하지 않음.", "tformat")
 t("Time Prison", "시간의 감옥", "_t")
@@ -23378,7 +23918,7 @@ t("+Out of Time", "+시간선 탈선", "_t")
 t("#Target# is returned to normal time.", "#Target1# 시간선으로 돌아왔다.", "_t")
 t("-Out of Time", "-시간선 탈선", "_t")
 t("Time Shield", "시간 보호막", "_t")
-t("The target is surrounded by a time distortion, absorbing %d/%d damage and sending it forward in time. While active all newly applied status effects durations are reduced by %d%%.", "피해 보호막 %d/%d / 피해량이 미래로 날아감 / 활성화 중 받는 상태 효과의 지속시간 -%d%%.", "tformat")
+t("The target is surrounded by a time distortion, absorbing %d/%d damage and sending it forward in time. While active all newly applied status effects durations are reduced by %d%%.", "시간 왜곡에 둘러싸임 : 피해 보호막 %d/%d / 피해량이 미래로 날아감 / 활성화 중 받는 상태 효과의 지속시간 -%d%%.", "tformat")
 t("shield", "보호막", "effect subtype")
 t("+Time Shield", "+시간 보호막", "_t")
 t("The very fabric of time alters around #target#.", "시간의 구조가 #target3# 중심으로 변화한다.", "_t")
@@ -23391,7 +23931,7 @@ t("The powerful time-altering energies generate a restoration field on #target#.
 t("-Temporal Restoration Field", "-시간의 회복장", "_t")
 t("The fabric of time around #target# returns to normal.", "#target# 주위의 시간의 구조가 원래대로 돌아왔다.", "_t")
 t("Golem out of sight", "골렘이 시야 밖에 있음", "_t")
-t("The golem is out of sight of the alchemist; direct control will be lost!", "골렘의 직접 조종이 불가능해진다!", "_t")
+t("The golem is out of sight of the alchemist; direct control will be lost!", "골렘이 연금술사의 시야 밖에 있음 : 직접 조종이 불가능해진다!", "_t")
 t("#LIGHT_RED#You lost sight of your golem for too long; direct control is broken!", "#LIGHT_RED#골렘이 당신의 시야를 벗어난지 오랜 시간이 흘렀다. 골렘의 직접 조종이 깨져버렸다!", "logPlayer")
 t("golem out of sight", "골렘이 시야 밖에 있음", "_t")
 t("Shadow out of sight", "그림자가 시야 밖에 있음", "_t")
@@ -24266,7 +24806,7 @@ t("-Resonance", "-공명", "_t")
 t("Thorn Grab", "가시 손아귀", "_t")
 t("The target is encased in thorny vines, dealing %d nature damage each turn and reducing its speed by %d%%.", "매 턴 %d 자연 피해 받음 / %d%% 감속됨.", "tformat")
 t("Leaves Cover", "나뭇잎의 보호", "_t")
-t("%d%% chance to fully absorb any damaging actions.", "%d%% 확률로 모든 피해 흡수.", "tformat")
+t("%d%% chance to fully absorb any damaging actions.", "%d%% 확률로 모든 피해 완전 무효화.", "tformat")
 t("#Target# is protected by a layer of thick leaves.", "나뭇잎의 파도가 #Target3# 보호한다.", "_t")
 t("+Leaves Cover", "+나뭇잎의 보호", "_t")
 t("#Target# cover of leaves falls apart.", "#Target3# 보호하던 나뭇잎들이 힘없이 지면에 떨어졌다.", "_t")

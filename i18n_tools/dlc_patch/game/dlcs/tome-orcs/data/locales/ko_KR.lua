@@ -95,9 +95,16 @@ t("Demonic Horns 7", "악마의 뿔 7", "_t")
 t("Demonic Horns 8", "악마의 뿔 8", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 t("Orc", "오크", "birth descriptor name")
+t("Orcs have a long and sad history. They are seen, and are, as an aggressive race that more than one time managed to imperil all of Maj'Eyal.", "오크들은 길고 슬픈 역사를 갖고 있습니다. 오크들은 호전적인 종족으로 여겨지고, 실제로도 마즈'에이알을 한번 이상 파멸로 몰고간 적이 있습니다.", "_t")
+t("But one year ago the Scourge from the West came and wiped four of the five Prides. And a hundred years ago King Toknor wiped all traces of orcs from Maj'Eyal.", "하지만, 1 년 전 서쪽에서 온 재앙이 다섯 긍지 중 네 긍지를 쓸어버렸습니다. 그리고 백여년 전, 토크놀 왕이 마즈'에이알에서의 모든 오크들을 쓸어버렸습니다", "_t")
+t("The orc race is dangerously on the brink of destruction. One wrong move is all that is needed.", "오크 종족은 현재 몰락 직전에 서있습니다. 조금만 잘못해도 멸망의 구렁텅이에 빠지게됩니다.", "_t")
+t("But they are strong and will face whatever is needed to ensure a future of their own!", "하지만 오크들은 강인하고, 그들 스스로의 미래를 위해 필요한 것이라면 그게 어떤 것이던지 대면할 준비가 되어있습니다!", "_t")
+t("They possess the #GOLD#Orcish Fury#WHITE# which allows them to increase all their damage for a few turns.", "오크는 몇 턴동안 피해량을 증가시키는 #GOLD#오크의 분노#WHITE# 기술을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +2 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +2 힘, +1 민첩, +1 체격", "_t")
+t("#LIGHT_BLUE# * -1 Magic, +1 Willpower, +1 Cunning", "#LIGHT_BLUE# * -1 마법, +1 의지, +1 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 12", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 12%", "_t")
 
 
 ------------------------------------------------
@@ -120,8 +127,17 @@ t("Skin Color 7", "피부 색 7", "_t")
 t("Demonic Red Skin", "악마적인 붉은 피부", "_t")
 t("Beard 1", "수염 1", "_t")
 t("Beard 2", "수염 2", "_t")
+t("Redhead Beard", "붉은 수염", "_t")
+t("Hair 1", "머리카락 1", "_t")
+t("Hair 2", "머리카락 2", "_t")
+t("Hair 3", "머리카락 3", "_t")
+t("Hair 4", "머리카락 4", "_t")
 t("Redhead Hair 1", "붉은 머리카락 1", "_t")
 t("Redhead Hair 2", "붉은 머리카락 2", "_t")
+t("Horns 1", "뿔 1", "_t")
+t("Horns 2", "뿔 2", "_t")
+t("Horns 3", "뿔 3", "_t")
+t("Horns 4", "뿔 4", "_t")
 t("Demonic Horns 1", "악마의 뿔 1", "_t")
 t("Demonic Horns 2", "악마의 뿔 2", "_t")
 t("Demonic Horns 3", "악마의 뿔 3", "_t")
@@ -131,19 +147,29 @@ t("Demonic Horns 6", "악마의 뿔 6", "_t")
 t("Demonic Horns 7", "악마의 뿔 7", "_t")
 t("Demonic Horns 8", "악마의 뿔 8", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
+t("Whitehoof", "하얀 발굽", "birth descriptor name")
 t("Grave strength, dread will, this flesh cannot stay still. Kings die, masters fall, we will outlast them all.", "막대한 힘, 무시무시한 의지, 이 육체는 멈추지 않는다. 왕은 죽고, 지배자들은 멸망하지만, 우리는 그들 모두보다 오래동안 존재하리라.", "_t")
+t("A clan of minotaurs turned to necromancy when faced with imminent destruction.", "미노타우르스 부족이 임박한 파멸을 목전에 두자, 강령술로 돌아섰습니다.", "_t")
+t("Whitehooves are resilient and magic imbued undead, hardened by their trials and made stronger by their undeath.", "하얀 발굽은 강인하고, 마법의 힘이 깃든 언데드입니다. 시련에 의해 단련되고, 불생으로 인해 더욱 강해졌습니다.", "_t")
+t("They now seek to help their orc allies, in hope they will help them back.", "이제 하얀 발굽은 동맹인 오크들을 위해 활동하고 있습니다. 오크들이 보답하리라고 확신한 체.", "_t")
+t("They have access to #GOLD#special talents#WHITE# and a wide range of undead abilities:", "하얀 발굽은 #GOLD#특별한 기술#WHITE#과 폭넓은 언데드 능력을 갖고있습니다.", "_t")
+t("- silence resistance", "- 침묵 저항", "_t")
 t("- bleeding immunity", "- 출혈 면역", "_t")
 t("- fear immunity", "- 공포 면역", "_t")
 t("- no need to breathe", "- 숨 쉴 필요 없음", "_t")
+t("- special whitehoof talents: dead hide, lifeless rush, essence drain", "- 특수한 하얀 발굽 기술: 죽은 가죽, 생기없는 돌진, 정수 흡수", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +2 체격", "_t")
+t("#LIGHT_BLUE# * +2 Magic, -3 Willpower, +1 Cunning", "#LIGHT_BLUE# * +2 마법, -3 의지, +1 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 14", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 14", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 15%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 15%", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/birth/races/yeti.lua"
 
+t("Yeti", "예티", "birth descriptor name")
+t("Yetis are a towering mass of muscle.", "예티들은 우뚝 선 근육질의 생명체입니다.", "_t")
 t("Facial features", "얼굴 특징", "birth facial category")
 t("Hairs", "머리카락", "birth facial category")
 t("Horns", "뿔", "birth facial category")
@@ -159,8 +185,14 @@ t("Skin Color 7", "피부 색 7", "_t")
 t("Skin Color 8", "피부 색 8", "_t")
 t("Skin Color 9", "피부 색 9", "_t")
 t("Demonic Red Skin", "악마적인 붉은 피부", "_t")
+t("Hair 1", "머리카락 1", "_t")
+t("Hair 2", "머리카락 2", "_t")
 t("Beard 1", "수염 1", "_t")
 t("Beard 2", "수염 2", "_t")
+t("Beard 3", "수염 3", "_t")
+t("Eyebrows", "눈썹", "_t")
+t("Fangs", "송곳니", "_t")
+t("Mustache", "콧수염", "_t")
 t("Demonic Horns 1", "악마의 뿔 1", "_t")
 t("Demonic Horns 2", "악마의 뿔 2", "_t")
 t("Demonic Horns 3", "악마의 뿔 3", "_t")
@@ -170,14 +202,35 @@ t("Demonic Horns 6", "악마의 뿔 6", "_t")
 t("Demonic Horns 7", "악마의 뿔 7", "_t")
 t("Demonic Horns 8", "악마의 뿔 8", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
+t("Kruk Yeti", "크룩 예티", "birth descriptor name")
+t("Infuse the mind, sacrifice the body but the Pride remains.", "정신을 주입하고, 몸을 희생하지만 긍지는 남으리라.", "_t")
+t("Yetis are a towering mass of muscle. While normal yetis are non-sentient beasts this kind is special.", "예티들은 우뚝 선 근육질의 생명체입니다. 일반적인 예티는 자각없는 짐승인 반면, 크룩 예티들은 특별합니다.", "_t")
+t("A few orcs of the Kruk pride have mastered techno-psionics, allowing them to literally hijack a yeti's mind and transfer their own mind inside.", "크룩 긍지의 소수의 오크들이 기술-초능력을 익혀, 문자 그대로 예티의 정신을 납치하고, 그들의 정신을 그 안에 불어넣었습니다.", "_t")
+t("Doing so drains their old knowledge and they need to start afresh, gaining considerable strength in the process; for the good of the Prides.", "정신을 옮기면 쌓아두었던 모든 지식이 일순간에 사라저, 처음부터 다시 지식을 찾아야 했습니다. 하지만 어쨌든 꽤 강력한 근력을 얻게되었습니다. 긍지를 위해서라면 아무것도 아니죠.", "_t")
+t("They possess the #GOLD#Algid Rage#WHITE# talent which allows them to encase their foes in blocks of ice.", "크룩 예티들은 적들을 얼음 속에 가둬버릴 수 있는 #GOLD#차가운 분노#WHITE# 기술을 가집니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
+t("#LIGHT_BLUE# * +5 Strength, -3 Dexterity, +4 Constitution", "#LIGHT_BLUE# * +5 힘, -3 민첩, +4 체격", "_t")
+t("#LIGHT_BLUE# * +0 Magic, +1 Willpower, -1 Cunning", "#LIGHT_BLUE# * +0 마법, +1 의지, -1 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 13", "_t")
-t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 패널티:#LIGHT_BLUE# 12%", "_t")
+t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 12%", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/birth/worlds.lua"
 
+t("Orcs: Embers of Rage", "오크: 분노의 잉걸불", "_t")
+t("The Prides lie in ruins!", "긍지들이 몰락했다!", "_t")
+t("The Sorcerers have been defeated!", "최고봉의 주술사들은 패배했습니다!", "_t")
+t("Orcs in all Var'Eyal are in dismay, hunted by the Sunwall and their newfound allies from the west.", "모든 바르'에이알의 오크들은 경악에 빠진 체, 태양의 장벽과 그들의 서쪽에서 온, 새로운 동료들에 의해 사냥당했습니다.", "_t")
+t("The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "서쪽에서 온 재앙이 다시 서쪽으로 돌아갔지만, 그녀의 유산은 아직 굳건합니다 : 오크 종족은 다시 한번 파멸의 위기에 처하게됐습니다!", "_t")
+t("But not all hope is lost.", "하지만 모든 희망이 사라진 것은 아닙니다.", "_t")
+t("On the isolated Clork Peninsula lies the fifth pride: Kruk's Pride; unseen and unharmed by the Scourge.", "고립되어있던 클로크 반도에는 5 번째 긍지가 있었습니다 : 크룩의 긍지; 재앙이 찾지 못했고, 몰락시키지 않은 유일한 긍지입니다.", "_t")
+t("Yet not all is great there either, the Sunwall offensive has set up an outpost blocking the way to the mainland.", "그렇다고 상황이 그렇게 희망적인 것은 아닙니다. 태양의 장벽의 공세를 펼쳤을 떄, 그들은 전초 기지를 만들어 대륙으로 향하는 길을 막아버렸습니다.", "_t")
+t("But the worst threat comes from the peninsula itself, the main inhabitants are not the orcs, but the Atmos Tribe.", "하지만 최악의 위협은 반도 그 안에 존재합니다. 반도의 주요 거주자들은 오크가 아닌 아트모스 부족입니다.", "_t")
+t("A civilization of steam giants whose mastery of steamtech makes them incredible foes.", "증기 공학에 숙달한 증기 거인들의 문명은, 그들의 위험성을 극도로 증대합니다.", "_t")
+t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "오크로 게임을 진행하여, 가치를 증명하세요! 거인들에 대적해 증기 공학 기술을 사용하고, 동대륙을 태양의 장벽 쓰래기들에게서 해방시키세요!", "_t")
+t("Craft your own steamsaws, rocket boots, steam powered armours, and all kind of steamy technology!", "증기톱, 로켓 장화, 증기 작동 갑옷, 그밖의 모든 증기 공학 발명품들을 제작하세요!", "_t")
+t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "이것이 당신의 운명입니다! 가르쿨의 유산을 위해, 긍지의 영광을 위해!", "_t")
 
 
 ------------------------------------------------
@@ -227,6 +280,10 @@ section "game/dlcs/tome-orcs/data/chats/kaltor-shop.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/kruk-tinker-shop.lua"
 
+t("Welcome @playername@ to my shop.", "내 가게에 어서 와, @playername@.", "_t")
+t("Let me see your wares.", "물건을 보고 싶어.", "_t")
+t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t("No thanks.", "사양하지.", "_t")
 
 
 ------------------------------------------------
@@ -421,6 +478,7 @@ Vicious predators, they inject corrupting diseases into their foes, and their sh
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/steam-drone.lua"
 
+t("mechanical", "기계학", "entity type")
 
 
 ------------------------------------------------
@@ -449,6 +507,7 @@ t("steam", "증기", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/steam-spiders.lua"
 
+t("mechanical", "기계학", "entity type")
 
 
 ------------------------------------------------
@@ -594,6 +653,7 @@ t("misc", "도구", "entity type")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/chemistry.lua"
 
+t("%s viral injector", "%s 바이러스 주입기", "tformat")
 t("armor", "방어구", "entity type")
 t("cloak", "망토", "entity subtype")
 
@@ -661,6 +721,7 @@ t("Medical Urgency Vest", "응급 의료지원 조끼", "entity name")
 t("something", "물체", "_t")
 t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
 t("Annihilator", "절멸자", "entity name")
+t("Stimulus", "자극제", "entity name")
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
@@ -672,6 +733,7 @@ t("Summon", "소환", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/stores/orcs.lua"
 
+t("smith", "야금학", "entity name")
 
 
 ------------------------------------------------
@@ -870,6 +932,7 @@ section "game/dlcs/tome-orcs/data/quests/weissi.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/yeti-abduction.lua"
 
+t("Yeti", "예티", "_t")
 
 
 ------------------------------------------------
@@ -979,7 +1042,7 @@ t("Instantly gain %d%% percent of a turn.", "일시적으로 한 턴의 %d%% 를
 section "game/dlcs/tome-orcs/data/talents/celestial/void.lua"
 
 t("Nebula Spear", "성운의 창", "talent name")
-t("Fire out a spear of cosmic energies. If it hits an enemy it deals %0.2f damage, otherwise it explodes in a thin cone of radius %d at the end of its range, blocked by enemies, which deals %0.2f to %0.2f damage depending on how much the enemies block.", "우주 에너지의 창을 발사합니다. 명중 시, %0.2f 피해를 가합니다. 반대로, 어느 누구에게도 명중시키지 못한 경우, 사거리 끝에서 반경 %d 칸의 가늘고 긴 원뿔 범위의 폭발을 일으킵니다. 폭발은 %0.2f - %0.2f 피해를 가합니다. 이 폭발의 피해량은 얼마나 적이 비좁은 곳에 있을 수록 증가합니다.", "tformat")
+t("Fire out a spear of cosmic energies. If it hits an enemy it deals %0.2f damage, otherwise it explodes in a thin cone of radius %d at the end of its range, blocked by enemies, which deals %0.2f to %0.2f damage depending on how much the enemies block.", "우주 에너지의 창을 발사합니다. 명중 시, %0.2f 피해를 가합니다. 반대로, 어느 누구에게도 명중 시키지 못한 경우, 사거리 끝에서 반경 %d 칸의 가늘고 긴 원뿔 범위의 폭발을 일으킵니다. 폭발은 %0.2f - %0.2f 피해를 가합니다. 이 폭발의 피해량은 얼마나 적이 비좁은 곳에 있을 수록 증가합니다.", "tformat")
 t("Crescent Wave", "초승달의 파도", "talent name")
 t("Fires out a projectile in a clockwise arc. If it hits an enemy it deals %0.2f damage and roots them for one turn. If another projectile damages them within %d turns, they take half that damage and are rooted again.", "시계 방향으로 호를 그리며 나아가는 투사체를 발사합니다. 명중 시 %0.2f 피해를 주고 1 턴 동안 아무것도 하지 못하게합니다. 이후 %d 턴 동안 또 다른 투사체에 의해 피해를 입을 경우, 피해량을 절반만 가하는 대신, 움직임을 다시 봉쇄합니다.", "_t")
 t("Twilit Echoes", "황혼의 반향", "talent name")
@@ -1043,7 +1106,7 @@ t("Curse of Amakthel", "아마크텔의 저주", "talent name")
 t([[Create a circle of cursed ground (radius %d) for %d turns. Any foes inside will be cursed, all new negative effects on them will have their duration doubled.
 		]], [[반경 %d 칸의 저주의 마법진을 %d 턴 동안 세겨넣습니다. 내부의 모든 적은 저주 받아, 새로 받는 부정적 효과의 지속 시간이 2 배로 연장됩니다.
 		]], "tformat")
-t("Temporal Ripples", "시간의 잔물결", "talent name")
+t("Temporal Ripples", "시간의 파문", "talent name")
 t([[Creates a circle of radius %d of altered time for %d turns. Any damage your foes take while standing in it will heal the attacker for 200%% of the damage dealt.
 		]], [[반경 %d 칸의 대체 시간의 마법진을 세겨넣습니다. 내부의 모든 적이 받는 피해의 2 배 만큼 공격자의 생명력을 회복합니다.
 		]], "tformat")
@@ -1152,7 +1215,7 @@ t([[Improves your undead body, increasing Strength and Magic by %d.
 		이동을 하지 않으면, 중첩을 하나씩 잃게됩니다.]], "tformat")
 t("Dead Hide", "죽은 가죽", "talent name")
 t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "언데드 가죽이 부하로 인해 경화됩니다. 죽음의 기세 중첩 마다, 모든 속성에 대한 고정 피해 감소 %d 를 얻습니다.", "tformat")
-t("Lifeless Rush", "생명없는 돌진", "talent name")
+t("Lifeless Rush", "생기없는 돌진", "talent name")
 t([[You summon your undead energies to instantly build up death momentum to its maximum possible charges.
 		The effect will only start to decrease after %d turns.
 		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], [[죽음의 에너지를 불러내, 즉시 죽음의 기세를 최대치로 얻습니다.
@@ -1375,7 +1438,7 @@ t([[You reach out through the aether to all creatures in sight that were slowed 
 		As long as at least one link is up, the cooldown of your Metaphasic Spin spell is set to 6 turns instead of 30.
 		The damage will increase with your Spellpower.]], [[에테르의 힘을 끌어 모아 시야 내의 현실 균열이나 시간 동결으로 인해 느려진 적에게 풀어놓습니다.
 		각각의 대상은 비전의 힘이 주입된 증기로 %d 턴 동안 연결됩니다.
-		대상이 기술을 사용할 때 마다, 시전자의 주문 하나의 재사용 대기시간이 1 줄어듭니다. 이 효과는 마도공학 계열 스킬이 우선됩니다.
+		대상이 기술을 사용할 때 마다, 시전자가 가진 주문 하나의 재사용 대기시간이 1 턴 단축됩니다. 이 효과는 마도공학 계열 스킬이 우선됩니다.
 		매 턴 연결된 대상과, 경로 상의 모든 적은 %0.2f 비술 피해를 입게됩니다.
 		연결이 1 개 이상 유지되고 있는 한, 위상 초월 회전의 재사용 대기시간이 30 턴이 아니라 6 턴으로 적용됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -1513,7 +1576,7 @@ Targets affected by this burning that fall below 25%% life enter a state of pani
 The fire damage will increase with your Steampower.]], [[로켓을 발화성 물질로 강화합니다. 로켓에 피격된 적에게 3 턴에 걸쳐 %0.2f 화염 피해를 가합니다. 불타는 적을 대상으로 하는 후속 로켓 공격은  화상의 지속 시간을 갱신합니다. (중첩되지는 않습니다) 추가로 %0.2f 화염 피해를 가합니다.
 이 화상 효과를 받고있는 생명력 25%% 이하의 적은 패닉에 빠져, %d%% 확률로 매 턴, 시전자에게서 도망가려합니다.
 화염 피해는 증기력에 비례하여 증가합니다..]], "tformat")
-t("Lock On", "추적 미사일", "talent name")
+t("Lock On", "락 온", "talent name")
 t([[Lock on to your target with your rocket pod for 5 turns.
 While locked on your regular rocket pod attacks are disabled. However, each turn you automatically fire a rocket barrage dealing %d%% increased damage at your target.
 Marked targets also lose %d defense and cannot benefit from concealment or evasion.
@@ -1521,7 +1584,7 @@ The defense loss will increase with your Steampower.]], [[5 턴 동안 대상에
 목표가 고정된 동안, 일반적인 로켓 공격은 비활성화 됩니다. 하지만, 매 턴 추적 미사일을 발사해 %d%% 증가된 피해를 대상에게 가합니다.
 목표가 된 대상은 %d 회피도가 감소하고, 은신,투명이나 피해 완전 무효화 효과가 사라집니다.
 회피도 감소량은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Death From Above", "위에서 내려오는 죽음", "talent name")
+t("Death From Above", "하늘에서 내려오는 죽음", "talent name")
 t([[You use your rocket pods to launch yourself into the air for 3 turns, firing a radius 2 barrage of rockets that deal %d%% steamgun damage as fire in radius 2. 
 		While flying you gain %d%% movement speed, %d%% chance to evade melee and ranged attacks, and can reactivate this talent at will to repeat the rocket barrage.
 		Using any talent other than Rocket Barrage will end this effect immediately.]], [[로켓 발사관을 이용하여 시전자 자신을 공중으로 발사합니다. 3 턴 동안 체공하며, 반경 2 칸의 로켓 일제 사격을 가할 수 있게됩니다. 일제 사격은 2 칸 범위 내에 %d%% 총기 피해를 가합니다. 
@@ -1535,7 +1598,7 @@ t("Fires a barrage of rockets in radius 2, dealing %d%% steamgun damage as fire.
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/automated-butchery.lua"
 
-t("Continuous Butchery", "끝나지않는 도살", "talent name")
+t("Continuous Butchery", "끝나지 않는 도살", "talent name")
 t("You require a steamsaw for this talent.", "이 기술을 사용하기 위해서는 증기톱이 필요합니다.", "logPlayer")
 t([[You attune your saws to a specific target for 5 turns.
 		Each time you strike this target all damage done with steamsaws (including by other talents) is increased by +%d%%.
@@ -1641,7 +1704,7 @@ t([[Throw a small, unstable steam engine on the battlefield that will go critica
 		또한 출혈중인 적은 피해량을 40%% 더 받습니다.
 		피해량은 증기력에 비례하여 증가합니다.
 		#{italic}#째깍째깍 펑!#{normal}#]], "tformat")
-t("Lingering Cloud", "짙은 증기", "talent name")
+t("Lingering Cloud", "짙은 연기", "talent name")
 t([[Explosive Steam Engine vapour now lingers for 5 turns.
 		Each turn, bleeding foes inside the cloud will take %0.2f fire damage.
 		Any steamtech-using creature will also regenerate %d additional steam per turn while inside the cloud.
@@ -1759,7 +1822,7 @@ t([[You swap your bullets for more massive ones for %d turns.
 		사격 시, %d%% 확률로 대상을 3 칸 밀치고, %d%% 확률로 대상을 3 턴 동안 기절시킵니다.
 		밀칠 확률과 기절 확률은 증기력에 비례하여 증가합니다.
 		오직 한 번에 하나의 탄환 강화 효과만 적용됩니다.]], "tformat")
-t("Combustive Bullets", "가연탄", "talent name")
+t("Combustive Bullets", "폭발탄", "talent name")
 t("You must dual wield steamguns for this talent.", "이 기술을 사용하기 위해서는 총을 2 자루 장착 해야한다.", "logPlayer")
 t([[You coat your bullets with flammable materials, for the next %d turns each bullet will explode when it hits its target, dealing %0.2f fire damage to all foes within radius 2 (most of your shooting talents fire two bullets at once).
 		Damage will increase with Steampower.
@@ -1987,7 +2050,7 @@ t([[While Furnace is on your armour is so hot from the furnace it dissipates par
 		Each turn this happens you gain a molten point (up to 10), decreasing the efficiency of the reduction by 25%%.
 		Molten points are removed upon running or resting.
 		#{italic}#Hot liquid metal, the fun!#{normal}#
-		]], [[장착된 용광로에의해 방어구가 달궈지면 피격시 받는 에너지의 일부를 소산합니다.
+		]], [[장착된 용광로에의해 방어구가 달궈지면 피격 시 받는 에너지의 일부를 소산합니다.
 		모든 비물리적, 비정신적 피해는 %d 줄어듭니다. (현재 %d).
 		매 턴, 피해 감소 효과가 발동되면 용해 점수를 얻습니다. (최대 10 까지 중첩됩니다) 용해 점수 1 점 당 피해 경감량이 25%% 줄어듭니다.
 		달리거나 휴식을 취할 시 용해 점수는 초기화됩니다.
@@ -2136,7 +2199,7 @@ t([[You gain the ability to equip one of 3 heavy weapons listed below, temporari
 		Firing your Steamgun will immediately unequip your heavy weapon.		
 		]], [[다음 세 가지 종류의 중화기 중 하나를 장착하고, 그에 해당하는 특수 공격을 가할 수 있게됩니다. 중화기는 기존 총기보다 훨신 강력하지만, 발사를 위해서는 중화기 탄약이 필요합니다. 최대 중화기 탄약을 %d 개 소지할 수 있고, 중화기를 들고 있지 않을 때, 매 3 턴 마다 탄약이 1 씩 재생됩니다.
 		
-		#AQUAMARINE#화염 방사기#LAST#: 적에게 액체 화염을 뿜어내는 발화 장치로, 5 칸 반경 내의 모든 적에게 %d%% 화염 총기 피해를 3 턴에 걸쳐 줍니다. 화염 방사기는 방어력을 무시하며, 반드시 명중합니다. 또한 적중시 일어나는 특수 효과에 있어, 일반적인 총기로 취급됩니다.
+		#AQUAMARINE#화염 방사기#LAST#: 적에게 액체 화염을 뿜어내는 발화 장치로, 5 칸 반경 내의 모든 적에게 %d%% 화염 총기 피해를 3 턴에 걸쳐 줍니다. 화염 방사기는 방어력을 무시하며, 반드시 명중합니다. 또한 명중 시 일어나는 특수 효과에 있어, 일반적인 총기로 취급됩니다.
 		#AQUAMARINE#감전 지팡이#LAST#: 전기로 충전된 막대로, 근접 전투에서 사용합니다. %d%% 번개 피해를 대상과 대상과 대상 양 옆의 적에게 가합니다, 피해를 받은 적이 가하는 피해량은 3 턴 동안 %d%% 줄어듭니다. 이 공격은 근접 공격으로 취급되지만, 탄환의 명중 시 발생하는 효과 역시 받습니다. 방패 장비 시, 모든 감전 지팡이 공격은 방패 공격을 유발하며, 전기 속성으로 가합니다. 또한 장착한 총기의 사정거리 내의 적에게 돌진할 수 있습니다. 
 		#AQUAMARINE#주사기 총#LAST#: 다중 총열을 가진 총기로, 화학 물질이 주입된 주사기를 발사합니다. 총기를 2 번 발사해, 탄환 하나 당 %d%% 총기 피해를 산성 속성으로 주고, 명중한 주사기마다 증기를 %d 회복합니다.
 		
@@ -2229,12 +2292,12 @@ section "game/dlcs/tome-orcs/data/talents/steam/inscriptions.lua"
 t("\
 Its effects scale with your %s stat.", "\
 이 효과는 %s 능력치에 비례하여 증가합니다.", "tformat")
-t("Implant: Steam Generator", "이식품: 증기 발생기", "talent name")
+t("Implant: Steam Generator", "증강장치: 증기 발생기", "talent name")
 t([[Steam generator that permanently creates %0.1f steam per turn.
 		Can be activated for an instant burst of %d steam.]], [[매 턴 %0.1f 증기를 생성합니다.
 		활성화하면, 증기를 급격하게 생성해, 증기를 %d 회복합니다.]], "tformat")
 t("steam %d", "증기 %d", "tformat")
-t("Implant: Medical Injector", "이식: 의료용 주사기", "talent name")
+t("Implant: Medical Injector", "증강장치: 의료용 주사기", "talent name")
 t("#LIGHT_BLUE#Medical injector selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 해당 주사기가 먼저 사용됩니다.", "saySimple")
 t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
 t("Medical injector allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "의료용 주사기는 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있게 해줍니다.", "tformat")
@@ -2395,7 +2458,7 @@ t([[Your bloodstar effect also burns part of your victim's flesh, dealing %0.2f 
 		강렬한 화염은 게슈탈트를 통해 흡수 가능한 증기를 생성합니다. 매 턴 %d 증기를 회복합니다. (피해를 받는 대상이 많아질 수록 회복량은 66%% 줄어들게 됩니다).
 		이 피해는 혼절 상태인 적을 깨우지 않고, 증기력에 비례하여 증가합니다.]], "tformat")
 t("Deathstar", "죽음의 별", "talent name")
-t("When you use a shoot class talent to hit a creature affected by bloodstar an other shoot talent will have its current cooldown reduced by %d turns.", "피의 별 효과를 받고있는 적에게 사격 기술을 명중시킬 경우, 다른 사격 기술 하나의 재사용 대기시간이 %d 턴 단축됩니다.", "tformat")
+t("When you use a shoot class talent to hit a creature affected by bloodstar an other shoot talent will have its current cooldown reduced by %d turns.", "피의 별 효과를 받고있는 적에게 사격 기술을 명중 시킬 경우, 다른 사격 기술 하나의 재사용 대기시간이 %d 턴 단축됩니다.", "tformat")
 
 
 ------------------------------------------------
@@ -2933,7 +2996,7 @@ t("medic turret", "의료 포탑", "_t")
 t("An automated turret emitting a healing mist.", "회복 안개를 내뿜는 자동 포탑.", "_t")
 t("Turret", "포탑", "_t")
 t("Deploy a turret that emits a healing mist in radius 3. The turret gains +%d Dexterity, Constitution and Cunning.", "반경 3 칸에 회복 안개를 내뿜는 포탑을 설치합니다. 포탑은 +%d 민첩, 체격 그리고 교활을 가집니다.", "tformat")
-t("Overclock", "오버클록", "talent name")
+t("Overclock", "오버클럭", "talent name")
 t([[Send a surge of power into all turrets in sight, extending their duration by %d turns and granting them a charged shield absorbing %d damage for 10 turns. While the shield holds, each turn the turret will project a bolt of lightning dealing %0.2f lightning damage to a random enemy in radius 6, with a 25%% chance to daze.
 		The effects will increase with your Steampower.]], [[시야 내의 모든 포탑에 힘의 쇄도를 불어넣습니다. 모든 포탑의 지속 시간이 %d 턴 연장되고, 10 턴 동안 %d 피해를 흡수하는 전하 보호막이 포탑에 생성됩니다. 보호막이 유지되는 동안, 매 턴 포탑이 반경 6 칸 내의 무작위한 적에게 %0.2f 전기 피해를 가하고, 25%% 확률로 혼절을 일으키는 번개 화살을 날립니다.
 		이 효과는 증기력에 비례하여 증가합니다.]], "tformat")
@@ -3092,54 +3155,131 @@ t([[Activate a special focusing device that extends all your ranged spells and p
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/floor.lua"
 
+t("Warm", "따뜻함", "_t")
+t("The target is warm from the campfire. Increasing steam regeneration by 6/turn, stun immunity by 30% and stamina regeneration by 4/turn.", "모닥불의 온기를 받음 : 턴 당 증기 생성 +6 / 기절 면역력 +30% / 턴 당 체력 재생 +4.", "_t")
+t("Sun Radiance", "태양의 광휘", "_t")
+t("The target is under the effect of the sun. Increasing lite and sight radius by 2, blindness immunity by 30%, stealth seeing by 20 and light resistance by 30%.", "대상이 태양의 영향 아래에 있음 : 광원과 시야 범위 +2 / 실명 면역력 +30% / 은신 탐지력 +20 / 빛 저항 +30%.", "_t")
+t("Moon Radiance", "달의 광휘", "_t")
+t("The target is under the effect of the moons. Decreasing lite and sight radius by 1, increasing stun immunity by 30%, granting 10 stealth and darkness resistance by 30%.", "대상이 달의 영향 아래에 있음 : 광원과 시야 범위 -1 / 기절 면역력 +30% / 은신력 +10 / 암흑 저항 +30%.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/magical.lua"
 
+t("Viral Injection", "바이러스 주입", "_t")
+t("The target is infected by a disease, reducing its highest %d stats by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 가장 높은 %d 개의 능력치 -%d / 턴 당 %0.2f 황폐 피해 받음.", "tformat")
 t("blight", "황폐", "effect subtype")
 t("disease", "질병", "effect subtype")
+t("#Target# is injected with a pathogen!", "#Target2# 병균을 주입당했다!", "_t")
+t("#Target# is free from the pathogen.", "#Target1# 병균에서 벗어났다.", "_t")
+t("Steam Shield", "증기 보호막", "_t")
+t("The target is surrounded by a magical steam shield, absorbing %d/%d damage and burning attackers for %d fire damage before it crumbles.", "마법적인 증기 방어막에 둘러쌓임 : 흡수량 %d/%d / 피격 시 공격자는 %d 화염 피해를 받음.", "tformat")
 t("shield", "보호막", "effect subtype")
 t("+Shield", "+보호막", "_t")
 t("A shield forms around #target#.", "#target2# 주위에 마력의 보호막을 형성했다.", "_t")
 t("-Shield", "-보호막", "_t")
 t("The shield around #target# crumbles.", "#target#의 보호막이 부셔졌다.", "_t")
 t("Twilit Echoes", "황혼의 반향", "_t")
+t("The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "모든 빛과 어둠 피해를 느끼게됨 : 받는 빛 피해 1 당 %0.2f%% 감속됨. 최대 %d%% 감속 - %d 피해. 암흑 피해를 받을 시 %d 턴 동안 받은 피해의 %d%% 를 추가로 받음. 암흑 속성 피해를 받으면 이 효과는 갱신됨.", "tformat")
+t("dark", "어둠", "effect subtype")
 t("light", "빛", "effect subtype")
+t("Echoed Light", "반향한 빛", "_t")
+t("The light damage the target has taken is echoed, slowing them by %d%%. Taking additional damage while Twilit Echoes is active will refresh and increase the slow up to a maximum of %d%%.", "대상이 받은 빛 피해가 울려 퍼짐 : %d%% 감속 / 황혼의 반향 동안 받는 추가 피해는 이 효과를 갱신하고, 최대 %d%% 감속 가능.", "tformat")
 t("slow", "감속", "effect subtype")
+t("Mirror Worlded", "거울 뒤 세계", "_t")
+t("This unit will flip spaces soon.", "곧 공간을 뒤집음.", "_t")
+t("That space is occupied!", "그 공간은 이미 사용중이다!", "logPlayer")
 t("Starscape", "우주", "_t")
+t("Has summoned the starscape, slowing all creatures 67%.", "우주를 불러냄 : 모든 개체의 전체 속도를 67% 감소함.", "_t")
 t("celestial", "천공", "effect subtype")
 t("Vampiric Surge", "흡혈의 쇄도", "_t")
+t("This unit is recovering %d%% of all damage it deals as health.", "가하는 피해의 %d%% 을 생명력으로 회복.", "tformat")
 t("corruption", "타락", "effect subtype")
-t("Temporal Ripples", "시간의 잔물결", "_t")
+t("#Target# is overflowing with dark power!", "#Target2# 어둠의 힘이 흘러넘친다!", "_t")
+t("+Vamp Surge", "+흡혈의 쇄도", "_t")
+t("#Target#'s dark aura fades.", "#Target#의 어둠의 기운이 사라진다.", "_t")
+t("-Vamp Surge", "-흡혈의 쇄도", "_t")
+t("Temporal Ripples", "시간의 파문", "_t")
+t("Attackers dealing damage will be healed for %d%% of the damage done.", "공격자는 가한 피해의 %d%% 를 회복함.", "tformat")
 t("chronomancy", "시공 제어", "effect subtype")
+t("#Target# is fluctuating in time!", "#Target2# 시간 속에서 끊임없이 변동한다!", "_t")
+t("#Target# is no longer fluctuating.", "#Target1# 변동을 끝냈다.", "_t")
+t("Death Momentum", "죽음의 기세", "_t")
+t("You have %d charges.", "용해 점수 %d 점.", "tformat")
 t("undead", "언데드", "effect subtype")
 t("Ethereal Steam", "에테르의 증기", "_t")
+t("Deals %0.2f occult damage per turn and each time a talent is used, the caster regens one turn of a random cooldown.", "%0.2f 비술 피해를 매 턴 받고, 대상이 기술을 사용하면, 시전자가 가진 주문 하나의 재사용 대기시간이 1 턴 단축됨.", "tformat")
+t("#Target# covered in arcane-infused steam!", "#Target2# 마법의 힘이 주입된 증기에 덮혔다!", "_t")
+t("#Target# is free from the steam.", "#Target1# 증기에서 벗어났다.", "_t")
+t("Ethereal Link", "에테르 연결", "_t")
+t("While Ethereal Steam exists the cooldown of Metaphasic Spin is reduced to 6.", "에테르의 증기가 적용된 적이 존재하는 한, 위상 초월 회전의 재사용 대기시간이 6 턴 이됨.", "tformat")
 t("Metaphasic Echoes", "위상 초월 반향", "_t")
+t("Project your saw along the leftover breaches.", "현실의 균열에 톱날을 날려보낼 수 있음.", "tformat")
 t("steam", "증기", "effect subtype")
+t("Spiderbots Shield", "거미봇 보호막", "_t")
+t("%d spiderbots are protecting you, each with %d life. Current top spiderbot has %d life remaining.", "%d 체의 거미봇이 시전자를 보호함 : 각 개체는 %d 내구도를 갖음 / 현재 방어를 담당하는 거미봇은 %d 내구도가 남음.", "tformat")
 t("arcane", "비전", "effect subtype")
 t("temporal", "시간", "effect subtype")
+t("#Target# covered with micro spiderbots!", "#Target2# 초소형 거미봇으로 뒤덮혔다!", "_t")
+t("#Target# is no longer protected by spiderbots.", "#Target#의 거미봇으로 인한 보호 효과가 끝났다.", "_t")
+t("#SLATE#(%d to spiderbot - destructed)#LAST#", "#SLATE#(%d 거미봇 - 파괴됨)#LAST#", "tformat")
+t("#SLATE#(%d to spiderbot)#LAST#", "#SLATE#(%d 거미봇)#LAST#", "tformat")
 t("Electron Incantation", "전자기 주문 영창", "_t")
+t("Defensive Circuit: Dynamo Boost", "방어 회로 : 발전기 강화", "_t")
+t("Arcane Dynamo returns %d more steam per 10 mana spent.", "비전 발전기가 마나 10 소모 당, 증기를 %d 더 생산함.", "tformat")
+t("Defensive Circuit: Resistances Boost", "방어 회로: 저항 강화", "_t")
+t("All resistances increased by %d%%.", "모든 저항 +%d%%.", "tformat")
 t("spell", "주문", "effect subtype")
+t("technomancy", "마도공학", "effect subtype")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/mental.lua"
 
 t("Gestalt", "게슈탈트", "_t")
+t("Steampower increased by %d.", "증기력 +%d.", "tformat")
+t("All powers increased by %d.", "증기력, 정신력, 주문력, 물리력 +%d.", "tformat")
+t("#Target# is drains all powers around #himher#.", "#Target2# #himher# 근처의 모든 힘을 흡수한다.", "_t")
+t("#Target# is less powerful.", "#Target2# 힘을 잃었다.", "_t")
 t("Forced Gestalt", "강제된 게슈탈트", "_t")
+t("All powers reduced by %d.", "증기력, 정신력, 주문력, 물리력 -%d.", "tformat")
 t("gestalt", "게슈탈트", "effect subtype")
+t("#Target# is drained of all powers.", "#Target2# 모든 힘을 흡수당한다.", "_t")
+t("#Target# is more powerful.", "#Target2# 빼앗긴 힘을 되찾았다.", "_t")
+t("Mind Drone", "정신 드론", "_t")
+t("Talents fail chance %d%%, fear and sleep immunity reduced by %d%%.", "기술 실패 확률 %d%% / 공포와 수면 면역력 -%d%%.", "tformat")
+t("disrupt", "방해", "effect subtype")
 t("steam", "증기", "effect subtype")
+t("A mind drone bores into #Target#!", "드론이 #Target#의 두개골에 침투했다!", "_t")
+t("#Target# is free from the mind drone.", "#Target3# 괴롭히던 드론이 사라졌다.", "_t")
 t("Negative Biofeedback", "부정적인 생체 반작용", "_t")
+t("Physical save reduced by %d, armour and defense by %d.", "물리 내성 -%d / 방어력과 회피도 -%d.", "tformat")
+t("biologic", "생물학", "effect subtype")
 t("physical", "물리", "effect subtype")
+t("save", "내성", "effect subtype")
+t("Unclear Thoughts", "혼탁한 정신", "_t")
+t("Can not discern foes from friends.", "피아 식별 불가.", "tformat")
 t("confusion", "혼란", "effect subtype")
+t("#Target# wakes up from the nightmare very confused!", "#Target2# 악몽에서 막 깨어나 매우 혼란스러운 상태다!", "_t")
 t("#Target# is less afraid.", "#Target2# 공포를 이겨낸 것처럼 보인다.", "_t")
 t("Psy Worm", "초능력 기생충", "_t")
+t("Infected by a psionic worm, doing %0.2f mind damage per turn. Damage doubled on stunned or feared foes, can spread to nearby creatures.", "초능력 기생충에 감염됨 : 매 턴 %0.2f 정신 피해 받음 / 기절이나 공포에 걸려있을 경우, 피해량은 2 배가 됨 / 이 효과는 근처의 적에게 전염될 수 있음.", "tformat")
+t("#Target# is infected by a psy worm!", "#Target2# 초능력 기생충에 감염됐다!", "_t")
+t("#Target# is free from the psy worm.", "#Target2# 초능력 기생충으로부터 벗어났다.", "_t")
 t("No Hope", "스러지는 희망", "_t")
+t("All damage reduced by 40%%.", "가하는 모든 피해가 40%% 감소함.", "tformat")
 t("fear", "공포", "effect subtype")
+t("#Target# loses all hope of winning!", "#Target2# 승리할 것이라는 모든 희망을 잃었다!", "_t")
+t("#Target# is once more confident.", "#Target1# 다시 자신감을 되찾았다.", "_t")
+t("All Seeing", "천리안", "_t")
+t("Can see all other beings around them.", "주변의 모든 존재를 볼 수 있음.", "tformat")
+t("#Target# sees all!", "#Target2# 천리안을 개방했다!", "_t")
+t("#Target# loses their telepathy.", "#Target#의 천리안 효과가 사라졌다.", "_t")
 t("Curse of Amakthel", "아마크텔의 저주", "_t")
+t("All new negative effects on you will have their duration doubled.", "새로 받는, 모든 부정적인 효과의 지속시간이 2 배가 됨.", "tformat")
 t("curse", "저주", "effect subtype")
 t("psionic", "초능력", "effect subtype")
+t("#Target# is cursed!", "#Target2# 저주받았다!", "_t")
 t("#Target# is no longer cursed.", "#Target#의 저주의 효력은 끝이났다.", "_t")
 
 
@@ -3147,107 +3287,383 @@ t("#Target# is no longer cursed.", "#Target#의 저주의 효력은 끝이났다
 section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
 
 t("Celestial Acceleration", "천상의 가속", "_t")
+t("Your movement speed is increased by %d%%.", "이동 속도 +%d%%.", "tformat")
+t("Your casting speed is increased by %d%%.", "시전 속도 +%d%%.", "tformat")
+t("Your attack speed is increased by %d%%.", "공격 속도 +%d%%.", "tformat")
+t("Your mind speed is increased by %d%%.", "사고 속도 +%d%%.", "tformat")
+t("Your global speed is increased by %d%%.", "전체 속도 +%d%%.", "tformat")
 t("speed", "속도", "effect subtype")
+t("Outside the Starscape", "우주의 바깥", "_t")
+t("This unit is outside of the starscape and cannot be harmed from within it,", "우주의 바깥에 있음 / 우주의 그 어떤 영향도 받지 않음", "_t")
 t("spacetime", "시공", "effect subtype")
-t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "%d%% 확률로 기술 사용 실패.", "tformat")
+t("Mindblasted", "정신 폭발", "_t")
+t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "혼란스러움 : %d%% 확률로 무작위한 행동을 함 / 복잡한 행동 불가.", "tformat")
 t("confusion", "혼란", "effect subtype")
 t("#Target# wanders around!", "#Target1# 주위를 서성인다!", "_t")
 t("+Confused", "+혼란", "_t")
 t("#Target# seems more focused.", "#Target#의 혼란이 끝났다.", "_t")
 t("-Confused", "-혼란", "_t")
+t("Shield of the Sun", "태양의 방패", "_t")
+t("The power of the Sun itself shields the target.", "태양의 힘 그 자체가 대상을 보호함.", "_t")
+t("A Light in the Darkness", "어둠 속의 빛", "_t")
+t("The power of the Sun imbues the target.", "태양의 힘이 대상을 강화함.", "_t")
 t("sun", "태양", "effect subtype")
-t("other", "다른", "effect subtype")
+t("X-Ray Vision", "X선 시야", "_t")
+t("Can see EVERYTHING.", "모든 것을 볼 수 있음.", "_t")
+t("Aiming!", "조준 중!", "_t")
+t("Aiming a powerful beam. MOVE OUT!", "강력한 광선을 조준 중. 움직여라!", "_t")
+t("other", "기타", "effect subtype")
+t("#PURPLE#NEKTOSH AIMS A POWERFUL BEAM! #{bold}#MOVE!!#{normal}#", "#PURPLE#네크토쉬가 강력한 빔을 조준 중입니다! #{bold}#피하십시오!!#{normal}#", "saySimple")
+t("%s blinks away and summons some help!", "%s 순간이동 한 후, 도움을 요청했다!", "logSeen", nil, {"는"})
 t("Capacitor Discharge", "축전기 방전", "_t")
+t("Storing damage to unleash as a powerful lightning bolt (%d/%d).", "피해를 모아, 강력한 번개 화살로 해방함 (%d/%d).", "tformat")
 t("Upgrade", "업그레이드", "_t")
+t("This turret has been greatly enhanced.", "이 포탑의 성능은 비약적으로 강화됨.", "tformat")
 t("tactical", "전술", "effect subtype")
+t("Guardian Shield", "수호자 방패", "_t")
+t("%d%% of all incoming damage is redirected to the adjacent Guardian Turret.", "피격 시 받는 피해의 %d%% 가 인접한 수호 포탑에게 전송됨.", "tformat")
 t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d 피해분담)#LAST#", "tformat")
+t("Countdown", "초읽기", "_t")
+t("At the end of this effect, your missile will explode!", "이 효과가 끝나면, 당신의 미사일이 폭발합니다!", "tformat")
+t("Automatically firing a missile barrage against a target for %d%% increased damage.", "자동으로 대상에게 %d%% 증가된 피해량의 미사일 일제 사격을 가합니다.", "tformat")
+t("Locked On", "락 온", "_t")
+t("The target has been marked by a rocket pod, reducing defence by %d and negating all evasion effects.", "추적 미사일의 목표가 됨 : 회피도 -%d / 피해 무효화 효과가 사라짐.", "tformat")
+t("#Target# has been marked by a rocket pod!", "#Target2# 로켓 발사관의 표적이 되었다!", "_t")
+t("+Locked On", "+락 온", "_t")
+t("#Target# is no longer being marked by a rocket pod.", "#Target2# 더 이상 로켓 발사관의 표적이 아니다.", "_t")
+t("-Locked On", "-락 온", "_t")
+t("Mecharachnid out of sight", "시야 밖 강철 거미", "_t")
+t("The Mecharachnid is out of sight of the annihilator; direct control will be lost!", "강철 거미가 섬멸자의 시야 밖에 있음 : 직접 조종이 불가능해진다!", "_t")
 t("miscellaneous", "기타", "effect subtype")
 t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target1# 주인의 시야를 벗어났다. 직접 조종이 깨져버렸다!", "_t")
 t("+Out of sight", "+시야 밖", "_t")
+t("#LIGHT_RED#You lost sight of your mecharachnid for too long; direct control is broken!", "#LIGHT_RED#강철 거미가 당신의 시야에서 너무 오랫동안 벗어나 있다. 직접 조종이 불가능해진다!", "logPlayer")
+t("mecharachnid out of sight", "시야 밖 강철 거미", "_t")
+t("Piloted", "탑승됨", "_t")
+t("Currently piloted.", "현재 탑승됨.", "tformat")
+t("#GREEN#%s takes direct control of their mecharachnid!", "#GREEN#%s 강철 거미에 탑승해, 직접 조종한다!", "logSeen", nil, {"는"})
+t("Direct Control", "직접 조종", "_t")
+t("Direct control by the pilot increases damage by %d%% and resistances by %d%%.", "조종사에 의해 직접 조종됨 : 피해량 +%d%% / 저항 +%d%%.", "tformat")
+t("Heavy Ammunition", "중화기 탄약", "_t")
+t("%d Ammo", "%d 발", "tformat")
+t("Has %d heavy ammunition loaded. Current heavy weapon will be unequiped when no ammunitions are left.", "%d 발의 중화기 탄약이 장착됨 / 중화기 탄약을 모두 사용할 경우, 중화기가 장착 해제됨.", "tformat")
 t("Stormstrike", "전격", "_t")
+t("The target has been staggered, reducing all damage dealt by %d%%.", "충격을 받음 : 가하는 피해량 -%d%%.", "tformat")
+t("Catalyst", "촉매", "_t")
+t("The target has been injected with chemicals, reducing all saves by %d.", "화학 물질이 주입됨 : 모든 내성 -%d.", "tformat")
 t("acid", "산성", "effect subtype")
 t("Automated Repair System", "자동 수리 시스템", "_t")
+t("Engaged in automated repairs, preventing any action but increasing life regen by %d, all resistances by %d%% and preventing death until falling below -%d life.", "자동 수리 상태에 돌입함 : 행동 불가 / 내구도 재생 +%d / 모든 저항 +%d%% 내구도가 -%d 에 도달할 때 까지 파괴되지 않음.", "tformat")
 t("healing", "회복", "effect subtype")
+t("#Target# shuts down and engages its automated repair system.", "#Target2# 작동을 멈추고 자동 수리 시스템을 가동한다.", "_t")
+t("+Automated Repair System", "+자동 수리 시스템", "_t")
+t("#Target#'s repairs are complete.", "#Target#의 수리가 완료되었다.", "_t")
+t("-Automated Repair System", "-자동 수리 시스템", "_t")
+t("Demagnetized", "자성을 잃음", "_t")
+t("Beneficial effects of Magnetic Field lost.", "자기장의 이로운 효과를 잃음", "tformat")
 t("lightning", "전기", "effect subtype")
 t("steamtech", "증기 공학", "effect subtype")
+t("Galvanic Rods", "전열 막대", "_t")
+t([[Rods available:
+]], [[사용 가능한 막대:
+]], "_t")
+t([[#LIGHT_GREEN#- Rod (%d): available
+]], [[#LIGHT_GREEN#- Rod (%d): 사용 가능
+]], "tformat")
+t([[#LIGHT_RED#- Rod (%d): %d turns
+]], [[#LIGHT_RED#- Rod (%d): %d 턴
+]], "tformat")
 t("spell", "주문", "effect subtype")
+t("technomancy", "마도공학", "effect subtype")
+t("Incoming Disasters", "다가오는 재앙", "_t")
+t("Vulnerable to more cross tier effects.", "세 가지 압도 효과가 한꺼번애 적용됨.", "tformat")
 t("cunning", "교활", "effect subtype")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/timed_effects/physical.lua"
 
+t("Strafing", "이동 사격", "_t")
+t("The target is moving while shooting, and will reload %sammo when finished strafing.", "사격하며 이동할 수 있음 / 이동 사격이 끝나면 %s 발의 탄환을 장전함.", "tformat")
+t("%s reloads.", "%s 재장전.", "logSeen")
+t("Startled", "소극적", "_t")
+t("The target is startled after being strangely missed by a shot. The next shot it takes will deal %d%% more damage.", "총알이 바로 옆을 스치자 소극적으로 전투에 나섬 : 시전자가 가하는 다음 사격이 %d%% 향상된 피해량을 냄.", "tformat")
 t("technique", "전투 기술", "effect subtype")
 t("Iron Grip", "무쇠 손아귀", "_t")
+t("The target has been crushed, pinning it and reducing defense and armour by %d.", "피스톤에 으스러짐 : 속박 / 회피도, 방어력 -%d.", "tformat")
+t("#Target# is crushed by the iron grip.", "#Target2# 무쇠 손아귀에 으스러진다.", "_t")
+t("+Iron Grip", "+무쇠 손아귀", "_t")
+t("#Target# is free from the iron grip.", "#Target1# 무쇠 손아귀를 벗어났다.", "_t")
+t("-Iron Grip", "-무쇠 손아귀", "_t")
+t("Bullet Mastery: Overheated", "탄환 숙련 : 과열탄", "_t")
+t("Bullets shot are overheated:  When striking their target, they set it on fire for %d fire damage over 5 turns", "탄환이 과열됨 : 피격 당한 적에게 불을 붙여 5 턴 동안 %d 화염 피해 가함", "tformat")
+t("Bullet Mastery: Supercharged", "탄환 숙련 : 과충전탄", "_t")
+t("Bullets shot are supercharged:  They can pass through multiple targets and have %d additional armour penetration.", "탄환이 과충전됨 : 다수의 대상 관통 /방어력 관통 +%d", "tformat")
+t("Bullet Mastery: Percussive", "탄환 숙련 : 타격탄", "_t")
+t("Bullets shot are percussive:  When striking, they have a %d%% chance to knock back and a %d%% chance to stun.", "뭉뚝한 탄환을 발사 : 피격 당한 적을 %d%% 확률로 밀치고, %d%% 확률로 기절시킴.", "tformat")
+t("Bullet Mastery: Combustive", "탄환 숙련 : 폭발탄", "_t")
+t("Bullets shot are combustive:  When striking their target, they explode (radius 2) for %d fire damage.", "탄환이 폭발함 : 피격 당한 적에게 반경 2 칸의 폭발이 일어나 %d 화염 피해를 가함.", "tformat")
+t("#Target# tweaks some of %s bullets.", "#Target2# %s 탄환을 강화한다.", "tformat")
+t("+Bullet Mastery", "+탄환 숙련", "_t")
 t("Uncanny Reload", "초자연적인 재장전", "_t")
+t("Firing steamguns does not consume shots.", "총기 사용 시, 탄환을 소모하지 않음.", "tformat")
+t("#Target# is focuses on firing.", "#Target2# 사격에 집중한다.", "_t")
+t("+Uncanny Reload", "+초자연적인 재장전", "_t")
 t("#Target# is less focused.", "#Target#의 집중이 끝났다.", "_t")
+t("-Uncanny Reload", "-초자연적인 재장전", "_t")
 t("Cloak", "망토", "_t")
+t("The target is wrapped in a cloak of shadow, granting sealth.", "그림자의 망토에 감싸여있음,  은신력 상승.", "_t")
+t("#Target# disappears from sight.", "#Target1# 시야에서 사라진다.", "_t")
+t("+Cloak", "+망토", "_t")
+t("#Target# re-appears.", "#Target2# 다시 나타났다.", "_t")
+t("-Cloak", "-망토", "_t")
+t("Pain Suppressor Salve", "진통 연고", "_t")
+t("Fight to the brink of death, can not die before going under -%d life (but life under 0 is not shown) and increases all resistances by %d%%.", "죽음 직전까지 싸움 : 생명력이 -%d 에 도달할 때 까지 죽지 않음 / 모든 저항 +%d%%. (0 이하의 생명력은 보여지지 않음)", "tformat")
 t("nature", "자연", "effect subtype")
+t("#Target# uses a pain suppressor salve.", "#Target2# 진통 연고를 사용한다.", "_t")
+t("+Pain Suppressor", "+진통 연고", "_t")
+t("-Pain Suppressor", "-진통 연고", "_t")
+t("Frost Salve", "서리 연고", "_t")
+t("Provides a frost aura, giving you +%d%% cold, nature and darkness affinity.", "서리의 기운에 둘러싸임 : 냉기, 자연, 암흑 속성 친화 +%d%%.", "tformat")
 t("frost", "서리", "effect subtype")
+t("#Target# uses a frost salve.", "#Target2# 서리 연고를 사용한다.", "_t")
+t("+Frost Salve", "+서리 연고", "_t")
+t("-Frost Salve", "-서리 연고", "_t")
+t("Fiery Salve", "불꽃 연고", "_t")
+t("Provides a frost aura, giving you +%d%% fire, light, and lightning affinity.", "불꽃의 기운에 둘러싸임 : 화염, 빛, 전기 속성 친화 +%d%%.", "tformat")
+t("#Target# uses a fiery salve.", "#Target2# 불꽃 연고를 사용한다.", "_t")
+t("+Fiery Salve", "+불꽃 연고", "_t")
+t("-Fiery Salve", "-불꽃 연고", "_t")
+t("Water Salve", "물방울 연고", "_t")
+t("Provides a frost aura, giving you +%d%% blight, mind and acid affinity.", "물의 기운에 둘러싸임 : 황폐, 정신, 산성 속성 친화 +%d%%.", "tformat")
 t("water", "물", "effect subtype")
+t("#Target# uses a water salve.", "#Target2# 물방울 연고를 사용한다.", "_t")
+t("+Water Salve", "+물방울 연고", "_t")
+t("-Water Salve", "-물방울 연고", "_t")
+t("Unstoppable Force Salve", "멈출 수 없는 힘 연고", "_t")
+t("Increases all saves by %d and healing factor by %d%%.", "모든 저항 +%d / 회복 효율 +%d%%.", "tformat")
+t("#Target# uses an unstoppable force salve.", "#Target2# 멈출 수 없는 힘 연고를 사용했다.", "_t")
+t("+Unstoppable Force", "+멈출 수 없는 힘", "_t")
+t("#Target# is not affected anymore by the salve.", "#Target#의 연고 효과가 끝났다.", "_t")
+t("-Unstoppable Force", "-멈출 수 없는 힘", "_t")
+t("Slow Talents", "느린 기술", "_t")
+t("Attacking, casting and mind speed have been reduced by %d%%.", "공격, 시전, 사고 속도 -%d%%.", "tformat")
 t("slow", "감속", "effect subtype")
 t("Supercharge Tinkers", "발명품 폭주", "_t")
+t("Increases steampower by %d and steam crit by %d%%.", "증기력 +%d / 증기 치명타 확률 +%d%%.", "tformat")
+t("#Target# supercharges all tinkers.", "#Target2# 모든 발명품을 폭주시켰다.", "_t")
+t("+Supercharge Tinkers", "+발명품 폭주", "_t")
+t("#Target#'s supercharge is fading.", "#Target#의 폭주가 끝났다.", "_t")
+t("-Supercharge Tinkers", "-발명품 폭주", "_t")
 t("Overcharge Saws", "과충전 톱니", "_t")
+t("Increases all saws talent levels by %d%%.", "모든 톱 계열 기술 레벨 +%d%%.", "tformat")
+t("tech", "공학", "effect subtype")
+t("#Target# overcharges saw motors.", "#Target2# 톱의 동력 기관을 과충전한다.", "_t")
+t("+Overcharge Saws", "+과충전 톱니", "_t")
+t("#Target#'s saw motors are back to normal.", "#Target#의 톱은 원래대로 돌아왔다.", "_t")
+t("-Overcharge Saws", "-과충전 톱니", "_t")
 t("Algid Rage", "차가운 분노", "_t")
+t("You have %d%% chances to encase your foes in iceblocks.", "%d%% 확률로 적을 얼음 안에 가둬버릴 수 있음.", "tformat")
 t("ice", "얼음", "effect subtype")
+t("Larvae Infestation", "유충 감염", "_t")
+t("The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.", "릿치 애벌레 %d 체가 신체 내에 심어짐 : 유충은 숙주를 파먹고 성장함%s.  %d 턴 후, 잉태 기간이 끝나면, 모든 애벌레가 격렬하게 터저나와, 숙주에게 %0.2f 물리 피해와 %0.2f 화염 피해를 가함.", "tformat")
+t(" for %0.2f physical damage (increasing) each turn", " 매 턴 %0.2f 물리 피해 받음 (점점 증가함)", "tformat")
 t("disease", "질병", "effect subtype")
+t("#Target# is #ORANGE#INFESTED#LAST# with ritch larvae!", "#Target2# 리치 애벌레에 #ORANGE#감염#LAST#됐다!", "_t")
+t("+Larvae Infestation", "+유충 감염", "_t")
+t("developing ", "성장 중 ", "_t")
+t(" but is crushed", " 그러나 으깨짐", "_t")
+t("A %s #ORANGE#BURSTS OUT#LAST# of %s%s!", "%s 부화해 %s의 몸에서 #ORANGE#터저나온다!#LAST# %s!", "logSeen", nil, {"가"})
 t("Tech Overload", "기술 폭주", "_t")
-t("Continuous Butchery", "끝나지않는 도살", "_t")
+t("Doubles your maximum steam and stops steam regeneration.", "최대 증기량이 2 배가 되지만 증기 재생이 멈춥니다.", "tformat")
+t("Continuous Butchery", "끝나지 않는 도살", "_t")
+t("Increases steamsaw damage multiplier by %d%%.", "톱이 가하는 피해량 +%d%%.", "tformat")
 t("Explosive Saw", "폭발하는 톱날", "_t")
+t(" and silences it", " / 침묵", "_t")
+t("Target is being assailed by an automated saw blade that cuts its flesh for %0.2f physical damage each turn%s. When the effect expires, the saw will explode for %0.2f fire damage and fly back to its source, pulling the target with it (up to %d tiles).", "타겟이 자동 톱날의 공격에 당함 : 매 턴 %0.2f 물리 피해 받음%s / 이 효과가 끝나면, 톱날이 폭발해 %0.2f 화염 피해를 입고, 톱날은 시전자에게 돌아감 / 이 때 대상은 시전자에게 최대 %d 칸 끌려감.", "tformat")
+t("sil", "침묵", "_t")
+t("#Target# is assailed by an automated saw blade.", "#Target2# 자동 톱날 공격에 당했다.", "_t")
+t("+Explosive Wounds", "+폭발하는 상처", "_t")
+t("-Explosive Wounds", "-폭발하는 상처", "_t")
+t("The saw embedded in #Target# flies back its source.", "#Target#에게 박힌 톱날이 주인에게 돌아간다.", "_t")
+t("The saw drags #Source# towards #Target#!", "톱날은 #Target3# #Source# 쪽으로 끌어버린다!", "logCombat")
 t("Subcutaneous Metallisation", "피하 도금", "_t")
+t("All damage reduced by %d.", "피격 시 받는 피해 -%d.", "tformat")
+t("#Target# internal structure metallises.", "#Target#의 내부 장기가 도금된다.", "_t")
+t("+Subcutaneous Metallisation", "+피하 도금", "_t")
+t("#Target# internal structure returns to normal.", "#Target#의 도금된 내부 장기가 원래대로 돌아간다.", "_t")
+t("-Subcutaneous Metallisation", "-피하 도금", "_t")
 t("Pain Enhancement System", "고통 향상 시스템", "_t")
+t("All stats increased by %d.", "모든 능력치 +%d.", "tformat")
 t("power", "힘", "effect subtype")
+t("#Target# revels in the pain.", "#Target2# 고통에 고무된다.", "_t")
+t("+Pain Enhancement System", "+고통 향상 시스템", "_t")
+t("#Target# no longer feels strong.", "#Target2# 더 이상 강해짐을 느끼지 않는다.", "_t")
+t("-Pain Enhancement System", "-고통 향상 시스템", "_t")
 t("Net Projector", "그물 발사기", "_t")
+t("The target has been pinned by an electrified net, reducing all resistances by %d%%.", "전류가 흐르는 그물에 의해 속박됨 : 모든 저항 -%d%%.", "tformat")
+t("#Target# is trapped by the net.", "#Target2# 그물에 갇혔다.", "_t")
+t("+Net Projector", "+그물 발사기", "_t")
+t("#Target# is free from the net.", "#Target1# 그물에서 벗어났다.", "_t")
+t("-Net Projector", "-그물 발사기", "_t")
+t("Molten Point", "용해 점수", "_t")
+t("You have %d charges.", "용해 점수 %d 점.", "tformat")
+t("Pressure-enhanced Slashproof Combat Suit", "압력 강화식 방검 전투 슈트", "_t")
 t("Molten Iron Blood", "철혈", "_t")
+t("All resistances increased by %d%%, all new detrimental effects reduced by %d%%, %0.2f fire splash damage.", "모든 저항 +%d%% / 새로 받는 부정적인 효과 지속시간 -%d%% / %0.2f 화염 보복 피해.", "tformat")
+t("#Target#'s blood turn into molten iron.", "#Target#의 피가 용해된 강철로 변한다.", "_t")
+t("#Target# no longer has molten iron blood.", "#Target2# 더 이상 철혈이 아니다.", "_t")
+t("Seared", "증기에 데임", "_t")
+t("Fire resistance decreased by %d%% and mind save by %d.", "화염 저항 -%d%% / 정신 내성 -%d.", "tformat")
 t("psionic", "초능력", "effect subtype")
+t("#Target# is seared.", "#Target2# 증기에 데였다.", "_t")
+t("#Target# is no longer seared.", "#Target#의 데인 상처가 나았다.", "_t")
 t("Awesome Toss", "화려한 던지기", "_t")
+t("All resistances increased by %d%%, randomly attacks two foes each turn at random.", "모든 저항 +%d%% / 매 턴 무작위한 적 2 명 사격.", "tformat")
+t("awesome", "화려함", "effect subtype")
 t("resistance", "저항", "effect subtype")
+t("#Target# tosses steamguns in the air, awesome!", "#Target2# 총기를 공중에 던졌다! 멋있다!", "_t")
+t("#Target# somehow catches the falling steamguns.", "#Target1# 떨어지는 총기를 다시 잡았다.", "_t")
 t("Marked for Death", "죽음의 표식", "_t")
+t("Ranged defense reduced by %d, takes %d%% extra damage from all sources.", "원거리 방어력 -%d / 피격 시 받는 피해량 +%d%%.", "tformat")
 t("steam", "증기", "effect subtype")
+t("#Target# is marked!", "#Target#에게 죽음의 표식이 찍혔다!", "_t")
+t("+Marked for Death", "+죽음의 표식", "_t")
 t("Itching Powder", "가려움 가루", "_t")
+t("The target is very itchy, causing their actions to fail.", "몸이 매우 간지러움 : 행동이 실패함.", "tformat")
+t("powder", "가루", "effect subtype")
+t("#Target# is very itching!", "#Target2# 가려워서 미치려고한다!", "_t")
+t("+Itching Powder", "+가려움 가루", "_t")
 t("#Target# regains their concentration.", "#Target1# 다시 집중을 되찾았다.", "_t")
+t("-Itching Powder", "-가려움 가루", "_t")
+t("Smoke Cover", "연기 은폐", "_t")
+t("%d%% chance to fully absorb any damaging actions, %d stealth value.", "%d%% 확률로 받는 피해 무효화 / 은신력 +%d.", "tformat")
+t("#Target# is hiding in smoke.", "#Target2# 연기에 몸을 숨겼다.", "_t")
+t("+Smoke Cover", "+연기 은폐", "_t")
+t("#Target# is no longer hiding in smoke.", "#Target3# 덮고있던 연기가 사라졌다.", "_t")
+t("-Smoke Cover", "-연기 은폐", "_t")
+t("Magnetised", "자력을 띔", "_t")
+t("The target has been magnetised, reducing defense by %d and increasing fatigue by %d.", "자력을 띄게됨 : 회피도 -%d / 피로도 +%d.", "tformat")
+t("#Target# is magnetised.", "#Target2#자성을 띈다.", "_t")
+t("+Magnetised", "+자력을 띔", "_t")
+t("#Target# is free from the magnetism.", "#Target2# 자기장에서 벗어났다.", "_t")
+t("-Magnetised", "-자력을 띔", "_t")
 t("Bloodstar", "피의 별", "_t")
+t("Continuously drain blood, dealing %0.2f physical damage per turn and healing the caster for half of it.", "지속적으로 피가 흡수됨 : 매 턴 %0.2f 물리 피해 받음 / 해당 피해의 절반만큼 시전자를 회복함.", "tformat")
 t("blood", "혈액", "effect subtype")
+t("drain", "흡수", "effect subtype")
 t("heal", "회복", "effect subtype")
+t("#Target# is caught in the bloodstar.", "#Target2# 피의 별에 갇혔다.", "_t")
+t("#Target# is free from the bloodstar.", "#Target2# 피의 별에서 벗어났다.", "_t")
+t("Heartrended", "심장이 찢어짐", "_t")
+t("Vicious cut that bleeds, doing %0.2f physical damage per turn.", "악랄한 자상을 입음 : %0.2f 물리 피해를 매 턴 받음.", "tformat")
 t("bleed", "출혈", "effect subtype")
 t("cut", "상처", "effect subtype")
 t("wound", "상처", "effect subtype")
+t("Metal Poisoning", "중금속 중독", "_t")
+t("The target is poisoned with heavy metals, taking %0.2f blight damage per turn and decreasing their global speed by %d%%.", "중금속으로 인해 중독됨 : 매 턴 %0.2f 황폐 피해 입음 / 전체 속도 -%d%%.", "tformat")
 t("blight", "황폐", "effect subtype")
 t("poison", "독", "effect subtype")
 t("#Target# is poisoned!", "#Target2# 중독됐다!", "_t")
+t("+Metal Poisoning", "+중금속 중독", "_t")
 t("#Target# is no longer poisoned.", "#Target2# 더 이상 중독 상태가 아니다.", "_t")
+t("-Metal Poisoning", "-중금속 중독", "_t")
 t("Moss Tread", "이끼 장화", "_t")
+t("You lay moss where you walk.", "걸을 때 마다, 이끼가 자리잡습니다.", "tformat")
 t("moss", "이끼", "effect subtype")
+t("+Moss", "+이끼", "_t")
+t("-Moss", "-이끼", "_t")
+t("Stimulus", "자극제", "_t")
+t("Resisting pain, reducing all incoming damage by %0.2f. When the effect ends, take %d un-resistable damage.", "고통에 저항함 : 받는 피해 - %0.2f / 효과가 끝나면 저항 불가능한 %d 피해를 받음.", "tformat")
 t("#Target# starts to bleed.", "#Target1# 피를 흘리기 시작한다.", "_t")
 t("+Bleeds", "+출혈", "_t")
 t("#Target# stops bleeding.", "#Target#의 피가 멎었다.", "_t")
 t("-Bleeds", "-출혈", "_t")
 t("To The Arms", "사지 손상", "_t")
-t("maimed", "고통받아", "effect subtype")
+t("Damage reduced by %d%%.", "가하는 피해량 -%d%%.", "tformat")
+t("maimed", "불구", "effect subtype")
+t("#Target# is suffering and fails to concentrate on dealing damage.", "#Target2# 고통으로 인해 제대로된 공격을 가하지 못한다.", "_t")
+t("#Target# is suffering less.", "#Target#의 고통이 가셨다.", "_t")
+t("Acid Burn", "산성 화상", "_t")
 t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "매 턴 마다 산성 피해 %0.2f.", "tformat")
 t("#Target# is covered in acid!", "#Target2# 고통의 부식에 휩쌓였다!", "_t")
 t("#Target# is free from the acid.", "#Target2# 고통의 부식에서 벗어났다.", "_t")
+t("Static Shield", "정전기 보호막", "_t")
+t("The target is surrounded by a static shield, increasing all resistances by %d%% and causing attacks against them to trigger a shield attack for %d%% damage as lightning.", "정전기 보호막으로 보호받음 : 모든 저항 +%d%% / 피격 시, 공격자에게 %d%% 피해를 전기 속성으로 가함.", "tformat")
+t("+Static Shield", "+정전기 보호막", "_t")
+t("A static shield forms around #target#.", "#target#의 주위에 정전기 보호막이 형성되었다.", "_t")
+t("-Static Shield", "-정전기 보호막", "_t")
+t("The static shield around #target# crumbles.", "#target#의 정전기 보호막이 사라진다.", "_t")
 t("Lightning Web", "전기망", "_t")
+t("The target is surrounded by a crackling web of lightning, reducing all damage taken by %d.", "전기로 탁탁거리는 그물에 덮혀있음 : 피격시 받는 피해 -%d.", "tformat")
+t("#LIGHT_BLUE#(%d lightning web)#LAST#", "#LIGHT_BLUE#(%d 전기망)#LAST#", "tformat")
 t("Incendiary Grenade", "발화성 수류탄", "_t")
+t("The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "대상이 불타오름 : 매 턴 %d 화염 피해 받음 / 피격 시 받는 피해량 +%d%%.", "tformat")
+t("Healing Mist", "회복 안개", "_t")
+t("Newly applied status effects durations are reduced by %d%%.", "새로 적용되는 상태 효과의 지속시간 -%d%%.", "tformat")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했습니다!#LAST#", "logSeen", nil, {"가"})
-t("Overclock", "오버클록", "_t")
+t("Overclock", "오버클럭", "_t")
+t("The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "전하 보호막에 둘러싸여있음 : 흡수량 %d/%d / 효과가 유지되는 동안, 반경 7 칸 내의 무작위한 적에게 전기 화살을 날려 %0.2f 전기피해를 가함.", "tformat")
 t("lightning", "전기", "effect subtype")
 t("shield", "보호막", "effect subtype")
+t("#target# surges with power!", "#target2# 힘이 쇄도한다!", "_t")
+t("+Overclock", "+오버클럭", "_t")
+t("#target# looks less powerful.", "#target#의 힘이 빠저나간다.", "_t")
+t("-Overclock", "-오버클럭", "_t")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부셔졌다!", "logPlayer")
 t("Hypervision Goggles", "고성능 시야 보안경", "_t")
+t("Improves senses, allowing the detection of enemies in radius %d and increasing resistance penetration by %d%%.", "감각이 확장됨 : 반경 %d 칸 내의 적 감지 / 모든 저항 관통 +%d%%.", "tformat")
 t("sense", "감지", "effect subtype")
 t("AED", "자동 심장 충격기", "_t")
+t("If life is brought below 0, cancels the attack, heals for %d and deals %0.2f lightning damage in radius %d as well as dazing for 2 turns.", "생명력이 0 이하로 떨어질 시 : 이 효과를 발동시킨 공격을 무효화 / 생명력 %d 회복 / %0.2f 전기 피해를 반경 %d 칸에 가하고, 2 턴 동안 혼절시킴.", "tformat")
+t("#Target# prepares their AED!", "#Target2# 자동 심장 충격기를 준비한다!", "_t")
+t("+AED", "+심소생", "_t")
+t("#Target#'s AED deactivates.", "#Target#의 자동 심장 충격기가 비활성화 되었다.", "_t")
+t("-AED", "-심소생", "_t")
+t("%s's AED triggers!", "%s의 자동 심장 충격기가 발동했다!", "logSeen")
+t("Burning Phosphorous", "소이 화상", "_t")
+t("The target is covered in burning chemicals, taking %0.2f fire damage each turn. Subsequent shots deal %0.2f fire damage, and if they fall below 25%% life they have a %d%% chance to panic.", "불타는 화학 물질에 덮힘 : %0.2f 화염 피해를 매 턴 받음 / 후속 사격이 %0.2f 화염 피해를 입히고, 생명력이 25%% 이하로 떨어질 시, %d%% 확률로 공황에 빠짐.", "tformat")
+t("#F53CBE#%s resists the fear.", "#F53CBE#%s 공포에 저항했다.", "logSeen", nil, {"은"})
+t("#F53CBE#%s panics and flees from %s!", "#F53CBE#%s 공황에 빠져 %s에게서 도망친다!", "logSeen", nil, {"는"})
+t("#F53CBE#%s panics but fails to flee from %s!", "#F53CBE#%s 공황에 빠졌지만 %s에게서 도망치지는 않는다!", "logSeen", nil, {"는"})
+t("Scorched", "그을림", "_t")
+t("Fire resistance decreased by %d%%.", "화염 저항 -%d%%.", "tformat")
 t("fire", "화염", "effect subtype")
+t("#Target# is scorched.", "#Target2# 그을렸다.", "_t")
+t("#Target# is no longer scorched.", "#Target#의 그을린 상처가 치유되었다.", "_t")
 t("Pincer Strike", "집게발 타격", "_t")
+t("The target is grappled by %s, pinning them, reducing attack, spell and mind speed by %d%% and subjecting them to an automatic tailsaw strike each turn for %d%% damage.", "%s에게 붙잡힘 : 속박 / 공격, 주문, 사고 속도 -%d%% / 매 턴, 필중하는 꼬리톱 공격으로 %d%% 피해를 받음.", "tformat")
 t("grapple", "관절기", "effect subtype")
 t("pin", "속박", "effect subtype")
+t("%s clamps its pincers down on #Target#!", "%s의 집게발이 #Target#를 조인다!", "tformat")
+t("+Pincer Strike", "+집게발 타격", "_t")
+t("#Target# is free from %s's pincers.", "#Target2# %s의 집게발에서 벗어났다.", "tformat")
+t("-Pincer Strike", "-집게발 타격", "_t")
+t("#Source# #LIGHT_RED#strikes down at#LAST# #Target#!", "#Source1# #Target3# #LIGHT_RED#때려눕혔다#LAST# !", "logCombat")
 t("Reactive Armor", "반응 장갑", "_t")
+t("Next melee or ranged attack that deals more than 8%% of maximum life is reduced by %d%% and triggers a radius %d conal explosion dealing %d%% steamgun damage. %d stacks remaining.", "근접, 또는 원거리 공격으로 최대 생명력의 8%% 이상의 피해를 받을 때 : 해당 피해량이 %d%% 감소 / 반경 %d 칸의 원뿔 범위 폭발을 일으켜 범위 내의 적에게 %d%% 총기 피해 / 남은 중첩 %d.", "tformat")
+t("#LIGHT_BLUE#(%d reactive armor)#LAST#", "#LIGHT_BLUE#(%d 반응 장갑)#LAST#", "tformat")
+t("Grenade Barrage", "수류탄 세례", "_t")
+t("Attack speed increased by %d%%. Next %d shot(s) trigger a grenade.", "공격 속도 +%d%% / 다음 %d 번의 사격에 수류탄이 같이 발사됨.", "tformat")
+t("#Target# loads a magazine of grenades.", "#Target2# 수류탄 다발을 장전한다.", "_t")
+t("+Grenade Barrage", "+수류탄 세례", "_t")
+t("Miasma Adaptation", "독기 적응", "_t")
+t("Immune to miasma engine effects.", "독기 엔진 효과에 면역.", "_t")
 t("Miasma Engine", "독기 엔진", "_t")
+t("The target is surrounded by a toxic cloud or radius %d. Enemies within will suffer %d%% talent failure, %d%% reduced healing, and take %0.2f additional acid damage from melee and ranged attacks.", "반경 %d 칸의 독기 구름에 덮여있음 : %d%% 확률로 기술 시전에 실패 / 회복 효율 -%d%% / 근접, 원거리 공격에 %0.2f 산성 피해를 추가로 받음.", "tformat")
 t("Smogscreen", "매연 연막", "_t")
-t("%d%% chance to fully absorb any damaging actions.", "%d%% 확률로 모든 피해 흡수.", "tformat")
+t("%d%% chance to fully absorb any damaging actions.", "%d%% 확률로 모든 피해 완전 무효화.", "tformat")
 t("Miasma", "독기", "_t")
-t("Death From Above", "위에서 내려오는 죽음", "_t")
+t("Affected by toxic chemicals. Has %d%% talent failure, %d%% reduced healing, and takes %0.2f additional acid damage from melee and ranged attacks.", "유독성 화학 물질로 고통받음 : %d%% 확률로 기술 시전 실패 / 회복 효율 -%d%% / 근접, 원거리 공격에 %0.2f 산성 피해를 추가로 받음.", "tformat")
+t("Death From Above", "하늘에서 내려오는 죽음", "_t")
+t("Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "공중에 떠다님 : 피격 시, %d%% 확률로 피해 무효화 / 이동 속도 +%d%% / 매 턴 강력한 로켓 일제 사격을 가함.", "tformat")
+t("#Target# takes flight!", "#Target2# 공중으로 날아오른다!", "_t")
+t("+Death From Above", "+하늘에서 내려오는 죽음", "_t")
+t("#Target# lands.", "#Target2# 착륙한다.", "_t")
+t("-Death From Above", "-하늘에서 내려오는 죽음", "_t")
+t("Corrosive Flechette", "부식성 주사기", "_t")
+t("%d corrosive flechettes are embedded in the target. Each melee and ranged attack against them will cause a flechette to burst for %0.2f acid damage", "부식성 주사기 %d 개가 몸에 박혀있음 / 대상에게 가해지는 근접, 원거리 공격은 주사기를 깨지게 해 %0.2f 피해를 가함", "tformat")
 t("acid", "산성", "effect subtype")
 t("steamtech", "증기 공학", "effect subtype")
 
@@ -3255,12 +3671,18 @@ t("steamtech", "증기 공학", "effect subtype")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers.lua"
 
+t("smith", "야금학", "_t")
+t("mechanical", "기계학", "_t")
+t("electricity", "전기학", "_t")
+t("therapeutics", "치료학", "_t")
 t("chemistry", "화학", "_t")
+t("explosives", "폭파학", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua"
 
+t("Winterchill Edge", "겨울 냉기 칼날", "_t")
 t("Flash Powder", "섬광 가루", "_t")
 t("Itching Powder", "가려움 가루", "_t")
 t("fire opal", "화염 오팔", "_t")
@@ -3337,6 +3759,11 @@ t("bloodstone", "혈석", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
 
+t("Pain Suppressor Salve", "진통 연고", "_t")
+t("Frost Salve", "서리 연고", "_t")
+t("Fiery Salve", "불꽃 연고", "_t")
+t("Water Salve", "물방울 연고", "_t")
+t("Unstoppable Force Salve", "멈출 수 없는 힘 연고", "_t")
 t("Life Support Suit", "생명 유지복", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
@@ -3420,6 +3847,7 @@ t("High Sun Paladin Aeryn", "고위 태양의 기사 아에린", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "빛나는 판금 갑옷을 입은 아름다운 여인입니다. 그녀에게서 강렬한 힘이 뿜어져 나옵니다.", "_t")
 t("halfling", "하플링", "entity subtype")
 t("shalore", "샬로레", "entity subtype")
+t("immovable", "부동생물", "entity type")
 t("orb", "구체", "entity subtype")
 t("elf", "엘프", "entity subtype")
 t("Limmir the Jeweler", "보석 세공사 리미르", "entity name")
@@ -3493,6 +3921,7 @@ section "game/dlcs/tome-orcs/data/zones/internment-camp/npcs.lua"
 t("halfling", "하플링", "entity subtype")
 t("humanoid", "인간형", "entity type")
 t(".", "없습니다.", "_t")
+t("immovable", "부동생물", "entity type")
 
 
 ------------------------------------------------
@@ -3519,6 +3948,7 @@ section "game/dlcs/tome-orcs/data/zones/kaltor-shop/npcs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/kaltor-shop/objects.lua"
 
+t("Pressure-enhanced Slashproof Combat Suit", "압력 강화식 방검 전투 슈트", "entity name")
 
 
 ------------------------------------------------
@@ -3537,6 +3967,7 @@ t("water", "물", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/krimbul/npcs.lua"
 
+t("Nektosh the One-Horned", "한 뿔 네크토쉬", "entity name")
 
 
 ------------------------------------------------
@@ -3587,6 +4018,7 @@ section "game/dlcs/tome-orcs/data/zones/palace-fumes/npcs.lua"
 t("giant", "거인", "entity type")
 t("steam", "증기", "entity subtype")
 t("construct", "구조체", "entity type")
+t("mechanical", "기계학", "entity subtype")
 
 
 ------------------------------------------------
@@ -3681,6 +4113,7 @@ t("Mirror of Reflection", "반영의 거울", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/shertul-cave/objects.lua"
 
+t("Pressure-enhanced Slashproof Combat Suit", "압력 강화식 방검 전투 슈트", "entity name")
 
 
 ------------------------------------------------
@@ -3785,6 +4218,7 @@ section "game/dlcs/tome-orcs/data/zones/tinker-master/grids.lua"
 section "game/dlcs/tome-orcs/data/zones/tinker-master/npcs.lua"
 
 t("construct", "구조체", "entity type")
+t("mechanical", "기계학", "entity subtype")
 
 
 ------------------------------------------------
@@ -3990,6 +4424,7 @@ t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
 t("steamtech", "증기 공학", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Name", "이름", "_t")
+t("No thanks.", "사양하지.", "_t")
 
 
 ------------------------------------------------

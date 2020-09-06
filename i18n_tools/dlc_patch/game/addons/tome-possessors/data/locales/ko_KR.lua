@@ -61,7 +61,7 @@ t([[You concentrate to create a psionic block field all around you for 5 turns.
 		While the effect holds all damage against you have a %d%% chance to be fully ignored.
 		When damage is cancelled you instinctively make a retaliation mind strike against the source, dealing %0.2f mind damage. (The retaliation may only happen 2 times per turn.)
 		]], [[염동력의 힘으로 이루어진 방어장을 만드는데 정신을 집중합니다. 방어장은 5 턴 동안 유지됩니다.
-		지속기간 동안, 피격시 받는 피해가 %d%% 확률로 완전히 무효화됩니다.
+		지속기간 동안, 피격 시 받는 피해가 %d%% 확률로 완전히 무효화됩니다.
 		공격이 무효화되면, 시전자는 즉각 정신 보복 공격을 공격자에게 가해, %0.2f 정신피해를 줍니다. (보복 효과는 한 턴에 2 번만 일어납니다)
 		]], "tformat")
 
