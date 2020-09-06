@@ -904,8 +904,8 @@ section "game/modules/tome/class/FortressPC.lua" Stéphanois
 section "game/modules/tome/class/interface/PlayerExplore.lua" Stéphanois
 section "game/modules/tome/class/interface/WorldAchievements.lua" Stéphanois
 
-캐릭터 생성시 birth들
-
+캐릭터 생성시 birth들----------------------------------------
+section "game/modules/tome/data/birth/descriptors.lua"
 section "game/dlcs/tome-ashes-urhrok/data/birth/corrupted.lua"
 section "game/dlcs/tome-ashes-urhrok/data/birth/doomelf.lua"
 section "game/dlcs/tome-ashes-urhrok/data/birth/races_cosmetic.lua"
@@ -918,7 +918,31 @@ section "game/dlcs/tome-orcs/data/birth/classes/tinker.lua"
 section "game/dlcs/tome-orcs/data/birth/races/orc.lua"
 section "game/dlcs/tome-orcs/data/birth/races/whitehooves.lua"
 section "game/dlcs/tome-orcs/data/birth/races/yeti.lua"
+section "game/dlcs/tome-orcs/data/birth/worlds.lua"
+section "game/modules/tome/data/birth/classes/tutorial.lua"
+section "game/modules/tome/data/birth/classes/warrior.lua"
+section "game/modules/tome/data/birth/races/construct.lua"
+section "game/modules/tome/data/birth/races/dwarf.lua"
+section "game/modules/tome/data/birth/races/elf.lua"
+section "game/modules/tome/data/birth/races/giant.lua"
+section "game/modules/tome/data/birth/sexes.lua"
+section "game/modules/tome/data/birth/worlds.lua"
 
+몬스터
+section "game/modules/tome/data/general/npcs/ant.lua"
+section "game/modules/tome/data/general/npcs/aquatic_critter.lua"
+section "game/modules/tome/data/general/npcs/aquatic_demon.lua"
+section "game/modules/tome/data/general/npcs/bear.lua"
+section "game/modules/tome/data/general/npcs/bird.lua"
+section "game/modules/tome/data/general/npcs/bone-giant.lua"
+section "game/modules/tome/data/general/npcs/canine.lua"
+section "game/modules/tome/data/general/npcs/cold-drake.lua"
+section "game/modules/tome/data/general/npcs/construct.lua"
+section "game/modules/tome/data/general/npcs/crystal.lua"
+section "game/modules/tome/data/general/npcs/faeros.lua"
+section "game/modules/tome/data/general/npcs/feline.lua"
+section "game/modules/tome/data/general/npcs/fire-drake.lua"
+section "game/modules/tome/data/general/npcs/ghost.lua"
 
 
 지속 효과들--------------------------------------------------------------
