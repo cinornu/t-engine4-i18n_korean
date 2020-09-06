@@ -178,9 +178,7 @@
 "game/modules/tome/data/chats/alchemist-derth.lua"
 "game/modules/tome/data/chats/alchemist-elvala.lua"
 "game/modules/tome/data/chats/alchemist-golem.lua"
-"game/modules/tome/data/chats/alchemist-hermit.lua"
-"game/modules/tome/data/chats/alchemist-last-hope.lua"
-"game/modules/tome/data/chats/angolwen-leader.lua" Khelerd 완
+"game/modules/tome/data/chats/alchemist-hermit.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
@@ -956,6 +954,12 @@ section "game/modules/tome/data/timed_effects/mental.lua"  Stéphanois 완
 section "game/modules/tome/data/timed_effects/other.lua"  Stéphanois 완
 section "game/modules/tome/data/timed_effects/physical.lua" Stéphanois
 section "game/dlcs/tome-cults/data/timed_effects.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/timed_effects/floor.lua"
+section "game/dlcs/tome-orcs/data/timed_effects/magical.lua"
+section "game/dlcs/tome-orcs/data/timed_effects/mental.lua"
+section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
+section "game/dlcs/tome-orcs/data/timed_effects/physical.lua"
+
 
 section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
 section "game/modules/tome/dialogs/ShowMap.lua" Stéphanois  완
