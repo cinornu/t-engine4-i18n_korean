@@ -986,6 +986,14 @@ section "game/modules/tome/data/zones/wilderness/zone.lua" Stéphanois  완
 section "game/modules/tome/data/zones/wilderness/grids.lua" Stéphanois  완
 section "game/modules/tome/class/interface/TooltipsData.lua"
 
+발명스킬 누를때 설명----------------------------------------
+section "game/dlcs/tome-orcs/data/tinkers.lua"
+section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua"
+section "game/dlcs/tome-orcs/data/tinkers/electricity.lua"
+section "game/dlcs/tome-orcs/data/tinkers/explosive.lua"
+section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua"
+section "game/dlcs/tome-orcs/data/tinkers/smith.lua"
+section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
 
 
 
