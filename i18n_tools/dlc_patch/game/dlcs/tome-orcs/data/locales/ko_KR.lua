@@ -654,8 +654,12 @@ t("misc", "도구", "entity type")
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/chemistry.lua"
 
 t("%s viral injector", "%s 바이러스 주입기", "tformat")
+t("Brain Cap", "두뇌 차폐막", "entity name")
+t("Brain Flare", "두뇌 신호기", "entity name")
 t("armor", "방어구", "entity type")
 t("cloak", "망토", "entity subtype")
+t("Rogue's Gallery", "도둑의 화랑", "entity name")
+t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상화에도요!", "_t")
 
 
 ------------------------------------------------
@@ -700,6 +704,8 @@ t("stralite", "스트라라이트", "_t")
 t("voratun", "보라툰", "_t")
 t("armor", "방어구", "entity type")
 t("hands", "손", "entity subtype")
+t("Hands of Creation", "제작의 손", "entity name")
+t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "당신의 손에서 믿을 수 없는 걸작이 탄생합니다. 당신의 작품들은 화염으로 단련되었고, 그건 당신도 마찬가지지요.", "_t")
 
 
 ------------------------------------------------
@@ -839,6 +845,7 @@ section "game/dlcs/tome-orcs/data/maps/zones/worldmap.lua"
 
 t("Far East", "동쪽 대륙", "_t")
 t("Var'Eyal", "바르'에이알", "_t")
+t("Clork Peninsula", "클로크 반도", "_t")
 
 
 ------------------------------------------------
@@ -3435,7 +3442,7 @@ t("#Target# uses a fiery salve.", "#Target2# 불꽃 연고를 사용한다.", "_
 t("+Fiery Salve", "+불꽃 연고", "_t")
 t("-Fiery Salve", "-불꽃 연고", "_t")
 t("Water Salve", "물방울 연고", "_t")
-t("Provides a frost aura, giving you +%d%% blight, mind and acid affinity.", "물의 기운에 둘러싸임 : 황폐, 정신, 산성 속성 친화 +%d%%.", "tformat")
+t("Provides a frost aura, giving you +%d%% blight, mind and acid affinity.", "물방울의 기운에 둘러싸임 : 황폐, 정신, 산성 속성 친화 +%d%%.", "tformat")
 t("water", "물", "effect subtype")
 t("#Target# uses a water salve.", "#Target2# 물방울 연고를 사용한다.", "_t")
 t("+Water Salve", "+물방울 연고", "_t")
@@ -3683,87 +3690,219 @@ t("explosives", "폭파학", "_t")
 section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua"
 
 t("Winterchill Edge", "겨울 냉기 칼날", "_t")
+t("Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "열은 곧 에너지입니다.  물리학, 화학, 그리고 야금학에 대한 지식으로 무기에 겨울 냉기 칼날을 장착 할 수 있게 되었습니다.  겨울 냉기 칼날은 상대적으로 적은 피해만을 입히지만, 공격당한 적은 0.1 턴을 소모하게됩니다.", "_t")
+t("Allows your weapon to spray caustic acid on hit, reducing armor.", "명중 시 방어력을 감소시키는 부식성 산성 물질을 무기에서 뿜을 수 있게됩니다.", "_t")
+t("Brain Cap", "두뇌 차폐막", "_t")
+t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "스트라라이트로 제작된 틀 안에 두뇌가 담긴 통을 장착합니다. 이 경이로운 발명품은 정신 저항을 향상시키고, 강력한 마법 방해 파장을 내뿜을 수 있게합니다.", "_t")
+t("Brain Flare", "두뇌 신호기", "_t")
+t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "스트라라이트로 제작된 틀 안에 두뇌가 담긴 통을 장착합니다. 이 경이로운 발명품은 정신 저항을 향상시키고, 적의 정신에 침투해, 적을 조종할 수 있게합니다.", "_t")
+t("Waterproof Coating", "방수 코팅", "_t")
+t("Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "오래된 망토가 물에 너무 쉽게 젖는다구요? 여러분이 필요하신 건 바로 방수 코팅입니다!", "_t")
+t("Fireproof Coating", "방화 코팅", "_t")
+t("New cloak doesn't have all the resistances you wanted? A fireproof coating it just what you need!", "새로운 망토에 원하는 속성 저항을 다 갖추고 있지 않다구요? 여러분이 필요하신 건 바로 방화코팅입니다!", "_t")
 t("Flash Powder", "섬광 가루", "_t")
+t("What is better than throwing sand in someone's face? Throwing sand that shines as bright as the Sun!", "면상에 모래 던지는 것보다 나은게 뭔줄 아나? 바로 태양처럼 빛나는 모래를 던지는거지!", "_t")
 t("Itching Powder", "가려움 가루", "_t")
+t("The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "'기어다니는 개미' 가려움 가루는 여러분들의 적들을 복잡한 행동을 하지 못하게 할거예요!", "_t")
+t("Rogue's Gallery", "도둑의 화랑", "_t")
+t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상화에도요!", "_t")
+t("flash powder", "섬광 가루", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
 t("diamond", "다이아몬드", "_t")
 t("bloodstone", "혈석", "_t")
+t("Rustproof Coating", "녹 방지 코팅", "_t")
+t("Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "늪지나 바닷물, 산성 물질, 오크 땀이나 드레이크의 침 같은 부식성 물질에게서 당신의 방어구를 보호하세요!", "_t")
+t("Alchemist's Helper", "연금술사의 도우미", "_t")
+t("An ingenius collection of tough no-spill pockets allows you to keep all those dangerous reagents close at hand. (increases acid, fire, nature and blight damage.)", "밀봉성이 뛰어난 주머니를 가진 기상천외한 실험 도구로, 위험한 시약들을 손 근처에 두어도 끄떡없습니다. (산성, 화염, 자연, 황폐 피해 증가.)", "_t")
+t("Black Light Emitter", "흑색광 방출기", "_t")
+t("Make the invisible visible.", "보이지 않는 것을 보이게합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/electricity.lua"
 
+t("Lightning Coil", "전기 코일", "_t")
+t("Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "전기 코일을 근접 무기에 장착해, 근접 치명타 시, 짧은 거리의 전기 광선을 쏘아냅니다.", "_t")
+t("Mana Coil", "마나 코일", "_t")
+t("Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "마나 코일을 지팡이에 장착해, 마나 재생을 향상시키고, 주문 명중 시, 전기 주문을 시전합니다.", "_t")
 t("sapphire", "사파이어", "_t")
 t("Arcane Dynamo", "비전 발전기", "_t")
+t("Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "비전 발전기는 마법의 힘과 증기 공학을 잇는 발명품으로, 주문을 사용할 때 마다 증기를 회복시키며, 마도공학 주문을 사용할 수 있게합니다.", "_t")
 t("amethyst", "자수정", "_t")
 t("Shocking Touch", "충격의 손길", "_t")
+t("Gives you the Electric Touch. Higher tiers will chain.", "충격의 손길을 사용 가능합니다. 높은 등급이라면 연쇄됩니다.", "_t")
+t("Deflection Field", "편향막", "_t")
+t("Protect yourself with the Power of Magnetism! Attach this device to your belt and watch those bullets miss every time! (not guaranteed to work every time)", "자기장의 힘으로 스스로를 보호하세요! 이 장치를 허리띠에 장착해 총알이 빗나가는 걸 구경하세요! (이 제품은 가끔 작동하지 않을 수도 있습니다)", "_t")
+t("Galvanic Retributor", "전열 보복기", "_t")
+t("Fortify your shield with electricity and prepare to unleash GALVANIC RETRIBUTION against your attackers!", "방패를 전기로 강화하고, 공격자에게 전열 보복기를 해방할 준비를 하라!", "_t")
+t("Shocking Edge", "충격의 칼날", "_t")
+t("Attaching a capacitor to your weapon in just the right way is a great way to shock your enemies.", "무기에 축전기를 장착해, 올바르고, 좋은 방법으로 적들에게 전기충격을 가해보세요.", "_t")
+t("Steamsaw: Stormcutter", "증기톱 : 폭풍을 베는자", "_t")
+t("The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "증기톱 기술의 정점으로, 모든 공격에 폭풍의 힘이 담겨, 해방된 폭풍이 적들 사이를 연쇄하고 적들을 기절시킵니다!", "_t")
+t("shocking edge", "충격의 칼날", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
 t("diamond", "다이아몬드", "_t")
 t("bloodstone", "혈석", "_t")
 t("Voltaic Sentry", "전류 보초", "_t")
+t("Just drop it down and watch the sparks fly when your enemies get near.", "이렇게 땅에 두시고, 적들이 다가오면 스파크가 튀는걸 보기만하셔도 됩니다!", "_t")
+t("Mental Stimulator", "정신 자극기", "_t")
+t("Supercharge your thinking and give your brain a boost with the Mental Stimulator!", "정신 자극기로 사고력을 향상시키고, 여러분의 두뇌 기능을 극대화 시키세요!", "_t")
+t("Power Distributor", "동력 배급기", "_t")
+t("The Power Distributor V2 ensures you have the energy where and when you need it, without any of the side effects like V1 had.", "동력 배급기 V2 를 이용해서 여러분이 원하실 때 에너지를 생성하세요! V1 때와 같은 부작용은 절대 없습니다!", "_t")
+t("White Light Emitter", "백색광 방출기", "_t")
+t("Add more light to your light!", "여러분의 빛에 빛을 더하세요!", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/explosive.lua"
 
+t("Thunderclap Coating", "천둥 코팅", "_t")
+t("Coat your weapon in a substance that will react destructively on impact, causing your attacks to burst out in an area.", "충격에 파괴적인 반응을 보이는 물질로 무기를 코팅합니다. 공격 시, 지역 내에 피해를 줍니다.", "_t")
+t("Steamgun", "총기", "_t")
+t("Dismantle any one sling, add some amazing steampower to it and make a powerful steamgun to fire a bullet hell at your foes!", "투석구를 분해하고, 놀라운 증기의 힘을 불어넣어, 적들에게 총알 지옥을 보여주는 강력한 증기 총을 제작합니다!", "_t")
+t("a sling (not unique)", "투석구 (유니크 아이템이 아님)", "_t")
+t("Convert which sling?", "어떤 투석구를 변환할까요??", "_t")
+t("Converted %s into %s", "%s %s 변환됨", "log", nil, {"가","로"})
+t("Headlamp", "헤드 램프", "_t")
+t("So much more convenient than a lantern on your waist.", "허리에 찬 조명보다 훨씬 편합니다.", "_t")
+t("Ablative Armour", "폭발 방어구", "_t")
+t("Reinforcing your armour with explosions isn't as crazy as it sounds!  Adds armor and resists very large hits.", "방어구를 폭발물로 강화합니다. 미친 소리가 아닙니다!  방어력과 큰 피해에 대한 저항을 갖습니다.", "_t")
+t("Incendiary Groove", "소이 탱크", "_t")
+t("A special reservoir seeps liquid fire onto the weapon, adding fire damage and setting the ground on fire when you hit.", "툭수 탱크를 무기에 장착해, 화염 속성 피해를 추가하고, 땅바닥에 불길을 일으킵니다.", "_t")
 t("Thunder Grenade", "천둥 수류탄", "_t")
+t("Small radius, but stuns quite well.", "범위는 좁지만, 기절 효과는 뛰어납니다.", "_t")
+t("Steamgun: Payload", "총기 : 폭발력", "_t")
+t("The pinnacle of steamguns technology. Critical strikes with this gun will feel like a massive explosion of flames! And it actually will be one!", "증기 총기 기술의 정점으로, 이 총기로 가하는 모든 치명타는 거대한 화염 폭발을 일으키는 것같은데요? 아! 실제로 폭발이 일어나네요!", "_t")
+t("incendiary groove", "소이 탱크", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
 t("diamond", "다이아몬드", "_t")
 t("bloodstone", "혈석", "_t")
 t("Explosive Shell", "폭발 포탄", "_t")
+t("A special shot that explodes on impact.", "충격을 받으면 폭발하는 특수 포탄입니다.", "_t")
 t("Flare Shell", "조명 포탄", "_t")
+t("A special shot that releases intense light on impact.", "충격을 받으면 빛을 뿜어내는 특수 포탄입니다.", "_t")
 t("Solid Shell", "고중량 포탄", "_t")
+t("A special shot that packs a punch.", "둔탁하고 단단한 특수 포탄입니다.", "_t")
 t("Saw Shell", "톱날 포탄", "_t")
+t("A special shot that slices 'n' dices.", "대상을 'n' 개의 주사위로 갈아버리는 특수 포탄입니다.", "_t")
 t("Magnetic Shell", "자석 포탄", "_t")
+t("A special shot that magnetises on impact.", "충격을 받으면 자기장을 생성하는 특수 포탄입니다.", "_t")
 t("Antimagic Shell", "반마법 포탄", "_t")
+t("A special shot filled with antimagic sap.", "반마법의 힘이 채워진 특수 포탄입니다.", "_t")
 t("Corrosive Shell", "부식 포탄", "_t")
+t("A special shot that releases acid on impact.", "충격을 받으면 산성이 터저나오는 특수 포탄입니다.", "_t")
 t("Hook Shell", "갈고리 포탄", "_t")
+t("A special shot moving yourself, or others quickly.", "자신이나, 다른 이들을 빠르게 움직이게하는 특수 포탄입니다.", "_t")
 t("Voltaic Shell", "정전기 포탄", "_t")
+t("A special shot that releases electricity on impact.", "충격을 받으면 전류를 흘러보내는 특수 포탄입니다.", "_t")
 t("Botanical Shell", "포자 포탄", "_t")
+t("A special shot grows moss on impact.", "충격을 받으면 이끼가 자라나는 특수 포탄입니다.", "_t")
 t("Toxic Shell", "맹독 포탄", "_t")
+t("A special shot that contains a deadly toxin.", "죽음의 맹독이 담긴 특수 포탄입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua"
 
 t("Rocket Boots", "로켓 장화", "_t")
+t("Attach small steam rocket to your boots, granting faster movement and leaving a trail of fire to burn those foolish enough to follow you.", "장화에 작은 증기 로켓을 장착해, 빠른 이동 속도를 갖고, 당신을 뒤쫓아오는 멍청이들을 불태울 화염의 궤적을 남깁니다.", "_t")
 t("Hand Cannon", "핸드 캐논", "_t")
+t("Allows you to fire your equipped shot or arrow ammo via your gloves.", "장착한 화살이나 투석구 탄환을 장갑을 통해 발사할 수 있게됩니다.", "_t")
 t("Fatal Attractor", "치명적 인력 발생기", "_t")
+t("Creates a small psionic device that will taunt nearby enemies and reflect damage received.", "작은 초능력 장치를 만들어, 주변 적들을 도발하고, 받은 피해를 반사합니다.", "_t")
 t("Iron Grip", "무쇠 손아귀", "_t")
+t("Attach powerful steam-powered pistons to your gloves, giving you a tight grip on your weapon (preventing disarming) and allowing you to crush a foe, pinning it and reducing its defense and armour.", "증기로 작동하는 강력한 피스톤을 장갑에 장착해, 무기를 놓치지 않게 해주고 (무장 해제 저항) 적에게 사용해, 적을 속박하고 회피도와 방어력을 감소시킵니다.", "_t")
 t("Spring Grapple", "용수철 바이스", "_t")
+t("Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "장갑에 용수철 장치를 장착해, 적을 인접한 위치로 끌고와 빠르게 공격하고, 속박합니다.", "_t")
 t("Steam Powered Armour", "증기 작동 갑옷", "_t")
+t("Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "작은 증기 기관과 최첨단 자동 기계의 기적으로, 증기 작동 갑옷을 만들 수 있게되었습니다. 판금 갑옷으로, 이동을 도와주고 특이한 방어 기제를 갖고있습니다.", "_t")
+t("lightning coil", "전기 코일", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
 t("diamond", "다이아몬드", "_t")
 t("bloodstone", "혈석", "_t")
+t("Saw Projector", "톱 발사기", "_t")
+t("A mechanical device for launching a spinning buzzsaw! What else could you want?", "회전하는 톱날을 발사하는 기계 장치입니다! 다른 제품이 왜 필요하죠?", "_t")
+t("Kinetic Stabiliser", "동역학 안정기", "_t")
+t("Helps keep your feet on the ground, but still allows mobility.", "바닥에서 발이 떨어지지 않게 도와줍니다만, 문제없이 다리를 움직일 수 있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/smith.lua"
 
+t("Steamsaw", "증기톱", "_t")
+t("Dismantle any one handed sword/axe/mace, add some amazing steampower to it and make a powerful steamsaw to shred your foes to pieces!", "한손 검/도끼/둔기를 분해하고, 놀라운 증기의 힘을 불어넣어, 적들을 조각낼 수 있는 강력한 증기톱을 제작합니다!", "_t")
+t("a one handed sword/axe/mace (not unique, without a special damage type)", "한손 검/도끼/둔기를 (유니크 아이템이 아니고, 특별한 속성이 아닐 것)", "_t")
+t("Convert which weapon?", "어떤 무기를 변환할까요?", "_t")
+t("Converted %s into %s", "%s %s 변환됨", "log", nil, {"가","로"})
+t("Focus Lens", "집중 렌즈", "_t")
+t("A simple contraption consisting of a gem and some metal to enhance your sight, detection and infravision! At tier 4 it even allows you to fight while blinded. #{italic}#Amazing!#{normal}#", "보석과 약간의 금속으로 이루어진 작은 기계로, 시야, 감지력, 그리고 적외선 시야를 향상시킵니다! 4 등급 이상일 경우, 실명상태에서의 불이익을 제거합니다. #{italic}#놀라워요!#{normal}#", "_t")
 t("Toxic Cannister Launcher", "독가스 탄 발사기", "_t")
+t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "이 포탄 발사리고 친구를 놀래켜 보세요! 손만 살짝 흔들어도 맹독 구름이 뿜어저 나옵니다! #{italic}#죽여주는군요!#{normal}#", "_t")
 t("Viral Needlegun", "바이러스 바늘총", "_t")
+t("Blight is not dirty to a Tinker, it is useful! By combining blighted materials with a simple mechanical gun, you can fire a low damaging attack that infects foes with terrible diseases.", "바이러스는 발명가에게는 더러운 녀석이 아니죠, 꽤 쓸만합니다! 황폐 속성을 가진 물질들과 간단한 기계 총, 여러분은 적들에게 끔찍한 질병을 퍼뜨리는 조그마한 바늘 공격을 발사할 수 있습니다.", "_t")
+t("Razor Edge", "면도날", "_t")
+t("Properly working and tempering a metal can make it harder than normal, and hold a sharper edge.", "제대로 된 야금 기술과 담금질은 금속을 원래보다 더 단단 하게 만들수 있고, 날카롭게 날을 세울 수 있씁니다.", "_t")
+t("Armour Reinforcement", "방어구 보강", "_t")
+t("Want more defense? Wear more armour!", "보다 많은 방어는 뭐다? 방어구를 더 껴입는 거지!", "_t")
+t("Crystal Edge", "수정 칼날", "_t")
+t("Adding a crystal blade to your weapon will make it the flashiest around! (with added light damage and increased critical multiplier)", "무기에 수정 칼날을 달아, 무대를 빛내보세요! (빛 피해와 치명타 피해량을 늘려줍니다)", "_t")
+t("Crystal Plating", "수정 도금", "_t")
+t("Boring armour not fancy enough? Bling it up with crystal plating!  Increases all of your base stats.", "방어구가 너무 칙칙해서 섹시하지 않다구요? 수정 도금과 함께 번쩍이는 매력을 뽐내보세요!  모든 능력치가 증가합니다.", "_t")
 t("aquamarine", "아쿠아마린", "_t")
 t("citrine", "시트린", "_t")
 t("quartz", "석영", "_t")
 t("ruby", "루비", "_t")
+t("Hands of Creation", "제작의 손", "_t")
+t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "당신의 손에서 믿을 수 없는 걸작이 탄생합니다. 당신의 작품들은 화염으로 단련되었고, 그건 당신도 마찬가지지요.", "_t")
+t("shocking touch", "충격의 손길", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
 t("diamond", "다이아몬드", "_t")
 t("bloodstone", "혈석", "_t")
+t("Spike Attachment", "송곳 부착물", "_t")
+t("Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "송곳을 여기저기에 붙여, 적들을 위협해봅시다. (음.. 좀 불편하긴 하지만요)", "_t")
+t("Silver Filigree", "은 세공", "_t")
+t("In addition to making a weapon look more fancy, it also makes it more deadly against undead and other nasties.", "무기를 더 매력적으로 만들고, 언데드들과 기타 나쁜 놈들에게 특히 치명적입니다.", "_t")
+t("Back Support", "등 지지대", "_t")
+t("Just what you need to support your back when lifting heavy things; like armour, weapons or Yetis.", "갑옷이나, 무기, 또는 예티같이 무거운 것을 들어올릴 때에 등을 지지해줄 친구입니다!", "_t")
+t("Grounding Strap", "접지 노끈", "_t")
+t("Keeping yourself grounded is very important, especially around lightning mages.  Increases lightning and stun resistance.", "접지는 매우 중요합니다, 특히 전기 마법사 주변에 있을 때는요.  마법 저항력과 기절 면역력이 증가합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
 
+t("Healing Salve", "회복 연고", "_t")
+t([[A powerful healing salve.
+To be used with the medical injector implant.]], [[강력한 회복 연고입니다.
+사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
 t("Pain Suppressor Salve", "진통 연고", "_t")
+t([[A powerful salve that steels your body for a while, letting you survive below 0 life while increasing resistances.
+To be used with the medical injector implant.]], [[일정 시간 동안 몸을 강철과 같이 단단하게 만들어주는 연고입니다. 생명력이 0 이하여도 생존할 수 있게되고, 모든 저항을 증가시킵니다.
+사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
 t("Frost Salve", "서리 연고", "_t")
+t([[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
+To be used with the medical injector implant.]], [[부정적인 물리 효과를 제거하고, 서리의 기운을 부여하는 연고입니다. (냉기, 암흑, 자연 속성 친화).
+사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
 t("Fiery Salve", "불꽃 연고", "_t")
+t([[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
+To be used with the medical injector implant.]], [[부정적인 마법 효과를 제거하고, 불꽃의 기운을 부여하는 연고입니다. (화염, 전기, 빛 속성 친화).
+사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
 t("Water Salve", "물방울 연고", "_t")
+t([[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
+To be used with the medical injector implant.]], [[부정적인 정신 효과를 제거하고, 물방울의 기운을 부여하는 연고입니다 (황폐, 정신, 산성 속성 친화).
+사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
 t("Unstoppable Force Salve", "멈출 수 없는 힘 연고", "_t")
+t([[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
+To be used with the medical injector implant.]], [[물리, 정신, 마법 효과들에 대해 훨씬 강인하게 만들고 회복 효율을 높이는 연고입니다.
+사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+t("frost salve", "서리 연고", "_t")
+t("fiery salve", "불꽃 연고", "_t")
+t("water salve", "물방울 연고", "_t")
 t("Life Support Suit", "생명 유지복", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
@@ -3775,6 +3914,7 @@ t("Moss Tread", "이끼 장화", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/wda/orcs.lua"
 
+t("Clork Peninsula", "클로크 반도", "_t")
 t("Var'Eyal", "바르'에이알", "_t")
 
 

@@ -4807,7 +4807,7 @@ t("FEET", "FEET", "entity on slot")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/smith.lua"
--- 28 entries
+-- 26 entries
 t("dwarven steel", "dwarven steel", "_t")
 t("crude", "crude", "_t")
 t("good", "good", "_t")
@@ -4825,9 +4825,7 @@ t("%s crystal edge", "%s crystal edge", "tformat")
 t("Deals high light damage and increases critical multiplier.", "Deals high light damage and increases critical multiplier.", "_t")
 t("flashes light on your target dealing %d damage", "flashes light on your target dealing %d damage", "tformat")
 t("%s crystal plating", "%s crystal plating", "tformat")
-t("Hands of Creation", "Hands of Creation", "entity name")
 t("plated gauntlets", "plated gauntlets", "_t")
-t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "_t")
 t("On landing any melee attack, release a fiery shockwave, dealing fire and physical damage each equal to your steampower in a cone from the target of radius 3.", "On landing any melee attack, release a fiery shockwave, dealing fire and physical damage each equal to your steampower in a cone from the target of radius 3.", "_t")
 t("%s spike attachment", "%s spike attachment", "tformat")
 t("BODY", "BODY", "entity on slot")
@@ -7281,111 +7279,8 @@ t("Acid Groove", "Acid Groove", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/tinkers/explosive.lua"
--- 27 entries
-t("Coat your weapon in a substance that will react destructively on impact, causing your attacks to burst out in an area.", "Coat your weapon in a substance that will react destructively on impact, causing your attacks to burst out in an area.", "_t")
-t("Steamgun", "Steamgun", "_t")
-t("Dismantle any one sling, add some amazing steampower to it and make a powerful steamgun to fire a bullet hell at your foes!", "Dismantle any one sling, add some amazing steampower to it and make a powerful steamgun to fire a bullet hell at your foes!", "_t")
-t("a sling (not unique)", "a sling (not unique)", "_t")
-t("Convert which sling?", "Convert which sling?", "_t")
-t("Converted %s into %s", "Converted %s into %s", "log")
-t("Headlamp", "Headlamp", "_t")
-t("So much more convenient than a lantern on your waist.", "So much more convenient than a lantern on your waist.", "_t")
-t("Ablative Armour", "Ablative Armour", "_t")
-t("Reinforcing your armour with explosions isn't as crazy as it sounds!  Adds armor and resists very large hits.", "Reinforcing your armour with explosions isn't as crazy as it sounds!  Adds armor and resists very large hits.", "_t")
-t("Incendiary Groove", "Incendiary Groove", "_t")
-t("A special reservoir seeps liquid fire onto the weapon, adding fire damage and setting the ground on fire when you hit.", "A special reservoir seeps liquid fire onto the weapon, adding fire damage and setting the ground on fire when you hit.", "_t")
-t("Small radius, but stuns quite well.", "Small radius, but stuns quite well.", "_t")
-t("Steamgun: Payload", "Steamgun: Payload", "_t")
-t("The pinnacle of steamguns technology. Critical strikes with this gun will feel like a massive explosion of flames! And it actually will be one!", "The pinnacle of steamguns technology. Critical strikes with this gun will feel like a massive explosion of flames! And it actually will be one!", "_t")
-t("incendiary groove", "incendiary groove", "_t")
-t("A special shot that explodes on impact.", "A special shot that explodes on impact.", "_t")
-t("A special shot that releases intense light on impact.", "A special shot that releases intense light on impact.", "_t")
-t("A special shot that packs a punch.", "A special shot that packs a punch.", "_t")
-t("A special shot that slices 'n' dices.", "A special shot that slices 'n' dices.", "_t")
-t("A special shot that magnetises on impact.", "A special shot that magnetises on impact.", "_t")
-t("A special shot filled with antimagic sap.", "A special shot filled with antimagic sap.", "_t")
-t("A special shot that releases acid on impact.", "A special shot that releases acid on impact.", "_t")
-t("A special shot moving yourself, or others quickly.", "A special shot moving yourself, or others quickly.", "_t")
-t("A special shot that releases electricity on impact.", "A special shot that releases electricity on impact.", "_t")
-t("A special shot grows moss on impact.", "A special shot grows moss on impact.", "_t")
-t("A special shot that contains a deadly toxin.", "A special shot that contains a deadly toxin.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua"
--- 11 entries
-t("Attach small steam rocket to your boots, granting faster movement and leaving a trail of fire to burn those foolish enough to follow you.", "Attach small steam rocket to your boots, granting faster movement and leaving a trail of fire to burn those foolish enough to follow you.", "_t")
-t("Allows you to fire your equipped shot or arrow ammo via your gloves.", "Allows you to fire your equipped shot or arrow ammo via your gloves.", "_t")
-t("Creates a small psionic device that will taunt nearby enemies and reflect damage received.", "Creates a small psionic device that will taunt nearby enemies and reflect damage received.", "_t")
-t("Attach powerful steam-powered pistons to your gloves, giving you a tight grip on your weapon (preventing disarming) and allowing you to crush a foe, pinning it and reducing its defense and armour.", "Attach powerful steam-powered pistons to your gloves, giving you a tight grip on your weapon (preventing disarming) and allowing you to crush a foe, pinning it and reducing its defense and armour.", "_t")
-t("Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "_t")
-t("Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "_t")
-t("lightning coil", "lightning coil", "_t")
-t("Saw Projector", "Saw Projector", "_t")
-t("A mechanical device for launching a spinning buzzsaw! What else could you want?", "A mechanical device for launching a spinning buzzsaw! What else could you want?", "_t")
-t("Kinetic Stabiliser", "Kinetic Stabiliser", "_t")
-t("Helps keep your feet on the ground, but still allows mobility.", "Helps keep your feet on the ground, but still allows mobility.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/tinkers/smith.lua"
--- 28 entries
-t("Steamsaw", "Steamsaw", "_t")
-t("Dismantle any one handed sword/axe/mace, add some amazing steampower to it and make a powerful steamsaw to shred your foes to pieces!", "Dismantle any one handed sword/axe/mace, add some amazing steampower to it and make a powerful steamsaw to shred your foes to pieces!", "_t")
-t("a one handed sword/axe/mace (not unique, without a special damage type)", "a one handed sword/axe/mace (not unique, without a special damage type)", "_t")
-t("Convert which weapon?", "Convert which weapon?", "_t")
-t("Converted %s into %s", "Converted %s into %s", "log")
-t("Focus Lens", "Focus Lens", "_t")
-t("A simple contraption consisting of a gem and some metal to enhance your sight, detection and infravision! At tier 4 it even allows you to fight while blinded. #{italic}#Amazing!#{normal}#", "A simple contraption consisting of a gem and some metal to enhance your sight, detection and infravision! At tier 4 it even allows you to fight while blinded. #{italic}#Amazing!#{normal}#", "_t")
-t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "_t")
-t("Blight is not dirty to a Tinker, it is useful! By combining blighted materials with a simple mechanical gun, you can fire a low damaging attack that infects foes with terrible diseases.", "Blight is not dirty to a Tinker, it is useful! By combining blighted materials with a simple mechanical gun, you can fire a low damaging attack that infects foes with terrible diseases.", "_t")
-t("Razor Edge", "Razor Edge", "_t")
-t("Properly working and tempering a metal can make it harder than normal, and hold a sharper edge.", "Properly working and tempering a metal can make it harder than normal, and hold a sharper edge.", "_t")
-t("Armour Reinforcement", "Armour Reinforcement", "_t")
-t("Want more defense? Wear more armour!", "Want more defense? Wear more armour!", "_t")
-t("Crystal Edge", "Crystal Edge", "_t")
-t("Adding a crystal blade to your weapon will make it the flashiest around! (with added light damage and increased critical multiplier)", "Adding a crystal blade to your weapon will make it the flashiest around! (with added light damage and increased critical multiplier)", "_t")
-t("Crystal Plating", "Crystal Plating", "_t")
-t("Boring armour not fancy enough? Bling it up with crystal plating!  Increases all of your base stats.", "Boring armour not fancy enough? Bling it up with crystal plating!  Increases all of your base stats.", "_t")
-t("Hands of Creation", "Hands of Creation", "_t")
-t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "_t")
-t("shocking touch", "shocking touch", "_t")
-t("Spike Attachment", "Spike Attachment", "_t")
-t("Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "_t")
-t("Silver Filigree", "Silver Filigree", "_t")
-t("In addition to making a weapon look more fancy, it also makes it more deadly against undead and other nasties.", "In addition to making a weapon look more fancy, it also makes it more deadly against undead and other nasties.", "_t")
-t("Back Support", "Back Support", "_t")
-t("Just what you need to support your back when lifting heavy things; like armour, weapons or Yetis.", "Just what you need to support your back when lifting heavy things; like armour, weapons or Yetis.", "_t")
-t("Grounding Strap", "Grounding Strap", "_t")
-t("Keeping yourself grounded is very important, especially around lightning mages.  Increases lightning and stun resistance.", "Keeping yourself grounded is very important, especially around lightning mages.  Increases lightning and stun resistance.", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
--- 23 entries
-t("Healing Salve", "Healing Salve", "_t")
-t([[A powerful healing salve.
-To be used with the medical injector implant.]], [[A powerful healing salve.
-To be used with the medical injector implant.]], "_t")
-t([[A powerful salve that steels your body for a while, letting you survive below 0 life while increasing resistances.
-To be used with the medical injector implant.]], [[A powerful salve that steels your body for a while, letting you survive below 0 life while increasing resistances.
-To be used with the medical injector implant.]], "_t")
-t([[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
-To be used with the medical injector implant.]], [[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
-To be used with the medical injector implant.]], "_t")
-t([[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
-To be used with the medical injector implant.]], [[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
-To be used with the medical injector implant.]], "_t")
-t([[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
-To be used with the medical injector implant.]], [[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
-To be used with the medical injector implant.]], "_t")
-t([[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
-To be used with the medical injector implant.]], [[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
-To be used with the medical injector implant.]], "_t")
-t("frost salve", "frost salve", "_t")
-t("fiery salve", "fiery salve", "_t")
-t("water salve", "water salve", "_t")
+-- 13 entries
 t("Poison Groove", "Poison Groove", "_t")
 t("Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "_t")
 t("Viral Injector", "Viral Injector", "_t")
