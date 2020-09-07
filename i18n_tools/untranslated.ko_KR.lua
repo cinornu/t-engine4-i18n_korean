@@ -702,86 +702,8 @@ t("%s (demonic husk)", "%s (demonic husk)", "tformat")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
--- 149 entries
-t("Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "Each melee hit generates a radius 1 ball of fire dealing %0.2f damage.", "tformat")
-t("demonic", "demonic", "effect subtype")
-t("#Target# imbues its weapon with demonic fire.", "#Target# imbues its weapon with demonic fire.", "_t")
-t("+Demon Blade", "+Demon Blade", "_t")
-t("#Target#'s weapon looks less threatening.", "#Target#'s weapon looks less threatening.", "_t")
-t("-Demon Blade", "-Demon Blade", "_t")
-t("The target's fire resistance is reduced by %d%%, and the target is highly vulnerable to the flames of the fearscape. When the effect ends, the target will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment", "The target's fire resistance is reduced by %d%%, and the target is highly vulnerable to the flames of the fearscape. When the effect ends, the target will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment", "tformat")
-t("+Fiery Torment", "+Fiery Torment", "_t")
-t("-Fiery Torment", "-Fiery Torment", "_t")
-t("The target assumes the form of a powerful demon.", "The target assumes the form of a powerful demon.", "tformat")
-t("#Target# turns into a demon!", "#Target# turns into a demon!", "_t")
-t("+Destroyer", "+Destroyer", "_t")
-t("-Destroyer", "-Destroyer", "_t")
-t("Next %d melee attacks are certain to critically strike, and this unit has %d%% more critical power.", "Next %d melee attacks are certain to critically strike, and this unit has %d%% more critical power.", "tformat")
-t("#Target#'s weapon glows with critical power!", "#Target#'s weapon glows with critical power!", "_t")
-t("+Voracious", "+Voracious", "_t")
-t("#Target#'s weapon stops glowing.", "#Target#'s weapon stops glowing.", "_t")
-t("-Voracious", "-Voracious", "_t")
-t("Raging flames", "Raging flames", "_t")
-t("Next melee attack will always trigger incinerating blows, and the damage from incinerating blows will be multiplied by %d%%", "Next melee attack will always trigger incinerating blows, and the damage from incinerating blows will be multiplied by %d%%", "tformat")
-t("#Target#'s weapon surges with fire!", "#Target#'s weapon surges with fire!", "_t")
-t("+Revel", "+Revel", "_t")
-t("-Revel", "-Revel", "_t")
-t("Devouring flames", "Devouring flames", "_t")
-t("This character's flames are feeding the source, healing them for %d per turn and giving them %d vim.", "This character's flames are feeding the source, healing them for %d per turn and giving them %d vim.", "tformat")
-t("#Target#'s is surrounded with an all-consuming flame!", "#Target#'s is surrounded with an all-consuming flame!", "_t")
-t("+Devoured", "+Devoured", "_t")
-t("#Target#'s is no longer blazing.", "#Target#'s is no longer blazing.", "_t")
-t("-Devoured", "-Devoured", "_t")
-t("Overwhelming Fear", "Overwhelming Fear", "_t")
-t("The target is losing faith that it can defeat you, reducing its damage by %d%% and slowing it by %d%%", "The target is losing faith that it can defeat you, reducing its damage by %d%% and slowing it by %d%%", "tformat")
-t("#Target# begins to fear you.", "#Target# begins to fear you.", "_t")
-t("#Target#'s shakes the fear off.", "#Target#'s shakes the fear off.", "_t")
-t("Abandoned hope", "Abandoned hope", "_t")
-t("The target's spirit is broken, rendering it inactive.", "The target's spirit is broken, rendering it inactive.", "_t")
-t("#Target#'s spirit is broken.", "#Target#'s spirit is broken.", "_t")
-t("+Unable to act", "+Unable to act", "_t")
-t("#Target# regains the will to fight.", "#Target# regains the will to fight.", "_t")
-t("-Unable to act", "-Unable to act", "_t")
-t("Suffered", "Suffered", "_t")
-t("The target has recently suffered, and cannot do so again yet.", "The target has recently suffered, and cannot do so again yet.", "_t")
-t("#Target# suffers!", "#Target# suffers!", "_t")
-t("+Eternal Suffering", "+Eternal Suffering", "_t")
-t("Cleansing flames", "Cleansing flames", "_t")
-t("The target is purified by fire, losing %0.2f%% of their max health per turn.", "The target is purified by fire, losing %0.2f%% of their max health per turn.", "tformat")
-t("Damage from soulburn.", "Damage from soulburn.", "_t")
-t("The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.", "The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.", "tformat")
-t("#Target# is purified by fire.", "#Target# is purified by fire.", "_t")
-t("+Fire", "+Fire", "_t")
-t("#Target#'s purification is complete.", "#Target#'s purification is complete.", "_t")
-t("-Fire", "-Fire", "_t")
-t("%s loses %d health to the soulburn.", "%s loses %d health to the soulburn.", "logSeen")
-t("The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.", "The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.", "tformat")
-t("The target is pinned and on fire, taking %0.2f fire damage per turn.", "The target is pinned and on fire, taking %0.2f fire damage per turn.", "tformat")
-t("#Target# is grabbed!", "#Target# is grabbed!", "_t")
-t("+Fiery Grasp", "+Fiery Grasp", "_t")
-t("#Target# is released.", "#Target# is released.", "_t")
-t("-Fiery Grasp", "-Fiery Grasp", "_t")
-t("The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.", "The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.", "tformat")
-t("This unit will not die until it has less than -%d HP.", "This unit will not die until it has less than -%d HP.", "tformat")
-t("#Target# surges with an incredible power!", "#Target# surges with an incredible power!", "_t")
-t("+Surge of Power", "+Surge of Power", "_t")
+-- 26 entries
 t("#Target#'s surge ends.", "#Target#'s surge ends.", "_t")
-t("-Surge of Power", "-Surge of Power", "_t")
-t("Recklessness", "Recklessness", "_t")
-t("This unit has %d%% resistance penetration.", "This unit has %d%% resistance penetration.", "tformat")
-t("#Target# is surrounded by a vile flame!", "#Target# is surrounded by a vile flame!", "_t")
-t("+Reckless", "+Reckless", "_t")
-t("-Reckless", "-Reckless", "_t")
-t("The black flame around #Target# dies down", "The black flame around #Target# dies down", "_t")
-t("Infected by a demon seed. When it dies the caster has a %d%% chance to get back the matured seed.", "Infected by a demon seed. When it dies the caster has a %d%% chance to get back the matured seed.", "tformat")
-t("#Target# is infected by a demon seed!", "#Target# is infected by a demon seed!", "_t")
-t("+Demon Seed", "+Demon Seed", "_t")
-t("#Target# is free from the demon seed.", "#Target# is free from the demon seed.", "_t")
-t("-Demon Seed", "-Demon Seed", "_t")
-t("Osmosis Regeneration", "Osmosis Regeneration", "_t")
-t("You regenerate a total of %0.2f life over the duration of the effect.", "You regenerate a total of %0.2f life over the duration of the effect.", "tformat")
-t("+Osmosis Regen", "+Osmosis Regen", "_t")
-t("-Osmosis Regen", "-Osmosis Regen", "_t")
 t("Gain %d%% resistance and %d%% affinity to acid.", "Gain %d%% resistance and %d%% affinity to acid.", "tformat")
 t("+Acidic Bath", "+Acidic Bath", "_t")
 t("-Acidic Bath", "-Acidic Bath", "_t")
@@ -805,55 +727,8 @@ t("Demonic Cut", "Demonic Cut", "_t")
 t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "tformat")
 t("+Demonic Cut", "+Demonic Cut", "_t")
 t("-Demonic Cut", "-Demonic Cut", "_t")
-t("When this target is damaged %d%% of the damage will also be done to an other victim.", "When this target is damaged %d%% of the damage will also be done to an other victim.", "tformat")
-t("ritual", "ritual", "effect subtype")
-t("#Target# is linked through pain.", "#Target# is linked through pain.", "_t")
-t("+Link of Pain", "+Link of Pain", "_t")
-t("#Target# link of pain disappears.", "#Target# link of pain disappears.", "_t")
-t("-Link of Pain", "-Link of Pain", "_t")
-t("#ORANGE##Source# shares some pain with #target#!#LAST#", "#ORANGE##Source# shares some pain with #target#!#LAST#", "delayedLogMessage")
-t("The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "tformat")
-t("#Target# burns with dark flames.", "#Target# burns with dark flames.", "_t")
-t("+Only Ashes Left", "+Only Ashes Left", "_t")
-t("-Only Ashes Left", "-Only Ashes Left", "_t")
-t("The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.", "The target has %d%% chances to fail any talents use and suffers %d reduced physical, mental and spell saves.", "tformat")
-t("+Shattered Mind", "+Shattered Mind", "_t")
-t("The Spellblaze ripples through #target#!", "The Spellblaze ripples through #target#!", "_t")
-t("#Target# is no longer influenced by the Spellblaze.", "#Target# is no longer influenced by the Spellblaze.", "_t")
-t("-Shattered Mind", "-Shattered Mind", "_t")
-t([[All damage affinity increased by %d%%.
-Will not die until %d life]], [[All damage affinity increased by %d%%.
-Will not die until %d life]], "tformat")
-t("#Target# is filled with dark power!", "#Target# is filled with dark power!", "_t")
-t("+Dark Reign", "+Dark Reign", "_t")
 t("#Target# is no longer subject to the dark power.", "#Target# is no longer subject to the dark power.", "_t")
-t("-Dark Reign", "-Dark Reign", "_t")
-t("All damage you deal is converted to darkness.", "All damage you deal is converted to darkness.", "tformat")
-t("#Target# becomes an avatar of darkness!", "#Target# becomes an avatar of darkness!", "_t")
-t("+Blood Pact", "+Blood Pact", "_t")
-t("-Blood Pact", "-Blood Pact", "_t")
-t("The darkness within #target# subsides.", "The darkness within #target# subsides.", "_t")
-t("Fire and physical resistance reduced by %d%%.", "Fire and physical resistance reduced by %d%%.", "tformat")
-t("Fire Haven", "Fire Haven", "_t")
-t("The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "_t")
-t("Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "tformat")
-t("Spellpower increased by %d.", "Spellpower increased by %d.", "tformat")
-t("Triggers Blood Drinker if this creature dies.", "Triggers Blood Drinker if this creature dies.", "_t")
-t("%d vim regen and %d%% evasion chance.", "%d vim regen and %d%% evasion chance.", "tformat")
-t("#Target# is drunk with blood!", "#Target# is drunk with blood!", "_t")
-t("The bloodlust of #target# subsides.", "The bloodlust of #target# subsides.", "_t")
-t("All damage affinity increased by %d%%.", "All damage affinity increased by %d%%.", "tformat")
-t("affinity", "affinity", "effect subtype")
-t("Improves/gives invisibility (power %d), converts all damage to darkness and uses your highest damage penetration and increase for darkness.", "Improves/gives invisibility (power %d), converts all damage to darkness and uses your highest damage penetration and increase for darkness.", "tformat")
-t("+Ominous Shadow", "+Ominous Shadow", "_t")
-t("-Ominous Shadow", "-Ominous Shadow", "_t")
-t("The target assumes the form of a dúathedlen.", "The target assumes the form of a dúathedlen.", "tformat")
-t("#Target# turns into a dúathedlen!", "#Target# turns into a dúathedlen!", "_t")
-t("+Corruption of the Doomed", "+Corruption of the Doomed", "_t")
-t("-Corruption of the Doomed", "-Corruption of the Doomed", "_t")
-t("#CRIMSON#Your corruption explodes around %s!", "#CRIMSON#Your corruption explodes around %s!", "logPlayer")
 t("%d charges.", "%d charges.", "tformat")
-t("seismic", "seismic", "effect subtype")
 
 
 ------------------------------------------------
@@ -4801,7 +4676,7 @@ t("Medical salve.", "Medical salve.", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/chemistry.lua"
--- 37 entries
+-- 33 entries
 t("crude", "crude", "_t")
 t("good", "good", "_t")
 t("mastercraft", "mastercraft", "_t")
@@ -4818,8 +4693,6 @@ t("chills your foe dealing %d damage and slowing them by one tenth of a turn", "
 t("%s acid groove", "%s acid groove", "tformat")
 t("Deals acid damage that also reduces armour.", "Deals acid damage that also reduces armour.", "_t")
 t("splashes acid on your target dealing %d damage and reducing their armor", "splashes acid on your target dealing %d damage and reducing their armor", "tformat")
-t("Brain Cap", "Brain Cap", "entity name")
-t("Brain Flare", "Brain Flare", "entity name")
 t("HEAD", "HEAD", "entity on slot")
 t("%s waterproof coating", "%s waterproof coating", "tformat")
 t("%s fireproof coating", "%s fireproof coating", "tformat")
@@ -4828,8 +4701,6 @@ t("%s flash powder", "%s flash powder", "tformat")
 t("%s itching powder", "%s itching powder", "tformat")
 t("HANDS", "HANDS", "entity on slot")
 t("action packed cloak", "action packed cloak", "_t")
-t("Rogue's Gallery", "Rogue's Gallery", "entity name")
-t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "_t")
 t("On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "_t")
 t("cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "_t")
 t("%s rustproof coating", "%s rustproof coating", "tformat")
@@ -7125,11 +6996,10 @@ t("You see here a cave painting, depicting a giant holding an object, which is p
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/maps/zones/worldmap.lua"
--- 4 entries
+-- 3 entries
 t("WARNING", "WARNING", "_t")
 t("Danger!", "Danger!", "_t")
 t("Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territory. Likely far too dangerous for you!", "Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territory. Likely far too dangerous for you!", "_t")
-t("Clork Peninsula", "Clork Peninsula", "_t")
 
 
 ------------------------------------------------
@@ -7406,62 +7276,13 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua"
--- 22 entries
-t("Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "_t")
+-- 1 entries
 t("Acid Groove", "Acid Groove", "_t")
-t("Allows your weapon to spray caustic acid on hit, reducing armor.", "Allows your weapon to spray caustic acid on hit, reducing armor.", "_t")
-t("Brain Cap", "Brain Cap", "_t")
-t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "_t")
-t("Brain Flare", "Brain Flare", "_t")
-t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "_t")
-t("Waterproof Coating", "Waterproof Coating", "_t")
-t("Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "_t")
-t("Fireproof Coating", "Fireproof Coating", "_t")
-t("New cloak doesn't have all the resistances you wanted? A fireproof coating it just what you need!", "New cloak doesn't have all the resistances you wanted? A fireproof coating it just what you need!", "_t")
-t("What is better than throwing sand in someone's face? Throwing sand that shines as bright as the Sun!", "What is better than throwing sand in someone's face? Throwing sand that shines as bright as the Sun!", "_t")
-t("The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "_t")
-t("Rogue's Gallery", "Rogue's Gallery", "_t")
-t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "_t")
-t("flash powder", "flash powder", "_t")
-t("Rustproof Coating", "Rustproof Coating", "_t")
-t("Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "_t")
-t("Alchemist's Helper", "Alchemist's Helper", "_t")
-t("An ingenius collection of tough no-spill pockets allows you to keep all those dangerous reagents close at hand. (increases acid, fire, nature and blight damage.)", "An ingenius collection of tough no-spill pockets allows you to keep all those dangerous reagents close at hand. (increases acid, fire, nature and blight damage.)", "_t")
-t("Black Light Emitter", "Black Light Emitter", "_t")
-t("Make the invisible visible.", "Make the invisible visible.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/tinkers/electricity.lua"
--- 22 entries
-t("Lightning Coil", "Lightning Coil", "_t")
-t("Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "_t")
-t("Mana Coil", "Mana Coil", "_t")
-t("Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "_t")
-t("Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "_t")
-t("Gives you the Electric Touch. Higher tiers will chain.", "Gives you the Electric Touch. Higher tiers will chain.", "_t")
-t("Deflection Field", "Deflection Field", "_t")
-t("Protect yourself with the Power of Magnetism! Attach this device to your belt and watch those bullets miss every time! (not guaranteed to work every time)", "Protect yourself with the Power of Magnetism! Attach this device to your belt and watch those bullets miss every time! (not guaranteed to work every time)", "_t")
-t("Galvanic Retributor", "Galvanic Retributor", "_t")
-t("Fortify your shield with electricity and prepare to unleash GALVANIC RETRIBUTION against your attackers!", "Fortify your shield with electricity and prepare to unleash GALVANIC RETRIBUTION against your attackers!", "_t")
-t("Shocking Edge", "Shocking Edge", "_t")
-t("Attaching a capacitor to your weapon in just the right way is a great way to shock your enemies.", "Attaching a capacitor to your weapon in just the right way is a great way to shock your enemies.", "_t")
-t("Steamsaw: Stormcutter", "Steamsaw: Stormcutter", "_t")
-t("The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "_t")
-t("shocking edge", "shocking edge", "_t")
-t("Just drop it down and watch the sparks fly when your enemies get near.", "Just drop it down and watch the sparks fly when your enemies get near.", "_t")
-t("Mental Stimulator", "Mental Stimulator", "_t")
-t("Supercharge your thinking and give your brain a boost with the Mental Stimulator!", "Supercharge your thinking and give your brain a boost with the Mental Stimulator!", "_t")
-t("Power Distributor", "Power Distributor", "_t")
-t("The Power Distributor V2 ensures you have the energy where and when you need it, without any of the side effects like V1 had.", "The Power Distributor V2 ensures you have the energy where and when you need it, without any of the side effects like V1 had.", "_t")
-t("White Light Emitter", "White Light Emitter", "_t")
-t("Add more light to your light!", "Add more light to your light!", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/tinkers/explosive.lua"
--- 28 entries
-t("Thunderclap Coating", "Thunderclap Coating", "_t")
+-- 27 entries
 t("Coat your weapon in a substance that will react destructively on impact, causing your attacks to burst out in an area.", "Coat your weapon in a substance that will react destructively on impact, causing your attacks to burst out in an area.", "_t")
 t("Steamgun", "Steamgun", "_t")
 t("Dismantle any one sling, add some amazing steampower to it and make a powerful steamgun to fire a bullet hell at your foes!", "Dismantle any one sling, add some amazing steampower to it and make a powerful steamgun to fire a bullet hell at your foes!", "_t")
@@ -7578,12 +7399,6 @@ t("Helps keep your airway open and lets you hold your breath longer.", "Helps ke
 t("Where you walk nature grows! Well moss. Sticky moss.", "Where you walk nature grows! Well moss. Sticky moss.", "_t")
 t("Fungal Web", "Fungal Web", "_t")
 t("This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/wda/orcs.lua"
--- 1 entries
-t("Clork Peninsula", "Clork Peninsula", "_t")
 
 
 ------------------------------------------------
@@ -9556,7 +9371,7 @@ t("You have unlocked a new talent: %s!", "You have unlocked a new talent: %s!", 
 
 ------------------------------------------------
 section "game/modules/tome/class/Grid.lua"
--- 17 entries
+-- 16 entries
 t("Leave", "Leave", "_t")
 t("Open", "Open", "_t")
 t("%s", "%s", "logSeen")
@@ -9569,7 +9384,6 @@ t("Lit", "Lit", "_t")
 t("Blocks sight", "Blocks sight", "_t")
 t("Blocks movement", "Blocks movement", "_t")
 t("Special breathing method required", "Special breathing method required", "_t")
-t("Diggable", "Diggable", "_t")
 t("Cannot teleport to this place", "Cannot teleport to this place", "_t")
 t("Coords: ", "Coords: ", "_t")
 t("map attrs: ", "map attrs: ", "_t")
@@ -9644,9 +9458,7 @@ t("Action radius: %d", "Action radius: %d", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/Player.lua"
--- 44 entries
-t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "logPlayer")
-t("Level change (%s)!", "Level change (%s)!", "tformat")
+-- 42 entries
 t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#LIFE LOST WARNING!", "say")
 t("", "", "log")
 t("taken damage", "taken damage", "_t")
@@ -10237,61 +10049,6 @@ t("Wealth", "Wealth", "calendar dwarf")
 t("Dearth", "Dearth", "calendar dwarf")
 t("Loss", "Loss", "calendar dwarf")
 t("Shortage", "Shortage", "calendar dwarf")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/antimagic-end.lua"
--- 3 entries
-t("\
-\
-#{italic}##LIGHT_GREEN#*As you drink the potion, your runes start to burn as they fade away, and a terrible agony seems to sink through your skin to your bones, muscles, and heart.  You black out from the pain, and come to a bit later, the runes gone forever.  You feel very ill, and yet...  cleansed.*#{normal}##WHITE#", "\
-\
-#{italic}##LIGHT_GREEN#*As you drink the potion, your runes start to burn as they fade away, and a terrible agony seems to sink through your skin to your bones, muscles, and heart.  You black out from the pain, and come to a bit later, the runes gone forever.  You feel very ill, and yet...  cleansed.*#{normal}##WHITE#", "_t")
-t([[Excellent! You truly prove that no mage-wrought flame or storm can stand against blade and arrow! Come, learn our ways. You are ready.
-#LIGHT_GREEN#*he gives you a potion.*#WHITE#
-Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], [[Excellent! You truly prove that no mage-wrought flame or storm can stand against blade and arrow! Come, learn our ways. You are ready.
-#LIGHT_GREEN#*he gives you a potion.*#WHITE#
-Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], "tformat")
-t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/ardhungol-end.lua"
--- 4 entries
-t([[#LIGHT_GREEN#*As the monstrous spider falls you see something... moving in her belly until it explodes! A tall black man steps out of the spewed guts, surrounded by a golden light.*#WHITE#
-By the Sun! I thought I would never again see a friendly face!
-Thank you. I am Rashim, and I am in your debt.
-]], [[#LIGHT_GREEN#*As the monstrous spider falls you see something... moving in her belly until it explodes! A tall black man steps out of the spewed guts, surrounded by a golden light.*#WHITE#
-By the Sun! I thought I would never again see a friendly face!
-Thank you. I am Rashim, and I am in your debt.
-]], "_t")
-t("I have been sent by your wife. She was worried for you.", "I have been sent by your wife. She was worried for you.", "_t")
-t([[Ah, my dear heart!
-Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], [[Ah, my dear heart!
-Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], "_t")
-t("Lead the way!", "Lead the way!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/ardhungol-start.lua"
--- 13 entries
-t("Good day to you.", "Good day to you.", "_t")
-t("Good day to you too.", "Good day to you too.", "_t")
-t("I have heard you are a great hero of the west. Could you help me, please?", "I have heard you are a great hero of the west. Could you help me, please?", "_t")
-t("Maybe, what is it about?", "Maybe, what is it about?", "_t")
-t("I have got enough problems sorry.", "I have got enough problems sorry.", "_t")
-t("Welcome back, @playername@.", "Welcome back, @playername@.", "_t")
-t("I have found your husband. I take it he made it home safely?", "I have found your husband. I take it he made it home safely?", "_t")
-t("I've got to go. Bye.", "I've got to go. Bye.", "_t")
-t([[My husband, Rashim, is a Sun Paladin. He was sent to clear the spider lair of Ardhungol to the north of this town.
-It has been three days now. He should be back by now. I have a feeling something terrible has happened to him. Please find him!
-He should have a magical stone given by the Anorithil to create a portal back here, yet he did not use it!]], [[My husband, Rashim, is a Sun Paladin. He was sent to clear the spider lair of Ardhungol to the north of this town.
-It has been three days now. He should be back by now. I have a feeling something terrible has happened to him. Please find him!
-He should have a magical stone given by the Anorithil to create a portal back here, yet he did not use it!]], "_t")
-t("I will see if I can find him.", "I will see if I can find him.", "_t")
-t("Spiders? Eww, sorry, but he is probably dead now.", "Spiders? Eww, sorry, but he is probably dead now.", "_t")
-t("Yes, yes he did! He said he would have died if not for you.", "Yes, yes he did! He said he would have died if not for you.", "_t")
-t("It was nothing.", "It was nothing.", "_t")
 
 
 ------------------------------------------------
@@ -13992,9 +13749,8 @@ t("This ethereal eye stares eternally, as if seeing things that do not truly exi
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/boss-artifacts.lua"
--- 21 entries
+-- 20 entries
 t("bloodied fang", "bloodied fang", "_t")
-t("Rungof's Fang", "Rungof's Fang", "entity name")
 t("A fang from the great warg, Rungof, still covered in blood.", "A fang from the great warg, Rungof, still covered in blood.", "_t")
 t("Khulmanar's Wrath", "Khulmanar's Wrath", "entity name")
 t("firey blackened battleaxe", "firey blackened battleaxe", "_t")
@@ -14546,7 +14302,7 @@ t("%s brandishes %s %s, turning into a corrupted losgoroth!", "%s brandishes %s 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts-far-east.lua"
--- 53 entries
+-- 52 entries
 t("Scroll of Summoning (Limmir the Jeweler)", "Scroll of Summoning (Limmir the Jeweler)", "entity name")
 t("summon Limmir the jeweler at the center of the lake of the moon", "summon Limmir the jeweler at the center of the lake of the moon", "_t")
 t("Pendant of the Sun and Moons", "Pendant of the Sun and Moons", "entity name")
@@ -14562,7 +14318,6 @@ t("pair of blackened boots", "pair of blackened boots", "_t")
 t("The master blood mage Ru'Khan was the first orc to experiment with the power of the Sher'Tul farportals in the Age of Pyre.  However, that first experiment was not particularly successful, and after the explosion of energy all that could be found of Ru'Khan was a pair of scorched boots.", "The master blood mage Ru'Khan was the first orc to experiment with the power of the Sher'Tul farportals in the Age of Pyre.  However, that first experiment was not particularly successful, and after the explosion of energy all that could be found of Ru'Khan was a pair of scorched boots.", "_t")
 t("unearthly black stone", "unearthly black stone", "_t")
 t("Goedalath Rock", "Goedalath Rock", "entity name")
-t("demonic", "demonic", "entity subtype")
 t("A small rock that seems from beyond this world, vibrating with a fierce energy.  It feels warped and terrible and evil... and yet oh so powerful.", "A small rock that seems from beyond this world, vibrating with a fierce energy.  It feels warped and terrible and evil... and yet oh so powerful.", "_t")
 t("evil touch", "evil touch", "_t")
 t("Threads of Fate", "Threads of Fate", "entity name")
@@ -24048,7 +23803,7 @@ Wyrmics are also trained in the martial arts and use stamina for some techniques
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/magical.lua"
--- 102 entries
+-- 101 entries
 t("#Target# stops leeching life.", "#Target# stops leeching life.", "_t")
 t("The target's final doom is drawing near, reducing healing factor by 80%% and dealing %0.2f frostdusk damage per turn. The effect will stop if the caster dies.", "The target's final doom is drawing near, reducing healing factor by 80%% and dealing %0.2f frostdusk damage per turn. The effect will stop if the caster dies.", "tformat")
 t("#Target# is doomed!", "#Target# is doomed!", "_t")
@@ -24081,7 +23836,6 @@ t("You resisted a Lich and are immune to its frightening presence.", "You resist
 t("Energy Alteration (%s)", "Energy Alteration (%s)", "tformat")
 t("%d%% of all damage converted to %s.", "%d%% of all damage converted to %s.", "tformat")
 t("Physical power, spellpower and all saves increased by %d.", "Physical power, spellpower and all saves increased by %d.", "tformat")
-t("Spellpower increased by %d.", "Spellpower increased by %d.", "tformat")
 t("Necrotic Aura", "Necrotic Aura", "_t")
 t("All resistances increased by %d.", "All resistances increased by %d.", "tformat")
 t("Maximum life increased by %d.", "Maximum life increased by %d.", "tformat")
