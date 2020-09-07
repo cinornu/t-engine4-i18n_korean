@@ -466,6 +466,7 @@ t(" and ", "와 ", "_t")
 section "game/modules/tome/class/Grid.lua"
 
 t("%s's %s", "%s 의 %s", "tformat")
+t("Diggable", "굴착 가능", "_t")
 
 
 ------------------------------------------------
@@ -624,7 +625,7 @@ t("%s granted: ", "%s 습득: ", "tformat")
 t("Talent", "기술", "_t")
 t("Talents", "기술", "_t")
 t("Allows you to breathe in: ", "호흡 가능: ", "_t")
-t("Critical mult.: ", "치명타 피해 증가.: ", "_t")
+t("Critical mult.: ", "치명타 피해 증가: ", "_t")
 t("Reduces incoming crit damage: ", "피격 시 치명타 무효화: ", "_t")
 t("Reduces opponents crit chance: ", "공격자의 치명타 확률 감소: ", "_t")
 t("Trap disarming bonus: ", "추가 함정 해체력: ", "_t")
@@ -832,6 +833,8 @@ t("default", "기본", "_t")
 section "game/modules/tome/class/Player.lua"
 
 t("There is an item here: %s", "물건이 있다: %s", "logSeen")
+t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#이 곳은 %s 입니다 ('<', '>' 나 마우스 우클릭으로 이동).", "logPlayer")
+t("Level change (%s)!", "지역 이동 (%s)!", "tformat")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#당신은 너무 많은 것을 들고있어 움직일 수 없다!", "logPlayer")
 t("#FF0000#Drop some of your items.", "#FF0000#물건을 조금 버리십시오.", "logPlayer")
 t("#PINK#Your summoned %s disappears.", "#PINK#소환했던 %s 사라졌다.", "logPlayer", nil, {"가"})
@@ -3362,7 +3365,7 @@ t("Hrmph.", "후...", "_t")
 section "game/modules/tome/data/chats/alchemist-last-hope.lua"
 
 t("Damn it all. You're too late. %s has already finished. But I suppose you did your best, so I'll take these and keep my end of the bargian.", "제기랄, 너무 늦었어. %s 벌써 형제단에 들어갔다더군. 하지만 네가 노력까진 했다는 건 알고 있으니까, 혼합물은 이번만 특별히 만들어 주도록 하지.", "tformat", nil, {"이"})
-t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "잘 했어! 그리고 아직까진 사지가 말짱하구만. 늘 그랬듯이 멋져. 지금 특히 까다로운 조합물을 안전하게 만들었을 때랑 비슷한 느낌이야. 내 얼굴을 깨끗하게 날려먹을 뻔한 적이 꽤 있었으니까. 오, 그런데 네가 없는 동안 %s %s 간신히 만들었다는 소식을 들었어. 그가 나보다 먼저 과제를 끝내게 놔 두진 말라고!", "tformat", nil, {"이","를"})
+t("Great work! And you're still in one piece, I see. Always nice. I feel the same way after safely brewing up a particularly tricky mixture. I've near blown my face clean off several times. Oh, while you were gone a little bird told me that %s has managed to create a %s. Don't let him finish before me!", "잘 했어! 그리고 아직까진 사지가 말짱하구만. 늘 그랬듯이 멋져. 지금 특히 까다로운 혼합물을 안전하게 만들었을 때랑 비슷한 느낌이야. 내 얼굴을 깨끗하게 날려먹을 뻔한 적이 꽤 있었으니까. 오, 그런데 네가 없는 동안 %s %s 간신히 만들었다는 소식을 들었어. 그가 나보다 먼저 과제를 끝내게 놔 두진 말라고!", "tformat", nil, {"이","를"})
 t([[#LIGHT_GREEN#*A dwarf in stained, battered mail armor opens the door.*#WHITE#
 Say, you interested in dismembering stuff and getting paid?]], [[#LIGHT_GREEN#*얼룩지고 낡은 사슬 갑옷을 입은 드워프가 문을 열었습니다.*#WHITE#
 자, 뭔가를 잘라내고 보수를 받는 일에 관심이 있으신가?]], "_t")
@@ -3477,16 +3480,56 @@ t("No thanks.", "사양하지.", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/antimagic-end.lua"
 
+t("\
+\
+#{italic}##LIGHT_GREEN#*As you drink the potion, your runes start to burn as they fade away, and a terrible agony seems to sink through your skin to your bones, muscles, and heart.  You black out from the pain, and come to a bit later, the runes gone forever.  You feel very ill, and yet...  cleansed.*#{normal}##WHITE#", "\
+\
+#{italic}##LIGHT_GREEN#*물약을 들이키자, 당신의 룬들이 사라지면서 불타기 시작하고, 끔찍한 고통이 피부에서부터 뼈, 근육, 그리고 심장까지 파고들었습니다.  당신은 극심한 고통으로 기절할 지경이었고, 잠시 뒤에 눈을 떠서 확인해 보니, 룬들은 영영 사라져 있었습니다. 당신은 지금 몸 상태가 매우 안 좋은 듯한, 그리고 이제 좀... 정화된 듯한 느낌이 듭니다.*#{normal}##WHITE#", "_t")
+t([[Excellent! You truly prove that no mage-wrought flame or storm can stand against blade and arrow! Come, learn our ways. You are ready.
+#LIGHT_GREEN#*he gives you a potion.*#WHITE#
+Drink this. We extract it from a very rare kind of drake. It will grant you powers to fight and cancel magic, but never again will you be able to use magic.%s]], [[훌륭하다! 그대는 어떤 마법사의 불꽃과 폭풍도 검과 화살에 맞설 수는 없다는 것을 진실로 증명하였다! 이리 와서, 우리의 방식을 배우라. 그대는 준비가 되어 있을 터이다.
+#LIGHT_GREEN#*그가 당신에게 어떤 물약을 주었습니다.*#WHITE#
+이것을 마셔라. 굉장히 희귀한 종류의 용에게서 추출한 것이다. 그것은 그대에게 마법과 맞서 싸우고 주문을 무력화할 수 있는 힘을 줄 것이지만, 대신 그대는 두 번 다시는 마법을 쓰지 못하게 되리라.%s]], "tformat")
+t("Thank you. I shall not let magic triumph! #LIGHT_GREEN#[you drink the potion]", "감사합니다. 마법이 세상을 뜻대로 주무르도록 놔 두지 않겠습니다! #LIGHT_GREEN#[물약을 마신다]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/ardhungol-end.lua"
 
+t([[#LIGHT_GREEN#*As the monstrous spider falls you see something... moving in her belly until it explodes! A tall black man steps out of the spewed guts, surrounded by a golden light.*#WHITE#
+By the Sun! I thought I would never again see a friendly face!
+Thank you. I am Rashim, and I am in your debt.
+]], [[#LIGHT_GREEN#*괴물 거미가 쓰러지자 무언가가 보였습니다... 거미의 뱃속에서 움직이다가 방금 폭발한 무언가가요! 황금빛에 둘러싸인 훤칠한 흑인 남성이 내장을 뒤집어쓰고 걸어나왔습니다.*#WHITE#
+태양이시여! 친숙한 얼굴을 두 번 다시 못 볼줄 알았습니다!
+고맙습니다. 제 이름은 라심이고, 당신께는 빚을 졌군요.
+]], "_t")
+t("I have been sent by your wife. She was worried for you.", "당신 아내가 부탁해서 왔어. 걱정이 태산이던데.", "_t")
+t([[Ah, my dear heart!
+Well, now that I am free I will create a portal to the Gates of Morning. I think I've seen enough spiders for the rest of my life.]], [[아, 내 사랑!
+음, 이제 제가 자유로워졌으니 아침의 문으로 통하는 차원문을 만들겠습니다. 평생동안 볼 거미를 오늘 다 본 것 같네요.]], "_t")
+t("Lead the way!", "앞장서!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/ardhungol-start.lua"
 
+t("Good day to you.", "좋은 하루 보내세요.", "_t")
+t("Good day to you too.", "그쪽도 좋은 하루 보내길.", "_t")
+t("I have heard you are a great hero of the west. Could you help me, please?", "당신이 그 서쪽에서 온 위대한 영웅인가요? 부디 절 좀 도와주세요.", "_t")
+t("Maybe, what is it about?", "무슨 일인데?", "_t")
+t("I have got enough problems sorry.", "미안, 지금은 해야 될 일이 많아.", "_t")
+t("Welcome back, @playername@.", "잘 돌아오셨어요, @playername@.", "_t")
+t("I have found your husband. I take it he made it home safely?", "당신의 남편을 찾았어. 그가 안전히 돌아왔나?", "_t")
+t("I've got to go. Bye.", "가 봐야겠네. 안녕히.", "_t")
+t([[My husband, Rashim, is a Sun Paladin. He was sent to clear the spider lair of Ardhungol to the north of this town.
+It has been three days now. He should be back by now. I have a feeling something terrible has happened to him. Please find him!
+He should have a magical stone given by the Anorithil to create a portal back here, yet he did not use it!]], [[제 남편인 라심은 태양의 기사에요. 그이는 이 마을 북쪽에 있는 알드훈골이라는 거미 소굴을 정리하라는 임무를 받았었죠.
+그게 벌써 3일 전 일이에요. 그이에게 뭔가 끔찍한 일이 일어난 게 틀림없어요. 그이를 찾아 주세요!
+그이는 아노리실에게서 이곳으로 돌아올 수 있는 마법석을 받았는데도, 아직까지 쓰질 않았어요!]], "_t")
+t("I will see if I can find him.", "그를 찾아 보겠어.", "_t")
+t("Spiders? Eww, sorry, but he is probably dead now.", "거미라고? 으으, 이런 말 하기 미안하지만, 그는 아마 죽었을 거야.", "_t")
+t("Yes, yes he did! He said he would have died if not for you.", "네, 네! 그이가 돌아왔어요! 당신이 아니었으면 죽었을 거라고 얘기했어요.", "_t")
+t("It was nothing.", "별 말씀을.", "_t")
 
 
 ------------------------------------------------
@@ -5915,6 +5958,7 @@ section "game/modules/tome/data/general/objects/boss-artifacts.lua"
 
 t("fang", "송곳니", "entity subtype")
 t("misc", "도구", "entity type")
+t("Rungof's Fang", "룽고프의 송곳니", "entity name")
 
 
 ------------------------------------------------
@@ -8336,6 +8380,7 @@ t("elven-silk wizard hat", "엘프 비단 마법 모자", "entity name")
 section "game/modules/tome/data/general/objects/world-artifacts-far-east.lua"
 
 t("tome", "고서", "entity subtype")
+t("demonic", "악마의", "entity subtype")
 t("Summon", "소환", "_t")
 
 
@@ -19250,9 +19295,9 @@ t([[You become better at using your armour to deflect blows and protect your vit
 t("Light Armour Training", "경갑 훈련", "talent name")
 t([[You learn to maintain your agility and manage your combat posture while wearing light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
 		In addition, when you step adjacent to a (visible) enemy, you use the juxtaposition to increase your total Defense by %d for 2 turns.
-		The Defense bonus scales with your Dexterity.]], [[경갑을 착용하며 민첩함과 전투 자세를 유지하는 법을 익혔습니다. 신체에 가죽보다 무겁지 않은 갑옷을 착용할 때, 방어력이 %d, 방어 효율이 %d%% 증가하고 피로도가 %d%% 감소합니다.
-		추가로 (눈에 보이는) 적과 인접한 곳으로 이동할 때, 적과 나란히 서서 2 턴 동안 총 방어력이 %d 증가합니다.
-		방어 효과는 민첩의 영향을 받아 증가합니다.]], "tformat")
+		The Defense bonus scales with your Dexterity.]], [[경갑을 착용하며 민첩함과 전투 자세를 유지하는 법을 익혔습니다. 신체에 가죽보다 무겁지 않은 갑옷을 착용할 때, 회피도가 %d, 방어 효율이 %d%% 증가하고 피로도가 %d%% 감소합니다.
+		추가로 (눈에 보이는) 적과 인접한 곳으로 이동할 때, 적과 나란히 서서 2 턴 동안 총 회피도가 %d 증가합니다.
+		회피 효과는 민첩의 영향을 받아 증가합니다.]], "tformat")
 t("Combat Accuracy", "전투 정확도", "talent name")
 t("Increases the accuracy of unarmed, melee and ranged weapons by %d.", "맨손 전투, 근접 및 원거리 무기의 정확도가 %d 증가합니다.", "tformat")
 t("Weapons Mastery", "무기 숙련", "talent name")
@@ -19574,7 +19619,7 @@ t("Tumble", "공중제비", "talent name")
 t("You must have an empty space to roll to.", "공중제비를 돌기위해선 비어있는 위치를 대상으로 해야한다.", "logPlayer")
 t([[In an extreme feat of agility, you move to a spot you can see within range, bounding around, over, or through any enemies in the way.
 		This talent cannot be used while wearing heavy armor, and leaves you exhausted.  The exhaustion increases the cost of your activated Mobility talents by %d%% (stacking), but fades over %d turns.]], [[극단적으로 빠른 몸놀림으로, 모든 적들의 방해를 무시하고 시야 내의 한 지점으로 이동합니다.
-		이 기술은 중갑, 판갑 착용시 사용이 불가능합니다. 기술 사용 후, 당신은 탈진하여 Mobility 기술들의 체력 소모량이 %d%% 증가합니다.(중첩됨), 하지만 %d 턴에 걸쳐 탈진이 회복됩니다.]], "tformat")
+		이 기술은 중갑, 판갑 착용시 사용이 불가능합니다. 기술 사용 후, 당신은 탈진하여 기동 기술들의 체력 소모량이 %d%% 증가합니다.(중첩됨), 하지만 %d 턴에 걸쳐 탈진이 회복됩니다.]], "tformat")
 t("Trained Reactions", "훈련된 반사 신경", "talent name")
 t("%s is not usable while wearing heavy armour.", "%s 중갑 방어구를 착용시에 사용할 수 없다.", "logPlayer", nil, {"는"})
 t("#FIREBRICK##Target# reacts to %s from #Source#, mitigating the blow!#LAST#.", "#FIREBRICK##Target2# #Source#의 %s에 반응하여 피해를 줄였다!#LAST#.", "logCombat")
@@ -20419,7 +20464,7 @@ t("Have dealt over 50000 damage with ranged weapons", "원거리 무기로 적�
 t([[You fire a shot straight at your enemy's vital areas, wounding them terribly.
 		Enemies hit by this shot will take 450%% weapon damage and will be stunned and crippled (losing 50%% physical, magical and mental attack speeds) for five turns due to the devastating impact of the shot.
 		The stun and cripple chances increase with your Accuracy.]], [[대상의 치명적 약점을 노려, 엄청난 피해를 줍니다.
-		대상에게 450%% 무기 피해를 주고, 5 턴 동안 기절과 무력화 (공격, 시전, 사고 속도 50%% 감소)) 상태효과를 동시에 줍니다.
+		대상에게 450%% 무기 피해를 주고, 5 턴 동안 기절과 무력화 (공격, 시전, 사고 속도 50%% 감소) 상태효과를 동시에 줍니다.
 		기절과 무력화 확률은 정확도에 비례하여 증가합니다.]], "tformat")
 
 
@@ -20622,7 +20667,7 @@ t("Irresistible Sun", "저항할 수 없는 태양의 힘", "talent name")
 t("Have dealt over 50000 light or fire damage", "화염이나 빛 속성으로 적에게 총 50,000 이상의 피해를 가할 것", "_t")
 t([[For 8 turns you gain the mass and power of a star, drawing all creatures within radius 5 toward you and dealing %0.2f fire, %0.2f light and %0.2f physical damage to all foes and reducing their damage dealt by 30%%.
 		Foes closer to you take up to 150%% damage.
-		The damage will increase with your Strength.]], [[8 턴 동안 강력한 항성의 힘을 빌어, 주변 5 칸 이내의 모든 적들을 끌어오며, 0.2f 화염 피해, %0.2f 빛 피해, %0.2f 물리 피해를 동시에 줍니다. 또한 적들의 피해량을 30%% 줄입니다.
+		The damage will increase with your Strength.]], [[8 턴 동안 강력한 항성의 힘을 빌어, 주변 5 칸 이내의 모든 적들을 끌어오며, %0.2f 화염 피해, %0.2f 빛 피해, %0.2f 물리 피해를 동시에 줍니다. 또한 적들의 피해량을 30%% 줄입니다.
 		시전자와 인접한 적에게는 피해량이 150%% 증가합니다.
 		피해량은 힘에 비례하여 받아 증가합니다.]], "tformat")
 t("I Can Carry The World!", "세상을 짊어질 자", "talent name")
@@ -23291,6 +23336,7 @@ t("fear", "공포", "effect subtype")
 t("Commander of the Dead", "죽은 자들의 지휘관", "_t")
 t("lich", "리치", "effect subtype")
 t("Consume Soul", "영혼 삼키기", "_t")
+t("Spellpower increased by %d.", "주문력 +%d.", "tformat")
 t("Lord of Skulls", "해골의 군주", "_t")
 t("Damage reduced by %d%%.", "가하는 피해량 -%d%%.", "tformat")
 t("Soul Leech", "영혼 착취", "_t")
@@ -28724,7 +28770,7 @@ t("Angolwen, the hidden city of magic", "앙골웬, 마법사들의 숨겨진 �
 t([[Secret place of magic, set apart from the world to protect it.
 Lead by the Supreme Archmage Linaniil.]], [[마법사들의 숨겨진 장소로 마법사들을 보호하기 위해 세상에서 고립됐습니다.
 대마도사 리나니일이 도시를 이끌고 있습니다.]], "_t")
-t("Hidden teleportation portal to Angolwen, the hidden city of magic", "숨겨진 마법사들의 도시, 앙골웬으로 통하는 숨겨진 순간이동 차원문입니다.", "entity name")
+t("Hidden teleportation portal to Angolwen, the hidden city of magic", "숨겨진 마법사들의 도시, 앙골웬으로 통하는 숨겨진 순간이동 차원문", "entity name")
 t("The portal fizzles.", "차원문이 치직거리기만 한다.", "log")
 t("Shatur (Town)", "샤툴 (마을)", "entity name")
 t("Capital city of Thaloren lands, ruled by Nessilla Tantaelen", "탈로레의 수도로, 네실라 탄탤렌이 도시를 이끌고 있습니다.", "_t")
@@ -29744,7 +29790,7 @@ t("Who knows what dark thoughts drive people to necromancy? Its art is as old as
 t("Some say that in their early days the Shaloren kings experimented with necromancy to preserve their flesh after death, but with little success. The Shaloren vehemently deny this.", "어떤 사람들은 샬로레의 왕들이 죽음 이후에도 육체를 보존하기 위해 오래전부터 사령술을 실험해 왔다고 말하지만, 매우 적은 수만이 성공했다고 합니다. 샬로레들은 이런 소문을 단호하게 부정합니다.", "init.lua load_tips")
 t("120 years ago Toknor and Mirvenia united the human and halfling kingdoms and wiped out the orcish race, thus establishing the Age of Ascendancy.", "120 년 전 Toknor와 Mirvenia 가  인간과 하플링 왕국을 하나의 왕국으로 재건해, 오크들을 쓸어버림으로서 주도의 시대를 열었습니다.", "init.lua load_tips")
 t("\"The Spellblaze tore Eyal apart and nearly brought about the end of all civilisation. Two thousand years on its shadow still hangs over many lands, and the prideful mages have never been forgiven their place in bringing it about.", "\"마법 폭발은 에이알을 찢어놓았고, 문명들을 모두 끝장낼 뻔 했습니다. 2000 년이 지난 지금도 아직도 많은 땅에 마법폭발의 영향이 남아있습니다. 그러나 오만스러운 마법사들은 그런 재앙을 불러온 것에 대해 단 한번도 죄책감을 느끼지 않았습니다.", "init.lua load_tips")
-t("Some are cursed with mental powers beyond their full control, turning them to a dark life powered by hatred.", "통제할 수 없는 정신력을 가진, 저주받은 이들은 증오에서 살아갈 힘을 받으며 어두운 삶을 살아가게 됩니다.", "init.lua load_tips")
+t("Some are cursed with mental powers beyond their full control, turning them to a dark life powered by hatred.", "통제할 수 없는 정신력을 가진 저주받은 이들은 증오에서 살아갈 힘을 받으며 어두운 삶을 살아가게 됩니다.", "init.lua load_tips")
 t("Dreadfell has always been shunned for its haunted crypts, but of late rumours tell of a darker and more terrible power in residence.", "유령들린 묘지인 두려움의 영역은 먼 미래까지, 공포로 인해 꺼려지는 장소일 것입니다. 어둡고 사악하지만 강력한 존재가 살고 있다는 소문들이 자주 들려옵니다.", "init.lua load_tips")
 t("Some Sher'Tul artifacts can still be found in hidden places, but it is said they are not to be trifled with.", "몇 개의 쉐르'툴 유물을 숨겨진 장소에서 찾을 수 있습니다. 만일 이 유물들을 획득한다면, 귀중하게 여기는게 좋을겁니다.", "init.lua load_tips")
 t("Drakes and wyrms are the strongest natural creatures in the world, capable of powers far beyond most other beings.", "용과 드레이크는 가장 강력한 자연계 생명체입니다. 이들의 힘은 다른 존재들을 아득히 능가합니다.", "init.lua load_tips")
