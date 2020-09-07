@@ -872,7 +872,7 @@ section "game/modules/tome/data/general/objects/totems.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wands.lua" Stéphanois
 section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
-
+ 장비 에고
 section "game/modules/tome/data/general/objects/egos/ammo.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/amulets.lua"
 section "game/modules/tome/data/general/objects/egos/armor.lua"
@@ -895,6 +895,13 @@ section "game/modules/tome/data/general/objects/egos/lite.lua"
 section "game/modules/tome/data/general/objects/egos/massive-armor.lua"
 section "game/modules/tome/data/general/objects/egos/mindstars.lua"
 section "game/modules/tome/data/general/objects/egos/potions.lua"
+ 아티팩트
+section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
+
+
+데미지 타입 ---------------------------------
+section "game/dlcs/tome-cults/data/damage_types.lua"
+section "game/modules/tome/data/damage_types.lua"
 
 
 section "game/modules/tome/class/Game.lua" Stéphanois - 기본적인 게임 로그메시지들
