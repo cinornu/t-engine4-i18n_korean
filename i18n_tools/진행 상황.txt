@@ -17,8 +17,6 @@
 
 "game/engines/default/data/keybinds/inventory.lua" uueeck 완
 
-"game/modules/tome/data/chats/arena-unlock.lua" beomkki 완 ** (존댓말 재검토)
-
 "game/modules/tome/data/achievements/arena.lua" jirehthecat 완
 
 "game/modules/tome/data/achievements/donator.lua" jirehthecat 완
@@ -184,7 +182,12 @@
 "game/modules/tome/data/chats/angolwen-staves-store.lua"
 "game/modules/tome/data/chats/antimagic-end.lua"
 "game/modules/tome/data/chats/ardhungol-end.lua"
-"game/modules/tome/data/chats/ardhungol-start.lua" Khelerd 완
+"game/modules/tome/data/chats/ardhungol-start.lua"
+"game/modules/tome/data/chats/arena-start.lua" Khelerd 완
+
+"game/modules/tome/data/chats/arena-unlock.lua" beomkki 완 ** (존댓말 재검토)
+
+"game/modules/tome/data/chats/arena.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
