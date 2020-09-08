@@ -365,6 +365,7 @@ t([[As long as you have at least a stack of Sadist you can radiate agony to all 
 		For 5 turns their mind will be so focused on their own pain that they will deal %d%% less damage to you.]], [[사디스트 중첩을 하나 이상 갖고있을 때, 격통을 반경 %d 칸 내의 시전자가 볼수있는, 생명력 80%% 이하인 적에게 발산할 수 있게됩니다.
 		5 턴 동안 적들의 정신이 격통으로 물들어, 가하는 피해량이 %d%% 감소합니다.]], "tformat")
 t("Torture Mind", "정신 고문", "talent name")
+t("You need a Sadist stack to use this talent.", "이 기술을 사용하려면 사디스트 중첩이 있어야한다.", "logPlayer")
 t([[As long as you have at least a stack of Sadist you can mentally lash out at a target, sending horrible images to its mind.
 		The target will reel from the effect for %d turns, rendering %d random talents unusable for the duration.]], [[사디스트 중첩을 하나 이상 갖고있을 때, 대상에게 끔찍한 환상을 보내 정신적인 공격을 가합니다.
 		이 효과로 인해 대상은 %d 턴 동안 정신을 놓아, 무작위한 %d 개의 기술을 사용할 수 없게됩니다.]], "tformat")
@@ -407,6 +408,8 @@ t("psionic", "초능력", "effect subtype")
 ------------------------------------------------
 section "game/addons/tome-possessors/init.lua"
 
+t("Possessor Bonus Class", "빙의술사 추가 직업", "init.lua long_name")
+t("Possessor class.", "빙의술사 직업.", "init.lua description")
 
 
 ------------------------------------------------
