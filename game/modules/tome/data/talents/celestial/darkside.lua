@@ -123,7 +123,7 @@ newTalent{
 	
 	info = function(self, t)
 		local range = t.range(self, t)
-		return ([[Fade into the darkness and reappear elsewhere within range %d.  When you emerge from the shadows, you are accompanied by a flash of light, dealing %0.2f damage to enemies in radius 1.
+		return ([[Fade into the darkness and reappear elsewhere within range %d.  When you emerge from the shadows, you are accompanied by a bright flash, dealing %0.2f light damage to enemies in radius 1.
 						 The damage will increase with your Spellpower.]]):tformat(range, damDesc(self, DamageType.LIGHT, t.getDamage(self, t)))
 	end,
 }
@@ -171,7 +171,7 @@ newTalent{
 		local damage = t.getDamage(self, t)*100
 		local mult = t.getMult(self, t)
 		return ([[Put all of your physical and magical might into one devastating attack.
-Strike all adjacent enemies for %d%% damage and daze them (using your highest power) for 3 turns.
+Strike all adjacent enemies for %d%% weapon damage and daze them (using your highest power) for 3 turns.
 
 Using this talent consumes all of your Positive Energy and prevents you from generating positive energy for 5 turns.
 Every point of positive energy increases the damage by %.2f%%.

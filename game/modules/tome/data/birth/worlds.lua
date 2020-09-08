@@ -95,6 +95,8 @@ newBirthDescriptor{
 			if actor.achievement_data[id] and actor.achievement_data[id].nb > 0 then return true end
 			-- Lumberjack massacre
 			if (actor:hasQuest("lumberjack-cursed") and (actor:hasQuest("lumberjack-cursed").lumberjacks_died or 0) >= 20) then return true end
+			-- Slave arena
+			if (actor:hasQuest("ring-of-blood") and actor:hasQuest("ring-of-blood"):isStatus(engine.Quest.DONE)) and actor:hasQuest("ring-of-blood"):isCompleted("won-fight") then return true end
 			return false
 		end,
 		stores_restock_by_level = 1,

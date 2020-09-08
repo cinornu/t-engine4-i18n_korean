@@ -333,10 +333,10 @@ uberTalent{
 		t.learnAndMaster(self, "cursed/bloodstained", true, 1.3)
 		t.learnAndMaster(self, "celestial/darkside", true, 1.3)
 		
-		t.learnAndMaster(self, "cursed/gloom", self:knowTalentType("celestial/radiance"), 1.3)
+		t.learnAndMaster(self, "cursed/gloom", self:knowTalentType("celestial/radiance"), 1.3 + (self.__increased_talent_types["celestial/radiance"] and 0.2 or 0))
 		
-		t.learnAndMaster(self, "cursed/crimson-templar", self:knowTalentType("celestial/guardian"), 1.3)
-		t.learnAndMaster(self, "celestial/black-sun", self:knowTalentType("celestial/crusader"), 1.3)
+		t.learnAndMaster(self, "cursed/crimson-templar", self:knowTalentType("celestial/guardian"), 1.3 + (self.__increased_talent_types["celestial/guardian"] and 0.2 or 0))
+		t.learnAndMaster(self, "celestial/dark-sun", self:knowTalentType("celestial/crusader"), 1.3 + (self.__increased_talent_types["celestial/crusader"] and 0.2 or 0))
 		
 		t.learnAndMaster(self, "cursed/self-hatred", true, 1.3)
 		t.learnAndMaster(self, "celestial/dirge", true, 1.3)
@@ -348,12 +348,20 @@ uberTalent{
 			["technique/2hweapon-assault"] = true,
 			["technique/shield-offense"] = true,
 		}
+		if self.__increased_talent_types["technique/2hweapon-assault"] then
+			self.unused_talents_types = self.unused_talents_types + 1
+		end
+		if self.__increased_talent_types["technique/shield-offense"] then
+			self.unused_talents_types = self.unused_talents_types + 1
+		end
 		t.unlearnTalents(self, t, removes)
 
 		self:attr("swap_combat_techniques_hate", 1)
 		
 		self:learnTalent(self.T_DIRGE_ACOLYTE, true, 1)
 		self:learnTalent(self.T_SELF_HARM, true, 1)
+
+		self.descriptor.class_evolution = _t"Fallen"
 
 		game.bignews:say(120, "#CRIMSON#You give in to the darkness. You have fallen!")
 		
@@ -382,7 +390,7 @@ uberTalent{
 		The following talent trees are swapped:
 		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
 		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Black Sun#LAST#: Call upon the energies of dead suns to crush your foes
+		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
 
 		You will learn the following talents trees:
 		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!

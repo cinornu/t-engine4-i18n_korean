@@ -24,7 +24,7 @@ newEntity{
 	display = "=",
 	encumber = 0.1,
 	rarity = 6,
-	desc = _t[[Rings can have magical properties.]],
+	desc = _t[[Rings make your fingers look great!]],
 	randart_able = "/data/general/objects/random-artifacts/generic.lua",
 	-- Most rings are ego items
 	egos = "/data/general/objects/egos/rings.lua", egos_chance = { prefix=resolvers.mbonus(50, 40), suffix=resolvers.mbonus(50, 40) }, egos_chance_decay = 0.5,
@@ -36,7 +36,7 @@ newEntity{
 	display = '"',
 	encumber = 0.1,
 	rarity = 8,
-	desc = _t[[Amulets can have magical properties.]],
+	desc = _t[[Amulets make your neck look great!]],
 	randart_able = "/data/general/objects/random-artifacts/generic.lua",
 	egos = "/data/general/objects/egos/amulets.lua", egos_chance = { prefix=resolvers.mbonus(50, 40), suffix=resolvers.mbonus(50, 40) }, egos_chance_decay = 0.5,
 }

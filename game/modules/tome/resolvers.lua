@@ -1450,3 +1450,18 @@ function resolvers.calc.easy_combat_table(t, e)
 	end
 	return def
 end
+
+--- Levelup resolver
+function resolvers.levelup_range(min1, max50, stop_at)
+	return {__resolver="levelup_range", min1, max50, stop_at}
+end
+function resolvers.calc.levelup_range(t, e, _, _, k, kchain)
+	if not e._levelup_info then e._levelup_info = {} end
+
+	local base_level = 1
+	if e.level_range and e.level_range[1] then base_level = e.level_range[1] end
+
+	local per_level = (t[2] - t[1]) / 50
+	e._levelup_info[#e._levelup_info+1] = {every=1, inc=per_level, max=t[3], kchain=table.clone(kchain), k=k}
+	return base_level * per_level + t[1]
+end

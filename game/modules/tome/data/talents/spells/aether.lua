@@ -206,7 +206,7 @@ newTalent{
 	requires_target = true,
 	no_energy = true,
 	tactical = { BUFF = 2 },
-	getNb = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 5, 9)) end, -- Limit duration < 15	
+	getNb = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 5.1, 10.1)) end, -- Limit duration < 15	
 	callbackOnTalentPost = function(self, t, ab)
 		if not self:hasEffect(self.EFF_AETHER_AVATAR) then return end
 		if ab.mode == "sustained" then return end

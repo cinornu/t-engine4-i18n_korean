@@ -24,7 +24,7 @@ desc = function(self, who)
 	desc[#desc+1] = _t"Your studies have uncovered much surrounding this subject, but now you must prepare for your glorious rebirth."
 	desc[#desc+1] = _t"You will need:"
 
-	if who.level >= 25 and who.unused_prodigies >= 1 and who:getMag() >= 50 and who:getWil() >= 25 then desc[#desc+1] = _t"#LIGHT_GREEN#* You are experienced enough.#WHITE#"
+	if (who.level >= 25 and who.unused_prodigies >= 1 and who:getMag() >= 50 and who:getWil() >= 25) or self:isSuccess() then desc[#desc+1] = _t"#LIGHT_GREEN#* You are experienced enough.#WHITE#"
 	else desc[#desc+1] = _t"#SLATE#* The ceremony will require that you are worthy, experienced, and possessed of a certain amount of power (level 25, Magic over 50, Willpower over 25 and one prodigy point available).#WHITE#" end
 
 	if self:isCompleted("heart") then desc[#desc+1] = _t"#LIGHT_GREEN#* You have 'extracted' the heart of one of your fellow necromancers.#WHITE#"
@@ -42,6 +42,8 @@ desc = function(self, who)
 	else
 		desc[#desc+1] = _t"#SLATE#* The ceremony will require a suitable location, secluded and given to the channelling of energy#WHITE#"
 	end
+
+	if self:isSuccess() then desc[#desc+1] = _t"#CRIMSON#* You have ascended to Lichdom!#WHITE#" end
 
 	return table.concat(desc, "\n")
 end

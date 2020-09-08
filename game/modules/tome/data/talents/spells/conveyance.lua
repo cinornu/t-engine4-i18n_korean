@@ -73,7 +73,7 @@ newTalent{
 	tactical = teleport_tactical,
 	getRange = function(self, t) return self:combatLimit(self:combatTalentSpellDamage(t, 10, 15), 40, 4, 0, 13.4, 9.4) end, -- Limit to range 40
 	range = function(self, t) return self:getTalentLevel(t) >= 4 and 10 or 0 end, -- for targeting enemies
-	getRadius = function(self, t) return math.floor(self:combatTalentLimit(t, 0, 6, 2)) end, -- Limit to radius >=0	
+	getRadius = function(self, t) return math.floor(self:combatTalentLimit(t, 0, 6, 1)) end, -- Limit to radius >=0	
 	is_teleport = true,
 	action = function(self, t)
 		local target = self
@@ -178,7 +178,7 @@ newTalent{
 	tactical = teleport_tactical,
 	getRange = function(self, t) return 100 + self:combatSpellpower(1) end,
 	range = function(self, t) return self:getTalentLevel(t) >= 4 and 10 or 0 end, -- for targeting enemies
-	getRadius = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 19, 15)) end, -- Limit > 0
+	getRadius = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 19, 12)) end, -- Limit > 0
 	minRange = 15,
 	
 	is_teleport = true,

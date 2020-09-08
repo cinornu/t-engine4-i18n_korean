@@ -24,14 +24,16 @@ As a sun paladin, you follow a code.  But with the darkness you've seen in the w
 
 You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
 
-New Powers:#YELLOW#
-- Dirges: A new set of songs that protect you from the world.
-- Self-Hatred: Spend your life for bloody destructive power.
-- Cursed Aura: Corrupt the items around you.
-Altered class abilities:
-- Bloodstained: Dash between enemies, stacking up damage over time.  You only stop when there's nothing left to kill!
-- Black Sun: Crush enemies with powerful gravity attacks.
-- Crimson Templar: Reflect damage to your enemies as their wounds grow worse and worse.
+Learn new Talents:#YELLOW#
+- Bloodstained: Make your foes bleed!
+- Darkside: Every light casts a shadow, yours is powerful indeed
+- Self-Hatred: Manifest your self hatred through bleeding
+- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
+
+Swap your paladin Talents:#YELLOW#
+- Radiance turns into Gloom: Project onto others your own hate, hindering them
+- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
+- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
 #WHITE#
 
 Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.

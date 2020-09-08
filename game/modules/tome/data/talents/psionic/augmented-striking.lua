@@ -171,13 +171,13 @@ newTalent{
 									self.temporary = self.temporary - 1
 									if self.temporary <= 0 then
 										game.level.map(self.x, self.y, engine.Map.TERRAIN, self.old_feat)
-										game.level:removeEntity(self)
+										game.level:removeEntity(self, true)
 										game.level.map:updateMap(self.x, self.y)
 										game.nicer_tiles:updateAround(game.level, self.x, self.y)
 									end
 								end,
 								dig = function(src, x, y, old)
-									game.level:removeEntity(old)
+									game.level:removeEntity(old, true)
 									return nil, old.old_feat
 								end,
 								summoner_gain_exp = true,

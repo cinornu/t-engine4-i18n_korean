@@ -2061,14 +2061,14 @@ function _M:setupCommands()
 			print("===============")
 		end end,
 		[{"_g","ctrl"}] = function() if config.settings.cheat then
+			game.player:takeHit(100, game.player)
+			game.player:useEnergy()
+			-- DamageType:get(DamageType.ACID).projector(game.player, game.player.x, game.player.y, DamageType.ACID, 100)
+do return end
 			local f, err = loadfile("/data/general/events/glowing-chest.lua")
 			print(f, err)
 			setfenv(f, setmetatable({level=self.level, zone=self.zone}, {__index=_G}))
 			print(pcall(f))
-do return end
-			game.player:takeHit(100, game.player)
-			game.player:useEnergy()
-			-- DamageType:get(DamageType.ACID).projector(game.player, game.player.x, game.player.y, DamageType.ACID, 100)
 do return end
 			game.player:setEffect("EFF_STUNNED", 1, {apply_power=200})
 do return end

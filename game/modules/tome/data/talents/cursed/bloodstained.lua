@@ -102,7 +102,7 @@ newTalent{
 					local damrange = self:combatDamageRange(sw)
 					dam = rng.range(dam, dam * damrange)
 					dam = dam * t.getBleedDamage(self, t)
-					target:setEffect(target.EFF_CUT, 5, {power=dam / 5, src=self, apply_power=self:combatPhysicalpower()})
+					target:setEffect(target.EFF_CUT, 5, {power=dam / 5, src=self})
 				end
 			end
 		end
@@ -188,12 +188,11 @@ newTalent{
 		if not target then return end
 		if not hitted then return end
 		if target:canBe('cut') then
-			target:setEffect(target.EFF_CUT, 5, {power=dam * t.getBleed(self, t) / 5, src=self, apply_power=self:combatPhysicalpower()})
+			target:setEffect(target.EFF_CUT, 5, {power=dam * t.getBleed(self, t) / 5, src=self})
 		end
 	end,
 	info = function(self, t)
 		return ([[Your melee attacks also cause the target to bleed for %d%% of the damage dealt over five turns.
-The bleed chance increases with your Physical Power.
 
 Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]]):
 		tformat(t.getBleed(self, t)*100)

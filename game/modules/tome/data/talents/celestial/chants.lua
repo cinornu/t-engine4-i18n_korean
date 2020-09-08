@@ -338,7 +338,7 @@ newTalent{
 	require = divi_req3,
 	points = 5,
 	mode = "passive",
-	getDebuffCures = function(self, t) return math.floor(self:combatTalentScale(t, 0.4, 1.8, 0.75)) end,
+	getDebuffCures = function(self, t) return math.floor(self:combatTalentScale(t, 1, 1.8, 0.75)) end,
 	getBonusLight = function(self, t) return math.floor(self:combatTalentScale(t, 0.75, 3.5, 0.75)) end,
 	doCure = function(self, t, type)
 		if self.turn_procs.resetting_talents then return false end  -- Avoid levelup screen cleanse exploit
@@ -398,7 +398,7 @@ newTalent{
 	mode = "passive",
 	getLightDamageIncrease = function(self, t) return self:combatTalentSpellDamage(t, 10, 30) end,
 	getPos = function(self, t) return self:combatTalentScale(t, 2, 5) end,
-	getTurnLimit = function(self, t) return self:combatTalentScale(t, 0.5, 3) end,
+	getTurnLimit = function(self, t) return self:combatTalentScale(t, 1, 3) end,
 	callbackOnMeleeHit = function(self, t, src)
 		if not (self:isTalentActive(self.T_CHANT_OF_FORTRESS) or self:isTalentActive(self.T_CHANT_OF_FORTITUDE) or self:isTalentActive(self.T_CHANT_OF_RESISTANCE)) then return end
 		if src == self then return end

@@ -155,7 +155,7 @@ function _M:generateList()
 		-- can add extended inspection commands here by including the start tab with the dialog
 	-- space separating inspect from active actions
 	list[#list+1] = {name=_t" ", action=nil, color=colors.simple(colors.ANTIQUE_WHITE)}
-	if not self.on_player and a and profile.auth and profile.hash_valid then list[#list+1] = {name=_t"Link creature in chat", action="chat-link"} end
+	if not self.on_player and a and game.player:canSee(a) and profile.auth and profile.hash_valid then list[#list+1] = {name=_t"Link creature in chat", action="chat-link"} end
 	if self.on_player and (player.unused_stats > 0 or player.unused_talents > 0 or player.unused_generics > 0 or player.unused_talents_types > 0) then list[#list+1] = {name=_t"Levelup!", action="levelup", color=colors.simple(colors.YELLOW)} end
 
 	-- Talents

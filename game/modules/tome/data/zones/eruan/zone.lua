@@ -21,10 +21,10 @@ return {
 	name = _t"Erúan",
 	level_range = {30, 45},
 	level_scheme = "player",
-	max_level = 4,
+	max_level = 3,
 	decay = {300, 800},
 	actor_adjust_level = function(zone, level, e) return zone.base_level + e:getRankLevelAdjust() + level.level-1 + rng.range(-1,2) end,
-	width = 50, height = 50,
+	width = 30, height = 35,
 --	all_remembered = true,
 	all_lited = true,
 	day_night = true,
@@ -45,18 +45,18 @@ return {
 			down = "SAND_DOWN2",
 			do_ponds =  {
 				nb = {0, 2},
-				size = {w=25, h=25},
+				size = {w=20, h=15},
 				pond = {{0.6, "DEEP_OCEAN_WATER"}, {0.8, "DEEP_OCEAN_WATER"}},
 			},
 
-			nb_rooms = {0,0,1},
+			nb_rooms = {0,1},
 			rooms = {"greater_vault"},
 			greater_vaults_list = {"dragon_lair", "lava_island", "horror-chamber", "living-weapons", "sleeping-dragons"},
 			lite_room_chance = 100,
 		},
 		actor = {
 			class = "mod.class.generator.actor.Random",
-			nb_npc = {20, 30},
+			nb_npc = {18, 27},
 		},
 		object = {
 			class = "engine.generator.object.Random",
@@ -74,7 +74,7 @@ return {
 				up = "SAND_UP_WILDERNESS",
 			}, },
 		},
-		[4] = {
+		[3] = {
 			generator = { map = {
 				class = "engine.generator.map.Static",
 				map = "zones/eruan-last",

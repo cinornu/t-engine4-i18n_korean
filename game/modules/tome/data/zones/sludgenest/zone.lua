@@ -134,6 +134,7 @@ return {
 		local m = game.zone:makeEntity(game.level, "actor", filter, nil, true)
 		if g and m then
 			m.exp_worth = 0
+			m:emptyDrops()
 			game.zone:addEntity(game.level, g, "terrain", spot.x, spot.y)
 			game.zone:addEntity(game.level, m, "actor", spot.x, spot.y)
 			game.nicer_tiles:updateAround(game.level, spot.x, spot.y)

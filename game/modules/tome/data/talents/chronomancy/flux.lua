@@ -52,7 +52,7 @@ newTalent{
 	points = 5,
 	cooldown = 10,
 	tactical = { DEFEND = 2 },
-	getPercent = function(self, t) return (100 - self:combatTalentLimit(t, 80, 10, 60))/100 end, -- Limit < 20%
+	getPercent = function(self, t) return (100 - self:combatTalentLimit(t, 80, 15, 65))/100 end, -- Limit < 20%
 	getDuration = function(self, t) return getExtensionModifier(self, t, 3) end,
 	damage_feedback = function(self, t, p, src)
 		if p.particle and p.particle._shader and p.particle._shader.shad and src and src.x and src.y then

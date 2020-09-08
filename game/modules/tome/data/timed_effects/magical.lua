@@ -3159,7 +3159,7 @@ newEffect{
 	on_gain = function(self, err) return _t"#Target# is filled with the Sun's fury!", _t"+Sun's Vengeance" end,
 	on_lose = function(self, err) return _t"#Target#'s solar fury subsides.", _t"-Sun's Vengeance" end,
 	callbackOnKill = function(self, eff, src, msg)
-		if src.getHate and src:getHate() > 0 then
+		if src.knowTalent and src:knowTalent(src.T_HATE_POOL) then
       game:setAllowedBuild("paladin_fallen", true)
 		end
 	end,

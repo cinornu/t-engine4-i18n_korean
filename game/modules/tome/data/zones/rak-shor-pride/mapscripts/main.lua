@@ -25,6 +25,11 @@ self:defineTile("X", "BONEFLOOR", nil, {entity_mod=function(e) e.make_escort = n
 self:defineTile('&', "BONE_GENERIC_LEVER", nil, nil, nil, {lever=1, lever_kind="pride-doors", lever_spot={type="lever", subtype="door", check_connectivity="entrance"}}, {type="lever", subtype="lever", check_connectivity="entrance"})
 self:defineTile('*', "BONE_GENERIC_LEVER_DOOR", nil, nil, nil, {lever_action=2, lever_action_value=0, lever_action_kind="pride-doors"}, {type="lever", subtype="door", check_connectivity="entrance"})
 
+self:defineTile('N', "BONEFLOOR", nil, {random_filter={name="orc necromancer", random_boss={nb_classes=0, loot_quality="store", loot_quantity=1, ai_move="move_complex", rank=3.5, force_classes={Necromancer=true}}}})
+self:defineTile('C', "BONEFLOOR", nil, {random_filter={name="orc blood mage", random_boss={nb_classes=0, loot_quality="store", loot_quantity=1, loot_unique=true, no_loot_randart=true, ai_move="move_complex", rank=3.5, force_classes={Corruptor=true}}}})
+self:defineTile('m', "BONEFLOOR", nil, {random_filter={name="necrotic abomination"}})
+self:defineTile('s', "BONEFLOOR", nil, {random_filter={name="sanguine horror"}})
+
 local wfc = WaveFunctionCollapse.new{
 	mode="overlapping",
 	sample=self:getFile("!buildings2.tmx", "samples"),
@@ -45,6 +50,21 @@ tm:applyOnGroups(rooms, function(room, idx)
 
 	local event = room:pickSpot("any")
 	if event then self:addSpot(event, "event-spot", "subvault-place") end
+	
+	if rng.percent(25) then
+		local mpos = room:pickSpot("any")
+		if mpos then
+			local npos = room:randomNearPoint(mpos)
+			if npos then
+				local kind = rng.percent(55) and "necromancer" or "corruptor"
+				local minion
+				local master
+				if kind=="necromancer" then minion='m' master='N' else minion='s' master='C' end
+				tm:put(mpos, minion)
+				tm:put(npos, master)
+			end
+		end
+	end
 end)
 
 if rng.percent(15) and not game.state:doneEvent("renegade-undead") then 

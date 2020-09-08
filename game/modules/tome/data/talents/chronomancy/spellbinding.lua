@@ -30,7 +30,7 @@ newTalent{
 	cooldown = 10,
 	no_npc_use = true,
 	allow_temporal_clones = true,
-	getPower = function(self, t) return self:combatTalentLimit(t, 1, 0.1, 0.5) end,
+	getPower = function(self, t) return self:combatTalentLimit(t, 1, 0.125, 0.55) end,
 	on_pre_use = function(self, t, silent) if self ~= game.player and not self:isTalentActive(t) then return false end return true end,  -- but don't let them cast it
 	activate = function(self, t)
 		local talent = self:talentDialog(require("mod.dialogs.talents.ChronomancyEmpower").new(self))
@@ -67,7 +67,7 @@ newTalent{
 	cooldown = 10,
 	no_npc_use = true,
 	allow_temporal_clones = true,
-	getPower = function(self, t) return self:combatTalentLimit(t, 0.5, 0.05, 0.25) end,
+	getPower = function(self, t) return self:combatTalentLimit(t, 0.5, 0.07, 0.3) end,
 	on_pre_use = function(self, t, silent) if self ~= game.player and not self:isTalentActive(t) then return false end return true end,  -- but don't let them cast it
 	activate = function(self, t)
 		local talent = self:talentDialog(require("mod.dialogs.talents.ChronomancyExtension").new(self))
@@ -104,7 +104,7 @@ newTalent{
 	cooldown = 10,
 	no_npc_use = true,
 	allow_temporal_clones = true,
-	getPower = function(self, t) return self:combatTalentLimit(t, 0.5, 0.05, 0.25) end,
+	getPower = function(self, t) return self:combatTalentLimit(t, 0.5, 0.07, 0.3) end,
 	on_pre_use = function(self, t, silent) if self ~= game.player and not self:isTalentActive(t) then return false end return true end,  -- but don't let them cast it
 	activate = function(self, t)
 		local talent = self:talentDialog(require("mod.dialogs.talents.ChronomancyMatrix").new(self))
@@ -142,7 +142,7 @@ newTalent{
 	no_npc_use = true,  -- so rares don't learn useless talents
 	allow_temporal_clones = true,  -- let clones copy it anyway so they can benefit from the effects
 	on_pre_use = function(self, t, silent) if self ~= game.player and not self:isTalentActive(t) then return false end return true end,  -- but don't let them cast it
-	getPower = function(self, t) return self:combatTalentLimit(t, 1, 0.1, 0.5) end,
+	getPower = function(self, t) return self:combatTalentLimit(t, 1, 0.125, 0.55) end,
 	activate = function(self, t)
 		local talent = self:talentDialog(require("mod.dialogs.talents.ChronomancyQuicken").new(self))
 		if not talent then return nil end

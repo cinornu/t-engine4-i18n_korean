@@ -39,7 +39,7 @@ newTalent{
 	end,
 	action = function(self, t)
 		local damage = t.getDamage(self, t)
-		self:setEffect(self.EFF_CUT, 5, {src=self, power=damage/5, no_ct_effect=true, unresistable=true})
+		self:setEffect(self.EFF_SELF_JUDGEMENT, 5, {src=self, power=damage/5, no_ct_effect=true, unresistable=true}, true)
 		game:playSoundNear(self, "talents/fallen_chop")
 			return true
 	end,
@@ -58,7 +58,7 @@ newTalent{
 		local regen = t.getHate(self, t)
 		return ([[At the start of each turn, if you're bleeding, you gain %d hate.
 
-You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns.	This bleed cannot be resisted.
+You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns.	This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
 
 #{italic}#Pain is just about the only thing you can still feel.#{normal}#]]):tformat(regen, damage)
 	end,
@@ -137,6 +137,7 @@ newTalent{
 	callbackOnActBase = function(self, t)
 		-- Pay life
 		local price = t.getPrice(self, t)
+    game:delayedLogDamage(self, self, 0, ("#CRIMSON#%d#LAST#"):tformat(self.max_life * price / 100), false)
 		self:takeHit(self.max_life * price / 100, self, {special_death_msg="tore themself apart"})
 		t.surge(self, t)
 	end,
@@ -147,7 +148,7 @@ newTalent{
 Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed.	
 This bonus cooldown occurs even if your talents would not normally cool down.
 This talent deactivates automatically upon rest.
-This strength comes at a cost: you lose %d%% of your maximum life every turn.
+This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
 
 #{italic}#If you're lucky, this will take everything you've got.#{normal}#]]):tformat(price)
 	end,

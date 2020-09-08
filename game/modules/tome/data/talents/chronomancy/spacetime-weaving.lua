@@ -135,7 +135,7 @@ newTalent{
 	cooldown = 10,
 	tactical = { ESCAPE = 2 },
 	range = 10,
-	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 1, 5, 2)) end, -- Limit to radius 1
+	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 1, 5, 1.9)) end, -- Limit to radius 1
 	requires_target = true,
 	getDuration = function (self, t) return getExtensionModifier(self, t, math.floor(self:combatTalentScale(t, 6, 10))) end,
 	no_npc_use = true,

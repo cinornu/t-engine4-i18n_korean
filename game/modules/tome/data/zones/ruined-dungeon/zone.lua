@@ -125,11 +125,11 @@ return {
 					end
 					
 					local filter = {}
-					if sequence_failures >= 10 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=5, rank = 10}} random_elite = random_elite + 1
-					elseif sequence_failures >= 9 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=4, rank = 5}} random_elite = random_elite + 1
-					elseif sequence_failures >= 7 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=3, rank = 4}} random_elite = random_elite + 1
-					elseif sequence_failures >= 6 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, rank = 3.5}} random_elite = random_elite + 1
-					elseif sequence_failures >=4 and random_elite < 2 then filter = {random_elite = {power_source = {nature=true, psionic=true, technique=true}}} random_elite = random_elite + 1
+					if sequence_failures >= 10 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=5, rank = 10, loot_quantity=0, no_loot_randart=true}} random_elite = random_elite + 1
+					elseif sequence_failures >= 9 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=4, rank = 5, loot_quantity=0, no_loot_randart=true}} random_elite = random_elite + 1
+					elseif sequence_failures >= 7 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, nb_classes=3, rank = 4, loot_quantity=0, no_loot_randart=true}} random_elite = random_elite + 1
+					elseif sequence_failures >= 6 and random_elite < 1 then filter = {random_boss = {power_source = {nature=true, psionic=true, technique=true}, rank = 3.5, loot_quantity=0, no_loot_randart=true}} random_elite = random_elite + 1
+					elseif sequence_failures >=4 and random_elite < 2 then filter = {random_elite = {power_source = {nature=true, psionic=true, technique=true}}, loot_quantity=0, no_loot_randart=true} random_elite = random_elite + 1
 					end
 					filter.add_levels = math.floor(5+1.5*sequence_failures^1.5)
 
