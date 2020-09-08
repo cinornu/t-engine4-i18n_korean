@@ -240,6 +240,7 @@ t("previous level", "이전 층", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/events/tentacle-tree.lua"
 
+t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 
 
 ------------------------------------------------
@@ -247,6 +248,7 @@ section "game/dlcs/tome-cults/data/general/grids/fonts.lua"
 
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
+t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("floor", "바닥", "entity type")
 
 
@@ -2960,7 +2962,7 @@ t([[Infused by #YELLOW#psionic forces#LAST#
 t([[Powered by #CRIMSON#unknown forces#LAST#
 ]], [[#CRIMSON#알 수 없는 힘#LAST#이 스며듬
 ]], "_t")
-t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "log")
+t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Name", "이름", "_t")
 t("Confirm", "확인", "_t")
 

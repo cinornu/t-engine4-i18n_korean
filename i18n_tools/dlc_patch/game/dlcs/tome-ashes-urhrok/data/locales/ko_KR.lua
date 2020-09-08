@@ -42,7 +42,7 @@ Silence these beings, maintain your deception,
 and then you may witness a new elf's conception...]], [[말'록의 악마들은 당신을 결코 축복하지 않을겁니다!
 오직 세 악마만이 그들에게 엘프들이 야기한 공포에 대해 말할 수 있었습니다.
 첫번째 악마는 격노한 채, 바다 깊은 곳에서 고문당했고,
-두번째 악마는는 세번째 악마를 위해 그녀가 가르친 광신도들과 함께 싸우고 있습니다.
+두번째 악마는 세번째 악마를 위해 그녀가 가르친 광신도들과 함께 싸우고 있습니다.
 이 존재들의 목소리를 앗아가고, 기만을 유지하십시오.
 그리하면 새로운 엘프의 탄생을 목도할 수 있겠지요...]], "_t")
 t("Doomelves are not a real race, they are Shaloren that have been taken by demons and transformed into harbingers of doom.", "그들은 둠엘프라는 별개의 종족이 아니라, 악마들에게 납치되고, 파멸의 인도자로써 변화된 샬로레들입니다.", "_t")
@@ -158,7 +158,6 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		적을 죽이고 얻는 원기 획득량이, 적에게 적용된 암울한 결과 중첩마다 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat")
 t("Weakened Soul", "약해진 영혼", "talent name")
-t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, dealing 2%% less damage.", "최대 %d 체의, 암울한 결과를 적용 받은 적이 약해져, 암울한 결과 중첩마다 2%% 감소한 피해를 가합니다.", "tformat")
 t("Grim Future", "음침한 미래", "talent name")
 t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.

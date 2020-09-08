@@ -668,6 +668,12 @@ t("#SLATE#* You have to destroy the controlling crystal before leaving or the de
 
 
 ------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/black-magic.lua"
+-- 1 entries
+t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "tformat")
+
+
+------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 -- 1 entries
 t("", "", "log")
@@ -13046,6 +13052,13 @@ t("..", "..", "entity name")
 
 
 ------------------------------------------------
+section "game/modules/tome/data/general/objects/jewelry.lua"
+-- 2 entries
+t("Rings make your fingers look great!", "Rings make your fingers look great!", "_t")
+t("Amulets make your neck look great!", "Amulets make your neck look great!", "_t")
+
+
+------------------------------------------------
 section "game/modules/tome/data/general/objects/lore/fun.lua"
 -- 16 entries
 t("trollish poem", "trollish poem", "entity name")
@@ -20749,6 +20762,12 @@ t("", "", "_t")
 
 
 ------------------------------------------------
+section "game/modules/tome/data/quests/lichform.lua"
+-- 1 entries
+t("#CRIMSON#* You have ascended to Lichdom!#WHITE#", "#CRIMSON#* You have ascended to Lichdom!#WHITE#", "_t")
+
+
+------------------------------------------------
 section "game/modules/tome/data/quests/orc-breeding-pits.lua"
 -- 7 entries
 t("Desperate Measures", "Desperate Measures", "_t")
@@ -20812,6 +20831,43 @@ t("#GOLD#PLACED GREATER VAULT: %s", "#GOLD#PLACED GREATER VAULT: %s", "log")
 section "game/modules/tome/data/rooms/lesser_vault.lua"
 -- 1 entries
 t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#PLACED LESSER VAULT: %s", "log")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/celestial/celestial.lua"
+-- 7 entries
+t("The songs the Fallen sing.", "The songs the Fallen sing.", "_t")
+t("Darkside", "Darkside", "_t")
+t("Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "_t")
+t("Black Sun", "Black Sun", "_t")
+t("Celestial combat techniques inspired by the dark places that are not empty.", "Celestial combat techniques inspired by the dark places that are not empty.", "_t")
+t("Dirges", "Dirges", "_t")
+t("Sing of death and damnation.", "Sing of death and damnation.", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/celestial/dark-sun.lua"
+-- 1 entries
+t("Collapse", "Collapse", "talent name")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/celestial/darkside.lua"
+-- 2 entries
+t([[Fade into the darkness and reappear elsewhere within range %d.  When you emerge from the shadows, you are accompanied by a bright flash, dealing %0.2f light damage to enemies in radius 1.
+						 The damage will increase with your Spellpower.]], [[Fade into the darkness and reappear elsewhere within range %d.  When you emerge from the shadows, you are accompanied by a bright flash, dealing %0.2f light damage to enemies in radius 1.
+						 The damage will increase with your Spellpower.]], "tformat")
+t([[Put all of your physical and magical might into one devastating attack.
+Strike all adjacent enemies for %d%% weapon damage and daze them (using your highest power) for 3 turns.
+
+Using this talent consumes all of your Positive Energy and prevents you from generating positive energy for 5 turns.
+Every point of positive energy increases the damage by %.2f%%.
+Every %d points of positive energy increase the radius by 1 (up to 10).]], [[Put all of your physical and magical might into one devastating attack.
+Strike all adjacent enemies for %d%% weapon damage and daze them (using your highest power) for 3 turns.
+
+Using this talent consumes all of your Positive Energy and prevents you from generating positive energy for 5 turns.
+Every point of positive energy increases the damage by %.2f%%.
+Every %d points of positive energy increase the radius by 1 (up to 10).]], "tformat")
 
 
 ------------------------------------------------
@@ -20968,6 +21024,28 @@ t(" (%s)", " (%s)", "tformat")
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/cursed/bloodstained.lua"
+-- 1 entries
+t([[Your melee attacks also cause the target to bleed for %d%% of the damage dealt over five turns.
+
+Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[Your melee attacks also cause the target to bleed for %d%% of the damage dealt over five turns.
+
+Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/cursed/cursed.lua"
+-- 7 entries
+t("Bloodstained", "Bloodstained", "_t")
+t("You, like your weapons, are tainted forever.", "You, like your weapons, are tainted forever.", "_t")
+t("Blood is power. Let the rivers run red.", "Blood is power. Let the rivers run red.", "_t")
+t("Crimson Templar", "Crimson Templar", "_t")
+t("Of all the things in this dark world, you are the worst.  Torment yourself and find the power therein.", "Of all the things in this dark world, you are the worst.  Torment yourself and find the power therein.", "_t")
+t("Self-Hatred", "Self-Hatred", "_t")
+t("Hate-powered abilities that don't belong anywhere else.", "Hate-powered abilities that don't belong anywhere else.", "_t")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/cursed/primal-magic.lua"
 -- 8 entries
 t("Displace", "Displace", "talent name")
@@ -20982,6 +21060,34 @@ t("Vaporize", "Vaporize", "talent name")
 t([[Bathes the target in raw magic inflicting %d damage. Such wild magic is difficult to control and if you fail to keep your wits you will be confused for 4 turns.
 		The damage will increase with the Magic stat.]], [[Bathes the target in raw magic inflicting %d damage. Such wild magic is difficult to control and if you fail to keep your wits you will be confused for 4 turns.
 		The damage will increase with the Magic stat.]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/cursed/self-hatred.lua"
+-- 3 entries
+t([[At the start of each turn, if you're bleeding, you gain %d hate.
+
+You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns.	This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
+
+#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[At the start of each turn, if you're bleeding, you gain %d hate.
+
+You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns.	This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
+
+#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], "tformat")
+t("#CRIMSON#%d#LAST#", "#CRIMSON#%d#LAST#", "tformat")
+t([[Call upon your deepest reserves of strength to win no matter the cost.	
+Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed.	
+This bonus cooldown occurs even if your talents would not normally cool down.
+This talent deactivates automatically upon rest.
+This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
+
+#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[Call upon your deepest reserves of strength to win no matter the cost.	
+Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed.	
+This bonus cooldown occurs even if your talents would not normally cool down.
+This talent deactivates automatically upon rest.
+This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
+
+#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -21237,6 +21343,52 @@ t([[%s
 #YELLOW#%s#LAST#
 %s
 ]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/uber/wil.lua"
+-- 1 entries
+t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
+		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
+		
+		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
+
+		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
+
+		The following talent trees are swapped:
+		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
+		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
+		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
+
+		You will learn the following talents trees:
+		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
+		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
+		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
+		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strength your resolve
+
+		You will forget the following talent trees: Shield Offense, Two-handed Assault.
+		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
+		]], [[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
+		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
+		
+		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
+
+		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
+
+		The following talent trees are swapped:
+		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
+		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
+		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
+
+		You will learn the following talents trees:
+		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
+		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
+		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
+		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strength your resolve
+
+		You will forget the following talent trees: Shield Offense, Two-handed Assault.
+		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
+		]], "tformat")
 
 
 ------------------------------------------------
@@ -22555,14 +22707,16 @@ As a sun paladin, you follow a code.  But with the darkness you've seen in the w
 
 You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
 
-New Powers:#YELLOW#
-- Dirges: A new set of songs that protect you from the world.
-- Self-Hatred: Spend your life for bloody destructive power.
-- Cursed Aura: Corrupt the items around you.
-Altered class abilities:
-- Bloodstained: Dash between enemies, stacking up damage over time.  You only stop when there's nothing left to kill!
-- Black Sun: Crush enemies with powerful gravity attacks.
-- Crimson Templar: Reflect damage to your enemies as their wounds grow worse and worse.
+Learn new Talents:#YELLOW#
+- Bloodstained: Make your foes bleed!
+- Darkside: Every light casts a shadow, yours is powerful indeed
+- Self-Hatred: Manifest your self hatred through bleeding
+- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
+
+Swap your paladin Talents:#YELLOW#
+- Radiance turns into Gloom: Project onto others your own hate, hindering them
+- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
+- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
 #WHITE#
 
 Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
@@ -22572,14 +22726,16 @@ As a sun paladin, you follow a code.  But with the darkness you've seen in the w
 
 You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
 
-New Powers:#YELLOW#
-- Dirges: A new set of songs that protect you from the world.
-- Self-Hatred: Spend your life for bloody destructive power.
-- Cursed Aura: Corrupt the items around you.
-Altered class abilities:
-- Bloodstained: Dash between enemies, stacking up damage over time.  You only stop when there's nothing left to kill!
-- Black Sun: Crush enemies with powerful gravity attacks.
-- Crimson Templar: Reflect damage to your enemies as their wounds grow worse and worse.
+Learn new Talents:#YELLOW#
+- Bloodstained: Make your foes bleed!
+- Darkside: Every light casts a shadow, yours is powerful indeed
+- Self-Hatred: Manifest your self hatred through bleeding
+- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
+
+Swap your paladin Talents:#YELLOW#
+- Radiance turns into Gloom: Project onto others your own hate, hindering them
+- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
+- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
 #WHITE#
 
 Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.

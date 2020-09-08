@@ -3898,7 +3898,7 @@ But meanwhile, this is your place! Welcome to paradise, @playerdescriptor.race@!
 그대는 이제 챔피언으로서 합당한 자리를 차지했네.
 그저 기억해 두게...나처럼, 언젠가 그대 또한 쓰러질 것이라는 걸...
 하지만, 이곳은 이제 그대의 것이야! 낙원에 온 걸 환영하네, @playerdescriptor.race@!
-#LIGHT_GREEN#*당신은 몇몇 후원자들과 군사 모집원들이 패배한 주인에게 다가가는 걸 보았습니다.
+#LIGHT_GREEN#*당신은 몇몇 후원자들과 모병관들이 패배한 주인에게 다가가는 걸 보았습니다.
 #LIGHT_GREEN#그들은 주인에게 몇 가지 거래와 군대의 좋은 자리를 제안하고 있었습니다.
 #LIGHT_GREEN#당신은 스스로의 삶이 지금부터 명예로울 것이라는 걸 알게 되어 승리감에 미소지었습니다.
 #LIGHT_GREEN#왜냐하면 행여나 당신이 후일 패배하게 되더라도...
@@ -3910,7 +3910,7 @@ But meanwhile, this is your place! Welcome to paradise, @playerdescriptor.race@!
 #YELLOW#다음 번에 플레이할 때는, 이 새로운 챔피언과 싸우게 될 것입니다!
 ]], "_t")
 t("WEALTH!! AND!! GLORYYYYY!!", "부!! 그리고!! 영광!!!!!", "_t")
-t("I won't need to save chicks from cults anymore!", "이제 난 여자들을 사교도들에게서 구하지 않아도 될 거야!", "_t")
+t("I won't need to save chicks from cults anymore!", "이제 난 여자들을 광신도들에게서 구하지 않아도 될 거야!", "_t")
 t("I hereby stand victorious, awaiting future challenges!", "난 승리했고, 미래의 도전들을 기다리겠어!", "_t")
 t("#LIGHT_GREEN#*dance*", "#LIGHT_GREEN#*춤을 춘다*", "_t")
 
@@ -8316,10 +8316,8 @@ t("voratun helm", "보라툰 투구", "entity name")
 section "game/modules/tome/data/general/objects/jewelry.lua"
 
 t("ring", "반지", "entity subtype")
-t("Rings can have magical properties.", "반지에는 다양한 힘이 부여될 수 있습니다.", "_t")
 t("amulet", "목걸이", "entity subtype")
 t("jewelry", "장신구", "entity type")
-t("Amulets can have magical properties.", "목걸이에는 다양한 힘이 부여될 수 있습니다.", "_t")
 t("copper ring", "구리 반지", "_t")
 t("steel ring", "강철 반지", "_t")
 t("gold ring", "황금 반지", "_t")
@@ -10763,26 +10761,6 @@ t("usable during Aether Avatar", "에테르의 화신 도중 사용 가능", "_t
 ------------------------------------------------
 section "game/modules/tome/data/talents/celestial/black-sun.lua"
 
-t("Breach", "균열", "talent name")
-t([[Open a radius 1 rift in spacetime at the targeted location for %d turns, increasing in radius by 1 each turn to a maximum of %d.
-		All caught within the rift are pulled towards the center and take %0.2f gravity damage.
-The damage will increase with your Spellpower.]], [[대상 위치에 %d 턴 동안 유지되는 반경 1 칸의 시공간 균열을 엽니다. 균열은 시간이 지날 수록 점점 커져, 최대 반경 %d 칸의 범위에 영향을 끼칩니다.
-		균열 내의 모든 적은 중심부로 빨려들어가고, %0.2f 중력 피해를 받습ㄴ디ㅏ.
-피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Devourer Stance", "포식 자세", "talent name")
-t([[Attune yourself to the endless hunger of distant dead suns.  For the next %d turns, your attacks will inflict an additional %0.2f gravity damage and attempt to pull enemies closer.  After three turns, you will recover half of all damage taken during this effect.
-The damage will increase with your Spellpower.]], [[저 멀리의 죽은 태양들의 끝없는 굶주림에 스스로를 적응시킵니다.  다음 %d 턴 동안, 시전자가 가하는 공격에 %0.2f 중력 피해가 추가로 적용되고, 적을 끌어당깁니다.  3 턴 후, 지속효과 중에 받은 피해량의 절반을 회복합니다.
-피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Singularity Armor", "특이점 갑옷", "talent name")
-t("Create a gravity field around you that converts %d%% of all damage you deal into physical damage, slows incoming projectiles by %d%%, and causes your gravity damage to reduce the target's knockback resistance by half for two turns.", "[[주위에 중력장을 둘러, 시전자가 가하는 모든 피해의 %d%% 를 물리 피해로 전환하고, 날아오는 투사체의 속도를 %d%% 감소 시킵니다. 또한 중력 피해를 가할 시, 2 턴 동안 공격을 받은 대상의 밀처냄 저항을 절반으로 감소시킵니다.", "tformat")
-t("Doom Spiral", "파멸의 나선", "talent name")
-t([[Infuse your weapon with overwhelming gravitational power while spinning around.
-							All creatures within radius 2 take %d%% weapon damage as physical (gravity) and are pulled closer.
-							Then, all adjacent creatures take %d%% weapon damage.  This second strike shields you for between %d and %d, increasing with more enemies hit.  The shield lasts for 2 turns.
-The shield strength will increase with your Spellpower.]], [[회전 중, 무기에 압도적인 중력의 힘을 불어넣습니다.
-							반경 2 칸 내의 모든 대상은 %d%% 무기 피해를 물리 속성으로 받고 (중력 속성) 시전자 쪽으로 끌려갑니다.
-							그리고, 모든 인접한 적은 %d%% 무기 피해를 받습니다.  두번째 공격을 받은 적의 수에 비례하여 %d - %d 위력의 보호막을 생성합니다.  보호막은 2 턴 동안 지속됩니다.
-보호막 위력은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -10965,6 +10943,30 @@ t([[Infuse your two handed weapon with light while spinning around.
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/celestial/dark-sun.lua"
+
+t([[Open a radius 1 rift in spacetime at the targeted location for %d turns, increasing in radius by 1 each turn to a maximum of %d.
+		All caught within the rift are pulled towards the center and take %0.2f gravity damage.
+The damage will increase with your Spellpower.]], [[대상 위치에 %d 턴 동안 유지되는 반경 1 칸의 시공간 균열을 엽니다. 균열은 시간이 지날 수록 점점 커져, 최대 반경 %d 칸의 범위에 영향을 끼칩니다.
+		균열 내의 모든 적은 중심부로 빨려들어가고, %0.2f 중력 피해를 받습ㄴ디ㅏ.
+피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Devourer Stance", "포식 자세", "talent name")
+t([[Attune yourself to the endless hunger of distant dead suns.  For the next %d turns, your attacks will inflict an additional %0.2f gravity damage and attempt to pull enemies closer.  After three turns, you will recover half of all damage taken during this effect.
+The damage will increase with your Spellpower.]], [[저 멀리의 죽은 태양들의 끝없는 굶주림에 스스로를 적응시킵니다.  다음 %d 턴 동안, 시전자가 가하는 공격에 %0.2f 중력 피해가 추가로 적용되고, 적을 끌어당깁니다.  3 턴 후, 지속효과 중에 받은 피해량의 절반을 회복합니다.
+피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Singularity Armor", "특이점 갑옷", "talent name")
+t("Create a gravity field around you that converts %d%% of all damage you deal into physical damage, slows incoming projectiles by %d%%, and causes your gravity damage to reduce the target's knockback resistance by half for two turns.", "[[주위에 중력장을 둘러, 시전자가 가하는 모든 피해의 %d%% 를 물리 피해로 전환하고, 날아오는 투사체의 속도를 %d%% 감소 시킵니다. 또한 중력 피해를 가할 시, 2 턴 동안 공격을 받은 대상의 밀처냄 저항을 절반으로 감소시킵니다.", "tformat")
+t("Doom Spiral", "파멸의 나선", "talent name")
+t([[Infuse your weapon with overwhelming gravitational power while spinning around.
+							All creatures within radius 2 take %d%% weapon damage as physical (gravity) and are pulled closer.
+							Then, all adjacent creatures take %d%% weapon damage.  This second strike shields you for between %d and %d, increasing with more enemies hit.  The shield lasts for 2 turns.
+The shield strength will increase with your Spellpower.]], [[회전 중, 무기에 압도적인 중력의 힘을 불어넣습니다.
+							반경 2 칸 내의 모든 대상은 %d%% 무기 피해를 물리 속성으로 받고 (중력 속성) 시전자 쪽으로 끌려갑니다.
+							그리고, 모든 인접한 적은 %d%% 무기 피해를 받습니다.  두번째 공격을 받은 적의 수에 비례하여 %d - %d 위력의 보호막을 생성합니다.  보호막은 2 턴 동안 지속됩니다.
+보호막 위력은 주문력에 비례하여 증가합니다.]], "tformat")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/celestial/darkside.lua"
 
 t("Brutalize", "야만의 강타", "talent name")
@@ -10989,21 +10991,7 @@ You gain a bonus to Mindpower equal to %d%% of your Magic.
 t("Flee the Sun", "태양 피하기", "talent name")
 t("%s's teleportation fizzles!", "%s의 순간이동이 실패했다!", "logSeen")
 t("%s emerges from the darkness!", "%s 어둠에서 나타났다!", "logSeen", nil, {"는"})
-t([[Fade into the darkness and reappear elsewhere within range %d.  When you emerge from the shadows, you are accompanied by a flash of light, dealing %0.2f damage to enemies in radius 1.
-						 The damage will increase with your Spellpower.]], [[어둠 속으로 사라지고, 반경 %d 칸 내의 한 지점에서 다시 나타납니다. 그림자 속에서 나타날 때, 눈부신 빛이 일어나 반경 1 칸 내에 %0.2f 피해를 가합니다.
-						 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Final Sunbeam", "최후의 태양 광선", "talent name")
-t([[Put all of your physical and magical might into one devastating attack.
-Strike all adjacent enemies for %d%% damage and daze them (using your highest power) for 3 turns.
-
-Using this talent consumes all of your Positive Energy and prevents you from generating positive energy for 5 turns.
-Every point of positive energy increases the damage by %.2f%%.
-Every %d points of positive energy increase the radius by 1 (up to 10).]], [[물리적, 마법적 힘을 최대한 끌어내 단 하나의 파괴적인 일격을 준비합니다.
-인접한 모든 적을 %d%% 피해로 공격하고, 3 턴 동안 혼절을 유발합니다. 혼절 판정은 시전자의 물리력, 주문력, 정신력 중 가장 높은 값을 이용하여 계산합니다.
-
-이 기술을 사용하면 시전자의 모든 양기를 소모하며, 이후 5 턴 동안 양기를 생성할 수 없게됩니다.
-양기 수치 1 점 당 피해량이 %.2f%% 증가합니다.
-양기 수치 %d 점 마다, 범위가 1 칸씩 증가합니다. 최대 10 칸 범위까지 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -13603,13 +13591,6 @@ Each point in Bloodstained talents reduces the amount of damage you take from bl
 
 피칠갑 기술에 투자된 기술 점수 하나 당 출혈 효과로 받는 피해량이 2%% 줄어듭니다.]], "tformat")
 t("Blood Bath", "피의 목욕", "talent name")
-t([[Your melee attacks also cause the target to bleed for %d%% of the damage dealt over five turns.
-The bleed chance increases with your Physical Power.
-
-Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[기본 근접 공격이 출혈을 일으켜, 5 턴에 걸쳐 %d%% 피해를 가합니다.
-출혈 확률은 물리력에 비례하여 증가합니다.
-
-피칠갑 기술에 투자된 기술 점수 하나 당 출혈 효과로 받는 피해량이 2%% 줄어듭니다.]], "tformat")
 t("Blood Thirst", "피의 목마름", "talent name")
 t([[Your hunger for violence and suffering sustains you.  All damage you do heals you for a portion of the damage done, from %d%% (at 0 Hate to) %d%% (at max Hate).  You can recover no more than 1/6 of your max life each turn this way.
 
@@ -13777,6 +13758,7 @@ t("The effects of cursed objects.", "저주받은 물품들의 효과들.", "_t"
 t("curses", "저주", "_t")
 t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "저주의 정수인 공포를 이용하여 적들의 정신을 공격합니다.", "_t")
 t("fears", "공포", "_t")
+t("Cursed", "저주받은 자", "_t")
 t("cursed", "저주", "talent category")
 
 
@@ -14138,15 +14120,6 @@ section "game/modules/tome/data/talents/cursed/self-hatred.lua"
 
 t("Self-Harm", "자해", "talent name")
 t("You can only use this while in combat", "이 기술은 전투에서 단 한번만 사용 가능하다", "logPlayer")
-t([[At the start of each turn, if you're bleeding, you gain %d hate.
-
-You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns.	This bleed cannot be resisted.
-
-#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[매 턴을 시작할 때, 시전자가 출혈 상태라면, 증오를 %d 회복합니다.
-
-이 기술을 활성화하면, 자신의 살을 빠르게 베어내어, 5 턴에 걸쳐 %0.2f 출혈 피해를 받습니다.	이 출혈 효과는 저항할 수 없습니다.
-
-#{italic}#오직 고통만이 당신이 느낄 수 있는 모든 것이다.#{normal}#]], "tformat")
 t("Self-Loathing", "자가 혐오", "talent name")
 t([[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
 
@@ -14154,19 +14127,6 @@ t([[Increases critical chance by %d%% (at all times) and critical strike power b
 
 #{italic}#분노가 당신을 강하게한다.	 그리고, 당신은 항상 분노해 있다.#{normal}#]], "tformat")
 t("Self-Destruction", "자가 파괴", "talent name")
-t([[Call upon your deepest reserves of strength to win no matter the cost.	
-Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed.	
-This bonus cooldown occurs even if your talents would not normally cool down.
-This talent deactivates automatically upon rest.
-This strength comes at a cost: you lose %d%% of your maximum life every turn.
-
-#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[그 어떤 댓가도 생각하지 않고, 오직 승리만을 위해 내면의 힘을 모조리 털어놓습니다.	
-활성화 즉시, 그리고 지속시간 중, 시전자의 부정적인 효과는 빠르게 사라지고, 기술들의 재사용 대기시간 역시 더욱 빠르게 돌게됩니다.	
-이 재사용 대기시간 단축 효과는 일반적으로 재사용 대기시간이 단축되지 않는 기술도 영향을 받습니다.
-이 기술은 휴식 시 비활성화 됩니다.
-이 강력한 효과에는 그에 걸맞는 댓가를 치뤄야합니다 : 최대 생명력의 %d%% 를 매 턴 잃게됩니다.
-
-#{italic}#당신은 운이 좋지, 그가 당신이 가진 모든 것을 가저갈 것이야.#{normal}#]], "tformat")
 t("Self-Judgement", "자가 심판", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target2# #Source#의 %s, 피해를 경감한다!#LAST#.", "logCombat", nil, {"으로"})
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d 피가 뿜어져 나옴#LAST#%s)#LAST#", "tformat")
@@ -21306,51 +21266,10 @@ t([[Transcend the physical and rule over all with an iron will!
 		Additionally, you gain +30%% mind resistance penetration, and +10%% mind damage.]], [[강철의 의지를 통해, 물리적 법칙을 초월합니다!
 		기술이 활성화되는 동안, 자신이 가하는 모든 피해의 33%%는 정신 피해로 전환됩니다
 		또한 적의 정신 저항을 30%% 무시할 수 있게 되며, 자신이 가하는 정신 피해량이 10%% 증가하게 됩니다.]], "tformat")
-t("Fallen", "타락한 자", "talent name")
 t("Unlocked the Fallen evolution", "타락한 자 진화를 해금", "_t")
 t("Committed a heinous act", "극악무도한 행위를 자행할 것", "_t")
+t("Fallen", "타락한 자", "_t")
 t("#CRIMSON#You give in to the darkness. You have fallen!", "#CRIMSON#당신은 어둠에 굴복했다. 당신은 타락했다!", "say")
-t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
-		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
-		
-		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
-
-		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
-
-		The following talent trees are swapped:
-		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
-		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Black Sun#LAST#: Call upon the energies of dead suns to crush your foes
-
-		You will learn the following talents trees:
-		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
-		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
-		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
-		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strength your resolve
-
-		You will forget the following talent trees: Shield Offense, Two-handed Assault.
-		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], [[태양의 기사들의 규율은 때때로 감당하기 어려울 수도 있습니다.	 어둠에 굴복해서
-		#{italic}##GREY#규율을 저버리는게 어떨까요?#LAST##{normal}#
-		
-		#CRIMSON#이 직업 진화는 직업과 캐릭터를 근본적으로, 아주 크게 변화시킵니다. 너무 가볍게 선택하지 마십시오.#LAST#
-
-		모든 전투 기술 계통과 해제 가능한 천공 계통 기술들은 적들 사이에 핏자국을 흩뿌리는 저주받은 기술로 대체됩니다. 광휘는 암울로 변하고, 새로운 전투 방식과 방어 능력을 얻게됩니다.
-
-		다음 기술 계열이 변경됩니다 :
-		- #GOLD#광휘#LAST#는 #CRIMSON#암울#LAST#로 변합니다 : 증오를 발산해, 적들을 방해합니다.
-		- #GOLD#수호자#LAST#는 #CRIMSON#진홍의 기사단#LAST#으로 변합니다 : 피의 힘을 사용해 당신의 앞길을 방해하는 멍청이들에게 패배를 안깁니다.
-		- #GOLD#성전사는#LAST# #CRIMSON#검은 태양#LAST#으로 변합니다 : 죽은 태양의 에너지를 불러와, 적들을 파괴합니다.
-
-		다음 기술들을 익힙니다 :
-		- #CRIMSON#피칠갑#LAST# : 적에게 출혈을 유발합니다!
-		- #CRIMSON#어두운 면#LAST# : 모든 빛은 그림자를 남깁니다. 당신의 힘도 마찬가지 입니다.
-		- #CRIMSON#자가 증오#LAST#: 출혈을 통해 자신의 증오를 드러냅니다.
-		- #CRIMSON#장송곡#LAST#: 죽음과 슬픔의 노래를 불러, 결의를 확고하게 다집니다.
-
-		또한 다음과 같은 기술들을 잊어버립니다 : 방패 공격, 양손 무기 맹공.
-		또한 모든 전투 기술 계통의 기술들이 체력 대신 증오를 소모하게 됩니다.
-		]], "tformat")
 
 
 ------------------------------------------------
