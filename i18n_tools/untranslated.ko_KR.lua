@@ -6,12 +6,6 @@ t("Temporal Locked Vault", "Temporal Locked Vault", "_t")
 
 
 ------------------------------------------------
-section "game/addons/tome-possessors/data/talents/psionic/ravenous-mind.lua"
--- 1 entries
-t("You need a Sadist stack to use this talent.", "You need a Sadist stack to use this talent.", "logPlayer")
-
-
-------------------------------------------------
 section "game/addons/tome-possessors/data/timed_effects.lua"
 -- 44 entries
 t("You stole your current form and share damage and healing with it.", "You stole your current form and share damage and healing with it.", "_t")
@@ -58,13 +52,6 @@ t("lock", "lock", "effect subtype")
 t("#Target# is tormented!", "#Target# is tormented!", "_t")
 t("#Target# is less tormented.", "#Target# is less tormented.", "_t")
 t("%s can not use %s because of Tortured Mind!", "%s can not use %s because of Tortured Mind!", "_t")
-
-
-------------------------------------------------
-section "game/addons/tome-possessors/init.lua"
--- 2 entries
-t("Possessor Bonus Class", "Possessor Bonus Class", "init.lua long_name")
-t("Possessor class.", "Possessor class.", "init.lua description")
 
 
 ------------------------------------------------
@@ -136,21 +123,14 @@ t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a stra
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/general/events/fire-haven.lua"
--- 1 entries
-t("fire haven", "fire haven", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
--- 20 entries
+-- 19 entries
 t("Rogroth, Eater of Souls", "Rogroth, Eater of Souls", "_t")
 t("a champion of Urh'Rok", "a champion of Urh'Rok", "_t")
 t("a dolleg", "a dolleg", "_t")
 t("a dúathedlen", "a dúathedlen", "_t")
 t("a fire imp", "a fire imp", "_t")
 t("a forge giant", "a forge giant", "_t")
-t("Khulmanar, General of Urh'Rok", "Khulmanar, General of Urh'Rok", "_t")
 t("an onilug", "an onilug", "_t")
 t("a quasit", "a quasit", "_t")
 t("a thaurhereg", "a thaurhereg", "_t")
@@ -181,7 +161,7 @@ t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
--- 85 entries
+-- 84 entries
 t("Blackfire Aegis", "Blackfire Aegis", "entity name")
 t("blackened stone shield", "blackened stone shield", "_t")
 t("This rugged stone shield flickers with bursts of pitch black flame.", "This rugged stone shield flickers with bursts of pitch black flame.", "_t")
@@ -249,7 +229,6 @@ t("pair of pitch black boots", "pair of pitch black boots", "_t")
 t("\"It's a treacherous road to the top of the world.\"", "\"It's a treacherous road to the top of the world.\"", "_t")
 t("Grants 2.5% movement speed for each point of Shadow Power.", "Grants 2.5% movement speed for each point of Shadow Power.", "_t")
 t("The Black Ring", "The Black Ring", "entity name")
-t("obsidian ring", "obsidian ring", "_t")
 t("\"An innocuous bauble. Until you look through the hole.\"", "\"An innocuous bauble. Until you look through the hole.\"", "_t")
 t("Grants spell-crit equal to half of your Shadow Power.", "Grants spell-crit equal to half of your Shadow Power.", "_t")
 t("The Black Plate", "The Black Plate", "entity name")
@@ -702,33 +681,11 @@ t("%s (demonic husk)", "%s (demonic husk)", "tformat")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
--- 26 entries
+-- 4 entries
 t("#Target#'s surge ends.", "#Target#'s surge ends.", "_t")
 t("Gain %d%% resistance and %d%% affinity to acid.", "Gain %d%% resistance and %d%% affinity to acid.", "tformat")
-t("+Acidic Bath", "+Acidic Bath", "_t")
-t("-Acidic Bath", "-Acidic Bath", "_t")
-t("Plaguefire", "Plaguefire", "_t")
-t("The target is on fire, taking %0.2f fire damage per turn. On death, the flame will explode.", "The target is on fire, taking %0.2f fire damage per turn. On death, the flame will explode.", "tformat")
-t("Corrupted Light", "Corrupted Light", "_t")
-t("The target is overflowing with power, increasing all damage done by %d%%.", "The target is overflowing with power, increasing all damage done by %d%%.", "tformat")
-t("+Corrupted Light", "+Corrupted Light", "_t")
-t("-Corrupted Light", "-Corrupted Light", "_t")
-t("Increases your Strength and Magic stats by %d.", "Increases your Strength and Magic stats by %d.", "tformat")
-t("#Target# is filled with raw power!", "#Target# is filled with raw power!", "_t")
-t("+Armoured Leviathan", "+Armoured Leviathan", "_t")
-t("#Target# is no longer filled with power.", "#Target# is no longer filled with power.", "_t")
-t("-Armoured Leviathan", "-Armoured Leviathan", "_t")
-t("The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "tformat")
-t("#Target# is cut off from nature!", "#Target# is cut off from nature!", "_t")
-t("+Doomed Nature", "+Doomed Nature", "_t")
-t("#Target# is no longer cut off from nature.", "#Target# is no longer cut off from nature.", "_t")
-t("-Doomed Nature", "-Doomed Nature", "_t")
-t("Demonic Cut", "Demonic Cut", "_t")
-t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "tformat")
 t("+Demonic Cut", "+Demonic Cut", "_t")
 t("-Demonic Cut", "-Demonic Cut", "_t")
-t("#Target# is no longer subject to the dark power.", "#Target# is no longer subject to the dark power.", "_t")
-t("%d charges.", "%d charges.", "tformat")
 
 
 ------------------------------------------------
@@ -1111,24 +1068,6 @@ User's biological signature does not match any currently known species in databa
 t("Database?", "Database?", "_t")
 t("#YELLOW_GREEN##{bold}#The machine beeps twice, then goes completely silent. Any further attempts to get it to speak prove futile.#{normal}##LAST#", "#YELLOW_GREEN##{bold}#The machine beeps twice, then goes completely silent. Any further attempts to get it to speak prove futile.#{normal}##LAST#", "_t")
 t("That was weird...", "That was weird...", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/damage_types.lua"
--- 13 entries
-t("unstable rift", "unstable rift", "_t")
-t("rift explosion", "rift explosion", "_t")
-t("voidburn", "voidburn", "_t")
-t("slowing void", "slowing void", "_t")
-t("draining void", "draining void", "_t")
-t("mesmerize", "mesmerize", "_t")
-t("obliterating void", "obliterating void", "_t")
-t("aging temporal", "aging temporal", "_t")
-t("decaying ground", "decaying ground", "_t")
-t("defiled blood", "defiled blood", "_t")
-t("antropy energies", "antropy energies", "_t")
-t("#PURPLE#The %s fully awakens as you absorb antropic forces!", "#PURPLE#The %s fully awakens as you absorb antropic forces!", "logSeen")
-t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "logSeen")
 
 
 ------------------------------------------------
@@ -1644,45 +1583,7 @@ t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put the
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
--- 34 entries
-t("Escapades of Fay Willows [Book 3, Chapter 4] - To Battle!", "Escapades of Fay Willows [Book 3, Chapter 4] - To Battle!", "_t")
-t([[[i]Due to the darkness of the sky and the scorched lands of the battlefield it was hard to see anything, but I still remember the sounds of battle in great detail. The bubbling sounds of the lava and boiling water, the warcries that filled the air, the magical discharges from the ogres runes, the sounds of weapons clashing against each other, and so forth. Of course, none of those sounds compared to the death cries of both the zealots and ogres when their lives ceased to be.[/i]
-
-As we closed in I could make out the image of the individual fanatical warriors in the opposing force arrayed against us. Their battle line consisted of a couple of rows, with fighters in the front and archers in back. Considerably out numbered it looked as if they had the upper hand over us, though I wondered if this was entirely the case. Many weren't wearing masks, and their tattered clothing reminded me of the refugees in the Nargol Kingdom. Perhaps they were new initiates, swayed to join by the words of the masked zealots who stood with them. All the initiates wielded weapons but even I could tell that they had little idea of how to hold them properly.
-
-The masked zealots within the group were a different story. They held their weapons well and a few of them wore armor. The metal gleamed in the darkness as the light from the surrounding lava bounced off the metallic plates, chains, and rivets lining their bodies. Most stood in the front line, even some of those with a bow or sling in hand, likely to encourage their new initiates by leading from the front. Of those with a mask over their face I recognized one as well - the halfling I had encountered in the tent from the Nargol Kingdom. Unlike the others, the halfling still wore that same leather armor from that first meeting of ours. I remembered those swift movements the halfling had made and wondered how much of a difficult and bloody fight this might come to be.
-
-Voices rang out from the zealots as they prepared the initiates around them to defend themselves. Shots and arrows came towards us with lightning speed as we advanced causing a couple ogres to howl as they were hit by the incoming fire. Those ogres with makeshift slings in our ranks soon began to throw rocks into the opposing line. Many of their shots peppered the initiates in the front causing those hit to holler in pain, stagger about dazed and confused, and otherwise bring disorder to the fanatics’ lines. Then I heard a call from our commander, causing us to stop a small distance away from their line. The fanatics look at the ogres with confused faces, and I must say I did so as well, before I noticed several of the ogres raise their arms up.
-
-All at once an array of colors lit up our darkened surroundings as the insignias on their rune covered skin began to glow. As I looked at one of the ogres near me I could see a light green glow encircle her arm and then a torrent of acid appear. The acid lashed out at several of the fanatics, drenching their bodies and causing their exposed skin to visibly burn. Then a flash of lightning shot forward from behind me, piercing through a zealot and one of the initiates behind him. All at once many of the fanatics in front of us began to scatter for cover, unable to cope with the onslaught of power that the ogres were unleashing on them. Many of the initiates fell to the magical barrage while others began to break ranks from the opposing line and flee.
-
-It looked as if we had the fanatics on their back foot but then I heard a piercing cry, the screeching sounded very much like what I had heard from back in the Nargol Kingdom. As I looked around to survey what was happening now, I noticed all at once my surroundings had darkened again. I could see some of the ogres near me try to raise their arms but the light from the insignia's on their skin had now dimmed and failed to work anymore. Ahead of us many of the fanatics lay on the ground injured or dead, though many of them still stood ready to fight. All at once they seem to cheer and beat their swords, apparently not dissuaded by the ogres efforts against them. Out of the corner of my eye though I noticed a figure charge forward.
-
-Running by some lava, I could see that it was our commander, gritting his teeth and my hatchet in his hand as it glistened from the light of the lava. Pulling back his arm he approached one of the masked zealots and gave him a blow that sent him reeling backwards through the air and into a pool of lava. I remember feeling a dark sense of satisfaction as I saw that first zealot burn alive; a fitting end for one who likely took part in the burning's I had witnessed before. The hooting and hollering from the enemy ceased at this, while the commander turned to a shaken initiate nearby to him. With a simple swipe of the hatchet the ogre sliced the initiates head clean from its body, causing it to sail through the air and land on the ground a fair distance away.
-
-The mere sight of the commander in action inspired the other ogres, who immediately charged to join into the carnage. Visibly unnerved now at the wall of giant figures moving against them, many of the remaining initiates began to flee as the ogres approached. Many of the masked zealots stayed to fight but they were soon set upon and clobbered to death by both fists and tree trunks. Those zealots that wore armor would put up more of a fight, though one by one they were being taken out too. The enemy was falling before us and I was sure that the battle was nearly won. That is until I saw an ogre sail through the air above me, landing into the boiling waters of the sea nearby.
-
-One by one other ogres began to join a growing chorus of agonizing cries as something set upon them. Peering out into the shadows I could see a small image rushing all around the battlefield in the direction of their origin. Suddenly as the image came to stop near a lake of lava I realized it was the masked halfling on leather armor. Catching an ogre nearby to the lava unaware, the halfling somehow knocked the ogre over, sending the ogre into the hot pool of burning death. Out of the darkness a couple more ogres appeared and one attempted to clobber the halfling with a violent blow. With a simple crouch the halfling ducked before quickly jabbing at the ogres stomach, and jumping up to land a devastating kick against the ogres head.
-
-The other ogre soon moved to attack the halfling, but with a sidestep the halfling simply moved out of the way before disappearing into the darkness. The ogre followed, but from the grunting and yelling it seemed that the ogre did not fare well either. The halfling would emerge again and again, knocking ogres down with seemingly ease, before escaping from counterattack. Ogres in the darkness would be attacked and shout in pain while those who strayed too close to the hazards of the landscape would soon find themselves sent spiraling into the deathtraps of the land. In an instant the battle had shifted in the fanatics favor, and panic and fear was beginning sweep over the ogres.]], [[[i]Due to the darkness of the sky and the scorched lands of the battlefield it was hard to see anything, but I still remember the sounds of battle in great detail. The bubbling sounds of the lava and boiling water, the warcries that filled the air, the magical discharges from the ogres runes, the sounds of weapons clashing against each other, and so forth. Of course, none of those sounds compared to the death cries of both the zealots and ogres when their lives ceased to be.[/i]
-
-As we closed in I could make out the image of the individual fanatical warriors in the opposing force arrayed against us. Their battle line consisted of a couple of rows, with fighters in the front and archers in back. Considerably out numbered it looked as if they had the upper hand over us, though I wondered if this was entirely the case. Many weren't wearing masks, and their tattered clothing reminded me of the refugees in the Nargol Kingdom. Perhaps they were new initiates, swayed to join by the words of the masked zealots who stood with them. All the initiates wielded weapons but even I could tell that they had little idea of how to hold them properly.
-
-The masked zealots within the group were a different story. They held their weapons well and a few of them wore armor. The metal gleamed in the darkness as the light from the surrounding lava bounced off the metallic plates, chains, and rivets lining their bodies. Most stood in the front line, even some of those with a bow or sling in hand, likely to encourage their new initiates by leading from the front. Of those with a mask over their face I recognized one as well - the halfling I had encountered in the tent from the Nargol Kingdom. Unlike the others, the halfling still wore that same leather armor from that first meeting of ours. I remembered those swift movements the halfling had made and wondered how much of a difficult and bloody fight this might come to be.
-
-Voices rang out from the zealots as they prepared the initiates around them to defend themselves. Shots and arrows came towards us with lightning speed as we advanced causing a couple ogres to howl as they were hit by the incoming fire. Those ogres with makeshift slings in our ranks soon began to throw rocks into the opposing line. Many of their shots peppered the initiates in the front causing those hit to holler in pain, stagger about dazed and confused, and otherwise bring disorder to the fanatics’ lines. Then I heard a call from our commander, causing us to stop a small distance away from their line. The fanatics look at the ogres with confused faces, and I must say I did so as well, before I noticed several of the ogres raise their arms up.
-
-All at once an array of colors lit up our darkened surroundings as the insignias on their rune covered skin began to glow. As I looked at one of the ogres near me I could see a light green glow encircle her arm and then a torrent of acid appear. The acid lashed out at several of the fanatics, drenching their bodies and causing their exposed skin to visibly burn. Then a flash of lightning shot forward from behind me, piercing through a zealot and one of the initiates behind him. All at once many of the fanatics in front of us began to scatter for cover, unable to cope with the onslaught of power that the ogres were unleashing on them. Many of the initiates fell to the magical barrage while others began to break ranks from the opposing line and flee.
-
-It looked as if we had the fanatics on their back foot but then I heard a piercing cry, the screeching sounded very much like what I had heard from back in the Nargol Kingdom. As I looked around to survey what was happening now, I noticed all at once my surroundings had darkened again. I could see some of the ogres near me try to raise their arms but the light from the insignia's on their skin had now dimmed and failed to work anymore. Ahead of us many of the fanatics lay on the ground injured or dead, though many of them still stood ready to fight. All at once they seem to cheer and beat their swords, apparently not dissuaded by the ogres efforts against them. Out of the corner of my eye though I noticed a figure charge forward.
-
-Running by some lava, I could see that it was our commander, gritting his teeth and my hatchet in his hand as it glistened from the light of the lava. Pulling back his arm he approached one of the masked zealots and gave him a blow that sent him reeling backwards through the air and into a pool of lava. I remember feeling a dark sense of satisfaction as I saw that first zealot burn alive; a fitting end for one who likely took part in the burning's I had witnessed before. The hooting and hollering from the enemy ceased at this, while the commander turned to a shaken initiate nearby to him. With a simple swipe of the hatchet the ogre sliced the initiates head clean from its body, causing it to sail through the air and land on the ground a fair distance away.
-
-The mere sight of the commander in action inspired the other ogres, who immediately charged to join into the carnage. Visibly unnerved now at the wall of giant figures moving against them, many of the remaining initiates began to flee as the ogres approached. Many of the masked zealots stayed to fight but they were soon set upon and clobbered to death by both fists and tree trunks. Those zealots that wore armor would put up more of a fight, though one by one they were being taken out too. The enemy was falling before us and I was sure that the battle was nearly won. That is until I saw an ogre sail through the air above me, landing into the boiling waters of the sea nearby.
-
-One by one other ogres began to join a growing chorus of agonizing cries as something set upon them. Peering out into the shadows I could see a small image rushing all around the battlefield in the direction of their origin. Suddenly as the image came to stop near a lake of lava I realized it was the masked halfling on leather armor. Catching an ogre nearby to the lava unaware, the halfling somehow knocked the ogre over, sending the ogre into the hot pool of burning death. Out of the darkness a couple more ogres appeared and one attempted to clobber the halfling with a violent blow. With a simple crouch the halfling ducked before quickly jabbing at the ogres stomach, and jumping up to land a devastating kick against the ogres head.
-
-The other ogre soon moved to attack the halfling, but with a sidestep the halfling simply moved out of the way before disappearing into the darkness. The ogre followed, but from the grunting and yelling it seemed that the ogre did not fare well either. The halfling would emerge again and again, knocking ogres down with seemingly ease, before escaping from counterattack. Ogres in the darkness would be attacked and shout in pain while those who strayed too close to the hazards of the landscape would soon find themselves sent spiraling into the deathtraps of the land. In an instant the battle had shifted in the fanatics favor, and panic and fear was beginning sweep over the ogres.]], "_t")
+-- 32 entries
 t("Escapades of Fay Willows [Book 3, Chapter 5] - Dark Resolve", "Escapades of Fay Willows [Book 3, Chapter 5] - Dark Resolve", "_t")
 t([[[i]It is hard to describe the sensation that came over me. It was still me, but I didn't feel in control. That other me, it seemed to thrive on the violence I inflicted or received, and wanted nothing more than to endlessly kill. It caused me sadness as I inflicted misery and terror on those in front of me as they died screaming in agony and pain. It is someone I hope to never become again.[/i]
 
@@ -3832,13 +3733,6 @@ t("simple", "simple", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/birth/races/orc.lua"
--- 2 entries
-t("Jaws 1", "Jaws 1", "_t")
-t("Jaws 2", "Jaws 2", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/aaa.lua"
 -- 5 entries
 t("#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated storage facility.*#WHITE#", "#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated storage facility.*#WHITE#", "_t")
@@ -4513,7 +4407,7 @@ t("This huge humanoid form is coated with a thick white fur, with large, vicious
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/boss-artifacts.lua"
--- 32 entries
+-- 31 entries
 t("Yeti-fur Cloak", "Yeti-fur Cloak", "entity name")
 t("matted fur cloak", "matted fur cloak", "_t")
 t("This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "_t")
@@ -4538,7 +4432,6 @@ t("either mentally dominate or psychically stun (depending on immunities) a near
 t("#Source# psychically dominates #target# through %s %s!", "#Source# psychically dominates #target# through %s %s!", "logCombat")
 t("crystallized drake heart", "crystallized drake heart", "_t")
 t("Ureslak's Focus", "Ureslak's Focus", "entity name")
-t("multi-hued", "multi-hued", "entity subtype")
 t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "_t")
 t("Starcaller", "Starcaller", "entity name")
 t("black staff", "black staff", "_t")
@@ -7273,30 +7166,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua"
--- 1 entries
-t("Acid Groove", "Acid Groove", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
--- 13 entries
-t("Poison Groove", "Poison Groove", "_t")
-t("Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "_t")
-t("Viral Injector", "Viral Injector", "_t")
-t("Viral grooves allow your weapons to apply an infectious agent on contact, dealing immediate blight damage and reducing their highest stat.  While this strain is effective it lacks the ability to spread or adapt to its hosts weaknesses.  Perhaps there are better methods to be found.", "Viral grooves allow your weapons to apply an infectious agent on contact, dealing immediate blight damage and reducing their highest stat.  While this strain is effective it lacks the ability to spread or adapt to its hosts weaknesses.  Perhaps there are better methods to be found.", "_t")
-t("Apply your extensive therapeutics knowledge to try and defeat death itself!", "Apply your extensive therapeutics knowledge to try and defeat death itself!", "_t")
-t("unstoppable force salve", "unstoppable force salve", "_t")
-t("Second Skin", "Second Skin", "_t")
-t("Not only does it help seal wounds, protecting you from bleeding and enhancing your healing, it also protects from armour chafe!", "Not only does it help seal wounds, protecting you from bleeding and enhancing your healing, it also protects from armour chafe!", "_t")
-t("Air Recycler", "Air Recycler", "_t")
-t("Helps keep your airway open and lets you hold your breath longer.", "Helps keep your airway open and lets you hold your breath longer.", "_t")
-t("Where you walk nature grows! Well moss. Sticky moss.", "Where you walk nature grows! Well moss. Sticky moss.", "_t")
-t("Fungal Web", "Fungal Web", "_t")
-t("This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"
 -- 15 entries
 t("shadow of pain", "shadow of pain", "entity name")
@@ -9504,7 +9373,7 @@ t("Killed by you: ", "Killed by you: ", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/generator/actor/Arena.lua"
--- 32 entries
+-- 28 entries
 t("giant crystal rat", "giant crystal rat", "_t")
 t("Skeletal rats", "Skeletal rats", "_t")
 t("Gladiators", "Gladiators", "_t")
@@ -9513,10 +9382,6 @@ t("Master slingers", "Master slingers", "_t")
 t("Master Alchemist", "Master Alchemist", "_t")
 t("Multi-hued Wyrmic", "Multi-hued Wyrmic", "_t")
 t("Headless horror", "Headless horror", "_t")
-t("Ryal the Towering", "Ryal the Towering", "_t")
-t("Fryjia the Hailstorm", "Fryjia the Hailstorm", "_t")
-t("Riala the Crimson", "Riala the Crimson", "_t")
-t("Valfren the Rampage", "Valfren the Rampage", "_t")
 t("Boss fight!", "Boss fight!", "_t")
 t("Victory!!", "Victory!!", "_t")
 t(" appear!!", " appear!!", "_t")
@@ -9896,19 +9761,6 @@ t("Really add %s to your friends?", "Really add %s to your friends?", "tformat")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/birth/classes/warrior.lua"
--- 2 entries
-t("Archers are dexterous ranged fighters, able to pin their foes to the ground and rain down a carpet of arrows on them.", "Archers are dexterous ranged fighters, able to pin their foes to the ground and rain down a carpet of arrows on them.", "_t")
-t("Skilled archers can fire special shots that pierce, cripple or pin their foes.", "Skilled archers can fire special shots that pierce, cripple or pin their foes.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/birth/classes/wilder.lua"
--- 1 entries
-t("Their most important stats are: Strength, Magic and Willpower", "Their most important stats are: Strength, Magic and Willpower", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/birth/races/construct.lua"
 -- 1 entries
 t("", "", "_t")
@@ -9916,8 +9768,7 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/calendar_allied.lua"
--- 11 entries
-t("Wintertide", "Wintertide", "calendar allied")
+-- 10 entries
 t("Allure", "Allure", "calendar allied")
 t("Regrowth", "Regrowth", "calendar allied")
 t("Time of Balance", "Time of Balance", "calendar allied")
@@ -9947,249 +9798,9 @@ t("Shortage", "Shortage", "calendar dwarf")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/arena-start.lua"
--- 7 entries
-t("Gladiator's wares", "Gladiator's wares", "_t")
-t([[#LIGHT_GREEN#You take a look at the ranking boards before entering.
-%s]], [[#LIGHT_GREEN#You take a look at the ranking boards before entering.
-%s]], "tformat")
-t("Enter the arena (60 waves)", "Enter the arena (60 waves)", "_t")
-t("Enter the arena (shorter mode, 30 rounds)", "Enter the arena (shorter mode, 30 rounds)", "_t")
-t("#LIGHT_RED#[Reset all arena save data]", "#LIGHT_RED#[Reset all arena save data]", "_t")
-t("Enter the arena for 60 rounds", "Enter the arena for 60 rounds", "_t")
-t("Enter the arena for 30 rounds", "Enter the arena for 30 rounds", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/chats/arena.lua"
--- 29 entries
-t("Gladiator's wares", "Gladiator's wares", "_t")
-t([[#LIGHT_GREEN#*A gigantic bone giant walks through the main gate.
-#LIGHT_GREEN#Its shape is intricate and sharp, resembling a drake, but with countless
-#LIGHT_GREEN#spikes instead of wings.
-#LIGHT_GREEN#The massive undead stares at you with unusual...intellect.
-#LIGHT_GREEN#You have heard of him. Ryal the Towering, your first obstacle!
-#LIGHT_GREEN#As an eerie blue glow fills where its eyes should be, the undead giant
-#LIGHT_GREEN#roars and multiple bones fly in your general direction!*
-]], [[#LIGHT_GREEN#*A gigantic bone giant walks through the main gate.
-#LIGHT_GREEN#Its shape is intricate and sharp, resembling a drake, but with countless
-#LIGHT_GREEN#spikes instead of wings.
-#LIGHT_GREEN#The massive undead stares at you with unusual...intellect.
-#LIGHT_GREEN#You have heard of him. Ryal the Towering, your first obstacle!
-#LIGHT_GREEN#As an eerie blue glow fills where its eyes should be, the undead giant
-#LIGHT_GREEN#roars and multiple bones fly in your general direction!*
-]], "_t")
-t("Have at you!!", "Have at you!!", "_t")
-t([[#LIGHT_GREEN#*After taking several hits, the undead giant finally succumbs
-#LIGHT_GREEN#to your attacks*
-#LIGHT_GREEN#Suddenly, Ryal's body starts to regenerate!
-#LIGHT_GREEN#Standing tall again, you can almost feel its emotionless skull staring
-#LIGHT_GREEN#at you with...satisfaction.
-#WHITE#Hehehe...well done, @playerdescriptor.race@.
-#LIGHT_GREEN#*Ryal quietly turns towards the gate and leaves, seemingly unharmed*
-]], [[#LIGHT_GREEN#*After taking several hits, the undead giant finally succumbs
-#LIGHT_GREEN#to your attacks*
-#LIGHT_GREEN#Suddenly, Ryal's body starts to regenerate!
-#LIGHT_GREEN#Standing tall again, you can almost feel its emotionless skull staring
-#LIGHT_GREEN#at you with...satisfaction.
-#WHITE#Hehehe...well done, @playerdescriptor.race@.
-#LIGHT_GREEN#*Ryal quietly turns towards the gate and leaves, seemingly unharmed*
-]], "_t")
-t("It was fun, bone giant!", "It was fun, bone giant!", "_t")
-t("...what? unharmed?", "...what? unharmed?", "_t")
-t([[#LIGHT_GREEN#*The wind chills as a young girl walks calmly through the gate.
-#LIGHT_GREEN#She looks surprisingly young, with extremely pale skin and contrasting
-#LIGHT_GREEN#long black hair. She examines you with eerie calmness*#WHITE#
-I am known as Fryjia the Hailstorm. That's all you need to know, @playerdescriptor.race@. Let us begin.
-#LIGHT_GREEN#*The whole arena starts to get colder as she speaks, and the audience
-#LIGHT_GREEN#starts wearing their finest winter cloaks*]], [[#LIGHT_GREEN#*The wind chills as a young girl walks calmly through the gate.
-#LIGHT_GREEN#She looks surprisingly young, with extremely pale skin and contrasting
-#LIGHT_GREEN#long black hair. She examines you with eerie calmness*#WHITE#
-I am known as Fryjia the Hailstorm. That's all you need to know, @playerdescriptor.race@. Let us begin.
-#LIGHT_GREEN#*The whole arena starts to get colder as she speaks, and the audience
-#LIGHT_GREEN#starts wearing their finest winter cloaks*]], "_t")
-t("Bring it!", "Bring it!", "_t")
-t([[#LIGHT_GREEN#*With your final blow, Fryjia falls, unable to continue*
-#LIGHT_GREEN#*She awkwardly stands up, but doesn't seem critically injured*
-#WHITE# I...I admit defeat.
-#LIGHT_GREEN#*The audience "oooohs" in awe. Fryjia has turned her back to you*
-#WHITE# @playerdescriptor.race@. You are not the person I am looking for...
-#LIGHT_GREEN#*Leaving you wondering what she was talking about, the young girl walks
-#LIGHT_GREEN#towards the gate. As it closes, you realize her eyes are wet with tears.
-]], [[#LIGHT_GREEN#*With your final blow, Fryjia falls, unable to continue*
-#LIGHT_GREEN#*She awkwardly stands up, but doesn't seem critically injured*
-#WHITE# I...I admit defeat.
-#LIGHT_GREEN#*The audience "oooohs" in awe. Fryjia has turned her back to you*
-#WHITE# @playerdescriptor.race@. You are not the person I am looking for...
-#LIGHT_GREEN#*Leaving you wondering what she was talking about, the young girl walks
-#LIGHT_GREEN#towards the gate. As it closes, you realize her eyes are wet with tears.
-]], "_t")
+-- 1 entries
 t("...", "...", "_t")
-t("w...what was that about?", "w...what was that about?", "_t")
-t([[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
-#LIGHT_GREEN#She looks at you with a wide smile*
-#WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
-#LIGHT_GREEN#*She speaks quietly as if telling a secret* #WHITE#You know, so few get past the little one as of late, it's such a bore.#LIGHT_GREEN#*She giggles*#WHITE#
-So! I am Reala, the Crimson. I came directly from Angolwen. Despite, you know, the whole thing with the Spellblaze, people still enjoy a few magic tricks!
-#LIGHT_GREEN#*She snaps her fingers, and then flames start dancing around her!*#WHITE#
-Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
-There is a battle to fight here!]], [[#LIGHT_GREEN#*The gate opens, revealing a mature human woman in crimson robes.
-#LIGHT_GREEN#She looks at you with a wide smile*
-#WHITE# My, my, what a fine @playerdescriptor.race@ you are. What was your name again, @playername@? I am soo delighted to be your rival today.
-#LIGHT_GREEN#*She speaks quietly as if telling a secret* #WHITE#You know, so few get past the little one as of late, it's such a bore.#LIGHT_GREEN#*She giggles*#WHITE#
-So! I am Reala, the Crimson. I came directly from Angolwen. Despite, you know, the whole thing with the Spellblaze, people still enjoy a few magic tricks!
-#LIGHT_GREEN#*She snaps her fingers, and then flames start dancing around her!*#WHITE#
-Fryjia told me about you, the poor thing, so I will not underestimate such a promising aspirant #LIGHT_GREEN#*She smiles warmly* #WHITE#So, let's make haste my dear!
-There is a battle to fight here!]], "_t")
-t("Let's go!", "Let's go!", "_t")
-t([[#LIGHT_GREEN#*With the final blow, Reala falls...to suddenly burst in flames!!
-#LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
-#LIGHT_GREEN#until you hear her voice from behind*#WHITE#
-Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of victory.
-#LIGHT_GREEN#*She bows politely*
-Fryjia was right about you: you seem to be a champion in the works!
-Oh, and please forgive her behavior. You will understand when you meet her father.
-And, if you keep fighting like this, it will be really soon.
-So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], [[#LIGHT_GREEN#*With the final blow, Reala falls...to suddenly burst in flames!!
-#LIGHT_GREEN#You stare at the blazing inferno with understandable confusion,
-#LIGHT_GREEN#until you hear her voice from behind*#WHITE#
-Oh, my dear! That was quite the fight, wasn't it? I concede you the honor of victory.
-#LIGHT_GREEN#*She bows politely*
-Fryjia was right about you: you seem to be a champion in the works!
-Oh, and please forgive her behavior. You will understand when you meet her father.
-And, if you keep fighting like this, it will be really soon.
-So, it's been my pleasure, @playername@. #LIGHT_GREEN#*She vanishes in a spiral of flame*]], "_t")
-t("I am pumped up! What's next?", "I am pumped up! What's next?", "_t")
-t("Am I the only person with a name that can die here?", "Am I the only person with a name that can die here?", "_t")
-t([[#LIGHT_GREEN#*You suddenly realize everything has turned dark.
-#LIGHT_GREEN#You look around searching for your rival. And then you notice it. Standing
-#LIGHT_GREEN#right before you, a massive battle armor with an equally massive battle axe.
-#LIGHT_GREEN#It wasn't there just a second ago. You step back and examine him better,
-#LIGHT_GREEN#realizing it's actually a human inside that hulking, worn armor. You can't see
-#LIGHT_GREEN#his eyes, but you know he's piercing your soul with his stare*
-f...t...ma....ll...
-#LIGHT_GREEN#*You hear a devilish voice, coming from everywhere at once!! But...you are
-#LIGHT_GREEN#unable to understand anything! It doesn't seem like any language used in
-#LIGHT_GREEN#Maj'Eyal!
-#LIGHT_GREEN#And then...a piercing, demonic roar...you are overwhelmed by extreme
-#LIGHT_GREEN#emotions invading your very soul!!*
-]], [[#LIGHT_GREEN#*You suddenly realize everything has turned dark.
-#LIGHT_GREEN#You look around searching for your rival. And then you notice it. Standing
-#LIGHT_GREEN#right before you, a massive battle armor with an equally massive battle axe.
-#LIGHT_GREEN#It wasn't there just a second ago. You step back and examine him better,
-#LIGHT_GREEN#realizing it's actually a human inside that hulking, worn armor. You can't see
-#LIGHT_GREEN#his eyes, but you know he's piercing your soul with his stare*
-f...t...ma....ll...
-#LIGHT_GREEN#*You hear a devilish voice, coming from everywhere at once!! But...you are
-#LIGHT_GREEN#unable to understand anything! It doesn't seem like any language used in
-#LIGHT_GREEN#Maj'Eyal!
-#LIGHT_GREEN#And then...a piercing, demonic roar...you are overwhelmed by extreme
-#LIGHT_GREEN#emotions invading your very soul!!*
-]], "_t")
-t("#LIGHT_GREEN#*You valiantly stand against the darkness*", "#LIGHT_GREEN#*You valiantly stand against the darkness*", "_t")
-t([[#LIGHT_GREEN#*You valiantly deliver the finishing blow!*
-#LIGHT_GREEN#*Valfren collapses as the light returns to this world.
-#LIGHT_GREEN#You close your eyes for a brief instant. Fryjia is there when you open them*
-Father... #LIGHT_GREEN#*She stands silent for a few seconds*#WHITE# You win, @playerdescriptor.race@.
-You have done well. Prepare for your final battle... if you win, we will be at your service.
-Good luck...
-#LIGHT_GREEN#*After a few uncomfortable seconds, Valfren starts to move again.
-#LIGHT_GREEN#He stands up and walks away with Fryjia. At the gates, Valfren turns his
-#LIGHT_GREEN#head in your direction. You look at him, and then he looks above
-#LIGHT_GREEN#the arena's walls. You follow his gaze... to meet the Master of the Arena*
-
-#LIGHT_GREEN#*There it is. Your goal. Your heart beats fast, as the time has come*
-#LIGHT_GREEN#*The Master of the Arena smiles proudly*
-#RED#The final battle begins when the gate closes, just this final time!!
-]], [[#LIGHT_GREEN#*You valiantly deliver the finishing blow!*
-#LIGHT_GREEN#*Valfren collapses as the light returns to this world.
-#LIGHT_GREEN#You close your eyes for a brief instant. Fryjia is there when you open them*
-Father... #LIGHT_GREEN#*She stands silent for a few seconds*#WHITE# You win, @playerdescriptor.race@.
-You have done well. Prepare for your final battle... if you win, we will be at your service.
-Good luck...
-#LIGHT_GREEN#*After a few uncomfortable seconds, Valfren starts to move again.
-#LIGHT_GREEN#He stands up and walks away with Fryjia. At the gates, Valfren turns his
-#LIGHT_GREEN#head in your direction. You look at him, and then he looks above
-#LIGHT_GREEN#the arena's walls. You follow his gaze... to meet the Master of the Arena*
-
-#LIGHT_GREEN#*There it is. Your goal. Your heart beats fast, as the time has come*
-#LIGHT_GREEN#*The Master of the Arena smiles proudly*
-#RED#The final battle begins when the gate closes, just this final time!!
-]], "_t")
-t("I will defeat you, Master of the Arena!!!", "I will defeat you, Master of the Arena!!!", "_t")
-t("I will become Master of the Arena instead of the Master of the Arena!!", "I will become Master of the Arena instead of the Master of the Arena!!", "_t")
-t("Wealth and glory! Wealth and glory!", "Wealth and glory! Wealth and glory!", "_t")
-t([[#LIGHT_GREEN#*Finally, the master of the arena comes into the gates!
-#LIGHT_GREEN#The public roars with excitement as he faces you with confidence!*
-I applaud you, @playerdescriptor.race@! You have fought with might and courage!
-And now...the time for the final showdown!
-#LIGHT_GREEN#*The master assumes a fighting stance. The audience cheers!*
-Like you, I started from nowhere. I won't underestimate someone with such potential.
-#LIGHT_GREEN#*The master smirks, you assume your fighting stance as well, and the
-#LIGHT_GREEN#audience cheers you as well, making the excitement grow inside you*
-Can you hear it, the public cheering? That's what this is about.
-Pursue glory with all your might, @playerdescriptor.race@!!
-#LIGHT_GREEN#*The master steps forward into the sand*
-]], [[#LIGHT_GREEN#*Finally, the master of the arena comes into the gates!
-#LIGHT_GREEN#The public roars with excitement as he faces you with confidence!*
-I applaud you, @playerdescriptor.race@! You have fought with might and courage!
-And now...the time for the final showdown!
-#LIGHT_GREEN#*The master assumes a fighting stance. The audience cheers!*
-Like you, I started from nowhere. I won't underestimate someone with such potential.
-#LIGHT_GREEN#*The master smirks, you assume your fighting stance as well, and the
-#LIGHT_GREEN#audience cheers you as well, making the excitement grow inside you*
-Can you hear it, the public cheering? That's what this is about.
-Pursue glory with all your might, @playerdescriptor.race@!!
-#LIGHT_GREEN#*The master steps forward into the sand*
-]], "_t")
-t("Wealth and glory!!!", "Wealth and glory!!!", "_t")
-t([[#LIGHT_GREEN#*After a glorious battle, the Master falls!*
-Hah...haha. You did it, @playerdescriptor.race@...
-#LIGHT_GREEN#*The master of the arena, defeated, stands up with a wide smile.
-#LIGHT_GREEN#Feeling the master's approval, you pick up its weapon, now lying
-#LIGHT_GREEN#in the blood-stained sand.*
-Everyone! We got a champion today!!
-#LIGHT_GREEN#*The audience rages and shouts your name repeatedly*
-Congratulations, @playerdescriptor.race@. You are the Master now.
-Now you shall take your rightful place as the champion.
-Just remember...like me, you shall fall one day...
-But meanwhile, this is your place! Welcome to paradise, @playerdescriptor.race@!
-#LIGHT_GREEN#*You see several sponsors and military recruiters approach the
-#LIGHT_GREEN#now defeated master, offering deals and good positions in the army.
-#LIGHT_GREEN#You smile, victorious, knowing your life will be glorious from now on.
-#LIGHT_GREEN#Because even if you are defeated in the future...
-#LIGHT_GREEN#You can always sell your image and live large.
-
-#YELLOW#CONGRATULATIONS!
-#YELLOW#You are the new master of the arena! You are great and epic!
-#YELLOW#You shall remain as the new master until someone challenges you!
-#YELLOW#Next time you play, you shall battle this new champion instead!
-]], [[#LIGHT_GREEN#*After a glorious battle, the Master falls!*
-Hah...haha. You did it, @playerdescriptor.race@...
-#LIGHT_GREEN#*The master of the arena, defeated, stands up with a wide smile.
-#LIGHT_GREEN#Feeling the master's approval, you pick up its weapon, now lying
-#LIGHT_GREEN#in the blood-stained sand.*
-Everyone! We got a champion today!!
-#LIGHT_GREEN#*The audience rages and shouts your name repeatedly*
-Congratulations, @playerdescriptor.race@. You are the Master now.
-Now you shall take your rightful place as the champion.
-Just remember...like me, you shall fall one day...
-But meanwhile, this is your place! Welcome to paradise, @playerdescriptor.race@!
-#LIGHT_GREEN#*You see several sponsors and military recruiters approach the
-#LIGHT_GREEN#now defeated master, offering deals and good positions in the army.
-#LIGHT_GREEN#You smile, victorious, knowing your life will be glorious from now on.
-#LIGHT_GREEN#Because even if you are defeated in the future...
-#LIGHT_GREEN#You can always sell your image and live large.
-
-#YELLOW#CONGRATULATIONS!
-#YELLOW#You are the new master of the arena! You are great and epic!
-#YELLOW#You shall remain as the new master until someone challenges you!
-#YELLOW#Next time you play, you shall battle this new champion instead!
-]], "_t")
-t("WEALTH!! AND!! GLORYYYYY!!", "WEALTH!! AND!! GLORYYYYY!!", "_t")
-t("I won't need to save chicks from cults anymore!", "I won't need to save chicks from cults anymore!", "_t")
-t("I hereby stand victorious, awaiting future challenges!", "I hereby stand victorious, awaiting future challenges!", "_t")
-t("#LIGHT_GREEN#*dance*", "#LIGHT_GREEN#*dance*", "_t")
 
 
 ------------------------------------------------
@@ -12727,7 +12338,7 @@ t("This crimson shape drips ceaselessly, spattering the nearby ground. The dropl
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/horror.lua"
--- 49 entries
+-- 48 entries
 t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
 Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
 Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], "_t")
@@ -12776,7 +12387,6 @@ You can discern a huge round mouth covered in razor-sharp teeth.]], "_t")
 t("Grgglck's Tentacle", "Grgglck's Tentacle", "entity name")
 t("This is one of Grgglck's tentacles. It looks more vulnerable than the main body.", "This is one of Grgglck's tentacles. It looks more vulnerable than the main body.", "_t")
 t("#AQUAMARINE#With Grgglck's death its tentacle also falls lifeless on the ground!", "#AQUAMARINE#With Grgglck's death its tentacle also falls lifeless on the ground!", "logSeen")
-t("Ak'Gishil", "Ak'Gishil", "entity name")
 t("This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "_t")
 t("Animated Sword", "Animated Sword", "entity name")
 t("Time seems to warp and bend around this floating weapon.", "Time seems to warp and bend around this floating weapon.", "_t")
@@ -12865,7 +12475,7 @@ t("Manaworms are losgoroth which feed on the mana of arcane users. If they ever 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/major-demon.lua"
--- 15 entries
+-- 14 entries
 t("dolleg", "dolleg", "entity name")
 t("A monstrous demon, covered in acidic thorns.", "A monstrous demon, covered in acidic thorns.", "_t")
 t("dúathedlen", "dúathedlen", "entity name")
@@ -12883,7 +12493,6 @@ t("champion of Urh'Rok", "champion of Urh'Rok", "entity name")
 t("One of Urh'Rok's own champions. A thousand nightmares made flesh and screaming steel tower before you in the form of a massive, armored humanoid.", "One of Urh'Rok's own champions. A thousand nightmares made flesh and screaming steel tower before you in the form of a massive, armored humanoid.", "_t")
 t("forge-giant", "forge-giant", "entity name")
 t("A burning giant wielding a forge hammer of the underworld in each hand -- weapons imbued by Urh'Rok himself with the power to crush and shape felsteel. Enter their range at your peril.", "A burning giant wielding a forge hammer of the underworld in each hand -- weapons imbued by Urh'Rok himself with the power to crush and shape felsteel. Enter their range at your peril.", "_t")
-t("Khulmanar, General of Urh'Rok", "Khulmanar, General of Urh'Rok", "entity name")
 t("This massive form, sheathed in dark flames, stands tall above a legion of lesser demons. In his hands he holds a massive blackened battleaxe, flames dancing around the blades.", "This massive form, sheathed in dark flames, stands tall above a legion of lesser demons. In his hands he holds a massive blackened battleaxe, flames dancing around the blades.", "_t")
 
 
@@ -13318,14 +12927,13 @@ t("Squeak??", "Squeak??", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/vampire.lua"
--- 10 entries
+-- 9 entries
 t("These ancient cursed beings often take the form of a bat and attack their prey.", "These ancient cursed beings often take the form of a bat and attack their prey.", "_t")
 t("lesser vampire", "lesser vampire", "entity name")
 t("This vampire has only just begun its new life. It has not yet fathomed its newfound power, yet it still has a thirst for blood.", "This vampire has only just begun its new life. It has not yet fathomed its newfound power, yet it still has a thirst for blood.", "_t")
 t("It is a humanoid with an aura of power. You notice a sharp set of front teeth.", "It is a humanoid with an aura of power. You notice a sharp set of front teeth.", "_t")
 t("master vampire", "master vampire", "entity name")
 t("It is a humanoid form dressed in robes. Power emanates from its chilling frame.", "It is a humanoid form dressed in robes. Power emanates from its chilling frame.", "_t")
-t("elder vampire", "elder vampire", "entity name")
 t([[A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others.
 It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.]], [[A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others.
 It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.]], "_t")
@@ -13413,318 +13021,10 @@ t("A Ziguranth wilder, attuned to nature.", "A Ziguranth wilder, attuned to natu
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
--- 50 entries
-t("Life Drinker", "Life Drinker", "entity name")
-t("blood coated dagger", "blood coated dagger", "_t")
-t("Black blood for foul deeds. This dagger serves evil.", "Black blood for foul deeds. This dagger serves evil.", "_t")
-t("ever-dripping trident", "ever-dripping trident", "_t")
-t("Trident of the Tides", "Trident of the Tides", "entity name")
-t([[The power of the tides rush through this trident.
-Tridents require the exotic weapons mastery talent to use correctly.]], [[The power of the tides rush through this trident.
-Tridents require the exotic weapons mastery talent to use correctly.]], "_t")
-t("flame-wrought amulet", "flame-wrought amulet", "_t")
-t("Fiery Choker", "Fiery Choker", "entity name")
-t("A choker made of pure flame, casting forever shifting patterns around the neck of its wearer. Its fire seems to not harm the wearer.", "A choker made of pure flame, casting forever shifting patterns around the neck of its wearer. Its fire seems to not harm the wearer.", "_t")
-t("Chromatic Harness", "Chromatic Harness", "entity name")
-t("multi-hued scale-mail armour", "multi-hued scale-mail armour", "_t")
-t("This dragon scale harness shines with multiple colors, quickly shifting through them in a seemingly chaotic manner.", "This dragon scale harness shines with multiple colors, quickly shifting through them in a seemingly chaotic manner.", "_t")
-t("Glory of the Pride", "Glory of the Pride", "entity name")
-t("The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "The most prized treasure of the Battlemaster of the Pride, Grushnak. This gold ring is inscribed in the now lost orc tongue.", "_t")
-t("deep black ring", "deep black ring", "_t")
-t("Black Robe", "Black Robe", "entity name")
-t("black robe", "black robe", "_t")
-t("A silk robe, darker than the darkest night sky, it radiates power.", "A silk robe, darker than the darkest night sky, it radiates power.", "_t")
-t("Crown of the Elements", "Crown of the Elements", "entity name")
-t("jeweled crown", "jeweled crown", "_t")
-t("This jeweled crown shimmers with colors.", "This jeweled crown shimmers with colors.", "_t")
-t("blood-etched greatsword", "blood-etched greatsword", "_t")
-t("A blood-etched greatsword, it has seen many foes. From the inside.", "A blood-etched greatsword, it has seen many foes. From the inside.", "_t")
-t("10% chance to send the wielder into a killing frenzy", "10% chance to send the wielder into a killing frenzy", "_t")
-t("fiery whip", "fiery whip", "_t")
-t("Whip of Urh'Rok", "Whip of Urh'Rok", "entity name")
-t("With this unbearably bright whip of flame, the demon master Urh'Rok has become known for never having lost in combat.", "With this unbearably bright whip of flame, the demon master Urh'Rok has become known for never having lost in combat.", "_t")
-t("Storm Fury", "Storm Fury", "entity name")
-t("crackling longbow", "crackling longbow", "_t")
-t("This dragonbone longbow is enhanced with bands of steel, which arc with intense lightning. Bolts travel up and down the string, ignorant of you.", "This dragonbone longbow is enhanced with bands of steel, which arc with intense lightning. Bolts travel up and down the string, ignorant of you.", "_t")
-t("Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "tformat")
-t("#GOLD#A bolt of lightning fires from #Source#'s bow, striking #Target#!", "#GOLD#A bolt of lightning fires from #Source#'s bow, striking #Target#!", "logCombat")
-t("Frozen Shroud", "Frozen Shroud", "entity name")
-t("chilling cloak", "chilling cloak", "_t")
-t("All that remains of the Glacial Legion. This cloak seems to exude an icy cold vapor that freezes all it touches.", "All that remains of the Glacial Legion. This cloak seems to exude an icy cold vapor that freezes all it touches.", "_t")
-t("release a radius %d chilling blast, instantly dealing %0.2f cold damage and condensing the air into freezing vapors that deal %0.2f cold damage (based on Magic) each turn for %d turns", "release a radius %d chilling blast, instantly dealing %0.2f cold damage and condensing the air into freezing vapors that deal %0.2f cold damage (based on Magic) each turn for %d turns", "tformat")
-t("%s releases an icy blast from %s %s!", "%s releases an icy blast from %s %s!", "logSeen")
-t("icy vapors", "icy vapors", "_t")
-t("Blighted Maul", "Blighted Maul", "entity name")
-t("rotten stone limb", "rotten stone limb", "_t")
-t("The massive stone limb of the Rotting Titan, a mass of stone and rotting flesh. You think you can lift it, but it is very heavy.", "The massive stone limb of the Rotting Titan, a mass of stone and rotting flesh. You think you can lift it, but it is very heavy.", "_t")
-t("Blasts creatures in a radius 1 shockwave around your target for %0.2f to %0.2f physical damage (based on Strength).", "Blasts creatures in a radius 1 shockwave around your target for %0.2f to %0.2f physical damage (based on Strength).", "tformat")
-t("%s's %s shakes the ground with its impact!", "%s's %s shakes the ground with its impact!", "logSeen")
-t("knock away other creatures within radius %d), dealing %0.2f to %0.2f physical damage (based on Strength) to each", "knock away other creatures within radius %d), dealing %0.2f to %0.2f physical damage (based on Strength) to each", "tformat")
-t("%s slams %s %s into the ground, sending out a shockwave!", "%s slams %s %s into the ground, sending out a shockwave!", "logSeen")
-t("melting bony armour", "melting bony armour", "_t")
-t("This mass of fused molten bone from the Heavy Sentinel radiates intense power. It still glows red with the heat of the Sentinel's core, and yet seems to do you no harm.", "This mass of fused molten bone from the Heavy Sentinel radiates intense power. It still glows red with the heat of the Sentinel's core, and yet seems to do you no harm.", "_t")
-t("Void Orb", "Void Orb", "entity name")
-t("This thin grey ring is adorned with a deep black orb. Tiny white dots swirl slowly within it, and a faint purple light glows from its core.", "This thin grey ring is adorned with a deep black orb. Tiny white dots swirl slowly within it, and a faint purple light glows from its core.", "_t")
-t("ethereal ring", "ethereal ring", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua"
--- 154 entries
-t("glittering longsword", "glittering longsword", "_t")
-t("Wintertide", "Wintertide", "entity name")
-t([[The air seems to freeze around the blade of this sword, draining all heat from the area.
-It is said the Conclave created this weapon for their warmaster during the dark times of the first allure war.]], [[The air seems to freeze around the blade of this sword, draining all heat from the area.
-It is said the Conclave created this weapon for their warmaster during the dark times of the first allure war.]], "_t")
-t("No Winter Storm Active", "No Winter Storm Active", "_t")
-t("Winter Storm: ", "Winter Storm: ", "_t")
-t("radius %d (%d turns remaining)", "radius %d (%d turns remaining)", "tformat")
-t("Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "tformat")
-t("#LIGHT_BLUE#A Winter Storm forms around %s.", "#LIGHT_BLUE#A Winter Storm forms around %s.", "logSeen")
-t("precipitate ice walls (lasting 10 turns) within your Winter Storm's area", "precipitate ice walls (lasting 10 turns) within your Winter Storm's area", "_t")
-t("#LIGHT_BLUE#%s brandishes %s %s, releasing a wave of Winter cold!", "#LIGHT_BLUE#%s brandishes %s %s, releasing a wave of Winter cold!", "logSeen")
-t("winter wall", "winter wall", "_t")
-t("a summoned wall of ice", "a summoned wall of ice", "_t")
-t("#LIGHT_BLUE#Ice and snow form a barrier!", "#LIGHT_BLUE#Ice and snow form a barrier!", "log")
-t("phial filled with darkness", "phial filled with darkness", "_t")
-t("Wintertide Phial", "Wintertide Phial", "entity name")
-t("This phial seems filled with darkness, yet it cleanses your thoughts.", "This phial seems filled with darkness, yet it cleanses your thoughts.", "_t")
-t("cleanse your mind of up to %d (based on Magic) detrimental mental effects", "cleanse your mind of up to %d (based on Magic) detrimental mental effects", "tformat")
-t("%s uses %s %s to cleanse %s mind!", "%s uses %s %s to cleanse %s mind!", "logSeen")
-t("ice-covered boots", "ice-covered boots", "_t")
-t("A pair of leather boots. Cold to the touch, they radiate a cold blue light.", "A pair of leather boots. Cold to the touch, they radiate a cold blue light.", "_t")
-t("Each step taken casts a ground frost effect in a radius of 1 around you for 5 turns, giving you a 20% cold damage bonus for 3 turns. Additionally, any enemy standing in the frost has a 20% chance of talent failure for 3 turns.", "Each step taken casts a ground frost effect in a radius of 1 around you for 5 turns, giving you a 20% cold damage bonus for 3 turns. Additionally, any enemy standing in the frost has a 20% chance of talent failure for 3 turns.", "_t")
-t("Dragonskull Helm", "Dragonskull Helm", "entity name")
-t("skull helm", "skull helm", "_t")
-t("Traces of a dragon's power still remain in this bleached and cracked skull.", "Traces of a dragon's power still remain in this bleached and cracked skull.", "_t")
-t("Eel-skin armour", "Eel-skin armour", "entity name")
-t("slippery armour", "slippery armour", "_t")
-t("This armour seems to have been patched together from many eels. Yuck.", "This armour seems to have been patched together from many eels. Yuck.", "_t")
-t("Nightsong", "Nightsong", "entity name")
-t("A pitch black ring, unadorned. It seems as though tendrils of darkness creep upon it.", "A pitch black ring, unadorned. It seems as though tendrils of darkness creep upon it.", "_t")
-t("obsidian ring", "obsidian ring", "_t")
-t("tribal helm", "tribal helm", "_t")
-t("Steel Helm of Garkul", "Steel Helm of Garkul", "entity name")
-t("A great helm that belonged to Garkul the Devourer, one of the greatest orcs ever to live.", "A great helm that belonged to Garkul the Devourer, one of the greatest orcs ever to live.", "_t")
-t("Another of Garkul's heirlooms would bring out his spirit.", "Another of Garkul's heirlooms would bring out his spirit.", "_t")
-t("Lunar Shield", "Lunar Shield", "entity name")
-t("chitinous shield", "chitinous shield", "_t")
-t("A large section of chitin removed from Nimisil. It continues to give off a strange white glow.", "A large section of chitin removed from Nimisil. It continues to give off a strange white glow.", "_t")
-t("large chunk of wood", "large chunk of wood", "_t")
-t("Wrathroot's Barkwood", "Wrathroot's Barkwood", "entity name")
-t("The barkwood of Wrathroot, made into roughly the shape of a shield.", "The barkwood of Wrathroot, made into roughly the shape of a shield.", "_t")
-t("burned piece of wood", "burned piece of wood", "_t")
-t("Petrified Wood", "Petrified Wood", "entity name")
-t("A piece of the scorched wood taken from the remains of Snaproot.", "A piece of the scorched wood taken from the remains of Snaproot.", "_t")
-t("Crystal Shard", "Crystal Shard", "entity name")
-t("crystalline tree branch", "crystalline tree branch", "_t")
-t("This crystalline tree branch is remarkably rigid, and refracts light in myriad colors. Gazing at it entrances you, and you worry where its power may have come from.", "This crystalline tree branch is remarkably rigid, and refracts light in myriad colors. Gazing at it entrances you, and you worry where its power may have come from.", "_t")
-t("create 2 living shards of crystal to serve you for 10 turns", "create 2 living shards of crystal to serve you for 10 turns", "_t")
-t("Crystals splinter off of %s's %s and animate!", "Crystals splinter off of %s's %s and animate!", "logSeen")
-t("pestilent waraxe", "pestilent waraxe", "_t")
-t("Malediction", "Malediction", "entity name")
-t("The land withers and crumbles wherever this cursed axe rests.", "The land withers and crumbles wherever this cursed axe rests.", "_t")
-t("dark staff", "dark staff", "_t")
-t("Kor's Fall", "Kor's Fall", "entity name")
-t("Made from the bones of many creatures, this staff glows with power. You can feel its evil presence even from a distance.", "Made from the bones of many creatures, this staff glows with power. You can feel its evil presence even from a distance.", "_t")
-t("Vox", "Vox", "entity name")
-t("ringing amulet", "ringing amulet", "_t")
-t("No force can hope to silence the wearer of this amulet.", "No force can hope to silence the wearer of this amulet.", "_t")
-t("Choker of Dread", "Choker of Dread", "entity name")
-t("dark amulet", "dark amulet", "_t")
-t("The evilness of undeath radiates from this amulet.", "The evilness of undeath radiates from this amulet.", "_t")
-t("summon an elder vampire with Taunt to your side for 15 turns", "summon an elder vampire with Taunt to your side for 15 turns", "_t")
-t("You need an enemy nearby to summon!", "You need an enemy nearby to summon!", "logPlayer")
-t("%s taps %s %s, summoning a vampire thrall!", "%s taps %s %s, summoning a vampire thrall!", "logSeen")
-t("elder vampire", "elder vampire", "_t")
-t("A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "_t")
-t("Vampire", "Vampire", "_t")
-t("human skull", "human skull", "_t")
-t("Runed Skull", "Runed Skull", "entity name")
-t("Dull red runes are etched all over this blackened skull.", "Dull red runes are etched all over this blackened skull.", "_t")
-t("tree trunk", "tree trunk", "_t")
-t("Bill's Tree Trunk", "Bill's Tree Trunk", "entity name")
-t("This is a big, nasty-looking tree trunk that Bill the Troll used as a weapon. It could still serve this purpose, should you be strong enough to wield it!", "This is a big, nasty-looking tree trunk that Bill the Troll used as a weapon. It could still serve this purpose, should you be strong enough to wield it!", "_t")
-t("bloody shield", "bloody shield", "_t")
-t("Sanguine Shield", "Sanguine Shield", "entity name")
-t("Though tarnished and spattered with blood, the emblem of the Sun still manages to shine through on this shield.", "Though tarnished and spattered with blood, the emblem of the Sun still manages to shine through on this shield.", "_t")
-t("Flamewrought", "Flamewrought", "entity name")
-t("chitinous gloves", "chitinous gloves", "_t")
-t("These gloves seems to be made out of the exoskeletons of ritches. They are hot to the touch.", "These gloves seems to be made out of the exoskeletons of ritches. They are hot to the touch.", "_t")
-t("scintillating crystal", "scintillating crystal", "_t")
-t("Crystal Focus", "Crystal Focus", "entity name")
-t("This crystal radiates the power of the Spellblaze itself.", "This crystal radiates the power of the Spellblaze itself.", "_t")
-t("(The created item can be activated to recover the Focus.)", "(The created item can be activated to recover the Focus.)", "_t")
-t("combine with a weapon (makes a non enchanted weapon into an artifact)", "combine with a weapon (makes a non enchanted weapon into an artifact)", "_t")
-t("Fuse with which weapon?", "Fuse with which weapon?", "_t")
-t("crystalline weapon", "crystalline weapon", "_t")
-t("#GOLD#As the crystalline weapon and armour are brought together, they begin to emit a constant humming.", "#GOLD#As the crystalline weapon and armour are brought together, they begin to emit a constant humming.", "logPlayer")
-t("#GOLD#The humming from the crystalline artifacts fades as they are separated.", "#GOLD#The humming from the crystalline artifacts fades as they are separated.", "logPlayer")
-t("recover the Crystal Focus (destroys this weapon)", "recover the Crystal Focus (destroys this weapon)", "_t")
-t("coruscating crystal", "coruscating crystal", "_t")
-t("Crystal Heart", "Crystal Heart", "entity name")
-t("multi-hued", "multi-hued", "entity subtype")
-t("This crystal is huge, easily the size of your head. It sparkles brilliantly almost of its own accord.", "This crystal is huge, easily the size of your head. It sparkles brilliantly almost of its own accord.", "_t")
-t("(The created item can be activated to recover the Heart.)", "(The created item can be activated to recover the Heart.)", "_t")
-t("combine with a suit of body armor (makes a non enchanted armour into an artifact)", "combine with a suit of body armor (makes a non enchanted armour into an artifact)", "_t")
-t("Fuse with which armor?", "Fuse with which armor?", "_t")
-t("crystalline armour", "crystalline armour", "_t")
-t("Crystalline %s", "Crystalline %s", "tformat")
-t(" Transformed with the power of the Spellblaze.", " Transformed with the power of the Spellblaze.", "_t")
-t("recover the Crystal Heart (destroys this armour)", "recover the Crystal Heart (destroys this armour)", "_t")
-t("You created: %s", "You created: %s", "logPlayer")
-t("You fix the crystal on the %s and create the %s.", "You fix the crystal on the %s and create the %s.", "logPlayer")
-t("dark rod", "dark rod", "_t")
-t("Rod of Annulment", "Rod of Annulment", "entity name")
-t("You can feel magic draining out around this rod. Even nature itself seems affected.", "You can feel magic draining out around this rod. Even nature itself seems affected.", "_t")
-t("put up to 3 of the target's runes, infusions or talents on cooldown for 3-5 turns (range %d)", "put up to 3 of the target's runes, infusions or talents on cooldown for 3-5 turns (range %d)", "tformat")
-t("#Source# aims %s %s at #target#!", "#Source# aims %s %s at #target#!", "logCombat")
-t("a tooth", "a tooth", "_t")
-t("Tooth of the Mouth", "Tooth of the Mouth", "entity name")
-t("A huge tooth taken from the Mouth, in the Deep Bellow.", "A huge tooth taken from the Mouth, in the Deep Bellow.", "_t")
-t("The Warped Boots", "The Warped Boots", "entity name")
-t("pair of painful-looking boots", "pair of painful-looking boots", "_t")
-t("These blackened boots have lost all vestiges of any former glory they might have had. Now, they are a testament to the corruption of the Deep Bellow, and its power.", "These blackened boots have lost all vestiges of any former glory they might have had. Now, they are a testament to the corruption of the Deep Bellow, and its power.", "_t")
-t("Withering Orbs", "Withering Orbs", "entity name")
-t("shadow-strung orbs", "shadow-strung orbs", "_t")
-t([[These opalescent orbs stare at you with deathly knowledge, undeceived by your vanities and pretences.  They have lived and died through horrors you could never imagine, and now they lie strung in black chords watching every twitch of the shadows.
-If you close your eyes a moment, you can almost imagine what dread sights they see...]], [[These opalescent orbs stare at you with deathly knowledge, undeceived by your vanities and pretences.  They have lived and died through horrors you could never imagine, and now they lie strung in black chords watching every twitch of the shadows.
-If you close your eyes a moment, you can almost imagine what dread sights they see...]], "_t")
-t("Borfast's Cage", "Borfast's Cage", "entity name")
+-- 2 entries
 t("a suit of pitted and pocked plate-mail", "a suit of pitted and pocked plate-mail", "_t")
-t([[Inch-thick stralite plates lock together with voratun joints. The whole suit looks impenetrable, but has clearly been subjected to terrible treatment - great dents and misshaping warps, and caustic fissures bored across the surface.
-Though clearly a powerful piece, it must once have been much greater.]], [[Inch-thick stralite plates lock together with voratun joints. The whole suit looks impenetrable, but has clearly been subjected to terrible treatment - great dents and misshaping warps, and caustic fissures bored across the surface.
-Though clearly a powerful piece, it must once have been much greater.]], "_t")
-t("Aletta's Diadem", "Aletta's Diadem", "entity name")
-t("jeweled diadem", "jeweled diadem", "_t")
-t([[A filigree of silver set with many small jewels, this diadem seems radiant - ethereal almost. But its touch seems to freeze your skin and brings wild thoughts to your mind. You want to drop it, throw it away, and yet you cannot resist thinking of what powers it might bring you.
-Is this temptation a weak will on your part, or some domination from the artifact itself...?]], [[A filigree of silver set with many small jewels, this diadem seems radiant - ethereal almost. But its touch seems to freeze your skin and brings wild thoughts to your mind. You want to drop it, throw it away, and yet you cannot resist thinking of what powers it might bring you.
-Is this temptation a weak will on your part, or some domination from the artifact itself...?]], "_t")
-t("Hare-Skin Sling", "Hare-Skin Sling", "entity name")
-t("hare-skin sling", "hare-skin sling", "_t")
-t([[This well-tended sling is made from the leather and sinews of a large hare. It feels smooth to the touch, yet very durable. Some say that the skin of a hare brings luck and fortune.
-Hard to tell if that really helped its former owner, but it's clear that the skin is at least also strong and reliable.]], [[This well-tended sling is made from the leather and sinews of a large hare. It feels smooth to the touch, yet very durable. Some say that the skin of a hare brings luck and fortune.
-Hard to tell if that really helped its former owner, but it's clear that the skin is at least also strong and reliable.]], "_t")
-t("Prox's Lucky Halfling Foot", "Prox's Lucky Halfling Foot", "entity name")
-t("a mummified halfling foot", "a mummified halfling foot", "_t")
-t([[A large hairy foot, very recognizably a halfling's, is strung on a piece of thick twine. In its decomposed state it's hard to tell how long ago it parted with its owner, but from what look like teeth marks around the ankle you get the impression that it wasn't given willingly.
-It has been kept somewhat intact with layers of salt and clay, but in spite of this it's clear that nature is beginning to take its toll on the dead flesh. Some say the foot of a halfling brings luck to its bearer - right now the only thing you can be sure of is that it stinks.]], [[A large hairy foot, very recognizably a halfling's, is strung on a piece of thick twine. In its decomposed state it's hard to tell how long ago it parted with its owner, but from what look like teeth marks around the ankle you get the impression that it wasn't given willingly.
-It has been kept somewhat intact with layers of salt and clay, but in spite of this it's clear that nature is beginning to take its toll on the dead flesh. Some say the foot of a halfling brings luck to its bearer - right now the only thing you can be sure of is that it stinks.]], "_t")
-t(" (cooling down: %d turns)", " (cooling down: %d turns)", "tformat")
-t([[Detects traps.
-Removes (25%% chance) up to three stuns, pins, or dazes each turn%s]], [[Detects traps.
-Removes (25%% chance) up to three stuns, pins, or dazes each turn%s]], "tformat")
 t("", "", "_t")
-t("#CRIMSON#%s twitches, alerting %s that a hidden trap is nearby.", "#CRIMSON#%s twitches, alerting %s that a hidden trap is nearby.", "logSeen")
-t("%s shrugs off some effects!", "%s shrugs off some effects!", "logSeen")
-t("#LIGHT_RED#You feel uneasy carrying %s.", "#LIGHT_RED#You feel uneasy carrying %s.", "logPlayer")
-t("Psionic Fury", "Psionic Fury", "entity name")
-t("vibrating mindstar", "vibrating mindstar", "_t")
-t("This mindstar constantly shakes and vibrates, as if a powerful force is desperately trying to escape.", "This mindstar constantly shakes and vibrates, as if a powerful force is desperately trying to escape.", "_t")
-t("release a wave of psionic power, dealing %0.2f mind damage (based on Willpower) to all within radius %d", "release a wave of psionic power, dealing %0.2f mind damage (based on Willpower) to all within radius %d", "tformat")
-t("%s's %s sends out a blast of psionic energy!", "%s's %s sends out a blast of psionic energy!", "logSeen")
-t("Storm Bringer's Gauntlets", "Storm Bringer's Gauntlets", "entity name")
-t("fine-mesh gauntlets", "fine-mesh gauntlets", "_t")
-t("This pair of fine mesh voratun gauntlets is covered with glyphs of power that spark with azure energy.  The metal is supple and light so as not to interfere with spell-casting.  When and where these gauntlets were forged is a mystery, but odds are the crafter knew a thing or two about magic.", "This pair of fine mesh voratun gauntlets is covered with glyphs of power that spark with azure energy.  The metal is supple and light so as not to interfere with spell-casting.  When and where these gauntlets were forged is a mystery, but odds are the crafter knew a thing or two about magic.", "_t")
-t("+1 to all lightning damage spells", "+1 to all lightning damage spells", "_t")
-t("ornate trident", "ornate trident", "_t")
-t("River's Fury", "River's Fury", "entity name")
-t("This gorgeous and ornate trident was wielded by Lady Nashva, and when you hold it, you can faintly hear the roar of a rushing river.", "This gorgeous and ornate trident was wielded by Lady Nashva, and when you hold it, you can faintly hear the roar of a rushing river.", "_t")
-t("Unerring Scalpel", "Unerring Scalpel", "entity name")
-t("long sharp scalpel", "long sharp scalpel", "_t")
-t("This scalpel was used by the dread sorcerer Kor'Pul when he began learning the necromantic arts in the Age of Dusk.  Many were the bodies, living and dead, that became unwilling victims of his terrible experiments.", "This scalpel was used by the dread sorcerer Kor'Pul when he began learning the necromantic arts in the Age of Dusk.  Many were the bodies, living and dead, that became unwilling victims of his terrible experiments.", "_t")
-t("Wyrmbreath", "Wyrmbreath", "entity name")
-t("clawed dragon-scale gloves", "clawed dragon-scale gloves", "_t")
-t("These dragon scale gloves are tipped with the claws and teeth of a vicious Wyrm. The gloves are warm to the touch.", "These dragon scale gloves are tipped with the claws and teeth of a vicious Wyrm. The gloves are warm to the touch.", "_t")
-t("Eye of the Dreaming One", "Eye of the Dreaming One", "entity name")
-t("translucent sphere", "translucent sphere", "_t")
-t("This ethereal eye stares eternally, as if seeing things that do not truly exist.", "This ethereal eye stares eternally, as if seeing things that do not truly exist.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/boss-artifacts.lua"
--- 20 entries
-t("bloodied fang", "bloodied fang", "_t")
-t("A fang from the great warg, Rungof, still covered in blood.", "A fang from the great warg, Rungof, still covered in blood.", "_t")
-t("Khulmanar's Wrath", "Khulmanar's Wrath", "entity name")
-t("firey blackened battleaxe", "firey blackened battleaxe", "_t")
-t("Blackened with soot and covered in spikes, this battleaxe roars with the flames of the Fearscape. Given by Urh'Rok himself to his general, this powerful weapon can burn even the most resilient of foes.", "Blackened with soot and covered in spikes, this battleaxe roars with the flames of the Fearscape. Given by Urh'Rok himself to his general, this powerful weapon can burn even the most resilient of foes.", "_t")
-t("Bladed Rift", "Bladed Rift", "entity name")
-t("hole in space", "hole in space", "_t")
-t("Upon defeat, Ak'Gishil collapsed into this tiny rift. How it remains stable, you are unsure. If you focus, you think you can call forth a sword from it.", "Upon defeat, Ak'Gishil collapsed into this tiny rift. How it remains stable, you are unsure. If you focus, you think you can call forth a sword from it.", "_t")
-t("Blade of Distorted Time", "Blade of Distorted Time", "entity name")
-t("time-warped sword", "time-warped sword", "_t")
-t("The remnants of a damaged timeline, this blade shifts and fades at random.", "The remnants of a damaged timeline, this blade shifts and fades at random.", "_t")
-t("deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "deals %d temporal damage and slows enemies in radius 6 of the target by %d%% based on Magic", "tformat")
-t("Rune of Reflection", "Rune of Reflection", "entity name")
-t("You can see your own image mirrored in the surface of this silvery rune.", "You can see your own image mirrored in the surface of this silvery rune.", "_t")
-t("shiny rune", "shiny rune", "_t")
-t("The Gaping Maw", "The Gaping Maw", "entity name")
-t("huge granite battleaxe", "huge granite battleaxe", "_t")
-t("This huge granite battleaxe is as much mace as it is axe.  The shaft is made of blackened wood tightly bound in drakeskin leather and the sharpened granite head glistens with a viscous green fluid.", "This huge granite battleaxe is as much mace as it is axe.  The shaft is made of blackened wood tightly bound in drakeskin leather and the sharpened granite head glistens with a viscous green fluid.", "_t")
-t("deal manaburn damage equal to your mindpower in a radius 3 cone", "deal manaburn damage equal to your mindpower in a radius 3 cone", "_t")
-t("#DARK_GREEN#You feel like Nature's Wrath incarnate!", "#DARK_GREEN#You feel like Nature's Wrath incarnate!", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/brotherhood-artifacts.lua"
--- 55 entries
-t("vial of pink fluid", "vial of pink fluid", "_t")
-t("A vial of pink, airy fluid.", "A vial of pink, airy fluid.", "_t")
-t("permanently increase your dexterity and cunning by three", "permanently increase your dexterity and cunning by three", "_t")
-t("#00FF00#The elixir has given you foxlike physical and mental agility!", "#00FF00#The elixir has given you foxlike physical and mental agility!", "logPlayer")
-t("vial of green fluid", "vial of green fluid", "_t")
-t("A vial of opaque green fluid.", "A vial of opaque green fluid.", "_t")
-t("permanently increase your defense and ranged defense by six", "permanently increase your defense and ranged defense by six", "_t")
-t("#00FF00#The elixir has improved your defensive instincts!", "#00FF00#The elixir has improved your defensive instincts!", "logPlayer")
-t("vial of red fluid", "vial of red fluid", "_t")
-t("A vial of chunky red fluid.", "A vial of chunky red fluid.", "_t")
-t("permanently increase your physical critical strike chance by 4%", "permanently increase your physical critical strike chance by 4%", "_t")
-t("#00FF00#The elixir has improved your eye for an enemy's weak points!", "#00FF00#The elixir has improved your eye for an enemy's weak points!", "logPlayer")
-t("vial of cyan fluid", "vial of cyan fluid", "_t")
-t("A vial of glowing cyan fluid.", "A vial of glowing cyan fluid.", "_t")
-t("permanently increase your magic and willpower by three", "permanently increase your magic and willpower by three", "_t")
-t("#00FF00#The elixir has augmented your magical and mental capacity!", "#00FF00#The elixir has augmented your magical and mental capacity!", "logPlayer")
-t("vial of grey fluid", "vial of grey fluid", "_t")
-t("A vial of bubbling, slate-colored fluid.", "A vial of bubbling, slate-colored fluid.", "_t")
-t("permanently increase all your saving throws by 4", "permanently increase all your saving throws by 4", "_t")
-t("#00FF00#The elixir has improved your resistance to unpleasant effects!", "#00FF00#The elixir has improved your resistance to unpleasant effects!", "logPlayer")
-t("vial of maroon fluid", "vial of maroon fluid", "_t")
-t("A vial of thick maroon fluid.", "A vial of thick maroon fluid.", "_t")
-t("grant you four additional stat points", "grant you four additional stat points", "_t")
-t("#00FF00#The elixir has greatly expanded your capacity for improving your mind and body.", "#00FF00#The elixir has greatly expanded your capacity for improving your mind and body.", "logPlayer")
-t("You have %d stat point(s) to spend. Press G to use them.", "You have %d stat point(s) to spend. Press G to use them.", "logPlayer")
-t("vial of orange fluid", "vial of orange fluid", "_t")
-t("A vial of churning orange fluid.", "A vial of churning orange fluid.", "_t")
-t("permanently increase your chance to critically strike with spells by 4%", "permanently increase your chance to critically strike with spells by 4%", "_t")
-t("#00FF00#The elixir has improved your eye for an enemy's magical weak points!", "#00FF00#The elixir has improved your eye for an enemy's magical weak points!", "logPlayer")
-t("vial of yellow fluid", "vial of yellow fluid", "_t")
-t("A vial of lively yellow fluid.", "A vial of lively yellow fluid.", "_t")
-t("permanently increase your luck by 5", "permanently increase your luck by 5", "_t")
-t("#00FF00#The elixir seems to have subtly repositioned your entire being within the fabric of reality!", "#00FF00#The elixir seems to have subtly repositioned your entire being within the fabric of reality!", "logPlayer")
-t("vial of clear fluid", "vial of clear fluid", "_t")
-t("A vial of clear, steaming fluid.", "A vial of clear, steaming fluid.", "_t")
-t("grant you two additional class talent points", "grant you two additional class talent points", "_t")
-t("vial of tan fluid", "vial of tan fluid", "_t")
-t("A vial of sluggish tan fluid.", "A vial of sluggish tan fluid.", "_t")
-t("permanently increase your strength and constitution by three", "permanently increase your strength and constitution by three", "_t")
-t("#00FF00#The elixir has augmented your physical might and resilience!", "#00FF00#The elixir has augmented your physical might and resilience!", "logPlayer")
-t("vial of iron-colored fluid", "vial of iron-colored fluid", "_t")
-t("A vial of grainy, iron-colored fluid.", "A vial of grainy, iron-colored fluid.", "_t")
-t("permanently increase your armor by four", "permanently increase your armor by four", "_t")
-t("#00FF00#The elixir has reinforced your entire body!", "#00FF00#The elixir has reinforced your entire body!", "logPlayer")
-t("vial of white fluid", "vial of white fluid", "_t")
-t("A vial of murky white fluid.", "A vial of murky white fluid.", "_t")
-t("grant you two additional generic talent points", "grant you two additional generic talent points", "_t")
-t("#00FFFF#You drink the elixir and feel forever transformed!", "#00FFFF#You drink the elixir and feel forever transformed!", "logPlayer")
-t("#00FF00#The elixir has improved your capacity for exercising your core talents.", "#00FF00#The elixir has improved your capacity for exercising your core talents.", "logPlayer")
-t("cloudy, heavy emerald", "cloudy, heavy emerald", "_t")
-t("A lopsided, heavy emerald with murky green clouds shifting sluggishly under the surface.", "A lopsided, heavy emerald with murky green clouds shifting sluggishly under the surface.", "_t")
-t("vial of black fluid", "vial of black fluid", "_t")
-t("A vial of thick fluid, metallic and reflective. It's incredibly heavy.", "A vial of thick fluid, metallic and reflective. It's incredibly heavy.", "_t")
-t("grant you complete invulnerability for five turns", "grant you complete invulnerability for five turns", "_t")
-t("#00FF00#You feel indestructible!", "#00FF00#You feel indestructible!", "logPlayer")
 
 
 ------------------------------------------------
@@ -14256,7 +13556,7 @@ t("A plain looking ceremonial rod. It has connections with Time that even chrono
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua"
--- 129 entries
+-- 127 entries
 t("Penitence", "Penitence", "entity name")
 t("glowing staff", "glowing staff", "_t")
 t("A powerful staff sent in secret to Angolwen by the Shaloren, to aid their fighting of the plagues following the Spellblaze. Its power is not to harm, but to heal and protect.", "A powerful staff sent in secret to Angolwen by the Shaloren, to aid their fighting of the plagues following the Spellblaze. Its power is not to harm, but to heal and protect.", "_t")
@@ -14330,11 +13630,9 @@ t("glacial hatchet", "glacial hatchet", "_t")
 t("A hand axe carved out of the most frozen parts of the northern wasteland.", "A hand axe carved out of the most frozen parts of the northern wasteland.", "_t")
 t("scintillating white crystal", "scintillating white crystal", "_t")
 t("Telos's Staff Crystal", "Telos's Staff Crystal", "entity name")
-t("multi-hued", "multi-hued", "entity subtype")
 t("A closer look at this pure white crystal reveals that it is really a plethora of colors swirling and scintillating.", "A closer look at this pure white crystal reveals that it is really a plethora of colors swirling and scintillating.", "_t")
 t("combine with a staff", "combine with a staff", "_t")
 t("Fuse with which staff?", "Fuse with which staff?", "_t")
-t("You fix the crystal on the %s and create the %s.", "You fix the crystal on the %s and create the %s.", "logPlayer")
 t("The fusing fails!", "The fusing fails!", "logPlayer")
 t("#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "logSeen")
 t("#CRIMSON#The unearthly glow fades away.", "#CRIMSON#The unearthly glow fades away.", "logPlayer")
@@ -14402,7 +13700,7 @@ t("#DARK_GREEN#The armor molds comfortably to one of its caretakers.", "#DARK_GR
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts.lua"
--- 816 entries
+-- 813 entries
 t("windy gem", "windy gem", "_t")
 t("Windborne Azurite", "Windborne Azurite", "entity name")
 t("Air currents swirl around this bright blue jewel.", "Air currents swirl around this bright blue jewel.", "_t")
@@ -14437,7 +13735,6 @@ t("You can feel this strange metallic hand wriggling around, it feels as if spac
 t("Garkul's Teeth", "Garkul's Teeth", "entity name")
 t("a necklace made of teeth", "a necklace made of teeth", "_t")
 t("Hundreds of humanoid teeth have been strung together on multiple strands of thin leather, creating this tribal necklace.  One would have to assume that these are not the teeth of Garkul the Devourer but rather the teeth of Garkul's many meals.", "Hundreds of humanoid teeth have been strung together on multiple strands of thin leather, creating this tribal necklace.  One would have to assume that these are not the teeth of Garkul the Devourer but rather the teeth of Garkul's many meals.", "_t")
-t("Another of Garkul's heirlooms would bring out his spirit.", "Another of Garkul's heirlooms would bring out his spirit.", "_t")
 t("#CRIMSON#As you wear both Garkul's heirlooms you can feel the mighty warrior's spirit flowing through you.", "#CRIMSON#As you wear both Garkul's heirlooms you can feel the mighty warrior's spirit flowing through you.", "logSeen")
 t("#CRIMSON#The spirit of Garkul fades away.", "#CRIMSON#The spirit of Garkul fades away.", "logPlayer")
 t("Summertide Phial", "Summertide Phial", "entity name")
@@ -14912,7 +14209,6 @@ t("crystalline gloves", "crystalline gloves", "_t")
 t("Said to have belonged to a lost Anorithil, stars are reflected in the myriad surfaces of these otherworldly bindings.", "Said to have belonged to a lost Anorithil, stars are reflected in the myriad surfaces of these otherworldly bindings.", "_t")
 t("cracked golem eye", "cracked golem eye", "_t")
 t("Prothotipe's Prismatic Eye", "Prothotipe's Prismatic Eye", "entity name")
-t("multi-hued", "multi-hued", "entity subtype")
 t("This cracked gemstone looks faded with age. It appears to have once been the eye of a golem.", "This cracked gemstone looks faded with age. It appears to have once been the eye of a golem.", "_t")
 t("Casts lasers on spellcast when worn or imbued.", "Casts lasers on spellcast when worn or imbued.", "_t")
 t("Plate of the Blackened Mind", "Plate of the Blackened Mind", "entity name")
@@ -15062,7 +14358,6 @@ t("25% chance to strike the target again.", "25% chance to strike the target aga
 t("Butcher", "Butcher", "entity name")
 t("blood drenched shortsword", "blood drenched shortsword", "_t")
 t("Be it corruption, madness or eccentric boredom, the halfling butcher by the name of Caleb once took to eating his kin instead of cattle. His spree was never ended and nobody knows where he disappeared to. Only the blade remained, stuck fast in a bloodied block. Beneath, a carving said \"This was fun, let's do it again some time.\"", "Be it corruption, madness or eccentric boredom, the halfling butcher by the name of Caleb once took to eating his kin instead of cattle. His spree was never ended and nobody knows where he disappeared to. Only the blade remained, stuck fast in a bloodied block. Beneath, a carving said \"This was fun, let's do it again some time.\"", "_t")
-t(" (cooling down: %d turns)", " (cooling down: %d turns)", "tformat")
 t("Enter Rampage if health falls below 20%%%s", "Enter Rampage if health falls below 20%%%s", "tformat")
 t("Attempt to devour a low HP enemy, striking again and possibly killing it instantly.", "Attempt to devour a low HP enemy, striking again and possibly killing it instantly.", "_t")
 t("Enter a Rampage (Shared cooldown).", "Enter a Rampage (Shared cooldown).", "_t")

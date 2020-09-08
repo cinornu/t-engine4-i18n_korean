@@ -76,6 +76,8 @@ t("Goggles 1", "보안경 1", "_t")
 t("Goggles 2", "보안경 2", "_t")
 t("Goggles 3", "보안경 3", "_t")
 t("Goggles 4", "보안경 4", "_t")
+t("Jaws 1", "턱 1", "_t")
+t("Jaws 2", "턱 2", "_t")
 t("Mechbiter 1", "기계 가면 1", "_t")
 t("Mechbiter 2", "기계 가면 2", "_t")
 t("Monocle Left 1", "단안경 왼쪽 1", "_t")
@@ -532,7 +534,7 @@ t("elf", "엘프", "entity subtype")
 section "game/dlcs/tome-orcs/data/general/npcs/titan.lua"
 
 t("giant", "거인", "entity type")
-t("titan", "수호자", "entity subtype")
+t("titan", "타이탄", "entity subtype")
 
 
 ------------------------------------------------
@@ -567,6 +569,7 @@ t("yeti", "예티", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/boss-artifacts.lua"
 
+t("multi-hued", "다색", "entity subtype")
 
 
 ------------------------------------------------
@@ -3691,6 +3694,7 @@ section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua"
 
 t("Winterchill Edge", "겨울 냉기 칼날", "_t")
 t("Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "열은 곧 에너지입니다.  물리학, 화학, 그리고 야금학에 대한 지식으로 무기에 겨울 냉기 칼날을 장착 할 수 있게 되었습니다.  겨울 냉기 칼날은 상대적으로 적은 피해만을 입히지만, 공격당한 적은 0.1 턴을 소모하게됩니다.", "_t")
+t("Acid Groove", "산성물질 분사기", "_t")
 t("Allows your weapon to spray caustic acid on hit, reducing armor.", "명중 시 방어력을 감소시키는 부식성 산성 물질을 무기에서 뿜을 수 있게됩니다.", "_t")
 t("Brain Cap", "두뇌 차폐막", "_t")
 t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "스트라라이트로 제작된 틀 안에 두뇌가 담긴 통을 장착합니다. 이 경이로운 발명품은 정신 저항을 향상시키고, 강력한 마법 방해 파장을 내뿜을 수 있게합니다.", "_t")
@@ -3769,7 +3773,7 @@ t("Headlamp", "헤드 램프", "_t")
 t("So much more convenient than a lantern on your waist.", "허리에 찬 조명보다 훨씬 편합니다.", "_t")
 t("Ablative Armour", "폭발 방어구", "_t")
 t("Reinforcing your armour with explosions isn't as crazy as it sounds!  Adds armor and resists very large hits.", "방어구를 폭발물로 강화합니다. 미친 소리가 아닙니다!  방어력과 큰 피해에 대한 저항을 갖습니다.", "_t")
-t("Incendiary Groove", "소이 탱크", "_t")
+t("Incendiary Groove", "발화성 물질 분사기", "_t")
 t("A special reservoir seeps liquid fire onto the weapon, adding fire damage and setting the ground on fire when you hit.", "툭수 탱크를 무기에 장착해, 화염 속성 피해를 추가하고, 땅바닥에 불길을 일으킵니다.", "_t")
 t("Thunder Grenade", "천둥 수류탄", "_t")
 t("Small radius, but stuns quite well.", "범위는 좁지만, 기절 효과는 뛰어납니다.", "_t")
@@ -3903,12 +3907,25 @@ To be used with the medical injector implant.]], [[물리, 정신, 마법 효과
 t("frost salve", "서리 연고", "_t")
 t("fiery salve", "불꽃 연고", "_t")
 t("water salve", "물방울 연고", "_t")
+t("Poison Groove", "독극물 분사기", "_t")
+t("Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "무기에 장착하여, 매 공격마다 독극물을 적의 신체에 누적시킵니다.  단순히 피해를 누적시키는 데에는 완벽하지만, 지식이 더 있더라면 더 강력한 효과를 낼 수 있지 않았을까 라는 생각이 듭니다..", "_t")
+t("Viral Injector", "바이러스 주입기", "_t")
+t("Viral grooves allow your weapons to apply an infectious agent on contact, dealing immediate blight damage and reducing their highest stat.  While this strain is effective it lacks the ability to spread or adapt to its hosts weaknesses.  Perhaps there are better methods to be found.", "바이러스 주입기를 무기에 장착해, 접촉시 전염되는 바이러스를 적에게 주입합니다. 즉각 황폐 피해를 주며, 적의 가장 높은 능력치를 감소시킵니다.  이 바이러스는 효과적이지만, 숙주의 약점에 적응하거나, 전염되는 특성을 갖고 있지 않습니다.  아마도 더 괜찮은 방법을 찾아야 할 것같군요.", "_t")
 t("Life Support Suit", "생명 유지복", "_t")
+t("Apply your extensive therapeutics knowledge to try and defeat death itself!", "폭넓은 치료학 지식을 죽음 그 자체를 쓰러뜨리는데 적용합니다!", "_t")
+t("unstoppable force salve", "멈출 수 없는 힘 연고", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
 t("diamond", "다이아몬드", "_t")
 t("bloodstone", "혈석", "_t")
+t("Second Skin", "두번째 피부", "_t")
+t("Not only does it help seal wounds, protecting you from bleeding and enhancing your healing, it also protects from armour chafe!", "상처 봉합 뿐만 아니라, 출혈도 막아주고 회복 효율까지 높여주네요! 이 뿐만이 아닙니다! 갑옷때문에 쓸린 상처까지 막아줍니다!", "_t")
+t("Air Recycler", "공기 재생기", "_t")
+t("Helps keep your airway open and lets you hold your breath longer.", "기도를 계속 열린 상태로 유지하고, 더 오랫동안 숨을 참도록 도와줍니다.", "_t")
 t("Moss Tread", "이끼 장화", "_t")
+t("Where you walk nature grows! Well moss. Sticky moss.", "당신이 걸으면 자연이 자라나내요! 아, 이끼네요, 끈적거리는 이끼.", "_t")
+t("Fungal Web", "곰팡이 망", "_t")
+t("This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "곰팡이 실로 이루어진 망사로, 연고의 영향분을 흡수하여, 추가적인 회복 효과를 제공합니다!", "_t")
 
 
 ------------------------------------------------

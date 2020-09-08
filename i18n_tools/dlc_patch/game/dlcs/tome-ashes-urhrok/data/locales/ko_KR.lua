@@ -86,6 +86,7 @@ t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as thi
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/events/fire-haven.lua"
 
+t("fire haven", "화염의 안식처", "_t")
 
 
 ------------------------------------------------
@@ -94,6 +95,7 @@ section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
 t("the Corrupted Daelach", "오염된 댈라크", "_t")
 t("a daelach", "댈라크", "_t")
 t("Draebor, the Imp", "임프 드래보르", "_t")
+t("Khulmanar, General of Urh'Rok", "쿨마나르, 울흐'록의 장군", "_t")
 t("Kryl-Feijan", "키릴-페이얀", "_t")
 t("Lithfengel", "리스펭겔", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
@@ -123,6 +125,7 @@ t("major", "고위", "entity subtype")
 section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t("obsidian ring", "흑요석 반지", "_t")
 
 
 ------------------------------------------------
@@ -578,14 +581,14 @@ t([[When Dread End creates pools of darkness you can focus your raging thoughts 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua"
 
-t("Osmosis Shield", "침투 방패", "talent name")
+t("Osmosis Shield", "삼투 방패", "talent name")
 t("#SLATE#(%d turned into osmosis)#LAST#", "#SLATE#(%d 침투됨)#LAST#", "tformat")
 t([[You infuse your shield with the energies of Urh'Rok, bringing about a magical shield that heals you for the first points of all damage you receive (based on your shield's block value) over 3 turns. This effect stacks.
 		Amount is 5 + %d%% of your shield block value (currently %d).
 		At level 3 if a damage dealt is at least twice as high you have %d%% chance to also remove a physical detrimental effect. This effect can only happen once per turn.
 		This spell disabled automatically on rest or run.
 		#{bold}#Activating the shield takes no time but de-activating it does.#{normal}#
-		The damage increases with spellpower.]], [[방패에 울흐'록의 에너지를 부여하여, 일차적인 피해를 흡수하여, 해당 피해량에 해당하는 생명력을 3 턴에 걸쳐 회복합니다. (방패 막기 수치에 비례합니다) 이 효과는 중첩 가능합니다.
+		The damage increases with spellpower.]], [[방패에 울흐'록의 에너지를 부여하여, 피격시 삼투 방패의 방어수치만큼 피해를 경감하고, 3턴에 걸쳐 경감한 피해와 같은 양을 회복합니다. (이로써 실제 중화량은 총 방어수치의 2 배이며, 방패 막기 수치에 비례합니다) 이 수치는 방패의 방어량에 비례하며, 중첩 가능합니다
 		수치는 5 + 방패 막기 수치의 %d%% 입니다 (현재 %d).
 		기술 레벨 3 일때, 흡수량의 2 배 이상의 피해를 받았을 때, %d%% 확률로 부정적인 물리 효과를 하나 해제합니다. 이 효과는 한 턴에 1 번만 일어납니다.
 		휴식이나 탐험 시, 이 기술은 자동으로 비활성화 됩니다.
@@ -980,20 +983,40 @@ t("#Target# is infected by a demon seed!", "#Target2# 악마의 씨앗에 감염
 t("+Demon Seed", "+악마의 씨앗", "_t")
 t("#Target# is free from the demon seed.", "#Target2# 악마의 씨앗에서 벗어났다.", "_t")
 t("-Demon Seed", "-악마의 씨앗", "_t")
-t("Osmosis Regeneration", "침투의 재생", "_t")
+t("Osmosis Regeneration", "삼투의 재생", "_t")
 t("You regenerate a total of %0.2f life over the duration of the effect.", "이 효과의 지속 시간에 걸쳐 생명력을 %0.2f 회복함.", "tformat")
-t("+Osmosis Regen", "+침투의 재생", "_t")
-t("-Osmosis Regen", "-침투의 재생", "_t")
+t("+Osmosis Regen", "+삼투의 재생", "_t")
+t("-Osmosis Regen", "-삼투의 재생", "_t")
 t("Acidic Bath", "산성 세례", "_t")
 t("heal", "회복", "effect subtype")
 t("resistance", "저항", "effect subtype")
+t("+Acidic Bath", "+산성 세례", "_t")
+t("-Acidic Bath", "-산성 세례", "_t")
+t("Plaguefire", "역병 화염", "_t")
+t("The target is on fire, taking %0.2f fire damage per turn. On death, the flame will explode.", "불이 붙음 : 매 턴 %0.2f 화염 피해 받음 / 사망 시, 화염이 폭발함.", "tformat")
 t("fire", "화염", "effect subtype")
 t("#Target# is on fire!", "#Target1# 화상으로 고통스러워한다!", "_t")
 t("+Burn", "+화상", "_t")
 t("-Burn", "-화상", "_t")
+t("Corrupted Light", "타락한 빛", "_t")
+t("The target is overflowing with power, increasing all damage done by %d%%.", "힘이 흘러넘침 / 가하는 모든 피해 +%d%%.", "tformat")
+t("+Corrupted Light", "+타락한 빛", "_t")
+t("-Corrupted Light", "-타락한 빛", "_t")
 t("Armoured Leviathan", "중무장한 괴수", "_t")
+t("Increases your Strength and Magic stats by %d.", "힘과 마법 +%d.", "tformat")
 t("armour", "갑옷", "effect subtype")
+t("#Target# is filled with raw power!", "#Target2# 순수한 힘으로 가득하다!", "_t")
+t("+Armoured Leviathan", "+중무장한 괴수", "_t")
+t("#Target# is no longer filled with power.", "가득 찼던 #Target#의 힘이 빠저나간다.", "_t")
+t("-Armoured Leviathan", "-중무장한 괴수", "_t")
 t("Doomed Nature", "파멸한 자연", "_t")
+t("The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "자연과의 연결이 끊어짐 : 모든 자연, 초능력 기술이 %d%% 확률로 실패하고, 대신 반경 1 칸의 폭발이 일어나 %0.2f 피해를 가함.", "tformat")
+t("#Target# is cut off from nature!", "#Target2# 자연과의 연결이 끊겼다!", "_t")
+t("+Doomed Nature", "+파멸한 자연", "_t")
+t("#Target# is no longer cut off from nature.", "#Target#의 자연과의 연결이 복구되었다.", "_t")
+t("-Doomed Nature", "-파멸한 자연", "_t")
+t("Demonic Cut", "악마적인 상처", "_t")
+t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "거대한 악마적인 출혈상 : 매 턴 %0.2f 암흑 피해 받음 / 이 대상을 공격하는 공격자는 생명력이 %d 회복됨.", "tformat")
 t("bleed", "출혈", "effect subtype")
 t("cut", "상처", "effect subtype")
 t("wound", "상처", "effect subtype")
@@ -1028,6 +1051,7 @@ Will not die until %d life]], [[모든 속성 친화 +%d%%
 생명력이 %d 에 도달할 때 까지 죽지 않음]], "tformat")
 t("#Target# is filled with dark power!", "#Target2# 어둠의 힘으로 충만해졌다!", "_t")
 t("+Dark Reign", "+어둠의 지배", "_t")
+t("#Target# is no longer subject to the dark power.", "#Target2# 어둠의 힘에 지배되지 않는다.", "_t")
 t("-Dark Reign", "-어둠의 지배", "_t")
 t("Blood Pact", "피의 계약", "_t")
 t("All damage you deal is converted to darkness.", "가하는 모든 피해가 암흑 속성으로 전환됨.", "tformat")
@@ -1074,6 +1098,7 @@ t("#Target# is no longer transformed.", "#Target#의 변신이 끝났다.", "_t"
 t("-Corruption of the Doomed", "-몰락한 자의 타락", "_t")
 t("#CRIMSON#Your corruption explodes around %s!", "#CRIMSON#%s 주변에 타락의 폭발을 일으켰다!", "logPlayer")
 t("Volcanic Skin", "용암 피부", "_t")
+t("%d charges.", "%d 중첩.", "tformat")
 t("demon", "악마", "effect subtype")
 t("seismic", "여진", "effect subtype")
 
