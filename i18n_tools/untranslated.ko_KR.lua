@@ -8366,8 +8366,7 @@ Talents:
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
--- 35 entries
-t("Steam", "Steam", "_t")
+-- 34 entries
 t("Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "_t")
 t("Object held in your tail. It can be a steamgun or steamsaw.", "Object held in your tail. It can be a steamgun or steamsaw.", "_t")
 t("Tail", "Tail", "_t")

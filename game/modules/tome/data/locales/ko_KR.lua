@@ -249,7 +249,7 @@ t("deactivates", "비활성화한다", "_t")
 t("%s casts #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 시전했다.", "logSeen", nil, {"는",[3]="을"})
 t("%s uses #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 사용했다.", "logSeen", nil, {"는",[3]="을"})
 t("%s talent '%s%s' is disrupted by the mind parasite.", "%s의 '%s%s' 정신 기생충에 의해 방해받았다.", "logSeen", nil, {[3]="은"})
-t("Effective talent level: ", "효과 기술 레벨: ", "_t")
+t("Effective talent level: ", "실질 기술 레벨: ", "_t")
 t("Passive", "지속형", "_t")
 t("Sustained", "유지형", "_t")
 t("Activated", "사용형", "_t")
@@ -11932,7 +11932,7 @@ t("#CRIMSON#%s's beneficial effect was stripped!#LAST#", "#CRIMSON#%s의 이로�
 t([[While active your physical and temporal damage has a %d%% chance to remove one beneficial physical or magical temporary effect (respectively) from targets you hit.
 		Only one physical and one magical effect may be removed per turn from each target.
 		Additionally your Dust to Dust spell now digs up to %d tiles into walls.]], [[활성화된 동안, 시전자가 가하는 물리 피해와 시간피해는 대상의 이로운 물리적, 마법적 효과를 %d%% 확률로 제거합니다. (각각 1개씩 제거합니다)
-		1 턴 동안, 적 1 체 당, 한 개의 물리적 효과와 한 개의 마법적 효과만 제거할 수 있습니다.
+		1 턴 동안, 적 하나 당, 한 개의 물리적 효과와 한 개의 마법적 효과만 제거할 수 있습니다.
 		추가로, 먼지에서 먼지로 주문은 최대 %d 칸의 벽을 파괴할 수 있게됩니다.]], "tformat")
 
 
@@ -16458,7 +16458,7 @@ t([[Orcs have seen countless battles, and won many of them.
 		You revel in the defeat of your foes, gaining %d%% damage resistance for 2 turns each time you kill an enemy.
 		The resistance will scale with talent level and your Constitution.
 		Additionally, passively increase all damage penetration by %d%%.]], [[오크는 셀 수 없이 많은 전투를 치뤘고, 대부분 승리했습니다.
-		시전자가 적을 살해할 때, 2 턴 동안 모든 피해 저항 %d%% 가 상승합니다.
+		시전자가 적을 살해할 때, 2 턴 동안 모든 피해 저항 %d%% 상승합니다.
 		피해 저항은 기술 레벨과 체격에 비례하여 증가합니다.
 		추가로, 지속 효과로써 모든 저항 관통이 %d%% 향상됩니다.]], "tformat")
 t("Pride of the Orcs", "오크의 긍지", "talent name")

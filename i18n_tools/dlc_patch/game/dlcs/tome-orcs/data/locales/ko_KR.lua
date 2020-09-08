@@ -1615,27 +1615,27 @@ t([[You attune your saws to a specific target for 5 turns.
 		If you strike any other foe the bonus ends.
 		#{italic}#Metal your foes to death!#{normal}#]], [[5 턴 동안 특정 대상만을 살해하기 위해 톱의 성능을 조율합니다.
 		해당 대상을 공격할 때, 증기톱으로 가하는 피해량이 (다른 기술들도 포함해서) %d%% 증가합니다.
-		시전자가 대상 외의 다른 적을 공격하는 경우, 효과가 즉시 중단됩니다.
+		시전자가 대상 외의 다른 적을 공격하면 효과가 즉시 중단됩니다.
 		#{italic}#회전하는 톱날로 적들을 죽음으로 인도하라!#{normal}#]], "tformat")
 t("Explosive Saw", "폭발하는 톱날", "talent name")
 t([[You send a saw mounted on an automated steam propulsor to assault a foe, dealing %0.2f physical damage each turn for 4 turns and silencing it.
 		At the end of the duration, the saw explodes for %0.2f fire damage and flies back, pulling the target up to %d tiles towards you.
-		The damage will increase with your Steampower.]], [[자동 추진 장치에 톱날을 장착해 적에게 날려보냅니다. 영향을 받은 적은 4 턴 동안 %0.2f 물리 피해를 매 턴 받고, 침묵시킵니다.
-		지속시간이 끝나면, 톱날은 폭발하여 %0.2f 화염 피해를 가하고, 시전자에게 돌아옵니다. 이 때 대상을 최대 %d 칸 끌어오게 됩니다.
+		The damage will increase with your Steampower.]], [[자동 추진 장치에 톱날을 장착해 적에게 날려보냅니다. 영향을 받은 적은 매 턴 %0.2f 물리 피해를 4 턴 동안 입고, 침묵당합니다.
+		지속시간이 끝나면, 톱날은 폭발하여 %0.2f 화염 피해를 가하고, 시전자에게 돌아옵니다. 이 때 대상을 최대 %d 칸까지 끌어옵니다.
 		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Mow Down", "살육", "talent name")
 t([[When you kill a foe with a melee strike you quickly throw some of their remains in your steam engine, instantly regenerating %d steam.
 		When you deal a critical melee strike you also have a %d%% chance to cut a part of your foe and use it in your steam engine.
 		When either of those happens this strikes fear in all foes in radius 4 of the victim, brainlocking them for %d turns.
-		#{italic}#To the meat grinder!#{normal}#]], [[근접 공격으로 적을 살해 시, 남은 유해를 증기 엔진으로 던저, 즉시 증기를 %d 회복합니다.
-		또한, 근접 치명타를 가할 시, %d%% 확률로 적의 일부를 절단해, 증기 엔진에 집어넣습니다.
-		이 효과가 발생할 때, 희생양을 중심으로, 반경 4 칸 이내의 모든 적이 겁에 질려 %d 턴 동안 사고 정지 상태가 됩니다.
+		#{italic}#To the meat grinder!#{normal}#]], [[근접 공격으로 적을 살해 시, 남은 유해를 증기 엔진으로 던져넣어 즉시 증기를 %d 회복합니다.
+		또한, 근접 치명타를 가할 시, %d%% 확률로 적의 일부를 절단해 증기 엔진에 집어넣습니다.
+		이 효과가 발생할 때, 희생양을 중심으로 반경 4 칸 이내의 모든 적이 겁에 질려 %d 턴 동안 사고 정지 상태가 됩니다.
 		#{italic}#고기 분쇄기를 위하여!#{normal}#]], "tformat")
 t("Tech Overload", "기술 폭주", "talent name")
 t([[You override all security measures of your tinkers, allowing you to reset the cooldown of %d of most of your steamtech talents of tier %d or less and instantly increases your steam level by %d%% of the maximum.
 		In addition for 6 turns your maximum steam capacity is doubled, but steam regeneration is halved.
-		#{italic}#Master of Tech, Master of Death!#{normal}#]], [[발명품들의 안전 장치를 해제하여, %d 개의 증기 공학 기술의  재사용 대기시간을 초기화합니다. 대부분의 증기 공학 기술은 이 기술의 영향을 받지만, 등급이 %d 이하인 기술들만 영향을 받습니다. 이 기술을 사용하면 즉시 증기를 최대치의 %d%% 만큼 회복합니다.
-		추가로, 6 턴 동안 최대 증기량이 2 배가 되지만, 증기 재생은 반절이 됩니다.
+		#{italic}#Master of Tech, Master of Death!#{normal}#]], [[발명품들의 안전 장치를 해제하여, %d 개의 증기 공학 기술의 재사용 대기시간을 초기화합니다. 일부를 제외한 등급이 %d 이하인 증기 공학 기술들만 영향을 받습니다. 이 기술을 사용하면 즉시 증기를 최대치의 %d%% 만큼 회복합니다.
+		추가로, 6 턴 동안 최대 증기량이 2배가 되지만, 증기 회복량은 절반으로 감소합니다.
 		#{italic}#기술의 지배자가 곧, 죽음의 지배자다!#{normal}#]], "tformat")
 
 
@@ -1711,7 +1711,7 @@ t([[Throw a small, unstable steam engine on the battlefield that will go critica
 		Any bleeding foe caught in the flames will take 40%% more damage.
 		Damage scales with your Steampower.
 		#{italic}#Tick Tock Tick BOOM!#{normal}#]], [[작고, 불안정한 증기 엔진을 전장에 던집니다. 증기 엔진은 2 턴 뒤 반경 %d 칸의 뜨거운 증기 폭발을 일으켜, 모든 적에게 %0.2f 화염 피해를 가합니다.
-		또한 출혈중인 적은 피해량을 40%% 더 받습니다.
+		또한 출혈 상태의 적에게는 피해량이 40%% 더 증가합니다.
 		피해량은 증기력에 비례하여 증가합니다.
 		#{italic}#째깍째깍 펑!#{normal}#]], "tformat")
 t("Lingering Cloud", "짙은 연기", "talent name")
@@ -1720,8 +1720,8 @@ t([[Explosive Steam Engine vapour now lingers for 5 turns.
 		Any steamtech-using creature will also regenerate %d additional steam per turn while inside the cloud.
 		Damage scales with your Steampower.
 		#{italic}#Modern technology at the service of burnination!#{normal}#]], [[폭발성 증기 엔진의 증기가 5 턴 동안 유지됩니다.
-		매 턴, 증기 안의 출혈중인 적은 %0.2f 화염 피해를 받습니다.
-		모든 증기 공학을 사용하는 개체는 증기 속에서, 매 턴 %d 증기를 회복합니다.
+		매 턴, 증기 안의 출혈 상태인 적은 %0.2f 화염 피해를 받습니다.
+		증기 공학을 사용하는 개체는 증기 속에서, 매 턴 %d 증기를 회복합니다.
 		피해량은 증기력에 비례하여 증가합니다.
 		#{italic}#쑥대밭 재배에서의 현대 기술이란!#{normal}#]], "tformat")
 t("Tremor Engine", "진동 엔진", "talent name")
@@ -1729,8 +1729,8 @@ t("tremor engine", "진동 엔진", "_t")
 t("trap", "함정", "_t")
 t([[Throw a tremor engine on the battlefield that will trigger after 2 turns.
 		For 5 turns after triggering, it will constantly shake the ground and stun, pin, or disarm any creature in radius %d for %d turns.
-		#{italic}#The ground is mere paper to you!#{normal}#]], [[2 턴 후 발동되는 진동 엔진을 던집니다.
-		발동하고 나서 5 턴 후, 엔진은 지축을 끊임없이 흔들어놓아, 반경 %d 칸 안의 모든 적에게 %d 턴 동안 지속되는 기절, 속박, 무장 해제를 적용합니다.
+		#{italic}#The ground is mere paper to you!#{normal}#]], [[2 턴 뒤 작동하는 진동 엔진을 던집니다.
+		작동하고 나서 5 턴 뒤에 엔진은 지축을 끊임없이 흔들어놓아, 반경 %d 칸 안의 모든 대상에게 %d 턴 동안 지속되는 기절, 속박, 무장 해제를 적용합니다.
 		#{italic}#땅은 네게있어 그저 종이쪼가리일 뿐이지!#{normal}#]], "tformat")
 t("Seismic Activity", "지진 활동", "talent name")
 t("raging volcano", "분출하는 화산", "_t")
@@ -1738,7 +1738,7 @@ t([[On its last pulse, your Tremor Engine shakes violently, raising a volcano fo
 		Each turn, the volcano will send out fiery boulders that deal %0.2f fire and %0.2f physical damage.
 		Damage scales with your Steampower.
 		#{italic}#All the fury of fire at your disposal!#{normal}#]], [[진동 엔진의 마지막 진동이 대지를 거칠게 흔들어놓아 %d 턴 동안 유지되는 화산을 일으킵니다.
-		매 턴, 화산은 불타는 암석을 분출해, %0.2f 화염 피해와 %0.2f 물리 피해를 줍니다.
+		화산은 매 턴 불타는 암석을 분출해, %0.2f 화염 피해와 %0.2f 물리 피해를 줍니다.
 		피해량은 증기력에 비례합니다.
 		#{italic}#너를 처리하기위한 화염의 분노다!#{normal}#]], "tformat")
 
@@ -1753,21 +1753,21 @@ t([[Firmly plant your steamsaws in the ground, using them to propel yourself ver
 		When this effect is broken or cancelled the sudden change in motion deals %d%% weapon damage to all foes around you. To do full damage you need to have moved at least 5 times, otherwise damage is lower (or null for no movement).
 		#{italic}#The wheels of death! Amazing!#{normal}#]], [[증기톱을 지면에 단단히 고정하고, 작동시켜 시전자의 이동속도를 큰 폭으로 증가시킵니다. (이동 속도 +%d%%).
 		진행방향 양쪽의 적은 톱에 의해 파괴되고, 시전자로부터 3 칸 밀쳐집니다.
-		공격이나 기술의 사용은 이 효과를 즉시 중단합니다.
-		효과가 종료되거나 시전자에 의해 비활성화 됐을 시, 자세를 급격하게 바꿔 인접한 모든 적에게 %d%% 무기 피해를 줍니다. 이동한 칸이 5 칸 이상일 때, 최대 피해량을 냅니다. 그 미만일 경우, 피해가 줄어들거나, 움직이지 않은 경우 피해가 발생하지 않습니다
+		공격이나 기술 사용 시 톱날바퀴를 즉시 중단합니다.
+		효과가 종료되거나 시전자에 의해 비활성화 됐을 시, 자세를 급격하게 바꿔 인접한 모든 적에게 %d%% 무기 피해를 줍니다. 이동한 거리가 5 칸 이상일 때, 피해량이 최대가 됩니다. 그 미만일 경우, 피해량이 감소합니다. 또한 한 칸도 이동하지 않았다면 피해를 입힐 수 없습니다.
 		#{italic}#죽음의 바퀴! 놀랍구만!#{normal}#]], "tformat")
 t("Grinding Shield", "분쇄하는 보호막", "talent name")
 t([[Spin your saws wildly around you to create a wall of steamy sawteeth.
 		All melee damage against you is reduced by %d%%, you have %d%% chance to evade projectiles and you can never take a blow that deals more than %d%% of your max life.
 		#{italic}#Split their bones on the saws of death!#{normal}#]], [[자신의 주변에 증기 톱을 거칠게 회전시켜, 증기의 톱니벽을 생성합니다.
-		시전자를 향한 모든 근접 공격의 피해량은 %d%% 줄어들고, 투사체 피격 시, %d%% 확률로 피해를 무효화합니다. 또한 단 한번의 공격으로 최대 생명력의 %d%% 이상을 잃지 않습니다.
+		시전자를 향한 모든 근접 공격의 피해량이 %d%% 줄어들며, 투사체 피격 시 %d%% 확률로 피해를 무효화합니다. 또한, 피격 시 단일 공격으로 인한 피해량이 최대 생명력의 %d%% 를 넘지 않습니다.
 		#{italic}#죽음의 톱 위에서 저들의 뼈가 쪼게지게하라!#{normal}#]], "tformat")
 t("Punishment", "징벌", "talent name")
 t("You require a steamsaw for this talent.", "이 기술을 사용하기 위해서는 증기톱이 필요합니다.", "logPlayer")
 t("#CRIMSON#%s unleashes a punishing strike for %d%% bonus damage!", "#CRIMSON#%s 징벌의 일격을 가해, %d%% 추가 피해를 가한다!", "logSeen", nil, {"가"})
 t([[Slam your saws into your target, dealing 100%% weapon damage + %d%% per physical, magical, or mental effect on them (up to 7 effects).
 			Sustains are not effects.
-		#{italic}#The Metal Punisher!#{normal}#]], [[톱으로 적을 내려쳐, 100%% 무기 피해 + %d%% × 대상의 물리적, 마법적, 정신적 효과 의 피해를 줍니다 (최대 7 개의 효과가 적용됩니다).
+		#{italic}#The Metal Punisher!#{normal}#]], [[톱으로 적을 내려쳐, 100%% 무기 피해 + %d%% × 대상의 물리적, 마법적, 정신적 효과 의 피해를 줍니다. (최대 7 개까지 적용)
 			유지기는 효과로 판정되지 않습니다.
 		#{italic}#금속의 처형자!#{normal}#]], "tformat")
 t("Battlefield Veteran", "전장의 숙련병", "talent name")
@@ -1775,11 +1775,11 @@ t([[You have lived through many battles, and your experience makes you a gritty 
 		Saw Wheels end of effect attack increased by %d%%.
 		Grinding Shield lets you live below your normal limits, up to -%d life.
 		Punishment has a %d%% chance to have its cooldown reduced by 1 for each effect.
-		#{italic}#Domination for all!#{normal}#]], [[수많은 전장에서 생환했고, 그 경험으로인해 투지의 숙련병이라고 칭해지게됐습니다.
+		#{italic}#Domination for all!#{normal}#]], [[수많은 전장에서 생환했고, 그 경험으로 인해 투지의 숙련병이라고 칭해지게 됐습니다.
 		톱날 바퀴의 효과 종료 공격의 피해량이 %d%% 증가합니다.
 		분쇄하는 보호막이 활성화 되어있을 때, 생명력이 -%d 에 이르러야 사망합니다.
-		징벌은 %d%% 확률로 각 효과 마다 1 턴씩 재사용 대기시간이 감소됩니다.
-		#{italic}#모든이를 지배하리라!#{normal}#]], "tformat")
+		징벌은 %d%% 확률로 각 효과마다 1 턴씩 재사용 대기시간이 감소됩니다.
+		#{italic}#모든 이를 지배하리라!#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -1848,14 +1848,14 @@ t("Steamsaw Mastery", "증기톱 숙련", "talent name")
 t("Increases weapon damage by %d%% and Physical Power by 30 when using steamsaws.", "증기톱을 사용할 때, 무기 피해가 %d%%, 물리력이 30 증가합니다.", "tformat")
 t("Overheat Saws", "톱날 과열", "talent name")
 t([[Channel hot steam around your saws, burning foes you strike in melee for %0.2f fire damage over 3 turns (which can stack)!
-		#{italic}#Hot, steamy maiming!#{normal}#]], [[톱을 뜨거운 증기로 데워, 시전자의 근접 공격에 당한 적에게 3 턴에 걸쳐 %0.2f 화염 피해를 줍니다. (이 효과는 중첩 가능합니다)
-		#{italic}#뜨겁고, 김이 모락모락나는 불구 제작 도구!#{normal}#]], "tformat")
+		#{italic}#Hot, steamy maiming!#{normal}#]], [[톱을 뜨거운 증기로 데워, 시전자의 근접 공격에 피격당한 대상에게 3 턴에 걸쳐 %0.2f 화염 피해를 줍니다. (이 효과는 중첩 가능합니다)
+		#{italic}#뜨겁고, 김이 모락모락나는 사지 절단기!#{normal}#]], "tformat")
 t("Tempest of Metal", "금속의 폭풍", "talent name")
 t([[Continuously swing your steamsaws around you, dealing %d%% weapon damage to adjacent foes each time you attack.
 		Your chaotic motions make it difficult for anything to hit you, granting %d%% chance to completely negate all damage.
 		Damage avoidance chance increases with Steampower.
 		#{italic}#Make the metal talk!#{normal}#]], [[증기톱을 끊임없이 휘둘러, 공격 할 때마다 무기 피해의 %d%% 를 인접한 적에게 가합니다.
-		혼란스런 일련의 동작은, 적의 공격을 명중하기 어렵게만듭니다. %d%% 확률로 받은 피해를 완전히 무효화합니다.
+		어지럽기 짝이 없는 이 행위는 적의 공격을 비껴내어, %d%% 확률로 받은 피해를 완전히 무효화합니다.
 		피해 무효화 확률은 증기력에 비례하여 증가합니다.
 		#{italic}#금속의 대화를 나눠보실까!#{normal}#]], "tformat")
 t("Overcharge Saws", "과충전 톱니", "talent name")
@@ -2051,7 +2051,7 @@ t([[You add a portable furnace to your steam generators.
 		While it is active your fire and physical damage increases by %d%% and your fire and physical resistance penetration by %d%%.
 		#{italic}#Burninate all with awesome Steam power!#{normal}#
 		]], [[증기 발생기에 휴대용 용광로를 장착합니다.
-		용광로가 작동 중에는 화염과 물리 피해가 %d%% 증가하고, 시전자의 화염과 물리 저항 관통이 %d%% 증가합니다.
+		용광로가 작동 중일때는 화염과 물리 피해가 %d%% 증가하고, 시전자의 화염과 물리 저항 관통이 %d%% 증가합니다.
 		#{italic}#증기의 힘으로 쑥대밭을 만들겠다!#{normal}#
 		]], "tformat")
 t("Molten Metal", "용해된 금속", "talent name")
@@ -2060,18 +2060,18 @@ t([[While Furnace is on your armour is so hot from the furnace it dissipates par
 		Each turn this happens you gain a molten point (up to 10), decreasing the efficiency of the reduction by 25%%.
 		Molten points are removed upon running or resting.
 		#{italic}#Hot liquid metal, the fun!#{normal}#
-		]], [[장착된 용광로에의해 방어구가 달궈지면 피격 시 받는 에너지의 일부를 소산합니다.
-		모든 비물리적, 비정신적 피해는 %d 줄어듭니다. (현재 %d).
-		매 턴, 피해 감소 효과가 발동되면 용해 점수를 얻습니다. (최대 10 까지 중첩됩니다) 용해 점수 1 점 당 피해 경감량이 25%% 줄어듭니다.
+		]], [[장착된 용광로에 의해 방어구가 달궈지면서, 피격 시 받는 에너지의 일부를 소산합니다.
+		모든 비 물리적, 비 정신적 피해가 %d 줄어듭니다. (현재 %d)
+		매 턴 피해 감소 효과가 발동될 때마다 용해 점수를 얻습니다. (최대 10) 용해 점수 1점 당 피해 감소량이 25%% 줄어듭니다.
 		달리거나 휴식을 취할 시 용해 점수는 초기화됩니다.
-		#{italic}#재밌는 초고열 용해된 금속!#{normal}#
+		#{italic}#재밌다! 뜨거운 액체 금속!#{normal}#
 		]], "tformat")
 t("Furnace Vent", "환기구 개방", "talent name")
 t([[Open the vents on your furnace, creating a conic blast dealing up to %0.2f fire damage at 10 molten points (currently %0.2f).
 		All molten points are consumed.
 		The damage will increase with your Steampower.
 		#{italic}#By fire be purged!#{normal}#
-		]], [[용광로의 환기구를 개방해, 용해 점수가 10 점일 때 최대 피해인 %0.2f 화염 피해를 주는 원뿔 범위의 폭발을 일으킵니다. (현재 %0.2f).
+		]], [[용광로의 환기구를 개방해, 용해 점수가 10점일 때 최대 %0.2f 화염 피해를 주는 원뿔 범위의 폭발을 일으킵니다. (현재 %0.2f).
 		기술 사용 시, 모든 용해 점수는 소모됩니다.
 		피해량은 증기력에 비례하여 증가합니다.
 		#{italic}#화염으로 정화되리라!#{normal}#
@@ -2082,11 +2082,11 @@ t([[When you reach 10 molten points your armour overheats, reaching temperatures
 		When this happens all molten points are consumed and trigger a Furnace Vent at the creature that triggered the last molten point.
 		This effect drains 15 steam when triggered, and will not trigger if steam is too low.
 		#{italic}#It's only a flesh burn!#{normal}#
-		]], [[용해 점수 10 점에 도달하면 방어구가 고열로 과열됩니다. 방어구의 온도는 너무나도 높아저, 시전자에게 적용된  최대 %d 개의 부정적인 물리 효과를 '지저서' 제거합니다.
-		이 때, 특별한 주사기로 화염 면역 혈청을 투여해 화염과 화상의 영향을 받지 않습니다.
-		이 효과가 발동되면 모든 용해 점수는 소모되고, 마지막 용해 점수의 공격을 가한 적의 방향으로 환기구를 개방합니다.
-		이 효과는 발동 시 증기를 15 소모하고, 증기가 부족할 경우 발동되지 않습니다.
-		#{italic}#그저 살갗이 그슬리는것 뿐이다!!#{normal}#
+		]], [[용해 점수 10 점에 도달하면 방어구가 고열로 인해 과열됩니다. 너무나도 뜨거워진 방어구는 시전자에게 적용된 최대 %d 개의 부정적인 물리 효과를 열기로 '지져서' 제거합니다.
+		이 때는 특별한 주사기로 화염 면역 혈청을 투여해 화염과 화상의 영향을 받지 않습니다.
+		이 효과가 발동되면 모든 용해 점수가 소모되며, 마지막 용해 점수를 누적시킨 적의 방향으로 환기구를 개방합니다.
+		이 효과는 발동 시 증기를 15 소모하며, 증기가 부족할 경우 발동되지 않습니다.
+		#{italic}#그저 살갗이 그슬릴 뿐이다!!#{normal}#
 		]], "tformat")
 
 
@@ -2826,17 +2826,17 @@ t([[Hits the target on the arms with one rotating saw doing %d%% damage and tryi
 		Maimed foes deal %d%% less damage.
 		The chance improves with your Physical power.
 		#{italic}#Cutting your foes has never been so simple!#{normal}#]], [[회전하는 증기톱으로 적의 두 팔을 베어내어 %d%% 피해를 가하고, 확률적으로 %d 턴 동안 사지 손상을 일으킵니다.
-		사지 손상이 일어난 적은 %d%% 적은 피해를 입힙니다.
+		사지 손상이 일어난 적은 %d%% 만큼 더 적은 피해를 입힙니다.
 		사지 손상 확률은 물리력에 비례하여 증가합니다.
-		#{italic}#너희들을 썰어내는 게 이렇게 쉬운적은 없었다!#{normal}#]], "tformat")
+		#{italic}#네 녀석들을 썰어대는게 그리 간단하진 않군!#{normal}#]], "tformat")
 t("Bloodstream", "혈류", "talent name")
 t([[You "gently" slam your saws into the wounds of a creature, dealing %d%% weapon damage and deepening the wounds.
 		All bleeding wounds durations are increased by %d turns and the damage by %d%% (this may be done only once per bleeding effect).
 		When this happens a gush of blood is projected in a narrow cone of radius 4, dealing %0.2f physical damage to all creatures.
 		The power and damage improves with your Steampower.
 		#{italic}#The marvels of technology, now at the service of true butchery!#{normal}#]], [[대상의 상처를 증기톱으로 "부드럽게" 강타해, %d%% 무기 피해를 주고 상처를 악화시킵니다.
-		모든 출혈 효과의 지속시간이 %d 턴 연장되고, 피해량이 %d%% 증가합니다. 이 효과는 하나의 출혈 효과에 대해 1 번만 발생합니다.
-		기술이 명중하면, 피가 반경 4 칸의 원뿔 범위에 분출되어, 범위 내의 모든 개체에게 %0.2f 물리 피해를 가합니다
+		모든 출혈 효과의 지속시간이 %d 턴 연장되고, 피해량이 %d%% 증가합니다. 이 효과는 각 출혈 효과마다 한 번만 발동합니다.
+		명중 시, 피가 뿜어져나와 대상의 후방 4칸 원뿔 범위 내의 모든 개체에게 %0.2f 물리 피해를 입힙니다.
 		효과와 피해량은 증기력에 비례하여 증가합니다.
 		#{italic}#경이로운 기술이, 이제는 진정한 도살을 위해 존재한다!#{normal}#]], "tformat")
 t("Spinal Break", "척추 파괴", "talent name")
@@ -2844,15 +2844,15 @@ t([[You try to sever the spine of your foe, reducing its global speed by %d%% fo
 		The power of the blow also removes up to %d physical effects.
 		If your talent level is at least 3 %d physical or magical sustains are also removed.
 		#{italic}#Break them, grind them, mow them down!#{normal}#]], [[적의 척추를 파괴하여, 4 턴 동안 전체 속도를 %d%% 감소시키고, %d%% 무기 피해를 가합니다.
-		이 강력한 일격으로 인해 최대 %d 개의 물리 효과가 제거됩니다.
-		기술레벨이 3 일때, %d 개의 물리적, 마법적 유지기 역시 제거됩니다.
-		#{italic}#놈들을 파괴하고, 잡초처럼 베어버리고, 갈아버리자!#{normal}#]], "tformat")
+		이 강력한 일격은 대상의 물리 효과를 최대 %d 개까지 제거합니다.
+		기술레벨이 3 일때, %d 개의 물리적, 마법적 유지기까지 같이 제거합니다.
+		#{italic}#놈들을 파괴하고, 베어버리고, 갈아버리자!#{normal}#]], "tformat")
 t("Goresplosion", "뼈와 살의 폭발", "talent name")
 t("You require a steamsaw for this talent.", "이 기술을 사용하기 위해서는 증기톱이 필요합니다.", "logPlayer")
 t([[When you kill a foe you place small explosives with shrapnels inside its body, making it explode in radius %d.
 		Any foes hit will bleed for %0.2f damage per turn for 6 turns. The shrapnels also damage the vocal cords (or related organ), silencing them for %d turns.
-		#{italic}#Use the finest of wartech now: shrapnels. For blood and mayhem!#{normal}#]], [[적을 살해했을 때, 적의 신체가 반경 %d 칸의 피와 살의 파편 폭발을 일으킵니다.
-		폭발에 휘말린 적은 6 턴 동안 %0.2f 피해를 매 턴 받습니다. 파편은 성대나 그에 준하는 기관에 피해를 가해, %d 턴 동안 침묵시킵니다.
+		#{italic}#Use the finest of wartech now: shrapnels. For blood and mayhem!#{normal}#]], [[적을 살해했을 때, 적의 신체가 반경 %d 칸에 피와 살의 파편 폭발을 일으킵니다.
+		폭발에 휘말린 적은 매 턴 %0.2f 피해를 6 턴 동안 입습니다. 또한 파편은 성대 혹은 그에 준하는 기관에 피해를 입혀 %d 턴 동안 침묵시킵니다.
 		#{italic}#최첨단 전쟁 기술인 파편들을 사용한다. 피와 아수라장을 위하여!#{normal}#]], "tformat")
 
 
@@ -4577,6 +4577,7 @@ section "game/dlcs/tome-orcs/overload/data/texts/unlock-wyrmic_undead.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
 
+t("Steam", "증기", "_t")
 t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
 t("steamtech", "증기 공학", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
