@@ -149,6 +149,22 @@ function _M:useTalent(id, who, force_level, ignore_cd, force_target, silent, no_
 	
 	local msg, line
 
+	local old_level, old_target, new_target = nil, nil, nil
+	local function prepareUse()
+		-- Stub some stuff
+		if force_level then old_level = who.talents[id] end
+		if ab.mode == "activated" then
+			if ab.onAIGetTarget and not who.player then old_target = rawget(who, "getTarget"); new_target = function() return ab.onAIGetTarget(self, ab) end end
+			if force_target and not old_target then old_target = rawget(who, "getTarget"); new_target = function(a) return force_target.x, force_target.y, not force_target.__no_self and force_target end end
+		end
+		if new_target then who.getTarget = new_target end
+		if force_level then who.talents[id] = force_level end
+	end
+	local function finishUse()
+		if new_target then who.getTarget = old_target end
+		if force_level then who.talents[id] = old_level end
+	end
+
 	if ab.mode == "activated" and ab.action then
 		if self:isTalentCoolingDown(ab) and not ignore_cd then
 			game.logPlayer(who, "%s is still on cooldown for %d turns.", ab.name:capitalize(), self.talents_cd[ab.id])
@@ -166,7 +182,9 @@ function _M:useTalent(id, who, force_level, ignore_cd, force_target, silent, no_
 			if not silent then self:logTalentMessage(ab) end
 			
 			self:setCurrentTalentMode("active", ab.id)
+			prepareUse()
 			local ok, ret, special = xpcall(function() return ab.action(who, ab) end, debug.traceback)
+			finishUse()
 			self:setCurrentTalentMode(nil)
 			self.__talent_running = nil
 			if not ok then self:onTalentLuaError(ab, ret) error(ret) end
@@ -202,7 +220,9 @@ function _M:useTalent(id, who, force_level, ignore_cd, force_target, silent, no_
 			if not self.sustain_talents[id] then -- activating
 				if self.deactivating_sustain_talent == ab.id then return end
 				self:setCurrentTalentMode("active", ab.id)
+				prepareUse()
 				ok, ret, special = xpcall(function() return ab.activate(who, ab) end, debug.traceback)
+				finishUse()
 				self:setCurrentTalentMode(nil)
 				if not ok then self:onTalentLuaError(ab, ret) error(ret) end
 				if ret == true then ret = {} end -- fix for badly coded talents
@@ -247,7 +267,9 @@ function _M:useTalent(id, who, force_level, ignore_cd, force_target, silent, no_
 				end
 				p.__tmpparticles = nil
 				self:setCurrentTalentMode("active", ab.id)
+				prepareUse()
 				ok, ret, special = xpcall(function() return ab.deactivate(who, ab, p) end, debug.traceback)
+				finishUse()
 				self:setCurrentTalentMode(nil)
 				if not ok then self:onTalentLuaError(ab, ret) error(ret) end
 				
@@ -284,25 +306,13 @@ function _M:useTalent(id, who, force_level, ignore_cd, force_target, silent, no_
 		print("[useTalent] Attempt to use non activated or sustainable talent: "..id.." :: "..ab.name.." :: "..ab.mode)
 	end
 	if co then -- talent is usable and has passed checks
-		-- Stub some stuff
-		local old_level, old_target, new_target = nil, nil, nil
-		if force_level then old_level = who.talents[id] end
-		if ab.mode == "activated" then
-			if ab.onAIGetTarget and not who.player then old_target = rawget(who, "getTarget"); new_target = function() return ab.onAIGetTarget(self, ab) end end
-			if force_target and not old_target then old_target = rawget(who, "getTarget"); new_target = function(a) return force_target.x, force_target.y, not force_target.__no_self and force_target end end
-		end
-		
 		local co_wrapper = coroutine.create(function() -- coroutine for talent interface
 			success = true
 			local ok
 			while success do
-				if new_target then who.getTarget = new_target end
-				if force_level then who.talents[id] = force_level end
 				self.__talent_running = ab
 				ok, ret = coroutine.resume(co) -- ret == error or return value from co
 				success = success and ok
-				if new_target then who.getTarget = old_target end
-				if force_level then who.talents[id] = old_level end
 				self.__talent_running = nil
 				if ok and coroutine.status(co) == "dead" then -- coroutine terminated normally
 					if success and not ret then -- talent failed
