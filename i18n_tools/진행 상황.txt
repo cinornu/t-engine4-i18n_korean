@@ -194,7 +194,9 @@
 "game/modules/tome/data/chats/assassin-lord.lua"
 "game/modules/tome/data/chats/chronomancy-bias-weave.lua"
 "game/modules/tome/data/chats/chronomancy-see-threads.lua"
-"game/modules/tome/data/chats/command-staff.lua" Khelerd 완
+"game/modules/tome/data/chats/command-staff.lua"
+"game/modules/tome/data/chats/conclave-vault-greeting.lua"
+"game/modules/tome/data/chats/corruptor-quest.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
