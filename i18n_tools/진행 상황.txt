@@ -190,7 +190,10 @@
 "game/modules/tome/data/chats/arena.lua"
 "game/modules/tome/data/chats/artifice-mastery.lua"
 "game/modules/tome/data/chats/artifice.lua"
-"game/modules/tome/data/chats/assassin-lord-thieves.lua" Khelerd 완
+"game/modules/tome/data/chats/assassin-lord-thieves.lua"
+"game/modules/tome/data/chats/assassin-lord.lua"
+"game/modules/tome/data/chats/chronomancy-bias-weave.lua"
+"game/modules/tome/data/chats/chronomancy-see-threads.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
