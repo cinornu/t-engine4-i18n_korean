@@ -291,6 +291,7 @@ t("No thanks.", "사양하지.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/metash.lua"
 
+t("I will!", "알겠어!", "_t")
 
 
 ------------------------------------------------
@@ -3166,7 +3167,7 @@ t([[Activate a special focusing device that extends all your ranged spells and p
 section "game/dlcs/tome-orcs/data/timed_effects/floor.lua"
 
 t("Warm", "따뜻함", "_t")
-t("The target is warm from the campfire. Increasing steam regeneration by 6/turn, stun immunity by 30% and stamina regeneration by 4/turn.", "모닥불의 온기를 받음 : 턴 당 증기 생성 +6 / 기절 면역력 +30% / 턴 당 체력 재생 +4.", "_t")
+t("The target is warm from the campfire. Increasing steam regeneration by 6/turn, stun immunity by 30% and stamina regeneration by 4/turn.", "모닥불의 온기를 받음 : 턴 당 증기 생성 +6 / 기절 면역력 +30% / 턴 당 기력 재생 +4.", "_t")
 t("Sun Radiance", "태양의 광휘", "_t")
 t("The target is under the effect of the sun. Increasing lite and sight radius by 2, blindness immunity by 30%, stealth seeing by 20 and light resistance by 30%.", "대상이 태양의 영향 아래에 있음 : 광원과 시야 범위 +2 / 실명 면역력 +30% / 은신 탐지력 +20 / 빛 저항 +30%.", "_t")
 t("Moon Radiance", "달의 광휘", "_t")

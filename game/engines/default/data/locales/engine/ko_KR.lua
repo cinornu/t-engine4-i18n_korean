@@ -1203,7 +1203,7 @@ t("You have not purchased any usable options yet. Would you like to see the stor
 ------------------------------------------------
 section "game/engines/default/engine/interface/ActorInventory.lua"
 
-t("%s picks up (%s.): %s%s.", "%s 주웠다 (%s.): %s%s.", "logSeen", nil, {"는"})
+t("%s picks up (%s.): %s%s.", "%s 주웠다 (%s): %s%s.", "logSeen", nil, {"는"})
 t("%s has no room for: %s.", "%s %s 들어갈 공간이 없다.", "logSeen", nil, {"는","가"})
 t("There is nothing to pick up here.", "주울 것이 없다.", "logSeen")
 t("There is nothing to drop.", "버릴 것이 없다.", "logSeen")

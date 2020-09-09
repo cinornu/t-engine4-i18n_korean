@@ -124,6 +124,7 @@ t("major", "고위", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
 
+t("darkness infused staff", "어둠이 주입된 지팡이", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("obsidian ring", "흑요석 반지", "_t")
 
@@ -158,6 +159,7 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		적을 죽이고 얻는 원기 획득량이, 적에게 적용된 암울한 결과 중첩마다 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat")
 t("Weakened Soul", "약해진 영혼", "talent name")
+t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "암울한 결과를 적용 받은 적 %d 체가 피해에 취약해져, 암울한 결과 중첩마다 모든 저항이 2%% 감소합니다.", "tformat")
 t("Grim Future", "음침한 미래", "talent name")
 t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
@@ -521,10 +523,10 @@ t("Surge of Power", "힘의 쇄도", "talent name")
 t([[Use your stored vim to supercharge your body, recovering %d stamina and %d life.
 		Additionally, you will be able to survive your HP going under 0, down to -%d HP, for the next 8 turns.
 		These values will increase with your Spellpower.
-		Spell criticals with this talent also effect the stamina gain.]], [[모아둔 원기를 소모하여 신체 기관을 폭주시킵니다. 체력을 %d 생명력을 %d 회복합니다.
+		Spell criticals with this talent also effect the stamina gain.]], [[모아둔 원기를 소모하여 신체 기관을 폭주시킵니다. 기력을 %d 생명력을 %d 회복합니다.
 		추가로, 다음 8 턴 동안 생명력이 0 이하에서도 죽지 않게되고, 생명력이 -%d 에 도달해야 죽게됩니다.
 		이 효과는 주문력에 비례하여 증가합니다.
-		이 기술은 주문 치명타에 영향을 받으며, 치명타 시, 체력 회복량에 영향을 줍니다.]], "tformat")
+		이 기술은 주문 치명타에 영향을 받으며, 치명타 시, 기력 회복량에 영향을 줍니다.]], "tformat")
 t("Demonic Blood", "악마의 피", "talent name")
 t([[Demonic Blood flows through your veins, increasing your spellpower by %d and your maximum vim by %d.
 		Additionally, you will recieve a bonus to all damage equal to %d%% of your current vim (Currently %d%%).]], [[악마의 피가 혈관을 타고 흘러 주문력이 %d 상승하고, 최대 원기량이 %d 증가합니다.
@@ -565,7 +567,7 @@ t([[You learn to use death around you to an even greater advantage.
 t("Blood Pact", "피의 계약", "talent name")
 t([[Pay %d%% of your current life and gain 100%% darkness damage conversion for 1 turns.
 			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[현재 생명력의 %d%% 를 댓가로 1 턴 동안 모든 피해가 어둠 속성으로 전환됩니다.
-			어둠의 지배가 활성화 되어 있다면, 중첩당 체력 %d, 원기 %d 가 회복됩니다.]], "tformat")
+			어둠의 지배가 활성화 되어 있다면, 중첩당 기력 %d, 원기 %d 가 회복됩니다.]], "tformat")
 t("Erupting Darkness", "폭발하는 어둠", "talent name")
 t("raging volcano", "분출하는 화산", "_t")
 t([[When Dread End creates pools of darkness you can focus your raging thoughts on them to make them erupt into volcanos.
@@ -834,8 +836,8 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
 		-Incinerating Blows: Increases chance of bonus damage to %d%%.
 		-Fearfeast: Gain %0.1f vim per stack.
-		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[신체에서 공포의 구역의 두려운 힘이 흘러넘쳐, %d 턴 동안 강력한 악마로 변신할 수 있게됩니다. 물리력과 체력 재생이 %d 증가하고, 기절과 무장 해제 면역력이 %d%% 증가합니다.
-		물리력, 체력 재생, 상태 면역력은 주문력에 비례하여 증가합니다.
+		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[신체에서 공포의 구역의 두려운 힘이 흘러넘쳐, %d 턴 동안 강력한 악마로 변신할 수 있게됩니다. 물리력과 기력 재생이 %d 증가하고, 기절과 무장 해제 면역력이 %d%% 증가합니다.
+		물리력, 기력 재생, 상태 면역력은 주문력에 비례하여 증가합니다.
 		또한 다른 기술들도 이 기술에 영향을 받아, 보다 강력해집니다.
 		-흡수의 맹공 : 재사용 대기시간이 %d 턴 단축됩니다.
 		-난폭한 일격 : 모든 속성에 대한 %d%% 의 저항관통을 %d 턴 동안 얻습니다.
