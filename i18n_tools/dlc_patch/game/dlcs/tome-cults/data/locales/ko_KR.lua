@@ -1144,9 +1144,9 @@ The other ogre soon moved to attack the halfling, but with a sidestep the halfli
 
 그러나 그들 중에서도 가면 쓴 광신도들은 전혀 다른 모습이어다. 무기를 잘 갖춰들고 있었으며, 몇몇을 갑옷을 입고 있었다. 주변의 용암에서 발하는 빛을 밫아 어둠 속에서 금속이 반짝였다. 판갑과 사슬이 그들의 몸을 감싸고 있는 것이 보였다. 대부분의 가면 쓴 광신도들은 앞 열에 있었고, 몇몇은 활이나 투석구를 지니고 있었으며, 선두에서 신입들을 지휘하고 격려하고자 하려는 것 같았다. 그 가면 쓴 자들 중에서도 내가 알아볼 수 있는 자가 있었다. 나르골 왕국의 그 천막 안에서 봤던 하플링이었다. 다른 자들과는 다르게 여전히 전과 같은 가죽 갑옷을 입고 있었다. 그 하플링이 얼마나 재빠르게 움직였었는지를 회상했다. 앞으로 다가올 전투가 얼마나 힘겹고 피비린내 나는 사투가 될지 가늠할 수 없었다.
 
-Voices rang out from the zealots as they prepared the initiates around them to defend themselves. Shots and arrows came towards us with lightning speed as we advanced causing a couple ogres to howl as they were hit by the incoming fire. Those ogres with makeshift slings in our ranks soon began to throw rocks into the opposing line. Many of their shots peppered the initiates in the front causing those hit to holler in pain, stagger about dazed and confused, and otherwise bring disorder to the fanatics’ lines. Then I heard a call from our commander, causing us to stop a small distance away from their line. The fanatics look at the ogres with confused faces, and I must say I did so as well, before I noticed several of the ogres raise their arms up.
+광신도들이 신입들에게 방어 태세를 준비하라는 명령을 내리며 소리쳤다. 앞으로 나아가던 우리에게 화살과 돌멩이가 쏟아졌고, 몇몇 오우거들은 화살에 맞아 비명을 질렀다. 급조한 투석구를 들고 있던 오우거들은 이내 상대 편으로 돌을 던지기 시작했다. 수많은 돌이 앞 열에 있던 병력에게 빗발쳤으며 돌에 맞은 이들의 비명 소리가 들려왔다. 그 공격에 광신도들의 전열이 무너지고 혼란에 빠졌다. 이내 오우거 대장에게서 적 부대 앞에서 조금 떨어진 곳에서 멈추라는 명령이 들려왔다. 광신도들은 혼란에 빠진 채 오우거들을 바라봤으며, 나 또한 그들만큼 혼란스러웠다고 할 수 있다. 잠시 후 몇몇 오우거들이 양팔을 들어올렸다..
 
-All at once an array of colors lit up our darkened surroundings as the insignias on their rune covered skin began to glow. As I looked at one of the ogres near me I could see a light green glow encircle her arm and then a torrent of acid appear. The acid lashed out at several of the fanatics, drenching their bodies and causing their exposed skin to visibly burn. Then a flash of lightning shot forward from behind me, piercing through a zealot and one of the initiates behind him. All at once many of the fanatics in front of us began to scatter for cover, unable to cope with the onslaught of power that the ogres were unleashing on them. Many of the initiates fell to the magical barrage while others began to break ranks from the opposing line and flee.
+그러자 갑자기 오우거들의 룬으로 뒤덮인 피부에서 각인이 빛나면서 주변의 어두운 지형에서 형형색색의 빛깔이 떠올랐다. 내 주변에 있던 한 오우거를 보니, 그녀의 팔에서 연두색의 빛이 떠오르더니 이내 산의 격류가 나타났다. 산은 뿜어져나가 광신도들을 맞췄고, 노출된 부위의 피부가 타오르는 것을 볼 수 있었다. 그리고 내 뒤에서부터 전격이 날아가 가면을 쓴 광신도 하나와 신병 하나를 관통했다. 순식간에 수많은 광신도들이 엄폐하기 위해 흩어졌고, 오우거들의 앞도적인 화력에 제대로 대응하지 못 했다. 수많은 신병들이 마법 공격으로 인해 쓰러졌고, 살아남은 자들도 전열을 이탈하고 도망치기 시작했다.
 
 It looked as if we had the fanatics on their back foot but then I heard a piercing cry, the screeching sounded very much like what I had heard from back in the Nargol Kingdom. As I looked around to survey what was happening now, I noticed all at once my surroundings had darkened again. I could see some of the ogres near me try to raise their arms but the light from the insignia's on their skin had now dimmed and failed to work anymore. Ahead of us many of the fanatics lay on the ground injured or dead, though many of them still stood ready to fight. All at once they seem to cheer and beat their swords, apparently not dissuaded by the ogres efforts against them. Out of the corner of my eye though I noticed a figure charge forward.
 
@@ -1227,7 +1227,7 @@ t([[You lean to alter chaotic forces to your advantage.
 		Your maximum negative insanity effect is reduced from 50%% to %d%%.
 		You may activate this talent to consume any Chaos Orbs you have, gaining %d insanity per orb.]], [[혼돈의 힘을 제어해 유리하게 사용하는 법을 배웠습니다.
 		광기의 부정적인 효과가 50%% 에서 %d%% 로 줄어듭니다.
-		또한 이 기술을 사용해, 혼돈의 보주를 하나 소모하고, 소유하고 있는 보주 하나 당 %d 의 광기를 획득할 수 있게됩니다.]], "tformat")
+		또한 이 기술을 사용해, 혼돈의 보주를 모두 소모하고, 소모한 보주 하나 당 %d 의 광기를 획득할 수 있게됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -1803,7 +1803,7 @@ t("%s has no usable talents.", "%s 사용가능한 기술이 없다.", "logPlaye
 t("Choose a talent to use:", "사용할 기슬을 고르세요:", "_t")
 t([[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole.
 		While you digest it you gain %d insanity per turn.
-		The digestion lasts for 50 turns for an elite and 25 turns for others.]], [[근접 공격을 가해 %d%% 무기 피해를 주고, 대상의 체력이 %d%% 이하라면 대상을 꿀꺽 삼켜버립니다.
+		The digestion lasts for 50 turns for an elite and 25 turns for others.]], [[근접 공격을 가해 %d%% 무기 피해를 주고, 대상의 생명력이 %d%% 이하라면 대상을 꿀꺽 삼켜버립니다.
 		적을 소화시키는 동안 매 턴 %d 광기를 획득합니다.
 		정예 등급의 적을 삼킨 경우, 소화에 50 턴이 소모되고, 나머지 경우에는 25 턴이 걸립니다.]], "tformat")
 t("Painful Agony", "끔찍한 고통", "talent name")
@@ -2074,7 +2074,7 @@ t([[Your affinity with things that dwell deep beneath the surface allows you to 
 		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], [[지면 깊은 곳에 사는 존재들과의 친화력을 통해, 굶주린 아가리를 소환할 수 있게되었습니다.
 		아가리는 %d 추가 생명력을 갖고, %d 턴 동안 지속되지만, 피해를 가하지는 않습니다.
 		매 턴 아가리는 반경 10 칸 내의 모든 적을 2 칸씩 끌어옵니다.
-		추가 체력은 체격과 기술 레벨에 비례하여 증가합니다. 기타 능력치는 레벨에 비례하여 증가합니다.]], "tformat")
+		추가 생명력은 체격과 기술 레벨에 비례하여 증가합니다. 기타 능력치는 레벨에 비례하여 증가합니다.]], "tformat")
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
 드렘의 경우, 이 효과는 '집어삼키는 심연에서'로 굶주린 아가리가 소환되어 있을 때 활성화됩니다.", "_t")
