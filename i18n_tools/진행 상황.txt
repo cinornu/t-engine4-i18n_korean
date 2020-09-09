@@ -899,6 +899,9 @@ section "game/modules/tome/data/general/objects/egos/potions.lua"
 section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
 section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua"
 section "game/modules/tome/data/general/objects/boss-artifacts.lua"
+section "game/modules/tome/data/general/objects/brotherhood-artifacts.lua"
+section "game/modules/tome/data/general/objects/quest-artifacts.lua"
+section "game/modules/tome/data/general/objects/special-artifacts.lua"
 
 
 데미지 타입 ---------------------------------
