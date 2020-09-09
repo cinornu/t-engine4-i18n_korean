@@ -187,7 +187,19 @@
 
 "game/modules/tome/data/chats/arena-unlock.lua" beomkki 완 ** (존댓말 재검토)
 
-"game/modules/tome/data/chats/arena.lua" Khelerd 완
+"game/modules/tome/data/chats/arena.lua"
+"game/modules/tome/data/chats/artifice-mastery.lua"
+"game/modules/tome/data/chats/artifice.lua"
+"game/modules/tome/data/chats/assassin-lord-thieves.lua"
+"game/modules/tome/data/chats/assassin-lord.lua"
+"game/modules/tome/data/chats/chronomancy-bias-weave.lua"
+"game/modules/tome/data/chats/chronomancy-see-threads.lua"
+"game/modules/tome/data/chats/command-staff.lua"
+"game/modules/tome/data/chats/conclave-vault-greeting.lua"
+"game/modules/tome/data/chats/corruptor-quest.lua"
+"game/modules/tome/data/chats/derth-attack-over.lua"
+"game/modules/tome/data/chats/dreadfell-ambush.lua"
+"game/modules/tome/data/chats/east-portal-end.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
@@ -900,6 +912,12 @@ section "game/modules/tome/data/general/objects/egos/mindstars.lua"
 section "game/modules/tome/data/general/objects/egos/potions.lua"
  아티팩트
 section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
+section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua"
+section "game/modules/tome/data/general/objects/boss-artifacts.lua"
+section "game/modules/tome/data/general/objects/brotherhood-artifacts.lua"
+section "game/modules/tome/data/general/objects/quest-artifacts.lua"
+section "game/modules/tome/data/general/objects/special-artifacts.lua"
+section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua"
 
 
 데미지 타입 ---------------------------------
