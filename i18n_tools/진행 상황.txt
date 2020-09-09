@@ -914,6 +914,7 @@ section "game/modules/tome/data/general/objects/boss-artifacts.lua"
 section "game/modules/tome/data/general/objects/brotherhood-artifacts.lua"
 section "game/modules/tome/data/general/objects/quest-artifacts.lua"
 section "game/modules/tome/data/general/objects/special-artifacts.lua"
+section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua"
 
 
 데미지 타입 ---------------------------------
