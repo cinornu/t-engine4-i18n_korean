@@ -159,7 +159,6 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		적을 죽이고 얻는 원기 획득량이, 적에게 적용된 암울한 결과 중첩마다 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat")
 t("Weakened Soul", "약해진 영혼", "talent name")
-t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "암울한 결과를 적용 받은 적 %d 체가 피해에 취약해져, 암울한 결과 중첩마다 모든 저항이 2%% 감소합니다.", "tformat")
 t("Grim Future", "음침한 미래", "talent name")
 t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
