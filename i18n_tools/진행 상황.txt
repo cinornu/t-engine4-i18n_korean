@@ -202,7 +202,9 @@
 "game/modules/tome/data/chats/east-portal-end.lua"
 "game/modules/tome/data/chats/eidolon-plane.lua"
 "game/modules/tome/data/chats/elisa-orb-scrying.lua" * 유사 더미 데이터
-"game/modules/tome/data/chats/elisa-shop.lua"* 유사 더미 데이터 Khelerd 완
+"game/modules/tome/data/chats/elisa-shop.lua"* 유사 더미 데이터
+"game/modules/tome/data/chats/escort-quest-start.lua"
+"game/modules/tome/data/chats/escort-quest.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
