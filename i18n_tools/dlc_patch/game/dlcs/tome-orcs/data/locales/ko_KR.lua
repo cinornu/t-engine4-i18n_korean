@@ -4254,6 +4254,7 @@ t("huge crack in the floor", "바닥의 거대 균열", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/ritch-hive/objects.lua"
 
+t("egg", "알", "entity type")
 t("ritch", "릿치", "entity subtype")
 
 
