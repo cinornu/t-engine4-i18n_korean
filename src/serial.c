@@ -210,6 +210,7 @@ int thread_save(void *data)
 			free(q->payload);
 			free(q->zfname);
 			free(q->filename);
+			free(q);
 		}
 
 		if (zf) {

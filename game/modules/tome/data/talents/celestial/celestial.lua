@@ -128,5 +128,5 @@ load("/data/talents/celestial/circles.lua")
 load("/data/talents/celestial/other.lua")
 
 load("/data/talents/celestial/darkside.lua")
-load("/data/talents/celestial/dark-sun.lua")
+load("/data/talents/celestial/black-sun.lua")
 load("/data/talents/celestial/dirge.lua")

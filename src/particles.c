@@ -986,8 +986,9 @@ void thread_particle_init(particle_thread *pt, plist *l)
 	ps->init = TRUE;
 }
 
-void thread_particle_die(particle_thread *pt, plist *l)
+plist * thread_particle_die(particle_thread *pt, plist *l)
 {
+	plist *lnext = l->next;
 	lua_State *L = pt->L;
 	particles_type *ps = l->ps;
 
@@ -1022,9 +1023,15 @@ void thread_particle_die(particle_thread *pt, plist *l)
 		if (ps->vertices) { free(ps->vertices); ps->vertices = NULL; }
 		if (ps->colors) { free(ps->colors); ps->colors = NULL; }
 		if (ps->particles) { free(ps->particles); ps->particles = NULL; }
+		if (ps->args) { free(ps->args); ps->args = NULL; }
+		if (ps->name_def) { free(ps->name_def); ps->name_def = NULL; }
 		ps->init = FALSE;
 		ps->alive = FALSE;
+		ps->l = NULL;
 	}
+
+	free(l);
+	return lnext;
 }
 
 // Runs on particles thread
@@ -1083,13 +1090,13 @@ int thread_particles(void *data)
 			}
 			else
 			{
-				thread_particle_die(pt, l);
+				plist *lnext = thread_particle_die(pt, l);
 
 				// Remove dead ones
-				if (!prev) pt->list = l->next;
-				else prev->next = l->next;
+				if (!prev) pt->list = lnext;
+				else prev->next = lnext;
 
-				l = l->next;
+				l = lnext;
 			}
 			nb++;
 		}
@@ -1103,10 +1110,7 @@ int thread_particles(void *data)
 	SDL_mutexP(pt->lock);
 	l = pt->list;
 	while (l)
-	{
-		thread_particle_die(pt, l);
-		l = l->next;
-	}
+		l = thread_particle_die(pt, l);
 	SDL_mutexV(pt->lock);
 
 	lua_close(L);
@@ -1139,6 +1143,9 @@ void thread_add(particles_type *ps)
 	plist *l = malloc(sizeof(plist));
 	l->pt = pt;
 	l->ps = ps;
+	l->generator_ref = LUA_NOREF;
+	l->updator_ref = LUA_NOREF;
+	l->emit_ref = LUA_NOREF;
 	l->next = pt->list;
 	pt->list = l;
 	ps->l = l;
