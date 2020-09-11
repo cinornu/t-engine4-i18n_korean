@@ -199,7 +199,13 @@
 "game/modules/tome/data/chats/corruptor-quest.lua"
 "game/modules/tome/data/chats/derth-attack-over.lua"
 "game/modules/tome/data/chats/dreadfell-ambush.lua"
-"game/modules/tome/data/chats/east-portal-end.lua" Khelerd 완
+"game/modules/tome/data/chats/east-portal-end.lua"
+"game/modules/tome/data/chats/eidolon-plane.lua"
+"game/modules/tome/data/chats/elisa-orb-scrying.lua" * 유사 더미 데이터
+"game/modules/tome/data/chats/elisa-shop.lua"* 유사 더미 데이터
+"game/modules/tome/data/chats/escort-quest-start.lua"
+"game/modules/tome/data/chats/escort-quest.lua"
+"game/modules/tome/data/chats/fallen-aeryn.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
