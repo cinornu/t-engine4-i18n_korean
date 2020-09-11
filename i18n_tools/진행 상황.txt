@@ -206,7 +206,9 @@
 "game/modules/tome/data/chats/escort-quest-start.lua"
 "game/modules/tome/data/chats/escort-quest.lua"
 "game/modules/tome/data/chats/fallen-aeryn.lua"
-"game/modules/tome/data/chats/gates-of-morning-main.lua" Khelerd 완
+"game/modules/tome/data/chats/gates-of-morning-main.lua"
+"game/modules/tome/data/chats/gates-of-morning-welcome.lua"
+"game/modules/tome/data/chats/golbug-explains.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
