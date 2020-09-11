@@ -42,7 +42,7 @@ newTalentType{ no_silence=true, is_spell=true, type="celestial/other", name = _t
 -- Fallen Class Evolution
 newTalentType{ allow_random=false, no_silence=true, is_spell=true, type="celestial/dirges", name = _t"Dirges", description = _t"The songs the Fallen sing." }
 newTalentType{ allow_random=false, no_silence=true, is_spell=true, type="celestial/darkside", name = _t"Darkside", description = _t"Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike." }
-newTalentType{ allow_random=false, no_silence=true, is_spell=true, type="celestial/black-sun", name = _t"Black Sun", description = _t"Celestial combat techniques inspired by the dark places that are not empty." }
+newTalentType{ allow_random=false, no_silence=true, is_spell=true, type="celestial/dark-sun", name = _t"Dark Sun", description = _t"Celestial combat techniques inspired by the dark places that are not empty." }
 newTalentType{ allow_random=false, no_silence=true, is_spell=true, generic=true, type="celestial/dirge", name = _t"Dirges", description = _t"Sing of death and damnation." }
 
 -- Generic requires for celestial spells based on talent level
