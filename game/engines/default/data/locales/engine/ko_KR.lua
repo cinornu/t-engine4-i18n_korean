@@ -185,7 +185,7 @@ t("injured seer", "부상당한 탐시자", nil)
 t("kinetic", "동역학", nil)
 t("living", "생명", nil)
 t("lone alchemist", "외로운 연금술사", nil)
-t("lost defiler", "길잃은 모독자", nil)
+t("lost defiler", "길 잃은 모독자", nil)
 t("lost sun paladin", "길 잃은 태양의 기사", nil)
 t("lost warrior", "길 잃은 전사", nil)
 t("magestaff", "마법사 마법지팡이", nil)
@@ -1406,6 +1406,8 @@ t("Game installed!", "게임 설치됨!", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/utils.lua"
 
+t("her", "그녀", "_t")
+t("him", "그", "_t")
 
 
 ------------------------------------------------

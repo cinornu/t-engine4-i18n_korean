@@ -291,6 +291,7 @@ t("No thanks.", "사양하지.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/metash.lua"
 
+t("Thanks.", "감사합니다.", "_t")
 t("I will!", "알겠어!", "_t")
 
 
@@ -550,7 +551,7 @@ section "game/dlcs/tome-orcs/data/general/npcs/undead-drake.lua"
 
 t("dragon", "용", "entity subtype")
 t("undead", "언데드", "entity type")
-t("undead drake", "언데드 드레이크", "entity name")
+t("undead drake", "사룡", "entity name")
 
 
 ------------------------------------------------
@@ -810,6 +811,8 @@ section "game/dlcs/tome-orcs/data/lore/palace-fumes.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/pocket-time.lua"
 
+t("him", "그", "_t")
+t("her", "그녀", "_t")
 
 
 ------------------------------------------------
@@ -1487,7 +1490,7 @@ t([[After casting a technomancy spell you store some of its energies that you ca
 section "game/dlcs/tome-orcs/data/talents/spells/spells.lua"
 
 t("Take on the defining aspects of an Undead Drake.", "언데드 드레이크의 본질을 취합니다.", "_t")
-t("undead drake", "언데드 드레이크", "_t")
+t("undead drake", "사룡", "_t")
 t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 전기와 화염으로 파괴합니다.", "_t")
 t("galvanic technomancy", "전열의 마도 공학", "_t")
 t("Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 땅과 물로 파괴합니다.", "_t")
@@ -1556,7 +1559,7 @@ section "game/dlcs/tome-orcs/data/talents/spells/undead-drake.lua"
 t("Raze", "완파", "talent name")
 t([[You revel in death, devouring the souls of your victims. Whenever you inflict damage to a target, you deal an additional %0.2f darkness damage.
 		Additionally, you gain %d souls whenever you score a kill.
-		The damage will scale with the highest of your spell or mind power and can only occur up to 25 times per turn.]], [[희생자의 영혼을 삼켜 죽이는 것을 즐깁니다. 적에게 피해를 가할 때 마다, 추가로 %0.2f 어둠 피해를 가합니다.
+		The damage will scale with the highest of your spell or mind power and can only occur up to 25 times per turn.]], [[희생자의 영혼을 삼켜 죽입니다. 적에게 피해를 가할 때 마다, 추가로 %0.2f 어둠 피해를 가합니다.
 		적을 살해할 시, 시전자는 %d 원혼을 획득합니다.
 		피해량은 주문력과 정신력 중 높은 값에 비례하고, 이 효과는 한 턴에 최대 25 번 일어납니다.]], "tformat")
 t("Infectious Miasma", "감염성 독기", "talent name")
@@ -4582,6 +4585,7 @@ section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
 t("Steam", "증기", "_t")
 t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
 t("steamtech", "증기 공학", "_t")
+t("She looks tired and wounded.", "그녀는 지쳐 보이고 다친 것 같습니다.", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Name", "이름", "_t")
 t("No thanks.", "사양하지.", "_t")

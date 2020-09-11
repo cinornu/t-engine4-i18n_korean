@@ -667,12 +667,6 @@ t("#SLATE#* You have to destroy the controlling crystal before leaving or the de
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/black-magic.lua"
--- 1 entries
-t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, dealing 2%% less damage.", "For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, dealing 2%% less damage.", "tformat")
-
-
-------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 -- 1 entries
 t("", "", "log")
@@ -3934,7 +3928,7 @@ t("The tinker spends some time with you, teaching you the basics of therapeutics
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/metash.lua"
--- 16 entries
+-- 15 entries
 t([[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
 I would like to talk to you.]], [[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
 I would like to talk to you.]], "_t")
@@ -3943,7 +3937,6 @@ t("Soft-foot of the Kruk, I come to give you a warning, an apology, and a plea f
 t("The rest of us have fled, hiding in caverns across the peninsula...  I cannot in good conscience ask you to face certain death before his magic for our sakes, but striking first may be the only way to save your people.  He appears to be stalling the invasion, buying you some time, but if you cannot catch him off-guard before he finally commits to it...  I've seen his power cut through a mountain like it was a leaf, soft-foot.  There can be no victory against that kind of magic.  Run, hide, and hope he falls victim to an accident or loses the remaining fragments of his sanity that keep him capable of casting spells.", "The rest of us have fled, hiding in caverns across the peninsula...  I cannot in good conscience ask you to face certain death before his magic for our sakes, but striking first may be the only way to save your people.  He appears to be stalling the invasion, buying you some time, but if you cannot catch him off-guard before he finally commits to it...  I've seen his power cut through a mountain like it was a leaf, soft-foot.  There can be no victory against that kind of magic.  Run, hide, and hope he falls victim to an accident or loses the remaining fragments of his sanity that keep him capable of casting spells.", "_t")
 t("I will check it out", "I will check it out", "_t")
 t("We of the Krimbul Clan have faced our near-certain deaths all too many times, even after our hearts stopped beating; this is the first time we have been shown the kindness of utter salvation by an outsider.  Those who were not enthralled by Nektosh and are not delusionally faithful to his \"cause\" will reclaim the Mana Caves in time; until then, we will join your Pride in your revolution.  You have liberated us, and we will not rest until you are freed of your oppressors as well.", "We of the Krimbul Clan have faced our near-certain deaths all too many times, even after our hearts stopped beating; this is the first time we have been shown the kindness of utter salvation by an outsider.  Those who were not enthralled by Nektosh and are not delusionally faithful to his \"cause\" will reclaim the Mana Caves in time; until then, we will join your Pride in your revolution.  You have liberated us, and we will not rest until you are freed of your oppressors as well.", "_t")
-t("Thanks.", "Thanks.", "_t")
 t("Hail, @playername@!", "Hail, @playername@!", "_t")
 t("Yes?", "Yes?", "_t")
 t("Our is free Metash, the tyrant is no more.", "Our is free Metash, the tyrant is no more.", "_t")
@@ -6218,16 +6211,14 @@ TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/pocket-time.lua"
--- 17 entries
+-- 15 entries
 t("Maltoth", "Maltoth", "_t")
 t("a human", "a human", "_t")
 t("paradox mage", "paradox mage", "_t")
-t("him", "him", "_t")
 t("he", "he", "_t")
 t("she", "she", "_t")
 t("He", "He", "_t")
 t("She", "She", "_t")
-t("her", "her", "_t")
 t("his", "his", "_t")
 t("a telepathic message <Rough Drafts>", "a telepathic message <Rough Drafts>", "_t")
 t([[<? Lore.init_pocket_time_data() ?>Once upon a time, there was a Halfling alchemist by the name of <?=Lore.pocket_time_winner.name?>.  Alongside her trusty golem, she marched into the Trollmire, disposing of all foes in her path; when she encountered Prox, though, and he bent down to roar mere inches from her face, well inside a bomb's blast radius, she panicked and pulled a vial off her belt--
@@ -8363,7 +8354,7 @@ Talents:
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
--- 34 entries
+-- 33 entries
 t("Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "_t")
 t("Object held in your tail. It can be a steamgun or steamsaw.", "Object held in your tail. It can be a steamgun or steamsaw.", "_t")
 t("Tail", "Tail", "_t")
@@ -8381,7 +8372,6 @@ t("You may not shoot while using a heavy weapon.", "You may not shoot while usin
 t("lost tinker", "lost tinker", "_t")
 t("Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "_t")
 t("%s, the experimenting tinker", "%s, the experimenting tinker", "_t")
-t("She looks tired and wounded.", "She looks tired and wounded.", "_t")
 t("[Ask where to learn tinkers crafting]", "[Ask where to learn tinkers crafting]", "_t")
 t("Reveal the location of a teacher.", "Reveal the location of a teacher.", "_t")
 t("She points a location on your map, in a remote area to the north.", "She points a location on your map, in a remote area to the north.", "_t")
@@ -8722,7 +8712,7 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/utils.lua"
--- 16 entries
+-- 14 entries
 t("%dth", "%dth", "_t")
 t("%dst", "%dst", "_t")
 t("%dnd", "%dnd", "_t")
@@ -8733,9 +8723,7 @@ t("she", "she", "_t")
 t("he", "he", "_t")
 t("its", "its", "_t")
 t("his", "his", "_t")
-t("her", "her", "_t")
 t("it", "it", "_t")
-t("him", "him", "_t")
 t("herself", "herself", "_t")
 t("itself", "itself", "_t")
 t("himself", "himself", "_t")
@@ -9000,26 +8988,7 @@ t("%s resists the dispelling of %s!", "%s resists the dispelling of %s!", "logSe
 
 ------------------------------------------------
 section "game/modules/tome/class/EscortRewards.lua"
--- 30 entries
-t("%s, the lost warrior", "%s, the lost warrior", "_t")
-t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "_t")
-t("%s, the injured seer", "%s, the injured seer", "_t")
-t("%s, the repented thief", "%s, the repented thief", "_t")
-t("%s, the lone alchemist", "%s, the lone alchemist", "_t")
-t("He looks tired and wounded.", "He looks tired and wounded.", "_t")
-t("%s, the lost sun paladin", "%s, the lost sun paladin", "_t")
-t("%s, the lost defiler", "%s, the lost defiler", "_t")
-t("temporal portal", "temporal portal", "_t")
-t([[Oh but you are ... are you ?! ME?!
-		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[Oh but you are ... are you ?! ME?!
-		So I was right, this is not my original time-thread!
-		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], "_t")
-t("%s, temporal explorer", "%s, temporal explorer", "_t")
-t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "_t")
-t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "_t")
-t("%s, the worried loremaster", "%s, the worried loremaster", "_t")
-t("She looks tired and wounded.", "She looks tired and wounded.", "_t")
+-- 15 entries
 t("improved %s by +%d", "improved %s by +%d", "tformat")
 t("[Improve %s by +%d]", "[Improve %s by +%d]", "tformat")
 t("improved %s save by +%d", "improved %s save by +%d", "tformat")
@@ -9165,9 +9134,7 @@ t("area effect", "area effect", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/class/NPC.lua"
--- 7 entries
-t("her", "her", "_t")
-t("him", "him", "_t")
+-- 5 entries
 t("Killed by you: %s", "Killed by you: %s", "tformat")
 t(" looking %s", " looking %s", "tformat")
 t(" looking at you.", " looking at you.", "_t")
@@ -9497,11 +9464,9 @@ t("%s resists the grapple!", "%s resists the grapple!", "logSeen")
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/PartyDeath.lua"
--- 17 entries
+-- 15 entries
 t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "_t")
 t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) was %s to death by %s%s on %s %s.", "_t")
-t("her", "her", "_t")
-t("him", "him", "_t")
 t("herself", "herself", "_t")
 t("himself", "himself", "_t")
 t(" (the fool)", " (the fool)", "_t")
@@ -9823,142 +9788,8 @@ t([[#GOLD#%s#LAST#
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/eidolon-plane.lua"
--- 18 entries
-t([[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
-I am the Eidolon and you are not welcome here!
-No matter how you came to this plane, #{bold}#DO NOT COME BACK!
-NOW BEGONE!
-#{normal}#
-.]], [[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
-I am the Eidolon and you are not welcome here!
-No matter how you came to this plane, #{bold}#DO NOT COME BACK!
-NOW BEGONE!
-#{normal}#
-.]], "_t")
+-- 1 entries
 t("...", "...", "_t")
-t([[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
-I have brought you here on the instant of your death. I am the Eidolon.
-I have deemed you worthy of my 'interest'. I will watch your future steps with interest.
-You may rest here, and when you are ready I will send you back to the material plane.
-But do not abuse my help. I am not your servant, and someday I might just let you die.
-As for your probable many questions, they will stay unanswered. I may help, but I am not here to explain why.]], [[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
-I have brought you here on the instant of your death. I am the Eidolon.
-I have deemed you worthy of my 'interest'. I will watch your future steps with interest.
-You may rest here, and when you are ready I will send you back to the material plane.
-But do not abuse my help. I am not your servant, and someday I might just let you die.
-As for your probable many questions, they will stay unanswered. I may help, but I am not here to explain why.]], "_t")
-t("Thank you. I will rest for a while.", "Thank you. I will rest for a while.", "_t")
-t("Thank you. I am ready to go back!", "Thank you. I am ready to go back!", "_t")
-t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "_t")
-t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else on the level please?", "Thank you, but I fear I will not survive anyway, can you send me back somewhere else on the level please?", "_t")
-t("Thank you, I am ready to go back!", "Thank you, I am ready to go back!", "_t")
-t("Thank you, but I am weary of this life, I wish no more, please let me go.", "Thank you, but I am weary of this life, I wish no more, please let me go.", "_t")
-t([[It seems the threads of time and space have been disrupted...
-I will try to send you to safety.]], [[It seems the threads of time and space have been disrupted...
-I will try to send you to safety.]], "_t")
-t("Thanks.", "Thanks.", "_t")
-t([[#LIGHT_GREEN#*It seems to stare at you in weird way.*#WHITE#
-I...had plans for you, but I cannot go against your free will. Know that you had a destiny waiting for you.
-Are you sure?]], [[#LIGHT_GREEN#*It seems to stare at you in weird way.*#WHITE#
-I...had plans for you, but I cannot go against your free will. Know that you had a destiny waiting for you.
-Are you sure?]], "_t")
-t("Just let me go please.", "Just let me go please.", "_t")
-t("asked the Eidolon to let %s die in peace", "asked the Eidolon to let %s die in peace", "tformat")
-t("her", "her", "_t")
-t("him", "him", "_t")
-t("brought down by Eidolon", "brought down by Eidolon", "_t")
-t("No actually, perhaps life is still worth it!", "No actually, perhaps life is still worth it!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/elisa-orb-scrying.lua"
--- 11 entries
-t("You immerse your mind in the Way and let knowledge flow in.", "You immerse your mind in the Way and let knowledge flow in.", "_t")
-t("[You do not gain any knowledge.]", "[You do not gain any knowledge.]", "_t")
-t("You pause and recall past memories.", "You pause and recall past memories.", "_t")
-t("[Images and knowledge flow in.]", "[Images and knowledge flow in.]", "_t")
-t("[You do not recognize anything new.]", "[You do not recognize anything new.]", "_t")
-t("Oh, hi @playername@, have you got something new to show me?", "Oh, hi @playername@, have you got something new to show me?", "_t")
-t("Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "_t")
-t("Err, no... sorry, I just wanted to hear a friendly voice.", "Err, no... sorry, I just wanted to hear a friendly voice.", "_t")
-t("Not yet sorry!", "Not yet sorry!", "_t")
-t([[#LIGHT_GREEN#*You hear something akin to a muffled giggle*#WHITE#
-Oh, you are #{bold}#SOOOO#{normal}# cute!]], [[#LIGHT_GREEN#*You hear something akin to a muffled giggle*#WHITE#
-Oh, you are #{bold}#SOOOO#{normal}# cute!]], "_t")
-t("Goodbye, Elisa!", "Goodbye, Elisa!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/elisa-shop.lua"
--- 7 entries
-t([[Let's see what have you got here...
-%s
-
-That is very nice, @playername@!]], [[Let's see what have you got here...
-%s
-
-That is very nice, @playername@!]], "tformat")
-t("Thank you, Elisa!", "Thank you, Elisa!", "_t")
-t("Hello friend, what can I do for you?", "Hello friend, what can I do for you?", "_t")
-t("Could you have a look at these objects, please? [show her your unidentified items]", "Could you have a look at these objects, please? [show her your unidentified items]", "_t")
-t("Nothing, goodbye.", "Nothing, goodbye.", "_t")
-t([[Wait, @playername@, you seem to be quite the adventurer. Maybe we can help one another.
-You see, I #{bold}#LOOOVVVEEEE#{normal}# learning new lore and finding old artifacts of power, but I am not exactly an adventurer and I would surely get killed out there.
-So take this orb (#LIGHT_GREEN#*she gives you an orb of scrying*#WHITE#). You can use it to talk to me from anywhere in the world! This way you can show me your new shiny findings!
-I get to see many interesting things, and you get to know what your items do. We both win! Isn't it sweet?
-Oh yes, the orb will also identify mundane items for you, as long as you carry it.]], [[Wait, @playername@, you seem to be quite the adventurer. Maybe we can help one another.
-You see, I #{bold}#LOOOVVVEEEE#{normal}# learning new lore and finding old artifacts of power, but I am not exactly an adventurer and I would surely get killed out there.
-So take this orb (#LIGHT_GREEN#*she gives you an orb of scrying*#WHITE#). You can use it to talk to me from anywhere in the world! This way you can show me your new shiny findings!
-I get to see many interesting things, and you get to know what your items do. We both win! Isn't it sweet?
-Oh yes, the orb will also identify mundane items for you, as long as you carry it.]], "_t")
-t("Woah, thanks, Elisa. This is really nice!", "Woah, thanks, Elisa. This is really nice!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/escort-quest-start.lua"
--- 6 entries
-t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], [[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], "_t")
-t("Go away; I do not help filthy arcane users!", "Go away; I do not help filthy arcane users!", "_t")
-t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], [[#LIGHT_GREEN#[Pretend to help but when it is time you will use a technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
-Lead on; I will protect you.]], "_t")
-t("Lead on; I will protect you.", "Lead on; I will protect you.", "_t")
-t("Escort", "Escort", "_t")
-t("Go away; I do not care for the weak.", "Go away; I do not care for the weak.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/escort-quest.lua"
--- 3 entries
-t([[At the last moment you invoke the power of nature.  The portal fizzles and transports @npcname@ to Zigur.
-You can feel Nature thanking you.]], [[At the last moment you invoke the power of nature.  The portal fizzles and transports @npcname@ to Zigur.
-You can feel Nature thanking you.]], "_t")
-t([[Thank you, my friend. I do not think I would have survived without you.
-Please let me reward you:]], [[Thank you, my friend. I do not think I would have survived without you.
-Please let me reward you:]], "_t")
-t("There you go. Farewell!", "There you go. Farewell!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/fallen-aeryn.lua"
--- 7 entries
-t("%s grabs her amulet and disappears in a whirl of arcane energies.", "%s grabs her amulet and disappears in a whirl of arcane energies.", "logPlayer")
-t([[#LIGHT_GREEN#*She lies nearly dead at your feet*#WHITE#
-So, now you will kill me and complete the cycle of destruction?]], [[#LIGHT_GREEN#*She lies nearly dead at your feet*#WHITE#
-So, now you will kill me and complete the cycle of destruction?]], "_t")
-t("What are you talking about? Why did you attack me?", "What are you talking about? Why did you attack me?", "_t")
-t("Speak and I might spare you. Why did you attack me?", "Speak and I might spare you. Why did you attack me?", "_t")
-t([[You.. you do not know?
-A few hours after you entered this place a raid of orcs fell upon us. They were not alone -- demons walked among them. We were overwhelmed! Utterly destroyed!
-My land is no more! All because you could not stop them at the Charred Scar! You failed us! People died to protect you, and you failed!
-#LIGHT_GREEN#*She starts to weep...*#WHITE#]], [[You.. you do not know?
-A few hours after you entered this place a raid of orcs fell upon us. They were not alone -- demons walked among them. We were overwhelmed! Utterly destroyed!
-My land is no more! All because you could not stop them at the Charred Scar! You failed us! People died to protect you, and you failed!
-#LIGHT_GREEN#*She starts to weep...*#WHITE#]], "_t")
-t("I know my mistakes and I intend to correct them. Please let me pass. I cannot save your people, but I can make their deaths mean something!", "I know my mistakes and I intend to correct them. Please let me pass. I cannot save your people, but I can make their deaths mean something!", "_t")
-t("[kill her]", "[kill her]", "_t")
 
 
 ------------------------------------------------
@@ -10222,7 +10053,7 @@ t("In that case, let us proceed as quickly as possible. Now, concerning this fas
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/last-hope-lost-merchant.lua"
--- 37 entries
+-- 36 entries
 t([[Ah, my #{italic}#good#{normal}# friend @playername@!
 Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], [[Ah, my #{italic}#good#{normal}# friend @playername@!
 Thanks to you I made it safely to this great city! I am planning to open my most excellent boutique soon, but since I am in your debt, perhaps I could open early for you if you are in need of rare goods.]], "_t")
@@ -10258,7 +10089,6 @@ t([[Ungrol told me this substance contains some exceedingly rare components.
 t("Fairly pricey, but seems useful.  We have a deal!", "Fairly pricey, but seems useful.  We have a deal!", "_t")
 t("That price ... er stuff really stinks ...", "That price ... er stuff really stinks ...", "_t")
 t("Here you are.  Just be sure not to get any on yourself!", "Here you are.  Just be sure not to get any on yourself!", "_t")
-t("Thanks.", "Thanks.", "_t")
 t("I normally offer this service only for a truly deserved price, but for you my friend I am willing to offer a 20% discount - #{italic}#only#{normal}# 4000 gold to make an utterly unique item of your choice.  What do you say?", "I normally offer this service only for a truly deserved price, but for you my friend I am willing to offer a 20% discount - #{italic}#only#{normal}# 4000 gold to make an utterly unique item of your choice.  What do you say?", "_t")
 t("Why, 'tis a paltry sum - take my order, man, and be quick about it!", "Why, 'tis a paltry sum - take my order, man, and be quick about it!", "_t")
 t("Yes, please!", "Yes, please!", "_t")
@@ -10787,7 +10617,7 @@ t("Farewell.", "Farewell.", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-butler.lua"
--- 51 entries
+-- 50 entries
 t([[*#LIGHT_GREEN#The creature slowly turns to you. You hear its terrible voice directly in your head.#WHITE#*
 Welcome, master.]], [[*#LIGHT_GREEN#The creature slowly turns to you. You hear its terrible voice directly in your head.#WHITE#*
 Welcome, master.]], "_t")
@@ -10855,7 +10685,6 @@ t("I have already found such a chest in my travel. Will it work?", "I have alrea
 t([[Yes, it will. I will attune it to this fortress.
 Done.]], [[Yes, it will. I will attune it to this fortress.
 Done.]], "_t")
-t("Thanks.", "Thanks.", "_t")
 t([[Long ago the Sher'tuls used farportals not only for transportation to known locations, but also to explore new parts of the world, or even other worlds.
 This Fortress is equipped with an exploratory farportal, and now has enough energy to allow one teleportation. Each teleportation will take you to a random part of the universe and use 45 energy.
 Beware that the return portal may not be nearby your arrival point; you will need to find it. You can use the rod of recall to try to force an emergency recall, but it has high chances of breaking the exploratory farportal forever.
@@ -12334,13 +12163,12 @@ t("Steeped in fungal malevolence, this mold refused to die.  How a mold becomes 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/multihued-drake.lua"
--- 8 entries
+-- 7 entries
 t("multi-hued drake hatchling", "multi-hued drake hatchling", "entity name")
 t("multi-hued drake", "multi-hued drake", "entity name")
 t("A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "_t")
 t("greater multi-hued wyrm", "greater multi-hued wyrm", "entity name")
 t("An old and powerful multi-hued drake, armed with many deadly breath weapons and nasty claws.", "An old and powerful multi-hued drake, armed with many deadly breath weapons and nasty claws.", "_t")
-t("Ureslak the Prismatic", "Ureslak the Prismatic", "entity name")
 t("A huge multi-hued drake. It seems to shift color rapidly.", "A huge multi-hued drake. It seems to shift color rapidly.", "_t")
 t("#YELLOW#%s's skin turns %s!", "#YELLOW#%s's skin turns %s!", "logSeen")
 
@@ -13219,170 +13047,7 @@ t("lore", "lore", "entity subtype")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts.lua"
--- 632 entries
-t("A long whip of linked metal joints finished with a viciously sharp barb leaking terrible venom.", "A long whip of linked metal joints finished with a viciously sharp barb leaking terrible venom.", "_t")
-t("Girdle of Preservation", "Girdle of Preservation", "entity name")
-t("shimmering, flawless belt", "shimmering, flawless belt", "_t")
-t("A pristine belt of purest white leather with a runed voratun buckle. The ravages of neither time nor the elements have touched it.", "A pristine belt of purest white leather with a runed voratun buckle. The ravages of neither time nor the elements have touched it.", "_t")
-t("Girdle of the Calm Waters", "Girdle of the Calm Waters", "entity name")
-t("golden belt", "golden belt", "_t")
-t("A belt rumoured to have been worn by the Conclave healers.", "A belt rumoured to have been worn by the Conclave healers.", "_t")
-t("Behemoth Hide", "Behemoth Hide", "entity name")
-t("tough weathered hide", "tough weathered hide", "_t")
-t("A rough hide made from a massive beast.  Seeing as it's so weathered but still usable, maybe it's a bit special...", "A rough hide made from a massive beast.  Seeing as it's so weathered but still usable, maybe it's a bit special...", "_t")
-t("Skin of Many", "Skin of Many", "entity name")
-t("stitched skin armour", "stitched skin armour", "_t")
-t("The stitched-together skins of many creatures. Some eyes and mouths still decorate the robe, and some still live, screaming in tortured agony.", "The stitched-together skins of many creatures. Some eyes and mouths still decorate the robe, and some still live, screaming in tortured agony.", "_t")
-t("#BLUE#The skin seems pleased to be worn by the unliving, and grows silent.", "#BLUE#The skin seems pleased to be worn by the unliving, and grows silent.", "logPlayer")
-t("Iron Mail of Bloodletting", "Iron Mail of Bloodletting", "entity name")
-t("gore-encrusted suit of iron mail", "gore-encrusted suit of iron mail", "_t")
-t("Blood drips continuously from this fell suit of iron, and dark magics churn almost visibly around it. Bloody ruin comes to those who stand against its wearer.", "Blood drips continuously from this fell suit of iron, and dark magics churn almost visibly around it. Bloody ruin comes to those who stand against its wearer.", "_t")
-t("Scale Mail of Kroltar", "Scale Mail of Kroltar", "entity name")
-t("perfectly-wrought suit of dragon scales", "perfectly-wrought suit of dragon scales", "_t")
-t("A heavy shirt of scale mail constructed from the remains of Kroltar, whose armour was like tenfold shields.", "A heavy shirt of scale mail constructed from the remains of Kroltar, whose armour was like tenfold shields.", "_t")
-t("Kroltar's head would turn up the heat.", "Kroltar's head would turn up the heat.", "_t")
-t("Cuirass of the Thronesmen", "Cuirass of the Thronesmen", "entity name")
-t("heavy dwarven-steel armour", "heavy dwarven-steel armour", "_t")
-t("This heavy dwarven-steel armour was created in the deepest forges of the Iron Throne. While it grants incomparable protection, it demands that you rely only on your own strength.", "This heavy dwarven-steel armour was created in the deepest forges of the Iron Throne. While it grants incomparable protection, it demands that you rely only on your own strength.", "_t")
-t("#LIGHT_BLUE#You feel your dwarven power swelling to meet the challenge of this armor!", "#LIGHT_BLUE#You feel your dwarven power swelling to meet the challenge of this armor!", "logPlayer")
-t("Golden Three-Edged Sword 'The Truth'", "Golden Three-Edged Sword 'The Truth'", "entity name")
-t("three-edged sword", "three-edged sword", "_t")
-t("The wise ones say that truth is a three-edged sword. And sometimes, the truth hurts.", "The wise ones say that truth is a three-edged sword. And sometimes, the truth hurts.", "_t")
-t("9% chance to stun or confuse the target", "9% chance to stun or confuse the target", "_t")
-t("Ureslak's Femur", "Ureslak's Femur", "entity name")
-t("a strangely colored bone", "a strangely colored bone", "_t")
-t("A shortened femur of the mighty prismatic dragon Ureslak, this erratic club still resonates with his volatile nature.", "A shortened femur of the mighty prismatic dragon Ureslak, this erratic club still resonates with his volatile nature.", "_t")
-t("10% chance to shimmer to a different hue and gain powers", "10% chance to shimmer to a different hue and gain powers", "_t")
-t("Ureslak's %s Femur", "Ureslak's %s Femur", "tformat")
-t("#GOLD#Ureslak's Femur glows and shimmers!", "#GOLD#Ureslak's Femur glows and shimmers!", "logSeen")
-t("Flaming", "Flaming", "_t")
-t("Crackling", "Crackling", "_t")
-t("Venomous", "Venomous", "_t")
-t("Starry", "Starry", "_t")
-t("Eldritch", "Eldritch", "_t")
-t("What would happen if more of Ureslak's remains were reunited?", "What would happen if more of Ureslak's remains were reunited?", "_t")
-t("Ureslak's Molted Scales", "Ureslak's Molted Scales", "entity name")
-t("scaly multi-hued cloak", "scaly multi-hued cloak", "_t")
-t("This cloak is fashioned from the scales of some large reptilian creature.  It appears to reflect every color of the rainbow.", "This cloak is fashioned from the scales of some large reptilian creature.  It appears to reflect every color of the rainbow.", "_t")
-t(", or ", ", or ", "_t")
-t("energize the scales for 16 turns, increasing resistance to %s damage by 15%% just before you are damaged. (This effect lasts 5 turns and only works on one type of damage.)", "energize the scales for 16 turns, increasing resistance to %s damage by 15%% just before you are damaged. (This effect lasts 5 turns and only works on one type of damage.)", "tformat")
-t("%s empowers %s %s!", "%s empowers %s %s!", "logSeen")
-t("It would go well with another part of Ureslak.", "It would go well with another part of Ureslak.", "_t")
-t("#YELLOW_GREEN#An ironic harmony surrounds Ureslak's remains as they reunite.", "#YELLOW_GREEN#An ironic harmony surrounds Ureslak's remains as they reunite.", "logSeen")
-t("#YELLOW_GREEN#Ureslak's remains seem more unsettled.", "#YELLOW_GREEN#Ureslak's remains seem more unsettled.", "logSeen")
-t("razor sharp war axe", "razor sharp war axe", "_t")
-t("Razorblade, the Cursed Waraxe", "Razorblade, the Cursed Waraxe", "entity name")
-t([[This mighty axe can cleave through armour like the sharpest swords, yet hit with all the impact of a heavy club.
-It is said the wielder will slowly grow mad. This, however, has never been proven - no known possessor of this item has lived to tell the tale.]], [[This mighty axe can cleave through armour like the sharpest swords, yet hit with all the impact of a heavy club.
-It is said the wielder will slowly grow mad. This, however, has never been proven - no known possessor of this item has lived to tell the tale.]], "_t")
-t("Sword of Potential Futures", "Sword of Potential Futures", "entity name")
-t("under-wrought blade", "under-wrought blade", "_t")
-t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the untapped potential of time.", "Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the untapped potential of time.", "_t")
-t("In the past there was a dagger with it.", "In the past there was a dagger with it.", "_t")
-t("10% chance to reduce the target's resistances to all damage", "10% chance to reduce the target's resistances to all damage", "_t")
-t("#CRIMSON#The echoes of time resound as the blades are reunited once more.", "#CRIMSON#The echoes of time resound as the blades are reunited once more.", "logSeen")
-t("#CRIMSON#Time seems less perfect in your eyes as the blades are separated.", "#CRIMSON#Time seems less perfect in your eyes as the blades are separated.", "logPlayer")
-t("Dagger of the Past", "Dagger of the Past", "entity name")
-t("rusted blade", "rusted blade", "_t")
-t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the opportunity to learn from the mistakes of the past.", "Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the opportunity to learn from the mistakes of the past.", "_t")
-t("Potentially it would go with a sword in the future.", "Potentially it would go with a sword in the future.", "_t")
-t("10% chance to return the target to a much younger state", "10% chance to return the target to a much younger state", "_t")
-t("Stone Gauntlets of Harkor'Zun", "Stone Gauntlets of Harkor'Zun", "entity name")
-t("dark stone gauntlets", "dark stone gauntlets", "_t")
-t("Fashioned in ancient times by cultists of Harkor'Zun, these heavy granite gauntlets were designed to protect the wearer from the wrath of their dark master.", "Fashioned in ancient times by cultists of Harkor'Zun, these heavy granite gauntlets were designed to protect the wearer from the wrath of their dark master.", "_t")
-t("Unflinching Eye", "Unflinching Eye", "entity name")
-t("a bloodshot eye", "a bloodshot eye", "_t")
-t("Someone has strung a thick black cord through this large bloodshot eyeball, allowing it to be worn around the neck, should you so choose.", "Someone has strung a thick black cord through this large bloodshot eyeball, allowing it to be worn around the neck, should you so choose.", "_t")
-t("Pick of Dwarven Emperors", "Pick of Dwarven Emperors", "entity name")
-t("crude iron pickaxe", "crude iron pickaxe", "_t")
-t("This ancient pickaxe was used to pass down dwarven legends from one generation to the next. Every bit of the head and shaft is covered in runes that recount the stories of the dwarven people.", "This ancient pickaxe was used to pass down dwarven legends from one generation to the next. Every bit of the head and shaft is covered in runes that recount the stories of the dwarven people.", "_t")
-t("#LIGHT_BLUE#You feel the whisper of your ancestors as you wield this pickaxe!", "#LIGHT_BLUE#You feel the whisper of your ancestors as you wield this pickaxe!", "logPlayer")
-t("Quiver of the Sun", "Quiver of the Sun", "entity name")
-t("bright quiver", "bright quiver", "_t")
-t("This strange orange quiver is made of brass and etched with many bright red runes that glow and glitter in the light.  The arrows themselves appear to be solid shafts of blazing hot light, like rays of sunshine, hammered and forged into a solid state.", "This strange orange quiver is made of brass and etched with many bright red runes that glow and glitter in the light.  The arrows themselves appear to be solid shafts of blazing hot light, like rays of sunshine, hammered and forged into a solid state.", "_t")
-t("Quiver of Domination", "Quiver of Domination", "entity name")
-t("grey quiver", "grey quiver", "_t")
-t("Powerful telepathic forces emanate from the arrows of this quiver. The tips appear dull, but touching them causes you intense pain.", "Powerful telepathic forces emanate from the arrows of this quiver. The tips appear dull, but touching them causes you intense pain.", "_t")
-t("dominate the target", "dominate the target", "_t")
-t("Blightstopper", "Blightstopper", "entity name")
-t("vine coated shield", "vine coated shield", "_t")
-t("This voratun shield, coated with thick vines, was imbued with nature's power long ago by the Halfling General Almadar Riul, who used it to stave off the magic and diseases of orcish corruptors during the peak of the Pyre Wars.", "This voratun shield, coated with thick vines, was imbued with nature's power long ago by the Halfling General Almadar Riul, who used it to stave off the magic and diseases of orcish corruptors during the peak of the Pyre Wars.", "_t")
-t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "tformat")
-t("%s holds %s %s close, cleansing %s of corruption!", "%s holds %s %s close, cleansing %s of corruption!", "logSeen")
-t("%s is purged of diseases!", "%s is purged of diseases!", "logSeen")
-t("#DARK_GREEN#You feel nature's power protecting you!", "#DARK_GREEN#You feel nature's power protecting you!", "logPlayer")
-t("Star Shot", "Star Shot", "entity name")
-t("blazing shot", "blazing shot", "_t")
-t("Intense heat radiates from this powerful shot.", "Intense heat radiates from this powerful shot.", "_t")
-t("sets off a powerful explosion", "sets off a powerful explosion", "_t")
-t("Nexus of the Way", "Nexus of the Way", "entity name")
-t("brilliant green mindstar", "brilliant green mindstar", "_t")
-t("The vast psionic force of the Way reverberates through this gemstone. With a single touch, you can sense overwhelming power, and hear countless thoughts.", "The vast psionic force of the Way reverberates through this gemstone. With a single touch, you can sense overwhelming power, and hear countless thoughts.", "_t")
-t("#LIGHT_BLUE#You feel the power of the Way within you!", "#LIGHT_BLUE#You feel the power of the Way within you!", "logPlayer")
-t("#RED#The Way rejects its former captors!", "#RED#The Way rejects its former captors!", "logPlayer")
-t("Amethyst of Sanctuary", "Amethyst of Sanctuary", "entity name")
-t("deep purple gem", "deep purple gem", "_t")
-t("This bright violet gem exudes a calming, focusing force. Holding it, you feel protected against outside forces.", "This bright violet gem exudes a calming, focusing force. Holding it, you feel protected against outside forces.", "_t")
-t("Reduce damage from attackers more than 3 tiles away by 25%", "Reduce damage from attackers more than 3 tiles away by 25%", "_t")
-t("Sceptre of the Archlich", "Sceptre of the Archlich", "entity name")
-t("bone carved sceptre", "bone carved sceptre", "_t")
-t("This sceptre, carved of ancient, blackened bone, holds a single gem of deep obsidian. You feel a dark power from deep within, looking to get out.", "This sceptre, carved of ancient, blackened bone, holds a single gem of deep obsidian. You feel a dark power from deep within, looking to get out.", "_t")
-t("#LIGHT_BLUE#You feel the power of the sceptre flow over your undead form!", "#LIGHT_BLUE#You feel the power of the sceptre flow over your undead form!", "logPlayer")
-t("Oozing Heart", "Oozing Heart", "entity name")
-t("slimy mindstar", "slimy mindstar", "_t")
-t("This mindstar oozes a thick, caustic liquid. Magic seems to die around it.", "This mindstar oozes a thick, caustic liquid. Magic seems to die around it.", "_t")
-t("#DARK_GREEN#The Heart pulses with antimagic forces as you grasp it.", "#DARK_GREEN#The Heart pulses with antimagic forces as you grasp it.", "logPlayer")
-t("Bloomsoul", "Bloomsoul", "entity name")
-t("flower covered mindstar", "flower covered mindstar", "_t")
-t("Pristine flowers coat the surface of this mindstar. Touching it fills you with a sense of calm and refreshes your body.", "Pristine flowers coat the surface of this mindstar. Touching it fills you with a sense of calm and refreshes your body.", "_t")
-t("Gravitational Staff", "Gravitational Staff", "entity name")
-t("heavy staff", "heavy staff", "_t")
-t("Time and Space seem to warp and bend around the massive tip of this stave.", "Time and Space seem to warp and bend around the massive tip of this stave.", "_t")
-t("Eye of the Wyrm", "Eye of the Wyrm", "entity name")
-t("multi-colored mindstar", "multi-colored mindstar", "_t")
-t("A black iris cuts through the core of this mindstar, which shifts with myriad colours. It darts around, as if searching for something.", "A black iris cuts through the core of this mindstar, which shifts with myriad colours. It darts around, as if searching for something.", "_t")
-t("The breath attack has a chance to shift randomly between Fire, Ice, Lightning, Acid, and Sand each turn.", "The breath attack has a chance to shift randomly between Fire, Ice, Lightning, Acid, and Sand each turn.", "_t")
-t("Great Caller", "Great Caller", "entity name")
-t("This mindstar constantly emits a low tone. Life seems to be pulled towards it.", "This mindstar constantly emits a low tone. Life seems to be pulled towards it.", "_t")
-t("Gives a 30% chance that your nature summons appear as wild summons.", "Gives a 30% chance that your nature summons appear as wild summons.", "_t")
-t("Corrupted Gaze", "Corrupted Gaze", "entity name")
-t("dark visored helm", "dark visored helm", "_t")
-t("This helmet radiates a dark power. Its visor seems to twist and corrupt the vision of its wearer. You feel worried that if you were to lower it for long, the visions may affect your mind.", "This helmet radiates a dark power. Its visor seems to twist and corrupt the vision of its wearer. You feel worried that if you were to lower it for long, the visions may affect your mind.", "_t")
-t("Umbral Razor", "Umbral Razor", "entity name")
-t("shadowy dagger", "shadowy dagger", "_t")
-t("This dagger seems to be formed of pure shadows, with a strange miasma surrounding it.", "This dagger seems to be formed of pure shadows, with a strange miasma surrounding it.", "_t")
-t("20% chance to make the target bleed shadows. You heal for 15 whenever you hit an enemy bleeding shadows.", "20% chance to make the target bleed shadows. You heal for 15 whenever you hit an enemy bleeding shadows.", "_t")
-t("%s resists the shadowy cut", "%s resists the shadowy cut", "logSeen")
-t("Emblem of Evasion", "Emblem of Evasion", "entity name")
-t("gold coated emblem", "gold coated emblem", "_t")
-t("Said to have belonged to a master of avoiding attacks, this gilded steel emblem symbolizes his talent.", "Said to have belonged to a master of avoiding attacks, this gilded steel emblem symbolizes his talent.", "_t")
-t("Surefire", "Surefire", "entity name")
-t("high-quality bow", "high-quality bow", "_t")
-t("This tightly strung bow appears to have been crafted by someone of considerable talent. When you pull the string, you feel incredible power behind it.", "This tightly strung bow appears to have been crafted by someone of considerable talent. When you pull the string, you feel incredible power behind it.", "_t")
-t("Frozen Shards", "Frozen Shards", "entity name")
-t("pouch of crystallized ice", "pouch of crystallized ice", "_t")
-t("In this dark blue pouch lie several small orbs of ice. A strange vapour surrounds them, and touching them chills you to the bone.", "In this dark blue pouch lie several small orbs of ice. A strange vapour surrounds them, and touching them chills you to the bone.", "_t")
-t("bursts into an icy cloud", "bursts into an icy cloud", "_t")
-t("electrified whip", "electrified whip", "_t")
-t("Stormlash", "Stormlash", "entity name")
-t("This steel plated whip arcs with intense electricity. The force feels uncontrollable, explosive, powerful.", "This steel plated whip arcs with intense electricity. The force feels uncontrollable, explosive, powerful.", "_t")
-t("Focus the lightning forces on an enemy", "Focus the lightning forces on an enemy", "_t")
-t("The storm is on your side !", "The storm is on your side !", "logPlayer")
-t("The storm betrayed you...", "The storm betrayed you...", "logPlayer")
-t("strike an enemy within range %d (for 100%% weapon damage as lightning) and release a radius %d burst of electricity dealing %0.2f to %0.2f lightning damage (based on Magic and Dexterity)", "strike an enemy within range %d (for 100%% weapon damage as lightning) and release a radius %d burst of electricity dealing %0.2f to %0.2f lightning damage (based on Magic and Dexterity)", "tformat")
-t("#Source# strikes #Target# with %s %s, sending out an arc of lightning!", "#Source# strikes #Target# with %s %s, sending out an arc of lightning!", "logCombat")
-t("gemmed whip handle", "gemmed whip handle", "_t")
-t("Focus Whip", "Focus Whip", "entity name")
-t("A small mindstar rests at top of this handle. As you touch it, a translucent cord appears, flicking with your will.", "A small mindstar rests at top of this handle. As you touch it, a translucent cord appears, flicking with your will.", "_t")
-t("Try to fry your enemies brain (25% chance to brainlock)", "Try to fry your enemies brain (25% chance to brainlock)", "_t")
-t("strike all targets in a line (for 100%% weapon damage as mind) out to range 4", "strike all targets in a line (for 100%% weapon damage as mind) out to range 4", "_t")
-t("#Source# manifests a psychic assult with %s %s!", "#Source# manifests a psychic assult with %s %s!", "logCombat")
-t("Latafayn", "Latafayn", "entity name")
-t("flame covered greatsword", "flame covered greatsword", "_t")
-t("This massive, flame-coated greatsword was stolen by the adventurer Kestin Highfin, during the Age of Dusk. It originally belonged to a demon named Frond'Ral the Red.  It roars with vile flames and its very existence seems to be a blight upon the lands.", "This massive, flame-coated greatsword was stolen by the adventurer Kestin Highfin, during the Age of Dusk. It originally belonged to a demon named Frond'Ral the Red.  It roars with vile flames and its very existence seems to be a blight upon the lands.", "_t")
-t("accelerate burning effects on all creatures in a radius %d ball within range %d, consuming them to instantly inflict 125%% of all remaining burn damage", "accelerate burning effects on all creatures in a radius %d ball within range %d, consuming them to instantly inflict 125%% of all remaining burn damage", "tformat")
-t("%s's %s lashes out in a flaming arc, intensifying the burning of %s enemies!", "%s's %s lashes out in a flaming arc, intensifying the burning of %s enemies!", "logSeen")
-t("Robe of Force", "Robe of Force", "entity name")
+-- 471 entries
 t("rippling cloth robe", "rippling cloth robe", "_t")
 t("This thin cloth robe is surrounded by a pulsating shroud of telekinetic force.", "This thin cloth robe is surrounded by a pulsating shroud of telekinetic force.", "_t")
 t("send out a range %d beam of kinetic energy, dealing %0.2f to %0.2f physical damage (based on Willpower and Cunning) with knockback", "send out a range %d beam of kinetic energy, dealing %0.2f to %0.2f physical damage (based on Willpower and Cunning) with knockback", "tformat")
@@ -20150,6 +19815,12 @@ t("#GOLD#PLACED GREATER VAULT: %s", "#GOLD#PLACED GREATER VAULT: %s", "log")
 section "game/modules/tome/data/rooms/lesser_vault.lua"
 -- 1 entries
 t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#PLACED LESSER VAULT: %s", "log")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/celestial/celestial.lua"
+-- 1 entries
+t("Dark Sun", "Dark Sun", "_t")
 
 
 ------------------------------------------------

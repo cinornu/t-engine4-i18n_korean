@@ -159,6 +159,7 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		적을 죽이고 얻는 원기 획득량이, 적에게 적용된 암울한 결과 중첩마다 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat")
 t("Weakened Soul", "약해진 영혼", "talent name")
+t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, dealing 2%% less damage.", "암울한 결과 중첩 당 가하는 피해량이 2%% 감소합니다. 이 효과는 최대 %d 개의 암울한 중첩까지 적용됩니다.", "tformat")
 t("Grim Future", "음침한 미래", "talent name")
 t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
@@ -172,7 +173,7 @@ t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you
 		While transformed you are invisible (power %d), convert 100%% of all damage done to darkness and gain darkness resistance penetration and damage increase equal to your highest.
 		While transformed you can not apply new Bleak Outcome stacks.]], [[대상에게서 최대 %d 중첩의 암울한 결과 중첩을 흡수해, 중첩 당 1 턴 동안 유지되는 불길한 그림자로 변신합니다.
 		지속시간 동안 시전자는 투명 상태이며, (위력 %d), 모든 피해를 어둠 속성으로 가하고, 시전자의 모든 저항 관통과 모든 속성 피해량 변동치 중 가장 높은 값을 적용하여 피해를 계산합니다.
-		While transformed you can not apply new Bleak Outcome stacks.]], "tformat")
+		변신한 동안에는 새로운 암울한 결과 중첩을 쌓을 수 없습니다.]], "tformat")
 
 
 ------------------------------------------------

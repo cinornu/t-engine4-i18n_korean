@@ -342,6 +342,25 @@ t("You fail to attach %s to %s.", "당신은 %s 당신의 %s 에 장착하는데
 ------------------------------------------------
 section "game/modules/tome/class/EscortRewards.lua"
 
+t("%s, the lost warrior", "길 잃은 전사 %s", "_t")
+t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "도와주세요! 이곳에서 길을 잃었습니다. 근처에 친구가 남겨준 귀환용 차원문이 있지만, 그곳까지 혼자서 가는 것은 무리입니다. 절 도와주시겠습니까?", "_t")
+t("%s, the injured seer", "부상당한 탐사자 %s", "_t")
+t("%s, the repented thief", "회개한 도적 %s", "_t")
+t("%s, the lone alchemist", "외로운 연금술사 %s", "_t")
+t("He looks tired and wounded.", "그는 지쳐 보이고 다친 것 같습니다.", "_t")
+t("%s, the lost sun paladin", "길 잃은 태양의 기사 %s", "_t")
+t("%s, the lost defiler", "길 잃은 모독자 %s", "_t")
+t("temporal portal", "시간의 차원문", "_t")
+t([[Oh but you are ... are you ?! ME?!
+		So I was right, this is not my original time-thread!
+		Please help me! I am afraid I lost myself in this place. I know there is a temporal portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me? Would you help .. yourself?]], [[오, 근데 당신 ... 은?! 나잖아?!
+		내 생각이 맞았어, 이건 내 원래 시간선이 아니야!
+		도와주세요! 이곳에서 길을 잃었습니다. 근처에 친구가 남겨준 시간의 차원문이 있지만, 전 지금까지 너무 많이 싸웠고, 그곳까지 못 갈까봐 두렵습니다. 절 도와주시겠습니까? 자기 자신을 .. 도와주시겠습니까?]], "_t")
+t("%s, temporal explorer", "시간의 여행자 %s", "_t")
+t("She looks tired and wounded. She is so similar to you and yet completely different. Weird.", "그녀는 지쳐 보이고 다친 것 같습니다. 그녀는 당신과 정말 비슷하게 생겼고, 그럼에도 당신과는 완전히 다릅니다. 기묘합니다.", "_t")
+t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "도와주세요! 이곳에서 길을 잃었습니다. 근처에 친구가 남겨준 귀환용 차원문이 있지만, 전 지금까지 너무 많이 싸웠고, 그곳까지 못 갈까봐 두렵습니다. 절 도와주시겠습니까?", "_t")
+t("%s, the worried loremaster", "근심하는 지식 전달자 %s", "_t")
+t("She looks tired and wounded.", "그녀는 지쳐 보이고 다친 것 같습니다.", "_t")
 t("mental", "정신적 효과", "_t")
 t("physical", "물리", "_t")
 t("spell", "주문", "_t")
@@ -479,6 +498,8 @@ t("%s's %s", "%s 의 %s", "tformat")
 section "game/modules/tome/class/NPC.lua"
 
 t("#PINK#Your summoned %s disappears.", "#PINK#소환했던 %s 사라졌다.", "logPlayer", nil, {"가"})
+t("her", "그녀", "_t")
+t("him", "그", "_t")
 t("Target: ", "대상: ", "_t")
 t("none", "없음", "_t")
 
@@ -952,6 +973,8 @@ t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약한 �
 section "game/modules/tome/class/interface/PartyDeath.lua"
 
 t("unknown", "알 수 없음", "_t")
+t("her", "그녀", "_t")
+t("him", "그", "_t")
 t("battered", "두들겨맞아", "_t")
 
 
@@ -2075,7 +2098,7 @@ t("Killed Slasul even though you sided with him to learn the Legacy of the Nalor
 t("Flooder", "홍수를 부르는 자", "achievement name")
 t("Defeated Ukllmswwik while doing his own quest.", "우클름스윅의 임무를 진행하는 도중 그를 패배시켰다.", "_t")
 t("Gem of the Moon", "달의 보석", "achievement name")
-t("Completed the Master Jeweler quest with Limmir.", "리미르와 함께 보석 세공 명인 임무를 완료했다.", "_t")
+t("Completed the Master Jeweler quest with Limmir.", "리미르와 함께 보석 세공의 대가 임무를 완료했다.", "_t")
 t("Curse Lifter", "저주를 걷어낸 자", "achievement name")
 t("Killed Ben Cruthdar the Cursed.", "저주받은 자 벤 크루스달을 처치했다.", "_t")
 t("Fast Curse Dispel", "빠른 해주", "achievement name")
@@ -4136,32 +4159,141 @@ t("Yes, Tannen was not exactly friendly. I thank you for your help. Here are the
 ------------------------------------------------
 section "game/modules/tome/data/chats/eidolon-plane.lua"
 
+t([[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
+I am the Eidolon and you are not welcome here!
+No matter how you came to this plane, #{bold}#DO NOT COME BACK!
+NOW BEGONE!
+#{normal}#
+.]], [[#LIGHT_GREEN#*인간처럼 생겼지만 '무'로 채워져 있는 형체가 눈 앞에 서 있습니다. 당신을 응시하고 있는 것 같습니다.*#WHITE#
+난 에이돌론이다. 그리고 넌 이곳에 있어서는 안 된다!
+네가 어떤 방법으로 이곳에 왔는지는 상관없다. #{bold}#돌아오지 마라!
+이제 사라져라!
+#{normal}#
+.]], "_t")
+t([[#LIGHT_GREEN#*Before you stands a humanoid shape filled with 'nothing'. It seems to stare at you.*#WHITE#
+I have brought you here on the instant of your death. I am the Eidolon.
+I have deemed you worthy of my 'interest'. I will watch your future steps with interest.
+You may rest here, and when you are ready I will send you back to the material plane.
+But do not abuse my help. I am not your servant, and someday I might just let you die.
+As for your probable many questions, they will stay unanswered. I may help, but I am not here to explain why.]], [[#LIGHT_GREEN#*인간처럼 생겼지만 '무'로 채워져 있는 형체가 눈 앞에 서 있습니다. 당신을 응시하고 있는 것 같습니다.*#WHITE#
+네가 죽기 직전의 순간, 널 이곳으로 옮긴 것은 나다. 난 에이돌론이다.
+난 네가 나의 '흥미' 에 걸맞은 자라고 생각해 왔다. 난 네가 앞으로 걸어갈 길을 지켜볼 것이다.
+넌 이곳에서 휴식을 취해도 되며, 준비가 충분히 되었다면 널 물질 차원으로 돌려보내 주마.
+하지만 내가 항상 도움을 줄 것이라 여기지 말아라. 난 너의 하인이 아니며, 또한 난 언젠가 네가 죽는 것을 지켜볼 것이다.
+예상하건대 궁금한 것들이 아주 많겠지만, 그것들의 답을 얻을 순 없을 것이다. 난 도움을 주었지만, 그 이유를 설명하진 않을 것이다.]], "_t")
+t("Thank you. I will rest for a while.", "감사합니다. 잠시만 쉴게요.", "_t")
+t("Thank you. I am ready to go back!", "감사합니다. 돌아갈 준비가 되었습니다!", "_t")
+t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else please?", "감사합니다, 하지만 살아남기 힘들 것 같아서 두려운데, 다른 곳으로 보내 주실 수 있나요?", "_t")
+t("Thank you, but I fear I will not survive anyway, can you send me back somewhere else on the level please?", "감사합니다, 하지만 살아남기 힘들 것 같아서 두려운데, 다른 층으로 보내 주실 수 있나요?", "_t")
+t("Thank you, I am ready to go back!", "감사합니다. 돌아갈 준비가 되었습니다!", "_t")
+t("Thank you, but I am weary of this life, I wish no more, please let me go.", "감사합니다, 하지만 전 삶에 지쳤어요. 더 살고 싶지 않으니까, 그냥 죽게 해 주세요.", "_t")
+t([[It seems the threads of time and space have been disrupted...
+I will try to send you to safety.]], [[시공간의 가닥이 혼란스러운 것 같다...
+안전하게 돌려보내 보마.]], "_t")
+t("Thanks.", "감사합니다.", "_t")
+t([[#LIGHT_GREEN#*It seems to stare at you in weird way.*#WHITE#
+I...had plans for you, but I cannot go against your free will. Know that you had a destiny waiting for you.
+Are you sure?]], [[#LIGHT_GREEN#*당신을 묘한 시선으로 바라보는 것 같습니다.*#WHITE#
+나에겐...널 위한 계획이 있다. 하지만 네 자유 의지에 반할 수는 없다. 너의 운명이 널 기다린다는 것을 알라.
+정말로 포기하겠는가?]], "_t")
+t("Just let me go please.", "그냥 죽게 해 주세요.", "_t")
+t("asked the Eidolon to let %s die in peace", "%s 에이돌론에게 평온한 죽음을 요청했다.", "tformat", nil, {"는"})
+t("her", "그녀", "_t")
+t("him", "그", "_t")
+t("brought down by Eidolon", "에이돌론에게 쓰러졌다.", "_t")
+t("No actually, perhaps life is still worth it!", "오, 아니요, 제 삶이 아직 가치있을 지도 몰라요!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/elisa-orb-scrying.lua"
 
+t("You immerse your mind in the Way and let knowledge flow in.", "스스로의 정신을 한길에 섞어, 지식들이 흘러들어오도록 했습니다.", "_t")
+t("[You do not gain any knowledge.]", "[특별한 지식을 얻지 못했습니다.]", "_t")
+t("You pause and recall past memories.", "사고를 멈추고 과거의 기억들을 불러냈습니다.", "_t")
+t("[Images and knowledge flow in.]", "[영상들과 지식이 흘러들어옵니다.]", "_t")
+t("[You do not recognize anything new.]", "[뭔가 새로운 것을 떠올리지 못했습니다.]", "_t")
+t("Oh, hi @playername@, have you got something new to show me?", "오, 안녕 @playername@, 나한테 새로 보여 줄 게 있니?", "_t")
+t("Yes, Elisa, could you have a look at these objects please? [show her the items the orb could not identify]", "네, 엘리사, 이것 좀 봐 주실래요? [그녀에게 오브가 식별하지 못한 물건을 보여 준다]", "_t")
+t("Err, no... sorry, I just wanted to hear a friendly voice.", "어, 아뇨... 죄송합니다, 그냥 친근한 목소리가 듣고 싶었어요.", "_t")
+t("Not yet sorry!", "아뇨 아직 죄송합니다!", "_t")
+t([[#LIGHT_GREEN#*You hear something akin to a muffled giggle*#WHITE#
+Oh, you are #{bold}#SOOOO#{normal}# cute!]], [[#LIGHT_GREEN#*숨죽여 웃는 듯한 소리를 들었습니다*#WHITE#
+아아, 어쩜 #{bold}#그으으으으렇게#{normal}# 귀엽니!]], "_t")
+t("Goodbye, Elisa!", "잘 있어요, 엘리사!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/elisa-shop.lua"
 
+t([[Let's see what have you got here...
+%s
+
+That is very nice, @playername@!]], [[어디 한 번 볼까...
+%s
+
+굉장해, @playername@!]], "tformat")
+t("Thank you, Elisa!", "고마워요, 엘리사!", "_t")
+t("Hello friend, what can I do for you?", "안녕, 뭘 도와줄까?", "_t")
+t("Could you have a look at these objects, please? [show her your unidentified items]", "이 물건들 좀 봐 주실래요? [그녀에게 미식별 물건들을 보여 준다]", "_t")
+t("Nothing, goodbye.", "아뇨, 아무것도. 잘 있어요.", "_t")
+t([[Wait, @playername@, you seem to be quite the adventurer. Maybe we can help one another.
+You see, I #{bold}#LOOOVVVEEEE#{normal}# learning new lore and finding old artifacts of power, but I am not exactly an adventurer and I would surely get killed out there.
+So take this orb (#LIGHT_GREEN#*she gives you an orb of scrying*#WHITE#). You can use it to talk to me from anywhere in the world! This way you can show me your new shiny findings!
+I get to see many interesting things, and you get to know what your items do. We both win! Isn't it sweet?
+Oh yes, the orb will also identify mundane items for you, as long as you carry it.]], [[잠시만, @playername@, 넌 모험가 맞지? 우린 서로 도움을 줄 수 있을지도 몰라.
+알다시피, 난 새로운 이야기들이랑 고대의 힘이 담긴 유물들을 찾아내는 걸 #{bold}#지이이이이인짜로#{normal}# 좋아하거든. 하지만 난 모험가가 아니고, 내가 모험을 나서면 바로 죽게 될 거야.
+그러니까 이걸 받아. (#LIGHT_GREEN#*그녀가 예지의 오브를 주었습니다*#WHITE#) 그걸 쓰면 이 세상 그 어디에서도 나랑 이야기를 할 수 있어! 이 방법으로 네가 새로 찾아낸 반짝반짝한 것들을 나한테 보여 줄 수 있다구!
+난 재밌는 것들을 엄청 많이 볼 수 있고, 넌 네 물건이 뭐 하는 데 쓰는 건지 알 수 있고. 우리 둘 다 좋은 거야! 달달하지 않니?
+오 맞다, 네가 그 오브를 갖고 있는 동안은, 흔해빠진 물건들은 그게 알아서 해 줄 거야.]], "_t")
+t("Woah, thanks, Elisa. This is really nice!", "우와, 고마워요, 엘리사. 이건 진짜 좋은데요!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/escort-quest-start.lua"
 
+t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a Ziguranth technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
+Lead on; I will protect you.]], [[#LIGHT_GREEN#[돕는 척을 하고, 도착했을 때 지구랏의 기술로 차원문이 오작동하게 만듭니다. @npcname2@ 지구르로 보내져서 제대로 '처리' 될 것입니다.]#WHITE#
+안내해, 지켜줄게.]], "_t")
+t("Go away; I do not help filthy arcane users!", "저리 꺼져! 추잡한 마법사 따윌 도와 줄 것 같나?", "_t")
+t([[#LIGHT_GREEN#[Pretend to help but when it is time you will use a technique to make the portal fizzle. @npcname@ will be sent to Zigur to be 'dealt with' properly.]#WHITE#
+Lead on; I will protect you.]], [[#LIGHT_GREEN#[돕는 척을 하고, 도착했을 때 적절한 기술로 차원문이 오작동하게 만듭니다. @npcname2@ 지구르로 보내져서 제대로 '처리' 될 것입니다.]#WHITE#
+안내해, 지켜줄게.]], "_t")
+t("Lead on; I will protect you.", "안내해, 지켜줄게.", "_t")
+t("Escort", "호위", "_t")
+t("Go away; I do not care for the weak.", "저리 꺼져, 너처럼 약한 녀석이야 죽든지 말든지.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/escort-quest.lua"
 
+t([[At the last moment you invoke the power of nature.  The portal fizzles and transports @npcname@ to Zigur.
+You can feel Nature thanking you.]], [[들어가기 직전에 자연의 힘을 사용했습니다. 차원문은 쉭쉭거리면서 @npcname3@ 지구르로 보냈습니다.
+자연이 고마워하는 걸 느낄 수 있습니다.]], "_t")
+t([[Thank you, my friend. I do not think I would have survived without you.
+Please let me reward you:]], [[고맙습니다, 친구여. 당신이 아니었으면 전 분명히 죽었겠죠.
+부디 그 보답을 받아 주세요.]], "_t")
+t("There you go. Farewell!", "여기 있습니다. 안녕히!", "_t")
 t("Thank you.", "감사합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/fallen-aeryn.lua"
 
+t("%s grabs her amulet and disappears in a whirl of arcane energies.", "%s 자신의 목걸이를 움켜쥐었고, 비전 에너지에 휩싸여 사라졌다.", "logPlayer", nil, {"는"})
+t([[#LIGHT_GREEN#*She lies nearly dead at your feet*#WHITE#
+So, now you will kill me and complete the cycle of destruction?]], [[#LIGHT_GREEN#*그녀는 다 죽어가는 채로 당신의 발치에 쓰러져 있습니다*#WHITE#
+그래서, 이제 날 죽이고 이 파괴의 연쇄를 완성할 거냐?]], "_t")
+t("What are you talking about? Why did you attack me?", "무슨 소리입니까? 왜 날 공격했죠?", "_t")
+t("Speak and I might spare you. Why did you attack me?", "이야기를 들어 보지요. 왜 날 공격했습니까?", "_t")
+t([[You.. you do not know?
+A few hours after you entered this place a raid of orcs fell upon us. They were not alone -- demons walked among them. We were overwhelmed! Utterly destroyed!
+My land is no more! All because you could not stop them at the Charred Scar! You failed us! People died to protect you, and you failed!
+#LIGHT_GREEN#*She starts to weep...*#WHITE#]], [[서.. 설마 몰랐던 거야?
+네가 이곳에 들어가고 몇 시간 뒤에 오크의 대군이 우릴 덮쳤어. 오크들뿐만이 아니라 -- 악마들도 함께. 우린 이길 수 없었어! 완전히 파괴되었다고!
+내가 아끼던 사람들은 이제 없어! 전부 다 네가 검게 탄 상처에서 놈들을 막지 못했기 때문이야! 전부 너 때문이라고! 널 지키려 사람들이 죽었는데, 넌 실패했단 말이야!
+#LIGHT_GREEN#*그녀가 흐느끼기 시작합니다...*#WHITE#]], "_t")
+t("I know my mistakes and I intend to correct them. Please let me pass. I cannot save your people, but I can make their deaths mean something!", "제 잘못인 걸 알고 있고, 그걸 바로잡을 겁니다. 지나가게 해 주십시오. 그대의 사람들을 구할 순 없지만, 그들의 죽음이 헛되지 않도록 할 수는 있단 말입니다!", "_t")
+t("[kill her]", "[그녀를 죽인다]", "_t")
 
 
 ------------------------------------------------
@@ -4217,6 +4349,7 @@ section "game/modules/tome/data/chats/last-hope-lost-merchant.lua"
 
 t(".", "없습니다.", "_t")
 t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t("Thanks.", "감사합니다.", "_t")
 t("dragonbone wand", "용뼈 마법봉", "_t")
 t("dragonbone totem", "용뼈 토템", "_t")
 t("voratun torque", "보라툰 주술 고리", "_t")
@@ -4373,6 +4506,7 @@ t("[leave]", "[떠난다]", "_t")
 section "game/modules/tome/data/chats/shertul-fortress-butler.lua"
 
 t("[leave]", "[떠난다]", "_t")
+t("Thanks.", "감사합니다.", "_t")
 
 
 ------------------------------------------------
@@ -5953,6 +6087,7 @@ section "game/modules/tome/data/general/npcs/multihued-drake.lua"
 t("dragon", "용", "entity type")
 t("multihued", "다색", "entity subtype")
 t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
+t("Ureslak the Prismatic", "다색의 우르슐락", "entity name")
 
 
 ------------------------------------------------
@@ -6341,7 +6476,7 @@ t("Trident of the Tides", "파도의 삼지창", "entity name")
 t([[The power of the tides rush through this trident.
 Tridents require the exotic weapons mastery talent to use correctly.]], [[파도의 힘이 이 삼지창 안에서 흐르고 있습니다.
 삼지창을 제대로 사용하기 위해서는 이형 무기 숙련 기술이 필요합니다.]], "_t")
-t("flame-wrought amulet", "화염의 목걸이", "_t")
+t("flame-wrought amulet", "불길의 목걸이", "_t")
 t("Fiery Choker", "목에 딱 맞는 불꽃 목걸이", "entity name")
 t("A choker made of pure flame, casting forever shifting patterns around the neck of its wearer. Its fire seems to not harm the wearer.", "순수한 화염으로 만들어진 목걸이로, 착용자의 목 근처에서 계속 주조되여 모양이 변합니다. 이 화염은 시전자에게 해를 끼치지 않는 것 처럼 보입니다.", "_t")
 t("Chromatic Harness", "무지개 빛 갑옷", "entity name")
@@ -6478,7 +6613,7 @@ t("This is a big, nasty-looking tree trunk that Bill the Troll used as a weapon.
 t("bloody shield", "피투성이 방패", "_t")
 t("Sanguine Shield", "핏빛 방패", "entity name")
 t("Though tarnished and spattered with blood, the emblem of the Sun still manages to shine through on this shield.", "비록 피에 뒤덮혀 더러워졌지만, 태양의 문장은 여전히 그 빛을 발산합니다.", "_t")
-t("Flamewrought", "불꽃을 가저오는 자", "entity name")
+t("Flamewrought", "불꽃 장갑", "entity name")
 t("chitinous gloves", "키틴질 장갑", "_t")
 t("These gloves seems to be made out of the exoskeletons of ritches. They are hot to the touch.", "이 장갑은 릿치의 외골격으로 만들어진 것처럼 보입니다. 만지면 열기가 느껴집니다.", "_t")
 t("scintillating crystal", "반짝이는 수정", "_t")
@@ -6617,15 +6752,15 @@ t("arrow", "화살", "entity subtype")
 t("bow", "활", "entity combat talented")
 t("Arrows are used with bows to pierce your foes to death.", "화살은 활과 함께 적을 꿰뚫어 죽음으로 인도합니다.", "_t")
 t("elm", "느릅나무", "entity short_name")
-t("quiver of elm arrows", "느릅나무 화살묶음", "entity name")
+t("quiver of elm arrows", "느릅나무 화살통", "entity name")
 t("ash", "물푸레나무", "entity short_name")
-t("quiver of ash arrows", "물푸레나무 화살묶음", "entity name")
-t("quiver of yew arrows", "주목 화살묶음", "entity name")
+t("quiver of ash arrows", "물푸레나무 화살통", "entity name")
+t("quiver of yew arrows", "주목 화살통", "entity name")
 t("yew", "주목", "entity short_name")
 t("e.wood", "엘프나무", "entity short_name")
-t("quiver of elven-wood arrows", "엘프나무 화살묶음", "entity name")
+t("quiver of elven-wood arrows", "엘프나무 화살통", "entity name")
 t("dragonbone", "용뼈", "entity short_name")
-t("quiver of dragonbone arrows", "용뼈 화살묶음", "entity name")
+t("quiver of dragonbone arrows", "용뼈 화살통", "entity name")
 
 
 ------------------------------------------------
@@ -9491,7 +9626,7 @@ t("A visored steel helm, embossed and embellished with gold, that bears as its c
 t("Kroltar's power resides in his scales.", "크롤타의 힘이 비늘에 남아있습니다.", "_t")
 t("#GOLD#As the helm of Kroltar approaches the your scale armour, they begin to fume and emit fire.", "#GOLD#크롤타의 투구와 당신의 비늘 갑옷이 가까워지자, 연기와 화염을 내기 시작한다.", "logPlayer")
 t("#GOLD#The fumes and fire fade away.", "#GOLD#연기와 화염이 사라진다.", "logPlayer")
-t("Crown of Command", "명령의 왕관", "entity name")
+t("Crown of Command", "지배의 왕관", "entity name")
 t("unblemished silver crown", "흠없는 은 왕관", "_t")
 t("This crown was worn by the Halfling king Roupar, who ruled over the Nargol lands in the Age of Dusk.  Those were dark times, and the king enforced order and discipline under the harshest of terms.  Any who deviated were punished, any who disagreed were repressed, and many disappeared without a trace into his numerous prisons.  All must be loyal to the crown or suffer dearly.  When he died without heir the crown was lost and his kingdom fell into chaos.", "이 왕관은 황혼의 시대 때, 나르골 땅을 지배했던 하플링 왕, 루파르가 썼던 왕관입니다.  그 어두운 시기 동안, 루파르는 가혹한 법령으로 질서와 규율을 다시 세웠습니다.  법을 지키지 않는 자는 누구라던 처벌받았고, 왕의 뜻에 찬성하지 않는 이들은 억압됐습니다. 그리고 많은 이들이 그의 수많은 감옥에서 흔적도 없이 사라졌습니다.  모든 사람들이 왕에게 충성하거나, 죽을정도로 고통받게되었습니다.  그리고, 루파르가 후계자없이 죽고, 그의 왕관도 사라지자, 왕국은 혼돈에 빠저들게 되었습니다.", "_t")
 t("#LIGHT_BLUE#As you don the %s, you gain understanding of the might of your race.", "#LIGHT_BLUE#%s 머리 위에 쓰자, 당신 종족의 힘을 진정으로 깨닫게되었습니다.", "logPlayer", nil, {"를"})
@@ -9547,7 +9682,170 @@ t("Made in times before the Dwarves learned beautiful craftsmanship, the rough a
 t("#LIGHT_BLUE#You feel as surge of power as you wield the axe of your ancestors!", "#LIGHT_BLUE#선조의 도끼를 쥐자 당신은 힘이 쇄도함을 느낀다!", "logPlayer")
 t("metal whip", "강철 채찍", "_t")
 t("Scorpion's Tail", "전갈 꼬리", "entity name")
+t("A long whip of linked metal joints finished with a viciously sharp barb leaking terrible venom.", "철편을 이어붙인 이 채찍은 끔찍한 독을 뿜어내는 아주 날카로운 가시 분비샘으로 마무리되어있다.", "_t")
+t("Girdle of Preservation", "보존의 죔틀", "entity name")
+t("shimmering, flawless belt", "빛나는, 흠집없는 허리띠", "_t")
+t("A pristine belt of purest white leather with a runed voratun buckle. The ravages of neither time nor the elements have touched it.", "자연 그대로의 순수한 하얀 가죽과 룬이 세겨진 보라툰 버클로 이루어져있습니다. 시간이나 기타 다른 원소들의 파괴적인 힘이 미치지 않은 것 같습니다.", "_t")
+t("Girdle of the Calm Waters", "잔잔한 물의 허리띠", "entity name")
+t("golden belt", "금색 허리띠", "_t")
+t("A belt rumoured to have been worn by the Conclave healers.", "최고의회의 치유사가 썼다는 소문이 도는 허리띠입니다.", "_t")
+t("Behemoth Hide", "거수의 가죽", "entity name")
+t("tough weathered hide", "두껍고 낡은 가죽", "_t")
+t("A rough hide made from a massive beast.  Seeing as it's so weathered but still usable, maybe it's a bit special...", "거대한 야수에게서 떼어낸 가죽입니다.  아주 낡아보이지만, 아직 사용은 가능합니다. 아마 좀 특별할 지도 모릅니다...", "_t")
+t("Skin of Many", "많은 이의 가죽", "entity name")
+t("stitched skin armour", "가죽을 이어붙인 갑옷", "_t")
+t("The stitched-together skins of many creatures. Some eyes and mouths still decorate the robe, and some still live, screaming in tortured agony.", "다양한 생명체의 가죽을 하나로 이어붙였습니다. 눈알과 입이 로브를 장식하고 있지만, 몇몇은 아직 살아있는 것 같습니다. 고문의 고통으로 울부짖습니다.", "_t")
+t("#BLUE#The skin seems pleased to be worn by the unliving, and grows silent.", "#BLUE#이 가죽은 불사자들이 자신을 입기를 원하는 것 같다. 가죽이 조용히 빛난다.", "logPlayer")
+t("Iron Mail of Bloodletting", "유혈의 무쇠 갑옷", "entity name")
+t("gore-encrusted suit of iron mail", "피로 뒤덮힌 무쇠 갑옷", "_t")
+t("Blood drips continuously from this fell suit of iron, and dark magics churn almost visibly around it. Bloody ruin comes to those who stand against its wearer.", "이 타락한 무쇠 갑옷에서 피가 계속 떨어지고, 사악한 마법이 눈에 보일만큼 갑옷의 주위를 휘돌고있습니다. 이 갑옷을 입은 자에게 대적하는 이들은 핏빛 파멸을 맞게될 것입니다.", "_t")
+t("Scale Mail of Kroltar", "크롤타의 비늘 갑옷", "entity name")
+t("perfectly-wrought suit of dragon scales", "완벽하게 만들어진 용비늘 갑옷", "_t")
+t("A heavy shirt of scale mail constructed from the remains of Kroltar, whose armour was like tenfold shields.", "크롤타의 잔해로 만든 비늘 갑옷으로, 마치 10 겹의 방패를 입고다니는 것 같습니다.", "_t")
+t("Kroltar's head would turn up the heat.", "크롤타의 머리가 열기를 내뿜으며 고개를 듭니다.", "_t")
+t("Cuirass of the Thronesmen", "왕좌의 흉갑", "entity name")
+t("heavy dwarven-steel armour", "무거운 드워프 강철 갑옷", "_t")
+t("This heavy dwarven-steel armour was created in the deepest forges of the Iron Throne. While it grants incomparable protection, it demands that you rely only on your own strength.", "이 무거운 드워프 강철 갑옷은 철의 왕좌의 가장 깊숙한 대장간에서 만들어졌습니다. 갑옷은 비할 데 없는 보호 효과를 제공하나, 오직 자신 스스로의 힘으로만 난관을 헤처나가야합니다.", "_t")
+t("#LIGHT_BLUE#You feel your dwarven power swelling to meet the challenge of this armor!", "#LIGHT_BLUE#이 갑옷의 도전에 응하기 위해, 당신의 드워프적 힘이 솟아오르는 것을 느꼈다!", "logPlayer")
+t("Golden Three-Edged Sword 'The Truth'", "황금 삼중검 '진실'", "entity name")
+t("three-edged sword", "삼중검", "_t")
+t("The wise ones say that truth is a three-edged sword. And sometimes, the truth hurts.", "현자들은 진실이야말로 삼중검이라고 합니다. 언제든지 진실은 고통스러운 법이기에.", "_t")
+t("9% chance to stun or confuse the target", "9% 확률로 대상에게 기절이나 혼란을 일으킵니다", "_t")
+t("Ureslak's Femur", "우르슐락의 대퇴골", "entity name")
+t("a strangely colored bone", "이상한 색의 뼈", "_t")
+t("A shortened femur of the mighty prismatic dragon Ureslak, this erratic club still resonates with his volatile nature.", "강력한 다색룡 우르슐락의 대퇴골을 짧게 가공한 것으로, 이 불규칙한 형태의 뼈 몽둥이는 아직도 그의 불안정한 천성과 공명하고 있습니다.", "_t")
+t("10% chance to shimmer to a different hue and gain powers", "10% 확률로 다른 빛을 내며 힘을 얻습니다", "_t")
+t("Ureslak's %s Femur", "우르슐락의 %s 대퇴골", "tformat")
+t("#GOLD#Ureslak's Femur glows and shimmers!", "#GOLD#우르슐락의 대퇴골이 밝게 빛난다!", "logSeen")
+t("Flaming", "불타는", "_t")
 t("Frozen", "빙결", "_t")
+t("Crackling", "스파크를 튀기는", "_t")
+t("Venomous", "맹독의", "_t")
+t("Starry", "별빛의", "_t")
+t("Eldritch", "일그러진", "_t")
+t("What would happen if more of Ureslak's remains were reunited?", "우르슐락의 다른 유해와 한 자리에 모이면 어떤일이 일어날까요?", "_t")
+t("Ureslak's Molted Scales", "우르슐락의 녹아내린 비늘", "entity name")
+t("scaly multi-hued cloak", "다색의 비늘로 뒤덮힌 망토", "_t")
+t("This cloak is fashioned from the scales of some large reptilian creature.  It appears to reflect every color of the rainbow.", "이 망토는 거대한 파충류의 비늘로 만들어졌습니다.  무지개 색으로 빛을 반사합니다.", "_t")
+t(", or ", ", 또는 ", "_t")
+t("energize the scales for 16 turns, increasing resistance to %s damage by 15%% just before you are damaged. (This effect lasts 5 turns and only works on one type of damage.)", "16 턴 동안 비늘에 힘을 불어넣어, 공격 받기 직전에 %s 속성 저항을 15%% 향상시킵니다. (이 효과는 5 턴 동안 지속되며, 한 종류의 속성에만 영향을 줍니다.)", "tformat")
+t("%s empowers %s %s!", "%s %s %s 활성화했다!", "logSeen", nil, {"는",[3]="을"})
+t("It would go well with another part of Ureslak.", "우르슐락의 다른 유해와 함께라면 꽤 괜찮을 것 같습니다.", "_t")
+t("#YELLOW_GREEN#An ironic harmony surrounds Ureslak's remains as they reunite.", "#YELLOW_GREEN#우르슐락의 유산이 한 데 모이자, 역설적인 조화가 두 유해에 감돈다.", "logSeen")
+t("#YELLOW_GREEN#Ureslak's remains seem more unsettled.", "#YELLOW_GREEN#우르슐락의 유해가 더 불안정해 보인다.", "logSeen")
+t("razor sharp war axe", "예리한 전쟁도끼", "_t")
+t("Razorblade, the Cursed Waraxe", "면도날, 저주받은 전쟁도끼", "entity name")
+t([[This mighty axe can cleave through armour like the sharpest swords, yet hit with all the impact of a heavy club.
+It is said the wielder will slowly grow mad. This, however, has never been proven - no known possessor of this item has lived to tell the tale.]], [[이 강력한 도끼는 아주 예리한 칼처럼 갑옷을 통째로 벨 수 있을 뿐더러, 무거운 둔기처럼 충격을 일으킵니다.
+사람들이 말하길, 이 도끼를 드는 이들은 서서히 미처간다고 합니다. 그러나, 그 누구도 그 소문을 증명하지 못했습니다 - 땅에 묻힌 소유자들은 소문이 사실인지 아닌지 말할 수 없기 때문입니다.]], "_t")
+t("Sword of Potential Futures", "잠재적인 미래의 검", "entity name")
+t("under-wrought blade", "무딘 칼", "_t")
+t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the untapped potential of time.", "전설에 따르면, 이 칼에는 짝이 되는 칼 한자루가 더 있다고 합니다. 이 쌍둥이 검은 감시자가 설립되던 시기에 단조되었습니다. 숙련되지 않은 이들은 이 검의 힘을 제대로 발휘할 수 없지만, 감시자들은 이를 아직 이용하지 않은 시간의 잠재력을 상징한다고 생각합니다.", "_t")
+t("In the past there was a dagger with it.", "과거에는 단검 한 자루가 있었습니다.", "_t")
+t("10% chance to reduce the target's resistances to all damage", "10% 확률로 대상의 모든 피해 저항을 감소시킵니다", "_t")
+t("#CRIMSON#The echoes of time resound as the blades are reunited once more.", "#CRIMSON#두 자루의 칼이 한 데 모이자, 시간의 메아리가 울려퍼진다.", "logSeen")
+t("#CRIMSON#Time seems less perfect in your eyes as the blades are separated.", "#CRIMSON#두 칼이 멀어지자 시간이 덜 완벽해진다.", "logPlayer")
+t("Dagger of the Past", "과거의 단검", "entity name")
+t("rusted blade", "녹슨 칼", "_t")
+t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the opportunity to learn from the mistakes of the past.", "전설에 따르면, 이 칼에는 짝이 되는 칼 한자루가 더 있다고 합니다. 이 쌍둥이 검은 감시자가 설립되던 시기에 단조되었습니다. 숙련되지 않은 이들은 이 검의 힘을 제대로 발휘할 수 없지만, 감시자들은 이를 과거의 실수로부터 배울 수 있는 기회를 상징한다고 생각합니다.", "_t")
+t("Potentially it would go with a sword in the future.", "잠재적으로 미래의 한 자루의 검을 만나게 될지 모릅니다.", "_t")
+t("10% chance to return the target to a much younger state", "10% 확률로 대상을 유아기로 돌려보냅니다", "_t")
+t("Stone Gauntlets of Harkor'Zun", "하코르'준의 바위 전투 장갑", "entity name")
+t("dark stone gauntlets", "검은 바위의 전투장갑", "_t")
+t("Fashioned in ancient times by cultists of Harkor'Zun, these heavy granite gauntlets were designed to protect the wearer from the wrath of their dark master.", "고대에 하코르'준의 광신도들이 만든, 이 화강암 전투 장갑은 그들의 사악한 주인으로 부터 착용자를 보호하기 위해 제작되었습니다.", "_t")
+t("Unflinching Eye", "불굴의 눈", "entity name")
+t("a bloodshot eye", "충혈된 눈", "_t")
+t("Someone has strung a thick black cord through this large bloodshot eyeball, allowing it to be worn around the neck, should you so choose.", "누군가 두꺼운 검은 줄을 이 거대하고, 충혈된 눈알에 꿰어놔, 목걸이 처럼 사용할 수 있게되었습니다. 장착할지 말지는 당신의 선택이지만요.", "_t")
+t("Pick of Dwarven Emperors", "드워프 황제의 곡괭이", "entity name")
+t("crude iron pickaxe", "투박한 무쇠 곡괭이", "_t")
+t("This ancient pickaxe was used to pass down dwarven legends from one generation to the next. Every bit of the head and shaft is covered in runes that recount the stories of the dwarven people.", "이 고대의 곡괭이는 한 세대에서 다음 세대로 전설을 전승하는데 사용되었습니다. 곡괭이 머리와 손잡이 까지의 모든 부분에 드워프 민족의 이야기가 담긴 룬이 세겨져있습니다.", "_t")
+t("#LIGHT_BLUE#You feel the whisper of your ancestors as you wield this pickaxe!", "#LIGHT_BLUE#이 곡괭이를 들자, 선조들이 당신에게 속삭이고 있음을 느낍니다!", "logPlayer")
+t("Quiver of the Sun", "태양의 화살통", "entity name")
+t("bright quiver", "빛나는 화살통", "_t")
+t("This strange orange quiver is made of brass and etched with many bright red runes that glow and glitter in the light.  The arrows themselves appear to be solid shafts of blazing hot light, like rays of sunshine, hammered and forged into a solid state.", "이 이상한 주황색 화살통은 황동으로 만들어졌고, 빛을 받으면 붉은 빛을 내는 많은 룬으로 장식되어있습니다.  화살 그 자체는 아주 튼튼하며, 불타는 열 광선을 방출합니다. 마치 햇살을 두들기고 단조해 정형화된 형상으로 만든 것 같습니다.", "_t")
+t("Quiver of Domination", "지배의 화살통", "entity name")
+t("grey quiver", "회색 화살통", "_t")
+t("Powerful telepathic forces emanate from the arrows of this quiver. The tips appear dull, but touching them causes you intense pain.", "강력한 정신감응의 힘이 이 화살통의 화살에서 발산되고 있습니다. 화살촉은 뾰족하지는 않지만, 만저보면 격렬한 고통을 느낄 수 있습니다.", "_t")
+t("dominate the target", "대상을 지배합니다", "_t")
+t("Blightstopper", "역병을 가로막는 자", "entity name")
+t("vine coated shield", "덩쿨이 뒤덮힌 방패", "_t")
+t("This voratun shield, coated with thick vines, was imbued with nature's power long ago by the Halfling General Almadar Riul, who used it to stave off the magic and diseases of orcish corruptors during the peak of the Pyre Wars.", "오래전 하플링 장군 알마다르 리울이 이 두꺼운 덩쿨로 뒤덮힌 보라툰 방패에 자연의 힘을 주입했습니다. 장작더미 전쟁의 한창일 때, 리울은 이 방패를 오크 타락자들이 퍼뜨리는 역병과 마법에 대항하기 위해 사용했습니다.", "_t")
+t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "최대 %d 개의 질병을 치유하고, (의지에 비례) 5 턴 동안, 질병 면역력을 얻으며, 황폐 저항이 %d%% 상승합니다. 또한 주문 저항이 %d 증가합니다", "tformat")
+t("%s holds %s %s close, cleansing %s of corruption!", "%s %s %s 몸 쪽으로 끌어당겨, %s 부정한 힘을 정화했다!", "logSeen", nil, {"는",[3]="를"})
+t("%s is purged of diseases!", "%s 질병을 정화했다!", "logSeen", nil, {"은"})
+t("#DARK_GREEN#You feel nature's power protecting you!", "#DARK_GREEN#자연의 힘이 당신을 보호함을 느낀다!", "logPlayer")
+t("Star Shot", "별의 탄환", "entity name")
+t("blazing shot", "불타는 탄환", "_t")
+t("Intense heat radiates from this powerful shot.", "이 강력한 탄환에서 열기가 방출됩니다", "_t")
+t("sets off a powerful explosion", "강력한 폭발을 을으킵니다", "_t")
+t("Nexus of the Way", "한길의 결합", "entity name")
+t("brilliant green mindstar", "빛나는 초록색 마석", "_t")
+t("The vast psionic force of the Way reverberates through this gemstone. With a single touch, you can sense overwhelming power, and hear countless thoughts.", "한길의 거대한 초능력이 이 보석 안에서 울립니다. 한번 만지면, 당신을 압도하는 힘을 느낄 수 있으며 셀 수 없이 많은 생각이 당신을 채웁니다.", "_t")
+t("#LIGHT_BLUE#You feel the power of the Way within you!", "#LIGHT_BLUE#한 길의 힘이 당신의 내부를 가득 채움을 느낀다!", "logPlayer")
+t("#RED#The Way rejects its former captors!", "#RED#한길은 과거의 침략자들을 받아드리지 않는다!", "logPlayer")
+t("Amethyst of Sanctuary", "성역의 자수정", "entity name")
+t("deep purple gem", "깊은 보랏빛 보석", "_t")
+t("This bright violet gem exudes a calming, focusing force. Holding it, you feel protected against outside forces.", "이 빛나는 보석은 조용하고, 집중된 힘의 기운을 풍깁니다. 손에 쥐고있으면, 외부의 힘에 대항해 보호받고 있다는 느낌을 받습니다.", "_t")
+t("Reduce damage from attackers more than 3 tiles away by 25%", "3 칸 밖에서 오는 공격의 피해량을 25% 줄입니다", "_t")
+t("Sceptre of the Archlich", "강력한 리치의 홀", "entity name")
+t("bone carved sceptre", "뼈를 깎아 만든 홀", "_t")
+t("This sceptre, carved of ancient, blackened bone, holds a single gem of deep obsidian. You feel a dark power from deep within, looking to get out.", "이 홀은 고대의, 불에 그슬린 뼈를 깎아 만들었고, 섬세하게 세공된 흑요석이 박혀있습니다. 이 홀 깊은 곳에서 어둠의 힘이 느껴집니다. 사악한 힘은 이 홀에서 빠저나가려 안간 힘을 씁니다.", "_t")
+t("#LIGHT_BLUE#You feel the power of the sceptre flow over your undead form!", "#LIGHT_BLUE#이 홀의 강력한 힘이 당신의 언데드 육체에 흘려들어온다!", "logPlayer")
+t("Oozing Heart", "점액 심장", "entity name")
+t("slimy mindstar", "끈적이는 마석", "_t")
+t("This mindstar oozes a thick, caustic liquid. Magic seems to die around it.", "이 마석은 매우 끈적이고, 부식성 액체를 내뿜습니다. 마법은 이 마석 근처에서 죽어버리는 것 같습니다.", "_t")
+t("#DARK_GREEN#The Heart pulses with antimagic forces as you grasp it.", "#DARK_GREEN#당신이 심장을 쥐자, 반마법의 힘이 고동침을 느낀다.", "logPlayer")
+t("Bloomsoul", "개화하는 혼", "entity name")
+t("flower covered mindstar", "꽃으로 뒤덮힌 마석", "_t")
+t("Pristine flowers coat the surface of this mindstar. Touching it fills you with a sense of calm and refreshes your body.", "한 끝 더러움도 묻지않은 꽃들이 이 마석의 표면을 덮고있습니다. 만저보면, 감각이 차분해지고, 몸의 피로가 날라가는 것 같습니다.", "_t")
+t("Gravitational Staff", "중력의 지팡이", "entity name")
+t("heavy staff", "무거운 지팡이", "_t")
+t("Time and Space seem to warp and bend around the massive tip of this stave.", "이 지팡이의 거대한 끝 주변의 시간과 공간이 왜곡되고 있는 것 같다.", "_t")
+t("Eye of the Wyrm", "용의 눈", "entity name")
+t("multi-colored mindstar", "다색의 마석", "_t")
+t("A black iris cuts through the core of this mindstar, which shifts with myriad colours. It darts around, as if searching for something.", "무수한 색으로 변하는 검은 홍채가 이 마석의 중심에 있다. 마치 무엇인가 찾는 것 같이, 그 시선으로 주위를 마구 훑어본다.", "_t")
+t("The breath attack has a chance to shift randomly between Fire, Ice, Lightning, Acid, and Sand each turn.", "매 턴, 이 마석의 숨결은 확률적으로 화염, 얼음, 냉기, 산성, 그리고 물리 속성 중 하나로 변합니다.", "_t")
+t("Great Caller", "위대한 소환사", "entity name")
+t("This mindstar constantly emits a low tone. Life seems to be pulled towards it.", "이 마석은 지속적으로 낮은 소리를 냅니다. 이 마석은 생명을 끌어당기는 것 처럼 보입니다.", "_t")
+t("Gives a 30% chance that your nature summons appear as wild summons.", "자연계 소환수를 소환 시 30% 확률로 야생의 소환수가 됩니다.", "_t")
+t("Corrupted Gaze", "타락한 시선", "entity name")
+t("dark visored helm", "차양판이 달린 검은 투구", "_t")
+t("This helmet radiates a dark power. Its visor seems to twist and corrupt the vision of its wearer. You feel worried that if you were to lower it for long, the visions may affect your mind.", "이 투구는 어둠의 힘을 발산합니다. 얼굴을 가리는 차양판은 착용자의 시야를 뒤틀고 타락시키는 것처럼 보입니다. 차양판을 너무 오랫동안 내리고 있으면, 비틀린 시야가 정신에도 영향을 줄 것 같습니다.", "_t")
+t("Umbral Razor", "그림자 면도칼", "entity name")
+t("shadowy dagger", "그림자 단검", "_t")
+t("This dagger seems to be formed of pure shadows, with a strange miasma surrounding it.", "이 단검은 순수한 그림자로 이루어저 있는 것 같습니다. 기이한 독기가 칼날 근처에 감돕니다.", "_t")
+t("20% chance to make the target bleed shadows. You heal for 15 whenever you hit an enemy bleeding shadows.", "20% 확률로 대상의 그림자를 피흘리게합니다. 피흘리는 그림자를 갖고있는 적을 공격할 때마다 생명력을 15 회복합니다.", "_t")
+t("%s resists the shadowy cut", "%s 그림자 상처에 저항한다.", "logSeen", nil, {"는"})
+t("Emblem of Evasion", "회피의 상징", "entity name")
+t("gold coated emblem", "금도금된 상징", "_t")
+t("Said to have belonged to a master of avoiding attacks, this gilded steel emblem symbolizes his talent.", "회피의 달인이 갖고있었다는 금 도금된 강철 문양은, 그의 기술을 상징합니다.", "_t")
+t("Surefire", "확실함", "entity name")
+t("high-quality bow", "고품질 활", "_t")
+t("This tightly strung bow appears to have been crafted by someone of considerable talent. When you pull the string, you feel incredible power behind it.", "시위가 팽팽하게 걸린 이 활은 굉장한 기술을 갖고있는 이가 만든 것 같습니다. 시위를 당겨보면, 그 뒤에 숨겨있는 믿을 수 없는 힘을 느껴집니다.", "_t")
+t("Frozen Shards", "얼음 조각", "entity name")
+t("pouch of crystallized ice", "결정화된 얼음 뭉치", "_t")
+t("In this dark blue pouch lie several small orbs of ice. A strange vapour surrounds them, and touching them chills you to the bone.", "이 어두운 파란색 주머니 안에 얼음 구체가 많이 담겨있습니다. 이상한 연기가 구체들을 감싸고 있고, 만저보니 뼈가 시릴 정도로 차갑습니다.", "_t")
+t("bursts into an icy cloud", "폭발해 얼음 구름이 됩니다", "_t")
+t("electrified whip", "전류가 흐르는 채찍", "_t")
+t("Stormlash", "폭풍채찍", "entity name")
+t("This steel plated whip arcs with intense electricity. The force feels uncontrollable, explosive, powerful.", "이 강철판이 덧붙여진 채찍은 강력한 전류의 아크를 뿜어냅니다. 이 힘은 제어할 수 없고, 폭발적이며, 강력함을 느낍니다.", "_t")
+t("Focus the lightning forces on an enemy", "적에게 전기의 힘을 집중합니다", "_t")
+t("The storm is on your side !", "폭풍이 당신 곁에 있다!", "logPlayer")
+t("The storm betrayed you...", "폭풍이 당신을 배신한다...", "logPlayer")
+t("strike an enemy within range %d (for 100%% weapon damage as lightning) and release a radius %d burst of electricity dealing %0.2f to %0.2f lightning damage (based on Magic and Dexterity)", "반경 %d 칸 내의 적을 후려쳐 (100%% 무기 피해를 전기 속성으로 가합니다) 반경 %d 칸의 전기 폭발을 일으킵니다. %0.2f - %0.2f 전기 피해를 가합니다 (마법과 민첩에 비례합니다)", "tformat")
+t("#Source# strikes #Target# with %s %s, sending out an arc of lightning!", "#Source1# #Target3# %s %s 후려쳐, 전기 아크를 내보냅니다!", "logCombat", nil, {[2]="으로"})
+t("gemmed whip handle", "손잡이에 보석이 박힌 채찍", "_t")
+t("Focus Whip", "집중의 채찍", "entity name")
+t("A small mindstar rests at top of this handle. As you touch it, a translucent cord appears, flicking with your will.", "손잡이 가장 위쪽에 작은 마석이 박혀있다. 마석을 만지자, 반투명한 끈이 나와, 당신의 의지대로 깜빡입니다.", "_t")
+t("Try to fry your enemies brain (25% chance to brainlock)", "적의 뇌를 튀겨버립니다 (25% 확률로 사고정지를 적용)", "_t")
+t("strike all targets in a line (for 100%% weapon damage as mind) out to range 4", "사거리 4 칸의 직선 내의 모든 적을 공격합니다. (100%% 무기 피해를 정신 속성으로 가합니다)", "_t")
+t("#Source# manifests a psychic assult with %s %s!", "#Source2# %s %s 사용해 정신적 공격을 가한다!", "logCombat", nil, {[2]="을"})
+t("Latafayn", "라타파인", "entity name")
+t("flame covered greatsword", "화염으로 덮힌 대검", "_t")
+t("This massive, flame-coated greatsword was stolen by the adventurer Kestin Highfin, during the Age of Dusk. It originally belonged to a demon named Frond'Ral the Red.  It roars with vile flames and its very existence seems to be a blight upon the lands.", "이 거대하고, 화염으로 덮힌 대검은 황혼의 시대 때, 케스틴 하이핀이 훔처낸 것으로, 원래는 붉은 프론드'랄 이라는 악마가 소유하고 있었습니다.  이 대검은 사악한 화염의 포효를 지르며, 그 존재 자체만으로 이 대지를 황폐화하는 것 같습니다.", "_t")
+t("accelerate burning effects on all creatures in a radius %d ball within range %d, consuming them to instantly inflict 125%% of all remaining burn damage", "반경 %d 칸 내의 모든 개체에게 적용된 화상 효과를 가속해, 화상 효과를 제거하고, 남아있던 피해량의 125%% 에 달하는 피해를 한번에 줍니다", "tformat")
+t("%s's %s lashes out in a flaming arc, intensifying the burning of %s enemies!", "%s의 %s 화염의 호를 그려, %s 체의 적에게 적용된 화상 효과를 증폭한다!", "logSeen", nil, {[2]="으로"})
+t("Robe of Force", "힘의 로브", "entity name")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
 t("multi-hued", "다색", "entity subtype")
@@ -11401,7 +11699,6 @@ t("other", "기타", "_t")
 t("The songs the Fallen sing.", "타락한 자가 부르느 노래입니다.", "_t")
 t("Darkside", "어두운 면", "_t")
 t("Signature magics of the Fallen.  The sun shines for the guilty and the innocent alike.", "타락한 자를 상징하는 마법입니다.  태양은 죄지은 자와 무고한 자 모두를 똑같이 비춥니다.", "_t")
-t("Black Sun", "어두운 태양", "_t")
 t("Celestial combat techniques inspired by the dark places that are not empty.", "공허하지 않은 어두운 곳에서 영감을 받은 천상의 전투 기술입니다.", "_t")
 t("Dirges", "장송곡", "_t")
 t("Sing of death and damnation.", "죽음과 저주의 노래입니다.", "_t")
@@ -14705,7 +15002,7 @@ t([[You unleash your hateful mind on any who dare approach you, inflicing %d min
 		25%% 확률로 사고 정지를 적용합니다. 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Hateful Whisper", "증오의 속삭임", "talent name")
 t([[Send a whisper filled with hate to spread throughout your foes. When the whisper is first heard, they will suffer %d mind damage and feed you %d hate. For the first %d turns, the whisper will travel from the original victim to a new one within a range of %0.1f. Every victim of the whisper has a %d%% chance of spreading it to another victim every turn.
-		25%% chance to brainlock. The damage increases with your Mindpower.]], [[원한으로 가득찬 속삭임을 적에게 보냅니다. 처음 속삭임을 듣는 순간, %d 정신 피해를 입고 시전자는 %d 증요를 획득합니다. 기술 사용 후 %d 턴 동안, 속삭임은 원래 대상을 떠나 %0.1f 칸 내의 새로운 희생양을 찾아 떠돕니다. 매 턴 %d%% 확률로 속삭임의 희생양들은 다른 대상에게 속삭임을 보냅니다.
+		25%% chance to brainlock. The damage increases with your Mindpower.]], [[원한으로 가득찬 속삭임을 적에게 보냅니다. 처음 속삭임을 듣는 순간, %d 정신 피해를 입고 시전자는 %d 증오를 획득합니다. 기술 사용 후 %d 턴 동안, 속삭임은 원래 대상을 떠나 %0.1f 칸 내의 새로운 희생양을 찾아 떠돕니다. 매 턴 %d%% 확률로 속삭임의 희생양들은 다른 대상에게 속삭임을 보냅니다.
 		25%% 확률로 사고 정지를 적용합니다. 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Agony", "격통", "talent name")
 t([[Unleash agony upon your target. The pain will grow over the course of %d turns. The first turn will inflict %d damage, and slowly increase to %d on the last turn (%d total).
@@ -15315,7 +15612,7 @@ t("slime", "슬라임", "_t")
 t("By covering yourself in fungus, you better your healing.", "몸을 곰팡이로 뒤덮어서, 더 나은 회복 효과를 받습니다.", "_t")
 t("fungus", "미생물", "_t")
 t("Take on the defining aspects of a Sand Drake.", "모래 드레이크의 본질을 취합니다.", "_t")
-t("sand drake aspect", "사룡의 위상", "_t")
+t("sand drake aspect", "토룡의 위상", "_t")
 t("Take on the defining aspects of a Fire Drake.", "화염 드레이크의 본질을 취합니다.", "_t")
 t("fire drake aspect", "화룡의 위상", "_t")
 t("Take on the defining aspects of a Cold Drake.", "냉기 드레이크의 본질을 취합니다.", "_t")
