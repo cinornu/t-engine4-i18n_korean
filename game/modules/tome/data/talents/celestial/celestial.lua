@@ -87,7 +87,7 @@ divi_req_high5 = {
 	level = function(level) return 26 + (level-1)  end,
 }
 
--- Used by Fallen Black Sun tree
+-- Used by Fallen Dark Sun tree
 divi_str_req_high1 = {
 	stat = { str=function(level) return 22 + (level-1) * 2 end },
 	level = function(level) return 10 + (level-1)  end,

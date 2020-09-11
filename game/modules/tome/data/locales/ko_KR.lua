@@ -389,7 +389,7 @@ Campaign: %s
 Exploring level %s of %s.]], [[%s 레벨 %d %s %s.
 난이도: %s / %s
 캠페인: %s
-현재 %s 의 %s 층 탐색중.]], "tformat", {1,2,3,4,5,6,8,7})
+현재 %s 층 %s 탐색중.]], "tformat")
 t([[%s the %s %s.
 Difficulty: %s / %s
 Campaign: %s]], [[%s %s %s.
@@ -12724,7 +12724,7 @@ t("Induce Anomaly", "이상현상 유발", "talent name")
 t([[Create an anomaly, reducing your Paradox by %d.  This spell will never produce a major anomaly.
 		Induced Anomalies may not be held by Twist Fate, nor do they cause held anomalies to trigger.  However upon learning Twist Fate you may target Induced Anomalies.
 		The Paradox reduction will increase with your Spellpower.]], [[이상현상을 유발하고, 괴리를 %d 줄입니다. 이 주문은 심각한 이상현상을 일으키지 않습니다.
-		유발된 이상현상은 뒤틀린 운명의 영향을 받지 않고, 운명 비틀기로 억제된 이상현상을 유발하지도 않습니다. 하지만 유발된 이상현상은 뒤틀린 운명의 대상이 될 수 있습니다.
+		유발된 이상현상은 운명 비틀기의 영향을 받지 않고, 운명 비틀기로 억제된 이상현상을 유발하지도 않습니다. 하지만 유발된 이상현상은 운명 비틀기의 대상이 될 수 있습니다.
 		괴리 감소 수치는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Reality Smearing", "희미해지는 현실성", "talent name")
 t("#LIGHT_BLUE##Source# converts damage to paradox!", "#LIGHT_BLUE##Source1# 피해를 괴리로 환원했다!", "delayedLogMessage")
@@ -13268,7 +13268,7 @@ t("What the... ugh.", "이게 대체 무슨...", "_t")
 t("Transport yourself to a safe place for %d turns.", "안전한 곳으로 %d 턴 동안 이동합니다.", "tformat")
 t("Echoes From The Past", "과거의 메아리", "talent name")
 t([[Creates a temporal echo in a radius of %d around you.  Affected targets take %0.2f temporal damage, as well as up to %d%% of the difference between their current life and max life as additional temporal damage.
-		The additional damage will be divided by the target's rank and the damage scales with your Spellpower.]], [[주변 반경 %d 칸에 시간의 메아리를 퍼뜨려, 범위 내의 적들에게 %0.2f 시간 피해를 주고, 제거된 생명력의 %d%% 에 해당하는 시간 피해를 추가로 줍니다.
+		The additional damage will be divided by the target's rank and the damage scales with your Spellpower.]], [[반경 %d 칸에 시간의 메아리를 퍼뜨려, 범위 내의 적들에게 %0.2f 시간 피해를 주고, 감소한 생명력의 %d%% 에 해당하는 시간 피해를 추가로 줍니다.
 		추가 피해는 목표의 등급에 의해 나누어지며 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
