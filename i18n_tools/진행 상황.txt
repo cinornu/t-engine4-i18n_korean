@@ -212,7 +212,8 @@
 "game/modules/tome/data/chats/jewelry-store.lua"
 "game/modules/tome/data/chats/keepsake-berethh-encounter.lua"
 "game/modules/tome/data/chats/keepsake-caravan-destroyed.lua"
-"game/modules/tome/data/chats/keepsake-kyless-death.lua" Khelerd 완
+"game/modules/tome/data/chats/keepsake-kyless-death.lua"
+"game/modules/tome/data/chats/last-hope-elder.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
