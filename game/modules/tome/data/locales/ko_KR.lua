@@ -389,7 +389,7 @@ Campaign: %s
 Exploring level %s of %s.]], [[%s 레벨 %d %s %s.
 난이도: %s / %s
 캠페인: %s
-현재 %s 층 %s 탐색중.]], "tformat")
+현재 %s 의 %s 층 탐색중.]], "tformat", {1,2,3,4,5,6,7,9,8})
 t([[%s the %s %s.
 Difficulty: %s / %s
 Campaign: %s]], [[%s %s %s.
