@@ -571,6 +571,7 @@ t("yeti", "예티", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/boss-artifacts.lua"
 
+t("golden telescope", "금색 망원경", "_t")
 t("multi-hued", "다색", "entity subtype")
 
 
@@ -732,6 +733,7 @@ t("Medical Urgency Vest", "응급 의료지원 조끼", "entity name")
 t("something", "물체", "_t")
 t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
 t("Annihilator", "절멸자", "entity name")
+t("50% chance to reload 1 ammo", "50% 확률로 1 발 장전합니다", "_t")
 t("Stimulus", "자극제", "entity name")
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")

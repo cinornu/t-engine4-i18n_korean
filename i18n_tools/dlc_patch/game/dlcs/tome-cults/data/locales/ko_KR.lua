@@ -1146,9 +1146,9 @@ The other ogre soon moved to attack the halfling, but with a sidestep the halfli
 
 그러자 갑자기 오우거들의 룬으로 뒤덮인 피부에서 각인이 빛나면서 주변의 어두운 지형에서 형형색색의 빛깔이 떠올랐다. 내 주변에 있던 한 오우거를 보니, 그녀의 팔에서 연두색의 빛이 떠오르더니 이내 산의 격류가 나타났다. 산은 뿜어져나가 광신도들을 맞췄고, 노출된 부위의 피부가 타오르는 것을 볼 수 있었다. 그리고 내 뒤에서부터 전격이 날아가 가면을 쓴 광신도 하나와 신병 하나를 관통했다. 순식간에 수많은 광신도들이 엄폐하기 위해 흩어졌고, 오우거들의 앞도적인 화력에 제대로 대응하지 못 했다. 수많은 신병들이 마법 공격으로 인해 쓰러졌고, 살아남은 자들도 전열을 이탈하고 도망치기 시작했다.
 
-It looked as if we had the fanatics on their back foot but then I heard a piercing cry, the screeching sounded very much like what I had heard from back in the Nargol Kingdom. As I looked around to survey what was happening now, I noticed all at once my surroundings had darkened again. I could see some of the ogres near me try to raise their arms but the light from the insignia's on their skin had now dimmed and failed to work anymore. Ahead of us many of the fanatics lay on the ground injured or dead, though many of them still stood ready to fight. All at once they seem to cheer and beat their swords, apparently not dissuaded by the ogres efforts against them. Out of the corner of my eye though I noticed a figure charge forward.
+그 덕분에 우리가 우위를 점한 것 같았지만, 그때 귀청이 찢어질 정도로 날카로운 비명이 들렸다. 그런 식의 비명은 나르골 왕국에서 들었던 적이 있었다. 무슨 일이 일어난 것인지 주위를 둘러보자, 주변이 갑작스레 어두워졌다. 오우거들은 팔을 들어 올리려고 했으나, 몸의 각인에서 나던 빛이 사라져 더 이상 빛나지 않았고, 아무런 힘도 발하지 못 했다. 우리 앞엔 수많은 사상자가 늘어져 있었으나, 아직 많은 이들이 살아남아 전투 태세를 취하고 있었다. 그들은 일순간 함성을 지르고 검을 부딪혔다. 오우거들의 노력에도 불구하고 그드르이 전의는 꺾이지 않았다. 나의 시야 바깥쪽에서 누군가가 앞으로 돌격하는 것을 봤다.
 
-Running by some lava, I could see that it was our commander, gritting his teeth and my hatchet in his hand as it glistened from the light of the lava. Pulling back his arm he approached one of the masked zealots and gave him a blow that sent him reeling backwards through the air and into a pool of lava. I remember feeling a dark sense of satisfaction as I saw that first zealot burn alive; a fitting end for one who likely took part in the burning's I had witnessed before. The hooting and hollering from the enemy ceased at this, while the commander turned to a shaken initiate nearby to him. With a simple swipe of the hatchet the ogre sliced the initiates head clean from its body, causing it to sail through the air and land on the ground a fair distance away.
+용암을 넘어 앞으로 달려가는 것은 우리의 대장이었다. 이를 악물고 내 손도끼를 쥔 채였고 손도끼의 날은 용암에 빛을 반사하여 반짝였다. 그는 가면을 쓴 광신도 하나에게 다가가 주먹을 휘둘렀고, 그 일격에 광신도는 그대로 뒤로 날아가 용암 웅덩이에 빠져버렸다. 그 광신도가 산 채로 타버리는 광경을 보았을 때, 음산한 만족감이 내 안에 떠오르던 것을 기억한다. 나르골 왕국에서 벌어진 화형식에 가담했던 자에게 딱 알맞는 최후엿다. 그 순간 적들의 야유와 함성이 멈췄고, 대장은 옆에서 부들부들 떨고 있던 신병에게 몸을 돌렸다. 손도끼를 한 번 휘두르자 신병의 목은 깔끔하게 몸에서 분리되었고, 머리는 공중을 가르고 날아가다 멀찍이 떨어진 곳에 툭 떨어졌다.
 
 The mere sight of the commander in action inspired the other ogres, who immediately charged to join into the carnage. Visibly unnerved now at the wall of giant figures moving against them, many of the remaining initiates began to flee as the ogres approached. Many of the masked zealots stayed to fight but they were soon set upon and clobbered to death by both fists and tree trunks. Those zealots that wore armor would put up more of a fight, though one by one they were being taken out too. The enemy was falling before us and I was sure that the battle was nearly won. That is until I saw an ogre sail through the air above me, landing into the boiling waters of the sea nearby.
 
@@ -2941,6 +2941,7 @@ t("Status", "상태", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/FontSacrifice.lua"
 
+t("Not enough money", "돈이 부족합니다", "_t")
 t("Type: %s / %s", "속성: %s / %s", "tformat")
 t([[Powered by #VIOLET#arcane forces#LAST#
 ]], [[#VIOLET#마법의 힘#LAST#에 의해 작동함
