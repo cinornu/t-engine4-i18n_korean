@@ -215,7 +215,17 @@
 "game/modules/tome/data/chats/keepsake-kyless-death.lua"
 "game/modules/tome/data/chats/last-hope-elder.lua"
 "game/modules/tome/data/chats/last-hope-lost-merchant.lua"
-"game/modules/tome/data/chats/last-hope-melinda-father.lua" Khelerd 완
+"game/modules/tome/data/chats/last-hope-melinda-father.lua"
+"game/modules/tome/data/chats/last-hope-weapon-store.lua"
+"game/modules/tome/data/chats/limmir-valley-moon.lua"
+"game/modules/tome/data/chats/lost-merchant.lua"
+"game/modules/tome/data/chats/lumberjack-quest-done.lua"
+"game/modules/tome/data/chats/lumberjack-quest.lua"
+"game/modules/tome/data/chats/mage-apprentice-quest.lua"
+"game/modules/tome/data/chats/magic-store.lua"
+"game/modules/tome/data/chats/melinda-beach-end.lua"
+"game/modules/tome/data/chats/melinda-beach.lua"
+"game/modules/tome/data/chats/melinda-fortress.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
