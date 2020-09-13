@@ -234,7 +234,7 @@ section "game/dlcs/tome-cults/data/general/events/space-dwarf-ship.lua"
 
 t("floor", "바닥", "_t")
 t("wall", "벽", "_t")
-t("previous level", "이전 층", "_t")
+t("previous level", "이전 구역", "_t")
 
 
 ------------------------------------------------
@@ -270,8 +270,8 @@ section "game/dlcs/tome-cults/data/general/grids/fortress-multiverse.lua"
 section "game/dlcs/tome-cults/data/general/grids/godfeaster.lua"
 
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
@@ -281,8 +281,8 @@ t("wall", "벽", "entity type")
 section "game/dlcs/tome-cults/data/general/grids/maggot.lua"
 
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
@@ -294,6 +294,8 @@ section "game/dlcs/tome-cults/data/general/grids/scourge.lua"
 t("tentacle 'tree'", "촉수 '나무'", "entity name")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("scourge", "재앙", "entity subtype")
 
@@ -302,8 +304,8 @@ t("scourge", "재앙", "entity subtype")
 section "game/dlcs/tome-cults/data/general/grids/slimy_godfeaster.lua"
 
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
@@ -336,6 +338,8 @@ t("cave floor", "동굴 바닥", "entity name")
 t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 
 
@@ -420,7 +424,7 @@ t("misc", "도구", "entity type")
 t("charm", "부적", "entity type")
 t("totem", "토템", "entity subtype")
 t("Shoes of Moving Slowly", "느린 이동의 신발", "entity name")
-t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
+t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -2806,10 +2810,10 @@ section "game/dlcs/tome-cults/data/zones/test/grids.lua"
 
 t("door", "문", "entity name")
 t("wall", "벽", "entity type")
-t("previous level", "이전 층", "entity name")
+t("previous level", "이전 구역", "entity name")
 t("ancient", "고대", "entity subtype")
 t("floor", "바닥", "entity type")
-t("next level", "다음 층", "entity name")
+t("next level", "다음 구역", "entity name")
 
 
 ------------------------------------------------
@@ -2844,8 +2848,8 @@ section "game/dlcs/tome-cults/data/zones/town-kroshkkur/grids.lua"
 
 t("door", "문", "entity name")
 t("wall", "벽", "entity type")
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("ancient", "고대", "entity subtype")
 t("floor", "바닥", "entity type")
 

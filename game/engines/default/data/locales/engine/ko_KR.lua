@@ -536,8 +536,8 @@ t("Please wait while saving the game...", "게임을 저장 중 입니다...", "
 t("Saving game", "게임 저장 중", "_t")
 t("Please wait while saving the zone...", "지역을 저장 중 입니다...", "_t")
 t("Saving zone", "지역 저장 중", "_t")
-t("Please wait while saving the level...", "현재 층을 저장 중 입니다...", "_t")
-t("Saving level", "현재 층 저장 중", "_t")
+t("Please wait while saving the level...", "구역을 저장 중 입니다...", "_t")
+t("Saving level", "구역 저장 중", "_t")
 t("Please wait while saving the entity...", "엔티티를 저장 중 입니다...", "_t")
 t("Saving entity", "엔티티 저장 중", "_t")
 t("Loading world", "월드 불러오는 중", "_t")
@@ -546,8 +546,8 @@ t("Loading game", "게임 불러오는 중", "_t")
 t("Please wait while loading the game...", "게임을 불러오는 중 입니다...", "_t")
 t("Loading zone", "지역 불러오는 중", "_t")
 t("Please wait while loading the zone...", "지역를 불러오는 중 입니다...", "_t")
-t("Loading level", "현재 층 불러오는 중", "_t")
-t("Please wait while loading the level...", "현재 층을 불러오는 중 입니다...", "_t")
+t("Loading level", "구역 불러오는 중", "_t")
+t("Please wait while loading the level...", "구역을 불러오는 중 입니다...", "_t")
 t("Loading entity", "엔티티 불러오는 중", "_t")
 t("Please wait while loading the entity...", "엔티티를 불러오는 중 입니다...", "_t")
 
@@ -613,10 +613,10 @@ t("Requesting...", "요청 중...", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/Zone.lua"
 
-t("Loading level", "현재 층 불러오는 중", "_t")
-t("Please wait while loading the level... ", "현재 층을 불러오는 중 입니다... ", "_t")
-t("Generating level", "현재 층 생성 중", "_t")
-t("Please wait while generating the level... ", "현재 층을 생성 중 입니다... ", "_t")
+t("Loading level", "구역 불러오는 중", "_t")
+t("Please wait while loading the level... ", "구역을 불러오는 중 입니다... ", "_t")
+t("Generating level", "구역 생성 중", "_t")
+t("Please wait while generating the level... ", "구역을 생성 중 입니다... ", "_t")
 
 
 ------------------------------------------------
@@ -1203,7 +1203,7 @@ t("You have not purchased any usable options yet. Would you like to see the stor
 ------------------------------------------------
 section "game/engines/default/engine/interface/ActorInventory.lua"
 
-t("%s picks up (%s.): %s%s.", "%s 주웠다 (%s): %s%s.", "logSeen", nil, {"는"})
+t("%s picks up (%s.): %s%s.", "%s (%s) %s%s 주웠다.", "logSeen", nil, {"는",[4]="를"})
 t("%s has no room for: %s.", "%s %s 들어갈 공간이 없다.", "logSeen", nil, {"는","가"})
 t("There is nothing to pick up here.", "주울 것이 없다.", "logSeen")
 t("There is nothing to drop.", "버릴 것이 없다.", "logSeen")
@@ -1215,7 +1215,7 @@ t("missing %s", "부족함 %s", "tformat")
 t("not enough levels", "레벨 부족", "_t")
 t("missing dependency", "습득 조건 미달성", "_t")
 t("cannot use currently due to an other worn object", "다른 아이템을 장비하고 있기에 현재 사용할 수 없음", "_t")
-t("%s is not wearable.", "%s 장비할 수 없다.", "logSeen", nil, {"를"})
+t("%s is not wearable.", "장비할 수 없다. (%s)", "logSeen")
 t("%s can not wear %s.", "%s %s 장비할 수 없다.", "logSeen", nil, {"는","를"})
 t("%s wears: %s.", "%s %s 장비했다.", "logSeen", nil, {"는","를"})
 t("%s wears (offslot): %s.", "%s %s 예비로 장비했다.", "logSeen", nil, {"는","를"})
@@ -1241,8 +1241,8 @@ t("Use %s?", "%s 사용하시겠습니까?", "tformat", nil, {"를"})
 t("Cancel", "취소", "_t")
 t("Continue", "계속하기", "_t")
 t("unknown", "알 수 없음", "_t")
-t("activates", "활성화한다", "_t")
-t("deactivates", "비활성화한다", "_t")
+t("activates", "활성화했다", "_t")
+t("deactivates", "비활성화했다", "_t")
 t("%s uses %s.", "%s %s 사용했다.", "logSeen", nil, {"는","를"})
 t("not enough stat: %s", "능력치 부족: %s", "tformat")
 t("not enough levels", "레벨 부족", "_t")
@@ -1406,8 +1406,11 @@ t("Game installed!", "게임 설치됨!", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/utils.lua"
 
+t("his", "그", "_t")
 t("her", "그녀", "_t")
 t("him", "그", "_t")
+t("herself", "자기 자신", "_t")
+t("himself", "자기 자신", "_t")
 
 
 ------------------------------------------------

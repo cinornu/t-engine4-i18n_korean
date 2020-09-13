@@ -65,7 +65,7 @@ t("#VIOLET#Following build order %s; learning talent %s.", "#VIOLET#Following bu
 t("You are asleep and unable to move!", "당신은 잠에 빠져 움직일 수 없다!", "logPlayer")
 t("You are unable to move!", "당신은 움직일 수 없다!", "logPlayer")
 t("#F53CBE#Your movements fuel your rampage! (+1 duration)", "#F53CBE#당신의 첫 발걸음이 광란을 불태운다! (지속시간 1 턴 연장)", "logPlayer")
-t("#LIGHT_RED#Your %s is immune to the teleportation and drops to the floor!", "#LIGHT_RED#당신의 %s 은 순간이동에 면역이기 때문에 바닥에 떨어졌다!", "logPlayer", nil, {"는"})
+t("#LIGHT_RED#Your %s is immune to the teleportation and drops to the floor!", "#LIGHT_RED#당신의 %s 순간이동에 면역이기 때문에 바닥에 떨어졌다!", "logPlayer", nil, {"는"})
 t("teleported", "순간이동 됨", "_t")
 t("#CADET_BLUE#You notice a trap (%s)!", "#CADET_BLUE#당신은 함정을 발견했다 (%s)!", "logPlayer")
 t("critter", "졸개", "_t")
@@ -136,7 +136,7 @@ t("#LIGHT_GREEN#%d healing #LAST##AQUAMARINE#(%d psi heal)#LAST#", "#LIGHT_GREEN
 t("#LIGHT_GREEN#%d healing#LAST#", "#LIGHT_GREEN#%d 회복#LAST#", "tformat")
 t("#STEEL_BLUE#(%d shifted)#LAST#", "#STEEL_BLUE#(%d 위상변화)#LAST#", "tformat")
 t("%s unleashes the stored damage in retribution!", "%s 응보로 흡수한 피해를 해방한다!", "logSeen", nil, {"는"})
-t("#DARK_GREEN##Source# shares damage with %s oozes!", "#DARK_GREEN##Source2# %s 개의 점액들과 피해를 나눴다!", "delayedLogMessage")
+t("#DARK_GREEN##Source# shares damage with %s oozes!", "#DARK_GREEN##Source2# %s의 점액들과 피해를 나눴다!", "delayedLogMessage")
 t("#CRIMSON##Source# teleports some damage to #Target#!", "#CRIMSON##Source2# 피해의 일부를 #Target#에게 전달한다!", "delayedLogMessage")
 t("#CRIMSON#(%d teleported)#LAST#", "#CRIMSON#(%d 전달)#LAST#", "tformat")
 t("#CRIMSON#%d teleported#LAST#", "#CRIMSON#%d 전달#LAST#", "tformat")
@@ -244,8 +244,8 @@ t("%s fails to use %s.", "%s %s의 시전에 실패했다.", "logSeen", nil, {"�
 t("%s fumbles and fails to use %s, injuring %s!", "%s %s 실패하고 부상을 입고 말았다%s!", "logSeen", nil, {"는","을"})
 t("%s's %s is interrupted by the shot!", "%s의 %s 사격에 의해 방해받았다!", "logSeen", nil, {[2]="은"})
 t("%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "%s #{bold}##ORANGE#%s#LAST# %s#{normal}#", "logSeen", {1,3,2}, {"는","을"})
-t("activates", "활성화한다", "_t")
-t("deactivates", "비활성화한다", "_t")
+t("activates", "활성화했다", "_t")
+t("deactivates", "비활성화했다", "_t")
 t("%s casts #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 시전했다.", "logSeen", nil, {"는",[3]="을"})
 t("%s uses #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 사용했다.", "logSeen", nil, {"는",[3]="을"})
 t("%s talent '%s%s' is disrupted by the mind parasite.", "%s의 '%s%s' 정신 기생충에 의해 방해받았다.", "logSeen", nil, {[3]="은"})
@@ -302,7 +302,7 @@ t("#LIGHT_RED#%s starts suffocating to death!", "#LIGHT_RED#%s 질식 중이다!
 t("Physical save", "물리 내성", "_t")
 t("Mental save", "정신 내성", "_t")
 t("Spell save", "주문 내성", "_t")
-t("#ORANGE#%s shrugs off %s '%s'!", "#ORANGE#%s %s%s 무효화했다!", "logCombat", {1,3,2}, {"는","을"})
+t("#ORANGE#%s shrugs off %s '%s'!", "#ORANGE#%s %s %s 무효화했다!", "logCombat", {1,3,2}, {"는",[3]="를"})
 t("#LIGHT_UMBER#%s resists %s '%s'!", "#LIGHT_UMBER#%s %s%s 저항했다!", "logCombat", nil, {"는",[3]="을"})
 t("#Target#'s", "#Target#의", "_t")
 t("the effect", "효과", "_t")
@@ -325,7 +325,7 @@ t("You had to drop %s due to lack of space.", "더이상 들고 다닐 수 없�
 t("You cannot change your equipment while sleeping!", "잠자는 동안 장비를 바꿀 수 없다!", "logPlayer")
 t("%s - %sEncumbrance %d/%d", "%s - %s무게 제한 %d/%d", "tformat")
 t("You extract %s from %s", "%s 에서 %s 추출합니다", "logPlayer", {2,1}, {[2]="를"})
-t("You gain %0.2f gold from the transmogrification of %s.", "당신은 %s의 변환 결과, 금화 %0.2f 를 획득했다.", "log", {2,1})
+t("You gain %0.2f gold from the transmogrification of %s.", "당신은 %s 변환해, 금화 %0.2f 를 획득했다.", "log", {2,1}, {"를"})
 t("When you close the inventory window, all items in the chest will be transmogrified.", "소지품 창을 닫을 시, 상자 속의 모든 물품이 변환됩니다.", "_t")
 t("Transmogrification Chest", "변환 상자", "_t")
 t("transmogrify", "변환", "_t")
@@ -389,28 +389,28 @@ Campaign: %s
 Exploring level %s of %s.]], [[%s 레벨 %d %s %s.
 난이도: %s / %s
 캠페인: %s
-현재 %s 의 %s 층 탐색중.]], "tformat", {1,2,3,4,5,6,7,9,8})
+현재 %s의 %s 구역 탐색중.]], "tformat", {1,2,3,4,5,6,7,9,8})
 t([[%s the %s %s.
 Difficulty: %s / %s
 Campaign: %s]], [[%s %s %s.
 난이도: %s / %s
 캠페인: %s]], "tformat")
 t("#LIGHT_RED#You may not change level so soon after a kill (%d game turns left to wait)!", "#LIGHT_RED#살해 후 몇 턴간 지역을 이동할 수 없습니다! (%d 실질 턴 남음)", "logPlayer")
-t("#LIGHT_RED#You may not change level without your own body!", "#LIGHT_RED#당신의 육신을 두고 지역을 이동할 수 없습니다!", "logPlayer")
+t("#LIGHT_RED#You may not change level without your own body!", "#LIGHT_RED#당신의 육신을 두고 구역을 이동할 수 없습니다!", "logPlayer")
 t("#LIGHT_RED#You may not leave the zone with this character!", "#LIGHT_RED#이 캐릭터로는 지역을 이동할 수 없습니다!", "logPlayer")
-t("#LIGHT_RED#You cannot escape your fate by leaving the level!", "#LIGHT_RED#지역 이동으로 당신의 운명에서 회피할 수 없습니다!", "logPlayer")
-t("Stay: level %s of %s", "%s 의 %s 층에 머무는 중", "tformat", {2,1})
-t("Keep Trying: level %s of %s", "%s 의 %s 층 탐색중", "tformat", {2,1})
-t("Log the problem, Stay: level %s of %s", "문제 로그 열기, %s 의 %s 층 탐색중", "tformat", {2,1})
-t("Debug the problem (move to the failed zone/level)", "문제 디버그하기 (실패한 구역으로 이동)", "_t")
+t("#LIGHT_RED#You cannot escape your fate by leaving the level!", "#LIGHT_RED#구역 이동으로 당신의 운명에서 회피할 수 없습니다!", "logPlayer")
+t("Stay: level %s of %s", "%s 의 %s 구역에 머무는 중", "tformat", {2,1})
+t("Keep Trying: level %s of %s", "%s 의 %s 구역 탐색중", "tformat", {2,1})
+t("Log the problem, Stay: level %s of %s", "문제 로그 열기, %s 의 %s 구역 탐색중", "tformat", {2,1})
+t("Debug the problem (move to the failed zone/level)", "문제 디버그하기 (실패한 지역/구역으로 이동)", "_t")
 t("Information logged", "정보 로그됨", "_t")
-t("Information on the failed zone and level dumped to the log file.", "실패한 지역과 층에 대한 정보가 로그 파일에 덤프되었다.", "_t")
+t("Information on the failed zone and level dumped to the log file.", "실패한 지역과 구역에 대한 정보가 로그 파일에 덤프되었다.", "_t")
 t("The game could not generate level %s of %s after %s attempts. What do you want to do?", "게임이 %s 의 %s 층 생성을 %s 번 실도했지만 실패했다. 어떻게 할까?", "tformat", {2,1,3})
-t("Level Generation Failure", "레벨 생성 실패", "_t")
-t("Loading level", "현재 층 불러오는 중", "_t")
-t("Please wait while loading the level...", "현재 층을 불러오는 중 입니다...", "_t")
+t("Level Generation Failure", "구역 생성 실패", "_t")
+t("Loading level", "구역 불러오는 중", "_t")
+t("Please wait while loading the level...", "구역을 불러오는 중 입니다...", "_t")
 t("Easy!", "쉬움!", "_t")
-t("This zone is so easy for you that you can stroll to the last area with ease.", "이 지역은 당신에게 너무나 쉬워 당신은 이 지역의 마지막 층으로 직행할 수 있습니다.", "_t")
+t("This zone is so easy for you that you can stroll to the last area with ease.", "이 지역은 너무나도 쉽기에 이 지역의 마지막 구역으로 직행할 수 있습니다.", "_t")
 t("Stay there", "여기 남을래요", "_t")
 t("Stroll", "직행!", "_t")
 t("You feel a thrill of terror and your heart begins to pound in your chest. You feel terribly threatened upon entering this area.", "당신은 공포의 전율과 심장이 가슴속에서 요동침을 느낀다. 공포스러운 위압감이 이곳에 존재함을 느낀다.", "_t")
@@ -439,9 +439,9 @@ t("You may not auto-explore this level.", "이 지역 내에서는 자동탐사�
 t("You may not auto-explore with enemies in sight (%s to the %s%s)!", "적이 시야에 들어온 상태에서는 자동탐사가 불가능하다 (%s 방향 %s%s)!", "log")
 t("There is nowhere left to explore.", "더 이상 탐사할 장소가 없다.", "log")
 t("Hotkey page %d is now displayed.", "단축키 %d 번 페이지가 표시됩니다.", "log")
-t("You cannot currently leave the level.", "지금은 이 장소를 떠날 수 없다.", "log")
+t("You cannot currently leave the level.", "지금은 이 구역을 떠날 수 없다.", "log")
 t("You cannot go into the wilds with the following effects: %s", "다음 효과를 받고 있기 때문에 이 장소를 떠날 수 없습니다 : %s", "log")
-t("There is no way out of this level here.", "이 장소에는 출구가 없다.", "log")
+t("There is no way out of this level here.", "이 구역에는 출구가 없다.", "log")
 t("#GOLD#Automatic talent usage: %s", "#GOLD#자동 기술 사용: %s", "log")
 t("#GOLD#Automatic accept target mode: %s", "#GOLD#자동 대상 결정: %s", "log")
 t("#LIGHT_GREEN#enabled", "#LIGHT_GREEN#활성화", "_t")
@@ -497,7 +497,7 @@ t("%s's %s", "%s 의 %s", "tformat")
 ------------------------------------------------
 section "game/modules/tome/class/NPC.lua"
 
-t("#PINK#Your summoned %s disappears.", "#PINK#소환했던 %s 사라졌다.", "logPlayer", nil, {"가"})
+t("#PINK#Your summoned %s disappears.", "#PINK#소환물 %s 사라졌다.", "logPlayer", nil, {"가"})
 t("her", "그녀", "_t")
 t("him", "그", "_t")
 t("Target: ", "대상: ", "_t")
@@ -813,7 +813,7 @@ t("It can be used to activate talent %s (costing %s power out of %s/%s) :", "활
 t("When used:", "사용 시 :", "_t")
 t("%s%% chance to %s", "%s%% 확률로 %s", "tformat")
 t("Newly picked up", "새로 손에 넣음", "_t")
-t("This item will automatically be transmogrified when you leave the level.", "이 당신이 지역을 떠날 때 자동으로 물품을 변환합니다.", "_t")
+t("This item will automatically be transmogrified when you leave the level.", "구역을 떠날 때 자동으로 물품을 변환합니다.", "_t")
 t([[Powered by #VIOLET#arcane forces#LAST#
 ]], [[#VIOLET#마법의 힘#LAST#에 의해 작동함
 ]], "_t")
@@ -855,10 +855,10 @@ section "game/modules/tome/class/Player.lua"
 
 t("There is an item here: %s", "물건이 있다: %s", "logSeen")
 t("#YELLOW_GREEN#There is %s here (press '<', '>' or right click to use).", "#YELLOW_GREEN#이 곳은 %s 입니다 ('<', '>' 나 마우스 우클릭으로 이동).", "logPlayer")
-t("Level change (%s)!", "지역 이동 (%s)!", "tformat")
+t("Level change (%s)!", "구역 이동 (%s)!", "tformat")
 t("#FF0000#You carry too much--you are encumbered!", "#FF0000#당신은 너무 많은 것을 들고있어 움직일 수 없다!", "logPlayer")
 t("#FF0000#Drop some of your items.", "#FF0000#물건을 조금 버리십시오.", "logPlayer")
-t("#PINK#Your summoned %s disappears.", "#PINK#소환했던 %s 사라졌다.", "logPlayer", nil, {"가"})
+t("#PINK#Your summoned %s disappears.", "#PINK#소환물 %s 사라졌다.", "logPlayer", nil, {"가"})
 t("#LIGHT_RED#LIFE LOST WARNING!", "#LIGHT_RED#생명력 잃음 경고!", "say")
 t("taken damage", "피해를 받았다", "_t")
 t("LOW HEALTH!", "생명력 낮음!", "_t")
@@ -993,7 +993,7 @@ section "game/modules/tome/class/interface/ActorInscriptions.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/ActorObjectUse.lua"
 
-t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
+t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -1014,8 +1014,11 @@ t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약한 �
 section "game/modules/tome/class/interface/PartyDeath.lua"
 
 t("unknown", "알 수 없음", "_t")
+t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%d 레벨의 %s %s %s %s %s 구역에서 %s%s%s 에게 %s 죽었다.", "_t", {2,3,4,1,10,9,8,7,6,5}, {[4]="는"})
 t("her", "그녀", "_t")
 t("him", "그", "_t")
+t("herself", "자기 자신", "_t")
+t("himself", "자기 자신", "_t")
 t("battered", "두들겨맞아", "_t")
 
 
@@ -5549,7 +5552,7 @@ t("nightmare", "악몽", "_t")
 t("cursed miasma", "저주의 독기", "_t")
 t("weakness", "약화", "_t")
 t("special effect", "특별 효과", "_t")
-t("manaburn arcane", "비전의 마나 소각", "_t")
+t("manaburn arcane", "비전 마나 소각", "_t")
 t("leaves", "나뭇잎", "_t")
 t("distorting physical", "왜곡의 물리", "_t")
 t("%s resists the knockback!", "%s 꿈쩍도 하지 않았다!", "logSeen", nil, {"는"})
@@ -5859,20 +5862,20 @@ t("wall", "벽", "entity type")
 t("tall thick tree", "아름드리나무", "entity name")
 t("old road", "오래된 길", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("autumn_grass", "가을 초목", "entity subtype")
 t("floor", "바닥", "entity type")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/basic.lua"
 
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 t("door", "문", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("glass wall", "유리 벽", "entity name")
@@ -5905,8 +5908,10 @@ t("#VIOLET#You hear a door closing.", "#VIOLET#문이 닫히는 소리가 들립
 t("lever", "레버", "entity type")
 t("huge lever", "거대한 레버", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("bone", "뼈", "entity subtype")
 t("floor", "바닥", "entity type")
 
@@ -5916,10 +5921,10 @@ section "game/modules/tome/data/general/grids/burntland.lua"
 
 t("wall", "벽", "entity type")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("burnt", "불탄", "entity subtype")
 t("floor", "바닥", "entity type")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 
 
 ------------------------------------------------
@@ -5929,6 +5934,8 @@ t("cave floor", "동굴 바닥", "entity name")
 t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 
 
@@ -5937,6 +5944,8 @@ section "game/modules/tome/data/general/grids/crystal.lua"
 
 t("wall", "벽", "entity type")
 t("crystals", "수정", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 
@@ -5962,10 +5971,10 @@ t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("old road", "오래된 길", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("grass", "잔디", "entity subtype")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 
 
 ------------------------------------------------
@@ -5981,11 +5990,11 @@ t("sealed door", "봉인된 문", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/gothic.lua"
 
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 t("door", "문", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("sealed door", "봉인된 문", "entity name")
@@ -6012,6 +6021,8 @@ t("ice", "얼음", "entity subtype")
 section "game/modules/tome/data/general/grids/icecave.lua"
 
 t("wall", "벽", "entity type")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 
 
@@ -6021,10 +6032,10 @@ section "game/modules/tome/data/general/grids/jungle.lua"
 t("wall", "벽", "entity type")
 t("tree", "나무", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("grass", "잔디", "entity subtype")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 
 
 ------------------------------------------------
@@ -6046,6 +6057,8 @@ t("#Source# burns #Target#!", "#Source1# #Target3# 불태웠다!", "logCombat")
 t("lava", "용암", "entity subtype")
 t("wall", "벽", "entity type")
 t("lava wall", "용암 벽", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 
 
@@ -6053,8 +6066,8 @@ t("floor", "바닥", "entity type")
 section "game/modules/tome/data/general/grids/malrok_walls.lua"
 
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
 t("door", "문", "entity name")
 t("wall", "벽", "entity type")
@@ -6067,16 +6080,18 @@ section "game/modules/tome/data/general/grids/mountain.lua"
 t("wall", "벽", "entity type")
 t("rockwall", "바위 장벽", "entity type")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("rock", "바위", "entity subtype")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/psicave.lua"
 
 t("wall", "벽", "entity type")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 
 
@@ -6086,8 +6101,10 @@ section "game/modules/tome/data/general/grids/sand.lua"
 t("wall", "벽", "entity type")
 t("tree", "나무", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("sand", "모래", "entity subtype")
 
@@ -6098,18 +6115,18 @@ section "game/modules/tome/data/general/grids/sanddunes.lua"
 t("wall", "벽", "entity type")
 t("tree", "나무", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("sand", "모래", "entity subtype")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/slime.lua"
 
-t("previous level", "이전 층", "entity name")
+t("previous level", "이전 구역", "entity name")
 t("floor", "바닥", "entity type")
-t("next level", "다음 층", "entity name")
+t("next level", "다음 구역", "entity name")
 t("slime", "슬라임", "entity subtype")
 t("wall", "벽", "entity type")
 
@@ -6117,11 +6134,11 @@ t("wall", "벽", "entity type")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/slimy_walls.lua"
 
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 t("door", "문", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("sealed door", "봉인된 문", "entity name")
@@ -6146,10 +6163,10 @@ t("wall", "벽", "entity type")
 t("tall thick tree", "아름드리나무", "entity name")
 t("old road", "오래된 길", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("snowy_grass", "눈 덮인 초목", "entity subtype")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 
 
 ------------------------------------------------
@@ -6157,6 +6174,8 @@ section "game/modules/tome/data/general/grids/underground_dreamy.lua"
 
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 
@@ -6166,6 +6185,8 @@ section "game/modules/tome/data/general/grids/underground_gloomy.lua"
 
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 
@@ -6175,6 +6196,8 @@ section "game/modules/tome/data/general/grids/underground_slimy.lua"
 
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 
@@ -6199,10 +6222,10 @@ t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
 t("deep water", "깊은 물", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("previous level", "이전 층", "entity name")
+t("previous level", "이전 구역", "entity name")
 t("floor", "바닥", "entity type")
 t("water", "물", "entity subtype")
-t("next level", "다음 층", "entity name")
+t("next level", "다음 구역", "entity name")
 
 
 ------------------------------------------------
@@ -7663,7 +7686,7 @@ t("vagrant", "부랑자", "entity keyword")
 t(" of shielding", " 마법 보호막 ", "entity name")
 t("shielding", "마법 보호막", "entity keyword")
 t("create a temporary shield that absorbs %d damage", "%d 피해를 흡수하는 일시적인 보호막을 생성합니다.", "tformat")
-t("%s uses %s!", "%s %s 사용한다!", "logSeen", nil, {"는","를"})
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 t(" of life", " 생명 ", "entity name")
 t("life", "생명", "entity keyword")
 t(" of resilience", " 강인함 ", "entity name")
@@ -7690,7 +7713,7 @@ t("miner", "광부", "entity keyword")
 t(" of phasing", " 위상 ", "entity name")
 t("phasing", "위상", "entity keyword")
 t("blink to a nearby random location (rad %d)", "반경 %d 칸 내의 무작위한 위치로 순간이동 합니다.", "_t")
-t("%s uses %s!", "%s %s 사용한다!", "logSeen", nil, {"는","를"})
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 t(" of evasion", " 회피 ", "entity name")
 t("evasion", "회피", "entity keyword")
 t(" of speed", " 속도 ", "entity name")
@@ -7851,7 +7874,7 @@ t("hunter", "사냥꾼", "entity keyword")
 t(" of the voidstalker", " 공허 추적자 ", "entity name")
 t("voidstriker", "공허 추적자", "entity keyword")
 t("blink randomly (up to range 8) within 2 spaces of a target hostile creature", "최대 8 칸 내의 무작위한 대상 근처 2 칸 이내로 순간이동합니다", "_t")
-t("%s uses %s!", "%s %s 사용한다!", "logSeen", nil, {"는","를"})
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 t(" of backstabbing", " 암습 ", "entity name")
 t("backstab", "암습", "entity keyword")
 
@@ -8075,7 +8098,7 @@ t("volcanic", "화산", "entity keyword")
 t(" of the void", " 공허 ", "entity name")
 t("void", "공허", "entity keyword")
 t("blink to a nearby random location (rad %d)", "반경 %d 칸 내의 무작위한 위치로 순간이동 합니다.", "_t")
-t("%s uses %s %s!", "%s %s%s 사용한다!", "logSeen", nil, {"는",[3]="를"})
+t("%s uses %s %s!", "%s %s%s 사용했다!", "logSeen", nil, {"는",[3]="를"})
 t(" of Toknor", " 토크놀 ", "entity name")
 t("toknor", "토크놀", "entity keyword")
 t(" of the wind", " 바람 ", "entity name")
@@ -8280,7 +8303,7 @@ t("recursion", "반복", "entity keyword")
 t("fungal ", "곰팡이의 ", "entity name")
 t("fungal", "곰팡이", "entity keyword")
 t("regenerate %d life over 5 turns", "5 턴에 걸쳐 %d 생명력을 재생합니다", "_t")
-t("%s uses %s %s!", "%s %s%s 사용한다!", "logSeen", nil, {"는",[3]="를"})
+t("%s uses %s %s!", "%s %s%s 사용했다!", "logSeen", nil, {"는",[3]="를"})
 t("blazebringer's ", "염화를 불러오는 ", "entity name")
 t("blaze", "염화", "entity keyword")
 t("caustic ", "강산의 ", "entity name")
@@ -8628,15 +8651,15 @@ t("setup a psionic shield, reducing all damage taken by %d for 5 turns", "초능
 t(" of clear mind", " 맑은 정신 ", "entity name")
 t("clearmind", "맑은 정신", "entity keyword")
 t("remove 1 confusion or silence effect and prevent the application of %d detrimental mental effects for 5 turns", "하나의 혼란이나 침묵 효과를 제거하고, 5 턴 동안 다른 부정적인 정신 효과를 %d 번 막아냅니다", "_t")
-t("%s uses %s!", "%s %s 사용한다!", "logSeen", nil, {"는","를"})
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 t(" of gale force", " 돌풍 ", "entity name")
 t("galeforce", "돌풍", "entity keyword")
 t("project a gust of wind in a cone knocking enemies back %d spaces and dealing %d physical damage", "원뿔형의 돌풍을 일으켜 범위 내의 모든 적을 %d 칸 밀치고 %d 물리 피해를 줍니다", "tformat")
-t("%s uses %s %s!", "%s %s%s 사용한다!", "logSeen", nil, {"는",[3]="를"})
+t("%s uses %s %s!", "%s %s%s 사용했다!", "logSeen", nil, {"는",[3]="를"})
 t(" of mindblast", " 정신파 ", "entity name")
 t("mindblast", "정신파", "entity keyword")
 t("blast the opponent's mind dealing %d mind damage and silencing them for 4 turns", "대상에게 정신파를 날려 %d 정신 피해를 주고, 4 턴 동안 침묵시킵니다", "tformat")
-t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
+t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -8674,7 +8697,7 @@ t("A lashing tentacle.", "후려치는 촉수다.", "_t")
 t("#Source# points %s %s at #target#, releasing a writhing tentacle!", "#Source2# %s%s 사용해 #target3# 향해 뒤틀린 촉수를 소환한다!", "logCombat", nil, {[2]="을"})
 t("a spot nearby", "근처의 위치", "_t")
 t("Summon", "소환", "_t")
-t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
+t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -8683,7 +8706,7 @@ section "game/modules/tome/data/general/objects/egos/wands-powers.lua"
 t(" of clairvoyance", " 천리안 ", "entity name")
 t("clairvoyance", "천리안", "entity keyword")
 t("reveal the area around you, dispelling darkness (radius %d, power %d based on Magic), and detect the presence of nearby creatures for 10 turns", "주위의 공간을 밝히고, 마법적인 어둠을 제거합니다. (반경 %d, 위력 %d 마법에 비례하여 증가) 또한 10 턴 동안 주변 적들을 감지합니다.", "tformat")
-t("%s uses %s %s!", "%s %s%s 사용한다!", "logSeen", nil, {"는",[3]="를"})
+t("%s uses %s %s!", "%s %s%s 사용했다!", "logSeen", nil, {"는",[3]="를"})
 t(" of lightning storm", " 번개 폭풍 ", "entity name")
 t("lightning storm", "번개 폭풍", "entity keyword")
 t("create a radius %d storm for %d turns. Each turn, creatures within take %d lightning damage and will be dazed for 1 turn (%d total damage)", "반경 %d 칸의  폭풍을 %d 턴 동안 불러냅니다. 매 턴, 범위 내의 개체들은 %d 전기 피해를 입고 1 턴 동안 혼절합니다 (총 피해량 : %d)", "tformat")
@@ -8694,7 +8717,7 @@ t("fire a magical bolt dealing %d %s damage", "마법의 화살을 날려 %d %s 
 t(" of shielding", " 마법 보호막 ", "entity name")
 t("shielding", "마법 보호막", "entity keyword")
 t("create a shield absorbing up to %d damage on yourself and all friendly characters within 10 spaces for %d turns", "최대 %d 피해를 흡수하는 보호막을 전개해, 시전자와 반경 10 칸 내의 우호적인 개체를 %d 턴 동안 보호합니다", "tformat")
-t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
+t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -9436,7 +9459,7 @@ Items in the chest will not encumber you.]], [[이 상자는 옛 쉐르'툴의 �
 당신이 상자를 갖고있는 동안, 당신이 발견하고 습득한 모든 물품은 자동적으로 내부에 수납되고, 현재 층을 떠날 때, 에너지와 금으로 변환됩니다.
 상자 내에 소지하길 원하는 물품들이 있을 경우, 상자를 열어, 밖으로 빼내, 가방에 보관하십시오.
 상자 안의 물품들은 무게 0 으로 간주됩니다.]], "_t")
-t("transmogrify all the items in your chest at once (also done automatically when you change level)", "한 번에 상자 속의 모든 물품을 변환합니다. (당신이 현재 층을 떠날 때 자동으로 일어납니다)", "_t")
+t("transmogrify all the items in your chest at once (also done automatically when you change level)", "한 번에 상자 속의 모든 물품을 변환합니다. (현재 구역을 떠날 때도 자동으로 변환됩니다.)", "_t")
 t("Make the Transmogrification Chest the default item's destroyer?", "물품을 파괴할 때, 항상 변환 상자를 사용할까요?", "_t")
 t("You do not have any items to transmogrify in your chest or on the floor.", "상자 안에도, 땅바닥에도 변환할 물품이 존재하지 않습니다.", "_t")
 t("Transmogrify all %s item(s) on the floor?", "발 밑의 모든 %s 개의 물품을 변환할까요?", "tformat")
@@ -9680,7 +9703,7 @@ t("Telos Spire of Power", "텔로스의 권능의 첨탑", "entity name")
 t("pulsing staff", "고동치는 지팡이", "_t")
 t("Telos was an extremely powerful mage during the Age of Dusk, hated by his peers and feared by the common folk; he was hunted for a long while. He finally fell from his place of power, Telmur, but his spirit still lingers.", "텔로스는 황혼의 시대동안 극도로 강력한 마법사였습니다. 따라서 동료들에게 미움받고, 일반인들에게는 공포의 대상이였습니다. 따라서, 텔로스는 오랫동안 표적이 되어왔습니다. 텔로스는 결국 그가 기거하던 탑, 텔무르에서 뛰어내렸습니다만 그의 영혼은 아직 이 세상에 머물고 있습니다.", "_t")
 t("turn into a corrupted losgoroth (poison, disease, cut and confusion immune; converts half damage into life drain; does not require breath) for 10 turns", "10 턴 동안 타락한 로스고로스로 변신합니다 (독, 질병, 상처와 혼란에 면역이 되고, 가한 피해의 절반을 생명력으로 흡수합니다. 또한 숨을 쉴 필요가 없어집니다.", "_t")
-t("%s brandishes %s %s, turning into a corrupted losgoroth!", "%s %s %s 흔들자, 타락한 로스고로스로 변신한다!", "logSeen", nil, {"는",[3]="를"})
+t("%s brandishes %s %s, turning into a corrupted losgoroth!", "%s %s %s 흔들자, 타락한 로스고로스로 변신했다!", "logSeen", nil, {"는",[3]="를"})
 
 
 ------------------------------------------------
@@ -9874,7 +9897,7 @@ t("Spellblaze Echoes", "마법폭발의 메아리", "entity name")
 t("deep black amulet", "칠흑의 목걸이", "_t")
 t("This ancient charm still retains a distant echo of the destruction wrought by the Spellblaze", "이 고대의 부적은 아직도 주문폭발로 일어난 대파괴의 머나먼 메아리를 담고있습니다.", "_t")
 t("unleash a destructive wail, destroying terrain and dealing %0.2f physical damage (based on Magic) in a radius of %d", "파괴적인 비명을 해방해, 지형을 파괴하고 %0.2f 물리 피해를 (마법에 비례합니다) 반경 %d 칸에 가합니다 ", "tformat")
-t("%s uses the %s!", "%s %s 사용한다!", "logSeen", nil, {"는","를"})
+t("%s uses the %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 t("Daneth's Neckguard", "다네스의 목 보호구", "entity name")
 t("a thick steel gorget", "두꺼운 강철 목 보호구", "_t")
 t("A thick steel gorget designed to protect its wearer from fatal attacks to the neck.  This particular gorget was worn by the Halfling General Daneth Tendermourn during the pyre wars, and judging by the marks along its surface may have saved the General's life on more than one occasion.", "두꺼운 강철 목 보호구로, 착용자의 목을 향하는 치명적인 공격을 막기위해 고안되었습니다.  이 특별한 목 보호구는 하플링 장군 다네스 텐더모운이 장작더미 전쟁 때 착용했습니다. 그리고 표면에 난 자국은, 이 목 보호구가 장군의 생명을 최소한 한번 이상 구했을 것 같습니다.", "_t")
@@ -9928,7 +9951,7 @@ t("glowing rod", "빛나는 장대", "_t")
 t("Gwai's Burninator", "과이의 화염들판 장대", "entity name")
 t("Gwai, a Pyromanceress that lived during the Spellhunt, was cornered by group of mage hunters. She fought to her last breath and is said to have killed at least ten people with this wand before she fell.", "과이, 마법 사냥 동안 살았던 화염의 마녀로, 마법 사냥꾼들에게 둘러쌓였을 때, 그녀는 최후까지 싸워, 이 장대 하나로 적어도 10 명 이상의 사냥꾼들을 쓰러뜨렸다고 합니다.", "_t")
 t("shoot a cone of flames (radius %d) for %0.2f fire damage (based on Magic)", "반경 %d 칸의 원뿔범위에 화염을 발사하여 %0.2f 화염 피해를 가합니다 (마법에 비례합니다)", "tformat")
-t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
+t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
 t("viciously sharp battle axe", "사악하고 날카로운 전투 도끼", "_t")
 t("Drake's Bane", "드레이크의 파멸", "entity name")
 t("The killing of Kroltar, mightiest of wyrms, took seven months and the lives of 20,000 dwarven warriors.  Finally the beast was worn down and mastersmith Gruxim, standing atop the bodies of his fallen comrades, was able slit its throat with this axe crafted purely for the purpose of penetrating the wyrm's hide.", "최강의 용, 크롤타의 살해에 이르기까지, 7 개월동안 20,000 여명의 드워프 전사가 희생되었습니다.  마침내 그 흉악한 짐승은 지속된 공격으로 약화되었고, 위대한 대장장이인 그룩심이 쓰러진 전우들의 시체를 밟고 올라가, 그의 도끼, 오로지 용의 가죽을 뚫기위해 만들어진 그의 도끼로 크롤타의 목을 그었습니다..", "_t")
@@ -10397,7 +10420,7 @@ t("This heavy, ridged blade emanates magical power, yet as you grasp the handle 
 t("deal %0.2f arcane and %0.2f darkness damage (based on Magic) in a radius 1 around the target", "%0.2f 비전 피해와 %0.2f 암흑 피해를 (마법에 비례) 대상 주위 반경 1 칸에 가합니다", "tformat")
 t("swallows the victim's soul, gaining a new power", "희생자의 영혼을 집어삼켜, 새로운 힘을 얻습니다", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
-t("@Source@ taps the #SALMON#trapped soul#LAST# of %s, xmanifesting %s!", "@Source2@ %s의 #SALMON#속박된 영혼으로#LAST#, %s 사용한다!", "tformat", nil, {[2]="을"})
+t("@Source@ taps the #SALMON#trapped soul#LAST# of %s, xmanifesting %s!", "@Source2@ %s의 #SALMON#속박된 영혼으로#LAST#, %s 사용했다!", "tformat", nil, {[2]="을"})
 t("%s's %s #SALMON#CONSUMES THE SOUL#LAST# of %s, gaining the power of %s!", "%s의 %s, %s의 #SALMON#영혼을 삼켜#LAST#, %s의 힘을 주었다!", "logSeen", nil, {[2]="가"})
 t("Hydra's Bite", "히드라의 아가리", "entity name")
 t("triple headed flail", "머리 셋 달린 도리꺠", "_t")
@@ -10743,7 +10766,7 @@ t("Piercing Gaze", "꿰뚫어보는 시선", "entity name")
 t("stone-eyed shield", "바위 눈의 방패", "_t")
 t("This gigantic shield has a stone eye embedded in it.", "이 거대한 방패에는 바위 눈알이 박혀져있습니다.", "_t")
 t("30% chance of petrifying the attacker.", "30% 확률로 공격자를 석화합니다.", "_t")
-t("The eye locks onto %s, freezing it in place!", "눈이 시선을 %s에게 고정하자, 그 자리에서 굳기 시작한다!", "logSeen")
+t("The eye locks onto %s, freezing it in place!", "눈이 시선을 %s에게 고정하자, 그 자리에서 굳기 시작했다!", "logSeen")
 t("Shantiz the Stormblade", "폭풍칼날 샨티즈", "entity name")
 t("thin stormy blade", "얇은 폭풍치는 단검", "_t")
 t("This surreal dagger crackles with the intensity of a vicious storm.", "이 비현실적인 단검은 강렬한 폭풍으로 이는 스파크를 튀깁니다.", "_t")
@@ -11988,16 +12011,16 @@ t("#VIOLET#You enter the swirling portal and in the blink of an eye you are back
 ------------------------------------------------
 section "game/modules/tome/data/quests/escort-duty.lua"
 
-t("You successfully escorted the %s to the recall portal on level %s.", "%s 성공적으로 %s의 귀환 차원문까지 호위했습니다.", "tformat", nil, {"를"})
+t("You successfully escorted the %s to the recall portal on level %s.", "%s 성공적으로 %s 구역의 귀환 차원문까지 호위했습니다.", "tformat", nil, {"를"})
 t("As a reward you %s.", "그 보상: %s.", "tformat")
 t("You abandoned %s, to death.", "%s 죽도록 내버려뒀습니다.", "tformat", nil, {"가"})
 t("You failed to protect the %s from death by %s.", "%s %s 때문에 죽는 것을 막지 못했습니다.", "tformat", nil, {"가"})
-t("Escort the %s to the recall portal on level %s.", "%s %s의 귀환 차원문까지 호위했습니다.", "tformat", nil, {"를"})
+t("Escort the %s to the recall portal on level %s.", "%s %s 구역의 귀환 차원문까지 호위했습니다.", "tformat", nil, {"를"})
 t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s 죽었다. 임무 실패다!", "logPlayer", nil, {"이"})
 t("something", "물체", "_t")
 t("Recall Portal", "귀환 차원문", "_t")
 t("%s of %s", "%s %s층", "tformat", {2,1})
-t("Escort: %s (level %s)", "호위: %s (%s)", "tformat")
+t("Escort: %s (level %s)", "호위: %s (구역 %s)", "tformat")
 
 
 ------------------------------------------------
@@ -12634,7 +12657,7 @@ t("#LIGHT_GREEN#* The portal to Maj'Eyal is now functional and can be used to go
 t("Zemekkys points to the location of Vor Armoury on your map.", "제메키스가 보르 무기고의 위치를 지도에 표시해 주었다.", "logPlayer")
 t("Zemekkys points to the location of Briagh's lair on your map.", "제메키스가 브리아그흐의 동굴의 위치를 지도에 표시해 주었다.", "logPlayer")
 t("#VIOLET#Zemekkys starts to draw runes on the floor using the athame and gem dust.", "#VIOLET#제메키스가 제례단검과 보석 가루로 바닥에 룬을 그리기 시작한다.", "logPlayer")
-t("#VIOLET#The whole area starts to shake!", "#VIOLET#지역 전체가 흔들리기 시작한다!", "logPlayer")
+t("#VIOLET#The whole area starts to shake!", "#VIOLET#지역 전체가 흔들리기 시작했다!", "logPlayer")
 t("#VIOLET#Zemekkys says: 'The portal is done!'", "#VIOLET#제메키스가 말했다: '차원문이 완성되었네!'", "logPlayer")
 t("High Chronomancer Zemekkys", "고위 시공술사 제메키스", "_t")
 
@@ -16864,7 +16887,7 @@ t([[For %d turns, you lay down mucus where you walk or stand.
 		The Poison damage and Equilibrium regeneration increase with your Mindpower, and laying down more mucus in the same spot will intensify its effects and refresh its duration.]], [[%d 턴 동안, 발 밑에 진액을 남깁니다.
 		매 턴 진액은 자동으로 생성되고, 이 진액은 %d 턴 동안 지속됩니다.
 		기술 레벨이 4 일 때, 시전자의 발 밑 반경 1 칸 범위에 진액을 남기게 됩니다.
-		진액을 통과해 오는 모든 적은 중독되어, %0.1f 자연 피해를 5 턴 동안 매 턴 입힙니다. (중첩 가능합니다).
+		진액을 통과해 오는 모든 적은 중독되어, %0.1f 자연 피해를 5 턴 동안 매 턴 입힙니다. (중첩 가능)
 		추가로, 진액 위에서 시간을 보내는 턴 마다 평정이 %0.1f 회복됩니다. 그리고 다른 우호적인 개체가 진액 위에 있는 동안, 시전자와 해당 개체의 평정을 1 회복합니다.
 		독 피해량과 평정 재생량은 정신력에 비례하여 증가합니다. 그리고 같은 지점에 더 많은 진액을 남기는 것은 진액의 효과를 강화하고 땅에 뿌려진 진액의 지속시간을 매 턴 갱신합니다.]], "tformat")
 t("Acid Splash", "산성 방울", "talent name")
@@ -16888,7 +16911,7 @@ t([[Your mucus is brought to near sentience.
 		The spawn chance increases with your Mindpower.]], [[흩뿌려진 점액이 지각을 개화하기 시작합니다.
 		매 탠, %d%% 확률로 진액 내의 무작위한 지점에서 살아있는 점액이 나타납니다.
 		살아있는 점액은 %d 턴 동안 지속되며 근처의 적을 슬라임 뱉기로 공격합니다.
-		한번에 최대 %d 개의 살아있는 점액이 존재할 수 있습니다. (교활에 비례합니다).
+		한번에 최대 %d 개의 살아있는 점액이 존재할 수 있습니다. (교활에 비례)
 		시전자가 정신 치명타를 가할 때마다, 모든 살아있는 점액의 지속시간이 2 턴 연장됩니다.
 		생성 확률은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Oozewalk", "진액 걸음", "talent name")
@@ -18822,7 +18845,7 @@ t([[Your Forge Shield talent now increases your Armour by %d, your Defense by %d
 		이 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Dreamforge", "꿈의 대장간", "talent name")
 t("#GOLD#%s strikes the dreamforge!", "#GOLD#%s 꿈의 대장간을 두들긴다!", "logSeen", nil, {"는"})
-t("#GOLD#%s begins breaking dreams!", "#GOLD#%s 꿈을 파괴하기 시작한다!", "logSeen", nil, {"는"})
+t("#GOLD#%s begins breaking dreams!", "#GOLD#%s 꿈을 파괴하기 시작했다!", "logSeen", nil, {"는"})
 t([[The pounding forge of thought in your mind is released upon your surroundings.  Each turn that you remain stationary, you'll strike the dreamforge, inflicting mind and burning damage on enemies around you.
 		The effect will build over five turns, until it reaches a maximum radius of %d, maximum mind damage of %0.2f, and maximum burning damage of %0.2f.
 		At this point you'll begin breaking the dreams of enemies who hear the forge, reducing their Mental Save by %d and giving them a %d%% chance of spell failure due to the tremendous echo in their minds for %d turns.
@@ -20080,7 +20103,7 @@ t([[Summon a Dread of level %d that will annoyingly blink around, hexing your fo
 		- 기술 레벨 %d 의 위상 관문
 		]], "tformat")
 t("Souleater", "영혼을 먹는 자", "talent name")
-t("#GREY#%s has fed on enough minions and starts to randomly hex foes!", "#GREY#%s 하수인들의 영혼을 충분히 집어삼켜, 적들에게 광역 비술을 걸기 시작한다!", "logSeen", nil, {"는"})
+t("#GREY#%s has fed on enough minions and starts to randomly hex foes!", "#GREY#%s 하수인들의 영혼을 충분히 집어삼켜, 적들에게 광역 비술을 걸기 시작했다!", "logSeen", nil, {"는"})
 t([[Any time one of your minions dies or expires, and even if it is resurrected by a boneyard, the dread feeds on it.
 		Each time it feeds it gets healed for %d and reduces remaining cooldown of its spells by %d.
 		Every 10 minion deaths it casts a random hex on up to %d foes at once, instantly and without triggering a cooldown.]], [[강령술 하수인이 죽거나, 지속시간이 종료되면, 묘지에서 부활했다하더라도 두려움이 그 영혼을 먹습니다.
@@ -25021,7 +25044,7 @@ Race features:#YELLOW#
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects.lua"
 
-t("%s from %s", "%s 에서 %s", "tformat")
+t("%s from %s", "%s의 %s", "tformat", {2,1})
 
 
 ------------------------------------------------
@@ -25056,7 +25079,7 @@ section "game/modules/tome/data/timed_effects/magical.lua"
 
 t("Illness", "병", "_t")
 t("The target is infected by a disease, reducing its dexterity, strength, and constitution by %d.", "질병 감염 : 힘, 민첩, 체격 -%d", "tformat")
-t("#Target# is afflicted by a crippling illness!", "#Target2# 병으로 인해 고통받는다!", "_t")
+t("#Target# is afflicted by a crippling illness!", "#Target2# 병으로 인해 고통받고있다!", "_t")
 t("#Target# is free from the illness.", "#Target2# 병으로부터 회복됐다.", "_t")
 t("Armor Corroded", "갑옷 부식", "_t")
 t("The target has been splashed with acid, reducing armour by %d%% (#RED#%d#LAST#).", "산성 물질에 닿음 : 방어력 -%d%% (#RED#%d#LAST#).", "tformat")
@@ -25391,19 +25414,19 @@ t("+Spellshocked", "+주문 충격", "_t")
 t("-Spellshocked", "-주문 충격", "_t")
 t("Rotting Disease", "부패성 질병", "_t")
 t("The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "체격 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
-t("#Target# is afflicted by a rotting disease!", "#Target2# 부패성 질병에 고통받는다!", "_t")
+t("#Target# is afflicted by a rotting disease!", "#Target2# 부패성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the rotting disease.", "#Target2# 부패성 질병에서 벗어났다.", "_t")
 t("Decrepitude Disease", "노화성 질병", "_t")
 t("The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "민첩 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
-t("#Target# is afflicted by a decrepitude disease!", "#Target2# 노화성 질병에 고통받는다!", "_t")
+t("#Target# is afflicted by a decrepitude disease!", "#Target2# 노화성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the decrepitude disease.", "#Target2# 노화성 질병에서 벗어났다.", "_t")
 t("Weakness Disease", "약화성 질병", "_t")
 t("The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "힘 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
-t("#Target# is afflicted by a weakness disease!", "#Target2# 약화성 질병에 고통받는다!", "_t")
+t("#Target# is afflicted by a weakness disease!", "#Target2# 약화성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the weakness disease.", "#Target2# 약화성 질병에서 벗어났다.", "_t")
 t("Woeful Disease", "고통의 질병", "_t")
 t("The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "힘, 민첩, 체격 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
-t("#Target# is afflicted by a woeful disease!", "#Target2# 고통의 질병에 고통받는다!", "_t")
+t("#Target# is afflicted by a woeful disease!", "#Target2# 고통의 질병에 고통받고있다!", "_t")
 t("#Target# is free from the woeful disease.", "#Target2# 고통의 질병에서 벗어났다.", "_t")
 t("Woeful Darkness", "고통의 어둠", "_t")
 t("The target is weakened and lost, all damage it does is reduced by %d%%.", "가하는 모든 피해량 -%d%%.", "tformat")
@@ -25429,7 +25452,7 @@ t("Worm Rot", "벌레 부패", "_t")
 t([[The target is infected with carrion worm larvae.  Each turn it will lose one beneficial physical effect and %0.2f blight and acid damage will be inflicted.
 After five turns the disease will inflict %0.2f blight damage and spawn a carrion worm mass.]], [[시체 벌레 유충에 감염 / 매 턴 이로운 물리 효과 제거 / 매 턴 %0.2f 황폐, 산성 피해.
 5 턴 후, %0.2f 황폐 피해를 주고 시체 벌레 때 생성.]], "tformat")
-t("#Target# is afflicted by a terrible worm rot!", "#Target2# 끔찍한 벌레 부패로 고통받는다!", "_t")
+t("#Target# is afflicted by a terrible worm rot!", "#Target2# 끔찍한 벌레 부패로 고통받고있다!", "_t")
 t("#Target# is free from the worm rot.", "#Target2# 벌레 부패로 부터 회복했다.", "_t")
 t("#LIGHT_RED#A carrion worm mass bursts out of %s!", "#LIGHT_RED#%s 의 몸을 뚫고 시체 벌레 떼가 튀어나왔다!", "logSeen")
 t("Ghoul Rot", "구울의 부패", "_t")
@@ -25481,7 +25504,7 @@ t("Congeal Time", "시간 빙결", "_t")
 t("Reduces global action speed by %d%% and all outgoing projectiles speed by %d%%.", "전체 속도 -%d%% / 대상의 투사체 속도 -%d%%.", "tformat")
 t("#Target# slows down.", "#Target#의 발이 느려졌다.", "_t")
 t("+Congeal Time", "+시간 빙결", "_t")
-t("#Target# speeds up.", "#Target2# 가속한다.", "_t")
+t("#Target# speeds up.", "#Target2# 가속했다.", "_t")
 t("-Congeal Time", "-시간 빙결", "_t")
 t("Arcane Vortex", "비전 소용돌이", "_t")
 t("An arcane vortex follows the target. Each turn a manathrust fires from it to a random foe in sight doing %0.2f arcane damage to all. If no foes are found the main target takes 50%% more arcane damage this turn. If the target dies the remaining damage is dealt as a radius 2 ball of arcane.", "비전 소용돌이 부착 됨 / 매 턴, 시야 내의 무작위한 대상에게 %0.2f 비전 피해 / 경로 상의 모든 적 공격 / 공격할 적이 없으면 받는 비전 피해 +50%% / 효과중에 사망시 반경 2 칸의 비전 폭발.", "tformat")
@@ -25506,7 +25529,7 @@ t("#Target# is no longer magically poisoned.", "#Target2# 더 이상 마법적�
 t("-Vulnerability Poison", "-취약성 독 Poison", "_t")
 t("Irresistible Sun", "저항할 수 없는 태양의 힘", "_t")
 t("The target is attracting all toward it, also dealing fire, light and physical damage each turn..", "모두를 끌어당김 / 매 턴 화염, 빛, 물리 피해를 가함.", "tformat")
-t("#Target# starts to attract all creatures around!", "#Target1# 근처의 모든 개체를 끌어당기기 시작한다!", "_t")
+t("#Target# starts to attract all creatures around!", "#Target1# 근처의 모든 개체를 끌어당기기 시작했다!", "_t")
 t("+Irresistible Sun", "+저항할 수 없는 태양의 힘", "_t")
 t("#Target# is no longer attracting creatures.", "#Target2# 더 이상 범위 내의 적을 끌어당기지 않는다.", "_t")
 t("-Irresistible Sun", "-저항할 수 없는 태양의 힘", "_t")
@@ -25519,19 +25542,19 @@ t("#Target# can move freely once more.", "#Target2# 다시 자유롭게 움직�
 t("-Weight of the Sun", "-태양의 무게", "_t")
 t("Temporal Form", "시간의 형상", "_t")
 t("The target assumes the form of a telugoroth.", "텔루고로스로 변신.", "tformat")
-t("#Target# threads time as a shell!", "#Target1# 시간을 껍질 모양으로 재단한다!", "_t")
+t("#Target# threads time as a shell!", "#Target1# 시간을 껍질 모양으로 재단했다!", "_t")
 t("+Temporal Form", "+시간의 형상", "_t")
 t("#Target# is no longer embeded in time.", "#Target#의 시간의 형상이 사라진다.", "_t")
 t("-Temporal Form", "-시간의 형상", "_t")
 t("Corrupted Losgoroth Form", "타락한 로스고로스의 형상", "_t")
 t("The target has assumed the form of a corrupted losgoroth, gaining immunity to poison, disease, bleeding, and confusion.  It does not need to breathe, and converts half of all damage to life draining blight.", "타락한 로스고로스로 변신 / 독, 질병, 출혈, 혼란 면역 / 쉼 쉴 필요 없음 / 받은 피해의 절반을 생명 흡수의 황폐 피해로 전환.", "tformat")
 t("arcane", "비전", "effect subtype")
-t("#Target# turns into a losgoroth!", "#Target1# 로스고로스로 변신한다!", "_t")
+t("#Target# turns into a losgoroth!", "#Target1# 로스고로스로 변신했다!", "_t")
 t("+Corrupted Losgoroth Form", "+타락한 로스고로스의 형상", "_t")
 t("-Corrupted Losgoroth Form", "-타락한 로스고로스의 형상", "_t")
 t("Shivgoroth Form", "쉬브고라스의 형상", "_t")
 t("The target assumes the form of a shivgoroth.", "쉬브고라스로 변신.", "tformat")
-t("#Target# turns into a shivgoroth!", "#Target1# 쉬브고라스로 변신한다!", "_t")
+t("#Target# turns into a shivgoroth!", "#Target1# 쉬브고라스로 변신했다!", "_t")
 t("+Shivgoroth Form", "+쉬브고라스로 변신", "_t")
 t("#Target# is no longer transformed.", "#Target#의 변신이 끝났다.", "_t")
 t("-Shivgoroth Form", "-쉬브고라스로 변신", "_t")
@@ -25797,7 +25820,7 @@ t("Domination Hex", "지배의 비술", "_t")
 t("The target is hexed, temporarily changing its faction to %s.", "일시적으로 %s 소속이 됨.", "tformat")
 t("dominate", "지배", "effect subtype")
 t("hex", "비술", "effect subtype")
-t("#Target# is hexed.", "#Target2# 비술의 영향을 받는다.", "_t")
+t("#Target# is hexed.", "#Target2# 비술의 영향을 받았다.", "_t")
 t("+Domination Hex", "+지배의 비술", "_t")
 t("#Target# is free from the hex.", "#Target2# 비술로부터 자유로워졌다.", "_t")
 t("-Domination hex", "-지배의 비술", "_t")
@@ -26060,7 +26083,7 @@ t("#F53CBE##Target# becomes paranoid!", "#F53CBE##Target2# 피해망상에 시�
 t("+Paranoid", "+피해망상", "_t")
 t("#Target# is no longer paranoid", "#Target#의 피해망상은 사라졌다.", "_t")
 t("-Paranoid", "-피해망상", "_t")
-t("#F53CBE#%s struggles against the paranoia.", "#F53CBE#%s 피해망상을 떨처내기위해 발버둥친다.", "logSeen", nil, {"은"})
+t("#F53CBE#%s struggles against the paranoia.", "#F53CBE#%s 피해망상을 떨쳐내기 위해 발버둥친다.", "logSeen", nil, {"은"})
 t("#F53CBE##Source# attacks #Target# in a fit of paranoia.", "#F53CBE##Source#의 공격은 #Target3# 피해망상으로 몰아넣었다.", "logCombat")
 t("#F53CBE#%s ignores the fear!", "#F53CBE#%s 공포를 무시한다!", "logSeen", nil, {"은"})
 t("%s resists the fear!", "%s 공포에 저항했다!", "logSeen", nil, {"은"})
@@ -26089,12 +26112,12 @@ t("#F53CBE##Target# becomes panicked!", "#F53CBE##Target2# 공황 상태에 빠�
 t("+Panicked", "+공황", "_t")
 t("#Target# is no longer panicked", "#Target2# 더 이상 공황 상태가 아니다", "_t")
 t("-Panicked", "-공황", "_t")
-t("#F53CBE#%s struggles against the panic.", "#F53CBE#%s 공황을 떨처내기위해 발버둥친다.", "logSeen", nil, {"은"})
+t("#F53CBE#%s struggles against the panic.", "#F53CBE#%s 공황을 떨쳐내기 위해 발버둥친다.", "logSeen", nil, {"은"})
 t("#F53CBE#You panic and flee from %s.", "#F53CBE#당신은 두려움에 빠져 %s에게서 도망친다.", "logPlayer")
 t("#F53CBE##Source# panics but fails to flee from #Target#.", "#F53CBE##Source2# 공황 상태에 빠졌지만, #Target#으로부터 도망치는데에 실패했다.", "logCombat")
 t("Quick", "가속", "_t")
 t("Increases global speed by %d%%.", "화염 : 전체 속도 +%d%%.", "tformat")
-t("#Target# speeds up.", "#Target2# 가속한다.", "_t")
+t("#Target# speeds up.", "#Target2# 가속했다.", "_t")
 t("+Quick", "+가속", "_t")
 t("#Target# slows down.", "#Target#의 발이 느려졌다.", "_t")
 t("-Quick", "-가속", "_t")
@@ -26508,7 +26531,7 @@ t("Summoning Destabilization", "소환 불안정화", "_t")
 t("The more the target summons creatures the longer it will take to summon more (+%d turns).", "소환할 수록, 소환 간격 대기시간 증가 (+%d 턴).", "tformat")
 t("Damage Smearing", "피해 희석", "_t")
 t("Damage received in the past is returned as %0.2f temporal damage per turn.", "턴 당 %0.2f 시간 피해 받음.", "tformat")
-t("#Target# is taking damage received in the past!", "#Target1# 과거에 받은 피해로 고통받는다!", "_t")
+t("#Target# is taking damage received in the past!", "#Target1# 과거에 받은 피해로 고통받고있다!", "_t")
 t("+Smeared", "+피해 희석", "_t")
 t("#Target# stops taking damage received in the past.", "#Target2# 더 이상 과거에 받은 피해로 고통받지 않는다.", "_t")
 t("-Smeared", "-피해 희석", "_t")
@@ -26987,7 +27010,7 @@ t("+Numbing Poison", "+마비성 독", "_t")
 t("-Numbing Poison", "-마비성 독", "_t")
 t("Stoning Poison", "석화성 독", "_t")
 t("The target is taking %0.2f nature damage per turn from a potent earth-based poison.  In %d more turn(s), or when the poison has run its course (%d%% chance), the target will be turned to stone for %d turns.", "중독 / 매 턴 %0.2f 자연 피해 받음 / %d 턴 후, 또는 독의 지속시간이 끝났을 때 %d%% 확률로 %d 턴 동안 석화됨.", "tformat")
-t("#Target# is infused with stone poison!", "#Target1# 석화성 독에 의해 고통받는다!", "_t")
+t("#Target# is infused with stone poison!", "#Target1# 석화성 독에 의해 고통받고있다!", "_t")
 t("+Stoning Poison", "+석화성 독", "_t")
 t("-Stoning Poison", "-석화성 독", "_t")
 t("#GREY#%s looks stony for a moment, but resists the transformation.", "#GREY#%s 잠시동안 돌처럼 굳어졌지만, 결국 석화에 저항했다.", "logSeen", nil, {"가"})
@@ -27136,7 +27159,7 @@ t("The smoke around #target# dissipates.", "#target3# 둘러 싸던 연기가 �
 t("Resolve", "결의", "_t")
 t(" and ", "와 ", "_t")
 t("You gain %d%% resistance against %s.", "%s에 대한 저항 +%d%%.", "tformat", {2,1})
-t("#Target# attunes to the damage.", "#Target2# 피해에 적응한다 .", "_t")
+t("#Target# attunes to the damage.", "#Target2# 피해에 적응했다 .", "_t")
 t("+Resolve", "+결의", "_t")
 t("#Target# is no longer attuned.", "#Target#의 피해 적응이 사라졌다.", "_t")
 t("-Resolve", "-결의", "_t")
@@ -27609,7 +27632,7 @@ t("stamina regeneration by %0.1f and ", "기력 재생 %0.1f / ", "tformat")
 t("Increases %sdefense by %d.", "방어력%s +%d.", "tformat")
 t("Ghoulish Leap", "구울의 도약", "_t")
 t("The target's global speed is increased by %d%%.", "전체 속도 +%d%%.", "tformat")
-t("#Target# speeds up.", "#Target2# 가속한다.", "_t")
+t("#Target# speeds up.", "#Target2# 가속했다.", "_t")
 t("+Fast", "+가속", "_t")
 t("-Fast", "-가속", "_t")
 t("Feint", "속이기", "_t")
@@ -27836,7 +27859,7 @@ t("poison dripping wand", "독이 방울져 떨어지는 마법봉", "_t")
 t("Rod of Spydric Poison", "거미독의 장대", "entity name")
 t("This rod carved out of a giant spider fang continuously drips venom.", "이 장대는 끊임없이 맹독이 방울져 떨어지는 거대 거미의 송곳니를 깎아 만들어진 것입니다.", "_t")
 t("shoot a bolt of spydric poison out to range %d, dealing %0.2f nature damage (based on Magic) over %d turns while rendering the target unable to move", "%d 칸 범위 내에 거미독의 화살을 쏘아, %0.2f 자연 피해 (마법 능력치 기반) 를 %d 턴에 걸쳐 입힙니다. 이 피해를 받는 동안에는 대상은 움직일 수 없습니다.", "tformat")
-t("%s activates %s %s!", "%s %s%s!", "logSeen", nil, {"는",[3]="을"})
+t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -27961,7 +27984,7 @@ t("A note explaining the arena's scoring rules. Someone must have dropped it.", 
 t("a pair of leather boots of disengagement", "후퇴의 가죽 부츠", "entity name")
 t("a pair of leather boots of phasing", "전이의 가죽 부츠", "entity name")
 t("blink to a nearby random location within range %d (based on Magic)", "%d 칸 (마법 능력치 비례) 내의 무작위 지점으로 순간이동합니다.", "tformat")
-t("%s uses %s!", "%s %s 사용한다!", "logSeen", nil, {"는","를"})
+t("%s uses %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 t("a pair of leather boots of rushing", "돌진의 가죽 부츠", "entity name")
 t("armor", "방어구", "entity type")
 t("feet", "다리", "entity subtype")
@@ -28801,7 +28824,7 @@ t("This portal seems to connect to another part of this level.", "이 차원문�
 t("#GOLD#This portal looks like it reacts only to the Orb of Many Ways.", "#GOLD#이 차원문은 여러 장소로의 오브에만 반응하는 것으로 보입니다.", "say")
 t("#VIOLET#You enter the swirling portal and appear in a large room with other portals and the two wizards.", "#VIOLET#당신은 소용돌이치는 차원문으로 들어갔고 두 명의 마법사들과 다른 차원문들이 있는 넓은 방으로 나왔습니다.", "_t")
 t("Elandar", "엘란다르", "_t")
-t("next level", "다음 층", "entity name")
+t("next level", "다음 구역", "entity name")
 
 
 ------------------------------------------------
@@ -28890,7 +28913,7 @@ t("wall", "벽", "entity type")
 t("lava wall", "용암 벽", "entity name")
 t("floor", "바닥", "entity type")
 t("lava", "용암", "entity subtype")
-t("next level", "다음 층", "entity name")
+t("next level", "다음 구역", "entity name")
 
 
 ------------------------------------------------
@@ -29185,7 +29208,7 @@ t("huge crack in the floor", "바닥의 거대 균열", "entity name")
 t("Crack in the floor", "바닥의 균열", "_t")
 t([[This area appears to have been hit by a huge tremor, breaking the floor in a huge crack.
 You think you can jump to the level below.]], [[이곳은 큰 지진에 휘말린 것처럼 바닥에 거대한 균열들이 생겨 있습니다.
-저기로 뛰어내려서 아래층으로 갈 수 있겠다는 생각이 들었습니다.]], "_t")
+저기로 뛰어내려서 다음 구역으로 갈 수 있겠다는 생각이 들었습니다.]], "_t")
 t("Jump", "뛰어내린다", "_t")
 t("Stay", "그대로 있는다", "_t")
 
@@ -31884,7 +31907,7 @@ section "game/modules/tome/dialogs/MapMenu.lua"
 
 t("Actions", "행동", "_t")
 t("%s: Inventory", "%s: 인벤토리", "tformat")
-t("Change level", "지역 이동", "_t")
+t("Change level", "구역 이동", "_t")
 t("Pickup item", "물건 줍기", "_t")
 t("Move to", "이곳으로 이동하기", "_t")
 t("Give order", "명령 내리기", "_t")
@@ -32105,6 +32128,8 @@ section "game/modules/tome/dialogs/debug/CreateTrap.lua"
 section "game/modules/tome/dialogs/debug/DebugMain.lua"
 
 t("Cancel", "취소", "_t")
+t("Change Zone", "지역 이동", "_t")
+t("Reload/regenerate Zone and level", "구역 및 지역 재생성/다시 불러오기", "_t")
 
 
 ------------------------------------------------

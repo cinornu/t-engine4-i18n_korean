@@ -418,8 +418,8 @@ section "game/dlcs/tome-orcs/data/general/events/sewer-alligator-nest.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/manacave.lua"
 
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("door", "문", "entity name")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
@@ -430,8 +430,8 @@ t("open door", "열린 문", "entity name")
 section "game/dlcs/tome-orcs/data/general/grids/mechstone.lua"
 
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
@@ -441,8 +441,8 @@ t("wall", "벽", "entity type")
 section "game/dlcs/tome-orcs/data/general/grids/mechwall.lua"
 
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
@@ -458,6 +458,8 @@ t("floor", "바닥", "entity type")
 section "game/dlcs/tome-orcs/data/general/grids/slumbering_cave.lua"
 
 t("wall", "벽", "entity type")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 
 
@@ -471,8 +473,8 @@ t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
-t("way to the previous level", "이전 층으로의 길", "entity name")
-t("way to the next level", "다음 층으로의 길", "entity name")
+t("way to the previous level", "이전 구역으로의 길", "entity name")
+t("way to the next level", "다음 구역으로의 길", "entity name")
 
 
 ------------------------------------------------
@@ -849,6 +851,7 @@ section "game/dlcs/tome-orcs/data/lore/pocket-time.lua"
 
 t("him", "그", "_t")
 t("her", "그녀", "_t")
+t("his", "그", "_t")
 
 
 ------------------------------------------------
@@ -3996,8 +3999,8 @@ section "game/dlcs/tome-orcs/data/zones/cave-hatred/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/dominion-port/grids.lua"
 
-t("previous level", "이전 층", "entity name")
-t("next level", "다음 층", "entity name")
+t("previous level", "이전 구역", "entity name")
+t("next level", "다음 구역", "entity name")
 t("exit to the worldmap", "월드맵으로의 출구", "entity name")
 t("sand", "모래", "entity subtype")
 t("floor", "바닥", "entity subtype")
@@ -4233,9 +4236,9 @@ section "game/dlcs/tome-orcs/data/zones/palace-fumes/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/pocket-time/grids.lua"
 
-t("next level", "다음 층", "entity name")
+t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity subtype")
-t("previous level", "이전 층", "entity name")
+t("previous level", "이전 구역", "entity name")
 
 
 ------------------------------------------------
@@ -4436,6 +4439,7 @@ t("bamboo hut", "대나무 오두막", "entity subtype")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
 t("rock", "바위", "entity subtype")
+t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 
 

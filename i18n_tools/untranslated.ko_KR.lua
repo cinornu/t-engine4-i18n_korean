@@ -1215,11 +1215,9 @@ t("open maggot door", "open maggot door", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/scourge.lua"
--- 5 entries
+-- 3 entries
 t("creep", "creep", "entity name")
 t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
@@ -1240,11 +1238,9 @@ t("creep", "creep", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/special-cave.lua"
--- 6 entries
+-- 4 entries
 t("cave walls", "cave walls", "entity name")
 t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("cave", "cave", "entity subtype")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
@@ -4140,13 +4136,11 @@ t("primal trunk", "primal trunk", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/slumbering_cave.lua"
--- 8 entries
+-- 6 entries
 t("corrupted cave floor", "corrupted cave floor", "entity name")
 t("corrupted cave walls", "corrupted cave walls", "entity name")
 t("corrupted cave door", "corrupted cave door", "entity name")
 t("corrupted cave door (open)", "corrupted cave door (open)", "entity name")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("corrupted cave", "corrupted cave", "entity subtype")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
@@ -6164,7 +6158,7 @@ TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/pocket-time.lua"
--- 15 entries
+-- 14 entries
 t("Maltoth", "Maltoth", "_t")
 t("a human", "a human", "_t")
 t("paradox mage", "paradox mage", "_t")
@@ -6172,7 +6166,6 @@ t("he", "he", "_t")
 t("she", "she", "_t")
 t("He", "He", "_t")
 t("She", "She", "_t")
-t("his", "his", "_t")
 t("a telepathic message <Rough Drafts>", "a telepathic message <Rough Drafts>", "_t")
 t([[<? Lore.init_pocket_time_data() ?>Once upon a time, there was a Halfling alchemist by the name of <?=Lore.pocket_time_winner.name?>.  Alongside her trusty golem, she marched into the Trollmire, disposing of all foes in her path; when she encountered Prox, though, and he bent down to roar mere inches from her face, well inside a bomb's blast radius, she panicked and pulled a vial off her belt--
 
@@ -7783,11 +7776,10 @@ t("Ancient Cave", "Ancient Cave", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
--- 6 entries
+-- 5 entries
 t("Coward!", "Coward!", "_t")
 t("You are not coward enough to leave your home unprotected!", "You are not coward enough to leave your home unprotected!", "_t")
 t("wooden barricade", "wooden barricade", "entity name")
-t("ladder to the next level", "ladder to the next level", "entity name")
 t("cave", "cave", "entity subtype")
 t("tunnel weakness", "tunnel weakness", "entity name")
 
@@ -8654,7 +8646,7 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/utils.lua"
--- 14 entries
+-- 11 entries
 t("%dth", "%dth", "_t")
 t("%dst", "%dst", "_t")
 t("%dnd", "%dnd", "_t")
@@ -8664,11 +8656,8 @@ t("a ", "a ", "_t")
 t("she", "she", "_t")
 t("he", "he", "_t")
 t("its", "its", "_t")
-t("his", "his", "_t")
 t("it", "it", "_t")
-t("herself", "herself", "_t")
 t("itself", "itself", "_t")
-t("himself", "himself", "_t")
 
 
 ------------------------------------------------
@@ -9365,11 +9354,8 @@ t("%s resists the grapple!", "%s resists the grapple!", "logSeen")
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/PartyDeath.lua"
--- 15 entries
-t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "_t")
+-- 12 entries
 t("%s(%d %s %s) was %s to death by %s%s on %s %s.", "%s(%d %s %s) was %s to death by %s%s on %s %s.", "_t")
-t("herself", "herself", "_t")
-t("himself", "himself", "_t")
 t(" (the fool)", " (the fool)", "_t")
 t(" in an act of extreme incompetence", " in an act of extreme incompetence", "_t")
 t(" out of supreme humility", " out of supreme humility", "_t")
@@ -11030,11 +11016,9 @@ t("bool", "bool", "entity subtype")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/bone.lua"
--- 5 entries
+-- 3 entries
 t("bone walls", "bone walls", "entity name")
 t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#You hear a mechanism clicking.", "log")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
@@ -11048,20 +11032,16 @@ t("corrupted altar", "corrupted altar", "entity name")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/cave.lua"
--- 6 entries
+-- 4 entries
 t("cave walls", "cave walls", "entity name")
 t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("cave", "cave", "entity subtype")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/crystal.lua"
--- 3 entries
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
+-- 1 entries
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
@@ -11092,13 +11072,11 @@ t("frozen water", "frozen water", "entity name")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/icecave.lua"
--- 8 entries
+-- 6 entries
 t("ice cave floor", "ice cave floor", "entity name")
 t("ice cave walls", "ice cave walls", "entity name")
 t("breakable ice wall", "breakable ice wall", "entity name")
 t("broken ice wall", "broken ice wall", "entity name")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("icecave", "icecave", "entity subtype")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
@@ -11119,11 +11097,9 @@ t("bamboo hut floor", "bamboo hut floor", "entity name")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/lava.lua"
--- 6 entries
+-- 4 entries
 t("molten_lava", "molten_lava", "entity subtype")
 t("molten lava", "molten lava", "entity name")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("cave", "cave", "entity subtype")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
@@ -11146,29 +11122,25 @@ t("hard rocky mountain", "hard rocky mountain", "entity name")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/psicave.lua"
--- 9 entries
+-- 7 entries
 t("psitech floor", "psitech floor", "entity name")
 t("psitech walls", "psitech walls", "entity name")
 t("psitech door (open)", "psitech door (open)", "entity name")
 t("psitech door", "psitech door", "entity name")
 t("This door seems to be sealed.", "This door seems to be sealed.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("psitech", "psitech", "entity subtype")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/sand.lua"
--- 9 entries
+-- 7 entries
 t("unstable sand tunnel", "unstable sand tunnel", "_t")
 t("Loose sand is steadily filling this void, which could collapse suddenly and completely.", "Loose sand is steadily filling this void, which could collapse suddenly and completely.", "_t")
 t("The unstable sand tunnel collapses!", "The unstable sand tunnel collapses!", "logSeen")
 t("You are crushed by the collapsing tunnel! You suffocate!", "You are crushed by the collapsing tunnel! You suffocate!", "logPlayer")
 t("was buried alive", "was buried alive", "_t")
 t("sandwall", "sandwall", "entity name")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
@@ -11197,37 +11169,31 @@ t("bool", "bool", "entity subtype")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/underground_dreamy.lua"
--- 7 entries
+-- 5 entries
 t("creep", "creep", "entity subtype")
 t("mushroom creep", "mushroom creep", "entity name")
 t("underground thick vegetation", "underground thick vegetation", "entity name")
 t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/underground_gloomy.lua"
--- 7 entries
+-- 5 entries
 t("creep", "creep", "entity subtype")
 t("mushroom creep", "mushroom creep", "entity name")
 t("underground thick vegetation", "underground thick vegetation", "entity name")
 t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/underground_slimy.lua"
--- 7 entries
+-- 5 entries
 t("creep", "creep", "entity subtype")
 t("mushroom creep", "mushroom creep", "entity name")
 t("underground thick vegetation", "underground thick vegetation", "entity name")
 t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to the next level", "ladder to the next level", "entity name")
-t("ladder to the previous level", "ladder to the previous level", "entity name")
 t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
@@ -21828,7 +21794,7 @@ t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Added %s[%s]%s at (%d, 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/DebugMain.lua"
--- 36 entries
+-- 34 entries
 t("Debug/Cheat! It's BADDDD!", "Debug/Cheat! It's BADDDD!", "_t")
 t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#God mode OFF", "log")
 t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#God mode ON", "log")
@@ -21846,7 +21812,6 @@ t("Killed", "Killed", "_t")
 t("Removed", "Removed", "_t")
 t("Kill", "Kill", "_t")
 t("Remove", "Remove", "_t")
-t("Change Zone", "Change Zone", "_t")
 t("Change Level", "Change Level", "_t")
 t("Reveal all map", "Reveal all map", "_t")
 t("Toggle Demi-Godmode", "Toggle Demi-Godmode", "_t")
@@ -21863,7 +21828,6 @@ t("Give all ingredients", "Give all ingredients", "_t")
 t("Weakdamage", "Weakdamage", "_t")
 t("Spawn Event", "Spawn Event", "_t")
 t("Endgamify", "Endgamify", "_t")
-t("Reload/regenerate Zone and level", "Reload/regenerate Zone and level", "_t")
 t("Automatically Clear Zones", "Automatically Clear Zones", "_t")
 
 
