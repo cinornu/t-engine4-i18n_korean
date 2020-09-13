@@ -1441,7 +1441,7 @@ t("Grand Oration", "위대한 기도문", "talent name")
 t([[You speak a chosen prophecy to the masses. When applying this prophecy, it will spread to all targets in radius %d.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
-		Current prophecy: %s]], [[선택된 예언을 군중에게 고합니다. 예언이 적용될 때, 반경 %d 안의 모든 대상에 예언이 퍼저나갑니다
+		Current prophecy: %s]], [[선택된 예언을 군중에게 고합니다. 예언이 적용될 때, 반경 %d 칸 이내의 모든 대상에게 예언이 퍼져나갑니다
 		하나의 예언은 위대한 기도문, 이중 저주, 계시 중 단 하나의 강화 효과를 받습니다.
 		
 		현재 예언: %s]], "tformat")
@@ -1594,7 +1594,7 @@ section "game/dlcs/tome-cults/data/talents/demented/madness.lua"
 t("Dark Whispers", "어둠의 속삭임", "talent name")
 t([[Terrible visions and maddening voices fill the minds of enemies within a radius %d area, inflicting %0.2f darkness damage each turn for 5 turns. In addition, this distraction will reduce physical, spell and mindpower of those affected by %d.
 The power loss caused by this spell can stack, to a maximum of %d powers.
-		The effect will increase with your Spellpower.]], [[끔찍한 광경과 광기의 목소리가 적의 정신을 채웁니다. 반경 %d 칸 내의 적들에게 5 턴 동안 %0.2f 암흑 피해를 매 턴 가합니다. 추가로, 대상의 주의를 뺏음으로써, 물리력, 주문력, 정신력을 %d 낮춥니다.
+		The effect will increase with your Spellpower.]], [[대상의 정신을 끔찍한 광경과 광기의 목소리로 채웁니다. 반경 %d 칸 내의 적들에게 5 턴 동안 %0.2f 암흑 피해를 매 턴 가합니다. 추가로적으로 대상의 주의를 흐트려 물리력, 주문력, 정신력을 %d 낮춥니다.
 이 주문으로 잃는 물리력, 주문력, 정신력은 중첩가능하며, 최대 %d 가능합니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Hideous Visions", "흉측한 광경", "talent name")
