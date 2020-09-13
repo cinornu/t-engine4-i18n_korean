@@ -316,12 +316,41 @@ t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/damage_types.lua"
 
+t("pulse detonator", "진동 기폭 장치", "_t")
+t("darkness pull", "끌어드리는 어둠", "_t")
+t("%s is pulled!", "%s 끌어당겨졌다!", "logSeen", nil, {"는"})
 t("%s resists the pull!", "%s 갈고리에 저항했다!", "logSeen", nil, {"은"})
+t("darkness pin", "어둠 고정", "_t")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("drain negative", "부정적 흡수", "_t")
+t("null_type", "속성없음", "_t")
+t("light + dark", "빛 + 어둠", "_t")
+t("blighted needles", "황폐성 바늘", "_t")
+t("infective darkness", "전염성 어둠", "_t")
+t("fiery vapour", "화염 증기", "_t")
+t("repairing", "수리", "_t")
+t("mind drone", "정신 드론", "_t")
+t("20% chance of physical repulsion", "20% 확률의 물리적 반동", "_t")
 t("%s is knocked back!", "%s 밀려났다!", "logSeen", nil, {"가"})
 t("%s resists the knockback!", "%s 꿈쩍도 하지 않았다!", "logSeen", nil, {"는"})
+t("temporal ripples", "시간의 파문", "_t")
+t("curse of amakthel", "아마크텔의 저주", "_t")
+t("psionic searing", "초능력 그을림", "_t")
+t("resource shock", "원천력 충격", "_t")
+t("smoke cloud", "연기 구름", "_t")
 t("lightning web", "전기망", "_t")
+t("incendiary grenade", "발화성 수류탄", "_t")
+t("chemical grenade", "화학 수류탄", "_t")
+t("shock grenade", "충격 수류탄", "_t")
+t("phosphorous", "소이", "_t")
+t("fire wall", "화염병", "_t")
 t("volatile fuel", "휘발성 연료", "_t")
+t("chemical", "화학", "_t")
+t("debilitating acid", "쇠약성 산성", "_t")
+t("caustic steam", "부식성 증기", "_t")
+t("galvanic", "전열", "_t")
+t("occult", "비술", "_t")
+t("terrene", "극지", "_t")
 
 
 ------------------------------------------------
@@ -591,6 +620,11 @@ t("%s quaffs the %s!", "%s %s 마셨다!", "logSeen", nil, {"는","을"})
 section "game/dlcs/tome-orcs/data/general/objects/inscriptions.lua"
 
 t("scroll", "두루마리", "entity type")
+t("implant", "증강장치", "_t")
+t("Steamtech implants can be grafted on the users skin..", "증기공학 증강장치는 사용자의 피부에 이식될 수 있습니다..", "_t")
+t("implant on your skin.", "피부에 이식합니다.", "_t")
+t("steam generator implant", "증기 생성 증강장치", "entity name")
+t("medical injector implant", "의료용 주사기 증강장치", "entity name")
 
 
 ------------------------------------------------
@@ -4588,9 +4622,20 @@ t("Steam", "증기", "_t")
 t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
 t("steamtech", "증기 공학", "_t")
 t("She looks tired and wounded.", "그녀는 지쳐 보이고 다친 것 같습니다.", "_t")
+t("I've changed my mind.", "생각을 바꿨어.", "_t")
+t("Which kind of item would you like ?", "어떤 종류의 물건이 필요해?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t([[Do you want to name your item?
+%s]], [[물건에 이름이라도 붙일래?
+%s]], "tformat")
+t("Yes, please.", "부탁해.", "_t")
 t("Name", "이름", "_t")
+t("Name your item", "이름을 붙인다", "_t")
+t("#LIGHT_BLUE#The merchant carefully hands you: %s", "#LIGHT_BLUE#상인이 조심스럽게 %s 넘겼습니다.", "log", nil, {"를"})
 t("No thanks.", "사양하지.", "_t")
+t("Oh I am sorry, it seems we could not make the item your require.", "오, 미안하구만, 네 기대에 걸맞는 물건을 못 만든 모양이야.", "_t")
+t("Oh, let's try something else then.", "그래? 그럼 다른 물건을 부탁해 볼까.", "_t")
+t("Oh well, maybe later then.", "그래? 그럼 나중에.", "_t")
 
 
 ------------------------------------------------
