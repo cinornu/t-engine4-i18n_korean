@@ -213,7 +213,19 @@
 "game/modules/tome/data/chats/keepsake-berethh-encounter.lua"
 "game/modules/tome/data/chats/keepsake-caravan-destroyed.lua"
 "game/modules/tome/data/chats/keepsake-kyless-death.lua"
-"game/modules/tome/data/chats/last-hope-elder.lua" Khelerd 완
+"game/modules/tome/data/chats/last-hope-elder.lua"
+"game/modules/tome/data/chats/last-hope-lost-merchant.lua"
+"game/modules/tome/data/chats/last-hope-melinda-father.lua"
+"game/modules/tome/data/chats/last-hope-weapon-store.lua"
+"game/modules/tome/data/chats/limmir-valley-moon.lua"
+"game/modules/tome/data/chats/lost-merchant.lua"
+"game/modules/tome/data/chats/lumberjack-quest-done.lua"
+"game/modules/tome/data/chats/lumberjack-quest.lua"
+"game/modules/tome/data/chats/mage-apprentice-quest.lua"
+"game/modules/tome/data/chats/magic-store.lua"
+"game/modules/tome/data/chats/melinda-beach-end.lua"
+"game/modules/tome/data/chats/melinda-beach.lua"
+"game/modules/tome/data/chats/melinda-fortress.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
@@ -656,6 +668,11 @@
 
 section "game/modules/tome/data/talents.lua" Stéphanois 완
 
+section "game/modules/tome/data/talents/celestial/dark-sun.lua" Stéphanois
+section "game/modules/tome/data/talents/celestial/darkside.lua" Stéphanois
+section "game/modules/tome/data/talents/celestial/dirge.lua" Stéphanois
+
+
 section "game/modules/tome/data/talents/chronomancy/age-manipulation.lua" 더미데이터
 section "game/modules/tome/data/talents/chronomancy/anomalies.lua" Stéphanois 완
 section "game/modules/tome/data/talents/chronomancy/blade-threading.lua" Stéphanois 완
@@ -705,7 +722,9 @@ section "game/modules/tome/data/talents/cunning/survival.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/tactical.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cunning/traps.lua" Stéphanois 완
 
-section "game/modules/tome/data/talents/cursed/advanced-shadowmancy.lua" Stéphanois ** 스킬 이름 번역은 '그림자 강타'로 해놨는데 '스톤'이라고 뜨네용 ㅠㅠ
+section "game/modules/tome/data/talents/cursed/advanced-shadowmancy.lua" Stéphanois 완
+section "game/modules/tome/data/talents/cursed/bloodstained.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/crimson-templar.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/cursed-aura.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cursed/cursed-form.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cursed/cursed.lua" Stéphanois 완
@@ -714,7 +733,7 @@ section "game/modules/tome/data/talents/cursed/dark-sustenance.lua" Stéphanois 
 section "game/modules/tome/data/talents/cursed/darkness.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cursed/endless-hunt.lua" Stéphanois 완
 section "game/modules/tome/data/talents/cursed/fears.lua" Stéphanois 완
-section "game/modules/tome/data/talents/cursed/force-of-will.lua"
+section "game/modules/tome/data/talents/cursed/force-of-will.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/gestures.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/gloom.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/one-with-shadows.lua" Stéphanois
@@ -722,10 +741,13 @@ section "game/modules/tome/data/talents/cursed/predator.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/primal-magic.lua" 더미데이터
 section "game/modules/tome/data/talents/cursed/punishments.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/rampage.lua" Stéphanois
+section "game/modules/tome/data/talents/cursed/self-hatred.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/shadows.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/slaughter.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/strife.lua" Stéphanois
 section "game/modules/tome/data/talents/cursed/traveler.lua" Stéphanois
+
+
 
 section "game/modules/tome/data/talents/gifts/antimagic.lua" Stéphanois
 section "game/modules/tome/data/talents/gifts/call.lua" Stéphanois
@@ -759,10 +781,10 @@ section "game/modules/tome/data/talents/gifts/venom-drake.lua" Stéphanois
 section "game/modules/tome/data/talents/misc/horrors.lua" Stéphanois 
 section "game/modules/tome/data/talents/misc/npcs.lua" Stéphanois 
 section "game/modules/tome/data/talents/misc/inscriptions.lua" Stéphanois  완 (더미데이터 안함)
-section "game/modules/tome/data/talents/misc/objects.lua" Stéphanois ** yiilkgur / morrigor 번역명 필요
+section "game/modules/tome/data/talents/misc/objects.lua" Stéphanois 완
 section "game/modules/tome/data/talents/misc/tutorial.lua" Stéphanois 
-section "game/modules/tome/data/talents/misc/races.lua" **Conclave 번역명 필요
-section "game/modules/tome/data/talents/misc/misc.lua"
+section "game/modules/tome/data/talents/misc/races.lua" Stéphanois
+section "game/modules/tome/data/talents/misc/misc.lua" Stéphanois
 
 section "game/modules/tome/data/talents/psionic/absorption.lua" Stéphanois 
 section "game/modules/tome/data/talents/psionic/augmented-mobility.lua" Stéphanois 
@@ -793,24 +815,54 @@ section "game/modules/tome/data/talents/psionic/thermal-mastery.lua" Stéphanois
 section "game/modules/tome/data/talents/psionic/thought-forms.lua" Stéphanois 
 section "game/modules/tome/data/talents/psionic/trance.lua" 더미데이터
 section "game/modules/tome/data/talents/psionic/voracity.lua" Stéphanois 
-
 section "game/modules/tome/data/talents/spells/acid-alchemy.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/advanced-golemancy.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/advanced-necrotic-minions.lua" 더미데이터
 section "game/modules/tome/data/talents/spells/aegis.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/aether.lua" Stéphanois 
-section "game/modules/tome/data/talents/spells/age-of-dusk.lua" 네크
-section "game/modules/tome/data/talents/spells/air.lua" Stéphanois 
-section "game/modules/tome/data/talents/spells/animus.lua" 네크
+section "game/modules/tome/data/talents/spells/age-of-dusk.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/animus.lua" Stéphanois
 section "game/modules/tome/data/talents/spells/arcane.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/conveyance.lua" Stéphanois 
-section "game/modules/tome/data/talents/spells/death.lua" 네크
+section "game/modules/tome/data/talents/spells/death.lua" Stéphanois
 section "game/modules/tome/data/talents/spells/deeprock.lua" Stéphanois 
 section "game/modules/tome/data/talents/spells/divination.lua" Stéphanois 
-section "game/modules/tome/data/talents/spells/dreadmaster.lua" 네크
+section "game/modules/tome/data/talents/spells/dreadmaster.lua"  Stéphanois
+section "game/modules/tome/data/talents/spells/earth.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/eldritch-shield.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/eldritch-stone.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/energy-alchemy.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/enhancement.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/eradication.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/explosives.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/fire-alchemy.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/frost-alchemy.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/glacial-waste.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/golem.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/golemancy.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/grave.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/master-necromancer.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/master-of-bones.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/master-of-flesh.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/meta.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/necrosis.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/nightfall.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/phantasm.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/rime-wraith.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/spectre.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/spells.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/staff-combat.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/stone-alchemy.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/stone.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/storm.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/temporal.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/thaumaturgy.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/war-alchemy.lua" 더미데이타인듯?
+section "game/modules/tome/data/talents/spells/water.lua" Stéphanois
+section "game/modules/tome/data/talents/spells/wildfire.lua" Stéphanois
 
 
-컬트 기술들-----------------------------------------------------------------------------------
+cult-----------------------------------------------------------------------------------
 
 section "game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua" Stéphanois 완
 section "game/dlcs/tome-cults/data/talents/demented/calamity.lua" Stéphanois 완
@@ -823,44 +875,110 @@ section "game/dlcs/tome-cults/data/talents/demented/oblivion.lua" Stéphanois �
 section "game/dlcs/tome-cults/data/talents/demented/rift.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/timethief.lua" stephanois 완
 section "game/dlcs/tome-cults/data/talents/demented/void.lua" stephanois 완
-section "game/dlcs/tome-cults/data/talents/demented/scourge-drake.lua"
+section "game/dlcs/tome-cults/data/talents/demented/scourge-drake.lua" Stéphanois
 section "game/dlcs/tome-cults/data/talents/demented/writhing-body.lua" 더미데이터
-section "game/dlcs/tome-cults/data/talents/demented/friend-of-the-worm.lua"
-section "game/dlcs/tome-cults/data/talents/demented/controlled-horrors.lua"
+section "game/dlcs/tome-cults/data/talents/demented/friend-of-the-worm.lua" Stéphanois
+section "game/dlcs/tome-cults/data/talents/demented/controlled-horrors.lua" Stéphanois
 
 section "game/dlcs/tome-cults/data/talents/misc/misc.lua" ** Kroshkkur /  Amakthel 번역명필요
-section "game/dlcs/tome-cults/data/talents/misc/races.lua"
+section "game/dlcs/tome-cults/data/talents/misc/races.lua" Stéphanois
 
 
-엠버오브레이지 기술들------------------------------------------------------------------------------------
+EOR------------------------------------------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents.lua"
 
-section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua"
-section "game/dlcs/tome-orcs/data/talents/celestial/cosmic.lua"
-section "game/dlcs/tome-orcs/data/talents/celestial/crepescula.lua"
-section "game/dlcs/tome-orcs/data/talents/celestial/energies.lua"
-section "game/dlcs/tome-orcs/data/talents/celestial/reflection.lua"
-section "game/dlcs/tome-orcs/data/talents/celestial/sol.lua"
-section "game/dlcs/tome-orcs/data/talents/celestial/void.lua"
+section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/celestial/cosmic.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/celestial/crepescula.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/celestial/energies.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/celestial/reflection.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/celestial/sol.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/celestial/void.lua" Stéphanois
 
-section "game/dlcs/tome-orcs/data/talents/misc/objects.lua"
+section "game/dlcs/tome-orcs/data/talents/misc/objects.lua" Stéphanois
 
-section "game/dlcs/tome-orcs/data/talents/psionic/action-at-a-distance.lua"
-section "game/dlcs/tome-orcs/data/talents/psionic/gestalt.lua"
-section "game/dlcs/tome-orcs/data/talents/psionic/psionic-fog.lua"
-section "game/dlcs/tome-orcs/data/talents/psionic/psionic.lua"
+section "game/dlcs/tome-orcs/data/talents/psionic/action-at-a-distance.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/psionic/gestalt.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/psionic/psionic-fog.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/psionic/psionic.lua" Stéphanois
 
-section "game/dlcs/tome-orcs/data/talents/spells/galvanic-technomancy.lua"
-section "game/dlcs/tome-orcs/data/talents/spells/occult-technomancy.lua"
-section "game/dlcs/tome-orcs/data/talents/spells/other-technomancy.lua"
-section "game/dlcs/tome-orcs/data/talents/spells/spells.lua"
-section "game/dlcs/tome-orcs/data/talents/spells/terrene-technomancy.lua"
-section "game/dlcs/tome-orcs/data/talents/spells/undead-drake.lua"
+section "game/dlcs/tome-orcs/data/talents/spells/galvanic-technomancy.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/spells/occult-technomancy.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/spells/other-technomancy.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/spells/spells.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/spells/terrene-technomancy.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/spells/undead-drake.lua" Stéphanois
 
-section "game/dlcs/tome-orcs/data/talents/steam/artillery.lua"
+section "game/dlcs/tome-orcs/data/talents/steam/artillery.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/automated-butchery.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/automation.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/avoidance.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/battle-machinery.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/battlefield-management.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/blacksmith.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/bullets-mastery.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/butchery.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/chemical-warfare.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/chemistry.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/demolition.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/dread.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/elusiveness.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/engineering.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/furnace.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/gadgets.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/gunner-training.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/gunslinging.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/heavy-weapons.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/inscriptions.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/magnetism.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/mecharachnid.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/mechstar.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/physics.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/psytech-gunnery.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/sawmaiming.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/steam.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/thoughts-of-iron.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/turrets.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/steam/other.lua" Stéphanois
 
-기술 그냥 다함 
+section "game/dlcs/tome-orcs/data/talents/uber/const.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/uber/cun.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/uber/dex.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/uber/mag.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/uber/str.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/talents/uber/wil.lua" Stéphanois
 
+
+urh'rok------------------------------------------------------------------
+
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/black-magic.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/brutality.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/corruptions.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/demonic-strength.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/fearfire.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/npcs.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/oppression.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/torture.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/wrath.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/talents/misc/races.lua" Stéphanois
+
+possessor----------------------------------------------------------------
+
+section "game/addons/tome-possessors/data/talents/psionic/body-snatcher.lua" Stéphanois
+section "game/addons/tome-possessors/data/talents/psionic/deep-horror.lua" Stéphanois
+section "game/addons/tome-possessors/data/talents/psionic/possession.lua" Stéphanois
+section "game/addons/tome-possessors/data/talents/psionic/psionic-menace.lua" Stéphanois
+section "game/addons/tome-possessors/data/talents/psionic/psionic.lua" Stéphanois
+section "game/addons/tome-possessors/data/talents/psionic/psychic-blows.lua" Stéphanois
+section "game/addons/tome-possessors/data/talents/psionic/ravenous-mind.lua" Stéphanois
+section "game/addons/tome-possessors/data/talents/psionic/battle-psionics.lua" Stéphanois
 
 장비 설명들--------------------------------------------------------------
 section "game/modules/tome/data/general/objects/2haxes.lua" Stéphanois
@@ -889,7 +1007,7 @@ section "game/modules/tome/data/general/objects/massive-armors.lua" Stéphanois
 section "game/modules/tome/data/general/objects/mindstars.lua" Stéphanois
 section "game/modules/tome/data/general/objects/misc-tools.lua" Stéphanois
 section "game/modules/tome/data/general/objects/money.lua" Stéphanois
-section "game/modules/tome/data/general/objects/mounts.lua" Stéphanois 더미데이터인 것으로 보이나 그냥 번역함
+section "game/modules/tome/data/general/objects/mounts.lua" Stéphanois 
 section "game/modules/tome/data/general/objects/mummy-wrappings.lua" Stéphanois
 section "game/modules/tome/data/general/objects/scrolls.lua" Stéphanois 더미데이터 번역 안함 
 section "game/modules/tome/data/general/objects/shields.lua" Stéphanois
@@ -903,46 +1021,49 @@ section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
  장비 에고
 section "game/modules/tome/data/general/objects/egos/ammo.lua" Stéphanois
-section "game/modules/tome/data/general/objects/egos/amulets.lua"
-section "game/modules/tome/data/general/objects/egos/armor.lua"
-section "game/modules/tome/data/general/objects/egos/belt.lua"
-section "game/modules/tome/data/general/objects/egos/boots.lua"
-section "game/modules/tome/data/general/objects/egos/bow.lua"
-section "game/modules/tome/data/general/objects/egos/charged-attack.lua"
-section "game/modules/tome/data/general/objects/egos/charged-defensive.lua"
-section "game/modules/tome/data/general/objects/egos/charged-utility.lua"
-section "game/modules/tome/data/general/objects/egos/charms.lua"
-section "game/modules/tome/data/general/objects/egos/cloak.lua"
-section "game/modules/tome/data/general/objects/egos/digger.lua"
-section "game/modules/tome/data/general/objects/egos/gloves.lua"
-section "game/modules/tome/data/general/objects/egos/heavy-armor.lua"
-section "game/modules/tome/data/general/objects/egos/helm.lua"
-section "game/modules/tome/data/general/objects/egos/infusions.lua"
-section "game/modules/tome/data/general/objects/egos/light-armor.lua"
-section "game/modules/tome/data/general/objects/egos/light-boots.lua"
-section "game/modules/tome/data/general/objects/egos/lite.lua"
-section "game/modules/tome/data/general/objects/egos/massive-armor.lua"
-section "game/modules/tome/data/general/objects/egos/mindstars.lua"
-section "game/modules/tome/data/general/objects/egos/potions.lua"
+section "game/modules/tome/data/general/objects/egos/amulets.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/armor.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/belt.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/boots.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/bow.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/charged-attack.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/charged-defensive.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/charged-utility.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/charms.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/cloak.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/digger.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/gloves.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/heavy-armor.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/helm.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/infusions.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/light-armor.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/light-boots.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/lite.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/massive-armor.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/mindstars.lua" Stéphanois
+section "game/modules/tome/data/general/objects/egos/potions.lua" Stéphanois
  아티팩트
-section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua"
-section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua"
-section "game/modules/tome/data/general/objects/boss-artifacts.lua"
-section "game/modules/tome/data/general/objects/brotherhood-artifacts.lua"
-section "game/modules/tome/data/general/objects/quest-artifacts.lua"
-section "game/modules/tome/data/general/objects/special-artifacts.lua"
-section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua"
+section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua" Stéphanois
+section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua" Stéphanois
+section "game/modules/tome/data/general/objects/boss-artifacts.lua" Stéphanois
+section "game/modules/tome/data/general/objects/brotherhood-artifacts.lua" Stéphanois
+section "game/modules/tome/data/general/objects/quest-artifacts.lua" Stéphanois
+section "game/modules/tome/data/general/objects/special-artifacts.lua" Stéphanois
+section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua" Stéphanois
+section "game/modules/tome/data/general/objects/world-artifacts.lua" Stéphanois
 
 
 데미지 타입 ---------------------------------
-section "game/dlcs/tome-cults/data/damage_types.lua"
-section "game/modules/tome/data/damage_types.lua"
+section "game/dlcs/tome-cults/data/damage_types.lua" Stéphanois
+section "game/modules/tome/data/damage_types.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/damage_types.lua" Stéphanois
 
 
 section "game/modules/tome/class/Game.lua" Stéphanois - 기본적인 게임 로그메시지들
 section "game/modules/tome/class/Object.lua" Stéphanois - 게임 시스템 / 아이템 창					
 section "game/modules/tome/class/Actor.lua" Stéphanois - 오른쪽 아래에 뜨는 설명창과 레벨 업 창, 다양한 로그메시지들	
-section "game/modules/tome/dialogs/CharacterSheet.lua" Stéphanois 캐릭터 시트 ???
+section "game/modules/tome/class/Player.lua"
+section "game/modules/tome/dialogs/CharacterSheet.lua" Stéphanois 캐릭터 시트
 
 section "game/engines/default/engine/dialogs/LanguageSelect.lua" Stéphanois
 section "game/engines/default/engine/dialogs/ShowAchievements.lua" Stéphanois
@@ -953,60 +1074,62 @@ section "game/modules/tome/class/interface/PlayerExplore.lua" Stéphanois
 section "game/modules/tome/class/interface/WorldAchievements.lua" Stéphanois
 
 캐릭터 생성시 birth들----------------------------------------
-section "game/modules/tome/data/birth/descriptors.lua"
-section "game/dlcs/tome-ashes-urhrok/data/birth/corrupted.lua"
-section "game/dlcs/tome-ashes-urhrok/data/birth/doomelf.lua"
-section "game/dlcs/tome-ashes-urhrok/data/birth/races_cosmetic.lua"
-section "game/dlcs/tome-cults/data/birth/demented.lua"
-section "game/dlcs/tome-cults/data/birth/drem.lua"
-section "game/dlcs/tome-cults/data/birth/krog.lua"
-section "game/dlcs/tome-cults/data/birth/misc.lua"
-section "game/dlcs/tome-orcs/data/birth/classes/empyreal.lua"
-section "game/dlcs/tome-orcs/data/birth/classes/tinker.lua"
-section "game/dlcs/tome-orcs/data/birth/races/orc.lua"
-section "game/dlcs/tome-orcs/data/birth/races/whitehooves.lua"
-section "game/dlcs/tome-orcs/data/birth/races/yeti.lua"
-section "game/dlcs/tome-orcs/data/birth/worlds.lua"
-section "game/modules/tome/data/birth/classes/tutorial.lua"
-section "game/modules/tome/data/birth/classes/warrior.lua"
-section "game/modules/tome/data/birth/races/construct.lua"
-section "game/modules/tome/data/birth/races/dwarf.lua"
-section "game/modules/tome/data/birth/races/elf.lua"
-section "game/modules/tome/data/birth/races/giant.lua"
-section "game/modules/tome/data/birth/sexes.lua"
-section "game/modules/tome/data/birth/worlds.lua"
+section "game/modules/tome/data/birth/descriptors.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/birth/corrupted.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/birth/doomelf.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/birth/races_cosmetic.lua" Stéphanois
+section "game/dlcs/tome-cults/data/birth/demented.lua" Stéphanois
+section "game/dlcs/tome-cults/data/birth/drem.lua" Stéphanois
+section "game/dlcs/tome-cults/data/birth/krog.lua" Stéphanois
+section "game/dlcs/tome-cults/data/birth/misc.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/birth/classes/empyreal.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/birth/classes/tinker.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/birth/races/orc.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/birth/races/whitehooves.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/birth/races/yeti.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/birth/worlds.lua" Stéphanois
+section "game/modules/tome/data/birth/classes/tutorial.lua" Stéphanois
+section "game/modules/tome/data/birth/classes/warrior.lua" Stéphanois
+section "game/modules/tome/data/birth/races/construct.lua" Stéphanois
+section "game/modules/tome/data/birth/races/dwarf.lua" Stéphanois
+section "game/modules/tome/data/birth/races/elf.lua" Stéphanois
+section "game/modules/tome/data/birth/races/giant.lua" Stéphanois
+section "game/modules/tome/data/birth/sexes.lua" Stéphanois
+section "game/modules/tome/data/birth/worlds.lua" Stéphanois
 
 몬스터
-section "game/modules/tome/data/general/npcs/ant.lua"
-section "game/modules/tome/data/general/npcs/aquatic_critter.lua"
-section "game/modules/tome/data/general/npcs/aquatic_demon.lua"
-section "game/modules/tome/data/general/npcs/bear.lua"
-section "game/modules/tome/data/general/npcs/bird.lua"
-section "game/modules/tome/data/general/npcs/bone-giant.lua"
-section "game/modules/tome/data/general/npcs/canine.lua"
-section "game/modules/tome/data/general/npcs/cold-drake.lua"
-section "game/modules/tome/data/general/npcs/construct.lua"
-section "game/modules/tome/data/general/npcs/crystal.lua"
-section "game/modules/tome/data/general/npcs/faeros.lua"
-section "game/modules/tome/data/general/npcs/feline.lua"
-section "game/modules/tome/data/general/npcs/fire-drake.lua"
-section "game/modules/tome/data/general/npcs/ghost.lua"
+section "game/modules/tome/data/general/npcs/ant.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/aquatic_critter.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/aquatic_demon.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/bear.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/bird.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/bone-giant.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/canine.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/cold-drake.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/construct.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/crystal.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/faeros.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/feline.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/fire-drake.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/ghost.lua" Stéphanois
 
 
 지속 효과들--------------------------------------------------------------
-section "game/modules/tome/data/damage_types.lua" Stéphanois ** 네크로맨서 번역 안함
-section "game/modules/tome/data/timed_effects.lua" Stéphanois   완
+section "game/modules/tome/data/damage_types.lua" Stéphanois 
+section "game/modules/tome/data/timed_effects.lua" Stéphanois  완
 section "game/modules/tome/data/timed_effects/floor.lua" Stéphanois  완
-section "game/modules/tome/data/timed_effects/magical.lua" ** 네크로맨서 번역 안함
+section "game/modules/tome/data/timed_effects/magical.lua" Stéphanois
 section "game/modules/tome/data/timed_effects/mental.lua"  Stéphanois 완
 section "game/modules/tome/data/timed_effects/other.lua"  Stéphanois 완
 section "game/modules/tome/data/timed_effects/physical.lua" Stéphanois
+section "game/addons/tome-possessors/data/timed_effects.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua" Stéphanois
 section "game/dlcs/tome-cults/data/timed_effects.lua" Stéphanois
-section "game/dlcs/tome-orcs/data/timed_effects/floor.lua"
-section "game/dlcs/tome-orcs/data/timed_effects/magical.lua"
-section "game/dlcs/tome-orcs/data/timed_effects/mental.lua"
-section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
-section "game/dlcs/tome-orcs/data/timed_effects/physical.lua"
+section "game/dlcs/tome-orcs/data/timed_effects/floor.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/timed_effects/magical.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/timed_effects/mental.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/timed_effects/other.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/timed_effects/physical.lua" Stéphanois
 
 
 section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
@@ -1020,22 +1143,21 @@ section "game/modules/tome/data/birth/descriptors.lua" Stéphanois  완
 section "game/modules/tome/dialogs/DeathDialog.lua" Stéphanois  완
 section "game/modules/tome/dialogs/Birther.lua" Stéphanois  완
 section "game/modules/tome/dialogs/LevelupDialog.lua" Stéphanois  ** 이 기술계열은 레벨 %d 부터 사용할 수 있습니다. 지금 이 기술계열을 익히는 것은 쓸모가 없습니다 <- 짤려나옴
-section "game/modules/tome/dialogs/PartyOrder.lua 완
-section "game/modules/tome/dialogs/CharacterSheet.lua" 완
-section "game/modules/tome/class/interface/TooltipsData.lua" (중간부터 끝냄)
+section "game/modules/tome/dialogs/PartyOrder.lua Stéphanois 완
+section "game/modules/tome/dialogs/CharacterSheet.lua Stéphanois" 완
+section "game/modules/tome/class/interface/TooltipsData.lua" Stéphanois (중간부터 끝냄)
 
 section "game/modules/tome/data/zones/wilderness/zone.lua" Stéphanois  완
 section "game/modules/tome/data/zones/wilderness/grids.lua" Stéphanois  완
-section "game/modules/tome/class/interface/TooltipsData.lua"
 
 발명스킬 누를때 설명----------------------------------------
-section "game/dlcs/tome-orcs/data/tinkers.lua"
-section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua"
-section "game/dlcs/tome-orcs/data/tinkers/electricity.lua"
-section "game/dlcs/tome-orcs/data/tinkers/explosive.lua"
-section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua"
-section "game/dlcs/tome-orcs/data/tinkers/smith.lua"
-section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
+section "game/dlcs/tome-orcs/data/tinkers.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/tinkers/chemistry.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/tinkers/electricity.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/tinkers/explosive.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/tinkers/smith.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua" Stéphanois
 
 
 
