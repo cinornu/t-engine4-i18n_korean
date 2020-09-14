@@ -231,7 +231,14 @@
 "game/modules/tome/data/chats/norgan-saved.lua"
 "game/modules/tome/data/chats/paradoxology.lua"
 "game/modules/tome/data/chats/player-inscription.lua"
-"game/modules/tome/data/chats/point-zero-zemekkys.lua" Khelerd 완
+"game/modules/tome/data/chats/point-zero-zemekkys.lua"
+"game/modules/tome/data/chats/pre-charred-scar-eruan.lua"
+"game/modules/tome/data/chats/pre-charred-scar.lua"
+"game/modules/tome/data/chats/ring-of-blood-master.lua"
+"game/modules/tome/data/chats/ring-of-blood-orb.lua"
+"game/modules/tome/data/chats/ring-of-blood-win.lua"
+"game/modules/tome/data/chats/sage-kitty.lua"
+"game/modules/tome/data/chats/shadow-crypt-yeek-clone.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
