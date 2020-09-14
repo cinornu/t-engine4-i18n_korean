@@ -1071,6 +1071,8 @@ section "game/modules/tome/data/general/objects/quest-artifacts.lua" Stéphanois
 section "game/modules/tome/data/general/objects/special-artifacts.lua" Stéphanois
 section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua" Stéphanois
 section "game/modules/tome/data/general/objects/world-artifacts.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
+section "game/dlcs/tome-cults/data/general/objects/world-artifacts.lua"
 
 
 데미지 타입 ---------------------------------
