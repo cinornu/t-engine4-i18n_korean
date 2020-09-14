@@ -238,7 +238,8 @@
 "game/modules/tome/data/chats/ring-of-blood-orb.lua"
 "game/modules/tome/data/chats/ring-of-blood-win.lua"
 "game/modules/tome/data/chats/sage-kitty.lua"
-"game/modules/tome/data/chats/shadow-crypt-yeek-clone.lua" Khelerd 완
+"game/modules/tome/data/chats/shadow-crypt-yeek-clone.lua"
+"game/modules/tome/data/chats/shertul-fortress-butler.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
