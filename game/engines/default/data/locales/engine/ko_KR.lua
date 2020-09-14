@@ -1228,7 +1228,7 @@ t("%s can not wear: %s.", "%s %s 장비할 수 없다.", "logSeen", nil, {"는",
 section "game/engines/default/engine/interface/ActorLife.lua"
 
 t("#{bold}#%s killed %s!#{normal}#", "#{bold}#%s %s 죽였다!#{normal}#", "logSeen", nil, {"는","를"})
-t("something", "물체", "_t")
+t("something", "무언가", "_t")
 t("%s attacks %s.", "%s %s 공격했다.", "logSeen", nil, {"는","를"})
 
 

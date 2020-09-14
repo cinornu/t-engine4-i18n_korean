@@ -161,35 +161,8 @@ t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
--- 83 entries
-t("Blackfire Aegis", "Blackfire Aegis", "entity name")
-t("blackened stone shield", "blackened stone shield", "_t")
-t("This rugged stone shield flickers with bursts of pitch black flame.", "This rugged stone shield flickers with bursts of pitch black flame.", "_t")
-t("releases a burst of dark fire, dealing damage equal to your magic stat", "releases a burst of dark fire, dealing damage equal to your magic stat", "_t")
-t("Will of Ul'Gruth", "Will of Ul'Gruth", "entity name")
-t("massive metallic gauntlets", "massive metallic gauntlets", "_t")
-t("These massive gauntlets once belonged to a very powerful demon named Ul'Gruth. The behemoth was said to be able to level entire buildings with a single swing of his hands.", "These massive gauntlets once belonged to a very powerful demon named Ul'Gruth. The behemoth was said to be able to level entire buildings with a single swing of his hands.", "_t")
-t("Your Obliterating Smash can destroy walls.", "Your Obliterating Smash can destroy walls.", "_t")
-t("Fearfire Mantle", "Fearfire Mantle", "entity name")
-t("cloak shaped flames", "cloak shaped flames", "_t")
-t("Black fires born of a blackened heart.", "Black fires born of a blackened heart.", "_t")
-t("All enemies in radius 2 take 20 fire damage each turn and healing you for 10% of the damage dealt.", "All enemies in radius 2 take 20 fire damage each turn and healing you for 10% of the damage dealt.", "_t")
-t("Plague-Fire Sceptre", "Plague-Fire Sceptre", "entity name")
-t("The flames of Mal'Rok can be more stubborn than most. When they run out of fuel they have been known go out of their way to find more.", "The flames of Mal'Rok can be more stubborn than most. When they run out of fuel they have been known go out of their way to find more.", "_t")
-t("Plaguefire detonates when its victim dies, spreading to other enemies up to two times.", "Plaguefire detonates when its victim dies, spreading to other enemies up to two times.", "_t")
-t("fire a bolt of plaguefire, dealing damage over time based on your magic stat", "fire a bolt of plaguefire, dealing damage over time based on your magic stat", "_t")
-t("Dethblyd", "Dethblyd", "entity name")
-t("pitch black sword", "pitch black sword", "_t")
-t("Grushgore the Destroyer was as famous for his incredible brutality as he was for his childlike intelligence. He wasn't known for his subtlety of naming, but there's no denying the power of his massive sword.", "Grushgore the Destroyer was as famous for his incredible brutality as he was for his childlike intelligence. He wasn't known for his subtlety of naming, but there's no denying the power of his massive sword.", "_t")
-t("Increases all damage dealt, and reduces all damage taken, by 1%, stacking up to 10 times. Resets after 10 turns without attacking.", "Increases all damage dealt, and reduces all damage taken, by 1%, stacking up to 10 times. Resets after 10 turns without attacking.", "_t")
+-- 56 entries
 t("", "", "_t")
-t("Quasit's Skull", "Quasit's Skull", "entity name")
-t("rocky helm", "rocky helm", "_t")
-t("Some enterprising adventurer seems to have noticed the skin of quasits is actually tougher than most metals, and fashioned this helm from one. Shame about the smell.", "Some enterprising adventurer seems to have noticed the skin of quasits is actually tougher than most metals, and fashioned this helm from one. Shame about the smell.", "_t")
-t("Revenant", "Revenant", "entity name")
-t("shifting breastplate", "shifting breastplate", "_t")
-t("The joints of this armor creak ominously, the frame bends and heaves, almost as if breathing. The scratch and crack of metal mutters of suffering, of loss, perseverance and revenge.", "The joints of this armor creak ominously, the frame bends and heaves, almost as if breathing. The scratch and crack of metal mutters of suffering, of loss, perseverance and revenge.", "_t")
-t("Status resistances shift over time to match the statuses you are being hit by.", "Status resistances shift over time to match the statuses you are being hit by.", "_t")
 t("Imp Claw", "Imp Claw", "entity name")
 t("red, mottled claw", "red, mottled claw", "_t")
 t("The battered remains of a flame imp's hand. It still burns with that unnatural flame.", "The battered remains of a flame imp's hand. It still burns with that unnatural flame.", "_t")
@@ -11431,7 +11404,7 @@ t("This massive form, sheathed in dark flames, stands tall above a legion of les
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/minor-demon.lua"
--- 8 entries
+-- 7 entries
 t("fire imp", "fire imp", "entity name")
 t("A small demon, lobbing spells at you.", "A small demon, lobbing spells at you.", "_t")
 t("wretchling", "wretchling", "entity name")
@@ -11440,7 +11413,6 @@ t("onilug", "onilug", "entity name")
 t([[A gaunt vaguely humanoid shape featuring unadorned grey leathery skin. Its arms and legs seem somehow too long and it stands tall, projecting an ominous shadow even in darkness.
 Its glowing red eyes shine with both cruelty and a deep frightening intellect.]], [[A gaunt vaguely humanoid shape featuring unadorned grey leathery skin. Its arms and legs seem somehow too long and it stands tall, projecting an ominous shadow even in darkness.
 Its glowing red eyes shine with both cruelty and a deep frightening intellect.]], "_t")
-t("quasit", "quasit", "entity name")
 t("A small, heavily armoured demon, rushing toward you.", "A small, heavily armoured demon, rushing toward you.", "_t")
 
 

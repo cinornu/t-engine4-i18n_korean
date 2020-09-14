@@ -405,7 +405,7 @@ t("Log the problem, Stay: level %s of %s", "문제 로그 열기, %s 의 %s 구�
 t("Debug the problem (move to the failed zone/level)", "문제 디버그하기 (실패한 지역/구역으로 이동)", "_t")
 t("Information logged", "정보 로그됨", "_t")
 t("Information on the failed zone and level dumped to the log file.", "실패한 지역과 구역에 대한 정보가 로그 파일에 덤프되었다.", "_t")
-t("The game could not generate level %s of %s after %s attempts. What do you want to do?", "게임이 %s 의 %s 층 생성을 %s 번 실도했지만 실패했다. 어떻게 할까?", "tformat", {2,1,3})
+t("The game could not generate level %s of %s after %s attempts. What do you want to do?", "게임이 %s 의 %s 층 생성을 %s 번 시도했지만 실패했다. 어떻게 할까?", "tformat", {2,1,3})
 t("Level Generation Failure", "구역 생성 실패", "_t")
 t("Loading level", "구역 불러오는 중", "_t")
 t("Please wait while loading the level...", "구역을 불러오는 중 입니다...", "_t")
@@ -420,7 +420,7 @@ t("You stride into this area without a second thought, while stifling a yawn. Yo
 t("Folding the space time structure...", "시공간 구조를 접합 중...", "_t")
 t("Chronomancy", "시공 제어", "_t")
 t("Unfolding the space time structure...", "시공간 구조를 다시 펴는 중...", "_t")
-t("something", "물체", "_t")
+t("something", "무언가", "_t")
 t("unknown", "알 수 없음", "_t")
 t(" #LIGHT_GREEN#[%0.0f healing]#LAST#", " #LIGHT_GREEN#[%0.0f 회복]#LAST#", "tformat")
 t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.", "logMessage")
@@ -1014,7 +1014,7 @@ t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약한 �
 section "game/modules/tome/class/interface/PartyDeath.lua"
 
 t("unknown", "알 수 없음", "_t")
-t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%d 레벨의 %s %s %s %s %s 구역에서 %s%s%s 에게 %s 죽었다.", "_t", {2,3,4,1,10,9,8,7,6,5}, {[4]="는"})
+t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%d 레벨의 %s %s %s는 %s %s 구역에서 %s%s%s 에게 %s 죽었다.", "_t", {2,3,4,1,10,9,8,7,6,5})
 t("her", "그녀", "_t")
 t("him", "그", "_t")
 t("herself", "자기 자신", "_t")
@@ -6608,6 +6608,7 @@ section "game/modules/tome/data/general/npcs/minor-demon.lua"
 
 t("demon", "악마", "entity type")
 t("minor", "하위", "entity subtype")
+t("quasit", "콰짓", "entity name")
 
 
 ------------------------------------------------
@@ -10907,7 +10908,7 @@ t("large echoing mace", "크게 울리는 둔기", "_t")
 t("Tremendous power is concentrated in this heavy mace. Just dropping it can knock down nearby walls.", "막대한 힘이 히 무거운 둔기에 집중되어 있습니다. 그저 떨어뜨리는 것만으로도 근처의 벽을 무너뜨릴 수 있습니다.", "_t")
 t("perform a melee strike against a target at up to range %d for an automatic critical hit as lightning damage", "최대 %d 칸 내의 적에게 근접공격을 가합니다. 무조건 치명타를 발생시키며, 전기 피해를 줍니다", "tformat")
 t("#Source# hurls %s %s at #target#!", "#Source1# %s %s #target#에게 던진다!", "logCombat", nil, {"는"})
-t("something", "물체", "_t")
+t("something", "무언가", "_t")
 t("%s's weapon returns to %s!", "%s의 무기가 %s에게 돌아왔다!", "logSeen")
 t("Kinetic Focus", "동역학 집중", "entity name")
 t("humming mindstar", "윙윙거리는 마석", "_t")
@@ -12017,7 +12018,7 @@ t("You abandoned %s, to death.", "%s 죽도록 내버려뒀습니다.", "tformat
 t("You failed to protect the %s from death by %s.", "%s %s 때문에 죽는 것을 막지 못했습니다.", "tformat", nil, {"가"})
 t("Escort the %s to the recall portal on level %s.", "%s %s 구역의 귀환 차원문까지 호위했습니다.", "tformat", nil, {"를"})
 t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s 죽었다. 임무 실패다!", "logPlayer", nil, {"이"})
-t("something", "물체", "_t")
+t("something", "무언가", "_t")
 t("Recall Portal", "귀환 차원문", "_t")
 t("%s of %s", "%s %s층", "tformat", {2,1})
 t("Escort: %s (level %s)", "호위: %s (구역 %s)", "tformat")
@@ -17926,7 +17927,7 @@ t("Lay a concealed web (%d detect 'power', %d disarm 'power') under yourself tha
 t("Darkness", "어둠", "talent name")
 t("Weave darkness (power %d) in a radius of %d, blocking all light but the most powerful and teleporting you a short range.", "반경 %d 칸 내에 위력 %d의 어둠을 풀어놓아, 대부분의 빛을 방해합니다. 시전자는 시전 직후 짧은 거리를 순간이동합니다.", "tformat", {2,1})
 t("Throw Boulder", "바위 던지기", "talent name")
-t("something", "물체", "_t")
+t("something", "무언가", "_t")
 t("#Source# hurls a huge boulder at #target#!", "#Source1# #target#에게 바위를 던진다!", "logCombat")
 t([[Throw a huge boulder, dealing %0.2f physical damage and knocking targets back %d tiles within radius %d.
 		The damage will increase with your Strength.]], [[반경 %d 칸 범위 내의 대상에게 거대한 바위를 던저, %0.2f 물리 피해를 입히고 대상을 %d 칸 밀어냅니다.  .
@@ -27547,7 +27548,7 @@ t("+Garrote", "+교살", "_t")
 t("Something", "무엇인가", "_t")
 t("#Target# is free from %s's garrote.", "#Target2# %s의 교살 시도로부터 자유로워졌다.", "tformat")
 t("-Garrote", "-교살", "_t")
-t("something", "물체", "_t")
+t("something", "무언가", "_t")
 t("#Source# #LIGHT_RED#strangles#LAST# #Target#!", "#Source1# #Target#의 #LIGHT_RED#목을 조른다#LAST# !", "logCombat")
 t("Marked for Death", "죽음의 표식", "_t")
 t("The target takes %d%% increased damage from all sources.  If this effect runs its full course, the target will take an additional %0.1f physical damage (increased by %d%% of all damage taken while this effect is active).", "모든 공격으로 부터 %d%% 증가된 피해를 받음 / 지속시간이 끝날 때, 추가적으로 %0.1f 물리 피해를 받음. (지속시간 내에 받은 피해량의 %d%% 가 추가됨).", "tformat")
