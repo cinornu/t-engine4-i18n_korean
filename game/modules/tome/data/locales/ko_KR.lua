@@ -491,6 +491,8 @@ t("Diggable", "굴착 가능", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/MapEffects.lua"
 
+t(" area effect", " 지형 효과", "_t")
+t("area effect", "지형 효과", "_t")
 t("%s's %s", "%s 의 %s", "tformat")
 
 
@@ -993,7 +995,7 @@ section "game/modules/tome/class/interface/ActorInscriptions.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/ActorObjectUse.lua"
 
-t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
+t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 
 
 ------------------------------------------------
@@ -2667,7 +2669,7 @@ t("All dwarves are united under the Empire and their love of money.", "모든 �
 t("Dwarf", "드워프", "birth descriptor name")
 t("Dwarves are a secretive people, hailing from their underground home of the Iron Throne.", "드워프들은 비밀스러운 민족으로, 철의 왕좌의 지하에서 태어났습니다.", "_t")
 t("They are a sturdy race and are known for their masterwork, yet they are not well loved, having left other races to fend for themselves in past conflicts.", "드워프는 강인하고, 장인의 기술을 가진 민족입니다. 과거의 분쟁을 피하기 위해 다른 종족들에게서 떠나갔기 때문에 아직 많은 이들에게 사랑을 받는 것은 아니지만요.", "_t")
-t("They possess the #GOLD#Resilience of the Dwarves#WHITE# which allows them to increase their armour, physical and spell saves for a few turns.", "드워프는 방어력과 물리, 주문 저항을 몇 턴 동안 향상시킬 수 있는 #GOLD#드워프의 강인함#WHITE# 기술을 갖고 있습니다.", "_t")
+t("They possess the #GOLD#Resilience of the Dwarves#WHITE# which allows them to increase their armour, physical and spell saves for a few turns.", "드워프는 방어력과 물리, 주문 내성을 몇 턴 동안 향상시킬 수 있는 #GOLD#드워프의 강인함#WHITE# 기술을 갖고 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +4 Strength, -2 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +4 힘, -2 민첩, +3 체격", "_t")
 t("#LIGHT_BLUE# * -2 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 마법, +3 의지, +0 교활", "_t")
@@ -2836,7 +2838,7 @@ to start, look where halflings once tinkered with portals...]], [[아주 오래 
 과거의 절도는 실패했지만, 그들의 자료는 불멸한다;
 시작하기 위해선, 한 때 하플링들이 차원문으로 실험했던 곳부터 찾아보아라...]], "_t")
 t("Ogres are an altered form of Human, created in the Age of Allure as workers and warriors for the Conclave.", "오우거는 인간의 변형된 모습으로, 매혹의 시대 때, 최고 의회를 위해 일하던 노동자들과 전사였습니다.", "_t")
-t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "각인은 오우거에게 자연의 한계를 뛰어넘은 강력한 육체적인 힘과 마법적인 힘을 주었습니다. 그러나 룬 마법에 대한 의존으로 인해, 마법사냥 기간동안 오우거들은 주된 표적이 되었고, 그로인해 샬로레의 영역 내로 피난을 가게되었습니다.", "_t")
+t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "각인은 오우거에게 자연의 한계를 뛰어넘은 강력한 육체적인 힘과 마법적인 힘을 주었습니다. 그러나 룬 마법에 대한 의존으로 인해, 마법사냥 기간동안 오우거들은 주된 표적이 되었고, 그로 인해 샬로레의 영역 내로 피난을 가게되었습니다.", "_t")
 t("Their preference for simple and direct solutions has given them an undeserved reputation as dumb brutes, despite their extraordinary talent with runes and their humble, dutiful nature.", "오우거는 단순하고 직접적인 해결법을 선호하기 때문에, 룬과 그들의 겸손하고 순종적인 성향에도 불구하고 덜떨어지고, 무식한 짐승이라는 평판을 갖게되었습니다.", "_t")
 t("They possess the #GOLD#Ogric Wrath#WHITE# talent, which grants them critical chance and power, as well as resistance to confusion and stuns, when their attacks miss or are blocked.", "오우거는 치명타 확률과 피해량을 상승시키는 #GOLD#오우거의 분노#WHITE# 기술을 갖고있습니다. 근접 공격이 빗나가거나, 적이 공격을 막아냈을 경우 효과가 상승하며, 기절과 속박 면역력이 상승합니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
@@ -4933,7 +4935,7 @@ t("I want to train at Zigur?", "지구르에서 훈련을 받고 싶다", "_t")
 t([[Well let me say that tank is #{bold}#dreadful#{normal}#, but that weird butler says it is the only way.
 I do start to feel better too.
 However I must say I get bored around here a little.
-Do you remember, I once told you %s Maybe we could find a way to get me there during the day and return for my treatment during the night?]], [[음, 딱 하나, 그 수조 같은 건 #{bold}#끔찍#{normal}#하지만, 이상한 집사님이 다른 방법이 없다네요.
+Do you remember, I once told you %s Maybe we could find a way to get me there during the day and return for my treatment during the night?]], [[음, 딱 하나, 그 수조는 #{bold}#끔찍#{normal}#하지만, 이상한 집사님이 다른 방법이 없다네요.
 몸 상태도 좋아지기 시작한 것 같아요.
 그렇지만, 이곳에서 사는 게 조금 지루해지기 시작했다는 이야기는 해야겠네요.
 기억해요? 제가 %s고 했었잖아요. 제가 낮에는 그렇게 하고, 밤에는 치료를 받으러 돌아올 수 있는 방법이 있지 않을까요?]], "tformat")
@@ -4953,16 +4955,56 @@ t("My memory fails me, care to help me remember? #LIGHT_GREEN#[smile playfully a
 ------------------------------------------------
 section "game/modules/tome/data/chats/message-last-hope.lua"
 
+t([[Well met, @playername@. I was sent with a message from King Tolak of Last Hope.
+I followed the trail of bodies that you left - very impressive! We are lucky to have you on our side.
+But enough talk; take this message. I must go now.
+#LIGHT_GREEN#He gives you a sealed scroll and vanishes into the shadows.#LAST#]], [[반갑습니다, @playername@ 님. 마지막 희망의 톨락 국왕 폐하의 전갈입니다.
+여기까지 오면서 시체를 많이 만드셨더군요 - 정말 굉장하십니다! 당신이 우리 편이라 정말 다행입니다.
+뭐, 잡담은 여기까지 하겠습니다. 전갈 받으십쇼. 전 이제 가봐야겠습니다.
+#LIGHT_GREEN#그는 밀봉된 두루마리를 건네고, 그림자 속으로 사라졌습니다.#LAST#]], "_t")
+t("Thank you for your courage.", "당신의 용기에 경의를 표합니다.", "_t")
+t("The herald gives you %s.", "전령이 %s 주었다.", "logPlayer", nil, {"를"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/myssil.lua"
 
+t([[#LIGHT_GREEN#*A Halfling woman stands before you, clad in dark steel plate.*#WHITE#
+Take the test, and then we can talk.]], [[#LIGHT_GREEN#*어두운 색의 강철 갑옷을 입은 하플링 여성이 눈앞에 서 있습니다.*#WHITE#
+시험을 통과해. 이야기는 그 뒤에 하겠다.]], "_t")
+t("But...", "하지만...", "_t")
+t([[#LIGHT_GREEN#*A Halfling woman stands before you, clad in dark steel plate.*#WHITE#
+I am Protector Myssil. Welcome to Zigur.]], [[#LIGHT_GREEN#*어두운 색의 강철 갑옷을 입은 하플링 여성이 눈앞에 서 있습니다.*#WHITE#
+난 미씰, 보호자다. 지구르에 온 걸 환영하지.]], "_t")
+t("I require all the help I can get, not for my sake but for the town of Derth, to the northwest of here.", "제가 구할 수 있는 최대한의 도움이 필요합니다. 절 위해서가 아니라 북서쪽의 데르스 마을을 위해서.", "_t")
+t("Protector, I have dispatched the Tempest as you commanded.", "보호자님, 명하신 대로 그 대기술사를 처리했습니다.", "_t")
+t("Farewell, Protector.", "안녕히 계십시오, 보호자님.", "_t")
+t([[Yes, we have sensed the blight of the eldritch forces there. I have people working to dispel the cloud, but the real threat is not there.
+We know that a Tempest, a powerful Archmage who can control the storms, is responsible for the damage. Those wretched fools from Angolwen will not act. All corrupted!
+So you must act, @playername@. I will show you the location of this mage - high in the Daikara mountains.
+Erase him.]], [[그래, 우리도 그곳의 섬뜩한 황폐의 힘을 감지했다. 그 구름을 없애라는 명을 내려 뒀지만, 그 원인이 다른 곳에 있더군.
+우린 폭풍을 제어할 수 있을 정도로 강력한 대기술사를 한 명 알고 있다. 놈에게 이 모든 사태의 책임이 있지. 앙골웬의 사악한 멍청이들은 가만히 있을 뿐이야. 오염된 쓰레기들 같으니라고!
+그러므로, 네가 해야 한다, @playername@. 그 마법사 놈이 있는 곳을 알려 주마. 다이카라 산의 높은 봉우리다.
+놈을 이 세상에서 지우고 와라.]], "_t")
+t("You can count on me, Protector.", "기대에 부응하겠습니다, 보호자님.", "_t")
+t([[So I have heard, @playername@. You prove worthy of your training. Go with the blessing of nature, @playername@ of Zigur.
+#LIGHT_GREEN#*She touches your skin. You can feel nature infusing your very being.*#WHITE#
+This shall help you on your travels. Farewell!]], [[나도 그 이야기를 들었다, @playername@. 넌 훈련의 성과를 훌륭하게 보여 주었다. 대자연의 축복이 너와 함께할지니, 지구르의 @playername@.
+#LIGHT_GREEN#*그녀의 손길이 닿았습니다. 대자연의 힘이 몸에 깃드는 것을 느낄 수 있습니다.*#WHITE#
+네 여정에 도움이 될 것이다. 안녕히!]], "_t")
+t("Thank you, Protector.", "감사합니다, 보호자님.", "_t")
+t("#00FF00#You gain the fungus talents school and your Mana Clash is enhanced.", "#00FF00#'미생물' 기술 계열을 얻었다. 또한 마나 붕괴 기술이 강화되었다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/norgan-saved.lua"
 
+t([[Thank you, @playername@! We both survived for the wealth of the Empire. I will bring them the news and then rest.
+I do not think I want to see death so closely for some time now.
+Farewell.]], [[고맙네, @playername@! 우리 둘 다 제국을 위해 살아남게 될 줄이야. 난 이 소식을 전하고 좀 쉬겠네.
+일단 당분간은 죽음을 가까이 하고 싶진 않을 것 같구만.
+안녕히.]], "_t")
+t("For the Empire! Take care.", "제국을 위하여! 잘 지내.", "_t")
 
 
 ------------------------------------------------
@@ -4973,167 +5015,517 @@ section "game/modules/tome/data/chats/orc-breeding-pits.lua"
 ------------------------------------------------
 section "game/modules/tome/data/chats/paradoxology.lua"
 
+t([[#LIGHT_GREEN#*Before you stands... you. You seem to be slightly older, and by the look of it you have been through hell.*#WHITE#
+NO! YOU CAN'T! NO GOING THERE! YOU... I... YOU MUST NOT GO THERE!
+THIS CANNOT BE AVOIDED! I MUST STOP IT! PLEASE DON'T!
+I MUST KILL MYSELF TO PROTECT MYSELF!
+#LIGHT_GREEN#*Before you can react, you... I... yourself vanishes into a rift hanging in midair.*#WHITE#
+]], [[#LIGHT_GREEN#*눈 앞에... 당신이 서 있습니다. 조금 더 나이들어 보이고, 지옥이라도 헤쳐 나온 듯한 몰골입니다.*#WHITE#
+안 돼!! 넌 못해!! 거기로 가지 마!! 넌... 난... 넌 거기로 가선 안 돼!!
+이건 피할 수 없는 일이야!! 난 막아야 해!! 부탁이니까 하지 마!!
+날 지키려면 나 자신을 죽여야 한다고!!
+#LIGHT_GREEN#*뭐라고 말하기도 전에, 당신... 자신... 당신 자신은 허공의 균열로 사라졌습니다.*#WHITE#
+]], "_t")
+t("What the...", "이게 대체 뭔...", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/player-inscription.lua"
 
+t("Buy a new slot with one #{bold}#talent category point#{normal}#.", "#{bold}#기술 계열 점수#{normal}# 1점을 써서 새 슬롯을 연다", "_t")
 t("Cancel", "취소", "_t")
+t("You have too many of this type of inscription. You can only override an existing one. The old inscription will be lost.", "이 종류의 각인을 너무 많이 새긴 상태입니다. 이미 있는 것 중 하나에 덮어씌워야 합니다. 원래 있던 각인은 사라집니다.", "_t")
+t([[You have reached your maximum number of inscriptions (infusions/runes).
+If you have unassigned #{bold}#talent category points#{normal}# you can use one to create a new slot (up to 5).
+You can replace an existing one or cancel.
+The old inscription will be lost.]], [[사용 가능한 각인 (주입물/룬) 이 최대치에 도달했습니다.
+남는 #{bold}#기술 계열 점수#{normal}# 1점을 사용해 새로운 각인 슬롯을 만들 수 있습니다 (각인 슬롯은 총 5칸까지 가능).
+새 각인을 현재 각인 중 하나에 덮어씌울 수도 있고, 새 각인 사용을 취소할 수도 있습니다.
+덮어씌울 경우, 원래 있던 각인은 사라집니다.]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/point-zero-zemekkys.lua"
 
+t("@playername@, nice to see you again! Or is this the first time that you have seen me?", "@playername@, 다시 만나 반갑네! 아니면 이번이 첫 만남인가?", "_t")
+t("Farewell, Grand Keeper.", "안녕히 계십시오, 위대한 수호자님.", "_t")
+t("Yes, this is our first meeting.", "예, 이번이 처음입니다.", "_t")
+t([[Ah, for you perhaps, but not for me.
+Listen, someday you will encounter me again but it will not be me you see now. It will be younger me, if you will.
+This is very important: do not tell my previous me about me. Understood?]], [[아하, 자네에겐 처음이지만, 난 처음이 아니군.
+잘 듣게, 언젠가 자네는 날 다시 만나게 되겠지만, 그건 지금 자네 앞에 서 있는 내가 아닐 것이야. 젊었을 때의 날 만나게 될 것이란 말이지.
+이건 정말로 중요한 이야기일세. 과거의 나에게 지금의 나에 대한 이야기를 해선 안 되네. 이해했나?]], "_t")
+t("I think so...", "아마도요...", "_t")
+t("Yes, Grand Keeper.", "예, 위대한 수호자님.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/pre-charred-scar-eruan.lua"
 
+t([[@playername@, I am one of a party of Sun Paladins sent by Aeryn. We arrived here tracking the orcs.
+They have gone through the portal, and a few of my friends were pulled in with them.
+We captured an orc earlier.  He revealed that the staff you seek is to be used to absorb the power of a remote place for dark rituals.
+You must traverse this portal, if you have any means to, and stop the orcs.]], [[@playername@, 전 아에린 님께서 보낸 태양의 기사들 중 하나입니다. 우린 오크들을 쫓아 여기까지 왔죠.
+놈들은 차원문 너머로 사라졌고, 제 동료들 몇 명도 그쪽으로 끌려가다시피 한 상태입니다.
+예전에 포획했던 오크 말로는, 당신이 찾고 있는 지팡이는 사악한 의식을 통해 어떤 외진 장소의 힘을 흡수하는 데 쓰인다더군요.
+이 차원문을 써서 오크 놈들을 막으러 가야 합니다. 혹시 이걸 쓸 적절한 수단이 있습니까?]], "_t")
+t("I think I can use the portal. Do not worry!", "아마도. 걱정하지 마!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/pre-charred-scar.lua"
 
+t([[*#LIGHT_GREEN#Suddenly a voice appears in your head.#WHITE#*
+@playername@, this is High Sun Paladin Aeryn of the Sunwall. I am communicating with you by the power of the Anorithil.
+I have some urgent information for you: the staff you were looking for has been located.]], [[*#LIGHT_GREEN#갑자기 머릿속에서 어떤 목소리가 울립니다.#WHITE#*
+@playername@, 태양의 장벽의 고위 태양의 기사, 아에린입니다. 지금 아노리실의 힘으로 그대와 소통하고 있는 겁니다.
+급히 전할 소식이 있습니다. 그대가 찾고 있는 지팡이가 지금 어디에 있는지 알아냈습니다.]], "_t")
+t("Where?!", "그게 어디입니까?!", "_t")
+t([[One of our patrols noticed some strange orc movements around the southern part of the continent, in the desert of Erúan.
+A group of orcs were guarding something that looked like the staff you asked about.
+You should go there to investigate. This might be your only chance.]], [[우리 정찰대 중 하나가 대륙 남쪽의 에류안 사막에서 수상한 오크들이 돌아다니는 걸 발견했습니다.
+오크 무리들이 그대가 이야기했던 지팡이와 비슷하게 생긴 것을 지키고 있었다더군요.
+조사하러 가보는 게 좋겠습니다. 이게 마지막 기회일지도 몰라요.]], "_t")
+t("I will, right now!", "당장 그렇게 하겠습니다!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/ring-of-blood-master.lua"
 
+t([[#LIGHT_GREEN#*Before you stands a small humanoid creature with a disproportionate head.*#WHITE#
+Ah, what have we here? @playerdescriptor.race@, I believe you have turned at the wrong corner.]], [[#LIGHT_GREEN#*몸통에 비해 머리가 큰, 작은 인간형 생명체가 눈앞에 있습니다.*#WHITE#
+아, 이게 누구야? @playerdescriptor.race@, 내 생각에 넌 길을 잘못 든 것 같은데.]], "_t")
+t("So it would seem. What is going on here?", "그런 것 같기도 하고. 이곳에서 무슨 일이 벌어지고 있는 거지?", "_t")
+t([[This is my Ring of Blood! Listen, you have now two choices.
+Since you do not look like slave fodder to me I will offer to let you pay to play the game.
+If you feel you cannot take part in a slaver's game, I am afraid you will need to... disappear.]], [[여긴 내 피의 투기장이다! 잘 들어라, 네겐 두 가지 선택지가 있다.
+넌 노예처럼 보이진 않으니, 약간의 돈을 내면 '게임'을 하게 해 주지.
+하지만 우리 노예상들의 게임에 관심이 없다면, 안타까운 일이지만... 사라져 줘야겠다.]], "_t")
+t("Slavers? This is so wrong! [attack]", "노예상이라고? 이 사악한 자식! [공격한다]", "_t")
+t("Game? I like playing, what's this about?", "게임이라고? 게임 좋지, 무슨 게임인데?", "_t")
+t([[Well, you see, it's quite simple. I will mentally take control of various wild creatures or slaves while you use the orb of command on the other side of this room to take control of a slave.
+Then we fight using our pawns for 10 rounds. If your slave survives you will win the Bloodcaller.]], [[음, 보면 알겠지만, 꽤 간단한 거지. 난 온갖 야생 동물들이나 노예들을 정신지배해서 조종하고, 넌 저기 있는 지배의 오브를 써서 노예를 조종하게 될 거다.
+그러고 나서, 우린 서로의 장기말들을 써서 10 라운드 동안 싸운다. 만약 네 노예가 살아남으면, 상품을 주지. '피의 인도자' 라는 반지다.]], "_t")
+t("What if I lose?", "내가 지면 어떻게 되지?", "_t")
+t("Normally you would be taken as a slave, but you look like you would be more useful as a full-time player, so you can just try again.", "보통은 네가 노예가 되겠지만, 넌 단골 손님으로 놔두는 편이 더 좋아 보이니, 그냥 게임을 다시 할 수 있게 해 주마.", "_t")
+t("Blood, death without self-harm risks? Great fun!", "피가 튀고 죽어나가면서, 나한테는 피해가 없다라? 진짜 재밌겠는데!", "_t")
+t([[Superb. Oh yes, before I forget, to use the orb you will need to pay the standard fee of 150 gold pieces.
+I'm sure this is small money to an adventurer of your class.]], [[최고지. 오 맞아, 그 오브를 쓰려면 다른 사람들과 똑같이 150 골드를 내야 할 거다.
+너 정도 되는 모험가에겐 푼돈일 거라고 생각한다만.]], "_t")
+t("150 gold? Err... yes, sure.", "150 골드라고? 흠... 알겠어, 낼게.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/ring-of-blood-orb.lua"
 
+t([[#LIGHT_GREEN#*You place your hands on the orb.*#WHITE#
+You must provide 150 gold to take part in the fight.]], [[#LIGHT_GREEN#*손을 오브에 가져다 대었습니다.*#WHITE#
+150 골드를 내야 합니다.]], "_t")
+t("[Pay 150 gold]", "[150 골드를 지불한다]", "_t")
 t("[Leave]", "[떠난다]", "_t")
+t("Let the fight start!", "지금부터 싸워라!", "_t")
+t("Bring it on!", "덤벼!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/ring-of-blood-win.lua"
 
+t([[So, you tasted blood? Liked it? I am sure you did; you are just that kind of people.
+Anyway, I suppose you deserve your reward.
+You can always participate again for fun, if you've got the gold to spare.]], [[자, 피 맛은 좀 봤나? 마음에 들었나? 그랬을 거라 믿는다. 넌 그런 쪽의 사람일 테니.
+아무튼, 이게 네게 합당한 보상이다.
+돈이 충분하다면, 언제든지 다시 재미 보러 와라.]], "_t")
+t("Thanks, it was fun!", "고마워, 재밌었어!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/sage-kitty.lua"
 
+t([[#LIGHT_GREEN#*Before you stands a cute little orange cat. It looks hungry and looks at you.*#WHITE#
+Meowww?
+]], [[#LIGHT_GREEN#*귀여운 오렌지색 꼬마 고양이가 있습니다. 배고픈 것 같고, 당신을 바라보고 있습니다.*#WHITE#
+애옹?
+]], "_t")
 t("Oh kitty kitty!", "오 야옹아 이리 온!", "_t")
 t("No time for cats!", "고양이 같은 것과 놀 시간은 없다!", "_t")
+t([[#LIGHT_GREEN#*It rubs up against your leg and purrs.*#WHITE#
+Rrrrrrrrrrrr.
+]], [[#LIGHT_GREEN#*고양이가 다리에 몸을 부비며 가르릉거렸습니다.*#WHITE#
+
+]], "_t")
+t("Hey maybe you would like some of this delicious lookin troll intestines? #LIGHT_GREEN#[Feed him the intestines]#WHITE#", "이 맛있어 보이는 트롤 창자가 먹고 싶니? #LIGHT_GREEN#[창자를 먹이로 준다]#WHITE#", "_t")
+t("Sorry little fellow, I can't help you.", "미안해 야옹아, 내가 해줄 수 있는 게 없네.", "_t")
+t("#LIGHT_GREEN#*It eats it all and looks happy. After a while it strolls away. Somehow you feel you have not seen the last of it.*#WHITE#", "#LIGHT_GREEN#*고양이는 먹이를 전부 먹어치웠고, 행복해 보입니다. 잠시 뒤, 고양이는 어딘가로 걸어갔습니다. 왠지는 모르겠지만 저 고양이를 또 보게 될 것 같습니다.*#WHITE#", "_t")
+t("#LIGHT_GREEN#[Leave]", "#LIGHT_GREEN#[떠난다]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shadow-crypt-yeek-clone.lua"
 
+t("No time to talk fellow Wayist! ATTACK! FOR THE WAY!", "한길의 동지여, 지금은 이야기 나눌 때가 아니야! 공격하자!! 한길을 위하여!!", "_t")
 t("[leave]", "[떠난다]", "_t")
+t("The foolish cultist that created me is no more. What am I to do now...", "날 만들어 낸 멍청한 광신도 놈은 이제 없군. 이제 난 뭘 해야 하지...", "_t")
+t("You are me, come with me!", "넌 나니까, 나랑 같이 가자!", "_t")
+t("You should head back to Irkkk.", "읽크크로 돌아가는 게 좋을 것 같아.", "_t")
+t("I fear that would get confusing very fast. I think I will go back to Irkkk. Farewell my clone!", "그럼 순식간에 일이 혼란스러워질 걸. 난 읽크크로 돌아가는 게 좋을 것 같아. 잘 있어라, 내 분신아!", "_t")
+t("Sure... if you prefer to think about it this way. We are all part of The Way anyway.", "좋아... 네가 그렇게 생각한다면, 그게 맞는 거겠지. 어쨌든 우린 모두 한길의 일원이니.", "_t")
+t("I think so too, farewell my clone.", "나도 그렇게 생각해, 잘 가라, 내 분신아.", "_t")
+t("Clone? No you are the clone.", "분신이라고? 아니, 분신은 너지.", "_t")
+t("Farewell.", "안녕히.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-butler.lua"
 
+t([[*#LIGHT_GREEN#The creature slowly turns to you. You hear its terrible voice directly in your head.#WHITE#*
+Welcome, master.]], [[*#LIGHT_GREEN#생명체가 천천히 당신 쪽으로 몸을 돌립니다. 끔찍한 목소리가 머릿속에 직접 울립니다.#WHITE#*
+어서 오십시오, 주인님.]], "_t")
+t("What are you, and what is this place?", "넌 뭐고, 여긴 또 뭐야?", "_t")
+t("Master? I am not your mas...", "주인님이라고? 난 네 주인이 아니...", "_t")
+t("Why do I understand you? The texts are unreadable to me.", "내가 어떻게 네 말을 알아들을 수 있는 거지? 저 글자들을 읽을 수는 없는데.", "_t")
+t("What can I do here?", "내가 여기서 뭘 할수 있지?", "_t")
+t("What else can this place do?", "이곳에 다른 기능이 더 있나?", "_t")
+t("Would it be possible to improve my Cloak of Deception so I do not need to wear it to pass as a living being?", "내 기만의 망토를 강화할 수 있어? 내가 이걸 안 입어도 살아있는 존재처럼 취급되게끔.", "_t")
+t("You asked me to come, about a farportal?", "오라고 했었지? 장거리 차원문 때문에.", "_t")
+t("You asked me to come, about the rod of recall?", "오라고 했었지? 귀환의 장대 때문에.", "_t")
+t("Would it be possible for my Transmogrification Chest to automatically extract gems?", "내 변환 상자가 알아서 보석을 추출하게 할 수 있을까?", "_t")
+t("Are there any training facilities?", "여기 훈련 시설 같은 거 있어?", "_t")
+t("Can you use your magic to alter the appearance of my gear?", "네 마법을 이용해서 내 장비의 모습을 바꿀 수 있을까?", "_t")
+t("I find your appearance unsettling. Any way you can change it?", "네 모습이 보기가 불편해. 어떻게 다른 모습으로 바꿀 순 없어?", "_t")
+t("I have come upon a strange thing indeed. #LIGHT_GREEN#[tell him about Melinda]", "엄청 이상한 일이 있었는데 말이야. #LIGHT_GREEN#[멜린다 이야기를 한다]", "_t")
 t("[leave]", "[떠난다]", "_t")
+t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
+You possess a control rod. You are the master.]], [[*#LIGHT_GREEN#생명체가 당신을 응시합니다.#WHITE#*
+귀하께선 제어봉을 소지하고 계십니다. 귀하가 주인님입니다.]], "_t")
+t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
+You are the master; you have the rod. I am created to speak to the master.]], [[*#LIGHT_GREEN#생명체가 당신을 응시합니다.#WHITE#*
+귀하께선 제어봉을 소지하고 계십니다. 귀하가 주인님입니다. 저는 주인님께 이야기하기 위해 창조되었습니다.]], "_t")
+t("Err... ok.", "어... 알았어.", "_t")
+t([[*#LIGHT_GREEN#The creature glares at you with intensity. You 'see' images in your head.
+You see titanic wars in an age now forgotten. You see armies of what you suppose are Sher'Tuls since they look like the shadow.
+They fight with weapons, magic and other things. They fight gods. They hunt them down, killing or banishing them.
+You see great fortresses like this one, flying all over the skies of Eyal - shining bastions of power glittering in the young sun.
+You see the gods beaten, defeated and dead. All but one.
+Then you see darkness; it seems like the shadow does not know what followed those events.
+
+You shake your head as the vision dissipates, and your normal sight comes back slowly.
+#WHITE#*
+]], [[*#LIGHT_GREEN#생명체가 당신을 강렬하게 응시합니다. 자신의 머릿속에서 영상들을 '볼' 수 있습니다.
+지금은 잊혀진 고대 시대에 일어난 엄청난 전쟁의 모습이 보입니다. 군대 같은 것이 보입니다. 저들은 모두 쉐르'툴일 것입니다. 병사들의 모습이 요새의 그림자와 닮았기 때문입니다.
+그들은 무기와 마법, 그리고 온갖 것들로 신들과 싸우고 있습니다. 그들은 신들을 쓰러뜨리고, 죽이거나 추방했습니다.
+지금 있는 장소와 비슷한 거대 요새들이, 에이알의 하늘을 가득 메우고 있는 모습이 보입니다. 먼 옛날의 태양빛을 받아 빛나고 있습니다.
+신들이 모두 패배하여, 죽는 모습이 보였습니다. 딱 하나의 신만 빼고요.
+그러고 나선, 어둠만 보일 뿐입니다. 그림자는 이 일 이후에 일어난 일들은 모르는 것 같습니다.
+
+고개를 흔들자 영상이 사라지고, 원래 보이던 풍경으로 천천히 돌아왔습니다.
+#WHITE#*
+]], "_t")
+t("Those are Sher'Tuls? They fought the gods?!", "방금 그게 다 쉐르'툴이야? 신들과 싸웠어?!", "_t")
+t("They had to. They forged terrible weapons of war. They won.", "그럴 수밖에 없었습니다. 그들은 끔찍한 전쟁 병기들을 만들어냈습니다. 그리고 이겼습니다.", "_t")
+t("But then where are they now if they won?", "쉐르'툴이 이겼으면, 그들은 지금 어디 있는데?", "_t")
+t("They are gone now. I cannot tell you more.", "사라졌습니다. 이 이상은 이야기 할 수 없습니다.", "_t")
+t("But I am the master!", "난 네 주인이야! 얘기해 봐!", "_t")
+t("Fine.", "알겠어.", "_t")
+t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
+You are the master. You can use this place as you desire. However, most of the energies are depleted and only some rooms are usable.
+To the south you will find the storage room.]], [[*#LIGHT_GREEN#생명체가 당신을 응시합니다.#WHITE#*
+귀하는 주인님입니다. 귀하는 본 요새를 뜻대로 이용할 수 있습니다. 하지만 에너지가 대부분 사라진 상태이며 몇 가지 방만 이용 가능합니다.
+남쪽으로 가시면 보관소가 있습니다.]], "_t")
+t([[This Fortress is designed as a mobile base for the Godslayers - it can fly.
+It is also equiped with various facilities: exploratory farportal, emergency containment field, remote storage, ...
+However, the Fortress is badly damaged and has lain dormant for too long. Its energies are nearly depleted.
+Take this Transmogrification Chest. It is linked by a permanent farportal to the Fortress. Any item you put inside will be sent to the power core and dismantled for energy.
+There are, however, unwanted byproducts to this operation: the generation of a metal known as gold. It is of no use to the Fortress and thus will be sent back to you.]], [[본 요새는 신살자들을 위한 이동식 요새입니다 - 비행이 가능합니다.
+또한 탐험용 장거리 차원문, 긴급 격납 역장, 원격 보관소 등과 같은 여러 가지 시설이 탑재되어 있습니다.
+하지만 본 요새는 심각한 피해를 입었고 너무 오래 휴면 상태에 있었습니다. 요새에 에너지가 거의 없는 상태입니다.
+이 변환 상자를 받으십시오. 본 요새와 영구 장거리 차원문으로 연결되어 있습니다. 상자에 담긴 물건은 그것이 무엇이든지 본 요새의 동력 핵으로 전송되어 에너지로 분해될 것입니다.
+하지만 이 작업은 의도치 않은 부산물이 발생합니다. '금' 으로 알려진 금속이 부산물로 생성됩니다. 해당 부산물은 본 요새에 활용처가 없으므로 주인님께 재전송될 것입니다.]], "_t")
+t("I will, thanks.", "그럴게, 고마워.", "_t")
+t("I have already found such a chest in my travel. Will it work?", "예전에 여행을 하다가 그런 상자를 찾아냈어. 이것도 멀쩡히 작동할까?", "_t")
+t([[Yes, it will. I will attune it to this fortress.
+Done.]], [[그렇습니다. 본 요새에 귀속시키도록 하겠습니다.
+완료되었습니다.]], "_t")
 t("Thanks.", "감사합니다.", "_t")
+t([[Long ago the Sher'tuls used farportals not only for transportation to known locations, but also to explore new parts of the world, or even other worlds.
+This Fortress is equipped with an exploratory farportal, and now has enough energy to allow one teleportation. Each teleportation will take you to a random part of the universe and use 45 energy.
+Beware that the return portal may not be nearby your arrival point; you will need to find it. You can use the rod of recall to try to force an emergency recall, but it has high chances of breaking the exploratory farportal forever.
+You may use the farportal; however, beware - I sense a strange presence in the farportal room.]], [[오래 전 쉐르'툴 종족은 장거리 차원문을 단순히 특정 위치로 전송하기 위해 사용한 것이 아니라, 이 세계의 미답지를, 심지어는 다른 세계를 탐험하기 위해서도 사용했습니다.
+본 요새는 탐험용 장거리 차원문을 구비하고 있습니다. 또한 에너지가 충분히 모였습니다. 차원문을 사용하면 주인님을 이 우주의 어딘가로 보낼 것이며 사용하려면 에너지가 45 만큼 필요합니다.
+귀환 차원문이 주인님이 도착할 위치 근처에 생성되지 않는다는 점에 주의하십시오. 주인님께서 찾아내야 합니다. 귀환의 장대를 사용하여 급히 귀환할 수 있지만, 해당 기능을 사용하실 경우 탐험용 장거리 차원문이 높은 확률로 영구히 손상될 것입니다.
+지금 장거리 차원문을 사용할 수 있습니다. 하지만 조심하십시오 - 차원문이 있는 방에 알 수 없는 존재가 감지됩니다.]], "_t")
+t("I will check it out, thanks.", "확인해 볼게, 고마워.", "_t")
+t([[The rod of recall you possess is not a Sher'tul artifact, but it is based on Sher'tul design.
+The Fortress now has enough energy to upgrade it. It can be changed to recall you to the Fortress.]], [[주인님께서 소지하고 계신 귀환의 장대는 쉐르'툴의 유물은 아니지만, 쉐르'툴 양식을 기반으로 한 물건입니다.
+본 요새에 에너지가 충분히 모여, 이제 장대를 강화할 수 있습니다. 주인님을 본 요새로 귀환시키도록 바꿀 수 있습니다.]], "_t")
+t("I like it the way it is now. Thanks anyway.", "난 지금 그대로가 마음에 들어. 고마워.", "_t")
+t([[Yes master, a training facility is available to the north, but it is not yet powered on.
+I will need to use 50 energy to do this.]], [[그렇습니다, 주인님. 북쪽의 훈련 시설이 사용 가능하나, 아직 동력이 공급되지 않은 상태입니다.
+동력을 공급하려면 50 만큼의 에너지가 필요합니다.]], "_t")
+t([[Yes master, the Mirror of Reflections is what you need. It is currently dormant but could be re-activated.
+I will need to use 10 energy to do this.]], [[그렇습니다, 주인님. 반영의 거울을 이용하면 뜻대로 하실 수 있습니다. 지금 휴면 상태이나, 재기동이 가능합니다.
+재기동하려면 10 만큼의 에너지가 필요합니다.]], "_t")
+t("\
+#{italic}##CRIMSON#This feature is purely cosmetic is available only to donators/buyers. You can unlock the room and use the preview but you will not be able to validate your choices.#{normal}#", "\
+#{italic}##CRIMSON#이 기능은 그저 외견만을 바꾸어 주며, 기부자/구매자 전용 특전입니다. 방의 잠금을 해제하고 기능의 맛보기는 가능하지만, 당신의 선택이 실제로 반영되진 않을 것입니다.#{normal}#", "_t")
+t("Maybe later.", "나중에 할게.", "_t")
+t("That could be quite nice. Yes, please do it.", "꽤 괜찮겠는데. 그렇게 해 줘.", "_t")
+t([[Ah yes, you seem to master the simple art of alchemy. I can change the chest to automatically use your power to extract a gem if the transmogrification of the gem would reward more energy.
+However, I will need to use 25 energy to do this.]], [[그렇습니다. 주인님께선 기초적인 연금술에 통달하셨군요. 보석이 에너지를 더 많이 생산할 경우엔, 상자가 주인님의 힘을 자동적으로 이용하여 보석을 추출하도록 만들 수 있습니다.
+하지만 상자가 해당 기능을 갖추도록 하려면 25 만큼의 에너지가 필요합니다.]], "_t")
+t("Maybe sometime later.", "나중에 할게.", "_t")
+t("I can alter the Fortress holographic projection matrix to accomodate your racial tastes. This will require 60 energy, however.", "본 요새의 홀로그램 투사 주형을 주인님의 취향에 맞추어 변형할 수 있습니다. 하지만 60 만큼의 에너지가 필요합니다.", "_t")
+t("Can you try for a human female appearance please?", "인간 여자의 모습으로 바꿔 줄래?", "_t")
+t("Can you try for a human male appearance please?", "인간 남자의 모습으로 바꿔 줄래?", "_t")
+t("Please revert to your default appearance.", "네 모습을 기본형으로 되돌려 줘.", "_t")
+t("Well, you do not look so bad actually. Let it be for now.", "뭐, 지금 그대로도 나쁘진 않아 보이네. 그냥 지금 모습으로 하자.", "_t")
+t([[Yes Master. I can use 10 energy to infuse your cloak. When you take it off the effect should still persist.
+However, I suggest you still carry it with you in case something manages to remove it from you.]], [[그렇습니다, 주인님. 10 만큼의 에너지를 사용해 주인님의 망토를 강화할 수 있습니다. 주인님께서 해당 망토를 벗더라도, 그 효과는 유지될 것입니다.
+하지만 무언가가 해당 효과를 제거했을 때를 대비하여, 망토 자체는 계속 소지하고 계시길 추천드립니다.]], "_t")
+t("Not now.", "나중에.", "_t")
+t("That could be quite useful. Yes, please do it.", "꽤 쓸만하겠는데. 그렇게 해 줘.", "_t")
+t([[Demonic taint. Yes I have a way to help in the archives. However this is a long process, the subject will need to live here for a while.
+She will have to spend 8 hours per day in the regeneration tank.]], [[악마에 의한 오염입니까. 기록 보관소에 해당 문제를 해결할 방법이 있습니다. 하지만 장기간에 걸쳐 진행해야 하기 때문에, 대상이 이곳에 잠시 거주해야 할 필요가 있습니다.
+'멜린다'는 재생 수조에서 매일 여덟 시간을 보내야 할 것입니다.]], "_t")
+t("This is great news! I will tell her at once.", "정말 좋은 소식인데! 지금 바로 멜린다에게 이야기해야겠어.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-caldizar.lua"
 
+t("\"You should not be here. How di-\"#{normal}# It stops abruptly, and its attention seems to turn to the staff in your hands. #{italic}#\"How did you get that?! You fool, you do not know what forces you play with! Get it away from here - BEGONE!\"", "\"넌 여기 있어선 안 된다. 이곳엔 어떻게-\"#{normal}# 그것은 갑자기 멈춰 섰고, 당신의 손에 들린 지팡이에 눈길이 간 것 같습니다. #{italic}#\"그걸 어떻게 얻었지?! 멍청이가, 지금 어떤 힘을 휘두르고 있는지 알고나 있는 거냐? 여기서 나가라, 사라져라!!\"", "_t")
+t("\"You should not be here. How did you get here?! BEGONE!\"", "\"넌 여기 있어선 안 된다. 이곳엔 어떻게 온 거냐?! 사라져라!!\"", "_t")
+t([[#{italic}#As you open the door you stare in amazement at what is beyond. A creature stands before you, with long tentacle-like appendages and a squat bump in place of a head. An intense aura of power radiates from this being unlike anything you've ever felt before. It can only be a Sher'Tul. A living Sher'Tul!
+
+But your wonder is cut short as the Sher'Tul notices you, and you feel its intense concentration bear down on you like an unstoppable force. A voice in your head booms, #{normal}#%s#{italic}#
+
+A wave of mental and magical power blasts into you with the might of a falling star. You are lifted into the air, and intense pressure bears down on every inch of your skin, threatening to crush you into nothingness. You try to resist for a moment, until--#{normal}#]], [[#{italic}#문을 열자, 그 너머에 있는 것을 보고 놀라움에 눈을 크게 떴습니다. 눈앞에 기다란 촉수같은 부속지들을 갖고 있고, 머리통 대신 조그만 혹이 달려 있는 생명체가 있었습니다. 이때까지 느껴 본 것들과는 전혀 다른 강렬한 힘을 내뿜고 있습니다. 이건 쉐르'툴이 틀림없습니다. 살아 있는 쉐르'툴입니다!
+
+그러나 그 쉐르'툴이 당신을 발견하자 즉시 생각이 끊어집니다. 쉐르'툴의 강력한 집중력이 멈출 수 없는 힘과 같이 당신을 압도했습니다. 머릿속에서 목소리가 터져 나옵니다, #{normal}#%s#{italic}#
+
+정신력과 마법의 파도가 마치 떨어지는 운석과도 같은 힘으로 당신을 덮쳤습니다. 당신은 공중으로 날려졌고, 강렬한 힘이 피부의 살점 하나하나를 짓눌러 우주의 먼지 수준으로 으스러뜨리려 했습니다. 잠시 저항해 보지만, 곧--#{normal}#]], "tformat")
+t("[continue]", "[계속]", "_t")
+t("#{italic}#You wake up suddenly next to your farportal with a pounding headache. Your cheeks feel wet, and touching them you see your fingers stained red - you have been crying tears of blood. A dark and terrible memory lurks at the back of your mind, but the more you try to remember it the harder it becomes, and slowly it fades completely, like a dream.#{normal}#", "#{italic}#자신의 장거리 차원문 옆에서 깨어났습니다. 머리가 지끈거립니다. 뺨이 뭔가로 젖어있는 느낌이 들어 손으로 만져보니 붉습니다 - 피눈물을 흘리고 있었습니다. 뭔가 어둡고 끔찍한 기억이 정신의 뒷편에 숨어 있는 느낌이 들지만, 그걸 떠올리려 하면 할수록 그게 점점 더 어려워졌고, 그 기억은 마침내 꿈처럼 천천히, 하지만 완전히 사라졌습니다.#{normal}#", "_t")
+t("[done]", "...", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-command-orb.lua"
 
-t("[Leave the orb alone]", "[오브를 두고 떠난다.]", "_t")
+t([[*#LIGHT_GREEN#This orb seems to represent the world of Eyal as a whole. It is also probably used for controlling the fortress.
+]], [[*#LIGHT_GREEN#이 오브는 에이알 전체를 표현하는 것 같습니다. 또, 요새를 제어하는 데에도 쓰이는 것 같습니다.
+]], "_t")
+t([[You do not understand the inscriptions there.#WHITE#*
+#{italic}#"Rokzan krilt copru."#{normal}#]], [[거기에 새겨진 말을 이해할 수가 없습니다.#WHITE#*
+#{italic}#"롴잔 크릹 코프루."#{normal}#]], "_t")
+t("#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "#WHITE#*#{italic}#\"제어봉을 삽입하라.\"#{normal}#", "_t")
+t("[Examine the orb]", "[오브를 살펴 본다]", "_t")
+t("[Fly the fortress -- #LIGHT_RED#FOR TESTING ONLY#LAST#]", "[요새를 비행시킨다 -- #LIGHT_RED#시험용 기능#LAST#]", "_t")
+t("[Begin the Lichform ceremory]", "[리치 형상의 의식을 거행한다]", "_t")
+t([[*#LIGHT_GREEN#The device seems to be made of pure crystal. It projects a very accurate map of the known world - including the forbidden continent of the south.
+There seems to be a hole about the size and form of your Rod of Recall.#WHITE#*]], [[*#LIGHT_GREEN#이 장치는 순수한 수정으로 만들어진 것 같습니다. 이 세상의 지도를 매우 상세하게 비추고 있습니다. 심지어 남쪽의 금지된 대륙도 있습니다.
+귀환의 장대가 꼭 맞아들어갈 것 같은 구멍이 있습니다.#WHITE#*]], "_t")
+t("[Insert the rod]", "[장대를 밀어넣는다]", "_t")
+t([[*#LIGHT_GREEN#As you take the rod close to the orb it seems to vibrate and react.
+A shadow appears in a corner of the room! You retract the rod immediately but the shadow stays.
+It looks like the horrors you fought when coming inside, only less degenerated.
+The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*]], [[*#LIGHT_GREEN#장대를 오브에 가까이 대자 오브가 진동하며 반응합니다.
+방의 구석에 웬 그림자가 나타났습니다! 곧바로 장대를 뽑았지만 그림자는 변함없이 있습니다.
+그 그림자는 여기 들어올 때 싸웠던 공포와 닮았지만, 조금 덜 퇴화된 상태였습니다.
+그 생물은 대충 사람처럼 생겼지만, 머리통이 없고 사지는 촉수처럼 생겼습니다. 적대적이진 않은 것 같습니다.#WHITE#*]], "_t")
+t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-gladium-orb.lua"
 
-t("[Leave the orb alone]", "[오브를 두고 떠난다.]", "_t")
+t("*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*", "*#LIGHT_GREEN#이 오브는 검투장을 제어하는 데 쓰이는 것 같습니다.#WHITE#*", "_t")
+t("[Go back to the Fortress]", "[요새로 돌아간다]", "_t")
+t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-shimmer.lua"
 
+t("[Alter the appearance of %s]", "[%s의 모습을 바꾼다]", "tformat")
+t("[Alter the appearance of your body]", "[몸의 모습을 바꾼다]", "_t")
+t("[Alter the appearance of your facial features]", "[얼굴을 바꾼다]", "_t")
+t("[Alter the appearance of your hair]", "[머리칼의 모습을 바꾼다]", "_t")
+t("[Alter the appearance of your cosmetic aura]", "[아우라의 모습을 바꾼다]", "_t")
+t("[Load/Save outfit]", "[외형 불러오기/저장하기]", "_t")
+t("[Disable the visual effects of your sustains]", "[유지형 기술들의 시각적 효과를 비활성화한다]", "_t")
+t("[Leave the mirror alone]", "[거울을 놔 둔다]", "_t")
+t("*#LIGHT_GREEN#As you gaze into the mirror you see an infinite number of slightly different reflections of yourself. You feel dizzy.#WHITE#*", "*#LIGHT_GREEN#거울을 응시하자 조금씩만 다른 자신의 모습이 수도 없이 많이 보입니다. 조금 어지럽습니다.#WHITE#*", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-training-orb.lua"
 
+t("All resistances", "모든 저항", "_t")
+t("Armour Hardiness", "방어 효율", "_t")
 t("From 0 to 100", "0부터 100까지", "_t")
-t("[Leave the orb alone]", "[오브를 두고 떠난다.]", "_t")
+t("Armour", "방어력", "_t")
+t("From 0 to 1000", "0부터 1000까지", "_t")
+t("*#LIGHT_GREEN#This orb is used to control the training facilities.#WHITE#*", "*#LIGHT_GREEN#이 오브는 훈련 시설을 제어하는 데 쓰이는 것 같습니다.#WHITE#*", "_t")
+t("[Create one target dummy]", "[더미를 하나 만든다]", "_t")
+t("[Create two target dummy]", "[더미를 둘 만든다]", "_t")
+t("[Create three target dummy]", "[더미를 셋 만든다]", "_t")
+t("[Create five target dummy]", "[더미를 다섯 만든다]", "_t")
+t("[Create ten target dummy]", "[더미를 열 만든다]", "_t")
+t("[Change dummies armour]", "[더미의 방어력을 바꾼다]", "_t")
+t("[Change dummies resistances]", "[더미의 저항력을 바꾼다]", "_t")
+t("[Reset]", "[초기화]", "_t")
+t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/slasul.lua"
 
 t([[What is this? Why have you entered my temple and slain my followers?
-Speak or die, for I am Slasul and you shall not disrupt my plans.]], "대체 무슨짓이지? 왜 내 사원에 들어와 내 추종자들을 학살한것이냐? 죽기 싫다면 말해라, 나는 슬라슐이며 너는 내 계획을 방해할 수 없다.", "_t")
-t("I was sent by Ukllmswwik to stop your mad schemes to control all underwater life!", "나는 ukllmswwik에 의해 수중생물을 지배하려는 너의 정신나간 계획을 저지하기 위해 보내졌다!", "_t")
+Speak or die, for I am Slasul and you shall not disrupt my plans.]], [[이게 대체 무슨 짓이지? 왜 내 사원에 들어와 동포들을 죽인 것이냐?
+죽고 싶지 않다면 말하라. 난 슬라술이고, 넌 내 계획을 방해하지 못할 것이다.]], "_t")
+t("I was sent by Ukllmswwik to stop your mad schemes to control all underwater life!", "우클름스윅의 부탁이지. 수중 생물들을 모두 지배하려는 네 정신 나간 계획을 막으러 왔다!", "_t")
 t([[I see. So the dragon sent you. He told you I am insane, I assume?
 But which of us is truly evil? Myself, working to better my people, doing no harm to anyone, or you, who comes here to kill me, destroying my friends and planning to do the same to me?
-Who is the insane one?]], "알겠다, 용이 너를 보냈군. 추측컨데 그가 내가 미쳤다고 하던가? 하지만 대체 누가 진정으로 사악하단 말인가? 내 스스로, 내 백성들을 위해 일하고, 내 친구들을 파괴하고, 나를 죽이려 온 너를 포함한 누구도 해하지 않았다, 대체 누가 미치광이란 말인가? ", "_t")
-t("If you refuse to see reason, you leave me no choice!", "이성적으로 받아들이기를 거부한다면, 선택의 여지가 없다!", "_t")
-t("Your feeble attempt to sway me from the side of good will not work. Pay for you sins!", "나를 흔들리게 하려는 너의 누가 선한지에관한 하찮은 시도는 소용없다. 네 죄값을 치뤄라! ", "_t")
-t("Your words are... disturbing. Why should I spare you?", "네 말들은... 날 혼란스럽게 하는군. 내가 왜 너에게 자비를 배풀어야 하지?", "_t")
+Who is the insane one?]], [[알겠다, 그 용이 널 보냈군. 내가 미쳤다고 하던가? 응?
+하지만 진짜로 사악한 건 어느 쪽일까? 내 동포들을 위해 일하면서 아무도 해치지 않은 나? 아니면, 내 친구들을 죽이고 나에게도 똑같은 짓을 하려 했던 너?
+미친 건 대체 어느 쪽이라고 생각하나?]], "_t")
+t("If you refuse to see reason, you leave me no choice!", "이성적으로 받아들이길 거부한다면, 나에게도 선택의 여지가 없다!", "_t")
+t("Your feeble attempt to sway me from the side of good will not work. Pay for you sins!", "고작 그 정도로는 내가 옳다는 게 달라지지 않아. 네 죗값을 치러라!", "_t")
+t("Your words are... disturbing. Why should I spare you?", "네 말은... 혼란스럽네. 내가 왜 너에게 자비를 베풀어야 하지?", "_t")
 t([[Spare me?#LIGHT_GREEN#*He laughs.*#WHITE#
 Do not be so hasty to assume YOU are in a position to offer mercy to ME!
 Yet I shall tell you my story. You surface dwellers do not know much about nagas, but let me tell you this: our current condition was not our choice.
 When Nalore sank, many of us died, so we resorted to using the magic of this temple. It worked, it saved us, and yet we are cursed. Cursed in this form by the terrible magic.
 If you do not believe anything else of what I say, please believe at least this: the Sher'Tul are hiding, not gone, and they are not benevolent entities.
-Recently, that water dragon that sent you here started sending "agents" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.]], [[자비를 배풀어?#LIGHT_GREEN#*그가 웃었다.*#WHITE#
-섣부르게 네가 내게 자비를 배풀수 있는 위치에 있다 상정하지마라!
-내 이야기를 네게 해주지 않은것 같군. 너같은 지상의 거주자들은 나가에 대해 잘 모르고있지, 하지만 내가 한가지 말해주마: 우리의 현 상태는 우리가 선택한게 아니다.
-날로레가 수몰되고, 우리중 많은 수가 죽었다, 그래서 우린 최후의 수단으로 이 사원의 힘을 사용하려 했지. 그건 작동했고, 우릴 살려냈지만, 우린 저주받았다. 끔찍한 마법에 의해 이런 모습으로 저주받은것이다.
-네가 내가 말한것중에 그 무엇도 믿지 않는다면, 부탁하건데 이 한가지만 믿어다오: 쉐르'툴은 숨은것이지, 사라진게 아니다, 그리고 그들은 자애로운 존재들이 아니었다.
-최근에, 너를 이곳으로 보낸 그 수룡이 '요원들'을 보내기 시작했다 . 나는 그의 목표를 상상밖에 할 수 없지만, 절대 평화적인것은 아닐것 같군.]], "_t")
-t("You do not sound mad to me... could Ukllmswwik have lied?", "당신은 내게 미친것처럼 보이지 않는군요... Ukllmswwik이 내게 거짓말을 한걸까요?", "_t")
-t("As you wish. It did not have to come to this...", "당신이 소망한대로, 이처럼 되진 않았어야 했습니다...", "_t")
-t("I will not be deceived by your lies! I will make your pay for your victims!", "난 네놈의 거짓말에 기만당하지 않을것이다! 네 희생자들을 위해 값을 치루게 해주마!", "_t")
-t("Use this portal. It will bring you back to his cave; ask him the truth.", "이 차원문을 사용해라. 이게 너를 그의 동굴로 되돌려보내 줄것이다; 그에게 진실을 물어라.", "_t")
-t("I will make him pay for his treachery.", "나는 그가 배반에대한 죄값을 치루게 할것입니다.", "_t")
-t("Thank you for listening to me.", "내 말을 들어주어 고맙구나.", "_t")
-t("The dragon was lying, I can feel it. I have decided to embrace your cause.", "용은 거짓말을 했습니다, 저는 그걸 느낄 수 있습니다. 저는 당신의 뜻을 받아들이기로 했습니다.", "_t")
-t("Farewell, Slasul.", "슬라술이여 안녕히", "_t")
-t("So be it... Die now!", "그렇다면... 지금 죽어라!", "_t")
+Recently, that water dragon that sent you here started sending "agents" to secure the temple. I can only imagine his goals, but they are clearly not peaceful.]], [[자비라고?#LIGHT_GREEN#*그가 웃습니다.*#WHITE#
+네가, 내게, 자비를 베푸는 입장이라고 섣불리 판단하지 마라!
+내 이야기를 해주지 않았군. 너 같은 지상의 녀석들은 나가들에 대해 잘 모르지. 하지만 내가 한 가지 알려주마, 우린 원해서 이렇게 된 게 아니다.
+날로레가 가라앉자, 수많은 동포들이 죽었다. 그래서 우린 최후의 수단으로 이 사원의 마법을 사용했지. 그건 먹혀들었고, 우릴 구했지만, 대신 저주를 받았다. 끔찍한 마법으로 이런 모습이 되는 저주를 받게 된 거지.
+내가 하는 말들 중 그 어떤 것도 믿지 않겠다면, 부탁이니 이 한 가지 만이라도 믿어다오. 쉐르'툴들은 숨어 있는 것이지, 사라진 게 아니다. 그리고 그들은 자애롭지 않아.
+최근 들어, 널 이곳으로 보낸 그 수룡이 사원을 지키기 위해 "요원들" 을 보내기 시작했다. 그의 목적은 알 수 없지만, 평화로운 건 확실히 아닐 거다.]], "_t")
+t("You do not sound mad to me... could Ukllmswwik have lied?", "미친 소리 같진 않은데... 우클름스윅이 날 속인 건가?", "_t")
+t("As you wish. It did not have to come to this...", "마음대로 해라. 이렇게까지 될 필요는 없었어...", "_t")
+t("I will not be deceived by your lies! I will make your pay for your victims!", "네 거짓말에 속진 않겠다! 네게 희생된 자들의 목숨 값을 치르게 해 주마!", "_t")
+t("Use this portal. It will bring you back to his cave; ask him the truth.", "이 차원문을 써라. 널 그 용의 동굴로 돌려 보내줄 것이다. 그에게 진실에 대해 물어 봐.", "_t")
+t("I will make him pay for his treachery.", "날 속인 대가를 치르게 해 주겠어.", "_t")
+t("Thank you for listening to me.", "내 말을 들어 주어서 고맙구나.", "_t")
+t("The dragon was lying, I can feel it. I have decided to embrace your cause.", "용은 거짓말을 하고 있었어, 감이 왔다고. 네 뜻에 따를게.", "_t")
+t("Farewell, Slasul.", "안녕히, 슬라술.", "_t")
+t("So be it... Die now!", "그렇다면... 이제 죽어라!", "_t")
 t("[attack]", "[공격]", "_t")
 t([[I secretly hoped you would.
 Then let us seal this alliance. Share your lifeforce with me! So long you should live I shall not be killed!
-In return let me offer you this powerful trident.]], "나는 사실 네가 그러길 바랬다. 그럼 우리의 동맹을 확고히 하자꾸나. 너의 생명력을 나와 공유해라! 네가 살아있는 동안 내가 결코 죽지않게! 보답으로 너에게 이 강력한 삼지창을 주겠다.", "_t")
-t("I shall accept your offer, my liege.", "당신의 뜻을 받들겠나이다 나의 주군이여.", "_t")
-t("LET US BE BOUND!", "우리가 결속되게 하라!", "_t")
-t("This sounds strange. I need to think about it.", "이건 이상하게 들린다. 나는 좀 더 생각해봐야 겠다.", "_t")
+In return let me offer you this powerful trident.]], [[마음 속으로는 네가 그러길 바랬지.
+그럼 우리의 동맹을 확고히 하자. 네 생명력을 나와 공유하라! 네가 살아있는 동안 내가 결코 죽지 않도록!
+그렇게 된다면 보답으로, 네게 이 강력한 삼지창을 주겠다.]], "_t")
+t("I shall accept your offer, my liege.", "뜻을 받들겠습니다, 주군.", "_t")
+t("LET US BE BOUND!", "우리의 생명은 하나다!!", "_t")
+t("This sounds strange. I need to think about it.", "좀 이상한 소린데. 조금 더 생각해 볼게.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/sorcerer-end.lua"
 
+t([[#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#
+#LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#
+#LIGHT_GREEN#*You feel the Way reaching out to you, the whole yeek race speaks to you.*#WHITE#
+You have done something incredible %s! You also have created a unique opportunity for the yeek race!
+The energies of those farportals are incredible, using them we could make the Way radiate all over Eyal, forcing it down on the other races, bringing them the same peace and happiness we feel in the Way.
+You must go through the farportal and willingly sacrifice yourself inside. Your mind will embed itself into the farportal network, spreading the Way far and wide!
+Even though you will die you will bring the world, and the yeeks, ultimate peace.
+The Way will never forget you. Now go and make history!
+]], [[#LIGHT_GREEN#*두 주술사가 죽어 널부러져 있습니다.*#WHITE#
+#LIGHT_GREEN#*그들의 몸은 작은 먼지 구름으로 변해, 빠르게 사라졌습니다.*#WHITE#
+#LIGHT_GREEN#*한길이 자신에게 닿아, 이크 종족 전체가 말을 거는 것을 느낄 수 있습니다.*#WHITE#
+엄청난 일을 했네, %s여! 우리 이크 종족에게 둘도 없는 기회를 만들어 주었어!
+이 장거리 차원문의 에너지는 그야말로 엄청나고, 이걸 이용하면 에이알 전체에 한길을 퍼뜨릴 수 있다네. 다른 종족들 모두에게 우리가 한길에서 느끼는 것과 똑같은 평화와 행복을 선사하는 것이지.
+그대는 장거리 차원문으로 가서 기꺼이 스스로를 희생해야 하네. 그대의 정신 자체가 장거리 차원문의 연결망에 섞여들어, 한길을 널리 퍼뜨리게 될 것이야!
+그대는 죽게 되겠지만, 그대는 이 세계와 이크 종족에게 궁극의 평화를 선사할 수 있다네.
+한길은 그대를 결코 잊지 않을 걸세. 이제 가서, 역사에 이름을 남기게나!
+]], "tformat")
+t("brother", "형제", "_t")
+t("sister", "자매", "_t")
+t("But... I did so much, I could do so much more for the Way by staying alive!", "하지만... 전 충분히 많은 일을 했습니다. 제가 죽지 않아도 한길을 위해 훨씬 더 많은 일을 할 수 있다고요!", "_t")
+t([[#LIGHT_GREEN#*You feel the Way taking over your mind, your body.*#WHITE#
+You will do as asked, for the good of all Yeeks! The Way is always right.
+]], [[#LIGHT_GREEN#*한길이 자신의 정신과 몸을 지배하는 걸 느낄 수 있습니다.*#WHITE#
+시키는 대로 하게, 모든 이크들을 위해서! 한길은 언제나 옳다네.
+]], "_t")
+t("#LIGHT_GREEN#[sacrifice yourself to bring the Way to every sentient creature.]", "#LIGHT_GREEN#[스스로를 희생하여, 모든 지각 있는 생명체들에게 한길을 선사한다.]", "_t")
+t("sacrificing %s to bring the Way to all", "%s 스스로를 희생하여 모두에게 한길을 선사했습니다.", "tformat")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Way for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[최후의 힘을 짜내, 그야말로 엄청난 정신력으로 잠시나마 한길에게 저항하여 아에린에게 생각을 전한다.]#WHITE# 고귀한 여인이시여! 절 죽이십시오! #{bold}#당장!!#{normal}#", "_t")
+t([[#LIGHT_GREEN#*Through your mind Aeryn sees what the Way is planning.*#WHITE#
+You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
+#LIGHT_GREEN#*As she says this she pierces your body with a mighty thrust of her sword, ending the plans of the Way.*#WHITE#
+]], [[#LIGHT_GREEN#*당신의 정신을 통해 아에린은 한길의 계획을 깨달았습니다.*#WHITE#
+그대는 정말 소중한 동료였고, 친구였습니다. 이 세계는 그대가 최후에 보인 이타적인 희생을 기억할 것입니다. 맹세하지요.
+#LIGHT_GREEN#*그녀는 말을 마치자마자, 검으로 당신의 몸을 힘껏 찔러 한길의 계획을 저지했습니다.*#WHITE#
+]], "_t")
+t("#LIGHT_GREEN#[slip peacefully into death.]", "#LIGHT_GREEN#[평화롭게 죽음을 맞이한다.]", "_t")
+t("sacrificing %s to stop the Way", "%s 스스로를 희생하여 한길을 막았습니다.", "tformat")
+t([[#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#
+#LIGHT_GREEN#*Their bodies vanish in a small cloud of mist, quickly fading away.*#WHITE#
+But the portal to the Void is already open. It must be closed before the Creator can come through or all will have been in vain!
+After searching the remains of the Sorcerers you find a note explaining that the portal can only be closed with a sentient being's sacrifice.]], [[#LIGHT_GREEN#*두 주술사가 죽어 널부러져 있습니다.*#WHITE#
+#LIGHT_GREEN#*그들의 몸은 작은 먼지 구름으로 변해, 빠르게 사라졌습니다.*#WHITE#
+하지만 공허로의 차원문은 이미 열렸습니다. 창조자가 강림하기 전에 닫지 않으면, 이 모든 일이 허사가 됩니다!
+주술사들의 흔적을 조사했고, 차원문은 지각 있는 생명체의 희생으로만 닫을 수 있다는 쪽지를 발견했습니다.]], "_t")
+t("Aeryn, I am sorry but one of us needs to be sacrificed for the world to go on. #LIGHT_GREEN#[sacrifice Aeryn for the sake of the world]", "아에린, 정말 죄송하지만 우리 둘 중 하나가 희생해야 세계를 구할 수 있습니다. #LIGHT_GREEN#[이 세계를 위해 아에린을 희생시킨다]", "_t")
+t("I will close it. #LIGHT_GREEN#[sacrifice yourself for the sake of the world]", "제가 차원문을 닫겠습니다. #LIGHT_GREEN#[이 세계를 위해 스스로를 희생한다]", "_t")
+t("sacrificing %s for the sake of the world", "세계를 위해 %s 스스로를 희생했습니다.", "tformat")
+t([[I cannot believe we succeeded. I was prepared to die and it seems I will die, but at least I will do so knowing my sacrifice is not in vain.
+Please, make sure the world is safe.]], [[우리가 성공했다는 게 믿기지가 않습니다. 전 죽을 각오로 이곳에 왔고, 이제 제가 죽어야 하나 보군요. 하지만, 최소한 제 희생을 헛되이 하지는 말아 주세요.
+부탁드립니다. 이 세계를 안전하게 지켜 주세요.]], "_t")
+t("You will never be forgotten.", "그대는 결코 잊혀지지 않을 겁니다.", "_t")
+t([[#LIGHT_GREEN#*The two Sorcerers lie dead before you.*#WHITE#
+#LIGHT_GREEN#*Their bodies vanish in some immaterial mist.*#WHITE#
+You have won the game!
+Both Maj'Eyal and the Far East are safe from the dark schemes of the Sorcerers and their God.]], [[#LIGHT_GREEN#*두 주술사가 죽어 널부러져 있습니다.*#WHITE#
+#LIGHT_GREEN#*그들의 몸은 먼지가 되어 흔적도 없이 사라졌습니다.*#WHITE#
+게임에서 승리하셨습니다!
+마즈'에이알과 동쪽의 대륙은 주술사들의 사악한 계획과, 그들이 섬기던 신에게서 해방되었습니다.]], "_t")
+t("Aeryn, are you well?", "아에린, 괜찮으십니까?", "_t")
 t("[leave]", "[떠난다]", "_t")
+t([[I cannot believe we succeeded. I was prepared to die and yet I live.
+I might have underestimated you. You did more than we could have hoped for!]], [[우리가 성공했다는 게 믿기지가 않습니다. 전 죽을 각오로 이곳에 왔지만 아직 살아 있군요.
+제가 그대를 과소평가했던 모양입니다. 우리가 기대했던 것 이상의 일을 해 주셨습니다!]], "_t")
+t("We both did.", "저 혼자가 아니라, 우리가 했죠.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/sorcerer-fight.lua"
 
-t("High Sun Paladin Aeryn appears next to you!", "고위 태양의 기사 아에린이 당신 옆에 나타났다!", "logPlayer")
+t("High Sun Paladin Aeryn appears next to you!", "고위 태양의 기사 아에린이 곁에 나타났다!", "logPlayer")
 t([[#LIGHT_GREEN#*The two Sorcerers stands before you, shining like the Sun.*#WHITE#
-Ah! Our guest is finally here. I take it you found the peak entertaining?]], [[#LIGHT_GREEN#*태양처럼 빛나는, 두명의 마법사들이 당신 앞에 서있다.*#WHITE#
-아! 우리의 손님이 마침내 여기 왔군요. 봉우리에서 즐거운 시간을 보냈다고 생각해도 되겠죠?]], "_t")
-t("Spare me the small talk. I am here to stop you!", "잡담은 그만 해둬라. 나는 여기에 너를 막으러 왔다!", "_t")
-t("Why are you doing all that? You were supposed to help people!", "왜 이런일을 하는겁니까? 당신들은 사람들을 도우려고 했잖아요!", "_t")
+Ah! Our guest is finally here. I take it you found the peak entertaining?]], [[#LIGHT_GREEN#*두명의 주술사들이 눈 앞에 서 있습니다. 태양처럼 빛이 나고 있습니다.*#WHITE#
+아! 손님이 드디어 오셨군. 봉우리 모험은 즐거웠다고 생각해도 되겠지?]], "_t")
+t("Spare me the small talk. I am here to stop you!", "잡소리는 거기까지다. 너희를 막으러 왔다!", "_t")
+t("Why are you doing all that? You were supposed to help people!", "왜 이런 짓을 하는 거지? 너흰 사람들을 도우려 했잖아!", "_t")
 t([[Oh, but all we want is to help people. We have come to the self-evident conclusion that common people are just unfit to govern themselves, always bickering, arguing...
-Since the last invasion of the orcs there has been no threat to unite them!]], "오, 하지만 우리가 원하는건 사람들을 돕는것 뿐이죠. 우리는 사람들이 스스로를 통치하기에 부적절하다는 자명한 결론에 도달했을 뿐이죠, 언제나 다투고 논쟁하는... 오크의 마지막 침공 이후로는 그들을 단결시켜줄 위협이 아무것도 없다구요!", "_t")
-t("So you have decided to become the threat yourselves?", "그래서 당신들은 스스로 위협이 되기로 한겁니까?", "_t")
-t("Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "우리가? 어, 아니요, 우리는 단지 주인님의 도구일 뿐이랍니다. 우린 그의 귀환을 계획하고 있죠.", "_t")
+Since the last invasion of the orcs there has been no threat to unite them!]], "오, 당연히 사람들을 돕는 것만 생각하고 있지. 그저, 그 사람들은 스스로를 통치하기엔 적절하지 않다는 자명한 결론이 나왔을 뿐. 항상 다투고, 언쟁을 벌이고 말이야... 오크들이 침략했던 때 이후로는, 그 사람들이 하나로 뭉치게 될 만큼 위협적인 것이 없었다고!", "_t")
+t("So you have decided to become the threat yourselves?", "그래서, 손수 그 '위협적인 것' 이 되기로 하셨다?", "_t")
+t("Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "우리가 말이야? 어, 아니지. 우린 그저 주인의 도구에 불과해. 우린 그분을 돌아오시게 할 계획을 세웠을 뿐이다.", "_t")
+t("And 'He' would be...?", "'그분' 이라고...?", "_t")
 t([[The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.
 He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!
 The staff has allowed us to drain enough energy from this world to open the portal to the Void and summon Him through!
-It is already too late. He is coming through as we speak -- it is only a matter of hours!]], [[창조주. 우리 세계를 만든 신, 종족들이 싸우며 대지를 불태우는걸 조용히 지켜봐온 신.
-그는 이 세상에 대해 엄청난 슬픔에 빠졌답니다. 그는 이 세계를 다시 만들기 위해 세계의 보호막을 부술겁니다, 더 낫게 만들기 위해서 말이죠!
-지팡이가 공허로 통하는 차원문을 열기에 충분한 에너지를 흡수할 수 있게 해주고 있고 차원문을 통해 우리는 그를 불러올 겁니다!
-이미 너무 늦었어요, 그는 우리가 말한대로 건너오고 있습니다 -- 이제 시간문제일 뿐이에요! ]], "_t")
+It is already too late. He is coming through as we speak -- it is only a matter of hours!]], [[창조자. 이 세계를 창조하시고, 각 종족들이 서로 싸우며 대지를 불태우는 걸 조용히 지켜보시던 신.
+이 세상을 보며 깊은 슬픔에 빠지신 분이자, 이제 장막을 부수고 이 세계를 다시 창조하실 분이시지! 더 좋은 세상으로 말이야!
+우린 이 지팡이로 이 세계에서 에너지를 충분히 빨아들였고, 공허로 통하는 차원문이 완전히 열리면 그분을 맞이할 것이다!
+너무 늦어서 어쩌나. 그분은 지금 우리의 부름에 응답하여 찾아오고 계신다. 그저 시간 문제일 뿐이라고!]], "_t")
+t([[The Creator. The God who made this world, He who watched silently as the races fought and burnt the land.
+He who felt great sorrow for this world. He who shall now shatter the barriers of this world to remake it, only better!
+The staff will allow us to drain enough energy from this world to open the portal to the Void and summon Him through!
+You cannot stop us now!]], [[창조자. 이 세계를 창조하시고, 각 종족들이 서로 싸우며 대지를 불태우는 걸 조용히 지켜보시던 신.
+이 세상을 보며 깊은 슬픔에 빠지신 분이자, 이제 장막을 부수고 이 세계를 다시 창조하실 분이시지! 더 좋은 세상으로 말이야!
+우린 이 지팡이로 이 세계에서 에너지를 충분히 빨아들였고, 이제 그 힘으로 공허로 통하는 차원문을 열고 그분을 맞이할 것이다!
+넌 우릴 막지 못해!]], "_t")
 t("High Sun Paladin Aeryn", "고위 태양의 기사 아에린", "_t")
-t("I *WILL* stop you! The world will not end today!", "내가 너를 *막을*것이다! 이 세계는 오늘로 끝나지 않아!", "_t")
+t("I *WILL* stop you! The world will not end today!", "내가, 너흴, 막겠다!! 이 세계는 오늘로 끝나지 않을 것이다!", "_t")
 t([[#LIGHT_GREEN#*The air whirls at your side and suddenly High Sun Paladin Aeryn appears!*#WHITE#
-Then you shall not fight alone! Together we shall stop them, or die trying!]], [[#LIGHT_GREEN#*당신 근처의 공기가 휘감아치더니 고위 태양의 기사 아에린이 나타났습니다!*#WHITE#
-그렇다면 그대는 혼자 싸우게 되지 않을겁니다! 함께 우리는 저들을 막아내거나, 그러기 위해 죽을것입니다!]], "_t")
-t("I am glad to have you at my side, my Lady. Let's hunt some wizards!", "그대가 나와 함께 해주어 기쁩니다, 아에린이여. 저 마법사들을 사냥합시다!", "_t")
+Then you shall not fight alone! Together we shall stop them, or die trying!]], [[#LIGHT_GREEN#*옆쪽의 공기가 소용돌이치더니 고위 태양의 기사 아에린이 나타났습니다!*#WHITE#
+그렇다면 그대는 혼자가 아닐지니! 우린 함께 저들을 막거나, 아니면 죽음을 맞이하리라!]], "_t")
+t("I am glad to have you at my side, my Lady. Let's hunt some wizards!", "그대가 제 곁에 서 주어 기쁩니다. 마법사 사냥 좀 해 보실까요!", "_t")
 
 
 ------------------------------------------------
@@ -5264,6 +5656,7 @@ t("No thanks.", "사양하지.", "_t")
 section "game/modules/tome/data/chats/zigur-trainer.lua"
 
 t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
+t("Farewell.", "안녕히.", "_t")
 
 
 ------------------------------------------------
@@ -5455,7 +5848,7 @@ t("%s resists the time prison.", "%s 시간의 감옥에 저항했다.", "logSee
 t("% chance of confusion", "% 확률의 혼란", "_t")
 t("% chance of gloom effects", "% 확률의 암울효과", "_t")
 t("item darkness numbing", "마비성 암흑 부여", "_t")
-t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# 확률로 피해량을 #YELLOW#%d%%#LAST#감소시킵니다.%s", "tformat")
+t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce damage dealt by #YELLOW#%d%%#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# 확률로 피해량을 #YELLOW#%d%%#LAST# 감소시킵니다.%s", "tformat")
 t("item expose", "내성 저하 부여", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to reduce all saves and defense by #YELLOW#%d#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# 확률로 모든 내성과 회피도를 #YELLOW#%d#LAST# 감소시킵니다.%s", "tformat")
 t("item temporal energize", "시간 에너지 부여", "_t")
@@ -5663,7 +6056,7 @@ t("Novice mage", "초보 마법사", "_t")
 t("Lost merchant", "길 잃은 상인", "entity name")
 t("You find a hidden trap door, and hear cries for help from within...", "당신은 숨겨진 지하실 문을 발견했습니다, 그리고 안에서 도움을 바라는 비명을 들었습니다...", "_t")
 t("#LIGHT_RED#You carefully open the trap door and enter the underground tunnels...", "#LIGHT_RED#당신은 조심스럽게 지하실 문을 열고 지하 터널로 들어섰습니다...", "logPlayer")
-t("#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED# 당신은 들어서자 문의 안쪽면에 손잡이가 보이지 않다는것을 깨달았습니다. 당신은 이곳에 갇혔습니다!", "logPlayer")
+t("#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#문 안쪽에 손잡이가 없다는 것을 깨달았습니다. 이곳에 갇혔습니다!", "logPlayer")
 t("Enter the tunnels", "터널로 들어가다", "_t")
 t("Sect of Kryl-Faijan", "크릴-파이얀의 이교도", "entity name")
 t("hostile", "적대적인", "entity type")
@@ -5672,15 +6065,15 @@ t([[You find an entrance to an old crypt. An aura of terrible evil emanates from
 You hear the muffled cries of a woman coming from inside.]], "당신은 오래된 지하실의 입구를 발견했습니다. 끔찍하게 사악한 기운이 이 장소에서 뿜어져나옵니다. 당신은 이곳에 서있는것만으로도 위협받는 느낌을 받습니다. 당신은 안에서부터 여인의 숨죽인 울음소리가 흘러나오는것을 들었습니다.", "_t")
 t("#LIGHT_BLUE#You carefully get away without making a sound.", "#LIGHT_BLUE#당신은 조심스럽게 소리 없이 빠져나왔습니다 .", "logPlayer")
 t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#당신은 조심스럽게 문을 열고 지하 묘실에 들어섰습니다...", "logPlayer")
-t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#당신은 들어서자 문의 안쪽면에 손잡이가 보이지 않다는것을 깨달았습니다. 당신은 이곳에 갇혔습니다!", "logPlayer")
-t("Enter the crypt", "지하실에 들어사다", "_t")
-t("Leave carefully", "조심스럽게 떠나다", "_t")
-t("Lost kitten", "길잃은 새끼 고양이", "entity name")
-t("Lost Kitty", "길잃은 새끼 고양이", "_t")
+t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#문 안쪽에 손잡이가 없다는 것을 깨달았습니다. 이곳에 갇혔습니다!", "logPlayer")
+t("Enter the crypt", "지하실로 들어간다", "_t")
+t("Leave carefully", "조심스럽게 떠난다", "_t")
+t("Lost kitten", "길 잃은 새끼 고양이", "entity name")
+t("Lost Kitty", "길 잃은 새끼 고양이", "_t")
 t("Ancient Elven Ruins", "고대 엘프의 폐허", "entity name")
 t("Entrance to some ancient elven ruins", "고대 엘프의 폐허로 가는 입구", "_t")
 t("Cursed Village", "저주받은 마을", "entity name")
-t("Half-dead lumberjack", "반쯤 죽은 나무꾼", "_t")
+t("Half-dead lumberjack", "다 죽어 가는 나무꾼", "_t")
 t("Ruined Dungeon", "파괴된 던전", "entity name")
 t("Entrance to a ruined dungeon", "파괴된 던전의 입구", "_t")
 t("Mark of the Spellblaze", "마법폭발의 흔적", "_t")
@@ -7364,7 +7757,7 @@ t("#00FF00#The elixir has augmented your physical might and resilience!", "#00FF
 t("Elixir of Stoneskin", "돌 피부 영약", "entity name")
 t("vial of iron-colored fluid", "철 색깔의 액체 유리병", "_t")
 t("A vial of grainy, iron-colored fluid.", "철 색깔의 액체 유리병으로, 철 색깔의 거친 액체가 담겨있습니다.", "_t")
-t("permanently increase your armor by four", "엉구적으로 방어력이 4 증가합니다", "_t")
+t("permanently increase your armor by four", "영구적으로 방어력이 4 증가합니다", "_t")
 t("#00FF00#The elixir has reinforced your entire body!", "#00FF00#영약이 당신의 몸 전체를 보강한다!", "logPlayer")
 t("Elixir of Foundations", "기초의 영약", "entity name")
 t("vial of white fluid", "하얀색 액체 유리병", "_t")
@@ -8660,7 +9053,7 @@ t("%s uses %s %s!", "%s %s%s 사용했다!", "logSeen", nil, {"는",[3]="를"})
 t(" of mindblast", " 정신파 ", "entity name")
 t("mindblast", "정신파", "entity keyword")
 t("blast the opponent's mind dealing %d mind damage and silencing them for 4 turns", "대상에게 정신파를 날려 %d 정신 피해를 주고, 4 턴 동안 침묵시킵니다", "tformat")
-t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
+t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 
 
 ------------------------------------------------
@@ -8698,7 +9091,7 @@ t("A lashing tentacle.", "후려치는 촉수다.", "_t")
 t("#Source# points %s %s at #target#, releasing a writhing tentacle!", "#Source2# %s%s 사용해 #target3# 향해 뒤틀린 촉수를 소환한다!", "logCombat", nil, {[2]="을"})
 t("a spot nearby", "근처의 위치", "_t")
 t("Summon", "소환", "_t")
-t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
+t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 
 
 ------------------------------------------------
@@ -8718,7 +9111,7 @@ t("fire a magical bolt dealing %d %s damage", "마법의 화살을 날려 %d %s 
 t(" of shielding", " 마법 보호막 ", "entity name")
 t("shielding", "마법 보호막", "entity keyword")
 t("create a shield absorbing up to %d damage on yourself and all friendly characters within 10 spaces for %d turns", "최대 %d 피해를 흡수하는 보호막을 전개해, 시전자와 반경 10 칸 내의 우호적인 개체를 %d 턴 동안 보호합니다", "tformat")
-t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
+t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 
 
 ------------------------------------------------
@@ -9952,7 +10345,7 @@ t("glowing rod", "빛나는 장대", "_t")
 t("Gwai's Burninator", "과이의 화염들판 장대", "entity name")
 t("Gwai, a Pyromanceress that lived during the Spellhunt, was cornered by group of mage hunters. She fought to her last breath and is said to have killed at least ten people with this wand before she fell.", "과이, 마법 사냥 동안 살았던 화염의 마녀로, 마법 사냥꾼들에게 둘러쌓였을 때, 그녀는 최후까지 싸워, 이 장대 하나로 적어도 10 명 이상의 사냥꾼들을 쓰러뜨렸다고 합니다.", "_t")
 t("shoot a cone of flames (radius %d) for %0.2f fire damage (based on Magic)", "반경 %d 칸의 원뿔범위에 화염을 발사하여 %0.2f 화염 피해를 가합니다 (마법에 비례합니다)", "tformat")
-t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
+t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 t("viciously sharp battle axe", "사악하고 날카로운 전투 도끼", "_t")
 t("Drake's Bane", "드레이크의 파멸", "entity name")
 t("The killing of Kroltar, mightiest of wyrms, took seven months and the lives of 20,000 dwarven warriors.  Finally the beast was worn down and mastersmith Gruxim, standing atop the bodies of his fallen comrades, was able slit its throat with this axe crafted purely for the purpose of penetrating the wyrm's hide.", "최강의 용, 크롤타의 살해에 이르기까지, 7 개월동안 20,000 여명의 드워프 전사가 희생되었습니다.  마침내 그 흉악한 짐승은 지속된 공격으로 약화되었고, 위대한 대장장이인 그룩심이 쓰러진 전우들의 시체를 밟고 올라가, 그의 도끼, 오로지 용의 가죽을 뚫기위해 만들어진 그의 도끼로 크롤타의 목을 그었습니다..", "_t")
@@ -10315,7 +10708,7 @@ t("dominate the target", "대상을 지배합니다", "_t")
 t("Blightstopper", "역병을 가로막는 자", "entity name")
 t("vine coated shield", "덩쿨이 뒤덮힌 방패", "_t")
 t("This voratun shield, coated with thick vines, was imbued with nature's power long ago by the Halfling General Almadar Riul, who used it to stave off the magic and diseases of orcish corruptors during the peak of the Pyre Wars.", "오래전 하플링 장군 알마다르 리울이 이 두꺼운 덩쿨로 뒤덮힌 보라툰 방패에 자연의 힘을 주입했습니다. 장작더미 전쟁의 한창일 때, 리울은 이 방패를 오크 타락자들이 퍼뜨리는 역병과 마법에 대항하기 위해 사용했습니다.", "_t")
-t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "최대 %d 개의 질병을 치유하고, (의지에 비례) 5 턴 동안, 질병 면역력을 얻으며, 황폐 저항이 %d%% 상승합니다. 또한 주문 저항이 %d 증가합니다", "tformat")
+t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "최대 %d 개의 질병을 치유하고, (의지에 비례) 5 턴 동안, 질병 면역력을 얻으며, 황폐 저항이 %d%% 상승합니다. 또한 주문 내성이 %d 증가합니다", "tformat")
 t("%s holds %s %s close, cleansing %s of corruption!", "%s %s %s 몸 쪽으로 끌어당겨, %s 부정한 힘을 정화했다!", "logSeen", nil, {"는",[3]="를"})
 t("%s is purged of diseases!", "%s 질병을 정화했다!", "logSeen", nil, {"은"})
 t("#DARK_GREEN#You feel nature's power protecting you!", "#DARK_GREEN#자연의 힘이 당신을 보호함을 느낀다!", "logPlayer")
@@ -12317,7 +12710,7 @@ section "game/modules/tome/data/quests/pre-charred-scar.lua"
 
 t("Important news", "중대한 소식", "_t")
 t("Orcs were spotted with the staff you seek in an arid waste in the southern desert.", "남부 사막지대의 에류안 불모지에서 흡수의 지팡이를 가진 오크 무리가 발견되었습니다.", "_t")
-t("You should go investigate what is happening there.", "당신은 그곳으로 가서 어떤 일이 벌어지고 있는지 조사해야 합니다.", "_t")
+t("You should go investigate what is happening there.", "그곳으로 가서 어떤 일이 벌어지고 있는지 조사해야 합니다.", "_t")
 t("High Sun Paladin Aeryn", "고위 태양의 기사 아에린", "_t")
 t("Aeryn explained where the orcs were spotted.", "아에린이 오크 무리가 어디서 발견되었는지 설명해 주었다.", "logPlayer")
 
@@ -12361,7 +12754,7 @@ t("#LIGHT_GREEN#* You have upgraded the transmogrification chest to automaticall
 t("#LIGHT_GREEN#* You have unlocked the training room.#WHITE#", "#LIGHT_GREEN#* 훈련실의 문을 열었습니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have unlocked the hall of reflections.#WHITE#", "#LIGHT_GREEN#* 반영의 전당을 열었습니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have upgraded your rod of recall to transport you to the fortress.#WHITE#", "#LIGHT_GREEN#* 귀환의 장대의 기능을 강화했습니다. 이제 장대는 당신을 요새로 보내줍니다.#WHITE#", "_t")
-t("#RED#* You have forced a recall while in an exploratory farportal zone. The farportal was rendered unusable in the process.#WHITE#", "#RED#* 탐험용 장거리 차원문으로 간 구역에서 강제로 귀환했습니다. 그 탓에 장거리 차원문이 사용 불능 상태가 되었습니다.#WHITE#", "_t")
+t("#RED#* You have forced a recall while in an exploratory farportal zone. The farportal was rendered unusable in the process.#WHITE#", "#RED#* 탐험용 장거리 차원문으로 간 구역에서 강제로 귀환했습니다. 그 탓에 장거리 차원문이 손상되었습니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have entered the exploratory farportal room and defeated the horror lurking there. You can now use the farportal.#WHITE#", "#LIGHT_GREEN#* 탐험용 장거리 차원문의 방에 들어갔고 거기 있던 공포를 처치했습니다. 이제 장거리 차원문을 사용할 수 있습니다.#WHITE#", "_t")
 t("#SLATE#* The fortress shadow has asked that you come back as soon as possible.#WHITE#", "#SLATE#* 요새의 그림자가 시간 나는 대로 요새로 돌아오라고 요청했습니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have re-enabled the fortress flight systems. You can now fly around in your fortress!#WHITE#", "#LIGHT_GREEN#* 요새의 비행 기능을 재활성화했습니다. 이제 요새로 날아다닐 수 있습니다!#WHITE#", "_t")
@@ -13283,7 +13676,7 @@ t([[You are so infused with sunlight that your body glows permanently in radius 
 		]], "tformat")
 t("Judgement", "심판", "_t")
 t([[Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects, dealing %d light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing %d light damage in radius 1 and healing you for 50%% of the damage dealt.
-		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], [[광휘의 범위 안의 모든 적에게 눈부신 빛의 구체를 발사합니다. 모든 구체는 대상에게 닿을 때 까지 느리게 대상을 추격합니다. 구체에 닿은 적은 %d 빛 피해를 받고, 대상에게 빛 구체가 닿을 경우, 반경 1 칸의 폭발이 일어나 %d 반경 1 칸의 빛 피해를 입히고, 피해량의 50%% 만큼 시전자의 생명력을 회복합니다.
+		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], [[광휘의 범위 안의 모든 적에게 눈부신 빛의 구체를 발사합니다. 모든 구체는 대상에게 닿을 때 까지 느리게 대상을 추격합니다. 구체에 닿은 적은 %d 빛 피해를 받고, 대상에게 빛 구체가 닿을 경우, 반경 1 칸의 폭발이 일어나 %d 빛 피해를 입히고, 피해량의 50%% 만큼 시전자의 생명력을 회복합니다.
 		심판에 영향을 받은 모든 적은 빛에 의해 황폐화 되어, 모든 내성이 %d 감소하고, 치명타 피해량이 %d%% 감소합니다. 또한 대상은 4 턴 동안 빛속성 피해를 입게되면, 대상을 기준으로, 해당 피해량의 %d%% 의 피해를 가하는 반경 2 칸의 폭발을 만들어 냅니다.]], "tformat")
 t("Searing Sight", "타오르는 시야", "talent name")
 t([[Your Radiance is so powerful it burns all foes caught in it, dealing %0.1f light damage to all foes caught inside every turn.
@@ -16636,7 +17029,7 @@ t([[The fungus on your body allows regeneration effects to last longer.
 		Each time you gain a beneficial effect with the regeneration subtype you increase its duration by %d%% + 1 rounded up.
 		The effect will increase with your Mindpower.]], [[몸에 피어난 곰팡이는 생명력 재생 효과의 지속시간을 늘립니다.
 		생명력 재생 계열의 이로운 효과를 받을 때마다 지속시간을 %d%% + 1 늘립니다. (소숫점은 반올림합니다)
-		이 효과는 정신력 비례하여 증가합니다.]], "tformat")
+		이 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Ancestral Life", "원초적인 생명력", "talent name")
 t("#LIGHT_GREEN##Source# gains %d%%%% of a turn from Ancestral Life.#LAST#", "#LIGHT_GREEN##Source2# 원시의 생명력으로 부터 %d%%%% 의 추가 턴을 획득했다.#LAST#", "logCombat")
 t([[Your fungus reaches into the primordial ages of the world, granting you ancient instincts.
@@ -16797,7 +17190,7 @@ t("Psiblades", "염동 칼날", "talent name")
 t([[Channel your mental power through your wielded mindstars, generating psionic blades.
 		Mindstar psiblades have their damage modifiers (how much damage they gain from stats) multiplied by %0.2f, their armour penetration by %0.2f and mindpower, willpower and cunning by %0.2f.
 		Also passively increases weapon damage by %d%% and physical power by 30 when using mindstars.]], [[장착한 마석에 정신력을 끌어모아 염동력 칼날을 생성합니다.
-		활성화 시 장착한 마석의 피해 능력치 의존이 (능력치가 얼마나 피해에 관여하는가에 대한 수치) %0.2f 배가 되고, 방어력 관통이 %0.2f, 무기가 향상시켜주는 정신력과 의지, 교활이 %0.2f 배가 됩니다.
+		활성화 시 장착한 마석의 피해 능력치 의존이 (능력치가 얼마나 피해에 관여하는가에 대한 수치) %0.2f 배가 되고, 방어력 관통이 %0.2f 배, 무기가 향상시켜주는 정신력과 의지, 교활이 %0.2f 배가 됩니다.
 		지속 효과로써, 마석 장착시 무기피해가 %d%% 증가하고 물리력이 30 증가합니다.]], "tformat")
 t("Thorn Grab", "가시 손아귀", "talent name")
 t("You require a psiblade in your mainhand to use this talent.", "이 기술을 사용하기 위해서 주 무기로 마석을 장착해야 한다.", "logPlayer")
@@ -17047,7 +17440,7 @@ t([[Allows you to burrow into earthen walls for %d turns.
 		Your powerful digging abilities also allow you to exploit and smash through enemy defensive weaknesses; You ignore %d of target armor and %d%% of enemy physical damage resistance while this is in effect.
 		At Talent Level 5, this talent can be used instantly, and the cooldown will reduce with levels.
 		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[%d 턴 동안 흙으로 된 벽을 파헤칠 수 있게 됩니다.
-		강력한 땅 파기 능력은 적의 방어의 틈새를 찾아내고 깨부수는데에도 사용 될 수 있습니다. 효과가 활성화 된 동안 적의 방어력를 %d 만큼, 물리 저항력을 %d%% 만큼 무시합니다.
+		강력한 땅 파기 능력은 적의 방어의 틈새를 찾아내고 깨부수는데에도 사용 될 수 있습니다. 효과가 활성화 된 동안 적의 방어력를 %d 만큼, 물리 저항을 %d%% 만큼 무시합니다.
 		기술 레벨 5 일때, 이 기술은 턴을 소모하지 않으며, 재사용 대기 시간도 레벨에 따라 단축됩니다. 
 		모래 드레이크 기술에 투자된 기술 점수 하나 당 물리 저항이 0.5%% 상승합니다.]], "tformat")
 t("Sand Breath", "모래 숨결", "talent name")
@@ -18419,7 +18812,7 @@ t([[Nature is with the Thaloren; they can always feel the call of the woods.
 t("dwarf", "드워프", "_t")
 t("Resilience of the Dwarves", "드워프의 강인함", "talent name")
 t([[Call upon the legendary resilience of the Dwarven race to increase armour (+%d), armour hardiness (+%d%%), spell (+%d) and physical (+%d) saves for 8 turns.
-		The bonuses will increase with your Constitution.]], [[드워프 종족의 강인함은 그야말로 전설적입니다. 8 턴 동안 방어력이 %d, 방어 효율이 %d%% 증가되고, 주문 저항이 %d, 물리 저항이 %d 증가됩니다.
+		The bonuses will increase with your Constitution.]], [[드워프 종족의 강인함은 그야말로 전설적입니다. 8 턴 동안 방어력이 %d, 방어 효율이 %d%% 증가되고, 주문 내성이 %d, 물리 내성이 %d 증가됩니다.
 		상승량은 체격에 비례하여 증가합니다.]], "tformat")
 t("Stoneskin", "바위 피부", "talent name")
 t([[Dwarf skin is a complex structure; it can automatically react to physical blows and harden itself.
@@ -18782,7 +19175,7 @@ t([[Fire a bolt of distortion that ignores resistance and inflicts %0.2f physica
 		At talent level 5, you learn to shape your distortion effects, preventing them from hitting you or your allies.
 		The damage will scale with your Mindpower.]], [[왜곡 화살을 발사하여, 저항을 무시하고 %0.2f 물리 피해를 줍니다. 이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
 		왜곡 화살이 이미 왜곡의 영향을 받는 적에 접촉할 경우, 폭발이 일어나 반경 %d 칸 내에 기본 피해량의 150%% 에 달하는 피해를 줍니다.
-		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항력 감소 효과가 상승하게 됩니다.
+		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항 감소 효과가 상승하게 됩니다.
 		기술 레벨이 5 이상이면, 왜곡의 형태를 조절하여 자신과 아군은 폭발에 휘말리지 않게 됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Distortion Wave", "왜곡 파동", "talent name")
@@ -18792,7 +19185,7 @@ t([[Creates a distortion wave in a radius %d cone that deals %0.2f physical dama
 		If the target is already distorted, they'll be stunned for %d turns as well.
 		The damage will scale with your Mindpower.]], [[반경 %d 칸의 원뿔 범위에 왜곡 파동을 만들어 내 %0.2f 물리 피해를 주고 적들을 뒤로 밀어냅니다.
 		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
-		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항력 감소 효과가 상승하게 됩니다.
+		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항 감소 효과가 상승하게 됩니다.
 		대상이 이미 왜곡의 영향을 받는 경우, %d 턴 동안 기절합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Ravage", "대파괴", "talent name")
@@ -18803,7 +19196,7 @@ t([[Ravages the target with distortion, inflicting %0.2f physical damage each tu
 		The damage will scale with your Mindpower.]], [[왜곡의 힘으로 대상을 파괴합니다. %0.2f 물리 피해를 매 턴 입힙니다. 효과는 %d 턴 동안 지속됩니다.
 		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
 		대파괴가 이미 왜곡의 영향을 받는 적에 적용될 경우, 피해량이 50%% 증가하고 대상은 매 턴 이로운 물리적 효과나 유지기를 하나 잃게 됩니다.
-		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항력 감소 효과가 상승하게 됩니다.
+		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항 감소 효과가 상승하게 됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Maelstrom", "염동력 소용돌이", "talent name")
 t("%s's maelstrom", "%s'의 소용돌이", "tformat")
@@ -18813,7 +19206,7 @@ t([[Create a powerful maelstorm for %d turns.  Each turn, the maelstrom will pul
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
 		The damage will scale with your Mindpower.]], [[%d 턴 동안 지속되는 강력한 염력의 소용돌이를 생성합니다.  매 턴 마다 소용돌이는 반경 %d 칸 내의 적들을 끌어당기며, %0.2f 물리 피해를 가합니다
 		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
-		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항력 감소 효과가 상승하게 됩니다.
+		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항 감소 효과가 상승하게 됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -20681,7 +21074,7 @@ t([[Your mastery of necromancy becomes so total that an aura of undeath radiates
 		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
 		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists and damage increases (applied to all elements).
 		]], [[강령술에 대한 통달이 완전무결한 것이 되어, 반경 %d 칸 내에 불사의 기운을 내뿜게됩니다.
-		기운 내에 위치하는 모든 강령 하수인들은 보호를 받게되어, 모든 저항이 %d%% 상승합니다.
+		기운 내에 위치하는 모든 강령술 하수인들은 보호를 받게되어, 모든 저항이 %d%% 상승합니다.
 		추가로, 시전자가 새로운 하수인을 소환할 때, 시전자 능력치들의 %d%% 가 적용됩니다. 시전자의 주문력의 일부가 하수인들의 물리력, 정신력, 마법력, 증기력에 추가되고, 시전자의 주문 치명타 확률의 일부가 하수인들의 모든 치명타 확률에 추가되며, 시전자의 내성들의 일부가 하수인들의 각 내성에 추가됩니다. 또한 시전자의 피해 저항과 속성 피해 변동치의 일부 역시 하수인들에게 추가됩니다.
 		]], "tformat")
 t("Surge of Undeath", "불사자들의 분노", "talent name")
@@ -21272,7 +21665,7 @@ t([[This intricate spell instantly erects a time shield around the caster, preve
 		Each turn the restoration field is active, you get healed for 10%% of the absorbed damage (Aegis Shielding talent affects the percentage).
 		The shield's max absorption will increase with your Spellpower.]], [[이 복잡한 주문은 시전 시, 당신에게 즉시 시간 보호막을 둘러칩니다. 보호막은 모든 피해를 막고, 해당 피해를 미래로 보내버립니다.
 		시간의 보호막은 모든 피해를 흡수하여 미래로 보내버리며, 보호막이 총 %d 이상의 피해량을 흡수하거나 %d 턴이 지나 지속시간이 끝나면 보호막이 사라집니다. 이 보호막은 사라지면서 5 턴 동안 시간의 회복장을 만들어냅니다.
-		매 턴 마다 보호막에 누적됐던 피해량의 10%% 만큼 생명력을 회복시켜줍니다 (아이기스의 방패는 이 퍼센테이지에 영향을 줍니다.)
+		매 턴 마다 보호막에 누적됐던 피해량의 10%% 만큼 생명력을 회복시켜줍니다 (아이기스의 방패는 이 비율에 영향을 줍니다.)
 		최대 피해 흡수량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Time Prison", "시간의 감옥", "talent name")
 t([[Removes the target from the flow of time for %d turns. In this state, the target can neither act nor be harmed.
@@ -21306,15 +21699,15 @@ t([[Casting beam spells has become so instinctive for you that you can now easil
 		추가 시전에는 마나가 소모되지만 턴을 소모하지 않고, 재사용 대기시간 역시 적용되지 않습니다.
 		에테르의 화신의 지속 시간 동안, 에테르의 화신에 맞는 주문들만 사용됩니다.]], "tformat")
 t("Slipstream", "비전 이동", "talent name")
-t("#PURPLE#Your Slipstream does not have enough resources!", "#PURPLE#당신은 후폭풍을 사용할 충분한 마나가 없다!", "logPlayer")
-t("#PURPLE#Your Slipstream regenerates to full!", "#PURPLE#당신의 후폭풍은 완전히 충전되었다!", "logPlayer")
+t("#PURPLE#Your Slipstream does not have enough resources!", "#PURPLE#당신은 비전 이동을 사용할 충분한 마나가 없다!", "logPlayer")
+t("#PURPLE#Your Slipstream regenerates to full!", "#PURPLE#당신의 비전 이동은 완전히 충전되었다!", "logPlayer")
 t([[By weaving arcane triggers around you feet you can use the residual energies of your beam spells for free movement.
 		Each time you cast a beam spell you can move right afterwards without spending a turn.
 		This spell has %d charges. Once all charges are spent it unsustains.
 		If you exit combat with some charges left it will after 10 turn regenerates its charges, if you have enough mana.]], [[마법력으로 이루어진 마법진을 발 밑에 생성해, 광선 주문의 남은 에너지를 이용해 즉시 이동할 수 있게됩니다.
 		매 턴, 광선 주문을 사용한 뒤, 턴의 소모 없이 이동할 수 있게됩니다.
 		이 주문은 %d 번 충전되어 있으며, 충전을 모두 소모하면 주문이 비활성화됩니다.
-		전투에서 벗어나고 나고 10 턴 후, 마나만 충분히 존재 한다면 후폭풍이 완전히 충전됩니다.]], "tformat")
+		전투에서 벗어나고 나고 10 턴 후, 마나만 충분히 존재 한다면 비전 이동이 완전히 충전됩니다.]], "tformat")
 t("Elemental Array Burst", "원소 배열 폭발", "talent name")
 t([[Using your near-perfect knowledge of beam spells you combine them all into a powerful 3-wide beam of pure energy.
 		The beam deals %0.2f thaumic damage and always goes as far as possible.
@@ -22738,7 +23131,7 @@ t([[Smash your shield into the face of all adjacent foes dealing %d%% shield dam
 		돌진을 이미 배운 경우, 명중 시 돌진의 재사용 대기시간이 초기화됩니다.
 		밀처진 거리는 기술 레벨에 비례하여 증가하며, 혼절 지속시간은 힘에 비례하여 증가합니다.]], "tformat")
 t("Shield Expertise", "방패 전문가", "talent name")
-t("Improves your damage with shield-based skills, and increases your Spell (+%d) and Physical (+%d) Saves.", "방패 기술의 피해량을 상승시키고, 주문 저항을 %d, 물리 저항을 %d 상승시킵니다.", "tformat")
+t("Improves your damage with shield-based skills, and increases your Spell (+%d) and Physical (+%d) Saves.", "방패 기술의 피해량을 상승시키고, 주문 내성을 %d, 물리 내성을 %d 상승시킵니다.", "tformat")
 t("Last Stand", "최후의 저항", "talent name")
 t("You require a weapon and a shield to use this talent.", "방패와 근접무기 없이 이 기술을 사용할 수 없다.", "logPlayer")
 t("You cannot use Last Stand without a shield!", "방패 없이 최후의 저항을 사용할 수 없다!", "logPlayer")
@@ -23202,7 +23595,7 @@ t([[For 8 turns you gain the mass and power of a star, drawing all creatures wit
 		시전자와 인접한 적에게는 피해량이 150%% 증가합니다.
 		피해량은 힘에 비례하여 받아 증가합니다.]], "tformat")
 t("I Can Carry The World!", "세상을 짊어질 자", "talent name")
-t("Be able to use massive armours", "갑을 입을 수 있을 것", "_t")
+t("Be able to use massive armours", "판갑을 입을 수 있을 것", "_t")
 t([[Your strength is legendary; fatigue and physical exertion mean nothing to you.
 		Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 50 and you gain a size category.]], [[당신은 전설적인 힘을 가지게 되어, 피로나 육체의 단련이 의미없게 됩니다.
 		피로도가 0 이 되고 무게 제한이 500 늘어나며, 힘 능력치가 50 상승하며 몸집 크기가 한 단계 상승합니다.]], "tformat")
@@ -25147,7 +25540,7 @@ t("#Target# summons a storm to protect them!", "#Target2# 폭풍방패를 불러
 t("+Stormshield", "+폭풍방패", "_t")
 t("#Target#'s storm dissipates.", "#Target#의 폭풍방패가 사라진다.", "_t")
 t("-Stormshield", "-폭풍방패", "_t")
-t("%s(%d stormshielded#LAST#%s)#LAST#", "%s(%d 폭풍방패로 방어됨#LAST#%s)#LAST#", "tformat")
+t("%s(%d stormshielded#LAST#%s)#LAST#", "%s(%d 폭풍방패#LAST#%s)#LAST#", "tformat")
 t("#BLUE##Target#'s stormshield is out of charges and disspitates!#LAST#.", "#BLUE##Target#의 폭풍방패가 모두 소모되어 사라진다!#LAST#.", "logCombat")
 t("Prismatic Shield", "다색 보호막", "_t")
 t("The target is protected by a prismatic shield blocking many instances of damage.  Remaining:  %s", " 공격을 여러번 막아냄.   남은 회수:  %s", "tformat")
@@ -25157,17 +25550,17 @@ t("+Prismatic", "+다색 보호막", "_t")
 t("#Target#'s prismatic shield fades.", "#Target#의 다색 보호막이 옅어저간다.", "_t")
 t("-Prismatic", "-다색 보호막", "_t")
 t("%s(%d to prism#LAST#%s)#LAST#", "%s(%d 다색보호막#LAST#%s)#LAST#", "tformat")
-t("PURGING", "절개", "_t")
+t("PURGING", "해방", "_t")
 t("The target is being purged of 1 physical ailment each turn.", "매 턴 하나의 부정적인 물리적 효과 제거.", "tformat")
-t("#Target# is being purged of his physical ailments!", "#Target2# 부정적인 물리적 효과를 절개하기 시작했다!", "_t")
-t("+Purging", "+절개", "_t")
+t("#Target# is being purged of his physical ailments!", "#Target2# 부정적인 물리적 효과를 제거하기 시작했다!", "_t")
+t("+Purging", "+해방", "_t")
 t("#Target#'s is no longer being purged.", "#Target#의 시술이 끝났다.", "_t")
-t("-Purging", "-절개", "_t")
+t("-Purging", "-해방", "_t")
 t("Sensing (Vim)", "감지 (원기)", "_t")
 t("Improves senses, allowing the detection of unseen things.", "감지력 향상.", "_t")
 t("Sense Hidden", "예리한 감각", "_t")
 t("Improves/gives the ability to see invisible and stealthed creatures (power %d).", "투명, 은신한 적을 볼 수 있음 / 탐지력 +%d.", "tformat")
-t("#Target#'s eyes tingle.", "#Target#의 눈에 빛이 인다.", "_t")
+t("#Target#'s eyes tingle.", "#Target#의 눈에 안광이 인다.", "_t")
 t("#Target#'s eyes tingle no more.", "#Target#의 눈은 원래대로 돌아왔다.", "_t")
 t("Bane of Blindness", "실명의 파멸", "_t")
 t("The target is blinded, unable to see anything and takes %0.2f darkness damage per turn.", "실명 : 아무것도 볼 수 없음 / 매 턴 %0.2f 암흑 피해 받음.", "tformat")
@@ -25180,19 +25573,20 @@ t("+Confused", "+혼란", "_t")
 t("#Target# seems more focused.", "#Target#의 혼란이 끝났다.", "_t")
 t("-Confused", "-혼란", "_t")
 t("Supercharge Golem", "골렘 과부하", "_t")
-t("The target is supercharged, increasing life regen by %0.2f and damage done by 20%%.", "생명력 재생 +%0.2f / 모든 피해량 +20%%.", "tformat")
+t("The target is supercharged, increasing life regen by %0.2f and damage done by 20%%.", "과부화 됨 : 생명력 재생 +%0.2f / 모든 피해량 +20%%.", "tformat")
 t("+Supercharge", "+과부하", "_t")
 t("-Supercharge", "-과부하", "_t")
 t("Power Overload", "동력 과부하", "_t")
-t("The target radiates incredible power, increasing all damage done by %d%%.", "모든 피해량 +%d%%.", "tformat")
+t("The target radiates incredible power, increasing all damage done by %d%%.", "믿을 수 없는 힘을 방출 중 : 모든 피해량 +%d%%.", "tformat")
 t("#Target# is overloaded with power.", "#Target2# 넘치는 힘으로 과부화 된다.", "_t")
 t("+Overload", "+과부하", "_t")
 t("#Target# seems less dangerous.", "#Target#의 넘치는 힘이 사라졌다.", "_t")
 t("-Overload", "-과부하", "_t")
 t("Life Tap", "생명의 힘", "_t")
-t("The target taps its blood's hidden power, healing for %d%% of all damage they deal.", "가하는 모든 피해의 %d%% 를 생명력으로 회복.", "tformat")
+t("The target taps its blood's hidden power, healing for %d%% of all damage they deal.", "피의 숨겨진 힘을 수집 중 : 가하는 모든 피해의 %d%% 를 생명력으로 회복.", "tformat")
 t("#Target# looks healthier as he deals damage.", "#Target2# 공격을 가할 때마다 힘이 회복되는 것 같다.", "_t")
 t("+Life Tap", "+생명의 힘", "_t")
+t("#Target# stops leeching life.", "#Target#의 생명력 흡수가 종료되었다.", "_t")
 t("-Life Tap", "-생명의 힘", "_t")
 t("Arcane Eye", "비전의 눈", "_t")
 t("You have an arcane eye observing for you in a radius of %d.", "주변 %d 칸 범위의 적을 밝히는 비전의 눈을 사용.", "tformat")
@@ -25201,65 +25595,65 @@ t("An Arcane Eye has seen this creature.", "비전의 눈이 이 개체를 보�
 t("All stats increase", "모든 능력치 상승", "_t")
 t("All primary stats of the target are increased by %d.", "모든 능력치 +%d.", "tformat")
 t("Displacement Shield", "변위 보호막", "_t")
-t("The target is surrounded by a space distortion that randomly sends (%d%% chance) incoming damage to another target (%s). Absorbs %d/%d damage before it crumbles.", "%d%% 확률로 받은 피해를 %s 에게 전송 / 흡수량 %d/%d.", "tformat")
+t("The target is surrounded by a space distortion that randomly sends (%d%% chance) incoming damage to another target (%s). Absorbs %d/%d damage before it crumbles.", "공간왜곡에 둘러싸임 : %d%% 확률로 받은 피해를 %s 에게 전송 / 흡수량 %d/%d.", "tformat")
 t("+Displacement Shield", "+변위 보호막", "_t")
 t("The very fabric of space alters around #target#.", "#target# 주위의 공간의 구조가 뒤틀린다.", "_t")
 t("-Displacement Shield", "-변위 보호막", "_t")
 t("The fabric of space around #target# stabilizes to normal.", "#target# 주위의 공간의 구조가 다시 안정화됐다.", "_t")
 t("Damage Shield", "피해 보호막", "_t")
 t("(reflecting %d%% back to the attacker)", "(받은 피해량의 %d%% 가 공격자에게 반사됨)", "tformat")
-t("The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "피해%s 흡수량 %d/%d", "tformat", {3,1,2})
+t("The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "마법 보호막에 둘러싸임 : 피해 흡수량 %d/%d %s", "tformat", {3,1,2})
 t("+Shield", "+보호막", "_t")
 t("A shield forms around #target#.", "#target2# 주위에 마력의 보호막을 형성했다.", "_t")
 t("-Shield", "-보호막", "_t")
 t("The shield around #target# crumbles.", "#target#의 보호막이 부셔졌다.", "_t")
 t("Martyrdom", "순교", "_t")
 t("All damage done by the target will also hurt it for %d%%.", "가하는 피해량의 %d%% 만큼 자신도 피해를 입음.", "tformat")
-t("#Target# is a martyr.", "#Target2# 순교자다.", "_t")
+t("#Target# is a martyr.", "#Target2# 순교자의 면류관을 썼다.", "_t")
 t("+Martyr", "+순교", "_t")
 t("#Target# is no longer influenced by martyrdom.", "#Target#의 순교는 끝났다.", "_t")
 t("-Martyr", "-순교", "_t")
 t("Radiance Lost", "잃어버린 광휘", "_t")
-t("You have expended the power of your Radiance temporarily reducing its radius to 1.", "일시적인 광휘 반경 1 칸 감소.", "tformat")
+t("You have expended the power of your Radiance temporarily reducing its radius to 1.", "광휘의 힘을 확장함 :  일시적인 광휘 반경 1 칸 감소.", "tformat")
 t("radiance", "광휘", "effect subtype")
 t("#Target#'s aura dims.", "#Target#의 아우라가 사그라든다.", "_t")
 t("+Dim", "+어두워짐", "_t")
 t("#Target# shines with renewed light.", "#Target2# 새로워진 빛으로 다시 밝게 빛난다.", "_t")
 t("-Dim", "-어두워짐", "_t")
 t("Curse of Vulnerability", "취약의 저주", "_t")
-t("The target is cursed, reducing all resistances by %d%%.", "모든 저항 -%d%%.", "tformat")
+t("The target is cursed, reducing all resistances by %d%%.", "저주받음 : 모든 저항 -%d%%.", "tformat")
 t("Curse of Impotence", "무기력의 저주", "_t")
-t("The target is cursed, reducing all damage done by %d%%.", "가하는 모든 피해 -%d%%.", "tformat")
+t("The target is cursed, reducing all damage done by %d%%.", "저주받음 : 가하는 모든 피해 -%d%%.", "tformat")
 t("Curse of Defenselessness", "무방비의 저주", "_t")
-t("The target is cursed, reducing defence and all saves by %d.", "회피도와 모든 내성 -%d.", "tformat")
+t("The target is cursed, reducing defence and all saves by %d.", "저주받음 : 회피도와 모든 내성 -%d.", "tformat")
 t("Curse of Death", "죽음의 저주", "_t")
-t("The target is cursed, taking %0.2f darkness damage per turn and preventing natural life regeneration.", "매 턴 %0.2f 암흑 피해 받음 / 자연적인 생명력 재생 불가.", "tformat")
+t("The target is cursed, taking %0.2f darkness damage per turn and preventing natural life regeneration.", "저주받음 : 매 턴 %0.2f 암흑 피해 받음 / 자연적인 생명력 재생 불가.", "tformat")
 t("Curse of Hate", "증오의 저주", "_t")
-t("The target is cursed, force all foes in a radius of 5 to attack it.", "반경 5 칸 내의 모든 적을 서로 싸우게 함.", "_t")
+t("The target is cursed, force all foes in a radius of 5 to attack it.", "저주받음 : 반경 5 칸 내의 모든 적을 서로 싸우게 함.", "_t")
 t("curse", "저주", "effect subtype")
 t("#Target# is cursed.", "#Target2# 저주받았다.", "_t")
 t("+Curse", "+저주", "_t")
 t("#Target# is no longer cursed.", "#Target#의 저주의 효력은 끝이났다.", "_t")
 t("-Curse", "-저주", "_t")
 t("Corrupting Strike", "타락의 강타", "_t")
-t("The targets natural essence in corrupted reducing disease resistance by 100%%.", "질병 면역력 -100%%.", "tformat")
+t("The targets natural essence in corrupted reducing disease resistance by 100%%.", "자연적 정수가 타락함 : 질병 면역력 -100%%.", "tformat")
 t("#Target# is completely vulnerable to disease!", "#Target2# 질병에 무방비해졌다!", "_t")
 t("#Target# no longer vulnerable to disease.", "#Target2# 다시 질병 면역력을 되찾았다.", "_t")
 t("Bloodlust", "피의 굶주림", "_t")
-t("The target is in a magical frenzy, improving spellpower by %d.", "주문력 +%d.", "tformat")
+t("The target is in a magical frenzy, improving spellpower by %d.", "마법적 광란 상태에 돌입 : 주문력 +%d.", "tformat")
 t("Acid Splash", "뒤덮힌 산성물질", "_t")
-t("The target has been splashed with acid, taking %0.2f acid damage per turn, reducing armour by %d and attack by %d.", "매 턴 %0.2f 산성 피해 받음 / 방어력 -%d 정확도 -%d.", "tformat")
+t("The target has been splashed with acid, taking %0.2f acid damage per turn, reducing armour by %d and attack by %d.", "산성 물질에 뒤덮힘 : 매 턴 %0.2f 산성 피해 받음 / 방어력 -%d 정확도 -%d.", "tformat")
 t("sunder", "찢어짐", "effect subtype")
 t("Bloodfury", "피의 분노", "_t")
 t("The target's blight and acid damage is increased by %d%%.", "황폐 피해, 산성 피해 +%d%%.", "tformat")
 t("Reviving Phoenix", "부활하는 불사조", "_t")
-t("Target is being brought back to life.", "사망시 부활.", "_t")
+t("Target is being brought back to life.", "사망 시 부활.", "_t")
 t("#Target# is consumed in a burst of flame. All that remains is a fiery egg.", "#Target2# 화염에 의해 삼켜졌다. 남은 것은 불타는 알 뿐이다.", "_t")
 t("+Phoenix", "+불사조", "_t")
 t("#Target# bursts out from the egg.", "#Target1# 알을 부수며 뛰쳐나왔다.", "_t")
 t("-Phoenix", "-불사조", "_t")
 t("Hurricane", "태풍의 눈", "_t")
-t("The target is in the center of a lightning hurricane, doing %0.2f to %0.2f lightning damage to itself and others around every turn.", "태풍의 중심에 서있음 / 매 턴 %0.2f - %0.2f 번개 피해를 대상과 대상에 인접한 개체에게 가함.", "tformat")
+t("The target is in the center of a lightning hurricane, doing %0.2f to %0.2f lightning damage to itself and others around every turn.", "태풍의 중심에 서있음 : 매 턴 %0.2f - %0.2f 번개 피해를 대상과 대상에 인접한 개체에게 가함.", "tformat")
 t("#Target# is caught inside a Hurricane.", "#Target2# 태풍의 한 가운데에 서있다.", "_t")
 t("+Hurricane", "+태풍", "_t")
 t("-Hurricane", "-태풍", "_t")
@@ -25282,13 +25676,13 @@ t("+Premonition Shield", "+예측 보호막", "_t")
 t("-Premonition Shield", "-예측 보호막", "_t")
 t("The protective shield of #Target# disappears.", "#Target#의 위기 예측 보호막이 사라진다.", "_t")
 t("Corrosive Worm", "부식성 벌레", "_t")
-t("The target is infected with a corrosive worm, reducing blight and acid resistance by %d%%. When the effect ends, the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while under torment", "부식성 벌레 감염 / 황폐, 산성 피해 저항 -%d%% / 효과 종료시 벌레가 폭발해, 반경 4 칸 범위에 %d 산성 피해를 줌 / 이 피해는 지속시간중 받은 피해량의 %d%% 에 해당하는 피해를 줌", "tformat")
+t("The target is infected with a corrosive worm, reducing blight and acid resistance by %d%%. When the effect ends, the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while under torment", "부식성 벌레 감염 : 황폐, 산성 피해 저항 -%d%% / 효과 종료시 벌레가 폭발해, 반경 4 칸 범위에 %d 산성 피해를 줌 / 이 피해는 지속시간중 받은 피해량의 %d%% 에 해당하는 피해를 줌", "tformat")
 t("#Target# is infected by a corrosive worm.", "#Target1# 부식성 벌레에 감염됐다.", "_t")
 t("+Corrosive Worm", "+부식성 벌레", "_t")
 t("#Target# is free from the corrosive worm.", "#Target2# 부식성 벌레로부터 해방됐다.", "_t")
 t("-Corrosive Worm", "-부식성 벌레", "_t")
 t("Wraithform", "악령의 형상", "_t")
-t("Turn into a wraith, passing through walls (but not natural obstacles), granting %d defense and %d armour.", "악령 변신 / 벽 통과 가능 (자연적인 장애물은 통과 불가), 회피도 +%d 방어력 +%d.", "tformat")
+t("Turn into a wraith, passing through walls (but not natural obstacles), granting %d defense and %d armour.", "악령 변신 : 벽 통과 가능 (자연적인 장애물은 통과 불가), 회피도 +%d 방어력 +%d.", "tformat")
 t("#Target# turns into a wraith.", "#Target1# 악령으로 변한다.", "_t")
 t("+Wraithform", "+악령의 형상", "_t")
 t("#Target# returns to normal.", "#Target1# 원래대로 돌아왔다.", "_t")
@@ -25296,15 +25690,15 @@ t("-Wraithform", "-악령의 형상", "_t")
 t("Empowered Healing", "강화된 회복", "_t")
 t("Increases the effectiveness of all healing the target receives by %d%%.", "회복 효율 +%d%%.", "tformat")
 t("Providence", "섭리", "_t")
-t("The target is under protection, removing one negative effect per turn.", "매 턴 부정적인 효과 1 개 제거.", "tformat")
+t("The target is under protection, removing one negative effect per turn.", "대상이 보호 아래에 있음 : 매 턴 부정적인 효과 1 개 제거.", "tformat")
 t("Solar Infusion", "태양 주입", "_t")
 t("The target's light, darkness, and fire resistance has been increased by %d%%.", "빛, 암흑, 화염 저항 +%d%%.", "tformat")
 t("Totality", "개기일식", "_t")
 t("The target's light and darkness spell penetration has been increased by %d%%.", "빛, 어둠 주문의 주문력 관통 %d%% 증가.", "tformat")
 t("Empowered Glyphs", "문양 증강", "_t")
-t("A divine glyph recently triggered, providing %d%% light and darkness affinity and resistence.", "최근에 문양이 발동 됨 / 빛, 어둠 속성의 속성 친화와 피해 저항 +%d%%.", "tformat")
+t("A divine glyph recently triggered, providing %d%% light and darkness affinity and resistence.", "최근에 문양이 발동 됨 : 빛, 어둠 속성의 속성 친화와 피해 저항 +%d%%.", "tformat")
 t("Fatiguing Starlight", "약화의 별빛", "_t")
-t("Inflicted with a fatiguing starlight, taking %d darkness damage and increasing the cooldown of a cooling-down talent by 1 whenever they act", "행동할 시 암흑 피해를 %d 받음 / 재사용 대기중인 기술의 대기시간이 1 턴 증가", "tformat")
+t("Inflicted with a fatiguing starlight, taking %d darkness damage and increasing the cooldown of a cooling-down talent by 1 whenever they act", "약화의 별빛에 영향을 받음 : 행동할 시 암흑 피해를 %d 받고, 재사용 대기중인 기술의 대기시간이 1 턴 증가", "tformat")
 t("Sunburst", "태양광 폭발", "_t")
 t("Light damage has been increased by %d%% to +%d%%.", "빛 피해 증가량이 %d%% 에서 %d%% 가 됨.", "tformat")
 t("Shrouded in Darklight", "어둠의 빛에 둘러 쌓임", "_t")
@@ -25319,19 +25713,19 @@ t("Warding", "보호", "_t")
 t("Projectiles aimed at the target are slowed by %d%%.", "대상을 목표로한 발사체 속도 -%d%%.", "tformat")
 t("circle", "마법진", "effect subtype")
 t("Turn Back the Clock", "시계 되돌리기", "_t")
-t("The target has been returned to a much younger state, reducing all its stats by %d.", "모든 능력치 *-%d.", "tformat")
+t("The target has been returned to a much younger state, reducing all its stats by %d.", "대상이 유아 상태로 돌아감 : 모든 능력치 *-%d.", "tformat")
 t("#Target# is returned to a much younger state!", "#Target2# 어렸을 적 모습으로 돌아갔다!", "_t")
 t("+Turn Back the Clock", "+시계 되돌리기", "_t")
 t("#Target# has regained its natural age.", "#Target2# 원래 나이로 돌아왔다.", "_t")
 t("-Turn Back the Clock", "-시계 되돌리기", "_t")
 t("Wasting", "시간 낭비", "_t")
-t("The target is wasting away, taking %0.2f temporal damage per turn.", "매 턴 %0.2f 시간 피해 받음.", "tformat")
+t("The target is wasting away, taking %0.2f temporal damage per turn.", "낭비됨 : 매 턴 %0.2f 시간 피해 받음.", "tformat")
 t("#Target# is wasting away!", "#Target1# 흘러가는 시간으로 인해 쇠약해진다!", "_t")
 t("+Wasting", "+시간 낭비", "_t")
 t("#Target# stops wasting away.", "#Target#의 시간 낭비 효과가 끝났다.", "_t")
 t("-Wasting", "-시간 낭비", "_t")
 t("Prescience", "통찰", "_t")
-t("The target's awareness is fully in the present, increasing stealth detection, see invisibility, defense, and accuracy by %d.", "은신한 적 탐지, 투명한 적 탐지, 회피도, 정확도 %d 증가.", "tformat")
+t("The target's awareness is fully in the present, increasing stealth detection, see invisibility, defense, and accuracy by %d.", "현재를 통찰 중 : 은신한 적 탐지, 투명한 적 탐지, 회피도, 정확도 %d 증가.", "tformat")
 t("#Target# has found the present moment!", "#Target1# 현재를 통찰한다!", "_t")
 t("+Prescience", "+통찰", "_t")
 t("#Target#'s awareness returns to normal.", "#Target#은 원래대로 돌아왔다.", "_t")
@@ -25356,7 +25750,7 @@ t("+Flawed", "+결함", "_t")
 t("#Target# is no longer flawed.", "#Target# 의 결함이 사라졌다.", "_t")
 t("-Flawed", "-결함", "_t")
 t("Manaworm", "마나 벌레", "_t")
-t("The target is infected by a manaworm, draining %0.2f mana per turn and releasing it as arcane damage to the target.", "마나 벌레에 감염 / 매 턴 %0.2f 마나 흡수 / 흡수한 양에 비례해 비전 피해 받음.", "tformat")
+t("The target is infected by a manaworm, draining %0.2f mana per turn and releasing it as arcane damage to the target.", "마나 벌레에 감염 : 매 턴 %0.2f 마나 흡수 / 흡수한 양에 비례해 비전 피해 받음.", "tformat")
 t("#Target# is infected by a manaworm!", "#Target2# 마나 벌레에 감염됐다!", "_t")
 t("+Manaworm", "+마나 벌레", "_t")
 t("#Target# is no longer infected.", "#Target2# 감염이 끝났다.", "_t")
@@ -25375,8 +25769,8 @@ t("+Bone Shield", "+뼈의 방패", "_t")
 t("#Target# flying bones crumble.", "#Target#의 보호의 뼈가 부셔졌다.", "_t")
 t("-Bone Shield", "-뼈의 방패", "_t")
 t("Redux", "회귀", "_t")
-t("Chronomancy spells with cooldown less than %d will not go on cooldown when cast.", "%d 턴 이하의 재사용 대기시간을 가진 시공 계열 기술, 재사용 대기시간 제거.", "tformat")
-t("Target is destabilized and in %d turns will start suffering %0.2f temporal damage per turn.  If it dies with this effect active after the damage starts it will explode.", "%d 턴 동안 %0.2f 시간 피해를 매 턴 입음 / 효과 중에 사망시 폭발.", "tformat")
+t("Chronomancy spells with cooldown less than %d will not go on cooldown when cast.", "%d 턴 이하의 재사용 대기시간을 가진 시공 계열 기술의 대기시간 즉시 초기화.", "tformat")
+t("Target is destabilized and in %d turns will start suffering %0.2f temporal damage per turn.  If it dies with this effect active after the damage starts it will explode.", "시간의 흐름 속에서 불안정한 상태임 : %d 턴 동안 %0.2f 시간 피해를 매 턴 입음 / 효과 중에 사망시 폭발.", "tformat")
 t("Temporal Destabilization", "시간적 불안성", "_t")
 t("Target is destabilized and suffering %0.2f temporal damage per turn.  If it dies with this effect active it will explode.", "%0.2f 시간 피해를 턴 마다 입음 / 효과 중에 사망시 폭발.", "tformat")
 t("#Target# is unstable.", "#Target# 의 시간은 불안정하다.", "_t")
@@ -25394,13 +25788,32 @@ t("Increases global action speed by %d%%.", "전체 속도 +%d%%.", "tformat")
 t("+Haste", "+가속", "_t")
 t("-Haste", "-가속", "_t")
 t("Cease to Exist", "존재 부정", "_t")
-t("The target is being removed from the timeline, its resistance to physical and temporal damage have been reduced by %d%%.", "물리, 시간 피해 저항 -%d%%.", "tformat")
+t("The target is being removed from the timeline, its resistance to physical and temporal damage have been reduced by %d%%.", "시간선에서 제거되고 있음 : 물리, 시간 피해 저항 -%d%%.", "tformat")
 t("#Target# is being removed from the timeline.", "#Target2# 시간선에서 사라지기 시작했다.", "_t")
 t("+Cease to Exist", "+존재 부정", "_t")
 t("Impending Doom", "임박한 운명", "_t")
+t("The target's final doom is drawing near, reducing healing factor by 80%% and dealing %0.2f frostdusk damage per turn. The effect will stop if the caster dies.", "대상의 파멸이 임박함 : 회복 효율이 80%% 감소 / 매 턴 %0.2f 서리 황혼 피해 받음 / 시전자가 죽어야 효과가 종료됨.", "tformat")
+t("#Target# is doomed!", "#Target#에게 임박한 운명이 다가온다!", "_t")
+t("+Doomed", "+임박한 운명", "_t")
+t("#Target# is freed from the impending doom.", "#Target1# 임박한 운명으로부터 자유로워졌다.", "_t")
+t("-Doomed", "-임박한 운명", "_t")
+t("#CRIMSON#A piece of the soul of %s is torn apart by Impending Doom!", "#CRIMSON#%s의 영혼이 임박한 운명으로 인해 찢어졌다!", "logSeen")
 t("Rigor Mortis", "사후 경직", "_t")
+t("The target is slowed by %d%%.", "%d%% 감속됨.", "tformat")
+t("#Target# feels death coming!", "#Target2# 죽음이 다가옴을 느낀다!", "_t")
+t("+Rigor Mortis", "+사후 경직", "_t")
+t("#Target# is freed from the rigor mortis.", "#Target2# 사후 경직에서 벗어났다.", "_t")
+t("-Rigor Mortis", "-사후 경직", "_t")
+t("Death Rush", "죽음의 돌진", "_t")
 t("Movement speed increased by %d%%.", "이동 속도 +%d%%.", "tformat")
+t("#Target# is invogorated by death!", "#Target2# 죽음에 고무된다!", "_t")
+t("#Target# is less fast.", "#Target1# 원래 속도로 돌아왔다.", "_t")
 t("Abyssal Shroud", "심연의 장막", "_t")
+t("The target's lite radius has been reduced by %d, and its darkness resistance by %d%%.", "광원 반경 -%d / 어둠 저항 -%d%%.", "tformat")
+t("#Target# feels closer to the abyss!", "#Target2# 심연으로 발을 디뎠음을 느꼈다!", "_t")
+t("+Abyssal Shroud", "+심연의 장막", "_t")
+t("#Target# is free from the abyss.", "#Target1# 심연에서 달아났다.", "_t")
+t("-Abyssal Shroud", "-심연의 장막", "_t")
 t("Spin Fate", "운명 방적", "_t")
 t("The target's defense and saves have been increased by %d.", "회피도, 모든 내성 +%d.", "tformat")
 t("%d Spin", "운명 방적 %d", "tformat")
@@ -25414,29 +25827,29 @@ t("cross tier", "압도효과", "effect subtype")
 t("+Spellshocked", "+주문 충격", "_t")
 t("-Spellshocked", "-주문 충격", "_t")
 t("Rotting Disease", "부패성 질병", "_t")
-t("The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "체격 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
+t("The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 체격 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
 t("#Target# is afflicted by a rotting disease!", "#Target2# 부패성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the rotting disease.", "#Target2# 부패성 질병에서 벗어났다.", "_t")
 t("Decrepitude Disease", "노화성 질병", "_t")
-t("The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "민첩 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
+t("The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 민첩 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
 t("#Target# is afflicted by a decrepitude disease!", "#Target2# 노화성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the decrepitude disease.", "#Target2# 노화성 질병에서 벗어났다.", "_t")
 t("Weakness Disease", "약화성 질병", "_t")
-t("The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "힘 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
+t("The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 힘 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
 t("#Target# is afflicted by a weakness disease!", "#Target2# 약화성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the weakness disease.", "#Target2# 약화성 질병에서 벗어났다.", "_t")
 t("Woeful Disease", "고통의 질병", "_t")
-t("The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "힘, 민첩, 체격 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
+t("The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 힘, 민첩, 체격 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
 t("#Target# is afflicted by a woeful disease!", "#Target2# 고통의 질병에 고통받고있다!", "_t")
 t("#Target# is free from the woeful disease.", "#Target2# 고통의 질병에서 벗어났다.", "_t")
 t("Woeful Darkness", "고통의 어둠", "_t")
-t("The target is weakened and lost, all damage it does is reduced by %d%%.", "가하는 모든 피해량 -%d%%.", "tformat")
+t("The target is weakened and lost, all damage it does is reduced by %d%%.", "대상이 약화되고 파멸함 가하는 모든 피해량 -%d%%.", "tformat")
 t("#Target# is weakened by the darkness!", "#Target2# 어둠으로 인해 약화되었다!", "_t")
 t("+Woeful Darkness", "+고통의 어둠", "_t")
 t("#Target# looks more determined.", "#Target2# 고통의 어둠에서 벗어났다.", "_t")
 t("-Woeful Darkness", "-고통의 어둠", "_t")
 t("Woeful Corrosion", "고통의 부식", "_t")
-t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "매 턴 마다 산성 피해 %0.2f.", "tformat")
+t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "산성 물질에 덮힘 : 매 턴 마다 산성 피해 %0.2f.", "tformat")
 t("#Target# is covered in acid!", "#Target2# 고통의 부식에 휩쌓였다!", "_t")
 t("#Target# is free from the acid.", "#Target2# 고통의 부식에서 벗어났다.", "_t")
 t("Woeful Cripple", "고통의 무력화", "_t")
@@ -25445,31 +25858,31 @@ t("#Target# is crippled.", "#Target1# 무력화됐다.", "_t")
 t("#Target# is not crippled anymore.", "#Target2# 무력화 상태에서 회복되었다.", "_t")
 t("Epidemic", "범유행", "_t")
 t([[The target is infected by a disease, doing %0.2f blight damage per turn and reducing healing received by %d%%.
-Each non-disease blight damage done to it will spread the disease.]], [[매 턴 %0.2f 황폐 피해 / 회복 효율 -%d%%.
+Each non-disease blight damage done to it will spread the disease.]], [[질병에 감염됨 : 매 턴 %0.2f 황폐 피해 / 회복 효율 -%d%%.
 질병이 아닌 피해를 받으면 질병을 퍼뜨림.]], "tformat")
 t("#Target# is afflicted by an epidemic!", "#Target2# 범유행성 전염병에 감염됐다!", "_t")
 t("#Target# is free from the epidemic.", "#Target#의 범유행성 전염병이 치료되었다.", "_t")
 t("Worm Rot", "벌레 부패", "_t")
 t([[The target is infected with carrion worm larvae.  Each turn it will lose one beneficial physical effect and %0.2f blight and acid damage will be inflicted.
-After five turns the disease will inflict %0.2f blight damage and spawn a carrion worm mass.]], [[시체 벌레 유충에 감염 / 매 턴 이로운 물리 효과 제거 / 매 턴 %0.2f 황폐, 산성 피해.
+After five turns the disease will inflict %0.2f blight damage and spawn a carrion worm mass.]], [[시체 벌레 유충에 감염 : 매 턴 이로운 물리 효과 제거 / 매 턴 %0.2f 황폐, 산성 피해.
 5 턴 후, %0.2f 황폐 피해를 주고 시체 벌레 때 생성.]], "tformat")
 t("#Target# is afflicted by a terrible worm rot!", "#Target2# 끔찍한 벌레 부패로 고통받고있다!", "_t")
 t("#Target# is free from the worm rot.", "#Target2# 벌레 부패로 부터 회복했다.", "_t")
 t("#LIGHT_RED#A carrion worm mass bursts out of %s!", "#LIGHT_RED#%s 의 몸을 뚫고 시체 벌레 떼가 튀어나왔다!", "logSeen")
 t("Ghoul Rot", "구울의 부패", "_t")
 t("  If the target dies while ghoul rot is active it will rise as a ghoul.", "  효과 중에 대상이 죽으면 구울이 되어 일어남", "_t")
-t("The target is infected by a disease doing %0.2f blight damage per turn.%s", "매 턴 황폐 피해 %0.2f.%s", "tformat")
+t("The target is infected by a disease doing %0.2f blight damage per turn.%s", "질병에 감염됨 : 매 턴 황폐 피해 %0.2f.%s", "tformat")
 t("#Target# is afflicted by ghoul rot!", "#Target2# 구울의 부패에 감염됐다!", "_t")
 t("#Target# is free from the ghoul rot.", "#Target2# 구울 부패로 부터 치료됐다.", "_t")
 t("Bloodcasting", "피의 주문", "_t")
 t("Corruptions consume health instead of vim.", "원기 대신 생명력을 소모해 주문 시전.", "_t")
 t("Sanguine Infusion", "선혈 주입", "_t")
 t("corruption", "타락", "effect subtype")
-t("Arcane Supremacy", "비전의 우월함", "_t")
+t("Arcane Supremacy", "지고의 비전", "_t")
 t("The target's spellpower and spell save has been increased by %d", "주문력, 주문 내성 +%d", "tformat")
 t("#Target# is surging with arcane energy.", "#Target2# 마법 에너지가 쇄도한다.", "_t")
-t("+Arcane Supremacy", "+비전의 우월함", "_t")
-t("-Arcane Supremacy", "-비전의 우월함", "_t")
+t("+Arcane Supremacy", "+지고의 비전", "_t")
+t("-Arcane Supremacy", "-지고의 비전", "_t")
 t("The arcane energy around #target# has dissipated.", "#target# 근처의 비전 에너지가 사라졌다.", "_t")
 t("Ward", "보호구역", "_t")
 t("Fully absorbs %d %s %s.", "%s 피해를 %d 번 막아냅니다.%s", "tformat", {2,1,3})
@@ -25488,7 +25901,7 @@ t("#Target# is no longer surging arcane power.", "#Target#의 주문 쇄도가 �
 t("-Spellsurge", "-주문쇄도", "_t")
 t("Out of Phase", "위상 탈선", "_t")
 t([[The target is out of phase with reality, increasing defense by %d, resist all by %d%%, and reducing the duration of detrimental timed effects by %d%%.
-These effects cap at 40%%.]], [[현실의 위상에서 탈선함 / 회피도 +%d / 모든 저항 +%d%% / 부정적인 효과 지속시간 %d%% 단축.
+These effects cap at 40%%.]], [[현실의 위상에서 탈선함 : 회피도 +%d / 모든 저항 +%d%% / 부정적인 효과 지속시간 %d%% 단축.
 이 효과는 최대 40%% 까지 적용됨.]], "tformat")
 t("#Target# is out of phase.", "#Target2# 위상에서 탈선되어있다.", "_t")
 t("+Phased", "+위상 탈선", "_t")
@@ -25508,7 +25921,7 @@ t("+Congeal Time", "+시간 빙결", "_t")
 t("#Target# speeds up.", "#Target2# 가속했다.", "_t")
 t("-Congeal Time", "-시간 빙결", "_t")
 t("Arcane Vortex", "비전 소용돌이", "_t")
-t("An arcane vortex follows the target. Each turn a manathrust fires from it to a random foe in sight doing %0.2f arcane damage to all. If no foes are found the main target takes 50%% more arcane damage this turn. If the target dies the remaining damage is dealt as a radius 2 ball of arcane.", "비전 소용돌이 부착 됨 / 매 턴, 시야 내의 무작위한 대상에게 %0.2f 비전 피해 / 경로 상의 모든 적 공격 / 공격할 적이 없으면 받는 비전 피해 +50%% / 효과중에 사망시 반경 2 칸의 비전 폭발.", "tformat")
+t("An arcane vortex follows the target. Each turn a manathrust fires from it to a random foe in sight doing %0.2f arcane damage to all. If no foes are found the main target takes 50%% more arcane damage this turn. If the target dies the remaining damage is dealt as a radius 2 ball of arcane.", "비전 소용돌이 부착 됨 : 매 턴, 시야 내의 무작위한 대상에게 %0.2f 비전 피해 / 경로 상의 모든 적 공격 / 공격할 적이 없으면 받는 비전 피해 +50%% / 효과중에 사망시 반경 2 칸의 비전 폭발.", "tformat")
 t("#Target# is focused by an arcane vortex!", "#Target#에 비전 소용돌이가 집중된다!", "_t")
 t("+Arcane Vortex", "+비전 소용돌이", "_t")
 t("#Target# is free from the arcane vortex.", "#Target2# 비전 소용돌이로부터 풀려났다.", "_t")
@@ -25523,20 +25936,20 @@ t("Aether Avatar", "에테르의 화신", "_t")
 t("Filled with pure aether forces!", "에테르의 힘으로 가득하다!", "_t")
 t("Vulnerability Poison", "취약성 독", "_t")
 t(" and poison resistance is reduced by %s%%", " / 독 면역력 -%s%%", "tformat")
-t("The target is afflicted with a magical poison and is suffering %0.2f arcane damage per turn.  All resistances are reduced by 10%%%s.", "마법 독/ 매 턴 %0.2f 비전 피해 / 모든 저항 -10%%%s.", "tformat")
+t("The target is afflicted with a magical poison and is suffering %0.2f arcane damage per turn.  All resistances are reduced by 10%%%s.", "마법적인 독에 중독됨 / 매 턴 %0.2f 비전 피해 / 모든 저항 -10%%%s.", "tformat")
 t("#Target# is magically poisoned!", "#Target2# 마법적인 독에 중독됐다!", "_t")
 t("+Vulnerability Poison", "+취약성 독 Poison", "_t")
 t("#Target# is no longer magically poisoned.", "#Target2# 더 이상 마법적인 중독 상태가 아니다.", "_t")
 t("-Vulnerability Poison", "-취약성 독 Poison", "_t")
 t("Irresistible Sun", "저항할 수 없는 태양의 힘", "_t")
-t("The target is attracting all toward it, also dealing fire, light and physical damage each turn..", "모두를 끌어당김 / 매 턴 화염, 빛, 물리 피해를 가함.", "tformat")
+t("The target is attracting all toward it, also dealing fire, light and physical damage each turn..", "주변의 모든 것을 끌어당김 / 매 턴 화염, 빛, 물리 피해를 가함.", "tformat")
 t("#Target# starts to attract all creatures around!", "#Target1# 근처의 모든 개체를 끌어당기기 시작했다!", "_t")
 t("+Irresistible Sun", "+저항할 수 없는 태양의 힘", "_t")
 t("#Target# is no longer attracting creatures.", "#Target2# 더 이상 범위 내의 적을 끌어당기지 않는다.", "_t")
 t("-Irresistible Sun", "-저항할 수 없는 태양의 힘", "_t")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
 t("Weight of the Sun", "태양의 무게", "_t")
-t("The target is struggling against immense gravity, all damage it does is reduced by %d%%.", "엄청난 중력에 저항 중 / 가하는 모든 피해 -%d%%.", "tformat")
+t("The target is struggling against immense gravity, all damage it does is reduced by %d%%.", "엄청난 중력에 저항 중 : 가하는 모든 피해 -%d%%.", "tformat")
 t("#Target# can barely stand!", "#Target1# 겨우 서있다!", "_t")
 t("+Weight of the Sun", "+태양의 무게", "_t")
 t("#Target# can move freely once more.", "#Target2# 다시 자유롭게 움직인다.", "_t")
@@ -25548,7 +25961,7 @@ t("+Temporal Form", "+시간의 형상", "_t")
 t("#Target# is no longer embeded in time.", "#Target#의 시간의 형상이 사라진다.", "_t")
 t("-Temporal Form", "-시간의 형상", "_t")
 t("Corrupted Losgoroth Form", "타락한 로스고로스의 형상", "_t")
-t("The target has assumed the form of a corrupted losgoroth, gaining immunity to poison, disease, bleeding, and confusion.  It does not need to breathe, and converts half of all damage to life draining blight.", "타락한 로스고로스로 변신 / 독, 질병, 출혈, 혼란 면역 / 쉼 쉴 필요 없음 / 받은 피해의 절반을 생명 흡수의 황폐 피해로 전환.", "tformat")
+t("The target has assumed the form of a corrupted losgoroth, gaining immunity to poison, disease, bleeding, and confusion.  It does not need to breathe, and converts half of all damage to life draining blight.", "타락한 로스고로스로 변신 : 독, 질병, 출혈, 혼란 면역 / 쉼 쉴 필요 없음 / 가하는 피해의 절반을 생명 흡수의 황폐 피해로 전환.", "tformat")
 t("arcane", "비전", "effect subtype")
 t("#Target# turns into a losgoroth!", "#Target1# 로스고로스로 변신했다!", "_t")
 t("+Corrupted Losgoroth Form", "+타락한 로스고로스의 형상", "_t")
@@ -25560,39 +25973,39 @@ t("+Shivgoroth Form", "+쉬브고라스로 변신", "_t")
 t("#Target# is no longer transformed.", "#Target#의 변신이 끝났다.", "_t")
 t("-Shivgoroth Form", "-쉬브고라스로 변신", "_t")
 t("Keepers of Reality Rally Call", "현실의 수호자 집결 신호", "_t")
-t("The keepers of reality have called upon all to defend Point Zero. Life increased by 5000, damage by 300%.", "영점의 보호를 위해 부름 받음 / 최대 생명력 +5000, 피해량 +300%.", "_t")
+t("The keepers of reality have called upon all to defend Point Zero. Life increased by 5000, damage by 300%.", "영점의 보호를 위해 부름 받음 : 최대 생명력 +5000, 피해량 +300%.", "_t")
 t("Receptive Mind", "수용적인 마음", "_t")
-t("You can sense the presence of all %s around you.", "주변 반경 %s 칸 감지.", "tformat")
+t("You can sense the presence of all %s around you.", "주변 반경 %s 칸 내의 존재감 감지.", "tformat")
 t("rune", "룬", "effect subtype")
 t("Born into Magic", "마법 태생", "_t")
 t("%s damage increased by 20%%.", "%s 속성 피해 +20%%.", "tformat")
 t("race", "종족", "effect subtype")
 t("Essence of the Dead", "공포의 정수", "_t")
-t("The target consumed souls to gain new powers. %d spells affected.", "원혼을 삼켜 새 힘을 얻음 / %d 주문 영향받음.", "tformat")
+t("The target consumed souls to gain new powers. %d spells affected.", "원혼을 삼켜 새 힘을 얻음 : %d 주문 영향받음.", "tformat")
 t("Ice Armour", "얼음의 갑옷", "_t")
-t("The target is covered in a layer of ice. Its armour is increased by %d, it deals %0.1f Cold damage to attackers that hit in melee, and 50%% of its damage is converted to cold.", "방어력 +%d / 근접 공격자에게 보복 %0.1f 냉기 피해 / 가하는 피해의 50%% 냉기 속성으로 변환.", "tformat")
+t("The target is covered in a layer of ice. Its armour is increased by %d, it deals %0.1f Cold damage to attackers that hit in melee, and 50%% of its damage is converted to cold.", "얼음층에 덮혀있음 : 방어력 +%d / 근접 공격자에게 보복 %0.1f 냉기 피해 / 가하는 피해의 50%% 냉기 속성으로 변환.", "tformat")
 t("armour", "갑옷", "effect subtype")
 t("#Target# is covered in icy armor!", "#Target2# 얼음 갑옷으로 덮혀있다!", "_t")
 t("#Target#'s ice coating crumbles away.", "#Target#의 얼음 갑옷이 떨어져 나갔다.", "_t")
 t("Caustic Golem", "부식성 골렘", "_t")
-t("The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "근접 공격 피격 시 %d%% 확률로 산을 내뿜어 %0.1f 피해.", "tformat")
+t("The target is coated with acid. When struck in melee, it has a %d%% chance to spray a cone of acid towards the attacker doing %0.1f damage.", "산성막으로 덮혀있음 : 근접 공격 피격 시 %d%% 확률로 산을 내뿜어 %0.1f 피해.", "tformat")
 t("acid", "산성", "effect subtype")
 t("coating", "막", "effect subtype")
 t("#Target# is coated in acid!", "#Target#의 외피가 산성막에 덮혀있다!", "_t")
 t("#Target#'s acid coating is diluted.", "#Target#의 산성막이 사라졌다.", "_t")
 t("Sun's Vengeance", "태양의 복수", "_t")
-t("The target is filled with the Sun's fury, next Sun Beam will be instant cast.", "다음 태양 광선은 턴을 소모하지 않음.", "tformat")
+t("The target is filled with the Sun's fury, next Sun Beam will be instant cast.", "태양의 복수로 가득 참 : 다음 태양 광선은 턴을 소모하지 않음.", "tformat")
 t("#Target# is filled with the Sun's fury!", "#Target1# 태양의 분노로 가득 찼다!", "_t")
 t("+Sun's Vengeance", "+태양의 복수", "_t")
 t("-Sun's Vengeance", "-태양의 복수", "_t")
 t("Suncloak", "태양 망토", "_t")
-t("The target is protected by the sun, increasing their spell casting speed by %d%%, reducing spell cooldowns by %d%%, and preventing damage over %d%% of your maximum life from a single hit.", "시전 속도 +%d%% / 재사용 대기시간 %d%% 감소 / 최대 생명력의 %d%% 이상의 피해를 한번에 받지 않음.", "tformat")
+t("The target is protected by the sun, increasing their spell casting speed by %d%%, reducing spell cooldowns by %d%%, and preventing damage over %d%% of your maximum life from a single hit.", "태양이 보호 중 :시전 속도 +%d%% / 재사용 대기시간 %d%% 감소 / 최대 생명력의 %d%% 이상의 피해를 한번에 받지 않음.", "tformat")
 t("#Target# is energized and protected by the Sun!", "#Target2# 태양의 보호로부터 힘을 얻는다!", "_t")
 t("+Suncloak", "+태양 망토", "_t")
 t("#Target#'s solar fury subsides.", "#Target#의 태양의 보호가 가라앉는다.", "_t")
 t("-Suncloak", "-태양 망토", "_t")
 t("Mark of Light", "빛의 징표", "_t")
-t("The creature that marked the target with light will be healed for all melee attacks against it by %d%%.", "피격 시 받은 피해량의 %d%% 만큼 공격자 회복.", "tformat")
+t("The creature that marked the target with light will be healed for all melee attacks against it by %d%%.", "빛의 징표가 찍힘 : 피격 시 받은 피해량의 %d%% 만큼 공격자 회복.", "tformat")
 t("#Target# is marked by light!", "#Target2# 빛의 징표가 세겨졌다!", "_t")
 t("+Mark of Light", "+빛의 징표", "_t")
 t("#Target#'s mark disappears.", "#Target#의 징표가 사라졌다.", "_t")
@@ -25604,12 +26017,16 @@ t("+Righteous Strength", "+정의로운 힘", "_t")
 t("#Target# stops shining.", "#Target#의 광휘가 사라졌다.", "_t")
 t("-Righteous Strength", "-정의로운 힘", "_t")
 t("Lightburn", "광염", "_t")
-t("The creature is burnt by light, dealing %0.2f light damage each turn and reducing armour by %d.", "매 턴 %0.2f 빛 피해 / 방어력 -%d.", "tformat")
+t("The creature is burnt by light, dealing %0.2f light damage each turn and reducing armour by %d.", "빛에 불탐 : 매 턴 %0.2f 빛 피해 / 방어력 -%d.", "tformat")
 t("+Lightburn", "+광염", "_t")
 t("-Lightburn", "-광염", "_t")
+t("Lightblight", "빛의 황폐", "_t")
+t("The creature is blighted by light reducing saves by %d, critical power by %d%%, and causing all light damage received to splash in radius 2 for %d%% damage once a turn.", "빛에 의해 황폐화 됨 : 내성 -%d / 치명타 피해량 -%d%% / 빛 피해를 받을 시, 반경 2 칸의 폭발이 일어나 %d%% 피해를 줌 / 한 턴에 1 번만 일어남.", "tformat")
 t("#Target# burns with light!", "#Target2# 빛으로 인해 불탄다!", "_t")
+t("+Lightblight", "+빛의 황폐", "_t")
+t("-Lightblight", "-빛의 황폐", "_t")
 t("Illumination ", "밝혀짐", "_t")
-t("The target glows in the light, reducing its stealth and invisibility power by %d, defense by %d and looses all evasion bonus from being unseen.", "은신력 -%d / 회피도 -%d / 은신으로 인한 피해 무시 효과 제거.", "tformat")
+t("The target glows in the light, reducing its stealth and invisibility power by %d, defense by %d and looses all evasion bonus from being unseen.", "빛에 의해 밝혀짐 : 은신력 -%d / 회피도 -%d / 은신으로 인한 피해 무시 효과 제거.", "tformat")
 t("+Illumination", "+빛남", "_t")
 t("-Illumination", "-빛남", "_t")
 t("Light Burst ", "빛 폭발", "_t")
@@ -25617,7 +26034,7 @@ t("The is invigorated when dealing damage with Searing Sight.", "타오르는 �
 t("+Light Burst", "+빛 폭발", "_t")
 t("-Light Burst", "-빛 폭발", "_t")
 t("Light Burst Speed", "폭발하는 빛의 속도", "_t")
-t("The target is invigorated from Searing Sight, increasing movement speed by %d%%.", "이동속도 +%d%%.", "tformat")
+t("The target is invigorated from Searing Sight, increasing movement speed by %d%%.", "타오르는 시야로 인해 고무됨 : 이동속도 +%d%%.", "tformat")
 t("sun", "태양", "effect subtype")
 t("+Light Burst Speed", "+폭발하는 빛의 속도", "_t")
 t("-Light Burst Speed", "-폭발하는 빛의 속도", "_t")
@@ -25653,7 +26070,7 @@ t("+Anchor", "+차원의 닻", "_t")
 t("#Target# is no longer anchored.", "#Target2# 닻에서 자유로워졌다.", "_t")
 t("-Anchor", "-차원의 닻", "_t")
 t("Breach", "균열", "_t")
-t("The target's defenses have been breached, reducing armor hardiness, stun, pin, blindness, and confusion immunity by 50%%.", "방어 효율, 기절, 속박, 실명, 혼란 면역력 -50%%.", "tformat")
+t("The target's defenses have been breached, reducing armor hardiness, stun, pin, blindness, and confusion immunity by 50%%.", "방어에 균열이 남 : 방어 효율, 기절, 속박, 실명, 혼란 면역력 -50%%.", "tformat")
 t("+Breach", "+균열", "_t")
 t("-Breach", "-균열", "_t")
 t("Braided", "생명선 엮임", "_t")
@@ -25665,7 +26082,7 @@ t("-Braided", "-생명선 엮임", "_t")
 t("#CRIMSON##Source# damages #Target# through the Braid!", "#CRIMSON##Source#에 가해진 피해량이 엮여진 생명선을 통해 #Target#에게 전달되었다!", "delayedLogMessage")
 t("#PINK#%d braided #LAST#", "#PINK#%d 생명선 엮임 #LAST#", "tformat")
 t("Precognition", "예지", "_t")
-t("Peer into the future, detecting enemies, increasing defense by %d, and granting a %d%% chance to ignore critical hits.", "적 감지 / 회피도 +%d / %d%% 확률로 치명타 무시.", "tformat")
+t("Peer into the future, detecting enemies, increasing defense by %d, and granting a %d%% chance to ignore critical hits.", "미래를 응시 : 적 감지 / 회피도 +%d / %d%% 확률로 치명타 무시.", "tformat")
 t("sense", "감지", "effect subtype")
 t("Webs of Fate", "운명의 거미줄", "_t")
 t("Displacing %d%% of all damage on to a random enemy.", "받은 피해량의 %d%% 를 무작위한 적에게 전달.", "tformat")
@@ -25695,12 +26112,12 @@ t("#Target# has regressed.", "#Target1# 퇴행했다.", "_t")
 t("+Regression", "+퇴행", "_t")
 t("#Target# has returned to its natural state.", "#Target2# 다시 정상적인 상태로 돌아왔다.", "_t")
 t("-Regression", "-퇴행", "_t")
-t("The target is being removed from the timeline and is taking %0.2f temporal damage per turn.", "시간선에서 제거됨 / 매 턴 %0.2f 시간 피해 받음.", "tformat")
+t("The target is being removed from the timeline and is taking %0.2f temporal damage per turn.", "시간선에서 제거됨 : 매 턴 %0.2f 시간 피해 받음.", "tformat")
 t("#Target# is being being removed from the timeline!", "#Target2# 시간선에서 사라지기 시작했다!", "_t")
 t("#Target# survived the attenuation.", "#Target1# 존재 희석으로 부터 살아남았다.", "_t")
 t("%s has been removed from the timeline!", "%s 시간선으로 부터 삭제됐다!", "logSeen", nil, {"이"})
 t("Attenuate", "존재 희석", "_t")
-t("The target is being grounded in the timeline and is healing %0.2f life per turn.", "턴 당 생명력 재생 +%0.2f.", "tformat")
+t("The target is being grounded in the timeline and is healing %0.2f life per turn.", "이 시간선 내에서 확실하게 존재함 : 턴 당 생명력 재생 +%0.2f.", "tformat")
 t("#Target# is being being grounded in the timeline!", "이 시간선 내에서의 #Target#의 존재는 확고하다!", "_t")
 t("+Attenuate", "+존재 희석", "_t")
 t("#Target# is no longer being grounded.", "#Target#의 존재는 덜 확고해졌다.", "_t")
@@ -25712,14 +26129,14 @@ t("+Ogric Wrath", "+오우거의 분노", "_t")
 t("#Target# calms down.", "#Target2# 진정됐다.", "_t")
 t("-Ogric Wrath", "-오우거의 분노", "_t")
 t("Ogre Fury", "오우거의 격노", "_t")
-t("Increases crit chance by %d%% and critical power by %d%%. %d charge(s).", "피명타 확률 +%d%% / 치명타 피해량 +%d%% / 현재 %d 중첩.", "tformat")
+t("Increases crit chance by %d%% and critical power by %d%%. %d charge(s).", "치명타 확률 +%d%% / 치명타 피해량 +%d%% / 현재 %d 중첩.", "tformat")
 t("Writ Large", "뚜렷한 존재", "_t")
 t("Inscriptions cooldown twice as fast.", "각인의 재사용 대기시간이 2 배 빨리 돈다.", "tformat")
 t("runic", "룬의 기술", "effect subtype")
 t("+Writ Large", "+뚜렷한 존재", "_t")
 t("-Writ Large", "-뚜렷한 존재", "_t")
 t("Static History", "정적인 역사", "_t")
-t("Chronomancy spells cast by the target will not produce minor anomalies.", "심각하지 않은 이상현상 생성 안함.", "tformat")
+t("Chronomancy spells cast by the target will not produce minor anomalies.", "시공 주문이 심각하지 않은 이상현상을 생성하지 않음.", "tformat")
 t("+Static History", "+정적인 역사", "_t")
 t("Spacetime has stabilized around #Target#.", "#Target# 주위의 시공간이 안정됐다.", "_t")
 t("-Static History", "-정적인 역사", "_t")
@@ -25745,7 +26162,7 @@ t("The target is nearing the end, its resistance to physical and temporal damage
 t("#Target# is nearing the end.", "#Target2# 거의 끝장났다.", "_t")
 t("+Fold Fate", "+운명 접합", "_t")
 t("Spatial Tether", "공간 사슬", "_t")
-t("The target has been tethered to the location and has a %d%% chance of being teleported back, creating an explosion for %0.2f physical and %0.2f temporal warp damage at both ends of the teleport.", "%d%% 확률로 해당 위치롤 돌아옴 / 돌아갈때 폭발이 일어나 %0.2f 물리 피해 %0.2f 시간 피해 (왜곡속성) 피해를, 순간이동 대상과 사슬에 발생시킴", "tformat")
+t("The target has been tethered to the location and has a %d%% chance of being teleported back, creating an explosion for %0.2f physical and %0.2f temporal warp damage at both ends of the teleport.", "해당 지역에 묶임 : %d%% 확률로 해당 위치롤 돌아옴 / 돌아갈때 폭발이 일어나 %0.2f 물리 피해 %0.2f 시간 피해 (왜곡속성) 피해를, 순간이동 대상과 사슬에 발생시킴", "tformat")
 t("teleport", "순간이동", "effect subtype")
 t("temporal", "시간", "effect subtype")
 t("#Target# has been tethered!", "#Target2# 사슬에 묶였다!", "_t")
@@ -25753,25 +26170,25 @@ t("+Tether", "+공간 사슬", "_t")
 t("#Target# is no longer tethered.", "#Target2# 사슬에서 풀려났다.", "_t")
 t("-Tether", "-공간 사슬", "_t")
 t("Blight Poison", "황폐성 독", "_t")
-t("The target is poisoned, taking %0.2f blight damage per turn.", "매 턴 %0.2f 황폐 피해 받음.", "tformat")
+t("The target is poisoned, taking %0.2f blight damage per turn.", "독에 중독됨 : 매 턴 %0.2f 황폐 피해 받음.", "tformat")
 t("#Target# is poisoned with blight!", "#Target2# 황폐성 독에 중독되었다!", "_t")
 t("+Blight Poison", "+황폐성 독", "_t")
 t("#Target# is free from the blighted poison.", "#Target2# 황폐성 독에서 치유되었다.", "_t")
 t("-Blight Poison", "-황폐성 독", "_t")
 t("Insidious Blight", "잠행성 역병", "_t")
-t("The target is poisoned, taking %0.2f blight damage per turn and decreasing all heals received by %d%%.", "매 턴 %0.2f 황폐 피해 받음 / 회복 효율 감소 %d%%.", "tformat")
+t("The target is poisoned, taking %0.2f blight damage per turn and decreasing all heals received by %d%%.", "독에 감염됨 : 매 턴 %0.2f 황폐 피해 받음 / 회복 효율 감소 %d%%.", "tformat")
 t("#Target# is poisoned with insidious blight!!", "#Target2# 잠행성 역병에 중독되었다!!", "_t")
 t("+Insidious Blight", "+잠행성 역병", "_t")
 t("#Target# is free from the insidious blight.", "#Target2# 잠행성 역병에서 치유되었다.", "_t")
 t("-Insidious Blight", "-잠행성 역병", "_t")
 t("Crippling Blight", "방해성 역병", "_t")
-t("The target is poisoned and sick, doing %0.2f blight damage per turn. Each time it tries to use a talent there is %d%% chance of failure.", "매 턴 %0.2f 황폐 피해 받음 / 기술 실패 확률 %d%%.", "tformat")
+t("The target is poisoned and sick, doing %0.2f blight damage per turn. Each time it tries to use a talent there is %d%% chance of failure.", "독에 감염됨 : 매 턴 %0.2f 황폐 피해 받음 / 기술 실패 확률 %d%%.", "tformat")
 t("#Target# is poisoned with crippling blight!", "#Target2# 방해성 역병에 중독되었다!", "_t")
 t("+Crippling Blight", "+방해성 역병", "_t")
 t("#Target# is free from the crippling blight.", "#Target2# 방해성 역병에서 치유되었다.", "_t")
 t("-Crippling Blight", "-방해성 역병", "_t")
 t("Numbing Blight", "마비성 역병", "_t")
-t("The target is poisoned and sick, doing %0.2f blight damage per turn. All damage it does is reduced by %d%%.", "매 턴 %0.2f 황폐 피해 받음 / 가하는 피해량 -%d%%.", "tformat")
+t("The target is poisoned and sick, doing %0.2f blight damage per turn. All damage it does is reduced by %d%%.", "독에 감염됨 : 매 턴 %0.2f 황폐 피해 받음 / 가하는 피해량 -%d%%.", "tformat")
 t("blight", "황폐", "effect subtype")
 t("poison", "독", "effect subtype")
 t("#Target# is poisoned numbing blight!", "#Target2# 마비성 역병에 중독되었다!", "_t")
@@ -25779,17 +26196,17 @@ t("+Numbing Blight", "+마비성 역병", "_t")
 t("#Target# is free from the numbing blight.", "#Target2# 마비성 역병에서 치유되었다.", "_t")
 t("-Numbing Blight", "-마비성 역병", "_t")
 t("Eldritch Stone Shield", "일그러진 바위 방패", "_t")
-t("The target is surrounded by a stone shield absorbing %d/%d damage.  When the shield is removed, it will explode for up to %d (currently %d) Arcane damage in a radius %d.", "피해 흡수량 %d/%d damage / 보호막이 사라질 때 최대 %d 비전 피해(현재 %d) 를 반경 %d 칸에 터뜨림.", "tformat")
+t("The target is surrounded by a stone shield absorbing %d/%d damage.  When the shield is removed, it will explode for up to %d (currently %d) Arcane damage in a radius %d.", "바위 방패에 둘러싸임 : 피해 흡수량 %d/%d damage / 보호막이 사라질 때 최대 %d 비전 피해 (현재 %d) 를 반경 %d 칸에 터뜨림.", "tformat")
 t("#Target# is encased in a stone shield.", "#Target2# 바위 보호막으로 둘러쌓였다.", "_t")
 t("The stone shield around #Target# %s", "#Target3# 감싸는 바위 보호막이 %s", "tformat")
 t("crumbles.", "으스러진다.", "_t")
 t("explodes!", "폭발한다!", "_t")
 t("Deeprock Form", "깊은 바위 형상", "_t")
-t(", +%d%% Arcane damage and +%d%% Arcane damage penetration,", ", 비전 피해 +%d%% / 비전 저항 관통 +%d%%,", "tformat")
-t(", +%d%% Nature damage and +%d%% Nature damage penetration", ", 자연 피해 +%d%% / 자연 저항 관통 +%d%%", "tformat")
-t(", %d%% bleeding, poison, disease, and stun immunity", ", 출혈, 질병, 기절 면역력 %d%%", "tformat")
-t("  In addition, it uses its physical resistance against all damage.", "  받는 모든 피해를 물리 피해 저항으로 경감.", "_t")
-t("The target has turned into a huge deeprock elemental.  It gains 2 size categories%s and +%d%% Physical damage and +%d%% Physical damage penetration.%s", "깊은 바위 정령으로 변신 / 몸집 크기 + 2%s / 물리 피해 +%d%% 물리 저항 관통 +%d%%. %s", "tformat")
+t(", +%d%% Arcane damage and +%d%% Arcane damage penetration,", " / 비전 피해 +%d%% / 비전 저항 관통 +%d%%,", "tformat")
+t(", +%d%% Nature damage and +%d%% Nature damage penetration", " / 자연 피해 +%d%% / 자연 저항 관통 +%d%%", "tformat")
+t(", %d%% bleeding, poison, disease, and stun immunity", " / 출혈, 질병, 기절 면역력 %d%%", "tformat")
+t("  In addition, it uses its physical resistance against all damage.", " / 받는 모든 피해를 물리 피해 저항으로 경감.", "_t")
+t("The target has turned into a huge deeprock elemental.  It gains 2 size categories%s and +%d%% Physical damage and +%d%% Physical damage penetration.%s", "깊은 바위 정령으로 변신 : 몸집 크기 + 2%s / 물리 피해 +%d%% 물리 저항 관통 +%d%%%s", "tformat")
 t("earth", "대지", "effect subtype")
 t("elemental", "원소", "effect subtype")
 t("#Target# is imbued by the power of the Stone.", "#Target2# 바위의 힘으로 강화된다.", "_t")
@@ -25805,23 +26222,23 @@ t("Overseer of Nations", "국가의 감시자", "_t")
 t("Detects creatures of type %s/%s in radius 15.", "반경 15 칸 이내의 해당 개체 감지 : %s/%s.", "tformat")
 t("higher", "하이어", "effect subtype")
 t("Pacification Hex", "진정의 비술", "_t")
-t("The target is hexed, granting it %d%% chance each turn to be dazed for 3 turns.", "3 턴 동안, 매 턴 %d%% 확률로 기절.", "tformat")
+t("The target is hexed, granting it %d%% chance each turn to be dazed for 3 turns.", "비술에 걸림 : 3 턴 동안, 매 턴 %d%% 확률로 기절.", "tformat")
 t("+Pacification Hex", "+진정의 비술", "_t")
 t("-Pacification Hex", "-진정의 비술", "_t")
 t("Burning Hex", "화염의 비술", "_t")
-t("The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "기술 사용시 %0.2f 화염 피해 받음 / 기술 재사용 대기시간 증가 %s + 1 턴.", "tformat")
+t("The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "비술에 걸림 : 기술 사용시 %0.2f 화염 피해 받음 / 기술 재사용 대기시간 증가 %s + 1 턴.", "tformat")
 t("#Target# is hexed!", "#Target2# 비술에 걸렸다!", "_t")
 t("+Burning Hex", "+화염의 비술", "_t")
 t("-Burning Hex", "-화염의 비술", "_t")
 t("Empathic Hex", "공감의 비술", "_t")
-t("The target is hexed, creating an empathic bond with its victims. It takes %d%% feedback damage from all damage done.", "가한 피해량의 %d%% 가 자신에게 반사됨.", "tformat")
+t("The target is hexed, creating an empathic bond with its victims. It takes %d%% feedback damage from all damage done.", "비술에 걸림 : 가한 피해량의 %d%% 가 자신에게 반사됨.", "tformat")
 t("+Empathic Hex", "+공감의 비술", "_t")
 t("-Empathic hex", "-공감의 비술", "_t")
 t("Domination Hex", "지배의 비술", "_t")
-t("The target is hexed, temporarily changing its faction to %s.", "일시적으로 %s 소속이 됨.", "tformat")
+t("The target is hexed, temporarily changing its faction to %s.", "비술에 걸림 : 일시적으로 %s 소속이 됨.", "tformat")
 t("dominate", "지배", "effect subtype")
 t("hex", "비술", "effect subtype")
-t("#Target# is hexed.", "#Target2# 비술의 영향을 받았다.", "_t")
+t("#Target# is hexed.", "#Target2# 비술에 걸렸다 받았다.", "_t")
 t("+Domination Hex", "+지배의 비술", "_t")
 t("#Target# is free from the hex.", "#Target2# 비술로부터 자유로워졌다.", "_t")
 t("-Domination hex", "-지배의 비술", "_t")
@@ -25831,12 +26248,12 @@ t("#Target#'s fades into the shadows.", "#Target1# 그림자 속으로 사라진
 t("+Shadowguard", "+그림자의 보호", "_t")
 t("#Target#'s can be afflicted again.", "#Target2# 다시 부정적인 효과를 받을 수 있다.", "_t")
 t("Shadowguard", "그림자의 보호", "_t")
-t("The target is enveloped in shadows gaining %d spellpower and defense.", "주문력, 회피도 +%d.", "tformat")
+t("The target is enveloped in shadows gaining %d spellpower and defense.", "그림자에 둘러싸임 : 주문력, 회피도 +%d.", "tformat")
 t("shadow", "그림자", "effect subtype")
 t("#Target#'s fully exits the shadows.", "#Target2# 그림자에서 완전히 벗어났다.", "_t")
 t("-Shadowguard", "-그림자의 보호", "_t")
 t("Retched", "구역질", "_t")
-t("The target is walking in its own retch, negating the natural ghoul's speed penalty.", "구울의 선천적으로 느린 속도를 상쇄.", "tformat")
+t("The target is walking in its own retch, negating the natural ghoul's speed penalty.", "구토물 위에 있음 : 구울의 선천적으로 느린 속도를 상쇄.", "tformat")
 t("speed", "속도", "effect subtype")
 t("undead", "언데드", "effect subtype")
 t("#Target# speeds up in the retch.", "#Target1# 토사물 속에서 빠르게 움직인다.", "_t")
@@ -25844,13 +26261,13 @@ t("+Retched", "+구역질", "_t")
 t("#Target# speeds down outside of the retch.", "#Target2# 원래 속도로 돌아왔다.", "_t")
 t("-Retched", "-구역질", "_t")
 t("Shadow Cut", "그림자 상처", "_t")
-t("Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "매 턴 %0.2f 암흑 피해 받음 / 시전자가 이 대상을 공격시 생명력 %d 회복.", "tformat")
+t("Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "거대한 그림자 상처가 남 : 매 턴 %0.2f 암흑 피해 받음 / 시전자가 이 대상을 공격시 생명력 %d 회복.", "tformat")
 t("#Target# starts to bleed darkness.", "#Target#의 그림자 상처에서 피가 흘러나온다.", "_t")
 t("+Shadow Cut", "+그림자 상처", "_t")
 t("#Target# stops bleeding darkness.", "#Target#의 그림자 상처가 아물었다.", "_t")
 t("-Shadow Cut", "-그림자 상처", "_t")
 t("Draining Moonlight", "흡수의 월광", "_t")
-t("The target has been drained by a glyph, all damage it does is reduced by %d%%.", "가하는 모든 피해량 -%d%%.", "tformat")
+t("The target has been drained by a glyph, all damage it does is reduced by %d%%.", "문양에 의해 힘이 흡수됨 : 가하는 모든 피해량 -%d%%.", "tformat")
 t("#Target# is weakened by the glyph of moonlight!", "#Target1#  월광의 문양으로 인해 약화되었다!", "_t")
 t("+Draining Moonlight", "+흡수의 월광", "_t")
 t("#Target# looks shakes off the effect of the glyph of moonlight.", "#Target1# 월광의 문양의 효과를 떨쳐낸 것처럼 보인다.", "_t")
@@ -25861,54 +26278,125 @@ t("physical", "물리", "effect subtype")
 t("Dazzled", "혼절", "_t")
 t("All damage decreased by %d%%.", "가하는 모든 피해량 -%d%%.", "tformat")
 t("stun", "기절", "effect subtype")
+t("Immune to Frightening Presence", "두려운 존재감 면역", "_t")
+t("You resisted a Lich and are immune to its frightening presence.", "리치에 저항함 : 두려운 존재감 면역.", "_t")
+t("Energy Alteration (%s)", "애너지 개조 (%s)", "tformat")
+t("%d%% of all damage converted to %s.", "가하는 모든 피해의 %d%% 가 %s 속성으로 변환됨.", "tformat")
 t("Frightening Presence", "두려운 존재감", "_t")
-t("The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%.", "모든 저항 -%d / 가하는 모든 피해량 -%d%% / 이동속도  -%d%%.", "tformat")
+t("The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%.", "리치의 존재만으로도 공포를 느낌 : 모든 내성 -%d / 가하는 모든 피해량 -%d%% / 이동속도  -%d%%.", "tformat")
 t("fear", "공포", "effect subtype")
 t("Commander of the Dead", "죽은 자들의 지휘관", "_t")
+t("Physical power, spellpower and all saves increased by %d.", "물리력, 주문력과 모든 내성 +%d.", "tformat")
 t("lich", "리치", "effect subtype")
 t("Consume Soul", "영혼 삼키기", "_t")
 t("Spellpower increased by %d.", "주문력 +%d.", "tformat")
+t("Necrotic Aura", "강령의 기운", "_t")
+t("All resistances increased by %d.", "모든 저항 +%d.", "tformat")
 t("Lord of Skulls", "해골의 군주", "_t")
+t("Maximum life increased by %d.", "최대 생명력 +%d.", "tformat")
+t("lord of skulls", "해골의 군주", "effect subtype")
+t("#Target# becomes the Lord of Skulls!", "#Target1# 해골의 군주가 되었다!", "_t")
+t("#Target# is no more the Lord of Skulls.", "#Target2# 더 이상 해골의 군주가 아니다.", "_t")
+t("Lord of Skulls (warrior)", "해골의 군주 (전사)", "_t")
+t("Lord of Skulls (archer)", "해골의 군주 (궁수)", "_t")
+t("Lord of Skulls (mage)", "해골의 군주 (마법사)", "_t")
+t("Lord of Skulls (bone giant)", "해골의 군주 (해골 거인)", "_t")
+t("Spike of Decrepitude", "노쇠의 가시", "_t")
 t("Damage reduced by %d%%.", "가하는 피해량 -%d%%.", "tformat")
 t("Soul Leech", "영혼 착취", "_t")
+t("Soul absorbed upon death.", "사망 시, 영혼을 거둬감.", "_t")
 t("Corpse Explosion", "시체 폭발", "_t")
+t("When a ghoul is hit or dies, it explodes, doing %0.2f frostdusk damage.", "구울이 피격받거나 죽으면, %0.2f 서리 황혼 피해를 입히는 폭발을 일으킵.", "tformat")
 t("ghoul", "구울", "effect subtype")
+t("#GREY#%s explodes in a blast of gore!", "#GREY#%s 피와 살의 폭발을 일으켰다!", "logSeen", nil, {"는"})
 t("Brittle Bones", "약한 뼈", "_t")
+t("Physical resistance reduced by %d%% and talents cooldowns increased by %d%%.", "물리 저항 -%d%% /재사용 대기시간 +%d%%.", "tformat")
 t("cooldown", "재사용 대기시간", "effect subtype")
 t("resistance", "저항", "effect subtype")
 t("Boneyard", "묘지", "_t")
+t("Spellpower and physical power increased by %d.", "주문력, 물리력 +%d.", "tformat")
 t("power", "힘", "effect subtype")
 t("Neverending Peril", "끝나지않는 위협", "_t")
 t("Golden Age of Necromancy", "강령술의 황금기", "_t")
+t("Invulnerable.", "무적.", "_t")
+t("invulnerable", "무적", "effect subtype")
 t("Chill of the Tomb", "무덤의 냉기", "_t")
+t("Reduces all damage by %d.", "받는 모든 피해 -%d.", "tformat")
+t("flat", "고정 피해 감소", "effect subtype")
 t("Black Ice", "검은 얼음", "_t")
+t("Damage from necrotic minions increased by %d%%.", "강령술 하수인에게 받는 피해 +%d%%.", "tformat")
 t("Corpselight", "시체 등불", "_t")
+t("Sustains a corpselight of radius %d that deals %0.2f cold damage per turn.", "반경 %d 칸의, 매 턴 %0.2f 냉기 피해를 주는 시체 등불을 유지 중.", "tformat")
+t("#Target# summons a corpselight!", "#Target1# 시체 등불을 소환한다!", "_t")
 t("Crepuscule", "어스름", "_t")
+t("Bring the night!", "밤을 불러오라!", "_t")
+t("#Target# calls the night!", "#Target1# 밤을 내린다!", "_t")
+t("The eerie night around #target# fades away.", "#target# 근처에 내려온 두려움의 밤이 서서히 사라진다.", "_t")
 t("Dire Plague", "끔찍한 역병", "_t")
+t("The target is infected by a plague, doing %0.2f darkness damage per turn with a %d%% chance to rip apart the soul.", "역병에 감염됨 : 매 턴 %0.2f 어둠 피해를 받고 %d%% 확률로 영혼이 찢김.", "tformat")
 t("disease", "질병", "effect subtype")
+t("#Target# is afflicted by a dire plague!", "#Target2# 끔찍한 역병에 시달린다!", "_t")
+t("#Target# is free from the dire plague.", "#Target1# 끔찍한 역병에서 치유되었다.", "_t")
+t("Dire Plague rips out a piece of %s soul!", "끔찍한 역병이 %s의 영혼을 찢어놓는다!", "logSeen")
+t("Frost Cut", "서리 상처", "_t")
+t("Magically frozen wound that deals %0.2f cold damage per turn and movement speed reduced by %d%%.", "마법적인 상처를 입음 : 매 턴 %0.2f 냉기 피해 받음 / 이동 속도 -%d%%.", "tformat")
 t("bleed", "출혈", "effect subtype")
 t("cut", "상처", "effect subtype")
 t("wound", "상처", "effect subtype")
+t("#Target# starts to bleed ice.", "#Target#의 상처에서 얼음이 흘러나온다 .", "_t")
+t("+Frost Cut", "+서리 상처", "_t")
+t("#Target# stops bleeding ice.", "#Target#의 서리 상처가 아물었다.", "_t")
+t("-Frost Cut", "-서리 상처", "_t")
 t("Shattered Remains", "산산조각난 잔해", "_t")
+t("health increased by %d, armour by %d and melee retaliation by %d.", "생명력 +%d / 방어력 +%d / 근접 보복 %d.", "tformat")
 t("bone", "뼈", "effect subtype")
 t("skeleton", "스켈레톤", "effect subtype")
+t("#Target# picks up the remains of its fallen comrade.", "#Target2# 쓰러진 동료의 잔해를 껴입는다.", "_t")
+t("#Target# drops its additional bones.", "#Target2# 뼈를 좀 더 떨어뜨렸다.", "_t")
 t("Rime Wraith", "서리 분노", "_t")
+t("Host of a Rime Wraith!", "서리 분노의 숙주!", "_t")
+t("Rime Wraith (Gelid Host)", "서리 분노 (얼어붙는 숙주)", "_t")
+t("Host of a Rime Wraith (Gelid Host)!", "서리분노의 숙주! (얼어붙는 숙주)", "_t")
+t("All damage converted to cold, cold damage increased by %d%%, cold resistance increased by %d%%.", "모든 피해가 냉기 속성으로 변환됨 / 냉기 피해 +%d%% / 냉기 저항 +%d%%.", "tformat")
+t("Hoarfrost", "성에", "_t")
+t("Cold resistance reduced by %d%%, movement speed reduced by %d%%.", "냉기 저항 -%d%% / 이동 속도 -%d%%.", "tformat")
 t("cold", "냉기", "effect subtype")
+t("necrotic", "강령술", "effect subtype")
 t("Cleansing Flames", "정화의 불꽃", "_t")
+t("The target is on fire, taking %0.2f fire damage per turn and %d%% chance per turn of removing a physical or magical effect from all targets affected by Inferno, Burning Wake or Cleansing Flames.", "대상이 화염에 휩싸임 : 매 턴 %0.2f 화염 피해를 받음 / 매 턴 %d%% 확률로 지옥불, 타오르는 궤적, 정화의 불꽃에 영향을 받는 적의 물리적 또는 마법적 효과 하나를 제거함.", "tformat")
 t("cleanse", "정화", "effect subtype")
 t("fire", "화염", "effect subtype")
+t("#Target# bathes in cleansing flames!", "#Target2# 정화하는 화염의 세례를 받았다!", "_t")
 t("#Target# stops burning.", "#Target#의 화상이 치유되었다.", "_t")
 t("Ghost Walk", "유령 걸음", "_t")
+t("Taking on a spectral form, allowing teleportation back to their original tile.", "유령의 형태를 취함 : 원래 있던 위치로 순간이동 가능.", "tformat")
 t("darkness", "암흑", "effect subtype")
+t("#Target#'s form becomes intangible!", "#Target#의 형상이 사라진다!", "_t")
+t("+Ghost Walk", "+유령 걸음", "_t")
+t("#Target# seems more solid.", "#Target2# 원래대로 돌아왔다.", "_t")
+t("-Ghost Walk", "-유령 걸음", "_t")
+t("Slipstream Free Movement", "비전 이동", "_t")
+t("Can move once for free, this turn only.", "해당 턴 동안, 딱 1 번 턴을 소모하지 않고 이동 가능.", "_t")
 t("movement", "이동", "effect subtype")
+t("Orb Of Thaumaturgy", "주술의 보주", "_t")
+t("All beam spells are duplicated to the orb.", "보주가 모든 광선 주문을 복제함.", "_t")
 t("thaumaturgy", "주술", "effect subtype")
 t("Metaflow", "초월의 흐름", "_t")
+t("Overflowing with energy, increasing all spells talent level by %d.", "마법 에너지가 흘러넘침 : 모든 주문의 기술 레벨 +%d.", "tformat")
 t("meta", "초월", "effect subtype")
+t("#Target# is overflowing with energy!", "#Target2# 마법 에너지가 넘친다!", "_t")
+t("#Target# is no more overflowing with energy.", "#Target#의 마법 에너지가 사라진다.", "_t")
 t("Dirge of Famine", "기근의 장송곡", "_t")
+t("The target is regenerating health", "대상은 생명력을 재생함", "tformat")
 t("regen", "재생", "effect subtype")
 t("Dirge of Conquest", "정복의 장송곡", "_t")
+t("The target will gain a surge of energy on kill or crit", "적을 쓰러뜨리거나, 치명타를 발생시키면 에너지의 쇄도가 일어남", "tformat")
+t("haste", "가속", "effect subtype")
 t("Dirge of Pestilence", "질병의 장송곡", "_t")
+t("The target will gain a shield upon suffering a detrimental effect", "부정적인 효과를 받으면 보호막이 생겨남", "tformat")
 t("shield", "보호막", "effect subtype")
+t("Blinding Light", "실명의 빛", "_t")
+t("The target is blinded by a magical light and unable to see anything.", "마법의 빛으로 실명됨.", "tformat")
 t("blind", "실명", "effect subtype")
 t("light", "빛", "effect subtype")
 t("#Target# loses sight!", "#Target2# 앞을 보지 못한다!", "_t")
@@ -25916,6 +26404,8 @@ t("+Blind", "+실명", "_t")
 t("#Target# recovers sight.", "#Target2# 시야를 회복했다.", "_t")
 t("-Blind", "-실명", "_t")
 t("Devourer Stance", "포식 자세", "_t")
+t("The target is storing up healing energy, currently %d", "회복 에너지를 비축중 : 현재 %d", "tformat")
+t("The target is redirecting energy, adding %d gravity damage to their attacks.%s", "대상이 에너지를 전송 중 : %d 중력 피해를 공격에 더함.%s", "tformat")
 t("gravity", "중력", "effect subtype")
 
 
@@ -26422,6 +26912,7 @@ t("Lightning Catcher has caught energy and is empowering you for +%d%% lightning
 t("lightning", "전기", "effect subtype")
 t("Mark of the Vampire", "흡혈귀의 표식", "_t")
 t("psionic", "초능력", "effect subtype")
+t("#Target# is doomed!", "#Target#에게 임박한 운명이 다가온다!", "_t")
 
 
 ------------------------------------------------
@@ -27860,7 +28351,7 @@ t("poison dripping wand", "독이 방울져 떨어지는 마법봉", "_t")
 t("Rod of Spydric Poison", "거미독의 장대", "entity name")
 t("This rod carved out of a giant spider fang continuously drips venom.", "이 장대는 끊임없이 맹독이 방울져 떨어지는 거대 거미의 송곳니를 깎아 만들어진 것입니다.", "_t")
 t("shoot a bolt of spydric poison out to range %d, dealing %0.2f nature damage (based on Magic) over %d turns while rendering the target unable to move", "%d 칸 범위 내에 거미독의 화살을 쏘아, %0.2f 자연 피해 (마법 능력치 기반) 를 %d 턴에 걸쳐 입힙니다. 이 피해를 받는 동안에는 대상은 움직일 수 없습니다.", "tformat")
-t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
+t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 
 
 ------------------------------------------------
@@ -32348,7 +32839,7 @@ t("Some of the most powerful undead do not fall easily, and only through extreme
 t("History says little of the ancient race of yeeks that lived in halfling territory, but vanished before the time of the Spellblaze.", "역사에 따르면, 마법폭발이 있기 전 고대종족 이크들은 갑자기 사라지기 전까지 하플링의 영토 내에서 살았었다고 합니다.", "init.lua load_tips")
 t("Dwarves are naturally a inquisitive people, but do not enjoy such inquisition turned on them. Most live secretive lives in their closed-off city, the Iron Throne.", "드워프들은 본래 아주 호기심많은 종족입니다. 다만 타인의 호기심이 자신들을 향하는 걸 원치 않기 때문에, 그들 대부분은 철의 왕좌에서 숨어 삽니다.", "init.lua load_tips")
 t("Alchemists can bind gems to armour to grant them magical effects, to protect the wearer or improve their powers. Some commercial alchemists can imbue gems into jewellery.", "연금술사들은 갑옷에 보석을 박아 마법 효과를 부여할 수 있습니다. 이를테면 착용자를 보호하거나 갑옷의 능력을 향상시킬 수 있습니다. 돈을 좋아하는 몇몇 연금술사들은 보석을 장신구에 끼워놓기도 합니다.", "init.lua load_tips")
-t("The Spellblaze was followed by the Age of Dusk, when disease was rife and civilisation collapsed. Necromancers and fell sorcerers took advantage of the chaos to spread their vile deeds.", "황혼의 시대 직후에 마법 폭발이 일어났습니다. 그로인해 질병이 창궐했고, 문명은 붕괴되었습니다. 사령술사들과 타락한 주술사들은 그들의 사악한 목적을 이루기 위해 혼란스러운 세상을 이용했습니다.", "init.lua load_tips")
+t("The Spellblaze was followed by the Age of Dusk, when disease was rife and civilisation collapsed. Necromancers and fell sorcerers took advantage of the chaos to spread their vile deeds.", "황혼의 시대 직후에 마법 폭발이 일어났습니다. 그로 인해 질병이 창궐했고, 문명은 붕괴되었습니다. 사령술사들과 타락한 주술사들은 그들의 사악한 목적을 이루기 위해 혼란스러운 세상을 이용했습니다.", "init.lua load_tips")
 t("After the Spellblaze came the Spellhunt, when the normal people rose against the arrogance of the mages and hunted them down like wolves. Some survived and went into hiding, but many innocents were killed.", "마법 폭발 후에는 마법 사냥이 있었습니다. 평범한 사람들이 마법사의 오만함에 반기를 들고, 늑대 떼처럼 그들을 사냥했습니다. 일부는 살아서 은신처로 숨었지만, 무고한 사람들이 많이 살해당했습니다.", "init.lua load_tips")
 t("Demons are thought to come from another world, brought to Eyal by magical forces. Some are highly intelligent and follow their own ambitions. To what end, none know.", "악마들은 다른 세상에서 마법의 힘에 의해 에이알로 소환되었다고 여겨집니다. 일부는 매우 지능적이고, 자신만의 야망을 가지고 있는 경우도 있습니다. 어떻든간에 진실은 누구도 모릅니다.", "init.lua load_tips")
 t("The art of potion making fell into decline after the Spellhunt, and only a rare few now master the gift.", "물약을 만드는 기술은 마법사냥 이래로 쇠퇴해 왔습니다. 이제는 소수의 전문가만이 기술을 보존하고 있습니다.", "init.lua load_tips")
