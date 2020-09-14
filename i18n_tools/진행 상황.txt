@@ -239,7 +239,13 @@
 "game/modules/tome/data/chats/ring-of-blood-win.lua"
 "game/modules/tome/data/chats/sage-kitty.lua"
 "game/modules/tome/data/chats/shadow-crypt-yeek-clone.lua"
-"game/modules/tome/data/chats/shertul-fortress-butler.lua" Khelerd 완
+"game/modules/tome/data/chats/shertul-fortress-butler.lua"
+"game/modules/tome/data/chats/shertul-fortress-caldizar.lua"
+"game/modules/tome/data/chats/shertul-fortress-command-orb.lua"
+"game/modules/tome/data/chats/shertul-fortress-gladium-orb.lua"
+"game/modules/tome/data/chats/shertul-fortress-shimmer.lua"
+"game/modules/tome/data/chats/shertul-fortress-training-orb.lua"
+"game/modules/tome/data/chats/slasul.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
