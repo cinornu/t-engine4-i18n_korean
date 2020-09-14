@@ -225,7 +225,29 @@
 "game/modules/tome/data/chats/magic-store.lua"
 "game/modules/tome/data/chats/melinda-beach-end.lua"
 "game/modules/tome/data/chats/melinda-beach.lua"
-"game/modules/tome/data/chats/melinda-fortress.lua" Khelerd 완
+"game/modules/tome/data/chats/melinda-fortress.lua"
+"game/modules/tome/data/chats/message-last-hope.lua"
+"game/modules/tome/data/chats/myssil.lua"
+"game/modules/tome/data/chats/norgan-saved.lua"
+"game/modules/tome/data/chats/paradoxology.lua"
+"game/modules/tome/data/chats/player-inscription.lua"
+"game/modules/tome/data/chats/point-zero-zemekkys.lua"
+"game/modules/tome/data/chats/pre-charred-scar-eruan.lua"
+"game/modules/tome/data/chats/pre-charred-scar.lua"
+"game/modules/tome/data/chats/ring-of-blood-master.lua"
+"game/modules/tome/data/chats/ring-of-blood-orb.lua"
+"game/modules/tome/data/chats/ring-of-blood-win.lua"
+"game/modules/tome/data/chats/sage-kitty.lua"
+"game/modules/tome/data/chats/shadow-crypt-yeek-clone.lua"
+"game/modules/tome/data/chats/shertul-fortress-butler.lua"
+"game/modules/tome/data/chats/shertul-fortress-caldizar.lua"
+"game/modules/tome/data/chats/shertul-fortress-command-orb.lua"
+"game/modules/tome/data/chats/shertul-fortress-gladium-orb.lua"
+"game/modules/tome/data/chats/shertul-fortress-shimmer.lua"
+"game/modules/tome/data/chats/shertul-fortress-training-orb.lua"
+"game/modules/tome/data/chats/slasul.lua"
+"game/modules/tome/data/chats/sorcerer-end.lua"
+"game/modules/tome/data/chats/sorcerer-fight.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
@@ -1051,6 +1073,8 @@ section "game/modules/tome/data/general/objects/quest-artifacts.lua" Stéphanois
 section "game/modules/tome/data/general/objects/special-artifacts.lua" Stéphanois
 section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua" Stéphanois
 section "game/modules/tome/data/general/objects/world-artifacts.lua" Stéphanois
+section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
+section "game/dlcs/tome-cults/data/general/objects/world-artifacts.lua"
 
 
 데미지 타입 ---------------------------------
@@ -1063,6 +1087,7 @@ section "game/modules/tome/class/Game.lua" Stéphanois - 기본적인 게임 로
 section "game/modules/tome/class/Object.lua" Stéphanois - 게임 시스템 / 아이템 창					
 section "game/modules/tome/class/Actor.lua" Stéphanois - 오른쪽 아래에 뜨는 설명창과 레벨 업 창, 다양한 로그메시지들	
 section "game/modules/tome/class/Player.lua"
+section "game/modules/tome/class/MapEffects.lua"
 section "game/modules/tome/dialogs/CharacterSheet.lua" Stéphanois 캐릭터 시트
 
 section "game/engines/default/engine/dialogs/LanguageSelect.lua" Stéphanois
