@@ -247,7 +247,26 @@
 "game/modules/tome/data/chats/shertul-fortress-training-orb.lua"
 "game/modules/tome/data/chats/slasul.lua"
 "game/modules/tome/data/chats/sorcerer-end.lua"
-"game/modules/tome/data/chats/sorcerer-fight.lua" Khelerd 완
+"game/modules/tome/data/chats/sorcerer-fight.lua"
+"game/modules/tome/data/chats/tannen.lua"
+"game/modules/tome/data/chats/tarelion-start-archmage.lua"
+"game/modules/tome/data/chats/tarelion.lua"
+"game/modules/tome/data/chats/temporal-rift-end.lua"
+"game/modules/tome/data/chats/temporal-rift-start.lua"
+"game/modules/tome/data/chats/the-master-resurrect.lua"
+"game/modules/tome/data/chats/trap-priming.lua"
+"game/modules/tome/data/chats/ukllmswwik.lua"
+"game/modules/tome/data/chats/undead-start-game.lua"
+"game/modules/tome/data/chats/undead-start-kill.lua"
+"game/modules/tome/data/chats/unremarkable-cave-bosses.lua"
+"game/modules/tome/data/chats/unremarkable-cave-fillarel.lua"
+"game/modules/tome/data/chats/unremarkable-cave-krogar.lua" * 더미 데이터
+"game/modules/tome/data/chats/ward.lua"
+"game/modules/tome/data/chats/worldly-knowledge.lua"
+"game/modules/tome/data/chats/yeek-wayist.lua"
+"game/modules/tome/data/chats/zemekkys-done.lua"
+"game/modules/tome/data/chats/zemekkys-start-chronomancers.lua"
+"game/modules/tome/data/chats/zemekkys.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
@@ -1041,6 +1060,12 @@ section "game/modules/tome/data/general/objects/totems.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wands.lua" Stéphanois
 section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/general/objects/schematics.lua"
+section "game/dlcs/tome-orcs/data/general/objects/special-misc.lua"
+section "game/dlcs/tome-orcs/data/general/objects/steamgun.lua"
+section "game/dlcs/tome-orcs/data/general/objects/steamsaw.lua"
+section "game/dlcs/tome-orcs/data/general/objects/tinker.lua"
+
  장비 에고
 section "game/modules/tome/data/general/objects/egos/ammo.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/amulets.lua" Stéphanois
@@ -1064,6 +1089,8 @@ section "game/modules/tome/data/general/objects/egos/lite.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/massive-armor.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/mindstars.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/potions.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/general/objects/egos/steamgun.lua"
+
  아티팩트
 section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua" Stéphanois
 section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua" Stéphanois
