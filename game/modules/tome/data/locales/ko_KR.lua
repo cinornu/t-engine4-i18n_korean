@@ -141,18 +141,18 @@ t("#CRIMSON##Source# teleports some damage to #Target#!", "#CRIMSON##Source2# �
 t("#CRIMSON#(%d teleported)#LAST#", "#CRIMSON#(%d 전달)#LAST#", "tformat")
 t("#CRIMSON#%d teleported#LAST#", "#CRIMSON#%d 전달#LAST#", "tformat")
 t("#STEEL_BLUE#(%d to time)#LAST#", "#STEEL_BLUE#(%d 미래로)#LAST#", "tformat")
-t("Your time shield crumbles under the damage!", "당신의 시간 보호막이 피해로 인해 부셔졌습니다!", "logPlayer")
+t("Your time shield crumbles under the damage!", "당신의 시간 보호막이 피해로 인해 부서졌습니다!", "logPlayer")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t("#SLATE#%d reflected#LAST#", "#SLATE#%d 반사#LAST#", "tformat")
 t("#CRIMSON##Source# reflects damage back to #Target#!#LAST#", "#CRIMSON##Source2# 피해량을 #Target#에게 반사한다!#LAST#", "delayedLogMessage")
-t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부셔졌다!", "logPlayer")
+t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부서졌다!", "logPlayer")
 t("#CRIMSON##Source# shares some damage with a shadow!", "#CRIMSON##Source2# 그림자와 받은 피해를 나눴다!", "delayedLogMessage")
 t("#PINK#(%d linked)#LAST#", "#PINK#(%d 연결)#LAST#", "tformat")
 t("#PINK#%d linked#LAST#", "#PINK#%d 연결#LAST#", "tformat")
 t("#SLATE#(%d deflected)#LAST#", "#SLATE#(%d 막기)#LAST#", "tformat")
 t("#STEEL_BLUE#(%d to ice)#LAST#", "#STEEL_BLUE#(%d 얼음 덩어리)#LAST#", "tformat")
 t("#SLATE#(%d resonance)#LAST#", "#SLATE#(%d 반향)#LAST#", "tformat")
-t("Your resonance field crumbles under the damage!", "반향 역장이 피해로 인해 부셔졌다!", "logPlayer")
+t("Your resonance field crumbles under the damage!", "반향 역장이 피해로 인해 부서졌다!", "logPlayer")
 t("%s shatters into pieces!", "%s 산산조각 났다!", "logSeen", nil, {"가"})
 t("#F53CBE#You fight through the pain!", "#F53CBE#고통을 뚫고 싸운다!", "_t")
 t("#F53CBE#Your hatred grows even as your life fades!", "#F53CBE#당신의 생명이 꺼저감에도 당신의 증오는 그칠 줄을 모른다!", "_t")
@@ -5910,7 +5910,7 @@ t([[Pfaugh! Her goal in life is to waste my time! Maj'Eyal? Why not Narnia or Ch
 t("I got here from Maj'Eyal, didn't I? I have this magic Orb I looted from a dead orc, see, and...", "제가 그 마즈'에이알에서 여기로 왔는데요? 죽은 오크한테서 얻은 마법의 오브도 여기 있고, 그리고...", "_t")
 t([[#LIGHT_GREEN#*Slot opens.*#WHITE#
 Orb, you say? That you used to travel here from Maj'Eyal? Surely you don't possess the Orb of Many Ways! It's been lost for ages!]], [[#LIGHT_GREEN#*창이 열렸습니다.*#WHITE#
-방금 오브라고 했나? 그걸 써서 마즈'에이알에서 이쪽으로 왔다고? 자네가 여러 장소로의 오브를 갖고 있을 리는 없을 텐데! 그건 몇천 년 전에 사라졌다고!]], "_t")
+방금 오브라고 했나? 그걸 써서 마즈'에이알에서 이쪽으로 왔다고? 자네가 여러 장소로의 오브를 갖고 있을 리는 없을 텐데! 그건 한참 옛날에 사라졌다고!]], "_t")
 t("[Hold up the orb]", "[오브를 들이댄다]", "_t")
 t([[#LIGHT_GREEN#*His eyes widen.*#WHITE#
 Great Socks of Aeryn! It IS the Orb! Maybe we can get you home after all. Or maybe we can get you embedded in magma a thousand leagues straight down.]], [[#LIGHT_GREEN#*그의 눈이 휘둥그레해집니다.*#WHITE#
@@ -5932,7 +5932,7 @@ t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I
 t("Thank you.", "감사합니다.", "_t")
 t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "공명하는 다이아몬드가 거기에 있을 리가 없지. 브리아그흐가 그걸 아주 물고 빨고 하는 걸 알고 있나?", "_t")
 t("Briagh?", "브리아그흐?", "_t")
-t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "거-대한 모래 용 브리아그흐. 공명하는 다이아몬드라는 게 어디서 나온다고 생각하나? 원래 평범한 다이아몬드였던 것들이 브리아그흐의 비늘 사이에 끼어서, 그 상태로 몇 천년간 썩으면서 놈의 생명 리듬이 깃들게 된 거라고. 알다시피, 그놈은 값비싼 보석과 금속 더미에서 잠을 잔다네.", "_t")
+t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "거-대한 모래 용 브리아그흐. 공명하는 다이아몬드라는 게 어디서 나온다고 생각하나? 원래 평범한 다이아몬드였던 것들이 브리아그흐의 비늘 사이에 끼어서, 그 상태로 몇백 년간 썩으면서 놈의 생명 리듬이 깃들게 된 거라고. 알다시피, 그놈은 값비싼 보석과 금속 더미에서 잠을 잔다네.", "_t")
 t("Where might I find Briagh's lair??", "브리아그흐의 둥지는 어디에 있습니까??", "_t")
 t("Well south of the Sunwall. I'll mark it for you on your map.", "음, 태양의 장벽 남쪽에. 지도에 표시해 주겠네.", "_t")
 t("I'll be back with a Resonating Diamond.", "공명하는 다이아몬드를 가져 오겠습니다.", "_t")
@@ -5950,29 +5950,87 @@ section "game/modules/tome/data/chats/zigur-mindstar-store.lua"
 
 t("Welcome @playername@ to my shop.", "내 가게에 어서 와, @playername@.", "_t")
 t("Let me see your wares.", "물건을 보고 싶어.", "_t")
+t("I am looking for mindstar training.", "마석 기술을 배울 데를 찾고 있는데.", "_t")
 t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t("I can teach you mindstar mastery (talent category Wild-gift/Mindstar mastery).  Learning the basics costs 100 gold, while more intensive training to gain proficiency costs 500 gold.  Once you're proficient, I can teach you some additional skills for 750 gold.", "내가 마석 수련법 (기술 계열 자연의 권능/마석 수련) 을 가르쳐 줄 수 있어. 기초는 100 골드, 좀 더 심도있는 지식은 500 골드. 심도있는 지식을 알고 있다면, 750 골드 추가로 조금 더 다듬어진 기술들을 가르쳐 주지.", "_t")
 t("Just give me the basics (reveals locked talent category) - 100 gold.", "기초만 가르쳐 줘 (잠겨있는 기술 계열이 보이게 됨) - 100 골드.", "_t")
+t("The shopkeeper spends some time with you, teaching you the basics of channeling energy through mindstars.", "상점 주인은 잠깐 시간을 내어 당신에게 마석에 에너지를 흘려보내는 법의 기초를 가르쳤다.", "logPlayer")
+t("He is impressed with your affinity for natural forces.", "그는 당신의 자연 친화력에 감탄했다.", "logPlayer")
+t("Please teach me what I need to know (unlocks talent category) - 500 gold.", "내가 알아야 하는 걸 가르쳐 줘 (기술 계열 해금) - 500 골드.", "_t")
+t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you.", "상점 주인은 상당한 시간을 내어 당신에게 마석에 에너지를 흘려보내는 법을 더 자세히 가르쳤다.", "logPlayer")
+t("He is impressed with your mastery and shows you a few tricks to handle stronger energy flows.", "그는 당신의 능숙함에 감탄하며, 더 강한 에너지 흐름을 다루는 방법들을 보여 주었다.", "logPlayer")
 t("I'm already proficient, but I want to be an expert (improves talent mastery by 0.2) - 750 gold.", "배울 건 다 배웠지만, 난 전문가가 되고 싶어 (기술 계열 숙련도 0.2 증가) - 750 골드.", "_t")
+t(", and teaches you enhanced mental discipline needed to maintain powerful energy fields", " 강력한 에너지장을 유지하기 위한 수준급 정신 수련법도요.", "_t")
+t("The shopkeeper spends a great deal of time going over the finer details of channeling energy through mindstars with you%s.", "상점 주인은 엄청난 시간을 들여 당신에게 마석에 에너지를 흘려보내는 법을 세세한 부분까지 가르쳤습니다.%s", "tformat")
 t("No thanks.", "사양하지.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/zigur-trainer.lua"
 
+t("Well met, friend.", "반갑네, 친구.", "_t")
+t("Brother", "형제", "_t")
+t("Sister", "자매", "_t")
 t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
+t([[#LIGHT_GREEN#*A grim-looking Fighter stands there, clad in mail armour and a large olive cloak. He doesn't appear hostile - his sword is sheathed.*#WHITE#
+%s, our guild has been watching you and we believe that you have potential.
+We see that the hermetic arts have always been at the root of each and every trial this land has endured, and we also see that one day they will bring about our destruction. So we have decided to take action by calling upon Nature to help us combat those who wield the arcane.
+We can train you, but you need to prove you are pure, untouched by the eldritch forces, and ready to fight them to the end.
+You will be challenged against magical foes. Should you defeat them, we will teach you our ways, and never again will you be able to be tainted by magic, or use it.
+
+#LIGHT_RED#Note:  Completing this quest will forever prevent this character from using spells or items powered by arcane forces.  In exchange you'll be given access to a mindpower based generic talent tree, Anti-magic, and be able to unlock hidden properties in many arcane-disrupting items.]], [[#LIGHT_GREEN#*엄숙해 보이는 전사가 서 있습니다. 그는 사슬 갑옷과 커다란 올리브색 망토를 입고 있습니다. 검이 검집에 꽂혀 있어, 적대적으로 보이진 않습니다.*#WHITE#
+%s여, 우리 길드는 그대를 주목하고 있었고, 우린 그대에게 충분한 잠재력이 있다고 믿는다.
+우린 이 땅이 견뎌 왔던 모든 시련들의 원인은 항상 모종의 비밀스러운 기술이라는 것을 알고 있고, 또 그게 언젠가 우리의 파멸을 부를 것이라는 것도 알고 있지. 그래서 우린 자연의 힘을 불러내어, 비전의 힘을 다루는 자들과 맞서 싸우기로 결정했다.
+우린 그대를 훈련시켜 줄 수 있지만, 그 전에 그대는 스스로가 섬뜩한 힘에 손대지 않은 순수한 상태라는 것을 증명해야 하며, 그런 힘을 다루는 자들과 최후의 최후까지 싸울 준비를 해야 한다.
+그대는 마법을 사용하는 적들의 도전을 받게 될 것이다. 그대가 그들을 쓰러뜨린다면, 우린 그대에게 우리의 방식을 가르칠 것이며, 그대는 두 번 다시 마법에 오염되지 않고, 또 그것을 쓸 수도 없을 것이다.
+
+#LIGHT_RED#알림:  이 임무를 클리어하면 이 캐릭터는 영구히 마법 주문이나 마법의 힘으로 작동하는 물건을 사용할 수 없게 됩니다.  그 대신 당신은 의지에 기반한 일반 기술 계열인 '반마법' 기술 계열을 획득할 수 있게 되고, 마법 파괴의 힘이 깃든 물건들의 숨겨진 능력을 확인할 수 있게 될 것입니다.]], "tformat")
+t("I will face your challenge!", "도전을 받아들이겠습니다!", "_t")
+t("I'm not interested.", "관심 없습니다.", "_t")
+t("Very well. I will say that this is disappointing, but it is your choice. Farewell.", "어쩔 수 없지. 그대의 말이 실망스럽긴 하지만, 그대의 결정이니 말리진 않겠다. 안녕히.", "_t")
 t("Farewell.", "안녕히.", "_t")
+t("Ah, you seem eager, but maybe still too young. Come back when you have grown a bit.", "아, 그대는 의욕은 있지만, 아직 너무 미숙한 모양이군. 조금 더 성장한 뒤에 다시 찾아 오라.", "_t")
+t("I shall.", "그렇게 하겠습니다.", "_t")
+t("\
+Worry not, though, Ogre - we can replace your unclean runes with a newly-discovered mixture of infusions, eliminating your dependence on them.  The process will feel...  unpleasant, and will dramatically shorten your lifespan, but you will finally be free from the addictive grip of the arcane!\
+", "\
+두려워 마라, 오우거여. 우린 그대의 더러운 룬을 새로이 발견한 조합 주입물로 교체할 수 있고, 그대의 마법 의존을 고칠 수 있다.  그 과정은... 불쾌하고, 그대의 수명을 눈에 띄게 줄일 것이지만, 그리 한다면 그대는 마침내 비전의 탐닉에서 자유로워질 것이다!\
+", "_t")
+t([[We'll also reinforce the infusions you've been granted to replace your runes - the newest mixture should give you about five years of your life that the initial mixture took from you.
+]], [[또한 우리가 그대의 룬을 대신할 주입물을 강화해 주겠다. 최신의 조합물은 룬 제거 과정에서 그대가 잃은 수명의 5년 정도를 되돌려 줄 것이다.
+]], "_t")
+t([[Very well. Before you start, we will make sure no magic can help you:
+- You will not be able to use any spells or magical devices
+- Any worn objects that are powered by the arcane will be unequipped
+%s
+Are you ready, or do you wish to prepare first?]], [[아주 좋아. 시작하기 전에, 마법은 그대를 도울 수 없다는 걸 확실히 숙지하라.
+- 주문이나 마법적인 장치를 사용할 수 없고,
+- 마법의 힘으로 작동하는 물건들은 모두 벗게 될 것이다.
+%s
+준비는 되었나? 아니면 준비가 필요한가?]], "tformat")
+t("I am ready", "준비가 되었습니다.", "_t")
+t("I need to prepare.", "준비를 해야겠습니다.", "_t")
+t([[#VIOLET#*You are grabbed by two olive-clad warriors and thrown into a crude arena!*
+#LIGHT_GREEN#*You hear the voice of the Fighter ring above you.*#WHITE#
+%s! Your training begins! I want to see you prove your superiority over the works of magic! Fight!]], [[#VIOLET#*올리브 색의 전사 두 명에게 잡혀, 진혹한 투기장으로 던져졌습니다!*
+#LIGHT_GREEN#*링의 위쪽에서 전사의 목소리가 들립니다.*#WHITE#
+%s! 그대의 훈련이 시작될 것이다! 그대가 마법보다 우수한 존재라는 것을 증명하라! 시작!]], "tformat")
+t("But wha.. [you notice your first opponent is already there]", "하지만 무슨.. [첫 상대가 이미 도착했다]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/zoisla.lua"
 
 t([[#LIGHT_GREEN#*A naga steps through the portal, she seems to be a high ranked one.*#WHITE#
-NO! You fool, the portal is breaking down!]], "#LIGHT_GREEN#*나가 한마리가 차원문에서 나왔습니다, 그녀는 고위 개체로 보입니다.*#WHITE#안돼! 이 멍청한놈, 차원문이 무너지고 있잖아!", "_t")
-t("And thus my task is done, serpent!", "그리하여 내 임무가 끝난다면 그리 하겠다, 이 뱀아!", "_t")
-t("You do not understand: it will explode!", "넌 이해하지 못하고 있어: 이게 폭발할 거라고!", "_t")
+NO! You fool, the portal is breaking down!]], [[#LIGHT_GREEN#*나가 하나가 차원문에서 나왔습니다. 고위의 개체로 보입니다.*#WHITE#
+안 돼!! 이 머저리가, 차원문이 무너지고 있잖아!]], "_t")
+t("And thus my task is done, serpent!", "이걸로 내 임무는 끝이다, 뱀 꼬리!", "_t")
+t("You do not understand: it will explode!", "넌 아무것도 몰라! 이게 폭발할 거라고!", "_t")
 t([[The portal randomly teleported us before exploding.
 You fool! You have doomed us, we could be #{bold}#anywhere!#{normal}#
-DIE !]], "차원문이 폭발하기전 우리를 임의로 텔레포트 시켰습니다. 이 멍청한놈! 넌 우리를 파멸시켰어, 우린 #{bold}#어디로 온지도 모른다고!#{normal}#죽어라 !", "_t")
+DIE !]], [[차원문이 폭발하기 직전에, 우릴 어딘가로 보냈군.
+이 머저리 자식! 너 때문에 우린 망했어, 우리가 지금 대체 #{bold}#어디까지#{normal}# 날아왔는지도 모르겠다고!
+죽어라 !!]], "_t")
 
 
 ------------------------------------------------
@@ -5986,7 +6044,7 @@ t("%s(%d to psi shield)#LAST#", "%s(%d 초능력 보호막)#LAST#", "tformat")
 t("%s(%d blocked)#LAST#", "%s(%d 방어됨)#LAST#", "tformat")
 t("%s(%d antimagic)#LAST#", "%s(%d 반마법)#LAST#", "tformat")
 t("%s(%d flat reduction)#LAST#", "%s(%d 고정 피해 감소)#LAST#", "tformat")
-t("You end your target with a crushing blow!", "당신은 대상을 강력한 일격으로 부셔버렸다!", "logPlayer")
+t("You end your target with a crushing blow!", "대상을 강력한 일격으로 부숴버렸다!", "logPlayer")
 t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d 피격 피해 제한)#LAST#", "tformat")
 t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source1# 순교로 %s에게 피해를 입혔다!", "delayedLogMessage")
 t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source2# 피해를 #Target#에게 반사했다!", "delayedLogMessage")
@@ -5999,7 +6057,7 @@ t("bled", "피투성이가 되어", "_t")
 t("bludgeoned", "으깨져", "_t")
 t("chopped into tiny pieces", "작은 조각으로 조각나", "_t")
 t("cleaved", "쪼개져", "_t")
-t("crushed", "부셔져", "_t")
+t("crushed", "부서져", "_t")
 t("decapitated", "참수되어", "_t")
 t("disembowelled", "내장이 쏟아져나와", "_t")
 t("dissected", "해부되어", "_t")
@@ -6355,18 +6413,18 @@ section "game/modules/tome/data/general/encounters/maj-eyal.lua"
 
 t("Novice mage", "초보 마법사", "_t")
 t("Lost merchant", "길 잃은 상인", "entity name")
-t("You find a hidden trap door, and hear cries for help from within...", "당신은 숨겨진 지하실 문을 발견했습니다, 그리고 안에서 도움을 바라는 비명을 들었습니다...", "_t")
-t("#LIGHT_RED#You carefully open the trap door and enter the underground tunnels...", "#LIGHT_RED#당신은 조심스럽게 지하실 문을 열고 지하 터널로 들어섰습니다...", "logPlayer")
-t("#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#문 안쪽에 손잡이가 없다는 것을 깨달았습니다. 이곳에 갇혔습니다!", "logPlayer")
-t("Enter the tunnels", "터널로 들어가다", "_t")
-t("Sect of Kryl-Faijan", "크릴-파이얀의 이교도", "entity name")
+t("You find a hidden trap door, and hear cries for help from within...", "숨겨진 지하실 문을 발견했습니다, 그리고 안에서 도움을 바라는 비명을 들었습니다...", "_t")
+t("#LIGHT_RED#You carefully open the trap door and enter the underground tunnels...", "#LIGHT_RED#조심스럽게 지하실 문을 열고 지하 터널로 들어섰다...", "logPlayer")
+t("#LIGHT_RED#As you enter you notice the trap door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#문 안쪽에 손잡이가 없다는 것을 깨달았다. 이곳에 갇혔다!", "logPlayer")
+t("Enter the tunnels", "터널로 들어간다", "_t")
+t("Sect of Kryl-Faijan", "키릴-페이얀의 사교도", "entity name")
 t("hostile", "적대적인", "entity type")
 t("Encounter", "만남", "_t")
 t([[You find an entrance to an old crypt. An aura of terrible evil emanates from this place. You feel threatened just standing there.
-You hear the muffled cries of a woman coming from inside.]], "당신은 오래된 지하실의 입구를 발견했습니다. 끔찍하게 사악한 기운이 이 장소에서 뿜어져나옵니다. 당신은 이곳에 서있는것만으로도 위협받는 느낌을 받습니다. 당신은 안에서부터 여인의 숨죽인 울음소리가 흘러나오는것을 들었습니다.", "_t")
-t("#LIGHT_BLUE#You carefully get away without making a sound.", "#LIGHT_BLUE#당신은 조심스럽게 소리 없이 빠져나왔습니다 .", "logPlayer")
-t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#당신은 조심스럽게 문을 열고 지하 묘실에 들어섰습니다...", "logPlayer")
-t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#문 안쪽에 손잡이가 없다는 것을 깨달았습니다. 이곳에 갇혔습니다!", "logPlayer")
+You hear the muffled cries of a woman coming from inside.]], "오래된 지하실의 입구를 발견했습니다. 끔찍하게 사악한 기운이 이 장소에서 뿜어져 나옵니다. 당신은 이곳에 서 있는 것만으로도 위협받는 느낌을 받습니다. 당신은 그 안에서부터 여인의 숨죽인 울음소리가 흘러 나오는 것을 들었습니다.", "_t")
+t("#LIGHT_BLUE#You carefully get away without making a sound.", "#LIGHT_BLUE#조심스럽게 소리 없이 빠져나왔다 .", "logPlayer")
+t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#조심스럽게 문을 열고 지하 묘실에 들어섰다...", "logPlayer")
+t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#문 안쪽에 손잡이가 없다는 것을 깨달았다. 이곳에 갇혔다!", "logPlayer")
 t("Enter the crypt", "지하실로 들어간다", "_t")
 t("Leave carefully", "조심스럽게 떠난다", "_t")
 t("Lost kitten", "길 잃은 새끼 고양이", "entity name")
@@ -6407,33 +6465,71 @@ section "game/modules/tome/data/general/events/conclave-vault.lua"
 
 t("Director Hompalan", "감독관 홈팔란", "_t")
 t([[Only crumbling bones are left of what once was the proud Director Hompalan, chief of this facility.
-Now those remains look at you with empty eyes but you can not mistake their intent.]], "오직 이 시설의 책임자였던, 감독관 홈팔란의 부서진 뼈조각만이 남아있습니다, 이제 그 유해는 당신을 텅빈 눈구멍으로 쳐다보고 있지만 당신은 그것의 관심을 알아차리지 않을수 없습니다.", "_t")
+Now those remains look at you with empty eyes but you can not mistake their intent.]], [[오직 이 시설의 책임자였던, 감독관 홈팔란의 부서진 뼛조각만이 남아있습니다.
+이제 그 유해는 당신을 텅 빈 눈구멍으로 쳐다보고 있지만 당신은 그것의 관심을 알아차리지 않을수 없습니다.]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/cultists.lua"
 
+t("monolith", "모노리스", "_t")
+t("An elven cultist. He doesn't seem to mind you.", "엘프 광신도입니다. 당신을 신경 쓰지 않는 것 같습니다.", "_t")
+t("From death comes life!", "죽음으로부터 삶이 오리라!", "_t")
+t("My soul for her!", "내 영혼을 그녀에게!", "_t")
+t("Take me! Take me!", "절 취하소서, 절 취하소서!", "_t")
+t("The Dark Queen shall reign!", "어두운 여왕께서 다스리실지니!", "_t")
+t("corrupted monolith", "타락한 모노리스", "_t")
+t("No the ritual will weaken!", "안 돼, 의식이 약해진다!", "_t")
+t("This is too soon!", "너무 일러!", "_t")
+t("disrupted monolith", "불완전한 모노리스", "_t")
+t("Something the cultists are doing is coming. Beware.", "광신도들이 애타게 찾는 것이 오고 있습니다. 조심하십시오.", "_t")
+t("The cultist's soul seems to be absorbed by the strange stone he was guarding. You feel like something is about to happen...", "광신도의 영혼이 그가 지키던 이상한 돌에 흡수된 것 같습니다. 무슨 일이 일어날 것 같은 느낌이 듭니다...", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
+t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "굉장히 고혹적인 악마입니다. 떠다니는 불꽃 왕관과 세 개의 꼬리, 그리고 날카로운 손톱이 없었더라면요. 그녀를 바라보자 살을 파내는 듯한 고통이 느껴집니다. 그녀는 당신에게 고통을 주고 싶어 합니다.", "_t")
+t("and used for her perverted desires", "그리고 그 시체는 그녀의 추잡한 욕망을 위해 쓰였습니다.", "_t")
+t("Crown of Burning Pain", "불타는 고통의 왕관", "_t")
+t("burning crown", "불타는 왕관", "_t")
+t("This crown of pure flames possesses a myriad of small molten rocks floating wildly above it. Each can be removed to throw as a true meteor.", "순수한 불꽃으로 이루어진 왕관으로, 녹아 내린 조약돌들이 위쪽에 무수히 많이 떠 있습니다. 그 조약돌 각각은 진짜 유성처럼 날릴 수 있습니다.", "_t")
+t([[A terrible shout thunders across the level: 'Come my darling, come, I will be ssssooo *nice* to you!'
+You should flee from this level!]], [[끔찍한 외침이 이 구역을 가로지릅니다. '어서 와 자기야, 어서 와, 내가 지이이이인짜 잘 해줄게!'
+이 구역에서 도망쳐야 합니다!]], "_t")
+t("Cultist", "광신도", "_t")
+t("%s pulls a dagger and opens his own chest, piercing his beating heart. The stone glows with malevolent colors.", "%s 단검을 뽑아 자신의 가슴을 갈랐고, 맥동하는 심장을 찔렀다. 돌이 사악한 빛으로 빛났다.", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/damp-cave.lua"
 
+t("ladder back to %s", "%s 돌아가는 사다리", "tformat", nil, {"로"})
+t("Damp Cave", "축축한 동굴", "_t")
+t("damp cave", "축축한 동굴", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/drake-cave.lua"
 
+t("Intimidating Cave", "공포의 동굴", "_t")
+t("ladder back to %s", "%s 돌아가는 사다리", "_t", nil, {"로"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/fearscape-portal.lua"
 
+t("portal back to %s", "%s 돌아가는 차원문", "tformat", nil, {"로"})
+t("#VIOLET# You escape the Fearscape!", "#VIOLET# 공포의 영역에서 탈출했다!", "log")
+t("orbital fearscape platform", "공포의 영역 궤도 발판", "_t")
+t("#rng# the Invader", "침략자 #rng#", "_t")
+t("fearscape invasion portal", "공포의 영역 침략 차원문", "_t")
+t("#VIOLET#The portal is broken!", "#VIOLET#차원문이 부서졌다!", "log")
+t("broken fearscape invasion portal", "부서진 공포의 영역 침략 차원문", "_t")
 t("#VIOLET#The portal is already broken!", "#VIOLET#이 차원문은 이미 부서진 상태다!", "log")
-t("Fearscape Portal", "공포의 땅 차원문", "_t")
+t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "차원문에 들어갑니까? 파괴합니까? 아니면 무시합니까 (이 경우 ESC를 누르세요)?", "_t")
+t("Fearscape Portal", "공포의 영역 차원문", "_t")
+t("#VIOLET#Ignoring the portal...", "#VIOLET#차원문을 무시한다...", "log")
 t("Destroy", "파괴", "_t")
 t("Enter", "들어간다", "_t")
 t("Quit", "출구", "_t")
+t("#VIOLET#A demon steps out of the %s!", "#VIOLET#%s에서 악마가 걸어 나왔다!", "logSeen")
 
 
 ------------------------------------------------
@@ -6464,7 +6560,11 @@ section "game/modules/tome/data/general/events/meteor.lua"
 ------------------------------------------------
 section "game/modules/tome/data/general/events/naga-portal.lua"
 
+t("portal back to %s", "%s 돌아가는 차원문", "tformat", nil, {"로"})
+t("#VIOLET#The portal is broken!", "#VIOLET#차원문이 부서졌다!", "log")
 t("#VIOLET#The portal is already broken!", "#VIOLET#이 차원문은 이미 부서진 상태다!", "log")
+t("Do you wish to enter the portal, destroy it, or ignore it (press escape)?", "차원문에 들어갑니까? 파괴합니까? 아니면 무시합니까 (이 경우 ESC를 누르세요)?", "_t")
+t("#VIOLET#Ignoring the portal...", "#VIOLET#차원문을 무시한다...", "log")
 t("Destroy", "파괴", "_t")
 t("Enter", "들어간다", "_t")
 t("Quit", "출구", "_t")
@@ -7400,6 +7500,7 @@ section "game/modules/tome/data/general/npcs/plant.lua"
 
 t("immovable", "부동생물", "entity type")
 t("treant", "나무 정령", "entity name")
+t("A very strong near-sentient tree, which has become hostile to other living things.", "매우 강력하고, 막 지각을 개화한 나무 생명체로, 다른 생명체에게 적대적으로 변해버렸습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7850,7 +7951,7 @@ t("tree trunk", "통나무", "_t")
 t("Bill's Tree Trunk", "빌의 통나무", "entity name")
 t("This is a big, nasty-looking tree trunk that Bill the Troll used as a weapon. It could still serve this purpose, should you be strong enough to wield it!", "트롤 빌이 사용하던 거대하고, 위협적인 통나무입니다. 이 무기를 들기에 충분한 힘만 있다면, 빌처럼 사용할 수 있을 것같습니다!", "_t")
 t("bloody shield", "피투성이 방패", "_t")
-t("Sanguine Shield", "핏빛 방패", "entity name")
+t("Sanguine Shield", "피의 방패", "entity name")
 t("Though tarnished and spattered with blood, the emblem of the Sun still manages to shine through on this shield.", "비록 피에 뒤덮혀 더러워졌지만, 태양의 문장은 여전히 그 빛을 발산합니다.", "_t")
 t("Flamewrought", "불꽃 장갑", "entity name")
 t("chitinous gloves", "키틴질 장갑", "_t")
@@ -10497,7 +10598,7 @@ section "game/modules/tome/data/general/objects/whips.lua"
 
 t("weapon", "무기", "entity type")
 t("whip", "채찍", "entity combat talented")
-t("Sharp, long and deadly.", "날카롭고, 길고 치명적이다.", "_t")
+t("Sharp, long and deadly.", "날카롭고, 길고 치명적입니다.", "_t")
 
 
 ------------------------------------------------
@@ -11200,7 +11301,7 @@ t("The Guardian's Totem", "보호자의 토템", "entity name")
 t("a cracked stone totem", "금이 간 돌 토템", "_t")
 t("This totem of ancient stone oozes a thick slime from myriad cracks. Nonetheless, you sense great power within it.", "끈적이는 점액이 이 고대의 돌 토템의 수없이 많은 균열에서 흘러나옵니다. 그렇지만, 돌토템 안의 거대한 힘을 느낄 수 있습니다.", "_t")
 t("call forth an immobile antimagic pillar for 10 turns.  (It spits slime, pulls in, stuns, and burns the arcane resources of your foes, while emitting an aura of silence against them within range 5, and will silence you for 5 turns when first summoned.)", "10 턴 동안 지속되는 이동 불가능한 반마법 기둥을 세웁니다. (기둥은 반경 5 칸의 침묵의 기운을 발산하며, 적을 끌어당기고, 기절시키며 슬라임을 뱉고 비전력을 태워버립니다. 소환 시, 착용자를 침묵시킵니다.)", "_t")
-t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
+t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("Stone Guardian", "바위 수호자", "_t")
 t("This massive stone pillar drips with a viscous slime. Nature's power flows through it, obliterating magic all around it...", "이 거대한 바위 기둥은 악랄한 슬라임 방울이 떨어집니다. 자연의 힘이 기둥에 흐르고 있으며, 주변의 모든 마법을 말살시킵니다...", "_t")
 t("#Source# uses %s to summon a natural guardian!", "#Source2# %s 사용하여 자연의 수호자를 불러낸다!", "logCombat", nil, {"을"})
@@ -17004,11 +17105,11 @@ t([[Let out a burst of sound that silences for %d turns all those affected in a 
 
 		이 기술을 습득하면 대상에게 적용되는 모든 마나 소각 피해에 자연 피해 및 관통이 적용됩니다.]], "tformat")
 t("Antimagic Shield", "반마법 보호막", "talent name")
-t("#GREEN#The antimagic shield of %s crumbles.", "#GREEN#%s 의 반마법 보호막이 부셔졌다.", "logSeen")
+t("#GREEN#The antimagic shield of %s crumbles.", "#GREEN#%s 의 반마법 보호막이 부서졌다.", "logSeen")
 t([[Surround yourself with a shield that will absorb at most %d non-physical, non-mind element damage per attack.
 		Each time damage is absorbed by the shield, your equilibrium increases by 1 for every 30 points of damage and a standard Equilibrium check is made. If the check fails, the shield will crumble and Antimagic Shield will go on cooldown.
 		The damage the shield can absorb will increase with your Mindpower or Physical power (whichever is greater).]], [[피격 당 최대 %d 의 비물리적, 비정신적 피해를 흡수하는 보호막을 생성합니다.
-		매 번 피해가 보호막에 의해 흡수될 때마다 평정 수치가 상승하고, 평정 수치로 인한 기술 사용 실패 판정을 합니다. 보호막으로 막아낸 피해량 30 당 평정 수치가 1 상승합니다. 만약 기술 사용이 실패했을 경우, 보호막은 부셔져내리며, 반마법 방어막에 재사용 대기시간이 적용됩니다.
+		매 번 피해가 보호막에 의해 흡수될 때마다 평정 수치가 상승하고, 평정 수치로 인한 기술 사용 실패 판정을 합니다. 보호막으로 막아낸 피해량 30 당 평정 수치가 1 상승합니다. 만약 기술 사용이 실패했을 경우, 보호막은 부서져내리며, 반마법 방어막에 재사용 대기시간이 적용됩니다.
 		보호막이 흡수할 수 있는 피해량은 정신력과 물리력중 높은것에 비례해 증가합니다.]], "tformat")
 t("Mana Clash", "마나 붕괴", "talent name")
 t("\
@@ -18253,7 +18354,7 @@ t([[Spit slime at your target doing %0.2f nature damage and slowing it down by 3
 t("Slime Roots", "슬라임 뿌리", "talent name")
 t("You extend slimy roots into the ground, follow them, and re-appear somewhere else in a range of %d with error margin of %d.", "당신은 점액질의 뿌리를 땅에 박고, 뿌리를 쫓아 이동합니다. %d 범위 내의 지점으로 이동합니다. 오차 반경은 %d 칸 입니다..", "tformat")
 t("Animate Blade", "살아 움직이는 칼날", "talent name")
-t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
+t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("Open a hole in space, summoning an animated blade for 10 turns.", "공간에 구멍을 열고, 10 턴동안 살아 움직이는 칼날을 소환합니다.", "tformat")
 t("Drench", "해일", "talent name")
 t([[Blast a wave of water all around you with a radius of %d, making all creatures Wet for 10 turns.
@@ -18680,8 +18781,8 @@ t("Start to sever the lifeline of the target. After 4 turns, if the target is st
 t("Call of Amakthel", "Amakthel의 부름", "talent name")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
 t("Pull all foes within radius 10 1 grid towards you.", "반경 10 칸의 모든 적들을 1 칸 다가오게 합니다.", "tformat")
-t("Gift of Amakthel", "Amakthel의 선물", "talent name")
-t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
+t("Gift of Amakthel", "아마크텔의 선물", "talent name")
+t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("%s spawns a slimy crawler!", "%s slimy crawler를 소환했다!", "logSeen", nil, {"가"})
 t("Invoke a slimy crawler for 10 turns.", "10 턴 동안 지속되는 slimy crawler를 소환합니다.", "tformat")
 t("Strike", "타격", "talent name")
@@ -20660,7 +20761,7 @@ t("Probability Travel", "가능성 도약", "talent name")
 t([[When you hit a solid surface, this spell tears down the laws of probability to make you instantly appear on the other side.
 		Teleports up to %d grids.
 		After a successful probability travel you are left unstable, unable to do it again for a number of turns equal to %d%% of the number of tiles you blinked through.
-		The range will improve with your Spellpower.]], [[이 주문은 가능성의 개념을 산산히 부서버립니다. 단단한 벽에 부딪혔을 때, 벽을 그대로 통과해 다른 쪽에서 나타나게 됩니다.
+		The range will improve with your Spellpower.]], [[이 주문은 가능성의 개념을 산산히 부숴버립니다. 단단한 벽에 부딪혔을 때, 벽을 그대로 통과해 다른 쪽에서 나타나게 됩니다.
 		최대 %d 칸의 벽을 통과합니다.
 		가능성 도약에 성공했어도, 시전자는 몇 턴 동안 불안정한 상태에 빠집니다. 통과한 거리의 %d%% 에 해당하는 턴 동안 벽을 다시 통과할 수 없습니다.
 		범위는 주문력에 비례하여 증가합니다.]], "tformat")
@@ -20823,7 +20924,7 @@ t([[Fire a powerful beam of stone-shattering force, digging out any walls in its
 		If any walls are dug, you gain %d%% physical damage bonus for 6 turns.
 		The damage will increase with your Spellpower.]], [[암석을 분쇄하는 힘을 응축시켜 발사합니다. 최대 %d 칸내의 벽을 허뭅니다.
 		광선의 최대 사거리는 %d 이며, 경로 내의 모든 개체에게 %0.2f 물리 피해를 가합니다.
-		벽이 부셔졌을 경우, %d%% 물리 피해 증가 효과를 6 턴 동안 얻습니다.
+		벽이 부서졌을 경우, %d%% 물리 피해 증가 효과를 6 턴 동안 얻습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Stone Skin", "바위 피부", "talent name")
 t([[The caster's skin grows as hard as stone, granting a %d bonus to Armour.
@@ -21275,7 +21376,7 @@ t([[Improves your golem's armour training, damage resistance, and healing effici
 		중갑, 판갑 방어구 사용 시 모든 피해 저항을 %d%%; 방어력을 %d, 방어 효율을 %d%%, 치명타를 피할 확률을 %d%% 증가시킵니다. 또한 회복 효율을 %d%% 향상시킵니다.
 		골렘은 판갑을 포함한 모든 방어구를 사용할 수 있습니다.]], "tformat")
 t("Invoke Golem", "골렘 귀환", "talent name")
-t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
+t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("You invoke your golem to your side, granting it a temporary melee power increase of %d for 5 turns.", "골렘을 기술 시전자 옆으로 귀환시키고, 5 턴 동안 근접 피해를 %d 증가시킵니다.", "tformat")
 t("Golem Portal", "골렘 차원문", "talent name")
 t("Your golem is currently inactive.", "당신의 골렘은 지금 비활성화됐다.", "logPlayer")
@@ -21822,7 +21923,7 @@ t("Crush the souls of your foes to improve yourself.", "적의 영혼을 짓뭉�
 t("animus", "원혼", "_t")
 t("Learn to fasten your foes way into the grave.", "적들을 빠르게 묘지로 보내는 방법을 익힙니다.", "_t")
 t("death", "죽음", "_t")
-t("Doom to all your foes. Crush them.", "적들에게 파멸을 선사합니다. 모두 부셔지리라.", "_t")
+t("Doom to all your foes. Crush them.", "적들에게 파멸을 선사합니다. 모두 부서지리라.", "_t")
 t("eradication", "박멸", "_t")
 t("Gain control over death, by unnaturally expanding your life.", "비 정상적으로 목숨을 늘린 결과, 죽음을 다스릴 수 있게됩니다.", "_t")
 t("necrosis", "강령술", "_t")
@@ -25907,7 +26008,7 @@ t("The target is surrounded by a magical shield, absorbing %d/%d damage %s befor
 t("+Shield", "+보호막", "_t")
 t("A shield forms around #target#.", "#target2# 주위에 마력의 보호막을 형성했다.", "_t")
 t("-Shield", "-보호막", "_t")
-t("The shield around #target# crumbles.", "#target#의 보호막이 부셔졌다.", "_t")
+t("The shield around #target# crumbles.", "#target#의 보호막이 부서졌다.", "_t")
 t("Martyrdom", "순교", "_t")
 t("All damage done by the target will also hurt it for %d%%.", "가하는 피해량의 %d%% 만큼 자신도 피해를 입음.", "tformat")
 t("#Target# is a martyr.", "#Target2# 순교자의 면류관을 썼다.", "_t")
@@ -26067,7 +26168,7 @@ t("Bone Shield", "뼈의 방패", "_t")
 t("Any attacks doing more than %d%% of your life is reduced to %d%%.", "최대 생명력의 %d%% 이상의 피해를 %d%% 감소.", "tformat")
 t("#Target# protected by flying bones.", "#Target2# 보호의 뼈로 둘러쌓였다.", "_t")
 t("+Bone Shield", "+뼈의 방패", "_t")
-t("#Target# flying bones crumble.", "#Target#의 보호의 뼈가 부셔졌다.", "_t")
+t("#Target# flying bones crumble.", "#Target#의 보호의 뼈가 부서졌다.", "_t")
 t("-Bone Shield", "-뼈의 방패", "_t")
 t("Redux", "회귀", "_t")
 t("Chronomancy spells with cooldown less than %d will not go on cooldown when cast.", "%d 턴 이하의 재사용 대기시간을 가진 시공 계열 기술의 대기시간 즉시 초기화.", "tformat")
@@ -28089,7 +28190,7 @@ t("-Paralyzed", "-마비", "_t")
 t("Imploding (slow)", "내파 (감속)", "_t")
 t("Slowed by 50%% and taking %d crushing damage per turn.", "감속 50%% / 매 턴 부서짐 피해 %d 받음.", "tformat")
 t("telekinesis", "염동력", "effect subtype")
-t("#Target# is being crushed.", "#Target1# 부셔지기 시작했다.", "_t")
+t("#Target# is being crushed.", "#Target1# 부서지기 시작했다.", "_t")
 t("+Imploding", "+내파", "_t")
 t("#Target# shakes off the crushing forces.", "#Target1# 염동력의 압박을 떨쳐냈다.", "_t")
 t("-Imploding", "-내파", "_t")
@@ -31936,7 +32037,7 @@ section "game/modules/tome/data/zones/valley-moon/grids.lua"
 t("moonstone", "월석", "entity name")
 t("floor", "바닥", "entity type")
 t("grass", "잔디", "entity subtype")
-t("Fearscape Portal", "공포의 땅 차원문", "entity name")
+t("Fearscape Portal", "공포의 영역 차원문", "entity name")
 t("An invocation portal, perpetually summoning beings through it.", "영구적인 소환물을 불러내는 소환 차원문입니다.", "_t")
 
 

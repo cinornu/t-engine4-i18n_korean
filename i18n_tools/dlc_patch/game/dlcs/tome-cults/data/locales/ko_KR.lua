@@ -236,6 +236,7 @@ section "game/dlcs/tome-cults/data/general/events/space-dwarf-ship.lua"
 t("floor", "바닥", "_t")
 t("wall", "벽", "_t")
 t("previous level", "이전 구역", "_t")
+t("ladder back to %s", "%s 돌아가는 사다리", "tformat", nil, {"로"})
 
 
 ------------------------------------------------
@@ -1354,13 +1355,13 @@ I could hear the screams of terror of others around me and noticed that the soun
 
 "우리 탈로레 아가씨께서 도망치고 싶으신가?" 내게 말하는 목소리가 들려왔다. "그 작디작은 숲으로 도망치시는 게 어떨까?" 난 마스크를 쓴 드워프를 봤다. 도끼와 방패를 들고 있었다. "우리는 널 알지. 페이 윌로우즈. 넌 마법에 더렵혀지지도 않았고, 자연의 친구이지 않나? 근데 보아하니, 오우거들의 친구인 것 같기도 하네." 그 드워프는 도끼를 이리저리 휘두르며 말을 이었다. "그게 말야, 널 탓하면 안 되겠구만. 오우거들이 뭐 옛날 얘기라도 했겠지. 그것 때문에 작은 오해가 있었던 모양이야. 우리는 그냥 오우거들을 돕고 싶을 뿐이라고. 이젠 좀 협조적으로 나오는 것 같긴 한데. 몇몇 놈들을 죽여야 했다는 건 좀 안타깝지만. 뭐, 대충 알아먹었겠지." 드워프는 말을 끝마치고 혼자서 낄낄 쪼개기 시작했다.
 
-드워프는 웃음을 멈추고 말을 이었다. "이제 우리랑 좀 같이 일하는 건 어때 귀쟁이? 그렇지 않으면 어쩔 수 없이 널 죽-[b]여어어어어억![/b
+드워프는 웃음을 멈추고 말을 이었다. "이제 우리랑 좀 같이 일하는 건 어때 귀쟁이? 그렇지 않으면 어쩔 수 없이 널 죽-[b]여어어어어억![/b]
 
 그 순간 전장의 모든 소리가 사라진 것 같았다. 나는 내 눈 앞에 선 드워프에게 모든 신경을 집중했다. 내가 볼 수 있는 건 오직 피였다. 내 손과 팔, 그리고 내가 그 드워프의 모가지에 꽂아넣은 단검, 드워프가 쓰고 있던 가면에 묻은 피. 이내 가면 아래에서 드워프가 피를 토했다. 도끼와 방패를 떨어뜨리고 단검을 잡은 채 허우적거리며 가래 끓는 소리를 냈다. 나는 천천히 몸을 굽혀 두 손으로 도끼를 들었고, 힘껏 내 머리 뒤 쪽으로 떠받들었다. 그리고 온 힘을 다해 드워프의 머리에 도끼를 꽂아넣었다. 그 일격에 드워프가 죽어버리자, 내 안에서 묘한 감각이 떠올랐고 이내 그 감각은 나를 사로잡았다.
 
-At that moment I recalled the Eldoral halfling I had killed from before when I initially first traveled from my home. I had hated the reasons said in support of the Spellblaze, and I became angered to no end of the one spouting that nonsense. I had followed the halfling out with a steak knife that I had taken from a nearby table and... I killed him. It was a horrible feeling taking a life, yet a dark surge of energy coursed through me, wanting to drive me to kill more. This drive to kill, it was the real reason I had fled that settlement. I was afraid I would kill someone, someone who didn't deserve it. That halfling I killed didn't deserve to die. But, these zealots, didn't they deserve it?
+그때 내가 고향을 나섰을 때 죽였던 엘도랄의 하플링이 떠올랐다. 마법 폭발을 옹호하면서 쏟아내는 헛소리들에 분노했었다. 주변 식탁에 올려져 있던 고기 써는 칼을 들고 나간 뒤, 하플링을 따라 나가서... 죽였다. 생명을 빼앗을 때의 느낌은 정말 끔찍했지만, 음산한 기운이 내 혈관을 타고 흐르면서 다른 놈들을 더 죽여버리고 싶은 충동이 솟구쳤다. 살인 충동, 그것이 내가 처음 여행을 나섰던 근원이었다. 나는 누군가를 죽이는 것이 두려웠다. 죽어 마땅한 자들만이 있는 것은 아니니까. 그 하플링은 죽어 마땅한 자가 아니었다. 하지만, 이 광신도들은 어떤가?
 
-At that point something snapped into my mind I think. I remember laughing very loudly. It was dreadful feeling. I might have been crying too. I couldn't tell what was happening with me or my emotions and I wondered if I was going mad; and I still wonder this even now to be honest. But that wasn't important. The ogres around me could no longer fight, and I knew that if nothing was done that they would die, or worse. There was no innocence to be found from these zealots, these instigators of torment and madness, or the initiates blindly following them. I could simply kill them all with a clear conscious, and hopefully satisfy the urges within me to kill. All would be well with me after that, and perhaps the ogres would even thank me for saving them.
+그 순간 내 마음 속에 무언가 스며들었다. 나는 소리 내어 폭소했던 것이 기억난다. 끔찍한 기분이었다. 아마 울고 있었던 것 같기도 하다. 나에게, 아니면 내 감정에 도대체 무슨 일이 일어나는 것인지 알 수 없었고 미쳐가고 있는 것이 아닌가 싶었다. 솔직히 지금 이 순간에도 무어라 확실히 말할 수 없다. 하지만 그건 중요하지 않았다. 주변의 오우거들은 더 이상 싸울 수 있는 상태가 아니었다. 무언가 하지 않으면 죽거나 죽음보다 더한 처지에 빠질 것이란 것을 알았다. 그 광신도들, 고문과 광기를 선동한 자들이나 그들을 맹목적으로 따른 신병들을 살려둘 어떤 이유도 찾을 수 없었다. 완전히 제정신이었다고 해도 저들을 모두 거리낌없이 죽일 수 있을 것이고, 저들을 죽이면 이 충동도 가라앉힐 수 있다. 그러고 나면 다 괜찮아 질 것이고, 아마 오우거들도 나에게 감사를 표할 것이다.
 
 Then I noticed a masked human zealot looking at me and the corpse of the dwarf on the ground. I began to walk over, the human seemingly waving a sword in one hand in a threatening manner. For some reason I thought it was kind of funny, despite what should have caused me to think of an intense fear for own well being. I could hear muffled shouts of something coming from the human, though I couldn't distinguish what was being said. As I drew closer I saw the human shake, so much so that the mask shifted enough that I could partially see the face of the man underneath. I could see the fear in his eye before the human raised his shield in an attempt to hide away. I remember the enjoyment I felt of that fear.
 
@@ -1612,8 +1613,8 @@ t([[For a brief moment horrific hairs grow on your head, each of them ending wit
 		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
 		This cannot be saved against.
 		]], [[잠시돟안 눈알이 달린 끔찍한 머리카락이 머리에서 자라납니다.
-		이 눈알은 지정한 지역을 응시하여, 범위 내 대상은 부분적으로 돌로 변해 7 턴 동안 이동속도가 %d%% 감소하고, 부숴지기 쉽게 됩니다.
-		부숴지게 쉽게 된 대상은 35%%의 확률로 %d%%만큼 추가 피해를 입습니다.
+		이 눈알은 지정한 지역을 응시하여, 범위 내 대상은 부분적으로 돌로 변해 7 턴 동안 이동속도가 %d%% 감소하고, 부서지기 쉽게 됩니다.
+		부서지게 쉽게 된 대상은 35%%의 확률로 %d%%만큼 추가 피해를 입습니다.
 		이 효과는 저항할 수 없습니다.
 		]], "tformat")
 t("Glimpse of True Horror", "진정한 공포의 낌새", "talent name")
@@ -1731,7 +1732,7 @@ t("%s (servant of %s)", "%s (%s의 종)", "tformat")
 t("worm that walks (servant of %s)", "걸어다니는 벌레떼 (%s의 종복)", "tformat")
 t("Robe of the Worm (Improved)", "벌레의 로브 (강화됨)", "_t")
 t("Your friendly horror is not dead.", "우호적인 걸어다니는 벌레떼가 죽지 않았다.", "logPlayer")
-t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
+t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
 		You can fully control, level, and equip it.
 		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
@@ -2374,7 +2375,7 @@ t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 section "game/dlcs/tome-cults/data/talents/spell/necro.lua"
 
 t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락 거린다. 돌출된 수많은 뼈의 손이, 서로 얽히고, 섥혀 뼈로 이루어진 거대한 부속지를 이뤄 흉곽을 지탱하고 있다. 한편, 다른 부속지는 부서지고, 붕괴되고 있다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 한다.", "_t")
-t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#뼈의 공포는 부셔졌지만, 당신은 남은 뼈의 잔재가 다른 해골로 재구성되는것을 보았다!!", "logSeen")
+t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#뼈의 공포는 부서졌지만, 당신은 남은 뼈의 잔재가 다른 해골로 재구성되는것을 보았다!!", "logSeen")
 
 
 ------------------------------------------------

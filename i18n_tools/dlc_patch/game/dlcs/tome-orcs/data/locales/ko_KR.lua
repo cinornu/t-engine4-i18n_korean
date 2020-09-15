@@ -1134,8 +1134,8 @@ What do you even grip it by? Insisted I make it though, left some design notes.
 They all just say 'make it really flashy'.
  
 -Pizurk, Master Tinker]], [["살인송곳니가 어제 갑자기 찾아와서는, 이 총에 대한 설명을 미친듯이 하기 시작했지. 그는 아주 세심한 것까지 묘사했어, 거의 전부를! 정확하게 어떻게 작동하는지만 빼고말이야.
-그래서 어떻게 된 줄 아나?  몇몇 도안 공책을 남겨놓고는 내가 만들어야된다고 빡빡우기더군. 
-공책에는 '눈부시게 만들어라' 고만 쓰여있더군.
+그래서 어떻게 된 줄 아나?  몇몇 도안 쪽지를 남겨놓고는 내가 만들어야된다고 빡빡우기더군. 
+근데 말이야, 쪽지에는 '눈부시게 만들어라' 고만 쓰여있었어 어처구니가 없어서 원.
  
 -피줄크, 발명 명인]], "_t")
 t("Burst apart, dealing physical damage equal to 25% of the original damage in a ball of radius 1.", "폭발이 일어나, 원래 피해의 25% 에 해당하는 피해를 반경 1 칸 내에 가합니다.", "_t")
@@ -1180,13 +1180,181 @@ t("Stimulus", "자극제", "entity name")
 t("autosyringe", "자동 주사기", "_t")
 t("This injecting unit is complemented by a belt of tiny vials, containing some sickly yellow liquid. The papers describe the contents as 'invigorating' and 'increasing the combat potency.'", "일련의 주입기로, 역겨운 노랑 액채를 담고있는, 허리띠의 조그마한 유리병을 이용합니다. 설명서에는 이 내용물이 '활력을 되찾아주고, 전투력을 강화한다' 고 되어있습니다'", "_t")
 t("inject yourself with painkillers, reducing all incoming damage by 5. Stacks up to 5 times. When the effect ends, lose 5% of your max life per stack", "진통제를 주사해, 피격 시 받는 모든 피해량을 5 감소시킵니다. 최대 5 번 중첩 가능하며, 이 효과가 끝날 때, 중첩 당 최대 생명력의 5% 에 해당하는 피해를 받습니다", "_t")
+t("Qog's Essentials", "코그의 필수품", "entity name")
+t("injector", "주사기", "entity subtype")
+t("strange injector", "이상한 주사기", "_t")
+t("A hypospray full of ...something. There is no telling what you're injecting yourself with.", "무엇인가로... 가득찬 피하 분사기입니다. 무엇을 주입할지는 알 수 없습니다.", "_t")
+t("Gain a random beneficial effect", "무작위한 이로운 효과를 하나 얻습니다", "_t")
+t("vibrating shield", "떨리는 방패", "_t")
+t("Deflector", "편향기", "entity name")
+t("The front plate of this shield vibrates at all times, covering some strange assembly you can't quite make sense of.", "이 방패의 전면부는은 항상 얉게 진동합니다. 좀처럼 작동 구조를 이해할 수 없는 기계 부품으로 덮혀있습니다.", "_t")
+t("Knocks melee attackers away. Distance scales with damage incoming.", "근접 공격에 피격당할 시, 적을 멀리 밀칩니다. 밀처내는 거리는 피해량에 비례하여 증가합니다.", "_t")
+t("Skysmasher", "하늘 파쇄자", "entity name")
+t("rocket powered maul", "로켓으로 작동하는 망치", "_t")
+t("The discovery of rockets has proved incredibly dangerous. It is not always clear for whom.", "로켓의 발명은 엄청나게 위험한 것으로 여겨졌습니다. 누구에게나 항상 명확한건 아니니까요.", "_t")
+t("Nimbus of Enlightenment", "계몽의 비구름", "entity name")
+t("elaborate cap", "정교한 모자", "_t")
+t([[They are out to get you.
+This is not real this is not real this is not real.]], [[널잡으러왓어
+정신나갈거같애정신나갈거같애점심나갈거같애.]], "_t")
+t([[By all accounts, just an ordinary cooking pot with an array of antennae haphazardly soldered onto it. An attached manual contains nothing but fifty pages of deranged gibberish, nonsensical diagrams and lines upon lines of numbers with no apparent pattern or reason to them. 
+
+Putting this on your head may not be the best idea.]], [[누가 보아도, 그저 평범한 요리 냄비에 안테나가  대충 접합되어 있습니다. 동봉된 설명서는 50 장에 걸처 헛소리와 말도안되는 도형들, 그리고 논리도, 규칙성도 없는 숫자의 나열만이 써있습니다. 
+
+이걸 머리통에 뒤집어 쓰는 것은 그렇게 좋은 생각은 아닌거 같은데요...]], "_t")
+t("%s's Shadow", "%s의 그림자", "tformat")
+t([[itshereitshereitshereitshere
+itshereitshereitshereitshere
+itshereitshereitshereitshere
+itshereitshereitshereitshere]], [[여깃어여깃어여깃어여깃어
+여깃어여깃어여깃어여깃어
+여깃어여깃어여깃어여깃어
+여깃어여깃어여깃어여깃어]], "_t")
+t("#F53CBE#%s's shadow awakens!", "#F53CBE#%s의 그림자가 깨어났다!", "logSeen")
+t("Pressurizer", "가압기", "entity name")
+t("heavy lined cloak", "무거운, 안감을 댄 망토", "_t")
+t("This cloak hides and protects a series of powerful steam compressors.", "이 망토는 수많은 강력한 증기 압축기를 숨기고, 보호하고 있습니다.", "_t")
+t("Eastern Wood Hat", "이스턴 우드 모자", "entity name")
+t("worn leather hat", "해진 가죽 모자", "_t")
+t("This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "이 모자는 오래전에 이름이 잊혀진, 극동의 숲에서 나는 물질들로 만들어졌습니다. 최초의 총잡이들이 갖고있었다고 전해집니다.", "_t")
+t("Steamcatcher", "증기 수집기", "entity name")
+t("pipe coated leather hat", "도관으로 둘러싸인 가죽 모자", "_t")
+t("There's an old saying that most of your body heat escapes through your head. It's not true of body heat, but strangely, is actually true of steam.", "어떤 늙은 이가 말하길, 인채 대부분의 열기는 머리를 통해 빠저나간다고 합니다. 이젠 체온같은게 아니라, 증기지만요.", "_t")
+t("On taking fire damage: Gain 5% of the damage as steam.", "화염 피해를 받을 때 : 피해량의 5% 에 해당하는 수치가 증기로 회복됩니다.", "_t")
+t("Shoes of Moving Quickly", "빠른 이동의 신발", "entity name")
+t("rocket powered boots", "로켓으로 작동하는 장화", "_t")
+t("Accurately? Less so.", "정확하게라? 그거보다는 좀 덜한데.", "_t")
+t("You move 3 spaces at once.", "한 번에 3 칸을 이동합니다.", "_t")
+t("Band of Protection", "보호의 죔틀", "entity name")
+t("reinforced belt", "강화된 허리띠", "_t")
+t("This belt utilizes an enchanted gem to focus a burst of steam into a powerful barrier.", "이 허리띠는 마법에 걸린 보석을 집중삼아, 뿜어저나오는 증기를 튼튼한 방어벽으로 만듭니다.", "_t")
+t("generate a personal shield that absorbs up to %d damage and damages attackers striking the wearer for %d fire damage while it lasts (based on Cunning)", "개인 보호막을 만들어 최대 %d 피해를 흡수하고, 공격자에게 보복 공격을 가해 %d 화염 피해를 입힙니다 (교활에 비례)", "tformat")
+t("%s summons a barrier of steam from %s %s!", "%s %s %s 증기의 방벽을 형성한다!", "logSeen", nil, {"는",[3]="으로"})
+t("Viletooth", "사악한 이빨", "entity name")
+t("rusted steamsaw", "녹슨 증기톱", "_t")
+t("This aged looking saw is very rusty, and you think you see a thin layer of... something... on its blades.", "오래되어 보이는 이 증기톱에는 녹이 심각하게 녹슬었습니다. 그리고 톱날 위에서 얇은 뭔가를... 본 것 같습니다.", "_t")
+t("may infect the target with a random disease", "공격 대상에게 확률적으로 무작위한 질병에 감염시킵니다", "_t")
+t("Mirrorazor", "거울칼날", "entity name")
+t("rippling portal", "파문이 이는 관문", "_t")
+t([[The experiment of a mad chronomancer, this strange device is a portal into a backwards universe!
+That is, everything there spins the opposite direction.
+I guess it probably grinds things pretty well.]], [[어느 미친 시공술사의 실험으로 만들어진, 이 괴상한 도구는 역전된 우주로의 관문입니다!
+말인 즉슨, 저 너머에선 모든 것이 반대쪽으로 회전한다는 뜻입니다.
+음, 아마 뭔갈 갈아버리는 데 참 좋을 것 같네요.]], "_t")
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
+t("time-warped paper scrap", "시간이 뒤틀린 종이 조각", "_t")
+t("It came a long way away!", "저건 저 멀리에서 왔어!", "_t")
+t("Oh, for the love of...  You're way too busy to deal with this nonsense.  You rev up Mirrorazor again, re-syncing it with the Mirror Universe, and toss the note back in.  A different note flies out the other side, miraculously not torn to shreds by the massive difference in planetary rotations.", "오...  당신은 이 말도안되는 걸 붙잡고있느라 너무 바쁩니다.  거울칼날의 회전 속도를 높이고, 거울 세계와 재동기화 한 후, 종이 쪽지를 넣었는데, 저쪽에서 전혀 다른 쪽지가 튀어나왔습니다! 행성과 우주의 회전 자체가 다른데 기적적으로 찢어지지 않고 나왔다구요!", "_t")
+t("Screw that!", "좀 닥쳐!", "_t")
+t("#LIGHT_BLUE#Mirrorazor shudders as a note falls out from a different timeline!", "#LIGHT_BLUE#다른 시간선에서 쪽지가 떨어지자 거울칼날은 크게 흔들린다!", "saySimple")
+t("5 turns after use, mirror yourself across the map (centered around the location you were standing when activated).", "사용하고 5 턴 뒤, 이동한 거리와 대칭이 되는 위치로 이동합니다. (이 기술을 사용할 당시의 위치를 기준점으로 합니다).", "_t")
+t("Razorlock", "양날 톱", "entity name")
+t("interlocked steamsaws", "맞물린 증기톱", "_t")
+t([[This intricate set of steamsaws lock together in a nearly indecipherable system.
+They sure seem sharp though.]], [[이 복잡한 장치로 구성된 증기톱은 거의 해독할 수 없는 체계로 하나로 묶여있습니다.
+하지만 저 톱날들은 매우 날카로워 보입니다.]], "_t")
+t("Ramroller", "공성회전자", "entity name")
+t("a... chariot?", "어... 수..레?", "_t")
+t("\"So we were thinking. You know what's better than saws? Really BIG saws. Unfortunately, no one could lift them. So we came up with an innovative new solution: Mount them on a motorized platform, allowing easy transportation and unparalleled cutting power!\"", "\"그래 우리는 생각 했지, 톱보다 더 좋은게 뭔줄 알아? 거대한 톱이야. 유감스럽게도, 그 누구도 거대한 톱을 들어올리지 못했지. 그래서 우리는 아주 혁신적인 해결책을 내놓았지 : 톱 위에, 전동기와 바퀴를 달아서, 쉽게 운용하게 할 수 있게 했어, 마치 존나 큰 톱날이 달린 전차처럼 말이야!\"", "_t")
+t("Moving builds up a stacking movement speed (caps at 25%) and damage bonus (caps at double). Hitting removes the bonus.", "발걸음을 옮길 때 마다, 이동속도가 상승하고 (최대 25% 중첩됩니다) 피해량 상승량도 증가합니다. (최대 2 배까지 중첩됩니다). 공격을 가하면, 이 효과는 즉시 사라집니다.", "_t")
+t("Overcutter", "과잉절단기", "entity name")
+t("enormous steamsaw", "거대한 증기톱", "_t")
+t("Earlier steamsaws were notably not meant to be used with one hand.", "초기형 증기톱들은 한 손으로 들고 사용할 물건들이 아니였습니다.", "_t")
+t("Turbocutter", "고속절단기", "entity name")
+t("\"Have you ever thought your steamsaws were just too slow? Well, have I got the thing for you...\"", "\"증기톱이 너무 느리다고 생각한적 있으십니까? 저희에게 좋은 물건이 있는데요...\"", "_t")
+t("Increases the speed bonus from Saw Wheels by 25%.", "톱날 바퀴의 이동력 상승치가 25% 증가합니다.", "_t")
+t("Whipsnap", "애송이", "entity name")
+t("spring loaded steamsaw", "용수철이 장착된 전기톱", "_t")
+t("\"Sick of your pesky enemies hitting you with weapons? Well, with the new spring loaded Whipsnap, you can quickly put a stop to that!\"", "\"별거 아닌 무기로 당신의 속을 긁어대는 적에게 지치셨습니까? 좋아요, 이 새로운 용수철이 장착된 애송이로, 빠르게 중지시키실 수 있습니다!\"", "_t")
+t("Pinwheel", "속박바퀴", "entity name")
+t("spike tipped steamsaw", "송곳이 달린 증기톱", "_t")
+t("\"Create new, exciting connections in other people's lives, such as between their feet and the floor!\"", "\"다른 사람들과 새롭고, 흥분되는 연결고리를 만들어보세요! 마치 발과 땅바닥처럼요!\"", "_t")
+t("15% chance to pin the target", "15% 확률로 대상을 속박합니다", "_t")
+t("Frostbite", "동상", "entity name")
+t("icy steamsaw", "얼음같이 차가운 증기톱", "_t")
+t("Fashioned from magical ice, and perfect for carving ice - especially ice with someone else inside it.", "마법적인 얼음으로 만들어, 얼음을 완벽하게 깎아냅니다 - 특히 누군가가 안에 있는 얼음을요.", "_t")
+t("The Lumberator", "벌목기", "entity name")
+t("vined coated steamsaw", "덩굴덮힌 증기톱", "_t")
+t("\"Spread the wonders of nature even quicker than ever with this seed injecting steamsaw! Your former enemies will be freshly grown trees before you even know it!\"", "\"이 씨앗이 주입된 증기톱과 함께라면 자연의 경의를 그 어떤 방식보다 빠르게 퍼뜨릴 수 있습니다! 적들은 당신이 눈치 채기도 전에 한 그루의 나무가 되어 쑥쑥 자랄걸요?!\"", "_t")
+t("summon a treant (5 turn cooldown)", "나무 정령을 소환합니다 (재사용 대기시간 5 턴)", "_t")
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
-t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
+t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("treant", "나무 정령", "_t")
+t("A very strong near-sentient tree, which has become hostile to other living things.", "매우 강력하고, 막 지각을 개화한 나무 생명체로, 다른 생명체에게 적대적으로 변해버렸습니다.", "_t")
 t("Summon", "소환", "_t")
+t("Grinder", "분쇄기", "entity name")
+t("bloody steamsaw", "핏빛 증기톱", "_t")
+t("Originally a kitchen implement used by the giants to saw through tough, frozen carcasses. Something is especially sinister about this example though.", "원래, 거인들이 얼어붙은 시체를 절단할 떄 사용하던 주방 도구였습니다만. 지금은 훨씬 더 불길한 용도로 사용됩니다.", "_t")
+t("On Taking Damage: Blindside the attacker (range 6).", "피격 시 : 적을 습격합니다 (사거리 6 칸).", "_t")
+t("Overclocked Radius", "폭주하는 반경", "entity name")
+t([[Faced with the petty quandaries of 'conventional physics', some mad tinker must have coated this sawblade with a fine sheathe of dilated time to maximize its speed.
+ 
+There were ...side effects.]], [[고전 물리학의 벽을 넘기 위해, 몇몇 정신나간 발명가들은 톱날에 팽창한 시간 자체를 씌워 속력을 최대한 발휘하려고 했습니다.
+ 
+이건 그... 부산물입니다.]], "_t")
+t("Attack speed increases with paradox, up to 250% at 1000 paradox.", "공격 속도가 괴리에 비례하여 증가합니다. 괴리 수치가 1000 일 때 250% 가됩니다.", "_t")
+t("increase paradox by a random amount", "괴리가 무작위한 수치로 증가합니다", "_t")
+t("increase paradox by a drastic amount with a chance to do an anomaly (%d%% chance). If anomaly triggers, halve paradox.", "괴리 수치를 극적으로 상승시키지만 %d%% 확률로 이상현상이 일어납니다. 이상 현상이 일어난 경우, 괴리수치가 절반이 됩니다.", "tformat")
+t("Heartrend", "심장파열", "entity name")
+t("distorted steamsaw", "왜곡된 증기톱", "_t")
+t([[There is an attached note.
+ 
+'I've spilt the heartsblood of my work, feeling it pound, like a heart, in my palms.
+Some people just can't let go until they've bled dry.']], [[쪽지가 하나 붙어있습니다.
+ 
+'나는 내 작품을 위해 심장의 피를을 흩뿌렸고, 내 손안에서 심장의 고동을 느꼈다.
+어떤 이들은 피가 모두 쥐어짜질 때 까지 포기하지 못하리라.']], "_t")
+t([[All damage dealt by or to you (that is over 1% of max life) bleeds for an additional 20% of the damage as physical damage (ignores most status resistances).
+While you are bleeding, Heartrend's damage increases and it gains lifesteal.]], [[착용자가 공격시, 또는 피격시 최대 체력의 1% 이상의 피해가 일어나면, 출혈이 유발되어, 피해량의 20% 를 물리 피해로 가합니다 (대부분의 상태 저항 효과를 무시합니다).
+착용자가 출혈 상태일 때, 심열의 피해량은 증가하고, 생명력을 흡수합니다.]], "_t")
+t("If bleed damage per turn is greater than 5% of max life, attacks cleave.", "매 턴 받는 출혈 피해가 최대 생명력의 5% 를 초과하면, attacks cleave.", "_t")
+t("Dethzaw", "주금톱", "entity name")
+t("fiery steamsaw", "맹렬한 증기톱", "_t")
+t([[Grushgore the Destroyer was absolutely enthralled when he discovered steamsaws. He immediately kidnapped several tinkerers and forced them to create this for him.
+His naming skills have not improved.]], [[파괴자 그루쉬고어는 그가 증기 톱을 발견 했을 때 완전히 매료되었습니다. 그루쉬고어는는 그 즉시 발명가들을 몇명 납치해 자신을 위한 증기톱을 만들라고 강요했습니다.
+여전히 이름짓는 재능은 발전하지 않았습니다.]], "_t")
+t("deal a melee attack against all other enemies in a circle around you", "공격 시, 인접한 적들을 모두 공격합니다", "_t")
+t("Galen's Flowing Robe", "갈렌의 흩날리는 로브", "entity name")
+t("ample robe", "부푼 로브", "_t")
+t("This robe was worn by the Technomancer Galen, infused with technomancy enchantments it is said to react to techno-spells!", "이 로브는 마도공학자 갈렌이 입던 로브로, 마도공학적으로 부여가 되어, 마도공학 주문에 반응한다고 합니다!", "_t")
+t([[20% chance when casting a technomancy spell (or 10% chance when casting a normal spell) to power-up the internal defense circuits of the robe.
+The circuit will do one of:
+#AQUAMARINE#if more than one foe is in melee range#LAST#: teleport away all foes
+#AQUAMARINE#if below 50% life#LAST#: increase all resistances by 20% for 5 turns
+#AQUAMARINE#if below 20 steam#LAST#: supercharge the arcane dynamo to produce 4 more steam per 10 mana spent for 5 turns
+#AQUAMARINE#otherwise#LAST#: reset the cooldown of the spell with the highest remaining cooldown
+]], [[마도공학 주문을 시전할 때 20% 확률로 (또는 일반기술을 시전할 떄 10% 확률로) 로브 내부의 방어 회로를 강화합니다.
+회로는 다음과 같은 효과를 발생시킵니다 :
+#AQUAMARINE#하나 이상의 적이 인접한 경우#LAST# : 모든 적을 순간이동 시킵니다
+#AQUAMARINE#생명력이 50% 이하일 경우#LAST# : 모든 저항이 5 턴 동안 20% 증가합니다
+#AQUAMARINE#증기가 20 이하일 경우#LAST# : 비전 발전기를 과부화시켜 5 턴 동안 마나 10 소모당 증기 생성을 4 증가시킵니다.
+#AQUAMARINE#이외의 경우#LAST# : 가장 긴 재사용 대기시간을 가진 주문 하나의 대기시간을 초기화합니다.
+]], "_t")
+t("#PURPLE#%s activates and teleports away all nearby creatures!", "#PURPLE#%s 발동해, 근처의 적들을 순간이동 시켰다!", "logSeen", nil, {"를"})
+t("#PURPLE#%s activates and increases %s's resistances!", "#PURPLE#%s 발동해, %s의 저항을 증가시킨다!", "logSeen", nil, {"를"})
+t("#PURPLE#%s activates and increases %s's arcane dynamo power!", "#PURPLE#%s 발동해 %s의 비전 발전기를 강화한다!", "logSeen", nil, {"를"})
+t("#PURPLE#%s activates and resets %s's %s cooldown!", "#PURPLE#%s 발동해 %s의 %s 재사용 대기시간을 초기화한다!", "logSeen", nil, {"를"})
+t("Galen's Will", "갈렌의 의지", "entity name")
+t("aether-infused steamsaw", "에테르가 주입된 증기톱", "_t")
+t("Saws made of metal? That is no good for a discerning Technomancer so Galen made a saw out of pure arcane forces!", "금속으로 만든 톱? 그런건 안목있는 마도공학자에게는 어울리지 않습니다. 그래서 갈렌은 순수한 마법의 힘으로 톱을 만들어냈습니다!", "_t")
+t("Increases the steam your arcane dynamo generate per 10 points of mana by 2.", "비전 발전기를 강화해, 마나 10 소모 당 증기 생성을 2 증가시킵니다.", "_t")
+t("Eye of the Lost", "길 잃은 자의 눈", "entity name")
+t("pale mindstar", "창백한 마석", "_t")
+t("A strange aura surrounds this mindstar. You feel a presence, but it is obscured, as if it refuses to be found.", "기이한 기운이 이 마석을 둘러싸고 있습니다. 어떤 존재가 느껴지지만, 발견되는 것을 거부하는 듯 가려져있습니다.", "_t")
 t("reduces mental save", "정신 내성 감소", "_t")
+t("see all other beings around you for 5 turns", "주변의 모든 존재를 5 턴 동안 볼 수 있습니다", "_t")
+t("Brass Goggles", "황동 보안경", "entity name")
+t("classy goggles", "세련된 보안경", "_t")
+t("No self respecting craftsman would be caught without them!", "자신을 존중하지 않는 장인은 망치도 쥐지 못하게 될거야!", "_t")
+t("X-Ray Goggles", "X-선 보안경", "entity name")
+t("pitch black goggles", "칠흑의 보안경", "_t")
+t("How do these even work?", "아니 어떻게 이게 작동하지?", "_t")
+t("see everything. EVERYTHING. For 5 turns, anyway", "모든 걸 봅니다. '모든 것'이요. 5 턴 동안 지속됩니다", "_t")
+t("Laser Powered Giant Smasher", "레이저 작동 거인 파괴자", "entity name")
+t("radiant hammer", "광휘의 망치", "_t")
+t("The Laser Powered Giant Smasher, nicknamed the Gloryhammer. You can feel it vibrating with untold power in your hands.", "레이저 작동 거인 파괴자, 별명은 글로리해머 입니다. 손에 쥐자 진동하며, 형용할 수 없는 강력한 힘을 느낄 수 있습니다.", "_t")
+t("#PURPLE#You feel the power of the Gloryhammer course through you! It has become fully empowered!", "#PURPLE#글로리해머의 힘이 몸을 타고 흐릅니다! 완전히 강화되었습니다!", "logPlayer")
 
 
 ------------------------------------------------
@@ -1910,15 +2078,6 @@ t("Metaphasic Echoes", "위상 초월 반향", "talent name")
 t("You need an arcane dynamo to cast this spell.", "이 기술을 사용하려면 비전 발전기가 필요하다.", "logPlayer")
 t("You need to activate Metatemporal Spinner to cast this spell.", "이 기술을 사용하려면 위상 초월 회전이 활성화 되어야 한다.", "logPlayer")
 t("You can only cast this spell on the turn after Reality Breach.", "이 기술은 현실 균열을 사용하고 난 후에만 사용할 수 있다.", "logPlayer")
-t([[Using your sheer arcane power you keep breaches in spacetime open for %d turns.
-		Each turn you they are open you project an occult clone of your saw along each breach, damaging any creature caught for %d%% occult weapon damage.
-		The saw cuts both in a physical and arcane way, reducing the duration of a random beneficial effect on each target by %d each time.
-		Each target can only be affected once per turn.
-		This spell is only usable for one turn after casting Reality Breach but any Reality Breach cast during its duration is also recorded inside.]], [[순수한 비전의 힘으로 시공간 구조에 난 균열을 %d 턴 동안 유지합니다.
-		매 턴, 시전자의 톱의 비술 복제품이 매 현실 분열마다 발사되어, 균열 안의 모든 대상에게 %d%% 비술 무기 피해를 입힙니다.
-		이 비술의 톱날은 마법과 물리, 양면에서 피해를 입혀, 영향을 받은 모든 적의 무작위한 이로운 효과의 지속시간을 %d 단축합니다.
-		이 효과는 하나의 대상에, 한 턴에 오직 1 번만 영향을 줍니다.
-		이 주문은 현실 균열을 사용한 바로 다음 턴에만 사용할 수 있습니다. 위상 초월 반향의 지속 효과 중에 또 다른 현실 균열을 시전하면, 새로운 균열에도 위상 초월 반향의 효과가 적용됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -2820,7 +2979,7 @@ t("mecharachnid", "강철 거미", "_t")
 t("%s (servant of %s)", "%s (%s의 종)", "tformat")
 t("mecharachnid (servant of %s)", "강철 거미 (servant of %s)", "tformat")
 t("Your mecharachnid is not dead.", "당신의 강철 거미는 죽지 않았다.", "logPlayer")
-t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
+t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t([[You build a mighty mechanical arachnid to assist you in combat. You can equip the mecharachnid with 2 steamguns, ammunition, and armor of your choice.
 If your mecharachnid is dead, this will resurrect it with %d%% of its maximum life. Your mecharachnid is automatically rebuilt at full life when combat ends.
 Your mecharachnid has level %d Steamgun Mastery, Combat Accuracy and Armor Training. The mecharachnid uses Dexterity instead of Strength to equip armor.
@@ -3642,7 +3801,7 @@ t("shield", "보호막", "effect subtype")
 t("+Shield", "+보호막", "_t")
 t("A shield forms around #target#.", "#target2# 주위에 마력의 보호막을 형성했다.", "_t")
 t("-Shield", "-보호막", "_t")
-t("The shield around #target# crumbles.", "#target#의 보호막이 부셔졌다.", "_t")
+t("The shield around #target# crumbles.", "#target#의 보호막이 부서졌다.", "_t")
 t("Twilit Echoes", "황혼의 반향", "_t")
 t("The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "모든 빛과 어둠 피해를 느끼게됨 : 받는 빛 피해 1 당 %0.2f%% 감속됨. 최대 %d%% 감속 - %d 피해. 암흑 피해를 받을 시 %d 턴 동안 받은 피해의 %d%% 를 추가로 받음. 암흑 속성 피해를 받으면 이 효과는 갱신됨.", "tformat")
 t("dark", "어둠", "effect subtype")
@@ -3772,7 +3931,7 @@ t("The power of the Sun itself shields the target.", "태양의 힘 그 자체�
 t("A Light in the Darkness", "어둠 속의 빛", "_t")
 t("The power of the Sun imbues the target.", "태양의 힘이 대상을 강화함.", "_t")
 t("sun", "태양", "effect subtype")
-t("X-Ray Vision", "X선 시야", "_t")
+t("X-Ray Vision", "X-선 시야", "_t")
 t("Can see EVERYTHING.", "모든 것을 볼 수 있음.", "_t")
 t("Aiming!", "조준 중!", "_t")
 t("Aiming a powerful beam. MOVE OUT!", "강력한 광선을 조준 중. 움직여라!", "_t")
@@ -3851,7 +4010,7 @@ t("Strafing", "이동 사격", "_t")
 t("The target is moving while shooting, and will reload %sammo when finished strafing.", "사격하며 이동할 수 있음 / 이동 사격이 끝나면 %s 발의 탄환을 장전함.", "tformat")
 t("%s reloads.", "%s 재장전.", "logSeen")
 t("Startled", "소극적", "_t")
-t("The target is startled after being strangely missed by a shot. The next shot it takes will deal %d%% more damage.", "총알이 바로 옆을 스치자 소극적으로 전투에 나섬 : 시전자가 가하는 다음 사격이 %d%% 향상된 피해량을 냄.", "tformat")
+t("The target is startled after being strangely missed by a shot. The next shot it takes will deal %d%% more damage.", "총알이 바로 옆을 스치자 소극적으로 전투에 나섬 : 다음번 사격을 맞을 시 %d%% 증가된 피해량을 받음.", "tformat")
 t("technique", "전투 기술", "effect subtype")
 t("Iron Grip", "무쇠 손아귀", "_t")
 t("The target has been crushed, pinning it and reducing defense and armour by %d.", "피스톤에 으스러짐 : 속박 / 회피도, 방어력 -%d.", "tformat")
@@ -4075,7 +4234,7 @@ t("+Overclock", "+오버클럭", "_t")
 t("#target# looks less powerful.", "#target#의 힘이 빠저나간다.", "_t")
 t("-Overclock", "-오버클럭", "_t")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
-t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부셔졌다!", "logPlayer")
+t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부서졌다!", "logPlayer")
 t("Hypervision Goggles", "고성능 시야 보안경", "_t")
 t("Improves senses, allowing the detection of enemies in radius %d and increasing resistance penetration by %d%%.", "감각이 확장됨 : 반경 %d 칸 내의 적 감지 / 모든 저항 관통 +%d%%.", "tformat")
 t("sense", "감지", "effect subtype")
@@ -4609,6 +4768,7 @@ section "game/dlcs/tome-orcs/data/zones/lost-city/npcs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/lost-city/objects.lua"
 
+t("pale mindstar", "창백한 마석", "_t")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 
 
@@ -5074,6 +5234,8 @@ section "game/dlcs/tome-orcs/superload/mod/class/Actor.lua"
 
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
+t("time-warped paper scrap", "시간이 뒤틀린 종이 조각", "_t")
+t("It came a long way away!", "저건 저 멀리에서 왔어!", "_t")
 t("APE", "추출기", "_t")
 
 
