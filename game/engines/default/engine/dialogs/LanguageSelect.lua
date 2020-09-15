@@ -64,6 +64,10 @@ function _M:generateList()
 		-- {name = "한국어 (Korean)", locale="ko_KR", font=FontPackage:get("default", nil, "chinese")},
 	}
 
+	if config.settings.cheat then
+		list[#list+1] = {name = "TEST (TEST)", locale="test_TEST"}
+	end
+
 	self:triggerHook{"I18N:listLanguages", list=list}
 	
 	self.list = list

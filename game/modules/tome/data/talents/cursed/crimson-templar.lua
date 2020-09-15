@@ -66,6 +66,10 @@ newTalent{
 				state.no_reflect = nil
 				
 				game:delayedLogDamage(src, self, 0, ("%s(%d shared agony)#LAST#"):tformat(DamageType:get(type).text_color or "#aaaaaa#", displace), false)
+
+				local hx, hy = self:attachementSpot("back", true)
+				local ps = Particles.new("blood_trail", 1, {range=core.fov.distance(self.x, self.y, a.x, a.y), dir=math.deg(math.atan2(a.y-self.y, a.x-self.x)+math.pi/2), img="blood_trail_segment_thin", dx=hx, dy=hy, grab=false})
+				self:addParticles(ps)
 			end
 		end
 		
@@ -103,7 +107,7 @@ newTalent{
 														 DamageType.SOLAR_BLOOD, {dam=self:spellCrit(t.getStrength(self, t)), pow=self:combatSpellpower()},
 														 self:getTalentRadius(t),
 														 5, nil,
-														 MapEffect.new{zdepth=6, overlay_particle={zdepth=6, only_one=true, type="circle", args={appear=8, oversize=0, img="celestial_circle", radius=self:getTalentRadius(t)*2}}, color_br=255, color_bg=187, color_bb=187, alpha=10, effect_shader="shader_images/sunlight_effect.png"},
+														 MapEffect.new{zdepth=6, overlay_particle={zdepth=6, only_one=true, type="circle", args={appear=8, oversize=0, img="sun_sigil_dark", radius=self:getTalentRadius(t)*2}}, color_br=255, color_bg=187, color_bb=187, alpha=10, effect_shader="shader_images/sunlight_effect.png"},
 														 nil, true
 														)
 	end,
@@ -161,7 +165,7 @@ newTalent{
 									 target:setEffect(target.EFF_MARK_OF_THE_VAMPIRE, 20, {src=self, dam=dam, power=t.getBleedIncrease(self, t), apply_power=self:combatSpellpower()})
 													 end)
 		local _ _, _, _, x, y = self:canProject(tg, x, y)
-		game.level.map:particleEmitter(x, y, tg.radius, "circle", {oversize=0.7, g=90, b=100, a=100, limit_life=8, appear=8, speed=2, img="blight_circle", radius=self:getTalentRadius(t)})
+		game.level.map:particleEmitter(x, y, tg.radius, "circle", {oversize=0.7, g=90, b=100, a=100, limit_life=8, appear=8, speed=2, img="vampire_circle", radius=self:getTalentRadius(t)})
 		game:playSoundNear(self, "talents/slime")
 		return true
 	end,
@@ -236,6 +240,9 @@ newTalent{
 										 end
 										 
 										 if bleeding and target:canBe("sleep") then
+											 local hx, hy = self:attachementSpot("back", true)
+											 local ps = Particles.new("blood_trail", 1, {range=core.fov.distance(self.x, self.y, target.x, target.y), dir=math.deg(math.atan2(target.y-self.y, target.x-self.x)+math.pi/2), img="blood_trail_segment_thick", grab=true, dx=hx, dy=hy})
+											 self:addParticles(ps)
 											 target:setEffect(target.EFF_SLEEP, dur+t.getExtension(self, t), {src=self, power = math.ceil(sleepPower * sleepMultiplier * 1.5), contagious=0, waking=is_waking, insomnia=t.getInsomniaPower(self, t), no_ct_effect=true, apply_power=self:combatSpellpower()})
 										 else
 											 game.logSeen(self, "%s resists the sleep!", target.name:capitalize())

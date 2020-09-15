@@ -5564,6 +5564,10 @@ newEffect{
 		eff.counter = 0
 		local damtype = DamageType.BLACK_HOLE_GRAVITY
 		eff.onhit = self:addTemporaryValue("melee_project", {[damtype] = eff.gravity})
+		if core.shader.active() then
+			self:effectParticles(eff, {type="shader_shield", args={toback=true,  size_factor=1, img="devourer_shield"}, shader={type="rotatingshield", noup=2.0, cylinderRotationSpeed=1.7, appearTime=0.2}})
+			self:effectParticles(eff, {type="shader_shield", args={toback=false, size_factor=1, img="devourer_shield"}, shader={type="rotatingshield", noup=1.0, cylinderRotationSpeed=1.7, appearTime=0.2}})
+		end
 	end,
 	deactivate = function(self, eff)
 		self:removeTemporaryValue("melee_project", eff.onhit)

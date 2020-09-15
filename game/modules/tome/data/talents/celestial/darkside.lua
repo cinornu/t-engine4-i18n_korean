@@ -104,7 +104,7 @@ newTalent{
 		if not x or not y then return nil end
 		local _ _, x, y = self:canProject(tg, x, y)
 		
-		game.level.map:particleEmitter(self.x, self.y, 1, "temporal_teleport")
+		game.level.map:particleEmitter(self.x, self.y, 1, "circle", {oversize=0.7, a=187, limit_life=8, appear=8, speed=4, img="spiral_dark", radius=1})
 		
 		if not self:teleportRandom(x, y, 0) then
 			game.logSeen(self, "%s's teleportation fizzles!", self.name:capitalize())
@@ -114,7 +114,7 @@ newTalent{
 			local btg = t.getBlastTarget(self, t)
 			local dam = self:spellCrit(t.getDamage(self, t))
 			self:project(btg, self.x, self.y, DamageType.LIGHT, dam)
-			game.level.map:particleEmitter(self.x, self.y, 1, "temporal_teleport")
+			game.level.map:particleEmitter(self.x, self.y, 1, "circle", {oversize=0.7, a=187, limit_life=8, appear=8, speed=4, img="spiral_light", radius=1})
 		end
 		
 		game:playSoundNear(self, "talents/fallen_stardust")

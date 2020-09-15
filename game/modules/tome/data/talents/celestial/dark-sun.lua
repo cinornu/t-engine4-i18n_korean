@@ -20,7 +20,7 @@
 local Object = require "mod.class.Object"
 
 newTalent{
-	name = "Collapse", short_name = "FALLEN_BREACH",
+	name = "Collapse",
 	type = {"celestial/dark-sun", 1},
 	require = divi_str_req_high1,
 	points = 5,

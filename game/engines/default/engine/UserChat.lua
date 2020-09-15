@@ -239,7 +239,7 @@ function _M:event(e)
 				if data.donated <= 5 then world:gainAchievement({id="BRONZE_DONATOR", no_difficulties=true}, game:getPlayer(true))
 				elseif data.donated <= 15 then world:gainAchievement({id="SILVER_DONATOR", no_difficulties=true}, game:getPlayer(true))
 				elseif data.donated <= 30 then world:gainAchievement({id="GOLD_DONATOR", no_difficulties=true}, game:getPlayer(true))
-				elseif data.donated <= 60 then world:gainAchievement({id="STRALITE_DONATOR", no_difficulties=true}, game:getPlayer(true))
+				elseif data.donated <= 59 then world:gainAchievement({id="STRALITE_DONATOR", no_difficulties=true}, game:getPlayer(true))
 				else world:gainAchievement({id="VORATUN_DONATOR", no_difficulties=true}, game:getPlayer(true))
 				end
 			end) end

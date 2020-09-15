@@ -3082,5 +3082,9 @@ newEffect{
 	
 	on_gain = function(self, err) return _t"#Target# is doomed!", _t"+Vampire Mark" end,
 	on_lose = function(self, err) return _t"#Target# is free from their doom.", _t"-Vampire Mark" end,
+	activate = function(self, eff)
+		self:effectParticles(eff, {type="circle", args={shader=true, oversize=1, a=225, appear=8, speed=0, img="mark_vampire", base_rot=0, radius=0}})
+	end,
+	deactivate = function(self, eff)
+	end,
 }
-

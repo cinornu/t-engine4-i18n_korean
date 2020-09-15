@@ -4124,8 +4124,12 @@ newEffect{
 	subtype = { status=true, },
 	status = "detrimental",
 	parameters = { },
-	activate = function(self, eff) end,
-	deactivate = function(self, eff) end,
+	activate = function(self, eff) 
+		eff.particle = self:addParticles(Particles.new("circle", 1, {base_rot=1, oversize=1.0, a=200, appear=8, speed=0, img="blood_rush_mark", radius=0}))
+	end,
+	deactivate = function(self, eff)
+		self:removeParticles(eff.particle)
+	end,
 	callbackOnDeath = function(self, eff, src, note)
 		marker = eff.src
 		reduc = eff.dur * 2
