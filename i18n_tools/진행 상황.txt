@@ -250,7 +250,23 @@
 "game/modules/tome/data/chats/sorcerer-fight.lua"
 "game/modules/tome/data/chats/tannen.lua"
 "game/modules/tome/data/chats/tarelion-start-archmage.lua"
-"game/modules/tome/data/chats/tarelion.lua" Khelerd 완
+"game/modules/tome/data/chats/tarelion.lua"
+"game/modules/tome/data/chats/temporal-rift-end.lua"
+"game/modules/tome/data/chats/temporal-rift-start.lua"
+"game/modules/tome/data/chats/the-master-resurrect.lua"
+"game/modules/tome/data/chats/trap-priming.lua"
+"game/modules/tome/data/chats/ukllmswwik.lua"
+"game/modules/tome/data/chats/undead-start-game.lua"
+"game/modules/tome/data/chats/undead-start-kill.lua"
+"game/modules/tome/data/chats/unremarkable-cave-bosses.lua"
+"game/modules/tome/data/chats/unremarkable-cave-fillarel.lua"
+"game/modules/tome/data/chats/unremarkable-cave-krogar.lua" * 더미 데이터
+"game/modules/tome/data/chats/ward.lua"
+"game/modules/tome/data/chats/worldly-knowledge.lua"
+"game/modules/tome/data/chats/yeek-wayist.lua"
+"game/modules/tome/data/chats/zemekkys-done.lua"
+"game/modules/tome/data/chats/zemekkys-start-chronomancers.lua"
+"game/modules/tome/data/chats/zemekkys.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
