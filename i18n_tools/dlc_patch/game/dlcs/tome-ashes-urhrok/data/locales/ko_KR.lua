@@ -165,7 +165,7 @@ t("#RED#The ring refuses to be removed!", "#RED#반지는 손가락에서 빼내
 t("Cannot be unequipped or rerolled until level %d.", "레벨 %d 까지 재부여되거나 해제할 수 없습니다.", "tformat")
 t("Can be unequipped, can't be rerolled.", "해제는 가능하나, 재부여할 수 없습니다.", "_t")
 t("Can be unequipped or rerolled.", "해제도, 재부여도 가능합니다.", "_t")
-t("re-generate the item with random stats. Can only be done three levels after the last reroll. Cannot be unequipped unless a reroll is available, or you are level 50", "무작위한 능력치로 반지를 재부여합니다. 착용자가 재부여를 한 후, 3 레벨이 증가해야 다시 시도할 수 있습니다. 해당 레벨, 또는 50 레벨에 도달하지 않으면, 재부여와 장착 해제가 불가능합니다.", "_t")
+t("re-generate the item with random stats. Can only be done three levels after the last reroll. Cannot be unequipped unless a reroll is available, or you are level 50", "반지에 무작위한 능력치를 재부여합니다. 3 레벨마다 재부여 횟수가 늘어납니다. 다음 재부여 레벨 또는 50 레벨에 도달하지 않으면, 재부여와 장착 해제가 불가능합니다.", "_t")
 t("#RED#The ring does not react.", "#RED#반지는 반응하지 않는다.", "logPlayer")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Wheel of Fate", "운명의 수레바퀴", "_t")

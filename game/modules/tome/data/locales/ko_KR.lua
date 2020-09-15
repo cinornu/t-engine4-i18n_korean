@@ -427,7 +427,7 @@ t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damag
 t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입혔다.", "logMessage")
 t("#Source# receives %s.", "#Source2# %s 피해를 받았다.", "logMessage")
 t("#Target# receives %s from #Source#.", "#Target2# %s #Source4#부터 받았다.", "logMessage", nil, {"을"})
-t("Kill (%d)!", "사망! (%d)!", "tformat")
+t("Kill (%d)!", "사망! (%d)", "tformat")
 t("#{bold}##Source# killed #Target#!#{normal}#", "#{bold}##Source1# #Target3# 죽였다!#{normal}#", "_t")
 t("Showing big healthbars and tactical borders.", "생명력과 경계를 크게 표시합니다.", "log")
 t("Showing healthbars only.", "생명력만 표시합니다.", "log")
@@ -4046,7 +4046,7 @@ t("What kind of anomaly do you prefer?", "어떤 이상현상을 원하십니까
 t("Physical", "물리", "_t")
 t("Warp", "왜곡", "_t")
 t("Temporal", "시간", "_t")
-t("Never mind", "바꾸지 않는다", "_t")
+t("Never mind", "취소", "_t")
 
 
 ------------------------------------------------
@@ -5531,42 +5531,142 @@ t("I am glad to have you at my side, my Lady. Let's hunt some wizards!", "그대
 ------------------------------------------------
 section "game/modules/tome/data/chats/tannen.lua"
 
+t("#LIGHT_GREEN#*Nobody answers.*#WHITE#", "#LIGHT_GREEN#*반응이 없습니다.*#WHITE#", "_t")
+t("#LIGHT_GREEN#*Nobody answers. Tannen is probably still busy studying the orb.*#WHITE#", "#LIGHT_GREEN#*반응이 없습니다. 탄넨은 오브 연구로 바쁜 모양입니다.*#WHITE#", "_t")
 t("[leave]", "[떠난다]", "_t")
+t("How may I be of service, good @playerdescriptor.race@?", "내가 어떻게 도와드릴까, 훌륭한 @playerdescriptor.race@?", "_t")
+t("[Relate to him the story of the staff and the Orb of Many Ways and the portals.]", "[그에게 흡수의 지팡이와 여러 장소로의 오브, 그리고 차원문에 대한 이야기를 한다.]", "_t")
+t("I have the diamond and the athame. [Hand over the Athame and Diamond]", "다이아몬드와 제례단검을 갖고 있어. [제례단검과 다이아몬드를 넘긴다]", "_t")
+t("Thieving, murderous wretch. Prepare to die!", "도둑질이나 하는 살인마 자식. 지옥으로 보내 주마!", "_t")
+t("How fares your research? Are we ready to create the portal?", "연구는 어디까지 됐어? 차원문 준비는 다 된 거야?", "_t")
 t("Nothing, excuse me. Bye!", "아무것도요. 실례했습니다, 안녕히!", "_t")
-t("Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields,\" return with it and your odds of surviving our portal attempt will go up drastically.", "Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"반전되고 역행된 확률론적 역장\" return with it and your odds of surviving our portal attempt will go up drastically.", "_t")
+t("Astonishing! I have heard tell of this Orb in ancient texts and legends. Might I see it?", "정말 놀랍군! 그 오브는 여러 전설들과 고서들에서도 등장했었지! 좀 살펴 봐도 될까?", "_t")
+t("[Show him the Orb of Many Ways]", "[여러 장소로의 오브를 보여준다]", "_t")
+t("Truly, it is the work of a great master. Perhaps Linaniil herself had a hand in its making. And you say you come bearing instructions in its usage?", "실로 완벽한 작품이군. 아마 리나니일께서 손수 이것에 관여하셨을 거야. 그리고 이걸 쓰는 방법에 대해 대충 알고 있다 했었지?", "_t")
+t("I do. [Show him Zemekkys's scribbled notes]", "그래. [제메키스가 휘갈겨 쓴 쪽지를 보여준다]", "_t")
+t("#LIGHT_GREEN#*He spends a few minutes reading*#WHITE# Ah! I see. I did not at first grasp this Zemekkys's methods, but I see now that they are sound, and it is simply his penmanship that needs improvement. We can manage to reproduce his work here, but, as he says, we will need the Blood-Runed Athame and a Resonating Diamond.", "#LIGHT_GREEN#*그는 몇 분 정도 쪽지를 읽었습니다*#WHITE# 아! 이제 알았어. 제메키스의 방식에 대해 감이 잘 안 잡혔었지만, 꽤나 그럴듯한 것이었군. 그가 글씨 쓰는 연습 좀 더 했으면 좋겠지만. 아무튼 그의 연구를 여기서 재현할 수 있겠지만, 여기 적힌 대로, 피의 룬 제례단검과 공명하는 다이아몬드가 필요해.", "_t")
+t("Have you any idea where they might be found?", "그것들을 어디서 찾을 수 있을까?", "_t")
+t("If the orcs created a portal in the depths of Reknor, they must have had access to such items. And if these items cannot pass through the portal they created, then it stands to reason that they must still be in Maj'Eyal. I would search Reknor, starting near the portal itself. Perhaps they did not move the Athame and Diamond far after its creation.", "오크들이 레크놀 깊은 곳에 차원문을 만들었다면, 놈들은 그런 물건들을 얻을 방법이 있었을 거야. 또, 그 물건들이 그것들로 만든 차원문을 통과할 수 없다면, 마즈'에이알 어딘가에 분명히 남아 있다는 얘기가 되겠지. 레크놀의 차원문 근처에서부터 찾아 보는 걸 추천하겠어. 재료들이 그 차원문이 만들어지고 나서 그렇게 멀리 가진 않았을 것 같으니.", "_t")
+t("I'll get searching. Thank you.", "한 번 찾아볼게, 고마워.", "_t")
+t("One last thing. I will need to hold onto the Orb of Many Ways while you search. I lack the expertise this Chronomancer Zemekkys possesses, and have much learning on the subject to do if I am to follow in his footsteps.", "하나만 더. 네가 찾으러 간 동안 여러 장소로의 오브를 내가 갖고 있어야 되겠는데. 난 이 시공술사 제메키스에 비하면 관련 기술이 부족하고, 그의 연구 발자취를 따라가다 보면 이 주제에 대해 훨씬 더 많은 걸 알 수 있을 거야.", "_t")
+t("[Hand him the Orb] ", "[그에게 오브를 넘긴다] ", "_t")
+t("I still require the Orb for now.", "지금은 나도 오브가 필요해.", "_t")
+t("Thank you. I will treat it with the utmost care.", "고마워. 최대한 소중하게 다룰게.", "_t")
+t("Farewell. I'll return with the Athame and Diamond.", "잘 있어. 단검이랑 다이아몬드를 찾아서 올게.", "_t")
+t("Very well. There is no hurry. But I will need to spend a number of days studying it before we can create your portal.", "그럼 어쩔 수 없지. 급한 일은 아니니까. 하지만 네 차원문을 만들어 주려면, 며칠간은 연구를 해야 될 거야.", "_t")
+t("I understand. I'll return with the Athame and Diamond.", "알겠어. 단검이랑 다이아몬드를 찾아 오지.", "_t")
+t("Excellent. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields,\" return with it and your odds of surviving our portal attempt will go up drastically.", "훌륭해. 며칠 뒤에 다시 와, 그때쯤이면 준비가 다 되어있을 테니. 오, 이것도 가져가. #LIGHT_GREEN#*그가 열쇠를 하나 주었습니다*#WHITE# 숄타르 사람들이 옛날에 봉인했던 텔무르의 폐허를 여는 데 쓰이는 거야. 혹시 그 폐허에서 \"반전되고 역행된 확률론적 역장\" 라는 제목의 문서를 찾게 되면, 나한테 가져다 줘. 그게 있으면 네가 차원문을 무사히 통과하게 될 확률이 눈에 띄게 커질 테니까.", "_t")
+t("Excellent. Are you yet willing to leave the Orb in my care for a time?", "훌륭하군. 혹시 아직도 그 오브가 필요해? 내가 잠시 갖고 있으면 좋을 텐데.", "_t")
+t("I dare not let it out of my sight. I'm sorry.", "나한테 없으면 안심이 안 되서 말이야. 미안해.", "_t")
+t("Here it is. Guard it carefully. I must return to the Far East soon.", "자, 오브. 조심해, 조만간 동쪽의 대륙으로 돌아가야 하니까.", "_t")
+t("#LIGHT_GREEN#*The old man sighs*#WHITE# Very well. I suppose I must make do with a cursory examination under your supervision.", "#LIGHT_GREEN#*노인이 한숨을 쉽니다*#WHITE# 어쩔 수 없지. 네가 지켜보고 있는 동안에 대충 검증하는 정도로 끝내야 될 것 같군.", "_t")
+t("[Hand him the orb]", "[그에게 오브를 넘긴다]", "_t")
+t("Thank you. Give me a few minutes. #LIGHT_GREEN#*He begins to pace back and forth absently, staring at the Orb.*#WHITE#", "고마워. 잠시만 기다려 봐. #LIGHT_GREEN#*그는 오브를 응시한 채로 앞뒤로 서성이기 시작했습니다.*#WHITE#", "_t")
 t("[Wait]", "[기다린다]", "_t")
-t("Fear not. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields\", return with it and your odds of surviving our portal attempt will go up drastically.", "Fear not. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"반전되고 역행된 확률론적 역장\", return with it and your odds of surviving our portal attempt will go up drastically.", "_t")
+t("#LIGHT_GREEN#*He stops pacing and returns the Orb to you.*#WHITE# I believe I know most of what I need to. But I need a few details cleared up. You'll have to return to this Elven Chronomancer and ask him whether he meant an inverted probabilistic field or a reverted probabilistic field. I dare not guess, as the result could be quite unpleasant for you.", "#LIGHT_GREEN#*탄넨은 일을 끝내고 오브를 돌려 주었습니다.*#WHITE# 내가 대부분의 관련 사항을 파악하고 있다고 생각해. 하지만 확실하게 하려면 몇 가지 세세한 부분도 알아야겠어. 그 엘프 시공술사에게 돌아가서 그가 말했던 게 '반전된 확률론적 역장' 인지, 아니면 '역행된 확률론적 역장' 인지 물어보고 와. 이대로 가면 네게 꽤나 안 좋은 결과로 돌아올 수도 있으니.", "_t")
+t("I'll return with the answer.", "물어보고 올게.", "_t")
+t("Fear not. Return in a few days, and I'll have everything prepared. Oh, take this. #LIGHT_GREEN#*He hands you a key*#WHITE# It opens the ruins of Telmur, which the men of Sholtar sealed many years ago. If you happen to find a text in the ruins entitled \"Inverted and Reverted Probabilistic Fields\", return with it and your odds of surviving our portal attempt will go up drastically.", "걱정하지 마. 며칠 뒤에 다시 와, 그때쯤이면 준비가 다 되어있을 테니. 오, 이것도 가져가. #LIGHT_GREEN#*그가 열쇠를 하나 주었습니다*#WHITE# 숄타르 사람들이 옛날에 봉인했던 텔무르의 폐허를 여는 데 쓰이는 거야. 혹시 그 폐허에서 \"반전되고 역행된 확률론적 역장\" 라는 제목의 문서를 찾게 되면, 나한테 가져다 줘. 그게 있으면 네가 차원문을 무사히 통과하게 될 확률이 눈에 띄게 커질 테니까.", "_t")
+t("Thank you, and farewell.", "고마워, 안녕히.", "_t")
+t([[I think not, fool. Look down.
+#LIGHT_GREEN#*You notice you're standing on an etched portal.*#WHITE#]], [[지옥이라고? 멍청하긴. 아래 봐.
+#LIGHT_GREEN#*바닥에 새겨진 차원문 위에 서 있었다는 걸 깨달았습니다.*#WHITE#]], "_t")
+t([[I am ready. You are not. Look down.
+#LIGHT_GREEN#*You notice you're standing on an etched portal.*#WHITE#]], [[난 준비됐지. 넌 아니지만. 아래 봐.
+#LIGHT_GREEN#*바닥에 새겨진 차원문 위에 서 있었다는 걸 깨달았습니다.*#WHITE#]], "_t")
+t("What in the...", "이게 무슨...", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/tarelion-start-archmage.lua"
 
+t("Wait a minute!", "잠시만 기다리게!", "_t")
+t("Archmage Tarelion?", "타레리온 님?", "_t")
+t([[Yes @playername@, I have heard you plan on going into the wild world, looking for some adventures of your own.
+This is good, more of us should get out of here once in a while and actually help people out there.
+Say, maybe you might want to get an adventure and help Angolwen?]], [[그래, @playername@, 자네가 모험을 하기 위해 바깥 세상으로 나가려 한다는 이야기를 들었네.
+좋은 일이지, 자네 뿐만 아니라 다른 이들도 잠시 바깥으로 나가, 그곳의 사람들을 확실하게 도와야 할 텐데 말이야.
+그런 의미에서 묻겠네, 앙골웬을 도울 수 있는 모험은 어떤가?]], "_t")
+t("Perhaps, what do you need?", "나쁘지 않을 것 같은데요, 뭘 하면 됩니까?", "_t")
+t([[During the Spellblaze the world was torn apart - literally. A part of it, that we now call the Abashed Expanse, was ripped from the world and thrown into the void between the stars.
+We managed to stabilize it and it is now orbiting Eyal. Recently we have noticed a disturbance there; if we do nothing it will crash onto Eyal, bringing much destruction in its wake.
+Because it was once part of a land we know well we can teleport you there. You will need to stabilize three wormholes by firing any attack spells at them.
+The instability is also to your advantage there, your simple phase door spell will be fully controllable.
+
+So, you think you can help us ?]], [[마법폭발이 일어나면서 이 세계는 산산조각으로 찢겨나갔네. 문자 그대로의 의미일세. 우리가 '너무나 광활한 공간' 이라고 부르는 이 세계의 조각 중 하나는 별들 사이의 공허로 날아가 버렸네.
+우린 간신히 그걸 안정시켰고, 지금 에이알의 궤도 상에서 떠다니고 있다네. 하지만 최근에 우린 그곳이 불안정해지고 있다는 걸 확인했네. 우리가 그걸 구경만 하고 있으면 그곳은 에이알로 추락해, 그 일대가 완전히 초토화 될 것이야.
+그곳은 이 땅의 일부였었기 때문에, 우린 자넬 그곳으로 순간이동시킬 수 있네. 자네가 도착하면, 세 개의 불안정한 웜홀에 주문을 쏘아 안정화시켜야 해.
+그 땅의 불안정함은 이득이 되기도 한다네. 자네의 위상 관문 주문의 수준이 낮더라도, 그곳에선 완전히 제어할 수 있을 걸세.
+
+그래서, 우릴 도울 수 있겠나?]], "_t")
+t("Yes Archmage, send me there!", "예, 마도사님. 절 그곳으로 보내 주십시오!", "_t")
+t("No sorry, I need to go.", "아뇨, 죄송합니다. 전 가봐야 해서요.", "_t")
+t("Good luck!", "행운을 빌겠네!", "_t")
+t("[teleport]", "[순간이동한다]", "_t")
+t("Oh well, farewell on your trips. Now I need to find somebody else to go up there.", "오, 어쩔 수 없지. 조심해서 떠나게. 난 그쪽으로 가 볼 다른 사람을 찾아봐야겠어.", "_t")
+t("Bye.", "안녕히.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/tarelion.lua"
 
+t([[I say, you there. Yes, you, young one!
+You seem like the adventuring fare, up to all sorts of doo-daddle in the outside world, I imagine. Well, don't forget to pay patronage to our good library here in the city. The riches of the world are all well and good, but where would we be without the gift of knowledge? And all proceeds go towards the funding of further research. No greater cause, yes?]], [[오, 안녕하신가. 그래, 그대 말이야, 젊은이!
+그대는 꼭 바깥 세상의 온갖 잡다한 일에 휘말려 있는 모험가 같구만. 음, 이 마을의 훌륭한 도서관에 기부라도 하지 않겠나? 이 세상의 부라는 것은 확실히 좋은 것이지. 하지만 지식이 가져다 주는 선물이 없다면 우린 어떻게 되겠나? 그리고 저 도서관의 기금은 모두 연구비로 쓰인다네. 참으로 좋은 일이 아닌가, 응?]], "_t")
+t("Hold on! You... You're that apprentice mage I met in the wilds!", "잠시만! 당신... 두메산골에서 봤던 그 수습생이잖아!", "_t")
+t("Why, well-spotted, whippersnapper! Indeed, when the mood takes me I sometimes travel under the guise of an apprentice. It permits me to traverse the land unnoticed in my research, and if I meet any I deem worthy and sympathetic to Angolwen's cause, then so much the better. And it does provide the odd chortle, I tell you!", "아하, 눈치가 빠르구만, 애송이! 가끔씩 수습생 분장을 하고 밖으로 나가보고 싶어지곤 하거든. 연구를 위해 조사를 다녀도 별로 눈에 안 띄고, 무엇보다 앙골웬과 뜻을 같이할 수 있을 만큼 가치있고 다정한 자를 만날 수도 있으니까 말이야. 그리고 이렇게 놀려먹을 수도 있으니 일석삼조 아닌가!", "_t")
+t("Uh, yes, of course... I'll be moving on now.", "어, 예, 당연하지요... 이만 가봐야겠습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/temporal-rift-end.lua"
 
+t([[#LIGHT_GREEN#*A tall man, glowing like a star, appears out of nowhere.*#WHITE#
+You destroyed *it* both? I am sorry for my harsh tone when we first met, but repairing time threads is stressful.
+I cannot stay. I still have much to do. But take this-- it should help you.
+#LIGHT_GREEN#*He disappears again before you can even reply. A rift opens, to Maj'Eyal... you hope.*#WHITE#]], [[#LIGHT_GREEN#*별처럼 빛이 나는 장신의 남자가 허공에서 튀어나왔습니다.*#WHITE#
+그걸 *둘 다* 처치했다고? 우리가 처음 만났을 때 짜증을 내서 미안하군. 시간의 가닥을 고치는 건 꽤나 진저리나는 일이라서 말이야.
+난 여기 오래 있지 못해. 해야 될 일이 아직도 산더미거든. 하지만 이걸 받아-- 도움이 될 거야.
+#LIGHT_GREEN#*뭔가 말하기도 전에, 그는 사라졌습니다. 균열이 열렸습니다. 마즈'에이알로 통하는 것... 이었으면 좋겠네요.*#WHITE#]], "_t")
+t("Ok...", "좋아...", "_t")
+t("The temporal warden gives you: %s.", "시간 감시자가 %s 주었다.", "log", nil, {"를"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/temporal-rift-start.lua"
 
+t([[#LIGHT_GREEN#*A tall man, glowing like a star, appears out of nowhere.*#WHITE#
+Oh no, another *adventurer*! You should not mess with things beyond your comprehension!
+Do not meddle in the affairs of Time, for it passes swiftly and is easily disrupted!
+#LIGHT_GREEN#*He looks at you more closely.*#WHITE#
+You seem capable. Help me, fight the abominations while I repair the timeline. It is your only way out!]], [[#LIGHT_GREEN#*별처럼 빛이 나는 장신의 남자가 허공에서 튀어나왔습니다.*#WHITE#
+오 이런, 또 모험가야?! 네 이해 너머에 있는 것들을 망쳐선 안 돼!
+시간과 관련된 것들에 함부로 손대지 마. 빠르게 흘러가고, 쉽게 망가진다고!
+#LIGHT_GREEN#*그가 당신을 조금 더 자세히 살펴봅니다.*#WHITE#
+넌 충분히 할 수 있을 것 같네. 날 도와줘, 내가 시간선을 고치는 동안 저 혐오체들과 싸워. 이게 네가 여기서 빠져나갈 수 있는 유일한 방법이야!]], "_t")
+t("But what is all th...", "하지만 난 이게 다 뭔지도 모르...", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/the-master-resurrect.lua"
 
+t([[#LIGHT_GREEN#*The Master crumbles before you, vanquished. Yet in the blink of an eye you see his form recreating from dust; unharmed and ready to fight again!*#WHITE#
+Ahah you fool! See how even death has no meaning for me; for I am the Master and you are my toy, now and forever.]], [[#LIGHT_GREEN#*탑의 주인은 눈앞에서 허물어지며, 패배했습니다. 하지만 그는 눈 깜박할 새에 먼지에서부터 형체를 다시 갖췄습니다. 완전히 멀쩡해 보이고, 다시 싸우려고 합니다!*#WHITE#
+아하, 어리석은 녀석! 내게 죽음이란 게 얼마나 의미가 없는지 깨달았나? 지금 이 순간부터 넌 내 장난감이고, 내가 네 주인이다. 영원히 말이야.]], "_t")
+t("Never! Die!", "헛소리! 죽어라!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/trap-priming.lua"
 
 t("[Cancel]", "[취소]", "_t")
+t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#이 함정은 준비할 수 없다: %s.", "logPlayer")
+t("Not Prepared", "준비되지 않음", "_t")
+t("Primed Trigger", "특수 뇌관", "_t")
+t("Not Usable", "사용 불가", "_t")
+t("Normal Trigger", "일반 뇌관", "_t")
+t([[Choose a trap to prepare with a primed (instant) trigger or to dismantle.
+#YELLOW#Newly prepared traps are placed on cooldown.#LAST#]], [[특수한 (즉발식) 뇌관으로 준비할 함정을 선택하십시오. 선택 해제 시 그 뇌관을 해체합니다.
+#YELLOW#새로 준비한 함정들은 재사용 대기시간이 필요합니다.#LAST#]], "_t")
 
 
 ------------------------------------------------
@@ -5579,66 +5679,270 @@ t("Thank you.", "감사합니다.", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/ukllmswwik.lua"
 
+t([[#LIGHT_GREEN#*@npcname@'s deep voice booms through the caverns.*#WHITE#
+This is my domain, and I do not take kindly to intruders. What is your purpose here?]], [[#LIGHT_GREEN#*@npcname@의 깊은 목소리가 동굴 안에 울려퍼집니다.*#WHITE#
+이곳은 내 영역이고, 난 침입자들에게 관대하지 않다. 무엇을 하러 왔는가?]], "_t")
+t("I am here to kill you and take your treasures! Die, damned fish!", "널 죽이고 네 보물을 가져가러 왔다! 죽어라, 망할 물고기야!", "_t")
+t("I did not mean to intrude. I shall leave now.", "침입하려던 건 아니었어. 지금 떠날게.", "_t")
+t([[Wait! You seem to be worthy, so let me tell you a story.
+During the Age of Pyre the world was sundered by the last effects of the Spellblaze. A part of the continental shelf of Maj'Eyal was torn apart and thrown into the sea.
+The Naloren Elves perished... or so the world thinks. Some of them survived; using ancient Sher'Tul magic they had kept for themselves, they transformed to live underwater.
+They are now called the nagas. They live deep in the ocean between Maj'Eyal and the Far East.
+One of them, Slasul, rebelled against his order and decided he wanted the world for himself, both underwater and above. He found an ancient temple, probably a Sher'Tul remain, called the Temple of Creation.
+He believes he can use it to #{italic}#improve#{normal}# nagas.
+But he has become mad and now looks upon all other intelligent water life as a threat, and that includes myself.
+I cannot leave this sanctuary, but perhaps you could help me?
+After all, it would be an act of mercy to end his madness.]], [[잠깐! 넌 충분히 강해 보이니, 이 이야기를 들어 보아라.
+장작더미의 시대에 마법폭발로 인해 세계가 찢어져 버렸지. 마즈'에이알의 대륙붕 일부가 찢겨져, 바다 속으로 내던져졌다.
+그 때문에 날로레 엘프족이 사라져 버렸다... 고 세상은 생각한다만. 그들 중 일부는 살아남았다. 스스로를 지키기 위해 고대 쉐르'툴의 마법을 사용하여, 물밑에서도 살 수 있도록 몸을 변형시켰지.
+그게 바로 지금 나가라 불리는 종족이다. 그들은 마즈'에이알과 동쪽 먼 곳의 대륙 사이에 위치한 바다, 그 깊은 곳에 살고 있다.
+그 중의 한 명인 슬라술이라는 자가 반역을 일으켜, 이 세계를 손에 넣으려 한다. 물밖과 물밑 모두. 놈은 창조의 사원이라 불리는 고대의 사원을 찾아 냈다. 아마 쉐르'툴이 남긴 것이겠지.
+놈은 그 사원을 이용하면 나가들을 #{italic}#강화#{normal}# 할 수 있다고 믿고 있다.
+하지만 놈은 미쳐 버렸고, 이제 나가를 뺀 지각이 있는 모든 수중 생물들을 위협으로 보고 있다. 나 또한 예외가 아니지.
+난 이 성소를 떠날 수 없다. 혹시 날 도와줄 수 있겠는가?
+어찌됐든, 그놈의 광기를 멈춰 주는 것이 그에게는 자비일 것이다.]], "_t")
+t("DIE!", "죽어라!!", "_t")
+t("I would still rather kill you and take your treasure!", "역시 널 죽이고 네 보물을 가져가는 편이 낫겠다!", "_t")
+t("I shall do as you say, but how do I find him?", "네 말대로 해 볼게, 근데 그를 어디서 찾지?", "_t")
+t("That seems... unwise. My apologies, but I must refuse.", "그건 참... 멍청한 짓인 것 같은데. 정말 미안하지만, 거절하겠어.", "_t")
+t("I can open a portal to his lair, far away in the western sea, but be warned: this is one-way only. I cannot bring you back. You will have to find your own way.", "서쪽 바다 멀리 그의 소굴로 통하는 차원문을 열어줄 수 있다. 하지만 주의하라, 이 차원문으로 다시 돌아올 순 없다. 돌아오는 길은 스스로 찾아야 할 것이야.", "_t")
+t("I will.", "그럴게.", "_t")
+t("This is a death trap! Goodbye.", "나보고 그냥 죽으라는 거잖아! 잘 있어.", "_t")
+t("Yes?", "응?", "_t")
+t("TREACHERY!", "배신자!!", "_t")
+t("I want your treasures, water beast!", "네 보물이 필요해, 물짐승 놈아!", "_t")
+t("Oh, is that so? Well, COME GET THEM!", "오, 그래? 그럼, 어서 와라!!", "_t")
+t("I spoke with Slasul, and he did not seem hostile, or mad.", "슬라술과 이야기를 해 봤어. 그는 적대적인 것도, 미친 것도 아니었다고.", "_t")
+t("Farewell, dragon.", "안녕히, 용이여.", "_t")
+t([[#LIGHT_GREEN#*@npcname@ roars!*#WHITE# You listen to the lies of this mad naga!
+You are corrupted! TAINTED!]], [[#LIGHT_GREEN#*@npcname1@ 소리칩니다!*#WHITE# 넌 그 미친 나가 놈의 거짓말에 속은 거다!
+넌 타락했어, 오염됐다고!!]], "_t")
+t("DO NOT MEDDLE IN THE AFFAIRS OF DRAGONS!", "용의 물건에 손 대지 마라!!", "_t")
 t("[attack]", "[공격]", "_t")
+t("#LIGHT_GREEN#*Shake your head.*#LAST#He swayed my mind! Please, I am not your enemy.", "#LIGHT_GREEN#*머리를 흔들었습니다.*#LAST#그가 내 마음을 흔든 거야! 제발, 난 네 적이 아니라고.", "_t")
+t("#LIGHT_GREEN#*@npcname@ calms down!*#WHITE# Very well; he is indeed a trickster.  Now go finish your task, or do not come back!", "#LIGHT_GREEN#*@npcname1@ 진정했습니다!*#WHITE# 좋아, 그놈은 확실히 재간있는 놈이군. 가서 할 일을 끝내라, 그 전까진 돌아오지 마라!", "_t")
+t("Thank you, mighty one.", "고맙구나, 강한 자여.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/undead-start-game.lua"
 
+t([[#LIGHT_GREEN#*Before you stands a Human clothed in black robes. He seems to be ignoring you.*#WHITE#
+#LIGHT_GREEN#*You stand inside some kind of summoning circle, which prevents you from moving.*#WHITE#
+Oh yes! YES, one more for my collection. My collection, yes. A powerful one indeed!]], [[#LIGHT_GREEN#*검은 로브를 입은 인간이 서 있습니다. 당신을 무시하고 있는 것 같습니다.*#WHITE#
+#LIGHT_GREEN#*당신은 움직일 수 없는 채로, 무슨 소환진 같은 것 안쪽에 서 있습니다.*#WHITE#
+오, 그래! 그래! 내 수집품이 또 하나 늘었군. 내 수집품, 그래. 확실히 강한 놈으로!]], "_t")
+t("[listen]", "[듣는다]", "_t")
+t([[A powerful tool against my enemies. Yes, yes. They all hate me, but I will show them my power!
+I will show them! SHOW THEM!]], [[적들에게 맞설 강력한 도구다. 그래, 그래. 놈들은 모두 날 증오하지, 하지만 놈들에게 내 힘을 보여주겠노라!
+보여 주겠다! 보여 주겠다고!!]], "_t")
+t("I am not a tool! RELEASE ME!", "난 도구가 아니야! 날 풀어줘!!", "_t")
+t([[You cannot talk. You cannot talk! You are a slave, a tool!
+You are mine! Be quiet!
+#LIGHT_GREEN#*As his mind drifts off you notice part of the summoning circle is fading. You can probably escape!*#WHITE#
+]], [[넌 말을 할 수가 없어. 할 수가 없다고! 넌 노예고, 도구일 뿐이다!
+넌 내 것이야! 입을 다물어라!
+#LIGHT_GREEN#*그의 집중력이 약해지자, 소환진의 일부가 사라지고 있다는 걸 눈치챘습니다. 이제 탈출할 수 있습니다!*#WHITE#
+]], "_t")
 t("[attack]", "[공격]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/undead-start-kill.lua"
 
+t([[#LIGHT_GREEN#*He falls to his knees.*#WHITE#
+Please spare me! I am pitiful. I will not stop you. Let me leave!]], [[#LIGHT_GREEN#*그가 무릎을 꿇으며 쓰러집니다.*#WHITE#
+살려줘! 난 불쌍한 놈이야. 널 막지 않을게, 나가게 해 줘!]], "_t")
+t("No!", "안 돼!", "_t")
+t([[But, but, you were my... you...
+You need me! What do you think you will do on the surface? Everything you will meet will try to destroy you.
+You are strong but you cannot resist them all!]], [[하지만, 하지만, 넌 내... 넌...
+네겐 내가 필요해! 밖으로 나가면 어떻게 될 것 같나? 네가 만나는 것들은 전부 널 파괴하려 들 거라고.
+넌 강하지만, 밖의 모두와 싸워 이길 순 없을 걸!]], "_t")
+t("So what do you propose?", "내가 널 살려주면, 뭘 해줄 건데?", "_t")
+t("[kill him]", "[그를 죽인다]", "_t")
+t([[I can give you a cloak that will conceal your true nature!
+With it all people will see when they look at you is a normal average Human. You can go about your business.
+Please!]], [[네 본질을 숨겨주는 망토를 줄게!
+그걸 쓰면 모두가 널 그냥 평범한 인간으로 보게 될 거야. 넌 네가 하고 싶은 일을 할 수 있게 될 거라고.
+제발!]], "_t")
+t("Thanks for the information. Now you may die. [kill him]", "좋은 정보 고마워. 이제 죽어라. [그를 죽인다]", "_t")
+t("ARRGGggg... You are alone! You will be destroyed!", "아아아앍... 넌 혼자다! 넌 파괴되리라!", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/unremarkable-cave-bosses.lua"
 
+t([[#LIGHT_GREEN#*A beautiful Elven woman in golden robes stands before you, facing an orc clad in mail.*#WHITE#
+Fillarel: "Abandon this fight, orc! You cannot win: I stand with the power of the Sun and the shadows of the Moons."
+Krogar: "Ha! It's only been one hour and you already look tired, my 'lady'."
+#LIGHT_GREEN#*As you enter the room they notice you.*#WHITE#
+Fillarel: "You! @playerdescriptor.race@! Help me defeat this monster or begone!"
+Krogar: "Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!"]], [[#LIGHT_GREEN#*황금빛의 로브를 입은 아름다운 엘프 여성이 있습니다. 갑옷을 입은 오크와 대치하고 있습니다.*#WHITE#
+필라렐: "투항하라, 오크! 넌 내게 이길 수 없어. 태양의 힘과 달의 그림자가 나와 함께한다."
+크로가르: "하! 이제 겨우 한 시간 지났는데 벌써 지쳐 보이시는구만, '아가씨'."
+#LIGHT_GREEN#*방에 들어서자 그 둘이 당신을 발견했습니다.*#WHITE#
+필라렐: "당신! @playerdescriptor.race@! 이 괴물을 쓰러뜨리는 걸 도와주던지, 아니면 당장 나가요!"
+크로가르: "아, 도움을 요청하시겠다? 흥. @playerdescriptor.race@, 이 아가씨를 죽여 주면 보답하겠다!"]], "_t")
+t("[attack Krogar]", "[크로가르를 공격한다]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/unremarkable-cave-fillarel.lua"
 
+t("Thank you, @playername@. I hate to admit it, but you saved my life.", "감사합니다, @playername@. 인정하긴 정말 싫지만, 제 목숨을 구하셨습니다.", "_t")
+t("At your service. But may I ask what you were doing in this dark place?", "별 말씀을. 근데 이 어두컴컴한 곳에서 뭐 하고 있었는지 물어봐도 되겠습니까?", "_t")
+t("At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "별 말씀을. 몇 달간 없었지만, 느껴지네. 마침내 고향 땅에 돌아왔어!", "_t")
+t([[I am an Anorithil, a mage of the Sun and Moons; we fight all that is evil. I was with a group of Sun Paladins; we came from the Gates of Morning to the east.
+My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.]], [[전 태양과 달의 마법사인 아노리실입니다. 악에 맞서 싸우죠. 제겐 태양의 기사 일행도 있었습니다. 우린 동쪽의 아침의 문에서 왔죠.
+제 동료들은... 오크들에게 살해당했고, 저도 거의 죽을 뻔 했습니다. 다시 한 번, 도와주셔서 감사합니다.]], "_t")
+t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "별 거 아니었다니까요. 하지만 제가 하나 물어도 괜찮겠습니까? 전 이 땅 출신이 아닙니다. 전 철의 왕좌 아래 깊은 곳에서 오크들이 지키고 있던 장거리 차원문을 써서 이곳에 도착했습니다.", "_t")
+t([[Yes, I noticed you were not from here. Your only hope is the Gates of Morning, the last bastion of freedom in this orc territory. When you leave the caves, head southeast; you cannot miss it.
+Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.]], [[네, 당신이 이곳 출신이 아니라는 것은 눈치챘습니다. 당신이 믿어 볼 만한 건 아침의 문 뿐이겠네요. 그곳은 이 오크 영토에서 자유를 지키는 최후의 보루입니다. 이 동굴에서 빠져나가게 된다면, 남동쪽으로 가세요. 분명 찾을 수 있을 겁니다.
+고위 태양의 기사 아에린 님께 절 만났다고 말씀드리세요. 당신이 지나갈 수 있도록 말을 전해 두겠습니다.]], "_t")
+t("Thank you, I will talk with Aeryn.", "감사합니다, 아에린 님과 이야기해 보겠습니다.", "_t")
+t([[Gone? Wait, this face.. you are @playername@! We thought you died in the naga portal explosion!
+Thanks to your courage the Gates of Morning still stand.
+You should go there at once.]], [[없었다? 잠시만, 그 얼굴.. @playername@! 우린 당신이 나가 차원문 폭발로 죽은 줄 알았어요!
+당신의 용맹함 덕분에 아침의 문은 건재합니다.
+지금 바로 가 보세요.]], "_t")
+t("Sadly I am the bringer of bad news, the orcs are planning something. Good luck, my lady.", "안타깝지만 안 좋은 소식도 가져왔죠. 오크들이 뭔가 꿍꿍이가 있습니다. 행운을 빌지요, 고귀한 여인이시여.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/unremarkable-cave-krogar.lua"
 
+t("@playerdescriptor.race@, you have helped me kill the Elf-wench. The Orc Pride thanks you... for now", "@playerdescriptor.race@, 엘프 아가씨를 죽이는 걸 도와줬군. 오크 긍지의 이름으로 감사를 표한다... 지금은 말이야.", "_t")
+t("I hate Elves anyway...", "난 엘프가 싫으니까...", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/ward.lua"
 
-t("Never mind", "바꾸지 않는다", "_t")
+t("Call forth which ward?", "어떤 보호구역을 불러냅니까?", "_t")
+t("Fire [%d]", "화염 [%d]", "tformat")
+t("Lightning [%d]", "번개 [%d]", "tformat")
+t("Cold [%d]", "냉기 [%d]", "tformat")
+t("Arcane [%d]", "비전 [%d]", "tformat")
+t("Light [%d]", "빛 [%d]", "tformat")
+t("Darkness [%d]", "어둠 [%d]", "tformat")
+t("Temporal [%d]", "시간 [%d]", "tformat")
+t("Physical [%d]", "물리 [%d]", "tformat")
+t("Nature [%d]", "자연 [%d]", "tformat")
+t("Blight [%d]", "황폐 [%d]", "tformat")
+t("Acid [%d]", "산성 [%d]", "tformat")
+t("Mind [%d]", "정신 [%d]", "tformat")
+t("Never mind", "취소", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/worldly-knowledge.lua"
 
+t("[%s (at mastery %0.2f)]", "[%s (숙련치 %0.2f)]", "tformat")
+t("Learn which category?", "어떤 계열을 배우겠습니까?", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/yeek-wayist.lua"
 
+t([[#LIGHT_GREEN#*Before you stands a creature about as tall as a Halfling, covered in small white fur and with a disproportionate head.
+You also notice he does not wield his greatsword. It seems to float in the air, bound to his will.*#WHITE#
+Why did you save me, stranger? You are not of the Way.]], [[#LIGHT_GREEN#*크기가 하플링과 비슷하고, 하얀 비단 같은 털로 뒤덮여 있으며 몸통에 비해 머리가 큰 생명체가 눈앞에 서 있습니다.
+또, 그가 대검을 잡고 있지 않다는 걸 알았습니다. 그 대검은 그의 의지에 따라 공중에 떠 있는 것 같습니다.*#WHITE#
+날 구한 이유가 무엇인가, 낯선 이여? 그대는 한길의 일원이 아니잖은가.]], "_t")
+t("Well, you seemed to need help.", "음, 도움이 필요할 것 같아서.", "_t")
+t("So I could rip your throat myself!", "내가 직접 네 목을 따려고!", "_t")
+t([[#LIGHT_GREEN#*The greatsword floats to a less aggressive stance. He seems surprised.*#WHITE#
+Then, on behalf of the Way, I thank you.]], [[#LIGHT_GREEN#*떠 있는 대검이 조금 덜 위협적인 각도로 회전했습니다. 그는 놀란 것 같습니다.*#WHITE#
+그렇다면, 한길의 이름으로, 감사를 표하겠네.]], "_t")
+t("What is the Way, and what are you?", "그 '한길' 이라는 게 뭐야? 그리고 넌 뭐고?", "_t")
+t("The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "한길이란 계몽 그 자체이며, 평화와 수호 그 자체이기도 하지. 난 이크고. 난 우리 종족에게 수천 년 간 열려 있지 않던 이 세상을 탐험하려 이 터널로 왔다네.", "_t")
+t("Can you tell me more about the Way?", "한길에 대해 조금 더 얘기해 줄래?", "_t")
+t("Select the party member to receive the mental shield:", "정신 보호막을 받을 파티 멤버를 선택하세요:", "_t")
+t("The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "한길의 일원과의 만남으로, 정신 보호막이 강화되었다. (정신 내성 +15, 혼란 저항 +10%%)", "logPlayer")
+t("I am never alone. I have the Way.", "난 결코 혼자가 아닐세. 내겐 한길이 있지.", "_t")
+t("Farewell, then.", "그럼, 안녕히.", "_t")
+t([[I cannot, but I may show you a glimpse.
+#LIGHT_GREEN#*He leans toward you. Your mind is suddenly filled with feelings of peace and happiness.*#WHITE#
+This is the Way.]], [[그럴 순 없지만, 잠시 보여주겠네.
+#LIGHT_GREEN#*그가 당신에게 몸을 기울였습니다. 갑자기 머릿속에 평화로움과 행복이 가득 찼습니다.*#WHITE#
+이것이 바로 한길이라네.]], "_t")
+t("Thank you for this vision. Farewell, my friend.", "이런 걸 보여줘서 고마워. 안녕히, 친구.", "_t")
+t("Thank the Way. This... thing... would have killed me.", "한길이시여, 감사합니다. 이... '것'이... 날 죽이려 들었어.", "_t")
+t("The Way sent me to explore this side of the tunnel.", "한길이 이 터널을 탐험하라 보냈습니다.", "_t")
+t("Yes, me too. We should split up to cover more ground.", "나도 마찬가지라네. 더 많은 곳을 보려면, 여기서 갈라지는 게 좋겠군.", "_t")
+t("Farewell. We are the Way, always.", "안녕히. 한길이 우리와 항상 함께할지니.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/zemekkys-done.lua"
 
+t([[What? Ah, it is you, @playername@.
+I take it you are satisfied with the portal.]], [[뭐야? 아, 자네구만, @playername@.
+차원문이 마음에 들었으면 좋겠군.]], "_t")
+t("Yes, thank you.", "네, 고맙습니다.", "_t")
+t("Whatever.", "그럭저럭.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/zemekkys-start-chronomancers.lua"
 
+t([[@playername@, you are called to serve. The nearby unhallowed morass inhabitants are growing restless.
+You must go there and find the source.]], [[@playername@, 자네에게 임무를 맡기겠네. 이 근방 부정한 저습지의 생물들이 쉴새없이 성장하고 있어.
+그곳으로 가서 원인을 찾아야 하네.]], "_t")
+t("I will, Grand Keeper.", "그렇게 하겠습니다, 위대한 수호자님.", "_t")
+t("I am sorry, but I cannot do that.", "죄송합니다만, 못 하겠습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/zemekkys.lua"
 
+t([[#LIGHT_GREEN#*A slot in the door opens and a pair of wild eyes peer out.*#WHITE#
+What do you want, @playerdescriptor.race@?]], [[#LIGHT_GREEN#*문에 붙은 작은 창이 열리고 거친 눈동자들이 이쪽을 바라봅니다.*#WHITE#
+원하는 게 뭐냐, @playerdescriptor.race@?]], "_t")
+t("Paladin Aeryn told me that you could help me. I need to get to Maj'Eyal.", "아에린 님이 당신이 절 도울 수 있다던데. 전 마즈'에이알로 가 봐야 합니다.", "_t")
+t("I found the Blood-Runed Athame, but there was no Resonating Diamond.", "피의 룬 제례단검은 찾았지만, 공명하는 다이아몬드는 없었습니다.", "_t")
+t("I have a Resonating Diamond.", "공명하는 다이아몬드를 갖고 있습니다.", "_t")
 t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t([[Pfaugh! Her goal in life is to waste my time! Maj'Eyal? Why not Narnia or Chicago? Just as easy to send you someplace entirely fictional as Maj'Eyal. Go away.
+#LIGHT_GREEN#*Slot slams shut.*#WHITE#]], [[푸후! 그 여자가 내 시간을 낭비하려고 작정했나! 마즈'에이알이라고? 차라리 나니아나 시카고로 떠나 보는 건 어떤가? 마즈'에이알 같은 완전히 상상 속의 동네로 자넬 보내는 것 만큼이나 손쉽고말고. 저리 꺼지게.
+#LIGHT_GREEN#*창이 세게 닫혔습니다.*#WHITE#]], "_t")
+t("I got here from Maj'Eyal, didn't I? I have this magic Orb I looted from a dead orc, see, and...", "제가 그 마즈'에이알에서 여기로 왔는데요? 죽은 오크한테서 얻은 마법의 오브도 여기 있고, 그리고...", "_t")
+t([[#LIGHT_GREEN#*Slot opens.*#WHITE#
+Orb, you say? That you used to travel here from Maj'Eyal? Surely you don't possess the Orb of Many Ways! It's been lost for ages!]], [[#LIGHT_GREEN#*창이 열렸습니다.*#WHITE#
+방금 오브라고 했나? 그걸 써서 마즈'에이알에서 이쪽으로 왔다고? 자네가 여러 장소로의 오브를 갖고 있을 리는 없을 텐데! 그건 몇천 년 전에 사라졌다고!]], "_t")
+t("[Hold up the orb]", "[오브를 들이댄다]", "_t")
+t([[#LIGHT_GREEN#*His eyes widen.*#WHITE#
+Great Socks of Aeryn! It IS the Orb! Maybe we can get you home after all. Or maybe we can get you embedded in magma a thousand leagues straight down.]], [[#LIGHT_GREEN#*그의 눈이 휘둥그레해집니다.*#WHITE#
+아에린의 위대한 양말이시여! 진짜로, 그 오브잖아! 자네를 집으로 돌려보내줄 수 있을 지도 모르겠군. 어쩌면 지하로 수천 리를 내려가서 거기 있는 마그마 위로 보내게 될 수도 있고.]], "_t")
+t("May I come in?", "안에 들어가도 될까요?", "_t")
+t([[You think I'm letting some filthy @playerdescriptor.race@ in my house with the Orb of Many Ways?
+I blow myself up quite enough already without that thing in the house, thank you.
+Besides, I still can't help you unless you have a Blood-Runed Athame to etch a portal.
+Err, and that portal must be etched on a piece of prepared Resonating Marble.
+The Gates of the Morning has a slab of Marble that once could have served, but a number of, um, incidents have taken their toll.
+It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 100 gold.]], [[내가 더러운 @playerdescriptor.race@ 따윌 그 여러 장소로의 오브랑 같이 내 집에 모셔둘 것 같나?
+그런 게 없어도 이미 집을 몇 번이고 날려 먹을 뻔했다고, 정중히 사양하지.
+게다가, 자네한테 차원문을 새기는 데 필요한 피의 룬 제례단검이 없다면, 난 여전히 자넬 못 도와준다네.
+어어, 그리고 차원문은 귀중한 공명하는 대리석에다가 새겨야만 하지.
+아침의 문에는 쓸만했던 대리석 판때기가 하나 있는데, 사고가, 어, 좀 많이 있었어서 맛이 가 버렸네.
+그걸 다시 쓸만하게 만들려면 공명하는 다이아몬드가 필요할 게야. 오, 그리고 100 골드만 주게.]], "_t")
+t("Where can I find all that?", "그것들을 어디서 찾아야 합니까?", "_t")
+t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "100 골드는 자네 지갑에서 찾을 수 있을 거고. 제례단검이랑 공명하는 다이아몬드는, 아마 오크들이 그 오브를 쓸 차원문을 만드는 데 써먹지 않았나 싶은데. 보르 무기고로 가 보게. 어쩌다 보니 그쪽 뒷문을 알게 됐거든. 어쩌다 그랬는지는 신경쓰지 말고.", "_t")
 t("Thank you.", "감사합니다.", "_t")
+t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "공명하는 다이아몬드가 거기에 있을 리가 없지. 브리아그흐가 그걸 아주 물고 빨고 하는 걸 알고 있나?", "_t")
+t("Briagh?", "브리아그흐?", "_t")
+t("Briagh the Great Sand Wyrm. Where do you think Resonating Diamonds come from? They're just regular diamonds until they get stuck between Briagh's scales for a few centuries and get infused with his life rhythms. He sleeps on a hoard of precious gems and metals, you see.", "거-대한 모래 용 브리아그흐. 공명하는 다이아몬드라는 게 어디서 나온다고 생각하나? 원래 평범한 다이아몬드였던 것들이 브리아그흐의 비늘 사이에 끼어서, 그 상태로 몇 천년간 썩으면서 놈의 생명 리듬이 깃들게 된 거라고. 알다시피, 그놈은 값비싼 보석과 금속 더미에서 잠을 잔다네.", "_t")
+t("Where might I find Briagh's lair??", "브리아그흐의 둥지는 어디에 있습니까??", "_t")
+t("Well south of the Sunwall. I'll mark it for you on your map.", "음, 태양의 장벽 남쪽에. 지도에 표시해 주겠네.", "_t")
+t("I'll be back with a Resonating Diamond.", "공명하는 다이아몬드를 가져 오겠습니다.", "_t")
+t("Yes? You got the Athame, the gem and 100 gold?", "뭐? 단검이랑 보석이랑 100 골드를 가져 왔다고?", "_t")
+t("[Give him the gem, the athame and 100 gold]", "[보석과 제례단검과 100 골드를 넘긴다]", "_t")
+t("Sorry, it seems I lack some stuff. I will be back.", "죄송합니다, 몇 가지 빠진 게 있네요. 곧 돌아오죠.", "_t")
+t([[#LIGHT_GREEN#*The door opens and a shabby Elf emerges.*#WHITE#
+Off we go to prepare the portal!]], [[#LIGHT_GREEN#*문이 열리고 허름한 엘프가 나타났습니다.*#WHITE#
+차원문 준비하러 가세!]], "_t")
+t("[follow him]", "[그를 따라간다]", "_t")
 
 
 ------------------------------------------------
@@ -5977,12 +6281,9 @@ t("pestilent blight", "악랄한 전염병", "_t")
 t("* #LIGHT_GREEN#%d%%#LAST# chance to cause #GREEN#random blight#LAST#%s", "* #LIGHT_GREEN#%d%%#LAST# 확률로 #GREEN#무작위한 질병#LAST#을 감염시킵니다.%s", "tformat")
 t("blight poison", "황폐성 독", "_t")
 t("terror", "공포", "_t")
-t("%s<terror chance>#LAST#", "%s<공포 확률>#LAST#", "tformat")
 t("random poison", "무작위한 독", "_t")
 t("blinding powder", "실명 가루", "_t")
-t("%s<blinding powder>#LAST#", "%s<실명 가루>#LAST#", "tformat")
 t("smokescreen", "연막탄", "_t")
-t("%s<smoke>#LAST#", "%s<연막>#LAST#", "tformat")
 t("flare", "조명탄", "_t")
 t("%s resists the blinding flare!", "%s 조명탄의 섬광에 저항했다!", "logSeen", nil, {"는"})
 t("flare light", "조명탄 빛", "_t")
@@ -7708,7 +8009,7 @@ t("Elixir of the Fox", "여우의 영약", "entity name")
 t("vial of pink fluid", "분홍색 액체 유리병", "_t")
 t("A vial of pink, airy fluid.", "분홍색 액체 유리병으로, 액체가 비현실적으로 흔들립니다.", "_t")
 t("permanently increase your dexterity and cunning by three", "영구적으로 민첩과 교활이 3 증가합니다", "_t")
-t("#00FF00#The elixir has given you foxlike physical and mental agility!", "#00FF00#영약은 당신에게 여우와 같은 신체, 물리적 민첩성을 부여한다!", "logPlayer")
+t("#00FF00#The elixir has given you foxlike physical and mental agility!", "#00FF00#영약은 당신에게 여우와 같은 신체, 물리적 민첩성을 부여했다!", "logPlayer")
 t("Elixir of Avoidance", "회피의 영약", "entity name")
 t("vial of green fluid", "녹색 액체 유리병", "_t")
 t("A vial of opaque green fluid.", "녹색 액체 유리병, 불투명한 녹색 액체가 담겨있습니다.", "_t")
@@ -7753,7 +8054,7 @@ t("Elixir of Brawn", "건강의 영약", "entity name")
 t("vial of tan fluid", "황갈색 액체 유리병", "_t")
 t("A vial of sluggish tan fluid.", "황갈색 액체 유리병으로, 끈적이는 황갈색 액체가 담겨있습니다.", "_t")
 t("permanently increase your strength and constitution by three", "영구적으로 힘과 체격이 3 증가합니다", "_t")
-t("#00FF00#The elixir has augmented your physical might and resilience!", "#00FF00#영약이 물리적인 힘과 강인함을 부여한다!", "logPlayer")
+t("#00FF00#The elixir has augmented your physical might and resilience!", "#00FF00#영약이 물리적인 힘과 강인함을 부여했다!", "logPlayer")
 t("Elixir of Stoneskin", "돌 피부 영약", "entity name")
 t("vial of iron-colored fluid", "철 색깔의 액체 유리병", "_t")
 t("A vial of grainy, iron-colored fluid.", "철 색깔의 액체 유리병으로, 철 색깔의 거친 액체가 담겨있습니다.", "_t")
@@ -9854,7 +10155,7 @@ Items in the chest will not encumber you.]], [[이 상자는 옛 쉐르'툴의 �
 상자 내에 소지하길 원하는 물품들이 있을 경우, 상자를 열어, 밖으로 빼내, 가방에 보관하십시오.
 상자 안의 물품들은 무게 0 으로 간주됩니다.]], "_t")
 t("transmogrify all the items in your chest at once (also done automatically when you change level)", "한 번에 상자 속의 모든 물품을 변환합니다. (현재 구역을 떠날 때도 자동으로 변환됩니다.)", "_t")
-t("Make the Transmogrification Chest the default item's destroyer?", "물품을 파괴할 때, 항상 변환 상자를 사용할까요?", "_t")
+t("Make the Transmogrification Chest the default item's destroyer?", "물품을 변환할 때, 항상 변환 상자를 사용할까요?", "_t")
 t("You do not have any items to transmogrify in your chest or on the floor.", "상자 안에도, 땅바닥에도 변환할 물품이 존재하지 않습니다.", "_t")
 t("Transmogrify all %s item(s) on the floor?", "발 밑의 모든 %s 개의 물품을 변환할까요?", "tformat")
 t("Transmogrify all %s item(s) in your chest?", "상자 안의 모든 %s 개의 물품을 변환할까요?", "tformat")
@@ -15114,7 +15415,7 @@ t([[When you kill a creature, the remainder of the damage done will not be lost.
 		The splash damage will increase with your Spellpower.]], [[시전자가 적을 살해할때마다, 쓸데없이 초과된 피해량을 더 이상 낭비하지 않게 됩니다. 적을 죽이고 남는 피해량의 %d%% 의 피해를 주는 폭발이 일어나, 주변 2 칸 반경에 황폐 속성 피해를 줍니다.
 		폭발 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blood Vengeance", "피의 복수", "talent name")
-t("#RED#The powerful blow energizes %s reducing their cooldowns!#LAST#", "#RED#강력한 일격이 %s 에게 힘을 부여한다! 재사용 대기시간이 단축된다!#LAST#", "logSeen")
+t("#RED#The powerful blow energizes %s reducing their cooldowns!#LAST#", "#RED#강력한 일격이 %s 에게 힘을 부여했다! 재사용 대기시간이 단축된다!#LAST#", "logSeen")
 t([[When you are dealt a blow that reduces your life by at least %d%%, you have a %d%% chance to reduce the remaining cooldown of all your talents by 1.
 		Temporary life from Sanguine Infusion will not count against the damage threshold.
 		The chance will increase with your Spellpower.]], [[생명력의 %d%% 이상을 한번에 잃으면, %d%% 확률로 모든 기술들의 재사용 대기시간이 1 턴 단축됩니다.
@@ -18023,7 +18324,7 @@ t("Activate the rune to create a protective shield absorbing at most %d damage f
 t("absorb %d; dur %d; cd %d", "흡수 %d / 지속 %d 턴 / 대기시간 %d", "tformat")
 t("Rune: Reflection Shield", "룬 : 반사 보호막", "talent name")
 t("Activate the rune to create a protective shield absorbing and reflecting at most %d damage for %d turns.", "룬을 발동하여, %d 턴 동안 최대 %d 피해를 흡수하고 반사하는 보호막을 생성합니다.", "tformat", {2,1})
-t("absorb and reflect %d; dur %d; cd %d", "흡수+반사 %d / 지속 %d / 대기시간 %d", "tformat")
+t("absorb and reflect %d; dur %d; cd %d", "흡수 및 반사 %d / 지속 %d / 대기시간 %d", "tformat")
 t("Rune: Biting Gale", "룬 : 살을 에는 강풍", "talent name")
 t([[Activate the rune to direct a cone of chilling stormwind doing %0.2f cold damage.
 			The storm will soak enemies hit reducing their resistance to stuns by 50%% then attempt to freeze them for %d turns.
@@ -23308,7 +23609,7 @@ t([[Gain 5 generic talent points and learn a new talent category from one of the
 		- Corruption / Hexes
 		- Corruption / Curses
 		- Celestial / Chants
-		- Chronomancy / Chronomancy]], [[일반 기술 점수 5 점을 획득하고, 다음 기술군 중 하나를 선택해 기술 계열들을 배우게됩니다. 이렇게 배운 기술 계열들은 해금되어있지 않으며, 숙련치는 1.0 입니다.  1 번 기술군은 누구나 습득 가능합니다, 2 번 기술군은 반마법 캐릭터들만 사용 가능합니다. 3 번 기술군은 반마법 캐릭터들은 습득할 수 없습니다.
+		- Chronomancy / Chronomancy]], [[일반 기술 점수 5 점을 획득하고, 다음 기술군 중 하나를 선택해 기술 계열들을 배우게 됩니다. 이렇게 배운 기술 계열들은 해금되어있지 않으며, 숙련치는 1.0 입니다.  1 번 기술군은 누구나 습득 가능합니다, 2 번 기술군은 반마법 캐릭터들만 사용 가능합니다. 3 번 기술군은 반마법 캐릭터들은 습득할 수 없습니다.
 		1 번 기술군 :
 		- 전투 기술 / 상태 조절
 		- 교활 / 생존
@@ -23323,7 +23624,7 @@ t([[Gain 5 generic talent points and learn a new talent category from one of the
 		- 주문 / 예지
 		- 주문 / 지팡이 전투기술
 		- 주문 / 암석의 연금술
-		- 타락 / 용납될 수 없는 삶
+		- 타락 / 타락한 생명
 		- 타락 / 비술
 		- 타락 / 저주
 		- 천공 / 성가
@@ -23599,12 +23900,12 @@ t("Be able to use massive armours", "판갑을 입을 수 있을 것", "_t")
 t([[Your strength is legendary; fatigue and physical exertion mean nothing to you.
 		Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 50 and you gain a size category.]], [[당신은 전설적인 힘을 가지게 되어, 피로나 육체의 단련이 의미없게 됩니다.
 		피로도가 0 이 되고 무게 제한이 500 늘어나며, 힘 능력치가 50 상승하며 몸집 크기가 한 단계 상승합니다.]], "tformat")
-t("Have sided with Slasul and killed Ukllmswwik", "슬라슐의 편에 서서, 우클름스윅을 죽일 것", "_t")
+t("Have sided with Slasul and killed Ukllmswwik", "슬라술의 편에 서서, 우클름스윅을 죽일 것", "_t")
 t("Legacy of the Naloren", "날로레의 유산", "_t")
 t("Slasul will be happy to know your faith in his cause. You should return to speak to him.", "당신의 신념이 그의 영향을 받았음을 알게되면, 슬라슐이 기뻐할 것입니다. 당신은 슬라슐에게 돌아가 이 이야기를 해줘야 합니다.", "_t")
 t([[You have sided with Slasul and helped him vanquish Ukllmswwik. You are now able to breathe underwater with ease.
 		You have also learned to use tridents and other exotic weapons easily (talent level %d of Exotic Weapon Mastery), and can Spit Poison (talent level %d) as nagas do. These are bonus talent levels that increase with your character level.
-		In addition, should Slasul still live, he may have a further reward for you as thanks...]], [[슬라슐을 도와, 우클름스윅을 격퇴시켰습니다. 물 속에서 숨을 쉴 수 있게 되었습니다.
+		In addition, should Slasul still live, he may have a further reward for you as thanks...]], [[슬라술을 도와, 우클름스윅을 격퇴시켰습니다. 물 속에서 숨을 쉴 수 있게 되었습니다.
 		또한 삼지창을 포함한 각종 이형 무기들을 손쉽게 다룰 수 있게 되고 (이형 무기 수련 기술 레벨 %d), 나가의 독 뱉기 기술을 쓸 수 있게 (기술 레벨 %d) 되었습니다. 이렇게 주어지는 기술 레벨은 캐릭터의 레벨에 따라 상승합니다
 		또한 슬라슐이 아직 살아 있다면, 감사의 표시로 또 다른 보상을 줄지도 모릅니다...]], "tformat")
 t("Superpower", "의지의 힘, 힘의 의지", "talent name")
@@ -25602,7 +25903,7 @@ t("-Displacement Shield", "-변위 보호막", "_t")
 t("The fabric of space around #target# stabilizes to normal.", "#target# 주위의 공간의 구조가 다시 안정화됐다.", "_t")
 t("Damage Shield", "피해 보호막", "_t")
 t("(reflecting %d%% back to the attacker)", "(받은 피해량의 %d%% 가 공격자에게 반사됨)", "tformat")
-t("The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "마법 보호막에 둘러싸임 : 피해 흡수량 %d/%d %s", "tformat", {3,1,2})
+t("The target is surrounded by a magical shield, absorbing %d/%d damage %s before it crumbles.", "마법 보호막에 둘러싸임 : 피해 흡수량 %d/%d %s", "tformat")
 t("+Shield", "+보호막", "_t")
 t("A shield forms around #target#.", "#target2# 주위에 마력의 보호막을 형성했다.", "_t")
 t("-Shield", "-보호막", "_t")
@@ -26696,7 +26997,7 @@ Additionally the target will continue to fight until its Life reaches -%d%%.]], 
 t("#Target# goes into a killing frenzy.", "#Target2# 살육의 광란에 빠져들었다.", "_t")
 t("+Frenzy", "+광폭화", "_t")
 t("-Frenzy", "-광폭화", "_t")
-t("Falls dead!", "쓰러저 죽었다!", "_t")
+t("Falls dead!", "쓰러져 죽었다!", "_t")
 t("%s dies when its frenzy ends!", "%s 광폭화가 끝나자 죽었다!", "logSeen", nil, {"는"})
 t("Bloodbath", "유혈사태", "_t")
 t("The thrill of combat improves the target's maximum life by %d%%, life regeneration by %0.2f, and stamina regeneration by %0.2f.", "최대 생명력 +%d%% / 생명력 재생 +%0.2f / 기력 재생 +%0.2f.", "tformat")
@@ -29681,7 +29982,7 @@ t("You have %d stat point(s) to spend. Press p to use them.", "능력치 점수�
 t("You have %d class talent point(s) to spend. Press p to use them.", "직업기술 점수가 %d점 남아 있다. 사용하려면 p를 누를 것.", "logPlayer")
 t("You have %d generic talent point(s) to spend. Press p to use them.", "일반기술 점수가 %d점 남아 있다. 사용하려면 p를 누를 것.", "logPlayer")
 t("You are transformed by the corrupted heart of the Queen!", "타락한 여왕의 심장의 힘으로 변이했다!", "logPlayer")
-t("#00FF00#You gain an affinity for blight. You can now learn new Vile Life talents (press p).", "#00FF00#황폐에 대한 친화력을 얻었다. '용납될 수 없는 삶' 기술계열을 배울 수 있게 되었다 (p를 누르시오).", "logPlayer")
+t("#00FF00#You gain an affinity for blight. You can now learn new Vile Life talents (press p).", "#00FF00#황폐에 대한 친화력을 얻었다. '타락한 생명' 기술계열을 배울 수 있게 되었다 (p를 누르시오).", "logPlayer")
 
 
 ------------------------------------------------
@@ -32543,6 +32844,7 @@ t("Price", "가격", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/TrapsSelect.lua"
 
+t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#이 함정은 준비할 수 없다: %s.", "logPlayer")
 
 
 ------------------------------------------------

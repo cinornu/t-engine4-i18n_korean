@@ -1307,8 +1307,8 @@ t("[CHEAT] teleport to %dx%d", "[치트]다음 장소로 텔레포트함: %dx%d"
 ------------------------------------------------
 section "game/engines/default/engine/interface/PlayerRest.lua"
 
-t("resting", "휴식 중", "_t")
-t("rested", "휴식 완료", "_t")
+t("resting", "휴식", "_t")
+t("rested", "휴식함", "_t")
 t("You are %s, press Enter to stop.", "%s 중입니다. Enter키로 종료합니다.", "tformat")
 t("%s starts...", "%s 시작...", "log")
 t("%s for %d turns (stop reason: %s).", "%d 턴 동안 %s (종료 원인: %s).", "log", {2,1,3})

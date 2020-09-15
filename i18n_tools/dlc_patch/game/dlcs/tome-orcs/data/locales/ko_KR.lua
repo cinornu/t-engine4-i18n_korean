@@ -28,6 +28,7 @@ t("Tinker", "발명가", "birth descriptor name")
 t("Tinkers use steamtech to power their attacks, defenses, ...", "발명가들은 증기 공학을 통해 그들의 공격과 방어 수단에 동력을 공급합니다.", "_t")
 t("%s healing salve", "%s 회복 연고", "tformat")
 t("%s frost salve", "%s 서리 연고", "tformat")
+t("simple", "단순한", "_t")
 t("Sawbutcher", "톱 도살자", "birth descriptor name")
 t("A formidable behemoth of war using steamsaws to improve his deadliness.", "전쟁의 거수로, 증기톱을 이용해 적들을 베어넘깁니다.", "_t")
 t("Their most important stats are: Strength and Cunning", "그들에게 가장 중요한 능력치는 힘과 교활입니다", "_t")
@@ -268,6 +269,7 @@ t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 �
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/john-worldmap.lua"
 
+t("Whatever.", "그럭저럭.", "_t")
 
 
 ------------------------------------------------
@@ -293,7 +295,9 @@ t("No thanks.", "사양하지.", "_t")
 section "game/dlcs/tome-orcs/data/chats/metash.lua"
 
 t("Thanks.", "감사합니다.", "_t")
+t("Yes?", "응?", "_t")
 t("Not now.", "나중에.", "_t")
+t("[listen]", "[듣는다]", "_t")
 t("I will!", "알겠어!", "_t")
 
 
@@ -604,20 +608,66 @@ t("yeti", "예티", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/boss-artifacts.lua"
 
+t("Yeti-fur Cloak", "예티 털 망토", "entity name")
+t("matted fur cloak", "광택없는 털 망토", "_t")
+t("This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "이 털 망토는 두껍고 광택이라곤 찾아 볼 수 없지만, 만지면 믿을 수 없을 만큼 부드럽습니다.", "_t")
+t("Korbek's Spyglass", "코르벡의 첩보 망원경", "entity name")
 t("golden telescope", "금색 망원경", "_t")
+t("This antique spyglass is weathered from use, but seems well maintained.", "이 골동품 망원경은 오랫동안 사용되어 낡은 상태지만, 손질이 잘 되어있는 것 같습니다.", "_t")
+t("Talosis' Counterpoint", "탈로시스의 대조", "entity name")
+t("ornate gun", "화려하게 장식된 총기", "_t")
+t("It's said that Talosis never lost an argument. Now you know why.", "탈로시스는 절대로 언쟁에서 패하지 않았다고 합니다. 당신도 왜인지 알겠죠.", "_t")
+t("The Twisted Blade", "뒤틀린 칼날", "entity name")
+t("vile, twisted steamsaw", "악랄하게, 뒤틀린 증기톱", "_t")
+t("You see flecks of gold in this vile mass of twisted steel, implying a once great origin. Whatever glory it once had is long gone, replaced by something far more sinister...", "이 끔찍하게 뒤틀린 강철 덩어리에 도금 됐었던 흔적이 남아있어, 한 때 굉장한 걸작이였음이 느껴집니다. 이제, 그 영광은 온데간데없이 사라지고, 사악한 무엇인가가 그 자리를 대신 채웠습니다...", "_t")
+t("Fully heal yourself. (15 turn cooldown)", "최대 생명력으로 회복합니다. (재사용 대기시간 15 턴)", "_t")
+t("Sunstone", "태양돌", "entity name")
+t("warm stone", "따뜻한 돌", "_t")
+t("This strange stone shines with the heat of the Sun. Perhaps it could be used to generate more steam?", "이 기이한 돌은 태양의 열기를 발하며 빛납니다. 더 많은 증기를 생성하는데 쓰일 수 있지 않을까요?", "_t")
+t("Overseer", "감독관", "entity name")
+t("cracked mindstar", "깨진 마석", "_t")
+t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "정신벽에 깃들었던 강력한 힘의 조각이 아직도 이 깨지고, 오래된 보석에 남아있습니다.", "_t")
+t("reduces mental save", "정신 내성 감소", "_t")
+t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "반경 %d 칸 내의 한 대상을 %d 턴 동안 정신적으로 지배하거나, 물리적으로 기절시킵니다 (대상의 면역력에 영향을 받고, 성공률은 정신력에 비례합니다)", "tformat")
+t("#Source# psychically dominates #target# through %s %s!", "#Source1# %s %s 통해 #target3# 물리적으로 지배한다!", "logCombat", nil, {[2]="를"})
+t("crystallized drake heart", "결정화된 용족의 심장", "_t")
+t("Ureslak's Focus", "우르슐락의 집중", "entity name")
 t("multi-hued", "다색", "entity subtype")
+t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슐락의 시체에서 떨어저 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정중에 그의 심장이 강렬한 빛을 발하는 수정으로 변한 것 같습니다.", "_t")
+t("Starcaller", "별부르미", "entity name")
+t("black staff", "검은 지팡이", "_t")
+t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "스트라라이트와 보석으로 세공된 빛의 지팡이입니다. 한 낮에서도 별빛을 비추는 것 같습니다.", "_t")
+t("Liquid Metal Cloak", "액체 금속 망토", "entity name")
+t("shiny metallic cloak", "빛나는 금속 망토", "_t")
+t("This strange sheet of metal flows with the wind just like a normal cloak. Whoever crafted it was a true master.", "이 이상한 금속 천은 평범한 망토처럼 바람에 흩날립니다. 누가 만들었건, 그는 필히 진정한 장인일 것입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/egos/steamgun.lua"
 
+t(" of tinkering (#STATBONUS#)", " 발명품 #STATBONUS# ", "entity name")
+t("tinker", "발명품", "entity keyword")
+t("gunslinger's ", "총잡이의 ", "entity name")
+t("gunslinger", "총잡이", "entity keyword")
+t("strafer's ", "폭격자의 ", "entity name")
+t("strafer", "폭격자", "entity keyword")
+t(" of life draining", " 생명 흡수 ", "entity name")
+t("draining", "생명흡수", "entity keyword")
+t("overgrown ", "과성장한 ", "entity name")
+t("overgrown", "과성장", "entity keyword")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/generic-world-artifacts.lua"
 
 t("potion", "물약", "entity subtype")
+t("Blood of Undeath", "역생의 피", "entity name")
+t("crimson phial", "핏빛 유리병", "_t")
+t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "이 타락한 피의 유리병은 죽음과 부패의 악취를 풍깁니다. 하지만 어찌된 일인지 당신은 이 유리병에 마음이 끌립니다... 영생에 대한 감질 맛나는 가르침일까요? 또는 힘? 당신은 뭐라고 할 순 없지만, 이 타락한 피를 마시고 싶다는 욕구는 엄청납니다.", "_t")
+t("quaff the Blood of Undeath to prepare your body for undeath", "역생의 피를 마셔, 육체를 역생에 준비시킵니다", "_t")
 t("%s quaffs the %s!", "%s %s 마셨다!", "logSeen", nil, {"는","을"})
+t("#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "#CRIMSON#역생의 피가 당신의 혈관을 타고 퍼저나가는 것이 느껴진다. 생명이 약간 말라비틀어졌음이 느껴진다. (최대 생명력 -50, 생명력 하한 -120).", "logPlayer")
+t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "#CRIMSON#역생의 피가 당신의 언데드 육체를 더욱 강인하게 강화했다 (최대 생명력 -60, 생명력 하한 -140)", "logPlayer")
 
 
 ------------------------------------------------
@@ -636,9 +686,13 @@ section "game/dlcs/tome-orcs/data/general/objects/leather-hats.lua"
 
 t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
+t("A hat made of leather. Very stylish.", "가죽으로 만든 모자로, 아주 멋집니다.", "_t")
 t("rough", "거친", "entity short_name")
+t("rough leather hat", "거친 가죽 모자", "entity name")
 t("hardened", "경화", "entity short_name")
+t("hardened leather hat", "경화 가죽 모자", "entity name")
 t("drakeskin", "용가죽", "entity short_name")
+t("drakeskin leather hat", "용가죽 모자", "entity name")
 
 
 ------------------------------------------------
@@ -650,7 +704,19 @@ section "game/dlcs/tome-orcs/data/general/objects/lore.lua"
 section "game/dlcs/tome-orcs/data/general/objects/quest-artifacts.lua"
 
 t("power", "힘", "entity subtype")
+t("tinker", "발명품", "entity type")
 t("Automated Portable Extractor", "휴대용 자동 추출기", "entity name")
+t([[The APE is a multifunction tinker toolbox. It can store temporarily any amount of items and when requested melt them down using metallurgic and chemical processes.
+The metals are melted into lumps of ore to server for the creation of tinkers.
+Any remains are melted and turned into valuable materials.]], [[휴대용 자동 추출기는 다양한 기능을 가진 발명가들의 공구함입니다. 추출기는 일시적으로 거의 무한한 양의 물품을 보관할 수 있고, 필요할 때, 야금학, 화학 공정으로 물품을 녹일 수도 있습니다.
+용융된 금속은 광석 덩어리가 되어 발명품의 제작에 사용됩니다.
+여타 다른 물품들은 추출되어 여러가지 물질로 변합니다.]], "_t")
+t("melt all the items in the APE at once (also done automatically when you change level)", "추출기 내의 모든 물품을 추출합니다 (현재 구역을 떠날 때도 자동으로 추출됩니다)", "_t")
+t("Make the Automated Portable Extractor the default item's destroyer?", "물품을 변환할 때, 항상 휴대용 자동 추출기를 사용할까요?", "_t")
+t("You do not have any items to melt in your APE or on the floor.", "추출기 안에도, 땅바닥에도 추출할 물품이 존재하지 않습니다.", "_t")
+t("Melt all %d item(s) on the floor?", "발 밑의 모든 %s 개의 물품을 추출할까요?", "tformat")
+t("APE", "추출기", "_t")
+t("Melt all %d item(s) in your APE?", "추출기 안의 모든 %s 개의 물품을 추출할까요?", "tformat")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 
@@ -658,73 +724,215 @@ t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다
 section "game/dlcs/tome-orcs/data/general/objects/schematics.lua"
 
 t("scroll", "두루마리", "entity type")
+t("schematic", "설계도", "_t")
+t("Schematics are used by tinkers to learn how to build new constructs.", "발명가들은 설계도를 이용해 새로운 발명품의 구조를 배웁니다.", "_t")
+t("#LIGHT_GREEN#[can be learnt]#LAST#", "#LIGHT_GREEN#[배울 수 있음]#LAST#", "_t")
+t("#LIGHT_BLUE#[already known tinker]#LAST#", "#LIGHT_BLUE#[이미 알고 있음]#LAST#", "_t")
+t("learn how to build this tinker", "이 발명품을 어떻게 만드는지 배웁니다", "_t")
+t("You can not learn schematics without knowing how to craft items.", "발명품 제작 기술이 없으면 설계도를 사용할 수 없습니다.", "log")
+t("You already know this schematic.", "이미 이 설계도를 알고 있습니다.", "log")
+t("schematic: %s", "설계도 : %s", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/special-misc.lua"
 
+t("kruk", "크룩", "entity short_name")
+t("kruk cloak", "크룩 망토", "entity name")
+t("A stylish kruk-style cloak, to look awesome.", "유행하는 크룩 양식의 망토입니다. 멋지군요.", "_t")
+t("Teleporter to the Tinker's Cave", "발명가의 동굴 순간이동 장치", "entity name")
+t("A strange metal contraption imbued with some kind of teleportation magic.", "기이한 기계장치로, 순간이동 마법이 주입됐습니다.", "_t")
+t("teleport.", "순간이동", "_t")
+t("The teleporter's delicate systems are perturbed by foes on this level. You must have no foes left to be able to use it.", "순간 이동 장치의 약한 신호가 현재 구역의 적들에 의해 방해되었습니다. 순간이동 장치를 사용하기 위해서는 남은 적이 없어야합니다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/steamgun.lua"
 
 t("weapon", "무기", "entity type")
+t("steamgun", "총기", "entity combat talented")
+t("Steamguns use bursts of steam directly injected in the barrel to propel metal shots with great force.", "증기총은 증기의 폭발을 이용해 총열에서 금속 탄환을 맹렬한 기세로 발사합니다.", "_t")
 t("iron", "무쇠", "entity short_name")
+t("iron steamgun", "무쇠 총기", "entity name")
 t("steel", "강철", "entity short_name")
+t("steel steamgun", "강철 총기", "entity name")
 t("d.steel", "드워프", "entity short_name")
+t("dwarven-steel steamgun", "드워프 강철 총기", "entity name")
 t("stralite", "스트라라이트", "entity short_name")
+t("stralite steamgun", "스트라라이트 총기", "entity name")
 t("voratun", "보라툰", "entity short_name")
+t("voratun steamgun", "보라툰 총기", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/steamsaw.lua"
 
 t("weapon", "무기", "entity type")
+t("steamsaw", "증기톱", "entity combat talented")
+t([[Steamsaws use steam pressure to rotate a serrated metal blade at high speed.
+Those struck suffer severe lacerations and bleed for 10% of the damage done per turn for 5 turns (stacking).
+They can be wielded in the main or off hand.
+Vrmmmmm!]], [[증기톱은 증기의 압력을 이용해 빠른 속도로 톱날을 회전시킵니다.
+공격당한 적은 심각한 열상을 입어, 5 턴동안 가한 피해의 10% 에 해당하는 피해를 매 턴 입습니다 (중첩됩니다).
+주무기 칸에도, 보조무기 칸에도 장착 가능합니다.
+Vrmmmmm!]], "_t")
 t("iron", "무쇠", "entity short_name")
+t("iron steamsaw", "무쇠 증기톱", "entity name")
 t("steel", "강철", "entity short_name")
+t("steel steamsaw", "강철 증기톱", "entity name")
 t("d.steel", "드워프", "entity short_name")
+t("dwarven-steel steamsaw", "드워프 강철 증기톱", "entity name")
 t("stralite", "스트라라이트", "entity short_name")
+t("stralite steamsaw", "스트라라이트 증기톱", "entity name")
 t("voratun", "보라툰", "entity short_name")
+t("voratun steamsaw", "보라툰 증기톱", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinker.lua"
 
 t("steamtech", "증기 공학", "entity subtype")
+t("tinker", "발명품", "entity type")
+t("Tinkers can be attached to normal items to improve them with steam power!", "발명품은 일반적인 장비에 장착해, 증기의 힘으로 강화시킬 수 있습니다!", "_t")
 t("misc", "도구", "entity type")
+t("salve", "연고", "_t")
+t("Medical salve.", "의료용 연고.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/chemistry.lua"
 
+t("crude", "조잡한", "_t")
+t("good", "괜찮은", "_t")
+t("mastercraft", "장인의", "_t")
+t("perfect", "완벽한", "_t")
+t("well-made", "양질의", "_t")
+t("%s poison groove", "%s 독극물 분사기", "tformat")
+t("Deals stacking poison damage.", "중첩 가능한 독 피해를 가합니다.", "_t")
+t("applies a stacking poison dealing %d damage per turn", "중첩 가능한 중독 효과를 일으켜 매 턴 %d 피해를 가합니다", "tformat")
 t("%s viral injector", "%s 바이러스 주입기", "tformat")
+t("Infects targets with a stat reducing disease.", "대상에게 능력치를 감소시키는 질병을 감염시킵니다.", "_t")
+t("injects a simple virus dealing %d blight damage on hit and lowering the victims highest stat", "단순한 바이러스를 주입해, 명중 시, %d 황폐 피해를 입히고 대상의 가장 높은 능력치를 감소시킵니다", "tformat")
+t("%s winterchill edge", "%s 겨울 냉기 칼날", "tformat")
+t("Deals cold damage and slows.", "냉기 피해를 가하고 속도를 감소시킵니다.", "_t")
+t("chills your foe dealing %d damage and slowing them by one tenth of a turn", "%d 냉기 피해를 가하고, 피해를 입은 대상은 0.1 턴을 소모합니다", "tformat")
+t("%s acid groove", "%s 산성물질 분사기", "tformat")
+t("Deals acid damage that also reduces armour.", "산성 피해를 주고 방어력을 감소시킵니다.", "_t")
+t("splashes acid on your target dealing %d damage and reducing their armor", "대상에게 산성물질을 발사해 %d 산성 피해를 주고 방어력을 감소시킵니다", "tformat")
 t("Brain Cap", "두뇌 차폐막", "entity name")
 t("Brain Flare", "두뇌 신호기", "entity name")
+t("HEAD", "머리", "entity on slot")
+t("%s waterproof coating", "%s 방수 코팅", "tformat")
+t("%s fireproof coating", "%s 방화 코팅", "tformat")
+t("CLOAK", "망토", "entity on slot")
+t("%s flash powder", "%s 섬광 가루", "tformat")
+t("%s itching powder", "%s 가려움 가루", "tformat")
+t("HANDS", "장갑", "entity on slot")
 t("armor", "방어구", "entity type")
 t("cloak", "망토", "entity subtype")
+t("action packed cloak", "흥미진진한 망토", "_t")
 t("Rogue's Gallery", "도둑의 화랑", "entity name")
 t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상화에도요!", "_t")
+t("On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "생명력이 최대 생명력의 20% 이하로 떨어지면, 5 턴 동안 연막을 풀어, 근처의 적에게 혼란을 유발하고, 착용자는 은신하며, 확률적으로 받는 피해를 무효화합니다.", "_t")
+t("cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "착용자가 다음번에 가하는 피해는 방해성 독 중독을 유발하여, (사용되기 전 까지는 충전되지 않습니다) 미약한 독 피해를 가하고, 대상이 10% 확률로 기술의 사용을 실패하게 합니다", "_t")
+t("%s rustproof coating", "%s 녹 방지 코팅", "tformat")
+t("BODY", "가슴 방어구", "entity on slot")
+t("%d%% chance to avoid a detrimental acid subtype effect.", "%d%% 확률로 산성 계열의 부정적인 효과를 막아냅니다.", "tformat")
+t("%s alchemist's helper", "%s 연금술사의 도우미", "tformat")
+t("BELT", "허리띠", "entity on slot")
+t("%s black light emitter", "%s 흑색광 방출기", "tformat")
+t("LITE", "조명", "entity on slot")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/electricity.lua"
 
+t("crude", "조잡한", "_t")
+t("good", "괜찮은", "_t")
+t("mastercraft", "장인의", "_t")
+t("perfect", "완벽한", "_t")
+t("well-made", "양질의", "_t")
+t("dwarven steel", "드워프 강철", "_t")
 t("iron", "무쇠", "_t")
 t("steel", "강철", "_t")
 t("stralite", "스트라라이트", "_t")
 t("voratun", "보라툰", "_t")
+t("%s lightning coil", "%s 전기 코일", "tformat")
+t("On critical strikes generates a 3 tiles lightning beam.", "치명타를 가할 시 3 칸 사거리의 전기 광선을 발사합니다.", "_t")
+t("project a beam of lightning", "전기 광선을 발사합니다", "_t")
+t("%s mana coil", "%s 마나 코일", "tformat")
+t("Mana regeneration, on spell hit 25%% chances to cast lightning.", "마나 재생을 향상시키고, 주문 명중 시, 25%% 확률로 번개 주문을 시전합니다.", "_t")
+t("arcane dynamo", "비전 발전기", "entity name")
+t("Allows the use of Technomancy spells.", "마도공학 주문을 사용할 수 있게됩니다.", "_t")
+t("%s shocking touch", "%s 충격의 손길", "tformat")
+t("%s deflection field", "%s 편향막", "tformat")
+t("%s galvanic retributor", "%s 전열 보복기", "tformat")
+t("Unleash a lightning nova of radius equal to the tinker tier.", "발명품과 같은 범위의 정전기 폭발을 해방합니다.", "_t")
+t("#Source# unleashes GALVANIC RETRIBUTION!", "#Source1# 전열 보복기를 해방한다!", "logCombat")
+t("%s shocking edge", "%s 충격의 칼날", "tformat")
+t("Deals lightning damage and drains resources.", "전기 피해를 가하고, 원천력을 흡수합니다.", "_t")
+t("shock your foe dealing %d damage and draining some of their resources", "대상에게 전기 충격을 가해 %d 피해를 주고 적의 원천력을 일부 흡수합니다", "tformat")
 t("weapon", "무기", "entity type")
+t("Stormcutter", "폭풍절단기", "entity name")
+t("electrified steamsaw", "전류가 흐르는 증기톱", "_t")
+t("\"Great for combat, cooking, and shaving! We accept no responsibility for ruined follicles.\"", "\"전투, 요리, 그리고 면도에 아주 좋아요! 저희는 파괴된 모낭에 대한 책임은 지지않습니다.\"", "_t")
+t("steamsaw", "증기톱", "entity combat talented")
+t("deal lightning damage to the target based on cunning with a 25% chance to daze, and arc to up to 3 targets.", "대상에게 교활에 비례한 전기 피해를 주고, 25% 확률로 혼절시킵니다. 최대 3 명의 적에게 연쇄됩니다.", "_t")
+t("%s voltaic sentry", "%s 전류 보초", "tformat")
+t("HANDS", "장갑", "entity on slot")
+t("%s mental stimulator", "%s 정신 자극기", "tformat")
+t("HEAD", "머리", "entity on slot")
+t("%s power distributor", "%s 동력 배급기", "tformat")
+t("BELT", "허리띠", "entity on slot")
+t("%s white light emitter", "%s 백색광 방출기", "tformat")
+t("LITE", "조명", "entity on slot")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/explosive.lua"
 
+t("crude", "조잡한", "_t")
+t("good", "괜찮은", "_t")
+t("mastercraft", "장인의", "_t")
+t("perfect", "완벽한", "_t")
+t("well-made", "양질의", "_t")
+t("%s thunderclap coating", "%s 천둥 코팅", "tformat")
+t("Strikes can trigger a thunderclap that damages and repel foes.", "공격 시, 일정 확률로 천둥을 일으켜 적에게 피해를 가하고 날려버립니다.", "_t")
+t("%s head lamp", "%s 헤드 램프", "tformat")
+t("HEAD", "머리", "entity on slot")
+t("%s ablative armour", "%s 폭발 방어구", "tformat")
+t("BODY", "가슴 방어구", "entity on slot")
+t("%s incendiary groove", "%s 소이 탱크", "tformat")
+t("Deals fire damage and ignites the ground.", "화염 피해를 주고, 바닥을 불태웁니다.", "_t")
+t("burn your foe dealing %d damage and igniting the ground for 4 turns", "적을 불태워 %d 피해를 주고, 4 턴 동안 바닥을 불사릅니다", "tformat")
+t("%s thunder grenade", "%s 천둥 수류탄", "tformat")
+t("BELT", "허리띠", "entity on slot")
 t("weapon", "무기", "entity type")
+t("Payload", "폭발력", "entity name")
+t("absurdly large gun", "말도안되게 거대한 총기", "_t")
+t("\"I never really liked that village anyway.\" - Charlta, Mad Inventor", "\"나는 항상 저 마을이 맘에 안들었어.\" -샤를타, 미친 발명가", "_t")
+t("steamgun", "총기", "entity combat talented")
+t("Boom.", "쾅.", "_t")
+t("%s explosive shell", "%s 폭발 포탄", "tformat")
+t("%s flare shell", "%s 조명 포탄", "tformat")
+t("%s incendiary shell", "%s 발화 포탄", "tformat")
+t("%s solid shell", "%s 고중량 포탄", "tformat")
+t("%s impaler shell", "%s 관통 포탄", "tformat")
+t("%s saw shell", "%s 톱날 포탄", "tformat")
+t("%s hook shell", "%s 갈고리 포탄", "tformat")
+t("%s magnetic shell", "%s 자석 포탄", "tformat")
+t("%s voltaic shell", "%s 정전기 포탄", "tformat")
+t("%s antimagic shell", "%s 반마법 포탄", "tformat")
+t("%s botanical shell", "%s 포자 포탄", "tformat")
+t("%s corrosive shell", "%s 부식 포탄", "tformat")
+t("%s toxic shell", "%s 맹독 포탄", "tformat")
+t("QUIVER", "탄환", "entity on slot")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/mechanical.lua"
 
+t("dwarven steel", "드워프 강철", "_t")
 t("iron", "무쇠", "_t")
 t("steel", "강철", "_t")
 t("stralite", "스트라라이트", "_t")
@@ -737,54 +945,255 @@ t("%s grapple", "%s 바이스", "tformat")
 t("armor", "방어구", "entity type")
 t("massive", "판갑", "entity subtype")
 t("Steam Powered Armour", "증기 작동 갑옷", "entity name")
+t("Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "작은 증기 기관과 최첨단 자동화 시스템의 기적으로, 증기 작동 갑옷을 제작 할 수 있게되었습니다. 이 갑옷으로 인해 이동력이 향상되고, 고유한 방어 기제로 공격을 막아냅니다.", "_t")
+t("The more steam the better!", "더 많은 증기! 더 강력한 힘!", "_t")
+t("#GOLD#Your steam-powered boots, helm and gauntlets automatically connect to your steam-powered armour, enabling new functions.", "#GOLD#증기 작동 장화, 투구 그리고 전투 장갑이 증기 작동 갑옷에 자동으로 연결되어, 새로운 기능을 사용할 수 있게 되었다!", "logSeen")
+t("#GOLD#Your steam-powered armor disconnects from the other pieces.", "#GOLD#증기 작동 갑옷은 다른 부품들과의 연결이 해제되었다.", "logPlayer")
+t("%s saw projector", "%s 톱 발사기", "tformat")
+t("HANDS", "장갑", "entity on slot")
+t("%s kinetic stabiliser", "%s 동역학 안정기", "tformat")
+t("FEET", "장화", "entity on slot")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/smith.lua"
 
+t("dwarven steel", "드워프 강철", "_t")
 t("iron", "무쇠", "_t")
 t("steel", "강철", "_t")
 t("stralite", "스트라라이트", "_t")
 t("voratun", "보라툰", "_t")
+t("crude", "조잡한", "_t")
+t("good", "괜찮은", "_t")
+t("mastercraft", "장인의", "_t")
+t("perfect", "완벽한", "_t")
+t("well-made", "양질의", "_t")
+t("%s focus lens", "%s 집중 렌즈", "tformat")
+t("HEAD", "머리", "entity on slot")
+t("%s toxic cannister launcher", "%s 독가스 탄 발사기", "tformat")
+t("%s viral needlegun", "%s 바이러스 바늘총", "tformat")
+t("HANDS", "장갑", "entity on slot")
+t("%s razor edge", "%s 면도날", "tformat")
+t("%s armour reinforcement", "%s 방어구 보강", "tformat")
+t("%s crystal edge", "%s 수정 칼날", "tformat")
+t("Deals high light damage and increases critical multiplier.", "높은 빛 피해를 가하고, 치명타 피해량을 늘립니다.", "_t")
+t("flashes light on your target dealing %d damage", "번쩍이는 빛으로 대상에게 %d 피해를 줍니다", "tformat")
+t("%s crystal plating", "%s 수정 도금", "tformat")
 t("armor", "방어구", "entity type")
 t("hands", "손", "entity subtype")
 t("Hands of Creation", "제작의 손", "entity name")
+t("plated gauntlets", "철판이 덧대어진 전투장갑", "_t")
 t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "당신의 손에서 믿을 수 없는 걸작이 탄생합니다. 당신의 작품들은 화염으로 단련되었고, 그건 당신도 마찬가지지요.", "_t")
+t("On landing any melee attack, release a fiery shockwave, dealing fire and physical damage each equal to your steampower in a cone from the target of radius 3.", "근접 공격 시, 불타는 충격파를 내보내, 반경 3 칸의 원뿔범위 안의 모든 적에게 증기력과 같은 수치의 화염과 물리 피해를 가합니다.", "_t")
+t("%s spike attachment", "%s 송곳 부착물", "tformat")
+t("BODY", "가슴 방어구", "entity on slot")
+t("%s silver filigree", "%s 은 세공", "tformat")
+t("%s back support", "%s 등 지지대", "tformat")
+t("BELT", "허리띠", "entity on slot")
+t("%s grounding strap", "%s 접지 노끈", "tformat")
+t("CLOAK", "망토", "entity on slot")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/therapeutics.lua"
 
-t("potent", "강력", "_t")
-t("powerful", "강력", "_t")
+t("amazing", "놀라운", "_t")
+t("great", "엄청난", "_t")
+t("potent", "위력적인", "_t")
+t("powerful", "강력한", "_t")
+t("simple", "단순한", "_t")
 t("%s healing salve", "%s 회복 연고", "tformat")
+t("heal %d", "생명력 %d 회복", "_t")
+t("%s pain suppressor salve", "%s 진통 연고", "tformat")
+t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "생명력이 -%%d 에 이를 때까지 죽지 않고, %d 턴 동안, 피격시 받는 피해량을 %d%%%% 줄입니다. (활성화 시 턴을 소모하지 않습니다)", "tformat", {1,3,2})
 t("%s frost salve", "%s 서리 연고", "tformat")
+t("remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "%d 개의 물리 효과를 제거하고 서리의 기운을 부여합니다 (%s 냉기, 암흑, 자연 속성 친화)", "tformat")
+t("%s fiery salve", "%s 불꽃 연고", "tformat")
+t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "remove %d 개의 마법 효과를 제거하고 불꽃의 기운을 부여합니다 (%s 화염, 전기, 빛 속성 친화)", "tformat")
+t("%s water salve", "%s 물방울 연고", "tformat")
+t("remove %d mental effects and grants a water aura (%s blight, mind and acid affinity).", "%d 개의 정신 효과를 제거하고 물방울의 기운을 부여합니다 (%s 황폐, 정신, 산성 속성 친화).", "tformat")
+t("%s unstoppable force salve", "%s 멈출 수 없는 힘 연고", "tformat")
+t("increases all saves by %d and healing factor by half", "모든 내성이 %d 증가하고, 회복 효율이 절반 상승합니다", "_t")
 t("armor", "방어구", "entity type")
 t("light", "경갑", "entity subtype")
 t("Life Support Suit", "생명 유지복", "entity name")
+t("advanced medical armour", "첨단 의료 보호구", "_t")
+t("\"We've done it, men. We cured death.\"", "\"우리가 해냈어, 친구. 우리가 죽음을 치료했다고.\"", "_t")
+t("(%d turns until ready)", "(준비까지 남은 턴 : %d)", "tformat")
+t("(15 turn cooldown)", "(재사용 대기시간 15 턴)", "_t")
+t([[You cannot bleed.
+When you take damage, if your life is under 20%%, heal for 30%% of your max life. %s]], [[피를 흘리지 않게됩니다.
+피해를 받을 때, 생명력이 20%% 이하일 경우, 최대 생명력의 30%% 를 회복합니다. %s]], "tformat")
+t("%s second skin", "%s 두번째 피부", "tformat")
+t("BODY", "가슴 방어구", "entity on slot")
+t("%s air recycler", "%s 공기 재생기", "tformat")
+t("HEAD", "머리", "entity on slot")
+t("Returns %d air each turn.", "매 턴, 폐활량이 %d 회복됩니다.", "tformat")
+t("%s moss tread", "%s 이끼 장화", "tformat")
+t("FEET", "장화", "entity on slot")
+t("%s fungal web", "%s 곰팡이 망", "tformat")
+t("BELT", "허리띠", "entity on slot")
+t("Heals you for %d life when you use a salve.", "연고를 사용할 때 마다 생명력을 %d 회복합니다.", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
 
 t("Medical Urgency Vest", "응급 의료지원 조끼", "entity name")
+t("medical armour", "의료 보호구", "_t")
+t("This light leather armour features a special medical injector.", "이 가벼운 가죽 갑옷은 특수 의료용 주사기를 탑재했습니다.", "_t")
+t("Steam Powered Boots", "증기 작동 장화", "entity name")
+t("Boots. But with steam power!", "장화. 그리고 증기의 힘!", "_t")
+t("Generate %d steam each time you walk.", "발걸음을 내딜 때마다 증기를 %d 회복합니다.", "tformat")
+t("Steam Powered Helm", "증기 작동 투구", "entity name")
+t("A Helmet. But with steam power!", "투구. 그리고 증기의 힘!", "_t")
+t("Steam Powered Gauntlets", "증기 작동 전투장갑", "entity name")
+t("Gauntlets. But with steam power!", "전투장갑. 그리고 증기의 힘!", "_t")
+t("The more steam the better!", "더 많은 증기! 더 강력한 힘!", "_t")
+t("Anti-Gravity Boots", "반중력 장화", "entity name")
+t("overheating steel greaves", "과열된 강철 전투장화", "_t")
+t([[These boots seem to have been made by a... creative individual who seems to have decided that launching yourself through the air via rocketry qualifies as "anti-gravity".
+They look like they will work, though.
+Probably.
+If you're very careful.]], [[이 장화는 어... 자기 스스로를 공중으로 날려보내기로 결심한 창의적인 발명가가 만든 것으로 보입니다. 이런 말도안되는 로켓 공학을 "반중력" 이라고 이름 붙였나봅니다.
+어찌되건 작동은 하는 것 같습니다.
+아마도요.
+매우 조심한다면 말입니다.]], "_t")
+t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "이 장화는 %d%% 확률로 작동을 실패합니다 (교활에 반비례).", "tformat")
+t("jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "반경 %d 칸의 범위 내의 원하는 지점으로 도약합니다. 도약 전의 위치에는 반경 2 칸의 폭발을 일으키고, (%d 불타는 화염 피해, 2 칸 밀처냄) 도약 후의 위치에는 반경 3 칸의 폭발을 일으킵니다 (%d 불타는 화염 피해, 3 칸 밀처냄) (피해량은 교활에 비례)", "tformat")
+t("#LIGHT_RED#You see no place to land near there.", "#LIGHT_RED#그 근처에는 착륙할 곳이 없다.", "logPlayer")
+t("engulfs %s spectacularly", "%s 덮치는", "tformat", nil, {"를"})
+t("launches %s in the air", "%s 하늘로 띄우는", "tformat", nil, {"를"})
+t("#Source# lands in a #LIGHT_RED#firey explosion#LAST#!", "#Source1# #LIGHT_RED#화염 폭발#LAST#을 일으키며 착지했다!", "logCombat")
+t("Assassin's Surprise", "암살자의 깜짝 선물", "entity name")
+t("glistening steel gauntlets", "섬광의 강철 전투장갑", "_t")
+t("These steel gauntlets feature a hidden contraption embedded in the left index finger that fires poisonous bolts.", "이 강철 전투 장갑은 왼쪽 집게 손가락에 숨겨진 기계 장치가 장착되어있어 독화살을 발사할 수 있습니다.", "_t")
+t("fire a poisonous bolt out to range %d that deals %d nature damage and afflicts the target with crippling poison (%d%% fail chance) that deals %d addition nature damage over %d turns (damage based on Cunning)", "사거리 %d 칸의 독화살을 발사해 %d 자연 피해를 가하고, 대상을 무력화 독에 중독시킵니다. (실패확률 %d%%) 독으로 인해 %d 턴에 걸쳐 %d 자연 피해를 받습니다 (피해량은 교활에 비례)", "tformat", {1,2,3,5,4})
+t("#Source# fires a bolt of #GREEN#poison#LAST# at #target# from %s %s!", "#Source1# %s %s #GREEN#독화살#LAST#을 #target#에게 발사한다 from !", "logCombat", nil, {[2]="으로"})
 t("something", "무언가", "_t")
+t("Nacrush's Decimator", "나크루쉬의 대량 학살기", "entity name")
+t("unwieldy gun", "다루기 어려운 총", "_t")
+t("Nacrush was known for a tendency towards overkill.", "나크루쉬는 대량 학살을 일으키는 경향으로 알려졌습니다.", "_t")
+t("Knocks you back when fired.", "발사할 때, 한 칸 밀려납니다.", "_t")
+t("#Source# recoils from the shot.", "#Source2# 사격의 반동을 받았다.", "logCombat")
+t("Signal", "신호", "entity name")
+t("red barreled steamgun", "붉은 총열의 총기", "_t")
+t("An odd, stubby gun with a large, red barrel.", "이상하고, 뭉뚝한 총으로, 붉은색의 커다란 총열이 달려있습니다.", "_t")
+t("Glacia", "글라시아", "entity name")
+t("frozen gun", "얼어붙은 총", "_t")
+t("Strange coils encircle this extremely cold gun.", "기이한 코일이 이 말도안되게 차가운 총에 둘려져있습니다.", "_t")
+t("deal cold damage equal to 100 + the higher of your steam or spellpower, and attempt to freeze the target (20% chance).", "100 + 증기력/마법력 중 큰 값에 해당하는 냉기 피해를 가하고 20% 확률로 적을 얼려버립니다.", "_t")
+t("Tinkerer's Twinblaster", "발명가의 쌍총", "entity name")
+t("two barreled steamgun", "이중 총열 증기총", "_t")
+t([[This gun seems to be some experiment in firing multiple shots simultaneously.
+The design is somewhat rudimentary, but it seems to work.]], [[이 총은 여러발의 탄환을 한번에 발사하는 실험적인 총기같습니다.
+도안 자체는 초보적인 수준이지만, 제대로 작동합니다.]], "_t")
+t("Flashpoint", "화약고", "entity name")
+t("overheated gun", "과열된 총", "_t")
+t("\"Have you ever looked at some guys and thought 'you know, I really wish they were on fire right now', but you didn't feel like walking all the way over there? Well, there's now a better way!\"", "\"그런 생각 해본적 없나? '아 저새끼 태워 버리고 싶은데 걸어가기 존나귀찮네' 라고, 여기 꽤 괜찮은 방법이 있는데 말이야.\"", "_t")
+t("S.H. Spear", "S.H. 스피어", "entity name")
+t("engraved steamgun", "각인된 총기", "_t")
+t([[This gun is engraved with a strange material which focuses mental powers.
+It seems like your mind will operate even faster with this equipped.]], [[이 총에는 정신력을 집중시키는 기이한 물질로 이루어진 각인이 새겨져있습니다.
+이 총을 들고있노라면 사고 회전이 빨라지는 것 같습니다.]], "_t")
+t("Dreamweaver", "꿈 재단사", "entity name")
+t("shimmering steamgun", "빛으로 일렁이는 총", "_t")
+t("This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "이건 총이 아니라, 총이라는 개념 자체입니다. 만약 잃어버린다면, 기억하기에는 쉬울겁니다.", "_t")
+t("throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "총을 던저 폭발시킵니다.범위 내의 모든 적에게 %d 정신 피해를 주고, (교활과 의지에 비례) 확률적으로 재워버립니다. 시전자는 3 턴 동안 무장해제됩니다", "tformat")
+t("%s tosses %s %s!", "%s %s %s 던졌다!", "logSeen", nil, {"는",[3]="를"})
 t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
+t("Thoughtcaster", "생각 시전자", "entity name")
+t("crystalline handgun", "수정 권총", "_t")
+t("From body, mind. From mind, body.", "몸에서, 정신으로. 정신에서, 몸으로.", "_t")
+t("deal %0.2f mind damage (based on Mindpower) in a radius 1 around the target", "대상을 기준으로 반경 1 칸 범위에 %0.2f 정신 피해를 가합니다 (정신력에 비례)", "tformat")
+t("On hitting with a mindstar, deal physical damage equal to your steampower in radius 1 around the target.", "마석으로 공격시, 착용자의 증기력과 같은 수치의 물리 피해를 대상 기준 반경 1 칸 범위에 가합니다.", "_t")
+t("Spider's Fangs", "거미 송곳니", "entity name")
+t("pouch of envenomed shots", "독묻은 탄환 주머니", "_t")
+t("A dedicated technician seems to have built pockets of spider venom into these rounds. It's not clear how happy the spiders were about this.", "헌신적인 기술연구원이 거미의 맹독낭에 탄환을 집어넣었습니다. 거미들은 결코 기뻐하지 않았을 겁니다.", "_t")
+t("(cooling down: %d turns)", "(재사용 대기시간: %d 턴)", "tformat")
+t("Ready to trigger!", "발동 준비 완료!", "_t")
+t("bursts into an cloud of spydric poison, pinning those inside (with a 10 turn cooldown)", "거미독의 구름을 퍼뜨려, 내부의 적을 속박합니다 (재사용 대기시간 10 턴)", "_t")
+t("Scattermind", "흩어진 정신", "entity name")
+t("shattered mindstar", "부서진 마석", "_t")
+t("A linen pouch of jagged mindstar fragments, each radiating a palpable sense of confusion and pain. They must have made up an impressive whole originally, before some cretin turned it to bits.", "날카로운 마석 조각들이 담긴 리넨 주머니로, 모든 조각이 뚜렷한 혼란과 공포를 발산하고 있습니다. 어떤 멍청이가 마석을 산산조각 내기 전까지 원래 굉장히 인상적인 마석이였을 겁니다.", "_t")
+t("strike the target with one of Mind Sear, Psychic Lobotomy, or Sunder Mind, at random.", "대상을 정신 파괴, 초능력 뇌 절제, 정신 분할 중 한 기술로 공격합니다.", "_t")
+t("Thundercrack", "천둥 굉음", "entity name")
+t("pouch of copper shots", "구리 탄환 주머니", "_t")
+t("Through a combination of magic and airborne probes, these shots incite powerful bolts of lightning to strike your target from above, frying them and those around them!", "마법과 대기 관측 장비를 통해 , 머리 위에서 내려친 번개로 적을 튀겨버리고, 주변의 적들까지 구워버립니다!", "_t")
+t("a bolt of lightning strikes your target, dealing lightning damage to them and fire damage to those around them.", "대상에게 전기 화살을 날려 변개 피해를 주고, 대상 주변에 화염 피해를 줍니다.", "_t")
+t("Vindicator", "옹호자", "entity name")
+t("engraved gun", "각인된 총", "_t")
+t("\"Pesky undead plaguing your village? Necromancers ransacking your burial grounds? The Vindicator is the solution to all your woes!\"", "\"귀찮은 언데드놈들이 여러분의 마을에 전염병을 풀어놓고있다고요? 또, 강령술사들이 무덤을 파해치고있다고요? 그렇다면 옹호자가 훌륭한 고민 해결사가 되겠군요!\"", "_t")
+t("Overburst", "과폭파", "entity name")
+t("\"Have you ever fired a shot into a group of monsters and thought 'there must be a better way?' Well now, there is!\"", "\"괴물들에게 총을 쏘고, '더 괜찮은 방법이 있을텐데?' 라고 생각하신 적이 있나요? 흠, 바로 여기있군요!\"", "_t")
+t("Release a burst of shrapnel, dealing physical damage equal to your steampower in a cone from the target of radius 4.", "파편 폭발을 일으켜, 반경 4 칸의 원뿔 범위에 착용자의 증기력과 같은 수치의 물리 피해를 가합니다.", "_t")
+t("Murderfang's Surekill", "살인송곳니의 확인 사살", "entity name")
+t("wide barreled steamgun", "넓은 총열의 총기", "_t")
+t([["Murderfang came over yesterday, raving about this idea for a steamgun he had. He described it in great detail, everything, except for how it would actually work.
+What do you even grip it by? Insisted I make it though, left some design notes.
+They all just say 'make it really flashy'.
+ 
+-Pizurk, Master Tinker]], [["살인송곳니가 어제 갑자기 찾아와서는, 이 총에 대한 설명을 미친듯이 하기 시작했지. 그는 아주 세심한 것까지 묘사했어, 거의 전부를! 정확하게 어떻게 작동하는지만 빼고말이야.
+그래서 어떻게 된 줄 아나?  몇몇 도안 공책을 남겨놓고는 내가 만들어야된다고 빡빡우기더군. 
+공책에는 '눈부시게 만들어라' 고만 쓰여있더군.
+ 
+-피줄크, 발명 명인]], "_t")
+t("Burst apart, dealing physical damage equal to 25% of the original damage in a ball of radius 1.", "폭발이 일어나, 원래 피해의 25% 에 해당하는 피해를 반경 1 칸 내에 가합니다.", "_t")
+t("The Long-Arm", "긴-총", "entity name")
+t("long barreled gun", "긴 총열의 총", "_t")
+t("This gun has an absurdly long barrel. You wonder for whom it may have been designed.", "이 총은 말도 안되게 긴 총열을 갖고있습니다. 과연 누구를 위해서 제작 되었을까요?", "_t")
+t("Focus your aim on a target, marking them for death - reducing their ranged defense by %d and their resistances by %d%%", "대상을 조준하는데 정신을 집중하고, 죽음의 낙인을 찍습니다 - 원거리 회피도를 %d , 모든 저항을 %d%% 감소시킵니다", "tformat")
+t("#Source# takes aim at #target# using %s!", "#Source1# #target3# %s 조준한다!", "logCombat", nil, {"으로"})
 t("Annihilator", "섬멸자", "entity name")
+t("gigantic many barreled gun", "거대한 다중총열 총기", "_t")
+t("This gun features a wheel with several barrels attached and seems to be powered by an engine. It looks... impressive.", "여러개의 총열이 바퀴에 연결되어있고, 증기 기관을 통해 동력을 공급받는 것 같습니다. 이 총은... 그저... 엄청나군요.", "_t")
+t("Fire rate increases while firing, up to 5 shots per turn. Resets after 5 turns without firing.", "사격 중, 발사 속도가 증가합니다. 한 턴에 최대 5 발 발사합니다. 사격을 하지 않고 5 턴을 보내면 사격 속도가 원래대로 돌아옵니다.", "_t")
 t("50% chance to reload 1 ammo", "50% 확률로 1 발 장전합니다", "_t")
+t("The Shotgonne", "샨탼춍", "entity name")
+t([[This huge steamgun can be loaded with more than one bullet so that multiple shots can be fired in a nasty cone of death.
+It also seems to have been carefully balanced to work like a dual gun set.]], [[이 거대한 증기총은 여러발을 장전할 수 있어, 죽음의 화망을 형성할 수 있습니다.
+또한 양손에 각각 총기를 쥘 수 있게끔 섬세하게 조정된 것 같습니다.]], "_t")
+t("When fired, shoots up to 4 extra shots at random foes with a radius 4 cone centered on the target.", "발사 시, 최대 4 발의 추가 탄환을 대상을 기준으로 한 반경 4 칸의 원뿔 범위 내의 무작위한 적에게 발사합니다.", "_t")
+t("Cloak of Daggers", "단검의 망토", "entity name")
+t("bladed cloak", "칼날 망토", "_t")
+t("This cloak seems to incorporate a series of blades attached to various spring mechanisms.  Apparently the designer believed that the best defense was an active one.", "이 망토는 칼날과 용수철의 탄성을 이용한 기계 장치로 이루어진 것 같습니다.  보아하니, 제작자는 최고의 방어 수단은, 용수철 하나를 활성화 하는 것이라고 믿었던 모양입니다.", "_t")
+t("Has a 50%% chance each turn to slash an adjacent enemy for %d physical damage (based on Cunning), making them bleed.", "매 턴 50%% 확률로 인접한 적을 베어 %d 물리 피해를 주고, (교활에 비례) 출혈을 일으킵니다.", "tformat")
+t("#Source#'s %s #GOLD#lashes out#LAST#, cutting #Target#!", "#Source#의 %s #GOLD# 튀어나와#LAST#, #Target3# 베었다!", "logCombat", nil, {"가"})
+t("Jetpack", "제트팩", "entity name")
+t("a jetpack", "제트팩", "_t")
+t("Finally.", "마침내.", "_t")
+t("Therapeutic Platemail", "치료학 판금갑옷", "entity name")
+t("heated armor", "가열된 갑옷", "_t")
+t("This thick sealed armor utilizes a ventilation system to heal your wounds using a heated mist.", "이 두껍고 밀봉된 갑옷은 환기 시스템의 열 수증기를 이용해 상처를 치유합니다.", "_t")
+t("cleanse up to 3 poisons or wounds detrimental effects", "최대 3 개의 중독 또는 상처 효과를 제거합니다", "_t")
+t("Titan", "타이탄", "entity name")
+t("huge gun", "거대한 총", "_t")
+t("Golden Gun", "황금 총", "entity name")
+t("golden gun", "황금 총", "_t")
+t("A gun sure to turn all to ash. As long as its nearby.", "이 총이 곁에 있는 한, 모든 것을 잿더미로 만들겁니다.", "_t")
+t("every third hit always crits.", "매 3 번째 공격은 무조건 치명타를 일으킵니다.", "_t")
+t("Cautery Sword", "소작절개도 ", "entity name")
+t("searing sword", "불타는 칼", "_t")
+t("This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "이 칼에는 불타는 핵이 장착되어있어, 상처에 고통을 조금 더 더해줍니다.", "_t")
+t("inflict fire damage based on steampower", "증기력에 비례한 화염 피해를 가합니다", "_t")
 t("Stimulus", "자극제", "entity name")
+t("autosyringe", "자동 주사기", "_t")
+t("This injecting unit is complemented by a belt of tiny vials, containing some sickly yellow liquid. The papers describe the contents as 'invigorating' and 'increasing the combat potency.'", "일련의 주입기로, 역겨운 노랑 액채를 담고있는, 허리띠의 조그마한 유리병을 이용합니다. 설명서에는 이 내용물이 '활력을 되찾아주고, 전투력을 강화한다' 고 되어있습니다'", "_t")
+t("inject yourself with painkillers, reducing all incoming damage by 5. Stacks up to 5 times. When the effect ends, lose 5% of your max life per stack", "진통제를 주사해, 피격 시 받는 모든 피해량을 5 감소시킵니다. 최대 5 번 중첩 가능하며, 이 효과가 끝날 때, 중첩 당 최대 생명력의 5% 에 해당하는 피해를 받습니다", "_t")
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
 t("Not enough space to invoke!", "골렘을 귀환시키기에는 공간이 부족하다!", "logPlayer")
 t("treant", "나무 정령", "_t")
 t("Summon", "소환", "_t")
+t("reduces mental save", "정신 내성 감소", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/stores/orcs.lua"
 
 t("smith", "야금학", "entity name")
+t("tinker", "발명품", "entity name")
 
 
 ------------------------------------------------
@@ -3774,7 +4183,7 @@ section "game/dlcs/tome-orcs/data/tinkers/electricity.lua"
 t("Lightning Coil", "전기 코일", "_t")
 t("Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "전기 코일을 근접 무기에 장착해, 근접 치명타 시, 짧은 거리의 전기 광선을 쏘아냅니다.", "_t")
 t("Mana Coil", "마나 코일", "_t")
-t("Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "마나 코일을 지팡이에 장착해, 마나 재생을 향상시키고, 주문 명중 시, 전기 주문을 시전합니다.", "_t")
+t("Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "마나 코일을 지팡이에 장착해, 마나 재생을 향상시키고, 주문 명중 시, 번개 주문을 시전합니다.", "_t")
 t("sapphire", "사파이어", "_t")
 t("Arcane Dynamo", "비전 발전기", "_t")
 t("Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "비전 발전기는 마법의 힘과 증기 공학을 잇는 발명품으로, 주문을 사용할 때 마다 증기를 회복시키며, 마도공학 주문을 사용할 수 있게합니다.", "_t")
@@ -3787,7 +4196,7 @@ t("Galvanic Retributor", "전열 보복기", "_t")
 t("Fortify your shield with electricity and prepare to unleash GALVANIC RETRIBUTION against your attackers!", "방패를 전기로 강화하고, 공격자에게 전열 보복기를 해방할 준비를 하라!", "_t")
 t("Shocking Edge", "충격의 칼날", "_t")
 t("Attaching a capacitor to your weapon in just the right way is a great way to shock your enemies.", "무기에 축전기를 장착해, 올바르고, 좋은 방법으로 적들에게 전기충격을 가해보세요.", "_t")
-t("Steamsaw: Stormcutter", "증기톱 : 폭풍을 베는자", "_t")
+t("Steamsaw: Stormcutter", "증기톱 : 폭풍절단기", "_t")
 t("The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "증기톱 기술의 정점으로, 모든 공격에 폭풍의 힘이 담겨, 해방된 폭풍이 적들 사이를 연쇄하고 적들을 기절시킵니다!", "_t")
 t("shocking edge", "충격의 칼날", "_t")
 t("fire opal", "화염 오팔", "_t")
@@ -3970,7 +4379,7 @@ t("Helps keep your airway open and lets you hold your breath longer.", "기도�
 t("Moss Tread", "이끼 장화", "_t")
 t("Where you walk nature grows! Well moss. Sticky moss.", "당신이 걸으면 자연이 자라나내요! 아, 이끼네요, 끈적거리는 이끼.", "_t")
 t("Fungal Web", "곰팡이 망", "_t")
-t("This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "곰팡이 실로 이루어진 망사로, 연고의 영향분을 흡수하여, 추가적인 회복 효과를 제공합니다!", "_t")
+t("This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "균사로 이루어진 망사로, 연고의 영향분을 흡수하여, 추가적인 회복 효과를 제공합니다!", "_t")
 
 
 ------------------------------------------------
@@ -4665,6 +5074,7 @@ section "game/dlcs/tome-orcs/superload/mod/class/Actor.lua"
 
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
+t("APE", "추출기", "_t")
 
 
 ------------------------------------------------
