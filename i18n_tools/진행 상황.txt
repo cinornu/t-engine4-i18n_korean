@@ -247,7 +247,10 @@
 "game/modules/tome/data/chats/shertul-fortress-training-orb.lua"
 "game/modules/tome/data/chats/slasul.lua"
 "game/modules/tome/data/chats/sorcerer-end.lua"
-"game/modules/tome/data/chats/sorcerer-fight.lua" Khelerd 완
+"game/modules/tome/data/chats/sorcerer-fight.lua"
+"game/modules/tome/data/chats/tannen.lua"
+"game/modules/tome/data/chats/tarelion-start-archmage.lua"
+"game/modules/tome/data/chats/tarelion.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
 
