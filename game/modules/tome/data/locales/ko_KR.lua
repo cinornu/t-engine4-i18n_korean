@@ -1016,7 +1016,7 @@ t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약한 �
 section "game/modules/tome/class/interface/PartyDeath.lua"
 
 t("unknown", "알 수 없음", "_t")
-t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%d 레벨의 %s %s %s는 %s %s 구역에서 %s%s%s 에게 %s 죽었다.", "_t", {2,3,4,1,10,9,8,7,6,5})
+t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "%s (%d 레벨, %s %s)는 %s %s 구역에서 %s%s%s 에게 %s 죽었다.", "_t", {1,2,3,4,10,9,8,7,6,5})
 t("her", "그녀", "_t")
 t("him", "그", "_t")
 t("herself", "자기 자신", "_t")
@@ -5767,7 +5767,7 @@ Please!]], [[네 본질을 숨겨주는 망토를 줄게!
 그걸 쓰면 모두가 널 그냥 평범한 인간으로 보게 될 거야. 넌 네가 하고 싶은 일을 할 수 있게 될 거라고.
 제발!]], "_t")
 t("Thanks for the information. Now you may die. [kill him]", "좋은 정보 고마워. 이제 죽어라. [그를 죽인다]", "_t")
-t("ARRGGggg... You are alone! You will be destroyed!", "아아아앍... 넌 혼자다! 넌 파괴되리라!", "_t")
+t("ARRGGggg... You are alone! You will be destroyed!", "아아아악... 넌 혼자다! 넌 파괴되리라!", "_t")
 
 
 ------------------------------------------------
