@@ -1060,11 +1060,19 @@ section "game/modules/tome/data/general/objects/totems.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wands.lua" Stéphanois
 section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/general/objects/inscriptions.lua"
+section "game/dlcs/tome-orcs/data/general/objects/leather-hats.lua"
 section "game/dlcs/tome-orcs/data/general/objects/schematics.lua"
 section "game/dlcs/tome-orcs/data/general/objects/special-misc.lua"
 section "game/dlcs/tome-orcs/data/general/objects/steamgun.lua"
 section "game/dlcs/tome-orcs/data/general/objects/steamsaw.lua"
 section "game/dlcs/tome-orcs/data/general/objects/tinker.lua"
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/chemistry.lua"
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/electricity.lua"
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/explosive.lua"
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/mechanical.lua"
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/smith.lua"
+section "game/dlcs/tome-orcs/data/general/objects/tinkers/therapeutics.lua"
 
  장비 에고
 section "game/modules/tome/data/general/objects/egos/ammo.lua" Stéphanois
@@ -1102,6 +1110,11 @@ section "game/modules/tome/data/general/objects/world-artifacts-maj-eyal.lua" St
 section "game/modules/tome/data/general/objects/world-artifacts.lua" Stéphanois
 section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
 section "game/dlcs/tome-cults/data/general/objects/world-artifacts.lua"
+section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
+section "game/dlcs/tome-orcs/data/general/objects/quest-artifacts.lua"
+section "game/dlcs/tome-orcs/data/general/objects/generic-world-artifacts.lua"
+section "game/dlcs/tome-orcs/data/general/objects/egos/steamgun.lua"
+section "game/dlcs/tome-orcs/data/general/objects/boss-artifacts.lua"
 
 
 데미지 타입 ---------------------------------
