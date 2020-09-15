@@ -171,7 +171,7 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
------------------------------- 이하 본편 data/chats ---------------------------------
+------------------------------ 이하 본편 data/chats (완역) ---------------------------------
 
 "game/modules/tome/data/chats/alchemist-derth.lua"
 "game/modules/tome/data/chats/alchemist-elvala.lua"
@@ -266,9 +266,22 @@
 "game/modules/tome/data/chats/yeek-wayist.lua"
 "game/modules/tome/data/chats/zemekkys-done.lua"
 "game/modules/tome/data/chats/zemekkys-start-chronomancers.lua"
-"game/modules/tome/data/chats/zemekkys.lua" Khelerd 완
+"game/modules/tome/data/chats/zemekkys.lua"
+"game/modules/tome/data/chats/zigur-mindstar-store.lua"
+"game/modules/tome/data/chats/zigur-trainer.lua"
+"game/modules/tome/data/chats/zoisla.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/chats ---------------------------------
+
+------------------------------ 이하 본편 data/general/events ---------------------------------
+
+"game/modules/tome/data/general/events/cultists.lua"
+"game/modules/tome/data/general/events/damp-cave.lua"
+"game/modules/tome/data/general/events/drake-cave.lua"
+"game/modules/tome/data/general/events/fearscape-portal.lua" Khelerd 완
+
+------------------------------ 이상 본편 data/general/events ---------------------------------
+
 
 ------------------------------ 이하 본편 data/quests (완역) ---------------------------------
 
