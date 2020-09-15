@@ -1033,6 +1033,12 @@ section "game/modules/tome/data/general/objects/totems.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wands.lua" Stéphanois
 section "game/modules/tome/data/general/objects/whips.lua" Stéphanois
 section "game/modules/tome/data/general/objects/wizard-hat.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/general/objects/schematics.lua"
+section "game/dlcs/tome-orcs/data/general/objects/special-misc.lua"
+section "game/dlcs/tome-orcs/data/general/objects/steamgun.lua"
+section "game/dlcs/tome-orcs/data/general/objects/steamsaw.lua"
+section "game/dlcs/tome-orcs/data/general/objects/tinker.lua"
+
  장비 에고
 section "game/modules/tome/data/general/objects/egos/ammo.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/amulets.lua" Stéphanois
@@ -1056,6 +1062,8 @@ section "game/modules/tome/data/general/objects/egos/lite.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/massive-armor.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/mindstars.lua" Stéphanois
 section "game/modules/tome/data/general/objects/egos/potions.lua" Stéphanois
+section "game/dlcs/tome-orcs/data/general/objects/egos/steamgun.lua"
+
  아티팩트
 section "game/modules/tome/data/general/objects/boss-artifacts-far-east.lua" Stéphanois
 section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua" Stéphanois
