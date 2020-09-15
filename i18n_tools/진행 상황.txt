@@ -277,7 +277,8 @@
 
 "game/modules/tome/data/general/events/cultists.lua"
 "game/modules/tome/data/general/events/damp-cave.lua"
-"game/modules/tome/data/general/events/drake-cave.lua" Khelerd 완
+"game/modules/tome/data/general/events/drake-cave.lua"
+"game/modules/tome/data/general/events/fearscape-portal.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/general/events ---------------------------------
 
