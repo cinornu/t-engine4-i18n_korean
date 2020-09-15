@@ -3,6 +3,7 @@ locale "ko_KR"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/achievements/all.lua"
 
+t("A View From The Gallery", "회랑에서 본 것", "achievement name")
 
 
 ------------------------------------------------
@@ -414,17 +415,180 @@ t("misc", "도구", "entity type")
 t("tool", "도구", "entity subtype")
 t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
+t("Fanged Collar", "송곳니 목줄", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/objects/world-artifacts.lua"
 
+t("Spinal Cage", "등뼈 감옥", "entity name")
+t("gross mass of spinal matter", "척추로 이루어진 커다란 덩어리", "_t")
+t("A gross mass of spinal matter hastily assembled into armour.", "척추로 이루어진 커다란 덩어리가 조잡한 갑옷의 형태를 띄고있습니다.", "_t")
+t("Infused Cerebrum", "주입된 대뇌", "entity name")
+t("a disgusting pile of brain-matter", "역겨운 두뇌 무더기", "_t")
+t("This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "이 #{italic}#모자#{normal}#는 반쯤 썩은 두뇌 물질로 만들어진 것 같습니다. 정말 머리에 쓰실겁니까? 정말로요?", "_t")
 t("%s resists the mental assault!", "%s 정신 공격에 저항했다!", "logSeen", nil, {"는"})
+t("Writhing Ring of the Hunter", "사냥꾼의 몸부림치는 반지", "entity name")
+t("green slimy ring", "초록색의 끈적이는 반지", "_t")
+t("A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "뒤틀린 촉수 덩어리가 거칠게 비틀려 반지의 형상을 갖게 되었습니다. 어둡고 악의 가득한 힘이 반지에서 뿜어나옵니다.", "_t")
+t("When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "반지를 처음 착용 시, 반지는 착용자에게 적응해, 특수 기술을 하나 더 선택 할 수 있도록 해줍니다. 해당 특수 기술은 반지를 착용하고 있을 때, 영구적으로 적용됩니다. 한 번 선택한 특수 기술은 변경할 수 없습니다. 만약, 처음 착용 시, 특수 기술을 선택하지 않았다면, 다시 착용했을 때 특수 기술을 선택합니다.", "_t")
+t("#DARK_SEA_GREEN#While the ring senses battle it grips your finger so hard you can not take it off.", "#DARK_SEA_GREEN#반지가 전투가 일어났음을 느끼자, 손가락에 딱 달라붙어서 빠지지가 않는다.", "logPlayer")
+t("#DARK_SEA_GREEN#As you put the %s on your finger, you feel more attuned to the horror within you.", "#DARK_SEA_GREEN#%s 손가락에 끼자, 내면에 자리잡은 공포에 더 익숙해 진 것 같다.", "logPlayer", nil, {"를"})
+t("Staff of Bones", "뼈의 지팡이", "entity name")
+t("bone staff", "뼈 지팡이", "_t")
+t("A staff made out of the bones of fallen foes. Disgustingly powerful.", "쓰러진 적들의 뼈로 만든 지팡이로 역겨울 정도로 강력합니다.", "_t")
+t("It seems willing and able to talk to you (use Command Staff).", "착용자와 대화하길 원하는 것 같습니다 (지팡이 다루기 사용).", "_t")
+t("Growing more powerful? Still pathetic compared to a True Necromancer!", "더 강해지고 싶어? 진정한 강령술사에 비하면 한심한 수준인데!", "_t")
+t("Ahh the rush of power... I love that!", "아 힘의 쇄도... 너무 좋아!", "_t")
+t("What feeble power you wield now is nothing!", "네 힘 따위는 아무 것도 아니야!", "_t")
+t("Yes yes you've leveled up, so what?", "그래, 너 레벨업했다 어쩔래?", "_t")
+t("One more level, that's hardly impressive you know?", "레벨업, 솔직히 별로 기쁘진 않지?", "_t")
+t("If you weren't so useless I'd be nearly impressed by that new level...", "니가 좀 더 쓸모 있었다면, 레벨업할 때 깊은 인상을 받았을지도 몰라...", "_t")
+t("KILL! KILL!", "죽여라! 죽여!", "_t")
+t("We require more souls!", "우린 영혼이 더 해!", "_t")
+t("Destroy them all! OBEY!", "놈들을 박살내! 복종하라!", "_t")
+t("FEED ME!", "원혼을 줘!", "_t")
+t("I nee ..err.. you need more souls. Yes you...", "나는 더 많은.. 영ㅎ.. 너는 영혼이 더 필요해. 그래... 바로 너...", "_t")
+t("Pain and misery, spread them!", "고통과 괴로움을 퍼뜨려!", "_t")
+t("I love the smell of a fresh corpse.", "음 나는 신선한 시체 냄새가 좋더라.", "_t")
+t("Splatter me with the blood of our foes!", "적들의 피로 나를 적셔줘!", "_t")
+t("That one wasn't such an impressive kill...", "방금 거는 그렇게 인상적이지 않은 것 같은데...", "_t")
+t("Getting a bit sloppy on the kills no?", "너 좀 대충한거 같다?", "_t")
+t("Forbidden Tome: \"Of Knowledge And Horrors\"", "금지된 고서 : \"지식과 공포에 관해\"", "entity name")
+t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "잃어버린 지식의 두꺼운 고서로, 만지기만해도 토할 것 같습니다.", "_t")
+t([[The book of horrors,
+the book of terrors,
+the book of pain,
+the book of gain,
+the book of insanity,
+the book of lunacy.
+
+It which reads the book shall know pain beyond pain.
+Read now for a fate worse than death inside awaits.
+]], [[두려움의 책,
+공포의 책,
+고통의 책,
+획득의 책,
+광기의 책,
+정신 이상의 책.
+
+책을 읽은 이는 고통 너머의 고통을 알게될 것이다.
+읽어라. 죽음보다 더 극심한 운명이 기다린다.
+]], "_t")
+t("Forbidden Tome: \"The Day It Came\"", "금지된 고서 : \"그것이 온 날\"", "entity name")
+t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 댓가로 치뤄야할까요?", "_t")
+t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 떄, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '교사'로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
+t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이 일은 일어나지 않았다.", "_t")
+t("Hithre", "하이트르", "_t")
+t("The importance of power (+3% spell critical chance)", "힘의 중요성 (주문 치명타 확률+3%)", "_t")
+t("The importance of thought (+10 spell save)", "사고의 중요성 (주문 내성 +10)", "_t")
+t("The importance of magic (+5 magic)", "마법의 중요성 (마법 +5)", "_t")
+t("The importance of wisdom (+5 willpower)", "지혜의 중요성 (의지 +5)", "_t")
+t("The Day It Came", "그것이 온 날", "_t")
+t("This chapter has taught your some important lesson. What did you learn?", "이 장은 당신에게 중요한 교훈을 가르칠 것입니다. 배우시겠습니까?", "_t")
+t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서 : \"회랑에서 본 것\"", "entity name")
+t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "그룽, 부족에서 떨어저 나온 하플링으로, 고대의 끔찍한 전쟁에서 살아남으려고 노력합니다. 그에 대한 이야기입니다", "_t")
+t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "오늘 밤은 매우 춥고, 당신은 낮 동안 먹을 것을 아무것도 찾지 못했습니다. 당신의 털가죽은 추위를 막아주는데 별 도움이 되질 않습니다. 당신은 사냥하러 나갈 참이지만, 다른 사람들은 모두 그러지 말라고 말렸습니다. 밤은 위험하고, 하늘에서는 이상한 빛이 나타났습니다. 과장없는, 불길한 징조. 요즘 식량을 얻기가 꽤 힘들어 졌기 때문에, 모든 부족민이 당신만큼 굶주려 있습니다.", "_t")
+t("Poor Grung. All he wanted was food, but what he found instead was death.", "가엾은 그룽. 그가 원한건 단지 식량이였는데, 결국엔 죽어버렸습니다.", "_t")
+t("Grung", "그룽", "_t")
+t("Main protagonist", "주인공", "_t")
+t("The importance of evading blows (+10 defense)", "회피의 중요성 (회피도 +10)", "_t")
+t("The importance of speed (+10% movement speed)", "속도의 중요성 (이동속도 +10%)", "_t")
+t("The importance of reflexes (+5 dexterity)", "반사신경의 중요성 (민첩 +5)", "_t")
+t("The importance of a honed mind (+5 cunning)", "연마한 마음의 중요성 (교활 +5)", "_t")
+t("A View From The Gallery", "회랑에서 본 것", "_t")
+t("This chapter has taught your some survival tips. What did you learn?", "이 장은 당신에게 중요한 생존 전략을 가르칠 것입니다. 배우시겠습니까?", "_t")
+t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서 : \"환상의 성\"", "entity name")
+t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "당신 앞에 놓인 고서는 꿈에서나 나왔을 것 같은 가죽과 양피지로 이루어저 있습니다. 수정 조각이 표면에서 기이한 빛으로 춤을 추고 있어, 불가해한 논리에 세상이 변하가는 것 같은 느낌을 받습니다.", "_t")
+t([[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
+
+Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[고서 안의 세계는 성 한 채를 묘사하고 있습니다. 적어도, 성 같다는 느낌이 듭니다. 고서 내부는 꿈과 같은 느낌을 주며, 당신은 깨어있는지, 아닌지 스스로 되묻게 됩니다. 유리 벽은 얕은 빛으로 일렁이며, 또 셀 수 없이 많은, 그러나 어디서 왔는지 알 수 없는 빛을 투과하고, 반사하고 있습니다.
+
+끊임 없이 변화하고 바뀌는 벽과 길로 보건대, 이 장소는 탐험하기 힘들 것 같다는 확신이 듭니다.]], "_t")
+t("gross", "두꺼운", "entity subtype")
 t("misc", "도구", "entity type")
+t("Cut Drem Arm", "잘린 드렘 팔", "entity name")
+t("bloody arm", "피묻은 팔", "_t")
+t("The arm appears desiccated, but you swear that you see something wriggling underneath its ashen skin.", "이 팔은 말라 비틀어진 것 같지만, 맹세하건대, 이 잿빛 피부 밑에서 뭔가 꿈틀거린 것을 봤습니다.", "_t")
+t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "가끔 팔이 반경 5 칸 내의 적을 향해 길게 늘어지고, 촉수로 휘감이 착용자에게로 끌어당깁니다. 이 행동은 착용자의 의지대로 행할 수 없으며, 팔 스스로의 자각력에 의한것입니다.", "_t")
+t("#DARK_SEA_GREEN#The %s reaches for %s with a tentacle!", "#DARK_SEA_GREEN#%s %s 촉수 팔로 조였다!", "logSeen", nil, {"는","을"})
+t("Monolith Armour", "거석의 갑옷", "entity name")
+t("black stone armour", "흑석 갑옷", "_t")
+t("This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "이 '갑옷'은 룬이 세겨진 바위와 높은 유연성을 가진 검은 그물의 융합물로 이루어 진 것 같습니다. 거석은 의심할 여지 없이 당신에게 가해지는 공격을 막아낼 테지만, 착용하고, 움직이라면 말도안되는 힘이 필요합니다. 거석에 새겨진 문양과 룬들은 때때로 저절로 빛을 내, 작은 마법 폭발을 일으킵니다.", "_t")
+t([[15% chance when hit to shatter reality around you creating rifts to help you (free cast of a Reality Fracture talent, level 4). This effect has a 30 turns cooldown.
+#PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], [[피격 시 15% 확률로, 주변의 현실 구조를 찢고, 균열을 만들어 적을 공격합니다. (현실 균열 기술을 턴과 원천력 소모 없이 사용합니다. 기술 레벨은 4 입니다) 이 효과는 30 턴의 재사용 대기시간이 존재합니다.
+#PURPLE#만약 착용자의 체격이 이 갑옷의 요구 조건 이하로 감소한다면, 참을 수 없이 무거운 이 갑옷을 자동으로 장비 해제합니다. 조심하십시오.#LAST#]], "_t")
+t("#LIGHT_RED#Your %s is too heavy to carry with your punny constitution anymore. You remove it.", "#LIGHT_RED#당신의 %s 당신의 부족한 체격 능력으로는 더 이상 장비할 수 없다. 당신은 갑옷을 벗어던졌다.", "logPlayer", nil, {"는"})
+t("Fanged Collar", "송곳니 목줄", "entity name")
+t("a necklace with fangs", "이빨 달린 목걸이", "_t")
+t("This strange creature seems to melt around your neck, keeping its mouth open just wide enough so that its teeth do not touch you. You suspect that in the case your head somehow goes missing, the creature is going to make itself at home in your neck stump.", "이 기이한 생명체는 착용자에게 이빨이 닿지 않게끔, 그저 입을 연 채로 목에 융합한 것 같습니다. 착용자의 머리가 어떻게든 잘려나가면, 이 생명체가 목에 대신 자리잡고 새 둥지를 틀 것 같다는 꺼림칙한 생각이 듭니다.", "_t")
+t("Try to not die...", "죽지 마십시오...", "_t")
+t("You have died, but that does not bother the collar at all...", "너는 죽었다. 하지만 목줄에게는 아무 문제가 되지 않지...", "_t")
+t("Perseverance", "인내심", "entity name")
+t("always sharp blade", "항상 예리한 칼", "_t")
+t([[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
+The sword symbolizes the krogs committment to their task of fighting against the forces of the arcane. With each slash the krog would endevor to continue, until at last their opponents would fall.]], [[크로그들은 보통 한 손에는 둔기를, 한 손에는 검을 든다고 알려져 있습니다. 한 손으로는 지구랏의 전언을 퍼뜨리며, 다른 한 손으로 그 전언을 실행합니다.
+검은 마법에 힘에 맞서 싸우는 크로그들의 의무와 서약을 의미합니다. 수 많은 공격 시도 끝에, 결국 크로그의 적은 쓰러질 것입니다.]], "_t")
+t("restore 7 stamina and equilibrium", "기력과 평정을 7 회복합니다", "_t")
+t("#LIGHT_BLUE#As you wear the sword you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#칼을 쥐자 칼이 당신의 크로그 본성에 동화되는 것을 느낀다. 힘이 모인다!", "logPlayer")
+t("#AQUAMARINE#As the twin weapons of the Krogs are reunited you can feel bursting with power!", "#AQUAMARINE#크로그의 쌍둥이 무기가 하나로 모여 힘이 폭발함을 느낄 수 있다!", "logSeen")
+t("#AQUAMARINE#The twin weapons of the Krogs de-power as you separate them.", "#AQUAMARINE#크로그의 쌍둥이 무기가 서로 멀어지자, 힘이 약화되었다.", "logPlayer")
+t("Dedication", "헌신", "entity name")
+t("always blunt mace", "항상 뭉툭한 둔기", "_t")
+t([[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
+The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], [[크로그들은 보통 한 손에는 둔기를, 한 손에는 검을 든다고 알려져 있습니다. 한 손으로는 지구랏의 전언을 퍼뜨리며, 다른 한 손으로 그 전언을 실행합니다.
+둔기는 마법의 힘에 마지막 일격을 가할 때 까지 기꺼이 참고 인내하겠노라는 의지를 상징합니다. 일반적으로 이 둔기는 마법사를 두들겨 패, 기절시켜 마법 시전을 막아버리는 용도로 사용됩니다. ]], "_t")
+t("#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#둔기를 쥐자 칼이 당신의 크로그 본성에 동화되는 것을 느낀다. 힘이 모인다!", "logPlayer")
+t("It is said perseverance comes hand in hand with dedication.", "인내는 다른 손에 헌신을 쥐고 온다고 합니다.", "_t")
 t("charm", "부적", "entity type")
 t("totem", "토템", "entity subtype")
+t("Persistent Will", "집요한 의지", "entity name")
+t("ever burning stake", "영원히 불타는 말뚝", "_t")
+t([[During the Age of Dusk a rash of anti-magic activities took place in the Nargol Kingdom immediately after the Spellblaze. Citizens would turn on those with magical powers, burning them alive on stakes of wood. When the authorities found the perpetrators they executed them and planted their heads on stakes throughout their capital city.
+Despite this however, the citizenry continued to burn alive the enemies of nature. Unbeknownst to the authorities, the heads of the dead perpetrators continued to spread their message long after their deaths.
+
+This stake of wood appears to one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], [[황혼의 시대, 마법폭발 이후 나르골 왕국에서의 반마법 활동이 급격하게 증가했습니다. 시민들은 마법의 힘을 다루는 이들에 맞서, 산 채로 말뚝에 꽂고 화형을 집행 했습니다. 가해자들은 즉시 치안관들이 처형하고, 그 머리를 말뚝에 박아 나르골 왕국의 수도 도처에 설치했습니다.
+하지만, 이럼에도 불구하고, 시민들은 계속 자연의 적들을 산 채로 불태웠습니다. 권력자들은 죽은 가해자들의 머리가 죽고 나서도 민중을 선동했음을 모릅니다.
+
+이 나무 말뚝은 처형한 머리가 꽂혀있었을 것 같습니다. 말뚝은 꽂혀있던 머리의 의지를 일부 흡수해, 들고있노라면 지구르의 전언이 머릿속에서 울려퍼집니다.]], "_t")
+t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "반경 10 칸 내의 모든 비 마법 사용자들을 마법을 사용하는 동료들에게 강제로 적대하게합니다. 이 효과는 6 턴 동안 지속되며, 확률은 정신력에 비례합니다.", "tformat")
+t("Worm Nest", "구더기 둥지", "entity name")
+t("disgusting robe", "역겨운 로브", "_t")
+t("This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "이 이상하게 두꺼운 로브는 계속 꿈틀거리고 작게 움직입니다. 가끔 구더기들이 튀어 나와, 땅바닥에 떨어집니다. 구더기들은 착용자에게 가해지는 피해를 일부 흡수하지만, 이렇게나 많은 기생성 생명체를 연약한 피부에 가까이하는 것은 그렇게 좋은 생각 같진 않습니다.", "_t")
+t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#구더기들이 당신의 변이된 피부에 쉽게 파고듭니다.", "logPlayer")
+t("disturbing lantern", "방해하는 랜턴", "_t")
+t("Light of Revelation", "계시의 빛", "entity name")
+t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "이 \"랜턴\" 은 유리 비슷한 물체가 그저 빛을 내고있습니다. 얼마나 밝게 빛나던 간에, 이 빛은 당신을 심각하게 방해합니다. 빛은 모든 것을 밝히고, 일깨워, 보지 않아야 할 것들 마저 비춰줍니다. 마음 한 켠에서는 이 랜턴을 버려버리고 싶어하지만 다른 한 구석에서는 이 랜턴이 밝혀줄, 이 세상의 것이 아닌 진실을 알고싶다는 생각이 듭니다.", "_t")
+t("Sometimes reveals the hidden truths you'd rather not see.", "가끔 착용자가 보지 못했던 숨겨진 진실을 밝혀줍니다.", "_t")
+t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#계시의 빛이 %s 비춰, 진실된 본성인 %s 나타나게했다!", "say", nil, {"를","가"})
+t("Glowing Core", "빛나는 핵", "entity name")
+t("burning core", "불타는 핵", "_t")
+t("This is all that's left of the Searing Horror. Even after its death, the object in your hand glows just as brightly as it did before.", "불사르는 공포가 남긴 유일한 물품입니다. 죽음 이후에도, 당신 손에서 찬란한 빛을 뿜어내고 있습니다. 전에도 그랬던 것 처럼..", "_t")
 t("Shoes of Moving Slowly", "느린 이동의 신발", "entity name")
-t("%s activates %s %s!", "%s %s의 %s을 발동했다!", "logSeen", nil, {"는"})
+t("restful shoes", "휴식의 신발", "_t")
+t([[Fast does not always win.
+
+#GOLD#Rumoured to be able to combine with the Shoes of Moving Quickly.]], [[발 빠른 자가 항상 승리하지는 않는 법이다
+
+#GOLD#빠른 이동의 신발과 합칠 수 있다는 소문이 있습니다.]], "_t")
+t("Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.", "움직이지 않을 때마다, 회피도와 방어력이 2 상승합니다. 이 효과는 최대 12 번 중첩 가능합니다.", "_t")
+t("combine it with the Shoes of Moving Quickly", "빠른 이동의 신발과 합칩니다", "_t")
+t("You need to have the Shoes of Moving Quickly in your inventory.", "가방 안에 빠른 이동의 신발이 있어야한다.", "logPlayer")
+t("Shoes of Slowly Moving Quickly", "느리지만 재빠른 이동의 신발", "_t")
+t("A wonder of footwear! You can set a shoe to stay in place while the other one goes very fast, spinning around to create tornados!", "모든 신발 중 으뜸입니다! 신발 한 짝이 가만히 있는 동안, 다른 한 짝은 매우 빠르게 이동할 수 있습니다. 빠른 속도로 회전해 용오름을 만들 수도 있습니다!", "_t")
+t([[Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.
+You move 3 spaces at once.]], [[움직이지 않을 때마다, 회피도와 방어력이 2 상승합니다. 이 효과는 최대 12 번 중첩 가능합니다.
+한 번에 3 칸 움직입니다.]], "_t")
+t("As you combine the two pair of shoes you make something marvelous: %s", "두 신발을 합치자 굉장한 걸작을 만들어냈다! : %s", "logPlayer")
+t("light sucking rod", "빛을 흡수하는 장대", "_t")
+t("Rod of Entropy", "엔트로피의 장대", "entity name")
+t("This rod seems to make light die around it. You feel tired just looking at it.", "이 장대는 주변의 빛을 죽여버리는 것 같습니다. 보는 것만으로도 피곤해집니다.", "_t")
+t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 엔트로피 반발을 적에게 일으켜, 대상이 받는 모든 회복 효과를 %d 턴 동안 회복량의 최대 %d%% 의 피해를 입게 합니다. 이 효과는 마법에 비례하여 증가합니다.", "tformat")
+t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
+t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
+t("corrupt stone", "타락한 돌", "_t")
+t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 메말라버린 촉수 덩어리는 감염되어, 자연물과 비자연물 사이의 기이한 융합을 만들어 내는 마석같습니다. 한 때, 깨끗했던 보석은 이제는 채찍같은 촉수가 달린 검은 흑요석 조각처럼 변해버렸습니다. 공포의 영향이 자연 그 자체와 융합할 수 있을거라 생각하고 싶지 않습니다.", "_t")
+t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 폭발을 대상에게 시전합니다", "_t")
 
 
 ------------------------------------------------
@@ -551,7 +715,7 @@ t("At the center of the strange contraption you see a picture. You are not quite
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
 
-t("Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "페이 윌로우즈의 탈출기 [1권, 제 1장] - 마법 폭발의 참상", "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "페이 윌로우즈의 여행기 [1권, 제 1장] - 마법 폭발의 참상", "_t")
 t([[[i]I remember the devastation when I first made my journey to Elvala. Not a soul escaped the touch of the Spellblaze and no one could feel the pain and sorrow of the lands more than a thalore. I know that those back home still seethe with rage and anger as even now I still sometimes feel my emotions from that moment. It was a terrible day I wish I could forget but never will.[/i]
 
 If I were to describe my years growing up in my birthplace, it would be summed up pretty easily as 'boring, uneventful, and repetitive'. I grew up in forests that no longer exist, collecting wood from fallen and dead trees while planting and cultivating new trees to grow. The wood I collected was stored in a large stockpile behind my house and used to fashion staves or bows by other skilled thaloren who lived nearby for sale abroad. The proceeds from our exports was used to buy items we couldn't readily find in our forests or in the lands of the humans or halflings nearby.
@@ -601,7 +765,7 @@ A bit perplexed to this I sat there looking confused. For a moment we stared at 
 두 늑대가 재빠르게 도망가고 나니, 다른 놈들도 금방 꼬리를 내렸다. 내 상처를 확인하기 위해 잠깐 앉았다. 상처는 고통스럽게 벌어져 있었지만, 난 그때 별로 고통을 느끼지 못 했다. 주입물을 꺼내서 상처를 치료하기 시작했다. 그러는 동안 뒤에서 목소리가 들려왔다. 그제서야 아직 그가 거기 남아있었던 것을 알아차렸다. 샬로렌이 다가오자 나는 고개를 돌렸다. 다가와서 곧장 내 얼굴을 쳐다봤다. 그리곤 멈춰 서서 멍한 얼굴로 날 쳐다봤다.
 
 나는 당황하며 그 자리에 않아 있었고, 잠깐동안 우리 둘 사이에 침묵이 흘렀다. "당신은 탈로레군요" 샬로레가 말했고, 난 눈을 몇 번 끔뻑거리다가 맞다고 대답했다. 정신 차리기 전까지 잠깐 멍하니 있었다. 여기서 뭘 하냐고 물었다. 그런 말을 들으면서, 뭐라고 대답해야 할지 고민했다. 날 이끌던 분노는 이미 거의 사라져버렸고, 여기까지 왜 왔는지 이유도 알 수 없었다. 조금 더 앉아 있다가 대답했다. "그 이유를 알아내기 위해 여기까지 왔소." ]], "_t")
-t("Escapades of Fay Willows [Book 1, Chapter 2] - Infusion Avoidance", "페이 윌로우즈의 탈출기 [1권, 제 2장] - 주입물 기피", "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 2] - Infusion Avoidance", "페이 윌로우즈의 여행기 [1권, 제 2장] - 주입물 기피", "_t")
 t([[[i]I've never really understood why people so readily gave their names. Among the thaloren I scarcely knew the names of anyone, save for that of family or those considered as such. I remember a dwarf merchant that once visited my homeplace. He seemed to think that whatever title he held meant something. Really names mean nothing, and I could deal with a human or halfling merchant the same as that dwarf. I don't need to know your name to deal with you.[/i]
 
 For another brief moment there was silence. In his mind he seemed to mule over the meaning of what he said, but seemingly understood what I was after. As he took a moment to think as I glanced him over. Both the shalore's face and clothing was quite rugged and I noticed a quiver along with a dagger at his side. I would have figured him for a hunter but the way he spoke seemed to disciplined for it. He probably was of a military background, most likely a scout for the shaloren military. I also noticed the blood streaming down his arm from an untreated wound.
@@ -643,7 +807,7 @@ Reaching into my pack to pull out some more infusions to finish my job I heard t
 이런 무관심한 말투에 나는 경이로울 정도였으나, 부상을 입은 탈로렌에게서 나는 기침 소리를 듣고 나는 입을 다물었다. 일단은 부상당한 샬로렌을 치료하는 게 우선이라고 생각하며, 나는 가건물로 걸어갔다. 나는 그들에게 감긴 붕대를 모두 제거하고 이내 치료를 시작했다. 내 주입물을 쓰자 그들의 벌어진 피부가 빠르게 닫히고 몸이 빠르게 회복되었다. 내 주입물을 모두 썼음에도 완전히 회복되진 않았으나, 내가 치료한 두 샬로레는 이전보다 훨씬 나아졌다.
 
 치료를 마무리하기 위해 주입물을 꺼내려고 내 짐에 손을 뻗었을 때, 대장이 말하는 것이 들렸다. "그거면 충분하네." 나는 경악스러움에 고개를 확 돌렸다. 난 입을 다물고 있지 않기로 했다. "저들을 치료하는 걸 원치 않기라도 합니까?" 다소 외교적인듯한 대답이 돌아왔다. "이제 저들이 곧 죽을 것 같지는 않네. 그렇지 않나? 자네가 가진 그 주입물들, 그건 한정된 자원이지. 더 죽음에 가까워진 자들을 위해 남겨두는 게 좋을 거야." 나는 조금 진정한 뒤, 그 샬로레 대장이 말한 바에 대해 의문이 들었다. 그리고 나는 물었다. "무슨 뜻입니까? 누구를 위해 남긴다구요?""]], "_t")
-t("Escapades of Fay Willows [Book 1, Chapter 3] - Shaloren Suffering", "페이 윌로우즈의 탈출기 [1권, 제 3장] - 샬로레의 고통", "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 3] - Shaloren Suffering", "페이 윌로우즈의 여행기 [1권, 제 3장] - 샬로레의 고통", "_t")
 t([[[i]While the shaloren are no longer as lost as they seemingly were when I first entered Elvala, I can still see the searching expressions on their faces even now as I write this. It is as if they feel a similar loss to whatever it is they are connected too in the same way the thalore feel the devastation of nature. I do not know what connection the arcane and nature have, but I know it is shared relationship, and strain on one will result in strain on the other. [/i]
 
 Aware of the suffering of the other shaloren, it was soon explained to me that there were other groups of rangers relocating refugees from the other settlements to their capital. I can't say I had any interest in helping the other shaloren, and personally felt that I was simply being dissuaded from using my infusions anymore than I had to on the casualties I had just treated. However, the scout being aware of my attentions helped to broker a deal - if I help the rangers in their duties of rescuing as many of the shaloren as possible, they would help me get the answers I sought.
@@ -681,7 +845,7 @@ As the healer finished writing he handed the paper to me "The shalore and thalor
 이내 우리는 진흙탕을 지나갔으며 가는 동안 이곳저곳에 아무렇게나 세워진 천막을 피해서 지나가야 했다. 그리고 커다란 건물에 도달했다. 그 안에는 부상을 입은 수많은 샬로레들이 침대에 누워 있었다. 몇몇은 바닥에 누워있었다. 건물 안으로 바로 들어가지 않고 그 뒤로 돌아가 치유사의 사무실 같은 곳으로 들어갔다. "주입물 합성을 위한 기초적인 지식은 알고 있나?" 그가 나에게 물었다. "간단한 진통 효과나 재생력을 불어넣는 주입물이라면 알고 있소." 그렇게 대답했다. 치유사는 고개를 끄덕이며 종이 한 장을 꺼내 무언가를 적어내리기 시작했다.
 
 이내 그것을 다 쓴 뒤 나에게 종이를 건넸다. "샬로레와 탈로레는 주입물에 관련해선 생물학적으로 거의 동일하지. 그러니 당신이 쓸 수 있는 건 샬로레도 쓸 수 있을 거요. 이게 지금 우리가 쓸 수 있는 주입물 재료들이요. 당신이 주입물을 만들 수 있도록 작업소로 데려다 주겠소." 치유사는 일어나 선반에서 열쇠를 집어들었다. 그는 나를 주입물 작업소가 있는 지하실로 안내했다. 그는 잠긴 문을 열고 열쇠를 나에게 건네며 나를 그 안으로 인도했다.]], "_t")
-t("Escapades of Fay Willows [Book 1, Chapter 4] - Medical Treatment", "페이 윌로우즈의 탈출기 [1권, 제 4장] - 의료 처치", "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 4] - Medical Treatment", "페이 윌로우즈의 여행기 [1권, 제 4장] - 의료 처치", "_t")
 t([[[i]It still strikes me how adverse the shaloren are to infusions. Seemingly they would rather tempt fate than avoid using them. One of the purposes of infusions is to restore one to good health after suffering an injury, but for a shalore it was more a means of last resort to avoid dying. What's more, they seem to fail to understand that holding off on infusion use simply results in them using infusions more in the long run, as beyond just mending their flesh they will have to stave off infection from their open wounds as well.[/i]
 
 Over the next few days I mixed and created several infusions for use by the shaloren. The workshop contained all the amenities for sleeping, and the healer would often bring basic food staples and drink to me. Well, I should say to the shalore it may have been basic food and drink, but by thalore standards I was treated pretty lavishly. I mean, I know the dwarves treat alcohol as a staple good for consumption but apparently so did the shaloren with the amount of wine I was given. Anyhow, how I was treated was quite better then I would have expected to be sure.
@@ -723,7 +887,7 @@ The soldier led me to the center of the city where a grand building lay. After m
 잠시 후 부상을 입은 병사들의 수는 줄어들었고, 치료한 후에는 휴식조차 필요 없다는 자들이 대부분이었다. 상당수의 병사들이 완쾌되자, 의무관 주임이 다가와 샬로렌을 대표하여 감사를 표했다. 그 순간 내가 애초에 이곳에 오게 된 이유를 떠올렸고, 내가 했던 거래에 대하여 충분히 할만큼 했다고 말했다. 의무관 주임은 고개를 끄덕이며 내 뒤를 쳐다보았다. 그러자 병사 한명이 다가왔다. "부관이 자네를 장군님께 데려다 줄 걸세." 나는 잠시 당혹스러웠으나 그 장군이 지금까지 일어났던 사건들에 대하여 답을 알고 있으리라고 짐작했다.
 
 병사가 안내하는 대로 나는 도시 중앙에 거대한 건물이 있는 곳에 당도했다. 빛나는 판금 갑옷으로 머리부터 발끝까지 중무장한 경비병 몇 명과 만난 뒤에야 안으로 들어갈 수 있었다. 건물의 복도를 걸어 들어가는 데에만 몇 분이 걸렸으며 건물의 끝까지 걸어가는 것 같았다. 마침내 호화로운 구조의 방으로 도착했다. 스트랄라이트와 금으로 만든 장식품들이 벽을 따라 세워져 있었고 샬로레의 역사 속에서 중요한 인물들을 그린 듯한 그림들이 걸려있었다. 부관은 나에게 그곳에서 기다리라고 말한 뒤 근처에 있던 방으로 들어갔다.]], "_t")
-t("Escapades of Fay Willows [Book 1, Chapter 5] - General Aranion Gawaeil", "페이 윌로우즈의 탈출기 [1권, 제 5장] - 아라니온 가웨일 장군", "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 5] - General Aranion Gawaeil", "페이 윌로우즈의 여행기 [1권, 제 5장] - 아라니온 가웨일 장군", "_t")
 t([[[i]General Aranion Gaweil, leader of the Grand Council of Elvala. This was perhaps the first name I ever learned from someone outside my family. While Aranion never gave his name to me personally, the rest of the shaloren certainly banter it around enough to the point that I eventually remembered it. While perhaps there is little to acknowledge from one who readily gives their name, I can perhaps respect Aranion whose name I learned from those around him, and the idolization and fondness that they seemed to speak it with.[/i]
 
 Before long the soldier reappeared and I was ushered into a much more plain room. A desk sat in the middle of the room and a row of windows that viewed the forest to the north behind it. On the side of the room sat what appeared to be an impressive display of armor, and a fierce looking weapon laying in the center. Making my way into the office, I saw who I assumed to be the general, viewing some papers near a table in the corner of the room. He seemed to exude an aura of brilliance that made the other shaloren look dull, though I could sense a weight of something seemingly hang around him.
@@ -757,7 +921,7 @@ The discomfort within my mind was obviously made clear across the desk, but the 
 이 모든 이야기가 끝날 때까지 나는 침묵을 지키며 듣고 있었다. 마법 폭발에 관한 이야기가 끝난 뒤, 샬로렌이 저지른 행위에 대해 어떻게 판단해야 할지 갈피를 잡지 못 했다. 마법 폭발이 이 대지에 불어닥치며 찢을 수 없는 상처를 남겼으나, 이것은 전대미문의 위협을 막아내기 위해 한 행동이었다. 그 행동에 따른 결과로, 모든 샬로렌들은 지금 고통받고 있었다. 그리고 난 그들이 이미 충분한 대가를 치루고 있는 것이라고 생각했다.
 
 내 마음 속에서 감도는 불편함이 탁자 사이에서도 감돌았으나, 장군은 아무 말도 꺼내지 않았다. 마법 폭발의 책임이 어느 정도 그에게도 있다는 것 때문이거나 내가 생각을 정리하는 데에 도움을 줄만한 말을 꺼낼 수 없었기 때문인 것 같았다. 잠시 동안 둘 사이에 침묵이 감돌았으며, 이내 그는 자리에서 일어나 창가 쪽을 바라보고 섰다. 그기 등을 보였으니 나는 그의 표정을 볼 수 없었다. 그러나 지금까지 일어났던 사태들에 대해 심중하게 숙고하고 있음은 알 수 있었다. [i]아라니온, 이걸 지금 읽고 있다면. 알아두시오. 최소한 나는 당신을 용서했다고.[/i] ]], "_t")
-t("Escapades of Fay Willows [Book 1, Chapter 6] - Leaving Elvala", "페이 윌로우즈의 탈출기 [1권, 제 6장] - 엘발라를 떠나며", "_t")
+t("Escapades of Fay Willows [Book 1, Chapter 6] - Leaving Elvala", "페이 윌로우즈의 여행기 [1권, 제 6장] - 엘발라를 떠나며", "_t")
 t([[[i]At the time I had thought Aranion to be quite paranoid, but his ability to perceive the thoughts of others and the activities taking place in the world can be described as unnaturally accurate. While the group that instigates the Spellhunt remains unknown while I write this, they were out there and I would witness their activities firsthand.[/i]
 
 After a time the shalore finally asked "What are planning to do now?" Good question I thought. "I haven't really thought of that yet,” I replied. Though his back was still turned, I could feel the smirk through the back of his head. Turning towards me he seemingly asked "I suppose that you will likely be heading back to your forest, but perhaps on the way you could do something to help us shaloren out. Would you be interested in running some aid supplies for us?" Looks like I'm going to be made use of again I thought, though I then wondered a little bit about the request.
@@ -799,7 +963,7 @@ Putting the chest in my pack, I began to make my way towards the road leading to
 장군에게 감사를 표한 뒤, 룬이 그려진 작은 원 위로 안내받았다. 마법사가 영창을 하며 손을 이리저리 움직이기 시작했다. 주변의 경관이 일렁이며 시야가 흐려졌다. 이내 죽은 나무들과 검게 물들은 강이 보였으며 엘발라의 광경은 사라져갔다. 내 시야가 회복되고 내가 새롭게 도착한 장소의 소리가 들려왔다. 난 자리를 옮겨 황량한 산비탈 아래의 전망을 내다보았다. 주위를 둘러보니 많은 드워프, 인간, 하플링들이 대도시의 무너진 문으로 쏟아지듯 들어가는 것이 보였다. 그곳이 나르골 왕국의 수도인 듯했다.
 
 내 짐 속에 상자를 넣은 뒤, 관문으로 향하는 도로로 걸어갔다. 이 당시에는 몰랐으나, 고향 숲으로 돌아가는 길에 잠시 들를 뿐이라 생각했던 곳은 다른 모험의 시작을 알리는 전조였다. 나는 나르골에서 대학살을 목격하게 된다. 이는 마법 폭발의 피해로 인한 것으로 일축되었으나, 이는 훗날 마법 사냥으로 불리우는 활동의 초기 모습이었다. 마법 사냥은 이제 마즈'에이알 전역에 퍼져 우리 모든 종족을 재앙으로 몰아넣고 있다.]], "_t")
-t("Escapades of Fay Willows [Book 2, Chapter 1] - At The Gates", "페이 윌로우즈의 탈출기 [2권, 제 1장] - 관문에서", "_t")
+t("Escapades of Fay Willows [Book 2, Chapter 1] - At The Gates", "페이 윌로우즈의 여행기 [2권, 제 1장] - 관문에서", "_t")
 t([[[i]While on the surface the Nargols appeared to be in total control of the situation, underneath it all this was very much not to the case. In order to attempt to mitigate trouble they actively attempted to confiscate any and all magical items they could find from the refugees entering the city, and hide their leaders from being assassinated for their parts in the Spellblaze. Spellcasters in their army were sent underground, mindful of the danger they were in, but also not wishing to incite angry citizens further.[/i]
 
 I descended slowly and carefully down the blasted hillside, and crossed over the river where some stones emerged that I could step on. Making my way over burned grass I joined with the procession of refugees making their way towards the city gates. I had to wait a long while as the guards slowly inspected wagons and asked questions of those passing through. While it seemed no one was being turned away, drawing closer I saw one dwarf begin to holler as a guard confiscated an item from him. The dwarf was still hollering when he was allowed entry, a torrent of profanity coming from the dwarf for every step he took inside.
@@ -833,7 +997,7 @@ Soon smiling at me, the messenger began to gesture towards a nearby seat. I wasn
 나는 이빨을 꽉 깨물었다. 심히 곤란한 상황에 빠진 것이 아닌가 걱정했으나, 인간은 또다시 말을 이었다. "걱정 마시게. 당신이 그 하플링에게 한 짓을 가지고 뭐라 하는 사람을 찾을 수 없을 걸. 나도 똑같은 일을 해줄까 생각하고 있었지. 그런 걸 떠들고 다녔다간 결국 두들겨 맞았을 테니까. 누구든지 그 입을 다물게 했을 거야." 전령이 말한 것이 이상하다 느끼며 나는 조심스럽게 대답했다. "그게 무슨 소리요?" 전령은 눈썹을 치켜올리며 말했다. "뭐? 여기 있는 경비병이 그런 하플링을 지켜주기라도 할 것 같은가? 그런 불상사는 요즘엔 흔한 일이라네."
 
 그는 미소를 지으며 옆 자리로 오라고 손짓했다. 그와 대화를 나누는 것에 큰 흥미가 있었던 것은 아니지만, 최근에 있었던 일들에 대해 알 수 있지 않을까 하여 그의 제안을 받아들이기로 했다. 나는 인간의 옆 자리에 가서 앉았으며 먹을 것을 주문했다. 전령은 마법 폭발로 인한 참상에 대해 이야기했으며 내뱉는 문장마다 '마법사들' 대한 폭언을 쏟는 것을 잊지 않았다. 그리고 그가 잃어버린 친구들에 대해서도 말하며 애통해 했다. 잠시 동안 나는 음식을 먹으며 그가 말하도록 두었다. 이상하게도 인간은 내게 이름을 알려주거나 내 이름을 묻지도 않았다. 그런 점에서 보았을 때 그는 탈로레의 관습에 대해서 어느정도 알고 있었던 것 가다. 그와 처음 이야기했을 때 이를 알아채진 않았으나, 이후 내가 겪게 되는 사건 속에서 이를 실감했다.]], "_t")
-t("Escapades of Fay Willows [Book 2, Chapter 2] - Exchange of Information", "페이 윌로우즈의 탈출기 [2권, 제 2장] - 정보 교환", "_t")
+t("Escapades of Fay Willows [Book 2, Chapter 2] - Exchange of Information", "페이 윌로우즈의 여행기 [2권, 제 2장] - 정보 교환", "_t")
 t([[[i]You know, it is really hard to know someone. The messenger was a good example of this, as I would soon find out. I had pegged him for being a disgruntled human that had suffered greatly because of the Spellblaze. In reality he was much more than just disgruntled, and I believe he may have been a member of the group instigating the Spellhunt. I'm sure he and the others who had left after with that human in the dark cloak died taking part in a nefarious plot that I would learn the day after. But did he die willingly? That's the real question I think about now in regards to him.[/i]
 
 Finishing my meal, I decided to probe the messenger for information. Upon the completion of his last tirade I asked, "So how are things faring here?" A sigh escaped the man as he answered, "Well, the Nargols appear to have everything under control. They are managing to get enough food for all the refugees streaming in; even managed to procure some alcohol for those dwarves. I have to say it was quite a surprise to see them out here. I wonder if they happen to have anymore homes elsewhere on the continent outside of the Iron Throne. Hard to really know with how secretive the dwarves are though."
@@ -901,7 +1065,7 @@ Moving away from the market I wondered what other scenes of chaos I might see if
 혼란을 수습하기 위해 경비병들이 오기 전까지 몇 분간 이 사태는 지속됐다. 경비병들이 집결하는 몇 분 사이에도 그 피난민 폭도들은 시장을 엉망진창으로 만들어놓고 있었다. 마침내 경비병들이 그들을 진압하기 위해 나섰을 때, 피난민들은 뿔뿔이 흩어져 달아났다. 그들이 휩쓸고 지나간 자리엔 부상을 입은 상인과 고객들, 쓰레기 더미들이 즐비했다. 사태가 진정되자, 몇몇 경비병들이 다가와 안부를 묻고 무슨 일이 있었는지 물어보았다. 난 내가 봤었던 것들을 가감없이 그들에게 알려주었다. 내 이야기가 끝나자 이 자리에서 물러나 달라는 지시를 받았다.
 
 시장을 떠나며 나는 나르골에 남아있는 동안 다른 난장판을 또 보게 되지는 않을까 생각했다. 이번엔 화를 면했지만, 또 어디선가 시장에서처럼 얻어맞고 땅 위를 구르게 될지 모르는 일이었다. 그렇게 생각하고 도시의 관문으로 돌아가기로 했다. 관문으로 가는 도중에, 피난민들의 무리와 심지어 몇몇 시민까지 한 곳으로 모여드는 것을 볼 수 있었다. 그들을 지나쳐야 했으나 나는 이내 그들 너머로 한 목소리가 울려퍼지는 것을 들었다. "행동에 나설 때가 왔습니다. 이 모든 해악의 배후에서 이 모든 일을 획책한 자들에게 대항해야 합니다. 그 말을 듣자 나는 고개를 돌렸다. 무슨 말을 하는 것인지 들어야 한다는 느낌이 드었다. 난 목소리에 이끌려 청중의 대열에 합류하였다.]], "_t")
-t("Escapades of Fay Willows [Book 2, Chapter 4] - Despicable Atrocities", "페이 윌로우즈의 탈출기 [2권, 제 4장] - 비열하고 잔악무도한", "_t")
+t("Escapades of Fay Willows [Book 2, Chapter 4] - Despicable Atrocities", "페이 윌로우즈의 여행기 [2권, 제 4장] - 비열하고 잔악무도한", "_t")
 t([[[i]Was it anger against magic that drove people to the acts of violence against mages in the aftermath of the Spellblaze or was it perhaps something else? While I can't say I am an expert on the humans, halflings, or dwarves; the depravity I would witness on the street leading out of the Nargol Kingdom would go beyond what I would expect to have been possible for any sentient being to do.[/i]
 
 As I peered in the voice rang out again. "Aimlessly your anger is directed against those who do not deserve it, I say direct it against the source of all the tragedies that have been inflicted" I began to push my way through the crowd, wondering who was speaking or what they were speaking about. The voice continued, "Wherever magic is found, it will eventually fail and bring calamity. The fire from this morning was an example of this, as a bunch of refugees broke into the warehouse where their confiscated magical items were stored to retrieve them. In their hubris they burned down the building with the arcane powers found within the items therein."
@@ -943,7 +1107,7 @@ A group of the Nargol Guards would eventual appear and they began to gather them
 이 끔찍한 행위들을 나는 더 이상 참을 수 없었으나, 그 이후에 이어진 목소리는 훨씬 더 역겨운 것이었다. "모두들 잘 하셨습니다. 그러나 이 세계를 안전하게 지키기 위해선 더욱 정진해야 합니다." 목소리가 이어졌다. "당신들도 원한다면 자연을 위한 싸움에 동참할 수 있습니다. 우리를 끔찍한 재앙으로 몰아넣었던 마법의 힘이 세상을 다시는 위협하지 못 하리라 약속합니다. 저에게 오십시오. 에이알을 구하기 위한 우리의 뜻에 함께하는 동지로서." 이때 나는 군중 속으로 가면을 쓴 자들이 숨어드는 것을 볼 수 있었다. 그들의 목표는 충분히 이뤄졌다. 나는 머지않아 군중들이 이 말에 얼마나 큰 영향을 끼쳤는지 알게 된다.
 
 나르골 경비병 무리가 마침내 나타나 군중을 해산시키고 사태를 진정시키기 위해 집결했다.  군중은 경비병들에게 조금 저항하는 듯했으나, 이내 많은 이들이 건물 사이의 어두운 골목길과 피난민들의 천막 사이로 흩어졌다. 경비병이 곧 통제를 되찾자, 그들은 꺼져가는 불과 다 타버린 시체로 눈을 돌렸다. 죽은 자들의 연인과 친구들로부터 분노한 울음 소리가 울려퍼졌다. 나는 이 광경을 더 이상 감당할 수 없었고, 이내 발길을 돌려 끔찍한 살육의 현장에서 떠났다. 그러나 한 천막을 지날 때 손이 뻗쳐나와 나를 안으로 끌어들였다.]], "_t")
-t("Escapades of Fay Willows [Book 2, Chapter 5] - Psionic Trickery", "페이 윌로우즈의 탈출기 [2권, 제 5장] - 정신 조작", "_t")
+t("Escapades of Fay Willows [Book 2, Chapter 5] - Psionic Trickery", "페이 윌로우즈의 여행기 [2권, 제 5장] - 정신 조작", "_t")
 t([[[i]I'm told that what I likely witnessed in the tent was the result of a psionic slaver. Using my own psyche against me, a manifested image of my own thoughts emerged for which the slaver could use against me. I had been lucky as I had managed to free myself from the slaver's hold, dispelling the image. Had I not done so, it was entirely possible that I could have become enthralled to the slavers will and made to do their bidding unquestioningly.[/i]
 
 I hit the ground hard as a landed towards the back of the tent. Dazed I began to stand to look up at who had thrown me, coming face to face with one of the masked individuals, who I assumed helped take part in the event I had just seen. Slowly a hand reach up to remove the mask, revealing the face of the human messenger. He began to laugh before finally speaking and saying, "Fancy meeting you here, I knew I saw something in you when we conversed in the inn." The messenger laughed some more while I got up. I must have been in a bit of shock from the impact as my vision seemed fuzzy and hazy, while the things in the tent seemingly blurred together. Demandingly I responded to the messenger, “What to you want, why have you thrown me in here?"
@@ -977,7 +1141,7 @@ I jostled around attempting to break free of the halfling’s hold, yet somehow 
 바닥에 꼼짝도 못 하고 엎어져, 말을 하거나 움직일 수가 없었다. 내 앞에 뭐가 있는 것인지 보고자 올려다보니, 하플링 하나가 있었다. 그 인간과 같이 군중 속에 섞여 들었던 하플링이었다. 인간은 움직임을 멈추고, 잠시 주변을 둘러보며 상황을 파악한 뒤 내 옆으로 다가왔다. 인간이 나를 내려다보며 말했다. "이건 참 놀랍군. 내게 대항할 정도로 의지가 뛰어나구만, 탈로레. 하지만 내 뜻에 따르지 않는다면 너를 죽일 수 밖에 없지." 말을 끝마친 뒤, 인간은 망토 속에서 단검을 하나 꺼내어 나를 죽이려고 들었다.
 
 날 붙잡고 있던 하플링을 뿌리치려고 했으나, 나보다 훨씬 작은 하플링으로부터 벗어날 수가 없었다. 오로지 한 손으로 나를 붙잡아두고 있었다. 인간은 단검을 꼬나쥐고 날 찌르기 위해 단검을 들쳐올렸다. 나는 틀림없이 죽고 말겠다고 생각했다. 하지만 그 다음 순간, 단검이 허공을 갈랐다. 나는 혼란스럽기 짝이 없었으나 이내 날 붙잡고 있던 하플링이 공격을 막아줬다는 것을 깨달았다. 그도 나만큼이나 혼란스러웠는지, 하플링을 의심에 가득찬 눈빛으로 쳐다봤다. 인간은 곧 정신을 차리고, 나와 인간 모두의 머리 속에 떠오른 질문을 내던졌다. "뭐 하는 겁니까 지금?"]], "_t")
-t("Escapades of Fay Willows [Book 2, Chapter 6] - Spared", "페이 윌로우즈의 탈출기 [2권, 제 6장] - 구사일생", "_t")
+t("Escapades of Fay Willows [Book 2, Chapter 6] - Spared", "페이 윌로우즈의 여행기 [2권, 제 6장] - 구사일생", "_t")
 t([[[i]Over time the Nargol Kingdom apparently caught the ones behind those twisted incidents I had witnessed, and more that followed after I left. They publicly executed those who they believed to be the culprits and planted their heads on stakes within the walls of the city. Despite this though, burning events and other depraved actions would begin to be taken up by the citizenry itself. The messengers may have been killed, but the message they spread persisted.[/i]
 
 Abruptly before giving the halfling even a moment to respond, the human seemingly began raving at the halfling saying, "You don't seriously mean to spare her? She's in league with the Shaloren, she's in league with magic!" The humans tone progressively got more emotional as the tirade continued, "Have you forgotten our mission and what we are charged to do. This THALORE has turned HER BACK on NATURE! She Must Di-" The human stopped talking as the halfling raised a hand up in a motion to stop and in a deeper tone than what I would expect from someone of such a small size, calmly replied back, "Enough." The human’s body shrank back at this, and though masked I could sense the disbelief and dismay from the body language.
@@ -1015,7 +1179,7 @@ With this the halfling turned to leave the tent. The anger within me had not sub
 잔혹하기 그지없는 하플링의 태도나 나에게 고향으로 돌아가라는 그 말 때문에, 내 속의 분노가 더욱 불붙었다. 나는 화가 더욱 치밀어 올랐다. 하플링이 이를 눈치챈 듯, 자세를 바로잡았다. 그리고 내 분노의 화살을 돌리기 위해 곧바로 말을 이었다. "그래, 다른 놈들보단 무르지 않은 편인가보군. 남쪽의 해안으로 간 뒤, 동쪽으로 가라. 거기서 우리의 본거지로 가는 길을 찾을 수 있을 거다." 그가 했던 말이 무슨 말을 하고 싶은 것인지 잠시 생각을 가듬다가 물었다. "내가 왜 네 말대로 해야 하지?" 곧바로 하플링은 대답했다. "이유를 알고 싶다고 하지 않았다? 우리가 진짜 누구인지 알고 싶다면 가서 우리의 지도자와 만나서 이야기해라."
 
 그렇게 말하고선 하플링은 천막을 나가버렸다. 내 안에 들끓는 화는 아직 누그러지지 않았으나, 더 이상 하플링을 대적하지는 않았다. 잔뜩 얻어맞은 탓에 힘이 빠진 나는 그 자리에 주저앉아 잠시 숨을 골랐다. 시장에서 샀던 주입물을 꺼내어 내 상처를 치료하기 시작했다. 겨우내 제정신을 차리고 치료를 마친 뒤, 나는 자리에서 일어나 천막을 나섰다. 하늘은 이미 해가 져 어두웠다. 나는 나르골 왕국에 하루만 더 있기로 하고 방을 잡아놓은 여관으로 돌아갔다. 그리고 다음날까지 침대에 누워 곯아 떨어졌다. 다음날, 나는 곧바로 이곳을 뜨기 위해 도시의 관문으로 향했다. 그곳에서 나는 어디로 가야할지 잠시 고민하다가, 이내 결국 남쪽으로 향했다.]], "_t")
-t("Escapades of Fay Willows [Book 3, Chapter 1] - Blackened Shoreline", "페이 윌로우즈의 탈출기 [3권, 제 1장] - 검게 물든 해안", "_t")
+t("Escapades of Fay Willows [Book 3, Chapter 1] - Blackened Shoreline", "페이 윌로우즈의 여행기 [3권, 제 1장] - 검게 물든 해안", "_t")
 t([[[i]Truly there was no place showing more damage in all of Eyal than its southern shoreline. Though I have not traveled to the eastern side of the continent, I can't imagine it potentially being destroyed to the extent that it has been here. These lands will never fully heal, but I do hope it will serve as a reminder the to Shaloren, to never brashly use magic in such a way again.[/i]
 
 Following the travel instructions that I had received from the halfling, I proceeded south. I did not know why I didn't just travel north back home, something about the anger burning within me fueled me to find the instructors of these masked fanatics. As I traveled south the sky would begin to turn a shade of colors from blue to purple and then a blackish red, and before long I couldn't even see the sun anymore. There was no sign that any of the lands around me escaped the destructive energies of the Spellblaze here. Eventually after a full day of travel, I set up camp near some burnt out trees. There was little to forage for in the destroyed wilderness, but I was able to find some edible berries and mushrooms to feed myself with and save on my provisions.
@@ -1049,7 +1213,7 @@ At this point tears began to stream down the ogres face. Continuing to speak bet
 "그 광신도들과 같은 편이 아닌 것 맞겠지? 우리가 언짢게 만들었다면 미안하네." 그들의 말에 나는 그저 고개를 저었다. 그러고선 무슨 일이 있었고 그들은 누구인지 물어보기 위해 다가갔다. "오우거를 본 적이 없나보군? 우리는 이 땅을 방랑하며 행상을 하는 유목 민족이네. 최소한 그랬던 적이 있었네. 우리는 보통 룬이나 주입물들을 팔고 다니지만 잡다한 장신구 같은 것도 팔고 다녔지. 그러던 와중에 갑자기 하늘에서 마법이 쏟아져내리고 땅이 갈라졌어. 모든 걸 파괴하고 많은 이들이 죽었지. 우리는 그 즉시 다른 이들을 돕기 위해 인근 인간의 도시로 갔네."
 
 그 말을 할 즈음에 오우거들은 눈물을 흘리기 시작했다. 그 오우거는 눈물을 흘리며 말을 이었다. "왠지는 모르겠어. 하지만 몇 놈들이 우릴 공격했지." 그러고선 그 오우거는 목놓아 울기 시작했고 말을 할 수가 없는 지경이었다. 다른 오우거가 말을 대신 이었다. "우리는 사슬에 묶이고 작은 마을로 끌려갔어. 바로 저 너머로 보이는 곳이야. 우리는 끔찍한 실험의 희생양이 됐어. 우리를 '정화'해주겠다면서. 그리고 수많은 오우거들이 끔찍하고 무참한 모습으로 죽는 걸 봐야했어. 똑같은 죽음을 맞이하기 전에 도망쳐 나온거야." 오우거는 잠시 말을 멈췄다가, 내 뒤로 보이는 참상을 보며 말했다. "그런데 이젠 어디로 도망쳐야 할지도 모르겠군."]], "_t")
-t("Escapades of Fay Willows [Book 3, Chapter 2] - The Fleeing Ogres", "페이 윌로우즈의 탈출기 [3권, 제 2장] - 달아나는 오우거들", "_t")
+t("Escapades of Fay Willows [Book 3, Chapter 2] - The Fleeing Ogres", "페이 윌로우즈의 여행기 [3권, 제 2장] - 달아나는 오우거들", "_t")
 t([[[i]There is so little that is known of the ogres, and seemingly they know little of themselves either. This may have to do with my seclusion from the outside world, but I wonder if this race only recently came to Maj'Eyal? Viewing the Shaloren archives there is little mention of the ogres, and I don't believe even among the Thaloren we know much of them either. I wonder where the ogres truly come from?[/i]
 
 I could feel the stares of the entire group looking past me, at the uninviting landscape. They did not know where they could run to, only to run. Looking to establish if it was indeed the masked fanatics they were running from I asked, "Did the zealots you speak of wear masks on their faces?" The ogres immediately locked their stares back on me, the tense fear in their eyes telling me that the zealots they spoke of and the masked fanatics I had encountered were one and the same. I immediately remembered the anger within me that I felt, knowing that these ogres were now facing the same sinister fanatics that had initiated those atrocities in the Nargol Kingdom that I had recently witnessed.
@@ -1087,7 +1251,7 @@ Asking him what was wrong the dark blue glow went away from the ogres eyes and I
 "간단하게 설명하자면, 그의 정찰 룬은 우리를 쫓아오는 자들의 전반적인 위치를 보는 힘을 부여하네. 그것말고도 더한 능력이 있긴 하지만 일단 그 광신도들이 지금 어디 쯤인지, 여기에서 어느 정도 거리에 있는지를 알 수 있지." 그 오우거가 그 정도의 능력이 있다는 것에 놀랍기도 했지만, 다른 룬으로는 무엇을 할 수 있는지도 궁금했다. 나중에 우리가 더 안전해졌을 떼 오우거들이 지닌 룬에 대해 더 물어볼기로 했다. 이내 갑자기 욕지거리가 들려왔고, 난 검푸른 안광이 나는 오우거가 우리 앞의 다른 방향을 쳐다보고 있다는 것을 깨달았다.
 
 무엇이 잘못 되었는지 물어보자 오우거의 눈에서 안광이 사라졌고, 이내 오우거는 낮은 목소리로 대답했다. "우리 앞에 다른 인간 무리가 있어." 이에 다른 오우거들이 경악하며 소리지르기 시작했다. "이제 어떻게 하냐고!", "돌라가고 싶지 않아." 따위의 말이 들려왔다. 겁에 질린 목소리와 말들이 오우거들에게서 자꾸 튀어나왔으며 이내 모든 오우거들이 공포에 빠졌다. 잠시동안 그 비참하기 짝이없는 전경이 이어지다가 내 팔을 잡고 있었던 오우거가 나를 놓고선 소리쳤다. "그만 징징대라!" 그 외침에 다른 오우거들이 조용해졌다. 그리고 그들은 소리 친 오우거를 쳐다보았다. 다음에 무엇을 해야할지 명령을 기다리는 것처럼 말이다.]], "_t")
-t("Escapades of Fay Willows [Book 3, Chapter 3] - Battle Preparations", "페이 윌로우즈의 탈출기 [3권, 제 3장] - 전투 준비", "_t")
+t("Escapades of Fay Willows [Book 3, Chapter 3] - Battle Preparations", "페이 윌로우즈의 여행기 [3권, 제 3장] - 전투 준비", "_t")
 t([[[i]I had never seen a battle before in my life, let alone been a part of one. However I do not believe this is necessarily the case for the ogres. They say that they lived as nomadic peddlers but I wonder if perhaps that was just a cover story for themselves. Maybe they hired themselves out as mercenaries or other such adventures of combat? It is hard to know what lies within their past.[/i]
 
 Realizing the situation at hand, the ogre who had moments ago been holding my arm this entire time now took up the task of preparing the other ogres for the fight at hand. Stepping forward to address the others he quickly broke into a speech. "The enemy is on both sides of us, but we aren't trapped yet. Those behind us have to travel through the treacherous ground we had to pass through here ourselves and those ahead of us are still some distance away. We have time to form a plan and prepare for battle before either group arrives." As the ogre finished, one of the others soon piped up, "What will you have us do commander!" The newly minted commander grunted before replying, "First, we need a plan of attack."
@@ -1121,7 +1285,7 @@ The commander didn't give much more time for the other ogres to get themselves r
 그 말이 마치 비수같이 나에게 꽂혔고, 나는 꽤 화가 났다. 나는 대장에게 소리치며 대답했다. "아니, 난 당신들과 함께 싸울 것이오." 그렇게 외치게 된 것은 내 안의 분노 때문이었는지 아닌지 확신할 수 없다. 하지만 난 오우거들을 내버려둘 수는 없었다. 그 싸움에서 죽을 수도 있었으나, 나는 도망치지 않으리라 다짐했다. 내 외침에 대장과 다른 오우거들은 나를 쳐다봤다. 놀라워하면서도 어째 즐거워하는 듯했다. 한 오우거가 째지는 목소리로 외쳤다. "전투로!" 다른 오우거들도 이내 "전투로!"라고 외쳤다. 대장은 미소를 지으며 이내 손을 들어올렸고, 다른 오우거들에게 조용히 하라는 신호를 보냈다. 그러고선 나에게 작게 고개를 끄덕이며 말했다. "전투로."
 
 대장은 다른 오크들에게 준비할 시간을 많이 주지 않았다. 우리의 후방에서 오던 무리들을 염두에 뒀기 때문일 것이다. 오우거들에게 집결 명령을 내린 뒤, 그들을 여러 작은 무리로 재구성했다. 대장은 가장 중앙에 있는 무리 중 하나에 속했고, 나는 바다 쪽에 제일 가까운 무리에 배속되었다. 오우거들이 각자 무리로 배정이 되고 나서, 대장은 즉시 이동하여 주변 지형을 요새화하라는 지시를 내렸다. 파괴된 대지로 인해 주변의 지형이 험난하여 각 무리는 서로를 볼 수 없었으나, 각 무리는 꽤 잘 짜여진 움직임을 보였다. 난 용암을 피하고, 울퉁불퉁한 대지와 불타버린 초목, 끓어오르는 간헐천을 피하며 오우거들을 따라가야 했다. 이 행진은 우리 앞에 광신도 집단이 보일 때까지 계속 이어졌다.]], "_t")
-t("Escapades of Fay Willows [Book 3, Chapter 4] - To Battle!", "페이 윌로우즈의 탈출기 [3권, 제 4장] - 전투로!", "_t")
+t("Escapades of Fay Willows [Book 3, Chapter 4] - To Battle!", "페이 윌로우즈의 여행기 [3권, 제 4장] - 전투로!", "_t")
 t([[[i]Due to the darkness of the sky and the scorched lands of the battlefield it was hard to see anything, but I still remember the sounds of battle in great detail. The bubbling sounds of the lava and boiling water, the warcries that filled the air, the magical discharges from the ogres runes, the sounds of weapons clashing against each other, and so forth. Of course, none of those sounds compared to the death cries of both the zealots and ogres when their lives ceased to be.[/i]
 
 As we closed in I could make out the image of the individual fanatical warriors in the opposing force arrayed against us. Their battle line consisted of a couple of rows, with fighters in the front and archers in back. Considerably out numbered it looked as if they had the upper hand over us, though I wondered if this was entirely the case. Many weren't wearing masks, and their tattered clothing reminded me of the refugees in the Nargol Kingdom. Perhaps they were new initiates, swayed to join by the words of the masked zealots who stood with them. All the initiates wielded weapons but even I could tell that they had little idea of how to hold them properly.
@@ -1154,11 +1318,57 @@ The other ogre soon moved to attack the halfling, but with a sidestep the halfli
 
 용암을 넘어 앞으로 달려가는 것은 우리의 대장이었다. 이를 악물고 내 손도끼를 쥔 채였고 손도끼의 날은 용암에 빛을 반사하여 반짝였다. 그는 가면을 쓴 광신도 하나에게 다가가 주먹을 휘둘렀고, 그 일격에 광신도는 그대로 뒤로 날아가 용암 웅덩이에 빠져버렸다. 그 광신도가 산 채로 타버리는 광경을 보았을 때, 음산한 만족감이 내 안에 떠오르던 것을 기억한다. 나르골 왕국에서 벌어진 화형식에 가담했던 자에게 딱 알맞는 최후엿다. 그 순간 적들의 야유와 함성이 멈췄고, 대장은 옆에서 부들부들 떨고 있던 신병에게 몸을 돌렸다. 손도끼를 한 번 휘두르자 신병의 목은 깔끔하게 몸에서 분리되었고, 머리는 공중을 가르고 날아가다 멀찍이 떨어진 곳에 툭 떨어졌다.
 
-The mere sight of the commander in action inspired the other ogres, who immediately charged to join into the carnage. Visibly unnerved now at the wall of giant figures moving against them, many of the remaining initiates began to flee as the ogres approached. Many of the masked zealots stayed to fight but they were soon set upon and clobbered to death by both fists and tree trunks. Those zealots that wore armor would put up more of a fight, though one by one they were being taken out too. The enemy was falling before us and I was sure that the battle was nearly won. That is until I saw an ogre sail through the air above me, landing into the boiling waters of the sea nearby.
+그런 대장의 고무적인 모습의 다른 오우거들도 돌격하여 전투를 시작했다. 거대한 오우거들이 일제히 달려드는 모습에 대부분의 신병들은 사기가 떨어졌고, 이내 많은 이들이 도망치기 시작했다. 가면을 쓴 광신도들은 맞서 싸웠으나 곧 포위되어 주먹과 통나무에 얻어맞으며 죽어갔다. 갑옷을 입은 광신도들은 조금 더 버티고 있었으나 이내 하나씩 나가떨어졌다. 적들은 우리 앞에 쓰러져갔고 나는 그때 이긴 것이나 다름없다고 생각했다. 다만, 한 오우거가 공중을 날아가더니 주변의 바다에 끓어오르는 물 속으로 쳐박히는 것을 볼때까지는 그렇게 생각했다.
 
-One by one other ogres began to join a growing chorus of agonizing cries as something set upon them. Peering out into the shadows I could see a small image rushing all around the battlefield in the direction of their origin. Suddenly as the image came to stop near a lake of lava I realized it was the masked halfling on leather armor. Catching an ogre nearby to the lava unaware, the halfling somehow knocked the ogre over, sending the ogre into the hot pool of burning death. Out of the darkness a couple more ogres appeared and one attempted to clobber the halfling with a violent blow. With a simple crouch the halfling ducked before quickly jabbing at the ogres stomach, and jumping up to land a devastating kick against the ogres head.
+다른 오우거들도 하나씩 고통스런 비명의 대열에 합류하였고 무언가가 그들을 감싸기 시작했다. 그림자가 드리워진 곳에서 어떠한 작은 형상이 전장을 휘젓고 있는 것을 발견했다. 그 형상이 용암 연못 옆에 멈춰섰을 때, 그것이 가죽 갑옷을 입은 그 하플링이었다는 거을 깨달았다. 이를 알아차리지 못 한 한 오우거가 하플링에게 잡혔고, 하플링은 그 오우거를 넘어뜨린 뒤 뜨거운 연못 아래로 내동댕이쳐 산채로 불태웠다. 어둠 속에서 몇몇 오우거가 그 하플링을 급습했고, 한 오우거가 하플링에게 거칠게 주먹을 휘둘렀다. 하지만 하플링은 자세를 낮추며 이를 피한 뒤, 오우거의 복부에 주먹을 갈기고 나선 힘차게 도약하여 오우거의 머리에 발길질을 했다.
 
-The other ogre soon moved to attack the halfling, but with a sidestep the halfling simply moved out of the way before disappearing into the darkness. The ogre followed, but from the grunting and yelling it seemed that the ogre did not fare well either. The halfling would emerge again and again, knocking ogres down with seemingly ease, before escaping from counterattack. Ogres in the darkness would be attacked and shout in pain while those who strayed too close to the hazards of the landscape would soon find themselves sent spiraling into the deathtraps of the land. In an instant the battle had shifted in the fanatics favor, and panic and fear was beginning sweep over the ogres.]], "_t")
+다른 오우거가 이내 하플링을 공격하기 위에 다가갔으나, 하플링은 옆으로 자리를 피하더니 어둠 속으로 사라졌다. 그 오우거는 급히 그를 뒤쫓았으나, 신음소리와 비명이 몇 차례 들린 것을 보아 그 오우거 또한 상대가 되지 않았던 것 같다. 하플링은 여기저기서 갑작스레 나타나 오우거들을 손쉽게 물리쳤고, 반격을 허용하지 않았다. 어둠 속에서 오우거들은 공격 당하면서 고통 속에 비명을 질렀고, 그 난장판 속에서 위험한 지형에 가까이 있던 이들은 이내 그곳에 내다꽂혔다. 순식간에 승기는 광신도들 쪽으로 기울었고, 공포와 공황이 오우거들을 휩쓸기 시작했다.]], "_t")
+t("Escapades of Fay Willows [Book 3, Chapter 5] - Dark Resolve", "페이 윌로우즈의 여행기 [3권, 제 5장] - 사악한 결의", "_t")
+t([[[i]It is hard to describe the sensation that came over me. It was still me, but I didn't feel in control. That other me, it seemed to thrive on the violence I inflicted or received, and wanted nothing more than to endlessly kill. It caused me sadness as I inflicted misery and terror on those in front of me as they died screaming in agony and pain. It is someone I hope to never become again.[/i]
+
+All around me, I could see the ogres near to me beginning to lose any will to fight. What's worse is that some of the initiates that had fled had now returned. They began to batter their shields once more, hollering and posturing as they cheered on the halfling. From one of them I heard the phrase "hooray for nature's champion!" They would yell other phrases as well such as "nature's might shall prevail" or "the ogre's magical taint on Eyal ends!" The sheer display of strength from the halfling and the the cries of the initiates further unnerved the ogres, so much so that some began to shake in fear and turn into the cowards yet again. In front of me an ogre even dropped her weapons and fell to the ground, having lost all hope.
+
+I could feel tears begin to stream down my eyes. I could feel the anguish and dismay of the ogres, and the hateful emotions being directed at them. I remembered the burning event back in the Nargol Kingdom, and how the zealots instigated those initial actions I had witnessed. It made my angry, angry at those inflicting the pain, inflicting it for their petty reasons. The ogres didn't deserve this nor did the innocent victims that the fanatics burned alive from before. Those afflicting pain, producing these atrocities, they were insufferable gnats, and what's more they disparaged nature's name while doing so. I felt I had to do something to keep this from happening again; I FELT I NEEDED TO KILL THEM.
+
+"Does the little thalore wish to leave?" I heard a voice say to me. "Maybe run back to that little forest of yours?" I looked up to see a masked dwarf, holding an axe and shield. "We know of ya Fay Willows. Ya have no taint of magic, yet are ya an ally of nature? From where ya stand it would seem that ya are an ally of da ogres." The dwarf brandished the weapon wildly as it continued to talk, "Ya know, perhaps I shouldn't be blamin' ya. I'm sure da ogres told ya some wild tales, and this is just a misunderstandin'. We just want to help da ogres ya know, and they seem to be getting a little bit more cooperative now. It is a shame a few of them had to die, but a message had to be sent." The dwarf seemingly began to chuckle for a moment as it finished speaking.
+
+The dwarf stopped chuckling to continue, "How about ya cooperate with us as well elf-ie? Else I'm afraid I'm going to have to hu-[b]RRRRRRRK![/b]"
+
+All at once the sounds of battle seemed to disappear as I focused solely on the dwarf in front of me. Looking forward all I could see was blood. Blood on my hand, on my arm, on the dagger that lay plunged in the throat of the dwarf, on the mask the dwarf wore, and from under the mask as the dwarf coughed up blood. Dropping the axe and shield to grasp at the dagger, the dwarf choked as it tried to breathe. Slowly I bent down to pick up the axe and with both hands I brought it back behind my head. Then with all my strength I brought the axe down on the head of the dwarf with all my might. I felt a strange feeling within me as the dwarf died to the blow, coursing through every fiber of my being.
+
+At that moment I recalled the Eldoral halfling I had killed from before when I initially first traveled from my home. I had hated the reasons said in support of the Spellblaze, and I became angered to no end of the one spouting that nonsense. I had followed the halfling out with a steak knife that I had taken from a nearby table and... I killed him. It was a horrible feeling taking a life, yet a dark surge of energy coursed through me, wanting to drive me to kill more. This drive to kill, it was the real reason I had fled that settlement. I was afraid I would kill someone, someone who didn't deserve it. That halfling I killed didn't deserve to die. But, these zealots, didn't they deserve it?
+
+At that point something snapped into my mind I think. I remember laughing very loudly. It was dreadful feeling. I might have been crying too. I couldn't tell what was happening with me or my emotions and I wondered if I was going mad; and I still wonder this even now to be honest. But that wasn't important. The ogres around me could no longer fight, and I knew that if nothing was done that they would die, or worse. There was no innocence to be found from these zealots, these instigators of torment and madness, or the initiates blindly following them. I could simply kill them all with a clear conscious, and hopefully satisfy the urges within me to kill. All would be well with me after that, and perhaps the ogres would even thank me for saving them.
+
+Then I noticed a masked human zealot looking at me and the corpse of the dwarf on the ground. I began to walk over, the human seemingly waving a sword in one hand in a threatening manner. For some reason I thought it was kind of funny, despite what should have caused me to think of an intense fear for own well being. I could hear muffled shouts of something coming from the human, though I couldn't distinguish what was being said. As I drew closer I saw the human shake, so much so that the mask shifted enough that I could partially see the face of the man underneath. I could see the fear in his eye before the human raised his shield in an attempt to hide away. I remember the enjoyment I felt of that fear.
+
+I used my axe to sweep the shield from the humans hands, knocking it away so he couldn't hide his eyes away from mine anymore, allowing me to relish in his terror. I think I was smiling at this point, grinning madly as the fear built up in the human. At the same time though the sadness inside me, it too was building more and more, threatening to plunge me into the depths of darkness. The human was terrified, and attempted to thrust forward to attack me, crying out something as he lunged towards... Where was he attacking actually? I think he had intended to attack me, but he ended up moving over to the side. I simply raised the axe in my hand, and as I had done before brought it down, connecting a deep blow on his shoulder.
+
+The human’s swordarm fell away from his body, causing him to cry out before dropping to the ground to hold where his arm use to be. The red blood spurted and bubbled from his severed arm as the sword still lay clutched in the closed hand. The human tried to crawl away, and then I noticed the lovely pool of lava nearby. I smiled a little as I kicked at his body sending him spiraling in. I felt a strange sense of joy as he burned alive in front of me, yet simultaneously felt disdain for what I had just done. I felt another surge of energy coarse through me as the man finally died, and I felt a greater urge to kill even more. I wondered at this point if I could stop myself or if I could be stopped?
+
+I could hear the screams of terror of others around me and noticed that the sounds weren't coming from those wearing masks either - easy pickings to satisfy my urge to kill. I began to approach them as they yelled at me, my intense hatred building with each step. Suddenly though I felt a strong pull on my arm, preventing me from moving forward. Looking to see what I had got caught on, I noticed the masked halfling, clutching my arm. Hatred surged within me and all I could think about was how I should pay this halfling back for what had been done to me in that tent from before. I forgot about the others weaklings, focusing all my attention towards my new prey.]], [[[i]그 순간 내 안에서 솟구치는 감정을 묘사하기란 어렵다. 의식은 또렷했으나 나 자신을 통제하기 어려웠다. 또 다른 나 자신이 깨어나는 듯 했다. 내가 고통을 가하거나 고통받을 때마다 또다른 자아가 깨어나고 있었다. 이내 누군가를 더 죽이는 것 외에는 생각할 수 없었다. 내 앞에 보이는 이들에게 끔찍한 공포를 흩뿌릴 때마다 누군가가 고통 속에서 죽어가며 비명을 지르며 죽어갔다. 하지만 이는 오히려 나를 더욱 슬프게 할 뿐이었다. 다시는 그런 짓을 되풀이하고 싶지는 않다.[/i]
+
+오우거들은 점점 전의를 상실하기 시작했다. 심지어 도망쳤던 신병들이 다시 돌아와 싸웠다. 그들은 방패를 두들기며 그 하플링을 찬양하며 소리지르기 시작했다. 그들에게서 "자연의 대행자 만세!"와 같은 말이 들려왔고, 곧 여러 외침이 섞여 들려왔다. "자연의 힘은 승리하리라", "에이알에서 오우거의 더러운 마법은 사라져라!" 따위의 말도 들렸다. 하플링의 압도적인 힘과 신병들의 함성에 오우거들은 더욱 움츠러들었고, 결국 공포에 떨며 또다시 겁쟁이가 되어버렸다. 내 앞에 있던 한 오우거들 심지어 무기를 버리고 엎드린 채로, 모든 희망을 잃어버렸다.
+
+내 눈에서 눈물이 뺨을 타고 흐르는 것이 느껴졌다. 오우거들의 분노와 실의가 느껴졌고, 그들에게 향하는 증오의 감정 또한 느껴졌다. 난 나르골 왕국에서 벌어졌던 화형식을 떠올렸다. 그리고 광신도들이 벌인 극악무도한 행위를 선동했던 것을 기억해냈다. 분노가 치솟았다. 같잖은 이유로 고통을 가하는 자들에 대한 분노. 살육을 자행하고, 재앙을 일으키는, 당장 죽여도 시원찮은 놈들. 그딴 짓을 하면서 자연의 이름을 더럽히다니. 이런 일은 다시는 일어나선 안 됐다. 나는 무언가 해야 한다고 느꼇다. 난 그들을 모조리 죽이고 싶었다.
+
+"우리 탈로레 아가씨께서 도망치고 싶으신가?" 내게 말하는 목소리가 들려왔다. "그 작디작은 숲으로 도망치시는 게 어떨까?" 난 마스크를 쓴 드워프를 봤다. 도끼와 방패를 들고 있었다. "우리는 널 알지. 페이 윌로우즈. 넌 마법에 더렵혀지지도 않았고, 자연의 친구이지 않나? 근데 보아하니, 오우거들의 친구인 것 같기도 하네." 그 드워프는 도끼를 이리저리 휘두르며 말을 이었다. "그게 말야, 널 탓하면 안 되겠구만. 오우거들이 뭐 옛날 얘기라도 했겠지. 그것 때문에 작은 오해가 있었던 모양이야. 우리는 그냥 오우거들을 돕고 싶을 뿐이라고. 이젠 좀 협조적으로 나오는 것 같긴 한데. 몇몇 놈들을 죽여야 했다는 건 좀 안타깝지만. 뭐, 대충 알아먹었겠지." 드워프는 말을 끝마치고 혼자서 낄낄 쪼개기 시작했다.
+
+드워프는 웃음을 멈추고 말을 이었다. "이제 우리랑 좀 같이 일하는 건 어때 귀쟁이? 그렇지 않으면 어쩔 수 없이 널 죽-[b]여어어어어억![/b
+
+그 순간 전장의 모든 소리가 사라진 것 같았다. 나는 내 눈 앞에 선 드워프에게 모든 신경을 집중했다. 내가 볼 수 있는 건 오직 피였다. 내 손과 팔, 그리고 내가 그 드워프의 모가지에 꽂아넣은 단검, 드워프가 쓰고 있던 가면에 묻은 피. 이내 가면 아래에서 드워프가 피를 토했다. 도끼와 방패를 떨어뜨리고 단검을 잡은 채 허우적거리며 가래 끓는 소리를 냈다. 나는 천천히 몸을 굽혀 두 손으로 도끼를 들었고, 힘껏 내 머리 뒤 쪽으로 떠받들었다. 그리고 온 힘을 다해 드워프의 머리에 도끼를 꽂아넣었다. 그 일격에 드워프가 죽어버리자, 내 안에서 묘한 감각이 떠올랐고 이내 그 감각은 나를 사로잡았다.
+
+At that moment I recalled the Eldoral halfling I had killed from before when I initially first traveled from my home. I had hated the reasons said in support of the Spellblaze, and I became angered to no end of the one spouting that nonsense. I had followed the halfling out with a steak knife that I had taken from a nearby table and... I killed him. It was a horrible feeling taking a life, yet a dark surge of energy coursed through me, wanting to drive me to kill more. This drive to kill, it was the real reason I had fled that settlement. I was afraid I would kill someone, someone who didn't deserve it. That halfling I killed didn't deserve to die. But, these zealots, didn't they deserve it?
+
+At that point something snapped into my mind I think. I remember laughing very loudly. It was dreadful feeling. I might have been crying too. I couldn't tell what was happening with me or my emotions and I wondered if I was going mad; and I still wonder this even now to be honest. But that wasn't important. The ogres around me could no longer fight, and I knew that if nothing was done that they would die, or worse. There was no innocence to be found from these zealots, these instigators of torment and madness, or the initiates blindly following them. I could simply kill them all with a clear conscious, and hopefully satisfy the urges within me to kill. All would be well with me after that, and perhaps the ogres would even thank me for saving them.
+
+Then I noticed a masked human zealot looking at me and the corpse of the dwarf on the ground. I began to walk over, the human seemingly waving a sword in one hand in a threatening manner. For some reason I thought it was kind of funny, despite what should have caused me to think of an intense fear for own well being. I could hear muffled shouts of something coming from the human, though I couldn't distinguish what was being said. As I drew closer I saw the human shake, so much so that the mask shifted enough that I could partially see the face of the man underneath. I could see the fear in his eye before the human raised his shield in an attempt to hide away. I remember the enjoyment I felt of that fear.
+
+I used my axe to sweep the shield from the humans hands, knocking it away so he couldn't hide his eyes away from mine anymore, allowing me to relish in his terror. I think I was smiling at this point, grinning madly as the fear built up in the human. At the same time though the sadness inside me, it too was building more and more, threatening to plunge me into the depths of darkness. The human was terrified, and attempted to thrust forward to attack me, crying out something as he lunged towards... Where was he attacking actually? I think he had intended to attack me, but he ended up moving over to the side. I simply raised the axe in my hand, and as I had done before brought it down, connecting a deep blow on his shoulder.
+
+The human’s swordarm fell away from his body, causing him to cry out before dropping to the ground to hold where his arm use to be. The red blood spurted and bubbled from his severed arm as the sword still lay clutched in the closed hand. The human tried to crawl away, and then I noticed the lovely pool of lava nearby. I smiled a little as I kicked at his body sending him spiraling in. I felt a strange sense of joy as he burned alive in front of me, yet simultaneously felt disdain for what I had just done. I felt another surge of energy coarse through me as the man finally died, and I felt a greater urge to kill even more. I wondered at this point if I could stop myself or if I could be stopped?
+
+I could hear the screams of terror of others around me and noticed that the sounds weren't coming from those wearing masks either - easy pickings to satisfy my urge to kill. I began to approach them as they yelled at me, my intense hatred building with each step. Suddenly though I felt a strong pull on my arm, preventing me from moving forward. Looking to see what I had got caught on, I noticed the masked halfling, clutching my arm. Hatred surged within me and all I could think about was how I should pay this halfling back for what had been done to me in that tent from before. I forgot about the others weaklings, focusing all my attention towards my new prey.]], "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 
 
@@ -1177,12 +1387,15 @@ t("Forbidden Cults", "금지된 교단", "newLore category")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/zones.lua"
 
+t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서 : \"회랑에서 본 것\"", "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
+t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서 : \"환상의 성\"", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/quests/grung.lua"
 
+t("A View From The Gallery", "회랑에서 본 것", "_t")
 
 
 ------------------------------------------------
@@ -1867,9 +2080,9 @@ t([[Spin around, extending your weapon and damaging all targets around you for %
 				촉수를 이용한 공격이 하나 이상의 적에게 명중하면 %d 광기를 획득합니다.
 		
 		#YELLOW_GREEN#촉수 조이기 도중:#WHITE# 조이기의 대상이 된 적을 기준으로, 반경 1 칸에 채찍질의 촉수 공격이 일어납니다 (따라서 주 무기 공격은 가하지 않습니다) 또한 피격당한 모든 적은 5 턴 동안 혼절합니다.]], "tformat")
-t("Tendrils Eruption", "덩굴 폭발", "talent name")
+t("Tendrils Eruption", "촉수 폭발", "talent name")
 t("You require a weapon and an empty offhand!", "주 무기와 맨손이 필요하다!", "logPlayer")
-t("%s resists the slimy tendril!", "%s 미끌미끌한 덩굴에 저항합니다!", "logSeen", nil, {"는"})
+t("%s resists the slimy tendril!", "%s 미끌미끌한 촉수에 저항합니다!", "logSeen", nil, {"는"})
 t([[You plant your tentacle hand in the ground where it splits up and extends to a target zone of radius %d.
 		The zone will erupt with many black tendrils to hit all foes caught inside dealing %d%% tentacle damage.
 		Any creature hit by the tentacle must save against spell or be numbed by the attack, reducing its damage by %d%% for 5 turns.
@@ -2029,7 +2242,7 @@ t([[Smash your target with a splintering glass attack doing %d%% arcane weapon d
 		매 턴, 대상은 공격 피해의 8%% 를 출혈 효과로 받습니다. 파편은 매우 고통스러워, 대상이 이동할 시, %d%% 공격 피해를 받습니다.
 		기술 레벨이 5 일 때 대상은 고통으로 인해 15%% 확률로 기술 사용을 실패합니다.]], "tformat")
 t("Throw Pebble", "조약돌 던지기", "talent name")
-t("something", "물체", "_t")
+t("something", "무언가", "_t")
 t("#Source# expertly hurls a pebble at #target#!", "#Source2# #target3# 향해 조약돌을 집어던진다!", "logCombat")
 t([[Throw a pebble at your target, dealing %0.2f physical damage.
 		The damage will increase with your Strength.]], [[조약돌을 대상에게 던져, %0.2f 물리 피해를 입힙니다.
@@ -2576,6 +2789,7 @@ section "game/dlcs/tome-cults/data/zones/ft-cultist/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/grids.lua"
 
+t("Grung", "그룽", "_t")
 t("floor", "바닥", "entity type")
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
@@ -2886,6 +3100,7 @@ section "game/dlcs/tome-cults/data/zones/town-kroshkkur/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/hooks/bonestaff.lua"
 
+t("Not now.", "나중에.", "_t")
 
 
 ------------------------------------------------

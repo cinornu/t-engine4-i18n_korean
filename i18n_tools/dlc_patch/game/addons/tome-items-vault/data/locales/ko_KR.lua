@@ -36,7 +36,7 @@ t("Place an item in the Item's Vault", "금고에 아이템을 보관하기.", "
 t("Caution", "경고", "_t")
 t("Continue?", "계속하시겠습니까?", "_t")
 t("[Retrieve an item from the vault]", "[금고에서 아이템을 찾아오기.]", "_t")
-t("[Leave the orb alone]", "[오브를 두고 떠난다.]", "_t")
+t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 
 
 ------------------------------------------------
@@ -68,7 +68,7 @@ t("Caution", "경고", "_t")
 t("Continue?", "계속하시겠습니까?", "_t")
 t("[Retrieve an item from the vault]", "[금고에서 아이템을 찾아오기.]", "_t")
 t("#GOLD#I wish to help the funding of this game and donate#WHITE#", "#GOLD#나는 이 게임에 도움을 주기 위해 기부를 하고 싶다#WHITE#", "_t")
-t("[Leave the orb alone]", "[오브를 두고 떠난다.]", "_t")
+t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 
 
 ------------------------------------------------

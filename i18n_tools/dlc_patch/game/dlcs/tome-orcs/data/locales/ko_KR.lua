@@ -46,8 +46,8 @@ t("The Psyshot combines this ability to gestalt to enhance his mindstar all the 
 t("Their most important stats are: Cunning, Willpower and Dexterity", "그들의 가장 중요한 능력치는 교활, 의지, 그리고 민첩입니다.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +3 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 마법, +3 의지, +3 교활", "_t")
-t("Annihilator", "절멸자", "birth descriptor name")
-t("The Annihilator is a master of destruction, wielding the most devastating steamtech inventions to lay waste to their foes.", "절멸자는 파괴의 달인으로, 가장 파괴적인 증기 공학 기술의 정수로 적들을 초토화합니다.", "_t")
+t("Annihilator", "섬멸자", "birth descriptor name")
+t("The Annihilator is a master of destruction, wielding the most devastating steamtech inventions to lay waste to their foes.", "섬멸자는 파괴의 달인으로, 가장 파괴적인 증기 공학 기술의 정수로 적들을 초토화합니다.", "_t")
 t("While normally wielding a steamgun loaded with experimental ammunition and an electrically charged shield, they can equip heavy weapons such as flamethrowers.", "일반적인 총기에 장전된 실험적인 탄환과 전류로 충전된 방패, 그리고 화염 방사기같은 중화기를 사용할 수 있습니다.", "_t")
 t("More adept at technology than most other tinkers, they supplement their weapons with automated turrets, mechanical minions and other such devices.", "다른 발명가 직업들보다 첨단 기술에 더 능숙하고, 무시무시한 무기와 함께, 자동 포탑과, 기계 하수인, 그 밖의 여러 장치들을 사용합니다.", "_t")
 t("Their most important stats are: Cunning and Dexterity", "그들의 가장 중요한 능력치는 민첩과 교활입니다.", "_t")
@@ -255,6 +255,7 @@ section "game/dlcs/tome-orcs/data/chats/destructicus-lead.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/destructicus.lua"
 
+t("[continue]", "[계속]", "_t")
 t("[leave]", "[떠난다]", "_t")
 
 
@@ -292,6 +293,7 @@ t("No thanks.", "사양하지.", "_t")
 section "game/dlcs/tome-orcs/data/chats/metash.lua"
 
 t("Thanks.", "감사합니다.", "_t")
+t("Not now.", "나중에.", "_t")
 t("I will!", "알겠어!", "_t")
 
 
@@ -622,11 +624,11 @@ t("%s quaffs the %s!", "%s %s 마셨다!", "logSeen", nil, {"는","을"})
 section "game/dlcs/tome-orcs/data/general/objects/inscriptions.lua"
 
 t("scroll", "두루마리", "entity type")
-t("implant", "증강장치", "_t")
-t("Steamtech implants can be grafted on the users skin..", "증기공학 증강장치는 사용자의 피부에 이식될 수 있습니다..", "_t")
+t("implant", "이식물", "_t")
+t("Steamtech implants can be grafted on the users skin..", "증기공학 이식물은 사용자의 피부에 이식될 수 있습니다..", "_t")
 t("implant on your skin.", "피부에 이식합니다.", "_t")
-t("steam generator implant", "증기 생성 증강장치", "entity name")
-t("medical injector implant", "의료용 주사기 증강장치", "entity name")
+t("steam generator implant", "증기 생성 이식물", "entity name")
+t("medical injector implant", "의료용 주사기 이식물", "entity name")
 
 
 ------------------------------------------------
@@ -766,9 +768,9 @@ t("Life Support Suit", "생명 유지복", "entity name")
 section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
 
 t("Medical Urgency Vest", "응급 의료지원 조끼", "entity name")
-t("something", "물체", "_t")
+t("something", "무언가", "_t")
 t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
-t("Annihilator", "절멸자", "entity name")
+t("Annihilator", "섬멸자", "entity name")
 t("50% chance to reload 1 ammo", "50% 확률로 1 발 장전합니다", "_t")
 t("Stimulus", "자극제", "entity name")
 t("scroll", "두루마리", "_t")
@@ -2214,7 +2216,7 @@ t([[You have learned to fire while moving.
 		이동 사격이 끝나면 %d - %d 탄환을 장전합니다. (장전량은 이동 사격을 사용한 횟수와 최대 탄약 소지량에 비례합니다)]], "tformat")
 t("Startling Shot", "경고 사격", "talent name")
 t("Something", "무엇인가", "_t")
-t("%s misses %s shot.", "%s %s 사격을 빗맞췄다.", "logSeen", {"가"})
+t("%s misses %s shot.", "%s %s의 사격을 빗맞췄다.", "logSeen", nil, {"은"})
 t([[You deliberately fire a missing shot at a target, startling it for 3 turns.
 		If the target fails a mental save it instinctively recoils two steps back.
 		The next shot that hits the startled creature will deal %d%% more damage.]], [[총알을 빗나가게끔 발사해, 대상을 3 턴 동안 소극적으로 만듭니다.
@@ -2345,12 +2347,12 @@ section "game/dlcs/tome-orcs/data/talents/steam/inscriptions.lua"
 t("\
 Its effects scale with your %s stat.", "\
 이 효과는 %s 능력치에 비례하여 증가합니다.", "tformat")
-t("Implant: Steam Generator", "증강장치: 증기 발생기", "talent name")
+t("Implant: Steam Generator", "이식물 : 증기 발생기", "talent name")
 t([[Steam generator that permanently creates %0.1f steam per turn.
 		Can be activated for an instant burst of %d steam.]], [[매 턴 %0.1f 증기를 생성합니다.
 		활성화하면, 증기를 급격하게 생성해, 증기를 %d 회복합니다.]], "tformat")
 t("steam %d", "증기 %d", "tformat")
-t("Implant: Medical Injector", "증강장치: 의료용 주사기", "talent name")
+t("Implant: Medical Injector", "이식물 : 의료용 주사기", "talent name")
 t("#LIGHT_BLUE#Medical injector selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 해당 주사기가 먼저 사용됩니다.", "saySimple")
 t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
 t("Medical injector allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "의료용 주사기는 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있게 해줍니다.", "tformat")
@@ -3638,7 +3640,7 @@ t("maimed", "불구", "effect subtype")
 t("#Target# is suffering and fails to concentrate on dealing damage.", "#Target2# 고통으로 인해 제대로된 공격을 가하지 못한다.", "_t")
 t("#Target# is suffering less.", "#Target#의 고통이 가셨다.", "_t")
 t("Acid Burn", "산성 화상", "_t")
-t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "매 턴 마다 산성 피해 %0.2f.", "tformat")
+t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "산성 물질에 덮힘 : 매 턴 마다 산성 피해 %0.2f.", "tformat")
 t("#Target# is covered in acid!", "#Target2# 고통의 부식에 휩쌓였다!", "_t")
 t("#Target# is free from the acid.", "#Target2# 고통의 부식에서 벗어났다.", "_t")
 t("Static Shield", "정전기 보호막", "_t")
@@ -4175,6 +4177,7 @@ section "game/dlcs/tome-orcs/data/zones/krimbul/objects.lua"
 
 t("tattered paper scrap", "너덜너덜한 종잇조각", "entity name")
 t("A paper scrap.", "종잇조각입니다.", "_t")
+t("horned helm", "뿔 난 투구", "_t")
 
 
 ------------------------------------------------
