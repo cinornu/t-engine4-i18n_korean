@@ -223,6 +223,8 @@ t("special", "특별한", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/events/digestive-sack.lua"
 
+t("Leave", "떠난다", "_t")
+t("Open", "연다", "_t")
 
 
 ------------------------------------------------
@@ -2872,6 +2874,9 @@ section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
 t("floor", "바닥", "entity subtype")
+t("#GOLD#An object rolls from the chest!", "#GOLD#상자에서 어떤 물건이 튀어나왔다!", "logSeen")
+t("Leave", "떠난다", "_t")
+t("Open", "연다", "_t")
 t("glass", "유리", "entity subtype")
 
 
