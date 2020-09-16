@@ -1021,7 +1021,7 @@ t("Way to a strange portal", "Way to a strange portal", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/events/digestive-sack.lua"
--- 13 entries
+-- 11 entries
 t("\
 #DARK_SEA_GREEN#It was corrupted by the digestive sack.", "\
 #DARK_SEA_GREEN#It was corrupted by the digestive sack.", "_t")
@@ -1039,8 +1039,6 @@ t("#DARK_SEA_GREEN#An object rolls from the sack!", "#DARK_SEA_GREEN#An object r
 t("#DARK_SEA_GREEN#A not yet digested foe burst out from the sack!", "#DARK_SEA_GREEN#A not yet digested foe burst out from the sack!", "logSeen")
 t("giant digestive sack (opened)", "giant digestive sack (opened)", "_t")
 t("#DARK_SEA_GREEN#Sickening fumes emanates from the sack as it opens!", "#DARK_SEA_GREEN#Sickening fumes emanates from the sack as it opens!", "logSeen")
-t("Leave", "Leave", "_t")
-t("Open", "Open", "_t")
 
 
 ------------------------------------------------
@@ -2598,7 +2596,7 @@ t("Something blocks the way to this chapter...", "Something blocks the way to th
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
--- 14 entries
+-- 11 entries
 t("exit to reality", "exit to reality", "entity name")
 t("shortcut to chapter", "shortcut to chapter", "entity name")
 t("book of binding", "book of binding", "entity name")
@@ -2607,10 +2605,7 @@ t("#CRIMSON#As you close the book the castle shakes again and this time feels mo
 t("locked chest", "locked chest", "entity name")
 t("Locked Chest", "Locked Chest", "_t")
 t("Open the chest now that the guardian golem is no more?", "Open the chest now that the guardian golem is no more?", "_t")
-t("#GOLD#An object rolls from the chest!", "#GOLD#An object rolls from the chest!", "logSeen")
 t("chest (opened)", "chest (opened)", "_t")
-t("Leave", "Leave", "_t")
-t("Open", "Open", "_t")
 t("throne", "throne", "entity type")
 t("glass throne", "glass throne", "entity name")
 
@@ -3780,15 +3775,13 @@ t([[You loot the stall and gain:
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/sewer-alligator-nest.lua"
--- 8 entries
+-- 6 entries
 t("strange conduit on the wall", "strange conduit on the wall", "_t")
 t("Crack open?", "Crack open?", "_t")
 t("Strange conduit", "Strange conduit", "_t")
 t("#GOLD#The conduit shatters open, releasing huge angry alligators!", "#GOLD#The conduit shatters open, releasing huge angry alligators!", "logSeen")
 t("open conduit on the wall", "open conduit on the wall", "_t")
 t("#CRIMSON#The conduit is smashed and impassible.", "#CRIMSON#The conduit is smashed and impassible.", "logPlayer")
-t("Leave", "Leave", "_t")
-t("Open", "Open", "_t")
 
 
 ------------------------------------------------
@@ -6387,14 +6380,11 @@ As Mindwall's body crumbles you can sense a burst of psionic forces splitting up
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/kaltor-shop/grids.lua"
--- 7 entries
+-- 4 entries
 t("locked chest", "locked chest", "entity name")
 t("Locked Chest", "Locked Chest", "_t")
 t("Open the chest with Kaltor's key?", "Open the chest with Kaltor's key?", "_t")
-t("#GOLD#An object rolls from the chest!", "#GOLD#An object rolls from the chest!", "logSeen")
 t("chest (opened)", "chest (opened)", "_t")
-t("Leave", "Leave", "_t")
-t("Open", "Open", "_t")
 
 
 ------------------------------------------------
@@ -8080,9 +8070,7 @@ t("You have unlocked a new talent: %s!", "You have unlocked a new talent: %s!", 
 
 ------------------------------------------------
 section "game/modules/tome/class/Grid.lua"
--- 16 entries
-t("Leave", "Leave", "_t")
-t("Open", "Open", "_t")
+-- 14 entries
 t("%s", "%s", "logSeen")
 t("spot", "spot", "_t")
 t(" (range: ", " (range: ", "_t")
@@ -8843,73 +8831,6 @@ t("utterly vaporized", "utterly vaporized", "_t")
 t("black-hole gravity", "black-hole gravity", "_t")
 t("%s resists the gravity!", "%s resists the gravity!", "logSeen")
 t("solar blood", "solar blood", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/fell-aura.lua"
--- 1 entries
-t("%s (fell aura)", "%s (fell aura)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/font-life.lua"
--- 2 entries
-t("font of life", "font of life", "_t")
-t("%s (life aura)", "%s (life aura)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/glimmerstone.lua"
--- 3 entries
-t("glimmerstone", "glimmerstone", "_t")
-t("It shimmers and changes the light all around. This is dazling!", "It shimmers and changes the light all around. This is dazling!", "_t")
-t("%s is affected by the glimmerstone!", "%s is affected by the glimmerstone!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/glowing-chest.lua"
--- 8 entries
-t("glowing chest", "glowing chest", "_t")
-t("Glowing Chest", "Glowing Chest", "_t")
-t("Open the chest?", "Open the chest?", "_t")
-t("#GOLD#An object rolls from the chest!", "#GOLD#An object rolls from the chest!", "logSeen")
-t("#GOLD#But the chest was guarded!", "#GOLD#But the chest was guarded!", "logSeen")
-t("glowing chest (opened)", "glowing chest (opened)", "_t")
-t("Leave", "Leave", "_t")
-t("Open", "Open", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/meteor.lua"
--- 2 entries
-t("As you walk you notice a huge rock falling from the sky. It crashes right near you!", "As you walk you notice a huge rock falling from the sky. It crashes right near you!", "_t")
-t("Meteor!", "Meteor!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/naga-portal.lua"
--- 7 entries
-t("coral invasion portal", "coral invasion portal", "_t")
-t("water cavern", "water cavern", "_t")
-t("#rng# the Tidebender", "#rng# the Tidebender", "_t")
-t("naga invasion coral portal", "naga invasion coral portal", "_t")
-t("broken naga invasion coral portal", "broken naga invasion coral portal", "_t")
-t("Coral Portal", "Coral Portal", "_t")
-t("#VIOLET#A naga steps out of the %s!", "#VIOLET#A naga steps out of the %s!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/necrotic-air.lua"
--- 1 entries
-t("%s (necrotic air)", "%s (necrotic air)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/noxious-caldera.lua"
--- 3 entries
-t("Way into a volcanic caldera", "Way into a volcanic caldera", "_t")
-t("Ground is shaking", "Ground is shaking", "_t")
-t("You feel a tremor in the ground for a few seconds and it disappears...", "You feel a tremor in the ground for a few seconds and it disappears...", "_t")
 
 
 ------------------------------------------------
