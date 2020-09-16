@@ -278,7 +278,15 @@
 "game/modules/tome/data/general/events/cultists.lua"
 "game/modules/tome/data/general/events/damp-cave.lua"
 "game/modules/tome/data/general/events/drake-cave.lua"
-"game/modules/tome/data/general/events/fearscape-portal.lua" Khelerd 완
+"game/modules/tome/data/general/events/fearscape-portal.lua"
+"game/modules/tome/data/general/events/fell-aura.lua"
+"game/modules/tome/data/general/events/font-life.lua"
+"game/modules/tome/data/general/events/glimmerstone.lua"
+"game/modules/tome/data/general/events/glowing-chest.lua"
+"game/modules/tome/data/general/events/meteor.lua"
+"game/modules/tome/data/general/events/naga-portal.lua"
+"game/modules/tome/data/general/events/necrotic-air.lua"
+"game/modules/tome/data/general/events/noxious-caldera.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/general/events ---------------------------------
 
