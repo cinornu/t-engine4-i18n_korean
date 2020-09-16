@@ -419,6 +419,8 @@ section "game/dlcs/tome-orcs/data/general/events/merchant-stall.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/sewer-alligator-nest.lua"
 
+t("Leave", "떠난다", "_t")
+t("Open", "연다", "_t")
 
 
 ------------------------------------------------
@@ -1653,7 +1655,7 @@ t("Target a projectile in mid-flight to clone it and target that projectile inde
 t("Mirror Image (%s)", "거울의 상 (%s)", "tformat")
 t("A cloned image of you.", "당신의 복제된 상이다.", "_t")
 t("Mirror Self", "자기 반사", "_t")
-t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "거울의 상을 %d 턴 동안 소홥합니다. 거울의 상은 시전자가 사용하는 모든 주문을 시전할 수 있습니다. 거울의 상이 가하는 피해량은 %d%% 로 변동되며, 거울의 상은 %d%% 변동된 생명력을 갖고있습니다. 추가로, 거울의 상이 가하는 모든 빛 속성 피해는 암흑 속성 피해가 되고, 모든 암흑 속성 피해는 빛 속성 피해가 됩니다.", "tformat")
+t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "거울의 상을 %d 턴 동안 소환합니다. 거울의 상은 시전자가 사용하는 모든 주문을 시전할 수 있습니다. 거울의 상이 가하는 피해량은 %d%% 로 변동되며, 거울의 상은 %d%% 변동된 생명력을 갖고있습니다. 추가로, 거울의 상이 가하는 모든 빛 속성 피해는 암흑 속성 피해가 되고, 모든 암흑 속성 피해는 빛 속성 피해가 됩니다.", "tformat")
 
 
 ------------------------------------------------
@@ -4708,6 +4710,9 @@ section "game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua"
 section "game/dlcs/tome-orcs/data/zones/kaltor-shop/grids.lua"
 
 t("floor", "바닥", "entity subtype")
+t("#GOLD#An object rolls from the chest!", "#GOLD#상자에서 어떤 물건이 튀어나왔다!", "logSeen")
+t("Leave", "떠난다", "_t")
+t("Open", "연다", "_t")
 
 
 ------------------------------------------------
