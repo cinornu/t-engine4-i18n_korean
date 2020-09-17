@@ -1325,41 +1325,7 @@ t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put the
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
--- 30 entries
-t("Escapades of Fay Willows [Book 3, Chapter 6] - Hateful Wrath", "Escapades of Fay Willows [Book 3, Chapter 6] - Hateful Wrath", "_t")
-t([[[i]I'm not sure how big the fanatics’ group was when we battled them, though out of them only about twenty or so wore masks. What I do know is that when I first saw the ogres that they numbered over fifty. After the battle there was only nine of them with me when we made our escape. This isn't to say that all the other ogres were killed though and I wonder what cruel end they met at the hands of those fanatics we had left them in.[/i]
-
-Unlike the other zealots, I could remember some of the words that came from the halfling on that battlefield. 'I should have killed you', 'a mistake to spare me', and so forth. All of a sudden though the halfling stopped talking as I felt something deep within me come out, and overwhelming hatred that I seemed to channel into the halfling's body. While this happened, I took my other arm and raised the axe high, bringing down its backside on the halflings shoulder in an effort to escape his grip. I could feel the power of the blow as it connected, the force of the impact reverberating through both of our bodies. I could hear the halfling clench its teeth, feeling the pain from the blow, before I was quickly thrown to the ground.
-
-Almost immediately I got up, with feelings full of violence that I was ready to unleash. I don't know what happened next but I immediately remember striking the halflings back, somehow seemingly moving around in an instant. A howl of pain erupted from the halfling as the blow connected. The halfling attempted to jab at me furiously in response, but I simply used my free hand to knock away the meager blows, before beginning to make an all out assault. Blow after blow struck my prey, leaving deep gashes in the halflings armor. At this point I could remember the grin on my face tearing at my face muscles in an unnatural way and the hatred within me unleashing with every blow.
-
-The halfling not amused by my attacks attempted to strike back with a series of kicks. I remember receiving several hits to my body though feeling little from them. I immediately swiped back at the halfling, though the blow was easily dodged, before a fury of punches were released against me. Annoyed now I retaliated wildly with a slash of the axe, relishing the scream unleashed into the air by the halfling as my attack connected, cutting deep through the leather armor into the flesh underneath. At this point the halfling began to cough up blood, suffering greatly from the inflicted wound. I could feel my hatred burning within the halfling now, tearing at the insides from the wound I had just inflicted. It was an intoxicating feeling.
-
-My emotions completely enveloped me at that point as I began to swing by axe relentlessly with little care of what I hit. The halfling tried to dodge my blows but a number of them hit home. Blood flew as I sliced at the halfling, and possibly some other fanatics that unfortunately happened into my path. Finally having enough of this the halfling made a swift move in the other direction, to get away from me, attempting to escape the retribution that I was bringing forth. The halfling dropped close to the ground, the injuries I had rendered now taking their toll. I could hear murmuring around me too, noticing all the fanatics, both initiates and zealots, backing away.
-
-Thinking about what I should do next, I felt a large hand on my shoulder, turning me about so I could see the face of the ogre strategist. Talking quickly, the strategist relayed to me in a winded voice, "We can't linger here anymore, the other zealots behind us are closing in, we need to push through and get out of here." Looking behind me, I could see the figures approaching rapidly, a far larger group and likely much better armed and armored, as the light flickered off the wall of metal coming for us. However, looking ahead I saw only a handful of initiates and zealots left, and knew that if we broke through them then at least those ogres still fighting could get to safety.
-
-I called out to the ogres to breakthrough now, before charging towards the terrified fanatics ahead of me. The remaining ogres who were still fighting saw this and began to rally, then move forward towards the freedom we sought. There was no resistance left to be found in the fanatics, their morale was completely broken. Some who couldn't scramble out of our way were trampled as we ran over them. Looking back at the battlefield I caught a glimpse of the halfling, who stared at me with a cold hatred, but at the same time could not do anymore. I could feel a bit of satisfaction rise within me, from snubbing the zealots, and for helping to at least get those ogres now with me away.
-
-Many of the ogres had fallen during the battle, many killed by that halfling's hands. Some ogres remained on the battlefield, alive but too injured to follow; or too demoralized in the case of some, like that female ogre I had witnessed collapsed to the ground, left to the whims of those zealots. There was no way for us to retrieve them, the other group of zealots had already caught up and had begun their pursuit of us, and wouldn't stop chasing us for a long time. Even after they disappeared from view we continued to run for a long while. When we did stop it was only after one of the ogres had fallen down due to wounds inflicted in the recent battle.
-
-Making my way over to the ogre I was quick to treat her wounds. The ogre commander had managed to survive the battle, though he also had injuries visible all over his body, and quickly came over to also be treated. The ogre strategist was quick to take charge at that point in the journey, telling me to only use the infusions enough to close their wounds so that we could get moving again. Eventually later on when we stopped again to gather our breath I would continue my treatment with my remaining infusions as best I could. After that we would run a distance, stop to rest, and run again several times. It felt as if we didn't stop running until after the sun became visible in the sky once more.]], [[[i]I'm not sure how big the fanatics’ group was when we battled them, though out of them only about twenty or so wore masks. What I do know is that when I first saw the ogres that they numbered over fifty. After the battle there was only nine of them with me when we made our escape. This isn't to say that all the other ogres were killed though and I wonder what cruel end they met at the hands of those fanatics we had left them in.[/i]
-
-Unlike the other zealots, I could remember some of the words that came from the halfling on that battlefield. 'I should have killed you', 'a mistake to spare me', and so forth. All of a sudden though the halfling stopped talking as I felt something deep within me come out, and overwhelming hatred that I seemed to channel into the halfling's body. While this happened, I took my other arm and raised the axe high, bringing down its backside on the halflings shoulder in an effort to escape his grip. I could feel the power of the blow as it connected, the force of the impact reverberating through both of our bodies. I could hear the halfling clench its teeth, feeling the pain from the blow, before I was quickly thrown to the ground.
-
-Almost immediately I got up, with feelings full of violence that I was ready to unleash. I don't know what happened next but I immediately remember striking the halflings back, somehow seemingly moving around in an instant. A howl of pain erupted from the halfling as the blow connected. The halfling attempted to jab at me furiously in response, but I simply used my free hand to knock away the meager blows, before beginning to make an all out assault. Blow after blow struck my prey, leaving deep gashes in the halflings armor. At this point I could remember the grin on my face tearing at my face muscles in an unnatural way and the hatred within me unleashing with every blow.
-
-The halfling not amused by my attacks attempted to strike back with a series of kicks. I remember receiving several hits to my body though feeling little from them. I immediately swiped back at the halfling, though the blow was easily dodged, before a fury of punches were released against me. Annoyed now I retaliated wildly with a slash of the axe, relishing the scream unleashed into the air by the halfling as my attack connected, cutting deep through the leather armor into the flesh underneath. At this point the halfling began to cough up blood, suffering greatly from the inflicted wound. I could feel my hatred burning within the halfling now, tearing at the insides from the wound I had just inflicted. It was an intoxicating feeling.
-
-My emotions completely enveloped me at that point as I began to swing by axe relentlessly with little care of what I hit. The halfling tried to dodge my blows but a number of them hit home. Blood flew as I sliced at the halfling, and possibly some other fanatics that unfortunately happened into my path. Finally having enough of this the halfling made a swift move in the other direction, to get away from me, attempting to escape the retribution that I was bringing forth. The halfling dropped close to the ground, the injuries I had rendered now taking their toll. I could hear murmuring around me too, noticing all the fanatics, both initiates and zealots, backing away.
-
-Thinking about what I should do next, I felt a large hand on my shoulder, turning me about so I could see the face of the ogre strategist. Talking quickly, the strategist relayed to me in a winded voice, "We can't linger here anymore, the other zealots behind us are closing in, we need to push through and get out of here." Looking behind me, I could see the figures approaching rapidly, a far larger group and likely much better armed and armored, as the light flickered off the wall of metal coming for us. However, looking ahead I saw only a handful of initiates and zealots left, and knew that if we broke through them then at least those ogres still fighting could get to safety.
-
-I called out to the ogres to breakthrough now, before charging towards the terrified fanatics ahead of me. The remaining ogres who were still fighting saw this and began to rally, then move forward towards the freedom we sought. There was no resistance left to be found in the fanatics, their morale was completely broken. Some who couldn't scramble out of our way were trampled as we ran over them. Looking back at the battlefield I caught a glimpse of the halfling, who stared at me with a cold hatred, but at the same time could not do anymore. I could feel a bit of satisfaction rise within me, from snubbing the zealots, and for helping to at least get those ogres now with me away.
-
-Many of the ogres had fallen during the battle, many killed by that halfling's hands. Some ogres remained on the battlefield, alive but too injured to follow; or too demoralized in the case of some, like that female ogre I had witnessed collapsed to the ground, left to the whims of those zealots. There was no way for us to retrieve them, the other group of zealots had already caught up and had begun their pursuit of us, and wouldn't stop chasing us for a long time. Even after they disappeared from view we continued to run for a long while. When we did stop it was only after one of the ogres had fallen down due to wounds inflicted in the recent battle.
-
-Making my way over to the ogre I was quick to treat her wounds. The ogre commander had managed to survive the battle, though he also had injuries visible all over his body, and quickly came over to also be treated. The ogre strategist was quick to take charge at that point in the journey, telling me to only use the infusions enough to close their wounds so that we could get moving again. Eventually later on when we stopped again to gather our breath I would continue my treatment with my remaining infusions as best I could. After that we would run a distance, stop to rest, and run again several times. It felt as if we didn't stop running until after the sun became visible in the sky once more.]], "_t")
+-- 28 entries
 t("Escapades of Fay Willows [Book 4, Chapter 1] - Exhaustive Travel", "Escapades of Fay Willows [Book 4, Chapter 1] - Exhaustive Travel", "_t")
 t([[[i]The endurance of an ogre is quite astonishing. While I had collapsed from exhaustion, the ogres had persevered and managed to stay awake until we made it to an abandoned settlement. In particular, while many of the ogres had managed to acquire some sleep along with me, the commander and strategist would manage to make the entire journey to Elvala before they would finally collapse from exhaustion. I honestly don't believe any other race could possibly stay awake, let alone active, for that long.[/i]
 
@@ -2385,9 +2351,8 @@ t("wheeing and buzzing thing", "wheeing and buzzing thing", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/npcs.lua"
--- 6 entries
+-- 5 entries
 t("half formed drem", "half formed drem", "entity name")
-t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "_t")
 t("The Amalgamation", "The Amalgamation", "entity name")
 t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "_t")
 t("and absorbed into the foul thing", "and absorbed into the foul thing", "_t")
@@ -6134,20 +6099,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/talents/spells/occult-technomancy.lua"
--- 1 entries
-t([[Using your sheer arcane power you keep breaches in spacetime open for %d turns.
-		Each turn they are open you project an occult clone of your saw along each breach, damaging any creature caught for %d%% occult weapon damage.
-		The saw cuts both in a physical and arcane way, reducing the duration of a random beneficial effect on each target by %d each time.
-		Each target can only be affected once per turn.
-		This spell is only usable for one turn after casting Reality Breach but any Reality Breach cast during its duration is also recorded inside.]], [[Using your sheer arcane power you keep breaches in spacetime open for %d turns.
-		Each turn they are open you project an occult clone of your saw along each breach, damaging any creature caught for %d%% occult weapon damage.
-		The saw cuts both in a physical and arcane way, reducing the duration of a random beneficial effect on each target by %d each time.
-		Each target can only be affected once per turn.
-		This spell is only usable for one turn after casting Reality Breach but any Reality Breach cast during its duration is also recorded inside.]], "tformat")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"
 -- 15 entries
 t("shadow of pain", "shadow of pain", "entity name")
@@ -8834,75 +8785,6 @@ t("solar blood", "solar blood", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/events/old-battle-field.lua"
--- 10 entries
-t("ramp up to %s", "ramp up to %s", "tformat")
-t("#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "log")
-t("Cavern beneath tombstones", "Cavern beneath tombstones", "_t")
-t("Undead are rising from the ground! You must hold on!", "Undead are rising from the ground! You must hold on!", "_t")
-t("You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "_t")
-t("Do you wish to disturb the grave?", "Do you wish to disturb the grave?", "_t")
-t("Grave", "Grave", "_t")
-t("opened grave", "opened grave", "_t")
-t("As you began digging up the grave, the ground collapsed beneath you. You fall into an eerily lit cavern.", "As you began digging up the grave, the ground collapsed beneath you. You fall into an eerily lit cavern.", "_t")
-t("Fall...", "Fall...", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/protective-aura.lua"
--- 1 entries
-t("%s (protective aura)", "%s (protective aura)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/rat-lich.lua"
--- 14 entries
-t("way up to %s", "way up to %s", "tformat")
-t("#VIOLET# As you leave the crypt, the stairway collapses in upon itself.", "#VIOLET# As you leave the crypt, the stairway collapses in upon itself.", "log")
-t("dusty rat skull", "dusty rat skull", "_t")
-t("Skull of the Rat Lich", "Skull of the Rat Lich", "_t")
-t("This ancient skull is all that remains of the Rat Lich. Some fragments of its power remain and a faint red light still glows within its eye sockets.", "This ancient skull is all that remains of the Rat Lich. Some fragments of its power remain and a faint red light still glows within its eye sockets.", "_t")
-t("raise one or two undead rats to fight beside you", "raise one or two undead rats to fight beside you", "_t")
-t("%s raises %s %s, and a red light flashes from it's eye sockets!", "%s raises %s %s, and a red light flashes from it's eye sockets!", "logSeen")
-t("From the dust of decay a %s forms!", "From the dust of decay a %s forms!", "logSeen")
-t("stairway leading downwards", "stairway leading downwards", "_t")
-t("Stairs seem to lead into some kind of crypt.", "Stairs seem to lead into some kind of crypt.", "_t")
-t("Forsaken Crypt", "Forsaken Crypt", "_t")
-t("You hear squeaks and the sounds of clicking bone echo around you... Pure death awaits. Flee!", "You hear squeaks and the sounds of clicking bone echo around you... Pure death awaits. Flee!", "_t")
-t("collapsed forsaken crypt", "collapsed forsaken crypt", "_t")
-t("Stairs lead downwards into rubble.", "Stairs lead downwards into rubble.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/slimey-pool.lua"
--- 2 entries
-t("slimey pool", "slimey pool", "_t")
-t("%s (slimey)", "%s (slimey)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/sludgenest.lua"
--- 3 entries
-t("Way into a strange lush forest", "Way into a strange lush forest", "_t")
-t("Lush forest", "Lush forest", "_t")
-t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest in the cold icy wastes of the northland.", "Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest in the cold icy wastes of the northland.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/snowstorm.lua"
--- 2 entries
-t("As you walk into the area you notice a huge snowstorm over your head. Beware!", "As you walk into the area you notice a huge snowstorm over your head. Beware!", "_t")
-t("Snowstorm", "Snowstorm", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/spellblaze-scar.lua"
--- 2 entries
-t("spellblaze scar", "spellblaze scar", "_t")
-t("%s (spellblaze aura)", "%s (spellblaze aura)", "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/general/events/sub-vault.lua"
 -- 10 entries
 t("way up (%s)", "way up (%s)", "tformat")
@@ -8925,9 +8807,7 @@ t("As you walk into the area you notice a huge thunderstorm over your head. Bewa
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/tombstones.lua"
--- 3 entries
-t("Do you wish to disturb the grave?", "Do you wish to disturb the grave?", "_t")
-t("Grave", "Grave", "_t")
+-- 1 entries
 t("grave (opened)", "grave (opened)", "_t")
 
 
@@ -9180,179 +9060,16 @@ t("runed bone giant", "runed bone giant", "entity name")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/npcs/ghoul.lua"
--- 4 entries
-t("This vile abomination is a relative of ghouls, and often leads packs of them. It smells foul, and its bite carries a rotting disease.", "This vile abomination is a relative of ghouls, and often leads packs of them. It smells foul, and its bite carries a rotting disease.", "_t")
-t("Stench rises from this rotting abomination. Its brow is adorned with gold, and it moves at you with hatred gleaming in its eyes.", "Stench rises from this rotting abomination. Its brow is adorned with gold, and it moves at you with hatred gleaming in its eyes.", "_t")
-t("risen corpse", "risen corpse", "entity name")
-t("A body raised through dark magic.", "A body raised through dark magic.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/gwelgoroth.lua"
--- 4 entries
-t("gwelgoroth", "gwelgoroth", "entity name")
-t("greater gwelgoroth", "greater gwelgoroth", "entity name")
-t("ultimate gwelgoroth", "ultimate gwelgoroth", "entity name")
-t("Gwelgoroth are mighty air elementals, a pure incarnation of lightning and thunder.", "Gwelgoroth are mighty air elementals, a pure incarnation of lightning and thunder.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/horror-corrupted.lua"
--- 11 entries
-t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "_t")
-t("dremling", "dremling", "entity name")
-t("A giant black-skinned humanoid covered in spikey scabrous deposits.  Its face is featureless; its eyesockets, empty and hollow.", "A giant black-skinned humanoid covered in spikey scabrous deposits.  Its face is featureless; its eyesockets, empty and hollow.", "_t")
-t("drem master", "drem master", "entity name")
-t("A disfigured humanoid with vaguely Dwarven features dressed in patched-together and rusted mail armor.  It seems to be in command of others, though its mouth is sewn shut.", "A disfigured humanoid with vaguely Dwarven features dressed in patched-together and rusted mail armor.  It seems to be in command of others, though its mouth is sewn shut.", "_t")
-t("brecklorn", "brecklorn", "entity name")
-t("A giant hairless bat with the face of a Dwarf twisted into a constant scream.  Pustulant sores cover its malformed body, and your heart weakens as it nears.", "A giant hairless bat with the face of a Dwarf twisted into a constant scream.  Pustulant sores cover its malformed body, and your heart weakens as it nears.", "_t")
-t("grannor'vor", "grannor'vor", "entity name")
-t("A large sluglike creature that moves slowly, leaving a trail of acid in its wake.  Its head has strangely humanoid features.", "A large sluglike creature that moves slowly, leaving a trail of acid in its wake.  Its head has strangely humanoid features.", "_t")
-t("grannor'vin", "grannor'vin", "entity name")
-t("A large sluglike creature with the face of a man.  Shadows seem to be drawn to its massive form, and your light dims as it approaches.", "A large sluglike creature with the face of a man.  Shadows seem to be drawn to its massive form, and your light dims as it approaches.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/horror-undead.lua"
--- 10 entries
-t("necrotic mass", "necrotic mass", "entity name")
-t("This putrid mass of rotting flesh shifts and quivers, but shows no signs of intelligence or mobility.", "This putrid mass of rotting flesh shifts and quivers, but shows no signs of intelligence or mobility.", "_t")
-t("necrotic abomination", "necrotic abomination", "entity name")
-t("This monstrous form of putrid, torn flesh and chipped bone drags its mass towards you, spurting blood and viscera along the way.", "This monstrous form of putrid, torn flesh and chipped bone drags its mass towards you, spurting blood and viscera along the way.", "_t")
-t("#VIOLET#As the necrotic abomination is destroyed you see the remaining bones and flesh reassembling in the form of new foes!", "#VIOLET#As the necrotic abomination is destroyed you see the remaining bones and flesh reassembling in the form of new foes!", "logSeen")
-t("bone horror", "bone horror", "entity name")
-t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new foes!", "#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new foes!", "logSeen")
-t("sanguine horror", "sanguine horror", "entity name")
-t("This pulsing, quivering form is a deep crimson, and appears to be composed entirely of thick, virulent blood. Waves rhythmically ripple across its surface, indicating a still beating heart somewhere in its body.", "This pulsing, quivering form is a deep crimson, and appears to be composed entirely of thick, virulent blood. Waves rhythmically ripple across its surface, indicating a still beating heart somewhere in its body.", "_t")
-t("This crimson shape drips ceaselessly, spattering the nearby ground. The droplets seem to continue moving of their own volition.", "This crimson shape drips ceaselessly, spattering the nearby ground. The droplets seem to continue moving of their own volition.", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/general/npcs/horror.lua"
--- 48 entries
-t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
-Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
-Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], "_t")
-t("#LIGHT_RED#A carrion worm mass has spawned from %s' wounds!", "#LIGHT_RED#A carrion worm mass has spawned from %s' wounds!", "logSeen")
-t("nightmare horror", "nightmare horror", "entity name")
-t("A shifting form of darkest night that seems to reflect your deepest fears.", "A shifting form of darkest night that seems to reflect your deepest fears.", "_t")
-t("A headless, gangly humanoid with a large distended stomach.", "A headless, gangly humanoid with a large distended stomach.", "_t")
-t("eldritch eye", "eldritch eye", "entity name")
-t("A small bloodshot eye floats here.", "A small bloodshot eye floats here.", "_t")
-t("#AQUAMARINE#As #Source# falls #Target# seems to weaken!", "#AQUAMARINE#As #Source# falls #Target# seems to weaken!", "logCombat")
-t("%s is blinded by the loss of all its eyes.", "%s is blinded by the loss of all its eyes.", "logSeen")
-t("luminous horror", "luminous horror", "entity name")
-t("A lanky humanoid shape composed of yellow light.", "A lanky humanoid shape composed of yellow light.", "_t")
-t("radiant horror", "radiant horror", "entity name")
-t("A lanky four-armed humanoid shape composed of bright golden light.  It's so bright it's hard to look at, and you can feel heat radiating outward from it.", "A lanky four-armed humanoid shape composed of bright golden light.  It's so bright it's hard to look at, and you can feel heat radiating outward from it.", "_t")
+-- 1 entries
 t("devourer", "devourer", "entity name")
-t("blade horror", "blade horror", "entity name")
-t("Blades whirl in the air around this thin, floating figure. The air around it swirls with force, threatening to tear apart anything that approches, if the blades don't do it first.", "Blades whirl in the air around this thin, floating figure. The air around it swirls with force, threatening to tear apart anything that approches, if the blades don't do it first.", "_t")
-t("oozing horror", "oozing horror", "entity name")
-t("A massive, amorphous blob of green slime crawls on the ground towards you. Eyes drift through the viscous mass, scanning for potential prey.", "A massive, amorphous blob of green slime crawls on the ground towards you. Eyes drift through the viscous mass, scanning for potential prey.", "_t")
-t("umbral horror", "umbral horror", "entity name")
-t("A dark shifting shape stalks through the shadows, blending in seamlessly.", "A dark shifting shape stalks through the shadows, blending in seamlessly.", "_t")
-t("dreaming horror", "dreaming horror", "entity name")
-t([[A vaguely tentacled yet constantly changing form rests here apparently oblivious to your existence.
-With each slow breath it takes reality distorts around it.  Blue twirls into red, green twists into yellow, and the air sings softly before bursting into a myriad of pastel shapes and colors.]], [[A vaguely tentacled yet constantly changing form rests here apparently oblivious to your existence.
-With each slow breath it takes reality distorts around it.  Blue twirls into red, green twists into yellow, and the air sings softly before bursting into a myriad of pastel shapes and colors.]], "_t")
-t("It looks asleep and dreamy.", "It looks asleep and dreamy.", "_t")
-t("It looks awake, beware!", "It looks awake, beware!", "_t")
-t("#LIGHT_BLUE#A dream seed escapes %s's sleeping mind.", "#LIGHT_BLUE#A dream seed escapes %s's sleeping mind.", "logSeen")
-t([[A vaguely tentacled yet rapidly changing shape floats here.  With each breath you can feel reality twist, shatter, and break. 
-Blue burns into red, green bursts into yellow, and the air crackles and hisses before exploding into a thousand fragments of sharp shapes and colors.]], [[A vaguely tentacled yet rapidly changing shape floats here.  With each breath you can feel reality twist, shatter, and break. 
-Blue burns into red, green bursts into yellow, and the air crackles and hisses before exploding into a thousand fragments of sharp shapes and colors.]], "_t")
-t("#LIGHT_BLUE#The sleeper stirs...", "#LIGHT_BLUE#The sleeper stirs...", "logSeen")
-t("dream seed", "dream seed", "entity name")
-t("A pinkish bubble floats here, reflecting the world not as it is, but as it would be in that surreal place that exists only in our dreams.", "A pinkish bubble floats here, reflecting the world not as it is, but as it would be in that surreal place that exists only in our dreams.", "_t")
-t("maelstrom", "maelstrom", "entity name")
-t("This powerful vortex of ice and lightning somehow gives you the impression of claws, teeth and intense hunger...", "This powerful vortex of ice and lightning somehow gives you the impression of claws, teeth and intense hunger...", "_t")
-t("parasitic horror", "parasitic horror", "entity name")
-t("You don't want to think about what sort of creature this lamprey-like horror was feeding on to grow so large.  Its skin pulsates and writhes, like things are moving underneath...", "You don't want to think about what sort of creature this lamprey-like horror was feeding on to grow so large.  Its skin pulsates and writhes, like things are moving underneath...", "_t")
-t("%s's severed flesh starts crawling!", "%s's severed flesh starts crawling!", "logSeen")
-t("Dozens - hundreds maybe? - of blood-gorged worms, of varying shapes and sizes, making a writhing, ichor-soaked sea of tooth-lined maws and sickly green skin, ready to latch onto you and drink until they burst or your veins run dry.", "Dozens - hundreds maybe? - of blood-gorged worms, of varying shapes and sizes, making a writhing, ichor-soaked sea of tooth-lined maws and sickly green skin, ready to latch onto you and drink until they burst or your veins run dry.", "_t")
-t("Grgglck the Devouring Darkness", "Grgglck the Devouring Darkness", "entity name")
-t([[A horror from the deepest pits of the earth. It looks like a huge pile of tentacles all trying to reach for you.
-You can discern a huge round mouth covered in razor-sharp teeth.]], [[A horror from the deepest pits of the earth. It looks like a huge pile of tentacles all trying to reach for you.
-You can discern a huge round mouth covered in razor-sharp teeth.]], "_t")
-t("Grgglck's Tentacle", "Grgglck's Tentacle", "entity name")
-t("This is one of Grgglck's tentacles. It looks more vulnerable than the main body.", "This is one of Grgglck's tentacles. It looks more vulnerable than the main body.", "_t")
-t("#AQUAMARINE#With Grgglck's death its tentacle also falls lifeless on the ground!", "#AQUAMARINE#With Grgglck's death its tentacle also falls lifeless on the ground!", "logSeen")
-t("This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "_t")
-t("Animated Sword", "Animated Sword", "entity name")
-t("Time seems to warp and bend around this floating weapon.", "Time seems to warp and bend around this floating weapon.", "_t")
-t("#AQUAMARINE#A rift opens and a free floating blade emerges!", "#AQUAMARINE#A rift opens and a free floating blade emerges!", "logSeen")
-t("Distorted Animated Sword", "Distorted Animated Sword", "entity name")
-t("This floating weapon shifts and shimmers, time and space warping and bending as it moves. It appears to vibrate, as if it may explode at any moment.", "This floating weapon shifts and shimmers, time and space warping and bending as it moves. It appears to vibrate, as if it may explode at any moment.", "_t")
-t("#AQUAMARINE#A rift opens and a free floating blade emerges! It looks unstable...", "#AQUAMARINE#A rift opens and a free floating blade emerges! It looks unstable...", "logSeen")
-t("#AQUAMARINE#The %s no longer seems to be controlled and clatters to the ground before vanishing into a rift.", "#AQUAMARINE#The %s no longer seems to be controlled and clatters to the ground before vanishing into a rift.", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/horror_aquatic.lua"
--- 13 entries
-t("#LIGHT_BLUE#%s explodes into a huge bubble of air!", "#LIGHT_BLUE#%s explodes into a huge bubble of air!", "logSeen")
-t("entrenched horror", "entrenched horror", "entity name")
-t("This massive stony structure shifts and pulsates, its many long, thin tentacles probing the nearby water for food.", "This massive stony structure shifts and pulsates, its many long, thin tentacles probing the nearby water for food.", "_t")
-t("swarming horror", "swarming horror", "entity name")
-t("This tiny fish-like creature moves erratically, but is constantly surrounded by others of its kind.", "This tiny fish-like creature moves erratically, but is constantly surrounded by others of its kind.", "_t")
-t("ravenous horror", "ravenous horror", "entity name")
-t("A vile looking liquid flows from the teeth of this agile monster. It glides through the water towards you, spined fins jutting outwards.", "A vile looking liquid flows from the teeth of this agile monster. It glides through the water towards you, spined fins jutting outwards.", "_t")
-t("boiling horror", "boiling horror", "entity name")
-t("This frothing ball of water rages with an intense heat.", "This frothing ball of water rages with an intense heat.", "_t")
-t("swarm hive", "swarm hive", "entity name")
-t("This titanic mass of flesh pulsates and churns as tiny monsters burst from its orifices.", "This titanic mass of flesh pulsates and churns as tiny monsters burst from its orifices.", "_t")
-t("abyssal horror", "abyssal horror", "entity name")
-t("This pitch black form is shrouded in darkness. All you can make out are a pair of deep red eyes, hidden behind a mass of tentacles.", "This pitch black form is shrouded in darkness. All you can make out are a pair of deep red eyes, hidden behind a mass of tentacles.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/horror_temporal.lua"
--- 11 entries
-t("dredgling", "dredgling", "entity name")
-t("A small pink-skinned humanoid with large bulbous eyes.", "A small pink-skinned humanoid with large bulbous eyes.", "_t")
-t("dredge", "dredge", "entity name")
-t("A hulking pink-skinned creature with long arms as thick as tree trunks.  It drags its knuckles on the ground as it lumbers toward you.", "A hulking pink-skinned creature with long arms as thick as tree trunks.  It drags its knuckles on the ground as it lumbers toward you.", "_t")
-t("dredge captain", "dredge captain", "entity name")
-t("A thin pink-skinned creature with long spindly arms.  Half its body is old and wrinkly, and the other half appears quite young.", "A thin pink-skinned creature with long spindly arms.  Half its body is old and wrinkly, and the other half appears quite young.", "_t")
-t("temporal stalker", "temporal stalker", "entity name")
-t("A slender metallic monstrosity with long claws in place of fingers, and razor-sharp teeth.", "A slender metallic monstrosity with long claws in place of fingers, and razor-sharp teeth.", "_t")
-t("void horror", "void horror", "entity name")
-t("It looks like a hole in spacetime, but you get the impression it's somehow more than that.", "It looks like a hole in spacetime, but you get the impression it's somehow more than that.", "_t")
-t("%s has collapsed in upon itself.", "%s has collapsed in upon itself.", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/jelly.lua"
--- 15 entries
-t("jelly", "jelly", "entity subtype")
-t("green jelly", "green jelly", "entity name")
-t("A strange green blob on the dungeon floor.", "A strange green blob on the dungeon floor.", "_t")
-t("red jelly", "red jelly", "entity name")
-t("A strange red blob on the dungeon floor.", "A strange red blob on the dungeon floor.", "_t")
-t("blue jelly", "blue jelly", "entity name")
-t("A strange blue blob on the dungeon floor.", "A strange blue blob on the dungeon floor.", "_t")
-t("white jelly", "white jelly", "entity name")
-t("A strange white blob on the dungeon floor.", "A strange white blob on the dungeon floor.", "_t")
-t("yellow jelly", "yellow jelly", "entity name")
-t("A strange yellow blob on the dungeon floor.", "A strange yellow blob on the dungeon floor.", "_t")
-t("black jelly", "black jelly", "entity name")
-t("A strange black blob on the dungeon floor.", "A strange black blob on the dungeon floor.", "_t")
-t("Malevolent Dimensional Jelly", "Malevolent Dimensional Jelly", "entity name")
-t("A strange black blob on the dungeon floor; through it you seem to be able to see other times and places. As you stare you see things moving out of it.", "A strange black blob on the dungeon floor; through it you seem to be able to see other times and places. As you stare you see things moving out of it.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/lich.lua"
--- 8 entries
-t("Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "_t")
-t("Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "_t")
-t("ancient lich", "ancient lich", "entity name")
+-- 3 entries
 t("An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "_t")
-t("archlich", "archlich", "entity name")
 t("Blacker than the deepest night, this cold cruel form of darkness approaches.  Long ago it laid aside its mortality, but it has not forgotten its power; rather, its malice and hate have bent this undead entity on the destruction of all things living.", "Blacker than the deepest night, this cold cruel form of darkness approaches.  Long ago it laid aside its mortality, but it has not forgotten its power; rather, its malice and hate have bent this undead entity on the destruction of all things living.", "_t")
-t("blood lich", "blood lich", "entity name")
 t("The seething, pumping, disembodied blood of a horrendously powerful necromancer. To strike it is to bathe in the rivers of the Fearscape itself.", "The seething, pumping, disembodied blood of a horrendously powerful necromancer. To strike it is to bathe in the rivers of the Fearscape itself.", "_t")
 
 
@@ -9782,7 +9499,7 @@ t("This old-looking troll glares at you with malice. His muscles appear atrophie
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/undead-rat.lua"
--- 26 entries
+-- 25 entries
 t("rodent", "rodent", "entity subtype")
 t("A skeletal rat, teeth and claws ground to a sharp point. It glares at you menacingly.", "A skeletal rat, teeth and claws ground to a sharp point. It glares at you menacingly.", "_t")
 t("ghoulish rat", "ghoulish rat", "entity name")
@@ -9800,7 +9517,6 @@ t("Squeak! Blood!", "Squeak! Blood!", "_t")
 t("gigantic bone rat", "gigantic bone rat", "entity name")
 t("This massive beast appears to be a rat composed of countless bones fused together.", "This massive beast appears to be a rat composed of countless bones fused together.", "_t")
 t("*SQUEAK*", "*SQUEAK*", "_t")
-t("Rat Lich", "Rat Lich", "entity name")
 t("The master of the pit is before you. It squeaks with menace as it and a horde of minions approach you.", "The master of the pit is before you. It squeaks with menace as it and a horde of minions approach you.", "_t")
 t("#RED#Rising again, the Rat Lich's eyes glow with renewed energy!", "#RED#Rising again, the Rat Lich's eyes glow with renewed energy!", "logSeen")
 t("\
@@ -19652,7 +19368,7 @@ t("#LIGHT_BLUE#Added %s[%s]%s at (%d, %d)", "#LIGHT_BLUE#Added %s[%s]%s at (%d, 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/DebugMain.lua"
--- 34 entries
+-- 33 entries
 t("Debug/Cheat! It's BADDDD!", "Debug/Cheat! It's BADDDD!", "_t")
 t("#LIGHT_BLUE#God mode OFF", "#LIGHT_BLUE#God mode OFF", "log")
 t("#LIGHT_BLUE#God mode ON", "#LIGHT_BLUE#God mode ON", "log")
@@ -19670,7 +19386,6 @@ t("Killed", "Killed", "_t")
 t("Removed", "Removed", "_t")
 t("Kill", "Kill", "_t")
 t("Remove", "Remove", "_t")
-t("Change Level", "Change Level", "_t")
 t("Reveal all map", "Reveal all map", "_t")
 t("Toggle Demi-Godmode", "Toggle Demi-Godmode", "_t")
 t("Toggle Godmode", "Toggle Godmode", "_t")

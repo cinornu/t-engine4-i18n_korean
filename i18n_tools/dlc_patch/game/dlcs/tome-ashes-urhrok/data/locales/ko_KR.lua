@@ -428,7 +428,7 @@ t("Hexed Shield", "비술 방패", "talent name")
 t([[Whenever you block an attack with your shield, you randomly hex the attacker with one of the hexes: Pacification, Domination, Burning or Empathic as if cast at talent level %d.
 		This may only happen once per turn.]], [[방패로 공격을 막을 때, 공격자에게 진정의 비술, 화염의 비술, 공감의 비술, 또는 지배의 비술 중 하나를 겁니다. 이로 인해 발동되는 비술은 기술 레벨 %d 입니다.
 		이 효과는 한 턴에 1 번만 발생합니다.]], "tformat")
-t("Cursed Arm", "저주받은 팔", "talent name")
+t("Cursed Arm", "저주받은 무기", "talent name")
 t([[Whenever make a melee attack, you have a %d%% chance to randomly curse the target with one of the curses: Defenselessness, Impotence, Death or Vulnerability as if cast at talent level %d.
 		This may only happen once per turn.]], [[근접 공격을 가할 때, %d%% 확률로 무방비의 저주, 무기력의 저주, 죽음의 저주, 취약의 저주 중 하나를 겁니다. 이로 인해 발동되는 비술은 기술 레벨 %d 입니다.
 		이 효과는 한 턴에 1 번만 발생합니다.]], "tformat")

@@ -6612,40 +6612,74 @@ t("You feel a tremor in the ground for a few seconds and it disappears...", "땅
 ------------------------------------------------
 section "game/modules/tome/data/general/events/old-battle-field.lua"
 
+t("ramp up to %s", "%s 돌아가는 경사로", "tformat", nil, {"로"})
+t("#VIOLET# The ramp crumbles as you climb it, followed by the collapse of the cavern.", "#VIOLET# 경사로를 타고 올라가자 무너져, 동굴이 묻혀 버렸다.", "log")
+t("Cavern beneath tombstones", "묘비 아래의 동굴", "_t")
+t("Undead are rising from the ground! You must hold on!", "언데드들이 땅에서 일어나고 있습니다! 버텨야 합니다!", "_t")
 t("Onslaught", "맹공", "_t")
+t("You have survived the onslaught of undead. You notice a way to climb up you had not seen before in a wall nearby.", "언데드들의 맹공에서 살아남았습니다. 올라가는 길이 있다는 걸 발견했습니다. 벽 근처에 있어서 몰랐던 모양입니다.", "_t")
 t("grave", "묘지", "_t")
+t("Do you wish to disturb the grave?", "정말로 무덤을 훼손하겠습니까?", "_t")
+t("Grave", "무덤", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t("opened grave", "열린 무덤", "_t")
+t("As you began digging up the grave, the ground collapsed beneath you. You fall into an eerily lit cavern.", "무덤을 파내자, 발밑의 땅이 무너졌습니다. 으스스한 빛으로 밝혀진 동굴로 떨어졌습니다.", "_t")
+t("Fall...", "추락...", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/protective-aura.lua"
 
+t("%s (protective aura)", "%s (보호의 아우라)", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/rat-lich.lua"
 
+t("way up to %s", "%s 올라가는 길", "tformat", nil, {"로"})
+t("#VIOLET# As you leave the crypt, the stairway collapses in upon itself.", "#VIOLET# 지하실에서 빠져나오자, 계단이 무너졌다.", "log")
+t("dusty rat skull", "먼지투성이 쥐 해골", "_t")
+t("Skull of the Rat Lich", "리치 쥐의 해골", "_t")
+t("This ancient skull is all that remains of the Rat Lich. Some fragments of its power remain and a faint red light still glows within its eye sockets.", "고대의 해골로, 리치 쥐의 잔해입니다. 그 힘의 일부가 남아 있어 눈구멍 안쪽이 여전히 붉은 빛으로 빛납니다.", "_t")
+t("raise one or two undead rats to fight beside you", "언데드 쥐를 1 ~ 2마리 일으켜 아군으로 삼습니다", "_t")
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
+t("%s raises %s %s, and a red light flashes from it's eye sockets!", "%s %s %s 일으켰다. 눈구멍에서 붉은 빛이 번뜩였다!", "logSeen", nil, {"는",[3]="을"})
+t("From the dust of decay a %s forms!", "부패한 먼지에서 %s 생겨났다!", "logSeen", nil, {"이"})
+t("stairway leading downwards", "아래로 내려가는 계단", "_t")
+t("Stairs seem to lead into some kind of crypt.", "무슨 지하실 같은 곳으로 이어지는 계단입니다.", "_t")
+t("Forsaken Crypt", "버려진 지하실", "_t")
+t("You hear squeaks and the sounds of clicking bone echo around you... Pure death awaits. Flee!", "찍찍거리는 소리와 딸깍거리는 뼛소리가 들립니다... 저 앞엔 죽음 뿐입니다. 도망치세요!", "_t")
+t("collapsed forsaken crypt", "무너져버린 버려진 지하실", "_t")
+t("Stairs lead downwards into rubble.", "폐허로 내려가는 계단.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/slimey-pool.lua"
 
+t("slimey pool", "슬라임 웅덩이", "_t")
+t("%s (slimey)", "%s (슬라임)", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/sludgenest.lua"
 
+t("Way into a strange lush forest", "이상하게 울창한 숲으로 가는 길", "_t")
+t("Lush forest", "울창한 숲", "_t")
+t("Suddenly it comes back to you. You remember long ago somebody told you about a strange lush forest in the cold icy wastes of the northland.", "예전에 누군가가 했던 말이 갑자기 생각났습니다. 북부 지방의 얼음으로 덮인 황무지엔 이상하게 울창한 숲이 있다고 했습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/snowstorm.lua"
 
+t("As you walk into the area you notice a huge snowstorm over your head. Beware!", "이 구역에 들어서자 엄청난 눈보라가 치고 있습니다. 조심하세요!", "_t")
+t("Snowstorm", "눈보라", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/spellblaze-scar.lua"
 
+t("spellblaze scar", "마법폭발의 상처", "_t")
+t("%s (spellblaze aura)", "%s (마법폭발의 기운)", "tformat")
 
 
 ------------------------------------------------
@@ -6663,6 +6697,8 @@ t("Thunderstorm", "뇌우", "_t")
 section "game/modules/tome/data/general/events/tombstones.lua"
 
 t("grave", "묘지", "_t")
+t("Do you wish to disturb the grave?", "정말로 무덤을 훼손하겠습니까?", "_t")
+t("Grave", "무덤", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("You were not the first here: the corpse was turned into an undead.", "당신은 첫 손님이 아니다. 시체가 언데드로 변해 있다.", "log")
 t("There is nothing there.", "아무것도 없다.", "log")
@@ -7322,7 +7358,11 @@ t("undead", "언데드", "entity type")
 t("ghoul", "구울", "entity name")
 t("Flesh is falling off in chunks from this decaying abomination.", "이 썩어가는 흉물에게서 살점이 떨어저 나가고있다.", "_t")
 t("ghast", "가스트", "entity name")
-t("ghoulking", "구울의 왕", "entity name")
+t("This vile abomination is a relative of ghouls, and often leads packs of them. It smells foul, and its bite carries a rotting disease.", "이 끔찍한 흉물은 구울의 친척입니다으로, 자주 구울 무리의 우두머리 역활을 맡습니다. 악취를 풍기며, 이빨로 부패성 질병을 흩뿌립니다.", "_t")
+t("ghoulking", "구울왕", "entity name")
+t("Stench rises from this rotting abomination. Its brow is adorned with gold, and it moves at you with hatred gleaming in its eyes.", "악취가 이 부패하는 흉물에게서 품겨저나옵니다. 이마는 황금으로 장식되어 있으며, 증오로 가득찬 눈을 하며 당신에게 다가옵니다.", "_t")
+t("risen corpse", "다시 일어난 시체", "entity name")
+t("A body raised through dark magic.", "사악한 마법으로 다시 일으켜세워진 시체입니다.", "_t")
 
 
 ------------------------------------------------
@@ -7330,6 +7370,10 @@ section "game/modules/tome/data/general/npcs/gwelgoroth.lua"
 
 t("air", "공기", "entity subtype")
 t("elemental", "정령", "entity type")
+t("gwelgoroth", "그웰고로스", "entity name")
+t("greater gwelgoroth", "고위 그웰고로스", "entity name")
+t("ultimate gwelgoroth", "궁극의 그웰고로스", "entity name")
+t("Gwelgoroth are mighty air elementals, a pure incarnation of lightning and thunder.", "그웰고로스는 강력한 공기 정령으로, 번개와 천둥의 순수한 화신입니다.", "_t")
 
 
 ------------------------------------------------
@@ -7338,6 +7382,17 @@ section "game/modules/tome/data/general/npcs/horror-corrupted.lua"
 t("corrupted", "부패", "entity subtype")
 t("horror", "공포", "entity type")
 t("drem", "드렘", "entity name")
+t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "작고 얼굴없는 인간형 생명체로 드워프와 조금 비슷한 특징을 가졌습니다.  들고있는 전투도끼와 방패는 낧고, 녹슬고, 그리고 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
+t("dremling", "어린 드렘", "entity name")
+t("A giant black-skinned humanoid covered in spikey scabrous deposits.  Its face is featureless; its eyesockets, empty and hollow.", "거대하고, 검은 피부를 가진 인간형 생명체로, 피부에는 가시가 돋혀있습니다.  얼굴은 특색이 없습니다; 두 눈이 있어야 할 곳은, 텅 비어있고 공허합니다.", "_t")
+t("drem master", "드렘 주인", "entity name")
+t("A disfigured humanoid with vaguely Dwarven features dressed in patched-together and rusted mail armor.  It seems to be in command of others, though its mouth is sewn shut.", "녹슨, 기워만든 사슬 갑옷을 입고있는 약간은 드워프 같은 특징을 갖고있는 못생긴 인간형 생명체입니다.  이 개체는 다른 동족들에게 명령을 내리고 있는 것 같습니다. 비록 입은 꿰매어졌지만요.", "_t")
+t("brecklorn", "브렉클론", "entity name")
+t("A giant hairless bat with the face of a Dwarf twisted into a constant scream.  Pustulant sores cover its malformed body, and your heart weakens as it nears.", "항시 비명을 지르는 거대하고 털 없는 박쥐로, 뒤틀린 드워프의 얼굴을 갖고있습니다.  염증과 고름이 그 흉한 몸을 덮고있으며, 당신은 브렉클론이 다가오면 심장이 약해짐을 느낍니다.", "_t")
+t("grannor'vor", "그란놀'보르", "entity name")
+t("A large sluglike creature that moves slowly, leaving a trail of acid in its wake.  Its head has strangely humanoid features.", "거대하고 민달팽이 같은 존재로 느리게 움직이며, 움직일 때 마다 산성물질로 이루어진 지국을 남깁니다.  그란놀'보르의 머리는 기이하게도 인간형 종족들의 특징을 하고있습니다.", "_t")
+t("grannor'vin", "그란놀'빈", "entity name")
+t("A large sluglike creature with the face of a man.  Shadows seem to be drawn to its massive form, and your light dims as it approaches.", "거대한 민달팽이 같은 존재로, 인간의 얼굴을 하고있습니다.  그림자는 그 거대한 몸에 끌리는 것 같습니다. 그란놀'보르가 다가오자 랜턴의 빛이 어두워집니다.", "_t")
 
 
 ------------------------------------------------
@@ -7345,9 +7400,19 @@ section "game/modules/tome/data/general/npcs/horror-undead.lua"
 
 t("horror", "공포", "entity subtype")
 t("undead", "언데드", "entity type")
-t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락 거린다. 돌출된 수많은 뼈의 손이, 서로 얽히고, 섥혀 뼈로 이루어진 거대한 부속지를 이뤄 흉곽을 지탱하고 있다. 한편, 다른 부속지는 부서지고, 붕괴되고 있다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 한다.", "_t")
+t("necrotic mass", "강령술 덩어리", "entity name")
+t("This putrid mass of rotting flesh shifts and quivers, but shows no signs of intelligence or mobility.", "이 썩어가는 살덩어리는 모습을 바꾸며 가볍게 떨고 있지만, 어떤 지능도, 움직임도 보여주지 않습니다.", "_t")
+t("necrotic abomination", "강령술 혐오체", "entity name")
+t("This monstrous form of putrid, torn flesh and chipped bone drags its mass towards you, spurting blood and viscera along the way.", "이 썩어가는, 찢겨진 살과 깨진 뼈로 이루어진 괴물같은 형체는 피와 내장을 뿜어내며 당신에게 다가오고있습니다.", "_t")
+t("#VIOLET#As the necrotic abomination is destroyed you see the remaining bones and flesh reassembling in the form of new foes!", "#VIOLET#강령술 혐오체가 파괴되자, 남아있는 뼈와 살이 재조합되어, 새로운 적으로 형성되었다!", "logSeen")
+t("bone horror", "뼈의 공포", "entity name")
+t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락 거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 동시에, 팔다리는 내부로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
+t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new foes!", "#VIOLET#뼈의 공포가 파괴되자, 남아있는 뼈와 살이 재조합되어 새로운 적으로 형성되었다!", "logSeen")
+t("sanguine horror", "피의 공포", "entity name")
+t("This pulsing, quivering form is a deep crimson, and appears to be composed entirely of thick, virulent blood. Waves rhythmically ripple across its surface, indicating a still beating heart somewhere in its body.", "이 박동하며 떨고있는 형태는 진한 핏빛을 띄고 있으며, 끈적이고, 치명적인 혈액으로만 구성된 것 같습니다. 그 표면에서는 규칙적으로 잔물결이 퍼져, 피로 이루어진 몸 속 어딘가에 아직도 박동하는 심장이 존재함을 보여줍니다.", "_t")
 t("animated blood", "살아 움직이는 피", "entity name")
 t("blood", "혈액", "entity subtype")
+t("This crimson shape drips ceaselessly, spattering the nearby ground. The droplets seem to continue moving of their own volition.", "이 핏빛 형체는 끊임없이 핏방울을 떨어뜨려, 바닥을 피로 적십니다. 물방울들은 스스로의 의지를 갖고 끊임없이 움직이는 것 같습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7355,18 +7420,73 @@ section "game/modules/tome/data/general/npcs/horror.lua"
 
 t("horror", "공포", "entity type")
 t("worm that walks", "걸어다니는 벌레떼", "entity name")
+t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
+Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[이 썩어가는 로브는 당장이라도 터질 것 같습니다. 이 끔찍한 존재가 움직일 때마다 부풀어오른 벌레 떼들이 몸 여기저기서 쏟아저 나옵니다. 2 개의 팔 같은, 점액질로 끈적이는 구더기로 이루어진 팔이 담즙이 흘러나오는 전투 도끼의 손잡이 부분을 꽉 쥐고있습니다.
+무기를 휘두르자, 고름이 뚝뚝 흘러내립니다. 작은 방울 하나 하나가 땅바닥에 닿기 전까지 꿈틀거림을 멈추지 않습니다.]], "_t")
+t("#LIGHT_RED#A carrion worm mass has spawned from %s' wounds!", "#LIGHT_RED#%s의 상처에서 시체 벌레떼가 튀어나왔다!", "logSeen")
 t("bloated horror", "부풀어오른 공포", "entity name")
-t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 띈 공포가 이곳에 떠있다. 벗겨진, 아이의 것 같은 머리는 몸에 비해 불균형적으로 거대하고 그 피부는 붉은 상처로 곰보 자국이 잔뜩 나있다..", "_t")
+t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 띈 형체가 공중에 떠 있습니다. 머리카락이 없는, 아이의 것 같은 머리는 몸에 비해 말도 안되게 거대하고, 그 피부는 붉은 상처로 곰보 자국이 잔뜩 나있습니다.", "_t")
+t("nightmare horror", "악몽의 공포", "entity name")
+t("A shifting form of darkest night that seems to reflect your deepest fears.", "당신이 가장 두려워하는 것을 보여주는 가장 어두운 밤의, 변화하는 공포입니다.", "_t")
 t("headless horror", "머리 없는 공포", "entity name")
+t("A headless, gangly humanoid with a large distended stomach.", "크게 팽창한 배를 가진, 머리없는 말라깽이 인간의 모습을 한 공포입니다.", "_t")
 t("#AQUAMARINE#As %s falls all its eyes fall to the ground!", "#AQUAMARINE#%s 쓰러지자 그것의 눈알들이 모두 땅으로 떨어졌다!", "logSeen", nil, {"가"})
+t("eldritch eye", "일그러진 눈알", "entity name")
+t("A small bloodshot eye floats here.", "작고 충혈된 눈알 하나가 공중에 떠있습니다.", "_t")
+t("#AQUAMARINE#As #Source# falls #Target# seems to weaken!", "#AQUAMARINE##Source1# 쓰러지자, #Target#의 힘이 약해진 것 같다!", "logCombat")
 t("+Blind", "+실명", "_t")
-t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "머리가 없는 둥근 생명체로, 짧은 다리와 팔을 갖고 있다. 몸 전체가 이빨로만 이루어저 있는 것 같다.", "_t")
+t("%s is blinded by the loss of all its eyes.", "%s 눈을 잃자, 실명상태에 빠졌다.", "logSeen", nil, {"는"})
+t("luminous horror", "밤에 빛나는 공포", "entity name")
+t("A lanky humanoid shape composed of yellow light.", "흐느적거리는 인간의 형상으로, 노란 빛으로 이루어져 있습니다.", "_t")
+t("radiant horror", "발광의 공포", "entity name")
+t("A lanky four-armed humanoid shape composed of bright golden light.  It's so bright it's hard to look at, and you can feel heat radiating outward from it.", "흐느적거리는 네 팔 달린 인간의 형상으로, 밝은 황금 빛으로 구성되어 있습니다.  빛은 너무나 강렬하여 쉽게 처다보지 못하고, 빛 속에서 이 공포가 발산하는 열기 또한 느낄 수 있습니다.", "_t")
+t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "머리가 없는 둥근 생명체로, 짧은 다리와 팔을 갖고 있습니다. 몸 전체가 이빨로만 이루어저 있는 것 같습니다.", "_t")
+t("blade horror", "칼날의 공포", "entity name")
+t("Blades whirl in the air around this thin, floating figure. The air around it swirls with force, threatening to tear apart anything that approches, if the blades don't do it first.", "이 얇고, 공중에 떠있는 형상 주위로 칼날들이 소용돌이 치고 있습니다. 뿐만 아니라, 이 형상의 주위의 공기는 다가오는 모든 것을 찢어버리려는 듯 막대한 힘으로 소용돌이 치고있습니다. 칼날이 먼저 찢어버리지 않는다면, 공기가 찢어버리게 될겁니다.", "_t")
+t("oozing horror", "점액의 공포", "entity name")
+t("A massive, amorphous blob of green slime crawls on the ground towards you. Eyes drift through the viscous mass, scanning for potential prey.", "거대하고, 녹색 슬라임으로 이루어진 부정형의 존재가 당신을 향해 기어옵니다. 눈알들이 그 끈적이는 덩어리들을 표류하며, 잠재적인 먹잇감을 열심히 살핍니다.", "_t")
 t("eldritch", "섬뜩한 자", "entity subtype")
+t("umbral horror", "그림자의 호러", "entity name")
+t("A dark shifting shape stalks through the shadows, blending in seamlessly.", "끊임없이 형태를 바꾸는 검은 형체가 그림자를 뚫고 당신을 추격합니다. 형체는 그림자와 완벽하게 융합되어 있습니다.", "_t")
+t("dreaming horror", "꿈꾸는 공포", "entity name")
+t([[A vaguely tentacled yet constantly changing form rests here apparently oblivious to your existence.
+With each slow breath it takes reality distorts around it.  Blue twirls into red, green twists into yellow, and the air sings softly before bursting into a myriad of pastel shapes and colors.]], [[희미한 촉수가 나있는 이 형태는 끊임없이 형태를 바꾸며 이곳에 존재합니다. 분명 당신의 존재를 잊고있는 것 같습니다.
+형태가 내뿜는 느린 숨결이 주변의 현실 구조를 왜곡하고 있습니다.  파랑색은 빨강색으로 회전하고, 초록색은 노란색으로 뒤틀립니다. 그리고 공기들은 무수한 도형들과 은은한 색채들이 폭발하기 전까지 부드럽게 노래하고 있습니다.]], "_t")
+t("It looks asleep and dreamy.", "깊게 잠들어, 꿈을 꾸고 있는 것 같습니다.", "_t")
+t("It looks awake, beware!", "일어났습니다! 조심하십시오!", "_t")
+t("#LIGHT_BLUE#A dream seed escapes %s's sleeping mind.", "#LIGHT_BLUE#꿈의 씨앗이 %s의 잠자는 정신에서 달아났다.", "logSeen")
+t([[A vaguely tentacled yet rapidly changing shape floats here.  With each breath you can feel reality twist, shatter, and break. 
+Blue burns into red, green bursts into yellow, and the air crackles and hisses before exploding into a thousand fragments of sharp shapes and colors.]], [[희미한 촉수가 나있고 빠르게 변화하는 형상이 여기에 떠 있습니다.  매 숨결마다 현실이 왜곡되고 부서지며, 파괴됨이 느껴집니다. 
+파랑색은 빨강색으로 불타오르고, 초록색은 노랑색으로 터저버리며, 공기는 수천 조각의 날카로운 모양과 색채의 폭발이 일어나기 전 까지 탁탁 소리와 쉬익 소리를 냅니다.]], "_t")
+t("#LIGHT_BLUE#The sleeper stirs...", "#LIGHT_BLUE#잠자는 자가 뒤척인다...", "logSeen")
+t("dream seed", "꿈의 씨앗", "entity name")
+t("A pinkish bubble floats here, reflecting the world not as it is, but as it would be in that surreal place that exists only in our dreams.", "분홍색 거품이 여기에 떠있습니다. 있는 그대로가 아닌 세상, 꿈 속에서만 존재하는 초현실적인 장소를 투영하고 있습니다.", "_t")
+t("maelstrom", "소용돌이", "entity name")
+t("This powerful vortex of ice and lightning somehow gives you the impression of claws, teeth and intense hunger...", "얼음과 번개의 강력한 소용돌이로, 어찌된 일인지 손톱과 발톱, 그리고 강렬한 굶주림을 갖고있다는 느낌이 듭니다...", "_t")
+t("parasitic horror", "기생하는 공포", "entity name")
+t("You don't want to think about what sort of creature this lamprey-like horror was feeding on to grow so large.  Its skin pulsates and writhes, like things are moving underneath...", "당신은 어떤 종류의 생명체를 잡어먹으며 이 칠성장어 같은 공포가 이런 거대한 크기로 자라났는지 생각하고 싶지 않을겁니다.  이 공포의 피부는 고동하며 비틀립니다. 마치 그 피부 밑에 무엇인가가 기어다니는 것 처럼...", "_t")
+t("%s's severed flesh starts crawling!", "%s의 절단된 살점이 기어가기 시작한다!", "logSeen")
 t("mass of parasitic leeches", "기생성 거머리 떼", "entity name")
+t("Dozens - hundreds maybe? - of blood-gorged worms, of varying shapes and sizes, making a writhing, ichor-soaked sea of tooth-lined maws and sickly green skin, ready to latch onto you and drink until they burst or your veins run dry.", "몇십 - 아마 몇백 - 개의  피에 목마른 벌레들로, 가지각색의 크기와 모양을 갖고있습니다. 피 고름에 덮힌 이빨들이 역겨운 초록색 피부한 속에서, 당신에게 달려들어 모든 혈관을 비워버릴 때까지 마실 준비를 하고있습니다.", "_t")
+t("Grgglck the Devouring Darkness", "삼키는 어둠의 그르글륵", "entity name")
+t([[A horror from the deepest pits of the earth. It looks like a huge pile of tentacles all trying to reach for you.
+You can discern a huge round mouth covered in razor-sharp teeth.]], [[대지의 가장 깊은 구덩이에서 온 공포입니다. 거대한 촉수 덩어리로, 모든 촉수들이 당신을 붙잡으려합니다.
+촉수들 사이로 날카로운 이빨로 뒤덮힌 거대하고 둥근 입이 어렴풋이 보입니다.]], "_t")
+t("Grgglck's Tentacle", "그르글륵의 촉수", "entity name")
+t("This is one of Grgglck's tentacles. It looks more vulnerable than the main body.", "그르글륵의 촉수 중 하나로, 본체보다 연약해보입니다.", "_t")
+t("#AQUAMARINE#With Grgglck's death its tentacle also falls lifeless on the ground!", "#AQUAMARINE#그르글륵의 죽자 촉수들도 생기를 잃고 땅 위로 떨어졌다!", "logSeen")
 t("#AQUAMARINE#As #Source# falls you notice that #Target# seems to shudder in pain!", "#AQUAMARINE#As #Source1# 죽자 #Target1# 고통에 몸부림 치는 것 같다!", "logCombat")
 t("Ak'Gishil", "아크'기실", "entity name")
+t("This Blade Horror has been infused with intense temporal magic, causing its power to increase dramatically. Rifts in space open around it constantly, summoning and banishing blades before vanishing as quickly as they appear.", "이 칼날의 공포는 시공 마법이 주입되어 있어, 극적으로 강해졌습니다. 아크'기실 주변의 공간 균열은 항상 열려있어, 칼날들이 그곳에서 나타나고, 사라집니다.", "_t")
+t("Animated Sword", "살아 움직이는 칼", "entity name")
+t("Time seems to warp and bend around this floating weapon.", "이 공중에 뜬 무기 주변의 시간은 뒤틀리고 왜곡된 것 같습니다.", "_t")
+t("#AQUAMARINE#A rift opens and a free floating blade emerges!", "#AQUAMARINE#균열이 열리고, 떠다니는 칼날이 나타난다!", "logSeen")
 t("construct", "구조체", "entity type")
 t("weapon", "무기", "entity subtype")
+t("Distorted Animated Sword", "왜곡된 살아 움직이는 칼", "entity name")
+t("This floating weapon shifts and shimmers, time and space warping and bending as it moves. It appears to vibrate, as if it may explode at any moment.", "이 공중에 뜬 무기는 모슴을 바꾸며 빛을냅니다. 칼이 움직이면, 시간과 공간이 왜곡되고 비틀리며, 금방이라도 폭발할 듯이 떨고있는 것 같습니다.", "_t")
+t("#AQUAMARINE#A rift opens and a free floating blade emerges! It looks unstable...", "#AQUAMARINE#균열이 열리고, 떠다니는 칼날이 나타난다! 불안정해 보인다...", "logSeen")
+t("#AQUAMARINE#The %s no longer seems to be controlled and clatters to the ground before vanishing into a rift.", "#AQUAMARINE#%s 통제를 벗어나, 달그락 소리를 내며 땅에 떨어지고 공간의 균열로 추방된다.", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -7374,13 +7494,37 @@ section "game/modules/tome/data/general/npcs/horror_aquatic.lua"
 
 t("aquatic", "수생", "entity subtype")
 t("horror", "공포", "entity type")
+t("#LIGHT_BLUE#%s explodes into a huge bubble of air!", "#LIGHT_BLUE#%s 폭발하여 거대한 공기 방울로 변한다!", "logSeen", nil, {"는"})
+t("entrenched horror", "바위의 공포", "entity name")
+t("This massive stony structure shifts and pulsates, its many long, thin tentacles probing the nearby water for food.", "거대한 바위 구조체가 모습을 바꾸며 고동칩니다. 얇고, 긴 촉수가 먹이를 찾기위해 물 속에서 이리저리 움직입니다.", "_t")
+t("swarming horror", "군집의 공포", "entity name")
+t("This tiny fish-like creature moves erratically, but is constantly surrounded by others of its kind.", "이 작은 생선같은 존재는 마구잡이로 움직이지만, 항상 동족들에게 둘러싸여있습니다.", "_t")
+t("ravenous horror", "굶주린 공포", "entity name")
+t("A vile looking liquid flows from the teeth of this agile monster. It glides through the water towards you, spined fins jutting outwards.", "보기에도 더러운 액체가 이 재빠른 괴물의 이빨 사이에서 흘러나옵니다. 가시 지느러미를 바깥쪽으로 움직이며 당신에게 다가옵니다.", "_t")
+t("boiling horror", "끓는 공포", "entity name")
+t("This frothing ball of water rages with an intense heat.", "이 물 거품은 강렬한 열기로 끓어오르고 있습니다.", "_t")
+t("swarm hive", "군락", "entity name")
+t("This titanic mass of flesh pulsates and churns as tiny monsters burst from its orifices.", "맥동하는 살덩어리로 이루어진 이 구조체의 배설구에서 작은 괴물들이 마구 돌아다니고 있습니다.", "_t")
+t("abyssal horror", "심연의 공포", "entity name")
+t("This pitch black form is shrouded in darkness. All you can make out are a pair of deep red eyes, hidden behind a mass of tentacles.", "어둠으로 뒤덮힌 이 칠흑의 형태에서 볼 수 있는 것이라곤 촉수에 가려진 오직 붉은 눈 한쌍입니다..", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/horror_temporal.lua"
 
 t("horror", "공포", "entity type")
+t("dredgling", "어린 드렛지", "entity name")
+t("A small pink-skinned humanoid with large bulbous eyes.", "돌출된 커다란 눈을 가진, 분홍색 피부의 조그마한 인간형 생명체입니다.", "_t")
+t("dredge", "드렛지", "entity name")
+t("A hulking pink-skinned creature with long arms as thick as tree trunks.  It drags its knuckles on the ground as it lumbers toward you.", "분홍색 피부를 가진 거대한 생명체로, 그 긴 팔은 마치 나무 줄기같습니다.  손가락 마디를 땅에 질지 끌며 당신에게 느릿느릿 다가옵니다.", "_t")
+t("dredge captain", "드렛지 대장", "entity name")
+t("A thin pink-skinned creature with long spindly arms.  Half its body is old and wrinkly, and the other half appears quite young.", "분홍색 피부를 가진 호리호리한 생명체로, 길고 막대기같은 팔을 갖고있습니다.  몸의 절반은 늙고 주름졌지만, 다른쪽은 아직 젊어보입니다.", "_t")
+t("temporal stalker", "시간 추적자", "entity name")
+t("A slender metallic monstrosity with long claws in place of fingers, and razor-sharp teeth.", "가느다란 금속 혐오체로, 손가락이 있어야 할 곳에 기다란 발톱이 나있고, 날카로운 이빨이 나있습니다.", "_t")
 t("temporal", "시간", "entity subtype")
+t("void horror", "공허의 공포", "entity name")
+t("It looks like a hole in spacetime, but you get the impression it's somehow more than that.", "시공에 뚫린 구멍같지만, 훨씬 위험한 것 같다는 인상을 줍니다.", "_t")
+t("%s has collapsed in upon itself.", "%s 스스로 붕괴되었다.", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -7400,14 +7544,34 @@ t("ogre", "오우거", "entity subtype")
 section "game/modules/tome/data/general/npcs/jelly.lua"
 
 t("immovable", "부동생물", "entity type")
-t("A strange blob on the dungeon floor.", "던전 바닥에서 볼 수 있는 이상하게 생긴 부정형의 존재.", "_t")
+t("jelly", "젤리", "entity subtype")
+t("A strange blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 생긴 부정형의 존재입니다.", "_t")
+t("green jelly", "녹색 젤리", "entity name")
+t("A strange green blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 생긴 녹색의 부정형의 존재입니다.", "_t")
+t("red jelly", "빨간 젤리", "entity name")
+t("A strange red blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 생긴 빨간색의 부정형의 존재입니다.", "_t")
+t("blue jelly", "파란 젤리", "entity name")
+t("A strange blue blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 생긴 파란색의 부정형의 존재입니다.", "_t")
+t("white jelly", "하얀 젤리", "entity name")
+t("A strange white blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 하얀색의 부정형의 존재입니다.", "_t")
+t("yellow jelly", "노란 젤리", "entity name")
+t("A strange yellow blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 생긴 노란색의 부정형의 존재입니다 floor.", "_t")
+t("black jelly", "검은 젤리", "entity name")
+t("A strange black blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 생긴 검은색의 부정형의 존재입니다.", "_t")
+t("Malevolent Dimensional Jelly", "악의 가득한 차원 젤리", "entity name")
+t("A strange black blob on the dungeon floor; through it you seem to be able to see other times and places. As you stare you see things moving out of it.", "던전 바닥을 기어다니는 이상하게 생긴 검은색의 부정형의 존재로, 어떤 시간과 장소에서도 눈에 보이는 것 같습니다. 이 젤리를 처다보고 있노라면, 무엇인가가 흘러나오는게 눈에 보입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/lich.lua"
 
 t("undead", "언데드", "entity type")
+t("Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "역생의 신비에 통달한 강력한 주문 시전자만이 리치가 될 수 있습니다. 영겁의 시간동안 세상에 악행을 퍼뜨리는 저주를 받았고, 숨을 쉬거나 영역을 침범하는 모든 이들에게 증오를 풀어넣습니다. 유감스럽게도 당신도 그 중 하나입니다.", "_t")
 t("lich", "리치", "entity name")
+t("Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "영생을 손에 넣으려한 이 존재들은 영생을 위해 역생이 삶의 즐거움을 앗아가는 것을 허락했습니다. 이제 이 강력한 주문 시전자들은 생명을 파괴하려 합니다.", "_t")
+t("ancient lich", "고대의 리치", "entity name")
+t("archlich", "고위 리치", "entity name")
+t("blood lich", "피의 리치", "entity name")
 
 
 ------------------------------------------------
@@ -7674,6 +7838,7 @@ section "game/modules/tome/data/general/npcs/undead-rat.lua"
 
 t("undead", "언데드", "entity type")
 t("skeletal rat", "스켈레톤 쥐", "entity name")
+t("Rat Lich", "리치 쥐", "entity name")
 
 
 ------------------------------------------------
@@ -18186,7 +18351,7 @@ t([[Summon a War Hound for %d turns to attack your foes. War hounds are good bas
 		소환수의 힘과 민첩 능력치는 시전자의 정신력에 비례하여 증가합니다.]], "tformat")
 t("Jelly", "젤리", "talent name")
 t("@Source@ summons a Jelly!", "@Source1@ 젤리를 소환했다!", "_t")
-t("A strange blob on the dungeon floor.", "던전 바닥에서 볼 수 있는 이상하게 생긴 부정형의 존재.", "_t")
+t("A strange blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 생긴 부정형의 존재입니다.", "_t")
 t("#GREEN##Target# absorbs some damage. #Source# is closer to nature.", "#GREEN##Target1# 피해량의 일부를 흡수했습니다. #Source1# .", "delayedLogMessage")
 t([[Summon a Jelly for %d turns to attack your foes. Jellies do not move, but your equilibrium will be reduced by 10%% of all damage received by the jelly.
 		It will get %d Constitution and %d Strength.
@@ -27763,7 +27928,7 @@ t("Fearscape Zone", "공포의 영역내의 지역", "_t")
 t("Zone-wide effect: The flames of the Fearscape increase all fire and blight damage by 10%, but the weird gravity reduces knockback resistance by 20%.", "지역 효과: 화염, 황폐 피해 +10% / 밀처냄 면역력 -20%.", "_t")
 t("Out of Time Zone", "시간 밖의 지역", "_t")
 t("Zone-wide effect: You seem to be outside the normal spacetime continuum. +10% physical resistance, -10% temporal resistance and -20% teleport resistance.", "지역 효과: +10% 물리 저항 / -10% 시간 저항 / -20% 순간이동 면역력.", "_t")
-t("Spellblaze Aura", "주문 폭발의 기운", "_t")
+t("Spellblaze Aura", "마법폭발의 기운", "_t")
 t("Zone-wide effect: The power of the Spellblaze still burns here. -10% resistance to fire, arcane and blight damage, but +10% cold resistance. WARNING: The powerful magic here reflects teleportation magic!", "지역 효과: -10% 화염, 비전, 황폐 피해 / +10% 냉기 저항. 경고: 지역 내의 강력한 마력으로 인해 순간이동이 불가능!", "_t")
 t("Heady Scent", "자극적인 가스", "_t")
 t("Zone-wide effect: Strong scents fill the air and make you feel drowsy. If the timer reaches 0 you will fall into a dreaming sleep state. -10% mind resistance, -20% sleep resistance, +10% nature damage.", "지역 효과: 타이머가 0 이 되면 잠에 빠짐 / -10% 정신 저항 / -20% 수면 면역력 / +10% 자연 피해.", "_t")
@@ -30819,7 +30984,7 @@ section "game/modules/tome/data/zones/shertul-fortress/grids.lua"
 t("%0.2f Energy Stored", "에너지 %0.2f 만큼 저장됨", "tformat")
 t("stair back to the lake of Nur", "누르 호수로 돌아가는 계단", "entity name")
 t("teleportation circle to the surface", "지상으로 통하는 순간이동진", "entity name")
-t("teleportation circle for Melinda", "멜린다에게로 통하는 순간이동진", "entity name")
+t("teleportation circle for Melinda", "멜린다를 위한 순간이동진", "entity name")
 t("Sher'Tul Control Orb", "쉐르'툴 제어 오브", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They were left behind by the powerful Sher'tul race.
 This farportal is not connected to any other portal. It is made for exploration; you cannot know where it will send you.
@@ -33054,6 +33219,7 @@ section "game/modules/tome/dialogs/debug/DebugMain.lua"
 
 t("Cancel", "취소", "_t")
 t("Change Zone", "지역 이동", "_t")
+t("Change Level", "구역 이동", "_t")
 t("Reload/regenerate Zone and level", "구역 및 지역 재생성/다시 불러오기", "_t")
 
 
