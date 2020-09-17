@@ -286,7 +286,14 @@
 "game/modules/tome/data/general/events/meteor.lua"
 "game/modules/tome/data/general/events/naga-portal.lua"
 "game/modules/tome/data/general/events/necrotic-air.lua"
-"game/modules/tome/data/general/events/noxious-caldera.lua" Khelerd 완
+"game/modules/tome/data/general/events/noxious-caldera.lua"
+"game/modules/tome/data/general/events/old-battle-field.lua"
+"game/modules/tome/data/general/events/protective-aura.lua"
+"game/modules/tome/data/general/events/rat-lich.lua"
+"game/modules/tome/data/general/events/slimey-pool.lua"
+"game/modules/tome/data/general/events/sludgenest.lua"
+"game/modules/tome/data/general/events/snowstorm.lua"
+"game/modules/tome/data/general/events/spellblaze-scar.lua" Khelerd 완
 
 ------------------------------ 이상 본편 data/general/events ---------------------------------
 
