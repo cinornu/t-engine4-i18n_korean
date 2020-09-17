@@ -2080,6 +2080,15 @@ t("Metaphasic Echoes", "위상 초월 반향", "talent name")
 t("You need an arcane dynamo to cast this spell.", "이 기술을 사용하려면 비전 발전기가 필요하다.", "logPlayer")
 t("You need to activate Metatemporal Spinner to cast this spell.", "이 기술을 사용하려면 위상 초월 회전이 활성화 되어야 한다.", "logPlayer")
 t("You can only cast this spell on the turn after Reality Breach.", "이 기술은 현실 균열을 사용하고 난 후에만 사용할 수 있다.", "logPlayer")
+t([[Using your sheer arcane power you keep breaches in spacetime open for %d turns.
+		Each turn they are open you project an occult clone of your saw along each breach, damaging any creature caught for %d%% occult weapon damage.
+		The saw cuts both in a physical and arcane way, reducing the duration of a random beneficial effect on each target by %d each time.
+		Each target can only be affected once per turn.
+		This spell is only usable for one turn after casting Reality Breach but any Reality Breach cast during its duration is also recorded inside.]], [[순수한 비전의 힘으로 시공간 구조에 난 균열을 %d 턴 동안 유지합니다.
+		매 턴, 시전자가 장착한 톱의 비술 복제품이 열려있는 현실 분열마다 발사되어, 균열 안의 모든 대상에게 %d%% 비술 무기 피해를 입힙니다.
+		이 비술의 톱날은 마법과 물리, 양 측면에서 피해를 입혀, 영향을 받은 모든 적의 무작위한 이로운 효과의 지속시간을 매 번, %d 턴 단축합니다.
+		이 효과는 하나의 대상에, 한 턴에 오직 1 번만 영향을 줍니다.
+		 주문은 현실 균열을 사용한 바로 다음 턴에만 사용할 수 있습니다. 위상 초월 반향의 지속 효과 중에 또 다른 현실 균열을 시전하면, 새로운 균열에도 위상 초월 반향의 효과가 적용됩니다.]], "tformat")
 
 
 ------------------------------------------------
