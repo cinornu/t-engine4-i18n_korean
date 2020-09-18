@@ -271,9 +271,7 @@
 "game/modules/tome/data/chats/zigur-trainer.lua"
 "game/modules/tome/data/chats/zoisla.lua" Khelerd 완
 
------------------------------- 이상 본편 data/chats ---------------------------------
-
------------------------------- 이하 본편 data/general/events ---------------------------------
+------------------------------ 이하 본편 data/general/events (완역) ---------------------------------
 
 "game/modules/tome/data/general/events/cultists.lua"
 "game/modules/tome/data/general/events/damp-cave.lua"
@@ -298,12 +296,13 @@
 "game/modules/tome/data/general/events/thunderstorm.lua"
 "game/modules/tome/data/general/events/tombstones.lua"
 "game/modules/tome/data/general/events/weird-pedestals.lua"
-"game/modules/tome/data/general/events/whistling-vortex.lua"
+"game/modules/tome/data/general/events/whistling-vortex.lua" Khelerd 완
+
+------------------------------ 이하 본편 data/general/grids ---------------------------------
+
 "game/modules/tome/data/general/grids/autumn_forest.lua"
 "game/modules/tome/data/general/grids/basic.lua"
 "game/modules/tome/data/general/grids/bone.lua" Khelerd 완
-
------------------------------- 이상 본편 data/general/events ---------------------------------
 
 
 ------------------------------ 이하 본편 data/quests (완역) ---------------------------------
