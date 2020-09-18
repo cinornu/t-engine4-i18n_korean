@@ -309,7 +309,13 @@
 "game/modules/tome/data/general/grids/forest.lua"
 "game/modules/tome/data/general/grids/fortress.lua"
 "game/modules/tome/data/general/grids/gothic.lua"
-"game/modules/tome/data/general/grids/ice.lua" Khelerd 완
+"game/modules/tome/data/general/grids/ice.lua"
+"game/modules/tome/data/general/grids/icecave.lua"
+"game/modules/tome/data/general/grids/jungle.lua"
+"game/modules/tome/data/general/grids/jungle_hut.lua"
+"game/modules/tome/data/general/grids/lava.lua"
+"game/modules/tome/data/general/grids/malrok_walls.lua"
+"game/modules/tome/data/general/grids/mountain.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/quests (완역) ---------------------------------
