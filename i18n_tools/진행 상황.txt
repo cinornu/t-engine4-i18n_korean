@@ -302,7 +302,14 @@
 
 "game/modules/tome/data/general/grids/autumn_forest.lua"
 "game/modules/tome/data/general/grids/basic.lua"
-"game/modules/tome/data/general/grids/bone.lua" Khelerd 완
+"game/modules/tome/data/general/grids/bone.lua"
+"game/modules/tome/data/general/grids/burntland.lua"
+"game/modules/tome/data/general/grids/cave.lua"
+"game/modules/tome/data/general/grids/crystal.lua"
+"game/modules/tome/data/general/grids/forest.lua"
+"game/modules/tome/data/general/grids/fortress.lua"
+"game/modules/tome/data/general/grids/gothic.lua"
+"game/modules/tome/data/general/grids/ice.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/quests (완역) ---------------------------------
