@@ -436,7 +436,11 @@
 "game/modules/tome/data/texts/tutorial/tactics2.lua"
 "game/modules/tome/data/texts/tutorial/talents.lua"
 "game/modules/tome/data/texts/tutorial/terrain.lua" ** ('기믹' 단어 사용)
-"game/modules/tome/data/texts/unlock-adventurer.lua" Khelerd 완
+"game/modules/tome/data/texts/unlock-adventurer.lua"
+"game/modules/tome/data/texts/unlock-afflicted_cursed.lua"
+"game/modules/tome/data/texts/unlock-afflicted_doomed.lua"
+"game/modules/tome/data/texts/unlock-birth_transmo_chest.lua"
+"game/modules/tome/data/texts/unlock-birth_zigur_sacrifice.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
