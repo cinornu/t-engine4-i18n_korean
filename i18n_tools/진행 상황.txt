@@ -381,10 +381,8 @@
 "game/modules/tome/data/quests/west-portal.lua"
 "game/modules/tome/data/quests/wild-wild-east.lua" Khelerd 완
 
------------------------------- 이상 본편 data/quests ---------------------------------
+------------------------------ 이하 본편 data/texts ---------------------------------
 
-"game/modules/tome/data/texts/intro-tutorial-combat-stats.lua"
-"game/modules/tome//data/texts/intro-tutorial.lua"
 "game/modules/tome/data/texts/intro-archmage.lua"
 "game/modules/tome/data/texts/intro-arena.lua"
 "game/modules/tome/data/texts/intro-chronomancer.lua"
@@ -395,50 +393,50 @@
 "game/modules/tome/data/texts/intro-higher.lua"
 "game/modules/tome/data/texts/intro-infinite-dungeon.lua"
 "game/modules/tome/data/texts/intro-ogre.lua"
-"game/modules/tome/data/texts/intro-orc.lua"
+"game/modules/tome/data/texts/intro-orc.lua" * 더미 데이터
 "game/modules/tome/data/texts/intro-shalore.lua"
 "game/modules/tome/data/texts/intro-skeleton.lua"
 "game/modules/tome/data/texts/intro-sunwall.lua"
 "game/modules/tome/data/texts/intro-thalore.lua"
+"game/modules/tome/data/texts/intro-tutorial-combat-stats.lua" * 더미 데이터
+"game/modules/tome/data/texts/intro-tutorial.lua"
 "game/modules/tome/data/texts/intro-yeek.lua"
-"game/modules/tome/data/texts/message-last-hope.lua" Khelerd 완
-
-"game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
-"game/modules/tome//data/texts/tutorial/done.lua"
-"game/modules/tome//data/texts/tutorial/levelup.lua"
-"game/modules/tome//data/texts/tutorial/melee.lua"
-"game/modules/tome//data/texts/tutorial/move.lua"
-"game/modules/tome//data/texts/tutorial/objects.lua"
-"game/modules/tome//data/texts/tutorial/quests.lua"
-"game/modules/tome//data/texts/tutorial/ranged.lua" Khelerd 완
-
-"game/modules/tome//data/texts/tutorial/stats-calc/calc0.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc1.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc10.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc11.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc2.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc3.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc4.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc5.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc6.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc7.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc8.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc9.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats1.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats2.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats3.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats4.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats5.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats6.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats7.1.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats7.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats8.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats9.lua"
-"game/modules/tome//data/texts/tutorial/tactics1.lua"
-"game/modules/tome//data/texts/tutorial/tactics2.lua"
-"game/modules/tome//data/texts/tutorial/talents.lua"
-"game/modules/tome//data/texts/tutorial/terrain.lua" ** ('기믹' 단어 사용) Khelerd 완
-
+"game/modules/tome/data/texts/message-last-hope.lua"
+"game/modules/tome/data/texts/tutorial/combat-stats-intro.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/done.lua"
+"game/modules/tome/data/texts/tutorial/levelup.lua"
+"game/modules/tome/data/texts/tutorial/melee.lua"
+"game/modules/tome/data/texts/tutorial/move.lua"
+"game/modules/tome/data/texts/tutorial/objects.lua"
+"game/modules/tome/data/texts/tutorial/quests.lua"
+"game/modules/tome/data/texts/tutorial/ranged.lua"
+"game/modules/tome/data/texts/tutorial/stats-calc/calc0.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc1.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc10.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc11.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc2.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc3.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc4.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc5.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc6.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc7.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc8.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc9.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats1.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats2.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats3.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats4.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats5.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats6.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats7.1.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats7.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats8.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats9.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/tactics1.lua"
+"game/modules/tome/data/texts/tutorial/tactics2.lua"
+"game/modules/tome/data/texts/tutorial/talents.lua"
+"game/modules/tome/data/texts/tutorial/terrain.lua" ** ('기믹' 단어 사용)
+"game/modules/tome/data/texts/unlock-adventurer.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
