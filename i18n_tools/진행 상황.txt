@@ -298,7 +298,7 @@
 "game/modules/tome/data/general/events/weird-pedestals.lua"
 "game/modules/tome/data/general/events/whistling-vortex.lua" Khelerd 완
 
------------------------------- 이하 본편 data/general/grids ---------------------------------
+------------------------------ 이하 본편 data/general/grids (완역) ---------------------------------
 
 "game/modules/tome/data/general/grids/autumn_forest.lua"
 "game/modules/tome/data/general/grids/basic.lua"
@@ -315,8 +315,17 @@
 "game/modules/tome/data/general/grids/jungle_hut.lua"
 "game/modules/tome/data/general/grids/lava.lua"
 "game/modules/tome/data/general/grids/malrok_walls.lua"
-"game/modules/tome/data/general/grids/mountain.lua" Khelerd 완
-
+"game/modules/tome/data/general/grids/mountain.lua"
+"game/modules/tome/data/general/grids/psicave.lua"
+"game/modules/tome/data/general/grids/sand.lua"
+"game/modules/tome/data/general/grids/sanddunes.lua"
+"game/modules/tome/data/general/grids/slime.lua"
+"game/modules/tome/data/general/grids/slimy_walls.lua"
+"game/modules/tome/data/general/grids/underground_dreamy.lua"
+"game/modules/tome/data/general/grids/underground_gloomy.lua"
+"game/modules/tome/data/general/grids/underground_slimy.lua"
+"game/modules/tome/data/general/grids/void.lua"
+"game/modules/tome/data/general/grids/water.lua" Khelerd 완
 
 ------------------------------ 이하 본편 data/quests (완역) ---------------------------------
 
