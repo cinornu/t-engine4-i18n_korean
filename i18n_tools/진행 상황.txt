@@ -440,7 +440,9 @@
 "game/modules/tome/data/texts/unlock-afflicted_cursed.lua"
 "game/modules/tome/data/texts/unlock-afflicted_doomed.lua"
 "game/modules/tome/data/texts/unlock-birth_transmo_chest.lua"
-"game/modules/tome/data/texts/unlock-birth_zigur_sacrifice.lua" Khelerd 완
+"game/modules/tome/data/texts/unlock-birth_zigur_sacrifice.lua"
+"game/modules/tome/data/texts/unlock-campaign_arena.lua"
+"game/modules/tome/data/texts/unlock-campaign_infinite_dungeon.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
