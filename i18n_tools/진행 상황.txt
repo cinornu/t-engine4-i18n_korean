@@ -271,9 +271,7 @@
 "game/modules/tome/data/chats/zigur-trainer.lua"
 "game/modules/tome/data/chats/zoisla.lua" Khelerd 완
 
------------------------------- 이상 본편 data/chats ---------------------------------
-
------------------------------- 이하 본편 data/general/events ---------------------------------
+------------------------------ 이하 본편 data/general/events (완역) ---------------------------------
 
 "game/modules/tome/data/general/events/cultists.lua"
 "game/modules/tome/data/general/events/damp-cave.lua"
@@ -293,10 +291,41 @@
 "game/modules/tome/data/general/events/slimey-pool.lua"
 "game/modules/tome/data/general/events/sludgenest.lua"
 "game/modules/tome/data/general/events/snowstorm.lua"
-"game/modules/tome/data/general/events/spellblaze-scar.lua" Khelerd 완
+"game/modules/tome/data/general/events/spellblaze-scar.lua"
+"game/modules/tome/data/general/events/sub-vault.lua"
+"game/modules/tome/data/general/events/thunderstorm.lua"
+"game/modules/tome/data/general/events/tombstones.lua"
+"game/modules/tome/data/general/events/weird-pedestals.lua"
+"game/modules/tome/data/general/events/whistling-vortex.lua" Khelerd 완
 
------------------------------- 이상 본편 data/general/events ---------------------------------
+------------------------------ 이하 본편 data/general/grids (완역) ---------------------------------
 
+"game/modules/tome/data/general/grids/autumn_forest.lua"
+"game/modules/tome/data/general/grids/basic.lua"
+"game/modules/tome/data/general/grids/bone.lua"
+"game/modules/tome/data/general/grids/burntland.lua"
+"game/modules/tome/data/general/grids/cave.lua"
+"game/modules/tome/data/general/grids/crystal.lua"
+"game/modules/tome/data/general/grids/forest.lua"
+"game/modules/tome/data/general/grids/fortress.lua"
+"game/modules/tome/data/general/grids/gothic.lua"
+"game/modules/tome/data/general/grids/ice.lua"
+"game/modules/tome/data/general/grids/icecave.lua"
+"game/modules/tome/data/general/grids/jungle.lua"
+"game/modules/tome/data/general/grids/jungle_hut.lua"
+"game/modules/tome/data/general/grids/lava.lua"
+"game/modules/tome/data/general/grids/malrok_walls.lua"
+"game/modules/tome/data/general/grids/mountain.lua"
+"game/modules/tome/data/general/grids/psicave.lua"
+"game/modules/tome/data/general/grids/sand.lua"
+"game/modules/tome/data/general/grids/sanddunes.lua"
+"game/modules/tome/data/general/grids/slime.lua"
+"game/modules/tome/data/general/grids/slimy_walls.lua"
+"game/modules/tome/data/general/grids/underground_dreamy.lua"
+"game/modules/tome/data/general/grids/underground_gloomy.lua"
+"game/modules/tome/data/general/grids/underground_slimy.lua"
+"game/modules/tome/data/general/grids/void.lua"
+"game/modules/tome/data/general/grids/water.lua" Khelerd 완
 
 ------------------------------ 이하 본편 data/quests (완역) ---------------------------------
 
@@ -352,10 +381,8 @@
 "game/modules/tome/data/quests/west-portal.lua"
 "game/modules/tome/data/quests/wild-wild-east.lua" Khelerd 완
 
------------------------------- 이상 본편 data/quests ---------------------------------
+------------------------------ 이하 본편 data/texts ---------------------------------
 
-"game/modules/tome/data/texts/intro-tutorial-combat-stats.lua"
-"game/modules/tome//data/texts/intro-tutorial.lua"
 "game/modules/tome/data/texts/intro-archmage.lua"
 "game/modules/tome/data/texts/intro-arena.lua"
 "game/modules/tome/data/texts/intro-chronomancer.lua"
@@ -366,50 +393,72 @@
 "game/modules/tome/data/texts/intro-higher.lua"
 "game/modules/tome/data/texts/intro-infinite-dungeon.lua"
 "game/modules/tome/data/texts/intro-ogre.lua"
-"game/modules/tome/data/texts/intro-orc.lua"
+"game/modules/tome/data/texts/intro-orc.lua" * 더미 데이터
 "game/modules/tome/data/texts/intro-shalore.lua"
 "game/modules/tome/data/texts/intro-skeleton.lua"
 "game/modules/tome/data/texts/intro-sunwall.lua"
 "game/modules/tome/data/texts/intro-thalore.lua"
+"game/modules/tome/data/texts/intro-tutorial-combat-stats.lua" * 더미 데이터
+"game/modules/tome/data/texts/intro-tutorial.lua"
 "game/modules/tome/data/texts/intro-yeek.lua"
-"game/modules/tome/data/texts/message-last-hope.lua" Khelerd 완
-
-"game/modules/tome//data/texts/tutorial/combat-stats-intro.lua"
-"game/modules/tome//data/texts/tutorial/done.lua"
-"game/modules/tome//data/texts/tutorial/levelup.lua"
-"game/modules/tome//data/texts/tutorial/melee.lua"
-"game/modules/tome//data/texts/tutorial/move.lua"
-"game/modules/tome//data/texts/tutorial/objects.lua"
-"game/modules/tome//data/texts/tutorial/quests.lua"
-"game/modules/tome//data/texts/tutorial/ranged.lua" Khelerd 완
-
-"game/modules/tome//data/texts/tutorial/stats-calc/calc0.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc1.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc10.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc11.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc2.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc3.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc4.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc5.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc6.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc7.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc8.lua"
-"game/modules/tome//data/texts/tutorial/stats-calc/calc9.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats1.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats2.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats3.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats4.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats5.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats6.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats7.1.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats7.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats8.lua"
-"game/modules/tome//data/texts/tutorial/stats/stats9.lua"
-"game/modules/tome//data/texts/tutorial/tactics1.lua"
-"game/modules/tome//data/texts/tutorial/tactics2.lua"
-"game/modules/tome//data/texts/tutorial/talents.lua"
-"game/modules/tome//data/texts/tutorial/terrain.lua" ** ('기믹' 단어 사용) Khelerd 완
-
+"game/modules/tome/data/texts/message-last-hope.lua"
+"game/modules/tome/data/texts/tutorial/combat-stats-intro.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/done.lua"
+"game/modules/tome/data/texts/tutorial/levelup.lua"
+"game/modules/tome/data/texts/tutorial/melee.lua"
+"game/modules/tome/data/texts/tutorial/move.lua"
+"game/modules/tome/data/texts/tutorial/objects.lua"
+"game/modules/tome/data/texts/tutorial/quests.lua"
+"game/modules/tome/data/texts/tutorial/ranged.lua"
+"game/modules/tome/data/texts/tutorial/stats-calc/calc0.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc1.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc10.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc11.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc2.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc3.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc4.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc5.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc6.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc7.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc8.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats-calc/calc9.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats1.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats2.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats3.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats4.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats5.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats6.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats7.1.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats7.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats8.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/stats/stats9.lua" * 더미 데이터
+"game/modules/tome/data/texts/tutorial/tactics1.lua"
+"game/modules/tome/data/texts/tutorial/tactics2.lua"
+"game/modules/tome/data/texts/tutorial/talents.lua"
+"game/modules/tome/data/texts/tutorial/terrain.lua" ** ('기믹' 단어 사용)
+"game/modules/tome/data/texts/unlock-adventurer.lua"
+"game/modules/tome/data/texts/unlock-afflicted_cursed.lua"
+"game/modules/tome/data/texts/unlock-afflicted_doomed.lua"
+"game/modules/tome/data/texts/unlock-birth_transmo_chest.lua"
+"game/modules/tome/data/texts/unlock-birth_zigur_sacrifice.lua"
+"game/modules/tome/data/texts/unlock-campaign_arena.lua"
+"game/modules/tome/data/texts/unlock-campaign_infinite_dungeon.lua"
+"game/modules/tome/data/texts/unlock-chronomancer_paradox_mage.lua"
+"game/modules/tome/data/texts/unlock-chronomancer_temporal_warden.lua"
+"game/modules/tome/data/texts/unlock-corrupter_corruptor.lua"
+"game/modules/tome/data/texts/unlock-corrupter_reaver.lua"
+"game/modules/tome/data/texts/unlock-cosmetic_bikini.lua"
+"game/modules/tome/data/texts/unlock-cosmetic_class_alchemist_drolem.lua"
+"game/modules/tome/data/texts/unlock-cosmetic_race_dwarf_female_beard.lua"
+"game/modules/tome/data/texts/unlock-cosmetic_race_human_redhead.lua"
+"game/modules/tome/data/texts/unlock-difficulty_insane.lua"
+"game/modules/tome/data/texts/unlock-difficulty_madness.lua
+"game/modules/tome/data/texts/unlock-divine_anorithil.lua"
+"game/modules/tome/data/texts/unlock-divine_sun_paladin.lua"
+"game/modules/tome/data/texts/unlock-mage.lua"
+"game/modules/tome/data/texts/unlock-mage_cryomancer.lua"
+"game/modules/tome/data/texts/unlock-mage_geomancer.lua"
+"game/modules/tome/data/texts/unlock-mage_necromancer.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
@@ -1205,6 +1254,51 @@ section "game/modules/tome/data/general/npcs/faeros.lua" Stéphanois
 section "game/modules/tome/data/general/npcs/feline.lua" Stéphanois
 section "game/modules/tome/data/general/npcs/fire-drake.lua" Stéphanois
 section "game/modules/tome/data/general/npcs/ghost.lua" Stéphanois
+section "game/modules/tome/data/general/npcs/ghoul.lua"
+section "game/modules/tome/data/general/npcs/gwelgoroth.lua"
+section "game/modules/tome/data/general/npcs/horror-corrupted.lua"
+section "game/modules/tome/data/general/npcs/horror-undead.lua"
+section "game/modules/tome/data/general/npcs/horror.lua"
+section "game/modules/tome/data/general/npcs/horror_aquatic.lua"
+section "game/modules/tome/data/general/npcs/horror_temporal.lua"
+section "game/modules/tome/data/general/npcs/jelly.lua"
+section "game/modules/tome/data/general/npcs/lich.lua"
+section "game/modules/tome/data/general/npcs/losgoroth.lua"
+section "game/modules/tome/data/general/npcs/major-demon.lua"
+section "game/modules/tome/data/general/npcs/minor-demon.lua"
+section "game/modules/tome/data/general/npcs/molds.lua"
+section "game/modules/tome/data/general/npcs/multihued-drake.lua"
+section "game/modules/tome/data/general/npcs/naga.lua"
+section "game/modules/tome/data/general/npcs/ogre.lua"
+section "game/modules/tome/data/general/npcs/ooze.lua"
+section "game/modules/tome/data/general/npcs/orc-gorbat.lua"
+section "game/modules/tome/data/general/npcs/orc-grushnak.lua"
+section "game/modules/tome/data/general/npcs/orc-rak-shor.lua"
+section "game/modules/tome/data/general/npcs/orc-vor.lua"
+section "game/modules/tome/data/general/npcs/orc.lua"
+section "game/modules/tome/data/general/npcs/plant.lua"
+section "game/modules/tome/data/general/npcs/ritch.lua"
+section "game/modules/tome/data/general/npcs/rodent.lua"
+section "game/modules/tome/data/general/npcs/sandworm.lua"
+section "game/modules/tome/data/general/npcs/shade.lua"
+section "game/modules/tome/data/general/npcs/shivgoroth.lua"
+section "game/modules/tome/data/general/npcs/skeleton.lua"
+section "game/modules/tome/data/general/npcs/snake.lua"
+section "game/modules/tome/data/general/npcs/snow-giant.lua"
+section "game/modules/tome/data/general/npcs/spider.lua"
+section "game/modules/tome/data/general/npcs/storm-drake.lua"
+section "game/modules/tome/data/general/npcs/sunwall-town.lua"
+section "game/modules/tome/data/general/npcs/swarm.lua"
+section "game/modules/tome/data/general/npcs/telugoroth.lua"
+section "game/modules/tome/data/general/npcs/thieve.lua"
+section "game/modules/tome/data/general/npcs/vampire.lua"
+section "game/modules/tome/data/general/npcs/venom-drake.lua"
+section "game/modules/tome/data/general/npcs/vermin.lua"
+section "game/modules/tome/data/general/npcs/wight.lua"
+section "game/modules/tome/data/general/npcs/wild-drake.lua"
+section "game/modules/tome/data/general/npcs/xorn.lua"
+section "game/modules/tome/data/general/npcs/yaech.lua"
+section "game/modules/tome/data/general/npcs/ziguranth.lua"
 
 
 지속 효과들--------------------------------------------------------------
