@@ -454,7 +454,11 @@
 "game/modules/tome/data/texts/unlock-difficulty_insane.lua"
 "game/modules/tome/data/texts/unlock-difficulty_madness.lua
 "game/modules/tome/data/texts/unlock-divine_anorithil.lua"
-"game/modules/tome/data/texts/unlock-divine_sun_paladin.lua" Khelerd 완
+"game/modules/tome/data/texts/unlock-divine_sun_paladin.lua"
+"game/modules/tome/data/texts/unlock-mage.lua"
+"game/modules/tome/data/texts/unlock-mage_cryomancer.lua"
+"game/modules/tome/data/texts/unlock-mage_geomancer.lua"
+"game/modules/tome/data/texts/unlock-mage_necromancer.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
