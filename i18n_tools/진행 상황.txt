@@ -458,7 +458,9 @@
 "game/modules/tome/data/texts/unlock-mage.lua"
 "game/modules/tome/data/texts/unlock-mage_cryomancer.lua"
 "game/modules/tome/data/texts/unlock-mage_geomancer.lua"
-"game/modules/tome/data/texts/unlock-mage_necromancer.lua" Khelerd 완
+"game/modules/tome/data/texts/unlock-mage_necromancer.lua"
+"game/modules/tome/data/texts/unlock-mage_pyromancer.lua"
+"game/modules/tome/data/texts/unlock-mage_tempest.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
