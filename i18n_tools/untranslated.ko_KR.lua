@@ -124,7 +124,7 @@ t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a stra
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
--- 19 entries
+-- 18 entries
 t("Rogroth, Eater of Souls", "Rogroth, Eater of Souls", "_t")
 t("a champion of Urh'Rok", "a champion of Urh'Rok", "_t")
 t("a dolleg", "a dolleg", "_t")
@@ -139,17 +139,10 @@ t("a water imp", "a water imp", "_t")
 t("a wretchling", "a wretchling", "_t")
 t("a wretch titan", "a wretch titan", "_t")
 t("a ruin banshee", "a ruin banshee", "_t")
-t("Harkor'Zun", "Harkor'Zun", "_t")
 t("statue of %s", "statue of %s", "tformat")
 t("Demon Statue of %s", "Demon Statue of %s", "tformat")
 t("Do you #{strong}#really#{normal}# want to touch that?", "Do you #{strong}#really#{normal}# want to touch that?", "_t")
 t("#CRIMSON#The %s glows ominously.", "#CRIMSON#The %s glows ominously.", "log")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/general/npcs/aquatic-demon.lua"
--- 1 entries
-t("Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "_t")
 
 
 ------------------------------------------------
@@ -617,10 +610,9 @@ t("demonic spike", "demonic spike", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/npcs.lua"
--- 6 entries
+-- 5 entries
 t("enthralled %s", "enthralled %s", "tformat")
 t("quasit squad leader", "quasit squad leader", "entity name")
-t("A small, heavily armoured demon, rushing toward you.", "A small, heavily armoured demon, rushing toward you.", "_t")
 t("Rogroth, Eater of Souls", "Rogroth, Eater of Souls", "entity name")
 t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "_t")
 t("and raised as a demonic husk", "and raised as a demonic husk", "_t")
@@ -643,10 +635,9 @@ t("Anteroom of Agony", "Anteroom of Agony", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
--- 13 entries
+-- 12 entries
 t("demon killed by a meteor", "demon killed by a meteor", "entity name")
 t("impact crater", "impact crater", "entity name")
-t("rocks", "rocks", "entity subtype")
 t("tracking control crystal", "tracking control crystal", "entity name")
 t("destroyed the crystal", "destroyed the crystal", "_t")
 t("destroying the crystal", "destroying the crystal", "_t")
@@ -1081,8 +1072,7 @@ t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disapp
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/fonts.lua"
--- 11 entries
-t("creep", "creep", "entity subtype")
+-- 9 entries
 t("font of knowledge", "font of knowledge", "entity name")
 t("Do you want to touch it?", "Do you want to touch it?", "_t")
 t("Font of Knowledge", "Font of Knowledge", "_t")
@@ -1091,7 +1081,6 @@ t("#VIOLET#The %s glows as you touch it. Your knowledge grows (+1 category point
 t("#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "log")
 t("#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "log")
 t("#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "log")
-t("cave", "cave", "entity subtype")
 t("font of sacrifice", "font of sacrifice", "entity name")
 
 
@@ -1124,14 +1113,6 @@ t("open maggot door", "open maggot door", "entity name")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/scourge.lua"
--- 3 entries
-t("creep", "creep", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/slimy_godfeaster.lua"
 -- 4 entries
 t("slimy_godfeaster wall", "slimy_godfeaster wall", "entity name")
@@ -1141,24 +1122,8 @@ t("open slimy_godfeaster door", "open slimy_godfeaster door", "entity name")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/spacedwarf-creep.lua"
--- 1 entries
-t("creep", "creep", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/special-cave.lua"
--- 4 entries
-t("cave walls", "cave walls", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("cave", "cave", "entity subtype")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/tentacle-tree.lua"
--- 5 entries
-t("creep", "creep", "entity subtype")
+-- 4 entries
 t("strange tentacle 'tree'", "strange tentacle 'tree'", "entity name")
 t("Do you #{strong}#really#{normal}# want to touch that?", "Do you #{strong}#really#{normal}# want to touch that?", "_t")
 t("Tentacle Tree", "Tentacle Tree", "_t")
@@ -1325,8 +1290,7 @@ t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put the
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
--- 28 entries
-t("Escapades of Fay Willows [Book 4, Chapter 1] - Exhaustive Travel", "Escapades of Fay Willows [Book 4, Chapter 1] - Exhaustive Travel", "_t")
+-- 27 entries
 t([[[i]The endurance of an ogre is quite astonishing. While I had collapsed from exhaustion, the ogres had persevered and managed to stay awake until we made it to an abandoned settlement. In particular, while many of the ogres had managed to acquire some sleep along with me, the commander and strategist would manage to make the entire journey to Elvala before they would finally collapse from exhaustion. I honestly don't believe any other race could possibly stay awake, let alone active, for that long.[/i]
 
 I don't know how long I had spent within that hellish shoreline; perhaps days or even a week. It was good to see some semblance of greenery and living nature again as we proceeded to head into the area just south of the Nargol lands. I basked a little in the natural sunlight from the sky, before feeling the rumbling in my stomach, and the heavy weight of exhaustion from so much running. The ogres for their part did not seem the least bit tired or hungry, but after such a long travel I wondered if this was truly the case. Reaching for my pack I pulled out my provisions and laid them on the ground. Almost immediately I noticed the hungry stares from the ogres.
@@ -2339,8 +2303,7 @@ t("Save Kroshkkur", "Save Kroshkkur", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/grids.lua"
--- 7 entries
-t("cave", "cave", "entity subtype")
+-- 6 entries
 t("portal back to the occult egress", "portal back to the occult egress", "entity name")
 t("stairs down", "stairs down", "entity name")
 t("back to the tunnels", "back to the tunnels", "entity name")
@@ -2446,11 +2409,10 @@ Coordonate with students]], "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/grids.lua"
--- 8 entries
+-- 7 entries
 t("return home", "return home", "entity name")
 t("Grung story does not end yet, find more food and bring it here.", "Grung story does not end yet, find more food and bring it here.", "_t")
 t("Grung story ends there, he manages to gather enough food to survive some more days.", "Grung story ends there, he manages to gather enough food to survive some more days.", "_t")
-t("cave", "cave", "entity subtype")
 t("dead creature", "dead creature", "entity name")
 t("book of binding", "book of binding", "entity name")
 t("#YELLOW#You hear a terrible shriek.", "#YELLOW#You hear a terrible shriek.", "say")
@@ -2459,17 +2421,13 @@ t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and pape
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/npcs.lua"
--- 8 entries
+-- 4 entries
 t([[You can not comprehend what you're seeing.
 #{bold}##CRIMSON#These beings would squash you like a bug if you even tried to interfere in their combat.#{normal}#]], [[You can not comprehend what you're seeing.
 #{bold}##CRIMSON#These beings would squash you like a bug if you even tried to interfere in their combat.#{normal}#]], "_t")
 t("Grung made great being angry!", "Grung made great being angry!", "saySimple")
 t("Great Tentacly Being", "Great Tentacly Being", "entity name")
 t("shertul", "shertul", "entity subtype")
-t("rodent", "rodent", "entity subtype")
-t("giant brown rat", "giant brown rat", "entity name")
-t("giant rabbit", "giant rabbit", "entity name")
-t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "_t")
 
 
 ------------------------------------------------
@@ -3781,22 +3739,18 @@ t("primal trunk", "primal trunk", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/slumbering_cave.lua"
--- 6 entries
+-- 5 entries
 t("corrupted cave floor", "corrupted cave floor", "entity name")
 t("corrupted cave walls", "corrupted cave walls", "entity name")
 t("corrupted cave door", "corrupted cave door", "entity name")
 t("corrupted cave door (open)", "corrupted cave door (open)", "entity name")
 t("corrupted cave", "corrupted cave", "entity subtype")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/snow_mountains.lua"
--- 4 entries
-t("rocky ground", "rocky ground", "entity name")
+-- 1 entries
 t("snowy mountain", "snowy mountain", "entity name")
-t("snowy tree", "snowy tree", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
 
 
 ------------------------------------------------
@@ -3842,10 +3796,7 @@ t("Oh. Oh no. Where did it get those?", "Oh. Oh no. Where did it get those?", "_
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/ritch-extended.lua"
--- 7 entries
-t("ritch larva", "ritch larva", "entity name")
-t("ritch hunter", "ritch hunter", "entity name")
-t("ritch hive mother", "ritch hive mother", "entity name")
+-- 4 entries
 t("ritch centipede", "ritch centipede", "entity name")
 t("This strange creature looks like a ritch hunter but with more legs. So many legs.", "This strange creature looks like a ritch hunter but with more legs. So many legs.", "_t")
 t("larvae bloated ritch mother", "larvae bloated ritch mother", "entity name")
@@ -6137,9 +6088,8 @@ t("#CRIMSON#You feel a great power nearby!", "#CRIMSON#You feel a great power ne
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/dominion-port/grids.lua"
--- 11 entries
+-- 10 entries
 t("stale sewer water", "stale sewer water", "entity name")
-t("#Source# poisons #Target#!", "#Source# poisons #Target#!", "logCombat")
 t("way into the tower", "way into the tower", "entity name")
 t("way into the sewers", "way into the sewers", "entity name")
 t("exit to the port", "exit to the port", "entity name")
@@ -6276,9 +6226,8 @@ t("G.E.M.", "G.E.M.", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/internment-camp/grids.lua"
--- 7 entries
+-- 6 entries
 t("wooden barricade", "wooden barricade", "entity name")
-t("burnt tree", "burnt tree", "entity name")
 t("way to the Vor section", "way to the Vor section", "entity name")
 t("way to the Gorbat section", "way to the Gorbat section", "entity name")
 t("way to the Grushnak section", "way to the Grushnak section", "entity name")
@@ -6673,9 +6622,8 @@ t("Steam Quarry", "Steam Quarry", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/grids.lua"
--- 7 entries
+-- 6 entries
 t("bottom of the mountain", "bottom of the mountain", "entity name")
-t("rocks", "rocks", "entity name")
 t("way into a strange cave", "way into a strange cave", "entity name")
 t("stairs to the previous level", "stairs to the previous level", "entity name")
 t("stairs to the cavern", "stairs to the cavern", "entity name")
@@ -6763,11 +6711,10 @@ t("Ancient Cave", "Ancient Cave", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
--- 5 entries
+-- 4 entries
 t("Coward!", "Coward!", "_t")
 t("You are not coward enough to leave your home unprotected!", "You are not coward enough to leave your home unprotected!", "_t")
 t("wooden barricade", "wooden barricade", "entity name")
-t("cave", "cave", "entity subtype")
 t("tunnel weakness", "tunnel weakness", "entity name")
 
 
@@ -6890,8 +6837,7 @@ t("DESTRUCTICUS!", "DESTRUCTICUS!", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/yeti-caves/grids.lua"
--- 2 entries
-t("icecave", "icecave", "entity subtype")
+-- 1 entries
 t("a crude mural painting", "a crude mural painting", "entity name")
 
 
@@ -8021,7 +7967,7 @@ t("You have unlocked a new talent: %s!", "You have unlocked a new talent: %s!", 
 
 ------------------------------------------------
 section "game/modules/tome/class/Grid.lua"
--- 14 entries
+-- 13 entries
 t("%s", "%s", "logSeen")
 t("spot", "spot", "_t")
 t(" (range: ", " (range: ", "_t")
@@ -8035,7 +7981,6 @@ t("Special breathing method required", "Special breathing method required", "_t"
 t("Cannot teleport to this place", "Cannot teleport to this place", "_t")
 t("Coords: ", "Coords: ", "_t")
 t("map attrs: ", "map attrs: ", "_t")
-t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#You hear a mechanism clicking.", "log")
 
 
 ------------------------------------------------
@@ -8207,8 +8152,7 @@ t("Killed by you: ", "Killed by you: ", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/generator/actor/Arena.lua"
--- 28 entries
-t("giant crystal rat", "giant crystal rat", "_t")
+-- 27 entries
 t("Skeletal rats", "Skeletal rats", "_t")
 t("Gladiators", "Gladiators", "_t")
 t("Golden crystals", "Golden crystals", "_t")
@@ -8785,275 +8729,6 @@ t("solar blood", "solar blood", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/events/sub-vault.lua"
--- 10 entries
-t("way up (%s)", "way up (%s)", "tformat")
-t("#VIOLET# The stairway collapses completely as you ascend!", "#VIOLET# The stairway collapses completely as you ascend!", "log")
-t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# The decrepit stairs crumble some more as you climb them.", "log")
-t("Hidden Vault - %s", "Hidden Vault - %s", "tformat")
-t("hidden vault", "hidden vault", "_t")
-t("Crumbling stairs lead down to something.", "Crumbling stairs lead down to something.", "_t")
-t("collapsing hidden vault", "collapsing hidden vault", "_t")
-t("collapsed hidden vault", "collapsed hidden vault", "_t")
-t("A collapsed stairway, leading down", "A collapsed stairway, leading down", "_t")
-t("nearly collapsed hidden vault", "nearly collapsed hidden vault", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/thunderstorm.lua"
--- 1 entries
-t("As you walk into the area you notice a huge thunderstorm over your head. Beware!", "As you walk into the area you notice a huge thunderstorm over your head. Beware!", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/tombstones.lua"
--- 1 entries
-t("grave (opened)", "grave (opened)", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/weird-pedestals.lua"
--- 16 entries
-t("weird pedestal", "weird pedestal", "_t")
-t("Do you wish to inspect the pedestal?", "Do you wish to inspect the pedestal?", "_t")
-t("inspected", "inspected", "_t")
-t("inspecting", "inspecting", "_t")
-t("As you inspect it a shadow materializes near you, and suddenly it is no more a shadow!", "As you inspect it a shadow materializes near you, and suddenly it is no more a shadow!", "_t")
-t("#rng# the Invoker", "#rng# the Invoker", "_t")
-t("Die intruder!", "Die intruder!", "_t")
-t("He shall come!", "He shall come!", "_t")
-t("He will consume all!", "He will consume all!", "_t")
-t("My life for His!", "My life for His!", "_t")
-t("You are dooooommmed!!", "You are dooooommmed!!", "_t")
-t("weird pedestal (glowing)", "weird pedestal (glowing)", "_t")
-t("%s's soul is absorbed by the pedestal. A glowing orb appears.", "%s's soul is absorbed by the pedestal. A glowing orb appears.", "logSeen")
-t("#rng# the Bringer of Doom", "#rng# the Bringer of Doom", "_t")
-t("Weird Pedestal", "Weird Pedestal", "_t")
-t("You hear a terrible voice saying 'Their lives are mine! I am coming!'", "You hear a terrible voice saying 'Their lives are mine! I am coming!'", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/events/whistling-vortex.lua"
--- 1 entries
-t("%s (whistling vortex)", "%s (whistling vortex)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/autumn_forest.lua"
--- 2 entries
-t("autumn grass", "autumn grass", "entity name")
-t("autumn tree", "autumn tree", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/basic.lua"
--- 3 entries
-t("glass door", "glass door", "entity name")
-t("open glass door", "open glass door", "entity name")
-t("bool", "bool", "entity subtype")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/bone.lua"
--- 3 entries
-t("bone walls", "bone walls", "entity name")
-t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#You hear a mechanism clicking.", "log")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/burntland.lua"
--- 3 entries
-t("burnt tree", "burnt tree", "entity name")
-t("burnt ground", "burnt ground", "entity name")
-t("corrupted altar", "corrupted altar", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/cave.lua"
--- 4 entries
-t("cave walls", "cave walls", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("cave", "cave", "entity subtype")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/crystal.lua"
--- 1 entries
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/forest.lua"
--- 1 entries
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/fortress.lua"
--- 1 entries
-t("This door seems to be sealed.", "This door seems to be sealed.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/gothic.lua"
--- 1 entries
-t("bool", "bool", "entity subtype")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/ice.lua"
--- 2 entries
-t("icy floor", "icy floor", "entity name")
-t("frozen water", "frozen water", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/icecave.lua"
--- 6 entries
-t("ice cave floor", "ice cave floor", "entity name")
-t("ice cave walls", "ice cave walls", "entity name")
-t("breakable ice wall", "breakable ice wall", "entity name")
-t("broken ice wall", "broken ice wall", "entity name")
-t("icecave", "icecave", "entity subtype")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/jungle.lua"
--- 2 entries
-t("mud", "mud", "entity subtype")
-t("muddy floor", "muddy floor", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/jungle_hut.lua"
--- 2 entries
-t("bamboo floor", "bamboo floor", "entity subtype")
-t("bamboo hut floor", "bamboo hut floor", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/lava.lua"
--- 4 entries
-t("molten_lava", "molten_lava", "entity subtype")
-t("molten lava", "molten lava", "entity name")
-t("cave", "cave", "entity subtype")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/malrok_walls.lua"
--- 1 entries
-t("rocks", "rocks", "entity subtype")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/mountain.lua"
--- 5 entries
-t("rocky ground", "rocky ground", "entity name")
-t("rocky mountain", "rocky mountain", "entity name")
-t("snowy tree", "snowy tree", "entity name")
-t("cliffside", "cliffside", "entity name")
-t("hard rocky mountain", "hard rocky mountain", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/psicave.lua"
--- 7 entries
-t("psitech floor", "psitech floor", "entity name")
-t("psitech walls", "psitech walls", "entity name")
-t("psitech door (open)", "psitech door (open)", "entity name")
-t("psitech door", "psitech door", "entity name")
-t("This door seems to be sealed.", "This door seems to be sealed.", "_t")
-t("psitech", "psitech", "entity subtype")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/sand.lua"
--- 7 entries
-t("unstable sand tunnel", "unstable sand tunnel", "_t")
-t("Loose sand is steadily filling this void, which could collapse suddenly and completely.", "Loose sand is steadily filling this void, which could collapse suddenly and completely.", "_t")
-t("The unstable sand tunnel collapses!", "The unstable sand tunnel collapses!", "logSeen")
-t("You are crushed by the collapsing tunnel! You suffocate!", "You are crushed by the collapsing tunnel! You suffocate!", "logPlayer")
-t("was buried alive", "was buried alive", "_t")
-t("sandwall", "sandwall", "entity name")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/sanddunes.lua"
--- 3 entries
-t("sand dune", "sand dune", "entity name")
-t("dune", "dune", "entity type")
-t("solidified sand dune", "solidified sand dune", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/slime.lua"
--- 4 entries
-t("slime floor", "slime floor", "entity name")
-t("slime wall", "slime wall", "entity name")
-t("slime door", "slime door", "entity name")
-t("open slime door", "open slime door", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/slimy_walls.lua"
--- 1 entries
-t("bool", "bool", "entity subtype")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/underground_dreamy.lua"
--- 5 entries
-t("creep", "creep", "entity subtype")
-t("mushroom creep", "mushroom creep", "entity name")
-t("underground thick vegetation", "underground thick vegetation", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/underground_gloomy.lua"
--- 5 entries
-t("creep", "creep", "entity subtype")
-t("mushroom creep", "mushroom creep", "entity name")
-t("underground thick vegetation", "underground thick vegetation", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/underground_slimy.lua"
--- 5 entries
-t("creep", "creep", "entity subtype")
-t("mushroom creep", "mushroom creep", "entity name")
-t("underground thick vegetation", "underground thick vegetation", "entity name")
-t("This rock is loose, you think you can move it away.", "This rock is loose, you think you can move it away.", "_t")
-t("ladder to worldmap", "ladder to worldmap", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/void.lua"
--- 2 entries
-t("rocks", "rocks", "entity subtype")
-t("floating rocks", "floating rocks", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/grids/water.lua"
--- 5 entries
-t("underwater air bubble", "underwater air bubble", "entity name")
-t("#LIGHT_BLUE#Replenishes air level when standing inside.#LAST#", "#LIGHT_BLUE#Replenishes air level when standing inside.#LAST#", "_t")
-t("#AQUAMARINE#The air bubbles are depleted!", "#AQUAMARINE#The air bubbles are depleted!", "logSeen")
-t("poisoned deep water", "poisoned deep water", "entity name")
-t("#Source# poisons #Target#!", "#Source# poisons #Target#!", "logCombat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/general/npcs/bone-giant.lua"
 -- 1 entries
 t("runed bone giant", "runed bone giant", "entity name")
@@ -9067,561 +8742,23 @@ t("devourer", "devourer", "entity name")
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/lich.lua"
--- 3 entries
+-- 1 entries
 t("An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "_t")
-t("Blacker than the deepest night, this cold cruel form of darkness approaches.  Long ago it laid aside its mortality, but it has not forgotten its power; rather, its malice and hate have bent this undead entity on the destruction of all things living.", "Blacker than the deepest night, this cold cruel form of darkness approaches.  Long ago it laid aside its mortality, but it has not forgotten its power; rather, its malice and hate have bent this undead entity on the destruction of all things living.", "_t")
-t("The seething, pumping, disembodied blood of a horrendously powerful necromancer. To strike it is to bathe in the rivers of the Fearscape itself.", "The seething, pumping, disembodied blood of a horrendously powerful necromancer. To strike it is to bathe in the rivers of the Fearscape itself.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/losgoroth.lua"
--- 4 entries
-t("Losgoroth are mighty void elementals, native to the void between the stars. They are rarely seen on a planet's surface.", "Losgoroth are mighty void elementals, native to the void between the stars. They are rarely seen on a planet's surface.", "_t")
-t("losgoroth", "losgoroth", "entity name")
-t("manaworm", "manaworm", "entity name")
-t("Manaworms are losgoroth which feed on the mana of arcane users. If they ever come in contact with a spellcaster, they latch on and start draining mana away.", "Manaworms are losgoroth which feed on the mana of arcane users. If they ever come in contact with a spellcaster, they latch on and start draining mana away.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/major-demon.lua"
--- 14 entries
-t("dolleg", "dolleg", "entity name")
-t("A monstrous demon, covered in acidic thorns.", "A monstrous demon, covered in acidic thorns.", "_t")
-t("dúathedlen", "dúathedlen", "entity name")
-t("Under a shroud of darkness you discern an evil shape.", "Under a shroud of darkness you discern an evil shape.", "_t")
-t("uruivellas", "uruivellas", "entity name")
-t([[This demon would look like a minotaur, if a minotaur had a fiery aura surrounding it and horns all over its body.
-Oh, and it is twice as big, too.]], [[This demon would look like a minotaur, if a minotaur had a fiery aura surrounding it and horns all over its body.
-Oh, and it is twice as big, too.]], "_t")
-t("thaurhereg", "thaurhereg", "entity name")
-t("This terrible demon is covered in blood, which flows *on* its skin in ever-changing patterns that disturb you simply when looking at it.", "This terrible demon is covered in blood, which flows *on* its skin in ever-changing patterns that disturb you simply when looking at it.", "_t")
-t([[You can only guess at the real shape of this demon. Its body is surrounded by a cloud of fiery darkness.
-It moves swiftly toward you, casting terrible spells and swinging its weapons at you.]], [[You can only guess at the real shape of this demon. Its body is surrounded by a cloud of fiery darkness.
-It moves swiftly toward you, casting terrible spells and swinging its weapons at you.]], "_t")
-t("champion of Urh'Rok", "champion of Urh'Rok", "entity name")
-t("One of Urh'Rok's own champions. A thousand nightmares made flesh and screaming steel tower before you in the form of a massive, armored humanoid.", "One of Urh'Rok's own champions. A thousand nightmares made flesh and screaming steel tower before you in the form of a massive, armored humanoid.", "_t")
-t("forge-giant", "forge-giant", "entity name")
-t("A burning giant wielding a forge hammer of the underworld in each hand -- weapons imbued by Urh'Rok himself with the power to crush and shape felsteel. Enter their range at your peril.", "A burning giant wielding a forge hammer of the underworld in each hand -- weapons imbued by Urh'Rok himself with the power to crush and shape felsteel. Enter their range at your peril.", "_t")
-t("This massive form, sheathed in dark flames, stands tall above a legion of lesser demons. In his hands he holds a massive blackened battleaxe, flames dancing around the blades.", "This massive form, sheathed in dark flames, stands tall above a legion of lesser demons. In his hands he holds a massive blackened battleaxe, flames dancing around the blades.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/minor-demon.lua"
--- 7 entries
-t("fire imp", "fire imp", "entity name")
+-- 4 entries
 t("A small demon, lobbing spells at you.", "A small demon, lobbing spells at you.", "_t")
 t("wretchling", "wretchling", "entity name")
 t("Acid oozes all over this small demon's skin.  Beware, they tend to hunt in packs.", "Acid oozes all over this small demon's skin.  Beware, they tend to hunt in packs.", "_t")
 t("onilug", "onilug", "entity name")
-t([[A gaunt vaguely humanoid shape featuring unadorned grey leathery skin. Its arms and legs seem somehow too long and it stands tall, projecting an ominous shadow even in darkness.
-Its glowing red eyes shine with both cruelty and a deep frightening intellect.]], [[A gaunt vaguely humanoid shape featuring unadorned grey leathery skin. Its arms and legs seem somehow too long and it stands tall, projecting an ominous shadow even in darkness.
-Its glowing red eyes shine with both cruelty and a deep frightening intellect.]], "_t")
-t("A small, heavily armoured demon, rushing toward you.", "A small, heavily armoured demon, rushing toward you.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/minotaur.lua"
--- 2 entries
-t("maulotaur", "maulotaur", "entity name")
-t("A belligerent minotaur with a destructive magical arsenal, and armed with a hammer.", "A belligerent minotaur with a destructive magical arsenal, and armed with a hammer.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/molds.lua"
--- 12 entries
-t("A strange growth on the dungeon floor.", "A strange growth on the dungeon floor.", "_t")
-t("grey mold", "grey mold", "entity name")
-t("A strange grey growth on the dungeon floor.", "A strange grey growth on the dungeon floor.", "_t")
-t("brown mold", "brown mold", "entity name")
-t("A strange brown growth on the dungeon floor.", "A strange brown growth on the dungeon floor.", "_t")
-t("shining mold", "shining mold", "entity name")
-t("A strange luminescent growth on the dungeon floor.", "A strange luminescent growth on the dungeon floor.", "_t")
-t("green mold", "green mold", "entity name")
-t("A strange sickly green growth on the dungeon floor.", "A strange sickly green growth on the dungeon floor.", "_t")
-t("molds", "molds", "entity subtype")
-t("Z'quikzshl the skeletal mold", "Z'quikzshl the skeletal mold", "entity name")
-t("Steeped in fungal malevolence, this mold refused to die.  How a mold becomes a skeleton, though, is beyond you.  Are those its own bones, or the bones of hapless adventurers?", "Steeped in fungal malevolence, this mold refused to die.  How a mold becomes a skeleton, though, is beyond you.  Are those its own bones, or the bones of hapless adventurers?", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/multihued-drake.lua"
--- 7 entries
-t("multi-hued drake hatchling", "multi-hued drake hatchling", "entity name")
-t("multi-hued drake", "multi-hued drake", "entity name")
-t("A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "_t")
-t("greater multi-hued wyrm", "greater multi-hued wyrm", "entity name")
-t("An old and powerful multi-hued drake, armed with many deadly breath weapons and nasty claws.", "An old and powerful multi-hued drake, armed with many deadly breath weapons and nasty claws.", "_t")
-t("A huge multi-hued drake. It seems to shift color rapidly.", "A huge multi-hued drake. It seems to shift color rapidly.", "_t")
-t("#YELLOW#%s's skin turns %s!", "#YELLOW#%s's skin turns %s!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/naga.lua"
--- 6 entries
-t("naga myrmidon", "naga myrmidon", "entity name")
-t("Before you stands a tall figure -- a very tall figure, propped high by a thick serpent's tail in place of where his legs should rightly be. His torso is human-like, with bulging muscles beneath fitted armour, and large hands gripping a fiercely sharp trident. He glares at you with dark intensity, like a wolf about to pounce on unsuspecting prey.", "Before you stands a tall figure -- a very tall figure, propped high by a thick serpent's tail in place of where his legs should rightly be. His torso is human-like, with bulging muscles beneath fitted armour, and large hands gripping a fiercely sharp trident. He glares at you with dark intensity, like a wolf about to pounce on unsuspecting prey.", "_t")
-t("naga tide huntress", "naga tide huntress", "entity name")
-t("Though the sharp point of an arrow pointed steadily at your head is of concern, more unnerving is the creature that wields it: a slim and lithe woman from the waist up, but a terrifying giant serpent beneath, her tail stretching for several feet behind her. Her eyes turn cold and ice seems to magically condense on the tip of her barbed arrow. Suddenly it is of concern again.", "Though the sharp point of an arrow pointed steadily at your head is of concern, more unnerving is the creature that wields it: a slim and lithe woman from the waist up, but a terrifying giant serpent beneath, her tail stretching for several feet behind her. Her eyes turn cold and ice seems to magically condense on the tip of her barbed arrow. Suddenly it is of concern again.", "_t")
-t("naga psyren", "naga psyren", "entity name")
-t("Such a mix of enchanting beauty and revolting horror you have never before seen combined. Above, a beautiful, ethereal woman, of scant form and entrancing grace. Below, the thick, smooth scales of a snake, its stretched tail gently waving back and forth in the air behind her. The movement is eye-catching and hypnotic, and whilst you watch a mysterious smile plays across her seductive lips.", "Such a mix of enchanting beauty and revolting horror you have never before seen combined. Above, a beautiful, ethereal woman, of scant form and entrancing grace. Below, the thick, smooth scales of a snake, its stretched tail gently waving back and forth in the air behind her. The movement is eye-catching and hypnotic, and whilst you watch a mysterious smile plays across her seductive lips.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/ogre.lua"
--- 9 entries
-t("ogre guard", "ogre guard", "entity name")
-t("A maul-wield ogre. Ready to CRUSH!", "A maul-wield ogre. Ready to CRUSH!", "_t")
-t("ogre warmaster", "ogre warmaster", "entity name")
-t("A master of combat, she is impatient to test her newfound skills.", "A master of combat, she is impatient to test her newfound skills.", "_t")
-t("ogre mauler", "ogre mauler", "entity name")
-t("Crush! Destroy! Maim!", "Crush! Destroy! Maim!", "_t")
-t("ogre pounder", "ogre pounder", "entity name")
-t("This ogre closes in fast on you, arms open for the hug of death.", "This ogre closes in fast on you, arms open for the hug of death.", "_t")
-t("A towering ogre guard, her skin covered in runes and arcane designs.", "A towering ogre guard, her skin covered in runes and arcane designs.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/ooze.lua"
--- 23 entries
-t("oozes", "oozes", "entity subtype")
-t("It's colorful and it's oozing.", "It's colorful and it's oozing.", "_t")
-t("green ooze", "green ooze", "entity name")
-t("It's green and it's oozing.", "It's green and it's oozing.", "_t")
-t("red ooze", "red ooze", "entity name")
-t("It's red and it's oozing.", "It's red and it's oozing.", "_t")
-t("blue ooze", "blue ooze", "entity name")
-t("It's blue and it's oozing.", "It's blue and it's oozing.", "_t")
-t("white ooze", "white ooze", "entity name")
-t("It's white and it's oozing.", "It's white and it's oozing.", "_t")
-t("yellow ooze", "yellow ooze", "entity name")
-t("It's yellow and it's oozing.", "It's yellow and it's oozing.", "_t")
-t("black ooze", "black ooze", "entity name")
-t("It's black and it's oozing.", "It's black and it's oozing.", "_t")
-t("gelatinous cube", "gelatinous cube", "entity name")
-t([[It is a strange, vast gelatinous structure that assumes cubic proportions as it lines all four walls of the corridors it patrols.
-Through its transparent jelly structure you can see treasures it has engulfed, and a few corpses as well.]], [[It is a strange, vast gelatinous structure that assumes cubic proportions as it lines all four walls of the corridors it patrols.
-Through its transparent jelly structure you can see treasures it has engulfed, and a few corpses as well.]], "_t")
-t("crimson ooze", "crimson ooze", "entity name")
-t("It's reddish and it's oozing.", "It's reddish and it's oozing.", "_t")
-t("brittle clear ooze", "brittle clear ooze", "entity name")
-t("It's translucent and it's oozing.", "It's translucent and it's oozing.", "_t")
-t("slimy ooze", "slimy ooze", "entity name")
-t("poison ooze", "poison ooze", "entity name")
-t("It's very slimy and it's oozing.", "It's very slimy and it's oozing.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/orc-gorbat.lua"
--- 7 entries
-t("orc summoner", "orc summoner", "entity name")
-t("orc grand summoner", "orc grand summoner", "entity name")
-t("A fierce orc attuned to the wilds.", "A fierce orc attuned to the wilds.", "_t")
-t("orc master wyrmic", "orc master wyrmic", "entity name")
-t("A fierce soldier-orc highly trained in the discipline of dragons.", "A fierce soldier-orc highly trained in the discipline of dragons.", "_t")
-t("orc mage-hunter", "orc mage-hunter", "entity name")
-t("An orc clad in massive armour. Magic seems to die down all around him.", "An orc clad in massive armour. Magic seems to die down all around him.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/orc-grushnak.lua"
--- 5 entries
-t("orc fighter", "orc fighter", "entity name")
-t("orc elite fighter", "orc elite fighter", "entity name")
-t("An orc clad in massive armour, wielding a shield and a deadly axe.", "An orc clad in massive armour, wielding a shield and a deadly axe.", "_t")
-t("orc berserker", "orc berserker", "entity name")
-t("orc elite berserker", "orc elite berserker", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/orc-rak-shor.lua"
--- 6 entries
-t("orc necromancer", "orc necromancer", "entity name")
-t("An orc dressed in black robes. He mumbles in a harsh tongue.", "An orc dressed in black robes. He mumbles in a harsh tongue.", "_t")
-t("orc blood mage", "orc blood mage", "entity name")
-t("An orc dressed in blood-stained robes. He mumbles in a harsh tongue.", "An orc dressed in blood-stained robes. He mumbles in a harsh tongue.", "_t")
-t("orc corruptor", "orc corruptor", "entity name")
-t("An orc dressed in putrid robes. He mumbles in a harsh tongue.", "An orc dressed in putrid robes. He mumbles in a harsh tongue.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/orc-vor.lua"
--- 6 entries
-t("orc pyromancer", "orc pyromancer", "entity name")
-t("orc high pyromancer", "orc high pyromancer", "entity name")
-t("An orc dressed in bright red robes. He mumbles in a harsh tongue.", "An orc dressed in bright red robes. He mumbles in a harsh tongue.", "_t")
-t("orc cryomancer", "orc cryomancer", "entity name")
-t("orc high cryomancer", "orc high cryomancer", "entity name")
-t("An orc dressed in cold blue robes. He mumbles in a harsh tongue.", "An orc dressed in cold blue robes. He mumbles in a harsh tongue.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/orc.lua"
--- 12 entries
-t("orc archer", "orc archer", "entity name")
-t("He is a hardy, well-weathered survivor.", "He is a hardy, well-weathered survivor.", "_t")
-t("orc soldier", "orc soldier", "entity name")
-t("fiery orc wyrmic", "fiery orc wyrmic", "entity name")
-t("icy orc wyrmic", "icy orc wyrmic", "entity name")
-t("A fierce soldier-orc trained in the discipline of dragons.", "A fierce soldier-orc trained in the discipline of dragons.", "_t")
-t("orc assassin", "orc assassin", "entity name")
-t("orc master assassin", "orc master assassin", "entity name")
-t("orc grand master assassin", "orc grand master assassin", "entity name")
-t("An orc trained in the secret ways of assassination, stealthy and deadly.", "An orc trained in the secret ways of assassination, stealthy and deadly.", "_t")
-t("Kra'Tor the Gluttonous", "Kra'Tor the Gluttonous", "entity name")
-t("A morbidly obese orc with greasy pockmarked skin and oily long black hair.  He's clad in plate mail and carries a huge granite battleaxe that's nearly as large as he is.", "A morbidly obese orc with greasy pockmarked skin and oily long black hair.  He's clad in plate mail and carries a huge granite battleaxe that's nearly as large as he is.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/plant.lua"
--- 8 entries
-t("plants", "plants", "entity subtype")
-t("A not-so-strange growth on the dungeon floor.", "A not-so-strange growth on the dungeon floor.", "_t")
-t("giant venus flytrap", "giant venus flytrap", "entity name")
-t("This flesh-eating plant has grown to enormous proportions and seeks to quell its hunger.", "This flesh-eating plant has grown to enormous proportions and seeks to quell its hunger.", "_t")
-t("poison ivy", "poison ivy", "entity name")
-t("This harmless little plant makes you all itchy.", "This harmless little plant makes you all itchy.", "_t")
-t("honey tree", "honey tree", "entity name")
-t("As you approach it, you hear a high-pitched buzzing sound.", "As you approach it, you hear a high-pitched buzzing sound.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/ritch.lua"
--- 3 entries
-t("ritch larva", "ritch larva", "entity name")
-t("ritch hunter", "ritch hunter", "entity name")
-t("ritch hive mother", "ritch hive mother", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/rodent.lua"
--- 11 entries
-t("rodent", "rodent", "entity subtype")
-t("giant white mouse", "giant white mouse", "entity name")
-t("giant brown mouse", "giant brown mouse", "entity name")
-t("giant white rat", "giant white rat", "entity name")
-t("giant brown rat", "giant brown rat", "entity name")
-t("giant rabbit", "giant rabbit", "entity name")
-t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "_t")
-t("giant crystal rat", "giant crystal rat", "entity name")
-t("Instead of fur, this rat has crystals growing on its back, which provide extra protection.", "Instead of fur, this rat has crystals growing on its back, which provide extra protection.", "_t")
-t("giant grey mouse", "giant grey mouse", "entity name")
-t("giant grey rat", "giant grey rat", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/sandworm.lua"
--- 12 entries
-t("A huge worm coloured as the sand it inhabits. It seems quite unhappy about you being in its lair.", "A huge worm coloured as the sand it inhabits. It seems quite unhappy about you being in its lair.", "_t")
-t("sandworm destroyer", "sandworm destroyer", "entity name")
-t("A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "_t")
-t("sand-drake", "sand-drake", "entity name")
-t("This unholy creature looks like a wingless dragon in shape, but it is sand-colored, making it all the more dangerous for its prey.", "This unholy creature looks like a wingless dragon in shape, but it is sand-colored, making it all the more dangerous for its prey.", "_t")
-t("gigantic sandworm tunneler", "gigantic sandworm tunneler", "entity name")
-t("The ground shakes as this huge worm burrows towards you, its gigantic mouth just as capable of devouring flesh as stone.", "The ground shakes as this huge worm burrows towards you, its gigantic mouth just as capable of devouring flesh as stone.", "_t")
-t("gigantic gravity worm", "gigantic gravity worm", "entity name")
-t("Space and time seem to bend around this huge worm.", "Space and time seem to bend around this huge worm.", "_t")
-t("gigantic corrosive tunneler", "gigantic corrosive tunneler", "entity name")
-t("This huge worm burrows through the earth using its powerful corrosive saliva.", "This huge worm burrows through the earth using its powerful corrosive saliva.", "_t")
-t("%s explodes in an acidic cloud.", "%s explodes in an acidic cloud.", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/shade.lua"
--- 2 entries
-t("shade", "shade", "entity subtype")
-t("Through some terrible process that remains mysterious, this creature's shadow has been torn from its body and given unlife.", "Through some terrible process that remains mysterious, this creature's shadow has been torn from its body and given unlife.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/shivgoroth.lua"
--- 3 entries
-t("greater shivgoroth", "greater shivgoroth", "entity name")
-t("ultimate shivgoroth", "ultimate shivgoroth", "entity name")
-t("Shivgoroth are mighty ice elementals, torn away from their home world by a powerful magic.", "Shivgoroth are mighty ice elementals, torn away from their home world by a powerful magic.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/skeleton.lua"
--- 14 entries
-t("A haphazard collection of crumbling bones, with jerky movements that remind you of a child playing with a marionette.  It only has one arm, but that's all it needs to hold a sword.", "A haphazard collection of crumbling bones, with jerky movements that remind you of a child playing with a marionette.  It only has one arm, but that's all it needs to hold a sword.", "_t")
-t("degenerated skeleton archer", "degenerated skeleton archer", "entity name")
-t("A frail skeleton; just about the only bones that aren't cracked are its arms.  It's missing a hand, but a notch has been carved into its wrist to let it pull back a bowstring regardless.", "A frail skeleton; just about the only bones that aren't cracked are its arms.  It's missing a hand, but a notch has been carved into its wrist to let it pull back a bowstring regardless.", "_t")
-t("Given its condition, you're less inclined to think this skeleton knows proper spells, rather than simply disgorging its magical energy as it breaks down.  This doesn't make it much less dangerous to be around, mind you.", "Given its condition, you're less inclined to think this skeleton knows proper spells, rather than simply disgorging its magical energy as it breaks down.  This doesn't make it much less dangerous to be around, mind you.", "_t")
-t("The forces binding this skeleton together are resilient enough to let it hold a shield and swing a weapon as well as it could have in life.  It's still wearing its old armor, in rusty but servicable condition.", "The forces binding this skeleton together are resilient enough to let it hold a shield and swing a weapon as well as it could have in life.  It's still wearing its old armor, in rusty but servicable condition.", "_t")
-t("skeleton archer", "skeleton archer", "entity name")
-t("Nobody scavenged the high-quality bow from this archer before it was raised from the dead.  You're about to wish the world had more grave-robbers.", "Nobody scavenged the high-quality bow from this archer before it was raised from the dead.  You're about to wish the world had more grave-robbers.", "_t")
-t("skeleton magus", "skeleton magus", "entity name")
-t("This skeleton has been imbued with far more magical energy than normal, and serves as a conduit of its master's spellcasting prowess.", "This skeleton has been imbued with far more magical energy than normal, and serves as a conduit of its master's spellcasting prowess.", "_t")
-t("It feels no pain.  It moves with fluidity and strength that would tear natural muscles apart.  It must be from a fresh corpse, since its bones, armor, and weapon are all in pristine condition.  And it's furious.", "It feels no pain.  It moves with fluidity and strength that would tear natural muscles apart.  It must be from a fresh corpse, since its bones, armor, and weapon are all in pristine condition.  And it's furious.", "_t")
-t("skeleton master archer", "skeleton master archer", "entity name")
-t("This skeleton can fire arrows and nock new ones with blinding speed.  Arcane forces pull its bones with unnatural precision - its arms will never tremble or get tired.", "This skeleton can fire arrows and nock new ones with blinding speed.  Arcane forces pull its bones with unnatural precision - its arms will never tremble or get tired.", "_t")
-t("skeleton assassin", "skeleton assassin", "entity name")
-t("Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/snake.lua"
--- 14 entries
-t("snake", "snake", "entity subtype")
-t("large brown snake", "large brown snake", "entity name")
-t("large white snake", "large white snake", "entity name")
-t("This large snake hisses at you, angry at being disturbed.", "This large snake hisses at you, angry at being disturbed.", "_t")
-t("copperhead snake", "copperhead snake", "entity name")
-t("It has a copper head and sharp venomous fangs.", "It has a copper head and sharp venomous fangs.", "_t")
-t("rattlesnake", "rattlesnake", "entity name")
-t("As you approach, the snake coils up and rattles its tail threateningly.", "As you approach, the snake coils up and rattles its tail threateningly.", "_t")
-t("king cobra", "king cobra", "entity name")
-t("It is a large snake with a hooded face.", "It is a large snake with a hooded face.", "_t")
-t("black mamba", "black mamba", "entity name")
-t("It has glistening black skin, a sleek body, and highly venomous fangs.", "It has glistening black skin, a sleek body, and highly venomous fangs.", "_t")
-t("anaconda", "anaconda", "entity name")
-t("You recoil in fear as you notice this gigantic snake.  It seeks to crush the life out of you.", "You recoil in fear as you notice this gigantic snake.  It seeks to crush the life out of you.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/snow-giant.lua"
--- 8 entries
-t("snow giant", "snow giant", "entity name")
-t("snow giant thunderer", "snow giant thunderer", "entity name")
-t("A towering creature, humanoid but huge. It wields a giant maul and does not look friendly. Lightning crackles over its body.", "A towering creature, humanoid but huge. It wields a giant maul and does not look friendly. Lightning crackles over its body.", "_t")
-t("snow giant boulder thrower", "snow giant boulder thrower", "entity name")
-t("snow giant chieftain", "snow giant chieftain", "entity name")
-t("A towering creature, humanoid but huge. It wields a giant maul and does not look friendly.", "A towering creature, humanoid but huge. It wields a giant maul and does not look friendly.", "_t")
-t("Burb the snow giant champion", "Burb the snow giant champion", "entity name")
-t("A maddened, enraged snow giant that towers over his comrades. You've heard legends mentioning this particular monstrosity; they say that when he's not rampaging around frothing at the mouth, he sits, almost childlike, engraving stories and mysterious patterns on any flat stone surface he can find.", "A maddened, enraged snow giant that towers over his comrades. You've heard legends mentioning this particular monstrosity; they say that when he's not rampaging around frothing at the mouth, he sits, almost childlike, engraving stories and mysterious patterns on any flat stone surface he can find.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/spider.lua"
--- 23 entries
-t("giant spider", "giant spider", "entity name")
-t("A huge arachnid, it produces even bigger webs.", "A huge arachnid, it produces even bigger webs.", "_t")
-t("spitting spider", "spitting spider", "entity name")
-t("A huge arachnid, it sprays venom at its prey.", "A huge arachnid, it sprays venom at its prey.", "_t")
-t("chitinous spider", "chitinous spider", "entity name")
-t("A huge arachnid with a massive exoskeleton.", "A huge arachnid with a massive exoskeleton.", "_t")
-t("gaeramarth", "gaeramarth", "entity name")
-t("These cunning spiders terrorize those who enter the ever-growing borders of their lairs.  Those who encounter them rarely return.", "These cunning spiders terrorize those who enter the ever-growing borders of their lairs.  Those who encounter them rarely return.", "_t")
-t("ninurlhing", "ninurlhing", "entity name")
-t("The air reeks with noxious fumes and the ground around it decays.", "The air reeks with noxious fumes and the ground around it decays.", "_t")
-t("faerlhing", "faerlhing", "entity name")
-t("This spider seems to command the flow of mana, which pulses freely through its body.", "This spider seems to command the flow of mana, which pulses freely through its body.", "_t")
-t("Largest of all the spiderkin, its folds of skin seem nearly impenetrable.", "Largest of all the spiderkin, its folds of skin seem nearly impenetrable.", "_t")
-t("losselhing", "losselhing", "entity name")
-t("The air seems to freeze solid around this frigid spider.", "The air seems to freeze solid around this frigid spider.", "_t")
-t("weaver young", "weaver young", "entity name")
-t("A tiny arachnid that phases in and out of reality.", "A tiny arachnid that phases in and out of reality.", "_t")
-t("weaver patriarch", "weaver patriarch", "entity name")
-t("A large blue arachnid with white markings on its thorax.  It shifts and shimmers as though only partially connected to the timeline.", "A large blue arachnid with white markings on its thorax.  It shifts and shimmers as though only partially connected to the timeline.", "_t")
-t("weaver matriarch", "weaver matriarch", "entity name")
-t("A large dark blue arachnid with a shifting yellow and white pattern on its thorax.  It shifts and shimmers as though only partially connected to the timeline.", "A large dark blue arachnid with a shifting yellow and white pattern on its thorax.  It shifts and shimmers as though only partially connected to the timeline.", "_t")
-t("Ninandra, the Great Weaver", "Ninandra, the Great Weaver", "entity name")
-t("A huge blue and white spiderkin whose form shifts and shimmers in and out of reality.  She spins the threads of fate and binds the destiny of all within her web.", "A huge blue and white spiderkin whose form shifts and shimmers in and out of reality.  She spins the threads of fate and binds the destiny of all within her web.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/storm-drake.lua"
--- 5 entries
-t("storm drake hatchling", "storm drake hatchling", "entity name")
-t("storm drake", "storm drake", "entity name")
-t("A mature storm drake, armed with deadly breath and nasty claws.", "A mature storm drake, armed with deadly breath and nasty claws.", "_t")
-t("storm wyrm", "storm wyrm", "entity name")
-t("An old and powerful storm drake, armed with deadly breath and nasty claws.", "An old and powerful storm drake, armed with deadly breath and nasty claws.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/sunwall-town.lua"
--- 5 entries
-t("human guard", "human guard", "entity name")
-t("elven archer", "elven archer", "entity name")
-t("A human in shiny plate armour.", "A human in shiny plate armour.", "_t")
-t("elven sun-mage", "elven sun-mage", "entity name")
-t("An elf dressed in glowing robes.", "An elf dressed in glowing robes.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/swarm.lua"
--- 10 entries
-t("swarms", "swarms", "entity subtype")
-t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "_t")
-t("midge swarm", "midge swarm", "entity name")
-t("A swarm of midges; they want blood.", "A swarm of midges; they want blood.", "_t")
-t("bee swarm", "bee swarm", "entity name")
-t("They buzz at you threateningly, as you have gotten too close to their hive.", "They buzz at you threateningly, as you have gotten too close to their hive.", "_t")
-t("hornet swarm", "hornet swarm", "entity name")
-t("You have intruded on their ground, and they will defend it at all costs.", "You have intruded on their ground, and they will defend it at all costs.", "_t")
-t("hummerhorn", "hummerhorn", "entity name")
-t("A giant buzzing wasp, its stinger dripping venom.", "A giant buzzing wasp, its stinger dripping venom.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/telugoroth.lua"
--- 11 entries
-t("Reality has shifted.", "Reality has shifted.", "logSeen")
-t("%s resists the swap!", "%s resists the swap!", "logSeen")
-t("and lost outside time", "and lost outside time", "_t")
-t("telugoroth", "telugoroth", "entity name")
-t("greater telugoroth", "greater telugoroth", "entity name")
-t("ultimate telugoroth", "ultimate telugoroth", "entity name")
-t("A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "_t")
-t("teluvorta", "teluvorta", "entity name")
-t("greater teluvorta", "greater teluvorta", "entity name")
-t("ultimate teluvorta", "ultimate teluvorta", "entity name")
-t("Time and space collapse in upon this erratically-moving time elemental.", "Time and space collapse in upon this erratically-moving time elemental.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/thieve.lua"
--- 13 entries
-t("cutpurse", "cutpurse", "entity name")
-t("The lowest of the thieves, this cutpurse is just learning the tricks of the trade.", "The lowest of the thieves, this cutpurse is just learning the tricks of the trade.", "_t")
-t("Stronger than a cutpurse, this thief has been promoted.", "Stronger than a cutpurse, this thief has been promoted.", "_t")
-t("thief", "thief", "entity name")
-t("He eyes you and your belongings, then suddenly vanishes... strange, why is your pack lighter?", "He eyes you and your belongings, then suddenly vanishes... strange, why is your pack lighter?", "_t")
-t("bandit", "bandit", "entity name")
-t("These ruffians often employ brute force over thievery, but they are capable of stealing as well.", "These ruffians often employ brute force over thievery, but they are capable of stealing as well.", "_t")
-t("bandit lord", "bandit lord", "entity name")
-t("He is the leader of a gang of bandits. Watch out for his underlings.", "He is the leader of a gang of bandits. Watch out for his underlings.", "_t")
-t("assassin", "assassin", "entity name")
-t("Before you looms a pair of eyes... a glint of steel... death.", "Before you looms a pair of eyes... a glint of steel... death.", "_t")
-t("rogue sapper", "rogue sapper", "entity name")
-t("Stealthy tricksters that leave a wake of deadfalls and other hazards.  They really just make a mess of things.", "Stealthy tricksters that leave a wake of deadfalls and other hazards.  They really just make a mess of things.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/troll.lua"
--- 4 entries
-t("patchwork troll", "patchwork troll", "entity name")
-t("A disgusting and mismatched construct of necromantically-enhanced troll bits and shattered weapons. Confused and furious, it rends and shatters its surroundings with impossible strength, moving with speed found nowhere in nature.", "A disgusting and mismatched construct of necromantically-enhanced troll bits and shattered weapons. Confused and furious, it rends and shatters its surroundings with impossible strength, moving with speed found nowhere in nature.", "_t")
-t("Forest Troll Hedge-Wizard", "Forest Troll Hedge-Wizard", "entity name")
-t("This old-looking troll glares at you with malice. His muscles appear atrophied, but a certain power surrounds him nonetheless.", "This old-looking troll glares at you with malice. His muscles appear atrophied, but a certain power surrounds him nonetheless.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/undead-rat.lua"
--- 25 entries
-t("rodent", "rodent", "entity subtype")
-t("A skeletal rat, teeth and claws ground to a sharp point. It glares at you menacingly.", "A skeletal rat, teeth and claws ground to a sharp point. It glares at you menacingly.", "_t")
-t("ghoulish rat", "ghoulish rat", "entity name")
-t("Layers of rotting skin are peeling off of this rat. One of the eye sockets appears empty.", "Layers of rotting skin are peeling off of this rat. One of the eye sockets appears empty.", "_t")
-t("*s.q.u.e.a.k*", "*s.q.u.e.a.k*", "_t")
-t("Squeakkkkkkk??", "Squeakkkkkkk??", "_t")
-t("Squeeeeeeak!", "Squeeeeeeak!", "_t")
-t("spectral rat", "spectral rat", "entity name")
-t("An eerie haze surrounds this translucent rat.", "An eerie haze surrounds this translucent rat.", "_t")
-t("Eerie Squeak!", "Eerie Squeak!", "_t")
-t("Frightening Squeak??", "Frightening Squeak??", "_t")
-t("vampire rat", "vampire rat", "entity name")
-t("Looks much like a normal rat. That is, other than the very large fangs.", "Looks much like a normal rat. That is, other than the very large fangs.", "_t")
-t("Squeak! Blood!", "Squeak! Blood!", "_t")
-t("gigantic bone rat", "gigantic bone rat", "entity name")
-t("This massive beast appears to be a rat composed of countless bones fused together.", "This massive beast appears to be a rat composed of countless bones fused together.", "_t")
-t("*SQUEAK*", "*SQUEAK*", "_t")
-t("The master of the pit is before you. It squeaks with menace as it and a horde of minions approach you.", "The master of the pit is before you. It squeaks with menace as it and a horde of minions approach you.", "_t")
-t("#RED#Rising again, the Rat Lich's eyes glow with renewed energy!", "#RED#Rising again, the Rat Lich's eyes glow with renewed energy!", "logSeen")
-t("\
-The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "\
-The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "_t")
-t("\"Squeak\" I say, yes .. \"Squeak!\"", "\"Squeak\" I say, yes .. \"Squeak!\"", "_t")
-t("*squeak*", "*squeak*", "_t")
-t("SQUEAK!!!!!", "SQUEAK!!!!!", "_t")
-t("Squeak!", "Squeak!", "_t")
-t("Squeak??", "Squeak??", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/vampire.lua"
--- 9 entries
-t("These ancient cursed beings often take the form of a bat and attack their prey.", "These ancient cursed beings often take the form of a bat and attack their prey.", "_t")
-t("lesser vampire", "lesser vampire", "entity name")
-t("This vampire has only just begun its new life. It has not yet fathomed its newfound power, yet it still has a thirst for blood.", "This vampire has only just begun its new life. It has not yet fathomed its newfound power, yet it still has a thirst for blood.", "_t")
-t("It is a humanoid with an aura of power. You notice a sharp set of front teeth.", "It is a humanoid with an aura of power. You notice a sharp set of front teeth.", "_t")
-t("master vampire", "master vampire", "entity name")
-t("It is a humanoid form dressed in robes. Power emanates from its chilling frame.", "It is a humanoid form dressed in robes. Power emanates from its chilling frame.", "_t")
-t([[A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others.
-It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.]], [[A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others.
-It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.]], "_t")
-t("vampire lord", "vampire lord", "entity name")
-t("A foul wind chills your bones as this ghastly figure approaches.", "A foul wind chills your bones as this ghastly figure approaches.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/venom-drake.lua"
--- 6 entries
-t("venom drake hatchling", "venom drake hatchling", "entity name")
-t("A corrosive venom drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "A corrosive venom drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "_t")
-t("venom drake", "venom drake", "entity name")
-t("A mature corrosive venom drake, armed with deadly breath and nasty claws.", "A mature corrosive venom drake, armed with deadly breath and nasty claws.", "_t")
-t("venom wyrm", "venom wyrm", "entity name")
-t("An old and powerful corrosive venom drake, armed with deadly breath and nasty claws.", "An old and powerful corrosive venom drake, armed with deadly breath and nasty claws.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/vermin.lua"
--- 4 entries
-t("worms", "worms", "entity subtype")
-t("white worm mass", "white worm mass", "entity name")
-t("green worm mass", "green worm mass", "entity name")
-t("carrion worm mass", "carrion worm mass", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/wight.lua"
--- 10 entries
-t("wight", "wight", "entity subtype")
-t("These be white wights.", "These be white wights.", "_t")
-t("forest wight", "forest wight", "entity name")
-t("It is a ghostly apparition with a humanoid form.", "It is a ghostly apparition with a humanoid form.", "_t")
-t("grave wight", "grave wight", "entity name")
-t("It is a ghostly form with eyes that haunt you.", "It is a ghostly form with eyes that haunt you.", "_t")
-t("barrow wight", "barrow wight", "entity name")
-t("It is a ghostly nightmare of an entity.", "It is a ghostly nightmare of an entity.", "_t")
-t("emperor wight", "emperor wight", "entity name")
-t("Your life force is torn from your body as this powerful unearthly being approaches.", "Your life force is torn from your body as this powerful unearthly being approaches.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/wild-drake.lua"
--- 5 entries
-t("wild", "wild", "entity subtype")
-t("spire dragon", "spire dragon", "entity name")
-t("A monstrous, coiled wyrm, patient and hateful. Its hide, studded with spikes and crests and blades, turns aside steel and sorcery with equal ease.", "A monstrous, coiled wyrm, patient and hateful. Its hide, studded with spikes and crests and blades, turns aside steel and sorcery with equal ease.", "_t")
-t("blinkwyrm", "blinkwyrm", "entity name")
-t("A shifting, writhing, snake-like dragon, blinking in and out of existence, just waiting for you to turn your back.", "A shifting, writhing, snake-like dragon, blinking in and out of existence, just waiting for you to turn your back.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/xorn.lua"
--- 12 entries
-t("umber hulk", "umber hulk", "entity name")
-t("This bizarre creature has glaring eyes and large mandibles capable of slicing through rock.", "This bizarre creature has glaring eyes and large mandibles capable of slicing through rock.", "_t")
-t("xorn", "xorn", "entity name")
-t("A huge creature of the element Earth. Able to merge with its element, it has four huge arms protruding from its enormous torso.", "A huge creature of the element Earth. Able to merge with its element, it has four huge arms protruding from its enormous torso.", "_t")
-t("xaren", "xaren", "entity name")
-t("It is a tougher relative of the Xorn. Its hide glitters with metal ores.", "It is a tougher relative of the Xorn. Its hide glitters with metal ores.", "_t")
-t("The Fragmented Essence of Harkor'Zun", "The Fragmented Essence of Harkor'Zun", "entity name")
-t("Fragmented essence... maybe it'd be best if it stayed fragmented.", "Fragmented essence... maybe it'd be best if it stayed fragmented.", "_t")
-t("#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "logSeen")
-t("#AQUAMARINE#%s is infused with all the energies of the fragments. The real Harkor'Zun is reconstituted!", "#AQUAMARINE#%s is infused with all the energies of the fragments. The real Harkor'Zun is reconstituted!", "logSeen")
-t("Harkor'Zun", "Harkor'Zun", "entity name")
-t("A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.", "A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/yaech.lua"
 -- 1 entries
-t("Yaeches are an aquatic subspecies of yeeks. They share the same psionic powers, but they refuse to take part in the Way.", "Yaeches are an aquatic subspecies of yeeks. They share the same psionic powers, but they refuse to take part in the Way.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/ziguranth.lua"
--- 6 entries
-t("and burned on a pyre", "and burned on a pyre", "_t")
-t("ziguranth warrior", "ziguranth warrior", "entity name")
-t("A Ziguranth warrior, clad in heavy armour.", "A Ziguranth warrior, clad in heavy armour.", "_t")
-t("ziguranth summoner", "ziguranth summoner", "entity name")
-t("ziguranth wyrmic", "ziguranth wyrmic", "entity name")
-t("A Ziguranth wilder, attuned to nature.", "A Ziguranth wilder, attuned to nature.", "_t")
+t("orc master wyrmic", "orc master wyrmic", "entity name")
 
 
 ------------------------------------------------
@@ -16074,11 +15211,10 @@ t("#rng# the Witherer", "#rng# the Witherer", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/renegade-pyromancers.lua"
--- 4 entries
+-- 3 entries
 t("How to Summon a Phoenix", "How to Summon a Phoenix", "_t")
 t("An old and singed scroll, the bottom half burnt off.", "An old and singed scroll, the bottom half burnt off.", "_t")
 t("#rng# the Flamebringer", "#rng# the Flamebringer", "_t")
-t("#rng# the Invoker", "#rng# the Invoker", "_t")
 
 
 ------------------------------------------------
@@ -16166,17 +15302,10 @@ t("Passage to the caverns", "Passage to the caverns", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/mapscripts/lib/subvault.lua"
--- 10 entries
-t("Hidden Vault - %s", "Hidden Vault - %s", "tformat")
+-- 3 entries
 t("stairs back to %s", "stairs back to %s", "_t")
-t("hidden vault", "hidden vault", "_t")
-t("Crumbling stairs lead down to something.", "Crumbling stairs lead down to something.", "_t")
-t("collapsing hidden vault", "collapsing hidden vault", "_t")
-t("collapsed hidden vault", "collapsed hidden vault", "_t")
 t("It is fully collapsed, no way down.", "It is fully collapsed, no way down.", "_t")
 t("#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "log")
-t("nearly collapsed hidden vault", "nearly collapsed hidden vault", "_t")
-t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# The decrepit stairs crumble some more as you climb them.", "log")
 
 
 ------------------------------------------------
@@ -16313,7 +15442,7 @@ t([[While your cosmic cycle is expanding, creatures in its radius have a %d%% ch
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/other.lua"
--- 34 entries
+-- 33 entries
 t([[Creates a time distortion in a radius of %d that lasts for %d turns, decreasing global speed by %d%% for 3 turns and inflicting %0.2f temporal damage each turn to all targets within the area.
 		The slow effect and damage dealt will scale with your Spellpower.]], [[Creates a time distortion in a radius of %d that lasts for %d turns, decreasing global speed by %d%% for 3 turns and inflicting %0.2f temporal damage each turn to all targets within the area.
 		The slow effect and damage dealt will scale with your Spellpower.]], "tformat")
@@ -16374,7 +15503,6 @@ t([[You convert %d%% of all non-temporal damage you receive into temporal damage
 t("Phase Shift", "Phase Shift", "talent name")
 t("Phase shift yourself for %d turns; any damage greater than 10%% of your maximum life will teleport you to an adjacent tile and be reduced by 50%% (can only happen once per turn).", "Phase shift yourself for %d turns; any damage greater than 10%% of your maximum life will teleport you to an adjacent tile and be reduced by 50%% (can only happen once per turn).", "tformat")
 t("Swap", "Swap", "talent name")
-t("%s resists the swap!", "%s resists the swap!", "logSeen")
 t([[You manipulate the spacetime continuum in such a way that you switch places with another creature with in a range of %d.  The targeted creature will be confused (power %d%%) for %d turns.
 		The spell's hit chance will increase with your Spellpower.]], [[You manipulate the spacetime continuum in such a way that you switch places with another creature with in a range of %d.  The targeted creature will be confused (power %d%%) for %d turns.
 		The spell's hit chance will increase with your Spellpower.]], "tformat")
@@ -17197,715 +16325,6 @@ t([[ToME 4 is a large, complex game. Despite this, the most important mechanics-
 
 
 ------------------------------------------------
-section "game/modules/tome/data/texts/unlock-adventurer.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Adventurer", "New Class: #LIGHT_GREEN#Adventurer", "_t")
-t([[Congratulations, you have won the game!
-You can now create new characters with the #LIGHT_GREEN#Adventurer class#WHITE#.
-
-Adventurers start the game with 7 talent category points and all possible class and generic trees in the game.
-They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
-Use at your own risk, and have fun.]], [[Congratulations, you have won the game!
-You can now create new characters with the #LIGHT_GREEN#Adventurer class#WHITE#.
-
-Adventurers start the game with 7 talent category points and all possible class and generic trees in the game.
-They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
-Use at your own risk, and have fun.]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-afflicted_cursed.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Cursed (Afflicted)", "New Class: #LIGHT_GREEN#Cursed (Afflicted)", "_t")
-t([[Through ignorance, greed or folly, the Cursed served some dark design and are now doomed to pay for their sins.
-Their only master now is the hatred they carry for every living thing.
-Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.
-Worse, any who approach the Cursed can be driven mad by their terrible aura.
-Some of them, however, strive to redeem their faults by using their Cursed powers to battle evil.
-
-You have "lifted" the curse of Ben Cruthdar. You can now create new characters with the #LIGHT_GREEN#Cursed class#WHITE#.
-
-Cursed are heavy melee warriors, focusing all their hatred into their blows.
-Class features:#YELLOW#
-- Engulf your foes in your Gloom, weakening, confusing, stunning and damaging them
-- Hunt your prey, tracking them and marking them for death
-- Powerful melee combatant#WHITE#
-
-The Cursed use hate, a resource that grows as they kill their foes and decreases while standing idle.
-Most of their talents are more effective with high hate.
-]], [[Through ignorance, greed or folly, the Cursed served some dark design and are now doomed to pay for their sins.
-Their only master now is the hatred they carry for every living thing.
-Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.
-Worse, any who approach the Cursed can be driven mad by their terrible aura.
-Some of them, however, strive to redeem their faults by using their Cursed powers to battle evil.
-
-You have "lifted" the curse of Ben Cruthdar. You can now create new characters with the #LIGHT_GREEN#Cursed class#WHITE#.
-
-Cursed are heavy melee warriors, focusing all their hatred into their blows.
-Class features:#YELLOW#
-- Engulf your foes in your Gloom, weakening, confusing, stunning and damaging them
-- Hunt your prey, tracking them and marking them for death
-- Powerful melee combatant#WHITE#
-
-The Cursed use hate, a resource that grows as they kill their foes and decreases while standing idle.
-Most of their talents are more effective with high hate.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-afflicted_doomed.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Doomed (Afflicted)", "New Class: #LIGHT_GREEN#Doomed (Afflicted)", "_t")
-t([[Through ignorance, greed or folly, the Doomed served some dark design and must now pay for their sins.
-Their only master now is the hatred they carry for every living thing.
-Drawing strength from the death of all they encounter, the Doomed become terrifying foes.
-Their mere presence engulfs the area in darkness.
-Some of them, however, strive to redeem their faults by using their Doomed powers to battle evil.
-
-You destroyed your own doomed shadow. You can now create new characters with the #LIGHT_GREEN#Doomed class#WHITE#.
-
-Doomed are short range spellcasters.
-Class features:#YELLOW#
-- Engulf your foes in darkness
-- Summon shadows to fight for you
-- Unleash your hatred in raw physical form
-- Feed off the life of your foes#WHITE#
-
-The Doomed use hate, a resource that grows as they kill their foes and decreases while standing idle.
-Most of their talents are more effective with high hate.
-]], [[Through ignorance, greed or folly, the Doomed served some dark design and must now pay for their sins.
-Their only master now is the hatred they carry for every living thing.
-Drawing strength from the death of all they encounter, the Doomed become terrifying foes.
-Their mere presence engulfs the area in darkness.
-Some of them, however, strive to redeem their faults by using their Doomed powers to battle evil.
-
-You destroyed your own doomed shadow. You can now create new characters with the #LIGHT_GREEN#Doomed class#WHITE#.
-
-Doomed are short range spellcasters.
-Class features:#YELLOW#
-- Engulf your foes in darkness
-- Summon shadows to fight for you
-- Unleash your hatred in raw physical form
-- Feed off the life of your foes#WHITE#
-
-The Doomed use hate, a resource that grows as they kill their foes and decreases while standing idle.
-Most of their talents are more effective with high hate.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-birth_transmo_chest.lua"
--- 2 entries
-t("New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "_t")
-t([[You have discovered an old Fortress belonging to the mysterious Sher'tul race.
-The Fortress shadow gave you a transmogrification chest which shall make your dealing with storage and gold much easier.
-
-All your new characters will now start with a transmogrification chest at birth. All items transmogrified before you find the Fortress with them will only yield gold.
-]], [[You have discovered an old Fortress belonging to the mysterious Sher'tul race.
-The Fortress shadow gave you a transmogrification chest which shall make your dealing with storage and gold much easier.
-
-All your new characters will now start with a transmogrification chest at birth. All items transmogrified before you find the Fortress with them will only yield gold.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-birth_zigur_sacrifice.lua"
--- 2 entries
-t("New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "_t")
-t([[You have discovered Zigur, the bastion of Nature fighting against all arcane magics.
-Magic has caused so much pain and suffering on the world, it needs to stop.
-
-All your new characters will now be able to betray arcane escort quests to send them to Zigur, granting new, different, rewards.
-]], [[You have discovered Zigur, the bastion of Nature fighting against all arcane magics.
-Magic has caused so much pain and suffering on the world, it needs to stop.
-
-All your new characters will now be able to betray arcane escort quests to send them to Zigur, granting new, different, rewards.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-campaign_arena.lua"
--- 2 entries
-t("New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "_t")
-t([[The arena, a way of violent entertainment. 
-A delight for the audience, a source of wealth and glory. A place where aspiring fighters, former adventurers and those cursed to fight
-eternally gather to hack away at each other.
-
-You have unlocked the Arena and can now create new characters in a new campaign: #LIGHT_GREEN#The Arena#WHITE#.
-
-The arena pits you against multiple enemies in an open field, making your battle tactics important for survival.
-Campaign features:#YELLOW#
-- No quests, plots, friendly creatures or ways out: only you against all odds.
-- Exclusive scoring system where the faster you kill, the more you earn. Scores are kept for bragging rights!
-- Pure hack and slash MAYHEM!
-- Your champion becomes the new master of the arena, allowing you to challenge your own champions!
-]], [[The arena, a way of violent entertainment. 
-A delight for the audience, a source of wealth and glory. A place where aspiring fighters, former adventurers and those cursed to fight
-eternally gather to hack away at each other.
-
-You have unlocked the Arena and can now create new characters in a new campaign: #LIGHT_GREEN#The Arena#WHITE#.
-
-The arena pits you against multiple enemies in an open field, making your battle tactics important for survival.
-Campaign features:#YELLOW#
-- No quests, plots, friendly creatures or ways out: only you against all odds.
-- Exclusive scoring system where the faster you kill, the more you earn. Scores are kept for bragging rights!
-- Pure hack and slash MAYHEM!
-- Your champion becomes the new master of the arena, allowing you to challenge your own champions!
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-campaign_infinite_dungeon.lua"
--- 2 entries
-t("New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "_t")
-t([[During the Age of Haze, the nine Godslayers set out to destroy the gods.
-The god Ralkur, while trying to escape one of the Godslayers, created the Infinite Dungeon.
-He retreated there, but the Godslayer followed, and each time he would reach the god, Ralkur would create a new level.
-It is said the hunt continues even now, deep, very deep within the dungeon.
-
-You have unlocked the secret of the Infinite Dungeon and can now create new characters in a new campaign: #LIGHT_GREEN#Infinite Dungeon#WHITE#.
-
-The Infinite Dungeon is a set of ever-increasing levels filled with terrible foes.
-Campaign features:#YELLOW#
-- No quests, plots, friendly creatures or ways out: only you against all odds.
-- No win condition: you WILL die in the dungeon, but you can prove your worth by going as deep as possible.
-- Pure hack and slash MAYHEM!#WHITE#
-]], [[During the Age of Haze, the nine Godslayers set out to destroy the gods.
-The god Ralkur, while trying to escape one of the Godslayers, created the Infinite Dungeon.
-He retreated there, but the Godslayer followed, and each time he would reach the god, Ralkur would create a new level.
-It is said the hunt continues even now, deep, very deep within the dungeon.
-
-You have unlocked the secret of the Infinite Dungeon and can now create new characters in a new campaign: #LIGHT_GREEN#Infinite Dungeon#WHITE#.
-
-The Infinite Dungeon is a set of ever-increasing levels filled with terrible foes.
-Campaign features:#YELLOW#
-- No quests, plots, friendly creatures or ways out: only you against all odds.
-- No win condition: you WILL die in the dungeon, but you can prove your worth by going as deep as possible.
-- Pure hack and slash MAYHEM!#WHITE#
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-chronomancer_paradox_mage.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "_t")
-t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
-Some seek to weave this fabric, to bend it and shape it to their own will.  Only the truly dedicated or the truly mad manage to unlock the secrets of time and space.
-
-You have learned such secrets and can now create new characters with the #LIGHT_GREEN#Paradox Mage class#WHITE#.
-
-Paradox Mages are non-traditional spell casters who use chronomancy to reshape the universe.
-Class features:#YELLOW#
-- Control the flow of time around you
-- Bend and manipulate the timestream or even pull yourself from the future
-- Manipulate space and gravity to smash your foes to pieces or keep them in place
-- See into the future or even travel into the past#WHITE#
-
-Paradox Mages use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
-The higher their paradox the greater the effect of their powers but the harder they'll be to control.
-]], [[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
-Some seek to weave this fabric, to bend it and shape it to their own will.  Only the truly dedicated or the truly mad manage to unlock the secrets of time and space.
-
-You have learned such secrets and can now create new characters with the #LIGHT_GREEN#Paradox Mage class#WHITE#.
-
-Paradox Mages are non-traditional spell casters who use chronomancy to reshape the universe.
-Class features:#YELLOW#
-- Control the flow of time around you
-- Bend and manipulate the timestream or even pull yourself from the future
-- Manipulate space and gravity to smash your foes to pieces or keep them in place
-- See into the future or even travel into the past#WHITE#
-
-Paradox Mages use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
-The higher their paradox the greater the effect of their powers but the harder they'll be to control.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-chronomancer_temporal_warden.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "_t")
-t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
-As with all great powers, there are those who seek to manipulate it and pervert it, but there are also those who seek to uphold rather than destroy.
-Those who have learned to bend, rather than break, the fabric can keep the balance against dark or power-hungry forces.
-
-You have been taught the ways of chronomancy by a Temporal Warden and can now create new characters with the #LIGHT_GREEN#Temporal Warden class#WHITE#.
-
-Temporal Wardens are warriors proficient in both ranged and hand-to-hand combat.
-Class features:#YELLOW#
-- Dual-wield a medium sized and a small weapon or attack from afar with your ranged weapon skills
-- Manipulate space and time to speed yourself up, create wormholes, or even throw an opponent into the future
-- See into the future or even travel into the past#WHITE#
-
-Temporal Wardens use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
-The higher their paradox the greater the effect of their powers but the harder they'll be to control.
-]], [[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
-As with all great powers, there are those who seek to manipulate it and pervert it, but there are also those who seek to uphold rather than destroy.
-Those who have learned to bend, rather than break, the fabric can keep the balance against dark or power-hungry forces.
-
-You have been taught the ways of chronomancy by a Temporal Warden and can now create new characters with the #LIGHT_GREEN#Temporal Warden class#WHITE#.
-
-Temporal Wardens are warriors proficient in both ranged and hand-to-hand combat.
-Class features:#YELLOW#
-- Dual-wield a medium sized and a small weapon or attack from afar with your ranged weapon skills
-- Manipulate space and time to speed yourself up, create wormholes, or even throw an opponent into the future
-- See into the future or even travel into the past#WHITE#
-
-Temporal Wardens use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
-The higher their paradox the greater the effect of their powers but the harder they'll be to control.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-corrupter_corruptor.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Corruptor (Defiler)", "New Class: #LIGHT_GREEN#Corruptor (Defiler)", "_t")
-t([[Every power has a dark side, including the arcane forces.
-Corruptors are mages that deal in dark, blighted, demonic magic to attain their goals.
-Not all of them are evil, though; some are simply selfish and concerned only with their own power.
-
-You have been taught their ways by the Grand Corruptor and can now create new characters with the #LIGHT_GREEN#Corruptor class#WHITE#.
-
-Corruptors are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Plague your foes with deadly and contagious diseases
-- Hex and curse your foes, hindering and withering them away
-- Sap the life of your victims to heal yourself
-- Master demonic energies to burn and destroy. You can even summon a part of the demon plane, the Fearscape, to trap your foes.#WHITE#
-
-Corruptors use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], [[Every power has a dark side, including the arcane forces.
-Corruptors are mages that deal in dark, blighted, demonic magic to attain their goals.
-Not all of them are evil, though; some are simply selfish and concerned only with their own power.
-
-You have been taught their ways by the Grand Corruptor and can now create new characters with the #LIGHT_GREEN#Corruptor class#WHITE#.
-
-Corruptors are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Plague your foes with deadly and contagious diseases
-- Hex and curse your foes, hindering and withering them away
-- Sap the life of your victims to heal yourself
-- Master demonic energies to burn and destroy. You can even summon a part of the demon plane, the Fearscape, to trap your foes.#WHITE#
-
-Corruptors use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-corrupter_reaver.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Reaver (Defiler)", "New Class: #LIGHT_GREEN#Reaver (Defiler)", "_t")
-t([[Under a veil of darkness and blight come the Reavers.
-The foot soldiers of evil forces, Reavers are found everywhere.
-Very rarely a Reaver will realise the wrongness of her way and use her powers to atone for her crimes.
-
-You have slain numerous humanoids and can now create new characters with the #LIGHT_GREEN#Reaver class#WHITE#.
-
-Reavers are heavy melee with spellcasting support.
-Class features:#YELLOW#
-- Plague your foes with deadly and contagious diseases
-- Hex and curse your foes, hindering and withering them away
-- Accomplish deadly melee moves of utmost evil
-- Harness the power of bones to attack and protect#WHITE#
-
-Reavers use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], [[Under a veil of darkness and blight come the Reavers.
-The foot soldiers of evil forces, Reavers are found everywhere.
-Very rarely a Reaver will realise the wrongness of her way and use her powers to atone for her crimes.
-
-You have slain numerous humanoids and can now create new characters with the #LIGHT_GREEN#Reaver class#WHITE#.
-
-Reavers are heavy melee with spellcasting support.
-Class features:#YELLOW#
-- Plague your foes with deadly and contagious diseases
-- Hex and curse your foes, hindering and withering them away
-- Accomplish deadly melee moves of utmost evil
-- Harness the power of bones to attack and protect#WHITE#
-
-Reavers use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-cosmetic_bikini.lua"
--- 2 entries
-t("New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "_t")
-t([[You have saved Melinda again at the beach.
-
-You may now create characters that start equiped with either bikini or mankini.
-This has no effect on gameplay at all but it is fun!
-
-#{bold}#Also if you never take your bikini/mankini off and manage to win, you will get an achievement!#{normal}#
-
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], [[You have saved Melinda again at the beach.
-
-You may now create characters that start equiped with either bikini or mankini.
-This has no effect on gameplay at all but it is fun!
-
-#{bold}#Also if you never take your bikini/mankini off and manage to win, you will get an achievement!#{normal}#
-
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-cosmetic_class_alchemist_drolem.lua"
--- 2 entries
-t("New Class Option: #LIGHT_GREEN#Drolem", "New Class Option: #LIGHT_GREEN#Drolem", "_t")
-t([[You have defeated Tannen with your Alchemist and took some time to figure how he built a mighty Drolem.
-Drolems are dragon-shaped golems able to breath powerful poison at their foes.
-
-You may now create alchemist characters with a drolem instead of a golem.
-Drolems look awesome and can eventually learn to breathe poison.
-
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], [[You have defeated Tannen with your Alchemist and took some time to figure how he built a mighty Drolem.
-Drolems are dragon-shaped golems able to breath powerful poison at their foes.
-
-You may now create alchemist characters with a drolem instead of a golem.
-Drolems look awesome and can eventually learn to breathe poison.
-
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-cosmetic_race_dwarf_female_beard.lua"
--- 2 entries
-t("New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "_t")
-t([[You have saved the Iron Council from untold horrors from the deep.
-
-You may now create female dwarf characters sporting proudly facial pilosity as is the norm in the upper classes of dwarven society.
-This has no effect on gameplay at all but it is fun!
-
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], [[You have saved the Iron Council from untold horrors from the deep.
-
-You may now create female dwarf characters sporting proudly facial pilosity as is the norm in the upper classes of dwarven society.
-This has no effect on gameplay at all but it is fun!
-
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-cosmetic_race_human_redhead.lua"
--- 2 entries
-t("New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "_t")
-t([[You have saved Melinda from untold horrors and torments.
-
-You may now create human, elf, halfling and dwarf characters with red hair.
-This has no effect on gameplay at all but it is fun!
-
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], [[You have saved Melinda from untold horrors and torments.
-
-You may now create human, elf, halfling and dwarf characters with red hair.
-This has no effect on gameplay at all but it is fun!
-
-#LIGHT_GREEN#This is only available to donators. Thanks for your support!
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-difficulty_insane.lua"
--- 2 entries
-t("New game difficulty mode: #LIGHT_GREEN#Insane", "New game difficulty mode: #LIGHT_GREEN#Insane", "_t")
-t([[You won the game on Nightmare mode.  You are a big tough player!
-You thought you had seen it all, done it all...
-
-But no! If nightmare mode couldn't bring you down, Insane mode will!
-
-Insane features:#YELLOW#
-- All zone levels increased by 50% + 3
-- All creature talent levels increased by 50%
-- Rare creatures are far more frequent and random bosses start to appear
-- Bosses will have randomly selected talents
-- All enemies have 20% more life
-- Player can earn Insane version of achievements if also playing in Roguelike permadeath mode.
-
-#WHITE#May you suffer many fun and unfair deaths!
-]], [[You won the game on Nightmare mode.  You are a big tough player!
-You thought you had seen it all, done it all...
-
-But no! If nightmare mode couldn't bring you down, Insane mode will!
-
-Insane features:#YELLOW#
-- All zone levels increased by 50% + 3
-- All creature talent levels increased by 50%
-- Rare creatures are far more frequent and random bosses start to appear
-- Bosses will have randomly selected talents
-- All enemies have 20% more life
-- Player can earn Insane version of achievements if also playing in Roguelike permadeath mode.
-
-#WHITE#May you suffer many fun and unfair deaths!
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-difficulty_madness.lua"
--- 2 entries
-t("New game difficulty mode: #LIGHT_GREEN#Madness", "New game difficulty mode: #LIGHT_GREEN#Madness", "_t")
-t([[You won the game on Insane mode.  You are one of the best players!
-But fear not because the game is just about to get even more unfair on you!
-
-Welcome to Madness!
-
-Madness features:#YELLOW#
-- All zone levels increased by 150% + 6
-- All creature talent levels increased by 170%
-- Rare creatures are far more frequent and random bosses start to appear
-- Bosses will have randomly selected talents
-- Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is
-- Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.
-
-#WHITE#May you suffer many fun and unfair deaths!
-]], [[You won the game on Insane mode.  You are one of the best players!
-But fear not because the game is just about to get even more unfair on you!
-
-Welcome to Madness!
-
-Madness features:#YELLOW#
-- All zone levels increased by 150% + 6
-- All creature talent levels increased by 170%
-- Rare creatures are far more frequent and random bosses start to appear
-- Bosses will have randomly selected talents
-- Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is
-- Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.
-
-#WHITE#May you suffer many fun and unfair deaths!
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-divine_anorithil.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Anorithil (Celestial)", "New Class: #LIGHT_GREEN#Anorithil (Celestial)", "_t")
-t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
-
-Anorithil are mages who are trained in special magic to focus the powers of the Sun and Moons.
-They have learned to harness the energy of both shadows and light in their battle against the Pride.
-Their motto is: "We stand betwixt the Sun and Moons, where light and darkness meet. In the grey twilight we seek our destiny."
-
-You have helped one of them and can now create new characters with the #LIGHT_GREEN#Anorithil class#WHITE#.
-
-Anorithil are pure spellcasters that rely on positive and negative energies.
-Class features:#YELLOW#
-- Burn your foes from afar with the light and fire of the Sun
-- Head into battle enhanced by your powerful Sun Chants and Moon Hymns
-- Engulf your foes in the shadows
-- Set glyphs of power to confuse and control your foes#WHITE#
-
-Anorithil use "positive and negative energy" to use their special abilities.
-These are filled by some of their spells and depleted by others, making them alternate their talents.
-]], [[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
-
-Anorithil are mages who are trained in special magic to focus the powers of the Sun and Moons.
-They have learned to harness the energy of both shadows and light in their battle against the Pride.
-Their motto is: "We stand betwixt the Sun and Moons, where light and darkness meet. In the grey twilight we seek our destiny."
-
-You have helped one of them and can now create new characters with the #LIGHT_GREEN#Anorithil class#WHITE#.
-
-Anorithil are pure spellcasters that rely on positive and negative energies.
-Class features:#YELLOW#
-- Burn your foes from afar with the light and fire of the Sun
-- Head into battle enhanced by your powerful Sun Chants and Moon Hymns
-- Engulf your foes in the shadows
-- Set glyphs of power to confuse and control your foes#WHITE#
-
-Anorithil use "positive and negative energy" to use their special abilities.
-These are filled by some of their spells and depleted by others, making them alternate their talents.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-divine_sun_paladin.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "_t")
-t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
-
-Sun Paladins are warriors who are trained in special magic to focus the powers of the Sun.
-Paragons of all that is good, they are nonetheless terrible in their battle against the Pride.
-Their motto is: "The Sun is our giver, our purity, our essence. We carry the light into dark places, and against our strength none shall pass."
-
-You have discovered the Gates of Morning and can now create new characters with the #LIGHT_GREEN#Sun Paladin class#WHITE#.
-
-Sun Paladins are heavy melee with spellcasting support.
-Class features:#YELLOW#
-- Burn your foes from afar with the light and fire of the Sun
-- Head into battle enhanced by your powerful Chants
-- Channel the power of the Sun through your weapon
-- Become a walking fortress, protected by your shield#WHITE#
-
-Sun Paladins use "positive energy" to power their special abilities.
-It is filled by some of their spells and depleted by others, making them alternate their talents.
-]], [[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
-
-Sun Paladins are warriors who are trained in special magic to focus the powers of the Sun.
-Paragons of all that is good, they are nonetheless terrible in their battle against the Pride.
-Their motto is: "The Sun is our giver, our purity, our essence. We carry the light into dark places, and against our strength none shall pass."
-
-You have discovered the Gates of Morning and can now create new characters with the #LIGHT_GREEN#Sun Paladin class#WHITE#.
-
-Sun Paladins are heavy melee with spellcasting support.
-Class features:#YELLOW#
-- Burn your foes from afar with the light and fire of the Sun
-- Head into battle enhanced by your powerful Chants
-- Channel the power of the Sun through your weapon
-- Become a walking fortress, protected by your shield#WHITE#
-
-Sun Paladins use "positive energy" to power their special abilities.
-It is filled by some of their spells and depleted by others, making them alternate their talents.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-mage.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Archmage", "New Class: #LIGHT_GREEN#Archmage", "_t")
-t([[Magic has not disappeared from Maj'Eyal with the end of the Spellhunt.
-
-During the Age of Dusk, as the Spellhunt was nearing its end, a powerful mage of the Kar'Krul, Linaniil, created a safe haven for the few remaining mages of all races.
-This place is Angolwen, the City of Magic, and for over two thousands years has taught magic to preserve and expand it.
-
-You have been told this story and can now create new characters with the #LIGHT_GREEN#Archmage class#WHITE#.
-
-Archmagi are the pinnacle of spellcasters, attuned to the magical properties of the world.
-Class features:#YELLOW#
-- Cast elemental spells to burn your foes to death or freeze them
-- Summon the powers of Space and Time to protect and cripple
-- Dabble in Phantasms and Illusions
-- Manipulate the forces of magic themselves#WHITE#
-
-All mages use mana to cast their spells.
-It slowly replenishes over time.
-]], [[Magic has not disappeared from Maj'Eyal with the end of the Spellhunt.
-
-During the Age of Dusk, as the Spellhunt was nearing its end, a powerful mage of the Kar'Krul, Linaniil, created a safe haven for the few remaining mages of all races.
-This place is Angolwen, the City of Magic, and for over two thousands years has taught magic to preserve and expand it.
-
-You have been told this story and can now create new characters with the #LIGHT_GREEN#Archmage class#WHITE#.
-
-Archmagi are the pinnacle of spellcasters, attuned to the magical properties of the world.
-Class features:#YELLOW#
-- Cast elemental spells to burn your foes to death or freeze them
-- Summon the powers of Space and Time to protect and cripple
-- Dabble in Phantasms and Illusions
-- Manipulate the forces of magic themselves#WHITE#
-
-All mages use mana to cast their spells.
-It slowly replenishes over time.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-mage_cryomancer.lua"
--- 2 entries
-t("New Talent Category: #LIGHT_GREEN#Ice", "New Talent Category: #LIGHT_GREEN#Ice", "_t")
-t([[Since the dawn of time mages have experimented with the elements.
-While most mages are content using the Water school, a few of them took their research deeper and created Ice magic.
-At its core lies the Uttercold, a cold so cold it can even damage creatures normally immune.
-
-You have mastered ice magic and can now create new Archmage and Necromancer characters that can learn the #LIGHT_GREEN#Ice talents#WHITE#.
-
-Talents:
-- #YELLOW#Freeze: #WHITE#Condense ambient water on a target, damaging and freezing it
-- #YELLOW#Frozen Ground: #WHITE#Unleash a nova of ice on the ground, stopping the movements of anything caught inside
-- #YELLOW#Shatter: #WHITE#Shatter all frozen creatures in your sight, dealing increased damage or even killing them
-- #YELLOW#Uttercold: #WHITE#Master the Uttercold and pierce even through cold immunities
-]], [[Since the dawn of time mages have experimented with the elements.
-While most mages are content using the Water school, a few of them took their research deeper and created Ice magic.
-At its core lies the Uttercold, a cold so cold it can even damage creatures normally immune.
-
-You have mastered ice magic and can now create new Archmage and Necromancer characters that can learn the #LIGHT_GREEN#Ice talents#WHITE#.
-
-Talents:
-- #YELLOW#Freeze: #WHITE#Condense ambient water on a target, damaging and freezing it
-- #YELLOW#Frozen Ground: #WHITE#Unleash a nova of ice on the ground, stopping the movements of anything caught inside
-- #YELLOW#Shatter: #WHITE#Shatter all frozen creatures in your sight, dealing increased damage or even killing them
-- #YELLOW#Uttercold: #WHITE#Master the Uttercold and pierce even through cold immunities
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-mage_geomancer.lua"
--- 2 entries
-t("New Talent Category: #LIGHT_GREEN#Stone", "New Talent Category: #LIGHT_GREEN#Stone", "_t")
-t([[Since the dawn of time mages have experimented with the elements.
-While most mages are content using the Earth school, a few of them took their research deeper and created Stone magic.
-At its core lies the Crystalline Focus, which can create attacks so sharp they can cut through physical immunity.
-
-You have mastered stone magic and can now create new Archmage and Arcane Blade characters that can learn the #LIGHT_GREEN#Stone talents#WHITE#.
-
-Talents:
-- #YELLOW#Earthen Missiles: #WHITE#Fire multiple missiles of stone independently at targets
-- #YELLOW#Body of Stone: #WHITE#Turn into stone, reducing the cooldown of many stone/earth talents
-- #YELLOW#Earthquake: #WHITE#Create a localized earthquake, stunning all in the area
-- #YELLOW#Crystalline Focus: #WHITE#Master the Stone and pierce even through physical immunities
-]], [[Since the dawn of time mages have experimented with the elements.
-While most mages are content using the Earth school, a few of them took their research deeper and created Stone magic.
-At its core lies the Crystalline Focus, which can create attacks so sharp they can cut through physical immunity.
-
-You have mastered stone magic and can now create new Archmage and Arcane Blade characters that can learn the #LIGHT_GREEN#Stone talents#WHITE#.
-
-Talents:
-- #YELLOW#Earthen Missiles: #WHITE#Fire multiple missiles of stone independently at targets
-- #YELLOW#Body of Stone: #WHITE#Turn into stone, reducing the cooldown of many stone/earth talents
-- #YELLOW#Earthquake: #WHITE#Create a localized earthquake, stunning all in the area
-- #YELLOW#Crystalline Focus: #WHITE#Master the Stone and pierce even through physical immunities
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-mage_necromancer.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Necromancer", "New Class: #LIGHT_GREEN#Necromancer", "_t")
-t([[Necromancy, the forbidden art.
-Necromancy, the black art.
-
-During the Age of Dusk and the Age of Pyre the world went through a tortured era. Kingdoms were shattered, whole races suppressed, and diseases ran wild, killing millions.
-It was a dark time and amidst the chaos came the bringers of terror: the necromancers.
-Though they always existed, and will always exist whilst our souls are open to temptation, this was their true age of glory.
-The so-called 'noble' archmages regard necromancers as fallen brothers that must be corrected... or removed. But necromancers consider themselves misunderstood practitioners of an art that others are too scared or too feeble to touch. And oh, what great powers those arts do bring....
-
-You have learnt the basics of necromancy, killed a real one, and can now create new characters with the #LIGHT_GREEN#Necromancer class#WHITE#.
-
-Necromancers are dark spellcasters, attuned to death itself. Their ultimate goal is their own eternal life, often as a Lich.
-Class features:#YELLOW#
-- Cast darkness and ice infused spells to destroy your foes
-- Summon an army of undead minions to do your bidding
-- Use your minions as pawns, sacrificing them in various cruel and unusual ways
-- Embark on the quest of your life: Lichdom#WHITE#
-
-All mages use mana to cast their spells.
-It slowly replenishes over time.
-]], [[Necromancy, the forbidden art.
-Necromancy, the black art.
-
-During the Age of Dusk and the Age of Pyre the world went through a tortured era. Kingdoms were shattered, whole races suppressed, and diseases ran wild, killing millions.
-It was a dark time and amidst the chaos came the bringers of terror: the necromancers.
-Though they always existed, and will always exist whilst our souls are open to temptation, this was their true age of glory.
-The so-called 'noble' archmages regard necromancers as fallen brothers that must be corrected... or removed. But necromancers consider themselves misunderstood practitioners of an art that others are too scared or too feeble to touch. And oh, what great powers those arts do bring....
-
-You have learnt the basics of necromancy, killed a real one, and can now create new characters with the #LIGHT_GREEN#Necromancer class#WHITE#.
-
-Necromancers are dark spellcasters, attuned to death itself. Their ultimate goal is their own eternal life, often as a Lich.
-Class features:#YELLOW#
-- Cast darkness and ice infused spells to destroy your foes
-- Summon an army of undead minions to do your bidding
-- Use your minions as pawns, sacrificing them in various cruel and unusual ways
-- Embark on the quest of your life: Lichdom#WHITE#
-
-All mages use mana to cast their spells.
-It slowly replenishes over time.
-]], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/texts/unlock-mage_pyromancer.lua"
 -- 2 entries
 t("New Talent Category: #LIGHT_GREEN#Wildfire", "New Talent Category: #LIGHT_GREEN#Wildfire", "_t")
@@ -18563,7 +16982,7 @@ t("Contains a snippet of ToME wisdom.", "Contains a snippet of ToME wisdom.", "_
 
 ------------------------------------------------
 section "game/modules/tome/data/zones/tutorial-combat-stats/npcs.lua"
--- 28 entries
+-- 27 entries
 t("Nain the Guide", "Nain the Guide", "entity name")
 t("A pitchfork-wielding human with a welcoming smile.", "A pitchfork-wielding human with a welcoming smile.", "_t")
 t("Quick-healing orc", "Quick-healing orc", "entity name")
@@ -18581,7 +17000,6 @@ t("Forum troll", "Forum troll", "entity name")
 t("Pushy elf", "Pushy elf", "entity name")
 t("Blustering elf", "Blustering elf", "entity name")
 t("Breezy elf", "Breezy elf", "entity name")
-t("giant spider", "giant spider", "entity name")
 t("A huge arachnid.", "A huge arachnid.", "_t")
 t("chittering spider", "chittering spider", "entity name")
 t("A huge, chittering arachnid.", "A huge, chittering arachnid.", "_t")

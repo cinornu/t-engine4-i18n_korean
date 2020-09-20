@@ -100,6 +100,7 @@ t("Kryl-Feijan", "키릴-페이얀", "_t")
 t("Lithfengel", "리스펭겔", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
 t("Walrog", "왈록", "_t")
+t("Harkor'Zun", "하코르'준", "_t")
 t("floor", "바닥", "entity type")
 t("lava", "용암", "entity subtype")
 t("No", "아니요", "_t")
@@ -112,6 +113,7 @@ section "game/dlcs/tome-ashes-urhrok/data/general/npcs/aquatic-demon.lua"
 t("Walrog", "왈록", "entity name")
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
+t("Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "물의 군주 왈록은 #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "_t")
 
 
 ------------------------------------------------
@@ -868,10 +870,10 @@ t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal
 		If this talent is not on cooldown, the burst of fire will instead be radius %d, and stun all targets in addition to burning them.
 		For the purposes of applying the stun, you have %d bonus spellpower.
 		The damage will increase with your Spellpower.]], [[공포의 영역의 힘을 무기에 주입하여 근접 공격이 3 턴에 걸쳐 %0.2f 화염 피해를 입힙니다.
-		추가로, 공격 시, %d%% 확률로 강렬한 화염 폭발을 일으켜, 반경 %d 칸 내의 모든 적에에게 %d 턴에 걸쳐 %0.2f 화염 피해를 가합니다.
+		추가로, 공격 시, %d%% 확률로 강렬한 화염 폭발을 일으켜, 반경 %d 칸 내의 모든 적에게 %d 턴에 걸쳐 %0.2f 화염 피해를 가합니다.
 		이 기술이 재사용 대기시간이 아닐 시, 화염 폭발의 범위가 %d 칸이 되고, 폭발에 휘말린 적은 기절하고 화상을 입게됩니다.
 		기절 성공 여부를 판정할 때, 시전자는 추가적인 %d 주문력을 가진 것으로 간주됩니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {1,3,4,2,5,6})
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {1,3,4,2,5,6,7})
 t("Abduction", "납치", "talent name")
 t("Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", "대상을 공격해 %d%% 무기 피해를 가합니다. 명중 시, 대상을 끌여들이고 한번 더 공격하여, %d%% 무기 피해를 추가로 가합니다.", "tformat")
 t("Fiery Torment", "불타는 고문", "talent name")
@@ -1200,6 +1202,7 @@ t("floor", "바닥", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/npcs.lua"
 
+t("A small, heavily armoured demon, rushing toward you.", "작고, 중장갑을 두른 악마로 당신에게 달려옵니다.", "_t")
 t("major", "고위", "entity subtype")
 
 
@@ -1217,6 +1220,7 @@ section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
 
+t("rocks", "바위", "entity subtype")
 t("floor", "바닥", "entity subtype")
 
 

@@ -437,22 +437,22 @@ t("open door", "열린 문", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/mechstone.lua"
 
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/mechwall.lua"
 
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
 
 
@@ -469,18 +469,22 @@ t("wall", "벽", "entity type")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/snow_mountains.lua"
 
 t("floor", "바닥", "entity type")
+t("rocky ground", "바위 바닥", "entity name")
 t("rockwall", "바위 장벽", "entity type")
 t("rock", "바위", "entity subtype")
+t("snowy tree", "눈 덮인 나무", "entity name")
 t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("This rock is loose, you think you can move it away.", "이 바위는 흔들리고 있고, 옮길 수 있을 것 같습니다.", "_t")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("way to the next level", "다음 구역으로의 길", "entity name")
 
@@ -516,6 +520,9 @@ t("ritch", "릿치", "entity subtype")
 t([[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
 Vicious predators, they inject corrupting diseases into their foes, and their sharp claws cut through most armours.]], [[릿치는 극동의 대륙 서쪽의 건조한 황무지에 사는 거대 곤충입니다.
 그야말로 흉악한 포식자로, 릿치들은 적들에게 오염된 병원균을 주입하며 날카로운 발톱으로 대부분의 방어구를 찢어 버립니다.]], "_t")
+t("ritch larva", "릿치 애벌레", "entity name")
+t("ritch hunter", "릿치 사냥꾼", "entity name")
+t("ritch hive mother", "릿치 군락 어미", "entity name")
 
 
 ------------------------------------------------
@@ -4580,9 +4587,10 @@ section "game/dlcs/tome-orcs/data/zones/cave-hatred/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/dominion-port/grids.lua"
 
+t("#Source# poisons #Target#!", "#Source1# #Target3# 중독시켰다!", "logCombat")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("sand", "모래", "entity subtype")
 t("floor", "바닥", "entity subtype")
 
@@ -4692,6 +4700,7 @@ section "game/dlcs/tome-orcs/data/zones/gem/zone.lua"
 section "game/dlcs/tome-orcs/data/zones/internment-camp/grids.lua"
 
 t("wall", "벽", "entity type")
+t("burnt tree", "불탄 나무", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 
@@ -4950,6 +4959,7 @@ section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/grids.lua"
 
 t("void", "공허", "entity subtype")
 t("floor", "바닥", "entity type")
+t("rocks", "바위", "entity name")
 
 
 ------------------------------------------------
@@ -5016,7 +5026,7 @@ section "game/dlcs/tome-orcs/data/zones/tinker-master/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
 
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("old road", "오래된 길", "entity name")
 t("grass", "잔디", "entity subtype")
 t("bamboo wall", "대나무 벽", "entity name")
@@ -5026,6 +5036,7 @@ t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
 t("rock", "바위", "entity subtype")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
+t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
 
 
@@ -5106,6 +5117,7 @@ t("A massive hole in the Sunwall.", "태양의 장벽의 거대한 공동입니�
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/yeti-caves/grids.lua"
 
+t("icecave", "얼음 동굴", "entity subtype")
 t("wall", "벽", "entity type")
 
 

@@ -276,7 +276,7 @@ t("%s (#LIGHT_GREEN#%d%%#LAST# of a turn)", "%s (한 턴의 #LIGHT_GREEN#%d%%#LA
 t("Usage Speed: ", "사용 속도: ", "_t")
 t("Won't Break Stealth:  ", "은신을 해제하지 않음:  ", "_t")
 t("%sCooldown: ", "%s재사용 대기시간: ", "tformat")
-t("Fixed ", "고정됨 ", "_t")
+t("Fixed ", "고정된 ", "_t")
 t(" and ", "와 ", "_t")
 t("Is: ", "종류: ", "_t")
 t("Will Deactivate: ", "비활성화 됨: ", "_t")
@@ -488,6 +488,7 @@ t("Leave", "떠난다", "_t")
 t("Open", "연다", "_t")
 t("%s's %s", "%s 의 %s", "tformat")
 t("Diggable", "굴착 가능", "_t")
+t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#어떤 장치가 딸깍 하는 소리를 들었다.", "log")
 
 
 ------------------------------------------------
@@ -967,6 +968,7 @@ t("none", "없음", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/generator/actor/Arena.lua"
 
+t("giant crystal rat", "거대 수정 시궁쥐", "_t")
 t("Reaver", "약탈자", "_t")
 t("Ryal the Towering", "거탑 같은 라이알", "_t")
 t("Fryjia the Hailstorm", "우박폭풍의 프리지아", "_t")
@@ -1843,10 +1845,10 @@ t("%s (Roguelike)", "%s (로그라이크)", "tformat")
 t("%s (Exploration mode)", "%s (탐험)", "tformat")
 t("%s (Nightmare (Adventure) difficulty)", "%s (악몽 (모험) 난이도)", "tformat")
 t("%s (Nightmare (Roguelike) difficulty)", "%s (악몽 (로그라이크) 난이도)", "tformat")
-t("%s (Insane (Adventure) difficulty)", "%s (미친 (모험) 난이도)", "tformat")
-t("%s (Insane (Roguelike) difficulty)", "%s (미친 (로그라이크) 난이도)", "tformat")
-t("%s (Madness (Adventure) difficulty)", "%s (광기 (모험) 난이도)", "tformat")
-t("%s (Madness (Roguelike) difficulty)", "%s (광기 (로그라이크) 난이도)", "tformat")
+t("%s (Insane (Adventure) difficulty)", "%s (광기 (모험) 난이도)", "tformat")
+t("%s (Insane (Roguelike) difficulty)", "%s (광기 (로그라이크) 난이도)", "tformat")
+t("%s (Madness (Adventure) difficulty)", "%s (광란 (모험) 난이도)", "tformat")
+t("%s (Madness (Roguelike) difficulty)", "%s (광란 (로그라이크) 난이도)", "tformat")
 
 
 ------------------------------------------------
@@ -2087,7 +2089,7 @@ section "game/modules/tome/data/achievements/quests.lua"
 
 t("Baby steps", "걸음마", "achievement name")
 t("Completed ToME4 tutorial mode.", "ToME4의 튜토리얼을 완료했다.", "_t")
-t("Vampire crusher", "뱀파이어 분쇄자", "achievement name")
+t("Vampire crusher", "흡혈귀 분쇄자", "achievement name")
 t("Destroyed the Master in its lair of the Dreadfell.", "두려움의 영역에 있는 그의 본거지에서 탑의 주인을 파괴했다.", "_t")
 t("A dangerous secret", "위험한 비밀", "achievement name")
 t("Found the mysterious staff and told Last Hope about it.", "신비한 지팡이를 찾아내고 그것을 마지막 희망에 보고했다.", "_t")
@@ -2236,9 +2238,9 @@ t("Afflicted classes have been twisted by their association with evil forces.", 
 t("They can use these forces to their advantage, but at a cost...", "가진 힘을 스스로를 위해 사용할 수도 있지만, 그 대가는...", "_t")
 t("Cursed", "저주받은 자", "birth descriptor name")
 t("Affliction can run to the soul, and hatred can fill one's entire being. Overcome someone else's hated curse to know its dreaded meaning.", "고통은 영혼까지 번질 수 있고, 증오는 한 존재를 가득 채울 수 있습니다. 다른 이의 증오스러운 저주를 극복해 그 두려운 진의를 깨달으십시오.", "_t")
-t("Through ignorance, greed or folly the Cursed served some dark design and are now doomed to pay for their sins.", "무지, 탐욕, 혹은 어리석음으로 인해 저주받은 자들은 한때 어둠의 존재를 섬겼었고 결국 그 죄의 대가로 파멸을 맞이했습니다.", "_t")
+t("Through ignorance, greed or folly the Cursed served some dark design and are now doomed to pay for their sins.", "무지, 탐욕, 혹은 어리석음으로 인해, 저주받은 자들은 한때 어둠의 존재를 섬겼었고 결국 그 죄의 대가로 파멸을 맞이했습니다.", "_t")
 t("Their only master now is the hatred they carry for every living thing.", "이제 그들을 지배하는 것은 살아 있는 모든 것에 대한 증오 뿐입니다.", "_t")
-t("Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.", "다른 존재의 죽음으로부터 힘을 끌어내어 저주받은 자들은 무시무시한 전투 능력을 가집니다.", "_t")
+t("Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.", "저주받은 자들은 다른 존재의 죽음으로부터 힘을 끌어내어, 무시무시한 전투 능력을 가집니다.", "_t")
 t("Worse, any who approach the Cursed can be driven mad by their terrible aura.", "심지어 그들에게 다가가는 이들은 저주받은 자들이 내뿜는 끔찍한 기운에 홀려 미쳐버릴 수도 있습니다.", "_t")
 t("Their most important stats are: Strength and Willpower", "그들에게 가장 중요한 능력치는 힘과 의지입니다.", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +5 힘, +0 민첩, +0 체격", "_t")
@@ -2576,28 +2578,28 @@ t("Unique (fixed) bosses advance in bonus classes 30% faster", "유일 (고정) 
 t("Rare creatures are slightly more frequent", "희귀 등급의 적이 좀 더 자주 등장합니다.", "_t")
 t("Stairs can not be used for 3 turns after a kill.", "살해 후 3 턴 동안 계단 사용이 불가능합니다.", "_t")
 t("Player can earn Nightmare version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 악몽 난이도의 도전 과제를 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
-t("Insane", "미친", "birth descriptor name")
-t("Easy is for the weak! Normal is for the weak! Nightmare is too easy! Bring on the true pain!", "쉬움과 보통 난이도는 약해빠진 놈들을 위한 것이고, 악몽 난이도는 너무 쉽다! 진정한 고난을 내게 가저와!", "_t")
-t("#GOLD##{bold}#Insane mode#WHITE##{normal}#", "#GOLD##{bold}#미친 난이도#WHITE##{normal}#", "_t")
+t("Insane", "광기", "birth descriptor name")
+t("Easy is for the weak! Normal is for the weak! Nightmare is too easy! Bring on the true pain!", "쉬움과 보통 난이도는 약해빠진 놈들을 위한 것이고, 악몽 난이도는 너무 쉽다! 진정한 고난을 내게 가져와라!", "_t")
+t("#GOLD##{bold}#Insane mode#WHITE##{normal}#", "#GOLD##{bold}#광기 난이도#WHITE##{normal}#", "_t")
 t("Similar rules to Nightmare, but with more random bosses!", "대체적으로 악몽과 비슷하지만, 랜덤 보스가 더 많이 출현합니다!", "_t")
 t("All zone levels increased by 50% + 1 by the time Player reaches level 10", "플레이어가 레벨 10 에 도달할 때, 모든 지역의 레벨이 50% + 1 만큼 증가됩니다", "_t")
 t("All creature talent levels increased by 70%", "모든 개체의 기술 레벨이 70% 증가합니다", "_t")
-t("Unique (fixed) bosses advance in bonus classes 70% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 70% 빠릅니다.", "_t")
+t("Unique (fixed) bosses advance in bonus classes 70% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 70% 더 빠릅니다.", "_t")
 t("Stairs can not be used for 5 turns after a kill.", "살해 후 5 턴 동안 계단 사용이 불가능합니다.", "_t")
-t("Player can earn Insane version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 미친 난이도의 도전 과제를 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
-t("Madness", "광기", "birth descriptor name")
-t("Insane is for the weak! Bring on the true mind-shattering experience!", "미친 난이도도 너무 쉽다! 진정한 정신 붕괴를 내게 가저와라!", "_t")
-t("#GOLD##{bold}#Madness mode#WHITE##{normal}#", "#GOLD##{bold}#광기 난이도#WHITE##{normal}#", "_t")
-t("Absolutely unfair game setting. Prepare for the full wrath of DarkGod!", "지극히 불합리한 게임 난이도입니다. 다크갓의 분노를 목도하라!", "_t")
-t("All zone levels increased by 150% + 2 by the time Player reaches level 10", "플레이어가 레벨 10 에 도달할 때, 모든 지역의 레벨이 150% + 2 만큼 증가됩니다", "_t")
-t("All creature talent levels increased by 170%", "모든 개체의 기술 레벨이 170% 증가합니다%", "_t")
-t("Unique (fixed) bosses advance in bonus classes 170% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 170% 빠릅니다", "_t")
+t("Player can earn Insane version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 광기 난이도의 도전 과제를 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
+t("Madness", "광란", "birth descriptor name")
+t("Insane is for the weak! Bring on the true mind-shattering experience!", "광기 난이도도 너무 쉽다! 진정한 정신 붕괴를 내게 가져와라!", "_t")
+t("#GOLD##{bold}#Madness mode#WHITE##{normal}#", "#GOLD##{bold}#광란 난이도#WHITE##{normal}#", "_t")
+t("Absolutely unfair game setting. Prepare for the full wrath of DarkGod!", "지극히 불합리한 게임 난이도입니다. DarkGod의 진짜 분노를 목도하라!", "_t")
+t("All zone levels increased by 150% + 2 by the time Player reaches level 10", "플레이어가 레벨 10 에 도달할 때, 모든 지역의 레벨이 150% + 2 만큼 증가합니다", "_t")
+t("All creature talent levels increased by 170%", "모든 개체의 기술 레벨이 170% 증가합니다", "_t")
+t("Unique (fixed) bosses advance in bonus classes 170% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 170% 더 빠릅니다", "_t")
 t("All enemies have 200% more life", "모든 적의 생명력이 200% 증가됩니다", "_t")
 t("Rare creatures are far more frequent and random bosses start to appear", "희귀 등급의 적이 매우 자주 등장하고, 랜덤 보스가 나타나기 시작합니다.", "_t")
 t("Stairs can not be used for 9 turns after a kill.", "살해 후 9 턴 동안 계단 사용이 불가능합니다.", "_t")
-t("Player starts with 100 more life and 500 gold, but trust us, you'll need it!", "플레이어는 100 의 추가 생명력과 금화 500 을 들고 시작합니다. 우리를 믿으세요, 당신은 정말로 저것들이 필요할겁니다!", "_t")
+t("Player starts with 100 more life and 500 gold, but trust us, you'll need it!", "플레이어는 100 의 추가 생명력과 금화 500 을 들고 시작합니다. 우릴 믿으세요, 정말로 저것들이 필요할 겁니다!", "_t")
 t("Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is", "이제 플레이어는 사냥감이 되었습니다! 범위 내의 모든 적이 당신이 어디에 있는지 감지합니다.", "_t")
-t("Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 광기 난이도의 도전 과제를 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
+t("Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 광란 난이도의 도전 과제를 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
 t("Exploration", "탐험", "birth descriptor name")
 t("Exploration mode: Infinite lives (donator feature)", "탐험 모드: 목숨 무제한 (기부자 전용)", "_t")
 t("#GOLD##{bold}#Exploration mode#WHITE#", "#GOLD##{bold}#탐험 모드#WHITE#", "_t")
@@ -3226,7 +3228,7 @@ t("The people of Maj'Eyal: Humans, Halflings, Elves and Dwarves.", "마즈'에�
 t("The known world has been at relative peace for over one hundred years, and people are prospering again.", "이 세계는 100 년 이상동안 상대적으로 평화로웠고, 사람들은 다시 번영하고 있습니다.", "_t")
 t("You are an adventurer, setting out to find lost treasure and glory.", "당신은 모험가로, 잃어버린 보물들과 영광을 쫓습니다.", "_t")
 t("But what lurks in the shadows of the world?", "하지만 세계의 그림자 속에는 어떤 위협이 도사리고 있을까요?", "_t")
-t("Infinite Dungeon: The Neverending Descent", "무한 던전: 끝나지않는 하강", "_t")
+t("Infinite Dungeon: The Neverending Descent", "무한의 던전: 끝없는 하강", "_t")
 t("Ever deeper, never ending, no reprieve, keep descending. In ruins old, through barred gate, once riddle solved, find thy fate.", "더 깊은 곳으로, 절대로 끝나지 않으며, 그 어떤 유예도 없이, 끝임없이 내려가라. 오래된 폐허, 빗장문을 열고, 수수께끼가 풀리면, 그대의 운명을 찾을 지어다.", "_t")
 t("Play as your favorite race and class and venture into the infinite dungeon.", "당신이 가장 선호하는 종족과 직업으로 무한한 던전을 탐색합니다.", "_t")
 t("The only limit to how far you can go is your own skill!", "어디까지 도달할 수 있는지는 순전히 당신의 능력에 달렸습니다!", "_t")
@@ -6303,7 +6305,7 @@ t("% chance to summon an orc spirit", "% 확률로 오크 영혼을 불러냅니
 t("%s<%d%%%% orc summon chance>#LAST#", "%s<%d%%%% 오크 소환 확률>#LAST#", "tformat")
 t("%s<orc summon>#LAST#", "%s<오크 소환>#LAST#", "tformat")
 t("orc spirit", "오크 영혼", "_t")
-t("An orc clad in massive armour, wielding a huge axe.", "판금 갑옷과 거대한 도끼를 든 오크.", "_t")
+t("An orc clad in massive armour, wielding a huge axe.", "중무장을 갖춘 오크로, 거대한 도끼를 휘두룹니다.", "_t")
 t("Garkul Spirit", "가르쿨의 영혼", "_t")
 t("nightmare", "악몽", "_t")
 t("cursed miasma", "저주의 독기", "_t")
@@ -6671,7 +6673,7 @@ t("Suddenly it comes back to you. You remember long ago somebody told you about 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/snowstorm.lua"
 
-t("As you walk into the area you notice a huge snowstorm over your head. Beware!", "이 구역에 들어서자 엄청난 눈보라가 치고 있습니다. 조심하세요!", "_t")
+t("As you walk into the area you notice a huge snowstorm over your head. Beware!", "이 구역에 들어서자 엄청난 눈보라가 치고 있었습니다. 조심하세요!", "_t")
 t("Snowstorm", "눈보라", "_t")
 
 
@@ -6685,11 +6687,22 @@ t("%s (spellblaze aura)", "%s (마법폭발의 기운)", "tformat")
 ------------------------------------------------
 section "game/modules/tome/data/general/events/sub-vault.lua"
 
+t("way up (%s)", "올라가는 계단 (%s)", "tformat")
+t("#VIOLET# The stairway collapses completely as you ascend!", "#VIOLET# 계단을 다 오르자 계단이 완전히 무너졌다!", "log")
+t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# 낡은 계단을 오르자 더 무너졌다.", "log")
+t("Hidden Vault - %s", "비밀 볼트 - %s", "tformat")
+t("hidden vault", "비밀 볼트", "_t")
+t("Crumbling stairs lead down to something.", "무너지고 있는 계단으로, 아래쪽으로 갈 수 있습니다.", "_t")
+t("collapsing hidden vault", "무너지고 있는 비밀 볼트", "_t")
+t("collapsed hidden vault", "무너진 비밀 볼트", "_t")
+t("A collapsed stairway, leading down", "완전히 무너진 계단입니다.", "_t")
+t("nearly collapsed hidden vault", "거의 다 무너진 비밀 볼트", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/thunderstorm.lua"
 
+t("As you walk into the area you notice a huge thunderstorm over your head. Beware!", "이 구역에 들어서자 엄청난 번개폭풍이 치고 있었습니다. 조심하세요!", "_t")
 t("Thunderstorm", "뇌우", "_t")
 
 
@@ -6700,6 +6713,7 @@ t("grave", "묘지", "_t")
 t("Do you wish to disturb the grave?", "정말로 무덤을 훼손하겠습니까?", "_t")
 t("Grave", "무덤", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t("grave (opened)", "무덤 (열림)", "_t")
 t("You were not the first here: the corpse was turned into an undead.", "당신은 첫 손님이 아니다. 시체가 언데드로 변해 있다.", "log")
 t("There is nothing there.", "아무것도 없다.", "log")
 
@@ -6707,20 +6721,39 @@ t("There is nothing there.", "아무것도 없다.", "log")
 ------------------------------------------------
 section "game/modules/tome/data/general/events/weird-pedestals.lua"
 
+t("weird pedestal", "기괴한 받침대", "_t")
+t("Do you wish to inspect the pedestal?", "정말로 받침대를 조사하겠습니까?", "_t")
+t("inspected", "조사됨", "_t")
+t("inspecting", "조사 중", "_t")
+t("As you inspect it a shadow materializes near you, and suddenly it is no more a shadow!", "그것을 조사하자 근처에 그림자가 형성되었고, 갑자기 실체화되었습니다!", "_t")
+t("#rng# the Invoker", "부르는 자 #rng#", "_t")
+t("Die intruder!", "죽어라, 침입자!", "_t")
+t("He shall come!", "그분께서 오시리라!", "_t")
+t("He will consume all!", "그분께서 모든 것을 삼키시리라!", "_t")
+t("My life for His!", "내 목숨을 그분께!", "_t")
+t("You are dooooommmed!!", "넌 파아아아아멸했다!!", "_t")
+t("weird pedestal (glowing)", "기괴한 받침대 (빛남)", "_t")
+t("%s's soul is absorbed by the pedestal. A glowing orb appears.", "%s의 영혼이 받침대에 흡수되었다. 빛나는 구체가 나타났다.", "logSeen")
+t("#rng# the Bringer of Doom", "파멸의 사도 #rng#", "_t")
+t("Weird Pedestal", "기괴한 받침대", "_t")
+t("You hear a terrible voice saying 'Their lives are mine! I am coming!'", "끔찍한 목소리가 들렸다, '놈들의 목숨은 내 것이니라! 내가 간다!'", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/events/whistling-vortex.lua"
 
+t("%s (whistling vortex)", "%s (휘몰아치는 소용돌이)", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/autumn_forest.lua"
 
+t("autumn grass", "가을 초목", "entity name")
+t("autumn tree", "가을 나무", "entity name")
 t("wall", "벽", "entity type")
 t("tall thick tree", "아름드리나무", "entity name")
 t("old road", "오래된 길", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("autumn_grass", "가을 초목", "entity subtype")
 t("floor", "바닥", "entity type")
@@ -6732,22 +6765,25 @@ section "game/modules/tome/data/general/grids/basic.lua"
 
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("way to the next level", "다음 구역으로의 길", "entity name")
 t("door", "문", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("glass wall", "유리 벽", "entity name")
+t("glass door", "유리 문", "entity name")
+t("open glass door", "열려 있는 유리 문", "entity name")
 t("sealed door", "봉인된 문", "entity name")
-t("This door seems to have been sealed off. You need to find a way to open it.", "이 문은 봉인되지 않았지만, 열리지 않습니다. 문을 열 방법을 찾아봐야 할 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You need to find a way to open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 방법을 찾아봐야 할 것 같습니다.", "_t")
 t("#VIOLET#You hear a door opening.", "#VIOLET#문이 열리는 소리가 들립니다.", "log")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
-t("This door seems to have been sealed off. You need to find a way to close it.", "이 문은 봉인되지 않았지만, 닫히지 않습니다. 문을 닫을 방법을 찾아봐야 할 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You need to find a way to close it.", "이 문은 봉인된 것으로 보입니다. 문을 닫을 방법을 찾아봐야 할 것 같습니다.", "_t")
 t("#VIOLET#You hear a door closing.", "#VIOLET#문이 닫히는 소리가 들립니다.", "log")
 t("floor", "바닥", "entity subtype")
 t("lever", "레버", "entity type")
 t("huge lever", "거대한 레버", "entity name")
+t("bool", "이진 장치", "entity subtype")
 t("trigger", "작동 장치", "entity type")
 
 
@@ -6755,31 +6791,37 @@ t("trigger", "작동 장치", "entity type")
 section "game/modules/tome/data/general/grids/bone.lua"
 
 t("sand", "모래", "entity name")
+t("bone walls", "뼈 벽", "entity name")
 t("door", "문", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("sealed door", "봉인된 문", "entity name")
-t("This door seems to have been sealed off. You need to find a way to open it.", "이 문은 봉인되지 않았지만, 열리지 않습니다. 문을 열 방법을 찾아봐야 할 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You need to find a way to open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 방법을 찾아봐야 할 것 같습니다.", "_t")
 t("#VIOLET#You hear a door opening.", "#VIOLET#문이 열리는 소리가 들립니다.", "log")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
-t("This door seems to have been sealed off. You need to find a way to close it.", "이 문은 봉인되지 않았지만, 닫히지 않습니다. 문을 닫을 방법을 찾아봐야 할 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You need to find a way to close it.", "이 문은 봉인된 것으로 보입니다. 문을 닫을 방법을 찾아봐야 할 것 같습니다.", "_t")
 t("#VIOLET#You hear a door closing.", "#VIOLET#문이 닫히는 소리가 들립니다.", "log")
 t("lever", "레버", "entity type")
 t("huge lever", "거대한 레버", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#어떤 장치가 딸깍 하는 소리를 들었다.", "log")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("way to the next level", "다음 구역으로의 길", "entity name")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("bone", "뼈", "entity subtype")
 t("floor", "바닥", "entity type")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/burntland.lua"
 
 t("wall", "벽", "entity type")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("burnt tree", "불탄 나무", "entity name")
+t("burnt ground", "불탄 땅", "entity name")
+t("corrupted altar", "타락한 제단", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("burnt", "불탄", "entity subtype")
 t("floor", "바닥", "entity type")
@@ -6790,12 +6832,16 @@ t("way to the next level", "다음 구역으로의 길", "entity name")
 section "game/modules/tome/data/general/grids/cave.lua"
 
 t("cave floor", "동굴 바닥", "entity name")
+t("cave walls", "동굴 벽", "entity name")
+t("This rock is loose, you think you can move it away.", "이 바위는 흔들리고 있고, 옮길 수 있을 것 같습니다.", "_t")
 t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
+t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
@@ -6807,6 +6853,7 @@ t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
@@ -6828,8 +6875,9 @@ t("tall thick tree", "아름드리나무", "entity name")
 t("flower", "꽃", "entity name")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("This rock is loose, you think you can move it away.", "이 바위는 흔들리고 있고, 옮길 수 있을 것 같습니다.", "_t")
 t("old road", "오래된 길", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("grass", "잔디", "entity subtype")
@@ -6844,6 +6892,7 @@ t("open door", "열린 문", "entity name")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
 t("sealed door", "봉인된 문", "entity name")
+t("This door seems to be sealed.", "이 문은 봉인된 것 같습니다.", "_t")
 
 
 ------------------------------------------------
@@ -6851,46 +6900,57 @@ section "game/modules/tome/data/general/grids/gothic.lua"
 
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("way to the next level", "다음 구역으로의 길", "entity name")
 t("door", "문", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("sealed door", "봉인된 문", "entity name")
-t("This door seems to have been sealed off. You need to find a way to open it.", "이 문은 봉인되지 않았지만, 열리지 않습니다. 문을 열 방법을 찾아봐야 할 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You need to find a way to open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 방법을 찾아봐야 할 것 같습니다.", "_t")
 t("#VIOLET#You hear a door opening.", "#VIOLET#문이 열리는 소리가 들립니다.", "log")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
-t("This door seems to have been sealed off. You need to find a way to close it.", "이 문은 봉인되지 않았지만, 닫히지 않습니다. 문을 닫을 방법을 찾아봐야 할 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You need to find a way to close it.", "이 문은 봉인된 것으로 보입니다. 문을 닫을 방법을 찾아봐야 할 것 같습니다.", "_t")
 t("#VIOLET#You hear a door closing.", "#VIOLET#문이 닫히는 소리가 들립니다.", "log")
 t("floor", "바닥", "entity subtype")
 t("lever", "레버", "entity type")
 t("huge lever", "거대한 레버", "entity name")
+t("bool", "이진 장치", "entity subtype")
 t("trigger", "작동 장치", "entity type")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/ice.lua"
 
+t("icy floor", "얼음 바닥", "entity name")
 t("floor", "바닥", "entity type")
 t("ice", "얼음", "entity subtype")
+t("frozen water", "얼어붙은 물", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/icecave.lua"
 
+t("ice cave floor", "얼음 동굴 바닥", "entity name")
+t("ice cave walls", "얼음 동굴 벽", "entity name")
+t("breakable ice wall", "부술 수 있는 얼음 벽", "entity name")
 t("wall", "벽", "entity type")
+t("broken ice wall", "부서진 얼음 벽", "entity name")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
+t("icecave", "얼음 동굴", "entity subtype")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/jungle.lua"
 
+t("mud", "진흙", "entity subtype")
+t("muddy floor", "진흙 바닥", "entity name")
 t("wall", "벽", "entity type")
 t("tree", "나무", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("grass", "잔디", "entity subtype")
@@ -6900,7 +6960,9 @@ t("way to the next level", "다음 구역으로의 길", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/jungle_hut.lua"
 
+t("bamboo floor", "대나무 바닥", "entity subtype")
 t("floor", "바닥", "entity type")
+t("bamboo hut floor", "대나무 오두막 바닥", "entity name")
 t("bamboo wall", "대나무 벽", "entity name")
 t("door", "문", "entity name")
 t("bamboo hut", "대나무 오두막", "entity subtype")
@@ -6916,19 +6978,24 @@ t("#Source# burns #Target#!", "#Source1# #Target3# 불태웠다!", "logCombat")
 t("lava", "용암", "entity subtype")
 t("wall", "벽", "entity type")
 t("lava wall", "용암 벽", "entity name")
+t("molten_lava", "용암", "entity subtype")
+t("molten lava", "용암", "entity name")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
+t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/malrok_walls.lua"
 
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
 t("door", "문", "entity name")
+t("rocks", "바위", "entity subtype")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
 
@@ -6936,9 +7003,14 @@ t("open door", "열린 문", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/mountain.lua"
 
+t("rocky ground", "바위 바닥", "entity name")
+t("rocky mountain", "바위 산", "entity name")
 t("wall", "벽", "entity type")
+t("snowy tree", "눈 덮인 나무", "entity name")
+t("cliffside", "절벽", "entity name")
 t("rockwall", "바위 장벽", "entity type")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("hard rocky mountain", "험한 바위 산", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("rock", "바위", "entity subtype")
@@ -6948,32 +7020,49 @@ t("way to the next level", "다음 구역으로의 길", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/psicave.lua"
 
+t("psitech floor", "염동공학 바닥", "entity name")
+t("psitech walls", "염동공학 벽", "entity name")
+t("psitech door (open)", "염동공학 문 (열림)", "entity name")
 t("wall", "벽", "entity type")
+t("psitech door", "염동공학 문", "entity name")
+t("This door seems to be sealed.", "이 문은 봉인된 것 같습니다.", "_t")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
+t("psitech", "염동공학", "entity subtype")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/sand.lua"
 
+t("unstable sand tunnel", "불안정한 모래 터널", "_t")
+t("Loose sand is steadily filling this void, which could collapse suddenly and completely.", "계속해서 모래가 흘러내려 이 공간을 채우고 있습니다. 예고 없이 완전히 무너져 내릴 수도 있습니다.", "_t")
+t("The unstable sand tunnel collapses!", "불안정한 모래 터널이 무너졌다!", "logSeen")
+t("You are crushed by the collapsing tunnel! You suffocate!", "무너지는 터널에 깔렸다! 숨을 쉴 수가 없다!", "logPlayer")
+t("was buried alive", "산 채로 파묻혔습니다.", "_t")
+t("sandwall", "모래 벽", "entity name")
 t("wall", "벽", "entity type")
 t("tree", "나무", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("way to the next level", "다음 구역으로의 길", "entity name")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("sand", "모래", "entity subtype")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/sanddunes.lua"
 
+t("sand dune", "모래 언덕", "entity name")
+t("dune", "모래 언덕", "entity type")
+t("solidified sand dune", "굳어진 모래 언덕", "entity name")
 t("wall", "벽", "entity type")
 t("tree", "나무", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("sand", "모래", "entity subtype")
@@ -6983,11 +7072,15 @@ t("way to the next level", "다음 구역으로의 길", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/slime.lua"
 
+t("slime floor", "슬라임 바닥", "entity name")
+t("slime wall", "슬라임 벽", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("floor", "바닥", "entity type")
 t("next level", "다음 구역", "entity name")
+t("slime door", "슬라임 문", "entity name")
 t("slime", "슬라임", "entity subtype")
 t("wall", "벽", "entity type")
+t("open slime door", "열려 있는 슬라임 문", "entity name")
 
 
 ------------------------------------------------
@@ -6995,21 +7088,22 @@ section "game/modules/tome/data/general/grids/slimy_walls.lua"
 
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("way to the next level", "다음 구역으로의 길", "entity name")
 t("door", "문", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("sealed door", "봉인된 문", "entity name")
-t("This door seems to have been sealed off. You need to find a way to open it.", "이 문은 봉인되지 않았지만, 열리지 않습니다. 문을 열 방법을 찾아봐야 할 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You need to find a way to open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 방법을 찾아봐야 할 것 같습니다.", "_t")
 t("#VIOLET#You hear a door opening.", "#VIOLET#문이 열리는 소리가 들립니다.", "log")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
-t("This door seems to have been sealed off. You need to find a way to close it.", "이 문은 봉인되지 않았지만, 닫히지 않습니다. 문을 닫을 방법을 찾아봐야 할 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You need to find a way to close it.", "이 문은 봉인된 것으로 보입니다. 문을 닫을 방법을 찾아봐야 할 것 같습니다.", "_t")
 t("#VIOLET#You hear a door closing.", "#VIOLET#문이 닫히는 소리가 들립니다.", "log")
 t("floor", "바닥", "entity subtype")
 t("lever", "레버", "entity type")
 t("huge lever", "거대한 레버", "entity name")
+t("bool", "이진 장치", "entity subtype")
 t("trigger", "작동 장치", "entity type")
 
 
@@ -7021,7 +7115,7 @@ t("winter tree", "겨울 나무", "entity name")
 t("wall", "벽", "entity type")
 t("tall thick tree", "아름드리나무", "entity name")
 t("old road", "오래된 길", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("way to the previous level", "이전 구역으로의 길", "entity name")
 t("floor", "바닥", "entity type")
 t("snowy_grass", "눈 덮인 초목", "entity subtype")
@@ -7031,34 +7125,49 @@ t("way to the next level", "다음 구역으로의 길", "entity name")
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/underground_dreamy.lua"
 
+t("creep", "군생", "entity subtype")
+t("mushroom creep", "버섯 군생", "entity name")
+t("underground thick vegetation", "울창한 지하 초목", "entity name")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("This rock is loose, you think you can move it away.", "이 바위는 흔들리고 있고, 옮길 수 있을 것 같습니다.", "_t")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/underground_gloomy.lua"
 
+t("creep", "군생", "entity subtype")
+t("mushroom creep", "버섯 군생", "entity name")
+t("underground thick vegetation", "울창한 지하 초목", "entity name")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("This rock is loose, you think you can move it away.", "이 바위는 흔들리고 있고, 옮길 수 있을 것 같습니다.", "_t")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/grids/underground_slimy.lua"
 
+t("creep", "군생", "entity subtype")
+t("mushroom creep", "버섯 군생", "entity name")
+t("underground thick vegetation", "울창한 지하 초목", "entity name")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("This rock is loose, you think you can move it away.", "이 바위는 흔들리고 있고, 옮길 수 있을 것 같습니다.", "_t")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
@@ -7069,6 +7178,8 @@ t("rift", "균열", "entity subtype")
 t("wall", "벽", "entity type")
 t("crack in spacetime", "시공간의 균열", "entity name")
 t("floor", "바닥", "entity type")
+t("rocks", "바위", "entity subtype")
+t("floating rocks", "떠다니는 바위", "entity name")
 
 
 ------------------------------------------------
@@ -7079,8 +7190,13 @@ t("door", "문", "entity name")
 t("underwater", "수중", "entity subtype")
 t("wall", "벽", "entity type")
 t("open door", "열린 문", "entity name")
+t("underwater air bubble", "수중 공기방울", "entity name")
+t("#LIGHT_BLUE#Replenishes air level when standing inside.#LAST#", "#LIGHT_BLUE#위에 서 있으면 호흡 수치를 보충합니다.#LAST#", "_t")
+t("#AQUAMARINE#The air bubbles are depleted!", "#AQUAMARINE#공기방울을 다 썼다!", "logSeen")
 t("deep water", "깊은 물", "entity name")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("poisoned deep water", "독성 깊은 물", "entity name")
+t("#Source# poisons #Target#!", "#Source1# #Target3# 중독시켰다!", "logCombat")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("floor", "바닥", "entity type")
 t("water", "물", "entity subtype")
@@ -7566,12 +7682,14 @@ t("A strange black blob on the dungeon floor; through it you seem to be able to 
 section "game/modules/tome/data/general/npcs/lich.lua"
 
 t("undead", "언데드", "entity type")
-t("Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "역생의 신비에 통달한 강력한 주문 시전자만이 리치가 될 수 있습니다. 영겁의 시간동안 세상에 악행을 퍼뜨리는 저주를 받았고, 숨을 쉬거나 영역을 침범하는 모든 이들에게 증오를 풀어넣습니다. 유감스럽게도 당신도 그 중 하나입니다.", "_t")
+t("Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "역생의 신비에 통달한 강력한 마법사만이 리치가 될 수 있습니다. 영겁의 시간동안 세상에 악행을 퍼뜨리는 저주를 받았고, 숨을 쉬거나 영역을 침범하는 모든 이들에게 증오를 풀어넣습니다. 유감스럽게도 당신도 그 중 하나입니다.", "_t")
 t("lich", "리치", "entity name")
 t("Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "영생을 손에 넣으려한 이 존재들은 영생을 위해 역생이 삶의 즐거움을 앗아가는 것을 허락했습니다. 이제 이 강력한 주문 시전자들은 생명을 파괴하려 합니다.", "_t")
 t("ancient lich", "고대의 리치", "entity name")
 t("archlich", "고위 리치", "entity name")
+t("Blacker than the deepest night, this cold cruel form of darkness approaches.  Long ago it laid aside its mortality, but it has not forgotten its power; rather, its malice and hate have bent this undead entity on the destruction of all things living.", "칠흑의 밤보다 검은, 이 어둠에 감싸인 차갑고 냉혹한 존재가 다가옵니다.  오래 전, 필멸성을 던저버렸지만, 힘을 잃어버리진 않았습니다. 오히려 악의와 증오가 이 언데드를 모든 생명체의 파괴로 이끕니다.", "_t")
 t("blood lich", "피의 리치", "entity name")
+t("The seething, pumping, disembodied blood of a horrendously powerful necromancer. To strike it is to bathe in the rivers of the Fearscape itself.", "강력한 강령술사의 몸을 벗어난 들끓으며, 고동치는 피입니다. 이 존재를 공격하는 것은 공포의 구역를 통과하는 강물, 그 자체에게 세례를 받는 것과 마찬가질 겁니다.", "_t")
 
 
 ------------------------------------------------
@@ -7579,6 +7697,10 @@ section "game/modules/tome/data/general/npcs/losgoroth.lua"
 
 t("elemental", "정령", "entity type")
 t("void", "공허", "entity subtype")
+t("Losgoroth are mighty void elementals, native to the void between the stars. They are rarely seen on a planet's surface.", "로스고로스는 강력한 공허 정령들로, 별들 사이의 공허에 존재합니다. 행성의 표면에서 발견되는 것은 조금 드문일입니다.", "_t")
+t("losgoroth", "로스고로스", "entity name")
+t("manaworm", "마나 벌레", "entity name")
+t("Manaworms are losgoroth which feed on the mana of arcane users. If they ever come in contact with a spellcaster, they latch on and start draining mana away.", "마나벌레는 주문 시전자의 마나를 빨아먹는 로스고로스입니다. 마나 벌레가 주문 시전자와 접촉하게 된다면, 주문 시전자를 꽉 조이고 마나를 흡수하기 시작할 것입니다.", "_t")
 
 
 ------------------------------------------------
@@ -7586,8 +7708,26 @@ section "game/modules/tome/data/general/npcs/major-demon.lua"
 
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
+t("dolleg", "돌레그", "entity name")
+t("A monstrous demon, covered in acidic thorns.", "괴물같은 악마로, 산성 가시로 뒤덮혀있습니다.", "_t")
+t("dúathedlen", "듀아세들렌", "entity name")
+t("Under a shroud of darkness you discern an evil shape.", "어둠의 장막 아래의 악의 가득한 형상이 어렴풋이 보입니다.", "_t")
+t("uruivellas", "우뤼벨라스", "entity name")
+t([[This demon would look like a minotaur, if a minotaur had a fiery aura surrounding it and horns all over its body.
+Oh, and it is twice as big, too.]], [[이 악마는 미노타우르스같지만, 꼭 화염의 기운에 둘러싸이고, 전신에 뿔이 돋아난 모습을 하고있습니다.
+아, 그리고 2 배 정도 거대합니다.]], "_t")
+t("thaurhereg", "싸울헤레그", "entity name")
+t("This terrible demon is covered in blood, which flows *on* its skin in ever-changing patterns that disturb you simply when looking at it.", "이 끔찍한 악마는 피부 위를 변화무쌍하게 흐르는 피로 뒤덮혀있어, 보기만해도 집중이 흐려집니다.", "_t")
 t("daelach", "댈라크", "entity name")
+t([[You can only guess at the real shape of this demon. Its body is surrounded by a cloud of fiery darkness.
+It moves swiftly toward you, casting terrible spells and swinging its weapons at you.]], [[이 악마의 진정한 모습이 의문스럽습니다. 이 악마의 육체는 불타는 어둠의 연기에 둘러싸여 있습니다.
+당신에게로 빠르게 접근해, 끔찍한 주문을 시전하고, 무기를 휘두를 것입니다.]], "_t")
+t("champion of Urh'Rok", "울흐'록의 대전사", "entity name")
+t("One of Urh'Rok's own champions. A thousand nightmares made flesh and screaming steel tower before you in the form of a massive, armored humanoid.", "울흐'록의 대전사 중 하나로, 당신 앞에 우뚝 선 거대한 살점과 비명지르는 강철의 존재는 천 가지 악몽으로 이루어저 있습니다.", "_t")
+t("forge-giant", "대장간 거인", "entity name")
+t("A burning giant wielding a forge hammer of the underworld in each hand -- weapons imbued by Urh'Rok himself with the power to crush and shape felsteel. Enter their range at your peril.", "양 손에 지하세계의 대장장이 망치를 든 불타는 거인으로, 울흐록이 직접 그 망치에 규장철을 가공하고, 부술 힘을 불어넣었습니다. 그 망치 사이에 끼인다면 분명 엄청나게 위험할 겁니다.", "_t")
 t("Khulmanar, General of Urh'Rok", "쿨마나르, 울흐'록의 장군", "entity name")
+t("This massive form, sheathed in dark flames, stands tall above a legion of lesser demons. In his hands he holds a massive blackened battleaxe, flames dancing around the blades.", "하급 악마들의 군단 앞에 어두운 화염에 감싸인 거대한 존재가 서있습니다. 그 손에는 불에 그슬린, 거대한 전투 도끼를 들고있으며, 그 도끼날 위에서 화염이 춤을 춥니다.", "_t")
 
 
 ------------------------------------------------
@@ -7595,7 +7735,12 @@ section "game/modules/tome/data/general/npcs/minor-demon.lua"
 
 t("demon", "악마", "entity type")
 t("minor", "하위", "entity subtype")
+t("fire imp", "화염 임프", "entity name")
+t([[A gaunt vaguely humanoid shape featuring unadorned grey leathery skin. Its arms and legs seem somehow too long and it stands tall, projecting an ominous shadow even in darkness.
+Its glowing red eyes shine with both cruelty and a deep frightening intellect.]], [[삐쩍마른 인간의 형상을 한 악마로 특징없는 회색 피부를 갖고있다. 팔다리는 아주 길어, 우뚝선 채로 어둠 속에서 그림자를 뿜어냅니다.
+악마의 빛나는 두 눈은 잔인함과 두려운 지성으로 번뜩입니다.]], "_t")
 t("quasit", "콰짓", "entity name")
+t("A small, heavily armoured demon, rushing toward you.", "작고, 중장갑을 두른 악마로 당신에게 달려옵니다.", "_t")
 
 
 ------------------------------------------------
@@ -7604,13 +7749,27 @@ section "game/modules/tome/data/general/npcs/minotaur.lua"
 t("giant", "거인", "entity type")
 t("minotaur", "미노타우르스", "entity name")
 t("It is a cross between a human and a bull.", "황소와 인간의 혼종입니다.", "_t")
+t("maulotaur", "마울로타우르스", "entity name")
+t("A belligerent minotaur with a destructive magical arsenal, and armed with a hammer.", "파괴적인 마법과 망치로 무장한 호전적인 미노타우르스입니다 .", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/molds.lua"
 
 t("immovable", "부동생물", "entity type")
+t("A strange growth on the dungeon floor.", "던전 바닥에 피어난 이상하게 생긴 곰팡이입니다.", "_t")
+t("grey mold", "회색 곰팡이", "entity name")
+t("A strange grey growth on the dungeon floor.", "던전 바닥에 피어난 이상하게 생긴 회색 곰팡이입니다.", "_t")
+t("brown mold", "갈색 곰팡이", "entity name")
+t("A strange brown growth on the dungeon floor.", "던전 바닥에 피어난 이상하게 생긴 갈색 곰팡이입니다.", "_t")
+t("shining mold", "빛나는 곰팡이", "entity name")
+t("A strange luminescent growth on the dungeon floor.", "던전 바닥에 피어난 이상하게 생긴 빛나는 곰팡이입니다.", "_t")
+t("green mold", "초록 곰팡이", "entity name")
+t("A strange sickly green growth on the dungeon floor.", "던전 바닥에 피어난 이상하게 생긴 끈적이는 초록 곰팡이입니다.", "_t")
+t("molds", "곰팡이", "entity subtype")
 t("undead", "언데드", "entity type")
+t("Z'quikzshl the skeletal mold", "해골 곰팡이 즈'퀴크즈쉴", "entity name")
+t("Steeped in fungal malevolence, this mold refused to die.  How a mold becomes a skeleton, though, is beyond you.  Are those its own bones, or the bones of hapless adventurers?", "균류의 악의로 둘러싸인, 이 곰팡이는 죽기를 거부하고 있습니다.  하지만 곰팡이가 어떻게 해골로 변했는지는 아무리 생각해도 상상하기 힘듭니다.  해골이 된 곰팡이일까요, 아니면 불운한 모험가의 해골일까요?", "_t")
 
 
 ------------------------------------------------
@@ -7618,8 +7777,15 @@ section "game/modules/tome/data/general/npcs/multihued-drake.lua"
 
 t("dragon", "용", "entity type")
 t("multihued", "다색", "entity subtype")
+t("multi-hued drake hatchling", "다색 드레이크 해츨링", "entity name")
 t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
+t("multi-hued drake", "다색 드레이크", "entity name")
+t("A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "성년 다색 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
+t("greater multi-hued wyrm", "다색 용", "entity name")
+t("An old and powerful multi-hued drake, armed with many deadly breath weapons and nasty claws.", "늙고 강력한 다색 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 t("Ureslak the Prismatic", "다색의 우르슐락", "entity name")
+t("A huge multi-hued drake. It seems to shift color rapidly.", "거대한 다색 드레이크로, 비늘의 색깔이 빠르게 변화합니다.", "_t")
+t("#YELLOW#%s's skin turns %s!", "#YELLOW#%s의 비늘이 %s 변한다!", "logSeen", nil, {[2]="으로"})
 
 
 ------------------------------------------------
@@ -7634,6 +7800,12 @@ section "game/modules/tome/data/general/npcs/naga.lua"
 
 t("humanoid", "인간형", "entity type")
 t("naga", "나가", "entity subtype")
+t("naga myrmidon", "나가 미르미돈", "entity name")
+t("Before you stands a tall figure -- a very tall figure, propped high by a thick serpent's tail in place of where his legs should rightly be. His torso is human-like, with bulging muscles beneath fitted armour, and large hands gripping a fiercely sharp trident. He glares at you with dark intensity, like a wolf about to pounce on unsuspecting prey.", "당신 앞에 커다란 형상이 서있습니다 -- 마땅히 다리가 있어야 할 대신 굵은 뱀 꼬리가 나있어, 이 거대한 존재의 육체를 떠받히고 있습니다. 그 몸통은 인간의 몸통과 비슷하며, 딱 맞는 갑옷 밑으로 울룩불룩한 근육이 보입니다. 또한 커다란 두 손은 험악하게 생긴 날카로운 삼지창을 쥐고 있습니다. 그는 마치 순진한 양을 덮치려는 늑대처럼, 어둡고 강렬한 눈빛으로 당신을 응시합니다.", "_t")
+t("naga tide huntress", "나가 파도 사냥꾼", "entity name")
+t("Though the sharp point of an arrow pointed steadily at your head is of concern, more unnerving is the creature that wields it: a slim and lithe woman from the waist up, but a terrifying giant serpent beneath, her tail stretching for several feet behind her. Her eyes turn cold and ice seems to magically condense on the tip of her barbed arrow. Suddenly it is of concern again.", "물론 날카로운 화살촉이 당신의 머리를 노리고 있지만, 더욱 불안에 떨게 하는 것은 화살을 들고있는 생명체입니다. 늘씬한 몸매의 여성이지만, 허리 아래부터는 공포스러운 거대한, 1 미터 가까이되는 뱀 꼬리가 나있습니다. 그녀가 차가운 눈빛으로 쏘아보자, 쐐기 화살의 끝부분에 마법적인 얼음이 맺히는 것 같습니다.  또 다시 불안감이 엄습합니다.", "_t")
+t("naga psyren", "나가 사이렌", "entity name")
+t("Such a mix of enchanting beauty and revolting horror you have never before seen combined. Above, a beautiful, ethereal woman, of scant form and entrancing grace. Below, the thick, smooth scales of a snake, its stretched tail gently waving back and forth in the air behind her. The movement is eye-catching and hypnotic, and whilst you watch a mysterious smile plays across her seductive lips.", "전에 본 적 없는 매력적인 아름다움과 혐오스러운 공포의 융합으로, 허리 위로는 아름다운, 천상에서 온 것 같은 여성이 고귀한 자태와 매혹적인 우아함을 뽐내고 있지만, 그 아래는 두껍고 부드러운 뱀 꼬리가 그녀의 등 뒤에서 앞 뒤로 흔들립니다. 그녀의 움직임은 눈길을 사로잡고, 몽환적이며, 그녀의 신비로운 미소는 매혹적인 입술을 가로질러 퍼집니다.", "_t")
 
 
 ------------------------------------------------
@@ -7641,13 +7813,47 @@ section "game/modules/tome/data/general/npcs/ogre.lua"
 
 t("giant", "거인", "entity type")
 t("ogre", "오우거", "entity subtype")
+t("ogre guard", "오우거 보초", "entity name")
+t("A maul-wield ogre. Ready to CRUSH!", "망치를 든 오우거입니다. 박살낼 준비가 되었습니다!", "_t")
+t("ogre warmaster", "오우거 전쟁사령관", "entity name")
+t("A master of combat, she is impatient to test her newfound skills.", "전투의 달인으로, 그녀는 새로 익힌 기술을 어서 빨리 시험해보고 싶어합니다.", "_t")
+t("ogre mauler", "오우거 둔기전사", "entity name")
+t("Crush! Destroy! Maim!", "때리고! 부수고! 파괴한다!", "_t")
+t("ogre pounder", "오우거 무투가", "entity name")
+t("This ogre closes in fast on you, arms open for the hug of death.", "이 오우거는 당신에게 빠르게 접근해옵니다. 죽음의 포옹을 안겨주기 위해 두 팔을 벌리고있습니다.", "_t")
 t("ogre rune-spinner", "오우거 룬 방적공", "entity name")
+t("A towering ogre guard, her skin covered in runes and arcane designs.", "우뚝 선 오우거 보초로, 그녀의 피부는 룬과 마법의 문양으로 뒤덮혀있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/ooze.lua"
 
+t("oozes", "점액", "entity subtype")
 t("vermin", "해충", "entity type")
+t("It's colorful and it's oozing.", "다양한 색채를 가졌고, 끈적이며 흐릅니다.", "_t")
+t("green ooze", "초록 점액", "entity name")
+t("It's green and it's oozing.", "초록색이며, 끈적이며 흐릅니다.", "_t")
+t("red ooze", "빨간 점액", "entity name")
+t("It's red and it's oozing.", "빨강색이며, 끈적이며 흐릅니다.", "_t")
+t("blue ooze", "파란 점액", "entity name")
+t("It's blue and it's oozing.", "파란색이며, 끈적이며 흐릅니다.", "_t")
+t("white ooze", "하얀 점액", "entity name")
+t("It's white and it's oozing.", "하얀색이며, 끈적이며 흐릅니다.", "_t")
+t("yellow ooze", "노란 점액", "entity name")
+t("It's yellow and it's oozing.", "노란색이며, 끈적이며 흐릅니다.", "_t")
+t("black ooze", "검은 점액", "entity name")
+t("It's black and it's oozing.", "검은색이며, 끈적이며 흐릅니다.", "_t")
+t("gelatinous cube", "젤라틴 큐브", "entity name")
+t([[It is a strange, vast gelatinous structure that assumes cubic proportions as it lines all four walls of the corridors it patrols.
+Through its transparent jelly structure you can see treasures it has engulfed, and a few corpses as well.]], [[매우 기이하고하고, 거대한 젤라틴 구조물로, 정육면체의 형상을 취하고 있습니다. 네 방향의 젤라틴 벽으로 주위를 순찰합니다.
+투명한 젤리 구조물 안으로 갖은 보물들이 보입니다. 시체도 몇 구 있네요.]], "_t")
+t("crimson ooze", "핏빛 점액", "entity name")
+t("It's reddish and it's oozing.", "진홍색이며, 끈적이며 흐릅니다.", "_t")
+t("brittle clear ooze", "불안정한 투명 점액", "entity name")
+t("It's translucent and it's oozing.", "반투명하며, 끈적이며 흐릅니다.", "_t")
+t("slimy ooze", "끈적이는 점액", "entity name")
+t("poison ooze", "독성 점액", "entity name")
+t("It's very slimy and it's oozing.", "매우 끈적이고, 느리게 움직입니다.", "_t")
 
 
 ------------------------------------------------
@@ -7655,6 +7861,12 @@ section "game/modules/tome/data/general/npcs/orc-gorbat.lua"
 
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
+t("orc summoner", "오크 소환사", "entity name")
+t("orc grand summoner", "오크 고위 소환사", "entity name")
+t("A fierce orc attuned to the wilds.", "자연의 힘을 불러내는 무시무시한 오크입니다.", "_t")
+t("A fierce soldier-orc highly trained in the discipline of dragons.", "용의 규율 속에서 고도로 훈련받은 무시무시한 군인 오크입니다.", "_t")
+t("orc mage-hunter", "오크 마법사 사냥꾼", "entity name")
+t("An orc clad in massive armour. Magic seems to die down all around him.", "중무장을 갖춘 오크로, 마법의 힘은 그의 주변에서 모두 사멸해가는 것 같습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7662,7 +7874,12 @@ section "game/modules/tome/data/general/npcs/orc-grushnak.lua"
 
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
-t("An orc clad in massive armour, wielding a huge axe.", "판금 갑옷과 거대한 도끼를 든 오크.", "_t")
+t("orc fighter", "오크 전사", "entity name")
+t("orc elite fighter", "오크 정예 전사", "entity name")
+t("An orc clad in massive armour, wielding a shield and a deadly axe.", "중무장을 갖춘 오크로, 방패와 치명적인 도끼를 들고 있습니다.", "_t")
+t("orc berserker", "오크 광전사", "entity name")
+t("orc elite berserker", "오크 정예 광전사", "entity name")
+t("An orc clad in massive armour, wielding a huge axe.", "중무장을 갖춘 오크로, 거대한 도끼를 휘두룹니다.", "_t")
 
 
 ------------------------------------------------
@@ -7670,6 +7887,12 @@ section "game/modules/tome/data/general/npcs/orc-rak-shor.lua"
 
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
+t("orc necromancer", "오크 강령술사", "entity name")
+t("An orc dressed in black robes. He mumbles in a harsh tongue.", "검은 로브를 입은 오크로, 거친 목소리로 중얼거립니다.", "_t")
+t("orc blood mage", "오크 혈마법사", "entity name")
+t("An orc dressed in blood-stained robes. He mumbles in a harsh tongue.", "피칠갑을 한 로브를 입은 오크로, 거친 목소리로 중얼거립니다.", "_t")
+t("orc corruptor", "오크 타락자", "entity name")
+t("An orc dressed in putrid robes. He mumbles in a harsh tongue.", "부패하는 로브를 입은 오크로, 거친 목소리로 중얼거립니다.", "_t")
 
 
 ------------------------------------------------
@@ -7677,6 +7900,12 @@ section "game/modules/tome/data/general/npcs/orc-vor.lua"
 
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
+t("orc pyromancer", "오크 화염술사", "entity name")
+t("orc high pyromancer", "오크 고위 화염술사", "entity name")
+t("An orc dressed in bright red robes. He mumbles in a harsh tongue.", "밝게 빛나는 붉은색의 로브를 입은 오크로, 거친 목소리로 중얼거립니다.", "_t")
+t("orc cryomancer", "오크 빙결술사", "entity name")
+t("orc high cryomancer", "오크 고위 빙결술사", "entity name")
+t("An orc dressed in cold blue robes. He mumbles in a harsh tongue.", "차가운 푸른색의 로브를 입은 오크로, 거친 목소리로 중얼거립니다.", "_t")
 
 
 ------------------------------------------------
@@ -7685,15 +7914,35 @@ section "game/modules/tome/data/general/npcs/orc.lua"
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
 t("orc warrior", "오크 전사", "entity name")
+t("orc archer", "오크 궁수", "entity name")
+t("He is a hardy, well-weathered survivor.", "강인하고, 역경에도 살아남은 오크입니다.", "_t")
+t("orc soldier", "오크 군인", "entity name")
 t("A fierce soldier-orc.", "맹렬한 오크의 전사입니다.", "_t")
+t("fiery orc wyrmic", "화염의 오크 용인", "entity name")
+t("icy orc wyrmic", "얼음의 오크 용인", "entity name")
+t("A fierce soldier-orc trained in the discipline of dragons.", "용의 규율 속에서 훈련받은 무시무시한 군인 오크입니다.", "_t")
+t("orc assassin", "오크 암살자", "entity name")
+t("orc master assassin", "오크 고위 암살자", "entity name")
+t("orc grand master assassin", "오크 암살의 대가", "entity name")
+t("An orc trained in the secret ways of assassination, stealthy and deadly.", "암살의 비기를 수련한 오크로, 은밀하고 치명적입니다.", "_t")
+t("Kra'Tor the Gluttonous", "걸신들린 크라'토르", "entity name")
+t("A morbidly obese orc with greasy pockmarked skin and oily long black hair.  He's clad in plate mail and carries a huge granite battleaxe that's nearly as large as he is.", "병적으로 살찐 오크로, 기름이 줄줄 흐르는 곰보투성이 피부와 기름기 가득한 검은 머리카락을 갖고있습니다.  이 오크는 판금 갑옷으로 무장했으며, 거의 자기 키만한 거대한 화강암 도끼를 들고다닙니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/plant.lua"
 
 t("immovable", "부동생물", "entity type")
+t("plants", "식물", "entity subtype")
+t("A not-so-strange growth on the dungeon floor.", "던전 바닥에서 자라나는게 그렇게 이상하진 않네요.", "_t")
+t("giant venus flytrap", "거대한 끈끈이주걱", "entity name")
+t("This flesh-eating plant has grown to enormous proportions and seeks to quell its hunger.", "살점을 뜯어먹는 식물이 거대하게 자라 굶주림을 가라앉힐 방법을 찾고있습니다.", "_t")
 t("treant", "나무 정령", "entity name")
 t("A very strong near-sentient tree, which has become hostile to other living things.", "매우 강력하고, 막 지각을 개화한 나무 생명체로, 다른 생명체에게 적대적으로 변해버렸습니다.", "_t")
+t("poison ivy", "맹독 담쟁이덩굴", "entity name")
+t("This harmless little plant makes you all itchy.", "이 무해하고 작은 식물이 당신의 피부를 가렵게 합니다.", "_t")
+t("honey tree", "꿀나무", "entity name")
+t("As you approach it, you hear a high-pitched buzzing sound.", "가까이 다가가면, 고음의 윙윙 소리가 들립니다.", "_t")
 
 
 ------------------------------------------------
@@ -7704,12 +7953,26 @@ t("ritch", "릿치", "entity subtype")
 t([[Ritches are giant insects native to the arid wastes of the southern parts of the Far East.
 Vicious predators, they inject corrupting diseases into their foes, and their sharp claws cut through most armours.]], [[릿치는 극동의 대륙 서쪽의 건조한 황무지에 사는 거대 곤충입니다.
 그야말로 흉악한 포식자로, 릿치들은 적들에게 오염된 병원균을 주입하며 날카로운 발톱으로 대부분의 방어구를 찢어 버립니다.]], "_t")
+t("ritch larva", "릿치 애벌레", "entity name")
+t("ritch hunter", "릿치 사냥꾼", "entity name")
+t("ritch hive mother", "릿치 군락 어미", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/rodent.lua"
 
+t("rodent", "설치류", "entity subtype")
 t("vermin", "해충", "entity type")
+t("giant white mouse", "거대한 흰색 생쥐", "entity name")
+t("giant brown mouse", "거대한 갈색 생쥐", "entity name")
+t("giant white rat", "거대한 흰색 시궁쥐 ", "entity name")
+t("giant brown rat", "거대한 갈색 시궁쥐", "entity name")
+t("giant rabbit", "거대한 토끼", "entity name")
+t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "와빗을 죽여, 와빗을 죽여, 와빗을 주우우우겨어어어어어ㅓ.", "_t")
+t("giant crystal rat", "거대 수정 시궁쥐", "entity name")
+t("Instead of fur, this rat has crystals growing on its back, which provide extra protection.", "이 시궁쥐는 털 대신 보호의 수정이 등 뒤에 달려있습니다.", "_t")
+t("giant grey mouse", "거대한 회색 생쥐", "entity name")
+t("giant grey rat", "거대한 회색 시궁쥐", "entity name")
 
 
 ------------------------------------------------
@@ -7717,14 +7980,28 @@ section "game/modules/tome/data/general/npcs/sandworm.lua"
 
 t("vermin", "해충", "entity type")
 t("sandworm", "샌드웜", "entity name")
+t("A huge worm coloured as the sand it inhabits. It seems quite unhappy about you being in its lair.", "모래의 색깔을 띄고있는 거대한 벌레로, 당신이 둥지에 있는게 내키지 않는 모양입니다.", "_t")
+t("sandworm destroyer", "샌드웜 파괴자", "entity name")
+t("A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "모래의 색깔을 띄고있는 거대한 벌레로, 이 특별한 샌드웜들은 단 한가지 목적을 위해 부화한 것 같습니다. 바로 샌드웜이 아닌 모든 것의 박멸. 이를테면... 당신같은거요.", "_t")
+t("sand-drake", "모래 드레이크", "entity name")
 t("dragon", "용", "entity type")
 t("sand", "모래", "entity subtype")
+t("This unholy creature looks like a wingless dragon in shape, but it is sand-colored, making it all the more dangerous for its prey.", "이 불경한 생명체는 날개없는 용의 모습을 하고있지만, 모래같은 색을 띄어, 사냥감에게는 훨씬 위험합니다.", "_t")
+t("gigantic sandworm tunneler", "거대 샌드웜 굴착꾼", "entity name")
+t("The ground shakes as this huge worm burrows towards you, its gigantic mouth just as capable of devouring flesh as stone.", "이 거대한 벌레가 당신 앞을 파고 지나가자 지축이 흔들립니다. 저 거대한 아가리는 돌덩이를 고기를 씹듯이 집어 삼킬 수 있습니다.", "_t")
+t("gigantic gravity worm", "거대 중력 벌레", "entity name")
+t("Space and time seem to bend around this huge worm.", "이 거대한 벌레의 주변의 시공이 휘어버리는 것 같습니다.", "_t")
+t("gigantic corrosive tunneler", "거대 산성 굴착꾼", "entity name")
+t("This huge worm burrows through the earth using its powerful corrosive saliva.", "이 거대한 벌레는 강력한 부식성 타액으로 땅을 파고듭니다.", "_t")
+t("%s explodes in an acidic cloud.", "%s 산성 안개가 되어 폭발했다.", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/shade.lua"
 
+t("shade", "그림자", "entity subtype")
 t("undead", "언데드", "entity type")
+t("Through some terrible process that remains mysterious, this creature's shadow has been torn from its body and given unlife.", "수수께끼로 남은 끔찍한 과정을 통해, 이 생명체의 그림자는 원래 몸에서 찢겨져 나오고, 역생을 얻게 되었습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7740,6 +8017,9 @@ section "game/modules/tome/data/general/npcs/shivgoroth.lua"
 t("elemental", "정령", "entity type")
 t("ice", "얼음", "entity subtype")
 t("shivgoroth", "쉬브고로스", "entity name")
+t("greater shivgoroth", "고위 쉬브고로스", "entity name")
+t("ultimate shivgoroth", "궁극의 쉬브고로스", "entity name")
+t("Shivgoroth are mighty ice elementals, torn away from their home world by a powerful magic.", "쉬브고로스는 강력한 얼음 정령으로, 강력한 마법으로 인해 고향 세계로부터 떨어저 나왔습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7748,15 +8028,43 @@ section "game/modules/tome/data/general/npcs/skeleton.lua"
 t("skeleton", "스켈레톤", "entity subtype")
 t("undead", "언데드", "entity type")
 t("degenerated skeleton warrior", "낡은 스켈레톤 전사", "entity name")
+t("A haphazard collection of crumbling bones, with jerky movements that remind you of a child playing with a marionette.  It only has one arm, but that's all it needs to hold a sword.", "무너저가는 뼈들을 대충 이어붙인 존재로, 덜컥거리는 움직임은 어렸을 적, 관절 인형을 생각나게합니다.  팔은 한 쪽밖에 없지만, 칼을 쥘 수 있다면, 그걸로도 충분합니다.", "_t")
+t("degenerated skeleton archer", "낡은 스켈레톤 궁수", "entity name")
+t("A frail skeleton; just about the only bones that aren't cracked are its arms.  It's missing a hand, but a notch has been carved into its wrist to let it pull back a bowstring regardless.", "연약한 스켈레톤으로, 금이 가지 않은 부분이라곤 팔 밖에 없습니다.  한 쪽 손이 없어졌지만, 팔목에 홈이 세겨져있어, 무리없이 활 시위를 당길 수 있습니다.", "_t")
 t("skeleton mage", "스켈레톤 마법사", "entity name")
+t("Given its condition, you're less inclined to think this skeleton knows proper spells, rather than simply disgorging its magical energy as it breaks down.  This doesn't make it much less dangerous to be around, mind you.", "이 언데드의 상태로 보건데, 이들 스스로가 주문을 알고있다고 생각 되지는 않습니다. 차라리 부서질 것 같이 마법 에너지를 토해내는 것 같습니다.  하지만 이런 모습을 갖고있다 하더라도, 결코 다른 주문 시전자들보다 덜 위험하지 않다는 걸 명심하십시오.", "_t")
 t("skeleton warrior", "스켈레톤 전사", "entity name")
+t("The forces binding this skeleton together are resilient enough to let it hold a shield and swing a weapon as well as it could have in life.  It's still wearing its old armor, in rusty but servicable condition.", "생전에 그랬던 것처럼, 방패를 들고 무기를 휘둘 수 있을 만큼 이 뼈들을 하나로 지탱해주는 힘은 강력합니다.  아직도 오래되고 녹슨 방어구를 입고있지만, 여전히 나쁘지 않은 보호 효과를 재공해줍니다.", "_t")
+t("skeleton archer", "스켈레톤 궁수", "entity name")
+t("Nobody scavenged the high-quality bow from this archer before it was raised from the dead.  You're about to wish the world had more grave-robbers.", "죽음에서 일어나기 전까지, 누구도 이 궁수의 질 좋은 활을 도굴해 가지 않았습니다.  이 세상엔 더 많은 도굴꾼들이 필요한 것 같네요.", "_t")
+t("skeleton magus", "스켈레톤 마도사", "entity name")
+t("This skeleton has been imbued with far more magical energy than normal, and serves as a conduit of its master's spellcasting prowess.", "이 해골은 일반적인 스켈레톤 마법사보다 더 강력한 마법 에너지이 주입되어, 강령술사의 마법 전달자 역활을 합니다.", "_t")
 t("armoured skeleton warrior", "무장한 스켈레톤 전사", "entity name")
+t("It feels no pain.  It moves with fluidity and strength that would tear natural muscles apart.  It must be from a fresh corpse, since its bones, armor, and weapon are all in pristine condition.  And it's furious.", "이 언데드는 고통을 느끼지 않습니다.  일반적인 살을 찢어발길 힘을 보이며, 부드럽게 움직입니다.  분명 뼈와 방어구, 무기의 새 것같은 품질로 보건대, 죽은지 오래되지 않은 시체로 만들어 졌을겁니다.  그리고 분노를 뿜어내네요.", "_t")
+t("skeleton master archer", "스켈레톤 명사수", "entity name")
+t("This skeleton can fire arrows and nock new ones with blinding speed.  Arcane forces pull its bones with unnatural precision - its arms will never tremble or get tired.", "이 스켈레톤은 화살을 발사하고, 눈에 보이지 않는 속도로 다른 화살을 시위에 걸 수 있습니다.  마법의 힘이 이 뼈다귀에게 비 자연적인 집중을 부여합니다 - 팔은 결코 흐뜨러지지 않으며 피로가 쌓이지도 않습니다.", "_t")
+t("skeleton assassin", "스켈레톤 암살자", "entity name")
+t("Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "대부분의 스켈레톤들은 덜커덕 거리는 뼈들의 합주로 자신들의 존재감을 나타내곤하지만, 이 칠흑의 스켈레톤은 다가갈 때 소리를 내지 않기 위한 연골이 충분합니다.   당신이 가장 먼저 보게될 것은 분명 칼날에 비친 빛일 겁니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/snake.lua"
 
 t("animal", "동물", "entity type")
+t("snake", "뱀", "entity subtype")
+t("large brown snake", "거대한 갈색 뱀", "entity name")
+t("large white snake", "거대한 흰색 뱀", "entity name")
+t("This large snake hisses at you, angry at being disturbed.", "이 거대한 뱀은 당신에게 쉬익 소리를 냅니다. 방해받아서 화가 났습니다.", "_t")
+t("copperhead snake", "살무사", "entity name")
+t("It has a copper head and sharp venomous fangs.", "삼각형의 머리와 날카로운 독니를 갖고있습니다.", "_t")
+t("rattlesnake", "방울뱀", "entity name")
+t("As you approach, the snake coils up and rattles its tail threateningly.", "당신이 다가가자, 뱀은 똬리를 틀고 위협적으로 꼬리를 흔듭니다.", "_t")
+t("king cobra", "킹 코브라", "entity name")
+t("It is a large snake with a hooded face.", "덮개를 뒤집어 쓴것 같은 얼굴을 한 거대한 뱀입니다.", "_t")
+t("black mamba", "블랙 맘바", "entity name")
+t("It has glistening black skin, a sleek body, and highly venomous fangs.", "눈부신 검은 비늘과 윤기가 나는 몸, 그리고 맹독의 이빨.", "_t")
+t("anaconda", "아나콘다", "entity name")
+t("You recoil in fear as you notice this gigantic snake.  It seeks to crush the life out of you.", "이 거대한 뱀을 발견하자, 당신은 공포로 뒷걸음질 칩니다.  이 뱀은 당신의 생명을 부숴버릴 방법을 찾고있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7764,6 +8072,14 @@ section "game/modules/tome/data/general/npcs/snow-giant.lua"
 
 t("giant", "거인", "entity type")
 t("ice", "얼음", "entity subtype")
+t("snow giant", "눈 거인", "entity name")
+t("snow giant thunderer", "설원 거인 번개 부르미", "entity name")
+t("A towering creature, humanoid but huge. It wields a giant maul and does not look friendly. Lightning crackles over its body.", "키가 아주 큰 인간형 생명체로, 거대한 망치를 들고있으며, 우호적으로 보이지는 않습니다. 몸에서 전류가 탁탁 튑니다.", "_t")
+t("snow giant boulder thrower", "설원 거인 암석 투척꾼", "entity name")
+t("snow giant chieftain", "설원 거인 부족장", "entity name")
+t("A towering creature, humanoid but huge. It wields a giant maul and does not look friendly.", "키가 아주 큰 인간형 생명체로, 거대한 망치를 들고있으며, 우호적으로 보이지는 않습니다.", "_t")
+t("Burb the snow giant champion", "설원 거인 대전사 버브", "entity name")
+t("A maddened, enraged snow giant that towers over his comrades. You've heard legends mentioning this particular monstrosity; they say that when he's not rampaging around frothing at the mouth, he sits, almost childlike, engraving stories and mysterious patterns on any flat stone surface he can find.", "미치고, 광란에 빠진 설원 거인으로 그의 동료들 사이에서 우뚝 서있습니다. 이 가공할 괴물에 대한 전설을 들어본 적이 있습니다. 전설에 따르면, 입에 거품을 물고 발광하지 않을 때엔, 아이들처럼 우두커니 앉아서 넙적한 바위 표면에 이야기나 알 수 없는 무늬를 새긴다고 합니다.", "_t")
 
 
 ------------------------------------------------
@@ -7772,7 +8088,30 @@ section "game/modules/tome/data/general/npcs/spider.lua"
 t("spider", "거미", "entity subtype")
 t("spiderkin", "거미류", "entity type")
 t("Arachnophobia...", "거미 공포증...", "_t")
+t("giant spider", "거대 거미", "entity name")
+t("A huge arachnid, it produces even bigger webs.", "거대한 거미로, 더 거대한 거미줄을 짭니다.", "_t")
+t("spitting spider", "독뱉는 거미", "entity name")
+t("A huge arachnid, it sprays venom at its prey.", "거대한 거미로, 먹잇감에게 맹독을 뱉습니다.", "_t")
+t("chitinous spider", "키틴질 거미", "entity name")
+t("A huge arachnid with a massive exoskeleton.", "거대한 거미로, 무거운 외골격을 갖고있습니다.", "_t")
+t("gaeramarth", "개라마르스", "entity name")
+t("These cunning spiders terrorize those who enter the ever-growing borders of their lairs.  Those who encounter them rarely return.", "이 교활한 거미는 점점 커저가는 영역을 침범한 모든 것을 공포에 떨게합니다.  이들과 조우하고도 살아 돌아올 수 있는 사람은 극히 적습니다.", "_t")
+t("ninurlhing", "니뉼르링", "entity name")
+t("The air reeks with noxious fumes and the ground around it decays.", "주변의 공기와 대지가 부패한 연기를 내뿜고, 썩어가며 악취를 내뿜고있습니다.", "_t")
+t("faerlhing", "패를링", "entity name")
+t("This spider seems to command the flow of mana, which pulses freely through its body.", "이 거미는 박동하는 육체를 통해 자유롭게 마나의 흐름을 조종하는 것 같습니다.", "_t")
 t("ungolmor", "웅골모르", "entity name")
+t("Largest of all the spiderkin, its folds of skin seem nearly impenetrable.", "모든 거미 중 가장 큰 거미로, 그 주름잡힌 피부는 관통할 수 없을 것 같습니다.", "_t")
+t("losselhing", "로셀링", "entity name")
+t("The air seems to freeze solid around this frigid spider.", "이 빙결의 거미 근처의 공기가 얼어붙는 것 같습니다.", "_t")
+t("weaver young", "어린 길쌈꾼", "entity name")
+t("A tiny arachnid that phases in and out of reality.", "작은 거미로, 현실의 위상을 이리저리 오고갑니다.", "_t")
+t("weaver patriarch", "길쌈꾼 대부", "entity name")
+t("A large blue arachnid with white markings on its thorax.  It shifts and shimmers as though only partially connected to the timeline.", "거대한 파란색 거미로, 흉부에 하얀 표식이 보입니다.  시간선에 부분적으로만 연결된 듯 변화하며, 일렁입니다.", "_t")
+t("weaver matriarch", "길쌈꾼 대모", "entity name")
+t("A large dark blue arachnid with a shifting yellow and white pattern on its thorax.  It shifts and shimmers as though only partially connected to the timeline.", "거대한 진청색 거미로, 흉부에 변화하는 노란색과 흰색의 문양이 보입니다.  시간선에 부분적으로만 연결된 듯 변화하며, 일렁입니다.", "_t")
+t("Ninandra, the Great Weaver", "위대한 길쌈꾼 니난드라", "entity name")
+t("A huge blue and white spiderkin whose form shifts and shimmers in and out of reality.  She spins the threads of fate and binds the destiny of all within her web.", "거대한 청백의 거미로 현실에서 벗어나고, 돌아오며 수천의 색으로 일렁입니다.  그녀는 거미줄 속에서 운명을 방적하고 미래를 자아냅니다.", "_t")
 
 
 ------------------------------------------------
@@ -7780,7 +8119,12 @@ section "game/modules/tome/data/general/npcs/storm-drake.lua"
 
 t("dragon", "용", "entity type")
 t("storm", "폭풍", "entity subtype")
+t("storm drake hatchling", "폭풍 드레이크 해츨링", "entity name")
 t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
+t("storm drake", "폭풍 드레이크", "entity name")
+t("A mature storm drake, armed with deadly breath and nasty claws.", "성년 폭풍 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
+t("storm wyrm", "폭풍 용", "entity name")
+t("An old and powerful storm drake, armed with deadly breath and nasty claws.", "늙고 강력한 폭풍 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 
 
 ------------------------------------------------
@@ -7788,23 +8132,49 @@ section "game/modules/tome/data/general/npcs/sunwall-town.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("human guard", "인간 경비병", "entity name")
+t("elven archer", "엘프 궁수", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
 t("human sun-paladin", "인간 태양의 기사", "entity name")
+t("A human in shiny plate armour.", "빛나는 판금 갑옷을 입은 인간입니다.", "_t")
 t("elf", "엘프", "entity subtype")
+t("elven sun-mage", "엘프 태양 마법사", "entity name")
+t("An elf dressed in glowing robes.", "빛나는 로브를 입은 엘프입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/swarm.lua"
 
 t("insect", "곤충", "entity type")
+t("swarms", "벌레 군집", "entity subtype")
+t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "위이이이이이이이ㅣ이이이잉.", "_t")
+t("midge swarm", "각다귀 떼", "entity name")
+t("A swarm of midges; they want blood.", "각다귀 떼입니다, 피를 원하고 있습니다.", "_t")
+t("bee swarm", "벌 떼", "entity name")
+t("They buzz at you threateningly, as you have gotten too close to their hive.", "벌집에 너무 가까이 다가가자, 벌 떼가 위협적인 윙윙소리를 냅니다.", "_t")
+t("hornet swarm", "말벌 떼", "entity name")
+t("You have intruded on their ground, and they will defend it at all costs.", "말벌들의 영역을 침범했습니다. 어떤 댓가를 치르더라도 그 영역을 지킬 것입니다.", "_t")
+t("hummerhorn", "윙윙뿔", "entity name")
+t("A giant buzzing wasp, its stinger dripping venom.", "거대한 말벌로, 독침에서 맹독이 뚝뚝 떨어집니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/telugoroth.lua"
 
+t("Reality has shifted.", "현실이 개벽했다.", "logSeen")
 t("The spell fizzles!", "주문이 실패했다!", "logSeen")
+t("%s resists the swap!", "%s 교체에 저항했다!", "logSeen", nil, {"는"})
 t("elemental", "정령", "entity type")
 t("temporal", "시간", "entity subtype")
+t("and lost outside time", "그리고 시간의 밖에서 미아가 되었다", "_t")
+t("telugoroth", "텔루고로스", "entity name")
+t("greater telugoroth", "고위 텔루고로스", "entity name")
+t("ultimate telugoroth", "궁극의 텔루고로스", "entity name")
+t("A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "시간의 정령으로, 시간 그 자체를 여행하고 있는 것이 아니라면 드물게 발견됩니다.  당신 눈앞에서 그 흐릿한 형태가 계속 모습을 바꾸고 있습니다.", "_t")
+t("teluvorta", "텔루보르타", "entity name")
+t("greater teluvorta", "고위 텔루보르타", "entity name")
+t("ultimate teluvorta", "궁극의 텔루보르타", "entity name")
+t("Time and space collapse in upon this erratically-moving time elemental.", "시간과 공간의 붕괴가 이 변덕스럽게 움직이는 시간 정령에게 일어났습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7812,9 +8182,22 @@ section "game/modules/tome/data/general/npcs/thieve.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("cutpurse", "소매치기", "entity name")
+t("The lowest of the thieves, this cutpurse is just learning the tricks of the trade.", "도둑들 중 가장 미천한 이들로, 이 소매치기는 물물교환의 요령을 익혔습니다.", "_t")
 t("rogue", "도적", "entity name")
+t("Stronger than a cutpurse, this thief has been promoted.", "소매치기 보다 강한 도둑으로, 막 진급했습니다.", "_t")
+t("thief", "절도범", "entity name")
+t("He eyes you and your belongings, then suddenly vanishes... strange, why is your pack lighter?", "그가 당신과 당신의 소지품을 처다보더니 갑자기 사라집니다... 이상하군요, 왜 짐이 가벼워졌지?", "_t")
+t("bandit", "노상강도", "entity name")
+t("These ruffians often employ brute force over thievery, but they are capable of stealing as well.", "이 악당은 도둑질에 무력을 동원하는 편이지만, 교묘하게 훔처내는 것도 잘 해냅니다.", "_t")
+t("bandit lord", "강도 두목", "entity name")
+t("He is the leader of a gang of bandits. Watch out for his underlings.", "그는 노상강도 무리의 우두머리입니다. 그의 부하들을 조심하십시오.", "_t")
+t("assassin", "암살자", "entity name")
+t("Before you looms a pair of eyes... a glint of steel... death.", "한 쌍이 눈이 보이고... 강철의 반짝거림... 죽음.", "_t")
 t("shadowblade", "그림자칼날", "entity name")
 t("Stealthy fighters trying to achieve victory with trickery. Be careful or they will steal your life!", "야바위로 승리를 거머쥐려 하는 은밀한 싸움꾼들입니다. 조심하지 않으면 목이 달아날 겁니다!", "_t")
+t("rogue sapper", "도적 기술자", "entity name")
+t("Stealthy tricksters that leave a wake of deadfalls and other hazards.  They really just make a mess of things.", "은밀한 모략가들로, 함정과 그 밖의 '우연적인 요소'를 남깁니다.  일을 개판으로 만듭니다.", "_t")
 
 
 ------------------------------------------------
@@ -7825,28 +8208,70 @@ t("troll", "트롤", "entity subtype")
 t("forest troll", "숲 트롤", "entity name")
 t("Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.", "녹색 피부를 가진 거대하고 못생긴 이족 보행체가 사마귀투성이인 녹색 주먹을 꽉 쥐며 당신을 응시한다.", "_t")
 t("stone troll", "돌 트롤", "entity name")
-t("A giant troll with scabrous black skin. With a shudder, you notice the belt of dwarf skulls around his massive waist.", "우둘투둘한 검은 거죽을 가진 자이언트 트롤. 당신은 전율하면서 그의 거대한 허리춤에 달린 허리띠가 드워프 해골로 만들어졌다는 것을 알아차린다.", "_t")
+t("A giant troll with scabrous black skin. With a shudder, you notice the belt of dwarf skulls around his massive waist.", "우둘투둘한 검은 거죽을 가진 자이언트 트롤입니다. 당신은 전율하면서 그의 거대한 허리춤에 달린 허리띠가 드워프 해골로 만들어졌다는 것을 알아차립니다.", "_t")
 t("cave troll", "동굴 트롤", "entity name")
-t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "이 거대한 트롤은 거대한 창을 휘두르면서 이상하게도 그 살찐 눈에 총명한 표정을 짓는다.", "_t")
+t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "이 거대한 트롤은 거대한 창을 휘두르며, 이상하게도 그 살찐 눈에 총명한 표정을 짓습니다.", "_t")
 t("mountain troll", "산 트롤", "entity name")
 t("mountain troll thunderer", "산 트롤 번개 부르미", "entity name")
-t("A large and athletic troll with an extremely tough and warty hide.", "아주 질기고 사마귀 투성이 거죽을 지닌 크고 건강한 트롤.", "_t")
+t("A large and athletic troll with an extremely tough and warty hide.", "아주 질기고 사마귀 투성이 거죽을 지닌 크고 건강한 트롤입니다.", "_t")
+t("patchwork troll", "누더기 트롤", "entity name")
+t("A disgusting and mismatched construct of necromantically-enhanced troll bits and shattered weapons. Confused and furious, it rends and shatters its surroundings with impossible strength, moving with speed found nowhere in nature.", "역겹고 잘못 기워진, 강령술이 주입된 트롤로, 산산조각이 난 무기를 들고 있습니다. 분노로 혼란스러워하며, 주변의 모든 것을 믿을 수 없는 힘으로 찢어놓고 파괴합니다. 자연에서는 찾아 볼 수 없는 속도입니다.", "_t")
+t("Forest Troll Hedge-Wizard", "숲 트롤 견습 마법사", "entity name")
+t("This old-looking troll glares at you with malice. His muscles appear atrophied, but a certain power surrounds him nonetheless.", "늙어보이는 트롤이 악의로 가득한 눈빛으로 당신을 노려봅니다. 몸은 위축되어 있지만, 그럼에도 불구하고 어떤 힘이 그를 둘러싸고 있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/undead-rat.lua"
 
+t("rodent", "설치류", "entity subtype")
 t("undead", "언데드", "entity type")
 t("skeletal rat", "스켈레톤 쥐", "entity name")
+t("A skeletal rat, teeth and claws ground to a sharp point. It glares at you menacingly.", "스켈레톤 쥐로, 땅바닥에 날카로운 이빨과 발톱을 긁습니다. 당신을 악의로 바라봅니다.", "_t")
+t("ghoulish rat", "구울 쥐", "entity name")
+t("Layers of rotting skin are peeling off of this rat. One of the eye sockets appears empty.", "썩은 피부층이 벗겨지고 있습니다. 눈알 한쪽이 있어야 할 곳이 비어있습니다.", "_t")
+t("*s.q.u.e.a.k*", "*찌.이.이.이.익*", "_t")
+t("Squeakkkkkkk??", "찌이이이이이이잌??", "_t")
+t("Squeeeeeeak!", "찌이이이이이이이이잌!", "_t")
+t("spectral rat", "영체 쥐", "entity name")
+t("An eerie haze surrounds this translucent rat.", "섬뜩한 아지랑이가 이 반투명한 쥐를 에어싸고 있습니다..", "_t")
+t("Eerie Squeak!", "섬뜩한 찍찍!", "_t")
+t("Frightening Squeak??", "두려운 찍찍??", "_t")
+t("vampire rat", "흡혈귀 쥐", "entity name")
+t("Looks much like a normal rat. That is, other than the very large fangs.", "보통 쥐처럼 보이지만 훨씬 긴 송곳니를 갖고 있습니다.", "_t")
+t("Squeak! Blood!", "찍찍! 피!", "_t")
+t("gigantic bone rat", "거대한 해골 쥐", "entity name")
+t("This massive beast appears to be a rat composed of countless bones fused together.", "이 거대한 쥐는 샐 수 없이 많은 뼈로 이루어저 있습니다.", "_t")
+t("*SQUEAK*", "* 찍 찍 *", "_t")
 t("Rat Lich", "리치 쥐", "entity name")
+t("The master of the pit is before you. It squeaks with menace as it and a horde of minions approach you.", "구덩이의 주인이 당신 앞에 서 있습니다. 위협적인 찍찍 소리를 내자, 언데드 쥐 떼가 당신에게 몰려옵니다.", "_t")
+t("#RED#Rising again, the Rat Lich's eyes glow with renewed energy!", "#RED#리치 쥐의 눈이 새로운 힘으로 빛나며, 다시 한 번 일어섰다!", "logSeen")
+t("\
+The Rat Lich's true power has been unveiled! Swirling with arcane energy, it stalks towards you uttering warsqueaks at its minions!", "\
+리치 쥐의 진정한 힘이 베일을 벗었습니다! 마법의 힘으로 소용돌이 치며, 당신에게로 다가옵니다. 언데드 쥐 떼에 전투찍찍을 외치면서요!", "_t")
+t("\"Squeak\" I say, yes .. \"Squeak!\"", "\"찍\" 내 말은, 그래 .. \"찍!\"", "_t")
+t("*squeak*", "*찍찍*", "_t")
+t("SQUEAK!!!!!", "찌이이이익찍!!!!!", "_t")
+t("Squeak!", "찍!", "_t")
+t("Squeak??", "찍찍??", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/vampire.lua"
 
 t("undead", "언데드", "entity type")
-t("vampire", "뱀파이어", "entity name")
+t("These ancient cursed beings often take the form of a bat and attack their prey.", "저주 받은 고대의 존재들로, 자주 박쥐의 형상으로 나타나 사냥감을 덮칩니다.", "_t")
+t("lesser vampire", "하위 흡혈귀", "entity name")
+t("This vampire has only just begun its new life. It has not yet fathomed its newfound power, yet it still has a thirst for blood.", "이 흡혈귀는 변한지 오래되지 않았습니다. 아직 새로운 능력을 가늠하지도 못하지만, 피에 굶주려 있습니다 .", "_t")
+t("vampire", "흡혈귀", "entity name")
+t("It is a humanoid with an aura of power. You notice a sharp set of front teeth.", "힘의 기운이 에워싼 인간형 언데드로, 날카로운 앞니 두 쌍이 보입니다.", "_t")
+t("master vampire", "고위 흡혈귀", "entity name")
+t("It is a humanoid form dressed in robes. Power emanates from its chilling frame.", "로브를 입은 인간의 형상으로, 차가운 뼈대에서 힘이 발산되고 있습니다.", "_t")
 t("elder vampire", "흡혈귀 장로", "entity name")
+t([[A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others.
+It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.]], [[로브를 입은 끔찍한 언데드로, 타인의 생명을 강탈함으로써 몇 세기동안 불사의 삶을 이어왔습니다.
+이들은 무덤 너머에서 노예가 되어버린 희생자들의 그림자를 불러내어, 그들을 부립니다.]], "_t")
+t("vampire lord", "흡혈귀 군주", "entity name")
+t("A foul wind chills your bones as this ghastly figure approaches.", "이 공포스러운 존재가 다가오자, 악취나는 바람의 냉기가 뼛 속까지 스며듭니다.", "_t")
 
 
 ------------------------------------------------
@@ -7854,12 +8279,22 @@ section "game/modules/tome/data/general/npcs/venom-drake.lua"
 
 t("dragon", "용", "entity type")
 t("venom", "맹독", "entity subtype")
+t("venom drake hatchling", "맹독 드레이크 해츨링", "entity name")
+t("A corrosive venom drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "부식성 맹독 드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
+t("venom drake", "맹독 드레이크", "entity name")
+t("A mature corrosive venom drake, armed with deadly breath and nasty claws.", "성년 부식성 맹독 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
+t("venom wyrm", "맹독 용", "entity name")
+t("An old and powerful corrosive venom drake, armed with deadly breath and nasty claws.", "늙고 강력한 부식성 맹독 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/vermin.lua"
 
 t("vermin", "해충", "entity type")
+t("worms", "구더기 떼", "entity subtype")
+t("white worm mass", "하얀 벌레떼 떼", "entity name")
+t("green worm mass", "초록 벌레 떼", "entity name")
+t("carrion worm mass", "시체 벌레 떼", "entity name")
 t("%s exudes a corrupted gas as it dies.", "%s 죽을 때 황폐한 가스를 뿜어낸다.", "logSeen", nil, {"는"})
 
 
@@ -7867,20 +8302,47 @@ t("%s exudes a corrupted gas as it dies.", "%s 죽을 때 황폐한 가스를 �
 section "game/modules/tome/data/general/npcs/wight.lua"
 
 t("undead", "언데드", "entity type")
+t("wight", "와이트", "entity subtype")
+t("These be white wights.", "이들은 하얀 와이트입니다.", "_t")
+t("forest wight", "숲 와이트", "entity name")
+t("It is a ghostly apparition with a humanoid form.", "인간형의 유령입니다.", "_t")
+t("grave wight", "무덤 와이트", "entity name")
+t("It is a ghostly form with eyes that haunt you.", "당신을 두려움에 떨게하는 눈을 가진 유령입니다.", "_t")
+t("barrow wight", "고분 와이트", "entity name")
+t("It is a ghostly nightmare of an entity.", "실체를 갖고있는, 악몽과 같은 유령입니다.", "_t")
+t("emperor wight", "와이트 황제", "entity name")
+t("Your life force is torn from your body as this powerful unearthly being approaches.", "이 강력하고 섬뜩한 존재가 다가오자 생명력이 당신의 몸에서 찢겨나갑니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/wild-drake.lua"
 
 t("dragon", "용", "entity type")
+t("wild", "야생", "entity subtype")
+t("spire dragon", "나선 용", "entity name")
+t("A monstrous, coiled wyrm, patient and hateful. Its hide, studded with spikes and crests and blades, turns aside steel and sorcery with equal ease.", "똬리를 튼 거대한 용으로, 혐오스러우며 인내심이 강합니다. 가죽은 징과 송곳, 칼날로 경화되어 있으며, 강철과 마법 모두 손쉽게 막아냅니다.", "_t")
+t("blinkwyrm", "깜빡이용", "entity name")
+t("A shifting, writhing, snake-like dragon, blinking in and out of existence, just waiting for you to turn your back.", "변화하고, 뒤틀리는, 뱀 비슷한 드래곤으로, 존재가 점멸하며, 당신이 등을 보이기만을 기다리고 있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/npcs/xorn.lua"
 
 t("elemental", "정령", "entity type")
+t("umber hulk", "움버 헐크", "entity name")
+t("This bizarre creature has glaring eyes and large mandibles capable of slicing through rock.", "이 기이한 존재는 쏘아보는 눈과 바위를 쉽게 베어내는 거대한 아랫턱을 갖고있습니다.", "_t")
+t("xorn", "쏘른", "entity name")
+t("A huge creature of the element Earth. Able to merge with its element, it has four huge arms protruding from its enormous torso.", "대지의 원소에서 나타난 거대한 존재로. 대지의 원소와 융합할 수 있습니다. 4 개의 큰 팔이 거대한 몸통에서 나와있습니다.", "_t")
+t("xaren", "싸렌", "entity name")
+t("It is a tougher relative of the Xorn. Its hide glitters with metal ores.", "쏘른에 비하면 강인합니다. 싸렌의 가죽에 박힌 금속 광물이 반짝입니다.", "_t")
+t("The Fragmented Essence of Harkor'Zun", "하코르'준의 조각난 정수", "entity name")
+t("Fragmented essence... maybe it'd be best if it stayed fragmented.", "조각난 정수... 조각난 채로 있는게 차라리 더 나을 것 같습니다.", "_t")
+t("#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "#AQUAMARINE#%s 파괴된 조각으로 부터 힘을 되찾는다!", "logSeen", nil, {"는"})
+t("#AQUAMARINE#%s is infused with all the energies of the fragments. The real Harkor'Zun is reconstituted!", "#AQUAMARINE#%s 조각난 정수의 모든 힘을 흡수했다. 진정한 하코르'준이 재구성되었다!", "logSeen", nil, {"는"})
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
+t("Harkor'Zun", "하코르'준", "entity name")
+t("A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.", "땅의 원소로 이루어진 악마로, 뒤틀린 싸렌같지만 훨씬, 훨씬 거대합니다.  당신이 이곳에 있는게 마음에 들지 않는 모양입니다.", "_t")
 
 
 ------------------------------------------------
@@ -7892,6 +8354,7 @@ t("yaech diver", "야크 잠수부", "entity name")
 t("yaech hunter", "야크 사냥꾼", "entity name")
 t("yaech mindslayer", "야크 정신파괴자", "entity name")
 t("yaech psion", "야크 초능력자", "entity name")
+t("Yaeches are an aquatic subspecies of yeeks. They share the same psionic powers, but they refuse to take part in the Way.", "야크는 바닷 속 생활에 적응한 이크의 아종입니다. 이들은 똑같은 초능력을 공유하지만, 한길의 일부가 되는 것은 거부하고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7899,8 +8362,14 @@ section "game/modules/tome/data/general/npcs/ziguranth.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("and burned on a pyre", "그리고 장작더미에서 불타올랐다", "_t")
+t("ziguranth warrior", "지구랏 전사", "entity name")
+t("A Ziguranth warrior, clad in heavy armour.", "지구랏의 전사로, 무거운 갑옷을 입고 있습니다.", "_t")
 t("dwarf", "드워프", "entity subtype")
+t("ziguranth summoner", "지구랏 소환사", "entity name")
 t("thalore", "탈로레", "entity subtype")
+t("ziguranth wyrmic", "지구랏 용인", "entity name")
+t("A Ziguranth wilder, attuned to nature.", "지구랏의 자연의 추종자로, 자연에 동화 되었습니다.", "_t")
 
 
 ------------------------------------------------
@@ -8134,7 +8603,7 @@ t("You need an enemy nearby to summon!", "소환하기 위해서는 주변에 �
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
 t("%s taps %s %s, summoning a vampire thrall!", "%s %s %s 두들기자, 흡혈귀 하수인이 소환됐다!", "logSeen", nil, {"는",[3]="를"})
 t("elder vampire", "흡혈귀 장로", "_t")
-t("A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "로브를 입은 무시무시한 언데드로, 수 세기에 걸쳐 다른 이들의 생명을 빼앗아 존재해온 불생의 존재이다. 무덤 너머에서 노예가 되어버린 희생자들의 그림자를 불러내어, 그들을 부리곤 한다.", "_t")
+t("A terrible robed undead figure, this creature has existed in its unlife for many centuries by stealing the life of others. It can summon the very shades of its victims from beyond the grave to come enslaved to its aid.", "로브를 입은 끔찍한 언데드로, 타인의 생명을 강탈함으로써 몇 세기동안 불사의 삶을 이어왔습니다. 이들은 무덤 너머에서 노예가 되어버린 희생자들의 그림자를 불러내어, 그들을 부립니다.", "_t")
 t("Vampire", "흡혈귀", "_t")
 t("gem", "보석", "entity type")
 t("red", "빨간색", "entity subtype")
@@ -12792,6 +13261,7 @@ section "game/modules/tome/data/maps/vaults/lava_island.lua"
 section "game/modules/tome/data/maps/vaults/renegade-pyromancers.lua"
 
 t("scroll", "두루마리", "_t")
+t("#rng# the Invoker", "부르는 자 #rng#", "_t")
 
 
 ------------------------------------------------
@@ -12864,6 +13334,13 @@ section "game/modules/tome/data/maps/zones/valley-moon.lua"
 ------------------------------------------------
 section "game/modules/tome/data/mapscripts/lib/subvault.lua"
 
+t("Hidden Vault - %s", "비밀 볼트 - %s", "tformat")
+t("hidden vault", "비밀 볼트", "_t")
+t("Crumbling stairs lead down to something.", "무너지고 있는 계단으로, 아래쪽으로 갈 수 있습니다.", "_t")
+t("collapsing hidden vault", "무너지고 있는 비밀 볼트", "_t")
+t("collapsed hidden vault", "무너진 비밀 볼트", "_t")
+t("nearly collapsed hidden vault", "거의 다 무너진 비밀 볼트", "_t")
+t("#VIOLET# The decrepit stairs crumble some more as you climb them.", "#VIOLET# 낡은 계단을 오르자 더 무너졌다.", "log")
 
 
 ------------------------------------------------
@@ -14940,6 +15417,7 @@ t("Paradox Clone", "괴리 분신", "_t")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
 t("Temporal Clone", "시간 분신", "_t")
 t("Damage Smearing", "피해 희석", "talent name")
+t("%s resists the swap!", "%s 교체에 저항했다!", "logSeen", nil, {"는"})
 t("You do not have line of sight.", "시야 밖의 대상입니다.", "logSeen")
 t("The spell fizzles!", "주문이 실패했다!", "logSeen")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
@@ -15055,7 +15533,7 @@ t("Haste", "가속", "talent name")
 t("Increases your global speed by %d%% for %d game turns.", "%d 실질 턴 동안 전체 속도가 %d%% 증가됩니다", "tformat", {2,1})
 t("Time Stop", "시간 정지", "talent name")
 t("#STEEL_BLUE#%s has stopped time!#LAST#", "#STEEL_BLUE#%s 시간을 멈췄다!#LAST#", "logSeen", nil, {"는"})
-t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "%d 턴을 획득합니다. 멈춰진 시간동안 시전자의 피해량은 %d%% 감소합니다.", "tformat")
+t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "%d 턴을 획득합니다. 멈춰진 시간동안 시전자가 가하는 피해량은 %d%% 감소합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -15335,7 +15813,7 @@ t([[Project a corrupted blast of power that removes up to %d magical or physical
 		For each effect, the creature has a chance to resist based on its spell save.
 		The damage will increase with your Spellpower.]], [[타락의 힘을 폭발시켜 반경 3 칸 내의 적에게 %0.2f 황폐 피해를 줍니다. 또한 최대 %d 개의 물리적, 마법적 효과나 모든 종류의 유지기를 제거합니다.
 		대상은 주문 내성으로 각각의 제거 효과에 대해 저항할 확률이 있습니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,1})
 t("Corrosive Worm", "부식성 벌레", "talent name")
 t([[Infects the target with a corrosive worm for 6 turns that reduces blight and acid resistance by %d%% and feeds off damage taken.
 		When this effect ends or the target dies the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while infected.
@@ -15414,7 +15892,7 @@ t([[Bone shields start circling around you. They will each fully absorb one inst
 		This will only trigger on hits over %d damage based on Spellpower.]], [[뼈의 방패가 시전자 주변을 돌며, 적의 공격을 완전히 막아냅니다.
 		주문을 활성화하면 %d 개의 방패가 생겨납니다.
 		방패의 개수가 최대치에 미달하는 경우, %d 턴 마다 하나씩 방패가 재생됩니다.
-		이 효과는 오직 %d 이상의 주문력 기반 피해에만 발동됩니다.]], "tformat")
+		이 효과는 오직 %d 이상의 피해에만 발동되며, 기준치는 주문력에 비례합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -16304,11 +16782,11 @@ t([[Systematically find the weaknesses in your opponents' physical resists, at t
 section "game/modules/tome/data/talents/cunning/traps.lua"
 
 t("#CADET_BLUE#Placing %s...", "#CADET_BLUE#%s 설치 중...", "logPlayer")
-t("You cannot place a trap there.", "당신은 그곳에 함정을 설치하지 못한다.", "logPlayer")
+t("You cannot place a trap there.", "그곳엔 함정을 설치할 수 없다.", "logPlayer")
 t("There is already a trap there.", "그곳엔 이미 함정이 있다.", "_t")
 t("You somehow fail to set the trap.", "함정 설치에 실패했다.", "_t")
 t("trap", "함정", "_t")
-t("#CADET_BLUE#Your %s has expired.", "#CADET_BLUE#당신은 %s 사용하기에는 너무 많은 시간이 흘렀다.", "logPlayer", nil, {"를"})
+t("#CADET_BLUE#Your %s has expired.", "#CADET_BLUE#%s 사용하기에는 너무 많은 시간이 흘렀다.", "logPlayer", nil, {"를"})
 t("@Source@ activates a prepared device.", "@Source2@ 준비된 장치를 발동시켰다.", "_t")
 t("shadowy assassin", "그림자 속의 암살자", "_t")
 t("A shadowy figure, garbed all in black.", "그림자 속의 형상이 온통 검은 옷을 입고 서있다.", "_t")
@@ -16318,16 +16796,16 @@ t("A lethal contraption of whirling blades.", "소용돌이 치는 칼날의 죽
 t("Trap Mastery", "함정 숙련", "talent name")
 t("\
 #YELLOW#Newly prepared traps are put on cooldown.#LAST#", "\
-#YELLOW#새로 설치한 함정이 재사용 대기시간 중이다.#LAST#", "_t")
+#YELLOW#새로 준비한 함정들은 재사용 대기시간이 필요합니다.#LAST#", "_t")
 t("\
 Game Start: Newly prepared traps will NOT start on cooldown.", "\
-게임 시작: 새로 설치될 함정들은 즉시 효과를 발휘한다.", "_t")
-t("Prepare which traps? (maximum: %d, up to tier %d)%s", "어떤 함정을 설치할까? (최대 종류: %d, 최대 등급 %d)%s", "tformat")
-t("Select Prepared Traps", "설치할 함정을 선택", "_t")
+게임 시작: 새로 준비한 함정들은 즉시 사용 가능합니다.", "_t")
+t("Prepare which traps? (maximum: %d, up to tier %d)%s", "어떤 함정을 준비합니까? (최대 종류: %d, 최대 등급 %d)%s", "tformat")
+t("Select Prepared Traps", "준비할 함정을 선택", "_t")
 t("#YELLOW_GREEN#Dismantling %s", "#YELLOW_GREEN#%s 해체", "log")
 t(" (normal trigger)", " (일반 방아쇠)", "_t")
 t("#LIGHT_GREEN#Preparing %s%s", "#LIGHT_GREEN#%s 준비한다. %s", "log", nil, {"를"})
-t("#LIGHT_BLUE#No changes to trap preparation.", "#LIGHT_BLUE#설치할 함정을 변경하지 않았다.", "logPlayer")
+t("#LIGHT_BLUE#No changes to trap preparation.", "#LIGHT_BLUE#준비할 함정을 변경하지 않았다.", "logPlayer")
 t([[This talent allows you to prepare up to %d different trap(s) of tier %d or less for later deployment. (Use this ability to select which to prepare.)
 		Designs known:
 %s
@@ -16335,12 +16813,12 @@ t([[This talent allows you to prepare up to %d different trap(s) of tier %d or l
 		Traps prepared this way are difficult to detect (%d detection 'power') and disarm (%d disarm 'power') based on your Cunning.  They gain %+d%% effectiveness, and can be deployed without breaking stealth %d%% of the time.
 		You are immune to the damage and negative effects of your traps, and traps may critically strike based on your physical crit chance.
 		Most traps last %d turns if not triggered, and refund 80%% of their stamina cost on expiration.
-		More designs may be discovered via disarming or learned from special instructors in the world.]], [[함정 설치법을 배웁니다. 최대 %d 종류의 함정을 설치할 수 있고, 최대 %d 등급의 함정을 설치할 수 있습니다. 이 기술을 사용함으로써 설치할 함정을 선택할 수 있습니다.
+		More designs may be discovered via disarming or learned from special instructors in the world.]], [[함정 설치법을 배웁니다. 최대 %d 종류의 함정을 준비할 수 있고, 최대 %d 등급의 함정까지 준비할 수 있습니다. 이 기술을 사용함으로써 준비할 함정을 선택할 수 있습니다.
 		알고있는 함정 도안 :
 %s
 
-		설치된 함정들은 알아차리기 힘들고 (%d 탐지력), 해체하기도 어렵습니다 (%d 해체력). 이 효과는 교활 능력치에 비례해 증가합니다. 이 기술에 의해 함정의 효과는 %+d%% 향상되고, %d%% 확률로 은신상태를 해제하지 않고 함정을 설치합니다.
-		시전자는 설치한 함정이 주는 피해와 부정적인 효과에 면역이 됩니다. 추가로 함정은 시전자의 물리 치명타 확률에 비례한 치명타 효과를 내게 됩니다.
+		설치된 함정들은 알아차리기 힘들고 (%d 탐지력), 해체하기도 어렵습니다 (%d 해체력). 이 효과는 교활 능력치에 비례해 증가합니다. 이 기술에 의한 함정의 효과는 %+d%% 향상되고, %d%% 확률로 은신상태를 해제하지 않고 함정을 설치합니다.
+		시전자는 자신이 설치한 함정이 주는 피해와 부정적인 효과에 면역이 됩니다. 추가로 함정은 시전자의 물리 치명타 확률에 비례한 치명타 효과를 내게 됩니다.
 		대부분의 함정은 발동되지 않은 경우 %d 턴 동안 지속되며, 발동되지 않은 채 지속시간이 끝나면 설치에 사용된 기력의 80%% 를 되돌려 받습니다.
 		여행중에 함정들을 해체하거나, 특별한 교관에게 배움으로써 더 많은 함정 도안을 획득할 수 있습니다.]], "tformat")
 t("Lure", "미끼", "talent name")
@@ -16361,7 +16839,7 @@ t([[You learn new techniques for setting traps.
 t("Trap Priming", "뇌관 장착", "talent name")
 t("#LIGHT_BLUE#Cancelled Trap Priming.", "#LIGHT_BLUE#뇌관 장착을 취소했다.", "logPlayer")
 t("#YELLOW_GREEN#Dismantling %s (instant trigger)", "#YELLOW_GREEN#해체 %s (즉발식 방아쇠)", "logPlayer")
-t("#LIGHT_GREEN#Preparing %s (instant trigger)", "#LIGHT_GREEN#%s (즉발식 방아쇠) 준비합니다", "logPlayer")
+t("#LIGHT_GREEN#Preparing %s (instant trigger)", "#LIGHT_GREEN#%s (즉발식 방아쇠) 준비한다", "logPlayer")
 t("#GREY#(see trap description)#LAST#", "#GREY#(함정 설명을 확인하세요.)#LAST#", "_t")
 t([[%sTier %d: %s#LAST#
 %s]], [[%s등급 %d: %s#LAST#
@@ -21656,7 +22134,7 @@ t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
 		최대 %d명의 적에게 피해를 줍니다.
 		자신이 빙결된 상태라면, 빙결 상태를 즉시 해제합니다.
 		피해량은 주문력에 비례합니다.]], "tformat")
-t("Uttercold", "절대 영도", "talent name")
+t("Uttercold", "절대영도", "talent name")
 t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%% and ignoring %d%% cold resistance of your targets
 		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], [[차가운 냉기로 주위를 둘러싸 냉기 피해를 %0.1f%% 만큼 증가시키고, %d%% 만큼의 냉기 저항을 무시합니다.
 		또한 얼음을 관통하여 공격하는 법을 배워, 언 적을 공격할 때, 얼음이 흡수하는 피해량이 %d%% 만큼 감소합니다.]], "tformat")
@@ -22317,7 +22795,7 @@ t([[Using your near-perfect knowledge of beam spells you combine them all into a
 		주술 피해는 "모든 속성 저항" 으로만 저항할 수 있고, 시전자의 가장 높은 속성 피해 변동치와, 가장 높은 저항 관통 수치를 이용하며, 다른 속성으로 변환될 수 없습니다.
 		이 주문은 타오르는 궤적과 태풍의 눈 효과를 발동합니다.
 		시전자가 쉬브고로스의 형상을 취한 상태라면, 젖음 효과에 영향을 받습니다 (피해량 30%% 증가)
-		결정화된 집중이나, 절대 영도가 활성화 되어있을 시, 25%% 확률로, 대상에게 3 턴 동안 기절이나 동결을 적용합니다.
+		결정화된 집중이나, 절대영도가 활성화 되어있을 시, 25%% 확률로, 대상에게 3 턴 동안 기절이나 동결을 적용합니다.
 		광선 주문으로 피해를 가할 때 마다, 남은 재사용 대기시간이 1 턴 씩 감소합니다 (이 효과는 한 턴에 1 번만 발동합니다.).
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Thaumaturgy Unlock Checker", "주술사 해제 체크", "talent name")
@@ -24430,8 +24908,8 @@ t("Ghoul's innate abilities.", "구울의 기본 능력입니다.", "_t")
 t("ghoul", "구울", "_t")
 t("Skeleton's innate abilities.", "스켈레톤의 기본 능력입니다.", "_t")
 t("skeleton", "스켈레톤", "_t")
-t("Vampire's innate abilities.", "뱀파이어의 기본 능력입니다.", "_t")
-t("vampire", "뱀파이어", "_t")
+t("Vampire's innate abilities.", "흡혈귀의 기본 능력입니다.", "_t")
+t("vampire", "흡혈귀", "_t")
 t("Liches innate abilities.", "리치의 기본 능력입니다.", "_t")
 t("lich", "리치", "_t")
 t("undead", "언데드", "talent category")
@@ -25804,116 +26282,710 @@ Now go to the other side of the pond.
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-adventurer.lua"
 
+t("New Class: #LIGHT_GREEN#Adventurer", "새로운 직업: #LIGHT_GREEN#모험가", "_t")
+t([[Congratulations, you have won the game!
+You can now create new characters with the #LIGHT_GREEN#Adventurer class#WHITE#.
+
+Adventurers start the game with 7 talent category points and all possible class and generic trees in the game.
+They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
+Use at your own risk, and have fun.]], [[축하합니다, 게임에서 승리하셨습니다!
+이제부터 #LIGHT_GREEN#모험가 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+모험가는 기술 계열 점수 7점을 갖고 시작하며, 게임 내에 존재하는 모든 직업 기술 계열과 일반 기술 계열을 사용할 수 있습니다.
+모험가는 #{bold}#보너스#{normal}# 직업이며, 이 직업에는 파워 밸런싱이나 기술 연계가 제대로 작동하는가 같은 것은 의미가 없습니다.
+사용할 땐 위험을 감수하시고, 재밌게 즐기세요.]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-afflicted_cursed.lua"
 
+t("New Class: #LIGHT_GREEN#Cursed (Afflicted)", "새로운 직업: #LIGHT_GREEN#저주받은 자 (고통받는 자)", "_t")
+t([[Through ignorance, greed or folly, the Cursed served some dark design and are now doomed to pay for their sins.
+Their only master now is the hatred they carry for every living thing.
+Drawing strength from the death of all they encounter, the Cursed become terrifying combatants.
+Worse, any who approach the Cursed can be driven mad by their terrible aura.
+Some of them, however, strive to redeem their faults by using their Cursed powers to battle evil.
+
+You have "lifted" the curse of Ben Cruthdar. You can now create new characters with the #LIGHT_GREEN#Cursed class#WHITE#.
+
+Cursed are heavy melee warriors, focusing all their hatred into their blows.
+Class features:#YELLOW#
+- Engulf your foes in your Gloom, weakening, confusing, stunning and damaging them
+- Hunt your prey, tracking them and marking them for death
+- Powerful melee combatant#WHITE#
+
+The Cursed use hate, a resource that grows as they kill their foes and decreases while standing idle.
+Most of their talents are more effective with high hate.
+]], [[무지, 탐욕, 혹은 어리석음으로 인해, 저주받은 자들은 한때 어둠의 존재를 섬겼었고 결국 그 죄의 대가로 파멸을 맞이했습니다.
+이제 그들을 지배하는 것은 살아 있는 모든 것에 대한 증오 뿐입니다.
+저주받은 자들은 다른 존재의 죽음으로부터 힘을 끌어내어, 무시무시한 전투 능력을 가집니다.
+심지어 그들에게 다가가는 이들은 저주받은 자들이 내뿜는 끔찍한 기운에 홀려 미쳐버릴 수도 있습니다.
+하지만 그들 중 몇몇은 스스로의 죄를 속죄하기 위해 자신들의 저주의 힘을 사용하여 악에 맞서 싸우기도 합니다.
+
+당신은 벤 크루스달의 저주를 "풀어" 주었습니다. 따라서 이제부터 #LIGHT_GREEN#저주받은 자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+저주받은 자들은 육중한 근접 전사들로, 그들의 증오를 전부 일격에 쏟아붓습니다.
+직업 특징:#YELLOW#
+- 암울한 기운으로 적들을 집어삼킨다. 그들을 약화, 혼란, 기절시킬 수 있으며 피해도 줄 수 있다.
+- 사냥감을 쫓는다. 그들을 추적할 수 있으며 죽음의 표식을 새길 수도 있다.
+- 강력한 근접 전투#WHITE#
+
+저주받은 자는 원천력으로 증오를 사용합니다. 증오는 적들을 죽여 얻을 수 있고, 아무것도 하고 있지 않을 때 줄어듭니다.
+증오가 높을 때 대부분의 기술이 효과가 좋아집니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-afflicted_doomed.lua"
 
+t("New Class: #LIGHT_GREEN#Doomed (Afflicted)", "새로운 직업: #LIGHT_GREEN#파멸한 자 (고통받는 자)", "_t")
+t([[Through ignorance, greed or folly, the Doomed served some dark design and must now pay for their sins.
+Their only master now is the hatred they carry for every living thing.
+Drawing strength from the death of all they encounter, the Doomed become terrifying foes.
+Their mere presence engulfs the area in darkness.
+Some of them, however, strive to redeem their faults by using their Doomed powers to battle evil.
+
+You destroyed your own doomed shadow. You can now create new characters with the #LIGHT_GREEN#Doomed class#WHITE#.
+
+Doomed are short range spellcasters.
+Class features:#YELLOW#
+- Engulf your foes in darkness
+- Summon shadows to fight for you
+- Unleash your hatred in raw physical form
+- Feed off the life of your foes#WHITE#
+
+The Doomed use hate, a resource that grows as they kill their foes and decreases while standing idle.
+Most of their talents are more effective with high hate.
+]], [[무지, 탐욕, 혹은 어리석음으로 인해, 파멸한 자들은 한때 어둠의 존재를 섬겼었고 결국 그 죄의 대가로 파멸을 맞이했습니다.
+이제 그들을 지배하는 것은 살아 있는 모든 것에 대한 증오 뿐입니다.
+파멸한 자들은 다른 존재의 죽음으로부터 힘을 끌어내어, 무시무시한 전투 능력을 가집니다.
+그들은 존재 자체만으로 주변을 어둠으로 집어삼켜 버립니다.
+하지만 그들 중 몇몇은 스스로의 죄를 속죄하기 위해 자신들의 파멸의 힘을 사용하여 악에 맞서 싸우기도 합니다.
+
+당신은 스스로의 파멸한 그림자를 파괴했습니다. 따라서 이제부터 #LIGHT_GREEN#파멸한 자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+파멸한 자들은 근거리 마법사들입니다.
+직업 특징:#YELLOW#
+- 적들을 어둠으로 집어삼킨다.
+- 자신의 편에서 싸우는 그림자들을 소환한다.
+- 증오를 원초적인 힘으로 바꾼다.
+- 적들에게서 생명력을 흡수한다.#WHITE#
+
+파멸한 자는 원천력으로 증오를 사용합니다. 증오는 적들을 죽여 얻을 수 있고, 아무것도 하고 있지 않을 때 줄어듭니다.
+증오가 높을 때 대부분의 기술이 효과가 좋아집니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-birth_transmo_chest.lua"
 
+t("New birth equipment: #LIGHT_GREEN#Transmogrification Chest", "새로운 초기 장비: #LIGHT_GREEN#변환 상자", "_t")
+t([[You have discovered an old Fortress belonging to the mysterious Sher'tul race.
+The Fortress shadow gave you a transmogrification chest which shall make your dealing with storage and gold much easier.
+
+All your new characters will now start with a transmogrification chest at birth. All items transmogrified before you find the Fortress with them will only yield gold.
+]], [[당신은 신비로운 쉐르'툴 종족의 고대 요새를 발견했습니다.
+요새의 그림자는 당신에게 변환 상자를 주었습니다. 이 물건은 배낭 공간 확보에 도움이 되며 골드를 더욱 쉽게 얻을 수 있게 해 줍니다.
+
+따라서 이제부터 새로 생성하는 모든 캐릭터들은 변환 상자를 처음부터 가진 상태로 시작하게 됩니다. 해당 캐릭터들이 요새를 발견하기 전에 변환한 물건들은 에너지 없이 그저 골드만 생산할 것입니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-birth_zigur_sacrifice.lua"
 
+t("New birth power: #LIGHT_GREEN#Ziguranth Sacrifice", "새로운 초기 능력: #LIGHT_GREEN#지구랏의 제물", "_t")
+t([[You have discovered Zigur, the bastion of Nature fighting against all arcane magics.
+Magic has caused so much pain and suffering on the world, it needs to stop.
+
+All your new characters will now be able to betray arcane escort quests to send them to Zigur, granting new, different, rewards.
+]], [[당신은 모든 마법에게 맞서 싸우는 대자연의 요새 지구르를 발견했습니다.
+마법은 이 세계에 너무나 많은 고통을 가했고, 이제 그들을 막아야 합니다.
+
+따라서 이제부터 새로 생성하는 모든 캐릭터들은 마법사 호위 대상을 배신해 그들을 지구르로 보낼 수 있으며, 그 경우 새롭고 색다른 보상을 받을 수 있습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-campaign_arena.lua"
 
+t("New game campaign: #LIGHT_GREEN#The Arena: Challenge of the Master", "새로운 게임 캠페인: #LIGHT_GREEN#아레나: 정점을 향한 도전", "_t")
+t([[The arena, a way of violent entertainment. 
+A delight for the audience, a source of wealth and glory. A place where aspiring fighters, former adventurers and those cursed to fight
+eternally gather to hack away at each other.
+
+You have unlocked the Arena and can now create new characters in a new campaign: #LIGHT_GREEN#The Arena#WHITE#.
+
+The arena pits you against multiple enemies in an open field, making your battle tactics important for survival.
+Campaign features:#YELLOW#
+- No quests, plots, friendly creatures or ways out: only you against all odds.
+- Exclusive scoring system where the faster you kill, the more you earn. Scores are kept for bragging rights!
+- Pure hack and slash MAYHEM!
+- Your champion becomes the new master of the arena, allowing you to challenge your own champions!
+]], [[투기장은 폭력적인 유희의 장입니다. 
+관중들을 만족시키기 위한, 부와 영광의 원천. 전사가 되길 바라는 자들과 전직 모험가들, 그리고 영원히 싸움을 계속하기로 저주받은 자들이 모여
+서로를 베어 나가는 곳이기도 하죠.
+
+당신은 투기장을 해금하였고 이제부터 새로운 캠페인 #LIGHT_GREEN#아레나#WHITE#로 캐릭터를 생성할 수 있습니다.
+
+아레나 캠페인에선 열린 장소에서 다수의 적들과 싸우게 되며, 살아남으려면 전술을 잘 짜야 합니다.
+캠페인 특징:#YELLOW#
+- 퀘스트도, 이야기도, 친근한 생명체들도, 심지어 나가는 길도 없음. 오직 당신 혼자서 모두 상대해야 합니다.
+- 전용 점수 집계 시스템. 빠르게 죽일수록 더 많은 점수를 얻을 수 있습니다. 점수는 뽐내기 위함입니다!
+- 순수한 핵 앤 슬래시의 난장판!!
+- 당신의 챔피언이 새로운 투기장의 주인이 되며, 자신이 만든 챔피언에게 도전할 수 있습니다!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-campaign_infinite_dungeon.lua"
 
+t("New game campaign: #LIGHT_GREEN#Infinite Dungeon: The Neverending Descent", "새로운 게임 캠페인: #LIGHT_GREEN#무한의 던전: 끝없는 하강", "_t")
+t([[During the Age of Haze, the nine Godslayers set out to destroy the gods.
+The god Ralkur, while trying to escape one of the Godslayers, created the Infinite Dungeon.
+He retreated there, but the Godslayer followed, and each time he would reach the god, Ralkur would create a new level.
+It is said the hunt continues even now, deep, very deep within the dungeon.
+
+You have unlocked the secret of the Infinite Dungeon and can now create new characters in a new campaign: #LIGHT_GREEN#Infinite Dungeon#WHITE#.
+
+The Infinite Dungeon is a set of ever-increasing levels filled with terrible foes.
+Campaign features:#YELLOW#
+- No quests, plots, friendly creatures or ways out: only you against all odds.
+- No win condition: you WILL die in the dungeon, but you can prove your worth by going as deep as possible.
+- Pure hack and slash MAYHEM!#WHITE#
+]], [[아지랑이의 시대에, 아홉 명의 신살자들은 신들을 파괴하기 시작했습니다.
+그 신살자들 중 한 명으로부터 도망친 랄쿠르 신은 무한의 던전을 창조했습니다.
+그는 그곳으로 후퇴하였지만 신살자가 그를 쫓아왔고, 그 신살자가 그에게 당도할 때마다 랄쿠르 신은 새로운 층을 창조했습니다.
+그 사냥은 지금까지도 던전의 매우, 매우 깊은 곳에서 계속되고 있다고 합니다.
+
+당신은 무한의 던전의 비밀을 풀었고 이제부터 새로운 캠페인 #LIGHT_GREEN#무한의 던전#WHITE#으로 캐릭터를 생성할 수 있습니다.
+
+무한의 던전은 끔찍한 적들로 가득한, 끝이 없는 던전입니다.
+캠페인 특징:#YELLOW#
+- 퀘스트도, 이야기도, 친근한 생명체들도, 심지어 나가는 길도 없음. 오직 당신 혼자서 모두 상대해야 합니다.
+- 승리 조건이 없음. 당신은 *무조건* 던전 안에서 죽게 될 것이지만, 최대한 깊이 내려가는 것으로 스스로의 가치를 증명할 수 있습니다.
+- 순수한 핵 앤 슬래시의 난장판!!#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-chronomancer_paradox_mage.lua"
 
+t("New Class: #LIGHT_GREEN#Paradox Mage (Chronomancer)", "새로운 직업: #LIGHT_GREEN#괴리술사 (시공술사)", "_t")
+t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
+Some seek to weave this fabric, to bend it and shape it to their own will.  Only the truly dedicated or the truly mad manage to unlock the secrets of time and space.
+
+You have learned such secrets and can now create new characters with the #LIGHT_GREEN#Paradox Mage class#WHITE#.
+
+Paradox Mages are non-traditional spell casters who use chronomancy to reshape the universe.
+Class features:#YELLOW#
+- Control the flow of time around you
+- Bend and manipulate the timestream or even pull yourself from the future
+- Manipulate space and gravity to smash your foes to pieces or keep them in place
+- See into the future or even travel into the past#WHITE#
+
+Paradox Mages use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
+The higher their paradox the greater the effect of their powers but the harder they'll be to control.
+]], [[시간은 선형적이지 않습니다. 그렇게 보이는 것일 뿐이죠. 사실 시간은 천과 같은 형태이며, 그 천 자체가 우주와 엮여 있습니다.
+어떤 이들은 이 천을 엮어내려 하고, 또 자신이 원하는 대로 구부리려 하며 원하는 형태로 만드려 합니다. 정말로 노력을 기울이거나, 아니면 정말로 미친 자들만이 간신히 시공간의 비밀을 풀어낼 수 있습니다.
+
+당신은 방금 그런 비밀을 알았고, 따라서 이제부터 #LIGHT_GREEN#괴리술사 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+괴리술사는 전통적인 마법사들과는 다르며, 시공 마법을 사용하여 우주를 재구성합니다.
+직업 특징:#YELLOW#
+- 주변의 시간의 흐름을 조정한다.
+- 시간의 흐름을 구부리고 조작하며, 심지어 자기 자신을 미래에서 불러오기도 한다.
+- 공간과 중력을 조작하여 적들을 조각내거나 제자리에 고정시킨다.
+- 미래를 볼 수 있으며, 심지어 과거로 시간여행을 하기도 한다.#WHITE#
+
+괴리술사들은 자신들의 힘으로 괴리를 사용합니다. 괴리는 그들이 시공간 연속성에 얼마나 손상을 가했는가를 나타냅니다.
+괴리가 커질수록 힘이 강력해지지만, 힘을 제어하는 것 또한 점점 힘들어집니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-chronomancer_temporal_warden.lua"
 
+t("New Class: #LIGHT_GREEN#Temporal Warden (Chronomancer)", "새로운 직업: #LIGHT_GREEN#시간 감시자 (시공술사)", "_t")
+t([[Time isn't a linear thing; it only appears to be.  In truth it's a fabric, the very fabric that holds the universe together.
+As with all great powers, there are those who seek to manipulate it and pervert it, but there are also those who seek to uphold rather than destroy.
+Those who have learned to bend, rather than break, the fabric can keep the balance against dark or power-hungry forces.
+
+You have been taught the ways of chronomancy by a Temporal Warden and can now create new characters with the #LIGHT_GREEN#Temporal Warden class#WHITE#.
+
+Temporal Wardens are warriors proficient in both ranged and hand-to-hand combat.
+Class features:#YELLOW#
+- Dual-wield a medium sized and a small weapon or attack from afar with your ranged weapon skills
+- Manipulate space and time to speed yourself up, create wormholes, or even throw an opponent into the future
+- See into the future or even travel into the past#WHITE#
+
+Temporal Wardens use Paradox for their powers.  It represents how much damage they've done to the spacetime continuum.
+The higher their paradox the greater the effect of their powers but the harder they'll be to control.
+]], [[시간은 선형적이지 않습니다. 그렇게 보이는 것일 뿐이죠. 사실 시간은 천과 같은 형태이며, 그 천 자체가 우주와 엮여 있습니다.
+시간의 힘은 굉장하기 때문에 그것을 조작하거나 왜곡시키려 하는 자들이 있습니다. 그러나 시간을 파괴하는 대신에 유지시키려 하는 자들도 있습니다.
+부수는 법 대신 구부리는 법을, 그리고 시간이 사악하거나 힘에 굶주린 무리에 맞서 균형을 유지할 수 있음을 배운 자들이지요.
+
+당신은 시간 감시자에게서 시공 마법에 대해 배웠고, 따라서 이제부터 #LIGHT_GREEN#시간 감시자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+시간 감시자들은 원거리 전투와 근거리 전투에 모두 능한 전사들입니다.
+직업 특징:#YELLOW#
+- 검과 단검을 동시에 쥐거나, 원거리 무기 기술로 멀리서 공격한다.
+- 시공간을 조작하여 빠르게 행동하거나 웜홀을 만들고, 심지어 상대방을 미래로 던져버리기도 한다.
+- 미래를 볼 수 있으며, 심지어 과거로 시간여행을 하기도 한다.#WHITE#
+
+시간 감시자들은 자신들의 힘으로 괴리를 사용합니다. 괴리는 그들이 시공간 연속성에 얼마나 손상을 가했는가를 나타냅니다.
+괴리가 커질수록 힘이 강력해지지만, 힘을 제어하는 것 또한 점점 힘들어집니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-corrupter_corruptor.lua"
 
+t("New Class: #LIGHT_GREEN#Corruptor (Defiler)", "새로운 직업: #LIGHT_GREEN#타락자 (모독자)", "_t")
+t([[Every power has a dark side, including the arcane forces.
+Corruptors are mages that deal in dark, blighted, demonic magic to attain their goals.
+Not all of them are evil, though; some are simply selfish and concerned only with their own power.
+
+You have been taught their ways by the Grand Corruptor and can now create new characters with the #LIGHT_GREEN#Corruptor class#WHITE#.
+
+Corruptors are spellcasters, ranged attackers using magic.
+Class features:#YELLOW#
+- Plague your foes with deadly and contagious diseases
+- Hex and curse your foes, hindering and withering them away
+- Sap the life of your victims to heal yourself
+- Master demonic energies to burn and destroy. You can even summon a part of the demon plane, the Fearscape, to trap your foes.#WHITE#
+
+Corruptors use "vim" to power their special abilities.
+Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
+]], [[모든 힘에는 각각 어두운 면이 있습니다. 마법 또한 예외가 아니죠.
+타락자들은 자신들의 목적을 이루기 위해 사악하고 황폐화된, 악마의 마법을 다루는 자들입니다.
+하지만 사악한 자들만 있는 것은 아닙니다. 그들 중 몇몇은 그저 자신의 힘을 키우고 그것에 만족할 뿐입니다.
+
+당신은 위대한 타락자에게서 그들의 방식을 전수받았고, 따라서 이제부터 #LIGHT_GREEN#타락자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+타락자는 마법을 사용해 멀리서 공격하는 마법사입니다.
+직업 특징:#YELLOW#
+- 적들에게 치명적인 감염을 심고 전염병을 퍼뜨린다.
+- 적들에게 주술과 저주를 걸고, 적들을 방해하며 약화시킨다.
+- 적들에게서 생명력을 흡수한다.
+- 악마의 에너지를 사용해 적들을 불태우고 파괴하는 것에 능하다. 심지어 악마 차원의 일부인 공포의 영역을 소환해 적들을 가두기도 한다.#WHITE#
+
+타락자들은 "원기" 를 원천으로 삼습니다.
+원기는 모든 존재의 생명력입니다. 원기는 저절로 회복되지 않으며, 적들에게서 빼앗아야만 회복됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-corrupter_reaver.lua"
 
+t("New Class: #LIGHT_GREEN#Reaver (Defiler)", "새로운 직업: #LIGHT_GREEN#약탈자 (모독자)", "_t")
+t([[Under a veil of darkness and blight come the Reavers.
+The foot soldiers of evil forces, Reavers are found everywhere.
+Very rarely a Reaver will realise the wrongness of her way and use her powers to atone for her crimes.
+
+You have slain numerous humanoids and can now create new characters with the #LIGHT_GREEN#Reaver class#WHITE#.
+
+Reavers are heavy melee with spellcasting support.
+Class features:#YELLOW#
+- Plague your foes with deadly and contagious diseases
+- Hex and curse your foes, hindering and withering them away
+- Accomplish deadly melee moves of utmost evil
+- Harness the power of bones to attack and protect#WHITE#
+
+Reavers use "vim" to power their special abilities.
+Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
+]], [[약탈자들은 어둠과 황폐의 장막 뒤에 있는 자들입니다.
+악의 군세의 군인과도 같은 존재들로, 약탈자들은 어디에나 있습니다.
+극소수의 약탈자들은 자신들의 방법이 잘못되었음을 깨닫고 자신의 죄를 속죄하는 데에 스스로의 힘을 사용하기도 합니다.
+
+당신은 수많은 인간형 생명체들을 죽였고, 따라서 이제부터 #LIGHT_GREEN#약탈자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+약탈자들은 마법을 보조로 사용하는 육중한 근거리 전사들입니다.
+직업 특징:#YELLOW#
+- 적들에게 치명적인 감염을 심고 전염병을 퍼뜨린다.
+- 적들에게 주술과 저주를 걸고, 적들을 방해하며 약화시킨다.
+- 사악하고 치명적인 일격을 가한다.
+- 뼈의 힘으로 공격과 방어를 수행한다.#WHITE#
+
+약탈자들은 "원기" 를 원천으로 삼습니다.
+원기는 모든 존재의 생명력입니다. 원기는 저절로 회복되지 않으며, 적들에게서 빼앗아야만 회복됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-cosmetic_bikini.lua"
 
+t("New Cosmetic Option: #LIGHT_GREEN#Bikini and Mankini", "새로운 치장 옵션: #LIGHT_GREEN#비키니와 맨키니", "_t")
+t([[You have saved Melinda again at the beach.
+
+You may now create characters that start equiped with either bikini or mankini.
+This has no effect on gameplay at all but it is fun!
+
+#{bold}#Also if you never take your bikini/mankini off and manage to win, you will get an achievement!#{normal}#
+
+#LIGHT_GREEN#This is only available to donators. Thanks for your support!
+]], [[당신은 해변에서 멜린다를 다시 한 번 구하셨습니다.
+
+이제부터 비키니나 맨키니를 입고 시작하는 캐릭터를 생성할 수 있습니다.
+게임 플레이 자체에 영향은 없지만 재밌잖아요!
+
+#{bold}#또한 만약에 비키니/맨키니를 절대 벗지 않은 채로 게임에서 승리하면, 도전 과제를 하나 달성하실 수 있습니다!#{normal}#
+
+#LIGHT_GREEN#이건 기부자 전용 혜택입니다. 지원 고마워요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-cosmetic_class_alchemist_drolem.lua"
 
+t("New Class Option: #LIGHT_GREEN#Drolem", "새로운 직업 옵션: #LIGHT_GREEN#드롤렘", "_t")
+t([[You have defeated Tannen with your Alchemist and took some time to figure how he built a mighty Drolem.
+Drolems are dragon-shaped golems able to breath powerful poison at their foes.
+
+You may now create alchemist characters with a drolem instead of a golem.
+Drolems look awesome and can eventually learn to breathe poison.
+
+#LIGHT_GREEN#This is only available to donators. Thanks for your support!
+]], [[당신은 연금술사 캐릭터로 탄넨을 쓰러뜨렸으며, 그가 어떻게 강력한 드롤렘을 만들어냈는지 조사했습니다.
+드롤렘은 용과 닮은 형태의 골렘으로, 적들에게 강력한 독성 숨결을 내뿜을 수 있습니다.
+
+이제부터 골렘 대신에 드롤렘을 쓸 수 있는 연금술사 캐릭터를 생성할 수 있습니다.
+드롤렘은 생긴 게 멋있고 레벨이 오르면 독성 숨결도 배울 수 있습니다.
+
+#LIGHT_GREEN#이건 기부자 전용 혜택입니다. 지원 고마워요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-cosmetic_race_dwarf_female_beard.lua"
 
+t("New Cosmetic Race Option: #LIGHT_GREEN#Facial Pilosity for Female Dwarves", "새로운 종족 치장 옵션: #LIGHT_GREEN#여성 드워프의 수염", "_t")
+t([[You have saved the Iron Council from untold horrors from the deep.
+
+You may now create female dwarf characters sporting proudly facial pilosity as is the norm in the upper classes of dwarven society.
+This has no effect on gameplay at all but it is fun!
+
+#LIGHT_GREEN#This is only available to donators. Thanks for your support!
+]], [[당신은 깊은 곳의 말 못할 공포들로부터 철의 평의회를 지켜냈습니다.
+
+이제부터 수염이 난 여성 드워프 캐릭터를 생성할 수 있습니다. 드워프 사회 상류층에게 수염은 당연한 것이죠.
+게임 플레이 자체에 영향은 없지만 재밌잖아요!
+
+#LIGHT_GREEN#이건 기부자 전용 혜택입니다. 지원 고마워요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-cosmetic_race_human_redhead.lua"
 
+t("New Cosmetic Race Option: #LIGHT_GREEN#Redhead Characters", "새로운 종족 치장 옵션: #LIGHT_GREEN#붉은 머리칼", "_t")
+t([[You have saved Melinda from untold horrors and torments.
+
+You may now create human, elf, halfling and dwarf characters with red hair.
+This has no effect on gameplay at all but it is fun!
+
+#LIGHT_GREEN#This is only available to donators. Thanks for your support!
+]], [[당신은 말 못할 공포들과 고문으로부터 멜린다를 구해냈습니다.
+
+이제부터 붉은 색 머리칼을 가진 인간, 엘프, 하플링, 그리고 드워프 캐릭터를 생성할 수 있습니다.
+게임 플레이 자체에 영향은 없지만 재밌잖아요!
+
+#LIGHT_GREEN#이건 기부자 전용 혜택입니다. 지원 고마워요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-difficulty_insane.lua"
 
+t("New game difficulty mode: #LIGHT_GREEN#Insane", "새로운 난이도: #LIGHT_GREEN#광기", "_t")
+t([[You won the game on Nightmare mode.  You are a big tough player!
+You thought you had seen it all, done it all...
+
+But no! If nightmare mode couldn't bring you down, Insane mode will!
+
+Insane features:#YELLOW#
+- All zone levels increased by 50% + 3
+- All creature talent levels increased by 50%
+- Rare creatures are far more frequent and random bosses start to appear
+- Bosses will have randomly selected talents
+- All enemies have 20% more life
+- Player can earn Insane version of achievements if also playing in Roguelike permadeath mode.
+
+#WHITE#May you suffer many fun and unfair deaths!
+]], [[당신은 악몽 난이도 게임에서 승리했습니다. 꽤나 강인한 플레이어시군요!
+이제 이 게임은 볼장 다 봤고, 다 끝났어...
+
+라고 생각하십니까? 아직입니다! 악몽 난이도로 부족하시다면, 광기 난이도가 있습니다!
+
+광기 난이도 특징:#YELLOW#
+- 모든 지역의 레벨이 50% + 3 만큼 증가
+- 모든 존재들의 기술 레벨이 50% 만큼 증가
+- 희귀 등급 적들이 매우 자주 등장하며 랜덤 보스들이 등장하기 시작함
+- 보스들은 랜덤한 기술들을 가지게 됨
+- 모든 적의 생명력이 20% 증가
+- 탐험 모드가 아니라면 광기 난이도의 도전 과제를 달성 가능
+
+#WHITE#재미있고 불합리한 죽음에 수없이 고통받으시길!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-difficulty_madness.lua"
 
+t("New game difficulty mode: #LIGHT_GREEN#Madness", "새로운 난이도: #LIGHT_GREEN#광란", "_t")
+t([[You won the game on Insane mode.  You are one of the best players!
+But fear not because the game is just about to get even more unfair on you!
+
+Welcome to Madness!
+
+Madness features:#YELLOW#
+- All zone levels increased by 150% + 6
+- All creature talent levels increased by 170%
+- Rare creatures are far more frequent and random bosses start to appear
+- Bosses will have randomly selected talents
+- Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is
+- Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.
+
+#WHITE#May you suffer many fun and unfair deaths!
+]], [[당신은 광기 난이도 게임에서 승리했습니다. 가장 뛰어난 플레이어들 중 한 명이시군요!
+하지만 긴장하시라, 이 게임은 훨씬 더 불합리해질 수 있답니다!
+
+광란 난이도에 오신 걸 환영합니다!
+
+광란 난이도 특징:#YELLOW#
+- 모든 지역의 레벨이 150% + 6 만큼 증가
+- 모든 존재들의 기술 레벨이 170% 만큼 증가
+- 희귀 등급 적들이 매우 자주 등장하며 랜덤 보스들이 등장하기 시작함
+- 보스들은 랜덤한 기술들을 가지게 됨
+- 플레이어가 사냥당합니다! 랜덤하게 특정 범위 내의 모든 적들이 플레이어의 위치를 알게 됨
+- 탐험 모드가 아니라면 광란 난이도의 도전 과제를 달성 가능
+
+#WHITE#재미있고 불합리한 죽음에 수없이 고통받으시길!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-divine_anorithil.lua"
 
+t("New Class: #LIGHT_GREEN#Anorithil (Celestial)", "새로운 직업: #LIGHT_GREEN#아노리실 (천공의 사도)", "_t")
+t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
+
+Anorithil are mages who are trained in special magic to focus the powers of the Sun and Moons.
+They have learned to harness the energy of both shadows and light in their battle against the Pride.
+Their motto is: "We stand betwixt the Sun and Moons, where light and darkness meet. In the grey twilight we seek our destiny."
+
+You have helped one of them and can now create new characters with the #LIGHT_GREEN#Anorithil class#WHITE#.
+
+Anorithil are pure spellcasters that rely on positive and negative energies.
+Class features:#YELLOW#
+- Burn your foes from afar with the light and fire of the Sun
+- Head into battle enhanced by your powerful Sun Chants and Moon Hymns
+- Engulf your foes in the shadows
+- Set glyphs of power to confuse and control your foes#WHITE#
+
+Anorithil use "positive and negative energy" to use their special abilities.
+These are filled by some of their spells and depleted by others, making them alternate their talents.
+]], [[동쪽 멀리, '동쪽의 대륙' 이라고만 알려진 땅에는, 오크 긍지와 그 외 온갖 위험한 것들에 맞서 싸우는 엘프족과 인간족 최후의 생존자들이 살고 있습니다.
+
+아노리실들은 태양과 달의 힘을 다루는 특수한 마법을 배운 마법사들입니다.
+그들은 오크 긍지와의 싸움에서 그림자와 빛, 그 둘 모두의 에너지를 다루는 법을 터득했습니다.
+'우리는 태양과 달 사이, 빛과 어둠이 만나는 곳에 서 있다. 잿빛의 황혼 속에서 우리의 운명을 찾으리라.' 가 그들의 좌우명입니다.
+
+당신은 그들의 일원을 도와주었고, 따라서 이제부터 #LIGHT_GREEN#아노리실 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+아노리실은 음양의 에너지에 기대는 순수 마법사입니다.
+직업 특징:#YELLOW#
+- 태양의 빛과 열기로 적들을 불태워버린다.
+- 강력한 태양과 달의 찬가로 자신을 강화하고 전투에 나선다.
+- 그림자로 적들을 집어삼킨다.
+- 힘의 문양으로 적들을 혼란시키고 제어한다.#WHITE#
+
+아노리실은 "음기와 양기" 를 원천으로 삼습니다.
+아노리실의 기술들은 이것을 회복하기도 하고 소모하기도 하기 때문에, 기술들을 번갈아 써야 합니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-divine_sun_paladin.lua"
 
+t("New Class: #LIGHT_GREEN#Sun Paladin (Celestial)", "새로운 직업: #LIGHT_GREEN#태양의 기사 (천공의 사도)", "_t")
+t([[In the uttermost east, on the continent known only as the Far East, dwell the last remnants of Elves and Humans, fighting the Orc Pride and the many perils of the Far East.
+
+Sun Paladins are warriors who are trained in special magic to focus the powers of the Sun.
+Paragons of all that is good, they are nonetheless terrible in their battle against the Pride.
+Their motto is: "The Sun is our giver, our purity, our essence. We carry the light into dark places, and against our strength none shall pass."
+
+You have discovered the Gates of Morning and can now create new characters with the #LIGHT_GREEN#Sun Paladin class#WHITE#.
+
+Sun Paladins are heavy melee with spellcasting support.
+Class features:#YELLOW#
+- Burn your foes from afar with the light and fire of the Sun
+- Head into battle enhanced by your powerful Chants
+- Channel the power of the Sun through your weapon
+- Become a walking fortress, protected by your shield#WHITE#
+
+Sun Paladins use "positive energy" to power their special abilities.
+It is filled by some of their spells and depleted by others, making them alternate their talents.
+]], [[동쪽 멀리, '동쪽의 대륙' 이라고만 알려진 땅에는, 오크 긍지와 그 외 온갖 위험한 것들에 맞서 싸우는 엘프족과 인간족 최후의 생존자들이 살고 있습니다.
+
+태양의 기사들은 태양의 힘을 다루는 특수한 마법을 배운 전사들입니다.
+그들은 선한 이들의 귀감이 되는 존재들이지만, 오크 긍지에 맞서 싸울때는 공포 그 자체입니다.
+'태양은 우리의 힘이요, 순수이자 정수이니, 우리는 어두운 곳에 빛을 가져오며 우리의 힘에 맞서는 이는 누구도 지나갈 수 없다.' 가 그들의 좌우명입니다.
+
+당신은 아침의 문을 발견하였고, 따라서 이제부터 #LIGHT_GREEN#태양의 기사 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+태양의 기사들은 마법을 보조로 사용하는 육중한 근거리 전사들입니다.
+직업 특징:#YELLOW#
+- 태양의 빛과 열기로 적들을 불태워버린다.
+- 강력한 태양의 찬가로 자신을 강화하고 전투에 나선다.
+- 무기에 태양의 힘을 흘려보낸다.
+- 방패를 통해 움직이는 요새가 된다.#WHITE#
+
+태양의 기사는 "양기" 를 원천으로 삼습니다.
+태양의 기사의 기술들은 이것을 회복하기도 하고 소모하기도 하기 때문에, 기술들을 번갈아 써야 합니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-mage.lua"
 
+t("New Class: #LIGHT_GREEN#Archmage", "새로운 직업: #LIGHT_GREEN#마도사", "_t")
+t([[Magic has not disappeared from Maj'Eyal with the end of the Spellhunt.
+
+During the Age of Dusk, as the Spellhunt was nearing its end, a powerful mage of the Kar'Krul, Linaniil, created a safe haven for the few remaining mages of all races.
+This place is Angolwen, the City of Magic, and for over two thousands years has taught magic to preserve and expand it.
+
+You have been told this story and can now create new characters with the #LIGHT_GREEN#Archmage class#WHITE#.
+
+Archmagi are the pinnacle of spellcasters, attuned to the magical properties of the world.
+Class features:#YELLOW#
+- Cast elemental spells to burn your foes to death or freeze them
+- Summon the powers of Space and Time to protect and cripple
+- Dabble in Phantasms and Illusions
+- Manipulate the forces of magic themselves#WHITE#
+
+All mages use mana to cast their spells.
+It slowly replenishes over time.
+]], [[마법 사냥이 끝났을 때에도, 마법은 마즈'에이알에서 사라지지 않았습니다.
+
+황혼의 시대에, 마법 사냥이 끝나갈 무렵 카르'크룰의 강력한 마법사 리나니일은 마법사들을 위해 종족을 초월한 안식처를 만들어냈습니다.
+그곳이 바로 마법의 도시 앙골웬이며, 앙골웬은 이천 년이 넘는 세월 동안 마법을 보호하고 연구해 왔습니다.
+
+당신은 수습생에게서 이 이야기를 들었고, 따라서 이제부터 #LIGHT_GREEN#마도사 직업#WHITE#의 캐릭터를 생성할 수 있게 되었습니다.
+
+마도사들은 마법의 정점에 선 자들이며, 이 세상의 마법에 통달했습니다.
+직업 특징:#YELLOW#
+- 원소 마법을 시전하여 적들을 불태우거나 얼려버린다.
+- 시공간의 힘을 불러내어 방어하거나 적을 으스러뜨린다.
+- 환상과 환영 마법에도 다소 조예가 있다.
+- 스스로 마법의 힘을 조작한다.#WHITE#
+
+모든 마법사들은 주문을 시전하기 위해 마나를 사용합니다.
+마나는 시간이 지나면서 천천히 회복됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-mage_cryomancer.lua"
 
+t("New Talent Category: #LIGHT_GREEN#Ice", "새로운 기술 계열: #LIGHT_GREEN#얼음", "_t")
+t([[Since the dawn of time mages have experimented with the elements.
+While most mages are content using the Water school, a few of them took their research deeper and created Ice magic.
+At its core lies the Uttercold, a cold so cold it can even damage creatures normally immune.
+
+You have mastered ice magic and can now create new Archmage and Necromancer characters that can learn the #LIGHT_GREEN#Ice talents#WHITE#.
+
+Talents:
+- #YELLOW#Freeze: #WHITE#Condense ambient water on a target, damaging and freezing it
+- #YELLOW#Frozen Ground: #WHITE#Unleash a nova of ice on the ground, stopping the movements of anything caught inside
+- #YELLOW#Shatter: #WHITE#Shatter all frozen creatures in your sight, dealing increased damage or even killing them
+- #YELLOW#Uttercold: #WHITE#Master the Uttercold and pierce even through cold immunities
+]], [[태초부터 마법사들은 원소를 연구해 왔습니다.
+대부분의 마법사들은 물의 마법을 사용하는 것으로 만족한 반면에, 몇몇 이들은 더욱 깊게 연구하여 얼음의 마법을 창시했습니다.
+얼음 마법의 핵심이 절대영도에 있었기에, 그 냉기는 너무나도 차가워 일반적으로 냉기에 면역인 것들에게도 피해를 줄 수 있었습니다.
+
+당신은 얼음의 마법을 완성하였고, 따라서 이제부터 #LIGHT_GREEN#얼음 기술#WHITE#을 배울 수 있는 마도사와 강령술사 캐릭터를 생성할 수 있습니다.
+
+속한 기술들:
+- #YELLOW#빙결: #WHITE#주위의 물을 대상에게 모아, 피해를 입히고 얼려버립니다.
+- #YELLOW#얼어붙은 대지: #WHITE#지면에 얼음 폭발을 일으켜 그 안에 있던 것들의 움직임을 멈춥니다.
+- #YELLOW#산산조각: #WHITE#시야 내의 얼어붙어 있는 존재들을 모두 산산조각내, 강한 피해를 입히고 심지어 즉사시킵니다.
+- #YELLOW#절대영도: #WHITE#절대영도의 힘을 완벽히 익혀, 냉기 저항마저 관통할 수 있게 됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-mage_geomancer.lua"
 
+t("New Talent Category: #LIGHT_GREEN#Stone", "새로운 기술 계열: #LIGHT_GREEN#암석", "_t")
+t([[Since the dawn of time mages have experimented with the elements.
+While most mages are content using the Earth school, a few of them took their research deeper and created Stone magic.
+At its core lies the Crystalline Focus, which can create attacks so sharp they can cut through physical immunity.
+
+You have mastered stone magic and can now create new Archmage and Arcane Blade characters that can learn the #LIGHT_GREEN#Stone talents#WHITE#.
+
+Talents:
+- #YELLOW#Earthen Missiles: #WHITE#Fire multiple missiles of stone independently at targets
+- #YELLOW#Body of Stone: #WHITE#Turn into stone, reducing the cooldown of many stone/earth talents
+- #YELLOW#Earthquake: #WHITE#Create a localized earthquake, stunning all in the area
+- #YELLOW#Crystalline Focus: #WHITE#Master the Stone and pierce even through physical immunities
+]], [[태초부터 마법사들은 원소를 연구해 왔습니다.
+대부분의 마법사들은 대지의 마법을 사용하는 것으로 만족한 반면에, 몇몇 이들은 더욱 깊게 연구하여 암석의 마법을 창시했습니다.
+암석 마법의 핵심이 결정화된 집중에 있었기에, 그것을 이용한 공격은 너무나도 날카로워 물리적인 피해에 면역인 것들마저 벨 수 있었습니다.
+
+당신은 암석의 마법을 완성하였고, 따라서 이제부터 #LIGHT_GREEN#암석 기술#WHITE#을 배울 수 있는 마도사와 마법 검사 캐릭터를 생성할 수 있습니다.
+
+속한 기술들:
+- #YELLOW#암석 화살: #WHITE#대상을 각각 지정하여 여러 발의 바위 화살을 발사합니다.
+- #YELLOW#암석의 신체: #WHITE#피부를 돌로 변화시켜, 암석/대지 기술들의 재사용 대기시간을 줄입니다.
+- #YELLOW#지진: #WHITE#국지성 지진을 일으켜 범위 내 모든 적들을 기절시킵니다.
+- #YELLOW#결정화된 집중: #WHITE#암석의 힘을 완벽히 익혀, 물리 저항마저 관통할 수 있게 됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-mage_necromancer.lua"
 
+t("New Class: #LIGHT_GREEN#Necromancer", "새로운 직업: #LIGHT_GREEN#강령술사", "_t")
+t([[Necromancy, the forbidden art.
+Necromancy, the black art.
+
+During the Age of Dusk and the Age of Pyre the world went through a tortured era. Kingdoms were shattered, whole races suppressed, and diseases ran wild, killing millions.
+It was a dark time and amidst the chaos came the bringers of terror: the necromancers.
+Though they always existed, and will always exist whilst our souls are open to temptation, this was their true age of glory.
+The so-called 'noble' archmages regard necromancers as fallen brothers that must be corrected... or removed. But necromancers consider themselves misunderstood practitioners of an art that others are too scared or too feeble to touch. And oh, what great powers those arts do bring....
+
+You have learnt the basics of necromancy, killed a real one, and can now create new characters with the #LIGHT_GREEN#Necromancer class#WHITE#.
+
+Necromancers are dark spellcasters, attuned to death itself. Their ultimate goal is their own eternal life, often as a Lich.
+Class features:#YELLOW#
+- Cast darkness and ice infused spells to destroy your foes
+- Summon an army of undead minions to do your bidding
+- Use your minions as pawns, sacrificing them in various cruel and unusual ways
+- Embark on the quest of your life: Lichdom#WHITE#
+
+All mages use mana to cast their spells.
+It slowly replenishes over time.
+]], [[강령술, 그것은 금지된 마법.
+강령술, 그것은 사악한 마법.
+
+황혼의 시대와 장작의 시대 동안, 이 세계는 끔찍한 고통에 시달렸습니다. 왕국들은 무너졌고, 모든 종족들은 억압됐었으며 전염병이 창궐하여 수백만이 목숨을 잃었습니다.
+그야말로 암흑의 시대였고 그 혼란스러운 시기에 공포를 이끄는 자들이 나타났습니다. 바로 강령술사들이죠.
+물론 강령술사들은 항상 존재했고, 지금도 강령술은 수많은 이들을 유혹하고 있습니다. 하지만 그 시대는 확실히 강령술사들의 황금기였습니다.
+소위 '고결한' 마도사들은 강령술사들을 타락한 형제라고 여겼고, 그들을 갱생시키거나... 없애 버려야 한다고 생각했습니다. 하지만 강령술사들은 자신들이 부당한 오해를 받고 있는 연구자라고 여겼습니다. 다른 이들은 너무 나약하거나 겁이 나서 손을 대지 못하는 분야를 연구하는 것일 뿐이라고 말이죠. 오, 강력한 힘을 주는 분야긴 하지만요....
+
+당신은 강령술의 기초에 대해 배웠고, 진짜 강령술사 하나를 죽였습니다. 따라서 이제부터 #LIGHT_GREEN#강령술사 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+강령술사들은 죽음 그 자체에 익숙한, 사악한 마법사들입니다. 그들의 궁극적인 목표는 영원한 삶을 사는 것이며, 보통 리치가 되어서 이루게 됩니다.
+직업 특징:#YELLOW#
+- 어둠과 얼음의 주문을 시전하여 적들을 부숴버린다.
+- 언데드 하수인 군단을 소환하여 부린다.
+- 하수인들을 장기말로 이용해, 그들을 여러가지 잔혹하고 비정상적인 방법으로 희생시킨다.
+- 일생일대의 과제인 리치화를 시도한다.#WHITE#
+
+모든 마법사들은 주문을 시전하기 위해 마나를 사용합니다.
+마나는 시간이 지나면서 천천히 회복됩니다.
+]], "_t")
 
 
 ------------------------------------------------
@@ -31187,7 +32259,7 @@ t("sand", "모래", "entity subtype")
 t("picnic basket", "소풍 바구니", "entity name")
 t("floor", "바닥", "entity type")
 t("grass", "잔디", "entity subtype")
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("You have not finished your romantic time at the beach.", "아직 해변에서의 낭만적인 데이트가 끝나지 않았다.", "log")
 
 
@@ -32073,6 +33145,7 @@ t("Orc", "오크", "entity name")
 t("spider", "거미", "entity subtype")
 t("spiderkin", "거미류", "entity type")
 t("Arachnophobia...", "거미 공포증...", "_t")
+t("giant spider", "거대 거미", "entity name")
 
 
 ------------------------------------------------

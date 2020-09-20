@@ -1180,7 +1180,7 @@ t("%s #GOLD#Purchased Options#LAST#", "%s #GOLD#구매창#LAST#", "tformat")
 t("#YELLOW#-- connecting to server... --", "#YELLOW#-- 서버에 접속 중... --", "_t")
 t("Name", "이름", "_t")
 t("Available", "사용가능", "_t")
-t("Please use purchased options when not on the worldmap.", "구매창은 월드맵이 아닌 곳에서만 이용해 주세요.", "_t")
+t("Please use purchased options when not on the worldmap.", "구매창은 세계 지도가 아닌 곳에서만 이용해 주세요.", "_t")
 t("This option may only be used once per character to prevent wasting it.", "이 항목들은 무의미한 구매를 막기 위해 캐릭터 하나 당 한 번만 구매할 수 있습니다.", "_t")
 t([[This option requires you to accept to receive events from the server.
 Either you have the option currently disabled or you are playing a campaign that can not support these kind of events (mainly the Arena).
@@ -1611,12 +1611,12 @@ t("troll", "트롤", "entity subtype")
 t("forest troll", "숲 트롤", "entity name")
 t("Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.", "녹색 피부를 가진 거대하고 못생긴 이족 보행체가 사마귀투성이인 녹색 주먹을 꽉 쥐며 당신을 응시한다.", "_t")
 t("stone troll", "돌 트롤", "entity name")
-t("A giant troll with scabrous black skin. With a shudder, you notice the belt of dwarf skulls around his massive waist.", "우둘투둘한 검은 거죽을 가진 자이언트 트롤. 당신은 전율하면서 그의 거대한 허리춤에 달린 허리띠가 드워프 해골로 만들어졌다는 것을 알아차린다.", "_t")
+t("A giant troll with scabrous black skin. With a shudder, you notice the belt of dwarf skulls around his massive waist.", "우둘투둘한 검은 거죽을 가진 자이언트 트롤입니다. 당신은 전율하면서 그의 거대한 허리춤에 달린 허리띠가 드워프 해골로 만들어졌다는 것을 알아차립니다.", "_t")
 t("cave troll", "동굴 트롤", "entity name")
-t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "이 거대한 트롤은 거대한 창을 휘두르면서 이상하게도 그 살찐 눈에 총명한 표정을 짓는다.", "_t")
+t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "이 거대한 트롤은 거대한 창을 휘두르며, 이상하게도 그 살찐 눈에 총명한 표정을 짓습니다.", "_t")
 t("mountain troll", "산 트롤", "entity name")
 t("mountain troll thunderer", "산 트롤 번개 부르미", "entity name")
-t("A large and athletic troll with an extremely tough and warty hide.", "아주 질기고 사마귀 투성이 거죽을 지닌 크고 건강한 트롤.", "_t")
+t("A large and athletic troll with an extremely tough and warty hide.", "아주 질기고 사마귀 투성이 거죽을 지닌 크고 건강한 트롤입니다.", "_t")
 
 
 ------------------------------------------------

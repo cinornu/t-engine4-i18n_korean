@@ -249,8 +249,10 @@ section "game/dlcs/tome-cults/data/general/events/tentacle-tree.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/fonts.lua"
 
+t("creep", "군생", "entity subtype")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
+t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
 
 
@@ -273,51 +275,55 @@ section "game/dlcs/tome-cults/data/general/grids/fortress-multiverse.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/godfeaster.lua"
 
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/maggot.lua"
 
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/scourge.lua"
 
+t("creep", "군생", "entity name")
 t("tentacle 'tree'", "촉수 '나무'", "entity name")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
+t("This rock is loose, you think you can move it away.", "이 바위는 흔들리고 있고, 옮길 수 있을 것 같습니다.", "_t")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
 t("floor", "바닥", "entity type")
 t("scourge", "재앙", "entity subtype")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/slimy_godfeaster.lua"
 
-t("exit to the worldmap", "월드맵으로의 출구", "entity name")
+t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되지 않은 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/spacedwarf-creep.lua"
 
+t("creep", "군생", "entity name")
 t("door", "문", "entity name")
 t("open door", "열린 문", "entity name")
 t("floor", "바닥", "entity subtype")
@@ -339,17 +345,22 @@ t("sealed door", "봉인된 문", "entity name")
 section "game/dlcs/tome-cults/data/general/grids/special-cave.lua"
 
 t("cave floor", "동굴 바닥", "entity name")
+t("cave walls", "동굴 벽", "entity name")
+t("This rock is loose, you think you can move it away.", "이 바위는 흔들리고 있고, 옮길 수 있을 것 같습니다.", "_t")
 t("grass", "잔디", "entity subtype")
 t("wall", "벽", "entity type")
 t("huge loose rock", "흔들리는 거대 바위", "entity name")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
+t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
+t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/tentacle-tree.lua"
 
+t("creep", "군생", "entity subtype")
 t("floor", "바닥", "entity type")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
@@ -1395,17 +1406,18 @@ Making my way over to the ogre I was quick to treat her wounds. The ogre command
 
 나는 곧바로 바닥에서 일어나며 하플링을 찢어죽이고 싶은 충동을 느꼈다. 그 다음에 어떤 일이 일어났는지는 잘 기억나지 않지만 내가 하플링에게 곧바로 반격했던 것은 기억난다. 아주 순식간에 일어난 일이었다. 공격을 받은 하플링은 고통스럽게 비명을 질렀다. 하플링 또한 나에게 주먹질을 하며 맹렬하게 반격했지만, 나는 다른 손으로 몇 번 두들겨 패 하찮은 공격을 떨쳐냈고 이내 전력을 다해 하플링에게 공격을 가했다. 도끼질을 할 때마다 하플링의 갑옷은 찢겨졌다. 이 순간 내 얼굴은 괴상한 모양으로 일그러져 웃고 있었고 도끼를 휘두를 때마다 내 증오를 뿜어냈다.
 
-The halfling not amused by my attacks attempted to strike back with a series of kicks. I remember receiving several hits to my body though feeling little from them. I immediately swiped back at the halfling, though the blow was easily dodged, before a fury of punches were released against me. Annoyed now I retaliated wildly with a slash of the axe, relishing the scream unleashed into the air by the halfling as my attack connected, cutting deep through the leather armor into the flesh underneath. At this point the halfling began to cough up blood, suffering greatly from the inflicted wound. I could feel my hatred burning within the halfling now, tearing at the insides from the wound I had just inflicted. It was an intoxicating feeling.
+순순히 당하고만 있을 하플링이 아니었기에 발길질을 하며 내게 반격했다. 내 몸에 발이 부딪히는 느낌을 받았던 것을 기억하지만, 별로 아프지 않았다. 나는 바로 하플링에게 반격했으나 그는 가볍게 공격을 피한 뒤 나에게 주먹질을 했다. 꽤 짜증이 나기 시작하여 나는 도끼를 마구잡이로 휘두르며 반격했다. 도끼질이 하플링에게 적중하자 터져나오는 비명을 음미했다. 그의 갑옷 아래로 살갗이 깊게 패여 상처가 났다. 그때 하플링은 고통에 신음하며 피를 토해냈다. 난 하플링 안에서 내 증오가 불타오르는 것을 느낄 수 있었다. 나의 증오가 그 상처 사이에서 하플링의 속을 찢어놓고 있었다. 난 뭔가에 취하는 듯한 느낌이 들었다.
 
-My emotions completely enveloped me at that point as I began to swing by axe relentlessly with little care of what I hit. The halfling tried to dodge my blows but a number of them hit home. Blood flew as I sliced at the halfling, and possibly some other fanatics that unfortunately happened into my path. Finally having enough of this the halfling made a swift move in the other direction, to get away from me, attempting to escape the retribution that I was bringing forth. The halfling dropped close to the ground, the injuries I had rendered now taking their toll. I could hear murmuring around me too, noticing all the fanatics, both initiates and zealots, backing away.
+나의 감정이 마침내 나를 완전히 사로잡았고, 무엇을 향해 휘두르는지도 신경쓰지 않은 채 무차별적으로 도끼를 휘두르기 시작했다. 하플링은 도끼질을 피하려고 했으나 수 차례 적중했다. 하플링의 상처에서 피가 흘러나왔고, 아마도 그 무아지경 속에서 내 앞에 있던 광신도 몇몇 또한 도끼질에 맞고 피를 뿜어냈다. 끝내 이를 견디지 못한 하플링은 도망치기 위해 전혀 다른 방향으로 빠르게 움직이기 시작했다. 내 복수로부터 도망치려고 했다. 그러나 하플링은 다 쓰러져가는 시체나 다름 없었다. 그의 몸에 난 상처들이 제 몫을 하고 있었다. 내 주변에서 무언가 웅성거리는 소리를 들을 수 있었다. 신병들과 광신도들에게서 나는 소리였고 그들은 점점 후퇴하고 있었다.
 
-Thinking about what I should do next, I felt a large hand on my shoulder, turning me about so I could see the face of the ogre strategist. Talking quickly, the strategist relayed to me in a winded voice, "We can't linger here anymore, the other zealots behind us are closing in, we need to push through and get out of here." Looking behind me, I could see the figures approaching rapidly, a far larger group and likely much better armed and armored, as the light flickered off the wall of metal coming for us. However, looking ahead I saw only a handful of initiates and zealots left, and knew that if we broke through them then at least those ogres still fighting could get to safety.
+다음에 무얼 해야할까 생각하는 와중에, 커다란 손이 내 어깨에 얹어지는 것을 느꼈다. 몸을 돌리자 오우거 참모의 얼굴이 보였다. 참모는 숨을 헐떡이며 빠르게 말을 이었다. "여기에 더 이상 있을 수는 없어. 뒤족에서 다른 광신도들이 다가오고 있네. 여기를 돌파하고 빠져나가야 해." 뒤쪽을 보자, 여러 그림자가 빠르게 다가오는 것이 보였다. 지금까지 상대했던 무리보다 훨씬 더 많고 훨씬 더 잘 무장한 상태였다. 쇠붙이들에서 반사된 빛이 주변의 벽에까지 비칠 정도였다. 그러나 바로 앞에 남아있는 광신도들과 신병들을 몇 되지 않는다. 이들을 돌파한다면 최소한 지금 싸울 수있 는 오우거들은 도망칠 수 있을 것이었다.
 
-I called out to the ogres to breakthrough now, before charging towards the terrified fanatics ahead of me. The remaining ogres who were still fighting saw this and began to rally, then move forward towards the freedom we sought. There was no resistance left to be found in the fanatics, their morale was completely broken. Some who couldn't scramble out of our way were trampled as we ran over them. Looking back at the battlefield I caught a glimpse of the halfling, who stared at me with a cold hatred, but at the same time could not do anymore. I could feel a bit of satisfaction rise within me, from snubbing the zealots, and for helping to at least get those ogres now with me away.
+나는 오우거들에게 돌격하자고 외치며, 공포에 질린 광신도들에게 돌진했다. 아직까지 싸우고 있던 오우거들은 이를 보고 곧 대열에 합류했다. 그리고 자유를 향해 앞으로 달려갔다. 광신도들은 더 이상 우리에게 저항하지 못 했고, 사기는 땅에 떨어졌다. 우리가 가는 길 앞에서 미처 벗어나지 못한 자들은 넘어지고 짓밟혔다. 달려가는 중에 뒤를 돌아보니 하플링의 모습이 어렴푸싱 보였다. 그는 나를 서슬퍼런 증오를 담아서 바라보고 있었으나 그저 그뿐이었다. 나는 조금이나마 만족감을 느꼈다. 이 광신도들에게 어느 정도 복수를 했고, 얼마 남지 않은 오우거들이지만 그들을 구해내어 도망칠 수 있었으니까.
 
-Many of the ogres had fallen during the battle, many killed by that halfling's hands. Some ogres remained on the battlefield, alive but too injured to follow; or too demoralized in the case of some, like that female ogre I had witnessed collapsed to the ground, left to the whims of those zealots. There was no way for us to retrieve them, the other group of zealots had already caught up and had begun their pursuit of us, and wouldn't stop chasing us for a long time. Even after they disappeared from view we continued to run for a long while. When we did stop it was only after one of the ogres had fallen down due to wounds inflicted in the recent battle.
+많은 수의 오우거들이 전투 중에 쓰러졌다. 대부분은 하플링에 손에 죽었고, 몇몇 오우거는 죽지는 않았으나 심하게 상처를 입어 우리를 따라오지 못 했다. 또한 겁에 질려 아무것도 하지 못 하다가 따라오지 못 한 오우거들도 있었다. 땅에 엎드려 벌벌 떨던 오우거 여자가 그랬다. 결국 그들은 광신도들의 손아귀에 넘어갔을 것이다. 그들을 구할 수 있는 방법도 없었고, 다른 광신도 무리 또한 이미 전장에 따라붙어 우리를 쫓기 시작했을 것이다. 그리고 끈질기게 우리를 추적할 것이다. 우리는 그들이 보이지 않을 때까지 계속 도망쳤으나, 그 이후로도 계속 멈추지 않고 달렸다. 우리가 멈추었을 때는 부상을 입은 오우거가 결국 버티지 못하고 쓰러져버렸을 때였다.
 
-Making my way over to the ogre I was quick to treat her wounds. The ogre commander had managed to survive the battle, though he also had injuries visible all over his body, and quickly came over to also be treated. The ogre strategist was quick to take charge at that point in the journey, telling me to only use the infusions enough to close their wounds so that we could get moving again. Eventually later on when we stopped again to gather our breath I would continue my treatment with my remaining infusions as best I could. After that we would run a distance, stop to rest, and run again several times. It felt as if we didn't stop running until after the sun became visible in the sky once more.]], "_t")
+쓰러진 오우거에게 다가가 서둘러 그녀의 상처를 치료했다. 오우거 대장 또한 어떻게든 살아남았으나, 온 몸에 상처에 가득했기 때문에 내게 다가와 치료를 부탁했다. 참모는 이때부터 지휘를 맡게 되었다. 그는 주입물을 쓰되 벌어진 상처를 닫고 움직일 수 있을 정도로만 써두라고 일렀다. 그 이후로 다시 쉴 기회가 왔을 때 나는 남아있는 주입물로 최대한 치료를 계쏙했다. 그리고 다시 도망치다가, 휴식하고, 다시 달리기를 여러번 반복했다. 하늘에 태양이 뜰 때까지 그런 식의 도피를 계속 반복했던 것 같다.]], "_t")
+t("Escapades of Fay Willows [Book 4, Chapter 1] - Exhaustive Travel", "페이 윌로우즈의 여행기 [4권, 제 1장] - 강행군", "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 
 
@@ -1828,7 +1840,7 @@ t("Pustulent Growth", "고름으로 가득찬 성장", "talent name")
 t([[Each time your shed skin looses %d%% of its max power or you take damage over 15%% of your maximum life a black putrescent pustule grows on your body for 5 turns.
 		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
 		Resistance scales with your Spellpower.]], [[벗겨진 피부가 최대 피해 흡수량의 %d%% 피해를 흡수하거나, 한 번에 최대 생명력의 15%% 이상의 피해를 받을 경우, 고름으로 가득찬 새까만 물집이 5 턴 동안 몸에서 자라납니다.
-		각각의 물집은 모든 저항력을 %d%%만큼 증가시킵니다. 물집은 최대 %d 개 자라납니다.
+		각각의 물집은 모든 저항력을 %d%% 만큼 증가시킵니다. 물집은 최대 %d 개 자라납니다.
 		저항력 증가량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Pustulent Fulmination", "고름 폭발", "talent name")
 t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "모든 물집을 한꺼번에 터뜨려, 반경 %d 칸 내의 모든 대상에게 물집 하나 당 %0.2f 암흑 피해를 주고 시전자의 생명력을 %0.1f 회복합니다.", "tformat")
@@ -2096,7 +2108,7 @@ t([[Your left hand mutates into a disgusting mass of tentacles.
 		You generate a low power psionic field around you when around #{italic}#'civilized people'#{normal}# that prevents them from seeing you for the horror you are.
 
 		Your tentacle hand currently has these stats%s:
-		%s]], [[당신의 왼팔이 역겨운 촉수들로 변이합니다.
+		%s]], [[왼팔이 역겨운 촉수들로 변이합니다.
 		보조무기를 장착하고 있지 않은 상태에서, 기본 공격 시 촉수가 자동적으로 대상과 대상의 양 옆의 적들을 공격합니다. **
 		또한, 물리력이 %d 중가하며, 촉수 공격 시 무기 피해량이 %d%% 증가합니다.
 		촉수를 이용하여 공격할 때마다 %d 광기를 생성합니다.
@@ -2126,10 +2138,10 @@ t([[You plant your tentacle hand in the ground where it splits up and extends to
 
 		If at least one enemy is hit you gain %d insanity.
 
-		#YELLOW_GREEN#When constricting:#WHITE#The tendrils pummel your constricted target for %d%% tentacle damage and if adjacent you make an additional mainhand weapon attack.  Talent cooldown reduced to 10.]], [[당신의 촉수 팔을 바닥에 심습니다. 촉수는 무수하게 분열하여 반경 %d 내의 적에게 %d%%의 촉수 피해를 입힙니다.
+		#YELLOW_GREEN#When constricting:#WHITE#The tendrils pummel your constricted target for %d%% tentacle damage and if adjacent you make an additional mainhand weapon attack.  Talent cooldown reduced to 10.]], [[당신의 촉수 팔을 바닥에 심습니다. 촉수는 무수하게 분열하여 반경 %d 내의 적에게 %d%% 의 촉수 피해를 입힙니다.
 		촉수에 맞은 모든 대상은 주문 내성 판정에 실패할 경우, 5 턴 동안 %d%% 감소된 피해를 입힙니다.
 
-		공격이 하나 이상의 적에게 명중하면 %d의 광기를 획득합니다.
+		공격이 하나 이상의 적에게 명중하면 %d 의 광기를 획득합니다.
 
 		#YELLOW_GREEN#촉수 조이기 도중:#WHITE#덩굴손이 대상을 연이어 후려쳐 %d%% 피해를 주고, 적이 시전자와 근접한 경우 추가적인 주 무기 공격을 가합니다. 기술의 재사용 대기시간이 10 턴 단축됩니다.]], "tformat")
 t("Constrict", "조이기", "talent name")
@@ -2752,6 +2764,7 @@ t("#Target# is less armoured.", "#Target2# 덜 강인하다.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/grids.lua"
 
+t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
 
@@ -2828,6 +2841,7 @@ section "game/dlcs/tome-cults/data/zones/ft-cultist/zone.lua"
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/grids.lua"
 
 t("Grung", "그룽", "_t")
+t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
@@ -2836,7 +2850,11 @@ t("underground", "지하", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/npcs.lua"
 
+t("rodent", "설치류", "entity subtype")
 t("vermin", "해충", "entity type")
+t("giant brown rat", "거대한 갈색 시궁쥐", "entity name")
+t("giant rabbit", "거대한 토끼", "entity name")
+t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "와빗을 죽여, 와빗을 죽여, 와빗을 주우우우겨어어어어어ㅓ.", "_t")
 
 
 ------------------------------------------------
