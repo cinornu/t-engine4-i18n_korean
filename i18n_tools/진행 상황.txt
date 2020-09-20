@@ -444,7 +444,9 @@
 "game/modules/tome/data/texts/unlock-campaign_arena.lua"
 "game/modules/tome/data/texts/unlock-campaign_infinite_dungeon.lua"
 "game/modules/tome/data/texts/unlock-chronomancer_paradox_mage.lua"
-"game/modules/tome/data/texts/unlock-chronomancer_temporal_warden.lua" Khelerd 완
+"game/modules/tome/data/texts/unlock-chronomancer_temporal_warden.lua"
+"game/modules/tome/data/texts/unlock-corrupter_corruptor.lua"
+"game/modules/tome/data/texts/unlock-corrupter_reaver.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
