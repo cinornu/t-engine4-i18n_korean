@@ -458,7 +458,9 @@
 "game/modules/tome/data/texts/unlock-mage.lua"
 "game/modules/tome/data/texts/unlock-mage_cryomancer.lua"
 "game/modules/tome/data/texts/unlock-mage_geomancer.lua"
-"game/modules/tome/data/texts/unlock-mage_necromancer.lua" Khelerd 완
+"game/modules/tome/data/texts/unlock-mage_necromancer.lua"
+"game/modules/tome/data/texts/unlock-mage_pyromancer.lua"
+"game/modules/tome/data/texts/unlock-mage_tempest.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
@@ -1299,6 +1301,22 @@ section "game/modules/tome/data/general/npcs/wild-drake.lua"
 section "game/modules/tome/data/general/npcs/xorn.lua"
 section "game/modules/tome/data/general/npcs/yaech.lua"
 section "game/modules/tome/data/general/npcs/ziguranth.lua"
+section "game/dlcs/tome-ashes-urhrok/data/general/npcs/aquatic-demon.lua"
+section "game/dlcs/tome-ashes-urhrok/data/general/npcs/major-demon.lua"
+section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/npcs.lua"
+section "game/dlcs/tome-cults/data/general/npcs/blobs.lua"
+section "game/dlcs/tome-cults/data/general/npcs/corrupted_blobs.lua"
+section "game/dlcs/tome-cults/data/general/npcs/horror-special.lua"
+section "game/dlcs/tome-cults/data/general/npcs/horror.lua"
+section "game/dlcs/tome-cults/data/general/npcs/scourge-drake.lua"
+section "game/dlcs/tome-cults/data/general/npcs/tentacle-tree.lua"
+section "game/dlcs/tome-cults/data/zones/entropic-void/npcs.lua"
+section "game/dlcs/tome-cults/data/zones/ft-cultist/npcs.lua"
+section "game/dlcs/tome-cults/data/zones/ft-haze-cave/npcs.lua"
+section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/npcs.lua"
+section "game/dlcs/tome-cults/data/zones/godfeaster/npcs.lua"
+section "game/dlcs/tome-cults/data/zones/town-kroshkkur/npcs.lua"
+
 
 
 지속 효과들--------------------------------------------------------------
