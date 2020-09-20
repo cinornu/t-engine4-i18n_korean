@@ -452,7 +452,9 @@
 "game/modules/tome/data/texts/unlock-cosmetic_race_dwarf_female_beard.lua"
 "game/modules/tome/data/texts/unlock-cosmetic_race_human_redhead.lua"
 "game/modules/tome/data/texts/unlock-difficulty_insane.lua"
-"game/modules/tome/data/texts/unlock-difficulty_madness.lua Khelerd 완
+"game/modules/tome/data/texts/unlock-difficulty_madness.lua
+"game/modules/tome/data/texts/unlock-divine_anorithil.lua"
+"game/modules/tome/data/texts/unlock-divine_sun_paladin.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
