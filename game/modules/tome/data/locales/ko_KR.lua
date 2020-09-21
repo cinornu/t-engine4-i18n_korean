@@ -8150,7 +8150,7 @@ section "game/modules/tome/data/general/npcs/swarm.lua"
 
 t("insect", "곤충", "entity type")
 t("swarms", "벌레 군집", "entity subtype")
-t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "위이이이이이이이ㅣ이이이잉.", "_t")
+t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "위이이이이이이이이이이잉.", "_t")
 t("midge swarm", "각다귀 떼", "entity name")
 t("A swarm of midges; they want blood.", "각다귀 떼입니다, 피를 원하고 있습니다.", "_t")
 t("bee swarm", "벌 떼", "entity name")
@@ -8295,7 +8295,7 @@ section "game/modules/tome/data/general/npcs/vermin.lua"
 
 t("vermin", "해충", "entity type")
 t("worms", "구더기 떼", "entity subtype")
-t("white worm mass", "하얀 벌레떼 떼", "entity name")
+t("white worm mass", "하얀 벌레떼", "entity name")
 t("green worm mass", "초록 벌레 떼", "entity name")
 t("carrion worm mass", "시체 벌레 떼", "entity name")
 t("%s exudes a corrupted gas as it dies.", "%s 죽을 때 황폐한 가스를 뿜어낸다.", "logSeen", nil, {"는"})
