@@ -1331,7 +1331,9 @@ section "game/modules/tome/data/general/traps/complex.lua"
 section "game/modules/tome/data/general/traps/elemental.lua"
 section "game/modules/tome/data/general/traps/natural_forest.lua"
 section "game/modules/tome/data/general/traps/store.lua"
+section "game/modules/tome/data/general/traps/teleport.lua"
 section "game/modules/tome/data/general/traps/temporal.lua"
+section "game/modules/tome/data/general/traps/water.lua"
 
 
 
@@ -1380,6 +1382,20 @@ section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua" Stéphanois
 section "game/dlcs/tome-orcs/data/tinkers/smith.lua" Stéphanois
 section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua" Stéphanois
 
+section "game/modules/tome/dialogs/GameOptions.lua" Stéphanois
+section "game/modules/tome/dialogs/LorePopup.lua" Stéphanois
+section "game/modules/tome/dialogs/PartySelect.lua"
+section "game/modules/tome/dialogs/PartySendItem.lua"
+section "game/modules/tome/dialogs/QuestPopup.lua"
+section "game/modules/tome/dialogs/SentientWeapon.lua"
+section "game/modules/tome/dialogs/ShowAchievements.lua"
+section "game/modules/tome/dialogs/ShowChatLog.lua"
+section "game/modules/tome/dialogs/ShowEquipInven.lua"
+section "game/modules/tome/dialogs/SwiftHands.lua"
+section "game/modules/tome/dialogs/SwiftHandsUse.lua"
+section "game/modules/tome/dialogs/TrapsSelect.lua"
+section "game/modules/tome/dialogs/UberTalent.lua"
+section "game/modules/tome/dialogs/UnlockDialog.lua"
 
 
 
