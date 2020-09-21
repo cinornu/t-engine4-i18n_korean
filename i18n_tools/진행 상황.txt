@@ -1156,6 +1156,7 @@ section "game/dlcs/tome-orcs/data/general/objects/tinkers/explosive.lua"
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/mechanical.lua"
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/smith.lua"
 section "game/dlcs/tome-orcs/data/general/objects/tinkers/therapeutics.lua"
+section "game/modules/tome/data/general/objects/potions.lua"
 
  장비 에고
 section "game/modules/tome/data/general/objects/egos/ammo.lua" Stéphanois
@@ -1320,6 +1321,15 @@ section "game/dlcs/tome-cults/data/zones/ft-haze-cave/npcs.lua"
 section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/npcs.lua"
 section "game/dlcs/tome-cults/data/zones/godfeaster/npcs.lua"
 section "game/dlcs/tome-cults/data/zones/town-kroshkkur/npcs.lua"
+
+함정-------------------------------------------------------------------
+section "game/modules/tome/data/general/traps/alarm.lua"
+section "game/modules/tome/data/general/traps/annoy.lua"
+section "game/modules/tome/data/general/traps/complex.lua"
+section "game/modules/tome/data/general/traps/elemental.lua"
+section "game/modules/tome/data/general/traps/natural_forest.lua"
+section "game/modules/tome/data/general/traps/store.lua"
+section "game/modules/tome/data/general/traps/temporal.lua"
 
 
 
