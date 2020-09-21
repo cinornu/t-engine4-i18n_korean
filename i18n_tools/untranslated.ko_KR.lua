@@ -3715,13 +3715,11 @@ t("red striped steamsaw", "red striped steamsaw", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/stores/orcs.lua"
--- 6 entries
-t("library", "library", "entity name")
+-- 4 entries
 t("expensive goods", "expensive goods", "entity name")
 t("forge", "forge", "entity name")
 t("aracane psi collector", "aracane psi collector", "entity name")
 t("rune and infusion collector", "rune and infusion collector", "entity name")
-t("tool store", "tool store", "entity name")
 
 
 ------------------------------------------------
@@ -5946,8 +5944,7 @@ t("Whoever tortured and tormented this yeti did an amazing job of pain and destr
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gem/objects.lua"
--- 11 entries
-t("lore", "lore", "entity type")
+-- 10 entries
 t("disk", "disk", "_t")
 t([[A strange black disk found in the G.E.M.
 You have no idea how to use it.]], [[A strange black disk found in the G.E.M.
@@ -8594,19 +8591,6 @@ t("Ancient Tome titled 'Gems and their uses'", "Ancient Tome titled 'Gems and th
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/objects/potions.lua"
--- 1 entries
-t("Magical potions can have wildly different effects, from healing to killing you -- beware! Most of them function better with a high Magic score.", "Magical potions can have wildly different effects, from healing to killing you -- beware! Most of them function better with a high Magic score.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/quest-artifacts.lua"
--- 2 entries
-t("Mankini", "Mankini", "entity name")
-t("tiny piece of cloth", "tiny piece of cloth", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/general/objects/random-artifacts.lua"
 -- 29 entries
 t("resist physical", "resist physical", "entity name")
@@ -8901,194 +8885,20 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/objects/scrolls.lua"
--- 1 entries
-t("lore", "lore", "entity subtype")
-
-
-------------------------------------------------
 section "game/modules/tome/data/general/objects/world-artifacts.lua"
 -- 1 entries
 t("%s: %s", "%s: %s", "tformat")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/stores/basic.lua"
--- 23 entries
-t("heavy armour smith", "heavy armour smith", "entity name")
-t("mindstar collector", "mindstar collector", "entity name")
-t("two handed weapons", "two handed weapons", "entity name")
-t("one handed weapons", "one handed weapons", "entity name")
-t("staff carver", "staff carver", "entity name")
-t("rune store", "rune store", "entity name")
-t("gem store", "gem store", "entity name")
-t("tool store", "tool store", "entity name")
-t("staves and wands store", "staves and wands store", "entity name")
-t("jewelry store", "jewelry store", "entity name")
-t("rare goods", "rare goods", "entity name")
-t("library", "library", "entity name")
-t("shady library", "shady library", "entity name")
-t("gladiator's wares", "gladiator's wares", "entity name")
-t("armour smith", "armour smith", "entity name")
-t("sword smith", "sword smith", "entity name")
-t("axe smith", "axe smith", "entity name")
-t("mace smith", "mace smith", "entity name")
-t("knife smith", "knife smith", "entity name")
-t("archery", "archery", "entity name")
-t("staves", "staves", "entity name")
-t("rune store and library", "rune store and library", "entity name")
-t("infusion store", "infusion store", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/traps/alarm.lua"
--- 10 entries
-t("alarm", "alarm", "entity subtype")
-t("annoy", "annoy", "entity type")
-t("intruder alarm", "intruder alarm", "entity name")
-t("@Target@ triggers an alarm!", "@Target@ triggers an alarm!", "_t")
-t("pressure plate", "pressure plate", "_t")
-t("Makes noise, alerting others.", "Makes noise, alerting others.", "_t")
-t("summoning alarm", "summoning alarm", "entity name")
-t("An alarm rings!", "An alarm rings!", "_t")
-t("ring of faded sigils", "ring of faded sigils", "_t")
-t("Summons creatures.", "Summons creatures.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/traps/annoy.lua"
--- 9 entries
-t("annoy", "annoy", "entity subtype")
-t("lethargy trap", "lethargy trap", "entity name")
-t("@Target@ seems less active.", "@Target@ seems less active.", "_t")
-t("pattern of glyphs", "pattern of glyphs", "_t")
-t("Disrupts activated talents.", "Disrupts activated talents.", "_t")
-t("burning curse trap", "burning curse trap", "entity name")
-t("@Target@ triggers a burning curse!", "@Target@ triggers a burning curse!", "_t")
-t("dark pentagram", "dark pentagram", "_t")
-t("Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/traps/complex.lua"
--- 25 entries
-t("complex", "complex", "entity type")
-t("boulder", "boulder", "entity subtype")
-t("giant boulder trap", "giant boulder trap", "entity name")
-t("@Target@ walks on a trap, and there is a loud noise.", "@Target@ walks on a trap, and there is a loud noise.", "_t")
-t("large pressure plate", "large pressure plate", "_t")
-t(" (from %s)", " (from %s)", "tformat")
-t("Releases a large boulder%s that smashes into the target for %d physical damage and knocks it back.", "Releases a large boulder%s that smashes into the target for %d physical damage and knocks it back.", "tformat")
-t("huge boulder", "huge boulder", "_t")
-t("spinning beam trap", "spinning beam trap", "entity name")
-t("@Target@ activates a trap, and its magical energies change.", "@Target@ activates a trap, and its magical energies change.", "_t")
-t("magical emitter", "magical emitter", "_t")
-t("Projects a rapidly spinning beam of magical energies (range %d), dealing %d damage (%s%s#WHITE#) to those struck.", "Projects a rapidly spinning beam of magical energies (range %d), dealing %d damage (%s%s#WHITE#) to those struck.", "tformat")
-t("poison spore", "poison spore", "entity name")
-t("@Target@ walks on a poison spore.", "@Target@ walks on a poison spore.", "_t")
-t("spore colony", "spore colony", "_t")
-t("Releases a cloud of poison spores (radius %d), poisoning for #LIGHT_GREEN#%d#LAST# damage over 5 turns.", "Releases a cloud of poison spores (radius %d), poisoning for #LIGHT_GREEN#%d#LAST# damage over 5 turns.", "tformat")
-t("The poison spore looks somewhat drained.", "The poison spore looks somewhat drained.", "logSeen")
-t("delayed explosion trap", "delayed explosion trap", "entity name")
-t("Flames start to appear around @target@.", "Flames start to appear around @target@.", "_t")
-t("hot spot", "hot spot", "_t")
-t("Releases up to 4 delayed fuse fireballs within range %d that each explode for #LIGHT_RED#%d#LAST# fire damage after %d turns.", "Releases up to 4 delayed fuse fireballs within range %d that each explode for #LIGHT_RED#%d#LAST# fire damage after %d turns.", "tformat")
-t("cold flames trap", "cold flames trap", "entity name")
-t("Cold flames start to appear around @target@.", "Cold flames start to appear around @target@.", "_t")
-t("cold spot", "cold spot", "_t")
-t("Cold flames slowly spread from %d spots within radius %d, The flames deal %d cold damage with a chance to freeze.", "Cold flames slowly spread from %d spots within radius %d, The flames deal %d cold damage with a chance to freeze.", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/traps/elemental.lua"
--- 31 entries
-t("Deals %s%d#LAST# %s damage", "Deals %s%d#LAST# %s damage", "tformat")
-t("Deals %s%d#LAST# %s damage (radius %d)", "Deals %s%d#LAST# %s damage (radius %d)", "tformat")
-t("acid trap", "acid trap", "entity name")
-t("fire trap", "fire trap", "entity name")
-t("A bolt of fire blasts onto @target@!", "A bolt of fire blasts onto @target@!", "_t")
-t("ice trap", "ice trap", "entity name")
-t("lightning trap", "lightning trap", "entity name")
-t("crackling spot", "crackling spot", "_t")
-t("poison trap", "poison trap", "entity name")
-t("acid blast trap", "acid blast trap", "entity name")
-t("A stream of acid gushes onto @target@!", "A stream of acid gushes onto @target@!", "_t")
-t("corroded spot", "corroded spot", "_t")
-t("fire blast trap", "fire blast trap", "entity name")
-t("A bolt of fire fires onto @target@!", "A bolt of fire fires onto @target@!", "_t")
-t("burnt spot", "burnt spot", "_t")
-t("ice blast trap", "ice blast trap", "entity name")
-t("A bolt of ice blasts onto @target@!", "A bolt of ice blasts onto @target@!", "_t")
-t("frozen spot", "frozen spot", "_t")
-t("lightning blast trap", "lightning blast trap", "entity name")
-t("A bolt of lightning fires onto @target@!", "A bolt of lightning fires onto @target@!", "_t")
-t("arcing spot", "arcing spot", "_t")
-t("poison blast trap", "poison blast trap", "entity name")
-t("A stream of poison gushes onto @target@!", "A stream of poison gushes onto @target@!", "_t")
-t("anti-magic trap", "anti-magic trap", "entity name")
-t("@Target@ is blasted with anti-magic forces!", "@Target@ is blasted with anti-magic forces!", "_t")
-t("dull area", "dull area", "_t")
-t("Deals up to %d manaburn damage, draining mana, vim, and positive and negative energies within radius %d.", "Deals up to %d manaburn damage, draining mana, vim, and positive and negative energies within radius %d.", "tformat")
-t("dragon fire trap", "dragon fire trap", "entity name")
-t("A powerful blast of fire impacts @target@!", "A powerful blast of fire impacts @target@!", "_t")
-t("burned area", "burned area", "_t")
-t("All within radius %d are dealt %d fire damage, set on fire for %d more fire damage over 3 turns, and may be stunned.", "All within radius %d are dealt %d fire damage, set on fire for %d more fire damage over 3 turns, and may be stunned.", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/traps/natural_forest.lua"
--- 8 entries
-t("sliding rock", "sliding rock", "entity name")
-t("@Target@ slides on a rock!", "@Target@ slides on a rock!", "_t")
-t("slippery rock", "slippery rock", "_t")
-t("Stuns for 4 turns.", "Stuns for 4 turns.", "_t")
-t("poison vine", "poison vine", "entity name")
-t("A poisonous vine strikes at @Target@!", "A poisonous vine strikes at @Target@!", "_t")
-t("venomous vine", "venomous vine", "_t")
-t("A motile vine that strikes out for %s%d#LAST# %s damage.", "A motile vine that strikes out for %s%d#LAST# %s damage.", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/traps/store.lua"
--- 1 entries
-t("store", "store", "entity subtype")
-
-
-------------------------------------------------
 section "game/modules/tome/data/general/traps/teleport.lua"
--- 7 entries
-t("annoy", "annoy", "entity type")
+-- 6 entries
 t("teleport trap", "teleport trap", "entity name")
 t("Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "_t")
 t("@Target@ shimmers briefly.", "@Target@ shimmers briefly.", "_t")
 t("shimmering floor switch", "shimmering floor switch", "_t")
 t("%s is teleported away!", "%s is teleported away!", "logSeen")
 t("%s resists being teleported!", "%s resists being teleported!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/traps/temporal.lua"
--- 7 entries
-t("disturbed pocket of time", "disturbed pocket of time", "entity name")
-t("@Target@ is caught in a distorted pocket of time!", "@Target@ is caught in a distorted pocket of time!", "_t")
-t("faint distortion", "faint distortion", "_t")
-t("Creates a temporal anomaly when triggered.", "Creates a temporal anomaly when triggered.", "_t")
-t("extremely disturbed pocket of time", "extremely disturbed pocket of time", "entity name")
-t("@Target@ is caught in an extremely distorted pocket of time!", "@Target@ is caught in an extremely distorted pocket of time!", "_t")
-t("Creates a major temporal anomaly when triggered.", "Creates a major temporal anomaly when triggered.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/traps/water.lua"
--- 8 entries
-t("water jet", "water jet", "entity name")
-t("@Target@ triggers a water jet!", "@Target@ triggers a water jet!", "_t")
-t("a nozzle", "a nozzle", "_t")
-t("Deals %s%d#LAST# %s damage.", "Deals %s%d#LAST# %s damage.", "tformat")
-t("water siphon", "water siphon", "entity name")
-t("@Target@ is caught by a water siphon!", "@Target@ is caught by a water siphon!", "_t")
-t("a drain", "a drain", "_t")
-t("Deals %s%d#LAST# %s damage (radius %d).", "Deals %s%d#LAST# %s damage (radius %d).", "tformat")
 
 
 ------------------------------------------------
@@ -16645,21 +16455,8 @@ t("Thank you, a Patreon page should now open in your browser.", "Thank you, a Pa
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/GameOptions.lua"
--- 145 entries
+-- 142 entries
 t("UI", "UI", "_t")
-t([[Select the graphical mode to display the world.
-Default is 'Modern'.
-When you change it, make a new character or it may look strange.]], [[Select the graphical mode to display the world.
-Default is 'Modern'.
-When you change it, make a new character or it may look strange.]], "_t")
-t("#GOLD##{bold}#Graphic Mode#WHITE##{normal}#", "#GOLD##{bold}#Graphic Mode#WHITE##{normal}#", "_t")
-t([[Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
-The higher this value the slower the movements will appear.
-
-Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], [[Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
-The higher this value the slower the movements will appear.
-
-Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], "_t")
 t("#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "_t")
 t("Enter movement speed(lower is faster)", "Enter movement speed(lower is faster)", "_t")
 t("From 0 to 60", "From 0 to 60", "_t")
