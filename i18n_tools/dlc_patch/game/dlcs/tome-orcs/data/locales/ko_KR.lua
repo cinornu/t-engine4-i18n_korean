@@ -1369,8 +1369,10 @@ t("#PURPLE#You feel the power of the Gloryhammer course through you! It has beco
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/stores/orcs.lua"
 
+t("library", "도서관", "entity name")
 t("smith", "야금학", "entity name")
 t("tinker", "발명품", "entity name")
+t("tool store", "도구 상점", "entity name")
 
 
 ------------------------------------------------
@@ -4688,6 +4690,7 @@ section "game/dlcs/tome-orcs/data/zones/gem/npcs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gem/objects.lua"
 
+t("lore", "이야기", "entity type")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 

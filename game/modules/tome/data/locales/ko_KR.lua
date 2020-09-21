@@ -8150,7 +8150,7 @@ section "game/modules/tome/data/general/npcs/swarm.lua"
 
 t("insect", "곤충", "entity type")
 t("swarms", "벌레 군집", "entity subtype")
-t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "위이이이이이이이ㅣ이이이잉.", "_t")
+t("Buzzzzzzzzzzzzzzzzzzzzzzzzzzz.", "위이이이이이이이이이이잉.", "_t")
 t("midge swarm", "각다귀 떼", "entity name")
 t("A swarm of midges; they want blood.", "각다귀 떼입니다, 피를 원하고 있습니다.", "_t")
 t("bee swarm", "벌 떼", "entity name")
@@ -8295,7 +8295,7 @@ section "game/modules/tome/data/general/npcs/vermin.lua"
 
 t("vermin", "해충", "entity type")
 t("worms", "구더기 떼", "entity subtype")
-t("white worm mass", "하얀 벌레떼 떼", "entity name")
+t("white worm mass", "하얀 벌레떼", "entity name")
 t("green worm mass", "초록 벌레 떼", "entity name")
 t("carrion worm mass", "시체 벌레 떼", "entity name")
 t("%s exudes a corrupted gas as it dies.", "%s 죽을 때 황폐한 가스를 뿜어낸다.", "logSeen", nil, {"는"})
@@ -10857,6 +10857,7 @@ t("tome", "고서", "entity subtype")
 section "game/modules/tome/data/general/objects/potions.lua"
 
 t("potion", "물약", "_t")
+t("Magical potions can have wildly different effects, from healing to killing you -- beware! Most of them function better with a high Magic score.", "마법 물약은 전혀 다른 효과들을 갖고있습니다. 당신을 회복시킬 수도, 죽일 수도 있습니다! -- 조심하십시오! 대부분은 높은 마법 능력치를 갖고있을 경우, 더 효과적입니다.", "_t")
 
 
 ------------------------------------------------
@@ -10943,6 +10944,8 @@ t("Bikini", "비키니", "entity name")
 t([[Revealing, pink, fun.
 #{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], [[섹시한, 핑크색, 재밌다!
 #{bold}#만약 당신이 비키니를 한번도 벗지 않고 게임에서 승리한다면, 놀라운 도전 과제를 달성합니다! 맘껏 뽐내세요!#{normal}#]], "_t")
+t("Mankini", "맨키니", "entity name")
+t("tiny piece of cloth", "천 조각", "_t")
 t([[Revealing, green, fun.
 #{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], [[섹시한, 초록색, 재밌다!
 #{bold}#만약 당신이 맨키니를 한번도 벗지 않고 게임에서 승리한다면, 놀라운 도전 과제를 달성합니다! 맘껏 뽐내세요!#{normal}#]], "_t")
@@ -11082,6 +11085,7 @@ t("inscribe your skin with the rune", "룬을 피부에 새겨 넣습니다", "_
 t("taint", "낙인", "_t")
 t("Corrupted taints may be inscribed onto your body, granting you an on-demand ability.", "타락한 낙인을 당신의 육체에 새겨, 필요한 기술을 가질 수 있습니다.", "_t")
 t("inscribe your skin with the taint", "낙인을 피부에 새겨 넣습니다", "_t")
+t("lore", "이야기", "entity subtype")
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
 t("read it", "읽기", "_t")
@@ -12393,42 +12397,140 @@ The charges decay at a rate of 1 per turn. Max 10 charges.]], [[전기 피해를
 ------------------------------------------------
 section "game/modules/tome/data/general/stores/basic.lua"
 
+t("heavy armour smith", "갑옷 대장장이", "entity name")
+t("mindstar collector", "마석 수집가", "entity name")
+t("two handed weapons", "양손 무기", "entity name")
+t("one handed weapons", "한손 무기", "entity name")
+t("staff carver", "지팡이 제작자", "entity name")
+t("rune store", "룬 상점", "entity name")
+t("gem store", "보석 상점", "entity name")
+t("tool store", "도구 상점", "entity name")
+t("staves and wands store", "지팡이와 마법봉 상점", "entity name")
+t("jewelry store", "보석 상점", "entity name")
+t("rare goods", "희귀한 물품들", "entity name")
+t("library", "도서관", "entity name")
+t("shady library", "그림자 도서관", "entity name")
+t("gladiator's wares", "검투사의 장비", "entity name")
+t("armour smith", "방어구 대장장이", "entity name")
 t("tanner", "무두장이", "entity name")
 t("tailor", "재단사", "entity name")
+t("sword smith", "검 대장장이", "entity name")
+t("axe smith", "도끼 대장장이", "entity name")
+t("mace smith", "둔기 대장장이", "entity name")
+t("knife smith", "단검 대장장이", "entity name")
+t("archery", "원거리 무기", "entity name")
+t("staves", "지팡이", "entity name")
+t("rune store and library", "룬 상점과 도서관", "entity name")
+t("infusion store", "주입물 상점", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/alarm.lua"
 
+t("alarm", "경보", "entity subtype")
+t("annoy", "방해", "entity type")
 t("trap", "함정", "_t")
+t("intruder alarm", "침입자 경보", "entity name")
+t("@Target@ triggers an alarm!", "@Target1@ 경보를 작동시켰다!", "_t")
+t("pressure plate", "압력판", "_t")
+t("Makes noise, alerting others.", "소음을 내어, 다른 이들에게 경보를 울립니다.", "_t")
+t("summoning alarm", "소환 경보", "entity name")
+t("An alarm rings!", "경보가 울린다!", "_t")
+t("ring of faded sigils", "흐린 문양의 경보입니다", "_t")
+t("Summons creatures.", "적을 소환합니다.", "_t")
 t("%s appears out of the thin air!", "허공에서 %s 튀어나왔다!", "logSeen", nil, {"이"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/annoy.lua"
 
+t("annoy", "방해", "entity subtype")
 t("trap", "함정", "_t")
+t("lethargy trap", "무기력 함정", "entity name")
+t("@Target@ seems less active.", "@Target1@ 비활성화 되었다.", "_t")
+t("pattern of glyphs", "상형 문자의 집합", "_t")
+t("Disrupts activated talents.", "발동형 기술의 사용을 방해합니다.", "_t")
+t("burning curse trap", "불타는 저주 함정", "entity name")
+t("@Target@ triggers a burning curse!", "@Target1@ 불타는 저주를 발동시켰다!", "_t")
+t("dark pentagram", "검은 오망성", "_t")
+t("Afflicts the target with a curse: talents inflict %d fire damage and have increased cooldowns.", "대상을 저주합니다 : 기술 사용 시 %d 화염 피해를 입고, 재사용 대기시간이 늘어납니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/complex.lua"
 
+t("complex", "복잡함", "entity type")
 t("trap", "함정", "_t")
+t("boulder", "바위", "entity subtype")
+t("giant boulder trap", "거대 바위 함정", "entity name")
+t("@Target@ walks on a trap, and there is a loud noise.", "@Target1@ 함정 위에 발을 디디자, 시끄러운 소음이 들린다.", "_t")
+t("large pressure plate", "거대한 압력판", "_t")
+t(" (from %s)", " (%s에서 나타남)", "tformat")
+t("Releases a large boulder%s that smashes into the target for %d physical damage and knocks it back.", "거대 바위%s를 대상 방향으로 굴려, %d 물리 피해를 주고 뒤로 밀칩니다.", "tformat")
+t("huge boulder", "거대 바위", "_t")
+t("spinning beam trap", "회전 광선 함정", "entity name")
+t("@Target@ activates a trap, and its magical energies change.", "@Target1@ 함정을 발동해, 마법 에너지가 변화한다.", "_t")
+t("magical emitter", "마법 에너지 발산기", "_t")
+t("Projects a rapidly spinning beam of magical energies (range %d), dealing %d damage (%s%s#WHITE#) to those struck.", "빠르게 회전하는 마법 에너지 광선을 발사합니다. 사거리는 %d 이며, %d 피해를  (%s%s#WHITE#) 광선에 닿는 대상에게 입힙니다.", "tformat")
 t("nature", "자연", "entity subtype")
+t("poison spore", "독 포자", "entity name")
+t("@Target@ walks on a poison spore.", "@Target1@ 독 포자 위에 발을 디뎠다.", "_t")
+t("spore colony", "포자 군집", "_t")
+t("Releases a cloud of poison spores (radius %d), poisoning for #LIGHT_GREEN#%d#LAST# damage over 5 turns.", "범위 %d 칸의 독성 포자 연기를 흩뿌려, 5 턴에 걸쳐 #LIGHT_GREEN#%d#LAST# 피해를 받게 합니다.", "tformat")
+t("The poison spore looks somewhat drained.", "독성 포자가 말라버린 것 같다.", "logSeen")
+t("delayed explosion trap", "지연 폭발 함정", "entity name")
+t("Flames start to appear around @target@.", "@target@ 주변에 화염이 일어났다.", "_t")
+t("hot spot", "뜨거운 지점", "_t")
+t("Releases up to 4 delayed fuse fireballs within range %d that each explode for #LIGHT_RED#%d#LAST# fire damage after %d turns.", "%d 칸 반경 내에 최대 4 개의 지연 화염구를 날려, %d 턴 후에 #LIGHT_RED#%d#LAST# 화염 피해를 가합니다.", "tformat", {1,3,2})
 t("arcane", "비전", "entity subtype")
+t("cold flames trap", "냉기 화염 함정", "entity name")
+t("Cold flames start to appear around @target@.", "@target@ 주변에 냉기 화염이 일어났다.", "_t")
+t("cold spot", "차가운 지점", "_t")
+t("Cold flames slowly spread from %d spots within radius %d, The flames deal %d cold damage with a chance to freeze.", "차가운 화염이 반경 %d 칸 내의 %d 위치에 퍼집니다. 냉기 화염은 %d 냉기 피해를 주고, 적을 얼려버릴 확률이 있습니다.", "tformat", {2,1,3})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/elemental.lua"
 
+t("Deals %s%d#LAST# %s damage", "%s%d#LAST# %s 피해를 가합니다", "tformat")
 t("elemental", "정령", "entity type")
 t("trap", "함정", "_t")
+t("Deals %s%d#LAST# %s damage (radius %d)", "%s%d#LAST# %s 피해를 가합니다 (반경 %d)", "tformat")
+t("acid trap", "산성 함정", "entity name")
+t("fire trap", "화염 함정", "entity name")
+t("A bolt of fire blasts onto @target@!", "화염의 화살이 @target@에게 폭발을 일으킨다!", "_t")
+t("ice trap", "얼음 함정", "entity name")
+t("lightning trap", "전기 함정", "entity name")
+t("crackling spot", "치직거리는 지점", "_t")
+t("poison trap", "맹독 함정", "entity name")
 t("acid", "산성", "entity subtype")
+t("acid blast trap", "산성 폭발 함정", "entity name")
+t("A stream of acid gushes onto @target@!", "산성액이 @target@에게로 쏟아저나온다!", "_t")
+t("corroded spot", "부식된 지점", "_t")
+t("fire blast trap", "화염 폭발 함정", "entity name")
+t("A bolt of fire fires onto @target@!", "화염 화살이 @target@에게로 발사된다!", "_t")
+t("burnt spot", "불에 탄 지점", "_t")
 t("cold", "냉기", "entity subtype")
+t("ice blast trap", "냉기 폭발 함정", "entity name")
+t("A bolt of ice blasts onto @target@!", "냉기 화살이 @target@에게 폭발을 일으킨다!", "_t")
+t("frozen spot", "얼어붙은 지점", "_t")
 t("lightning", "전기", "entity subtype")
+t("lightning blast trap", "전기 폭발 함정", "entity name")
+t("A bolt of lightning fires onto @target@!", "전기 화살이 @target@!에게로 발사된다!", "_t")
+t("arcing spot", "전류가 흐르는 지점", "_t")
 t("poison", "독", "entity subtype")
+t("poison blast trap", "독 폭발 함정", "entity name")
+t("A stream of poison gushes onto @target@!", "독액이 @target@에게로 쏟아저나온다!", "_t")
 t("nature", "자연", "entity subtype")
+t("anti-magic trap", "반마법 함정", "entity name")
+t("@Target@ is blasted with anti-magic forces!", "@Target1@ 반마법 폭발에 휘말렸다!", "_t")
+t("dull area", "공허 지대", "_t")
+t("Deals up to %d manaburn damage, draining mana, vim, and positive and negative energies within radius %d.", "최대 %d 마나 소각 피해를 주고, 반경 %d 칸 내의 마나, 원기, 양기, 음기를 증발시킵니다.", "tformat")
 t("fire", "화염", "entity subtype")
+t("dragon fire trap", "용의 화염 함정", "entity name")
+t("A powerful blast of fire impacts @target@!", "강렬한 화염 폭발이 @target3@ 덮쳤다!", "_t")
+t("burned area", "화염 지대", "_t")
+t("All within radius %d are dealt %d fire damage, set on fire for %d more fire damage over 3 turns, and may be stunned.", "반경 %d 칸 내의 모든 개체는 %d 화염 피해를 받고, 불이 붙어, 3 턴에 걸쳐 %d 화염 피해를 추가로 받습니다. 기절할 확률이 존재합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -12437,17 +12539,27 @@ section "game/modules/tome/data/general/traps/natural_forest.lua"
 t("forest", "숲", "entity subtype")
 t("natural", "자연", "entity type")
 t("trap", "함정", "_t")
+t("sliding rock", "미끄러운 돌", "entity name")
+t("@Target@ slides on a rock!", "@Target1@ 바위를 밟고 미끄러졌다!", "_t")
+t("slippery rock", "미끄로운 돌", "_t")
+t("Stuns for 4 turns.", "4 턴 동안 기절합니다.", "_t")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("poison vine", "독성 덩쿨", "entity name")
+t("A poisonous vine strikes at @Target@!", "독성 덩쿨이 @Target3@ 후려쳤다!", "_t")
+t("venomous vine", "맹독 덩쿨", "_t")
+t("A motile vine that strikes out for %s%d#LAST# %s damage.", "움직이는 덩쿨이 가격해 %s%d#LAST# %s 피해를 줍니다.", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/store.lua"
 
+t("store", "상점", "entity subtype")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/traps/teleport.lua"
 
+t("annoy", "방해", "entity type")
 t("teleport", "순간이동", "entity subtype")
 t("trap", "함정", "_t")
 
@@ -12458,7 +12570,14 @@ section "game/modules/tome/data/general/traps/temporal.lua"
 t("temporal", "시간", "entity type")
 t("trap", "함정", "_t")
 t("water", "물", "entity subtype")
+t("disturbed pocket of time", "뒤틀린 시간의 구멍", "entity name")
+t("@Target@ is caught in a distorted pocket of time!", "@Target1@ 시간의 뒤틀린 구멍 안에 발을 들였다!", "_t")
+t("faint distortion", "희미한 왜곡", "_t")
+t("Creates a temporal anomaly when triggered.", "발동 시, 시간의 이상현상을 일으킵니다.", "_t")
+t("extremely disturbed pocket of time", "극단적으로 뒤틀린 시간의 구멍", "entity name")
+t("@Target@ is caught in an extremely distorted pocket of time!", "@Target1@ 극단적으로 뒤틀린 시간의 구멍 안에 발을 들였다!", "_t")
 t("distortion", "왜곡", "_t")
+t("Creates a major temporal anomaly when triggered.", "발동 시, 심각한 시간의 이상현상을 일으킵니다.", "_t")
 
 
 ------------------------------------------------
@@ -12467,6 +12586,14 @@ section "game/modules/tome/data/general/traps/water.lua"
 t("natural", "자연", "entity type")
 t("trap", "함정", "_t")
 t("water", "물", "entity subtype")
+t("water jet", "물 분사기", "entity name")
+t("@Target@ triggers a water jet!", "@Target1@ 물 분사기를 발동시켰다!", "_t")
+t("a nozzle", "분사구", "_t")
+t("Deals %s%d#LAST# %s damage.", "%s%d#LAST# %s 피해를 가합니다.", "tformat")
+t("water siphon", "물 흡수기", "entity name")
+t("@Target@ is caught by a water siphon!", "@Target1@ 물 흡수기에 갇혔다!", "_t")
+t("a drain", "흡수기", "_t")
+t("Deals %s%d#LAST# %s damage (radius %d).", "%s%d#LAST# %s 피해를 입힙니다 (반경 %d).", "tformat")
 
 
 ------------------------------------------------
@@ -34091,6 +34218,19 @@ t("Game Options", "게임 설정", "_t")
 t("Gameplay", "게임 플레이", "_t")
 t("Online", "온라인", "_t")
 t("Misc", "기타", "_t")
+t([[Select the graphical mode to display the world.
+Default is 'Modern'.
+When you change it, make a new character or it may look strange.]], [[세계를 표현할 그래픽 모드를 설정합니다.
+기본은 '모던' 입니다.
+이 설정을 변경했다면, 캐릭터를 새로 만드십시오. 그대로 플레이할 경우, 세계가 이상하게 표현 될 수도 있습니다.]], "_t")
+t("#GOLD##{bold}#Graphic Mode#WHITE##{normal}#", "#GOLD##{bold}#그래픽 모드#WHITE##{normal}#", "_t")
+t([[Make the movement of creatures and projectiles 'smooth'. When set to 0 movement will be instantaneous.
+The higher this value the slower the movements will appear.
+
+Note: This does not affect the turn-based idea of the game. You can move again while your character is still moving, and it will correctly update and compute a new animation.]], [[개체와 투사체의 이동을 '부드럽게' 만듭니다. 0 으로 설정 시, 이동은 즉시 이루어지게 됩니다.
+이 값을 높일 경우, 이동 속도가 느려집니다.
+
+알림 : 이 설정은 이 게임의 턴 기반 시스템에 영향을 끼치지 않습니다. 당신은 캐릭터가 움직이는 도중이라면 언제든지 다시 이동할 수 있으며, 이 사항은 제대로 갱신되며, 새로운 애니메이션 효과와 계산된 값을 산출합니다.]], "_t")
 t("Dark", "다크", "_t")
 t("Metal", "메탈", "_t")
 t("Simple", "심플", "_t")
