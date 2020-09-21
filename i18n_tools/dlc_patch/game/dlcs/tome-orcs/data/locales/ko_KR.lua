@@ -638,7 +638,7 @@ t("cracked mindstar", "깨진 마석", "_t")
 t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "정신벽에 깃들었던 강력한 힘의 조각이 아직도 이 깨지고, 오래된 보석에 남아있습니다.", "_t")
 t("reduces mental save", "정신 내성 감소", "_t")
 t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "반경 %d 칸 내의 한 대상을 %d 턴 동안 정신적으로 지배하거나, 물리적으로 기절시킵니다 (대상의 면역력에 영향을 받고, 성공률은 정신력에 비례합니다)", "tformat")
-t("#Source# psychically dominates #target# through %s %s!", "#Source1# %s %s 통해 #target3# 물리적으로 지배한다!", "logCombat", nil, {[2]="를"})
+t("#Source# psychically dominates #target# through %s %s!", "#Source1# %s %s 통해 #target3# 물리적으로 지배했다!", "logCombat", nil, {[2]="를"})
 t("crystallized drake heart", "결정화된 용족의 심장", "_t")
 t("Ureslak's Focus", "우르슐락의 집중", "entity name")
 t("multi-hued", "다색", "entity subtype")
@@ -877,7 +877,7 @@ t("%s shocking touch", "%s 충격의 손길", "tformat")
 t("%s deflection field", "%s 편향막", "tformat")
 t("%s galvanic retributor", "%s 전열 보복기", "tformat")
 t("Unleash a lightning nova of radius equal to the tinker tier.", "발명품과 같은 범위의 정전기 폭발을 해방합니다.", "_t")
-t("#Source# unleashes GALVANIC RETRIBUTION!", "#Source1# 전열 보복기를 해방한다!", "logCombat")
+t("#Source# unleashes GALVANIC RETRIBUTION!", "#Source1# 전열 보복기를 해방했다!", "logCombat")
 t("%s shocking edge", "%s 충격의 칼날", "tformat")
 t("Deals lightning damage and drains resources.", "전기 피해를 가하고, 원천력을 흡수합니다.", "_t")
 t("shock your foe dealing %d damage and draining some of their resources", "대상에게 전기 충격을 가해 %d 피해를 주고 적의 원천력을 일부 흡수합니다", "tformat")
@@ -1152,7 +1152,7 @@ t("The Long-Arm", "긴-총", "entity name")
 t("long barreled gun", "긴 총열의 총", "_t")
 t("This gun has an absurdly long barrel. You wonder for whom it may have been designed.", "이 총은 말도 안되게 긴 총열을 갖고있습니다. 과연 누구를 위해서 제작 되었을까요?", "_t")
 t("Focus your aim on a target, marking them for death - reducing their ranged defense by %d and their resistances by %d%%", "대상을 조준하는데 정신을 집중하고, 죽음의 낙인을 찍습니다 - 원거리 회피도를 %d , 모든 저항을 %d%% 감소시킵니다", "tformat")
-t("#Source# takes aim at #target# using %s!", "#Source1# #target3# %s 조준한다!", "logCombat", nil, {"으로"})
+t("#Source# takes aim at #target# using %s!", "#Source1# #target3# %s 조준했다!", "logCombat", nil, {"으로"})
 t("Annihilator", "섬멸자", "entity name")
 t("gigantic many barreled gun", "거대한 다중총열 총기", "_t")
 t("This gun features a wheel with several barrels attached and seems to be powered by an engine. It looks... impressive.", "여러개의 총열이 바퀴에 연결되어있고, 증기 기관을 통해 동력을 공급받는 것 같습니다. 이 총은... 그저... 엄청나군요.", "_t")
@@ -1238,7 +1238,7 @@ t("Band of Protection", "보호의 죔틀", "entity name")
 t("reinforced belt", "강화된 허리띠", "_t")
 t("This belt utilizes an enchanted gem to focus a burst of steam into a powerful barrier.", "이 허리띠는 마법에 걸린 보석을 집중삼아, 뿜어저나오는 증기를 튼튼한 방어벽으로 만듭니다.", "_t")
 t("generate a personal shield that absorbs up to %d damage and damages attackers striking the wearer for %d fire damage while it lasts (based on Cunning)", "개인 보호막을 만들어 최대 %d 피해를 흡수하고, 공격자에게 보복 공격을 가해 %d 화염 피해를 입힙니다 (교활에 비례)", "tformat")
-t("%s summons a barrier of steam from %s %s!", "%s %s %s 증기의 방벽을 형성한다!", "logSeen", nil, {"는",[3]="으로"})
+t("%s summons a barrier of steam from %s %s!", "%s %s %s 증기의 방벽을 형성했다!", "logSeen", nil, {"는",[3]="으로"})
 t("Viletooth", "사악한 이빨", "entity name")
 t("rusted steamsaw", "녹슨 증기톱", "_t")
 t("This aged looking saw is very rusty, and you think you see a thin layer of... something... on its blades.", "오래되어 보이는 이 증기톱에는 녹이 심각하게 녹슬었습니다. 그리고 톱날 위에서 얇은 뭔가를... 본 것 같습니다.", "_t")
@@ -1342,8 +1342,8 @@ The circuit will do one of:
 ]], "_t")
 t("#PURPLE#%s activates and teleports away all nearby creatures!", "#PURPLE#%s 발동해, 근처의 적들을 순간이동 시켰다!", "logSeen", nil, {"를"})
 t("#PURPLE#%s activates and increases %s's resistances!", "#PURPLE#%s 발동해, %s의 저항을 증가시킨다!", "logSeen", nil, {"를"})
-t("#PURPLE#%s activates and increases %s's arcane dynamo power!", "#PURPLE#%s 발동해 %s의 비전 발전기를 강화한다!", "logSeen", nil, {"를"})
-t("#PURPLE#%s activates and resets %s's %s cooldown!", "#PURPLE#%s 발동해 %s의 %s 재사용 대기시간을 초기화한다!", "logSeen", nil, {"를"})
+t("#PURPLE#%s activates and increases %s's arcane dynamo power!", "#PURPLE#%s 발동해 %s의 비전 발전기를 강화했다!", "logSeen", nil, {"를"})
+t("#PURPLE#%s activates and resets %s's %s cooldown!", "#PURPLE#%s 발동해 %s의 %s 재사용 대기시간을 초기화했다!", "logSeen", nil, {"를"})
 t("Galen's Will", "갈렌의 의지", "entity name")
 t("aether-infused steamsaw", "에테르가 주입된 증기톱", "_t")
 t("Saws made of metal? That is no good for a discerning Technomancer so Galen made a saw out of pure arcane forces!", "금속으로 만든 톱? 그런건 안목있는 마도공학자에게는 어울리지 않습니다. 그래서 갈렌은 순수한 마법의 힘으로 톱을 만들어냈습니다!", "_t")
@@ -1811,9 +1811,9 @@ t([[Dash forward using rockets.
 		이 공격은 180% 의 무기 피해를 가합니다.
 		적어도 2 칸 떨어진 적에게만 사용할 수 있습니다.]], "_t")
 t("Laser Powered Smash", "레이저 강타", "talent name")
-t("@Source@ unleashes the power of the Gloryhammer!", "@Source2@ 글로리 해머의 힘을 해방한다!", "_t")
+t("@Source@ unleashes the power of the Gloryhammer!", "@Source2@ 글로리 해머의 힘을 해방했다!", "_t")
 t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1.
-		This attack creates an explosion of radius 1 around every affected target, dealing 50% weapon damage and blinding them for 4 turns.]], [[시전자 인근의 모든 적에게 글로리해머의 절대적임 힘을 해방합니다.
+		This attack creates an explosion of radius 1 around every affected target, dealing 50% weapon damage and blinding them for 4 turns.]], [[시전자 인근의 모든 적에게 글로리 해머의 절대적임 힘을 해방합니다.
 		이 공격은 영향을 받은 적에게 반경 1 칸의 폭발을 일으키고, 무기 피해의 50% 를 주고 4 턴 동안 실명시킵니다.]], "_t")
 
 
@@ -2059,7 +2059,7 @@ t([[You imbue a steamsaw with arcane and temporal forces, making it spin very fa
 		#{italic}#이 기술을 배움과 동시에 증기톱의 설계도를 얻게됩니다.#{normal}#
 		]], "tformat")
 t("Reality Breach", "현실 균열", "talent name")
-t("#Source# annihilates '#Target#'!", "#Source1# '#Target3#' 섬멸한다!", "logCombat")
+t("#Source# annihilates '#Target#'!", "#Source1# '#Target3#' 섬멸했다!", "logCombat")
 t([[Spin your saw at incredible speeds for an instant, fully breaking reality in a 3-wide beam in front of you.
 		Any creatures caught by the beam take %0.2f occult damage and are untethered from reality, reducing their global speed by %d%% and the speed of any projectiles they fire by %d%% for 4 turns.
 		At level 3 any projectiles caught in the beam are instantly annihilated.
@@ -2395,7 +2395,7 @@ t([[Spin your saws wildly around you to create a wall of steamy sawteeth.
 		#{italic}#죽음의 톱 위에서 저들의 뼈가 쪼게지게하라!#{normal}#]], "tformat")
 t("Punishment", "징벌", "talent name")
 t("You require a steamsaw for this talent.", "이 기술을 사용하기 위해서는 증기톱이 필요합니다.", "logPlayer")
-t("#CRIMSON#%s unleashes a punishing strike for %d%% bonus damage!", "#CRIMSON#%s 징벌의 일격을 가해, %d%% 추가 피해를 가한다!", "logSeen", nil, {"가"})
+t("#CRIMSON#%s unleashes a punishing strike for %d%% bonus damage!", "#CRIMSON#%s 징벌의 일격을 가해, %d%% 추가 피해를 가했다!", "logSeen", nil, {"가"})
 t([[Slam your saws into your target, dealing 100%% weapon damage + %d%% per physical, magical, or mental effect on them (up to 7 effects).
 			Sustains are not effects.
 		#{italic}#The Metal Punisher!#{normal}#]], [[톱으로 적을 내려쳐, 100%% 무기 피해 + %d%% × 대상의 물리적, 마법적, 정신적 효과 의 피해를 줍니다. (최대 7 개까지 적용)
@@ -2792,7 +2792,7 @@ t([[You fire a special, electrically charged shot with your steamgun(s) at a spo
 section "game/dlcs/tome-orcs/data/talents/steam/gunslinging.lua"
 
 t("Strafe", "이동 사격", "talent name")
-t("@Source@ strafes with @hisher@ steamguns!", "@Source2@ @hisher@ 총기로 이동 사격을 가한다!", "_t")
+t("@Source@ strafes with @hisher@ steamguns!", "@Source2@ @hisher@ 총기로 이동하며 사격했다!", "_t")
 t([[You have learned to fire while moving.
 		In one motion, you fire your double steamguns (100%% weapon damage, 1 tile range penalty) and may then move to an adjacent tile (unless pinned to the ground or immobilized).
 		This talent can be activated for up to %d consecutive turns before it goes on cooldown, and takes time according to your steamtech speed or movement speed (if you move), whichever is slower.
@@ -3224,14 +3224,14 @@ t([[Throw a handful of dust that rapidly oxidises, releasing a blinding light.
 		반경 %d 칸의 원뿔 범위 내의 적을 %d 턴 동안 실명시킵니다.
 		실명 확률은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Itching Powder", "가려움 가루", "talent name")
-t("%s resists the itching powder!", "%s 가려움 가루에 저항한다!", "logSeen", nil, {"는"})
+t("%s resists the itching powder!", "%s 가려움 가루에 저항했다!", "logSeen", nil, {"는"})
 t([[Throw a handful of dust that is very itchy to touch.
 		Creatures in a cone of radius %d are itchy for %d turns, causing them to fail talents %d%% of the time.
 		The itchiness effect is applied with your Steampower.]], [[만지기에도 매우 간지러운 가루를 한줌 던집니다.
 		반경 %d 칸의 원뿔 범위 내의 적에게 %d 턴 동안 극심한 가려움증을 유발하여 %d%% 확률로 기술 시전에 실패하게 합니다.
 		가려움 확률은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Thunder Grenade", "천둥 수류탄", "talent name")
-t("%s resists the explosion!", "%s 폭발에 저항한다!", "logSeen", nil, {"가"})
+t("%s resists the explosion!", "%s 폭발에 저항했다!", "logSeen", nil, {"가"})
 t([[Throw a grenade at your foes, dealing %0.2f physical damage in radius %d.
 		Creatures hit will also be stunned for %d turns.
 		The stun effect is applied with your Steampower.]], [[적에게 수류탄을 던저 반경 %d 칸 범위에 %0.2f 물리 피해를 줍니다.
@@ -3362,7 +3362,7 @@ t([[You fire a special corrosive shot with your steamgun(s) at a target for %d%%
 		부식 위력은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Toxic Shell", "맹독 포탄", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
-t("%s resists the toxin!", "%s 맹독에 저항한다!", "logSeen", nil, {"는"})
+t("%s resists the toxin!", "%s 맹독에 저항했다!", "logSeen", nil, {"는"})
 t([[You fire a special toxic shot with your steamgun(s) at a target for 100%% weapon damage as blight.
 		The shot will release heavy metals into the target, inflicting %0.2f blight damage per turn and reducing their global speed by %d%% for %d turns.
 		This talent does not use ammo as it is the ammo.
@@ -3843,7 +3843,7 @@ t("-Vamp Surge", "-흡혈의 쇄도", "_t")
 t("Temporal Ripples", "시간의 파문", "_t")
 t("Attackers dealing damage will be healed for %d%% of the damage done.", "공격자는 가한 피해의 %d%% 를 회복함.", "tformat")
 t("chronomancy", "시공 제어", "effect subtype")
-t("#Target# is fluctuating in time!", "#Target2# 시간 속에서 끊임없이 변동한다!", "_t")
+t("#Target# is fluctuating in time!", "#Target2# 시간 속에서 끊임없이 변동하고 있다!", "_t")
 t("#Target# is no longer fluctuating.", "#Target1# 변동을 끝냈다.", "_t")
 t("Death Momentum", "죽음의 기세", "_t")
 t("You have %d charges.", "용해 점수 %d 점.", "tformat")
@@ -3982,7 +3982,7 @@ t("#LIGHT_RED#You lost sight of your mecharachnid for too long; direct control i
 t("mecharachnid out of sight", "시야 밖 강철 거미", "_t")
 t("Piloted", "탑승됨", "_t")
 t("Currently piloted.", "현재 탑승됨.", "tformat")
-t("#GREEN#%s takes direct control of their mecharachnid!", "#GREEN#%s 강철 거미에 탑승해, 직접 조종한다!", "logSeen", nil, {"는"})
+t("#GREEN#%s takes direct control of their mecharachnid!", "#GREEN#%s 강철 거미에 탑승해, 직접 조종하기 시작했다!", "logSeen", nil, {"가"})
 t("Direct Control", "직접 조종", "_t")
 t("Direct control by the pilot increases damage by %d%% and resistances by %d%%.", "조종사에 의해 직접 조종됨 : 피해량 +%d%% / 저항 +%d%%.", "tformat")
 t("Heavy Ammunition", "중화기 탄약", "_t")
@@ -4173,7 +4173,7 @@ t("+Marked for Death", "+죽음의 표식", "_t")
 t("Itching Powder", "가려움 가루", "_t")
 t("The target is very itchy, causing their actions to fail.", "몸이 매우 간지러움 : 행동이 실패함.", "tformat")
 t("powder", "가루", "effect subtype")
-t("#Target# is very itching!", "#Target2# 가려워서 미치려고한다!", "_t")
+t("#Target# is very itching!", "#Target2# 굉장히 가려워하고 있다!", "_t")
 t("+Itching Powder", "+가려움 가루", "_t")
 t("#Target# regains their concentration.", "#Target1# 다시 집중을 되찾았다.", "_t")
 t("-Itching Powder", "-가려움 가루", "_t")
@@ -4247,7 +4247,7 @@ t("Overclock", "오버클럭", "_t")
 t("The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "전하 보호막에 둘러싸여있음 : 흡수량 %d/%d / 효과가 유지되는 동안, 반경 7 칸 내의 무작위한 적에게 전기 화살을 날려 %0.2f 전기피해를 가함.", "tformat")
 t("lightning", "전기", "effect subtype")
 t("shield", "보호막", "effect subtype")
-t("#target# surges with power!", "#target2# 힘이 쇄도한다!", "_t")
+t("#target# surges with power!", "#target2# 힘이 쇄도했다!", "_t")
 t("+Overclock", "+오버클럭", "_t")
 t("#target# looks less powerful.", "#target#의 힘이 빠저나간다.", "_t")
 t("-Overclock", "-오버클럭", "_t")
@@ -4258,7 +4258,7 @@ t("Improves senses, allowing the detection of enemies in radius %d and increasin
 t("sense", "감지", "effect subtype")
 t("AED", "자동 심장 충격기", "_t")
 t("If life is brought below 0, cancels the attack, heals for %d and deals %0.2f lightning damage in radius %d as well as dazing for 2 turns.", "생명력이 0 이하로 떨어질 시 : 이 효과를 발동시킨 공격을 무효화 / 생명력 %d 회복 / %0.2f 전기 피해를 반경 %d 칸에 가하고, 2 턴 동안 혼절시킴.", "tformat")
-t("#Target# prepares their AED!", "#Target2# 자동 심장 충격기를 준비한다!", "_t")
+t("#Target# prepares their AED!", "#Target2# 자동 심장 충격기를 준비했다!", "_t")
 t("+AED", "+심소생", "_t")
 t("#Target#'s AED deactivates.", "#Target#의 자동 심장 충격기가 비활성화 되었다.", "_t")
 t("-AED", "-심소생", "_t")
@@ -4920,8 +4920,9 @@ section "game/dlcs/tome-orcs/data/zones/shertul-cave/zone.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/slumbering-caves/npcs.lua"
 
-t("eyal", "에이얄", "entity subtype")
+t("eyal", "에이알", "entity subtype")
 t("god", "신", "entity type")
+t("shertul", "쉐르툴", "entity subtype")
 
 
 ------------------------------------------------

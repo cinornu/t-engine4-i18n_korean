@@ -92,6 +92,7 @@ t("fire haven", "화염의 안식처", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
 
+t("Rogroth, Eater of Souls", "영혼을 먹는자 로그로스", "_t")
 t("the Corrupted Daelach", "오염된 댈라크", "_t")
 t("a daelach", "댈라크", "_t")
 t("Draebor, the Imp", "임프 드래보르", "_t")
@@ -113,7 +114,7 @@ section "game/dlcs/tome-ashes-urhrok/data/general/npcs/aquatic-demon.lua"
 t("Walrog", "왈록", "entity name")
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
-t("Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "물의 군주 왈록은 #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "_t")
+t("Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "왈록, 물의 주인으로 바라보기만해도 #AQUAMARINE#소름#LAST#이 끼칩니다. 물이 그에게서 벗어나려는 듯이 그의 주변을 휘감고있고, 거품과 증기로 인해 그의 형태를 제대로 가늠할 수 없습니다.  그는 당신을 보고도 놀라지 않은 것 같습니다.", "_t")
 
 
 ------------------------------------------------
@@ -121,6 +122,8 @@ section "game/dlcs/tome-ashes-urhrok/data/general/npcs/major-demon.lua"
 
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
+t("wretch titan", "렛치 타이탄", "entity name")
+t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings. Swarming, gnashing, burning. What those adventurers don't know is that those are just the children.", "많은 모험가들은 이미 렛츨링들과 조우한 적이있습니다. 끔찍한놈들이죠. 무리지어다니고, 이를 갈며, 불타오릅니다. 렛츨링들은 그저 어린 아이들이였다는 것을 대부분의 모험가들은 알지 못합니다.", "_t")
 
 
 ------------------------------------------------
@@ -163,7 +166,7 @@ This band of gothic obsidian menaces with an embossed image of a grinning skull.
 
 이 고풍적인 흑요석 반지의 활짝 웃고있는 해골 조각은 겉보기에도 위협적입니다. 손을 흔들어 운명에게 몸을 맡기라고 유혹합니다. 하시겠습니까?]], "_t")
 t("strange black ring", "이상한 검은 반지", "_t")
-t("#RED#The ring refuses to be removed!", "#RED#반지는 손가락에서 빼내어지길 거부한다!", "logPlayer")
+t("#RED#The ring refuses to be removed!", "#RED#반지는 손가락에서 빼내어지길 거부했다!", "logPlayer")
 t("Cannot be unequipped or rerolled until level %d.", "레벨 %d 까지 재부여되거나 해제할 수 없습니다.", "tformat")
 t("Can be unequipped, can't be rerolled.", "해제는 가능하나, 재부여할 수 없습니다.", "_t")
 t("Can be unequipped or rerolled.", "해제도, 재부여도 가능합니다.", "_t")
@@ -247,7 +250,6 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		적을 죽이고 얻는 원기 획득량이, 적에게 적용된 암울한 결과 중첩마다 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat")
 t("Weakened Soul", "약해진 영혼", "talent name")
-t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, dealing 2%% less damage.", "암울한 결과 중첩 당 가하는 피해량이 2%% 감소합니다. 이 효과는 최대 %d 개의 암울한 중첩까지 적용됩니다.", "tformat")
 t("Grim Future", "음침한 미래", "talent name")
 t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
@@ -788,15 +790,16 @@ section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/npcs.lua"
 
 t("Soul Eater", "영혼 포식자", "talent name")
 t("#CRIMSON#%s is bound to %s will.", "#CRIMSON#%s %s의 의지에 속박되어 있다.", "logSeen", nil, {"는"})
-t("#PURPLE#As %s falls down you see %s reach to it, devour its essence and raise it back as a demonic husk.", "#PURPLE#%s 쓰러지자, %s 접근해, 정수를 먹어치우고, demonic husk로 되살렸습니다.", "logSeen")
+t("#PURPLE#As %s falls down you see %s reach to it, devour its essence and raise it back as a demonic husk.", "#PURPLE#%s 쓰러지자, %s에게 접근해, 정수를 먹어치우고, 악마의 하수인으로 되살렸습니다.", "logSeen", nil, {"가"})
+t("%s (demonic husk)", "%s (악마의 하수인)", "tformat")
 t([[Any nearby allied creature that is not a summon will be bound to your will.
 		Each time a creature bound to your will dies it is resurrected as a demonic husk.
 		Demonic husks have:
 		- slow movement speed
 		- more life
 		- new demonic talents]], [[근처의 소환되지 않은 우호적인 개체들은 시전자의 의지에 속박됩니다.
-		시전자의 의지에 속박된 개체는 죽을 때, demonic husk 로 부활합니다.
-		Demonic husks :
+		시전자의 의지에 속박된 개체는 죽을 때, 악마의 하수인 로 부활합니다.
+		악마의 하수인 :
 		- 느린 이동 속도
 		- 더 많은 생명력
 		- 새로운 악마의 기술들]], "tformat")
@@ -993,7 +996,7 @@ t("+Fiery Torment", "+불타는 고문", "_t")
 t("-Fiery Torment", "-불타는 고문", "_t")
 t("Destroyer", "파괴자", "_t")
 t("The target assumes the form of a powerful demon.", "악마의 형상을 취합니다.", "tformat")
-t("#Target# turns into a demon!", "#Target2# 악마로 변한다!", "_t")
+t("#Target# turns into a demon!", "#Target2# 악마로 변했다!", "_t")
 t("+Destroyer", "+파괴자", "_t")
 t("-Destroyer", "-파괴자", "_t")
 t("Voracious Blade", "탐식의 칼날", "_t")
@@ -1004,7 +1007,7 @@ t("#Target#'s weapon stops glowing.", "#Target#의 무기의 빛이 사라졌다
 t("-Voracious", "-탐식의 칼날", "_t")
 t("Raging flames", "불타는 화염", "_t")
 t("Next melee attack will always trigger incinerating blows, and the damage from incinerating blows will be multiplied by %d%%", "다음 근접 공격은 반드시 소각의 타격을 일으킴 / 소각의 타격의 피해량 +%d%%", "tformat")
-t("#Target#'s weapon surges with fire!", "#Target#의 무기가 화염으로 쇄도한다!", "_t")
+t("#Target#'s weapon surges with fire!", "#Target#의 무기가 화염으로 쇄도했다!", "_t")
 t("+Revel", "+고무됨", "_t")
 t("-Revel", "-고무됨", "_t")
 t("Devouring flames", "집어삼키는 화염", "_t")
@@ -1056,7 +1059,7 @@ t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부서졌다!", "logPlayer")
 t("Surge of Power", "힘의 쇄도", "_t")
 t("This unit will not die until it has less than -%d HP.", "생명력이 -%d 에 도달할 때 까지 죽지 않음.", "tformat")
-t("#Target# surges with an incredible power!", "#Target#에게서 믿을 수 없는 힘이 쇄도한다!", "_t")
+t("#Target# surges with an incredible power!", "#Target#에게서 믿을 수 없는 힘이 쇄도했다!", "_t")
 t("+Surge of Power", "+힘의 쇄도", "_t")
 t("-Surge of Power", "-힘의 쇄도", "_t")
 t("Recklessness", "무모함", "_t")
@@ -1202,8 +1205,13 @@ t("floor", "바닥", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/npcs.lua"
 
+t("enthralled %s", "노예가 된 %s", "tformat")
+t("quasit squad leader", "콰짓 지휘관", "entity name")
 t("A small, heavily armoured demon, rushing toward you.", "작고, 중장갑을 두른 악마로 당신에게 달려옵니다.", "_t")
+t("Rogroth, Eater of Souls", "영혼을 먹는자 로그로스", "entity name")
 t("major", "고위", "entity subtype")
+t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "화염과 황폐의 마법 쇄도가 저 거미같은 검은색 금속 피부에서 무질서적으로 나타납니다. 뚜렷하게 보이는 머리는 없지만, 거대한 입 하나가 몸에 나있습니다.", "_t")
+t("and raised as a demonic husk", "그리고 악마의 하수인으로 되살아났습니다.", "_t")
 
 
 ------------------------------------------------
@@ -1229,7 +1237,16 @@ section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/npcs.lua"
 
 t("demon", "악마", "entity type")
 t("minor", "하위", "entity subtype")
+t("demonic clerk", "악마 서기", "entity name")
+t("A small demon, he looks alarmed at your seeming freedom.", "작은 악마로, 당신이 자유를 되찾은 것 처럼 보이자 당황한 것 같습니다.", "_t")
+t("mutilator", "훼손자", "entity name")
+t("A demon with 3 arms, ready to mutilate you. For experiment. Not for fun. Nope.", "세 팔 달린 악마로, 당신을 훼손할 준비가 되어있습니다. 실험을 위해서요. 재미가 아니라요. 아무럼요", "_t")
+t("investigator", "조사관", "entity name")
+t("This demon is dedicated to #{italic}#extracting#{normal}# information from #{italic}#willing#{normal}# subjects.", "이 악마는 #{italic}#자발적인#{normal}# 실험체에 대한 정보를 #{italic}#추출#{normal}#하기 위해 존재합니다.", "_t")
+t("Planar Controller", "차원 관리자", "entity name")
 t("major", "고위", "entity subtype")
+t("A huge demon towers above you, it is obviously in control of all the portals in the nearby Fearscape area.", "거대한 악마가 당신 앞에 서있습니다. 이 악마가 공포의 영역 주변의 모든 차원문을 관리하고 있는게 틀림없습니다.", "_t")
+t("and teleported to Mal'Rok for more experiments", "그리고 더 많은 실험을 위해 말'록으로 순간이동 되었다", "_t")
 
 
 ------------------------------------------------
