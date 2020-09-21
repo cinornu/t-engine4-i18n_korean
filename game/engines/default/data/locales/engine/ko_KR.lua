@@ -595,7 +595,7 @@ Again, thank you, and enjoy Eyal!
 당신의 후원액 총합은 #LIGHT_GREEN#%0.2f 유로#WHITE#이며 #ROYAL_BLUE#%d 보라툰 코인#WHITE#으로 te4.org 에서 사용이 가능합니다.
 당신의 아이템 금고는 총 #TEAL#%d 칸#WHITE#입니다.
 
-다시 한번 감사드리며, 에이얄을 즐겨주세요!!
+다시 한번 감사드리며, 에이알을 즐겨주세요!!
 
 #{italic}#당신만의 악랄한 어둠의 신, darkgod#GOLD#DarkGod#{normal}#]], "tformat")
 t("Thank you!", "감사합니다!", "_t")

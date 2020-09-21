@@ -1975,7 +1975,7 @@ function _M:getCombatStats(type, inven_id, item)
 		aspeed = 1/self:combatSpeed(mean)
 	end
 	if type == "psionic" then self:attr("use_psi_combat", -1) end
-	return {obj=o, atk=atk, dmg=dmg, apr=apr, crit=crit, crit_power=crit_power or 0, aspeed=aspeed, range=range, mspeed=mspeed, archery=archery, mean=mean, ammo=ammo, block=mean.block, talented=mean.talented}
+	return {obj=o, atk=atk, dmg=dmg, apr=apr, crit=crit, crit_power=crit_power or 0, aspeed=aspeed, range=range, mspeed=mspeed, archery=archery, mean=mean, ammo=ammo, block=mean and mean.block, talented=mean and mean.talented}
 end
 -- Gets the full name of the Actor
 function _M:getName()

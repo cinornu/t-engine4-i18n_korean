@@ -88,7 +88,7 @@ newEntity{
 
 	life_rating = 10,
 	rank = 2,
-	size_category = 3,
+	size_category = 4,
 
 	open_door = true,
 

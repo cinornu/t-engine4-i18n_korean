@@ -464,7 +464,9 @@
 "game/modules/tome/data/texts/unlock-mage_thaumaturgist.lua"
 "game/modules/tome/data/texts/unlock-paladin_fallen.lua"
 "game/modules/tome/data/texts/unlock-psionic_mindslayer.lua"
-"game/modules/tome/data/texts/unlock-psionic_solipsist.lua" Khelerd 완
+"game/modules/tome/data/texts/unlock-psionic_solipsist.lua"
+"game/modules/tome/data/texts/unlock-race_ogre.lua"
+"game/modules/tome/data/texts/unlock-rogue_marauder.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완

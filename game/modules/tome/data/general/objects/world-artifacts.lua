@@ -3953,6 +3953,7 @@ newEntity{ base = "BASE_GAUNTLETS",
 	use_power = {
 	name = _t"destroy an arcane item (of a higher tier than the gauntlets)", power = 1,
 	no_npc_use = true,
+	use_force_worn = true,
 	use = function(self, who, obj_inven, obj_item)
 		if self.tinker then
 			game.log("#LIGHT_RED#You can not do that with a tinker attached. Remove it first.")
@@ -4454,6 +4455,7 @@ newEntity{ base = "BASE_LITE", --Thanks Frumple!
 		}
 	},
 	max_power = 10, power_regen = 1,
+	use_force_worn = true,
 	use_power = {
 		name = function(self, who)
 			local dam = who:damDesc(engine.DamageType.DARKNESS, self.use_power.damage(self, who))
@@ -5392,6 +5394,7 @@ newEntity{ base = "BASE_TOOL_MISC", --Thanks Alex!
 		flat_damage_armor = {all=0},
 	},
 	max_power = 20, power_regen = 1,
+	use_force_worn = true,
 	use_power = {
 		name = function(self, who) return ("flip the hourglass (sands currently flowing towards %s)"):tformat(self.direction > 0 and _t"stability" or _t"entropy") end,
 		power = 20,
@@ -7112,6 +7115,7 @@ newEntity{ base = "BASE_GREATMAUL",
 				true)
 			maul.gemDesc = _t"Demonic"
 		end,},
+	use_force_worn = true,
 	max_power = 10, power_regen = 1,
 	use_power = { name = _t"imbue the hammer with a gem of your choice", power = 10,
 		no_npc_use = true,

@@ -1216,7 +1216,7 @@ newDamageType{
 			dam = dam - init_dam
 			target:setEffect(target.EFF_BURNING, dur, {src=src, power=dam / dur, no_ct_effect=true})
 				if rng.percent(chance) then
-					DamageType:get(DamageType.FLAMESHOCK).projector(src, x, y, DamageType.FLAMESHOCK, {dur=3, dam=15, apply_power=src:combatMindpower()}, state)
+					DamageType:get(DamageType.FLAMESHOCK).projector(src, x, y, DamageType.FLAMESHOCK, {dur=3, dam=15, apply_power=math.max(src:combatMindpower(), src:combatSpellpower())}, state)
 			end
 		end
 		return init_dam

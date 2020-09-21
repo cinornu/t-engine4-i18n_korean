@@ -191,7 +191,7 @@ newTalent{
 	callbackPriorities={callbackOnActBase = 100}, -- trigger after most others
 	callbackOnActBase = function(self, t)
 		local p = self:isTalentActive(t.id) if not p then return end
-		if p.cur_value > 0 then self:heal(p.cur_value, self) end
+		if p.cur_value > 0 and self.life < 1 then self:heal(p.cur_value, self) end
 		p.cur_value = 0
 	end,
 	callbackOnDealDamage = function(self, t, value, target, dead, death_node)
@@ -225,7 +225,7 @@ newTalent{
 		local ressistpen = t.getResistPenalty(self, t)
 		local affinity = t.getVampiric(self, t)
 		return ([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
-		In addition, at the end of each turn you are healed for %d%% of all damage you dealt.]])
+		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]])
 		:tformat(damageinc, ressistpen, affinity)
 	end,
 }

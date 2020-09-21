@@ -994,6 +994,7 @@ newTalent{
 				body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1, PSIONIC_FOCUS=1 },
 
 				rank = 3,
+				size_category = 2,
 				life_rating = 8,
 				max_life = resolvers.rngavg(50,80),
 				combat_atk = resolvers.levelup(1, 1, 3),

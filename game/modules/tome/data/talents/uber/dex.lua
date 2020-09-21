@@ -88,24 +88,66 @@ uberTalent{
 	end,
 }
 
+
+newTalent{
+	name = "Manage Swift Hands", short_name = "SWIFT_HANDS_EQUIP",
+	type = {"other/other", 1},
+	points = 1,
+	cant_steal = true,
+	no_npc_use = true,
+	on_pre_use = function(self, t, silent) if self.in_combat then if not silent then game.logPlayer(self, "You can only prepare your swift hands tools outside of combat.") end return false end return true end,
+	action = function(self, t)
+		if self.in_combat then return end
+
+		package.loaded["mod.dialogs.SwiftHands"] = nil
+		if self:talentDialog(require("mod.dialogs.SwiftHands").new(self)) then
+			self.talents_cd[self.T_SWIFT_HANDS] = 10
+			return true
+		end
+	end,
+	info = function(self, t)
+		return (_t[[Manage your swift hands readied tools.]])
+	end,
+}
 uberTalent{
 	name = "Swift Hands",
-	mode = "passive",
 	cant_steal = true,
+	no_npc_use = true,
+	cooldown = 3, fixed_cooldown = true,
+	no_energy = true,
+	autolearn_talent = "T_SWIFT_HANDS_EQUIP",
+	action = function(self, t)
+		if self.no_inventory_access then return end
+
+		local inven = self:getInven(self.INVEN_SWIFT_HANDS)
+		package.loaded["mod.dialogs.SwiftHandsUse"] = nil
+		local d = require("mod.dialogs.SwiftHandsUse").new(_t"Use tool", inven, nil, function(o, item)
+			if not o then return end
+			self:talentDialogReturn({o=o, item=item, inven=inven})
+			return false
+		end, self)
+		local o = self:talentDialog(d)
+		if o then
+			self.bypass_active_item_worn_check = true
+			local ok, err = xpcall(function() self:playerUseObject(o.o, o.item, o.inven) end, debug.traceback)
+			self.bypass_active_item_worn_check = nil
+			if not ok then error(err) end
+			return true
+		end
+	end,
 	on_learn = function(self, t)
 		self:attr("quick_weapon_swap", 1)
-		self:attr("quick_equip_cooldown", 1)
-		self:attr("quick_wear_takeoff", 1)
+		self.body = {SWIFT_HANDS=4}
+		self:initBody()
 	end,
 	on_unlearn = function(self, t)
 		self:attr("quick_weapon_swap", -1)
-		self:attr("quick_equip_cooldown", -1)
-		self:attr("quick_wear_takeoff", -1)
+		-- Meh you're not supposed to unlearn it anyway
 	end,
 	info = function(self, t)
-		return ([[You have very agile hands; swapping equipment sets (default q key) takes no time, nor does equipping/unequipping items.
-		The free item switch may only happen once per turn.
-		The cooldown for equipping activatable equipment is removed.]])
+		return ([[You like to keep your most precious tools always at hand. This talent lets you prepare up to 4 items in advance (outside of combat).
+		Then at a moment's notice you can use any of them as if they were worn.
+		In addition swapping equipment sets (default q key) takes no time.]])
 		:tformat()
 	end,
 }

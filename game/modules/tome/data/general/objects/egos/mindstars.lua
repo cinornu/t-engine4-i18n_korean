@@ -170,6 +170,7 @@ newEntity{
 		melee_project = { [DamageType.ITEM_ACID_CORRODE]= resolvers.mbonus_material(15, 5), [DamageType.ITEM_NATURE_SLOW]= resolvers.mbonus_material(15, 5),},
 	},
 	no_auto_hotkey = true,
+	use_force_worn = true,
 	resolvers.charm(_t"divide the mindstar in two", 1,
 		function(self, who)
 			-- Check for free slot first
