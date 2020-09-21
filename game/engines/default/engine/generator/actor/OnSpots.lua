@@ -74,7 +74,7 @@ function _M:getSpawnSpot(m)
 			_, _, gs = util.findFreeGrid(spot.x, spot.y, self.spot_radius, "block_move", {[Map.ACTOR]=true})
 			tries = tries + 1
 		end
-		if not gs then
+		if not gs or #gs == 0 then
 			print("No more free space for spawning")
 			break
 		end

@@ -459,11 +459,15 @@ newTalent{
 		if stats.bone_giant then stats.bone_giant:die(self) end
 
 		local list = {}
+		local skel_value = {warrior=1, archer=2, mage=3}
 		for _, m in ipairs(stats.list) do if m.skeleton_minion and not m.lord_of_skulls then list[#list+1] = m end end
+		if #list < 3 then return end
 		table.sort(list, function(a, b)
+			local va, vb = skel_value[a.skeleton_minion], skel_value[b.skeleton_minion]
+			if va ~= vb then return va > vb end
 			local pa, pb = a.life / a.max_life, b.life / b.max_life
-			if pa == pb then return a.creation_turn < b.creation_turn end
-			return pa < pb
+			if pa == pb then return a.creation_turn > b.creation_turn end
+			return pa > pb
 		end)
 
 		local lev = t.getLevel(self, t)

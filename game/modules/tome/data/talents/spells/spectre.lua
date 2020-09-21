@@ -134,7 +134,7 @@ newTalent{
 					self.turn_procs.taunt = true
 					local tg = {type="ball", range=0, radius=3, friendlyfire=false}
 					self:project(tg, self.x, self.y, function(tx, ty)
-						local a = game.level.map(tx, ty, Map.ACTOR)
+						local a = game.level.map(tx, ty, engine.Map.ACTOR)
 						if a and not a.dead and a:reactionToward(self) < 0 then a:setTarget(self) end
 					end)
 				end

@@ -1606,6 +1606,7 @@ It has been kept somewhat intact with layers of salt and clay, but in spite of t
 		combat_def = 5,
 		disarm_bonus = 5,
 	},
+	use_force_worn = true,
 	use_power = { name = _t"", power = 10, hidden = true, use = function(self, who) return end, no_npc_use = true},
 	act = function(self)
 		self:useEnergy()

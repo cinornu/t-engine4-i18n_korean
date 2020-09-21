@@ -175,6 +175,7 @@ newEntity{ base = "BASE_NPC_SLAVER",
 	desc = _t[[A slaver.]],
 	level_range = {10, nil}, exp_worth = 1,
 	rarity = 1,
+	size_category = 2,
 	max_life = resolvers.rngavg(80,90), life_rating = 11,
 	resolvers.equip{
 		{type="weapon", subtype="staff", forbid_power_source={antimagic=true}, autoreq=true},

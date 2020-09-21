@@ -27,7 +27,8 @@ local Tab = require "engine.ui.Tab"
 
 module(..., package.seeall, class.inherit(Dialog))
 
-function _M:init(title, equip_actor, filter, action, on_select, inven_actor)
+function _M:init(title, equip_actor, filter, action, on_select, inven_actor, force_equipdoll)
+	self.force_equipdoll = force_equipdoll
 	self.action = action
 	self.filter = filter
 	inven_actor = inven_actor or equip_actor
@@ -58,6 +59,7 @@ function _M:init(title, equip_actor, filter, action, on_select, inven_actor)
 	end
 
 	self.c_doll = EquipDoll.new{
+		equipdoll = self.force_equipdoll or nil,
 		subobject=equip_actor:attr("can_tinker") and "getTinker" or nil,
 		subobject_restrict_slots=equip_actor.tinker_restrict_slots,
 		actor=equip_actor, drag_enable=true, filter=filter,

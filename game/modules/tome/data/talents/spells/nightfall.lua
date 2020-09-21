@@ -35,7 +35,7 @@ newTalent{
 		if self:getTalentLevel(t) >= 5 then tg = {type="widebeam", radius=1, range=self:getTalentRange(t), friendlyfire=false, talent=t} end
 		return tg
 	end,
-	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 25, 220) end,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 20, 200) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)

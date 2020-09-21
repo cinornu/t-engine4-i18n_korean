@@ -211,7 +211,7 @@ newTalent{
 	end },
 	getTalentCount = function(self, t) return math.floor(self:combatTalentScale(t, 2, 7, "log")) end,
 	getMaxLevel = function(self, t) return util.bound(math.floor(self:getTalentLevel(t)), 1, 4) end,
-	getDur = function(self, t) return math.floor(self:combatTalentScale(t, 2, 12)) end,
+	getDur = function(self, t) return math.floor(self:combatTalentScale(t, 2, 7)) end,
 	action = function(self, t)
 		local tids = {}
 		for tid, _ in pairs(self.talents_cd) do

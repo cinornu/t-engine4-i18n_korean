@@ -118,7 +118,7 @@ newTalent{
 	action = function(self, t)
 		self:removeEffect(self.EFF_INFUSION_COOLDOWN)
 		local tids = {}
-		local nb = self:getTalentLevelRaw(t)
+		local nb = t.getNb(self, t)
 		for tid, _ in pairs(self.talents_cd) do
 			local tt = self:getTalentFromId(tid)
 			if tt.type[1] == "inscriptions/infusions" and self:isTalentCoolingDown(tt) then tids[#tids+1] = tid end
