@@ -1036,6 +1036,7 @@ section "game/modules/tome/class/interface/PartyIngredients.lua"
 ------------------------------------------------
 section "game/modules/tome/class/interface/PartyLore.lua"
 
+t("Lore found: #0080FF#%s", "이야기 발견: #0080FF#%s", "logPlayer")
 
 
 ------------------------------------------------
@@ -1865,9 +1866,16 @@ section "game/modules/tome/class/uiset/ClassicPlayerDisplay.lua"
 ------------------------------------------------
 section "game/modules/tome/class/uiset/Minimalist.lua"
 
+t("Game Log", "게임 로그", "_t")
 t("Rank: ", "등급: ", "_t")
 t("Tales of Maj'Eyal Lore", "테일즈 오브 마즈'에이알 이야기", "_t")
 t("Game: ", "게임: ", "_t")
+t("Whisper", "귓속말", "_t")
+t("Ignore", "무시", "_t")
+t("Ignore user", "사용자 무시", "_t")
+t("Really ignore all messages from: %s", "%s의 모든 메시지를 무시하겠습니까?", "tformat")
+t("Reason", "이유", "_t")
+t("Reason to report: %s", "신고 이유: %s", "tformat")
 
 
 ------------------------------------------------
@@ -4879,6 +4887,7 @@ section "game/modules/tome/data/chats/magic-store.lua"
 t("Select the item to recharge", "충전할 물건을 선택하세요", "_t")
 t("Not enough money", "돈이 부족합니다", "_t")
 t("This costs %d gold.", "비용은 %d 골드입니다.", "tformat")
+t("Recharge?", "재충전 하시겠습니까?", "_t")
 t("This will cost you %d gold.", "비용은 %d 골드입니다.", "tformat")
 t("Welcome, @playername@, to my shop.", "제 가게에 어서 오세요, @playername@.", "_t")
 t("Let me see your wares.", "물건을 보고 싶어.", "_t")
@@ -6196,6 +6205,7 @@ t("%s resists the bloody wave!", "%s 선혈의 파도에 저항했다!", "logSee
 t("fire repulsion", "화염 반발", "_t")
 t("burning repulsion", "타오르는 반발", "_t")
 t("darkness repulsion", "어둠의 반발", "_t")
+t("%s resists the darkness!", "%s 어둠에 저항했따!", "logSeen", nil, {"는"})
 t("%s resists the punch!", "%s 주먹질에 저항했다!", "logSeen", nil, {"는"})
 t("fear repulsion", "공포의 반발", "_t")
 t("%s resists the frightening sight!", "%s 무시무시한 공포에 저항했다!", "logSeen", nil, {"는"})
@@ -6359,9 +6369,20 @@ t("%s resists the void!", "%s 공허의 메아리에 저항했다!", "logSeen", 
 t("#YELLOW#Lite Light#LAST# Burst (radius 1)", "#YELLOW#광원#LAST# 폭발 (반경 1)", "_t")
 t("dark light", "어둠의 빛", "_t")
 t("meteor", "운석", "_t")
+t("fetid", "악취", "_t")
 t("frostdusk", "서리황혼", "_t")
 t("chill of the tomb", "무덤의 냉기", "_t")
+t("putrescent liquefaction", "부패 구름", "_t")
+t("boneyard", "묘지", "_t")
+t("desolate waste", "황량한 폐허", "_t")
+t("thaumic energy", "주술 에너지", "_t")
+t("annihilated", "말살되어", "_t")
+t("disintegrated", "분해되어", "_t")
+t("utterly vaporized", "완전히 증발해", "_t")
+t("black-hole gravity", "블랙홀 중력", "_t")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
+t("%s resists the gravity!", "%s 중력에 저항한다!", "logSeen", nil, {"는"})
+t("solar blood", "태양의 피", "_t")
 
 
 ------------------------------------------------
@@ -7308,6 +7329,7 @@ t("A towering creature, made from the bones of dozens of dead bodies. It is cove
 t("eternal bone giant", "영원의 해골 거인", "entity name")
 t("heavy bone giant", "거대한 해골 거인", "entity name")
 t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "키가 큰 언데드로, 수많은 시체들의 뼈를 모아 만들어졌습니다. 부정한 기운에 덮여 있습니다.", "_t")
+t("runed bone giant", "룬이 새겨진 해골 거인", "entity name")
 t("A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "우뚝 선 언데드로, 수많은 시체들의 뼈를 모아 만들어졌습니다. 룬이 뼈에 새겨지고 혐오스러운 주술이 주입되었습니다.", "_t")
 
 
@@ -7556,6 +7578,7 @@ t("luminous horror", "밤에 빛나는 공포", "entity name")
 t("A lanky humanoid shape composed of yellow light.", "흐느적거리는 인간의 형상으로, 노란 빛으로 이루어져 있습니다.", "_t")
 t("radiant horror", "발광의 공포", "entity name")
 t("A lanky four-armed humanoid shape composed of bright golden light.  It's so bright it's hard to look at, and you can feel heat radiating outward from it.", "흐느적거리는 네 팔 달린 인간의 형상으로, 밝은 황금 빛으로 구성되어 있습니다.  빛은 너무나 강렬하여 쉽게 처다보지 못하고, 빛 속에서 이 공포가 발산하는 열기 또한 느낄 수 있습니다.", "_t")
+t("devourer", "포식귀", "entity name")
 t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "머리가 없는 둥근 생명체로, 짧은 다리와 팔을 갖고 있습니다. 몸 전체가 이빨로만 이루어저 있는 것 같습니다.", "_t")
 t("blade horror", "칼날의 공포", "entity name")
 t("Blades whirl in the air around this thin, floating figure. The air around it swirls with force, threatening to tear apart anything that approches, if the blades don't do it first.", "이 얇고, 공중에 떠있는 형상 주위로 칼날들이 소용돌이 치고 있습니다. 뿐만 아니라, 이 형상의 주위의 공기는 다가오는 모든 것을 찢어버리려는 듯 막대한 힘으로 소용돌이 치고있습니다. 칼날이 먼저 찢어버리지 않는다면, 공기가 찢어버리게 될겁니다.", "_t")
@@ -7686,6 +7709,7 @@ t("Only the most powerful spellcasters raised to unlife become liches. Doomed to
 t("lich", "리치", "entity name")
 t("Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "영생을 손에 넣으려한 이 존재들은 영생을 위해 역생이 삶의 즐거움을 앗아가는 것을 허락했습니다. 이제 이 강력한 주문 시전자들은 생명을 파괴하려 합니다.", "_t")
 t("ancient lich", "고대의 리치", "entity name")
+t("An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "이제는 잊혀진 시대의 나이든 존재로, 살아있는 것들에 대한 증오로 가득 차 있고, 분노로 불타오르고 있습니다. 이 존재는 이제는 가질 수 없는 소중한 것을 다른 이들에게서 앗아갑니다... 바로 생명이죠.", "_t")
 t("archlich", "고위 리치", "entity name")
 t("Blacker than the deepest night, this cold cruel form of darkness approaches.  Long ago it laid aside its mortality, but it has not forgotten its power; rather, its malice and hate have bent this undead entity on the destruction of all things living.", "칠흑의 밤보다 검은, 이 어둠에 감싸인 차갑고 냉혹한 존재가 다가옵니다.  오래 전, 필멸성을 던저버렸지만, 힘을 잃어버리진 않았습니다. 오히려 악의와 증오가 이 언데드를 모든 생명체의 파괴로 이끕니다.", "_t")
 t("blood lich", "피의 리치", "entity name")
@@ -7736,6 +7760,7 @@ section "game/modules/tome/data/general/npcs/minor-demon.lua"
 t("demon", "악마", "entity type")
 t("minor", "하위", "entity subtype")
 t("fire imp", "화염 임프", "entity name")
+t("A small demon, lobbing spells at you.", "작은 악마로, 당신에게 주문을 던집니다.", "_t")
 t("wretchling", "렛츨링", "entity name")
 t("Acid oozes all over this small demon's skin.  Beware, they tend to hunt in packs.", "이 작은 악마의 피부에서 산성 진물이 흘러나옵니다.  조심하십시오, 이 악마들은 무리지어 사냥하는 특성이 있습니다.", "_t")
 t("onilug", "오닐루그", "entity name")
@@ -7867,6 +7892,7 @@ t("orc", "오크", "entity subtype")
 t("orc summoner", "오크 소환사", "entity name")
 t("orc grand summoner", "오크 고위 소환사", "entity name")
 t("A fierce orc attuned to the wilds.", "자연의 힘을 불러내는 무시무시한 오크입니다.", "_t")
+t("orc master wyrmic", "오크 고위 용인", "entity name")
 t("A fierce soldier-orc highly trained in the discipline of dragons.", "용의 규율 속에서 고도로 훈련받은 무시무시한 군인 오크입니다.", "_t")
 t("orc mage-hunter", "오크 마법사 사냥꾼", "entity name")
 t("An orc clad in massive armour. Magic seems to die down all around him.", "중무장을 갖춘 오크로, 마법의 힘은 그의 주변에서 모두 사멸해가는 것 같습니다.", "_t")
@@ -8666,6 +8692,7 @@ t([[These opalescent orbs stare at you with deathly knowledge, undeceived by you
 If you close your eyes a moment, you can almost imagine what dread sights they see...]], [[이 오팔색의 보주들이 그 치명적인 지식으로 응시하여, 착용자의 허영과 기만을 마주보게합니다.  이 보주들은 상상도 할 수 없는 공포를 겪으며 살아왔습니다. 그리고 이제, 그들 모두가 검은 줄에 묶여 그림자의 아주 작은 움직임마저 지켜봅니다.
 잠깐 눈을 감으면, 어떤 두려운 광경을 보는지 상상할 수있습니다...]], "_t")
 t("Borfast's Cage", "보르패스트의 감옥", "entity name")
+t("a suit of pitted and pocked plate-mail", "움푹 패이고, 상처로 가득한 판금 갑옷", "_t")
 t([[Inch-thick stralite plates lock together with voratun joints. The whole suit looks impenetrable, but has clearly been subjected to terrible treatment - great dents and misshaping warps, and caustic fissures bored across the surface.
 Though clearly a powerful piece, it must once have been much greater.]], [[2.5 센치 두께의 스타라라이트 판갑들이 보라툰 부품으로 연결되어있습니다. 이 갑옷은 절대 뚫을 수 없을 것 처럼 보이지만, 끔찍하게 다뤄졌음이 분명합니다 - 움푹 파인 상처와 기형적으로 뒤틀린 철판들, 그리고 부식으로 인한 틈이 갑옷 표면에 가득합니다.
 분명 강력한 작품이지만, 과거에는 훨씬 더 대단했을 것입니다.]], "_t")
@@ -9142,6 +9169,7 @@ t("spiritwalker's ", "영혼 보행자의 ", "entity name")
 t("spiritwalk", "영혼 걸음", "entity keyword")
 t(" of magery", " 마법 ", "entity name")
 t("magery", "마법", "entity keyword")
+t(" of unlife", " 역생 ", "entity name")
 t("unlife", "불생", "entity keyword")
 t(" of the vagrant", " 부랑자 ", "entity name")
 t("vagrant", "부랑자", "entity keyword")
@@ -10009,6 +10037,7 @@ t("Deals #VIOLET#%d#LAST# light and fire damage to each enemy blocked", "막아�
 t("impervious ", "불변의 ", "entity name")
 t("impervious", "불변", "entity keyword")
 t("swashbuckler's ", "건달의 ", "entity name")
+t("swashbuckler", "건달", "entity keyword")
 t(" of resistance", " 저항 ", "entity name")
 t("resistance", "저항", "entity keyword")
 t(" of patience", " 인내 ", "entity name")
@@ -10732,6 +10761,22 @@ t("Made by the Dwarves, this lantern provides light in the darkest recesses of t
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/lore/fun.lua"
 
+t("trollish poem", "트롤의 시", "entity name")
+t("A poem written by a... troll?", "트롤이... 쓴... 시?", "_t")
+t("necromancer poem", "강령술사의 시", "entity name")
+t("A poem written by a... Necromancer?", "강령술사가... 쓴... 시?", "_t")
+t("rogues do it from behind", "도적들은 뒤에서 해결한다", "entity name")
+t("A poem written for a rogue?", "도적들을 위한 시?", "_t")
+t("how to become a necromancer, part %d", "강령술사가 되는 법 %d 장", "tformat")
+t("How to become a powerful Necromancer!", "어떻게 강력한 강령술사가 되는지 배웁니다!", "_t")
+t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"먼지에서 먼지로\", 아슬라보르 보리스의 언데드 사냥 안내서", "entity name")
+t("An undead hunter's guide, by Aslabor Borys.", "아슬라보르 보리스의 언데드 사냥 안내서.", "_t")
+t("Rolf", "롤프", "_t")
+t("Weisman", "와이즈만", "_t")
+t("letter to %s (%d)", "%s에게 보내는 편지 (%d)", "tformat")
+t("A part of the correspondence between two adventurers.", "두 모험가 사이에 주고 받은 편지의 일부.", "_t")
+t("of halfling feet", "하플링의 발에 대해", "entity name")
+t("Notes about... Halfling feet??", "하플링의 발에 대한... 쪽지??", "_t")
 
 
 ------------------------------------------------
@@ -10743,16 +10788,36 @@ t("analysis", "분석", "entity subtype")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/lore/misc.lua"
 
+t("The story of my salvation", "나의 구원 이야기", "entity name")
+t("An old tale about the fear of magic.", "마법의 공포에 대한 오래된 이야기.", "_t")
+t("On Adventuring", "모험 도중", "entity name")
+t("Fragments of a fabled traveler.", "전설적인 여행가가 남긴 조각.", "_t")
+t("memories of Artelia Firstborn", "아르텔리아 퍼스트본의 기억", "entity name")
+t("The memories of the first elf ever to awaken.", "가장 먼저 깨어난 엘프의 기억.", "_t")
+t("human myth of creation", "인간 창조 신화", "entity name")
+t("Myth of creation of the humans.", "인간의 창조에 대한 신화.", "_t")
+t("a logical analysis of creation, by philosopher Smythen", "철학자 스미슨의 창조의 논리적 분석", "entity name")
+t("Myth of creation of the halflings.", "하플링 창조 신화.", "_t")
+t("Tale of the Moonsisters", "달의 자매 이야기", "entity name")
+t("The creation of Eyal's moons.", "에이알의 달들의 창조 신화.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/lore/spellhunt.lua"
 
+t("memories of archmage Varil", "대마도사 바릴의 기억", "entity name")
+t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "황혼의 시대 동안의 대마도사 바릴의 기억과 생각 모음집.", "_t")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "마법사냥꾼의 안내서 1 장 : 주문직조자 색출법", "entity name")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "마법사냥꾼의 안내서 2 장 : 마법사용자에 맞서 싸우는 법", "entity name")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "마법사냥꾼의 안내서 3 장 : 마법사용자 살해법", "entity name")
+t("The definitive guide to hunting magic users.", "마법사용자 사냥에 대한 최고의 안내서.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/lore/sunwall.lua"
 
+t("Loremaster Verutir's note", "전승의 대가 베루틸의 쪽지", "entity name")
+t("A paper scrap containing some lore.", "이야기를 담고있는 종이 쪼가리.", "_t")
 
 
 ------------------------------------------------
@@ -12226,7 +12291,7 @@ t([[The chronomancer known as Solith was renowned across all of Eyal. He always 
 In the case of opponents who weren't alone, he had to improvise.]], [[솔리스라고 알려진 시공술사는 에이알의 모든 대지에 알려져 있습니다. 그는 언제나 홀로 적을 대적하는 것 같았습니다.
 적이 하나가 아닐 경우, 솔리스는 즉흥적으로 대처해야 했습니다.]], "_t")
 t("insignia ring", "상징이 달린 반지", "_t")
-t("attempt to inflict %0.2f temporal damage (based on Spellpower and Paradox, if any) on foes in a radius %d ball out to range %d (chance depends on rank, summons are always affected), removing any that survive from time for up to %d turn(s)", "최대 %d 칸 사거리의 위치에 반경 %d 칸의 시간 파동을 일으켜 확률적으로 %0.2f 시간 피해를 가합니다. (주문력과 괴리에 비례합니다) (확률은 적의 등급에 영향을 받고, 소환수는 항상 영향을 받습니다) 피해를 받고 살아남은 적은 최대 %d 턴 동안 시간선에서 제거됩니다", "tformat", {3,2,1})
+t("attempt to inflict %0.2f temporal damage (based on Spellpower and Paradox, if any) on foes in a radius %d ball out to range %d (chance depends on rank, summons are always affected), removing any that survive from time for up to %d turn(s)", "최대 %d 칸 사거리의 위치에 반경 %d 칸의 시간 파동을 일으켜 확률적으로 %0.2f 시간 피해를 가합니다. (주문력과 괴리에 비례합니다) (확률은 적의 등급에 영향을 받고, 소환수는 항상 영향을 받습니다) 피해를 받고 살아남은 적은 최대 %d 턴 동안 시간선에서 제거됩니다", "tformat", {3,2,1,4})
 t("%s focuses time flows through %s %s!", "%s %s %s 사용해 시간의 흐름에 집중했다!", "logSeen", nil, {"는",[3]="을"})
 t("Piercing Gaze", "꿰뚫어보는 시선", "entity name")
 t("stone-eyed shield", "바위 눈의 방패", "_t")
@@ -12562,6 +12627,12 @@ section "game/modules/tome/data/general/traps/teleport.lua"
 t("annoy", "방해", "entity type")
 t("teleport", "순간이동", "entity subtype")
 t("trap", "함정", "_t")
+t("teleport trap", "순간이동 함정", "entity name")
+t("Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "희생자를 순간이동 시킵니다. 어떻게 함정을 해체할 만큼 가까이 다가갈 수 있을까요...?", "_t")
+t("@Target@ shimmers briefly.", "@Target1@ 짧게 빛났다.", "_t")
+t("shimmering floor switch", "빛나는 바닥 스위치", "_t")
+t("%s is teleported away!", "%s 순간이동 했다!", "logSeen", nil, {"는"})
+t("%s resists being teleported!", "%s 순간이동에 저항했다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -12713,6 +12784,39 @@ t("Not to be confused with radiant horrors. If you encounter the latter, then I 
 ------------------------------------------------
 section "game/modules/tome/data/keybinds/tome.lua"
 
+t("Show character sheet (player)", "캐릭터 시트 열기 (플레이어)", "_t")
+t("Show character sheet (actor @ cursor)", "캐릭터 시트 열기 (actor @ cursor)", "_t")
+t("Select controlled character", "조종 중인 캐릭터 선택", "_t")
+t("Switch control to character 1", "캐릭터 1 조종", "_t")
+t("Switch control to character 2", "캐릭터 2 조종", "_t")
+t("Switch control to character 3", "캐릭터 3 조종", "_t")
+t("Switch control to character 4", "캐릭터 4 조종", "_t")
+t("Switch control to character 5", "캐릭터 5 조종", "_t")
+t("Switch control to character 6", "캐릭터 6 조종", "_t")
+t("Switch control to character 7", "캐릭터 7 조종", "_t")
+t("Switch control to character 8", "캐릭터 8 조종", "_t")
+t("Give order to character 1", "캐릭터 1 에게 명령", "_t")
+t("Give order to character 2", "캐릭터 2 에게 명령", "_t")
+t("Give order to character 3", "캐릭터 3 에게 명령", "_t")
+t("Give order to character 4", "캐릭터 4 에게 명령", "_t")
+t("Give order to character 5", "캐릭터 5 에게 명령", "_t")
+t("Give order to character 6", "캐릭터 6 에게 명령", "_t")
+t("Give order to character 7", "캐릭터 7 에게 명령", "_t")
+t("Give order to character 8", "캐릭터 8 에게 명령", "_t")
+t("Toggle movement mode", "이동 모드 변경", "_t")
+t("Attack left", "서쪽 공격", "_t")
+t("Attack right", "동쪽 공격", "_t")
+t("Attack up", "북쪽 공격", "_t")
+t("Attack down", "남쪽 공격", "_t")
+t("Attack diagonally left and up", "북서쪽 공격", "_t")
+t("Attack diagonally right and up", "북동쪽 공격", "_t")
+t("Attack diagonally left and down", "남서쪽 공격", "_t")
+t("Attack diagonally right and down", "남동쪽 공격", "_t")
+t("Toggle UI display", "UI 표시 변경", "_t")
+t("Locks tooltip in place", "툴팁을 고정합니다", "_t")
+t("Locks tooltip in place while comparing items", "물품들을 비교 중에 툴팁을 고정합니다.", "_t")
+t("Toggle automatic talent usage", "자동 기술 사용 변경", "_t")
+t("Toggle automatic accept target option", "자동 대상 확인 설정", "_t")
 
 
 ------------------------------------------------
@@ -12900,12 +13004,52 @@ t("investigator Churrack note", "조사원 출라크의 메모", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/lore/age-pyre.lua"
 
+t("age of pyre", "장작더미의 시대", "newLore category")
+t("Atamathon, the giant golem", "아타마쏜, 거대 골렘", "_t")
+t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
+Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. One of its eyes seems to be missing. At over 40 feet high it towers above you.
+Someone foolish has tried to reconstruct it, but it seems like it misses an eye to be completed.]], [[이 거대한 골렘은 장작더미의 시대 당시 오크들과 싸우기 위해 제작되었으나 포식자 가르쿨에 의해 파괴되었다.
+몸체는 대리석으로 되어있고, 관절 부분은 단단한 보라툰으로 이루어져있으며, 두 눈은 순수한 루비로 되어있었다. 두 눈 중 하나는 사라진 것으로 보인다. 12 미터는 족히 되보이는 골렘이 당신 앞에 서있다.
+몇몇 어리석은 이들이 이 골렘을 다시 제작하려 했으나, 완성을 위해서는 한 쪽 눈이 필요한 것 같다.]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/angolwen.lua"
 
 t("Lecture on Humility by Archmage Linaniil", "마도사 리나니일의 겸손에 대한 강의", "_t")
+t([[It were some years now since twain of our brightest students left Angolwen, sullied by our veil of secrecy and our silent duty. It still lies heavy on mine heart to think of what they could accomplish within our private circle. I but hope that one day they whilst return, and they whilst understand the reasons behind our solemn mission.
+
+But I must think of the future, for too many are the regrets of mine long past, and to hold their burdens overlong is to be crushed. I must think of ye, young acolytes, who start now in the learning of our lores. I must explain to ye our mission, our purpose, our justification, so that ye understand all what we do and why. In secrecy we operate, trying to heal the harms of our past, trying to build a better future. For our penance is great, and never should it be forgotten in all Eyal the terrors of the Spellblaze.
+
+I should know well, for I were there. But a young mage was I, though not without promise. I knew of the Shaloren mages' experiments on the Sher'Tul ruins. Aye, and I were jealous of the powers they sought to unlock. No fear or caution had I in my arrogant youth, thinking only of opportunities and glory. Heed well that thought...
+
+Two thousand six hundred cycles of the Sun have passed above my head, and yet still I cannot shake the memory of the day the sky turned to flame and the earth was torn to shreds. I felt the magic in the air, the sudden unleashing of arcane energies beyond anyone's control. I knew in an instant that the Shaloren had unlocked the power of the farportals, but the forces were far beyond their expectations. I saw within seconds the streams of blazing energy tear through the sky above our heads, and then rain down in crimson plumes of destruction. It was all I could to put a shield about myself, and the burns I suffered were terrible, such that scars remain to this day. No one about me survived. Still I remember mine sister Neira's shortened scream as she stood beside me, her skin flayed off by the terrible energies, her body consumed by a pyre of flames, her ashes strewn by a great tumult in the earth. Twenty-six centuries have passed and still I do wake to the sound of that scream...
+
+Many were the loved ones I lost that day, and I were not alone. Countless perished across the lands, and countless more died in the chaos which followed. Then the Spellhunt began, and the people rose against the arrogance of the mages and began slaughtering us mercilessly. After the Spellblaze our abilities were in disarray, our mana channels sundered. We were nigh defenceless, and it took great effort to gather many of us together and found the hidden city of Angolwen. A great many mages were killed in the riots that followed, aye and many innocents too, for distrust was rife and the thirst for blood all-consuming. But alas, the suffering did not end there.
+
+The effects of the Spellblaze can still be seen today, in tortured lands and blighted earths. In the Age of Dusk it were much worse. New diseases arose, plagues swept across all cities, civilisations brought to nothing. All our races came close to extinction, and an age of darkness came upon all learning and enlightenment. Feudal lords and bandit gangs fought amongst what little healthy lands were left, whilst the blights continued to ravage what free people remained. That was when I did begin our secret missions to repair the world, to make right the errors of our actions. In silent operation we visited the broken lands and used our powers to heal, not to destroy. Many centuries it took, but at last the aftereffects of the Spellblaze began to diminish, and the people began to rebuild.
+
+Ah, how much hope was in me then. But foolish were I to think it could be so easy. The wounds of Eyal struck deeper than mere diseases on the surface. The poison went down much further, and the cracks tore through the very roots of our world. One dark and stormy day a great cataclysm swept forth from the east, and the land rose 500 leagues into the sky. We could do naught but gasp in horror as whole cities, whole races were swept into the sea. The continents were sheared apart and all of Eyal forever changed. It was a sight to humble even the greatest archmage.
+
+Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
+
+Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], [[침묵 속의 의무와 비밀의 장막으로 인해 가장 훌륭했던 두 학생이 앙골웬을 떠난지 몇 년이 되었다. 그들이 우리 곁에서 쌓아 올릴 수 있었던 업적을 생각하면, 아직도 가슴 한편이 무겁다. 하지만 어느날 그들이 다시 돌아올 때, 그들이 우리의 엄숙한 임무를 진정 이해해 주길 희망한다.
+
+그러나 나는 미래에 대해 걱정해야 한다. 내 과거의 후회는 너무나 크기에, 그 후회를 모두 짊어진다면 나는 파멸에 이르리라. 그래서 나는 이제, 우리 이야기를 배우는 그대, 젊은 견습 마법사들을 생각해야만 한다. 나는 그대들에게 임무에 대해 설명할 것이며, 우리 목적, 우리의 정당한 이유에 대해 설명할 것이다. 그리하여 그대들은 우리가 무엇을 행하는지, 왜 행하는지 이해하게 되리라. 비밀 속에서 우리는 움직이고, 과거의 상처를 봉합하기 위해 힘쓸 것이며, 보다 나은 미래를 건설하기 위해 노력할 것이다. 우리 참회는 실로 위대하며, 모든 에이알을 파멸로 몰아 넣은 마법폭발을 결코 잊지 않을 것이다.
+
+나는 잘 알았어야 했다, 바로 그 곳에 있었으니. 하지만 장래성은 없었지만 젊은 마법사였던 나는 샬로레 마법사들이 쉐르'툴 폐허에서 실험을 진행하고 있는 것을 알고있었다. 아, 나는 그들이 봉인을 풀려고 했던 힘이 탐났었다. 나의 오만했던 젊은 시절은, 그 어떤 두려움과 주의도 없이 기회와 영광만을 생각했다. 그 생각을 주의하라...
+
+2600 번의 태양 주기가 내 머리 위를 지나갔지만 난 아직도 하늘이 화염으로 뒤덮히고, 땅이 갈라지던 날의 기억을 떨처낼 수가 없다. 나는 허공에서 마법을 느꼈다. 갑자기 터저나왔던, 그 누구도 제어 할 수 없는 마법 에너지들. 나는 그 즉시 샬로레 마법사들이 장거리 차원문의 힘을 봉인 해제한 것을 알았으나, 터저나온 힘은 그들 모두의 예상을 뛰어 넘은 것이였다. 그 짧은 몇 초 동안, 불타오르는 에너지가 우리 머리 위의 하늘을 찢어발기고, 핏빛의 파괴의 기둥이 되어 곧장 땅으로 내려왔다. 내가 할 수 있던 것이라고는 보호막을 치는 것 뿐이였고, 내가 입은 화상은 실로 끔찍해, 오늘날까지 흉터가 남아있다. 살아남은 사람이라곤 나 뿐이였다. 나는 아직도 내 자매 네이라가 내 바로 옆에서 뱉은 짧은 비명을 기억한다. 그녀의 피부는 끔찍한 에너지로 인해 벗겨저 나가고, 몸은 화염의 장작더미에 삼켜졌으며, 재는 격변하는 대지로 인해 흩뿌려졌다. 26 세기가 지났음에도 나는 아직도 그 비명 소리에 밤 잠을 설치곤 한다...
+
+그날, 나는 사랑했던 사람들을 많이 잃었지만, 그런 슬픔에 빠진 사람은 나 혼자가 아니였다. 온 에이알에 죽은 사람들이 넘처났고, 뒤 이은 혼란에 더 많은 사람들이 희생되었다. 그렇게 마법사냥이 시작되자, 사람들은 마법사의 오만함에 반기를 들었고 우리들을 무자비하게 학살했다. 마법폭발 이후, 우리의 능력은 혼란스러워졌고, 우리의 마나 집중은 우리에게서 끊어졌었다. 우리는 거의 무방비 상태였고, 그렇기에 우리들은 숨겨진 도시, 앙골웬을 찾아 내는데 많은 노력을 들여야했다. 수 많은 위대한 마법사들이 마법폭발 이후 벌어진 폭동에 살해당했고, 무고한 이들도 많은 피를 흘렸다. 불신과 피에 대한 갈증이 그곳에 가득헀다. 하지만, 아아.. 고통은 거기서 끝나지 않았다.
+
+The effects of the Spellblaze can still be seen today, in tortured lands and blighted earths. In the Age of Dusk it were much worse. New diseases arose, plagues swept across all cities, civilisations brought to nothing. All our races came close to extinction, and an age of darkness came upon all learning and enlightenment. Feudal lords and bandit gangs fought amongst what little healthy lands were left, whilst the blights continued to ravage what free people remained. That was when I did begin our secret missions to repair the world, to make right the errors of our actions. In silent operation we visited the broken lands and used our powers to heal, not to destroy. Many centuries it took, but at last the aftereffects of the Spellblaze began to diminish, and the people began to rebuild.
+
+Ah, how much hope was in me then. But foolish were I to think it could be so easy. The wounds of Eyal struck deeper than mere diseases on the surface. The poison went down much further, and the cracks tore through the very roots of our world. One dark and stormy day a great cataclysm swept forth from the east, and the land rose 500 leagues into the sky. We could do naught but gasp in horror as whole cities, whole races were swept into the sea. The continents were sheared apart and all of Eyal forever changed. It was a sight to humble even the greatest archmage.
+
+Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
+
+Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], "_t")
 t("Lecture on the nature of magic by Archmage Tarelion", "마도사 타레리온의 마법의 본질에 대한 강의", "_t")
 
 
@@ -12962,6 +13106,9 @@ section "game/modules/tome/data/lore/fearscape.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/fun.lua"
 
+t("trollish poem", "트롤의 시", "_t")
+t("necromancer poem", "강령술사의 시", "_t")
+t("of halfling feet", "하플링의 발에 대해", "_t")
 t("misc", "도구", "newLore category")
 t("Dust to Dust", "먼지에서 먼지로", "_t")
 
@@ -13011,6 +13158,7 @@ t("The Diaries of King Toknor the Brave", "용감한 왕 토크놀의 일기", "
 t("The Pale King, part one", "창백한 왕, 제1장", "_t")
 t("southspar", "남쪽스파", "newLore category")
 t("The Pale King, part two", "창백한 왕, 제2장", "_t")
+t("Declaration of the Unification of the Allied Kingdoms", "왕국 연합의 통일 선언", "_t")
 t("The Oceans of Eyal", "에이알의 대양들", "_t")
 
 
@@ -13186,6 +13334,7 @@ I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set 
 
 난 실패했다. Oh by the great wyrm's maw, I have failed! Weisman이 죽이러 갔던 짐승은 다른 이의 손에 이미 죽어있었다. 그럼에도 타락의 영향은 남아있었다. 내가 도착했을 때, Weisman은 이미 반쪽이 되어 있었다.; 그는 보이는 적을 향해서 닥치는 대로 헤집고 있었다. 나는 그를 멈추려고 했지만, 그는 도끼를 나에게 향했다... 나는 두들겨 맞고 처참한 몰골로... 내 친구에게서 떨어진 작은 틈에 몸을 숨겼다. who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
 #{italic}#(잉크자국으로 보아 Weisman이 그의 오랜 친구를 잡으러 온 것 같다. one-half of that abomination)#{normal}#]], "_t")
+t("memories of Artelia Firstborn", "아르텔리아 퍼스트본의 기억", "_t")
 t([[#{italic}#This scroll looks ancient, possibly going back millennia, but has been incredibly well-preserved.#{normal}#
 
 I remember when I first woke, and I drew my first breath, and the fresh young air of the world filled me with vitality. I opened my eyes, and above me stood a figure of outstanding radiance. She was tall and slim, crowned in silver hair that fell to the ground in silken tresses. Her skin was pale to the point of luminance, and her eyes were brighter than the stars.
@@ -13211,10 +13360,14 @@ In all those centuries I still searched for the woman and found no trace. I know
 시간이 흐르고, 다른 생물들이 발견됬다. 종종 새로 발견된 생물들은 사악한 존재였으며, 우린 그들과 전쟁을 벌였다. 그리고 우리는 쉐르'툴을 발견했다. 그들은 우리의 아름다움에 환희했고 the ways of the Arts를 가르쳐 주었다. 그 전쟁이 찾아오자 우리 중 일부는 그들의 편에서 싸웠지만, 그런 대가들 옆에 설 자리는 없다는 걸 깨달았다. 그래서 우리는 숲속으로 후퇴했고, 전쟁이 재앙이나 다름없는 결과로 맹렬히 치닫는 것을 볼 수 밖에 없었다.
 
 지난 수 세기 동안 나는 그 여인을 찾았고 어떠한 흔적도 발견할 수 없었다. 신들은 모두 사냥당한 것을 알고 있었고, 그들이 성전을 치룰 동안 쉐르'툴을 철저히 수색한 것도 기억한다. 난 이제 늙었다. 나와 함께 처음 깨어난 이들은 하나 둘씩 세상을 떠나기 시작했다. 밤이 지날때마다 점점 더 춥고 외로워짐을 느낀다. 하지만 잠자리에 들때면 꿈속에서 그녀의 얼굴을 보고 목소리를 듣는다. 언젠가, 어떻게든, 그녀를 다시 볼 수 있을 거라는 느낌이 든다.]], "_t")
+t("human myth of creation", "인간 창조 신화", "_t")
+t("a logical analysis of creation, by philosopher Smythen", "철학자 스미슨의 창조의 논리적 분석", "_t")
 t("eyal", "에이알", "newLore category")
+t("Tale of the Moonsisters", "달의 자매 이야기", "_t")
 t("ancient papyrus scroll", "고대의 파피루스 두루마리", "_t")
 t("vault", "보물창고", "newLore category")
 t("magic", "마법", "newLore category")
+t("On Adventuring", "모험 도중", "_t")
 t("boss", "보스", "newLore category")
 t("Walrog", "왈록", "_t")
 
@@ -13278,12 +13431,17 @@ t("spellblaze", "마법폭발", "newLore category")
 ------------------------------------------------
 section "game/modules/tome/data/lore/spellhunt.lua"
 
+t("memories of archmage Varil", "대마도사 바릴의 기억", "_t")
+t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "마법사냥꾼의 안내서 1 장 : 주문직조자 색출법", "_t")
+t("Spellhunter's Guide part 2: How to Battle a Magic-User", "마법사냥꾼의 안내서 2 장 : 마법사용자에 맞서 싸우는 법", "_t")
 t("age of dusk", "황혼의 시대", "newLore category")
+t("Spellhunter's Guide part 3: How to Kill a Magic-User", "마법사냥꾼의 안내서 3 장 : 마법사용자 살해법", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/sunwall.lua"
 
+t("Loremaster Verutir's note", "전승의 대가 베루틸의 쪽지", "_t")
 
 
 ------------------------------------------------
@@ -13301,6 +13459,7 @@ t("tattered paper scrap (trollmire)", "너덜너덜한 종잇조각 (트롤 늪)
 section "game/modules/tome/data/lore/zigur.lua"
 
 t("The Great Evil", "강대한 악", "_t")
+t("The story of my salvation", "나의 구원 이야기", "_t")
 t("Purging Trap", "정화 함정", "_t")
 
 
@@ -13308,16 +13467,22 @@ t("Purging Trap", "정화 함정", "_t")
 section "game/modules/tome/data/maps/towns/gates-of-morning.lua"
 
 t("Limmir the Jeweler", "보석 세공사 리미르", "_t")
+t("Melnela", "멜넬라", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/towns/last-hope.lua"
 
+t("Statue of King Tolak the Fair", "공정왕 톨락의 조각상", "_t")
+t("Statue of King Toknor the Brave", "용맹왕 토크놀의 조각상", "_t")
+t("Statue of Queen Mirvenia the Inspirer", "격려여왕 미르베니아의 조각상", "_t")
+t("Declaration of the Unification of the Allied Kingdoms", "왕국 연합의 통일 선언", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/towns/shatur.lua"
 
+t("Moss covered statue", "이끼에 덮힌 조각상", "_t")
 
 
 ------------------------------------------------
@@ -13329,18 +13494,26 @@ t("#rng# the Guardian", "수호자 #rng#", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/living-weapons.lua"
 
+t("Poltergeist %s", "폴터가이스트 %s", "tformat")
+t("Animated %s", "살아 움직이는 %s", "tformat")
+t("Moving %s", "움직이는 %s", "tformat")
+t("Poltergeist's %s", "폴터가이스트의 %s", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/orc-hatred.lua"
 
+t("Something in the floor clicks ominously.", "바닥의 무언가가 불길하게 찰칵 소리를 낸다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
 
 t("corrupted lava floor", "오염된 용암 바닥", "_t")
+t("#Source# emits dark energies at your feet.", "#Source1# 당신 다리 밑에서 어두운 에너지를 내뿜는다.", "logCombat")
+t("The corrupted lava reanimates %s's corpse!", "오염된 용암 바닥이 %s의 시체를 되살렸다!", "logSeen")
 t("human sun-paladin", "인간 태양의 기사", "_t")
+t("A Human in shining plate armour.", "빛나는 판금 갑옷을 입은 인간.", "_t")
 
 
 ------------------------------------------------
@@ -13375,6 +13548,7 @@ section "game/modules/tome/data/maps/vaults/collapsed-tower.lua"
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/greater-crypt.lua"
 
+t("Something in the floor clicks ominously.", "바닥의 무언가가 불길하게 찰칵 소리를 낸다.", "logPlayer")
 
 
 ------------------------------------------------
@@ -17220,9 +17394,9 @@ t([[Draw on the wounds of nearby enemies, healing yourself and putting them into
 							
 							When the sleep ends, each target will benefit from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it 50%% sleep immunity.]], [[주변의 적의 상처들을 끌어내어, 생명력을 회복하고 적들에게 자비로운 잠을 선사합니다.
 							수면 확률은 주문력에 비례하여 증가합니다.
-							범위 내의 출혈 효과가 적용된 적들의 피를 흡수해, 남은 출혈 피해량의 %d%% 만큼 생명력을 회복합니다. (출혈 당 최소 %d 회복합니다) 적들은 가장 지속시간이 긴 출혈 효과의 지속시간 + %d 턴 동안 잠에 빠져, 행동할 수 없게됩니다. 수면의 위력은 출혈의 위력에 비례합니다.	 과도한 피해량은 수면의 지속시간을 단축합니다.
+							범위 내의 출혈 효과가 적용된 적들의 피를 흡수해, 남은 출혈 피해량의 %d%% 만큼 생명력을 회복합니다. (출혈 당 최소 %d 회복) 적들은 가장 지속시간이 긴 출혈 효과의 지속시간 + %d 턴 동안 잠에 빠져, 행동할 수 없게됩니다. 수면의 위력은 출혈의 위력에 비례합니다.	 과도한 피해량은 수면의 지속시간을 단축합니다.
 							
-							잠이 끝나면, 대상은 불면증 상태가 되며, (불면증의 지속시간은 잠들어있던 시간과 같습니다) 추가로 잠들었던 턴 당 %d%% 수면 면역을 얻게 되고, (최대 10 턴으로 제한됩니다) 50%% 의 수면 면역력을 갖게됩니다.]], "tformat")
+							잠이 끝나면, 대상은 잠이 들었던 시간만큼 불면증 상태가 되며 (최대 10 턴) 50%% 의 수면 면역력을 갖게됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -17231,7 +17405,7 @@ section "game/modules/tome/data/talents/cursed/cursed-aura.lua"
 t("Defiling Touch", "모독의 손길", "talent name")
 t("curse", "저주", "_t")
 t("The %s lying nearby catches your attention. What draws you to it is not the thing itself, but something burning inside you. You feel contempt for it and all worldly things. This feeling is not new but the power of it overwhelms you. You reach out to touch the object, to curse it, to defile it. And you notice it begin to change. The colors of it begin to fade and are replaced with an insatiable hate. For a moment you hesitate. You know you must choose to resist this manifestation of your curse now and forever, or fall further into your madness.", "근처에 놓인 %s 당신의 눈길을 사로잡았다. 그것에 관심이 있던 것은 아니지만, 내면의 무언가가 불타는 것을 느꼈다. 당신은 이 불타오르는 느낌을 무시했다. 이러한 감정은 딱히 새로운 것은 아니었지만, 그 느낌과 함께 찾아온 힘, 그것만은 당신을 압도할 것처럼 흘러나왔다. 당신은 의도치 않게 그 물체를 저주하고 오염시키기 위해 팔을 뻗었다. 그러자 당신은 무언가 변화를 느꼈다. 장비의 색은 탈색되고 끝없는 증오가 그 빈자리를 채웠다. 잠시동안 당신은 망설였다. 이 저주의 전조를 버텨내고 다시는 발현하지 못하게 할 지, 더 깊은 광기로 빠져들 것인지. 선택의 시간이 도래했다.", "tformat", nil, {"가"})
-t("The %s lies defiled at your feet. An aura of hatred surrounds you and you now feel truly cursed. You have gained the Cursed Aura talent tree and 1 point in Defiling Touch, but at the cost of 2 Willpower.", "%s 당신의 발 근처에 모독된 상태로 남겨져있다. 이제 증오의 기운이 당신 주위에서 발산된다. 당신은 이제 진정 저주 받았다는 것을 느꼈다. 저주받은 아우라 기술 계열을 얻고, 모독의 손길 기술을 1 레벨 얻었지만 그에 대한 댓가로 의지가 2 감소했습니다.", "tformat", nil, {"가"})
+t("The %s lies defiled at your feet. An aura of hatred surrounds you and you now feel truly cursed. You have gained the Cursed Aura talent tree and 1 point in Defiling Touch, but at the cost of 2 Willpower.", "%s 당신의 발 근처에 모독된 상태로 남겨져있다. 이제 증오의 기운이 당신 주위에서 발산된다. 당신은 이제 진정 저주 받았다는 것을 느꼈다. 저주 받은 자의 기운 기술 계열을 얻고, 모독의 손길 기술을 1 레벨 얻었지만 그에 대한 댓가로 의지가 2 감소했습니다.", "tformat", nil, {"가"})
 t("Cursed Fate", "저주받은 운명", "_t")
 t("The %s returns to normal and your hate subsides.", "%s 정상적으로 돌아왔고, 당신의 증오는 가라앉았다.", "tformat", nil, {"가"})
 t("Release your hate upon the object", "증오를 물체에 해방한다", "_t")
@@ -17338,7 +17512,7 @@ t("gestures", "손짓", "_t")
 t("You are wracked with the dark energies of the curse.", "저주로인한 암흑 에너지로 고통받고, 망가져버렸습니다.", "_t")
 t("cursed form", "저주받은 육체", "_t")
 t("The things you surround yourself with soon wither away.", "주변의 모든 것들은 곧 말라죽습니다.", "_t")
-t("cursed aura", "저주받은 아우라", "_t")
+t("cursed aura", "저주 받은 자의 기운", "_t")
 t("The effects of cursed objects.", "저주받은 물품들의 효과들.", "_t")
 t("curses", "저주", "_t")
 t("Use the fear that lies at the heart of your curse to attack the minds of your enemies.", "저주의 정수인 공포를 이용하여 적들의 정신을 공격합니다.", "_t")
@@ -17716,7 +17890,7 @@ t([[At the start of each turn, if you're bleeding, you gain %d hate.
 
 You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns.	This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
 
-#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[매 턴을 시작할 때, 시전자가 출혈 상태라면, 증오를 %d 회복합니다.
+#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[출혈 상태일때 매 턴 증오를 %d 회복합니다.
 
 이 기술을 활성화하면, 자신의 살을 빠르게 베어내어, 5 턴에 걸쳐 %0.2f 출혈 피해를 받습니다.	이 출혈 효과는 저항하거나 제거할 수 없지만, 피칠갑 기술계열로 피해를 완화 할 수 있습니다
 
@@ -17724,7 +17898,7 @@ You can activate this talent to quickly draw a blade across your skin, bleeding 
 t("Self-Loathing", "자가 혐오", "talent name")
 t([[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
 
-#{italic}#Anger makes you strong.	 And you're always angry.#{normal}#]], [[항상 치명타 확률이 %d%% 향상되고, 증오에 비례해 치명타 피해량이 최대 %d%% 까지 증가합니다.
+#{italic}#Anger makes you strong.	 And you're always angry.#{normal}#]], [[치명타 확률이 %d%% 향상되고, 현재 증오 수치에 비례해 치명타 피해량이 최대 %d%% 까지 증가합니다.
 
 #{italic}#분노가 당신을 강하게한다.	 그리고, 당신은 항상 분노해 있다.#{normal}#]], "tformat")
 t("Self-Destruction", "자가 파괴", "talent name")
@@ -21911,6 +22085,9 @@ t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and wi
 		이 주문은 매우 강력하기 때문에, 매 2 턴 마다, 대상의 영혼을 찢어발겨, 시전자가 원혼을 하나 수확합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Eternal Night", "영원한 밤", "talent name")
+t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
+		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[서리 황혼으로 주위를 뒤덮어, 시전자가 가하는 모든 암흑, 냉기 피해를 %0.1f%% 증가시키고, 적의 암흑, 냉기 저항을 %d%% 무시합니다.
+		추가로, 턴이 끝날 때 마다, 시전자의 생명력이 1 이하일 경우, 시전자가 가한 피해량의 %d%% 만큼 생명력을 회복합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -24531,6 +24708,9 @@ t([[Gain 5 generic talent points and learn a new talent category from one of the
 		- 천공 / 성가
 		- 시공 제어 / 시공 제어]], "tformat")
 t("Adept", "뛰어난 재능", "talent name")
+t([[You are adept at many different skills, granting you +1.5 to all talent levels.
+		This works on already known talents and those that you will learn afterwards.]], [[무수히 많은 기술에 정통했습니다. 모든 기술에 +1.5 레벨을 추가합니다.
+		이 효과는 이미 배운 기술과, 앞으로 배우는 기술에 효과를 미칩니다.]], "tformat")
 t("Tricks of the Trade", "뒷세계의 거래", "talent name")
 t("Have sided with the Assassin Lord", "암살단 단장 편에 설 것", "_t")
 t([[You have friends in low places and have learned some underhanded tricks.
@@ -24556,7 +24736,16 @@ t([[You are used to a crowded party:
 		- 이 기술이 유지되는 동안 절대 동료나 중립적인 존재에게 피해를 주지 않게 됩니다.
 		- 동료들과 함께 있는 것을 좋아하여, 시야내에 존재하는 동료의 수만큼 각각 모든 내성이 10씩 증가하고, 전체 속도가 3%% 씩 증가합니다 (최대 15%%)
 		- 모든 동료들이 자동적으로 군중 속으로 를 습득합니다.]], "tformat")
+t("Manage Swift Hands", "빠른 손놀림 관리", "talent name")
+t("You can only prepare your swift hands tools outside of combat.", "전투에서 벗어나야 빠른 손놀림에 사용될 도구들을 준비할 수 있다.", "logPlayer")
+t("Manage your swift hands readied tools.", "빠른 손놀림에 사용될 도구들을 관리합니다.", "_t")
 t("Swift Hands", "빠른 손놀림", "talent name")
+t("Use tool", "도구를 사용할 수 있을 것", "_t")
+t([[You like to keep your most precious tools always at hand. This talent lets you prepare up to 4 items in advance (outside of combat).
+		Then at a moment's notice you can use any of them as if they were worn.
+		In addition swapping equipment sets (default q key) takes no time.]], [[귀중한 도구들을 가까이 두는 것을 선호합니다. 이 특수 기술은 최대 4 개의 물품을 준비할 수 있게 해줍니다. (전투에서 벗어날 시 가능)
+		준비된 물품은 이미 착용한 것 처럼, 바로 사용 가능합니다.
+		추가로, 주장비 - 보조장비 전환 시, 턴 소모를 하지 않습니다. (기본 단축키 : q).]], "tformat")
 t("Windblade", "칼바람", "talent name")
 t("Have dealt over 50000 damage with dual wielded weapons", "쌍수 무기로 적에게 총 50,000 이상의 피해를 가할 것", "_t")
 t("You spin madly, generating a sharp gust of wind with your weapons that deals 320%% weapon damage to all targets within radius 4 and disarms them for 4 turns.", "쌍수 무기를 든 채로 미친듯 회전하여, 주변에 회오리 바람을 만들어냅니다. 주변 4 칸 반경에 320%% 무기 피해를 주고, 적들의 무장을 4 턴 동안 해제시킵니다.", "tformat")
@@ -27380,46 +27569,273 @@ Marauders use stamina to fuel their techniques, which replenishes slowly over ti
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-rogue_poisons.lua"
 
+t("New Talent Category: #LIGHT_GREEN#Poisons", "새로운 기술 계열: #LIGHT_GREEN#독극물", "_t")
+t([[Extracted from plants, wildlife or more exotic locations, poisons have always existed.
+Many creatures use them, along with some shady people.
+
+You have made a deal with such a person and can now create new Rogue or Archer characters that can learn the #LIGHT_GREEN#Poisons talents#WHITE#.
+
+Talents:
+- #YELLOW#Vile Poisons: #WHITE#Learn new dangerous and terrible poisons to coat your weapons or ammo with, infecting your foes
+- #YELLOW#Venomous Strike: #WHITE#A terrible strike that deals increased nature damage based on the number of poison effects
+- #YELLOW#Empower Poisons: #WHITE#Learn to make your poisons even more lethal and fast
+- #YELLOW#Toxic Death: #WHITE#Spread the toxic joy to your foe's friends!
+]], [[독의 역사는 오래되었습니다. 사람들은 식물로부터, 야생 생명체로부터, 아니면 다른 특이한 것으로부터 독을 추출해왔습니다.
+수많은 생명체들이 독을 사용하며, 좀 으슥한 쪽에 속하는 사람들도 사용하죠.
+
+당신은 방금 그런 부류의 사람과 거래를 했고, 따라서 지금부터 새로 생성된 도적이나 궁수 캐릭터는 #LIGHT_GREEN#독극물 기술#WHITE#을 배울 수 있습니다.
+
+속한 기술들:
+- #YELLOW#치명적인 독: #WHITE#무기와 탄약에 바를 수 있는 치명적인 독극물에 대해 배웁니다.
+- #YELLOW#맹독성 타격: #WHITE#강력한 자연 속성 피해를 주는 일격입니다.
+- #YELLOW#독 강화: #WHITE#더 치명적이고 효과가 빠른 독을 만드는 법을 배웁니다.
+- #YELLOW#독성 죽음: #WHITE#독의 즐거움을 적의 친구들에게도 알려줍니다!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-rogue_skirmisher.lua"
 
+t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "새로운 직업: #LIGHT_GREEN#척후병 (도적)", "_t")
+t([[In Maj'Eyal threats are everywhere when you walk the wildlands, some rogues prefer to forgo the use of stealth instead using their cunning skills to kill silently from afar with a sling well protected with a buckler.
+
+You have learned the power of counterstriking from afar and can now create characters with the #LIGHT_GREEN#Skirmisher class#WHITE#.
+
+Skirmishers are highly mobile rogues that specialize in running and gunning, using Slings to harass, debilitate, and wear down enemies before finishing them off with extremely quick attacks.
+
+Class features:#YELLOW#
+- Vault and roll around your foes, staying one step ahead and just out of
+reach
+- Cripple your opponents and unleash a torrent of sling bullets
+- Block enemy fire with your buckler mastery and counter attack#WHITE#
+
+Skirmisher use stamina to fuel their techniques, which replenishes slowly over time.
+]], [[마즈'에이알에는 위험이 사방에 널려 있고, 어떤 도적들은 은신을 포기하고 투석구와 방패로 무장하여, 자신들의 기술을 십분 활용해 목표를 멀리서 소리 없이 죽이는 것을 선호합니다.
+
+당신은 장거리 반격의 위력을 깨달았고, 따라서 이제부터 #LIGHT_GREEN#척후병 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+척후병들은 굉장히 날쌘 도적들로 도주와 사격에 능하며, 투석구를 사용해 적들을 농락하고 약화시킨 후 극도로 신속한 공격으로 마무리를 짓습니다.
+
+직업 특징:#YELLOW#
+- 적들을 뛰어넘고 그들 사이로 굴러 이동하며, 아슬아슬하게 거리를 유지한다.
+- 적들을 무력화시키고 투석구로 맹공을 가한다.
+- 방패 기술로 적의 사격을 막은 후 반격한다.#WHITE#
+
+척후병들은 기력을 써서 기술을 사용합니다. 기력은 시간이 지나면서 천천히 회복됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-undead_ghoul.lua"
 
+t("New Race: #LIGHT_GREEN#Ghoul (Undead)", "새로운 종족: #LIGHT_GREEN#구울 (언데드)", "_t")
+t([[Ghouls are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
+You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Ghoul race#WHITE#.
+
+Race features:#YELLOW#
+- Great poison resistance
+- Bleeding immunity
+- Stun resistance
+- Fear immunity
+- Special ghoul talents: ghoulish leap, gnaw and retch#WHITE#
+]], [[구울은 사악한 언데드입니다. 보통 강령술사들이 자아가 없는 하인으로 부리기 위해 일으키지만, 몇몇은 간신히 자의식을 유지한 채로 세상을 방황하며 수라도를 걷기도 합니다.
+당신은 사악한 언데드인 탑의 주인을 죽였습니다. 따라서 이제부터 #LIGHT_GREEN#구울 종족#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+종족 특징:#YELLOW#
+- 엄청난 독 저항력
+- 출혈에 면역
+- 기절 저항력
+- 공포에 면역
+- 구울만의 특별한 종족 기술: 구울의 도약, 물어뜯기와 구역질#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-undead_skeleton.lua"
 
+t("New Race: #LIGHT_GREEN#Skeleton (Undead)", "새로운 종족: #LIGHT_GREEN#스켈레톤 (언데드)", "_t")
+t([[Skeletons are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
+You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Skeleton race#WHITE#.
+
+Race features:#YELLOW#
+- Poison immunity
+- Bleeding immunity
+- Fear immunity
+- No need to breathe
+- Special skeleton talents: bone armour, resilient bones, re-assemble#WHITE#
+]], [[스켈레톤은 사악한 언데드입니다. 보통 강령술사들이 자아가 없는 하인으로 부리기 위해 일으키지만, 몇몇은 간신히 자의식을 유지한 채로 세상을 방황하며 수라도를 걷기도 합니다.
+당신은 사악한 언데드인 탑의 주인을 죽였습니다. 따라서 이제부터 #LIGHT_GREEN#스켈레톤 종족#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+종족 특성:#YELLOW#
+- 독에 면역
+- 출혈에 면역
+- 공포에 면역
+- 숨을 쉴 필요가 없음
+- 스켈레톤만의 특별한 종족 기술: 뼈 갑옷, 재생하는 해골, 재조립#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-warrior_brawler.lua"
 
+t("New Class: #LIGHT_GREEN#Brawler (Warrior)", "새로운 직업: #LIGHT_GREEN#격투가 (전사)", "_t")
+t([[The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.
+Without steel or iron, poor communities of all races turned to the strength of their own bodies for defense against the darkness.
+These unarmed techniques still exist today.
+
+You have learned these techniques and can now create new characters with the #LIGHT_GREEN#Brawler class#WHITE#.
+
+Brawlers are warriors who fight with little more than their own bodies as weapons.
+Class features:#YELLOW#
+- Build deadly combination attacks with your strikes
+- Wear gauntlets or gloves to boost your damage
+- Outwit your foes and set them up for deadly counter attacks
+- Control your enemies and break their bones with fierce grappling techniques#WHITE#
+
+Brawlers use stamina and must remain at least semi-mobile.  As such they cannot perform their unarmed talents in massive armor.
+]], [[마법폭발의 영향으로 인해 군대들은 와해되었고 수많은 사람들이 위험에 처하게 되었습니다. 모두에게 무기를 쥐어주는 것마저 사치였죠.
+종족을 막론하고 강철이나 쇠가 없었던 자들은 자신들의 신체를 단련하여, 악에 맞서 스스로를 보호해야만 했습니다.
+그러한 격투 기술들은 오늘날까지도 이어져 오고 있습니다.
+
+당신은 그러한 기술들을 배웠고, 따라서 이제부터 #LIGHT_GREEN#격투가 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+격투가들은 자신들의 신체를 무기로 하여 싸우는 전사들입니다.
+직업 특징:#YELLOW#
+- 여러 기술들을 이용해 강력한 연계 공격을 펼친다.
+- 장갑을 착용해 더 강한 피해를 가한다.
+- 적들보다 한 수 앞서 행동하여 그들의 공격을 강력하게 되받아친다.
+- 관절기를 사용해 적들을 제어하고 뼈를 부러뜨린다.#WHITE#
+
+격투가들은 기력을 써서 기술을 사용합니다. 또한 몸이 가벼워야 하기 때문에, 중갑을 입은 상태에서는 격투기를 사용할 수 없습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-wilder_oozemancer.lua"
 
+t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "새로운 직업: #LIGHT_GREEN#점액술사 (자연의 추종자)", "_t")
+t([[The long Nature's hatred of all arcane forces has managed to create Oozemancers as the ultimate answer to archmagi.
+You have met and destroyed a corrupted one and can now create new characters with the #LIGHT_GREEN#Oozemancer class#WHITE#.
+
+Oozemancer are Wilders, who are at home in the wilds and draw their power from their connection with nature.
+Class features:#YELLOW#
+- Offensive long range nature and acidic attacks
+- Inherently antimagic
+- Summon various kinds of oozes to your side for a short while
+- Use oozes, slimes, mucus and moss against Nature's foes#WHITE#
+
+All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
+The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
+]], [[마법의 힘을 오랫동안 증오해 왔던 대자연은, 궁극적인 해결책으로써 점액술사라는 개념을 만들어냈습니다.
+당신은 타락한 점액술사를 마주했고 그를 처치했습니다. 따라서 이제부터 #LIGHT_GREEN#점액술사 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+점액술사들은 대자연 속에서 생활하며 그것으로부터 힘을 이끌어내는 자연의 추종자들입니다.
+직업 특징:#YELLOW#
+- 멀리서 자연/산성 속성 공격을 펼친다.
+- 태생적으로 반마법 사용자이다.
+- 여러 종류의 점액들을 잠시 아군으로 소환한다.
+- 점액와 슬라임을 이용하여 대자연의 적들에게 맞선다.#WHITE#
+
+자연의 추종자 직업들은 모두 "평정" 을 원천으로 사용합니다. 평정은 현재 자연과의 연결 상태를 의미합니다. 
+높은 평정은 사용자가 자연의 균형을 깨뜨리고 있다는 의미입니다. 평정이 높아질수록 기술 사용에 실패할 확률이 생기며, 실패 시 턴을 낭비하게 됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-wilder_stone_warden.lua"
 
+t("New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "새로운 직업: #LIGHT_GREEN#바위 감시자 (자연의 추종자)", "_t")
+t([[While most races of Eyal firmly believe that arcane and nature forces are opposites, Dwarves have found a way to bind them together and meld them into a power to be reckoned with.
+
+You have mastered some arcane and wild talents at a crude level can now create new dwarf characters with the #LIGHT_GREEN#Stone Warden class#WHITE#.
+
+Stone Wardens are Wilders, who are at home in the wilds and draw their power from their connection with nature and arcane
+Class features:#YELLOW#
+- Dual wield shields and bash your foes with arcane enhanced shield strikes
+- Combine arcane and nature forces to split yourself into two powerful halves
+- Use vines of stone to grab and assail your foes
+- Turn into a huge earth elemental and summon volcanos
+- Dwarf race exclusive class (Select it at birth for the option to even appear)#WHITE#
+
+All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
+The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
+Stone Wardens also use Mana.
+]], [[에이알의 대부분 종족들은 자연의 힘과 마법의 힘은 서로 상극이라고 굳게 믿고 있지만, 드워프들은 그것들을 하나의 힘으로 묶어 융합시키는 방법을 찾아냈습니다.
+
+당신은 마법 기술과 자연의 기술을 동시에 적당히 수련하였고, 따라서 이제부터 #LIGHT_GREEN#바위 감시자 직업#WHITE#의 드워프 캐릭터를 생성할 수 있습니다.
+
+바위 감시자들은 대자연 속에서 생활하며 그것으로부터 힘을 이끌어내는 자연의 추종자들이며, 마법 또한 다룹니다.
+직업 특징:#YELLOW#
+- 양손에 방패를 들고 마법으로 강화해 적들을 후려친다.
+- 마법의 힘과 자연의 힘을 결합하여 스스로의 분신을 만들어낸다.
+- 넝쿨과 바위를 사용해 적들을 붙잡고 공격한다.
+- 거대한 땅의 정령으로 변신하여 화산 폭발을 일으킨다.
+- 드워프 종족 한정 직업이다. (드워프 종족이 아니면 표시도 되지 않습니다)#WHITE#
+
+자연의 추종자 직업들은 모두 "평정" 을 원천으로 사용합니다. 평정은 현재 자연과의 연결 상태를 의미합니다. 
+높은 평정은 사용자가 자연의 균형을 깨뜨리고 있다는 의미입니다. 평정이 높아질수록 기술 사용에 실패할 확률이 생기며, 실패 시 턴을 낭비하게 됩니다.
+바위 감시자들은 마나도 사용합니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-wilder_summoner.lua"
 
+t("New Class: #LIGHT_GREEN#Summoner (Wilder)", "새로운 직업: #LIGHT_GREEN#소환사 (자연의 추종자)", "_t")
+t([[In the wilds, some people and creatures are able, by the sole force of their will, to call upon allies to help them in combat.
+You have witnessed such an act and can now create new characters with the #LIGHT_GREEN#Summoner class#WHITE#.
+
+Summoners are Wilders, who are at home in the wilds and draw their power from their connection with nature.
+Class features:#YELLOW#
+- Summon allies, ranging from a war hound to the mighty fire drake
+- Take direct control of your summons
+- Augment your summons with various powers#WHITE#
+
+All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
+The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
+]], [[자연 속에서 사는 몇몇 사람들과 생명체들은 스스로의 힘으로 전투를 도울 동료들을 불러낼 수 있습니다.
+당신은 그런 소환술을 목격했고, 따라서 이제부터 #LIGHT_GREEN#소환사 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+소환사들은 대자연 속에서 생활하며 그것으로부터 힘을 이끌어내는 자연의 추종자들입니다.
+직업 특징:#YELLOW#
+- 전투견부터 화염 드레이크에 이르는 다양한 동료들을 소환한다.
+- 소환물들을 직접 조종한다.
+- 여러 가지 힘으로 소환물들을 강화한다.#WHITE#
+
+자연의 추종자 직업들은 모두 "평정" 을 원천으로 사용합니다. 평정은 현재 자연과의 연결 상태를 의미합니다. 
+높은 평정은 사용자가 자연의 균형을 깨뜨리고 있다는 의미입니다. 평정이 높아질수록 기술 사용에 실패할 확률이 생기며, 실패 시 턴을 낭비하게 됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/texts/unlock-wilder_wyrmic.lua"
 
+t("New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "새로운 직업: #LIGHT_GREEN#용인 (자연의 추종자)", "_t")
+t([[Some people, either through training or magic, can take on the defining aspects of the dragon-kin themselves.
+You have consumed a magic that allows you to gain such a power. You can now also create new characters with the #LIGHT_GREEN#Wyrmic class#WHITE#.
+
+Wyrmics are Wilders, who are at home in the wilds and draw their power from their connection with the dragons.
+Class features:#YELLOW#
+- Take on the aspects of drakes: fire, cold, sand, and more
+- Breath weapons: fire, ice, sand, and more
+- Powerful melee combatant#WHITE#
+
+All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
+The higher it gets the more off-balance they are with it. A high equilibrium makes for a chance to fail to use a power and lose a turn.
+Wyrmics are also trained in the martial arts and use stamina for some techniques.
+]], [[몇몇 사람들은 수련이나 마법을 통해서 스스로 용족의 형상을 취할 수 있습니다.
+당신은 그런 일을 가능하게 해 주는 마법의 힘을 흡수했습니다. 따라서 이제부터 #LIGHT_GREEN#용인 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+용인들은 대자연 속에서 생활하며 그것으로부터 힘을 이끌어내는 자연의 추종자들입니다.
+직업 특징:#YELLOW#
+- 화염, 냉기, 모래 등등 여러 용족의 형상을 취한다.
+- 화염, 냉기, 모래 등등의 숨결을 뿜어내 공격한다.
+- 강력한 근접 전투#WHITE#
+
+자연의 추종자 직업들은 모두 "평정" 을 원천으로 사용합니다. 평정은 현재 자연과의 연결 상태를 의미합니다. 
+높은 평정은 사용자가 자연의 균형을 깨뜨리고 있다는 의미입니다. 평정이 높아질수록 기술 사용에 실패할 확률이 생기며, 실패 시 턴을 낭비하게 됩니다.
+용인들은 무예 또한 수련했기 때문에 몇몇 기술은 기력도 사용합니다.
+]], "_t")
 
 
 ------------------------------------------------
@@ -27443,7 +27859,7 @@ Race features:#YELLOW#
 이제는 마즈'에이알에서 그들을 거의 볼 수 없게 되었지만, 그들은 하플링의 나르골 왕국에서 수천년간 노예로 부려졌었습니다.
 이크들은 장작더미의 시대에 자유를 얻게 되었고 그때부터 '한길' - 그들의 강력한 초능력에 의해 강제된 정신의 통합체를 따르게 되었습니다.
 
-당신은 이크 한길의 일원을 도와주었고, 그러므로 이제부터 #LIGHT_GREEN#이크 종족#WHITE#의 캐릭터를 생성할 수 있습니다.
+당신은 이크 한길의 일원을 도와주었고, 따라서 이제부터 #LIGHT_GREEN#이크 종족#WHITE#의 캐릭터를 생성할 수 있습니다.
 
 종족 특징:#YELLOW#
 - 정신을 지배하는 종족 기술
@@ -28173,7 +28589,9 @@ t("%s(%d focus)#LAST#", "%s(%d 감시자의 집중)#LAST#", "tformat")
 t("Fateweaver", "운명을 엮는 자", "_t")
 t("The target's accuracy and power have been increased by %d.", "정확도, 물리, 주문, 정신력 +%d.", "tformat")
 t("%d Fateweaver", "운명을 엮는 자 %d", "tformat")
+t("#Target# weaves fate.", "#Target1# 운명을 엮어낸다.", "_t")
 t("+Fateweaver", "+운명을 엮는 자", "_t")
+t("#Target# stops weaving fate.", "#Target#의 운명 방적이 끝났다.", "_t")
 t("-Fateweaver", "-운명을 엮는 자", "_t")
 t("Fold Fate", "운명 접합", "_t")
 t("The target is nearing the end, its resistance to physical and temporal damage have been reduced by %d%%.", "물리, 시간 피해 저항 -%d%%.", "tformat")
@@ -28746,6 +29164,7 @@ t("evade", "회피", "effect subtype")
 t("speed", "속도", "effect subtype")
 t("#F53CBE##Target# begins rampaging!", "#F53CBE##Target2# 광란에 휩싸인다!", "_t")
 t("+Rampage", "+광란", "_t")
+t("#F53CBE##Target# is no longer rampaging.", "#F53CBE##Target2# 더이상 광란 상태가 아니다.", "_t")
 t("-Rampage", "-광란", "_t")
 t("%s has shrugged off %d damage and is ready for more.", "%s %d 피해를 감소시켰다. 아직 더 감소시킬 수 있다.", "logSeen", nil, {"는"})
 t("#F53CBE#Your rampage is invigorated by the intense onslaught! (+1 duration)", "#F53CBE#당신의 저돌적인 맹공이 광란 상태를 1 턴 연장시킨다!", "logPlayer")
@@ -28929,8 +29348,12 @@ t("Caught Lightning", "전기 포집", "_t")
 t("Lightning Catcher has caught energy and is empowering you for +%d%% lightning damage and +%d to all stats.", "전기 피해 +%d%% / 모든 능력치 +%d.", "tformat")
 t("lightning", "전기", "effect subtype")
 t("Mark of the Vampire", "흡혈귀의 표식", "_t")
+t("The target is doomed to die a bloody death.  Each time it uses an ability it takes %0.2f physical damage, and incoming bleeds are strengthened by %d%%.", "핏빛 죽음을 맞을 것이라는 저주를 받음 : 기술을 사용할 때 마다 %0.2f 물리 피해 받음 / 이후 가해지는 출혈 피해가 %d%% 강력해짐.", "tformat")
 t("psionic", "초능력", "effect subtype")
 t("#Target# is doomed!", "#Target#에게 임박한 운명이 다가온다!", "_t")
+t("+Vampire Mark", "+흡혈귀의 표식", "_t")
+t("#Target# is free from their doom.", "#Target1# 운명에서 벗어났다.", "_t")
+t("-Vampire Mark", "-흡혈귀의 표식", "_t")
 
 
 ------------------------------------------------
@@ -29186,6 +29609,7 @@ t("#Target# fades!", "#Target1# 흐려진다!", "_t")
 t("+Faded", "+흐려짐", "_t")
 t("Highborn's Bloom", "고귀한 개화", "_t")
 t("The target is using talents without consuming resources.", "기술 사용시 원천력 소모 없음.", "_t")
+t("Victory Rush", "승리의 돌진", "_t")
 t("The thrill of victory makes this creature invulnerable.", "피해 면역.", "_t")
 t("Solipsism", "유아론", "_t")
 t("This creature has fallen into a solipsistic state and is caught up in its own egoic thoughts (-%d%% global speed).", "염력이 유아론 한계량보다 낮음 / 전체 속도 -%d%% .", "tformat")
@@ -29358,6 +29782,7 @@ t("Zone-wide effect: A huge thunderstorm rages above you. +10 lightning damage, 
 t("Abashed Expanse", "너무나 광활한 공간", "_t")
 t("Zone-wide effect: Your Phase Door spell is super easy to use here, allowing you to target it regardless of level. Any projectiles is slowed down by 80%.", "지역 효과: 위상 관문의 기술 레벨과 상관 없이 위치 지정 가능 / 모든 투사체 속도 -80%.", "_t")
 t("Challenge", "도전", "_t")
+t("aura", "아우라", "effect subtype")
 t("Throwing Knives", "단검 투척", "_t")
 t("%d Knives", "%d 단검", "tformat")
 t([[Has %d throwing knives prepared:
@@ -29437,15 +29862,27 @@ t("sense", "감지", "effect subtype")
 t("Dozing", "수면", "_t")
 t("The target is completely asleep, unable to act.", "행동 불가.", "_t")
 t("sleep", "수면", "effect subtype")
+t("Protected by a Mirror Image", "거울의 상 보호", "_t")
+t("Target is protected by a mirror image. Increases damage dealt to blind or dazzled creatures by %d%%", "거울의 상에 의해 보호됨 : 실명되거나 눈이 먼 적에게 가하는 피해 +%d%%", "tformat")
 t("phantasm", "환영", "effect subtype")
 t("Aether Permeation", "에테르 침투", "_t")
+t("Target is protected from dispels", "대상은 주문 해제에 영향을 받지 않는다", "tformat")
 t("arcane", "비전", "effect subtype")
 t("prodigy", "특수 기술", "effect subtype")
 t("Marked for Death", "죽음의 표식", "_t")
+t("Reduces Blood Rush cooldown if killed", "살해 시, 피의 쇄도 재사용 대기시간 감소", "tformat")
 t("status", "상태", "effect subtype")
+t("Lights Out", "소등", "_t")
+t("The target is cut off from the sun", "태양광이 차단됨", "_t")
 t("magic", "마법", "effect subtype")
 t("Self-Judgement", "자가 심판", "_t")
+t("Your body is bleeding, losing %0.2f life each turn.", "출혈 / 매 턴 %0.2f 생명력을 잃음.", "tformat")
 t("bleed", "출혈", "effect subtype")
+t("#CRIMSON##Target# is torn open by the powerful blow!", "#CRIMSON##Target1# 강력한 일격으로 인해 찢겨진다!", "_t")
+t("+Self-Judgement", "+자가 심판", "_t")
+t("#CRIMSON##Target#'s wound has closed.", "#CRIMSON##Target#의 상처가 아물었다.", "_t")
+t("-Self-Judgement", "-자가 심판", "_t")
+t("#CRIMSON#%d Bleed #LAST#", "#CRIMSON#%d 출혈 #LAST#", "tformat")
 
 
 ------------------------------------------------
@@ -29522,6 +29959,7 @@ t("Stoning Poison", "석화성 독", "_t")
 t("The target is taking %0.2f nature damage per turn from a potent earth-based poison.  In %d more turn(s), or when the poison has run its course (%d%% chance), the target will be turned to stone for %d turns.", "중독 / 매 턴 %0.2f 자연 피해 받음 / %d 턴 후, 또는 독의 지속시간이 끝났을 때 %d%% 확률로 %d 턴 동안 석화됨.", "tformat")
 t("#Target# is infused with stone poison!", "#Target1# 석화성 독에 의해 고통받고있다!", "_t")
 t("+Stoning Poison", "+석화성 독", "_t")
+t("#Target# is free of the stone poison!", "#Target#의 석화성 독이 치유되었다!", "_t")
 t("-Stoning Poison", "-석화성 독", "_t")
 t("#GREY#%s looks stony for a moment, but resists the transformation.", "#GREY#%s 잠시동안 돌처럼 굳어졌지만, 결국 석화에 저항했다.", "logSeen", nil, {"가"})
 t("Burning", "화상", "_t")
@@ -30164,6 +30602,7 @@ t("+Escape!", "+탈출!", "_t")
 t("#Target# slows down.", "#Target#의 발이 느려졌다.", "_t")
 t("-Escape", "-탈출", "_t")
 t("Sentinel", "보초", "_t")
+t("Target is watched, causing the next talent used to fail and trigger a counterattack.", "감시당하는 중 : 다음 기술 사용을 방해하고 반격을 발동함.", "tformat")
 t("+Sentinel!", "+보초!", "_t")
 t("-Sentinel", "-보초", "_t")
 t("Rapid Movement", "빠른 이동", "_t")
@@ -30246,9 +30685,17 @@ t("#Target# recovers sight.", "#Target2# 시야를 회복했다.", "_t")
 t("-Blind", "-실명", "_t")
 t("Gift of the Woods", "나무의 선물", "_t")
 t("Increases the effectiveness of all healing the target receives by %d%%.", "회복 효율 +%d%%.", "tformat")
+t("Intangible", "무형", "_t")
+t("%d%% chance to fully evade any damaging actions or negative effects.", "%d%% 확률로 피해나 부정적인 효과를 완전히 무효화.", "tformat")
 t("nature", "자연", "effect subtype")
+t("#LIGHT_BLUE#%s evades the effect '%s'!", "#LIGHT_BLUE#%s '%s'의 효과를 무효화 했다!", "logSeen", nil, {"이"})
+t("Brutalized", "야만의 강타", "_t")
+t("The target is brutally stunned, reducing damage by 50%%, movement speed by 50%%, bleed resist by 50%%, and halving talent cooldown.", "난폭하게 기절함 : 가하는 피해량 -50%% / 이동 속도 -50%% / 출혈 저항 -50%% / 재사용 대기시간 적용.", "tformat")
 t("stun", "기절", "effect subtype")
+t("#Target# is stunned by the brutal strike!", "#Target2# 야만적인 강타로 기절했다!", "_t")
+t("+Brutalized", "+야만의 강타", "_t")
 t("#Target# is not stunned anymore.", "#Target1# 제정신을 되찾았다.", "_t")
+t("-Brutalized", "-야만의 강타", "_t")
 
 
 ------------------------------------------------
@@ -33913,6 +34360,11 @@ t("Cancel", "취소", "_t")
 t([[This is the name of your character.
 Right mouse click to generate a random name based on race and sex.]], [[이 칸은 당신의 캐릭터의 이름입니다.
 오른쪽 마우스 클릭으로 종족과 성별에 따른 무작위한 이름을 생성합니다.]], "_t")
+t("\
+\
+#GOLD#This is a locked birth option. Performing certain actions and completing certain quests will make locked campaigns, races and classes permanently available.", "\
+\
+#GOLD#이것은 잠긴 캐릭터 생성 옵션입니다. 특정 행동을 하거나, 특정 퀘스트를 수행함으로써 잠겨진 캠페인, 종족 또는 직업을 영구히 해금합니다.", "_t")
 t([[#CRIMSON#Playing this class with the race you selected does not make much sense lore-wise. You can still do it but might miss on some special quests/...#WHITE#
 ]], [[#CRIMSON#이 직업을 당신이 선택한 종족으로 플레이하는 것은 이야기 진행 측면에서 약간 모자를 수 있습니다. 플레이하는 데엔 문제가 없지만 몇몇 직업-종족 퀘스트를 놓치게 될겁니다...#WHITE#
 ]], "_t")
@@ -34179,11 +34631,22 @@ t("File: %s", "파일: %s", "tformat")
 ------------------------------------------------
 section "game/modules/tome/dialogs/CursedAuraSelect.lua"
 
+t("Cursed Aura Selection", "저주 받은 자의 기운 선택", "_t")
+t("A malevolent aura begins to form around you. Choose your curse:", "당신 주변에 악의 가득한 기운이 형상을 이루기 시작합니다. 저주를 선택하세요 :", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/DeathDialog.lua"
 
+t("You have #LIGHT_RED#died#LAST#!", "당신은 #LIGHT_RED#죽었습니다#LAST#!", "_t")
+t([[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
+You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
+]], [[#{bold}#테일즈 오브 마즈'에이알#{normal}#에서의 죽음은 보통 영구적이지만, 부활 수단을 갖고있다면, 아래 메뉴에 나타날 것입니다.
+캐릭터의 데이터를 덤프 파일로 만들어 당신의 캐릭터를 영원히 기억할 수도 있고, 아니면 나가서 다시 한번 야생에서 생존해 보세요!
+]], "_t")
+t([[#LIGHT_GREEN#During your game you#WHITE#:
+* %s]], [[#LIGHT_GREEN#이 게임 동안#WHITE#:
+* %s]], "tformat")
 t("#LIGHT_RED#You have %d life(s) left.", "#LIGHT_RED#당신의 목숨은 %d 개 남았다.", "tformat")
 t("#LIGHT_RED#You have no more lives left.", "#LIGHT_RED#더 이상 남아있는 목숨이 없다.", "tformat")
 t("#LIGHT_RED#From the brink of death you seem to be yanked to another plane.", "#LIGHT_RED#죽음의 직전에, 다른 차원으로 날아간 것 같다.", "log")
@@ -34196,6 +34659,8 @@ t("Resurrect by cheating", "치트로 부활한다", "_t")
 t("Resurrect with the Blood of Life", "생명의 피로 부활한다", "_t")
 t("Re-assemble your bones and resurrect (Skeleton ability)", "뼈를 다시 짜맞춰 부활한다. (스켈레톤 종족 능력)", "_t")
 t("Resurrect by consuming %s", "%s 소모하여 부활", "tformat", nil, {"를"})
+t("Resurrect with Adventurer Mode (%d life(s) left)", "모험 모드로 부활 (%d 개의 생명 남음)", "tformat")
+t("Resurrect with Exploration Mode", "탐험 모드로 부활", "_t")
 t("Message Log", "메시지 로그", "_t")
 t("Message/Chat log (allows to talk)", "메시지/채팅 로그 열기 (대화를 할 수 있습니다)", "_t")
 t("Character dump", "캐릭터 덤프", "_t")
@@ -34231,24 +34696,270 @@ Note: This does not affect the turn-based idea of the game. You can move again w
 이 값을 높일 경우, 이동 속도가 느려집니다.
 
 알림 : 이 설정은 이 게임의 턴 기반 시스템에 영향을 끼치지 않습니다. 당신은 캐릭터가 움직이는 도중이라면 언제든지 다시 이동할 수 있으며, 이 사항은 제대로 갱신되며, 새로운 애니메이션 효과와 계산된 값을 산출합니다.]], "_t")
+t("#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "#GOLD##{bold}#개체 이동 부드러움#WHITE##{normal}#", "_t")
+t("Enter movement speed(lower is faster)", "이동 애니메이션 속도를 입력해주세요 (낮은 수치일 수록 빠릅니다)", "_t")
+t("From 0 to 60", "0 ~ 60", "_t")
+t([[Enables or disables 'twitch' movement.
+When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[근접 공격시 적에게 다가가는 애니메이션을 활성화하거나 비활성화 합니다.
+활성화 시, 각 개체들은 공격 방향으로 살짝 움직입니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#근접공격 시 접근 애니메이션#WHITE##{normal}#", "_t")
+t([[Enables smooth fog-of-war.
+Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[부드러운 전장의 안개를 활성화 합니다.
+비활성화 시, 전장의 안개가 '딱딱해' 보이지만, 성능이 약간 향상될 수도 있습니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "#GOLD##{bold}#전장의 안개 부드러움#WHITE##{normal}#", "_t")
+t([[Select the interface look. Metal is the default one. Simple is basic but takes less screen space.
+You must restart the game for the change to take effect.]], [[표시할 인터페이스를 선택합니다. 메탈이 기본 설정입니다. 심플은 아주 기본적이지만, 화면의 공간은 적게 차지합니다.
+게임을 재실행할 시, 변경 사항이 적용됩니다.]], "_t")
+t("#GOLD##{bold}#Interface Style#WHITE##{normal}#", "#GOLD##{bold}#인터페이스 스타일#WHITE##{normal}#", "_t")
 t("Dark", "다크", "_t")
 t("Metal", "메탈", "_t")
 t("Simple", "심플", "_t")
 t("Stone", "스톤", "_t")
 t("Interface style", "인터페이스 스타일", "_t")
+t([[Select the HUD look. 'Minimalist' is the default one.
+#LIGHT_RED#This will take effect on next restart.]], [[표시할 HUD를 선택합니다. '미니멀리스트' 가 기본 설정입니다.
+#LIGHT_RED#게임을 재실행할 시, 변경 사항이 적용됩니다.]], "_t")
+t("#GOLD##{bold}#HUD Style#WHITE##{normal}#", "#GOLD##{bold}#HUD 스타일#WHITE##{normal}#", "_t")
 t("Classic", "클래식", "_t")
 t("Minimalist", "미니멀리스트", "_t")
 t("HUD style", "HUD 스타일", "_t")
 t("Select style", "스타일 선택", "_t")
+t("The number of lines to display in the combat log (for the Classic HUD).", "전투 로그를 표시할 때의 선의 갯수를 설정합니다. (클래식 HUD 전용).", "_t")
+t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#전투 로그 라인 수#WHITE##{normal}#", "_t")
+t("From 5 to 50", "5 ~ 50", "_t")
+t("Log lines", "로그 선", "_t")
+t("Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "희미한 선으로 각 칸을 나눠, 시각적으로 보기 편하게 만듭니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "#GOLD##{bold}#게임 맵 그리드#WHITE##{normal}#", "_t")
+t([[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
+You must restart the game for the change to take effect.]], [[표시할 글씨체를 선택합니다. 판타지가 기본 설정입니다. 기본은 단순하고, 비교적 작습니다.
+변경 사항을 적용하기 위해서는 재시작해야합니다.]], "_t")
+t("#GOLD##{bold}#Font Style#WHITE##{normal}#", "#GOLD##{bold}#글씨체#WHITE##{normal}#", "_t")
+t("Font style", "폰트 스타일", "_t")
+t([[Select the fonts size.
+You must restart the game for the change to take effect.]], [[글씨 크기를 선택합니다.
+변경 사항을 적용하기 위해서는 재시작해야합니다.]], "_t")
+t("#GOLD##{bold}#Font Size#WHITE##{normal}#", "#GOLD##{bold}#글씨 크기#WHITE##{normal}#", "_t")
 t("Big", "크게", "_t")
 t("Font size", "폰트 크기", "_t")
 t("Normal", "보통", "_t")
 t("Select font", "폰트 선택", "_t")
 t("Small", "작게", "_t")
-t("#GOLD##{bold}#Always show glove combat properties#WHITE##{normal}#", "#GOLD##{bold}#언제나 장감 전투 능력치 보기 properties#WHITE##{normal}#", "_t")
-t("#GOLD##{bold}#Always show shield combat properties#WHITE##{normal}#", "#GOLD##{bold}#언제나 방패 전투 능력치 보기 properties#WHITE##{normal}#", "_t")
+t([[How many seconds before log and chat lines begin to fade away.
+If set to 0 the logs will never fade away.]], [[로그와 채팅이 사라지기 전 까지 표시될 시간을 설정합니다.
+0 으로 설정할 경우, 로그가 사라지지 않습니다.]], "_t")
+t("#GOLD##{bold}#Log fade time#WHITE##{normal}#", "#GOLD##{bold}#로그 표시 시간#WHITE##{normal}#", "_t")
+t("Fade time (in seconds)", "표시 시간 (초 단위)", "_t")
+t("From 0 to 20", "0 ~ 20", "_t")
+t([[How long will flying text messages be visible on screen.
+The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], [[얼마나 오랫동안 플라잉 텍스트 메시지가 화면에 표시될 지 설정합니다.
+1 (매우 짧음) 부터 100 (10 배 느림) 까지의 값을 설정할 수 있습니다.]], "_t")
+t("#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "#GOLD##{bold}#플라잉 텍스트 표시 시간#WHITE##{normal}#", "_t")
+t("From 1 to 100", "1 ~ 100", "_t")
+t("Relative duration", "상대적인 표시 시간", "_t")
+t("Uses the icons for status effects instead of text.#WHITE#", "상태 효과를 표시할 때 텍스트 대신 아이콘을 사용합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "#GOLD##{bold}#상태 효과 아이콘#WHITE##{normal}#", "_t")
+t("Uses the icons hotkeys toolbar or the textual one.#WHITE#", "단축키 아이콘 툴바를 사용할지, 텍스트 툴바를 사용할 지 선택합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "#GOLD##{bold}#단축키 아이콘 툴바#WHITE##{normal}#", "_t")
+t("Number of rows to show in the icons hotkeys toolbar.#WHITE#", "단축키 아이콘 툴바의 줄 수를 설정합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "#GOLD##{bold}#단축키 아이콘 툴 바 줄 수#WHITE##{normal}#", "_t")
+t("From 1 to 4", "1 ~ 4", "_t")
+t("Number of icons rows", "아이콘 줄 수", "_t")
+t("When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "단축키를 활성화 했을 때, 키보드 또는 클릭이 단축키 바에 시각적 피드백을 표시함.#WHITE#", "_t")
+t("#GOLD##{bold}#Visual hotkeys feedback#WHITE##{normal}#", "#GOLD##{bold}#단축키 시각적 피드백#WHITE##{normal}#", "_t")
+t("When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "플레이어나 NPC 가 기술을 사용할 떄, 기술의 아이콘과 이름을 작게 띄웁니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Talents activations map display#WHITE##{normal}#", "#GOLD##{bold}#기술 사용 시 팝업 표시#WHITE##{normal}#", "_t")
+t("Size of the icons in the hotkeys toolbar.#WHITE#", "단축키 툴바에 표시될 아이콘 크기를 설정합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "#GOLD##{bold}#단축키 툴바 아이콘 크기#WHITE##{normal}#", "_t")
+t("From 32 to 64", "32 ~ 64", "_t")
+t("Icons size", "아이콘 크기", "_t")
+t([[If disabled lore popups will only appear the first time you see the lore on your profile.
+If enabled it will appear the first time you see it with each character.#WHITE#]], [[비활성화 시, 프로필 상, 이미 읽은 이야기는 팝업되지 않습니다.
+활성화 시, 각 캐릭터가 습득한 이야기가 팝업됩니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#이야기 습득 시 언제나 팝업#WHITE##{normal}#", "_t")
+t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "비활성화 시, 발동 가능한 물품들의 기술들이 단축키에 자동으로 등록되지 않습니다. 따라서 당신은 가방 창에서 직접 드래그 해야합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#발동 가능 아이템 자동 단축키 지정#WHITE##{normal}#", "_t")
+t([[Toggles between various tactical information display:
+- Combined healthbar and small tactical frame
+- Combined healthbar and big tactical frame
+- Only healthbar
+- No tactical information at all
+
+#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], [[다양한 전략 정보 표시를 변경합니다 :
+- 생명력 바와 작은 경계 표시
+- 생명력 바와 큰 경계 표시
+- 생명력 바만 표시
+- 전략 정보 표시 안함
+
+#{italic}#게임 내에서 shift+T 를 눌러 즉각 변경할 수 있습니다.#{normal}##WHITE#]], "_t")
+t("#GOLD##{bold}#Tactical overlay#WHITE##{normal}#", "#GOLD##{bold}#전략 오버레이#WHITE##{normal}#", "_t")
+t("Select overlay mode", "오버레이 모드 선택", "_t")
+t("Tactical overlay", "전략 오버레이", "_t")
+t("Combined Small", "생명력 바 / 작음", "_t")
+t("Combined Big", "생명력 바 / 큼", "_t")
+t("Only Healthbars", "생명력 바", "_t")
+t("Nothing", "표기 안함", "_t")
+t("Toggles between a normal or flagpost tactical bars.#WHITE#", "플래그 포스트 바 표시 전환.#WHITE#", "_t")
+t("#GOLD##{bold}#Flagpost tactical bars#WHITE##{normal}#", "#GOLD##{bold}#플래그 포스트 바#WHITE##{normal}#", "_t")
+t("Disabled", "비활성화", "_t")
+t("Enabled", "활성화", "_t")
+t("Toggles between a bottom or side display for tactial healthbars.#WHITE#", "생명력 바의 위치를 하단이나 옆면으로 바꿉니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Healthbars position#WHITE##{normal}#", "#GOLD##{bold}#생명력 바 위치#WHITE##{normal}#", "_t")
+t("Bottom", "아래", "_t")
+t("Sides", "옆", "_t")
+t("If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", "비활성화 할 경우, 기절/혼절의 화면 상 경고를 표시하지 않습니다. 조심하십시오.#WHITE#", "_t")
+t("#GOLD##{bold}#Fullscreen stun/daze notification#WHITE##{normal}#", "#GOLD##{bold}#기절/혼절 화면 상 경고#WHITE##{normal}#", "_t")
+t("If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", "비활성화 할 경우, 혼란의 화면 상 경고를 표시하지 않습니다. 조심하십시오.#WHITE#", "_t")
+t("#GOLD##{bold}#Fullscreen confusion notification#WHITE##{normal}#", "#GOLD##{bold}#혼란 화면 상 경고#WHITE##{normal}#", "_t")
+t("Toggles advanced weapon statistics display.#WHITE#", "상세 무기 설명 전환.#WHITE#", "_t")
+t("#GOLD##{bold}#Advanced Weapon Statistics#WHITE##{normal}#", "#GOLD##{bold}#상세 무기 설명#WHITE##{normal}#", "_t")
+t("Always display the combat properties of gloves even if you don't know unarmed attack talents.#WHITE#", "맨손 공격 기술을 알지 못하더라도, 항상 장갑의 전투 특성을 표시합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Always show glove combat properties#WHITE##{normal}#", "#GOLD##{bold}#언제나 장감 전투 능력치 보기#WHITE##{normal}#", "_t")
+t("Always display combat properties of shields even if you don't know shield attack talents.#WHITE#", "방패 공격 기술을 알지 못하더라도, 항상 방패의 전투 특성을 표시합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Always show shield combat properties#WHITE##{normal}#", "#GOLD##{bold}#언제나 방패 전투 능력치 보기#WHITE##{normal}#", "_t")
+t("When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "마우스 제스쳐를 사용할 떄 (오른쪽 클릭 + 드래그) 궤적이 표시됩니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "#GOLD##{bold}#마우스 제스처 궤적 표시#WHITE##{normal}#", "_t")
+t("If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "활성화 시, 새로운 퀘스트를 받거나, 퀘스트를 갱신 할 때, 커다란 팝업이 나타납니다. 비활성화 할 시, 간단한 텍스트가 화면에 나타납니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "#GOLD##{bold}#커다란 퀘스트 팝업#WHITE##{normal}#", "_t")
+t("Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "WASD 방향키를 활성화 합니다. 한번에 두 방향을 눌러, 대각선 방향으로 이동할 수 있습니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "#GOLD##{bold}#WASD 이동 활성화 #WHITE##{normal}#", "_t")
+t("Sharpen Visuals, set to 0 to disable.#WHITE#", "그래픽을 날카롭게합니다. 0 으로 설정할 시, 비활성화 됩니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "#GOLD##{bold}#날카로운 그래픽#WHITE##{normal}#", "_t")
+t("Enter Sharpen Power", "날카로움 강도를 입력하세요", "_t")
+t("From 0(disable) to 10", "0(비활성화) ~ 10", "_t")
+t("Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "화면의 스크롤이 시작할 끝부터의 거리를 결정합니다. 충분히 높은 값으로 설정해 놓을 시, 항상 플레이어를 중심에 표시합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#스크롤 거리#WHITE##{normal}#", "_t")
+t("From 1 to 50", "1 ~ 50", "_t")
+t("Scroll distance", "스크롤 거리", "_t")
+t("If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "한 턴에 해당 퍼센트 만큼 생명력을 잃을 경우, 경고가 표시되며, 실수를 막기 위해 모든 키보드, 마우스 입력이 2 초 동안 무시됩니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "#GOLD##{bold}#큰 피해 경고#WHITE##{normal}#", "_t")
+t("From 1 to 99 (100 to disable)", "1 ~ 99 (100 으로 설정할 시, 비활성화 합니다)", "_t")
+t("Life lost percentage (out of max life)", "잃은 생명력 퍼센테이지 (최대 생명력 기준)", "_t")
+t([[Enables or disables weather effects in some zones.
+Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], [[몇몇 지역의 날씨 효과를 활성화 또는 비활성화 합니다.
+비활성화 할 경우, 성능이 향상됩니다. 전에 방문했던 지역에는 영향을 미치지 않습니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#Weather effects#WHITE##{normal}#", "#GOLD##{bold}#날씨 효과#WHITE##{normal}#", "_t")
+t("Enables or disables day/night light variations effects..#WHITE#", "밤, 낮의 빛 변화를 활성화 또는 비활성화 합니다..#WHITE#", "_t")
+t("#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "#GOLD##{bold}#밤/낮 빛 사이클#WHITE##{normal}#", "_t")
+t("Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "활성화 할 시, 마우스 왼쪽 클릭으로 간단하게 이동할 수 있습니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "#GOLD##{bold}#마우스 클릭으로 이동#WHITE##{normal}#", "_t")
+t([[Enables quick melee targeting.
+Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[빠른 근접 타게팅을 활성화합니다.
+활성화 할 시, 근접한 대상을 필요로 하는 기술들은 대상을 직접 지정하는 대신 방향키 입력으로 기술을 시전합니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#빠른 근접 타게팅#WHITE##{normal}#", "_t")
+t([[Enables quick melee targeting auto attacking.
+Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[자동 공격 시의 빠른 근접 타게팅을 활성화합니다.
+활성화 할 시, 근접한 적들이 단 하나 뿐일 떄, 자동으로 대상에게 기술을 시전합니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#자동 공격 시, 빠른 근접 타게팅#WHITE##{normal}#", "_t")
+t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "마우스 타게팅을 활성화합니다. 비활성화 시, 기술을 사용할 떄의 마우스의 움직임은 대상 지정에 영향을 끼치지 ㅇ낳습니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#마우스 타게팅#WHITE##{normal}#", "_t")
+t([[Auto-validate targets. If you fire an arrow/talent/... it will automatically use the default target without asking
+#LIGHT_RED#This is dangerous. Do not enable unless you know exactly what you are doing.#WHITE#
+
+Default target is always either one of:
+ - The last creature hovered by the mouse
+ - The last attacked creature
+ - The closest creature]], [[활, 또는 기술 등을 사용할 떄 대상을 자동으로 확정합니다. 이는 당신에게 물어보지 않고, 기본 대상에게 자동으로 기술을 사용할 것입니다.
+#LIGHT_RED#이것은 매우 위험합니다. 당신이 무엇을 하고있는지 정확하게 아는 상황에서만 활성화하십시오.#WHITE#
+
+기본 대상은 다음과 같습니다 :
+ - 마우스 커서가 닿은 마지막 개체
+ - 마지막으로 공격당한 개체
+ - 가장 가까운 게체]], "_t")
+t("#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "#GOLD##{bold}#대상 자동 승낙#WHITE##{normal}#", "_t")
+t("New games begin with some talent points auto-assigned.#WHITE#", "새 게임을 시작할 때, 기술 점수의 일부를 자동으로 분배합니다.#WHITE#", "_t")
+t("Always rest to full before auto-exploring.#WHITE#", "자동 탐색 전, 항상 최대로 회복함.#WHITE#", "_t")
+t("#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "#GOLD##{bold}#자동 탐색 전, 최대 회복#WHITE##{normal}#", "_t")
+t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "발명품이 부착된 장비를 교체할 때, 새로 착용하는 장비에 해당 발명품을 자동으로 장착합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "#GOLD##{bold}#발명품 교체#WHITE##{normal}#", "_t")
+t("Configure the chat filters to select what kind of messages to see.#WHITE#", "채팅으로 어떤 종류의 메시지를 볼 것인지 필터링을 합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "#GOLD##{bold}#채팅 메시지 필터링#WHITE##{normal}#", "_t")
+t("Deaths", "사망 로그", "_t")
+t("Object & Creatures links", "물품 & 개체 링크", "_t")
+t("Configure the chat ignore filter.#WHITE#", "채팅 무시 필터 설정입니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "#GOLD##{bold}#채팅 무시 리스트#WHITE##{normal}#", "_t")
+t("Configure the chat channels to listen to.#WHITE#", "표시할 채팅 채널을 설정합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Chat channels#WHITE##{normal}#", "#GOLD##{bold}#채팅 채널#WHITE##{normal}#", "_t")
+t("select to configure", "선택하여 설정", "_t")
+t([[Open links in external browser instead of the embedded one.
+This does not affect addons browse and installation which always stays ingame.]], [[링크를 내장된 브라우저 대신 외부 브라우저를 사용하여 엽니다.
+게임 내의 에드온 브라우저와 설치는 항상 게임 내에서 이루어집니다.]], "_t")
+t("#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "#GOLD##{bold}#외부 브라우저로 링크 열기#WHITE##{normal}#", "_t")
+t([[Enable Discord's Rich Presence integration to show your current character on your currently playing profile on Discord (restart the game to apply).
+#ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.]], [[디스코드의 Rich Presence 옵션을 통해 현재 플레이하고 있는 캐릭터를 현재 디스코드 프로필에 표시합니다 (적용하기 위해서는 재시작해야합니다).
+#ANTIQUE_WHITE#디스코드를 사용하지 않는다면 작동하지 않습니다.]], "_t")
+t("#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "#GOLD##{bold}#디스코드의 Rich Presence#WHITE##{normal}#", "_t")
+t([[Keep a copy of your character sheets (not the whole savefile) on the online vault at te4.org.
+For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#]], [[te4.org의 온라인 캐릭터 보관소에 캐릭터 시트를 복사합니다. (세이브 데이터는 저장되지 않습니다)
+각 캐릭터 마다 온라인 캐릭터 시트의 링크가 부여됩니다. 자신이 달성한 위업이나, 슬픈 죽음을 친구들이나 모든 커뮤니티와 공유해 보세요.#WHITE#]], "_t")
+t("#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "#GOLD##{bold}#온라인 금고에 캐릭터 시트 업로드#WHITE##{normal}#", "_t")
+t([[Allow various events that are pushed by the server when playing online
+#{bold}#All#{normal}#: Allow all server events (bonus zones, random events, ...)
+#{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.
+#{bold}#Disabled#{normal}#: Disallow all.
+#WHITE#]], [[온라인으로 플레이할 때, 서버에서 제공하는 다양한 이벤트에 접근할 수 있습니다.
+#{bold}#모두#{normal}#: 모든 서버 이벤트에 접근할 수 있습니다 (보너스 지역, 무작위한 이벤트 등 ...)
+#{bold}#기술적 도움만#{normal}#: 플레이 중 버그가 생긴 경우나, 이상한 현상을 만났을 시, 웹사이트 서비스를 제공합니다 (데이터 리셋, 스팀 도전과제 푸시 등 ...) to work.
+#{bold}#비활성화#{normal}#: 모두 비활성화 합니다.
+#WHITE#]], "_t")
+t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#온라인 이벤트 허가#WHITE##{normal}#", "_t")
 t("all", "모든", "_t")
+t("technical help only", "기술적 도움만", "_t")
+t([[Disables all connectivity to the network.
+This includes, but is not limited to:
+- Player profiles: You will not be able to login, register
+- Characters vault: You will not be able to upload any character to the online vault to show your glory
+- Item's Vault: You will not be able to access the online item's vault, this includes both storing and retrieving items.
+- Ingame chat: The ingame chat requires to connect to the server to talk to other players, this will not be possible.
+- Purchaser / Donator benefits: The base game being free, the only way to give donators their bonuses fairly is to check their online profile. This will thus be disabled.
+- Easy addons downloading & installation: You will not be able to see ingame the list of available addons, nor to one-click install them. You may still do so manually.
+- Version checks: Addons will not be checked for new versions.
+- Discord: If you use Discord Rich Presence integration this will also be disabled by this setting.
+- Ingame game news: The main menu will stop showing you info about new updates to the game.
+
+Note that this setting only affects the game itself. If you use the game launcher, whose sole purpose is to make sure the game is up to date, it will still do so.
+If you do not want that, simply run the game directly: the #{bold}#only#{normal}# use of the launcher is to update the game.
+
+#{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.
+A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], [[게임의 모든 네트워크 연결을 해제합니다.
+여기에는 다음과 같은 사항이 포함되지만, 국한되지는 않습니다 :
+- 플레이어 프로필 : 로그인도, 회원 가입도 불가능 해집니다.
+- 캐릭터 보관소 : 당신은 어떤 캐릭터도 온라인 보관소에 업로드 할 수 없게됩니다.
+- 아이템 금고 : 온라인 아이템 금고에 접근할 수 없게됩니다. 아이템을 저장하는 것도, 꺼내오는 것도 불가능합니다.
+- 인게임 채팅 : 인게임 채팅은 다른 플레이어와 이야기 하기 위해서 서버와의 연결이 필수적입니다. 불가능해집니다.
+- 구입자 / 후원자 보너스 : 기본 게임은 무료지만, 기부자들에게 보너스를 공정하게 주는 방법은, 온라인 프로필을 확인하는 방법 뿐입니다. 따라서 이것 역시 불가능해집니다.
+- 쉬운 애드온 다운로드, 설치 : 게임 내에서 사용 가능한 애드온 리스트를 보지 못하게 됩니다. 간편한 설치 역시 불가능해집니다. 수동으로 설치해야됩니다.
+- 버전 확인 : 애드온들의 버전을 자동으로 확인할 수 없게됩니다.
+- 디스코드 : 디스코드의 Rich Presence 기능을 사용중이라면, 이 세팅으로 인해 비활성화 됩니다.
+- 인게임 게임 뉴스 : 메인 메뉴가 게임의 새로운 업데이트 정보를 더 이상 제공하지 않습니다. 
+
+이 세팅은 단지 게임에만 적용됩니다. 게임 런처를 사용하실 경우, 런처의 유일한 목적은 게임이 최신판인지 확인하는 것이기 때문에, 여전히 버전을 확인할 것입니다.
+이를 원하지 않을 경우에, 게임을 직접 실행하십시오 : 게임 런처의 #{bold}#유일한#{normal}# 목적은 게임을 업데이트 하는 것입니다.
+
+#{bold}##CRIMSON#이것은 매우 제한적인 설정입니다. 재미있고 호평받는 기능들이 많이 사라지므로, 다른 선택이 없는 경우에만 활성화 하는 것을 추천드립니다.
+이 설정을 적용하려면, 게임의 전체 종료와 재실행이 필요합니다.#{normal}#]], "_t")
+t("#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "#GOLD##{bold}#모든 연결 비활성화#WHITE##{normal}#", "_t")
 t("no", "아니요", "_t")
+t("yes", "네", "_t")
+t([[Saves in the background, allowing you to continue playing.
+#LIGHT_RED#Disabling it is not recommended.#WHITE#]], [[플레이 중, 백그라운드에서 저장합니다.
+#LIGHT_RED#비활성화는 권장되지 않습니다.#WHITE#]], "_t")
+t("#GOLD##{bold}#Save in the background#WHITE##{normal}#", "#GOLD##{bold}#백그라운드 저장#WHITE##{normal}#", "_t")
+t([[Forces the game to save each level instead of each zone.
+This makes it save more often but the game will use less memory when deep in a dungeon.
+
+#LIGHT_RED#Changing this option will not affect already visited zones.
+*THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.
+#LIGHT_RED#Disabling it is not recommended#WHITE#]], [[매 지역 대신, 한 지역의 매 구역마다 게임을 저장합니다.
+활성화 시, 더 자주 저장하지만, 던전 깊숙한 곳에 있을 경우, 더 적은 메모리를 사용하게 됩니다.
+
+#LIGHT_RED#이 옵션을 변경하더라도, 이미 방문한 지역에는 영향을 미치지 않습니다.
+*활성화 하더라도, 각 레벨이 완전히 저장되지는 않습니다*.
+#LIGHT_RED#비활성화는 추천되지 않습니다#WHITE#]], "_t")
+t("#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "#GOLD##{bold}#구역 마다 저장.#WHITE##{normal}#", "_t")
+t("Disallow boot images that could be found 'offensive'.#WHITE#", "실행 시 민감할 수 있는 이미지를 비활성화 합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Censor boot#WHITE##{normal}#", "#GOLD##{bold}#민감한 이미지 제한#WHITE##{normal}#", "_t")
+t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "망토 장착 시, 머리 방어구의 이미지가 망토의 후드로 대체됩니다#WHITE#", "_t")
+t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#망토 후드 표시#WHITE##{normal}#", "_t")
 t("disabled", "끄기", "_t")
 t("enabled", "켜기", "_t")
 
@@ -34424,6 +35135,7 @@ t("Category points: %s", "기술 계열 점수: %s", "tformat")
 ------------------------------------------------
 section "game/modules/tome/dialogs/LorePopup.lua"
 
+t("Lore found: #0080FF#%s", "이야기 발견: #0080FF#%s", "tformat")
 
 
 ------------------------------------------------
@@ -34469,26 +35181,52 @@ t("Order: %s", "명령: %s", "tformat")
 ------------------------------------------------
 section "game/modules/tome/dialogs/PartySelect.lua"
 
+t("Switch to which character?", "어떤 캐릭터로 변경할까요?", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/PartySendItem.lua"
 
+t("Give item to a party member", "동료에게 물품을 줍니다", "_t")
+t("%s cannot receive items while asleep!", "%s 자고있어, 물품을 받지 못한다!", "log", nil, {"는"})
+t("%s cannot transfer items while asleep!", "%s 자고있어, 물품을 주지 못한다!", "log", nil, {"는"})
+t("You give %s to %s.", "당신은 %s %s에게 주었다.", "log", nil, {"를"})
+t(" #YELLOW#[SLEEPING]#LAST#", " #YELLOW#[수명중]#LAST#", "_t")
+t(" #YELLOW#[NO ROOM]#LAST#", " #YELLOW#[공간 없음]#LAST#", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/QuestPopup.lua"
 
+t("#LIGHT_GREEN#New#LAST# Quest!", "#LIGHT_GREEN#새로운#LAST# 퀘스트!", "_t")
+t("Quest #AQUAMARINE#Updated!", "퀘스트 #AQUAMARINE#갱신!", "_t")
+t("Quest #LIGHT_GREEN#Completed!", "퀘스트 #LIGHT_GREEN#완료!", "_t")
+t("Quest #LIGHT_GREEN#Done!", "퀘스트 #LIGHT_GREEN#완료!", "_t")
+t("Quest #CIMSON#Failed!", "퀘스트 #CIMSON#실패!", "_t")
+t("#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "#ANTIQUE_WHITE#퀘스트: #AQUAMARINE#%s", "tformat")
+t("#ANTIQUE_WHITE#(See your Journal for further details or click here)", "#ANTIQUE_WHITE#(일지를 읽거나, 여기를 클릭해 자세한 설명을 봅니다)", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/SentientWeapon.lua"
 
+t("Points left: #00FF00#%d#WHITE#", "남은 점수: #00FF00#%d#WHITE#", "_t")
+t("Stat", "능력치", "_t")
+t("Value", "값", "_t")
+t("Spellpower", "주문력", "_t")
+t("Spellcrit", "주문 치명타", "_t")
 t("Not enough stat points", "능력치 점수가 부족합니다", "_t")
 t("You have no stat points left!", "남은 능력치 점수가 없습니다!", "_t")
 t("Stat is at the maximum", "능력치가 최대치입니다", "_t")
+t("You can not increase this stat further!", "이 이상 능력치를 증가시킬 수 없습니다!", "_t")
 t("Impossible", "불가능", "_t")
 t("You cannot take out more points!", "더 이상 습득을 취소할 수 없습니다!", "_t")
+t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select a stat; #00FF00#right key#FFFFFF# to increase stat; #00FF00#left key#FFFFFF# to decrease a stat.
+Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF# to decrease a stat.
+]], [[키보드 : #00FF00#상,하 키#FFFFFF#로 능력치를 선택합니다; #00FF00#오른쪽 키#FFFFFF#로 능력치를 늘리고; #00FF00#왼쪽 키#FFFFFF#로 능력치를 낮춥니다.
+마우스 : #00FF00#왼쪽 클릭#FFFFFF#으로 능력치를 늘리고; #00FF00#오른쪽 클릭#FFFFFF#으로 능력치를 낮춥니다.
+]], "_t")
+t("Stats points left: #00FF00#%s", "남은 능력치 점수 : #00FF00#%s", "tformat")
 t("Constitution", "체격", "_t")
 t("Cunning", "교활", "_t")
 t("Dexterity", "민첩", "_t")
@@ -34500,18 +35238,39 @@ t("Willpower", "의지", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowAchievements.lua"
 
+t("-- Unknown --", "-- 알 수 없음 --", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowChatLog.lua"
 
+t("Game Log", "게임 로그", "_t")
+t("Right click to inspect.", "오른쪽 클릭으로 조사.", "_t")
+t("Show infos", "정보 보기", "_t")
+t("Whisper", "귓속말", "_t")
+t("Ignore", "무시", "_t")
+t("Open profile(in browser)", "브라우저에서 프로필 열기", "_t")
+t("Report for bad behavior", "불쾌한 행위 신고", "_t")
+t("Open charsheet(in browser)", "브라우저에서 캐릭터 시트 열기", "_t")
+t("Action", "행동", "_t")
+t("User: ", "사용자 : ", "tformat")
+t("Ignore user", "사용자 무시", "_t")
+t("Really ignore all messages from: %s", "%s의 모든 메시지를 무시하겠습니까?", "tformat")
+t("Reason", "이유", "_t")
+t("Reason to report: %s", "신고 이유: %s", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowEquipInven.lua"
 
 t("Inventory", "소지품", "_t")
+t("Main Set", "주 장비", "_t")
+t("Off Set", "보조 장비", "_t")
 t("Tooltip %s", "정보창 표시 %s", "log")
+t("locked", "잠김", "_t")
+t("unlocked", "해금됨", "_t")
+t("up", "위", "log")
+t("%s Has no defined main inventory", "%s 규정된 소지품 칸이 없습니다", "tformat", nil, {"는"})
 t("No Inventory", "소지품 없음", "_t")
 t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
 
@@ -34520,6 +35279,8 @@ t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
 section "game/modules/tome/dialogs/ShowEquipment.lua"
 
 t("Equipment", "장비", "_t")
+t("Main Set", "주 장비", "_t")
+t("Off Set", "보조 장비", "_t")
 
 
 ------------------------------------------------
@@ -34570,11 +35331,14 @@ t("Inventory", "소지품", "_t")
 t("Store", "상점", "_t")
 t("Category", "분류", "_t")
 t("Price", "가격", "_t")
+t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (지불 비용 금화 %0.2f 개, 당신의 금화 : %0.2f 개)", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/SwiftHands.lua"
 
+t("Managed readied tools", "준비된 도구 관리", "_t")
+t("Readied tools", "준비된 도구", "_t")
 t("Inventory", "소지품", "_t")
 
 
@@ -34584,22 +35348,48 @@ section "game/modules/tome/dialogs/SwiftHandsUse.lua"
 t("Inventory", "소지품", "_t")
 t("Tool", "도구", "_t")
 t("Cooldown", "대기 시간", "_t")
+t("Ready", "준비", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/TrapsSelect.lua"
 
+t("Select Traps", "함정 선택", "_t")
+t("Select traps to prepare:", "준비할 함정 선택:", "_t")
+t("starting trap selection dialog", "함정 설치 시작", "log")
+t(" (replacing instant trigger)", " (기본 뇌관 사용)", "_t")
+t(" (primed trigger)", " (특수 뇌관)", "_t")
+t(" (prepared)", " (준비됨)", "_t")
+t(" (preparing)", " (준비중)", "_t")
+t(" (dismantling)", " (해체중)", "_t")
+t(" (need more skill)", " (기술이 더 필요)", "_t")
+t("%s) Tier %d: %s%s", "%s) 등급 %d: %s%s", "tformat")
 t("#LIGHT_BLUE#You cannot prepare this trap: %s.", "#LIGHT_BLUE#이 함정은 준비할 수 없다: %s.", "logPlayer")
+t("#LIGHT_BLUE#You need more skill to prepare this trap.", "#LIGHT_BLUE#이 함정을 설치하기 위해서는 더 많은 기술이 필요하다.", "logPlayer")
+t("#LIGHT_BLUE#Preparing trap with normal trigger.", "#LIGHT_BLUE#기본 신관을 사용하여 함정을 준비합니다.", "logPlayer")
+t("Accept these selections", "이 선택을 적용합니다", "_t")
+t("#LIGHT_BLUE#You cannot prepare more than %d traps.", "#LIGHT_BLUE#당신은 %d 개 이상의 함정을 설치할 수 없습니다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/UberTalent.lua"
 
+t("Prodigies: %s", "특수기술 : %s", "tformat")
+t([[#LIGHT_GREEN#Number available: %d#LAST#
+Prodigies are special talents that only the most powerful of characters can attain.%s
+All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[#LIGHT_GREEN#가능한 특수 기술 : %d#LAST#
+특수 기술은 가장 강력한 이들이 달성한 특별한 기술들입니다.%s
+모든 특수 기술은 적어도 50 이상의 주 능력치를 필요로 하며, 다양한 조건을 요구합니다. 특수 기술은 오직 레벨 25 와 42 때에만 배울 수 있습니다.]], "_t")
+t("\
+Evolutions are special prodigies specific to a class or race. Only one evolution can be choosen, if any are available at all.", "\
+진화는 어떤 직업이나 종족만 사용 가능한 특별한 특수 기술입니다. 오직 하나의 진화만 선택 가능합니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/UnlockDialog.lua"
 
+t("#VIOLET#Option unlocked: %s", "#VIOLET# 옵션 언락: %s", "logPlayer")
+t("Option unlocked: %s", "해금 표시: %s", "tformat")
 
 
 ------------------------------------------------
@@ -34607,6 +35397,28 @@ section "game/modules/tome/dialogs/UseItemDialog.lua"
 
 t("Impossible", "불가능", "_t")
 t("You must wear this object to use it!", "이 아이템을 사용하기 위해서는 우선 장착하여야 한다!", "_t")
+t("1 to %d", "1 - %d", "tformat")
+t("Drop how many?", "얼마나 버리겠습니까?", "_t")
+t("You do not have any equipped items that it can be attached to.", "당신은 해당 물품을 부착할 어떤 장비도 착용하고 있지 않습니다.", "_t")
+t("Select which item to attach it to:", "장착할 물품을 선택하세요:", "_t")
+t("Really %s %s", "정말로 %s %s", "tformat")
+t("Tag object (tagged objects can not be destroyed or dropped)", "물건에 꼬리표 붙이기 (꼬리표가 붙은 물품은 파괴되거나 버릴 수 없습니다)", "_t")
+t("Tag:", "꼬리표:", "_t")
+t("Identify", "감정", "_t")
+t("Move to normal inventory", "일반 가방으로 이동", "_t")
+t("Use", "사용", "_t")
+t("Wield/Wear", "장착", "_t")
+t("Take off", "해제", "_t")
+t("Detach from item", "부착물 떼어내기", "_t")
+t("Attach to item", "부착물 장착", "_t")
+t("Detach tinker", "발명품 떼어내기", "_t")
+t("Drop", "버리기", "_t")
+t("Transfer to party", "일행에게 전송", "_t")
+t("%s now", "%s", "tformat")
+t("Link item in chat", "채팅창에 링크하기", "_t")
+t("Lua inspect", "Lua 검사", "_t")
+t("Tag", "꼬리표 붙이기", "_t")
+t("Untag", "꼬리표 떼기", "_t")
 
 
 ------------------------------------------------
@@ -34615,11 +35427,57 @@ section "game/modules/tome/dialogs/UseTalents.lua"
 t("Active", "켜짐", "_t")
 t("%s turns", "%s 턴", "tformat")
 t("Unavailable", "불가능", "_t")
+t("Object", "물품", "_t")
+t("Sustain", "유지기", "_t")
+t("Sustaining", "활성화 중", "_t")
 t("Passive", "지속형", "_t")
+t("Use Talents: %s", "기술 사용 : %s", "tformat")
+t([[You can bind a non-passive talent to a hotkey by pressing the corresponding hotkey while selecting a talent or by right-clicking on the talent.
+Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control, shift, or alt).
+Right click or press '~' to configure talent confirmation and automatic use.
+]], [[당신은 비지속성 기술들을 단축키에 배치해, 해당 단축키를 누르거나, 오른쪽 클릭으로 기술을 사용할 수 있습니다.
+단축키를 배정하기위해 게임 메뉴의 키 설정 창을 확인해보세요 (기본적으로 1-0 과, control, shift, alt의 조합으로 이루어져 있습니다).
+오른쪽 클릭이나 '~' 키를 눌러 기술의 자동 사용을 설정할 수 있습니다.
+]], "_t")
 t("Talent", "기술", "_t")
 t("Status", "상태", "_t")
+t("Hotkey", "단축키", "_t")
+t("Mouse Click", "마우스 클릭", "_t")
+t("Unbind", "배정안됨", "_t")
+t("Bind to left mouse click (on a target)", "왼쪽 마우스 클릭에 기술을 배정합니다 (대상을 클릭)", "_t")
+t("Bind to middle mouse click (on a target)", "가운데 마우스 클릭에 기술을 배정합니다 (대상을 클릭)", "_t")
+t("Link in chat", "채팅창에 링크하기", "_t")
+t("#YELLOW#Disable talent confirmation", "#YELLOW#기술 확인 비활성화", "_t")
+t("%sRequest confirmation before using this talent", "%s 이 기술을 사용하기 전에 확인을 요청합니다", "tformat")
+t("#YELLOW#Disable ", "#YELLOW#비활성화 ", "_t")
+t("Auto-use when available", "가능할 때 자동 사용", "_t")
+t("Auto-use when no enemies are visible", "적이 보이지 않을 때 자동 사용", "_t")
+t("Auto-use when enemies are visible", "적이 보일 때 자동 사용", "_t")
+t("Auto-use when enemies are visible and adjacent", "적이 보이고, 근접할 때 자동 사용", "_t")
+t("Auto-use when out of combat", "전투에서 벗어났을 때 자동 사용", "_t")
+t("Hotkey ", "단축키 ", "_t")
+t("Bind talent: %s", "기술 비정 : %s", "tformat")
+t("How do you want to bind this talent?", "이 기술을 어떻게 배정 할까요?", "_t")
 t("%s assigned to hotkey %s", "%s %s의 단축키로 지정되었습니다.", "tformat", {2,1}, {[2]="가"})
 t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
+t("%s assigned to middle mouse click on an hostile target.", "%s 적대적인 대상에게 가운데 클릭을 할 시 기술이 사용됩니다.", "tformat", nil, {"는"})
+t("Middle mouse click assigned", "가운데 클릭 배정됨", "_t")
+t("%s assigned to left mouse click on an hostile target.", "%s 적대적인 대상에게 왼쪽 클릭을 할 시 기술이 사용됩니다.", "tformat", nil, {"는"})
+t("Left mouse click assigned", "왼쪽 클릭 배정됨", "_t")
+t("#{bold}#Activable talents#{normal}#", "#{bold}#사용 가능 기술#{normal}#", "_t")
+t("All activable talents you can currently use.", "현재 당신이 사용할 수 있는 발동형 기술들입니다.", "_t")
+t("#{bold}#Object powers#{normal}#", "#{bold}#물품 능력#{normal}#", "_t")
+t("Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "물품이 지닌 능력 역시 자동으로 발동 가능합니다.  대부분의 발동 가능한 물품들은 ai 제한이나, 재사용 대기시간이 아닐 시 이곳에 표시됩니다.", "_t")
+t("#{bold}#Sustainable talents#{normal}#", "#{bold}#유지 가능한 기술#{normal}#", "_t")
+t("All sustainable talents you can currently use.", "현재 당신이 활성화 할 수 있는 유지 가능한 기술들입니다.", "_t")
+t("#{bold}#Sustained talents#{normal}#", "#{bold}#유지 중인 기술#{normal}#", "_t")
+t("All sustainable talents you currently sustain, using them will de-activate them.", "현재 당신이 유지 중인 기술들입니다. 기술을 사용할 시, 해당 기술을 비활성화 시킵니다.", "_t")
+t("#{bold}#Cooling down talents#{normal}#", "#{bold}#재사용 대기시간 중인 기술#{normal}#", "_t")
+t("All talents you have used that are still cooling down.", "이미 사용되어 재사용 대기중인 기술들입니다.", "_t")
+t("#{bold}#Unavailable talents#{normal}#", "#{bold}#사용 불가능한 기술#{normal}#", "_t")
+t("All talents you have that do not have enough resources, or satisfy other dependencies.", "사용하기에 원천력이 부족하거나, 또는 다른 조건을 만족하지 못했을 때 이곳에 표시됩니다.", "_t")
+t("#{bold}#Passive talents#{normal}#", "#{bold}#지속형 기술#{normal}#", "_t")
+t("All your passive talents, they are always active.", "당신의 모든 지속형 기술로, 항상 이 기술들의 효과를 보고있습니다 .", "_t")
 
 
 ------------------------------------------------
@@ -34698,6 +35556,7 @@ section "game/modules/tome/dialogs/debug/RandomObject.lua"
 t("unknown", "알 수 없음", "_t")
 t("None", "없음", "_t")
 t("Equipment", "장비", "_t")
+t("Object", "물품", "_t")
 t("Inventory", "소지품", "_t")
 
 

@@ -4573,7 +4573,26 @@ section "game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"
 
 t("shadow", "그림자", "entity subtype")
 t("undead", "언데드", "entity type")
+t("shadow of pain", "고통의 그림자", "entity name")
+t("A shadowy embodiment of pain.", "고통이 그림자로 실체화된 존재입니다.", "_t")
+t("shadow of hate", "증오의 그림자", "entity name")
+t("A shadowy embodiment of hate.", "증오가 그림자로 실체화된 존재입니다.", "_t")
+t("shadow of despair", "절망의 그림자", "entity name")
+t("A shadowy embodiment of despair.", "절망이 그림자로 실체화된 존재입니다.", "_t")
+t("shadow of remorse", "후회의 그림자", "entity name")
+t("A shadowy embodiment of remorse.", "후회가 그림자로 실체화된 존재입니다.", "_t")
+t("shadow of guilt", "죄책감의 그림자", "entity name")
+t("A shadowy embodiment of guilt.", "죄책감이 그림자로 실체화된 존재입니다.", "_t")
+t("shadow of anger", "분노의 그림자", "entity name")
+t("A shadowy embodiment of anger.", "분노가 그림자로 실체화된 존재입니다.", "_t")
+t([[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
+This warrior's once glowing armor now emits a sinister crimson light. As he marches towards you can see his eyes, they are empty.]], [[마지막으로 봤을 땐 빛으로 감싸여 있던 이 전사는, 당신이 다른 삶을 살았다면 존경했을 수도 있었겠지만 이젠 그에게선 오직 증오만이 보일 뿐입니다.
+한때 눈부신 빛을 냈던 갑옷은 이제 불길한 진홍색의 빛을 내뿜고 있습니다. 텅 빈 눈으로 당신에게 다가오고 있습니다.]], "_t")
 t("human", "인간", "entity subtype")
+t("Crimson Templar John", "진홍빛 기사 존", "entity name")
+t([[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
+This warrior's once glowing armor now emits a sinister crimson light. As he marches towards your foes you can see his eyes, they are empty.]], [[마지막으로 봤을 땐 빛으로 감싸여 있던 이 전사는, 당신이 다른 삶을 살았다면 존경했을 수도 있었겠지만 이젠 그에게선 오직 증오만이 보일 뿐입니다.
+한때 눈부신 빛을 냈던 갑옷은 이제 불길한 진홍색의 빛을 내뿜고 있습니다. 텅 빈 눈으로 당신에게 다가오고 있습니다.]], "_t")
 
 
 ------------------------------------------------
@@ -4644,11 +4663,13 @@ t("elf", "엘프", "entity subtype")
 t("Limmir the Jeweler", "보석 세공사 리미르", "entity name")
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("Melnela", "멜넬라", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gates-of-morning/objects.lua"
 
+t("Crimson Templar John", "진홍빛 기사 존", "_t")
 
 
 ------------------------------------------------
