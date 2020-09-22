@@ -1669,11 +1669,11 @@ This spell does not work on horrors.]], [[대상을 공포로 바꿔버립니다
 만약 대상이 주문 내성 판정에 실패할 경우, 대상의 몸이 %d 턴 동안 공포의 모습으로 변하게되고, 다른 모든 개체들이 대상을 적대하게 됩니다.
 대상 근처의 적들은 즉시 공격 목표를 대상으로 변경합니다.
 이 주문은 공포에게는 효과가 없습니다.]], "tformat")
-t("Call of Amakthel", "Amakthel의 부름", "talent name")
+t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t([[You attune your horrors to the dead god Amakthel, increasing your summoned horrors damage by %d%%.
 At talent level 3, your Decaying Devourers spell will summon 4 additional Devourers adjacent to random enemies nearby and your Bloated Horror will learn the Agony talent.
 At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn.
-The damage increase is based on your Spellpower.]], [[소환한 공포들을 죽은 신인 Amakthel의 힘을 빌어 강화합니다. 소환된 공포들의 피해량이 %d%% 증가합니다.
+The damage increase is based on your Spellpower.]], [[소환한 공포들을 죽은 신 아마크텔의 힘을 빌어 강화합니다. 소환된 공포들의 피해량이 %d%% 증가합니다.
 기술 레벨 3 일 때, 부패의 포식귀 주문이 근처의 무작위한 적 인근에 부패하는 포식귀를 4 체 더 소환합니다. 부풀어오른 공포는 격통을 사용하게됩니다.
 기술 레벨 5 일 때, 공포스러운 모습의 대상이 반경 10 칸 내의 모든 적을 매 턴 1 칸 끌어 당기게됩니다.
 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -2358,7 +2358,7 @@ t([[Allows to teleport to Kroshkkur.
 	당신은 그곳에서 금지된 비밀에 대해 배웠고, 따라서 그곳으로 가는 특수한 차원문을 여는 법을 익혔습니다.
 	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 무지한 자들이 보고있는 동안에는 사용이 불가능합니다.
 	마법 발동에는 시간이 약간 필요하며, (40 턴) 그 시간 동안 당신은 누군가의 시야 내에 들어가서는 안됩니다.]], "_t")
-t("Call of Amakthel", "Amakthel의 부름", "talent name")
+t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
 t("Pull all foes within radius 10 2 grids towards you.", "당신을 기준으로 10 칸 내의 모든 적을 2 칸 끌어옵니다.", "_t")
 t("Crumble", "무너짐", "talent name")
