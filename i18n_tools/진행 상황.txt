@@ -171,6 +171,13 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
+
+------------------------------ 이하 EoR data/zones ---------------------------------
+
+"game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua" Khelerd 완
+
+
+
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
 
 "game/modules/tome/data/chats/alchemist-derth.lua"
@@ -381,7 +388,7 @@
 "game/modules/tome/data/quests/west-portal.lua"
 "game/modules/tome/data/quests/wild-wild-east.lua" Khelerd 완
 
------------------------------- 이하 본편 data/texts ---------------------------------
+------------------------------ 이하 본편 data/texts (완역) ---------------------------------
 
 "game/modules/tome/data/texts/intro-archmage.lua"
 "game/modules/tome/data/texts/intro-arena.lua"
@@ -466,9 +473,16 @@
 "game/modules/tome/data/texts/unlock-psionic_mindslayer.lua"
 "game/modules/tome/data/texts/unlock-psionic_solipsist.lua"
 "game/modules/tome/data/texts/unlock-race_ogre.lua"
-"game/modules/tome/data/texts/unlock-rogue_marauder.lua" Khelerd 완
-
-
+"game/modules/tome/data/texts/unlock-rogue_marauder.lua"
+"game/modules/tome/data/texts/unlock-rogue_poisons.lua"
+"game/modules/tome/data/texts/unlock-rogue_skirmisher.lua"
+"game/modules/tome/data/texts/unlock-undead_ghoul.lua"
+"game/modules/tome/data/texts/unlock-undead_skeleton.lua"
+"game/modules/tome/data/texts/unlock-warrior_brawler.lua"
+"game/modules/tome/data/texts/unlock-wilder_oozemancer.lua"
+"game/modules/tome/data/texts/unlock-wilder_stone_warden.lua"
+"game/modules/tome/data/texts/unlock-wilder_summoner.lua
+"game/modules/tome/data/texts/unlock-wilder_wyrmic.lua"
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
 
 ------------------------------ 이하 본편 data/zones (완역) ---------------------------------
@@ -1331,7 +1345,9 @@ section "game/modules/tome/data/general/traps/complex.lua"
 section "game/modules/tome/data/general/traps/elemental.lua"
 section "game/modules/tome/data/general/traps/natural_forest.lua"
 section "game/modules/tome/data/general/traps/store.lua"
+section "game/modules/tome/data/general/traps/teleport.lua"
 section "game/modules/tome/data/general/traps/temporal.lua"
+section "game/modules/tome/data/general/traps/water.lua"
 
 
 
@@ -1380,6 +1396,20 @@ section "game/dlcs/tome-orcs/data/tinkers/mechanical.lua" Stéphanois
 section "game/dlcs/tome-orcs/data/tinkers/smith.lua" Stéphanois
 section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua" Stéphanois
 
+section "game/modules/tome/dialogs/GameOptions.lua" Stéphanois
+section "game/modules/tome/dialogs/LorePopup.lua" Stéphanois
+section "game/modules/tome/dialogs/PartySelect.lua"
+section "game/modules/tome/dialogs/PartySendItem.lua"
+section "game/modules/tome/dialogs/QuestPopup.lua"
+section "game/modules/tome/dialogs/SentientWeapon.lua"
+section "game/modules/tome/dialogs/ShowAchievements.lua"
+section "game/modules/tome/dialogs/ShowChatLog.lua"
+section "game/modules/tome/dialogs/ShowEquipInven.lua"
+section "game/modules/tome/dialogs/SwiftHands.lua"
+section "game/modules/tome/dialogs/SwiftHandsUse.lua"
+section "game/modules/tome/dialogs/TrapsSelect.lua"
+section "game/modules/tome/dialogs/UberTalent.lua"
+section "game/modules/tome/dialogs/UnlockDialog.lua"
 
 
 
