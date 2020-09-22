@@ -430,11 +430,16 @@ t("#FFD700#S. power#FFFFFF#: ", "#FFD700#주문력#FFFFFF#: ", "_t")
 t("#0080FF#S. save#FFFFFF#:  ", "#0080FF#주문 내성#FFFFFF#:  ", "_t")
 t("#FFD700#M. power#FFFFFF#: ", "#FFD700#정신력#FFFFFF#: ", "_t")
 t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#정신 내성#FFFFFF#:  ", "_t")
+t("#00FF80#Str/Dex/Con#FFFFFF#:  ", "#00FF80#힘/민첩/체격#FFFFFF#:  ", "_t")
+t("#00FF80#Mag/Wil/Cun#FFFFFF#:  ", "#00FF80#마법/의지/교활#FFFFFF#:  ", "_t")
+t("Cannibalize penalty: %d%%", "부품 교체 불이익: %d%%", "tformat")
 t("Resists: ", "저항: ", "_t")
 t("Hardiness/Armour: ", "방어 효율 / 방어력: ", "_t")
 t("Size: ", "몸집 크기: ", "_t")
 t("Critical Mult: ", "치명타 피해량 증가: ", "_t")
 t("Melee Retaliation: ", "근접 공격 보복: ", "_t")
+t("Passive Talents: ", "지속형 기술: ", "_t")
+t("Active Talents: ", "발동형 기술: ", "_t")
 
 
 ------------------------------------------------
