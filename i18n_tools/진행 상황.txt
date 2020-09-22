@@ -194,7 +194,18 @@
 "game/dlcs/tome-orcs/data/zones/internment-camp/npcs.lua"
 "game/dlcs/tome-orcs/data/zones/internment-camp/objects.lua"
 "game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua"
-"game/dlcs/tome-orcs/data/zones/kaltor-shop/grids.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/zones/kaltor-shop/grids.lua"
+"game/dlcs/tome-orcs/data/zones/kaltor-shop/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/kaltor-shop/objects.lua"
+"game/dlcs/tome-orcs/data/zones/kaltor-shop/zone.lua"
+"game/dlcs/tome-orcs/data/zones/krimbul/grids.lua"
+"game/dlcs/tome-orcs/data/zones/krimbul/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/krimbul/objects.lua"
+"game/dlcs/tome-orcs/data/zones/krimbul/zone.lua"
+"game/dlcs/tome-orcs/data/zones/lost-city/grids.lua"
+"game/dlcs/tome-orcs/data/zones/lost-city/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/lost-city/objects.lua"
+"game/dlcs/tome-orcs/data/zones/lost-city/zone.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
