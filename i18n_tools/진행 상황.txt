@@ -466,7 +466,11 @@
 "game/modules/tome/data/texts/unlock-psionic_mindslayer.lua"
 "game/modules/tome/data/texts/unlock-psionic_solipsist.lua"
 "game/modules/tome/data/texts/unlock-race_ogre.lua"
-"game/modules/tome/data/texts/unlock-rogue_marauder.lua" Khelerd 완
+"game/modules/tome/data/texts/unlock-rogue_marauder.lua"
+"game/modules/tome/data/texts/unlock-rogue_poisons.lua"
+"game/modules/tome/data/texts/unlock-rogue_skirmisher.lua"
+"game/modules/tome/data/texts/unlock-undead_ghoul.lua"
+"game/modules/tome/data/texts/unlock-undead_skeleton.lua" Khelerd 완
 
 
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
