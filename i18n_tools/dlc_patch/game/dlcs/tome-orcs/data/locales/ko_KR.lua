@@ -231,7 +231,7 @@ t("On the isolated Clork Peninsula lies the fifth pride: Kruk's Pride; unseen an
 t("Yet not all is great there either, the Sunwall offensive has set up an outpost blocking the way to the mainland.", "그렇다고 상황이 그렇게 희망적인 것은 아닙니다. 태양의 장벽의 공세를 펼쳤을 떄, 그들은 전초 기지를 만들어 대륙으로 향하는 길을 막아버렸습니다.", "_t")
 t("But the worst threat comes from the peninsula itself, the main inhabitants are not the orcs, but the Atmos Tribe.", "하지만 최악의 위협은 반도 그 안에 존재합니다. 반도의 주요 거주자들은 오크가 아닌 아트모스 부족입니다.", "_t")
 t("A civilization of steam giants whose mastery of steamtech makes them incredible foes.", "증기 공학에 숙달한 증기 거인들의 문명은, 그들의 위험성을 극도로 증대합니다.", "_t")
-t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "오크로 게임을 진행하여, 가치를 증명하세요! 거인들에 대적해 증기 공학 기술을 사용하고, 동대륙을 태양의 장벽 쓰래기들에게서 해방시키세요!", "_t")
+t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "오크로 게임을 진행하여, 가치를 증명하세요! 거인들에 대적해 증기 공학 기술을 사용하고, 동대륙을 태양의 장벽 쓰레기들에게서 해방시키세요!", "_t")
 t("Craft your own steamsaws, rocket boots, steam powered armours, and all kind of steamy technology!", "증기톱, 로켓 장화, 증기 작동 갑옷, 그밖의 모든 증기 공학 발명품들을 제작하세요!", "_t")
 t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "이것이 당신의 운명입니다! 가르쿨의 유산을 위해, 긍지의 영광을 위해!", "_t")
 
@@ -362,7 +362,13 @@ t("terrene", "극지", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/factions.lua"
 
+t("Kruk Pride", "크룩 긍지", "faction name")
+t("Free Whitehooves", "자유로운 하얀 발굽", "faction name")
 t("Whitehooves", "하얀 발굽", "faction name")
+t("Kar'Haïb Dominion", "카르'하이브 자치령", "faction name")
+t("Atmos Tribe", "아트모스 부족", "faction name")
+t("Kaltor's Shop", "칼토르의 가게", "faction name")
+t("Amakthel", "아마크텔", "faction name")
 
 
 ------------------------------------------------
@@ -414,6 +420,7 @@ section "game/dlcs/tome-orcs/data/general/events/herbs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/merchant-stall.lua"
 
+t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f 골드#LAST# 정도 가치의 돈", "tformat")
 
 
 ------------------------------------------------
@@ -492,6 +499,9 @@ t("way to the next level", "다음 구역으로의 길", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/alligator.lua"
 
+t("reptile", "파충류", "entity type")
+t("How cliche!", "정말 진부하네요!", "_t")
+t("How cliche! Also, terrifying!", "정말 진부하네요! 그리고 또, 무섭네요!", "_t")
 
 
 ------------------------------------------------
@@ -4598,38 +4608,73 @@ This warrior's once glowing armor now emits a sinister crimson light. As he marc
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/cave-hatred/objects.lua"
 
+t("schematic: Rogue's Gallery", "설계도: 도둑의 화랑", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/cave-hatred/zone.lua"
 
+t("Cave of Hatred", "증오의 동굴", "_t")
+t("#CRIMSON#You feel a great power nearby!", "#CRIMSON#근처에서 강력한 힘이 느껴진다!", "saySimple")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/dominion-port/grids.lua"
 
+t("stale sewer water", "더러운 하수도 물", "entity name")
 t("#Source# poisons #Target#!", "#Source1# #Target3# 중독시켰다!", "logCombat")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("exit to the worldmap", "세계 지도로의 출구", "entity name")
+t("way into the tower", "탑으로 가는 길", "entity name")
 t("sand", "모래", "entity subtype")
+t("way into the sewers", "하수도로 가는 길", "entity name")
+t("exit to the port", "항구로 나가는 출구", "entity name")
+t("structural weakness", "구조적 취약점", "entity name")
 t("floor", "바닥", "entity subtype")
+t("booty chest", "전리품 상자", "entity name")
+t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f 골드#LAST# 정도 가치의 돈", "tformat")
+t("Booty chest", "전리품 상자", "_t")
+t([[You plunder the chest and gain:
+]], [[이 상자를 약탈해 이런 것들을 얻었습니다:
+]], "_t")
+t("chest (plundered)", "상자 (약탈됨)", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/dominion-port/npcs.lua"
 
+t("Admiral Korbek", "제독 코르벡", "entity name")
+t("This old troll stands tall and proud in somewhat ornate clothing; it's clear he is an important figure. He holds in his right hand a wicked looking blade, and in his left hand what seems to be an antique handgun.", "화려하게 장식된 옷을 입고 당당하게 서 있는 늙은 트롤입니다. 그 모습을 보아하니 높으신 분이 틀림없습니다. 오른손에는 위험해 보이는 검을, 다른 쪽 손에는 낡은 권총처럼 보이는 것을 들고 있습니다.", "_t")
+t("reptile", "파충류", "entity type")
+t("mutant snake", "변이된 뱀", "entity name")
+t("This snake seems to... thrive... in the polluted water of the sewers.", "이 뱀은 하수도의 오염된 물이... 꽤나... 잘 맞았던 모양입니다.", "_t")
+t("Captured Yeti Behemoth", "사로잡힌 예티 베헤모스", "entity name")
+t("This yeti towers over even the trolls. Blind rage maddens its eyes.", "이 예티는 심지어 트롤들보다도 큽니다. 광기에 가까운 분노가 눈에서 엿보입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/dominion-port/objects.lua"
 
+t("a report", "보고서", "entity name")
+t("A report.", "보고서입니다.", "_t")
+t("muscle", "근육", "entity subtype")
+t("flesh", "살점", "_t")
+t("Yeti's Muscle Tissue (Behemoth)", "예티 근육 조직 (베헤모스)", "entity name")
+t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "강력한 예티에게서 뜯어낸 근조직입니다. 어딘가의 누군가, 또는 무엇인가는 분명히 이것에 관심을 보일 것입니다!", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/dominion-port/zone.lua"
 
+t("Dominion Port: Sewers 1", "자치령 항구: 하수도 1", "_t")
+t("Dominion Port: Sewers 2", "자치령 항구: 하수도 2", "_t")
+t("Dominion Port", "자치령 항구", "_t")
+t("Dominion Port: Tower", "자치령 항구: 탑", "_t")
+t("Dominion Port ???", "자치령 항구 ???", "_t")
+t("As you enter you see the door lock behind you. It's a trap!", "이곳으로 들어오자 뒤의 문이 잠겼습니다. 함정입니다!", "_t")
+t("Dominion's Port Tower", "자치령의 항구 탑", "_t")
 
 
 ------------------------------------------------
@@ -4712,6 +4757,9 @@ section "game/dlcs/tome-orcs/data/zones/gem/npcs.lua"
 section "game/dlcs/tome-orcs/data/zones/gem/objects.lua"
 
 t("lore", "이야기", "entity type")
+t("muscle", "근육", "entity subtype")
+t("flesh", "살점", "_t")
+t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "강력한 예티에게서 뜯어낸 근조직입니다. 어딘가의 누군가, 또는 무엇인가는 분명히 이것에 관심을 보일 것입니다!", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 
@@ -4771,6 +4819,7 @@ t("Pressure-enhanced Slashproof Combat Suit", "압력 강화식 방검 전투 �
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/kaltor-shop/zone.lua"
 
+t("Kaltor's Shop", "칼토르의 가게", "_t")
 
 
 ------------------------------------------------
@@ -4996,6 +5045,9 @@ t("elf", "엘프", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/objects.lua"
 
+t("muscle", "근육", "entity subtype")
+t("flesh", "살점", "_t")
+t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "강력한 예티에게서 뜯어낸 근조직입니다. 어딘가의 누군가, 또는 무엇인가는 분명히 이것에 관심을 보일 것입니다!", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 
@@ -5091,6 +5143,7 @@ t("Library", "도서관", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/town-kruk/zone.lua"
 
+t("Kruk Pride", "크룩 긍지", "_t")
 
 
 ------------------------------------------------
@@ -5154,6 +5207,9 @@ section "game/dlcs/tome-orcs/data/zones/yeti-caves/npcs.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/yeti-caves/objects.lua"
 
+t("muscle", "근육", "entity subtype")
+t("flesh", "살점", "_t")
+t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "강력한 예티에게서 뜯어낸 근조직입니다. 어딘가의 누군가, 또는 무엇인가는 분명히 이것에 관심을 보일 것입니다!", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 

@@ -1421,6 +1421,9 @@ section "game/modules/tome/dialogs/TrapsSelect.lua"
 section "game/modules/tome/dialogs/UberTalent.lua"
 section "game/modules/tome/dialogs/UnlockDialog.lua"
 
+로어------------------------------------------------------------
+section "game/modules/tome/data/lore/angolwen.lua"
+
 
 
 section "game/modules/tome/data/ingredients.lua" ukdong90 완

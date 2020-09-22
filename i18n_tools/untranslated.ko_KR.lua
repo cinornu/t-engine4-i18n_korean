@@ -3317,17 +3317,6 @@ t("Very well. We can increase one of your core stats by 4, which one?", "Very we
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/factions.lua"
--- 6 entries
-t("Kruk Pride", "Kruk Pride", "faction name")
-t("Free Whitehooves", "Free Whitehooves", "faction name")
-t("Kar'Haïb Dominion", "Kar'Haïb Dominion", "faction name")
-t("Atmos Tribe", "Atmos Tribe", "faction name")
-t("Kaltor's Shop", "Kaltor's Shop", "faction name")
-t("Amakthel", "Amakthel", "faction name")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/encounters/fareast.lua"
 -- 2 entries
 t("Pocket of Time", "Pocket of Time", "entity name")
@@ -3377,10 +3366,9 @@ t("#OLIVE_DRAB#You carefully pickup the stack of herbs.", "#OLIVE_DRAB#You caref
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/merchant-stall.lua"
--- 5 entries
+-- 4 entries
 t("market stall", "market stall", "_t")
 t("A market stall, it looks abandoned..", "A market stall, it looks abandoned..", "_t")
-t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f gold#LAST# worth of money", "tformat")
 t("Market Stall", "Market Stall", "_t")
 t([[You loot the stall and gain:
 ]], [[You loot the stall and gain:
@@ -3446,13 +3434,10 @@ t("snowy mountain", "snowy mountain", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/alligator.lua"
--- 8 entries
+-- 5 entries
 t("alligator", "alligator", "entity subtype")
-t("reptile", "reptile", "entity type")
 t("sewer alligator", "sewer alligator", "entity name")
-t("How cliche!", "How cliche!", "_t")
 t("giant alligator", "giant alligator", "entity name")
-t("How cliche! Also, terrifying!", "How cliche! Also, terrifying!", "_t")
 t("basaligator", "basaligator", "entity name")
 t("This thing looks like an alligator, but it has unnaturally large, grey eyes. It gazes at you with great intensity.", "This thing looks like an alligator, but it has unnaturally large, grey eyes. It gazes at you with great intensity.", "_t")
 
@@ -5739,71 +5724,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/cave-hatred/objects.lua"
--- 1 entries
-t("schematic: Rogue's Gallery", "schematic: Rogue's Gallery", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/cave-hatred/zone.lua"
--- 2 entries
-t("Cave of Hatred", "Cave of Hatred", "_t")
-t("#CRIMSON#You feel a great power nearby!", "#CRIMSON#You feel a great power nearby!", "saySimple")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/dominion-port/grids.lua"
--- 10 entries
-t("stale sewer water", "stale sewer water", "entity name")
-t("way into the tower", "way into the tower", "entity name")
-t("way into the sewers", "way into the sewers", "entity name")
-t("exit to the port", "exit to the port", "entity name")
-t("structural weakness", "structural weakness", "entity name")
-t("booty chest", "booty chest", "entity name")
-t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f gold#LAST# worth of money", "tformat")
-t("Booty chest", "Booty chest", "_t")
-t([[You plunder the chest and gain:
-]], [[You plunder the chest and gain:
-]], "_t")
-t("chest (plundered)", "chest (plundered)", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/dominion-port/npcs.lua"
--- 7 entries
-t("Admiral Korbek", "Admiral Korbek", "entity name")
-t("This old troll stands tall and proud in somewhat ornate clothing; it's clear he is an important figure. He holds in his right hand a wicked looking blade, and in his left hand what seems to be an antique handgun.", "This old troll stands tall and proud in somewhat ornate clothing; it's clear he is an important figure. He holds in his right hand a wicked looking blade, and in his left hand what seems to be an antique handgun.", "_t")
-t("reptile", "reptile", "entity type")
-t("mutant snake", "mutant snake", "entity name")
-t("This snake seems to... thrive... in the polluted water of the sewers.", "This snake seems to... thrive... in the polluted water of the sewers.", "_t")
-t("Captured Yeti Behemoth", "Captured Yeti Behemoth", "entity name")
-t("This yeti towers over even the trolls. Blind rage maddens its eyes.", "This yeti towers over even the trolls. Blind rage maddens its eyes.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/dominion-port/objects.lua"
--- 6 entries
-t("a report", "a report", "entity name")
-t("A report.", "A report.", "_t")
-t("muscle", "muscle", "entity subtype")
-t("flesh", "flesh", "_t")
-t("Yeti's Muscle Tissue (Behemoth)", "Yeti's Muscle Tissue (Behemoth)", "entity name")
-t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/dominion-port/zone.lua"
--- 7 entries
-t("Dominion Port: Sewers 1", "Dominion Port: Sewers 1", "_t")
-t("Dominion Port: Sewers 2", "Dominion Port: Sewers 2", "_t")
-t("Dominion Port", "Dominion Port", "_t")
-t("Dominion Port: Tower", "Dominion Port: Tower", "_t")
-t("Dominion Port ???", "Dominion Port ???", "_t")
-t("As you enter you see the door lock behind you. It's a trap!", "As you enter you see the door lock behind you. It's a trap!", "_t")
-t("Dominion's Port Tower", "Dominion's Port Tower", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gates-of-morning/grids.lua"
 -- 1 entries
 t("Way into the caves", "Way into the caves", "entity name")
@@ -5862,7 +5782,7 @@ t("Whoever tortured and tormented this yeti did an amazing job of pain and destr
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gem/objects.lua"
--- 10 entries
+-- 7 entries
 t("disk", "disk", "_t")
 t([[A strange black disk found in the G.E.M.
 You have no idea how to use it.]], [[A strange black disk found in the G.E.M.
@@ -5871,10 +5791,7 @@ t("erratic scribblings", "erratic scribblings", "entity name")
 t("A journal.", "A journal.", "_t")
 t("..", "..", "entity name")
 t("schematic: Steam Powered Armour", "schematic: Steam Powered Armour", "entity name")
-t("muscle", "muscle", "entity subtype")
-t("flesh", "flesh", "_t")
 t("Yeti's Muscle Tissue (Mech)", "Yeti's Muscle Tissue (Mech)", "entity name")
-t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
 
 
 ------------------------------------------------
@@ -5967,12 +5884,6 @@ t("When you take a hit of more than 10% of your total life the suit's motors act
 t("Brilliant Auto-loading Orc Expeller", "Brilliant Auto-loading Orc Expeller", "entity name")
 t("expensive gun", "expensive gun", "_t")
 t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/kaltor-shop/zone.lua"
--- 1 entries
-t("Kaltor's Shop", "Kaltor's Shop", "_t")
 
 
 ------------------------------------------------
@@ -6303,7 +6214,7 @@ t("You wonder how this yeti can have wandered so far from its native habitat in 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/objects.lua"
--- 10 entries
+-- 7 entries
 t("a journal", "a journal", "entity name")
 t("A journal.", "A journal.", "_t")
 t("Cap of the Undisturbed Mind", "Cap of the Undisturbed Mind", "entity name")
@@ -6312,10 +6223,7 @@ t([[To prevent losing your mental health when gazing at the horrors of the Void 
 With it you can spend your time stargazing without fear.]], [[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
 With it you can spend your time stargazing without fear.]], "_t")
 t("Allows you to resist the most terrible assaults on your mind.", "Allows you to resist the most terrible assaults on your mind.", "_t")
-t("muscle", "muscle", "entity subtype")
-t("flesh", "flesh", "_t")
 t("Yeti's Muscle Tissue (Astral)", "Yeti's Muscle Tissue (Astral)", "entity name")
-t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
 
 
 ------------------------------------------------
@@ -6409,12 +6317,6 @@ section "game/dlcs/tome-orcs/data/zones/town-kruk/traps.lua"
 -- 2 entries
 t("Forge", "Forge", "entity name")
 t("Tinkers Store", "Tinkers Store", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/town-kruk/zone.lua"
--- 1 entries
-t("Kruk Pride", "Kruk Pride", "_t")
 
 
 ------------------------------------------------
@@ -6513,11 +6415,8 @@ t("This yeti towers over its comrades. You see a cunning in its eyes unmatched b
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/yeti-caves/objects.lua"
--- 4 entries
-t("muscle", "muscle", "entity subtype")
-t("flesh", "flesh", "_t")
+-- 1 entries
 t("Yeti's Muscle Tissue (Patriarch)", "Yeti's Muscle Tissue (Patriarch)", "entity name")
-t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
 
 
 ------------------------------------------------
