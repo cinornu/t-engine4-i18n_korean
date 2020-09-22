@@ -185,7 +185,15 @@
 "game/dlcs/tome-orcs/data/zones/gates-of-morning/grids.lua"
 "game/dlcs/tome-orcs/data/zones/gates-of-morning/npcs.lua"
 "game/dlcs/tome-orcs/data/zones/gates-of-morning/objects.lua"
-"game/dlcs/tome-orcs/data/zones/gates-of-morning/zone.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/zones/gates-of-morning/zone.lua"
+"game/dlcs/tome-orcs/data/zones/gem/grids.lua"
+"game/dlcs/tome-orcs/data/zones/gem/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/gem/objects.lua"
+"game/dlcs/tome-orcs/data/zones/gem/zone.lua"
+"game/dlcs/tome-orcs/data/zones/internment-camp/grids.lua"
+"game/dlcs/tome-orcs/data/zones/internment-camp/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/internment-camp/objects.lua"
+"game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
