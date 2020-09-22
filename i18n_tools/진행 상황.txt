@@ -381,7 +381,7 @@
 "game/modules/tome/data/quests/west-portal.lua"
 "game/modules/tome/data/quests/wild-wild-east.lua" Khelerd 완
 
------------------------------- 이하 본편 data/texts ---------------------------------
+------------------------------ 이하 본편 data/texts (완역) ---------------------------------
 
 "game/modules/tome/data/texts/intro-archmage.lua"
 "game/modules/tome/data/texts/intro-arena.lua"
@@ -470,9 +470,12 @@
 "game/modules/tome/data/texts/unlock-rogue_poisons.lua"
 "game/modules/tome/data/texts/unlock-rogue_skirmisher.lua"
 "game/modules/tome/data/texts/unlock-undead_ghoul.lua"
-"game/modules/tome/data/texts/unlock-undead_skeleton.lua" Khelerd 완
-
-
+"game/modules/tome/data/texts/unlock-undead_skeleton.lua"
+"game/modules/tome/data/texts/unlock-warrior_brawler.lua"
+"game/modules/tome/data/texts/unlock-wilder_oozemancer.lua"
+"game/modules/tome/data/texts/unlock-wilder_stone_warden.lua"
+"game/modules/tome/data/texts/unlock-wilder_summoner.lua
+"game/modules/tome/data/texts/unlock-wilder_wyrmic.lua"
 "game/modules/tome/data/texts/unlock-yeek.lua" Khelerd 완
 
 ------------------------------ 이하 본편 data/zones (완역) ---------------------------------
