@@ -56,7 +56,7 @@ t("%s can not use %s because of Tortured Mind!", "%s can not use %s because of T
 
 ------------------------------------------------
 section "game/addons/tome-possessors/overload/mod/dialogs/AssumeForm.lua"
--- 23 entries
+-- 18 entries
 t("Possess Body", "Possess Body", "_t")
 t("#SLATE##{italic}#Choose which body to assume. Bodies can never be healed and once they reach 0 life they are permanently destroyed.", "#SLATE##{italic}#Choose which body to assume. Bodies can never be healed and once they reach 0 life they are permanently destroyed.", "_t")
 t("Create Minion", "Create Minion", "_t")
@@ -75,11 +75,6 @@ t("#AQUAMARINE#You are already using that body!", "#AQUAMARINE#You are already u
 t("%s%s (level %d) [Uses: %s]", "%s%s (level %d) [Uses: %s]", "tformat")
 t(" **ACTIVE**", " **ACTIVE**", "_t")
 t("Life: ", "Life: ", "_t")
-t("#00FF80#Str/Dex/Con#FFFFFF#:  ", "#00FF80#Str/Dex/Con#FFFFFF#:  ", "_t")
-t("#00FF80#Mag/Wil/Cun#FFFFFF#:  ", "#00FF80#Mag/Wil/Cun#FFFFFF#:  ", "_t")
-t("Cannibalize penalty: %d%%", "Cannibalize penalty: %d%%", "tformat")
-t("Passive Talents: ", "Passive Talents: ", "_t")
-t("Active Talents: ", "Active Talents: ", "_t")
 
 
 ------------------------------------------------
@@ -563,12 +558,6 @@ t("#LIGHT_GREEN#* You have destroyed the controlling crystal. The demons can no 
 t("#LIGHT_GREEN#* You have destroyed the Planar Controller. Flee now!#WHITE#", "#LIGHT_GREEN#* You have destroyed the Planar Controller. Flee now!#WHITE#", "_t")
 t("#SLATE#* You have to destroy the Planar Controller to escape.#WHITE#", "#SLATE#* You have to destroy the Planar Controller to escape.#WHITE#", "_t")
 t("#SLATE#* You have to destroy the controlling crystal before leaving or the demons will be able to track you down.#WHITE#", "#SLATE#* You have to destroy the controlling crystal before leaving or the demons will be able to track you down.#WHITE#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/black-magic.lua"
--- 1 entries
-t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "tformat")
 
 
 ------------------------------------------------
@@ -1161,40 +1150,7 @@ t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put the
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
--- 27 entries
-t([[[i]The endurance of an ogre is quite astonishing. While I had collapsed from exhaustion, the ogres had persevered and managed to stay awake until we made it to an abandoned settlement. In particular, while many of the ogres had managed to acquire some sleep along with me, the commander and strategist would manage to make the entire journey to Elvala before they would finally collapse from exhaustion. I honestly don't believe any other race could possibly stay awake, let alone active, for that long.[/i]
-
-I don't know how long I had spent within that hellish shoreline; perhaps days or even a week. It was good to see some semblance of greenery and living nature again as we proceeded to head into the area just south of the Nargol lands. I basked a little in the natural sunlight from the sky, before feeling the rumbling in my stomach, and the heavy weight of exhaustion from so much running. The ogres for their part did not seem the least bit tired or hungry, but after such a long travel I wondered if this was truly the case. Reaching for my pack I pulled out my provisions and laid them on the ground. Almost immediately I noticed the hungry stares from the ogres.
-
-Have you ever seen a hungry ogre? Within an instant they will eat any food in front of them. I barely had time to get out of the way before the entire group of them converged on the tasty morsels that had come into their view. When I looked back next, I noticed that all the provisions I had laid out were gone, and the ogres were now rummaging through my backpack to see if they could find more. After failing to find any they adopted some semblance of civility once more. The commander got up and came over to thank me for the food and asked that I excuse himself and the others for their over eagerness. That didn't do anything for my own hunger but I'm glad they enjoyed filling their stomachs I guess.
-
-From behind the strategist approached and clutched in his hand was one of the rations of food from my bag. Noticing it I quickly snatched at that food when he offered it and hungrily devoured it. Half of it had already been eaten, but considering how hungry I was I didn't really care. Both the commander and strategist seemed to chuckle at this. As they regained their composure though I could see the reality of the situation creep back into their faces. Once again I could see the dark blue glow appear over the eyes of commanders face as he looked in the direction of the southern shoreline. "Any sign of them?” the strategist asked. "No, but that doesn't mean we are in the clear,” the commander responded.
-
-I don't remember much after that. I do recall that the commander and strategist talked to each other for a bit, but apparently during their conversation I passed out. When I woke up I was next to a campfire on a couple mattresses sandwiched between a couple of the ogres. Above the fire a skewered wolf was slowly being turned, and seeing me wake up, the ogre turning the spit called out that I was awake. Looking around I noticed several ogres soundly sleeping on various makeshift beds and chairs ranging from batches of grass on the ground and tables propped next to walls. I could tell that we were now in one of the abandoned Shaloren settlements, which made we wonder as to just how long I was out and what had happened since.
-
-The commander and strategist then approached from behind one of the buildings. The strategist called out, "How are you doing thalore? Did you rest well?" I was a bit groggy from waking up but I replied back, "I'll rest better when we get to Elvala. What has happened?" To this I received a quick story, noting that we had arrived at the outskirts of Shaloren territory and that the ogres had carried me here after I had collapsed. Periodically from behind I could see the commander looking out in various directions with his vision rune, still on the lookout for any trouble. The strategist noted that what appeared to be scouts for the zealots had been following us, but hanging back far in the distance.
-
-"We can't linger here much longer.” the strategist commented. Looking at the strategist I asked, "When will we be heading out next?" Before the strategist even had a chance to reply the commander boomed from behind him, "Immediately after you have had something to eat." I could tell from the commanders facial expressions that he was suggesting the meat cooking above the fireplace. I was a bit disgusted by the thought of this so I noted that I would go acquire my own food. The commander looked at me when I said this, pausing for a moment, but with a sigh he told me "be quick" before turning away and proceeding to rouse the sleeping ogres from their slumbering.
-
-After a little while of searching through the nearby buildings I noticed a trapdoor with a rusty lock. Breaking it and descending a ladder I found a cellar, untouched since the time the original shaloren inhabitants had lived here. I found several bottles of wine as well as some old vegetables and dried fruit. I brushed away some cobwebs from a nearby chair and table to eat my fill, before carrying a bundle of vegetables and fruit back to the ogres campsite. The commander was already assembling the other ogres, and I could see that a couple of recently killed carcasses slung on their shoulders. Seeing me carrying food, the commander and strategist came over to help take the load and ask where I had found it.
-
-I relayed to them the location of the cellar which I had found and its contents. The commander, while interested in acquiring food, was quite disinterested in the fact that it was located in a shaloren cellar. Concerned with the time it would take to bring it up, he noted that an ogre wouldn't be able to easily fit through any of the doors in the settlement here, let alone a trap door to one of the cellars. The strategist though noted that I had fit through and insisted that we take the food to ensure that there was enough to eat for the remainder of our journey. The commander was hesitant at staying any longer but consented. After spending another hour I was able to bring up all the food before we continued on towards Elvala.   ]], [[[i]The endurance of an ogre is quite astonishing. While I had collapsed from exhaustion, the ogres had persevered and managed to stay awake until we made it to an abandoned settlement. In particular, while many of the ogres had managed to acquire some sleep along with me, the commander and strategist would manage to make the entire journey to Elvala before they would finally collapse from exhaustion. I honestly don't believe any other race could possibly stay awake, let alone active, for that long.[/i]
-
-I don't know how long I had spent within that hellish shoreline; perhaps days or even a week. It was good to see some semblance of greenery and living nature again as we proceeded to head into the area just south of the Nargol lands. I basked a little in the natural sunlight from the sky, before feeling the rumbling in my stomach, and the heavy weight of exhaustion from so much running. The ogres for their part did not seem the least bit tired or hungry, but after such a long travel I wondered if this was truly the case. Reaching for my pack I pulled out my provisions and laid them on the ground. Almost immediately I noticed the hungry stares from the ogres.
-
-Have you ever seen a hungry ogre? Within an instant they will eat any food in front of them. I barely had time to get out of the way before the entire group of them converged on the tasty morsels that had come into their view. When I looked back next, I noticed that all the provisions I had laid out were gone, and the ogres were now rummaging through my backpack to see if they could find more. After failing to find any they adopted some semblance of civility once more. The commander got up and came over to thank me for the food and asked that I excuse himself and the others for their over eagerness. That didn't do anything for my own hunger but I'm glad they enjoyed filling their stomachs I guess.
-
-From behind the strategist approached and clutched in his hand was one of the rations of food from my bag. Noticing it I quickly snatched at that food when he offered it and hungrily devoured it. Half of it had already been eaten, but considering how hungry I was I didn't really care. Both the commander and strategist seemed to chuckle at this. As they regained their composure though I could see the reality of the situation creep back into their faces. Once again I could see the dark blue glow appear over the eyes of commanders face as he looked in the direction of the southern shoreline. "Any sign of them?” the strategist asked. "No, but that doesn't mean we are in the clear,” the commander responded.
-
-I don't remember much after that. I do recall that the commander and strategist talked to each other for a bit, but apparently during their conversation I passed out. When I woke up I was next to a campfire on a couple mattresses sandwiched between a couple of the ogres. Above the fire a skewered wolf was slowly being turned, and seeing me wake up, the ogre turning the spit called out that I was awake. Looking around I noticed several ogres soundly sleeping on various makeshift beds and chairs ranging from batches of grass on the ground and tables propped next to walls. I could tell that we were now in one of the abandoned Shaloren settlements, which made we wonder as to just how long I was out and what had happened since.
-
-The commander and strategist then approached from behind one of the buildings. The strategist called out, "How are you doing thalore? Did you rest well?" I was a bit groggy from waking up but I replied back, "I'll rest better when we get to Elvala. What has happened?" To this I received a quick story, noting that we had arrived at the outskirts of Shaloren territory and that the ogres had carried me here after I had collapsed. Periodically from behind I could see the commander looking out in various directions with his vision rune, still on the lookout for any trouble. The strategist noted that what appeared to be scouts for the zealots had been following us, but hanging back far in the distance.
-
-"We can't linger here much longer.” the strategist commented. Looking at the strategist I asked, "When will we be heading out next?" Before the strategist even had a chance to reply the commander boomed from behind him, "Immediately after you have had something to eat." I could tell from the commanders facial expressions that he was suggesting the meat cooking above the fireplace. I was a bit disgusted by the thought of this so I noted that I would go acquire my own food. The commander looked at me when I said this, pausing for a moment, but with a sigh he told me "be quick" before turning away and proceeding to rouse the sleeping ogres from their slumbering.
-
-After a little while of searching through the nearby buildings I noticed a trapdoor with a rusty lock. Breaking it and descending a ladder I found a cellar, untouched since the time the original shaloren inhabitants had lived here. I found several bottles of wine as well as some old vegetables and dried fruit. I brushed away some cobwebs from a nearby chair and table to eat my fill, before carrying a bundle of vegetables and fruit back to the ogres campsite. The commander was already assembling the other ogres, and I could see that a couple of recently killed carcasses slung on their shoulders. Seeing me carrying food, the commander and strategist came over to help take the load and ask where I had found it.
-
-I relayed to them the location of the cellar which I had found and its contents. The commander, while interested in acquiring food, was quite disinterested in the fact that it was located in a shaloren cellar. Concerned with the time it would take to bring it up, he noted that an ogre wouldn't be able to easily fit through any of the doors in the settlement here, let alone a trap door to one of the cellars. The strategist though noted that I had fit through and insisted that we take the food to ensure that there was enough to eat for the remainder of our journey. The commander was hesitant at staying any longer but consented. After spending another hour I was able to bring up all the food before we continued on towards Elvala.   ]], "_t")
+-- 26 entries
 t("Escapades of Fay Willows [Book 4, Chapter 2] - Seeking Sanctuary", "Escapades of Fay Willows [Book 4, Chapter 2] - Seeking Sanctuary", "_t")
 t([[[i]I want to emphasize that I come from a society where there is little if any practiced magic, let alone any products of it such as runes. While there were thalore who could use magic, their knowledge was self-taught and done in secret; not to mention that thaloren users of magic were generally ostracized from the rest of the community, if not exiled from Thaloren lands. Even now I still don't know much about the inner workings of the Rune of Return that is grafted to me, though I am working to learn the basics of runes and the greater subject of the arcane forces behind them.[/i]
 
@@ -2141,18 +2097,6 @@ It has to be stopped or the Sanctuary will fall, digested in the bowels of giant
 t("#LIGHT_GREEN#* You have destroyed the Worm's neural spine, preventing the doom of the Sanctuary.#WHITE#", "#LIGHT_GREEN#* You have destroyed the Worm's neural spine, preventing the doom of the Sanctuary.#WHITE#", "_t")
 t("#LIGHT_RED#* You have failed to destroy the Worm in time, the Sanctuary has been destroyed.#WHITE#", "#LIGHT_RED#* You have failed to destroy the Worm in time, the Sanctuary has been destroyed.#WHITE#", "_t")
 t("#SLATE#* You have to destroy the Worm's neural spine.#WHITE#", "#SLATE#* You have to destroy the Worm's neural spine.#WHITE#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/talents/demented/slow-death.lua"
--- 1 entries
-t([[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole.
-		While you digest it you gain %d insanity per turn.
-		The digestion lasts for 50 turns for an elite and 25 turns for others.
-		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], [[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole.
-		While you digest it you gain %d insanity per turn.
-		The digestion lasts for 50 turns for an elite and 25 turns for others.
-		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], "tformat")
 
 
 ------------------------------------------------
@@ -5795,30 +5739,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"
--- 15 entries
-t("shadow of pain", "shadow of pain", "entity name")
-t("A shadowy embodiment of pain.", "A shadowy embodiment of pain.", "_t")
-t("shadow of hate", "shadow of hate", "entity name")
-t("A shadowy embodiment of hate.", "A shadowy embodiment of hate.", "_t")
-t("shadow of despair", "shadow of despair", "entity name")
-t("A shadowy embodiment of despair.", "A shadowy embodiment of despair.", "_t")
-t("shadow of remorse", "shadow of remorse", "entity name")
-t("A shadowy embodiment of remorse.", "A shadowy embodiment of remorse.", "_t")
-t("shadow of guilt", "shadow of guilt", "entity name")
-t("A shadowy embodiment of guilt.", "A shadowy embodiment of guilt.", "_t")
-t("shadow of anger", "shadow of anger", "entity name")
-t("A shadowy embodiment of anger.", "A shadowy embodiment of anger.", "_t")
-t([[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
-This warrior's once glowing armor now emits a sinister crimson light. As he marches towards you can see his eyes, they are empty.]], [[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
-This warrior's once glowing armor now emits a sinister crimson light. As he marches towards you can see his eyes, they are empty.]], "_t")
-t("Crimson Templar John", "Crimson Templar John", "entity name")
-t([[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
-This warrior's once glowing armor now emits a sinister crimson light. As he marches towards your foes you can see his eyes, they are empty.]], [[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
-This warrior's once glowing armor now emits a sinister crimson light. As he marches towards your foes you can see his eyes, they are empty.]], "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/cave-hatred/objects.lua"
 -- 1 entries
 t("schematic: Rogue's Gallery", "schematic: Rogue's Gallery", "entity name")
@@ -5891,7 +5811,7 @@ t("Way into the caves", "Way into the caves", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gates-of-morning/npcs.lua"
--- 11 entries
+-- 10 entries
 t("#LIGHT_RED#%s concentrates and casts a powerful shield!", "#LIGHT_RED#%s concentrates and casts a powerful shield!", "_t")
 t("#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "saySimple")
 t("halfling pyremaster", "halfling pyremaster", "entity name")
@@ -5902,12 +5822,11 @@ t("sun orb", "sun orb", "entity name")
 t("A small orb infused with the power of the Sun.", "A small orb infused with the power of the Sun.", "_t")
 t("moon orb", "moon orb", "entity name")
 t("A small orb infused with the power of the Moons.", "A small orb infused with the power of the Moons.", "_t")
-t("Melnela", "Melnela", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gates-of-morning/objects.lua"
--- 7 entries
+-- 6 entries
 t("a journal", "a journal", "entity name")
 t("A journal.", "A journal.", "_t")
 t("Ring of Lost Love", "Ring of Lost Love", "entity name")
@@ -5916,7 +5835,6 @@ t([[This crimson ring has a palpable bittersweet feel to it.
 Inside it is engraved the phrase #{italic}#"To Aeryn, my love, my life. Yours forever. John"#{normal}#]], [[This crimson ring has a palpable bittersweet feel to it.
 Inside it is engraved the phrase #{italic}#"To Aeryn, my love, my life. Yours forever. John"#{normal}#]], "_t")
 t("You feel something is #{bold}#very wrong#{normal}# with this ring.", "You feel something is #{bold}#very wrong#{normal}# with this ring.", "_t")
-t("Crimson Templar John", "Crimson Templar John", "_t")
 
 
 ------------------------------------------------
@@ -7226,10 +7144,9 @@ t("Must be between %i and %i characters.", "Must be between %i and %i characters
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowAchievements.lua"
--- 3 entries
+-- 2 entries
 t("", "", "_t")
 t("???", "???", "_t")
-t("-- Unknown --", "-- Unknown --", "_t")
 
 
 ------------------------------------------------
@@ -8041,8 +7958,7 @@ t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "You collect a
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/PartyLore.lua"
--- 3 entries
-t("Lore found: #0080FF#%s", "Lore found: #0080FF#%s", "logPlayer")
+-- 2 entries
 t("You can read all your collected lore in the game menu, by pressing Escape.", "You can read all your collected lore in the game menu, by pressing Escape.", "logPlayer")
 t("learnt lore", "learnt lore", "_t")
 
@@ -8158,7 +8074,7 @@ t("Rank: %s", "Rank: %s", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/uiset/Minimalist.lua"
--- 76 entries
+-- 69 entries
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
@@ -8168,7 +8084,6 @@ t("Resources", "Resources", "_t")
 t("Minimap", "Minimap", "_t")
 t("Current Effects", "Current Effects", "_t")
 t("Party Members", "Party Members", "_t")
-t("Game Log", "Game Log", "_t")
 t("Online Chat Log", "Online Chat Log", "_t")
 t("Hotkeys", "Hotkeys", "_t")
 t("Game Actions", "Game Actions", "_t")
@@ -8263,13 +8178,7 @@ t("Recurring Donator", "Recurring Donator", "_t")
 t("Playing: ", "Playing: ", "_t")
 t("Clicking will open ", "Clicking will open ", "_t")
 t("Show chat user", "Show chat user", "_t")
-t("Whisper", "Whisper", "_t")
-t("Ignore", "Ignore", "_t")
-t("Ignore user", "Ignore user", "_t")
-t("Really ignore all messages from: %s", "Really ignore all messages from: %s", "tformat")
 t("Report user for bad behavior", "Report user for bad behavior", "_t")
-t("Reason", "Reason", "_t")
-t("Reason to report: %s", "Reason to report: %s", "tformat")
 t("#VIOLET#", "#VIOLET#", "log")
 t("Really remove %s from your friends?", "Really remove %s from your friends?", "tformat")
 t("Remove Friend", "Remove Friend", "_t")
@@ -8361,12 +8270,6 @@ t("...", "...", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/chats/magic-store.lua"
--- 1 entries
-t("Recharge?", "Recharge?", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/chats/orc-breeding-pits.lua"
 -- 6 entries
 t([[#LIGHT_GREEN#*A ray of light illuminates the gleam of steal amidst the grass. Investigating, you find a lone sun paladin lying stricken on the ground. Her wounds are minor, but her pallid features bely a poison that is taking its final toll. She whispers to you.*#WHITE#
@@ -8454,133 +8357,22 @@ t("...", "...", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/damage_types.lua"
--- 15 entries
-t("%s resists the darkness!", "%s resists the darkness!", "logSeen")
+-- 3 entries
 t("%s<terror chance>#LAST#", "%s<terror chance>#LAST#", "tformat")
 t("%s<blinding powder>#LAST#", "%s<blinding powder>#LAST#", "tformat")
 t("%s<smoke>#LAST#", "%s<smoke>#LAST#", "tformat")
-t("fetid", "fetid", "_t")
-t("putrescent liquefaction", "putrescent liquefaction", "_t")
-t("boneyard", "boneyard", "_t")
-t("desolate waste", "desolate waste", "_t")
-t("thaumic energy", "thaumic energy", "_t")
-t("annihilated", "annihilated", "_t")
-t("disintegrated", "disintegrated", "_t")
-t("utterly vaporized", "utterly vaporized", "_t")
-t("black-hole gravity", "black-hole gravity", "_t")
-t("%s resists the gravity!", "%s resists the gravity!", "logSeen")
-t("solar blood", "solar blood", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/bone-giant.lua"
--- 1 entries
-t("runed bone giant", "runed bone giant", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/horror.lua"
--- 1 entries
-t("devourer", "devourer", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/lich.lua"
--- 1 entries
-t("An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/minor-demon.lua"
--- 1 entries
-t("A small demon, lobbing spells at you.", "A small demon, lobbing spells at you.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/npcs/orc-gorbat.lua"
--- 1 entries
-t("orc master wyrmic", "orc master wyrmic", "entity name")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/boss-artifacts-maj-eyal.lua"
--- 2 entries
-t("a suit of pitted and pocked plate-mail", "a suit of pitted and pocked plate-mail", "_t")
+-- 1 entries
 t("", "", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/egos/belt.lua"
--- 1 entries
-t(" of unlife", " of unlife", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/egos/shield.lua"
--- 1 entries
-t("swashbuckler", "swashbuckler", "entity keyword")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/gem.lua"
 -- 1 entries
 t("..", "..", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/lore/fun.lua"
--- 16 entries
-t("trollish poem", "trollish poem", "entity name")
-t("A poem written by a... troll?", "A poem written by a... troll?", "_t")
-t("necromancer poem", "necromancer poem", "entity name")
-t("A poem written by a... Necromancer?", "A poem written by a... Necromancer?", "_t")
-t("rogues do it from behind", "rogues do it from behind", "entity name")
-t("A poem written for a rogue?", "A poem written for a rogue?", "_t")
-t("how to become a necromancer, part %d", "how to become a necromancer, part %d", "tformat")
-t("How to become a powerful Necromancer!", "How to become a powerful Necromancer!", "_t")
-t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "entity name")
-t("An undead hunter's guide, by Aslabor Borys.", "An undead hunter's guide, by Aslabor Borys.", "_t")
-t("Rolf", "Rolf", "_t")
-t("Weisman", "Weisman", "_t")
-t("letter to %s (%d)", "letter to %s (%d)", "tformat")
-t("A part of the correspondence between two adventurers.", "A part of the correspondence between two adventurers.", "_t")
-t("of halfling feet", "of halfling feet", "entity name")
-t("Notes about... Halfling feet??", "Notes about... Halfling feet??", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/lore/misc.lua"
--- 12 entries
-t("The story of my salvation", "The story of my salvation", "entity name")
-t("An old tale about the fear of magic.", "An old tale about the fear of magic.", "_t")
-t("On Adventuring", "On Adventuring", "entity name")
-t("Fragments of a fabled traveler.", "Fragments of a fabled traveler.", "_t")
-t("memories of Artelia Firstborn", "memories of Artelia Firstborn", "entity name")
-t("The memories of the first elf ever to awaken.", "The memories of the first elf ever to awaken.", "_t")
-t("human myth of creation", "human myth of creation", "entity name")
-t("Myth of creation of the humans.", "Myth of creation of the humans.", "_t")
-t("a logical analysis of creation, by philosopher Smythen", "a logical analysis of creation, by philosopher Smythen", "entity name")
-t("Myth of creation of the halflings.", "Myth of creation of the halflings.", "_t")
-t("Tale of the Moonsisters", "Tale of the Moonsisters", "entity name")
-t("The creation of Eyal's moons.", "The creation of Eyal's moons.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/lore/spellhunt.lua"
--- 6 entries
-t("memories of archmage Varil", "memories of archmage Varil", "entity name")
-t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Spellhunter's Guide part 1: How to Detect a Spellweaver", "entity name")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Spellhunter's Guide part 2: How to Battle a Magic-User", "entity name")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Spellhunter's Guide part 3: How to Kill a Magic-User", "entity name")
-t("The definitive guide to hunting magic users.", "The definitive guide to hunting magic users.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/lore/sunwall.lua"
--- 2 entries
-t("Loremaster Verutir's note", "Loremaster Verutir's note", "entity name")
-t("A paper scrap containing some lore.", "A paper scrap containing some lore.", "_t")
 
 
 ------------------------------------------------
@@ -8891,55 +8683,6 @@ t("%s: %s", "%s: %s", "tformat")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/general/traps/teleport.lua"
--- 6 entries
-t("teleport trap", "teleport trap", "entity name")
-t("Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "Teleports the victim away.  How does anyone get close enough to disarm this trap...?", "_t")
-t("@Target@ shimmers briefly.", "@Target@ shimmers briefly.", "_t")
-t("shimmering floor switch", "shimmering floor switch", "_t")
-t("%s is teleported away!", "%s is teleported away!", "logSeen")
-t("%s resists being teleported!", "%s resists being teleported!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/keybinds/tome.lua"
--- 33 entries
-t("Show character sheet (player)", "Show character sheet (player)", "_t")
-t("Show character sheet (actor @ cursor)", "Show character sheet (actor @ cursor)", "_t")
-t("Select controlled character", "Select controlled character", "_t")
-t("Switch control to character 1", "Switch control to character 1", "_t")
-t("Switch control to character 2", "Switch control to character 2", "_t")
-t("Switch control to character 3", "Switch control to character 3", "_t")
-t("Switch control to character 4", "Switch control to character 4", "_t")
-t("Switch control to character 5", "Switch control to character 5", "_t")
-t("Switch control to character 6", "Switch control to character 6", "_t")
-t("Switch control to character 7", "Switch control to character 7", "_t")
-t("Switch control to character 8", "Switch control to character 8", "_t")
-t("Give order to character 1", "Give order to character 1", "_t")
-t("Give order to character 2", "Give order to character 2", "_t")
-t("Give order to character 3", "Give order to character 3", "_t")
-t("Give order to character 4", "Give order to character 4", "_t")
-t("Give order to character 5", "Give order to character 5", "_t")
-t("Give order to character 6", "Give order to character 6", "_t")
-t("Give order to character 7", "Give order to character 7", "_t")
-t("Give order to character 8", "Give order to character 8", "_t")
-t("Toggle movement mode", "Toggle movement mode", "_t")
-t("Attack left", "Attack left", "_t")
-t("Attack right", "Attack right", "_t")
-t("Attack up", "Attack up", "_t")
-t("Attack down", "Attack down", "_t")
-t("Attack diagonally left and up", "Attack diagonally left and up", "_t")
-t("Attack diagonally right and up", "Attack diagonally right and up", "_t")
-t("Attack diagonally left and down", "Attack diagonally left and down", "_t")
-t("Attack diagonally right and down", "Attack diagonally right and down", "_t")
-t("Toggle UI display", "Toggle UI display", "_t")
-t("Locks tooltip in place", "Locks tooltip in place", "_t")
-t("Locks tooltip in place while comparing items", "Locks tooltip in place while comparing items", "_t")
-t("Toggle automatic talent usage", "Toggle automatic talent usage", "_t")
-t("Toggle automatic accept target option", "Toggle automatic accept target option", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/lore/age-allure.lua"
 -- 14 entries
 t([[#{italic}#To: Research Director Hompalan - #{bold}#TOP PRIORITY#{normal}#
@@ -9199,53 +8942,8 @@ But we won't age sleeping in these ruins#{normal}#
 
 
 ------------------------------------------------
-section "game/modules/tome/data/lore/age-pyre.lua"
--- 3 entries
-t("age of pyre", "age of pyre", "newLore category")
-t("Atamathon, the giant golem", "Atamathon, the giant golem", "_t")
-t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
-Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. One of its eyes seems to be missing. At over 40 feet high it towers above you.
-Someone foolish has tried to reconstruct it, but it seems like it misses an eye to be completed.]], [[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
-Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. One of its eyes seems to be missing. At over 40 feet high it towers above you.
-Someone foolish has tried to reconstruct it, but it seems like it misses an eye to be completed.]], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/lore/angolwen.lua"
--- 7 entries
-t([[It were some years now since twain of our brightest students left Angolwen, sullied by our veil of secrecy and our silent duty. It still lies heavy on mine heart to think of what they could accomplish within our private circle. I but hope that one day they whilst return, and they whilst understand the reasons behind our solemn mission.
-
-But I must think of the future, for too many are the regrets of mine long past, and to hold their burdens overlong is to be crushed. I must think of ye, young acolytes, who start now in the learning of our lores. I must explain to ye our mission, our purpose, our justification, so that ye understand all what we do and why. In secrecy we operate, trying to heal the harms of our past, trying to build a better future. For our penance is great, and never should it be forgotten in all Eyal the terrors of the Spellblaze.
-
-I should know well, for I were there. But a young mage was I, though not without promise. I knew of the Shaloren mages' experiments on the Sher'Tul ruins. Aye, and I were jealous of the powers they sought to unlock. No fear or caution had I in my arrogant youth, thinking only of opportunities and glory. Heed well that thought...
-
-Two thousand six hundred cycles of the Sun have passed above my head, and yet still I cannot shake the memory of the day the sky turned to flame and the earth was torn to shreds. I felt the magic in the air, the sudden unleashing of arcane energies beyond anyone's control. I knew in an instant that the Shaloren had unlocked the power of the farportals, but the forces were far beyond their expectations. I saw within seconds the streams of blazing energy tear through the sky above our heads, and then rain down in crimson plumes of destruction. It was all I could to put a shield about myself, and the burns I suffered were terrible, such that scars remain to this day. No one about me survived. Still I remember mine sister Neira's shortened scream as she stood beside me, her skin flayed off by the terrible energies, her body consumed by a pyre of flames, her ashes strewn by a great tumult in the earth. Twenty-six centuries have passed and still I do wake to the sound of that scream...
-
-Many were the loved ones I lost that day, and I were not alone. Countless perished across the lands, and countless more died in the chaos which followed. Then the Spellhunt began, and the people rose against the arrogance of the mages and began slaughtering us mercilessly. After the Spellblaze our abilities were in disarray, our mana channels sundered. We were nigh defenceless, and it took great effort to gather many of us together and found the hidden city of Angolwen. A great many mages were killed in the riots that followed, aye and many innocents too, for distrust was rife and the thirst for blood all-consuming. But alas, the suffering did not end there.
-
-The effects of the Spellblaze can still be seen today, in tortured lands and blighted earths. In the Age of Dusk it were much worse. New diseases arose, plagues swept across all cities, civilisations brought to nothing. All our races came close to extinction, and an age of darkness came upon all learning and enlightenment. Feudal lords and bandit gangs fought amongst what little healthy lands were left, whilst the blights continued to ravage what free people remained. That was when I did begin our secret missions to repair the world, to make right the errors of our actions. In silent operation we visited the broken lands and used our powers to heal, not to destroy. Many centuries it took, but at last the aftereffects of the Spellblaze began to diminish, and the people began to rebuild.
-
-Ah, how much hope was in me then. But foolish were I to think it could be so easy. The wounds of Eyal struck deeper than mere diseases on the surface. The poison went down much further, and the cracks tore through the very roots of our world. One dark and stormy day a great cataclysm swept forth from the east, and the land rose 500 leagues into the sky. We could do naught but gasp in horror as whole cities, whole races were swept into the sea. The continents were sheared apart and all of Eyal forever changed. It was a sight to humble even the greatest archmage.
-
-Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
-
-Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], [[It were some years now since twain of our brightest students left Angolwen, sullied by our veil of secrecy and our silent duty. It still lies heavy on mine heart to think of what they could accomplish within our private circle. I but hope that one day they whilst return, and they whilst understand the reasons behind our solemn mission.
-
-But I must think of the future, for too many are the regrets of mine long past, and to hold their burdens overlong is to be crushed. I must think of ye, young acolytes, who start now in the learning of our lores. I must explain to ye our mission, our purpose, our justification, so that ye understand all what we do and why. In secrecy we operate, trying to heal the harms of our past, trying to build a better future. For our penance is great, and never should it be forgotten in all Eyal the terrors of the Spellblaze.
-
-I should know well, for I were there. But a young mage was I, though not without promise. I knew of the Shaloren mages' experiments on the Sher'Tul ruins. Aye, and I were jealous of the powers they sought to unlock. No fear or caution had I in my arrogant youth, thinking only of opportunities and glory. Heed well that thought...
-
-Two thousand six hundred cycles of the Sun have passed above my head, and yet still I cannot shake the memory of the day the sky turned to flame and the earth was torn to shreds. I felt the magic in the air, the sudden unleashing of arcane energies beyond anyone's control. I knew in an instant that the Shaloren had unlocked the power of the farportals, but the forces were far beyond their expectations. I saw within seconds the streams of blazing energy tear through the sky above our heads, and then rain down in crimson plumes of destruction. It was all I could to put a shield about myself, and the burns I suffered were terrible, such that scars remain to this day. No one about me survived. Still I remember mine sister Neira's shortened scream as she stood beside me, her skin flayed off by the terrible energies, her body consumed by a pyre of flames, her ashes strewn by a great tumult in the earth. Twenty-six centuries have passed and still I do wake to the sound of that scream...
-
-Many were the loved ones I lost that day, and I were not alone. Countless perished across the lands, and countless more died in the chaos which followed. Then the Spellhunt began, and the people rose against the arrogance of the mages and began slaughtering us mercilessly. After the Spellblaze our abilities were in disarray, our mana channels sundered. We were nigh defenceless, and it took great effort to gather many of us together and found the hidden city of Angolwen. A great many mages were killed in the riots that followed, aye and many innocents too, for distrust was rife and the thirst for blood all-consuming. But alas, the suffering did not end there.
-
-The effects of the Spellblaze can still be seen today, in tortured lands and blighted earths. In the Age of Dusk it were much worse. New diseases arose, plagues swept across all cities, civilisations brought to nothing. All our races came close to extinction, and an age of darkness came upon all learning and enlightenment. Feudal lords and bandit gangs fought amongst what little healthy lands were left, whilst the blights continued to ravage what free people remained. That was when I did begin our secret missions to repair the world, to make right the errors of our actions. In silent operation we visited the broken lands and used our powers to heal, not to destroy. Many centuries it took, but at last the aftereffects of the Spellblaze began to diminish, and the people began to rebuild.
-
-Ah, how much hope was in me then. But foolish were I to think it could be so easy. The wounds of Eyal struck deeper than mere diseases on the surface. The poison went down much further, and the cracks tore through the very roots of our world. One dark and stormy day a great cataclysm swept forth from the east, and the land rose 500 leagues into the sky. We could do naught but gasp in horror as whole cities, whole races were swept into the sea. The continents were sheared apart and all of Eyal forever changed. It was a sight to humble even the greatest archmage.
-
-Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
-
-Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], "_t")
+-- 6 entries
 t([[#{bold}#"What is Magic?"
 #{italic}#A study by Archmage Tazimar Tarelion#{normal}#
 
@@ -10595,8 +10293,7 @@ As they notice you one calls out 'Intruder! Protect the seed of Kryl-Feijan!']],
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/fun.lua"
--- 17 entries
-t("trollish poem", "trollish poem", "_t")
+-- 14 entries
 t([[#{bold}#"Me Likes to Club"
 
 #{italic}#Club club club,
@@ -10658,7 +10355,6 @@ Club club club,
 Grab some grub!
 When hunger hits,
 Me likes to club!#{normal}#]], "_t")
-t("necromancer poem", "necromancer poem", "_t")
 t([[#{bold}#"The Necromancer's Canticle"
 
 #{italic}#Saved from coffin, casket, urn
@@ -10788,7 +10484,6 @@ The greatest enemy of the necromancer is other necromancers. Well, apart from th
 #{italic}#Zigur#{normal}#: The enemy of our enemy is not our friend in this case. What passes for "normal" magic is enough to send the cult residing here into a frothing, psychotic frenzy - the presence of a necromancer would be enough to instigate a second Age of Pyre!
 
 No further aid awaits you, for we do not tolerate the dependent. All that remains is for you to prove yourself worthy of practising this glorious art...]], "_t")
-t("of halfling feet", "of halfling feet", "_t")
 t([[Some men have said that the feet of halflings can nay be harmed, not by fire, blade nor magic. And they do say that this is a truly astounding thing. And some men consider the foot of a halfling to be an item of great luck and protection, and many have one hung above their door or mantle. Though these days 'tis frowned upon to go hunt for one, so 'tis considered a prized heirloom to be passed from father to son.
 
 But women do look upon men and declare them fools. "For how," say they, "Can the foot of a halfling be a lucky thing, when with their large uncomely feet they are not able to wear shoes and footwear of elegant crafts and beauteous materials? And especially 'tis a great misfortune unto them, as with their short stature they could really do with a decent pair of heels..."
@@ -11709,7 +11404,7 @@ I'm not cut out for this paladin work. Here I am, alone in a horrible dark dunge
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/last-hope.lua"
--- 66 entries
+-- 65 entries
 t([[#{italic}#68th of Dusk, Year of Pyre 710#{normal}#
 The orcish tribe have routed us. We have retreated to some Mardrop ruins and secured ourselves amongst the fortifications. I have just shy of 2,000 men under my banner, some of the best warriors I have ever served with, but we are simply no match for the numbers we face. Counting them is difficult, but I would put a minimum estimate at 10,000. The tribe has camped a league away - they seem to be waiting for reinforcements. This does not bode well...
 
@@ -11930,7 +11625,6 @@ Here, sadly, definitive facts on Southspar and Drake's fate vanish. Some say tha
 I leave you with a copy of one of the last pieces of Southspar's history, a partially destroyed scrap of parchment, supposedly written moments before the Cataclysm and Southspar's destruction, falling beneath the waves along with the rest of Tar'Eyal.
 
 "Time grows pressi... ... ome in the boat... ... found. The binding w... a success. Now, to the sea, to l... ... ew, and Dreadfe... ... oble king. Rot in my new du... as you will!"]], "_t")
-t("Declaration of the Unification of the Allied Kingdoms", "Declaration of the Unification of the Allied Kingdoms", "_t")
 t([[Herewith is set the constitutional declaration of the Allied Kingdoms under the rule of King Toknor and Queen Mirvenia. Any who defy or seek to undermine the laws here set shall suffer torment and death.
 
 As of the 1st of Allure, Age of Pyre year 714, henceforth to be known as the Age of Ascendancy year 1, all human and halfling kingdoms shall be united under the banner of the Allied Kingdoms. This shall include all towns, villages, serfdoms and farmsteads with over 50% human or halfling populace in the whole expanse of Maj'Eyal.
@@ -12534,7 +12228,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 88 entries
+-- 83 entries
 t("tract of destruction", "tract of destruction", "_t")
 t("tract of anarchy", "tract of anarchy", "_t")
 t("tract of acceptance", "tract of acceptance", "_t")
@@ -12546,8 +12240,6 @@ t("letter to Rolf (2)", "letter to Rolf (2)", "_t")
 t("letter to Weisman (2)", "letter to Weisman (2)", "_t")
 t("letter to Weisman (3)", "letter to Weisman (3)", "_t")
 t("adventures", "adventures", "newLore category")
-t("memories of Artelia Firstborn", "memories of Artelia Firstborn", "_t")
-t("human myth of creation", "human myth of creation", "_t")
 t([[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
 And Gerlyk walked Eyal with his three brothers.
 But one day Gerlyk walked alone and realised he was alone, and he desired company.
@@ -12576,7 +12268,6 @@ And Gerlyk was sad, and looked at Human and said, "I am sorry, but this is not a
 And Gerlyk walked into the Darkness.
 But Human did not cry, for the coal in his heart burned hot, and he knew he was not truly alone.]], "_t")
 t("myths of creation", "myths of creation", "newLore category")
-t("a logical analysis of creation, by philosopher Smythen", "a logical analysis of creation, by philosopher Smythen", "_t")
 t([[Many are the tales of how our world was made, from the absurd to the romantic to the horrific. But they are all mere myths, with no more than seeds of truth to even the most reliable. The history of our race goes back far, but it is tantalisingly scant in details from before we met the other races. Indeed, it is only through our battles with the others that we halflings have any ancient records at all.
 
 The elves one would suspect of having the greatest knowledge of elder times, but they are aloof and silent. One must judge from this that either they do not know, or that the truth ashames them. The latter would certainly not surprise me.
@@ -12610,7 +12301,6 @@ Now that this has been clearly analysed in logical terms, one must consider the 
 However there remains the matter of the Sher'Tul. Clearly these were of greater power than us, and yet they disappeared. One must presume that our god made this race before us, but was somehow unhappy with them, and so removed them and made us instead. We are not as powerful as the Sher'Tul - not yet at least - but we have our own gifts that evidently give us a greater place in our creator's heart. This would explain why we were the first race to unlock the powers of the Sher'Tul farportals. We had a natural affinity to the works of our elder brethren.
 
 So what happened to these gods after they had made the races which we see today? One must presume strife between them, and that they killed themselves, or took their battle away from the world. Our creator, seeing the other gods killed or left, must have then entrusted the world to us halflings, knowing that we would rule over it in his stead. This is why at every point in history we have played a pivotal role in the shaping of our world. It is our rightful inheritance, and it is our duty to rule it well.]], "_t")
-t("Tale of the Moonsisters", "Tale of the Moonsisters", "_t")
 t([[Eyal was raised from Darkness,
 And One came who made a blinding light called Sun,
 But Eyal flinched and said, "It is too bright!"
@@ -13200,7 +12890,6 @@ Eyal is a torn world, and the forces of nature can react strongly to the arcane 
 
 Eyal is a torn world, and the forces of nature can react strongly to the arcane energies that seek to manipulate them. Some items and areas are imbued with anti-magic, a natural energy that disrupts magical abilities and effects. There are even those who have learned to harness anti-magic into their own wild abilities, and who use them to hunt down and destroy those who practise magic. So beware, caster! It is a hostile world ye wander in.]], "_t")
 t("highfin", "highfin", "newLore category")
-t("On Adventuring", "On Adventuring", "_t")
 t([[I must say, as time grows, I feel so do I grow more and more inclined to distance myself from the calling of an 'adventurer', like so many you can find roaming the countryside. I feel like the myth of a wandering hero has blinded too many with promise of easy fame and riches, with no eye for the other kind of fortune.
 
 Hear me out on this.
@@ -14293,8 +13982,7 @@ Your disobedient son]], "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/spellhunt.lua"
--- 8 entries
-t("memories of archmage Varil", "memories of archmage Varil", "_t")
+-- 4 entries
 t([[From an objective viewpoint, you would think the Spellhunt futile, but it was not so. You couldn't imagine the barbarism of the magehunting mobs; they would abuse and persecute any they saw as eccentric, many of whom had no connection to magic at all.
 ...
 True mages would sometimes speak up in an act of altruism, just to stop the suffering of the innocent, but this only fuelled the horde's anger...
@@ -14312,7 +14000,6 @@ Other mages, those less forgiving and more given to action, would attack the rov
 Ones I saw were set upon by dozens, their conjured flames and bolts of energy failing against the maddened crowds... they would often literally rip the mage limb from limb. It was horrific.
 ...
 Angolwen, Linaniil calls it. I have known Linaniil for many years, and I know she has lost many loved ones to the Spellhunt, but she still holds true to her belief that one day we will be accepted once again. If this is the course of action she desires, I will follow her without question.]], "_t")
-t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Spellhunter's Guide part 1: How to Detect a Spellweaver", "_t")
 t([[Those who partake in the profane sorcery can oft be marked by their appearance, their mannerisms, their personal keeping and their effect on the environment around them. Keep close watch on all you meet, for they are deceptive creatures that can take on many guises. Even women, children and cripples may be clever disguises of demon-communers and necromancers.
 
 In their appearance you should be wary of the following:
@@ -14364,7 +14051,6 @@ In their effect on their environment you should be wary of the following:
 * Apparitions and unexplained events occur in their surroundings
 
 Note that a spellweaver will doubtless deny any accusation against them, and will show great emotion when evidence is laid before them. But one should not delay in bringing swift judgement, lest they try to cast a hex or escape by arcane means.]], "_t")
-t("Spellhunter's Guide part 2: How to Battle a Magic-User", "Spellhunter's Guide part 2: How to Battle a Magic-User", "_t")
 t([[Those who rape the forces of nature with their malign wills doubtless unlock great powers to their advantage. We of noble cause, with our abilities aligned to nature's threads, can struggle to equal the terrible might of these unholy mages. But we must persist, for our cause is just, and the threat to this world from the terrors of the arcane evils cannot be under-stated. Too long has Eyal suffered the torture of their presence, and so we must fight with all the powers that nature can give us.
 
 Mobility is key against spell-slinging warlocks and witches. One must rush with full speed towards them and hack them down, not giving them time to utter a spell of attack or defence. Against multiple opponents this could be difficult, and retreat to less open space is often vital. Do not consider this cowardice, for you play the weaker hand and must take all advantage you can acquire. Get into a tighter environment, and keep behind a concealed corner until they are right upon you, before unleashing all of your strength against them without warning.
@@ -14382,7 +14068,6 @@ Necromancers and fell conjurers can present a great threat when they summon thei
 Hexes and curses can wreak terror upon you, and you would do well to have an infusion that removes these and other blighted magic effects when facing dread occultists. Infusions to augment your natural healing are also a must for difficult battles.
 
 Remember to show no mercy, for they will give you none.]], "_t")
-t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Spellhunter's Guide part 3: How to Kill a Magic-User", "_t")
 t([[When a magic-user is captured, they must be slain, and slain fast. Captivity is too great a risk. Preferably they should be killed in a way that utterly removes any means for the body to recover through arcane force. Remember that coming back from the dead is no alien feat to these abominations.
 
 Beheading is simple and effective, especially in a hurry, but ideally their other limbs should be removed too and sealed in separate metal cases wrapped in willow-bark.
@@ -14412,7 +14097,7 @@ The best method, if time and situation allows, is to very slowly slice the caste
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/sunwall.lua"
--- 6 entries
+-- 5 entries
 t([[Loremaster Verutir here. I have been assigned to write an official chronicle of the history of the Sunwall. This will be my notebook as I interview people and travel from place to place. If you are reading this, you are either my patron (thanks again, sir!), a sneak (get out of my journal!), or the finder of my corpse. If the last, please take this to Lord Forosyth of the town of the Sunwall for a reward, tell my wife how I died, and tell the kids that I love them.
 With that said I shall be starting this project by investigating the Elves and their connection to the Sunwall. They should be one of the easier races to interview considering their life expectancy and their penchant for remembering their own history. Of course, there aren't as many of them around as there used to be.
 ...
@@ -14427,7 +14112,6 @@ t([[However, I have been repeatedly told by the powers that be, that I need to g
 And yes, unfortunately I will be travelling by adventurer again. By all the gods, why don't I get a better budget? This is absolutely terrible. It has been a particularly long walk. Longer than I thought it would be, truthfully, so I have run out of food. Foolish, I know, but I figured I could ask the escort for some of his. The snobby piece of troll-liver says he doesn't eat! Now talk about a terrible lie. Did he really think that would fool me? This Eastern Historical Society had better be good...]], [[However, I have been repeatedly told by the powers that be, that I need to get on with this and turn in another report on how a different race got here. So, I will temporarily pause my researches on whether or not Maj'Eyal is real or just an Elf legend. (Can't trust everything they say despite their long memories.) Instead, I am on to meet the keeper of the Eastern Historical Society who has the best collection of lore about how Humans got here. As such, I will be travelling to northern Vor to use their archives.
 And yes, unfortunately I will be travelling by adventurer again. By all the gods, why don't I get a better budget? This is absolutely terrible. It has been a particularly long walk. Longer than I thought it would be, truthfully, so I have run out of food. Foolish, I know, but I figured I could ask the escort for some of his. The snobby piece of troll-liver says he doesn't eat! Now talk about a terrible lie. Did he really think that would fool me? This Eastern Historical Society had better be good...]], "_t")
 t("history of the Sunwall", "history of the Sunwall", "newLore category")
-t("Loremaster Verutir's note", "Loremaster Verutir's note", "_t")
 t([[Finally arrived in Vor safe and mostly sound. (Though I do have some burns on my stomach from mage fire and my coat is a complete wreck. I wonder if I can expense a new coat.) However, the Eastern Historical Society is everything I could have hoped. Who can doubt that Humans are the superior race! You'd never see an Elf or an orc keep neat paper records like this!
 In short: Aethidry was the first Human to map out these shores. EHS has his map preserved in good crackly yellow parchment. However, he travelled on and later died on distant shores, so he was neither the first Human to arrive here, nor the one who organized the first settlement. Some historians guess that the first Human to arrive in the east was one Vaeryn Gorthol. At the least, many of the first explorers mention him as a precursor, so he may well have been. A few of the important first settlers were Oweodry Arandur, Aethor (or perhaps Aethur) the Wronged, and Bloran the Black.]], [[Finally arrived in Vor safe and mostly sound. (Though I do have some burns on my stomach from mage fire and my coat is a complete wreck. I wonder if I can expense a new coat.) However, the Eastern Historical Society is everything I could have hoped. Who can doubt that Humans are the superior race! You'd never see an Elf or an orc keep neat paper records like this!
 In short: Aethidry was the first Human to map out these shores. EHS has his map preserved in good crackly yellow parchment. However, he travelled on and later died on distant shores, so he was neither the first Human to arrive here, nor the one who organized the first settlement. Some historians guess that the first Human to arrive in the east was one Vaeryn Gorthol. At the least, many of the first explorers mention him as a precursor, so he may well have been. A few of the important first settlers were Oweodry Arandur, Aethor (or perhaps Aethur) the Wronged, and Bloran the Black.]], "_t")
@@ -14546,7 +14230,7 @@ Alongside the note is a part of a plan of the region.]], "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/zigur.lua"
--- 7 entries
+-- 6 entries
 t("Rules of the Ziguranth", "Rules of the Ziguranth", "_t")
 t([[1. You will not talk about Zigur to the wider world, lest evil ears be listening.
 2. You will shun the use of all spells and witchcraft.
@@ -14604,7 +14288,6 @@ But we are not clear of danger yet. Magic still exists, though oft it lies secre
 We must never forget the terrors of the Great Evil, and the suffering brought upon us by those who choose to corrupt nature with arcane powers. Be wary in your travels, and be thorough in your duties. Our fight is difficult, but it is just and true, and not until all Maj'Eyal is cleansed of the impurities of magic can we ever know peace. We are the protectors of the world, and by our strength and our union with nature we shall be its saviours.
 
 -- Protector Myssil]], "_t")
-t("The story of my salvation", "The story of my salvation", "_t")
 t([[I used to be a potion merchant in Derth. I brewed alchemical tonics and elixirs for locals and travellers. My trade was good, and I lived very happily from the gold I earned. For a young woman to have such a business I was very proud.
 
 One day however several people in the town fell ill from a mystery disease. Rumours spread that my potions were to blame, and people stopped coming to my shop. My business was in ruins, and I soon ran the risk of becoming destitute. Then one of the elders died, and though he had been ill for some time, I was blamed for his death. People said I had laid a hex on him, and murmurs arose of witchcraft.
@@ -14646,50 +14329,6 @@ Actually...  You fight in a more subtle way than most, do you not?  It is a poin
 Actually...  You fight in a more subtle way than most, do you not?  It is a point of pride for many of us that we stand tall in the face of arcane aggression and give warlocks one chance to repent before purging them, and much of our training reflects that, but I won't deny that less...  #{italic}#traditionally glorious#{normal}# methods can be extremely effective.  Decorum's no reason to let a necromancer get away alive when you could've planted a trap in their escape route.
 
 (She hands you a scroll.) Here - some of us have come up with a pre-prepared device which will sap magic from whoever or whatever sets it off.  All we ask is that you use discretion with these devices; no matter what our #{italic}#last#{normal}# assassin thought, planting them in some lesser rune-scribe's shop would be more likely to do us harm than good in the long run.]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/towns/gates-of-morning.lua"
--- 1 entries
-t("Melnela", "Melnela", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/towns/last-hope.lua"
--- 4 entries
-t("Statue of King Tolak the Fair", "Statue of King Tolak the Fair", "_t")
-t("Statue of King Toknor the Brave", "Statue of King Toknor the Brave", "_t")
-t("Statue of Queen Mirvenia the Inspirer", "Statue of Queen Mirvenia the Inspirer", "_t")
-t("Declaration of the Unification of the Allied Kingdoms", "Declaration of the Unification of the Allied Kingdoms", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/towns/shatur.lua"
--- 1 entries
-t("Moss covered statue", "Moss covered statue", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/auto/greater/living-weapons.lua"
--- 4 entries
-t("Poltergeist %s", "Poltergeist %s", "tformat")
-t("Animated %s", "Animated %s", "tformat")
-t("Moving %s", "Moving %s", "tformat")
-t("Poltergeist's %s", "Poltergeist's %s", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/auto/greater/orc-hatred.lua"
--- 1 entries
-t("Something in the floor clicks ominously.", "Something in the floor clicks ominously.", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
--- 3 entries
-t("#Source# emits dark energies at your feet.", "#Source# emits dark energies at your feet.", "logCombat")
-t("The corrupted lava reanimates %s's corpse!", "The corrupted lava reanimates %s's corpse!", "logSeen")
-t("A Human in shining plate armour.", "A Human in shining plate armour.", "_t")
 
 
 ------------------------------------------------
@@ -14741,9 +14380,8 @@ t("stairs back to %s", "stairs back to %s", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/greater-crypt.lua"
--- 5 entries
+-- 4 entries
 t(", and suddenly the world spins around you!", ", and suddenly the world spins around you!", "_t")
-t("Something in the floor clicks ominously.", "Something in the floor clicks ominously.", "logPlayer")
 t(", and the crypt rearranges itself around you!", ", and the crypt rearranges itself around you!", "_t")
 t("Something in the floor clicks ominously%s", "Something in the floor clicks ominously%s", "logPlayer")
 t("Something beneath you clicks ominously.", "Something beneath you clicks ominously.", "logPlayer")
@@ -15321,14 +14959,6 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 
 
 ------------------------------------------------
-section "game/modules/tome/data/talents/spells/eradication.lua"
--- 1 entries
-t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
-		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
-		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/talents/spells/glacial-waste.lua"
 -- 1 entries
 t("#GREY#Your hiemal shield regenerates to full!", "#GREY#Your hiemal shield regenerates to full!", "logPlayer")
@@ -15367,28 +14997,6 @@ t("A #LIGHT_BLUE#wave of icy water#LAST# erupts from the ground!", "A #LIGHT_BLU
 section "game/modules/tome/data/talents/techniques/throwing-knives.lua"
 -- 1 entries
 t("%d%% %s", "%d%% %s", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/uber/cun.lua"
--- 1 entries
-t([[You are adept at many different skills, granting you +1.5 to all talent levels.
-		This works on already known talents and those that you will learn afterwards.]], [[You are adept at many different skills, granting you +1.5 to all talent levels.
-		This works on already known talents and those that you will learn afterwards.]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/uber/dex.lua"
--- 5 entries
-t("Manage Swift Hands", "Manage Swift Hands", "talent name")
-t("You can only prepare your swift hands tools outside of combat.", "You can only prepare your swift hands tools outside of combat.", "logPlayer")
-t("Manage your swift hands readied tools.", "Manage your swift hands readied tools.", "_t")
-t("Use tool", "Use tool", "_t")
-t([[You like to keep your most precious tools always at hand. This talent lets you prepare up to 4 items in advance (outside of combat).
-		Then at a moment's notice you can use any of them as if they were worn.
-		In addition swapping equipment sets (default q key) takes no time.]], [[You like to keep your most precious tools always at hand. This talent lets you prepare up to 4 items in advance (outside of combat).
-		Then at a moment's notice you can use any of them as if they were worn.
-		In addition swapping equipment sets (default q key) takes no time.]], "tformat")
 
 
 ------------------------------------------------
@@ -15909,341 +15517,37 @@ t([[ToME 4 is a large, complex game. Despite this, the most important mechanics-
 
 
 ------------------------------------------------
-section "game/modules/tome/data/texts/unlock-rogue_poisons.lua"
--- 2 entries
-t("New Talent Category: #LIGHT_GREEN#Poisons", "New Talent Category: #LIGHT_GREEN#Poisons", "_t")
-t([[Extracted from plants, wildlife or more exotic locations, poisons have always existed.
-Many creatures use them, along with some shady people.
-
-You have made a deal with such a person and can now create new Rogue or Archer characters that can learn the #LIGHT_GREEN#Poisons talents#WHITE#.
-
-Talents:
-- #YELLOW#Vile Poisons: #WHITE#Learn new dangerous and terrible poisons to coat your weapons or ammo with, infecting your foes
-- #YELLOW#Venomous Strike: #WHITE#A terrible strike that deals increased nature damage based on the number of poison effects
-- #YELLOW#Empower Poisons: #WHITE#Learn to make your poisons even more lethal and fast
-- #YELLOW#Toxic Death: #WHITE#Spread the toxic joy to your foe's friends!
-]], [[Extracted from plants, wildlife or more exotic locations, poisons have always existed.
-Many creatures use them, along with some shady people.
-
-You have made a deal with such a person and can now create new Rogue or Archer characters that can learn the #LIGHT_GREEN#Poisons talents#WHITE#.
-
-Talents:
-- #YELLOW#Vile Poisons: #WHITE#Learn new dangerous and terrible poisons to coat your weapons or ammo with, infecting your foes
-- #YELLOW#Venomous Strike: #WHITE#A terrible strike that deals increased nature damage based on the number of poison effects
-- #YELLOW#Empower Poisons: #WHITE#Learn to make your poisons even more lethal and fast
-- #YELLOW#Toxic Death: #WHITE#Spread the toxic joy to your foe's friends!
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-rogue_skirmisher.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "New Class: #LIGHT_GREEN#Skirmisher (Rogue)", "_t")
-t([[In Maj'Eyal threats are everywhere when you walk the wildlands, some rogues prefer to forgo the use of stealth instead using their cunning skills to kill silently from afar with a sling well protected with a buckler.
-
-You have learned the power of counterstriking from afar and can now create characters with the #LIGHT_GREEN#Skirmisher class#WHITE#.
-
-Skirmishers are highly mobile rogues that specialize in running and gunning, using Slings to harass, debilitate, and wear down enemies before finishing them off with extremely quick attacks.
-
-Class features:#YELLOW#
-- Vault and roll around your foes, staying one step ahead and just out of
-reach
-- Cripple your opponents and unleash a torrent of sling bullets
-- Block enemy fire with your buckler mastery and counter attack#WHITE#
-
-Skirmisher use stamina to fuel their techniques, which replenishes slowly over time.
-]], [[In Maj'Eyal threats are everywhere when you walk the wildlands, some rogues prefer to forgo the use of stealth instead using their cunning skills to kill silently from afar with a sling well protected with a buckler.
-
-You have learned the power of counterstriking from afar and can now create characters with the #LIGHT_GREEN#Skirmisher class#WHITE#.
-
-Skirmishers are highly mobile rogues that specialize in running and gunning, using Slings to harass, debilitate, and wear down enemies before finishing them off with extremely quick attacks.
-
-Class features:#YELLOW#
-- Vault and roll around your foes, staying one step ahead and just out of
-reach
-- Cripple your opponents and unleash a torrent of sling bullets
-- Block enemy fire with your buckler mastery and counter attack#WHITE#
-
-Skirmisher use stamina to fuel their techniques, which replenishes slowly over time.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-undead_ghoul.lua"
--- 2 entries
-t("New Race: #LIGHT_GREEN#Ghoul (Undead)", "New Race: #LIGHT_GREEN#Ghoul (Undead)", "_t")
-t([[Ghouls are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
-You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Ghoul race#WHITE#.
-
-Race features:#YELLOW#
-- Great poison resistance
-- Bleeding immunity
-- Stun resistance
-- Fear immunity
-- Special ghoul talents: ghoulish leap, gnaw and retch#WHITE#
-]], [[Ghouls are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
-You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Ghoul race#WHITE#.
-
-Race features:#YELLOW#
-- Great poison resistance
-- Bleeding immunity
-- Stun resistance
-- Fear immunity
-- Special ghoul talents: ghoulish leap, gnaw and retch#WHITE#
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-undead_skeleton.lua"
--- 2 entries
-t("New Race: #LIGHT_GREEN#Skeleton (Undead)", "New Race: #LIGHT_GREEN#Skeleton (Undead)", "_t")
-t([[Skeletons are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
-You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Skeleton race#WHITE#.
-
-Race features:#YELLOW#
-- Poison immunity
-- Bleeding immunity
-- Fear immunity
-- No need to breathe
-- Special skeleton talents: bone armour, resilient bones, re-assemble#WHITE#
-]], [[Skeletons are evil undead creatures. Usually raised by Necromancers to serve as mindless servants, some manage to keep their sentience and roam the world in a blazing path of destruction.
-You have killed the Master, a malevolent undead creature. You can now create a new character with the #LIGHT_GREEN#Skeleton race#WHITE#.
-
-Race features:#YELLOW#
-- Poison immunity
-- Bleeding immunity
-- Fear immunity
-- No need to breathe
-- Special skeleton talents: bone armour, resilient bones, re-assemble#WHITE#
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-warrior_brawler.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Brawler (Warrior)", "New Class: #LIGHT_GREEN#Brawler (Warrior)", "_t")
-t([[The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.
-Without steel or iron, poor communities of all races turned to the strength of their own bodies for defense against the darkness.
-These unarmed techniques still exist today.
-
-You have learned these techniques and can now create new characters with the #LIGHT_GREEN#Brawler class#WHITE#.
-
-Brawlers are warriors who fight with little more than their own bodies as weapons.
-Class features:#YELLOW#
-- Build deadly combination attacks with your strikes
-- Wear gauntlets or gloves to boost your damage
-- Outwit your foes and set them up for deadly counter attacks
-- Control your enemies and break their bones with fierce grappling techniques#WHITE#
-
-Brawlers use stamina and must remain at least semi-mobile.  As such they cannot perform their unarmed talents in massive armor.
-]], [[The ravages of the Spellblaze stretched armies thin and left many unprotected. Not everyone could afford the luxury of a weapon.
-Without steel or iron, poor communities of all races turned to the strength of their own bodies for defense against the darkness.
-These unarmed techniques still exist today.
-
-You have learned these techniques and can now create new characters with the #LIGHT_GREEN#Brawler class#WHITE#.
-
-Brawlers are warriors who fight with little more than their own bodies as weapons.
-Class features:#YELLOW#
-- Build deadly combination attacks with your strikes
-- Wear gauntlets or gloves to boost your damage
-- Outwit your foes and set them up for deadly counter attacks
-- Control your enemies and break their bones with fierce grappling techniques#WHITE#
-
-Brawlers use stamina and must remain at least semi-mobile.  As such they cannot perform their unarmed talents in massive armor.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-wilder_oozemancer.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "New Class: #LIGHT_GREEN#Oozemancer (Wilder)", "_t")
-t([[The long Nature's hatred of all arcane forces has managed to create Oozemancers as the ultimate answer to archmagi.
-You have met and destroyed a corrupted one and can now create new characters with the #LIGHT_GREEN#Oozemancer class#WHITE#.
-
-Oozemancer are Wilders, who are at home in the wilds and draw their power from their connection with nature.
-Class features:#YELLOW#
-- Offensive long range nature and acidic attacks
-- Inherently antimagic
-- Summon various kinds of oozes to your side for a short while
-- Use oozes, slimes, mucus and moss against Nature's foes#WHITE#
-
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-]], [[The long Nature's hatred of all arcane forces has managed to create Oozemancers as the ultimate answer to archmagi.
-You have met and destroyed a corrupted one and can now create new characters with the #LIGHT_GREEN#Oozemancer class#WHITE#.
-
-Oozemancer are Wilders, who are at home in the wilds and draw their power from their connection with nature.
-Class features:#YELLOW#
-- Offensive long range nature and acidic attacks
-- Inherently antimagic
-- Summon various kinds of oozes to your side for a short while
-- Use oozes, slimes, mucus and moss against Nature's foes#WHITE#
-
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-wilder_stone_warden.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "New Class: #LIGHT_GREEN#Stone Warden (Wilder)", "_t")
-t([[While most races of Eyal firmly believe that arcane and nature forces are opposites, Dwarves have found a way to bind them together and meld them into a power to be reckoned with.
-
-You have mastered some arcane and wild talents at a crude level can now create new dwarf characters with the #LIGHT_GREEN#Stone Warden class#WHITE#.
-
-Stone Wardens are Wilders, who are at home in the wilds and draw their power from their connection with nature and arcane
-Class features:#YELLOW#
-- Dual wield shields and bash your foes with arcane enhanced shield strikes
-- Combine arcane and nature forces to split yourself into two powerful halves
-- Use vines of stone to grab and assail your foes
-- Turn into a huge earth elemental and summon volcanos
-- Dwarf race exclusive class (Select it at birth for the option to even appear)#WHITE#
-
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-Stone Wardens also use Mana.
-]], [[While most races of Eyal firmly believe that arcane and nature forces are opposites, Dwarves have found a way to bind them together and meld them into a power to be reckoned with.
-
-You have mastered some arcane and wild talents at a crude level can now create new dwarf characters with the #LIGHT_GREEN#Stone Warden class#WHITE#.
-
-Stone Wardens are Wilders, who are at home in the wilds and draw their power from their connection with nature and arcane
-Class features:#YELLOW#
-- Dual wield shields and bash your foes with arcane enhanced shield strikes
-- Combine arcane and nature forces to split yourself into two powerful halves
-- Use vines of stone to grab and assail your foes
-- Turn into a huge earth elemental and summon volcanos
-- Dwarf race exclusive class (Select it at birth for the option to even appear)#WHITE#
-
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-Stone Wardens also use Mana.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-wilder_summoner.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Summoner (Wilder)", "New Class: #LIGHT_GREEN#Summoner (Wilder)", "_t")
-t([[In the wilds, some people and creatures are able, by the sole force of their will, to call upon allies to help them in combat.
-You have witnessed such an act and can now create new characters with the #LIGHT_GREEN#Summoner class#WHITE#.
-
-Summoners are Wilders, who are at home in the wilds and draw their power from their connection with nature.
-Class features:#YELLOW#
-- Summon allies, ranging from a war hound to the mighty fire drake
-- Take direct control of your summons
-- Augment your summons with various powers#WHITE#
-
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-]], [[In the wilds, some people and creatures are able, by the sole force of their will, to call upon allies to help them in combat.
-You have witnessed such an act and can now create new characters with the #LIGHT_GREEN#Summoner class#WHITE#.
-
-Summoners are Wilders, who are at home in the wilds and draw their power from their connection with nature.
-Class features:#YELLOW#
-- Summon allies, ranging from a war hound to the mighty fire drake
-- Take direct control of your summons
-- Augment your summons with various powers#WHITE#
-
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high Equilibrium makes for a chance to fail to use a power and lose a turn.
-]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/texts/unlock-wilder_wyrmic.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "New Class: #LIGHT_GREEN#Wyrmic (Wilder)", "_t")
-t([[Some people, either through training or magic, can take on the defining aspects of the dragon-kin themselves.
-You have consumed a magic that allows you to gain such a power. You can now also create new characters with the #LIGHT_GREEN#Wyrmic class#WHITE#.
-
-Wyrmics are Wilders, who are at home in the wilds and draw their power from their connection with the dragons.
-Class features:#YELLOW#
-- Take on the aspects of drakes: fire, cold, sand, and more
-- Breath weapons: fire, ice, sand, and more
-- Powerful melee combatant#WHITE#
-
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high equilibrium makes for a chance to fail to use a power and lose a turn.
-Wyrmics are also trained in the martial arts and use stamina for some techniques.
-]], [[Some people, either through training or magic, can take on the defining aspects of the dragon-kin themselves.
-You have consumed a magic that allows you to gain such a power. You can now also create new characters with the #LIGHT_GREEN#Wyrmic class#WHITE#.
-
-Wyrmics are Wilders, who are at home in the wilds and draw their power from their connection with the dragons.
-Class features:#YELLOW#
-- Take on the aspects of drakes: fire, cold, sand, and more
-- Breath weapons: fire, ice, sand, and more
-- Powerful melee combatant#WHITE#
-
-All Wilder classes use Equilibrium for their powers. It represents their connection to nature. 
-The higher it gets the more off-balance they are with it. A high equilibrium makes for a chance to fail to use a power and lose a turn.
-Wyrmics are also trained in the martial arts and use stamina for some techniques.
-]], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/timed_effects/magical.lua"
--- 3 entries
-t("#Target# weaves fate.", "#Target# weaves fate.", "_t")
-t("#Target# stops weaving fate.", "#Target# stops weaving fate.", "_t")
+-- 1 entries
 t("%d%%", "%d%%", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/mental.lua"
--- 8 entries
+-- 3 entries
 t("#ORANGE#", "#ORANGE#", "_t")
 t("#LIGHT_GREEN#", "#LIGHT_GREEN#", "_t")
-t("#F53CBE##Target# is no longer rampaging.", "#F53CBE##Target# is no longer rampaging.", "_t")
 t("%s", "%s", "tformat")
-t("The target is doomed to die a bloody death.  Each time it uses an ability it takes %0.2f physical damage, and incoming bleeds are strengthened by %d%%.", "The target is doomed to die a bloody death.  Each time it uses an ability it takes %0.2f physical damage, and incoming bleeds are strengthened by %d%%.", "tformat")
-t("+Vampire Mark", "+Vampire Mark", "_t")
-t("#Target# is free from their doom.", "#Target# is free from their doom.", "_t")
-t("-Vampire Mark", "-Vampire Mark", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/other.lua"
--- 19 entries
+-- 5 entries
 t("\
 - %s%s#LAST#", "\
 - %s%s#LAST#", "tformat")
 t("\
 - #ffa0ff#%s#LAST#", "\
 - #ffa0ff#%s#LAST#", "tformat")
-t("Victory Rush", "Victory Rush", "_t")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("???", "???", "_t")
-t("aura", "aura", "effect subtype")
-t("Protected by a Mirror Image", "Protected by a Mirror Image", "_t")
-t("Target is protected by a mirror image. Increases damage dealt to blind or dazzled creatures by %d%%", "Target is protected by a mirror image. Increases damage dealt to blind or dazzled creatures by %d%%", "tformat")
-t("Target is protected from dispels", "Target is protected from dispels", "tformat")
 t("#ORCHID#Aether Permeation protects %s from a dispel!", "#ORCHID#Aether Permeation protects %s from a dispel!", "logSeen")
-t("Reduces Blood Rush cooldown if killed", "Reduces Blood Rush cooldown if killed", "tformat")
-t("Lights Out", "Lights Out", "_t")
-t("The target is cut off from the sun", "The target is cut off from the sun", "_t")
-t("Your body is bleeding, losing %0.2f life each turn.", "Your body is bleeding, losing %0.2f life each turn.", "tformat")
-t("#CRIMSON##Target# is torn open by the powerful blow!", "#CRIMSON##Target# is torn open by the powerful blow!", "_t")
-t("+Self-Judgement", "+Self-Judgement", "_t")
-t("#CRIMSON##Target#'s wound has closed.", "#CRIMSON##Target#'s wound has closed.", "_t")
-t("-Self-Judgement", "-Self-Judgement", "_t")
-t("#CRIMSON#%d Bleed #LAST#", "#CRIMSON#%d Bleed #LAST#", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/physical.lua"
--- 11 entries
-t("#Target# is free of the stone poison!", "#Target# is free of the stone poison!", "_t")
+-- 1 entries
 t("%0.1f%%", "%0.1f%%", "tformat")
-t("Target is watched, causing the next talent used to fail and trigger a counterattack.", "Target is watched, causing the next talent used to fail and trigger a counterattack.", "tformat")
-t("Intangible", "Intangible", "_t")
-t("%d%% chance to fully evade any damaging actions or negative effects.", "%d%% chance to fully evade any damaging actions or negative effects.", "tformat")
-t("#LIGHT_BLUE#%s evades the effect '%s'!", "#LIGHT_BLUE#%s evades the effect '%s'!", "logSeen")
-t("Brutalized", "Brutalized", "_t")
-t("The target is brutally stunned, reducing damage by 50%%, movement speed by 50%%, bleed resist by 50%%, and halving talent cooldown.", "The target is brutally stunned, reducing damage by 50%%, movement speed by 50%%, bleed resist by 50%%, and halving talent cooldown.", "tformat")
-t("#Target# is stunned by the brutal strike!", "#Target# is stunned by the brutal strike!", "_t")
-t("+Brutalized", "+Brutalized", "_t")
-t("-Brutalized", "-Brutalized", "_t")
 
 
 ------------------------------------------------
@@ -16375,16 +15679,6 @@ Now you have come to finish what the Sher'tul began. Become a Godslayer yourself
 
 
 ------------------------------------------------
-section "game/modules/tome/dialogs/Birther.lua"
--- 1 entries
-t("\
-\
-#GOLD#This is a locked birth option. Performing certain actions and completing certain quests will make locked campaigns, races and classes permanently available.", "\
-\
-#GOLD#This is a locked birth option. Performing certain actions and completing certain quests will make locked campaigns, races and classes permanently available.", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/dialogs/CharacterSheet.lua"
 -- 7 entries
 t("%i %s %i %s %i %s %s %s", "%i %s %i %s %i %s %s %s", "tformat")
@@ -16394,29 +15688,6 @@ t("%s %s", "%s %s", "tformat")
 t("%s%-8.8s: #00ff00#%s ", "%s%-8.8s: #00ff00#%s ", "tformat")
 t("vs ", "vs ", "_t")
 t("#ORANGE#vs %-11s#LAST#: #00ff00#%3s %s", "#ORANGE#vs %-11s#LAST#: #00ff00#%3s %s", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/CursedAuraSelect.lua"
--- 2 entries
-t("Cursed Aura Selection", "Cursed Aura Selection", "_t")
-t("A malevolent aura begins to form around you. Choose your curse:", "A malevolent aura begins to form around you. Choose your curse:", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/DeathDialog.lua"
--- 5 entries
-t("You have #LIGHT_RED#died#LAST#!", "You have #LIGHT_RED#died#LAST#!", "_t")
-t([[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
-You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
-]], [[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
-You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
-]], "_t")
-t([[#LIGHT_GREEN#During your game you#WHITE#:
-* %s]], [[#LIGHT_GREEN#During your game you#WHITE#:
-* %s]], "tformat")
-t("Resurrect with Adventurer Mode (%d life(s) left)", "Resurrect with Adventurer Mode (%d life(s) left)", "tformat")
-t("Resurrect with Exploration Mode", "Resurrect with Exploration Mode", "_t")
 
 
 ------------------------------------------------
@@ -16455,255 +15726,9 @@ t("Thank you, a Patreon page should now open in your browser.", "Thank you, a Pa
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/GameOptions.lua"
--- 142 entries
+-- 2 entries
 t("UI", "UI", "_t")
-t("#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "_t")
-t("Enter movement speed(lower is faster)", "Enter movement speed(lower is faster)", "_t")
-t("From 0 to 60", "From 0 to 60", "_t")
-t([[Enables or disables 'twitch' movement.
-When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[Enables or disables 'twitch' movement.
-When enabled creatures will do small bumps when moving and attacking.#WHITE#]], "_t")
-t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "_t")
-t([[Enables smooth fog-of-war.
-Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[Enables smooth fog-of-war.
-Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], "_t")
-t("#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "#GOLD##{bold}#Smooth fog of war#WHITE##{normal}#", "_t")
-t([[Select the interface look. Metal is the default one. Simple is basic but takes less screen space.
-You must restart the game for the change to take effect.]], [[Select the interface look. Metal is the default one. Simple is basic but takes less screen space.
-You must restart the game for the change to take effect.]], "_t")
-t("#GOLD##{bold}#Interface Style#WHITE##{normal}#", "#GOLD##{bold}#Interface Style#WHITE##{normal}#", "_t")
-t([[Select the HUD look. 'Minimalist' is the default one.
-#LIGHT_RED#This will take effect on next restart.]], [[Select the HUD look. 'Minimalist' is the default one.
-#LIGHT_RED#This will take effect on next restart.]], "_t")
-t("#GOLD##{bold}#HUD Style#WHITE##{normal}#", "#GOLD##{bold}#HUD Style#WHITE##{normal}#", "_t")
-t("The number of lines to display in the combat log (for the Classic HUD).", "The number of lines to display in the combat log (for the Classic HUD).", "_t")
-t("#GOLD##{bold}#Log lines#WHITE##{normal}#", "#GOLD##{bold}#Log lines#WHITE##{normal}#", "_t")
-t("From 5 to 50", "From 5 to 50", "_t")
-t("Log lines", "Log lines", "_t")
-t("Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "Draw faint lines to separate each grid, making visual positioning easier to see.#WHITE#", "_t")
-t("#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "#GOLD##{bold}#Display map grid lines#WHITE##{normal}#", "_t")
-t([[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
-You must restart the game for the change to take effect.]], [[Select the fonts look. Fantasy is the default one. Basic is simplified and smaller.
-You must restart the game for the change to take effect.]], "_t")
-t("#GOLD##{bold}#Font Style#WHITE##{normal}#", "#GOLD##{bold}#Font Style#WHITE##{normal}#", "_t")
-t("Font style", "Font style", "_t")
-t([[Select the fonts size.
-You must restart the game for the change to take effect.]], [[Select the fonts size.
-You must restart the game for the change to take effect.]], "_t")
-t("#GOLD##{bold}#Font Size#WHITE##{normal}#", "#GOLD##{bold}#Font Size#WHITE##{normal}#", "_t")
-t([[How many seconds before log and chat lines begin to fade away.
-If set to 0 the logs will never fade away.]], [[How many seconds before log and chat lines begin to fade away.
-If set to 0 the logs will never fade away.]], "_t")
-t("#GOLD##{bold}#Log fade time#WHITE##{normal}#", "#GOLD##{bold}#Log fade time#WHITE##{normal}#", "_t")
-t("Fade time (in seconds)", "Fade time (in seconds)", "_t")
-t("From 0 to 20", "From 0 to 20", "_t")
-t([[How long will flying text messages be visible on screen.
-The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], [[How long will flying text messages be visible on screen.
-The range is 1 (very short) to 100 (10x slower) than the normal duration, which varies with each individual message.]], "_t")
-t("#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "#GOLD##{bold}#Duration of flying text#WHITE##{normal}#", "_t")
-t("From 1 to 100", "From 1 to 100", "_t")
-t("Relative duration", "Relative duration", "_t")
-t("Uses the icons for status effects instead of text.#WHITE#", "Uses the icons for status effects instead of text.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "#GOLD##{bold}#Icons status effects#WHITE##{normal}#", "_t")
-t("Uses the icons hotkeys toolbar or the textual one.#WHITE#", "Uses the icons hotkeys toolbar or the textual one.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "#GOLD##{bold}#Icons hotkey toolbar#WHITE##{normal}#", "_t")
-t("Number of rows to show in the icons hotkeys toolbar.#WHITE#", "Number of rows to show in the icons hotkeys toolbar.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "#GOLD##{bold}#Icons hotkey toolbar rows#WHITE##{normal}#", "_t")
-t("From 1 to 4", "From 1 to 4", "_t")
-t("Number of icons rows", "Number of icons rows", "_t")
-t("When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "_t")
-t("#GOLD##{bold}#Visual hotkeys feedback#WHITE##{normal}#", "#GOLD##{bold}#Visual hotkeys feedback#WHITE##{normal}#", "_t")
-t("When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "_t")
-t("#GOLD##{bold}#Talents activations map display#WHITE##{normal}#", "#GOLD##{bold}#Talents activations map display#WHITE##{normal}#", "_t")
-t("Size of the icons in the hotkeys toolbar.#WHITE#", "Size of the icons in the hotkeys toolbar.#WHITE#", "_t")
-t("#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "_t")
-t("From 32 to 64", "From 32 to 64", "_t")
-t("Icons size", "Icons size", "_t")
-t([[If disabled lore popups will only appear the first time you see the lore on your profile.
-If enabled it will appear the first time you see it with each character.#WHITE#]], [[If disabled lore popups will only appear the first time you see the lore on your profile.
-If enabled it will appear the first time you see it with each character.#WHITE#]], "_t")
-t("#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "#GOLD##{bold}#Always show lore popup#WHITE##{normal}#", "_t")
-t("If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "If disabled items with activations will not be auto-added to your hotkeys, you will need to manualty drag them from the inventory screen.#WHITE#", "_t")
-t("#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "#GOLD##{bold}#Always add objects to hotkeys#WHITE##{normal}#", "_t")
-t([[Toggles between various tactical information display:
-- Combined healthbar and small tactical frame
-- Combined healthbar and big tactical frame
-- Only healthbar
-- No tactical information at all
-
-#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], [[Toggles between various tactical information display:
-- Combined healthbar and small tactical frame
-- Combined healthbar and big tactical frame
-- Only healthbar
-- No tactical information at all
-
-#{italic}#You can also change this directly ingame by pressing shift+T.#{normal}##WHITE#]], "_t")
-t("#GOLD##{bold}#Tactical overlay#WHITE##{normal}#", "#GOLD##{bold}#Tactical overlay#WHITE##{normal}#", "_t")
-t("Select overlay mode", "Select overlay mode", "_t")
-t("Tactical overlay", "Tactical overlay", "_t")
-t("Combined Small", "Combined Small", "_t")
-t("Combined Big", "Combined Big", "_t")
-t("Only Healthbars", "Only Healthbars", "_t")
-t("Nothing", "Nothing", "_t")
-t("Toggles between a normal or flagpost tactical bars.#WHITE#", "Toggles between a normal or flagpost tactical bars.#WHITE#", "_t")
-t("#GOLD##{bold}#Flagpost tactical bars#WHITE##{normal}#", "#GOLD##{bold}#Flagpost tactical bars#WHITE##{normal}#", "_t")
-t("Disabled", "Disabled", "_t")
-t("Enabled", "Enabled", "_t")
-t("Toggles between a bottom or side display for tactial healthbars.#WHITE#", "Toggles between a bottom or side display for tactial healthbars.#WHITE#", "_t")
-t("#GOLD##{bold}#Healthbars position#WHITE##{normal}#", "#GOLD##{bold}#Healthbars position#WHITE##{normal}#", "_t")
-t("Bottom", "Bottom", "_t")
-t("Sides", "Sides", "_t")
-t("If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", "If disabled you will not get a fullscreen notification of stun/daze effects. Beware.#WHITE#", "_t")
-t("#GOLD##{bold}#Fullscreen stun/daze notification#WHITE##{normal}#", "#GOLD##{bold}#Fullscreen stun/daze notification#WHITE##{normal}#", "_t")
-t("If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", "If disabled you will not get a fullscreen notification of confusion effects. Beware.#WHITE#", "_t")
-t("#GOLD##{bold}#Fullscreen confusion notification#WHITE##{normal}#", "#GOLD##{bold}#Fullscreen confusion notification#WHITE##{normal}#", "_t")
-t("Toggles advanced weapon statistics display.#WHITE#", "Toggles advanced weapon statistics display.#WHITE#", "_t")
-t("#GOLD##{bold}#Advanced Weapon Statistics#WHITE##{normal}#", "#GOLD##{bold}#Advanced Weapon Statistics#WHITE##{normal}#", "_t")
-t("Always display the combat properties of gloves even if you don't know unarmed attack talents.#WHITE#", "Always display the combat properties of gloves even if you don't know unarmed attack talents.#WHITE#", "_t")
-t("Always display combat properties of shields even if you don't know shield attack talents.#WHITE#", "Always display combat properties of shields even if you don't know shield attack talents.#WHITE#", "_t")
-t("When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "_t")
-t("#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "_t")
-t("If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "_t")
-t("#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "_t")
-t("Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "_t")
-t("#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "_t")
-t("Sharpen Visuals, set to 0 to disable.#WHITE#", "Sharpen Visuals, set to 0 to disable.#WHITE#", "_t")
-t("#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "_t")
-t("Enter Sharpen Power", "Enter Sharpen Power", "_t")
-t("From 0(disable) to 10", "From 0(disable) to 10", "_t")
-t("Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "Defines the distance from the screen edge at which scrolling will start. If set high enough the game will always center on the player.#WHITE#", "_t")
-t("#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "#GOLD##{bold}#Scroll distance#WHITE##{normal}#", "_t")
-t("From 1 to 50", "From 1 to 50", "_t")
-t("Scroll distance", "Scroll distance", "_t")
-t("If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "If you loose more than this percentage of life in a turn, a warning will display and all key/mouse input will be ignored for 2 seconds to prevent mistakes.#WHITE#", "_t")
-t("#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "#GOLD##{bold}#Life Lost Warning#WHITE##{normal}#", "_t")
-t("From 1 to 99 (100 to disable)", "From 1 to 99 (100 to disable)", "_t")
-t("Life lost percentage (out of max life)", "Life lost percentage (out of max life)", "_t")
-t([[Enables or disables weather effects in some zones.
-Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], [[Enables or disables weather effects in some zones.
-Disabling it can gain some performance. It will not affect previously visited zones.#WHITE#]], "_t")
-t("#GOLD##{bold}#Weather effects#WHITE##{normal}#", "#GOLD##{bold}#Weather effects#WHITE##{normal}#", "_t")
-t("Enables or disables day/night light variations effects..#WHITE#", "Enables or disables day/night light variations effects..#WHITE#", "_t")
-t("#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "#GOLD##{bold}#Day/night light cycle#WHITE##{normal}#", "_t")
-t("Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "Enables easy movement using the mouse by left-clicking on the map.#WHITE#", "_t")
-t("#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "#GOLD##{bold}#Use mouse to move#WHITE##{normal}#", "_t")
-t([[Enables quick melee targeting.
-Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], [[Enables quick melee targeting.
-Talents that require a melee target will automatically target when pressing a direction key instead of requiring a confirmation.#WHITE#]], "_t")
-t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "_t")
-t([[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[Enables quick melee targeting auto attacking.
-Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], "_t")
-t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "_t")
-t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "_t")
-t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "_t")
-t([[Auto-validate targets. If you fire an arrow/talent/... it will automatically use the default target without asking
-#LIGHT_RED#This is dangerous. Do not enable unless you know exactly what you are doing.#WHITE#
-
-Default target is always either one of:
- - The last creature hovered by the mouse
- - The last attacked creature
- - The closest creature]], [[Auto-validate targets. If you fire an arrow/talent/... it will automatically use the default target without asking
-#LIGHT_RED#This is dangerous. Do not enable unless you know exactly what you are doing.#WHITE#
-
-Default target is always either one of:
- - The last creature hovered by the mouse
- - The last attacked creature
- - The closest creature]], "_t")
-t("#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "_t")
-t("New games begin with some talent points auto-assigned.#WHITE#", "New games begin with some talent points auto-assigned.#WHITE#", "_t")
 t("#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "_t")
-t("Always rest to full before auto-exploring.#WHITE#", "Always rest to full before auto-exploring.#WHITE#", "_t")
-t("#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "_t")
-t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "_t")
-t("#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "#GOLD##{bold}#Swap tinkers#WHITE##{normal}#", "_t")
-t("Configure the chat filters to select what kind of messages to see.#WHITE#", "Configure the chat filters to select what kind of messages to see.#WHITE#", "_t")
-t("#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "#GOLD##{bold}#Chat message filters#WHITE##{normal}#", "_t")
-t("Deaths", "Deaths", "_t")
-t("Object & Creatures links", "Object & Creatures links", "_t")
-t("Configure the chat ignore filter.#WHITE#", "Configure the chat ignore filter.#WHITE#", "_t")
-t("#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "#GOLD##{bold}#Chat ignore list#WHITE##{normal}#", "_t")
-t("Configure the chat channels to listen to.#WHITE#", "Configure the chat channels to listen to.#WHITE#", "_t")
-t("#GOLD##{bold}#Chat channels#WHITE##{normal}#", "#GOLD##{bold}#Chat channels#WHITE##{normal}#", "_t")
-t("select to configure", "select to configure", "_t")
-t([[Open links in external browser instead of the embedded one.
-This does not affect addons browse and installation which always stays ingame.]], [[Open links in external browser instead of the embedded one.
-This does not affect addons browse and installation which always stays ingame.]], "_t")
-t("#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "#GOLD##{bold}#Open links in external browser#WHITE##{normal}#", "_t")
-t([[Enable Discord's Rich Presence integration to show your current character on your currently playing profile on Discord (restart the game to apply).
-#ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.]], [[Enable Discord's Rich Presence integration to show your current character on your currently playing profile on Discord (restart the game to apply).
-#ANTIQUE_WHITE#If you do not use Discord this option doesn't do anything in either state.]], "_t")
-t("#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "#GOLD##{bold}#Discord's Rich Presence#WHITE##{normal}#", "_t")
-t([[Keep a copy of your character sheets (not the whole savefile) on the online vault at te4.org.
-For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#]], [[Keep a copy of your character sheets (not the whole savefile) on the online vault at te4.org.
-For each character you will be given a link to this online character sheet so that you can brag about your heroic deeds or sad deaths to your friends or the whole community.#WHITE#]], "_t")
-t("#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "#GOLD##{bold}#Upload characters sheets to the online vault#WHITE##{normal}#", "_t")
-t([[Allow various events that are pushed by the server when playing online
-#{bold}#All#{normal}#: Allow all server events (bonus zones, random events, ...)
-#{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.
-#{bold}#Disabled#{normal}#: Disallow all.
-#WHITE#]], [[Allow various events that are pushed by the server when playing online
-#{bold}#All#{normal}#: Allow all server events (bonus zones, random events, ...)
-#{bold}#Technical help only#{normal}#: Allow administrator to help in case of bugs or weirdness and allows website services (data reset, steam achievements push, ...) to work.
-#{bold}#Disabled#{normal}#: Disallow all.
-#WHITE#]], "_t")
-t("#GOLD##{bold}#Allow online events#WHITE##{normal}#", "#GOLD##{bold}#Allow online events#WHITE##{normal}#", "_t")
-t("technical help only", "technical help only", "_t")
-t([[Disables all connectivity to the network.
-This includes, but is not limited to:
-- Player profiles: You will not be able to login, register
-- Characters vault: You will not be able to upload any character to the online vault to show your glory
-- Item's Vault: You will not be able to access the online item's vault, this includes both storing and retrieving items.
-- Ingame chat: The ingame chat requires to connect to the server to talk to other players, this will not be possible.
-- Purchaser / Donator benefits: The base game being free, the only way to give donators their bonuses fairly is to check their online profile. This will thus be disabled.
-- Easy addons downloading & installation: You will not be able to see ingame the list of available addons, nor to one-click install them. You may still do so manually.
-- Version checks: Addons will not be checked for new versions.
-- Discord: If you use Discord Rich Presence integration this will also be disabled by this setting.
-- Ingame game news: The main menu will stop showing you info about new updates to the game.
-
-Note that this setting only affects the game itself. If you use the game launcher, whose sole purpose is to make sure the game is up to date, it will still do so.
-If you do not want that, simply run the game directly: the #{bold}#only#{normal}# use of the launcher is to update the game.
-
-#{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.
-A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], [[Disables all connectivity to the network.
-This includes, but is not limited to:
-- Player profiles: You will not be able to login, register
-- Characters vault: You will not be able to upload any character to the online vault to show your glory
-- Item's Vault: You will not be able to access the online item's vault, this includes both storing and retrieving items.
-- Ingame chat: The ingame chat requires to connect to the server to talk to other players, this will not be possible.
-- Purchaser / Donator benefits: The base game being free, the only way to give donators their bonuses fairly is to check their online profile. This will thus be disabled.
-- Easy addons downloading & installation: You will not be able to see ingame the list of available addons, nor to one-click install them. You may still do so manually.
-- Version checks: Addons will not be checked for new versions.
-- Discord: If you use Discord Rich Presence integration this will also be disabled by this setting.
-- Ingame game news: The main menu will stop showing you info about new updates to the game.
-
-Note that this setting only affects the game itself. If you use the game launcher, whose sole purpose is to make sure the game is up to date, it will still do so.
-If you do not want that, simply run the game directly: the #{bold}#only#{normal}# use of the launcher is to update the game.
-
-#{bold}##CRIMSON#This is an extremely restrictive setting. It is recommended you only activate it if you have no other choice as it will remove many fun and acclaimed features.
-A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], "_t")
-t("#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "#GOLD##{bold}#Disable all connectivity#WHITE##{normal}#", "_t")
-t("yes", "yes", "_t")
-t([[Saves in the background, allowing you to continue playing.
-#LIGHT_RED#Disabling it is not recommended.#WHITE#]], [[Saves in the background, allowing you to continue playing.
-#LIGHT_RED#Disabling it is not recommended.#WHITE#]], "_t")
-t("#GOLD##{bold}#Save in the background#WHITE##{normal}#", "#GOLD##{bold}#Save in the background#WHITE##{normal}#", "_t")
-t([[Forces the game to save each level instead of each zone.
-This makes it save more often but the game will use less memory when deep in a dungeon.
-
-#LIGHT_RED#Changing this option will not affect already visited zones.
-*THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.
-#LIGHT_RED#Disabling it is not recommended#WHITE#]], [[Forces the game to save each level instead of each zone.
-This makes it save more often but the game will use less memory when deep in a dungeon.
-
-#LIGHT_RED#Changing this option will not affect already visited zones.
-*THIS DOES NOT MAKE A FULL SAVE EACH LEVEL*.
-#LIGHT_RED#Disabling it is not recommended#WHITE#]], "_t")
-t("#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "#GOLD##{bold}#Zone save per level#WHITE##{normal}#", "_t")
-t("Disallow boot images that could be found 'offensive'.#WHITE#", "Disallow boot images that could be found 'offensive'.#WHITE#", "_t")
-t("#GOLD##{bold}#Censor boot#WHITE##{normal}#", "#GOLD##{bold}#Censor boot#WHITE##{normal}#", "_t")
-t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "_t")
-t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "_t")
 
 
 ------------------------------------------------
@@ -16728,12 +15753,6 @@ t("<Press 'x' to swap to advanced display>", "<Press 'x' to swap to advanced dis
 
 
 ------------------------------------------------
-section "game/modules/tome/dialogs/LorePopup.lua"
--- 1 entries
-t("Lore found: #0080FF#%s", "Lore found: #0080FF#%s", "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/dialogs/MapMenu.lua"
 -- 3 entries
 t("Control", "Control", "_t")
@@ -16742,93 +15761,9 @@ t(" ", " ", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/dialogs/PartySelect.lua"
--- 1 entries
-t("Switch to which character?", "Switch to which character?", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/PartySendItem.lua"
--- 6 entries
-t("Give item to a party member", "Give item to a party member", "_t")
-t("%s cannot receive items while asleep!", "%s cannot receive items while asleep!", "log")
-t("%s cannot transfer items while asleep!", "%s cannot transfer items while asleep!", "log")
-t("You give %s to %s.", "You give %s to %s.", "log")
-t(" #YELLOW#[SLEEPING]#LAST#", " #YELLOW#[SLEEPING]#LAST#", "_t")
-t(" #YELLOW#[NO ROOM]#LAST#", " #YELLOW#[NO ROOM]#LAST#", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/QuestPopup.lua"
--- 7 entries
-t("#LIGHT_GREEN#New#LAST# Quest!", "#LIGHT_GREEN#New#LAST# Quest!", "_t")
-t("Quest #AQUAMARINE#Updated!", "Quest #AQUAMARINE#Updated!", "_t")
-t("Quest #LIGHT_GREEN#Completed!", "Quest #LIGHT_GREEN#Completed!", "_t")
-t("Quest #LIGHT_GREEN#Done!", "Quest #LIGHT_GREEN#Done!", "_t")
-t("Quest #CIMSON#Failed!", "Quest #CIMSON#Failed!", "_t")
-t("#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "#ANTIQUE_WHITE#Quest: #AQUAMARINE#%s", "tformat")
-t("#ANTIQUE_WHITE#(See your Journal for further details or click here)", "#ANTIQUE_WHITE#(See your Journal for further details or click here)", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/SentientWeapon.lua"
--- 8 entries
-t("Points left: #00FF00#%d#WHITE#", "Points left: #00FF00#%d#WHITE#", "_t")
-t("Stat", "Stat", "_t")
-t("Value", "Value", "_t")
-t("Spellpower", "Spellpower", "_t")
-t("Spellcrit", "Spellcrit", "_t")
-t("You can not increase this stat further!", "You can not increase this stat further!", "_t")
-t([[Keyboard: #00FF00#up key/down key#FFFFFF# to select a stat; #00FF00#right key#FFFFFF# to increase stat; #00FF00#left key#FFFFFF# to decrease a stat.
-Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF# to decrease a stat.
-]], [[Keyboard: #00FF00#up key/down key#FFFFFF# to select a stat; #00FF00#right key#FFFFFF# to increase stat; #00FF00#left key#FFFFFF# to decrease a stat.
-Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF# to decrease a stat.
-]], "_t")
-t("Stats points left: #00FF00#%s", "Stats points left: #00FF00#%s", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/ShowAchievements.lua"
--- 1 entries
-t("-- Unknown --", "-- Unknown --", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/dialogs/ShowChatLog.lua"
--- 15 entries
-t("Game Log", "Game Log", "_t")
-t("Right click to inspect.", "Right click to inspect.", "_t")
-t("Show infos", "Show infos", "_t")
-t("Whisper", "Whisper", "_t")
-t("Ignore", "Ignore", "_t")
-t("Open profile(in browser)", "Open profile(in browser)", "_t")
-t("Report for bad behavior", "Report for bad behavior", "_t")
-t("Open charsheet(in browser)", "Open charsheet(in browser)", "_t")
-t("Action", "Action", "_t")
-t("User: ", "User: ", "tformat")
-t("Ignore user", "Ignore user", "_t")
-t("Really ignore all messages from: %s", "Really ignore all messages from: %s", "tformat")
-t("Reason", "Reason", "_t")
-t("Reason to report: %s", "Reason to report: %s", "tformat")
+-- 1 entries
 t("#VIOLET#", "#VIOLET#", "log")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/ShowEquipInven.lua"
--- 6 entries
-t("Main Set", "Main Set", "_t")
-t("Off Set", "Off Set", "_t")
-t("locked", "locked", "_t")
-t("unlocked", "unlocked", "_t")
-t("up", "up", "log")
-t("%s Has no defined main inventory", "%s Has no defined main inventory", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/ShowEquipment.lua"
--- 2 entries
-t("Main Set", "Main Set", "_t")
-t("Off Set", "Off Set", "_t")
 
 
 ------------------------------------------------
@@ -16839,149 +15774,37 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/ShowStore.lua"
--- 2 entries
+-- 1 entries
 t("", "", "_t")
-t(" (pays up to %0.2f gold, Your Gold: %0.2f)", " (pays up to %0.2f gold, Your Gold: %0.2f)", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/SwiftHands.lua"
--- 3 entries
-t("Managed readied tools", "Managed readied tools", "_t")
-t("Readied tools", "Readied tools", "_t")
+-- 1 entries
 t("", "", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/SwiftHandsUse.lua"
--- 4 entries
+-- 3 entries
 t("", "", "_t")
-t("Ready", "Ready", "_t")
 t("%d/%d", "%d/%d", "tformat")
 t("#RED#%d/%d", "#RED#%d/%d", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/TrapsSelect.lua"
--- 16 entries
-t("Select Traps", "Select Traps", "_t")
-t("Select traps to prepare:", "Select traps to prepare:", "_t")
+-- 2 entries
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
-t("starting trap selection dialog", "starting trap selection dialog", "log")
-t(" (replacing instant trigger)", " (replacing instant trigger)", "_t")
-t(" (primed trigger)", " (primed trigger)", "_t")
-t(" (prepared)", " (prepared)", "_t")
-t(" (preparing)", " (preparing)", "_t")
-t(" (dismantling)", " (dismantling)", "_t")
-t(" (need more skill)", " (need more skill)", "_t")
 t(" (%s)", " (%s)", "tformat")
-t("%s) Tier %d: %s%s", "%s) Tier %d: %s%s", "tformat")
-t("#LIGHT_BLUE#You need more skill to prepare this trap.", "#LIGHT_BLUE#You need more skill to prepare this trap.", "logPlayer")
-t("#LIGHT_BLUE#Preparing trap with normal trigger.", "#LIGHT_BLUE#Preparing trap with normal trigger.", "logPlayer")
-t("Accept these selections", "Accept these selections", "_t")
-t("#LIGHT_BLUE#You cannot prepare more than %d traps.", "#LIGHT_BLUE#You cannot prepare more than %d traps.", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/UberTalent.lua"
--- 3 entries
-t("Prodigies: %s", "Prodigies: %s", "tformat")
-t([[#LIGHT_GREEN#Number available: %d#LAST#
-Prodigies are special talents that only the most powerful of characters can attain.%s
-All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[#LIGHT_GREEN#Number available: %d#LAST#
-Prodigies are special talents that only the most powerful of characters can attain.%s
-All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], "_t")
-t("\
-Evolutions are special prodigies specific to a class or race. Only one evolution can be choosen, if any are available at all.", "\
-Evolutions are special prodigies specific to a class or race. Only one evolution can be choosen, if any are available at all.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/UnlockDialog.lua"
--- 2 entries
-t("#VIOLET#Option unlocked: %s", "#VIOLET#Option unlocked: %s", "logPlayer")
-t("Option unlocked: %s", "Option unlocked: %s", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/UseItemDialog.lua"
--- 22 entries
-t("1 to %d", "1 to %d", "tformat")
-t("Drop how many?", "Drop how many?", "_t")
-t("You do not have any equipped items that it can be attached to.", "You do not have any equipped items that it can be attached to.", "_t")
-t("Select which item to attach it to:", "Select which item to attach it to:", "_t")
-t("Really %s %s", "Really %s %s", "tformat")
-t("Tag object (tagged objects can not be destroyed or dropped)", "Tag object (tagged objects can not be destroyed or dropped)", "_t")
-t("Tag:", "Tag:", "_t")
-t("Identify", "Identify", "_t")
-t("Move to normal inventory", "Move to normal inventory", "_t")
-t("Use", "Use", "_t")
-t("Wield/Wear", "Wield/Wear", "_t")
-t("Take off", "Take off", "_t")
-t("Detach from item", "Detach from item", "_t")
-t("Attach to item", "Attach to item", "_t")
-t("Detach tinker", "Detach tinker", "_t")
-t("Drop", "Drop", "_t")
-t("Transfer to party", "Transfer to party", "_t")
-t("%s now", "%s now", "tformat")
-t("Link item in chat", "Link item in chat", "_t")
-t("Lua inspect", "Lua inspect", "_t")
-t("Tag", "Tag", "_t")
-t("Untag", "Untag", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/UseTalents.lua"
--- 41 entries
-t("Object", "Object", "_t")
-t("Sustain", "Sustain", "_t")
-t("Sustaining", "Sustaining", "_t")
-t("Use Talents: %s", "Use Talents: %s", "tformat")
-t([[You can bind a non-passive talent to a hotkey by pressing the corresponding hotkey while selecting a talent or by right-clicking on the talent.
-Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control, shift, or alt).
-Right click or press '~' to configure talent confirmation and automatic use.
-]], [[You can bind a non-passive talent to a hotkey by pressing the corresponding hotkey while selecting a talent or by right-clicking on the talent.
-Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control, shift, or alt).
-Right click or press '~' to configure talent confirmation and automatic use.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("Hotkey", "Hotkey", "_t")
-t("Mouse Click", "Mouse Click", "_t")
-t("Unbind", "Unbind", "_t")
-t("Bind to left mouse click (on a target)", "Bind to left mouse click (on a target)", "_t")
-t("Bind to middle mouse click (on a target)", "Bind to middle mouse click (on a target)", "_t")
-t("Link in chat", "Link in chat", "_t")
-t("#YELLOW#Disable talent confirmation", "#YELLOW#Disable talent confirmation", "_t")
-t("%sRequest confirmation before using this talent", "%sRequest confirmation before using this talent", "tformat")
-t("#YELLOW#Disable ", "#YELLOW#Disable ", "_t")
-t("Auto-use when available", "Auto-use when available", "_t")
-t("Auto-use when no enemies are visible", "Auto-use when no enemies are visible", "_t")
-t("Auto-use when enemies are visible", "Auto-use when enemies are visible", "_t")
-t("Auto-use when enemies are visible and adjacent", "Auto-use when enemies are visible and adjacent", "_t")
-t("Auto-use when out of combat", "Auto-use when out of combat", "_t")
-t("Hotkey ", "Hotkey ", "_t")
-t("Bind talent: %s", "Bind talent: %s", "tformat")
-t("How do you want to bind this talent?", "How do you want to bind this talent?", "_t")
-t("%s assigned to middle mouse click on an hostile target.", "%s assigned to middle mouse click on an hostile target.", "tformat")
-t("Middle mouse click assigned", "Middle mouse click assigned", "_t")
-t("%s assigned to left mouse click on an hostile target.", "%s assigned to left mouse click on an hostile target.", "tformat")
-t("Left mouse click assigned", "Left mouse click assigned", "_t")
-t("#{bold}#Activable talents#{normal}#", "#{bold}#Activable talents#{normal}#", "_t")
-t("All activable talents you can currently use.", "All activable talents you can currently use.", "_t")
-t("#{bold}#Object powers#{normal}#", "#{bold}#Object powers#{normal}#", "_t")
-t("Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "Object powers that can be activated automatically.  Most usable objects will appear here unless they are on cooldown or have ai restrictions.", "_t")
-t("#{bold}#Sustainable talents#{normal}#", "#{bold}#Sustainable talents#{normal}#", "_t")
-t("All sustainable talents you can currently use.", "All sustainable talents you can currently use.", "_t")
-t("#{bold}#Sustained talents#{normal}#", "#{bold}#Sustained talents#{normal}#", "_t")
-t("All sustainable talents you currently sustain, using them will de-activate them.", "All sustainable talents you currently sustain, using them will de-activate them.", "_t")
-t("#{bold}#Cooling down talents#{normal}#", "#{bold}#Cooling down talents#{normal}#", "_t")
-t("All talents you have used that are still cooling down.", "All talents you have used that are still cooling down.", "_t")
-t("#{bold}#Unavailable talents#{normal}#", "#{bold}#Unavailable talents#{normal}#", "_t")
-t("All talents you have that do not have enough resources, or satisfy other dependencies.", "All talents you have that do not have enough resources, or satisfy other dependencies.", "_t")
-t("#{bold}#Passive talents#{normal}#", "#{bold}#Passive talents#{normal}#", "_t")
-t("All your passive talents, they are always active.", "All your passive talents, they are always active.", "_t")
 
 
 ------------------------------------------------
@@ -17219,7 +16042,7 @@ t([[#LIGHT_BLUE#ERROR: Random Boss could not be generated with data [%s].
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/debug/RandomObject.lua"
--- 59 entries
+-- 58 entries
 t("#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "#LIGHT_GREEN#(From %-10.60s, line: %s):#LAST#", "tformat")
 t("Don't apply a resolver", "Don't apply a resolver", "_t")
 t("Object will be equipped if possible, otherwise added to main inventory", "Object will be equipped if possible, otherwise added to main inventory", "_t")
@@ -17255,7 +16078,6 @@ Hotkeys: #GOLD#'F1'#LAST# :: context sensitive help, #GOLD#'C'#LAST# :: Working 
 t("The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "The #LIGHT_GREEN#Random Filter#LAST# controls random generation of a normal object.", "tformat")
 t("#GREY#None#LAST#", "#GREY#None#LAST#", "_t")
 t("%s: %s", "%s: %s", "tformat")
-t("Object", "Object", "_t")
 t("#LIGHT_GREEN#Random Object#LAST#", "#LIGHT_GREEN#Random Object#LAST#", "_t")
 t("#LIGHT_GREEN#Random Filter:#LAST# ", "#LIGHT_GREEN#Random Filter:#LAST# ", "_t")
 t("The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "The #LIGHT_BLUE#Base Filter#LAST# is to generate a base object for building a Randart.", "tformat")

@@ -171,11 +171,17 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
+"game/dlcs/tome-orcs/data/factions.lua" Khelerd 완
 
 ------------------------------ 이하 EoR data/zones ---------------------------------
 
-"game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua" Khelerd 완
-
+"game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/cave-hatred/objects.lua"
+"game/dlcs/tome-orcs/data/zones/cave-hatred/zone.lua"
+"game/dlcs/tome-orcs/data/zones/dominion-port/grids.lua"
+"game/dlcs/tome-orcs/data/zones/dominion-port/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/dominion-port/objects.lua"
+"game/dlcs/tome-orcs/data/zones/dominion-port/zone.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
