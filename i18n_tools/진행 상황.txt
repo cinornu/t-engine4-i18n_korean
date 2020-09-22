@@ -181,7 +181,11 @@
 "game/dlcs/tome-orcs/data/zones/dominion-port/grids.lua"
 "game/dlcs/tome-orcs/data/zones/dominion-port/npcs.lua"
 "game/dlcs/tome-orcs/data/zones/dominion-port/objects.lua"
-"game/dlcs/tome-orcs/data/zones/dominion-port/zone.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/zones/dominion-port/zone.lua"
+"game/dlcs/tome-orcs/data/zones/gates-of-morning/grids.lua"
+"game/dlcs/tome-orcs/data/zones/gates-of-morning/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/gates-of-morning/objects.lua"
+"game/dlcs/tome-orcs/data/zones/gates-of-morning/zone.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
