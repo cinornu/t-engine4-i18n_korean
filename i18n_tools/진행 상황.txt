@@ -193,7 +193,8 @@
 "game/dlcs/tome-orcs/data/zones/internment-camp/grids.lua"
 "game/dlcs/tome-orcs/data/zones/internment-camp/npcs.lua"
 "game/dlcs/tome-orcs/data/zones/internment-camp/objects.lua"
-"game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua"
+"game/dlcs/tome-orcs/data/zones/kaltor-shop/grids.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
