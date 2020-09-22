@@ -14687,7 +14687,7 @@ t("Collapse", "붕괴", "talent name")
 t([[Open a radius 1 rift in spacetime at the targeted location for %d turns, increasing in radius by 1 each turn to a maximum of %d.
 		All caught within the rift are pulled towards the center and take %0.2f gravity damage.
 The damage will increase with your Spellpower.]], [[대상 위치에 %d 턴 동안 유지되는 반경 1 칸의 시공간 균열을 엽니다. 균열은 시간이 지날 수록 점점 커져, 최대 반경 %d 칸의 범위에 영향을 끼칩니다.
-		균열 내의 모든 적은 중심부로 빨려들어가고, %0.2f 중력 피해를 받습ㄴ디ㅏ.
+		균열 내의 모든 적은 중심부로 빨려들어가고, %0.2f 중력 피해를 받습니다.
 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Devourer Stance", "포식 자세", "talent name")
 t([[Attune yourself to the endless hunger of distant dead suns.  For the next %d turns, your attacks will inflict an additional %0.2f gravity damage and attempt to pull enemies closer.  After three turns, you will recover half of all damage taken during this effect.
@@ -14732,7 +14732,7 @@ t("%s's teleportation fizzles!", "%s의 순간이동이 실패했다!", "logSeen
 t("%s emerges from the darkness!", "%s 어둠에서 나타났다!", "logSeen", nil, {"는"})
 t([[Fade into the darkness and reappear elsewhere within range %d.  When you emerge from the shadows, you are accompanied by a bright flash, dealing %0.2f light damage to enemies in radius 1.
 						 The damage will increase with your Spellpower.]], [[어둠 속으로 사라지고, 반경 %d 칸 내의 한 지점에서 다시 나타납니다.  그림자 속에서 나타날 때, 눈부신 빛이 일어나 반경 1 칸 내에 %0.2f 피해를 가합니다.
-						 The damage will increase with your Spellpower.]], "tformat")
+						 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Final Sunbeam", "최후의 태양 광선", "talent name")
 t([[Put all of your physical and magical might into one devastating attack.
 Strike all adjacent enemies for %d%% weapon damage and daze them (using your highest power) for 3 turns.
@@ -19754,7 +19754,7 @@ t([[Sends Dredges in a radius of %d into a frenzy for %d turns.
 		광폭화는 전체 속도를 %d%%, 물리 치명타 확률을 %d%% 늘리고, 생명선 하한이 -%d%% 됩니다.]], "tformat")
 t("Sever Lifeline", "생명선 절단", "talent name")
 t("Start to sever the lifeline of the target. After 4 turns, if the target is still in line of sight of you, its existance will be ended (%d temporal damage).", "대상의 생명선을 자릅니다. 4 턴 후에, 대상이 여전히 시전자의 시야 내에 있을 경우, 대상의 존재는 끝을 맞게됩니다 (%d 시간 피해).", "tformat")
-t("Call of Amakthel", "Amakthel의 부름", "talent name")
+t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
 t("Pull all foes within radius 10 1 grid towards you.", "반경 10 칸의 모든 적들을 1 칸 다가오게 합니다.", "tformat")
 t("Gift of Amakthel", "아마크텔의 선물", "talent name")
@@ -31814,7 +31814,7 @@ Light around it seems to dim and you can feel its tremendous power simply by tou
 The Sorcerers seem to have awakened its power.
 #{italic}#"And lo they came to Amakthel himself, and thousands were killed in the assault on his throne, and three of the Godslayers were broken beneath his feet. But Falion with his dying breath pierced the great god on his knee with the icy sword Arkil, and seeing his opportunity Caldizar, leader of the Godslayers, advanced with the Staff of Absorption and struck a terrifying blow against Amakthel. So fell the greatest of the gods by the hands of his own children, and his face was forced into the dust."#{normal}#]], [[힘의 룬으로 덮여 있는 이 지팡이는 먼 옛날에 만들어졌음에도 흠집 하나 없어 보입니다.
 이 지팡이 주변의 빛은 어두워지고 있으며, 단순히 만져 보기만 해도 지팡이의 터무니없는 힘을 느낄 수 있습니다.
-그 마법사들이 이것의 진정한 힘을 일깨운 모양입니다.
+그 주술사들이 이것의 진정한 힘을 일깨운 모양입니다.
 #{italic}#"그리고 오오, 그들은 아마크텔께 당도하였고, 그분의 옥좌를 향한 사투로 수천의 군사가 목숨을 잃었으며 세 명의 신살자들이 그분의 발밑에서 부서졌도다. 그러나 팔리온이 죽어가며 얼음장 같이 차가운 칼 아르킬로 그분의 무릎을 꿰뚫었으며, 이어서 신살자들의 지도자 칼디자르가 흡수의 지팡이를 쥐고 진격하여 아마크텔께 끔찍한 일격을 가했도다. 그리하여 신들의 왕은 그분의 아이들의 손에 스러져, 그분의 용안은 모래 속으로 밀어넣어졌도다."#{normal}#]], "_t")
 t("absorb the essence (ignoring resistance and bypassing most defenses) of a target in range %d, draining 30%% of its life and increasing your own damage by 30%% for %d turns", "%d 칸 이내의 대상 하나의 정수를 흡수하여 (저항을 무시하며 대부분의 방어 효과를 우회함) 생명력을 30%% 흡수하고 시전자의 피해량을 %d 턴 간 30%% 증가시킵니다.", "tformat")
 t("was absorbed by the %s held by %s", "%s의 지팡이에 의해 %s에게 힘을 빼앗겼다.", "tformat")
