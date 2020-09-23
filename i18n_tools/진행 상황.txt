@@ -232,7 +232,16 @@
 "game/dlcs/tome-orcs/data/zones/sunwall-observatory/grids.lua"
 "game/dlcs/tome-orcs/data/zones/sunwall-observatory/npcs.lua"
 "game/dlcs/tome-orcs/data/zones/sunwall-observatory/objects.lua"
-"game/dlcs/tome-orcs/data/zones/sunwall-observatory/zone.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/zones/sunwall-observatory/zone.lua"
+"game/dlcs/tome-orcs/data/zones/sunwall-outpost/npcs.lua
+"game/dlcs/tome-orcs/data/zones/sunwall-outpost/zone.lua"
+"game/dlcs/tome-orcs/data/zones/tinker-master/grids.lua"
+"game/dlcs/tome-orcs/data/zones/tinker-master/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/tinker-master/zone.lua"
+"game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
+"game/dlcs/tome-orcs/data/zones/town-kruk/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/town-kruk/objects.lua"
+"game/dlcs/tome-orcs/data/zones/town-kruk/traps.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
