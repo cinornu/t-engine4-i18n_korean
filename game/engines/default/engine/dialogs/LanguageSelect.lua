@@ -61,7 +61,7 @@ function _M:generateList()
 		{name = "English (English)", locale="en_US"},
 		{name = "简体中文 (Simplified Chinese)", locale="zh_hans", font=FontPackage:get("default", nil, "chinese")},
 		-- {name = "日本語 (Japanese)", locale="ja_JP", font=FontPackage:get("default", nil, "chinese")},
-		-- {name = "한국어 (Korean)", locale="ko_KR", font=FontPackage:get("default", nil, "chinese")},
+		{name = "한국어 (Korean)", locale="ko_KR", font=FontPackage:get("default", nil, "korean")},
 	}
 
 	if config.settings.cheat then
