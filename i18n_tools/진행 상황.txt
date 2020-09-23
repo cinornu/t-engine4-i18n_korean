@@ -205,7 +205,26 @@
 "game/dlcs/tome-orcs/data/zones/lost-city/grids.lua"
 "game/dlcs/tome-orcs/data/zones/lost-city/npcs.lua"
 "game/dlcs/tome-orcs/data/zones/lost-city/objects.lua"
-"game/dlcs/tome-orcs/data/zones/lost-city/zone.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/zones/lost-city/zone.lua"
+"game/dlcs/tome-orcs/data/zones/palace-fumes/grids.lua"
+"game/dlcs/tome-orcs/data/zones/palace-fumes/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/palace-fumes/objects.lua"
+"game/dlcs/tome-orcs/data/zones/palace-fumes/zone.lua"
+"game/dlcs/tome-orcs/data/zones/pocket-time/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/pocket-time/zone.lua"
+"game/dlcs/tome-orcs/data/zones/primal-forest/grids.lua"
+"game/dlcs/tome-orcs/data/zones/primal-forest/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/primal-forest/objects.lua"
+"game/dlcs/tome-orcs/data/zones/primal-forest/zone.lua"
+"game/dlcs/tome-orcs/data/zones/ritch-hive/grids.lua"
+"game/dlcs/tome-orcs/data/zones/ritch-hive/objects.lua"
+"game/dlcs/tome-orcs/data/zones/ritch-hive/zone.lua"
+"game/dlcs/tome-orcs/data/zones/shertul-cave/grids.lua"
+"game/dlcs/tome-orcs/data/zones/shertul-cave/objects.lua"
+"game/dlcs/tome-orcs/data/zones/shertul-cave/zone.lua"
+"game/dlcs/tome-orcs/data/zones/slumbering-caves/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/slumbering-caves/objects.lua"
+"game/dlcs/tome-orcs/data/zones/slumbering-caves/zone.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------

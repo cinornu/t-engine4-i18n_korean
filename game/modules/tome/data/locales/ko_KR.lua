@@ -13033,24 +13033,96 @@ Ah, how much hope was in me then. But foolish were I to think it could be so eas
 
 Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
 
-Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], [[침묵 속의 의무와 비밀의 장막으로 인해 가장 훌륭했던 두 학생이 앙골웬을 떠난지 몇 년이 되었다. 그들이 우리 곁에서 쌓아 올릴 수 있었던 업적을 생각하면, 아직도 가슴 한편이 무겁다. 하지만 어느날 그들이 다시 돌아올 때, 그들이 우리의 엄숙한 임무를 진정 이해해 주길 희망한다.
+Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], [[침묵 속의 의무와 비밀의 장막으로 인해 가장 훌륭했던 두 학생이 앙골웬을 떠난지 몇 년이 지났습니다. 그들이 우리 곁에서 쌓아 올릴 수 있었던 업적을 생각하면, 아직도 가슴 한편이 무겁네요. 하지만 어느날 그들이 다시 돌아올 때, 그들이 우리의 엄숙한 임무를 진정 이해해 주길, 저는 희망합니다.
 
-그러나 나는 미래에 대해 걱정해야 한다. 내 과거의 후회는 너무나 크기에, 그 후회를 모두 짊어진다면 나는 파멸에 이르리라. 그래서 나는 이제, 우리 이야기를 배우는 그대, 젊은 견습 마법사들을 생각해야만 한다. 나는 그대들에게 임무에 대해 설명할 것이며, 우리 목적, 우리의 정당한 이유에 대해 설명할 것이다. 그리하여 그대들은 우리가 무엇을 행하는지, 왜 행하는지 이해하게 되리라. 비밀 속에서 우리는 움직이고, 과거의 상처를 봉합하기 위해 힘쓸 것이며, 보다 나은 미래를 건설하기 위해 노력할 것이다. 우리 참회는 실로 위대하며, 모든 에이알을 파멸로 몰아 넣은 마법폭발을 결코 잊지 않을 것이다.
+저는 미래를 걱정해야만 합니다. 제 젊은 날의 후회는 너무나 크기에, 그 후회를 모두 짊어진다면 저는 파멸에 이르겠지요. 그래서 저는 이제, 우리들의 이야기를 배우는 여러분, 젊은 견습 마법사들을 생각해야 합니다. 저는 여러분들에게 임무에 대해 설명할 것이며, 우리 목적, 우리의 정당한 이유에 대한 가르침을 줄 것입니다. 그리하여 여러분들은 우리가 무엇을 행하는지, 왜 행하는지 이해하게 되겠지요. 비밀 속에서 우리는 움직이고, 과거의 상처를 치유하기 위해 힘쓸 것이며, 보다 나은 미래를 건설하기 위해 노력할 것입니다. 우리 참회는 실로 거대하여, 모든 에이알을 파멸로 몰아 넣은 마법폭발을 결코 잊지 않을 것입니다.
 
-나는 잘 알았어야 했다, 바로 그 곳에 있었으니. 하지만 장래성은 없었지만 젊은 마법사였던 나는 샬로레 마법사들이 쉐르'툴 폐허에서 실험을 진행하고 있는 것을 알고있었다. 아, 나는 그들이 봉인을 풀려고 했던 힘이 탐났었다. 나의 오만했던 젊은 시절은, 그 어떤 두려움과 주의도 없이 기회와 영광만을 생각했다. 그 생각을 주의하라...
+저는 보다 잘 알았어야 했습니다. 바로 그 곳에 있었으니. 장래성은 없었지만 젊은 마법사였던 저는 샬로레 마법사들이 쉐르'툴 폐허에서 실험을 진행하고 있는 것을 알고있었습니다. 아, 저는 그들이 봉인을 풀려고 애를 쓰던 그 힘을 갖고싶었습니다. 저의 오만했던 젊은 시절은, 그 어떤 두려움과 주의도 없이 기회와 영광만을 생각했었습니다. 그 위험한 생각을 경계하세요...
 
-2600 번의 태양 주기가 내 머리 위를 지나갔지만 난 아직도 하늘이 화염으로 뒤덮히고, 땅이 갈라지던 날의 기억을 떨처낼 수가 없다. 나는 허공에서 마법을 느꼈다. 갑자기 터저나왔던, 그 누구도 제어 할 수 없는 마법 에너지들. 나는 그 즉시 샬로레 마법사들이 장거리 차원문의 힘을 봉인 해제한 것을 알았으나, 터저나온 힘은 그들 모두의 예상을 뛰어 넘은 것이였다. 그 짧은 몇 초 동안, 불타오르는 에너지가 우리 머리 위의 하늘을 찢어발기고, 핏빛의 파괴의 기둥이 되어 곧장 땅으로 내려왔다. 내가 할 수 있던 것이라고는 보호막을 치는 것 뿐이였고, 내가 입은 화상은 실로 끔찍해, 오늘날까지 흉터가 남아있다. 살아남은 사람이라곤 나 뿐이였다. 나는 아직도 내 자매 네이라가 내 바로 옆에서 뱉은 짧은 비명을 기억한다. 그녀의 피부는 끔찍한 에너지로 인해 벗겨저 나가고, 몸은 화염의 장작더미에 삼켜졌으며, 재는 격변하는 대지로 인해 흩뿌려졌다. 26 세기가 지났음에도 나는 아직도 그 비명 소리에 밤 잠을 설치곤 한다...
+2600 번의 태양 공전이 제 머리 위를 지나갔지만, 저는 아직도 하늘이 화염으로 뒤덮히고, 땅이 갈라지던 날의 기억을 떨처낼 수가 없습니다. 그때 저는 허공에서 마법을 느꼈다. 갑자기 터저나왔던, 그 누구도 제어 할 수 없는 마법 에너지들. 저는 그 즉시 샬로레 마법사들이 장거리 차원문의 힘을 해방한 것을 알았습니다. 하지만 그 힘은 그들 모두의 예상을 뛰어 넘은 것이였습니다. 그 짧은 몇 초 동안, 불타오르는 에너지가 우리 머리 위의 하늘을 찢어발기고, 핏빛의 파괴의 기둥이 되어 곧장 땅으로 내려왔다. 제가 할 수 있던 것이라고는 보호막을 치는 것 뿐이였고, 제가 입은 화상은 실로 끔찍해, 오늘날까지 흉터가 남아있습니다. 살아남은 사람이라곤 저 혼자였습니다. 저는 아직도 내 자매 네이라가 내 바로 옆에서 뱉은 짧은 비명을 기억합니다. 그녀의 피부는 끔찍한 에너지로 인해 벗겨저 나가고, 몸은 화염의 장작더미에 삼켜졌으며, 격변하는 대지가 그녀의 재를 흩뿌렸습니다. 26 세기가 지났음에도 저는 아직도 그 비명 소리에 밤 잠을 설치고는 합니다...
 
-그날, 나는 사랑했던 사람들을 많이 잃었지만, 그런 슬픔에 빠진 사람은 나 혼자가 아니였다. 온 에이알에 죽은 사람들이 넘처났고, 뒤 이은 혼란에 더 많은 사람들이 희생되었다. 그렇게 마법사냥이 시작되자, 사람들은 마법사의 오만함에 반기를 들었고 우리들을 무자비하게 학살했다. 마법폭발 이후, 우리의 능력은 혼란스러워졌고, 우리의 마나 집중은 우리에게서 끊어졌었다. 우리는 거의 무방비 상태였고, 그렇기에 우리들은 숨겨진 도시, 앙골웬을 찾아 내는데 많은 노력을 들여야했다. 수 많은 위대한 마법사들이 마법폭발 이후 벌어진 폭동에 살해당했고, 무고한 이들도 많은 피를 흘렸다. 불신과 피에 대한 갈증이 그곳에 가득헀다. 하지만, 아아.. 고통은 거기서 끝나지 않았다.
+그 날, 저는 사랑했던 사람들을 많이 잃었지만, 그런 슬픔에 빠진 사람은 저 혼자가 아니였습니다. 온 에이알에 죽은 사람들이 넘처났고, 뒤 이은 혼란에 더 많은 사람들이 희생되었습니다. 그렇게 마법사냥이 시작되자, 사람들은 마법사의 오만함에 반기를 들었고 우리들을 무자비하게 학살했습니다. 마법폭발 이후, 우리와 마나 사이의 연결은 혼란스러워졌고, 우리의 마나 집중은 우리에게서 끊어졌었습니다. 우리는 거의 무방비 상태였고, 그렇기에 우리들은 숨겨진 도시, 앙골웬을 찾아 내는데 많은 노력을 들여야했습니다. 수 많은 위대한 마법사들이 마법폭발 이후 벌어진 폭동에 살해당했고, 무고한 이들도 많은 피를 흘렸습니다. 불신과 피에 대한 갈증이 사람들 사이에 가득헀다. 하지만, 아아.. 고통은 거기서 끝나지 않았습니다.
 
-The effects of the Spellblaze can still be seen today, in tortured lands and blighted earths. In the Age of Dusk it were much worse. New diseases arose, plagues swept across all cities, civilisations brought to nothing. All our races came close to extinction, and an age of darkness came upon all learning and enlightenment. Feudal lords and bandit gangs fought amongst what little healthy lands were left, whilst the blights continued to ravage what free people remained. That was when I did begin our secret missions to repair the world, to make right the errors of our actions. In silent operation we visited the broken lands and used our powers to heal, not to destroy. Many centuries it took, but at last the aftereffects of the Spellblaze began to diminish, and the people began to rebuild.
+마법폭발의 흔적은 땅을 고문하거나, 대지를 황폐화 시키는 등, 오늘 날에도 잔재합니다. 황혼의 시대 때의 상황은 훨신 나빴었습니다. 새로운 질병이 퍼지고, 모든 도시에 역병이 창궐했으며, 많은 문명들이 거품처럼 사라졌습니다. 모든 종족들이 멸종의 위기에 몰렸고,  모든 깨달음과 가르침에 암흑의 시기가 도래하였습니다. 영주들과 강도들은 얼마 남지 않은, 아직 황폐화 되지 않은 땅덩이 안에서도 싸웠었고, 그 밖의 지역에서는 역병이 계속 번저나가 자유민들이 남아있는 땅을 파괴했습니다. 그때가 바로 제가 세계를 고치고, 저희의 잘못된 것을 고치려는, 우리의 비밀스러운 임무를 시작한 때였습니다. 그 소리없는 임무들 속에서, 우리는 부서진 땅을 찾아가, 우리의 힘을 파괴가 아닌, 회복을 위해 사용했습니다. 세계의 회복은 오랜 시간이 걸렸지만, 적어도 마법폭발의 후폭풍은 잦아들기 시작했고, 사람들은 재건하기 시작했습니다.
 
-Ah, how much hope was in me then. But foolish were I to think it could be so easy. The wounds of Eyal struck deeper than mere diseases on the surface. The poison went down much further, and the cracks tore through the very roots of our world. One dark and stormy day a great cataclysm swept forth from the east, and the land rose 500 leagues into the sky. We could do naught but gasp in horror as whole cities, whole races were swept into the sea. The continents were sheared apart and all of Eyal forever changed. It was a sight to humble even the greatest archmage.
+아, 그 때 저는 얼마나 큰 희망을 갖고있었는지 모릅니다. 하지만 저는 너무 쉽다고 생각할 정도로 어리석었습니다. 에이알의 상처는 그 대지에 창궐한 질병들 보다 더 깊숙한 곳 까지 파고들었었습니다. 마법폭발의 독기는 우리 생각보다 훨씬 깊은 곳까지 파고들었었고, 그 갈라진 상처는 우리 세계 그 자체의 뿌리를 찢어버렸습니다. 어느 어둡고, 폭풍이 일던 날, 거대한 격변이 동쪽 대지를 덮쳤고, 대지는 수 천 킬로미터까지 치솟아 올랐습니다. 우리가 아무 것도 할 수 없었던 동안, 도시 전체가 공포에 질려 숨도 제대로 쉬지 못했고, 이윽고 모든 종족이 바다에 휩쓸려버렸습니다. 대륙은 갈라졌고, 모든 에이알이 영원히 변해버렸습니다. 가장 강력한 마도사마저 그 힘 앞에서는 겸손해질 수 밖에 없겠지요.
 
-Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
+아아, 그래서, 겸손이야말로 제가 여러분들에게 가르치는 것입니다. 여러분 모두, 저 밖에는 여러분들을 무가치할 정도로 작아지게 만드는 강력한 힘이 존재합니다. 그 힘은 오직 공포와 파괴를 가저오기에, 그것들은 영광도, 긍지도 없음을 잘 아시길 바랍니다.
 
-Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], "_t")
+우리 의무는 세계를 구하는 것입니다. 우리의 속죄는 비밀 속에서 행해집니다. 오래된 상처가 남아있고, 새로운 상처가 나타나지만, 그 모두를 침묵의 장막 뒤에서 처리할겁니다. 우리 동족에 대한 불신은 아직 사람들의 마음 속에 깊히 자리잡고 있고, 우리들을 폭력적인 열정으로 증오하는 이들도 존재합니다. 하지만 세계는 변하고 있으며, 아마 언젠가, 우리들도 사회에 다시 한번 받아들여지게 될 겁니다. 그 때까지, 이 겸손에 대한 강의를 잘 기억하고, 저 밖의 세상에서는 비밀로 하여, 여러분 모두의 몸을 지키기를 희망합니다.]], "_t")
 t("Lecture on the nature of magic by Archmage Tarelion", "마도사 타레리온의 마법의 본질에 대한 강의", "_t")
+t([[#{bold}#"What is Magic?"
+#{italic}#A study by Archmage Tazimar Tarelion#{normal}#
+
+How uncouth and common a question it must seem, and yet it is the one I am asked most often, even by some of our most learned students. Too often we teach The Art by practice and imitation and concentration on the end effects, without teaching in greater detail of the underlying principles. Just as a musician may merrily play on his harp without knowing how the sound arises from the vibration of the strings, so a mage may make use of magic without realising the true forces at work. In this document I hope to give learning on the nature of magic, and how the underlying effects give rise to all the wondrous fruits we can produce.
+
+Alchemists will tell you that the world is made up of many base materials - lead, copper, iron, gold and so on. They are fixated on splitting things down into these components and investigating how they react with each other. However there is more to the world than this. Certainly they represent the physical make-up of things, but they do not show the forces and energy that bring everything into motion. The forces of fire, cold, lightning and life itself are all very real effects, and these we call the Elements of Eyal. The true archmage is interested in the interactions of the elemental forces of the world, and manipulating them to his or her need.
+
+The elemental forces exist naturally in the world, and are weaved around all things in an all-encompassing canvas. They move, vibrate and resonate with the materials of the world, and the effects of each play heavily on one another. All creatures naturally make use of these elements, and some are more attuned to these threads than others. With great training and practice we can become more attuned to these wild forces ourselves, and in so doing some can match the speed of wolves, the strength of bears, the tenacity of treants and even the immense natural powers of dragons.
+
+But there is another way of gaining access to these elemental forces - a more direct way, though some would call it unnatural. Long ago people discovered with much training how to concentrate their wills to pluck the elemental threads directly. This can release great energies, and these can be shaped to produce real effects in the world. Plumes of fire, bolts of lightning and blasts of ice can all be called forth by those suitably trained. The true masters of magic can go much further, combining many resonant forces to create complex physical effects.
+
+The tapping of threads can be a draining task, requiring much effort of will to sustain. This is what we versed in the arcane call "mana", that mental stamina dedicated to the interaction with the elements of the world. Continual use of magic is like the constant lifting and holding of heavy weights, and eventually one will find one's capacity drained. Practice allows one to build up greater pools of mana, and certain runes and spells can gradually build extra reserves to be called upon as needed.
+
+Magical runes and items are imbued with an attachment to certain elemental threads. This requires delicate work by experienced and gifted enchanters. The most intricate of magical artifacts demand many years of work, using intense mental effort to permanently attune the core materials to the right elemental energies. Gemstones are especially easy to work with in this craft, and alchemists use them often to bring about elemental effects.
+
+Some believe that magic is inherently wrong, that the so-called twisting of the elements with one's will can only lead to terrible things. As students of Angolwen I assume you disagree! Magic is simply an extension of the forces of nature, and are we not natural creatures that use it? But remember that magic is still a powerful force that can be used for good or ill. Magic is indeed a tool of immense value - use it wisely.
+]], [[#{bold}#"마법이 뭡니까?"
+#{italic}#티자마르 타레리온의 연구#{normal}#
+
+얼마나 상스럽고 흔한 질문인가, 하지만 이 질문이야 말로 내가 가장 많이 듣는 질문이다. 심지어 가장 총명한 학생들에게마저 내게 마법이 무어냐고 물어보곤 한다. 우리는 거의 항상 기교를 행하는 법과, 따라하기, 그리고 그 결과에 대해서만 가르치지, 마법의 근본적인 법칙의 위대한 세세한 가르침들에 대해서는 거의 알려주지 않았다. 마치 음악가가 현의 진동에서 소리가 어떻게 발생하는지 모르는 채 즐겁게 하프를 연주하는 것 처럼 말이다. 따라서, 이러한 마법사들은 진정한 힘을 깨닫지 못한 채 마법을 사용하고 있다. 이 문서에서, 나는 그대들에게 마법의 본질을 이해하는 데 도움을 주고, 어떻게 그 근본적인 효과들이 우리의 위대한 성과들을 이루어 내는지 가르치길 희망한다.
+
+연금술사들은 세계는 다양한 기본 물질로 이루어졌다고 말할 것이다 - 납, 구리, 철, 금 등. 연금술사들은 이런 요소들로 세상을 나누고, 그 요소들이 서로 어떻게 반응하는지 연구하는 데에 집착한다. 하지만 이 세계는 이러한 집착보다 더 거대한 법이다. 분명히 그것들은 사물이 물리적으로, 어떻게 구성되어 있는지를 나타내지만, 그것이 모든 것을 움직이게 하는 힘과 에너지를 설명해 주지는 않는다. 불과 얼음, 번개와 생명, 우리들이 에이알의 원소라고 부르는 것들은 모두 실질적인 효과를 갖고있다. 진정한 마도사라 함은, 원소들의 힘이 세계에 간섭함에 관심을 갖고, 그 간섭을 자신의 필요에 따라 조작할 수 있어야한다.
+
+원소의 힘은 세계에 자연적으로 존재하고, 모든 존재의 주변에 엮여져있다. 원소들이 움직일 때, 세계의 물질들과 공명하고, 진동하며, 이런 공명과 진동이 다른 원소에게 미치는 영향은 아주 크다. 모든 생명체들은 자연적으로 이러한 원소들을 사용할 수 있는 힘을 타고나지만, 몇몇 생명체들은 다른 생명체들보다 훨씬 더 이러한 원소의 가닥에 동화 되어있다. 굉장한 훈련과 연습으로, 우리는 우리 스스로를 더욱 더 격려한 힘에 동화시킬 수 있어, 몇몇은 늑대같은 속도를 내고, 누군가는 곰의 힘을, 누군가는 나무 정령의 강인함을 내고, 심지어는 엄청난 드래곤의 본질적인 힘 까지 끌어 올릴 수 있다.
+
+하지만 원소들의 힘에 접근할 수 있는 다른 방법이 있다 - 더 직접적인 방법, 소위 비자연적이라고 부르는 방법이다. 먼 옛날, 사람들은 많은 수련을 통하여 어떻게 그들의 의지를 집중해, 원소의 가닥을 직접 뽑을 수 있는 지에 대한 방법을 발견하였다. 이 방법은 강력한 에너지를 발산하고, 또 이 세계에 실질적인 영향을 낼 수 있도록 다듬어질 수 있다. 화염의 기둥, 전기 화살 그리고 얼음 폭발처럼. 적당한 훈련을 받은 이들이라면 누구나 이 힘을 불러낼 수 있다. 거기에 더해, 진정한 마법의 대가들은 다양한 힘의 공명을 혼합해 더욱 복잡한 물리 효과를 만들어 냈다.
+
+원소들의 가닥을 이용하는 방식은 유지하기 위해 많은 의지력이 필요하기에, 때때로 시전자의 힘을 고갈시켰다. 이것이 바로 마법 주문에 정통한 이들, 우리들이 흔히 말하는 "마나" 이다. 이 정신적인 기력은 오직 세계의 원소들을 간섭하기 위해 존재한다. 마법의 지속적인 사용은 무거운 물체를 항상 들고, 들어올리려는 것과 같으며, 결국에는 술사는 술사의 힘이 고갈됨을 알게 될 것이다. 연습이야말로, 마법 사용자들의 마나 웅덩이를 키우는 방법이며, 몇몇 룬과 주문은 필요할 떄, 원천력을 서서히 늘릴 수 있다.
+
+마법 룬과 마법 물품들은 원소 가닥을 부착해 힘을 주입한다. 이 섬세한 기교는 경험과 마법 부여자로써의 천성적인 능력이 뒷받침 되어야한다. 아주 복잡한 마법 유물들은 몇 년동안의 노력을 요할 것이며, 핵심 물질을 올바른 원소 에너지에 동화시키기 위해 막대한 정신적 노력이 수반되어야 한다. 보석들은 이러한 노력들을 훨씬 쉽게 만들어주고, 연금술사들은 보석을 사용해 원소 효과를 불러낸다.
+
+몇몇 이들은 마법이 본질적으로 잘못되었다고 믿는다. 한 사람의 의지로 원소들을 뒤틀어 버린다는 것은 오직 끔찍한 결과로만 이어진다고 생각하기 때문이다. 앙골웬의 학생으로써, 그대들은 이에 동의하지 않으리라는 것을 믿는다! 마법은 자연의 힘의 단순한 연장선에 불과하고, 마법을 사용하는 우리들이 비자연적인 존재가 되는 것은 아니지 않은가? 하지만 기억하게, 마법은 여전히 강력한 힘이며, 선과 악 그 모두를 위해 쓰일 수 있음을. 마법은 실로 엄청난 가치를 가진 도구이다 - 현명하게 사용하게.
+]], "_t")
+t("The spellblade", "주문칼날", "_t")
+t([[From the desk of Archmage Varil,
+Another day dawns on Angolwen. I hesitate to write this, but it almost feels as if peace is once again returning to Eyal. Saying this, I almost expect war and destruction to erupt immediately - fate is anything if not spiteful. Regardless, my sleep grows less disturbed by my memories of the Spellhunt day by day, and I can now devote myself wholly to the betterment of our cloistered community here in the mountains.
+
+This is not to say that life has been without conflict at all. An agent of the Ziguranth infiltrated Angolwen under the guise of a travelling alchemist a few days ago; an unhappy first, I'm afraid. Having used choking powder to incapacitate the guards and rob the surrounding mages of their voices, things may have turned ugly if Linaniil hadn't been passing by on one of her walks. Little was left of that man... or the tree he hid behind... or many of the surrounding buildings, to be honest.
+
+In a way, the incident lit a fire under me to pursue my studies and develop my powers, but I must admit that my interest in staff practice has waned as of late. My fencing, on the other hand, improves by the day. Hmm... I wonder if I can get some of the enchanters to help me "augment" my old sword. After all, what is a blade but a sharpened metal staff?]], [[대마도사 바릴의 책상에서,
+앙골웬에 또 새로운 태양이 떴다네. 편지를 쓰기 망설여지지만, 다시한번, 에이알로 평화가 돌아오는 것 같은 느낌이 든다네. 이렇게 말하면서도, 나는 전쟁과 파괴가 당장 폭발할 것이라 예상하지만 - 운명이라는 것은 변덕진 놈이니까 말일세. 그럼에도 불구하고, 날이면 날마다, 마법사냥의 기억들이 잠을 덜 방해하기 시작했다네. 그래서 나는 이제, 이 산의 우리 공동체에 발전을 위해 온 시간을 쏟을 수 있게되었네.
+
+그렇다고 이곳에서의 삶에 불화가 없었다는 뜻은 아니네. 며칠 전에, 지구랏 요원 하나가 연금술사로 위장하여 앙골웬으로 잠입했네. 이런 안좋은 상황은 처음 맞았던 건데... 나는 걱정했네. 질식 가루를 사용해 우리 보초들을 무력화시키고, 주위를 둘러싼 마법사들의 목소리를 강탈했네. 리나니일이 근처를 산책하지  않았다면 상황은 안좋게 돌아갔을거야. 그 남자는 아무것도 남기지 않았다네. 아무것도. 그가 숨었던 나무들, 그리고 둘러싼 많은 건물들 모두 사라졌어. 이건 장난이 아닐세.
+
+어찌되건, 그 사건은 내게있어 연구와 힘을 계발하기 위한 큰 동기를 부여 해주었지만, 최근들어 지팡이 수련에 관심이 시들어저가고 있다는 것은 인정해야겠네. 그 반면에, 내 검술, 하루가 다르게 늘고있다네. 음... 나는 내 오래된 칼을 "강화" 할 수 있을만한 마법 부여자를 찾을 수 있을지 궁금하다네. 어쨋든, 칼날이라는 것 자체가 날카로운 금속 지팡이 아니겠나?]], "_t")
+t("angolwen", "앙골웬", "newLore category")
+t("Angolwen Fountain", "앙골웬 분수", "_t")
+t([[#{italic}#(You see here a large, elaborate fountain.  A statue of Linaniil stands in the center, her arms outstretched to welcome all; around the outside of the fountain stand statues of a dwarf manipulating earthen runes, a human with a simple healer's crosier, an elf with a tall, elaborate staff, and a halfling with a scepter in one hand and a fireball hovering over the other.  The runes and the fireball are not connected to anything, and float in a fixed position in the air.  You see a carving repeating along the border of the fountain, in small print.)#{normal}#
+
+ALL ARE WELCOME WHO LEARN FROM THE MISTAKES OF THE PAST
+
+LET THE ARCANE ONCE MORE BE A BOON AND NOT A BANE TO MAJ'EYAL
+
+ALL ARE WELCOME WHO EASE THE SUFFERING OF THE PRESENT
+
+MAY WE HAVE THE WISDOM TO ONE DAY REUNITE THE WORLD IN SAFETY AND ENLIGHTENMENT
+
+ALL ARE WELCOME WHO PREVENT THE THREATS OF THE FUTURE
+
+GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO WEAVE THE WORLD'S FABRIC]], [[#{italic}#(이곳에 거대하고, 정교하게 제작된 분수가 보인다.  리나니일의 조각상이 중앙에 우뚝 서있고, 그녀의 팔은 쭉 뻗어있어, 마치 모두를 환영하는 듯 하다. 분수의 주변에는 대지 룬을 조작중인 드워프 조각상과, 단순한 치료사 지팡이를 든 인간, 세세하게 장식된 지팡이를 든 키 큰 엘프, 그리고 한 손에 홀을 든 하플링 조각상이 있고 그 머리 위에 화염구가 떠나닌다.  룬과 화염구는 어디에도 연결되지 않았지만, 허공에서, 고정된 위치에 떠다니고있다.  작은 글씨로, 분수의 경계 부분을 따라 조각이 반복됨을 볼 수 있다.)#{normal}#
+
+과거의 실수로 부터 배우려는 모든 이를 모두 환영하오
+
+마법이 마즈'에이알의 파멸이 아닌 이로운 도구가 되게하리라
+
+현재의 고통을 지울 수 있는 모든 이를 환영하오
+
+우리에게 안전과 깨달음 속에서 세계를 다시 재결합시킬 지혜가 깃들기를
+
+미래의 위협을 예방하려는 모든 이를 환영하오
+
+세계의 구조를 짜낼 지식을 평화 속에서 발견하고 완성하려는 자, 이곳을 찾아오길]], "_t")
 
 
 ------------------------------------------------
@@ -13081,7 +13153,15 @@ t("Freezing Trap", "빙결 함정", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/lore/derth.lua"
 
+t("derth", "데르스", "newLore category")
 t("Beam Trap", "광선 함정", "_t")
+t([[#{italic}#A villager runs up to you, carrying a hefty looking sack.#{normal}#
+You've saved us from the storms!  We can't ever repay you enough, but, well...  Shortly after you stopped them, a witch approached us and offered us some...  magical #{italic}#things#{normal}# and said they would protect our town if anything like that happened again.
+It's not that I don't trust her, not after you and they - mostly you! - saved us, but...  I just don't feel comfortable having all this arcane stuff around us all the time.  None of us do.  If you've got a use for these, you're more than welcome to them.
+#{italic}#He hands you a sack, containing a few dozen of the same strange magical object; included is a guide to using them and producing more, written for users completely inexperienced with magic.  Apparently, they're designed to be mounted on walls and rooftops, and will try to non-lethally incapacitate outside invaders while sending a message of distress to Angolwen.  With a few tweaks, you can make them deadly instead (and avoid harassing Angolwen while you're at it).#{normal}#]], [[#{italic}#마을 주민 한명이 묵직한 자루를 들고 당신에게로 뛰어옵니다.#{normal}#
+우리를 폭풍에서 구해주셨군요!  이 은혜를 저희는 무엇으로도 값지 못할겁니다. 하지만...  폭풍이 멈추고 나서, 왠 마녀가 와서는 우리에게 이런...  마법 #{italic}#물품들#{normal}#을 두고갔습니다. 그리고는 이 물건들이 다음 번에 이런일이 발생하더라도, 우리들을 지켜줄 수 있을 거라고 하더라구요.
+아니, 제가 그녀를 믿지 못한다는건 아니고, 특히 우리를 구해준 당신을 믿지 않는다니! - 당치도 않은 소리죠...  저는 단지 이런 마법적인 물건들이 항상 우리 곁에 있는게 좀 불편할 따름입니다.  저희 모두가요.  만약 이 물건들이 쓸만 하다면, 저희보다는 당신에게 더 어울리는 것 같네요.
+#{italic}#그가 자루를 당신에게 건내자, 마법 도구 수십 개가 보인다. 마법 문외한들을 위한 사용 설명서와, 제작법까지 동봉되어있다.  보기에는, 벽이나 지붕에 장착해, 외부 침입자들을 비살상적인 방법으로 무력화 하고, 앙골웬에 구조 요청을 보내는 기능을 갖고 있는 것 같다.  작은 개량을 통해, 살상력을 극대화 할 수 있을 것 같다. (앙골웬을 귀찮게 하는 일 없이).#{normal}#]], "_t")
 
 
 ------------------------------------------------
@@ -13095,6 +13175,96 @@ t("A poem written in an elegant Gothic script", "우아한 고딕 서체로 쓰�
 ------------------------------------------------
 section "game/modules/tome/data/lore/elvala.lua"
 
+t("The Spellblaze Chronicles(1): A Fateful Meeting", "마법폭발 연대기 (1): 운명적인 만남", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter One: A Fateful Meeting#{normal}#
+
+This tale begins in the Age of Allure, when I was yet young, and the idea of youth and age was still a pressure on our people.  It is one tale amongst a host of tales, for many are the stories of tragedy and heroism that befell all the races in this era.  I can only give my story, my tragedies, and my follies dressed as heroism, woven around the great force that shook our world and changed our histories: The Spellblaze.
+
+I first met Linaniil at a council summit, when our leader Ephinias was meeting with the head of the Kar’Krul.  I remember the huge man walking through the gates of our city, our people staring at his wide girth and bristling hair, his fur clothes and his proud stride.  How out of place he looked amongst us slender elves...  Some thought him a barbarian, but I could see behind his frosty eyes there was great power.  He was from a hardy race of men that once dwelt in the north of Eyal, who it was said drew power from the green fires that danced in their everwinter skies.  Turthel was his name, and the like of him has not trod through earth or snow in many centuries.  Upon his right hand he wore the Ring of Kar’Krul, a lustrous gold band adorned by a blazing ruby, token to his position as the leader of the greatest union of human mages in Maj’Eyal.
+
+With him were his twin daughters, Linaniil and Neira, who walked before him.  Identical they were in looks, yet I saw straight away that they were opposites in personality.  They were each of crimson hair, worn long in spilling tresses, with pale skin that shone in the sunlight.  They were dressed in silken robes, but whilst Neira was adorned in yellow and orange, Linaniil wore blue and silver.  Neira was bright of glance and cheery of voice, remarking on every item of beauty she passed as they strolled through the courtyards of Elvala.  Linaniil was quiet though, and stern of face, coldly analysing and calculating all she saw.  But beneath that icy exterior I could see a fire – nay, a blaze, a bright burning passion yearning to break out, yet kept restrained.  For a moment we made eye contact as the party approached the citadel, and I could see laid bare her wild spirit and untempered thoughts, a will and strength of mind that was utterly unconquerable.  It took my breath from me.
+
+Few of my people have ever understood how one of our race could be infatuated with a human.  But they have not known Linaniil.  Not as I have known her.  Like raw fire given flesh is she, a burning ball of emotions and desires.  Her fervent mind brooks no opposition, and her wit and words charm or coerce all around her.  Beautiful and radiant is her form, as bright as the summer sun, yet also cold and remote, unreachable unless she wants to be reached.  In all the ages this has never changed about her.
+
+I barely noticed Neira greeting me warmly as she passed through the gate.  Linaniil gave me but a curt nod.  I followed after, as our leader and his guests entered the grand chamber and took their seats.  The summit was to begin on the planning of a new endeavour, a great work by our highest mages to tap into the power of the Sher’Tul farportals.  Long had the relics of that ancient race lain dormant beneath the soil, their powers untouched.  With that mighty strength brought forth we could end the war with the orcs quickly and decisively.  The Spellblaze they called it, and it was a name we spoke in awe and reverence.
+
+King Ephinias began the meeting, introducing our guests and then those around him.  “This is my general,” he said gesturing to me, “Commander Gawaeil of the Shaloren Armies.”  Immediately Linaniil looked at me and gawked.
+
+“What?” she cried, staring at my armour and baldric.  She turned away from us, seeming not to heed her distinguished hosts.  “Father, what be the meaning of this?” she said to the burly man.  “Ye gave tell that the Shaloren had the mightiest battlemages, yet their general be cased in steel and girt with sword.  Does a mere fighter command experts in the Art?”
+
+Ephinias looked outraged, but I laughed suddenly, both at her extreme rudeness and her wild presumptions.  “A mere fighter?” I said between incredulous gasps.  “Lady, you would do well not to judge so on appearances.  For if I judge right I see no mere impudent lass before me, but a great master of flames and inflagrations, and a weaver of threads more stern-willed even than her chill-blooded father.  But do not presume yourself a greater worker of the Art than I!  For I am Aranion Gawaeil, master of the Arcane Blade, a channeller of mighty elemental forces.  The spells willed through my steel have slain more orcs than you have seen in your short life, or like will ever see.”
+
+She looked at me then with sudden interest.  “A strange technique it sounds.  Ludicrous it seems when one can simply burn foes from afar.  Though perhaps if we hunt orc together some time I shall see for mine self.  But ye would be hard pressed indeed to better me on the battlefield.”
+
+“I shall endeavour to impress, my lady,” I said, with a mock bow of my head.  A thin smile played across her lips.
+
+Turthel grunted and turned his shaggy head to the king.  “Business,” he said, in the blunt and brief manner I had heard reported of him.
+
+Ephinias cleared his throat and sat back in his chair.  “We have a grand plan before us,” he began. “For many years we have been plagued by orc attacks.  Initially we were weakened from the Allure Wars, but now that we are beginning to recover our strength it is time to put our joint enemy to rest.  Too often they have threatened to overrun us all, to destroy civilisation forever.  We have all lost much.  Turthel, I can deeply sympathise with your personal loss.”  The fur-clothed man did not change his expression, but I could see his daughters dip their heads in solemn thought.
+
+“I have been leading our archmages in an experiment on the Sher’Tul farportal to the east of here.  We believe we can evoke the great powers sealed within to create a wave of destructive energy that we could direct against the orcish armies.  If all the races cooperate in drawing the orcish forces out then we can end this war in one swift strike.  The orcs would be decimated beyond recovery, and Eyal would be cleansed of their presence.
+
+“I have approached the leaders of the other races.  The halflings are fully supportive.  The Nargol regents have even provided us with some of their historical research on Sher’Tul ruins.”
+
+Turthel cursed then suddenly.  “Research done on human slaves!” he barked.  He turned quiet then, letting his temper settle.  “What of your sea and forest cousins?”
+
+Ephinias looked him coolly in the eye.  “The Naloren are prideful and do not wish to cooperate.  They think they can protect their lands on their own.  Yet I believe they will thank us in the end...  The Thaloren are not entirely keen either.  But we have discussed with their king and queen, and given great assurances as to the safety of our operations.  They do not wholly trust us or our command of the arcane, but in this they will not oppose us.  Shatur is as weary of the orc attacks on its borders as any of us.  They will give aid where it is convenient, as long as they ride under their own banners.  We do not particularly need them, of course, but we thought it prudent to involve all we could.
+
+“The other human leaders have mostly assented.  Some have expressed wholly irrational fears of our activities.  Alas, legends and myths still abound to scare people away from anything to do with the Sher’Tul.  But we are confident that we know what we are doing here.  The Kar’Krul elite I’m sure will understand.  And your alliance is worth a dozen lesser kings.”
+
+The burly man stared hard and long into Ephinias’ eyes, before turning to his daughters.  “What do ye think, girls?”
+
+Neira was the first to respond, and there was colour in her cheeks and emotion in her voice.  “I deem this Shaloren king remote and proud.  Sympathy he talks of whilst using our mother’s memory as a tool.  Understanding he proclaims, yet how can any truly know the subtlety behind these Sher’Tul relics?  Untouched they be for millennia, and their original power is still unknown.  What pride lets ye think ye can toy with them now?  It be folly to use a weapon that ye know not how to wield.”
+
+The room went quiet, and I could see Ephinias was silently fuming.  He was not accustomed to such open criticism.  Then Linaniil began to speak, and her voice was low and cool, yet all ears hung on her words.  “Many have been the works of pride over the years that have arisen in splendour.  Whence have come our great artworks, our grand cities, or the arcane weavings that shape our societies?  No meekness be found in their crafting.  There be no shame in acting out of pride, and we gain nothing from misplaced humility.  Too long have the powers of the Sher’Tul been left untapped by fearful and timid hearts.”  I could see then her eyes light up with excitement.  “Think of the glories we could unlock!  This war with the orcs would be but the beginning.  Great benefit could be brought to us all.  To leave these powers buried would be a crime, I say.”
+
+Turthel paused reflectively before nodding his head slowly, and it was clear that Linaniil’s words aligned better with his own thoughts.  “Very well,” he slowly announced, looking directly at Ephinias.  “We are with you.”  Neira stayed silent with brooding concern, but a flash of satisfaction crossed her sister’s eyes.]], [[#{italic}#엘발라 대의회 의장, 아라니온 가웨일의 회고록에서 발췌#{normal}#
+
+#{bold}#1 장 : 운명적인 만남#{normal}#
+
+이 이야기는 매혹의 시대부터 시작된다, 내가 아직 젊었을 때, 그리고 젊음과 늙음에 대한 생각이 아직 우리 종족에게 압박감을 주었다.  이것은 수많은 이야기들중 하나에 불과하다. 이 시대에 모든 종족에게 닥친 비극과, 또 영웅들의 이야기는 아주 수도 없이 많기 때문이다.  아는 여기에 내 이야기를 쓴다. 내 비극과, 내가 영웅심의 이름 아래 행했던 어리석은 짓들, 그 모든 이야기들이 세계를 뒤흔들고, 우리 역사를 송두리 채 바꾼 거대한 힘으로 엮여있다 : 마법폭발.
+
+I first met Linaniil at a council summit, when our leader Ephinias was meeting with the head of the Kar’Krul.  I remember the huge man walking through the gates of our city, our people staring at his wide girth and bristling hair, his fur clothes and his proud stride.  How out of place he looked amongst us slender elves...  Some thought him a barbarian, but I could see behind his frosty eyes there was great power.  He was from a hardy race of men that once dwelt in the north of Eyal, who it was said drew power from the green fires that danced in their everwinter skies.  Turthel was his name, and the like of him has not trod through earth or snow in many centuries.  Upon his right hand he wore the Ring of Kar’Krul, a lustrous gold band adorned by a blazing ruby, token to his position as the leader of the greatest union of human mages in Maj’Eyal.
+
+With him were his twin daughters, Linaniil and Neira, who walked before him.  Identical they were in looks, yet I saw straight away that they were opposites in personality.  They were each of crimson hair, worn long in spilling tresses, with pale skin that shone in the sunlight.  They were dressed in silken robes, but whilst Neira was adorned in yellow and orange, Linaniil wore blue and silver.  Neira was bright of glance and cheery of voice, remarking on every item of beauty she passed as they strolled through the courtyards of Elvala.  Linaniil was quiet though, and stern of face, coldly analysing and calculating all she saw.  But beneath that icy exterior I could see a fire – nay, a blaze, a bright burning passion yearning to break out, yet kept restrained.  For a moment we made eye contact as the party approached the citadel, and I could see laid bare her wild spirit and untempered thoughts, a will and strength of mind that was utterly unconquerable.  It took my breath from me.
+
+Few of my people have ever understood how one of our race could be infatuated with a human.  But they have not known Linaniil.  Not as I have known her.  Like raw fire given flesh is she, a burning ball of emotions and desires.  Her fervent mind brooks no opposition, and her wit and words charm or coerce all around her.  Beautiful and radiant is her form, as bright as the summer sun, yet also cold and remote, unreachable unless she wants to be reached.  In all the ages this has never changed about her.
+
+I barely noticed Neira greeting me warmly as she passed through the gate.  Linaniil gave me but a curt nod.  I followed after, as our leader and his guests entered the grand chamber and took their seats.  The summit was to begin on the planning of a new endeavour, a great work by our highest mages to tap into the power of the Sher’Tul farportals.  Long had the relics of that ancient race lain dormant beneath the soil, their powers untouched.  With that mighty strength brought forth we could end the war with the orcs quickly and decisively.  The Spellblaze they called it, and it was a name we spoke in awe and reverence.
+
+King Ephinias began the meeting, introducing our guests and then those around him.  “This is my general,” he said gesturing to me, “Commander Gawaeil of the Shaloren Armies.”  Immediately Linaniil looked at me and gawked.
+
+“What?” she cried, staring at my armour and baldric.  She turned away from us, seeming not to heed her distinguished hosts.  “Father, what be the meaning of this?” she said to the burly man.  “Ye gave tell that the Shaloren had the mightiest battlemages, yet their general be cased in steel and girt with sword.  Does a mere fighter command experts in the Art?”
+
+Ephinias looked outraged, but I laughed suddenly, both at her extreme rudeness and her wild presumptions.  “A mere fighter?” I said between incredulous gasps.  “Lady, you would do well not to judge so on appearances.  For if I judge right I see no mere impudent lass before me, but a great master of flames and inflagrations, and a weaver of threads more stern-willed even than her chill-blooded father.  But do not presume yourself a greater worker of the Art than I!  For I am Aranion Gawaeil, master of the Arcane Blade, a channeller of mighty elemental forces.  The spells willed through my steel have slain more orcs than you have seen in your short life, or like will ever see.”
+
+She looked at me then with sudden interest.  “A strange technique it sounds.  Ludicrous it seems when one can simply burn foes from afar.  Though perhaps if we hunt orc together some time I shall see for mine self.  But ye would be hard pressed indeed to better me on the battlefield.”
+
+“I shall endeavour to impress, my lady,” I said, with a mock bow of my head.  A thin smile played across her lips.
+
+Turthel grunted and turned his shaggy head to the king.  “Business,” he said, in the blunt and brief manner I had heard reported of him.
+
+Ephinias cleared his throat and sat back in his chair.  “We have a grand plan before us,” he began. “For many years we have been plagued by orc attacks.  Initially we were weakened from the Allure Wars, but now that we are beginning to recover our strength it is time to put our joint enemy to rest.  Too often they have threatened to overrun us all, to destroy civilisation forever.  We have all lost much.  Turthel, I can deeply sympathise with your personal loss.”  The fur-clothed man did not change his expression, but I could see his daughters dip their heads in solemn thought.
+
+“I have been leading our archmages in an experiment on the Sher’Tul farportal to the east of here.  We believe we can evoke the great powers sealed within to create a wave of destructive energy that we could direct against the orcish armies.  If all the races cooperate in drawing the orcish forces out then we can end this war in one swift strike.  The orcs would be decimated beyond recovery, and Eyal would be cleansed of their presence.
+
+“I have approached the leaders of the other races.  The halflings are fully supportive.  The Nargol regents have even provided us with some of their historical research on Sher’Tul ruins.”
+
+Turthel cursed then suddenly.  “Research done on human slaves!” he barked.  He turned quiet then, letting his temper settle.  “What of your sea and forest cousins?”
+
+Ephinias looked him coolly in the eye.  “The Naloren are prideful and do not wish to cooperate.  They think they can protect their lands on their own.  Yet I believe they will thank us in the end...  The Thaloren are not entirely keen either.  But we have discussed with their king and queen, and given great assurances as to the safety of our operations.  They do not wholly trust us or our command of the arcane, but in this they will not oppose us.  Shatur is as weary of the orc attacks on its borders as any of us.  They will give aid where it is convenient, as long as they ride under their own banners.  We do not particularly need them, of course, but we thought it prudent to involve all we could.
+
+“The other human leaders have mostly assented.  Some have expressed wholly irrational fears of our activities.  Alas, legends and myths still abound to scare people away from anything to do with the Sher’Tul.  But we are confident that we know what we are doing here.  The Kar’Krul elite I’m sure will understand.  And your alliance is worth a dozen lesser kings.”
+
+The burly man stared hard and long into Ephinias’ eyes, before turning to his daughters.  “What do ye think, girls?”
+
+Neira was the first to respond, and there was colour in her cheeks and emotion in her voice.  “I deem this Shaloren king remote and proud.  Sympathy he talks of whilst using our mother’s memory as a tool.  Understanding he proclaims, yet how can any truly know the subtlety behind these Sher’Tul relics?  Untouched they be for millennia, and their original power is still unknown.  What pride lets ye think ye can toy with them now?  It be folly to use a weapon that ye know not how to wield.”
+
+The room went quiet, and I could see Ephinias was silently fuming.  He was not accustomed to such open criticism.  Then Linaniil began to speak, and her voice was low and cool, yet all ears hung on her words.  “Many have been the works of pride over the years that have arisen in splendour.  Whence have come our great artworks, our grand cities, or the arcane weavings that shape our societies?  No meekness be found in their crafting.  There be no shame in acting out of pride, and we gain nothing from misplaced humility.  Too long have the powers of the Sher’Tul been left untapped by fearful and timid hearts.”  I could see then her eyes light up with excitement.  “Think of the glories we could unlock!  This war with the orcs would be but the beginning.  Great benefit could be brought to us all.  To leave these powers buried would be a crime, I say.”
+
+Turthel paused reflectively before nodding his head slowly, and it was clear that Linaniil’s words aligned better with his own thoughts.  “Very well,” he slowly announced, looking directly at Ephinias.  “We are with you.”  Neira stayed silent with brooding concern, but a flash of satisfaction crossed her sister’s eyes.]], "_t")
 t("spellblaze", "마법폭발", "newLore category")
 
 
@@ -16925,7 +17095,7 @@ t("Scoundrel's Strategies", "건달의 전략", "talent name")
 t("#CRIMSON#%s's %s is disrupted by %s wounds!#LAST#", "#CRIMSON#%s의 %s %s 인해 방해되었다!#LAST#", "logSeen", nil, {[2]="는",[3]="으로"})
 t([[Your melee and ranged attacks inflict distracting wounds that reduce the target’s critical strike multiplier by %d%% for 5 turns. 
 In addition, your attacks have a %d%% chance to inflict a painful wound that causes them to forget a random talent for %d turns.  The last effect cannot occur more than once per turn per target.
-		]], [[근접 및 원거리 공격이 대상의 상처를 건들여 대상의 치명타 배율을 5 턴 동안 %d%%만큼 감소시킵니다. 
+		]], [[근접 및 원거리 공격이 대상의 상처를 건드려 대상의 치명타 배율을 5 턴 동안 %d%% 만큼 감소시킵니다. 
 추가로, 공격 시 %d%% 확률로 대상의 상처를 헤집어 %d 턴 고통으로 인해 무작위 기술을 잊어버리게 합니다. 추가 효과는 1 턴에 1 번만 발동하지만 대상 수의 제한은 없습니다.
 		]], "tformat")
 t("Misdirection", "흘려내기", "talent name")
@@ -16933,7 +17103,7 @@ t("#ORANGE#%s redirects the effect '%s'!#LAST#", "#ORANGE#%s '%s' 흘려냈다!#
 t([[Your abilities in sowing confusion and chaos have reached their peak.  Whenever a foe attempts to apply a detrimental physical effect to you, they have a %d%% chance to fail. If there is an adjacent enemy to you, you misdirect your foe into applying it to them at %d%% duration.
 You gain %d defense.
 The chance to apply status effects increases with your Accuracy and the Defense with your Cunning.]], [[혼란을 전파시키는 능력이 절정에 이르렀습니다. 적이 부정적인 물리 효과를 입힐 때, %d%% 확률로 회피하고 주변의 적에게 해당 효과를 떠넘깁니다. 적용된 부정적인 물리 효과는 원래 지속시간의 %d%% 으로 적용됩니다.
-회피도가 %d만큼 상승합니다.
+회피도가 %d 만큼 상승합니다.
 회피 확률은 정확도에 비례하고, 회피도 상승량은 교활에 비례합니다.]], "tformat")
 t("Fumble", "헛발질", "talent name")
 t([[Your melee and ranged attacks leave your foes unable to focus on any complex actions, giving them a stacking 3%% chance of failure the next time they try to use a talent (to a maximum of %d%%).
@@ -16941,7 +17111,7 @@ t([[Your melee and ranged attacks leave your foes unable to focus on any complex
 		If the turn loss was caused by this effect then Fumble is removed.
 		The damage dealt increases with your Cunning.
 		]], [[근접 및 원거리 공격이 적들이 복잡한 행동을 하지 못하게 만듭니다. 적을 공격할 때마다 3%%의 확률로 다음 기술 시전을 방해하고, 1 턴을 낭비하게 합니다. 이 효과는 최대 %d%% 까지 중첩됩니다.
-		헛발질에 의해 턴을 낭비한 적은 스스로를 걷어 차 %0.2f의 물리 피해를 입습니다.
+		헛발질에 의해 턴을 낭비한 적은 스스로를 걷어 차 %0.2f 의 물리 피해를 입습니다.
 		헛발질에 의해 턴을 낭비하게 되면 헛발질 상태이상은 초기화됩니다.
 		피해량은 교활에 비례합니다.
 		]], "tformat")
@@ -18425,7 +18595,7 @@ t("A wave of energy passes through your fungus, making it release immediate heal
 section "game/modules/tome/data/talents/gifts/gifts.lua"
 
 t("Be at one with nature.", "자연과 함께합니다.", "_t")
-t("call of the wild", "야생의 부름.", "_t")
+t("call of the wild", "야생의 부름", "_t")
 t("Nature heals and cleans you.", "자연력으로 스스로를 회복하고 정화합니다.", "_t")
 t("harmony", "조화", "_t")
 t("The way to combat magic, or even nullify it.", "마법과 싸우거나, 무효화하는 방법을 배웁니다.", "_t")
@@ -21480,7 +21650,7 @@ t([[Surround yourself with protective arcane forces.
 		(생명력 재생 효과가 아닌) 생명력 회복 효과를 받을 때마다, 3 턴 동안 생명력 회복량의 %d%% 만큼의 피해 보호막을 얻습니다.
 		이 보호막의 효과는 중첩 되지 않으며, 기존에 적용된 피해 보호막이 있을 경우, 보호량과 지속시간에 따라 교체됩니다.
 		피해 흡수량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Aegis", "아이기스의 방패", "talent name")
+t("Aegis", "아이기스", "talent name")
 t([[Release arcane energies into most magical shields currently protecting you.
 		It will affect at most %d shield effects.
 		Damage Shield, Time Shield, Displacement Shield:  Increase the damage absorption value by %d%%.
@@ -21672,8 +21842,8 @@ t("Disruption Shield", "분해 보호막", "talent name")
 t("#VIOLET#%s's disruption shield collapses and then explodes in a powerful manastorm!", "#VIOLET#%s의 분해 보호막이 붕괴되어 강력한 마나 폭풍의 일어난다!", "logSeen")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t("#PURPLE#(%d mana)#LAST#", "#PURPLE#(%d 마나)#LAST#", "tformat")
-t("%s restores Disruption Shield (+%d) and gains %d mana with Aegis!", "%s의 분해 보호막을 아이기스의 방패로 복구하고 (흡수량 +%d) %d 마나를 회복한다!", "logSeen")
-t("%s restores Disruption Shield (+%d) with Aegis!", "%s의 분해 보호막을 아이기스의 방패로 복구했다! (흡수량 +%d)", "logSeen")
+t("%s restores Disruption Shield (+%d) and gains %d mana with Aegis!", "%s의 분해 보호막을 아이기스로 복구하고 (흡수량 +%d) %d 마나를 회복한다!", "logSeen")
+t("%s restores Disruption Shield (+%d) with Aegis!", "%s의 분해 보호막을 아이기스로 복구했다! (흡수량 +%d)", "logSeen")
 t([[Surround yourself with arcane forces, disrupting any attempts to harm you by creating a shield of pure aether which can absorb %d damage.
 		In combat, the mental focus required to maintain and monitor the shield is too much and you let it run on its own. In this state once the shield power is depleted it will start using your mana to absorb hits, at a ratio of %0.2f mana per damage.
 		Whenever mana is used by the shield it stores a remnant of this energy (up to %d max). When the shield is deactivated any stored energy is released in a radius %d arcane storm that lasts 5 turns, dealing 20%% of the total stored damage each turn.
@@ -22162,10 +22332,10 @@ t([[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire d
 		The damage will increase with your Spellpower.]], [[화염 화살을 쏘아보내 대상을 불타게 해 3 턴 동안 %0.2f의 화염 피해를 입힙니다.
 		기술 레벨이 5가 되면, 화염 기둥이 되어, 적을 관통합니다.
 		피해량은 주문력에 비례합니다.]], "tformat")
-t("Flameshock", "불꽃충격", "talent name")
+t("Flameshock", "화염 충격", "talent name")
 t([[Conjures up a cone of flame with radius %d. Any targets caught in the area will suffer Burning Shock, stunning them and dealing %0.2f fire damage over %d turns.
 		The damage will increase with your Spellpower.]], [[원뿔 모양의 불꽃으로 반경 %d 칸 내의 적을 불태웁니다. 범위 내 적은 화상 충격으로 인해 %d 턴에 걸쳐 %0.2f의 화염 피해를 입고, 기절합니다.
-		피해량은 주문력에 비례합니다.]], "tformat")
+		피해량은 주문력에 비례합니다.]], "tformat", {1,3,2})
 t("Fireflash", "불꽃섬광", "talent name")
 t([[Conjures up a bolt of fire that moves toward the target and explodes into a flash of fire, doing %0.2f fire damage in a radius of %d.
 		The damage will increase with your Spellpower.]], [[대상을 향해 움직이는 불꽃을 던집니다. 목표 지점에 도달하면 불꽃이 번쩍이며 폭발하여 %0.2f의 화염 피해를 대상 주위 %d 칸에 입힙니다.
@@ -22959,6 +23129,9 @@ t("Use which gem?", "어떤 보석을 사용합니까?", "_t")
 t("Imbue which armour?", "어떤 방어구를 강화할까?", "_t")
 t("imbue %s", "%s 꽂아 넣습니다", "tformat", nil, {"을"})
 t("You imbue your %s with %s.", "당신은 %s에 %s 꽂아넣었다.", "logPlayer", nil, {[2]="을"})
+t([[Imbue %s with a gem (up to tier %d), granting it additional powers.
+		You can only imbue items once, and it is permanent.]], [[%s 보석으로 강화하여 (최대 %d 등급 장비까지 가능), 능력을 추가로 부여합니다.
+		각 물건은 한 번만 강화할 수 있으며, 강화 효과는 영구적입니다.]], "tformat", nil, {"를"})
 t("a body armour", "가슴 방어구", "_t")
 t("body armour, a belt, or a head piece", "가슴 방어구, 허리띠, 머리 방어구", "_t")
 t("Gem Portal", "보석 차원문", "talent name")
@@ -23043,7 +23216,7 @@ t([[This intricate spell instantly erects a time shield around the caster, preve
 		Each turn the restoration field is active, you get healed for 10%% of the absorbed damage (Aegis Shielding talent affects the percentage).
 		The shield's max absorption will increase with your Spellpower.]], [[이 복잡한 주문은 시전 시, 당신에게 즉시 시간 보호막을 둘러칩니다. 보호막은 모든 피해를 막고, 해당 피해를 미래로 보내버립니다.
 		시간의 보호막은 모든 피해를 흡수하여 미래로 보내버리며, 보호막이 총 %d 이상의 피해량을 흡수하거나 %d 턴이 지나 지속시간이 끝나면 보호막이 사라집니다. 이 보호막은 사라지면서 5 턴 동안 시간의 회복장을 만들어냅니다.
-		매 턴 마다 보호막에 누적됐던 피해량의 10%% 만큼 생명력을 회복시켜줍니다 (아이기스의 방패는 이 비율에 영향을 줍니다.)
+		매 턴 마다 보호막에 누적됐던 피해량의 10%% 만큼 생명력을 회복시켜줍니다 (아이기스는 이 비율에 영향을 줍니다.)
 		최대 피해 흡수량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Time Prison", "시간의 감옥", "talent name")
 t([[Removes the target from the flow of time for %d turns. In this state, the target can neither act nor be harmed.
@@ -24361,7 +24534,7 @@ t([[You go all out, trying to burn down your foes as fast as possible.
 		You gain +%d%% attack speed, +%d%% critical chance and +%d%% physical resistance penetration, but this talent drains 6 stamina each turn.
 		This effect is disabled automatically on rest or run.
 		]], [[모든 힘을 쏟아부어, 가능한 한 빨리 적을 쓰러뜨립니다.
-		공격 속도 %d%%, 치명타 확률 %d%%, 물리 피해 저항력 %d%% 향상시킵니다. 하지만 이 기술은 턴 당 기력 6 씩 소모합니다.
+		공격 속도를 %d%%, 치명타 확률을 %d%%, 물리 저항력 관통을 %d%% 향상시킵니다. 하지만 이 기술은 턴 당 기력 6 씩 소모합니다.
 		이 기술은 달리거나, 휴식 중에는 비활성화됩니다.
 		]], "tformat")
 
@@ -35272,7 +35445,7 @@ t("unlocked", "해금됨", "_t")
 t("up", "위", "log")
 t("%s Has no defined main inventory", "%s 규정된 소지품 칸이 없습니다", "tformat", nil, {"는"})
 t("No Inventory", "소지품 없음", "_t")
-t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
+t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat")
 
 
 ------------------------------------------------
@@ -35458,8 +35631,8 @@ t("Auto-use when out of combat", "전투에서 벗어났을 때 자동 사용", 
 t("Hotkey ", "단축키 ", "_t")
 t("Bind talent: %s", "기술 비정 : %s", "tformat")
 t("How do you want to bind this talent?", "이 기술을 어떻게 배정 할까요?", "_t")
-t("%s assigned to hotkey %s", "%s %s의 단축키로 지정되었습니다.", "tformat", {2,1}, {[2]="가"})
-t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
+t("%s assigned to hotkey %s", "%s 단축키 %s 에 지정되었습니다.", "tformat", nil, {"가"})
+t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat")
 t("%s assigned to middle mouse click on an hostile target.", "%s 적대적인 대상에게 가운데 클릭을 할 시 기술이 사용됩니다.", "tformat", nil, {"는"})
 t("Middle mouse click assigned", "가운데 클릭 배정됨", "_t")
 t("%s assigned to left mouse click on an hostile target.", "%s 적대적인 대상에게 왼쪽 클릭을 할 시 기술이 사용됩니다.", "tformat", nil, {"는"})
