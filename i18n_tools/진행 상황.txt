@@ -173,7 +173,7 @@
 
 "game/dlcs/tome-orcs/data/factions.lua" Khelerd 완
 
------------------------------- 이하 EoR data/zones ---------------------------------
+------------------------------ 이하 EoR data/zones (완역) ---------------------------------
 
 "game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"
 "game/dlcs/tome-orcs/data/zones/cave-hatred/objects.lua"
@@ -241,7 +241,19 @@
 "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
 "game/dlcs/tome-orcs/data/zones/town-kruk/npcs.lua"
 "game/dlcs/tome-orcs/data/zones/town-kruk/objects.lua"
-"game/dlcs/tome-orcs/data/zones/town-kruk/traps.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/zones/town-kruk/traps.lua"
+"game/dlcs/tome-orcs/data/zones/ureslak-host/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/ureslak-host/objects.lua"
+"game/dlcs/tome-orcs/data/zones/ureslak-host/zone.lua"
+"game/dlcs/tome-orcs/data/zones/vaporous-emporium/grids.lua"
+"game/dlcs/tome-orcs/data/zones/vaporous-emporium/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/vaporous-emporium/objects.lua"
+"game/dlcs/tome-orcs/data/zones/vaporous-emporium/zone.lua"
+"game/dlcs/tome-orcs/data/zones/wilderness-add/grids.lua
+"game/dlcs/tome-orcs/data/zones/yeti-caves/grids.lua"
+"game/dlcs/tome-orcs/data/zones/yeti-caves/npcs.lua"
+"game/dlcs/tome-orcs/data/zones/yeti-caves/objects.lua"
+"game/dlcs/tome-orcs/data/zones/yeti-caves/zone.lua" Khelerd 완
 
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
