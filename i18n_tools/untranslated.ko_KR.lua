@@ -2296,17 +2296,13 @@ t("Something blocks the way to this chapter...", "Something blocks the way to th
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
--- 11 entries
+-- 7 entries
 t("exit to reality", "exit to reality", "entity name")
 t("shortcut to chapter", "shortcut to chapter", "entity name")
 t("book of binding", "book of binding", "entity name")
 t("#YELLOW#As you close the book you feel the castle shaking.", "#YELLOW#As you close the book you feel the castle shaking.", "say")
 t("#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "say")
-t("locked chest", "locked chest", "entity name")
-t("Locked Chest", "Locked Chest", "_t")
 t("Open the chest now that the guardian golem is no more?", "Open the chest now that the guardian golem is no more?", "_t")
-t("chest (opened)", "chest (opened)", "_t")
-t("throne", "throne", "entity type")
 t("glass throne", "glass throne", "entity name")
 
 
@@ -2499,9 +2495,8 @@ t("page of a logbook", "page of a logbook", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/scourged-pits/zone.lua"
--- 2 entries
+-- 1 entries
 t("Scourged Pits", "Scourged Pits", "_t")
-t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "logSeen")
 
 
 ------------------------------------------------
@@ -3394,26 +3389,16 @@ t("manacave ground", "manacave ground", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/mechstone.lua"
--- 4 entries
+-- 2 entries
 t("mech wall", "mech wall", "entity name")
 t("mech door", "mech door", "entity name")
-t("mech", "mech", "entity subtype")
-t("open mech door", "open mech door", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/mechwall.lua"
--- 4 entries
+-- 2 entries
 t("mech wall", "mech wall", "entity name")
 t("mech door", "mech door", "entity name")
-t("mech", "mech", "entity subtype")
-t("open mech door", "open mech door", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/general/grids/primal_trunk.lua"
--- 1 entries
-t("primal trunk", "primal trunk", "entity name")
 
 
 ------------------------------------------------
@@ -3955,7 +3940,7 @@ I'm sure you have your doubts as to the efficacy of my lovingly-made armaments; 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/gem.lua"
--- 14 entries
+-- 13 entries
 t("strange black disk (1)", "strange black disk (1)", "_t")
 t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Exploratory Mole, on a mission to..."  She sighs. " 'Find the Loyalist and arrange for our safe transport to his refuge, offering him his previous terms of agreement.' Which is Council-speak for 'flee in terror to the only thing that could bail us out of this mess, and bring the Eye with us.' Personally, I'm not keen on putting our fates in the hands of some nutter who lives underground and..." Indistinct grumbling. "...not even my damn job, I didn't sign up to be some politician's valet--"
 
@@ -4022,7 +4007,6 @@ t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't te
 t("What have we done...  why didn't I stop it?", "What have we done...  why didn't I stop it?", "_t")
 t("nothing living should have that many", "nothing living should have that many", "_t")
 t("G.E.M", "G.E.M", "newLore category")
-t("erratic scribblings", "erratic scribblings", "_t")
 t("so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "_t")
 
 
@@ -4775,7 +4759,7 @@ TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/pocket-time.lua"
--- 14 entries
+-- 13 entries
 t("Maltoth", "Maltoth", "_t")
 t("a human", "a human", "_t")
 t("paradox mage", "paradox mage", "_t")
@@ -4869,7 +4853,6 @@ None on Eyal would ever know of <?=Lore.pocket_time_winner.hisher?> sacrifice, o
 <? end ?>
 <? if Lore.pocket_time_winner.is_yeek then ?>[i]...Well, let's just assume that's how it went, anyway.  The alternative would make it quite difficult to tell the next story.[/i]<? end ?>
 ]], "_t")
-t("pocket of distorted time", "pocket of distorted time", "newLore category")
 t("a telepathic message <The Eidolon>", "a telepathic message <The Eidolon>", "_t")
 t([[<? Lore.init_pocket_time_data() ?>Once upon a time, there was a spirit known as the Eidolon, older than anything on Eyal.  Some called it a savior, a bringer of order and justice; others, a dark god, spreading terror for its own amusement.  Such mortal classifications are hopelessly inadequate to describe the incomprehensibly far-sighted motivations of a being nearly as old as time itself...  but if you were to ask the Eidolon, it would call itself a storyteller.
 
@@ -5724,373 +5707,15 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/gates-of-morning/grids.lua"
--- 1 entries
-t("Way into the caves", "Way into the caves", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/gates-of-morning/npcs.lua"
--- 10 entries
-t("#LIGHT_RED#%s concentrates and casts a powerful shield!", "#LIGHT_RED#%s concentrates and casts a powerful shield!", "_t")
-t("#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "saySimple")
-t("halfling pyremaster", "halfling pyremaster", "entity name")
-t("This tiny ball of fiery hatred came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "This tiny ball of fiery hatred came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "_t")
-t("shalore liberator", "shalore liberator", "entity name")
-t("A powerful shalore brawler that came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "A powerful shalore brawler that came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "_t")
-t("sun orb", "sun orb", "entity name")
-t("A small orb infused with the power of the Sun.", "A small orb infused with the power of the Sun.", "_t")
-t("moon orb", "moon orb", "entity name")
-t("A small orb infused with the power of the Moons.", "A small orb infused with the power of the Moons.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/gates-of-morning/objects.lua"
--- 6 entries
-t("a journal", "a journal", "entity name")
-t("A journal.", "A journal.", "_t")
-t("Ring of Lost Love", "Ring of Lost Love", "entity name")
-t("pure crimson ring", "pure crimson ring", "_t")
-t([[This crimson ring has a palpable bittersweet feel to it.
-Inside it is engraved the phrase #{italic}#"To Aeryn, my love, my life. Yours forever. John"#{normal}#]], [[This crimson ring has a palpable bittersweet feel to it.
-Inside it is engraved the phrase #{italic}#"To Aeryn, my love, my life. Yours forever. John"#{normal}#]], "_t")
-t("You feel something is #{bold}#very wrong#{normal}# with this ring.", "You feel something is #{bold}#very wrong#{normal}# with this ring.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/gates-of-morning/zone.lua"
--- 1 entries
-t("Caves of Morning (%d)", "Caves of Morning (%d)", "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/gem/grids.lua"
--- 3 entries
-t("giant mole hull", "giant mole hull", "entity name")
-t("breach into the giant mole hull", "breach into the giant mole hull", "entity name")
-t("dug rubble", "dug rubble", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/gem/npcs.lua"
--- 4 entries
-t("Haze Commander Parmor", "Haze Commander Parmor", "entity name")
-t("The Commander of the G.E.M. this noble looking giant looks down upon you in contempt. She wields two huge rotating saws still covered in various horror entrails.", "The Commander of the G.E.M. this noble looking giant looks down upon you in contempt. She wields two huge rotating saws still covered in various horror entrails.", "_t")
-t("Half-Mechanized Yeti", "Half-Mechanized Yeti", "entity name")
-t("Whoever tortured and tormented this yeti did an amazing job of pain and destruction. As you gaze upon its fur you notice several vital spots reinforced with stralite plating. One of its arms has been replaced with a steamsaw.", "Whoever tortured and tormented this yeti did an amazing job of pain and destruction. As you gaze upon its fur you notice several vital spots reinforced with stralite plating. One of its arms has been replaced with a steamsaw.", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gem/objects.lua"
--- 7 entries
-t("disk", "disk", "_t")
-t([[A strange black disk found in the G.E.M.
-You have no idea how to use it.]], [[A strange black disk found in the G.E.M.
-You have no idea how to use it.]], "_t")
-t("erratic scribblings", "erratic scribblings", "entity name")
-t("A journal.", "A journal.", "_t")
+-- 1 entries
 t("..", "..", "entity name")
-t("schematic: Steam Powered Armour", "schematic: Steam Powered Armour", "entity name")
-t("Yeti's Muscle Tissue (Mech)", "Yeti's Muscle Tissue (Mech)", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gem/zone.lua"
--- 4 entries
-t("G.E.M. Exterior", "G.E.M. Exterior", "_t")
-t("G.E.M. Crew Deck", "G.E.M. Crew Deck", "_t")
-t("G.E.M. Command Deck", "G.E.M. Command Deck", "_t")
+-- 1 entries
 t("G.E.M.", "G.E.M.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/internment-camp/grids.lua"
--- 6 entries
-t("wooden barricade", "wooden barricade", "entity name")
-t("way to the Vor section", "way to the Vor section", "entity name")
-t("way to the Gorbat section", "way to the Gorbat section", "entity name")
-t("way to the Grushnak section", "way to the Grushnak section", "entity name")
-t("way to the Rak'Shor section", "way to the Rak'Shor section", "entity name")
-t("way back", "way back", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/internment-camp/npcs.lua"
--- 14 entries
-t("%s (subdued)", "%s (subdued)", "tformat")
-t("This body is fun!", "This body is fun!", "_t")
-t("I present you my latest orc-toy!", "I present you my latest orc-toy!", "_t")
-t("Crush this body, crush it!", "Crush this body, crush it!", "_t")
-t("I am everywhere, you can't defeat me!", "I am everywhere, you can't defeat me!", "_t")
-t("Mindwall", "Mindwall", "entity name")
-t("You should be parked with the others!", "You should be parked with the others!", "_t")
-t("You have no place in this new world!", "You have no place in this new world!", "_t")
-t("Your mind looks delicious...", "Your mind looks delicious...", "_t")
-t("I hunger for more brains...", "I hunger for more brains...", "_t")
-t("#YELLOW#Mindwall focuses his thoughts on your mind.  You feel extremely confused.", "#YELLOW#Mindwall focuses his thoughts on your mind.  You feel extremely confused.", "logPlayer")
-t("pillar", "pillar", "entity subtype")
-t("Mindcontrol Pillar", "Mindcontrol Pillar", "entity name")
-t("A glass pillar containing a still living brain.", "A glass pillar containing a still living brain.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/internment-camp/objects.lua"
--- 2 entries
-t("piece of correspondence", "piece of correspondence", "entity name")
-t("An internal correspondence letter.", "An internal correspondence letter.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua"
--- 8 entries
-t("Internment Camp", "Internment Camp", "_t")
-t("Internment Camp (Rak'Shor)", "Internment Camp (Rak'Shor)", "_t")
-t("Internment Camp (Vor)", "Internment Camp (Vor)", "_t")
-t("Internment Camp (Gorbat)", "Internment Camp (Gorbat)", "_t")
-t("Internment Camp (Grushnak)", "Internment Camp (Grushnak)", "_t")
-t("Strange Clearing", "Strange Clearing", "_t")
-t("Mindwall", "Mindwall", "_t")
-t([[Mindwall's will falters and reveals the truth about your surroundings.
-
-As Mindwall's body crumbles you can sense a burst of psionic forces splitting up and flying to new hosts.]], [[Mindwall's will falters and reveals the truth about your surroundings.
-
-As Mindwall's body crumbles you can sense a burst of psionic forces splitting up and flying to new hosts.]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/kaltor-shop/grids.lua"
--- 4 entries
-t("locked chest", "locked chest", "entity name")
-t("Locked Chest", "Locked Chest", "_t")
-t("Open the chest with Kaltor's key?", "Open the chest with Kaltor's key?", "_t")
-t("chest (opened)", "chest (opened)", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/kaltor-shop/npcs.lua"
--- 4 entries
-t("Arch-Merchant Kaltor", "Arch-Merchant Kaltor", "entity name")
-t("A well dressed giant, covered in gold, gems and fineries. Also wielding nasty looking guns at his sides. He seems to look strangely friendly while eyeing your gold purse.", "A well dressed giant, covered in gold, gems and fineries. Also wielding nasty looking guns at his sides. He seems to look strangely friendly while eyeing your gold purse.", "_t")
-t("As Kaltor falls you quickly grab a big golden key from his waist. Surely this opens the chests.", "As Kaltor falls you quickly grab a big golden key from his waist. Surely this opens the chests.", "_t")
-t("Kaltor", "Kaltor", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/kaltor-shop/objects.lua"
--- 6 entries
-t("steam-enhanced leather coat", "steam-enhanced leather coat", "_t")
-t("A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "_t")
-t("When you take a hit of more than 10% of your total life the suit's motors activate for the next turn, displacing you before any blow could hit you.", "When you take a hit of more than 10% of your total life the suit's motors activate for the next turn, displacing you before any blow could hit you.", "_t")
-t("Brilliant Auto-loading Orc Expeller", "Brilliant Auto-loading Orc Expeller", "entity name")
-t("expensive gun", "expensive gun", "_t")
-t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/krimbul/grids.lua"
--- 3 entries
-t("airship hull", "airship hull", "entity name")
-t("breach into the airship hull", "breach into the airship hull", "entity name")
-t("underwater luminous algae", "underwater luminous algae", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/krimbul/npcs.lua"
--- 5 entries
-t("A withered Whitehoof, with two horns that curve over his head and spiral into a cone.  The tip of his \"horn\" glows intensely, but is slowly fading; he acts confident, but his darting, wild eyes reveal panic behind them.", "A withered Whitehoof, with two horns that curve over his head and spiral into a cone.  The tip of his \"horn\" glows intensely, but is slowly fading; he acts confident, but his darting, wild eyes reveal panic behind them.", "_t")
-t("KNOW MY POWER, FOOLISH MORTAL!", "KNOW MY POWER, FOOLISH MORTAL!", "_t")
-t("Stop--  stop moving and this will be over before you can feel pain!  STOP!", "Stop--  stop moving and this will be over before you can feel pain!  STOP!", "_t")
-t("No...  come on, come on, there has to be something left...", "No...  come on, come on, there has to be something left...", "_t")
-t("...it's gone...  FINE!  I don't need that power to destroy you!", "...it's gone...  FINE!  I don't need that power to destroy you!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/krimbul/objects.lua"
--- 4 entries
-t("Visage of Nektosh", "Visage of Nektosh", "entity name")
-t("You always thought his horns looked kind of stupid, to be honest.", "You always thought his horns looked kind of stupid, to be honest.", "_t")
-t("Increases your maximum stacks of Death Momentum by 1.", "Increases your maximum stacks of Death Momentum by 1.", "_t")
-t("#DARK_BLUE#This helm is your birthright! Deathright? Whichever.", "#DARK_BLUE#This helm is your birthright! Deathright? Whichever.", "logPlayer")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/krimbul/zone.lua"
--- 1 entries
-t("Krimbul Territory", "Krimbul Territory", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/lost-city/grids.lua"
--- 3 entries
-t("Stair to the ruins", "Stair to the ruins", "entity name")
-t("Stair to the cave", "Stair to the cave", "entity name")
-t("Old Psi-Machine", "Old Psi-Machine", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/lost-city/npcs.lua"
--- 6 entries
-t("guardian psi-ghost", "guardian psi-ghost", "entity name")
-t("A strangely humanoid shaped-ghost, blurring in and out of existence as its form is shaken by psionic discharges.", "A strangely humanoid shaped-ghost, blurring in and out of existence as its form is shaken by psionic discharges.", "_t")
-t("It is approaching...", "It is approaching...", "_t")
-t("Soon...", "Soon...", "_t")
-t("The day is drawing near...", "The day is drawing near...", "_t")
-t("They will come back...", "They will come back...", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/lost-city/objects.lua"
--- 8 entries
-t("schematic: Payload", "schematic: Payload", "entity name")
-t("The Forgotten", "The Forgotten", "entity name")
-t("A strange mindstar, overgrown with granite and cracked. It seems incredibly ancient and horribly damaged, but still functions.", "A strange mindstar, overgrown with granite and cracked. It seems incredibly ancient and horribly damaged, but still functions.", "_t")
-t("confuse all enemies in radius 3 for 5 turns", "confuse all enemies in radius 3 for 5 turns", "_t")
-t("The Cage", "The Cage", "entity name")
-t("thick leather cap", "thick leather cap", "_t")
-t("Nothing will ever reach you again.", "Nothing will ever reach you again.", "_t")
-t("You are immune to mental status effects.", "You are immune to mental status effects.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/lost-city/zone.lua"
--- 1 entries
-t("Ruins of a lost city", "Ruins of a lost city", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/palace-fumes/grids.lua"
--- 6 entries
-t("stair descending into Eyal's depths", "stair descending into Eyal's depths", "entity name")
-t("locked mech door", "locked mech door", "entity name")
-t("open mech door", "open mech door", "entity name")
-t("Phonograph", "Phonograph", "entity name")
-t("mech", "mech", "entity subtype")
-t("throne", "throne", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/palace-fumes/npcs.lua"
--- 12 entries
-t("Council Member Nashal", "Council Member Nashal", "entity name")
-t("The noble features on the face of this giantess contrast heavily with the evil grin she carries and the huge rotating saws on her arms.", "The noble features on the face of this giantess contrast heavily with the evil grin she carries and the huge rotating saws on her arms.", "_t")
-t("Council Member Tormak", "Council Member Tormak", "entity name")
-t("A master in all things arcane, Tormak stands in your way, steadfast in his resolution to crush you under his mighty spells.", "A master in all things arcane, Tormak stands in your way, steadfast in his resolution to crush you under his mighty spells.", "_t")
-t("Council Member Pendor", "Council Member Pendor", "entity name")
-t("Wielding two huge steamguns this giant is amazingly elusive and agile for his size. Oh and very deadly!", "Wielding two huge steamguns this giant is amazingly elusive and agile for his size. Oh and very deadly!", "_t")
-t("Council Member Palaquie", "Council Member Palaquie", "entity name")
-t("Standing proud, the giantess wields both a steamgun and a mindstar, as the bullets fly you can feel a powerful mental pressure on your mind, numbing you.", "Standing proud, the giantess wields both a steamgun and a mindstar, as the bullets fly you can feel a powerful mental pressure on your mind, numbing you.", "_t")
-t("Council Member Tantalos", "Council Member Tantalos", "entity name")
-t("It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "_t")
-t("steam defence turret", "steam defence turret", "entity name")
-t([[This appears to be mechanized pedestal.
-Two steamguns mounted on its top constantly swivel back and forth, seeking enemies of the Atmos.]], [[This appears to be mechanized pedestal.
-Two steamguns mounted on its top constantly swivel back and forth, seeking enemies of the Atmos.]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/palace-fumes/objects.lua"
--- 2 entries
-t("DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "entity name")
-t("A flyer.", "A flyer.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/palace-fumes/zone.lua"
--- 1 entries
-t("Palace of Fumes", "Palace of Fumes", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/pocket-time/npcs.lua"
--- 7 entries
-t("paradox %s", "paradox %s", "_t")
-t("splitted %s", "splitted %s", "_t")
-t("temporal %s", "temporal %s", "_t")
-t("timeswapped %s", "timeswapped %s", "_t")
-t("Maltoth the Mad", "Maltoth the Mad", "entity name")
-t("This wretched human seems stuck in temporal flux.", "This wretched human seems stuck in temporal flux.", "_t")
-t("and dispersed across the timelines", "and dispersed across the timelines", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/pocket-time/zone.lua"
--- 2 entries
-t("Time-locked Vault", "Time-locked Vault", "_t")
-t("Pocket of Distorted Time", "Pocket of Distorted Time", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/primal-forest/grids.lua"
--- 10 entries
-t("bottom of forest", "bottom of forest", "entity name")
-t("primal tree", "primal tree", "entity name")
-t("tall thick primal tree", "tall thick primal tree", "entity name")
-t("huge primal tree", "huge primal tree", "entity name")
-t("climb", "climb", "_t")
-t("Huge Tree", "Huge Tree", "_t")
-t("You think you can climb this tree if you want.", "You think you can climb this tree if you want.", "_t")
-t("Climb", "Climb", "_t")
-t("primal trunk", "primal trunk", "entity subtype")
-t("climb back to the ground", "climb back to the ground", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/primal-forest/npcs.lua"
--- 4 entries
-t("crystalbark", "crystalbark", "entity name")
-t("A very strong near-sentient tree, which has become infected with crystalline structures.", "A very strong near-sentient tree, which has become infected with crystalline structures.", "_t")
-t("Crystallized Primal Root", "Crystallized Primal Root", "entity name")
-t("This once great primal tree has been infused and corrupted by crystals growing wildly all over it. Such a terrible end.", "This once great primal tree has been infused and corrupted by crystals growing wildly all over it. Such a terrible end.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/primal-forest/objects.lua"
--- 1 entries
-t("schematic: Life Support Suit", "schematic: Life Support Suit", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/primal-forest/zone.lua"
--- 2 entries
-t("Primal Forest", "Primal Forest", "_t")
-t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "logSeen")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/ritch-hive/grids.lua"
--- 2 entries
-t("pile of ritch eggs", "pile of ritch eggs", "entity name")
-t("comfy ritch nest", "comfy ritch nest", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/ritch-hive/objects.lua"
--- 9 entries
-t("pile of ritch eggs", "pile of ritch eggs", "entity name")
-t("A gross pile of eggs.", "A gross pile of eggs.", "_t")
-t("#YELLOW#You carefully collect some ritch eggs.", "#YELLOW#You carefully collect some ritch eggs.", "easing")
-t("Ritch Claws", "Ritch Claws", "entity name")
-t("sharply clawed gloves", "sharply clawed gloves", "_t")
-t("A pair of sharply honed gauntlets made from the claws of Ritch Impalers.", "A pair of sharply honed gauntlets made from the claws of Ritch Impalers.", "_t")
-t("Stinger", "Stinger", "entity name")
-t("scaled steamsaw", "scaled steamsaw", "_t")
-t("Is that... an ovipositor?", "Is that... an ovipositor?", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/ritch-hive/zone.lua"
--- 3 entries
-t("Ritch Hive", "Ritch Hive", "_t")
-t([[You arrive in a maze of shifty sand tunnels.
-But you have with you the power of technology! You have been given a #GOLD#Stralite Sand Shredder#LAST#. Use it to dig yourself a path should there be none to be found.
-#{italic}#Simply walk into a wall with the shredder equipped and the sand will crumble before you!#{normal}#
-
-Beware to not draw too much attention to yourself, and do not forget to collect the eggs!]], [[You arrive in a maze of shifty sand tunnels.
-But you have with you the power of technology! You have been given a #GOLD#Stralite Sand Shredder#LAST#. Use it to dig yourself a path should there be none to be found.
-#{italic}#Simply walk into a wall with the shredder equipped and the sand will crumble before you!#{normal}#
-
-Beware to not draw too much attention to yourself, and do not forget to collect the eggs!]], "_t")
-t("%d Collected", "%d Collected", "tformat")
 
 
 ------------------------------------------------
@@ -6101,13 +5726,8 @@ t("way up", "way up", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/shertul-cave/objects.lua"
--- 6 entries
-t("steam-enhanced leather coat", "steam-enhanced leather coat", "_t")
-t("A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "_t")
+-- 1 entries
 t("When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "_t")
-t("Brilliant Auto-loading Orc Expeller", "Brilliant Auto-loading Orc Expeller", "entity name")
-t("expensive gun", "expensive gun", "_t")
-t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "_t")
 
 
 ------------------------------------------------
@@ -6142,9 +5762,7 @@ t("#CRIMSON#%s awakens and empowers %s!", "#CRIMSON#%s awakens and empowers %s!"
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/slumbering-caves/objects.lua"
--- 7 entries
-t("a journal", "a journal", "entity name")
-t("A journal.", "A journal.", "_t")
+-- 5 entries
 t("Gardanion, the Light of God", "Gardanion, the Light of God", "entity name")
 t("pure white amulet", "pure white amulet", "_t")
 t([["#{italic}#When Amakthel arrived, he created the Sun and brought life to this world.
@@ -6180,9 +5798,8 @@ t("This heavily armored mecharachnid looks extremely dangerous and well equipped
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/steam-quarry/objects.lua"
--- 3 entries
+-- 2 entries
 t("a very old journal", "a very old journal", "entity name")
-t("A journal.", "A journal.", "_t")
 t("schematic: Stormcutter", "schematic: Stormcutter", "entity name")
 
 
@@ -6214,9 +5831,7 @@ t("You wonder how this yeti can have wandered so far from its native habitat in 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/objects.lua"
--- 7 entries
-t("a journal", "a journal", "entity name")
-t("A journal.", "A journal.", "_t")
+-- 5 entries
 t("Cap of the Undisturbed Mind", "Cap of the Undisturbed Mind", "entity name")
 t("red cap", "red cap", "_t")
 t([[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
@@ -6232,12 +5847,6 @@ section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/zone.lua"
 t("Path into the mountain", "Path into the mountain", "_t")
 t("Caverns below the Observatory", "Caverns below the Observatory", "_t")
 t("Sunwall Observatory", "Sunwall Observatory", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/grids.lua"
--- 1 entries
-t("wooden barricade", "wooden barricade", "entity name")
 
 
 ------------------------------------------------
@@ -6280,10 +5889,9 @@ t("Ancient Cave", "Ancient Cave", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
--- 4 entries
+-- 3 entries
 t("Coward!", "Coward!", "_t")
 t("You are not coward enough to leave your home unprotected!", "You are not coward enough to leave your home unprotected!", "_t")
-t("wooden barricade", "wooden barricade", "entity name")
 t("tunnel weakness", "tunnel weakness", "entity name")
 
 
@@ -8841,83 +8449,6 @@ But we won't age sleeping in these ruins#{normal}#
 
 
 ------------------------------------------------
-section "game/modules/tome/data/lore/angolwen.lua"
--- 6 entries
-t([[#{bold}#"What is Magic?"
-#{italic}#A study by Archmage Tazimar Tarelion#{normal}#
-
-How uncouth and common a question it must seem, and yet it is the one I am asked most often, even by some of our most learned students. Too often we teach The Art by practice and imitation and concentration on the end effects, without teaching in greater detail of the underlying principles. Just as a musician may merrily play on his harp without knowing how the sound arises from the vibration of the strings, so a mage may make use of magic without realising the true forces at work. In this document I hope to give learning on the nature of magic, and how the underlying effects give rise to all the wondrous fruits we can produce.
-
-Alchemists will tell you that the world is made up of many base materials - lead, copper, iron, gold and so on. They are fixated on splitting things down into these components and investigating how they react with each other. However there is more to the world than this. Certainly they represent the physical make-up of things, but they do not show the forces and energy that bring everything into motion. The forces of fire, cold, lightning and life itself are all very real effects, and these we call the Elements of Eyal. The true archmage is interested in the interactions of the elemental forces of the world, and manipulating them to his or her need.
-
-The elemental forces exist naturally in the world, and are weaved around all things in an all-encompassing canvas. They move, vibrate and resonate with the materials of the world, and the effects of each play heavily on one another. All creatures naturally make use of these elements, and some are more attuned to these threads than others. With great training and practice we can become more attuned to these wild forces ourselves, and in so doing some can match the speed of wolves, the strength of bears, the tenacity of treants and even the immense natural powers of dragons.
-
-But there is another way of gaining access to these elemental forces - a more direct way, though some would call it unnatural. Long ago people discovered with much training how to concentrate their wills to pluck the elemental threads directly. This can release great energies, and these can be shaped to produce real effects in the world. Plumes of fire, bolts of lightning and blasts of ice can all be called forth by those suitably trained. The true masters of magic can go much further, combining many resonant forces to create complex physical effects.
-
-The tapping of threads can be a draining task, requiring much effort of will to sustain. This is what we versed in the arcane call "mana", that mental stamina dedicated to the interaction with the elements of the world. Continual use of magic is like the constant lifting and holding of heavy weights, and eventually one will find one's capacity drained. Practice allows one to build up greater pools of mana, and certain runes and spells can gradually build extra reserves to be called upon as needed.
-
-Magical runes and items are imbued with an attachment to certain elemental threads. This requires delicate work by experienced and gifted enchanters. The most intricate of magical artifacts demand many years of work, using intense mental effort to permanently attune the core materials to the right elemental energies. Gemstones are especially easy to work with in this craft, and alchemists use them often to bring about elemental effects.
-
-Some believe that magic is inherently wrong, that the so-called twisting of the elements with one's will can only lead to terrible things. As students of Angolwen I assume you disagree! Magic is simply an extension of the forces of nature, and are we not natural creatures that use it? But remember that magic is still a powerful force that can be used for good or ill. Magic is indeed a tool of immense value - use it wisely.
-]], [[#{bold}#"What is Magic?"
-#{italic}#A study by Archmage Tazimar Tarelion#{normal}#
-
-How uncouth and common a question it must seem, and yet it is the one I am asked most often, even by some of our most learned students. Too often we teach The Art by practice and imitation and concentration on the end effects, without teaching in greater detail of the underlying principles. Just as a musician may merrily play on his harp without knowing how the sound arises from the vibration of the strings, so a mage may make use of magic without realising the true forces at work. In this document I hope to give learning on the nature of magic, and how the underlying effects give rise to all the wondrous fruits we can produce.
-
-Alchemists will tell you that the world is made up of many base materials - lead, copper, iron, gold and so on. They are fixated on splitting things down into these components and investigating how they react with each other. However there is more to the world than this. Certainly they represent the physical make-up of things, but they do not show the forces and energy that bring everything into motion. The forces of fire, cold, lightning and life itself are all very real effects, and these we call the Elements of Eyal. The true archmage is interested in the interactions of the elemental forces of the world, and manipulating them to his or her need.
-
-The elemental forces exist naturally in the world, and are weaved around all things in an all-encompassing canvas. They move, vibrate and resonate with the materials of the world, and the effects of each play heavily on one another. All creatures naturally make use of these elements, and some are more attuned to these threads than others. With great training and practice we can become more attuned to these wild forces ourselves, and in so doing some can match the speed of wolves, the strength of bears, the tenacity of treants and even the immense natural powers of dragons.
-
-But there is another way of gaining access to these elemental forces - a more direct way, though some would call it unnatural. Long ago people discovered with much training how to concentrate their wills to pluck the elemental threads directly. This can release great energies, and these can be shaped to produce real effects in the world. Plumes of fire, bolts of lightning and blasts of ice can all be called forth by those suitably trained. The true masters of magic can go much further, combining many resonant forces to create complex physical effects.
-
-The tapping of threads can be a draining task, requiring much effort of will to sustain. This is what we versed in the arcane call "mana", that mental stamina dedicated to the interaction with the elements of the world. Continual use of magic is like the constant lifting and holding of heavy weights, and eventually one will find one's capacity drained. Practice allows one to build up greater pools of mana, and certain runes and spells can gradually build extra reserves to be called upon as needed.
-
-Magical runes and items are imbued with an attachment to certain elemental threads. This requires delicate work by experienced and gifted enchanters. The most intricate of magical artifacts demand many years of work, using intense mental effort to permanently attune the core materials to the right elemental energies. Gemstones are especially easy to work with in this craft, and alchemists use them often to bring about elemental effects.
-
-Some believe that magic is inherently wrong, that the so-called twisting of the elements with one's will can only lead to terrible things. As students of Angolwen I assume you disagree! Magic is simply an extension of the forces of nature, and are we not natural creatures that use it? But remember that magic is still a powerful force that can be used for good or ill. Magic is indeed a tool of immense value - use it wisely.
-]], "_t")
-t("The spellblade", "The spellblade", "_t")
-t([[From the desk of Archmage Varil,
-Another day dawns on Angolwen. I hesitate to write this, but it almost feels as if peace is once again returning to Eyal. Saying this, I almost expect war and destruction to erupt immediately - fate is anything if not spiteful. Regardless, my sleep grows less disturbed by my memories of the Spellhunt day by day, and I can now devote myself wholly to the betterment of our cloistered community here in the mountains.
-
-This is not to say that life has been without conflict at all. An agent of the Ziguranth infiltrated Angolwen under the guise of a travelling alchemist a few days ago; an unhappy first, I'm afraid. Having used choking powder to incapacitate the guards and rob the surrounding mages of their voices, things may have turned ugly if Linaniil hadn't been passing by on one of her walks. Little was left of that man... or the tree he hid behind... or many of the surrounding buildings, to be honest.
-
-In a way, the incident lit a fire under me to pursue my studies and develop my powers, but I must admit that my interest in staff practice has waned as of late. My fencing, on the other hand, improves by the day. Hmm... I wonder if I can get some of the enchanters to help me "augment" my old sword. After all, what is a blade but a sharpened metal staff?]], [[From the desk of Archmage Varil,
-Another day dawns on Angolwen. I hesitate to write this, but it almost feels as if peace is once again returning to Eyal. Saying this, I almost expect war and destruction to erupt immediately - fate is anything if not spiteful. Regardless, my sleep grows less disturbed by my memories of the Spellhunt day by day, and I can now devote myself wholly to the betterment of our cloistered community here in the mountains.
-
-This is not to say that life has been without conflict at all. An agent of the Ziguranth infiltrated Angolwen under the guise of a travelling alchemist a few days ago; an unhappy first, I'm afraid. Having used choking powder to incapacitate the guards and rob the surrounding mages of their voices, things may have turned ugly if Linaniil hadn't been passing by on one of her walks. Little was left of that man... or the tree he hid behind... or many of the surrounding buildings, to be honest.
-
-In a way, the incident lit a fire under me to pursue my studies and develop my powers, but I must admit that my interest in staff practice has waned as of late. My fencing, on the other hand, improves by the day. Hmm... I wonder if I can get some of the enchanters to help me "augment" my old sword. After all, what is a blade but a sharpened metal staff?]], "_t")
-t("angolwen", "angolwen", "newLore category")
-t("Angolwen Fountain", "Angolwen Fountain", "_t")
-t([[#{italic}#(You see here a large, elaborate fountain.  A statue of Linaniil stands in the center, her arms outstretched to welcome all; around the outside of the fountain stand statues of a dwarf manipulating earthen runes, a human with a simple healer's crosier, an elf with a tall, elaborate staff, and a halfling with a scepter in one hand and a fireball hovering over the other.  The runes and the fireball are not connected to anything, and float in a fixed position in the air.  You see a carving repeating along the border of the fountain, in small print.)#{normal}#
-
-ALL ARE WELCOME WHO LEARN FROM THE MISTAKES OF THE PAST
-
-LET THE ARCANE ONCE MORE BE A BOON AND NOT A BANE TO MAJ'EYAL
-
-ALL ARE WELCOME WHO EASE THE SUFFERING OF THE PRESENT
-
-MAY WE HAVE THE WISDOM TO ONE DAY REUNITE THE WORLD IN SAFETY AND ENLIGHTENMENT
-
-ALL ARE WELCOME WHO PREVENT THE THREATS OF THE FUTURE
-
-GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO WEAVE THE WORLD'S FABRIC]], [[#{italic}#(You see here a large, elaborate fountain.  A statue of Linaniil stands in the center, her arms outstretched to welcome all; around the outside of the fountain stand statues of a dwarf manipulating earthen runes, a human with a simple healer's crosier, an elf with a tall, elaborate staff, and a halfling with a scepter in one hand and a fireball hovering over the other.  The runes and the fireball are not connected to anything, and float in a fixed position in the air.  You see a carving repeating along the border of the fountain, in small print.)#{normal}#
-
-ALL ARE WELCOME WHO LEARN FROM THE MISTAKES OF THE PAST
-
-LET THE ARCANE ONCE MORE BE A BOON AND NOT A BANE TO MAJ'EYAL
-
-ALL ARE WELCOME WHO EASE THE SUFFERING OF THE PRESENT
-
-MAY WE HAVE THE WISDOM TO ONE DAY REUNITE THE WORLD IN SAFETY AND ENLIGHTENMENT
-
-ALL ARE WELCOME WHO PREVENT THE THREATS OF THE FUTURE
-
-GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO WEAVE THE WORLD'S FABRIC]], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/lore/ardhungol.lua"
 -- 9 entries
 t("Rashim Journal (1)", "Rashim Journal (1)", "_t")
@@ -9079,19 +8610,6 @@ I might not know a great deal about artifice, but I know how wild animals work, 
 
 
 ------------------------------------------------
-section "game/modules/tome/data/lore/derth.lua"
--- 2 entries
-t("derth", "derth", "newLore category")
-t([[#{italic}#A villager runs up to you, carrying a hefty looking sack.#{normal}#
-You've saved us from the storms!  We can't ever repay you enough, but, well...  Shortly after you stopped them, a witch approached us and offered us some...  magical #{italic}#things#{normal}# and said they would protect our town if anything like that happened again.
-It's not that I don't trust her, not after you and they - mostly you! - saved us, but...  I just don't feel comfortable having all this arcane stuff around us all the time.  None of us do.  If you've got a use for these, you're more than welcome to them.
-#{italic}#He hands you a sack, containing a few dozen of the same strange magical object; included is a guide to using them and producing more, written for users completely inexperienced with magic.  Apparently, they're designed to be mounted on walls and rooftops, and will try to non-lethally incapacitate outside invaders while sending a message of distress to Angolwen.  With a few tweaks, you can make them deadly instead (and avoid harassing Angolwen while you're at it).#{normal}#]], [[#{italic}#A villager runs up to you, carrying a hefty looking sack.#{normal}#
-You've saved us from the storms!  We can't ever repay you enough, but, well...  Shortly after you stopped them, a witch approached us and offered us some...  magical #{italic}#things#{normal}# and said they would protect our town if anything like that happened again.
-It's not that I don't trust her, not after you and they - mostly you! - saved us, but...  I just don't feel comfortable having all this arcane stuff around us all the time.  None of us do.  If you've got a use for these, you're more than welcome to them.
-#{italic}#He hands you a sack, containing a few dozen of the same strange magical object; included is a guide to using them and producing more, written for users completely inexperienced with magic.  Apparently, they're designed to be mounted on walls and rooftops, and will try to non-lethally incapacitate outside invaders while sending a message of distress to Angolwen.  With a few tweaks, you can make them deadly instead (and avoid harassing Angolwen while you're at it).#{normal}#]], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/lore/dreadfell.lua"
 -- 21 entries
 t([[MINIONS: Perhaps you feel your Master has been lax or absent? Well, I shall amend that. I have been studying an object of great import. It is of much greater interest than your foolish unlives. But do not think that I will let you get away with things because of this.
@@ -9241,97 +8759,7 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/elvala.lua"
--- 16 entries
-t("The Spellblaze Chronicles(1): A Fateful Meeting", "The Spellblaze Chronicles(1): A Fateful Meeting", "_t")
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter One: A Fateful Meeting#{normal}#
-
-This tale begins in the Age of Allure, when I was yet young, and the idea of youth and age was still a pressure on our people.  It is one tale amongst a host of tales, for many are the stories of tragedy and heroism that befell all the races in this era.  I can only give my story, my tragedies, and my follies dressed as heroism, woven around the great force that shook our world and changed our histories: The Spellblaze.
-
-I first met Linaniil at a council summit, when our leader Ephinias was meeting with the head of the Kar’Krul.  I remember the huge man walking through the gates of our city, our people staring at his wide girth and bristling hair, his fur clothes and his proud stride.  How out of place he looked amongst us slender elves...  Some thought him a barbarian, but I could see behind his frosty eyes there was great power.  He was from a hardy race of men that once dwelt in the north of Eyal, who it was said drew power from the green fires that danced in their everwinter skies.  Turthel was his name, and the like of him has not trod through earth or snow in many centuries.  Upon his right hand he wore the Ring of Kar’Krul, a lustrous gold band adorned by a blazing ruby, token to his position as the leader of the greatest union of human mages in Maj’Eyal.
-
-With him were his twin daughters, Linaniil and Neira, who walked before him.  Identical they were in looks, yet I saw straight away that they were opposites in personality.  They were each of crimson hair, worn long in spilling tresses, with pale skin that shone in the sunlight.  They were dressed in silken robes, but whilst Neira was adorned in yellow and orange, Linaniil wore blue and silver.  Neira was bright of glance and cheery of voice, remarking on every item of beauty she passed as they strolled through the courtyards of Elvala.  Linaniil was quiet though, and stern of face, coldly analysing and calculating all she saw.  But beneath that icy exterior I could see a fire – nay, a blaze, a bright burning passion yearning to break out, yet kept restrained.  For a moment we made eye contact as the party approached the citadel, and I could see laid bare her wild spirit and untempered thoughts, a will and strength of mind that was utterly unconquerable.  It took my breath from me.
-
-Few of my people have ever understood how one of our race could be infatuated with a human.  But they have not known Linaniil.  Not as I have known her.  Like raw fire given flesh is she, a burning ball of emotions and desires.  Her fervent mind brooks no opposition, and her wit and words charm or coerce all around her.  Beautiful and radiant is her form, as bright as the summer sun, yet also cold and remote, unreachable unless she wants to be reached.  In all the ages this has never changed about her.
-
-I barely noticed Neira greeting me warmly as she passed through the gate.  Linaniil gave me but a curt nod.  I followed after, as our leader and his guests entered the grand chamber and took their seats.  The summit was to begin on the planning of a new endeavour, a great work by our highest mages to tap into the power of the Sher’Tul farportals.  Long had the relics of that ancient race lain dormant beneath the soil, their powers untouched.  With that mighty strength brought forth we could end the war with the orcs quickly and decisively.  The Spellblaze they called it, and it was a name we spoke in awe and reverence.
-
-King Ephinias began the meeting, introducing our guests and then those around him.  “This is my general,” he said gesturing to me, “Commander Gawaeil of the Shaloren Armies.”  Immediately Linaniil looked at me and gawked.
-
-“What?” she cried, staring at my armour and baldric.  She turned away from us, seeming not to heed her distinguished hosts.  “Father, what be the meaning of this?” she said to the burly man.  “Ye gave tell that the Shaloren had the mightiest battlemages, yet their general be cased in steel and girt with sword.  Does a mere fighter command experts in the Art?”
-
-Ephinias looked outraged, but I laughed suddenly, both at her extreme rudeness and her wild presumptions.  “A mere fighter?” I said between incredulous gasps.  “Lady, you would do well not to judge so on appearances.  For if I judge right I see no mere impudent lass before me, but a great master of flames and inflagrations, and a weaver of threads more stern-willed even than her chill-blooded father.  But do not presume yourself a greater worker of the Art than I!  For I am Aranion Gawaeil, master of the Arcane Blade, a channeller of mighty elemental forces.  The spells willed through my steel have slain more orcs than you have seen in your short life, or like will ever see.”
-
-She looked at me then with sudden interest.  “A strange technique it sounds.  Ludicrous it seems when one can simply burn foes from afar.  Though perhaps if we hunt orc together some time I shall see for mine self.  But ye would be hard pressed indeed to better me on the battlefield.”
-
-“I shall endeavour to impress, my lady,” I said, with a mock bow of my head.  A thin smile played across her lips.
-
-Turthel grunted and turned his shaggy head to the king.  “Business,” he said, in the blunt and brief manner I had heard reported of him.
-
-Ephinias cleared his throat and sat back in his chair.  “We have a grand plan before us,” he began. “For many years we have been plagued by orc attacks.  Initially we were weakened from the Allure Wars, but now that we are beginning to recover our strength it is time to put our joint enemy to rest.  Too often they have threatened to overrun us all, to destroy civilisation forever.  We have all lost much.  Turthel, I can deeply sympathise with your personal loss.”  The fur-clothed man did not change his expression, but I could see his daughters dip their heads in solemn thought.
-
-“I have been leading our archmages in an experiment on the Sher’Tul farportal to the east of here.  We believe we can evoke the great powers sealed within to create a wave of destructive energy that we could direct against the orcish armies.  If all the races cooperate in drawing the orcish forces out then we can end this war in one swift strike.  The orcs would be decimated beyond recovery, and Eyal would be cleansed of their presence.
-
-“I have approached the leaders of the other races.  The halflings are fully supportive.  The Nargol regents have even provided us with some of their historical research on Sher’Tul ruins.”
-
-Turthel cursed then suddenly.  “Research done on human slaves!” he barked.  He turned quiet then, letting his temper settle.  “What of your sea and forest cousins?”
-
-Ephinias looked him coolly in the eye.  “The Naloren are prideful and do not wish to cooperate.  They think they can protect their lands on their own.  Yet I believe they will thank us in the end...  The Thaloren are not entirely keen either.  But we have discussed with their king and queen, and given great assurances as to the safety of our operations.  They do not wholly trust us or our command of the arcane, but in this they will not oppose us.  Shatur is as weary of the orc attacks on its borders as any of us.  They will give aid where it is convenient, as long as they ride under their own banners.  We do not particularly need them, of course, but we thought it prudent to involve all we could.
-
-“The other human leaders have mostly assented.  Some have expressed wholly irrational fears of our activities.  Alas, legends and myths still abound to scare people away from anything to do with the Sher’Tul.  But we are confident that we know what we are doing here.  The Kar’Krul elite I’m sure will understand.  And your alliance is worth a dozen lesser kings.”
-
-The burly man stared hard and long into Ephinias’ eyes, before turning to his daughters.  “What do ye think, girls?”
-
-Neira was the first to respond, and there was colour in her cheeks and emotion in her voice.  “I deem this Shaloren king remote and proud.  Sympathy he talks of whilst using our mother’s memory as a tool.  Understanding he proclaims, yet how can any truly know the subtlety behind these Sher’Tul relics?  Untouched they be for millennia, and their original power is still unknown.  What pride lets ye think ye can toy with them now?  It be folly to use a weapon that ye know not how to wield.”
-
-The room went quiet, and I could see Ephinias was silently fuming.  He was not accustomed to such open criticism.  Then Linaniil began to speak, and her voice was low and cool, yet all ears hung on her words.  “Many have been the works of pride over the years that have arisen in splendour.  Whence have come our great artworks, our grand cities, or the arcane weavings that shape our societies?  No meekness be found in their crafting.  There be no shame in acting out of pride, and we gain nothing from misplaced humility.  Too long have the powers of the Sher’Tul been left untapped by fearful and timid hearts.”  I could see then her eyes light up with excitement.  “Think of the glories we could unlock!  This war with the orcs would be but the beginning.  Great benefit could be brought to us all.  To leave these powers buried would be a crime, I say.”
-
-Turthel paused reflectively before nodding his head slowly, and it was clear that Linaniil’s words aligned better with his own thoughts.  “Very well,” he slowly announced, looking directly at Ephinias.  “We are with you.”  Neira stayed silent with brooding concern, but a flash of satisfaction crossed her sister’s eyes.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter One: A Fateful Meeting#{normal}#
-
-This tale begins in the Age of Allure, when I was yet young, and the idea of youth and age was still a pressure on our people.  It is one tale amongst a host of tales, for many are the stories of tragedy and heroism that befell all the races in this era.  I can only give my story, my tragedies, and my follies dressed as heroism, woven around the great force that shook our world and changed our histories: The Spellblaze.
-
-I first met Linaniil at a council summit, when our leader Ephinias was meeting with the head of the Kar’Krul.  I remember the huge man walking through the gates of our city, our people staring at his wide girth and bristling hair, his fur clothes and his proud stride.  How out of place he looked amongst us slender elves...  Some thought him a barbarian, but I could see behind his frosty eyes there was great power.  He was from a hardy race of men that once dwelt in the north of Eyal, who it was said drew power from the green fires that danced in their everwinter skies.  Turthel was his name, and the like of him has not trod through earth or snow in many centuries.  Upon his right hand he wore the Ring of Kar’Krul, a lustrous gold band adorned by a blazing ruby, token to his position as the leader of the greatest union of human mages in Maj’Eyal.
-
-With him were his twin daughters, Linaniil and Neira, who walked before him.  Identical they were in looks, yet I saw straight away that they were opposites in personality.  They were each of crimson hair, worn long in spilling tresses, with pale skin that shone in the sunlight.  They were dressed in silken robes, but whilst Neira was adorned in yellow and orange, Linaniil wore blue and silver.  Neira was bright of glance and cheery of voice, remarking on every item of beauty she passed as they strolled through the courtyards of Elvala.  Linaniil was quiet though, and stern of face, coldly analysing and calculating all she saw.  But beneath that icy exterior I could see a fire – nay, a blaze, a bright burning passion yearning to break out, yet kept restrained.  For a moment we made eye contact as the party approached the citadel, and I could see laid bare her wild spirit and untempered thoughts, a will and strength of mind that was utterly unconquerable.  It took my breath from me.
-
-Few of my people have ever understood how one of our race could be infatuated with a human.  But they have not known Linaniil.  Not as I have known her.  Like raw fire given flesh is she, a burning ball of emotions and desires.  Her fervent mind brooks no opposition, and her wit and words charm or coerce all around her.  Beautiful and radiant is her form, as bright as the summer sun, yet also cold and remote, unreachable unless she wants to be reached.  In all the ages this has never changed about her.
-
-I barely noticed Neira greeting me warmly as she passed through the gate.  Linaniil gave me but a curt nod.  I followed after, as our leader and his guests entered the grand chamber and took their seats.  The summit was to begin on the planning of a new endeavour, a great work by our highest mages to tap into the power of the Sher’Tul farportals.  Long had the relics of that ancient race lain dormant beneath the soil, their powers untouched.  With that mighty strength brought forth we could end the war with the orcs quickly and decisively.  The Spellblaze they called it, and it was a name we spoke in awe and reverence.
-
-King Ephinias began the meeting, introducing our guests and then those around him.  “This is my general,” he said gesturing to me, “Commander Gawaeil of the Shaloren Armies.”  Immediately Linaniil looked at me and gawked.
-
-“What?” she cried, staring at my armour and baldric.  She turned away from us, seeming not to heed her distinguished hosts.  “Father, what be the meaning of this?” she said to the burly man.  “Ye gave tell that the Shaloren had the mightiest battlemages, yet their general be cased in steel and girt with sword.  Does a mere fighter command experts in the Art?”
-
-Ephinias looked outraged, but I laughed suddenly, both at her extreme rudeness and her wild presumptions.  “A mere fighter?” I said between incredulous gasps.  “Lady, you would do well not to judge so on appearances.  For if I judge right I see no mere impudent lass before me, but a great master of flames and inflagrations, and a weaver of threads more stern-willed even than her chill-blooded father.  But do not presume yourself a greater worker of the Art than I!  For I am Aranion Gawaeil, master of the Arcane Blade, a channeller of mighty elemental forces.  The spells willed through my steel have slain more orcs than you have seen in your short life, or like will ever see.”
-
-She looked at me then with sudden interest.  “A strange technique it sounds.  Ludicrous it seems when one can simply burn foes from afar.  Though perhaps if we hunt orc together some time I shall see for mine self.  But ye would be hard pressed indeed to better me on the battlefield.”
-
-“I shall endeavour to impress, my lady,” I said, with a mock bow of my head.  A thin smile played across her lips.
-
-Turthel grunted and turned his shaggy head to the king.  “Business,” he said, in the blunt and brief manner I had heard reported of him.
-
-Ephinias cleared his throat and sat back in his chair.  “We have a grand plan before us,” he began. “For many years we have been plagued by orc attacks.  Initially we were weakened from the Allure Wars, but now that we are beginning to recover our strength it is time to put our joint enemy to rest.  Too often they have threatened to overrun us all, to destroy civilisation forever.  We have all lost much.  Turthel, I can deeply sympathise with your personal loss.”  The fur-clothed man did not change his expression, but I could see his daughters dip their heads in solemn thought.
-
-“I have been leading our archmages in an experiment on the Sher’Tul farportal to the east of here.  We believe we can evoke the great powers sealed within to create a wave of destructive energy that we could direct against the orcish armies.  If all the races cooperate in drawing the orcish forces out then we can end this war in one swift strike.  The orcs would be decimated beyond recovery, and Eyal would be cleansed of their presence.
-
-“I have approached the leaders of the other races.  The halflings are fully supportive.  The Nargol regents have even provided us with some of their historical research on Sher’Tul ruins.”
-
-Turthel cursed then suddenly.  “Research done on human slaves!” he barked.  He turned quiet then, letting his temper settle.  “What of your sea and forest cousins?”
-
-Ephinias looked him coolly in the eye.  “The Naloren are prideful and do not wish to cooperate.  They think they can protect their lands on their own.  Yet I believe they will thank us in the end...  The Thaloren are not entirely keen either.  But we have discussed with their king and queen, and given great assurances as to the safety of our operations.  They do not wholly trust us or our command of the arcane, but in this they will not oppose us.  Shatur is as weary of the orc attacks on its borders as any of us.  They will give aid where it is convenient, as long as they ride under their own banners.  We do not particularly need them, of course, but we thought it prudent to involve all we could.
-
-“The other human leaders have mostly assented.  Some have expressed wholly irrational fears of our activities.  Alas, legends and myths still abound to scare people away from anything to do with the Sher’Tul.  But we are confident that we know what we are doing here.  The Kar’Krul elite I’m sure will understand.  And your alliance is worth a dozen lesser kings.”
-
-The burly man stared hard and long into Ephinias’ eyes, before turning to his daughters.  “What do ye think, girls?”
-
-Neira was the first to respond, and there was colour in her cheeks and emotion in her voice.  “I deem this Shaloren king remote and proud.  Sympathy he talks of whilst using our mother’s memory as a tool.  Understanding he proclaims, yet how can any truly know the subtlety behind these Sher’Tul relics?  Untouched they be for millennia, and their original power is still unknown.  What pride lets ye think ye can toy with them now?  It be folly to use a weapon that ye know not how to wield.”
-
-The room went quiet, and I could see Ephinias was silently fuming.  He was not accustomed to such open criticism.  Then Linaniil began to speak, and her voice was low and cool, yet all ears hung on her words.  “Many have been the works of pride over the years that have arisen in splendour.  Whence have come our great artworks, our grand cities, or the arcane weavings that shape our societies?  No meekness be found in their crafting.  There be no shame in acting out of pride, and we gain nothing from misplaced humility.  Too long have the powers of the Sher’Tul been left untapped by fearful and timid hearts.”  I could see then her eyes light up with excitement.  “Think of the glories we could unlock!  This war with the orcs would be but the beginning.  Great benefit could be brought to us all.  To leave these powers buried would be a crime, I say.”
-
-Turthel paused reflectively before nodding his head slowly, and it was clear that Linaniil’s words aligned better with his own thoughts.  “Very well,” he slowly announced, looking directly at Ephinias.  “We are with you.”  Neira stayed silent with brooding concern, but a flash of satisfaction crossed her sister’s eyes.]], "_t")
+-- 14 entries
 t("The Spellblaze Chronicles(2): A Night to Remember", "The Spellblaze Chronicles(2): A Night to Remember", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -14867,14 +14295,6 @@ t("#GREY#Your hiemal shield regenerates to full!", "#GREY#Your hiemal shield reg
 section "game/modules/tome/data/talents/spells/necrosis.lua"
 -- 1 entries
 t("#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/spells/stone-alchemy.lua"
--- 1 entries
-t([[Imbue %s with a gem (up to tier %d), granting it additional powers.
-		You can only imbue items once, and it is permanent.]], [[Imbue %s with a gem (up to tier %d), granting it additional powers.
-		You can only imbue items once, and it is permanent.]], "tformat")
 
 
 ------------------------------------------------

@@ -802,8 +802,8 @@ t("Inventory", "소지품", "_t")
 t("Equipment", "장비", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
-t("%s assigned to hotkey %s", "%s %s의 단축키로 지정되었습니다.", "tformat", {2,1}, {[2]="가"})
-t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
+t("%s assigned to hotkey %s", "%s 단축키 %s 에 지정되었습니다.", "tformat", nil, {"가"})
+t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat")
 
 
 ------------------------------------------------
@@ -925,8 +925,8 @@ Check out the keybinding screen in the game menu to bind hotkeys to a key (defau
 ]], "_t")
 t("Talent", "기술", "_t")
 t("Status", "상태", "_t")
-t("%s assigned to hotkey %s", "%s %s의 단축키로 지정되었습니다.", "tformat", {2,1}, {[2]="가"})
-t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat", nil, {"가"})
+t("%s assigned to hotkey %s", "%s 단축키 %s 에 지정되었습니다.", "tformat", nil, {"가"})
+t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat")
 
 
 ------------------------------------------------
@@ -1631,7 +1631,7 @@ t("Flame", "불꽃", "talent name")
 t("Fireflash", "불꽃섬광", "talent name")
 t("Lightning", "번개", "talent name")
 t("Sunshield", "태양 방패", "talent name")
-t("Flameshock", "불꽃충격", "talent name")
+t("Flameshock", "화염 충격", "talent name")
 
 
 ------------------------------------------------

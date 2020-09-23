@@ -3051,10 +3051,14 @@ section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
 t("floor", "바닥", "entity subtype")
+t("locked chest", "잠긴 상자", "entity name")
+t("Locked Chest", "잠긴 상자", "_t")
 t("#GOLD#An object rolls from the chest!", "#GOLD#상자에서 어떤 물건이 튀어나왔다!", "logSeen")
+t("chest (opened)", "상자 (열림)", "_t")
 t("Leave", "떠난다", "_t")
 t("Open", "연다", "_t")
 t("glass", "유리", "entity subtype")
+t("throne", "왕좌", "entity type")
 
 
 ------------------------------------------------
@@ -3227,6 +3231,7 @@ t("A paper scrap.", "종잇조각입니다.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/scourged-pits/zone.lua"
 
+t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#나무 중 하나가 잠시 흔들리더니 깨어났다!", "logSeen")
 
 
 ------------------------------------------------
