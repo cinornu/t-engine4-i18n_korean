@@ -173,6 +173,10 @@
 
 "game/dlcs/tome-orcs/data/factions.lua" Khelerd 완
 
+------------------------------ 이하 EoR data/quests ---------------------------------
+
+"game/dlcs/tome-orcs/data/quests/amakthel.lua" Khelerd 완
+
 ------------------------------ 이하 EoR data/zones (완역) ---------------------------------
 
 "game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"
