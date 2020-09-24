@@ -1150,79 +1150,7 @@ t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put the
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
--- 26 entries
-t("Escapades of Fay Willows [Book 4, Chapter 2] - Seeking Sanctuary", "Escapades of Fay Willows [Book 4, Chapter 2] - Seeking Sanctuary", "_t")
-t([[[i]I want to emphasize that I come from a society where there is little if any practiced magic, let alone any products of it such as runes. While there were thalore who could use magic, their knowledge was self-taught and done in secret; not to mention that thaloren users of magic were generally ostracized from the rest of the community, if not exiled from Thaloren lands. Even now I still don't know much about the inner workings of the Rune of Return that is grafted to me, though I am working to learn the basics of runes and the greater subject of the arcane forces behind them.[/i]
-
-We continued deeper into Shaloren territory, the fanatics’ scouts continuing to follow us but always careful to stay back and never stray too close. It would be a couple more days before we reached the edge of the Shroud. Navigating to where I had first crossed through the misty wall to get into the city, I reached into my pack to retrieve the Rune of Return that I had received so long ago. With an outstretched hand I presented it to the ogre commander. I had expected him to take it but he simply nodded his head and noted, "A Rune of Return." For the next brief moment I stood there with my hand held out, the commander seemingly as puzzled as I was to our interaction. It wasn't clear until the strategist finally chimed in, "You have no clue how that rune your holding works do you?"
-
-At this the commander blinked before realizing the situation and noting, "Right, you’re a complete novice." I could feel the blank expression worn on my face and the ogres were seemingly aware of this. "Come over here thalore," a voice called out. I turned my head to see who was calling me, before noting it was a female ogre that I had helped from before, "let's see that rune you got." I was a bit confused, but I made my way over and presented the rune. Taking it in one hand, she proceeded to examine the rune, before handing it back to me. “Right," the ogre began, "this here rune is bonded to you, so only you can inscribe it. After that is done you can use the rune to enter Elvala and request entry for us."
-
-It felt like the words popping out of the ogres mouth were some type of different language. The ogre who I would eventually come to know as my instructor gave a series of explanations about runes, though eventually decided it would just be better to graft the Rune of Return on me instead of giving me a lesson on rune theory. To ensure that I would have the least trouble activating the rune, the ogre chose to graft it on my back just below my neck. I can remember how painful the experience was as the nerves in the back of my spine were pricked and prodded at. Despite the pain though, I can also remember the exhilaration my body felt as it was touched by arcane forces for the first time.
-
-"There then, finished." Pleased with her work, the ogre circled around me to put her hands on my shoulders. "Now, all that is left for you to do is for you to get pass this barrier and make the request for our entry. Thalore, before I tell you what to do to activate the rune, know that I thank you for helping to bring us this far. If it hadn't been for you, I- we ogres... we likely would have all died." I could see the tears beginning to stream down the face of the ogre as she continued "Once again it seems our lives are in your hands. I hope that you will be able to convince the Shaloren to let us in, but even if you can't I wanted to thank you, we all want to thank you." Around me I could see the other ogres bowing their heads.
-
-With a smile I replied back "I'm sure you will be let in. Tell me what it is I need to do." Raising her head while wiping away the tears from her face, I was walked through the process to activate the rune. I gave a solemn nod to the ogres before performing the steps myself. Within an instant my surroundings completely changed as I could hear the bustling of shaloren all around me. I could feel a heavy sensation on my neck where the rune had been inscribed, but other than that I felt no different. A few of the shalore turned to look in my direction, seemingly surprised at my entry, though not as much as I would have expected. One of the shalore soon called out, "You're that thalore who helped us from before? Welcome back!"
-
-"Oh, a, thank you" I replied back, slowly adjusting to the fact that I had abruptly entered Elvala. Quickly, I realized that the ogre's were still outside of Elvala waiting for me. Excusing myself, I proceeded to run to the middle of the town where I had previously met the general. As before there stood guards outside the building, though they recognized me as I approached. Panting and out of breath I took a brief moment to inhale and exhale before gasping out "Ogres... seeking asylum... here in... Elvala." The guards in front of me stood in bewilderment after hearing the sentence I let out, seemingly grasping what I had said but unable to determine what to do.
-
-Then from behind me came a voice, "What is this about ogres?" I turned around to see a young female shalore, who I recognized as being one of the mages who saw me off from Elvala. Seeing me, she seemed to oddly cool a bit and address me saying "Ooo, you're that thalore. We've never personally met but I helped teleport you out of Elvala a short while ago. Welcome back to Elvala." Catching my breathe I explained the situation involving the ogres outside, the zealots chasing them, and how they were looking to seek refuge in Elvala. As I finished talking the young shalore stated, "Judging from what you have told me, it would likely be best if those ogre's were brought in quickly."
-
-Approaching the guards to communicate something, their bewildered faces quickly became somewhat distressed both by the actions and words of the shalore woman. I don't know what the mage had said, but it seemed as if the guards were almost pleading with the young shaloren woman about something. Eventually she called for me to follow her and began to move in the direction I had come when I entered the city with the Rune of Return. I could tell that this shalore seemed to have some plan in mind, perhaps one that would allow the ogres passage into the city. Before turning to follow her, I noticed the two guards murmer something to each other before one of them rushed inside the building. The other seemed to look at worriedly in the direction of me and the mage as we walked away.]], [[[i]I want to emphasize that I come from a society where there is little if any practiced magic, let alone any products of it such as runes. While there were thalore who could use magic, their knowledge was self-taught and done in secret; not to mention that thaloren users of magic were generally ostracized from the rest of the community, if not exiled from Thaloren lands. Even now I still don't know much about the inner workings of the Rune of Return that is grafted to me, though I am working to learn the basics of runes and the greater subject of the arcane forces behind them.[/i]
-
-We continued deeper into Shaloren territory, the fanatics’ scouts continuing to follow us but always careful to stay back and never stray too close. It would be a couple more days before we reached the edge of the Shroud. Navigating to where I had first crossed through the misty wall to get into the city, I reached into my pack to retrieve the Rune of Return that I had received so long ago. With an outstretched hand I presented it to the ogre commander. I had expected him to take it but he simply nodded his head and noted, "A Rune of Return." For the next brief moment I stood there with my hand held out, the commander seemingly as puzzled as I was to our interaction. It wasn't clear until the strategist finally chimed in, "You have no clue how that rune your holding works do you?"
-
-At this the commander blinked before realizing the situation and noting, "Right, you’re a complete novice." I could feel the blank expression worn on my face and the ogres were seemingly aware of this. "Come over here thalore," a voice called out. I turned my head to see who was calling me, before noting it was a female ogre that I had helped from before, "let's see that rune you got." I was a bit confused, but I made my way over and presented the rune. Taking it in one hand, she proceeded to examine the rune, before handing it back to me. “Right," the ogre began, "this here rune is bonded to you, so only you can inscribe it. After that is done you can use the rune to enter Elvala and request entry for us."
-
-It felt like the words popping out of the ogres mouth were some type of different language. The ogre who I would eventually come to know as my instructor gave a series of explanations about runes, though eventually decided it would just be better to graft the Rune of Return on me instead of giving me a lesson on rune theory. To ensure that I would have the least trouble activating the rune, the ogre chose to graft it on my back just below my neck. I can remember how painful the experience was as the nerves in the back of my spine were pricked and prodded at. Despite the pain though, I can also remember the exhilaration my body felt as it was touched by arcane forces for the first time.
-
-"There then, finished." Pleased with her work, the ogre circled around me to put her hands on my shoulders. "Now, all that is left for you to do is for you to get pass this barrier and make the request for our entry. Thalore, before I tell you what to do to activate the rune, know that I thank you for helping to bring us this far. If it hadn't been for you, I- we ogres... we likely would have all died." I could see the tears beginning to stream down the face of the ogre as she continued "Once again it seems our lives are in your hands. I hope that you will be able to convince the Shaloren to let us in, but even if you can't I wanted to thank you, we all want to thank you." Around me I could see the other ogres bowing their heads.
-
-With a smile I replied back "I'm sure you will be let in. Tell me what it is I need to do." Raising her head while wiping away the tears from her face, I was walked through the process to activate the rune. I gave a solemn nod to the ogres before performing the steps myself. Within an instant my surroundings completely changed as I could hear the bustling of shaloren all around me. I could feel a heavy sensation on my neck where the rune had been inscribed, but other than that I felt no different. A few of the shalore turned to look in my direction, seemingly surprised at my entry, though not as much as I would have expected. One of the shalore soon called out, "You're that thalore who helped us from before? Welcome back!"
-
-"Oh, a, thank you" I replied back, slowly adjusting to the fact that I had abruptly entered Elvala. Quickly, I realized that the ogre's were still outside of Elvala waiting for me. Excusing myself, I proceeded to run to the middle of the town where I had previously met the general. As before there stood guards outside the building, though they recognized me as I approached. Panting and out of breath I took a brief moment to inhale and exhale before gasping out "Ogres... seeking asylum... here in... Elvala." The guards in front of me stood in bewilderment after hearing the sentence I let out, seemingly grasping what I had said but unable to determine what to do.
-
-Then from behind me came a voice, "What is this about ogres?" I turned around to see a young female shalore, who I recognized as being one of the mages who saw me off from Elvala. Seeing me, she seemed to oddly cool a bit and address me saying "Ooo, you're that thalore. We've never personally met but I helped teleport you out of Elvala a short while ago. Welcome back to Elvala." Catching my breathe I explained the situation involving the ogres outside, the zealots chasing them, and how they were looking to seek refuge in Elvala. As I finished talking the young shalore stated, "Judging from what you have told me, it would likely be best if those ogre's were brought in quickly."
-
-Approaching the guards to communicate something, their bewildered faces quickly became somewhat distressed both by the actions and words of the shalore woman. I don't know what the mage had said, but it seemed as if the guards were almost pleading with the young shaloren woman about something. Eventually she called for me to follow her and began to move in the direction I had come when I entered the city with the Rune of Return. I could tell that this shalore seemed to have some plan in mind, perhaps one that would allow the ogres passage into the city. Before turning to follow her, I noticed the two guards murmer something to each other before one of them rushed inside the building. The other seemed to look at worriedly in the direction of me and the mage as we walked away.]], "_t")
-t("Escapades of Fay Willows [Book 4, Chapter 3] - The Enchantress", "Escapades of Fay Willows [Book 4, Chapter 3] - The Enchantress", "_t")
-t([[[i]Alreiwen Taeil the foolhardy enchantress. Easily the worst conversationalist I have ever met, and among all the shaloren I know of none that has a greater ego than hers. Still, I respect her sense of justice as well as her gifted abilities in the arcane. Who knows what fate may have happened to the ogres had she not been present when I made the request for their entry.[/i]
-
-Along the way the young mage probed me with varying questions relating to my travels and the events that I had witnessed or been a part of. Of those questions asked though, the ones involving the treatment of the ogres have stuck out in my mind the most. "So the ogres, I've heard a little bit about them. While they never really traveled here to Elvala, I've heard stories of their altruism and heroics. But, from what you told me about those crazed lunatics, it seems rather odd that they wouldn't have killed the ogres outright. I mean they have obviously managed to merge their bodies with arcane runes, what more reason is there for someone who hates magic to just kill them then and there. For what purpose do you think they would be kept alive?"
-
-I responded coldly to the question, "I do not know the reason, nor do I care. For what purpose would you attempt to discern any meaning from their mad actions anyways? I see little reason for you or any shalore to care." Laughing at this, the young shalore replied "perhaps you are right, but just because these 'cultists' seem to act mad to you, doesn't mean that they pursue whatever their doctrines are aimlessly. They will be our enemies for sure in the future, but hopefully before we ever truly encounter them we can at least know their motives. If we can understand how they act, we can understand what moves they will make, and we can make plans to counter their schemes as a result."
-
-Continuing on, I noticed that the shalore was intently looking at me, or rather at the back of my neck. "Judging from where the rune I crafted was placed, I guess the ogres helped you with inscribing my Rune of Return?" Taking a moment to process what the shalore said, I soon spouted, "You crafted?" The shalore smiled and laughed a bit before continuing, "Indeed I did, a masterwork produced by the best enchantress in Elvala! Though I'm wondering why you didn't graft it on to your own skin yourself, or are the Thaloren really 'that' backwards when it comes to the arcane?" I remember the cold expression I gave, which she immediately picked up on before replying, "Right, I'll try to keep that in mind the next time I meet a thalore."
-
-Nearing the outer edges of Elvala where the Shroud was, the enchantress asked where exactly the ogres would be. I noted to her that I had left them in the same place where I had entered through the Shroud on my first visit, and promptly led her to that spot of my initial entry. Standing stoically, she raised her arms and seemed to sing in a low harmonic sound, and almost immediately the misty smoke began to part. Any skepticism I had as to what she planned was soon replaced with astonishment as a tunnel smaller in size than the one I had traversed formed in front us. From the other side of the tunnel I could see the distant figures of the ogres appear.
-
-Not missing a beat, I could see the ogres begin to move towards us. After a few minutes the first of them began to run inside Elvala's walls before collapsing to the ground. Behind us I noticed a growing crowd of onlookers gathering to witness the unexpected event in front of them. As the last ogre exited from the tunnel, the mage put her arms down, and with it the Shroud fell as well. Finished, she too fell backwards to the ground and gasped heavily for air, seemingly drained of of all her energy after the amazing feat. Looking up at me with a smile on her face she made a simple statement in between deep breaths, "It is done. You have led the ogres to their safety."
-
-"Indeed, though this wasn't the proper way to go about it.” I heard a voice state behind me. Turning around to see the general, I quickly noticed the large company of guards breaking through the onlookers and making our way towards us. For a moment I wondered if there would be trouble, but the general eventually gave the order to the soldiers to help carry the ogres to the healers. As the general began to approach the enchantress his eyes seem to dart quickly towards me. Stopping for a moment to give me a quick look over, he stated in a quiet but authoritative voice, "You should head over with the ogres as well.” before continuing on past me towards the enchantress. Standing above the young shalore as she slowly caught her breathe, I could see him fold his arms.
-
-Deciding for now it would be best to follow the orders of the general, I proceeded to make my way to Elvala's medical facilities as well. Naively thinking I would look for the chief healer and see how I could help out, I made my way into the building, and asked the closest healer where I could find him. I can still remember the shock on the face of the healer's face, as it hadn't even occurred to me at that time that the general had suggested that I head to the healers for my own injuries, not for those of the ogres. It didn't take long for what seemed like one healer after another to be called over, before it seemed like half of the healers in the building were tending to me, including some of those that were originally tending to the ogres.
-
-I can't say I remembered much of what happened either, I couldn't even remember feeling any pain for any of the injuries I apparently had, though the healers recognized how critical those injuries were. I was promptly whisked away to one of the empty beds and given several anesthetic infusions, which subsequently caused me to black out. I would learn later that the healers were aghast at how brutally injured I truly was, but were truly horrified when the regenerative infusions they applied seemingly failed to have much effect, despite how many they applied. It would take my body a few months to recover, not to mention countless infusions. Even to this day I am told to be careful of injury due to how long it takes for me to heal.
-
-Eventually when I woke up, and after the healers had checked me over, I was told to wait as someone wished to visit me. After a period of time I was greeted by the enchantress once more. "I see you are doing alright, you’re certainly quite tough thalore. Don't worry about the ogres, Aranion has granted them the asylum here as requested." She spoke proudly though I could sense a hint of disappointment in her voice. "Now then, I realize you have only woken up, but Aranion wants me to get the story from you as to what transpired after you had left for the Nargol Kingdom to the point when you came back to Elvala. Perhaps as well you might shed some light on why exactly it took you so long to heal as well?"  ]], [[[i]Alreiwen Taeil the foolhardy enchantress. Easily the worst conversationalist I have ever met, and among all the shaloren I know of none that has a greater ego than hers. Still, I respect her sense of justice as well as her gifted abilities in the arcane. Who knows what fate may have happened to the ogres had she not been present when I made the request for their entry.[/i]
-
-Along the way the young mage probed me with varying questions relating to my travels and the events that I had witnessed or been a part of. Of those questions asked though, the ones involving the treatment of the ogres have stuck out in my mind the most. "So the ogres, I've heard a little bit about them. While they never really traveled here to Elvala, I've heard stories of their altruism and heroics. But, from what you told me about those crazed lunatics, it seems rather odd that they wouldn't have killed the ogres outright. I mean they have obviously managed to merge their bodies with arcane runes, what more reason is there for someone who hates magic to just kill them then and there. For what purpose do you think they would be kept alive?"
-
-I responded coldly to the question, "I do not know the reason, nor do I care. For what purpose would you attempt to discern any meaning from their mad actions anyways? I see little reason for you or any shalore to care." Laughing at this, the young shalore replied "perhaps you are right, but just because these 'cultists' seem to act mad to you, doesn't mean that they pursue whatever their doctrines are aimlessly. They will be our enemies for sure in the future, but hopefully before we ever truly encounter them we can at least know their motives. If we can understand how they act, we can understand what moves they will make, and we can make plans to counter their schemes as a result."
-
-Continuing on, I noticed that the shalore was intently looking at me, or rather at the back of my neck. "Judging from where the rune I crafted was placed, I guess the ogres helped you with inscribing my Rune of Return?" Taking a moment to process what the shalore said, I soon spouted, "You crafted?" The shalore smiled and laughed a bit before continuing, "Indeed I did, a masterwork produced by the best enchantress in Elvala! Though I'm wondering why you didn't graft it on to your own skin yourself, or are the Thaloren really 'that' backwards when it comes to the arcane?" I remember the cold expression I gave, which she immediately picked up on before replying, "Right, I'll try to keep that in mind the next time I meet a thalore."
-
-Nearing the outer edges of Elvala where the Shroud was, the enchantress asked where exactly the ogres would be. I noted to her that I had left them in the same place where I had entered through the Shroud on my first visit, and promptly led her to that spot of my initial entry. Standing stoically, she raised her arms and seemed to sing in a low harmonic sound, and almost immediately the misty smoke began to part. Any skepticism I had as to what she planned was soon replaced with astonishment as a tunnel smaller in size than the one I had traversed formed in front us. From the other side of the tunnel I could see the distant figures of the ogres appear.
-
-Not missing a beat, I could see the ogres begin to move towards us. After a few minutes the first of them began to run inside Elvala's walls before collapsing to the ground. Behind us I noticed a growing crowd of onlookers gathering to witness the unexpected event in front of them. As the last ogre exited from the tunnel, the mage put her arms down, and with it the Shroud fell as well. Finished, she too fell backwards to the ground and gasped heavily for air, seemingly drained of of all her energy after the amazing feat. Looking up at me with a smile on her face she made a simple statement in between deep breaths, "It is done. You have led the ogres to their safety."
-
-"Indeed, though this wasn't the proper way to go about it.” I heard a voice state behind me. Turning around to see the general, I quickly noticed the large company of guards breaking through the onlookers and making our way towards us. For a moment I wondered if there would be trouble, but the general eventually gave the order to the soldiers to help carry the ogres to the healers. As the general began to approach the enchantress his eyes seem to dart quickly towards me. Stopping for a moment to give me a quick look over, he stated in a quiet but authoritative voice, "You should head over with the ogres as well.” before continuing on past me towards the enchantress. Standing above the young shalore as she slowly caught her breathe, I could see him fold his arms.
-
-Deciding for now it would be best to follow the orders of the general, I proceeded to make my way to Elvala's medical facilities as well. Naively thinking I would look for the chief healer and see how I could help out, I made my way into the building, and asked the closest healer where I could find him. I can still remember the shock on the face of the healer's face, as it hadn't even occurred to me at that time that the general had suggested that I head to the healers for my own injuries, not for those of the ogres. It didn't take long for what seemed like one healer after another to be called over, before it seemed like half of the healers in the building were tending to me, including some of those that were originally tending to the ogres.
-
-I can't say I remembered much of what happened either, I couldn't even remember feeling any pain for any of the injuries I apparently had, though the healers recognized how critical those injuries were. I was promptly whisked away to one of the empty beds and given several anesthetic infusions, which subsequently caused me to black out. I would learn later that the healers were aghast at how brutally injured I truly was, but were truly horrified when the regenerative infusions they applied seemingly failed to have much effect, despite how many they applied. It would take my body a few months to recover, not to mention countless infusions. Even to this day I am told to be careful of injury due to how long it takes for me to heal.
-
-Eventually when I woke up, and after the healers had checked me over, I was told to wait as someone wished to visit me. After a period of time I was greeted by the enchantress once more. "I see you are doing alright, you’re certainly quite tough thalore. Don't worry about the ogres, Aranion has granted them the asylum here as requested." She spoke proudly though I could sense a hint of disappointment in her voice. "Now then, I realize you have only woken up, but Aranion wants me to get the story from you as to what transpired after you had left for the Nargol Kingdom to the point when you came back to Elvala. Perhaps as well you might shed some light on why exactly it took you so long to heal as well?"  ]], "_t")
+-- 22 entries
 t("Escapades of Fay Willows [Book 4, Chapter 4] - Terrifying Interview", "Escapades of Fay Willows [Book 4, Chapter 4] - Terrifying Interview", "_t")
 t([[[i]I do not know if Alreiwen has forgiven me, for the terror I had inflicted on her, or the hatred within me she must have felt. While it was but a mere moment, I could tell that all my rage had been channeled into her very being, the same rage that I had filled those fanatics with from before. At that moment I could tell she knew how potentially dangerous I was. Rei, if you are reading this then know how truly sorry I am for what happened.[/i]
 
@@ -3595,11 +3523,10 @@ t("The skeleton of a long-lived wyrm, armed with a deadly breath weapon and nast
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/whitehooves.lua"
--- 8 entries
+-- 7 entries
 t("whitehoof ghoul", "whitehoof ghoul", "entity name")
 t("It is a cross between a human and a bull, but more ... dead.", "It is a cross between a human and a bull, but more ... dead.", "_t")
 t("whitehoof maulotaur", "whitehoof maulotaur", "entity name")
-t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "_t")
 t("whitehoof invoker", "whitehoof invoker", "entity name")
 t("Vortexes of sickly arcane energies circle this great undead frame.", "Vortexes of sickly arcane energies circle this great undead frame.", "_t")
 t("whitehoof hailstorm", "whitehoof hailstorm", "entity name")
@@ -3674,9 +3601,8 @@ t("The core wood of a great tree.", "The core wood of a great tree.", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/destructicus.lua"
--- 3 entries
+-- 2 entries
 t("kaltor's shop", "kaltor's shop", "newLore category")
-t("DESTRUCTICUS!", "DESTRUCTICUS!", "_t")
 t([[INTRODUCING!
 
 The most powerful, most fearsome, most awesome weapon ever conceived by giants, men, nature, or anything before us:
@@ -4451,9 +4377,7 @@ t("(This note had already caught fire when the paradox anomaly pulled it in from
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/orcs.lua"
--- 3 entries
-t("orc prides", "orc prides", "newLore category")
-t("The Shunned Kruk", "The Shunned Kruk", "_t")
+-- 1 entries
 t([[Our pride has never been held in high esteem by the others.  We were the backbone of Garkul's army, the supply-runners, the road-builders, the medics tending to the wounded - all roles that had to be done to support those who gloriously fought in the thick of battle...  Alas, all this meant is that the others only barely accepted our necessity, barely concealing their distaste for us "cowards" and "weaklings."  Garkul stood up for us whenever the opportunity arose, so their prejudices were a moot point until his defeat; unfortunately, once the Allied Kingdoms started pushing us back and attacking the fortified towns we'd built in Maj'Eyal, we took the blame for not making them strong enough to hold off all attackers.  "What good are they?"  Rak'shor once asked.  "Even when they're hiding behind us, they still can't make anything worthwhile!"  When it was revealed that our then-leader had held off the Allied Kingdoms at one of their strongholds to buy enough time for most of our Pride's women and children to retreat to Var'Eyal, by way of launching ancient Nargol golems into human ranks via trebuchet, the accusations of cowardice gave way to ones of selfishness and betrayal.  We kept quiet about them, hoping to change their minds when rebuilding Orcish towns in Var'Eyal, hoping that they would come to see reason when they had roofs over their heads and wells to drink from, courtesy of our Pride; it seemed to work for the time being.  We kept our distance from the others, building our own homes in a distant corner of the continent, and only sending small groups out to do minor repair and construction.  The walls we built were strong enough to keep the Sunwall forces from simply walking over them, and that seemed to be enough.
 
 Alas, this acceptance would neither grow nor last.  One fateful night, Grand Architect Kruk came running back after a meeting with the other leaders of the Prides, saying we had to leave immediately, and that the women had to go first.  To this day, we are not entirely certain what drove her to such a panic...  she only told us that we would never want peace with the other Prides if we knew what we were running from, and that we may need that peace someday.  We swiftly built a bridge to the Clork Peninsula over the next few days, looking back over our shoulders towards the other Prides as we worked, and on the night the last Orc made it across, Kruk set it ablaze with burning arrows.  On the distant shore, we could only see the torches of those who we had narrowly escaped.
@@ -5436,23 +5360,8 @@ t("Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territor
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/amakthel.lua"
--- 16 entries
-t("The Dead God Awaits", "The Dead God Awaits", "_t")
-t("Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "_t")
-t("Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "_t")
-t("It must be stopped at all cost, the Prides only just got their freedom back, you can not allow anything to take it away again!", "It must be stopped at all cost, the Prides only just got their freedom back, you can not allow anything to take it away again!", "_t")
-t("The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping forever now. The Prides and the world are safe.", "The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping forever now. The Prides and the world are safe.", "_t")
-t("#LIGHT_GREEN#You have won the game!.#WHITE#", "#LIGHT_GREEN#You have won the game!.#WHITE#", "_t")
-t("#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "log")
-t("Orc Warrior", "Orc Warrior", "_t")
-t("#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "_t")
-t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "_t")
-t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "_t")
-t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "_t")
-t("For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "_t")
-t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "_t")
 
 
 ------------------------------------------------
@@ -5479,8 +5388,7 @@ t("#LIGHT_GREEN#* You have killed Aeryn, making sure no more troops will come fr
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/free-prides.lua"
--- 17 entries
-t("Children of Garkul, Unite!", "Children of Garkul, Unite!", "_t")
+-- 16 entries
 t("All the few remaining orcs of the mainland have been captured by Sunwall and their western allies.", "All the few remaining orcs of the mainland have been captured by Sunwall and their western allies.", "_t")
 t("To ensure a future, any future, for our race they must be freed.", "To ensure a future, any future, for our race they must be freed.", "_t")
 t("The internment camp is located somewhere to the north. The orcs are subdued into obedience by a powerful #{halfling}# psionic, Mindwall, and guarded by elite Sunwall troops.", "The internment camp is located somewhere to the north. The orcs are subdued into obedience by a powerful #{halfling}# psionic, Mindwall, and guarded by elite Sunwall troops.", "_t")
@@ -5716,321 +5624,6 @@ t("..", "..", "entity name")
 section "game/dlcs/tome-orcs/data/zones/gem/zone.lua"
 -- 1 entries
 t("G.E.M.", "G.E.M.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/shertul-cave/grids.lua"
--- 1 entries
-t("way up", "way up", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/shertul-cave/objects.lua"
--- 1 entries
-t("When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/shertul-cave/zone.lua"
--- 2 entries
-t("Ruined Cave", "Ruined Cave", "_t")
-t("This cave looks very solid and stable. You can probably leave items here for later.", "This cave looks very solid and stable. You can probably leave items here for later.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/slumbering-caves/npcs.lua"
--- 14 entries
-t("Amakthel's Hand", "Amakthel's Hand", "entity name")
-t("Amakthel's Mouth", "Amakthel's Mouth", "entity name")
-t("#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "log")
-t("Amakthel's Eye", "Amakthel's Eye", "entity name")
-t([[You never thought this could even exist. You certainly never thought you'd encounter it. But this is true, in front of you stands a piece of Amakthel himself.
-The god that myths say was slain by the Sher'tul, themselves nothing but a myth.
-But there it is, half alive, half dead but you can feel his thoughts in your head, there is no mistake: #{bold}#The Dead God is here!#{normal}#]], [[You never thought this could even exist. You certainly never thought you'd encounter it. But this is true, in front of you stands a piece of Amakthel himself.
-The god that myths say was slain by the Sher'tul, themselves nothing but a myth.
-But there it is, half alive, half dead but you can feel his thoughts in your head, there is no mistake: #{bold}#The Dead God is here!#{normal}#]], "_t")
-t("spiked tentacle", "spiked tentacle", "entity name")
-t("A huge tentacle, ready to crush you with its many spikes.", "A huge tentacle, ready to crush you with its many spikes.", "_t")
-t("oozing tentacle", "oozing tentacle", "entity name")
-t("Ooze pours out of this disgusting tentacle.", "Ooze pours out of this disgusting tentacle.", "_t")
-t("eyed tentacle", "eyed tentacle", "entity name")
-t("A single malevolent eye is set atop this tentacle. And it watches you.", "A single malevolent eye is set atop this tentacle. And it watches you.", "_t")
-t("Sher'Tul High Priest", "Sher'Tul High Priest", "entity name")
-t("So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "_t")
-t("#CRIMSON#%s awakens and empowers %s!", "#CRIMSON#%s awakens and empowers %s!", "saySimple")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/slumbering-caves/objects.lua"
--- 5 entries
-t("Gardanion, the Light of God", "Gardanion, the Light of God", "entity name")
-t("pure white amulet", "pure white amulet", "_t")
-t([["#{italic}#When Amakthel arrived, he created the Sun and brought life to this world.
-You carry a piece of His Sun with you now. Do not forget who gave it to you, lest you become like those wretched fools who would forsake Him.#{normal}#"]], [["#{italic}#When Amakthel arrived, he created the Sun and brought life to this world.
-You carry a piece of His Sun with you now. Do not forget who gave it to you, lest you become like those wretched fools who would forsake Him.#{normal}#"]], "_t")
-t("When worn, gives you an additional prodigy point.", "When worn, gives you an additional prodigy point.", "_t")
-t("#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "saySimple")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/slumbering-caves/zone.lua"
--- 5 entries
-t("The Slumbering Caves", "The Slumbering Caves", "_t")
-t("The Slumbering Caves (%d)", "The Slumbering Caves (%d)", "tformat")
-t("Amakthel's Prison", "Amakthel's Prison", "_t")
-t("Fall", "Fall", "_t")
-t("The end of the staircase was trapped, you fell for a long time, luckily not breaking anything. But you have no way back now...", "The end of the staircase was trapped, you fell for a long time, luckily not breaking anything. But you have no way back now...", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/steam-quarry/grids.lua"
--- 2 entries
-t("giant steam valve", "giant steam valve", "entity name")
-t("#PURPLE#You kick and destroy the valve!", "#PURPLE#You kick and destroy the valve!", "log")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/steam-quarry/npcs.lua"
--- 2 entries
-t("Automated Defense System", "Automated Defense System", "entity name")
-t("This heavily armored mecharachnid looks extremely dangerous and well equipped to defend the quarry.", "This heavily armored mecharachnid looks extremely dangerous and well equipped to defend the quarry.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/steam-quarry/objects.lua"
--- 2 entries
-t("a very old journal", "a very old journal", "entity name")
-t("schematic: Stormcutter", "schematic: Stormcutter", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/steam-quarry/zone.lua"
--- 1 entries
-t("Steam Quarry", "Steam Quarry", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/grids.lua"
--- 6 entries
-t("bottom of the mountain", "bottom of the mountain", "entity name")
-t("way into a strange cave", "way into a strange cave", "entity name")
-t("stairs to the previous level", "stairs to the previous level", "entity name")
-t("stairs to the cavern", "stairs to the cavern", "entity name")
-t("pillar of the sun", "pillar of the sun", "entity name")
-t("pillar of the moons", "pillar of the moons", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/npcs.lua"
--- 4 entries
-t("Star Gazer", "Star Gazer", "entity name")
-t("This astromancer radiates the power of all celestial bodies. You can discern a distinct elven shape under the hood and robes.", "This astromancer radiates the power of all celestial bodies. You can discern a distinct elven shape under the hood and robes.", "_t")
-t("Astral-Infused Yeti", "Astral-Infused Yeti", "entity name")
-t("You wonder how this yeti can have wandered so far from its native habitat in the Clork Peninsula. You also wonder what happened to it that produced the celestial energies-wielding creature you angrily marching towards you.", "You wonder how this yeti can have wandered so far from its native habitat in the Clork Peninsula. You also wonder what happened to it that produced the celestial energies-wielding creature you angrily marching towards you.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/objects.lua"
--- 5 entries
-t("Cap of the Undisturbed Mind", "Cap of the Undisturbed Mind", "entity name")
-t("red cap", "red cap", "_t")
-t([[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
-With it you can spend your time stargazing without fear.]], [[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
-With it you can spend your time stargazing without fear.]], "_t")
-t("Allows you to resist the most terrible assaults on your mind.", "Allows you to resist the most terrible assaults on your mind.", "_t")
-t("Yeti's Muscle Tissue (Astral)", "Yeti's Muscle Tissue (Astral)", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/zone.lua"
--- 3 entries
-t("Path into the mountain", "Path into the mountain", "_t")
-t("Caverns below the Observatory", "Caverns below the Observatory", "_t")
-t("Sunwall Observatory", "Sunwall Observatory", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/npcs.lua"
--- 6 entries
-t("Outpost Leader John", "Outpost Leader John", "entity name")
-t("This warrior's armor glows with a bright golden light. He wields an ornate sword and shield, and marches towards you with confidence.", "This warrior's armor glows with a bright golden light. He wields an ornate sword and shield, and marches towards you with confidence.", "_t")
-t("orc retaliator", "orc retaliator", "entity name")
-t("A stern-looking orc, armed to the teeth.", "A stern-looking orc, armed to the teeth.", "_t")
-t("orc gunslinger", "orc gunslinger", "entity name")
-t("A nasty looking orc armed with double steamguns.", "A nasty looking orc armed with double steamguns.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/zone.lua"
--- 3 entries
-t("Sunwall Outpost", "Sunwall Outpost", "_t")
-t("An %s has managed to join forces with you!", "An %s has managed to join forces with you!", "tformat")
-t("Reinforcements!", "Reinforcements!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/tinker-master/grids.lua"
--- 1 entries
-t("way up", "way up", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/tinker-master/npcs.lua"
--- 2 entries
-t("Ancient Automated Teacher", "Ancient Automated Teacher", "entity name")
-t("An ancient archive of knowledge! It seems to have some kind of vocal interface.", "An ancient archive of knowledge! It seems to have some kind of vocal interface.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/tinker-master/zone.lua"
--- 1 entries
-t("Ancient Cave", "Ancient Cave", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
--- 3 entries
-t("Coward!", "Coward!", "_t")
-t("You are not coward enough to leave your home unprotected!", "You are not coward enough to leave your home unprotected!", "_t")
-t("tunnel weakness", "tunnel weakness", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/town-kruk/npcs.lua"
--- 7 entries
-t("orc guard", "orc guard", "entity name")
-t("orc gunslinger", "orc gunslinger", "entity name")
-t("A nasty looking orc armed with double steamguns.", "A nasty looking orc armed with double steamguns.", "_t")
-t("Commander Fralor", "Commander Fralor", "entity name")
-t("This heavily armored steam giant carries a huge battleaxe, swinging it menacingly towards you.", "This heavily armored steam giant carries a huge battleaxe, swinging it menacingly towards you.", "_t")
-t("Metash the Maulotaur", "Metash the Maulotaur", "entity name")
-t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/town-kruk/objects.lua"
--- 8 entries
-t("The Shunned Kruk", "The Shunned Kruk", "entity name")
-t("A history lesson.", "A history lesson.", "_t")
-t("Yeti Mind Controller", "Yeti Mind Controller", "entity name")
-t("This device seems to be designed to 'hack' the mind of a wild yeti to make it able to be used as a weapon of war.", "This device seems to be designed to 'hack' the mind of a wild yeti to make it able to be used as a weapon of war.", "_t")
-t("hack the mind of a weakened yeti", "hack the mind of a weakened yeti", "_t")
-t("#CRIMSON#Impossible to to control.", "#CRIMSON#Impossible to to control.", "saySimple")
-t("#CRIMSON#The yeti is not hurt enough to control.", "#CRIMSON#The yeti is not hurt enough to control.", "saySimple")
-t("#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "saySimple")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/town-kruk/traps.lua"
--- 2 entries
-t("Forge", "Forge", "entity name")
-t("Tinkers Store", "Tinkers Store", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/ureslak-host/npcs.lua"
--- 2 entries
-t("Ureslak the Eternal", "Ureslak the Eternal", "entity name")
-t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/ureslak-host/objects.lua"
--- 1 entries
-t("schematic: Hands of Creation", "schematic: Hands of Creation", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/ureslak-host/zone.lua"
--- 1 entries
-t("Ureslak's Host", "Ureslak's Host", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/grids.lua"
--- 1 entries
-t("merchant stall", "merchant stall", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/npcs.lua"
--- 11 entries
-t("An unarmed steam giant.", "An unarmed steam giant.", "_t")
-t("Guards!", "Guards!", "_t")
-t("Help!", "Help!", "_t")
-t("steam giant commoner", "steam giant commoner", "entity name")
-t("Pockets of gold jingle around the waist of this giant.", "Pockets of gold jingle around the waist of this giant.", "_t")
-t("You won't get my gold!", "You won't get my gold!", "_t")
-t("steam giant scribe", "steam giant scribe", "entity name")
-t("This well-dressed giant is is covered in ink smudges and looks somewhat alarmed.", "This well-dressed giant is is covered in ink smudges and looks somewhat alarmed.", "_t")
-t("Stay back, I'm warning you!", "Stay back, I'm warning you!", "_t")
-t("High Guard Talosis", "High Guard Talosis", "entity name")
-t("This heavily armored steam giant carries a gun in each hand. The gun in his right hand is ornate and well worn.", "This heavily armored steam giant carries a gun in each hand. The gun in his right hand is ornate and well worn.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/objects.lua"
--- 2 entries
-t("poster", "poster", "entity name")
-t("An advertisement poster.", "An advertisement poster.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/zone.lua"
--- 1 entries
-t("Vaporous Emporium", "Vaporous Emporium", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/wilderness-add/grids.lua"
--- 20 entries
-t("bridge to the mainland", "bridge to the mainland", "entity name")
-t("Kruk Pride (Town)", "Kruk Pride (Town)", "entity name")
-t("The last free Pride of the Orcs", "The last free Pride of the Orcs", "_t")
-t("Entrance to the Yeti Caves", "Entrance to the Yeti Caves", "entity name")
-t("Entrance to Krimbul territory", "Entrance to Krimbul territory", "entity name")
-t("Entrance to the Vaporous Emporium", "Entrance to the Vaporous Emporium", "entity name")
-t("Huge door to Kaltor's Shop", "Huge door to Kaltor's Shop", "entity name")
-t("Entrance to the Sunwall Outpost", "Entrance to the Sunwall Outpost", "entity name")
-t("Way into old ruins in the Erúan desert", "Way into old ruins in the Erúan desert", "entity name")
-t("Entrance to the Dominion Port", "Entrance to the Dominion Port", "entity name")
-t("Destroyed Dominion Port", "Destroyed Dominion Port", "entity name")
-t("Entrance to a Ritch Hive", "Entrance to a Ritch Hive", "entity name")
-t("Path to a peak leading to the Sunwall Observatory", "Path to a peak leading to the Sunwall Observatory", "entity name")
-t("Entrance to the Pride's Internment Camp", "Entrance to the Pride's Internment Camp", "entity name")
-t("Strange mechanical mole", "Strange mechanical mole", "entity name")
-t("Path to a Ureslak's Host", "Path to a Ureslak's Host", "entity name")
-t("Entrance to the Steam Quarry", "Entrance to the Steam Quarry", "entity name")
-t("Entrance to the Palace of Fumes", "Entrance to the Palace of Fumes", "entity name")
-t("Way into a primal forest", "Way into a primal forest", "entity name")
-t("DESTRUCTICUS!", "DESTRUCTICUS!", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/yeti-caves/grids.lua"
--- 1 entries
-t("a crude mural painting", "a crude mural painting", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/yeti-caves/npcs.lua"
--- 4 entries
-t("An oversized white ant. It seems not yet fully developed.", "An oversized white ant. It seems not yet fully developed.", "_t")
-t("immature ice ant", "immature ice ant", "_t")
-t("Yeti Patriarch", "Yeti Patriarch", "entity name")
-t("This yeti towers over its comrades. You see a cunning in its eyes unmatched by the others.", "This yeti towers over its comrades. You see a cunning in its eyes unmatched by the others.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/yeti-caves/objects.lua"
--- 1 entries
-t("Yeti's Muscle Tissue (Patriarch)", "Yeti's Muscle Tissue (Patriarch)", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/yeti-caves/zone.lua"
--- 1 entries
-t("Yetis Cave", "Yetis Cave", "_t")
 
 
 ------------------------------------------------
@@ -6927,9 +6520,8 @@ t([[Bootmenu!
 
 ------------------------------------------------
 section "game/modules/tome/ai/escort.lua"
--- 2 entries
+-- 1 entries
 t(" %s to the %s!", " %s to the %s!", "tformat")
-t("Help!", "Help!", "_t")
 
 
 ------------------------------------------------
@@ -8759,8 +8351,7 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/elvala.lua"
--- 14 entries
-t("The Spellblaze Chronicles(2): A Night to Remember", "The Spellblaze Chronicles(2): A Night to Remember", "_t")
+-- 13 entries
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Two: A Night to Remember#{normal}#
@@ -12501,7 +12092,7 @@ t("As you descend to the next level you traverse a kind of magical barrier keepi
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/orc-prides.lua"
--- 30 entries
+-- 29 entries
 t("Grushnak's Note", "Grushnak's Note", "_t")
 t([[Treachery! During a patrol around the outskirts of the High Peak I witnessed two orcs - the envoys from our supposed "master" - talking in secret. Remaining to watch them, I beheld as their orcish features sloughed from their bodies, revealing a pair of human wizards! Humans! To think that our great pride has been deceived in such a manner! I should have crushed their skulls there and then. However, mages can be crafty, so I left them to their scheming.
 
@@ -12871,7 +12462,6 @@ The reason for suicide is beyond understanding. His research has been immensely 
 I see his notes also suggest the mothers may be in pain. I will allow a doping infusion to be administered to alleviate this. We would not wish our women to suffer...
 
 ]], "_t")
-t("orc prides", "orc prides", "newLore category")
 t("Ukruk's log", "Ukruk's log", "_t")
 t([[Sher'Tul ruin matches description from high command. Investigation begun, but slow. Looks like it crashed into the ground long ago - hard to access many areas. Target item has been described by command as a staff. Do not know why a staff so important. Surely the ultimate weapon should be a sword or axe, like that wielded by the great Garkul?
 
