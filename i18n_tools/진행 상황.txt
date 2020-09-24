@@ -173,7 +173,7 @@
 
 "game/dlcs/tome-orcs/data/factions.lua" Khelerd 완
 
------------------------------- 이하 EoR data/quests ---------------------------------
+------------------------------ 이하 EoR data/quests (완역) ---------------------------------
 
 "game/dlcs/tome-orcs/data/quests/amakthel.lua"
 "game/dlcs/tome-orcs/data/quests/annihilator.lua"
@@ -188,7 +188,11 @@
 "game/dlcs/tome-orcs/data/quests/quarry.lua"
 "game/dlcs/tome-orcs/data/quests/ritch-hive.lua"
 "game/dlcs/tome-orcs/data/quests/start-orc.lua"
-"game/dlcs/tome-orcs/data/quests/sunwall-observatory.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/quests/sunwall-observatory.lua"
+"game/dlcs/tome-orcs/data/quests/to-mainland.lua"
+"game/dlcs/tome-orcs/data/quests/voyage.lua"
+"game/dlcs/tome-orcs/data/quests/weissi.lua"
+"game/dlcs/tome-orcs/data/quests/yeti-abduction.lua" Khelerd 완
 
 ------------------------------ 이하 EoR data/zones (완역) ---------------------------------
 
