@@ -171,6 +171,14 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
+------------------------------ 이하 EoR data/chats ---------------------------------
+
+"game/dlcs/tome-orcs/data/chats/aaa.lua"
+"game/dlcs/tome-orcs/data/chats/aaf.lua"
+"game/dlcs/tome-orcs/data/chats/destructicus-lead.lua" Khelerd 완
+
+------------------------------ 이상 EoR data/chats ---------------------------------
+
 "game/dlcs/tome-orcs/data/factions.lua" Khelerd 완
 
 ------------------------------ 이하 EoR data/quests (완역) ---------------------------------
