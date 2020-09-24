@@ -184,7 +184,11 @@
 "game/dlcs/tome-orcs/data/quests/kill-dominion.lua"
 "game/dlcs/tome-orcs/data/quests/krimbul.lua"
 "game/dlcs/tome-orcs/data/quests/kruk-invasion.lua"
-"game/dlcs/tome-orcs/data/quests/palace.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/quests/palace.lua"
+"game/dlcs/tome-orcs/data/quests/quarry.lua"
+"game/dlcs/tome-orcs/data/quests/ritch-hive.lua"
+"game/dlcs/tome-orcs/data/quests/start-orc.lua"
+"game/dlcs/tome-orcs/data/quests/sunwall-observatory.lua" Khelerd 완
 
 ------------------------------ 이하 EoR data/zones (완역) ---------------------------------
 
