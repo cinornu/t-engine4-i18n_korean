@@ -173,6 +173,19 @@
 
 "game/dlcs/tome-orcs/data/factions.lua" Khelerd 완
 
+------------------------------ 이하 EoR data/quests ---------------------------------
+
+"game/dlcs/tome-orcs/data/quests/amakthel.lua"
+"game/dlcs/tome-orcs/data/quests/annihilator.lua"
+"game/dlcs/tome-orcs/data/quests/destroy-sunwall.lua"
+"game/dlcs/tome-orcs/data/quests/free-prides.lua"
+"game/dlcs/tome-orcs/data/quests/gem.lua"
+"game/dlcs/tome-orcs/data/quests/kaltor-shop.lua"
+"game/dlcs/tome-orcs/data/quests/kill-dominion.lua"
+"game/dlcs/tome-orcs/data/quests/krimbul.lua"
+"game/dlcs/tome-orcs/data/quests/kruk-invasion.lua"
+"game/dlcs/tome-orcs/data/quests/palace.lua" Khelerd 완
+
 ------------------------------ 이하 EoR data/zones (완역) ---------------------------------
 
 "game/dlcs/tome-orcs/data/zones/cave-hatred/npcs.lua"

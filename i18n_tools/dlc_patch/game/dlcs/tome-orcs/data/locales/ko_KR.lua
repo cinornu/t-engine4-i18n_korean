@@ -620,6 +620,7 @@ section "game/dlcs/tome-orcs/data/general/npcs/whitehooves.lua"
 
 t("minotaur", "미노타우르스", "entity subtype")
 t("undead", "언데드", "entity type")
+t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "무시무시한 망치를 들고 있는, 커다란 언데드 미노타우르스입니다. 망치에서 번개가 튀고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -1408,6 +1409,7 @@ t("misc", "도구", "ingredient type")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/destructicus.lua"
 
+t("DESTRUCTICUS!", "데스트럭티쿠스!", "_t")
 
 
 ------------------------------------------------
@@ -1445,6 +1447,8 @@ t("var'eyal", "바르'에이알", "newLore category")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/orcs.lua"
 
+t("orc prides", "오크 긍지", "newLore category")
+t("The Shunned Kruk", "미움받는 크룩 긍지", "_t")
 
 
 ------------------------------------------------
@@ -1504,7 +1508,22 @@ t("Clork Peninsula", "클로크 반도", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/amakthel.lua"
 
-t("Winner", "승리자", "_t")
+t("The Dead God Awaits", "죽은 신이 기다린다", "_t")
+t("Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "에이알의 심층부에서, 위대한 죽은 신 아마크텔의 잔해들이 있는 거대한 동굴을 발견했습니다...", "_t")
+t("Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "그를 부활시키려 하는 살아 있는 쉐르'툴 처럼 보이는 것도요.", "_t")
+t("It must be stopped at all cost, the Prides only just got their freedom back, you can not allow anything to take it away again!", "무슨 수를 써서든 막아야 합니다. 긍지들은 이제 겨우 자유를 되찾았고, 그 어떤 것도 그 자유를 다시 앗아가게 둘 순 없습니다!", "_t")
+t("The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping forever now. The Prides and the world are safe.", "쉐르'툴 신관은 잘 처리되었고, 아마크텔은 이제 영원히 잠들게 될 겁니다. 긍지들과 이 세계는 안전합니다.", "_t")
+t("#LIGHT_GREEN#You have won the game!.#WHITE#", "#LIGHT_GREEN#게임에서 승리하셨습니다!#WHITE#", "_t")
+t("#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "#CRIMSON#이 장소에서 귀환의 장대가 다시 작동하는 것 같다.", "log")
+t("Orc Warrior", "오크 전사", "_t")
+t("Winner", "승리", "_t")
+t("#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "#GOLD#축하드립니다! 마즈'에이알의 이야기: 분노의 잉걸불에서 승리하셨습니다!#WHITE#", "_t")
+t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "당신은 증기 거인들의 인종 청소 계획을 저지했고, 그들이 죽인 크룩 긍지 전사들의 복수도 하였습니다.  그들이 고위 신관과 맺은 절망적인 계약 역시 당신을 막지 못했고, 신관과 그가 섬기던 신은 당신의 발밑에 죽어 널부러져 있으며 당신은 그들이 예측 가능한 미래까진 확실하게 #{italic}#죽은 채로 있도록#{normal}# 만들었습니다.", "_t")
+t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "인간과 엘프, 그리고 하플링들은 당신의 동포들을 두 번 다시 해치지 못할 것입니다. 당신은 장거리 차원문을 파괴하고 톨락 국왕의 군사들과 영광스러운 전투를 치르는 것을 거부함으로써 왕국연합으로부터 동포들의 안전을 확보했습니다. 또한 아침의 문을 기습하여, 증오를 품은 채로 바르'에이알에 남아 있던 서방의 자들을 모두 제거하였습니다.", "_t")
+t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "  잃어버린 도시에서 받은 메시지들은 그들이 경고했던 존재들, 그리고 경고한 본인들에 대한 경계심을 바짝 키웠습니다. 또한 당신은 이제 절멸의 위기에서 벗어나려 발버둥 칠 필요가 없어진 동포들이 무엇을 하게 될지 궁금해졌습니다. 당신의 종족은 유사 이래로 투쟁만을 위해 살아왔지만, 이제 그걸 걱정할 필요가 없어졌으니 말입니다.", "_t")
+t("For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "최소한 지금은, 평화가 찾아왔습니다. 이게 영원하진 않을 것이라는 걸 당신도 잘 알고 있습니다. 카르'하이브 자치령의 선봉대를 물리치긴 했지만 그들은 여전히 약점을 노리며 적절한 때를 기다리고 있을 것이고, 마즈'에이알에서 온 밀수꾼들의 장거리 차원문도 찾아내지 못한 상태이며, 당신이나 톨락 왕이나 상대방의 대륙을 정복하려는 생각은 없지만 그럼에도 침공해 올 수도 있다는 두려움이 여전히 당신의 뇌리에 남아 있을 것입니다.", "_t")
+t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "아무튼... 당신은 방금 신을 죽였고, 당신의 동포들에게 수천년의 역사 동안 처음으로 편안하게 쉴 기회를 준 겁니다. 오늘은 꽤나 멋진 날이 되겠네요.", "_t")
+t("You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "계속해서 플레이해, 이 세계의 나머지 부분을 즐길 수도 있습니다. 당신의 부하들이 밖에서 이야기 좀 하자고 하네요...", "_t")
 
 
 ------------------------------------------------
@@ -1521,6 +1540,7 @@ section "game/dlcs/tome-orcs/data/quests/destroy-sunwall.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/free-prides.lua"
 
+t("Children of Garkul, Unite!", "가르쿨의 후예들이여, 단결하라!", "_t")
 
 
 ------------------------------------------------
@@ -5024,7 +5044,7 @@ t("Wielding two huge steamguns this giant is amazingly elusive and agile for his
 t("Council Member Palaquie", "평의회 의원 팔라퀴", "entity name")
 t("Standing proud, the giantess wields both a steamgun and a mindstar, as the bullets fly you can feel a powerful mental pressure on your mind, numbing you.", "당당하게 서 있는 거인으로, 증기총과 마석을 함께 들고 있습니다. 그녀가 탄을 쏠 때마다 강력한 정신력이 머릿속을 압박해, 정신이 몽롱해집니다.", "_t")
 t("Council Member Tantalos", "평의회 의원 탄탈로스", "entity name")
-t("It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "아트모스 부족의 최고 의원이 처음부터 이런 흉측하고 거대한 괴물이었을 리는 없을 겁니다. 그 모습은 이전에 보았던 쉐르'툴을 연상시키고, 이 세상의 것이 아닌 것처럼 생긴 부속지들과 역겨운 꾸르륵 소리는 이성적으로도, 윤리적으로도 혐오스럽기 그지없으며 정신 깊숙이 존재하는 원초적인 본능마저 일깨워, 그 본능이 머릿속에서 두려움과 혐오감으로 비명을 지르게 만듭니다.  만약 그가 처음부터 저 모습이었다면, 실로 전설적인 수준의 선거 전략을 펼쳐야 했을 겁니다.", "_t")
+t("It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "아트모스 부족의 최고 의원이 처음부터 이런 흉측하고 거대한 괴물이었을 리는 없을 겁니다. 그 모습은 이전에 보았던 쉐르'툴을 연상시키고, 이 세상과 전혀 어울리지 않는 생김새와 역겨운 꾸르륵 소리는 이성적으로도, 윤리적으로도 혐오스럽기 그지없으며 정신 깊숙이 존재하는 원초적인 본능마저 일깨워, 그 본능이 머릿속에서 두려움과 혐오감으로 비명을 지르게 만듭니다.  만약 그가 처음부터 저 모습이었다면, 실로 전설적인 수준의 선거 전략을 펼쳐야 했을 겁니다.", "_t")
 t("construct", "구조체", "entity type")
 t("mechanical", "기계학", "entity subtype")
 t("steam defence turret", "증기력 방어 포탑", "entity name")
@@ -5171,6 +5191,7 @@ t("%d Collected", "%d 개 모음", "tformat")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/shertul-cave/grids.lua"
 
+t("way up", "올라가는 길", "entity name")
 t("Mirror of Reflection", "반영의 거울", "entity name")
 
 
@@ -5180,6 +5201,7 @@ section "game/dlcs/tome-orcs/data/zones/shertul-cave/objects.lua"
 t("Pressure-enhanced Slashproof Combat Suit", "압력 강화식 방검 전투 슈트", "entity name")
 t("steam-enhanced leather coat", "증기력 가죽 코트", "_t")
 t("A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "훌륭한 기능을 갖춘 단순한 가죽 갑옷입니다. 초소형 증기기관들을 내장하여 반응 능력을 강화하고 안전을 확보해 줍니다.", "_t")
+t("When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "착용자가 최대 생명력의 10%를 넘는 피해를 받으면, 다음 턴에 슈트의 전동기가 활성화되어 착용자가 공격을 맞기 직전에 옆 칸으로 비켜 서게 해 줍니다.", "_t")
 t("Brilliant Auto-loading Orc Expeller", "끝내주는 자동 장전식 오크 퇴치기", "entity name")
 t("expensive gun", "값비싼 총", "_t")
 t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "오크를 죽이기 위해 특별히 고안된 고품질 총입니다. 뭐 어쨌건 거인도 죽일 수 있습니다!", "_t")
@@ -5188,14 +5210,35 @@ t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/shertul-cave/zone.lua"
 
+t("Ruined Cave", "폐허가 된 동굴", "_t")
+t("This cave looks very solid and stable. You can probably leave items here for later.", "이 동굴은 매우 튼튼하고 안정되어 보입니다. 나중에 필요할 수도 있는 물건들은 여기 잠시 놔 두고 가도 될 것 같습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/slumbering-caves/npcs.lua"
 
+t("Amakthel's Hand", "아마크텔의 손", "entity name")
+t("Amakthel's Mouth", "아마크텔의 입", "entity name")
+t("#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "#PURPLE#%s 소리쳤다: '도망칠 순 없다!!'", "log", nil, {"가"})
+t("Amakthel's Eye", "아마크텔의 눈", "entity name")
 t("eyal", "에이알", "entity subtype")
 t("god", "신", "entity type")
-t("shertul", "쉐르툴", "entity subtype")
+t([[You never thought this could even exist. You certainly never thought you'd encounter it. But this is true, in front of you stands a piece of Amakthel himself.
+The god that myths say was slain by the Sher'tul, themselves nothing but a myth.
+But there it is, half alive, half dead but you can feel his thoughts in your head, there is no mistake: #{bold}#The Dead God is here!#{normal}#]], [[이런 것이 존재할 것이라고는 상상조차 못했습니다. 이런 걸 마주하게 되는 것 또한, 단연코 상상조차 못한 일입니다. 하지만 지금 눈 앞에 있는 것은, 확실히 아마크텔 그 자체의 조각입니다.
+신화에서 말하는 쉐르'툴에게 살해당한 신이라는 것은, 그저 신화에 불과하다고 생각했습니다.
+하지만 그게 지금 여기에 있고, 반쯤만 살아있는 상태이지만, 당신은 머릿속에서 그의 생각을 느낄 수 있습니다. 틀림없습니다,
+#{bold}#죽은 신이 여기에 있습니다!#{normal}#]], "_t")
+t("spiked tentacle", "가시 촉수", "entity name")
+t("A huge tentacle, ready to crush you with its many spikes.", "거대한 촉수로, 수많은 가시로 당신을 으깨려 하고 있습니다.", "_t")
+t("oozing tentacle", "점액을 흘리는 촉수", "entity name")
+t("Ooze pours out of this disgusting tentacle.", "이 역겨운 촉수에선 점액질이 흘러 나오고 있습니다.", "_t")
+t("eyed tentacle", "눈 달린 촉수", "entity name")
+t("A single malevolent eye is set atop this tentacle. And it watches you.", "이 촉수의 끝부분에는 눈알이 하나 달려 있습니다. 악의를 담아 당신을 지켜보고 있습니다.", "_t")
+t("Sher'Tul High Priest", "쉐르'툴 고위 신관", "entity name")
+t("shertul", "쉐르'툴", "entity subtype")
+t("So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "그들은 실존했습니다! 쉐르'툴! 수많은 신화와 전설을 써내려간 자. 공포의 화신이자 악몽과도 같은 자. 무한한 힘을 가진 자. 옛 신들과 맞서 싸워 실제로 승리한 종족. 그 일원인 이 존재는 신들 중 가장 강력한 신인 아마크텔을 부활시키려 하는 것 같습니다. 이유는 모르겠지만 결코 일어나선 안 되는 일입니다. 그렇지 않으면 오크들은 물론이고, 이 세계 전체가 파멸을 맞이하게 될 테니까요.", "_t")
+t("#CRIMSON#%s awakens and empowers %s!", "#CRIMSON#%s 깨어나 %s에게 힘을 내렸다!", "saySimple", nil, {"이"})
 
 
 ------------------------------------------------
@@ -5203,46 +5246,75 @@ section "game/dlcs/tome-orcs/data/zones/slumbering-caves/objects.lua"
 
 t("a journal", "일지", "entity name")
 t("A journal.", "일지입니다.", "_t")
+t("Gardanion, the Light of God", "신의 광명 갈다니온", "entity name")
+t("pure white amulet", "순백색의 목걸이", "_t")
+t([["#{italic}#When Amakthel arrived, he created the Sun and brought life to this world.
+You carry a piece of His Sun with you now. Do not forget who gave it to you, lest you become like those wretched fools who would forsake Him.#{normal}#"]], [["#{italic}#아마크텔께서 세상에 내려오시자, 태양을 창조하시어 만물에 생명을 불어넣으셨도다.
+그대는 이제 그분의 태양의 조각과 함께하게 되었도다. 그것을 내리신 분을 잊지 말지니. 그렇지 않으면 그분을 저버린 가엾은 천치들과 운명을 같이 하리라.#{normal}#"]], "_t")
+t("When worn, gives you an additional prodigy point.", "착용 시, 특수 기술 점수를 1점 추가로 얻습니다.", "_t")
+t("#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "#GOLD#목걸이의 빛이 당신을 휘감았고, 곧 진정되었다. 더 강해진 느낌이 든다. (특수 기술 점수 +1점)", "saySimple")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/slumbering-caves/zone.lua"
 
+t("The Slumbering Caves", "깊이 잠든 동굴", "_t")
+t("The Slumbering Caves (%d)", "깊이 잠든 동굴 (%d)", "tformat")
+t("Amakthel's Prison", "아마크텔의 감옥", "_t")
+t("Fall", "추락", "_t")
+t("The end of the staircase was trapped, you fell for a long time, luckily not breaking anything. But you have no way back now...", "계단의 끝에 함정이 있었습니다. 당신은 한참을 추락했고, 운좋게 다치진 않았습니다. 하지만 이제 돌아갈 길이 없습니다...", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/steam-quarry/grids.lua"
 
+t("giant steam valve", "거대 증기 밸브", "entity name")
+t("#PURPLE#You kick and destroy the valve!", "#PURPLE#밸브를 발로 차서 파괴했다!", "log")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/steam-quarry/npcs.lua"
 
+t("Automated Defense System", "자동 방어 시스템", "entity name")
+t("This heavily armored mecharachnid looks extremely dangerous and well equipped to defend the quarry.", "극히 위험해 보이는 중무장 강철 거미입니다. 채굴장을 방어하기 위해 장비들을 든든하게 착용했습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/steam-quarry/objects.lua"
 
+t("a very old journal", "굉장히 오래된 일지", "entity name")
 t("A journal.", "일지입니다.", "_t")
+t("schematic: Stormcutter", "설계도: 폭풍절단기", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/steam-quarry/zone.lua"
 
+t("Steam Quarry", "증기 채굴장", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/grids.lua"
 
 t("void", "공허", "entity subtype")
+t("bottom of the mountain", "산의 땅", "entity name")
 t("floor", "바닥", "entity type")
 t("rocks", "바위", "entity name")
+t("way into a strange cave", "이상한 동굴로 가는 길", "entity name")
+t("stairs to the previous level", "이전 구역으로 가는 계단", "entity name")
+t("stairs to the cavern", "동굴로 통하는 계탄", "entity name")
+t("pillar of the sun", "태양의 기둥", "entity name")
+t("pillar of the moons", "달의 기둥", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/npcs.lua"
 
 t("elf", "엘프", "entity subtype")
+t("Star Gazer", "천체관측사", "entity name")
+t("This astromancer radiates the power of all celestial bodies. You can discern a distinct elven shape under the hood and robes.", "천상의 힘을 내뿜고 있는 점성술사입니다. 후드와 로브에 가려져 있는 엘프의 모습을 알아볼 수 있습니다.", "_t")
+t("Astral-Infused Yeti", "우주의 힘이 깃든 예티", "entity name")
+t("You wonder how this yeti can have wandered so far from its native habitat in the Clork Peninsula. You also wonder what happened to it that produced the celestial energies-wielding creature you angrily marching towards you.", "원래 클로크 반도에 사는 예티가 어쩌다가 이런 곳까지 오게 됐는지 궁금합니다. 또 지금 화가 나서 뛰어오고 있는 녀석이 어쩌다가 천상의 에너지를 휘두르게 됐는지도 궁금합니다.", "_t")
 
 
 ------------------------------------------------
@@ -5250,8 +5322,15 @@ section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/objects.lua"
 
 t("a journal", "일지", "entity name")
 t("A journal.", "일지입니다.", "_t")
+t("Cap of the Undisturbed Mind", "고요한 정신의 모자", "entity name")
+t("red cap", "붉은 모자", "_t")
+t([[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
+With it you can spend your time stargazing without fear.]], [[이 모자엔 여전히 살아 있는 뇌 조직이 심어져 있습니다. 공허의 공포들을 바라볼 때 받을 수 있는 정신적인 충격을 방지하기 위해서입니다.
+이걸 쓰면 큰 문제 없이 천체를 관측할 수 있습니다.]], "_t")
+t("Allows you to resist the most terrible assaults on your mind.", "흉악한 정신공격들에 저항할 수 있게 해 줍니다.", "_t")
 t("muscle", "근육", "entity subtype")
 t("flesh", "살점", "_t")
+t("Yeti's Muscle Tissue (Astral)", "예티의 근육 조직 (우주)", "entity name")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "강력한 예티에게서 뜯어낸 근조직입니다. 어딘가의 누군가, 또는 무엇인가는 분명히 이것에 관심을 보일 것입니다!", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
@@ -5259,6 +5338,9 @@ t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-observatory/zone.lua"
 
+t("Path into the mountain", "산으로 가는 길", "_t")
+t("Caverns below the Observatory", "관측소 아래의 동굴", "_t")
+t("Sunwall Observatory", "태양의 장벽 관측소", "_t")
 
 
 ------------------------------------------------
@@ -5273,8 +5355,14 @@ t("wooden barricade", "나무 바리케이드", "entity name")
 section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/npcs.lua"
 
 t("human", "인간", "entity subtype")
+t("Outpost Leader John", "전초기지 대장 존", "entity name")
+t("This warrior's armor glows with a bright golden light. He wields an ornate sword and shield, and marches towards you with confidence.", "황금빛으로 눈부시게 빛나는 갑옷을 입은 전사입니다. 화려하게 장식된 검과 방패를 들고 당신을 향해 위풍당당하게 전진하고 있습니다.", "_t")
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
+t("orc retaliator", "오크 복수자", "entity name")
+t("A stern-looking orc, armed to the teeth.", "중무장을 하고 단호한 표정을 짓고 있는 오크입니다.", "_t")
+t("orc gunslinger", "오크 총잡이", "entity name")
+t("A nasty looking orc armed with double steamguns.", "양손에 증기총을 두 자루 들고 있는 험악한 오크입니다.", "_t")
 
 
 ------------------------------------------------
@@ -5287,11 +5375,15 @@ t("A paper scrap.", "종잇조각입니다.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/sunwall-outpost/zone.lua"
 
+t("Sunwall Outpost", "태양의 장벽 전초기지", "_t")
+t("An %s has managed to join forces with you!", "%s 한 명이 간신히 당신과 합류했습니다!", "tformat")
+t("Reinforcements!", "지원군!", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/tinker-master/grids.lua"
 
+t("way up", "올라가는 길", "entity name")
 
 
 ------------------------------------------------
@@ -5299,17 +5391,22 @@ section "game/dlcs/tome-orcs/data/zones/tinker-master/npcs.lua"
 
 t("construct", "구조체", "entity type")
 t("mechanical", "기계학", "entity subtype")
+t("Ancient Automated Teacher", "고대의 학습 장치", "entity name")
+t("An ancient archive of knowledge! It seems to have some kind of vocal interface.", "고대 지식의 보고입니다! 음성 인터페이스라는 것이 달려 있는 모양입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/tinker-master/zone.lua"
 
+t("Ancient Cave", "고대의 동굴", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/town-kruk/grids.lua"
 
 t("exit to the worldmap", "세계 지도로의 출구", "entity name")
+t("Coward!", "겁쟁이!", "_t")
+t("You are not coward enough to leave your home unprotected!", "당신은 집을 위험한 채로 버려두고 떠날 정도의 겁쟁이가 아닙니다!", "_t")
 t("old road", "오래된 길", "entity name")
 t("grass", "잔디", "entity subtype")
 t("wooden barricade", "나무 바리케이드", "entity name")
@@ -5322,6 +5419,7 @@ t("rock", "바위", "entity subtype")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
+t("tunnel weakness", "터널의 취약점", "entity name")
 
 
 ------------------------------------------------
@@ -5329,12 +5427,27 @@ section "game/dlcs/tome-orcs/data/zones/town-kruk/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
 t("orc", "오크", "entity subtype")
+t("orc guard", "오크 경비병", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "엄격한 얼굴을 한 경비병입니다. 당신이 마을을 어지럽히는 걸 용납하지 않을 것입니다.", "_t")
+t("orc gunslinger", "오크 총잡이", "entity name")
+t("A nasty looking orc armed with double steamguns.", "양손에 증기총을 두 자루 들고 있는 험악한 오크입니다.", "_t")
+t("Commander Fralor", "지휘관 프랄로르", "entity name")
+t("This heavily armored steam giant carries a huge battleaxe, swinging it menacingly towards you.", "중무장을 하고 있는 증기 거인으로, 거대한 전투도끼를 들고 맹렬하게 휘두릅니다.", "_t")
+t("Metash the Maulotaur", "마울로타우르스 메타쉬", "entity name")
+t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "무시무시한 망치를 들고 있는, 커다란 언데드 미노타우르스입니다. 망치에서 번개가 튀고 있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/town-kruk/objects.lua"
 
+t("The Shunned Kruk", "미움받는 크룩 긍지", "entity name")
+t("A history lesson.", "역사 공부가 됩니다.", "_t")
+t("Yeti Mind Controller", "예티 정신 조작기", "entity name")
+t("This device seems to be designed to 'hack' the mind of a wild yeti to make it able to be used as a weapon of war.", "이 장치는 야생 예티의 정신을 '해킹' 하여 전쟁 무기로 써먹을 수 있도록 고안된 것 같습니다.", "_t")
+t("hack the mind of a weakened yeti", "약해진 예티의 정신을 '해킹' 한다", "_t")
+t("#CRIMSON#Impossible to to control.", "#CRIMSON#조작할 수 없다.", "saySimple")
+t("#CRIMSON#The yeti is not hurt enough to control.", "#CRIMSON#예티가 충분히 약해지지 않았다.", "saySimple")
+t("#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "#AQUAMARINE#예티의 정신을 덮쳐 크룩 긍지로 가도록 명령했다.", "saySimple")
 
 
 ------------------------------------------------
@@ -5342,8 +5455,10 @@ section "game/dlcs/tome-orcs/data/zones/town-kruk/traps.lua"
 
 t("Armoury", "병기창", "entity name")
 t("Tanner", "무두장이", "entity name")
+t("Forge", "대장간", "entity name")
 t("Smith", "야금학", "entity name")
 t("Herbalist", "약초상", "entity name")
+t("Tinkers Store", "발명용품점", "entity name")
 t("Library", "도서관", "entity name")
 
 
@@ -5356,6 +5471,8 @@ t("Kruk Pride", "크룩 긍지", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/ureslak-host/npcs.lua"
 
+t("Ureslak the Eternal", "불멸의 우레슬락", "entity name")
+t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "이 전설적인 용은 이전에 죽었지만, 죽음조차 이 용을 막지 못한 모양입니다.", "_t")
 
 
 ------------------------------------------------
@@ -5363,16 +5480,19 @@ section "game/dlcs/tome-orcs/data/zones/ureslak-host/objects.lua"
 
 t("paper scrap", "종잇조각", "entity name")
 t("A paper scrap.", "종잇조각입니다.", "_t")
+t("schematic: Hands of Creation", "설계도: 제작의 손", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/ureslak-host/zone.lua"
 
+t("Ureslak's Host", "우레슬락의 둥지", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/grids.lua"
 
+t("merchant stall", "상점 가판대", "entity name")
 
 
 ------------------------------------------------
@@ -5380,23 +5500,57 @@ section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/npcs.lua"
 
 t("giant", "거인", "entity type")
 t("steam", "증기", "entity subtype")
+t("An unarmed steam giant.", "비무장 상태의 증기 거인입니다.", "_t")
+t("Guards!", "경비병!", "_t")
+t("Help!", "도와줘요!", "_t")
+t("steam giant commoner", "증기 거인 시민", "entity name")
+t("Pockets of gold jingle around the waist of this giant.", "이 거인의 허리춤에는 짤랑거리는 금화 주머니가 있습니다.", "_t")
+t("You won't get my gold!", "내 돈은 못 줘!", "_t")
+t("steam giant scribe", "증기 거인 서기", "entity name")
+t("This well-dressed giant is is covered in ink smudges and looks somewhat alarmed.", "잘 차려입은 거인으로, 잉크 얼룩이 여기저기 남아 있고 약간 불안해 보입니다.", "_t")
+t("Stay back, I'm warning you!", "물러서, 경고한다!", "_t")
+t("High Guard Talosis", "경비대장 탈로시스", "entity name")
+t("This heavily armored steam giant carries a gun in each hand. The gun in his right hand is ornate and well worn.", "중무장을 하고 양손에 총을 들고 있는 증기 거인입니다. 오른손의 총은 화려하게 장식되어 있고, 다소 오래된 물건 같습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/objects.lua"
 
+t("poster", "포스터", "entity name")
+t("An advertisement poster.", "광고 포스터입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/vaporous-emporium/zone.lua"
 
+t("Vaporous Emporium", "증기 상업지구", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/wilderness-add/grids.lua"
 
+t("bridge to the mainland", "본토로 가는 다리", "entity name")
+t("Kruk Pride (Town)", "크룩 긍지 (마을)", "entity name")
+t("The last free Pride of the Orcs", "오크 최후의 자유로운 긍지입니다.", "_t")
+t("Entrance to the Yeti Caves", "예티 동굴의 입구", "entity name")
+t("Entrance to Krimbul territory", "크림불 부족 영토의 입구", "entity name")
+t("Entrance to the Vaporous Emporium", "증기 상업지구의 입구", "entity name")
+t("Huge door to Kaltor's Shop", "칼토르의 가게의 거대한 대문", "entity name")
+t("Entrance to the Sunwall Outpost", "태양의 장벽 전초기지의 입구", "entity name")
+t("Way into old ruins in the Erúan desert", "에류안 사막의 오래된 폐허로 가는 길", "entity name")
+t("Entrance to the Dominion Port", "자치령 항구의 입구", "entity name")
+t("Destroyed Dominion Port", "파괴된 자치령 항구", "entity name")
+t("Entrance to a Ritch Hive", "릿치 군락의 입구", "entity name")
+t("Path to a peak leading to the Sunwall Observatory", "태양의 장벽 관측소가 있는 봉우리로 가는 길", "entity name")
+t("Entrance to the Pride's Internment Camp", "오크 긍지 수용소의 입구", "entity name")
 t("Gates of Morning (Town)", "아침의 문 (마을)", "entity name")
 t("A massive hole in the Sunwall.", "태양의 장벽의 거대한 공동입니다.", "_t")
+t("Strange mechanical mole", "이상한 굴착기", "entity name")
+t("Path to a Ureslak's Host", "우레슬락의 둥지로 가는 길", "entity name")
+t("Entrance to the Steam Quarry", "증기 채굴장의 입구", "entity name")
+t("Entrance to the Palace of Fumes", "연기의 궁전 입구", "entity name")
+t("Way into a primal forest", "태고의 숲으로 가는 길", "entity name")
+t("DESTRUCTICUS!", "데스트럭티쿠스!", "entity name")
 
 
 ------------------------------------------------
@@ -5404,11 +5558,16 @@ section "game/dlcs/tome-orcs/data/zones/yeti-caves/grids.lua"
 
 t("icecave", "얼음 동굴", "entity subtype")
 t("wall", "벽", "entity type")
+t("a crude mural painting", "대충 그려진 벽화", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/yeti-caves/npcs.lua"
 
+t("An oversized white ant. It seems not yet fully developed.", "지나치게 커다란 하얀색 개미입니다. 아직도 다 큰게 아닌 것 같습니다.", "_t")
+t("immature ice ant", "성장 중인 얼음 개미", "_t")
+t("Yeti Patriarch", "예티 족장", "entity name")
+t("This yeti towers over its comrades. You see a cunning in its eyes unmatched by the others.", "다른 동족들보다 훨씬 더 큰 예티입니다. 눈동자는 교활함을 품고 있어 예티스럽지가 않습니다.", "_t")
 
 
 ------------------------------------------------
@@ -5416,6 +5575,7 @@ section "game/dlcs/tome-orcs/data/zones/yeti-caves/objects.lua"
 
 t("muscle", "근육", "entity subtype")
 t("flesh", "살점", "_t")
+t("Yeti's Muscle Tissue (Patriarch)", "예티 근육 조직 (족장)", "entity name")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "강력한 예티에게서 뜯어낸 근조직입니다. 어딘가의 누군가, 또는 무엇인가는 분명히 이것에 관심을 보일 것입니다!", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
@@ -5423,6 +5583,7 @@ t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/yeti-caves/zone.lua"
 
+t("Yetis Cave", "예티 동굴", "_t")
 
 
 ------------------------------------------------
