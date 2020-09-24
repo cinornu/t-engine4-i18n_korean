@@ -175,7 +175,12 @@
 
 ------------------------------ 이하 EoR data/quests ---------------------------------
 
-"game/dlcs/tome-orcs/data/quests/amakthel.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/quests/amakthel.lua"
+"game/dlcs/tome-orcs/data/quests/annihilator.lua"
+"game/dlcs/tome-orcs/data/quests/destroy-sunwall.lua"
+"game/dlcs/tome-orcs/data/quests/free-prides.lua"
+"game/dlcs/tome-orcs/data/quests/gem.lua"
+"game/dlcs/tome-orcs/data/quests/kaltor-shop.lua" Khelerd 완
 
 ------------------------------ 이하 EoR data/zones (완역) ---------------------------------
 
