@@ -822,7 +822,7 @@ t([[Your successful melee hits apply a stacking effect that decreases damage don
 		This talent ignores saves and immunities.
 		]], "tformat")
 t("Mass Hysteria", "집단 히스테리", "talent name")
-t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d.", "공포의 힘을 증폭해, 대상에게 중첩 당 효과 효율이 %d%% 상승하고, 지속시간이 %d 재설정됩니다. 증폭된 공포는 반경 %d 칸 내의 모든 적에게 전파됩니다.", "tformat")
+t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d.", "공포의 힘을 증폭해, 대상에게 중첩 당 효과 효율이 %d%% 상승하고, 지속시간이 %d 턴으로 재설정됩니다. 증폭된 공포는 반경 %d 칸 내의 모든 적에게 전파됩니다.", "tformat")
 t("Fearfeast", "공포 포식", "talent name")
 t("You gain %.1f turns!", "당신은 %.1f 턴을 획득했다!", "logPlayer")
 t("You consume the fear of enemies in radius %d, healing for %d life and gaining %0.1f%% of a turn for each stack up to a max of %.1f turns.", "반경 %d 칸 내의 적들의 공포를 삼켜, 생명력을 %d 회복하고, 중첩 당 %0.1f%% 턴을 획득합니다. 최대 %.1f 턴을 획득할 수 있습니다.", "tformat")
