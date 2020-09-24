@@ -3368,11 +3368,7 @@ t("This yeti's claws are coated in sharply carved iron. It glares at you with a 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/hethugoroth.lua"
--- 5 entries
-t("vapour", "vapour", "entity subtype")
-t("hethugoroth", "hethugoroth", "entity name")
-t("greater hethugoroth", "greater hethugoroth", "entity name")
-t("ultimate hethugoroth", "ultimate hethugoroth", "entity name")
+-- 1 entries
 t("A swirling mass of hot vapour animated into a semblance of life.", "A swirling mass of hot vapour animated into a semblance of life.", "_t")
 
 
@@ -5365,188 +5361,45 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/quests/annihilator.lua"
--- 5 entries
-t("Inside some of your foes you have found some intact pieces that give you new ideas.", "Inside some of your foes you have found some intact pieces that give you new ideas.", "_t")
-t("Keep on killing mechanical contraptions or steam-related foes...", "Keep on killing mechanical contraptions or steam-related foes...", "_t")
-t("#LIGHT_GREEN#* You destroyed a mecharachnid equiped with a flamethrower. Both those things could prove very useful.#WHITE#", "#LIGHT_GREEN#* You destroyed a mecharachnid equiped with a flamethrower. Both those things could prove very useful.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have studied the 'remains' of an greater or ultimate hethugoroth, providing new ideas for ways to annihilate with heat.#WHITE#", "#LIGHT_GREEN#* You have studied the 'remains' of an greater or ultimate hethugoroth, providing new ideas for ways to annihilate with heat.#WHITE#", "_t")
-t("#LIGHT_GREEN#* The impressive Automated Defense System remains will prove very useful to create automated and self-deploying constructs.#WHITE#", "#LIGHT_GREEN#* The impressive Automated Defense System remains will prove very useful to create automated and self-deploying constructs.#WHITE#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/quests/destroy-sunwall.lua"
--- 3 entries
-t("The Deconstruction of Falling Stars", "The Deconstruction of Falling Stars", "_t")
-t([[The people of the sunwall have lingered on this land for too long and now they are spreading their control to all the mainland. This must not be allowed!
-With the help of their newfound allies in the west they keep a permanent guard over the farportal. The portal must be permanently destroyed to prevent reinforcements.
-The leader of the Sunwall, High Sun Paladin Aeryn must be punished for her crimes against the Prides.]], [[The people of the sunwall have lingered on this land for too long and now they are spreading their control to all the mainland. This must not be allowed!
-With the help of their newfound allies in the west they keep a permanent guard over the farportal. The portal must be permanently destroyed to prevent reinforcements.
-The leader of the Sunwall, High Sun Paladin Aeryn must be punished for her crimes against the Prides.]], "_t")
-t("#LIGHT_GREEN#* You have killed Aeryn, making sure no more troops will come from the west.#WHITE#", "#LIGHT_GREEN#* You have killed Aeryn, making sure no more troops will come from the west.#WHITE#", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/free-prides.lua"
--- 16 entries
-t("All the few remaining orcs of the mainland have been captured by Sunwall and their western allies.", "All the few remaining orcs of the mainland have been captured by Sunwall and their western allies.", "_t")
-t("To ensure a future, any future, for our race they must be freed.", "To ensure a future, any future, for our race they must be freed.", "_t")
-t("The internment camp is located somewhere to the north. The orcs are subdued into obedience by a powerful #{halfling}# psionic, Mindwall, and guarded by elite Sunwall troops.", "The internment camp is located somewhere to the north. The orcs are subdued into obedience by a powerful #{halfling}# psionic, Mindwall, and guarded by elite Sunwall troops.", "_t")
-t("Mindwall must be taken care of and the prides set free.", "Mindwall must be taken care of and the prides set free.", "_t")
-t("But #{bold}#BEFORE#{normal}# that you should go and destroy the Sunwall Observatory to the east, as our spies have found a way to resist Mindwall's psionic powers which requries #{italic}#ingredients#{normal}# from there.", "But #{bold}#BEFORE#{normal}# that you should go and destroy the Sunwall Observatory to the east, as our spies have found a way to resist Mindwall's psionic powers which requries #{italic}#ingredients#{normal}# from there.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("#LIGHT_GREEN#* You have destroyed Mindwall body but he managed to split his mind into many pieces and taken direct control of the subdued orcs. Destroy the pillars in each level four other levels.#WHITE#", "#LIGHT_GREEN#* You have destroyed Mindwall body but he managed to split his mind into many pieces and taken direct control of the subdued orcs. Destroy the pillars in each level four other levels.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have freed all the Vor Pride orcs.#WHITE#", "#LIGHT_GREEN#* You have freed all the Vor Pride orcs.#WHITE#", "_t")
-t("#GREY#* You need to have free the Vor Pride orcs.#WHITE#", "#GREY#* You need to have free the Vor Pride orcs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have freed all the Rak'Shor Pride orcs.#WHITE#", "#LIGHT_GREEN#* You have freed all the Rak'Shor Pride orcs.#WHITE#", "_t")
-t("#GREY#* You need to have free the Rak'Shor Pride orcs.#WHITE#", "#GREY#* You need to have free the Rak'Shor Pride orcs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have freed all the Gorbat Pride orcs.#WHITE#", "#LIGHT_GREEN#* You have freed all the Gorbat Pride orcs.#WHITE#", "_t")
-t("#GREY#* You need to have free the Gorbat Pride orcs.#WHITE#", "#GREY#* You need to have free the Gorbat Pride orcs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have freed all the Grushnak Pride orcs.#WHITE#", "#LIGHT_GREEN#* You have freed all the Grushnak Pride orcs.#WHITE#", "_t")
-t("#GREY#* You need to have free the Grushnak Pride orcs.#WHITE#", "#GREY#* You need to have free the Grushnak Pride orcs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* The Pride is once again free and united.#WHITE#", "#LIGHT_GREEN#* The Pride is once again free and united.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/gem.lua"
--- 5 entries
-t("Mole Down, Two To Go", "Mole Down, Two To Go", "_t")
-t("As you left the Gates of Morning in ruins you noticed a strange powerful tremor that seems to come from nearby.", "As you left the Gates of Morning in ruins you noticed a strange powerful tremor that seems to come from nearby.", "_t")
-t("Investigating you have found a huge mechanical mole of obvious steam giant origin.", "Investigating you have found a huge mechanical mole of obvious steam giant origin.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("#LIGHT_GREEN#* You have crushed both the horrors and the giants, making sure no precious information will come back to the Palace of Fumes.#WHITE#", "#LIGHT_GREEN#* You have crushed both the horrors and the giants, making sure no precious information will come back to the Palace of Fumes.#WHITE#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/quests/kaltor-shop.lua"
--- 6 entries
-t("The Grumpy Shopowner", "The Grumpy Shopowner", "_t")
-t("Kaltor's shop seems to be nearby in the mountain. Maybe it could be interesting to pay him a visit?", "Kaltor's shop seems to be nearby in the mountain. Maybe it could be interesting to pay him a visit?", "_t")
-t("He does sound well armed, though, so be prepared as it is likely very dangerous.", "He does sound well armed, though, so be prepared as it is likely very dangerous.", "_t")
-t("So maybe take some time to plan the raid.", "So maybe take some time to plan the raid.", "_t")
-t("#LIGHT_GREEN#* You have disposed of Kaltor, the loot is yours!#WHITE#", "#LIGHT_GREEN#* You have disposed of Kaltor, the loot is yours!#WHITE#", "_t")
-t("#PURPLE#You heard a loud noise!", "#PURPLE#You heard a loud noise!", "saySimple")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/kill-dominion.lua"
--- 13 entries
-t("This is our land!", "This is our land!", "_t")
-t("A group of trolls from the Kar'Haïb Dominion is trying to take foot on the mainland.", "A group of trolls from the Kar'Haïb Dominion is trying to take foot on the mainland.", "_t")
-t("With the Sunwall at full force we can not have the luxury of having to fight on both fronts, the Dominion port of the south must be destroyed.", "With the Sunwall at full force we can not have the luxury of having to fight on both fronts, the Dominion port of the south must be destroyed.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("A potent bomb was given to you, you must place it at a weak spot of the tower where it will detonate and destroy the port.", "A potent bomb was given to you, you must place it at a weak spot of the tower where it will detonate and destroy the port.", "_t")
-t("It would be a good idea for you to not be there anymore when the bomb explodes however.", "It would be a good idea for you to not be there anymore when the bomb explodes however.", "_t")
-t("#LIGHT_GREEN#* You have destroyed the Dominion port, the trolls will not be a problem in the near future.#WHITE#", "#LIGHT_GREEN#* You have destroyed the Dominion port, the trolls will not be a problem in the near future.#WHITE#", "_t")
-t("Tower Detonator", "Tower Detonator", "_t")
-t("This bomb was tailored to weaken the structure of the Dominion's port tower. If placed at the right spot it will explode after 100 turns and destroy the whole port.", "This bomb was tailored to weaken the structure of the Dominion's port tower. If placed at the right spot it will explode after 100 turns and destroy the whole port.", "_t")
-t("place the bomb on the structural weakness.", "place the bomb on the structural weakness.", "_t")
-t("You must first locate the structural weakness in the Dominion's port tower.", "You must first locate the structural weakness in the Dominion's port tower.", "_t")
-t("Sewer Detonator", "Sewer Detonator", "_t")
-t([[You place the detonator, you have 100 turns to get out or be destroyed by the explosion.
-Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[You place the detonator, you have 100 turns to get out or be destroyed by the explosion.
-Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/krimbul.lua"
--- 5 entries
-t("Clan of the Unicorn", "Clan of the Unicorn", "_t")
-t("Metash has asked you to investigate the Krimbul Clan, south of the peninsula.", "Metash has asked you to investigate the Krimbul Clan, south of the peninsula.", "_t")
-t("A whitehoof turned mad with power is trying to lead them in a war against Kruk Pride.", "A whitehoof turned mad with power is trying to lead them in a war against Kruk Pride.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("#LIGHT_GREEN#* You have stopped the pitiful Nektosh, ensuring one less threat for the Pride and a future for the Whitehooves.#WHITE#", "#LIGHT_GREEN#* You have stopped the pitiful Nektosh, ensuring one less threat for the Pride and a future for the Whitehooves.#WHITE#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/quests/kruk-invasion.lua"
--- 10 entries
-t("Homeland", "Homeland", "_t")
-t("The giants have breached the mountain-side of Kruk pride!", "The giants have breached the mountain-side of Kruk pride!", "_t")
-t("They are invading the town just when most of our forces are outside.", "They are invading the town just when most of our forces are outside.", "_t")
-t([[Only you and few others are left to close the breach by collapsing the tunnel from the inside.
-]], [[Only you and few others are left to close the breach by collapsing the tunnel from the inside.
-]], "_t")
-t("#LIGHT_GREEN#* You have collapsed the tunnel, saving the Pride. For now.#WHITE#", "#LIGHT_GREEN#* You have collapsed the tunnel, saving the Pride. For now.#WHITE#", "_t")
-t("#LIGHT_GREY#* You must place the bomb at the end of the tunnel to destroy it.#WHITE#", "#LIGHT_GREY#* You must place the bomb at the end of the tunnel to destroy it.#WHITE#", "_t")
-t("This bomb was tailored to crumble the tunnel used by the Steam Giants to invade Kruk Pride.", "This bomb was tailored to crumble the tunnel used by the Steam Giants to invade Kruk Pride.", "_t")
-t("Cave Detonator", "Cave Detonator", "_t")
-t([[You place the detonator, you have 220 turns to get out or be destroyed by the explosion.
-Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[You place the detonator, you have 220 turns to get out or be destroyed by the explosion.
-Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], "_t")
-t("#LIGHT_GREEN#Kruk Pride is safe for now. Now is time for revenge!", "#LIGHT_GREEN#Kruk Pride is safe for now. Now is time for revenge!", "saySimple")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/palace.lua"
--- 15 entries
-t("No Fumes Without Fire", "No Fumes Without Fire", "_t")
-t("The time for revenge is at hand! The Tribe stands crippled under your assaults.", "The time for revenge is at hand! The Tribe stands crippled under your assaults.", "_t")
-t("Enter the Palace of Fumes and crush their leaders once and for all!", "Enter the Palace of Fumes and crush their leaders once and for all!", "_t")
-t("For Kruk!", "For Kruk!", "_t")
-t("For the Prides!", "For the Prides!", "_t")
-t("For the Garkul!", "For the Garkul!", "_t")
+-- 1 entries
 t("", "", "_t")
-t("#LIGHT_GREEN#* Council Member Nashal is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Nashal is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Council Member Tormak is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Tormak is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Council Member Pendor is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Pendor is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Council Member Palaquie is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Palaquie is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "_t")
-t("What is all this noise about!", "What is all this noise about!", "_t")
-t("Tantalos! What have you done!", "Tantalos! What have you done!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/quests/quarry.lua"
--- 6 entries
-t("Hunter, Quarry", "Hunter, Quarry", "_t")
-t("The Steam Quarry is a strategic zone for the Atmos tribe, it provides them with much of their energy needs.", "The Steam Quarry is a strategic zone for the Atmos tribe, it provides them with much of their energy needs.", "_t")
-t("If you are to assault the Palace of Fumes you need to cut that supply off. Destroy the three giant steam valves to make the Palace vulnerable.", "If you are to assault the Palace of Fumes you need to cut that supply off. Destroy the three giant steam valves to make the Palace vulnerable.", "_t")
-t("#LIGHT_GREEN#* The first valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* The first valve has been destroyed.#WHITE#", "_t")
-t("#LIGHT_GREEN#* The second valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* The second valve has been destroyed.#WHITE#", "_t")
-t("#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/ritch-hive.lua"
--- 12 entries
-t("A Ritch Party", "A Ritch Party", "_t")
-t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "_t")
-t("To do that we will prepare a special surprise to help our final attack.", "To do that we will prepare a special surprise to help our final attack.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("Go to the Ritch Hive in the mountains north of the Erúan desert and collect a big pile of ritch eggs.  About 30 viable eggs should be sufficient.", "Go to the Ritch Hive in the mountains north of the Erúan desert and collect a big pile of ritch eggs.  About 30 viable eggs should be sufficient.", "_t")
-t("When you have enough, find a tunnel leading north and use the special sand shredder gloves tinker to open a path under the Gates of Morning.", "When you have enough, find a tunnel leading north and use the special sand shredder gloves tinker to open a path under the Gates of Morning.", "_t")
-t("Finally, place the eggs in a protected spot to hatch.  With luck, they will provide a distraction while you later assault the city.", "Finally, place the eggs in a protected spot to hatch.  With luck, they will provide a distraction while you later assault the city.", "_t")
-t("#LIGHT_GREEN#* You have collected enough eggs.#WHITE#", "#LIGHT_GREEN#* You have collected enough eggs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have tunnelled close enough to the Gates of Morning.#WHITE#", "#LIGHT_GREEN#* You have tunnelled close enough to the Gates of Morning.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "_t")
-t("Stralite Sand Shredder", "Stralite Sand Shredder", "_t")
-t("Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/quests/start-orc.lua"
--- 6 entries
-t("Of Steamwork and Pain", "Of Steamwork and Pain", "_t")
-t([[To win the war you must help the Pride by striking a blow to the giant's morale and supply lines.
-]], [[To win the war you must help the Pride by striking a blow to the giant's morale and supply lines.
-]], "_t")
-t("#LIGHT_GREEN#* You have assaulted the Vaporous Emporium, crushing the morale of the Atmos tribe.#WHITE#", "#LIGHT_GREEN#* You have assaulted the Vaporous Emporium, crushing the morale of the Atmos tribe.#WHITE#", "_t")
-t("#SLATE#* You must assault the Vaporous Emporium to crush the morale of the Atmos tribe!#WHITE#", "#SLATE#* You must assault the Vaporous Emporium to crush the morale of the Atmos tribe!#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have explored the yeti cave and vanquished the Yeti Patriarch.#WHITE#", "#LIGHT_GREEN#* You have explored the yeti cave and vanquished the Yeti Patriarch.#WHITE#", "_t")
-t("#SLATE#* You must explore the Yeti Cave and destroy the patriarch!#WHITE#", "#SLATE#* You must explore the Yeti Cave and destroy the patriarch!#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/sunwall-observatory.lua"
--- 6 entries
-t("Stargazers", "Stargazers", "_t")
-t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "_t")
-t("Our scouts have noticed the Gates of Morning is being reinforced with sun and moon orbs.", "Our scouts have noticed the Gates of Morning is being reinforced with sun and moon orbs.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("Go to the Sunwall Observatory and destroy everything there to reduce their supplies.", "Go to the Sunwall Observatory and destroy everything there to reduce their supplies.", "_t")
-t("#LIGHT_GREEN#* You have destroyed the Observatory, the Gates of Morning defenses will be weakened.#WHITE#", "#LIGHT_GREEN#* You have destroyed the Observatory, the Gates of Morning defenses will be weakened.#WHITE#", "_t")
 
 
 ------------------------------------------------
@@ -8351,270 +8204,7 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/elvala.lua"
--- 13 entries
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Two: A Night to Remember#{normal}#
-
-It was three nights later I awoke in darkness from a troubled dream to find my window open, the silk drapes billowing in the breeze.  As my eyes adjusted to the light I saw Linaniil stood at the foot of my bed, a thin azure dress clinging to her skin in the chill night air.  Around her was a cashmere belt inset with opals and woven with pale runes, and gold jewellery adorned her neck and wrists.  A long staff rested lightly in her hands, rubies glistening in its decorated top.  Her red hair stirred in the wind as she gazed at me.
- 
-“What are you doing here?” I enquired.  I did not bother asking how she managed to sneak into my bedchamber, past many guards.  I knew that no less than a council member would be able to divine her presence when she put her mind to illusion.
- 
-She looked at me slowly for a moment, before turning her eyes to the rest of the room, analysing my personal space in detail.  “There be a band of orcs marauding in the north,” she said in a distracted tone.  She picked an ornamental dagger from a shelf and looked it over as she spoke.  “They look like to cause trouble for some outlying elven settlements.”
- 
-“I will summon a raiding party at once,” I said, rising quickly from my bed, unheeding of modesty.
- 
-“Oh, how boring!” she complained, putting the dagger down and spinning to face me.  “What of the promise ye made to hunt orc together?”
- 
-“What, just the two of us?”
- 
-“Aye,” she said, looking my unclad form up and down with a slow gaze, seeming to take delight in the sight.  “Or are ye not man enough?”
- 
-“A strange question to ask of an elf, my lady.  But I can take this band of orcs myself, I am sure.  If you wish to tag along then I cannot promise to keep you safe.”
- 
-She laughed then, and the sound was like ringing crystal.  “Very well then!  Get ye your steel stick and we shall see who holds their own best.”  I agreed with a smile, and went to my armoury and shoved on metal greaves and a chain hauberk, my breastplate and steel gauntlets.  Linaniil tutted in surly impatience.  “Must ye wear that tin suit?”
- 
-“It is my battle gear,” said I, pulling on my visored helm and wrapping a thick cloak round my shoulders.
- 
-“Ye look like a golem,” she muttered, visibly annoyed.  “Come then, I grow bored.”  She leapt out the window, taking to the air with grace, flying away into the night.
- 
-I took then my greatsword from its hanging.  It was a simple looking blade, adorned only with a heavy moonstone on its pommel.  But its looks belied its power, for it was forged by the dwarves in their early years, before vanity overcame their works and their weapons became more for show than for battle.  It had an edge that clove through steel and bone with ease, without ever dulling the blade.  Mooncutter it is called, though it is lost to me now.  I gave it a swing through the air before leaping out the window myself, conjuring a cushion of air beneath me and following swiftly after Linaniil.
- 
-With rapid pace we flew through the scattered clouds in silence for twenty minutes before Linaniil began to descend.  I could see nestled between some low hills were the flames of campfires, and as we came closer the sound of orcish chanting became clear.  “How shall we approach them?” I called out, wondering what tactics the sorceress would want to employ.
- 
-“Directly,” she said, and with that she made a sudden burst of speed, coming right above the orcish camp and descending in their midst.  With a curse I sped after her, landing by her side and drawing Mooncutter as the orcs rose in fury and alarm, grabbing up their weapons.  As a ring of dark swords and spears and halberds gathered round us Linaniil turned to me with a wild smile.  “Time to dance.”
- 
-She shot forth a ray of purple arcane energy from her right hand, whilst her left held up her staff, its tip blazing like a torch.  Flames leapt up in tandem from my own blade as I rose it high, and swept it before me in a wide arc, cutting down the nearest brute and sending a shocking wave of fire into the troops behind it.  I pressed forward, forcing back the orcs before me with a roaring hot wind.  Their weapons dropped from their hands as they reached up to cover their faces, and with a grin of satisfaction I rushed to hew their heads off.  But as I swung my blade I was knocked to the ground from behind by a blast of fire, and turning about I saw Linaniil standing in a pillar of flame, her arms outstretched as it expanded around her.  “Too hot for ye, Aranion?” she called out as the orcs nearby were fried to a crisp, their flesh withering into black dust.
- 
-I grunted, and turned my blade into ice, and with deft sword strokes sent streams of freezing cold into the orcs around her, so that they shattered like glass before the fire ever hit them.  Linaniil cursed my name as she dropped the flames from about her.  “Don’t ruin my fun!” she exclaimed, before teleporting to the other side of the camp and beginning to blast the orcs there.
-
-I laughed and turned on the beasts nearest me, and brought tumults to the earth with each swing, so that they lost their footing and fell to the ground before my sword found their throats.  Then I conjured a mighty spark of lightning, spearing it through their densest ranks, and I rushed along its glowing length hewing down the monsters before they could react.  I laughed again with the fey heat of battle, and I discarded my helm and tore off my platemail, taking joy from moving about the field with ease and slaughtering my inferior foes.  Mooncutter danced through their flesh, and their dark blood gushed and fountained with joyful rhythm.
-
-On the far side of the camp explosions and screams marked Linaniil’s passage, and I saw burning limbs flying into the air and streaks of fire tearing through the night.  The sorceress was wreathed in flames, her eyes shining, and the dancing blaze about her made her look like a nymph of fire incarnate.  No more beautiful and awe-inspiring a sight had I ever beheld.
-
-Seeing their numbers quickly dwindling the orcs began to flee, but I phased to block their retreat and called forth a wave of water, forcing them back against Linaniil’s flames.  There against the wall of fire I dashed them, and great numbers of them fell like leaves scattered in the wind.  Blood spilled thick and plentiful, and with but a few more thrusts of Mooncutter and blasts from Linaniil’s hands the battle was over.  Not a single orc still moved, and well over four hundred lay dead on the ground.
- 
-Linaniil and I stood facing each other, panting with sudden exhaustion as the adrenaline of the fight left us.  “I lost count,” I said between breaths, “of who slew more…”  She grinned coyly at me, sweat trickling down her face.  Minor cuts and burns left her robe in tatters, with one shoulder strap hanging loose.  Her glistening chest heaved up and down with each breath, and her deep eyes looked at me with naked intensity.
- 
-She strode forward then, and grabbing me roughly by my hauberk she pulled my lips to hers.  The kiss was hot and fierce, and as she bit my lower lip the course of blood in battle came back to me afresh.  I kissed her again and grabbed her body, pulling her tight to me, our lips locked.  She tore lustfully at my remaining armour, flinging it to the ground, and I slid off her silken clothes, till we were left bare beneath the stars.  Then against a rocky outcrop we pressed against each other, still gasping and sweating from the fight.  There with blazing passion flesh met flesh and our hot moans rose into the cold night sky.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Two: A Night to Remember#{normal}#
-
-It was three nights later I awoke in darkness from a troubled dream to find my window open, the silk drapes billowing in the breeze.  As my eyes adjusted to the light I saw Linaniil stood at the foot of my bed, a thin azure dress clinging to her skin in the chill night air.  Around her was a cashmere belt inset with opals and woven with pale runes, and gold jewellery adorned her neck and wrists.  A long staff rested lightly in her hands, rubies glistening in its decorated top.  Her red hair stirred in the wind as she gazed at me.
- 
-“What are you doing here?” I enquired.  I did not bother asking how she managed to sneak into my bedchamber, past many guards.  I knew that no less than a council member would be able to divine her presence when she put her mind to illusion.
- 
-She looked at me slowly for a moment, before turning her eyes to the rest of the room, analysing my personal space in detail.  “There be a band of orcs marauding in the north,” she said in a distracted tone.  She picked an ornamental dagger from a shelf and looked it over as she spoke.  “They look like to cause trouble for some outlying elven settlements.”
- 
-“I will summon a raiding party at once,” I said, rising quickly from my bed, unheeding of modesty.
- 
-“Oh, how boring!” she complained, putting the dagger down and spinning to face me.  “What of the promise ye made to hunt orc together?”
- 
-“What, just the two of us?”
- 
-“Aye,” she said, looking my unclad form up and down with a slow gaze, seeming to take delight in the sight.  “Or are ye not man enough?”
- 
-“A strange question to ask of an elf, my lady.  But I can take this band of orcs myself, I am sure.  If you wish to tag along then I cannot promise to keep you safe.”
- 
-She laughed then, and the sound was like ringing crystal.  “Very well then!  Get ye your steel stick and we shall see who holds their own best.”  I agreed with a smile, and went to my armoury and shoved on metal greaves and a chain hauberk, my breastplate and steel gauntlets.  Linaniil tutted in surly impatience.  “Must ye wear that tin suit?”
- 
-“It is my battle gear,” said I, pulling on my visored helm and wrapping a thick cloak round my shoulders.
- 
-“Ye look like a golem,” she muttered, visibly annoyed.  “Come then, I grow bored.”  She leapt out the window, taking to the air with grace, flying away into the night.
- 
-I took then my greatsword from its hanging.  It was a simple looking blade, adorned only with a heavy moonstone on its pommel.  But its looks belied its power, for it was forged by the dwarves in their early years, before vanity overcame their works and their weapons became more for show than for battle.  It had an edge that clove through steel and bone with ease, without ever dulling the blade.  Mooncutter it is called, though it is lost to me now.  I gave it a swing through the air before leaping out the window myself, conjuring a cushion of air beneath me and following swiftly after Linaniil.
- 
-With rapid pace we flew through the scattered clouds in silence for twenty minutes before Linaniil began to descend.  I could see nestled between some low hills were the flames of campfires, and as we came closer the sound of orcish chanting became clear.  “How shall we approach them?” I called out, wondering what tactics the sorceress would want to employ.
- 
-“Directly,” she said, and with that she made a sudden burst of speed, coming right above the orcish camp and descending in their midst.  With a curse I sped after her, landing by her side and drawing Mooncutter as the orcs rose in fury and alarm, grabbing up their weapons.  As a ring of dark swords and spears and halberds gathered round us Linaniil turned to me with a wild smile.  “Time to dance.”
- 
-She shot forth a ray of purple arcane energy from her right hand, whilst her left held up her staff, its tip blazing like a torch.  Flames leapt up in tandem from my own blade as I rose it high, and swept it before me in a wide arc, cutting down the nearest brute and sending a shocking wave of fire into the troops behind it.  I pressed forward, forcing back the orcs before me with a roaring hot wind.  Their weapons dropped from their hands as they reached up to cover their faces, and with a grin of satisfaction I rushed to hew their heads off.  But as I swung my blade I was knocked to the ground from behind by a blast of fire, and turning about I saw Linaniil standing in a pillar of flame, her arms outstretched as it expanded around her.  “Too hot for ye, Aranion?” she called out as the orcs nearby were fried to a crisp, their flesh withering into black dust.
- 
-I grunted, and turned my blade into ice, and with deft sword strokes sent streams of freezing cold into the orcs around her, so that they shattered like glass before the fire ever hit them.  Linaniil cursed my name as she dropped the flames from about her.  “Don’t ruin my fun!” she exclaimed, before teleporting to the other side of the camp and beginning to blast the orcs there.
-
-I laughed and turned on the beasts nearest me, and brought tumults to the earth with each swing, so that they lost their footing and fell to the ground before my sword found their throats.  Then I conjured a mighty spark of lightning, spearing it through their densest ranks, and I rushed along its glowing length hewing down the monsters before they could react.  I laughed again with the fey heat of battle, and I discarded my helm and tore off my platemail, taking joy from moving about the field with ease and slaughtering my inferior foes.  Mooncutter danced through their flesh, and their dark blood gushed and fountained with joyful rhythm.
-
-On the far side of the camp explosions and screams marked Linaniil’s passage, and I saw burning limbs flying into the air and streaks of fire tearing through the night.  The sorceress was wreathed in flames, her eyes shining, and the dancing blaze about her made her look like a nymph of fire incarnate.  No more beautiful and awe-inspiring a sight had I ever beheld.
-
-Seeing their numbers quickly dwindling the orcs began to flee, but I phased to block their retreat and called forth a wave of water, forcing them back against Linaniil’s flames.  There against the wall of fire I dashed them, and great numbers of them fell like leaves scattered in the wind.  Blood spilled thick and plentiful, and with but a few more thrusts of Mooncutter and blasts from Linaniil’s hands the battle was over.  Not a single orc still moved, and well over four hundred lay dead on the ground.
- 
-Linaniil and I stood facing each other, panting with sudden exhaustion as the adrenaline of the fight left us.  “I lost count,” I said between breaths, “of who slew more…”  She grinned coyly at me, sweat trickling down her face.  Minor cuts and burns left her robe in tatters, with one shoulder strap hanging loose.  Her glistening chest heaved up and down with each breath, and her deep eyes looked at me with naked intensity.
- 
-She strode forward then, and grabbing me roughly by my hauberk she pulled my lips to hers.  The kiss was hot and fierce, and as she bit my lower lip the course of blood in battle came back to me afresh.  I kissed her again and grabbed her body, pulling her tight to me, our lips locked.  She tore lustfully at my remaining armour, flinging it to the ground, and I slid off her silken clothes, till we were left bare beneath the stars.  Then against a rocky outcrop we pressed against each other, still gasping and sweating from the fight.  There with blazing passion flesh met flesh and our hot moans rose into the cold night sky.]], "_t")
-t("The Spellblaze Chronicles(3): The Farportal", "The Spellblaze Chronicles(3): The Farportal", "_t")
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Three: The Farportal#{normal}#
-
-“Why are ye not leader?” asked Linaniil, resting her head in her hand with her naked form strewn across my bed.
- 
-I looked at her, surprised by the sudden question.  My mind struggled briefly with the strange query, still recovering from the heat of sex but a minute before.  “Why should I be leader?” I asked back.
- 
-“Because ye are strong, of course,” she responded.  “I deem ye stronger in battle than any of your kin.  Ye should rule with such strength.”
- 
-I chuckled softly.  “Mere strength is not enough to rule a people.  It requires responsibilities, careful decision making, and above all – politics.  I have no interest in such matters.  Ephinias is far better suited to those sorts of things.  Give me a sword and soldiers to lead into battle and I am content.  Let the leaders worry about where I should point my blade.”
-
-She was quiet a moment, seemingly dissatisfied with that response.  “Ye are not happy with the current plans though.”
-
-For a moment I was struck with shock.  It surprised me how clearly she divined my inner thoughts.  I had not expressed my concerns to anyone, yet she could so easily read me.  Five weeks it had been since we first met, and it seemed like there was nothing I could hide from her keen sight.
- 
-The preparations for the Spellblaze were well underway.  Turthel of the Kar’Krul had returned to his northern citadel, but he left his daughters as ambassadors to aid in our designs.  It meant Linaniil and I had many an opportunity to meet, though we kept it secret.  Few of my race would understand or approve of such a liaison, and none of us could afford a scandal. Yet I could not resist this human mage’s advancements, nor she mine.
- 
-“I am a warrior,” I said to her finally, getting brusquely from my bed and recovering my robes.  “I settle my battles facing my foe, not by toying with relics from afar.  It irks me that we must deal with our enemies in such a craven way.”
-
-“But does it not excite ye, using these Sher’Tul ruins?” she said, putting a finger to her lower lip as she still languished in my bed, the sheets sticking tightly to her bare skin.  She seemed visibly aroused by her thoughts.  “Such powers lain dormant for so long, ready to be summoned to our control...  How it were I to command so great a venture!”
-
-I shook my head sadly as I finished buttoning up my doublet.  “I do not trust those ruins.  We Shaloren are mighty, but we have yet to reach the heights of the Sher’Tul, nor do we truly understand the devices they have left behind.  My thoughts are more with your sister Neira on this.  We should stick to what abilities we have mastered, without stretching ourselves to such grand experimentation.”
- 
-Linaniil looked at me intently, a touch of humour in her dark eyes.  “If ye were leader then ye could stop this.  But then I would have to hate ye.”
- 
-I allowed myself a thin smile.  “Well, that would indeed be a terrible and dangerous thing.”  I finished dressing whilst Linaniil still lay in my bed, her face reflective.  “I must go now to check on the latest operations at the farportal.  You are welcome to join me.”
- 
-She shook her head languidly.  “Nay, I wish to rest more.  And besides, hearing their reports would but make me jealous.  Leave me here awhile – I wilst depart in secret later.”
- 
-I left my chamber then, dark thoughts now brooding at the back of my mind.  The date was coming closer when our plans would come to fruition and the Great Spellblaze would be unleashed.  A heavy foreboding lay over my heart.  Yet the alternatives seemed grim.  The war with the orcs was going badly, with few races able to secure their borders well and attacks from the brutes ever increasing.  Their numbers seemed inexhaustible.  Though they had little skill in warfare they could bring great harm to unprotected townsteads, and in enough force could bring down cities.  One human kingdom had collapsed under their attacks but a week before.  After that many who had initially rejected our plans came begging for our protection.  The Spellblaze seemed our only hope against imminent disaster.
- 
-Such thoughts were weighing on my mind as I passed from my chambers in the palace, down to the courtyard by the main gate.  Then from the corner of my eye I saw a swish of long red hair, and spun round thinking Linaniil had followed me.  But the golden robes and bright eyes of Neira revealed otherwise.
- 
-“Expecting someone else?” she asked with a wide smile, seeing the surprised look on my face.
- 
-“I was deep in thought,” I explained, bowing slightly to greet her.  “I am just on my way to inspect the farportal operations.  Perhaps you-“
- 
-“I shall join ye,” she said quickly, not waiting for my invitation.  I nodded my assent and guided her to my carriage.
- 
-As soon as we took off east the mood changed.  “She wilst only hurt ye,” said Neira suddenly.
- 
-I cursed quietly, understanding her meaning.  “Are there no secrets to be had in all Eyal?” I muttered.
- 
-“Not between sisters, and especially not between twins.”  She smiled warmly at me, yet there was no humour in her eyes.  “I mean it though.  I love mine sister, but I know her ways.  She be fickle, and willed to do her own thing when she likes.  Do not be surprised when she bores of ye.  Nor hurt.”
- 
-“I am quite capable of taking care of myself,” I said in clipped tone.
- 
-She gazed into my eyes a moment and then turned away to stare out the window.  “Well, I have warned ye...” she replied softly, a touch of sadness in her voice.
- 
-Was it jealousy perhaps that stirred such an outburst?  And for her sister’s attention or for mine?  I never did discover.  The rest of the trip was spent in sullen silence.  The sun was setting behind our carriage, casting a long shadow on the path ahead, and bathing the land about in crimson light.  It seemed for a moment like we rode into some demon’s plane, pitch black shadows melting into blood-red soil, whilst cold white stars began to spear through the sky above.  I shivered suddenly as the ruins came into view.
- 
-Few Sher’Tul ruins have been discovered which even come close to matching the grandeur of those which were near Elvala.  Many centuries our people spent excavating them, digging deep into the ground, ever careful not to damage or upset the relics.  The centrepiece was the Crystal Tower.  From the surface all that could be seen of it was a wide, even-sided square, which when cleaned of soil revealed a white stone smoother than marble.  But delving down our archaeologists found it plummeted deep, deep below the ground.  Half a mile it went down, the featureless white stone not bearing a single mark or engraving anywhere on its surface, until it ended suddenly and without foundation.  It was like the whole tower was separate from the earth, some strange thing of the stars that had dropped from the skies and lay sleeping beneath the soil.
- 
-Some years earlier our people had solved the invisible runes that allowed it to be opened, revealing vast crystal-lined halls and chambers arrayed in geometric patterns of sublime beauty.  Light sparked and shone from every surface, and the walls seemed to hum with energy.  Many shafts and passageways could only be navigated by flight, and at the top was found a grand room large enough to encompass the whole palace of Elvala.  At its centre was the farportal, a raised dais forty feet in diameter and crackling with energy upon which slowly spun a cloud of stars.  It was beautiful and frightening, enchanting and terrifying.  No power of the Shaloren could discern its operation, and though through careful experimentation we were able to manipulate its energies, never could we get a true grasp of the forces that lay beneath.
-
-Neira and I descended to the base of the tower, smothered in the cold shadows of the excavated ruins.  I nodded to the guards as we passed through the square white entrance, and Neira’s eyes instantly enlarged in wonder.  The scintillating rooms were eye-catching to be sure, but they were also desolate and empty.  I tried to imagine what it must have looked like when filled with Sher’Tul.  “How did they all die?” I asked under my breath as we traversed the crystal halls, a question many had asked before.
- 
-The sorceress picked up on my words and laughed softly.  “It be a mystery, of course!  Mine mother once taught me that they killed themselves in a great civil war, using magics far beyond our imaginings.”
- 
-“I wonder,” said I.  We had our own records, of course, which we didn’t share with the younger races, but they were not so clear-cut as the many myths that had spread over the ages.
- 
-We reached the central shaft, and from there levitated up past floors and floors of abandoned chambers, living spaces, workshops, storerooms, and many other areas of purpose undivined by our loremasters.  Finally, after ascending for several minutes, we rose into the grand chamber of the farportal, and Neira gasped to see its size.  Her eyes soon settled on the great Sher’Tul farportal, sparks from it reflecting off the roof hundreds of feet above.  About it were bustling many of our Shaloren mages in silken robes, and Ephinias himself was leading the operations.
- 
-He broke from his advisers as he saw us arrive, and strode towards us with a confident smile on his face.  Though he wore the grey robes of a research mage he still bore his great golden staff, Luminis, token of his position as king.
- 
-“Ah, General Aranion!” he said, “You have come at last.  And brought the Kar’Krul girl with you; how splendid.”
- 
-I gave a small bow.  “Your majesty.  I am here for the update on our operations.”
- 
-“Yes, yes, of course,” he said with a dismissive hand gesture.  “And doubtless the girl is here to make sure we know what we’re doing?”
- 
-If Neira was offended she covered it up well.  “It would be mine delight to see evidence of ye skill and power over the ruins, lord Ephinias.”
- 
-The king smiled and nodded then, and called to some of his aides.  “Prepare the topography demonstration, using the acute fire strand.”  He turned back to us then.  “It is not mere skill and power of course that we can show you, but subtlety and scale too.  Now excuse me a moment whilst I join the others.”
- 
-He went with two of the senior research mages then to the front of the farportal.  They faced each other and began a low humming in unison, and slowly it seemed that the sparks from the farportal began to flicker redly.  Over the course of a few minutes their hum became a higher pitched chant, but softly sung and still in perfect unison.  As they raised their staffs there appeared above the farportal an image in flames, and looking at it both Neira and I marvelled, for we could see clearly that it was an image of ourselves, looking upwards, as if looking we were staring into a mirror.  Our features and movements were all clearly discernible, down the smallest detail, all carved out of flickering orange fire.
- 
-Then the chanting rose higher and it seemed the image zoomed out, so that we saw the farportal nearby us and the mages gathered about.  And still the focus soared upwards till we were but specks in a wide hall, until the image was displaced by a white square with carven edges dug into the earth about it, and I knew we were looking at the top of the Crystal Tower from above.  The view widened, and I could see the land rushing away, and the city of Elvala to the west.  The chanting rose higher and now the sea could be seen, and the mountains to the north-west, and all the land about.  And soon the continent was visible, right to the frozen north, and the ocean wrapped all about, and it seemed small white stars were dotted about the landscape.  The singing reached a crescendo and before us hung an image of the whole of Eyal, a globe of fire suspended in mid-air, slowly turning.
- 
-Then the chanting stopped and the image disappeared, and I could hear beside me Neira suddenly gasp for air, as if she had not dared draw breath through the last few minutes.
- 
-“You see now?” said Ephinias, grinning with pleasure.  “From the smallest detail to the grandest scale we can manipulate the farportal’s energy.  And did you see those white points marked across the image?  They are the other farportals spread across the world, and this one can connect to them all.  With careful, delicate control we can harmonise the energy of them all and use it to our will.  I’m afraid your sword can be no match to this, Aranion.”
- 
-I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
- 
-Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Three: The Farportal#{normal}#
-
-“Why are ye not leader?” asked Linaniil, resting her head in her hand with her naked form strewn across my bed.
- 
-I looked at her, surprised by the sudden question.  My mind struggled briefly with the strange query, still recovering from the heat of sex but a minute before.  “Why should I be leader?” I asked back.
- 
-“Because ye are strong, of course,” she responded.  “I deem ye stronger in battle than any of your kin.  Ye should rule with such strength.”
- 
-I chuckled softly.  “Mere strength is not enough to rule a people.  It requires responsibilities, careful decision making, and above all – politics.  I have no interest in such matters.  Ephinias is far better suited to those sorts of things.  Give me a sword and soldiers to lead into battle and I am content.  Let the leaders worry about where I should point my blade.”
-
-She was quiet a moment, seemingly dissatisfied with that response.  “Ye are not happy with the current plans though.”
-
-For a moment I was struck with shock.  It surprised me how clearly she divined my inner thoughts.  I had not expressed my concerns to anyone, yet she could so easily read me.  Five weeks it had been since we first met, and it seemed like there was nothing I could hide from her keen sight.
- 
-The preparations for the Spellblaze were well underway.  Turthel of the Kar’Krul had returned to his northern citadel, but he left his daughters as ambassadors to aid in our designs.  It meant Linaniil and I had many an opportunity to meet, though we kept it secret.  Few of my race would understand or approve of such a liaison, and none of us could afford a scandal. Yet I could not resist this human mage’s advancements, nor she mine.
- 
-“I am a warrior,” I said to her finally, getting brusquely from my bed and recovering my robes.  “I settle my battles facing my foe, not by toying with relics from afar.  It irks me that we must deal with our enemies in such a craven way.”
-
-“But does it not excite ye, using these Sher’Tul ruins?” she said, putting a finger to her lower lip as she still languished in my bed, the sheets sticking tightly to her bare skin.  She seemed visibly aroused by her thoughts.  “Such powers lain dormant for so long, ready to be summoned to our control...  How it were I to command so great a venture!”
-
-I shook my head sadly as I finished buttoning up my doublet.  “I do not trust those ruins.  We Shaloren are mighty, but we have yet to reach the heights of the Sher’Tul, nor do we truly understand the devices they have left behind.  My thoughts are more with your sister Neira on this.  We should stick to what abilities we have mastered, without stretching ourselves to such grand experimentation.”
- 
-Linaniil looked at me intently, a touch of humour in her dark eyes.  “If ye were leader then ye could stop this.  But then I would have to hate ye.”
- 
-I allowed myself a thin smile.  “Well, that would indeed be a terrible and dangerous thing.”  I finished dressing whilst Linaniil still lay in my bed, her face reflective.  “I must go now to check on the latest operations at the farportal.  You are welcome to join me.”
- 
-She shook her head languidly.  “Nay, I wish to rest more.  And besides, hearing their reports would but make me jealous.  Leave me here awhile – I wilst depart in secret later.”
- 
-I left my chamber then, dark thoughts now brooding at the back of my mind.  The date was coming closer when our plans would come to fruition and the Great Spellblaze would be unleashed.  A heavy foreboding lay over my heart.  Yet the alternatives seemed grim.  The war with the orcs was going badly, with few races able to secure their borders well and attacks from the brutes ever increasing.  Their numbers seemed inexhaustible.  Though they had little skill in warfare they could bring great harm to unprotected townsteads, and in enough force could bring down cities.  One human kingdom had collapsed under their attacks but a week before.  After that many who had initially rejected our plans came begging for our protection.  The Spellblaze seemed our only hope against imminent disaster.
- 
-Such thoughts were weighing on my mind as I passed from my chambers in the palace, down to the courtyard by the main gate.  Then from the corner of my eye I saw a swish of long red hair, and spun round thinking Linaniil had followed me.  But the golden robes and bright eyes of Neira revealed otherwise.
- 
-“Expecting someone else?” she asked with a wide smile, seeing the surprised look on my face.
- 
-“I was deep in thought,” I explained, bowing slightly to greet her.  “I am just on my way to inspect the farportal operations.  Perhaps you-“
- 
-“I shall join ye,” she said quickly, not waiting for my invitation.  I nodded my assent and guided her to my carriage.
- 
-As soon as we took off east the mood changed.  “She wilst only hurt ye,” said Neira suddenly.
- 
-I cursed quietly, understanding her meaning.  “Are there no secrets to be had in all Eyal?” I muttered.
- 
-“Not between sisters, and especially not between twins.”  She smiled warmly at me, yet there was no humour in her eyes.  “I mean it though.  I love mine sister, but I know her ways.  She be fickle, and willed to do her own thing when she likes.  Do not be surprised when she bores of ye.  Nor hurt.”
- 
-“I am quite capable of taking care of myself,” I said in clipped tone.
- 
-She gazed into my eyes a moment and then turned away to stare out the window.  “Well, I have warned ye...” she replied softly, a touch of sadness in her voice.
- 
-Was it jealousy perhaps that stirred such an outburst?  And for her sister’s attention or for mine?  I never did discover.  The rest of the trip was spent in sullen silence.  The sun was setting behind our carriage, casting a long shadow on the path ahead, and bathing the land about in crimson light.  It seemed for a moment like we rode into some demon’s plane, pitch black shadows melting into blood-red soil, whilst cold white stars began to spear through the sky above.  I shivered suddenly as the ruins came into view.
- 
-Few Sher’Tul ruins have been discovered which even come close to matching the grandeur of those which were near Elvala.  Many centuries our people spent excavating them, digging deep into the ground, ever careful not to damage or upset the relics.  The centrepiece was the Crystal Tower.  From the surface all that could be seen of it was a wide, even-sided square, which when cleaned of soil revealed a white stone smoother than marble.  But delving down our archaeologists found it plummeted deep, deep below the ground.  Half a mile it went down, the featureless white stone not bearing a single mark or engraving anywhere on its surface, until it ended suddenly and without foundation.  It was like the whole tower was separate from the earth, some strange thing of the stars that had dropped from the skies and lay sleeping beneath the soil.
- 
-Some years earlier our people had solved the invisible runes that allowed it to be opened, revealing vast crystal-lined halls and chambers arrayed in geometric patterns of sublime beauty.  Light sparked and shone from every surface, and the walls seemed to hum with energy.  Many shafts and passageways could only be navigated by flight, and at the top was found a grand room large enough to encompass the whole palace of Elvala.  At its centre was the farportal, a raised dais forty feet in diameter and crackling with energy upon which slowly spun a cloud of stars.  It was beautiful and frightening, enchanting and terrifying.  No power of the Shaloren could discern its operation, and though through careful experimentation we were able to manipulate its energies, never could we get a true grasp of the forces that lay beneath.
-
-Neira and I descended to the base of the tower, smothered in the cold shadows of the excavated ruins.  I nodded to the guards as we passed through the square white entrance, and Neira’s eyes instantly enlarged in wonder.  The scintillating rooms were eye-catching to be sure, but they were also desolate and empty.  I tried to imagine what it must have looked like when filled with Sher’Tul.  “How did they all die?” I asked under my breath as we traversed the crystal halls, a question many had asked before.
- 
-The sorceress picked up on my words and laughed softly.  “It be a mystery, of course!  Mine mother once taught me that they killed themselves in a great civil war, using magics far beyond our imaginings.”
- 
-“I wonder,” said I.  We had our own records, of course, which we didn’t share with the younger races, but they were not so clear-cut as the many myths that had spread over the ages.
- 
-We reached the central shaft, and from there levitated up past floors and floors of abandoned chambers, living spaces, workshops, storerooms, and many other areas of purpose undivined by our loremasters.  Finally, after ascending for several minutes, we rose into the grand chamber of the farportal, and Neira gasped to see its size.  Her eyes soon settled on the great Sher’Tul farportal, sparks from it reflecting off the roof hundreds of feet above.  About it were bustling many of our Shaloren mages in silken robes, and Ephinias himself was leading the operations.
- 
-He broke from his advisers as he saw us arrive, and strode towards us with a confident smile on his face.  Though he wore the grey robes of a research mage he still bore his great golden staff, Luminis, token of his position as king.
- 
-“Ah, General Aranion!” he said, “You have come at last.  And brought the Kar’Krul girl with you; how splendid.”
- 
-I gave a small bow.  “Your majesty.  I am here for the update on our operations.”
- 
-“Yes, yes, of course,” he said with a dismissive hand gesture.  “And doubtless the girl is here to make sure we know what we’re doing?”
- 
-If Neira was offended she covered it up well.  “It would be mine delight to see evidence of ye skill and power over the ruins, lord Ephinias.”
- 
-The king smiled and nodded then, and called to some of his aides.  “Prepare the topography demonstration, using the acute fire strand.”  He turned back to us then.  “It is not mere skill and power of course that we can show you, but subtlety and scale too.  Now excuse me a moment whilst I join the others.”
- 
-He went with two of the senior research mages then to the front of the farportal.  They faced each other and began a low humming in unison, and slowly it seemed that the sparks from the farportal began to flicker redly.  Over the course of a few minutes their hum became a higher pitched chant, but softly sung and still in perfect unison.  As they raised their staffs there appeared above the farportal an image in flames, and looking at it both Neira and I marvelled, for we could see clearly that it was an image of ourselves, looking upwards, as if looking we were staring into a mirror.  Our features and movements were all clearly discernible, down the smallest detail, all carved out of flickering orange fire.
- 
-Then the chanting rose higher and it seemed the image zoomed out, so that we saw the farportal nearby us and the mages gathered about.  And still the focus soared upwards till we were but specks in a wide hall, until the image was displaced by a white square with carven edges dug into the earth about it, and I knew we were looking at the top of the Crystal Tower from above.  The view widened, and I could see the land rushing away, and the city of Elvala to the west.  The chanting rose higher and now the sea could be seen, and the mountains to the north-west, and all the land about.  And soon the continent was visible, right to the frozen north, and the ocean wrapped all about, and it seemed small white stars were dotted about the landscape.  The singing reached a crescendo and before us hung an image of the whole of Eyal, a globe of fire suspended in mid-air, slowly turning.
- 
-Then the chanting stopped and the image disappeared, and I could hear beside me Neira suddenly gasp for air, as if she had not dared draw breath through the last few minutes.
- 
-“You see now?” said Ephinias, grinning with pleasure.  “From the smallest detail to the grandest scale we can manipulate the farportal’s energy.  And did you see those white points marked across the image?  They are the other farportals spread across the world, and this one can connect to them all.  With careful, delicate control we can harmonise the energy of them all and use it to our will.  I’m afraid your sword can be no match to this, Aranion.”
- 
-I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
- 
-Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], "_t")
+-- 10 entries
 t("The Spellblaze Chronicles(4): Before the Dawn", "The Spellblaze Chronicles(4): Before the Dawn", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -9211,68 +8801,7 @@ As they notice you one calls out 'Intruder! Protect the seed of Kryl-Feijan!']],
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/fun.lua"
--- 14 entries
-t([[#{bold}#"Me Likes to Club"
-
-#{italic}#Club club club,
-Grab some grub!
-When hunger hits,
-Me likes to club!
-
-Little halfling,
-Furry feet,
-Smash his brains,
-Tasty meat!
-
-Skinny elf,
-Eyes so blue,
-Crush his bones,
-Make elf stew!
-
-Hairy dwarf,
-Smells like dirt,
-Cook him long,
-Or stomach hurt!
-
-Stupid human,
-Has no fear,
-Looks surprised,
-When me eats his ear!
-
-Club club club,
-Grab some grub!
-When hunger hits,
-Me likes to club!#{normal}#]], [[#{bold}#"Me Likes to Club"
-
-#{italic}#Club club club,
-Grab some grub!
-When hunger hits,
-Me likes to club!
-
-Little halfling,
-Furry feet,
-Smash his brains,
-Tasty meat!
-
-Skinny elf,
-Eyes so blue,
-Crush his bones,
-Make elf stew!
-
-Hairy dwarf,
-Smells like dirt,
-Cook him long,
-Or stomach hurt!
-
-Stupid human,
-Has no fear,
-Looks surprised,
-When me eats his ear!
-
-Club club club,
-Grab some grub!
-When hunger hits,
-Me likes to club!#{normal}#]], "_t")
+-- 13 entries
 t([[#{bold}#"The Necromancer's Canticle"
 
 #{italic}#Saved from coffin, casket, urn

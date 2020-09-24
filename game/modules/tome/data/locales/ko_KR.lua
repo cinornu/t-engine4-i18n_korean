@@ -7812,7 +7812,7 @@ t("multi-hued drake", "다색 드레이크", "entity name")
 t("A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "성년 다색 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 t("greater multi-hued wyrm", "다색 용", "entity name")
 t("An old and powerful multi-hued drake, armed with many deadly breath weapons and nasty claws.", "늙고 강력한 다색 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
-t("Ureslak the Prismatic", "다색의 우르슐락", "entity name")
+t("Ureslak the Prismatic", "다색의 우르슬랙", "entity name")
 t("A huge multi-hued drake. It seems to shift color rapidly.", "거대한 다색 드레이크로, 비늘의 색깔이 빠르게 변화합니다.", "_t")
 t("#YELLOW#%s's skin turns %s!", "#YELLOW#%s의 비늘이 %s 변했다!", "logSeen", nil, {[2]="으로"})
 
@@ -11787,28 +11787,28 @@ t("Golden Three-Edged Sword 'The Truth'", "황금 삼중검 '진실'", "entity n
 t("three-edged sword", "삼중검", "_t")
 t("The wise ones say that truth is a three-edged sword. And sometimes, the truth hurts.", "현자들은 진실이야말로 삼중검이라고 합니다. 언제든지 진실은 고통스러운 법이기에.", "_t")
 t("9% chance to stun or confuse the target", "9% 확률로 대상에게 기절이나 혼란을 일으킵니다", "_t")
-t("Ureslak's Femur", "우르슐락의 대퇴골", "entity name")
+t("Ureslak's Femur", "우르슬랙의 대퇴골", "entity name")
 t("a strangely colored bone", "이상한 색의 뼈", "_t")
-t("A shortened femur of the mighty prismatic dragon Ureslak, this erratic club still resonates with his volatile nature.", "강력한 다색룡 우르슐락의 대퇴골을 짧게 가공한 것으로, 이 불규칙한 형태의 뼈 몽둥이는 아직도 그의 불안정한 천성과 공명하고 있습니다.", "_t")
+t("A shortened femur of the mighty prismatic dragon Ureslak, this erratic club still resonates with his volatile nature.", "강력한 다색룡 우르슬랙의 대퇴골을 짧게 가공한 것으로, 이 불규칙한 형태의 뼈 몽둥이는 아직도 그의 불안정한 천성과 공명하고 있습니다.", "_t")
 t("10% chance to shimmer to a different hue and gain powers", "10% 확률로 다른 빛을 내며 힘을 얻습니다", "_t")
-t("Ureslak's %s Femur", "우르슐락의 %s 대퇴골", "tformat")
-t("#GOLD#Ureslak's Femur glows and shimmers!", "#GOLD#우르슐락의 대퇴골이 밝게 빛난다!", "logSeen")
+t("Ureslak's %s Femur", "우르슬랙의 %s 대퇴골", "tformat")
+t("#GOLD#Ureslak's Femur glows and shimmers!", "#GOLD#우르슬랙의 대퇴골이 밝게 빛난다!", "logSeen")
 t("Flaming", "불타는", "_t")
 t("Frozen", "빙결", "_t")
 t("Crackling", "스파크를 튀기는", "_t")
 t("Venomous", "맹독의", "_t")
 t("Starry", "별빛의", "_t")
 t("Eldritch", "일그러진", "_t")
-t("What would happen if more of Ureslak's remains were reunited?", "우르슐락의 다른 유해와 한 자리에 모이면 어떤일이 일어날까요?", "_t")
-t("Ureslak's Molted Scales", "우르슐락의 녹아내린 비늘", "entity name")
+t("What would happen if more of Ureslak's remains were reunited?", "우르슬랙의 다른 유해와 한 자리에 모이면 어떤일이 일어날까요?", "_t")
+t("Ureslak's Molted Scales", "우르슬랙의 녹아내린 비늘", "entity name")
 t("scaly multi-hued cloak", "다색의 비늘로 뒤덮힌 망토", "_t")
 t("This cloak is fashioned from the scales of some large reptilian creature.  It appears to reflect every color of the rainbow.", "이 망토는 거대한 파충류의 비늘로 만들어졌습니다.  무지개 색으로 빛을 반사합니다.", "_t")
 t(", or ", ", 또는 ", "_t")
 t("energize the scales for 16 turns, increasing resistance to %s damage by 15%% just before you are damaged. (This effect lasts 5 turns and only works on one type of damage.)", "16 턴 동안 비늘에 힘을 불어넣어, 공격 받기 직전에 %s 속성 저항을 15%% 향상시킵니다. (이 효과는 5 턴 동안 지속되며, 한 종류의 속성에만 영향을 줍니다.)", "tformat")
 t("%s empowers %s %s!", "%s %s %s 활성화했다!", "logSeen", nil, {"는",[3]="을"})
-t("It would go well with another part of Ureslak.", "우르슐락의 다른 유해와 함께라면 꽤 괜찮을 것 같습니다.", "_t")
-t("#YELLOW_GREEN#An ironic harmony surrounds Ureslak's remains as they reunite.", "#YELLOW_GREEN#우르슐락의 유산이 한 데 모이자, 역설적인 조화가 두 유해에 감돈다.", "logSeen")
-t("#YELLOW_GREEN#Ureslak's remains seem more unsettled.", "#YELLOW_GREEN#우르슐락의 유해가 더 불안정해 보인다.", "logSeen")
+t("It would go well with another part of Ureslak.", "우르슬랙의 다른 유해와 함께라면 꽤 괜찮을 것 같습니다.", "_t")
+t("#YELLOW_GREEN#An ironic harmony surrounds Ureslak's remains as they reunite.", "#YELLOW_GREEN#우르슬랙의 유산이 한 데 모이자, 역설적인 조화가 두 유해에 감돈다.", "logSeen")
+t("#YELLOW_GREEN#Ureslak's remains seem more unsettled.", "#YELLOW_GREEN#우르슬랙의 유해가 더 불안정해 보인다.", "logSeen")
 t("razor sharp war axe", "예리한 전쟁도끼", "_t")
 t("Razorblade, the Cursed Waraxe", "면도날, 저주받은 전쟁도끼", "entity name")
 t([[This mighty axe can cleave through armour like the sharpest swords, yet hit with all the impact of a heavy club.
@@ -13267,6 +13267,269 @@ Turthel paused reflectively before nodding his head slowly, and it was clear tha
 
 투르텔은 반사적으로 멈칫하더니 느리게 끄덕였고, 리나니일의 말이 그의 생각과 부합하다는 것이 자명해보였다.  “아주 좋군,” 그가 에피니아스를 바라보며 느리게 말했다.  “우리는 당신과 함께하오.”  네이라가 침묵을 지키며 음울한 걱정을 하고있었지만, 자매의 눈에는 만족이 빛이 스처지나갔다.]], "_t")
 t("The Spellblaze Chronicles(2): A Night to Remember", "마법폭발 연대기 (2): 기억해야 할 밤", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Two: A Night to Remember#{normal}#
+
+It was three nights later I awoke in darkness from a troubled dream to find my window open, the silk drapes billowing in the breeze.  As my eyes adjusted to the light I saw Linaniil stood at the foot of my bed, a thin azure dress clinging to her skin in the chill night air.  Around her was a cashmere belt inset with opals and woven with pale runes, and gold jewellery adorned her neck and wrists.  A long staff rested lightly in her hands, rubies glistening in its decorated top.  Her red hair stirred in the wind as she gazed at me.
+ 
+“What are you doing here?” I enquired.  I did not bother asking how she managed to sneak into my bedchamber, past many guards.  I knew that no less than a council member would be able to divine her presence when she put her mind to illusion.
+ 
+She looked at me slowly for a moment, before turning her eyes to the rest of the room, analysing my personal space in detail.  “There be a band of orcs marauding in the north,” she said in a distracted tone.  She picked an ornamental dagger from a shelf and looked it over as she spoke.  “They look like to cause trouble for some outlying elven settlements.”
+ 
+“I will summon a raiding party at once,” I said, rising quickly from my bed, unheeding of modesty.
+ 
+“Oh, how boring!” she complained, putting the dagger down and spinning to face me.  “What of the promise ye made to hunt orc together?”
+ 
+“What, just the two of us?”
+ 
+“Aye,” she said, looking my unclad form up and down with a slow gaze, seeming to take delight in the sight.  “Or are ye not man enough?”
+ 
+“A strange question to ask of an elf, my lady.  But I can take this band of orcs myself, I am sure.  If you wish to tag along then I cannot promise to keep you safe.”
+ 
+She laughed then, and the sound was like ringing crystal.  “Very well then!  Get ye your steel stick and we shall see who holds their own best.”  I agreed with a smile, and went to my armoury and shoved on metal greaves and a chain hauberk, my breastplate and steel gauntlets.  Linaniil tutted in surly impatience.  “Must ye wear that tin suit?”
+ 
+“It is my battle gear,” said I, pulling on my visored helm and wrapping a thick cloak round my shoulders.
+ 
+“Ye look like a golem,” she muttered, visibly annoyed.  “Come then, I grow bored.”  She leapt out the window, taking to the air with grace, flying away into the night.
+ 
+I took then my greatsword from its hanging.  It was a simple looking blade, adorned only with a heavy moonstone on its pommel.  But its looks belied its power, for it was forged by the dwarves in their early years, before vanity overcame their works and their weapons became more for show than for battle.  It had an edge that clove through steel and bone with ease, without ever dulling the blade.  Mooncutter it is called, though it is lost to me now.  I gave it a swing through the air before leaping out the window myself, conjuring a cushion of air beneath me and following swiftly after Linaniil.
+ 
+With rapid pace we flew through the scattered clouds in silence for twenty minutes before Linaniil began to descend.  I could see nestled between some low hills were the flames of campfires, and as we came closer the sound of orcish chanting became clear.  “How shall we approach them?” I called out, wondering what tactics the sorceress would want to employ.
+ 
+“Directly,” she said, and with that she made a sudden burst of speed, coming right above the orcish camp and descending in their midst.  With a curse I sped after her, landing by her side and drawing Mooncutter as the orcs rose in fury and alarm, grabbing up their weapons.  As a ring of dark swords and spears and halberds gathered round us Linaniil turned to me with a wild smile.  “Time to dance.”
+ 
+She shot forth a ray of purple arcane energy from her right hand, whilst her left held up her staff, its tip blazing like a torch.  Flames leapt up in tandem from my own blade as I rose it high, and swept it before me in a wide arc, cutting down the nearest brute and sending a shocking wave of fire into the troops behind it.  I pressed forward, forcing back the orcs before me with a roaring hot wind.  Their weapons dropped from their hands as they reached up to cover their faces, and with a grin of satisfaction I rushed to hew their heads off.  But as I swung my blade I was knocked to the ground from behind by a blast of fire, and turning about I saw Linaniil standing in a pillar of flame, her arms outstretched as it expanded around her.  “Too hot for ye, Aranion?” she called out as the orcs nearby were fried to a crisp, their flesh withering into black dust.
+ 
+I grunted, and turned my blade into ice, and with deft sword strokes sent streams of freezing cold into the orcs around her, so that they shattered like glass before the fire ever hit them.  Linaniil cursed my name as she dropped the flames from about her.  “Don’t ruin my fun!” she exclaimed, before teleporting to the other side of the camp and beginning to blast the orcs there.
+
+I laughed and turned on the beasts nearest me, and brought tumults to the earth with each swing, so that they lost their footing and fell to the ground before my sword found their throats.  Then I conjured a mighty spark of lightning, spearing it through their densest ranks, and I rushed along its glowing length hewing down the monsters before they could react.  I laughed again with the fey heat of battle, and I discarded my helm and tore off my platemail, taking joy from moving about the field with ease and slaughtering my inferior foes.  Mooncutter danced through their flesh, and their dark blood gushed and fountained with joyful rhythm.
+
+On the far side of the camp explosions and screams marked Linaniil’s passage, and I saw burning limbs flying into the air and streaks of fire tearing through the night.  The sorceress was wreathed in flames, her eyes shining, and the dancing blaze about her made her look like a nymph of fire incarnate.  No more beautiful and awe-inspiring a sight had I ever beheld.
+
+Seeing their numbers quickly dwindling the orcs began to flee, but I phased to block their retreat and called forth a wave of water, forcing them back against Linaniil’s flames.  There against the wall of fire I dashed them, and great numbers of them fell like leaves scattered in the wind.  Blood spilled thick and plentiful, and with but a few more thrusts of Mooncutter and blasts from Linaniil’s hands the battle was over.  Not a single orc still moved, and well over four hundred lay dead on the ground.
+ 
+Linaniil and I stood facing each other, panting with sudden exhaustion as the adrenaline of the fight left us.  “I lost count,” I said between breaths, “of who slew more…”  She grinned coyly at me, sweat trickling down her face.  Minor cuts and burns left her robe in tatters, with one shoulder strap hanging loose.  Her glistening chest heaved up and down with each breath, and her deep eyes looked at me with naked intensity.
+ 
+She strode forward then, and grabbing me roughly by my hauberk she pulled my lips to hers.  The kiss was hot and fierce, and as she bit my lower lip the course of blood in battle came back to me afresh.  I kissed her again and grabbed her body, pulling her tight to me, our lips locked.  She tore lustfully at my remaining armour, flinging it to the ground, and I slid off her silken clothes, till we were left bare beneath the stars.  Then against a rocky outcrop we pressed against each other, still gasping and sweating from the fight.  There with blazing passion flesh met flesh and our hot moans rose into the cold night sky.]], [[#{italic}#엘발라 대의회장, 아라니온 가웨일의 회고록에서 발췌#{normal}#
+
+#{bold}#제 2 장 : 기억해야 할 밤#{normal}#
+
+3 일 후, 나는 고통스러웠던 꿈에서 깨어났고, 내 방 창문이 열려있던 것을 발견했다. 비단 커튼이 산들바람에 펄럭였다.  잠깐동안의 눈부심이 사라지자, 나는 리나니일이 침대 발치에 서있는 것을 보았다. 얇은 하늘색의 드레스가 차가운 밤 공기에, 그녀의 피부에 꼭 달라 붙어 있었다.  그녀는 오팔과 창백한 룬이 조각되고, 엮여진 캐시미어 허리띠를 차고있었고, 금으로 만들어진 목걸이와 팔찌가 그녀의 목과 손목을 아름답게 장식하고 있었다.  그녀는 긴 지팡이를 손에 가볍게 쥐고 있었고, 지팡이의 끝에서 루비가 반짝였다.  그녀의 붉은 머리카락은 나를 처다보는 동안, 바람에 휘날리고 있었다.
+ 
+“여기서 뭐하는 겁니까?” 내가 물었다.  나는 어떻게 그녀가 경비병들을 뚫고 내 침실로 숨어들어왔는지 굳이 묻지 않았다.  그녀가 마법을 사용했다면, 대의회에 참여할 정도로 기예에 통달한 자가 아닌 이상, 그녀의 존재 조차 느끼지 못했을 것을 나는 알고있었다.
+ 
+그녀가 눈길을 침실로 돌리기 전까지 그녀는 나를 잠시동안, 천천히 바라보았다. 침실을 둘러보는 그녀의 눈은, 내 개인적인 공간을 세세하게 분석하는 듯 했다.  “오크 분견대 하나가 이곳 북쪽을 약탈하고 있어요.” 그녀는 괴로운 목소리로 말했다.  선반에서 예장용 단검을 집더니 그것을 훑어보며 다시 말하길,  “그 오크들이 외딴 엘프 거주지에 문제를 일으킨 것 같아요.”
+ 
+“제가 곧 습격대를 소집하겠습니다.” 나는, 겸손같은 건 잊어버린 채, 침대에서 빠르게 일어났다.
+ 
+“아, 지루한 사람!” 그녀가 불평했다, 단검을 내려놓고 빙글빙글 돌면서 내게 말했다.  “같이 오크들을 사냥하자던 약속은 어디 간건가요?”
+ 
+“뭐라고요, 우리 둘만이서?”
+ 
+“물론이죠.” 그녀가 내 벗은 몸을 위 아래로 느리게 응시하며 말했다. 그 표정은 왠지모르게 즐거워 하는 듯 했다.  “아니면 아직 진짜 남자가 아니신건가?”
+ 
+“엘프에게는 이상한 질문이군요, 아가씨.  하지만 저는 이 오크놈들을 저 혼자서 쓸어버릴 수 있습니다. 그건, 제가 확신합니다.  하지만, 아가씨가 저와 함께 가고싶으시더라도, 아가씨의 안전은 장담할 수 없군요.”
+ 
+그러자 그녀가 웃었다, 그 소리는 마치 수정이 울리는 것과 같았다.  “그럼 잘 됐네요!  강철 막대기를 가저와요, 누가 더 잘하는지 한 번 봐보자구요.”  나는 미소지으며 수락했고, 곧장 무기고로 가, 강철 전투 장화와 사슬 갑옷, 그 위에 흉갑을 입고, 강철 전투 장갑을 껴입었다.  리나니일은 무례하게 쯧쯧거렸다.  “꼭 그 깡통을 입어야 하나요?”
+ 
+“이건 제 전투 장비들입니다.” , 면갑이 달린 투구를 쓰고, 어꺠에 두꺼운 망토를 걸치며 말했다.
+ 
+“골렘 같아보여요,” 그녀는 짜증을 내며 중얼거렸다.  “이리와요, 지루해지고 있으니까.”  그녀는 창문 밖으로 잽싸게 뛰어나갔다. 우아하게 비행하며, 밤 속으로 날아가며.
+ 
+나는 벽걸이에서 내 대검을 가저왔다.  단순해 보이는 검이지만, 손잡이 부분은 무거운 월석으로만 장식 되어있다.  하지만 이 초라한 외견은 마치 힘을 숨기는 듯 했다. 허영심이 작품성을 압도하기 전의, 무기가 진열관이 아닌 전투에 더 어울렸었던, 초기 드워프들의 대장 기술로 만들진 명검.   강철과 뼈를 가볍게 잘라내고 무뎌디지 않는 칼날을 갖고있다.  달을 베는 자. 그것이 이 칼의 이름이다, 비록 지금은 내 손을 떠나갔지만.  나는 창 밖으로 뛰어 내리기 전에, 칼을 허공에 휘들러, 공기의 쿠션을 만들며 리나니일을 재빨리 쫓아갔다.
+ 
+리나니일이 내려오기 전까지, 우리는 빠른 속도로 구름 조각을 해처나가며 20 분간을 침묵 속에서 비행했다.  나는 낮은 언덕들 사이에서 야영의 불빛이 자리를 틀고 있는 것을 볼 수 있었다. 우리가 가까이 다가가자, 오크들의 찬가가 뚜렷하게 들렸다.  “어떻게 접근할까요?” 나는 그녀가 어떤 전술을 쓰고싶을지 궁금해하며, 그녀에게 소리쳤다.
+ 
+“바로 가죠.” 그녀가 그렇게 말하고는 엄청난 속도를 내며 오크 야영지의 바로 위에서, 그들 한 가운데로 내려왔다.  나는 욕지거리를 하며 그녀를 바로 쫓아갔다. 그녀의 바로 옆에 착륙해 달을 베는 자를 휘두르자, 시끄러운 경보 소리 가운데, 오크들이 분노로 일어나, 무기를 손에 쥐었다.  검과 창, 할버드로 이루어진 검은 고리가 우리를 둘러싸자, 리나니일이 야생적인 웃음을 내보이며 말했다. “춤 출 시간이에요.”
+ 
+그녀는 오른 손에서 자주색 마법 에너지 광선을 뿜어냈다. 그녀가 왼손에 쥐고있던 지팡이의 끝은 마치 횃불처럼 불타올랐다.  나는 내 검을 높게 처들자, 마찬가지로 화염이 일어났다. 그리고서는 곧장 넓은 호를 그리며 가장 가까운 오크 하나를 쓰러뜨리고, 그 뒤에서 우리를 노려보던 오크 분대에게 화염의 충격파를 날려보냈다.  나는 그르렁거리는 열풍과 함께 앞으로 밀고나가, 내 앞의 오크들을 격퇴했다.  열기가 밀려오자, 오크들은 얼굴을 가리기 위해 무기를 떨궜고, 나는 만족스러운 웃음과 함꼐 달려나가 적들의 머리통을 잘라내었다.  하지만 내가 검을 휘두르려 할 때, 뒤에서 닥쳐온 화염 폭발로 인해 나는 땅바닥으로 고꾸라졌다. 뒤를 돌아보니, 리나니일이 팔을 넓게 벌리며 화염 기둥에 서있었다.  “너무 뜨거운가보죠, 아라니온?” 그녀가 오크들에게 근처의 오크들에게 무어라고 소리치자, 오크들의 피부는 바짝 튀겨졌고, 이윽고 그들의 살은 검은 먼지로 타버렸다.
+ 
+나는 투덜거리며, 나의 검을 얼음 조각으로 변하게 했다. 그리고는 재빠르게 휘둘러 그녀 근처의 오크들에게 얼어붙는 냉기의 흐름을 쏟아부었다. 그러자 오크들은 화염이 그들을 삼키기도 전에, 유리처럼 부셔졌다.  리나니일은 내 이름을 욕하면서 그녀 주위의 화염을 바닥으로 떨구면서 말했다.  “방해하지 말아요!” 그녀가 외쳤다. 그러고는 오크 야영지의 다른 쪽으로 순간이동 하더니 오크들을 박살내기 시작했다.
+
+나는 크게 웃으며 내게 붙은 짐승들에게 몸을 돌렸다. 나는 적에게 검격을 가할 때마다 대지를 요동치게 해, 내 검이 그들의 목에 스치기도 전에 그들을 넘어뜨렸다. 그러고선, 나는 오크들이 모여있는 곳으로 강력한 전류를 발사하고, 그대로 돌진해 그 전류의 빛이 닿는 동안, 그 괴물들이 미처 반응할 틈도 없는, 아주 짧은 순간 사이에 그들을 쓰러뜨렸다.  나는 전투의 뜨거운 열기에 취해 다시한번 웃었다. 이윽고 나는 투구와 판갑을 벗고, 전장을 자유롭게 뛰어 다니며, 먼지보다 못한 적들을 학살하는 즐거움에 빠저들었다.  달을 베는 자가 오크들의 살덩이를 꿰뚫으며 춤추자, 그들의 검은 피가 경쾌한 리듬으로 뿜어저 나와, 분수가되었다.
+
+오크 야영지 저 멀리에서는 리나니일이 거니는 곳마다, 폭발과 비명이 터저나왔다. 저 멀리 리나니일이 있는 곳을 보고있노라면, 허공에 불타오르는 팔 다리가 날아다니고 화염 줄기가 밤을 찢어놓고 있는 것이 보였다.  그 여자, 주술사는 화염에 감싸져있었고, 그 두 눈에는 빛이 맺혀있었다. 화염과 함께 춤추는 리나니일은 마치 화염이 깃든 요정처럼 보였다.  그보다 더 아름답고 경외 - 인상깊은 광경은 나는 전에 보지 못했다.
+
+오크들의 머릿수가 빠르게 줄어들자, 오크들은 도망치기 시작했다. 그러나 나는 순간이동해 그들의 퇴로를 막고 파도의 힘을 불러, 그들이 도망쳐나왔던, 리나니일의 화염 속으로 그들을 다시 몰아넣었다.  화염의 벽을 등진 오크들에게 나는 돌진했다. 많은 수의 오크들이 바람에 부서진 나뭇잎처럼 떨어졌다.  끈적이는 피가 사방에 흩날렸다. 이윽고, 내가 달을 가르는 자를 오크들에게 몇 번 찔러넣고, 리나니일의 손에서 폭발 일어나자 전투가 끝이 났다.  그 어떤 오크도 움직이지 못했다. 400 구 이상은 되어보이는 시체들이 땅을 수놓았다.
+ 
+리나니일과 나는 서로를 바라보며 섰다. 전투의 아드레날린이 우리를 떠나자, 우리는 갑작스레 찾아온 탈진으로 숨을 몰아쉬었다.  “숫자를 세는 걸 까먹어버렸군.” 들숨과 날숨 사이, 짧은 찰나 동안 내가 말을 꺼냈다. “누가 더 많이 죽였는지 말이야…”  그녀는 땀이 줄줄 흐르는 얼굴로 나를 보고는 수줍게 웃었다.  생채기와 화염으로 인해 그녀의 로브가 너덜너덜해졌고, 한 쪽 어깨끈은 헐거워졌따.  땀으로 반짝이는 그녀의 가슴은 숨결마다 위 아래로, 흔들렸다. 그녀의 깊은 눈이 나를 적나라한 강렬함으로 나를 처다봤다.
+ 
+그녀는 내게로 성큼성큼 걸어오더니, 나의 사슬 갑옷을 거칠게 잡더니 나의 입술을 그녀의 입술로 가저갔다.  키스는 뜨겁고 격렬했으며, 그녀가 내 아랫입술을 깨물자 전투의 들끓는 피가 내게 다시 돌아왔다.  나는 그녀에게 다시 키스를 하고, 그녀의 몸을 붙잡고, 내게로 꽉, 끌어당겼다. 우리의 입술은 하나였다.  그녀는 정열적으로 나의 남은 갑옷들을 벗기더니, 땅으로 내던졌다. 내가 그녀의 비단 옷을 슬며시 벗기자, 별들 아래 우리는 맨 몸이 되었다.  그리고는 거친 바위 표면에 맞서 우리는 서로를 압박했고, 또다른 전투로 숨을 몰아쉬며, 땀에 젖었다.  이글거리는 정열의 살과 살이 만나자 우리의 뜨거운 신음 소리가 차가운 밤 하늘 위로 솟아올랐다.]], "_t")
+t("The Spellblaze Chronicles(3): The Farportal", "마법폭발 연대기 (3): 장거리 차원문", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Three: The Farportal#{normal}#
+
+“Why are ye not leader?” asked Linaniil, resting her head in her hand with her naked form strewn across my bed.
+ 
+I looked at her, surprised by the sudden question.  My mind struggled briefly with the strange query, still recovering from the heat of sex but a minute before.  “Why should I be leader?” I asked back.
+ 
+“Because ye are strong, of course,” she responded.  “I deem ye stronger in battle than any of your kin.  Ye should rule with such strength.”
+ 
+I chuckled softly.  “Mere strength is not enough to rule a people.  It requires responsibilities, careful decision making, and above all – politics.  I have no interest in such matters.  Ephinias is far better suited to those sorts of things.  Give me a sword and soldiers to lead into battle and I am content.  Let the leaders worry about where I should point my blade.”
+
+She was quiet a moment, seemingly dissatisfied with that response.  “Ye are not happy with the current plans though.”
+
+For a moment I was struck with shock.  It surprised me how clearly she divined my inner thoughts.  I had not expressed my concerns to anyone, yet she could so easily read me.  Five weeks it had been since we first met, and it seemed like there was nothing I could hide from her keen sight.
+ 
+The preparations for the Spellblaze were well underway.  Turthel of the Kar’Krul had returned to his northern citadel, but he left his daughters as ambassadors to aid in our designs.  It meant Linaniil and I had many an opportunity to meet, though we kept it secret.  Few of my race would understand or approve of such a liaison, and none of us could afford a scandal. Yet I could not resist this human mage’s advancements, nor she mine.
+ 
+“I am a warrior,” I said to her finally, getting brusquely from my bed and recovering my robes.  “I settle my battles facing my foe, not by toying with relics from afar.  It irks me that we must deal with our enemies in such a craven way.”
+
+“But does it not excite ye, using these Sher’Tul ruins?” she said, putting a finger to her lower lip as she still languished in my bed, the sheets sticking tightly to her bare skin.  She seemed visibly aroused by her thoughts.  “Such powers lain dormant for so long, ready to be summoned to our control...  How it were I to command so great a venture!”
+
+I shook my head sadly as I finished buttoning up my doublet.  “I do not trust those ruins.  We Shaloren are mighty, but we have yet to reach the heights of the Sher’Tul, nor do we truly understand the devices they have left behind.  My thoughts are more with your sister Neira on this.  We should stick to what abilities we have mastered, without stretching ourselves to such grand experimentation.”
+ 
+Linaniil looked at me intently, a touch of humour in her dark eyes.  “If ye were leader then ye could stop this.  But then I would have to hate ye.”
+ 
+I allowed myself a thin smile.  “Well, that would indeed be a terrible and dangerous thing.”  I finished dressing whilst Linaniil still lay in my bed, her face reflective.  “I must go now to check on the latest operations at the farportal.  You are welcome to join me.”
+ 
+She shook her head languidly.  “Nay, I wish to rest more.  And besides, hearing their reports would but make me jealous.  Leave me here awhile – I wilst depart in secret later.”
+ 
+I left my chamber then, dark thoughts now brooding at the back of my mind.  The date was coming closer when our plans would come to fruition and the Great Spellblaze would be unleashed.  A heavy foreboding lay over my heart.  Yet the alternatives seemed grim.  The war with the orcs was going badly, with few races able to secure their borders well and attacks from the brutes ever increasing.  Their numbers seemed inexhaustible.  Though they had little skill in warfare they could bring great harm to unprotected townsteads, and in enough force could bring down cities.  One human kingdom had collapsed under their attacks but a week before.  After that many who had initially rejected our plans came begging for our protection.  The Spellblaze seemed our only hope against imminent disaster.
+ 
+Such thoughts were weighing on my mind as I passed from my chambers in the palace, down to the courtyard by the main gate.  Then from the corner of my eye I saw a swish of long red hair, and spun round thinking Linaniil had followed me.  But the golden robes and bright eyes of Neira revealed otherwise.
+ 
+“Expecting someone else?” she asked with a wide smile, seeing the surprised look on my face.
+ 
+“I was deep in thought,” I explained, bowing slightly to greet her.  “I am just on my way to inspect the farportal operations.  Perhaps you-“
+ 
+“I shall join ye,” she said quickly, not waiting for my invitation.  I nodded my assent and guided her to my carriage.
+ 
+As soon as we took off east the mood changed.  “She wilst only hurt ye,” said Neira suddenly.
+ 
+I cursed quietly, understanding her meaning.  “Are there no secrets to be had in all Eyal?” I muttered.
+ 
+“Not between sisters, and especially not between twins.”  She smiled warmly at me, yet there was no humour in her eyes.  “I mean it though.  I love mine sister, but I know her ways.  She be fickle, and willed to do her own thing when she likes.  Do not be surprised when she bores of ye.  Nor hurt.”
+ 
+“I am quite capable of taking care of myself,” I said in clipped tone.
+ 
+She gazed into my eyes a moment and then turned away to stare out the window.  “Well, I have warned ye...” she replied softly, a touch of sadness in her voice.
+ 
+Was it jealousy perhaps that stirred such an outburst?  And for her sister’s attention or for mine?  I never did discover.  The rest of the trip was spent in sullen silence.  The sun was setting behind our carriage, casting a long shadow on the path ahead, and bathing the land about in crimson light.  It seemed for a moment like we rode into some demon’s plane, pitch black shadows melting into blood-red soil, whilst cold white stars began to spear through the sky above.  I shivered suddenly as the ruins came into view.
+ 
+Few Sher’Tul ruins have been discovered which even come close to matching the grandeur of those which were near Elvala.  Many centuries our people spent excavating them, digging deep into the ground, ever careful not to damage or upset the relics.  The centrepiece was the Crystal Tower.  From the surface all that could be seen of it was a wide, even-sided square, which when cleaned of soil revealed a white stone smoother than marble.  But delving down our archaeologists found it plummeted deep, deep below the ground.  Half a mile it went down, the featureless white stone not bearing a single mark or engraving anywhere on its surface, until it ended suddenly and without foundation.  It was like the whole tower was separate from the earth, some strange thing of the stars that had dropped from the skies and lay sleeping beneath the soil.
+ 
+Some years earlier our people had solved the invisible runes that allowed it to be opened, revealing vast crystal-lined halls and chambers arrayed in geometric patterns of sublime beauty.  Light sparked and shone from every surface, and the walls seemed to hum with energy.  Many shafts and passageways could only be navigated by flight, and at the top was found a grand room large enough to encompass the whole palace of Elvala.  At its centre was the farportal, a raised dais forty feet in diameter and crackling with energy upon which slowly spun a cloud of stars.  It was beautiful and frightening, enchanting and terrifying.  No power of the Shaloren could discern its operation, and though through careful experimentation we were able to manipulate its energies, never could we get a true grasp of the forces that lay beneath.
+
+Neira and I descended to the base of the tower, smothered in the cold shadows of the excavated ruins.  I nodded to the guards as we passed through the square white entrance, and Neira’s eyes instantly enlarged in wonder.  The scintillating rooms were eye-catching to be sure, but they were also desolate and empty.  I tried to imagine what it must have looked like when filled with Sher’Tul.  “How did they all die?” I asked under my breath as we traversed the crystal halls, a question many had asked before.
+ 
+The sorceress picked up on my words and laughed softly.  “It be a mystery, of course!  Mine mother once taught me that they killed themselves in a great civil war, using magics far beyond our imaginings.”
+ 
+“I wonder,” said I.  We had our own records, of course, which we didn’t share with the younger races, but they were not so clear-cut as the many myths that had spread over the ages.
+ 
+We reached the central shaft, and from there levitated up past floors and floors of abandoned chambers, living spaces, workshops, storerooms, and many other areas of purpose undivined by our loremasters.  Finally, after ascending for several minutes, we rose into the grand chamber of the farportal, and Neira gasped to see its size.  Her eyes soon settled on the great Sher’Tul farportal, sparks from it reflecting off the roof hundreds of feet above.  About it were bustling many of our Shaloren mages in silken robes, and Ephinias himself was leading the operations.
+ 
+He broke from his advisers as he saw us arrive, and strode towards us with a confident smile on his face.  Though he wore the grey robes of a research mage he still bore his great golden staff, Luminis, token of his position as king.
+ 
+“Ah, General Aranion!” he said, “You have come at last.  And brought the Kar’Krul girl with you; how splendid.”
+ 
+I gave a small bow.  “Your majesty.  I am here for the update on our operations.”
+ 
+“Yes, yes, of course,” he said with a dismissive hand gesture.  “And doubtless the girl is here to make sure we know what we’re doing?”
+ 
+If Neira was offended she covered it up well.  “It would be mine delight to see evidence of ye skill and power over the ruins, lord Ephinias.”
+ 
+The king smiled and nodded then, and called to some of his aides.  “Prepare the topography demonstration, using the acute fire strand.”  He turned back to us then.  “It is not mere skill and power of course that we can show you, but subtlety and scale too.  Now excuse me a moment whilst I join the others.”
+ 
+He went with two of the senior research mages then to the front of the farportal.  They faced each other and began a low humming in unison, and slowly it seemed that the sparks from the farportal began to flicker redly.  Over the course of a few minutes their hum became a higher pitched chant, but softly sung and still in perfect unison.  As they raised their staffs there appeared above the farportal an image in flames, and looking at it both Neira and I marvelled, for we could see clearly that it was an image of ourselves, looking upwards, as if looking we were staring into a mirror.  Our features and movements were all clearly discernible, down the smallest detail, all carved out of flickering orange fire.
+ 
+Then the chanting rose higher and it seemed the image zoomed out, so that we saw the farportal nearby us and the mages gathered about.  And still the focus soared upwards till we were but specks in a wide hall, until the image was displaced by a white square with carven edges dug into the earth about it, and I knew we were looking at the top of the Crystal Tower from above.  The view widened, and I could see the land rushing away, and the city of Elvala to the west.  The chanting rose higher and now the sea could be seen, and the mountains to the north-west, and all the land about.  And soon the continent was visible, right to the frozen north, and the ocean wrapped all about, and it seemed small white stars were dotted about the landscape.  The singing reached a crescendo and before us hung an image of the whole of Eyal, a globe of fire suspended in mid-air, slowly turning.
+ 
+Then the chanting stopped and the image disappeared, and I could hear beside me Neira suddenly gasp for air, as if she had not dared draw breath through the last few minutes.
+ 
+“You see now?” said Ephinias, grinning with pleasure.  “From the smallest detail to the grandest scale we can manipulate the farportal’s energy.  And did you see those white points marked across the image?  They are the other farportals spread across the world, and this one can connect to them all.  With careful, delicate control we can harmonise the energy of them all and use it to our will.  I’m afraid your sword can be no match to this, Aranion.”
+ 
+I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
+ 
+Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], [[#{italic}#엘발라 대의회장, 아라니온 가웨일의 회고록에서 발췌#{normal}#
+
+#{bold}#제 3 장 : 장거리 차원문#{normal}#
+
+“당신은 왜 아직도 지도자가 아니죠?” 알몸인 리나니일이 내 침대 위에서 턱을 괸 채 내게 물었다.
+ 
+나는 갑작스러운 질문에 놀라 그녀를 처다보았다.  내 정신은 순간 이 이상한 의문에 큰 당혹감을 느꼈다, 불과 1 분 전에 섹스의 열기에서 갓 회복된 참이였다.  “내가 왜 지도자가 되어야하지?” 나는 그녀에게 되물었다.
+ 
+“당신은 강하잖아요,” 그녀가 대답했다.  “저는 당신이 당신 종족 중 그 누구보다강하다고 생각해요.  당신은 그런 힘으로 사람들을 인도해야해요.”
+ 
+나는 부드럽게 웃었다.  “힘만으로는 사람들을 이끌기에 충분하지 않습니다.  책임감이 필요하죠, 조심스럽게 결단을 내려야하고, 그리고 무엇보다도 – 정치죠.  저는 그런 것들에게 흥미를 느끼지 못합니다.  에피니아스야 말로 그런 것들에게 더 잘맞는 사람이죠.  나는 칼을 쥐고 전장에서 병사들을 이끄는 것. 그것으로 충분합니다. 정치인들이 내 칼 끝이 어디를 겨누는지 걱정하게 하는거요.”
+
+그녀는 잠시 침묵했다, 내 대답에 만족하지 못한 모양이였다.  “당신은 지금 계획에 행복하지 않은 것 처럼 보이는군요.”
+
+순간 나에게 거대한 충격이 덮처왔다.  어떻게 그녀가 내 생각을 그리도 확실히 읽고 있었는지, 나는 매우 놀랐다.  나는 내 걱정을 남들에게, 그 누구에게 발설하지 않았으나, 그녀는 그리도 쉽게 나를 간파했다.  우리가 처음 만난 뒤로 불과 5 주. 그리고 그녀의 날카로운 시야에서 숨을 수 있는 방법은 아무 것도 없을 것 같았다.
+ 
+The preparations for the Spellblaze were well underway.  Turthel of the Kar’Krul had returned to his northern citadel, but he left his daughters as ambassadors to aid in our designs.  It meant Linaniil and I had many an opportunity to meet, though we kept it secret.  Few of my race would understand or approve of such a liaison, and none of us could afford a scandal. Yet I could not resist this human mage’s advancements, nor she mine.
+ 
+“I am a warrior,” I said to her finally, getting brusquely from my bed and recovering my robes.  “I settle my battles facing my foe, not by toying with relics from afar.  It irks me that we must deal with our enemies in such a craven way.”
+
+“But does it not excite ye, using these Sher’Tul ruins?” she said, putting a finger to her lower lip as she still languished in my bed, the sheets sticking tightly to her bare skin.  She seemed visibly aroused by her thoughts.  “Such powers lain dormant for so long, ready to be summoned to our control...  How it were I to command so great a venture!”
+
+I shook my head sadly as I finished buttoning up my doublet.  “I do not trust those ruins.  We Shaloren are mighty, but we have yet to reach the heights of the Sher’Tul, nor do we truly understand the devices they have left behind.  My thoughts are more with your sister Neira on this.  We should stick to what abilities we have mastered, without stretching ourselves to such grand experimentation.”
+ 
+Linaniil looked at me intently, a touch of humour in her dark eyes.  “If ye were leader then ye could stop this.  But then I would have to hate ye.”
+ 
+I allowed myself a thin smile.  “Well, that would indeed be a terrible and dangerous thing.”  I finished dressing whilst Linaniil still lay in my bed, her face reflective.  “I must go now to check on the latest operations at the farportal.  You are welcome to join me.”
+ 
+She shook her head languidly.  “Nay, I wish to rest more.  And besides, hearing their reports would but make me jealous.  Leave me here awhile – I wilst depart in secret later.”
+ 
+I left my chamber then, dark thoughts now brooding at the back of my mind.  The date was coming closer when our plans would come to fruition and the Great Spellblaze would be unleashed.  A heavy foreboding lay over my heart.  Yet the alternatives seemed grim.  The war with the orcs was going badly, with few races able to secure their borders well and attacks from the brutes ever increasing.  Their numbers seemed inexhaustible.  Though they had little skill in warfare they could bring great harm to unprotected townsteads, and in enough force could bring down cities.  One human kingdom had collapsed under their attacks but a week before.  After that many who had initially rejected our plans came begging for our protection.  The Spellblaze seemed our only hope against imminent disaster.
+ 
+Such thoughts were weighing on my mind as I passed from my chambers in the palace, down to the courtyard by the main gate.  Then from the corner of my eye I saw a swish of long red hair, and spun round thinking Linaniil had followed me.  But the golden robes and bright eyes of Neira revealed otherwise.
+ 
+“Expecting someone else?” she asked with a wide smile, seeing the surprised look on my face.
+ 
+“I was deep in thought,” I explained, bowing slightly to greet her.  “I am just on my way to inspect the farportal operations.  Perhaps you-“
+ 
+“I shall join ye,” she said quickly, not waiting for my invitation.  I nodded my assent and guided her to my carriage.
+ 
+As soon as we took off east the mood changed.  “She wilst only hurt ye,” said Neira suddenly.
+ 
+I cursed quietly, understanding her meaning.  “Are there no secrets to be had in all Eyal?” I muttered.
+ 
+“Not between sisters, and especially not between twins.”  She smiled warmly at me, yet there was no humour in her eyes.  “I mean it though.  I love mine sister, but I know her ways.  She be fickle, and willed to do her own thing when she likes.  Do not be surprised when she bores of ye.  Nor hurt.”
+ 
+“I am quite capable of taking care of myself,” I said in clipped tone.
+ 
+She gazed into my eyes a moment and then turned away to stare out the window.  “Well, I have warned ye...” she replied softly, a touch of sadness in her voice.
+ 
+Was it jealousy perhaps that stirred such an outburst?  And for her sister’s attention or for mine?  I never did discover.  The rest of the trip was spent in sullen silence.  The sun was setting behind our carriage, casting a long shadow on the path ahead, and bathing the land about in crimson light.  It seemed for a moment like we rode into some demon’s plane, pitch black shadows melting into blood-red soil, whilst cold white stars began to spear through the sky above.  I shivered suddenly as the ruins came into view.
+ 
+Few Sher’Tul ruins have been discovered which even come close to matching the grandeur of those which were near Elvala.  Many centuries our people spent excavating them, digging deep into the ground, ever careful not to damage or upset the relics.  The centrepiece was the Crystal Tower.  From the surface all that could be seen of it was a wide, even-sided square, which when cleaned of soil revealed a white stone smoother than marble.  But delving down our archaeologists found it plummeted deep, deep below the ground.  Half a mile it went down, the featureless white stone not bearing a single mark or engraving anywhere on its surface, until it ended suddenly and without foundation.  It was like the whole tower was separate from the earth, some strange thing of the stars that had dropped from the skies and lay sleeping beneath the soil.
+ 
+Some years earlier our people had solved the invisible runes that allowed it to be opened, revealing vast crystal-lined halls and chambers arrayed in geometric patterns of sublime beauty.  Light sparked and shone from every surface, and the walls seemed to hum with energy.  Many shafts and passageways could only be navigated by flight, and at the top was found a grand room large enough to encompass the whole palace of Elvala.  At its centre was the farportal, a raised dais forty feet in diameter and crackling with energy upon which slowly spun a cloud of stars.  It was beautiful and frightening, enchanting and terrifying.  No power of the Shaloren could discern its operation, and though through careful experimentation we were able to manipulate its energies, never could we get a true grasp of the forces that lay beneath.
+
+Neira and I descended to the base of the tower, smothered in the cold shadows of the excavated ruins.  I nodded to the guards as we passed through the square white entrance, and Neira’s eyes instantly enlarged in wonder.  The scintillating rooms were eye-catching to be sure, but they were also desolate and empty.  I tried to imagine what it must have looked like when filled with Sher’Tul.  “How did they all die?” I asked under my breath as we traversed the crystal halls, a question many had asked before.
+ 
+The sorceress picked up on my words and laughed softly.  “It be a mystery, of course!  Mine mother once taught me that they killed themselves in a great civil war, using magics far beyond our imaginings.”
+ 
+“I wonder,” said I.  We had our own records, of course, which we didn’t share with the younger races, but they were not so clear-cut as the many myths that had spread over the ages.
+ 
+We reached the central shaft, and from there levitated up past floors and floors of abandoned chambers, living spaces, workshops, storerooms, and many other areas of purpose undivined by our loremasters.  Finally, after ascending for several minutes, we rose into the grand chamber of the farportal, and Neira gasped to see its size.  Her eyes soon settled on the great Sher’Tul farportal, sparks from it reflecting off the roof hundreds of feet above.  About it were bustling many of our Shaloren mages in silken robes, and Ephinias himself was leading the operations.
+ 
+He broke from his advisers as he saw us arrive, and strode towards us with a confident smile on his face.  Though he wore the grey robes of a research mage he still bore his great golden staff, Luminis, token of his position as king.
+ 
+“Ah, General Aranion!” he said, “You have come at last.  And brought the Kar’Krul girl with you; how splendid.”
+ 
+I gave a small bow.  “Your majesty.  I am here for the update on our operations.”
+ 
+“Yes, yes, of course,” he said with a dismissive hand gesture.  “And doubtless the girl is here to make sure we know what we’re doing?”
+ 
+If Neira was offended she covered it up well.  “It would be mine delight to see evidence of ye skill and power over the ruins, lord Ephinias.”
+ 
+The king smiled and nodded then, and called to some of his aides.  “Prepare the topography demonstration, using the acute fire strand.”  He turned back to us then.  “It is not mere skill and power of course that we can show you, but subtlety and scale too.  Now excuse me a moment whilst I join the others.”
+ 
+He went with two of the senior research mages then to the front of the farportal.  They faced each other and began a low humming in unison, and slowly it seemed that the sparks from the farportal began to flicker redly.  Over the course of a few minutes their hum became a higher pitched chant, but softly sung and still in perfect unison.  As they raised their staffs there appeared above the farportal an image in flames, and looking at it both Neira and I marvelled, for we could see clearly that it was an image of ourselves, looking upwards, as if looking we were staring into a mirror.  Our features and movements were all clearly discernible, down the smallest detail, all carved out of flickering orange fire.
+ 
+Then the chanting rose higher and it seemed the image zoomed out, so that we saw the farportal nearby us and the mages gathered about.  And still the focus soared upwards till we were but specks in a wide hall, until the image was displaced by a white square with carven edges dug into the earth about it, and I knew we were looking at the top of the Crystal Tower from above.  The view widened, and I could see the land rushing away, and the city of Elvala to the west.  The chanting rose higher and now the sea could be seen, and the mountains to the north-west, and all the land about.  And soon the continent was visible, right to the frozen north, and the ocean wrapped all about, and it seemed small white stars were dotted about the landscape.  The singing reached a crescendo and before us hung an image of the whole of Eyal, a globe of fire suspended in mid-air, slowly turning.
+ 
+Then the chanting stopped and the image disappeared, and I could hear beside me Neira suddenly gasp for air, as if she had not dared draw breath through the last few minutes.
+ 
+“You see now?” said Ephinias, grinning with pleasure.  “From the smallest detail to the grandest scale we can manipulate the farportal’s energy.  And did you see those white points marked across the image?  They are the other farportals spread across the world, and this one can connect to them all.  With careful, delicate control we can harmonise the energy of them all and use it to our will.  I’m afraid your sword can be no match to this, Aranion.”
+ 
+I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
+ 
+Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], "_t")
 t("spellblaze", "마법폭발", "newLore category")
 
 
@@ -13279,6 +13542,66 @@ section "game/modules/tome/data/lore/fearscape.lua"
 section "game/modules/tome/data/lore/fun.lua"
 
 t("trollish poem", "트롤의 시", "_t")
+t([[#{bold}#"Me Likes to Club"
+
+#{italic}#Club club club,
+Grab some grub!
+When hunger hits,
+Me likes to club!
+
+Little halfling,
+Furry feet,
+Smash his brains,
+Tasty meat!
+
+Skinny elf,
+Eyes so blue,
+Crush his bones,
+Make elf stew!
+
+Hairy dwarf,
+Smells like dirt,
+Cook him long,
+Or stomach hurt!
+
+Stupid human,
+Has no fear,
+Looks surprised,
+When me eats his ear!
+
+Club club club,
+Grab some grub!
+When hunger hits,
+Me likes to club!#{normal}#]], [[#{bold}#"나 몽둥이 조아"
+
+#{italic}#몽둥이 몽둥이 몽둥이,
+음식을 찾자!
+배고픔 때리면,
+나 몽둥이 좋다!
+
+쪼끄만 하플링,
+털난 발,
+뚝배기를 때리면,
+마싯는 고기!
+
+말라깽이 엘프,
+파란 눈,
+사골을 때리면,
+오! 엘프 스튜!
+
+북슬북슬 드워프,
+흙냄새가 나,
+오랫동안 요리하거나,
+배가 아퍼!
+
+멍청한 인간,
+겁대가리 없어,
+귀를 냠냠할 때,
+놀란 얼굴을 봐!
+
+음식을 찾자!
+배고픔 때리면,
+나 몽둥이 좋다!!#{normal}#]], "_t")
 t("necromancer poem", "강령술사의 시", "_t")
 t("of halfling feet", "하플링의 발에 대해", "_t")
 t("misc", "도구", "newLore category")
@@ -16016,36 +16339,36 @@ t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "%d �
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/spellbinding.lua"
 
-t("Empower", "시간의 힘 부여", "talent name")
+t("Empower", "부여", "talent name")
 t([[Empowers the selected chronomancy spell, increasing spellpower when casting it by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
-		Current Empowered Spell: %s]], [[선택한 시공 제어 주문에 시간의 힘을 부여합니다. 해당 주문을 시전할 때 주문력이 %d%% 상승합니다.
+		Current Empowered Spell: %s]], [[시공 제어 주문을 하나 선택합니다. 선택한 주문을 시전할 때 주문력이 %d%% 상승합니다.
 		하나의 주문에 주문 엮음을 여러 번 중첩할 수 없습니다.
 		
 		현재 부여된 주문 : %s]], "tformat")
-t("Extension", "시간의 힘 연장", "talent name")
+t("Extension", "연장", "talent name")
 t([[Extends the duration of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
-		Current Extended Spell: %s]], [[선택한 시공 제어 주문에 시간의 힘을 확장합니다. 해당 주문을 시전할 때 지속시간이 %d%% 연장됩니다.
+		Current Extended Spell: %s]], [[시공 제어 주문을 하나 선택합니다. 선택한 주문은 지속시간이 %d%% 연장됩니다.
 		하나의 주문에 주문 엮음을 여러 번 중첩할 수 없습니다.
 		
 		현재 확장된 주문: %s]], "tformat")
-t("Matrix", "시간의 힘 정렬", "talent name")
+t("Matrix", "정렬", "talent name")
 t([[Reduces the cooldown of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
-		Current Matrix Spell: %s]], [[선택한 시공 제어 주문에 시간의 힘을 정렬합니다. 해당 주문을 시전할 때 재사용 대기시간이 %d%% 단축됩니다.
+		Current Matrix Spell: %s]], [[시공 제어 주문을 하나 선택합니다. 선택한 주문은 재사용 대기시간이 %d%% 단축됩니다.
 		하나의 주문에 주문 엮음을 여러 번 중첩할 수 없습니다.
 		
 		현재 정렬된 주문: %s]], "tformat")
-t("Quicken", "시간의 힘 가속", "talent name")
+t("Quicken", "가속", "talent name")
 t("None", "없음", "_t")
 t([[Reduces the casting speed of the selected chronomancy spell by %d%%.
 		Each spell can only be spellbound in one way at a time.
 		
-		Current Quickened Spell: %s]], [[선택한 시공 제어 주문에 시간의 힘을 가속합니다. 해당 주문을 시전할 때 주문 시전에 걸리는 시간이 %d%% 단축됩니다.
+		Current Quickened Spell: %s]], [[시공 제어 주문을 하나 선택합니다. 선택한 주문의 시전 속도가 %d%% 더 빨라집니다.
 		하나의 주문에 주문 엮음을 여러 번 중첩할 수 없습니다.
 		
 		현재 가속된 주문: %s]], "tformat")
@@ -16274,7 +16597,7 @@ t("What the... ugh.", "이게 대체 무슨...", "_t")
 t("Transport yourself to a safe place for %d turns.", "안전한 곳으로 %d 턴 동안 이동합니다.", "tformat")
 t("Echoes From The Past", "과거의 메아리", "talent name")
 t([[Creates a temporal echo in a radius of %d around you.  Affected targets take %0.2f temporal damage, as well as up to %d%% of the difference between their current life and max life as additional temporal damage.
-		The additional damage will be divided by the target's rank and the damage scales with your Spellpower.]], [[반경 %d 칸에 시간의 메아리를 퍼뜨려, 범위 내의 적들에게 %0.2f 시간 피해를 주고, 감소한 생명력의 %d%% 에 해당하는 시간 피해를 추가로 줍니다.
+		The additional damage will be divided by the target's rank and the damage scales with your Spellpower.]], [[반경 %d 칸에 시간의 메아리를 퍼뜨려, 범위 내의 적들에게 %0.2f 시간 피해를 주고, 잃은 생명력의 %d%% 에 해당하는 시간 피해를 추가로 줍니다.
 		추가 피해는 목표의 등급에 의해 나누어지며 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -20933,7 +21256,7 @@ t([[Focus energies into a beam to lash all creatures in a line with physical for
 		The damage will scale with your Mindpower.]], [[에너지를 집중하여, 직선 내의 모든 적에게 물리 피해를 입히는 광선을 발사합니다. %d 물리 피해를 가하고 2 턴 동안 불균형을 적용합니다 (모든 피해량 감소 15%%).
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Pyrokinesis", "염화", "talent name")
-t("Telekinetically energize the matter of all foes within %d squares at the molecular level, setting them ablaze. This does %0.1f fire damage over six turns.", "%d 칸 사각혐 범위 내에 있는 모든 적의 육신을 분자 단위에서 가열하여 불타오르게 만듭니다. %0.1f 화염 피해를 6 턴에 걸쳐 입힙니다.", "tformat")
+t("Telekinetically energize the matter of all foes within %d squares at the molecular level, setting them ablaze. This does %0.1f fire damage over six turns.", "%d 칸 사각형 범위 내에 있는 모든 적의 육신을 분자 단위에서 가열하여 불타오르게 만듭니다. %0.1f 화염 피해를 6 턴에 걸쳐 입힙니다.", "tformat")
 t("Brain Storm", "뇌파 폭풍", "talent name")
 t([[Mentally focus electricity into a ball of plasma and hurl it at the target.
 		The plasma will explode on impact, dealing %0.1f Lightning damage within radius %d.
@@ -21004,7 +21327,7 @@ t([[You learn to devote a portion of your attention to mentally swatting, grabbi
 		If you choose, you can use your mind to grab all projectiles within radius 10 of you and hurl them toward any location within range %d of you, but this will break your concentration.
 		To do this, deactivate this sustained talent.]], [[정신력의 일부를 할애해 날아드는 투사체를 염력으로 튕겨내고, 잡고, 되돌려 보내는 법을 배웁니다.
 		당신을 대상으로 한 모든 투사체는 %d%% 확룰로 반경 %d 칸 내의 다른 위치로 향하고, %d%% 느리게 날아갑니다.
-		정신의 힘을 아용하여, 시전자를 기준으로 반경 10 칸 내의 모든 투사체를 붙잡아 반경 %d 칸 내의 특정한 위치에 쏟아 부울 수 있습니다. 하지만 이는 당신의 정신집중을 방해할 것입니다.
+		정신의 힘을 이용하여, 시전자를 기준으로 반경 10 칸 내의 모든 투사체를 붙잡아 반경 %d 칸 내의 특정한 위치에 쏟아 부을 수 있습니다. 하지만 이는 당신의 정신 집중을 방해할 것입니다.
 		이 기술을 비활성해 당신 주변의 투사체를 조종하십시오.]], "tformat")
 t("Implode", "내파", "talent name")
 t([[Bind the target mercilessly with constant, bone-shattering pressure, pinning and slowing it by 50%% for %d turns and dealing %0.1f Physical damage each turn.
@@ -21432,7 +21755,7 @@ t([[For %d turns your pyrokinesis transcends your normal limits, increasing your
 		열역학 아우라의 범위는 1 칸 늘어납니다.
 		열역학 보호막의 흡수 효율이 100%% 가 되어, 평상시의 2 배의 피해를 흡수합니다
 		염화는 화염 충격 효과가 적용됩니다.
-		열역학 흡수에 대상의 피해량 감소 %d%%가 적용됩니다.
+		열역학 흡수에 대상의 피해량 감소 %d%% 가 적용됩니다.
 		열역학 강타에 반경 1 칸의 부가적인 냉기/화염 폭발이 일어납니다.
 		화염과 냉기 피해 상승량과 화염과 냉기 저항 관통치는 정신력에 비례하여 증가합니다.
 		한번에 단 하나의 '초월' 기술만을 사용할 수 있습니다.]], "tformat")
@@ -21457,7 +21780,7 @@ t([[You seek balance between fire and cold based on your current Psi level.
 		The damage scales with your Mindpower.]], [[당신은 현재 염력 수치에 따라 화염과 냉기의 균형을 구도합니다.
 		%d 칸 반경의 적들에게 현재 남은 염력에 따른 %0.1f 화염 피해를 주고, 소모한 염력에 따른 %0.1f 냉기 피해를 줍니다. (최대 염력 - 현재 염력)  
 		이를 통해 현재 염력을 최대 염력의 절반으로 조정합니다.
-		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat", {3,1,2})
 
 
 ------------------------------------------------

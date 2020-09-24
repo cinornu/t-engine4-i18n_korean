@@ -520,6 +520,10 @@ t("yeti", "예티", "entity subtype")
 section "game/dlcs/tome-orcs/data/general/npcs/hethugoroth.lua"
 
 t("elemental", "정령", "entity type")
+t("vapour", "증기", "entity subtype")
+t("hethugoroth", "헤수고로스", "entity name")
+t("greater hethugoroth", "고위 헤수고로스", "entity name")
+t("ultimate hethugoroth", "궁극의 헤수고로스", "entity name")
 
 
 ------------------------------------------------
@@ -656,9 +660,9 @@ t("reduces mental save", "정신 내성 감소", "_t")
 t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "반경 %d 칸 내의 한 대상을 %d 턴 동안 정신적으로 지배하거나, 물리적으로 기절시킵니다 (대상의 면역력에 영향을 받고, 성공률은 정신력에 비례합니다)", "tformat")
 t("#Source# psychically dominates #target# through %s %s!", "#Source1# %s %s 통해 #target3# 물리적으로 지배했다!", "logCombat", nil, {[2]="를"})
 t("crystallized drake heart", "결정화된 용족의 심장", "_t")
-t("Ureslak's Focus", "우르슐락의 집중", "entity name")
+t("Ureslak's Focus", "우르슬랙의 집중", "entity name")
 t("multi-hued", "다색", "entity subtype")
-t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슐락의 시체에서 떨어저 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정중에 그의 심장이 강렬한 빛을 발하는 수정으로 변한 것 같습니다.", "_t")
+t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슬랙의 시체에서 떨어저 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정중에 그의 심장이 강렬한 빛을 발하는 수정으로 변한 것 같습니다.", "_t")
 t("Starcaller", "별부르미", "entity name")
 t("black staff", "검은 지팡이", "_t")
 t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "스트라라이트와 보석으로 세공된 빛의 지팡이입니다. 한 낮에서도 별빛을 비추는 것 같습니다.", "_t")
@@ -1522,7 +1526,7 @@ t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed
 t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "인간과 엘프, 그리고 하플링들은 당신의 동포들을 두 번 다시 해치지 못할 것입니다. 당신은 장거리 차원문을 파괴하고 톨락 국왕의 군사들과 영광스러운 전투를 치르는 것을 거부함으로써 왕국연합으로부터 동포들의 안전을 확보했습니다. 또한 아침의 문을 기습하여, 증오를 품은 채로 바르'에이알에 남아 있던 서방의 자들을 모두 제거하였습니다.", "_t")
 t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "  잃어버린 도시에서 받은 메시지들은 그들이 경고했던 존재들, 그리고 경고한 본인들에 대한 경계심을 바짝 키웠습니다. 또한 당신은 이제 절멸의 위기에서 벗어나려 발버둥 칠 필요가 없어진 동포들이 무엇을 하게 될지 궁금해졌습니다. 당신의 종족은 유사 이래로 투쟁만을 위해 살아왔지만, 이제 그걸 걱정할 필요가 없어졌으니 말입니다.", "_t")
 t("For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "최소한 지금은, 평화가 찾아왔습니다. 이게 영원하진 않을 것이라는 걸 당신도 잘 알고 있습니다. 카르'하이브 자치령의 선봉대를 물리치긴 했지만 그들은 여전히 약점을 노리며 적절한 때를 기다리고 있을 것이고, 마즈'에이알에서 온 밀수꾼들의 장거리 차원문도 찾아내지 못한 상태이며, 당신이나 톨락 왕이나 상대방의 대륙을 정복하려는 생각은 없지만 그럼에도 침공해 올 수도 있다는 두려움이 여전히 당신의 뇌리에 남아 있을 것입니다.", "_t")
-t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "아무튼... 당신은 방금 신을 죽였고, 당신의 동포들에게 수천년의 역사 동안 처음으로 편안하게 쉴 기회를 준 겁니다. 오늘은 꽤나 멋진 날이 되겠네요.", "_t")
+t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "아무튼... 당신은 방금 신을 죽였고, 당신의 동포들에게 수천년의 역사 동안 처음으로 편안하게 쉴 기회를 준 겁니다. 오늘은 꽤나 멋진 날이네요.", "_t")
 t("You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "계속해서 플레이해, 이 세계의 나머지 부분을 즐길 수도 있습니다. 당신의 부하들이 밖에서 이야기 좀 하자고 하네요...", "_t")
 
 
@@ -1530,68 +1534,181 @@ t("You may continue playing and enjoy the rest of the world.  Your soldiers may 
 section "game/dlcs/tome-orcs/data/quests/annihilator.lua"
 
 t("Research. Tinker. Annihilate.", "연구. 발명. 섬멸.", "_t")
+t("Inside some of your foes you have found some intact pieces that give you new ideas.", "적들의 잔해에서 새로운 영감을 주는, 전혀 손상되지 않은 부품들을 발견했습니다.", "_t")
+t("Keep on killing mechanical contraptions or steam-related foes...", "기계 장치들이나 증기 기술을 사용하는 적들을 더 많이 죽여 봅시다...", "_t")
+t("#LIGHT_GREEN#* You destroyed a mecharachnid equiped with a flamethrower. Both those things could prove very useful.#WHITE#", "#LIGHT_GREEN#* 화염방사기를 장착하고 있던 강철 거미를 파괴했습니다. 무기는 물론이고 거미 자체도 굉장히 쓸만해 보입니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have studied the 'remains' of an greater or ultimate hethugoroth, providing new ideas for ways to annihilate with heat.#WHITE#", "#LIGHT_GREEN#* 고위, 또는 궁극의 헤수고로스가 '남긴' 것을 연구했고, 열기를 활용하여 지워버리는 방법의 아이디어를 얻었습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The impressive Automated Defense System remains will prove very useful to create automated and self-deploying constructs.#WHITE#", "#LIGHT_GREEN#* 훌륭한 자동 방어 시스템의 잔해는 자동적으로 작동하는 구조물을 만들어내는 데 큰 도움이 될 것입니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/destroy-sunwall.lua"
 
+t("The Deconstruction of Falling Stars", "추락하는 별의 해체", "_t")
+t([[The people of the sunwall have lingered on this land for too long and now they are spreading their control to all the mainland. This must not be allowed!
+With the help of their newfound allies in the west they keep a permanent guard over the farportal. The portal must be permanently destroyed to prevent reinforcements.
+The leader of the Sunwall, High Sun Paladin Aeryn must be punished for her crimes against the Prides.]], [[태양의 장벽의 사람들은 이 땅에 너무 오래 남아 있었고, 이제 이 대륙 전체를 손에 넣으려 하고 있습니다. 용납할 수 없는 일입니다!
+서방에서 온 자들의 도움으로, 그들은 장거리 차원문을 밤낮으로 지키고 있습니다. 적의 증원을 차단하기 위해서는 그 차원문을 영영 파괴해야만 합니다.
+태양의 장벽의 지도자, 고위 태양의 기사 아에린은 자신이 오크 긍지들에 저지른 죗값을 치러야 할 것입니다.]], "_t")
+t("#LIGHT_GREEN#* You have killed Aeryn, making sure no more troops will come from the west.#WHITE#", "#LIGHT_GREEN#* 아에린을 죽였고, 서방의 자들이 더 이상 이쪽으로 넘어오지 못하도록 했습니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/free-prides.lua"
 
 t("Children of Garkul, Unite!", "가르쿨의 후예들이여, 단결하라!", "_t")
+t("All the few remaining orcs of the mainland have been captured by Sunwall and their western allies.", "이 땅에 남아 있던 몇 안되는 오크들은 모두 태양의 장벽과 그들의 서방 동맹에게 붙잡혀 버렸습니다.", "_t")
+t("To ensure a future, any future, for our race they must be freed.", "종족의 미래를 위해, 그것이 어떤 미래든간에, 그들은 자유로워져야 합니다.", "_t")
+t("The internment camp is located somewhere to the north. The orcs are subdued into obedience by a powerful #{halfling}# psionic, Mindwall, and guarded by elite Sunwall troops.", "북쪽 어딘가에 수용소가 있습니다. 그곳의 오크들은 강력한 초능력자인 마인드월에게 지배당하고 있고, 태양의 장벽의 정예병들이 그곳을 지키고 있습니다.", "_t")
+t("Mindwall must be taken care of and the prides set free.", "마인드월을 처리하여 긍지들을 해방해야 합니다.", "_t")
+t("But #{bold}#BEFORE#{normal}# that you should go and destroy the Sunwall Observatory to the east, as our spies have found a way to resist Mindwall's psionic powers which requries #{italic}#ingredients#{normal}# from there.", "하지만 #{bold}#그 전에#{normal}# 동쪽의 태양의 장벽 관측소를 파괴해야 합니다. 우리 측 첩자가 마인드월의 정신 공격에 저항할 수 있는 방법을 찾아냈고, 그 #{italic}#재료#{normal}#가 관측소에 있다고 합니다.", "_t")
+t("#LIGHT_GREEN#* You have destroyed Mindwall body but he managed to split his mind into many pieces and taken direct control of the subdued orcs. Destroy the pillars in each level four other levels.#WHITE#", "#LIGHT_GREEN#* 마인드월의 몸을 파괴했지만, 그는 자신의 정신을 여러 조각으로 나누어 오크들을 직접 지배하고 있습니다. 네 개의 구역에 각각 배치되어 있는 기둥을 파괴하세요.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have freed all the Vor Pride orcs.#WHITE#", "#LIGHT_GREEN#* 보르 긍지의 오크들을 모두 해방했습니다.#WHITE#", "_t")
+t("#GREY#* You need to have free the Vor Pride orcs.#WHITE#", "#GREY#* 보르 긍지의 오크들을 해방해야 합니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have freed all the Rak'Shor Pride orcs.#WHITE#", "#LIGHT_GREEN#* 락'쇼르 긍지의 오크들을 모두 해방했습니다.#WHITE#", "_t")
+t("#GREY#* You need to have free the Rak'Shor Pride orcs.#WHITE#", "#GREY#* 락'쇼르 긍지의 오크들을 해방해야 합니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have freed all the Gorbat Pride orcs.#WHITE#", "#LIGHT_GREEN#* 고르뱃 긍지의 오크들을 모두 해방했습니다.#WHITE#", "_t")
+t("#GREY#* You need to have free the Gorbat Pride orcs.#WHITE#", "#GREY#* 고르뱃 긍지의 오크들을 해방해야 합니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have freed all the Grushnak Pride orcs.#WHITE#", "#LIGHT_GREEN#* 그루쉬낙 긍지의 오크들을 모두 해방했습니다#WHITE#", "_t")
+t("#GREY#* You need to have free the Grushnak Pride orcs.#WHITE#", "#GREY#* 그루쉬낙 긍지의 오크들을 해방해야 합니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The Pride is once again free and united.#WHITE#", "#LIGHT_GREEN#* 긍지들은 다시 자유로워졌고, 단결했습니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/gem.lua"
 
+t("Mole Down, Two To Go", "저 밑에 두 놈 더 남았다", "_t")
+t("As you left the Gates of Morning in ruins you noticed a strange powerful tremor that seems to come from nearby.", "아침의 문을 파괴하고 나오자, 근처에서 이상할 정도로 강한 지진이 일어났습니다.", "_t")
+t("Investigating you have found a huge mechanical mole of obvious steam giant origin.", "근처를 조사하여 증기 거인들의 것이 확실한 거대 굴착기를 발견했습니다.", "_t")
+t("#LIGHT_GREEN#* You have crushed both the horrors and the giants, making sure no precious information will come back to the Palace of Fumes.#WHITE#", "#LIGHT_GREEN#* 공포들과 거인들 둘 다 쳐부숴, 연기의 궁전 측이 이곳에서 정확히 무슨 일이 벌어졌는지 알 수 없도록 만들었습니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/kaltor-shop.lua"
 
+t("The Grumpy Shopowner", "성격 더러운 주인장", "_t")
+t("Kaltor's shop seems to be nearby in the mountain. Maybe it could be interesting to pay him a visit?", "칼토르의 가게가 근처 산에 있는 것 같습니다. 그를 찾아가 거래를 해 보는 것도 나쁘진 않을지도요?", "_t")
+t("He does sound well armed, though, so be prepared as it is likely very dangerous.", "하지만 잘 무장한 것 같고, 따라서 매우 위험할 수도 있으니 조심하세요.", "_t")
+t("So maybe take some time to plan the raid.", "습격할 거라면 계획을 잘 세워야 할 겁니다.", "_t")
+t("#LIGHT_GREEN#* You have disposed of Kaltor, the loot is yours!#WHITE#", "#LIGHT_GREEN#* 칼토르를 제거했습니다. 그의 물건은 다 당신 겁니다!#WHITE#", "_t")
+t("#PURPLE#You heard a loud noise!", "#PURPLE#시끄러운 소음을 들었다!", "saySimple")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/kill-dominion.lua"
 
+t("This is our land!", "여긴 우리 땅이다!", "_t")
+t("A group of trolls from the Kar'Haïb Dominion is trying to take foot on the mainland.", "카르'하이브 자치령의 트롤 무리가 본토에 발을 들이려 하고 있습니다.", "_t")
+t("With the Sunwall at full force we can not have the luxury of having to fight on both fronts, the Dominion port of the south must be destroyed.", "우린 태양의 장벽과의 싸움에 전력을 다하고 있기 때문에 양면으로 싸울 순 없습니다. 그러므로 남쪽의 자치령 항구를 반드시 파괴해야 합니다.", "_t")
+t("A potent bomb was given to you, you must place it at a weak spot of the tower where it will detonate and destroy the port.", "당신은 강력한 폭탄을 얻었습니다. 그 폭탄을 항구 안쪽 탑의 약한 부분에 설치하여, 항구를 파괴하세요.", "_t")
+t("It would be a good idea for you to not be there anymore when the bomb explodes however.", "폭탄이 터지기 전에 자리를 피하는 게 좋을 겁니다.", "_t")
+t("#LIGHT_GREEN#* You have destroyed the Dominion port, the trolls will not be a problem in the near future.#WHITE#", "#LIGHT_GREEN#* 자치령 항구를 파괴했고, 트롤들은 당분간은 별다른 골칫거리가 되지 못할 겁니다.#WHITE#", "_t")
+t("Tower Detonator", "탑에 쓸 폭탄", "_t")
+t("This bomb was tailored to weaken the structure of the Dominion's port tower. If placed at the right spot it will explode after 100 turns and destroy the whole port.", "자치령 항구에 있는 탑의 구조를 약화시키기 위한 폭탄입니다. 적절한 장소에 설치하면 100 턴 후에 폭발하여 항구 전체를 파괴할 겁니다.", "_t")
+t("place the bomb on the structural weakness.", "구조적 취약점에 폭탄을 설치합니다.", "_t")
+t("You must first locate the structural weakness in the Dominion's port tower.", "먼저 자치령 항구 탑의 구조적 취약점으로 가야 합니다.", "_t")
+t("Sewer Detonator", "곧 폭발합니다", "_t")
+t([[You place the detonator, you have 100 turns to get out or be destroyed by the explosion.
+Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[폭탄을 설치했습니다. 100 턴 내로 탈출하지 않으면 폭발에 휘말려 가루가 될 겁니다.
+#{bold}##GOLD#귀환의 장대#LAST##{normal}#를 사용하세요!]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/krimbul.lua"
 
+t("Clan of the Unicorn", "유니콘 혈족", "_t")
+t("Metash has asked you to investigate the Krimbul Clan, south of the peninsula.", "메타쉬가 반도 남쪽의 크림불 혈족을 조사해 달라고 부탁했습니다.", "_t")
+t("A whitehoof turned mad with power is trying to lead them in a war against Kruk Pride.", "힘에 미친 화이트후프 하나가 혈족을 이끌고 크룩 긍지를 공격하려 한다고 합니다.", "_t")
+t("#LIGHT_GREEN#* You have stopped the pitiful Nektosh, ensuring one less threat for the Pride and a future for the Whitehooves.#WHITE#", "#LIGHT_GREEN#* 불쌍한 네크토쉬를 저지했고, 긍지와 화이트후프들의 미래에 위협이 될 존재를 하나 줄였습니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/kruk-invasion.lua"
 
+t("Homeland", "고향", "_t")
+t("The giants have breached the mountain-side of Kruk pride!", "거인들이 크룩 긍지 옆쪽의 산에 굴을 뚫어냈습니다!", "_t")
+t("They are invading the town just when most of our forces are outside.", "놈들은 우리 주 병력이 없을 때를 노려 쳐들어왔습니다.", "_t")
+t([[Only you and few others are left to close the breach by collapsing the tunnel from the inside.
+]], [[지금 남은 건 당신을 빼면 몇 명 뿐입니다. 터널로 들어가 안쪽에서부터 무너뜨리세요.
+]], "_t")
+t("#LIGHT_GREEN#* You have collapsed the tunnel, saving the Pride. For now.#WHITE#", "#LIGHT_GREEN#* 터널을 무너뜨려 긍지를 구해냈습니다. 지금은요.#WHITE#", "_t")
+t("#LIGHT_GREY#* You must place the bomb at the end of the tunnel to destroy it.#WHITE#", "#LIGHT_GREY#* 터널의 안쪽 끝부분에 폭탄을 설치해 무너뜨려야 합니다.#WHITE#", "_t")
+t("This bomb was tailored to crumble the tunnel used by the Steam Giants to invade Kruk Pride.", "거인들이 크룩 긍지를 침공하기 위해 뚫은 터널을 무너뜨리기 위한 폭탄입니다.", "_t")
+t("Cave Detonator", "동굴에 쓸 폭탄", "_t")
+t([[You place the detonator, you have 220 turns to get out or be destroyed by the explosion.
+Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[폭탄을 설치했습니다. 220 턴 내로 탈출하지 않으면 폭발에 휘말려 가루가 될 겁니다.
+#{bold}##GOLD#귀환의 장대#LAST##{normal}#를 사용하세요!]], "_t")
+t("#LIGHT_GREEN#Kruk Pride is safe for now. Now is time for revenge!", "#LIGHT_GREEN#크룩 긍지는 당장은 안전해졌다. 이제 복수의 시간이다!", "saySimple")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/palace.lua"
 
+t("No Fumes Without Fire", "불길 없이는 연기도 없다", "_t")
+t("The time for revenge is at hand! The Tribe stands crippled under your assaults.", "복수의 시간이 다가왔습니다! 아트모스 부족은 당신의 맹공으로 심각한 타격을 입었습니다.", "_t")
+t("Enter the Palace of Fumes and crush their leaders once and for all!", "연기의 궁전으로 가서 놈들의 지도자들을 완전히 박살내세요!", "_t")
+t("For Kruk!", "크룩을 위하여!", "_t")
+t("For the Prides!", "긍지를 위하여!", "_t")
+t("For the Garkul!", "가르쿨을 위하여!", "_t")
+t("#LIGHT_GREEN#* Council Member Nashal is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 나샬은 죽었습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Council Member Tormak is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 토르막은 죽었습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Council Member Pendor is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 펜도르는 죽었습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Council Member Palaquie is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 팔라퀴는 죽었습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 탄탈로스는 죽었습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "#LIGHT_GREEN#* 아트모스 평의회를 박살내고 부족을 파괴했습니다.#WHITE#", "_t")
+t("What is all this noise about!", "이게 무슨 소란이냐!", "_t")
+t("Tantalos! What have you done!", "탄탈로스! 대체 무슨 짓을 한 거냐!", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/quarry.lua"
 
+t("Hunter, Quarry", "채굴장 사냥", "_t")
+t("The Steam Quarry is a strategic zone for the Atmos tribe, it provides them with much of their energy needs.", "증기 채굴장은 아트모스 부족의 군사적 요충지입니다. 엄청난 에너지를 생산하는 곳이죠.", "_t")
+t("If you are to assault the Palace of Fumes you need to cut that supply off. Destroy the three giant steam valves to make the Palace vulnerable.", "연기의 궁전을 공격할 생각이라면, 먼저 보급선을 끊어야 합니다. 세 개의 거대 증기 밸브를 파괴해 궁전을 취약하게 만드세요.", "_t")
+t("#LIGHT_GREEN#* The first valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* 첫 번째 밸브가 파괴되었습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The second valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* 두 번째 밸브가 파괴되었습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* 세 번째 밸브가 파괴되었습니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/ritch-hive.lua"
 
+t("A Ritch Party", "릿치 파티", "_t")
+t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "우리의 궁극적인 목표는 본토에서 태양의 장벽을 완전히 없애버리는 것입니다.", "_t")
+t("To do that we will prepare a special surprise to help our final attack.", "그러기 위해서 마지막 순간에 도움을 줄 깜짝 선물을 준비할 겁니다.", "_t")
+t("Go to the Ritch Hive in the mountains north of the Erúan desert and collect a big pile of ritch eggs.  About 30 viable eggs should be sufficient.", "에류안 사막 북쪽 산 속의 릿치 군락으로 가서 릿치 알을 많이 모으세요. 30개 정도면 충분할 겁니다.", "_t")
+t("When you have enough, find a tunnel leading north and use the special sand shredder gloves tinker to open a path under the Gates of Morning.", "알을 충분히 모았으면, 북쪽으로 이어진 터널을 찾아 특별한 모래 분쇄 장갑을 이용해 아침의 문 아래쪽까지 굴을 파세요.", "_t")
+t("Finally, place the eggs in a protected spot to hatch.  With luck, they will provide a distraction while you later assault the city.", "마지막으로, 알이 잘 깰 수 있도록 놓아두세요. 운이 좋으면, 나중에 아침의 문을 공격할 때 시선을 끌어줄지도 모릅니다.", "_t")
+t("#LIGHT_GREEN#* You have collected enough eggs.#WHITE#", "#LIGHT_GREEN#* 알을 충분히 모았습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have tunnelled close enough to the Gates of Morning.#WHITE#", "#LIGHT_GREEN#* 아침의 문에 가까운 곳까지 굴을 파냈습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "#LIGHT_GREEN#* 조그만 깜짝 선물을 설치했습니다.#WHITE#", "_t")
+t("Stralite Sand Shredder", "스트랄라이트 모래 분쇄기", "_t")
+t("Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "모래벽을 치면 자동적으로 커다란 드릴을 만들어내 바로 집채만한 구멍을 뚫어 줍니다.", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/start-orc.lua"
 
+t("Of Steamwork and Pain", "증기기관과 고통", "_t")
+t([[To win the war you must help the Pride by striking a blow to the giant's morale and supply lines.
+]], [[전쟁에서 이기기 위해선, 거인들의 사기를 꺾고 보급선을 차단하여 긍지를 도와야 합니다.
+]], "_t")
+t("#LIGHT_GREEN#* You have assaulted the Vaporous Emporium, crushing the morale of the Atmos tribe.#WHITE#", "#LIGHT_GREEN#* 증기 상업지구를 공격하여 아트모스 부족의 사기를 꺾었습니다.#WHITE#", "_t")
+t("#SLATE#* You must assault the Vaporous Emporium to crush the morale of the Atmos tribe!#WHITE#", "#SLATE#* 증기 상업지구를 공격해 아트모스 부족의 사기를 꺾어 놔야 합니다!#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have explored the yeti cave and vanquished the Yeti Patriarch.#WHITE#", "#LIGHT_GREEN#* 예티 동굴을 탐험하고 예티 족장을 무찔렀습니다.#WHITE#", "_t")
+t("#SLATE#* You must explore the Yeti Cave and destroy the patriarch!#WHITE#", "#SLATE#* 예티 동굴을 탐험해서 놈들의 족장을 박살내야 합니다!#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/sunwall-observatory.lua"
 
+t("Stargazers", "별을 보는 자들", "_t")
+t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "우리의 궁극적인 목표는 본토에서 태양의 장벽을 완전히 없애버리는 것입니다.", "_t")
+t("Our scouts have noticed the Gates of Morning is being reinforced with sun and moon orbs.", "우리 정찰병들이 알아낸 바로는, 아침의 문은 태양과 달의 오브의 보호를 받고 있습니다.", "_t")
+t("Go to the Sunwall Observatory and destroy everything there to reduce their supplies.", "태양의 장벽 관측소로 가서 보이는 걸 전부 박살내세요.", "_t")
+t("#LIGHT_GREEN#* You have destroyed the Observatory, the Gates of Morning defenses will be weakened.#WHITE#", "#LIGHT_GREEN#* 관측소를 파괴했고, 아침의 문의 방어는 약해질 것입니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
@@ -4972,7 +5089,7 @@ t("#DARK_BLUE#This helm is your birthright! Deathright? Whichever.", "#DARK_BLUE
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/krimbul/zone.lua"
 
-t("Krimbul Territory", "크림불 부족의 영토", "_t")
+t("Krimbul Territory", "크림불 혈족의 영토", "_t")
 
 
 ------------------------------------------------
@@ -5533,7 +5650,7 @@ t("bridge to the mainland", "본토로 가는 다리", "entity name")
 t("Kruk Pride (Town)", "크룩 긍지 (마을)", "entity name")
 t("The last free Pride of the Orcs", "오크 최후의 자유로운 긍지입니다.", "_t")
 t("Entrance to the Yeti Caves", "예티 동굴의 입구", "entity name")
-t("Entrance to Krimbul territory", "크림불 부족 영토의 입구", "entity name")
+t("Entrance to Krimbul territory", "크림불 혈족 영토의 입구", "entity name")
 t("Entrance to the Vaporous Emporium", "증기 상업지구의 입구", "entity name")
 t("Huge door to Kaltor's Shop", "칼토르의 가게의 거대한 대문", "entity name")
 t("Entrance to the Sunwall Outpost", "태양의 장벽 전초기지의 입구", "entity name")

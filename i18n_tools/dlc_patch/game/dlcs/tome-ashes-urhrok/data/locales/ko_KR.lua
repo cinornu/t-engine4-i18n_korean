@@ -877,7 +877,7 @@ t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal
 		추가로, 공격 시, %d%% 확률로 강렬한 화염 폭발을 일으켜, 반경 %d 칸 내의 모든 적에게 %d 턴에 걸쳐 %0.2f 화염 피해를 가합니다.
 		이 기술이 재사용 대기시간이 아닐 시, 화염 폭발의 범위가 %d 칸이 되고, 폭발에 휘말린 적은 기절하고 화상을 입게됩니다.
 		기절 성공 여부를 판정할 때, 시전자는 추가적인 %d 주문력을 가진 것으로 간주됩니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {1,3,4,2,5,6,7})
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {1,2,4,5,3,6,7})
 t("Abduction", "납치", "talent name")
 t("Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", "대상을 공격해 %d%% 무기 피해를 가합니다. 명중 시, 대상을 끌여들이고 한번 더 공격하여, %d%% 무기 피해를 추가로 가합니다.", "tformat")
 t("Fiery Torment", "불타는 고문", "talent name")
