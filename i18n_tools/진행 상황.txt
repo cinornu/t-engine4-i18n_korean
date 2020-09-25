@@ -171,7 +171,7 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
------------------------------- 이하 EoR data/chats ---------------------------------
+------------------------------ 이하 EoR data/chats (완역) ---------------------------------
 
 "game/dlcs/tome-orcs/data/chats/aaa.lua"
 "game/dlcs/tome-orcs/data/chats/aaf.lua"
@@ -182,7 +182,10 @@
 "game/dlcs/tome-orcs/data/chats/kaltor-entry.lua"
 "game/dlcs/tome-orcs/data/chats/kaltor-shop.lua"
 "game/dlcs/tome-orcs/data/chats/kruk-tinker-shop.lua"
-"game/dlcs/tome-orcs/data/chats/metash.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/chats/metash.lua"
+"game/dlcs/tome-orcs/data/chats/phonograph.lua"
+"game/dlcs/tome-orcs/data/chats/shertul-priest.lua"
+"game/dlcs/tome-orcs/data/chats/weissi-machine.lua" Khelerd 완
 
 ------------------------------ 이상 EoR data/chats ---------------------------------
 
