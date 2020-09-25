@@ -171,15 +171,58 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
------------------------------- 이하 EoR data/chats ---------------------------------
+------------------------------ 이하 EoR data/chats (완역) ---------------------------------
 
 "game/dlcs/tome-orcs/data/chats/aaa.lua"
 "game/dlcs/tome-orcs/data/chats/aaf.lua"
-"game/dlcs/tome-orcs/data/chats/destructicus-lead.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/chats/destructicus-lead.lua"
+"game/dlcs/tome-orcs/data/chats/destructicus.lua"
+"game/dlcs/tome-orcs/data/chats/john-surrender.lua"
+"game/dlcs/tome-orcs/data/chats/john-worldmap.lua"
+"game/dlcs/tome-orcs/data/chats/kaltor-entry.lua"
+"game/dlcs/tome-orcs/data/chats/kaltor-shop.lua"
+"game/dlcs/tome-orcs/data/chats/kruk-tinker-shop.lua"
+"game/dlcs/tome-orcs/data/chats/metash.lua"
+"game/dlcs/tome-orcs/data/chats/phonograph.lua"
+"game/dlcs/tome-orcs/data/chats/shertul-priest.lua"
+"game/dlcs/tome-orcs/data/chats/weissi-machine.lua" Khelerd 완
 
------------------------------- 이상 EoR data/chats ---------------------------------
+------------------------------ 이하 EoR 팩션, 인카운터, 이벤트, 그리드 (완역) ---------------------------------
 
-"game/dlcs/tome-orcs/data/factions.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/factions.lua"
+"game/dlcs/tome-orcs/data/general/encounters/fareast.lua"
+"game/dlcs/tome-orcs/data/general/encounters/maj-eyal.lua"
+"game/dlcs/tome-orcs/data/general/events/AAA.lua"
+"game/dlcs/tome-orcs/data/general/events/campfire.lua"
+"game/dlcs/tome-orcs/data/general/events/drills.lua"
+"game/dlcs/tome-orcs/data/general/events/herbs.lua"
+"game/dlcs/tome-orcs/data/general/events/merchant-stall.lua"
+"game/dlcs/tome-orcs/data/general/events/sewer-alligator-nest.lua"
+"game/dlcs/tome-orcs/data/general/grids/manacave.lua"
+"game/dlcs/tome-orcs/data/general/grids/mechstone.lua"
+"game/dlcs/tome-orcs/data/general/grids/mechwall.lua"
+"game/dlcs/tome-orcs/data/general/grids/slumbering_cave.lua"
+"game/dlcs/tome-orcs/data/general/grids/snow_mountains.lua" Khelerd 완
+
+------------------------------ 이하 EoR data/general/npcs (완역) ---------------------------------
+
+"game/dlcs/tome-orcs/data/general/npcs/alligator.lua"
+"game/dlcs/tome-orcs/data/general/npcs/domestic-yeti.lua"
+"game/dlcs/tome-orcs/data/general/npcs/hethugoroth.lua"
+"game/dlcs/tome-orcs/data/general/npcs/horror.lua"
+"game/dlcs/tome-orcs/data/general/npcs/ritch-extended.lua"
+"game/dlcs/tome-orcs/data/general/npcs/steam-drone.lua"
+"game/dlcs/tome-orcs/data/general/npcs/steam-giant-arcane.lua"
+"game/dlcs/tome-orcs/data/general/npcs/steam-giant-gunner.lua"
+"game/dlcs/tome-orcs/data/general/npcs/steam-giant-warrior.lua"
+"game/dlcs/tome-orcs/data/general/npcs/steam-spiders.lua"
+"game/dlcs/tome-orcs/data/general/npcs/sunwall-mage.lua"
+"game/dlcs/tome-orcs/data/general/npcs/sunwall-warrior.lua"
+"game/dlcs/tome-orcs/data/general/npcs/titan.lua"
+"game/dlcs/tome-orcs/data/general/npcs/troll-pirates.lua"
+"game/dlcs/tome-orcs/data/general/npcs/undead-drake.lua"
+"game/dlcs/tome-orcs/data/general/npcs/whitehooves.lua"
+"game/dlcs/tome-orcs/data/general/npcs/yeti.lua" Khelerd 완
 
 ------------------------------ 이하 EoR data/quests (완역) ---------------------------------
 
