@@ -180,7 +180,9 @@
 "game/dlcs/tome-orcs/data/chats/john-surrender.lua"
 "game/dlcs/tome-orcs/data/chats/john-worldmap.lua"
 "game/dlcs/tome-orcs/data/chats/kaltor-entry.lua"
-"game/dlcs/tome-orcs/data/chats/kaltor-shop.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/chats/kaltor-shop.lua"
+"game/dlcs/tome-orcs/data/chats/kruk-tinker-shop.lua"
+"game/dlcs/tome-orcs/data/chats/metash.lua" Khelerd 완
 
 ------------------------------ 이상 EoR data/chats ---------------------------------
 
