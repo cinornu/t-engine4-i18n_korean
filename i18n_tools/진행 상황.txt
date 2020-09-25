@@ -175,7 +175,12 @@
 
 "game/dlcs/tome-orcs/data/chats/aaa.lua"
 "game/dlcs/tome-orcs/data/chats/aaf.lua"
-"game/dlcs/tome-orcs/data/chats/destructicus-lead.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/chats/destructicus-lead.lua"
+"game/dlcs/tome-orcs/data/chats/destructicus.lua"
+"game/dlcs/tome-orcs/data/chats/john-surrender.lua"
+"game/dlcs/tome-orcs/data/chats/john-worldmap.lua"
+"game/dlcs/tome-orcs/data/chats/kaltor-entry.lua"
+"game/dlcs/tome-orcs/data/chats/kaltor-shop.lua" Khelerd 완
 
 ------------------------------ 이상 EoR data/chats ---------------------------------
 
