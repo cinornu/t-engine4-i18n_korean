@@ -1480,7 +1480,7 @@ Making my way over to the ogre I was quick to treat her wounds. The ogre command
 
 많은 수의 오우거들이 전투 중에 쓰러졌다. 대부분은 하플링에 손에 죽었고, 몇몇 오우거는 죽지는 않았으나 심하게 상처를 입어 우리를 따라오지 못 했다. 또한 겁에 질려 아무것도 하지 못 하다가 따라오지 못 한 오우거들도 있었다. 땅에 엎드려 벌벌 떨던 오우거 여자가 그랬다. 결국 그들은 광신도들의 손아귀에 넘어갔을 것이다. 그들을 구할 수 있는 방법도 없었고, 다른 광신도 무리 또한 이미 전장에 따라붙어 우리를 쫓기 시작했을 것이다. 그리고 끈질기게 우리를 추적할 것이다. 우리는 그들이 보이지 않을 때까지 계속 도망쳤으나, 그 이후로도 계속 멈추지 않고 달렸다. 우리가 멈추었을 때는 부상을 입은 오우거가 결국 버티지 못하고 쓰러져버렸을 때였다.
 
-쓰러진 오우거에게 다가가 서둘러 그녀의 상처를 치료했다. 오우거 대장 또한 어떻게든 살아남았으나, 온 몸에 상처에 가득했기 때문에 내게 다가와 치료를 부탁했다. 참모는 이때부터 지휘를 맡게 되었다. 그는 주입물을 쓰되 벌어진 상처를 닫고 움직일 수 있을 정도로만 써두라고 일렀다. 그 이후로 다시 쉴 기회가 왔을 때 나는 남아있는 주입물로 최대한 치료를 계쏙했다. 그리고 다시 도망치다가, 휴식하고, 다시 달리기를 여러번 반복했다. 하늘에 태양이 뜰 때까지 그런 식의 도피를 계속 반복했던 것 같다.]], "_t")
+쓰러진 오우거에게 다가가 서둘러 그녀의 상처를 치료했다. 오우거 대장 또한 어떻게든 살아남았으나, 온 몸에 상처에 가득했기 때문에 내게 다가와 치료를 부탁했다. 참모는 이때부터 지휘를 맡게 되었다. 그는 주입물을 쓰되 벌어진 상처를 닫고 움직일 수 있을 정도로만 써두라고 일렀다. 그 이후로 다시 쉴 기회가 왔을 때 나는 남아있는 주입물로 최대한 치료를 계속했다. 그리고 다시 도망치다가, 휴식하고, 다시 달리기를 여러번 반복했다. 하늘에 태양이 뜰 때까지 그런 식의 도피를 계속 반복했던 것 같다.]], "_t")
 t("Escapades of Fay Willows [Book 4, Chapter 1] - Exhaustive Travel", "페이 윌로우즈의 여행기 [4권, 제 1장] - 강행군", "_t")
 t([[[i]The endurance of an ogre is quite astonishing. While I had collapsed from exhaustion, the ogres had persevered and managed to stay awake until we made it to an abandoned settlement. In particular, while many of the ogres had managed to acquire some sleep along with me, the commander and strategist would manage to make the entire journey to Elvala before they would finally collapse from exhaustion. I honestly don't believe any other race could possibly stay awake, let alone active, for that long.[/i]
 
@@ -1498,7 +1498,7 @@ The commander and strategist then approached from behind one of the buildings. T
 
 After a little while of searching through the nearby buildings I noticed a trapdoor with a rusty lock. Breaking it and descending a ladder I found a cellar, untouched since the time the original shaloren inhabitants had lived here. I found several bottles of wine as well as some old vegetables and dried fruit. I brushed away some cobwebs from a nearby chair and table to eat my fill, before carrying a bundle of vegetables and fruit back to the ogres campsite. The commander was already assembling the other ogres, and I could see that a couple of recently killed carcasses slung on their shoulders. Seeing me carrying food, the commander and strategist came over to help take the load and ask where I had found it.
 
-I relayed to them the location of the cellar which I had found and its contents. The commander, while interested in acquiring food, was quite disinterested in the fact that it was located in a shaloren cellar. Concerned with the time it would take to bring it up, he noted that an ogre wouldn't be able to easily fit through any of the doors in the settlement here, let alone a trap door to one of the cellars. The strategist though noted that I had fit through and insisted that we take the food to ensure that there was enough to eat for the remainder of our journey. The commander was hesitant at staying any longer but consented. After spending another hour I was able to bring up all the food before we continued on towards Elvala.   ]], [[[i]오우거의 인내심은 참으로 놀라울 정도다. 내가 탈진하여 쓰러져 있을 동안, 오우거들은 끊임없이 전진하여 버려진 정착지까지 도착했다. 특히 놀라웠던 것은 많은 오우거들이 결국 곯아떨어져 나처럼 자고 있던 와중에도, 오우거 대장과 참모는 엘발라에 결국 도착하기까지 잠시도 쉬지 않았다는 것이다. 그들은 엘발라에 도착하고 나서야 탈진하여 쓰러졌을 뿐이었다. 어떤 종족이든 간에 그들만큼 오랫동안 깨어있는 것이 가능할 것이라고 생각할 수가 없다.[/i]
+I relayed to them the location of the cellar which I had found and its contents. The commander, while interested in acquiring food, was quite disinterested in the fact that it was located in a shaloren cellar. Concerned with the time it would take to bring it up, he noted that an ogre wouldn't be able to easily fit through any of the doors in the settlement here, let alone a trap door to one of the cellars. The strategist though noted that I had fit through and insisted that we take the food to ensure that there was enough to eat for the remainder of our journey. The commander was hesitant at staying any longer but consented. After spending another hour I was able to bring up all the food before we continued on towards Elvala.   ]], [[[i]오우거의 체력은 참으로 놀랍다. 내가 탈진하여 쓰러져 있을 동안, 오우거들은 끊임없이 전진하여 버려진 정착지까지 도착했다. 특히 놀라웠던 것은 많은 오우거들이 결국 곯아떨어져 나처럼 자고 있던 와중에도, 오우거 대장과 참모는 엘발라에 결국 도착하기까지 잠시도 쉬지 않았다는 것이다. 그들은 엘발라에 도착하고 나서야 탈진하여 쓰러졌을 뿐이었다. 어떤 종족이든 간에 그들만큼 오랫동안 깨어있는 것이 가능할 것이라고 생각할 수가 없다.[/i]
 
 그 지옥과 같은 해안선에서 얼마나 많은 시간을 보냈었는지 기억이 나지 않는다. 며칠 아니면 일주일 정도는 되었던 것 같다. 나르골 땅의 남쪽 지역으로 나아가면서 푸른 수목과 생기가 도는 자연을 다시 보게 된 것이 정말 좋았다. 내리쬐는 햇볕을 잠시 즐기다가도 이내 뱃속에서 요동치는 소리가 들렸다. 며칠 내내 달리느라 몹시 피곤하기도 했다. 그럼에도 오우거들은 전혀 배고프거나 피곤해보이지 않았다. 하지만 오랜 강행군 속에서 도저히 그럴 리는 없었다. 내가 배낭에 있던 비상 식량을 꺼내 땅에 내려놓자, 오우거들은 굶주린 눈빛으로 음식을 쳐다봤다.
 
@@ -1578,7 +1578,7 @@ Eventually when I woke up, and after the healers had checked me over, I was told
 
 장막이 있는 엘발라 외곽에 다다랐을 때, 그녀는 오우거들이 정확히 어딨는지 물었다. 난 그들이 내가 처음에 엘발라로 들어왔을 때 뚫고 들어왔던 위치에 있다고 대답했다. 그리고 내가 처음 들어왔던 그 위치로 데려갔다. 그녀는 그 자리에 서서 팔을 들었다. 그리고 낮은 목소리로 노래하는 듯한 소리를 냈다. 바로 그 뒤에 안개가 걷히기 시작했다. 그녀의 계획에 대해서 어느 정도 지니고 있던 회의감이 일순간 놀라움으로 바뀌었다. 그렇게 생겨난 관문은 내가 일전에 통과했던 것보다는 조금 작았다. 관문의 반대편에서 오우거들의 형상을 볼 수 있었다.
 
-곧바로 오우거들이 이쪽으로 달려오기 시작했다. 몇 분 뒤 가장 먼저 엘발라의 장벽을 통과해 들어온 오우거가 들어오자마자 바로 쓰러졌다. 뒤쪽에서 예상치 못 한 사건이 벌어지는 것을 보고 구경꾼들이 모여드렁ㅆ다. 오우거들이 모두 관문을 통과하자 마법사는 두 팔을 내렸고, 이내 바로 장막이 드리워졌다. 곧바로 그녀 또한 땅바닥에 쓰러져 깊은 숨을 몰아쉬었다. 엄청난 마법을 쓴 뒤에 모든 힘을 다 써버린 것 같았다. 그녀는 나를 올려다보며, 숨을 몰아쉬면서도 나에게 태연하게 말할 뿐이었다. "다 됐어요. 당신은 이 오우거들을 구해줬어요."
+곧바로 오우거들이 이쪽으로 달려오기 시작했다. 몇 분 뒤 가장 먼저 엘발라의 장벽을 통과해 들어온 오우거가 들어오자마자 바로 쓰러졌다. 뒤쪽에서 예상치 못 한 사건이 벌어지는 것을 보고 구경꾼들이 모여드렁ㅆ다. 오우거들이 모두 관문을 통과하자 마법사는 두 팔을 내렸고, 이내 바로 장막이 드리워졌다. 곧바로 그녀 또한 땅바닥에 쓰러져 깊은 숨을 몰아쉬었다. 엄청난 마법을 쓴 뒤에 모든 힘을 다 써버린 것 같았다. 그녀는 나를 올려다보며, 숨을 몰아쉬면서도 나에게 태연하게 말할 뿐이었다. "다 됐어요. 당신은 이 오우거들을 구했어요."
 
 "물론, 제대로 된 방법은 아니었지만 말이야." 뒤쪽에서 또다른 목소리가 들렸다. 뒤를 돌아보니 거기에 아라니온 장군이 있었다. 수많은 경비병 무리가 군중을 뚫고 다가오는 것이 보였다. 그 순간 나는 또 문제가 터지는 것이 아닌가 했지만, 장군은 장병들에게 오우거들을 치유사들에게 데려가라는 명령을 내릴 뿐이었다. 장군이 부여술사에게 다가가면서 나를 쏘아보는 것 같았다. 장군은 잠시 나를 살펴보다가 조용하면서도 근엄한 목소리로 말했다. "자네도 오우거들을 따라가게." 그리고 나를 지나쳐서 부여술사의 앞에 섰다. 젊은 샬로레가 숨을 가다듬고 있었고 그 앞에서 장군이 팔짱을 끼는 것이 보였다.
 
@@ -1587,6 +1587,40 @@ Eventually when I woke up, and after the healers had checked me over, I was told
 그때 무슨 일이 일어났는지 잘 기억하지도 못 할뿐더러, 상처에서 고통이 느껴지기나 했었는지조차 잘 기억나지 않았다. 하지만 치유사들은 내가 입은 부상들이 얼마나 치명적인 것들인지 알아본 듯 했다. 나는 신속하게 빈 침상에 옮겨졌고 여러 진통 주입물이 처방되었다. 그리고 난 곧바로 의식을 잃었다. 나중에 알게된 사실이지만, 치유사들이 내가 얼마나 끔찍하게 만신창이가 되었는지를 보고 아연실색했다고 한다. 하지만 더 끔찍했던 것은 아무리 재생 주입물을 써도 그다지 효과를 보지 못 했다는 점이다. 주입물을 아무리 쏟아부어도 회복에 몇 개월은 걸리는 정도였다고 한다. 오늘날까지도 난 상처에 신경을 많이 쓰는데, 회복하는 데에 시간이 꽤 오래 걸리기 때문이다.
 
 결국 내가 꺠어나 일어나고 치유사들이 나를 몇 번이나 검사한 뒤에, 누군가가 날 면회하고자 하기에 기다려달라는 말을 들었다. 잠시 후 나는 부여술사와 다시 만날 수 있었다. "괜찮아진 것 같아서 다행이네요. 당신은 정말 끈질긴 탈로레예요. 오우거들에 관련해선 걱정하지 않아도 돼요. 아라니온이 거처를 마련해준다고 했으니까." 그녀는 꽤 자랑스럽게 말하고 있었지만 살짝 실망스러운 울림이 느껴지기도 했다. "자 그러면, 이제 막 일어난 참이지만, 아라니온 장군님께서 당신에게 무슨 일이 있었는지 알고 싶다고 하셨어요. 나르골 왕국을 향해 떠났을 때부터 여기로 다시 돌아왔던 사이에 무슨 일이 있었는지 말예요. 그리고 당신이 왜 이렇게 회복하는 데에 오래 걸렸는지에 대해 실마리를 알 수 있을지도 모르고요."  ]], "_t")
+t("Escapades of Fay Willows [Book 4, Chapter 4] - Terrifying Interview", "페이 윌로우즈의 여행기 [4권, 제 4장] - 끔찍한 취조", "_t")
+t([[[i]I do not know if Alreiwen has forgiven me, for the terror I had inflicted on her, or the hatred within me she must have felt. While it was but a mere moment, I could tell that all my rage had been channeled into her very being, the same rage that I had filled those fanatics with from before. At that moment I could tell she knew how potentially dangerous I was. Rei, if you are reading this then know how truly sorry I am for what happened.[/i]
+
+For the next two hours, the enchantress proceeded to grill me as to what had happened after I had left Elvala. In great detail I informed her of my experiences within the Nargol Kingdom, and my subsequent travel along the southern shoreline of Maj'Eyal. Every so often the inquisitive shalore would ask me questions about the fanatics I had witnessed and the events I had seen them carry out or suspected them of having a part in. To be honest I couldn't tell if it was for her own satisfaction or perhaps if Aranion had indeed asked her in hopes of learning more about the fanatics. Eventually as our conversation came to a close, that was perhaps when the more eventful part of our discussion came up.
+
+"So, that mostly concludes more or less what Aranion sent me here for,” she began, before continuing to state, "however, the healers also wanted me to ask you a few questions in regards to your body. I'm not sure if you have been told yet, but you have been in this hospital bed for several months now, despite injuries that should have healed in a few weeks. You wouldn't perhaps have an explanation for why this is?" Immediately I wondered if perhaps what had happened on that charred battlefield was connected with the slow recovery time of my body as I had finally begun to realize that something was wrong with me by that point. I can't say I was too interested in talking about that instance, not wanting to remember what had happened either.
+
+"I wouldn't know why that would be.” I replied as I turned my head to look away from the enchantress. Despite not being able to see the shalore's face, I could immediately tell that she saw through me immediately. "So you do have some idea then.” she cheerfully responded. I glanced at her in disgust, noticing a gleam of satisfaction beaming from her eyes, although I couldn't tell what she would be satisfied from. "I'm also guessing that it somehow involves your recent fighting experience, judging from your reactions." I couldn't help but dart my eyes away, realizing that was only telling her how easily and accurately she was reading me. She seemed to giggle a little bit at this, which only served to annoy me and wish that she would go away more.
+
+"The ogres I spoke to talked at great length about how you had led them here to Elvala, of how without your help they would likely not have survived in the fight against their pursuers. However, the more we spoke, the more it became clear that something was amiss. Curiously no ogre would say much in regards to you in whatever battle it was that you fought, despite how important you were to apparently winning it. From what I can understand there were many ogres with you too. How were you so paramount in the ogres getting here? I heard from the Rangers that you held your own against a couple of wolves, but armed fighters are clearly a step above some hungry animals, and you don't strike me as having much in the way of combat experience."
+
+The enchantress intently examined me as she spoke, analyzing me for any hint or clue I would give her. For my part I was actively attempting to repress my memories of those recent events, to not relive the mix of emotions that had taken hold of me at that time, to leave them silent. Intent on digging further into me though, the enchantress continued to press on, to meet that darker version of myself. "What is it that you are hiding about yourself, that the ogres seemingly wouldn't mention about you? What unmentionable thing did you perhaps do to help the ogres through their plight?" The enchantress continued on with the probing questions one after the other, endlessly, never stopping, until finally I decided that she needed to stop.
+
+"CEASE ASKING ME THESE QUESTIONS NOW!" The phrase swiftly escaped from me, though I had no intention of stating it as abruptly or forcefully as I did. The young shalore was immediately taken aback from my statement, her eyes widened and the smile that one could mistake for a permanent fixture on her face now gone. She began to shiver and sweat profusely all at once before stammering out "Wha-What?" She shook in her chair, and I could feel fear emanating from her body. I paused again for a moment, feeling a sense of satisfaction. This sensation I felt, it felt similar from something before. And then I realized all at once what was happening. My emotions were beginning to take a hold of me once more.
+
+Immediately I pulled every force of my being away from the enchantress. She instantly jumped out of the chair and scrambled away from me, gasping as the pressure I had exerted was lifted. Her eyes were wide now, catching a full glimpse of the darker me, and she wanted nothing more than to actively hide away. "I'm sorry" was all I could muster to say. She looked at me, seemingly now appearing much older than before. Shakily she made her way to the door to leave the room, to get to safety, to get away from me. Sometime after she was gone I would realize that a guard would be stationed outside my room, and I'm pretty sure that guard was not there before the enchantress had come.
+
+Eventually as I recovered enough to move around a bit I was finally released from the care of the healers. I was given a dwelling in a secluded part of Elvala and a pair of guards were stationed outside of it at all times. Although I never asked, I was sure they were there to confine me from the rest of the citizens of Elvala, and them from me. I didn't blame the shaloren for this as even now I could feel something driving me, influencing my thoughts, wanting to lash out. Who knows what sort of actions I might have been pushed to do, or whether I may have gone into a mad killing rage against the Shaloren; the irony of which is not lost on me considering my initial reasons for leaving Thaloren lands so long ago.]], [[[i]알레이웬이 날 지금 용서했을진 모르겠다. 내가 그녀에게 끼쳤던 공포, 그녀가 느꼈을 나의 증오에 대해서 용서했을까. 한 순간의 일이었지만, 내 분노가 그녀의 존재 그 자체에 흘러들어갔음을 느꼈다. 그 광신도들과 싸울 때 느꼈던 그 분노였다. 그때 알레이웬은 내가 얼마나 위험한 존재인지 깨달았던 것 같다. 레이, 이걸 만약 읽는다면 이것만은 알아줘요. 정말 미안하다는 걸.[/i]
+
+그 이후로 두 시간동안 부여술사는 내가 엘발라를 떠난 이후로 무슨 일이 있었는지 계속 물어보았다. 나는 매우 상세하게 나르골 왕국에서 있었던 일과 마즈'에이알의 남쪽 해안선을 향해서 갔던 이야기를 알려줬다. 이 호기심 많은 샬로레는 끊임없이 내가 봤던 광신도들이나 그들이 저질렀거나 저지른 것으로 의심되는 사건들에 대해 물어봤다. 솔직히 말해서 이 질문들이 그녀 자신의 호기심을 채우려는 것이었는지, 아니면 아라니온 장군이 알고 싶었던 내용이었는지 모르겠다. 쏟아지는 질문도 결국 멈추고 대화가 끝났지만, 이때가 가장 심란한 대목이 시작되는 부분이었다.
+
+"네, 뭐 이 정도면 아라니온이 알고 싶었던 건 모두 물어봤네요." 그렇게 말하고선 그녀는 계속 말을 이었다. "하지만, 치유사들도 당신의 몸에 관련해서 여러가지 묻고 싶어하던데요. 알고 있는지 모르겠지만, 당신은 침상에 누운지 벌써 몇 달은 됐어요. 보통 그 정도의 부상은 몇 주 정도면 치료되어야 하는데 말이에요. 혹시 짚이는 구석이 있나요?" 그때 내 몸에 확실히 문제가 생겼다는 것을 깨달았다. 그 황량한 대지에서 싸웠던 것이 뭔가 이 느린 회복 속도와 관련이 있는 것은 아닐까? 하지만 이때 나는 그런 것을 별로 이야기하고 싶지도 않았고, 무슨 일이 일어났었는지 다시 떠올리고 싶지도 않았다.
+
+"내가 알 리가 있나." 부여술사로부터 고개를 돌리며 대답했다. 샬로레의 얼굴을 볼 수는 없었지만, 그녀가 날 빤히 쳐다보고 있다는 것은 분명히 알 수 있었다. "보아하니 뭔가 알고 있나 본데요." 그녀가 기쁘다는듯이 대답했다. 나는 역겨움이 밀려오는 것을 참고 그녀를 쳐다봤다. 하지만 그녀의 눈에선 오히려 만족감이 느껴졌다. 도대체 무엇이 그리 만족스러웠는지 알 수 없었다. "제 생각엔 아마 최근에 치뤘던 전투 때문인 거 같네요. 딱 보니까 알겠어요." 난 무심코 고개를 돌려 그녀를 노려봤다. 이런 행동은 결국 그녀가 정확히 나에 대해 읽어냈다는 방증밖에 되지 않았다. 그녀는 쿡쿡 소리내어 웃었고, 나는 짜증이 솟구쳐 당장 그녀가 나갔으면 좋겠다는 생각밖에 하지 못 했다.
+
+"당신이 오우거들을 여기까지 이끈 것에 대해서 오우거들은 잠시도 말을 쉬지 않더군요. 당신이 없었다면 그 추적자들과의 전투에서도 살아남지 못 했을 거라면서요. 그런데, 얘기하면 얘기할수록 뭔가 이상한 거 있죠. 이상하게도 오우거들은 당신이 치뤘던 전투에 관해서 이야기를 잘 꺼내려 들질 않았어요. 당신이 없었으면 절대 이기지 못 했을 전투 말예요. 오우거들은 모두 다 그렇게 생각하는 것 같던데요. 어떻게 당신이 오우거들의 피난 작전에서 공을 크게 세웠다는 거죠? 정찰병들 얘기를 들어보면 당신이 늑대 몇 마리 정도는 문제없이 상대한다고 하지만, 굶주린 짐승과 싸우는 것과 무장한 전사들과 싸우는 건 분명 수준이 다른 얘기일 텐데요. 당신이 싸움에 익숙한 것처럼 보이지도 않고요."
+
+치유사는 명백히 의도적으로 나를 취조하고 있었다. 나를 계속 살펴보며 내 표정이나 몸짓을 분석하고 단서를 찾으려는 것 같았다. 나는 그때 필사적으로 내 기억을 억누르고 있었다. 그때 나를 사로잡았던 감정들이 터져나오지 않도록 말이다. 그저 흘러가도록 내버려두고자 했다. 치유사는 계속해서 나를 압박하며 무슨 일이 있었는지 캐내려고 했다. 내 어두운 면을 보기 위해서. "뭘 숨기고 있는 거예요? 오우거들은 뭘 말하지 않으려는 거예요? 도대체 오우거들의 피난을 도우면서 무슨 말할 수 없는 일을 저질렀길래 그러는 거예요?" 그녀는 계속 나를 탐문하듯이 질문을 쏟아냈다. 절대로 멈추지 않았다. 결국 나는 더 이상 참을 수 없어 그녀를 멈추게 해야한다고 결심했다.
+
+"당장 입닥쳐! 쓸데없는 질문은 그만해!" 이 말이 내 입 바깥으로 튀어나갔다. 하지만 나는 이렇게 난폭하게 말할 생각은 전혀 없었다. 젊은 샬로레는 그 외침에 뒤로 넘어졌다. 그녀는 눈을 휘둥그레 뜬 채로 멍 하니 있었고, 떠나갈 것 같지 않았던 미소도 일순간에 사라졌다. 그녀는 벌벌 떨며 식은 땀을 흘리기 시작했고, 말을 더듬었다. "뭐... 뭐라고요?" 의자에 앉은 채로 벌벌 떨면서, 그녀의 몸에서 공포가 흘러나오는 것이 느껴졌다. 나는 그 순간 잠시 멈춰 만족감을 느꼈다. 이때 느낀 그 감각, 이전에도 느꼈던 적이 있다. 그제서야 나는 무슨 일이 벌어졌는지 깨달았다. 내 감정이 또다시 나를 사로잡으려 했던 것이다.
+
+나는 그 즉시 내 존재의 힘을 부여술사에게서 물어나게 했다. 그녀는 곧바로 의자에서 뛰쳐나가 도망치듯 자리를 피했다. 내가 가했던 중압감이 사라지면서 그녀는 숨을 헐떡였다. 두 눈을 부릅 뜬채로 어둔 나의 일면을 목도했다. 이제 그녀는 그저 숨으려고밖에 하지 않았다. "미안해요." 난 겨우내 그렇게 말할 수밖에 없었다. 그녀는 날 쳐다봤다. 방금 전보다도 훨씬 더 늙은 것 같았다. 부들부들 떨면서 그녀는 문을 열고 바깥으로 나갔다. 안전한 곳으로 가기 위해, 나로부터 도망치기 위해. 그녀가 떠난 뒤부터 내 방 바깥에서 경비병 한 명이 지키기 시작했다. 부여술사가 오기 전엔 경비병이 내 방을 지키는 경우는 없었다.
+
+결국 조금 움직일 수 있을 정도로 회복되어 퇴원하게 됐다. 엘발라의 한 구석에 있는 건물에서 지내게 되었고, 경비병 두 명이 항상 바깥에서 대기하고 있었다. 이에 대해 직접 물어본 적은 없으나, 분명히 난 엘발라의 시민들로부터 격리된 것이 분명했다. 샬로레를 탓할 수는 없는 노릇이었다. 심지어 난 지금도 나를 휘두르는 무언가를 느낄 수 있다. 내 생각을 사로잡고 폭발하고자 하는 그 느낌. 내가 무슨 짓을 저지르게 될지 아무도 모르는 일이었고, 샬로레를 대상으로 학살극을 벌일지 모르는 일이었다. 역설적이게도 그것은 내가 오래 전 탈로레의 땅을 나설 때 마음 먹었던 일이었다.]], "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 
 
@@ -1671,7 +1705,7 @@ t([[Your touch carries an entropic curse, marking your victims for a terrible fa
 			This can only be applied once per target per turn and will fade entirely if you break line of sight with your target for more than 2 turns.]], [[마수를 뻗어 대상에게 엔트로피의 저주를 몰고와, 파멸로 몰아넣습니다. 대상에게 피해를 입힐 때마다, 대상은 5 턴 동안 불운 효과를 받습니다. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 모든 내성과 회피도가 %0.2f , 치명타 확률이 %0.2f%% 씩 감소됩니다. 
 			이 효과는 1 턴 동안 같은 대상에게는 한 번만 적용됩니다. 시전자의 시야 내에서 대상이 2 턴 이상 벗어날 시, 모든 불행 중첩을 잃게 될 것입니다.]], "tformat")
 t("Preordain", "운명 예지", "talent name")
-t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "인과 관계의 흐름을 교묘하게 조작하여, 적들에게 더 큰 불행을 가저옵니다. 6 중첩 이상의 불운 중첩은 %d%% 확률로 기술 사용을 실패하게 합니다.", "tformat")
+t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "인과 관계의 흐름을 교묘하게 조작하여, 적들에게 더 큰 불행을 가져옵니다. 6 중첩 이상의 불운 중첩은 %d%% 확률로 기술 사용을 실패하게 합니다.", "tformat")
 t("Luckdrinker", "운명 포식자", "talent name")
 t([[Each time you apply Jinx to an enemy, you have a %d%% chance to siphon some of their luck for yourself for 5 turns. This stacks up to 10 times, increasing saves and defense by %0.2f and critical strike chance by %0.2f%%.
 		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[적에게 불운을 적용할 때 마다, %d%% 의 확률로 적들의 행운을 흡수합니다. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 시전자의 내성과 회피도가 %0.2f, 치명타 확률이 %0.2f%% 씩 증가합니다.
@@ -1829,7 +1863,7 @@ t([[For a brief moment horrific hairs grow on your head, each of them ending wit
 		You use those eyes to gaze upon a target area, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
 		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
 		This cannot be saved against.
-		]], [[잠시돟안 눈알이 달린 끔찍한 머리카락이 머리에서 자라납니다.
+		]], [[잠시동안 눈알이 달린 끔찍한 머리카락이 머리에서 자라납니다.
 		이 눈알은 지정한 지역을 응시하여, 범위 내 대상은 부분적으로 돌로 변해 7 턴 동안 이동속도가 %d%% 감소하고, 부서지기 쉽게 됩니다.
 		부서지게 쉽게 된 대상은 35%% 의 확률로 %d%% 만큼 추가 피해를 입습니다.
 		이 효과는 저항할 수 없습니다.
@@ -1966,11 +2000,11 @@ t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to 
 		이 주문을 사용하면, 죽어버린 걸어다니는 벌레떼를 %d%% 생명력으로 다시 일으킵니다.
 		이 기술에 투자한 기술 점수에 따라 추가적인 장비 칸을 획득합니다:
 
-		Level 1:  주무기, 보조무기
-		Level 2:  몸통
-		Level 3:  허리띠
-		Level 4:  반지, 반지
-		Level 5:  반지, 반지, 도구
+		1 레벨:  주무기, 보조무기
+		2 레벨:  몸통
+		3 레벨:  허리띠
+		4 레벨:  반지, 반지
+		5 레벨:  반지, 반지, 도구
 
 		걸어다니는 벌레떼의 장비를 바꾸고, 기술을 향상시키기 위해서는 우선 장비를 시전자의 소지품으로 옮기고, 벌레를 직접 조종하면 됩니다.]], "tformat")
 t("Foul Convergence", "악취를 풍기는 벌레떼", "talent name")

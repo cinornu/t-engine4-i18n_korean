@@ -1150,41 +1150,7 @@ t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put the
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
--- 22 entries
-t("Escapades of Fay Willows [Book 4, Chapter 4] - Terrifying Interview", "Escapades of Fay Willows [Book 4, Chapter 4] - Terrifying Interview", "_t")
-t([[[i]I do not know if Alreiwen has forgiven me, for the terror I had inflicted on her, or the hatred within me she must have felt. While it was but a mere moment, I could tell that all my rage had been channeled into her very being, the same rage that I had filled those fanatics with from before. At that moment I could tell she knew how potentially dangerous I was. Rei, if you are reading this then know how truly sorry I am for what happened.[/i]
-
-For the next two hours, the enchantress proceeded to grill me as to what had happened after I had left Elvala. In great detail I informed her of my experiences within the Nargol Kingdom, and my subsequent travel along the southern shoreline of Maj'Eyal. Every so often the inquisitive shalore would ask me questions about the fanatics I had witnessed and the events I had seen them carry out or suspected them of having a part in. To be honest I couldn't tell if it was for her own satisfaction or perhaps if Aranion had indeed asked her in hopes of learning more about the fanatics. Eventually as our conversation came to a close, that was perhaps when the more eventful part of our discussion came up.
-
-"So, that mostly concludes more or less what Aranion sent me here for,” she began, before continuing to state, "however, the healers also wanted me to ask you a few questions in regards to your body. I'm not sure if you have been told yet, but you have been in this hospital bed for several months now, despite injuries that should have healed in a few weeks. You wouldn't perhaps have an explanation for why this is?" Immediately I wondered if perhaps what had happened on that charred battlefield was connected with the slow recovery time of my body as I had finally begun to realize that something was wrong with me by that point. I can't say I was too interested in talking about that instance, not wanting to remember what had happened either.
-
-"I wouldn't know why that would be.” I replied as I turned my head to look away from the enchantress. Despite not being able to see the shalore's face, I could immediately tell that she saw through me immediately. "So you do have some idea then.” she cheerfully responded. I glanced at her in disgust, noticing a gleam of satisfaction beaming from her eyes, although I couldn't tell what she would be satisfied from. "I'm also guessing that it somehow involves your recent fighting experience, judging from your reactions." I couldn't help but dart my eyes away, realizing that was only telling her how easily and accurately she was reading me. She seemed to giggle a little bit at this, which only served to annoy me and wish that she would go away more.
-
-"The ogres I spoke to talked at great length about how you had led them here to Elvala, of how without your help they would likely not have survived in the fight against their pursuers. However, the more we spoke, the more it became clear that something was amiss. Curiously no ogre would say much in regards to you in whatever battle it was that you fought, despite how important you were to apparently winning it. From what I can understand there were many ogres with you too. How were you so paramount in the ogres getting here? I heard from the Rangers that you held your own against a couple of wolves, but armed fighters are clearly a step above some hungry animals, and you don't strike me as having much in the way of combat experience."
-
-The enchantress intently examined me as she spoke, analyzing me for any hint or clue I would give her. For my part I was actively attempting to repress my memories of those recent events, to not relive the mix of emotions that had taken hold of me at that time, to leave them silent. Intent on digging further into me though, the enchantress continued to press on, to meet that darker version of myself. "What is it that you are hiding about yourself, that the ogres seemingly wouldn't mention about you? What unmentionable thing did you perhaps do to help the ogres through their plight?" The enchantress continued on with the probing questions one after the other, endlessly, never stopping, until finally I decided that she needed to stop.
-
-"CEASE ASKING ME THESE QUESTIONS NOW!" The phrase swiftly escaped from me, though I had no intention of stating it as abruptly or forcefully as I did. The young shalore was immediately taken aback from my statement, her eyes widened and the smile that one could mistake for a permanent fixture on her face now gone. She began to shiver and sweat profusely all at once before stammering out "Wha-What?" She shook in her chair, and I could feel fear emanating from her body. I paused again for a moment, feeling a sense of satisfaction. This sensation I felt, it felt similar from something before. And then I realized all at once what was happening. My emotions were beginning to take a hold of me once more.
-
-Immediately I pulled every force of my being away from the enchantress. She instantly jumped out of the chair and scrambled away from me, gasping as the pressure I had exerted was lifted. Her eyes were wide now, catching a full glimpse of the darker me, and she wanted nothing more than to actively hide away. "I'm sorry" was all I could muster to say. She looked at me, seemingly now appearing much older than before. Shakily she made her way to the door to leave the room, to get to safety, to get away from me. Sometime after she was gone I would realize that a guard would be stationed outside my room, and I'm pretty sure that guard was not there before the enchantress had come.
-
-Eventually as I recovered enough to move around a bit I was finally released from the care of the healers. I was given a dwelling in a secluded part of Elvala and a pair of guards were stationed outside of it at all times. Although I never asked, I was sure they were there to confine me from the rest of the citizens of Elvala, and them from me. I didn't blame the shaloren for this as even now I could feel something driving me, influencing my thoughts, wanting to lash out. Who knows what sort of actions I might have been pushed to do, or whether I may have gone into a mad killing rage against the Shaloren; the irony of which is not lost on me considering my initial reasons for leaving Thaloren lands so long ago.]], [[[i]I do not know if Alreiwen has forgiven me, for the terror I had inflicted on her, or the hatred within me she must have felt. While it was but a mere moment, I could tell that all my rage had been channeled into her very being, the same rage that I had filled those fanatics with from before. At that moment I could tell she knew how potentially dangerous I was. Rei, if you are reading this then know how truly sorry I am for what happened.[/i]
-
-For the next two hours, the enchantress proceeded to grill me as to what had happened after I had left Elvala. In great detail I informed her of my experiences within the Nargol Kingdom, and my subsequent travel along the southern shoreline of Maj'Eyal. Every so often the inquisitive shalore would ask me questions about the fanatics I had witnessed and the events I had seen them carry out or suspected them of having a part in. To be honest I couldn't tell if it was for her own satisfaction or perhaps if Aranion had indeed asked her in hopes of learning more about the fanatics. Eventually as our conversation came to a close, that was perhaps when the more eventful part of our discussion came up.
-
-"So, that mostly concludes more or less what Aranion sent me here for,” she began, before continuing to state, "however, the healers also wanted me to ask you a few questions in regards to your body. I'm not sure if you have been told yet, but you have been in this hospital bed for several months now, despite injuries that should have healed in a few weeks. You wouldn't perhaps have an explanation for why this is?" Immediately I wondered if perhaps what had happened on that charred battlefield was connected with the slow recovery time of my body as I had finally begun to realize that something was wrong with me by that point. I can't say I was too interested in talking about that instance, not wanting to remember what had happened either.
-
-"I wouldn't know why that would be.” I replied as I turned my head to look away from the enchantress. Despite not being able to see the shalore's face, I could immediately tell that she saw through me immediately. "So you do have some idea then.” she cheerfully responded. I glanced at her in disgust, noticing a gleam of satisfaction beaming from her eyes, although I couldn't tell what she would be satisfied from. "I'm also guessing that it somehow involves your recent fighting experience, judging from your reactions." I couldn't help but dart my eyes away, realizing that was only telling her how easily and accurately she was reading me. She seemed to giggle a little bit at this, which only served to annoy me and wish that she would go away more.
-
-"The ogres I spoke to talked at great length about how you had led them here to Elvala, of how without your help they would likely not have survived in the fight against their pursuers. However, the more we spoke, the more it became clear that something was amiss. Curiously no ogre would say much in regards to you in whatever battle it was that you fought, despite how important you were to apparently winning it. From what I can understand there were many ogres with you too. How were you so paramount in the ogres getting here? I heard from the Rangers that you held your own against a couple of wolves, but armed fighters are clearly a step above some hungry animals, and you don't strike me as having much in the way of combat experience."
-
-The enchantress intently examined me as she spoke, analyzing me for any hint or clue I would give her. For my part I was actively attempting to repress my memories of those recent events, to not relive the mix of emotions that had taken hold of me at that time, to leave them silent. Intent on digging further into me though, the enchantress continued to press on, to meet that darker version of myself. "What is it that you are hiding about yourself, that the ogres seemingly wouldn't mention about you? What unmentionable thing did you perhaps do to help the ogres through their plight?" The enchantress continued on with the probing questions one after the other, endlessly, never stopping, until finally I decided that she needed to stop.
-
-"CEASE ASKING ME THESE QUESTIONS NOW!" The phrase swiftly escaped from me, though I had no intention of stating it as abruptly or forcefully as I did. The young shalore was immediately taken aback from my statement, her eyes widened and the smile that one could mistake for a permanent fixture on her face now gone. She began to shiver and sweat profusely all at once before stammering out "Wha-What?" She shook in her chair, and I could feel fear emanating from her body. I paused again for a moment, feeling a sense of satisfaction. This sensation I felt, it felt similar from something before. And then I realized all at once what was happening. My emotions were beginning to take a hold of me once more.
-
-Immediately I pulled every force of my being away from the enchantress. She instantly jumped out of the chair and scrambled away from me, gasping as the pressure I had exerted was lifted. Her eyes were wide now, catching a full glimpse of the darker me, and she wanted nothing more than to actively hide away. "I'm sorry" was all I could muster to say. She looked at me, seemingly now appearing much older than before. Shakily she made her way to the door to leave the room, to get to safety, to get away from me. Sometime after she was gone I would realize that a guard would be stationed outside my room, and I'm pretty sure that guard was not there before the enchantress had come.
-
-Eventually as I recovered enough to move around a bit I was finally released from the care of the healers. I was given a dwelling in a secluded part of Elvala and a pair of guards were stationed outside of it at all times. Although I never asked, I was sure they were there to confine me from the rest of the citizens of Elvala, and them from me. I didn't blame the shaloren for this as even now I could feel something driving me, influencing my thoughts, wanting to lash out. Who knows what sort of actions I might have been pushed to do, or whether I may have gone into a mad killing rage against the Shaloren; the irony of which is not lost on me considering my initial reasons for leaving Thaloren lands so long ago.]], "_t")
+-- 20 entries
 t("Escapades of Fay Willows [Book 4, Chapter 5] - Festival of Happiness", "Escapades of Fay Willows [Book 4, Chapter 5] - Festival of Happiness", "_t")
 t([[[i]It is worth noting that there were many ogres in Elvala after my long period of seclusion, hundreds of them even. Apparently the ogres I had rescued had petitioned the Grand Council to seek out as many of their fellow ogres as they could and help them before they were all killed. Agreeing to the request, contact was made with the Nargol Kingdom as well as some Human Kingdoms in the Northwest of Maj'Eyal to secretly help relocate as many of the ogres that could be found to the shrouded Shaloren lands.[/i]
 
@@ -2948,48 +2914,6 @@ t("To the Bitter End", "To the Bitter End", "achievement name")
 t("You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "_t")
 t("Imp'ing Away", "Imp'ing Away", "achievement name")
 t("You have spared the last remnants of the Atmos Tribe, showing mercy where others gave none to the orcs.", "You have spared the last remnants of the Atmos Tribe, showing mercy where others gave none to the orcs.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/chats/aaa.lua"
--- 5 entries
-t("#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated storage facility.*#WHITE#", "#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated storage facility.*#WHITE#", "_t")
-t("[access store]", "[access store]", "_t")
-t("[reprogram it to order it to relocate to Kruk Pride]", "[reprogram it to order it to relocate to Kruk Pride]", "_t")
-t("#LIGHT_GREEN#*You tinker with the store bot and manage to activate the relocation function.*#WHITE#", "#LIGHT_GREEN#*You tinker with the store bot and manage to activate the relocation function.*#WHITE#", "_t")
-t("[order it to go to Kruk Pride]", "[order it to go to Kruk Pride]", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/chats/aaf.lua"
--- 6 entries
-t([[#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated facility.*#WHITE#
-It seems to be able to teach you the tinker crafting techniques, but requires input to do so (500 gold and a talent category point).]], [[#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated facility.*#WHITE#
-It seems to be able to teach you the tinker crafting techniques, but requires input to do so (500 gold and a talent category point).]], "_t")
-t("[pay 500 gold and a talent category points]", "[pay 500 gold and a talent category points]", "_t")
-t("#PURPLE#The %s teaches you: #GOLD#Steamtech/Physics#LAST#, #GOLD#Steamtech/Chemistry#LAST# and two starter crafting talents.", "#PURPLE#The %s teaches you: #GOLD#Steamtech/Physics#LAST#, #GOLD#Steamtech/Chemistry#LAST# and two starter crafting talents.", "log")
-t("[access store]", "[access store]", "_t")
-t([[The machine gives you a small metallic box labelled as #{italic}#"Automated Portable Extractor"#{normal}#.
-It seems to be used to break down metallic items into lumps of metal and infusions into herbs which are used to craft tinkers.
-
-#{bold}#You will have to choose to use it or the Transmogrification Chest when you destroy items. You can choose the default one by using it with no items to destroy.#{normal}#
-]], [[The machine gives you a small metallic box labelled as #{italic}#"Automated Portable Extractor"#{normal}#.
-It seems to be used to break down metallic items into lumps of metal and infusions into herbs which are used to craft tinkers.
-
-#{bold}#You will have to choose to use it or the Transmogrification Chest when you destroy items. You can choose the default one by using it with no items to destroy.#{normal}#
-]], "_t")
-t("[take it]", "[take it]", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/chats/destructicus-lead.lua"
--- 2 entries
-t([[#LIGHT_GREEN#*Several loyal Orcs are eagerly waiting outside the palace to meet you; one steps forward, handing you a set of keys.  The word 'DESTRUCTICUS' is etched into one.*#WHITE#
-Chief @playername@!  The Giants are fleeing, and we intercepted a scout carrying this!  We believe they can be used with...  well, you should see for yourself!  Please, come with us to the mountains just south of Kruk Pride!
-#LIGHT_GREEN#*This sounds important.  You should probably head there right away!*#WHITE#]], [[#LIGHT_GREEN#*Several loyal Orcs are eagerly waiting outside the palace to meet you; one steps forward, handing you a set of keys.  The word 'DESTRUCTICUS' is etched into one.*#WHITE#
-Chief @playername@!  The Giants are fleeing, and we intercepted a scout carrying this!  We believe they can be used with...  well, you should see for yourself!  Please, come with us to the mountains just south of Kruk Pride!
-#LIGHT_GREEN#*This sounds important.  You should probably head there right away!*#WHITE#]], "_t")
-t("Lead the way.", "Lead the way.", "_t")
 
 
 ------------------------------------------------
@@ -5403,55 +5327,15 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/quests/to-mainland.lua"
--- 7 entries
-t("You Shall Pass!", "You Shall Pass!", "_t")
-t("The Atmos tribe is not our sole problem. The Sunwall as grown in strength since the Scourge from the West came and murdered the other Prides leaders.", "The Atmos tribe is not our sole problem. The Sunwall as grown in strength since the Scourge from the West came and murdered the other Prides leaders.", "_t")
-t("Our brothers on the mainland lay enslaved, but before we free them you must secure a way to the mainland.", "Our brothers on the mainland lay enslaved, but before we free them you must secure a way to the mainland.", "_t")
-t([[Go to the sunwall outpost. Show them the wrath of Garkul, show no mercy for they have none for us.
-]], [[Go to the sunwall outpost. Show them the wrath of Garkul, show no mercy for they have none for us.
-]], "_t")
-t("#LIGHT_GREEN#* You have destroyed the sunwall outpost, and secured a way to the mainland.#WHITE#", "#LIGHT_GREEN#* You have destroyed the sunwall outpost, and secured a way to the mainland.#WHITE#", "_t")
-t([[The way to the mainland is now clear.
-Travel there using the bridge on the worldmap.]], [[The way to the mainland is now clear.
-Travel there using the bridge on the worldmap.]], "_t")
-t("To the mainland!", "To the mainland!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/quests/voyage.lua"
--- 4 entries
-t("Voyage to the Center of Eyal", "Voyage to the Center of Eyal", "_t")
-t("In the Palace of Fumes you found a geothermal vent that digs deep into the planet's core.", "In the Palace of Fumes you found a geothermal vent that digs deep into the planet's core.", "_t")
-t("Strange mutated giants came out. You must find the source of those titans!", "Strange mutated giants came out. You must find the source of those titans!", "_t")
-t("#LIGHT_GREEN#* Travelling deep within Eyal you found the source of all corruptions: the dead god #{bold}##CRIMSON#Amakthel#LAST##{normal}#.#WHITE#", "#LIGHT_GREEN#* Travelling deep within Eyal you found the source of all corruptions: the dead god #{bold}##CRIMSON#Amakthel#LAST##{normal}#.#WHITE#", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/weissi.lua"
--- 5 entries
-t("Mystery of the Yetis", "Mystery of the Yetis", "_t")
-t("You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "_t")
-t("For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "_t")
+-- 1 entries
 t("", "", "_t")
-t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/yeti-abduction.lua"
--- 12 entries
-t("Yeti Reinforcements", "Yeti Reinforcements", "_t")
-t("You found a yeti mind control tinker. If you can tame 8 wild yetis and send them back to Kruk Pride they can be trained and sent back to you at your request using a psychoportation beacon.", "You found a yeti mind control tinker. If you can tame 8 wild yetis and send them back to Kruk Pride they can be trained and sent back to you at your request using a psychoportation beacon.", "_t")
-t("Wild yetis are mostly found in yeti's caves.", "Wild yetis are mostly found in yeti's caves.", "_t")
-t("#LIGHT_GREEN#* Captured eight yetis (will be available to summon at level 20).#WHITE#", "#LIGHT_GREEN#* Captured eight yetis (will be available to summon at level 20).#WHITE#", "_t")
+-- 1 entries
 t("", "", "_t")
-t("#LIGHT_GREY#* Captured %d/8 yetis.#WHITE#", "#LIGHT_GREY#* Captured %d/8 yetis.#WHITE#", "tformat")
-t("Yeti's Psychoportation Beacon", "Yeti's Psychoportation Beacon", "_t")
-t("Call a trained yeti to your side.", "Call a trained yeti to your side.", "_t")
-t("Yetis left to call: %d", "Yetis left to call: %d", "tformat")
-t("call a trained yeti for help", "call a trained yeti for help", "_t")
-t("The yetis are not ready yet.", "The yetis are not ready yet.", "log")
-t("You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "log")
 
 
 ------------------------------------------------

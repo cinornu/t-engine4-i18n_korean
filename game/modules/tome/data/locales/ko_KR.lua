@@ -8700,7 +8700,7 @@ Though clearly a powerful piece, it must once have been much greater.]], [[2.5 �
 t("Aletta's Diadem", "알레타의 머리띠", "entity name")
 t("jeweled diadem", "보석으로 장식된 머리띠", "_t")
 t([[A filigree of silver set with many small jewels, this diadem seems radiant - ethereal almost. But its touch seems to freeze your skin and brings wild thoughts to your mind. You want to drop it, throw it away, and yet you cannot resist thinking of what powers it might bring you.
-Is this temptation a weak will on your part, or some domination from the artifact itself...?]], [[많은 작은 보석들로 아름답게 제작된 은 머리띠로, 빛을 발하고 있어 - 거의 천상의 것이라고 생각됩니다. 하지만 만지면 피부가 얼어붙을 것 같고, 정신에 강렬한 생각을 불러옵니다. 던저 버리고 싶지만, 이 유물이 어떤 힘을 가저올지 생각하면 그럴 수가 없습니다.
+Is this temptation a weak will on your part, or some domination from the artifact itself...?]], [[많은 작은 보석들로 아름답게 제작된 은 머리띠로, 빛을 발하고 있어 - 거의 천상의 것이라고 생각됩니다. 하지만 만지면 피부가 얼어붙을 것 같고, 정신에 강렬한 생각을 불러옵니다. 던저 버리고 싶지만, 이 유물이 어떤 힘을 가져올지 생각하면 그럴 수가 없습니다.
 이 유혹은 단지 의지가 약해서일까요, 아니면 이 유물 그 자체가 가진 지배의 힘일까요..?]], "_t")
 t("Hare-Skin Sling", "토끼 가죽 투석구", "entity name")
 t("hare-skin sling", "토끼 가죽 투석구", "_t")
@@ -8711,7 +8711,7 @@ t("Prox's Lucky Halfling Foot", "프록스의 행운의 하플링 발", "entity 
 t("a mummified halfling foot", "미라화된 하플링 발", "_t")
 t([[A large hairy foot, very recognizably a halfling's, is strung on a piece of thick twine. In its decomposed state it's hard to tell how long ago it parted with its owner, but from what look like teeth marks around the ankle you get the impression that it wasn't given willingly.
 It has been kept somewhat intact with layers of salt and clay, but in spite of this it's clear that nature is beginning to take its toll on the dead flesh. Some say the foot of a halfling brings luck to its bearer - right now the only thing you can be sure of is that it stinks.]], [[크고 털이 가득한 발로, 한 눈에 봐도 하플링의 것이라고 알 수 있습니다. 굵은 노끈에 엮여져 있고, 심각하게 부패된 상태를 보아 원래 주인에게서 얼마나 오랫동안 떨어저 나왔는지 말하기 힘들지만, 발목 근처에 이빨 자국이 있는 것으로 보아, 발을 쉽게 내주지 않았다는 인상을 줍니다.
-소금과 진흙 층에 의해 큰 손상은 나지 않았지만, 자연이 이 죽은 살갗을 썩히는 것을 막지는 못했습니다. 몇몇 사람들은 하플링의 발이 착용자에게 행운을 가저온다고 하지만 - 지금 알 수 있는 건 냄새가 고약하다는 겁니다.]], "_t")
+소금과 진흙 층에 의해 큰 손상은 나지 않았지만, 자연이 이 죽은 살갗을 썩히는 것을 막지는 못했습니다. 몇몇 사람들은 하플링의 발이 착용자에게 행운을 가져온다고 하지만 - 지금 알 수 있는 건 냄새가 고약하다는 겁니다.]], "_t")
 t(" (cooling down: %d turns)", " (재사용 대기시간: %d 턴)", "tformat")
 t([[Detects traps.
 Removes (25%% chance) up to three stuns, pins, or dazes each turn%s]], [[함정 탐지.
@@ -11467,7 +11467,7 @@ t("During the invasion of Eldoral the Halfling Rogue Herah is said to have slain
 t("#LIGHT_BLUE#Herah's guile and luck is with you, her successor!", "#LIGHT_BLUE#헤라의 인도와 행운이 그대와 함께한다. 그녀의 계승자여!", "logPlayer")
 t("Nature's Vengeance", "자연의 분노", "entity name")
 t("thick wooden mace", "두꺼운 나무 둔기", "_t")
-t("This thick-set mace was used by the Spellhunter Vorlan, who crafted it from the wood of an ancient oak that was uprooted during the Spellblaze.  Many were the wizards and witches felled by this weapon, brought to justice for the crimes they committed against nature.", "마법 사냥꾼 볼란이 사용하던 두꺼운 둔기로, 볼란은 마법폭발 당시 뿌리채 뽑혀버린 고대의 떡갈나무로 이 둔기를 만들었습니다.  많은 마법사들과 마녀들이 이 무기에 의해 쓰러졌습니다. 볼란은 자연에 대한 범죄를 저지른 이들에게 정의를 가저왔습니다.", "_t")
+t("This thick-set mace was used by the Spellhunter Vorlan, who crafted it from the wood of an ancient oak that was uprooted during the Spellblaze.  Many were the wizards and witches felled by this weapon, brought to justice for the crimes they committed against nature.", "마법 사냥꾼 볼란이 사용하던 두꺼운 둔기로, 볼란은 마법폭발 당시 뿌리채 뽑혀버린 고대의 떡갈나무로 이 둔기를 만들었습니다.  많은 마법사들과 마녀들이 이 무기에 의해 쓰러졌습니다. 볼란은 자연에 대한 범죄를 저지른 이들에게 정의를 가져왔습니다.", "_t")
 t("#LIGHT_BLUE#You feel nature defending you.", "#LIGHT_BLUE#당신은 자연이 당신을 지켜주고있음을 느낀다.", "logPlayer")
 t("Fists of the Desert Scorpion", "사막 전갈의 주먹", "entity name")
 t("viciously spiked gauntlets", "악랄한 송곳달린 전투장갑 gauntlets", "_t")
@@ -11662,7 +11662,7 @@ t("summon up to 2 spiders", "최대 2 마리의 거미를 소환합니다", "_t"
 t("Helm of the Dwarven Emperors", "드워프 황제의 투구", "entity name")
 t("shining helm", "빛나는 투구", "_t")
 t("A Dwarven helm embedded with a single diamond that can banish all underground shadows.", "지하의 모든 어둠을 쫓아낼 수 있는 단 하나의 다이아몬드가 박힌 드워프 투구입니다.", "_t")
-t("#LIGHT_BLUE#The legacy of Dwarven Emperors grants you their wisdom.", "#LIGHT_BLUE#드워프 황제의 유산이 당신에게 지혜를 가저다줍니다.", "logPlayer")
+t("#LIGHT_BLUE#The legacy of Dwarven Emperors grants you their wisdom.", "#LIGHT_BLUE#드워프 황제의 유산이 당신에게 지혜를 가져다줍니다.", "logPlayer")
 t("Silent Blade", "침묵의 칼날", "entity name")
 t("shining dagger", "빛나는 단검", "_t")
 t("A thin, dark dagger that seems to meld seamlessly into the shadows.", "얇고, 어두운 단검으로, 그림자 속에서는 완벽하게 어둠과 동화된 것 같습니다.", "_t")
@@ -11673,7 +11673,7 @@ t("A viciously curved blade that a folk story says is made from a material that 
 t("Deal 200%% of your Cunning as Darkness damage (%d).", "교활 수치의 200%% 를 암흑 피해로 가합니다 (%d).", "tformat")
 t("Deal %d Darkness damage.", "%d 암흑 피해를 가합니다.", "tformat")
 t("The moon shines alone in a starless sky.", "달은 별 없는 하늘에서 홀로 빛납니다.", "_t")
-t("#ANTIQUE_WHITE#The two blades glow brightly as they are brought close together.", "#ANTIQUE_WHITE#두 자루의 칼을 가까이 가저가자, 눈부시게 빛나기 시작합니다.", "logSeen")
+t("#ANTIQUE_WHITE#The two blades glow brightly as they are brought close together.", "#ANTIQUE_WHITE#두 자루의 칼을 가까이 가져가자, 눈부시게 빛나기 시작합니다.", "logSeen")
 t("#ANTIQUE_WHITE#The light from the two blades fades as they are separated.", "#ANTIQUE_WHITE#두 자루의 칼이 멀어지자 빛이 사라집니다.", "logPlayer")
 t("Star", "별", "entity name")
 t("jagged blade", "삐죽빼죽한 칼날", "_t")
@@ -12143,7 +12143,7 @@ t("fuzzy green robe", "보송보송한 초록 로브", "_t")
 t("This thick robe is woven from a dark green moss, firmly bound and cool to the touch. It is said to have rejuvenating properties.", "이 두꺼운 로브는 암녹색의 이끼로 만들어졌습니다. 아주 견고하게 직조되어, 만지면 시원합니다. 활기를 되찾아주는 특성이 있다고 합니다.", "_t")
 t("Nithan's Force", "니탄의 힘", "entity name")
 t("massive sling", "거대한 투석구", "_t")
-t("This powerful sling is said to have belonged to a warrior so strong his shots could knock down a brick wall...", "이 강력한 투석구는 너무나 엄청난 팔 힘을 가저, 탄환으로 벽돌 벽을 무너뜨릴 수 있던 전사가 소유하고 있었습니다...", "_t")
+t("This powerful sling is said to have belonged to a warrior so strong his shots could knock down a brick wall...", "이 강력한 투석구는 너무나 엄청난 팔 힘을 가져, 탄환으로 벽돌 벽을 무너뜨릴 수 있던 전사가 소유하고 있었습니다...", "_t")
 t("The Titan's Quiver", "타이탄의 화살통", "entity name")
 t("gigantic ceramic arrows", "거대한 도자기 촉 화살", "_t")
 t("These massive arrows are honed to a vicious sharpness, and appear to be nearly unbreakable. They seem more like spikes than any arrow you've ever seen.", "이 거대한 화살은 놀라울 정도의 예리함을 갖추고 있고, 절대 파괴되지 않을 것 같습니다. 당신이 전에 본 그 어떤 화살보다 투창 같은 생김 새를 하고 있습니다.", "_t")
@@ -12260,13 +12260,13 @@ t("It desires to be surrounded by undeath.", "이 반지는 불사의 힘에 둘
 t("#DARK_GREY#Your ring releases a burst of necromantic energy!", "#DARK_GREY#당신의 반지가 강령 에너지의 폭발을 해방했다!", "logPlayer")
 t("#DARK_GREY#Your ring's power fades away.", "#DARK_GREY#반지의 힘이 사라저간다.", "logPlayer")
 t("wand", "마법봉", "entity subtype")
-t("Lightbringer's Wand", "빛을 가저오는 자의 마법봉", "entity name")
+t("Lightbringer's Wand", "빛을 가져오는 자의 마법봉", "entity name")
 t("bright wand", "빛나는 마법봉", "_t")
 t("This gold-tipped wand shines with an unnatural sheen.", "끝이 금으로 조각된 이 마법봉은 비자연적으로 빛납니다.", "_t")
 t("summon a stationary shining orb within range %d for 15 turns that will illuminate its area and deal %d light damage (based on your Magic and Strength) to your foes within radius %d each turn", "움직이지 않는 빛의 구체를 반경 %d 칸 내에 15 턴 동안 소환합니다. 구체는 지역을 밝히고 %d 빛 피해를 반경 %d 칸 내의 모든 적에게 매 턴 가합니다 (마법과 힘에 비례합니다)", "tformat")
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
 t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
-t("Lightbringer", "빛을 가저오는 자", "_t")
+t("Lightbringer", "빛을 가져오는 자", "_t")
 t("A shining orb.", "빛나는 구체.", "_t")
 t("#Source# points %s %s at #target#, releasing a brilliant orb of light!", "#Source1# %s %s #target# 쪽으로 치켜들자, 빛의 구체가 나타난다!", "logCombat")
 t("a spot nearby", "근처의 위치", "_t")
@@ -13048,7 +13048,7 @@ Our mission is to help the world. Our penance is to act in secret. Old wounds re
 
 아, 그 때 저는 얼마나 큰 희망을 갖고있었는지 모릅니다. 하지만 저는 너무 쉽다고 생각할 정도로 어리석었습니다. 에이알의 상처는 그 대지에 창궐한 질병들 보다 더 깊숙한 곳 까지 파고들었었습니다. 마법폭발의 독기는 우리 생각보다 훨씬 깊은 곳까지 파고들었었고, 그 갈라진 상처는 우리 세계 그 자체의 뿌리를 찢어버렸습니다. 어느 어둡고, 폭풍이 일던 날, 거대한 격변이 동쪽 대지를 덮쳤고, 대지는 수 천 킬로미터까지 치솟아 올랐습니다. 우리가 아무 것도 할 수 없었던 동안, 도시 전체가 공포에 질려 숨도 제대로 쉬지 못했고, 이윽고 모든 종족이 바다에 휩쓸려버렸습니다. 대륙은 갈라졌고, 모든 에이알이 영원히 변해버렸습니다. 가장 강력한 마도사마저 그 힘 앞에서는 겸손해질 수 밖에 없겠지요.
 
-아아, 그래서, 겸손이야말로 제가 여러분들에게 가르치는 것입니다. 여러분 모두, 저 밖에는 여러분들을 무가치할 정도로 작아지게 만드는 강력한 힘이 존재합니다. 그 힘은 오직 공포와 파괴를 가저오기에, 그것들은 영광도, 긍지도 없음을 잘 아시길 바랍니다.
+아아, 그래서, 겸손이야말로 제가 여러분들에게 가르치는 것입니다. 여러분 모두, 저 밖에는 여러분들을 무가치할 정도로 작아지게 만드는 강력한 힘이 존재합니다. 그 힘은 오직 공포와 파괴를 가져오기에, 그것들은 영광도, 긍지도 없음을 잘 아시길 바랍니다.
 
 우리 의무는 세계를 구하는 것입니다. 우리의 속죄는 비밀 속에서 행해집니다. 오래된 상처가 남아있고, 새로운 상처가 나타나지만, 그 모두를 침묵의 장막 뒤에서 처리할겁니다. 우리 동족에 대한 불신은 아직 사람들의 마음 속에 깊히 자리잡고 있고, 우리들을 폭력적인 열정으로 증오하는 이들도 존재합니다. 하지만 세계는 변하고 있으며, 아마 언젠가, 우리들도 사회에 다시 한번 받아들여지게 될 겁니다. 그 때까지, 이 겸손에 대한 강의를 잘 기억하고, 저 밖의 세상에서는 비밀로 하여, 여러분 모두의 몸을 지키기를 희망합니다.]], "_t")
 t("Lecture on the nature of magic by Archmage Tarelion", "마도사 타레리온의 마법의 본질에 대한 강의", "_t")
@@ -13331,13 +13331,13 @@ She strode forward then, and grabbing me roughly by my hauberk she pulled my lip
  
 “엘프에게는 이상한 질문이군요, 아가씨.  하지만 저는 이 오크놈들을 저 혼자서 쓸어버릴 수 있습니다. 그건, 제가 확신합니다.  하지만, 아가씨가 저와 함께 가고싶으시더라도, 아가씨의 안전은 장담할 수 없군요.”
  
-그러자 그녀가 웃었다, 그 소리는 마치 수정이 울리는 것과 같았다.  “그럼 잘 됐네요!  강철 막대기를 가저와요, 누가 더 잘하는지 한 번 봐보자구요.”  나는 미소지으며 수락했고, 곧장 무기고로 가, 강철 전투 장화와 사슬 갑옷, 그 위에 흉갑을 입고, 강철 전투 장갑을 껴입었다.  리나니일은 무례하게 쯧쯧거렸다.  “꼭 그 깡통을 입어야 하나요?”
+그러자 그녀가 웃었다, 그 소리는 마치 수정이 울리는 것과 같았다.  “그럼 잘 됐네요!  강철 막대기를 가져와요, 누가 더 잘하는지 한 번 봐보자구요.”  나는 미소지으며 수락했고, 곧장 무기고로 가, 강철 전투 장화와 사슬 갑옷, 그 위에 흉갑을 입고, 강철 전투 장갑을 껴입었다.  리나니일은 무례하게 쯧쯧거렸다.  “꼭 그 깡통을 입어야 하나요?”
  
 “이건 제 전투 장비들입니다.” , 면갑이 달린 투구를 쓰고, 어꺠에 두꺼운 망토를 걸치며 말했다.
  
 “골렘 같아보여요,” 그녀는 짜증을 내며 중얼거렸다.  “이리와요, 지루해지고 있으니까.”  그녀는 창문 밖으로 잽싸게 뛰어나갔다. 우아하게 비행하며, 밤 속으로 날아가며.
  
-나는 벽걸이에서 내 대검을 가저왔다.  단순해 보이는 검이지만, 손잡이 부분은 무거운 월석으로만 장식 되어있다.  하지만 이 초라한 외견은 마치 힘을 숨기는 듯 했다. 허영심이 작품성을 압도하기 전의, 무기가 진열관이 아닌 전투에 더 어울렸었던, 초기 드워프들의 대장 기술로 만들진 명검.   강철과 뼈를 가볍게 잘라내고 무뎌디지 않는 칼날을 갖고있다.  달을 베는 자. 그것이 이 칼의 이름이다, 비록 지금은 내 손을 떠나갔지만.  나는 창 밖으로 뛰어 내리기 전에, 칼을 허공에 휘들러, 공기의 쿠션을 만들며 리나니일을 재빨리 쫓아갔다.
+나는 벽걸이에서 내 대검을 가져왔다.  단순해 보이는 검이지만, 손잡이 부분은 무거운 월석으로만 장식 되어있다.  하지만 이 초라한 외견은 마치 힘을 숨기는 듯 했다. 허영심이 작품성을 압도하기 전의, 무기가 진열관이 아닌 전투에 더 어울렸었던, 초기 드워프들의 대장 기술로 만들진 명검.   강철과 뼈를 가볍게 잘라내고 무뎌디지 않는 칼날을 갖고있다.  달을 베는 자. 그것이 이 칼의 이름이다, 비록 지금은 내 손을 떠나갔지만.  나는 창 밖으로 뛰어 내리기 전에, 칼을 허공에 휘들러, 공기의 쿠션을 만들며 리나니일을 재빨리 쫓아갔다.
  
 리나니일이 내려오기 전까지, 우리는 빠른 속도로 구름 조각을 해처나가며 20 분간을 침묵 속에서 비행했다.  나는 낮은 언덕들 사이에서 야영의 불빛이 자리를 틀고 있는 것을 볼 수 있었다. 우리가 가까이 다가가자, 오크들의 찬가가 뚜렷하게 들렸다.  “어떻게 접근할까요?” 나는 그녀가 어떤 전술을 쓰고싶을지 궁금해하며, 그녀에게 소리쳤다.
  
@@ -13355,7 +13355,7 @@ She strode forward then, and grabbing me roughly by my hauberk she pulled my lip
  
 리나니일과 나는 서로를 바라보며 섰다. 전투의 아드레날린이 우리를 떠나자, 우리는 갑작스레 찾아온 탈진으로 숨을 몰아쉬었다.  “숫자를 세는 걸 까먹어버렸군.” 들숨과 날숨 사이, 짧은 찰나 동안 내가 말을 꺼냈다. “누가 더 많이 죽였는지 말이야…”  그녀는 땀이 줄줄 흐르는 얼굴로 나를 보고는 수줍게 웃었다.  생채기와 화염으로 인해 그녀의 로브가 너덜너덜해졌고, 한 쪽 어깨끈은 헐거워졌따.  땀으로 반짝이는 그녀의 가슴은 숨결마다 위 아래로, 흔들렸다. 그녀의 깊은 눈이 나를 적나라한 강렬함으로 나를 처다봤다.
  
-그녀는 내게로 성큼성큼 걸어오더니, 나의 사슬 갑옷을 거칠게 잡더니 나의 입술을 그녀의 입술로 가저갔다.  키스는 뜨겁고 격렬했으며, 그녀가 내 아랫입술을 깨물자 전투의 들끓는 피가 내게 다시 돌아왔다.  나는 그녀에게 다시 키스를 하고, 그녀의 몸을 붙잡고, 내게로 꽉, 끌어당겼다. 우리의 입술은 하나였다.  그녀는 정열적으로 나의 남은 갑옷들을 벗기더니, 땅으로 내던졌다. 내가 그녀의 비단 옷을 슬며시 벗기자, 별들 아래 우리는 맨 몸이 되었다.  그리고는 거친 바위 표면에 맞서 우리는 서로를 압박했고, 또다른 전투로 숨을 몰아쉬며, 땀에 젖었다.  이글거리는 정열의 살과 살이 만나자 우리의 뜨거운 신음 소리가 차가운 밤 하늘 위로 솟아올랐다.]], "_t")
+그녀는 내게로 성큼성큼 걸어오더니, 나의 사슬 갑옷을 거칠게 잡더니 나의 입술을 그녀의 입술로 가져갔다.  키스는 뜨겁고 격렬했으며, 그녀가 내 아랫입술을 깨물자 전투의 들끓는 피가 내게 다시 돌아왔다.  나는 그녀에게 다시 키스를 하고, 그녀의 몸을 붙잡고, 내게로 꽉, 끌어당겼다. 우리의 입술은 하나였다.  그녀는 정열적으로 나의 남은 갑옷들을 벗기더니, 땅으로 내던졌다. 내가 그녀의 비단 옷을 슬며시 벗기자, 별들 아래 우리는 맨 몸이 되었다.  그리고는 거친 바위 표면에 맞서 우리는 서로를 압박했고, 또다른 전투로 숨을 몰아쉬며, 땀에 젖었다.  이글거리는 정열의 살과 살이 만나자 우리의 뜨거운 신음 소리가 차가운 밤 하늘 위로 솟아올랐다.]], "_t")
 t("The Spellblaze Chronicles(3): The Farportal", "마법폭발 연대기 (3): 장거리 차원문", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -17301,7 +17301,7 @@ t("Backstab", "뒤치기", "talent name")
 t([[Your quick wit gives you a big advantage against disabled targets, increasing your damage by %d%% for each disabling effect the target is under, to a maximum of %d%%.
 For this purpose, disabling effects are stun, blind, daze, confuse, pin, disarm, cripple and silence.
 In addition, for each disabling effect the target is under, your melee attacks have a %d%% (to a maximum of %d%%) chance to inflict a new effect on them (that they do not already have): either disarm, cripple (25%% power) or pin for 2 turns.
-The chance to further disable the target increases with your Accuracy.]], [[번뜩이는 재치는 무력화된 대상을 상대할때 큰 이점을 가저옵니다. 상대에게 적용된 무력화 효과 하나 당 %d%% 추가 피해를 입히며, 피해는 최대 %d%% 까지 상승합니다.
+The chance to further disable the target increases with your Accuracy.]], [[번뜩이는 재치는 무력화된 대상을 상대할때 큰 이점을 가져옵니다. 상대에게 적용된 무력화 효과 하나 당 %d%% 추가 피해를 입히며, 피해는 최대 %d%% 까지 상승합니다.
 무력화 효과는 기절, 실명, 혼절, 혼란, 속박, 무장해제, 불구 그리고 침묵 효과를 포함합니다.
 대상의 무력화 효과마다 시전자의 근접 공격은 %d%% (최대 %d%%) 확률로 적에게 적용되지 않은 다음 효과 중 하나를 적에게 일으킵니다 : 2 턴 동안의 무장해제, 방해 (25%% 위력), 속박.
 추가적인 무력화 확률은 정확도에 비례해 증가합니다.]], "tformat")
@@ -17935,7 +17935,7 @@ t([[Your defiling touch permeates everything around you, permanently imparting a
 		실질 기술 레벨이 5 이상일 때, 저주의 부정적인 효과를 줄일 수 있습니다. (현재 %d%% 감소됨).]], "tformat")
 t("Dark Gifts", "어둠의 선물", "talent name")
 t([[Your curses bring you dark gifts. Unlocks bonus level %d effects on all of your curses, allowing you to gain that effect when the power level of your curse reaches that level. At talent level 5, the luck penalty of cursed effects is reduced to 1.
-		Talent levels above 5 add bonus power levels to your curses, increasing their effects (currently %0.1f).]], [[저주가 어두운 선물을 가저옵니다. 최대 %d 레벨의 저주 효과를 해금하며, 도달한 저주 레벨의 효과를 적용할 수 있게됩니다. 기술 레벨이 5 일 때, 저주의 행운 감소치가 1 줄어듭니다.
+		Talent levels above 5 add bonus power levels to your curses, increasing their effects (currently %0.1f).]], [[저주가 어두운 선물을 가져옵니다. 최대 %d 레벨의 저주 효과를 해금하며, 도달한 저주 레벨의 효과를 적용할 수 있게됩니다. 기술 레벨이 5 일 때, 저주의 행운 감소치가 1 줄어듭니다.
 		기술 레벨 5 일때, 저주에 추가적인 위력을 더하여 효과를 강화합니다. (현재 %0.1f).]], "tformat")
 t("Ruined Earth", "대지 황폐화", "talent name")
 t("Curse the earth around you in a radius of %d for %d turns. Any who stand upon it are weakened, reducing the damage they inflict by %d%%", "%d 턴 동안, 자신을 기준으로 반경 %d 범위 내에 저주를 내립니다. 범위 내의 모든 대상은 약화되어, 대상이 가하는 피해량을 %d%% 낮춥니다", "tformat", {2,1,3})
@@ -18410,7 +18410,7 @@ This strength comes at a cost: you lose %d%% of your maximum life every turn.  T
 이 기술은 휴식 시 비활성화 됩니다.
 이 강력한 효과에는 그에 걸맞는 댓가를 치뤄야합니다 : 최대 생명력의 %d%% 를 매 턴 잃게됩니다. 이 피해로 죽을 수도 있습니다.
 
-#{italic}#당신은 운이 좋지, 그 행운이 당신이 가진 모든 것을 가저갈거야.#{normal}#]], "tformat")
+#{italic}#당신은 운이 좋지, 그 행운이 당신이 가진 모든 것을 가져갈 거야.#{normal}#]], "tformat")
 t("Self-Judgement", "자가 심판", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target2# #Source#의 %s, 피해를 경감한다!#LAST#.", "logCombat", nil, {"으로"})
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d 피가 뿜어져 나옴#LAST#%s)#LAST#", "tformat")
@@ -24387,7 +24387,7 @@ The mark lasts for 5 turns, grants you visibility of the target (even through wa
 표적은 5 턴간 지속되며, 당신에게 대상의 위치 정보를 제공합니다 (시야 밖에 있거나, 기타 볼 수 없는 상황에서도 볼 수 있습니다) 표적이 된 적은 해드 샷, 일제 사격, 침묵 사격에 약해집니다.]], "tformat")
 t("First Blood", "선제 사격", "talent name")
 t([[You take advantage of unwary foes (those at or above 90%% life). Against these targets, Shoot, Steady Shot and Headshot bleed targets for %d%% additional damage over 5 turns and have a 50%% increased chance to mark (if capable of marking).
-In addition, your Steady Shot, Shoot and Headshot now restore %0.1f stamina on hit.]], [[부주의한 적에 대한 이점을 가저갑니다. (생명력이 90%% 이상인 적). 이러한 대상에게 가해지는 사격, 안정된 사격 그리고 해드샷에는 %d%% 의 추가 출혈 피해가 적용되어 5 턴에 걸쳐 피해를 줍니다. 그리고 50%% 증가된 표적 확률을 갖습니다. (대상에 표적을 걸 수 있을 때에 한합니다).
+In addition, your Steady Shot, Shoot and Headshot now restore %0.1f stamina on hit.]], [[부주의한 적에 대한 이점을 가져갑니다. (생명력이 90%% 이상인 적). 이러한 대상에게 가해지는 사격, 안정된 사격 그리고 해드샷에는 %d%% 의 추가 출혈 피해가 적용되어 5 턴에 걸쳐 피해를 줍니다. 그리고 50%% 증가된 표적 확률을 갖습니다. (대상에 표적을 걸 수 있을 때에 한합니다).
 추가로 당신의 안정된 사격, 사격, 헤드 샷은 명중 시 %0.1f 기력을 회복시킵니다.]], "tformat")
 t("Flare", "조명탄", "talent name")
 t([[Fire a shot at the target tile that blinds enemies for %d turns, marks them for 2 turns and illuminates the area within radius %d for %d turns. Enemies within the illuminated area lose %d defence and stealth power and cannot benefit from concealment.
@@ -24735,7 +24735,7 @@ t("Training and techniques to improve mobility and evade your enemies.  On the b
 t("mobility", "기동", "_t")
 t("Whatever wins the day, wins the day.", "어쨌든, 승리한 날은 승리한날입니다.", "_t")
 t("thuggery", "폭력", "_t")
-t("Bring death from the shadows.", "그림자 속에서 죽음을 가저옵니다.", "_t")
+t("Bring death from the shadows.", "그림자 속에서 죽음을 가져옵니다.", "_t")
 t("assassination", "암살", "_t")
 t("Master the art of throwing knives to fight from a distance.", "투척용 단검을 이용한 원거리 전투을 숙련합니다.", "_t")
 t("throwing knives", "단검 투척", "_t")
@@ -36239,7 +36239,7 @@ t("Zigur was founded by escapees of Conclave experiments during the Allure wars 
 t("The Thaloren and Shaloren elves have never had good relations, and have been outright hostile since the Spellblaze devastated many Thaloren lands.", "탈로레와 샬로레들은 좋은 관계였던 적이 없습니다. 마법폭발이 탈로레들의 땅들을 파괴한 후로는 오히려 서로 적대적입니다.", "init.lua load_tips")
 t("The third elven race, the Naloren, were rendered extinct after a huge cataclysm swept the eastern side of Maj'Eyal into the sea.", "세번째 엘프 종족인 날로레는 마즈'에이알의 동부가 바다에 잠기는 재앙 이후로 멸절한 것으로 여겨집니다.", "init.lua load_tips")
 t("Trolls were once seen as little more than beasts or pests, but the orcs trained them up for use in war and they became much more intelligent and fearsome.", "트롤들은 짐승이나 해충과 다를바 없다고 여겨졌었지만, 오크들이 전쟁에 쓰기 위해 훈련시킨 후로는 지능적이고 무서운 괴물이 되었습니다.", "init.lua load_tips")
-t("Some say that the foot of a halfling is lucky to own. Halflings do not take well to those who enquire too forcefully.", "몇몇 이들은 하플링의 발이 행운을 가져온다고 말합니다. 하플링들은 자신의 발을 강제로 가저가려는 이들을 달가워하지 않습니다.", "init.lua load_tips")
+t("Some say that the foot of a halfling is lucky to own. Halflings do not take well to those who enquire too forcefully.", "몇몇 이들은 하플링의 발이 행운을 가져온다고 말합니다. 하플링들은 자신의 발을 강제로 가져가려는 이들을 달가워하지 않습니다.", "init.lua load_tips")
 t("The Nargol empire was once the largest force in Maj'Eyal, but a combination of the Spellblaze and orcish attacks have dwindled it into insignificance.", "나르골 제국은 한때 마즈'에이알의 가장 강력한 세력이었습니다. 마법폭발과 오크들의 공격으로 인해 지금은 하찮은 세력으로 여겨집니다.", "init.lua load_tips")
 t("Some of the most powerful undead do not fall easily, and only through extreme persistence can they be put to rest.", "강력한 언데드들은 쉽게 쓰러지지 않습니다. 오직 끊임없이 인내하는 이들만이 그들을 영면에 들게 할 것입니다.", "init.lua load_tips")
 t("History says little of the ancient race of yeeks that lived in halfling territory, but vanished before the time of the Spellblaze.", "역사에 따르면, 마법폭발이 있기 전 고대종족 이크들은 갑자기 사라지기 전까지 하플링의 영토 내에서 살았었다고 합니다.", "init.lua load_tips")
