@@ -190,6 +190,19 @@
 ------------------------------ 이상 EoR data/chats ---------------------------------
 
 "game/dlcs/tome-orcs/data/factions.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/general/encounters/fareast.lua"
+"game/dlcs/tome-orcs/data/general/encounters/maj-eyal.lua"
+"game/dlcs/tome-orcs/data/general/events/AAA.lua"
+"game/dlcs/tome-orcs/data/general/events/campfire.lua"
+"game/dlcs/tome-orcs/data/general/events/drills.lua"
+"game/dlcs/tome-orcs/data/general/events/herbs.lua"
+"game/dlcs/tome-orcs/data/general/events/merchant-stall.lua"
+"game/dlcs/tome-orcs/data/general/events/sewer-alligator-nest.lua"
+"game/dlcs/tome-orcs/data/general/grids/manacave.lua"
+"game/dlcs/tome-orcs/data/general/grids/mechstone.lua"
+"game/dlcs/tome-orcs/data/general/grids/mechwall.lua"
+"game/dlcs/tome-orcs/data/general/grids/slumbering_cave.lua"
+"game/dlcs/tome-orcs/data/general/grids/snow_mountains.lua"
 
 ------------------------------ 이하 EoR data/quests (완역) ---------------------------------
 
