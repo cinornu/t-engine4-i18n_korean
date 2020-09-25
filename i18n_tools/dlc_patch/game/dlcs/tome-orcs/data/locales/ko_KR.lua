@@ -239,18 +239,45 @@ t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "이
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/aaa.lua"
 
+t("#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated storage facility.*#WHITE#", "#LIGHT_GREEN#*이상한 삼각형 모양 장치가 있습니다. 무슨 자동 보관 장치 같습니다.*#WHITE#", "_t")
+t("[access store]", "[가게에 접근]", "_t")
+t("[reprogram it to order it to relocate to Kruk Pride]", "[크룩 긍지로 가는 명령을 내릴 수 있도록 재프로그래밍]", "_t")
+t("#LIGHT_GREEN#*You tinker with the store bot and manage to activate the relocation function.*#WHITE#", "#LIGHT_GREEN#*가게의 기능을 대충 손봐서, 간신히 위치 재설정 기능을 활성화했습니다.*#WHITE#", "_t")
+t("[order it to go to Kruk Pride]", "[크룩 긍지로 가도록 명령]", "_t")
 t("[leave]", "[떠난다]", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/aaf.lua"
 
+t([[#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated facility.*#WHITE#
+It seems to be able to teach you the tinker crafting techniques, but requires input to do so (500 gold and a talent category point).]], [[#LIGHT_GREEN#*이상한 삼각형 모양 장치가 있습니다. 스스로 작동하는 장치 같습니다.*#WHITE#
+이 장치는 당신에게 발명 기술을 가르쳐 줄 수 있는 것 같지만, 그러기 위해선 뭔가를 넣어야 합니다. (500 골드와 기술 계열 점수 1점 필요)]], "_t")
+t("[pay 500 gold and a talent category points]", "[500 골드와 기술 계열 점수를 지불한다]", "_t")
+t("#PURPLE#The %s teaches you: #GOLD#Steamtech/Physics#LAST#, #GOLD#Steamtech/Chemistry#LAST# and two starter crafting talents.", "#PURPLE#%s #GOLD#증기 공학/물리학#LAST#과 #GOLD#증기 공학/화학#LAST#, 그리고 기초 기술 두 가지를 가르쳐 주었다.", "log", nil, {"가"})
+t("[access store]", "[가게에 접근]", "_t")
 t("[leave]", "[떠난다]", "_t")
+t([[The machine gives you a small metallic box labelled as #{italic}#"Automated Portable Extractor"#{normal}#.
+It seems to be used to break down metallic items into lumps of metal and infusions into herbs which are used to craft tinkers.
+
+#{bold}#You will have to choose to use it or the Transmogrification Chest when you destroy items. You can choose the default one by using it with no items to destroy.#{normal}#
+]], [[기계가 #{italic}#"휴대용 자동 추출기"#{normal}# 라는 딱지가 붙어 있는 작은 금속 상자를 주었습니다.
+이 물건은 금속제 물건들을 금속 덩어리로, 그리고 주입물들을 약초로 부숴서 발명품의 재료로 쓸 수 있게 해 주는 것 같습니다.
+
+#{bold}#물건들을 파괴할 때 이것을 사용할지, 아니면 변환 상자를 사용할지 선택해야 합니다. 파괴할 물건이 들어 있지 않은 상태에서 어느 한쪽을 사용하면 그것이 기본으로 지정되어, 주운 물건들이 자동으로 들어가게 됩니다.#{normal}#
+]], "_t")
+t("[take it]", "[받는다]", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/destructicus-lead.lua"
 
+t([[#LIGHT_GREEN#*Several loyal Orcs are eagerly waiting outside the palace to meet you; one steps forward, handing you a set of keys.  The word 'DESTRUCTICUS' is etched into one.*#WHITE#
+Chief @playername@!  The Giants are fleeing, and we intercepted a scout carrying this!  We believe they can be used with...  well, you should see for yourself!  Please, come with us to the mountains just south of Kruk Pride!
+#LIGHT_GREEN#*This sounds important.  You should probably head there right away!*#WHITE#]], [[#LIGHT_GREEN#*몇몇 친위대 오크들이 궁전 밖에서 당신을 간절하게 기다리고 있었습니다. 그 중 하나가 앞으로 걸어나와 당신에게 열쇠 꾸러미를 주었습니다. 열쇠 중 하나에 '데스트럭티쿠스' 라고 새겨져 있는 게 보입니다.*#WHITE#
+@playername@ 족장님!  거인들이 도망치고 있고, 이걸 정찰병에게서 빼앗았습니다! 이걸로 쓸 수 있는 건 아마... 음, 직접 보시는 게 나을 겁니다! 크룩 긍지 바로 남쪽의 산으로 와 주십시오!
+#LIGHT_GREEN#*이건 중요한 이야기 같습니다. 곧바로 가 보는게 좋겠습니다!*#WHITE#]], "_t")
+t("Lead the way.", "앞장서라.", "_t")
 
 
 ------------------------------------------------
@@ -1534,7 +1561,7 @@ t("You may continue playing and enjoy the rest of the world.  Your soldiers may 
 section "game/dlcs/tome-orcs/data/quests/annihilator.lua"
 
 t("Research. Tinker. Annihilate.", "연구. 발명. 섬멸.", "_t")
-t("Inside some of your foes you have found some intact pieces that give you new ideas.", "적들의 잔해에서 새로운 영감을 주는, 전혀 손상되지 않은 부품들을 발견했습니다.", "_t")
+t("Inside some of your foes you have found some intact pieces that give you new ideas.", "적들의 잔해에서 전혀 손상되지 않은 부품들을 발견했습니다. 새로운 영감을 얻을 수 있을 것 같습니다.", "_t")
 t("Keep on killing mechanical contraptions or steam-related foes...", "기계 장치들이나 증기 기술을 사용하는 적들을 더 많이 죽여 봅시다...", "_t")
 t("#LIGHT_GREEN#* You destroyed a mecharachnid equiped with a flamethrower. Both those things could prove very useful.#WHITE#", "#LIGHT_GREEN#* 화염방사기를 장착하고 있던 강철 거미를 파괴했습니다. 무기는 물론이고 거미 자체도 굉장히 쓸만해 보입니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have studied the 'remains' of an greater or ultimate hethugoroth, providing new ideas for ways to annihilate with heat.#WHITE#", "#LIGHT_GREEN#* 고위, 또는 궁극의 헤수고로스가 '남긴' 것을 연구했고, 열기를 활용하여 지워버리는 방법의 아이디어를 얻었습니다.#WHITE#", "_t")
@@ -1544,7 +1571,7 @@ t("#LIGHT_GREEN#* The impressive Automated Defense System remains will prove ver
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/destroy-sunwall.lua"
 
-t("The Deconstruction of Falling Stars", "추락하는 별의 해체", "_t")
+t("The Deconstruction of Falling Stars", "추락하는 별들의 해체", "_t")
 t([[The people of the sunwall have lingered on this land for too long and now they are spreading their control to all the mainland. This must not be allowed!
 With the help of their newfound allies in the west they keep a permanent guard over the farportal. The portal must be permanently destroyed to prevent reinforcements.
 The leader of the Sunwall, High Sun Paladin Aeryn must be punished for her crimes against the Prides.]], [[태양의 장벽의 사람들은 이 땅에 너무 오래 남아 있었고, 이제 이 대륙 전체를 손에 넣으려 하고 있습니다. 용납할 수 없는 일입니다!
@@ -1714,22 +1741,52 @@ t("#LIGHT_GREEN#* You have destroyed the Observatory, the Gates of Morning defen
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/to-mainland.lua"
 
+t("You Shall Pass!", "넌 지나간다!", "_t")
+t("The Atmos tribe is not our sole problem. The Sunwall as grown in strength since the Scourge from the West came and murdered the other Prides leaders.", "아트모스 부족만 문제가 아닙니다. 서쪽에서 온 재앙이 긍지의 지도자들을 도륙낸 이래로 태양의 장벽은 힘을 키워 왔습니다.", "_t")
+t("Our brothers on the mainland lay enslaved, but before we free them you must secure a way to the mainland.", "본토에 있던 형제들은 노예가 되었지만, 그들을 해방하려면 본토로 가는 길을 확보해야 합니다.", "_t")
+t([[Go to the sunwall outpost. Show them the wrath of Garkul, show no mercy for they have none for us.
+]], [[태양의 장벽 전초기지로 가세요. 그들에게 가르쿨의 분노를 보여 주고, 그들이 우리에게 했던 것처럼, 자비를 보이지 마세요.
+]], "_t")
+t("#LIGHT_GREEN#* You have destroyed the sunwall outpost, and secured a way to the mainland.#WHITE#", "#LIGHT_GREEN#* 태양의 장벽 전초기지를 파괴하고 본토로 가는 길을 확보했습니다.#WHITE#", "_t")
+t([[The way to the mainland is now clear.
+Travel there using the bridge on the worldmap.]], [[본토로 가는 길이 깨끗이 청소되었습니다.
+세계 지도의 다리를 이용해서 본토를 탐험하세요.]], "_t")
+t("To the mainland!", "본토로!", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/voyage.lua"
 
+t("Voyage to the Center of Eyal", "에이알의 중심을 향한 항해", "_t")
+t("In the Palace of Fumes you found a geothermal vent that digs deep into the planet's core.", "연기의 궁전에서 이 행성의 핵까지 통하는 깊은 지열관을 발견했습니다.", "_t")
+t("Strange mutated giants came out. You must find the source of those titans!", "그곳에서 기이하게 변이된 거인들이 나왔습니다. 그 거인들이 어디서 온 건지 알아내야 합니다!", "_t")
+t("#LIGHT_GREEN#* Travelling deep within Eyal you found the source of all corruptions: the dead god #{bold}##CRIMSON#Amakthel#LAST##{normal}#.#WHITE#", "#LIGHT_GREEN#* 에이알의 심층을 탐험하고 이 모든 것의 원인을 알아냈습니다. 바로 죽은 신 #{bold}##CRIMSON#아마크텔#LAST##{normal}##WHITE#입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/weissi.lua"
 
+t("Mystery of the Yetis", "예티들의 수수께끼", "_t")
+t("You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "잘 보존된 예티 근육을 찾아냈습니다. 누군가는 이것에 관심을 보일 것입니다.", "_t")
+t("For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "예티 근육들을 잃어버린 도시의 폐허에 있는 염동력 기계에게 넘기면 엄청난 보상을 받게 될 겁니다.", "_t")
+t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* 이상한 염동력 기계를 도왔고, 모든 보상을 얻어냈습니다. 여전히 잘못된 일을 한 것 같은 느낌이 듭니다...", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/yeti-abduction.lua"
 
+t("Yeti Reinforcements", "예티 지원군", "_t")
+t("You found a yeti mind control tinker. If you can tame 8 wild yetis and send them back to Kruk Pride they can be trained and sent back to you at your request using a psychoportation beacon.", "예티 정신 조작기를 찾아냈습니다. 예티를 여덟 마리 조련하여 크룩 긍지로 보내면, 긍지에서 그들을 훈련시켜 당신이 원할 때 염동 순간이동 비컨을 이용해서 당신에게 보내 줄 것입니다.", "_t")
+t("Wild yetis are mostly found in yeti's caves.", "야생 예티들은 보통 예티 동굴에 있습니다.", "_t")
+t("#LIGHT_GREEN#* Captured eight yetis (will be available to summon at level 20).#WHITE#", "#LIGHT_GREEN#* 예티를 8 마리 포획했습니다. (20 레벨 달성 시 소환할 수 있습니다)#WHITE#", "_t")
+t("#LIGHT_GREY#* Captured %d/8 yetis.#WHITE#", "#LIGHT_GREY#* 예티를 %d/8 마리 포획했습니다.#WHITE#", "tformat")
+t("Yeti's Psychoportation Beacon", "예티 염동 순간이동 비컨", "_t")
+t("Call a trained yeti to your side.", "훈련된 예티 한 마리를 동료로 불러냅니다.", "_t")
+t("Yetis left to call: %d", "남은 예티: %d 마리", "tformat")
+t("call a trained yeti for help", "훈련된 예티를 불러내 도움을 받는다", "_t")
+t("The yetis are not ready yet.", "예티가 아직 준비되지 않았다.", "log")
 t("Yeti", "예티", "_t")
+t("You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "정신 조작기에서 염동 순간이동 비컨을 뽑아냈다. 예티들은 훈련을 받을 시간이 필요할 것이다.", "log")
 
 
 ------------------------------------------------
@@ -3655,7 +3712,7 @@ t("Tinkers with stuff.", "발명가와 장비.", "_t")
 t("other", "기타", "_t")
 t("Learn the mechanical side of steamtech.", "증기 공학의 공학적인 측면을 익힙니다.", "_t")
 t("physics", "물리학", "_t")
-t("Learn the chemistry side of steamtech.", "증기공학의 화학적인 측면을 익힙니다.", "_t")
+t("Learn the chemistry side of steamtech.", "증기 공학의 화학적인 측면을 익힙니다.", "_t")
 t("chemistry", "화학", "_t")
 t("All this metalworking has improved you.", "오랜 금속 가공으로 육체를 단련합니다.", "_t")
 t("blacksmith", "대장간", "_t")
