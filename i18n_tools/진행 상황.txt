@@ -327,6 +327,22 @@
 "game/dlcs/tome-orcs/data/zones/yeti-caves/objects.lua"
 "game/dlcs/tome-orcs/data/zones/yeti-caves/zone.lua" Khelerd 완
 
+------------------------------ 이하 EoR data/texts (완역) ---------------------------------
+
+"game/dlcs/tome-orcs/overload/data/texts/intro-orc-whitehooves.lua"
+"game/dlcs/tome-orcs/overload/data/texts/intro-orc-yeti.lua"
+"game/dlcs/tome-orcs/overload/data/texts/intro-orc.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-cosmetic_race_orc.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-mage_technomancer.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_all_classes.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_mage.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_rogue.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_tinker_eyal.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-race_whitehooves.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-race_yeti.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-tinker_annihilator.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-tinker_psyshot.lua"
+"game/dlcs/tome-orcs/overload/data/texts/unlock-wyrmic_undead.lua"
 
 ------------------------------ 이하 본편 data/chats (완역) ---------------------------------
 
