@@ -9622,7 +9622,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 83 entries
+-- 79 entries
 t("tract of destruction", "tract of destruction", "_t")
 t("tract of anarchy", "tract of anarchy", "_t")
 t("tract of acceptance", "tract of acceptance", "_t")
@@ -9844,48 +9844,6 @@ Chapter 8 - Orcs (extinct)
 Chapter 9 - Sher'Tul (extinct)
 Chapter 10 - Monstrous Races
 Chapter 11 - Dragons
-]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 1 - Humans", "Loremaster Greynot's Analysis of the Races - Chapter 1 - Humans", "_t")
-t([[I begin my writings with a study of the humans, currently the most populous of the races in Maj'Eyal. The greatest kingdom in number are by far the Cornacs, but mention should also be made of the Sholtar and Mardrop kingdoms, and the Higher bloodline. The biggest human population centre is around the citadel of Last Hope, though many other settlements exist across all corners of Maj'Eyal.
-
-Cornacs are normally around 5'9", with generally dark hair, brown eyes and ruddy features. Most Cornacs take up roles as tradesmen, farmers, or other manual labour jobs. It is a sad fact that the majority of bandit groups tend to be dominated by Cornacs. Cornac families tend to be large, and since the Age of Dusk their population has expanded rapidly, especially in the farming lands in the west and around Last Hope in the south.
-
-Sholtar are generally 5'11", with dark skin, hair and eyes. They originate from the south-east of Maj'Eyal, and are few in number since the Cataclysm tore much of their land into the sea. Their affinity with nature is renowned, and they are often found employed as healers, infusion crafters or wyrmic huntsmen.
-
-Mardrop humans are all but extinct, after the Spellhunt and the plagues during the Age of Dusk. They were known to be powerful spellcasters, and as such were prime targets by the spellhunters. However some trace of them can still be found, as their fiery hair and freckled skin oft can appear in those of distant descent. A few are rumoured to still possess citadels and towers in remote locations.
-
-Highers are on average 6'0", with fair hair and skin and blue or grey eyes. The majority of scholarly roles are taken up by Highers, and they tend to fill most of the noble classes. Some say this is due to discrimination and elitism, though these may simply be jealous sentiments. There are also rumours that the superior intellects of Highers are due to arcane experiments instigated by the ancient Conclave during the Age of Allure, but I have found no records to support this idea and must consider it to be baseless. The Higher bloodline is renowned as a mark of excellence, and mixing with lower bloods is strongly frowned upon.
-
-All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and remain under the rule of his son King Tolak the Fair. A full discussion of the long human history would require a far more detailed document.]], [[I begin my writings with a study of the humans, currently the most populous of the races in Maj'Eyal. The greatest kingdom in number are by far the Cornacs, but mention should also be made of the Sholtar and Mardrop kingdoms, and the Higher bloodline. The biggest human population centre is around the citadel of Last Hope, though many other settlements exist across all corners of Maj'Eyal.
-
-Cornacs are normally around 5'9", with generally dark hair, brown eyes and ruddy features. Most Cornacs take up roles as tradesmen, farmers, or other manual labour jobs. It is a sad fact that the majority of bandit groups tend to be dominated by Cornacs. Cornac families tend to be large, and since the Age of Dusk their population has expanded rapidly, especially in the farming lands in the west and around Last Hope in the south.
-
-Sholtar are generally 5'11", with dark skin, hair and eyes. They originate from the south-east of Maj'Eyal, and are few in number since the Cataclysm tore much of their land into the sea. Their affinity with nature is renowned, and they are often found employed as healers, infusion crafters or wyrmic huntsmen.
-
-Mardrop humans are all but extinct, after the Spellhunt and the plagues during the Age of Dusk. They were known to be powerful spellcasters, and as such were prime targets by the spellhunters. However some trace of them can still be found, as their fiery hair and freckled skin oft can appear in those of distant descent. A few are rumoured to still possess citadels and towers in remote locations.
-
-Highers are on average 6'0", with fair hair and skin and blue or grey eyes. The majority of scholarly roles are taken up by Highers, and they tend to fill most of the noble classes. Some say this is due to discrimination and elitism, though these may simply be jealous sentiments. There are also rumours that the superior intellects of Highers are due to arcane experiments instigated by the ancient Conclave during the Age of Allure, but I have found no records to support this idea and must consider it to be baseless. The Higher bloodline is renowned as a mark of excellence, and mixing with lower bloods is strongly frowned upon.
-
-All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and remain under the rule of his son King Tolak the Fair. A full discussion of the long human history would require a far more detailed document.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "_t")
-t([[There are two main kingdoms of halflings, the Eldoral and the Nargol, though both mix often. All halflings are just under 4' tall, and are generally noted for their large feet and curly hair. Eldoral are usually fair-haired and blue-eyed. Nargol tend to be darker in hair and complexion, with hazel eyes, and oft slightly shorter than their cousins. Halflings are known for their intelligence and quick wit, but also their arrogance in dealing with other races - something they do not deny, for they say it is well-deserved.
-
-Halflings used to be the most dominant race in Maj'Eyal, with control of many strategic Sher'Tul ruins and rule over great swathes of land. The recorded wars between humans and halflings are numerous, and the halflings were the most often victors. However the Age of Pyre brought them great ruin, for the orcs seemed to target them more fiercely than any other race, and many of their communities were wiped out. This has forced them to rely more on trade with other races in modern times, especially with the humans.
-
-The Eldorals used to have a kingdom in the north of the continent, but most of it was destroyed during the wars with the orcs, and not much has been rebuilt. However they do still have many agricultural settlements such as Derth, albeit shared with other races. The Eldoral are known for their great healers and farmers, and their slingers are considered the best in all the lands.
-
-The Nargols once had many strong fortifications in the south of Maj'Eyal, but though they suffered less than the Eldoral in the Age of Pyre they still lost great numbers, and much of their centres of population dwindled. The rise of Last Hope has accelerated this process, as many communities are subsumed into the city's suburbs. Nargols are known as great jewellers, alchemists and rune-crafters, and possess some of the best tactical minds of all the races. Many generals and military advisers are employed from their kingdom.
-
-The most famous of all halflings is Queen Mirvenia, most famed for her saving of King Toknor in Last Hope from a siege of orcs. Mystery still surrounds how she managed to bypass the winter's icy floes with her army to reach the citadel in time to rescue Toknor. Some have hypothesised that she enlisted the aid of sorcerers, but none of her troops would talk about the journey afterwards. She wed King Toknor in the second year of the Age of Ascendancy, and gave birth to the first known mixed race child - Tolak the Fair.
-]], [[There are two main kingdoms of halflings, the Eldoral and the Nargol, though both mix often. All halflings are just under 4' tall, and are generally noted for their large feet and curly hair. Eldoral are usually fair-haired and blue-eyed. Nargol tend to be darker in hair and complexion, with hazel eyes, and oft slightly shorter than their cousins. Halflings are known for their intelligence and quick wit, but also their arrogance in dealing with other races - something they do not deny, for they say it is well-deserved.
-
-Halflings used to be the most dominant race in Maj'Eyal, with control of many strategic Sher'Tul ruins and rule over great swathes of land. The recorded wars between humans and halflings are numerous, and the halflings were the most often victors. However the Age of Pyre brought them great ruin, for the orcs seemed to target them more fiercely than any other race, and many of their communities were wiped out. This has forced them to rely more on trade with other races in modern times, especially with the humans.
-
-The Eldorals used to have a kingdom in the north of the continent, but most of it was destroyed during the wars with the orcs, and not much has been rebuilt. However they do still have many agricultural settlements such as Derth, albeit shared with other races. The Eldoral are known for their great healers and farmers, and their slingers are considered the best in all the lands.
-
-The Nargols once had many strong fortifications in the south of Maj'Eyal, but though they suffered less than the Eldoral in the Age of Pyre they still lost great numbers, and much of their centres of population dwindled. The rise of Last Hope has accelerated this process, as many communities are subsumed into the city's suburbs. Nargols are known as great jewellers, alchemists and rune-crafters, and possess some of the best tactical minds of all the races. Many generals and military advisers are employed from their kingdom.
-
-The most famous of all halflings is Queen Mirvenia, most famed for her saving of King Toknor in Last Hope from a siege of orcs. Mystery still surrounds how she managed to bypass the winter's icy floes with her army to reach the citadel in time to rescue Toknor. Some have hypothesised that she enlisted the aid of sorcerers, but none of her troops would talk about the journey afterwards. She wed King Toknor in the second year of the Age of Ascendancy, and gave birth to the first known mixed race child - Tolak the Fair.
 ]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "_t")
 t([[The dwarves are an exceptionally secretive and quiet race, reluctant to talk about themselves to outsiders unless hefty bribes are paid. Many times in their history they have cut off all contact with the other races for no known reason, shutting tight the great iron doors that cover the trade passages to their mines and their cavernous cities. However of late they have become more open with the outside world, and I have even had the pleasure of receiving the unique distinction of being allowed to enter their main city, the Iron Throne, and speaking with several of their guild leaders.
