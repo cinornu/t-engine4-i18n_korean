@@ -365,6 +365,12 @@ t("She looks tired and wounded.", "그녀는 지쳐 보이고 다친 것 같습�
 t("mental", "정신적 효과", "_t")
 t("physical", "물리", "_t")
 t("spell", "주문", "_t")
+t("[Improve %s by +%d]", "[%s +%d]", "tformat", nil, {"를"})
+t("Improve", "상승", "_t")
+t("Learn", "배운다", "_t")
+t("[%s talent %s (+%d level(s))]", "[%s %s (+%d 레벨)]", "tformat")
+t("Select the party member to receive the reward:", "보상을 받을 파티 멤버를 선택하세요:", "_t")
+t("[Allow training of talent category %s (at mastery %0.2f)]", "[기술 계열 %s 배운다 (숙련치 %0.2f)]", "tformat", nil, {"를"})
 
 
 ------------------------------------------------
@@ -424,7 +430,7 @@ t("Unfolding the space time structure...", "시공간 구조를 다시 펴는 �
 t("something", "무언가", "_t")
 t("unknown", "알 수 없음", "_t")
 t(" #LIGHT_GREEN#[%0.0f healing]#LAST#", " #LIGHT_GREEN#[%0.0f 회복]#LAST#", "tformat")
-t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s.", "logMessage")
+t("#Source# hits #Target# for %s (#RED##{bold}#%0.0f#LAST##{normal}# total damage)%s.", "#Source1# #Target3# 공격했다. %s (총 #RED##{bold}#%0.0f#LAST##{normal}# 피해)%s", "logMessage")
 t("#Source# hits #Target# for %s damage.", "#Source1# #Target3# 공격하여 %s 피해를 입혔다.", "logMessage")
 t("#Source# receives %s.", "#Source2# %s 피해를 받았다.", "logMessage")
 t("#Target# receives %s from #Source#.", "#Target2# %s #Source4#부터 받았다.", "logMessage", nil, {"을"})
@@ -13225,47 +13231,47 @@ Turthel paused reflectively before nodding his head slowly, and it was clear tha
 
 #{bold}#제 1 장 : 운명적인 만남#{normal}#
 
-이 이야기는 매혹의 시대부터 시작된다, 내가 아직 젊었을 때, 그리고 젊음과 늙음에 대한 생각이 아직 우리 종족에게 압박감을 주었다.  이것은 수많은 이야기들중 하나에 불과하다. 이 시대에 모든 종족에게 닥친 비극과, 또 영웅들의 이야기는 아주 수도 없이 많기 때문이다.  아는 여기에 내 이야기를 쓴다. 내 비극과, 내가 영웅심의 이름 아래 행했던 어리석은 짓들, 그 모든 이야기들이 세계를 뒤흔들고, 우리 역사를 송두리 채 바꾼 거대한 힘으로 엮여있다 : 마법폭발.
+이 이야기는 매혹의 시대부터 시작된다, 내가 아직 젊었을 때, 그리고 젊음과 늙음의 압박이 우리 종족에게 미쳤을 때.  이 시대에 모든 종족에게 닥친 비극과, 또 영웅들의 이야기는 아주 수도 없이 많기에, 이것은 수많은 이야기들 중 하나에 불과하다.  나는 여기에 내 이야기를 기록한다. 내 비극과, 내가 영웅심의 이름 아래 행했던 어리석은 짓들. 그 모든 이야기들이 세계를 뒤흔들고, 우리 역사를 송두리 채 바꾼 거대한 힘으로 엮여있다 - 마법폭발.
 
-우리의 지도자 에피나스가 카르'크룰의 수장과 정상 회담을 할 때 나는 리나니일을 처음 만났다.  나는 그 커다란 인간이 우리 도시의 관문을 걸어 나오는 것을 보았다. 우리 사람들은 그의 살찐 몸과 뻣뻣한 머릿결, 그의 털 옷과 자랑스러운 자신에 찬 걸음거리를 줄곧 처다보고 있었었다.  우리들, 날씬한 엘프들 사이에서 그가 얼마나 이상하게 보였는지 상상이나 할 수 있겠는가...  우리들 중 몇몇은 그를 야만인이라고 생각했지만, 그의 차가운 눈 뒤에 커다란 힘이 숨겨져있음을 나는 볼 수 있었다.  그는 에이알 북방의 강인한 인간 태생으로, 누군가 말하길, 북방의 겨울 하늘에서 너울거리는 초록색 화염에서 힘을 얻는다고 한다.   투르텔이 그의 이름이였고, 몇 세기 동안은, 그와 같은 이를 남방의 대지와 북방의 동토, 그 어디에서도 찾을 수 없으리라.  그의 오른손에는 카르'크룰의 반지가 끼워져있었다. 불타는 듯한 루비로 장식된 빛나는 황금 고리, 마즈'에이알의 가장 위대한 인간 마법사 연합. 그곳의 지도자라는 것을 밝히는 상징이였다.
+우리의 지도자 에피나스가 카르'크룰의 수장과 정상 회담을 할 때 나는 리나니일을 처음 만났다.  나는 그 몸집 큰 인간이 우리 도시의 정문을 걸어 나오는 것을 보았다. 우리 사람들은 그의 살찐 몸과 뻣뻣한 머릿결, 그의 털 옷과 자랑스러운 자신에 찬 걸음거리를 줄곧 처다보고 있었었다.  우리들, 날씬한 엘프들 사이에서 그가 얼마나 이상하게 보였는지 상상이나 할 수 있겠는가 ?  우리들 중 몇몇은 그를 야만인이라고 생각했지만, 그의 차가운 눈 뒤에 커다란 힘이 숨겨져있음을 나는 느낄 수 있었다.  그는 에이알 북방의 강인한 인간 종족 태생으로, 누군가 말하길, 북방의 겨울 하늘에서 너울거리는 초록색 화염에서 힘을 얻는다고 한다.   그 이름은 투르텔이였다. 나는 몇 세기 동안은, 그와 같은 이를 남방의 대지와 북방의 동토, 그 어디에서도 찾을 수 없으리라 생각했다.  그의 오른손에는 카르'크룰의 반지가 끼워져 있었다. 불타는 듯한 루비로 장식된 빛나는 황금 고리, 마즈'에이알의 가장 위대한 인간 마법사 연합. 그곳의 지도자라는 것을 밝히는 상징이였다.
 
-그는 두 쌍둥이 딸을 갖이 데리고 왔다. 리나니일과 네이라. 그녀들은 투르텔의 뒤에서 오고있었다.  겉으로는 똑같이 생겼으나, 그녀들의 성격은 정 반대라는 것을 한 눈에 느꼈다.  그녀들 모두 진홍색 머리칼을 길게 땋고 있었으며, 그 백옥같은 피부에 태양빛이 반짝였다.  둘 모두 비단 로브를 입고있었으나, 네이라는 노랑색과 주황색 장식이 새겨져 있었고, 리나니일의 로브는 파랑색과 은색 장식이 되어있었다.  네이라의 두 눈엔 빛이 감돌았고 엘발라의 뜰을 지나며, 보이는 모든 아름다움에 대해 활기찬 목소리로 말하고 있었다.  그에 반해 리나니일은 조용했고, 보이는 모든 것을 차갑게 분석하고, 계산하는 듯한 엄숙한 표정을 짓고있었다.  하지만 그 차가운 외모와는 다르게 나는 불꽃을 보았다. 아니, 일어나는 들불을. 밝은 불길은 터저나오려고 하지만, 그 불꽃들은 절제되어 있었다. 일행이 성채에 당도하자, 우리는 눈을 마주쳤다. 그러자 나는 그녀 내면의 거친 영혼과 터저나오는 생각들을 느낄 수 있었다. 그녀의 의지와 정신력은 가히 무적이라고 칭할만했다. 나는 숨을 들이킬 수 밖에 없었다.
+그는 두 쌍둥이 딸과 동행했다. 리나니일과 네이라. 그녀들은 투르텔의 뒤를 따라왔다.  겉으로는 똑같이 생겼으나, 그녀들의 성격은 정 반대라는 것을 한 눈에 느꼈다.  그녀들 모두 진홍색 머리칼을 길게 땋고 있었으며, 그 백옥같은 피부에 태양 빛이 반짝였다.  둘 모두 비단 로브를 입고 있었으나, 네이라의 로브는 노랑색과 주황색 장식이 새겨져 있었고, 리나니일의 로브는 파랑색과 은색 장식이 수놓아저 있었다.  네이라의 두 눈엔 빛이 감돌았고, 엘발라의 뜰을 지나며 보이는 모든 아름다움에 대해 활기찬 목소리로 이야기하고 있었다.  그에 반해 리나니일은 조용했고, 보이는 모든 것을 차갑게 분석하고, 계산하는 듯한 엄숙한 표정을 짓고있었다.  하지만 그 차가운 외모와는 다르게 나는 불꽃을 보았다. 아니, 타오르는 들불을. 밝은 불길은 그녀에게서 터저나오려고 하지만, 그 불꽃들은 차갑게 절제되어 있었다. 일행이 성채에 당도하자, 그녀와 나는 눈을 마주쳤다. 그러자 나는 그녀 내면의 거친 영혼과 터저나오는 생각들을 느낄 수 있었다. 그녀의 의지와 정신력은 가히 대적할 자가 없는 듯 했다. 나는 숨을 들이마실 수 밖에 없었다.
 
-우리 종족들 중, 대부분은 어떻게 인간에 푹 빠질 수 있는 것인지 조차 이해하지를 못한다.  하지만 그들은 리나니일을 몰랐다.  나를 제외하곤, 그 누구도.  살아있는 화염인 것 마냥, 그녀는 감정과 욕망의 불덩어리 같았다.  리나니일의 강렬한 정신은 그 어떤 반대도 용납하지 않았고, 그녀의 재치와 말 한마디 한마디가 그녀 주위의 모든 것을 매료하고, 복종케했다.  그녀는 아름다웠고, 눈부셨다. 마치 여름 태양처럼. 그러나 그녀는 차갑고, 쌀쌀맞고, 그녀가 원치 않는다면, 그녀에게 닿을 수 없었다.  이것은 그 후, 오랜 시간동안 변하지 않았다.
+우리 종족들 중 대부분은 어떻게 인간에게 애정을 품을 수 있는지 조차 이해하지 못한다.  하지만 그들은 리나니일을 몰랐다.  나를 제외하곤, 그 누구도.  살아있는 화염인 것 마냥, 그녀는 감정과 욕망의 불덩어리 같았다.  리나니일의 강렬한 정신은 그 어떤 반대자도 용납하지 않았고, 그녀의 재치와 말 한마디 한마디가 그녀 주위의 모든 것을 매료하고, 복종케했다.  그녀는 아름다웠고, 눈부셨다. 마치 여름 태양처럼. 그러나 그녀는 차갑고, 쌀쌀맞고, 그녀가 원치 않는다면, 그녀에게 닿을 수 없었다.  이것은 그 후에도, 오랜 시간동안 변하지 않았다.
 
-네이라가 관문을 나왔을 떄, 그녀가 나에게 따뜻한 인사를 건냈다는 것을 겨우 알아차릴 수 있었다.  반면, 리나니일은 고개를 끄덕이기만했다.  뒤이어, 우리 지도자와, 손님들이 대실로 들어가고, 자리에 앉자 나는 따라갔다.  정상 회담은 새로운 노력을 계획하는 것 부터 시작됐다. 바로 우리들 중 가장 학식있는 마법사들이 쉐르'툴 장거리 차원문의 힘을 해방하는 것이였다.  그 누구도 손 대지 못한 채, 대지 밑에 잠든 고대 종족의 유물.  그 차원문의 힘은 우리와 오크사이의 전쟁을 빠르게 끝낼, 결정적인 한 방이였다.  마법폭발. 그들이 이름 붙였고, 그 이름이 우리가 경외와 경의를 담고 불렀던 이름이였다.
+네이라가 관문을 나왔을 떄, 그녀가 나에게 따뜻한 인사를 건냈다는 것을 겨우 알아차릴 수 있었다.  반면, 리나니일은 고개를 끄덕이기만 했다.  뒤이어, 우리 지도자와 손님들이 대실로 들어가고, 자리에 착석하자 나는 그들을 따라갔다.  정상 회담은 새로운 계획을 논의 하는 것 부터 시작됐다. 바로 우리들 중 가장 뛰어난 마법사들이 쉐르'툴 장거리 차원문의 힘을 해방하는 것이였다.  그 누구도 손 대지 못한 채 남겨진, 고대 종족의 잠들어 있는 유물.  그 차원문의 힘은 우리와 오크 사이의 전쟁을 빠르게 끝낼, 결정적인 한 방이였다.  마법 폭발. 그들이 이름 붙였고, 그 이름이 우리가 경외와 경의를 담고 불렀던 이름이였다.
 
 에피니아스 왕은 회의를 시작했다. 우선 그는 자기 주변에 앉아있던 손님들부터 소개했다.  “이 자가 우리 장군이오.” 그가 나를 가르키며 말했다. “샬로레 군대의 사령관, 가웨일.”  리나니일이 나를 처다보더니 얼빠진 표정을 지었다.
 
-“뭐라고요?” 나의 갑옷과 사선으로 장착한 칼집을 보며 그녀가 외쳤다.  그녀는 우리를 거들떠 보지도 않은 채, 또 그녀를 초대한 우리 지도자에게 주의를 기울이지 않은 채 말하길,  “아버지, 이게 대체 무슨 의미인가요?” 그녀는 건장한 남자에게 말했다.  “아버지께서는 샬로레는 강력한 전투 마법사들이 많이 있다고 말씀하셨지만, 이 장군이라는 사람은 옆구리에 검을 차고 있군요.  단지 전사에 불과한 이가 어떻게 기예에 통달한 이들을 지휘할 수 있습니까?”
+“뭐라고요?” 나의 갑옷과 가슴 위, 사선으로 장착한 칼집을 보며 그녀가 외쳤다.  그녀는 회의에 참가한 다른 이들을 거들떠 보지도 않은 채, 또 그녀를 초대한 우리 왕에게 주의를 기울이지 않은 채 말하길,  “아버지, 이게 대체 무슨 의미인가요?” 그녀는 건장한 남자에게 말했다.  “아버지께서는 샬로레는 강력한 전투 마법사들이 많이 있다고 말씀하셨지만, 이 사령관이라는 사람은 옆구리에 검을 차고 있군요.  단지 전사에 불과한 이가 어떻게 기예에 통달한 이들을 지휘할 수 있는거죠?”
 
-에피니아스는 격노한 것처럼 보였으나, 나는 그녀의 엄청난 무례함과 건방짐에 갑자기 웃음을 터뜨렸다.  “단지 전사에 불과한 이?” 나는 믿을 수 없을 정도로 숨을 몰아쉬며 말했다.  “아가씨, 겉모습만 보고 사람을 판단하는 것은 좋지 않은 것 같군요.  만약 제가 보는 것이 맞다면, 저는, 뻔뻔한 여자 아이가 아니라, 화염과 폭발의 위대한 주인이자 그의 냉혈한 아버지보다 강한 의지의, 또 강인한 가닥의 방적자가 될 이를 보는 것이니까요.  하지만 아가씨가 저보다 기예에 통달했다고 여기지 마십시오!  나 아라니온 가웨일, 고위 마법 검사이자, 강렬한 원소력을 그러모으는 자입니다.  저는, 제 칼에 주문을 불어넣어, 아가씨의 짧은 생애 동안 보았던 오크보다 더 많은 오크를 쓰러뜨렸습니다. 어쩌면 평생 볼 오크보다 많이 쓰려뜨렸겠죠.”
+에피니아스는 격노한 것처럼 보였으나, 나는 그녀의 엄청난 무례함과 건방짐에 갑자기 웃음이 터저나왔다.  “단지 전사에 불과한 이?” 나는 믿을 수 없을 정도로 숨을 몰아쉬며 말했다.  “아가씨, 겉모습만 보고 사람을 판단하는 것은 좋지 않은 것 같군요.  만약 제가 보는 것이 맞다면, 저는, 뻔뻔한 여자 아이가 아니라, 화염과 폭발의 위대한 주인이자 그의 냉혈한 아버지보다 강한 의지를 갖고, 강인한 정신을 가진 가닥의 방적자가 될 이를 보는 것이니까요.  하지만 아가씨가 저보다 기예에 통달했다고 여기지 마십시오!  나 아라니온 가웨일, 고위 마법 검사이자, 강력한 원소의 힘을 그러모으는 자입니다.  저는, 제 칼에 주문을 불어넣어, 아가씨의 짧은 생애 동안 보았던 오크보다 더 많은 오크를 쓰러뜨렸습니다. 어쩌면 평생 볼 오크보다 많이 쓰려뜨렸겠죠.”
 
-그녀는 나를 처다보더니 갑자기 흥미롭다는 표정을 지었다.  “그것 참 신기한 기술이군요.  멀리서 적을 불태울 수 있다면 아무 소용도 없겠지만.  하지만 어느날, 우리가 오크를 함께 사냥한다면, 제 기술을 좀 보여드릴수도 있겠네요.  하지만 하지만 전장에서 저를 능가하기는 쉽지 않을 거예요.”
+그녀는 나를 처다보더니 갑자기 흥미롭다는 표정을 지었다.  “그것 참 신기한 기술이군요.  멀리서 적을 불태울 수 있다면 아무 소용도 없겠지만.  하지만 언젠가, 우리가 오크를 함께 사냥한다면, 제 기술을 좀 보여드릴수도 있겠네요.  하지만 하지만 전장에서 저를 능가하기는 쉽지 않을 거예요.”
 
 “아가씨께 깊은 인상을 주려면 노력해야겠군요.” 놀리는 투로 내가 말했다.  그러자 그녀의 입술에서 옅은 미소가 번저나갔다.
 
 투르텔은 끄응하는 소리를 내며 그 덥수룩한 머리를 왕에게 돌렸다.  “계속 합시다.” 그가 말했다. 이미 보고받은 대로, 그는 무뚝뚝한 태도로 회의를 이어나갔다.
 
-에피니아스는 목을 가다듬고는 다시 의자에 앉았다.  “우리에겐 위대한 계획이 있소.” 그가 말을 시작했다. “몇 년 동안이나 우리는 오크의 공격에 시달려왔소.  처음에 우리는 매혹의 전쟁 때문에 약해졌으나, 이제 우리는 우리의 힘을 다시 회복하여, 공동의 적에게 안식을 선사할 때요.  오크들은 거의 항상 우리를 침략하겠다고, 문명을 영원히 말살시키겠다고 위협해 왔소.  우리 모두, 너무 많은 것을 잃어왔소.  투르텔, 당신의 상실을 애석하게 생각하오.”  털 옷을 입은 남자는 표정을 바꾸지 않았으나, 나는 그녀의 딸들이 엄숙한 생각에 잠긴 것을 볼 수 있었다.
+에피니아스는 목을 가다듬고는 다시 의자에 앉았다.  “우리에겐 원대한 계획이 있소.” 그가 말을 시작했다. “몇 년 동안이나 우리는 오크의 공격에 시달려왔소.  처음에 우리는 매혹의 전쟁 때문에 약해졌으나, 이제 우리는 우리의 힘을 다시 회복하여, 공동의 적에게 안식을 선사할 때임을 자각해야하오.  오크들은 거의 항상 우리를 침략했고, 문명을 영원히 말살시키겠다고 위협해 왔소.  우리 모두, 너무 많은 것을 잃어왔소.  투르텔, 당신의 상실을 애석하게 생각하오.”  털 옷을 입은 남자는 표정을 바꾸지 않았으나, 나는 그녀의 딸들이 엄숙한 생각에 잠긴 것을 볼 수 있었다.
 
-“나는 이곳, 동쪽에 위치한 쉐르'툴 장거리 차원문의 실험에 참여하는 마도사들을 이끌어 왔소.  우리는, 우리가 봉인된 힘을 일깨워 파괴적인 에너지 파동을 오크 군대로 발산할 수 있다고 믿어 의심치 않소.  만약 모든 종족이 협동해, 오크 군대를 일망타진한다면, 우리는 이 전쟁을 단 한번의 속공으로 끝낼 수 있을 것이오.  오크들은 회복될 수조차 없게 몰락할 것이고, 에이알은 그들의 존재를 말끔히 정화할 것이오.
+“나는 이곳 동쪽에 위치한 쉐르'툴 장거리 차원문의 실험에 참여하는 마도사들을 이끌어 왔소.  우리는, 우리가 봉인된 힘을 일깨워 파괴적인 에너지 파동을 오크 군대로 발산할 수 있다고 믿어 의심치 않소.  만약 모든 종족이 협동해, 오크 군대를 일망타진한다면, 우리는 이 전쟁을 단 한 번의 속공으로 끝낼 수 있을 것이오.  오크들은 회복될 수조차 없게 몰락할 것이고, 에이알은 그들의 존재를 말끔히 정화할 것이오.
 
-“나는 이미 다른 종족들의 지도자와 접견했소.  하플링들은 우리를 전적으로 지원했고,  나르골 섭정회는 쉐르'툴 폐허에 대한 역사 연구를 우리와 공유했소.”
+“나는 이미 다른 종족들의 지도자와 접견했소.  하플링들은 우리를 전적으로 지원한다고 선언했고,  나르골 섭정회는 쉐르'툴 폐허에 대한 역사 연구 일부를 우리와 공유했소.”
 
 하지만 투르텔은 갑자기 그들을 비난하기 시작했다.  “인간 노예를 이용해 얻은 연구 성과겠지!” 그가 소리쳤다.  그는 화를 가라앉히며 조용히 돌아섰다.  “당신네 바다 동족들과 숲 동족들은 또 무어라했소?”
 
-에피니아스는 그의 눈을 냉정하게 처다보며 말했다.  “날로레들은 워낙 긍지높은 종족이기에, 협력을 희망하지 않는다고 말했소.  그들은 자신의 땅을 자신들의 힘으로 지킬 수 있다고 생각하오.  하지만 나는 결국엔 그들이 우리에게 감사할 것이라고 믿고있소...  탈로레들 역시 열성적이지는 않소.  하지만 우리는 그들의 왕과 여왕과 대화해, 우리의 작전이 매우 안전할 것임을 확신시켰소.  그들은 우리, 또는 마법의 힘을 완전히 믿지않지만, 이 건에 대해서는 우리와 대적하지는 않소.  샤툴 역시 우리들처럼 오크의 잇다른 국경 공격으로 골머리를 썩고있소.  그들은 어디든 그들 깃발 아래라면, 적절한 곳에 적절한 도움을 줄것이오.  우리는 그들을 특별한 존재로 여기지도 않고, 도움도 필요없소. 하지만, 우리는 우리가 참여시킬 수 있는 모든 것을 참여시키도록 하는 것이 신중하다고 생각했소.
+에피니아스는 그의 눈을 냉정하게 처다보며 말했다.  “날로레들은 워낙 긍지높은 종족이기에, 협력을 희망하지 않는다고 말했소.  그들은 자신의 땅을 자신들의 힘으로 지킬 수 있다고 생각하오.  하지만 나는 결국엔 그들이 우리에게 감사할 것이라고 확신하오...  탈로레들 역시 열성적이지는 않소.  하지만 우리는 그들의 왕과 여왕과 대화해, 우리의 작전이 매우 안전할 것임을 확신시켰소.  그들은 우리, 또는 마법의 힘을 완전히 믿지않지만, 적어도 이 건에 대해서는 우리와 대적하지는 않소.  샤툴 역시 우리들처럼 오크의 잇다른 국경 공격으로 골머리를 썩고있소.  그들은 어디든 그들 깃발 아래라면, 적절한 곳에서 적절한 도움을 줄것이오.  우리는 그들의 특별한 도움이 필요 없으나, 우리가 참여시킬 수 있는 모든 종족을 참여시키도록 하는 것이 현명하다고 생각했소.
 
-“다른 인간 지도자들도 대부분 찬성했소.  하지만 몇몇은 우리들의 활동에 전적으로 비 이성적인 공포를 내비쳤소.  아아, 쉐르'툴과 관련된 전설과 신화 때문에 사람들은 쉐르'툴과 관련된 것이라면 먼저 겁에 질려버리오.  하지만 우리는, 우리가 이곳에서 무엇을 하고있는지 잘 알고있다고 확신하오.  카르'크룰 고위층들을 나는 분명히 이해할 것이오.  그리고 당신들의 연합은 미천한 왕 열여명의 가치가 있소.”
+“다른 인간 지도자들도 대부분 찬성했소.  하지만 몇몇은 우리들의 활동에 전적으로 비이성적인 공포를 내비쳤소.  아아, 쉐르'툴과 관련된 전설과 신화 때문에 사람들은 쉐르'툴과 관련된 것이라면 먼저 겁에 질려버리오.  하지만 우리는, 우리가 이곳에서 무엇을 하고있는지 잘 알고있다고 확신하오.  카르'크룰 고위층들을 나는 분명히 이해할 것이오.  그리고 당신들의 연합은 미천한 왕 열여명의 가치가 있소.”
 
 건장한 인간은 에피니아스의 눈을 뚫어지게 응시했다. 그러더니 그녀의 딸들에게로 몸을 돌리며 말했다.  “어떻게 생각하느냐, 딸들아?”
 
-네이라가 먼저 대답했다. 그리고 그 목소리엔 홍조 띈 볼의 이미지와 감정이 실려있었다.  “저는 샬로레 왕이 오만하고 말도 안된다고 생각합니다.  우리가 가진, 어머니의 기억을 동정하고 있으나, 마치 도구처럼 이용하려고 하는 것 같군요.  그가 무엇을 하고싶은지는 알겠습니다. 허나, 우리가 쉐르'툴이 남긴 유산들의 미묘하고, 세세한 부분까지 정말 제대로 알고 있나요?  천 년 동안 아무도 그것을 만지지 않았고, 그들의 본래 힘이 무엇이였는지 조차 우리는 아직도 알지 못합니다.  우리가 그것을 가지고 놀 수 있다고 생각하다니, 그것은 정말 오만한 생각입니다.  어떻게 쓰는 지 조차 모르는 무기를 휘두르는 것은 완전히 어리석은 짓입니다.”
+네이라가 먼저 대답했다. 그리고 그 목소리엔 그녀의 홍조 띈 볼의 감정이 실려있었다.  “저는 샬로레 왕이 오만하고 말도 안된다고 생각합니다.  우리가 가진, 어머니의 기억을 동정하고 있으나, 그것을 마치 도구처럼 이용하려고 하는 것 같군요.  그가 무엇을 하고 싶은지는 알겠습니다. 허나, 우리가 쉐르'툴이 남긴 유산들의 미묘하고, 세세한 부분까지 정말 제대로 알고나 있습니까?  천 년 동안 아무도 유물에 손을 대지 않았고, 우리는 그들의 힘이 무엇이였는지조차 알지 못합니다.  우리가 그것을 가지고 놀 수 있다고 생각하다니, 그것은 정말 오만한 생각입니다.  어떻게 쓰는 지 조차 모르는 무기를 휘두르는 것만큼 어리석은 짓은 없습니다.”
 
-방은 조용해졌다. 그리고 나는 에피나스가 조용히 분노를 삭히고 있는 것을 보았다.  그는 그런 공공연한 비판에 익숙치 않았다.  그리고는 리나니일이 말하기 시작했다. 그 목소리는 낮고 차가웠으나, 모든 이가 그녀의 말에 귀를 기울였다.  “몇년 동안 이루어진 오만함 이라는 이름의 노력은 결국 많은 업적을 낳았습니다.  우리의 위대한 예술작품들은 어디에서 왔을까요? 또, 우리 위대한 도시들은, 우리의 사회의 기반이 되는 마법 방적 기술은 어디에서 왔을까요?  그 과업들 역시 누군가의 눈에는 오만함이였을 것입니다.  오만함 때문에 행동하는 것은 수치심이 없으나, 우리는 잘못된 겸손에서 아무 것도 얻지 못할겁니다.  쉐르'툴의 힘이 공포와 두려움 때문에 사용되지 않은 지 너무 오랜 시간이 흘렀습니다.”  나는 그녀의 눈이 흥분으로 빛나는 것을 보았다.  “우리가 봉인을 해제할 위대한 힘을 생각해보세요!  이 오크들과의 전쟁은 그저 시작에 불과할 것입니다.  우리 모두 그 힘의 수혜를 입게 될 것입니다.  이런 힘을 묻어버리는 것은 범죄라고 생각합니다.”
+방은 조용해졌다. 그리고 나는 에피나스가 조용히 분노를 삭히고 있는 것을 보았다.  그는 그런 공공연한 비판에 익숙치 않았다.  그리고는 리나니일이 말하기 시작했다. 그 목소리는 낮고 차가웠으나, 모든 이가 그녀의 말에 귀를 기울였다.  “몇 년 동안 계속되는 오만함 이라는 이름의 노력은 결국 많은 업적을 낳았습니다.  우리의 아름다운 예술 작품들은 어디에서 왔을까요? 또, 우리 위대한 도시들은, 우리의 사회의 기반이 되는 마법 방적 기술은 어디에서 왔을까요?  그 과업들 역시 누군가의 눈에는 오만함이였을 것입니다.  오만함 때문에 행동하는 것은 수치심이 없으나, 우리는 잘못된 겸손에서 아무 것도 얻지 못할겁니다.  공포와 두려움 때문에 쉐르'툴의 힘은 너무 오랫동안 잠들어 있었습니다.”  나는 그녀의 눈이 흥분으로 빛나는 것을 보았다.  “우리가 봉인을 풀 위대한 힘을 생각해보세요!  이 오크들과의 전쟁은 그저 시작에 불과할 것입니다.  우리 모두 그 힘의 수혜를 입게 될 것입니다.  이런 힘을 묻어버리는 것은 옳지 않다고 생각합니다.”
 
-투르텔은 반사적으로 멈칫하더니 느리게 끄덕였고, 리나니일의 말이 그의 생각과 부합하다는 것이 자명해보였다.  “아주 좋군,” 그가 에피니아스를 바라보며 느리게 말했다.  “우리는 당신과 함께하오.”  네이라가 침묵을 지키며 음울한 걱정을 하고있었지만, 자매의 눈에는 만족이 빛이 스처지나갔다.]], "_t")
+투르텔은 반사적으로 멈칫하더니 느리게 끄덕였고, 리나니일의 말이 그의 생각과 부합하다는 것은 자명해보였다.  “아주 좋군,” 그가 에피니아스를 바라보며 느리게 말했다.  “우리는 당신과 함께하오.”  네이라가 침묵을 지키며 음울한 걱정을 하고있었지만, 자매의 눈에는 만족이 빛이 스처지나갔다.]], "_t")
 t("The Spellblaze Chronicles(2): A Night to Remember", "마법폭발 연대기 (2): 기억해야 할 밤", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -13315,47 +13321,47 @@ She strode forward then, and grabbing me roughly by my hauberk she pulled my lip
 
 #{bold}#제 2 장 : 기억해야 할 밤#{normal}#
 
-3 일 후, 나는 고통스러웠던 꿈에서 깨어났고, 내 방 창문이 열려있던 것을 발견했다. 비단 커튼이 산들바람에 펄럭였다.  잠깐동안의 눈부심이 사라지자, 나는 리나니일이 침대 발치에 서있는 것을 보았다. 얇은 하늘색의 드레스가 차가운 밤 공기에, 그녀의 피부에 꼭 달라 붙어 있었다.  그녀는 오팔과 창백한 룬이 조각되고, 엮여진 캐시미어 허리띠를 차고있었고, 금으로 만들어진 목걸이와 팔찌가 그녀의 목과 손목을 아름답게 장식하고 있었다.  그녀는 긴 지팡이를 손에 가볍게 쥐고 있었고, 지팡이의 끝에서 루비가 반짝였다.  그녀의 붉은 머리카락은 나를 처다보는 동안, 바람에 휘날리고 있었다.
+3 일 후, 나는 고통스러웠던 꿈에서 깨어났고, 내 방 창문이 열려있는 것을 발견했다. 비단 커튼이 산들바람에 펄럭였다.  잠깐동안의 눈부심이 사라지자, 나는 리나니일이 침대 발치에 서있는 것을 보았다. 얇은 하늘색의 드레스가 차가운 밤 공기에, 그녀의 피부에 착 달라 붙어 있었다.  그녀는 오팔과 창백한 룬이 조각되고 엮여진 캐시미어 허리띠를 차고 있었고, 금으로 만들어진 목걸이와 팔찌가 그녀의 목과 손목을 아름답게 장식하고 있었다.  그녀는 긴 지팡이를 손에 가볍게 쥐고 있었고, 지팡이의 끝에서 루비가 반짝이고 있었다.  그녀의 붉은 머리카락은 나를 처다보는 동안, 바람에 휘날리고 있었다.
  
-“여기서 뭐하는 겁니까?” 내가 물었다.  나는 어떻게 그녀가 경비병들을 뚫고 내 침실로 숨어들어왔는지 굳이 묻지 않았다.  그녀가 마법을 사용했다면, 대의회에 참여할 정도로 기예에 통달한 자가 아닌 이상, 그녀의 존재 조차 느끼지 못했을 것을 나는 알고있었다.
+“여기서 뭐하는 겁니까 ?” 내가 물었다.  나는 어떻게 그녀가 경비병들을 뚫고 내 침실로 숨어들어왔는지 굳이 묻지 않았다.  그녀가 마법을 사용했다면, 대의회에 참여할 정도로 기예에 통달한 자가 아닌 이상, 그녀의 존재 조차 느끼지 못했을 것을 나는 알고있었다.
  
-그녀가 눈길을 침실로 돌리기 전까지 그녀는 나를 잠시동안, 천천히 바라보았다. 침실을 둘러보는 그녀의 눈은, 내 개인적인 공간을 세세하게 분석하는 듯 했다.  “오크 분견대 하나가 이곳 북쪽을 약탈하고 있어요.” 그녀는 괴로운 목소리로 말했다.  선반에서 예장용 단검을 집더니 그것을 훑어보며 다시 말하길,  “그 오크들이 외딴 엘프 거주지에 문제를 일으킨 것 같아요.”
+그녀가 눈길을 침실로 돌리기 전까지 그녀는 나를 잠시동안, 천천히 바라보았다. 침실을 둘러보는 그녀의 눈은 내 개인적인 공간을 세세하게 분석하는 듯 했다.  “오크 분견대 하나가 이곳 북쪽을 약탈하고 있어요.” 그녀는 괴로운 목소리로 말했다.  선반에서 예장용 단검을 집더니 그것을 훑어보며 다시 말하길,  “그 오크들이 외딴 엘프 거주지에 문제를 일으킨 것 같아요.”
  
 “제가 곧 습격대를 소집하겠습니다.” 나는, 겸손같은 건 잊어버린 채, 침대에서 빠르게 일어났다.
  
-“아, 지루한 사람!” 그녀가 불평했다, 단검을 내려놓고 빙글빙글 돌면서 내게 말했다.  “같이 오크들을 사냥하자던 약속은 어디 간건가요?”
+“아, 지루한 사람 !” 그녀가 불평했다, 단검을 내려놓고 내 주위를 빙글빙글 돌면서 내게 말했다.  “같이 오크들을 사냥하자던 약속은 어디 간건가요?”
  
-“뭐라고요, 우리 둘만이서?”
+“뭐라고요, 우리 둘이서?”
  
 “물론이죠.” 그녀가 내 벗은 몸을 위 아래로 느리게 응시하며 말했다. 그 표정은 왠지모르게 즐거워 하는 듯 했다.  “아니면 아직 진짜 남자가 아니신건가?”
  
-“엘프에게는 이상한 질문이군요, 아가씨.  하지만 저는 이 오크놈들을 저 혼자서 쓸어버릴 수 있습니다. 그건, 제가 확신합니다.  하지만, 아가씨가 저와 함께 가고싶으시더라도, 아가씨의 안전은 장담할 수 없군요.”
+“엘프에게는 이상한 질문이군요, 아가씨.  하지만 저는 오크 습격자 놈들을 저 혼자서 쓸어버릴 수 있습니다. 그건, 제가 확신합니다.  하지만, 저와 함께 가더라도, 아가씨의 안전은 장담할 수 없군요.”
  
-그러자 그녀가 웃었다, 그 소리는 마치 수정이 울리는 것과 같았다.  “그럼 잘 됐네요!  강철 막대기를 가져와요, 누가 더 잘하는지 한 번 봐보자구요.”  나는 미소지으며 수락했고, 곧장 무기고로 가, 강철 전투 장화와 사슬 갑옷, 그 위에 흉갑을 입고, 강철 전투 장갑을 껴입었다.  리나니일은 무례하게 쯧쯧거렸다.  “꼭 그 깡통을 입어야 하나요?”
+그러자 그녀가 웃었다, 그 소리는 마치 수정이 울리는 것 같았다.  “그럼 잘 됐네요!  강철 막대기를 가져와요, 누가 더 잘하는지 한 번 봐보자구요.”  나는 미소지으며 수락했고, 곧장 무기고로 가, 강철 전투 장화와 사슬 갑옷, 그 위에 흉갑을 입고, 강철 전투 장갑을 껴입었다.  리나니일은 무례하게 쯧쯧거렸다.  “꼭 그 깡통을 입어야 하나요?”
  
 “이건 제 전투 장비들입니다.” , 면갑이 달린 투구를 쓰고, 어꺠에 두꺼운 망토를 걸치며 말했다.
  
-“골렘 같아보여요,” 그녀는 짜증을 내며 중얼거렸다.  “이리와요, 지루해지고 있으니까.”  그녀는 창문 밖으로 잽싸게 뛰어나갔다. 우아하게 비행하며, 밤 속으로 날아가며.
+“골렘 같아보여요,” 그녀는 짜증을 내며 중얼거렸다.  “빨리와요, 지루해지고 있으니까.”  그녀는 창문 밖으로 잽싸게 뛰어나갔다. 우아하게 비행하며, 밤 속으로 날아가며.
  
-나는 벽걸이에서 내 대검을 가져왔다.  단순해 보이는 검이지만, 손잡이 부분은 무거운 월석으로만 장식 되어있다.  하지만 이 초라한 외견은 마치 힘을 숨기는 듯 했다. 허영심이 작품성을 압도하기 전의, 무기가 진열관이 아닌 전투에 더 어울렸었던, 초기 드워프들의 대장 기술로 만들진 명검.   강철과 뼈를 가볍게 잘라내고 무뎌디지 않는 칼날을 갖고있다.  달을 베는 자. 그것이 이 칼의 이름이다, 비록 지금은 내 손을 떠나갔지만.  나는 창 밖으로 뛰어 내리기 전에, 칼을 허공에 휘들러, 공기의 쿠션을 만들며 리나니일을 재빨리 쫓아갔다.
+나는 벽걸이에서 내 대검을 가져왔다.  단순해 보이는 검이지만, 손잡이 부분은 무거운 월석으로만 장식 되어있다.  하지만 이 초라한 외견은 마치 힘을 숨기는 듯 했다. 겉치레에 지나치게 신경쓰기 전의, 무기가 진열관이 아닌 전투에 더 어울렸었던 초기 드워프들의 대장 기술로 만들진 명검.   강철과 뼈를 가볍게 잘라내고 무뎌디지 않는 칼날을 갖고 있었다.  달을 베는 자. 비록 지금은 내 손을 떠나갔지만, 그것이 이 칼의 이름이였다.  나는 창 밖으로 뛰어 내리기 전, 칼을 허공에 휘둘며 공기의 쿠션을 만들어내어 리나니일을 재빨리 쫓아갔다.
  
-리나니일이 내려오기 전까지, 우리는 빠른 속도로 구름 조각을 해처나가며 20 분간을 침묵 속에서 비행했다.  나는 낮은 언덕들 사이에서 야영의 불빛이 자리를 틀고 있는 것을 볼 수 있었다. 우리가 가까이 다가가자, 오크들의 찬가가 뚜렷하게 들렸다.  “어떻게 접근할까요?” 나는 그녀가 어떤 전술을 쓰고싶을지 궁금해하며, 그녀에게 소리쳤다.
+리나니일이 내려오기 전까지 우리는 빠른 속도로 구름 조각 속을 해처나가며 20 분간을 침묵 속에서 비행했다.  나는 낮은 언덕들 사이에서 야영지의 불빛이 자리를 틀고 있는 것을 볼 수 있었다. 우리가 가까이 다가가자, 오크들의 찬가가 뚜렷하게 들렸다.  “어떻게 접근할까요?” 나는 그녀가 어떤 전술을 쓰고싶을지 궁금해하며, 그녀에게 소리쳤다.
  
-“바로 가죠.” 그녀가 그렇게 말하고는 엄청난 속도를 내며 오크 야영지의 바로 위에서, 그들 한 가운데로 내려왔다.  나는 욕지거리를 하며 그녀를 바로 쫓아갔다. 그녀의 바로 옆에 착륙해 달을 베는 자를 휘두르자, 시끄러운 경보 소리 가운데, 오크들이 분노로 일어나, 무기를 손에 쥐었다.  검과 창, 할버드로 이루어진 검은 고리가 우리를 둘러싸자, 리나니일이 야생적인 웃음을 내보이며 말했다. “춤 출 시간이에요.”
+“바로 가죠.” 그녀가 그렇게 말하고는 엄청난 속도를 내며 오크 야영지의 바로 위에서, 그들 한 가운데로 내려왔다.  나는 욕지거리를 하며 그녀를 바로 쫓아갔다. 그녀의 바로 옆에 착륙해 달을 베는 자를 휘두르자, 시끄러운 경보 소리 속에서 오크들이 분노하며 일어나 무기를 손에 쥐었다.  검과 창, 할버드로 이루어진 검은 고리가 우리를 둘러싸자, 리나니일이 야성적인 웃음을 내보이며 말했다. “춤 출 시간이에요.”
  
-그녀는 오른 손에서 자주색 마법 에너지 광선을 뿜어냈다. 그녀가 왼손에 쥐고있던 지팡이의 끝은 마치 횃불처럼 불타올랐다.  나는 내 검을 높게 처들자, 마찬가지로 화염이 일어났다. 그리고서는 곧장 넓은 호를 그리며 가장 가까운 오크 하나를 쓰러뜨리고, 그 뒤에서 우리를 노려보던 오크 분대에게 화염의 충격파를 날려보냈다.  나는 그르렁거리는 열풍과 함께 앞으로 밀고나가, 내 앞의 오크들을 격퇴했다.  열기가 밀려오자, 오크들은 얼굴을 가리기 위해 무기를 떨궜고, 나는 만족스러운 웃음과 함꼐 달려나가 적들의 머리통을 잘라내었다.  하지만 내가 검을 휘두르려 할 때, 뒤에서 닥쳐온 화염 폭발로 인해 나는 땅바닥으로 고꾸라졌다. 뒤를 돌아보니, 리나니일이 팔을 넓게 벌리며 화염 기둥에 서있었다.  “너무 뜨거운가보죠, 아라니온?” 그녀가 오크들에게 근처의 오크들에게 무어라고 소리치자, 오크들의 피부는 바짝 튀겨졌고, 이윽고 그들의 살은 검은 먼지로 타버렸다.
+그녀는 오른손에서 자주색 마법 에너지 광선을 뿜어냈다. 그녀가 왼손에 쥐고있던 지팡이의 끝은 마치 횃불처럼 불타올랐다.  나는 검을 높게 처들어, 마찬가지로 화염이 일게했다. 그리고서는 곧장 큰 호를 그리며 가장 가까운 오크 하나를 쓰러뜨리고, 그 뒤에서 우리를 노려보던 오크 분대에게 화염의 충격파를 날려보냈다.  나는 그르렁거리는 열풍과 함께 앞으로 밀고나가, 내 앞의 오크들을 격퇴했다.  열기가 밀려오자, 오크들은 얼굴을 가리기 위해 무기를 떨궜고, 나는 만족스러운 웃음과 함꼐 달려나가 적들의 머리통을 잘라내었다.  하지만 내가 검을 휘두르려 할 때, 뒤에서 닥쳐온 화염 폭발로 인해 나는 땅바닥으로 고꾸라졌다. 뒤를 돌아보니, 리나니일이 팔을 넓게 벌리며 화염 기둥에 서있었다.  “너무 뜨거운가보죠? 아라니온?” 그녀가 오크들에게 근처의 오크들에게 무어라고 소리치자, 오크들의 피부는 바짝 튀겨졌고, 이윽고 그들의 살은 검은 먼지가 되어 흩어졌다.
  
-나는 투덜거리며, 나의 검을 얼음 조각으로 변하게 했다. 그리고는 재빠르게 휘둘러 그녀 근처의 오크들에게 얼어붙는 냉기의 흐름을 쏟아부었다. 그러자 오크들은 화염이 그들을 삼키기도 전에, 유리처럼 부셔졌다.  리나니일은 내 이름을 욕하면서 그녀 주위의 화염을 바닥으로 떨구면서 말했다.  “방해하지 말아요!” 그녀가 외쳤다. 그러고는 오크 야영지의 다른 쪽으로 순간이동 하더니 오크들을 박살내기 시작했다.
+나는 투덜거리며, 나의 검을 얼음 조각으로 변하게 했다. 그리고는 재빠르게 휘둘러 그녀 근처의 오크들에게 얼어붙는 냉기의 흐름을 쏟아부었다. 그러자 오크들은 화염이 그들을 삼키기도 전에, 유리처럼 부셔졌다.  리나니일은 나를 욕하면서 그녀 주위의 화염을 바닥으로 떨구면서 말했다.  “방해하지 말아요!” 그녀가 외쳤다. 그러고는 오크 야영지의 다른 쪽으로 순간이동 하더니 오크들을 박살내기 시작했다.
 
-나는 크게 웃으며 내게 붙은 짐승들에게 몸을 돌렸다. 나는 적에게 검격을 가할 때마다 대지를 요동치게 해, 내 검이 그들의 목에 스치기도 전에 그들을 넘어뜨렸다. 그러고선, 나는 오크들이 모여있는 곳으로 강력한 전류를 발사하고, 그대로 돌진해 그 전류의 빛이 닿는 동안, 그 괴물들이 미처 반응할 틈도 없는, 아주 짧은 순간 사이에 그들을 쓰러뜨렸다.  나는 전투의 뜨거운 열기에 취해 다시한번 웃었다. 이윽고 나는 투구와 판갑을 벗고, 전장을 자유롭게 뛰어 다니며, 먼지보다 못한 적들을 학살하는 즐거움에 빠저들었다.  달을 베는 자가 오크들의 살덩이를 꿰뚫으며 춤추자, 그들의 검은 피가 경쾌한 리듬으로 뿜어저 나와, 분수가되었다.
+나는 크게 웃으며 내게 붙은 짐승들에게 몸을 돌렸다. 나는 적에게 검격을 가할 때마다 대지를 요동치게 해, 검이 그들의 목에 스치기도 전에 그들을 쓰러뜨렸다. 그러고선, 나는 오크들이 모여있는 곳으로 강력한 전류를 발사하고, 그대로 돌진해 그 전류의 빛이 닿는 동안, 그 괴물들이 미처 반응할 틈도 없는 아주 짧은 순간 사이에 그들을 쓰러뜨렸다.  나는 전투의 뜨거운 열기에 취해 다시 한번 웃었다. 그 후, 나는 투구와 판갑을 벗고, 전장을 자유롭게 뛰어 다니며, 먼지보다 못한 적들을 학살하는 즐거움에 빠저들었다.  달을 베는 자가 오크들의 살덩이를 꿰뚫으며 춤추자, 그들의 검은 피가 경쾌한 리듬으로 뿜어저 나와, 분수가되었다.
 
-오크 야영지 저 멀리에서는 리나니일이 거니는 곳마다, 폭발과 비명이 터저나왔다. 저 멀리 리나니일이 있는 곳을 보고있노라면, 허공에 불타오르는 팔 다리가 날아다니고 화염 줄기가 밤을 찢어놓고 있는 것이 보였다.  그 여자, 주술사는 화염에 감싸져있었고, 그 두 눈에는 빛이 맺혀있었다. 화염과 함께 춤추는 리나니일은 마치 화염이 깃든 요정처럼 보였다.  그보다 더 아름답고 경외 - 인상깊은 광경은 나는 전에 보지 못했다.
+오크 야영지 반대 쪽에서는 리나니일이 거니는 곳마다, 폭발과 비명이 터저나왔다. 저 멀리 리나니일이 있는 곳을 보고있노라면, 허공에 불타오르는 팔 다리가 날아다니고 화염 줄기가 밤을 찢어놓고 있는 것이 보였다.  그 여자, 주술사는 화염에 감싸져있었고, 그 두 눈에는 빛이 맺혀있었다. 화염과 함께 춤추는 리나니일은 마치 화염이 깃든 요정처럼 보였다.  그보다 더 아름답고 경외 - 인상깊은 광경은 나는 전에 보지 못했다.
 
-오크들의 머릿수가 빠르게 줄어들자, 오크들은 도망치기 시작했다. 그러나 나는 순간이동해 그들의 퇴로를 막고 파도의 힘을 불러, 그들이 도망쳐나왔던, 리나니일의 화염 속으로 그들을 다시 몰아넣었다.  화염의 벽을 등진 오크들에게 나는 돌진했다. 많은 수의 오크들이 바람에 부서진 나뭇잎처럼 떨어졌다.  끈적이는 피가 사방에 흩날렸다. 이윽고, 내가 달을 가르는 자를 오크들에게 몇 번 찔러넣고, 리나니일의 손에서 폭발 일어나자 전투가 끝이 났다.  그 어떤 오크도 움직이지 못했다. 400 구 이상은 되어보이는 시체들이 땅을 수놓았다.
+오크들의 머릿수가 빠르게 줄어들자, 오크들은 도망치기 시작했다. 그러나 나는 순간이동해 그들의 퇴로를 막고 파도의 힘을 불러, 그들이 도망쳐나왔던 리나니일의 화염 속으로 그들을 다시 몰아넣었다.  화염의 벽을 등진 오크들에게 나는 돌진했다. 많은 수의 오크들이 바람에 부서진 나뭇잎처럼 떨어졌다.  끈적이는 피가 사방에 흩날렸다. 이윽고, 내가 달을 가르는 자를 오크들에게 몇 번 찔러넣고, 리나니일의 손에서 폭발이 일어나자 전투가 끝이 났다.  그 어떤 오크도 움직이지 못했다. 400 구 이상은 되어보이는 시체들이 땅을 수놓았다.
  
-리나니일과 나는 서로를 바라보며 섰다. 전투의 아드레날린이 우리를 떠나자, 우리는 갑작스레 찾아온 탈진으로 숨을 몰아쉬었다.  “숫자를 세는 걸 까먹어버렸군.” 들숨과 날숨 사이, 짧은 찰나 동안 내가 말을 꺼냈다. “누가 더 많이 죽였는지 말이야…”  그녀는 땀이 줄줄 흐르는 얼굴로 나를 보고는 수줍게 웃었다.  생채기와 화염으로 인해 그녀의 로브가 너덜너덜해졌고, 한 쪽 어깨끈은 헐거워졌따.  땀으로 반짝이는 그녀의 가슴은 숨결마다 위 아래로, 흔들렸다. 그녀의 깊은 눈이 나를 적나라한 강렬함으로 나를 처다봤다.
+리나니일과 나는 서로를 바라보며 섰다. 전투의 아드레날린이 우리를 떠나자, 우리는 갑작스레 찾아온 탈진으로 숨을 몰아쉬었다.  “숫자를 세는 걸 까먹어버렸군.” 들숨과 날숨 사이, 짧은 찰나 동안 내가 말을 꺼냈다. “누가 더 많이 죽였는지 말이야…”  그녀는 땀이 줄줄 흐르는 얼굴로 나를 보고는 수줍게 웃었다.  생채기와 화염으로 인해 그녀의 로브가 너덜너덜해졌고, 한 쪽 어깨끈은 과도하게 늘어나 헐거워졌다.  땀으로 반짝이는 그녀의 가슴은 숨결마다 위 아래로, 흔들렸다. 그녀의 깊은 눈이 나를 적나라한 강렬함으로 나를 처다봤다.
  
-그녀는 내게로 성큼성큼 걸어오더니, 나의 사슬 갑옷을 거칠게 잡더니 나의 입술을 그녀의 입술로 가져갔다.  키스는 뜨겁고 격렬했으며, 그녀가 내 아랫입술을 깨물자 전투의 들끓는 피가 내게 다시 돌아왔다.  나는 그녀에게 다시 키스를 하고, 그녀의 몸을 붙잡고, 내게로 꽉, 끌어당겼다. 우리의 입술은 하나였다.  그녀는 정열적으로 나의 남은 갑옷들을 벗기더니, 땅으로 내던졌다. 내가 그녀의 비단 옷을 슬며시 벗기자, 별들 아래 우리는 맨 몸이 되었다.  그리고는 거친 바위 표면에 맞서 우리는 서로를 압박했고, 또다른 전투로 숨을 몰아쉬며, 땀에 젖었다.  이글거리는 정열의 살과 살이 만나자 우리의 뜨거운 신음 소리가 차가운 밤 하늘 위로 솟아올랐다.]], "_t")
+그녀는 내게로 성큼성큼 걸어오더니, 나의 사슬 갑옷을 거칠게 잡고 나의 입술을 그녀의 입술로 가져갔다.  키스는 뜨겁고 격렬했으며, 그녀가 내 아랫 입술을 깨물자 전투의 들끓는 피가 다시 나를 달구었다.  나는 그녀에게 다시 키스를 하고, 그녀의 몸을 붙잡고, 내게로 꽉, 끌어당겼다. 우리의 입술은 하나였다.  그녀는 정열적으로 나의 남은 갑옷들을 벗기더니, 그것들을 땅으로 내던졌다. 내가 그녀의 비단 옷을 슬며시 벗기자, 별빛 아래 우리는 맨 몸이 되었다.  그리고는 거친 바위 표면 위에서 우리는 서로를 압박했고, 또다른 전투로 숨을 몰아쉬며, 땀에 젖었다.  이글거리는 정열의 살과 살이 만나자 우리의 뜨거운 신음 소리가 차가운 밤 하늘 위로 솟아올랐다.]], "_t")
 t("The Spellblaze Chronicles(3): The Farportal", "마법폭발 연대기 (3): 장거리 차원문", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -13451,85 +13457,86 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
  
 나는 갑작스러운 질문에 놀라 그녀를 처다보았다.  내 정신은 순간 이 이상한 의문에 큰 당혹감을 느꼈다, 불과 1 분 전에 섹스의 열기에서 갓 회복된 참이였다.  “내가 왜 지도자가 되어야하지?” 나는 그녀에게 되물었다.
  
-“당신은 강하잖아요,” 그녀가 대답했다.  “저는 당신이 당신 종족 중 그 누구보다강하다고 생각해요.  당신은 그런 힘으로 사람들을 인도해야해요.”
+“당신은 강하잖아요,” 그녀가 대답했다.  “나는 당신이 당신 종족 중 그 누구보다 강하다고 생각해요.  당신은 그런 힘으로 사람들을 인도해야해요.”
  
-나는 부드럽게 웃었다.  “힘만으로는 사람들을 이끌기에 충분하지 않습니다.  책임감이 필요하죠, 조심스럽게 결단을 내려야하고, 그리고 무엇보다도 – 정치죠.  저는 그런 것들에게 흥미를 느끼지 못합니다.  에피니아스야 말로 그런 것들에게 더 잘맞는 사람이죠.  나는 칼을 쥐고 전장에서 병사들을 이끄는 것. 그것으로 충분합니다. 정치인들이 내 칼 끝이 어디를 겨누는지 걱정하게 하는거요.”
+나는 부드럽게 웃었다.  “힘만으로는 사람들을 이끌기에 충분하지 않아.  필요한 건 책임감이지. 아주 조심스럽게 결단을 내려야하고, 그리고 무엇보다도 – 정치에 뛰어나야 해.  나는 그런 것들에게 흥미 없어.  에피니아스야말로 그런 것들에게 더 잘맞는 사람이야.  나는 칼을 쥐고 전장에서 병사들을 이끄는 것. 그걸로 충분해. 정치인들이 내 칼 끝이 어디를 겨누는지 걱정하게 하는거지.”
 
-그녀는 잠시 침묵했다, 내 대답에 만족하지 못한 모양이였다.  “당신은 지금 계획에 행복하지 않은 것 처럼 보이는군요.”
+그녀는 잠시 침묵했다, 내 대답에 만족하지 못한 모양이였다.  “지금 이 계획이 맘에 안드는거 아닌가요?”
 
-순간 나에게 거대한 충격이 덮처왔다.  어떻게 그녀가 내 생각을 그리도 확실히 읽고 있었는지, 나는 매우 놀랐다.  나는 내 걱정을 남들에게, 그 누구에게 발설하지 않았으나, 그녀는 그리도 쉽게 나를 간파했다.  우리가 처음 만난 뒤로 불과 5 주. 그리고 그녀의 날카로운 시야에서 숨을 수 있는 방법은 아무 것도 없을 것 같았다.
+순간 나에게 거대한 충격이 덮처왔다.  어떻게 그녀가 내 생각을 그리도 확실히 읽을 수 있었을까, 나는 매우 놀랐다.  나는 내 생각을 남들에게, 그 누구에게 발설하지 않았음에도 불구하고, 그녀는 나를 쉽게 간파했다.  우리가 처음 만난 뒤로 불과 5 주. 그녀의 날카로운 시야에서 숨을 수 있는 방법은 아무 것도 없는 것 같았다.
  
-The preparations for the Spellblaze were well underway.  Turthel of the Kar’Krul had returned to his northern citadel, but he left his daughters as ambassadors to aid in our designs.  It meant Linaniil and I had many an opportunity to meet, though we kept it secret.  Few of my race would understand or approve of such a liaison, and none of us could afford a scandal. Yet I could not resist this human mage’s advancements, nor she mine.
+마법폭발의 준비는 순조롭게 진행되었다.  카르'크룰의 투르텔은 그가 살던 북방 성채로 돌아갔으나, 그녀의 두 딸을 외교관으로써 남겨, 우리 계획에 도움을 주었다.  그 말은, 비록 다른 이들에게는 비밀로 했지만, 리나니일과 나는 만날 기회가 많았다는 것이다.  우리 종족 중에 이러한 관계를 이해하거나 받아들이는 사람은 거의 없을 것이다. 또 누구도 그런 추문을 감당할 수 없었다. 하지만 나는 인간 마법사의 매력에 저항할 수 없었고, 그것은 그녀도 마찬가지였다.
  
-“I am a warrior,” I said to her finally, getting brusquely from my bed and recovering my robes.  “I settle my battles facing my foe, not by toying with relics from afar.  It irks me that we must deal with our enemies in such a craven way.”
+“나는 전사야.” 나는 마침내, 그녀에게 말했다. 침대에서 무뚝뚝하게 걸어나와 내 로브를 걸쳤다.  “나는 전장에서 적들과 맞서지, 고대 유물로 수작이나 부리고 있지 않지.  그런 비겁한 방법으로 우리의 적들을 처리해야 된다는 건 부끄러운 일이야.”
 
-“But does it not excite ye, using these Sher’Tul ruins?” she said, putting a finger to her lower lip as she still languished in my bed, the sheets sticking tightly to her bare skin.  She seemed visibly aroused by her thoughts.  “Such powers lain dormant for so long, ready to be summoned to our control...  How it were I to command so great a venture!”
+“하지만 이 쉐르'툴 폐허의 힘을 사용하는 게 흥분되지 않으시나요?” 그녀가 손가락을 그녀의 아랫 입술에 갖다대며 말했다. 그녀는 여전히 내 침대 위에서 누워있었고, 침대 시트가 그녀의 벗은 몸에 착 달라 붙어있었다.  그녀는 자기만의 생각에 눈에 띄게 빠저들고, 또 흥분한 것 같았다.  “강대한 힘이 오랜 시간동안 잠들어 있었고, 이제 우리의 뜻대로 소환할 준비가 되었어요...  나는 언제나 그런 위대한 업적을 이끌 수 있을까!”
 
-I shook my head sadly as I finished buttoning up my doublet.  “I do not trust those ruins.  We Shaloren are mighty, but we have yet to reach the heights of the Sher’Tul, nor do we truly understand the devices they have left behind.  My thoughts are more with your sister Neira on this.  We should stick to what abilities we have mastered, without stretching ourselves to such grand experimentation.”
+나는 더블렛의 단추를 다 채우며 슬프게 고개를 저었다.  “나는 이 유물이라는 것을 믿지 않아.  우리 샬로레들은 강하지만, 쉐르'툴의 강력함에는 비하지 못하지. 또, 우리 모두 쉐르'툴이 남긴 장치들을 정말로 이해하고 있진 않아.  이 계획에 대한 내 생각은 자매인 네이라의 생각에 더 가까워.  우리는 우리가 가장 잘 할 수 있는 것을 해야해. 그런 거창한 실험 대신에.”
  
-Linaniil looked at me intently, a touch of humour in her dark eyes.  “If ye were leader then ye could stop this.  But then I would have to hate ye.”
+리나니일이 나를 강렬하게 처다봤다, 그녀의 검은 눈에서 그녀의 장난기가 느껴졌다.  “만약 당신이 지도자였다면 당신이 이걸 중지할 수도 있었겠네요.  하지만 그렇게됐다면 전 당신을 싫어했겠지만요.”
  
-I allowed myself a thin smile.  “Well, that would indeed be a terrible and dangerous thing.”  I finished dressing whilst Linaniil still lay in my bed, her face reflective.  “I must go now to check on the latest operations at the farportal.  You are welcome to join me.”
+나는 가냘픈 미소를 지었다.  “아, 그랬다면 그건 정말 끔찍하고 위험한 일일거야.”  나는 리나니일이 여전히 내 침대에 누워있는 동안 옷을 모두 입었다. 그녀의 얼굴은 빛나고 있었다.  “나는 장거리 차원문의 최근 작동을 확인하러 가야해.  같이 가자.”
  
-She shook her head languidly.  “Nay, I wish to rest more.  And besides, hearing their reports would but make me jealous.  Leave me here awhile – I wilst depart in secret later.”
+그녀는 나른하게 고개를 저었다.  “아뇨, 좀 더 쉬고싶어요.  게다가, 그 보고들을 듣고 있으면 질투만 나서요.  저를 두고 가요 잠시후에 – 사람들한테 안 들키게 숨어서 나갈게요.”
  
-I left my chamber then, dark thoughts now brooding at the back of my mind.  The date was coming closer when our plans would come to fruition and the Great Spellblaze would be unleashed.  A heavy foreboding lay over my heart.  Yet the alternatives seemed grim.  The war with the orcs was going badly, with few races able to secure their borders well and attacks from the brutes ever increasing.  Their numbers seemed inexhaustible.  Though they had little skill in warfare they could bring great harm to unprotected townsteads, and in enough force could bring down cities.  One human kingdom had collapsed under their attacks but a week before.  After that many who had initially rejected our plans came begging for our protection.  The Spellblaze seemed our only hope against imminent disaster.
+나는 침실을 떠났다. 어두운 생각들이 이제 내 머릿속 한 켠에서 나를 좀먹는다.  우리의 계획이 결실을 맺고, 위대한 마법폭발이 해방될 날이 가까워지고 있었다.  무겁고, 불길한 예감이 내 가슴에 드리웠다.  하지만 대안 역시 암울해 보였다.  오크와의 전쟁은 안좋게 흘러가고있었다. 소수의 종족들만이 점점 강해지는 오크의 공격에 대항해 국경을 지킬 수 있었다.   오크들의 수는 한도가 없는 것 처럼 보였다.  비록 그들의 전투 기술은 보잘 것 없었으나, 보호받지 못하는 촌락의 거주자들에게는 커다란 피해를 줄 수 있었고, 도시를 무너뜨리기에도 충분했다.  불과 한 주 전, 한 인간 왕국이 그들의 공격으로 인해 결국 무너졌다.  그 결과, 초기에 우리의 계획을 거절했던 이들이 우리의 보호를 구걸하러 찾아왔다.  주문 폭발은 거대한 재앙을 해처갈 단 하나의 희망과도 같았다.
  
-Such thoughts were weighing on my mind as I passed from my chambers in the palace, down to the courtyard by the main gate.  Then from the corner of my eye I saw a swish of long red hair, and spun round thinking Linaniil had followed me.  But the golden robes and bright eyes of Neira revealed otherwise.
+궁궐 내의 나의 침실과 정문 근처의 안뜰로 내려가는 동안, 그러한 생각들이 나의 정신을 짓누르고 있었다.  그때, 나는 구석에서 붉은 머리카락이 흩날리는 것을 보았다. 리나니일이 나를 따라오고 있다고 생각해, 사방을 둘러보았으나, 금빛 로브와 밝은 눈을 가진 네이라가 그곳에 있었다.
  
-“Expecting someone else?” she asked with a wide smile, seeing the surprised look on my face.
+“다른 사람을 기대하신 건가요?” 놀란 내 얼굴을 보며, 그녀가 밝은 웃음으로 물었다.
  
-“I was deep in thought,” I explained, bowing slightly to greet her.  “I am just on my way to inspect the farportal operations.  Perhaps you-“
+“저는 깊은 생각에 빠저있었습니다.” 고개를 숙여 인사를 건내며, 나는 해명했다.  “저는 장거리 포탈의 작동을 점검하러 가는 길입니다.  아마 당신도-“
  
-“I shall join ye,” she said quickly, not waiting for my invitation.  I nodded my assent and guided her to my carriage.
+“저도 같이 가죠.” 그녀가 나의 초대도 기다리지 않고 빠르게 말했다.  나는 고개를 끄덕였고, 그녀를 내 마차로 안내했다.
  
-As soon as we took off east the mood changed.  “She wilst only hurt ye,” said Neira suddenly.
+우리가 동쪽으로 출발하자마자 분위기가 바뀌었다.  "그녀는 당신을 해치기만 할 거에요.” 네이라가 갑자기 말했다.
  
-I cursed quietly, understanding her meaning.  “Are there no secrets to be had in all Eyal?” I muttered.
+나는 조용히 욕을 뱉으며, 그녀의 의중을 이해하려고 했다.  “에이알 땅에는 비밀이란 없는 것인가?” 나는 중얼거렸다.
  
-“Not between sisters, and especially not between twins.”  She smiled warmly at me, yet there was no humour in her eyes.  “I mean it though.  I love mine sister, but I know her ways.  She be fickle, and willed to do her own thing when she likes.  Do not be surprised when she bores of ye.  Nor hurt.”
+“자매들 사이에서는 없지요, 특히 쌍둥이 자매 사이에서는요.”  그녀는 나에게 따뜻한 미소를 보이며 말했으나, 그 두 눈에는 장난기란 보이지 않았다.  “하지만 전 진심이예요.  저는 제 자매를 사랑하지만, 그녀의 방식을 알고있어요.  그녀는 변덕스럽고, 자신이 원할 떄 그녀만을 위한 계획을 짜려고해 요.  그녀가 당신에게 실증을 느낄 때, 너무 놀라지마세요.  또 상처입지도 말고요.”
  
-“I am quite capable of taking care of myself,” I said in clipped tone.
+“나는 충분히 조심할 수 있습니다.” 나는 짤막한 어조로 말했다.
  
-She gazed into my eyes a moment and then turned away to stare out the window.  “Well, I have warned ye...” she replied softly, a touch of sadness in her voice.
+그녀는 잠깐동안 내 눈을 바라보더니, 눈을 돌려 창문 밖을 응시했다.  “그래요, 저는 경고 했어요...” 그녀가 부드럽게 말했다. 그녀의 목소리에서 슬픔이 묻어나왔다.
  
-Was it jealousy perhaps that stirred such an outburst?  And for her sister’s attention or for mine?  I never did discover.  The rest of the trip was spent in sullen silence.  The sun was setting behind our carriage, casting a long shadow on the path ahead, and bathing the land about in crimson light.  It seemed for a moment like we rode into some demon’s plane, pitch black shadows melting into blood-red soil, whilst cold white stars began to spear through the sky above.  I shivered suddenly as the ruins came into view.
+질투가 그러한 감정의 폭발을 일으켰을까?  리나니일의 관심, 혹은 나의 관심때문에?  나는 결코 알 수 없었다.  여행의 나머지 부분은 음침한 침묵 속에서 지나갔다.  마차 뒤로 태양이 떨어지고, 우리 앞 길에 긴 그림자가 지며, 진홍색 빛이 이 땅에 내려앉았다.  그 때, 우리는 악마의 차원을 횡단하는 것만 같았다. 칠흑의 그림자가 핏빛 대지에 섞여들어가고, 차가운 빛을 발하는 창백한 별들이 하늘을 창처럼 꿰뚫기 시작했다.  폐허가 두 눈에 들어오자, 나는 갑작스레 몸을 떨었다.
  
-Few Sher’Tul ruins have been discovered which even come close to matching the grandeur of those which were near Elvala.  Many centuries our people spent excavating them, digging deep into the ground, ever careful not to damage or upset the relics.  The centrepiece was the Crystal Tower.  From the surface all that could be seen of it was a wide, even-sided square, which when cleaned of soil revealed a white stone smoother than marble.  But delving down our archaeologists found it plummeted deep, deep below the ground.  Half a mile it went down, the featureless white stone not bearing a single mark or engraving anywhere on its surface, until it ended suddenly and without foundation.  It was like the whole tower was separate from the earth, some strange thing of the stars that had dropped from the skies and lay sleeping beneath the soil.
+엘발라 근처의 쉐르'툴 폐허와 맞먹는 웅장함의 유적은 거의 발견되지 않았다.  몇 세기 동안, 우리 사람들은 땅 속 깊숙한 곳의 폐허를 찾고 유물을 발동시키거나, 훼손하지 않도록 발굴하며 지냈다.  발굴 계획의 주축은 수정탑이였다.  지표면에서 볼 수 있는 것은 단지 넓고, 네모반듯한 육면체뿐이지만, 주변의 흙을 제거하자, 대리석보다 부드러운 하얀 돌이 나타났다.  하지만 땅 속 깊숙한 곳까지 파고들었던 우리 고고학자들은 이 돌이 저 아래 깊은 곳까지 계속되고 있음을 확인했다.  800 미터 넘게 이어지는 특징없는 흰색 돌.  그 표면에 그 어떤 상징도, 문양도 새겨지지 않았고, 말단부라고는 없이 갑작스레 잘려나간 모습이였다.  탑 전체가 이 대지와는 다른, 별들 사이를 거니는 기이한 존재가 하늘에서 떨어뜨리고, 땅속에 잠재운 것만 같았다.
  
-Some years earlier our people had solved the invisible runes that allowed it to be opened, revealing vast crystal-lined halls and chambers arrayed in geometric patterns of sublime beauty.  Light sparked and shone from every surface, and the walls seemed to hum with energy.  Many shafts and passageways could only be navigated by flight, and at the top was found a grand room large enough to encompass the whole palace of Elvala.  At its centre was the farportal, a raised dais forty feet in diameter and crackling with energy upon which slowly spun a cloud of stars.  It was beautiful and frightening, enchanting and terrifying.  No power of the Shaloren could discern its operation, and though through careful experimentation we were able to manipulate its energies, never could we get a true grasp of the forces that lay beneath.
+몇 년 전, 우리는 탑을 열 수 있는 투명한 룬을 발견해 그 탑을 열었다. 그 안에는, 거대한 수정이 수놓아진 현관과 방들이 기하학적인 아름다움으로 세심하게 배치되어 있었다.  모든 표면은 빛을 반사하며 반짝이고 있었고, 탑을 이루는 벽들은 에너지로 웅웅거리고 있었다.  많은 갱도들과 통로들은 비행 수단을 동반하지 않으면 갈 수 없었고, 그 꼭대기에는 엘발라 궁전 전체와 맞먹는 만큼 거대한 방이 발견되었다.  그리고 그 중심에는, 장거리 차원문이 있었다, 10 여 미터 정도의 지름의 튀어나온 연단 위에서 틱틱 거리는 소리를 내며 성운같은 에너지가 회전하고 있었다.  매우 아름답고 두려운 광경이였으며, 매혹적이면서 공포스러운 장면이였다.  그 어떤 샬로레의 기술과 힘으로도 그 작동을 파악하지 못하였다. 세심한 실험을 통해 그 에너지를 조작할 수 있었으나, 그 밑에 잠자고 있는 진정한 힘을 이해할 수는 없었다.
 
-Neira and I descended to the base of the tower, smothered in the cold shadows of the excavated ruins.  I nodded to the guards as we passed through the square white entrance, and Neira’s eyes instantly enlarged in wonder.  The scintillating rooms were eye-catching to be sure, but they were also desolate and empty.  I tried to imagine what it must have looked like when filled with Sher’Tul.  “How did they all die?” I asked under my breath as we traversed the crystal halls, a question many had asked before.
+네이라와 나는 발굴된 폐허의 숨막히고 차가운 그림자 속에서 탑의 밑바닥으로 내려왔다.  하얀 사각형의 입구를 지나갈 떄, 나는 경비병에게 고개를 끄덕였다. 그러자 네이라의 눈이 순식간에 경외로 커젔다.  빛나는 방들은 물론 눈길을 사로잡았지만, 황량하고 텅 비어있었다.  나는 쉐르'툴이 그곳에 있을 떄 어떤 모습이였을지 상상하려고 했다.  “대체 어떻게 그들 모두가 다 죽었을까?” 수정 회랑을 횡단할 떄, 살며시 되물었다. 과거, 많은 사람들이 궁금해했던 질문.
  
-The sorceress picked up on my words and laughed softly.  “It be a mystery, of course!  Mine mother once taught me that they killed themselves in a great civil war, using magics far beyond our imaginings.”
+마법사는 내 말을 듣고 부드럽게 웃었다.  “물론, 불가사의하죠!  한때 저희 어머니께서는 그들이 거대한 내전을 벌여 자멸했다고 가르쳐주셨어요. 그들은 우리의 상상을 뛰어 넘는 마법을 사용했다고 해요.”
  
-“I wonder,” said I.  We had our own records, of course, which we didn’t share with the younger races, but they were not so clear-cut as the many myths that had spread over the ages.
+“궁금하군요.” 내가 말했다.  물론, 우리는 어린 종족과 공유하지 않은 우리만의 기록을 가지고 있지만, 시대에 걸처 퍼저나간 수많은 신화들처럼 명료하지는 않았다.
  
-We reached the central shaft, and from there levitated up past floors and floors of abandoned chambers, living spaces, workshops, storerooms, and many other areas of purpose undivined by our loremasters.  Finally, after ascending for several minutes, we rose into the grand chamber of the farportal, and Neira gasped to see its size.  Her eyes soon settled on the great Sher’Tul farportal, sparks from it reflecting off the roof hundreds of feet above.  About it were bustling many of our Shaloren mages in silken robes, and Ephinias himself was leading the operations.
+우리는 주요 갱도에 도착했고, 공중부양 마법으로 층과 층 사이를 이동했다. 버려진 방들, 생활 공간, 작업장, 창고, 그리고 우리 전승지기들도 알지 못하는 목적을 가진 많은 구역들.  마침내, 몇 분 동안 날아오른 끝에, 우리는 장거리 차원문이 있는 거대한 방에 도착했다. 네이라는 그 크기를 보고 숨을 몰아쉬었다.  곧 그녀는 쉐르'툴 장거리 차원문에 눈길을 주었다. 차원문에서 번쩍이는 불빛이 수십 미터 위의 천장에 닿아 반사되고 있었다.  그곳에는 비단 로브를 입은 우리 샬로레 마법사들이 북적이고 있었고, 에피니아스가  직접 그 모든 과정을 이끌고 있었다.
  
-He broke from his advisers as he saw us arrive, and strode towards us with a confident smile on his face.  Though he wore the grey robes of a research mage he still bore his great golden staff, Luminis, token of his position as king.
+우리가 도착한 것을 보자 에피니아스는 조언가들에게서 벗어나, 자신감 넘치는 미소를 띄며 우리에게로 다가왔다.  비록 그는 연구 마법사들이 입는 회색 로브를 입고있었지만, 왕으로써의 상징인 그의 위대한 황금 지팡이, 루미니스를 손에 쥐고있었다.
  
-“Ah, General Aranion!” he said, “You have come at last.  And brought the Kar’Krul girl with you; how splendid.”
+“아, 아라니온 사령관!” 그가 말했다, “마침내 도착했구려.  카르'크룰 아가씨도 데리고 왔군, 이 얼마나 멋진일인가.”
  
-I gave a small bow.  “Your majesty.  I am here for the update on our operations.”
+나는 가볍게 예를 갖췄다.  “전하.  저는 우리 계획의 진척을 위해 이곳에 왔습니다.”
  
-“Yes, yes, of course,” he said with a dismissive hand gesture.  “And doubtless the girl is here to make sure we know what we’re doing?”
+“그래, 그래 그렇겠지.” 그가 무시하는 듯한 손짓을 하며 말했다.  “그리고 아가씨는 우리가 여기서 무엇을 하고 있는 지 확실히 알기 위해 온 것이겠군?”
  
-If Neira was offended she covered it up well.  “It would be mine delight to see evidence of ye skill and power over the ruins, lord Ephinias.”
+만약 네이라가 그 말을 듣고 불쾌해 했다면, 감정을 잘 조절해서 말한 것이겠지.  “전하의 폐허를 아우르는 기술과 힘을 발견하는 것이 저의 기쁨입니다.”
  
-The king smiled and nodded then, and called to some of his aides.  “Prepare the topography demonstration, using the acute fire strand.”  He turned back to us then.  “It is not mere skill and power of course that we can show you, but subtlety and scale too.  Now excuse me a moment whilst I join the others.”
+왕은 웃으며 고개를 끄덕이고는 보좌관 몇 명을 불렀다.  “강렬한 화염 가닥을 이용한 지질학 시연을 준비하게.”  그는 우리에게로 몸을 돌렸다.  “우리는 기술과 힘 뿐만이 아니라 세밀함과, 거대함 역시 보여줄 수 있소.  그럼, 다른 사람들과 의논하는 동안 잠시 실례하겠소.”
  
-He went with two of the senior research mages then to the front of the farportal.  They faced each other and began a low humming in unison, and slowly it seemed that the sparks from the farportal began to flicker redly.  Over the course of a few minutes their hum became a higher pitched chant, but softly sung and still in perfect unison.  As they raised their staffs there appeared above the farportal an image in flames, and looking at it both Neira and I marvelled, for we could see clearly that it was an image of ourselves, looking upwards, as if looking we were staring into a mirror.  Our features and movements were all clearly discernible, down the smallest detail, all carved out of flickering orange fire.
+그는 두명의 선임 연구 마법사와 장거리 차원문의 앞으로 갔다.  그들은 마주보며 일제히 낮은 소리로 웅웅거리기 시작했고, 장거리 차원문에서 나온 불꽃들이 서서히 붉은 빛을 띄며 깜빡이는 것 같았다.  몇 분이 지나자, 그들의 웅얼거림은 높은 음조의 찬가가 되었지만, 그 부드러운 노랫가락은 여전히 완벽한 조화로 퍼저나갔다.  그들이 지팡이를 들자, 장거리 차원문 위에서 화염의 상이 나타났고, 그곳에서 경탄하고있는 나와 네이라를 보았다. 마치 거울을 보고있는 것 처럼, 위를 바라보고 있는 형체가 우리라는 것을 알 수 있었다.  우리의 특징과 움직임은 뚜렷하게 구분되었고, 세심한 부분까지 완전히 똑같았다. 그 모든 것이 깜빡이는 주황색 화염으로 이루어저 있었다.
  
-Then the chanting rose higher and it seemed the image zoomed out, so that we saw the farportal nearby us and the mages gathered about.  And still the focus soared upwards till we were but specks in a wide hall, until the image was displaced by a white square with carven edges dug into the earth about it, and I knew we were looking at the top of the Crystal Tower from above.  The view widened, and I could see the land rushing away, and the city of Elvala to the west.  The chanting rose higher and now the sea could be seen, and the mountains to the north-west, and all the land about.  And soon the continent was visible, right to the frozen north, and the ocean wrapped all about, and it seemed small white stars were dotted about the landscape.  The singing reached a crescendo and before us hung an image of the whole of Eyal, a globe of fire suspended in mid-air, slowly turning.
+찬가의 음조가 점점 높아지자, 차원문에 맺힌 우리의 상이 점점 축소 되는 것 같았다. 그렇게 우리들은 우리 근처의 장거리 차원문과, 마법사들이 모여있는 것을 보았다.  여전히 초점은 우리들이 넓은 회랑의 조그만한 점이 될 때 까지 허공으로 치솟고 있었다. 이윽고, 반듯한 하얀 사각형이 대지에 묻혀있는 상으로 대체되었고, 나는 그 떄, 우리가 하늘 높은 곳에서 수정탑을 내려다 보고있음을 깨달았다.  시야가 점점 넓어지고, 대지가 빠르게 작아졌다. 서쪽의 엘발라가 보였다.  찬가는 더욱 더 높아졌고, 이제 우리는 바다를 볼수 있었고, 북서쪽의 산맥과 모든 대지가 보였다.  그리고는 전 대륙이 우리 눈에 들어왔다, 북쪽에 얼어붙은 대지가 있었고 대지가 모든것을 감싸고 있었다. 풍경에 작은 하얀 별들이 점처럼 찍혀져 있는 것 같았다.  노랫소리는 최고조에 달했고, 우리 앞에는 온 에이알의 상이 걸려있었다. 공중에 매달린 불덩어리가, 서서히 회전했다.
  
-Then the chanting stopped and the image disappeared, and I could hear beside me Neira suddenly gasp for air, as if she had not dared draw breath through the last few minutes.
+그리고선 찬가가 끝나고, 상 또한 사라졌다. 나는 내 옆에 있던 네이라가 몇 분동안 숨을 못 쉰것 처럼 숨을 몰아쉬는 소리를 들었다.
  
-“You see now?” said Ephinias, grinning with pleasure.  “From the smallest detail to the grandest scale we can manipulate the farportal’s energy.  And did you see those white points marked across the image?  They are the other farportals spread across the world, and this one can connect to them all.  With careful, delicate control we can harmonise the energy of them all and use it to our will.  I’m afraid your sword can be no match to this, Aranion.”
+“이제 보이는가?” 기쁨으로 활짝 웃으며 에피니아스가 말했다.  “가장 작고 세세한 부분부터 가장 크고 웅장한 것 까지, 우리는 장거리 차원문의 에너지를 조작할 수 있소.  상에 표시된 하얀색 점들을 보았나?  그것들은 우리 세계에 퍼진 또 다른 장거리 차원문일세, 그리고 이 차원문은 그 모든 차원문과 연결할 수 있다네.  세심하고, 섬세한 조종으로 우리는 그 모든 에너지를 조화시키고, 우리의 의지대로 사용할 수 있다네.  자네의 검은 이 계획에는 맞지 않는 것 같군, 아라니온..”
  
-I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
+나는 대답할 말이 없었고, 여전히 내가 본 것에 대한 경외에 젖어 그저 고개를 가볍게 끄덕였다.  네이라도 마찬가지인 것처럼 보였다. 그 떄, 그녀는 장거리 차원문을 그녀의 자매와 같은, 간절히 바라는 눈으로 바라보고 있었다.  그녀는 마음이 바뀌었다.
  
-Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], "_t")
+하지만 나는 나도 모르게 달을 베는 자의 손잡이로 손을 가저다댔고, 내 심장은 불안감의 중얼거림을 내뱉었다.]], "_t")
+t("The Spellblaze Chronicles(4): Before the Dawn", "마법 폭발 연대기 (4): 새벽 전에", "_t")
 t("spellblaze", "마법폭발", "newLore category")
 
 
@@ -13591,7 +13598,7 @@ Me likes to club!#{normal}#]], [[#{bold}#"나 몽둥이 조아"
 
 북슬북슬 드워프,
 흙냄새가 나,
-오랫동안 요리하거나,
+오랫동안 요리안하면,
 배가 아퍼!
 
 멍청한 인간,
@@ -17721,7 +17728,7 @@ t([[Lay a trap that explodes into a radius 2 cloud of freezing vapour when trigg
 		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
 t("Dragonsfire Trap", "용의 화염 함정", "talent name")
 t("dragonsfire trap", "용의 화염 함정 trap", "_t")
-t("Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "폭발하여 (반경 2 칸) 적을 기절 시키고 소각해 %0.2f 화염 피해를 3 턴 동안 가합니다. 5 턴 동안 지역을 불사릅니다. (%0.2f 화염 피해).", "tformat")
+t("Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "폭발하여 (반경 2 칸) 적을 기절 시키고 소각해 %0.2f 화염 피해를 3 턴 동안 가합니다. 5 턴 동안 지역을 불사릅니다. (%0.2f 화염 피해)", "tformat")
 t([[Lay a pressure triggered trap that explodes in a radius 2 cloud of searing flames when triggered, stunning foes with the blast (%0.2f fire damage per turn) for 3 turns.
 		The deflagration persists in the area for 5 turns, burning foes for %0.2f fire damage each turn.
 		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[반경 2 칸 내에 화염 구름을 생성하는 압력 발동식 폭발 함정을 설치합니다. 기절과 함께 턴 마다 %0.2f 화염 피해를 줍니다.
@@ -20249,7 +20256,7 @@ t([[Sends Dredges in a radius of %d into a frenzy for %d turns.
 		The frenzy will increase global speed by %d%%, physical crit chance by %d%%, and prevent death until -%d%% life.]], [[반경 %d 칸 내의 모든 드렛지를 %d 턴 동안 광폭화 상태로 돌입시킵니다.
 		광폭화는 전체 속도를 %d%%, 물리 치명타 확률을 %d%% 늘리고, 생명선 하한이 -%d%% 됩니다.]], "tformat")
 t("Sever Lifeline", "생명선 절단", "talent name")
-t("Start to sever the lifeline of the target. After 4 turns, if the target is still in line of sight of you, its existance will be ended (%d temporal damage).", "대상의 생명선을 자릅니다. 4 턴 후에, 대상이 여전히 시전자의 시야 내에 있을 경우, 대상의 존재는 끝을 맞게됩니다 (%d 시간 피해).", "tformat")
+t("Start to sever the lifeline of the target. After 4 turns, if the target is still in line of sight of you, its existance will be ended (%d temporal damage).", "대상의 생명선을 자릅니다. 4 턴 후에, 대상이 여전히 시전자의 시야 내에 있을 경우, 대상의 존재는 끝을 맞게됩니다 (%d 시간 피해)", "tformat")
 t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
 t("Pull all foes within radius 10 1 grid towards you.", "반경 10 칸의 모든 적들을 1 칸 다가오게 합니다.", "tformat")
@@ -20563,10 +20570,10 @@ t([[Raise your shield into blocking position for 2 turns reducing all non-Mind d
 			If any damage was successfully blocked this effect will be removed at the start of your turn.
 			If the shield has damage resistance to the blocked damage type the block value is increased by 50%%.
 			
-			Current Bonuses:  %s%s%s%s]], [[방패를 들어 2 턴 동안 받는 모든 비정신 피해를 %d 만큼 막아냅니다. 공격자의 피해량을 모두 막아냈을 경우, 공격자는 1 턴 동안 반격에 취약해집니다. (다음 무기 공격이 200%% 의 피해량을 줍니다.)
-			일반적인 상황에서, 방패 막기 한번 당 1 체의 적에게만 반격을 가할 수 있습니다.
-			피해를 성공적으로 막아내면, 다음 턴의 시작에 방패 막기 효과가 사라집니다.
-			방패가 막아낸 피해 속성의 저항을 갖고있는 경우, 같은 속성에 대한 방패 막기 수치가 50%% 증가합니다.
+			Current Bonuses:  %s%s%s%s]], [[방패를 들어올려 2 턴 동안 받는 모든 비정신 피해를 %d 만큼 막아냅니다. 피해를 완벽하게 막아내면, 공격자는 1 턴 동안 반격에 취약해집니다. (다음 무기 공격의 피해량이 200%% 로 증가)
+			일반적으로는 방패 막기 1회 당 1 체의 적에게만 반격을 가할 수 있습니다.
+			피해를 막아내는데 성공하면, 다음 턴이 시작될 때 방패 막기 효과가 사라집니다.
+			방패에 속성 저항이 부여되어있는 경우, 해당 속성에 대한 방패 막기 수치가 50%% 증가합니다.
 			
 			현재 효과 :  %s%s%s%s]], "tformat")
 t("Bloom Heal", "꽃피는 회복", "talent name")
@@ -22706,6 +22713,7 @@ section "game/modules/tome/data/talents/spells/glacial-waste.lua"
 
 t("Hiemal Shield", "겨울의 보호막", "talent name")
 t("#GREY#Your hiemal shield does not have enough resources!", "#GREY#겨울의 보호막을 수복할 충분한 원천력이 없다!", "logPlayer")
+t("#GREY#Your hiemal shield regenerates to full!", "#GREY#당신의 겨울의 보호막은 완전히 수복되었다!", "logPlayer")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t([[Conjure a shield of ice around you that can absorb a total of %d damage.
 		Anytime it does it retaliates by sending a bolt of ice at the attacker, dealing %0.2f cold damage (this can only happen once per turn per creature).
@@ -23139,6 +23147,7 @@ t([[The line between life and death blurs for you.
 		생명력이 1 이하일 경우, 모든 속성저항이 %d%% 상승합니다.
 		생명력 수치는 체격에 비례하여 증가합니다.]], "tformat")
 t("Across the Veil", "장막을 넘어", "talent name")
+t("#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "#GREY#%s %s 장막을 지나자 서리 황혼의 폭발을 일으켰다!", "logSeen", nil, {"는","가"})
 t([[As you learn to tiptoe across the veil of death you learn to master the dark forces.
 		Each time you cross the 1 life threshold you automatically unleash a blast of %0.2f frostdusk damage in radius %d.
 		For each creature that takes damage from the blast one of your talent's cooldown is reduced by %d turns.
@@ -23629,6 +23638,7 @@ t([[Glacial fumes rise from the ground, doing %0.2f cold damage in a radius of 3
 		젖은 대상은 피해를 30%% 더 받고, 15%% 확률로 얼어붙습니다
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,1})
 t("Tidal Wave", "해일", "talent name")
+t("A #LIGHT_BLUE#wave of icy water#LAST# erupts from the ground!", "A #LIGHT_BLUE#차가운 파도#LAST#가 바닥에서 솟아났다!", "logSeen")
 t([[A wall of water rushes out from the caster with an initial radius of 1, increasing by 1 per turn to a maximum radius of %d, doing %0.2f cold damage and %0.2f physical damage to all inside, as well as knocking back targets each turn.
 		The tidal wave lasts for %d turns.
 		All creatures hit gain the wet effect, which reduces their stun/freeze immunity by half and interacts with other cold spells.
@@ -23836,7 +23846,7 @@ Requires a sling to use.]], [[근거리 전투에 특화된, 유연하고 유동
 section "game/modules/tome/data/talents/techniques/archery.lua"
 
 t("Shoot", "사격", "talent name")
-t("@Source@ shoots!", "#Source1# 사격합니다!", "_t")
+t("@Source@ shoots!", "@Source1@ 사격합니다!", "_t")
 t("Shoot your bow, sling or other missile launcher!", "활, 투석구 혹은 기타 투사체 발사기로 사격합니다!", "tformat")
 t("Steady Shot", "안정된 사격", "talent name")
 t([[Fire a steady shot, doing %d%% damage with a %d%% chance to mark the target.
@@ -24976,10 +24986,10 @@ t([[Improves your ability to perform counterstrikes after blocks in the followin
 		Allows counterstrikes after incomplete blocks.
 		Increases the duration of the counterstrike debuff on attackers by %d %s.
 		Increases the number of counterstrikes you can perform on a target while they're vulnerable by %d.
-		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[방패막기 이후의 반격 능력을 다음과 같이 강화합니다 :
+		Increases the crit chance of counterstrikes by %d%%. This increase scales with your Dexterity.]], [[방패 막기 이후의 반격 능력을 다음과 같이 강화합니다 :
 		완전한 방패 막기에 실패하더라도, 대상에게 반격을 가할 수 있습니다.
-		공격자의 반격 약화 부정적 효과의 지속시간을 %d%s 연장합니다.
-		대상에게 가할 수 있는 반격 회수 상한이 %d 회 증가합니다.
+		공격자에게 부여된 반격 약화 효과의 지속시간을 %d %s 연장합니다.
+		반격 약화 효과가 부여된 대상에 대한 반격 가능 횟수가 %d 회 증가합니다.
 		반격의 치명타 확률이 %d%% 증가합니다. 이 효과들은 민첩에 비례하여 증가합니다.]], "tformat")
 t("turn", "턴", "_t")
 t("turns", "턴", "_t")
@@ -25109,7 +25119,7 @@ t([[Surround yourself with a malevolent aura that stores damage you deal.
 		당신이 한 속성으로 %d 피해를 가할 때, 해당 속성의 강력한 폭발이 일어나 무작위한 적을 덮칩니다. %d 피해를 해당 속성으로 가하며, 범위는 반경 %d 칸입니다. 다음과 같은 추가 효과를 적에게 일으킵니다.
 
 		물리 :		전투, 사고, 시전 속도를 20%% 감소시킵니다.
-		#GREEN#산성 :#LAST#  5 턴 동안 %d 산성 피해를 매 턴 가합니다 (총 %d 피해).
+		#GREEN#산성 :#LAST#  5 턴 동안 %d 산성 피해를 매 턴 가합니다 (총 %d 피해)
 		#DARK_GREEN#황폐:#LAST#  5 턴 동안 %d 황폐 피해를 매 턴 가하고, 힘, 체격, 민첩을 %d 감소시킵니다.
 		#GREY#어둠 :#LAST#  5 턴 동안 가하는 모든 피해를 %d%% 감소시킵니다.
 		#LIGHT_STEEL_BLUE#시간:#LAST#  5 턴 동안 전체 속도를 %d%% 감소시킵니다.
@@ -25287,6 +25297,7 @@ t([[You gain 25%% absolute damage resistance and 25%% all damage penetration.  E
 			추가로, 마법과 민첩 중에 더 높은 값의 70%% 에 해당하는 수치를 회피도로 얻습니다. (%d)]], "tformat")
 t("Aether Permeation", "에테르 침투", "talent name")
 t("Have been exposed to the void of space", "공허의 공간에 노출된 적이 있을 것", "_t")
+t("#ORCHID#Aether Permeation protects %s from a dispel!", "#ORCHID#%s 향한 마법 해제를 에테르 침투가 막아냈다!", "logSeen", nil, {"를"})
 t([[You manifest a thin layer of aether all around you. 
 		Any time you are the target of a dispel effect the aether strengthens around you, protecting you from the dispel and any further ones for 6 turns and unsustaining this spell.
 		While undisturbed the layer of aether provides you with 40 raw spellpower.]], [[시전자는 에테르로 이루어진 얇은 막을 만들어 주변에 두릅니다. 
@@ -30368,6 +30379,7 @@ t("Aether Permeation", "에테르 침투", "_t")
 t("Target is protected from dispels", "대상은 주문 해제에 영향을 받지 않는다", "tformat")
 t("arcane", "비전", "effect subtype")
 t("prodigy", "특수 기술", "effect subtype")
+t("#ORCHID#Aether Permeation protects %s from a dispel!", "#ORCHID#%s 향한 마법 해제를 에테르 침투가 막아냈다!", "logSeen", nil, {"를"})
 t("Marked for Death", "죽음의 표식", "_t")
 t("Reduces Blood Rush cooldown if killed", "살해 시, 피의 쇄도 재사용 대기시간 감소", "tformat")
 t("status", "상태", "effect subtype")
@@ -34638,6 +34650,13 @@ section "game/modules/tome/data/zones/void/npcs.lua"
 t("eyal", "에이알", "entity subtype")
 t("god", "신", "entity type")
 t("Gerlyk, the Creator", "창조자 게를릭", "entity name")
+t([[During the Age of Haze nearly all gods were destroyed by the Sher'tul Godslayers. However, a small number escaped.
+Gerlyk, the creator of the Human race, prefered to flee into the void between the stars than to face death. He has been trapped ever since.
+The sorcerers tried to bring him back and nearly succeeded.
+Now you have come to finish what the Sher'tul began. Become a Godslayer yourself.]], [[아지랑이의 시대 동안 거의 모든 신들이 쉐르'툴 신 살해자들에게 파괴되었습니다. 하지만, 적은 수의 신들은 탈출에 성공했습니다.
+인간 종족의 창조주, 게를릭은 죽음을 맞는 것 보다 별들 사이의 공허 속으로 도망는 것을 선택했습니다. 하지만 그 이후로 계속 갇혀 있습니다.
+주술사들은 게를릭을 다시 불러오려 했고, 거의 성공했었습니다.
+이제 당신은 쉐르'툴이 시작한 일을 끝내려왔습니다. 신 살해자가 되십시오.]], "_t")
 
 
 ------------------------------------------------
@@ -34901,7 +34920,7 @@ While this is a free game that I am doing for fun, if it can help feed my family
 You will need an online profile active and connected for the tile selector to enable. If you choose to donate now you will need to restart the game to be granted access.
 
 Donators will also gain access to the Exploration Mode featuring infinite lives.]], [[커스텀 타일이 추가되었습니다! ToME을 위해 기부해주신 분들 모두 감사합니다.
-이것은 일종의 스킨 기능으로, 180 개 가까이의 (더 늘어날겁니다!) 캐릭터 타일을 선택할 수 있게됩니다. 특별한 인간형 타일에서 독특한 생명체까지, 원하시는 대로 캐릭터를 꾸며보세요. to downright wonky ones!
+이것은 일종의 스킨 기능으로, 180 개 가까이의 (더 늘어날겁니다!) 캐릭터 타일을 선택할 수 있게됩니다. 특별한 인간형 타일에서 독특한 생명체까지, 원하시는 대로 캐릭터를 꾸며보세요!
 
 이 기능을 사용하고 싶으시거나, 이 게임이 괜찮다고 느껴지시면 기부를 고려해주십시오. 게임이 지속되는데 도움이 될 것입니다.
 이것은 무료 게임이고 순전히 취미로 개발했지만, 이것이 제 가족을 먹여살리는데 도움이 된다면, 기꺼이 도움을 받겠습니다. 인생은 때때로 가혹하니까요.
@@ -35171,8 +35190,37 @@ t("Exit to main menu", "메인 메뉴로 나가기", "_t")
 ------------------------------------------------
 section "game/modules/tome/dialogs/Donation.lua"
 
+t("Donations", "기부", "_t")
+t("#GOLD#Character cosmetic customization and special tiles#WHITE#", "#GOLD#캐릭터 치장 커스터마이징과 특별한 타일들#WHITE#", "_t")
+t("#GOLD#Exploration mode (infinite lives)#WHITE#", "#GOLD#탐험 모드 (무한한 생명)#WHITE#", "_t")
+t("#GOLD#Item's appearance change (Shimmering)#WHITE#", "#GOLD#아이템 외형 변경 (반영의 거울)#WHITE#", "_t")
+t([[Hi, I am Nicolas (DarkGod), the maker of this game.
+It is my dearest hope that you find my game enjoyable, and that you will continue to do so for many years to come!
+
+ToME is free and open-source and will stay that way, but that does not mean I can live without money, so I have come to disturb you here and now to ask for your kindness.
+If you feel that the (many) hours you have spent having fun were worth it, please consider making a donation for the future of the game.
+
+Donators are also granted a few special features: %s.]], [[안녕하세요 저는 이 게임의 제작자 니콜라입니다. (DarkGod).
+당신이 이 게임을 즐겁게 플레이 해주시면 좋겠고, 또 앞으로도 그래주시면 정말 좋겠군요!
+
+ToME 은 무료, 오픈 소스 소프트웨어이고, 앞으로도 그럴 겁니다. 하지만 그것이 제가 돈 없이 살 수 있다라는 걸 의미하지는 않습니다. 그래서, 당신의 친절함을 부탁하기 위해 이렇게 찾아왔습니다.
+만약 당신이 이 게임과 함께 즐거운 시간을 (오랫동안) 보냈고, 또 그만한 가치가 있다고 생각하신다면, 게임의 미래를 위해 기부하시는 것을 고려 해주세요.
+
+기부자들은 다음과 같은 특별한 기능을 이용할 수 있습니다: %s.]], "tformat")
 t(" and ", "와 ", "_t")
+t([[Thank you for supporting ToME, your donation was greatly appreciated.
+If you want to continue supporting ToME you are welcome to make a new donation or even a reccuring one which helps ensure the future of the game.
+Thank you for your kindness!]], [[ToME 에 후원해 주셔서 감사합니다.
+ToME 을 계속 후원해주시고 싶으시면, 새로운 기부를 해 주시거나 게임의 미래를 보장하는데 큰 도움이 되는 큰 액수의 기부금을 내는 것도 환영합니다.
+당신의 친절함에 감사드립니다!]], "_t")
+t("Donation amount: ", "기부액 : ", "_t")
+t("Monthly donation", "월간 후원금", "_t")
+t("euro", "유로", "_t")
 t("Cancel", "취소", "_t")
+t("You can also make a pledge on Patreon if you prefer.", "원하신다면 Patreon 에서도 후원하실 수 있습니다.", "_t")
+t("Thank you, a paypal page should now open in your browser.", "감사합니다. Paypal 페이지가 인터넷 브라우저에 띄워질 것입니다.", "_t")
+t("Thank you", "감사합니다", "_t")
+t("Thank you, a Patreon page should now open in your browser.", "감사합니다. Patreon 페이지가 인터넷 브라우저에 띄워질 것입니다.", "_t")
 
 
 ------------------------------------------------
@@ -35366,6 +35414,7 @@ Default target is always either one of:
  - 가장 가까운 게체]], "_t")
 t("#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "#GOLD##{bold}#대상 자동 승낙#WHITE##{normal}#", "_t")
 t("New games begin with some talent points auto-assigned.#WHITE#", "새 게임을 시작할 때, 기술 점수의 일부를 자동으로 분배합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "#GOLD##{bold}#캐릭터 생성 시, 기술 점수 자동 분배#WHITE##{normal}#", "_t")
 t("Always rest to full before auto-exploring.#WHITE#", "자동 탐색 전, 항상 최대로 회복함.#WHITE#", "_t")
 t("#GOLD##{bold}#Rest before auto-explore#WHITE##{normal}#", "#GOLD##{bold}#자동 탐색 전, 최대 회복#WHITE##{normal}#", "_t")
 t("When swaping an item with a tinker attached, swap the tinker to the newly worn item automatically.#WHITE#", "발명품이 부착된 장비를 교체할 때, 새로 착용하는 장비에 해당 발명품을 자동으로 장착합니다.#WHITE#", "_t")
