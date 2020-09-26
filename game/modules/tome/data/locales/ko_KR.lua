@@ -803,7 +803,7 @@ t("Talent level: %s.", "기술레벨: %s.", "tformat")
 t("Talent on hit(spell): %s (%d%% chance level %d).", "기술 명중 시(주문): %s (%d%% 확률 레벨 %d).", "tformat")
 t("Talent on hit(nature): %s (%d%% chance level %d).", "기술 명중 시(자연): %s (%d%% 확률 레벨 %d).", "tformat")
 t("Talent on hit(mindpower): %s (%d%% chance level %d).", "기술 명중 시(정신력): %s (%d%% 확률 레벨 %d).", "tformat")
-t("Activating this item is instant.", "이 물품의 사용은 턴을 소모하지 않습니다.", "_t")
+t("Activating this item is instant.", "이 물품은 사용할 때 턴을 소모하지 않습니다.", "_t")
 t("It can be used to %s, with %d charges out of %d.", "%s 사용할 수 있습니다. %d 중에서 %d 번 남았습니다.", "tformat", {1,3,2}, {"를"})
 t("Talent %s", "기술 : %s", "tformat")
 t("all charms", "모든 부적", "_t")
@@ -8677,7 +8677,7 @@ t("Crystalline %s", "수정의 %s", "tformat")
 t(" Transformed with the power of the Spellblaze.", " 마법폭발의 힘으로 변화됨.", "_t")
 t("recover the Crystal Heart (destroys this armour)", "수정 심장 제거 (이 갑옷은 파괴됩니다)", "_t")
 t("You created: %s", "당신은 %s 만들었다", "logPlayer", nil, {"을"})
-t("You fix the crystal on the %s and create the %s.", "당신은 수정을 %s에 결합해, %s 만들었다.", "logPlayer", {[2]="를"})
+t("You fix the crystal on the %s and create the %s.", "당신은 수정을 %s에 결합해, %s 만들었다.", "logPlayer", {[2]="를"}, {[2]="를"})
 t("dark rod", "검은 장대", "_t")
 t("Rod of Annulment", "소멸의 장대", "entity name")
 t("You can feel magic draining out around this rod. Even nature itself seems affected.", "이 장대에서 마법이 빠저나가는 것을 느낄 수 있습니다. 자연 그 자체도 영향을 받는 것 같습니다.", "_t")
@@ -11502,7 +11502,7 @@ t("multi-hued", "다색", "entity subtype")
 t("A closer look at this pure white crystal reveals that it is really a plethora of colors swirling and scintillating.", "언뜻 보기엔 순수한 하얀 빛이 수정에서 발산되는 것 같지만, 실제로는 무수한 색의 빛이 소용돌이 치며 빛납니다.", "_t")
 t("combine with a staff", "지팡이와 결합", "_t")
 t("Fuse with which staff?", "어떤 지팡이에 결합할까요?", "_t")
-t("You fix the crystal on the %s and create the %s.", "당신은 수정을 %s에 결합해, %s 만들었다.", "logPlayer", {[2]="를"})
+t("You fix the crystal on the %s and create the %s.", "당신은 수정을 %s에 결합해, %s 만들었다.", "logPlayer", {[2]="를"}, {[2]="를"})
 t("The fusing fails!", "결합이 실패했다!", "logPlayer")
 t("#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "#CRIMSON#텔로스의 보석이 이 세상의 것이 아닌 빛을 냅니다.", "logSeen")
 t("#CRIMSON#The unearthly glow fades away.", "#CRIMSON#이 세상의 것이 아닌 빛이 흩어집니다.", "logPlayer")
@@ -13867,6 +13867,48 @@ t("a logical analysis of creation, by philosopher Smythen", "철학자 스미슨
 t("eyal", "에이알", "newLore category")
 t("Tale of the Moonsisters", "달의 자매 이야기", "_t")
 t("ancient papyrus scroll", "고대의 파피루스 두루마리", "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 1 - Humans", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 1 - 인간", "_t")
+t([[I begin my writings with a study of the humans, currently the most populous of the races in Maj'Eyal. The greatest kingdom in number are by far the Cornacs, but mention should also be made of the Sholtar and Mardrop kingdoms, and the Higher bloodline. The biggest human population centre is around the citadel of Last Hope, though many other settlements exist across all corners of Maj'Eyal.
+
+Cornacs are normally around 5'9", with generally dark hair, brown eyes and ruddy features. Most Cornacs take up roles as tradesmen, farmers, or other manual labour jobs. It is a sad fact that the majority of bandit groups tend to be dominated by Cornacs. Cornac families tend to be large, and since the Age of Dusk their population has expanded rapidly, especially in the farming lands in the west and around Last Hope in the south.
+
+Sholtar are generally 5'11", with dark skin, hair and eyes. They originate from the south-east of Maj'Eyal, and are few in number since the Cataclysm tore much of their land into the sea. Their affinity with nature is renowned, and they are often found employed as healers, infusion crafters or wyrmic huntsmen.
+
+Mardrop humans are all but extinct, after the Spellhunt and the plagues during the Age of Dusk. They were known to be powerful spellcasters, and as such were prime targets by the spellhunters. However some trace of them can still be found, as their fiery hair and freckled skin oft can appear in those of distant descent. A few are rumoured to still possess citadels and towers in remote locations.
+
+Highers are on average 6'0", with fair hair and skin and blue or grey eyes. The majority of scholarly roles are taken up by Highers, and they tend to fill most of the noble classes. Some say this is due to discrimination and elitism, though these may simply be jealous sentiments. There are also rumours that the superior intellects of Highers are due to arcane experiments instigated by the ancient Conclave during the Age of Allure, but I have found no records to support this idea and must consider it to be baseless. The Higher bloodline is renowned as a mark of excellence, and mixing with lower bloods is strongly frowned upon.
+
+All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and remain under the rule of his son King Tolak the Fair. A full discussion of the long human history would require a far more detailed document.]], [[나는 인간에 관한 연구로 저작을 시작했다, 마즈'에이얄의 인구 대부분을 차지하는 인간에 관해서 말이다. 인간의 대다수는 코르낙이다, 하지만 숄타르와 마드로프에 관해서도 언급해야 할것이다, 그리고 하이어 혈통에 관해서도. 가장 큰 인구 집단은 마지막 희망의 성채 주변에 분포해있다, 다른 많은 정착지들이 마즈'에이얄의 구석구석에 분포하고 있지만 말이다.
+
+코르낙의 신장은 5피트 9인치 정도이다, 보통은 검은 머리칼을 가졌고, 갈색 눈과 불그스름한 피부색을 띈다. 대부분의 코르낙은 장사꾼이나, 농부 혹은 단순 노동자로 종사한다. 도적 무리의 주요 구성원이 코르낙이라는 점은 슬픈 사실이다 . 코르낙은 대가족을 이루는 경향이 있다, 황혼의 시대 이후 그들의 인구수는 빠르게 늘어났다, 특히 서쪽의 농경지와 남쪽의 마지막 희망 주변에서 말이다.
+
+숄타르의 신장은 5피트 11인치 정도이다, 검은 피부와 검은 머리칼, 검은 눈을 가졌다. 그들은 마즈'에이얄의 남동쪽에서 기원했다, 그들은 소수에 불과한데 대재앙이 그들의 고향땅을 바다 아래로 가라앉혔기 때문이다. 그들은 자연 친화력으로 잘 알려져있다, 그리고 그들은 자주 치료사, 주입물 제작자 or 혹은 용인 사냥꾼으로 고용된다.
+
+마드로프 종은 멸종했다, 마법 사냥과 황혼의 시대에 퍼진 역병 때문이다. 그들은 강력한 마법 사용자로 알려졌었다, 그리고 그런 자들은 마법 사냥꾼의 주된 목표였다. 하지만 그들의 몇가지 흔적들이 여전히 발견되곤 한다, 그들의 붉은 머리와 주근깨 피부가 먼 거리에서 잘 보이기 때문이다. 루머에 따르면 적은 수가 여전히 외딴곳에 있는 성채나 탑에 기거하고 있다고 한다.
+
+하이어의 신장은 6피트 정도이다, 금발과 하얀 피부 그리고 파란 눈이나 회색 눈을 가졌다. 학자의 대부분은 하이어들이다, 그리고 그들이 대부분의 귀족지위를 차지하고있는 경향이 있다. 몇몇은 이것이 차별이고 엘리트주의라고 말한다, 이런 말들이 단순한 질투심에서 나온것일지 몰라도, 하이어들의 높은 지능은 매혹의 시대 고대 콘클라베가 실행한 불가사의한 비전 실험에 의한것이라는 소문이 있다, 하지만 나는 이와 관련된 자료를 찾을 수 없었고 근거 없는 주장이라 판단했다. 하이어의 혈통은 우월함의 표식으로 여겨지며, 하이어들은 하위 혈통과 섞이는것을 불쾌하게 생각한다.
+
+모든 인간 왕국은 장작의 시대 용맹한 자 토크놀에 의해 통일되었다, 그리고 여전히 공평한 자 톨락의 치세 아래 유지되고 있다. 인간의 긴 역사에 대한 완전한 논고는 훨씬 상세한 문서가 필요할 것이다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 2 - 하플링", "_t")
+t([[There are two main kingdoms of halflings, the Eldoral and the Nargol, though both mix often. All halflings are just under 4' tall, and are generally noted for their large feet and curly hair. Eldoral are usually fair-haired and blue-eyed. Nargol tend to be darker in hair and complexion, with hazel eyes, and oft slightly shorter than their cousins. Halflings are known for their intelligence and quick wit, but also their arrogance in dealing with other races - something they do not deny, for they say it is well-deserved.
+
+Halflings used to be the most dominant race in Maj'Eyal, with control of many strategic Sher'Tul ruins and rule over great swathes of land. The recorded wars between humans and halflings are numerous, and the halflings were the most often victors. However the Age of Pyre brought them great ruin, for the orcs seemed to target them more fiercely than any other race, and many of their communities were wiped out. This has forced them to rely more on trade with other races in modern times, especially with the humans.
+
+The Eldorals used to have a kingdom in the north of the continent, but most of it was destroyed during the wars with the orcs, and not much has been rebuilt. However they do still have many agricultural settlements such as Derth, albeit shared with other races. The Eldoral are known for their great healers and farmers, and their slingers are considered the best in all the lands.
+
+The Nargols once had many strong fortifications in the south of Maj'Eyal, but though they suffered less than the Eldoral in the Age of Pyre they still lost great numbers, and much of their centres of population dwindled. The rise of Last Hope has accelerated this process, as many communities are subsumed into the city's suburbs. Nargols are known as great jewellers, alchemists and rune-crafters, and possess some of the best tactical minds of all the races. Many generals and military advisers are employed from their kingdom.
+
+The most famous of all halflings is Queen Mirvenia, most famed for her saving of King Toknor in Last Hope from a siege of orcs. Mystery still surrounds how she managed to bypass the winter's icy floes with her army to reach the citadel in time to rescue Toknor. Some have hypothesised that she enlisted the aid of sorcerers, but none of her troops would talk about the journey afterwards. She wed King Toknor in the second year of the Age of Ascendancy, and gave birth to the first known mixed race child - Tolak the Fair.
+]], [[하플링은 크게 두 인종으로 나뉜다, 엘도랄과 나르골로 말이다, 두 인종이 자주 섞이긴 하지만 말이다. 모든 하플링은 4피트 아래의 키를 가졌다, 그리고 보통 그들의 큰 발과 곱슬머리로 알아차릴 수 있다. 엘도랄은 보통 금발과 푸른눈을 가졌고 나르골은 더 어두운 머리색과 피부색 그리고 헤이즐 색 눈을 지녔으며 대부분은 그들의 사촌들보다 키가 작다. 하플링은 그들의 지능과 재빠른 기지로 알려져 있다, 하지만 다른 종족을 대할때의 오만함으로도 잘 알려져있다 - 하플링들은 이 말을 부정하지 않는데 그들이 그럴만한 권리가 있다고 믿기 때문이다.
+
+하플링은 마즈'에이얄의 주된 지배 종족이었다, 전술적인 쉐르'툴 유적들을 통제하에 두고 넓은 땅을 통치했다. 하플링과 인간 사이의 전쟁기록은 상당하다, 그리고 많은 전쟁에서 하플링들은 승리자였다. 하지만 장작의 시대 그들은 커다란 파멸을 마주했다, 오크들이 하플링들은 주된 목표로 맹렬하게 공격했기 때문이다, 그리고 많은 수의 하플링 공동체가 지도에서 사라졌다. 그리고 이 때문에 현대의 하플링들은 다른 종족과 거래하는것에 더 의존하게 되었다, 특히 인간과 말이다.
+
+엘도랄은 대륙의 북쪽에 왕국을 가졋었다, 하지만 대부분의 왕국은 오크와의 전쟁에서 멸망했으며 그다지 재건되지 않았다. 하지만 비록 다른 종족들과 공유하긴 하지만 하플링들은 여전히 데르쓰와 같은 농경 정착지를 가지고 있다. 엘도랄들은 위대한 치유사와 농부로 알려져있다, 그리고 그들의 슬링 기술은 대륙 최고라고 알려져있다.
+
+나르골은 한때 대륙의 남쪽에 강대한 방어 기지들을 가지고 있었다, 하지만 장작의 시대 엘도랄들 보다 덜 시달렸음에도 그들은 많은 수를 잃었다, 그리고 그들의 주요 인구 집단의 인구수가 줄어들기 시작했다. 마지막 희망의 등장이 이 과정에 속도를 더했는데 많은 공동체가 도시의 교외로 흡수되었기 때문이다. 나르골은 또한 위대한 세공사, 연금술사 룬 제작자로 알려져있다 그리고  모든 종족들 중에서도 가장 뛰어난 참모진들중 다수가 하플링들이다. 많은 장군들과 군사 전문가들이 그들의 왕국에서 차출되곤 한다.
+
+하플링중에서 가장 유명한 이는 여왕 미르베니아다, 그녀는 오크의 공성에서 왕 토크놀을 구한것으로 가장 잘 알려져있다. 불가사의한 점은 어떻게 그녀가 군대와 함께 겨울의 얼어붙은 유빙위를 제 시간에 건너 성채에 도달해 토크놀을 구출할 수 있었냐는 것이다. 몇몇은 그녀가 마법사들의 힘을 빌렸을거라 가설을 세웠다, 하지만 그녀의 군인들중 누구도 그날의 여정을 말하지 않았따. 그녀는 주도의 시대 두번째 해에 왕 토크놀과 혼인했다, 그리고 최초로 알려지게될 혼혈 종족의 자손 -공평한자 토크놀을 낳았다.
+]], "_t")
 t("vault", "보물창고", "newLore category")
 t("magic", "마법", "newLore category")
 t("On Adventuring", "모험 도중", "_t")
