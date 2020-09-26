@@ -225,13 +225,13 @@ t("Orcs: Embers of Rage", "오크: 분노의 잉걸불", "_t")
 t("The Prides lie in ruins!", "긍지들이 몰락했다!", "_t")
 t("The Sorcerers have been defeated!", "최고봉의 주술사들은 패배했습니다!", "_t")
 t("Orcs in all Var'Eyal are in dismay, hunted by the Sunwall and their newfound allies from the west.", "모든 바르'에이알의 오크들은 경악에 빠진 체, 태양의 장벽과 그들의 서쪽에서 온, 새로운 동료들에 의해 사냥당했습니다.", "_t")
-t("The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "서쪽에서 온 재앙이 다시 서쪽으로 돌아갔지만, 그녀의 유산은 아직 굳건합니다 : 오크 종족은 다시 한번 파멸의 위기에 처하게됐습니다!", "_t")
+t("The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "서쪽에서 온 재앙이 다시 서쪽으로 돌아갔지만, 그녀의 유산은 아직 굳건합니다 : 오크 종족은 다시 한번 파멸의 위기에 처하게 되었습니다!", "_t")
 t("But not all hope is lost.", "하지만 모든 희망이 사라진 것은 아닙니다.", "_t")
-t("On the isolated Clork Peninsula lies the fifth pride: Kruk's Pride; unseen and unharmed by the Scourge.", "고립되어있던 클로크 반도에는 5 번째 긍지가 있었습니다 : 크룩의 긍지; 재앙이 찾지 못했고, 몰락시키지 않은 유일한 긍지입니다.", "_t")
+t("On the isolated Clork Peninsula lies the fifth pride: Kruk's Pride; unseen and unharmed by the Scourge.", "고립되어 있던 클로크 반도에는 다섯 번째 긍지가 있었습니다: 바로 크룩 긍지죠. 재앙이 찾지 못했고, 몰락시키지 않은 유일한 긍지입니다.", "_t")
 t("Yet not all is great there either, the Sunwall offensive has set up an outpost blocking the way to the mainland.", "그렇다고 상황이 그렇게 희망적인 것은 아닙니다. 태양의 장벽의 공세를 펼쳤을 떄, 그들은 전초 기지를 만들어 대륙으로 향하는 길을 막아버렸습니다.", "_t")
 t("But the worst threat comes from the peninsula itself, the main inhabitants are not the orcs, but the Atmos Tribe.", "하지만 최악의 위협은 반도 그 안에 존재합니다. 반도의 주요 거주자들은 오크가 아닌 아트모스 부족입니다.", "_t")
 t("A civilization of steam giants whose mastery of steamtech makes them incredible foes.", "증기 공학에 숙달한 증기 거인들의 문명은, 그들의 위험성을 극도로 증대합니다.", "_t")
-t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "오크로 게임을 진행하여, 가치를 증명하세요! 거인들에 대적해 증기 공학 기술을 사용하고, 동대륙을 태양의 장벽 쓰레기들에게서 해방시키세요!", "_t")
+t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "오크로 게임을 진행하여, 가치를 증명하세요! 거인들에 대적해 증기 공학 기술을 사용하고, 동쪽의 대륙을 태양의 장벽 쓰레기들에게서 해방시키세요!", "_t")
 t("Craft your own steamsaws, rocket boots, steam powered armours, and all kind of steamy technology!", "증기톱, 로켓 장화, 증기력 갑옷, 그밖의 모든 증기 공학 발명품들을 제작하세요!", "_t")
 t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "이것이 당신의 운명입니다! 가르쿨의 유산을 위해, 긍지의 영광을 위해!", "_t")
 
@@ -283,7 +283,63 @@ t("Lead the way.", "앞장서라.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/destructicus.lua"
 
+t("Fire Imp", "화염 임프", "_t")
+t("Steam Giant Airship", "증기 거인 비행선", "_t")
+t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#가 지금 눈앞에 있고, 정말로 인정하기 싫지만, 칼토르의 광고는 전혀 과장이 아니었습니다. 이건 아마 당신이 지금까지 봤던 것들중 최고로 비이성적인 살상 병기일 겁니다. 기계의 보라툰 몸체를 빛내고 있는 햇빛조차, 끝부분에 무수히 새겨진 불안정한 룬들이 내뿜는 격렬한 빛에 비하면 어두워 보이며 그 표면에 새겨져 있는 화려한 홈들은 초능력을 사용해 몇 시간에 걸쳐, 두통이 생길 정도로, 고도로 집중하여 새긴 것입니다. 총구에 설치되어 있는 총검에선 제작자의 조소마저 느껴집니다. 이 모델은 다소 특이한 종류로, 조종 패널 주변은 밀폐되어 있으며 방화 처리도 되어 있습니다. 조종석에는 내장형 차 자판기도 있었는데, 당신의 오크들이 약탈했던 드워프제 맥주로 미리 채워 놓았습니다. 실로 아름답습니다.*#WHITE#", "_t")
+t("#LIGHT_GREEN#*You enter the booth, sit down, and insert the key.  #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# whirrs to life, its base slightly rotating underneath you.  A strange beaded panel slides in front of you, pins pushing out and pulling back by magnetic force to display the outline of an airship (and a tiny speck), and the words #{italic}#\"AERIAL TARGETS FOUND: 2.\"#{normal}#*#WHITE#", "#LIGHT_GREEN#*당신은 조종석으로 들어가 의자에 앉고, 열쇠를 꽂았습니다.  #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#가 웅웅거리며 작동하기 시작하고, 바닥이 천천히 회전합니다. 구슬로 장식되어 있는 이상한 패널이 눈 앞에 미끄러지듯 나타났고, 웬 핀들이 튀어나오더니 자기력에 의해 다시 들어가고 어떤 비행선의 윤곽선을 보여주었습니다 (그리고 쬐끄만 얼룩 같은 것도요). 그리고 패널에 글자가 표시되었습니다, #{italic}#\"발견된 대공 목표: 2.\"#{normal}#*#WHITE#", "_t")
 t("[continue]", "[계속]", "_t")
+t([[#LIGHT_GREEN#*#{italic}#"OBTAINING SCRYING LOCK...  OBTAINED."#{normal}#
+ 
+The beaded panel is suddenly awash with colors, showing the colossal interior of the airship.  Steam Giant families huddle and weep, sorting through the few belongings they could take with them when fleeing; a guard sits on a pile of luggage and storage crates, head in her hands.  The view pans around the cabin, and you see a few crew members hurrying between the captain's quarters and the engine room, pausing to take worried glances out the window - at you.
+ 
+This airship appears to be evacuating what's left of the Atmos Tribe.  With the press of a single button, you could eradicate the Steam Giant species forever.
+ 
+You press a button labelled #{italic}#"SELECT NEXT TARGET"#{normal}#, and the panel shifts to show a very lost and very confused Fire Imp, flying in the air near nothing of importance.  Firing on it would have little effect whatsoever, aside from showing off DESTRUCTICUS's power in the most harmless way possible.*#WHITE#]], [[#LIGHT_GREEN#*#{italic}#"고정 원경 취득 중... 취득 완료."#{normal}#
+ 
+구슬 장식 패널의 색깔이 갑자기 바뀌더니 비행선의 거대한 내부를 보여주고 있습니다. 증기 거인 일가가 옹기종기 모여서, 도망치면서 겨우 챙겨 나온 것들을 정리하며 흐느끼고 있고, 경비병 하나가 화물 더미 위에 걸터앉아 양손으로 머리를 감싸쥐고 있었습니다. 패널은 선실 주변의 풍경을 비추었고, 거기엔 선원 몇 명이 선장실과 기관실을 분주하게 왔다갔다하다가, 갑자기 멈춰 서서 창문 밖을 걱정스런 눈으로 바라보고 있는 게 보였습니다 - 바로 당신을 보고 있었습니다.
+ 
+이 비행선은 아트모스 부족 최후의 생존자들의 피난선인 모양입니다. 버튼 하나만 누르면, 당신은 증기 거인 종족을 이 세상에서 영원히 지워 버릴 수 있습니다.
+ 
+당신은 #{italic}#"다음 목표 선택"#{normal}# 이라고 적힌 버튼을 눌렀고, 패널은 근처에 아무것도 없는 공중에 홀로 떠서 매우 혼란스러워 하고 있는, 길 잃은 임프 하나를 비추었습니다. 저 임프를 쏘는 것은 아무런 의미가 없을 겁니다. 데스트럭티쿠스의 위력을 가장 무해한 방법으로 보여줄 수 있다는 걸 빼면요.*#WHITE#]], "_t")
+t("#LIGHT_GREEN#*Are you SURE you want to ERADICATE THE STEAM GIANTS?*#WHITE#", "#LIGHT_GREEN#*확실합니까? 정말로 증기 거인족을 멸종시키겠습니까?*#WHITE#", "_t")
+t("[shoot down the airship]", "[비행선을 쏜다]", "_t")
+t("#LIGHT_GREEN#*Are you SURE you want to WASTE YOUR SHOT?*#WHITE#", "#LIGHT_GREEN#*확실합니까? 정말로 발사 기회를 낭비하시겠습니까?*#WHITE#", "_t")
+t("[shoot down the imp]", "[임프를 쏜다]", "_t")
+t("[back]", "[돌아간다]", "_t")
+t([[#LIGHT_GREEN#*The Steam Giants are too great a threat to allow their escape - you will not have them simply return someday to finish what they attempted, and wipe out your Pride.  You press the #{italic}#"PREVIOUS TARGET"#{normal}# button, and fire on the airship.  There is a great roar and a flash of flame; you see its missile flying away from you through the window, as you see it racing towards your view, and the terrified passengers, on the scrying panel.
+
+It reaches its mark, and the panel goes dark as a tremendous, multicolored blast fills your vision through the window.
+ 
+The Steam Giants are no more.
+ 
+The secondary charges from the warhead detonate, as burning debris falls into the sea, and the ongoing display serves as a signal to all the Orcs of Var'Eyal, and anyone else who may be watching: This is the fate of all who would try to eradicate the Orcs.  The previous millennia of oppression, genocide, and bullying are over: your people will never be pushed around like this again.
+ 
+A nagging thought in the back of your head insists that you now know how the Sun Paladins felt, how King Toknor felt, how the halflings felt, how everyone that has always committed such atrocities against the Orcs felt.  It can keep whining all it wants - your people are finally safe.*#WHITE#]], [[#LIGHT_GREEN#*증기 거인족이 탈출하는 것을 그냥 놓아 주기엔, 위험 부담이 너무 큽니다 - 당신은 그들이 훗날 쉽게 돌아와, 그들이 하고자 했던 것들을 완수하고 긍지를 쓸어 버리도록 놔 두지 않을 겁니다. 당신은 #{italic}#"이전 목표"#{normal}# 버튼을 눌렀고, 비행선을 쏘았습니다. 엄청난 폭발음과 섬광이 터져나왔고, 당신은 창문을 통해서 미사일이 날아가, 지금 패널 위에 떠 있는 겁에 질린 거인들에게 날아가고 있는 것을 볼 수 있습니다.
+
+미사일은 목표에 명중했고, 창문으로 터무니없는, 형형색색의 폭발의 빛이 쏟아져 내림과 동시에, 패널은 검게 물들었습니다.
+ 
+증기 거인족은 이제 없습니다.
+ 
+탄두에서 2차 폭발이 일어나 불타는 잔해들이 바다로 떨어졌고, 이 광경은 바르'에이알에 사는 모든 오크들과, 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - 이것이 바로 오크들을 멸종시키려 했던 자들의 최후이고, 지난 수천년 간 이어졌던 박해, 학살, 그리고 괴롭힘은 이제 끝났다. 당신의 동포들은 두 번 다시는 억압받지 않을 겁니다.
+ 
+이제 태양의 기사들이, 토크놀 국왕이, 하플링들이, 그리고 오크들에게 그런 끔찍한 짓을 저질러 왔던 자들이 어떤 기분이었는지 알 것 같다고, 의식의 뒷편에서 어떤 목소리가 끊임없이 주절거립니다. 무슨 소릴 하든 상관 없습니다 - 동포들이 마침내 안전해졌으니까요.*#WHITE#]], "_t")
+t([[#LIGHT_GREEN#*No...  you will not sink to the depths that King Toknor did, that the Sun Paladins did, that so many others have sunk to.  These refugees are not a threat, and could not possibly become one for quite some time...  but it might be for the best that they're made fully aware of what you're capable of, the fate you could've given them through so little effort, and given a display that'll make sure they remember that they owe their lives to your mercy.
+ 
+You target the Fire Imp, and fire the weapon.  With a great roar and a flash of flame, #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# races towards the increasingly distressed imp.  It panics, flitting to the side evasively as #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# corrects its course to compensate, until it gives up and shrugs dejectedly; you can't hear the scrying panel over the missile's roaring, but you're fairly sure you can see the imp mouthing "this is 'blazing ridiculous."
+ 
+It impacts, and your vision is filled with an enormous, multicolored explosion.  Shrapnel and debris falls harmlessly into a barren mountaintop, and a great booming noise can be heard across the continent.  
+ 
+Taking a swig from a freshly-dispensed mug of ale, you switch the now-empty #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}#'s targeting controls over to the airship, and you see the giants cheering and hugging, crying in joy and relief.  A few wonder aloud if you meant to do that, but most recognize it as the display of mercy that it is.
+ 
+As the secondary charges go off, the ongoing pyrotechnic display acts as a celebratory signal to the Steam Giants, the Orcs, and anyone else who may be watching: The war is over.  Var'Eyal, and the Orcs who now own it, will know peace for the first time in millennia.*#WHITE#]], [[#LIGHT_GREEN#*아니요... 당신은 토크놀 국왕, 태양의 기사들, 그리고 다른 수많은 이들과 똑같은 길을 걷진 않을 겁니다. 그들처럼 심연에 빠지지는 않을 겁니다. 저 피난민들은 위협이 아니고, 당분간은 위협으로 변하지도 않을 겁니다... 하지만, 저들에게 당신이 어떤 짓을 할 수 있었는지를, 손쉽게 그들에게 내려줄 수 있었던 운명이 어떤 것이었는지를 보여주어서, 지금 자신들이 살아 있는 게 순전히 당신이 자비를 베풀었기 때문이었음을 기억하도록 만드는 게 최선의 선택일 겁니다.
+ 
+당신은 화염 임프를 목표로 잡고 쏘았습니다. 엄청난 폭발음과 섬광이 터져나왔고, #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#가 엄청나게 겁먹은 임프를 향해 날아갔습니다. 그것은 어쩔 줄 몰라하며, 피하려는 듯 좌우로 마구 움직이지만 #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#는 스스로 경로를 수정했고, 마침내 임프는 낙담하여 자신의 운명을 받아들였습니다. 당신은 미사일의 굉음 때문에 듣지는 못했지만, 입모양으로 그 임프가 이렇게 말하는 것을 똑똑히 보았습니다. "진짜 빵 터질 노릇이네."
+ 
+미사일은 목표에 명중하였고, 눈 앞이 형형색색의 엄청난 폭발로 가득 찼습니다. 파편과 잔해들이 황량한 산꼭대기로 안전히 떨어지고, 곧이어 대륙 끝부분에서도 들을 수 있을 만큼 엄청난 폭발음이 터져 나왔습니다.  
+ 
+방금 딴 맥주를 한 잔 들이키고, 이제 아무것도 들어있지 않은 #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#의 목표를 비행선으로 바꿨습니다. 거인들이 환희와 안도감에 겨워 눈물을 흘리면서, 서로 부둥켜안고 환호하는 것을 볼 수 있었습니다. 그 중 몇 명은 당신이 의도적으로 이렇게 한 것인지 혼란스러워 하고 있었지만, 대부분은 당신이 자비를 보였다고 생각하고 있는 것 같습니다.
+ 
+2차 폭발이 일어났고, 이 불꽃놀이 같은 광경은 증기 거인들과, 오크들과, 그리고 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - 전쟁은 끝났다. 바르'에이알과 그것의 주인인 오크들은, 수천년 만에 처음으로 평화가 어떤 것인지 알게 될 것입니다.*#WHITE#]], "_t")
 t("[leave]", "[떠난다]", "_t")
 
 
@@ -291,22 +347,81 @@ t("[leave]", "[떠난다]", "_t")
 section "game/dlcs/tome-orcs/data/chats/john-surrender.lua"
 
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
+t([[#LIGHT_GREEN#*The Crimson Templar looks exhausted, nearly dead. You feel the ring attuning to him and suddenly you understand you could absorb his essence to power the ring.*#WHITE#
+Go on kill me @playername@! My life is destroyed, my friends are dead, my dear Aeryn is dead. All dead by your murderous hands! Finish me, let me have some #{italic}#rest#{normal}#.]], [[#LIGHT_GREEN#*진홍빛 기사는 탈진한 듯 보이고, 다 죽어 가고 있습니다. 반지가 그와 공명하고 있다는 걸 느꼈고, 갑자기 그의 정수를 흡수해 반지를 강화할 수 있겠다는 생각이 들었습니다.*#WHITE#
+어서 날 죽여라, @playername@! 내 삶은 이미 망가졌다. 친우들은 죽었고, 내 사랑 아에린도 죽었어. 전부 네 손에 죽었단 말이다, 살인자 놈아! 어서 끝내라, 이제 #{italic}#쉬고#{normal}# 싶다.]], "_t")
+t("#LIGHT_GREEN#[destroy him to power the ring]#WHITE# So be it!", "#LIGHT_GREEN#[그를 죽여 반지를 강화한다]#WHITE# 바라는 대로 해 주마!", "_t")
+t("#LIGHT_GREEN#[bind him to the ring]#WHITE# No, you are more useful alive and broken to me!", "#LIGHT_GREEN#[그를 반지에 묶어 둔다]#WHITE# 아니, 넌 살아 있는 게 더 쓸만하겠어!", "_t")
+t([[#LIGHT_GREEN#*The malevolent energies around you condensate into the ring, absorbing the last remains of John.
+The ring is now much more powerful.*#WHITE#
+Aeryn... my love...]], [[#LIGHT_GREEN#*주변의 사악한 에너지가 반지에 응축되어, 존의 최후의 숨결을 흡수했습니다.
+반지는 훨씬 더 강력해졌습니다.*#WHITE#
+아에린... 내 사랑...]], "_t")
+t([[#LIGHT_GREEN#*The malevolent energies around you condense into the ring, binding John to it forever.
+The ring is now able to summon him for a few turns at will.*#WHITE#
+#{bold}#I HATE YOU!#{normal}#]], [[#LIGHT_GREEN#*주변의 사악한 에너지가 반지에 응축되어, 존을 영원히 묶어 두었습니다.
+이제 이 반지로 그를 마음대로 불러낼 수 있습니다.*#WHITE#
+#{bold}#이 개자식아!!#{normal}#]], "_t")
+t("#LIGHT_GREEN#[done]#WHITE#", "#LIGHT_GREEN#[떠난다]#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/john-worldmap.lua"
 
+t([[#LIGHT_GREEN#*As you approach you recognize Outpost Leader John. But there is a kind of terrible darkness, you can feel his hatred crystallize the air.*#WHITE#
+@playername@. You malevolent creature! #{bold}#YOU KILLED HER! YOU MURDEROUS DOG!#{normal}#
+You #{italic}#dare#{normal}# carry her ring around like a trophy! I can feel it on you. Give it back! DIE!]], [[#LIGHT_GREEN#*가까이 가자, 전초기지 대장이었던 존이라는 것을 알아봤습니다. 하지만 끔찍한 어둠을 두르고 있고, 그의 증오가 주변 공기마저 얼리고 있다는 걸 느낄 수 있습니다.*#WHITE#
+@playername@. 너 이 사악한 자식! #{bold}#네가 그녀를 죽였어! 개만도 못한 살인자 놈!#{normal}#
+#{italic}#감히#{normal}# 그녀의 반지를 트로피처럼 들고 다녀?! 네가 갖고 있다는 걸 알 수 있다. 그걸 내놔라! 죽어라!!]], "_t")
+t("Oh you liked that paladin lady? I loved killing her!", "오, 그 기사 아가씨를 좋아했나? 그년을 죽이는 건 참 즐거웠다!", "_t")
+t("She left me no choice; I had to protect #{bold}#my#{normal}# people.", "선택의 여지가 없었다. #{bold}#내#{normal}# 동포들을 보호해야 했단 말이다.", "_t")
 t("Whatever.", "그럭저럭.", "_t")
+t("What?", "뭐라고?", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/kaltor-entry.lua"
 
+t([[#LIGHT_GREEN#*As you open the door to the shop, you are greeted by a pair of Steam Giant guards, staring at you and holding their steamguns tightly, at the ready but not aimed at you.*#WHITE#
+No sudden moves, @playername@. Kaltor's orders are to consider you a customer for now. Try anything foolish, and you'll be a live demonstration for his newest guns instead.  Understand?]], [[#LIGHT_GREEN#*가게의 문을 열자, 증기 거인 경비병 두 명이 반겨 줍니다. 자신들의 총을 꽉 쥐고 당신을 쳐다보고 있지만, 아직 겨누진 않았습니다.*#WHITE#
+허튼 짓 마라, @playername@. 칼토르 님의 명령으로 지금은 널 손님으로 맞이하겠다. 멍청한 짓을 했다간 최신작 화기의 시험을 겸해 벌집으로 만들어 주겠다. 알겠나?]], "_t")
+t("I have gold, you have equipment. This doesn't need to be any more complicated than that.", "나에겐 금화가 있고, 너희에겐 물건이 있다. 이거면 충분하지 않나?", "_t")
+t("Those are some pretty fancy guns. Think it'll be hard to get your blood out of the gears?", "총 멋지군. 그런 장비가 있으면 내가 너희 목을 따는 게 더 힘들어질 것 같나?", "_t")
+t([[#LIGHT_GREEN#*She smiles, relieved but also slightly disappointed.*#WHITE#
+Couldn't have said it better myself. Come on in - and try not to scare the other patrons.]], [[#LIGHT_GREEN#*경비병이 미소를 짓습니다. 안심한 것 같지만, 약간 실망한 것 같기도 합니다.*#WHITE#
+충분하지. 들어와라 - 그리고 다른 경비병들을 겁주진 마라.]], "_t")
+t("[enter]", "[들어간다]", "_t")
+t([[Good luck with that, savage.
+#LIGHT_GREEN#*She smirks, and pulls a cord on the wall beside her as her and her partner duck behind cover; a loud bell rings, and you hear a commotion from further inside the shop.*#WHITE#]], [[잘 해 보라고, 미개한 녀석아.
+#LIGHT_GREEN#*경비병이 히죽거리고는 뒤쪽의 줄을 잡아당기고 동료와 함께 엄폐했습니다. 종이 시끄럽게 울리고, 가게 안쪽에서 소란이 일어났습니다.*#WHITE#]], "_t")
+t("[fight]", "[싸운다]", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/kaltor-shop.lua"
 
+t("Finally a practical giant! Show me your wares.", "드디어 쓸만한 거인을 만났군! 뭘 팔고 있지?", "_t")
+t("Die giant scum! For Kruk! For Garkul! For the Pride!", "죽어라, 쓰레기 같은 거인 놈아! 크룩을 위하여! 가르쿨을 위하여! 긍지를 위하여!", "_t")
+t("No need for shopping now.", "당장은 살 게 없어.", "_t")
+t([[#LIGHT_GREEN#*A well-dressed giant stands in front of you, covered in expensive jewelry; judging from the poorly-fastened clasp on his necklace, you can assume he acquired it all fairly recently.  He grins as he leans down over the counter to get a good view of you.*#WHITE#
+Ah, welcome, @playername@! #LIGHT_GREEN#*he yells in a voice loud enough to catch the attention of all in the shop, as he lifts his head to look around.*#WHITE# Yes, you heard me right, @playername@! The very same one who's been running rampant through the Vaporous Emporium is coming to ME for armaments! I don't think I could've asked for a stronger endorsement! #LIGHT_GREEN#*He looks back down to you, leaning over the counter to point out a glass display case loaded with exotic weaponry and armor.*#WHITE#
+Well, I'm not one to turn down anyone with gold, and seeing as you've already made me rich, I'll even give you a discount, down to my pre-attack prices. #LIGHT_GREEN#*He leans in uncomfortably close, staring you in the eyes.* #WHITE#Or, if you came to do here what you did in the Emporium... #LIGHT_GREEN#*He directs his glare toward the multiple well-armed guards staring at you and standing still on the sides of the room.*#WHITE# I'm sure my #{italic}#emergency safety measures#{normal}# would just #{italic}#love#{normal}# an opportunity to try out their shiny new toys.]], [[#LIGHT_GREEN#*잘 차려입은 거인이 서 있습니다. 값비싼 장신구들로 뒤덮여있다시피 하고, 걸쇠가 목걸이에 어설프게 걸려 있는 걸로 보아 이 옷가지들을 구해 입은 지 얼마 되지도 않은 것 같습니다. 당신을 좀 더 잘 보려고, 계산대 위로 몸을 한껏 기울이고는 활짝 웃습니다.*#WHITE#
+아, 어서 오십시오, @playername@ 님! #LIGHT_GREEN#*그가 고개를 돌려 주변을 한 번 보고는, 이목을 끌려는 듯이 시끄럽게 소리쳤습니다.*#WHITE# 그래요, 정말 잘 찾아 오신 겁니다, @playername@ 님! 증기 상업지구에서 그 난리통을 일으켰던 자가, 직접 물건을 구하려고 바로 저를, 찾아왔습니다! 이보다 더 확실한 보증이 어디 있겠습니까! #LIGHT_GREEN#*그는 이국적인 무기들과 갑옷들이 진열되어 있는 유리 진열장을 가리키며 당신을 내려다보았습니다.*#WHITE#
+흠, 전 금화를 갖고 있는 사람이라면 그게 누구든지 상관이 없습니다. 게다가 당신은 절 이미 부자로 만들어 주었으니, 할인을 해 드리지요. 당신이 침공하기 전의 가격으로 말입니다. #LIGHT_GREEN#*그가 불편할 정도로 몸을 당신 쪽으로 기울여, 눈을 빤히 들여다봅니다.* #WHITE#아니면, 그 상업지구에서 저질렀던 일을 여기서 또 하시겠다면... #LIGHT_GREEN#*그는 방 한켠의 잘 무장하고 있는 경비병들 쪽으로 눈을 돌렸습니다.*#WHITE# 제 #{italic}#긴급 안전 장치들#{normal}#이 자기들의 새 장난감을 시험해 볼 기회가 생겨서 #{italic}#참 좋아할#{normal}# 거라고 믿습니다.]], "_t")
+t([[Welcome back, @playername@!  You see this, customers?  This fearsome, savage master of battle was so impressed by my products that he came back for more!
+#LIGHT_GREEN#*He points to a new poster on the wall next to him, showing your face and the caption #{bold}#"KALTOR: THE CHOICE OF DESTROYERS!"#{normal}#*#WHITE#
+
+So, what'll it be?]], [[잘 오셨습니다, @playername@ 님!  보이십니까, 손님 여러분?  이 공포스럽고, 야만적인 전투의 달인이 제 상품이 참으로 마음에 들어서 다시 돌아왔다 이겁니다!
+#LIGHT_GREEN#*그는 옆쪽 벽의 새 포스터를 가리켰습니다. 당신의 얼굴이 그려져 있고, #{bold}#"칼토르: 파괴자의 선택!"#{normal}# 이라고 적혀 있습니다.*#WHITE#
+
+그래서, 무엇을 도와드릴까요?]], "_t")
+t([[#LIGHT_GREEN#*Kaltor is busy packing some of his goods away in crates; he hands one to a worker, carrying it out the back door, before turning to you.*#WHITE#
+	Make it quick, @playername@. Not to be rude, but there's a private airship out there with my name on it, and I'd rather have a bird's-eye view of what you're about to do than a front-row seat.]], [[#LIGHT_GREEN#*칼토르는 자기 물건들을 상자에 담기 바쁩니다. 그는 상자 하나를 일꾼에게 주었고, 일꾼은 그걸 들고 뒷문으로 나갔습니다. 그러고 나서 그는 당신 쪽으로 돌아봤습니다.*#WHITE#
+	서둘러 주십시오, @playername@ 님. 무례하게 굴려는 건 아니고, 저 밖에 제 이름이 붙어 있는 개인 비행선이 있습니다. 그, 당신이 하려는 일을 제일 가까이서 보는 것보단 특등석에서 보는 게 나을 것 같아서 말입니다.]], "_t")
+t([[#LIGHT_GREEN#*He frowns in mock disappointment, as he presses a button on his stylish coat; it hisses, and you hear motors whirring*#WHITE#
+Oh, what a pity.  Guards?  Ten thousand gold to whoever gets the killing blow.  Store credit, of course.]], [[#LIGHT_GREEN#*그는 실망감에 조롱하듯 얼굴을 찡그렸고, 자신의 멋진 코트에 달린 버튼을 눌렀습니다. 쉭쉭거리는 소리가 들렸고, 전동기가 돌아가는 소리도 들립니다*#WHITE#
+오, 불쌍하군. 경비병? 숨을 끊어 놓은 자에게 1만 골드 주지. 당연히 가게 상품 교환권으로 말이야.]], "_t")
+t("DEATH!", "죽어라!!", "_t")
 
 
 ------------------------------------------------
@@ -314,36 +429,118 @@ section "game/dlcs/tome-orcs/data/chats/kruk-tinker-shop.lua"
 
 t("Welcome @playername@ to my shop.", "내 가게에 어서 와, @playername@.", "_t")
 t("Let me see your wares.", "물건을 보고 싶어.", "_t")
+t("I am looking for special training.", "특별한 훈련을 받을 만한 곳을 찾고 있는데.", "_t")
 t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
+t("I can indeed offer some training (talent category Steamtech/Physics and Steamtech/Chemistry) for a fee of 100 gold pieces each.", "확실히 내가 몇 가지 가르쳐 줄 순 있어. (기술 계열 증기 공학/물리학, 증기 공학/화학) 각각 100 골드에.", "_t")
+t("Please train me in physics.", "물리학을 가르쳐 줘.", "_t")
+t("The tinker spends some time with you, teaching you the basics of smithing.", "발명가는 잠깐 시간을 내어 당신에게 땜질의 기초를 가르쳤다.", "logPlayer")
+t("Please train me in chemistry.", "화학을 가르쳐 줘.", "_t")
+t("The tinker spends some time with you, teaching you the basics of therapeutics.", "발명가는 잠깐 시간을 내어 당신에게 의학의 기초를 가르쳤다.", "logPlayer")
 t("No thanks.", "사양하지.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/metash.lua"
 
+t([[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
+I would like to talk to you.]], [[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
+그대와 이야기를 하고 싶다.]], "_t")
+t("Your clan is free Metash, the tyrant is no more.", "네 혈족은 이제 자유다, 메타쉬. 폭군은 죽었어.", "_t")
+t("Soft-foot of the Kruk, I come to give you a warning, an apology, and a plea for help.  An incredible magical force has awakened within one of our elders, Nektosh the One-Horned, and he has gone mad with its power.  Those who stood up against him were reduced to less than ashes by a beam from his horn, a beam that tunneled far up through the rock above him until we could see the sky.  He has convinced some of us that he can use this terrible force to conquer Eyal and terrified others into going along with him; he has announced that his first step will be to lead his followers in an attack on Kruk Pride.", "부드러운 발을 가진 크룩의 일원이여, 난 이곳에 경고를 하러 왔다. 또한 이것은 사과이기도 하고, 간곡히 도움을 청하는 것이기도 하다. 우리의 장로 중 하나인 외뿔의 네크토쉬가 믿기지 않을 정도의 마법의 힘에 눈을 떴다. 그리고 그 힘에 취해 미쳐 버렸지. 놈에게 반기를 든 자들은 놈의 뿔에서 뿜어져 나온 광선에 맞아 잿더미보다도 더 잘게 부수어졌다. 그 광선은 놈의 머리 위의 바위조차 완전히 뚫어서, 우린 그 구멍으로 하늘마저 볼 수 있었다. 놈은 자신의 끔찍한 힘으로 에이알을 정복하고 다른 종족들을 공포에 떨게 만들 수 있다고, 우리 중 몇몇을 설득했다. 놈은 그 정복 계획의 첫 단계가 추종자들을 이끌고 크룩 긍지를 공격하는 것이라고 선언했지.", "_t")
+t("The rest of us have fled, hiding in caverns across the peninsula...  I cannot in good conscience ask you to face certain death before his magic for our sakes, but striking first may be the only way to save your people.  He appears to be stalling the invasion, buying you some time, but if you cannot catch him off-guard before he finally commits to it...  I've seen his power cut through a mountain like it was a leaf, soft-foot.  There can be no victory against that kind of magic.  Run, hide, and hope he falls victim to an accident or loses the remaining fragments of his sanity that keep him capable of casting spells.", "추종자가 되지 않은 나머지들은 도망쳤고, 반도의 동굴에 숨었다... 우리를 위해 네크토쉬의 마법에, 확실한 죽음에 맞서 달라고 부탁하려니 양심의 가책이 느껴지지만, 먼저 공격하는 것만이 그대의 동포들을 구할 유일한 방법일 것이다. 놈은 지금 공격을 미루고 있는 것 같아 급박하진 않지만, 만약에 너무 늦어서 놈을 막지 못하게 된다면... 부드러운 발을 가진 자여, 난 놈이 자신의 힘으로 산 하나를 나뭇잎처럼 갈라 버리는 것을 보았다. 그런 종류의 마법에 정면으로 맞서서는 이길 수 없다. 피하고, 숨어서, 놈이 사고를 당하거나 완전히 이성을 잃어서 마법을 쓰지 못하게 되길 기도하라.", "_t")
+t("I will check it out", "확인해 보도록 하지.", "_t")
+t("We of the Krimbul Clan have faced our near-certain deaths all too many times, even after our hearts stopped beating; this is the first time we have been shown the kindness of utter salvation by an outsider.  Those who were not enthralled by Nektosh and are not delusionally faithful to his \"cause\" will reclaim the Mana Caves in time; until then, we will join your Pride in your revolution.  You have liberated us, and we will not rest until you are freed of your oppressors as well.", "우리 크림불 혈족은 우리의 심장이 멈춘 이후에도 엄청난 위기를 수없이 겪어 왔었다. 하지만 외부인에 의해 완전히 구원받는 정도의 친절은 이번이 처음이군. 네크토쉬에게 지배당하지 않은 자들과 놈의 \"대의\" 를 맹신하지 않은 자들은 마나 동굴을 재건해낼 것이다. 그 때까지, 우린 그대의 긍지와 뜻을 같이 하여 혁명에 동참하겠다. 그대가 우릴 해방해 주었으니, 우린 그대들이 억압으로부터 해방될 때까지 쉬지 않으리라.", "_t")
 t("Thanks.", "감사합니다.", "_t")
+t("Hail, @playername@!", "@playername@!", "_t")
 t("Yes?", "응?", "_t")
+t("Our is free Metash, the tyrant is no more.", "우린 이제 자유다, 메타쉬. 폭군은 사라졌어.", "_t")
 t("Not now.", "나중에.", "_t")
+t([[I came here to warn the Kruk Pride of the threat Nektosh poses and ask for their help, but they have some more immediate threats to deal with...  We should help them repel these Steam Giants.  They are the only people who have ever treated us with respect and dignity; if they are crushed by the Atmos Tribe or the Allied Kingdoms, we will surely be next.  Their success is our survival.
+
+Unfortunately, they cannot afford to spare the warriors to retake the Mana Caves from that tyrant, and I need to stay here to help them defend their land.  The task of freeing our clan is in your hands, when you feel ready for it.]], [[난 이곳 크룩 긍지에 네크토쉬에 대해 경고하고 도움을 구하러 왔지만, 그들에겐 당장 급히 처리해야 할 문제가 있었다... 우린 그들을 도와 증기 거인들을 물리쳐야 한다. 지금까지 우리를 존중해 주었던 자들은 크룩 긍지 뿐이다. 그들이 아트모스 부족이나 왕국연합에게 패배한다면, 다음은 필히 우리 차례일 것이다. 그들이 성공해야 우리가 살아남을 수 있는 것이다.
+
+안타깝게도 그들은 폭군을 몰아내기 위해 마나 동굴로 보낼 만한 전사를 차출할 여력이 없고, 난 그들이 영토를 지킬 수 있도록 여기서 도와야 한다. 우리 혈족을 자유롭게 할 수 있는 건 오직 그대 뿐이다. 그대가 충분히 준비가 되었다면.]], "_t")
 t("[listen]", "[듣는다]", "_t")
+t("Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "네크토쉬는 자신이 무적이며 전능한 일각수의 후손이라고 주장한다만, 난 그딴 헛소리를 단 1초도 진지하게 믿은 적이 없다. 놈이 깨우친 굉장한 마법의 힘은 정신이 아찔해질 정도로 공포스럽긴 하지만, 놈은 아직까지 그 힘으로 보호막을 만들거나 순간이동을 하거나 한 적이 없고, 그 광선마저 항상 조준이 완벽한 것도 아니었다... 내 생각엔 놈은 약점이 있고, 그걸 숨기고 있다. 용맹하게 맞서라, 화이트후프 동포여. 그리하면 크림불 혈족은 다시 자유롭게 되리라!", "_t")
 t("I will!", "알겠어!", "_t")
+t([[He...  he found a wand?  And he realized it was running dry, but only after taking over the tribe?  I pity him, but I cannot forgive him for being willing to sacrifice so many Whitehooves and Orcs to escape the consequences of his brief lapse into madness...  still, as a personal request I ask that you not tell others of his last thoughts.  The Nektosh we once knew saved our tribe from the corrupted magic deep under Eyal; he deserves to, at worst, be remembered as one who tragically succumbed to its influence.
+
+Ultimately, though, the choice is yours; it is more important that he is no longer a threat.  There are some who may still cling to the false hope he gave them, but we will retake the Mana Caves from them in time.  We owe you a great debt, and now that we have no more pressing concerns, we can aid Kruk Pride in their rebellion.  Good travels, @playername@.]], [[놈이... 마법봉을 찾아냈었다고? 그리고 부족을 접수한 다음에야 그게 고갈되어 가고 있었다는 걸 알아차렸다고? 불쌍하긴 하지만, 놈은 잠깐 광기에 빠졌던 것의 결과로부터 도망치기 위해서, 수많은 화이트후프들과 오크들을 희생시키려 들었다... 용서할 수는 없다. 그래도 개인적으로 부탁하건대, 다른 이들에게는 놈의 마지막 계획을 알리지 말아다오. 우리가 예전에 알고 있던 네크토쉬는 에이알 깊은 곳의 오염된 마법으로부터 우릴 구해낸 영웅이었다. 최소한, 그 마법의 영향을 받아서 타락한 안타까운 자 정도로는 기억될 만한 자격이 있다.
+
+선택은 결국 그대의 몫이다. 중요한 건 놈이 더 이상 위협이 아니라는 것이지. 아직도 놈이 주었던 거짓된 희망에 매달리고 있는 자들이 있지만, 우린 때가 되면 그런 자들에게서 마나 동굴을 탈환할 것이다. 우린 그대에게 큰 빚을 졌다. 또한 이제 우리의 걱정거리가 사라졌으니, 우린 크룩 긍지와 그들의 반란을 도울 수 있을 것이다. 안전한 여행이 되길, @playername@.]], "_t")
+t("To you too, Metash.", "당신도, 메타쉬.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/phonograph.lua"
 
+t("[insert %s]", "[%s 삽입한다]", "tformat", nil, {"를"})
+t("#LIGHT_GREEN#*This machine seems to have a slot for some kind of disks.*#WHITE#", "#LIGHT_GREEN#*이 기계에는 무슨 원판 같은 걸 넣을 수 있는 구멍이 있습니다.*#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/shertul-priest.lua"
 
+t([[#LIGHT_GREEN#*Before you stands a tentaculous horror which you recognize for what it truly is. A living #{bold}#Sher'Tul#{normal}#!.*#WHITE#
+Who are you, young creature, to stand up to a High Priest of Amakthel? Do you not know that you are before a servant of the Almighty Creator, the Sunfather, the God of Gods, Lord of all Eyal? In the millenia I have lived I have killed whole races like yourself. I have even wrenched the spirits of immortal gods from this world. So who are you, little one, who dare defy me?]], [[#LIGHT_GREEN#*눈앞에 촉수 달린 공포가 있습니다. 당신은 그게 무엇인지 알 수 있습니다. 살아 있는 #{bold}#쉐르'툴#{normal}#입니다!*#WHITE#
+아마크텔의 고위 사제 앞에 서 있는 넌 대체 무엇인가, 어린 생명이여? 지금 전능한 창조자이자 태양의 아버지이며 신들 중의 신, 그리고 온 에이알의 주인이신 분의 시종 앞에 서 있다는 것을 모르는 건가? 난 수천년간 살아 오며 너 같은 종족들을 수도 없이 절멸시켜 왔고, 불멸하는 신들의 영혼조차 이 세계에서 추방했다. 그래서 넌 무엇인가, 왜소한 자여? 대체 무엇이길래 감히 내게 맞서는 것인가?]], "_t")
+t("I... am %s, of the seed of Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "난... %s, 포식자 가르쿨의 후예다. 가르쿨은 우리에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 가르쿨의 혼이 내 안에서 타오르고 있으니. 그리고 가르쿨의 이름으로, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
+t("I... am %s, though I lack my original body my mind is bound to Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "난... %s, 비록 원래 몸을 잃었을지라도, 내 정신은 포식자 가르쿨과 함께한다. 가르쿨은 우리에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 가르쿨의 혼이 내 안에서 타오르고 있으니. 그리고 가르쿨의 이름으로, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
+t("I... am %s and I am not mortal! Garkul taught the orcs to fight legends, and to flinch not from even the most desperate deed. We learned that from them! Here and now I face you without fear or hesitation, for cold touch of undeath is within me. And I will #{bold}#break#{normal}# you!", "난... %s. 난 필멸자가 아니다! 가르쿨은 오크들에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 우린 그들에게서 그것을 배웠다! 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 차가운 불사의 손길이 내 안에 있으니. 그러니 지금부터, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
+t("I... am %s. Here and now I face you without fear or hesitation, for the utter determination burns within me. And I will #{bold}#break#{normal}# you!", "난... %s. 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 내 안에서 확고한 결의가 타오르고 있으니까. 그러니 지금부터, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/chats/weissi-machine.lua"
 
+t([[#LIGHT_GREEN#*Before you is an extremely old looking machine. It seems to be infused with some sort of psionic energy; impossible as this sounds.
+And it #{bold}#speaks#{normal}# to you!*#WHITE#
+Welcome @playername@. We have been waiting for you.]], [[#LIGHT_GREEN#*엄청나게 낡아 보이는 기계가 있습니다. 모종의 정신력, 또는 염동력 에너지가 깃들어 있는 모양입니다. 정말 말이 안 되는 소리긴 하지만요.
+그리고 이게 지금 당신에게 #{bold}#말을 걸었습니다!#{normal}#*#WHITE#
+환영한다, @playername@. 우린 널 기다리고 있었다.]], "_t")
+t("What are you?", "넌 뭐냐?", "_t")
+t("Waiting for me?", "날 기다렸다고?", "_t")
+t("What do you need me for?", "원하는 게 뭐냐?", "_t")
+t("I have muscle tissue for you.", "네게 줄 근육 조직을 가져왔다.", "_t")
 t("[leave]", "[떠난다]", "_t")
+t("#LIGHT_GREEN#*You feel a powerful presence in your mind.*#WHITE#", "#LIGHT_GREEN#*머릿속에서 강렬한 존재감이 느껴집니다.*#WHITE#", "_t")
+t("Yes. We predict you will be useful to us. If you are not, another will be.", "그렇다. 우린 네가 우리에게 유용할 것이라고 예지했었다. 만약 네가 그렇지 않다면, 다른 이가 유용할 것이다.", "_t")
+t("I see...", "알겠다...", "_t")
+t([[We require recent yeti muscle tissue from powerful specimens. You will help us, or you will not. Either way they will come to us.
+If you do so we shall reward you with petty knowledge so that you may postpone your death.]], [[우린 최근에 강력한 예티로부터 얻은 근육 조직이 필요하다. 넌 우릴 도울 수도 있고, 돕지 않을 수도 있다. 어찌 되었든 우린 그것들을 얻게 될 것이다.
+네가 돕는다면, 우린 네게 사소한 지식을 제공하겠다. 이것은 네 죽음을 미룰 수도 있다.]], "_t")
+t("That is... generous of you.", "그것 참... 관대하군.", "_t")
+t("Talent categories", "기술 계열", "_t")
 t("Talents", "기술", "_t")
+t("Improved core stats", "기초 능력치 상승", "_t")
+t([[#LIGHT_GREEN#*The muscle tissue suddenly vanishes from your inventory.*#WHITE#
+Thank you @playername@, this is indeed a suitable specimen. We shall honor our bargain with you. What do you wish to learn?]], [[#LIGHT_GREEN#*배낭에서 근육 조직이 갑자기 사라졌습니다.*#WHITE#
+고맙다 @playername@, 이것은 확실히 적합한 자의 것이다. 우린 너와의 약속을 지킬 것이다. 무엇을 배우길 원하는가?]], "_t")
+t("What do you wish to learn?", "무엇을 배우겠습니까?", "_t")
 t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
+t([[Antimagic is a very special category. If you learn it you will never be able to use arcane powered items or talents again.
+Do you still wish to take this path?]], [[반마법은 매우 특수한 기술 계열입니다. 이걸 배우면 마법의 힘으로 작동하는 물건들이나 마법 기술들을 두 번 다시 쓸 수 없게 될 겁니다.
+정말로 이 길을 선택하겠습니까?]], "_t")
+t("Very well. We can teach you a talent category; which do you want?", "아주 좋다. 일련의 기술들을 가르쳐 주겠다. 어떤 것을 배우고자 하는가?", "_t")
+t("[Allow training of talent category %s (at mastery %0.2f)]", "[기술 계열 %s 배운다 (숙련치 %0.2f)]", "tformat", nil, {"를"})
+t("Very well. We can teach you a talent.  Which do you want?", "아주 좋다. 기술 하나를 가르쳐 주겠다. 어떤 것을 배우고자 하는가?", "_t")
+t("Very well. We can teach you a talent; which type do you want?", "아주 좋다. 기술 하나를 가르쳐 주겠다. 어떤 종류의 기술을 원하는가?", "_t")
+t("Physical techniques", "물리적 기술", "_t")
+t("Arcane spells", "마법 주문", "_t")
+t("Nature/Psionic talents", "자연/초능력 기술", "_t")
+t("Improve", "상승", "_t")
+t("Learn", "배운다", "_t")
+t("[%s talent %s (+%d level(s))]", "[%s %s (+%d 레벨)]", "tformat")
+t([[Antimagic talents are very special. To learn one means you will never be able to use arcane powered items or talents again.
+Do you still wish to take this path?]], [[반마법 기술은 매우 특수합니다. 하나라도 배우면 마법의 힘으로 작동하는 물건들이나 마법 기술들을 두 번 다시 쓸 수 없게 될 겁니다.
+정말로 이 길을 선택하겠습니까?]], "_t")
+t("No.", "아니.", "_t")
+t("Yes!", "그래!", "_t")
+t("Very well. We can teach you a talent (unlocking the talent category is separate). Which do you want?", "아주 좋다. 기술 하나를 가르쳐 주겠다 (기술 계열을 해금하는 것은 별개입니다). 어떤 것을 배우고자 하는가?", "_t")
+t("[Improve %s by +%d]", "[%s +%d]", "tformat", nil, {"를"})
+t("Select the party member to receive the reward:", "보상을 받을 파티 멤버를 선택하세요:", "_t")
+t("Hum no let me change my mind.", "생각이 바뀌었다.", "_t")
+t("Very well. We can increase one of your core stats by 4, which one?", "아주 좋다. 네 기초 능력치 중 하나를 4만큼 늘릴 수 있다. 어떤 걸로 하겠는가?", "_t")
 
 
 ------------------------------------------------
@@ -410,6 +607,8 @@ t("sunwall", "태양의 장벽", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/encounters/fareast.lua"
 
+t("Pocket of Time", "시간의 구멍", "entity name")
+t("Strange temporal disruption", "이상한 시간 왜곡", "_t")
 t("Ruined Dungeon", "파괴된 던전", "entity name")
 t("harmless", "무해한", "entity type")
 t("special", "특별한", "entity subtype")
@@ -419,40 +618,68 @@ t("Entrance to a ruined dungeon", "파괴된 던전의 입구", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/encounters/maj-eyal.lua"
 
+t("Tinker Cave", "발명가의 동굴", "entity name")
 t("harmless", "무해한", "entity type")
 t("special", "특별한", "entity subtype")
+t("Entrance the tinker's master cave", "발명의 대가의 동굴 입구", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/AAA.lua"
 
+t("steamtech weaponry", "증기 공학 무기", "_t")
+t("defensive items", "방어구", "_t")
+t("tinkers", "발명품", "_t")
+t("arcane and psi", "마법과 염력", "_t")
+t("runes and infusions", "룬과 주입물", "_t")
 t("tools", "암기", "_t")
+t("Ancient Automated Archive (%s)", "고대의 자동화된 보관소 (%s)", "tformat")
+t("An ancient archive of knowledge! You've heard tales of those triangular store devices, holding items and restoring them. For a price.", "고대 지식의 보고입니다! 이런 삼각형 모양 장치들은 물건들을 보관하거나 복구할 수 있다는 이야기를 들은 적이 있습니다. 대가를 지불해야 하지만요.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/campfire.lua"
 
+t("campfire", "캠프파이어", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/drills.lua"
 
+t("corrupted geothermal drill", "오염된 지열 드릴", "_t")
+t("geothermal drill", "지열 드릴", "_t")
+t("A huge geothermal drill, pumping heat and steam from Eyal's crust.", "거대한 지열 드릴로, 에이알의 지층에서 열기와 증기를 퍼올리고 있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/herbs.lua"
 
+t("pile of herbs", "약초 무더기", "_t")
+t("A little stockpile of herbs, whomever left them there should be thanked.", "작은 약초 무더기입니다. 누가 놔뒀는지는 모르겠지만 참 고맙네요.", "_t")
+t("#OLIVE_DRAB#You carefully pickup the stack of herbs.", "#OLIVE_DRAB#약초 더미를 조심스럽게 집어들었다.", "log")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/merchant-stall.lua"
 
+t("market stall", "가게 가판대", "_t")
+t("A market stall, it looks abandoned..", "가게 가판대입니다. 버려진 것 같습니다..", "_t")
 t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f 골드#LAST# 정도 가치의 돈", "tformat")
+t("Market Stall", "가게 가판대", "_t")
+t([[You loot the stall and gain:
+]], [[가판대를 뒤져서 이런 것들을 얻었습니다:
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/events/sewer-alligator-nest.lua"
 
+t("strange conduit on the wall", "이상한 벽의 도관", "_t")
+t("Crack open?", "부숴서 열어볼까요?", "_t")
+t("Strange conduit", "이상한 도관", "_t")
+t("#GOLD#The conduit shatters open, releasing huge angry alligators!", "#GOLD#도관이 산산조각나며 열렸고, 거대하고 화가 난 악어들이 풀려났다!", "logSeen")
+t("open conduit on the wall", "벽의 도관을 연다", "_t")
+t("#CRIMSON#The conduit is smashed and impassible.", "#CRIMSON#도관은 박살났고, 지나갈 수가 없다.", "logPlayer")
 t("Leave", "떠난다", "_t")
 t("Open", "연다", "_t")
 
@@ -460,6 +687,7 @@ t("Open", "연다", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/manacave.lua"
 
+t("manacave ground", "마나 동굴 땅", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("door", "문", "entity name")
@@ -475,6 +703,8 @@ t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
+t("mech wall", "기계 벽", "entity name")
+t("mech door", "기계 문", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("mech", "기계", "entity subtype")
 t("wall", "벽", "entity type")
@@ -488,6 +718,8 @@ t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
+t("mech wall", "기계 벽", "entity name")
+t("mech door", "기계 문", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
 t("mech", "기계", "entity subtype")
 t("wall", "벽", "entity type")
@@ -504,9 +736,14 @@ t("primal trunk", "원시 통나무", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/grids/slumbering_cave.lua"
 
+t("corrupted cave floor", "오염된 동굴 바닥", "entity name")
+t("corrupted cave walls", "오염된 동굴 벽", "entity name")
+t("corrupted cave door", "오염된 동굴 문", "entity name")
 t("wall", "벽", "entity type")
+t("corrupted cave door (open)", "오염된 동굴 문 (열림)", "entity name")
 t("ladder to the next level", "다음 구역으로 향하는 사다리", "entity name")
 t("ladder to the previous level", "이전 구역으로 향하는 사다리", "entity name")
+t("corrupted cave", "오염된 동굴", "entity subtype")
 t("floor", "바닥", "entity type")
 t("ladder to worldmap", "세계 지도로 통하는 사다리", "entity name")
 
@@ -517,6 +754,7 @@ section "game/dlcs/tome-orcs/data/general/grids/snow_mountains.lua"
 t("floor", "바닥", "entity type")
 t("rocky ground", "바위 바닥", "entity name")
 t("rockwall", "바위 장벽", "entity type")
+t("snowy mountain", "눈 덮인 산", "entity name")
 t("rock", "바위", "entity subtype")
 t("snowy tree", "눈 덮인 나무", "entity name")
 t("grass", "잔디", "entity subtype")
@@ -531,9 +769,14 @@ t("way to the next level", "다음 구역으로의 길", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/alligator.lua"
 
+t("alligator", "악어", "entity subtype")
 t("reptile", "파충류", "entity type")
+t("sewer alligator", "하수구 악어", "entity name")
 t("How cliche!", "정말 진부하네요!", "_t")
+t("giant alligator", "거대 악어", "entity name")
 t("How cliche! Also, terrifying!", "정말 진부하네요! 그리고 또, 무섭네요!", "_t")
+t("basaligator", "바실리게이터", "entity name")
+t("This thing looks like an alligator, but it has unnaturally large, grey eyes. It gazes at you with great intensity.", "이 녀석은 악어처럼 보이지만, 눈이 비정상적으로 크고 회색입니다. 당신을 엄청 강렬하게 응시하고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -541,6 +784,12 @@ section "game/dlcs/tome-orcs/data/general/npcs/domestic-yeti.lua"
 
 t("giant", "거인", "entity type")
 t("yeti", "예티", "entity subtype")
+t("pet yeti", "애완 예티", "entity name")
+t("This yeti is somewhat smaller than the average yeti, and its fur seems well groomed. Nonetheless, it looks quite unhappy to see its master's home invaded.", "왠지는 모르겠지만 이 예티는 일반적인 예티들보다 크기가 작고, 털이 잘 손질되어 있습니다. 그렇지만 자기 주인의 집이 공격당하는 걸 보고 있으니 기분이 꽤 나빠진 모양입니다.", "_t")
+t("guard yeti", "경비병 예티", "entity name")
+t("This yeti is large and angry, with claws far more sharply honed than those found in nature.", "화가 나 있는 커다란 예티로, 발톱이 야생 예티들보다 훨씬 더 날카롭게 연마되어 있습니다.", "_t")
+t("attack yeti", "전투 예티", "entity name")
+t("This yeti's claws are coated in sharply carved iron. It glares at you with a long trained anger.", "이 예티의 손톱은 날이 세워진 철로 덮여 있습니다. 오랜 기간 훈련된 분노를 담아 당신을 노려보고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -551,11 +800,14 @@ t("vapour", "증기", "entity subtype")
 t("hethugoroth", "헤수고로스", "entity name")
 t("greater hethugoroth", "고위 헤수고로스", "entity name")
 t("ultimate hethugoroth", "궁극의 헤수고로스", "entity name")
+t("A swirling mass of hot vapour animated into a semblance of life.", "소용돌이치며 살아 움직이는 뜨거운 증기 덩어리입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/horror.lua"
 
+t("saw horror", "톱날의 공포", "entity name")
+t("Oh. Oh no. Where did it get those?", "오, 오 안돼. 저런 것들은 또 어디서 났답니까?", "_t")
 
 
 ------------------------------------------------
@@ -569,12 +821,19 @@ Vicious predators, they inject corrupting diseases into their foes, and their sh
 t("ritch larva", "릿치 애벌레", "entity name")
 t("ritch hunter", "릿치 사냥꾼", "entity name")
 t("ritch hive mother", "릿치 군락 어미", "entity name")
+t("ritch centipede", "릿치 지네", "entity name")
+t("This strange creature looks like a ritch hunter but with more legs. So many legs.", "릿치 사냥꾼과 비슷하게 생겼지만 다리가 더 많은 이상한 생물입니다. 다리가 엄청 많습니다.", "_t")
+t("larvae bloated ritch mother", "유충을 품은 릿치 어미", "entity name")
+t("The skin of this creature is literally crawling with larvae, yet she seems to be moving toward you very fast.", "이 생명체의 피부에는 말 그대로 애벌레들이 들끓고 있고, 그럼에도 엄청난 속도로 당신에게 다가오고 있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/steam-drone.lua"
 
+t("drone", "드론", "entity subtype")
 t("mechanical", "기계학", "entity type")
+t("steam drone", "증기 드론", "entity name")
+t("This eight legged mechanical construct looks suspiciously like a spider. A huge clonking spider that runs to you at great speed ready to cut you to pieces with its two rotating saws in place of mandibles.", "다리가 여덟 개 달린 기계 구조물로, 마치 거미처럼 생겼습니다. 거대한 거미가 엄청난 속도로 쿵쾅거리면서 달려와, 아랫턱 대신 달린 회전톱 두 개로 당신을 산산조각내려 하고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -582,8 +841,15 @@ section "game/dlcs/tome-orcs/data/general/npcs/steam-giant-arcane.lua"
 
 t("giant", "거인", "entity type")
 t("steam", "증기", "entity subtype")
+t("necropsych's ghost", "염령술사의 유령", "entity name")
 t("ghost", "유령", "entity subtype")
 t("undead", "언데드", "entity type")
+t("The spirit of a recently deceased necropsych. It moans painfully but seems impervious to most worldly things.", "최근에 죽은 염령술사의 영혼입니다. 고통에 찬 신음소리를 내고 있지만 대부분의 것에 간섭을 받지 않는 것 같습니다.", "_t")
+t("steam giant necropsych", "증기 거인 염령술사", "entity name")
+t("Covered in arcane runes of death, this steam giant means business.", "죽음의 룬으로 덮여 있는 증기 거인으로, 진심으로 당신이 죽길 바라고 있습니다.", "_t")
+t("#LIGHT_DARK#As %s falls you see its spirit rising for revenge.", "#LIGHT_DARK#%s 쓰러지자 그 영혼이 복수하기 위해 떠오르는 것을 보았다.", "logSeen", nil, {"이"})
+t("steam giant blood carver", "증기 거인 피의 조각사", "entity name")
+t("Blood seems to ooze from the towering giant, yet seemingly to no ill effect.", "이 거인은 피를 줄줄 흘리고 있지만 전혀 아파 보이지 않습니다.", "_t")
 
 
 ------------------------------------------------
@@ -591,6 +857,14 @@ section "game/dlcs/tome-orcs/data/general/npcs/steam-giant-gunner.lua"
 
 t("giant", "거인", "entity type")
 t("steam", "증기", "entity subtype")
+t("steam giant gunner", "증기 거인 사수", "entity name")
+t("This steam giant is carrying a powerful looking gun.", "강력해 보이는 총을 들고 있는 증기 거인입니다.", "_t")
+t("steam giant gunslinger", "증기 거인 총잡이", "entity name")
+t("This steam giant carries a steamgun in each hand.", "양손에 증기총을 한 자루씩 들고 있는 증기 거인입니다.", "_t")
+t("steam giant flameshot", "증기 거인 화염사수", "entity name")
+t("This steam giant carries a steamgun in each hand. The barrels appear to be flaming.", "양손에 증기총을 한 자루씩 들고 있는 증기 거인입니다. 총구에서 불길이 뿜어져 나옵니다.", "_t")
+t("retaliator of Atmos", "아트모스의 복수자", "entity name")
+t("This steam giant carries a steamgun in each hand. She is here to eliminate any and all aggression towards the Atmos tribe.", "양손에 증기총을 한 자루씩 들고 있는 증기 거인입니다. 아트모스 부족을 적대하는 것들이 무엇이든지, 전부 제거하기 위해 왔습니다.", "_t")
 
 
 ------------------------------------------------
@@ -598,12 +872,27 @@ section "game/dlcs/tome-orcs/data/general/npcs/steam-giant-warrior.lua"
 
 t("giant", "거인", "entity type")
 t("steam", "증기", "entity subtype")
+t("steam giant guard", "증기 거인 경비병", "entity name")
+t("This titanic figure walks towards you, a massive sword and shield in each hand.", "엄청난 크기의 거인입니다. 거대한 검과 방패를 들고 다가오고 있습니다.", "_t")
+t("steam giant berserker", "증기 거인 광전사", "entity name")
+t("This steam giant carries a massive greatsword with both hands, and you see a cloud of thick steam enveloping the blade.", "양손에 거대한 검을 한 자루씩 들고 있는 거인입니다. 옅은 증기가 칼날을 감싸고 있습니다.", "_t")
+t("steam giant yeti rider", "증기 거인 예티 기병", "entity name")
+t("Riding atop a massive armored yeti, this steam giant wields a huge greatsword.", "중무장을 한 예티를 타고 있는 거인입니다. 거대한 대검을 들고 있습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/steam-spiders.lua"
 
+t("arachnid", "거미류", "entity subtype")
 t("mechanical", "기계학", "entity type")
+t("mecharachnid warrior", "강철 거미 전사", "entity name")
+t("This eight legged mechanical construct looks suspiciously like a spider. A huge clonking spider that runs to you at great speed ready to cut you to pieces with its two rotating saws in place of mandibles.", "다리가 여덟 개 달린 기계 구조물로, 마치 거미처럼 생겼습니다. 거대한 거미가 엄청난 속도로 쿵쾅거리면서 달려와, 아랫턱 대신 달린 회전톱 두 개로 당신을 산산조각내려 하고 있습니다.", "_t")
+t("mecharachnid flame thrower", "강철 거미 화염방사병", "entity name")
+t("This eight legged mechanical construct looks suspiciously like a spider. The huge flame thrower mounted on its back however is definitively un-spider-like.", "다리가 여덟 개 달린 기계 구조물로, 마치 거미처럼 생겼습니다. 하지만 등에 달려 있는 거대한 화염방사기 때문에 확실하게 거미답지 않습니다.", "_t")
+t("mecharachnid destroyer", "강철 거미 파괴자", "entity name")
+t("This eight legged mechanical construct looks suspiciously like a spider. An armed to the teeth, well, mandibles, spider.", "다리가 여덟 개 달린 기계 구조물로, 마치 거미처럼 생겼습니다. 머리부터 발끝까지, 음, 거미니까, 여덟 다리 끝까지 중무장을 하고 있습니다.", "_t")
+t("mecharachnid repairbot", "강철 거미 수리병", "entity name")
+t("This eight legged mechanical construct looks suspiciously like a spider. It seems to be more concerned by its fellow arachnids than by you.", "다리가 여덟 개 달린 기계 구조물로, 마치 거미처럼 생겼습니다. 동료 거미들은 이 거미를 당신보다 더 신경쓰는 것 같습니다.", "_t")
 
 
 ------------------------------------------------
@@ -611,8 +900,16 @@ section "game/dlcs/tome-orcs/data/general/npcs/sunwall-mage.lua"
 
 t("elf", "엘프", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("sun-mage recruit", "수습 태양의 마법사", "entity name")
+t("A mage dressed in glowing robes.", "은은하게 빛나는 로브를 입고 있는 마법사입니다.", "_t")
+t("sun-mage", "태양의 마법사", "entity name")
+t("A mage dressed in shining robes.", "환하게 빛나는 로브를 입고 있는 마법사입니다.", "_t")
 t("anorithil", "아노리실", "entity name")
+t("astral conjurer", "별의 마법사", "entity name")
 t("human", "인간", "entity subtype")
+t("A mage dressed in ornate robes depicting both light and darkness.", "빛과 어둠을 묘사하는 화려한 로브를 입고 있는 마법사입니다.", "_t")
+t("elven astromancer", "엘프 점성술사", "entity name")
+t("A mage who has studied all there is to know about the stars and their working.", "별들과 그것의 움직임에 관한 지식에 통달한 마법사입니다.", "_t")
 
 
 ------------------------------------------------
@@ -620,8 +917,17 @@ section "game/dlcs/tome-orcs/data/general/npcs/sunwall-warrior.lua"
 
 t("human", "인간", "entity subtype")
 t("humanoid", "인간형", "entity type")
+t("sunwall guard", "태양의 장벽 경비병", "entity name")
+t("This guard stands tall and proud, wearing the symbol of the Sunwall.", "당당하게 서 있는 경비병으로, 의복에 태양의 장벽의 상징이 그려져 있습니다.", "_t")
+t("sunwall archer", "태양의 장벽 궁수", "entity name")
+t("You see an archer with his bow drawn back, and a golden sun embossed on his armor.", "활 시위를 당기고 있는 궁수로, 갑옷에 황금빛의 태양이 양각되어 있습니다.", "_t")
+t("sun paladin recruit", "태양의 기사 신병", "entity name")
+t("The shield of this soldier glows with a bright light. You see a golden sun engraved in its center, and he carries a sword in his other hand.", "밝은 빛으로 빛나는 방패를 들고 있는 병사입니다. 방패 한가운데엔 황금빛의 태양이 새겨져 있고, 다른 손에 검을 들고 있습니다.", "_t")
 t("sun paladin", "태양의 기사", "entity name")
+t("The shield and sword of this soldier glow with a bright light. You see a golden sun engraved in the shield's center.", "밝은 빛으로 빛나는 검과 방패를 들고 있는 병사입니다. 방패 한가운데엔 황금빛의 태양이 새겨져 있습니다.", "_t")
 t("elf", "엘프", "entity subtype")
+t("sunwall vindicator", "태양의 장벽 수호자", "entity name")
+t("This mean looking soldier of the Sunwall holds steady his big two handed weapon, looking dangerously at you.", "험상궂게 생긴 태양의 장벽의 병사로, 커다란 양손 무기를 굳건하게 쥐고 당신을 노려보고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -629,6 +935,20 @@ section "game/dlcs/tome-orcs/data/general/npcs/titan.lua"
 
 t("giant", "거인", "entity type")
 t("titan", "타이탄", "entity subtype")
+t("titan battlesmasher", "타이탄 전장분쇄자", "entity name")
+t("This creature looks like one of the steam giants, but nastier, bigger and somehow corrupted by unknown forces. Oh and it is wielding a huge maul too!", "이 생명체는 증기 거인처럼 생겼지만 그보다 더 험악하고 더 크며, 알 수 없는 힘에 의해 오염되어 있습니다. 오, 그리고 엄청 큰 망치도 들고 있네요!", "_t")
+t("titanic horror", "타이탄 공포", "entity name")
+t("While a titan usually look like a corrupted steam giant, this one looks more like a giant-sized horrific mass of living flesh.", "보통 타이탄들은 오염된 증기 거인처럼 생겼지만, 이건 거인 크기의 끔찍한 살점 덩어리에 더 가깝습니다.", "_t")
+t("titan searing seer", "타이탄 작열의 선지자", "entity name")
+t("Wreathed in arcane flames you can feel the intense psionic forces ripping at your mind emanating from this titan.", "마법 불꽃에 휘감긴 타이탄으로, 당신의 정신을 찢어버릴 듯한 강렬한 초능력을 내뿜고 있습니다.", "_t")
+t("titan vile spewer", "타이탄 타락 분출자", "entity name")
+t("The wretched titan's skin is of a sickly green, full of ever-oozing wounds, cracks and pustules. Worms and all kind of vile things crawl over it.", "이 끔찍한 타이탄의 피부는 역겨운 초록색이고, 계속해서 점액이 흘러나오는 상처와 균열, 농포로 그득합니다. 벌레는 물론이고 온갖 종류의 역겨운 물것들이 그 위를 기어다니고 있습니다.", "_t")
+t("titan dreadnought", "타이탄 드레드노트", "entity name")
+t("One of the biggest titans you have seen yet, it is fully clad in deep black stralite full plate, charging menacingly towards you at a terrible pace.", "이제까지 봤던 타이탄 중 가장 큽니다. 시커먼 색의 스트랄라이트 판금 갑옷으로 완전무장하고 있고, 어처구니없는 속도로 당신에게 맹렬히 돌진하고 있습니다.", "_t")
+t("sher'tan", "쉐르'탄", "entity name")
+t("This abomination has the height of any other titan but its features definitively remind you of the few Sher'Tul images you have seen. Your very being rebels to the thought and sheer terror takes hold of your mind.", "이 끔찍한 흉물은 다른 타이탄들과 비슷한 크기지만, 그 모습은 확실하게 이전에 봤던 쉐르'툴을 연상시킵니다. 당신의 존재 그 자체가 자신의 정신을 잠식하는 생각들과 순수한 공포에 저항하고 있습니다.", "_t")
+t("gargantuan sher'tan", "가르강튀아 쉐르'탄", "entity name")
+t("This abomination has the height of any other titan but its feature definitively remind you of the few Sher'Tul images you have seen. Your very being rebels to the thought and sheer terror takes hold of your mind.", "이 끔찍한 흉물은 다른 타이탄들과 비슷한 크기지만, 그 모습은 확실하게 이전에 봤던 쉐르'툴을 연상시킵니다. 당신의 존재 그 자체가 자신의 정신을 잠식하는 생각들과 순수한 공포에 저항하고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -636,6 +956,16 @@ section "game/dlcs/tome-orcs/data/general/npcs/troll-pirates.lua"
 
 t("giant", "거인", "entity type")
 t("troll", "트롤", "entity subtype")
+t("troll pirate", "트롤 해적", "entity name")
+t("This is a Troll pirate.", "진짜 트롤 해적입니다.", "_t")
+t("troll marauder", "트롤 습격자", "entity name")
+t("This lean but muscular troll deftly wields two daggers. He glares at you with eyes filled with cunning.", "늘씬하지만 근육질인 트롤입니다. 단검 두 자루를 능숙하게 다루며, 교활함으로 가득한 눈으로 당신을 바라보고 있습니다.", "_t")
+t("troll captain", "트롤 선장", "entity name")
+t("This troll is barking orders to the other trolls around him. He effortlessly holds a longsword in each hand.", "주변의 트롤들에게 바락바락 명령하고 있는 트롤입니다. 양손에 검을 한 자루씩, 대충 들고 있습니다.", "_t")
+t("troll guard", "트롤 경비병", "entity name")
+t("This troll carries a large sword and shield, and appears to be wearing segments of armor.", "커다란 검과 방패를 들고 있는 트롤입니다. 갑옷의 조각처럼 보이는 걸 입고 있습니다.", "_t")
+t("troll aquamancer", "트롤 파도술사", "entity name")
+t("This troll is holding a tall staff in one hand. Tendrils of water circle around it.", "한손에 기다란 지팡이를 들고 있는 트롤입니다. 여러 개의 물줄기가 주변을 돌고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -643,7 +973,12 @@ section "game/dlcs/tome-orcs/data/general/npcs/undead-drake.lua"
 
 t("dragon", "용", "entity subtype")
 t("undead", "언데드", "entity type")
+t("undead drake hatchling", "사룡 해츨링", "entity name")
+t("A skeletal drake hatchling; not too powerful by itself, but if it's anything like living ones, it's probably not alone.", "해골 드레이크 해츨링입니다. 그 자체로는 그렇게 강력하진 않지만, 다른 생물들처럼 혼자 있는 게 아닐 겁니다.", "_t")
 t("undead drake", "사룡", "entity name")
+t("A skeletal drake, armed with a deadly breath weapon and nasty claws.", "치명적인 숨결 공격과 날카로운 손톱으로 무장한 해골 드레이크입니다.", "_t")
+t("undead wyrm", "언데드 용", "entity name")
+t("The skeleton of a long-lived wyrm, armed with a deadly breath weapon and nasty claws.", "오래 살았던 용의 스켈레톤으로, 치명적인 숨결 공격과 날카로운 손톱으로 무장하고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -651,14 +986,28 @@ section "game/dlcs/tome-orcs/data/general/npcs/whitehooves.lua"
 
 t("minotaur", "미노타우르스", "entity subtype")
 t("undead", "언데드", "entity type")
+t("whitehoof ghoul", "화이트후프 구울", "entity name")
+t("It is a cross between a human and a bull, but more ... dead.", "인간과 황소를 합쳐 놓은 것처럼 생겼지만... 죽었습니다.", "_t")
+t("whitehoof maulotaur", "화이트후프 마울로타우르스", "entity name")
 t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "무시무시한 망치를 들고 있는, 커다란 언데드 미노타우르스입니다. 망치에서 번개가 튀고 있습니다.", "_t")
+t("whitehoof invoker", "화이트후프 강신술사", "entity name")
+t("Vortexes of sickly arcane energies circle this great undead frame.", "이 언데드 주변에 역겨운 마법 에너지가 소용돌이치고 있습니다.", "_t")
+t("whitehoof hailstorm", "화이트후프 우박술사", "entity name")
+t("The air seems to freeze and wither around this terrible undead.", "이 끔찍한 언데드 주변의 공기가 시들어 가며, 얼어붙고 있는 것 같습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/yeti.lua"
 
 t("giant", "거인", "entity type")
+t("yeti cub", "새끼 예티", "entity name")
+t("This humanoid form is coated with a thick white fur.", "인간과 닮은 생명체로, 전신이 두껍고 새하얀 털로 덮여 있습니다.", "_t")
 t("yeti", "예티", "entity name")
+t("This large humanoid form is coated with a thick white fur.", "인간과 닮은 커다란 생명체로, 전신이 두껍고 새하얀 털로 덮여 있습니다.", "_t")
+t("yeti warrior", "예티 전사", "entity name")
+t("This huge humanoid form is coated with a thick white fur, with large, vicious claws. It looks angry.", "인간과 닮은 거대한 생명체로, 전신이 두껍고 새하얀 털로 덮여 있고 커다란 발톱도 갖고 있습니다. 화가 난 것 같습니다.", "_t")
+t("yeti demolisher", "예티 파쇄자", "entity name")
+t("This huge humanoid form is coated with a thick white fur, with large, vicious claws. Will you welcome the embrace of its large muscular arms?", "인간과 닮은 거대한 생명체로, 전신이 두껍고 새하얀 털로 덮여 있고 커다란 발톱도 갖고 있습니다. 당신을 끌어안으려 하는 근육질의 양팔에 몸을 맡겨 보는 건 어떨까요?", "_t")
 
 
 ------------------------------------------------
@@ -852,7 +1201,7 @@ t("tinker", "발명품", "entity type")
 t("Tinkers can be attached to normal items to improve them with steam power!", "발명품은 일반적인 장비에 장착해, 증기의 힘으로 강화시킬 수 있습니다!", "_t")
 t("misc", "도구", "entity type")
 t("salve", "연고", "_t")
-t("Medical salve.", "의료용 연고.", "_t")
+t("Medical salve.", "의료용 연고", "_t")
 
 
 ------------------------------------------------
@@ -1061,11 +1410,11 @@ t("simple", "단순한", "_t")
 t("%s healing salve", "%s 회복 연고", "tformat")
 t("heal %d", "생명력 %d 회복", "_t")
 t("%s pain suppressor salve", "%s 진통 연고", "tformat")
-t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "생명력이 -%%d 에 이를 때까지 죽지 않고, %d 턴 동안, 피격시 받는 피해량을 %d%%%% 줄입니다. (활성화 시 턴을 소모하지 않습니다)", "tformat", {1,3,2})
+t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "생명력이 -%%d 에 이를 때까지 죽지 않고, 피격 시 받는 피해량을 %d%%%% 줄입니다. %d 턴동안 유지됩니다. (활성화 시 턴을 소모하지 않습니다)", "tformat")
 t("%s frost salve", "%s 서리 연고", "tformat")
 t("remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "%d 개의 물리 효과를 제거하고 서리의 기운을 부여합니다 (%s 냉기, 암흑, 자연 속성 친화)", "tformat")
 t("%s fiery salve", "%s 불꽃 연고", "tformat")
-t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "remove %d 개의 마법 효과를 제거하고 불꽃의 기운을 부여합니다 (%s 화염, 전기, 빛 속성 친화)", "tformat")
+t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "%d 개의 마법 효과를 제거하고 불꽃의 기운을 부여합니다 (%s 화염, 전기, 빛 속성 친화)", "tformat")
 t("%s water salve", "%s 물방울 연고", "tformat")
 t("remove %d mental effects and grants a water aura (%s blight, mind and acid affinity).", "%d 개의 정신 효과를 제거하고 물방울의 기운을 부여합니다 (%s 황폐, 정신, 산성 속성 친화).", "tformat")
 t("%s unstoppable force salve", "%s 멈출 수 없는 힘 연고", "tformat")
@@ -4727,27 +5076,27 @@ section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
 t("Healing Salve", "회복 연고", "_t")
 t([[A powerful healing salve.
 To be used with the medical injector implant.]], [[강력한 회복 연고입니다.
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Pain Suppressor Salve", "진통 연고", "_t")
 t([[A powerful salve that steels your body for a while, letting you survive below 0 life while increasing resistances.
 To be used with the medical injector implant.]], [[일정 시간 동안 몸을 강철과 같이 단단하게 만들어주는 연고입니다. 생명력이 0 이하여도 생존할 수 있게되고, 모든 저항을 증가시킵니다.
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Frost Salve", "서리 연고", "_t")
 t([[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
 To be used with the medical injector implant.]], [[부정적인 물리 효과를 제거하고, 서리의 기운을 부여하는 연고입니다. (냉기, 암흑, 자연 속성 친화).
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Fiery Salve", "불꽃 연고", "_t")
 t([[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
 To be used with the medical injector implant.]], [[부정적인 마법 효과를 제거하고, 불꽃의 기운을 부여하는 연고입니다. (화염, 전기, 빛 속성 친화).
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Water Salve", "물방울 연고", "_t")
 t([[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
 To be used with the medical injector implant.]], [[부정적인 정신 효과를 제거하고, 물방울의 기운을 부여하는 연고입니다 (황폐, 정신, 산성 속성 친화).
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Unstoppable Force Salve", "멈출 수 없는 힘 연고", "_t")
 t([[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
 To be used with the medical injector implant.]], [[물리, 정신, 마법 효과들에 대해 훨씬 강인하게 만들고 회복 효율을 높이는 연고입니다.
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("frost salve", "서리 연고", "_t")
 t("fiery salve", "불꽃 연고", "_t")
 t("water salve", "물방울 연고", "_t")
@@ -5199,7 +5548,7 @@ t("stair descending into Eyal's depths", "에이알의 심층부로 내려가는
 t("locked mech door", "잠긴 기계 문", "entity name")
 t("wall", "벽", "entity type")
 t("open mech door", "열린 기계 문", "entity name")
-t("Phonograph", "사진", "entity name")
+t("Phonograph", "축음기", "entity name")
 t("mech", "기계", "entity subtype")
 t("throne", "왕좌", "entity name")
 
@@ -5773,71 +6122,344 @@ section "game/dlcs/tome-orcs/overload/data/calendar_orc.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/intro-orc-whitehooves.lua"
 
+t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
+You were a member of the shunned and hunted minotaur race. Your tribe found a way to survive through necromancy.
+
+The only race to ever show respect, if not kindness, to yours was the Orcs and now you found your tribe under the control of a mad leader.
+If you help the Orcs with their problems you hope they will with yours; for the sake of both your kinds.
+
+You have been sent to the Vaporous Emporium to wreak havoc and demoralize the giants.
+For the Krimbul Clan !
+]], [[어서 오십시오, #LIGHT_GREEN#@name@#WHITE#.
+당신은 미움받고 사냥당하는 미노타우르스 종족의 일원이었습니다. 당신의 부족은 강령술을 통하여 살아남는 방법을 찾아냈죠.
+
+당신 종족에게 친절을 보이는 것 까진 아니더라도, 존중해 주었던 유일한 이들은 오크 종족입니다. 그리고 당신은 지금 부족의 지도자가 미쳐 버렸다는 걸 알았습니다.
+당신은 오크들을 돕는다면, 그들 역시 당신을 도울 거라고 믿습니다. 두 종족 모두를 위해서요.
+
+당신은 지금 거인들의 사기를 꺾기 위해 증기 상업지구에 도착했고, 그러기 위해 이곳에서 모든 걸 부숴버려야 합니다.
+크림불 혈족을 위하여!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/intro-orc-yeti.lua"
 
+t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
+You were a member of the prideful but dwindling Orc race.
+
+Throughout history your race has been hated, hunted and mercilessly killed by the others. It also committed its lot of atrocities and destructions.
+But now, the Orcs are on the brink of extinction. All their strongholds in Var'Eyal have been destroyed either by the Sunwall or the one you name the #{italic}#Scourge of the West#{normal}#.
+Of the four Prides on the mainland none stood. They all fell and very few of their members were able to flee.
+
+Only the Kruk Pride, stationed on the Clork Peninsula still stands, but for how long?
+The Sunwall outpost blocks the way to the mainland and the peninsula itself is home to an advanced race of aggressive giants who mastered steam technology.
+
+In your previous incarnation you were a powerful psionic and took part in a program to give Kruk a fighting advantage over the towering mass of muscles that giants are.
+Using psytech you #{bold}#hacked#{normal}# into a yeti's simple mind and took residence there, letting your own body to wither and die. You lost most of your experiences and powers in doing so but gained a powerful body to help the Pride.
+
+You have been sent to the Vaporous Emporium to wreak havoc and demoralize the giants.
+For the Pride, for Garkul's legacy !
+]], [[어서 오십시오, #LIGHT_GREEN#@name@#WHITE#.
+당신은 긍지높지만 쇠퇴하고 있는 오크 종족의 일원이었습니다.
+
+지난 수천년 간 당신의 종족은 다른 이들로부터 증오를 받아 왔고, 사냥당했으며, 무자비하게 살해당했습니다. 그들은 또한 수많은 잔혹 행위와 파괴를 자행했습니다.
+하지만 지금, 오크 종족은 절멸의 위기에 처해 있습니다. 바르'에이알에 있던 요새들은 모두 태양의 장벽, 또는 #{italic}#서쪽에서 온 재앙#{normal}#이라 불리는 자의 손에 파괴되었습니다.
+본토에 있던 네 개의 긍지들은 사라졌습니다. 그들은 모두 패배했으며 극소수의 인원들만이 도망칠 수 있었습니다.
+
+오직 클로크 반도에 있던 크룩 긍지만이 아직까지 남아 있지만, 얼마나 더 버틸 수 있을까요?
+태양의 장벽 전초기지가 본토로 가는 길을 막아 버렸고, 반도 자체도 증기 공학에 통달한 호전적인 종족인 증기 거인들의 고향이기도 합니다.
+
+전생에, 당신은 강력한 초능력자였고 크룩 긍지에서 진행했던, 거인들조차 넘어서는 거대한 근육질의 생명체를 이용하려는 실험에 참여했었습니다.
+염동공학을 이용하여 당신은 예티의 단순한 정신을 #{bold}#파고들었고#{normal}#, 결국 당신의 원래 몸을 죽게 내버려 두고 예티의 몸으로 살게 되었습니다. 그 과정에서 당신이 갖고 있던 경험과 힘을 대부분 잃었지만, 그 대신 긍지를 도울 수 있는 강력한 신체를 얻게 되었습니다.
+
+당신은 지금 거인들의 사기를 꺾기 위해 증기 상업지구에 도착했고, 그러기 위해 이곳에서 모든 걸 부숴버려야 합니다.
+긍지를 위하여, 가르쿨의 유산을 위하여!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/intro-orc.lua"
 
+t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
+You are a member of the prideful but dwindling Orc race.
+
+Throughout history your race has been hated, hunted and mercilessly killed by the others. It also committed its lot of atrocities and destructions.
+But now, the Orcs are on the brink of extinction. All their strongholds in Var'Eyal have been destroyed either by the Sunwall or the one you name the #{italic}#Scourge of the West#{normal}#.
+Of the four Prides on the mainland none stood. They all fell and very few of their members were able to flee.
+
+Only the Kruk Pride, stationed on the Clork Peninsula still stands, but for how long?
+The Sunwall outpost blocks the way to the mainland and the peninsula itself is home to an advanced race of aggressive giants who mastered steam technology.
+
+And now the giants have dug a tunnel through the mountains right into Kruk, pouring out of it to end the Pride once and for all while the bulk of Kruk forces are away.
+They must be stopped at any cost, if Kruk falls the Orc race dies with it.
+
+You grabbed a bomb from the stocks and now you must enter the tunnel and detonate it on a weak spot to make it crumble.
+For the orcs, for Garkul's legacy !
+]], [[어서 오십시오, #LIGHT_GREEN#@name@#WHITE#.
+당신은 긍지높지만 쇠퇴하고 있는 오크 종족의 일원입니다.
+
+지난 수천년 간 당신의 종족은 다른 이들로부터 증오를 받아 왔고, 사냥당했으며, 무자비하게 살해당했습니다. 그들은 또한 수많은 잔혹 행위와 파괴를 자행했습니다.
+하지만 지금, 오크 종족은 절멸의 위기에 처해 있습니다. 바르'에이알에 있던 요새들은 모두 태양의 장벽, 또는 오크들이 #{italic}#서쪽에서 온 재앙#{normal}#이라 부르는 자의 손에 파괴되었습니다.
+본토에 있던 네 개의 긍지들은 사라졌습니다. 그들은 모두 패배했으며 극소수의 인원들만이 도망칠 수 있었습니다.
+
+오직 클로크 반도에 있던 크룩 긍지만이 아직까지 남아 있지만, 얼마나 더 버틸 수 있을까요?
+태양의 장벽 전초기지가 본토로 가는 길을 막아 버렸고, 반도 자체도 증기 공학에 통달한 호전적인 종족인 증기 거인들의 고향이기도 합니다.
+
+그리고 지금 거인들이 산에 굴을 파내서 크룩 긍지까지 도달했고, 크룩의 군사들이 없는 틈을 타서 긍지를 완전히 뿌리뽑으려 하고 있습니다.
+무슨 수를 써서든 막아야 합니다. 크룩 긍저마저 패배한다면 오크 종족 자체가 그 뒤를 따르게 될 테니까요.
+
+당신은 폭탄을 하나 골라잡았고, 이제 터널로 들어가서 취약한 부분에 터뜨려 무너뜨려야 합니다.
+오크를 위하여, 가르쿨의 유산을 위하여!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-cosmetic_race_orc.lua"
 
+t("New Cosmetic Race Option: #LIGHT_GREEN#Orc Headgear", "새로운 종족 치장 옵션: #LIGHT_GREEN#오크 머리 장식품", "_t")
+t([[You have played an orc tinker up to level 10.
+
+You may now create orc characters proudly sporting goggles or monocles.
+This has no effect on gameplay at all but it is fun!
+]], [[당신은 오크 발명가로 레벨 10을 달성했습니다.
+
+이제부터 당당하게 고글이나 모노클을 착용한 오크 캐릭터를 생성할 수 있습니다.
+게임 플레이 자체에 영향은 없지만 재밌잖아요!
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-mage_technomancer.lua"
 
+t("New Class Evolution: #LIGHT_GREEN#Technomancer (Archmage)", "새로운 직업 진화: #LIGHT_GREEN#마도공학자 (마도사)", "_t")
+t([[#{bold}##GOLD#EUREKA!#LAST##{normal}#
+
+As an archmage you are trained into the intricacies of the arcane forces, but as a tinker you know how to build and create. And suddently it hit you!
+#{italic}#You now understand how to combine magic and technology!#{normal}#
+
+You have unlocked the #LIGHT_GREEN#Technomancer class evolution#WHITE# for Archmages.
+
+Features:#YELLOW#
+- Occult Technomancy: Use a rapidly spinning steamsaw to rip appart reality itself and project arcane and temporal onslaughts
+- Galvanic Technomancy: Create galvanic rods that link up to create deadly fields of fire and lightning to burn down your foes
+- Terrene Technomancy: Craft and control swarms of micro spiderbots to damage and debilitate your foes with water and earth forces
+- Arcane Dynamo: Casting spells generates steam and steam increases spellpower
+- Access to physics and chemistry: All Technomancers know the basics of crafting tinkers
+#WHITE#
+
+Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
+]], [[#{bold}##GOLD#유레카!!#LAST##{normal}#
+
+당신은 마도사로서 복잡한 마법의 힘에 익숙하지만, 동시에 발명가로서 무언가를 짓고 만드는 법을 알고 있습니다. 그리고 갑자기 불꽃이 튀었습니다!
+#{italic}#마법과 공학을 결합하는 법을 깨우친 겁니다!#{normal}#
+
+따라서 마도사 직업의 #LIGHT_GREEN#마도공학자 직업 진화#WHITE#가 해금되었습니다.
+
+특징:#YELLOW#
+- 비술 마도공학: 고속으로 회전하는 증기톱으로 현실 그 자체를 찢어 버리고, 비전과 시간 속성의 맹공을 가한다.
+- 전열 마도공학: 전열 막대를 통해 치명적인 화염과 전기의 역장을 만들어내고 적들을 불태워버린다.
+- 극지 마도공학: 초소형 거미 로봇 떼를 만들어 조종하고, 물과 대지의 힘으로 적들에게 피해를 가하고 약화시킨다.
+- 비전 발전기: 주문을 시전하면 증기가 생성되고, 증기는 주문력을 상승시킨다.
+- 물리학과 화학 사용 가능: 마도공학자들은 모두 기초적인 발명품 제작법을 알고 있다.
+#WHITE#
+
+직업 진화는 특수 기술로 취급되며, 기본 직업에 새로운 성장 방향을 제시해 줍니다. 또한 직업 진화는 진화가 가능한 직업에게만 표시됩니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_all_classes.lua"
 
+t("New birth option: #LIGHT_GREEN#All classes", "새로운 생성 옵션: #LIGHT_GREEN#모든 직업", "_t")
+t([[You have freed the Prides from the Internment Camp for the third time.
+
+You can now create new characters in the orc campaign with any classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
+]], [[당신은 오크 수용소에서 긍지들을 세 번 해방하셨습니다.
+
+따라서 이제 오크 캠페인에서도 #LIGHT_GREEN#주도의 시대 기본 캠페인에서#WHITE# 해금했던 모든 직업들의 캐릭터를 생성할 수 있습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_mage.lua"
 
+t("New birth option: #LIGHT_GREEN#Mages", "새로운 생성 옵션: #LIGHT_GREEN#마법사", "_t")
+t([[You have freed the Prides from the Internment Camp.
+
+You can now create new characters in the orc campaign with any mage classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
+]], [[당신은 오크 수용소에서 긍지들을 해방하셨습니다.
+
+따라서 이제 오크 캠페인에서도 #LIGHT_GREEN#주도의 시대 기본 캠페인에서#WHITE# 해금했던 모든 마법사 직업들의 캐릭터를 생성할 수 있습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_campaign_rogue.lua"
 
+t("New birth option: #LIGHT_GREEN#Rogues", "새로운 생성 옵션: #LIGHT_GREEN#도적", "_t")
+t([[You have freed the Prides from the Internment Camp.
+
+You can now create new characters in the orc campaign with any rogue classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
+]], [[당신은 오크 수용소에서 긍지들을 해방하셨습니다.
+
+따라서 이제 오크 캠페인에서도 #LIGHT_GREEN#주도의 시대 기본 캠페인에서#WHITE# 해금했던 모든 도적 직업들의 캐릭터를 생성할 수 있습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-orcs_tinker_eyal.lua"
 
+t("New Age of Ascendancy birth option: #LIGHT_GREEN#Tinkers", "새로운 주도의 시대 생성 옵션: #LIGHT_GREEN#발명가", "_t")
+t([[You have defeated Outpost Leader John with two different tinker classes.
+You can now create new characters with any tinker classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy, Infinite Dungeon and Arena campaigns#WHITE#.
+Also tinker escorts may start to appear in Maj'Eyal now.
+
+Playing characters this way is not lore-canon, but fun!]], [[당신은 서로 다른 두 종류의 발명가 직업으로 전초기지 대장 존을 쓰러뜨렸습니다.
+따라서 이제부터 해금해 둔 발명가 직업의 캐릭터를 #LIGHT_GREEN#주도의 시대 기본 캠페인, 무한의 던전 캠페인, 그리고 아레나 캠페인에서도#WHITE# 생성할 수 있습니다.
+또한 발명가 호위 임무가 마즈'에이알에서도 등장하기 시작합니다.
+
+이런 캐릭터들은 게임의 세계관 설정엔 안 맞지만, 재밌잖아요!]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-race_whitehooves.lua"
 
+t("New Race: #LIGHT_GREEN#Whitehoof", "새로운 직업: #LIGHT_GREEN#화이트후프", "_t")
+t([[A clan of minotaurs turned to necromancy when faced with imminent destruction. Ever since they have kept to themselves.
+But the discovery of a strange artifact in a crashed airship changed their fate. One of them tried to assert control over the clan, a few resist and hope to free their comrades.
+
+You have helped free the Whitehoof Clan from the reign of Nektosh can now create a new character with the #LIGHT_GREEN#Whitehoof race#WHITE#.
+
+Race features:#YELLOW#
+- Poison immunity
+- Bleeding immunity
+- Silence resistance
+- No need to breathe
+- Special whitehoof talents: Dead Hide, Lifeless Rush, Essence Drain#WHITE#
+]], [[멸망을 목전에 두고 있던 어떤 미노타우르스 부족은 강령술을 이용해 그것을 극복했습니다. 그들은 지금까지 고립된 채로 살아오고 있었습니다.
+하지만 박살난 비행선의 잔해에서 이상한 유물을 찾아낸 뒤로 그들의 운명이 바뀌었습니다. 어떤 자가 혈족 전체를 손에 넣으려 했고, 몇몇은 그에게 저항하며 동료들을 해방시키려 합니다.
+
+당신은 네크토쉬의 손아귀에서 화이트후프 혈족을 해방하는 것을 도왔고, 따라서 이제부터 #LIGHT_GREEN#화이트후프 종족#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+종족 특징:#YELLOW#
+- 독에 면역
+- 출혈에 면역
+- 침묵 저항
+- 숨을 쉴 필요가 없음
+- 화이트후프만의 특별한 종족 기술: 죽은 가죽, 생기없는 돌진, 정수 흡수#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-race_yeti.lua"
 
+t("New Race: #LIGHT_GREEN#Yeti", "새로운 종족: #LIGHT_GREEN#예티", "_t")
+t([[Yetis are native creatures to the cold mountains of the Clork peninsula, highly evolved bipedal animals they still lack true sentience.
+Their white fur covers an extremely strong body, but their minds are weak.
+Techno-psionics of the Kruk Pride have managed to devise a system to hijack a yeti's body, transferring their own mind into them to increase the Pride's fighting power.
+
+You have helped capture multiple Yetis for such purpose and can now create a new character with the #LIGHT_GREEN#Yeti race#WHITE#.
+
+Race features:#YELLOW#
+- Algid Rage, call upon the harsh climate of their birthplace to freeze their foes
+- Mindwave, the controlling orc retains a small part of his psionic powers, giving them a powerful mind-tool
+- Strong body#WHITE#
+]], [[예티는 클로크 반도의 얼어붙은 산에 사는 생물들로, 굉장히 진화되어 두 발로 걷는 동물들이지만 여전히 지능이 떨어지는 편입니다.
+하얀 털가죽 아래에는 극도로 강한 신체가 있지만, 정신적인 부분이 약합니다.
+크룩 긍지의 염동공학자들은 마침내 자신의 정신을 예티에게 전이하여 몸을 뺏는 기술을 고안해 냈고, 그들은 그것으로 긍지의 전력을 키웠습니다.
+
+당신은 그러할 목적으로 여러 마리의 예티들을 포획하는 것을 도왔고, 따라서 이제부터 #LIGHT_GREEN#예티 종족#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+종족 특징:#YELLOW#
+- 차가운 분노: 고향 땅의 한기를 불러내어 적들을 얼린다.
+- 정신파: 예티의 몸을 조종하고 있는 오크는 초능력을 조금 보존하고 있으며, 그것으로 강력한 정신 공격을 한다.
+- 강한 신체#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-tinker_annihilator.lua"
 
+t("New Class: #LIGHT_GREEN#Annihilator (Tinker)", "새로운 직업: #LIGHT_GREEN#섬멸자 (발명가)", "_t")
+t([[After researching the remains of many foes you found new ways to bring the literal heat of battle to your foes!
+You can now create new characters with the #LIGHT_GREEN#Annihilator class#WHITE#.
+
+Annihilators are Tinkers that can create and use heavy weapons (flamethrowers, shockstaves, boltguns) and apply their tinkering knowledge to create advanced war contraptions.
+Class features:#YELLOW#
+- Unleash the power of your heavy weapons
+- Construct automated turrets for war or even medical purposes
+- Build an mecharachnid bot to help you in combat that can act independently or be directly piloted
+- Make your foes suffer in many new ways: fire rockets and grenades at them, equip an exoskeleton, ... #WHITE#
+
+All Tinker classes use Steam for their powers.
+]], [[수많은 적들의 잔해를 분석한 결과, 당신은 말 그대로 화끈하게 싸울 수 있는 새로운 방법을 찾아냈습니다!
+따라서 이제부터 #LIGHT_GREEN#섬멸자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+섬멸자는 화염방사기나 감전 지팡이, 주사기 총 같은 중화기를 만들어내 사용하는 발명가들이며, 발명 지식으로 보다 진보된 전쟁 병기들을 만들어내기도 합니다.
+직업 특징:#YELLOW#
+- 중화기의 힘을 맛보여 준다.
+- 자동 포탑을 설치하고, 이걸 의료용으로 사용할 수도 있다.
+- 자율 기동하는 강철 거미를 만들어서 전투를 돕게 하고, 직접 조종하기도 한다.
+- 화염 로켓, 수류탄, 외장 골격 등 여러 가지 방법으로 적들을 고통스럽게 만든다.#WHITE#
+
+발명가 직업들은 모두 증기를 원천으로 사용합니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-tinker_psyshot.lua"
 
+t("New Class: #LIGHT_GREEN#Psyshot (Tinker)", "새로운 직업: #LIGHT_GREEN#싸이샷 (발명가)", "_t")
+t([[You have found extremely old machines powered by advanced psionics and technology. Psionics without a living mind was never thought possible.
+You can now create new characters with the #LIGHT_GREEN#Psyshot class#WHITE#.
+
+Psyshots are Tinkers that merge psionics and steamtech in a lethal blend, wielding a steamgun in one hand and a mindstar in the other.
+Class features:#YELLOW#
+- Project mindstar attacks with each bullet you fire
+- Inspire dread to weaken your foes to your gunslinging
+- Manipulate the very air around your victims
+- Enter a psionic gestalt with your steam generators, boosting them#WHITE#
+
+All Tinker classes use Steam for their powers.
+]], [[당신은 진보된 초능력과 공학으로 동작하는, 굉장히 오래된 기계를 발견했습니다. 살아 있는 정신 없이는 초능력을 쓸 수 없다고 생각했었지만, 틀렸다는 걸 알았습니다.
+따라서 이제부터 #LIGHT_GREEN#싸이샷 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+싸이샷은 초능력과 증기 공학을 결합하여 치명적인 작품을 만들어내는 발명가들로, 한 손으로는 증기총을 들고 다른 손에는 마석을 듭니다.
+직업 특징:#YELLOW#
+- 쏘아내는 탄환에 마석의 힘을 입힌다.
+- 공포로 적들을 약화시키고 총으로 마무리한다.
+- 적들 주변의 공기 자체를 조작한다.
+- 증기 발생기와 정신을 공명시켜, 출력을 높인다.#WHITE#
+
+발명가 직업들은 모두 증기를 원천으로 사용합니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/data/texts/unlock-wyrmic_undead.lua"
 
+t("New Talent Category: #LIGHT_GREEN#Undead Drake", "새로운 기술 계열: #LIGHT_GREEN#사룡", "_t")
+t([[Drakes are forces of Nature, the ultimate apex predators. But as they grow old some gain sentience and some of those may wish to prolong their lives beyond death.
+You have encountered one such and vanquished it.
+
+You can now master Undead Drake magic and create new Wyrmic characters that can learn the #LIGHT_GREEN#Undead Drake talents#WHITE#.
+
+Talents:
+- #YELLOW#Raze: #WHITE#Augment your melee strikes with deadly energies, absorbing the souls of your foes
+- #YELLOW#Infectious Miasma: #WHITE#Release a deadly cloud of diseases and blight
+- #YELLOW#Vampiric Surge: #WHITE#Revel in the pain of others to heal yourself
+- #YELLOW#Necrotic Breath: #WHITE#Breath pure darkness
+]], [[드레이크는 자연의 힘의 결정체이자 궁극의 최상위 포식자입니다. 하지만 그들이 나이를 먹어 가면서 지능을 얻게 되었고, 몇몇은 죽음을 맞이한 이후에도 살아가길 바랬습니다.
+당신은 그런 것들 중 하나를 만났고, 무찔렀습니다.
+
+따라서 지금부터 새로 생성된 용인 캐릭터들은 #LIGHT_GREEN#사룡 기술#WHITE#을 배울 수 있고, 그들의 마법을 수련할 수 있습니다.
+
+속한 기술들:
+- #YELLOW#완파: #WHITE#치명적인 에너지로 물리 공격을 강화하고, 적들의 영혼을 흡수합니다.
+- #YELLOW#감염성 독기: #WHITE#치명적인 역병과 황폐의 구름을 풀어 놓습니다.
+- #YELLOW#흡혈의 쇄도: #WHITE#적들의 고통을 즐겨 스스로를 치유합니다.
+- #YELLOW#괴사의 숨결: #WHITE#순수한 어둠을 내뿜습니다.
+]], "_t")
 
 
 ------------------------------------------------
