@@ -1201,7 +1201,7 @@ t("tinker", "발명품", "entity type")
 t("Tinkers can be attached to normal items to improve them with steam power!", "발명품은 일반적인 장비에 장착해, 증기의 힘으로 강화시킬 수 있습니다!", "_t")
 t("misc", "도구", "entity type")
 t("salve", "연고", "_t")
-t("Medical salve.", "의료용 연고.", "_t")
+t("Medical salve.", "의료용 연고", "_t")
 
 
 ------------------------------------------------
@@ -1410,11 +1410,11 @@ t("simple", "단순한", "_t")
 t("%s healing salve", "%s 회복 연고", "tformat")
 t("heal %d", "생명력 %d 회복", "_t")
 t("%s pain suppressor salve", "%s 진통 연고", "tformat")
-t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "생명력이 -%%d 에 이를 때까지 죽지 않고, %d 턴 동안, 피격시 받는 피해량을 %d%%%% 줄입니다. (활성화 시 턴을 소모하지 않습니다)", "tformat", {1,3,2})
+t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "생명력이 -%%d 에 이를 때까지 죽지 않고, 피격 시 받는 피해량을 %d%%%% 줄입니다. %d 턴동안 유지됩니다. (활성화 시 턴을 소모하지 않습니다)", "tformat")
 t("%s frost salve", "%s 서리 연고", "tformat")
 t("remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "%d 개의 물리 효과를 제거하고 서리의 기운을 부여합니다 (%s 냉기, 암흑, 자연 속성 친화)", "tformat")
 t("%s fiery salve", "%s 불꽃 연고", "tformat")
-t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "remove %d 개의 마법 효과를 제거하고 불꽃의 기운을 부여합니다 (%s 화염, 전기, 빛 속성 친화)", "tformat")
+t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "%d 개의 마법 효과를 제거하고 불꽃의 기운을 부여합니다 (%s 화염, 전기, 빛 속성 친화)", "tformat")
 t("%s water salve", "%s 물방울 연고", "tformat")
 t("remove %d mental effects and grants a water aura (%s blight, mind and acid affinity).", "%d 개의 정신 효과를 제거하고 물방울의 기운을 부여합니다 (%s 황폐, 정신, 산성 속성 친화).", "tformat")
 t("%s unstoppable force salve", "%s 멈출 수 없는 힘 연고", "tformat")
@@ -5076,27 +5076,27 @@ section "game/dlcs/tome-orcs/data/tinkers/therapeutics.lua"
 t("Healing Salve", "회복 연고", "_t")
 t([[A powerful healing salve.
 To be used with the medical injector implant.]], [[강력한 회복 연고입니다.
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Pain Suppressor Salve", "진통 연고", "_t")
 t([[A powerful salve that steels your body for a while, letting you survive below 0 life while increasing resistances.
 To be used with the medical injector implant.]], [[일정 시간 동안 몸을 강철과 같이 단단하게 만들어주는 연고입니다. 생명력이 0 이하여도 생존할 수 있게되고, 모든 저항을 증가시킵니다.
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Frost Salve", "서리 연고", "_t")
 t([[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
 To be used with the medical injector implant.]], [[부정적인 물리 효과를 제거하고, 서리의 기운을 부여하는 연고입니다. (냉기, 암흑, 자연 속성 친화).
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Fiery Salve", "불꽃 연고", "_t")
 t([[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
 To be used with the medical injector implant.]], [[부정적인 마법 효과를 제거하고, 불꽃의 기운을 부여하는 연고입니다. (화염, 전기, 빛 속성 친화).
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Water Salve", "물방울 연고", "_t")
 t([[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
 To be used with the medical injector implant.]], [[부정적인 정신 효과를 제거하고, 물방울의 기운을 부여하는 연고입니다 (황폐, 정신, 산성 속성 친화).
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Unstoppable Force Salve", "멈출 수 없는 힘 연고", "_t")
 t([[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
 To be used with the medical injector implant.]], [[물리, 정신, 마법 효과들에 대해 훨씬 강인하게 만들고 회복 효율을 높이는 연고입니다.
-사용하기위해서는 의료용 주사기가 필요합니다.]], "_t")
+연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("frost salve", "서리 연고", "_t")
 t("fiery salve", "불꽃 연고", "_t")
 t("water salve", "물방울 연고", "_t")
