@@ -282,6 +282,7 @@ t(" and ", ", ", "_t")
 t("Is: ", "종류: ", "_t")
 t("Will Deactivate: ", "비활성화 됨: ", "_t")
 t("Description: ", "설명: ", "_t")
+t("can only learn one evolution", "오직 하나의 진화만 익힐 수 있습니다", "_t")
 t("%s will now be used as often as possible automatically.", "%s 사용 가능할 때 자동으로 사용 될 것입니다.", "tformat", nil, {"는"})
 t("Automatic use enabled", "자동사용 설정", "_t")
 t("- requires a turn to use", "- 사용하는 데 턴이 소모됩니다", "_t")
@@ -13541,6 +13542,112 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
 t("The Spellblaze Chronicles(4): Before the Dawn", "마법 폭발 연대기 (4): 새벽 전에", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
+#{bold}#Chapter Four: Before the Dawn#{normal}#
+
+I rode my great grey horse at a low trot, surrounded by my lieutenants and their elite cavalry and spellrangers.  Beside me on a brown mare my squire held high a banner emblazoned with a flame-wreathed sword, symbol of my personal entourage.  The pole seemed to shiver slightly in the young elf’s hands, a sign of nervousness.
+ 
+“Hold that banner firm, boy,” I said in a commanding tone.
+ 
+The squire suddenly sat upright in his saddle, and gripped tight on the banner pole.  “Yes, sire!” he said, alarmed.  “Whatever you say, sire!”  He kept his head faced forward but I could see his eyes glance towards me, desperate for approval.  Whatever I say indeed...  I had seen his gaze on me before, with all the adoration of a young soldier towards his commander, and perhaps a little more.  If I had not the joy of Linaniil’s company then the attention of such a pretty lad would not be unwelcome.  But this was not the time for such thoughts.
+ 
+This would be the day, the day of the Spellblaze, and the boy had every right to be nervous.  It was a few hours after midnight, and already our scouts would be engaged alongside the other races, drawing out the orcs from their hiding places.  We marched through our main offensive lines, where we would hem them in before the great conflagration.  All around were arrayed spears and swords and mail, glistening in the starlight.  Troops upon troops of battlemages in purple robes held aloft glowing staves.  It was a sight to behold.  Yet we knew also the risk of engaging on open ground with the orcs in their full numbers.  If the Spellblaze failed then we would suffer greatly.
+
+I set up camp upon a low hill overlooking the field, and then left my entourage to seek the Kar’Krul army to the north.  As I rode my stallion towards their station I could see smoke rising in the east.  Four thick grey plumes stood out against the pre-dawn light.  They would be villages looted and burned by the orcs as they rampaged against our feigned assaults.  The townsteads would be empty, but after this battle there would be nothing left for their residents to return to.  A small sacrifice in a game of war that spanned the continent.
+
+A fifth column of smoke began to rise, and in the greenish haze of early morn those pillars of smoke suddenly seemed to look like a demonic hand stretching over the world, ready to dig its claws into the earth and rip out the flesh beneath.  This, I knew, was the threat the orcs faced to us all, a menace to all civilisation.  Whatever price we paid to stop them would be a small one.  So I thought.  So we all thought.
+ 
+When I reached the Kar’Krul camp Linaniil came out to meet me.  Her smile was warm at the sight of me, but I could tell from her eyes that she was more excited for the events of the day.  “Just a few more hours,” she whispered like an impatient child.  “This will be fascinating!”
+ 
+As I came in the Kar’Krul pavilion I saw Neira inside, and some of their senior mages and delegates from other human kingdoms.  I knew Turthel would not be with them, as he stayed in his northern city with his people.  It was not cowardice nor age that held him back from the front lines of war.  Indeed, it was said that ever since his wife was killed by the orcs he had to restrain himself from battle, lest his anger overcome him and he destroy friend and foe alike in his rage.  Yet it was known that sometimes he would venture through the lands alone, and he would bring with him a deafening storm of wrath, and the orcs would cower at the rumour of the approach of Turthel, Tempest of the North.
+ 
+Neira and Linaniil commanded the Kar’Krul forces, and from the firm-set look on their archmages’ faces it was clear that they were ready for whatever the day would bring.  Yet Neira looked troubled, doubt evident in her eyes.
+ 
+“What irks your sister?” I whispered to Linaniil.
+ 
+“Some dumb dream,” she responded callously.
+ 
+Neira’s eyes shot up.  “It were not a dream!” she barked.  “An omen it were, I tell ye!”  She turned to me then with pleading eyes.  “Ye must believe me, Aranion.  Something wilst go terribly wrong today.  I saw last night a terrible sight in mine dreams, as if it were a memory of long ago.  There were a burning city, made of glass and silver and marble.  And as it burned I did hear the cries of thousands, tens of thousands, young and old all dying.  And then the city fell, for it had been held in the sky, and it crashed down to the earth with a shattering torment that spilled across the land.  And other cities there were, and pillars of violet light struck up from them, and they did dance around filling the air with the scent of ozone and seared flesh.  Death was everywhere!  Death like none we have ever seen.
+ 
+“It were no mere dream I tell ye.  It be a message, a warning - some forgotten tale of the dangers we play with.  We must stop this thing!”
+ 
+Linaniil was tapping her foot impatiently as her sister raved, but I could see some of the other leaders looking worried.  I knew I had to quiet Neira down, so I drew myself near and put my hands on her shoulders, looking her calmly in the eyes and bringing my face close.
+ 
+“It may well be that this is no dream.  For this is no normal day, and even in all the legends of ages past this will stand out as a day of reckoning.  Our civilisation in under peril, our way of life threatened from the orcish scourge.  We rest upon a knife edge, the world balancing on a pivot, and the wrong sway could tip us into darkness and despair forever.  Our actions today will decide this.  So yes, you have had a warning, you have had a message, and that message is to be strong.  For today we all hold the reins of fate in our palms, and only the steady hand can guide us past the threat of doom that is to come.  Neira, can you be that steady hand?”
+ 
+She looked at me with open and hopeful gaze, her fingers clenched around my wrist as if she sought to draw strength from me.  She nodded slowly then.  “I’m sorry Aranion.  I just... I’ll be strong.”
+ 
+I turned to the others who all seemed rapt by my words.  It was clear that leaving them to their own thoughts could only bring trouble.  I had to pull them into action straight away.  “It begins now!” I shouted.  “Gather your troops and prepare for the march.  Slow and steady we shall advance, carefully shall we hold the battle, and beyond fire and fury we will emerge free and victorious.  This day shall stand in history forever!  This day shall mark a new era for all the races!  The day of the Spellblaze is here!”
+
+They all cheered and rushed to order their troops, taking courage from the duties of command.  Neira went to her own mages, and I left the pavilion alone.  But outside I was ambushed by Linaniil, who pulled me into an empty tent with a playful laugh.
+ 
+“Ye said ye were no leader!” she exclaimed with a grin.  “That were a leader’s speech if ever I heard one.”
+
+I shrugged and smiled modestly.  “I said what I had to.”
+ 
+She drew close then, a sudden flush of worry in her face.  “It were just a dream, right?”  I could see then beneath all the bravado and humour she was mortally scared, her fingers trembling as she gazed into my eyes, yearning for reassurance.
+ 
+“It was just a dream,” I lied, and it is a lie I have paid for with all my heart and soul.  “Everything will be all right.”  I pulled her close and wrapped my arms around her slender frame, and she held tight to me, still trembling slightly.
+ 
+“Thank you, Aranion,” she whispered.  Turning up her face she kissed me, and it was the softest, most delicate kiss she ever gave me.  It was also the last.
+ 
+We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
+
+Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], [[#{italic}#엘발라 대의회장, 아라니온 가웨일의 회고록에서 발췌#{normal}#
+
+#{bold}#제 4 장 : 새벽 전에#{normal}#
+
+나는 나의 부관들과, 그들의 정예 기병들, 그리고 주문 강습자들 사이에서 커다란 회색 말을 타고 있었다.  내 옆, 갈색 말 위에는 내 종자가 내 수행단의 일원임을 보여주는 염을 내뿜는 검이 그려진 깃발을 높게 들고있었다.  깃대는 젋은 엘프의 손에서 살짝 떨리는 것 같았다. 불안한 기색이 여력해보였다.
+ 
+“깃발을 단단히 잡아라, 꼬마야,” 나는 명령조로 말했다.
+ 
+종자는 갑자기 안장 위에서 자세를 고쳐앉더니, 깃대를 꽉 움켜잡았다.  “예, 사령관님!” 그가 불안해하며 말했다.  “무슨 일이든 따르겠습니다, 사령관님!”  그의 얼굴은 전방을 향해 있었지만, 나는 그의 두 눈이 나는 흘겨보는 것을 볼 수 있었다. 인정을 간절히 바라는 듯이.  무슨 일이든 따르겠다라...  나는 그가 그런 눈빛을 내게 보내는 것을 전에 본 적이 있다.  젊은 병사가 사령관을 향해 보내는 존경의 시선, 그리고 어쩌면 다른 감정이 실려있을 수도 있겠지.  만약 내가 리나니일과 함께하는 기쁨을 누리지 못했다면, 소년의 관심은 나쁘지 않았을 것이다.  그러나 지금은 그런 생각을 할 때가 아니다.
+ 
+이 날은 마법폭발의 날이고 이 소년은 긴장할 만도 하다.  자정이 몇시간 지났을 때였고, 우리 정찰병들은 다른 종족들과 함께 오크들을 은신처에서 끌어내어 전투를 하고 있었을 것이다.  우리는 우리 주 공격 진형을 지나 marched through our main offensive lines, where we would hem them in before the great conflagration.  All around were arrayed spears and swords and mail, glistening in the starlight.  Troops upon troops of battlemages in purple robes held aloft glowing staves.  It was a sight to behold.  Yet we knew also the risk of engaging on open ground with the orcs in their full numbers.  If the Spellblaze failed then we would suffer greatly.
+
+I set up camp upon a low hill overlooking the field, and then left my entourage to seek the Kar’Krul army to the north.  As I rode my stallion towards their station I could see smoke rising in the east.  Four thick grey plumes stood out against the pre-dawn light.  They would be villages looted and burned by the orcs as they rampaged against our feigned assaults.  The townsteads would be empty, but after this battle there would be nothing left for their residents to return to.  A small sacrifice in a game of war that spanned the continent.
+
+A fifth column of smoke began to rise, and in the greenish haze of early morn those pillars of smoke suddenly seemed to look like a demonic hand stretching over the world, ready to dig its claws into the earth and rip out the flesh beneath.  This, I knew, was the threat the orcs faced to us all, a menace to all civilisation.  Whatever price we paid to stop them would be a small one.  So I thought.  So we all thought.
+ 
+When I reached the Kar’Krul camp Linaniil came out to meet me.  Her smile was warm at the sight of me, but I could tell from her eyes that she was more excited for the events of the day.  “Just a few more hours,” she whispered like an impatient child.  “This will be fascinating!”
+ 
+As I came in the Kar’Krul pavilion I saw Neira inside, and some of their senior mages and delegates from other human kingdoms.  I knew Turthel would not be with them, as he stayed in his northern city with his people.  It was not cowardice nor age that held him back from the front lines of war.  Indeed, it was said that ever since his wife was killed by the orcs he had to restrain himself from battle, lest his anger overcome him and he destroy friend and foe alike in his rage.  Yet it was known that sometimes he would venture through the lands alone, and he would bring with him a deafening storm of wrath, and the orcs would cower at the rumour of the approach of Turthel, Tempest of the North.
+ 
+Neira and Linaniil commanded the Kar’Krul forces, and from the firm-set look on their archmages’ faces it was clear that they were ready for whatever the day would bring.  Yet Neira looked troubled, doubt evident in her eyes.
+ 
+“What irks your sister?” I whispered to Linaniil.
+ 
+“Some dumb dream,” she responded callously.
+ 
+Neira’s eyes shot up.  “It were not a dream!” she barked.  “An omen it were, I tell ye!”  She turned to me then with pleading eyes.  “Ye must believe me, Aranion.  Something wilst go terribly wrong today.  I saw last night a terrible sight in mine dreams, as if it were a memory of long ago.  There were a burning city, made of glass and silver and marble.  And as it burned I did hear the cries of thousands, tens of thousands, young and old all dying.  And then the city fell, for it had been held in the sky, and it crashed down to the earth with a shattering torment that spilled across the land.  And other cities there were, and pillars of violet light struck up from them, and they did dance around filling the air with the scent of ozone and seared flesh.  Death was everywhere!  Death like none we have ever seen.
+ 
+“It were no mere dream I tell ye.  It be a message, a warning - some forgotten tale of the dangers we play with.  We must stop this thing!”
+ 
+Linaniil was tapping her foot impatiently as her sister raved, but I could see some of the other leaders looking worried.  I knew I had to quiet Neira down, so I drew myself near and put my hands on her shoulders, looking her calmly in the eyes and bringing my face close.
+ 
+“It may well be that this is no dream.  For this is no normal day, and even in all the legends of ages past this will stand out as a day of reckoning.  Our civilisation in under peril, our way of life threatened from the orcish scourge.  We rest upon a knife edge, the world balancing on a pivot, and the wrong sway could tip us into darkness and despair forever.  Our actions today will decide this.  So yes, you have had a warning, you have had a message, and that message is to be strong.  For today we all hold the reins of fate in our palms, and only the steady hand can guide us past the threat of doom that is to come.  Neira, can you be that steady hand?”
+ 
+She looked at me with open and hopeful gaze, her fingers clenched around my wrist as if she sought to draw strength from me.  She nodded slowly then.  “I’m sorry Aranion.  I just... I’ll be strong.”
+ 
+I turned to the others who all seemed rapt by my words.  It was clear that leaving them to their own thoughts could only bring trouble.  I had to pull them into action straight away.  “It begins now!” I shouted.  “Gather your troops and prepare for the march.  Slow and steady we shall advance, carefully shall we hold the battle, and beyond fire and fury we will emerge free and victorious.  This day shall stand in history forever!  This day shall mark a new era for all the races!  The day of the Spellblaze is here!”
+
+They all cheered and rushed to order their troops, taking courage from the duties of command.  Neira went to her own mages, and I left the pavilion alone.  But outside I was ambushed by Linaniil, who pulled me into an empty tent with a playful laugh.
+ 
+“Ye said ye were no leader!” she exclaimed with a grin.  “That were a leader’s speech if ever I heard one.”
+
+I shrugged and smiled modestly.  “I said what I had to.”
+ 
+She drew close then, a sudden flush of worry in her face.  “It were just a dream, right?”  I could see then beneath all the bravado and humour she was mortally scared, her fingers trembling as she gazed into my eyes, yearning for reassurance.
+ 
+“It was just a dream,” I lied, and it is a lie I have paid for with all my heart and soul.  “Everything will be all right.”  I pulled her close and wrapped my arms around her slender frame, and she held tight to me, still trembling slightly.
+ 
+“Thank you, Aranion,” she whispered.  Turning up her face she kissed me, and it was the softest, most delicate kiss she ever gave me.  It was also the last.
+ 
+We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
+
+Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], "_t")
+t("The Spellblaze Chronicles(5): The Day of the Spellblaze", "마법폭발 연대기 (5): 마법폭발의 날", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
 #{bold}#Chapter Five: The Day of the Spellblaze#{normal}#
 
 I loosened Mooncutter in its sheath as the troops marched forwards.  My grip tightened on the reins, holding my horse in check lest it gallop ahead in the excitement, and I could see my squire to my left doing the same.  The tension in the air was palpable.  Before us, less than a mile away, the vanguard of the orcish armies was now visible.  We had stirred up their nest and they had responded in full force.  They were like a shadowy blight that swallowed up the horizon, a great pestilence that threatened to consume the world.  Before me the armies of the Shaloren seemed small in comparison, but I knew our strength was not told by mere numbers.
@@ -13601,17 +13708,17 @@ But mine was just one voice, one torment, a single note in the great cacophony t
 
 또 다른 파동이 몰아닥쳤다. 나는 방패를 강화하려 했지만 엄청난 힘이 내 몸을 허공으로 날려버렸다.  나는 소용돌이 치는 나뭇잎처럼 허공에서 몸부림쳤다, 내가 할수 있는 것은, 그저 방어를 유지하기위해 안간 힘을 쏟는 것 뿐이였다.  내 군대의 모든 것은 완전히 파괴되고 있었다. 병사들과 병사들의 계급장, 그리고 마법사들은 불에 타, 바짝 구워지거나 순수한 에너지에 의해 갈기갈기 찢어지고있었다.  오크들의 상황도 별 다르지 않았다. 찢어진 대지가 오크 군대의 많은 병사들을 집어 삼켜버렸다.  용암은 천둥소리를 내며 뿜어저나와, 수 킬로미터에 걸쳐 빛나는 죽음의 강이 되어, 모든 것을 뒤덮었다.
 
-어떻게 내가 살아남았는지, 나는 아직도 모르겠다.  나는 몇번인가 의식을 잃을 뻔 헀으나, 어떻게 내가 집중을 유지한 채로, 보호막을 지속할 수 있었는지 난는 .  I became less aware of my surroundings, not knowing if the bubble of my ward was floating through air or fire or blood, or swallowed into the depths of Eyal into some hell never before witnessed.  At last, after what seemed like a tortuous age, the wave of energy passed, and I found myself lying alone on an outcrop of cracked and parched earth, the air a haze of heat about me.
+어떻게 내가 살아남았는지, 나는 아직도 모르겠다.  나는 몇 번인가 의식을 잃을 뻔 헀으나, 나조차 알지 못했던 정신적 강인함으로  집중을 유지한 채, 보호막을 지속시킬 수 있었다.  나는 내 주위에 일어나는 일들에 대해 무감각해졌다. 나의 보호막이 허공을 떠다니고 있는지, 화염이나 핏 속을 떠다니고 있는지, 또는 에이알의 심연에 삼켜저, 여태껏 본 적없는 지옥을 떠다니고 있는지. 나는  아무래도 상관 없었다.  마침내, 고통스러운 시기와 에너지 파장이 지나가자, 나는 메마르고 갈라진 대지 위 돌무더기에 누워있음을 깨닫게 되었다.  공기의 뜨거운 아지랑이가 나를 감쌌다.
 
-I struggled to my feet and looked around, seeing nothing but desolation in all directions.  Steam and smoke rose from rents in the ground, and blood, limbs and ashes were strewn about all over.  Nothing was alive.  In a daze I despaired that I was alone of the hundreds of thousands who had stood here but a short while before.  Friends and comrades, mentors and students, people I had never known and ones I was dearly close to - all gone.  A sudden pain lanced my heart as I thought of Linaniil.  She could not be dead, surely?
+나는 발버둥을 치며 주위를 둘러보았다. 사방에서 보이는 것이라고는 황량함 뿐이였다.  증기와 연기가 대지의 상흔에서 피어올랐고 피와 사지, 그리고 잿더미들이 사방에 널브러져 있었다.  살아있는 것은 아무것도 없었다.  혼란스러운 상황속에서, 나는 좀 전까지 이곳에 서있던 수 칩만명 중 하나였다는 사실을 깨닫고 절망했다.  친구들과 전우들, 스승과 학생들, 내가 전혀 몰랐던 사람들과 나와 매우 친했던 사람들 - 모두 사라졌다.  리나니일을 생각하자 가슴에 격통이 일었다.  그녀가 죽었을리 없잖아, 그렇지?
 
-I gritted my teeth and summoned the energy to levitate, and as I rose I began to get my bearings around the changed landscape.  Slowly I pushed north-east, passing over devastation beyond belief.  I struggled to keep a grip on my sanity as the scent of burnt flesh and blood surrounded me, my vision filled with a horrored landscape beyond imagination, the utter silence more deafening than any sound I had ever heard.  Eventually I came near to where the Kar’Krul army had stood, and cast about the ruined land for some sign of life.  Then faintly I detected something, some small sliver of life, and searching it out I found her.
+나는 이를 악물고 에너지를 불러모아 공중부양을 했고, 날아오르며 주변의 변화한 지형들을 둘러보면서 방향을 잡기 시작했다.  나는 믿을 수 없을 정도로 황폐화 된 장소들을 지나며 느리게 북동쪽으로 향했다.  불타버린 살과 피의 냄새가 나를 둘러싸고 있었고, 나의 시야는 상상을 뛰어넘는 끔찍한 광경으로 가득 차 있었다. 그 어떤 굉음보다 더 시끄러운 완전한 침묵. 그것들 속에서 나는 정신을 잃지 않기위해 고군분투했다.   마침내 나는 카르'크룰 군대가 주둔하던 곳 근처에 도착해, 생명의 흔적을 찾기위해 폐허가 되어버린 땅을 샅샅이 뒤졌다.  그러다가, 희미한 어떤, 작은 생명의 조각을 발견했고, 그것을 찾아 헤맸다. 나는 그녀를 찾아냈다.
 
-Her clothes had been mostly burned off, her hair half turned to ash, and blood was seeping freely from burns all across her body.  A weak shield still hummed over her, but as I knelt down and laid a hand on her it vanished.  Quietly she gasped a breath before whispering, “Neira”, and sinking into unconsciousness.  She was still alive, but barely.  I looked about and saw no signs of her sister, or of any of the rest of her troops, other than the scorched flesh and blackened bones that marked the scourging path swept by the blaze.
+그녀의 옷은 거의 불타없어졌고, 그녀의 머리카락의 절반은 재가 되어버렸다. 그녀는 거의 전신에 화상을 입어, 피가 새어나오고 있었다.  약한 보호막이 그녀 주위에서 웅웅대고 있었지만, 내가 무릎을 꿇고, 그녀에게 손을 얹자 보호막은 사라졌다.  그녀는 숨을 조용히 몰아쉬며 “네이라” 라고 속삭였고, 이윽고 그녀는 무의식 속으로 가라앉았다.  그녀는 살아있었다, 하지만 아주 간신히 살아있었다.  나를 그녀 자매의 흔적을 찾아보았으나, 발견할 수 없었다. 그녀의 부대의 잔존병들 역시 찾아볼 수 없었다. 오직,  화염이 어느 방향으로 휩쓸고 지나갔는지 보여주는 그을린 고깃덩어리들과 불타버린 뼈만 가득했다.
 
-I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
+나는 내가 쓸 수 있었던 회복 마법을 리나니일에게 시전하기 시작했으나, 그것만으로는 부족했다. 또한 나의 약해진 힘은 그녀를 구할 수 없을 것만 같았다. 그날, 내가 잃은 모든것을 생각하며, 끔찍하게 잘못 된 모든 것을 생각하며 나는 울부짖기 시작했다.  희망은 위기로 변해버렸고, 운명의 잔인함은 내가 감당하기에는 너무 벅찼다.  죽어가는 내 사랑의 머리를 안고 나는 하늘로 머리를 치켜들며 울부짖었다.  고통은 갈라진 내 목소리에 담겨져있었고, 나는 내 주변 모든 것을 뒤덮은 피, 뼈, 재 가운데서 생명의 부당함과 전쟁의 헛됨에 분노했다.  그들은 한 때 희망과 꿈을 갖고있던 영혼들이였으나, 이제는 모두 바람에 날린 먼지처럼 흩어졌다. 나는 그들의 죽음과 나의 절망 속에서 한탄했다.
 
-But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], "_t")
+하지만 나의 목소리, 고통은 전 대륙을 가로지르는 거대한 불협화음의 하나의 음절에 불과했다.  수백만의 목숨이 사라지고 부셔졌으며, 수백만의 목소리가 고통과 고뇌와 고문 속에서 비명을 질렀으며, 마즈'에이알의 모든 곳에서 궁극적인 파괴의 힘이 계속 지속되고있었다. 바로 마법폭발.]], "_t")
 t("spellblaze", "마법폭발", "newLore category")
 
 
@@ -14098,7 +14205,7 @@ Due to the safety and comfort of Elvala, and their mistrust of much of the outsi
 
 샬로레들의 마법 사용이 선택적(논란의 여지가있지만)인것이지만 , 오우거는 그런 사치를 부릴수 없다. 그들의 룬 문신은 중요한 내부 장기들 만큼이나 그들의 생명유지와 생물학적 무결성에 중요하다, 그리고 지구랏트의 "정화"시도로 포획된 오우거들은 스스로의 무게를 이기지도 못해 고꾸라지며, 장기들은 하나씩 기능을 정지했다 오우거에게 자연 주입물이 필수적인것처럼 마법 주입물 또한 그러하다 생각된다. 그렇기 때문에 오우거에게 번식은 매우 신중하게 이루어져야하는 작업이며 오우거 신생아는 주입물 없이 몇달간 생존할 수 있다, 그러나 그 후에는 오우거 부모들은 자녀에게 룬을 주입하고 약초 주입물을 철저하게 각인해야 한다. 오우거 부모들은 보통 이 일을 함께한다, 서로의 룬을 참고자료 삼아 작업하며, 룬을 그리는 과정에서 어떤 실수라도 아이의 건강과 성장에 악영향을 끼친다 (잘못 그려진 각인이 오우거의 성질을 억누른다고 믿어지지만 실제로는 악영향을 끼칠 뿐이다). 그런면에서 오우거 아이의 성장과 정신적 육체적 성격적 발달에 있어 주입물이 유의미한 영향을 끼친다고 할 수 있다.	
 
-엘발라의 안전함과 편안함 때문에, 그리고 그들이 가진 외부세계에 대한 불신 때문에, 그들의 고향을 떠난 오우거들은 대부분 교역을 위해서만 여정을 나서며 때때로 더 커다란 룬과 주입물 시장에 뛰어들기도 한다. 그리고 이들은 자주 성공을 거두는데 그들이 가진 이 분야의 재능 덕분이다. '모험가'라고 여겨질 수 있는 몇 안 되는 오우거들은 짐을 싸서 갑자기 떠나는 경향이 있다. 영광이나 재물을 위해서가 아니라, 그들은 세상에 되풀이되는 불행의 근원을 찾아 대의로서 뿌리뽑길 원하기 때문이다. 곡물이 약탈되었다는 소식을 들은 오그레가 좌절감에 한숨을 쉬는 것은 드문 일이 아니며 그대로 떠나, 며칠 후 한 때 도적떼 였던것의 피가 몽둥이에 범벅이 된채 돌아와 곧바로 농작물을 가꾸러 돌아가곤한다.]], "_t")
+엘발라의 안전함과 편안함 때문에, 그리고 그들이 가진 외부세계에 대한 불신 때문에, 그들의 고향을 떠난 오우거들은 대부분 교역을 위해서만 여정을 나서며 때때로 더 커다란 룬과 주입물 시장에 뛰어들기도 한다. 그리고 이들은 자주 성공을 거두는데 그들이 가진 이 분야의 재능 덕분이다. '모험가'라고 여겨질 수 있는 몇 안 되는 오우거들은 짐을 싸서 갑자기 떠나는 경향이 있다. 영광이나 재물을 위해서가 아니라, 그들은 세상에 되풀이되는 불행의 근원을 찾아 대의로서 뿌리뽑길 원하기 때문이다. 곡물이 약탈되었다는 소식을 들은 오우거가 좌절감에 한숨을 쉬는 것은 드문 일이 아니며 그대로 떠나, 며칠 후 한 때 도적떼 였던것의 피가 몽둥이에 범벅이 된채 돌아와 곧바로 농작물을 가꾸러 돌아가곤한다.]], "_t")
 t("vault", "보물창고", "newLore category")
 t("magic", "마법", "newLore category")
 t("On Adventuring", "모험 도중", "_t")
@@ -18161,15 +18268,15 @@ t([[Your defiling touch permeates everything around you, permanently imparting a
 		Also, talent levels above 5 reduce the negative effects of your curses (currently %d%% reduction).]], [[모독의 손길은 손에 닿는 모든 것에 침투하여 발견한 물품에 영구적으로 무작위한 저주를 내립니다. 저주받은 장비를 장착할 시, 그 저주의 효과를 받게됩니다. (이로운 효과로 표시됩니다) 같은 종류의 저주가 담긴 장비를 여러 개 장착하면 저주의 위력이 증폭됩니다. 낮은 위력의 저주는 유해하나, 높은 위력의 저주는 강력하고 이로운 효과를 냅니다.
 		어둠의 선물 기술은 높은 레벨의 저주 효과를 해금하고, 저주의 힘을 강화합니다. 
 		이 기술의 레벨에 따라 저주의 아우라는 장비에 더욱 빈틈없이 파고들 것입니다. 다음과 같은 장비에 저주를 내릴 수 있습니다.:
-		Level 1  -- 무기
-		Level 2  -- 가슴 방어구, 망토
-		Level 3  -- 방패, 머리 방어구
-		Level 4  -- 장갑, 신발,허리띠
-		Level 6  -- 반지
-		Level 7  -- 아뮬렛/목걸이
-		Level 8  -- 조명
-		Level 9  -- 도구/토템/염동력 고리/마법봉
-		level 10 -- 탄환
+		레벨 1  -- 무기
+		레벨 2  -- 가슴 방어구, 망토
+		레벨 3  -- 방패, 머리 방어구
+		레벨 4  -- 장갑, 신발,허리띠
+		레벨 6  -- 반지
+		레벨 7  -- 아뮬렛/목걸이
+		레벨 8  -- 조명
+		레벨 9  -- 도구/토템/염동력 고리/마법봉
+		레벨 10 -- 탄환
 		기술 레벨 5 일때, 이 기술을 활성화하여, 자신의 주변에 저주를 두를 수 있습니다. 선택된 저주의 레벨을 2 증가시킵니다. (선택한 저주 : %s)
 		기술 레벨이 5 이상일 때, 저주의 부정적인 효과를 줄일 수 있습니다. (현재 %d%% 감소됨).]], "tformat")
 t("Dark Gifts", "어둠의 선물", "talent name")

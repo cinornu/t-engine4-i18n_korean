@@ -1947,13 +1947,13 @@ t([[DISCIPLINARY REPORT:
 
 -성급한 블랙혼, 개인 물품이었던 아트모스산 압생트를 훔침. 채찍질 20대.
 -그로보 수병, 개인 물품이었던 샬로레산 와인을 훔침. 채찍질 20대.
--그레이프샷 일등 항해사, 대포를 부적절하게 사용함. 채찍질 20대, 강등 조치.
+-그레이프샷 일등항해사, 대포를 부적절하게 사용함. 채찍질 20대, 강등 조치.
 -타로고스, 의뢰주의 뜻에 반하여 목표 보급선의 선원들을 살해함. 채찍질 3대.  [i]주석: 그래도 보수는 받았고, 물건 또한 잘 배송했음[/i]
 -룬티, 개인 물품이었던 드워프산 맥주를 훔침. 채찍질 11대.
 -햄피스트, 개인 물품이었던 오우거산 브랜디를 훔침. 채찍질 5대, 감봉 조치.
 -소환사 독처커, 다른 선원의 얼굴을 망가뜨림. 처벌 유보.  [i]주석: 사고였던 것으로 여겨짐[/i]
 -파도의 토르골, 아군 선박을 침몰시키는 사고를 저지름. 5일 간에 걸쳐서 채찍질 1000대.  [i]주석: 원래라면 밧줄로 묶어서 잠수시켜야 하지만, 파도술사는 귀중한 전력이다![/i]
--그레이프샷 이등 항해사, 대포를 부적절하게 사용함. 채찍질 30대, 강등 조치.
+-그레이프샷 이등항해사, 대포를 부적절하게 사용함. 채찍질 30대, 강등 조치.
 -레이디 라고, 전리품을 팔아 사익을 챙김. 채찍질 30대, 벌로써 봉사 활동에 배정함.
 -시프티, 명령 불복종. 채찍질 10대.
 -그로그브레스 수병, 청소를 소홀히 함. 주류 특권을 회수함.
@@ -1965,7 +1965,7 @@ t([[DISCIPLINARY REPORT:
 -크랩하이드, 반란 시도에 가담함. 밧줄로 묶어서 잠수시킴.
 -못주먹 포가, 반란에 대해 보고하지 않음. 밧줄로 묶어서 잠수시킴.
 -사수 빌지블로트, 반란분자들과 친분을 유지함. 밧줄로 묶어서 잠수시킴.
--브라카 일등 항해사, 반란분자들을 충분히 잠수시키지 못함. 밧줄로 묶어서 잠수시킴.
+-브라카 일등항해사, 반란분자들을 충분히 잠수시키지 못함. 밧줄로 묶어서 잠수시킴.
 -블러드-키일 선장, 잠수형을 남발함. 밧줄로 묶어서 두 번 잠수시킴.
 -그레이프샷 수병, 대걸레를 부적절하게 사용함. 채찍질 50대, 강등 조치.
 ]], "_t")
@@ -1997,7 +1997,7 @@ As per your orders, we've restricted most of our intervention to sabotaging the 
 
 I await your reply - and more dried meat, my crew loves the stuff and these smugglers can't be arsed to bring us something so mundane.]], [[종합 분석:
 
-보스, 딱 하나만 이야기 하겠습니다. 저랑 제 선원들을 선택한 건 훌륭한 선택이었어요. 제가 조국으로 보낸 물건들은 우리가 준비하는 거에 충분히 도움이 되었을 거고, 윗분들은 침공을 시작하고 싶어 하는 것 같은데, 그러니까 이제 보스가 말씀하셨던 대로 지연 효과가 있는 물약에다가 술이랑 치어블로섬을 섞겠습니다. 왕국연합은 역병이 들끓게 된다던가 온갖 잡범들이 갑자기 분노로 미쳐서 날뛰게 된다던가 하면서 심각한 피해를 받게 될 겁니다. 그것들이 전부 실패하더라도 '그것' 이 제 역할을 [i]아주[/i] 잘 해줄 거고요.
+보스, 딱 하나만 이야기 하겠습니다. 저랑 제 선원들을 선택한 건 훌륭한 선택이었어요. 제가 조국으로 보낸 물건들은 우리가 준비하는 거에 충분히 도움이 되었을 거고, 윗분들은 침공을 시작하고 싶어 하는 것 같은데, 그러니까 이제 보스가 말씀하셨던 대로 지연 효과가 있는 물약에다가 술이랑 치어블로섬을 섞겠습니다. 이걸 서쪽에다가 팔아넘기면, 왕국연합은 역병이 들끓게 된다던가 온갖 잡범들이 갑자기 분노로 미쳐서 날뛰게 된다던가 하면서 심각한 피해를 받게 될 겁니다. 그것들이 전부 실패하더라도 '그것' 이 제 역할을 [i]아주[/i] 잘 해줄 거고요.
 
 명령하신 대로, 왕국연합에다가 뭔가 사보타주를 한다던가 하는 건 자제하고 있습니다. 하지만 제 생각엔 오크들을 좀 더 신경써야 할 것 같습니다. 오크 몇 놈들이 최근에 클로크 반도에 나타났었고, 그 놈들한테 태양의 기사들도, 아트모스 녀석들도 모두 당했습니다. 지금 "맑은 날" 이랑 연락이 안 되고, "꼬리구름" 은 발각될까봐 물건을 최소한으로만 내놓고 있습죠. 저 놈들을 그냥 내버려 두면, 왕국연합보다 더 큰 걸림돌이 될 수도 있을 겁니다.
 
@@ -2007,6 +2007,34 @@ I await your reply - and more dried meat, my crew loves the stuff and these smug
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/emporium.lua"
 
+t("a large poster", "커다란 포스터", "_t")
+t([[#{bold}#CLOGGING NO MORE!#{normal}#
+If steam-vent congestion ails you, avail yourself of:
+ 
+#{italic}#[An illustration depicts a rectangular glass bottle, labelled "DR. RAGLUK's DECLOGGING DRAUGHT".]#{normal}#
+ 
+MADE WITH LOVE, CARE, AND THE PUREST MINERALS FROM THE STEAM QUARRY
+ 
+Just one capful will cleanse your pores, flushing toxins out with the steam!
+ 
+ALSO EFFECTIVE FOR: Headaches, nausea, ennui, fatigue, aches and pains, and general malaise!
+ 
+#{italic}#[A disclaimer occupies the bottom margin of the poster, in print so small you doubt the giants would be able to read it.]#{normal}#
+ 
+WARNING: This product has been determined by the Council of Health Authority to be correlated with the following conditions: Inverse vertigo, increased hair flammability, non-vaporous sweating, night terrors, liver dysphoria, headaches, miner's lung, brainlock, day terrors, mitosis, visions of a great butchered being, miner's elbow, skeletal emancipation, gastrointestinal infamy, brittle kidney, pinaciphobia, decreased global speed, teleportitis, miner's tongue, merged nostrils, an ancient and foul curse, lowered steam pressure, fat burning (literal), ocular feathering, Orcish body odor, arcane disruption, gravity loss, bloodlock, malfeasance, rectal carpeting, nihilism, mid-evening terrors, knee rust, and minor clogging of the pores.]], [[#{bold}#이제 안 막혀요!#{normal}#
+증기 환풍구가 막혀서 스트레스시라구요? 그런 당신을 위해 준비했습니다!
+ 
+#{italic}#[각진 유리병의 그림이 그려져 있습니다. 병에는 "닥터 래글럭의 뻥뚫어 약" 이라 적힌 딱지가 붙어 있습니다.]#{normal}#
+ 
+애정과 걱정, 그리고 증기 채굴장에서 구할 수 있는 가장 순수한 광물질 함유!!
+ 
+딱 한 방울이면 여러분의 환풍구에서 독소를 증기와 함께 날려버리고, 깨끗하게 만들어줍니다!
+ 
+이 약은 두통, 메스꺼움, 권태감, 피로, 쑤심, 고통, 그리고 그 외 일반적인 문제들에도 효과적이랍니다!
+ 
+#{italic}#[알림 사항이 포스터 아랫부분 여백에 빼곡하게 적혀 있지만, 너무 깨알같이 적혀 있어서 거인들은 절대로 읽지 못할 거라는 생각이 들었습니다.]#{normal}#
+ 
+경고: 보건 당국 평의회에서는 이 상품이 다음과 같은 현상들과 관계가 있다는 결론을 내렸습니다 - 강렬한 현기증, 모발의 가연성 증가, 비기화성 발한, 밤 공포증, 간 이상, 두통, 탄폐증, 사고 정지, 낮 공포증, 체세포 이상 분열, 토막난 시체가 보이는 환각, 팔꿈치 염증, 뼈 이탈증, 소화기질환, 신장질환, 목록 공포증, 전체속도 감소, 의도하지 않은 순간이동, 혀 탄화증, 콧구멍 결합증, 고대의 역겨운 저주, 증기압 감소, 지방 연소(문자 그대로), 눈 주위 털 증가, 오크체취증, 마법 방해, 중력 저하, 혈류 정지, 부정행위, 창자 코팅, 허무주의, 저녁 공포증, 무릎 골병, 그리고 환풍구 막힘.]], "_t")
 
 
 ------------------------------------------------

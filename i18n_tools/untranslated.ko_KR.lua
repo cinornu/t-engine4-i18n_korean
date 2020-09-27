@@ -2825,35 +2825,7 @@ t("red striped steamsaw", "red striped steamsaw", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/emporium.lua"
--- 11 entries
-t("a large poster", "a large poster", "_t")
-t([[#{bold}#CLOGGING NO MORE!#{normal}#
-If steam-vent congestion ails you, avail yourself of:
- 
-#{italic}#[An illustration depicts a rectangular glass bottle, labelled "DR. RAGLUK's DECLOGGING DRAUGHT".]#{normal}#
- 
-MADE WITH LOVE, CARE, AND THE PUREST MINERALS FROM THE STEAM QUARRY
- 
-Just one capful will cleanse your pores, flushing toxins out with the steam!
- 
-ALSO EFFECTIVE FOR: Headaches, nausea, ennui, fatigue, aches and pains, and general malaise!
- 
-#{italic}#[A disclaimer occupies the bottom margin of the poster, in print so small you doubt the giants would be able to read it.]#{normal}#
- 
-WARNING: This product has been determined by the Council of Health Authority to be correlated with the following conditions: Inverse vertigo, increased hair flammability, non-vaporous sweating, night terrors, liver dysphoria, headaches, miner's lung, brainlock, day terrors, mitosis, visions of a great butchered being, miner's elbow, skeletal emancipation, gastrointestinal infamy, brittle kidney, pinaciphobia, decreased global speed, teleportitis, miner's tongue, merged nostrils, an ancient and foul curse, lowered steam pressure, fat burning (literal), ocular feathering, Orcish body odor, arcane disruption, gravity loss, bloodlock, malfeasance, rectal carpeting, nihilism, mid-evening terrors, knee rust, and minor clogging of the pores.]], [[#{bold}#CLOGGING NO MORE!#{normal}#
-If steam-vent congestion ails you, avail yourself of:
- 
-#{italic}#[An illustration depicts a rectangular glass bottle, labelled "DR. RAGLUK's DECLOGGING DRAUGHT".]#{normal}#
- 
-MADE WITH LOVE, CARE, AND THE PUREST MINERALS FROM THE STEAM QUARRY
- 
-Just one capful will cleanse your pores, flushing toxins out with the steam!
- 
-ALSO EFFECTIVE FOR: Headaches, nausea, ennui, fatigue, aches and pains, and general malaise!
- 
-#{italic}#[A disclaimer occupies the bottom margin of the poster, in print so small you doubt the giants would be able to read it.]#{normal}#
- 
-WARNING: This product has been determined by the Council of Health Authority to be correlated with the following conditions: Inverse vertigo, increased hair flammability, non-vaporous sweating, night terrors, liver dysphoria, headaches, miner's lung, brainlock, day terrors, mitosis, visions of a great butchered being, miner's elbow, skeletal emancipation, gastrointestinal infamy, brittle kidney, pinaciphobia, decreased global speed, teleportitis, miner's tongue, merged nostrils, an ancient and foul curse, lowered steam pressure, fat burning (literal), ocular feathering, Orcish body odor, arcane disruption, gravity loss, bloodlock, malfeasance, rectal carpeting, nihilism, mid-evening terrors, knee rust, and minor clogging of the pores.]], "_t")
+-- 9 entries
 t("tattered poster", "tattered poster", "_t")
 t([[CLOSING SALE
 for
@@ -4985,14 +4957,13 @@ t("#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "#RED# [%s]%s #ORANG
 
 ------------------------------------------------
 section "game/modules/tome/class/Actor.lua"
--- 9 entries
+-- 8 entries
 t("actor", "actor", "_t")
 t(" (%d%%)", " (%d%%)", "tformat")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("You %s %s to activate %s.", "You %s %s to activate %s.", "logPlayer")
 t("%s's %s has been disrupted by #ORCHID#anti-psionic forces#LAST#!", "%s's %s has been disrupted by #ORCHID#anti-psionic forces#LAST#!", "logSeen")
 t("%s %s: ", "%s %s: ", "tformat")
-t("can only learn one evolution", "can only learn one evolution", "_t")
 t("- Not other class or race evolution", "- Not other class or race evolution", "_t")
 t("%s resists the dispelling of %s!", "%s resists the dispelling of %s!", "logSeen")
 
@@ -6734,113 +6705,7 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/elvala.lua"
--- 8 entries
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Four: Before the Dawn#{normal}#
-
-I rode my great grey horse at a low trot, surrounded by my lieutenants and their elite cavalry and spellrangers.  Beside me on a brown mare my squire held high a banner emblazoned with a flame-wreathed sword, symbol of my personal entourage.  The pole seemed to shiver slightly in the young elf’s hands, a sign of nervousness.
- 
-“Hold that banner firm, boy,” I said in a commanding tone.
- 
-The squire suddenly sat upright in his saddle, and gripped tight on the banner pole.  “Yes, sire!” he said, alarmed.  “Whatever you say, sire!”  He kept his head faced forward but I could see his eyes glance towards me, desperate for approval.  Whatever I say indeed...  I had seen his gaze on me before, with all the adoration of a young soldier towards his commander, and perhaps a little more.  If I had not the joy of Linaniil’s company then the attention of such a pretty lad would not be unwelcome.  But this was not the time for such thoughts.
- 
-This would be the day, the day of the Spellblaze, and the boy had every right to be nervous.  It was a few hours after midnight, and already our scouts would be engaged alongside the other races, drawing out the orcs from their hiding places.  We marched through our main offensive lines, where we would hem them in before the great conflagration.  All around were arrayed spears and swords and mail, glistening in the starlight.  Troops upon troops of battlemages in purple robes held aloft glowing staves.  It was a sight to behold.  Yet we knew also the risk of engaging on open ground with the orcs in their full numbers.  If the Spellblaze failed then we would suffer greatly.
-
-I set up camp upon a low hill overlooking the field, and then left my entourage to seek the Kar’Krul army to the north.  As I rode my stallion towards their station I could see smoke rising in the east.  Four thick grey plumes stood out against the pre-dawn light.  They would be villages looted and burned by the orcs as they rampaged against our feigned assaults.  The townsteads would be empty, but after this battle there would be nothing left for their residents to return to.  A small sacrifice in a game of war that spanned the continent.
-
-A fifth column of smoke began to rise, and in the greenish haze of early morn those pillars of smoke suddenly seemed to look like a demonic hand stretching over the world, ready to dig its claws into the earth and rip out the flesh beneath.  This, I knew, was the threat the orcs faced to us all, a menace to all civilisation.  Whatever price we paid to stop them would be a small one.  So I thought.  So we all thought.
- 
-When I reached the Kar’Krul camp Linaniil came out to meet me.  Her smile was warm at the sight of me, but I could tell from her eyes that she was more excited for the events of the day.  “Just a few more hours,” she whispered like an impatient child.  “This will be fascinating!”
- 
-As I came in the Kar’Krul pavilion I saw Neira inside, and some of their senior mages and delegates from other human kingdoms.  I knew Turthel would not be with them, as he stayed in his northern city with his people.  It was not cowardice nor age that held him back from the front lines of war.  Indeed, it was said that ever since his wife was killed by the orcs he had to restrain himself from battle, lest his anger overcome him and he destroy friend and foe alike in his rage.  Yet it was known that sometimes he would venture through the lands alone, and he would bring with him a deafening storm of wrath, and the orcs would cower at the rumour of the approach of Turthel, Tempest of the North.
- 
-Neira and Linaniil commanded the Kar’Krul forces, and from the firm-set look on their archmages’ faces it was clear that they were ready for whatever the day would bring.  Yet Neira looked troubled, doubt evident in her eyes.
- 
-“What irks your sister?” I whispered to Linaniil.
- 
-“Some dumb dream,” she responded callously.
- 
-Neira’s eyes shot up.  “It were not a dream!” she barked.  “An omen it were, I tell ye!”  She turned to me then with pleading eyes.  “Ye must believe me, Aranion.  Something wilst go terribly wrong today.  I saw last night a terrible sight in mine dreams, as if it were a memory of long ago.  There were a burning city, made of glass and silver and marble.  And as it burned I did hear the cries of thousands, tens of thousands, young and old all dying.  And then the city fell, for it had been held in the sky, and it crashed down to the earth with a shattering torment that spilled across the land.  And other cities there were, and pillars of violet light struck up from them, and they did dance around filling the air with the scent of ozone and seared flesh.  Death was everywhere!  Death like none we have ever seen.
- 
-“It were no mere dream I tell ye.  It be a message, a warning - some forgotten tale of the dangers we play with.  We must stop this thing!”
- 
-Linaniil was tapping her foot impatiently as her sister raved, but I could see some of the other leaders looking worried.  I knew I had to quiet Neira down, so I drew myself near and put my hands on her shoulders, looking her calmly in the eyes and bringing my face close.
- 
-“It may well be that this is no dream.  For this is no normal day, and even in all the legends of ages past this will stand out as a day of reckoning.  Our civilisation in under peril, our way of life threatened from the orcish scourge.  We rest upon a knife edge, the world balancing on a pivot, and the wrong sway could tip us into darkness and despair forever.  Our actions today will decide this.  So yes, you have had a warning, you have had a message, and that message is to be strong.  For today we all hold the reins of fate in our palms, and only the steady hand can guide us past the threat of doom that is to come.  Neira, can you be that steady hand?”
- 
-She looked at me with open and hopeful gaze, her fingers clenched around my wrist as if she sought to draw strength from me.  She nodded slowly then.  “I’m sorry Aranion.  I just... I’ll be strong.”
- 
-I turned to the others who all seemed rapt by my words.  It was clear that leaving them to their own thoughts could only bring trouble.  I had to pull them into action straight away.  “It begins now!” I shouted.  “Gather your troops and prepare for the march.  Slow and steady we shall advance, carefully shall we hold the battle, and beyond fire and fury we will emerge free and victorious.  This day shall stand in history forever!  This day shall mark a new era for all the races!  The day of the Spellblaze is here!”
-
-They all cheered and rushed to order their troops, taking courage from the duties of command.  Neira went to her own mages, and I left the pavilion alone.  But outside I was ambushed by Linaniil, who pulled me into an empty tent with a playful laugh.
- 
-“Ye said ye were no leader!” she exclaimed with a grin.  “That were a leader’s speech if ever I heard one.”
-
-I shrugged and smiled modestly.  “I said what I had to.”
- 
-She drew close then, a sudden flush of worry in her face.  “It were just a dream, right?”  I could see then beneath all the bravado and humour she was mortally scared, her fingers trembling as she gazed into my eyes, yearning for reassurance.
- 
-“It was just a dream,” I lied, and it is a lie I have paid for with all my heart and soul.  “Everything will be all right.”  I pulled her close and wrapped my arms around her slender frame, and she held tight to me, still trembling slightly.
- 
-“Thank you, Aranion,” she whispered.  Turning up her face she kissed me, and it was the softest, most delicate kiss she ever gave me.  It was also the last.
- 
-We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
-
-Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Four: Before the Dawn#{normal}#
-
-I rode my great grey horse at a low trot, surrounded by my lieutenants and their elite cavalry and spellrangers.  Beside me on a brown mare my squire held high a banner emblazoned with a flame-wreathed sword, symbol of my personal entourage.  The pole seemed to shiver slightly in the young elf’s hands, a sign of nervousness.
- 
-“Hold that banner firm, boy,” I said in a commanding tone.
- 
-The squire suddenly sat upright in his saddle, and gripped tight on the banner pole.  “Yes, sire!” he said, alarmed.  “Whatever you say, sire!”  He kept his head faced forward but I could see his eyes glance towards me, desperate for approval.  Whatever I say indeed...  I had seen his gaze on me before, with all the adoration of a young soldier towards his commander, and perhaps a little more.  If I had not the joy of Linaniil’s company then the attention of such a pretty lad would not be unwelcome.  But this was not the time for such thoughts.
- 
-This would be the day, the day of the Spellblaze, and the boy had every right to be nervous.  It was a few hours after midnight, and already our scouts would be engaged alongside the other races, drawing out the orcs from their hiding places.  We marched through our main offensive lines, where we would hem them in before the great conflagration.  All around were arrayed spears and swords and mail, glistening in the starlight.  Troops upon troops of battlemages in purple robes held aloft glowing staves.  It was a sight to behold.  Yet we knew also the risk of engaging on open ground with the orcs in their full numbers.  If the Spellblaze failed then we would suffer greatly.
-
-I set up camp upon a low hill overlooking the field, and then left my entourage to seek the Kar’Krul army to the north.  As I rode my stallion towards their station I could see smoke rising in the east.  Four thick grey plumes stood out against the pre-dawn light.  They would be villages looted and burned by the orcs as they rampaged against our feigned assaults.  The townsteads would be empty, but after this battle there would be nothing left for their residents to return to.  A small sacrifice in a game of war that spanned the continent.
-
-A fifth column of smoke began to rise, and in the greenish haze of early morn those pillars of smoke suddenly seemed to look like a demonic hand stretching over the world, ready to dig its claws into the earth and rip out the flesh beneath.  This, I knew, was the threat the orcs faced to us all, a menace to all civilisation.  Whatever price we paid to stop them would be a small one.  So I thought.  So we all thought.
- 
-When I reached the Kar’Krul camp Linaniil came out to meet me.  Her smile was warm at the sight of me, but I could tell from her eyes that she was more excited for the events of the day.  “Just a few more hours,” she whispered like an impatient child.  “This will be fascinating!”
- 
-As I came in the Kar’Krul pavilion I saw Neira inside, and some of their senior mages and delegates from other human kingdoms.  I knew Turthel would not be with them, as he stayed in his northern city with his people.  It was not cowardice nor age that held him back from the front lines of war.  Indeed, it was said that ever since his wife was killed by the orcs he had to restrain himself from battle, lest his anger overcome him and he destroy friend and foe alike in his rage.  Yet it was known that sometimes he would venture through the lands alone, and he would bring with him a deafening storm of wrath, and the orcs would cower at the rumour of the approach of Turthel, Tempest of the North.
- 
-Neira and Linaniil commanded the Kar’Krul forces, and from the firm-set look on their archmages’ faces it was clear that they were ready for whatever the day would bring.  Yet Neira looked troubled, doubt evident in her eyes.
- 
-“What irks your sister?” I whispered to Linaniil.
- 
-“Some dumb dream,” she responded callously.
- 
-Neira’s eyes shot up.  “It were not a dream!” she barked.  “An omen it were, I tell ye!”  She turned to me then with pleading eyes.  “Ye must believe me, Aranion.  Something wilst go terribly wrong today.  I saw last night a terrible sight in mine dreams, as if it were a memory of long ago.  There were a burning city, made of glass and silver and marble.  And as it burned I did hear the cries of thousands, tens of thousands, young and old all dying.  And then the city fell, for it had been held in the sky, and it crashed down to the earth with a shattering torment that spilled across the land.  And other cities there were, and pillars of violet light struck up from them, and they did dance around filling the air with the scent of ozone and seared flesh.  Death was everywhere!  Death like none we have ever seen.
- 
-“It were no mere dream I tell ye.  It be a message, a warning - some forgotten tale of the dangers we play with.  We must stop this thing!”
- 
-Linaniil was tapping her foot impatiently as her sister raved, but I could see some of the other leaders looking worried.  I knew I had to quiet Neira down, so I drew myself near and put my hands on her shoulders, looking her calmly in the eyes and bringing my face close.
- 
-“It may well be that this is no dream.  For this is no normal day, and even in all the legends of ages past this will stand out as a day of reckoning.  Our civilisation in under peril, our way of life threatened from the orcish scourge.  We rest upon a knife edge, the world balancing on a pivot, and the wrong sway could tip us into darkness and despair forever.  Our actions today will decide this.  So yes, you have had a warning, you have had a message, and that message is to be strong.  For today we all hold the reins of fate in our palms, and only the steady hand can guide us past the threat of doom that is to come.  Neira, can you be that steady hand?”
- 
-She looked at me with open and hopeful gaze, her fingers clenched around my wrist as if she sought to draw strength from me.  She nodded slowly then.  “I’m sorry Aranion.  I just... I’ll be strong.”
- 
-I turned to the others who all seemed rapt by my words.  It was clear that leaving them to their own thoughts could only bring trouble.  I had to pull them into action straight away.  “It begins now!” I shouted.  “Gather your troops and prepare for the march.  Slow and steady we shall advance, carefully shall we hold the battle, and beyond fire and fury we will emerge free and victorious.  This day shall stand in history forever!  This day shall mark a new era for all the races!  The day of the Spellblaze is here!”
-
-They all cheered and rushed to order their troops, taking courage from the duties of command.  Neira went to her own mages, and I left the pavilion alone.  But outside I was ambushed by Linaniil, who pulled me into an empty tent with a playful laugh.
- 
-“Ye said ye were no leader!” she exclaimed with a grin.  “That were a leader’s speech if ever I heard one.”
-
-I shrugged and smiled modestly.  “I said what I had to.”
- 
-She drew close then, a sudden flush of worry in her face.  “It were just a dream, right?”  I could see then beneath all the bravado and humour she was mortally scared, her fingers trembling as she gazed into my eyes, yearning for reassurance.
- 
-“It was just a dream,” I lied, and it is a lie I have paid for with all my heart and soul.  “Everything will be all right.”  I pulled her close and wrapped my arms around her slender frame, and she held tight to me, still trembling slightly.
- 
-“Thank you, Aranion,” she whispered.  Turning up her face she kissed me, and it was the softest, most delicate kiss she ever gave me.  It was also the last.
- 
-We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
-
-Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], "_t")
-t("The Spellblaze Chronicles(5): The Day of the Spellblaze", "The Spellblaze Chronicles(5): The Day of the Spellblaze", "_t")
+-- 6 entries
 t("The Spellblaze Chronicles(6): A Changed Eyal", "The Spellblaze Chronicles(6): A Changed Eyal", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
