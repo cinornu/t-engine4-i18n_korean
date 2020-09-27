@@ -583,7 +583,7 @@ t("Physical techniques", "물리적 기술", "_t")
 t("Arcane spells", "마법 주문", "_t")
 t("Nature/Psionic talents", "자연/초능력 기술", "_t")
 t("Improve", "상승", "_t")
-t("Learn", "배운다", "_t")
+t("Learn", "배우기 :", "_t")
 t("[%s talent %s (+%d level(s))]", "[%s %s (+%d 레벨)]", "tformat")
 t([[Antimagic talents are very special. To learn one means you will never be able to use arcane powered items or talents again.
 Do you still wish to take this path?]], [[반마법 기술은 매우 특수합니다. 하나라도 배우면 마법의 힘으로 작동하는 물건들이나 마법 기술들을 두 번 다시 쓸 수 없게 될 겁니다.

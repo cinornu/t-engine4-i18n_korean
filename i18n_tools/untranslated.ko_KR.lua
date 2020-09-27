@@ -606,7 +606,7 @@ t("Anteroom of Agony", "Anteroom of Agony", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
--- 12 entries
+-- 10 entries
 t("demon killed by a meteor", "demon killed by a meteor", "entity name")
 t("impact crater", "impact crater", "entity name")
 t("tracking control crystal", "tracking control crystal", "entity name")
@@ -614,8 +614,6 @@ t("destroyed the crystal", "destroyed the crystal", "_t")
 t("destroying the crystal", "destroying the crystal", "_t")
 t("#VIOLET#The crystal is destroyed!", "#VIOLET#The crystal is destroyed!", "log")
 t("#YELLOW#The disturbance has attracted the Planar Controller!", "#YELLOW#The disturbance has attracted the Planar Controller!", "say")
-t("portal to the next level", "portal to the next level", "entity name")
-t("portal to the previous level", "portal to the previous level", "entity name")
 t("portal to somewhere on Eyal", "portal to somewhere on Eyal", "entity name")
 t("Safe!", "Safe!", "_t")
 t("You made it to Eyal! You are not quite sure where, but it can not be worse than the Fearscape.", "You made it to Eyal! You are not quite sure where, but it can not be worse than the Fearscape.", "_t")
@@ -4970,11 +4968,7 @@ t("%s resists the dispelling of %s!", "%s resists the dispelling of %s!", "logSe
 
 ------------------------------------------------
 section "game/modules/tome/class/EscortRewards.lua"
--- 9 entries
-t("improved %s by +%d", "improved %s by +%d", "tformat")
-t("improved %s save by +%d", "improved %s save by +%d", "tformat")
-t("[Improve %s save by +%d]", "[Improve %s save by +%d]", "tformat")
-t("%s talent %s (+%d level(s))", "%s talent %s (+%d level(s))", "tformat")
+-- 5 entries
 t("improved", "improved", "_t")
 t("learnt", "learnt", "_t")
 t([[#GOLD#%s#LAST#

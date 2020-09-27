@@ -2050,7 +2050,7 @@ t("Your friendly horror is dead.", "당신의 걸어다니는 벌레떼가 죽�
 t("%s's teleport fizzles!", "%s의 순간이동이 실패했다!", "logSeen")
 t([[You and your Worm that Walks both teleport to an enemy in range %d and make a melee attack for %d%% damage.
 			Your Worm that Walks' Blindside talent cooldown is reduced by %d.]], [[시전자와 걸아다니는 벌레떼가 반경 %d 칸 내의 적의 옆으로 순간이동 하고 근접 공격을 가해 %d%% 피해를 줍니다.
-			걸어다니는 벌레떼의 '기습' 기술의 재사용 대기시간이 %d 턴 감소합니다.]], "tformat")
+			걸어다니는 벌레떼의 '그림자 기습' 기술의 재사용 대기시간이 %d 턴 감소합니다.]], "tformat")
 t("Shared Insanity", "광기 공유", "talent name")
 t([[You establish a powerful mental link with your Worm that Walks.
 		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
@@ -2857,7 +2857,7 @@ t("The target has %d active void rift(s).", "현재 %d 개의 공허의 틈 활�
 t("%d Void Rifts", "공허의 틈 %d 개", "tformat")
 t("Accelerate", "가속", "_t")
 t("Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "이동속도 +%d%% / 이동 이외의 행동 시 효과가 즉시 중단됨.", "tformat")
-t("#Target# is moving at extreme speed!", "#Target2# 엄청난 속도로 이동한다!", "_t")
+t("#Target# is moving at extreme speed!", "#Target2# 엄청난 속도로 이동했다!", "_t")
 t("+Accelerate", "+가속", "_t")
 t("#Target# slows down.", "#Target#의 발이 느려졌다.", "_t")
 t("-Accelerate", "-가속", "_t")

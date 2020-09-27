@@ -907,7 +907,7 @@ t([[Swing your weapon with incredible force, striking all enemies in a radius %d
 		이 공격은 반드시 명중합니다.]], "tformat")
 t("Detonating Charge", "격발의 돌진", "talent name")
 t("You require a two handed weapon and being able to move to use this talent.", "이 기술을 사용하기 위해서는, 양손 무기를 장착하고, 이동이 가능하여야 한다.", "logPlayer")
-t("You can not do that currently.", "현재 그것을 할 수 없다.", "logPlayer")
+t("You can not do that currently.", "지금은 할 수 없다.", "logPlayer")
 t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
 t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
 		If the attack hits you release a massive burst of fire in radius %d, knocking away all enemies except your target and dealing %d damage.
@@ -1230,6 +1230,8 @@ section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/zone.lua"
 section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
 
 t("rocks", "바위", "entity subtype")
+t("portal to the next level", "다음 구역으로 향하는 포탈", "entity name")
+t("portal to the previous level", "이전 구역으로 향하는 포탈", "entity name")
 t("floor", "바닥", "entity subtype")
 
 
