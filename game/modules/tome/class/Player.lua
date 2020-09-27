@@ -1482,7 +1482,7 @@ function _M:playerUseItem(object, item, inven)
 		if not o then return end
 		local co = coroutine.create(function()
 			self.changed = true
-			return self:playerUseObject(object, item, inven)
+			return self:playerUseObject(o, item, inven)
 		end)
 		local ok, ret = coroutine.resume(co)
 		if not ok and ret then print(debug.traceback(co)) error(ret) end
