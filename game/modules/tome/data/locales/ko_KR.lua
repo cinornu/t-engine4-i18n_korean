@@ -278,7 +278,7 @@ t("Usage Speed: ", "사용 속도: ", "_t")
 t("Won't Break Stealth:  ", "은신을 해제하지 않음:  ", "_t")
 t("%sCooldown: ", "%s재사용 대기시간: ", "tformat")
 t("Fixed ", "고정된 ", "_t")
-t(" and ", "와 ", "_t")
+t(" and ", ", ", "_t")
 t("Is: ", "종류: ", "_t")
 t("Will Deactivate: ", "비활성화 됨: ", "_t")
 t("Description: ", "설명: ", "_t")
@@ -485,7 +485,7 @@ t("Ambush!", "복병이다!", "_t")
 t("Exterminator", "절멸자", "_t")
 t("but nobody knew why #sex# suddenly became evil", "하지만 왜 그 #sex#이 타락했는지는 아무도 모릅니다.", "_t")
 t("Accept", "수락", "_t")
-t(" and ", "와 ", "_t")
+t(" and ", ", ", "_t")
 
 
 ------------------------------------------------
@@ -1021,6 +1021,8 @@ section "game/modules/tome/class/interface/Combat.lua"
 
 t("#Source# misses #Target#.", "#Source1# #Target3# 빗맞혔다.", "logCombat")
 t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약한 적을 희롱하는 것은 큰 기쁨이지! (+%d 증오)", "logPlayer")
+t("#{bold}#%s's spell attains critical power!#{normal}#", "#{bold}#%s의 주문이 치명적인 위력을 발휘했다!#{normal}#", "logSeen")
+t("#{bold}#%s's mind surges with critical power!#{normal}#", "#{bold}#%s의 정신력이 치명적인 위력을 발휘했다!#{normal}#", "logSeen")
 
 
 ------------------------------------------------
@@ -8421,8 +8423,8 @@ t("steel", "강철", "entity short_name")
 t("steel battleaxe", "강철 대형 도끼", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel battleaxe", "드워프 강철 대형 도끼", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite battleaxe", "스트라라이트 대형 도끼", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite battleaxe", "스트랄라이트 대형 도끼", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun battleaxe", "보라툰 대형 도끼", "entity name")
 
@@ -8440,8 +8442,8 @@ t("steel", "강철", "entity short_name")
 t("steel greatmaul", "강철 대형 망치", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel greatmaul", "드워프 강철 대형 망치", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite greatmaul", "스트라라이트 대형 망치", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite greatmaul", "스트랄라이트 대형 망치", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun greatmaul", "보라툰 대형 망치", "entity name")
 
@@ -8459,8 +8461,8 @@ t("steel", "강철", "entity short_name")
 t("steel greatsword", "강철 대검", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel greatsword", "드워프 강철 대검", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite greatsword", "스트라라이트 대검", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite greatsword", "스트랄라이트 대검", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun greatsword", "보라툰 대검", "entity name")
 
@@ -8498,8 +8500,8 @@ t("steel", "강철", "entity short_name")
 t("steel waraxe", "강철 전투 도끼", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel waraxe", "드워프 강철 전투 도끼", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite waraxe", "스트라라이트 전투 도끼", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite waraxe", "스트랄라이트 전투 도끼", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun waraxe", "보라툰 전투 도끼", "entity name")
 
@@ -8677,7 +8679,7 @@ t("Crystalline %s", "수정의 %s", "tformat")
 t(" Transformed with the power of the Spellblaze.", " 마법폭발의 힘으로 변화됨.", "_t")
 t("recover the Crystal Heart (destroys this armour)", "수정 심장 제거 (이 갑옷은 파괴됩니다)", "_t")
 t("You created: %s", "당신은 %s 만들었다", "logPlayer", nil, {"을"})
-t("You fix the crystal on the %s and create the %s.", "당신은 수정을 %s에 결합해, %s 만들었다.", "logPlayer", {[2]="를"}, {[2]="를"})
+t("You fix the crystal on the %s and create the %s.", "당신은 수정을 %s에 결합해, %s 만들었다.", "logPlayer", nil, {[2]="를"})
 t("dark rod", "검은 장대", "_t")
 t("Rod of Annulment", "소멸의 장대", "entity name")
 t("You can feel magic draining out around this rod. Even nature itself seems affected.", "이 장대에서 마법이 빠저나가는 것을 느낄 수 있습니다. 자연 그 자체도 영향을 받는 것 같습니다.", "_t")
@@ -9227,7 +9229,7 @@ t("restorative ", "복원의 ", "entity name")
 t("restorative", "복원", "entity keyword")
 t("invigorating ", "원기 주입 ", "entity name")
 t("invigor.", "원기.", "entity keyword")
-t("blightbringer's ", "황폐를 몰고오는 자의", "entity name")
+t("blightbringer's ", "황폐를 몰고오는 자의 ", "entity name")
 t("blight", "황폐", "entity keyword")
 t("wanderer's ", "방랑자의 ", "entity name")
 t("wanderer", "방랑자", "entity keyword")
@@ -9330,7 +9332,7 @@ t(" of Eldoral", " 엘도랄 ", "entity name")
 t("eldoral", "엘도랄", "entity keyword")
 t(" of the Shaloren", " 샬로레 ", "entity name")
 t("shaloren", "샬로레", "entity keyword")
-t(" of Iron Throne", " 철의 왕좌", "entity name")
+t(" of Iron Throne", " 철의 왕좌 ", "entity name")
 t("iron.throne", "철왕좌", "entity keyword")
 t(" of fog", " 안개 ", "entity name")
 t("fog", "안개", "entity keyword")
@@ -10611,8 +10613,8 @@ t("steel", "강철", "entity short_name")
 t("steel mail armour", "강철 사슬 갑옷", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel mail armour", "드워프 강철 사슬 갑옷", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite mail armour", "스트라라이트 사슬 갑옷", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite mail armour", "스트랄라이트 사슬 갑옷", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun mail armour", "보라툰 사슬 갑옷", "entity name")
 
@@ -10656,7 +10658,7 @@ t("Amulets make your neck look great!", "목걸이는 목을 멋지게 만들어
 t("copper ring", "구리 반지", "_t")
 t("steel ring", "강철 반지", "_t")
 t("gold ring", "황금 반지", "_t")
-t("stralite ring", "스트라라이트 반지", "_t")
+t("stralite ring", "스트랄라이트 반지", "_t")
 t("voratun ring", "보라툰 반지", "_t")
 t("copper", "구리", "entity short_name")
 t("copper amulet", "구리 목걸이", "_t")
@@ -10664,8 +10666,8 @@ t("steel", "강철", "entity short_name")
 t("steel amulet", "강철 목걸이", "_t")
 t("gold", "황금", "entity short_name")
 t("gold amulet", "황금 목걸이", "_t")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite amulet", "스트라라이트 목걸이", "_t")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite amulet", "스트랄라이트 목걸이", "_t")
 t("voratun", "보라툰", "entity short_name")
 t("voratun amulet", "보라툰 목걸이", "_t")
 
@@ -10683,8 +10685,8 @@ t("steel", "강철", "entity short_name")
 t("steel dagger", "강철 단검", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel dagger", "드워프 강철 단검", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite dagger", "스트라라이트 단검", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite dagger", "스트랄라이트 단검", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun dagger", "보라툰 단검", "entity name")
 
@@ -10839,8 +10841,8 @@ t("steel", "강철", "entity short_name")
 t("steel mace", "강철 철퇴", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel mace", "드워프 강철 철퇴", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite mace", "스트라라이트 철퇴", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite mace", "스트랄라이트 철퇴", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun mace", "보라툰 철퇴", "entity name")
 
@@ -10857,8 +10859,8 @@ t("steel", "강철", "entity short_name")
 t("steel plate armour", "강철 판금 갑옷", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel plate armour", "드워프 판금 갑옷", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite plate armour", "스트라라이트 판금 갑옷", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite plate armour", "스트랄라이트 판금 갑옷", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun plate armour", "보라툰 판금 갑옷", "entity name")
 
@@ -11197,8 +11199,8 @@ t("steel", "강철", "entity short_name")
 t("steel shield", "강철 방패", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel shield", "드워프 강철 방패", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite shield", "스트라라이트 방패", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite shield", "스트랄라이트 방패", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun shield", "보라툰 방패", "entity name")
 
@@ -11228,8 +11230,8 @@ t("pouch of steel shots", "강철 투석 주머니", "entity name")
 t("steel", "강철", "entity short_name")
 t("d.steel", "드워프", "entity short_name")
 t("pouch of dwarven-steel shots", "드워프 강철 투석 주머니", "entity name")
-t("pouch of stralite shots", "스트라라이트 투석 주머니", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
+t("pouch of stralite shots", "스트랄라이트 투석 주머니", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
 t("pouch of voratun shots", "보라툰 투석 주머니", "entity name")
 t("voratun", "보라툰", "entity short_name")
 
@@ -11275,8 +11277,8 @@ t("steel", "강철", "entity short_name")
 t("steel longsword", "강철 장검", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel longsword", "드워프 강철 장검", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite longsword", "스트라라이트 장검", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite longsword", "스트랄라이트 장검", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun longsword", "보라툰 장검", "entity name")
 
@@ -11293,8 +11295,8 @@ t("steel", "강철", "entity short_name")
 t("steel torque", "강철 주술 고리", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel torque", "드워프 강철 주술 고리", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite torque", "스트라라이트 주술 고리", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite torque", "스트랄라이트 주술 고리", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun torque", "보라툰 주술 고리", "entity name")
 
@@ -11502,7 +11504,7 @@ t("multi-hued", "다색", "entity subtype")
 t("A closer look at this pure white crystal reveals that it is really a plethora of colors swirling and scintillating.", "언뜻 보기엔 순수한 하얀 빛이 수정에서 발산되는 것 같지만, 실제로는 무수한 색의 빛이 소용돌이 치며 빛납니다.", "_t")
 t("combine with a staff", "지팡이와 결합", "_t")
 t("Fuse with which staff?", "어떤 지팡이에 결합할까요?", "_t")
-t("You fix the crystal on the %s and create the %s.", "당신은 수정을 %s에 결합해, %s 만들었다.", "logPlayer", {[2]="를"}, {[2]="를"})
+t("You fix the crystal on the %s and create the %s.", "당신은 수정을 %s에 결합해, %s 만들었다.", "logPlayer", nil, {[2]="를"})
 t("The fusing fails!", "결합이 실패했다!", "logPlayer")
 t("#CRIMSON#Telos's gem seems to flare and glows an unearthly colour.", "#CRIMSON#텔로스의 보석이 이 세상의 것이 아닌 빛을 냅니다.", "logSeen")
 t("#CRIMSON#The unearthly glow fades away.", "#CRIMSON#이 세상의 것이 아닌 빛이 흩어집니다.", "logPlayer")
@@ -11514,7 +11516,7 @@ t("scintillating white staff", "반짝이는 흰색 지팡이", "_t")
 t("A closer look at this pure white staff reveals that it is really a plethora of colors swirling and scintillating.", "언뜻 보기엔 순수한 하얀 빛이 지팡이에서 발산되는 것 같지만, 실제로는 무수한 색의 빛이 소용돌이 치며 빛납니다.", "_t")
 t("Rope Belt of the Thaloren", "탈로레의 밧줄 허리띠", "entity name")
 t("short length of rope", "짧은 밧줄", "_t")
-t("The simplest of belts, worn for centuries by Nessilla Tantaelen as she tended to her people and forests. Some of her wisdom and power have settled permanently into its fibers.", "가장 단순한 허리띠로, 수세기동안 숲과 그녀의 동족, 탈로레를 돌보았던 네실라 탄테렌이 착용했습니다. 그녀의 지혜와 힘이 밧줄의 섬유 하나 하나에 깃들어 있습니다.", "_t")
+t("The simplest of belts, worn for centuries by Nessilla Tantaelen as she tended to her people and forests. Some of her wisdom and power have settled permanently into its fibers.", "가장 단순한 허리띠로, 수세기동안 숲과 그녀의 동족, 탈로레를 돌보았던 네실라 탄탤렌이 착용했습니다. 그녀의 지혜와 힘이 밧줄의 섬유 하나 하나에 깃들어 있습니다.", "_t")
 t("#DARK_GREEN#Nessilla's belt seems to come alive as you put it on.", "#DARK_GREEN#당신이 허리띠를 매자, 네실라의 허리띠가 살아나는 것 같다.", "logPlayer")
 t("Neira's Memory", "네이라의 기억", "entity name")
 t("crackling belt", "스파크튀는 허리띠", "_t")
@@ -11645,7 +11647,7 @@ t("This large shield was made using scales of many fire drakes from the lost lan
 t("30% chance that you'll breathe fire in a cone at the attacker (if within range 6).  This can only occur up to 4 times per turn.", "공격자가 6 칸 내에 있을 경우, 30% 확률로 착용자는 공격자에게 화염 숨결을 내뱉습니다.  이 효과는 한 턴에 4 번만 발생합니다.", "_t")
 t("Titanic", "거대", "entity name")
 t("huge shield", "거대한 방패", "_t")
-t("This shield made of the darkest stralite is huge, heavy and very solid.", "이 방패는 가장 어두운 스트라라이트로 만들어졌고, 아주 무겁고 아주 견고합니다.", "_t")
+t("This shield made of the darkest stralite is huge, heavy and very solid.", "이 방패는 가장 어두운 스트랄라이트로 만들어졌고, 아주 무겁고 아주 견고합니다.", "_t")
 t("Black Mesh", "검은 그물", "entity name")
 t("pile of tendrils", "덩굴 더미", "_t")
 t("Black, interwoven tendrils form this mesh that can be used as a shield. It reacts visibly to your touch, clinging to your arm and engulfing it in a warm, black mass.", "검은, 덩쿨들이 얽히고 설켜 형성된 이 그물은 방패로도 사용할 수 있습니다. 만지면 눈에 띄게 반응하고, 팔에 달라붙어 온기를 전해줍니다.", "_t")
@@ -11725,9 +11727,9 @@ t("Snow Giant Wraps", "눈 거인의 손싸개", "entity name")
 t("fur-lined leather wraps", "모피를 댄 가죽 손싸개", "_t")
 t("Two large pieces of leather designed to be wrapped about the hands and the forearms.  This particular pair of wraps has been enchanted, imparting the wearer with great strength.", "커다란 가죽 두 조각이 손과 팔뚝을 보호할 수 있을만한 형태를 갖고 있습니다.  이 특별한 손싸개는 마법이 부여되여, 착용자에게 강한 힘을 줍니다.", "_t")
 t("This would be great with a mighty matching belt.", "이 장갑과 맞는 강력한 허리띠와 함께라면, 더욱 강력해질 것입니다.", "_t")
-t("Mighty Girdle", "힘의 허리죔틀", "entity name")
-t("massive, stained girdle", "거대하고, 얼룩투성이인 죔틀", "_t")
-t("This girdle is enchanted with mighty wards against expanding girth. Whatever the source of its wondrous strength, it will prove of great aid in the transport of awkward burdens.", "이 죔틀은 강력한 보호 마법으로 인해, 아무리 뚱뚱한 사람이 착용해도 끊어지지 않습니다. 이 허리 죔틀의 강력한 힘이 어디서 왔던간에, 무거운 짐을 운반할 때 큰 도움이됩니다.", "_t")
+t("Mighty Girdle", "힘의 거들", "entity name")
+t("massive, stained girdle", "거대하고, 얼룩투성이인 거들", "_t")
+t("This girdle is enchanted with mighty wards against expanding girth. Whatever the source of its wondrous strength, it will prove of great aid in the transport of awkward burdens.", "이 거들은 강력한 보호 마법으로 인해, 아무리 뚱뚱한 사람이 착용해도 끊어지지 않습니다. 이 거들의 강력한 힘이 어디서 왔던간에, 무거운 짐을 운반할 때 큰 도움이 됩니다.", "_t")
 t("Some giant wraps would make you feel great.", "거인의 손싸개와 함께라면 더욱 강력해질 것입니다.", "_t")
 t("#GOLD#You grow to immense size!", "#GOLD#당신은 거대해졌다!", "logPlayer")
 t("#LIGHT_BLUE#You feel a lot smaller...", "#LIGHT_BLUE#작아진 것 같은 기분이 든다...", "logPlayer")
@@ -11765,9 +11767,9 @@ t("#LIGHT_BLUE#You feel as surge of power as you wield the axe of your ancestors
 t("metal whip", "강철 채찍", "_t")
 t("Scorpion's Tail", "전갈 꼬리", "entity name")
 t("A long whip of linked metal joints finished with a viciously sharp barb leaking terrible venom.", "철편을 이어붙인 이 채찍은 끔찍한 독을 뿜어내는 아주 날카로운 가시 분비샘으로 마무리되어있다.", "_t")
-t("Girdle of Preservation", "보존의 죔틀", "entity name")
+t("Girdle of Preservation", "보존의 거들", "entity name")
 t("shimmering, flawless belt", "빛나는, 흠집없는 허리띠", "_t")
-t("A pristine belt of purest white leather with a runed voratun buckle. The ravages of neither time nor the elements have touched it.", "자연 그대로의 순수한 하얀 가죽과 룬이 세겨진 보라툰 버클로 이루어져있습니다. 시간이나 기타 다른 원소들의 파괴적인 힘이 미치지 않은 것 같습니다.", "_t")
+t("A pristine belt of purest white leather with a runed voratun buckle. The ravages of neither time nor the elements have touched it.", "자연 그대로의 순수한 하얀 가죽과 룬이 세겨진 보라툰 버클로 이루어져 있습니다. 시간이나 기타 다른 원소들의 파괴적인 힘이 미치지 않은 것 같습니다.", "_t")
 t("Girdle of the Calm Waters", "잔잔한 물의 허리띠", "entity name")
 t("golden belt", "금색 허리띠", "_t")
 t("A belt rumoured to have been worn by the Conclave healers.", "최고 의회의 치유사가 썼다는 소문이 도는 허리띠입니다.", "_t")
@@ -11962,7 +11964,7 @@ t("@Source@ taps the #SALMON#trapped soul#LAST# of %s, xmanifesting %s!", "@Sour
 t("%s's %s #SALMON#CONSUMES THE SOUL#LAST# of %s, gaining the power of %s!", "%s의 %s, %s의 #SALMON#영혼을 삼켜#LAST#, %s의 힘을 주었다!", "logSeen", nil, {[2]="가"})
 t("Hydra's Bite", "히드라의 아가리", "entity name")
 t("triple headed flail", "머리 셋 달린 도리꺠", "_t")
-t("This three-headed stralite flail strikes with the power of a hydra. With each attack it lashes out, hitting everyone around you.", "이 머리 셋 달린 스트라라이트 도리꺠는 히드라의 힘으로 적을 공격합니다. 공격을 이어나갈 때 마다, 주변에 있는 적도 공격을 받습니다.", "_t")
+t("This three-headed stralite flail strikes with the power of a hydra. With each attack it lashes out, hitting everyone around you.", "이 머리 셋 달린 스트랄라이트 도리꺠는 히드라의 힘으로 적을 공격합니다. 공격을 이어나갈 때 마다, 주변에 있는 적도 공격을 받습니다.", "_t")
 t("hit up to two adjacent enemies", "인접한 최대 2 체의 적을 공격합니다", "_t")
 t(" and %s", " 그리고 %s", "tformat")
 t("#Source#'s three headed flail lashes at #Target#%s!", "#Source#의 세머리 도리깨가 #Target#%s 공격했다!", "logCombat", nil, {"를"})
@@ -12225,7 +12227,7 @@ t("This impossibly cold chain of frost-coated metal radiates a strange and impos
 t("Gives all your cold damage a 20% chance to freeze the target.", "착용자가 가하는 모든 냉기 속성 공격은 20% 확률로 대상을 얼려버립니다.", "_t")
 t("Twilight's Edge", "황혼의 칼날", "entity name")
 t("shining long sword", "빛나는 장검", "_t")
-t("The blade of this sword seems to have been forged of a mixture of voratun and stralite, resulting in a blend of swirling light and darkness.", "이 장검의 칼날은 보라툰과 스트라라이트 합금으로 만든 것 같습니다. 그 결과, 빛과 어둠의 소용돌이가 이 칼날 위에서 춤춥니다.", "_t")
+t("The blade of this sword seems to have been forged of a mixture of voratun and stralite, resulting in a blend of swirling light and darkness.", "이 장검의 칼날은 보라툰과 스트랄라이트 합금으로 만든 것 같습니다. 그 결과, 빛과 어둠의 소용돌이가 이 칼날 위에서 춤춥니다.", "_t")
 t("release a burst of light and dark damage (scales with Magic)", "빛과 어둠의 폭발을 해방합니다 (마법에 비례)", "_t")
 t("Mnemonic", "기억", "entity name")
 t("As long as you wear this ring, you will never forget who you are.", "이 반지를 낀 동안, 당신은 절대 당신이 누구였는지를 잊어버리지 않습니다.", "_t")
@@ -12430,7 +12432,7 @@ t("This mindstar glows with a dim cool light, but seems somehow incomplete.", "�
 t("Nature requires balance in these matters.", "자연에는 균형이 필요합니다.", "_t")
 t("Ruthless Grip", "무자비한 손아귀", "entity name")
 t("sinister gauntlets", "사악한 전투장갑", "_t")
-t("Crafted for a warlord who wanted to keep his subjects under a stralite grip. Dark thoughts went into the making of these gauntlets, literally.", "스트라라이트 손아귀 아래 백성들을 붙잡아 놓고 싶어했던 전쟁 군주를 위해 제작되었습니다. 문자 그대로, 이 전투장갑을 만드는 데, 어두운 생각들이 흘러 들어갔습니다.", "_t")
+t("Crafted for a warlord who wanted to keep his subjects under a stralite grip. Dark thoughts went into the making of these gauntlets, literally.", "스트랄라이트 손아귀 아래 백성들을 붙잡아 놓고 싶어했던 전쟁 군주를 위해 제작되었습니다. 문자 그대로, 이 전투장갑을 만드는 데, 어두운 생각들이 흘러 들어갔습니다.", "_t")
 t("Icy Kill", "얼어붙은 살해", "entity name")
 t("sharpened icicle", "깨진 고드름", "_t")
 t([[As any scryer knows, the link between the murderer and the murdered is the murder weapon, and a scryer can follow that link from the murdered to the weapon to the murderer.
@@ -13537,6 +13539,79 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
  
 하지만 나는 나도 모르게 달을 베는 자의 손잡이로 손을 가저다댔고, 내 심장은 불안감의 중얼거림을 내뱉었다.]], "_t")
 t("The Spellblaze Chronicles(4): Before the Dawn", "마법 폭발 연대기 (4): 새벽 전에", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Five: The Day of the Spellblaze#{normal}#
+
+I loosened Mooncutter in its sheath as the troops marched forwards.  My grip tightened on the reins, holding my horse in check lest it gallop ahead in the excitement, and I could see my squire to my left doing the same.  The tension in the air was palpable.  Before us, less than a mile away, the vanguard of the orcish armies was now visible.  We had stirred up their nest and they had responded in full force.  They were like a shadowy blight that swallowed up the horizon, a great pestilence that threatened to consume the world.  Before me the armies of the Shaloren seemed small in comparison, but I knew our strength was not told by mere numbers.
+
+Trumpets blared from the bulwarks at the front, as they readied to engage with the first wave when needed.  To the north were archers to crumble the initial resistance, and at their flank a legion of spellriders, their hands glowing with arcane energies as they sat atop their fearsome steeds.  On the south was the regular cavalry, the greatswords, the armoured knights and the main bulk of our mages, readying support spells.  Here and there senior battlemages were dotted about, ready to move swiftly to points of intense activity and blast it away.  There was no need to have more than one of them in any place - alone they could decimate a score of orcs with ease.
+
+Drums beat loudly in the distance, and a clamour arose from the enemy.  They had with them trained beasts and trolls, and were arrayed in swords and maces and crude armours.  One took up a loud howl and others joined in, and the air seemed to reverberate with their ugly voices.
+
+The cacophony was unsettling, but my army responded with a display of power.  Swords and speartips rose into the air, and crackles of lightning shot up to the heavens, the sparks shining off the gleaming blades and armour.  The orcish army gasped in dismay.  The eastern skyline was beginning to glow red, and we knew the dawn would break any moment now, the signal for the start of the Great Spellblaze.
+
+“The day is here!” one of our warriors shouted out, and it was taken up elsewhere by the marching troops.  “The day is here!” they began to chant, anticipating the glory to come.  “The day is here!” my squire sang, his voice full of youthful joy and hope.  “The day is here!” we all shouted in unison, the pride of the Shaloren kingdom in our hearts as we watched the first rays of sunlight shine out from the horizon.  “The day is here!  The day is here!  The day is-”
+
+Silence.  All at once our voices dropped, and a terrible brooding silence swept over the battlefield.  We could feel it, every one of us, so attuned are our race to the flows of magic.  It was like having the breath sucked from one’s lungs, or the earth disappear from beneath one’s feet.  All our mana channels were gone, changed suddenly, arcane energies beyond all reach.  Groans and murmurs began to arise, as mages clutched at their heads in sudden despair.  I saw my squire lurch forwards in his saddle and begin to vomit uncontrollably, my standard slipping from his hand, whilst others fell to the ground in pain.  I struggled to battle an overwhelming migraine, blotches appearing in front of my eyes, and with great effort of will I managed to keep control of myself and began to seek out new paths of mana.
+
+But there was something wrong, terribly wrong.  Like a river run off its course the flow of magic across the whole of Eyal had changed.  What could have caused this?  And now I had to fight years of attunement and training that had taught me to naturally rely on the known flows and courses so that I might find new paths, new sources.  And as I did so I put my powers into divination, and what I discovered shocked me to my core.
+
+The orcs saw us in disarray and began to charge.  But my attention was turned west, not east, towards Elvala and the Crystal Tower where our leaders had been manipulating the Sher’Tul farportal.  But the tower, I felt, was gone - crumpled into the earth, and from there now emanated a wave of white-hot flame.  The orcs tore into our army with little resistance, their weapons tearing through the elven troops, but they were soon met by a wave of destructive energy far greater.
+
+“Shields!” I shouted out as the whole sky turned redder than blood, but above the sudden deafening roar of roasting air I was not heard.  It would have helped little anyway, defenceless as my army was without their usual sources of mana.  Spears of flame streaked down on our heads, shearing through flesh and steel in an instant and sinking into the earth.  The ground shook, and lava blasted up from the deep holes torn into the rock.
+
+I put an arcane shield about myself with a great effort of will.  I saw my squire raise a hand to do the same, but a blaze tore off his arm.  He didn’t even get to scream before another wave burned through the top half of his torso.  Spurting blood evaporated instantly, and the air became full of red mist and fire.  I leapt from my horse as it neighed and stumbled and fell burning into ash.
+
+Another wave came, and I tried to strengthen my shield, but the force of it took me off my feet and sent me flying.  I was thrashed through the air like a swirling leaf, unable to do anything more than struggle to maintain my protection.  All about my army was being utterly decimated, ranks and ranks of soldiers and mages burnt to a crisp or torn apart by the raw energies.  The orcs were the same, and a huge rent in the ground swallowed great numbers of their troops.  Blasts of lava soon thundered upward and rained down for miles around, turning into glowing rivers of death that swept across the consumed landscape.
+
+How I managed to stay alive I am still not sure.  I almost slipped from consciousness at several points, but by a mental tenacity I never knew I had I managed to stay focused and keep my protective shield active.  I became less aware of my surroundings, not knowing if the bubble of my ward was floating through air or fire or blood, or swallowed into the depths of Eyal into some hell never before witnessed.  At last, after what seemed like a tortuous age, the wave of energy passed, and I found myself lying alone on an outcrop of cracked and parched earth, the air a haze of heat about me.
+
+I struggled to my feet and looked around, seeing nothing but desolation in all directions.  Steam and smoke rose from rents in the ground, and blood, limbs and ashes were strewn about all over.  Nothing was alive.  In a daze I despaired that I was alone of the hundreds of thousands who had stood here but a short while before.  Friends and comrades, mentors and students, people I had never known and ones I was dearly close to - all gone.  A sudden pain lanced my heart as I thought of Linaniil.  She could not be dead, surely?
+
+I gritted my teeth and summoned the energy to levitate, and as I rose I began to get my bearings around the changed landscape.  Slowly I pushed north-east, passing over devastation beyond belief.  I struggled to keep a grip on my sanity as the scent of burnt flesh and blood surrounded me, my vision filled with a horrored landscape beyond imagination, the utter silence more deafening than any sound I had ever heard.  Eventually I came near to where the Kar’Krul army had stood, and cast about the ruined land for some sign of life.  Then faintly I detected something, some small sliver of life, and searching it out I found her.
+
+Her clothes had been mostly burned off, her hair half turned to ash, and blood was seeping freely from burns all across her body.  A weak shield still hummed over her, but as I knelt down and laid a hand on her it vanished.  Quietly she gasped a breath before whispering, “Neira”, and sinking into unconsciousness.  She was still alive, but barely.  I looked about and saw no signs of her sister, or of any of the rest of her troops, other than the scorched flesh and blackened bones that marked the scourging path swept by the blaze.
+
+I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
+
+But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], [[#{italic}#엘발라 대의회장, 아라니온 가웨일의 회고록에서 발췌#{normal}#
+
+#{bold}#제 5 장 : 마법폭발의 날#{normal}#
+
+군대가 앞으로 전진할 때, 나는 달을 베는 자를 칼집에서 꺼냈다.  나는 고삐를 꽉 잡고, 내 말이 흥분으로 달려나가지 않도록 했다. 그리고 내 옆의 종자 역시 고삐를 꽉 쥐고있었다.  긴장감이 허공에서도 뚜렸하게 느껴졌다.  우리들 앞, 2 킬로미터도 되지 않은 거리에서, 오크 선봉대가 모습을 드러냈다.  우리는 그들의 진지를 휘젔고 다녔고, 그들은 전력으로 대응했다.  그들은 마치 지평선을 집어삼킨 어두운 질병과도 같았다. 마치 세계를 위협하며 집어삼키려는 거대한 역병.  내 앞의 살로레 군대는 비록 수는 적었지만, 나는 머릿수가 곧 힘이 아님을 알고있었다.
+
+전투 나팔은 적의 제 1 파와 교전할 준비가 될 때, 필요에 따라 최전방의 기사들이 웅장한 소리로 불 수 있게 되었다.  북쪽에는 적들의 초기 저항을 부수기 위한 궁수들이 배치되어 있었고, 그 측면에는 주문 기수 군단이 배치되어 있었다. 그들은 공포스러운 군마 위에서 마법 에너지로 빛나는 손으로 고삐를 쥐고 있었다.  남쪽에는 일반적인 기수들과 대검수, 중무장 기사들과 우리 전력 대부분인, 마법사들이 주문으로 보조할 준비가 되어 있었다.  선임 전투 마법사들은 이곳 저곳에 흩어저있어, 격렬한 전장으로 빠르게 이동하여, 적들을 격파할 준비를 하고있다.  그들을 같은 장소에 한 명 이상 배치할 필요는 없었다 - 그들은 혼자서도 수많은 오크들을 손쉽게 처리할 수 있었다.
+
+멀리서 북소리가 시끄럽게 울리고, 적들의 함성이 점점 커저갔다.  그들은 훈련된 짐승들과 트롤을 데리고 있었고, 검과 둔기, 그리고 조잡한 갑옷을 입고있었다.  하나가 울부짖으면 다른 이가 합세했다. 공기는 그들의 추악한 목소리와 함께 울리는 듯 했다.
+
+그 불협화음은 우리를 불안하게 했지만, 우리 군대는 강력함을 과시하며 그에 대응했다.  검과 창 끝이 하늘을 향해 치켜올려지고, 하늘 위에서 전기가 타탁이는 소리를 냈다. 스파크가 우리 빛나는 칼날과 갑옷에 반사되어 빛나고있었다.  오크 군대는 경악하며 숨을 몰아쉬었다.  동쪾 하늘이 붉은 색으로 빛나기 시작했다. 우리는 어느 수간이라도 새벽이 밝아올 것을 알았다. 대 마법폭발의 시작을 알리는 신호였다.
+
+“그 날이 왔다!” 우리 전사들 중 하나가 부르짖었다. 그러자 그 울부짖음이 진군하는 병사들에게로 퍼저나갔다.  “그 날이 왔다!” 그들은 장차 다가올 영광을 기다리며 찬가를 부르기 시작했다.  “그날이 왔다!” 내 종자도 찬가를 불렀다. 그 목소리에는 젊은이의 기쁨과 희망이 가득 담겨져있었다.  “그날이 왔다!” 우리는 모두 함께, 일시에 외쳤다. 첫번째 빛줄기가 지평선을 밝히는 것을 지켜보며, 우리 가슴 속의 샬로레 왕국의 긍지를 느꼈다.  “그날이 왔다!  그 날이 왔다!  그 날이-”
+
+침묵.  한 순간에 모든 이의 목소리가 사라졌다, 끔찍하고  음울한 침묵이 전장을 휩쓸었다.  우리는 느낄 수 있었다, 우리 모두, 마법의 흐름에 동화되어 있으니.  그건 마치 폐에서 공기를 빨아드리는 것 같았다, 또는 발 밑의 땅이 갑작스럽게 사라지는 것 같았다.   우리의 모든 마나 집중은 사라지고, 한순간에 격변했다, 우리가 전혀 보지 못했던 마법 에너지.  마법사들이 갑작스러운 절망에 그들의 머리를 움켜쥐고 있을 때, 신음과 중얼거림이 들리기 시작했다.  나는 내 종자가 안장 앞으로 비틀거리며 넘어저, 억제할 수 없이 구토를 하는 것을 보았다. 나의 군기가 종자의 손에서 미끄러졌고, 다른 이들은 고통으로 인해 땅 위로 쓰러졌다.  I 압도적인 편두통과 싸우기 위해 몸부림쳤고, 눈 앞에는 반점들이 나타나기 시작했다. 나는 내 의지로 겨우 나 자신을 추스르고, 새로운 마법 흐름을 찾기 시작했다.
+
+하지만 뭔가 잘못됐다. 끔찍히도 잘못됐다.  마치 강이 흐르는 것 처럼, 에이알을 가로지르는 모든 마법의 흐름이 변해 있었다.  어떻게 이런일이 벌어질 수 있었을까?  이제 나는 이전의 마나 흐름에 자연스럽게 연결될 수 있게끔 도와줬던 적응과 훈련에 맞서 싸워야했다. 그리 해야만 새로운 마나의 흐름, 새로운 길을 찾을 수 있을 테니.  그리하여, 나는 나의 힘으로 예지를 했고, 내가 발견한 것은 나를 충격에 빠뜨렸다.
+
+오크들은 혼란에 빠진 우리들을 보고 돌격을 감행하기 시작했다.  하지만 나의 주의를 사로잡은 것은 동쪽이 아닌, 엘발라와 우리 왕이 쉐르'툴 장거리 차원문을 조작하고 있던 수정 탑이 있는 서쪽이였다.  하지만 그 탑은, 사라진 것, 같았다 - 탑은 땅 속으로 부서저 내렸으며, 이제는 그 곳에서 흰색의 뜨거운 화염 파동만이 뿜어져나왔다.  오크들은 혼란에 빠진 우리 군대를 찢어놓았고, 그들의 무기는 엘프 병사들을 도살했다, 하지만 그들은 곧 엄청난 파괴 에너지의 파동을 맞게 될 것이다.
+
+“방패!” 온 하늘이 피보다 붉게 물들어가고 있을 떄, 나는 소리쳤다. 하지만 갑자기 공기를 태워버리는 듯한 굉음 때문에, 내 외침은 들리지 않았다.  어찌됐든 그것은 별 도움이 되지 않았을 것이다. 마나에 연결되지 못하는 이상, 내 군대는 어짜피 무방비 상태였을 것이다.  화염의 창들이 연속으로 우리 머리 위에서 날아가며, 살과 강철을 가르며 땅 속으로 가라앉았다.  대지는 흔들렸고, 찢겨진 바위 사이의 깊은 구멍에서 용암이 터저 나왔다.
+
+나는 모든 정신력을 동원해 마법 보호막을 내 주위에 전개했다.  내 종자 역시, 내가 했던 것 처럼 손을 치켜 올렸지만, 불길이 그의 팔을 찢어버렸다.  또 다른 파장이 그의 상반신의 절반을 불태우기도 전까지는 비명조차 지르지 못했다.  뿜어저 나온 피는 즉시 증발해버렸고, 공기는 붉은 안개와 화염으로 가득찼다.  나는 말이 울고, 비틀거리다가 쓰러저 검은 재가 되어버리자 뛰어내렸다.
+
+또 다른 파동이 몰아닥쳤다. 나는 방패를 강화하려 했지만 엄청난 힘이 내 몸을 허공으로 날려버렸다.  나는 소용돌이 치는 나뭇잎처럼 허공에서 몸부림쳤다, 내가 할수 있는 것은, 그저 방어를 유지하기위해 안간 힘을 쏟는 것 뿐이였다.  내 군대의 모든 것은 완전히 파괴되고 있었다. 병사들과 병사들의 계급장, 그리고 마법사들은 불에 타, 바짝 구워지거나 순수한 에너지에 의해 갈기갈기 찢어지고있었다.  오크들의 상황도 별 다르지 않았다. 찢어진 대지가 오크 군대의 많은 병사들을 집어 삼켜버렸다.  용암은 천둥소리를 내며 뿜어저나와, 수 킬로미터에 걸쳐 빛나는 죽음의 강이 되어, 모든 것을 뒤덮었다.
+
+어떻게 내가 살아남았는지, 나는 아직도 모르겠다.  나는 몇번인가 의식을 잃을 뻔 헀으나, 어떻게 내가 집중을 유지한 채로, 보호막을 지속할 수 있었는지 난는 .  I became less aware of my surroundings, not knowing if the bubble of my ward was floating through air or fire or blood, or swallowed into the depths of Eyal into some hell never before witnessed.  At last, after what seemed like a tortuous age, the wave of energy passed, and I found myself lying alone on an outcrop of cracked and parched earth, the air a haze of heat about me.
+
+I struggled to my feet and looked around, seeing nothing but desolation in all directions.  Steam and smoke rose from rents in the ground, and blood, limbs and ashes were strewn about all over.  Nothing was alive.  In a daze I despaired that I was alone of the hundreds of thousands who had stood here but a short while before.  Friends and comrades, mentors and students, people I had never known and ones I was dearly close to - all gone.  A sudden pain lanced my heart as I thought of Linaniil.  She could not be dead, surely?
+
+I gritted my teeth and summoned the energy to levitate, and as I rose I began to get my bearings around the changed landscape.  Slowly I pushed north-east, passing over devastation beyond belief.  I struggled to keep a grip on my sanity as the scent of burnt flesh and blood surrounded me, my vision filled with a horrored landscape beyond imagination, the utter silence more deafening than any sound I had ever heard.  Eventually I came near to where the Kar’Krul army had stood, and cast about the ruined land for some sign of life.  Then faintly I detected something, some small sliver of life, and searching it out I found her.
+
+Her clothes had been mostly burned off, her hair half turned to ash, and blood was seeping freely from burns all across her body.  A weak shield still hummed over her, but as I knelt down and laid a hand on her it vanished.  Quietly she gasped a breath before whispering, “Neira”, and sinking into unconsciousness.  She was still alive, but barely.  I looked about and saw no signs of her sister, or of any of the rest of her troops, other than the scorched flesh and blackened bones that marked the scourging path swept by the blaze.
+
+I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
+
+But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], "_t")
 t("spellblaze", "마법폭발", "newLore category")
 
 
@@ -13867,6 +13942,40 @@ t("a logical analysis of creation, by philosopher Smythen", "철학자 스미슨
 t("eyal", "에이알", "newLore category")
 t("Tale of the Moonsisters", "달의 자매 이야기", "_t")
 t("ancient papyrus scroll", "고대의 파피루스 두루마리", "_t")
+t("Loremaster Greynot's Analysis of the Races - Introduction", "지식의 대가 그레이낫의 종족 분석 보고서 - 개요 ", "_t")
+t([[I set out here to give a full and complete analysis of all the intelligent races in Maj'Eyal. This is an ambitious project to say the least, but it is put together from a great many years labour, including travels across all the kingdoms and direct meetings with many of the highest rulers and most learned sages. I have drawn my findings from common knowledge, exclusive interviews, and studies of many thousands of pages of texts and histories, some going back dozens of centuries.
+
+I myself am a Higher human, in the employ of the court of King Tolak the Fair, but I have done my best to write all accounts from a purely neutral standpoint. I leave it to my peers to judge my success.
+
+Index:
+Chapter 1 - Humans
+Chapter 2 - Halflings
+Chapter 3 - Dwarves
+Chapter 4 - Shaloren
+Chapter 5 - Thaloren
+Chapter 6 - Naloren (extinct)
+Chapter 7 - Ogres
+Chapter 8 - Orcs (extinct)
+Chapter 9 - Sher'Tul (extinct)
+Chapter 10 - Monstrous Races
+Chapter 11 - Dragons
+]], [[나는 마즈'에이얄의 모든 지성 종족에 관한 완전하고도 빈틈없는 보고서를 작성하기 위해 착수했다. 이것은 조금도 과장하지 않고 가장 야심적인 프로젝트로, 모든 왕국들 사이를 여행하고 고위 지도자들과 가장 박식한 현자들을 만나기 위한 여행을 포함한 다년간의 노력과, 평범한 지식부터 독점 인터뷰 그리고 수천장의 문서와 수천년을 거슬러 오르는 역사서의 연구끝에 지필할 수 있었다.
+
+공평한자 톨락의 궁정의 고용인이자 나 스스로 하이어 인종이지만, 모든 내용은 최대한 중립적인 관점에서 서술할 수 있게 최고의 노력을 기울였다. 나의 독자들에게 내 저작물의 성공의 판단을 맡긴다.
+
+색인:
+챕터 1 - 인간
+챕터 2 - 하플링
+챕터 3 - 드워프
+챕터 4 - 샬로레
+챕터 5 - 탈로레
+챕터 6 - 날로레 (멸종)
+챕터 7 - 오우거
+챕터 8 - 오크 (멸종)
+챕터 9 - 쉐르'툴 (멸종)
+챕터 10 - 괴수 종족들 
+챕터 11 - 드래곤
+]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 1 - Humans", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 1 - 인간", "_t")
 t([[I begin my writings with a study of the humans, currently the most populous of the races in Maj'Eyal. The greatest kingdom in number are by far the Cornacs, but mention should also be made of the Sholtar and Mardrop kingdoms, and the Higher bloodline. The biggest human population centre is around the citadel of Last Hope, though many other settlements exist across all corners of Maj'Eyal.
 
@@ -13880,13 +13989,13 @@ Highers are on average 6'0", with fair hair and skin and blue or grey eyes. The 
 
 All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and remain under the rule of his son King Tolak the Fair. A full discussion of the long human history would require a far more detailed document.]], [[나는 인간에 관한 연구로 저작을 시작했다, 마즈'에이얄의 인구 대부분을 차지하는 인간에 관해서 말이다. 인간의 대다수는 코르낙이다, 하지만 숄타르와 마드로프에 관해서도 언급해야 할것이다, 그리고 하이어 혈통에 관해서도. 가장 큰 인구 집단은 마지막 희망의 성채 주변에 분포해있다, 다른 많은 정착지들이 마즈'에이얄의 구석구석에 분포하고 있지만 말이다.
 
-코르낙의 신장은 5피트 9인치 정도이다, 보통은 검은 머리칼을 가졌고, 갈색 눈과 불그스름한 피부색을 띈다. 대부분의 코르낙은 장사꾼이나, 농부 혹은 단순 노동자로 종사한다. 도적 무리의 주요 구성원이 코르낙이라는 점은 슬픈 사실이다 . 코르낙은 대가족을 이루는 경향이 있다, 황혼의 시대 이후 그들의 인구수는 빠르게 늘어났다, 특히 서쪽의 농경지와 남쪽의 마지막 희망 주변에서 말이다.
+코르낙의 신장은 175cm 정도이다, 보통은 검은 머리칼을 가졌고, 갈색 눈과 불그스름한 피부색을 띈다. 대부분의 코르낙은 장사꾼이나, 농부 혹은 단순 노동자로 종사한다. 도적 무리의 주요 구성원이 코르낙이라는 점은 슬픈 사실이다 . 코르낙은 대가족을 이루는 경향이 있다, 황혼의 시대 이후 그들의 인구수는 빠르게 늘어났다, 특히 서쪽의 농경지와 남쪽의 마지막 희망 주변에서 말이다.
 
-숄타르의 신장은 5피트 11인치 정도이다, 검은 피부와 검은 머리칼, 검은 눈을 가졌다. 그들은 마즈'에이얄의 남동쪽에서 기원했다, 그들은 소수에 불과한데 대재앙이 그들의 고향땅을 바다 아래로 가라앉혔기 때문이다. 그들은 자연 친화력으로 잘 알려져있다, 그리고 그들은 자주 치료사, 주입물 제작자 or 혹은 용인 사냥꾼으로 고용된다.
+숄타르의 신장은 180cm 정도이다, 검은 피부와 검은 머리칼, 검은 눈을 가졌다. 그들은 마즈'에이얄의 남동쪽에서 기원했다, 그들은 소수에 불과한데 대재앙이 그들의 고향땅을 바다 아래로 가라앉혔기 때문이다. 그들은 자연 친화력으로 잘 알려져있다, 그리고 그들은 자주 치료사, 주입물 제작자 or 혹은 용인 사냥꾼으로 고용된다.
 
 마드로프 종은 멸종했다, 마법 사냥과 황혼의 시대에 퍼진 역병 때문이다. 그들은 강력한 마법 사용자로 알려졌었다, 그리고 그런 자들은 마법 사냥꾼의 주된 목표였다. 하지만 그들의 몇가지 흔적들이 여전히 발견되곤 한다, 그들의 붉은 머리와 주근깨 피부가 먼 거리에서 잘 보이기 때문이다. 루머에 따르면 적은 수가 여전히 외딴곳에 있는 성채나 탑에 기거하고 있다고 한다.
 
-하이어의 신장은 6피트 정도이다, 금발과 하얀 피부 그리고 파란 눈이나 회색 눈을 가졌다. 학자의 대부분은 하이어들이다, 그리고 그들이 대부분의 귀족지위를 차지하고있는 경향이 있다. 몇몇은 이것이 차별이고 엘리트주의라고 말한다, 이런 말들이 단순한 질투심에서 나온것일지 몰라도, 하이어들의 높은 지능은 매혹의 시대 고대 콘클라베가 실행한 불가사의한 비전 실험에 의한것이라는 소문이 있다, 하지만 나는 이와 관련된 자료를 찾을 수 없었고 근거 없는 주장이라 판단했다. 하이어의 혈통은 우월함의 표식으로 여겨지며, 하이어들은 하위 혈통과 섞이는것을 불쾌하게 생각한다.
+하이어의 신장은 182cm 정도이다, 금발과 하얀 피부 그리고 파란 눈이나 회색 눈을 가졌다. 학자의 대부분은 하이어들이다, 그리고 그들이 대부분의 귀족지위를 차지하고있는 경향이 있다. 몇몇은 이것이 차별이고 엘리트주의라고 말한다, 이런 말들이 단순한 질투심에서 나온것일지 몰라도, 하이어들의 높은 지능은 매혹의 시대 고대 콘클라베가 실행한 불가사의한 비전 실험에 의한것이라는 소문이 있다, 하지만 나는 이와 관련된 자료를 찾을 수 없었고 근거 없는 주장이라 판단했다. 하이어의 혈통은 우월함의 표식으로 여겨지며, 하이어들은 하위 혈통과 섞이는것을 불쾌하게 생각한다.
 
 모든 인간 왕국은 장작의 시대 용맹한 자 토크놀에 의해 통일되었다, 그리고 여전히 공평한 자 톨락의 치세 아래 유지되고 있다. 인간의 긴 역사에 대한 완전한 논고는 훨씬 상세한 문서가 필요할 것이다.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 2 - 하플링", "_t")
@@ -13899,7 +14008,7 @@ The Eldorals used to have a kingdom in the north of the continent, but most of i
 The Nargols once had many strong fortifications in the south of Maj'Eyal, but though they suffered less than the Eldoral in the Age of Pyre they still lost great numbers, and much of their centres of population dwindled. The rise of Last Hope has accelerated this process, as many communities are subsumed into the city's suburbs. Nargols are known as great jewellers, alchemists and rune-crafters, and possess some of the best tactical minds of all the races. Many generals and military advisers are employed from their kingdom.
 
 The most famous of all halflings is Queen Mirvenia, most famed for her saving of King Toknor in Last Hope from a siege of orcs. Mystery still surrounds how she managed to bypass the winter's icy floes with her army to reach the citadel in time to rescue Toknor. Some have hypothesised that she enlisted the aid of sorcerers, but none of her troops would talk about the journey afterwards. She wed King Toknor in the second year of the Age of Ascendancy, and gave birth to the first known mixed race child - Tolak the Fair.
-]], [[하플링은 크게 두 인종으로 나뉜다, 엘도랄과 나르골로 말이다, 두 인종이 자주 섞이긴 하지만 말이다. 모든 하플링은 4피트 아래의 키를 가졌다, 그리고 보통 그들의 큰 발과 곱슬머리로 알아차릴 수 있다. 엘도랄은 보통 금발과 푸른눈을 가졌고 나르골은 더 어두운 머리색과 피부색 그리고 헤이즐 색 눈을 지녔으며 대부분은 그들의 사촌들보다 키가 작다. 하플링은 그들의 지능과 재빠른 기지로 알려져 있다, 하지만 다른 종족을 대할때의 오만함으로도 잘 알려져있다 - 하플링들은 이 말을 부정하지 않는데 그들이 그럴만한 권리가 있다고 믿기 때문이다.
+]], [[하플링은 크게 두 인종으로 나뉜다, 엘도랄과 나르골로 말이다, 두 인종이 자주 섞이긴 하지만 말이다. 모든 하플링은 120cm 아래의 키를 가졌다, 그리고 보통 그들의 큰 발과 곱슬머리로 알아차릴 수 있다. 엘도랄은 보통 금발과 푸른눈을 가졌고 나르골은 더 어두운 머리색과 피부색 그리고 헤이즐 색 눈을 지녔으며 대부분은 그들의 사촌들보다 키가 작다. 하플링은 그들의 지능과 재빠른 기지로 알려져 있다, 하지만 다른 종족을 대할때의 오만함으로도 잘 알려져있다 - 하플링들은 이 말을 부정하지 않는데 그들이 그럴만한 권리가 있다고 믿기 때문이다.
 
 하플링은 마즈'에이얄의 주된 지배 종족이었다, 전술적인 쉐르'툴 유적들을 통제하에 두고 넓은 땅을 통치했다. 하플링과 인간 사이의 전쟁기록은 상당하다, 그리고 많은 전쟁에서 하플링들은 승리자였다. 하지만 장작의 시대 그들은 커다란 파멸을 마주했다, 오크들이 하플링들은 주된 목표로 맹렬하게 공격했기 때문이다, 그리고 많은 수의 하플링 공동체가 지도에서 사라졌다. 그리고 이 때문에 현대의 하플링들은 다른 종족과 거래하는것에 더 의존하게 되었다, 특히 인간과 말이다.
 
@@ -13909,6 +14018,87 @@ The most famous of all halflings is Queen Mirvenia, most famed for her saving of
 
 하플링중에서 가장 유명한 이는 여왕 미르베니아다, 그녀는 오크의 공성에서 왕 토크놀을 구한것으로 가장 잘 알려져있다. 불가사의한 점은 어떻게 그녀가 군대와 함께 겨울의 얼어붙은 유빙위를 제 시간에 건너 성채에 도달해 토크놀을 구출할 수 있었냐는 것이다. 몇몇은 그녀가 마법사들의 힘을 빌렸을거라 가설을 세웠다, 하지만 그녀의 군인들중 누구도 그날의 여정을 말하지 않았따. 그녀는 주도의 시대 두번째 해에 왕 토크놀과 혼인했다, 그리고 최초로 알려지게될 혼혈 종족의 자손 -공평한자 토크놀을 낳았다.
 ]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 3 - 드워프", "_t")
+t([[The dwarves are an exceptionally secretive and quiet race, reluctant to talk about themselves to outsiders unless hefty bribes are paid. Many times in their history they have cut off all contact with the other races for no known reason, shutting tight the great iron doors that cover the trade passages to their mines and their cavernous cities. However of late they have become more open with the outside world, and I have even had the pleasure of receiving the unique distinction of being allowed to enter their main city, the Iron Throne, and speaking with several of their guild leaders.
+
+Dwarves are around 5' tall, with generally brown or grey hair. They are usually stocky and muscular, and known to be very resistant to any physical suffering. Their females can be hard to distinguish from their males, but can usually be identified by the beads braided into their beards. All dwarves are highly proud of their beards, and take immaculate care of them. The greatest insult to a dwarf is to belittle his beard, and the greatest sign of suffering in a dwarf is for him to tear at his beard.
+
+Dwarves are known especially for their smithwork and artificing, which is unrivalled amongst all the other races. They also make cunning merchants, known to drive a hard bargain. Their society consists of a fairly strict caste system, with families belonging to guilds of miners, smelters, craftsmen, and so on, and deviance into work outside of one's guild of birth is almost unheard of. However there is no perceived inequality between guilds, with each having equal representation on their ruling Committee of Guilds. Who actually acts as figurehead is unknown to outsiders though, and no amount of bribing will encourage any dwarf to speak on the subject. When it is mentioned in passing their allusions to a leader are normally marked by an almost religious reverence.
+
+Their skill with metal is renowned above all else. Dwarven steel is considered the most durable material for use in construction, and dwarves are the finest workers with stralite and voratun, precious metals of immense value. They trade heavily in their crafts from their capital the Iron Throne, but allow no outsiders in - instead they send innumerable merchant caravans out to all the cities to ply their wares.
+
+As well as the many merchant dwarves one may meet there are also a great deal of young dwarves who venture beyond their halls of stone. These are generally of adventuring fare, and it is encouraged in dwarven society to experience something of the wider world in one's younger years. This is known to them as being "smithed upon the anvil of the world". In private though some senior dwarves admit that this activity is promoted to help with their "market research strategy".]], [[드워프들은 극도로 폐쇄적이고 은둔적인 종족으로 알려져있다, 드워프들은 두둑한 돈주머니를 뇌물로 쥐어주지 않는이상 외부인에게 그들 스스로에 대해 말하기를 꺼려한다. 그들의 역사속 대부분 시간동안 드워프들은 무역로와 동굴 도시들을 감싸는 거대한 금속 관문들을 굳게 걸어잠구고, 다른 종족들과 알려진 어떤 이유도 없이 소통하지 않고 살아왔다. 하지만 최근에 들어 그들은 외부 세계에 조금 더 개방적이게 변화했다, 그리고 심지어 나는 그들의 주요 도시인 철의 왕좌에 입장할 수 있는 자격과 몇몇 길드 마스터와 대화할 수 있는 특권을 누리는 기쁨을 얻기도 했다.
+
+드워프들은 150cm 정도 신장을 가졌다, 보통 검거나 회색 마리칼을 가졌고 땅딸막 하며 근육질의 체형이다, 그리고 그들은 종족 특유의 물리적 저항력으로 잘 알려져있다, 드워프 여성은 드워프 남성과 구분하기 어렵지만 그들의 수염에 달려있는 장식용 구슬로 쉽게 구분할 수 있다. 모든 드워프들은 그들의 수염에대해 굉장한 자긍심을 가지고 있으며 수염을 티끌 하나 없이 깨끗하게 유지하려고 한다. 드워프에게 있어 가장 큰 모욕은 그의 수염을 하찮게 여기는 것이다, 그리고 드워프에게 있어 최악의 고통을 표출하는 방식은 그들의 수염을 잡아 뜯는것이다.
+
+드워프들은 특히나 다른 종족과 비교조차 할 수 없는 대장간 기술과 공예술로 잘 알려져있다. 그리고 그들은 한계까지 이윤을 뽑아내는 교활한 무역자들로도 알려져있다. 드워프들의 사회는 상당히 경직된 계급 사회로 알려져있다, 그들은 가문단위로 광부, 제련사, 공예가 등등으로 구별되어져 있다, 그리고 태어난 가문이 맡은것 외의 직종에서 종사하는 경우는 거의 알려져 있지 않다. 그러나 길드간 눈에 띄는 불평등은 없으며 길드 간 통치 위원회에 동등한 수의 길드 인원들이 선출되어 있다. 누가 실질적인 수장으로 활동하고 있는지는 외부인에게 알려져 있지 않지만, 엄청난 뇌물을 준다해도 그 어떤 드워프도 이 주제에 대해 이야기하려 들지 않는다. 드워프들이 그들의 지도자에 대해 넌지시 말할때는 거의 항상 종교적 경의를 담은 표현을 사용하곤 한다.
+
+드워프들의 금속 기술은 타의 추종을 불허한다. 드워프제 강철은 가장 견고한 건축용 재료로 취급되며, 막대한 가치를 지닌 스트랄라이트와 보라툰같은 귀금속에 있어서도 최고의 기술을 가지고있다. 철의 왕좌에서 생산된 공예품을 주류상품으로 삼지만, 외부인은 누구도 들어오게 하지 않는다 - 대신 그들은 셀수없는 행상인들을 도시밖으로 보내 상품들을 취급하게 한다.
+
+그곳에서 만날 수 있을 드워프 상인들은 또한 상당수가 그들의 석제 회랑들 너머로 모험을 떠나는 젊은이들이다. 이들은 모험자 무리의 주 구성원으로, 드워프 사회에선 젊은 나이에 넓은 외부 세계를 체험하고 오는것을 장려하곤 한다. 이것은 그들에게 "세계의 모루위에서 단조되는 과정"로 알려져 있다. 사견으로 몇몇 성인 드워프들은 이러한 활동이 "시장 조사 전략"의 일환임을 인정하곤 한다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 4 - Shaloren", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 4 - 샬로레", "_t")
+t([[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
+
+Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
+
+The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
+
+Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
+
+They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], [[엘프 종족들이 외관상 비슷함에도 불구하고, 그들은 역사적으로, 문화적으로, 사고방식적으로 그리고 다양한 육체적 기질에서 극명하게 두드러진 차이를 보인다, 고로 저자는 이들에대해 각각 다른 파트로 나눠서 서술하겠다. 모든 엘프종족은 그들의 두드러지게 길고 뾰족한 귀와 높게 솓은 광대뼈가 특징이지만 다른 외관적 특징들은 크게 다를 수 있다. 그들이 스스로를 "엘로레" 그들 말로 "자매들"이라고 부르는것은 반드시 명시되야할 부분이다. 이 말과는 다르게 이 형제 자매들은 자주 불편한 관계가 되었지만 말이다  
+
+샬로렌 (혹은 샬로레 - lit "은총의 형제자매들")은 평균적으로 187cm 정도이며, 밝은 머리카락과 푸른색 혹은 보라색 눈을 가졌다. 그들은 늘씬하고 선이 가는 체격이다, 샬로레는 육체적 힘보다는 정신적 기량으로 유명한 종족이다. 하지만 그들은 매우 재빠르며 또 가벼운 발놀림으로도 유명하다 하지만 특기할것은 다른 어느 종족보다 강력한 그들의 마법 친화력과 강렬한 정신력이다.
+
+샬로레는 오늘날까지 이어지는 마법 사용의 긴 역사를 가졌다. 다른 종족들이 마법을 큰 위험으로 기피함에도 불구하고, 샬로레는 마법을 받아들였다, 그리고 마법은 여전히 그들 사회 전반에 광범위하게 사용되고 있다. 하지만 그들은 다른 종족에게 이러한 마법사용을 주의깊게 숨기고 있다. 샬로레는 마법폭발을 일으킨 자들중 하나였으며 그들은 그걸 얼마 안가 망각해버렸지만, 비난 받았던 기억만큼은 그들 사이에서 깊게 흐르고 있다. 황혼의 시대에 행해진 마법 사냥에서 그들은 도시의 문을 잠구고 일대를 안개로 뒤덮고는 아주 은밀하게만 도시로 출입했다. 이것은 수세기동안 샬로레가 다시 세계 사회에 받아들여질때까지 지속되었다, 그리고 그들은 여전히 다른 이들에게 극명하게 불신되고 있다.
+
+그들의 수도는 엘발라로, 남서쪽의 반도에 자리하고있으며 샬로레는 오직 소수의 정착지만을 엘발라 외부에 건설하였다. 그들은 자연적으로 장수하는 종족이지만 그들의 숙련된 마법기예가 그들의 수명을 무한정 늘릴 수 있게 해주었다. 그들 중 가장 나이가 많은 불멸자들은 그들의 왕 아라니온 게일을 필두로 장로회를 구성한다. 죽음은 샬로레에게 특별한 매력으로 다가왔으며, 초기의 샬로레 왕들은 그들의 사후를 위한 거대한 무덤들을 세우게 했고 육체 보존술과 강령술을 연구하게 했다. 믈론 샬로레들은 이 사실을 부정한다.
+
+그들은 다른 종족들을 좀처럼 상대하지 않으며, 가능한한 주목받지 않으려 한다, 그리고 그들의 무역 대부분은 하플링 중개상들을 통해 이루어진다. 소수의 룬 제작자와 부여술사들만이 종종 다른 대도시로 사업차 여행을 떠난다, 그리고 소수의 자신만만한 젊은이들은 이보다 더 나아가 집에서 더 먼곳으로 여행을 떠나곤 한다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 5 - Thaloren", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 5 - 탈로레", "_t")
+t([[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
+
+Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
+
+Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
+
+The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], [[탈로렌 (혹은 탈로레 - lit "분노의 형제자매들")은 평균적으로 193cm이다, 검은 갈색 머리를 가지고 눈은 엹은 갈색이다. 그들은 보통 근육질이며, 육체적 강함으로 잘 알려져있다. 탈로레는 요정같은 성미로 유명한데 - 노래 부르는것을 즐기다가도 급작스럽게 분노하는 성미를 가졌다. 탈로레와 샬로레의 관계는 그들이 친척들의 마법 사용을 강하게 반대하기 때문에 상당히 껄끄럽다.
+
+그들의 수도는 샤툴로, 북부 숲의 깊은곳에 숨겨져있으며, 그들은 샤툴의 주변 숲에조차 외부인이 가까이 오는걸 혐오한다. 궁수와 전사들이 주의깊게 경계를 순찰하고 있으며, 접근하는 누구에게든 나무 위에서 죽음을 비처럼 쏟아낼 준비가 되어있다. 그들의 리더는 여왕 네실라 탄탈렌이다, 그리고 그들은 거대한 나무에 파여진 넓은 구멍에 사는것으로 알려져있다, 하지만 탈로레의 사회에 관해서 다른것들은 거의 알려져 있지 않다.
+
+숲의 요새를 떠나기로 정한 이들은 별난 성격으로 특이한 태도와 특성을 가진 경향이 있다. 자주 그들은 음악가나, 명궁 혹은 숙련된 전사들이다. 하지만 그들은 때때로 강하게 불신받으며, 샤툴을 떠난 이들중 많은이가 사실은 가장 끔찍한 죄를 지어 추방된 자들이라는 루머가 있기 때문이다. 어떤 경우에든 그들은 타고난 고독생활을 즐기는 이들이며 보통 탐구를 위해 홀로 떠돌곤 한다.
+
+탈로레는 외부세계인과 아주 드물게 거래를하며, 이 경우 그들 스스로는 구할 수 없는 금속이나 음식인 경우이다.탈로레는 보통 나무 공예품이나 고운 실크로 거래한다. 이것이 요정-나무의 유일한 합법적 공급처이며 이것은 화살을 만들기 위해 큰 수요가 있는 진귀한 물건이다. 암시장의 공급품들은 샤툴 숲의 나무를 자르는 밀렵꾼에게 의존하고 있는데 이는 어마어마한 위험이 따르는 사업이다, 하지만 샬로레 마법사들이 요정-나무 지팡이의 값으로 지불하는 높은 가격 때문에 고수익 사업이기도 하다.]], "_t")
+t([[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
+
+Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
+
+They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
+
+Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], [[날로렌 (혹은 날로레 - lit "영혼의 형재자매들")은 멸종한 종족이다, 대재앙으로 인해 그들의 영토가 바다에 휩쓸려 사라졌기 때문이다. 하지만 기록물이 거의 남아있지 않음에도 독립된 엘프 종족으로써 그들은 연구할만한 가치가 있다. 현재 날로레에 관해 이야기되는것들은 신화에서 나온것들이지만, 이중에서도 진실을 가려낼 수 있었다.
+
+날로레는 178cm정도이며, 밝은 금발과 초록빛의 눈을 가졌다. 그들은 놀라울 정도로 말랐지만 재빠르고 솜씨좋은 움직임으로 유명했다. 그들의 왕국은 마즈'에이얄의 동쪽에 위치했었는데, 그들의 마을은 전부 바닷가나 커다란 강에 가로질러 위치했다. 그들은 스스로를 어부로, 스폰지 채취 잠수부, 뱃사람과 음악가로 여겼다. 날로레는 숨 한번으로 물속에서 한시간이상 보낼 수 있는것으로 유명하였다, 그리고 비전 능력이 있는 자들은 무한정 잠수할 수 있었다고 한다.
+
+날로레는 다른 종족과는 적은 교류를 했으며 그들의 해안선 영토를 굉장히 민감하게 보호했다. 그들은 특히나 영토 중앙에 있는 쉐르'툴 유적을 열성적으로 보호했다. 날로레는 이 유적을 탐구하는데 특이할정도로 열성적이었다, 하지만 날로레들은 유적에 접근하지 않았는데, 그들 스스로 유적을 만지기엔 너무 조심스러웠기 때문으로 보인다. 오크들이 그들의 영토를 자주 잠식했었지만 언제나 사슬갑옷을 입고 날카로운 삼지창을 든 전사들에게 격퇴되었다.
+
+아아! 날로레가 가진 바다 사랑이 그들의 실패 원인이되었다. 대재앙이 모든 해안선 왕국들을 덮쳤을때 왕국들은 휩쓸려 나가 바다속으로 가라앉았다, 절대다수의 인명이 한순간에 파멸한 순간이었다. 살아남은 극소수의 날로레들은 얼마가지않아 그들의 형제 자매를 따라가기 위해 동쪽끝의 벼랑에서 바다로 몸을 던지는것으로 자살했다. 이제 그들의 문명에 대한 증거는 거의 남아있지 않다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 7 - Ogres", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 7 - 오우거", "_t")
+t([[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
+
+Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
+
+Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
+
+While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.	
+
+Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], [[오우거는 번창한 종족이었던적이 없었는데, 콘클라베의 군인과 노동자로 매혹의 전쟁 당시 갑작스럽게 모습을 드러냈다 (콘클라베 감독관의 사라져버린 산악 부족에 대한 믿을 수 없는 이야기와는 별도로 설명되지 않은 이야기였다). 전쟁이 끝난 후 오우거들은 변변한 집이나 룬-훈련도 없이 방치되었었다, 그들은 스스로 부족을 이루고 룬과 주입물을 만드는법에대해 다시 깨우칠수밖에 없게되었다, 그리고 그들의 인구가 급감하기 시작했음에도, 그들은 떠돌이 룬 거래상으로 짧은 기간 동안 상대적인 성공을 누렸으며 사실상 마법폭발에는 영향을 받지 않았다. 마법사냥은 그들의 멸종원인이 될뻔하였는데, 그들의 괴물 같은 체구와 룬으로 뒤덮인 피부가 오우거를 인기있는 사냥감으로 만들었고 그들은 멸종되었다고 여겨졌다, 하지만 최근 몇년사이 엘발라가 이 시기에 몇몇 오거 종족의 망명자들을 받아들였다는 사실이 발표하였다. 그들의 후손이 오늘날까지 살아남은것이다, 오우거들은 박해 받는걸 두려워하면서도 역사상 최초로 엘발라 밖의 세계를 돌아다니기 시작했다.
+
+오우거의 가장 눈에띄는 특징은 그들의 괴물같은 체구이다, 그 어떤 지성 종족보다도 한참이나 거대하며; 그들은 250cm정도의 체구를 가진다, 그리고 체격은 반쯤 더 거대하며 근육으로 가득하다. 오우거의 피부색은 인간과 비슷하지만 전체적으로 약간 회색빛이다; 그들의 머리칼은 갈색이나 검은색이며, 눈은 흑색에서 푸른색 보라색까지 다양하다, 아마 잘못 주입된 룬의 부작용이리라 추측된다. 그들의 각진 얼굴형은 오크에대한 불쾌한 기억을 떠올리게한다, 강한 턱과 불균형할정도로 거대한 입과 치아들 거기에 네모진 머리까지, 하지만 다른것들은 인간을 떠올리게도 한다. 오우거를 그들의 복잡한 문양 없이 설명한다면 그건 저자인 나의 태만이리라, 빛나는 룬 문양들이 그들의 머리부터 발끝까지 전체를 뒤덮고있고 패턴과 색은 매우 다양하다.  
+
+그들의 육체적 조건으로인해 물리적인 임무에 특출난것이 자명함에도, 섬세한 기술이 필요한 룬 제작과 서예 같은 기술은 놀랍기까지하다, 그들의 체구 때문에 팔다리의 움직임은 둔하고 느리며, 힘 쓰는 노동에서 무리할수록 그들은 빠르게 지치곤 한다. 그들의 느릿한 웅변과 엄청난 식욕 그리고 학술 전반에 걸친 무관심은 그들이 아둔하다는 인상을 사게 만들지만 실제로는 강제적으로 학습하게만든 오우거들의 성과는 놀라운 수준이다, 그리고 그들의 룬 문신의 수준을 볼때 이들이 흥미가 동한다면 끈기있게 공부하며 예술적인 감각이 있음을 알 수 있다 , 이러한 시실이 그들의 겸손하고 의무를 중시하는 가치관이 세대를 통해 이어져 오는것이라 추측할 수 있다, - 대부분의 오우거들은 남에게 인상을 주거나 리더쉽을 발휘하는데 전혀 관심이 없다. 오우거는 가능한 자신이 익숙한 방식으로만 임무를 수행하며 이것은 더 단순한 방법인 경향이 있다.
+
+샬로레들의 마법 사용이 선택적(논란의 여지가있지만)인것이지만 , 오우거는 그런 사치를 부릴수 없다. 그들의 룬 문신은 중요한 내부 장기들 만큼이나 그들의 생명유지와 생물학적 무결성에 중요하다, 그리고 지구랏트의 "정화"시도로 포획된 오우거들은 스스로의 무게를 이기지도 못해 고꾸라지며, 장기들은 하나씩 기능을 정지했다 오우거에게 자연 주입물이 필수적인것처럼 마법 주입물 또한 그러하다 생각된다. 그렇기 때문에 오우거에게 번식은 매우 신중하게 이루어져야하는 작업이며 오우거 신생아는 주입물 없이 몇달간 생존할 수 있다, 그러나 그 후에는 오우거 부모들은 자녀에게 룬을 주입하고 약초 주입물을 철저하게 각인해야 한다. 오우거 부모들은 보통 이 일을 함께한다, 서로의 룬을 참고자료 삼아 작업하며, 룬을 그리는 과정에서 어떤 실수라도 아이의 건강과 성장에 악영향을 끼친다 (잘못 그려진 각인이 오우거의 성질을 억누른다고 믿어지지만 실제로는 악영향을 끼칠 뿐이다). 그런면에서 오우거 아이의 성장과 정신적 육체적 성격적 발달에 있어 주입물이 유의미한 영향을 끼친다고 할 수 있다.	
+
+엘발라의 안전함과 편안함 때문에, 그리고 그들이 가진 외부세계에 대한 불신 때문에, 그들의 고향을 떠난 오우거들은 대부분 교역을 위해서만 여정을 나서며 때때로 더 커다란 룬과 주입물 시장에 뛰어들기도 한다. 그리고 이들은 자주 성공을 거두는데 그들이 가진 이 분야의 재능 덕분이다. '모험가'라고 여겨질 수 있는 몇 안 되는 오우거들은 짐을 싸서 갑자기 떠나는 경향이 있다. 영광이나 재물을 위해서가 아니라, 그들은 세상에 되풀이되는 불행의 근원을 찾아 대의로서 뿌리뽑길 원하기 때문이다. 곡물이 약탈되었다는 소식을 들은 오그레가 좌절감에 한숨을 쉬는 것은 드문 일이 아니며 그대로 떠나, 며칠 후 한 때 도적떼 였던것의 피가 몽둥이에 범벅이 된채 돌아와 곧바로 농작물을 가꾸러 돌아가곤한다.]], "_t")
 t("vault", "보물창고", "newLore category")
 t("magic", "마법", "newLore category")
 t("On Adventuring", "모험 도중", "_t")
@@ -17076,7 +17266,7 @@ t([[You manipulate the vim of enemies in radius %d to temporarily invert all hea
 		The effect will increase with your Spellpower.]], [[반경 %d 칸 내의 적들의 원기를 조작하여 일시적으로 회복효과를 역전합니다. (단, 재생 효과는 역전되지 않습니다).
 		5 턴 동안, 모든 회복효과는 피해로 전환 됩니다. 원래 받아야 할 회복량의 %d%% 가 황폐 피해로 치환되어 적들에게 가해집니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
-t("Vile Transplant", "용납될 수없는 이식", "talent name")
+t("Vile Transplant", "부정한 이식", "talent name")
 t("#CRIMSON##Source# transfers an effect (%s) to #Target#!", "#CRIMSON##Source1# #Target4# 부정적인 효과를 (%s) 이식했다!", "tformat")
 t([[You transfer up to %d physical or magical detrimental effects currently affecting you to a nearby creature at a cost of %d vim per effect.
 		Specific effect immunities will not prevent the transfer.
@@ -17981,7 +18171,7 @@ t([[Your defiling touch permeates everything around you, permanently imparting a
 		Level 9  -- 도구/토템/염동력 고리/마법봉
 		level 10 -- 탄환
 		기술 레벨 5 일때, 이 기술을 활성화하여, 자신의 주변에 저주를 두를 수 있습니다. 선택된 저주의 레벨을 2 증가시킵니다. (선택한 저주 : %s)
-		실질 기술 레벨이 5 이상일 때, 저주의 부정적인 효과를 줄일 수 있습니다. (현재 %d%% 감소됨).]], "tformat")
+		기술 레벨이 5 이상일 때, 저주의 부정적인 효과를 줄일 수 있습니다. (현재 %d%% 감소됨).]], "tformat")
 t("Dark Gifts", "어둠의 선물", "talent name")
 t([[Your curses bring you dark gifts. Unlocks bonus level %d effects on all of your curses, allowing you to gain that effect when the power level of your curse reaches that level. At talent level 5, the luck penalty of cursed effects is reduced to 1.
 		Talent levels above 5 add bonus power levels to your curses, increasing their effects (currently %0.1f).]], [[저주가 어두운 선물을 가져옵니다. 최대 %d 레벨의 저주 효과를 해금하며, 도달한 저주 레벨의 효과를 적용할 수 있게됩니다. 기술 레벨이 5 일 때, 저주의 행운 감소치가 1 줄어듭니다.
@@ -19907,7 +20097,7 @@ t("Activate the infusion to instantly heal yourself for %d then cleanse 1 wound,
 t("heal %d; cd %d", "회복 %d / 대기시간 %d", "tformat")
 t("Infusion: Wild", "주입 : 자연", "talent name")
 t("%s is cured!", "%s 정화되었습니다!", "logSeen", nil, {"이"})
-t(" and ", "와 ", "_t")
+t(" and ", ", ", "_t")
 t([[Activate the infusion to cure yourself of one random %s effect and reduce all damage taken by %d%% for %d turns.
 Also removes cross-tier effects of the affected types for free.]], [[주입물을 활성화하여 무작위한 %s 효과를 하나 제거하고 %d 턴 동안 받는 모든 피해를 %d%% 줄입니다.
 또한 해당 종류의 압도 효과도 추가로 제거합니다.]], "tformat", {1,3,2})
@@ -20603,7 +20793,7 @@ t("Use Yiilkgur's teleporter to teleport to the ground.", "일크구르의 순�
 t("Block", "방패 막기", "talent name")
 t("You require a shield to use this talent.", "이 기술을 사용하려면 방패가 필요합니다.", "logPlayer")
 t("None", "없음", "_t")
-t(" and ", "와 ", "_t")
+t(" and ", ", ", "_t")
 t(" Increases your spell save by %d for that turn.", "막아내는 동안 주문 내성이 %d 증가합니다.", "tformat")
 t(" Reflects all blocked damage back to the source.", " 막아낸 모든 피해량을 공격자에게 돌려보냅니다.", "_t")
 t(" All blocked damage heals the wielder.", " 막아낸 모든 피해량이 시전자의 생명력을 회복합니다.", "_t")
@@ -20682,7 +20872,7 @@ t("Born into Magic", "마법 태생", "talent name")
 t([[Highers were originally created during the Age of Allure by the human Conclave. They are imbued with magic at the very core of their being.
 		Increase spell save by %d and arcane resistance by %d%%.
 		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], [[하이어는 본래 매혹의 시대 때, 인간 최고 회의에 의해 창조되었습니다. 하이어의 혈통 그 자체가 마법의 유산입니다.
-		주문 내성이 %d, 비전 피해 저항이 %d%% 증가합니다.
+		주문 내성이 %d, 가하는 비전 피해가 %d%% 증가합니다.
 		또한, 시전한 주문이 피해를 입힐 때, 5 턴 동안 해당하는 속성의 저항이 20%% 증가합니다. (이 효과는 재사용 대기시간이 존재합니다)]], "tformat")
 t("Highborn's Bloom", "고귀한 개화", "talent name")
 t([[Activate some of your inner magic, using it to power your abilities.  For the next %d turns all active talents will be used without resource cost.
@@ -22267,7 +22457,7 @@ t([[Teleports you randomly within a large range (%d).
 		The range will increase with your Spellpower.]], [[시전자를 반경 %d 칸 내의 무작위한 위치로 순간이동 시킵니다.
 		기술 레벨 4 일때, 순간이동할 개체를 선택할 수 있습니다.
 		기술 레벨 5 일때, 순간이동할 위치를 선택할 수 있습니다. (오차범위는 %d 칸 입니다)
-		대상 위치가 시야 내에 없을 경우, 주문이 부분적으로 실패해 대상을 무작위 위치로 순간이동 시킵니다.
+		대상 위치가 시야 내에 없을 경우, 주문이 부분적으로 실패해, 일정 확률로 대상을 무작위 위치로 순간이동 시킵니다.
 		무작위 순간이동은 최소 %d 칸 이상 떨어진 곳으로 순간이동 시킵니다.
 		범위는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Displacement Shield", "변위 보호막", "talent name")
@@ -22379,7 +22569,7 @@ t([[Summons an ethereal magical eye at the designated location that lasts for %d
 		이 기술은 광원이 없어도 정상적으로 작동하지만, 벽 너머를 볼 수는 없습니다.
 		이 기술의 시전은 턴을 소모하지 않습니다.
 		한번에 단 1 개의 비전의 눈만 존재할 수 있습니다.
-		기술 레벨 4 일때, 대상을 지정할 수 있게됩니다. 지속시간이 끝나거나, 개체가 죽을 때 까지 추적합니다.
+		기술 레벨 4 일때, 대상을 지정할 수 있게됩니다. 지속시간이 끝나거나, 개체가 죽을 때까지 추적합니다.
 		기술 레벨 5 일때, 지정 대상에게 마법 표식을 남겨, 투명과 은신 효과를 무효화합니다.]], "tformat")
 t("Keen Senses", "날카로운 감각", "talent name")
 t([[You focus your senses, getting information from moments in the future.
@@ -22522,7 +22712,7 @@ t([[Stony spikes erupt from the ground in a radius %d cone.
 		The damage increases with your Spellpower, and the chance to apply the detrimental effect(s) improves with Spellpower or Physical Power, whichever is greater.]], [[반경 %d 칸의 원뿔 범위에 바위 쐐기를 분출합니다.
 		지역 안의 모든 대상은 %s상처를 입고 %0.1f 물리 피해를 6 턴에 걸쳐 받습니다.
 		피해량은 주문력에 비례하여 증가하고, 부정적인 효과의 적응 확률은 주문력이나 물리력 중, 더 큰 값에 비례하여 증가합니다.]], "tformat")
-t(" and ", "와 ", "_t")
+t(" and ", ", ", "_t")
 t("Poisoned Spikes", "독성 쐐기", "talent name")
 t([[Coats your stone spikes with insidious poison, dealing %0.1f total nature damage over 6 turns while reducing all healing by %d%%.
 		The damage increases with Spellpower and the chance to poison and healing reduction increases with either Spellpower or Physical Power, whichever is greater.]], [[바위 쐐기에 은밀한 독의 막을 덮씌워, %0.1f 자연 피해를 6 턴에 걸쳐 주고 회복 효율을 %d%% 감소시킵니다.
@@ -23163,12 +23353,12 @@ t("Spellcraft", "주문학", "talent name")
 t([[You learn to finely craft and tune your spells, reducing all their cooldowns by %d%%.
 		In doing so you can also carve a hole in spells that affect an area to avoid damaging yourself.  The chance of success is %d%%.
 		In addition, you hone your damaging spells to spellshock their targets. Whenever you deal damage with a spell you attempt to spellshock them with %d more Spellpower than normal. Spellshocked targets suffer a temporary 20%% penalty to damage resistances.]], [[주문을 연성하고, 조율하는 방법을 터득해 모든 주문의 재사용 대기시간이 %d%% 감소합니다.
-		또한 범위 마법 사용 시, 피해를 피할 임시 방편을 마련해, %d%% 확률로 자신에게 피해를 가하는 일을 줄입니다.
+		또한 범위 마법 사용 시, 피해를 피할 임시 방편을 마련해, %d%% 확률로 자신에게 가해지는 피해를 무시합니다.
 		추가로, 대상에게 주문 충격을 가하기 위해 공격 주문을 갈고 닦은 결과, 주문으로 공격을 가할 때 주문 충격 적용 여부 판정 시, 일반 상황보다 %d 더 높은 주문력을 갖고있는 것으로 판정합니다. 주문충격 효과를 받은 적은 모든 피해 저항에 20%% 의 불이익을 갖습니다.]], "tformat")
 t("Energy Alteration", "애너지 개조", "talent name")
 t([[Your mastery over magic is so great that you can alter the energy of all damaging spells to suit your needs.
 		Whenever you deal damage with a spell you attune to the element of that spell for 6 turns, converting %d%% of any damage you deal into that element.
-		This effect will not override itself and will only trigger from spells directly cast by you, not from damage over time or ground damage effects.]], [[마법에 대한 높은 숙련도를 , 필요에 맞게 공격 주문의 에너지를 개조할 수 있게되었습니다.
+		This effect will not override itself and will only trigger from spells directly cast by you, not from damage over time or ground damage effects.]], [[마법에 대한 높은 숙련도를 , 필요에 맞게 공격 주문의 에너지를 개조할 수 있게 되었습니다.
 		주문으로 피해를 가할 때, 주문에 해당하는 속성에 6 턴 동안 적응하여, 가하는 피해량의 %d%% 를 해당 속성으로 변경합니다.
 		이 효과는 두 번 이상 적용되지 않고, 오직 시전자가 시전한 주문에만 영향을 끼칩니다. 지속 피해나 지면의 효과로 인한 피해는 적용되지 않습니다.]], "tformat")
 t("Metaflow", "초월의 흐름", "talent name")
@@ -23579,7 +23769,7 @@ t([[Each time one of your lightning spells dazes a target, it has a %d%% chance 
 t("Tempest", "폭풍우", "talent name")
 t([[Surround yourself with a Tempest, increasing all your lightning damage by %d%% and ignoring %d%% lightning resistance of your targets.
 		Your Lightning and Chain Lightning spells also gain a %d%% chance to daze, and your Thunderstorm spell gains a %d%% chance to daze.]], [[스스로를 폭풍우로 감싸, 모든 전기 피해를 %d%% 증가 시키고 대상의 전기 피해 저항을 %d%% 무시합니다.
-		활성화 중, 번개와 연쇄 번개는 %d%% 확률로 대상을 혼절시키고, 뇌우의 혼절 효과가 %d%% 추가 확률을 갖게됩니다.]], "tformat")
+		활성화 중, 번개와 연쇄 번개는 %d%% 확률로 대상을 혼절시키고, 뇌우는 %d%% 확률로 혼절을 일으킵니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -30658,7 +30848,7 @@ t("+Dim Vision", "+흐릿한 시야", "_t")
 t("-Dim Vision", "-흐릿한 시야", "_t")
 t("The smoke around #target# dissipates.", "#target3# 둘러 싸던 연기가 사라졌다.", "_t")
 t("Resolve", "결의", "_t")
-t(" and ", "와 ", "_t")
+t(" and ", ", ", "_t")
 t("You gain %d%% resistance against %s.", "%s에 대한 저항 +%d%%.", "tformat", {2,1})
 t("#Target# attunes to the damage.", "#Target2# 피해에 적응했다 .", "_t")
 t("+Resolve", "+결의", "_t")
@@ -35249,7 +35439,7 @@ ToME 은 무료, 오픈 소스 소프트웨어이고, 앞으로도 그럴 겁니
 만약 당신이 이 게임과 함께 즐거운 시간을 (오랫동안) 보냈고, 또 그만한 가치가 있다고 생각하신다면, 게임의 미래를 위해 기부하시는 것을 고려 해주세요.
 
 기부자들은 다음과 같은 특별한 기능을 이용할 수 있습니다: %s.]], "tformat")
-t(" and ", "와 ", "_t")
+t(" and ", ", ", "_t")
 t([[Thank you for supporting ToME, your donation was greatly appreciated.
 If you want to continue supporting ToME you are welcome to make a new donation or even a reccuring one which helps ensure the future of the game.
 Thank you for your kindness!]], [[ToME 에 후원해 주셔서 감사합니다.
@@ -35590,7 +35780,7 @@ t([[#LIGHT_BLUE#Warning: You have increased some of your statistics or talent. T
  유지기를 재활성화 함으로써 기술의 효과를 다시 갱신하십시오.]], "_t")
 t("Not enough stat points", "능력치 점수가 부족합니다", "_t")
 t("You have no stat points left!", "남은 능력치 점수가 없습니다!", "_t")
-t("Stat is at the maximum for your level", "오직 당신의 레벨 이상으로 투자하지 못합니다", "_t")
+t("Stat is at the maximum for your level", "당신의 레벨 이상으로 투자하지 못합니다", "_t")
 t("You cannot increase this stat further until next level!", "다음 레벨까지 이 기술에 투자하지 못합니다!", "_t")
 t("Stat is at the maximum", "능력치가 최대치입니다", "_t")
 t("You cannot increase this stat further!", "당신은 더 이상 이 능력치에 투자 할 수 없습니다.!", "_t")

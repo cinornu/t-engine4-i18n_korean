@@ -849,7 +849,7 @@ t([[Bringing about the darkest days of the Spellblaze you hasten the death of yo
 		Affected foes will start taking %0.2f darkness damage each turn until it dies as long as it remains in radius %d of you.
 		The damage increases with spellpower.]], [[마법폭발의 가장 어두운 날을 현현시켜, 빠르게 죽음을 선고합니다.
 		반경 %d 칸 내의 적에게 공격을 가할 때, 대상의 생명력이 33%% 이하로 떨어지면 마법폭발의 분노를 자동으로 해방시킵니다.
-		영향을 받은 적은 매 턴 %0.2f 암흑 피해를 받습니다. 이 효과는 시전자를 기준으로 반경 %d 칸 내에 있을 시, 죽을 때 까지 지속됩니다.
+		영향을 받은 적은 매 턴 %0.2f 암흑 피해를 받습니다. 이 효과는 시전자를 기준으로 반경 %d 칸 내에 있을 시, 죽을 때까지 지속됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Shattered Mind", "파괴된 정신", "talent name")
 t([[When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns.
