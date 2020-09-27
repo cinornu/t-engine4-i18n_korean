@@ -171,6 +171,9 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
+"game/dlcs/tome-orcs/data/achievements/special.lua"
+"game/dlcs/tome-orcs/data/achievements/story.lua" Khelerd 완
+
 ------------------------------ 이하 EoR data/chats (완역) ---------------------------------
 
 "game/dlcs/tome-orcs/data/chats/aaa.lua"
@@ -223,6 +226,10 @@
 "game/dlcs/tome-orcs/data/general/npcs/undead-drake.lua"
 "game/dlcs/tome-orcs/data/general/npcs/whitehooves.lua"
 "game/dlcs/tome-orcs/data/general/npcs/yeti.lua" Khelerd 완
+
+------------------------------ 이하 EoR data/lore ----------------------------------
+
+"game/dlcs/tome-orcs/data/lore/destructicus.lua" Khelerd 완
 
 ------------------------------ 이하 EoR data/quests (완역) ---------------------------------
 
