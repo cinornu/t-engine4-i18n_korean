@@ -227,6 +227,11 @@
 "game/dlcs/tome-orcs/data/general/npcs/whitehooves.lua"
 "game/dlcs/tome-orcs/data/general/npcs/yeti.lua" Khelerd 완
 
+------------------------------ 이하 EoR data/lore ----------------------------------
+
+"game/dlcs/tome-orcs/data/lore/destructicus.lua"
+"game/dlcs/tome-orcs/data/lore/dominion-port.lua" Khelerd 완
+
 ------------------------------ 이하 EoR data/quests (완역) ---------------------------------
 
 "game/dlcs/tome-orcs/data/quests/amakthel.lua"
@@ -1542,9 +1547,7 @@ section "game/modules/tome/dialogs/ShowLore.lua" Stéphanois  완
 section "game/modules/tome/dialogs/ShowMap.lua" Stéphanois  완
 section "game/modules/tome/dialogs/MapMenu.lua" Stéphanois  완
 section "game/modules/tome/dialogs/GraphicMode.lua" Stéphanois  완
-
 section "game/modules/tome/dialogs/ArenaFinish.lua" Stéphanois  완
-
 section "game/modules/tome/data/birth/descriptors.lua" Stéphanois  완
 section "game/modules/tome/dialogs/DeathDialog.lua" Stéphanois  완
 section "game/modules/tome/dialogs/Birther.lua" Stéphanois  완
