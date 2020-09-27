@@ -3,11 +3,65 @@ locale "ko_KR"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/achievements/special.lua"
 
+t("No mercy!", "자비란 없다!", "achievement name")
+t("Killed 1000 steam giants civilians.", "증기 거인 시민을 1000명 죽였다.", "_t")
+t("Mercy, mercy!", "자비를, 자비를!", "achievement name")
+t("Killed Talosis without any civilians deaths.", "시민을 단 한 명도 죽이지 않은 채로 탈로시스를 죽였다.", "_t")
+t("This will make a big Omelette!", "커다란 오믈렛을 만들 수 있겠군!", "achievement name")
+t("Collected 40 ritch eggs in the Ritch Hive.", "릿치 군락에서 릿치 알을 40개 모았다.", "_t")
+t("An Other Brick in the Wall", "벽 속의 또다른 벽돌일 뿐", "achievement name")
+t("Defeated Aeryn in the Gates of Morning without destroying the Observatory nor using ritches help.", "관측소도 파괴하지 않고, 릿치를 풀지도 않은 채로 아침의 문에서 아에린을 쓰러뜨렸다.", "_t")
+t("No Steam, No Palace. No Palace, No Palace!", "증기 없이는 궁전도 없다. 사실 그냥 궁전 없다!", "achievement name")
+t("Destroyed the Palace of Fumes without first destroying the geothermal valves in the Steam Quarry.", "증기 채굴장의 지열 밸브를 하나도 파괴하지 않은 채로 연기의 궁전을 파괴했다.", "_t")
+t("Here, I Think You Dropped This", "여기, 이거 떨어뜨린 거 같은데", "achievement name")
+t("Killed Ureslak the Eternal while wielding Ureslak's Femur.", "우레슬락의 대퇴골로 불멸의 우레슬락을 죽였다.", "_t")
+t("Do not go gentle into that good night", "그런 좋은 밤에는 신사처럼 굴지 마", "achievement name")
+t("Trapped John.", "존을 가두었다.", "_t")
+t("I did not want that!", "일부러 한 거 아니야!", "achievement name")
+t("Tricked Nektosh into killing one of his own people.", "네크토쉬가 자신의 추종자를 죽이게 했다.", "_t")
+t("We weren't kidding!", "진심으로 했었어!", "achievement name")
+t("Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "속박되지도, 기절하지도, 잠들지도, 혼절되지도, 혼란스럽지도 않은 상태에서 네크토쉬의 광선을 맞고 죽었다.", "_t")
+t("Make Him Squirm", "수치플레이", "achievement name")
+t("Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "네크토쉬가 힘을 다 쓰게 만든 다음에, 지역을 떠나서 그를 놔 둔 채로 게임에서 승리했다. 다른 화이트후프들이 잘 정리해주겠지 뭐...", "_t")
+t("True Savior", "진정한 구원자", "achievement name")
+t("Freed all the Orc Prides without killing a single mind-controlled orc.", "정신 지배 상태의 오크를 단 한 명도 죽이지 않고 모든 오크 긍지를 해방했다.", "_t")
+t("Mender", "멘더", "achievement name")
+t("Destroyed the bosses of the Primal Forest without killing any uncorrupted treants.", "오염되지 않은 나무 정령들을 단 하나도 죽이지 않고 태고의 숲의 보스들을 처치했다.", "_t")
+t("Sufficiently Advanced Technology", "충분히 발달한 과학 기술", "achievement name")
+t("Put five points into each of the tinker-crafting talents as any mage class.", "마법사 직업으로, 발명-제작 기술들에 각각 5점씩 투자했다.", "_t")
+t("Radiant Horrorc", "발광의 공포오-크", "achievement name")
+t("While fighting in a Sunwall zone, use a Fiery Salve to reach at least 66% affinity for Fire and Light. Pointing and laughing is optional.", "태양의 장벽 영토에서 싸울 때, 불꽃 연고를 사용해서 화염과 빛 친화를 66% 이상 달성했다. 놀리면서 비웃어 줘도 되고 안 그래도 됩니다.", "_t")
+t("Blood on the Moon", "핏빛 달", "achievement name")
+t("Kill all of the Star Gazers within 7 game turns.", "천체관측사들을 실질 7턴 내로 모두 죽였다.", "_t")
+t("Once Upon A Time, In the West...", "옛날 옛날에, 서쪽에서...", "achievement name")
+t("Hear the Eidolon's retelling of the Scourge from the West's journey.", "에이돌론이 서쪽에서 온 재앙의 일대기를 다시 이야기하는 것을 들었다.", "_t")
+t("A Fistful of Gold", "돈 한 주먹", "achievement name")
+t("Buy an item from an AAA.", "고자아의 물건을 샀다.", "_t")
+t("For a Few Gold More", "여기 돈 조금 더", "achievement name")
+t("Completely deplete an AAA's stock.", "고자아 하나의 물건을 전부 샀다.", "_t")
+t("The Good, The Bad, and The Yeti", "좋은 놈, 나쁜 놈, 예티 놈", "achievement name")
+t("Use mind-controlled yetis to kill 30 foes.", "정신 지배된 예티로 적을 30체 죽였다.", "_t")
+t("Total Annihilation: Redundancy", "섬멸자가 섬멸자로 섬멸한다!", "achievement name")
+t("Wield the Annihilator as an Annihilator.", "섬멸자로 섬멸자를 장비했다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/achievements/story.lua"
 
+t("Across the Narrow Sea", "해협을 건너", "achievement name")
+t("Destroyed the Sunwall Outpost to secure a way to the mainland.", "본토로 가는 길을 지키고 있던 태양의 장벽 전초기지를 파괴했다.", "_t")
+t("Reclaiming Garkul's Heritage", "가르쿨의 유산을 되찾다", "achievement name")
+t("Freed the remnants of the Prides from the Internment Camp.", "수용소에서 긍지의 생존자들을 해방했다.", "_t")
+t("The High Lady's Destiny (Finale)", "고귀한 여인의 운명 (결말)", "achievement name")
+t("Crushed High Sun Paladin Aeryn and with her destroyed the bastion of the Sunwall.", "고위 태양의 기사 아에린을 박살내고 태양의 장벽의 요새를 파괴했다.", "_t")
+t("One Ill Turn Deserves Another", "가는 말이 고와야 오는 말이 곱다", "achievement name")
+t("The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "연기의 궁전을 폐허로 만들었고, 그 평의회를 산산조각냈다. 아트모스 부족은 더 이상 긍지를 괴롭히지 못할 겁니다.", "_t")
+t("The Dead God Rests", "죽은 신이 잠들다", "achievement name")
+t("You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "아마크텔을 부활시키려던 쉐르'툴 신관을 쓰러뜨려, 긍지와 이 세계를 구했다.", "_t")
+t("To the Bitter End", "씁쓸한 결말", "achievement name")
+t("You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "아트모스 부족 최후의 생존자들을 몰살하여, 그들의 문명을 끝냈다.", "_t")
+t("Imp'ing Away", "임프가 나라간다", "achievement name")
+t("You have spared the last remnants of the Atmos Tribe, showing mercy where others gave none to the orcs.", "자비를 베풀어 아트모스 부족 최후의 생존자들을 놔 주었다. 다른 어떤 이들도 오크들에게 자비를 베풀지 않았음에도 불구하고.", "_t")
 
 
 ------------------------------------------------
@@ -36,12 +90,12 @@ t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +3 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 2", "_t")
 t("Gunslinger", "총잡이", "birth descriptor name")
-t("A tinker who dual-wields steamguns to great effect.", "총기를 2 자루 사용함으로써 강력한 효과를 발휘하는 발명가입니다.", "_t")
+t("A tinker who dual-wields steamguns to great effect.", "총기를 2 자루 사용함으로써 강력한 힘을 발휘하는 발명가입니다.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +0 힘, +4 민첩, +1 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +4 교활", "_t")
 t("Build, experiment, discover. The path of inventions is never over!", "만들고, 실험하고, 발견합니다. 발명의 길은 결코 끝나는 일이 없습니다!", "_t")
 t("Psyshot", "싸이샷", "birth descriptor name")
-t("Bend the mind, bend the tech. All around inspire dread.", "적의 정신을 꺾고, 공학 기술을 사용해 사방에 공포를 몰고옵니다.", "_t")
+t("Bend the mind, bend the tech. All around inspire dread.", "적의 정신을 꺾고, 공학 기술을 사용해 사방에 공포를 몰고 옵니다.", "_t")
 t("Powerful psionics are able to enter a gestalt with steam generators and technology to enhance their own mental prowess.", "게슈탈트를 통해, 강력한 초능력을 증기 생성기에 주입할 수 있게되고, 증기 공학을 통해 정신의 힘을 향상시킵니다.", "_t")
 t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "싸이샷은 게슈탈트를 통해 장착한 마석을 강화시키고, 총기 사격으로 적들의 전선을 무너뜨립니다.", "_t")
 t("Their most important stats are: Cunning, Willpower and Dexterity", "그들의 가장 중요한 능력치는 교활, 의지, 그리고 민첩입니다.", "_t")
@@ -98,10 +152,10 @@ t("Demonic Horns 7", "악마의 뿔 7", "_t")
 t("Demonic Horns 8", "악마의 뿔 8", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 t("Orc", "오크", "birth descriptor name")
-t("Orcs have a long and sad history. They are seen, and are, as an aggressive race that more than one time managed to imperil all of Maj'Eyal.", "오크들은 길고 슬픈 역사를 갖고 있습니다. 오크들은 호전적인 종족으로 여겨지고, 실제로도 마즈'에이알을 한번 이상 파멸로 몰고간 적이 있습니다.", "_t")
-t("But one year ago the Scourge from the West came and wiped four of the five Prides. And a hundred years ago King Toknor wiped all traces of orcs from Maj'Eyal.", "하지만, 1 년 전 서쪽에서 온 재앙이 다섯 긍지 중 네 긍지를 쓸어버렸습니다. 그리고 백여년 전, 토크놀 왕이 마즈'에이알에서의 모든 오크들을 쓸어버렸습니다", "_t")
-t("The orc race is dangerously on the brink of destruction. One wrong move is all that is needed.", "오크 종족은 현재 몰락 직전에 서있습니다. 조금만 잘못해도 멸망의 구렁텅이에 빠지게됩니다.", "_t")
-t("But they are strong and will face whatever is needed to ensure a future of their own!", "하지만 오크들은 강인하고, 그들 스스로의 미래를 위해 필요한 것이라면 그게 어떤 것이던지 대면할 준비가 되어있습니다!", "_t")
+t("Orcs have a long and sad history. They are seen, and are, as an aggressive race that more than one time managed to imperil all of Maj'Eyal.", "오크들은 길고 슬픈 역사를 갖고 있습니다. 오크들은 호전적인 종족으로 여겨지고, 실제로도 마즈'에이알을 한 번 이상 파멸로 몰고 간 적이 있습니다.", "_t")
+t("But one year ago the Scourge from the West came and wiped four of the five Prides. And a hundred years ago King Toknor wiped all traces of orcs from Maj'Eyal.", "하지만, 1 년 전 서쪽에서 온 재앙이 다섯 긍지 중 네 긍지를 쓸어버렸습니다. 그리고 백여년 전, 토크놀 왕이 마즈'에이알에서 모든 오크들을 쓸어버렸습니다.", "_t")
+t("The orc race is dangerously on the brink of destruction. One wrong move is all that is needed.", "오크 종족은 현재 몰락 직전의 상태입니다. 조금만 잘못해도 멸망의 구렁텅이에 빠지게 됩니다.", "_t")
+t("But they are strong and will face whatever is needed to ensure a future of their own!", "하지만 오크들은 강인하고, 그들 스스로의 미래를 위해 필요한 것이라면 그게 어떤 것이든지 마주할 준비가 되어 있습니다!", "_t")
 t("They possess the #GOLD#Orcish Fury#WHITE# which allows them to increase all their damage for a few turns.", "오크는 몇 턴동안 피해량을 증가시키는 #GOLD#오크의 분노#WHITE# 기술을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +2 힘, +1 민첩, +1 체격", "_t")
@@ -225,13 +279,13 @@ t("Orcs: Embers of Rage", "오크: 분노의 잉걸불", "_t")
 t("The Prides lie in ruins!", "긍지들이 몰락했다!", "_t")
 t("The Sorcerers have been defeated!", "최고봉의 주술사들은 패배했습니다!", "_t")
 t("Orcs in all Var'Eyal are in dismay, hunted by the Sunwall and their newfound allies from the west.", "모든 바르'에이알의 오크들은 경악에 빠진 체, 태양의 장벽과 그들의 서쪽에서 온, 새로운 동료들에 의해 사냥당했습니다.", "_t")
-t("The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "서쪽에서 온 재앙이 다시 서쪽으로 돌아갔지만, 그녀의 유산은 아직 굳건합니다 : 오크 종족은 다시 한번 파멸의 위기에 처하게 되었습니다!", "_t")
+t("The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "서쪽에서 온 재앙이 다시 서쪽으로 돌아갔지만, 그녀의 유산은 아직 굳건합니다: 오크 종족은 다시 한번 파멸의 위기에 처하게 되었습니다!", "_t")
 t("But not all hope is lost.", "하지만 모든 희망이 사라진 것은 아닙니다.", "_t")
 t("On the isolated Clork Peninsula lies the fifth pride: Kruk's Pride; unseen and unharmed by the Scourge.", "고립되어 있던 클로크 반도에는 다섯 번째 긍지가 있었습니다: 바로 크룩 긍지죠. 재앙이 찾지 못했고, 몰락시키지 않은 유일한 긍지입니다.", "_t")
 t("Yet not all is great there either, the Sunwall offensive has set up an outpost blocking the way to the mainland.", "그렇다고 상황이 그렇게 희망적인 것은 아닙니다. 태양의 장벽의 공세를 펼쳤을 떄, 그들은 전초 기지를 만들어 대륙으로 향하는 길을 막아버렸습니다.", "_t")
 t("But the worst threat comes from the peninsula itself, the main inhabitants are not the orcs, but the Atmos Tribe.", "하지만 최악의 위협은 반도 그 안에 존재합니다. 반도의 주요 거주자들은 오크가 아닌 아트모스 부족입니다.", "_t")
 t("A civilization of steam giants whose mastery of steamtech makes them incredible foes.", "증기 공학에 숙달한 증기 거인들의 문명은, 그들의 위험성을 극도로 증대합니다.", "_t")
-t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "오크로 게임을 진행하여, 가치를 증명하세요! 거인들에 대적해 증기 공학 기술을 사용하고, 동쪽의 대륙을 태양의 장벽 쓰레기들에게서 해방시키세요!", "_t")
+t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "오크로 게임을 진행하여, 스스로의 가치를 증명하세요! 거인들에게 대적해 증기 공학 기술을 사용하고, 동쪽의 대륙을 태양의 장벽 쓰레기들에게서 해방시키세요!", "_t")
 t("Craft your own steamsaws, rocket boots, steam powered armours, and all kind of steamy technology!", "증기톱, 로켓 장화, 증기력 갑옷, 그밖의 모든 증기 공학 발명품들을 제작하세요!", "_t")
 t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "이것이 당신의 운명입니다! 가르쿨의 유산을 위해, 긍지의 영광을 위해!", "_t")
 
@@ -443,7 +497,7 @@ t("No thanks.", "사양하지.", "_t")
 section "game/dlcs/tome-orcs/data/chats/metash.lua"
 
 t([[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
-I would like to talk to you.]], [[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
+I would like to talk to you.]], [[#LIGHT_GREEN#*인상적인 언데드 미노타우르스가 서 있습니다.*#WHITE#
 그대와 이야기를 하고 싶다.]], "_t")
 t("Your clan is free Metash, the tyrant is no more.", "네 혈족은 이제 자유다, 메타쉬. 폭군은 죽었어.", "_t")
 t("Soft-foot of the Kruk, I come to give you a warning, an apology, and a plea for help.  An incredible magical force has awakened within one of our elders, Nektosh the One-Horned, and he has gone mad with its power.  Those who stood up against him were reduced to less than ashes by a beam from his horn, a beam that tunneled far up through the rock above him until we could see the sky.  He has convinced some of us that he can use this terrible force to conquer Eyal and terrified others into going along with him; he has announced that his first step will be to lead his followers in an attack on Kruk Pride.", "부드러운 발을 가진 크룩의 일원이여, 난 이곳에 경고를 하러 왔다. 또한 이것은 사과이기도 하고, 간곡히 도움을 청하는 것이기도 하다. 우리의 장로 중 하나인 외뿔의 네크토쉬가 믿기지 않을 정도의 마법의 힘에 눈을 떴다. 그리고 그 힘에 취해 미쳐 버렸지. 놈에게 반기를 든 자들은 놈의 뿔에서 뿜어져 나온 광선에 맞아 잿더미보다도 더 잘게 부수어졌다. 그 광선은 놈의 머리 위의 바위조차 완전히 뚫어서, 우린 그 구멍으로 하늘마저 볼 수 있었다. 놈은 자신의 끔찍한 힘으로 에이알을 정복하고 다른 종족들을 공포에 떨게 만들 수 있다고, 우리 중 몇몇을 설득했다. 놈은 그 정복 계획의 첫 단계가 추종자들을 이끌고 크룩 긍지를 공격하는 것이라고 선언했지.", "_t")
@@ -633,7 +687,7 @@ t("tinkers", "발명품", "_t")
 t("arcane and psi", "마법과 염력", "_t")
 t("runes and infusions", "룬과 주입물", "_t")
 t("tools", "암기", "_t")
-t("Ancient Automated Archive (%s)", "고대의 자동화된 보관소 (%s)", "tformat")
+t("Ancient Automated Archive (%s)", "고대의 자동화된 아카이브 (%s)", "tformat")
 t("An ancient archive of knowledge! You've heard tales of those triangular store devices, holding items and restoring them. For a price.", "고대 지식의 보고입니다! 이런 삼각형 모양 장치들은 물건들을 보관하거나 복구할 수 있다는 이야기를 들은 적이 있습니다. 대가를 지불해야 하지만요.", "_t")
 
 
@@ -1026,12 +1080,12 @@ t("The Twisted Blade", "뒤틀린 칼날", "entity name")
 t("vile, twisted steamsaw", "악랄하게, 뒤틀린 증기톱", "_t")
 t("You see flecks of gold in this vile mass of twisted steel, implying a once great origin. Whatever glory it once had is long gone, replaced by something far more sinister...", "이 끔찍하게 뒤틀린 강철 덩어리에 도금 됐었던 흔적이 남아있어, 한 때 굉장한 걸작이였음이 느껴집니다. 이제, 그 영광은 온데간데없이 사라지고, 사악한 무엇인가가 그 자리를 대신 채웠습니다...", "_t")
 t("Fully heal yourself. (15 turn cooldown)", "최대 생명력으로 회복합니다. (재사용 대기시간 15 턴)", "_t")
-t("Sunstone", "태양돌", "entity name")
+t("Sunstone", "태양석", "entity name")
 t("warm stone", "따뜻한 돌", "_t")
 t("This strange stone shines with the heat of the Sun. Perhaps it could be used to generate more steam?", "이 기이한 돌은 태양의 열기를 발하며 빛납니다. 더 많은 증기를 생성하는데 쓰일 수 있지 않을까요?", "_t")
 t("Overseer", "감독관", "entity name")
 t("cracked mindstar", "깨진 마석", "_t")
-t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "정신벽에 깃들었던 강력한 힘의 조각이 아직도 이 깨지고, 오래된 보석에 남아있습니다.", "_t")
+t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "마인드월의 힘의 조각이 아직도 이 깨지고, 오래된 보석에 남아있습니다.", "_t")
 t("reduces mental save", "정신 내성 감소", "_t")
 t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "반경 %d 칸 내의 한 대상을 %d 턴 동안 정신적으로 지배하거나, 물리적으로 기절시킵니다 (대상의 면역력에 영향을 받고, 성공률은 정신력에 비례합니다)", "tformat")
 t("#Source# psychically dominates #target# through %s %s!", "#Source1# %s %s 통해 #target3# 물리적으로 지배했다!", "logCombat", nil, {[2]="를"})
@@ -1041,7 +1095,7 @@ t("multi-hued", "다색", "entity subtype")
 t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슬랙의 시체에서 떨어저 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정중에 그의 심장이 강렬한 빛을 발하는 수정으로 변한 것 같습니다.", "_t")
 t("Starcaller", "별부르미", "entity name")
 t("black staff", "검은 지팡이", "_t")
-t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "스트라라이트와 보석으로 세공된 빛의 지팡이입니다. 한 낮에서도 별빛을 비추는 것 같습니다.", "_t")
+t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "스트랄라이트와 보석으로 세공된 빛의 지팡이입니다. 한 낮에서도 별빛을 비추는 것 같습니다.", "_t")
 t("Liquid Metal Cloak", "액체 금속 망토", "entity name")
 t("shiny metallic cloak", "빛나는 금속 망토", "_t")
 t("This strange sheet of metal flows with the wind just like a normal cloak. Whoever crafted it was a true master.", "이 이상한 금속 천은 평범한 망토처럼 바람에 흩날립니다. 누가 만들었건, 그는 필히 진정한 장인일 것입니다.", "_t")
@@ -1163,8 +1217,8 @@ t("steel", "강철", "entity short_name")
 t("steel steamgun", "강철 총기", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel steamgun", "드워프 강철 총기", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite steamgun", "스트라라이트 총기", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite steamgun", "스트랄라이트 총기", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun steamgun", "보라툰 총기", "entity name")
 
@@ -1187,8 +1241,8 @@ t("steel", "강철", "entity short_name")
 t("steel steamsaw", "강철 증기톱", "entity name")
 t("d.steel", "드워프", "entity short_name")
 t("dwarven-steel steamsaw", "드워프 강철 증기톱", "entity name")
-t("stralite", "스트라라이트", "entity short_name")
-t("stralite steamsaw", "스트라라이트 증기톱", "entity name")
+t("stralite", "스트랄라이트", "entity short_name")
+t("stralite steamsaw", "스트랄라이트 증기톱", "entity name")
 t("voratun", "보라툰", "entity short_name")
 t("voratun steamsaw", "보라툰 증기톱", "entity name")
 
@@ -1237,7 +1291,7 @@ t("armor", "방어구", "entity type")
 t("cloak", "망토", "entity subtype")
 t("action packed cloak", "흥미진진한 망토", "_t")
 t("Rogue's Gallery", "도둑의 화랑", "entity name")
-t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상화에도요!", "_t")
+t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상황에도요!", "_t")
 t("On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "생명력이 최대 생명력의 20% 이하로 떨어지면, 5 턴 동안 연막을 풀어, 근처의 적에게 혼란을 유발하고, 착용자는 은신하며, 확률적으로 받는 피해를 무효화합니다.", "_t")
 t("cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "착용자가 다음번에 가하는 피해는 방해성 독 중독을 유발하여, (사용되기 전 까지는 충전되지 않습니다) 미약한 독 피해를 가하고, 대상이 10% 확률로 기술의 사용을 실패하게 합니다", "_t")
 t("%s rustproof coating", "%s 녹 방지 코팅", "tformat")
@@ -1260,7 +1314,7 @@ t("well-made", "양질의", "_t")
 t("dwarven steel", "드워프 강철", "_t")
 t("iron", "무쇠", "_t")
 t("steel", "강철", "_t")
-t("stralite", "스트라라이트", "_t")
+t("stralite", "스트랄라이트", "_t")
 t("voratun", "보라툰", "_t")
 t("%s lightning coil", "%s 전기 코일", "tformat")
 t("On critical strikes generates a 3 tiles lightning beam.", "치명타를 가할 시 3 칸 사거리의 전기 광선을 발사합니다.", "_t")
@@ -1340,7 +1394,7 @@ section "game/dlcs/tome-orcs/data/general/objects/tinkers/mechanical.lua"
 t("dwarven steel", "드워프 강철", "_t")
 t("iron", "무쇠", "_t")
 t("steel", "강철", "_t")
-t("stralite", "스트라라이트", "_t")
+t("stralite", "스트랄라이트", "_t")
 t("voratun", "보라툰", "_t")
 t("%s rocket boots", "%s 로켓 장화", "tformat")
 t("%s hand cannon", "%s 핸드 캐논", "tformat")
@@ -1366,7 +1420,7 @@ section "game/dlcs/tome-orcs/data/general/objects/tinkers/smith.lua"
 t("dwarven steel", "드워프 강철", "_t")
 t("iron", "무쇠", "_t")
 t("steel", "강철", "_t")
-t("stralite", "스트라라이트", "_t")
+t("stralite", "스트랄라이트", "_t")
 t("voratun", "보라툰", "_t")
 t("crude", "조잡한", "_t")
 t("good", "괜찮은", "_t")
@@ -1630,7 +1684,7 @@ t("Shoes of Moving Quickly", "빠른 이동의 신발", "entity name")
 t("rocket powered boots", "로켓으로 작동하는 장화", "_t")
 t("Accurately? Less so.", "정확하게라? 그거보다는 좀 덜한데.", "_t")
 t("You move 3 spaces at once.", "한 번에 3 칸을 이동합니다.", "_t")
-t("Band of Protection", "보호의 죔틀", "entity name")
+t("Band of Protection", "보호의 띠", "entity name")
 t("reinforced belt", "강화된 허리띠", "_t")
 t("This belt utilizes an enchanted gem to focus a burst of steam into a powerful barrier.", "이 허리띠는 마법에 걸린 보석을 집중삼아, 뿜어저나오는 증기를 튼튼한 방어벽으로 만듭니다.", "_t")
 t("generate a personal shield that absorbs up to %d damage and damages attackers striking the wearer for %d fire damage while it lasts (based on Cunning)", "개인 보호막을 만들어 최대 %d 피해를 흡수하고, 공격자에게 보복 공격을 가해 %d 화염 피해를 입힙니다 (교활에 비례)", "tformat")
@@ -1767,6 +1821,10 @@ section "game/dlcs/tome-orcs/data/general/stores/orcs.lua"
 
 t("library", "도서관", "entity name")
 t("smith", "야금학", "entity name")
+t("expensive goods", "값비싼 것들", "entity name")
+t("forge", "대장간", "entity name")
+t("aracane psi collector", "마법과 염력 수집가", "entity name")
+t("rune and infusion collector", "룬과 주입물 수집가", "entity name")
 t("tinker", "발명품", "entity name")
 t("tool store", "도구 상점", "entity name")
 
@@ -1777,24 +1835,173 @@ section "game/dlcs/tome-orcs/data/general/traps/ritch.lua"
 t("natural", "자연", "entity type")
 t("sand", "모래", "entity subtype")
 t("trap", "함정", "_t")
+t("sand pit", "모래 구덩이", "entity name")
+t("@Target@ slides into a sand pit!", "@Target1@ 모래 구덩이로 미끄러졌다!", "_t")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/ingredients.lua"
 
+t("lump of iron", "쇳덩어리", "ingredient name")
+t("A lump of iron.", "쇳덩어리입니다.", "_t")
+t("lump of steel", "강철 덩어리", "ingredient name")
+t("A lump of steel.", "강철 덩어리입니다.", "_t")
+t("lump of dwarven steel", "드워프제 강철 덩어리", "ingredient name")
+t("A lump of dwarven steel.", "드워프제 강철 덩어리입니다.", "_t")
+t("lump of stralite", "스트랄라이트 덩어리", "ingredient name")
+t("A lump of stralite.", "스트랄라이트 덩어리입니다.", "_t")
+t("metal", "금속", "ingredient type")
+t("lump of voratun", "보라툰 덩어리", "ingredient name")
+t("A lump of voratun.", "보라툰 덩어리입니다.", "_t")
+t("stack of herbs (viperweed)", "약초 뭉치 (바이퍼위드))", "ingredient name")
+t("stack of herbs (sessali)", "약초 뭉치 (셋살리)", "ingredient name")
+t("stack of herbs (bilberry)", "약초 뭉치 (빌리베리)", "ingredient name")
+t("stack of herbs (burdock)", "약초 뭉치 (버도크)", "ingredient name")
+t("herbs", "약초", "ingredient type")
+t("stack of herbs (goldleaf)", "약초 뭉치 (골드리프)", "ingredient name")
+t("A stack of herbs.", "약초 뭉치입니다.", "_t")
+t("brain in a jar", "병 속의 뇌", "ingredient name")
+t("A still living brain of a powerful psionic creature.", "강력한 초능력을 가진 생명체의 살아 있는 뇌입니다.", "_t")
+t("mechanical core", "기계 핵", "ingredient name")
+t("The core unit of the Automated Defense System.", "자동 방어 시스템의 핵심 유닛입니다.", "_t")
 t("misc", "도구", "ingredient type")
+t("primal core", "원초의 핵", "ingredient name")
+t("The core wood of a great tree.", "훌륭한 나무의 중심부 목재입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/destructicus.lua"
 
+t("kaltor's shop", "칼토르의 가게", "newLore category")
 t("DESTRUCTICUS!", "데스트럭티쿠스!", "_t")
+t([[INTRODUCING!
+
+The most powerful, most fearsome, most awesome weapon ever conceived by giants, men, nature, or anything before us:
+
+#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}#
+
+Containing a warhead laden with explosive runes, alchemical reagents, vile curses, steel drake scales, ritch venom, and little slips of paper bearing most unkind statements about your target's mother
+
+Travelling at a speed which could be charitably described as absurd, and uncharitably described as obscene
+
+Launched with such force that its operator will need a fireproof suit to avoid immolation from the backblast alone (fireproof suit not included)
+
+Absolutely guaranteed to destroy ANY autonomous entity it detonates against!  Orcs!  Dragons!  Golems smaller than a medium-sized village!
+
+A MANDATORY addition to your home or airship!
+
+For pricing, please discuss the matter with Kaltor, and then forget about it entirely.  If price is a factor for you, you almost certainly cannot afford DESTRUCTICUS.
+
+#{italic}#(Disclaimer: We are not responsible for any injuries, deaths, or loss of property resulting from improper transport of DESTRUCTICUS.  We are not responsible for determining the proper method of transporting DESTRUCTICUS.  Additional missiles for DESTRUCTICUS are not available.  Accuracy at ranges greater than DESTRUCTICUS' blast radius is not guaranteed.  We are not responsible for any injuries, deaths, or loss of property resulting from DESTRUCTICUS changing direction in mid-flight.)#{normal}#]], [[소개드립니다!!
+
+거인들도, 인류도, 자연도, 그 외 그 어떤 것들도 상상하지 못했던, 역사상 가장 강력하고, 가장 공포스러우며, 가장 끝내주는 무기!
+
+#{bold}#가차없는 천공의 관통자 데스트럭티쿠스!#{normal}#
+
+폭발성 룬, 연금 시약, 타락의 저주, 강철 드레이크 비늘, 릿치의 독, 그리고 목표물의 어머니에 대한 쌍욕이 한가득 적힌 종이들이 꽉꽉 담긴 탄두!
+
+점잖게 표현하면 터무니없고, 그대로 표현하면 질질 싸게 만들 수준의 탄속!
+
+조종사가 방화복을 입어야 할 정도의 후폭풍을 뿜어내는 어처구니없는 발사 위력! (방화복은 별매입니다)
+
+그 어떤 생명체라도 완전한 파괴를 보장합니다! 오크들도! 용들도! 깡촌만한 크기의 골렘들도!
+
+여러분 자택이나 비행선의 필 수 품!
+
+가격에 대해선 칼토르와 상의한 후에, 까맣게 잊어버리세요. 가격을 신경써야 하는 분이시라면, 아마 확실히 데스트럭티쿠스를 살 형편이 못 되시는 분일 겁니다.
+
+#{italic}#(알림: 저희는 데스트럭티쿠스를 잘못된 방식으로 옮기다가 일어날 수 있는 일체의 상해, 사망, 재물 손괴에 대해서 책임지지 않습니다. 저희는 데스트럭티쿠스를 옮길 적절한 방법을 선택하는 것에 대해서 책임지지 않습니다. 데스트럭티쿠스에 사용 가능한 여분의 미사일은 제공하지 않습니다. 데스트럭티쿠스의 폭발 반경 이상 범위에 대한 명중은 보장하지 않습니다. 저흰 데스트럭티쿠스의 탄도를 발사 이후에 변경하려 시도함으로써 일어날 수 있는 일체의 상해, 사망, 재물 손괴에 대해서 책임지지 않습니다.)#{normal}#]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/dominion-port.lua"
 
+t("'disciplinary report'", "'징계 기록'", "_t")
+t([[DISCIPLINARY REPORT:
+
+-Blackhorn the Brash, theft of personal quantities of Atmos absinthe.  Twenty lashes.
+-Swabbie Grobbo, theft of personal quantities of Shaloren wine.  Twelve lashes.
+-First Mate Grapeshot, improper use of a cannon.  Twenty lashes, demotion.
+-Taroggos, killing crew of targeted supply ship in defiance of client's wishes.  Three lashes.  [i]note: payment received regardless,  all goods retrieved and delivered accordingly[/i]
+-Runty, theft of personal quantities of Dwarven ale.  Eleven lashes.
+-Hamfist, theft of commercial quantities of Ogric brandy.  Fifty lashes, docked pay.
+-Dogchucker the Summoner, disfiguring another crewmember.  Punishment waived.  [i]note: determined to be accident[/i]
+-Tidal Torgor, accidental sinking of friendly vessel.  One thousand lashes, over five days.  [i]note: should be keelhauled but we need all the aquamancers we can get![/i]
+-Lieutenant Grapeshot, improper use of a cannon.  Thirty lashes, demotion.
+-Lady Laggo, skimming profits from loot sales.  Thirty lashes, demotion to punitive duties.
+-Shifty, insubordination.  Ten lashes.
+-Swabbie Grogbreath, insufficient swabbing.  Loss of liquor privileges.
+-Cannoneer Grapeshot, improper use of a cannon.  Thirty lashes, demotion.
+-Pencil-Pusher Pilgo, reassigning Grapeshot to cannoneer position.  Thirty-five lashes.  [i]note: laugh it up you insubordinate punk[/i]
+-Smokey, excessive use of fire onboard flammable ship.  Will not be allowed healing for wounds sustained when hat caught fire.
+-Swabbie Grogbreath, violation of loss of liquor privileges.  Punishment waived.  [i]note: the foul swill he found is punishment enough[/i]
+-Sticks, attempted mutiny.  Keelhauled.
+-Crabhide, support of attempted mutiny.  Keelhauled.
+-Pegfist Pogga, failure to report attempted mutiny.  Keelhauled.
+-Gunner Bilgebloat, fraternizing with attempted mutineers.  Keelhauled.
+-First Mate Brakka, failure to keelhaul enough attempted mutineers.  Keelhauled.
+-Captain Bloody-Keel, excessive keelhauling.  Keelhauled twice.
+-Swabbie Grapeshot, improper use of a mop.  Fifty lashes, demotion.
+]], [[징계 기록:
+
+-성급한 블랙혼, 개인 물품이었던 아트모스산 압생트를 훔침. 채찍질 20대.
+-그로보 수병, 개인 물품이었던 샬로레산 와인을 훔침. 채찍질 20대.
+-그레이프샷 일등 항해사, 대포를 부적절하게 사용함. 채찍질 20대, 강등 조치.
+-타로고스, 의뢰주의 뜻에 반하여 목표 보급선의 선원들을 살해함. 채찍질 3대.  [i]주석: 그래도 보수는 받았고, 물건 또한 잘 배송했음[/i]
+-룬티, 개인 물품이었던 드워프산 맥주를 훔침. 채찍질 11대.
+-햄피스트, 개인 물품이었던 오우거산 브랜디를 훔침. 채찍질 5대, 감봉 조치.
+-소환사 독처커, 다른 선원의 얼굴을 망가뜨림. 처벌 유보.  [i]주석: 사고였던 것으로 여겨짐[/i]
+-파도의 토르골, 아군 선박을 침몰시키는 사고를 저지름. 5일 간에 걸쳐서 채찍질 1000대.  [i]주석: 원래라면 밧줄로 묶어서 잠수시켜야 하지만, 파도술사는 귀중한 전력이다![/i]
+-그레이프샷 이등 항해사, 대포를 부적절하게 사용함. 채찍질 30대, 강등 조치.
+-레이디 라고, 전리품을 팔아 사익을 챙김. 채찍질 30대, 벌로써 봉사 활동에 배정함.
+-시프티, 명령 불복종. 채찍질 10대.
+-그로그브레스 수병, 청소를 소홀히 함. 주류 특권을 회수함.
+-그레이프샷 포수, 대포를 부적절하게 사용함. 채찍질 30대, 강등 조치.
+-연필잡이 필고, 그레이프샷을 포수 자리에 재배치함. 채찍질 35대.  [i]주석: 실컷 웃어둬라, 말 안 듣는 놈.[/i]
+-스모키, 불에 약한 배 위에서 불을 과도하게 사용함. 모자에 불이 붙었을 때 입은 화상을 치료하지 못하게 함.
+-그로그브레스 수병, 주류 특권을 회수한 것을 무시함. 처벌 유보.  [i]주석: 역겨운 흙탕물 같은 술을 마셨으니, 처벌은 그것만으로 충분함[/i]
+-스틱스, 반란을 시도함. 밧줄로 묶어서 잠수시킴.
+-크랩하이드, 반란 시도에 가담함. 밧줄로 묶어서 잠수시킴.
+-못주먹 포가, 반란에 대해 보고하지 않음. 밧줄로 묶어서 잠수시킴.
+-사수 빌지블로트, 반란분자들과 친분을 유지함. 밧줄로 묶어서 잠수시킴.
+-브라카 일등 항해사, 반란분자들을 충분히 잠수시키지 못함. 밧줄로 묶어서 잠수시킴.
+-블러드-키일 선장, 잠수형을 남발함. 밧줄로 묶어서 두 번 잠수시킴.
+-그레이프샷 수병, 대걸레를 부적절하게 사용함. 채찍질 50대, 강등 조치.
+]], "_t")
+t("operations performed", "작전 수행 기록", "_t")
+t([[OPERATIONS PERFORMED:
+
+-With information provided by "Sunny Day," we were able to secure an Allied Kingdoms supply ship during the brief window in which it was unguarded, with no personal casualties.  We technically broke our agreement (Taroggos has been adequately disciplined), but because the ship was carrying more useful materials than expected, we were able to take a hefty supply of troll-sized (or close enough to it) arms and armor, alongside lumber, furniture, and smaller stralite equipment which can be easily melted down and repurposed into something useful, before delivering the promised amount of cargo to "Vapor Trail."  Combined with the payment received from "Sunny Day," we made a significant profit and reinforced our relationship with "Vapor Trail."  (Our relationship with "Sunny Day" is of no consequence; repeat business was unlikely.)
+
+-The last cargo ship I had sent home, the one with countless small crates and the order to confiscate them all and hold onto them for further instruction, contains one crate full of You-Know-What received as payment for a product received via Iron Throne smugglers.  This crate is labelled "47-C."  Dispose of the others, as they are [i]extremely[/i] thoroughly trapped.  The exchange with "Sherry Toll" was mercifully uneventful, and the goods provided appear to be functional.  With all due respect, Boss, if this doesn't get me a promotion, what will?
+
+-Our contacts with the black market of Maj'Eyal and our establishment of a safe trading hub for their activity has continued to be immensely profitable, in addition to providing us an exploitable means of getting objects of our choosing into Maj'Eyal.  "Vapor Trail" has been an eager participant, and we've made a killing off selling Atmos absinthe to the Allied Kingdoms smugglers, as well as selling Elvala wine and brandy to them.  I'll be sending a ship full of our profits (useful metals, alchemical ingredients, slaves) back home on a bi-monthly basis; search the crew to make sure they haven't been lining their pockets, and keelhaul any you catch.
+
+-Crew disobedience and morale continues to be something of a problem, despite regular floggings, but we're still retaining enough of them and getting enough use out of them.  That said, feel free to keep sending sentenced criminals our way - they're surprisingly productive as long as we give them enough booze and cheerblossom.]], [[작전 수행 기록:
+
+-"맑은 날" 이 제공한 정보로, 방비가 허술한 틈을 노려 인명 피해 없이 왕국연합의 보급선을 확보할 수 있었습니다. 사실 계약을 깨먹긴 했지만 (타로고스는 적절하게 처벌했습니다) 그 배가 쓸만한 것들을 상상했던 것보다 더 많이 싣고 있었기 때문에, "꼬리구름" 에 약속했던 물건들을 가져다 주기 전에 트롤 사이즈의 (조금 작을지도 모르겠지만) 무기와 갑옷들, 잡동사니들, 가구들, 그리고 손쉽게 녹여서 다른 쓸만한 것들을 만들 수 있는 쬐끄만 스트랄라이트제 장비들을 많이 얻을 수 있었죠. "맑은 날" 한테서 받은 의뢰비랑 합쳐서 이득을 꽤 짭짤하게 봤고, "꼬리구름" 과의 신뢰 관계도 더 튼튼하게 만들었습니다. ("맑은 날" 과의 관계는 별로 상관이 없을 것 같습니다. 또 일을 같이 하게 될 것 같진 않거든요.)
+
+-조국에 마지막으로 보냈던 화물선 말입니다만, 그 쬐깐한 상자들이 엄청 많이 실려 있고, 안에 든 거 전부 보내라 하시고 나중에 연락 주시겠다고 하셨던 그거 말입니다. 거기에 '그거' 로 가득찬 상자가 하나 들어 있습니다. 철의 왕좌 밀수꾼 놈들한테 받은 걸 줘서, 그 대가로 받은 것입죠. "47-C" 라고 이름표 붙여진 상자입니다. 다른 상자들은 싹 다 버리십쇼, [i]하나도 빠짐없이[/i] 함정을 담아 두었으니까. "쉐리 톨" 과의 거래는 다행스럽게도 별 탈 없이 끝났고, 받은 물건들도 다 멀쩡히 작동하는 것 같습니다. 이 정도면 확실히 승진 감 아닙니까, 보스?
+
+-마즈'에이알의 암시장과는 접촉하기가 쉽고, 우리가 그쪽에다 안전하게 거래할 수 있도록 거점을 만들어 줘서 우린 지금 떼돈을 벌고 있습니다. 게다가 마즈'에이알 쪽에서 원하는 물건을 그쪽으로 보낼 수 있는 수단도 있습죠. "꼬리구름" 쪽에서도 열정적으로 가담하고 있고, 아트모스산 압생트를 왕국연합 쪽 밀수꾼 녀석들에게 넘겨서 또 큰 돈을 벌었습니다. 엘발라산 와인과 브랜디를 "꼬리구름" 쪽에 넘기는 일도 비슷하게 수익을 내고 있고요. 이득 본 것들 (쓸만한 금속들, 연금술 재료들, 노예들) 은 배에다가 꽉꽉 실어서 격월로 조국으로 보내겠습니다. 선원 중 그것들로 자기 주머니 채우는 놈을 찾았으면, 그 놈은 곧바로 배 아랫쪽이 어떻게 생겼는지 구경 좀 시켜 주십쇼.
+
+-선원들이 계속 말을 안 듣고 의욕도 없어서 골치입니다. 채찍질을 해도 별로 달라지는 게 없지만, 그래도 아직까진 인원도 충분하고 놈들을 잘 써먹고 있습니다. 뭐, 말은 그렇게 했지만 죄를 저지른 놈들을 계속 보내 주십쇼. 술이랑 치어블로섬을 계속 주기만 하면 쉴새 없이 일을 해 주니까요.]], "_t")
+t("dominion port", "자치령 항구", "newLore category")
+t("overall analysis", "종합 분석", "_t")
+t([[OVERALL ANALYSIS:
+
+Boss, if there's one thing I can say, it's that you didn't make a mistake by pardoning me and my crew.  The materials I've shipped home have surely been invaluable for our preparations, and the moment the top brass decides they want to start the invasion, I can start spiking the outgoing liquors and cheerblossom with time-delay potions of your choice, crippling the Allied Kingdoms from within by starting a plague or turning every minor lawbreaker into a berserk madman.  If nothing else, the You-Know-What will be [i]very[/i] useful when push comes to shove.
+
+As per your orders, we've restricted most of our intervention to sabotaging the Allied Kingdoms, but I wonder if some amount of focus on the orcs would be helpful.  A band of them has recently emerged from the Clork Peninsula, victorious over Sun Paladins and Atmos alike; we've lost contact with "Sunny Day," and "Vapor Trail" has kept exports to a minimum for fear of detection.  If we don't do something about this soon, they may become a bigger obstacle than the Allied Kingdoms.
+
+I await your reply - and more dried meat, my crew loves the stuff and these smugglers can't be arsed to bring us something so mundane.]], [[종합 분석:
+
+보스, 딱 하나만 이야기 하겠습니다. 저랑 제 선원들을 선택한 건 훌륭한 선택이었어요. 제가 조국으로 보낸 물건들은 우리가 준비하는 거에 충분히 도움이 되었을 거고, 윗분들은 침공을 시작하고 싶어 하는 것 같은데, 그러니까 이제 보스가 말씀하셨던 대로 지연 효과가 있는 물약에다가 술이랑 치어블로섬을 섞겠습니다. 왕국연합은 역병이 들끓게 된다던가 온갖 잡범들이 갑자기 분노로 미쳐서 날뛰게 된다던가 하면서 심각한 피해를 받게 될 겁니다. 그것들이 전부 실패하더라도 '그것' 이 제 역할을 [i]아주[/i] 잘 해줄 거고요.
+
+명령하신 대로, 왕국연합에다가 뭔가 사보타주를 한다던가 하는 건 자제하고 있습니다. 하지만 제 생각엔 오크들을 좀 더 신경써야 할 것 같습니다. 오크 몇 놈들이 최근에 클로크 반도에 나타났었고, 그 놈들한테 태양의 기사들도, 아트모스 녀석들도 모두 당했습니다. 지금 "맑은 날" 이랑 연락이 안 되고, "꼬리구름" 은 발각될까봐 물건을 최소한으로만 내놓고 있습죠. 저 놈들을 그냥 내버려 두면, 왕국연합보다 더 큰 걸림돌이 될 수도 있을 겁니다.
+
+답신 기다리겠습니다 - 그리고 말린 고기도 더 보내 주십쇼. 선원들이 그걸 참 좋아하는데, 밀수꾼 친구들한테선 그런 흔해빠진 물건을 구할 수는 없거든요.]], "_t")
 
 
 ------------------------------------------------
@@ -1882,6 +2089,9 @@ section "game/dlcs/tome-orcs/data/maps/zones/worldmap.lua"
 
 t("Far East", "동쪽 대륙", "_t")
 t("Var'Eyal", "바르'에이알", "_t")
+t("WARNING", "경고", "_t")
+t("Danger!", "위험!", "_t")
+t("Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territory. Likely far too dangerous for you!", "경고, 서쪽으로 가면 #CRIMSON##{bold}#아트모스 부족#{normal}##LAST#의 영토입니다. 무척이나 위험할 겁니다!", "_t")
 t("Clork Peninsula", "클로크 반도", "_t")
 
 
@@ -2141,13 +2351,15 @@ t("You extract the psychoportation beacon from the mind controller. Yetis will r
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/resolvers.lua"
 
+t("Using medical injector with %d%% efficiency and %d%% cooldown modifier.", "의료용 주사기를 %d%% 효율과 %d%% 변동된 재사용 대기시간으로 사용합니다.", "tformat")
+t("No medical injector available, values are indicative only.", "사용 가능한 의료용 주사기가 없습니다. 표시되어 있는 값은 기본치일 뿐입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents.lua"
 
 t("a steamtech power", "증기력", "_t")
-t("a technomancy spell", "테크노멘시 주문", "_t")
+t("a technomancy spell", "마도공학 주문", "_t")
 
 
 ------------------------------------------------
@@ -2874,8 +3086,8 @@ t([[With a gesture of your cloak, you drop a small incendiary device in front of
 		Damage increases with your steampower.]], [[망토를 작게 흔들어, 시전자 앞에 조그마한 증기 발생 장치를 떨어뜨립니다. 이 장치는 %d 칸에 걸친 두꺼운 증기를 생성하고, 이 증기는 5 턴 동안 증기 내의 모든 적을 불태워 %0.2f 화염 피해를 주고, 시야를 가로막습니다.
 		기술 레벨 5 일 때, 이 기술은 너무나 완벽해져, 시전자를 추격하던 적들이 시전자의 위치를 완전히 놓처버리게 됩니다.
 		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Embedded Restoration Systems", "원격 회복 시스템", "talent name")
-t("#LIGHT_BLUE#%s's embedded restoration system activate.", "#LIGHT_BLUE#%s의 원격 회복 시스템이 가동된다.", "logSeen")
+t("Embedded Restoration Systems", "내장형 회복 시스템", "talent name")
+t("#LIGHT_BLUE#%s's embedded restoration system activate.", "#LIGHT_BLUE#%s의 내장형 회복 시스템이 가동된다.", "logSeen")
 t("%s activates %s cloak's restoration systems!", "%s %s 망토의 회복 시스템을 활성화했다!", "logSeen", nil, {"가"})
 t("%s deactivates %s cloak's restoration systems.", "%s %s 망토의 회복 시스템을 비활성화했다.", "logSeen", nil, {"가"})
 t([[Your cloak is lined with an automated health system that activate when no enemies are visible.
@@ -2889,7 +3101,7 @@ t("Cloaking Device", "은폐 장치", "talent name")
 t("You require a cloak to use this talent.", "이 기술을 사용하기 위해서는 망토를 장착해야 한다.", "logPlayer")
 t([[Trigger an array of small mirrors to appear all over your cloak.
 		The mirrors are positioned to reflect all light shining on you, granting %d stealth power for 10 turns.
-		Stealth power increases with your steampower.]], [[장치를 가동해, 수 많은 작은 거울들을 망토 위에 배열합니다.
+		Stealth power increases with your steampower.]], [[장치를 가동해, 수많은 작은 거울들을 망토 위에 배열합니다.
 		거울들은 시전자를 비추는 모든 빛을 반사시켜, 10 턴 동안 은신력을 %d 상승시킵니다.
 		은신력은 증기력에 비례하여 증가합니다.]], "tformat")
 
@@ -3216,7 +3428,7 @@ t([[While your foes are distracted by your Awesome Toss, you use powerful steam 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/steam/engineering.lua"
 
-t("Emergency Steam Purge", "긴급 증기 제거", "talent name")
+t("Emergency Steam Purge", "긴급 증기 방출", "talent name")
 t([[You open all steam valves at once, releasing a radius %d wave of superheated steam around yourself which deals %0.2f fire damage (but can not be a critical hit).
 		If you had at least 35 steam, the vapours will be so hot that they can burn sensory organs, blinding affected creatures for %d turns.
 		The effects scale with your current steam value; at 1 steam they are only 15%% as effective as at 50 or more (current factor %d%%).]], [[모든 증기 밸브를 일시에 개방해, 반경 %d 칸의 초고열 증기파를 뿜어냅니다. 증기는 %0.2f 화염 피해를 가합니다. (하지만 치명타는 일어나지 않습니다)
@@ -3328,14 +3540,14 @@ t("Steamgun Mastery", "총기 숙련", "talent name")
 t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamguns.
 		Also, increases your reload rate by %d.]], [[총기를 사용할 때, 무기 피해가 %d%%, 물리력이 30 증가합니다
 		추가로, 한번에 %d 발의 탄환을 추가로 재장전할 수 있게 됩니다.]], "tformat")
-t("Double Shots", "쌍탄", "talent name")
+t("Double Shots", "이중사격", "talent name")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 t([[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
 Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns.
 		The stun chance increases with your Steampower.]], [[압도적인 사격 실력을 보여주며, 총기를 빠르게 연사합니다.
 총알 마다 %d%% 피해를 주고 대상을 %d 턴 동안 기절시킵니다. (2 발의 총알은 대상을 따로 설정할 수 있습니다)
 		기절 확률은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Uncanny Reload", "초자연적인 재장전", "talent name")
+t("Uncanny Reload", "놀라운 재장전", "talent name")
 t([[You focus on managing your steamgun ammo for %d turns.
 		While the effect lasts your attacks do not consume shots.]], [[%d 턴 동안 총기의 탄환을 관리하는데 집중합니다.
 		효과 발동 중, 매 사격은 탄환을 소모하지 않습니다.]], "tformat")
@@ -4253,12 +4465,12 @@ t([[#GREY#Applying you cunning plans, you escape death by turning to undeath in 
 #{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#자신을 위한 교활한 계획을 새워, 언데드로 변해 죽음에게서 벗어납니다!
 
 #{italic}#당신은 언데드가 된캐릭터의 외형을 변경할 수 있습니다. 지금 당신이 적용한 외형은 이후에 변경할 수 없습니다.]], "_t")
-t("Rak'Shor's Cunning", "락쇼르의 비술", "_t")
+t("Rak'Shor's Cunning", "락'쇼르의 비술", "_t")
 t("Cosmetic Options", "치장 옵션", "_t")
 t("Customize Appearance", "외형 변경", "_t")
 t("Use Default", "기본 사용", "_t")
-t("Rak'Shor's Cunning (Skeleton)", "락쇼르의 비술 (스켈레톤)", "_t")
-t("Rak'Shor's Cunning (Ghoul)", "락쇼르의 비술 (구울)", "_t")
+t("Rak'Shor's Cunning (Skeleton)", "락'쇼르의 비술 (스켈레톤)", "_t")
+t("Rak'Shor's Cunning (Ghoul)", "락'쇼르의 비술 (구울)", "_t")
 t([[Set up some cunning contingency plans in case of death.
 		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
 		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
@@ -4890,9 +5102,9 @@ t("Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithin
 t("Acid Groove", "산성물질 분사기", "_t")
 t("Allows your weapon to spray caustic acid on hit, reducing armor.", "명중 시 방어력을 감소시키는 부식성 산성 물질을 무기에서 뿜을 수 있게됩니다.", "_t")
 t("Brain Cap", "두뇌 차폐막", "_t")
-t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "스트라라이트로 제작된 틀 안에 두뇌가 담긴 통을 장착합니다. 이 경이로운 발명품은 정신 저항을 향상시키고, 강력한 마법 방해 파장을 내뿜을 수 있게합니다.", "_t")
+t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "스트랄라이트로 제작된 틀 안에 두뇌가 담긴 통을 장착합니다. 이 경이로운 발명품은 정신 저항을 향상시키고, 강력한 마법 방해 파장을 내뿜을 수 있게합니다.", "_t")
 t("Brain Flare", "두뇌 신호기", "_t")
-t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "스트라라이트로 제작된 틀 안에 두뇌가 담긴 통을 장착합니다. 이 경이로운 발명품은 정신 저항을 향상시키고, 적의 정신에 침투해, 적을 조종할 수 있게합니다.", "_t")
+t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "스트랄라이트로 제작된 틀 안에 두뇌가 담긴 통을 장착합니다. 이 경이로운 발명품은 정신 저항을 향상시키고, 적의 정신에 침투해, 적을 조종할 수 있게합니다.", "_t")
 t("Waterproof Coating", "방수 코팅", "_t")
 t("Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "오래된 망토가 물에 너무 쉽게 젖는다구요? 여러분이 필요하신 건 바로 방수 코팅입니다!", "_t")
 t("Fireproof Coating", "방화 코팅", "_t")
@@ -4902,7 +5114,7 @@ t("What is better than throwing sand in someone's face? Throwing sand that shine
 t("Itching Powder", "가려움 가루", "_t")
 t("The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "'기어다니는 개미' 가려움 가루는 여러분들의 적들을 복잡한 행동을 하지 못하게 할거예요!", "_t")
 t("Rogue's Gallery", "도둑의 화랑", "_t")
-t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상화에도요!", "_t")
+t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상황에도요!", "_t")
 t("flash powder", "섬광 가루", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
@@ -6163,7 +6375,7 @@ For the Pride, for Garkul's legacy !
 당신은 긍지높지만 쇠퇴하고 있는 오크 종족의 일원이었습니다.
 
 지난 수천년 간 당신의 종족은 다른 이들로부터 증오를 받아 왔고, 사냥당했으며, 무자비하게 살해당했습니다. 그들은 또한 수많은 잔혹 행위와 파괴를 자행했습니다.
-하지만 지금, 오크 종족은 절멸의 위기에 처해 있습니다. 바르'에이알에 있던 요새들은 모두 태양의 장벽, 또는 #{italic}#서쪽에서 온 재앙#{normal}#이라 불리는 자의 손에 파괴되었습니다.
+하지만 지금, 오크 종족은 절멸의 위기에 처해 있습니다. 바르'에이알에 있던 요새들은 모두 태양의 장벽, 또는 오크들이 #{italic}#서쪽에서 온 재앙#{normal}#이라 부르는 자의 손에 파괴되었습니다.
 본토에 있던 네 개의 긍지들은 사라졌습니다. 그들은 모두 패배했으며 극소수의 인원들만이 도망칠 수 있었습니다.
 
 오직 클로크 반도에 있던 크룩 긍지만이 아직까지 남아 있지만, 얼마나 더 버틸 수 있을까요?
@@ -6206,7 +6418,7 @@ For the orcs, for Garkul's legacy !
 태양의 장벽 전초기지가 본토로 가는 길을 막아 버렸고, 반도 자체도 증기 공학에 통달한 호전적인 종족인 증기 거인들의 고향이기도 합니다.
 
 그리고 지금 거인들이 산에 굴을 파내서 크룩 긍지까지 도달했고, 크룩의 군사들이 없는 틈을 타서 긍지를 완전히 뿌리뽑으려 하고 있습니다.
-무슨 수를 써서든 막아야 합니다. 크룩 긍저마저 패배한다면 오크 종족 자체가 그 뒤를 따르게 될 테니까요.
+무슨 수를 써서든 막아야 합니다. 크룩 긍지마저 패배한다면 오크 종족 자체가 그 뒤를 따르게 될 테니까요.
 
 당신은 폭탄을 하나 골라잡았고, 이제 터널로 들어가서 취약한 부분에 터뜨려 무너뜨려야 합니다.
 오크를 위하여, 가르쿨의 유산을 위하여!
@@ -6466,9 +6678,32 @@ Talents:
 section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
 
 t("Steam", "증기", "_t")
+t("Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "증기의 현재 잔량입니다. 증기는 기술적인 것들 대부분의 동력으로 사용됩니다. 최대량을 늘리는 것은 극히 어렵지만, 빠르게 재생됩니다.", "_t")
+t("Object held in your tail. It can be a steamgun or steamsaw.", "꼬리로 잡고 있는 물건입니다. 증기총이나 증기톱을 잡을 수 있습니다.", "_t")
+t("Tail", "꼬리", "_t")
+t("SteamTech", "증기 공학", "_t")
+t("Steampower: #00ff00#%s", "증기력: #00ff00#%s", "tformat")
 t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
+t("Steam speed : #00ff00#%s", "증기 속도 : #00ff00#%s", "tformat")
+t("Powered by ", "작동 방식: ", "_t")
 t("steamtech", "증기 공학", "_t")
+t("Steampower: ", "증기력: ", "_t")
+t("Steam crit. chance: ", "증기 치명타 확률: ", "_t")
+t("Steamtech Speed: ", "증기 공학 속도: ", "_t")
+t("Steam each turn: ", "턴 당 증기 회복량: ", "_t")
+t("Maximum steam: ", "최대 증기량: ", "_t")
+t("You may not shoot while using a heavy weapon.", "중화기 사용 중에는 사격할 수 없다.", "logPlayer")
+t("lost tinker", "길 잃은 발명가", "_t")
+t("Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "도와주세요! 새로운 증기공학 기술들을 시험하다가 이곳에서 길을 잃었습니다. 근처에 친구가 남겨준 귀환용 차원문이 있지만, 전 지금까지 너무 많이 싸웠고, 그곳까지 못 갈까봐 두렵습니다. 절 도와주시겠습니까?", "_t")
+t("%s, the experimenting tinker", "시험 중이던 발명가 %s", "_t")
 t("She looks tired and wounded.", "그녀는 지쳐 보이고 다친 것 같습니다.", "_t")
+t("[Ask where to learn tinkers crafting]", "[발명 기술을 어디서 배울 수 있는지 묻는다]", "_t")
+t("Reveal the location of a teacher.", "발명 기술을 배울 수 있는 곳을 알아낼 수 있습니다.", "_t")
+t("She points a location on your map, in a remote area to the north.", "그녀는 그 장소를 지도에 표시해 주었다. 북쪽의 외딴 곳이다.", "_t")
+t("Tinker's Master", "발명의 대가", "_t")
+t("You are given a strange metal contraption, explaining that using it will transport you to tinker's cave.", "이상한 금속 장치를 받았다. 이걸 쓰면 발명가의 동굴로 순간이동할 수 있다고 한다.", "_t")
+t("gained knowledge of tinker technology", "발명 기술에 대한 지식을 얻었다", "_t")
+t("Steamtech", "증기 공학", "_t")
 t("I've changed my mind.", "생각을 바꿨어.", "_t")
 t("Which kind of item would you like ?", "어떤 종류의 물건이 필요해?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
@@ -6488,6 +6723,9 @@ t("Oh well, maybe later then.", "그래? 그럼 나중에.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/class/interface/PartyTinker.lua"
 
+t("Impossible to create %s(%s)", "만들 수 없음: %s(%s)", "tformat")
+t("Created tinker: %s", "만들어낸 발명품: %s", "saySimple")
+t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "새로운 발명품의 설계도를 배웠다: #LIGHT_GREEN#%s", "saySimple")
 
 
 ------------------------------------------------
@@ -6495,34 +6733,69 @@ section "game/dlcs/tome-orcs/overload/mod/dialogs/CreateTinker.lua"
 
 t("Tinkers", "발명가", "_t")
 t("Search: ", "찾기: ", "_t")
-t("Tinker", "발명가", "_t")
+t("Tinker", "발명품", "_t")
+t("Slot", "부위", "_t")
+t("School", "학파", "_t")
 t("Status", "상태", "_t")
+t("Create", "제작", "_t")
+t("Tier 1", "등급 1", "_t")
+t("Tier 2", "등급 2", "_t")
+t("Tier 3", "등급 3", "_t")
+t("Tier 4", "등급 4", "_t")
+t("Tier 5", "등급 5", "_t")
+t("Requires talents:", "요구 기술:", "_t")
+t("Requires ingredients:", "필요한 재료:", "_t")
+t(" (You have: %s)", " (갖고 있는 개수: %s)", "tformat")
+t("Requires items:", "필요한 물건:", "_t")
 t("Requires:", "요구사항:", "_t")
+t("Example Item:", "결과물 예시:", "_t")
+t("body", "몸통", "_t")
+t("create tier( %s )", "제작 등급( %s )", "tformat")
+t("missing reqs", "재료/기술 부족", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/class/Actor.lua"
 
+t("#FFD700#St. power#FFFFFF#: ", "#FFD700#증기력#FFFFFF#: ", "_t")
+t("Kruk Invasion", "크룩 침공", "_t")
+t("You can not recall until you have placed the bomb at the tunnel's end!", "터널의 끝에 폭탄을 설치하기 전까진 돌아갈 수 없습니다!", "_t")
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
 t("time-warped paper scrap", "시간이 뒤틀린 종이 조각", "_t")
 t("It came a long way away!", "저건 저 멀리에서 왔어!", "_t")
+t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "#LIGHT_BLUE#시공간이 순간적으로 요동쳤고 다른 시간선에서 메모가 떨어져 나왔다!", "saySimple")
+t("You gain %0.2f gold from the melting of %s.", "%s 녹여 %0.2f 골드를 얻었다.", "log", {2,1}, {"를"})
 t("APE", "추출기", "_t")
+t("When you close the inventory window, all items in the APE will be melted.", "인벤토리 창을 닫으면, 추출기 내의 모든 물건들이 녹게 됩니다.", "_t")
+t("melt down", "녹인다", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/class/Game.lua"
 
+t("Race: Yeti", "종족: 예티", "_t")
+t("Race: Whitehooves", "종족: 화이트후프", "_t")
+t("Class tree: Undead drake", "직업 계열: 사룡", "_t")
+t("Cosmetic: orcs", "외형: 오크", "_t")
+t("Build Option: Tinkers in Maj'Eyal Campaign", "빌드 옵션: 마즈'에이알 캠페인에서 발명가 사용", "_t")
+t("Build Option: Mages in Orcs Campaign", "빌드 옵션: 오크 캠페인에서 마법사 사용", "_t")
+t("Build Option: Rogues in Orcs Campaign", "빌드 옵션: 오크 캠페인에서 도적 사용", "_t")
+t("Build Option: All classes in Orcs Campaign", "빌드 옵션: 오크 캠페인에서 모든 직업 사용", "_t")
+t("Class: Psyshot", "직업: 싸이샷", "_t")
+t("Class evolution: Technomancer", "직업 진화: 마도공학자", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/class/Object.lua"
 
+t("You have no medical injector available.", "사용 가능한 의료용 주사기가 없습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/class/Projectile.lua"
 
+t("#PURPLE#Automated Reflex System activated!", "#PURPLE#자동 반사작용 시스템이 활성화됐다!", "log")
 
 
 ------------------------------------------------
@@ -6534,25 +6807,72 @@ t("%s is knocked back!", "%s 밀려났다!", "logSeen", nil, {"가"})
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/class/interface/Combat.lua"
 
+t("#{bold}#%s's tinker attains critical power!#{normal}#", "#{bold}#%s의 발명품이 치명적인 위력을 발휘했다!#{normal}#", "logSeen")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/class/interface/TooltipsData.lua"
 
+t([[#GOLD#Steam#LAST#
+Steam is created by special generators and is used to power most technological things.
+It is very hard to increase your maximum steam capacity, but it regenerates quickly.
+Use it or lose it fast.
+]], [[#GOLD#증기#LAST#
+증기는 특수한 발전기로 생성되며 기술적인 것들 대부분의 동력으로 사용됩니다.
+최대량을 늘리는 것은 극히 어렵지만, 빠르게 재생됩니다.
+사용하지 않으면 빠르게 감소합니다.
+]], "_t")
+t([[#GOLD#Steampower#LAST#
+Your steampower represents how powerful and effective your steamtech abilities are.
+It is similar to Physical Power but is improved with Cunning.
+]], [[#GOLD#증기력#LAST#
+증기력은 당신의 증기 공학 능력들이 얼마나 강력하고 효과적인지를 나타냅니다.
+물리력과 유사하지만, 교활 능력치에 비례해 상승합니다.
+]], "_t")
+t([[#GOLD#Steamtech critical chance#LAST#
+Each time you deal damage with a steamtech - based attack you may have a chance to perform a critical hit that deals extra damage.
+Some talents allow you to increase this percentage.
+It is improved by Cunning.
+]], [[#GOLD#증기 공학 치명타 확률#LAST#
+증기 공학에 기반한 공격으로 피해를 가할 때마다 치명타로 추가 피해를 가할 확률이 있습니다.
+어떤 기술들은 이 확률을 올려 주기도 합니다.
+교활 능력치에 비례해 상승합니다.
+]], "_t")
+t([[#GOLD#Steamtech speed#LAST#
+Steamtech speed represents how fast you use your steamtech - powered abilities compared to normal.
+Higher is faster.
+]], [[#GOLD#증기 공학 속도#LAST#
+증기 공학 속도는 당신이 증기 공학 기술들을 사용하는 속도가 기본 속도에 비해 얼마만큼 빠른가를 나타냅니다.
+수치가 높을 수록 더 빠릅니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/dialogs/Birther.lua"
 
+t([[Thank you for purchasing #CRIMSON#Embers of Rage#WHITE#, the second expansion pack of Tales of Maj'Eyal.
+
+To begin your steamy adventures of hot metal mayhem simply select the #LIGHT_GREEN#Embers of Rage Campaign#WHITE# and be on your way to glory!
+
+Have fun crushing the foes of the Pride!
+]], [[테일즈 오브 마즈'에이알의 두 번째 확장팩, #CRIMSON#분노의 잉걸불#WHITE#을 구입해 주셔서 감사합니다.
+
+화끈한 금속들과 증기 기술과 함께하는 모험을 시작하려면, 그냥 #LIGHT_GREEN#분노의 잉걸불 캠페인#WHITE#을 선택하시고 영광의 길을 걸으세요!
+
+긍지의 적들을 쳐부수면서, 재밌게 즐기세요!
+]], "tformat")
+t("Welcome to #CRIMSON#Embers of Rage", "어서 오십시오, #CRIMSON#분노의 잉걸불에", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/dialogs/LevelupDialog.lua"
 
+t("Steampower: ", "증기력: ", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/superload/mod/dialogs/debug/DebugMain.lua"
 
+t("Learn all schematics", "모든 설계도를 배운다", "_t")
 
 

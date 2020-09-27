@@ -35,7 +35,7 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 section "game/dlcs/tome-cults/data/birth/drem.lua"
 
 t("Drem", "드렘", "birth descriptor name")
-t("Faceless, but not mindless.", "얼굴없는, 하지만 정신은 존재합니다.", "_t")
+t("Faceless, but not mindless.", "얼굴없는 자들이지만, 정신은 존재합니다.", "_t")
 t("Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "드렘은 정신이 존재하지 않는 돌연변이로, 대지 깊은 곳에서 오랫동안 살아왔습니다. 그러던 드렘들 사이에 지각이 존재하는 드렘이 나타난 것은 매우 최근의 일입니다. 드렘들은 여전히 에이알의 지각 깊은 곳에 숨어, 자신들이 땅 위의 종족들에게 환영 받지 못할 것이라고 믿고있습니다.", "_t")
 t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "드렘은 재사용 대기시간을 무시하게 하는 #GOLD#폭주#WHITE# 기술을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")

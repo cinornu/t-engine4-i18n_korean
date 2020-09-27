@@ -2815,254 +2815,12 @@ t("All prophecies that can be used with Twofold Curse.", "All prophecies that ca
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/achievements/special.lua"
--- 40 entries
-t("No mercy!", "No mercy!", "achievement name")
-t("Killed 1000 steam giants civilians.", "Killed 1000 steam giants civilians.", "_t")
-t("Mercy, mercy!", "Mercy, mercy!", "achievement name")
-t("Killed Talosis without any civilians deaths.", "Killed Talosis without any civilians deaths.", "_t")
-t("This will make a big Omelette!", "This will make a big Omelette!", "achievement name")
-t("Collected 40 ritch eggs in the Ritch Hive.", "Collected 40 ritch eggs in the Ritch Hive.", "_t")
-t("An Other Brick in the Wall", "An Other Brick in the Wall", "achievement name")
-t("Defeated Aeryn in the Gates of Morning without destroying the Observatory nor using ritches help.", "Defeated Aeryn in the Gates of Morning without destroying the Observatory nor using ritches help.", "_t")
-t("No Steam, No Palace. No Palace, No Palace!", "No Steam, No Palace. No Palace, No Palace!", "achievement name")
-t("Destroyed the Palace of Fumes without first destroying the geothermal valves in the Steam Quarry.", "Destroyed the Palace of Fumes without first destroying the geothermal valves in the Steam Quarry.", "_t")
-t("Here, I Think You Dropped This", "Here, I Think You Dropped This", "achievement name")
-t("Killed Ureslak the Eternal while wielding Ureslak's Femur.", "Killed Ureslak the Eternal while wielding Ureslak's Femur.", "_t")
-t("Do not go gentle into that good night", "Do not go gentle into that good night", "achievement name")
-t("Trapped John.", "Trapped John.", "_t")
-t("I did not want that!", "I did not want that!", "achievement name")
-t("Tricked Nektosh into killing one of his own people.", "Tricked Nektosh into killing one of his own people.", "_t")
-t("We weren't kidding!", "We weren't kidding!", "achievement name")
-t("Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "_t")
-t("Make Him Squirm", "Make Him Squirm", "achievement name")
-t("Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "_t")
-t("True Savior", "True Savior", "achievement name")
-t("Freed all the Orc Prides without killing a single mind-controlled orc.", "Freed all the Orc Prides without killing a single mind-controlled orc.", "_t")
-t("Mender", "Mender", "achievement name")
-t("Destroyed the bosses of the Primal Forest without killing any uncorrupted treants.", "Destroyed the bosses of the Primal Forest without killing any uncorrupted treants.", "_t")
-t("Sufficiently Advanced Technology", "Sufficiently Advanced Technology", "achievement name")
-t("Put five points into each of the tinker-crafting talents as any mage class.", "Put five points into each of the tinker-crafting talents as any mage class.", "_t")
-t("Radiant Horrorc", "Radiant Horrorc", "achievement name")
-t("While fighting in a Sunwall zone, use a Fiery Salve to reach at least 66% affinity for Fire and Light. Pointing and laughing is optional.", "While fighting in a Sunwall zone, use a Fiery Salve to reach at least 66% affinity for Fire and Light. Pointing and laughing is optional.", "_t")
-t("Blood on the Moon", "Blood on the Moon", "achievement name")
-t("Kill all of the Star Gazers within 7 game turns.", "Kill all of the Star Gazers within 7 game turns.", "_t")
-t("Once Upon A Time, In the West...", "Once Upon A Time, In the West...", "achievement name")
-t("Hear the Eidolon's retelling of the Scourge from the West's journey.", "Hear the Eidolon's retelling of the Scourge from the West's journey.", "_t")
-t("A Fistful of Gold", "A Fistful of Gold", "achievement name")
-t("Buy an item from an AAA.", "Buy an item from an AAA.", "_t")
-t("For a Few Gold More", "For a Few Gold More", "achievement name")
-t("Completely deplete an AAA's stock.", "Completely deplete an AAA's stock.", "_t")
-t("The Good, The Bad, and The Yeti", "The Good, The Bad, and The Yeti", "achievement name")
-t("Use mind-controlled yetis to kill 30 foes.", "Use mind-controlled yetis to kill 30 foes.", "_t")
-t("Total Annihilation: Redundancy", "Total Annihilation: Redundancy", "achievement name")
-t("Wield the Annihilator as an Annihilator.", "Wield the Annihilator as an Annihilator.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/achievements/story.lua"
--- 14 entries
-t("Across the Narrow Sea", "Across the Narrow Sea", "achievement name")
-t("Destroyed the Sunwall Outpost to secure a way to the mainland.", "Destroyed the Sunwall Outpost to secure a way to the mainland.", "_t")
-t("Reclaiming Garkul's Heritage", "Reclaiming Garkul's Heritage", "achievement name")
-t("Freed the remnants of the Prides from the Internment Camp.", "Freed the remnants of the Prides from the Internment Camp.", "_t")
-t("The High Lady's Destiny (Finale)", "The High Lady's Destiny (Finale)", "achievement name")
-t("Crushed High Sun Paladin Aeryn and with her destroyed the bastion of the Sunwall.", "Crushed High Sun Paladin Aeryn and with her destroyed the bastion of the Sunwall.", "_t")
-t("One Ill Turn Deserves Another", "One Ill Turn Deserves Another", "achievement name")
-t("The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "_t")
-t("The Dead God Rests", "The Dead God Rests", "achievement name")
-t("You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "_t")
-t("To the Bitter End", "To the Bitter End", "achievement name")
-t("You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "_t")
-t("Imp'ing Away", "Imp'ing Away", "achievement name")
-t("You have spared the last remnants of the Atmos Tribe, showing mercy where others gave none to the orcs.", "You have spared the last remnants of the Atmos Tribe, showing mercy where others gave none to the orcs.", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
 -- 4 entries
 t("#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "logCombat")
 t("%s", "%s", "tformat")
 t("release a burst of light dealing damage equal to your cunning plus your magic in a ball of radius 2. If the target is undead, the damage and radius are doubled.", "release a burst of light dealing damage equal to your cunning plus your magic in a ball of radius 2. If the target is undead, the damage and radius are doubled.", "_t")
 t("red striped steamsaw", "red striped steamsaw", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/general/stores/orcs.lua"
--- 4 entries
-t("expensive goods", "expensive goods", "entity name")
-t("forge", "forge", "entity name")
-t("aracane psi collector", "aracane psi collector", "entity name")
-t("rune and infusion collector", "rune and infusion collector", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/general/traps/ritch.lua"
--- 2 entries
-t("sand pit", "sand pit", "entity name")
-t("@Target@ slides into a sand pit!", "@Target@ slides into a sand pit!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/ingredients.lua"
--- 24 entries
-t("lump of iron", "lump of iron", "ingredient name")
-t("A lump of iron.", "A lump of iron.", "_t")
-t("lump of steel", "lump of steel", "ingredient name")
-t("A lump of steel.", "A lump of steel.", "_t")
-t("lump of dwarven steel", "lump of dwarven steel", "ingredient name")
-t("A lump of dwarven steel.", "A lump of dwarven steel.", "_t")
-t("lump of stralite", "lump of stralite", "ingredient name")
-t("A lump of stralite.", "A lump of stralite.", "_t")
-t("metal", "metal", "ingredient type")
-t("lump of voratun", "lump of voratun", "ingredient name")
-t("A lump of voratun.", "A lump of voratun.", "_t")
-t("stack of herbs (viperweed)", "stack of herbs (viperweed)", "ingredient name")
-t("stack of herbs (sessali)", "stack of herbs (sessali)", "ingredient name")
-t("stack of herbs (bilberry)", "stack of herbs (bilberry)", "ingredient name")
-t("stack of herbs (burdock)", "stack of herbs (burdock)", "ingredient name")
-t("herbs", "herbs", "ingredient type")
-t("stack of herbs (goldleaf)", "stack of herbs (goldleaf)", "ingredient name")
-t("A stack of herbs.", "A stack of herbs.", "_t")
-t("brain in a jar", "brain in a jar", "ingredient name")
-t("A still living brain of a powerful psionic creature.", "A still living brain of a powerful psionic creature.", "_t")
-t("mechanical core", "mechanical core", "ingredient name")
-t("The core unit of the Automated Defense System.", "The core unit of the Automated Defense System.", "_t")
-t("primal core", "primal core", "ingredient name")
-t("The core wood of a great tree.", "The core wood of a great tree.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/destructicus.lua"
--- 2 entries
-t("kaltor's shop", "kaltor's shop", "newLore category")
-t([[INTRODUCING!
-
-The most powerful, most fearsome, most awesome weapon ever conceived by giants, men, nature, or anything before us:
-
-#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}#
-
-Containing a warhead laden with explosive runes, alchemical reagents, vile curses, steel drake scales, ritch venom, and little slips of paper bearing most unkind statements about your target's mother
-
-Travelling at a speed which could be charitably described as absurd, and uncharitably described as obscene
-
-Launched with such force that its operator will need a fireproof suit to avoid immolation from the backblast alone (fireproof suit not included)
-
-Absolutely guaranteed to destroy ANY autonomous entity it detonates against!  Orcs!  Dragons!  Golems smaller than a medium-sized village!
-
-A MANDATORY addition to your home or airship!
-
-For pricing, please discuss the matter with Kaltor, and then forget about it entirely.  If price is a factor for you, you almost certainly cannot afford DESTRUCTICUS.
-
-#{italic}#(Disclaimer: We are not responsible for any injuries, deaths, or loss of property resulting from improper transport of DESTRUCTICUS.  We are not responsible for determining the proper method of transporting DESTRUCTICUS.  Additional missiles for DESTRUCTICUS are not available.  Accuracy at ranges greater than DESTRUCTICUS' blast radius is not guaranteed.  We are not responsible for any injuries, deaths, or loss of property resulting from DESTRUCTICUS changing direction in mid-flight.)#{normal}#]], [[INTRODUCING!
-
-The most powerful, most fearsome, most awesome weapon ever conceived by giants, men, nature, or anything before us:
-
-#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}#
-
-Containing a warhead laden with explosive runes, alchemical reagents, vile curses, steel drake scales, ritch venom, and little slips of paper bearing most unkind statements about your target's mother
-
-Travelling at a speed which could be charitably described as absurd, and uncharitably described as obscene
-
-Launched with such force that its operator will need a fireproof suit to avoid immolation from the backblast alone (fireproof suit not included)
-
-Absolutely guaranteed to destroy ANY autonomous entity it detonates against!  Orcs!  Dragons!  Golems smaller than a medium-sized village!
-
-A MANDATORY addition to your home or airship!
-
-For pricing, please discuss the matter with Kaltor, and then forget about it entirely.  If price is a factor for you, you almost certainly cannot afford DESTRUCTICUS.
-
-#{italic}#(Disclaimer: We are not responsible for any injuries, deaths, or loss of property resulting from improper transport of DESTRUCTICUS.  We are not responsible for determining the proper method of transporting DESTRUCTICUS.  Additional missiles for DESTRUCTICUS are not available.  Accuracy at ranges greater than DESTRUCTICUS' blast radius is not guaranteed.  We are not responsible for any injuries, deaths, or loss of property resulting from DESTRUCTICUS changing direction in mid-flight.)#{normal}#]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/dominion-port.lua"
--- 7 entries
-t("'disciplinary report'", "'disciplinary report'", "_t")
-t([[DISCIPLINARY REPORT:
-
--Blackhorn the Brash, theft of personal quantities of Atmos absinthe.  Twenty lashes.
--Swabbie Grobbo, theft of personal quantities of Shaloren wine.  Twelve lashes.
--First Mate Grapeshot, improper use of a cannon.  Twenty lashes, demotion.
--Taroggos, killing crew of targeted supply ship in defiance of client's wishes.  Three lashes.  [i]note: payment received regardless,  all goods retrieved and delivered accordingly[/i]
--Runty, theft of personal quantities of Dwarven ale.  Eleven lashes.
--Hamfist, theft of commercial quantities of Ogric brandy.  Fifty lashes, docked pay.
--Dogchucker the Summoner, disfiguring another crewmember.  Punishment waived.  [i]note: determined to be accident[/i]
--Tidal Torgor, accidental sinking of friendly vessel.  One thousand lashes, over five days.  [i]note: should be keelhauled but we need all the aquamancers we can get![/i]
--Lieutenant Grapeshot, improper use of a cannon.  Thirty lashes, demotion.
--Lady Laggo, skimming profits from loot sales.  Thirty lashes, demotion to punitive duties.
--Shifty, insubordination.  Ten lashes.
--Swabbie Grogbreath, insufficient swabbing.  Loss of liquor privileges.
--Cannoneer Grapeshot, improper use of a cannon.  Thirty lashes, demotion.
--Pencil-Pusher Pilgo, reassigning Grapeshot to cannoneer position.  Thirty-five lashes.  [i]note: laugh it up you insubordinate punk[/i]
--Smokey, excessive use of fire onboard flammable ship.  Will not be allowed healing for wounds sustained when hat caught fire.
--Swabbie Grogbreath, violation of loss of liquor privileges.  Punishment waived.  [i]note: the foul swill he found is punishment enough[/i]
--Sticks, attempted mutiny.  Keelhauled.
--Crabhide, support of attempted mutiny.  Keelhauled.
--Pegfist Pogga, failure to report attempted mutiny.  Keelhauled.
--Gunner Bilgebloat, fraternizing with attempted mutineers.  Keelhauled.
--First Mate Brakka, failure to keelhaul enough attempted mutineers.  Keelhauled.
--Captain Bloody-Keel, excessive keelhauling.  Keelhauled twice.
--Swabbie Grapeshot, improper use of a mop.  Fifty lashes, demotion.
-]], [[DISCIPLINARY REPORT:
-
--Blackhorn the Brash, theft of personal quantities of Atmos absinthe.  Twenty lashes.
--Swabbie Grobbo, theft of personal quantities of Shaloren wine.  Twelve lashes.
--First Mate Grapeshot, improper use of a cannon.  Twenty lashes, demotion.
--Taroggos, killing crew of targeted supply ship in defiance of client's wishes.  Three lashes.  [i]note: payment received regardless,  all goods retrieved and delivered accordingly[/i]
--Runty, theft of personal quantities of Dwarven ale.  Eleven lashes.
--Hamfist, theft of commercial quantities of Ogric brandy.  Fifty lashes, docked pay.
--Dogchucker the Summoner, disfiguring another crewmember.  Punishment waived.  [i]note: determined to be accident[/i]
--Tidal Torgor, accidental sinking of friendly vessel.  One thousand lashes, over five days.  [i]note: should be keelhauled but we need all the aquamancers we can get![/i]
--Lieutenant Grapeshot, improper use of a cannon.  Thirty lashes, demotion.
--Lady Laggo, skimming profits from loot sales.  Thirty lashes, demotion to punitive duties.
--Shifty, insubordination.  Ten lashes.
--Swabbie Grogbreath, insufficient swabbing.  Loss of liquor privileges.
--Cannoneer Grapeshot, improper use of a cannon.  Thirty lashes, demotion.
--Pencil-Pusher Pilgo, reassigning Grapeshot to cannoneer position.  Thirty-five lashes.  [i]note: laugh it up you insubordinate punk[/i]
--Smokey, excessive use of fire onboard flammable ship.  Will not be allowed healing for wounds sustained when hat caught fire.
--Swabbie Grogbreath, violation of loss of liquor privileges.  Punishment waived.  [i]note: the foul swill he found is punishment enough[/i]
--Sticks, attempted mutiny.  Keelhauled.
--Crabhide, support of attempted mutiny.  Keelhauled.
--Pegfist Pogga, failure to report attempted mutiny.  Keelhauled.
--Gunner Bilgebloat, fraternizing with attempted mutineers.  Keelhauled.
--First Mate Brakka, failure to keelhaul enough attempted mutineers.  Keelhauled.
--Captain Bloody-Keel, excessive keelhauling.  Keelhauled twice.
--Swabbie Grapeshot, improper use of a mop.  Fifty lashes, demotion.
-]], "_t")
-t("operations performed", "operations performed", "_t")
-t([[OPERATIONS PERFORMED:
-
--With information provided by "Sunny Day," we were able to secure an Allied Kingdoms supply ship during the brief window in which it was unguarded, with no personal casualties.  We technically broke our agreement (Taroggos has been adequately disciplined), but because the ship was carrying more useful materials than expected, we were able to take a hefty supply of troll-sized (or close enough to it) arms and armor, alongside lumber, furniture, and smaller stralite equipment which can be easily melted down and repurposed into something useful, before delivering the promised amount of cargo to "Vapor Trail."  Combined with the payment received from "Sunny Day," we made a significant profit and reinforced our relationship with "Vapor Trail."  (Our relationship with "Sunny Day" is of no consequence; repeat business was unlikely.)
-
--The last cargo ship I had sent home, the one with countless small crates and the order to confiscate them all and hold onto them for further instruction, contains one crate full of You-Know-What received as payment for a product received via Iron Throne smugglers.  This crate is labelled "47-C."  Dispose of the others, as they are [i]extremely[/i] thoroughly trapped.  The exchange with "Sherry Toll" was mercifully uneventful, and the goods provided appear to be functional.  With all due respect, Boss, if this doesn't get me a promotion, what will?
-
--Our contacts with the black market of Maj'Eyal and our establishment of a safe trading hub for their activity has continued to be immensely profitable, in addition to providing us an exploitable means of getting objects of our choosing into Maj'Eyal.  "Vapor Trail" has been an eager participant, and we've made a killing off selling Atmos absinthe to the Allied Kingdoms smugglers, as well as selling Elvala wine and brandy to them.  I'll be sending a ship full of our profits (useful metals, alchemical ingredients, slaves) back home on a bi-monthly basis; search the crew to make sure they haven't been lining their pockets, and keelhaul any you catch.
-
--Crew disobedience and morale continues to be something of a problem, despite regular floggings, but we're still retaining enough of them and getting enough use out of them.  That said, feel free to keep sending sentenced criminals our way - they're surprisingly productive as long as we give them enough booze and cheerblossom.]], [[OPERATIONS PERFORMED:
-
--With information provided by "Sunny Day," we were able to secure an Allied Kingdoms supply ship during the brief window in which it was unguarded, with no personal casualties.  We technically broke our agreement (Taroggos has been adequately disciplined), but because the ship was carrying more useful materials than expected, we were able to take a hefty supply of troll-sized (or close enough to it) arms and armor, alongside lumber, furniture, and smaller stralite equipment which can be easily melted down and repurposed into something useful, before delivering the promised amount of cargo to "Vapor Trail."  Combined with the payment received from "Sunny Day," we made a significant profit and reinforced our relationship with "Vapor Trail."  (Our relationship with "Sunny Day" is of no consequence; repeat business was unlikely.)
-
--The last cargo ship I had sent home, the one with countless small crates and the order to confiscate them all and hold onto them for further instruction, contains one crate full of You-Know-What received as payment for a product received via Iron Throne smugglers.  This crate is labelled "47-C."  Dispose of the others, as they are [i]extremely[/i] thoroughly trapped.  The exchange with "Sherry Toll" was mercifully uneventful, and the goods provided appear to be functional.  With all due respect, Boss, if this doesn't get me a promotion, what will?
-
--Our contacts with the black market of Maj'Eyal and our establishment of a safe trading hub for their activity has continued to be immensely profitable, in addition to providing us an exploitable means of getting objects of our choosing into Maj'Eyal.  "Vapor Trail" has been an eager participant, and we've made a killing off selling Atmos absinthe to the Allied Kingdoms smugglers, as well as selling Elvala wine and brandy to them.  I'll be sending a ship full of our profits (useful metals, alchemical ingredients, slaves) back home on a bi-monthly basis; search the crew to make sure they haven't been lining their pockets, and keelhaul any you catch.
-
--Crew disobedience and morale continues to be something of a problem, despite regular floggings, but we're still retaining enough of them and getting enough use out of them.  That said, feel free to keep sending sentenced criminals our way - they're surprisingly productive as long as we give them enough booze and cheerblossom.]], "_t")
-t("dominion port", "dominion port", "newLore category")
-t("overall analysis", "overall analysis", "_t")
-t([[OVERALL ANALYSIS:
-
-Boss, if there's one thing I can say, it's that you didn't make a mistake by pardoning me and my crew.  The materials I've shipped home have surely been invaluable for our preparations, and the moment the top brass decides they want to start the invasion, I can start spiking the outgoing liquors and cheerblossom with time-delay potions of your choice, crippling the Allied Kingdoms from within by starting a plague or turning every minor lawbreaker into a berserk madman.  If nothing else, the You-Know-What will be [i]very[/i] useful when push comes to shove.
-
-As per your orders, we've restricted most of our intervention to sabotaging the Allied Kingdoms, but I wonder if some amount of focus on the orcs would be helpful.  A band of them has recently emerged from the Clork Peninsula, victorious over Sun Paladins and Atmos alike; we've lost contact with "Sunny Day," and "Vapor Trail" has kept exports to a minimum for fear of detection.  If we don't do something about this soon, they may become a bigger obstacle than the Allied Kingdoms.
-
-I await your reply - and more dried meat, my crew loves the stuff and these smugglers can't be arsed to bring us something so mundane.]], [[OVERALL ANALYSIS:
-
-Boss, if there's one thing I can say, it's that you didn't make a mistake by pardoning me and my crew.  The materials I've shipped home have surely been invaluable for our preparations, and the moment the top brass decides they want to start the invasion, I can start spiking the outgoing liquors and cheerblossom with time-delay potions of your choice, crippling the Allied Kingdoms from within by starting a plague or turning every minor lawbreaker into a berserk madman.  If nothing else, the You-Know-What will be [i]very[/i] useful when push comes to shove.
-
-As per your orders, we've restricted most of our intervention to sabotaging the Allied Kingdoms, but I wonder if some amount of focus on the orcs would be helpful.  A band of them has recently emerged from the Clork Peninsula, victorious over Sun Paladins and Atmos alike; we've lost contact with "Sunny Day," and "Vapor Trail" has kept exports to a minimum for fear of detection.  If we don't do something about this soon, they may become a bigger obstacle than the Allied Kingdoms.
-
-I await your reply - and more dried meat, my crew loves the stuff and these smugglers can't be arsed to bring us something so mundane.]], "_t")
 
 
 ------------------------------------------------
@@ -4684,14 +4442,6 @@ t("You see here a cave painting, depicting a giant holding an object, which is p
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/maps/zones/worldmap.lua"
--- 3 entries
-t("WARNING", "WARNING", "_t")
-t("Danger!", "Danger!", "_t")
-t("Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territory. Likely far too dangerous for you!", "Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territory. Likely far too dangerous for you!", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/quests/amakthel.lua"
 -- 1 entries
 t("", "", "_t")
@@ -4752,13 +4502,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/resolvers.lua"
--- 2 entries
-t("Using medical injector with %d%% efficiency and %d%% cooldown modifier.", "Using medical injector with %d%% efficiency and %d%% cooldown modifier.", "tformat")
-t("No medical injector available, values are indicative only.", "No medical injector available, values are indicative only.", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua"
 -- 1 entries
 t("", "", "_t")
@@ -4800,172 +4543,14 @@ t("Renewal", "Renewal", "calendar orc")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
--- 24 entries
-t("Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "_t")
-t("Object held in your tail. It can be a steamgun or steamsaw.", "Object held in your tail. It can be a steamgun or steamsaw.", "_t")
-t("Tail", "Tail", "_t")
-t("SteamTech", "SteamTech", "_t")
-t("Steampower: #00ff00#%s", "Steampower: #00ff00#%s", "tformat")
-t("Steam speed : #00ff00#%s", "Steam speed : #00ff00#%s", "tformat")
-t("Powered by ", "Powered by ", "_t")
+-- 1 entries
 t("%+d #LAST#(%+d eff.)", "%+d #LAST#(%+d eff.)", "_t")
-t("Steampower: ", "Steampower: ", "_t")
-t("Steam crit. chance: ", "Steam crit. chance: ", "_t")
-t("Steamtech Speed: ", "Steamtech Speed: ", "_t")
-t("Steam each turn: ", "Steam each turn: ", "_t")
-t("Maximum steam: ", "Maximum steam: ", "_t")
-t("You may not shoot while using a heavy weapon.", "You may not shoot while using a heavy weapon.", "logPlayer")
-t("lost tinker", "lost tinker", "_t")
-t("Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "_t")
-t("%s, the experimenting tinker", "%s, the experimenting tinker", "_t")
-t("[Ask where to learn tinkers crafting]", "[Ask where to learn tinkers crafting]", "_t")
-t("Reveal the location of a teacher.", "Reveal the location of a teacher.", "_t")
-t("She points a location on your map, in a remote area to the north.", "She points a location on your map, in a remote area to the north.", "_t")
-t("Tinker's Master", "Tinker's Master", "_t")
-t("You are given a strange metal contraption, explaining that using it will transport you to tinker's cave.", "You are given a strange metal contraption, explaining that using it will transport you to tinker's cave.", "_t")
-t("gained knowledge of tinker technology", "gained knowledge of tinker technology", "_t")
-t("Steamtech", "Steamtech", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/overload/mod/class/interface/PartyTinker.lua"
--- 3 entries
-t("Impossible to create %s(%s)", "Impossible to create %s(%s)", "tformat")
-t("Created tinker: %s", "Created tinker: %s", "saySimple")
-t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "Learnt new tinker schematic: #LIGHT_GREEN#%s", "saySimple")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/dialogs/CreateTinker.lua"
--- 17 entries
+-- 1 entries
 t("", "", "_t")
-t("Slot", "Slot", "_t")
-t("School", "School", "_t")
-t("Create", "Create", "_t")
-t("Tier 1", "Tier 1", "_t")
-t("Tier 2", "Tier 2", "_t")
-t("Tier 3", "Tier 3", "_t")
-t("Tier 4", "Tier 4", "_t")
-t("Tier 5", "Tier 5", "_t")
-t("Requires talents:", "Requires talents:", "_t")
-t("Requires ingredients:", "Requires ingredients:", "_t")
-t(" (You have: %s)", " (You have: %s)", "tformat")
-t("Requires items:", "Requires items:", "_t")
-t("Example Item:", "Example Item:", "_t")
-t("body", "body", "_t")
-t("create tier( %s )", "create tier( %s )", "tformat")
-t("missing reqs", "missing reqs", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/class/Actor.lua"
--- 7 entries
-t("#FFD700#St. power#FFFFFF#: ", "#FFD700#St. power#FFFFFF#: ", "_t")
-t("Kruk Invasion", "Kruk Invasion", "_t")
-t("You can not recall until you have placed the bomb at the tunnel's end!", "You can not recall until you have placed the bomb at the tunnel's end!", "_t")
-t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "saySimple")
-t("You gain %0.2f gold from the melting of %s.", "You gain %0.2f gold from the melting of %s.", "log")
-t("When you close the inventory window, all items in the APE will be melted.", "When you close the inventory window, all items in the APE will be melted.", "_t")
-t("melt down", "melt down", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/class/Game.lua"
--- 10 entries
-t("Race: Yeti", "Race: Yeti", "_t")
-t("Race: Whitehooves", "Race: Whitehooves", "_t")
-t("Class tree: Undead drake", "Class tree: Undead drake", "_t")
-t("Cosmetic: orcs", "Cosmetic: orcs", "_t")
-t("Build Option: Tinkers in Maj'Eyal Campaign", "Build Option: Tinkers in Maj'Eyal Campaign", "_t")
-t("Build Option: Mages in Orcs Campaign", "Build Option: Mages in Orcs Campaign", "_t")
-t("Build Option: Rogues in Orcs Campaign", "Build Option: Rogues in Orcs Campaign", "_t")
-t("Build Option: All classes in Orcs Campaign", "Build Option: All classes in Orcs Campaign", "_t")
-t("Class: Psyshot", "Class: Psyshot", "_t")
-t("Class evolution: Technomancer", "Class evolution: Technomancer", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/class/Object.lua"
--- 1 entries
-t("You have no medical injector available.", "You have no medical injector available.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/class/Projectile.lua"
--- 1 entries
-t("#PURPLE#Automated Reflex System activated!", "#PURPLE#Automated Reflex System activated!", "log")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/class/interface/Combat.lua"
--- 1 entries
-t("#{bold}#%s's tinker attains critical power!#{normal}#", "#{bold}#%s's tinker attains critical power!#{normal}#", "logSeen")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/class/interface/TooltipsData.lua"
--- 4 entries
-t([[#GOLD#Steam#LAST#
-Steam is created by special generators and is used to power most technological things.
-It is very hard to increase your maximum steam capacity, but it regenerates quickly.
-Use it or lose it fast.
-]], [[#GOLD#Steam#LAST#
-Steam is created by special generators and is used to power most technological things.
-It is very hard to increase your maximum steam capacity, but it regenerates quickly.
-Use it or lose it fast.
-]], "_t")
-t([[#GOLD#Steampower#LAST#
-Your steampower represents how powerful and effective your steamtech abilities are.
-It is similar to Physical Power but is improved with Cunning.
-]], [[#GOLD#Steampower#LAST#
-Your steampower represents how powerful and effective your steamtech abilities are.
-It is similar to Physical Power but is improved with Cunning.
-]], "_t")
-t([[#GOLD#Steamtech critical chance#LAST#
-Each time you deal damage with a steamtech - based attack you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
-]], [[#GOLD#Steamtech critical chance#LAST#
-Each time you deal damage with a steamtech - based attack you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
-]], "_t")
-t([[#GOLD#Steamtech speed#LAST#
-Steamtech speed represents how fast you use your steamtech - powered abilities compared to normal.
-Higher is faster.
-]], [[#GOLD#Steamtech speed#LAST#
-Steamtech speed represents how fast you use your steamtech - powered abilities compared to normal.
-Higher is faster.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/dialogs/Birther.lua"
--- 2 entries
-t([[Thank you for purchasing #CRIMSON#Embers of Rage#WHITE#, the second expansion pack of Tales of Maj'Eyal.
-
-To begin your steamy adventures of hot metal mayhem simply select the #LIGHT_GREEN#Embers of Rage Campaign#WHITE# and be on your way to glory!
-
-Have fun crushing the foes of the Pride!
-]], [[Thank you for purchasing #CRIMSON#Embers of Rage#WHITE#, the second expansion pack of Tales of Maj'Eyal.
-
-To begin your steamy adventures of hot metal mayhem simply select the #LIGHT_GREEN#Embers of Rage Campaign#WHITE# and be on your way to glory!
-
-Have fun crushing the foes of the Pride!
-]], "tformat")
-t("Welcome to #CRIMSON#Embers of Rage", "Welcome to #CRIMSON#Embers of Rage", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/dialogs/LevelupDialog.lua"
--- 1 entries
-t("Steampower: ", "Steampower: ", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/superload/mod/dialogs/debug/DebugMain.lua"
--- 1 entries
-t("Learn all schematics", "Learn all schematics", "_t")
 
 
 ------------------------------------------------
@@ -5241,13 +4826,12 @@ t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LA
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileLogin.lua"
--- 12 entries
+-- 11 entries
 t("Online profile ", "Online profile ", "_t")
 t("Password again: ", "Password again: ", "_t")
 t("Email: ", "Email: ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "You at least 16 years old, or have parental authorization to play the game.", "_t")
-t("Create", "Create", "_t")
 t("Privacy Policy (opens in browser)", "Privacy Policy (opens in browser)", "_t")
 t("Password mismatch!", "Password mismatch!", "_t")
 t("Email", "Email", "_t")
@@ -5811,7 +5395,7 @@ t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!"
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/Combat.lua"
--- 18 entries
+-- 16 entries
 t("%s is too afraid to attack.", "%s is too afraid to attack.", "logSeen")
 t("%s is too terrified to attack.", "%s is too terrified to attack.", "logSeen")
 t("#Target# notices you at the last moment!", "#Target# notices you at the last moment!", "logCombat")
@@ -5826,8 +5410,6 @@ t("#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#
 t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!", "logSeen")
 t("#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "logPlayer")
 t("#Source# counter attacks #Target# with %s shield shards!", "#Source# counter attacks #Target# with %s shield shards!", "logCombat")
-t("#{bold}#%s's spell attains critical power!#{normal}#", "#{bold}#%s's spell attains critical power!#{normal}#", "logSeen")
-t("#{bold}#%s's mind surges with critical power!#{normal}#", "#{bold}#%s's mind surges with critical power!#{normal}#", "logSeen")
 t("#Source#'s grapple fails because #Target# is too big!", "#Source#'s grapple fails because #Target# is too big!", "logCombat")
 t("%s resists the grapple!", "%s resists the grapple!", "logSeen")
 
@@ -7152,7 +6734,7 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/elvala.lua"
--- 9 entries
+-- 8 entries
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Four: Before the Dawn#{normal}#
@@ -7259,79 +6841,6 @@ We parted then, and I began the lonely ride back to my own troops.  My heart was
 
 Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], "_t")
 t("The Spellblaze Chronicles(5): The Day of the Spellblaze", "The Spellblaze Chronicles(5): The Day of the Spellblaze", "_t")
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Five: The Day of the Spellblaze#{normal}#
-
-I loosened Mooncutter in its sheath as the troops marched forwards.  My grip tightened on the reins, holding my horse in check lest it gallop ahead in the excitement, and I could see my squire to my left doing the same.  The tension in the air was palpable.  Before us, less than a mile away, the vanguard of the orcish armies was now visible.  We had stirred up their nest and they had responded in full force.  They were like a shadowy blight that swallowed up the horizon, a great pestilence that threatened to consume the world.  Before me the armies of the Shaloren seemed small in comparison, but I knew our strength was not told by mere numbers.
-
-Trumpets blared from the bulwarks at the front, as they readied to engage with the first wave when needed.  To the north were archers to crumble the initial resistance, and at their flank a legion of spellriders, their hands glowing with arcane energies as they sat atop their fearsome steeds.  On the south was the regular cavalry, the greatswords, the armoured knights and the main bulk of our mages, readying support spells.  Here and there senior battlemages were dotted about, ready to move swiftly to points of intense activity and blast it away.  There was no need to have more than one of them in any place - alone they could decimate a score of orcs with ease.
-
-Drums beat loudly in the distance, and a clamour arose from the enemy.  They had with them trained beasts and trolls, and were arrayed in swords and maces and crude armours.  One took up a loud howl and others joined in, and the air seemed to reverberate with their ugly voices.
-
-The cacophony was unsettling, but my army responded with a display of power.  Swords and speartips rose into the air, and crackles of lightning shot up to the heavens, the sparks shining off the gleaming blades and armour.  The orcish army gasped in dismay.  The eastern skyline was beginning to glow red, and we knew the dawn would break any moment now, the signal for the start of the Great Spellblaze.
-
-“The day is here!” one of our warriors shouted out, and it was taken up elsewhere by the marching troops.  “The day is here!” they began to chant, anticipating the glory to come.  “The day is here!” my squire sang, his voice full of youthful joy and hope.  “The day is here!” we all shouted in unison, the pride of the Shaloren kingdom in our hearts as we watched the first rays of sunlight shine out from the horizon.  “The day is here!  The day is here!  The day is-”
-
-Silence.  All at once our voices dropped, and a terrible brooding silence swept over the battlefield.  We could feel it, every one of us, so attuned are our race to the flows of magic.  It was like having the breath sucked from one’s lungs, or the earth disappear from beneath one’s feet.  All our mana channels were gone, changed suddenly, arcane energies beyond all reach.  Groans and murmurs began to arise, as mages clutched at their heads in sudden despair.  I saw my squire lurch forwards in his saddle and begin to vomit uncontrollably, my standard slipping from his hand, whilst others fell to the ground in pain.  I struggled to battle an overwhelming migraine, blotches appearing in front of my eyes, and with great effort of will I managed to keep control of myself and began to seek out new paths of mana.
-
-But there was something wrong, terribly wrong.  Like a river run off its course the flow of magic across the whole of Eyal had changed.  What could have caused this?  And now I had to fight years of attunement and training that had taught me to naturally rely on the known flows and courses so that I might find new paths, new sources.  And as I did so I put my powers into divination, and what I discovered shocked me to my core.
-
-The orcs saw us in disarray and began to charge.  But my attention was turned west, not east, towards Elvala and the Crystal Tower where our leaders had been manipulating the Sher’Tul farportal.  But the tower, I felt, was gone - crumpled into the earth, and from there now emanated a wave of white-hot flame.  The orcs tore into our army with little resistance, their weapons tearing through the elven troops, but they were soon met by a wave of destructive energy far greater.
-
-“Shields!” I shouted out as the whole sky turned redder than blood, but above the sudden deafening roar of roasting air I was not heard.  It would have helped little anyway, defenceless as my army was without their usual sources of mana.  Spears of flame streaked down on our heads, shearing through flesh and steel in an instant and sinking into the earth.  The ground shook, and lava blasted up from the deep holes torn into the rock.
-
-I put an arcane shield about myself with a great effort of will.  I saw my squire raise a hand to do the same, but a blaze tore off his arm.  He didn’t even get to scream before another wave burned through the top half of his torso.  Spurting blood evaporated instantly, and the air became full of red mist and fire.  I leapt from my horse as it neighed and stumbled and fell burning into ash.
-
-Another wave came, and I tried to strengthen my shield, but the force of it took me off my feet and sent me flying.  I was thrashed through the air like a swirling leaf, unable to do anything more than struggle to maintain my protection.  All about my army was being utterly decimated, ranks and ranks of soldiers and mages burnt to a crisp or torn apart by the raw energies.  The orcs were the same, and a huge rent in the ground swallowed great numbers of their troops.  Blasts of lava soon thundered upward and rained down for miles around, turning into glowing rivers of death that swept across the consumed landscape.
-
-How I managed to stay alive I am still not sure.  I almost slipped from consciousness at several points, but by a mental tenacity I never knew I had I managed to stay focused and keep my protective shield active.  I became less aware of my surroundings, not knowing if the bubble of my ward was floating through air or fire or blood, or swallowed into the depths of Eyal into some hell never before witnessed.  At last, after what seemed like a tortuous age, the wave of energy passed, and I found myself lying alone on an outcrop of cracked and parched earth, the air a haze of heat about me.
-
-I struggled to my feet and looked around, seeing nothing but desolation in all directions.  Steam and smoke rose from rents in the ground, and blood, limbs and ashes were strewn about all over.  Nothing was alive.  In a daze I despaired that I was alone of the hundreds of thousands who had stood here but a short while before.  Friends and comrades, mentors and students, people I had never known and ones I was dearly close to - all gone.  A sudden pain lanced my heart as I thought of Linaniil.  She could not be dead, surely?
-
-I gritted my teeth and summoned the energy to levitate, and as I rose I began to get my bearings around the changed landscape.  Slowly I pushed north-east, passing over devastation beyond belief.  I struggled to keep a grip on my sanity as the scent of burnt flesh and blood surrounded me, my vision filled with a horrored landscape beyond imagination, the utter silence more deafening than any sound I had ever heard.  Eventually I came near to where the Kar’Krul army had stood, and cast about the ruined land for some sign of life.  Then faintly I detected something, some small sliver of life, and searching it out I found her.
-
-Her clothes had been mostly burned off, her hair half turned to ash, and blood was seeping freely from burns all across her body.  A weak shield still hummed over her, but as I knelt down and laid a hand on her it vanished.  Quietly she gasped a breath before whispering, “Neira”, and sinking into unconsciousness.  She was still alive, but barely.  I looked about and saw no signs of her sister, or of any of the rest of her troops, other than the scorched flesh and blackened bones that marked the scourging path swept by the blaze.
-
-I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
-
-But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Five: The Day of the Spellblaze#{normal}#
-
-I loosened Mooncutter in its sheath as the troops marched forwards.  My grip tightened on the reins, holding my horse in check lest it gallop ahead in the excitement, and I could see my squire to my left doing the same.  The tension in the air was palpable.  Before us, less than a mile away, the vanguard of the orcish armies was now visible.  We had stirred up their nest and they had responded in full force.  They were like a shadowy blight that swallowed up the horizon, a great pestilence that threatened to consume the world.  Before me the armies of the Shaloren seemed small in comparison, but I knew our strength was not told by mere numbers.
-
-Trumpets blared from the bulwarks at the front, as they readied to engage with the first wave when needed.  To the north were archers to crumble the initial resistance, and at their flank a legion of spellriders, their hands glowing with arcane energies as they sat atop their fearsome steeds.  On the south was the regular cavalry, the greatswords, the armoured knights and the main bulk of our mages, readying support spells.  Here and there senior battlemages were dotted about, ready to move swiftly to points of intense activity and blast it away.  There was no need to have more than one of them in any place - alone they could decimate a score of orcs with ease.
-
-Drums beat loudly in the distance, and a clamour arose from the enemy.  They had with them trained beasts and trolls, and were arrayed in swords and maces and crude armours.  One took up a loud howl and others joined in, and the air seemed to reverberate with their ugly voices.
-
-The cacophony was unsettling, but my army responded with a display of power.  Swords and speartips rose into the air, and crackles of lightning shot up to the heavens, the sparks shining off the gleaming blades and armour.  The orcish army gasped in dismay.  The eastern skyline was beginning to glow red, and we knew the dawn would break any moment now, the signal for the start of the Great Spellblaze.
-
-“The day is here!” one of our warriors shouted out, and it was taken up elsewhere by the marching troops.  “The day is here!” they began to chant, anticipating the glory to come.  “The day is here!” my squire sang, his voice full of youthful joy and hope.  “The day is here!” we all shouted in unison, the pride of the Shaloren kingdom in our hearts as we watched the first rays of sunlight shine out from the horizon.  “The day is here!  The day is here!  The day is-”
-
-Silence.  All at once our voices dropped, and a terrible brooding silence swept over the battlefield.  We could feel it, every one of us, so attuned are our race to the flows of magic.  It was like having the breath sucked from one’s lungs, or the earth disappear from beneath one’s feet.  All our mana channels were gone, changed suddenly, arcane energies beyond all reach.  Groans and murmurs began to arise, as mages clutched at their heads in sudden despair.  I saw my squire lurch forwards in his saddle and begin to vomit uncontrollably, my standard slipping from his hand, whilst others fell to the ground in pain.  I struggled to battle an overwhelming migraine, blotches appearing in front of my eyes, and with great effort of will I managed to keep control of myself and began to seek out new paths of mana.
-
-But there was something wrong, terribly wrong.  Like a river run off its course the flow of magic across the whole of Eyal had changed.  What could have caused this?  And now I had to fight years of attunement and training that had taught me to naturally rely on the known flows and courses so that I might find new paths, new sources.  And as I did so I put my powers into divination, and what I discovered shocked me to my core.
-
-The orcs saw us in disarray and began to charge.  But my attention was turned west, not east, towards Elvala and the Crystal Tower where our leaders had been manipulating the Sher’Tul farportal.  But the tower, I felt, was gone - crumpled into the earth, and from there now emanated a wave of white-hot flame.  The orcs tore into our army with little resistance, their weapons tearing through the elven troops, but they were soon met by a wave of destructive energy far greater.
-
-“Shields!” I shouted out as the whole sky turned redder than blood, but above the sudden deafening roar of roasting air I was not heard.  It would have helped little anyway, defenceless as my army was without their usual sources of mana.  Spears of flame streaked down on our heads, shearing through flesh and steel in an instant and sinking into the earth.  The ground shook, and lava blasted up from the deep holes torn into the rock.
-
-I put an arcane shield about myself with a great effort of will.  I saw my squire raise a hand to do the same, but a blaze tore off his arm.  He didn’t even get to scream before another wave burned through the top half of his torso.  Spurting blood evaporated instantly, and the air became full of red mist and fire.  I leapt from my horse as it neighed and stumbled and fell burning into ash.
-
-Another wave came, and I tried to strengthen my shield, but the force of it took me off my feet and sent me flying.  I was thrashed through the air like a swirling leaf, unable to do anything more than struggle to maintain my protection.  All about my army was being utterly decimated, ranks and ranks of soldiers and mages burnt to a crisp or torn apart by the raw energies.  The orcs were the same, and a huge rent in the ground swallowed great numbers of their troops.  Blasts of lava soon thundered upward and rained down for miles around, turning into glowing rivers of death that swept across the consumed landscape.
-
-How I managed to stay alive I am still not sure.  I almost slipped from consciousness at several points, but by a mental tenacity I never knew I had I managed to stay focused and keep my protective shield active.  I became less aware of my surroundings, not knowing if the bubble of my ward was floating through air or fire or blood, or swallowed into the depths of Eyal into some hell never before witnessed.  At last, after what seemed like a tortuous age, the wave of energy passed, and I found myself lying alone on an outcrop of cracked and parched earth, the air a haze of heat about me.
-
-I struggled to my feet and looked around, seeing nothing but desolation in all directions.  Steam and smoke rose from rents in the ground, and blood, limbs and ashes were strewn about all over.  Nothing was alive.  In a daze I despaired that I was alone of the hundreds of thousands who had stood here but a short while before.  Friends and comrades, mentors and students, people I had never known and ones I was dearly close to - all gone.  A sudden pain lanced my heart as I thought of Linaniil.  She could not be dead, surely?
-
-I gritted my teeth and summoned the energy to levitate, and as I rose I began to get my bearings around the changed landscape.  Slowly I pushed north-east, passing over devastation beyond belief.  I struggled to keep a grip on my sanity as the scent of burnt flesh and blood surrounded me, my vision filled with a horrored landscape beyond imagination, the utter silence more deafening than any sound I had ever heard.  Eventually I came near to where the Kar’Krul army had stood, and cast about the ruined land for some sign of life.  Then faintly I detected something, some small sliver of life, and searching it out I found her.
-
-Her clothes had been mostly burned off, her hair half turned to ash, and blood was seeping freely from burns all across her body.  A weak shield still hummed over her, but as I knelt down and laid a hand on her it vanished.  Quietly she gasped a breath before whispering, “Neira”, and sinking into unconsciousness.  She was still alive, but barely.  I looked about and saw no signs of her sister, or of any of the rest of her troops, other than the scorched flesh and blackened bones that marked the scourging path swept by the blaze.
-
-I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
-
-But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], "_t")
 t("The Spellblaze Chronicles(6): A Changed Eyal", "The Spellblaze Chronicles(6): A Changed Eyal", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -9622,7 +9131,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 79 entries
+-- 68 entries
 t("tract of destruction", "tract of destruction", "_t")
 t("tract of anarchy", "tract of anarchy", "_t")
 t("tract of acceptance", "tract of acceptance", "_t")
@@ -9811,122 +9320,7 @@ And I saw then in the centre of the world, as it spun and crumpled and crunched,
 Am I going mad? The name “Urh'Rok” still rebounds through my skull and my vision is dimmed. Perhaps I have been wearing this ring too long...
 
 Yes, yes, this is all clearly an illusion! A strange nightmare that I shall wake up from. I shall take the ring off, and go visit the lovely moonstone again. Once I see the stars all shall be well...]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Introduction", "Loremaster Greynot's Analysis of the Races - Introduction", "_t")
-t([[I set out here to give a full and complete analysis of all the intelligent races in Maj'Eyal. This is an ambitious project to say the least, but it is put together from a great many years labour, including travels across all the kingdoms and direct meetings with many of the highest rulers and most learned sages. I have drawn my findings from common knowledge, exclusive interviews, and studies of many thousands of pages of texts and histories, some going back dozens of centuries.
-
-I myself am a Higher human, in the employ of the court of King Tolak the Fair, but I have done my best to write all accounts from a purely neutral standpoint. I leave it to my peers to judge my success.
-
-Index:
-Chapter 1 - Humans
-Chapter 2 - Halflings
-Chapter 3 - Dwarves
-Chapter 4 - Shaloren
-Chapter 5 - Thaloren
-Chapter 6 - Naloren (extinct)
-Chapter 7 - Ogres
-Chapter 8 - Orcs (extinct)
-Chapter 9 - Sher'Tul (extinct)
-Chapter 10 - Monstrous Races
-Chapter 11 - Dragons
-]], [[I set out here to give a full and complete analysis of all the intelligent races in Maj'Eyal. This is an ambitious project to say the least, but it is put together from a great many years labour, including travels across all the kingdoms and direct meetings with many of the highest rulers and most learned sages. I have drawn my findings from common knowledge, exclusive interviews, and studies of many thousands of pages of texts and histories, some going back dozens of centuries.
-
-I myself am a Higher human, in the employ of the court of King Tolak the Fair, but I have done my best to write all accounts from a purely neutral standpoint. I leave it to my peers to judge my success.
-
-Index:
-Chapter 1 - Humans
-Chapter 2 - Halflings
-Chapter 3 - Dwarves
-Chapter 4 - Shaloren
-Chapter 5 - Thaloren
-Chapter 6 - Naloren (extinct)
-Chapter 7 - Ogres
-Chapter 8 - Orcs (extinct)
-Chapter 9 - Sher'Tul (extinct)
-Chapter 10 - Monstrous Races
-Chapter 11 - Dragons
-]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "_t")
-t([[The dwarves are an exceptionally secretive and quiet race, reluctant to talk about themselves to outsiders unless hefty bribes are paid. Many times in their history they have cut off all contact with the other races for no known reason, shutting tight the great iron doors that cover the trade passages to their mines and their cavernous cities. However of late they have become more open with the outside world, and I have even had the pleasure of receiving the unique distinction of being allowed to enter their main city, the Iron Throne, and speaking with several of their guild leaders.
-
-Dwarves are around 5' tall, with generally brown or grey hair. They are usually stocky and muscular, and known to be very resistant to any physical suffering. Their females can be hard to distinguish from their males, but can usually be identified by the beads braided into their beards. All dwarves are highly proud of their beards, and take immaculate care of them. The greatest insult to a dwarf is to belittle his beard, and the greatest sign of suffering in a dwarf is for him to tear at his beard.
-
-Dwarves are known especially for their smithwork and artificing, which is unrivalled amongst all the other races. They also make cunning merchants, known to drive a hard bargain. Their society consists of a fairly strict caste system, with families belonging to guilds of miners, smelters, craftsmen, and so on, and deviance into work outside of one's guild of birth is almost unheard of. However there is no perceived inequality between guilds, with each having equal representation on their ruling Committee of Guilds. Who actually acts as figurehead is unknown to outsiders though, and no amount of bribing will encourage any dwarf to speak on the subject. When it is mentioned in passing their allusions to a leader are normally marked by an almost religious reverence.
-
-Their skill with metal is renowned above all else. Dwarven steel is considered the most durable material for use in construction, and dwarves are the finest workers with stralite and voratun, precious metals of immense value. They trade heavily in their crafts from their capital the Iron Throne, but allow no outsiders in - instead they send innumerable merchant caravans out to all the cities to ply their wares.
-
-As well as the many merchant dwarves one may meet there are also a great deal of young dwarves who venture beyond their halls of stone. These are generally of adventuring fare, and it is encouraged in dwarven society to experience something of the wider world in one's younger years. This is known to them as being "smithed upon the anvil of the world". In private though some senior dwarves admit that this activity is promoted to help with their "market research strategy".]], [[The dwarves are an exceptionally secretive and quiet race, reluctant to talk about themselves to outsiders unless hefty bribes are paid. Many times in their history they have cut off all contact with the other races for no known reason, shutting tight the great iron doors that cover the trade passages to their mines and their cavernous cities. However of late they have become more open with the outside world, and I have even had the pleasure of receiving the unique distinction of being allowed to enter their main city, the Iron Throne, and speaking with several of their guild leaders.
-
-Dwarves are around 5' tall, with generally brown or grey hair. They are usually stocky and muscular, and known to be very resistant to any physical suffering. Their females can be hard to distinguish from their males, but can usually be identified by the beads braided into their beards. All dwarves are highly proud of their beards, and take immaculate care of them. The greatest insult to a dwarf is to belittle his beard, and the greatest sign of suffering in a dwarf is for him to tear at his beard.
-
-Dwarves are known especially for their smithwork and artificing, which is unrivalled amongst all the other races. They also make cunning merchants, known to drive a hard bargain. Their society consists of a fairly strict caste system, with families belonging to guilds of miners, smelters, craftsmen, and so on, and deviance into work outside of one's guild of birth is almost unheard of. However there is no perceived inequality between guilds, with each having equal representation on their ruling Committee of Guilds. Who actually acts as figurehead is unknown to outsiders though, and no amount of bribing will encourage any dwarf to speak on the subject. When it is mentioned in passing their allusions to a leader are normally marked by an almost religious reverence.
-
-Their skill with metal is renowned above all else. Dwarven steel is considered the most durable material for use in construction, and dwarves are the finest workers with stralite and voratun, precious metals of immense value. They trade heavily in their crafts from their capital the Iron Throne, but allow no outsiders in - instead they send innumerable merchant caravans out to all the cities to ply their wares.
-
-As well as the many merchant dwarves one may meet there are also a great deal of young dwarves who venture beyond their halls of stone. These are generally of adventuring fare, and it is encouraged in dwarven society to experience something of the wider world in one's younger years. This is known to them as being "smithed upon the anvil of the world". In private though some senior dwarves admit that this activity is promoted to help with their "market research strategy".]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 4 - Shaloren", "Loremaster Greynot's Analysis of the Races - Chapter 4 - Shaloren", "_t")
-t([[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
-
-Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
-
-The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
-
-Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
-
-They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], [[Though the elven races look very similar in appearance, they are extremely distinct in history, culture, mindset and many subtle physical traits, so I shall write of each of them separately. All elves are marked by their long, pointed ears and high cheek-bones, but other features can vary greatly. It should be noted that they call themselves as a whole "Elore", which means "siblings", yet the interactions between these brothers and sisters are oft strained.
-
-Shaloren (or Shalore - lit "siblings of grace") are on average 6'2", with bright hair and blue or purple eyes. They are usually slim and lightly built, more marked for their mental prowess than their physical strengths. They are however known to be extremely swift of movement and light of foot. But of particular note is their magical affinity, which is far stronger than any other race, and their intense powers of will.
-
-The Shaloren have a long history of magic-use which continues to this day. Though other races shun the dangers of magic to a large degree, the Shaloren embrace it, and it is still widely used throughout their society. However they are careful to hide this in their dealings with other races. The Shaloren were the ones that began the Spellblaze, though they would soon have it forgotten, and the memories of blame run deep amongst many. During the Spellhunt in the Age of Dusk they locked their city doors and shrouded the whole region in mist, only coming out in secrecy. It took many centuries before they were accepted again in wider society, and still they are treated with intense distrust.
-
-Their capital city is Elvala, in the south-west peninsula, and they have very few settlements outside of this. They have naturally long lives, and their mastery of the arcane arts has allowed them to extend their lives indefinitely. The eldest immortals make up their Council of Elders, which is headed by their King Aranion Gayaeil. Death is a particular fascination amongst the Shaloren, and early kings of their race were said to build great tombs for themselves whilst experimenting in flesh preservation and necromancy. The Shaloren of course deny this.
-
-They deal with other races seldom, preferring to keep a low profile, and most of their trade is done through halfling intermediaries. A few rune-crafters and enchanters sometimes travel to other major cities to do business, and some brash youths are known to explore further afield.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 5 - Thaloren", "Loremaster Greynot's Analysis of the Races - Chapter 5 - Thaloren", "_t")
-t([[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
-
-Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
-
-Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
-
-The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], [[The Thaloren (or Thalore - lit "siblings of wrath") are on average 6'4", with dark brown hair and hazel or green eyes. They are generally of muscular build, and known for their physical prowess. They are renowned to be of a fey mindset - as quick to furious violence as they are to joyous song. Their relations with the Shaloren are particularly strained, as they strongly oppose their brethren's use of magic.
-
-Their capital city is Shatur, hidden deep within the northern woods, and they are loathe to let any outsiders even approach the surrounding forest. Archers and fighters carefully patrol their borders, ready to rain down death from the trees on any who encroach. Their leader is Queen Nessilla Tantaelen, and they are said to live in extensive dwellings carved into giant trees, but little else is known about their society.
-
-Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
-
-The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 6 - Naloren (extinct)", "Loremaster Greynot's Analysis of the Races - Chapter 6 - Naloren (extinct)", "_t")
-t([[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
-
-Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
-
-They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
-
-Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], [[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
-
-Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
-
-They traded little with the other races, and were very protective of their coastal lands. They most especially guarded jealously an ancient Sher'Tul ruin that lay in the centre of their territories. The Shaloren were in particular keen to study this relic, but the Naloren always refused them access, though they were too afraid to touch it themselves. The orcs were said to encroach on their lands often, but were always fought back by their mail-clad warriors wielding vicious tridents.
-
-Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], "_t")
-t("Loremaster Greynot's Analysis of the Races - Chapter 7 - Ogres", "Loremaster Greynot's Analysis of the Races - Chapter 7 - Ogres", "_t")
-t([[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
-
-Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
-
-Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
-
-While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.	
-
-Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], [[Ogres have never been a thriving race, starting from their abrupt appearance as soldiers and laborers for the Conclave during the Allure Wars (unexplained aside from a highly implausible story from the Conclave's Overseers about a lost mountain tribe).  Left without homes or proper runic training after the war's end, they were forced to found their own tribes and rediscover the fields of rune and infusion creation for themselves, and though their numbers dropped rapidly, they enjoyed a brief period of relative success as nomadic rune-traders, virtually unaffected by the Spellblaze.  The Spellhunt nearly proved to be their undoing, as their monstrous size and rune-covered skin made them popular targets; they were thought to be extinct, and only in recent years has the city of Elvala revealed that some Ogres took refuge there during this time.  Their descendants still live today, fearful of persecution but gradually beginning to explore outside Elvala for the first time in ages.
-
-Ogres' most striking feature is their size, by far the largest of any intelligent race; they average at roughly 8'4" tall, and most are nearly half as wide with muscle.  They have a similar range of skin tones to humans, although slightly grayer on the whole; their hair tends to be dark brown or black, and their eyes run the gamut from black to bright blue to purple, presumably a side-effect of runic mis-transcription.  Their angular facial features invite some impolite comparisons to Orcs, with strong jawlines, disproportionately large mouths and teeth, and squarish heads, but otherwise resemble those of humans.  It would be remiss of me to describe Ogres' appearance without mentioning the intricate, glowing pattern of runes covering their skin from head to toe, although the exact patterns and colors vary.  
-
-Although they excel at physical tasks for obvious reasons, and the necessity of careful inscription has made their finger dexterity (and penmanship) rather impressive, their limb movements tend to be slow and clumsy due to their size, and they tire quickly if they over-exert themselves during strenuous labor.  Their slow speech, incredible appetites, and lack of interest in arts or most scholarly concerns has led to a misconception that they are dim-witted; however, Ogres forced into studious tasks have performed admirably, and one needs only look at their runic patterns to know the patient study and artistic vision they are capable of, if properly motivated.  This may tie into the humble, duty-bound mindset that seems to be an inherent property of the species - most Ogres show absolutely no interest in leadership or impressing others, only completing tasks in the most reliable manner possible, and such strategies tend to be rather simple.
-
-While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.	
-
-Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 8 - Orcs (extinct)", "Loremaster Greynot's Analysis of the Races - Chapter 8 - Orcs (extinct)", "_t")
 t([[The orcs are, joyfully, extinct from Maj'Eyal, following the purge instigated by King Toknor the Brave at the start of the Age of Ascendancy. But an academic study of their previous culture and civilisation is still of interest, primitive though it may have been.
 

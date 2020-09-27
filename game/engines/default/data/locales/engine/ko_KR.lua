@@ -1841,6 +1841,7 @@ section "game/engines/default/modules/boot/dialogs/ProfileLogin.lua"
 t("Login", "로그인", "_t")
 t("Username: ", "유저명: ", "_t")
 t("Password: ", "비밀번호: ", "_t")
+t("Create", "제작", "_t")
 t("Cancel", "취소", "_t")
 t("Username", "유저명", "_t")
 t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
