@@ -591,7 +591,7 @@ t([[Teleports you randomly within a small range of up to %d grids with %d precis
 t("Doom Concordat", "파멸의 협약", "talent name")
 t("#CRIMSON#Your %s is healed!", "#CRIMSON#당신의 %s 회복됐다!", "logPlayer", nil, {"는"})
 t("#CRIMSON#Your %s is brought back to life!", "#CRIMSON#당신의 %s 소생됐다!", "logPlayer", nil, {"는"})
-t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
+t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t([[You use your demon seeds to the fullest of their potential.
 		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if not other summoned demon is from Doom Concordat.
 		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
