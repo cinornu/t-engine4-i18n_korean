@@ -282,7 +282,7 @@ t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되어 있는 것 같습니다만, 열 수는 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
 
 
@@ -293,7 +293,7 @@ t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되어 있는 것 같습니다만, 열 수는 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
 
 
@@ -319,7 +319,7 @@ t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
-t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인된 것으로 보입니다. 문을 열 수 있을 것 같습니다.", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되어 있는 것 같습니다만, 열 수는 있을 것 같습니다.", "_t")
 t("wall", "벽", "entity type")
 
 
@@ -2420,7 +2420,7 @@ t([[You freeze yourself in time for %d turns, preventing you from taking any act
 				Negative effects and cooldowns will decrease in duration, while beneficial effects will remain at their current duration.]], [[스스로를 %d 턴 동안 시간의 흐름 안에 동결시킵니다. 어떤 행위도 블가능하나 어떤 피해도 입지 않습니다.
 				부정적인 효과와 재사용 대기시간은 지속 시간 동안 계속 줄어들지만 이로운 효과의 지속시간은 고정됩니다.]], "tformat")
 t("Split", "분열", "talent name")
-t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
+t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("You can't clone summons!", "소환물을 대상으로 할 수 없습니다!", "logPlayer")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#%s의 시간 분신#LAST#", "tformat")
@@ -2572,7 +2572,7 @@ t([[Your faceless visage is puzzling and emotionless, allowing you to more easil
 		You gain %d mental save, %d%% confusion immunity.]], [[얼굴없는 안면은 매우 당혹스럽게 보이고, 감정이 느껴지질 않습니다. 따라서 정신적인 효과에 더 쉽게 저항할 수 있게 되었습니다.
 		정신 내성 %d , 혼란 면역력 %d%% 가 증가합니다.]], "tformat")
 t("From Below It Devours", "집어삼키는 심연에서", "talent name")
-t("Not enough space to summon!", "소환할 공간이 부족합니다.", "logPlayer")
+t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("hungering mouth", "굶주린 아가리", "_t")
 t("\"From below, it devours.\"", "\"심연으로 부터, 집어삼킨다.\"", "_t")
 t([[Your affinity with things that dwell deep beneath the surface allows you to summon a hungering mouth.
@@ -2650,7 +2650,7 @@ t([[You try to bite off your foe with your #{italic}#head#{normal}# for %d%% bli
 		즉시 살해 확률과 재생량은 체격에 비례하여 증가하고, 무기 피해량은 힘, 민첩, 마법 중 가장 높은 것에 비례하여 증가합니다.]], "tformat")
 t("Ultra Instinct", "과격한 본능", "talent name")
 t([[Without the distraction of #{bold}#thoughts#{normal}# or #{bold}#self#{normal}# your body reacts faster and better to aggressions.
-		Increases global speed by %d%%.]], [[#{bold}#생각#{normal}#이나 #{bold}자아#{normal}#의 간섭을 배제해 더욱 더 빠르게 반응하고, 더욱 더 공격적으로 행동합니다.
+		Increases global speed by %d%%.]], [[#{bold}#생각#{normal}#이나 #{bold}#자아#{normal}#의 간섭을 배제해 더욱 더 빠르게 반응하고, 더욱 더 공격적으로 행동합니다.
 		모든 속도가 %d%% 증가합니다.]], "tformat")
 t("Corrupting Influence", "부패하는 영향력", "talent name")
 t([[The parasite corruption seeps into your body, strengthening it.
