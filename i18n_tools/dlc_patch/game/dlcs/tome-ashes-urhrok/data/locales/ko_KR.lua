@@ -908,7 +908,7 @@ t([[Swing your weapon with incredible force, striking all enemies in a radius %d
 t("Detonating Charge", "격발의 돌진", "talent name")
 t("You require a two handed weapon and being able to move to use this talent.", "이 기술을 사용하기 위해서는, 양손 무기를 장착하고, 이동이 가능하여야 한다.", "logPlayer")
 t("You can not do that currently.", "지금은 할 수 없다.", "logPlayer")
-t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
+t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
 t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
 		If the attack hits you release a massive burst of fire in radius %d, knocking away all enemies except your target and dealing %d damage.
 		You must charge from at least 2 tiles away.]], [[대상에게 돌격해, %d%% 무기 피해를 가합니다.
@@ -973,7 +973,7 @@ t([[Your original invisibility talent was corrupted and twisted.
 		- 영구적인 은신. (은신력 %d)
 		- 암흑 피해량이 %d%% 증가합니다.
 		- 피해량 %d 이상의 비정신적, 비물리적 피해를 가하면 반경 1 칸의 폭발을 일으켜, 폭발에 휩쓸린 적에게 절반의 피해를 줍니다. (이 효과는 한 턴에 1 번만 발동됩니다)
-		- 변신할 때, 몰락한 자의 재빠름과 냉혹함의 재사용 대기시간이 초기화됩니다.
+		- 변신할 때, 몰락한 자의 신속함과 냉혹함의 재사용 대기시간이 초기화됩니다.
 		]], "tformat")
 t("Pitiless", "냉혹함", "talent name")
 t([[You launch a mental assault on the target.

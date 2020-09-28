@@ -582,7 +582,7 @@ t("Very well. We can teach you a talent; which type do you want?", "아주 좋�
 t("Physical techniques", "물리적 기술", "_t")
 t("Arcane spells", "마법 주문", "_t")
 t("Nature/Psionic talents", "자연/초능력 기술", "_t")
-t("Improve", "상승", "_t")
+t("Improve", "향상 :", "_t")
 t("Learn", "배우기 :", "_t")
 t("[%s talent %s (+%d level(s))]", "[%s %s (+%d 레벨)]", "tformat")
 t([[Antimagic talents are very special. To learn one means you will never be able to use arcane powered items or talents again.
@@ -2035,12 +2035,176 @@ WARNING: This product has been determined by the Council of Health Authority to 
 #{italic}#[알림 사항이 포스터 아랫부분 여백에 빼곡하게 적혀 있지만, 너무 깨알같이 적혀 있어서 거인들은 절대로 읽지 못할 거라는 생각이 들었습니다.]#{normal}#
  
 경고: 보건 당국 평의회에서는 이 상품이 다음과 같은 현상들과 관계가 있다는 결론을 내렸습니다 - 강렬한 현기증, 모발의 가연성 증가, 비기화성 발한, 밤 공포증, 간 이상, 두통, 탄폐증, 사고 정지, 낮 공포증, 체세포 이상 분열, 토막난 시체가 보이는 환각, 팔꿈치 염증, 뼈 이탈증, 소화기질환, 신장질환, 목록 공포증, 전체속도 감소, 의도하지 않은 순간이동, 혀 탄화증, 콧구멍 결합증, 고대의 역겨운 저주, 증기압 감소, 지방 연소(문자 그대로), 눈 주위 털 증가, 오크체취증, 마법 방해, 중력 저하, 혈류 정지, 부정행위, 창자 코팅, 허무주의, 저녁 공포증, 무릎 골병, 그리고 환풍구 막힘.]], "_t")
+t([[CLOSING SALE
+for
+KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
+ 
+It is with a heavy heart that I must announce our closing.  After over twenty years of service, I am shutting my doors - the people of the Atmos Tribe apparently wish to trust the Guard with their well-being, and the Guard chooses to maintain the weapons it already has rather than purchase things like the #{italic}#BRILLIANT AUTO-LOADING ORC EXPELLER#{normal}# (only 30 gold!), or the #{italic}#PRESSURE-ENHANCED SLASHPROOF COMBAT SUIT#{normal}# (only 450 gold!).  I even offered discount options such as the #{italic}#LIL SURPRISE#{normal}# (now only 15 gold!), and yet the city would have none of it.  It would seem my services, and my talents, are simply not wanted.
+ 
+Even if you have no fear of the orcish tribes, ritch swarms, and other assorted threats that lurk just outside our city walls, please consider purchasing some of my wares.  They are truly beautiful displays of craftsmanship, and would do well as a desk sculpture or (if properly disarmed) a child's toy.  If nothing else, you will be ensuring that a once-proud artisan with great love and respect for his craft need not resort to begging on the streets.]], [[점포 정리 특가!
+칼토르의!
+화기, 갑옷, 그 외 전투 장비들!
+ 
+슬픈 소식을 전해드려야 해서 가슴이 매우 아픕니다. 저는 지난 20년 간 양질의 물건들을 제공해 왔지만, 이제 문을 닫아야겠습니다 - 아트모스 부족의 여러분들은 도시의 치안을 위해서 경비병들이 질 좋은 장비를 사용하길 바라고 있으시겠지만, 그 경비병들은 #{italic}#끝내주는 자동 장전식 오크 퇴치기#{normal}# (겨우 30 골드!) 나 #{italic}#압력 강화식 방검 전투 슈트#{normal}# (고작 450 골드!) 같은 걸 사는 것보다 자신들의 원래 장비를 그대로 사용하는 편을 선택한 것 같습니다. 저는 #{italic}#꼬마 서프라이즈#{normal}# (이젠 겨우 15 골드!) 같은 수준의 할인마저 제안해 보았습니다만, 제 물건은 어떤 것도 채용되지 않았습니다. 아마, 제 서비스와 기술이 필요하지 않은 것 뿐이겠지요.
+ 
+오크 부족들이나 릿치 떼거지들, 그리고 우리 도시의 경계 바로 바깥에 도사리고 있는 온갖 위험들이 전혀 두렵지 않으시더라도, 부디 제 물건들을 구입하는 것을 재고해 주십시오. 제 물건들은 그야말로 아름답기 그지없는 장인 정신의 결정체이니, 책상 장식이나 (위험한 부분을 제거해야겠지만) 아이들 장난감으로도 유용할 겁니다. 그런 용도로도 필요가 없으신 분들도, 한때 훌륭한 작품으로 굉장한 사랑과 존경을 받던 자랑스러운 무기 장인이 길거리에서 구걸까지 할 필요는 없다는 걸 아실 겁니다.]], "_t")
+t("ornately-painted poster", "화려한 그림이 그려진 포스터", "_t")
+t([[Stylish.  Elegant.  Exclusive.
+
+#{bold}#EXTINCTION#{normal}#, a new line from Faerlhing's Weavings, the finest name in fashion.
+
+Steel drakes can no longer be found in the wild - our pens contain the ONLY living ones in Var'Eyal, and possibly the last generation to not be marred by inbreeding-induced deformities.  When you wear our wonderful coats, dresses, boots, or corsets to a party, meeting, or other get-together, the others won't just notice the unique, metallic sheen matched with unparalleled flexibility unique to their scales.  They'll know that they CANNOT imitate your look.  That it's a look their children will NEVER have.  That YOU have made your mark on ecological history, and reaped the fashionable, comfortable benefits.  And steel drake scales are not known to decay naturally, so proof of your impeccable taste will live far longer than the species they were taken from.
+
+Place your orders now.  Open bidding will run for 30 days, after which point orders will be handled on a first-come, first-serve basis.
+
+Other fashions come and go.  #{bold}#EXTINCTION#{normal}# is forever.
+]], [[맵시. 품격. 유일.
+
+#{bold}#익스팅션#{normal}#, 패를링이 새롭게 자아낸, 패션의 일인자.
+
+강철 드레이크는 이제 야생에서 볼 수 없게 되었습니다 - 바르'에이알에는 오직 한 마리만이 남아 있으며, 저희 관리 하에 있고, 이종 교배로 발생하는 기형에서 자유로운 마지막 세대입니다. 저희의 아름다운 코트, 드레스, 부츠, 또는 코르셋을 입고 사람들을 만나러 가시면, 다른 이들은 독특한 금속성 광채에서 눈을 뗄 수가 없을 것입니다. 그 광채는 타 용족의 비늘들과는 비교를 불허하는 강철 비늘만의 유연성과 매치된 것이지요. 그들은 자신들이 당신의 모습을 결코 따라할 수 없음을 깨닫게 될 겁니다. 당신의 아름다움은 미래 세대에서도 결코 얻을 수 없는 것이고, 이는 당신이 생태학 역사에 자취를 남겼으며 오직 당신만이 그 혜택을 누렸었다는 의미입니다. 또한 강철 드레이크의 비늘은 자연적으로 부패하지 않는다고 알려져 있으므로, 당신의 취향이 훌륭하다는 증거는 강철 드레이크 종족 자체보다도 훨씬 더 오래 보존될 것입니다.
+
+지금 바로 주문하십시오. 공개입찰은 30일 간 진행되며, 그 이후에는 선착순으로 판매됩니다.
+
+다른 패션들은 결국 사라집니다. #{bold}#익스팅션#{normal}#은 영원합니다.
+]], "_t")
+t("official-looking poster", "공적인 내용 같은 포스터", "_t")
+t([[#{bold}#KEEP THE PRESSURE UP!#{normal}#
+#{italic}#An announcement on power consumption, paid for by the Council of Geothermal Authority#{normal}#
+
+As per our previous announcements, the geothermal vents of the Steam Quarry have begun to taper off in output.  While our geologists and military consider all available options for finding new vents (or alternative sources of steam power), we need YOUR cooperation to keep the pipes from running dry!  Here's how you can help make sure we have enough steam for everyone:
+
+-Cook the old-fashioned way - with flame magic, or a firewood stove.  Flash-steamers, although certainly a convenient way of preparing food, are VERY inefficient.  For a free handbook on delicious and easy-to-learn recipes for a conventional or pyromancy-based stove, simply come to the Council of Geothermal Authority offices and take one from the lobby.
+
+-Remember to shut off your appliances when you're done with them!  A full 5% of our power usage is estimated to be from washing machines, mills, carousels, generator-powered lighting, and other such devices left plugged in when not in use.  When you are done using an appliance, make sure it has been deactivated; to be completely sure, our experts recommend shutting off the valve entirely, then disconnecting the appliance and placing a standard cap over the output pipe.
+
+-Have your pipes checked regularly.  Leaking valves and loose fittings can consume tremendous amounts of steam pressure; you are only required to have your home steam-pipes inspected every three years, but additional inspections are available at no charge (once every six months).  Volunteering for these inspections can reduce your geothermal consumption, and fees, dramatically.
+
+-Use your own steam!  With regular exercise and a good diet, you can create your own power by wearing a collection suit, and plug the pressurized reserve tanks into your home intake valves to reduce the amount of power drawn from the geothermal system by over 40% (depending on personal production).  Short-term use of declogging tonics may help, but long-term use is generally ill-advised.
+
+-Do NOT pressurize tanks from the tap and sell them to others!  This is a violation of Council law, punishable by a fine of up to 3,000 gold and up to four years in prison, per tank.
+
+Thank you for helping ensure we ALL have power, while we work on curing this shortage!]], [[#{bold}#절약을 계속 실천하세요!#{normal}#
+#{italic}#지열 당국 평의회에서 알려드리는 에너지 소비에 관한 공지#{normal}#
+
+이전에 공지하였던 대로, 증기 채굴장 지열관들의 출력이 줄어들기 시작했습니다. 우리 지질학자들과 군대가 새로운 지열관을 찾아내기 위해 (아니면 증기력을 대체할 자원을 찾기 위해) 전력을 기울이고 있지만, 증기관들이 완전히 말라버리는 것을 막기 위해선 바로 여러분의 도움이 필요합니다! 여러분이 모든 사람들에게 증기를 충분히 제공하는 것을 도울 수 있는 방법을 몇 가지 안내드리겠습니다.
+
+-조리를 할 땐 화염 마법이나 장작 스토브 같은 옛 방식을 사용하세요. 증기조리기가 음식 만들기 편하긴 하지만, 증기 효율이 정말 심각하게 나쁩니다. 지열 당국 평의회 사무실 로비로 찾아오시면, 전통적인 화로나 화염 마법을 이용한 스토브를 사용하면서도, 쉽게 배울 수 있는 요리법들이 적힌 책자를 받으실 수 있습니다.
+
+-증기 기기를 사용하신 뒤에 끄는 것을 잊지 마세요! 전체 증기 사용량 중 약 5% 정도가 현재 사용 중이 아니지만 파이프에 연결되어 있는 증기 기기, 예를 들어 식기세척기나 컨베이어 벨트 같은 것들에 낭비되고 있는 것으로 추정됩니다. 기기를 다 사용하셨다면, 전원을 끄고, 확실하게 꺼져 있는지 확인하세요. 전문가들은 아예 밸브를 확실하게 잠근 다음 기기를 뽑아 버리고, 출력 파이프에다가 마개를 씌우는 것을 추천하고 있습니다.
+
+-파이프들을 정기적으로 점검하세요. 새고 있는 밸브나 느슨한 부속품들은 어마어마한 양의 증기를 낭비시킬 수 있습니다. 가정용 증기 파이프는 3년마다 한 번씩만 점검하면 되지만, 추가 검사는 무료입니다 (6개월에 한 번씩). 이런 검사를 한 번씩 해 주기만 해도 지열 소모량은 물론 증기 요금 또한 획기적으로 줄일 수 있습니다.
+
+-증기를 만들어 써 보세요! 평소에 규칙적으로 운동을 하고 있고 식단을 신경쓰고 있으셨다면, 수집 슈트를 착용하시고 가압 저장 탱크와 가정의 흡입 밸브를 연결하면 지열 시스템에 의한 에너지 사용량을 40% 이상 절감할 수 있습니다 (개인 생산량에 따라 다름). 구멍 청소약을 적당히 사용하는 것도 도움이 될 수 있지만, 장기간 사용 시 일반적으로 부작용을 초래합니다.
+
+-절대로 증기꼭지로 탱크에 압력을 가하지 마세요! 또, 그걸 타인에게 팔지 마세요! 의회법 위반 행위이며, 탱크 하나 당 3,000 골드 이하의 벌금, 그리고 4년 이하의 징역에 처합니다.
+
+우리 '모두' 가 증기를 사용할 수 있도록 협력해 주셔서 감사드립니다. 증기 부족을 해결하려 노력하겠습니다!]], "_t")
+t("vaporous emporium", "증기 상업지구", "newLore category")
+t("hastily-written poster", "휘갈겨 쓴 포스터", "_t")
+t([[KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
+is
+OPEN FOR BUSINESS AGAIN!
+ 
+The orcish hordes are upon us!  Although I am not normally one for gloating, I feel I must take this opportunity to say:
+ 
+#{bold}#I TOLD YOU SO, YOU INGRATES#{normal}#
+ 
+Do you see the need for my wonderful devices of self-defense NOW?  Do you see why I toiled so thoughtfully and tirelessly to make such exquisite contraptions that could've saved so many lives, if you'd only been willing to pay what I was asking for them, only a tiny fraction of what they were worth?  Does the USELESS City Guard see why they should have been purchasing my newest, improved models, such as the #{italic}#BRILLIANT AUTO-LOADING ORC EXPELLER#{normal}# (only 600 gold!  Get yours now!  Protect your family!) instead of abusing my built-to-last craftsmanship to keep my original production run around for over a decade?
+ 
+Don't make the same mistake twice!  Purchase the #{italic}#LIL SURPRISE#{normal}# for merely 150 gold!  What's that?  You can't afford that entry-level price?  I guess you should've bought it while I was still making them!  Don't want to get your guts torn out by a little green-skinned savage?  My old price for the #{italic}#PRESSURE-ENHANCED SLASHPROOF COMBAT SUIT#{normal}# was a steal at 700 gold - if you want one now, I'm sure your life is worth at least 3800 gold to you.  It utilizes your own vents to power tiny motors hidden in its joints, granting an unparalleled combination of fortitude and mobility; guaranteed to protect you from ANY sort of harm those savages can dish out, without slowing you down!  Notice all those dead guardsmen around?  Notice how they AREN'T wearing a #{italic}#PRESSURE-ENHANCED SLASHPROOF COMBAT SUIT#{normal}#, despite my desperate recommendations?  Don't let that be you or your loved ones!
+ 
+I'm sure you have your doubts as to the efficacy of my lovingly-made armaments; for a free demonstration of the quality and effectiveness of my goods, you are invited to try to take them by force.  I dare you - and that includes the City Guard, should they have any delusions about confiscating them for the public good.  The public has dug their own grave, and I will not pull them up simply out of charity; after all, they have offered me no such charity in the past.
+ 
+#{italic}#[An address is listed at the bottom of this poster.  You could attempt to raid this store, if you wanted, but the owner's armed to the teeth - it's unlikely it'll be worth the risk.]#{normal}#
+]], [[영업 재개!
+칼토르의!
+화기, 갑옷, 그 외 전투 장비들!
+ 
+오크 떼가 몰려오고 있습니다! 저도 이 상황이 딱히 기쁘거나 하진 않습니다만, 지금 아니면 이런 말을 언제 하겠습니까?
+ 
+#{bold}#내 말을 들었어야지, 멍청이들아.#{normal}#
+ 
+이제서야 제가 제공하는 훌륭한 자기 방어 도구들의 필요성을 좀 아셨습니까? 이제서야 제가 왜 그렇게까지 고심하면서, 밤낮도 없이 일을 해서, 이런 훌륭한 물건들을 만들어냈는지 좀 아셨냐 이 말입니다. 정말 약간의 돈만, 이 물건들의 가치에 비하면 티끌만도 못한 수준의 돈만 기꺼이 지불했었으면, 수많은 사람들을 살릴 수 있었을 텐데 말입니다. 저 무능하기 짝이 없는 경비병들이 제가 10년도 훨씬 전에 만들었었던 초기작을 계속 사용하면서 제 확고한 장인 정신을 짓밟는 대신에, 훨씬 더 개선된 최신 작품을, #{italic}#끝내주는 자동 장전식 오크 퇴치기#{normal}# (고작 600 골드! 지금 바로 구매하세요! 가족을 지키세요!) 같은 것들을 샀어야 했었다는 걸 이제 아시겠습니까?
+ 
+똑같은 실수를 두 번 저질러서는 안 됩니다! #{italic}#꼬마 서프라이즈#{normal}#를 단돈 150 골드에 구입하세요! 뭐라고요? 저 정도의 돈도 없으시다? 그럼 제가 저걸 만들고 있었을 때 샀어야 하지 않을까요? 쬐끄만 녹색 피부 야만인들한테 배가 찢어지는 게 싫으십니까? 전 #{italic}#압력 강화식 방검 전투 슈트#{normal}#를 700 골드에 팔고 있었죠 - 이걸 지금 사시겠다면, 3800 골드를 내셔야 합니다. 여러분 목숨 값에 비하면 싸구려라고 생각합니다만. 이 슈트는 여러분의 증기구를 이용해서 내장되어 있는 소형 전동기들을 작동시켜, 최고의 강인함과 기동성을 선사한답니다. 여러분의 움직임을 느려 터지게 만들지도 않으면서, 그 야만인들이 저지를 수 있는 모든 종류의 해코지들로부터 완벽한 보호를 보장합니다! 죽어 널부러져 있는 경비병들 보이십니까? 제가 그렇게나 간절하게 추천했는데도, #{italic}#압력 강화식 방검 전투 슈트#{normal}#를 쓰지 않아서 저렇게 된 게 보이십니까? 여러분이나 여러분이 사랑하는 사람들이 저 꼴이 되지 않도록 하세요!
+ 
+여러분이 제 사랑스러운 무기들이 얼마나 효과가 있을지 의심하고 계신 거 다 압니다. 그러니 제 물건들의 품질과 효과를 시험해 볼 수 있도록 무료 체험의 장을 열겠습니다. 오셔서 이 물건들을 힘으로 빼앗으려 해 보시면 됩니다. 사양하실 거 없고, 도시 경비대 분들도 부디 와 주세요. 그 물건들 압수해서 사람들을 위해 쓰면 되지 않냐, 같은 되도 않는 망상을 하고 계신 분이었으면 좋겠습니다. 사람들은 자기 무덤을 판 겁니다. 그리고 전 그 사람들한테 뭔가 이타적인 도움 같은 건 안 줄 겁니다. 왜냐면 제가 그 사람들한테 그런 이타적인 도움 같은 걸 받아 본 적이 없거든요.
+ 
+#{italic}#[포스터 아래쪽에 주소가 적혀 있습니다. 원한다면 이 가게를 습격해 볼 수도 있겠지만, 주인은 분명히 중무장을 하고 있을 겁니다 - 충분한 위험을 감수해야만 할 겁니다.]#{normal}#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/gem.lua"
 
+t("strange black disk (1)", "이상한 검정색 원판 (1)", "_t")
+t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Exploratory Mole, on a mission to..."  She sighs. " 'Find the Loyalist and arrange for our safe transport to his refuge, offering him his previous terms of agreement.' Which is Council-speak for 'flee in terror to the only thing that could bail us out of this mess, and bring the Eye with us.' Personally, I'm not keen on putting our fates in the hands of some nutter who lives underground and..." Indistinct grumbling. "...not even my damn job, I didn't sign up to be some politician's valet--"
+
+#{italic}#(You hear a door opening, and another voice speaks.)#{normal}#
+
+"Captain, the tea-maker isn't working!  Get someone on that, post-haste!"
+
+#{italic}#(The door closes.)#{normal}#
+
+"...Yeah, Councillor Tantalos is getting his tea as soon as he can un-kick the hornet's nest that got us into this chaos.  Moving on...  departure was on time, projected journey to the Loyalist's last known position is underway, making a tunnel there from right under the palace.  All systems functioning, except for the tea-maker, and I can't give a slag about that.  End log."]], [["...이러면 되나? 좋아. 음. 여기는 지열 탐사 굴착기, G.E.M의 아지랑이 지휘관 팔모르다. 내 임무는..." *한숨 소리* "'그 '충신' 을 찾아내고 우릴 그의 은신처로 안전히 이동시킬 준비를 할 것. 그에게 이전에 동의했던 것을 제공할 것'. '우린 너무 무서워서 우릴 이 난장판에서 구원해 줄 수 있는 유일한 존재에게로 도망칠 거다. 그리고 우리한테 그 눈을 가져와라' 를 평의회어로 번역하면 저렇다. 개인적으로, 우리 종족의 운명을 웬 땅 속에 사는 미친 놈한테 맡기는 게 내키진 않는다. 그리고..." *잘 알아들을 수 없는 불평* "...제기랄, 이건 내가 할 일도 아니라고, 난 정치꾼 부하가 아니라--"
+
+#{italic}#(문이 열리고, 다른 누군가가 말하는 소리가 들렸습니다.)#{normal}#
+
+"지휘관, 차 끓이는 기계가 말을 안 듣네!  아무나 좀 불러 주게, 최대한 빨리!"
+
+#{italic}#(문이 닫혔습니다.)#{normal}#
+
+"...그래, 탄탈로스 의원은 차를 즐기려 한다. 놈이 벌집을 발로 까서 우릴 이 혼돈의 도가니로 던져 놓았던 걸, 없던 일로 할 수 있다는 걸 알게 되자마자. 뭐, 기록을 계속해 보면... 시간 맞춰서 출발했고, 궁전 바로 아래에서부터 굴을 파내서, 충신이 마지막으로 있었다고 알려진 위치로 현재 이동 중이다. 전 시스템 정상 작동 중, 차 끓이는 기계 빼고. 그거에 대해서는 뭐라 할 말이 없다. 기록 끝."]], "_t")
+t("strange black disk (2)", "이상한 검정색 원판 (2)", "_t")
+t([["...for posterity!  Let's make sure future generations can hear the moments of history being made!" You hear the voice of Councillor Tantalos again... and then you hear a very strange voice, one that's all too clear. Even with the device playing it, it sounds like it's coming from inside your own head.#{normal}#
+
+"Yes, yes, good idea. This is an important day, for both of us - no, for Eyal...  You've brought what I asked for so long ago, then?"
+
+"Of course!  It's just--  bring the cart around here!"  (Clanking and grinding.)  "Open it up, if you wish."
+
+"No need.  I can feel its power, it's so familiar and yet so new...  This could only be the Eye of Amakthel Himself!  It's beautiful, and all will know its beauty..."
+
+"Er...  splendid, I assume!  This is the beginning of a long and beautiful partnership between the Atmos and...  your people!  Shall I go back up and tell them we're ready for them, and you're ready to handle the Orc situation? They're, ah, rather eager to come down here--"
+
+"GO FORTH, MY HERALD. TELL THEM ALL ARE WELCOME."
+
+"Wh-what are you--"  #{italic}#Screams in the background.  Gurgling.  Crashing.  A distant, bestial roar.#{normal}#
+
+"AMAKTHEL WILL REWARD YOU FOR YOUR SERVICE AS YOU DESERVE." More crashing.  "YOU SHALL BE BLESSED WITH A BETTER NEW FORM.  A BETTER NEW MIND.  ALL YOUR PEOPLE ARE WELCOME TO..."
+
+#{italic}#(You hear Parmor's voice again.)#{normal}#  "Slag it, RUN!  Grab everything and--"  (The recording ends.)
+]], [["...후세를 위해서! 미래 세대가 역사적인 순간을 들을 수 있게 하지요!" 평의원 탄탈로스의 목소리가 다시 들립니다... 그리고 굉장히 이상한 목소리도 들렸습니다. 이상할 정도로 깨끗한 목소리입니다. 이 장치가 소리를 내고 있지만, 머릿속에서 그 목소리가 들리는 것 같다는 느낌까지 듭니다.#{normal}#
+
+"그래, 그래, 좋은 생각이다. 오늘은 중요한 날이다. 우리 둘 모두에게 - 아니, 에이알에게... 그럼, 그대는 내가 오래 전에 말했던 것을 가져온 것인가?"
+
+"물론이지요! 여기에-- 수레를 가져와라!"  (철컥거리는 소리, 삐걱거리는 소리.)  "원한다면, 열어 보셔도 됩니다."
+
+"필요 없다. 힘이 느껴지는구나, 너무나도 친숙하지만 굉장히 새롭다... 아마크텔 그 분의 눈이 확실하다! 실로 아름답도다, 그리고 모두가 이 아름다움을 알게 되리라..."
+
+"어... 예, 아름답습니다! 이로써 우리 아트모스와... 음, 그쪽 사람들은 오래토록 아름다운 협력 관계를 맺게 되었군요! 이제 돌아가서 준비가 되었다고 말해야겠고, 그쪽도 오크 문제를 해결할 준비가 되었습니까? 아, 그쪽 분들도 기뻐서 여기까지 내려오--"
+
+"가라, 나의 전령들이여. 모두 환영한다고 전하라."
+
+"다-당신 대체 무슨--"  #{italic}#뒤쪽에서 비명 소리. 꾸르륵 소리. 박살나는 소리. 멀리서, 짐승 같은 포효 소리.#{normal}#
+
+"아마크텔께서 그대의 봉사에 마땅한 상을 내리시리라." *박살나는 소리가 커짐*  "더 나은 모습으로 축복을 받으리라. 더 나은, 새로운 정신과 함께. 그대의 민족 역시 환대를 받으리..."
+
+#{italic}#(팔모르의 목소리가 다시 들립니다.)#{normal}#  "제기랄, 도망쳐!! 근처에 아무거나 잡고--"  (기록이 끝났습니다.)
+]], "_t")
+t("strange black disk (3)", "이상한 검정색 원판 (3)", "_t")
+t([[#{italic}#(You hear loud, mechanical rumbling; in the distance, you hear sounds of struggling and bludgeoning, swords slicing through flesh, steamguns being fired, and shouts of pain from giant and horror alike.  Parmor sounds panicked.)#{normal}#
+
+"Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], [[#{italic}#(기계가 시끄럽게 웅웅거리는 소리가 들립니다. 멀리서 요란한 싸움 소리와 세게 부딪히는 소리, 검이 살점을 베어내는 소리, 증기총 소리, 그리고 거인과 공포가 고통으로 지르는 고함 소리가 들렸습니다. 팔모르는 어쩔 줄 모르는 듯한 목소리입니다.)#{normal}#
+
+"메이데이, 메이데이, 우린 탈출 중이다! 탄탈로스는 사라졌고, 우린 그 놈을 구하러 가지 않을! 것이다! 연기의 궁전으로 가는 터널도, 빌어처먹을 평의회도 상관 없다! 우린 이곳에서부터 최대한 멀리 갈 것이--" *시끄러운 쉭쉭 소리* "이 개새--!" *신음 소리, 으깨지는 소리, 베는 소리*  "빌어먹을 태양의 장벽 쪽으로 전속력 이동 중, 우린 이 대륙 최초의 장거리 차원문을 탈취할 거다! 그 난쟁이들이 환영해주든 아니든! 엄밀히 말하면 이건 반역이나 폭동이나 뭐 아무튼 그런 거겠지만, 만약 지금 이거 듣고 있는 게 평의회 놈들이면, 좆이나 까 잡숴라 이 개새끼들아, 우린 살고 싶다고!! 고도 상승 중, 지표 도달 중, 여기는 아.지. 팔모르 통신 종료--"]], "_t")
+t("why is it down there why is it ANYWHERE", "왜 저게 저 아래에 있는 거야 왜 저게 사방에 있는 거야", "_t")
+t("If anyone finds this, tell the Jarsovi brothers their father lov", "누가 이걸 찾아냈다면, 자르소비 형제한테 아빠가 사랑했다고 저ㄴㅎ", "_t")
+t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "너무 많아. 아트모스 사람들을 더 데리고 나올 수도 없었어, 안전하지 않았어, 놈들이랑 구분이 되지 않았어. 연료가 지상까지 갈 수 있을 만큼 충분하기를.", "_t")
+t("What have we done...  why didn't I stop it?", "우리가 무슨 짓을 한 거지...  난 왜 그걸 보고만 있었던 거야?", "_t")
+t("nothing living should have that many", "어떻게 저런 게 그렇게 많을 수가", "_t")
 t("erratic scribblings", "휘갈겨 쓴 낙서", "_t")
+t("so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "그게 저것들처럼 생겼다는 거지. 저것들의 모습이. 이제서야 그들의 묘사가 대부분 파괴된 이유를 알겠다", "_t")
 
 
 ------------------------------------------------
@@ -2563,7 +2727,7 @@ t([[Launches a sawblade with intense power doing %0.2f physical damage to all ta
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Rocket Dash", "로켓 질주", "talent name")
 t("@Source@ rockets forward!", "@Source@의 로켓에 불이 붙었다!", "_t")
-t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
+t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
 t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there.
 		This attack does 130% weapon damage.
@@ -2604,7 +2768,7 @@ Damage dealt by this talent is increased by half your critical multiplier, if do
 증폭된 피해로 적을 죽일 수 있을 때, 치명타 피해 증가량의 50%% 만큼 가하는 피해량이 증폭됩니다.]], "tformat")
 t("Rocket Smash", "로켓 강타", "talent name")
 t("@Source@ rockets forward!", "@Source@의 로켓에 불이 붙었다!", "_t")
-t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
+t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
 t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there and knock them back 4 spaces as well as anyone else they collide with.
 		This attack does 180% weapon damage.
@@ -4487,7 +4651,7 @@ t([[You are adept at wreaking havoc onto your foes!
 		시전자가 (또는 그 밖의 개체들) 이 개체에게 압도 효과를 적용하려 할 때 마다, 다른 두 압도 효과까지 같이 걸어버립니다.
 		추가로 물리력, 증기력, 주문력, 정신력이 %d 증가합니다.
 		위력은 교활에 비례하여 증가합니다.]], "tformat")
-t("Quaffed the Blood of Undeath, not already undead and not antimagic.", "불사의 피를 마시고, 현재 언데드가 아니며, 반마법 추종자가 아닐것.", "_t")
+t("Quaffed the Blood of Undeath, not already undead and not antimagic.", "역생의 피를 마시고, 현재 언데드가 아니며, 반마법 추종자가 아닐것.", "_t")
 t([[#GREY#Applying you cunning plans, you escape death by turning to undeath in an instant!
 
 #{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#자신을 위한 교활한 계획을 새워, 언데드로 변해 죽음에게서 벗어납니다!
