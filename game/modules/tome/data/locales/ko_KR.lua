@@ -371,7 +371,7 @@ t("[Improve %s by +%d]", "[%s +%d]", "tformat")
 t("improved %s save by +%d", " %s 내성 +%d", "tformat")
 t("[Improve %s save by +%d]", "[%s 내성 by +%d]", "tformat")
 t("%s talent %s (+%d level(s))", "%s %s (+%d 레벨)", "tformat")
-t("Improve", "상승", "_t")
+t("Improve", "향상 :", "_t")
 t("Learn", "배우기 :", "_t")
 t("[%s talent %s (+%d level(s))]", "[%s %s (+%d 레벨)]", "tformat")
 t("Select the party member to receive the reward:", "보상을 받을 파티 멤버를 선택하세요:", "_t")
@@ -13606,49 +13606,49 @@ Was it a dream?  Some strange foretelling?  Or could it have been a true apparit
  
 종자는 갑자기 안장 위에서 자세를 고쳐앉더니, 깃대를 꽉 움켜잡았다.  “예, 사령관님!” 그가 불안해하며 말했다.  “무슨 일이든 따르겠습니다, 사령관님!”  그의 얼굴은 전방을 향해 있었지만, 나는 그의 두 눈이 나는 흘겨보는 것을 볼 수 있었다. 인정을 간절히 바라는 듯이.  무슨 일이든 따르겠다라...  나는 그가 그런 눈빛을 내게 보내는 것을 전에 본 적이 있다.  젊은 병사가 사령관을 향해 보내는 존경의 시선, 그리고 어쩌면 다른 감정이 실려있을 수도 있겠지.  만약 내가 리나니일과 함께하는 기쁨을 누리지 못했다면, 소년의 관심은 나쁘지 않았을 것이다.  그러나 지금은 그런 생각을 할 때가 아니다.
  
-이 날은 마법폭발의 날이고 이 소년은 긴장할 만도 하다.  자정이 몇시간 지났을 때였고, 우리 정찰병들은 다른 종족들과 함께 오크들을 은신처에서 끌어내어 전투를 하고 있었을 것이다.  우리는 우리 주 공격 진형을 지나 marched through our main offensive lines, where we would hem them in before the great conflagration.  All around were arrayed spears and swords and mail, glistening in the starlight.  Troops upon troops of battlemages in purple robes held aloft glowing staves.  It was a sight to behold.  Yet we knew also the risk of engaging on open ground with the orcs in their full numbers.  If the Spellblaze failed then we would suffer greatly.
+이 날은 마법폭발의 날이고 이 소년은 긴장할 만도 하다.  자정이 몇시간 지났을 때였고, 우리 정찰병들은 다른 종족들과 함께 오크들을 은신처에서 끌어내어 전투를 하고 있었을 것이다.  우리는 대화재가 일어나기 전, 그들의 발을 묶어놓을 주요 공격선을 지나 행군했다.  주위는 온통 별빛에 반짝이는 창끝과 검, 갑옷들이 늘어서있었다.  야영지 내의 전투 마법사 부대는 자주색 로브를 입고, 빛나는 지팡이를 하늘 높게 들고있었다.  장관이였다.  하지만 우리는 탁 트인 전장에서 무수한 오크 떼와 교전 해야할 위험성도 알고있었다.  마법폭발이 실패한다면, 우리 모두 큰 손실을 입게 될 것이였다.
 
-I set up camp upon a low hill overlooking the field, and then left my entourage to seek the Kar’Krul army to the north.  As I rode my stallion towards their station I could see smoke rising in the east.  Four thick grey plumes stood out against the pre-dawn light.  They would be villages looted and burned by the orcs as they rampaged against our feigned assaults.  The townsteads would be empty, but after this battle there would be nothing left for their residents to return to.  A small sacrifice in a game of war that spanned the continent.
+나는 들판이 내려다보이는 낮은 언덕에 진을 쳤고, 북방의 카르'크룰 군대를 찾기위해 수행단을 떠났다.  내가 말을 타고, 그들의 주둔지를 향해 달려나갔을 때, 나는 동쪽에서 연기가 피어오르는 것을 발견했다.  네 개의 두꺼운 회색 기둥이 새벽 전의 희미한 빛에 대적하는 듯 우뚝 서있었다.  분명 우리들의 위장 공격에 분노한 오크들에게 약탈당하고, 불타버린 마을들일 것이다.  마을 주민들은 이미 피난을 마친 뒤였겠지만, 이 전투가 끝나면 그들이 돌아갈 집은 존재하지 않을 것이다.   대륙 전체에서 벌어지고있는 전쟁 게임에서의 조그만한 희생이였다..
 
-A fifth column of smoke began to rise, and in the greenish haze of early morn those pillars of smoke suddenly seemed to look like a demonic hand stretching over the world, ready to dig its claws into the earth and rip out the flesh beneath.  This, I knew, was the threat the orcs faced to us all, a menace to all civilisation.  Whatever price we paid to stop them would be a small one.  So I thought.  So we all thought.
+다섯 번째 연기구름이 치솟았다. 아침의 푸르스름한 연무 속에서, 연기 기둥들은 갑자기 온 세상에 뻗어있는 악마의 마수처럼 보였다.   마수는 마치 그 손톱으로 땅을 헤집어, 대지 밑의 살갗을 찢어낼 준비가 된 듯 보였다.  이, 내가 알고 있는, 모든 문명에 대한 오크들의 위협에 우리는 직면해있다.  우리가 이 오크들을 막기위해 치를 댓가는, 분명 아주 작은 댓가가 될 것이다.   나는 그렇게 생각했다.  우리 모두 그렇게 생각했다.
  
-When I reached the Kar’Krul camp Linaniil came out to meet me.  Her smile was warm at the sight of me, but I could tell from her eyes that she was more excited for the events of the day.  “Just a few more hours,” she whispered like an impatient child.  “This will be fascinating!”
+내가 카르'크룰 야영지에 도착하자 리나니일이 나와 나를 맞아주었다.  그녀의 미소는 따뜻해 보였으나, 그녀의 눈을 통해, 그녀가 그 날 벌여질 대사건에 대해 더 흥분하고 있음을 알 수 있었다.  “몇 시간 뒤면 다 끝나요.” 그녀는 참을성 없는 어린 아이처럼 속삭였다.  “정말 재밌을거예요!”
  
-As I came in the Kar’Krul pavilion I saw Neira inside, and some of their senior mages and delegates from other human kingdoms.  I knew Turthel would not be with them, as he stayed in his northern city with his people.  It was not cowardice nor age that held him back from the front lines of war.  Indeed, it was said that ever since his wife was killed by the orcs he had to restrain himself from battle, lest his anger overcome him and he destroy friend and foe alike in his rage.  Yet it was known that sometimes he would venture through the lands alone, and he would bring with him a deafening storm of wrath, and the orcs would cower at the rumour of the approach of Turthel, Tempest of the North.
+내가 카르'크룰의 야영지 내의 정자에 도착했을 때, 나는 그 안에있던 네이라와 그들의 고위 마법사들, 그리고 다른 인간 왕국들의  대표들을 볼 수 있었다.  투르텔은 그의 북방 도시 내에서 백성들과 함께 있기 때문에, 투르텔이 그곳에 있지 않을 것이라는 것을 알았다.  그가 전장의 최전선에 서지 못하게 된 것은 비겁함도, 나이도 아니였다.  실제로, 그의 아내가 오크들에게 살해당한 이후, 그는 자신의 분노가 그를 압도해, 아군과 적을 가리지 않고 파괴하지 않도록 스스로를 제어 해야했다.   하지만 그는 가끔 홀로 대지를 지나 여행을 한다는 것이 알려졌고, 그는 분노로 들끓는 굉음 폭풍을 몰고 다녔다. 오크들은 북방의 폭풍, 투르텔이 온다는 소문에 위축되곤 했다.
  
-Neira and Linaniil commanded the Kar’Krul forces, and from the firm-set look on their archmages’ faces it was clear that they were ready for whatever the day would bring.  Yet Neira looked troubled, doubt evident in her eyes.
+네이라와 리나니일은 카르'크룰 부대를 지휘했다. 그리고 그들의 마도사들의 굳은 얼굴 표정에서 그 날 무슨일이 일어나도 대응할 준비가 되어있음을 느낄 수 있었다.  하지만 네이라의 눈에는 의심의 빛이 역력한, 괴로운 표정을 짓고있었다.
  
-“What irks your sister?” I whispered to Linaniil.
+“네이라가 불편한 것 같은데?” 나는 리나니일에게 속삭였다.
  
-“Some dumb dream,” she responded callously.
+“바보같은 꿈 때문에요.” 그녀는 냉랭하게 말했다.
  
-Neira’s eyes shot up.  “It were not a dream!” she barked.  “An omen it were, I tell ye!”  She turned to me then with pleading eyes.  “Ye must believe me, Aranion.  Something wilst go terribly wrong today.  I saw last night a terrible sight in mine dreams, as if it were a memory of long ago.  There were a burning city, made of glass and silver and marble.  And as it burned I did hear the cries of thousands, tens of thousands, young and old all dying.  And then the city fell, for it had been held in the sky, and it crashed down to the earth with a shattering torment that spilled across the land.  And other cities there were, and pillars of violet light struck up from them, and they did dance around filling the air with the scent of ozone and seared flesh.  Death was everywhere!  Death like none we have ever seen.
+네이라의 두 눈이 쏘아부쳤다.  “그건 꿈이 아니라고!” 그녀가 외쳤따.  “흉조라고, 내가 말했잖아!”  그녀가 애원하는 눈으로 내게 돌아섰다.  “당신은 저를 믿어야해요. 아라니온.  오늘은 뭔가 끔찍하게 잘못될 거예요.  나는 어젯밤 꿈 속에서 마치 오래 전에 겪었던 것처럼 끔찍한 것들을 보았어요.  유리와 은, 그리고 대리석으로 만들어진 도시가 불타고 있었어요.  도시가 불타면서 수 천명이 울부짖었어요, 아니 수 만명이. 늙은 자들 그리고 어린 자들. 그 모두가 죽어가고 있었어요.  하늘에 떠있던 도시가 무너지자, 도시가 추락하며, 산산조각난 고통을 온 대지에 퍼뜨렸어요.  그리고 그곳에 있던 다른 도시들에게서 보라색 빛의 기둥이 솟아나오면서, 공기를 오존과 불타버린 살의 향기로 채우며 춤을 췄어요.  죽음이 어디에나 있었어요!  우리가 전에 결코 볼수 없었던 그런 죽음이.
  
-“It were no mere dream I tell ye.  It be a message, a warning - some forgotten tale of the dangers we play with.  We must stop this thing!”
+“제가 당신에게 말하는 것은 단순한 꿈이 아니예요.  그건... 계시였어요. 경고하는 - 우리가 손 댄 위험에 대한 잊혀진 이야기들...  우린 당장 멈춰야해요!”
  
-Linaniil was tapping her foot impatiently as her sister raved, but I could see some of the other leaders looking worried.  I knew I had to quiet Neira down, so I drew myself near and put my hands on her shoulders, looking her calmly in the eyes and bringing my face close.
+그녀의 자매가 격렬하게 열변을 토하자, 리나니일은 짜증내며 발을 툭툭 차고 있었지만, 다른 인간 지도자 몇명이 걱정하는 것을 보았다.나는 네이라를 진정시켜야 한다는 것을 알았고, 나는 그녀에게 다가가, 그녀의 어깨에 손을 올리고 그녀의 눈을 조용히 응시하며 얼굴을 가저다댔다.
  
-“It may well be that this is no dream.  For this is no normal day, and even in all the legends of ages past this will stand out as a day of reckoning.  Our civilisation in under peril, our way of life threatened from the orcish scourge.  We rest upon a knife edge, the world balancing on a pivot, and the wrong sway could tip us into darkness and despair forever.  Our actions today will decide this.  So yes, you have had a warning, you have had a message, and that message is to be strong.  For today we all hold the reins of fate in our palms, and only the steady hand can guide us past the threat of doom that is to come.  Neira, can you be that steady hand?”
+“그건 꿈이 아닐 수도 있습니다.  오늘은 평범한 날이 아니고, 과거의 모든 전설 속에서도 오늘은 심판의 날로 기록될 겁니다.  위험에 처한 우리 문명과 우리의 삶의 방식은 오크들로 인해 고통받고있습니다.  우리는 칼날 위를 걷고있습니다. 세계는 축 위에 놓여 균형을 잡고 있고요. 잘못된 흔들림 한 번이 우리를 영원한 어둠과 절망으로 몰아넣을 수도 있습니다.  오늘 우리의 행동이 이것을 결정할 겁니다.  그래요, 당신은 경고를 받았고, 계시도 받았습니다, 그 계시는 아주 뚜렷하죠.  오늘 우리 손에는 운명의 고삐가 쥐어져 있습니다. 그리고 오직 안정된 손만이 우리를 다가올 파멸의 위협에서 벗어나게 해 줄 겁니다.  네이라, 안정된 손이 되어 주실 수 있으십니까?”
  
-She looked at me with open and hopeful gaze, her fingers clenched around my wrist as if she sought to draw strength from me.  She nodded slowly then.  “I’m sorry Aranion.  I just... I’ll be strong.”
+그녀는 나를 희망찬 눈으로 바라보았다. 그녀의 손가락은 마치 나에게서 힘을 흡수하려는 듯 나의 손목을 꽉 쥐었다.  그러고선 그녀는 천천히 고개를 끄덕였다.  “죄소앻요 아라니온.  나는 그저... 저는 더 강해져야 될거 같아요.”
  
-I turned to the others who all seemed rapt by my words.  It was clear that leaving them to their own thoughts could only bring trouble.  I had to pull them into action straight away.  “It begins now!” I shouted.  “Gather your troops and prepare for the march.  Slow and steady we shall advance, carefully shall we hold the battle, and beyond fire and fury we will emerge free and victorious.  This day shall stand in history forever!  This day shall mark a new era for all the races!  The day of the Spellblaze is here!”
+나는 내 말에 완전히 넋을 잃은 것 같은 이들에게로 시선을 돌렸다.  그들을 자유롭게 생각하게 나두는 것은 문제를 일으킬 게 뻔했다.  나는 그들을 당장 행동으로 옮기게 해야했다.  “지금 시작합니다!” 나는 소리쳤다.  “군대를 소집해 행군할 준비를 하십시오.  느리지만 끊임없이 우리는 나아갈 것이고, 조심스럽게 전투에서 임할것이며, 화염과 분노를 넘어 우리는 자유를 되찾고 승리를 만끽할 것입니다.  오늘은 영원히 역사에 기록될 것입니다!  오늘은 모든 종족들을 위한 새 시대의 이정표가 될 것입니다!  마법폭발이 날이 왔습니다!”
 
-They all cheered and rushed to order their troops, taking courage from the duties of command.  Neira went to her own mages, and I left the pavilion alone.  But outside I was ambushed by Linaniil, who pulled me into an empty tent with a playful laugh.
+그들 모두 환호성을 내지르며 부대를 지휘하기 위해 달려나갔다. 지휘의 임무에서 용기를 얻은 것이 틀림없었다.  네이라는 그녀의 부하 마법사들에게로 갔다. 정자에 남은 것은 나 혼자 뿐이였지만,  나는 정자 밖에서 리나니일에게 기습을 받았다. 그녀는 장난기 어린 웃음을 지으며 나를 빈 텐트 안으로 끌어당겼다.
  
-“Ye said ye were no leader!” she exclaimed with a grin.  “That were a leader’s speech if ever I heard one.”
+“지도자가 아니라면서요!” 그녀가 웃으며 말했다.  “그건 분명히 지도자의 연설이였어요.”
 
-I shrugged and smiled modestly.  “I said what I had to.”
+나는 어깨를 으쓱하며 겸손하게 웃었다.  “나는 내가 해야할 것을 한 것 뿐이야.”
  
-She drew close then, a sudden flush of worry in her face.  “It were just a dream, right?”  I could see then beneath all the bravado and humour she was mortally scared, her fingers trembling as she gazed into my eyes, yearning for reassurance.
- 
-“It was just a dream,” I lied, and it is a lie I have paid for with all my heart and soul.  “Everything will be all right.”  I pulled her close and wrapped my arms around her slender frame, and she held tight to me, still trembling slightly.
- 
-“Thank you, Aranion,” she whispered.  Turning up her face she kissed me, and it was the softest, most delicate kiss she ever gave me.  It was also the last.
- 
-We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
+그녀가 내게 바짝 다가왔다. 그녀의 얼굴이 갑작스럽게 걱정으로 달아올랐다.  “그냥 꿈인 거겠죠, 그쵸?”  나는 그 허세와 장난기 속에서 그녀가 두려움에 떨고 있음을 알 수 있었다. 그녀는 나의 눈을 바라보고 있었고, 그녀의 손가락은 안정을 바라며 덜덜 떨렸다.
 
-Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], "_t")
+“그냥 꿈이야.” 내가 말했다. 내가 모든 심혈과 영혼을 댓가로 했던 거짓말.  “다 잘 될거야.”  나는 그녀를 끌어당겨 나의 팔로 그녀의 가냘픈 몸을 안았다. 그녀가 나를 꽉 잡았다. 그녀는 아직도 떨고 있엇다.
+ 
+“고마워요 아라니온,” 그녀가 속삭였다.  그녀는 얼굴을 들고 내게 입맞춤을 해주었다. 그건 그녀가 내게 해주었던 가장 부드럽고, 가장 섬세한 입맞춤이였다.  또한 마지막 입맞춤이기도 했다.
+ 
+그 후, 우리는 헤어졌다. 나는 나의 부대로 돌아가기 위한 외로운 여행을 시작했다.  내 심장은 고막을 찢어버리는 전쟁 북소리처럼 고동치고 있었고 네이라가 했던 말들이 내 머릿속에서 계속 울려퍼지고 있었다.  그것들이 그날 아침 내가 꾸었던 꿈의 기억을 되살려주었다. 하지만 그때까지, 내 가슴 한 켠에서 잠들어있었다.  나는 침대에 누웠고, 내 주변에는 빛과 공기의 형상이 떠다니고 있었다. 내가 전에 보지 못했던 생명체 같았다.  그것은 팔같은 긴 촉수를 갖고있었고, 흩날리는 로브가 천천히 그 위를  날아다녔다.  머리가 있어야 할 곳에 작은 혹만 있었지만, 나는 그것이 나에게 집중하고 있음을 알 수 있었다.  그 생명체는 위험하고 어두운 위협에서 나를 보호하려는 듯 긴 촉수를 내게 뻗었다.  끔찍하고 불길한 예감이 나를 덮쳐왔다. 세상 그 누구도 보지 못한 임박한 파멸의 전조.  촉수의 끝이 내 이마에 닿자 모든 것이 검어졌다.
+
+꿈인가?  아니면 이상한 예언인가?  진짜 유령이였을까, 누군가가 나에게 직접 경고를 하려는 것이였을까?  하지만 나는 그런 생각을 할 겨를이 없었다.  마법폭발의 시간이 다가오고 있었고, 내 머릿속에는 의심을 위한 공간따윈 없었다.  나는 내 운명에 가차를 가했다.]], "_t")
 t("The Spellblaze Chronicles(5): The Day of the Spellblaze", "마법폭발 연대기 (5): 마법폭발의 날", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -16213,7 +16213,7 @@ t([[Teleport to the target and attack with your melee weapons for %d%% damage.  
 		Blink Blade can hit the same target multiple times.]], [[대상에게 순간이동해 근접 무기로 %d%% 피해를 입힙니다. 그 후 무작위한 적에게 다시 순간이동 해, %d%% 피해를 입힙니다.
 		점멸의 칼날은 동일한 대상을 여러 번 공격할 수 있습니다.]], "tformat")
 t("Blade Shear", "절단의 칼날", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
 t("%s has been cut from the timeline!", "%s 시간선에서 잘려나갔다!", "logSeen", nil, {"는"})
 t("%s resists the temporal shear!", "%s 시간 절단을 저항했다!", "logSeen", nil, {"는"})
 t([[Attack up to three adjacent targets for %d%% weapon damage.  If any attack hits you'll create a temporal shear dealing %0.2f temporal damage in a radius %d cone.
@@ -20793,7 +20793,7 @@ t([[You look at your surroundings with more intensity than most people, allowing
 		은신 탐지력이 %d, 투명 탐지력이 %d 증가합니다.
 		탐지력은 교활에 비례하여 증가합니다.]], "tformat")
 t("Precision", "집중", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
 t("You cannot use Precision without dual wielding!", "당신은 쌍수 무기 없이는 집중을 사용할 수 없다!", "logPlayer")
 t([[You have learned to hit the right spot, increasing your armor penetration by %d when dual wielding.
 		The Armour penetration bonus will increase with your Dexterity.]], [[약점을 공략하는 법을 배웠습니다. 쌍수 무기 사용 시 방어력 관통이 %d 증가합니다.
@@ -21397,10 +21397,10 @@ t([[Fire a bolt of distortion that ignores resistance and inflicts %0.2f physica
 		If the bolt comes in contact with a target that's already distorted, a detonation will occur, inflicting 150%% of the base damage in a radius of %d.
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
 		At talent level 5, you learn to shape your distortion effects, preventing them from hitting you or your allies.
-		The damage will scale with your Mindpower.]], [[왜곡 화살을 발사하여, 저항을 무시하고 %0.2f 물리 피해를 줍니다. 이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
-		왜곡 화살이 이미 왜곡의 영향을 받는 적에 접촉할 경우, 폭발이 일어나 반경 %d 칸 내에 기본 피해량의 150%% 에 달하는 피해를 줍니다.
-		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항 감소 효과가 상승하게 됩니다.
-		기술 레벨이 5 이상이면, 왜곡의 형태를 조절하여 자신과 아군은 폭발에 휘말리지 않게 됩니다.
+		The damage will scale with your Mindpower.]], [[왜곡 화살을 발사하여, 저항을 무시하는 %0.2f 물리 피해를 줍니다. 이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 2 턴 동안 물리 피해 저항을 %d%% 감소시키고, 다른 왜곡 계열 기술에 취약하게 만듭니다.
+		왜곡 화살이 이미 왜곡 효과를 받고있는 적에게 닿을 경우, 폭발이 일어나 반경 %d 칸 내에 기본 피해량의 150%% 에 달하는 피해를 줍니다.
+		이 기술에 기술 점수를 투자할 때마다, 왜곡 효과의 물리 저항 감소 효과가 상승하게 됩니다.
+		기술 레벨이 5 이상이면, 왜곡의 형태를 조절하여 시전자와 시전자의 아군은 폭발에 휘말리지 않게 됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Distortion Wave", "왜곡 파동", "talent name")
 t([[Creates a distortion wave in a radius %d cone that deals %0.2f physical damage and knocks back targets in the blast radius.
@@ -21408,9 +21408,9 @@ t([[Creates a distortion wave in a radius %d cone that deals %0.2f physical dama
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
 		If the target is already distorted, they'll be stunned for %d turns as well.
 		The damage will scale with your Mindpower.]], [[반경 %d 칸의 원뿔 범위에 왜곡 파동을 만들어 내 %0.2f 물리 피해를 주고 적들을 뒤로 밀어냅니다.
-		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
-		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항 감소 효과가 상승하게 됩니다.
-		대상이 이미 왜곡의 영향을 받는 경우, %d 턴 동안 기절합니다.
+		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 2 턴 동안 물리 피해 저항을 %d%% 감소시키고, 다른 왜곡 계열 기술에 취약하게 만듭니다.
+		이 기술에 기술 점수를 투자할 때마다, 왜곡 효과의 물리 저항 감소 효과가 상승하게 됩니다.
+		대상이 이미 왜곡 효과를 받고 있는 경우, %d 턴 동안 기절합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Ravage", "대파괴", "talent name")
 t([[Ravages the target with distortion, inflicting %0.2f physical damage each turn for %d turns.
@@ -21418,9 +21418,9 @@ t([[Ravages the target with distortion, inflicting %0.2f physical damage each tu
 		If the target is already distorted when Ravage is applied, the damage will be increased by 50%% and the target will lose one beneficial physical effect or sustain each turn.
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
 		The damage will scale with your Mindpower.]], [[왜곡의 힘으로 대상을 파괴합니다. %0.2f 물리 피해를 매 턴 입힙니다. 효과는 %d 턴 동안 지속됩니다.
-		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
-		대파괴가 이미 왜곡의 영향을 받는 적에 적용될 경우, 피해량이 50%% 증가하고 대상은 매 턴 이로운 물리적 효과나 유지기를 하나 잃게 됩니다.
-		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항 감소 효과가 상승하게 됩니다.
+		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 2 턴 동안 물리 피해 저항을 %d%% 감소시키고, 다른 왜곡 계열 기술에 취약하게 만듭니다.
+		대상이 이미 왜곡 효과를 받고 있는 경우, 피해량이 50%% 증가하고 대상은 매 턴 이로운 물리적 효과나 유지기를 하나 잃게 됩니다.
+		이 기술에 기술 점수를 투자할 때마다, 왜곡 효과의 물리 저항 감소 효과가 상승하게 됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Maelstrom", "염동력 소용돌이", "talent name")
 t("%s's maelstrom", "%s'의 소용돌이", "tformat")
@@ -21429,8 +21429,8 @@ t([[Create a powerful maelstorm for %d turns.  Each turn, the maelstrom will pul
 		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
 		The damage will scale with your Mindpower.]], [[%d 턴 동안 지속되는 강력한 염력의 소용돌이를 생성합니다.  매 턴 마다 소용돌이는 반경 %d 칸 내의 적들을 끌어당기며, %0.2f 물리 피해를 가합니다
-		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 물리 피해 저항을 %d%% 감소시키고 2 턴 동안 다른 왜곡 효과에 취약하게 만듭니다.
-		이 기술에 기술 점수를 투자할 때마다, 왜곡의 물리 저항 감소 효과가 상승하게 됩니다.
+		이 피해는 대상에게 확률적으로 왜곡 효과를 부여하며, 2 턴 동안 물리 피해 저항을 %d%% 감소시키고, 다른 왜곡 계열 기술에 취약하게 만듭니다.
+		이 기술에 기술 점수를 투자할 때마다, 왜곡 효과의 물리 저항 감소 효과가 상승하게 됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -24046,7 +24046,7 @@ t([[Hit the target twice with your two-handed weapon, doing %d%% damage. Each hi
 		The stun chance increases with your Physical Power.]], [[양손 무기로 대상을 두 번 공격해, 공격 당 %d%% 피해를 입힙니다. 매 공격마다 일정 확률로 대상을 %d 턴 기절시킵니다.
 		기절 확률은 물리력에 비례하여 증가합니다.]], "tformat")
 t("Fearless Cleave", "대담한 가로베기", "talent name")
-t("You must be able to move to use this talent.", "이 기술을 사용하려면 이동할 수 있어야 합니다.", "logPlayer")
+t("You must be able to move to use this talent.", "이동을 방해받고 있어서 기술을 발동할 수 없다.", "logPlayer")
 t("Take a step toward your foes then use the momentum to cleave all creatures adjacent to you for %d%% weapon damage.", "적을 항해 한 걸음 이동하고, 그 가속도를 이용해 인접한 모든 대상을 가로베어 %d%% 무기 피해를 입힙니다.", "tformat")
 t("Death Dance", "죽음의 무도", "talent name")
 t("You cannot use Death Dance without a two-handed weapon!", "양손 무기가 없으면 죽음의 무도를 사용할 수 없습니다!", "logPlayer")
@@ -24168,7 +24168,7 @@ At talent level 5, you will immediately enter a blocking stance on landing.]], [
 방패 강타는 힘 대신 민첩을 사용해 방패의 보너스 피해를 적용합니다.
 기술 레벨 5에서 착지 이후 즉시 방어 자세로 진입합니다.]], "tformat")
 t("Bull Shot", "돌진 사격", "talent name")
-t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
+t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
 t([[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
 		The shot does %d%% weapon damage and knocks back your target by %d.
 		The cooldown of this talent is reduced by 1 each time you move.
@@ -24252,7 +24252,7 @@ t([[You fire a pinning shot, doing %d%% damage and pinning your target to the gr
 section "game/modules/tome/data/talents/techniques/assassination.lua"
 
 t("Coup de Grace", "최후의 일격", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
 t("You cannot use Coup de Grace without dual wielding!", "쌍수 무기를 장비하지 않으면 최후의 일격을 사용할 수 없습니다!", "logPlayer")
 t("#Source# delivers a Coup de Grace against #Target#!", "#Source1# #Target#에게 최후의 일격을 날립니다. #Target#!", "logCombat")
 t("%s resists the Coup de Grace!", "%s 최후의 일격에 저항합니다!", "logSeen", nil, {"는"})
@@ -24395,7 +24395,7 @@ section "game/modules/tome/data/talents/techniques/combat-techniques.lua"
 t("Rush", "돌진", "talent name")
 t("@Source@ rushes out!", "@Source1@ 돌진했다!", "_t", nil, {"가"})
 t("You can only rush to a creature.", "오직 다른 대상에게만 돌진할 수 있습니다.", "logPlayer")
-t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
+t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
 t([[Rush toward a target enemy with incredible speed and perform a melee attack for 120%% weapon damage that can daze the target for 3 turns if it hits.
 		You must rush from at least 2 tiles away.]], [[놀라운 속도로 대상에게 돌진해 120%% 무기 피해를 주고 적중하면 3 턴 동안 대상을 혼절시킵니다.
 		적어도 2타일 이상 떨어져 있어야 합니다.]], "tformat")
@@ -24505,15 +24505,15 @@ t([[You have learned to block incoming blows with your offhand weapon.
 		성공적으로 공격을 쳐내면 갑옷과 동일하게(공격 계수 적용 전) 피해가 감소하고 치명적인 공격을 방지합니다. 부분적인 쳐내기는 성공 확률이 비례하여 감소합니다. 보이지 않는 적의 공격은 쳐내기 어렵고 마석으로는 쳐내기를 사용할 수 없습니다.
 		방어와 쳐내기 확률은 민첩에 비례하여 증가합니다. 쳐내기 횟수는 교활의 영향을 받아 증가합니다.]], "tformat")
 t("Close Combat Management", "근접 전투 통제", "talent name")
-t("You must dual wield to use this talent.", "이 기술을 사용하려면 쌍수 무기를 사용해야 합니다.", "logPlayer")
-t("You must dual wield to manage contact with your target!", "대상과의 접전을 통제하려면 쌍수 무기를 사용해야 합니다!", "logPlayer")
+t("You must dual wield to use this talent.", "이 기술을 사용하려면 쌍수 무기를 사용해야 한다.", "logPlayer")
+t("You must dual wield to manage contact with your target!", "대상과의 접전을 통제하려면 쌍수 무기를 사용해야 한다!", "logPlayer")
 t([[You have learned how to carefully manage contact between you and your opponent.
 		When striking in melee with your dual wielded weapons, you automatically avoid up to %d damage dealt to you from each of your target's on hit effects.  This improves with your Dexterity, but is not possible with mindstars.
 		In addition, while this talent is active, you redirect %d%% of the damage you avoid this way back to your target.]], [[당신과 대상 사이의 접전을 조심스럽게 통제하는 법을 배웠습니다.
 		근접해서 쌍수 무기로 공격할 때, 자동으로 대상의 적중 효과로 당신에게 가해지는 피해를 최대 %d 회피합니다. 이 효과는 민첩의 영향을 받아 증가하지만, 마석으로는 사용할 수 없습니다.
 		추가로 이 기술이 활성화 상태일 때, 회피한 피해의 %d%%를 대상에게 다시 돌려줍니다.]], "tformat")
 t("Offhand Jab", "보조 찌르기", "talent name")
-t("You must dual wield to perform an Offhand Jab!", "보조 찌르기를 사용하려면 쌍수 무기를 사용해야 합니다!", "logPlayer")
+t("You must dual wield to perform an Offhand Jab!", "보조 찌르기를 사용하려면 쌍수 무기를 사용해야 한다!", "logPlayer")
 t("%s resists the surprise strike!", "%s 기습 공격에 저항했습니다!", "logSeen", nil, {"가"})
 t([[With a quick shift of your momentum, you execute a surprise unarmed strike in place of your normal offhand attack.
 		This allows you to attack with your mainhand weapon for %d%% damage and unarmed for %d%% damage.  If the unarmed attack hits, the target is confused (%d%% power) for %d turns.
@@ -24521,18 +24521,18 @@ t([[With a quick shift of your momentum, you execute a surprise unarmed strike i
 		주무기로 공격해 %d%% 피해를 주고 맨손으로 공격해 %d%% 피해를 줍니다. 만약 맨손 공격이 적중하면, 대상은 혼란 상태에(%d%% 위력) %d 턴 동안 빠지게 됩니다.
 		혼란 확률은 정확도의 비례하여 증가합니다.]], "tformat")
 t("Dual Strike", "이중 공격", "talent name")
-t("You cannot use Dual Strike without dual wielding!", "쌍수 무기 없이는 이중 공격을 사용할 수 없습니다!", "logPlayer")
+t("You cannot use Dual Strike without dual wielding!", "쌍수 무기 없이는 이중 공격을 사용할 수 없다!", "logPlayer")
 t("%s resists the stunning strike!", "%s 기절의 일격에 저항했습니다!", "logSeen", nil, {"가"})
 t([[Attack with your offhand weapon for %d%% damage. If the attack hits, the target is stunned for %d turns, and you hit it with your mainhand weapon doing %d%% damage.
 		The stun chance increases with your Accuracy.]], [[보조 무기로 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상은 %d 턴 동안 기절하고 주무기로 공격하여 %d%% 피해를 줍니다.
 		기절 확률은 정확도 비례하여 증가합니다.]], "tformat")
 t("Flurry", "일진광풍", "talent name")
-t("You cannot use Flurry without dual wielding!", "쌍수 무기 없이는 일진광풍을 사용할 수 없습니다!", "logPlayer")
+t("You cannot use Flurry without dual wielding!", "쌍수 무기 없이는 일진광풍을 사용할 수 없다!", "logPlayer")
 t("Lashes out with a flurry of blows, hitting your target three times with each weapon for %d%% damage.", "일진광풍을 일으켜 각 무기로 세 번씩 %d%% 피해를 줍니다.", "tformat")
 t("Heartseeker", "급소 노리기", "talent name")
 t("Swiftly leap to your target and strike at their vital points with both weapons, dealing %d%% weapon damage. This attack deals %d%% increased critical strike damage.", "민첩하게 대상에게 도약해 각 무기로 대상의 치명적인 부위를 공격하고 %d%% 무기 피해를 줍니다. 이 공격은 %d%% 증가한 치명타 공격 피해를 줍니다.", "tformat")
 t("Whirlwind", "선풍", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
 t("The target location must be within range and within view.", "대상이 범위 및 시야 내에 있어야 합니다.", "logPlayer")
 t("There is no open space in which to land near there.", "근처에 이동할 수 있는 열린 공간이 없습니다.", "logPlayer")
 t("%s becomes a whirlwind of weapons!", "%s 무기의 선풍을 일으켰습니다!", "logSeen", nil, {"가"})
@@ -24552,21 +24552,21 @@ t("Tempo", "템포", "talent name")
 t([[The flow of battle invigorates you, allowing you to press your advantage as the fight progresses.
 		Up to once each per turn, while dual wielding, you may:
 		Riposte -- If a melee or archery attack misses you or you parry it, you instantly restore %0.1f stamina and gain %d%% of a turn.
-		Recover -- On performing a critical strike with your offhand weapon, you instantly restore %0.1f stamina.]], [[전투의 흐름 속에서 당신은 활력을 되찾습니다. 전투의 흐름을 당신의 이점으로 이용하는 방법을 깨닫습니다.
-		쌍수 무기를 착용 시, 1 턴에 한번 당신은 다음과 같은 효과를 얻습니다 :
-		응수 -- 근접 공격, 원거리 공격을 회피했을 때나 받아넘겼을 때, 당시는 즉시 %0.1f 기력을 회복하고 턴의 %d%% 를 획득합니다.
-		만회 -- 보조무기로 치명타를 냈을 때, 당신은 즉시 %0.1f 기력을 회복합니다.]], "tformat")
+		Recover -- On performing a critical strike with your offhand weapon, you instantly restore %0.1f stamina.]], [[전투의 흐름 속에서 활력을 되찾습니다. 전투의 흐름을 유리하게 이용하는 방법을 깨닫습니다.
+		쌍수 무기를 착용 시, 1 턴에 한 번 다음과 같은 효과를 얻습니다 :
+		응수 -- 근접 공격, 원거리 공격을 회피했을 때나 받아넘겼을 때, 즉시 %0.1f 기력을 회복하고 %d%% 턴을 획득합니다.
+		만회 -- 보조무기로 치명타를 냈을 때, 즉시 %0.1f 기력을 회복합니다.]], "tformat")
 t("Feint", "속이기", "talent name")
-t("You must be able to move to use this talent.", "이 기술을 사용하려면 이동할 수 있어야 합니다.", "logPlayer")
+t("You must be able to move to use this talent.", "이동을 방해받고 있어서 기술을 발동할 수 없다.", "logPlayer")
 t("%s cannot move!", "%s 움직일 수 없다!", "logPlayer", nil, {"는"})
 t("Terrain prevents #Source# from switching places with #Target#.", "지형이 #Source# 과 #Target# 의 자리 교체를 방해한다.", "logCombat")
 t([[Make a cunning feint that tricks your target into swapping places with you.  While moving, you take the opportunity to trip them, pinning and dazing them for 2 turns.
 		Switching places distracts your foes and allows you to improve your defenses:  For %d turns, Dual Weapon Mastery yields one extra parry each turn and you are %d%% less likely to miss your parry opportunities.
-		The chance to pin and to daze increases with your Accuracy]], [[교활한 속임수로 당신과 적의 위치를 바꿉니다. 움직이는 동안, 당신은 확률적으로 적을 넘어뜨려, 2 턴 동안 속박하고, 혼절시킵니다.
+		The chance to pin and to daze increases with your Accuracy]], [[교활한 속임수로 당신과 적의 위치를 바꿉니다. 움직이는 동안, 확률적으로 적을 넘어뜨려, 2 턴 동안 속박하고, 혼절시킵니다.
 		자리 교체는 적들을 당황시키며, 당신의 방어 능력이 향상됩니다. %d 턴 동안, 1 턴당 1 회의 추가 받아넘기기 한도를 얻고, 실패 확률이 %d%% 감소합니다.
 		속박과 혼절 확률은 정확도에 비례하여 증가합니다.]], "tformat")
 t("Lunge", "찌르기", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 합니다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
 t("You cannot use Lunge without dual wielding!", "쌍수 무기 없이 기술을 사용할 수 없다!", "logPlayer")
 t("%s resists the blow!", "%s 공격에 저항했다!", "logSeen", nil, {"는"})
 t([[Exploiting a gap in your target's defenses, you make a lethal strike with your offhand weapon for %d%% damage that causes them to drop their weapon, disarming them for %d turns.
@@ -24585,7 +24585,7 @@ t([[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spe
 		You can shoot down up to %d projectiles.]], [[번개처럼 빠른 반사 신경으로 투사체를 포착 시 (화살, 탄환, 주문, ...) 턴 소모없이 투사체를 격추시킬 수 있습니다.
 		최대 %d 개의 투사체를 격추시킬수있습니다.]], "tformat")
 t("Bull Shot", "돌진 사격", "talent name")
-t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없습니다!", "logPlayer")
+t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
 t([[You rush toward your foe, readying your shot. If you reach the enemy, you release the shot, imbuing it with great power.
 		The shot does %d%% weapon damage and knocks back your target by %d.]], [[적을 향해 돌진하며 사격을 준비합니다. 적에게 접근하면 엄청난 힘이 담긴 사격을 합니다.
 		사격은 %d%% 무기 피해를 주고 대상을 %d칸 밀어냅니다.]], "tformat")
@@ -25671,8 +25671,8 @@ t([[You have learned to harness your latent arcane powers, channeling them throu
 		Your physical critical chance is increased by 25%% of your bonus spell critical chance.]], [[잠재적인 마법의 힘을 끌어올려, 무기에 실어냅니다.
 		다음과 같은 효과가 발생합니다:
 		장비한 무기의 적용 능력치에 마법 능력치가 50%% 만큼 추가됩니다.
-		순수 물리력의 100%%에 해당하는 수치가 순수 주문력에 추가됩니다.
-		물리 치명타 확률이 주문 치명타 확률의 25%% 만큼 상승합니다.]], "tformat")
+		순수 주문력의 100%% 만큼 순수 물리력이 상승합니다.
+		주문 치명타 확률의 25%% 만큼 물리 치명타 확률이 상승합니다.]], "tformat")
 t("Temporal Form", "시간의 형상", "talent name")
 t("Have cast over 1000 spells and visited a zone outside of time", "마법을 1,000 번 이상 사용하였으며, 시간 밖의 공간을 방문한 적이 있을 것", "_t")
 t([[You can wrap temporal threads around you, assuming the form of a telugoroth for 10 turns.
