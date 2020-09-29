@@ -232,7 +232,8 @@
 "game/dlcs/tome-orcs/data/lore/destructicus.lua"
 "game/dlcs/tome-orcs/data/lore/dominion-port.lua"
 "game/dlcs/tome-orcs/data/lore/emporium.lua"
-"game/dlcs/tome-orcs/data/lore/gem.lua" Khelerd 완
+"game/dlcs/tome-orcs/data/lore/gem.lua"
+"game/dlcs/tome-orcs/data/lore/internment-camp.lua" Khelerd 완
 
 ------------------------------ 이하 EoR data/quests (완역) ---------------------------------
 
