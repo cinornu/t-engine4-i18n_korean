@@ -819,7 +819,7 @@ t([[Your successful melee hits apply a stacking effect that decreases damage don
 		한 대상 당 %d 중첩을 쌓을 수 있고, 중첩을 쌓을 때 마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면, 이 효과는 즉시 사라집니다.
 		기술 레벨 3 일 때, 중첩 당 %0.2f%% 의 감속을 적용합니다.
 		기술 레벨 5 일 때, 반경 %d 칸 내의 적을 두려움에 떨게합니다.
-		This talent ignores saves and immunities.
+		이 기술은 모든 내성과 면역을 무시합니다.
 		]], "tformat")
 t("Mass Hysteria", "집단 히스테리", "talent name")
 t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d.", "공포의 힘을 증폭해, 대상에게 중첩 당 효과 효율이 %d%% 상승하고, 지속시간이 %d 턴으로 재설정됩니다. 증폭된 공포는 반경 %d 칸 내의 모든 적에게 전파됩니다.", "tformat")

@@ -515,7 +515,7 @@ Unfortunately, they cannot afford to spare the warriors to retake the Mana Caves
 
 안타깝게도 그들은 폭군을 몰아내기 위해 마나 동굴로 보낼 만한 전사를 차출할 여력이 없고, 난 그들이 영토를 지킬 수 있도록 여기서 도와야 한다. 우리 혈족을 자유롭게 할 수 있는 건 오직 그대 뿐이다. 그대가 충분히 준비가 되었다면.]], "_t")
 t("[listen]", "[듣는다]", "_t")
-t("Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "네크토쉬는 자신이 무적이며 전능한 일각수의 후손이라고 주장한다만, 난 그딴 헛소리를 단 1초도 진지하게 믿은 적이 없다. 놈이 깨우친 굉장한 마법의 힘은 정신이 아찔해질 정도로 공포스럽긴 하지만, 놈은 아직까지 그 힘으로 보호막을 만들거나 순간이동을 하거나 한 적이 없고, 그 광선마저 항상 조준이 완벽한 것도 아니었다... 내 생각엔 놈은 약점이 있고, 그걸 숨기고 있다. 용맹하게 맞서라, 화이트후프 동포여. 그리하면 크림불 혈족은 다시 자유롭게 되리라!", "_t")
+t("Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "네크토쉬는 자신이 무적이며 전능한 유니콘의 후손이라고 주장한다만, 난 그딴 헛소리를 단 1초도 진지하게 믿은 적이 없다. 놈이 깨우친 굉장한 마법의 힘은 정신이 아찔해질 정도로 공포스럽긴 하지만, 놈은 아직까지 그 힘으로 보호막을 만들거나 순간이동을 하거나 한 적이 없고, 그 광선마저 항상 조준이 완벽한 것도 아니었다... 내 생각엔 놈은 약점이 있고, 그걸 숨기고 있다. 용맹하게 맞서라, 화이트후프 동포여. 그리하면 크림불 혈족은 다시 자유롭게 되리라!", "_t")
 t("I will!", "알겠어!", "_t")
 t([[He...  he found a wand?  And he realized it was running dry, but only after taking over the tribe?  I pity him, but I cannot forgive him for being willing to sacrifice so many Whitehooves and Orcs to escape the consequences of his brief lapse into madness...  still, as a personal request I ask that you not tell others of his last thoughts.  The Nektosh we once knew saved our tribe from the corrupted magic deep under Eyal; he deserves to, at worst, be remembered as one who tragically succumbed to its influence.
 
@@ -1575,7 +1575,7 @@ t("bursts into an cloud of spydric poison, pinning those inside (with a 10 turn 
 t("Scattermind", "흩어진 정신", "entity name")
 t("shattered mindstar", "부서진 마석", "_t")
 t("A linen pouch of jagged mindstar fragments, each radiating a palpable sense of confusion and pain. They must have made up an impressive whole originally, before some cretin turned it to bits.", "날카로운 마석 조각들이 담긴 리넨 주머니로, 모든 조각이 뚜렷한 혼란과 공포를 발산하고 있습니다. 어떤 멍청이가 마석을 산산조각 내기 전까지 원래 굉장히 인상적인 마석이였을 겁니다.", "_t")
-t("strike the target with one of Mind Sear, Psychic Lobotomy, or Sunder Mind, at random.", "대상을 정신 파괴, 초능력 뇌 절제, 정신 분할 중 한 기술로 공격합니다.", "_t")
+t("strike the target with one of Mind Sear, Psychic Lobotomy, or Sunder Mind, at random.", "대상을 정신 파괴, 뇌엽 절제, 정신 분열 중 한 기술로 공격합니다.", "_t")
 t("Thundercrack", "천둥 굉음", "entity name")
 t("pouch of copper shots", "구리 탄환 주머니", "_t")
 t("Through a combination of magic and airborne probes, these shots incite powerful bolts of lightning to strike your target from above, frying them and those around them!", "마법과 대기 관측 장비를 통해 , 머리 위에서 내려친 번개로 적을 튀겨버리고, 주변의 적들까지 구워버립니다!", "_t")
@@ -2210,11 +2210,291 @@ t("so that's what it looks like.  what THEY look like.  now I see why so many de
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/internment-camp.lua"
 
+t("internment camp correspondence (1)", "수용소 서신 (1)", "_t")
+t([[#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+It's good to see that you and your followers have arrived safely! Hopefully you're settling in all right; thank you for coming, and pass my thanks on to the Elvala diplomats for getting you here on such short notice. I hope this is the first step in your kind - you Ogres, of course, but also the Shaloren who sent you here - joining forces with the Allied Kingdoms.
+
+There are no Ziguranth here in the Far East, and the orcs in this camp have been compliant so far, on account of Mindwall's elaborate illusions. It's the most humane way to deal with them that we've found so far - we hope that his influence will have a permanent calming effect on them over time, but until then, they're happy and docile in their little dream-world. All you have to do is protect against any stragglers outside the walls looking to break their kin out of here, and patrol the halls to make sure any orcs who've managed to shake off the illusions are swiftly apprehended and dealt with. This should be a pretty easy job - if you need any particular help or provisions, though, let me know and I'll do what I can!
+
+Sincerely,
+Administrator Quellop
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Administrator Quellop
+From: Guard Captain Galsamae#{normal}#
+
+We need four more chairs in the break room.
+
+-Galsamae
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+I'm sorry, but we can't really afford that, as the budget for amenities and luxuries is stretched pretty thin here as-is. Please try to keep your requests limited to necessities - even with Last Hope's merchants competing on price, the security over by the farportal means it's still not cheap to get things here.
+
+Regretfully,
+Administrator Quellop]], [[#{italic}#수신: 경비대장 가르사매
+발신: 관리자 쿠엘로프#{normal}#
+
+당신과 당신 부하들이 안전하게 도착해서 다행입니다! 별 탈 없이 이곳에 적응했으면 좋겠군요. 우선 이곳까지 와 주셔서 정말 감사드리고, 급한 이야기에도 흔쾌히 처리해 주신 엘발라 외교관께도 감사드립니다. 전 이번 일이 당신네 오우거들, 그리고 그 뒤의 샬로레들이 왕국연합군에서 성과를 올리는 첫 걸음이 되었으면 좋겠습니다.
+
+이곳 동쪽의 대륙에는 지구랏도 없고, 이 수용소의 오크들은 마인드월의 정교한 환상 덕분에 굉장히 순종적입니다. 이건 우리가 고안해 낸 것들 중 가장 인도적인 방식입니다. 우린 마인드월의 영향력이 시간이 지나면서 그들을 영구히 진정시키길 바라고 있지만, 그 때까지 저들은 행복한 꿈 속 나라에서 고분고분하게 지낼 겁니다. 당신들의 업무는 자신들의 동족을 탈출시키려는 침입자들을 물리치는 것과, 순찰을 돌면서 혹시나 환상에서 벗어난 오크가 보이면 곧바로 체포하여 다시 처리할 수 있도록 하는 겁니다. 어려운 일은 아닐 겁니다 - 하지만 만약에 어떤 도움이나 지원이 필요하시다면, 제게 알려 주십시오. 도움을 드리겠습니다!
+
+진심을 담아,
+관리자 쿠엘로프
+
+#{bold}#---#{normal}#
+
+#{italic}#수신: 관리자 쿠엘로프
+발신: 경비대장 가르사매#{normal}#
+
+휴게실에 의자가 네 개 더 필요하다.
+
+-가르사매
+
+#{bold}#---#{normal}#
+
+#{italic}#수신: 경비대장 가르사매
+발신: 관리자 쿠엘로프#{normal}#
+
+정말 죄송합니다만, 편의시설과 사치품의 예산은 굉장히 빠듯합니다. 정말 필요한 만큼만 요청해 주십시오 - 마지막 희망의 상인들이 가격 경쟁을 벌이고 있지만, 그래도 장거리 차원문 주변의 안전을 확보하는 문제 때문에 운송 가격은 여전히 비싼 편입니다.
+
+유감을 담아,
+관리자 쿠엘로프]], "_t")
+t("internment camp correspondence (2)", "수용소 서신 (2)", "_t")
+t([[#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+I'm disappointed. I went around the camp for my first inspection today, and the hallways are filthy! Haven't you mopped them once since you got here? Not only that, but there was a guard sleeping on the job by the northwest corner! I thought you guys making a good impression was the entire point of this - if things keep going this poorly, I've got half a mind to ship you lot out and bring in some dwarves instead! They might not be cheap, but at least they're reliable!
+
+Get your act together,
+Administrator Quellop
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Administrator Quellop
+From: Guard Captain Galsamae#{normal}#
+
+We need four more chairs in the break room. If you want the floors mopped, we'll need five chairs.
+
+-Galsamae
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+Do you have #{italic}#any#{normal}# idea how much it costs to transport an ogre-sized chair #{italic}#all the way out here?#{normal}# No.
+
+With growing impatience,
+Administrator Quellop]], [[#{italic}#수신: 경비대장 가르사매
+발신: 관리자 쿠엘로프#{normal}#
+
+실망스럽군요. 오늘 처음으로 주변을 한 번 돌아 봤는데, 복도가 정말 더러웠습니다! 여기 온 이후로 걸레질을 한 번도 안 한 겁니까? 그것 뿐만이 아닙니다. 북서쪽 모퉁이에, 근무 중에 자고 있는 경비병도 있었습니다! 당신네 종족의 이미지를 바꾸려고 온 거 아니었습니까? 만약 다음에 봤을 때도 여전히 이 모양이면, 당신들 중 절반은 돌려보내고 그 자리를 드워프로 채울 겁니다! 그 사람들이 일당이 세긴 하지만, 최소한 믿고 맡길 수는 있다고요!
+
+성과를 좀 내 봅시다,
+관리자 쿠엘로프
+
+#{bold}#---#{normal}#
+
+#{italic}#수신: 관리자 쿠엘로프
+발신: 경비대장 가르사매#{normal}#
+
+휴게실에 의자가 네 개 더 필요하다. 바닥에 걸레질을 하려면, 다섯 개가 필요할 거고.
+
+-가르사매
+
+#{bold}#---#{normal}#
+
+#{italic}#수신: 경비대장 가르사매
+발신: 관리자 쿠엘로프#{normal}#
+
+오우거 크기의 의자를 #{italic}#이 먼 곳 까지 옮기려면#{normal}# 돈이 얼마나 많이 드는지 #{italic}#알기나#{normal}# 합니까? 안 됩니다.
+
+인내심의 한계를 느끼는,
+관리자 쿠엘로프]], "_t")
+t("internment camp correspondence (3)", "수용소 서신 (3)", "_t")
+t([[#{italic}#To: Condescending Little Cretin
+From: Guard Captain Galsamae#{normal}#
+
+Listen here, you little cretin.
+
+When we agreed to this, we requested 60 mind-caging helmets, properly sized, alongside 60 sets of mail armor, a minimum of 30 beds, and shifts of no more than eight hours a day. We GOT 35 helmets, and had to send 25 of our guards back lest they get sucked into Mindwall's illusions like these orcs - furthermore, the helmets were crudely modified, and wound up weighing about twice as much as they needed to. We got plate armor instead of mail, further increasing the burden each of us has to carry, and our reduced numbers mean we have to take 12-hour shifts. (Obviously, such a schedule leaves no time for mopping.) Combined with all that, we don't even have enough beds for everyone - depending on the day, 5 to 10 of us are stuck without a place to sleep.
+
+With anyone else, this would be a recipe for a workforce that would quickly get exhausted. Our runes buy us a lot of time before that happens, but that saturation still builds up over time, and we need to rest. We can't just sleep on the floor, we're too big to not get sores from our weight pressing into a hard surface, so each shift, a few of us are stuck without sleep or rest. What you saw in the northwest corner was someone who'd collapsed from exhaustion, who has the longest patrol route and (due to my personal oversight, and I apologize for that) wound up being one of the few who couldn't sleep the previous night.
+
+We know that getting more mind-caging helmets would cost a lot, as would more beds, so we've come up with the cheapest available option to fix this: more chairs. We can get almost as good a rest sleeping in a chair as we can in a bed, provided we throw in the couple of pillows we've managed to make from spare grain sacks. If we don't get this, though, my estimate is that within the next three months, we'll have another guard collapse on a main patrol route, not just that way-out-there one the last guy collapsed on. As in, close enough to the prisoners where his or her helmet might just roll off and into their grasp. And the moment some Orc puts that helmet on, it's all over.
+
+We're fine with these miserable conditions. All things considered, it's still some of the best interpersonal interaction we've gotten outside of Elvala. We'd even be fine with a few of us dying from overwork, if that was the only consequence of such an awful work schedule - but it'd lead to a breakout. And we will NOT be blamed for ANOTHER catastrophe that WASN'T OUR FAULT.
+
+I've said it before, and I'm saying it for the last time: #{bold}#WE NEED MORE CHAIRS IN THE BREAK ROOM.#{normal}# If you think it's too expensive, I will #{italic}#personally#{normal}# come down to your quarters and restrain you while my men confiscate your fancy little bed, desk, and dresser, then repurpose them as scrap lumber and padding to build ourselves some new chairs. I'm not any more comfortable with insubordination than you are, but this is quite literally a matter of life and death, and not just for my people.
+
+-Galsamae
+
+PS: If any mention of this is made to your superiors, I'll make sure they also know about the Atmos absinthe you had smuggled in here last week.]], [[#{italic}#수신: 거들먹거리는 쬐끄만 얼간이
+발신: 경비대장 가르사매#{normal}#
+
+잘 들어라, 이 좁쌀만한 머저리 자식아.
+
+우리가 이 일을 하기로 했을 때, 우린 적절한 사이즈의 정신보호 투구 60개, 사슬 갑옷 60벌, 침대 최소 30개, 그리고 근무 시간은 여덟 시간을 넘지 않는다는 조건으로 왔었다. 근데 우린 투구를 고작 35개밖에 못 받았고, 그래서 경비병 25명을 다시 돌려 보내야 했었지. 그 투구가 없으면 오크들마냥 마인드월의 환상에 갇혀 버리게 되니까. 게다가 그 투구들도 사이즈 맞추려고 조잡하게 개조한 것들이라, 무게가 2배 쯤 무거워진 물건들이었다. 거기다가 또 우린 사슬 갑옷 대신에 훨씬 더 무거운 판금 갑옷을 지급받았고, 우리 머릿수가 줄었기 때문에 근무 시간이 열두 시간이 되었다. 이런 상황에서 걸레질 할 시간이 날 거라고 생각하나? 거기다가 또, 우리한테는 침대조차 충분하지 않다. 매일매일 5명에서 10명 정도는 잠을 잘 곳이 없어서 고생을 해야 한단 말이다.
+
+이건 그야말로 과로사로 직행하는 법의 교과서 수준이다. 일을 하는 게 누구든 간에. 우린 룬들이 과로사 하기 전까지 시간을 많이 벌어주는 편이지만, 그것도 슬슬 한계가 찾아오고 있고 이제 우린 쉬어야만 한다. 그런데 우린 몸집이 너무 커서, 그냥 땅바닥에 누워서 잘 순 없다. 딱딱한 곳에 누워 있으면 살이 짓눌려서 욕창이 생기니까. 그래서 매번 교대할 때마다 잠을 자지도, 쉬지도 못하는 인원이 생기는 거다. 네가 북서쪽 모퉁이에서 자는 걸 봤다던 경비병은 그냥 자고 있던 게 아니라, 과로로 쓰러진 거다. 그는 순찰 경로가 제일 긴 인원이었고 (이건 내가 경로 할당을 잘못 한 것이므로, 사과하겠다) 거기에 더해서 간밤에 잠을 자지 못했던 것이다.
+
+우리도 정신보호 투구를 더 주문하는 건 돈이 많이 들고, 침대 역시 비슷할 거라는 걸 잘 알고 있다. 그래서 우린 가장 싸게 먹히는 방법을 떠올렸고, 그게 바로 의자를 늘려달라고 하는 것이었다. 의자에서도 자면서 쉴 수 있고, 우리가 지급받았던 여분의 곡물 자루로 베개 비슷한 것을 두 개 만들면 침대에서 쉬는 것과 큰 차이가 없을 테니. 하지만 우리가 이런 것도 제대로 못 하게 된다면, 내 생각엔 세 달 안에 주요 순찰 경로를 돌다가 쓰러지는 인원이 나오게 될 거다. 저번에 인원이 쓰러졌던 그 모퉁이가 아니라, 쓰러질 때 투구가 벗겨져서, 그게 수감자들 쪽으로 굴러들러갈 수 있을 정도로 가까운 곳에서 쓰러질 거라고. 그리고 어떤 오크가 그 투구를 잡아다가 머리에 쓰는 순간, 이 모든 게 물거품이 되는 거다.
+
+사실 우린 이런 끔찍한 환경도 괜찮다. 다 예상했던 것들이고, 우리가 엘발라 밖에서 받았던 취급들에 비하면 고생 축에도 못 드는 일이지. 우리 중 몇 명이 과로로 쓰러져 죽는다 해도 괜찮다. 이 모든 일이 그냥 '끔찍한 노동 환경' 때문이고, 그걸로 끝나기만 한다면. 하지만 우리가 쓰러져 죽는 순간, 대참사가 일어날 수도 있다. 그리고 그런 대참사가 실제로 일어난다 해도, 비난을 받는 건 우리가 아닐 거다. 그건, '우리' 탓이, 아니니까.
+
+예전부터 이야기했었고, 지금 말하는 게 마지막이다. #{bold}#휴게실에 의자가 더 필요하다.#{normal}# 만약 그 의자들이 너무 비싸다는 생각이 든다면, 난 #{italic}#개인적으로#{normal}# 네 방으로 내려가서 널 묶어 둔 다음에, 부하들을 시켜서 네 예쁘장하고 조그마한 침대, 책상, 옷장 같은 것들을 압수한 다음, 그것들을 적당히 부수고 붙여서 새 의자로 만들어서 쓸 거다. 나도 이러고 싶지는 않지만 이건 정말로 생사가 달린 문제이고, 그 생사도 내 부하들 생사 따지고 있는 게 아니라는 걸 알아들었길 바란다.
+
+-가르사매
+
+추신: 만약에 네 상사들이 이 이야기에 대해 알게 된다면, 그 상사들은 네가 아트모스산 압생트들을 밀수해다가 여기 숨겨 놓았다는 것도 알게 될 거다.]], "_t")
+t("internment camp", "오크 수용소", "newLore category")
+t("internment camp correspondence (4)", "수용소 서신 (4)", "_t")
+t([[#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+I've requested an increase to our budget. Ten beds and eight chairs are on their way. Is there anything else you need?
+
+With my sincerest apologies,
+Administrator Quellop
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Administrator Quellop
+From: Guard Captain Galsamae#{normal}#
+
+A steel hand-rail on the south staircase would be nice.
+
+-Galsamae
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+Done.
+
+-Quellop]], [[#{italic}#수신: 경비대장 가르사매
+발신: 관리자 쿠엘로프#{normal}#
+
+예산을 늘려달라고 요청했습니다. 침대 열 개와 의자 여덟 개도 지금 운송 중이고. 필요한 게 더 있습니까?
+
+진심어린 사과를 담아,
+관리자 쿠엘로프
+
+#{bold}#---#{normal}#
+
+#{italic}#수신: 관리자 쿠엘로프
+발신: 경비대장 가르사매#{normal}#
+
+남쪽 계단에 강철 손잡이가 달려 있었으면 좋겠다.
+
+-가르사매
+
+#{bold}#---#{normal}#
+
+#{italic}#수신: 경비대장 가르사매
+발신: 관리자 쿠엘로프#{normal}#
+
+달았습니다.
+
+-쿠엘로프]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/krimbul.lua"
 
+t("the journey of the Krimbul Clan", "크림불 혈족의 여정", "_t")
+t([[We are not people of great ambition or complex desires, we Minotaurs.  We seek not to choose a direction for the world, we wish not to spread across the land, we are content not to build great machines or greater empires.  What we wish more than anything is simply to live; alas, the rest of the world wishes that we do not.  We cannot say where or how the hostilities started...  if we had to guess, perhaps the soft-footed considered us a pest for seeking out homes in their storerooms and armories.  We are drawn to great magic, especially when it is concentrated into artifacts, and over the eons of persecution, we have developed an equally strong instinctual drive towards safe places underground (although, again, this is simply a guess).  If there is enough stray magic around, we can live on it without eating or drinking, and see no need to come to the surface; indeed, under such conditions we might not even age.  Most minotaur tribes that find a safe habitat - glowing with magic, and filled with enough dark twisting passages that the soft-footed will not come down in force - discover that they no longer need cooperation to survive, and slowly lose themselves to instinct; for a long time, it was only our willpower that made us different, and even that was beginning to wane.  In a way, maybe what happened to us was genuinely a blessing.
+
+We cannot tell you how long ago it was, as we did not write down our history at that time, and we had more pressing concerns soon after.  At some point, though, we felt a home, better than any we'd ever felt before, through a long, long series of caverns and tunnels.  The magic here... it was incredible!  It...  well, you do not have a word for it, but "tasted" is close enough - different than anything we'd absorbed before, hearty and rich, and it soaked into our tired bodies so easily.  We did not even need to stop to rest, it kept us so rejuvenated...  so we kept going down, losing track of how far it was.  In truth, I think we walked the length of a continent, if not more, cheerfully pressing onward, eager to see what awaited us at the end.
+
+If only we'd noticed that what we were feeling wasn't rejuvenation.
+
+Our leader, Garnok of the Stormy Fist, was the first to fall victim to it, and if he hadn't done so in such dramatic fashion, we may have all been lost.  His eyes became frantic and wandering as we walked onward, and he began making odd, pained grunts before stumbling and falling.  We heard a crack, and suspected that he may have broken an arm; we dashed closer to him, but stopped when his back and shoulders bulged and shifted, shortly before several tentacles burst from him, covered in the blood, fur, and skin that they dragged with them.  He simply pushed himself up with these new appendages, as though nothing was wrong.
+
+We backed away from him, and he grew wild, grabbing at Karbatha the One-Horned and surging that unfamiliar magic that saturated these caverns; at once, a strange creature burst forth, separating the two before hovering over us.  He made false promises to us as Nektosh ran to his sister's side, claiming that Garnok's fate was a gift, and asking us to join him.
+
+We are simple, but we are not fools.  We ran; we felt a wave of magic surge forth, sickly like rotten meat, and Karbatha cried out in her brother's arms.  We kept running, as the tunnels bent back and forth, spiraling upward, until we were certain the creature had lost sight of us...  and then we heard a message in our minds.  "It's too late.  The blessing is already within you, and these tunnels are far too long to escape before it takes root.  Come back, so we can guide it into a form you will find pleasing."  And from deeper back in the tunnels, we heard a bellow from what used to be Garnok.
+
+As we examined ourselves, feeling tiny hints of that blighted magic within us all, Nektosh took Karbatha away to a hastily-assembled tent, and she...  well, she was gone.  After the commotion ended, he strode out and gave a remarkably lucid assessment: the magic seemed to only work on the living.  Karbatha's illness stopped when her heart did...  and although it was certainly a drastic idea, if we couldn't purge this curse through some other means, we had to consider purging the life it fed on instead.
+
+He was not our only necromancer, but the idea was still nearly unthinkable...  until we realized that it was growing.  There were no visible signs, our bodies and minds were resisting it...  but it was only a matter of time, and perhaps even less time for Nektosh.
+
+We reluctantly agreed, and he prepared the spells and potions needed to keep us mostly as we were, but bereft of life.  Preserved, strong, even feeling and smelling when most liches could not..  but still cut off from Nature's gifts entirely, and still incapable of bearing young.  This generation would not age to death, but it would nonetheless be our last.  He volunteered to be the last one, only instructing another of us on how to convert him once all of us had been treated...  Whether it was because the infection had more time to fester within him, or because of what he suffered through in his sister's tent, Nektosh has never really been the same since then.
+
+In a cruel twist of fate, we found what would have been paradise not long after our escape - the Mana Caves, laden with magic, but we only needed a tenth of it now as we did alive.  Nonetheless, it has been our home ever since...  most soft-feet would have raided the caverns and wiped us out like common vermin, but the Kruk Pride treated us with respect and dignity that perhaps no minotaur OR undead creature has received before (let alone the combination).  We are still a reclusive people, and our current state gives us even fewer reasons to need trade with them...  but they are the closest thing we have ever had to friends, and I suspect that right now, we are that to them as well.]], [[우리 미노타우르스들은 뭔가 위대한 야망이나 복잡한 욕망 같은 것들을 품고 사는 종족이 아니다.  우린 세상에 관여하고 싶어하지 않고, 세상 곳곳으로 흩어져 살고 싶지도 않으며, 뭔가 엄청난 기계나 거대한 제국 같은 걸 세우지도 않을 것이다.  우린 그저 살고 싶을 뿐이다.  아아, 하지만 이 세상의 나머지 종족들은 그걸 바라지 않는다.  우리가 어디서부터, 왜 적대시되는지는 알 수가 없다...  추측해 보건대, 부드러운 발을 가진 자들은 아마 우릴 자신들의 가게나 무기고를 집으로 삼으려 하는 해충 같은 것으로 생각하고 있는 것 같다.  우린 강한 마법에 이끌리며, 그게 어떤 유물에 집중되어 있을 때는 특히 더 그렇다. 그리고 우린 매우 오랫동안 박해를 받다가, 우리가 편히 쉴 장소를 땅 속에서 찾으려 하는 욕구가 생겼고 이건 마법에 이끌리는 것과 거의 비슷한 수준이었다 (다시 말하지만 어디까지나 추측이다).  주변에 주인이 없는 마법이 있다면, 우린 먹지도 마시지도 않아도 살아 있을 수 있었고 그래서 지상으로 나갈 이유도 없어졌다. 게다가, 그런 환경에서 우린 나이도 먹지 않았다.  적당한 거처 - 그러니까, 마법이 깃들어 있고 어둡고 배배 꼬인 통로들이 가득해서 부드러운 발을 가진 자들이 쉽게 올 수 없는 곳을 찾은 미노타우르스 부족들은 대부분 살아남기 위해서 서로 협력할 필요가 없어졌다는 사실을 깨닫게 되었고, 그래서 천천히 이성을 잃고 본능만을 따르게 되었다. 우리 혈족이 다른 이들과는 다르게 오랫동안 이성을 유지해 온 이유는 우리의 의지가 강했기 때문이었지만, 그 의지마저 점점 약해져가고 있었다.  그렇게 생각해 보면, 우리에게 일어났던 일은 정말 축복이었을지도 모르겠다.
+
+그게 얼마나 오래 전 일이었는지는 잘 모르겠다. 그땐 우리가 자신들의 역사를 기록해 두진 않았고, 얼마 지나지 않아 큰 일이 있었기 때문이기도 하다.  아무튼 우리는 지하 아주 깊은 곳에, 이때까지 거처로 삼던 곳보다 훨씬 더 나은 장소가 있다는 걸 느꼈다.  그곳의 마법은... 터무니없을 정도였다! 그건... 음, 이걸 뭐라고 표현해야 할지 모르겠지만, "맛을 보았다" 라고 하면 그나마 비슷할 것이다 - 이제까지 맛보았던 것들과는 완전히 달랐다. 따뜻하면서도 풍부했고, 피로한 몸에 매우 쉽게 흡수되었다.  그게 우리에게 얼마나 충만한 활력을 주었는지, 우린 쉬거나 할 필요조차 없었다...  그래서 우린 이제까지 얼마나 파내려왔는지도 잊은 채로 계속해서 깊은 곳으로 향했다.  내 생각에 그 때 우리는 거의 대륙 전체를 횡단할 수 있을 만큼 움직였다고 생각하지만, 그게 아니더라도 우린 이 끝에 대체 무엇이 기다리고 있을지 기대하며, 들뜬 상태로 나아갔었다.
+
+그 때, 우리가 그 마법으로부터 느꼈던 게 활력이 아니었다는 걸 깨달았으면 좋았을 텐데.
+
+우리의 지도자였던 폭풍주먹 가르녹이 첫 번째 희생자였는데, 그에게 일어났던 일이 그렇게까지 끔찍하지 않았더라면 우리 모두 다 그런 꼴이 되었을 것이다.  우리가 앞으로 가던 도중에 그의 눈이 미친듯이 움직이기 시작하면서 이상한 앓는 소리를 내다가, 갑자기 쓰러졌다.  직후에 뭔가 갈라지는 소리가 들려서 팔이라도 부러진 줄 알았는데, 갑자기 그의 등에서 뭔가 불룩한 것이 꿈틀거리기 시작했다. 그리고, 등에서 갑자기 촉수가 튀어나왔다. 그 촉수에는 그의 피와 가죽, 그리고 피부 조각이 묻어 있었다.  그는 새로 생긴 촉수를 팔다리처럼 써서 가볍게 일어섰다. 마치 아무 일도 없었다는 듯이.
+
+우린 그에게서 물러섰고, 그는 난폭해져서 외뿔의 카르바사를 붙잡고 그 동굴에 넘쳐나고 있던 낯선 마법으로 휘감았다. 그리고, 갑자기 이상한 생물이 튀어나와서 그 둘 사이를 갈라놓고는, 우리 위쪽 허공에 떠 있었다. 그 이상한 생물은 가르녹이 '선물' 을 받았다고 했으며 우리 모두에게 함께하지 않겠느냐고 물었고, 그러는 동안 네크토쉬는 자기 여동생인 카르바사 쪽으로 달려갔다.
+
+우린 단순하게 살지만, 얼간이는 아니다.  우린 도망쳤다.  등 뒤에서 마법이 쇄도하는 걸 느꼈는데, 그건 마치 썩은 고기같은 느낌이었고 카르바사는 오라비의 팔에 안겨서 비명을 질렀다.  우린 한참을 달려나왔다. 그 생물이 확실히 보이지 않을 때까지... 그리고, 머릿속에서 어떤 말이 들렸다. "너무 늦었도다. 축복은 이미 너희 안에 있으니. 그리고 굴은 너무나 길어, 뿌리가 먼저 내리게 되리라. 돌아오라, 행복을 느낄 수 있는 형태로 이끌어 주마."  그리고 뒤쪽 터널 깊은 곳에서, 가르녹이었던 것의 포효가 울렸다.
+
+우린 스스로의 몸을 살펴 보았고, 우리 모두의 안에서는 아주 조그만, 황폐의 마법의 흔적이 느껴졌다. 네크토쉬는 급조한 텐트에다가 카르바사를 데려다 놓았지만, 그녀는... 그녀는 세상을 떠났다.  소란이 진정된 뒤에, 네크토쉬는 텐트에서 뛰쳐나와서 굉장히 명료하게, 자신의 생각을 이야기했다. "그 마법은 살아 있는 것에게만 통하는 것 같다. 카르바사의 증상이 심장과 함께 멎었으니... 극단적인 방법인 건 알고 있지만, 만약 우리가 다른 방법들로 이 저주를 없애지 못한다면, 그 저주가 우리를 갉아먹기 전에 한 발 앞서서 우리의 생명을 없애는 걸 진지하게 고려해봐야 한다."
+
+우리 혈족에는 그 말고도 강령술사가 더 있었지만, 그럼에도 그 생각은 터무니없어 보였다...  그 저주가 점점 자라나고 있다는 걸 깨닫기 전까진.  뭔가 눈에 보이는 징후 같은 것은 없었지만, 우리의 몸과 마음이 그 저주에 저항하고 있었다...  하지만 결국 그것에 잡아먹히는 건 시간 문제였고, 아마 네크토쉬에겐 남은 시간이 훨씬 더 적었던 것 같다.
+
+우린 별 수 없이 그의 의견을 따르기로 했고, 그는 주문과 물약들을 준비했다. 우리에게서 생명을 없애도, 가능한 한 우리가 살아 있었을 때의 상태를 유지하도록 하기 위해 필요한 것들이었다.  우린 여전히 강인한 육체와 온정을 품을 수 있는 마음을 갖고 있고, 심지어 체취까지도 낼 수 있다. 대부분의 리치들과는 반대로...  하지만 자연의 은총에서 완전히 단절되는 것은 똑같았고, 후세를 낳을 수 없다는 것도 마찬가지였다.  우린 불로불사의 삶을 살게 되었지만, 동시에 크림불 혈족의 마지막 세대가 된 것이다.  네크토쉬는 자신이 마지막으로 의식을 치르기로 자원했고, 다른 이에게 우리 모두가 받았던 처치를 자신에게 하는 법을 가르쳐 주었을 뿐이었다...  저주가 그의 안쪽에서 퍼질 시간이 좀 더 넉넉했기 때문인지, 아니면 그가 동생의 텐트에서 겪었던 고통 때문인지는 몰라도, 네크토쉬는 두 번 다시는 예전의 자신으로 돌아갈 수 없었다.
+
+운명의 잔혹한 장난인지, 우리가 탈출하고 얼마 지나지 않아, 우리가 살아 있을 적에는 낙원이라고 불렀을 만한 장소를 발견했다.  마나 동굴. 마법으로 가득찬 곳이지만, 우린 이제 살아 있었을 때의 1할 정도의 마력만 있어도 살 수 있었다.  그럼에도 불구하고, 우린 그곳에서 지금까지 살아왔다...  부드러운 발을 가진 자들 중 대부분은 동굴로 쳐들어와서 우릴 평범한 해충처럼 쓸어버렸을 것이다. 하지만 크룩 긍지는 예의를 갖추어 우리를 존중해 주었고, 아마 그 어떤 미노타우르스족도, 언데드들도 이런 대접을 받아 본 적은 없을 것이다 (그 둘을 합친 경우에 대해서는 넘어가자).  우린 여전히 은둔하며 살아가고 있고, 지금 우리가 처한 환경은 우리가 바깥과 교류할 이유를 더 없애버렸다...  하지만 크룩 긍지는 아마 우리의 친우라는 표현에 가장 가까운 이들일 것이고, 내 생각에는 크룩에서도 우릴 그렇게 생각할 것 같다.]], "_t")
+t("a transcribed speech", "연설을 받아쓴 기록", "_t")
+t([[Men and women of the Krimbul Clan!  I come before you today because with my awakening shall come a greater destiny, one we shall all share.  The dawn of a new age is at hand, and it would do you no good to sleep through it.  Allow me to open your eyes, before I lead you to our ultimate destiny!
+
+Unicorns!  I'm sure you know the story of these incredible creatures, their beauty and power.  The Humans know it too!  And the Orcs!  And the Steam Giants - they ALL had their own variants on this myth, a one-horned creature of incredible magical potential, but an elusive one.  For many years, I have told you that Karbatha and I were descendants of these "mythical" creatures, and you denied it!  For just as many years, I could not prove it...  but all that changed when the flying machine fell in the lake.  None of you foolish cowards wanted to go down and investigate, none of you - so I had to go down instead.
+
+Fortunately, your ignorance paid off.  Without any of you other wastrels to scare it off, the unicorns of old myth, the creatures that have stayed hidden from me because you were all too close, finally found me in enough privacy to grant me their blessing.  Even still, they did not directly appear to me...  but in their own way, they awakened the power that it has always been my right to possess, the strength that has lied dormant inside me for so long.  And AWAKEN IT DID!
+
+Look, to the south, at Frostgraze Mountain!  Do you see the hole through it?  THAT is my power, a mere side effect of what happened when some insolent swine dared to question it!  THAT is the power I have always had, the power I have always deserved, the power that shall now lead me to my rightful place over the Giants, the Orcs, and Nature itself!
+
+Cheer!  CHEER, DAMN YOU!
+
+Now...  as your new Lord, you are lucky that I am a merciful one.  I grant you all a tremendous honor, the opportunity to serve me and personally witness the fall of all who would oppose me.  Gone are the days of hiding from the Steam Giants, gone are the days of treating those Kruk Orcs as equals.  Gone are the days of the living claiming dominion over this world; they shall bow to us for the mercy of being made undead, or I shall personally annihilate them.  The living - and those who would not join me - shall be crushed under our hooves, and the world shall be ours!
+]], [[크림불 혈족의 일원들이여!  내가 오늘 그대들 앞에 선 이유는, 내가 눈뜬 힘이 위대한 미래를 만들어 나갈 것이고, 그 미래가 가져다 주는 것들을 우리 모두가 누릴 것이기 때문이다.  새 시대의 여명이 지금 내 손 안에 있으니, 그대들은 모두 눈을 떠야 한다.  내가 그대들의 눈을 뜨이게 할 것이고, 눈부신 미래로 인도하리라!
+
+유니콘!  그대들 모두 이 놀라운 생명체와 그들의 아름다움, 그리고 힘에 대한 이야기를 들어 보았을 것이다.  인간들조차 알고 있다!  오크들도!  증기 거인들도!  모두가 이 엄청난 마법의 힘을 지닌 외뿔의 환수에 대한 각양각색의 전설을 이야기하고 있다.  나는 오랜 세월 동안, 카르바사와 내가 이 "전설 속의" 생명체의 후손이라고 이야기해 왔으나, 그대들은 전혀 듣지 않았다!  그 오랜 세월동안 난 증명하지 못했던 것이다...  하지만 하늘의 기계가 호수에 떨어진 뒤로 모든 게 변했다.  그대들 모두가, 모두가 겁을 집어먹고 조사하러 내려가지 못했었고, 그래서 내가 내려갔었지.
+
+다행스럽게도, 그대들의 어리석음이 도움이 되었다.  옛 전설의 유니콘이 그동안 모습을 드러내지 못했던 건 내가 그대들과 너무 가까이 있어서였다. 내가 그대들 같은 게으름뱅이들과 떨어지게 되자, 마침내 그것이 비밀스럽게 나타나 나에게 축복을 내렸던 것이다.  그들이 자신들의 모습을 직접 보여주었던 아니었지만, 어찌되었든 그들은 언제나 내 안에 잠들어 있던 힘을, 내가 이제껏 마땅히 휘둘러 왔어야 했던 힘을 일깨워 주었다.  그 힘은 내 안에 너무 오래 잠들어 있었지만, 이제, 깨어났다!!
+
+남쪽을 보아라! 서리가 덮여 있는 산을!  그 산에 나 있는 구멍이 보이는가?  저게 바로 나의 힘이다. 저것조차도, 오만방자한 돼지 같은 놈이 내게 의문을 제기했을 때 발휘한 사소한 것에 지나지 않는다!  저게 바로! 내가 항상 갖고 있어야 했던 힘이고, 언제나 날 섬겨 왔어야 했던 힘이고, 이제 거인들도, 오크들도, 자연 그 자체마저도 넘어선, 내게 마땅한 자리로 날 이끌어야 할 힘이다!!
+
+환호하라!  환호하라, 무지몽매한 것들아!!
+
+이제...  그대들의 새로운 주인으로서, 그대들은 내 성품이 자비롭다는 것을 행운으로 여겨야 할 것이다.  그대들 모두에게 날 섬기고, 내게 대적하는 자들이 몰락하는 모습을 개인적으로 즐길 수 있는 영광을 내리겠다.  증기 거인들을 피해 숨는 날들은 끝났다. 크룩의 오크들을 동등한 위치에서 맞이할 필요도 없다.  살아 숨쉬는 자들만이 이 세계의 지배에 대해 논하는 시대 역시, 이제 끝이다! 그들은 우리에게 언데드가 되는 자비를 구걸해야 할 것이며, 그러지 않으면 내가 손수 그들을 이 세계에서 지워버릴 것이다.  살아 숨쉬는 자들과 - 나와 함께하지 않는 자들은 우리의 발굽 아래에서 으스러질 것이며, 이 세계는 우리의 것이 되리라!
+]], "_t")
+t("krimbul clan", "크림불 혈족", "newLore category")
+t("personal journal of Nektosh the One-Horned", "외뿔의 네크토쉬의 개인 일지", "_t")
+t([[no no no no no no no no no no no no no
+
+I can feel it running out...  the voice spoke to me again, said "Warning, low energy, less than ten pulses remaining," and the energy that once flowed so beautifully through this artifact is beginning to grow cold.  No matter how much I beg and plead down in the lake, the unicorns will not come to me directly, will not tell me why I've angered them or what I could do for them to keep my power...  was this power ever mine in the first place...?
+
+...  All right.  So, five to ten more uses...  I need to think about how this is going to work.  I've gone way too far to simply back out and act like everything should go back to normal - hee hee, can you imagine...  what do i do what do i do i can't keep stalling the conquest i can't come clean i can't win against the steam giants i can't i can't
+
+someone just told me the giants attacked the orcs, the orcs won
+
+I...  yes.  I've got a way out.  The Orcs must be weakened, wounded, easily dealt with or at least intimidated.  My people march on Kruk Pride, I arrange a meeting with the Giants and tell them the favor I did them, give them back the artifact if I can get it out of my horn without blowing my hand off...  they'll shelter me.  they'll give my people a plot of land.  they'll...  they'll do something that gives me some chance of not getting trampled by an angry mob...
+
+i'm sorry karbatha]], [[안돼안돼안돼안돼안돼안돼안돼안돼안돼안돼안돼안돼안돼
+
+말라가고 있어...  느껴져...  그 목소리가 다시 말했지, "경고, 에너지 낮음, 잔량 10회 이하". 이 유물에서 흐르던 아름다운 에너지는 차갑게 식고 있어.  내가 호수 아래에서 아무리 빌고 애원해도 유니콘들은 내게 직접 오지도 않고, 내가 그들을 어쩌다가 화나게 했는지, 아니면 이 힘을 다시 채우려면 어떻게 해야 하는지도 가르쳐주지 않아...  이 힘이 처음부터 내 것이었던 게 맞긴 할까...?
+
+...  좋아.  다섯 번에서 열 번 정도 남았다는 건가...  이게 어떻게 사용할 지 생각해봐야 해.  다시 돌아가서 아무 일도 없었다는 듯이 행동하기엔 너무 멀리 와 버렸어 - 히 히 상상도 안 돼...  뭘 해야 하지 뭘 해야 하지 전쟁을 이 이상 늦출 순 없어 모든 걸 밝힐 수도 없어 증기 거인들에게 이길 수도 없어 못해 못해 못해 못해
+
+아무나 거인들이 오크들을 공격했고, 오크들이 이겼다고 말해 줘
+
+난...  그래.  방법이 있어.  오크들은 약해져 있고, 부상당한 상태일 테니, 쉽게 이길 수, 최소한 겁먹게 만들 수는 있을 거야.  날 따르는 사람들이 크룩 긍지로 진격할 때, 거인들을 만나서 내가 그들에게 도움이 됐다는 걸 이야기하자... 내 손을 날리지 않고 뿔에서 유물을 떼어낼 수 있다면, 그것도 돌려주자...  그들이 날 숨겨 줄 거야.  날 따르는 사람들한테 조그만 영토라도 줄 거야.  그들은...  그들은 내가 성난 군중들한테 짓밟히지 않을 기회라도 줄 거야...
+
+미안해 카르바사]], "_t")
 
 
 ------------------------------------------------
@@ -6917,7 +7197,7 @@ section "game/dlcs/tome-orcs/overload/mod/class/interface/PartyTinker.lua"
 
 t("Impossible to create %s(%s)", "만들 수 없음: %s(%s)", "tformat")
 t("Created tinker: %s", "만들어낸 발명품: %s", "saySimple")
-t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "새로운 발명품의 설계도를 배웠다: #LIGHT_GREEN#%s", "saySimple")
+t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "새로운 발명품의 설계도를 배움: #LIGHT_GREEN#%s", "saySimple")
 
 
 ------------------------------------------------
