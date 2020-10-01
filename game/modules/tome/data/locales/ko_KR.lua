@@ -1045,12 +1045,15 @@ t("battered", "두들겨맞아", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/interface/PartyIngredients.lua"
 
+t("You collect a new ingredient: #LIGHT_GREEN#%s%s#WHITE#.", "새로운 재료를 획득: #LIGHT_GREEN#%s%s#WHITE#.", "log")
+t("You collect a new ingredient: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "새로운 재료를 획득: #LIGHT_GREEN#%s%s (%d)#WHITE#.", "log")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/PartyLore.lua"
 
 t("Lore found: #0080FF#%s", "이야기 발견: #0080FF#%s", "logPlayer")
+t("You can read all your collected lore in the game menu, by pressing Escape.", "수집한 이야기를 읽으려면, ESC를 눌러 게임 메뉴를 확인하세요.", "logPlayer")
 
 
 ------------------------------------------------
@@ -4025,11 +4028,11 @@ t("Master which tool?", "어떤 암기를 강화합니까?", "_t")
 section "game/modules/tome/data/chats/artifice.lua"
 
 t("[Cancel]", "[취소]", "_t")
-t("#CADET_BLUE#%s already equipped at level %d.", "#CADET_BLUE#%s 레벨 %d에 이미 장비했다.", "log", nil, {"는"})
-t("#CADET_BLUE#Equipping %s with %s (level %d).", "#CADET_BLUE#%s %s 장비했다 (레벨 %d).", "log", {2,1,3}, {"으로","를"})
+t("#CADET_BLUE#%s already equipped at level %d.", "#CADET_BLUE#레벨 %d의 %s 이미 장착 되어있다.", "log", {2,1}, {[2]="가"})
+t("#CADET_BLUE#Equipping %s with %s (level %d).", "#CADET_BLUE#%s %s 장착한다 (레벨 %d).", "log", nil, {"을","로"})
 t("[%sEquip %s%s#LAST#]", "[%s장비중 %s%s#LAST#]", "tformat")
 t("[Equip %s]", "[%s 장비한다]", "tformat", nil, {"를"})
-t("Equip which tool for #YELLOW#%s#LAST#?", "#YELLOW#%s#LAST# 어떤 암기를 장비합니까?", "tformat", {"으로"})
+t("Equip which tool for #YELLOW#%s#LAST#?", "#YELLOW#%s#LAST# : 어떤 암기를 장착합니까?", "tformat")
 
 
 ------------------------------------------------
@@ -11936,7 +11939,7 @@ t("accelerate burning effects on all creatures in a radius %d ball within range 
 t("%s's %s lashes out in a flaming arc, intensifying the burning of %s enemies!", "%s의 %s 화염의 호를 그려, %s 체의 적에게 적용된 화상 효과를 증폭했다!", "logSeen", nil, {[2]="으로"})
 t("Robe of Force", "힘의 로브", "entity name")
 t("rippling cloth robe", "물결이 이는 천 로브", "_t")
-t("This thin cloth robe is surrounded by a pulsating shroud of telekinetic force.", "이 얇은 천 로브는 고동치는 염동의 힘으로 둘러싸여 있습니다.", "_t")
+t("This thin cloth robe is surrounded by a pulsating shroud of telekinetic force.", "이 얇은 천 로브는 고동치는 염동력으로 둘러싸여 있습니다.", "_t")
 t("send out a range %d beam of kinetic energy, dealing %0.2f to %0.2f physical damage (based on Willpower and Cunning) with knockback", "사거리 %d 칸의 동역학 에너지의 광선을 발사해, %0.2f - %0.2f 물리 피해를 주고 밀칩니다 (의지와 교활에 비례)", "tformat")
 t("%s focuses a beam of force from %s %s!", "%s %s %s 광선을 집중하고 있다!", "logSeen", nil, {"는",[3]="으로"})
 t("Serpent's Glare", "뱀의 응시", "entity name")
@@ -13630,7 +13633,7 @@ Was it a dream?  Some strange foretelling?  Or could it have been a true apparit
  
 “그건 꿈이 아닐 수도 있습니다.  오늘은 평범한 날이 아니고, 과거의 모든 전설 속에서도 오늘은 심판의 날로 기록될 겁니다.  위험에 처한 우리 문명과 우리의 삶의 방식은 오크들로 인해 고통받고있습니다.  우리는 칼날 위를 걷고있습니다. 세계는 축 위에 놓여 균형을 잡고 있고요. 잘못된 흔들림 한 번이 우리를 영원한 어둠과 절망으로 몰아넣을 수도 있습니다.  오늘 우리의 행동이 이것을 결정할 겁니다.  그래요, 당신은 경고를 받았고, 계시도 받았습니다, 그 계시는 아주 뚜렷하죠.  오늘 우리 손에는 운명의 고삐가 쥐어져 있습니다. 그리고 오직 안정된 손만이 우리를 다가올 파멸의 위협에서 벗어나게 해 줄 겁니다.  네이라, 안정된 손이 되어 주실 수 있으십니까?”
  
-그녀는 나를 희망찬 눈으로 바라보았다. 그녀의 손가락은 마치 나에게서 힘을 흡수하려는 듯 나의 손목을 꽉 쥐었다.  그러고선 그녀는 천천히 고개를 끄덕였다.  “죄소앻요 아라니온.  나는 그저... 저는 더 강해져야 될거 같아요.”
+그녀는 나를 희망찬 눈으로 바라보았다. 그녀의 손가락은 마치 나에게서 힘을 흡수하려는 듯 나의 손목을 꽉 쥐었다.  그러고선 그녀는 천천히 고개를 끄덕였다.  “죄송해요 아라니온.  나는 그저... 저는 더 강해져야 될거 같아요.”
  
 나는 내 말에 완전히 넋을 잃은 것 같은 이들에게로 시선을 돌렸다.  그들을 자유롭게 생각하게 나두는 것은 문제를 일으킬 게 뻔했다.  나는 그들을 당장 행동으로 옮기게 해야했다.  “지금 시작합니다!” 나는 소리쳤다.  “군대를 소집해 행군할 준비를 하십시오.  느리지만 끊임없이 우리는 나아갈 것이고, 조심스럽게 전투에서 임할것이며, 화염과 분노를 넘어 우리는 자유를 되찾고 승리를 만끽할 것입니다.  오늘은 영원히 역사에 기록될 것입니다!  오늘은 모든 종족들을 위한 새 시대의 이정표가 될 것입니다!  마법폭발이 날이 왔습니다!”
 
@@ -13723,7 +13726,399 @@ But mine was just one voice, one torment, a single note in the great cacophony t
 나는 내가 쓸 수 있었던 회복 마법을 리나니일에게 시전하기 시작했으나, 그것만으로는 부족했다. 또한 나의 약해진 힘은 그녀를 구할 수 없을 것만 같았다. 그날, 내가 잃은 모든것을 생각하며, 끔찍하게 잘못 된 모든 것을 생각하며 나는 울부짖기 시작했다.  희망은 위기로 변해버렸고, 운명의 잔인함은 내가 감당하기에는 너무 벅찼다.  죽어가는 내 사랑의 머리를 안고 나는 하늘로 머리를 치켜들며 울부짖었다.  고통은 갈라진 내 목소리에 담겨져있었고, 나는 내 주변 모든 것을 뒤덮은 피, 뼈, 재 가운데서 생명의 부당함과 전쟁의 헛됨에 분노했다.  그들은 한 때 희망과 꿈을 갖고있던 영혼들이였으나, 이제는 모두 바람에 날린 먼지처럼 흩어졌다. 나는 그들의 죽음과 나의 절망 속에서 한탄했다.
 
 하지만 나의 목소리, 고통은 전 대륙을 가로지르는 거대한 불협화음의 하나의 음절에 불과했다.  수백만의 목숨이 사라지고 부셔졌으며, 수백만의 목소리가 고통과 고뇌와 고문 속에서 비명을 질렀으며, 마즈'에이알의 모든 곳에서 궁극적인 파괴의 힘이 계속 지속되고있었다. 바로 마법폭발.]], "_t")
+t("The Spellblaze Chronicles(6): A Changed Eyal", "마법폭발 연대기 (6): 변해버린 에이알", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Six: A Changed Eyal#{normal}#
+
+Perhaps what happened will never be truly understood.  What Sher’Tul ruins survived the Spellblaze have been little touched since - the burned hand learns its lesson.  But we know that Ephinias and his mages lost control somehow, whatever delicacy and balance they wrought with coming untangled.  At the moment they tried to connect to the other farportals the imbalance was reverberated, resonated, magnified beyond control.  The farportal in the Crystal Tower imploded in a fraction of a second, killing all within and crushing the land about.  The energies in the Sher’Tul relics then erupted in a blaze of white light, turning the air to fire and the ground to ruin.  The blaze swept eastwards, rolling over our battle with an unstoppable destructive force, and then carrying on towards the Thaloren lands.  Most of the ancient forests of Shatur were ripped from their roots, and the lands lain cursed ever since.
+
+Meanwhile the other farportals all over Maj’Eyal erupted, white stone cracking and vast swathes of energy spilling forth.  All of the Cornac lands to the west were turned to desert, the dwarven halls of Korhek crumpled, the midvale plains were risen up as mountains and Lake Nur formed in their wake.  In the south the ancient tower of Darafel was collapsed, and the forests beside it morphed into an ever-broiling scar of lava and blackened earth.  Far in the east the Naloren farportal, the largest of all in Maj’Eyal, disappeared in a vast earthquake that swallowed everything for miles around, and boiling water spewed up to fill its cavernous depths.
+
+And whilst this destruction was wrought the incredible energies disrupted all of the mana flow around Eyal.  Streams of energy that followed set, slowly changing courses, now were flooded and droughted, warped and split.  The threads of the elements were in vast disarray, and any attuned to magic suddenly found themselves far away from their accustomed power sources.
+
+Even the Heavens were changed.  The wandering star of Vor disappeared, the constellations were tilted off their normal course, and the seasons rent harsher since.  Some say the moons dimmed and the sun went whiter after that day.  I do not know.  The whole world has seemed darker to me.
+
+The numbers killed are beyond count.  The initial destruction took at least five million lives, and the terror that followed claimed far more.  For though it had been a day of tragedy and immeasurable woe, it was to be followed by a bloody age of darkness and torment.
+
+But none of this I knew as I lay weeping in the aftermath, cradling in my lap the one life I cared about.  In abject misery I called on all the healing powers I could to bring her back to me for but one moment.  Her heart beat softly, and her eyes opened, but seemed glassy and far away.
+
+“Linaniil,” I whispered, and her dark eyes turned towards my face.  I tried to mumble an apology, to say I was sorry and was unable to help her, but emotions overcame my voice.  Her gaze at me was empty, as if she looked right through me, before she turned her eyes away.  Slowly she raised a hand to an amulet about her neck, and with a light touch it glowed and then cracked.  Her eyes closed again but I could feel the power from the artifact pumping into her, strengthening her heart-beat and mending her flesh.  She was unconscious and still badly wounded, but for now the mortal threat was gone.
+
+My thoughts were mixed - glad she was no longer at death’s door, but worried she might relapse, and at the back of my mind scared of that empty look she had given me.  Could she possibly forgive my part in this?
+
+Carefully I picked up her frail body, and began the journey back to Elvala.  Two days it took on foot, through blasted and ruined ground.  On the passage I came across other survivors, refugees now leaving their destroyed homes, heading to the city to seek shelter.  I tried to nurse Linaniil as best I could, giving her water during brief periods of waking and dressing her wounds, but true healing could not happen till I reached the city.
+
+Elvala was a quiet chaos, oppressed by fear and uncertainty, an air of dread filling all the streets.  The news had broken that our army had been entirely wiped out - there would be no loved ones returning to their families, and the sound of stifled mourning was to be heard in all corners of the city.
+
+I took Linaniil straight to the healing grounds in the palace and gave her to the doctors with the strictest instructions.  They were swamped by casualties, but followed my orders without question, tending immediately to her wounds and applying tinctures and regenerative spells.
+
+It was as I watched over her quietly that a party bustled loudly into the grounds.  I recognised at their head was Perissa, a senior court official.  At her side was an elderly human who immediately went to where Linaniil lay.
+
+“General Aranion!” announced Perissa loudly, “I heard you were here, but I could scarce believe it.  Thank the threads you have returned to us!  This is a grave time; we must talk at once.”
+
+But I ignored her as I saw the human touch Linaniil’s hand, and her eyes gently open.  “Cuilan?” she murmured softly.
+
+“Aye, it is me, my lady,” he said quietly.  “I have been sent here by your father.  He has ordered me to pass you this.”  And with that he brought forth a golden ring set with a fiery ruby.  I recognised it immediately as the Ring of Kar’Krul, worn by the mighty Turthel.  Linaniil sat up quickly, wincing from the pain, but with her eyes locked on the ring as it was placed in her hand.
+
+“But mine father...”
+
+“I’m sorry, my lady.  It brings me great sorrow to bear you this news.  Your father and his court are dead.  His last act was to instruct me to bring this ring to you and your sister.  Neira...” he said glancing about.  “Is she...?”  He saw the look in Linaniil’s eyes and dipped his head despondently.  “I see.  I am terribly sorry.  It becomes my duty then, my lady, to declare you the new leader of the Kar’Krul.”
+
+“General Aranion,” interjected Perissa.  “I really must speak with you now!”
+
+“Wait!” I barked, and turned to the human Cuilan.  “What is happening here?  How could one such as Turthel be killed?”
+
+The man looked at me then with a wan sadness in his eyes, before turning to address Linaniil.  “Yesterday, the day after the terrible Spellblaze, as we began some attempt at reconstruction, still struggling to realign our mana paths, a murmur began amongst the people.  It spoke thus: The Kar’Krul circle of mages had betrayed the ordinary people.  They accused us of siding with the elves to destroy non-mages, of toying with terrible powers beyond our control, of deliberately massacring them out of evil and malice.  We could not logic with them, they would listen to no reason, and they rose up in violent anger.  They attacked many of us, with farming instruments and whatever weapons they could find.  Our defences were weak, and striking back just made the crowd fiercer.  We retreated to your father’s home, begging for help, but he shook his head and said he could not fight back.  They came for us then, storming his palace, and Turthel ordered all to put up no resistance.  He handed me his ring, saying to seek you out in Elvala, and then stepped outside to face the crowds.  He didn’t resist!  The people... they... they...”  He lapsed into sullen silence, shaking his head in sorrow.  He looked like he wanted to cry, but had no tears left to shed.  Linaniil’s face was graven and she stared hard at the ring.
+
+Perissa grabbed me then and turned me to her attention.  “This is what I need to speak with you about, General Aranion.  If this human’s tale is to be believed then we are in very grave danger!  Scout reports suggest there is a body of humans coming here from the north as we speak.  From what this human says they seek retribution - they wish to slaughter us all.  A storm of wrath lies on our borders and we are defenseless!  We need you desperately to organise our defence, to protect our city and our people.”
+
+I felt numb, the events overwhelming me.  “But who leads us?” I said.
+
+“There is no one.  What royals are known to be alive are not suited.  We are entering a time of war, a terrible time like no other we have ever faced.  We need military leadership.  You, General Aranion, you must be our leader.”
+
+I held Perissa’s gaze then and saw the wisdom in her words.  My duty as a Shaloren was clear.  But my heart tremored as I turned to look at Linaniil.
+
+“This be our path then, Aranion,” she said quietly, raising herself from the bed and carefully placing the ring on the middle finger of her right hand.  “I must tend to mine people, and ye to yours.  We will not meet again.”
+
+“But your wounds-” I tried to object.
+
+“Will never heal!” she cried, hate dripping from her voice.  Her eyes were like cold and impenetrable ice, a smouldering anger deep within.  “Come, Cuilan, we must leave this place.”  And with that they departed, Linaniil walking tall and proud in spite of her injuries.
+
+I closed off my heart and my emotions then, lest they overwhelm me.  My duty was before me, and the events of the past had to be locked away from memory.
+
+The ceremony was organised in under an hour, and I was anointed leader of the Grand Council of Elvala, head of the Shaloren people.  On my order rangers began transporting in survivors from outpost settlements, whilst I commanded our remaining mages to begin a new endeavour around our city walls.
+
+The first waves of the storm of hate came the next day.  Human peasants and farmers, ordinary workers armed poorly, their looted swords and spears badly wielded.  I stood alone at our gates as they approached, Mooncutter in my hand.  When the first few charged at me I thrust the blade into the soil and tore a great chasm in the earth, and our mages summoned forth mists and smoke that rose from the ground and began to surround our whole city.  As the peasants stumbled in confusion archers started firing from our walls.  What few made it through the smoke and arrows I took on, tearing Mooncutter through their flesh with little resistance.  Their blood gushed out in the gallons, drenching our ground, staining my skin.  It was like a warm shower over my boiling emotions, a bath of blood to wash over my sins.
+
+The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smoke.  Our shield, our mask, our hiding.  It would last for centuries, the only dealings with the outside world being in furtive secrecy.
+]], [[#{italic}#엘발라 대의회장, 아라니온 가웨일의 회고록에서 발췌#{normal}#
+
+#{bold}#제 6 장 : 변해버린 에이알#{normal}#
+
+어쩌면 일어났던 일들은 결코 이해될 수 없을 것이다.  마법폭발 이후, 남겨진 쉐르'툴 유적들의 발굴과 연구는 거의 멈췄다 - 불타버린 손이 그 교훈을 잊지 않았기에.  하지만 우리는 에피니아스와 그의 마법사들이 장체의 제어에 실패했었고, 그 섬세함과 균형이 완전히 깨저버렸음을 알고있다.  그들이 다른 장거리 차원문과 연결을 시도했을 때, 장치는 통제를 뛰어넘어 불균형이 진동하고, 공명했으며, 과장되었다.  수정탑 안에있던 장거리 차원문은 순식간에 폭발하여, 내부의 모든 이들을 죽이고 그 주변의 대지를 파괴했다.  쉐르'툴 유물 내의 에너지는 흰 빛을 내는 화염으로 내뿜어졌고, 주변의 공기를 불사르고 주변의 대지를 황폐화시켰다.  폭발이 동부를 휩쓸었고, 멈출 수 없는 파괴의 힘이 전장을 휩쓸고, 탈로레들의 영토로 나아갔다.  샤툴의 고대 숲은 뿌리부터 찢겨져 있었고, 그 뒤로 땅을 뒤덮은 저주는 계속되었다.
+
+한 편, 마즈'에이알의 모든 장거리 차원문들은 폭발했다. 하얀 돌들이 스파크를 튀기기 시작했고, 거대한 에너지가 쏟아저 나왔다.  서쪽에 자리잡은 모든 코르낙 영토는 모래로 변해버렸고, 코렉의 드워프 회랑 또한 무너졌다. 또한 산과 누르 호수가 형성되면서 중부의 평야는 솟아올랐따.  남쪽에서는 다라펠의 고대 탑이 무너졌고, 그 근처의 숲은 들끓는 용암의 상처와 타버린 대지로 변해버렸다.  극동에 위치한 마즈'에이알 최대 크기의 날로레 장거리 차원문은 수 킬로미터의 모든 것을 집어삼키는 거대한 지진을 일으키며 사라졌고, 끓는 물이 뿜어저 나와 텅 비어버린 심연을 채웠다.
+
+또한 이 대파괴의 막대한 에너지로 인해 에이알 주변의 모든 마나 흐름을 방해했다.  그 흐름을 따르던 에너지들은 서서히 그 향로를 바꿨고, 그로인해 에너지의 홍수와 가뭄이 일어났으며, 그 형태 또한 뒤틀리고 갈라졌다.  원소 가닥들도 심각하게 흐뜨러져버려, 마법 사용자들은 자신이 사용하던 원천력에서 멀리 떨어졌음을 깨닫게되었다.
+
+하늘도 바뀌어버렸다.  떠돌이 별 보르는 사라저버렸고, 별자리들은 정상적인 경로를 이탈했다. 계절은 훨씬 가혹해졌다.  어떤 이들은 달이 보다 어두워졌고, 태양은 더 밝아졌다고 한다.  나는 잘 모르겠다. 내게있어서는 모든 것이 더 어두워졌다.
+
+사상자들은 셀 수조차 없었다.  첫 파괴가 적어도 500 만명의 목숨을 앗아갔으며, 뒤를 이은 공포는 더 많은 이들의 목숨을 빼앗았다.  그 날은 비극과 헤아릴 수 없는 비탄의 날이였지만, 그 후 어둡고 핏빛으로 물들은 시대가 시작됐다.
+
+하지만 그 당시, 나는 아무 것도 모른채, 그저 여파 한 가운데에 누워서 내 사랑을 안고 울부짖었다.  그 비참한 불행속에서, 나는 단 한 순간만이라도 그녀를 다시 되살릴 치유의 힘을 불러모았다.  그녀의 심장은 얕게 뛰기 시작했고, 이윽고 그녀가 눈을 떴지만, 유리처럼 흐려보였고 한없이 먼 곳만을 응시했다.
+
+“리나니일.” 내가 속삭이자, 그녀의 검은 눈이 나를 바라보았다.  내가 도와줄 수 없어서 미안하다고 말하려 했지만, 북받히는 감정에 목소리를 내지 못했다.  나를 바라보던 그녀의 눈빛은 내가 아닌, 저 너머를 보는 듯 공허했다. 그녀가 시선을 돌렸다.  그녀는 손을 느리게 들더니 그녀 목에 있는 목걸이에 갖다댔고, 가볍게 만지자 빛을 내며 갈라졌다.  그녀의 눈이 다시 감겼지만, 나는 유물에서 뿜어저 나온 힘이 그녀에게 흘러가는 것을 느낄 수 있었다. 그녀의 심장 박동이 돌아오고, 살갗은 다시 치유됐다.  그녀는 의식을 잃었고, 또 심각한 상처를 입었지만, 죽음의 위협은 이제 사라졌다.
+
+내 생각은 뒤죽박죽이였다 - 그녀가 더 이상 죽음의 문턱에 있지 않지만, 그녀가 다시 안좋은 상태에 빠질까 걱정스러웠고, 그녀가 내게 보여준 그 공허한 표정이 두려웠다.  이 사건 속에서 내가 했던 짓을 그녀가 용서해 줄 수 있을까
+
+조심스래, 나는 그녀의 연약한 몸을 들고, 엘발라로 돌아가는 여정을 시작했다.  파괴가 휩쓸고간 흔적을 걷길 이틀 째, 다른 생존자들을 발견했다. 피난민들은 그들의 파괴된 집을 떠나, 피난처를 찾기위해 도시로 향하고있었다.  나는 리나니일을 최대한 간호하려고 노력했다. 걷고있을 때, 짧은 시간동안 그녀에게 물을 주고, 상처를 돌보려고 애썼지만, 제대로된 치유는 도시에 도착하기 전까지 불가능했다.
+
+엘발라는 혼돈으로 가득 차 있었다. 공포와 불확실성에 모두가 우울해 있었고, 공포스런 분위기가 모든 거리에 가득했다.  우리 군대가 완전히 전멸했다는 소식이 전해졌다 - 사랑하는 사람들은 가족에게 돌아가지 못할 것이다. 숨막히는 애도 소리가 도시 구석구석까지 들리게되었다.
+
+나는 곧장 리나니일을 궁전 내의 치료소로 데려갔고 엄격한 지시사항과 함께 그녀를 맡겼다.  그곳은 사상자로 넘처났지만, 나의 요구를 의심없이 따랐고, 그녀의 상처를 즉시 소독하고, 재생 주문을 사용하기 시작했다.
+
+내가 그녀를 조용히 바라보고 있을 때, 한 무리의 사람들이 치료소에 난입했다.  나는 그들의 수장이 고위 관리인 페리사임을 알아챘다.  그녀의 옆에는 쓰러진 리나니일에게로 곧장 달려가는 나이든 인간이 있었다.
+
+“아라니온 사령관!” 그녀가 시끄럽게 말했다 “당신이 이곳에 와있다고 들었지만 도저히 믿을 수가 없었습니다.  당신이 돌아오다니, 원소의 가닥들에게 감사해야겠습니다!  지금은 중대한 시기니, 우리는 지금 당장 이 상황을 의논해야 합니다.”
+
+하지만 나는 라니니일의 손을 잡고있는 인간을 보며 그녀를 무시했다. 리나니일의 눈이 부드럽게 열렸고, 천천히 속삭였다. “퀴란?”
+
+“예, 접니다, 아가씨.” 그가 조용히 말했다.  “투르텔 님께서 저를 이곳에 보냈습니다.  아버님께서 이것을 전달하라고 제게 명령하셨습니다.”  그 전언과 함께, 그는 불타는 루비가 박힌 황금 반지를 꺼냈다.  나는 즉시 그것이 강력한 투르텔이 착용했던 카르'크룰의 반지임을 알아차렸다.  리나니일은 고통에 움찔하며 재빨리 일어났다. 하지만 그녀 손 위에 반지가 놓이자 그녀의 시선은 반지에 고정되어 있었다.
+
+“하지만 제 아버지는...”
+
+“죄송합니다. 아가씨.  아가씨께 이 소식을 알리는 건, 저에게 큰 슬픔입니다.  투르텔 님과 신하들께서는 모두 돌아가셨습니다.  그 분이 마지막 유언은 이 반지를 아가씨와 아가씨의 자매께 보내라는 것이였습니다.  네이라...” 그는 주변을 힐끔힐끔 둘러보며 말했다.  “네이라 아가씨는...?”  그는 리나니일의 눈을 보더니 실의에 빠진 채 고개를 떨궜다.  “죄송합니다. 아가씨께서 카르'크룰의 새 지도자가 되었음을 선언하는 것이 제 임무입니다.”
+
+“사령관 아라니온.” 페리사가 끼어들었다.  “나는 당신과 당장 의논할 것이 있습니다!”
+
+“기다리시오!” 나는 소리쳤고, 퀴란이라는 인간에게 몸을 돌렸다.  “대체 뭐지?  어떻게 투르텔과 같은 자가 살해 당할 수 있는거지?”
+
+사내는 나를 슬픔이 가득한 눈으로 나를 바라보았다. 그리고는 리나니일에게 말하기 시작했다.  “어제, 끔찍한 주문폭발 다음 날, 우리가 여전히 마나 항로를 재정비하며 복구를 시작하려 했을 때, 사람들 사이에서 소문이 돌기 시작했습니다.  카르'크룰의 마법사 연합이 일반 사람들을 배신했다고요.  그들은 우리를 엘프들의 편에서 비마법사들을 파괴했고, 우리의 통제를 넘어서는 끔찍한 힘을 조작했으며, 악의를 갖고 의도적으로 자신들을 학살하고 있다고 비난했습니다.  저희는 그들을 논리적으로 대할 수 없었고, 그들은 이유도 들으려 하지 않은체, 폭력적인 분노에 휩싸여 봉기했습니다.  그들은 농기구와 그들이 찾을 수 있는 무기들로 우리를 공격했습니다.  우리의 방어는 약했고, 우리가 가한 반격은 군중들의 화만 돋굴 뿐이였습니다.  우리는 투르텔 님에게 도움을 구하려 투르텔 님의 집으로 후퇴했지만, 투르텔 님 께서는 맞서 싸울 수 없다고 하셨습니다.  그 떄, 그들이 궁전을 덮첬고, 투르텔 님 께서는 저항하지 말라고 명령하셨습니다.  그 분께서는 제게 엘발라에서 아가씨를 찾으라고 하시곤 반지를 제게 맡기시고 군중들에게로 나아가셨습니다.  투르텔 님 께서는 저항도 하지 않으셨습니다!  사람들은... 그들... 그들이...”  그는 슬픔에 잠겨 고개를 가로저으며 침울한 침묵에 빠저들었다.  그는 울고 싶어 보였지만, 흘릴 눈물 한 방울 조차 남아있지 않았다.  리나니일의 표정은 심각해 보였고, 반지를 뚫어지게 바라보고 있었다.
+
+그때, 페리사가 나를 붙잡고 내게 말했다.  “이것이 제가 당신과 의논해야만 하는 이유입니다. 아라니온 사령관.  만약 이 인간의 이야기가 사실이라면, 우리는 매우 심각한 위험에 처해있는 상황입니다!  정찰병의 보고서에 의하면, 북족에서 인간으로 구성된 단체가 이곳으로 향하고 있다고 합니다.  이 인간이 말한 바에 따르면, 그들은 분명 보복을 위해 움직이고 있는 것일 겁니다. - 그들은 우리 모두를 도륙하길 원합니다.  분노의 폭풍이 우리 국경선에 드리웠고, 우리는 무방비 상태에 놓여있습니다!  방어선을 조직하고, 우리 도시와 우리 민족을 지키기 위해서는 당신의 존재가 절대적으로 필요합니다.”
+
+내 정신은 멍해있었다. 일련의 사건들이 나를 압도했다.  “누가 우리를 이끌지?” 내가 말했다.
+
+“없습니다.  생존해 있다고 알려진 왕족들 중 이 일에 적합한 이는 없습니다.  우리는 현재 전시 상태에 돌입하고 있고, 우리들 중 그 누구도 경험해 본 적 없는 끔찍한 시간이 우리에게 다가올겁니다.  우리에겐 군대식 지도력이 필요합니다.  아라니온 사령관, 당신이 우리의 지도자가 되어야합니다.”
+
+나는 그때, 페리사의 시선을 느끼며 그녀 말에 담긴 지혜를 보았다.  샬로레로써의 나의 임무는 명확했지만, 리나니일을 보려 몸을 돌리자 나의 심장은 마구 뛰었다.
+
+“이게 우리가 나아갈 길이에요. 아라니온.” 그녀는 침대에서 몸을 일으키고는 조심스레 오른손 가운뎃 손가락에 반지를 끼면서 조용히 말했다  “저는 제 사람들을 돌봐야하고, 당신은 당신 사람들을 돌봐야해요.  우리는 절대 다시 만나지 못하겠죠.”
+
+“하지만 상처는-” 나는 반대하려고했다.
+
+“치유되지 않을거에요!” 그녀가 소리쳤다. 그녀의 목소리에서 증오가 베어나오고 있었다.  그녀의 눈빛은 차가웠고, 마치 꿰뚫을 수 없이 단단한 얼음과 같았다. 그 깊숙한 곳에 분노가 자리잡고 있었다.  “이리와, 퀴란, 우리는 이곳을 떠야해.”  그렇게 그들은 떠났다. 리나니일은 그녀의 부상에도 불구하고 우뚝 서서, 긍지 높은 발걸음을 이어나갔다.
+
+그떄, 나는 내 마음과 감정을 모두 닫아버렸다. 그렇지 않았다면 그게 나를 압도했을 테니까.  내가 수행할 임무는 내 앞에 놓여있었고, 과거의 사건들은 기억 저멀리 묻어버려야 했다.
+
+의식은 한 시간도 채 안되어 이루어졌다. 나는 엘발라 대의회의 기름부음 받은 지도자가 되었고, 샬로레 민족의 대표자가 되었다.  감시자들은 내 명령에 따라 외딴 정착지의 생존자들을 수송하기 시작했고, 남아있는 마법사들에게는 도시 벽을 강화하라는 명령이 주어졌다.
+
+다음 날, 증오의 소용돌이의 첫번째 폭풍이 몰아쳤다.  인간 농민들과 농노들, 평범한 노동자들이 한심한 수준의 무장을 하고있었다. 그들이 챙긴 칼과 창들은 잘못된 방식으로 사용되고 있었다.  그들이 다가올 때, 나는 달을 베는 자를 쥐고 정문에서 홀로 서있었다.  처음 몇 놈들이 나에게 달려들었을 때, 나는 칼날을 땅에 꽂고, 거대한 균열을 일으켰고, 우리 마법사들은 대지에서 솟아오른 안개와 연기로 온 도시를 감싸기 시작했다y.  농노들이 혼란에 빠지자, 궁수들이 방벽에서 사격을 시작했다.  연기와 화살비 속에서, 내가 직접 달을 베는자를 이용해 약한 적들을 벨 일은 거의 없었다.  그들의 피는 수십리터씩 뿜어저나와 우리 땅을 적시고, 내 살갗을 붉게 물들였다.  마치 끓어오르는 감정을 식히는 소나기였고, 죄를 씻기위한 피의 세례 같았다.
+
+우리의 도시가 구름과 연기에 둘러싸임으로써, 엘발라의 장막이 시작되었다.  우리의 방패, 우리의 가면, 우리의 은신처.  그후 몇 세기동안, 오직 이 장벽만이 바깥 세상에 대한 우리의 유일한 대답이였다.
+]], "_t")
+t("The Spellblaze Chronicles(7): Into Darkness", "마법 폭발 연대기 (7): 어둠 속으로", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Seven: Into Darkness#{normal}#
+
+We veiled our guilt, cloaked our crimes.  Though we had some communication with the outside through halfling traders and the odd disguised Shaloren adventurer, we remained mute to the world at large, hidden from their accusing gaze.  Outside our quiet walls others had not the luxury of hiding.  The Spellhunt was begun, and it knew no mercy.
+
+Ordinary people rose up against what they perceived as the arrogance of the mages, a revolt against the power of the few that had ruined the lives of so many.  Any suspected of sorcery or ties to the Art were cruelly dealt with.  There was sympathy for none, and many innocents fell victim to the unquenchable thirst for retribution.  The madness swept across the whole of Maj’Eyal.
+
+Law and order had broken down.  Armies, territories and whole cities had been destroyed or ravaged by the Spellblaze, with many areas left completely uninhabitable.  Kingdoms fell and tyrants arose.  Bandits picked at the bones of civilisation like vultures on a rotten corpse.
+
+An organisation called the Ziguranth, thought dead long ago, came into resurgence, gaining popular support from the people in their anti-magic crusade.  We heard of some mages going into hiding, but inevitably being rooted out, or fleeing desperately from place to place.  Dark tales also arose of necromancers and fell wizards creating dungeons and strongholds, fending off or evading attacks, and beginning reigns of terror.
+
+And one tale came to my ears of a group of mages that managed to band together and stay in hiding, though always on the run from the chasing Ziguranth.  The story from outside was that they were led by a demon with fiery hair, fiercely glowing eyes and hands wrapped in flames, that fought with blazing wrath and could be opposed by none.  I knew that description well...
+
+I carried out my reign, my duty, taking care of the Shaloren people.  We were safe from attackers, secure in our supplies through discrete trade, and slowly building back some of what we had lost.  But both fear and shame prevented us from showing our face to the world.
+
+Fifteen long years passed before I awoke one night in my council chambers, the crescent Wintertide moon softly illuminating a shape near the end of my bed.  The figure was tall and slim, wrapped in tight-fitting wools and furs.  Her crimson hair stirred gently as she stood with her back to me.  Memories arose of a night long ago, in a more innocent time, when a younger me and a younger her first became close.
+
+I barely dared to whisper her name, afraid that she might disappear, an apparition or a dream that could be broken by a spoken word.  “Linaniil,” I softly mouthed.  She turned to me, and I saw those same dark eyes I remembered.  But they were surrounded by lines of care, the markings of years of strain and responsibility clear on her face.
+
+Rising from my bed I gathered a robe about me.  I took a few steps towards her but stopped, not able to move myself any further.  I wanted to be near her, to put my arms around her, but it felt as if she were across a wide chasm from me, a gulf of time and pain between us.
+
+“I have come for help, Aranion,” she said in a low voice, not quite meeting my gaze.  “There be something I seek, and ye must aid me in achieving it.”  I did not understand, but I nodded my assent.  “Get ye dressed and ready then.  There be a long journey ahead of us.”
+
+She stepped towards the window, her back towards me again, waiting as I put on a stralite mail and gathered my sword.  When she noticed I was ready she levitated out, and I followed.
+
+We whistled through the air, travelling northwards at great speed.  The lands swept beneath us, and the climate grew colder as we went further and further north.  Hours passed in intrepid silence, till we were flying above snowy tundra.  We soared past plains of white and grey before we reached a low range of hills.  Here Linaniil slowed and descended, and I went down beside her.  We came to rest before a dark opening at the foot of the hills.
+
+Linaniil stood for a while staring at the black cave.  Fear radiated from her face, but her eyes were hard and determined.  “It is here,” she said quietly, her voice steady.  I followed her gaze, trying to guess what secrets this remote place contained, but I could sense nothing special.
+
+She marched forwards and I followed, until we came right up to the shadowed opening.  Linaniil hesitated a moment, staring into the blackness, before finally stepping inside and being swallowed from sight.  I could feel it then, the sensation that something ancient lay in this place.  My skin tingled and my arcane attunement felt on fire.  This dark cave held some mysterious force, secluded from all knowledge since the oldest days of Eyal.  There was something here that could change the destiny of the world.
+
+I took a deep breath and stepped forwards.]], [[#{italic}#엘발라 대의회장, 아라니온 가웨일의 회고록에서 발췌#{normal}#
+
+#{bold}#제 7 장 : 어둠 속으로#{normal}#
+
+우린 우리가 저지른 짓을 숨기고, 범죄를 은폐했다.  비록 우리는 외부의 하플링 상인들과 이상하게 변장한 샬로레 모험가들과 접촉할 수 있었지만, 우리는 여전히 비난의 시선으로 부터 숨은 채, 침묵 속에 남아있었다.  장벽 외부의 사람들은 피난처라는 사치를 누릴 수 없었다.  마법 사냥이 시작됐고, 자비를 몰랐다.
+
+보통 사람들이 마법사들의 오만함에 대항하여 일어났다. 많은 이들의 목숨을 앗아간 극히 소수만이 지닌 힘에 대항하는 반란.  주술 사용의 의심을 받거나 "기예" 에 연관된 이들은 모두 잔인하게 처리되었다.  일말의 동정심도 없이, 무수히 많은 무고한 이들이 결코 채워지지 않을, 보복을 갈망하는 목마름에 희생되었다.  광기가 마즈'에이알 전역을 휩쓸었다.
+
+법과 질서는 무너졌다.  군대, 영토와 모든 도시들은 마법 폭발로 인해 무너지거나 파괴되었고, 수많은 지역들이 완전히 거주 불가능한 상태로 버려졌다.  왕국들은 무너지고, 폭군이 득세했고, 도적들은 시체 옆의 매처럼, 무너진 문명들의 피를 빨아먹었다.
+
+오래전에 사라진 지구랏이라는 단체가 부활하여, 반마법 성전에 대한 민중의 지지를 얻었다.  우리는 몇몇 마법사들이 몸을 숨기고 있다고 들었지만, 불가피하게 색출되거나, 필사적으로 이곳 저곳으로 도망치고 있다는 이야기를 들었다.  강령술사와 타락한 마법사들이 던전과 성채를 만들었다는 어두운 이야기들도 들려왔다. 그들은 공격을 막아내고 회피하며, 공포의 지배를 시작하고 있었다.
+
+그리고 내 귀에 들려온 또 다른 이야기에 따르면, 지구랏의 추적을 피해 마법사들이 무리를 이뤄 자신들의 몸을 숨기고 있으며,  불타는 머리카락과 맹렬하게 빛나는 눈을 갖고, 두 손이 화염에 감싸인 악마가 그들을 이끌고 있다고 한다.  그 불타오르는 분노에 맞설 이는 존재하지 않는다는 듯 하다.  나는 그러한 마법사를 잘 알고 있었다...
+
+나는 샬로레 민족을 돌보며 나의 통치, 나의 임무를 수행했다.  우리는 공격자들로부터 안전했고 여러 무역로를 통해 물자를 확보했으며, 우리가 잃어버린 것들을 서서히 재건하기 시작했다.  하지만 우리는 두려움과 수치심으로 인해 세상과 대면할 수 없었다.
+
+15 년이 지난 어느 날, 나는 의회실에서 깨어났다. 초승달 모양의 밀려오는 겨울이 부드럽게 내 침대의 끝에서, 어떤 형체를 비추고 있었다.  그것은 키가 크고 날씬했으며, 양모와 모피 옷을 입고있었다.  그녀가 내게 등을 보이고 서 있을 때, 진홍빛 머리카락이 살랑살랑 춤췄다.  오래 전, 그날 밤의 기억이 되살아나기 시작했다. 우리 모두 더 순수했던 시절, 내가 더 어렸을 때, 그리고 더 어렸었던 그녀가 처음으로 가까워졌던 밤.
+
+나는 그녀가 사라질까봐 두려웠기에, 나는 그녀의 이름을 간신히 속삭였다. 한 마디 말 때문에 깨어지는 환상이나, 꿈일거라 생각했다.  “리나니일.” 나는 부드럽게 입을 다물었다.  그녀가 내게 몸을 돌리자, 나는 전과 같은, 내가 기억하고 있던 검은 눈을 보았다.  하지만 두 눈은 의무로 인해 주름살이 저 있어, 몇 년동안 그녀가 안고 살아야했던 중압감과 책임감이 느껴졌다.
+
+나는 침대에서 일어나 로브를 다시 입었다.  나는 그녀를 향해 발걸음을 떼었지만, 이윽고 멈춰버리고 말았다. 그 이상 다가갈 수가 없었다.  나는 그녀를 두 팔로 안기 위해 그녀의 곁으로 가고 싶었다.  그러나 나와 그녀 사이에 커다란 틈이 있음을 느꼇다. 시간과 고통의 균열이 우리 사이에 있었다.
+
+“도움을 청하러 왔어요. 아라니온.” 내 시선에도 불구하고, 그녀는 눈을 피하며 낮은 목소리로 말했다.  “찾아야 할 것이 있어요. 그리고 당신은 제가 그걸 찾는걸 반드시 도와야하죠.”  나는 이해하지는 못했지만, 고개를 끄덕이며 승낙했다.  “옷을 입고 준비하세요. 긴 여정이 될 거예요.”
+
+그녀는 창가 쪽으로 향하더니, 내가 스트랄라이트 사슬 갑옷을 입고, 나의 칼을 준비하는 동안 기다리며 다시 나에게 돌아왔다.  내 준비가 끝나자, 그녀는 허공으로 날아올랐고, 나는 그녀의 뒤를 쫓았다.
+
+우리는 바람 소리를 내며, 북방을 향해 엄청난 속도로 여행했다.  대지가 발 밑에서 스처지나가고, 북쪽으로 나아가면 나아갈 수록, 기후가 점점 추워졌다.  우리가 눈덮힌 극지 위를 날 때 동안, 몇 시간을 침묵 속에서 비행했다.  나와 리나니일은 백색과 회색의 평원을 지나, 낮은 언덕 지대에 도달하기 전 까지 비행을 계속했다.  그곳에서 리나니일은 속도를 줄이고 착륙했으며, 나도 그녀의 곁으로 내려앉았다.  우리는 언덕 아래의 암흑이 열리기 전 까지 그곳에서 쉬었다.
+
+리나니일이 검은 동굴을 처다보며 서있었다.  그녀의 얼굴에서 공포가 느껴졌으나, 그녀의 두 눈은 단호하고 강건해보였다.  “여기예요.” 그녀가 안정적인 어조로 조용히 말했다.  나는 그녀의 시선을 쫓으며, 이 외딴 곳에 어떤 비밀이 숨겨져있는지 예상해 보려했지만, 특별한 것은 느낄 수 없었다. 
+
+그림자 진 구멍에 도착하기 전 까지, 그녀가 앞장섰고 나는 그녀를 뒤따랐다.  리나니일은 어둠을 잠깐 응시하며 망설이더니, 결국 그 안으로 들어가 시아에서 사라졌다.  그 때, 나는 느낄 수 있었다. 고대의 어떤 물건이 이곳에서 잠들어 있는 것만 같았다.  살갗은 따끔거렸고, 나의 마법적 동화는 불이 붙은 것 같았다.  이 어두운 동굴은 알 수 없는 힘을 품고 있었다. 에이알 초창기 때부터 모든 지식으로부터 격리되어진 힘.  이곳에는 세상의 운명을 바꿀 수 있는 무엇인가가 잠들어 있다.
+
+나는 심호흡을 하고, 앞으로 나아갔다.]], "_t")
 t("spellblaze", "마법폭발", "newLore category")
+t("The Spellblaze Chronicles(8): Forbidden", "마법폭발 연대기 (8) : 금단", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Eight: Forbidden#{normal}#
+
+Light sprung from Linaniil’s staff, and she cast about a luminescence, revealing a narrow icy passageway that led downwards.  It was deathly cold, and our breaths condensed in clouds as we made our way down the wending tunnels.  My skin pricked, and all my senses seemed on edge.
+
+“What is down here?” I asked, my curiosity all-consuming.
+
+“Power,” Linaniil responded, not looking at me as she spake, continuing to follow the path.  “And power be what I seek.  I am afeared for mine people, but have not the strength to protect them as I wouldst like.  With what be here, perhaps, I shall have the power to make a safe haven.  This be a place of legend amongst mine people, and I have scouted it out over many years.  Today I shall finally reach what lies at the centre.”
+
+“And why do you need me?”
+
+She didn’t respond, but carried onwards.  We reached a split in the tunnel, and without hesitation Linaniil took the left path.  It led further and further underground.  We came to blockages, but by arcane force the sorceress easily cleared a way.
+
+As we passed through a large cavern I sensed movement, and drew Mooncutter quickly.  What looked like a disembodied limb, or some great thrashing worm, was writhing towards us pathetically.  Linaniil send a blast of fire towards it - it squealed and went still.
+
+And then more movement, a hundred movements.  From crevasses and holes in the walls and ceiling there burst out dozens upon dozens of the worm-like creatures, their maggoty bodies flapping rigorously, fanged mouths opening up and screaming torturous sounds.  Linaniil growled and began sending torrents of flame towards the approaching horde.  I covered her back, slicing open their pale green flesh and sending strokes of lightning through their ranks.  In under a minute we had dispatched them all.
+
+I prodded a corpse with my foot and it collapsed into sludge.  “What strange creatures,” I commented.  I looked at Linaniil for some explanation but she simply proceeded forward.  I followed after, keeping my sword in hand and watching closely for further attacks.
+
+At the other end of the cavern a wall of ice blocked our way.  Linaniil held up the Ring of Kar’Krul, and the jewel on it began to blaze.  The ice melted away slowly, revealing a passage to another, smaller chamber.
+
+This cold, crypt-like hollow was covered in smooth, glistening ice on all sides.  The walls were square and straight, and ancient pillars of marble were dotted about the room.  On the pillars and walls were weathered runes and symbols.  I came close to study some, but couldn’t recognise them from any of my studies.  “What was this place?” I asked, turning to Linaniil.  “It seems older even than Sher’Tul.”
+
+She ran her hand over one of the walls, tracing the outline of a door.  “It be a temple to Quekorja, god of a race whose name somehow escapes my mind.  The were killed off by the Sher’Tul long before our races were born.  They did build this temple in honour of Quekorja, and the last of them did die here defending her.”
+
+I looked about in awe.  Though I had explored many Sher’Tul ruins I hadn’t seen anything like this.  The architecture was simple but elegant.  There was a crude beauty to it all.  I turned back to the door Linaniil was examining.
+
+She was trying to open it, but was obviously struggling to find a way.  “There be some key, some puzzle to open this,” she muttered.  “But I can nay solve it - the secret be lost to time.”  She growled in anger and stood back.  Holding out her staff she unleashed a blast of arcane force from it, violently splitting the stone door apart and tearing open a passage to a chamber beyond.
+
+Many things suddenly happened at once.  From beyond I felt a pulse of energy, a huge surge of power that I had never felt before.  Linaniil was focussed on it intensely.  But noise came from all around of creatures moving asudden.  From the cave we had entered from there was a shriek of a hundred wailing voices, and the floor beneath our feet trembled.  Rocks fell from the ceiling and out burst horrific creatures with spiked limbs and smooth, triangular faces.  From the trembling ground arose a strange ethereal being of light, with long tentacles for limbs.  And as I turned to face these threats I saw that in the previous cavern the worms had come back to life, and were now coalescing into a huge mass of putrid flesh.
+
+I tried to cut through the being of light, but my sword barely slowed as it passed through it, and the flames I summoned seemed to have little effect.  It raised a tentacle towards me and an intensely bright beam of light shone from it through my torso, filling my flesh with searing pain.  I jumped back and send a wave of ice at it, tearing off a tentacle and pushing it further away.  Meanwhile Linaniil had reduced one of the spiked creatures to a pile of ash, but her arcane shield was collapsing beneath the slashes of the others, and more were spilling from the ceiling.  In the entranceway the mass of worms was pressing through, and from the mouths of the flailing bodies came spits of burning acid.
+
+We were at severe risk of getting surrounded in this confined space, the numbers too many to take on at once.  “Over here!” shouted Linaniil, as she dashed through the door she had split apart.  I followed, slashing my blade through the mass of worms, causing it to lurch back screeching in pain, and spearing a blast of lightning through one of the spiked creatures, splitting open its head.  It continued to attack me, but I parried and cut its arm off, dancing around it and reaching the doorway.  With my back to the opening I brought up a wall of water and sent it flooding into the chamber, pushing the horrors away as I leapt backwards through the door.
+
+As soon as I passed through Linaniil thrust her staff into the ground and a pillar of rock rose upwards, sealing off the opening.  I could hear thrashing and thumping sounds from the other side, but for now we seemed safe.  “What were those things?!” I asked incredulously, as I scanned around the open cavern for signs of any more creatures.  It was a large space, but everything was still, and I could see no other entrances.
+
+“Scions of Amakthel,” she responded calmly.  “The butchered god seeks to break his chains.  But he needs more power...  And here in this dark, forgotten place is part of that power he seeks.”
+
+“And what is here?  What terrible power lies here that would draw both you and those horrors?!”
+
+“Quekorja,” she said.
+
+“Quekorja?  The... the god?”  I couldn’t believe I what I was hearing.  “Was it not slain by the Sher’Tul?”
+
+“Aye, that it were.  But there be power even in a slain god.  Look behind ye, Aranion.”
+
+I turned then, wondering what she wanted me to behold.  It took me a moment to see it, but when I did I gasped in shock.  The far wall of this great cavern was not merely a wall.  It was covered in a thick layer of ice, but beneath at its centre I could make out a huge yellow eye.  And around that eye I could trace out a giant form.  Dark grey skin covered a bulging head, topped with three great curved horns, which sat atop a long, thick body with six limbs.  It was deathly still and chillingly ancient, seeming more like part of the rock than anything that had once been alive.  I couldn’t believe what I was seeing, but I could feel it.  In that corpse was still power, immense power, like nothing I had ever felt before.
+
+“This be it,” said Linaniil.  “One of the few corpses of the gods left to find in Maj’Eyal.  And I shall take its power as mine own.”
+
+“This is insane!” I shouted.  “You have no idea if that is safe or not.  You don’t know what it will do to you!”
+
+She chuckled darkly.  “Aye, that be true.  But that is why I have brought ye here.”  I looked at her in confusion and she chuckled again.  “Ye still know not your purpose here.  Did ye think I took ye here for protection?  That I couldst not handle those horrors on mine own?  No, there be a different reason I have brought ye.  When I absorb this corpse, when I take its power for mine own, I do not know what wilst become of me.  It may kill me.  Or it may drive me mad, it may turn me into something terrible.  Should that happen, Aranion, you art the only one I know with the strength to kill me.”
+
+The words hit me like a blow to the chest.  “Kill you?  But I couldn’t...”
+
+“But ye must!” she said firmly.  “After all ye have done... all the torture ye have brought my life... ye owe me this.”  I looked deep into her eyes and saw the turmoil of emotions within, the pain and agony of all that had befallen her, the hatred and blame of those who had wronged her, the guilt and shame for not being able to do more herself.  And deep inside still some touch of love for me and what we had shared.  I reached out my hand and stroked her soft hair, my fingers touching lightly against the side of her face.  I leaned in close and she closed her eyes, turning her face up to me as I moved my lips towards hers.
+
+“No!” she suddenly cried, pushing me back.  “It cannot be!”  She swiftly turned from me, and I saw a tear drip down one cheek.  “The world has changed, Aranion.  I have a duty before me, and none can walk that path beside me.”  And with that she began to run, staff in hand, towards the great eye whose dead gaze was locked behind the wall of ice.  I sprinted after her, but she was faster, and with running leap she thrust the base of her staff through the ice and into the center of the god’s eye.
+
+The ice cracked with a deafening thunder, and the giant yellow eye pulsed before exploding in a ball of light.  I stopped and covered my eyes as white light flooded the room and shards of ice flew through the air.  I could barely make out Linaniil, bathed in light, hanging with one hand from her staff, her hair and robes blown backwards as she reached forwards with her other arm.  Slowly, intrepidly, she placed her hand into the centre of the ball of light where the eye had been, and shadows danced about the cavern as she wrapped her fingers round that luminous sphere, before squeezing tight.
+
+The cavern shook, her staff shattered, the wall creaked and split before wholly blasting apart.  The corpse of the dead god collapsed into a stream of silver and in a roaring cacophony rushed towards Linaniil, tearing apart her robes and sinking into her skin.  She floated in the air, limbs outstretched as the vast energy poured into her flesh.  She opened her mouth as if to scream and light burst out, and light spilled from her eyes and ears.  The cavern quaked dangerously and rocks fell from the walls and ceiling.  But in seconds it was over, the corpse of the god fully absorbed, the light in Linaniil’s eyes went out, and she dropped to the ground like a stone.
+
+Then the horrors broke through, the collapsing cavern having made an opening for them, and immediately they sped hungrily to where Linaniil lay.  “No!” I cried, rushing to intercept them.  “You cannot have her!”
+
+I sliced off the head of a spiked creature and put up a wall of fire ahead of the rest of them as I backed towards Linaniil’s body.  She looked dead, with no sign of movement or breathing, but I had no time to check.  The being of light and tentacles passed through my flames without resistance, and I ran sparks along my sword as I tore it up the centre of the monster.  It shot light through my torso and I coughed up blood, but I forced my sword in deeper and ran a flood of arcane energy through it, blowing the thing apart.  More spiked creatures came, and I took care of my footing whilst parrying and chopping on my left and sending waves of flame to my right.
+
+The mass of worms broke through the wall, and with it two more luminous horrors, and some fiend of darkness and nightmares, and I could see behind others were spilling through.  I put up a shield as rays of light shot towards me, and sent balls of frost back at them.  One of the light beings fell, whilst the other was slowed.  The dark thing came quickly, and the mass of worms not far behind, so I sliced my sword across the ground, sending heat through it, and turned the stone into a mass of lava.  The dark thing came around it, and I felt an aura of deathly cold from it as it approached.  I hacked at it desperately, and it shot back speared limbs towards my chest that seemed to suck all strength from me.  With a roar I shot a pulse of flames down my blade and it burst apart.  The worms charged directly over the lava, squealing in pain as a bulk of them were burned, but coming at me with speed.  I adjusted my grip, getting ready to make deft strokes to stay out of its range, but a lance of light then shot through my leg, dropping me to one knee with a scream.  The mass of worms rushed at me then, and I dug my sword deep into their midst, but the worms crawled over my arms, digging their acidic teeth into my flesh and reaching for my neck.  With my left arm I cast a blanket of flames over them, burning my arm along with the screeching worms.  They pulled away slightly, but the being of light was approaching from the side, a tentacle flaring up in luminescent energy, and three spiked horrors were behind it.  My right arm was burnt, my left leg injured, my mail pocked with holes, and my mana reserves were running low.  But I gritted my teeth in determination - I could not back from this fight.  I rushed at the mass of worms with my sword held firm.
+
+It exploded in a fiery mess, and an intense wave of force and fire blasted across the cavern, turning the other horrors to ash, and even burning through the luminous being - a low scream arising from it as the flames tore it apart.  I gasped, not knowing whence this blaze had come, until I turned around and saw Linaniil.  She was standing tall, her robes burnt off, flames dancing up and down her skin, bright light shining from her eyes.  Heat seemed to radiate from her.  I kept my grip on my sword, not sure if this was the Linaniil I knew, or some other force born of her union with the dead god.
+
+She laughed suddenly, and it was a harsh laugh that I had not heard her make before.  “What a fool I have been,” she said, almost to herself.  “I brought ye here in case ye had to stop me.  But now...  Now mine power exceeds ye by a long distance.  Ye would have no hope of opposing me!”  She made a low sound somewhere between a laugh and a sigh.  “Ah, but ye have no cause to worry.  I am still me.  Mostly.  And through pain and sacrifice I have achieved the power I desired.  The power I need.”
+
+I let my sword dip and breathed heavily, relief mingled with trepidation sweeping through me, whilst the withdrawing adrenalin of battle left me feeling exhausted.  I looked Linaniil over, her pale skin now glowing, her eyes brimming with energy and vitality.  I saw the power she had was not in mere force, but that she had taken on the ageless nature of the gods.  A power forbidden to all creatures was now hers and hers alone.
+
+“What now?” I said quietly.
+
+“Now, ye go home, and I go to make mine home, a sanctuary for me and mine people.”
+
+“Will we meet again?”
+
+She smiled sadly.  “Mayhaps.  Mayhaps not.  The world changes quicker than predictions can tell.  But if we do meet again it shall be in a place that does not yet exist - the city of Angolwen.”  She raised an arm then and from it shot a tremendous pulse of arcane energy, the violet light shooting to the roof of the cavern and spearing through, deep through, till it split the rock apart right through to the open sky a mile above.  Sunlight spilled down, splashing over Linaniil’s lithe form.  It had been many hours since this long long night had begun.
+
+“But for now, farewell Aranion,” she said as she began to float from the ground.  And then she sped up and soared out of sight.
+
+I lay down on the cold stone, resting for a while, slowly healing my wounds and recovering my strength.  I reflected on the events since the evening before, thinking back on the trials of all the races of Maj’Eyal.  War, disease and death threatened all equally.  Was Linaniil beyond that now?  How would a taste of immortality affect her?
+
+It was then that thought for our race came to me.  In ages past we had searched for immortality.  Our ancestral leaders had obsessed over it, but out of vanity, pride and a fear of death.  What would the real effects be if all our society were to be gifted with it?  With immortal life we might separate ourselves from the strifes and wars of the world.  It would give us a perspective beyond the petty squabbles and prideful competition of the other races.
+
+I dug through the ice and rocks and found still some trace of the dead god Quekorja, faint though it were.  I gathered all that was left and made the long journey back to Elvala.  There I retreated to my labs, studying the remains for years before finally unlocking its secrets.  It was thus that immortality for our race was born, and it has changed our outlook on the world ever since.
+
+We stood apart from the others then, not engaging in war, finding a new respect for life.  It was not till Garkul the Devourer assaulted our gates in the Age of Pyre that we ever had cause for large scale war again, and I rode out to face him in combat.
+
+But ah, that is another tale, one indeed of many tales, in the long and rich history of the Tales of Maj’Eyal...]], [[#{italic}#엘발라 대의회장, 아라니온 가웨일의 회고록에서 발췌#{normal}#
+
+#{bold}#제 8 장 : 금단#{normal}#
+
+Light sprung from Linaniil’s staff, and she cast about a luminescence, revealing a narrow icy passageway that led downwards.  It was deathly cold, and our breaths condensed in clouds as we made our way down the wending tunnels.  My skin pricked, and all my senses seemed on edge.
+
+“What is down here?” I asked, my curiosity all-consuming.
+
+“Power,” Linaniil responded, not looking at me as she spake, continuing to follow the path.  “And power be what I seek.  I am afeared for mine people, but have not the strength to protect them as I wouldst like.  With what be here, perhaps, I shall have the power to make a safe haven.  This be a place of legend amongst mine people, and I have scouted it out over many years.  Today I shall finally reach what lies at the centre.”
+
+“And why do you need me?”
+
+She didn’t respond, but carried onwards.  We reached a split in the tunnel, and without hesitation Linaniil took the left path.  It led further and further underground.  We came to blockages, but by arcane force the sorceress easily cleared a way.
+
+As we passed through a large cavern I sensed movement, and drew Mooncutter quickly.  What looked like a disembodied limb, or some great thrashing worm, was writhing towards us pathetically.  Linaniil send a blast of fire towards it - it squealed and went still.
+
+And then more movement, a hundred movements.  From crevasses and holes in the walls and ceiling there burst out dozens upon dozens of the worm-like creatures, their maggoty bodies flapping rigorously, fanged mouths opening up and screaming torturous sounds.  Linaniil growled and began sending torrents of flame towards the approaching horde.  I covered her back, slicing open their pale green flesh and sending strokes of lightning through their ranks.  In under a minute we had dispatched them all.
+
+I prodded a corpse with my foot and it collapsed into sludge.  “What strange creatures,” I commented.  I looked at Linaniil for some explanation but she simply proceeded forward.  I followed after, keeping my sword in hand and watching closely for further attacks.
+
+At the other end of the cavern a wall of ice blocked our way.  Linaniil held up the Ring of Kar’Krul, and the jewel on it began to blaze.  The ice melted away slowly, revealing a passage to another, smaller chamber.
+
+This cold, crypt-like hollow was covered in smooth, glistening ice on all sides.  The walls were square and straight, and ancient pillars of marble were dotted about the room.  On the pillars and walls were weathered runes and symbols.  I came close to study some, but couldn’t recognise them from any of my studies.  “What was this place?” I asked, turning to Linaniil.  “It seems older even than Sher’Tul.”
+
+She ran her hand over one of the walls, tracing the outline of a door.  “It be a temple to Quekorja, god of a race whose name somehow escapes my mind.  The were killed off by the Sher’Tul long before our races were born.  They did build this temple in honour of Quekorja, and the last of them did die here defending her.”
+
+I looked about in awe.  Though I had explored many Sher’Tul ruins I hadn’t seen anything like this.  The architecture was simple but elegant.  There was a crude beauty to it all.  I turned back to the door Linaniil was examining.
+
+She was trying to open it, but was obviously struggling to find a way.  “There be some key, some puzzle to open this,” she muttered.  “But I can nay solve it - the secret be lost to time.”  She growled in anger and stood back.  Holding out her staff she unleashed a blast of arcane force from it, violently splitting the stone door apart and tearing open a passage to a chamber beyond.
+
+Many things suddenly happened at once.  From beyond I felt a pulse of energy, a huge surge of power that I had never felt before.  Linaniil was focussed on it intensely.  But noise came from all around of creatures moving asudden.  From the cave we had entered from there was a shriek of a hundred wailing voices, and the floor beneath our feet trembled.  Rocks fell from the ceiling and out burst horrific creatures with spiked limbs and smooth, triangular faces.  From the trembling ground arose a strange ethereal being of light, with long tentacles for limbs.  And as I turned to face these threats I saw that in the previous cavern the worms had come back to life, and were now coalescing into a huge mass of putrid flesh.
+
+I tried to cut through the being of light, but my sword barely slowed as it passed through it, and the flames I summoned seemed to have little effect.  It raised a tentacle towards me and an intensely bright beam of light shone from it through my torso, filling my flesh with searing pain.  I jumped back and send a wave of ice at it, tearing off a tentacle and pushing it further away.  Meanwhile Linaniil had reduced one of the spiked creatures to a pile of ash, but her arcane shield was collapsing beneath the slashes of the others, and more were spilling from the ceiling.  In the entranceway the mass of worms was pressing through, and from the mouths of the flailing bodies came spits of burning acid.
+
+We were at severe risk of getting surrounded in this confined space, the numbers too many to take on at once.  “Over here!” shouted Linaniil, as she dashed through the door she had split apart.  I followed, slashing my blade through the mass of worms, causing it to lurch back screeching in pain, and spearing a blast of lightning through one of the spiked creatures, splitting open its head.  It continued to attack me, but I parried and cut its arm off, dancing around it and reaching the doorway.  With my back to the opening I brought up a wall of water and sent it flooding into the chamber, pushing the horrors away as I leapt backwards through the door.
+
+As soon as I passed through Linaniil thrust her staff into the ground and a pillar of rock rose upwards, sealing off the opening.  I could hear thrashing and thumping sounds from the other side, but for now we seemed safe.  “What were those things?!” I asked incredulously, as I scanned around the open cavern for signs of any more creatures.  It was a large space, but everything was still, and I could see no other entrances.
+
+“Scions of Amakthel,” she responded calmly.  “The butchered god seeks to break his chains.  But he needs more power...  And here in this dark, forgotten place is part of that power he seeks.”
+
+“And what is here?  What terrible power lies here that would draw both you and those horrors?!”
+
+“Quekorja,” she said.
+
+“Quekorja?  The... the god?”  I couldn’t believe I what I was hearing.  “Was it not slain by the Sher’Tul?”
+
+“Aye, that it were.  But there be power even in a slain god.  Look behind ye, Aranion.”
+
+I turned then, wondering what she wanted me to behold.  It took me a moment to see it, but when I did I gasped in shock.  The far wall of this great cavern was not merely a wall.  It was covered in a thick layer of ice, but beneath at its centre I could make out a huge yellow eye.  And around that eye I could trace out a giant form.  Dark grey skin covered a bulging head, topped with three great curved horns, which sat atop a long, thick body with six limbs.  It was deathly still and chillingly ancient, seeming more like part of the rock than anything that had once been alive.  I couldn’t believe what I was seeing, but I could feel it.  In that corpse was still power, immense power, like nothing I had ever felt before.
+
+“This be it,” said Linaniil.  “One of the few corpses of the gods left to find in Maj’Eyal.  And I shall take its power as mine own.”
+
+“This is insane!” I shouted.  “You have no idea if that is safe or not.  You don’t know what it will do to you!”
+
+She chuckled darkly.  “Aye, that be true.  But that is why I have brought ye here.”  I looked at her in confusion and she chuckled again.  “Ye still know not your purpose here.  Did ye think I took ye here for protection?  That I couldst not handle those horrors on mine own?  No, there be a different reason I have brought ye.  When I absorb this corpse, when I take its power for mine own, I do not know what wilst become of me.  It may kill me.  Or it may drive me mad, it may turn me into something terrible.  Should that happen, Aranion, you art the only one I know with the strength to kill me.”
+
+The words hit me like a blow to the chest.  “Kill you?  But I couldn’t...”
+
+“But ye must!” she said firmly.  “After all ye have done... all the torture ye have brought my life... ye owe me this.”  I looked deep into her eyes and saw the turmoil of emotions within, the pain and agony of all that had befallen her, the hatred and blame of those who had wronged her, the guilt and shame for not being able to do more herself.  And deep inside still some touch of love for me and what we had shared.  I reached out my hand and stroked her soft hair, my fingers touching lightly against the side of her face.  I leaned in close and she closed her eyes, turning her face up to me as I moved my lips towards hers.
+
+“No!” she suddenly cried, pushing me back.  “It cannot be!”  She swiftly turned from me, and I saw a tear drip down one cheek.  “The world has changed, Aranion.  I have a duty before me, and none can walk that path beside me.”  And with that she began to run, staff in hand, towards the great eye whose dead gaze was locked behind the wall of ice.  I sprinted after her, but she was faster, and with running leap she thrust the base of her staff through the ice and into the center of the god’s eye.
+
+The ice cracked with a deafening thunder, and the giant yellow eye pulsed before exploding in a ball of light.  I stopped and covered my eyes as white light flooded the room and shards of ice flew through the air.  I could barely make out Linaniil, bathed in light, hanging with one hand from her staff, her hair and robes blown backwards as she reached forwards with her other arm.  Slowly, intrepidly, she placed her hand into the centre of the ball of light where the eye had been, and shadows danced about the cavern as she wrapped her fingers round that luminous sphere, before squeezing tight.
+
+The cavern shook, her staff shattered, the wall creaked and split before wholly blasting apart.  The corpse of the dead god collapsed into a stream of silver and in a roaring cacophony rushed towards Linaniil, tearing apart her robes and sinking into her skin.  She floated in the air, limbs outstretched as the vast energy poured into her flesh.  She opened her mouth as if to scream and light burst out, and light spilled from her eyes and ears.  The cavern quaked dangerously and rocks fell from the walls and ceiling.  But in seconds it was over, the corpse of the god fully absorbed, the light in Linaniil’s eyes went out, and she dropped to the ground like a stone.
+
+Then the horrors broke through, the collapsing cavern having made an opening for them, and immediately they sped hungrily to where Linaniil lay.  “No!” I cried, rushing to intercept them.  “You cannot have her!”
+
+I sliced off the head of a spiked creature and put up a wall of fire ahead of the rest of them as I backed towards Linaniil’s body.  She looked dead, with no sign of movement or breathing, but I had no time to check.  The being of light and tentacles passed through my flames without resistance, and I ran sparks along my sword as I tore it up the centre of the monster.  It shot light through my torso and I coughed up blood, but I forced my sword in deeper and ran a flood of arcane energy through it, blowing the thing apart.  More spiked creatures came, and I took care of my footing whilst parrying and chopping on my left and sending waves of flame to my right.
+
+The mass of worms broke through the wall, and with it two more luminous horrors, and some fiend of darkness and nightmares, and I could see behind others were spilling through.  I put up a shield as rays of light shot towards me, and sent balls of frost back at them.  One of the light beings fell, whilst the other was slowed.  The dark thing came quickly, and the mass of worms not far behind, so I sliced my sword across the ground, sending heat through it, and turned the stone into a mass of lava.  The dark thing came around it, and I felt an aura of deathly cold from it as it approached.  I hacked at it desperately, and it shot back speared limbs towards my chest that seemed to suck all strength from me.  With a roar I shot a pulse of flames down my blade and it burst apart.  The worms charged directly over the lava, squealing in pain as a bulk of them were burned, but coming at me with speed.  I adjusted my grip, getting ready to make deft strokes to stay out of its range, but a lance of light then shot through my leg, dropping me to one knee with a scream.  The mass of worms rushed at me then, and I dug my sword deep into their midst, but the worms crawled over my arms, digging their acidic teeth into my flesh and reaching for my neck.  With my left arm I cast a blanket of flames over them, burning my arm along with the screeching worms.  They pulled away slightly, but the being of light was approaching from the side, a tentacle flaring up in luminescent energy, and three spiked horrors were behind it.  My right arm was burnt, my left leg injured, my mail pocked with holes, and my mana reserves were running low.  But I gritted my teeth in determination - I could not back from this fight.  I rushed at the mass of worms with my sword held firm.
+
+It exploded in a fiery mess, and an intense wave of force and fire blasted across the cavern, turning the other horrors to ash, and even burning through the luminous being - a low scream arising from it as the flames tore it apart.  I gasped, not knowing whence this blaze had come, until I turned around and saw Linaniil.  She was standing tall, her robes burnt off, flames dancing up and down her skin, bright light shining from her eyes.  Heat seemed to radiate from her.  I kept my grip on my sword, not sure if this was the Linaniil I knew, or some other force born of her union with the dead god.
+
+She laughed suddenly, and it was a harsh laugh that I had not heard her make before.  “What a fool I have been,” she said, almost to herself.  “I brought ye here in case ye had to stop me.  But now...  Now mine power exceeds ye by a long distance.  Ye would have no hope of opposing me!”  She made a low sound somewhere between a laugh and a sigh.  “Ah, but ye have no cause to worry.  I am still me.  Mostly.  And through pain and sacrifice I have achieved the power I desired.  The power I need.”
+
+I let my sword dip and breathed heavily, relief mingled with trepidation sweeping through me, whilst the withdrawing adrenalin of battle left me feeling exhausted.  I looked Linaniil over, her pale skin now glowing, her eyes brimming with energy and vitality.  I saw the power she had was not in mere force, but that she had taken on the ageless nature of the gods.  A power forbidden to all creatures was now hers and hers alone.
+
+“What now?” I said quietly.
+
+“Now, ye go home, and I go to make mine home, a sanctuary for me and mine people.”
+
+“Will we meet again?”
+
+She smiled sadly.  “Mayhaps.  Mayhaps not.  The world changes quicker than predictions can tell.  But if we do meet again it shall be in a place that does not yet exist - the city of Angolwen.”  She raised an arm then and from it shot a tremendous pulse of arcane energy, the violet light shooting to the roof of the cavern and spearing through, deep through, till it split the rock apart right through to the open sky a mile above.  Sunlight spilled down, splashing over Linaniil’s lithe form.  It had been many hours since this long long night had begun.
+
+“But for now, farewell Aranion,” she said as she began to float from the ground.  And then she sped up and soared out of sight.
+
+I lay down on the cold stone, resting for a while, slowly healing my wounds and recovering my strength.  I reflected on the events since the evening before, thinking back on the trials of all the races of Maj’Eyal.  War, disease and death threatened all equally.  Was Linaniil beyond that now?  How would a taste of immortality affect her?
+
+It was then that thought for our race came to me.  In ages past we had searched for immortality.  Our ancestral leaders had obsessed over it, but out of vanity, pride and a fear of death.  What would the real effects be if all our society were to be gifted with it?  With immortal life we might separate ourselves from the strifes and wars of the world.  It would give us a perspective beyond the petty squabbles and prideful competition of the other races.
+
+I dug through the ice and rocks and found still some trace of the dead god Quekorja, faint though it were.  I gathered all that was left and made the long journey back to Elvala.  There I retreated to my labs, studying the remains for years before finally unlocking its secrets.  It was thus that immortality for our race was born, and it has changed our outlook on the world ever since.
+
+We stood apart from the others then, not engaging in war, finding a new respect for life.  It was not till Garkul the Devourer assaulted our gates in the Age of Pyre that we ever had cause for large scale war again, and I rode out to face him in combat.
+
+But ah, that is another tale, one indeed of many tales, in the long and rich history of the Tales of Maj’Eyal...]], "_t")
 
 
 ------------------------------------------------
@@ -14179,6 +14574,7 @@ The Thaloren do business very rarely with the outside world, but when they do it
 숲의 요새를 떠나기로 정한 이들은 별난 성격으로 특이한 태도와 특성을 가진 경향이 있다. 자주 그들은 음악가나, 명궁 혹은 숙련된 전사들이다. 하지만 그들은 때때로 강하게 불신받으며, 샤툴을 떠난 이들중 많은이가 사실은 가장 끔찍한 죄를 지어 추방된 자들이라는 루머가 있기 때문이다. 어떤 경우에든 그들은 타고난 고독생활을 즐기는 이들이며 보통 탐구를 위해 홀로 떠돌곤 한다.
 
 탈로레는 외부세계인과 아주 드물게 거래를하며, 이 경우 그들 스스로는 구할 수 없는 금속이나 음식인 경우이다.탈로레는 보통 나무 공예품이나 고운 실크로 거래한다. 이것이 요정-나무의 유일한 합법적 공급처이며 이것은 화살을 만들기 위해 큰 수요가 있는 진귀한 물건이다. 암시장의 공급품들은 샤툴 숲의 나무를 자르는 밀렵꾼에게 의존하고 있는데 이는 어마어마한 위험이 따르는 사업이다, 하지만 샬로레 마법사들이 요정-나무 지팡이의 값으로 지불하는 높은 가격 때문에 고수익 사업이기도 하다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 6 - Naloren (extinct)", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 6 - 날로레 (멸종)", "_t")
 t([[The Naloren (or Nalore - lit "siblings of spirit") are now an extinct race, as their homeland was swept into the sea by the Cataclysm. However as a separate elf race they are worth studying, scant though the records be. Much of what is now said about the Naloren is traced with myth, but one can deduce certain facts.
 
 Naloren elves were around 5'10", with blonde hair and green eyes. They were incredibly thin, but known for their swift and dextrous capabilities. Their kingdom was located on the eastern side of Maj'Eyal, and all of their towns were on the sea or straddling major rivers. They employed themselves as fishermen, sponge-divers, sailors and musicians. They were renowned for being able to stay underwater for hours at a time, and those with arcane abilities were said to be able to stay submerged indefinitely.
@@ -14210,6 +14606,76 @@ Due to the safety and comfort of Elvala, and their mistrust of much of the outsi
 샬로레들의 마법 사용이 선택적(논란의 여지가있지만)인것이지만 , 오우거는 그런 사치를 부릴수 없다. 그들의 룬 문신은 중요한 내부 장기들 만큼이나 그들의 생명유지와 생물학적 무결성에 중요하다, 그리고 지구랏트의 "정화"시도로 포획된 오우거들은 스스로의 무게를 이기지도 못해 고꾸라지며, 장기들은 하나씩 기능을 정지했다 오우거에게 자연 주입물이 필수적인것처럼 마법 주입물 또한 그러하다 생각된다. 그렇기 때문에 오우거에게 번식은 매우 신중하게 이루어져야하는 작업이며 오우거 신생아는 주입물 없이 몇달간 생존할 수 있다, 그러나 그 후에는 오우거 부모들은 자녀에게 룬을 주입하고 약초 주입물을 철저하게 각인해야 한다. 오우거 부모들은 보통 이 일을 함께한다, 서로의 룬을 참고자료 삼아 작업하며, 룬을 그리는 과정에서 어떤 실수라도 아이의 건강과 성장에 악영향을 끼친다 (잘못 그려진 각인이 오우거의 성질을 억누른다고 믿어지지만 실제로는 악영향을 끼칠 뿐이다). 그런면에서 오우거 아이의 성장과 정신적 육체적 성격적 발달에 있어 주입물이 유의미한 영향을 끼친다고 할 수 있다.	
 
 엘발라의 안전함과 편안함 때문에, 그리고 그들이 가진 외부세계에 대한 불신 때문에, 그들의 고향을 떠난 오우거들은 대부분 교역을 위해서만 여정을 나서며 때때로 더 커다란 룬과 주입물 시장에 뛰어들기도 한다. 그리고 이들은 자주 성공을 거두는데 그들이 가진 이 분야의 재능 덕분이다. '모험가'라고 여겨질 수 있는 몇 안 되는 오우거들은 짐을 싸서 갑자기 떠나는 경향이 있다. 영광이나 재물을 위해서가 아니라, 그들은 세상에 되풀이되는 불행의 근원을 찾아 대의로서 뿌리뽑길 원하기 때문이다. 곡물이 약탈되었다는 소식을 들은 오우거가 좌절감에 한숨을 쉬는 것은 드문 일이 아니며 그대로 떠나, 며칠 후 한 때 도적떼 였던것의 피가 몽둥이에 범벅이 된채 돌아와 곧바로 농작물을 가꾸러 돌아가곤한다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 8 - Orcs (extinct)", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 8 - 오크 (멸종)", "_t")
+t([[The orcs are, joyfully, extinct from Maj'Eyal, following the purge instigated by King Toknor the Brave at the start of the Age of Ascendancy. But an academic study of their previous culture and civilisation is still of interest, primitive though it may have been.
+
+Orcs were generally around 6'1", with green or black skin. They varied greatly in physical appearance and build, most likely due to their exceptionally fast breeding rates. The majority of orcs were thick-built and heavily muscled, well remembered as the stock grunts of their terrible armies. However in the Age of Pyre a greater number of thinner, stringier orcs appeared, oft versed in destructive magics.
+
+The orcs were first encountered by the Eldoral halflings, who tried to use the simple creatures as servants, but gave up after finding them to be too violent. In the many centuries since wars and battles have been almost continuously fought with the brutes. Their oft superior numbers have at times threatened to overwhelm all of civilisation, even leading to such drastic defensive measures as the Spellblaze. The most terrifying time though was during the Age of Pyre, when the orcs developed arcane abilities, and under the leadership of Garkul the Devourer they swept through the continent, mercilessly slaying all before them. In the end 10,000 halflings gave up their lives in the Battle of Nargol to defeat their demonic leader and stem their army's advance. Gradually the civilised races began to recover, and finally King Toknor and Queen Mirvenia succeeded in uniting the human and halfling kingdoms, putting together a force to push back the orcs and ultimately extinguishing them entirely.
+
+Recent investigations of orcish ruins have revealed a surprising amount of cultural material, and even crude artworks based around fertility and battle. Some evidence has also been found of strong community elements to their culture, with much focus on sporting activities and racial pride events. However these are still clearly lacking in the subtleties and aesthetics of our more advanced cultures, and any attempt to compare them with us must be overshadowed by their brutality, territorial violence, and obsession with war.
+
+There have been no substantiated reports of orcs for over 100 years. What reported sightings there are tend to be from such unreliable sources as adventurers and hermits, and have never been verified. We should be thankful that these horrible creatures have been banished to the annals of history, surviving only as stories to be told to misbehaving children.]], [[즐겁게도 오크들은 주도의 시대 용맹한 자 토크놀의 즉위 초기에 주도된 대대적인 숙청으로 마즈'에이얄에서 멸종했다. 그러나 그들의 끝나버린 문화와 문명에 대한 학문적 연구는 비록 그것이 원시적일지 몰라도 여전히 흥미롭다.
+
+오크들은 보통 185cm 정도였고, 녹색이나 검은 피부를 가지고 있었다. 그들은 외모와 체형에 있어서 큰 다양성을 보였는데, 아마도 그들의 번식 속도가 유난히 빨랐기 때문일 것이다. 대다수의 오크들은 육중한 체격에 근육질이었다. 오크들은 또한 끔찍한 꿀꿀거림으로도 잘 알려져 있었다. 그러나 장작의 시대에는 파괴적인 마법에 정통한 마르고 왜소한 오크들이 더 많이 나타났다.
+
+오크들은 이 단순한 생물들을 하인으로 쓰려고 했던 엘도랄 하플링에의해 최초 조우되었다, 하지만 이 시도는 오크들이 너무 폭력적인 탓에 좌절되었다. 수세기 동안 전쟁과 전투에서 우리는 이 짐승들과 끊이없이 싸워왔다. 그들의 우월한 물량은 때때로 모든 문명을 압도할 위협으로 다가왔었는데 이는 마법폭발과 같은 극단적인 방어조치마저 불러일으킬 정도였다. 가장 끔찍했던 시간은 단연코 장작의 시대였다. 오크들이 비전 능력을 개발시켰을 때이자 포식자 가르쿨의 지휘아래 대륙을 집어삼키던 시대였다, 그들은 뒤에 아무도 남기지 않고 무자비하게 도살했다. 최후에 만명의 하플링들이 그들의 목숨을 바쳐 악마적인 오크들의 지도자를 끝장내었고 그들의 진격을 저지할 수 있었다. 그러자 점점 문명 세력은 회복되기 시작했고, 마침내 토크놀 왕의 인간 왕국과 미르베니아 여왕의 하플링 왕국이 통합하는 데 성공하여 오크들을 몰아내고 궁극적으로 그들을 완전히 멸종시켰다.
+
+최근 오크 유적을 조사한 결과 놀라운 양의 문화 유물이 발굴되었다.그리고 심지어 다산과 전투에 바탕을 둔 조잡한 예술품들마저 발견되었다. 또한 오크 문화에 강한 공동체적 요소들이 있었음을 뜻하는 몇몇 증거들도 발견되었다. 스포츠 활동과 종족적 자긍심의 행사에 많은 중점을 둔 유물들이었다. 그러나 이러한 것들은 여전히 우리의 선진 문화의 미학에 비하면 아름다움과 섬세함이 분명히 결여되어 있었으며 우리의 문화와 비교하려는 어떠한 시도도 그들의 잔혹성, 영토 분쟁, 전쟁에 대한 집착으로 가려져왔던것으로 보인다.
+
+다행스럽게도 100년 넘게 오크를 발견했다는 입증된 보고는 없었다. 목격된 것은 모험가나 은둔자같은 믿을 수 없는 자들에게서 온 것으로, 제대로 확인된 적이 없었다. 우리는 이 끔찍한 생명체들이 잘못된 행동을 하는 아이들에게 들려줄 이야기로만 살아남으면서 역사의 연혁으로 추방된 것에 감사해야 한다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 9 - Sher'Tul (extinct)", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 9 - 쉐르'툴 (멸종)", "_t")
+t([[Ah, the legendary Sher'Tul! How any scholar does love to write about them. Indeed, the texts are many, but the facts are few, as so little is known about this crucible race. The most learned and factual academic on the subject is the renowned explorer and archaeologist Darwood Oakton, but he has alas been missing for several months at the time of writing. I will attempt to summarise here some of his key discoveries.
+
+The Sher'Tul lived over ten thousand years ago, during what is referred to as the Age of Haze. The name of the race we know from the elves, who speak of the ancient beings with awe and reverence, yet know little else about them. Ruins of fantastical Sher'Tul structures have been found all across Maj'Eyal, and some have been observed in sunken lands off the coasts, implying that in their time the Sher'Tul must have ruled unopposed all across the world.
+
+The farportals were first discovered by the halflings during the Age of Allure, and after much experimentation they were found to be able to transport items and creatures over vast distances. The arcane powers behind these incredible artifacts are still far beyond the understanding of the greatest minds of our time. The one attempt to truly tap into these powers ended in disaster - the Shaloren moved all known farportals to a remote spot near their capital, and their most powerful mages were overwhelmed as they unleashed the Spellblaze, killing them instantly and tearing apart the continent. What remains of farportals are left in the world have since been left untouched.
+
+Of their physical appearance we know almost nothing, as there is no surviving artwork or records which depict themselves. However they must have been of similar form to other common races, as their ruins contain stairs, doorways and rooms not unfit for humans. Oakton estimates from his studies of their tools and artifacts that they would have stood around 5'4" tall, with uncommonly long limbs and fingers.
+
+What caused them to become extinct is unknown, though many theories abound. The most popular in academic circles at the moment is that their mighty magics were their undoing, turned upon their own people during some great civil strife. Other theories hold weight though - Archiman Garybald, Professor of Demonic Studies, believes that the extensive uses of arcane energies by the Sher'Tul may have attracted twisted forces from other worlds which wiped out the ancient race. Some even believe that they are not truly extinct, but are in hiding, or have left this world for elsewhere. I fear the truth may never be fully known, but the ongoing study and examination of the relics they have left behind continues to provide immense value and inspiration.]], [[아, 전설적인 쉐르'툴! 어떤 학자든간에 그들을 주제로 글을 쓰는걸 사랑하지 않는이가 없다. 결과적으로, 자료는 방대하나, 이 위대한 종족에 대해서는 알려진 바가 거의 없듯이 개중에 진실은 적다.이 주제에 대해 가장 많이 배우고 사실적인 학자는 저명한 탐험가 겸 고고학자 다우드 오크톤이지만, 그는 글을 쓸 당시 몇 달 동안 안타깝게도 행방불명되어 있었다. 나는 여기서 그의 주요 발견들 중 몇 가지를 요약하려고 노력할 것이다.
+
+쉐르'툴은 만년 전에, 소위 '아지렁이의 시대'라고 불리는 시대에 살았다. 우리는 엘프들에게서 이 종족의 이름을 배웠다 엘프들은 고대 존재들을 경외와 경건함으로 말하라 하지만, 그것들에 대해서는 그밖에 아는 것이 거의 없다. 환상적인  쉐르'툴 유적 구조물은 마즈'에이얄 전역에서 발견되었고, 일부는 바다속 가라앉은 땅에서 발견되어, 그들의 시대에 쉐르'툴은 전 세계에 걸쳐 아무런 저항도 받지 않고 마즈'에이얄을 통치했을 것을 암시했다.
+
+장거리 차원문은 매혹의 시대 동안 하플링들에 의해 처음 발견되었고, 많은 실험 끝에 그들은 먼 거리를 통해 물건과 생물을 운반할 수 있다는 것을 발견했다. 이 믿을 수 없는 유물 뒤에 숨겨진 불가사의한 힘은 아직도 우리 시대의 가장 위대한 정신조차도 이해할 수 없는것이다. 이러한 힘을 진정으로 이용하려는 한 번의 시도는 재앙으로 끝났다. 샬로레는 알려진 모든 장거리 차원문을 그들의 수도 근처의 외딴 곳으로 이동시켰고, 그들의 가장 강력한 마법사들은 마법폭발을 일으키면서 압도되어 즉사하고 여파는 대륙을 파괴했다. 세계에 남아 있는 장거리 차원문들은 그 후 그대로 방치되고 있다.
+
+그들의 외모에 대해 우리는 거의 아무것도 알지 못하는데, 그것은 그들 자신을 묘사하는 남아 있는 예술작품이나 기록이 없기 때문이다. 그러나 그들의 폐허에는 계단, 문, 그리고 인간에게도 적당한 방이 있었기 때문에 그들은 다른 일반적인 종족들과 비슷한 형태였을 것이다. 오크톤은 그들의 도구와 유물에 대한 연구를 통해 그들이 굉장히 긴 팔다리와 손가락을 가진 약 160cm의 신장이었을 것이라고 추정한다.
+
+많은 이론들이 있지만, 그들이 멸종하게 된 원인은 알려지지 않았다. 현재 학계에서 가장 인기 있는 것은 그들의 강력한 마법이 어떤 큰 내분 중에 그들 자신의 백성들에게 돌아갔다는 것이다. 그러나 다른 이론들도 중요하다 - 악마학 교수인 개리발트 아치맨은 쉐르'툴이 낭비에 가까운 비전 에너지를 광범위하게 사용했다고 믿는다.  이 때문에 쉐르'툴은 고대 종족을 전멸시킨 다른 세계의 비틀어진 힘을 끌어들였을지도 모른다고 추측한다. 어떤 사람들은 심지어 그들이 진정으로 멸종된 것이 아니라 숨어 있거나 혹은 다른 곳으로 이 세상을 떠났다고 믿는다. 진실이 결코 완전히 밝혀지지 않을까 두렵지만, 그들이 남긴 유물에 대한 지속적인 연구와 조사는 엄청난 가치와 영감을 계속 제공하고 있다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 10 - Monstrous Races", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 10 - 괴수 종족들", "_t")
+t([[No text would be complete without at least a brief note of some of the more brutish races which infest our world. These do not hold any civilised society of note, nor in general do they seem capable of any form of higher thought or culture, but they are still of interest to study for any who take delight in analysing beings of more primitive intellect.
+
+Trolls come in two main types - Kezrak and Moltep, or stone and forest trolls as they are colloquially known. Stone trolls infest many mountain chains to the north-east, and some have been known to wander further afield in search of food or to spread violence. They are generally over 8' high, with extremely pronounced muscular strength and a thick, solid hide which bears the appearance of coal or granite. Forest trolls are generally found in dense woods or swamps, with the Trollmire east of Derth being especially infamous. They have a more advanced form of speech than their mountain-dwelling cousins, and are known to move faster and wield more elaborate weapons, though their greenish hide is not as thick and their musculature less developed. All trolls have intensely fast metabolisms, capable of healing from grievous wounds within a matter of hours. At birth they measure just eight inches long, but within two years grow to full maturity, and rarely live beyond ten years old. They used to be considered little more than beasts, but towards the end of the Age of Pyre many were trained as fighters by the orcs, and were even taught the basics of language and certain battle tactics, making them much more dangerous. Though the orcs are gone their servants remain, and their remote breeding areas and intense birth rates have so far scampered attempts to eradicate them completely.
+
+Giants live mostly around the mountainous peaks surrounding the Daikara Pass. They vary greatly in size, but are normally at least 10' tall. They look somewhat like large, deformed humans, with swollen or distended facial features and much longer, swinging limbs. They live in nomadic tribes, moving from peak to peak with the seasons, feeding on wild deer and goats. They are usually peaceful creatures, only turning violent when their territory is encroached or their young are threatened. There are sometimes reports of giants coming to lowlands and stealing farm animals or attacking communities, but these are rare and normally isolated to particularly harsh winters. Giants seem to have no developed culture or language worth mentioning, but have been noted to show interactions of limited intelligence and to commune well in groups.
+
+Nagas were once believed to be mere myth, but reliable reports and even the capturing of dead physical samples has shown them to be real creatures. The upper half of their body is humanoid in form, with blonde hair and an extremely thin build, but the lower half is like that of a giant snake's tail. They stand around 6' tall on land, though their tails extend several feet further. They have been encountered off the eastern and south-eastern coasts of Maj'Eyal, which seems to indicate some exotic civilisation beneath the waves. Records of them exist only from the last few hundred years, and only more recently have they been interpreted as more than just the wild fantasies of inebriated sailors. They can breathe in air and underwater, possessing both lungs and gills, and have been reported to move with surprising speed on the ground. One might think them simply odd monsters, but they decorate themselves in jewellry and craft weapons and armour from materials found on the sea-bed, such as supple mail formed from layers of thick shark-hide. This would suggest an advanced culture, but communication with them so far has proved impossible. It is not known if they are capable of complex speech, but to date their only response to those who encounter them has been extreme violence, and fishermen in the east are always wary of coming across these vicious creatures.
+
+The origin of Demons is not wholly known, but it is clear that they are capable of intelligence and so I feel the need to describe them somewhat here. It is known that they can be summoned by certain magical rites, and minor demons were oft in the employ of evil sorcerers during the Age of Dusk. The main theory, which is supported by certain studies by Shaloren archmages, seems to indicate that they come from another world than our own, with connections formed through intense arcane energies. It must be a truly terrifying place to host such foul denizens. Demons vary immensely in appearance and power, as much as the creatures of our own world vary. They generally have blueish blood and metallic flesh and skin, which can oft react oddly with our atmosphere - some become wreathed in flames, others release hideous acids or belching clouds of darkness. All seem versed in magical abilities to some degree, and the strongest of them possess truly terrifying powers. Luckily they are exceptionally rare, and seem to be much less common in modern times since magic has fallen out of use.]], [[어떤 원고도 우리 세계에 들끓는 야만스런 종족에대한 짧은 주석 없이는 완성되지 않을 것이다. 이것들은 어떤 문명화된 사회를 가지고 있지 않으며, 일반적으로 그들은 어떤 형태의 높은 사상이나 문화를  사고할수 있는 것처럼 보이지는 않지만,  여전히  원시적인 지성체들을 분석하는 데 즐거움을 느끼는 사람들을 위해 연구하는 것에 흥미가 있다 
+
+트롤은 크게 케즈락과 몰텝, 구어체로는 돌과 숲트롤의 두 종류로 나뉜다. 돌 트롤은 많은 북동쪽의 산줄기에 들끓고있으며, 일부는 먹이를 찾거나 공격할 것을 찾기위해 더 먼 곳을 떠돌아다니는 것으로 알려져 있다. 그것들은 일반적으로 신장이 2.4m가 넘으며, 매우 두드러진 근육과 석탄이나 화강암처럼 보이는 두껍고 단단한 가죽을 가지고 있다.숲 트롤은 일반적으로 울창한 숲이나 늪에서 발견되는데, 데르스 동쪽에 있는 트롤 늪은 특히 악명 높다. 이들은 산골에 사는 사촌들보다 발달된 언어 형태를 가지고 있으며, 비록 초록빛 가죽이 두껍지 않고 근육 발달이 덜 되긴 했지만 더 빨리 움직이고 더 정교한 무기를 휘두르는 것으로 알려져 있다. 모든 트롤은 매우 빠른 신진대사를 가지고 있어 몇 시간 안에 심각한 상처를 아물게 할 수 있다.태어날 때 그들은 신장이 20cm밖에 되지 않지만, 2년 안에 완전히 성숙해지며, 10년 넘게 사는 경우는 드물다. 예전에는 짐승만도 못한 존재로 여겨졌지만, 장작더미의 시대가 끝날 무렵에는 많은 트롤들이 오크들에게 싸움꾼으로 훈련받았고, 기본적인 언어와 어떤 전투 기술과 전술까지 전수받아서 훨씬 더 위험한 존재가 되었다. 비록 오크들은 떠났지만, 그들의 하인들은 남아있고, 그들의 외딴 번식지와 엄청난 번식률은 지금까지 트롤들을 완전히 근절하려는 시도를 수포로 만들었다.
+
+거인들은 대부분 다이카라 고갯길을 둘러싼 산봉우리 주변에 산다. 그것들은 개체에 따라 크게 다르지만, 보통 적어도 3m 이상이다. 거인들은 다소 크고 기형적인 사람처럼 생겼는데, 얼굴 이목구비가 부어오르거나 팽창되어 있고, 사지가 훨씬 길고 낭창거린다. 그들은 유목민으로 살면서 계절과 함께 봉우리를 왔다 갔다 하며 야생 사슴과 염소를 기르며 산다. 그들은 보통 평화로운 종족으로, 그들의 영토가 침범당하거나 그들의 자손이 위협받을 때만 폭력적으로 변한다. 때때로 거인들이 저지대에 와서 농장 동물들을 훔치거나 공동체를 공격한다는 보고가 있지만, 이런일은 드물며 일반적으로 특히 혹독한 겨울로 한정되어있다. 거인들은 언급할 만한 발달된 문화나 언어가 없는 것처럼 보이지만, 제한된 지능과 상호작용을 보여주고 집단으로는 잘 소통하는 것으로 알려져 왔다.
+
+나가는 한때 신화에 불과하다고 믿어졌지만 믿을 만한 보고와 심지어 죽은 신체 샘플의 포획으로 그들이 실제 생명체임을 보여주었다. 그들의 상반신은 휴머노이드로 금발머리에 극도로 마른 체격이지만, 하반신은 거대한 뱀의 꼬리와 같다. 그들의 꼬리는 몇 피트 더 뻗어있지만, 육지에서는 약 182cm 높이로 서있다. 그들은 마즈'에이얄의 동쪽과 남동쪽 해안에서 목격됐는데, 이것은 파도 아래 이국적인 문명이 있음을 나타내는 것 같다. 이들에 대한 기록은 지난 몇 백 년 동안만 존재하며, 최근에는 술취한 선원들의 엉뚱한 환상을 넘어서는 것으로 해석되고 있다. 그들은 공기와 물속에서 숨을 쉴 수 있고 폐와 아가미를 모두 가지고 있으며 지상에서 놀라운 속도로 움직이는 것으로 보고되었다. 단순히 이상한 괴물이라고 생각할 수도 있지만, 그들은 보석으로 자신을 꾸미고 두꺼운 상어 가죽으로 만들어진 유연한 메일과 같은 해저에서 발견된 재료로 무기와 방어구를 만든다. 이것은 진보된 문화를 암시할 수 있지만, 지금까지 이들과의 의사소통은 불가능하다는 것이 증명되었다. 그들이 복잡한 말을 할 수 있는 능력이 있는지는 알 수 없지만, 그들과 마주치는 사람들에 대한 그들의 유일한 대응은 극단적인 폭력이었고, 동부의 어부들은 항상 이런 악랄한 생물들과 마주치는것을 경계한다고한다.
+
+악마의 기원은 완전히 알려진 것은 아니지만, 그들이 지성을 발휘할 수 있는 능력이 있는 것은 분명하기 때문에, 나는 여기서 악마들을 어느 정도 묘사할 필요성을 느낀다. 그들은 특정한 마법 의식에 의해 소환될 수 있다고 알려져 있고, 황혼의 시대에는 악한 마법사들이 하급 악마들은 소환하곤 했다. 샬로레 마법사들의 특정 연구를 근거로 현재 지지를 받고 있는 이론은 악마들이 강렬한 비전 에너지를 통해 형성된 연결을 통해 우리의 세계가 아닌 다른 세계에서 건너 왔다고 주장한다. 그런 역겨운 자들이 살아가는 그곳은 정말 무서운 곳임에 틀림없다. 악마는 우리 세계의 생물들이 다양하듯이 외모와 힘에 있어 엄청나게 다양하다. 그들은 일반적으로 푸른 피와 금속성 피부와 살을 가지고 있는데, 이것은 우리 세계의 대기와 기이하게 반응하곤 한다. 어떤 것은 화염에 휩싸이게 되고, 어떤 것은 끔찍한 산을 방출하거나 어둠의 구름을 내뿜는다. 모두 어느 정도 마법적 능력에 정통한 것 같고, 그중에서도 가장 강한 것은 실로 무서운 능력을 지니고 있다. 다행히도 그것들은 예외적으로 희귀하며, 현대에 와서 마법이 사용되지 않아 훨씬 덜 흔한 것 같다.]], "_t")
+t("Loremaster Greynot's Analysis of the Races - Chapter 11 - Dragons", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 11 - 용", "_t")
+t([[The common man may scoff at the idea of classifying dragons as an intelligent race, but experienced wyrmics know otherwise. Dragons are incredibly long-lived creatures, with some known to survive for thousands of years. Though in their early life they are of a bestial nature, as they advance through the centuries they gain an ever keener and more developed intellect. The eldest of wyrms are sometimes considered the most subtle and intelligent of creatures in Maj'Eyal, capable of telepathic communication and advanced mental abilities, and wyrmics speak of them with the highest reverence.
+
+Dragons come in many shapes and sizes, normally growing from 5' long hatchlings to 20' long mature drakes, with some of the greatest wyrms growing to over 40' in length. They are generally winged, with large lizard-like maws and sharp talons on both their fore and hind legs. They are often noted for the lustrous colour of their scales, normally representing an attunement to one of the key Elements of Eyal. This attunement is unseen in any other race, and some philosophers believe that dragons predate all other races, being formed as raw representations of the elements of nature at the beginning of the world. However this theory may be borne purely from the fanatical delusions of certain wyrmics who have studied the creatures for too long.
+
+All corners of Maj'Eyal show some trace of different types of dragons. The Daikara Pass and surrounding mountain chains are home to a great number of ice and storm dragons. Numerous sand and red dragons can be found in the western desert and hills, and many have been the reports of gigantic sea dragons in the deepest oceans, especially to the south.
+
+Attacks from dragons on humans and halfling settlements are fairly rare, but when they occur they can be truly devastating. Usually they are to feed on livestock, but now and then come attacks from newly matured drakes, seeking out precious metals and gemstones to build up a hoard. Dragon hoards have become a thing of legend, with the greatest wyrms rumoured to protect literal mountains of gold, but in modern times truly sizeable hoards are rare. The dwarves farmed hoarding dragons almost to extinction in the Age of Allure, and most dragons these days retain only modest treasures in their lairs.
+
+Dragons are regularly hunted for their thick scales and their elementally imbued bones. Dragonskin leather is prized amongst armour-workers, as when properly treated it is both light and tough, and oft retains some inkling of the original wyrm's power. Dragon-bone is highly favoured by staff-crafters for its natural attunement to elemental forces, and is sometimes used by fletchers in the crafting of the most delicate yet resilient bows and arrows. However the hunting of dragons for their skin and bones is greatly opposed by many wyrmics, and there is an increasing market for "naturally harvested" drake materials - those taken from dragons which have died of natural causes. Still, demand for all dragon materials is strong with exceptionally high prices paid, and many are the greedy souls that lose their lives each year at the fangs and claws of these magnificent creatures.]], [[일반인들은 용을 지적인 종족으로 분류한다는 생각을 비웃을 수도 있지만, 경험이 풍부한 용인들은 그렇지 않다는 것을 알고 있다. 용은 믿을 수 없을 정도로 장수하는 생물이며, 일부는 수천 년 동안 살아가는 것으로 알려져 있다. 비록 용은 유년기에 짐승같은 삶을 살지만, 수세기를 거쳐 성숙함에 따라 그들은 더욱 예리하고 발전된 지성을 얻게 된다. 용들 중 가장 오래된 존재들은 마즈'에이얄에서 가장 교활하고 지능높은 존재로 여겨지며 텔레파시적 의사소통과 진보된 정신적 능력을 가지고, 용인들은 그들을 가장 신성한 존재로 여긴다.
+
+용은 다양한 모양과 크기를 가졌는데, 보통 1.5m의 해츨링부터 6m의 거대한 성체 드레이크까지 자라며, 가장 큰 용들 중 일부는 12m의 길이로 자란다. 이들은 일반적으로 날개 달린 생물로, 커다란 주둥이를 가졌고 앞다리와 뒷다리에 날카로운 발톱이 달려 있다. 그것들은 보통 에이얄의 주요 원소들 중 하나에 적응하는 것을 나타내는 윤기나는 비늘색으로 종종 알려져 있다. 이러한 적응은 다른 어떤 종족에서도 보이지 않으며, 일부 철학자들은 용이 다른 모든 종족보다 앞서 있다고 믿고 있는데, 그들은 세계가 아직 어릴때 자연의 원소들중 일부가 원초적인 용으로 변했다고 주장한다. 그러나 이 이론은 순전히 너무 오랫동안 그 생물들을 연구해 온 특정 용인들의 광신적인 망상에서 비롯된 것일 수도 있다.
+
+용들의 인간과 하플링 정착지에 대한 공격은 상당히 드물지만, 그런일이 발생했을 때, 용들은 정말로 파괴적일 수 있다. 보통은 가축을 먹이로 삼지만, 이따금씩 막 성숙한 드레이크들은 이런 공격에서 둥지에 비축할만한 귀금속과 보석들을 약탈해간다. 용 둥지에관해 가장 거대한 용들이 말 그대로 황금의 산을 지키고 있다는 전설이 내려져오지만 현대에는 정말로 크기가 큰 용둥지는 드물다. 난쟁이들은 매혹의 시대에 거의 멸종될 정도로 용을 사냥했기 때문이다, 요즘 대부분의 용들은 단지 작은 보물들만 그들의 둥지에 간직하고 있다.
+
+용들은 두꺼운 비늘과 원소들이 스며든 뼈 때문에 정기적으로 사냥을 당한다. 용 가죽은 적절히 처리되었을때 가볍고 질긴데다가 죽은 용의 힘을 어느 정도 가지고 있기도 하기 때문에 장인들 사이에서 귀중하게 여겨지고 있다. 용골은 자연적으로 원소의 힘을 잘 받아들여  지팡이 제작자들이 매우 선호하고 있으며, 때때로 가장 섬세하지만 탄력 있는 활과 화살을 만들기 위해 활 제작자들에 의해 사용되기도 한다. 그러나 많은 용인들은 그들의 피부와 뼈를 위해 용을 사냥하는 것에 대해 크게 반대하며, 자연적인 원인으로 죽은 용에서 채취한 "자연적으로 수확된"  재료에 대한 시장이 증가하고 있다. 그럼에도 불구하고 모든 용에게서 나온 재료들은 유달리 높은 값을 받고 있기 때문에 많은 탐욕스러운 영혼들이 이 장엄한 생명체의 송곳니와 발톱에 매해 목숨을 잃는다]], "_t")
 t("vault", "보물창고", "newLore category")
 t("magic", "마법", "newLore category")
 t("On Adventuring", "모험 도중", "_t")
@@ -18847,7 +19313,7 @@ t("#Source# knocks back #Target#!", "#Source2# #Target3# 뒤로 밀쳤다!", "lo
 t("#Target# blocks #Source#!", "#Target2# #Source3# 막아냈다!", "logCombat")
 t("Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "대상에게 돌진하면서, 대상은 물론 돌진하는 경로 근처에 있는 적들에게까지 %d%% 에서 %d%% 피해를 줍니다. (증오심 0 일 때 최소 피해, 증오심 100 이상일 때 최대 피해) 공격 당한 %s 적들은 경로에서 밀려납니다. 최대 %d 번 까지 공격할 수 있습니다. 한 대상을 여러 번 공격할 수도 있습니다.", "tformat")
 t("Cleave", "두개골 쪼개기", "talent name")
-t("#Source# cleaves through #Target#!", "#Source2# #Target#의 두개골을 쪼갠다!", "logCombat")
+t("#Source# cleaves through #Target#!", "#Source2# #Target#의 두개골을 쪼갰다!", "logCombat")
 t([[While active, every swing of your weapon strikes strikes other adjacent enemies for %d%% (at 0 hate) to %d%% (at 100 hate) physical damage. The recklessness of your attacks brings you bad luck (luck -3).
 		Cleave, Repel and Surge cannot be active simultaneously, and activating one will place the others in cooldown.
 		Cleave will deal 25%% additional damage while using a two-handed weapon.
@@ -21364,7 +21830,7 @@ t([[Unleash your subconscious on the world around you.  While active, you fire u
 		This effect is a psionic channel, increasing the range of Mind Sear, Psychic Lobotomy, and Sunder Mind to 10 but will break if you move.
 		The damage will scale with your Mindpower.]], [[시전자를 둘러싼 현실 세계에 잠재의식을 해방합니다. 활성화시, 최대 %d 개의 정신력으로 이루어진 화살을 매 턴 발사하여 %0.2f 정신 피해를 줍니다. 화살은 적 1 체당 1 개로 제한됩니다.  화살 1 개 당 반작용이 5 소모 됩니다.
 		최대 반작용 이상의 반작용을 얻으면, 화살이 추가로 발사됩니다 (%d 의 초과 반작용 수치마다 하나의 대상에게 발사하는 화살이 1개 증가 합니다), 초과 피드백으로 얻는 화살의 수는 1 턴에 %d 개를 초과할 수 없습니다. 
-		이 기술은 초능력 집중으로 판정되어, 정신 파괴, 초능력 뇌 절제, 정신 분할의 사거리를 10 칸으로 늘리지만 시전자가 이동할 시, 초능력 집중 효과는 즉시 종료됩니다.
+		이 기술은 초능력 집중으로 판정되어, 정신 파괴, 뇌엽 절제, 정신 분열의 사거리를 10 칸으로 늘리지만 시전자가 이동할 시, 초능력 집중 효과는 즉시 종료됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Feedback Loop", "반작용 순환", "talent name")
 t("You have no feedback to start a feedback loop!", "당신은 반작용 순환을 시작하는 데 필요한 반작용이 부족하다!", "logPlayer")
@@ -21991,16 +22457,16 @@ t("Mind Sear", "정신 파괴", "talent name")
 t([[Sends a telepathic attack, trying to destroy the brains of any target in the beam, doing %0.2f mind damage.
 		The damage will increase with your Mindpower.]], [[텔레파시 공격을 보내, 광선에 영향을 받은 모든 적의 두뇌를 파괴합니다. %0.2f 정신 피해를 가합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
-t("Psychic Lobotomy", "초능력 뇌 절제", "talent name")
-t("%s resists the lobotomy!", "%s 는 절개에 저항했다!", "logSeen", nil, {"는"})
+t("Psychic Lobotomy", "뇌엽 절제", "talent name")
+t("%s resists the lobotomy!", "%s 절제에 저항했다!", "logSeen", nil, {"는"})
 t([[Inflicts %0.2f mind damage and cripples the target's higher mental functions, reducing cunning by %d and confusing (%d%% power) the target for %d turns.
-		The damage, cunning penalty, and confusion power will scale with your Mindpower.]], [[%0.2f 정신 피해를 입히고 대상의 고등 두뇌 활동을 막습니다. 교활을 %d 감소시키고 %d%% 위력의 혼란을 대상에게 %d 턴 동안 겁니다.
+		The damage, cunning penalty, and confusion power will scale with your Mindpower.]], [[%0.2f 정신 피해를 입히고 대상의 고등 두뇌 활동을 막습니다. 교활을 %d 감소시키고 대상에게 %d%% 위력의 혼란을  %d 턴 동안 일으킵니다.
 		피해량, 교활 감소량, 혼란의 위력은 정신력에 비례하여 증가합니다.]], "tformat")
-t("Synaptic Static", "시냅스 흐름 정체", "talent name")
+t("Synaptic Static", "시냅스 정체", "talent name")
 t([[Sends out a blast of telepathic static in a %d radius, inflicting %0.2f mind damage.  This attack can brainlock affected targets.
 		The damage will increase with your Mindpower.]], [[반경 %d 칸 내에 시냅스 정체를 일으키는 텔레파시 폭발을 내보내 %0.2f 정신 피해를 가합니다. 이 공격은 대상에게 사고정지를 유발할 수 있습니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
-t("Sunder Mind", "정신 분할", "talent name")
+t("Sunder Mind", "정신 분열", "talent name")
 t([[Cripples the target's mind, inflicting %0.2f mind damage and reducing its Mental Save by %d for 4 turns.  This attack always hits, and the mental save reduction stacks.
 		Against brainlocked targets, the damage and Mental Save reduction will be doubled.
 		The damage and save reduction will scale with your Mindpower.]], [[대상의 정신을 무력화합니다. %0.2f 정신 피해를 가하고 정신 내성을 4 턴 동안 %d 낮춥니다. 이 공격은 항상 명중하며, 정신 내성 감소는 중첩됩니다.
@@ -30116,12 +30582,12 @@ t("#Target# is suffering from insomnia.", "#Target2# 불면증으로 고생한�
 t("+Insomnia", "+불면증", "_t")
 t("#Target# is no longer suffering from insomnia.", "#Target#의 불면증이 끝났다.", "_t")
 t("-Insomnia", "-불면증", "_t")
-t("Sundered Mind", "정신 분할", "_t")
+t("Sundered Mind", "정신 분열", "_t")
 t("The target's mental faculties have been impaired, reducing its mental save by %d.", "정신 내성 -%d.", "tformat")
 t("#Target#'s mental functions have been impaired.", "#Target#의 사고 능력이 거세되었다.", "_t")
-t("+Sundered Mind", "+정신 분할", "_t")
+t("+Sundered Mind", "+정신 분열", "_t")
 t("#Target# regains its senses.", "#Target2# 제정신을 되찾았다.", "_t")
-t("-Sundered Mind", "-정신 분할", "_t")
+t("-Sundered Mind", "-정신 분열", "_t")
 t("Broken Dream", "파괴된 꿈", "_t")
 t("The target's dreams have been broken by the dreamforge, reducing its mental save by %d and reducing its chance of successfully casting a spell by %d%%.", "정신 내성 -%d / 주문 성공률 -%d%%.", "tformat")
 t("morale", "사기", "effect subtype")
@@ -36292,7 +36758,7 @@ t("1 to %d", "1 - %d", "tformat")
 t("Drop how many?", "얼마나 버리겠습니까?", "_t")
 t("You do not have any equipped items that it can be attached to.", "당신은 해당 물품을 부착할 어떤 장비도 착용하고 있지 않습니다.", "_t")
 t("Select which item to attach it to:", "장착할 물품을 선택하세요:", "_t")
-t("Really %s %s", "정말로 %s %s", "tformat")
+t("Really %s %s", "정말로 %s 하시겠습니까? ( %s )", "tformat")
 t("Tag object (tagged objects can not be destroyed or dropped)", "물건에 꼬리표 붙이기 (꼬리표가 붙은 물품은 파괴되거나 버릴 수 없습니다)", "_t")
 t("Tag:", "꼬리표:", "_t")
 t("Identify", "감정", "_t")

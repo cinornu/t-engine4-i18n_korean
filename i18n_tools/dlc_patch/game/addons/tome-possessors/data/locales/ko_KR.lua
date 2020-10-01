@@ -311,15 +311,15 @@ section "game/addons/tome-possessors/data/talents/psionic/psychic-blows.lua"
 t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
 t("Psychic Crush", "초능력 파쇄", "talent name")
-t("%s's Psychic Image", "%s의 초능력 형상", "tformat")
-t("#ROYAL_BLUE#%s's psychic imprint appears!", "#ROYAL_BLUE#%s의 초능력 형상이 나타났다!", "logSeen")
+t("%s's Psychic Image", "%s의 초능력 투영체", "tformat")
+t("#ROYAL_BLUE#%s's psychic imprint appears!", "#ROYAL_BLUE#%s의 초능력 투영체가 나타났다!", "logSeen")
 t("%s resists the psychic blow!", "%s 초능력 타격에 저항했다!", "logSeen", nil, {"는"})
 t([[Using both your mind and your arms you propel your two handed weapon to deal a huge strike doing %d%% weapon mind damage.
 		If the blow connects and the target fails a mental save there is %d%% chance that the blow was so powerful it ripped a psychic imprint off the target.
 		It will appear nearby and serve you for %d turns.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[정신과 두 팔을 사용하여 추진력을 더한 양손무기로 강력한 일격을 가해 %d%% 무기 피해를 정신 속성으로 가합니다.
-		공격이 명중하면 대상은 정신 내성 판정을 해, 실패할 경우 %d%% 확률로 적에게서 초능력 형상을 벗겨냅니다.
-		초능력 형상은 적 근처에서 생성되며, %d 턴 동안 시전자를 돕습니다.
+		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[정신을 집중하여 추진력을 더한 양손무기로 강력한 일격을 가해 %d%% 무기 피해를 정신 속성으로 가합니다.
+		공격이 명중하면 대상은 정신 내성 판정을 해, 실패할 경우 %d%% 확률로 적에게서 초능력 투영체를 벗겨냅니다.
+		초능력 투영체는 적 근처에서 생성되며, %d 턴 동안 시전자를 돕습니다.
 		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
 t("Force Shield", "힘의 보호막", "talent name")
 t([[You create a psionic shield from your weapon that prevents you from ever taking blows that deal more than %d%% of your maximum life and gives you %d%% evasion.
@@ -331,17 +331,17 @@ t("Unleashed Mind", "해방된 정신", "talent name")
 t([[You concentrate your powerful psionic powers on your weapon and briefly unleash your fury.
 		All foes in radius %d will take a melee attack dealing %d%% weapon damage as mind damage.
 		Any psionic clones in the radius will have its remaining time extended by %d turns.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[강력한 염동의 힘을 무기에 집중해, 짧은 시간동안 분노를 해방합니다.
-		반경 %d 칸 내의 모든 적은 근접 공격을 받아 %d%% 무기 피해를 정신 속성으로 받습니다.
-		범위 내의 모든 초능력 복제는 지속시간이 %d 턴 연장됩니다.
+		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[강력한 염동력을 무기에 집중해, 짧은 시간동안 분노를 해방합니다.
+		반경 %d 칸 내의 모든 적에게 근접 공격을 가해, %d%% 무기 피해를 정신 속성으로 입힙니다.
+		범위 내의 모든 초능력 투영체는 지속시간이 %d 턴 연장됩니다.
 		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
 t("Seismic Mind", "압도적인 정신", "talent name")
 t([[You shatter your weapon in the ground, projecting a psionic shockwave in a cone of radius %d.
 		Any foes in the area will take %d%% weapon damage as mind damage.
 		Any psionic clones hit will instantly shatter, exploding for %0.2f physical damage in radius 1.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[무기를 지면에 던저, 무기를 산산 조각내고, 반경 %d 칸의 원뿔 범위에 초능력 충격파를 풀어놓습니다.
+		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[무기를 지면에 던저, 무기를 산산조각내고, 반경 %d 칸의 원뿔 범위에 초능력 충격파를 풀어놓습니다.
 		범위 내의 모든 적은 %d%% 무기 피해를 정신 피해로 받습니다.
-		충격파에 휘말린 초능력 복제는 순간, 산산 조각나, 반경 1 칸 내에 %0.2f 물리 피해를 가합니다.
+		충격파에 휘말린 초능력 투영체는 산산 조각나 반경 1 칸 내에 %0.2f 물리 피해를 가합니다.
 		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
 
 
