@@ -4975,9 +4975,6 @@ t("Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with 
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("arcane amplification drone", "비전 증폭 드론", "_t")
 t("Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "드론에게 가해진 주문 피해가 반경 4 칸 범위에 160% 비전 피해를 가하게됩니다.", "_t")
-t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
-		When you cast a spell that damages the drone it will ripple the damage as 160%% arcane damage of the initial hit in radius 4.]], [[3 턴 동안 유지되는 비전 증폭 드론을 대상 위치에 생성합니다.
-		드론에 주문 피해를 가할 시, 드론에게 가해진 주문 피해의 160%% 비전 피해를 입히는 반경 4 칸의 폭발을 일으킵니다.]], "tformat")
 t("Unlocked the Technomancer evolution", "마도공학자 직업 진화 해금", "_t")
 t("Occult Technomancy", "비술 마도공학", "_t")
 t("These talents focus on arcane and temporal damage, using a super-spinned steamsaw to rip holes in reality.", "이 기술들은 비전과 시간 속성에 집중합니다. 초고속으로 회전하는 증기톱을 이용해 현실 구조를 찢어 구멍을 냅니다.", "_t")
