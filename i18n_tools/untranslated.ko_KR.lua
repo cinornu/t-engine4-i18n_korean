@@ -1390,33 +1390,7 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/kroshkkur.lua"
--- 42 entries
-t("the history of Kroshkkur (1)", "the history of Kroshkkur (1)", "_t")
-t([[The story of Kroshkkur is not a peaceful one. Those of us who gathered here know that we have no place anywhere else. The surface would never accept us, for our forms are terrible for them to behold. Even in the depths of Eyal, we have had to fight for our place in the world. These endless tunnels and the creatures within them have sought to destroy us. They hunger for our very souls.
-
-When Kroshkkur was first discovered, it was infested with horrors. We cut them down and attempted to restore the strange arcane machines we found here. Alas, we found it to be damaged and could only partially restore it. But, even that small amount of power it held was enough to give us safety. Many followed us after that, outcasts who were looking for a haven in a hostile underground. Intelligent beings who do not belong anywhere else, seekers of forbidden knowledge and those who have seen too much for mortal eyes to bear are just a few who have made their homes here.
-
-Since then, we have studied. We have divined this world's secrets and delved into the dark places which surface dwellers dare not look, out of fear of what might be looking back. We have no such fear, for we are the things looking back. In these places, we have found out many truths and discovered magic which will change the course of Eyal's history.
-
-We will bide our time down here in the dark and turn this place into a beacon of knowledge. If this world will not give us a place in it, then we shall simply take one for ourselves. We shall make ourselves known to the surface when the time is right, and show them that we aren't just scattered, mindless beings for them to sweep aside.]], [[The story of Kroshkkur is not a peaceful one. Those of us who gathered here know that we have no place anywhere else. The surface would never accept us, for our forms are terrible for them to behold. Even in the depths of Eyal, we have had to fight for our place in the world. These endless tunnels and the creatures within them have sought to destroy us. They hunger for our very souls.
-
-When Kroshkkur was first discovered, it was infested with horrors. We cut them down and attempted to restore the strange arcane machines we found here. Alas, we found it to be damaged and could only partially restore it. But, even that small amount of power it held was enough to give us safety. Many followed us after that, outcasts who were looking for a haven in a hostile underground. Intelligent beings who do not belong anywhere else, seekers of forbidden knowledge and those who have seen too much for mortal eyes to bear are just a few who have made their homes here.
-
-Since then, we have studied. We have divined this world's secrets and delved into the dark places which surface dwellers dare not look, out of fear of what might be looking back. We have no such fear, for we are the things looking back. In these places, we have found out many truths and discovered magic which will change the course of Eyal's history.
-
-We will bide our time down here in the dark and turn this place into a beacon of knowledge. If this world will not give us a place in it, then we shall simply take one for ourselves. We shall make ourselves known to the surface when the time is right, and show them that we aren't just scattered, mindless beings for them to sweep aside.]], "_t")
-t("the history of Kroshkkur (2)", "the history of Kroshkkur (2)", "_t")
-t([[We were few once. Just outcasts from some crevices and dark places that everyone else forgot about long ago. When we claimed this fortress, more began to come. Not horrors, not surface dwellers, but those of us caught in between the two. Some of us were born this way while others were altered by forces beyond our understanding. The only thing that is common among all of us is that we simply don't belong anywhere. With conscious minds, we can plainly understand the horrors of Eyal's depths. With twisted and corrupted bodies, no 'civilised' people would tolerate our presence among them. When we reside in Kroshkurr, however, we are craftsmen, scholars, hermits, poets and warriors.
-
-To that end, we all gather here. Are we spiteful for how this world openly rejects us? It would be a lie if we said no. To that end, we shall plunge head first into the places no one else dares look. We shall use the dark secrets of this world to carve out our own place in it. We shall create wonders while the world above us rests in fitful dreams.]], [[We were few once. Just outcasts from some crevices and dark places that everyone else forgot about long ago. When we claimed this fortress, more began to come. Not horrors, not surface dwellers, but those of us caught in between the two. Some of us were born this way while others were altered by forces beyond our understanding. The only thing that is common among all of us is that we simply don't belong anywhere. With conscious minds, we can plainly understand the horrors of Eyal's depths. With twisted and corrupted bodies, no 'civilised' people would tolerate our presence among them. When we reside in Kroshkurr, however, we are craftsmen, scholars, hermits, poets and warriors.
-
-To that end, we all gather here. Are we spiteful for how this world openly rejects us? It would be a lie if we said no. To that end, we shall plunge head first into the places no one else dares look. We shall use the dark secrets of this world to carve out our own place in it. We shall create wonders while the world above us rests in fitful dreams.]], "_t")
-t("the history of Kroshkkur (3)", "the history of Kroshkkur (3)", "_t")
-t([[Why do we struggle on? What is Kroshkkur's plan? It is simple. We will take the knowledge other races have rejected and use it to transform ourselves. No more shall we be the wretches who hide away from the light. We will become the new gods, the ones to bask in the sun's embrace, proudly standing atop of the civilisation we built. We will surely find our answer among these ancient ruins, and when we do, we shall be as far from the surface dwellers as they are from worms.
-
-It is this dream which keeps Kroshkkur alive. Even as our bodies continue to warp and decay, we hold onto the hope that we will find a way to reshape ourselves into something better. We will not need anyone's permission to exist on that day.]], [[Why do we struggle on? What is Kroshkkur's plan? It is simple. We will take the knowledge other races have rejected and use it to transform ourselves. No more shall we be the wretches who hide away from the light. We will become the new gods, the ones to bask in the sun's embrace, proudly standing atop of the civilisation we built. We will surely find our answer among these ancient ruins, and when we do, we shall be as far from the surface dwellers as they are from worms.
-
-It is this dream which keeps Kroshkkur alive. Even as our bodies continue to warp and decay, we hold onto the hope that we will find a way to reshape ourselves into something better. We will not need anyone's permission to exist on that day.]], "_t")
+-- 36 entries
 t("Researcher Dremnot's Demystification of the Gods: Prelude", "Researcher Dremnot's Demystification of the Gods: Prelude", "_t")
 t([[Gods are beings which have been frequently mentioned throughout Eyal's history. They are a foreign concept to most readers, since most Eyalites of the current age have not encountered them. The word god gives you the impression of some almighty and obscenely powerful being, which these beings most certainly are. But, there has been little scholarly work dedicated to defining what exactly a god is. Multiple cultures across Eyal's history all have varying descriptions of the gods, despite the same names frequently appearing among them. 
 
@@ -4400,15 +4374,13 @@ t("#RED# [%s]%s #ORANGE#CLEARING OLD TARGET#LAST#: [%s]%s", "#RED# [%s]%s #ORANG
 
 ------------------------------------------------
 section "game/modules/tome/class/Actor.lua"
--- 8 entries
+-- 6 entries
 t("actor", "actor", "_t")
 t(" (%d%%)", " (%d%%)", "tformat")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("You %s %s to activate %s.", "You %s %s to activate %s.", "logPlayer")
 t("%s's %s has been disrupted by #ORCHID#anti-psionic forces#LAST#!", "%s's %s has been disrupted by #ORCHID#anti-psionic forces#LAST#!", "logSeen")
 t("%s %s: ", "%s %s: ", "tformat")
-t("- Not other class or race evolution", "- Not other class or race evolution", "_t")
-t("%s resists the dispelling of %s!", "%s resists the dispelling of %s!", "logSeen")
 
 
 ------------------------------------------------
