@@ -1390,37 +1390,7 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/kroshkkur.lua"
--- 36 entries
-t("Researcher Dremnot's Demystification of the Gods: Prelude", "Researcher Dremnot's Demystification of the Gods: Prelude", "_t")
-t([[Gods are beings which have been frequently mentioned throughout Eyal's history. They are a foreign concept to most readers, since most Eyalites of the current age have not encountered them. The word god gives you the impression of some almighty and obscenely powerful being, which these beings most certainly are. But, there has been little scholarly work dedicated to defining what exactly a god is. Multiple cultures across Eyal's history all have varying descriptions of the gods, despite the same names frequently appearing among them. 
-
-As a scholar of Kroshkkur, I spent much time wandering the surface of Eyal and learning from the surface races regarding the gods, including many famous places of learning such as Anglowen. It was a hard sell, but I even managed to [i]convince[/i] an imp to retrieve certain documentation on Urk'Rok as well. This series of documents has been written to catalogue information regarding the gods and to develop as accurate a picture of them as myth and history will allow and this preface is to give a general impression of what exactly a god is supposed to be.
-
-There have been many powerful beings who have walked across the surface of Eyal. Being a god isn't simply a question of power, however, despite the enormous strength of these beings. What separates gods from other beings is their ability to reverse entropy. For future reference, we shall refer to this power as antropy. This power also allows them to reshape reality to their own whims and desires. Some gods made their own races, others merely altered beings living on Eyal, playing with their evolution and changing them in unfathomable ways. While some might attribute this behaviour to some greater purpose, there is more than enough evidence to suggest that the gods are fallible and motivated by things just as petty as we mere mortals. In my scholarly opinion, we were simply created for their amusement.
-
-While this might drive some to despair and make them believe that mortal will is pointless, it is noted in ancient myth that the gods were slaughtered by the Sher'tul and driven away from our world. Whether or not their absence can be considered a good thing, it cannot be said. There are some surviving stories of the gods' blatant cruelty and complete disregard for the races they made as they squabbled among each other, wrecking great scars across the surface of this world. It is also noteworthy that the gods, despite their impressive power, were not always intelligent beings. Some were believed to be barely sapient, or even sentient. One theory about this is that the gods were primitive beings living on Eyal's surface and just so happened to be infused with antropic energies, artifically elevating them above other primitive lifeforms.
-
-With these things established, we will discuss the gods of Eyal and what influence their actions had, and continue to have, on our world. While I discovered many gods in my studies, it is entirely possible that Eyal had even more gods than what is documented in my findings, but their existence cannot be substantiated by existing scholarly texts.]], [[Gods are beings which have been frequently mentioned throughout Eyal's history. They are a foreign concept to most readers, since most Eyalites of the current age have not encountered them. The word god gives you the impression of some almighty and obscenely powerful being, which these beings most certainly are. But, there has been little scholarly work dedicated to defining what exactly a god is. Multiple cultures across Eyal's history all have varying descriptions of the gods, despite the same names frequently appearing among them. 
-
-As a scholar of Kroshkkur, I spent much time wandering the surface of Eyal and learning from the surface races regarding the gods, including many famous places of learning such as Anglowen. It was a hard sell, but I even managed to [i]convince[/i] an imp to retrieve certain documentation on Urk'Rok as well. This series of documents has been written to catalogue information regarding the gods and to develop as accurate a picture of them as myth and history will allow and this preface is to give a general impression of what exactly a god is supposed to be.
-
-There have been many powerful beings who have walked across the surface of Eyal. Being a god isn't simply a question of power, however, despite the enormous strength of these beings. What separates gods from other beings is their ability to reverse entropy. For future reference, we shall refer to this power as antropy. This power also allows them to reshape reality to their own whims and desires. Some gods made their own races, others merely altered beings living on Eyal, playing with their evolution and changing them in unfathomable ways. While some might attribute this behaviour to some greater purpose, there is more than enough evidence to suggest that the gods are fallible and motivated by things just as petty as we mere mortals. In my scholarly opinion, we were simply created for their amusement.
-
-While this might drive some to despair and make them believe that mortal will is pointless, it is noted in ancient myth that the gods were slaughtered by the Sher'tul and driven away from our world. Whether or not their absence can be considered a good thing, it cannot be said. There are some surviving stories of the gods' blatant cruelty and complete disregard for the races they made as they squabbled among each other, wrecking great scars across the surface of this world. It is also noteworthy that the gods, despite their impressive power, were not always intelligent beings. Some were believed to be barely sapient, or even sentient. One theory about this is that the gods were primitive beings living on Eyal's surface and just so happened to be infused with antropic energies, artifically elevating them above other primitive lifeforms.
-
-With these things established, we will discuss the gods of Eyal and what influence their actions had, and continue to have, on our world. While I discovered many gods in my studies, it is entirely possible that Eyal had even more gods than what is documented in my findings, but their existence cannot be substantiated by existing scholarly texts.]], "_t")
-t("Researcher Dremnot's Demystification of the Gods: Chapter 1 - Amakthel", "Researcher Dremnot's Demystification of the Gods: Chapter 1 - Amakthel", "_t")
-t([[Even among the gods, there was one that towered above them all. Its name was Amakthel, mightiest of Eyal's gods. It was said that it was the creator of the Sher'Tul, that ancient and mysterious race whose true nature is still unknown to this day. More than any other god, Amakthel appears as a creation figure in ancient myths, more readily interfering with mortal beings than any other god. Nearly every race has some myth of Amakthel coming into contact with them, some describing it as a glowing, divine being while others declared it as a bringer of ill omens. Its touch seemed to curse as readily as it blessed according to these different sources, altering beings in ways that only made sense to Amakthel itself. As such, it is difficult to get a clear picture of Amakthel's true personality and disposition towards mortals.
-
-How exactly Amakthel's downfall came is not certain. Some myths say that the Sher'Thul were commanded by their creator to kill the gods, while others suggest that the Sher'Tul openly rebelled against them. ]], [[Even among the gods, there was one that towered above them all. Its name was Amakthel, mightiest of Eyal's gods. It was said that it was the creator of the Sher'Tul, that ancient and mysterious race whose true nature is still unknown to this day. More than any other god, Amakthel appears as a creation figure in ancient myths, more readily interfering with mortal beings than any other god. Nearly every race has some myth of Amakthel coming into contact with them, some describing it as a glowing, divine being while others declared it as a bringer of ill omens. Its touch seemed to curse as readily as it blessed according to these different sources, altering beings in ways that only made sense to Amakthel itself. As such, it is difficult to get a clear picture of Amakthel's true personality and disposition towards mortals.
-
-How exactly Amakthel's downfall came is not certain. Some myths say that the Sher'Thul were commanded by their creator to kill the gods, while others suggest that the Sher'Tul openly rebelled against them. ]], "_t")
-t("Researcher Dremnot's Demystification of the Gods: Chapter 2 - Ralkur", "Researcher Dremnot's Demystification of the Gods: Chapter 2 - Ralkur", "_t")
-t([[Ralkur, the god of illusions and deceit, was perhaps the most petty god of Eyal. The myths of Ralkur are often tragedies, describing the downfall of its titular character after trusting a mysterious stranger. Due to the consistency of these stories, it can be concluded that Ralkur did not care for meddling with things on a large scale, but preferred a much smaller one. It delighted in understanding what drove mortal races and how it could bring a single person to ruin with nothing but words and clever lies. It always revealed itself at the end of the tale, its hapless victim realising that they had been fooled all along. In this sense, Ralkur was cruel in a way that was distinct from the other gods.
-
-When the god slayer Branzir came for it, Ralkur came to know fear and fled. The chase between god and god slayer was the stuff of legend, and many myths tell of the great trials which Branzir overcame in his pursuit of Ralkur. In the last moments of the chase, Ralkur was spared and told to leave Eyal by Branzir. However, Ralkur later returned and struck a terrible blow against Branzir's homestead, slaying his family and his servants. The already driven Branzir became obsessed with Ralkur and chased it across the entirety of Eyal. Having nowhere else to run after stumbling into a dungeon, Ralkur chose to go down into Eyal's depths, creating layer upon layer of illusions, creatures and distractions to prevent the relentless Branzir from catching it. Since no one can enter this dungeon without leaving, it can only be guessed at how deep the dungeon has become. Some say it is even infinite and that the chase between hunter and hunted continues to this day.]], [[Ralkur, the god of illusions and deceit, was perhaps the most petty god of Eyal. The myths of Ralkur are often tragedies, describing the downfall of its titular character after trusting a mysterious stranger. Due to the consistency of these stories, it can be concluded that Ralkur did not care for meddling with things on a large scale, but preferred a much smaller one. It delighted in understanding what drove mortal races and how it could bring a single person to ruin with nothing but words and clever lies. It always revealed itself at the end of the tale, its hapless victim realising that they had been fooled all along. In this sense, Ralkur was cruel in a way that was distinct from the other gods.
-
-When the god slayer Branzir came for it, Ralkur came to know fear and fled. The chase between god and god slayer was the stuff of legend, and many myths tell of the great trials which Branzir overcame in his pursuit of Ralkur. In the last moments of the chase, Ralkur was spared and told to leave Eyal by Branzir. However, Ralkur later returned and struck a terrible blow against Branzir's homestead, slaying his family and his servants. The already driven Branzir became obsessed with Ralkur and chased it across the entirety of Eyal. Having nowhere else to run after stumbling into a dungeon, Ralkur chose to go down into Eyal's depths, creating layer upon layer of illusions, creatures and distractions to prevent the relentless Branzir from catching it. Since no one can enter this dungeon without leaving, it can only be guessed at how deep the dungeon has become. Some say it is even infinite and that the chase between hunter and hunted continues to this day.]], "_t")
+-- 30 entries
 t("Researcher Dremnot's Demystification of the Gods: Chapter 5 - Gerlyk", "Researcher Dremnot's Demystification of the Gods: Chapter 5 - Gerlyk", "_t")
 t([[Gerlyk, according to some ancient myths, is the creator of humanity and interacted the most with them during those times. Its contact with humanity seems dubious, however, when other sources are consulted. It interacted with mortals on its own whims and did not seem to particularly favour any species according to these stories. It seemed to be a more curious god than others, as a handful of myths mention it making contact with mortals so it could learn more about how they lived. The myths surrounding Gerlyk are noticeably less numerous than those of other gods and there appears to be large time gaps between them, suggesting that Gerlyk simply did not interact with Eyalites for the most part. For this reason, it is seen to be a god who observed, but didn't interfere.
 
@@ -3894,6 +3864,14 @@ t("", "", "_t")
 section "game/dlcs/tome-orcs/data/talents/celestial/celestial-empyreal.lua"
 -- 1 entries
 t("", "", "_t")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/talents/uber/mag.lua"
+-- 1 entries
+t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
+		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], [[You create an Arcane Amplification Drone at the selected location for 3 turns.
+		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], "tformat")
 
 
 ------------------------------------------------
@@ -10516,6 +10494,14 @@ t("%d%% %s", "%d%% %s", "tformat")
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/uber/cun.lua"
+-- 1 entries
+t([[You are adept at many different skills, granting you +1.5 to all known talent levels.
+		This works on already known talents and those that you will learn afterwards.]], [[You are adept at many different skills, granting you +1.5 to all known talent levels.
+		This works on already known talents and those that you will learn afterwards.]], "tformat")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/uber/mag.lua"
 -- 1 entries
 t([[%s
@@ -11215,7 +11201,7 @@ section "game/modules/tome/dialogs/LevelupDialog.lua"
 -- 4 entries
 t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "log")
 t("<Press 'x' to swap to simple display>", "<Press 'x' to swap to simple display>", "_t")
-t(" (%+d bonus level)", " (%+d bonus level)", "tformat")
+t(" (%+0.1f bonus level)", " (%+0.1f bonus level)", "tformat")
 t("<Press 'x' to swap to advanced display>", "<Press 'x' to swap to advanced display>", "_t")
 
 
