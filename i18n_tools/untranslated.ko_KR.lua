@@ -10516,6 +10516,14 @@ t("%d%% %s", "%d%% %s", "tformat")
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/uber/cun.lua"
+-- 1 entries
+t([[You are adept at many different skills, granting you +1.5 to all known talent levels.
+		This works on already known talents and those that you will learn afterwards.]], [[You are adept at many different skills, granting you +1.5 to all known talent levels.
+		This works on already known talents and those that you will learn afterwards.]], "tformat")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/uber/mag.lua"
 -- 1 entries
 t([[%s
@@ -11215,7 +11223,7 @@ section "game/modules/tome/dialogs/LevelupDialog.lua"
 -- 4 entries
 t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "log")
 t("<Press 'x' to swap to simple display>", "<Press 'x' to swap to simple display>", "_t")
-t(" (%+d bonus level)", " (%+d bonus level)", "tformat")
+t(" (%+0.1f bonus level)", " (%+0.1f bonus level)", "tformat")
 t("<Press 'x' to swap to advanced display>", "<Press 'x' to swap to advanced display>", "_t")
 
 

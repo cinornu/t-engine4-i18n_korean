@@ -26029,9 +26029,6 @@ t([[Gain 5 generic talent points and learn a new talent category from one of the
 		- 천공 / 성가
 		- 시공 제어 / 시공 제어]], "tformat")
 t("Adept", "뛰어난 재능", "talent name")
-t([[You are adept at many different skills, granting you +1.5 to all talent levels.
-		This works on already known talents and those that you will learn afterwards.]], [[무수히 많은 기술에 정통했습니다. 모든 기술에 +1.5 레벨을 추가합니다.
-		이 효과는 이미 배운 기술과, 앞으로 배우는 기술에 효과를 미칩니다.]], "tformat")
 t("Tricks of the Trade", "뒷세계의 거래", "talent name")
 t("Have sided with the Assassin Lord", "암살단 단장 편에 설 것", "_t")
 t([[You have friends in low places and have learned some underhanded tricks.
