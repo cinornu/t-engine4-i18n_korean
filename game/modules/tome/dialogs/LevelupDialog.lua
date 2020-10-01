@@ -998,7 +998,7 @@ function _M:getTalentDesc(item)
 				-- list[i] = d:tokenize(tokenize_number.decimal)
 			end			
 			text:add({"font", "bold"}, _t"Current talent level: "..traw)
-			if lvl_alt ~= 0 then text:add((" (%+d bonus level)"):tformat(lvl_alt)) end
+			if lvl_alt ~= 0 then text:add((" (%+0.1f bonus level)"):tformat(lvl_alt)) end
 			text:add({"font", "normal"}, true)
 			text:merge(tstring:diffMulti(list, function(diffs, res)
 				for i, d in ipairs(diffs) do
@@ -1028,7 +1028,7 @@ function _M:getTalentDesc(item)
 				local req = self.actor:getTalentReqDesc(item.talent, 1):toTString():tokenize(" ()[]")
 				text:add{"color","WHITE"}
 				text:add({"font", "bold"}, _t"First talent level: ", tostring(traw+1))
-				if lvl_alt ~= 0 then text:add((" (%+d bonus level)"):tformat(lvl_alt)) end
+				if lvl_alt ~= 0 then text:add((" (%+0.1f bonus level)"):tformat(lvl_alt)) end
 				text:add({"font", "normal"}, true)
 				text:merge(req)
 				text:merge(self.actor:getTalentFullDescription(t, 1000):diffWith(self.actor:getTalentFullDescription(t, 1), diff_color))
@@ -1037,14 +1037,14 @@ function _M:getTalentDesc(item)
 				local req2 = self.actor:getTalentReqDesc(item.talent, 1):toTString():tokenize(" ()[]")
 				text:add{"color","WHITE"}
 				text:add({"font", "bold"}, traw == 0 and _t"Next talent level" or _t"Current talent level: ", tostring(traw), " [-> ", tostring(traw + 1), "]")
-				if lvl_alt ~= 0 then text:add((" (%+d bonus level)"):tformat(lvl_alt)) end
+				if lvl_alt ~= 0 then text:add((" (%+0.1f bonus level)"):tformat(lvl_alt)) end
 				text:add({"font", "normal"}, true)
 				text:merge(req2:diffWith(req, diff_full))
 				text:merge(self.actor:getTalentFullDescription(t, 1):diffWith(self.actor:getTalentFullDescription(t), diff_full))
 			else
 				local req = self.actor:getTalentReqDesc(item.talent):toTString():tokenize(" ()[]")
 				text:add({"font", "bold"}, _t"Current talent level: "..traw)
-				if lvl_alt ~= 0 then text:add((" (%+d bonus level)"):tformat(lvl_alt)) end
+				if lvl_alt ~= 0 then text:add((" (%+0.1f bonus level)"):tformat(lvl_alt)) end
 				text:add({"font", "normal"}, true)
 				text:merge(req)
 				text:merge(self.actor:getTalentFullDescription(t, 1000):diffWith(self.actor:getTalentFullDescription(t), diff_color))

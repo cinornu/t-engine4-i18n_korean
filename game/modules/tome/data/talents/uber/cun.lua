@@ -471,7 +471,7 @@ uberTalent{
 	mode = "passive",
 	cant_steal = true,
 	info = function(self, t)
-		return ([[You are adept at many different skills, granting you +1.5 to all talent levels.
+		return ([[You are adept at many different skills, granting you +1.5 to all known talent levels.
 		This works on already known talents and those that you will learn afterwards.]]):tformat()
 	end,
 	passives = function(self, t, p)
