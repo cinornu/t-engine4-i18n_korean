@@ -4958,7 +4958,7 @@ t("Rank: %s", "Rank: %s", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/uiset/Minimalist.lua"
--- 69 entries
+-- 68 entries
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
@@ -4969,7 +4969,6 @@ t("Minimap", "Minimap", "_t")
 t("Current Effects", "Current Effects", "_t")
 t("Party Members", "Party Members", "_t")
 t("Online Chat Log", "Online Chat Log", "_t")
-t("Hotkeys", "Hotkeys", "_t")
 t("Game Actions", "Game Actions", "_t")
 t("#CRIMSON#Interface locked, mouse enabled on the map", "#CRIMSON#Interface locked, mouse enabled on the map", "say")
 t("#CRIMSON#Interface unlocked, mouse disabled on the map", "#CRIMSON#Interface unlocked, mouse disabled on the map", "say")
