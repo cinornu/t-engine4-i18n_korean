@@ -1738,6 +1738,32 @@ t("Forbidden Cults", "금지된 교단", "newLore category")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/kroshkkur.lua"
 
+t("the history of Kroshkkur (1)", "크로슈쿠르의 역사 (1)", "_t")
+t([[The story of Kroshkkur is not a peaceful one. Those of us who gathered here know that we have no place anywhere else. The surface would never accept us, for our forms are terrible for them to behold. Even in the depths of Eyal, we have had to fight for our place in the world. These endless tunnels and the creatures within them have sought to destroy us. They hunger for our very souls.
+
+When Kroshkkur was first discovered, it was infested with horrors. We cut them down and attempted to restore the strange arcane machines we found here. Alas, we found it to be damaged and could only partially restore it. But, even that small amount of power it held was enough to give us safety. Many followed us after that, outcasts who were looking for a haven in a hostile underground. Intelligent beings who do not belong anywhere else, seekers of forbidden knowledge and those who have seen too much for mortal eyes to bear are just a few who have made their homes here.
+
+Since then, we have studied. We have divined this world's secrets and delved into the dark places which surface dwellers dare not look, out of fear of what might be looking back. We have no such fear, for we are the things looking back. In these places, we have found out many truths and discovered magic which will change the course of Eyal's history.
+
+We will bide our time down here in the dark and turn this place into a beacon of knowledge. If this world will not give us a place in it, then we shall simply take one for ourselves. We shall make ourselves known to the surface when the time is right, and show them that we aren't just scattered, mindless beings for them to sweep aside.]], [[크로슈쿠르의 역사는 평화로운편은 아니다. 이곳에 모인 우리는 다른 숨을 곳은 없다는 것을 알고 있다. 지상은 결코 우리를 받아들이지 않을 것이다. 우리의 모습이 그들이 보기에 끔찍하기 때문이다. 에이얄의 깊은 곳에서도 우리는 이 세상에서 우리의 안식처를 위해 싸워야 했다. 이 끝없는 터널들과 그 안에 사는 생명체들은 우리를 파괴하려고 한다. 그들이 우리의 영혼을 끔찍히도 갈망하기 때문이다.
+
+처음 발견되었을 때, 크로슈쿠르는 공포체들로 들끓었다. 우리는 그것들을 쓰러트리고 여기서 발견한  불가사의한 기계들을 복원하려고 했다.아아, 우리는 기계들이 손상된 것을 발견했고 부분적으로만 복원할 수 있었다. 하지만, 그것이 가지고 있는 적은 양의 힘조차도 우리에게 안전을 주기에 충분했다. 그 후 많은 이들이 적대적인 지하에서 안식처를 찾아 우리를 따라왔지만, 오직 소수만이 이곳에 정착 할 수 있었는데 다른 곳에는 속하지 않는 지성체들, 금지된 지식을 추구하는자들, 그리고 인간의 눈으로 견디기엔 너무 많은 것을 본 자들이 여기에 집을 만든 이들이다.
+
+그때부터 우리는 탐구해왔다. 우리는 이 세상의 비밀들을 낱낱이 밝혀내고, 지표면의 거주자들이 감히 볼 수 없는 어두운 곳들을 파고들었다. 무엇을 보게 될지 모른다는 공포심은 없었다, 우리에게는 그런 두려움이 없다. 왜냐하면 우리는 과거를 돌아보는 것이기 때문이다. 이 곳들에서 우리는 많은 진실을 알아냈고, 에이얄의 역사의 흐름을 바꿀 마법을 발견했다.
+
+어둠 속에서 우리는 시간을 견뎌내어 이곳을 지식의 등불로 만들것이다. 만약 이 세상이 우리에게 자리를 내어 주지 않는다면, 우리는 그저 자신을 위해 하나를 취할 것이다. 때가 되면 우리는 우리 자신을 지면 위로 드러낼 것이고, 그들에게 우리가 그저 망가지고 지성없는, 지상인들이 쓸어버릴 끔찍한 존재가 아니라는 것을 보여줄 것이다.]], "_t")
+t("the history of Kroshkkur (2)", "크로슈쿠르의 역사 (2)", "_t")
+t([[We were few once. Just outcasts from some crevices and dark places that everyone else forgot about long ago. When we claimed this fortress, more began to come. Not horrors, not surface dwellers, but those of us caught in between the two. Some of us were born this way while others were altered by forces beyond our understanding. The only thing that is common among all of us is that we simply don't belong anywhere. With conscious minds, we can plainly understand the horrors of Eyal's depths. With twisted and corrupted bodies, no 'civilised' people would tolerate our presence among them. When we reside in Kroshkurr, however, we are craftsmen, scholars, hermits, poets and warriors.
+
+To that end, we all gather here. Are we spiteful for how this world openly rejects us? It would be a lie if we said no. To that end, we shall plunge head first into the places no one else dares look. We shall use the dark secrets of this world to carve out our own place in it. We shall create wonders while the world above us rests in fitful dreams.]], [[우리는 한 때  소수였다. 다른 이들이 오래 전에 잊어버린 어떤 틈새와 어두운 장소들에서 추방된 자들. 우리가 이 요새를 차지했을 때, 더 많은 이들이 오기 시작했다. 공포체도 아니고, 지상의 거주자도 아니었으며, 그 사이에 끼어버린 우리같은 찾아왔다. 우리들 중 몇몇은 이렇게 태어났고 다른 이들은 우리가 이해할 수 없는 힘에 의해 변이되었다. 우리 모두에게 공통적인 것은 우리가 어디에도 속하지 않는다는 것이다. 주의 깊게 들여다 본다면 우리는 에이얄 깊은 곳의 공포를 분명히 이해할 수 있다. 뒤틀리고 타락한 몸으로, 어떤 '문명화된' 사람들도 우리가 그들 사이에 있는 것을 용납하지 않을 것이다. 그러나 우리가 크로슈쿠르에 거주할 때, 우리는 장인, 학자, 은둔자, 시인, 전사들이다.
+
+그러기 위해 우리 모두가 여기에 모인것이다. 우리는 이 세상이 우리를 대놓고 거부하는 것에 앙심을 품은걸까? 아니라고 말한다면 거짓말일것이다. 그렇기 때문에 우리는 다른 누구도 감히 볼 수 없는 곳에 먼저 뛰어들 것이다. 우리는 이 세상의 어두운 비밀을 이용하여 그 속에 우리 자신의 자리를 개척할 것이다. 우리 위의 세계가 산발적인 꿈 속에 있는 동안 우리는 경이로운 것들을 창조할 것이다.]], "_t")
+t("the history of Kroshkkur (3)", "크로슈쿠르의 역사 (3)", "_t")
+t([[Why do we struggle on? What is Kroshkkur's plan? It is simple. We will take the knowledge other races have rejected and use it to transform ourselves. No more shall we be the wretches who hide away from the light. We will become the new gods, the ones to bask in the sun's embrace, proudly standing atop of the civilisation we built. We will surely find our answer among these ancient ruins, and when we do, we shall be as far from the surface dwellers as they are from worms.
+
+It is this dream which keeps Kroshkkur alive. Even as our bodies continue to warp and decay, we hold onto the hope that we will find a way to reshape ourselves into something better. We will not need anyone's permission to exist on that day.]], [[우리는 왜 계속 투쟁하는가? 크로슈쿠르의 계획은 무엇인가? 간단하다. 우리는 다른 종족들이 거부했던 지식을 받아들여 우리 자신을 변화시키는데 사용할 것이다. 더 이상 빛으로부터 몸을 숨기는 천치들이 되지는 않을 것이다. 우리는 새로운 신이, 태양의 포옹을 받으며 자랑스럽게 우리가 건설한 문명의 꼭대기에 서 있는 신들이 될 것이다. 우리는 이 고대의 폐허들 가운데서 반드시 우리의 해답을 찾을 것이며, 답을 찾아냈을때에는 지상인들과 지렁이간의 차이만큼 지상인과 우리간의 격차가 생겨날 것이다.
+
+크로슈쿠르를 살아있게 하는 것이 바로 이 꿈이다. 우리의 몸이 계속 뒤틀리고 썩어가는 동안에도, 우리는 우리 자신을 더 나은 모습으로 재구성할 수 있는 방법을 찾을 것이라는 희망을 붙잡고 있다. 그날이 오면 우리는 단지 존재하기 위해 더이상 누구의 허락도 필요로 하지 않을 것이다.]], "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 
 

@@ -14,7 +14,7 @@ t("Defeated Aeryn in the Gates of Morning without destroying the Observatory nor
 t("No Steam, No Palace. No Palace, No Palace!", "증기 없이는 궁전도 없다. 사실 그냥 궁전 없다!", "achievement name")
 t("Destroyed the Palace of Fumes without first destroying the geothermal valves in the Steam Quarry.", "증기 채굴장의 지열 밸브를 하나도 파괴하지 않은 채로 연기의 궁전을 파괴했다.", "_t")
 t("Here, I Think You Dropped This", "여기, 이거 떨어뜨린 거 같은데", "achievement name")
-t("Killed Ureslak the Eternal while wielding Ureslak's Femur.", "우레슬락의 대퇴골로 불멸의 우레슬락을 죽였다.", "_t")
+t("Killed Ureslak the Eternal while wielding Ureslak's Femur.", "우르슬락의 대퇴골로 불멸의 우르슬락을 죽였다.", "_t")
 t("Do not go gentle into that good night", "그런 좋은 밤에는 신사처럼 굴지 마", "achievement name")
 t("Trapped John.", "존을 가두었다.", "_t")
 t("I did not want that!", "일부러 한 거 아니야!", "achievement name")
@@ -1090,9 +1090,9 @@ t("reduces mental save", "정신 내성 감소", "_t")
 t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "반경 %d 칸 내의 한 대상을 %d 턴 동안 정신적으로 지배하거나, 물리적으로 기절시킵니다 (대상의 면역력에 영향을 받고, 성공률은 정신력에 비례합니다)", "tformat")
 t("#Source# psychically dominates #target# through %s %s!", "#Source1# %s %s 통해 #target3# 물리적으로 지배했다!", "logCombat", nil, {[2]="를"})
 t("crystallized drake heart", "결정화된 용족의 심장", "_t")
-t("Ureslak's Focus", "우르슬랙의 집중", "entity name")
+t("Ureslak's Focus", "우르슬락의 집중", "entity name")
 t("multi-hued", "다색", "entity subtype")
-t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슬랙의 시체에서 떨어저 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정중에 그의 심장이 강렬한 빛을 발하는 수정으로 변한 것 같습니다.", "_t")
+t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슬락의 시체에서 떨어저 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정중에 그의 심장이 강렬한 빛을 발하는 수정으로 변한 것 같습니다.", "_t")
 t("Starcaller", "별부르미", "entity name")
 t("black staff", "검은 지팡이", "_t")
 t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "스트랄라이트와 보석으로 세공된 빛의 지팡이입니다. 한 낮에서도 별빛을 비추는 것 같습니다.", "_t")
@@ -2447,7 +2447,7 @@ In a cruel twist of fate, we found what would have been paradise not long after 
 
 우린 별 수 없이 그의 의견을 따르기로 했고, 그는 주문과 물약들을 준비했다. 우리에게서 생명을 없애도, 가능한 한 우리가 살아 있었을 때의 상태를 유지하도록 하기 위해 필요한 것들이었다.  우린 여전히 강인한 육체와 온정을 품을 수 있는 마음을 갖고 있고, 심지어 체취까지도 낼 수 있다. 대부분의 리치들과는 반대로...  하지만 자연의 은총에서 완전히 단절되는 것은 똑같았고, 후세를 낳을 수 없다는 것도 마찬가지였다.  우린 불로불사의 삶을 살게 되었지만, 동시에 크림불 혈족의 마지막 세대가 된 것이다.  네크토쉬는 자신이 마지막으로 의식을 치르기로 자원했고, 다른 이에게 우리 모두가 받았던 처치를 자신에게 하는 법을 가르쳐 주었을 뿐이었다...  저주가 그의 안쪽에서 퍼질 시간이 좀 더 넉넉했기 때문인지, 아니면 그가 동생의 텐트에서 겪었던 고통 때문인지는 몰라도, 네크토쉬는 두 번 다시는 예전의 자신으로 돌아갈 수 없었다.
 
-운명의 잔혹한 장난인지, 우리가 탈출하고 얼마 지나지 않아, 우리가 살아 있을 적에는 낙원이라고 불렀을 만한 장소를 발견했다.  마나 동굴. 마법으로 가득찬 곳이지만, 우린 이제 살아 있었을 때의 1할 정도의 마력만 있어도 살 수 있었다.  그럼에도 불구하고, 우린 그곳에서 지금까지 살아왔다...  부드러운 발을 가진 자들 중 대부분은 동굴로 쳐들어와서 우릴 평범한 해충처럼 쓸어버렸을 것이다. 하지만 크룩 긍지는 예의를 갖추어 우리를 존중해 주었고, 아마 그 어떤 미노타우르스족도, 언데드들도 이런 대접을 받아 본 적은 없을 것이다 (그 둘을 합친 경우에 대해서는 넘어가자).  우린 여전히 은둔하며 살아가고 있고, 지금 우리가 처한 환경은 우리가 바깥과 교류할 이유를 더 없애버렸다...  하지만 크룩 긍지는 아마 우리의 친우라는 표현에 가장 가까운 이들일 것이고, 내 생각에는 크룩에서도 우릴 그렇게 생각할 것 같다.]], "_t")
+잔혹한 운명의 장난인지, 우리가 탈출하고 얼마 지나지 않아, 우리가 살아 있을 적에는 낙원이라고 불렀을 만한 장소를 발견했다.  마나 동굴. 마법으로 가득찬 곳이지만, 우린 이제 살아 있었을 때의 1할 정도의 마력만 있어도 살 수 있었다.  그럼에도 불구하고, 우린 그곳에서 지금까지 살아왔다...  부드러운 발을 가진 자들 중 대부분은 동굴로 쳐들어와서 우릴 평범한 해충처럼 쓸어버렸을 것이다. 하지만 크룩 긍지는 예의를 갖추어 우리를 존중해 주었고, 아마 그 어떤 미노타우르스족도, 언데드들도 이런 대접을 받아 본 적은 없을 것이다 (그 둘을 합친 경우에 대해서는 넘어가자).  우린 여전히 은둔하며 살아가고 있고, 지금 우리가 처한 환경은 우리가 바깥과 교류할 이유를 더 없애버렸다...  하지만 크룩 긍지는 아마 우리의 친우라는 표현에 가장 가까운 이들일 것이고, 내 생각에는 크룩에서도 우릴 그렇게 생각할 것 같다.]], "_t")
 t("a transcribed speech", "연설을 받아쓴 기록", "_t")
 t([[Men and women of the Krimbul Clan!  I come before you today because with my awakening shall come a greater destiny, one we shall all share.  The dawn of a new age is at hand, and it would do you no good to sleep through it.  Allow me to open your eyes, before I lead you to our ultimate destiny!
 
@@ -4228,7 +4228,7 @@ t("disarmed", "무장 해제 상태", "_t")
 t("no ammo", "탄환 부족", "_t")
 t("bad ammo", "잘못된 탄환", "_t")
 t("incompatible missile launcher", "무기 사용 불가", "_t")
-t("incompatible ammo", "탄환 사용 불가", "_t")
+t("incompatible ammo", "탄환 사용앋�가", "_t")
 t("no shooter", "사격 무기 없음", "_t")
 t("Mecharachnid Link", "강철 거미 연결", "talent name")
 t("Link to the summoner.", "소환자와의 연결.", "_t")
@@ -6678,7 +6678,7 @@ t("Kruk Pride", "크룩 긍지", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/ureslak-host/npcs.lua"
 
-t("Ureslak the Eternal", "불멸의 우레슬락", "entity name")
+t("Ureslak the Eternal", "불멸의 우르슬락", "entity name")
 t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "이 전설적인 용은 이전에 죽었지만, 죽음조차 이 용을 막지 못한 모양입니다.", "_t")
 
 
@@ -6693,7 +6693,7 @@ t("schematic: Hands of Creation", "설계도: 제작의 손", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/ureslak-host/zone.lua"
 
-t("Ureslak's Host", "우레슬락의 둥지", "_t")
+t("Ureslak's Host", "우르슬락의 둥지", "_t")
 
 
 ------------------------------------------------
@@ -6753,7 +6753,7 @@ t("Entrance to the Pride's Internment Camp", "오크 긍지 수용소의 입구"
 t("Gates of Morning (Town)", "아침의 문 (마을)", "entity name")
 t("A massive hole in the Sunwall.", "태양의 장벽의 거대한 공동입니다.", "_t")
 t("Strange mechanical mole", "이상한 굴착기", "entity name")
-t("Path to a Ureslak's Host", "우레슬락의 둥지로 가는 길", "entity name")
+t("Path to a Ureslak's Host", "우르슬락의 둥지로 가는 길", "entity name")
 t("Entrance to the Steam Quarry", "증기 채굴장의 입구", "entity name")
 t("Entrance to the Palace of Fumes", "연기의 궁전 입구", "entity name")
 t("Way into a primal forest", "태고의 숲으로 가는 길", "entity name")

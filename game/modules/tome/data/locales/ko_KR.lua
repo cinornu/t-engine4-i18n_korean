@@ -283,6 +283,7 @@ t("Is: ", "종류: ", "_t")
 t("Will Deactivate: ", "비활성화 됨: ", "_t")
 t("Description: ", "설명: ", "_t")
 t("can only learn one evolution", "오직 하나의 진화만 익힐 수 있습니다", "_t")
+t("- Not other class or race evolution", "- 이외 직업/종족 진화 상태가 아닐 것", "_t")
 t("%s will now be used as often as possible automatically.", "%s 사용 가능할 때 자동으로 사용 될 것입니다.", "tformat", nil, {"는"})
 t("Automatic use enabled", "자동사용 설정", "_t")
 t("- requires a turn to use", "- 사용하는 데 턴이 소모됩니다", "_t")
@@ -300,6 +301,7 @@ t([[%s:
 t("Automatic use", "자동 사용", "_t")
 t("%s will not be automatically used.", "%s 이제 자동으로 사용되지 않습니다.", "tformat", nil, {"는"})
 t("Automatic use disabled", "자동 사용이 비활성화 됐습니다", "_t")
+t("%s resists the dispelling of %s!", "%s %s 해제되는 것에 저항했다!", "logSeen", nil, {"은","이"})
 t("#LIGHT_RED#%s starts suffocating to death!", "#LIGHT_RED#%s 질식 중이다!", "logSeen", nil, {"는"})
 t("Physical save", "물리 내성", "_t")
 t("Mental save", "정신 내성", "_t")
@@ -346,7 +348,7 @@ section "game/modules/tome/class/EscortRewards.lua"
 
 t("%s, the lost warrior", "길 잃은 전사 %s", "_t")
 t("Please help me! I am afraid I lost myself in this place. I know there is a recall portal left around here by a friend, but I will not be able to continue the road alone. Would you help me?", "도와주세요! 이곳에서 길을 잃었습니다. 근처에 친구가 남겨준 귀환용 차원문이 있지만, 그곳까지 혼자서 가는 것은 무리입니다. 절 도와주시겠습니까?", "_t")
-t("%s, the injured seer", "부상당한 탐사자 %s", "_t")
+t("%s, the injured seer", "부상당한 예언자 %s", "_t")
 t("%s, the repented thief", "회개한 도적 %s", "_t")
 t("%s, the lone alchemist", "외로운 연금술사 %s", "_t")
 t("He looks tired and wounded.", "그는 지쳐 보이고 다친 것 같습니다.", "_t")
@@ -7829,7 +7831,7 @@ t("multi-hued drake", "다색 드레이크", "entity name")
 t("A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "성년 다색 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 t("greater multi-hued wyrm", "다색 용", "entity name")
 t("An old and powerful multi-hued drake, armed with many deadly breath weapons and nasty claws.", "늙고 강력한 다색 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
-t("Ureslak the Prismatic", "다색의 우르슬랙", "entity name")
+t("Ureslak the Prismatic", "다색의 우르슬락", "entity name")
 t("A huge multi-hued drake. It seems to shift color rapidly.", "거대한 다색 드레이크로, 비늘의 색깔이 빠르게 변화합니다.", "_t")
 t("#YELLOW#%s's skin turns %s!", "#YELLOW#%s의 비늘이 %s 변했다!", "logSeen", nil, {[2]="으로"})
 
@@ -11804,28 +11806,28 @@ t("Golden Three-Edged Sword 'The Truth'", "황금 삼중검 '진실'", "entity n
 t("three-edged sword", "삼중검", "_t")
 t("The wise ones say that truth is a three-edged sword. And sometimes, the truth hurts.", "현자들은 진실이야말로 삼중검이라고 합니다. 언제든지 진실은 고통스러운 법이기에.", "_t")
 t("9% chance to stun or confuse the target", "9% 확률로 대상에게 기절이나 혼란을 일으킵니다", "_t")
-t("Ureslak's Femur", "우르슬랙의 대퇴골", "entity name")
+t("Ureslak's Femur", "우르슬락의 대퇴골", "entity name")
 t("a strangely colored bone", "이상한 색의 뼈", "_t")
-t("A shortened femur of the mighty prismatic dragon Ureslak, this erratic club still resonates with his volatile nature.", "강력한 다색룡 우르슬랙의 대퇴골을 짧게 가공한 것으로, 이 불규칙한 형태의 뼈 몽둥이는 아직도 그의 불안정한 천성과 공명하고 있습니다.", "_t")
+t("A shortened femur of the mighty prismatic dragon Ureslak, this erratic club still resonates with his volatile nature.", "강력한 다색룡 우르슬락의 대퇴골을 짧게 가공한 것으로, 이 불규칙한 형태의 뼈 몽둥이는 아직도 그의 불안정한 천성과 공명하고 있습니다.", "_t")
 t("10% chance to shimmer to a different hue and gain powers", "10% 확률로 다른 빛을 내며 힘을 얻습니다", "_t")
-t("Ureslak's %s Femur", "우르슬랙의 %s 대퇴골", "tformat")
-t("#GOLD#Ureslak's Femur glows and shimmers!", "#GOLD#우르슬랙의 대퇴골이 밝게 빛난다!", "logSeen")
+t("Ureslak's %s Femur", "우르슬락의 %s 대퇴골", "tformat")
+t("#GOLD#Ureslak's Femur glows and shimmers!", "#GOLD#우르슬락의 대퇴골이 밝게 빛난다!", "logSeen")
 t("Flaming", "불타는", "_t")
 t("Frozen", "빙결", "_t")
 t("Crackling", "스파크를 튀기는", "_t")
 t("Venomous", "맹독의", "_t")
 t("Starry", "별빛의", "_t")
 t("Eldritch", "일그러진", "_t")
-t("What would happen if more of Ureslak's remains were reunited?", "우르슬랙의 다른 유해와 한 자리에 모이면 어떤일이 일어날까요?", "_t")
-t("Ureslak's Molted Scales", "우르슬랙의 녹아내린 비늘", "entity name")
+t("What would happen if more of Ureslak's remains were reunited?", "우르슬락의 다른 유해와 한 자리에 모이면 어떤일이 일어날까요?", "_t")
+t("Ureslak's Molted Scales", "우르슬락의 녹아내린 비늘", "entity name")
 t("scaly multi-hued cloak", "다색의 비늘로 뒤덮힌 망토", "_t")
 t("This cloak is fashioned from the scales of some large reptilian creature.  It appears to reflect every color of the rainbow.", "이 망토는 거대한 파충류의 비늘로 만들어졌습니다.  무지개 색으로 빛을 반사합니다.", "_t")
 t(", or ", ", 또는 ", "_t")
 t("energize the scales for 16 turns, increasing resistance to %s damage by 15%% just before you are damaged. (This effect lasts 5 turns and only works on one type of damage.)", "16 턴 동안 비늘에 힘을 불어넣어, 공격 받기 직전에 %s 속성 저항을 15%% 향상시킵니다. (이 효과는 5 턴 동안 지속되며, 한 종류의 속성에만 영향을 줍니다.)", "tformat")
 t("%s empowers %s %s!", "%s %s %s 활성화했다!", "logSeen", nil, {"는",[3]="을"})
-t("It would go well with another part of Ureslak.", "우르슬랙의 다른 유해와 함께라면 꽤 괜찮을 것 같습니다.", "_t")
-t("#YELLOW_GREEN#An ironic harmony surrounds Ureslak's remains as they reunite.", "#YELLOW_GREEN#우르슬랙의 유산이 한 데 모이자, 역설적인 조화가 두 유해에 감돈다.", "logSeen")
-t("#YELLOW_GREEN#Ureslak's remains seem more unsettled.", "#YELLOW_GREEN#우르슬랙의 유해가 더 불안정해 보인다.", "logSeen")
+t("It would go well with another part of Ureslak.", "우르슬락의 다른 유해와 함께라면 꽤 괜찮을 것 같습니다.", "_t")
+t("#YELLOW_GREEN#An ironic harmony surrounds Ureslak's remains as they reunite.", "#YELLOW_GREEN#우르슬락의 유산이 한 데 모이자, 역설적인 조화가 두 유해에 감돈다.", "logSeen")
+t("#YELLOW_GREEN#Ureslak's remains seem more unsettled.", "#YELLOW_GREEN#우르슬락의 유해가 더 불안정해 보인다.", "logSeen")
 t("razor sharp war axe", "예리한 전쟁도끼", "_t")
 t("Razorblade, the Cursed Waraxe", "면도날, 저주받은 전쟁도끼", "entity name")
 t([[This mighty axe can cleave through armour like the sharpest swords, yet hit with all the impact of a heavy club.
@@ -18199,7 +18201,7 @@ t([[Numbing Poison - Reduces global speed by %d%% for 5 turns.
 		방해성 독 - %d 종류의 기술을 %d 턴 동안 재사용 대기시간에 돌입시킵니다. 
 		흡혈성 독 - %d 생명력을 회복합니다.
 		휘발성 독 - 반경 %d의 적에게 %0.2f 자연 피해를 입힙니다.
-		]], "tformat")
+		]], "tformat", {1,2,3,4,5,7,6})
 t([[You strike your target with your melee or ranged weapon, doing %d%% weapon damage as nature and inflicting additional effects based on your active vile poisons:
 		
 		%s
@@ -23924,25 +23926,25 @@ section "game/modules/tome/data/talents/spells/meta.lua"
 t("Disperse Magic", "마법 분산", "talent name")
 t([[Removes up to %d magical effects (good effects from foes, and bad effects from friends) from the target.
 		At level 3, it can be targeted.
-		]], [[마법 효과를 최대 %d 개 제거합니다. (적에게서는 이로운 효과룰, 아군에게서는 부정적인 효과를 제거합니다)
+		]], [[마법 효과를 최대 %d 개 제거합니다. (적에게서는 이로운 효과를, 아군에게서는 부정적인 효과를 제거합니다)
 		기술 레벨 3 일 때, 대상을 지정하여 사용할 수 있습니다.
 		]], "tformat")
 t("Spellcraft", "주문학", "talent name")
 t([[You learn to finely craft and tune your spells, reducing all their cooldowns by %d%%.
 		In doing so you can also carve a hole in spells that affect an area to avoid damaging yourself.  The chance of success is %d%%.
-		In addition, you hone your damaging spells to spellshock their targets. Whenever you deal damage with a spell you attempt to spellshock them with %d more Spellpower than normal. Spellshocked targets suffer a temporary 20%% penalty to damage resistances.]], [[주문을 연성하고, 조율하는 방법을 터득해 모든 주문의 재사용 대기시간이 %d%% 감소합니다.
+		In addition, you hone your damaging spells to spellshock their targets. Whenever you deal damage with a spell you attempt to spellshock them with %d more Spellpower than normal. Spellshocked targets suffer a temporary 20%% penalty to damage resistances.]], [[주문을 훌륭하게 연성하고, 조율하는 방법을 터득해 모든 주문의 재사용 대기시간이 %d%% 감소합니다.
 		또한 범위 마법 사용 시, 피해를 피할 임시 방편을 마련해, %d%% 확률로 자신에게 가해지는 피해를 무시합니다.
-		추가로, 대상에게 주문 충격을 가하기 위해 공격 주문을 갈고 닦은 결과, 주문으로 공격을 가할 때 주문 충격 적용 여부 판정 시, 일반 상황보다 %d 더 높은 주문력을 갖고있는 것으로 판정합니다. 주문충격 효과를 받은 적은 모든 피해 저항에 20%% 의 불이익을 갖습니다.]], "tformat")
-t("Energy Alteration", "애너지 개조", "talent name")
+		추가로, 대상에게 주문 충격을 가하기 위해 공격 주문을 갈고 닦은 결과, 주문으로 공격을 가할 때 주문 충격 적용 여부 판정 시, 일반 상황보다 %d 더 높은 주문력을 갖고있는 것으로 판정합니다. 주문충격 효과를 받은 적은 모든 피해 저항에 20%% 의 불이익을 받습니다.]], "tformat")
+t("Energy Alteration", "에너지 변조", "talent name")
 t([[Your mastery over magic is so great that you can alter the energy of all damaging spells to suit your needs.
 		Whenever you deal damage with a spell you attune to the element of that spell for 6 turns, converting %d%% of any damage you deal into that element.
-		This effect will not override itself and will only trigger from spells directly cast by you, not from damage over time or ground damage effects.]], [[마법에 대한 높은 숙련도를 , 필요에 맞게 공격 주문의 에너지를 개조할 수 있게 되었습니다.
+		This effect will not override itself and will only trigger from spells directly cast by you, not from damage over time or ground damage effects.]], [[뛰어난 마법 숙련도를 통해, 필요에 맞게 공격 주문의 에너지를 개조할 수 있게 되었습니다.
 		주문으로 피해를 가할 때, 주문에 해당하는 속성에 6 턴 동안 적응하여, 가하는 피해량의 %d%% 를 해당 속성으로 변경합니다.
 		이 효과는 두 번 이상 적용되지 않고, 오직 시전자가 시전한 주문에만 영향을 끼칩니다. 지속 피해나 지면의 효과로 인한 피해는 적용되지 않습니다.]], "tformat")
-t("Metaflow", "초월의 흐름", "talent name")
+t("Metaflow", "흐름 초월", "talent name")
 t([[Your mastery of arcane flows allow you to reset the cooldown of up to %d of your spells (that don't have a fixed cooldown) of tier %d or less.
-		In addition for %d turns you are overflowing with energy; all known spells are considered one talent level higher when casting them.]], [[마법의 흐름에 대한 숙련으로, 최대 %d 개의 %d 등급 이하 주문의 재사용 대기 시간을 초기화 할 수 있게 되었습니다.
-		추가로 %d 턴 동안, 시전자는 막대한 애너지를 축적해, 시전자가 배운 모든 주문의 기술 레벨이 1 증가된 것 처럼 작동합니다.]], "tformat")
+		In addition for %d turns you are overflowing with energy; all known spells are considered one talent level higher when casting them.]], [[마법의 흐름에 숙달되어, 최대 %d 개의 %d 등급 이하 주문의 재사용 대기 시간을 초기화 할 수 있게 되었습니다.
+		추가로 %d 턴 동안, 시전자는 막대한 에너지를 축적해, 시전자가 배운 모든 주문의 기술 레벨이 1 증가된 것 처럼 작동합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -24146,8 +24148,8 @@ t("Harness the power of the air to fry your foes.", "공기의 힘을 제어해 
 t("air", "공기", "_t")
 t("Harness the power of the storm to incinerate your foes.", "폭풍의 힘을 제어해 상대를 소각합니다.", "_t")
 t("storm", "폭풍", "_t")
-t("Meta spells alter the working of magic itself.", "초월 주문은 마법 자체의 원리를 변경합니다.", "_t")
-t("meta", "초월", "_t")
+t("Meta spells alter the working of magic itself.", "메타매직계 주문은 마법 자체의 원리를 조작합니다.", "_t")
+t("meta", "메타매직", "_t")
 t("The school of time manipulation.", "시간 조종 학파입니다.", "_t")
 t("temporal", "시간", "_t")
 t("Control the power of tricks and illusions.", "속임수와 환영의 힘을 조종합니다.", "_t")
@@ -30036,7 +30038,7 @@ t("All damage decreased by %d%%.", "가하는 모든 피해량 -%d%%.", "tformat
 t("stun", "기절", "effect subtype")
 t("Immune to Frightening Presence", "두려운 존재감 면역", "_t")
 t("You resisted a Lich and are immune to its frightening presence.", "리치에 저항함 : 두려운 존재감 면역.", "_t")
-t("Energy Alteration (%s)", "애너지 개조 (%s)", "tformat")
+t("Energy Alteration (%s)", "에너지 변조 (%s)", "tformat")
 t("%d%% of all damage converted to %s.", "가하는 모든 피해의 %d%% 가 %s 속성으로 변환됨.", "tformat")
 t("Frightening Presence", "두려운 존재감", "_t")
 t("The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%.", "리치의 존재만으로도 공포를 느낌 : 모든 내성 -%d / 가하는 모든 피해량 -%d%% / 이동속도  -%d%%.", "tformat")
@@ -30137,9 +30139,9 @@ t("movement", "이동", "effect subtype")
 t("Orb Of Thaumaturgy", "주술의 보주", "_t")
 t("All beam spells are duplicated to the orb.", "보주가 모든 광선 주문을 복제함.", "_t")
 t("thaumaturgy", "주술", "effect subtype")
-t("Metaflow", "초월의 흐름", "_t")
+t("Metaflow", "흐름 초월", "_t")
 t("Overflowing with energy, increasing all spells talent level by %d.", "마법 에너지가 흘러넘침 : 모든 주문의 기술 레벨 +%d.", "tformat")
-t("meta", "초월", "effect subtype")
+t("meta", "메타매직", "effect subtype")
 t("#Target# is overflowing with energy!", "#Target2# 마법 에너지가 넘친다!", "_t")
 t("#Target# is no more overflowing with energy.", "#Target#의 마법 에너지가 사라진다.", "_t")
 t("Dirge of Famine", "기근의 장송곡", "_t")
