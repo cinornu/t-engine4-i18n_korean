@@ -64,7 +64,7 @@ t("#VIOLET#Following build order %s; increasing %s by 1.", "#VIOLET#Following bu
 t("#VIOLET#Following build order %s; learning talent category %s.", "#VIOLET#Following build order %s; %s 기술 계열 습득.", "log")
 t("#VIOLET#Following build order %s; learning talent %s.", "#VIOLET#Following build order %s; %s 기술 습득.", "log")
 t("You are asleep and unable to move!", "당신은 잠에 빠져 움직일 수 없다!", "logPlayer")
-t("You are unable to move!", "당신은 움직일 수 없다!", "logPlayer")
+t("You are unable to move!", "움직일 수 없다!", "logPlayer")
 t("#F53CBE#Your movements fuel your rampage! (+1 duration)", "#F53CBE#당신의 첫 발걸음이 광란을 불태운다! (지속시간 1 턴 연장)", "logPlayer")
 t("#LIGHT_RED#Your %s is immune to the teleportation and drops to the floor!", "#LIGHT_RED#당신의 %s 순간이동에 면역이기 때문에 바닥에 떨어졌다!", "logPlayer", nil, {"는"})
 t("teleported", "순간이동 됨", "_t")
@@ -142,7 +142,7 @@ t("#CRIMSON##Source# teleports some damage to #Target#!", "#CRIMSON##Source2# �
 t("#CRIMSON#(%d teleported)#LAST#", "#CRIMSON#(%d 전달)#LAST#", "tformat")
 t("#CRIMSON#%d teleported#LAST#", "#CRIMSON#%d 전달#LAST#", "tformat")
 t("#STEEL_BLUE#(%d to time)#LAST#", "#STEEL_BLUE#(%d 미래로)#LAST#", "tformat")
-t("Your time shield crumbles under the damage!", "당신의 시간 보호막이 피해로 인해 부서졌습니다!", "logPlayer")
+t("Your time shield crumbles under the damage!", "시간 보호막이 피해로 인해 부서졌다!", "logPlayer")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t("#SLATE#%d reflected#LAST#", "#SLATE#%d 반사#LAST#", "tformat")
 t("#CRIMSON##Source# reflects damage back to #Target#!#LAST#", "#CRIMSON##Source2# 피해량을 #Target#에게 반사한다!#LAST#", "delayedLogMessage")
@@ -156,8 +156,8 @@ t("#SLATE#(%d resonance)#LAST#", "#SLATE#(%d 반향)#LAST#", "tformat")
 t("Your resonance field crumbles under the damage!", "반향 역장이 피해로 인해 부서졌다!", "logPlayer")
 t("%s shatters into pieces!", "%s 산산조각 났다!", "logSeen", nil, {"가"})
 t("#F53CBE#You fight through the pain!", "#F53CBE#고통을 뚫고 싸운다!", "_t")
-t("#F53CBE#Your hatred grows even as your life fades!", "#F53CBE#당신의 생명이 꺼저감에도 당신의 증오는 그칠 줄을 모른다!", "_t")
-t("#F53CBE#Your powerful attack feeds your madness!", "#F53CBE#당신의 강력한 맹공이 당신의 광기를 채운다!", "_t")
+t("#F53CBE#Your hatred grows even as your life fades!", "#F53CBE#자신의 생명이 꺼져감에도 불구하고 증오는 그칠 줄을 모른다!", "_t")
+t("#F53CBE#Your powerful attack feeds your madness!", "#F53CBE#강력한 맹공으로 스스로의 광기를 채웠다!", "_t")
 t("%s (+%d hate)", "%s (+%d 증오)", "tformat")
 t("%s splits in two!", "%s 둘로 쪼게졌다!", "logSeen", nil, {"가"})
 t("%s#Source# converts some damage to Psi!", "%s#Source1# 피해량의 일부를 염력으로 변환했다!", "tformat")
@@ -223,7 +223,7 @@ t("#LIGHT_BLUE#Spacetime feels more stable.", "#LIGHT_BLUE#시공간이 안정�
 t("#LIGHT_RED#Spacetime fights against your control!", "#LIGHT_RED#시공간이 당신의 통제에 대립하고 있는 것 같다!", "logPlayer")
 t("#LIGHT_BLUE#Spacetime has calmed...  somewhat.", "#LIGHT_BLUE#시공간이... 어느정도.. 안정된 것같다...", "logPlayer")
 t("You already tried to use %s, an instant use talent, this turn and failed.", "%s 사용하려 시도했지만, 실패해버렸다. 이 턴은 낭비되었다.", "logPlayer", nil, {"을"})
-t("%s is too afraid to use %s.", "%s %s 사용할 수 없을만큼 두려움을 느낀다.", "logSeen", nil, {"는","을"})
+t("%s is too afraid to use %s.", "%s %s 사용할 수 없을 만큼 두려움을 느낀다.", "logSeen", nil, {"는","을"})
 t("%s is silenced and cannot use %s.", "%s 목소리를 낼 수 없어 %s 사용할 수 없다.", "logSeen", nil, {"는","을"})
 t("The spell fizzles.", "주문이 실패했다.", "logSeen")
 t("%s is too disconnected from Nature to use %s.", "%s %s 사용하기에는 너무 비자연적이다.", "logSeen", nil, {"는","을"})
@@ -237,12 +237,12 @@ t("You do not have enough feedback to use %s.", "%s 시전하기 위한 반작�
 t("You do not have enough fortress energy to use %s.", "%s 시전하기 위한 요새 에너지가 부족하다.", "logPlayer", nil, {"를"})
 t("You have too much %s to use %s.", "%s 시전하기에는 %s 너무 과하다.", "logPlayer", {2,1}, {"를","가"})
 t("You do not have enough %s to use %s.", "%s 시전하기에는 %s 부족하다.", "logPlayer", {2,1}, {"를","가"})
-t("You fail to use %s due to your equilibrium!", "당신의 평정 수치 때문에 %s의 시전이 실패했다!", "logPlayer")
+t("You fail to use %s due to your equilibrium!", "평정 수치로 인해 %s의 시전에 실패했다!", "logPlayer")
 t("%s's %s has been disrupted by #ORCHID#anti-magic forces#LAST#!", "%s의 %s #ORCHID#반마법의 힘#LAST#에 의해 방해받았다!", "logSeen", nil, {[2]="이"})
 t("%s's %s has been disrupted by #ORCHID#anti-nature forces#LAST#!", "%s의 %s #ORCHID#비자연적인 힘#LAST#에 의해 방해받았다!", "logSeen", nil, {[2]="이"})
 t("%s is confused and fails to use %s.", "%s 너무 혼란스러워 %s의 시전에 실패했다.", "logSeen", nil, {"는"})
 t("%s fails to use %s.", "%s %s의 시전에 실패했다.", "logSeen", nil, {"는"})
-t("%s fumbles and fails to use %s, injuring %s!", "%s %s 실패하고 부상을 입고 말았다%s!", "logSeen", nil, {"는","을"})
+t("%s fumbles and fails to use %s, injuring %s!", "%s %s 실패하고 %s 부상을 입고 말았다!", "logSeen", nil, {"는","을"})
 t("%s's %s is interrupted by the shot!", "%s의 %s 사격에 의해 방해받았다!", "logSeen", nil, {[2]="은"})
 t("%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "%s #{bold}##ORANGE#%s#LAST# %s#{normal}#", "logSeen", {1,3,2}, {"는","을"})
 t("activates", "활성화했다", "_t")
@@ -298,7 +298,7 @@ t([[%s:
 %s
  적용 하시겠습니까?]], "tformat")
 t("Automatic use", "자동 사용", "_t")
-t("%s will not be automatically used.", "%s 자동으로 사용되지 않을 것입니다.", "tformat", nil, {"는"})
+t("%s will not be automatically used.", "%s 이제 자동으로 사용되지 않습니다.", "tformat", nil, {"는"})
 t("Automatic use disabled", "자동 사용이 비활성화 됐습니다", "_t")
 t("#LIGHT_RED#%s starts suffocating to death!", "#LIGHT_RED#%s 질식 중이다!", "logSeen", nil, {"는"})
 t("Physical save", "물리 내성", "_t")
@@ -382,8 +382,8 @@ t("[Allow training of talent category %s (at mastery %0.2f)]", "[기술 계열 %
 section "game/modules/tome/class/FortressPC.lua"
 
 t("Yiilkgur, the Sher'Tul Fortress", "쉐르'툴 요새 일크구르", "_t")
-t("You are unable to move!", "당신은 움직일 수 없다!", "logPlayer")
-t("You have found a trap (%s)!", "당신은 함정을 발견했다 (%s)!", "logPlayer")
+t("You are unable to move!", "움직일 수 없다!", "logPlayer")
+t("You have found a trap (%s)!", "함정을 발견했다 (%s)!", "logPlayer")
 t("Do you wish to teleport to the fortress?", "요새로 순간이동 하시겠습니까?", "_t")
 t("The teleport fizzles!", "순간이동이 실패했다!", "_t")
 
@@ -422,7 +422,7 @@ t("Level Generation Failure", "구역 생성 실패", "_t")
 t("Loading level", "구역 불러오는 중", "_t")
 t("Please wait while loading the level...", "구역을 불러오는 중 입니다...", "_t")
 t("Easy!", "쉬움!", "_t")
-t("This zone is so easy for you that you can stroll to the last area with ease.", "이 지역은 너무나도 쉽기에 이 지역의 마지막 구역으로 직행할 수 있습니다.", "_t")
+t("This zone is so easy for you that you can stroll to the last area with ease.", "이 지역은 너무나도 쉽기에 지역의 마지막 구역으로 직행할 수 있습니다.", "_t")
 t("Stay there", "여기 남을래요", "_t")
 t("Stroll", "직행!", "_t")
 t("You feel a thrill of terror and your heart begins to pound in your chest. You feel terribly threatened upon entering this area.", "당신은 공포의 전율과 심장이 가슴속에서 요동침을 느낀다. 공포스러운 위압감이 이곳에 존재함을 느낀다.", "_t")
@@ -1745,11 +1745,11 @@ Each time you strike a creature with a melee attack, you will deal additional da
 근접 공격을 가할 때, 추가적인 피해를 입히거나, 특정 효과를 일으킵니다.
 ]], "_t")
 t([[This is separate from any special damage of your weapon.
-]], [[이 효과는 무기의 툭수 피해와는 별개로 작동합니다.
+]], [[이 효과는 무기의 특수 피해와는 별개로 작동합니다.
 ]], "_t")
 t([[#GOLD#Additional Ranged Damage#LAST#
 Each time you strike a creature with a ranged attack, you will deal additional damage or other effects.
-]], [[#GOLD#원거리공격 추가 피해#LAST#
+]], [[#GOLD#원거리 공격 추가 피해#LAST#
 원거리 공격을 가할 때, 추가적인 피해를 입히거나, 특정 효과를 일으킵니다.
 ]], "_t")
 t([[This is separate from any special damage of your weapon or ammo.
@@ -1884,6 +1884,7 @@ section "game/modules/tome/class/uiset/ClassicPlayerDisplay.lua"
 section "game/modules/tome/class/uiset/Minimalist.lua"
 
 t("Game Log", "게임 로그", "_t")
+t("Hotkeys", "단축키", "_t")
 t("Rank: ", "등급: ", "_t")
 t("Tales of Maj'Eyal Lore", "테일즈 오브 마즈'에이알 이야기", "_t")
 t("Game: ", "게임: ", "_t")
