@@ -34,7 +34,7 @@ newChat{ id="what",
 Since you do not look like slave fodder to me I will offer to let you pay to play the game.
 If you feel you cannot take part in a slaver's game, I am afraid you will need to... disappear.]],
 	answers = {
-		{_t"Slavers? This is so wrong! [attack]", action=attack("You think so? Die.")},
+		{_t"Slavers? This is so wrong! [attack]", action=attack(_t"You think so? Die.")},
 		{_t"Game? I like playing, what's this about?", jump="game"},
 	}
 }
