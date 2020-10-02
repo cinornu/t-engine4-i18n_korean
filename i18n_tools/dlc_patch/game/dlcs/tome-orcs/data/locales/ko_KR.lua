@@ -2466,7 +2466,7 @@ Now...  as your new Lord, you are lucky that I am a merciful one.  I grant you a
 
 다행스럽게도, 그대들의 어리석음이 도움이 되었다.  옛 전설의 유니콘이 그동안 모습을 드러내지 못했던 건 내가 그대들과 너무 가까이 있어서였다. 내가 그대들 같은 게으름뱅이들과 떨어지게 되자, 마침내 그것이 비밀스럽게 나타나 나에게 축복을 내렸던 것이다.  그들이 자신들의 모습을 직접 보여주었던 아니었지만, 어찌되었든 그들은 언제나 내 안에 잠들어 있던 힘을, 내가 이제껏 마땅히 휘둘러 왔어야 했던 힘을 일깨워 주었다.  그 힘은 내 안에 너무 오래 잠들어 있었지만, 이제, 깨어났다!!
 
-남쪽을 보아라! 서리가 덮여 있는 산을!  그 산에 나 있는 구멍이 보이는가?  저게 바로 나의 힘이다. 저것조차도, 오만방자한 돼지 같은 놈이 내게 의문을 제기했을 때 발휘한 사소한 것에 지나지 않는다!  저게 바로! 내가 항상 갖고 있어야 했던 힘이고, 언제나 날 섬겨 왔어야 했던 힘이고, 이제 거인들도, 오크들도, 자연 그 자체마저도 넘어선, 내게 마땅한 자리로 날 이끌어야 할 힘이다!!
+남쪽을 보아라! 서리가 덮여 있는 산을!  저 산에 나 있는 구멍이 보이는가?  저게 바로 나의 힘이다. 저것조차도, 오만방자한 돼지 같은 놈이 내게 의문을 제기했을 때 발휘한 사소한 것에 지나지 않는다!  저게 바로! 내가 항상 갖고 있어야 했던 힘이고, 언제나 날 섬겨 왔어야 했던 힘이고, 이제 거인들도, 오크들도, 자연 그 자체마저도 넘어선, 내게 마땅한 자리로 날 이끌어야 할 힘이다!!
 
 환호하라!  환호하라, 무지몽매한 것들아!!
 
@@ -2486,7 +2486,7 @@ I...  yes.  I've got a way out.  The Orcs must be weakened, wounded, easily deal
 
 i'm sorry karbatha]], [[안돼안돼안돼안돼안돼안돼안돼안돼안돼안돼안돼안돼안돼
 
-말라가고 있어...  느껴져...  그 목소리가 다시 말했지, "경고, 에너지 낮음, 잔량 10회 이하". 이 유물에서 흐르던 아름다운 에너지는 차갑게 식고 있어.  내가 호수 아래에서 아무리 빌고 애원해도 유니콘들은 내게 직접 오지도 않고, 내가 그들을 어쩌다가 화나게 했는지, 아니면 이 힘을 다시 채우려면 어떻게 해야 하는지도 가르쳐주지 않아...  이 힘이 처음부터 내 것이었던 게 맞긴 할까...?
+말라가고 있어...  느껴져...  그 목소리가 다시 말했지, "경고, 에너지 낮음, 잔량 10회 이하". 이 유물에서 흐르던 아름다운 에너지는 차갑게 식고 있어.  내가 호수 아래에서 아무리 빌고 애원해도 유니콘들은 내게 직접 오지도 않고, 내가 어쩌다가 그들을 화나게 했는지, 아니면 이 힘을 다시 채우려면 어떻게 해야 하는지도 가르쳐주지 않아...  이 힘이 처음부터 내 것이었던 게 맞긴 할까...?
 
 ...  좋아.  다섯 번에서 열 번 정도 남았다는 건가...  이게 어떻게 사용할 지 생각해봐야 해.  다시 돌아가서 아무 일도 없었다는 듯이 행동하기엔 너무 멀리 와 버렸어 - 히 히 상상도 안 돼...  뭘 해야 하지 뭘 해야 하지 전쟁을 이 이상 늦출 순 없어 모든 걸 밝힐 수도 없어 증기 거인들에게 이길 수도 없어 못해 못해 못해 못해
 
@@ -2500,6 +2500,46 @@ i'm sorry karbatha]], [[안돼안돼안돼안돼안돼안돼안돼안돼안돼�
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/misc.lua"
 
+t("sunwall observatory", "태양의 장벽 관측소", "newLore category")
+t("an astronomer's journal", "점성술사의 일지", "_t")
+t([[The strange movement on the far side of Wintertide continues - a shadow here, a tiny speck or flash of light there.  Still obscured and difficult to identify.  Obfuscating magic is likely at work, but whether it's on our end or Wintertide's, I cannot say.
+
+The nebula behind the Neira constellation continues its slow fading.  Star Gerlyk-P is gone now too, and by most current models, Amakthel-N will be next.  If the last century is any indication, the rate of disappearances is accelerating...  this is most worrying, but what may be more worrying is that Star Quekjora-B has reappeared in an abrupt flash of light, powerful enough to illuminate the night sky for a brief moment.  It is oscillating between green and purple now, a far cry from its original glow of pale orange, and does not quite seem to be spherical...  I can feel its power from here just like I can Shandral or our two moons, dimly but growing stronger.  It's impossible to meaningfully speculate on something so unprecedented, so I will not write my theories down here, but none of them are reassuring.
+
+Aside from these phenomena, all is normal.  The cracks on Mal'Rok and the other Spellblaze-blasted planets in other systems are still slowly fading, and the lights on more distant worlds continue to twinkle.  Stars outside the Neira constellation remain steady, or decay according to standard astronomical models.]], [[밀려오는 겨울 너머의 이상한 움직임이 계속되고 있다 - 이쪽은 그림자가 져 있고, 그 너머에서는 작은 알갱이나, 반짝이는 빛 같은 것이 보인다.  여전히 모호하고, 알아보기가 힘들다.  어떤 마법이 저걸 흐릿하게 만들고 있는 것 같지만, 그 마법이 우리 에이알에 있는 건지, 아니면 밀려오는 겨울 쪽에 있는 건지 확실히 알 수가 없다.
+
+네이라 성좌 뒤쪽의 성운이 끊임없이, 천천히 사라지고 있다.  게를릭-P 별도 지금은 사라졌고, 가장 확실한 모형으로 미루어 봤을 때 다음 차례는 아마크텔-N일 것이다.  지난 세기의 관측 기록과 비교해 보면, 별들이 사라지는 속도가 점점 빨라지고 있다...  이게 지금 가장 걱정스러운 일이긴 하지만, 그것보다도 더 걱정스러울 수가 있는 일이, 쿠에코르자-B 별이 밤하늘을 순간적으로 환하게 비출 정도의 빛을 내며 갑자기 다시 나타난 일이다.  그 별은 지금 녹색과 자주색으로 번갈아 빛나고 있고, 원래 색이었던 창백한 오렌지색과는 완전히 다르다. 별 자체의 모양도 완전한 구형처럼 보이지 않는다...  지금 이 자리에서도 그 별에서 샨드랄이나 우리의 두 달과 비슷한 힘을 느낄 수 있다. 그 힘은 희미하지만 점점 강해지고 있다.  이런 전대미문의 사태에 대해 뭔가 의미있는 추측을 하는 건 불가능에 가깝다. 그러므로, 내 의견을 여기다가 써 놓지는 않겠다. 하지만 그 어떤 것도 낙관할 수는 없다.
+
+이 현상들을 제외하면, 평소와 다를 바 없다.  말'록과 그것처럼 마법폭발에 의해 피해를 받은 다른 성계의 행성들에 나 있던 균열들도 천천히 사라지고 있고, 더 멀리 있는 별들도 계속 반짝이고 있다.  네이라 성좌 바깥쪽의 별들도 남아 있어야 할 건 남아 있고, 사라지는 것들도 표준 점성술 모형을 따르고 있다.]], "_t")
+t("ureslak's lair", "우르슬락의 둥지", "newLore category")
+t("a note lying in a puddle", "웅덩이 아래에 있던 쪽지", "_t")
+t([[If you think I'd just leave my plans lying around for anyone to find them, you're an even greater buffoon than Rak'Shor's followers.  You, unlike them, are of no use to me.  [b]Die.[/b]
+
+[i](The bottom half of the paper is illegibly smudged, on account of water dripping onto it from a stalactite above, but has the approximate shape of an explosive-rune trap.  You drop the note, wary of any lingering power it might still have.)[/i] ]], [[내가 내 계획을 아무나 볼 수 있도록 땅바닥에다가 놔 두고 갈 거라고 생각했다면, 넌 락'쇼르의 추종자들보다도 훨씬 더 멍청하군.  근데 넌 그놈들처럼 이용 가치가 있는 것도 아니야.  [b]죽어라.[/b]
+
+[i](위쪽 종유석에서 떨어지는 물 때문에 종이의 아랫부분은 알아볼 수 없을 정도로 번져 있지만, 폭발 룬 함정과 비슷한 게 그려져 있습니다.  쪽지에 아직 그 힘이 남아 있을지도 몰라서, 바로 버렸습니다.)[/i] ]], "_t")
+t("dropped demonic orders", "떨어진 악마 명령서", "_t")
+t([[I'm not going to lie to you: things aren't going great.  Between the Doomelf escape incidents, the deaths of Khulmanar and a great deal of our more expensive combatants at the hands of the Anomaly, and the disappearance of the First Duathedlen, we've been set back pretty far this year.  As such, your orders are simple: lay low.  Stay out of sight, and conduct passive observation until we can get a foothold and a new plan.
+
+And regarding the First Duathedlen - quit your murmuring right now.  I've seen his track record, and I know most of you know it too, which is why we can safely say that despite his... nature, his loyalty is [b]not[/b] in question - we can assume his abrupt cessation of communication is a necessary part of his investigations, and not him going rogue.  If you see him, tell us of his whereabouts, but do not interfere.
+
+[i](The letter is signed with an unreadable but formal-looking demonic seal.)[/i] ]], [[솔직히 말하겠다, 상황이 좋지 않다.  둠엘프들의 탈주 사건 때문에 쿨마나르를 포함한 우리 귀중한 병력의 대부분이 '비정상' 의 손에 죽었다. 게다가 듀아세들렌 1호기도 실종되어, 이번 년도에 우린 손해를 상당히 많이 본 상태다.  그렇기 때문에 너희들에게 내릴 명령은 간단하다 - 죽은 듯이 있어라.  눈에 띄는 행동을 하지 말고, 우리가 적당한 발판과 새 계획을 얻어낼 때 까지 정보 수집은 최소한으로 제한하라.
+
+그리고 듀아세들렌 1호기에 대해서는 - 그 이야기로 수군대지 마라.  난 놈의 이동 기록을 보았고, 너희들이 아는 건 대부분 나도 알고 있다. 놈의... 본성을 고려하더라도, 놈의 충성심에 대해선 [b]결코[/b] 이견이 없을 것이다 - 놈이 보고를 갑자기 끊은 건 그게 임무에 필요했기 때문으로 보이고, 놈이 배반을 했다고 생각하기는 어렵다.  만약 놈을 발견했다면, 보고하라. 하지만 놈을 방해하진 마라.
+
+[i](이 편지에는 무엇인지 읽을 수는 없지만, 공적인 것처럼 보이는 악마의 인장이 찍혀 있습니다.)[/i] ]], "_t")
+t("bootlegger's complaint letter", "주류 밀수꾼의 불평이 적힌 편지", "_t")
+t([[Look, I know the whole point of this market was to make a place for ANY sort of open trade, without the Allied Kingdoms' scryers breathing down our necks, and I know it's not exactly feasible to set up another portal off the continent...  but do you have any idea how bad it is for business to have the slavers using this with us?  Nobody's going to want to have a nice mug of unregulated-strength ale or pick up a shiny new stolen necklace when, not ten yards away, some helpless person is being led away in chains and wailing in misery.
+
+I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], [[이거 봐, 나도 이 시장의 모토는 왕국연합의 점쟁이들이 우릴 감시하지 않도록 '그 어떤' 상품이라도 자유롭게 팔 수 있는 곳이라는 걸 알고 있고, 이 대륙에다가 새 차원문을 만드는 건 어림도 없다는 것도 알고 있어...  하지만 노예상들도 이 시장을 이용하고 있어서, 우리한테 큰 손해가 나고 있다는 거 알아?  코 앞에서 쇠사슬에 묶인 불쌍한 노예가 울면서 끌려가고 있는데, 손님들이 빛나는 장물 목걸이를 집어들겠어? 주류법 기준보다 훨씬 센 술이 목으로 넘어가겠냐고.
+
+진짜로, 노예상들을 내치면 다른 상품들 쪽 손님이 10배는 더 불어날 거야.  당신네 보스가 노예 사업 수익을 얼마나 떼 주고 있었는지는 몰라도, 그것보다 훨씬 더 많이 벌게 될 걸 - 그리고 당신네가 노예를 일손으로 쓰고 있었으면, 이득 본 걸로 골렘을 사면 되는 거야!  이러면 우리 둘 다 좋은 거라고.]], "_t")
+t("wand-smuggler's apology letter", "마법봉 밀수꾼의 사과 편지", "_t")
+t([[My sincerest apologies, Admiral.  I received the conjuration wands in bulk, and I had no idea that several of them were merely wands of trap destruction - testing each one would have drained some charge from each, providing an inferior product.
+
+I will be retrieving what portion of the cheerblossom I can get from my deceptive supplier, or her head - whichever you would prefer.  At that point, I will ask that you please consider revoking my banishment from your marketplace.]], [[정말 죄송합니다, 제독님.  사용하셨던 파괴의 마법봉들을 받았습니다. 그리고 거기에 함정 해제 마법봉들이 섞여 있었을 줄은 꿈에도 몰랐습니다. 마법봉들을 하나하나 시험해 보면 잔량이 줄어들게 되고, 그러면 제품을 완벽한 상태로 제공해 드릴 수 없으니까요.
+
+당연히 보상해드리겠습니다 - 제 사기 도매상에서 얻을 수 있는 치어블로섬이나, 아니면 그 여자의 목으로.  원하시는 대로.  그걸 받으시면, 부디 제독님의 시장에서 제가 제명된 것을 번복해 주시길 부탁드리겠습니다.]], "_t")
 t("var'eyal", "바르'에이알", "newLore category")
 
 

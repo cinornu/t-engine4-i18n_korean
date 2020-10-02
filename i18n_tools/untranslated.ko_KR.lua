@@ -818,34 +818,6 @@ t(", ", ", ", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/achievements/all.lua"
--- 23 entries
-t("You were not supposed to see that!", "You were not supposed to see that!", "achievement name")
-t("Read a Forbidden Tome.", "Read a Forbidden Tome.", "_t")
-t("Bookception!", "Bookception!", "achievement name")
-t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "_t")
-t("Recursive Home of Recursion", "Recursive Home of Recursion", "achievement name")
-t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "_t")
-t("They Came From Outer Space!", "They Came From Outer Space!", "achievement name")
-t("Discovered the true origin of dwarves and drems.", "Discovered the true origin of dwarves and drems.", "_t")
-t("The True Coward", "The True Coward", "achievement name")
-t("Win without having saved Kroshkkur, Derth, the lost merchant, Melinda and lady Aeryn.", "Win without having saved Kroshkkur, Derth, the lost merchant, Melinda and lady Aeryn.", "_t")
-t("Sequence Master", "Sequence Master", "achievement name")
-t("Use 5 different glyph sequences.", "Use 5 different glyph sequences.", "_t")
-t("Is that how it feels to be an escort quest?!", "Is that how it feels to be an escort quest?!", "achievement name")
-t("Got saved from death in the Godfeaster by Malyu and managed to escape.", "Got saved from death in the Godfeaster by Malyu and managed to escape.", "_t")
-t("Not Really Yourself", "Not Really Yourself", "achievement name")
-t("Let a parasitic horror take over your body and watch it grow in power.", "Let a parasitic horror take over your body and watch it grow in power.", "_t")
-t("Myths of an age past", "Myths of an age past", "achievement name")
-t("Learned all there is to learn about the Gods and the Godslayers.", "Learned all there is to learn about the Gods and the Godslayers.", "_t")
-t("Dethroned", "Dethroned", "achievement name")
-t("Vanquished the Glass Golem without letting it use the glass throne to heal.", "Vanquished the Glass Golem without letting it use the glass throne to heal.", "_t")
-t("Briefly lived as a lowly halfling during the time of the Sher'tuls.", "Briefly lived as a lowly halfling during the time of the Sher'tuls.", "_t")
-t("Entropy's End", "Entropy's End", "achievement name")
-t("Destroyed the Hypostasis of Entropy.", "Destroyed the Hypostasis of Entropy.", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/chats/fanged-collar.lua"
 -- 8 entries
 t("#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "_t")
@@ -856,42 +828,6 @@ t("[die]", "[die]", "_t")
 t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "_t")
 t("...", "...", "_t")
 t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "log")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/chats/godfeaster-malyu-escaped.lua"
--- 10 entries
-t([[#DARK_SEA_GREEN##{italic}#Fresh air!#{normal}##LAST#
-Nice job! You handled yourself a lot better than I thought you would. Now, usually I get a reward... What? Why are you looking at me like that? I'm obviously the one who saved you here. It's customary for adventurers to get rewarded when they do a good deed.]], [[#DARK_SEA_GREEN##{italic}#Fresh air!#{normal}##LAST#
-Nice job! You handled yourself a lot better than I thought you would. Now, usually I get a reward... What? Why are you looking at me like that? I'm obviously the one who saved you here. It's customary for adventurers to get rewarded when they do a good deed.]], "_t")
-t("[Offer to teach her '%s'.]", "[Offer to teach her '%s'.]", "tformat")
-t("[Offer her stat increases.]", "[Offer her stat increases.]", "_t")
-t("[Offer her nothing.]", "[Offer her nothing.]", "_t")
-t("Oh this will sure come in handy! Thanks!", "Oh this will sure come in handy! Thanks!", "_t")
-t("I always did want to learn how to do these kind of things!", "I always did want to learn how to do these kind of things!", "_t")
-t("Oh, I suddenly feel like I have potential to grow.", "Oh, I suddenly feel like I have potential to grow.", "_t")
-t("Take care!", "Take care!", "_t")
-t("...Fine, be that way. Good luck out there, though.", "...Fine, be that way. Good luck out there, though.", "_t")
-t("You too!", "You too!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/chats/godfeaster-malyu.lua"
--- 8 entries
-t("#DARK_SEA_GREEN##{italic}#As you move you suddenly find yourself entrapped in a hidden digestive sack that seems to void all your abilities!#{normal}##LAST#", "#DARK_SEA_GREEN##{italic}#As you move you suddenly find yourself entrapped in a hidden digestive sack that seems to void all your abilities!#{normal}##LAST#", "_t")
-t("[try to kick your way out]", "[try to kick your way out]", "_t")
-t("[try to cut your way out]", "[try to cut your way out]", "_t")
-t("[try to shout your way out]", "[try to shout your way out]", "_t")
-t([[#DARK_SEA_GREEN##{italic}#As were starting to lose hope you hear some kind of cutting.#{normal}##LAST#
-There's someone else in here?]], [[#DARK_SEA_GREEN##{italic}#As were starting to lose hope you hear some kind of cutting.#{normal}##LAST#
-There's someone else in here?]], "_t")
-t("Who..what.. YES!", "Who..what.. YES!", "_t")
-t([[#DARK_SEA_GREEN##{italic}#As the sack gets cut and you regain your mobility you see your savior is some kind of adventurer, she was probably eaten by the Godfeaster too.#{normal}##LAST#
-This thing ate you too? Hey, at least you've got company. Name's Malyu, I've been stuck in here for a few days now and had to tough it out alone. I was about to go for this thing's brain when you showed up. What say we team up and get out of here together?
-]], [[#DARK_SEA_GREEN##{italic}#As the sack gets cut and you regain your mobility you see your savior is some kind of adventurer, she was probably eaten by the Godfeaster too.#{normal}##LAST#
-This thing ate you too? Hey, at least you've got company. Name's Malyu, I've been stuck in here for a few days now and had to tough it out alone. I was about to go for this thing's brain when you showed up. What say we team up and get out of here together?
-]], "_t")
-t("I am glad for the help, you saved me. Let's kill this thing and get out!", "I am glad for the help, you saved me. Let's kill this thing and get out!", "_t")
 
 
 ------------------------------------------------
@@ -938,30 +874,20 @@ t("Things from above", "Things from above", "faction name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/encounters/maj-eyal.lua"
--- 7 entries
+-- 1 entries
 t("Occult Egress", "Occult Egress", "entity name")
-t("Way to a strange portal", "Way to a strange portal", "_t")
-t("Godfeaster", "Godfeaster", "entity name")
-t([[The ground suddenly shakes under your feet and a giant worm appears to gobble you up!
-You could try to escape using the Rod of Recall or accept your fate.]], [[The ground suddenly shakes under your feet and a giant worm appears to gobble you up!
-You could try to escape using the Rod of Recall or accept your fate.]], "_t")
-t("You manage in extremis to activate the rod in emergency. As you keep on falling towards the maw of the worm the rod finishes charging up and you re-appear nearby, safe from the monstrosity.", "You manage in extremis to activate the rod in emergency. As you keep on falling towards the maw of the worm the rod finishes charging up and you re-appear nearby, safe from the monstrosity.", "log")
-t("Accept your fate", "Accept your fate", "_t")
-t("Use the rod", "Use the rod", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/encounters/tar-eyal.lua"
--- 2 entries
+-- 1 entries
 t("Occult Egress", "Occult Egress", "entity name")
-t("Way to a strange portal", "Way to a strange portal", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/encounters/var-eyal.lua"
--- 2 entries
+-- 1 entries
 t("Occult Egress", "Occult Egress", "entity name")
-t("Way to a strange portal", "Way to a strange portal", "_t")
 
 
 ------------------------------------------------
@@ -1390,53 +1316,7 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/kroshkkur.lua"
--- 30 entries
-t("Researcher Dremnot's Demystification of the Gods: Chapter 5 - Gerlyk", "Researcher Dremnot's Demystification of the Gods: Chapter 5 - Gerlyk", "_t")
-t([[Gerlyk, according to some ancient myths, is the creator of humanity and interacted the most with them during those times. Its contact with humanity seems dubious, however, when other sources are consulted. It interacted with mortals on its own whims and did not seem to particularly favour any species according to these stories. It seemed to be a more curious god than others, as a handful of myths mention it making contact with mortals so it could learn more about how they lived. The myths surrounding Gerlyk are noticeably less numerous than those of other gods and there appears to be large time gaps between them, suggesting that Gerlyk simply did not interact with Eyalites for the most part. For this reason, it is seen to be a god who observed, but didn't interfere.
-
-During the Godhunt, there are no records indicating that any of the God Slayers slew Gerlyk or even found it. This suggests that the god hid somewhere even the Sher'tul could not find it.]], [[Gerlyk, according to some ancient myths, is the creator of humanity and interacted the most with them during those times. Its contact with humanity seems dubious, however, when other sources are consulted. It interacted with mortals on its own whims and did not seem to particularly favour any species according to these stories. It seemed to be a more curious god than others, as a handful of myths mention it making contact with mortals so it could learn more about how they lived. The myths surrounding Gerlyk are noticeably less numerous than those of other gods and there appears to be large time gaps between them, suggesting that Gerlyk simply did not interact with Eyalites for the most part. For this reason, it is seen to be a god who observed, but didn't interfere.
-
-During the Godhunt, there are no records indicating that any of the God Slayers slew Gerlyk or even found it. This suggests that the god hid somewhere even the Sher'tul could not find it.]], "_t")
-t("Researcher Dremnot's Demystification of the Gods: Chapter 8 - Quekorja", "Researcher Dremnot's Demystification of the Gods: Chapter 8 - Quekorja", "_t")
-t([[Quekorja was the god of time and possibilities. What stands out about Eyal's myths regarding Quekorja is how wildly inconsistent they are. In particular, tales after the Godhunt tend to have a far less favourable outlook of the god than pre-Godhunt myths. Speculation regarding this is due to Quekorja supposedly taking an interest in written history and appointing its own librarians to record its tales. Since there are no surviving records of this library existing, this theory is considered to be pure conjecture and has no concrete evidence to validate it. There have been some unusual records found too, supposedly written by the same authors on the same dates, but wildly varying in their tone and their description of the god itself. Given the god's ability to control time, it is thought these notes might be from alternate timelines, further obscuring the truth about the god itself.
-
-Quekorja was also thought to be responsible for the creat...[i](You know you read this section, but you can't actually remember it. It is almost like something has deliberately erased it from your mind.)[/i]
-
-According to the records of Anglowen, Quekorja was slain during the Godhunt and its body discovered by the mage Linaniil. Linaniil managed to absorb a small portion of the god's power through a dangerous ritual. This tiny shard of power she acquired made her an archmage without peer, a testament to the sheer might of the gods.]], [[Quekorja was the god of time and possibilities. What stands out about Eyal's myths regarding Quekorja is how wildly inconsistent they are. In particular, tales after the Godhunt tend to have a far less favourable outlook of the god than pre-Godhunt myths. Speculation regarding this is due to Quekorja supposedly taking an interest in written history and appointing its own librarians to record its tales. Since there are no surviving records of this library existing, this theory is considered to be pure conjecture and has no concrete evidence to validate it. There have been some unusual records found too, supposedly written by the same authors on the same dates, but wildly varying in their tone and their description of the god itself. Given the god's ability to control time, it is thought these notes might be from alternate timelines, further obscuring the truth about the god itself.
-
-Quekorja was also thought to be responsible for the creat...[i](You know you read this section, but you can't actually remember it. It is almost like something has deliberately erased it from your mind.)[/i]
-
-According to the records of Anglowen, Quekorja was slain during the Godhunt and its body discovered by the mage Linaniil. Linaniil managed to absorb a small portion of the god's power through a dangerous ritual. This tiny shard of power she acquired made her an archmage without peer, a testament to the sheer might of the gods.]], "_t")
-t("Researcher Dremnot's Demystification of the Gods: Chapter 9 - Xadoch", "Researcher Dremnot's Demystification of the Gods: Chapter 9 - Xadoch", "_t")
-t([[Xadoch held the title of Blight-Weaver. It loved the creatures which crawled close to the earth and toiled in Eyal's filth, but had no love for its sapient races. As such, it was attributed in many mythologies to the creation of numerous diseases and plagues. Some myths stated that there was necessity to Xadoch's presence, as its plagues prevented any one race dominating the world and kept a balance of sorts. On the other hand, many other myths attest that the god had a cruel curiosity. It spread blight across the world and created diseases just to see what sort of effect they would have on sapient life. If it weren't for the other gods on Eyal, it is believed that Xadoch would have scoured the entire world of sapient life.
-
-Xadoch was one of the first gods to be felled in the God Hunt by the hunter Branzir. The Sher'tul had a particular dislike of the god, as it had tried to undermine them with plagues numerous times. Strains of Xadoch's diseases are thought to still be on Eyal to this day, waiting for some unfortunate victim to carry them back to civilisation, so Xadoch may commit one last act of spite against sapient life.]], [[Xadoch held the title of Blight-Weaver. It loved the creatures which crawled close to the earth and toiled in Eyal's filth, but had no love for its sapient races. As such, it was attributed in many mythologies to the creation of numerous diseases and plagues. Some myths stated that there was necessity to Xadoch's presence, as its plagues prevented any one race dominating the world and kept a balance of sorts. On the other hand, many other myths attest that the god had a cruel curiosity. It spread blight across the world and created diseases just to see what sort of effect they would have on sapient life. If it weren't for the other gods on Eyal, it is believed that Xadoch would have scoured the entire world of sapient life.
-
-Xadoch was one of the first gods to be felled in the God Hunt by the hunter Branzir. The Sher'tul had a particular dislike of the god, as it had tried to undermine them with plagues numerous times. Strains of Xadoch's diseases are thought to still be on Eyal to this day, waiting for some unfortunate victim to carry them back to civilisation, so Xadoch may commit one last act of spite against sapient life.]], "_t")
-t("Researcher Dremnot's Demystification of the Gods: Chapter 12 - Ugg'matho", "Researcher Dremnot's Demystification of the Gods: Chapter 12 - Ugg'matho", "_t")
-t([[Ugg'matho was the god responsible for the creation of the trolls. While most Eyalites of the current age think of trolls as dumb brutes, they have frequently proven themselves to be far more clever than they're given credit for. The most commonly attributed dominions of Ugg'matho were the forests and mountains of Eyal. In ancient texts, the title bestowed upon it was 'The Gardener,' for it deeply loved the forests and green places of Eyal. It is thought that it created the trolls in its own image, as savage and powerful stewards of the wild places.
-
-In some legends, there are tales of it reaching down from the sky and annihilating settlements, for it saw civilisation as a blemish on the green canvas of Eyal's surface. In others, it instead chose to alter nature itself to stave off civilisation, creating various plants and guardians to prevent sapient races from plundering its forests for resources. The recurring theme of many of its myths is that it was vehemently opposed to sapient beings living out of harmony with nature.
-
-Ugg'matho was frequently in conflict with other gods in its myths. Many a story tells of how the gods and their chosen champions went on great troll hunts in the wilderness, chasing down Ugg'matho's children in order to wipe them from the face of Eyal. While the tales often described their great success in ridding the wilderness of the troll menace, the sheer number of them throughout the ages suggests that they were not as successful as they made out. One myth stated that Ugg'matho eventually struck a deal with the other gods where they would leave its forests alone and it would leave their creations alone in return. Another states that Ugg'matho was made to submit by the other gods and begrudgingly continued to undermine them in secret.
-
-When Ugg'matho was slained by Branzir, it is said that its blood took on a life of its own, spreading out into the wilderness in the form of living ooze.]], [[Ugg'matho was the god responsible for the creation of the trolls. While most Eyalites of the current age think of trolls as dumb brutes, they have frequently proven themselves to be far more clever than they're given credit for. The most commonly attributed dominions of Ugg'matho were the forests and mountains of Eyal. In ancient texts, the title bestowed upon it was 'The Gardener,' for it deeply loved the forests and green places of Eyal. It is thought that it created the trolls in its own image, as savage and powerful stewards of the wild places.
-
-In some legends, there are tales of it reaching down from the sky and annihilating settlements, for it saw civilisation as a blemish on the green canvas of Eyal's surface. In others, it instead chose to alter nature itself to stave off civilisation, creating various plants and guardians to prevent sapient races from plundering its forests for resources. The recurring theme of many of its myths is that it was vehemently opposed to sapient beings living out of harmony with nature.
-
-Ugg'matho was frequently in conflict with other gods in its myths. Many a story tells of how the gods and their chosen champions went on great troll hunts in the wilderness, chasing down Ugg'matho's children in order to wipe them from the face of Eyal. While the tales often described their great success in ridding the wilderness of the troll menace, the sheer number of them throughout the ages suggests that they were not as successful as they made out. One myth stated that Ugg'matho eventually struck a deal with the other gods where they would leave its forests alone and it would leave their creations alone in return. Another states that Ugg'matho was made to submit by the other gods and begrudgingly continued to undermine them in secret.
-
-When Ugg'matho was slained by Branzir, it is said that its blood took on a life of its own, spreading out into the wilderness in the form of living ooze.]], "_t")
-t("Researcher Dremnot's Demystification of the Gods: Chapter 13 - Urh'Rok", "Researcher Dremnot's Demystification of the Gods: Chapter 13 - Urh'Rok", "_t")
-t([[Urh'Rok is supposedly a god from the world Mal'Rok, who created the race we know as demons. All of the myths regarding Urh'Rok depict him as being a benevolent and thoughtful god, one which had a deep and intimate relationship with his creations. The demons affectionately refer to him as their Father and they have nothing but praise to sing of him. Since there are not many different sources to cross reference, it may not be possible to get an unbiased examination of Urh'Rok's personality.
-
-Their homeworld is described as a collection of fragmented continents held together only by Urh'Rok's will. According to the demons, this was the result of a great cataclysm which came through a Sher'Thul far portal. Their records state this cataclysm occurred roughly at the same time as the Spellblaze did on Eyal. This suggests that the Spellblaze had far reaching consequences beyond our current understanding and could have impacted multiple worlds.
-
-Despite the benevolent and gentle demeanour he has been attributed in his myths, demons have frequently declared their atrocities committed against Eyalites in his name. This contrast in his attitude toward Eyalites and his own creations does not suggest a benevolent disposition, but rather one similar to a father protecting his spoiled children. His existence proves that gods are not a phenomena which are isolated to simply Eyal, but may exist on countless other worlds too.]], [[Urh'Rok is supposedly a god from the world Mal'Rok, who created the race we know as demons. All of the myths regarding Urh'Rok depict him as being a benevolent and thoughtful god, one which had a deep and intimate relationship with his creations. The demons affectionately refer to him as their Father and they have nothing but praise to sing of him. Since there are not many different sources to cross reference, it may not be possible to get an unbiased examination of Urh'Rok's personality.
-
-Their homeworld is described as a collection of fragmented continents held together only by Urh'Rok's will. According to the demons, this was the result of a great cataclysm which came through a Sher'Thul far portal. Their records state this cataclysm occurred roughly at the same time as the Spellblaze did on Eyal. This suggests that the Spellblaze had far reaching consequences beyond our current understanding and could have impacted multiple worlds.
-
-Despite the benevolent and gentle demeanour he has been attributed in his myths, demons have frequently declared their atrocities committed against Eyalites in his name. This contrast in his attitude toward Eyalites and his own creations does not suggest a benevolent disposition, but rather one similar to a father protecting his spoiled children. His existence proves that gods are not a phenomena which are isolated to simply Eyal, but may exist on countless other worlds too.]], "_t")
+-- 20 entries
 t("Mightier than Gods: Preface", "Mightier than Gods: Preface", "_t")
 t([[As part of scholarly pursuits into the nature of Eyal's gods, the role of the Sher'tul in their demise must not be forgotten. It was nine Sher'tul who slayed the gods, figures now known as the Godslayers. Beyond that, little about these individuals can be said with any certainty. The Sher'Tul are believed to have mastered many forms of technology, magical spells and psionic techniques. There is not a single force on Eyal then or now which could hope to match their might. Using these techniques in ways that we could not even guess at, they forged the weapons which would kill Eyal's gods, nine in total for each of the nine Godslayers who would wield them.
 
@@ -1960,12 +1840,6 @@ t("Self-torture", "Self-torture", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-home/zone.lua"
--- 1 entries
-t("The Home Which Is Not", "The Home Which Is Not", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-horrors/grids.lua"
 -- 7 entries
 t("exit to reality", "exit to reality", "entity name")
@@ -2113,16 +1987,6 @@ section "game/dlcs/tome-cults/data/zones/godfeaster/objects.lua"
 t("log entry", "log entry", "entity name")
 t("strange piece of organic matter", "strange piece of organic matter", "entity name")
 t("Organic matter.", "Organic matter.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/godfeaster/zone.lua"
--- 5 entries
-t("The Godfeaster (Alcove)", "The Godfeaster (Alcove)", "_t")
-t("The Godfeaster", "The Godfeaster", "_t")
-t("#OLIVE_DRAB#You can feel tremors in the worm.. A gastric wave is coming! Dodge to an alcove!", "#OLIVE_DRAB#You can feel tremors in the worm.. A gastric wave is coming! Dodge to an alcove!", "say")
-t("#OLIVE_DRAB#The gastric wave is upon you!", "#OLIVE_DRAB#The gastric wave is upon you!", "say")
-t("digestive sack", "digestive sack", "_t")
 
 
 ------------------------------------------------
@@ -2678,47 +2542,7 @@ t("G.E.M", "G.E.M", "newLore category")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/misc.lua"
--- 26 entries
-t("sunwall observatory", "sunwall observatory", "newLore category")
-t("an astronomer's journal", "an astronomer's journal", "_t")
-t([[The strange movement on the far side of Wintertide continues - a shadow here, a tiny speck or flash of light there.  Still obscured and difficult to identify.  Obfuscating magic is likely at work, but whether it's on our end or Wintertide's, I cannot say.
-
-The nebula behind the Neira constellation continues its slow fading.  Star Gerlyk-P is gone now too, and by most current models, Amakthel-N will be next.  If the last century is any indication, the rate of disappearances is accelerating...  this is most worrying, but what may be more worrying is that Star Quekjora-B has reappeared in an abrupt flash of light, powerful enough to illuminate the night sky for a brief moment.  It is oscillating between green and purple now, a far cry from its original glow of pale orange, and does not quite seem to be spherical...  I can feel its power from here just like I can Shandral or our two moons, dimly but growing stronger.  It's impossible to meaningfully speculate on something so unprecedented, so I will not write my theories down here, but none of them are reassuring.
-
-Aside from these phenomena, all is normal.  The cracks on Mal'Rok and the other Spellblaze-blasted planets in other systems are still slowly fading, and the lights on more distant worlds continue to twinkle.  Stars outside the Neira constellation remain steady, or decay according to standard astronomical models.]], [[The strange movement on the far side of Wintertide continues - a shadow here, a tiny speck or flash of light there.  Still obscured and difficult to identify.  Obfuscating magic is likely at work, but whether it's on our end or Wintertide's, I cannot say.
-
-The nebula behind the Neira constellation continues its slow fading.  Star Gerlyk-P is gone now too, and by most current models, Amakthel-N will be next.  If the last century is any indication, the rate of disappearances is accelerating...  this is most worrying, but what may be more worrying is that Star Quekjora-B has reappeared in an abrupt flash of light, powerful enough to illuminate the night sky for a brief moment.  It is oscillating between green and purple now, a far cry from its original glow of pale orange, and does not quite seem to be spherical...  I can feel its power from here just like I can Shandral or our two moons, dimly but growing stronger.  It's impossible to meaningfully speculate on something so unprecedented, so I will not write my theories down here, but none of them are reassuring.
-
-Aside from these phenomena, all is normal.  The cracks on Mal'Rok and the other Spellblaze-blasted planets in other systems are still slowly fading, and the lights on more distant worlds continue to twinkle.  Stars outside the Neira constellation remain steady, or decay according to standard astronomical models.]], "_t")
-t("ureslak's lair", "ureslak's lair", "newLore category")
-t("a note lying in a puddle", "a note lying in a puddle", "_t")
-t([[If you think I'd just leave my plans lying around for anyone to find them, you're an even greater buffoon than Rak'Shor's followers.  You, unlike them, are of no use to me.  [b]Die.[/b]
-
-[i](The bottom half of the paper is illegibly smudged, on account of water dripping onto it from a stalactite above, but has the approximate shape of an explosive-rune trap.  You drop the note, wary of any lingering power it might still have.)[/i] ]], [[If you think I'd just leave my plans lying around for anyone to find them, you're an even greater buffoon than Rak'Shor's followers.  You, unlike them, are of no use to me.  [b]Die.[/b]
-
-[i](The bottom half of the paper is illegibly smudged, on account of water dripping onto it from a stalactite above, but has the approximate shape of an explosive-rune trap.  You drop the note, wary of any lingering power it might still have.)[/i] ]], "_t")
-t("dropped demonic orders", "dropped demonic orders", "_t")
-t([[I'm not going to lie to you: things aren't going great.  Between the Doomelf escape incidents, the deaths of Khulmanar and a great deal of our more expensive combatants at the hands of the Anomaly, and the disappearance of the First Duathedlen, we've been set back pretty far this year.  As such, your orders are simple: lay low.  Stay out of sight, and conduct passive observation until we can get a foothold and a new plan.
-
-And regarding the First Duathedlen - quit your murmuring right now.  I've seen his track record, and I know most of you know it too, which is why we can safely say that despite his... nature, his loyalty is [b]not[/b] in question - we can assume his abrupt cessation of communication is a necessary part of his investigations, and not him going rogue.  If you see him, tell us of his whereabouts, but do not interfere.
-
-[i](The letter is signed with an unreadable but formal-looking demonic seal.)[/i] ]], [[I'm not going to lie to you: things aren't going great.  Between the Doomelf escape incidents, the deaths of Khulmanar and a great deal of our more expensive combatants at the hands of the Anomaly, and the disappearance of the First Duathedlen, we've been set back pretty far this year.  As such, your orders are simple: lay low.  Stay out of sight, and conduct passive observation until we can get a foothold and a new plan.
-
-And regarding the First Duathedlen - quit your murmuring right now.  I've seen his track record, and I know most of you know it too, which is why we can safely say that despite his... nature, his loyalty is [b]not[/b] in question - we can assume his abrupt cessation of communication is a necessary part of his investigations, and not him going rogue.  If you see him, tell us of his whereabouts, but do not interfere.
-
-[i](The letter is signed with an unreadable but formal-looking demonic seal.)[/i] ]], "_t")
-t("bootlegger's complaint letter", "bootlegger's complaint letter", "_t")
-t([[Look, I know the whole point of this market was to make a place for ANY sort of open trade, without the Allied Kingdoms' scryers breathing down our necks, and I know it's not exactly feasible to set up another portal off the continent...  but do you have any idea how bad it is for business to have the slavers using this with us?  Nobody's going to want to have a nice mug of unregulated-strength ale or pick up a shiny new stolen necklace when, not ten yards away, some helpless person is being led away in chains and wailing in misery.
-
-I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], [[Look, I know the whole point of this market was to make a place for ANY sort of open trade, without the Allied Kingdoms' scryers breathing down our necks, and I know it's not exactly feasible to set up another portal off the continent...  but do you have any idea how bad it is for business to have the slavers using this with us?  Nobody's going to want to have a nice mug of unregulated-strength ale or pick up a shiny new stolen necklace when, not ten yards away, some helpless person is being led away in chains and wailing in misery.
-
-I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], "_t")
-t("wand-smuggler's apology letter", "wand-smuggler's apology letter", "_t")
-t([[My sincerest apologies, Admiral.  I received the conjuration wands in bulk, and I had no idea that several of them were merely wands of trap destruction - testing each one would have drained some charge from each, providing an inferior product.
-
-I will be retrieving what portion of the cheerblossom I can get from my deceptive supplier, or her head - whichever you would prefer.  At that point, I will ask that you please consider revoking my banishment from your marketplace.]], [[My sincerest apologies, Admiral.  I received the conjuration wands in bulk, and I had no idea that several of them were merely wands of trap destruction - testing each one would have drained some charge from each, providing an inferior product.
-
-I will be retrieving what portion of the cheerblossom I can get from my deceptive supplier, or her head - whichever you would prefer.  At that point, I will ask that you please consider revoking my banishment from your marketplace.]], "_t")
+-- 14 entries
 t("slaver's inquiry", "slaver's inquiry", "_t")
 t([[The anti-scrying nexus you folk set up here is damn impressive, as is the time-release pseudo-rune powered by it - hard to find a spare spot on my skin for it, but I can feel it working for a few days after I'm back in Maj'Eyal.  Great for making sure we can get away from the West portal and disperse without the A.K. catching on or tracking us to a common point of convergence.
 
@@ -5133,6 +4957,12 @@ section "game/modules/tome/data/chats/player-inscription.lua"
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/chats/ring-of-blood-master.lua"
+-- 1 entries
+t("You think so? Die.", "You think so? Die.", "_t")
 
 
 ------------------------------------------------
@@ -7979,7 +7809,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 59 entries
+-- 57 entries
 t("tract of destruction", "tract of destruction", "_t")
 t("tract of anarchy", "tract of anarchy", "_t")
 t("tract of acceptance", "tract of acceptance", "_t")
@@ -8356,7 +8186,6 @@ t([[Sixth time this week stuck guarding at the stash. And for what? Just a littl
 Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], [[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
 
 Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], "_t")
-t("Boss's Journal", "Boss's Journal", "_t")
 t([[The best haul we ever got, gone. We could have been set for life, the most legendary outlaws in all the lands! Villages would tremble at the thought of us roaming the woods.
 
 Only a matter of time until that nobleman catches wind and comes after us. We were about to get more gold than we could count for his lassie back, and that dirt farmer set her on fire. Of all the skullbrained things to do for fun!
@@ -8370,7 +8199,6 @@ Only a matter of time until that nobleman catches wind and comes after us. We we
 Ordered my men to kill any who pass by and been running triple guard. We need all the time we can get before they come for us, can't let any word out. Once we find somewhere new, I'll leave that idiot burnt on a stake as tribute and hope we don't catch chase. 
 
 I'm going to enjoy hearing his screams, a log on the pyre a gold he cost us. Nice and slow, need to make sure he doesn't die easy.]], "_t")
-t("How to Summon a Phoenix", "How to Summon a Phoenix", "_t")
 t([[#{bold}#How to Summon a Phoenix#{normal}#
 	  10 pouches faeros ash
 	  5 vials fire wyrm saliva
@@ -9882,20 +9710,16 @@ t("A small scrap of paper written in a mocking tone.", "A small scrap of paper w
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/bandit-fortress.lua"
--- 5 entries
+-- 2 entries
 t("bandit fortress", "bandit fortress", "_t")
-t("stairs back to %s", "stairs back to %s", "_t")
-t("#rng# the Guard", "#rng# the Guard", "_t")
 t("Guard's Journal", "Guard's Journal", "_t")
-t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose papers.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/collapsed-tower.lua"
--- 3 entries
+-- 2 entries
 t("elemental crystal", "elemental crystal", "_t")
 t("collapsed tower", "collapsed tower", "_t")
-t("stairs back to %s", "stairs back to %s", "_t")
 
 
 ------------------------------------------------
@@ -9919,105 +9743,6 @@ t("Elite Combat Trainer #rng#", "Elite Combat Trainer #rng#", "_t")
 section "game/modules/tome/data/maps/vaults/lava_island.lua"
 -- 1 entries
 t("#rng# the Witherer", "#rng# the Witherer", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/renegade-pyromancers.lua"
--- 3 entries
-t("How to Summon a Phoenix", "How to Summon a Phoenix", "_t")
-t("An old and singed scroll, the bottom half burnt off.", "An old and singed scroll, the bottom half burnt off.", "_t")
-t("#rng# the Flamebringer", "#rng# the Flamebringer", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/renegade-undead.lua"
--- 4 entries
-t("Grand Necromancer #rng#", "Grand Necromancer #rng#", "_t")
-t("Inquisitor #rng#", "Inquisitor #rng#", "_t")
-t("#rng# the Tortured Mass", "#rng# the Tortured Mass", "_t")
-t("Tortured Mass #rng#", "Tortured Mass #rng#", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/renegade-wyrmics.lua"
--- 6 entries
-t("#rng# the Herald", "#rng# the Herald", "_t")
-t("Beastmaster #rng#", "Beastmaster #rng#", "_t")
-t("#rng# the Flame Terror", "#rng# the Flame Terror", "_t")
-t("#rng# the Storm Terror", "#rng# the Storm Terror", "_t")
-t("#rng# the Frozen Terror", "#rng# the Frozen Terror", "_t")
-t("#rng# the Caustic Terror", "#rng# the Caustic Terror", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/test.lua"
--- 2 entries
-t("#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "#PINK# Test vault onplace function called: zone:%s, level:%s, map:%s", "log")
-t("#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "#PINK# Test vault roomCheck function called: zone:%s, level:%s, map:%s", "log")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/trickvault.lua"
--- 2 entries
-t("#YELLOW#The air comes alive with terrible magics!", "#YELLOW#The air comes alive with terrible magics!", "logPlayer")
-t("#YELLOW#The world spins around you!", "#YELLOW#The world spins around you!", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/wilderness/eyal.lua"
--- 2 entries
-t("Island of Rel", "Island of Rel", "_t")
-t("Tar'Eyal", "Tar'Eyal", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/zones/bandit-fortress.lua"
--- 5 entries
-t("#rng# the Guard", "#rng# the Guard", "_t")
-t("#rng# the Thug", "#rng# the Thug", "_t")
-t("Bandit Leader #rng#", "Bandit Leader #rng#", "_t")
-t("Boss's Journal", "Boss's Journal", "_t")
-t("A messily scrawled pile of loose papers.", "A messily scrawled pile of loose papers.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/zones/collapsed-tower.lua"
--- 1 entries
-t("arcane crystal", "arcane crystal", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/zones/halfling-ruins-last.lua"
--- 2 entries
-t("Long tunnel to the island of Rel", "Long tunnel to the island of Rel", "_t")
-t("As you enter the tunnel you feel a strange compulsion to go backward.", "As you enter the tunnel you feel a strange compulsion to go backward.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/zones/tannen-tower-1.lua"
--- 1 entries
-t("open sky", "open sky", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/zones/tempest-peak-top.lua"
--- 1 entries
-t("open sky", "open sky", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/zones/valley-moon.lua"
--- 2 entries
-t("A dark hole in the mountain", "A dark hole in the mountain", "_t")
-t("Passage to the caverns", "Passage to the caverns", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/mapscripts/lib/subvault.lua"
--- 3 entries
-t("stairs back to %s", "stairs back to %s", "_t")
-t("It is fully collapsed, no way down.", "It is fully collapsed, no way down.", "_t")
-t("#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "#VIOLET# The stairway is about to collapses completely, you may still go back but it will be the last time!", "log")
 
 
 ------------------------------------------------

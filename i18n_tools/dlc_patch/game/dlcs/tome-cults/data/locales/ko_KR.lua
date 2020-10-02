@@ -3,15 +3,38 @@ locale "ko_KR"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/achievements/all.lua"
 
+t("You were not supposed to see that!", "그걸 봐선 안 됐어!", "achievement name")
+t("Read a Forbidden Tome.", "금지된 고서를 읽었다.", "_t")
+t("Bookception!", "북셉션!", "achievement name")
+t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "금지된 고서: \"지식과 공포에 관해\" 안에서 금지된 고서를 보상으로 찾아냈다.", "_t")
+t("Recursive Home of Recursion", "집 안에 집이 있고 안에 또 집이 있고", "achievement name")
+t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "집같지 않은 우리 집 바닥에 금지된 고서: \"집, 무시무시한 집\" 을 놔 두었다.", "_t")
+t("They Came From Outer Space!", "외우주에서 왔었어!", "achievement name")
+t("Discovered the true origin of dwarves and drems.", "드워프와 드렘의 진짜 기원을 찾아냈다.", "_t")
+t("The True Coward", "진정한 겁쟁이", "achievement name")
+t("Win without having saved Kroshkkur, Derth, the lost merchant, Melinda and lady Aeryn.", "크로슈쿠르도, 데르스도, 길 잃은 상인도, 멜린다도, 아에린도 구하지 않고 게임에서 승리했다.", "_t")
+t("Sequence Master", "배열의 달인", "achievement name")
+t("Use 5 different glyph sequences.", "적절한 문양 배열을 다섯 종류 사용했다.", "_t")
+t("Is that how it feels to be an escort quest?!", "호위 임무는 이런 느낌인거야?!", "achievement name")
+t("Got saved from death in the Godfeaster by Malyu and managed to escape.", "신 포식자의 내부에서 죽을 뻔했고, 말류에게 구해졌다. 그리고 함께 탈출하는 데 성공했다.", "_t")
+t("Not Really Yourself", "진짜 네가 아니야", "achievement name")
+t("Let a parasitic horror take over your body and watch it grow in power.", "기생하는 공포가 자신의 몸을 뺏도록 하고, 그게 강하게 자라는 걸 보았다.", "_t")
+t("Myths of an age past", "옛 시대의 신화", "achievement name")
+t("Learned all there is to learn about the Gods and the Godslayers.", "신들과 신살자들에 대한 것을 모두 알았다.", "_t")
+t("Dethroned", "이제 네 자리 아니야", "achievement name")
+t("Vanquished the Glass Golem without letting it use the glass throne to heal.", "유리 골렘이 왕좌를 쓰지 못하게 하고 물리쳤다.", "_t")
 t("A View From The Gallery", "회랑에서 본 것", "achievement name")
+t("Briefly lived as a lowly halfling during the time of the Sher'tuls.", "쉐르'툴의 시대에 살던 하찮은 하플링의 인생을 체험했다.", "_t")
+t("Entropy's End", "엔트로피의 종말", "achievement name")
+t("Destroyed the Hypostasis of Entropy.", "엔트로피의 위격을 파괴했다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/birth/demented.lua"
 
 t("Demented", "광인", "birth descriptor name")
-t("The thirst for knowledge is seen by most arcane users as as good thing.", "지식욕은 대부분의 주문 사용자들에게 있어서 좋은것으로 인식됩니다.", "_t")
-t("But some take it too far, some delve into lost knowledge. They may gain huge power from it, but at what cost?", "하지만... 몇몇 이들은 잃어버린 지식을 탐구 하거나... 가끔은 너무 멀리 나가고 맙니다. 강력한 힘을 얻을 수 있겠지만, 어떤 대가를 치루게될까요?", "_t")
+t("The thirst for knowledge is seen by most arcane users as as good thing.", "지식욕은 대부분의 주문 사용자들에게 있어서 좋은 것으로 인식됩니다.", "_t")
+t("But some take it too far, some delve into lost knowledge. They may gain huge power from it, but at what cost?", "하지만... 몇몇 이들은 잃어버린 지식을 탐구하거나... 가끔은 너무 멀리 나가고 맙니다. 강력한 힘을 얻을 수 있겠지만, 어떤 대가를 치르게 될까요?", "_t")
 t("Writhing One", "뒤틀린 자", "birth descriptor name")
 t("Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "뒤틀린 자들은 우리가 #{italic}#공포체#{normal}# 라고 불리는 것들이 아지랑이의 시대부터 내려오는 고대의 지식과 힘에 대한 열쇠를 쥐고있다는 걸 알고, 그 힘과 지식에 접근하기 위해 어떤 짓이든 할 준비가 되어있습니다.", "_t")
 t("In their lust for power they somehow lost a part of themselves, turning more and more into the horrors they study.", "그들의 힘에 대한 집착 속에서, 그들은 자신의 몸 일부를 잃어버리고, 그들이 연구하는 공포체로 서서히 변해갑니다.", "_t")
@@ -147,7 +170,7 @@ t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/birth/misc.lua"
 
-t("Golem becomes a Glass Golem", "골렘이 유리 골렘이됩니다", "_t")
+t("Golem becomes a Glass Golem", "골렘이 유리 골렘이 됩니다", "_t")
 
 
 ------------------------------------------------
@@ -158,11 +181,37 @@ section "game/dlcs/tome-cults/data/chats/fanged-collar.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/chats/godfeaster-malyu-escaped.lua"
 
+t([[#DARK_SEA_GREEN##{italic}#Fresh air!#{normal}##LAST#
+Nice job! You handled yourself a lot better than I thought you would. Now, usually I get a reward... What? Why are you looking at me like that? I'm obviously the one who saved you here. It's customary for adventurers to get rewarded when they do a good deed.]], [[#DARK_SEA_GREEN##{italic}#신선한 공기다!#{normal}##LAST#
+잘 했어! 너 내가 생각했던 것보다 훨씬 잘 하던걸? 보통은, 이쯤에서 내가 보상을 받는데 말이야... 응? 왜 그렇게 쳐다보는데? 내가 널 여기서 구해냈잖아. 모험가가 좋은 일을 했을 때 보상을 주는 건 당연한 관습이라고.]], "_t")
+t("[Offer to teach her '%s'.]", "[그녀에게 가르쳐준다: '%s'.]", "tformat")
+t("[Offer her stat increases.]", "[그녀의 능력치를 올려준다.]", "_t")
+t("[Offer her nothing.]", "[그녀에게 아무것도 주지 않는다.]", "_t")
+t("Oh this will sure come in handy! Thanks!", "우와, 이거 진짜 유용하겠어! 고마워!", "_t")
+t("I always did want to learn how to do these kind of things!", "항상 이런 걸 한 번쯤 배워보고 싶었는데 말이야!", "_t")
+t("Oh, I suddenly feel like I have potential to grow.", "앗, 나 갑자기 느낀 건데, 아직 성장할 잠재성이 있는 거 같아.", "_t")
+t("Take care!", "조심해서 가!", "_t")
+t("...Fine, be that way. Good luck out there, though.", "하... 알겠어, 그렇게 해. 그래도 뭐 잘 지내라고.", "_t")
+t("You too!", "너도!", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/chats/godfeaster-malyu.lua"
 
+t("#DARK_SEA_GREEN##{italic}#As you move you suddenly find yourself entrapped in a hidden digestive sack that seems to void all your abilities!#{normal}##LAST#", "#DARK_SEA_GREEN##{italic}#움직이다가 갑자기, 숨겨져 있던 소화 자루 속에 갇혀 버렸습니다! 이 안에선 힘을 쓰지 못하는 것 같습니다.#{normal}##LAST#", "_t")
+t("[try to kick your way out]", "[발로 차서 탈출구를 만들어 본다]", "_t")
+t("[try to cut your way out]", "[베어내서 탈출구를 만들어 본다]", "_t")
+t("[try to shout your way out]", "[소리를 질러 탈출구를 만들어 본다]", "_t")
+t([[#DARK_SEA_GREEN##{italic}#As were starting to lose hope you hear some kind of cutting.#{normal}##LAST#
+There's someone else in here?]], [[#DARK_SEA_GREEN##{italic}#희망을 잃어가기 시작할 때쯤, 뭔가 베는 것 같은 소리가 들렸습니다.#{normal}##LAST#
+여기 누구 있어?]], "_t")
+t("Who..what.. YES!", "뭐...누구... 여기 사람 있어!", "_t")
+t([[#DARK_SEA_GREEN##{italic}#As the sack gets cut and you regain your mobility you see your savior is some kind of adventurer, she was probably eaten by the Godfeaster too.#{normal}##LAST#
+This thing ate you too? Hey, at least you've got company. Name's Malyu, I've been stuck in here for a few days now and had to tough it out alone. I was about to go for this thing's brain when you showed up. What say we team up and get out of here together?
+]], [[#DARK_SEA_GREEN##{italic}#자루가 갈라져 다시 움직일 수 있게 되자, 당신을 구원해준 게 모험가라는 것을 알게 되었습니다. 그녀도 아마 신 포식자에게 잡아먹혔을 것입니다.#{normal}##LAST#
+이놈이 너도 집어삼킨 거야? 이봐, 그래도 이제 같이 갈 사람을 찾았네. 내 이름은 말류고, 여기 며칠간 갇혀 있었고 이제 혼자서 여길 빠져나가려 했었지. 이놈의 뇌를 처리하려 가고 있었는데, 네가 보였어. 나랑 같이 여기서 나가는 건 어때?
+]], "_t")
+t("I am glad for the help, you saved me. Let's kill this thing and get out!", "도와줘서 고마워, 네가 날 구했어. 어서 이놈을 죽이고 여기서 나가자!", "_t")
 t("Malyu", "말류", "_t")
 
 
@@ -202,9 +251,17 @@ section "game/dlcs/tome-cults/data/factions.lua"
 section "game/dlcs/tome-cults/data/general/encounters/maj-eyal.lua"
 
 t("harmless", "무해한", "entity type")
+t("Way to a strange portal", "이상한 차원문으로 가는 길", "_t")
+t("Godfeaster", "신 포식자", "entity name")
 t("hostile", "적대적인", "entity type")
 t("special", "특별한", "entity subtype")
 t("Encounter", "만남", "_t")
+t([[The ground suddenly shakes under your feet and a giant worm appears to gobble you up!
+You could try to escape using the Rod of Recall or accept your fate.]], [[갑자기 발밑의 땅이 흔들리고, 거대한 벌레가 튀어나와서 당신을 집어삼키려 합니다!
+탈출하기 위해 귀환의 장대를 사용하거나, 아니면 그대로 운명을 받아들일 수도 있습니다.]], "_t")
+t("You manage in extremis to activate the rod in emergency. As you keep on falling towards the maw of the worm the rod finishes charging up and you re-appear nearby, safe from the monstrosity.", "극한 상황에서 간신히 장대를 발동시켰다. 벌레의 입 안쪽으로 떨어지고 있는 도중에, 장대가 완전히 충전되었고 근처로 순간이동되어 위기를 넘겼다.", "log")
+t("Accept your fate", "자신의 운명을 받아들인다", "_t")
+t("Use the rod", "장대를 사용한다", "_t")
 
 
 ------------------------------------------------
@@ -212,6 +269,7 @@ section "game/dlcs/tome-cults/data/general/encounters/tar-eyal.lua"
 
 t("harmless", "무해한", "entity type")
 t("special", "특별한", "entity subtype")
+t("Way to a strange portal", "이상한 차원문으로 가는 길", "_t")
 
 
 ------------------------------------------------
@@ -219,6 +277,7 @@ section "game/dlcs/tome-cults/data/general/encounters/var-eyal.lua"
 
 t("harmless", "무해한", "entity type")
 t("special", "특별한", "entity subtype")
+t("Way to a strange portal", "이상한 차원문으로 가는 길", "_t")
 
 
 ------------------------------------------------
@@ -526,7 +585,7 @@ t("I love the smell of a fresh corpse.", "음 나는 신선한 시체 냄새가 
 t("Splatter me with the blood of our foes!", "적들의 피로 나를 적셔줘!", "_t")
 t("That one wasn't such an impressive kill...", "방금 거는 그렇게 인상적이지 않은 것 같은데...", "_t")
 t("Getting a bit sloppy on the kills no?", "너 좀 대충한거 같다?", "_t")
-t("Forbidden Tome: \"Of Knowledge And Horrors\"", "금지된 고서 : \"지식과 공포에 관해\"", "entity name")
+t("Forbidden Tome: \"Of Knowledge And Horrors\"", "금지된 고서: \"지식과 공포에 관해\"", "entity name")
 t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "잃어버린 지식의 두꺼운 고서로, 만지기만해도 토할 것 같습니다.", "_t")
 t([[The book of horrors,
 the book of terrors,
@@ -547,7 +606,7 @@ Read now for a fate worse than death inside awaits.
 책을 읽은 이는 고통 너머의 고통을 알게될 것이다.
 읽어라. 죽음보다 더 극심한 운명이 기다린다.
 ]], "_t")
-t("Forbidden Tome: \"The Day It Came\"", "금지된 고서 : \"그것이 온 날\"", "entity name")
+t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
 t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 댓가로 치뤄야할까요?", "_t")
 t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 떄, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '교사'로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
 t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이 일은 일어나지 않았다.", "_t")
@@ -558,7 +617,7 @@ t("The importance of magic (+5 magic)", "마법의 중요성 (마법 +5)", "_t")
 t("The importance of wisdom (+5 willpower)", "지혜의 중요성 (의지 +5)", "_t")
 t("The Day It Came", "그것이 온 날", "_t")
 t("This chapter has taught your some important lesson. What did you learn?", "이 장은 당신에게 중요한 교훈을 가르칠 것입니다. 배우시겠습니까?", "_t")
-t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서 : \"회랑에서 본 것\"", "entity name")
+t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서: \"회랑에서 본 것\"", "entity name")
 t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "그룽, 부족에서 떨어저 나온 하플링으로, 고대의 끔찍한 전쟁에서 살아남으려고 노력합니다. 그에 대한 이야기입니다", "_t")
 t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "오늘 밤은 매우 춥고, 당신은 낮 동안 먹을 것을 아무것도 찾지 못했습니다. 당신의 털가죽은 추위를 막아주는데 별 도움이 되질 않습니다. 당신은 사냥하러 나갈 참이지만, 다른 사람들은 모두 그러지 말라고 말렸습니다. 밤은 위험하고, 하늘에서는 이상한 빛이 나타났습니다. 과장없는, 불길한 징조. 요즘 식량을 얻기가 꽤 힘들어 졌기 때문에, 모든 부족민이 당신만큼 굶주려 있습니다.", "_t")
 t("Poor Grung. All he wanted was food, but what he found instead was death.", "가엾은 그룽. 그가 원한건 단지 식량이였는데, 결국엔 죽어버렸습니다.", "_t")
@@ -570,7 +629,7 @@ t("The importance of reflexes (+5 dexterity)", "반사신경의 중요성 (민�
 t("The importance of a honed mind (+5 cunning)", "연마한 마음의 중요성 (교활 +5)", "_t")
 t("A View From The Gallery", "회랑에서 본 것", "_t")
 t("This chapter has taught your some survival tips. What did you learn?", "이 장은 당신에게 중요한 생존 전략을 가르칠 것입니다. 배우시겠습니까?", "_t")
-t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서 : \"환상의 성\"", "entity name")
+t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서: \"환상의 성\"", "entity name")
 t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "당신 앞에 놓인 고서는 꿈에서나 나왔을 것 같은 가죽과 양피지로 이루어저 있습니다. 수정 조각이 표면에서 기이한 빛으로 춤을 추고 있어, 불가해한 논리에 세상이 변하가는 것 같은 느낌을 받습니다.", "_t")
 t([[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
 
@@ -1718,17 +1777,17 @@ I turned towards the soldier who nodded in the direction of the main battlement 
 
 나는 가로수길을 걸으면서 지금까지의 일을 되돌아보고 있었다. 난 지금 이 자리에 한 병사로서 순찰을 돌고 있다. 마법 폭발로부터 33년이 지났지만 그때의 일은 내 마음과 몸에 깊게 박혀있다. 난 여러가지 사건들을 헤쳐나가며 결국 엘발라에서 샬로레와 함께 살고 있다. 난 샬로레를 도우러 여기까지 왔으나 결국은 그들 또한 나를 도왔다. 난 함께 훈련했던 병사들 중 한 명과 사랑에 빠져 그와 가족이 되었다. 지금에 이르러서도 난 지금 엘발라 바깥이 어떤지, 탈로레의 고향은 어떤지 궁금했다. 내가 한때 원했듯이 바깥 세상으로 떠나고 싶기도 했다.
 
-순찰을 끝내고 숲속으로 난 옛길을 통해 돌아갔다. 그 와중에 엘발라의 관리들과 위병이 멀리서 보였다. 그들에가 다가가자 난 그드르이 발치에 놓인 썩어가는 시체를 발견했다. 시체를 쳐다보는 것만으로도 한기가 느껴졌다. 지금까지 느꼈던 무엇보다도, 내 안의 어두운 힘보다도 사악한 힘이었다. 관리들 중 하나가 날 발견하고 돌아보며 단도직입적으로 말했다. "페이, 빨리 장막 바깥으로 나가서 주변을 살펴보게. 뭔가 이상한 게 있다면 보고하게." 그 요청 속에서 다급함이 느껴졌고, 나는 곧바로 장막을 뚫고 바깥으로 나갔다.
+순찰을 끝내고 숲속으로 난 옛길을 통해 돌아갔다. 그때 멀리서 엘발라의 관리들과 위병이 보였다. 가까이 다가가자 그들의 발치 아래 썩어가는 시체가 놓여있는 것이 보였다. 시체를 쳐다보는 것만으로도 한기가 느껴졌다. 지금까지 느꼈던 그 무엇보다도, 내 안의 어두운 힘보다도 사악한 힘이었다. 관리들 중 하나가 날 발견하고 돌아보며 단도직입적으로 말했다. "페이, 빨리 장막 바깥으로 나가서 주변을 살펴보게. 뭔가 이상한 게 있다면 보고할 수 있도록." 그 지시 속에서 다급함이 느껴졌고, 나는 곧바로 장막을 뚫고 바깥으로 나갔다.
 
 뿌연 안개를 헤쳐나가며 처음 엘발라를 떠났던 순간을 떠올렸다. 나는 이 마법의 장벽을 수도없이 빠져나가 장막 바깥에서 오도가도 못 하는 이들을 구해내고 나르골의 사자나 상인들을 안내하기도 했다. 그러나 이번엔 심상치 않은 예감이 들었다. 난 두 시간 동안 신중하게 장막을 빠져나갔고 마침내 반대편의 바깥 세계의 모습이 보이기 시작했다. 장막의 거의 마지막 부분을 통과할 때, 목구멍에서 짜내는 듯한 신음소리가 들렸다. 이내 커다란 형상이 팔을 이리저리 휘두르며 나에게 뛰어들었다.
 
 갑작스런 공격에 미처 피하지 못 하고, 일격이 내 가슴팍에 꽂혔다. 엄청난 힘이 강철판금을 뚫고 내 온 몸에 전해졌고, 나는 완전히 나가떨어지며 넘어졌다. 괴물은 곧바로 달려들어 얼굴을 내 팔에 들이밀고 내 팔을 꽉 깨물었다. 이빨이 철장갑을 뚫었고, 왼팔에서 쓰라리는 격통이 솟구쳤다. 무언가 내 몸 안으로 흘러들어와 힘이 빠지고 가누기 힘들어졌다. 적의 정체를 알 수 없었으나, 내 안에서 증오가 끓어올랐다. 남은 것은 그 증오를 해방하는 일 뿐이었다.
 
-나는 반격하며 왼손의 열선 발사 룬을 발동시켰다. 괴물은 내 팔에서 재빠르게 떨어져나가 온 몸이 불길에 타오르며 비명을 질렀다. 이 기회를 놓치지 않고 그 괴물을 두들겨 팼고, 상대는 반격을 하려고 이리저리 팔을 휘둘렀다. 난 그 순간을 놓치지 않고 괴물의 몸을 가르는 치명적인 일격을 날렸다. 일격을 날린 후 나는 그 자리에 멈췄다. 당연히 상대는 죽은 채로 널부러져 있을 것이라 생각했다. 그러나 괴물은 튕겨나오듯 다시 일어나 나를 공격하려고 했다. 나는 경악하면서도 공격을 손쉽게 피한 뒤, 칼을 휘둘러 목을 반쯤 잘라버렸고, 그제서야 괴물은 죽었다.
+나는 반격하며 왼손의 열선 발사 룬을 발동시켰다. 괴물은 내 팔에서 재빠르게 떨어져 나갔고, 온 몸이 불길에 타올라 비명을 질렀다. 빈틈을 주지 않고 곧바로 그 괴물을 두들겨 팼고, 상대는 반격을 하려는듯 이리저리 팔을 허공에 휘둘렀다. 난 그 순간을 놓치지 않고 괴물의 몸을 가르는 치명적인 일격을 날렸다. 일격을 날린 후 나는 그 자리에 멈췄다. 당연히 상대는 죽은 채로 널부러져 있을 것이라 생각했다. 그러나 괴물은 튕겨나오듯 다시 일어나 나를 공격하려고 했다. 나는 경악하면서도 공격을 손쉽게 피한 뒤, 칼을 휘둘러 목을 반쯤 잘라버렸고, 그제서야 괴물은 죽었다.
 
-그러고 나서야 나는 그 괴물이 무엇인지 살펴볼 기회가 생겼다. 괴물의 눈알 한 쪽이 빠져 있었다. 두 눈을 껌뻑거리면서도 시체를 제대로 쳐다보니, 내가 싸웠던 괴물은 진짜로 썩어가던 시체였다. 주변에 불사자가 있는지 인근 지역을 둘러보기 시작했다. 주변에는 다 죽은 시체들이 걸어다니고 있었으나 아직 내 존재를 눈치채진 못 했다. 이들을 모두 처리하려고 은밀히 다가갔으나, 주변의 땅이 매우 질퍽거리고 진탕이 되어 처리 작업은 아주 어려울 것이라고 직감했다. 그 순간 이 주변이 왜 진흙탕이 되어있는 것인지 의문이었다. 그리고 주변의 발자국들을 살펴보니, 그것들은 모두 장막을 향하고 있었다.
+그러고 나서야 나는 그 괴물이 무엇인지 자세히 살펴볼 기회가 생겼다. 괴물의 눈알 한 쪽이 빠져 있었다. 어안이 벙벙하여 두 눈을 껌뻑거리면서도 시체를 제대로 살펴보니, 내가 싸웠던 괴물은 진짜로 썩어가던 시체였다. 주변에 불사자가 있는지 인근 지역을 둘러보기 시작했다. 주변에는 다 죽은 시체들이 걸어다니고 있었으나 아직 내 존재를 눈치채진 못 했다. 이들을 모두 처리하려고 은밀히 다가갔으나, 주변의 땅이 매우 질퍽거리고 진탕이 되어 처리 작업은 아주 어려울 것이라고 직감했다. 그런데 이 주변이 왜 진흙탕이 되어있는 것인지 의문이었다. 그리고 주변의 발자국들을 살펴보니, 그것들은 모두 장막을 향하고 있었다.
 
-엘발라가 처한 위기를 직감하고 난 즉시 귀환의 룬을 발동시켰다. 그리고 나는 도시의 성벽 안으로 돌아와 있었다. 경치가 바뀌자마자 샬로렌 병사 하나가 내게 다가오더니 그 자리에서 쓰러졌다. 병사는 곧 일어서서 "미안"이라고 말하더니 날 보조하기 위해 왼쪽 겨드랑이에 손을 넣었다. 그때 내 팔에 난 상처를 보고 험악한 눈빛으로 말했다. "너가 봤던 불사자들에 대해 사령관님께 빨리 보고해. 너가 정찰을 나갔을 때에 장막을 뚫고 시체 몇 놈이 들어왔어."
+엘발라가 처한 위기를 직감하고 난 즉시 귀환의 룬을 발동시켰다. 그리고 나는 도시의 성벽 안으로 돌아와 있었다. 경치가 바뀌자마자 샬로렌 병사 하나가 내게 다가오더니 그 자리에서 쓰러졌다. 병사는 곧 일어서서 "미안"이라고 말하더니 날 보조하기 위해 왼쪽 겨드랑이에 손을 넣었다. 그때 내 팔에 난 상처를 보고 진중한 눈빛을 보이며 말했다. "너가 봤던 불사자들에 대해 사령관님께 빨리 보고해. 너가 정찰을 나갔을 때에 장막을 뚫고 시체 몇 놈이 들어왔어."
 
 엘발라의 북쪽 숲을 마주하는 주 방위선 방향으로 그 병사가 고개를 까딱였다. 나는 고개를 끄덕이며 엘발라 정문 위의 우뚝 솟은 탑을 향해 갔다. 순찰대장은 거기 있을 테니까. 방벽 아래에 모여 진형을 짜는 병사들을 가로질러 탑을 올라갔다. 마법사들과 궁수들도 전투 태세를 갖추기 위해 계단을 오르고 있었다. 내가 계단을 오르는 모습을 본 순찰대장이 날 큰 소리로 불렀고, 난 무슨 일이 있었는지 보고하기 위해 곧바로 달렸다. 대장은 보고를 들으면서 표정이 굳어졌고, 장막 쪽을 향해 고개를 돌리며 욕을 내뱉었다.]], "_t")
 t("Escapades of Fay Willows [Book 5, Chapter 2] - Elvala Under Attack", "페이 윌로우즈의 여행기 [5권, 제 2장] - 엘발라, 공격을 받다", "_t")
@@ -1794,6 +1853,52 @@ t([[Ralkur, the god of illusions and deceit, was perhaps the most petty god of E
 When the god slayer Branzir came for it, Ralkur came to know fear and fled. The chase between god and god slayer was the stuff of legend, and many myths tell of the great trials which Branzir overcame in his pursuit of Ralkur. In the last moments of the chase, Ralkur was spared and told to leave Eyal by Branzir. However, Ralkur later returned and struck a terrible blow against Branzir's homestead, slaying his family and his servants. The already driven Branzir became obsessed with Ralkur and chased it across the entirety of Eyal. Having nowhere else to run after stumbling into a dungeon, Ralkur chose to go down into Eyal's depths, creating layer upon layer of illusions, creatures and distractions to prevent the relentless Branzir from catching it. Since no one can enter this dungeon without leaving, it can only be guessed at how deep the dungeon has become. Some say it is even infinite and that the chase between hunter and hunted continues to this day.]], [[환상과 기만의 신 랄쿠르는 아마도 에이얄에서 가장 옹졸한 신이었을 것이다. 랄쿠르에 관한 신화는 상당수가 비극적인데, 미심쩍은 낯선이를 믿은 신화의 주인공이 몰락하게 되는 이야기가 많다. 이러한 이야기에 일관성이 있기 때문에 랄쿠르는 거시적 관점에서 간섭하는 것보다 훨씬 더 작은, 미시적 관점에서 간섭하는것을 선호했다고 결론지을 수 있다. 랄쿠르는 무엇이 필멸 종족을 몰아세울수 있고 자신이 어떻게 한 사람을 말과 영리한 거짓말만을 통해 파멸로 몰고 갈 수 있는지를 이해함에 기뻐했다. 랄쿠르는 항상 이야기의 끝자락에선 자신을 드러냈고, 불행한 희생자는 그들이 내내 속았다는 것을 깨달았다. 그런 의미에서 랄쿠르는 다른 신들과 구별되는 방식으로 잔인했다.
 
 신살자 브란지르가 랄쿠르를 잡으러 왔을 때, 그는 두려움을 알게되었으며 그리고는 도망쳤다. 신과 신살자의 추격전은 전설적이었으며, 많은 신화들은 브란지르가 랄쿠르를 추적하면서 극복한 위대한 시련에 대해 말해준다. 추격의 마지막 순간 브란지르는 랄쿠르에게 자비를 배풀었고 에이얄을 떠나라고 말했다. 그러나 랄쿠르는 나중에 돌아와 브란지르의 거주지에 끔찍한 타격을 입혀 그의 가족과 하인들을 참살했다. 이미 도망쳤었던 브란지르는 랄쿠르를 잡는것에 집착하여 에이얄 전체를 가로지르며 그를 뒤쫓았다. 지하감옥에 몰아세워진뒤 달리 도망칠 곳이 없던 랄쿠르는 에이얄 깊숙히 들어가는것을 택했다, 그는 환상으로 된 던젼을 만들어 그 안을 생물들과 방해물로 채워 거침없는 브란지르가 자신을 잡지 못하도록 했다. 이후 허가 없이는  누구도 지하감옥에 들어갈 수 없었기 때문에 지하감옥이 얼마나 깊어졌는지는 짐작할 수 있을 뿐이다. 심지어 어떤이들은 던젼의 깊이가 무한대라고 말하기도 하며 사냥감과 사냥꾼의 추격전이 오늘날까지 이어지고 있다고 말하기도 한다.]], "_t")
+t("Researcher Dremnot's Demystification of the Gods: Chapter 5 - Gerlyk", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 5 -게를릭", "_t")
+t([[Gerlyk, according to some ancient myths, is the creator of humanity and interacted the most with them during those times. Its contact with humanity seems dubious, however, when other sources are consulted. It interacted with mortals on its own whims and did not seem to particularly favour any species according to these stories. It seemed to be a more curious god than others, as a handful of myths mention it making contact with mortals so it could learn more about how they lived. The myths surrounding Gerlyk are noticeably less numerous than those of other gods and there appears to be large time gaps between them, suggesting that Gerlyk simply did not interact with Eyalites for the most part. For this reason, it is seen to be a god who observed, but didn't interfere.
+
+During the Godhunt, there are no records indicating that any of the God Slayers slew Gerlyk or even found it. This suggests that the god hid somewhere even the Sher'tul could not find it.]], [[몇몇 고대 신화에 따르면, 게를릭이 인류를 창조했고 그 시대에 그들과 가장 많이 교류했다고 전해진다. 그러나 다른 신화들과 비교할 때 그것과 인류 사이의 접촉은 의심스러워 보인다. 그것은 그저 변덕으로 인간들과 접촉했고, 이러한 이야기에 따르면 딱히 어떤 종도 특별히 좋아하는 것처럼 보이지는 않는다. 게를릭은 다른 신들보다 더 호기심 많은 신인 것처럼 보이는데, 몇 안돼는 신화에서 그는 필멸자들이 어떻게 살아가는지에 더 많이 배우기 위해 필멸자들과 접촉했다고 언급하고 있기 때문이다. 게를릭을 둘러싼 신화는 다른 신들에 비해 눈에 띄게 수가 적고, 그 사이에 시간적 간극이 큰 것으로 보아 단순히 게를릭이 역사속 대부분의 시기엔 에이얄의 필멸자와 교류하지 않았음을 시사한다. 이 때문에 게를릭은 관찰은 했지만 간섭은 하지 않은 신으로 보인다.
+
+신살자 중 어느 누구도 게를릭을 살해하거나 심지어 그를 발견했다는 기록은 없다. 이는 게를릭이 쉐르'툴 조차 찾을 수 없는 어딘가에 숨었음을 암시한다.]], "_t")
+t("Researcher Dremnot's Demystification of the Gods: Chapter 8 - Quekorja", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 8 - 쿠에코르자", "_t")
+t([[Quekorja was the god of time and possibilities. What stands out about Eyal's myths regarding Quekorja is how wildly inconsistent they are. In particular, tales after the Godhunt tend to have a far less favourable outlook of the god than pre-Godhunt myths. Speculation regarding this is due to Quekorja supposedly taking an interest in written history and appointing its own librarians to record its tales. Since there are no surviving records of this library existing, this theory is considered to be pure conjecture and has no concrete evidence to validate it. There have been some unusual records found too, supposedly written by the same authors on the same dates, but wildly varying in their tone and their description of the god itself. Given the god's ability to control time, it is thought these notes might be from alternate timelines, further obscuring the truth about the god itself.
+
+Quekorja was also thought to be responsible for the creat...[i](You know you read this section, but you can't actually remember it. It is almost like something has deliberately erased it from your mind.)[/i]
+
+According to the records of Anglowen, Quekorja was slain during the Godhunt and its body discovered by the mage Linaniil. Linaniil managed to absorb a small portion of the god's power through a dangerous ritual. This tiny shard of power she acquired made her an archmage without peer, a testament to the sheer might of the gods.]], [[쿠에코르자는 시간과 가능성의 신이었다. 쿠에코르자에 관한 에이얄의 신화에서 눈에 띄는 것은 기록들이 심하게 일관성이 없다는 것이다. 특히 신사냥 이후의 이야기가 신사냥 이전의 신화보다 쿠에코르자에 대해 훨씬 덜 호의적인 관점을 갖는 경향이 있다. 이에 관한 가설은 쿠에코르자가 아마도 역사를 기록하는데 관심을 갖고 자신의 이야기를 기록하기 위해 자기 휘하의 사서들을 임명했기 때문이라는 것이다. 현재엔 이런 기록물이 살아남아 존재하지 않기 때문에, 이 이론은 순수한 추측으로 간주되며, 그것을 증명할 구체적인 증거가 없다. 같은 날짜에 같은 작가들에 의해 쓰여진 것으로 추측되는 기록들에서도, 저자들의 어조와 신에 대한 묘사 자체가 엄청나게 다양하다. 시간을 통제할 수 있는 쿠에코르자의 능력을 감안할 때, 이 기록들은 대체 시간선에서 나온 것일 수도 있다고 생각되어, 신 자체에 대한 진실을 더욱 모호하게 한다.
+
+쿠에코르자는 ....의 창조에 책임이 있다고 생각된다...[i](이 부분을 읽었다는 것은 알고 있지만, 기억할 수가 없다. 마치 무언가가 마음속에서 의도적으로 지워 버린 것과 같다.)[/i]
+
+앙골웬의 기록에 따르면, 쿠에코르자는 신사냥 시기에 살해되었고, 그 시신은 마법사 리나니일에 의해 발견되었다. 리나니일은 위험한 의식을 통해 신의 힘의 작은 부분을 간신히 흡수했다. 그녀가 획득한 이 작은 힘의 조각은 그녀를 타의 추종을 불허하는 대마법사로 만들었고, 이는 신들의 순수한 힘을 증명해 준다.]], "_t")
+t("Researcher Dremnot's Demystification of the Gods: Chapter 9 - Xadoch", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 9 - Xadoch", "_t")
+t([[Xadoch held the title of Blight-Weaver. It loved the creatures which crawled close to the earth and toiled in Eyal's filth, but had no love for its sapient races. As such, it was attributed in many mythologies to the creation of numerous diseases and plagues. Some myths stated that there was necessity to Xadoch's presence, as its plagues prevented any one race dominating the world and kept a balance of sorts. On the other hand, many other myths attest that the god had a cruel curiosity. It spread blight across the world and created diseases just to see what sort of effect they would have on sapient life. If it weren't for the other gods on Eyal, it is believed that Xadoch would have scoured the entire world of sapient life.
+
+Xadoch was one of the first gods to be felled in the God Hunt by the hunter Branzir. The Sher'tul had a particular dislike of the god, as it had tried to undermine them with plagues numerous times. Strains of Xadoch's diseases are thought to still be on Eyal to this day, waiting for some unfortunate victim to carry them back to civilisation, so Xadoch may commit one last act of spite against sapient life.]], [[Xadoch는 황폐를 부르는자라는 타이틀을 갖고 있었다. 그것은 지표면 가까이 기어다니며 에이얄의 오물 속에서 고생하는 생물들을 사랑했지만, 자신의 지성종족에 대한 사랑은 없었다. 많은 신화에서 수많은 질병과 역병이 Xadoch에의해 만들어졌다고 한다. 하지만 어떤 신화들은 Xadoch의 존재가 필요했다고 말했다. Xadoch의 재앙은 세계를 어떤 한 종족이 독점하는 것을 막을 수 있었고, 일종의 균형을 유지했기 때문이다. 반면에, 많은 다른 신화들은 신이 잔인한 호기심을 가졌다는 것을 증명한다. Xadoch는 황폐를 전세계로 흩뿌렸고, 단순히 지성종족들에게 어떤 종류의 영향을 미치게 될지 보기 위해 질병을 만들었다고 한다. 만약 에이얄의 다른 신들이 아니었다면, Xadoch가 온 세상의 지성종족을 시들어버리게 만들었을거라고 믿어진다.
+
+Xadoch는 신 사냥꾼 브란지르에의해 쓰러진 첫번째 신들중 하나다. 쉐르'툴은 이 신을 특히나 싫어했는데, Xadoch가 몇번씩이나 역병으로 그들을 약화시키려 했기 때문이다. Xadoch의 질병은 오늘날까지도 에이얄에 남아 있는 것으로 생각되며, 어떤 불행한 희생자가 그것들을 다시 문명으로 데려가기를 기다리고 있다, 그로인해 Xadoch는 지적생명에 대한 마지막 악행을 저지를지도 모른다.]], "_t")
+t("Researcher Dremnot's Demystification of the Gods: Chapter 12 - Ugg'matho", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 12 - 우그'마토", "_t")
+t([[Ugg'matho was the god responsible for the creation of the trolls. While most Eyalites of the current age think of trolls as dumb brutes, they have frequently proven themselves to be far more clever than they're given credit for. The most commonly attributed dominions of Ugg'matho were the forests and mountains of Eyal. In ancient texts, the title bestowed upon it was 'The Gardener,' for it deeply loved the forests and green places of Eyal. It is thought that it created the trolls in its own image, as savage and powerful stewards of the wild places.
+
+In some legends, there are tales of it reaching down from the sky and annihilating settlements, for it saw civilisation as a blemish on the green canvas of Eyal's surface. In others, it instead chose to alter nature itself to stave off civilisation, creating various plants and guardians to prevent sapient races from plundering its forests for resources. The recurring theme of many of its myths is that it was vehemently opposed to sapient beings living out of harmony with nature.
+
+Ugg'matho was frequently in conflict with other gods in its myths. Many a story tells of how the gods and their chosen champions went on great troll hunts in the wilderness, chasing down Ugg'matho's children in order to wipe them from the face of Eyal. While the tales often described their great success in ridding the wilderness of the troll menace, the sheer number of them throughout the ages suggests that they were not as successful as they made out. One myth stated that Ugg'matho eventually struck a deal with the other gods where they would leave its forests alone and it would leave their creations alone in return. Another states that Ugg'matho was made to submit by the other gods and begrudgingly continued to undermine them in secret.
+
+When Ugg'matho was slained by Branzir, it is said that its blood took on a life of its own, spreading out into the wilderness in the form of living ooze.]], [[우그'마토는 트롤의 창조에 책임이 있는 신이다. 현 시대의 대부분의 에이얄인들은 트롤을 멍청한 짐승이라고 생각하지만, 그들은 종종 그들이 평가받는 것보다 훨씬 더 똑똑하다는 것을 증명해 왔다. 우그'마토의 가장 보편적으로 귀속된 영토는 에이얄의 숲과 산이었다. 고대 문헌에서, 그것에 부여된 이름은 '정원사'로, 그것은 아이알의 숲과 녹지를 깊이 사랑했기 때문이다. 그것은 야만적이고 강력한 야생의 지배자의 이미지로 트롤을 창조했다고 생각된다.
+
+어떤 전설에선 그것이 하늘에서 내려와 정착지들을 섬멸한다는 이야기가 있는데, 우그'마토는 문명을 에이얄이라는 녹색 캔버스 표면에 있는 얼룩으로 보았기 때문이다. 그 대신 문명화를 막기 위해 자연 자체를 바꾸는 것을 선택했고, 다양한 식물과 수호자를 만들어 지성종족이 자원을 위해 숲을 약탈하는 것을 막았다. 우그'마토의 신화에서 많이 반복되는 주제는 자연과 조화되지 않고 사는 지성존재에 대한 그의 격렬한 적개심이다.
+
+우그'마토는 그런 신화에서 다른 신들과 자주 충돌했다. 많은 이야기는 신들과 그들이 선택한 챔피언들이 어떻게 광야에서 거대한 트롤 사냥에 나섰는지, 어떻게 에이얄의 지표에서 그들을 없애기 위해 우그'마토의 아이들을 쫓아갔는지에 대해 이야기한다. 이 이야기들은 종종 트롤의 위협을 제거하는데 있어서 그들의 큰 성공을 묘사했지만, 시대를 거쳐간 어마어마한 트롤들의 숫자를 생각해보면 이야기들이 실제로도 성공적이지는 못했음을 암시한다. 한 신화는 우그'마토가 결국 다른 신들과 계약을 맺어 숲을 그대로 두는 대가로 그의 창조물을 내버리게 되었다고 말한다. 또 다른 진술에서는 우그'마토가 다른 신들에게 강제로 복종당했고, 마지못해 트롤들을 약화시켰다고 전해진다.
+
+우그'마토가 브란지르에게 살해당했을 때, 죽은 그의 피가 생명을 얻어 야생으로 퍼져나갔다고 전해지며, 그것이 살아있는 점액의 모습을 취했다고 전해진다 .]], "_t")
+t("Researcher Dremnot's Demystification of the Gods: Chapter 13 - Urh'Rok", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 13 - 울흐'록", "_t")
+t([[Urh'Rok is supposedly a god from the world Mal'Rok, who created the race we know as demons. All of the myths regarding Urh'Rok depict him as being a benevolent and thoughtful god, one which had a deep and intimate relationship with his creations. The demons affectionately refer to him as their Father and they have nothing but praise to sing of him. Since there are not many different sources to cross reference, it may not be possible to get an unbiased examination of Urh'Rok's personality.
+
+Their homeworld is described as a collection of fragmented continents held together only by Urh'Rok's will. According to the demons, this was the result of a great cataclysm which came through a Sher'Thul far portal. Their records state this cataclysm occurred roughly at the same time as the Spellblaze did on Eyal. This suggests that the Spellblaze had far reaching consequences beyond our current understanding and could have impacted multiple worlds.
+
+Despite the benevolent and gentle demeanour he has been attributed in his myths, demons have frequently declared their atrocities committed against Eyalites in his name. This contrast in his attitude toward Eyalites and his own creations does not suggest a benevolent disposition, but rather one similar to a father protecting his spoiled children. His existence proves that gods are not a phenomena which are isolated to simply Eyal, but may exist on countless other worlds too.]], [[울흐'록은 우리가 악마로 알고 있는 종족을 창조한 말'록의 신으로 추정된다. 울흐'록과 관련된 모든 신화들은 그가 자비롭고 사려 깊은 신이며 그의 창조물과 깊고 친밀한 관계를 가진 신이라고 묘사하고 있다. 이 때문에 악마들은 다정하게 그를 아버지라고 부르며 그를 찬양할 수 밖에 없었다. 상호 참조할 만한 다른 출처가 많지 않기 때문에 울흐'록의 성격에 관해 편견 없는 검토는 할 수 없을지도 모른다.
+
+그들의 고향행성은 순전히 울흐'록의 의지에 따라 붙들어져 있는 조각난 대륙들의 집합체로 묘사된다. 악마들에 의하면, 이런 모습은 쉐르'툴의 장거리 차원문을 통해 쏟아진 대재앙 때문이라고 한다. 그들의 기록은 대재앙이 대략 마법폭발과 대략 비슷한 시기에 발생했음을 진술하고 있다. 이것은 마법폭발이 우리의 현재 이해를 넘어 더 멀리까지 영향을 미쳤으며 여러 세계에 영향을 미쳤을 수 있다는 것을 암시한다.
+
+그가 신화속에서 보여준 자비롭고 온화한 태도에도 불구하고, 악마들은 그의 이름으로 에이얄인들에게 저지른 만행을 자주 선언해 왔다. 에이얄 종족들에 대한 태도와 그 자신의 창조물들에 대한 이러한 대조적인 태도는 자비로운 성질을 암시하지 않는다, 이러한 일은 단순히 버릇없는 아이들을 보호하는 아버지와 비슷한 것으로 보이며 그의 존재는 신들이 단순히 에이얄에서만 국한된 현상이 아니라 수많은 다른 세계에도 존재할 수 있다는 것을 증명한다]], "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 
 
@@ -1834,9 +1939,9 @@ As they have only recently come out of their previously mindless states, the Dre
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/zones.lua"
 
-t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서 : \"회랑에서 본 것\"", "_t")
+t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서: \"회랑에서 본 것\"", "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
-t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서 : \"환상의 성\"", "_t")
+t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서: \"환상의 성\"", "_t")
 
 
 ------------------------------------------------
@@ -3305,6 +3410,7 @@ t("void", "공허", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-home/zone.lua"
 
+t("The Home Which Is Not", "집같지 않은 우리 집", "_t")
 
 
 ------------------------------------------------
@@ -3420,11 +3526,11 @@ t("floor", "바닥", "entity type")
 section "game/dlcs/tome-cults/data/zones/godfeaster/npcs.lua"
 
 t("The Divine Writhing Mass", "신적인 뒤틀린 덩어리", "entity name")
-t("Once the nervous system of the Maggot, it transformed into something... else after the Maggot ate some remains of a long dead god. If severed the Godfeaster will surely wither and die.", "한 때 구더기의 신경계에 불과했지만, 구더기가 오래전에 죽은 신의 유해를 파먹고 나서 뭔가... 다른 것으로 변했습니다. 이것을 신포식자에게서 절단해낸다면 분명 시들어 죽게될 것입니다.", "_t")
+t("Once the nervous system of the Maggot, it transformed into something... else after the Maggot ate some remains of a long dead god. If severed the Godfeaster will surely wither and die.", "한때는 어떤 구더기의 신경계에 불과했지만, 구더기가 오래 전에 죽은 신의 유해를 파먹게 되자 뭔가... 다른 것으로 변했습니다. 이것을 신 포식자에게서 잘라낸다면 분명 쇠약해질 것이고, 곧 죽게 될 겁니다.", "_t")
 t("Malyu", "말류", "entity name")
 t("humanoid", "인간형", "entity type")
 t("shalore", "샬로레", "entity subtype")
-t("This gritty adventurer saved you.", "당신이 구한 투지 가득한 모험가 입니다.", "_t")
+t("This gritty adventurer saved you.", "투지로 가득 찬 모험가입니다. 당신을 구해주었습니다.", "_t")
 
 
 ------------------------------------------------
@@ -3436,6 +3542,11 @@ t("A paper scrap.", "종잇조각입니다.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/godfeaster/zone.lua"
 
+t("The Godfeaster (Alcove)", "신 포식자 (벽 안쪽)", "_t")
+t("The Godfeaster", "신 포식자", "_t")
+t("#OLIVE_DRAB#You can feel tremors in the worm.. A gastric wave is coming! Dodge to an alcove!", "#OLIVE_DRAB#벌레 안쪽의 떨림이 느껴진다... 위장 운동의 여파가 온다! 벽 안쪽의 공간으로 피해야 한다!", "say")
+t("#OLIVE_DRAB#The gastric wave is upon you!", "#OLIVE_DRAB#위장 운동의 여파가 왔다!", "say")
+t("digestive sack", "소화 자루", "_t")
 
 
 ------------------------------------------------
