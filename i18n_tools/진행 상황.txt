@@ -171,6 +171,14 @@
 
 "game/dlcs/tome-ashes-urhrok/superload/mod/class/Actor.lua" Khelerd 완
 
+"game/dlcs/tome-cults/data/achievements/all.lua" Khelerd 완
+
+
+"game/dlcs/tome-cults/data/zones/ft-home/zone.lua" Khelerd 완
+
+"game/dlcs/tome-cults/data/zones/godfeaster/zone.lua" Khelerd 완
+
+
 "game/dlcs/tome-orcs/data/achievements/special.lua"
 "game/dlcs/tome-orcs/data/achievements/story.lua" Khelerd 완
 
