@@ -9624,16 +9624,6 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 
 
 ------------------------------------------------
-section "game/modules/tome/data/talents/spells/eradication.lua"
--- 1 entries
-t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], [[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/talents/spells/war-alchemy.lua"
 -- 2 entries
 t("Heat", "Heat", "talent name")
@@ -9646,14 +9636,6 @@ t([[Turn part of your target into fire, burning the rest for %0.2f fire damage o
 section "game/modules/tome/data/talents/techniques/throwing-knives.lua"
 -- 1 entries
 t("%d%% %s", "%d%% %s", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/uber/cun.lua"
--- 1 entries
-t([[You are adept at many different skills, granting you +1.5 to all known talent levels.
-		This works on already known talents and those that you will learn afterwards.]], [[You are adept at many different skills, granting you +1.5 to all known talent levels.
-		This works on already known talents and those that you will learn afterwards.]], "tformat")
 
 
 ------------------------------------------------

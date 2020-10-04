@@ -23468,6 +23468,11 @@ t([[Teleport all foes in radius %d to your boneyard, as close to its center as p
 		최대 %d 체의 구울이나 스켈레톤이 묘지에서 생성되어, 적들을 포위합니다, 소환에 원혼을 추가로 소모하지 않지만, 이 하수인들은 5 턴 동안 유지됩니다.
 		]], "tformat")
 t("Impending Doom", "임박한 운명", "talent name")
+t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
+		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
+		The damage will increase with your Spellpower.]], [[대상의 파멸이 임박합니다. 대상의 회복 효율이 80%% 감소하고, 남은 생명력의 %d%%, 또는 %0.2f 피해 중 더 낮은 값을 10 턴에걸쳐 서리 황혼 피해르 받습니다.
+		이 주문은 매우 강력하기 때문에, 매 3 턴 마다, 대상의 영혼을 찢어발겨, 시전자가 원혼을 하나 수확합니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Eternal Night", "영원한 밤", "talent name")
 t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
 		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[서리 황혼으로 주위를 뒤덮어, 시전자가 가하는 모든 암흑, 냉기 피해를 %0.1f%% 증가시키고, 적의 암흑, 냉기 저항을 %d%% 무시합니다.
@@ -26098,6 +26103,9 @@ t([[Gain 5 generic talent points and learn a new talent category from one of the
 		- 천공 / 성가
 		- 시공 제어 / 시공 제어]], "tformat")
 t("Adept", "뛰어난 재능", "talent name")
+t([[You are adept at many different skills, granting you +1.5 to all known talent levels.
+		This works on already known talents and those that you will learn afterwards.]], [[무수히 많은 기술에 정통했습니다. 모든 기술에 +1.5 레벨을 추가합니다.
+		이 효과는 이미 배운 기술과, 앞으로 배우는 기술에 효과를 미칩니다.]], "tformat")
 t("Tricks of the Trade", "뒷세계의 거래", "talent name")
 t("Have sided with the Assassin Lord", "암살단 단장 편에 설 것", "_t")
 t([[You have friends in low places and have learned some underhanded tricks.
