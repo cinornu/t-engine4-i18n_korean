@@ -3,18 +3,35 @@ locale "ko_KR"
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/achievements/all.lua"
 
+t("A Fist Full of Demons", "이 손 안에 악마가 한가득", "achievement name")
+t("Killed 1000 demons.", "악마를 1000마리 죽였다.", "_t")
+t("Glory to the Fearscape", "공포의 영역에 영광을", "achievement name")
+t("Activated all 23 different kinds of demon statues.", "23종의 악마상을 모두 활성화시켰다.", "_t")
+t("Well Seeded", "쑥쑥 자라라", "achievement name")
+t("Created 500 demon seeds.", "악마의 씨앗을 500개 만들었다.", "_t")
+t("Demonic Party!", "악마 파티!", "achievement name")
+t("Have your party composed of at least 5 demons.", "파티에 동료 악마들을 최소 5마리 이상 모았다.", "_t")
+t("Hell has no fury like a demon scorned!", "악마가 한을 품으면 일이월에 매미가 운다!", "achievement name")
+t("Escaped the Searing Halls.", "작열의 전당에서 탈출했다.", "_t")
+t("Once bitten, twice shy", "악마 보고 놀란 놈이 불만 봐도 놀란다", "achievement name")
+t("Escaped the Anteroom of Agony.", "고문 대기장에서 탈출했다.", "_t")
+t("The Old Ones", "늙은이들", "achievement name")
+t("Kill all the three demons that are on Eyal since before the Spellblaze: Shasshhiy'Kaish, Kryl'Feijan and Walrog.", "마법폭발 이전부터 에이알에 있던 세 악마 샤쉬'카이쉬, 키릴'페이얀, 왈록 모두를 죽였다.", "_t")
+t("#LIGHT_GREEN#Shasshhiy'Kaish#LAST#", "#LIGHT_GREEN#샤쉬'카이쉬#LAST#", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
+t("#LIGHT_GREEN#Kryl-Feijan#LAST#", "#LIGHT_GREEN#키릴-페이얀#LAST#", "_t")
 t("Kryl-Feijan", "키릴-페이얀", "_t")
+t("#LIGHT_GREEN#Walrog#LAST#", "#LIGHT_GREEN#왈록#LAST#", "_t")
 t("Walrog", "왈록", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/birth/corrupted.lua"
 
-t("Doombringer", "종말을 부르는 자", "birth descriptor name")
-t("Weapon in hand and sheathed in flame, a Doombringer is a terrifying force in combat.", "불꽃에 휩싸인 무기를 든 종말을 부르는 자는 전투에서 두려운 힘을 발휘합니다.", "_t")
-t("Doombringers are engines of war, cleaving and burning their way through entire armies.", "종말을 부르는 자는 그 자체로 전쟁 기계로, 적의 군대 전체를 불사르고 도살합니다.", "_t")
-t("The most powerful Doombringers can harness the full power of their demonic ties and transform themselves into a gigantic demon.", "강력한 종말을 부르는 자는, 그들의 악마적인 힘을 마음껏 휘두르며, 거대한 악마로 변신할 수 있게됩니다.", "_t")
+t("Doombringer", "파멸의 사도", "birth descriptor name")
+t("Weapon in hand and sheathed in flame, a Doombringer is a terrifying force in combat.", "불꽃에 휩싸인 무기를 든 파멸의 사도는 전투에서 두려운 힘을 발휘합니다.", "_t")
+t("Doombringers are engines of war, cleaving and burning their way through entire armies.", "파멸의 사도는 그 자체로 전쟁 기계로, 적의 군대 전체를 불사르고 도살합니다.", "_t")
+t("The most powerful Doombringers can harness the full power of their demonic ties and transform themselves into a gigantic demon.", "강력한 파멸의 사도는, 그들의 악마적인 힘을 마음껏 휘두르며, 거대한 악마로 변신할 수 있게됩니다.", "_t")
 t("Their most important stats are: Strength and Magic", "그들에게 가장 중요한 능력치는 힘과 마법입니다.", "_t")
 t("#LIGHT_BLUE# * +4 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +4 힘, +0 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * +2 Magic, +0 Willpower, +1 Cunning", "#LIGHT_BLUE# * +2 마법, +0 의지, +1 교활", "_t")
@@ -22,7 +39,7 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 t("Demonologist", "악마학자", "birth descriptor name")
 t("Most simply run, but I understand: a distant planet, ravaged and damned. Burnt creations seek righteous vengeance, Urh'Rok's ashes, now destruction's engines. Harness their power! Capture and tame! I call on you, demons - UNLEASH THE FLAMES!", "다른이들이 모두 도망갈 때, 나는 깨달았다. 머나먼 행성, 파괴되고 저주받은... 불타버린 존재들이 정당한 복수를 구도하고, 이제 울흐'록의 잿더미 속에서 파괴의 엔진이되었다. 그들의 힘을 휘둘러라! 그들을 포획하고 길들여라! 내, 그대에게 명하노니, 악마들이여 - 화염을 해방하라!", "_t")
 t("Contrary to popular beliefs Demonologists are not the pawns of demons, they enact pacts with them but always very carefully.", "사람들에게 알려진것과 달리, 악마학자들은 악마의 하수인이 아닙니다. 악마학자들은 악마와 계약을 맺긴 하지만, 항상 매우 신중하게 계약을 맺습니다.", "_t")
-t("They use those demonic powers for their own purpose, often evil but a few have been known to use demonic powers to fight demons.", "그들은 악마의 힘을 스스로의 목적을 위해 사용합니다. 대게는 사악하지만, 소수의 악마학자들은 악마에게 대항하기 위해 악마의 힘을 사용하는 방법을 배웠습니다.", "_t")
+t("They use those demonic powers for their own purpose, often evil but a few have been known to use demonic powers to fight demons.", "그들은 악마의 힘을 스스로의 목적을 위해 사용합니다. 대개는 사악하지만, 소수의 악마학자들은 악마에게 대항하기 위해 악마의 힘을 사용하는 방법을 배웠습니다.", "_t")
 t("Demonologists are melee fighters, bashing their foes skulls with their shields while calling down rains of fire and darkness.", "악마학자는 근접 전사로, 화염과 어둠의 비를 내리게 하는 동안, 적들의 두개골을 방패로 깨부숩니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, +0 민첩, +2 체격", "_t")
@@ -81,6 +98,11 @@ t("Demonic Tatoos 8", "악마적인 문신 8", "_t")
 section "game/dlcs/tome-ashes-urhrok/data/general/events/demon-statue.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving no traces.", "#CRIMSON#공포의 영역의 힘이 %s에게 닿았고, 흔적도 없이 사라졌다.", "logSeen")
+t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a nasty looking %s nearby.", "#CRIMSON#공포의 영역의 힘이 %s에게 닿았고, 근처에 위험해 보이는 %s 남기고 사라졌다.", "logSeen", nil, {[2]="를"})
+t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a nasty effect upon you.", "#CRIMSON#공포의 영역의 힘이 %s에게 닿았고, 당신에게 사악한 효과를 끼얹고 사라졌다.", "logPlayer")
+t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a strange effect upon you.", "#CRIMSON#공포의 영역의 힘이 %s에게 닿았고, 당신에게 이상한 효과를 끼얹고 사라졌다.", "logPlayer")
+t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a strange item behind.", "#CRIMSON#공포의 영역의 힘이 %s에게 닿았고, 이상한 물건을 남기고 사라졌다.", "logSeen")
 
 
 ------------------------------------------------
@@ -92,20 +114,37 @@ t("fire haven", "화염의 안식처", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
 
-t("Rogroth, Eater of Souls", "영혼을 먹는자 로그로스", "_t")
+t("Rogroth, Eater of Souls", "영혼을 먹는 자 로그로스", "_t")
+t("a champion of Urh'Rok", "울흐'록의 대전사", "_t")
 t("the Corrupted Daelach", "오염된 댈라크", "_t")
 t("a daelach", "댈라크", "_t")
+t("a dolleg", "돌레그", "_t")
 t("Draebor, the Imp", "임프 드래보르", "_t")
+t("a dúathedlen", "듀아세들렌", "_t")
+t("a fire imp", "화염 임프", "_t")
+t("a forge giant", "대장간 거인", "_t")
 t("Khulmanar, General of Urh'Rok", "쿨마나르, 울흐'록의 장군", "_t")
 t("Kryl-Feijan", "키릴-페이얀", "_t")
 t("Lithfengel", "리스펭겔", "_t")
+t("an onilug", "오닐루그", "_t")
+t("a quasit", "콰짓", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
+t("a thaurhereg", "싸울헤레그", "_t")
+t("an uruivellas", "우뤼벨라스", "_t")
 t("Walrog", "왈록", "_t")
+t("a water imp", "물 임프", "_t")
+t("a wretchling", "렛츨링", "_t")
+t("a wretch titan", "렛치 타이탄", "_t")
+t("a ruin banshee", "파멸의 밴시", "_t")
 t("Harkor'Zun", "하코르'준", "_t")
 t("floor", "바닥", "entity type")
 t("lava", "용암", "entity subtype")
+t("statue of %s", "%s의 석상", "tformat")
+t("Demon Statue of %s", "%s의 악마상", "tformat")
+t("Do you #{strong}#really#{normal}# want to touch that?", "#{strong}#정말로#{normal}# 이걸 만지겠습니까?", "_t")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
+t("#CRIMSON#The %s glows ominously.", "#CRIMSON#%s 불길하게 빛났다.", "log", nil, {"이"})
 
 
 ------------------------------------------------
@@ -114,7 +153,7 @@ section "game/dlcs/tome-ashes-urhrok/data/general/npcs/aquatic-demon.lua"
 t("Walrog", "왈록", "entity name")
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
-t("Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "왈록, 물의 주인으로 바라보기만해도 #AQUAMARINE#소름#LAST#이 끼칩니다. 물이 그에게서 벗어나려는 듯이 그의 주변을 휘감고있고, 거품과 증기로 인해 그의 형태를 제대로 가늠할 수 없습니다.  그는 당신을 보고도 놀라지 않은 것 같습니다.", "_t")
+t("Walrog, the lord of Water, is #AQUAMARINE#fearsome#LAST# to behold. The water boils and writhes around him as if trying to escape, frothing steam making his form indistinct.  He does not seem surprised to see you.", "왈록은 물의 주인으로 바라보기만 해도 #AQUAMARINE#소름#LAST#이 끼칩니다. 물이 그에게서 벗어나려는 듯이 그의 주변을 휘감고 있고, 거품과 증기로 인해 그의 형태를 제대로 가늠할 수 없습니다.  그는 당신을 보고도 놀라지 않은 것 같습니다.", "_t")
 
 
 ------------------------------------------------
@@ -123,7 +162,7 @@ section "game/dlcs/tome-ashes-urhrok/data/general/npcs/major-demon.lua"
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
 t("wretch titan", "렛치 타이탄", "entity name")
-t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings. Swarming, gnashing, burning. What those adventurers don't know is that those are just the children.", "많은 모험가들은 이미 렛츨링들과 조우한 적이있습니다. 끔찍한놈들이죠. 무리지어다니고, 이를 갈며, 불타오릅니다. 렛츨링들은 그저 어린 아이들이였다는 것을 대부분의 모험가들은 알지 못합니다.", "_t")
+t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings. Swarming, gnashing, burning. What those adventurers don't know is that those are just the children.", "많은 모험가들은 이미 렛츨링들과 조우한 적이있습니다. 끔찍한 놈들이죠. 무리지어 다니고, 이를 갈며, 불타오릅니다. 렛츨링들은 그저 어린 아이들이였다는 것을 대부분의 모험가들은 알지 못합니다.", "_t")
 
 
 ------------------------------------------------
@@ -131,14 +170,14 @@ section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
 
 t("Blackfire Aegis", "검은 화염 아이기스", "entity name")
 t("blackened stone shield", "검게 탄 바위 방패", "_t")
-t("This rugged stone shield flickers with bursts of pitch black flame.", "이 견고한 바위 방패는 칠흑의 화염으로 깜빡입니다.", "_t")
+t("This rugged stone shield flickers with bursts of pitch black flame.", "이 견고한 바위 방패는 칠흑의 화염으로 깜박입니다.", "_t")
 t("releases a burst of dark fire, dealing damage equal to your magic stat", "어둠의 화염을 폭발시켜, 착용자의 마법 능력치와 같은 양의 피해를 가합니다", "_t")
 t("Will of Ul'Gruth", "울'그루쓰의 의지", "entity name")
 t("massive metallic gauntlets", "거대한 금속 전투 장갑", "_t")
 t("These massive gauntlets once belonged to a very powerful demon named Ul'Gruth. The behemoth was said to be able to level entire buildings with a single swing of his hands.", "이 거대한 전투장갑은 한 때, 울'그루쓰라는 아주 강력한 악마가 소유하고 있었습니다. 그 거수는 손을 한번 휘저으는 것으로도 수 채의 건물을 무너뜨릴 수 있었다고 합니다.", "_t")
-t("Your Obliterating Smash can destroy walls.", "착용자의 소멸의 강타가 벽을 파괴할 수 있게됩니다.", "_t")
+t("Your Obliterating Smash can destroy walls.", "착용자의 소멸의 강타가 벽을 파괴할 수 있게 됩니다.", "_t")
 t("Fearfire Mantle", "공포화염 망토", "entity name")
-t("cloak shaped flames", "망토 형상을 한 화염", "_t")
+t("cloak shaped flames", "망토 모양 불꽃", "_t")
 t("Black fires born of a blackened heart.", "검게 탄 심장에서 검은 화염이 태어나다.", "_t")
 t("All enemies in radius 2 take 20 fire damage each turn and healing you for 10% of the damage dealt.", "반경 2 칸 내의 모든 적이 매 턴 20 화염 피해를 받고, 피해량의 10% 가 착용자의 생명력으로 흡수됩니다.", "_t")
 t("Plague-Fire Sceptre", "역병 화염 홀", "entity name")
@@ -216,7 +255,7 @@ t("glowing red orb", "빛나는 붉은 보주", "_t")
 t("A strange orb of demonic origins. It glows with a surreal red light.", "악마적으로 탄생한 기이한 구체. 비현실적인 붉은 색으로 빛난다.", "_t")
 t("Jaw of Rogroth", "로그로스의 턱", "entity name")
 t("tooth lined belt", "이빨이 줄지은 허리띠", "_t")
-t("Rogroth's mouth happened to be about the same size as your waist. Interesting.", "로그로쓰의 아가리는 허리 크기와 비슷하다. 흥미롭군.", "_t")
+t("Rogroth's mouth happened to be about the same size as your waist. Interesting.", "로그로스의 아가리는 허리 크기와 비슷하다. 흥미롭군.", "_t")
 t("deal darkness damage equal to your 350%% of your spellpower to a target, and, if it kills the target, restores 15% of max hp and all resources (except paradox and equilibrium)", "착용자의 주문력의 350%% 에 달하는 어둠 피해를 대상에게 가해, 대상이 죽으면 최대 생명력과 모든 원천력의 15% 를 회복합니다 (괴리와 평정 제외)", "_t")
 
 
@@ -226,16 +265,49 @@ section "game/dlcs/tome-ashes-urhrok/data/lore/demon.lua"
 t("demon statue: daelach", "악마상: 댈라크", "_t")
 t("demon statue: Lithfengel", "악마상: 리스펭겔", "_t")
 t("demon statue: Corrupted Daelach", "악마상: 오염된 댈라크", "_t")
+t("Ashes of Urh'Rok", "울흐'록의 재", "newLore category")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/quests/re-abducted.lua"
 
+t("I've a feeling we're not on Eyal anymore", "우리가 이제 에이알에 있는 게 아닌 것 같아", "_t")
+t([[Somehow you did not recall out as usual but instead ended up on a sadly familiar area.
+You are back in the Fearscape. Back and with a welcome committee.
+
+You must find a way to escape, again.
+
+]], [[어찌된 일인지 당신은 평소처럼 귀환되지 못했고, 대신 슬프도록 친숙한 장소에 도착했습니다.
+공포의 영역으로 돌아왔습니다. 열렬히 환영해주는 친구들도 있네요.
+
+다시 한 번, 탈출구를 찾아야 합니다.
+
+]], "_t")
+t("#LIGHT_GREEN#* You have found your way out of the primary ambush.#WHITE#", "#LIGHT_GREEN#* 마중나와 있던 복병들을 뚫어냈습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have destroyed Rogroth the Eater of Souls and made your escape possible. Flee!#WHITE#", "#LIGHT_GREEN#* 영혼을 먹는 자 로그로스를 처치했고, 이제 탈출할 수 있습니다. 도망치세요!#WHITE#", "_t")
+t("#SLATE#* Find a way back to Eyal.#WHITE#", "#SLATE#* 에이알로 돌아가는 길을 찾으세요.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have escaped the Anteroom of Agony.#WHITE#", "#LIGHT_GREEN#* 고문 대기장에서 탈출했습니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/quests/start-ashes.lua"
 
+t("Ashes in the Wind", "바람 속의 재", "_t")
+t([[You do not remember much of your life before you were on this burning continent, floating in the void between worlds.  You have been helping demons, happily participating in their experiments to shatter some sort of shield preventing them from taking their righteous revenge on Eyal.
+
+You are being taken by your handler to the torture-pits to help them figure out how to cause the most pain to those on Eyal, when you hear a roaring above you; you look up and see a burning meteor, flying closer, and the demons' spells failing to divert its course!  It lands near you, knocking you off your feet with its shockwave and killing your handler instantly.
+
+As you recover, and your platform of searing earth splits from the main continent, your old memories flood your mind and you come to your senses - the demons are out to destroy your home!  You must escape... but not without destroying the crystal they've used to keep track of you.
+]], [[당신은 이 곳, 세계들 사이의 공허에 위치한 불타는 대륙에서 살기 전의 삶에 대해서는 대부분 기억하지 못합니다. 당신은 악마들을 도왔고, 에이알을 향한 그들의 정당한 복수를 막고 있는 모종의 보호막 같은 것을 부수는 실험에 기쁘게 참여했습니다.
+
+당신은 담당관에게 붙잡혀 악마들이 '어떻게 하면 에이알의 생명들에게 최대한 고통을 줄 수 있는가' 에 대해 알아보는 걸 돕기 위해 고문의 구렁텅이로 가는 중이었습니다. 그런데 위쪽에서 굉음이 들렸고, 위를 올려다보니 이쪽 가까이로 떨어지고 있는, 불타는 운석이 보였습니다. 악마들이 주문을 쏘았지만 달라지는 건 없었죠!  운석은 당신 근처에 떨어졌고, 엄청난 충격파와 함께 당신은 기절했고 담당관은 그 자리에서 죽었습니다.
+
+깨어나고 보니 당신이 있는 불타는 땅 조각은 대륙에서 분리되어 있었고, 당신의 옛 기억이 한꺼번에 밀려들어왔고 의식이 깨어났습니다 - 악마들이 당신의 고향을 파괴하려 합니다! 탈출해야 합니다... 하지만 놈들이 당신을 쫓아오는 데 쓰던 수정을 먼저 파괴해야 합니다.
+]], "_t")
+t("#LIGHT_GREEN#* You have destroyed the controlling crystal. The demons can no track you down anymore.#WHITE#", "#LIGHT_GREEN#* 제어 수정을 파괴했습니다. 악마들은 더 이상 당신을 쫓을 수 없습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have destroyed the Planar Controller. Flee now!#WHITE#", "#LIGHT_GREEN#* 차원 관리자를 처치했습니다. 당장 도망치세요!#WHITE#", "_t")
+t("#SLATE#* You have to destroy the Planar Controller to escape.#WHITE#", "#SLATE#* 탈출하려면 차원 관리자를 처치해야 합니다.#WHITE#", "_t")
+t("#SLATE#* You have to destroy the controlling crystal before leaving or the demons will be able to track you down.#WHITE#", "#SLATE#* 떠나기 전에 제어 수정을 파괴해야 합니다. 그렇지 않으면 악마들이 당신을 쫓아올 겁니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
@@ -968,7 +1040,7 @@ t([[Your original invisibility talent was corrupted and twisted.
 		- any non mind and non physical damage you deal above %d triggers a darkness explosion of radius 1 for half the damage (this can only happen once per turn)
 		- when you transform the cooldowns of Haste of the Doomed and Pitiless are reset
 		]], [[원래 갖고있던 투명화 기술이 뒤틀리고, 타락되었습니다.
-		최대 생명력의 10%% 이상의 피해를 한 번에 받았을 때, %d%% 확률로 5 턴 동안 듀아세들렌으로 변신합니다
+		최대 생명력의 10%% 이상의 피해를 한 번에 받았을 때, %d%% 확률로 5 턴 동안 듀아세들렌으로 변신합니다.
 		이 때 다음과 같은 효과를 받습니다.
 		- 영구적인 은신. (은신력 %d)
 		- 암흑 피해량이 %d%% 증가합니다.
@@ -1199,8 +1271,17 @@ t("seismic", "여진", "effect subtype")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/grids.lua"
 
+t("portal to the main island", "본섬으로 통하는 차원문", "entity name")
+t("portal to the arrival platform", "도착한 땅 조각으로 통하는 차원문", "entity name")
+t("portal to previous level", "이전 구역으로 통하는 차원문", "entity name")
+t("portal to next level", "다음 구역으로 통하는 차원문", "entity name")
+t("portal to Eyal", "에이알로 통하는 차원문", "entity name")
+t("#CRIMSON#The portal is kept shut for you by a malovelant creature nearby.", "#CRIMSON#근처에 적대적인 존재가 있다면 이 차원문은 열리지 않는다.", "log")
+t("torture rack", "고문대", "entity name")
+t("iron maiden", "아이언 메이든", "entity name")
 t("mural painting", "벽화", "entity name")
 t("floor", "바닥", "entity subtype")
+t("demonic spike", "악마의 가시", "entity name")
 
 
 ------------------------------------------------
@@ -1209,7 +1290,7 @@ section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/npcs.lua"
 t("enthralled %s", "노예가 된 %s", "tformat")
 t("quasit squad leader", "콰짓 지휘관", "entity name")
 t("A small, heavily armoured demon, rushing toward you.", "작고, 중장갑을 두른 악마로 당신에게 달려옵니다.", "_t")
-t("Rogroth, Eater of Souls", "영혼을 먹는자 로그로스", "entity name")
+t("Rogroth, Eater of Souls", "영혼을 먹는 자 로그로스", "entity name")
 t("major", "고위", "entity subtype")
 t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "화염과 황폐의 마법 쇄도가 저 거미같은 검은색 금속 피부에서 무질서적으로 나타납니다. 뚜렷하게 보이는 머리는 없지만, 거대한 입 하나가 몸에 나있습니다.", "_t")
 t("and raised as a demonic husk", "그리고 악마의 하수인으로 되살아났습니다.", "_t")
@@ -1218,21 +1299,36 @@ t("and raised as a demonic husk", "그리고 악마의 하수인으로 되살아
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/objects.lua"
 
+t("A written message.", "뭔가가 쓰여 있는 메시지입니다.", "_t")
 t("tattered paper scrap", "너덜너덜한 종잇조각", "entity name")
+t("A hastily written message.", "급하게 쓰여진 메시지입니다.", "_t")
+t("crystalline tablets", "수정 비문", "entity name")
+t("A pile of crystalline tablets.", "수정으로 된 비문 더미입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/zone.lua"
 
+t("Anteroom of Agony", "고문 대기장", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
 
+t("demon killed by a meteor", "운석에 죽은 악마", "entity name")
+t("impact crater", "충돌 크레이터", "entity name")
 t("rocks", "바위", "entity subtype")
-t("portal to the next level", "다음 구역으로 향하는 포탈", "entity name")
-t("portal to the previous level", "이전 구역으로 향하는 포탈", "entity name")
+t("tracking control crystal", "추적 제어 수정", "entity name")
+t("destroyed the crystal", "수정 파편", "_t")
+t("destroying the crystal", "부순다", "_t")
+t("#VIOLET#The crystal is destroyed!", "#VIOLET#수정이 파괴되었다!", "log")
+t("#YELLOW#The disturbance has attracted the Planar Controller!", "#YELLOW#소란으로 인해 차원 관리자가 나타났다!", "say")
+t("portal to the next level", "다음 구역으로 향하는 차원문", "entity name")
+t("portal to the previous level", "이전 구역으로 향하는 차원문", "entity name")
 t("floor", "바닥", "entity subtype")
+t("portal to somewhere on Eyal", "에이알의 어딘가로 통하는 차원문", "entity name")
+t("Safe!", "살았다!", "_t")
+t("You made it to Eyal! You are not quite sure where, but it can not be worse than the Fearscape.", "에이알로 돌아왔습니다! 여기가 어딘지는 모르겠지만, 공포의 영역보단 나은 곳인 건 확실합니다.", "_t")
 
 
 ------------------------------------------------
@@ -1243,28 +1339,59 @@ t("minor", "하위", "entity subtype")
 t("demonic clerk", "악마 서기", "entity name")
 t("A small demon, he looks alarmed at your seeming freedom.", "작은 악마로, 당신이 자유를 되찾은 것 처럼 보이자 당황한 것 같습니다.", "_t")
 t("mutilator", "훼손자", "entity name")
-t("A demon with 3 arms, ready to mutilate you. For experiment. Not for fun. Nope.", "세 팔 달린 악마로, 당신을 훼손할 준비가 되어있습니다. 실험을 위해서요. 재미가 아니라요. 아무럼요", "_t")
+t("A demon with 3 arms, ready to mutilate you. For experiment. Not for fun. Nope.", "세 팔 달린 악마로, 당신을 훼손할 준비가 되어있습니다. 실험을 위해서요. 재미가 아니라요. 아무럼요.", "_t")
 t("investigator", "조사관", "entity name")
 t("This demon is dedicated to #{italic}#extracting#{normal}# information from #{italic}#willing#{normal}# subjects.", "이 악마는 #{italic}#자발적인#{normal}# 실험체에 대한 정보를 #{italic}#추출#{normal}#하기 위해 존재합니다.", "_t")
 t("Planar Controller", "차원 관리자", "entity name")
 t("major", "고위", "entity subtype")
-t("A huge demon towers above you, it is obviously in control of all the portals in the nearby Fearscape area.", "거대한 악마가 당신 앞에 서있습니다. 이 악마가 공포의 영역 주변의 모든 차원문을 관리하고 있는게 틀림없습니다.", "_t")
-t("and teleported to Mal'Rok for more experiments", "그리고 더 많은 실험을 위해 말'록으로 순간이동 되었다", "_t")
+t("A huge demon towers above you, it is obviously in control of all the portals in the nearby Fearscape area.", "거대한 악마가 당신 앞에 서 있습니다. 이 악마가 공포의 영역 주변의 모든 차원문을 관리하고 있는 게 틀림없습니다.", "_t")
+t("and teleported to Mal'Rok for more experiments", "그리고 그 시체는 더 많은 실험을 위해 말'록으로 순간이동 되었습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/objects.lua"
 
+t("crystalline tablets", "수정 비문", "entity name")
+t("A pile of crystalline tablets.", "수정으로 된 비문 더미입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/zone.lua"
 
+t("Searing Halls", "작열의 전당", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/init.lua"
 
+t("Ashes of Urh'Rok", "울흐'록의 재", "init.lua long_name")
+t([[Many in Maj'Eyal have heard of "demons", sadistic creatures who appear seemingly from nowhere, leaving a trail of suffering and destruction whereever they go.  Their Fearscape floats far above the skies, watching and waiting, but not idly; their agents scout the land, their legions build up their forces, and their scholars develop new spells and strategies.  As the barrier between our worlds begins to crack under their scrutiny, helpless Eyalites have begun to disappear, whisked up to serve as their slaves and playthings.  They imbue these victims with magical powers to better survive the ensuing stresses - can you use your new-found abilities to escape the legions of Mal'Rok?
+
+Features:
+* Start with a new class, the Doombringer!  These avatars of demonic destruction charge into battle with massive two-handed weapons, cutting swaths of firey devastation through hordes of opponents.  Armed with flame magic and demonic strength, they delight in fighting against overwhelming odds, softening up the crowd with waves of fire, then feeding on the flames and suffering of their surroundings to stay alive while quickly reducing any group to a pile of ash and gore.
+* Unlock a new class, the Demonologist, with an all-new item enhancement mechanic!  Bearing a shield and the magic of the Spellblaze itself, these melee-fighting casters can grow demonic seeds from their fallen enemies.  Imbue these seeds onto your items to gain a wide array of new talents and passive benefits, and summon the demons within them to fight on your side!  Ever looked at a gigantic demon-cursed minotaur and wished it was on your side for once?  Well, now you CAN summon one to pound your foes into paste while you cast devastating spells from afar, or call forth a squad of Fire Imps to pelt your enemies to death while they exhaust themselves on your impenetrable defenses!  Demons have persistent health, making them a little more precious than disposable necromancer skeletons or summoner beasts, but can be revived from death nonetheless.
+* Two new zones, with all-new art, foes, and bosses!  You've seen the plains of the Fearscape before, now see the lairs and headquarters of the demons themselves!
+* Over 10,000 words of written lore to find!  The demons were once an enlightened, peaceful race, hailing from a distant planet known as Mal'Rok; learn what drove them to plot Eyal's eternal torture!  Discover monuments to each of the demonic species and noteworthy individuals, showing the place of honor each has among them!  Get a glimpse into the culture and daily lives of these sadistic invaders and their brainwashed thralls!
+* Unlock a new race, Doomelves: Shalore who've taken to the demonic alterations especially well, corrupting their typical abilities into a darker form.  Blink away to safety, transform into a shadowy dúathedlen to hide in the shadows or prey on your foes with blasts of darkness, use your new resilience to soak up status effects and critical hits, and assault your enemies' minds to leave them unsteady in combat!
+* Between the aforementioned classes and Doomelves, a whopping 75 new talents!
+* Unlock two new cosmetic options!  You know you've always wanted demon-horns.  
+* Two new events, appearing anywhere in Eyal!
+* 20 new artifacts, with unique and interesting effects.  Collect the Obsidian Treasures to amass more and more power!  Slip your hands into the Will of Ul'Gruth and watch your sweeping blows smash down walls!  Wear a giant hideous hell-mouth as a fashionable belt!
+* 7 new achievements!  Conquer the worst Urh'Rok's forces can throw at you, and hang their metaphorical skulls from your profile page!
+]], [[에이알의 많은 이들은 "악마" 에 대한 이야기를 알고 있습니다. 가학적인 짓을 즐기며 허공에서 갑자기 튀어나오고, 가는 길마다 고통과 파괴를 남기는 존재들이죠.  그들의 거처인 공포의 영역은 하늘보다도 더 높은 곳에 떠서 모든 걸 지켜보며 때를 기다리고 있지만, 그냥 가만히 있지는 않습니다. 요원들은 지상을 정찰하고, 학회에선 새로운 주문과 전략을 개발해내고 있습니다.  그들의 연구로 우리 세계를 막고 있는 보호막에 금이 가기 시작하면서 힘없는 에이알인들이 순식간에 납치되어, 그들의 노예와 놀잇감이 되고 있습니다.  악마들은 이런 희생자들에게 마법의 힘을 주입해 조금 더 천천히 망가질 수 있도록 만들고 있습니다 - 새롭게 발견한 힘들을 이용해서 말'록의 군단에게서 탈출할 수 있을까요?
+
+특징:
+* 새로운 직업, 파멸의 사도로 시작하세요!  이들은 악마적인 파괴의 화신으로 거대한 양손 무기를 들고 전장으로 뛰어들어, 적들을 베어버리고 불타는 상흔을 남깁니다.  화염의 마법과 악마의 힘으로 무장한 파멸의 사도들은 압도적인 전력차에 맞서 싸우는 걸 즐기며, 적들을 화염의 파도로 휘어잡고 주변의 고통과 불길을 양식으로 삼아, 상대가 누구든간에 순식간에 피로 물든 잿더미로 만들어 버립니다.
+* 완전히 새로운 아이템 강화 방식을 갖고 있는 새로운 직업, 악마학자를 해금하세요!  이들은 방패와 마법폭발의 힘으로 무장한 근접 전투형 주문시전자들로, 쓰러진 적들에게서 악마의 씨앗을 키워낼 수 있습니다.  이 씨앗들을 아이템에 섞어 넣어 다양한 새 기술과 지속형 이득을 얻을 수 있고, 악마들도 동료로 소환할 수 있습니다!  악마의 저주를 받은 거대한 미노타우르스를 보고, 아, 저게 내 편에서 싸워 줬으면 얼마나 좋을까 하는 생각을 해 본 적이 있으십니까?  이제 실제로 소환해서 적들을 짓이기게 해 둔 다음 그 동안 당신은 멀리서 마법을 쏘거나 할 수도 있고, 또 적들이 당신의 엄청난 방어력을 실감하고 지쳐가는 동안, 화염 임프 부대를 소환에서 죽을 때 까지 때리게 시킬 수도 있습니다!  악마들에겐 정해진 생명력이 있고, 그러므로 소모성인 강령술사의 스켈레톤들이나 소환사의 짐승들보단 조금 더 섬세하게 다룰 필요가 있습니다. 하지만 죽으면 부활도 가능합니다.
+* 완전히 새로운 그래픽과 적들, 그리고 보스들이 있는 새 지역 2곳!  공포의 영역은 이미 보셨을 테니, 이제 악마들의 소굴과 사령부를 맞이하세요!
+* 10,000 단어가 넘는 분량의 새 이야기들!  악마들도 원래는 말'록으로 알려진 먼 행성 출신의 똑똑하고 평화로운 종족이었습니다.  대체 무슨 일이 있었길래 그들이 에이알에 영원한 고통을 선사할 음모를 꾸미게 되었는지 알아보세요!  악마 종족들과 그 중 주목할만한 이들의 석상을 찾아 보세요. 악마들 사이에서 그들의 위치가 어느 정도인지 알 수 있습니다!  이 새디스틱한 침략자들과 그들의 세뇌된 노예들의 문화와 일상을 엿보세요!
+* 새로운 종족, 둠엘프를 해금하세요. 둠엘프는 악마적 처치를 특히 잘 받은 샬로레들로, 원래 종족 특징들이 어두운 쪽으로 타락한 상태입니다.  점멸로 안전하게 거리를 벌릴 수 있고, 듀아세들렌으로 변신해 그림자 속으로 숨거나 적들에게 어둠을 쏘아내어 사냥할 수도 있으며, 새롭게 얻은 강인함으로 상태효과들과 치명적인 피해를 흡수할 수 있고, 적들의 정신을 공격하여 전투 중에 흔들리게 만들 수 있습니다!
+* 앞서 언급한 직업들과 둠엘프가 사용 가능한, 무려 75가지의 새로운 기술들!
+* 새로운 두 가지 치장 옵션을 해금하세요!  악마 뿔이 항상 갖고 싶었던 거 다 알고 있습니다.  
+* 에이알 전역에서 일어날 수 있는 새로운 이벤트 두 가지!
+* 독특하고 흥미로운 효과들을 가진 20가지의 새로운 유물 등급 아이템들.  흑요석 보물들을 수집하여 더 많은 힘을 모으세요!  울'그루쓰의 의지를 손에 끼고 적들을 벽 째로 날려버리세요! 거대하고 흉측한 지옥의 아가리를 멋진 허리띠로 써 보세요!
+* 7가지의 새로운 업적들!  울흐'록의 최강의 병력들을 정복하고, 그들의 해골을 당신의 프로필 페이지에 걸어 놓으세요!
+]], "init.lua description")
 
 
 ------------------------------------------------
@@ -1278,66 +1405,157 @@ A few meters away, you see the bubbles combining and congregating around a trans
 #AQUAMARINE#"How convenient...  so much Sher'Tul magic for my taking...  magic to turn against its creators...  but now... one new obstacle...  one last great warrior under the waves..."#WHITE#]], [[%s 쓰러지자, 당신의 발 아래에서 거품이 생겨나고, 이내 끓어오르며 물이 부자연스럽게 따뜻해집니다.
 #AQUAMARINE#"고맙군...  침입자여..."#WHITE# 낮은 목소리가 울려퍼집니다.
 #AQUAMARINE#"내 통치에 훼방을 놓던 두 방해꾼들...  겁쟁이 놈들이 내게 죽을 것이 두려워 서로 싸우지도 못 했는가..."#WHITE#
-몇 미터 거리에서, 거품이 합쳐지면서 투명한 형상을 만들어내는 것이 보입니다. 투명했던 모습 주변으로 이내 물이 끓어올라 뚜렷하게 볼 수 있습니다.
-#AQUAMARINE#"참 편리하군...  셰르'툴의 마법도 내 손에 들어왔다... 그대로 이 마법을 되돌려주지... 하지만 당장은... 새로운 방해꾼 하나가... 파도 아래 위대한 전사가 하나 남아 있군...."#WHITE#]], "tformat", nil, {"가"})
-t("The oceans are yours.  The people of Eyal gave up sea travel ages ago!", "바다는 당신의 것이오. 에이알의 사람들은 항해를 포기한지 오래요!", "_t")
-t("You're the new Lord of the Seas?  What would you have me do?", "당신의 새로운 바다의 왕입니까? 제가 무엇을 해드릴 수 있겠습니까?", "_t")
-t("The seas of Eyal shall know no lord, foul demon!  The chaos and death ends now!", "에이알의 바다에는 더 이상 왕이 없다, 추악한 악마야! 혼돈과 죽음은 이제 끝나리라!", "_t")
-t("Stop bubbling and start dying, you overgrown tea-kettle!  Your treasures are mine!", "그만 뽀글 거리고 죽어, 이 거대한 찻주전자 같은 놈! 네 보물은 다 내 꺼다!", "_t")
+조금 멀리서, 거품이 합쳐지면서 투명한 형상을 만들어내는 것이 보입니다. 투명했던 모습 주변으로 이내 물이 끓어올라 뚜렷하게 볼 수 있습니다.
+#AQUAMARINE#"이 얼마나 편리한가...  쉐르'툴의 마법도 내 손에 들어왔다... 이 마법을 자아낸 자들에게 되돌려주지... 하지만 당장은... 새로운 방해꾼 하나가... 파도 아래에 훌륭한 전사가 하나 남아 있군..."#WHITE#]], "tformat", nil, {"가"})
+t("The oceans are yours.  The people of Eyal gave up sea travel ages ago!", "바다는 네 거다. 에이알의 사람들은 항해를 포기한지 오래라고!", "_t")
+t("You're the new Lord of the Seas?  What would you have me do?", "당신의 새로운 바다의 주인입니까? 제가 무엇을 해드릴 수 있겠습니까?", "_t")
+t("The seas of Eyal shall know no lord, foul demon!  The chaos and death ends now!", "에이알의 바다는 주인이 없다는 걸 알게 될 거다, 역겨운 악마 놈아! 혼돈과 죽음은 이제 끝이다!", "_t")
+t("Stop bubbling and start dying, you overgrown tea-kettle!  Your treasures are mine!", "그만 뽀글거리고 죽어라, 거대한 찻주전자 같은 놈아! 네 보물은 다 내 거다!", "_t")
 t([[The frothing form frowns.
 #AQUAMARINE#"Will come to the surface eventually...  you may be stronger then..."#WHITE#
 The bubbles flare up, as a wave of heat emanates from the demon.
 #AQUAMARINE#"No reason to wait..."#WHITE#]], [[끓어오르는 형체가 얼굴을 찡그립니다.
-#AQUAMARINE#"결국엔 육지까지 올라설 것이다... 그때가 되면 너는 더 강해지겠지..."#WHITE#
+#AQUAMARINE#"결국엔 육지까지 올라설 것이다... 그때가 되면 넌 더 강해졌겠지..."#WHITE#
 거품이 뜨겁게 끓어오르며, 악마가 열기를 뿜어냅니다.
-#AQUAMARINE#"그때까지 살려둘 필요는 없지..."#WHITE#]], "_t")
+#AQUAMARINE#"그때까지 살려둘 필요는 없다..."#WHITE#]], "_t")
 t([[You did not think it possible for an amorphous mass of bubbles to scowl.
 #AQUAMARINE#"%s to the Naloren...  traitor to Ukllmswwik...  I am no fool... "#WHITE#
 A jet of boiling water barely misses you, dissipating into bubbles above your head.
 #AQUAMARINE#"Your 'loyalty...' would give me their fate..."#WHITE#
-The frothing and bubbling around him grows to new heights as he charges you!]], [[당신은 형태가 없는 물체가 당신을 쏘아볼 수 있으리라곤 생각하지 못 했습니다.
-#AQUAMARINE#"날로렌에겐 %s...  우클름스윅에겐 배신자... 날 속일 수 있다고 생각하나... "#WHITE#
-끓는 물의 기류가 당신을 스쳐지나 가고, 당신의 머리 위로 그 궤적이 끓어오릅니다.
-#AQUAMARINE#"네놈의 '충성심' 따위에... 그들처럼 죽지 않겠다..."#WHITE#
-그의 주변에 거품이 끓으며 솟아올라 당신을 덮쳐옵니다!]], "tformat")
-t("Murderer", "살해자", "_t")
+The frothing and bubbling around him grows to new heights as he charges you!]], [[당신은 형태가 없는 것이 뭔가를 쏘아볼 수 있으리라곤 상상도 못했습니다.
+#AQUAMARINE#"날로레의 %s이며...  우클름스윅을 배신한 자여... 날 속일 수 있다고 생각하나... "#WHITE#
+끓는 물의 격류가 당신을 스쳐지나가고, 당신의 머리 위로 그 궤적이 끓어오릅니다.
+#AQUAMARINE#"네놈의 '충성심' 따위에... 놈들처럼 죽지 않겠다..."#WHITE#
+그의 주변에 거품이 끓으며 솟아올라 덮쳐옵니다!]], "tformat")
+t("Murderer", "살인자", "_t")
 t("Traitor", "배신자", "_t")
 t([[He chuckles, bubbles bursting from his mouth with every laugh.
 #AQUAMARINE#"So now you feign altruism...  were their deaths just indecision?...  I'll fix that...  scalding or drowning...  your choice..."#WHITE#
 The sound of laughter fades under the roaring of water boiling around him as he charges you!]], [[그가 우습다는 듯 들썩이며 웃습니다. 웃을 때마다 그의 입에서 거품이 뿜어져 나옵니다.
-#AQUAMARINE#"이제는 영웅 행세를 하는가...  were their deaths just indecision?...  I'll fix that...  타 죽던가, 익사하던가... 네가 골라라..."#WHITE#
-웃음 소리가 사라져가고 이내 그의 주변에서 물이 끓어오르며 당신에게 달려듭니다!]], "_t")
+#AQUAMARINE#"이제 와서 영웅 놀이를 하는가...  그럼 놈들이 죽은 건 그냥 망설였기 때문이냐?...  내가 바로잡아 주겠다...  삶겨 죽던가, 잠겨 죽던가... 선택권을 주마..."#WHITE#
+웃음 소리가 사라져가고 이내 그의 주변에서 물이 끓어오르며 달려듭니다!]], "_t")
 t("#LIGHT_GREEN#[fight]#WHITE#", "#LIGHT_GREEN#[싸운다]#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/overload/data/texts/intro-ashes-urhrok.lua"
 
+t("Welcome to Tales of Maj'Eyal - #CRIMSON#Ashes of Urh'Rok", "어서 오십시오, 테일즈 오브 마즈'에이알 - #CRIMSON#울흐'록의 재", "_t")
+t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
+You do not remember much of your life before you were on this burning continent, floating in the void between worlds.  You have been helping demons, happily participating in their experiments to shatter some sort of shield preventing them from taking their righteous revenge on Eyal.
+
+You are being taken by your handler to the torture-pits to help them figure out how to cause the most pain to those on Eyal, when you hear a roaring above you; you look up and see a burning meteor, flying closer, and the demons' spells failing to divert its course!  It lands near you, knocking you off your feet with its shockwave and killing your handler instantly.
+
+As you recover, and your platform of searing earth splits from the main continent, your old memories flood your mind and you come to your senses - the demons are out to destroy your home!
+
+#{bold}#You must escape!#{normal}#.
+]], [[어서 오십시오, #LIGHT_GREEN#@name@#WHITE#.
+당신은 이 곳, 세계들 사이의 공허에 위치한 불타는 대륙에서 살기 전의 삶에 대해서는 대부분 기억하지 못합니다.  당신은 악마들을 도왔고, 에이알을 향한 그들의 정당한 복수를 막고 있는 모종의 보호막 같은 것을 부수는 실험에 기쁘게 참여했습니다.
+
+당신은 담당관에게 붙잡혀 악마들이 '어떻게 하면 에이알의 생명들에게 최대한 고통을 줄 수 있는가' 에 대해 알아보는 걸 돕기 위해 고문의 구렁텅이로 가는 중이었습니다. 그런데 위쪽에서 굉음이 들렸고, 위를 올려다보니 이쪽 가까이로 떨어지고 있는, 불타는 운석이 보였습니다. 악마들이 주문을 쏘았지만 달라지는 건 없었죠!  운석은 당신 근처에 떨어졌고, 엄청난 충격파와 함께 당신은 기절했고 담당관은 그 자리에서 죽었습니다.
+
+깨어나고 보니 당신이 있는 불타는 땅 조각은 대륙에서 분리되어 있었고, 당신의 옛 기억이 한꺼번에 밀려들어왔고 의식이 깨어났습니다 - 악마들이 당신의 고향을 파괴하려 합니다!
+
+#{bold}#탈출해야 합니다!#{normal}#.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-corrupter_demonologist.lua"
 
+t("New Class: #LIGHT_GREEN#Corruptor (Demonologist)", "새로운 직업: #LIGHT_GREEN#악마학자 (모독자)", "_t")
+t([[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
+Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
+Some have managed to escape their programming and chose to follow their own desires instead.
+
+You have defeated countless demons, seen how their essence work, witnessed how to bind demons to your own purpose and can now create new characters with the #LIGHT_GREEN#Demonologist class#WHITE#.
+
+Corruptors are spellcasters, ranged attackers using magic.
+Class features:#YELLOW#
+- Infect your foes with demonic seeds.
+- Bind demonic seeds to your equipment to enhance them.
+- Summon and control demons to do your binding.
+- Blend corrupted magic with a martial shield training to protect yourself and ruin your foes.#WHITE#
+
+Corruptors use "vim" to power their special abilities.
+Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
+]], [[에이알을 침공했던 악마들은 그 행성의 생명 몇몇을 납치, 세뇌하여 자신들의 이중 첩자로 이용했습니다.
+그들은 악마의 힘을 사용할 수 있도록 훈련받았고, 공포를 퍼뜨리기 위해 수많은 암흑 종교를 창시했습니다.
+하지만 이들 중 몇몇은 간신히 악마들의 세뇌에서 벗어나, 자신들이 원하는 일을 하기로 결정했습니다.
+
+당신은 수많은 악마를 처치하고 그들의 정수가 어떤 식으로 작동하는지 보았으며, 악마들을 원하는 대로 속박하는 법을 마주하였습니다. 따라서 이제부터 #LIGHT_GREEN#악마학자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+악마학자들은 마법을 사용하는 근접 전사들로, 화염과 어둠의 비를 내리게 하는 동안 적들의 두개골을 방패로 깨부숩니다.
+직업 특징:#YELLOW#
+- 악마의 씨앗으로 적들을 감염시킨다.
+- 악마의 씨앗을 장비에 예속시켜 강화한다.
+- 악마들을 소환하여 마음대로 제어한다.
+- 타락의 마법과 방패술을 결합하여 스스로를 지키고 적들에게 파멸을 안긴다.#WHITE#
+
+악마학자들은 "원기" 를 원천으로 삼습니다.
+원기는 모든 존재의 생명력입니다. 원기는 저절로 회복되지 않으며, 적들에게서 빼앗아야만 회복됩니다.
+
+또한 악마학자는 기력 또한 사용합니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-cosmetic_doomhorns.lua"
 
+t("New Cosmetic Race Option: #LIGHT_GREEN#Doomhorns", "새로운 종족 치장 옵션: #LIGHT_GREEN#파멸의 뿔", "_t")
+t([[You have killed a creature by infusing your shield with demon horns, and you loved it!
+
+You can now create new characters with a pair of demonic horns.
+]], [[당신은 악마의 뿔로 방패를 강화하여 생명체를 죽였고, 그게 참 마음에 들었습니다!
+
+이제부터 악마의 뿔을 한 쌍 달고 있는 캐릭터를 생성할 수 있습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-cosmetic_red_skin.lua"
 
+t("New Cosmetic Race Option: #LIGHT_GREEN#Red Skin", "새로운 종족 치장 옵션: #LIGHT_GREEN#붉은 피부", "_t")
+t([[You have used a lot of demon seeds to increase your power, proving your devotion to the corrupting forces.
+
+You can now create new characters with a demonic red skin.
+]], [[당신은 힘을 키우기 위해 수많은 악마의 씨앗들을 사용하여, 타락의 힘에 대한 스스로의 깊은 헌신을 보여주었습니다.
+
+이제부터 악마의 붉은 피부를 가진 캐릭터를 생성할 수 있습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-race_doomelf.lua"
 
+t("New Race: #LIGHT_GREEN#Doomelf", "새로운 종족: #LIGHT_GREEN#둠엘프", "_t")
+t([[Doomelves are not a real race, they are Shaloren that have been taken by demons and transformed into harbingers of doom.
+Their skills in inflicting and resisting pain have been honed by their rigorous training on the Fearscape.
+
+You have killed the only three explorers from Mal'Rok that could have told the demons the truth and thus have earned the right to make #LIGHT_GREEN#Doomelf#WHITE# characters.
+
+Race features:#YELLOW#
+- Instant cast phase door
+- Can turn into a dúathedlen
+- Can increase detrimental effects and reduce beneficial ones on their foes
+#WHITE#
+]], [[둠엘프는 사실 완전히 다른 종족이 아니라, 악마들에 의해 파멸의 전조로 변하게 된 샬로레들입니다.
+그들은 공포의 영역에서 철저한 훈련을 통해 고통을 가하고, 또 견디는 기술을 연마하게 되었습니다.
+
+당신은 다른 악마들에게 진실에 대해 이야기할 수 있었던 악마 셋을 모두 죽였고 따라서 #LIGHT_GREEN#둠엘프#WHITE# 캐릭터를 생성할 수 있는 권리를 얻었습니다.
+
+종족 특징:#YELLOW#
+- 즉시 시전식 위상 관문
+- 듀아세들렌으로 변신 가능
+- 적들이 받는 해로운 효과들을 연장시키고 이로운 효과를 단축시킬 수 있음
+#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/overload/mod/class/DemonologistsDLC.lua"
 
+t("Shadow Power: ", "그림자의 힘: ", "_t")
 
 
 ------------------------------------------------
@@ -1350,6 +1568,9 @@ t("naga", "나가", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Game.lua"
 
+t("Class: Demonologist", "직업: 악마학자", "_t")
+t("Cosmetic: demonic horns", "외형: 악마의 뿔", "_t")
+t("Cosmetic: red skin", "외형: 붉은 피부", "_t")
 
 
 ------------------------------------------------
@@ -1360,5 +1581,18 @@ section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Object.lua"
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/superload/mod/dialogs/Birther.lua"
 
+t([[Thank you for purchasing #CRIMSON#Ashes of Urh'Rok#WHITE#, the first expansion pack of Tales of Maj'Eyal.
+
+To begin your adventures as a fiery bringer of doom simply create a character with the class #LIGHT_GREEN#Doombringer#WHITE# (in the Defiler category) and a race of #LIGHT_BLUE#%s#WHITE#.
+
+Have fun crushing your foes!
+]], [[테일즈 오브 마즈'에이알의 첫 번째 확장팩인 #CRIMSON#울흐'록의 재#WHITE#를 구매해 주셔서 감사합니다.
+
+불타는 파멸의 인도자로 모험을 시작하시려면 그냥 #LIGHT_GREEN#파멸의 사도#WHITE# (모독자 계열) 직업의 #LIGHT_BLUE#%s#WHITE# 종족 캐릭터를 만드세요.
+
+적들을 으깨버리면서, 재밌게 즐기세요!
+]], "tformat")
+t("Welcome to #CRIMSON#Ashes of Urh'Rok", "어서 오십시오, #CRIMSON#울흐'록의 재에", "_t")
+t(" or ", " 또는 ", "_t")
 
 

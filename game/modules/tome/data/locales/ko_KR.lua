@@ -463,8 +463,8 @@ t("#LIGHT_RED#disabled", "#LIGHT_RED#비활성화", "_t")
 t("Message Log", "메시지 로그", "_t")
 t("Displaying creatures.", "개체 표시.", "log")
 t("Displaying talents.", "기술 표시.", "log")
-t("Show Achievements", "도전과제 확인", "_t")
-t("Tales of Maj'Eyal Achievements", "테일즈 오브 마즈'에이알 도전과제", "_t")
+t("Show Achievements", "업적 확인", "_t")
+t("Tales of Maj'Eyal Achievements", "테일즈 오브 마즈'에이알 업적", "_t")
 t("Show known Lore", "알려진 이야기 보기", "_t")
 t("Tales of Maj'Eyal Lore", "테일즈 오브 마즈'에이알 이야기", "_t")
 t("Show ingredients", "연금술 재료 보기", "_t")
@@ -2050,7 +2050,7 @@ t("Headbanger", "박치기 왕", "achievement name")
 t("Headbanged 20 bosses to death.", "20명의 보스를 박치기로 처치했다.", "_t")
 t("Are you out of your mind?!", "미친 거 아냐?!", "achievement name")
 t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "보르 무기고에 있는 초월적인 거대 다색 용들의 관심을 끌었다. 아마 도망치는 것이 알맞을지도...", "_t")
-t("I cleared the room of death and all I got was this lousy achievement!", "이 죽음의 방을 싹쓸이했지만 내가 얻은 것이라고는 이 바보 같은 도전과제 뿐이라네!", "achievement name")
+t("I cleared the room of death and all I got was this lousy achievement!", "이 죽음의 방을 싹쓸이했지만 내가 얻은 것이라고는 이 바보 같은 업적 뿐이라네!", "achievement name")
 t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "보르 무기고의 \"죽음의 방\"에 있는 초월적인 일곱 용들을 처치했다.", "_t")
 t("I'm a cool hero", "나는 쿨한 영웅", "achievement name")
 t("Saved Derth without a single inhabitant dying.", "한 명의 마을 주민도 죽게 놔두지 않고 데르스를 구했다.", "_t")
@@ -2109,7 +2109,7 @@ t("Killed a boss while already dead.", "이미 죽은 상태에서 보스를 처
 t("Look at me, I'm playing a roguelike!", "날 좀 봐, 난 로그라이크를 하고 있다고!", "achievement name")
 t("Linked yourself in the in-game chat.", "게임 안의 채팅에 자신의 캐릭터를 링크했다.", "_t")
 t("Fear me not!", "날 두려워하지 말라!", "achievement name")
-t("Survived the Fearscape!", "Fearscape에서 살아 돌아왔다!", "_t")
+t("Survived the Fearscape!", "공포의 영역에서 살아 돌아왔다!", "_t")
 
 
 ------------------------------------------------
@@ -2145,10 +2145,10 @@ t("The Sun Still Shines", "태양은 여전히 빛나고 있다", "achievement n
 t("Aeryn survived the last battle.", "아에린이 마지막 전투에서 살아남았다.", "_t")
 t("Selfless", "이타심", "achievement name")
 t("Won ToME by closing the Void portal using yourself as a sacrifice.", "당신의 희생으로 공허의 차원문을 닫아 ToME에서 승리했다.", "_t")
-t("Triumph of the Way", "'한길'의 승리", "achievement name")
-t("Won ToME by sacrificing yourself to forcefully spread the Way to every other sentient being on Eyal.", "당신의 희생으로 에이알의 모든 지성체에게 '한길'을 강제해 ToME에서 승리했다.", "_t")
+t("Triumph of the Way", "한길의 승리", "achievement name")
+t("Won ToME by sacrificing yourself to forcefully spread the Way to every other sentient being on Eyal.", "당신의 희생으로 에이알의 모든 지성체에게 한길을 강제해 ToME에서 승리했다.", "_t")
 t("No Way!", "그 '길'은 안 돼!", "achievement name")
-t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "공허의 차원문을 닫고 아에린에게 스스로 죽음을 맞이함으로써 모든 지성체를 노예로 삼으려는 '한길'의 음모를 저지하고 ToME에서 승리했다.", "_t")
+t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "공허의 차원문을 닫고 아에린에게 스스로 죽음을 맞이함으로써 모든 지성체를 노예로 삼으려는 한길의 음모를 저지하고 ToME에서 승리했다.", "_t")
 t("Tactical master", "전술의 달인", "achievement name")
 t("Fought the two Sorcerers without closing any invocation portals.", "어떤 소환 차원문도 닫지 않고 두 주술사와 싸워 이겼다.", "_t")
 t("Portal destroyer", "차원문 파괴자", "achievement name")
@@ -2165,7 +2165,7 @@ t("Bikining along!", "비키니와 함께!", "achievement name")
 t("Won the game without ever taking off her bikini.", "비키니를 한 번도 벗지 않고 게임에서 승리했다.", "_t")
 t("Mankining it happen!", "맨키니가 나타났다!", "achievement name")
 t("Won the game without ever taking off his mankini.", "맨키니를 한 번도 벗지 않고 게임에서 승리했다.", "_t")
-t("Rescuer of the lost", "실종자를 구해 내다", "achievement name")
+t("Rescuer of the lost", "실종자를 구해내다", "achievement name")
 t("Rescued the merchant from the assassin lord.", "암살단의 단장으로부터 상인을 구했다.", "_t")
 t("Poisonous", "유독한 녀석", "achievement name")
 t("Sided with the assassin lord.", "암살단의 단장과 한 편이 되었다.", "_t")
@@ -2184,9 +2184,9 @@ t("Killed Ben Cruthdar the Cursed while saving all the lumberjacks.", "한 명�
 t("Eye of the storm", "폭풍의 눈", "achievement name")
 t("Freed Derth from the onslaught of the mad Tempest, Urkis.", "미친 대기술사 우르키스로부터 데르스를 해방시켰다.", "_t")
 t("Antimagic!", "반마법!", "achievement name")
-t("Completed antimagic training in the Ziguranth camp.", "지구르의 캠프에서 반마법 훈련을 마쳤다.", "_t")
+t("Completed antimagic training in the Ziguranth camp.", "지구랏의 캠프에서 반마법 훈련을 마쳤다.", "_t")
 t("Anti-Antimagic!", "반-반마법!", "achievement name")
-t("Destroyed the Ziguranth camp with your Rhaloren allies.", "랄로레 아군들과 함께 지구르의 캠프를 파괴했다.", "_t")
+t("Destroyed the Ziguranth camp with your Rhaloren allies.", "랄로레 아군들과 함께 지구랏의 캠프를 파괴했다.", "_t")
 t("There and back again", "또 다시 그곳에", "achievement name")
 t("Opened a portal to Maj'Eyal from the Far East.", "마즈'에이알에서 동쪽 대륙으로 통하는 차원문을 열었다.", "_t")
 t("Back and there again", "다시 또 그곳에", "achievement name")
@@ -2241,7 +2241,7 @@ t("Unlocked Archmage class and did over one million cold damage (with any item/t
 t("Lichform", "리치 형상", "achievement name")
 t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "힘과 영생을 향한 당신의 야망은 이루어졌다: 당신은 리치가 되었다!", "_t")
 t("Best album ever!", "'더 큐어' 아시는구나!", "achievement name")
-t("Removed 89 beneficial effects from enemies via Disintegration.", "'Disintegration' 기술로 적으로부터 '89'개의 이로운 효과를 제거했다.", "_t")
+t("Removed 89 beneficial effects from enemies via Disintegration.", "'분해' 기술로 적으로부터 '89'개의 이로운 효과를 제거했다.", "_t")
 
 
 ------------------------------------------------
@@ -2584,7 +2584,7 @@ t("#GOLD##{bold}#Tutorial mode", "#GOLD##{bold}#튜토리얼 모드", "_t")
 t("#WHITE#Start with a simplified character and discover the game in a simple quest.#{normal}#", "#WHITE#단순화된 캐릭터로 게임을 시작하며, 짧은 퀘스트를 통하여 게임을 둘러봅니다.#{normal}#", "_t")
 t("All damage done to the player reduced by 20%", "플레이어가 받는 피해량이 20% 줄어듭니다", "_t")
 t("All healing for the player increased by 10%", "플레이어가 받는 치료량이 10% 증가합니다", "_t")
-t("No main game achievements possible.", "메인 게임 도전과제를 달성할 수 있습니다.", "_t")
+t("No main game achievements possible.", "메인 게임의 업적을 달성할 수 없습니다.", "_t")
 t("Easier", "쉬움", "_t")
 t("#GOLD##{bold}#Easier mode#WHITE##{normal}#", "#GOLD##{bold}#쉬움 난이도#WHITE##{normal}#", "_t")
 t("Provides an easier game experience.", "보다 쉬운 게임을 경험합니다.", "_t")
@@ -2592,7 +2592,7 @@ t("Use it if you feel uneasy tackling the harder modes.", "어려운 모드에�
 t("All damage done to the player decreased by 30%", "플레이어가 받는 피해량이 30% 줄어듭니다.", "_t")
 t("All healing for the player increased by 30%", "플레이어가 받는 회복량이 30% 증가합니다", "_t")
 t("All detrimental status effects durations reduced by 50%", "모든 부정적인 효과의 지속시간이 50% 단축됩니다", "_t")
-t("Achievements are not granted.", "이 난이도에서는 도전과제를 달성할 수 없습니다.", "_t")
+t("Achievements are not granted.", "이 난이도에서는 업적을 달성할 수 없습니다.", "_t")
 t("Normal", "보통", "birth descriptor name")
 t("#GOLD##{bold}#Normal mode#WHITE##{normal}#", "#GOLD##{bold}#보통 난이도#WHITE##{normal}#", "_t")
 t("Provides the normal level of challenges.", "적당한 수준의 도전을 제공합니다.", "_t")
@@ -2634,7 +2634,7 @@ t("#GOLD##{bold}#Exploration mode#WHITE#", "#GOLD##{bold}#탐험 모드#WHITE#",
 t("Provides you with infinite lives.#{normal}#", "무제한의 목숨을 제공합니다.#{normal}#", "_t")
 t("This is not the way the game is meant to be played, but it allows you to have a more forgiving experience.", "이 모드로 게임을 하는 것은 권장되지는 않지만, 좀 더 너그러운 경험을 당신에게 제공합니다.", "_t")
 t("Remember though that dying is an integral part of the game and helps you become a better player.", "죽음은 이 게임의 핵심적인 부분이고, 더 뛰어난 실력을 갖출 수 있게함을 기억하십시오.", "_t")
-t("Exploration version of achievements will be granted in this mode.", "이 모드에서는 탐험 버전의 도전과제를 달성할 수 있습니다.", "_t")
+t("Exploration version of achievements will be granted in this mode.", "이 모드에서는 탐험 버전의 업적을 달성할 수 있습니다.", "_t")
 t("Full talent respec is always available.", "기술 습득 취소는 제한없이, 언제든지 가능합니다.", "_t")
 t("Adventure", "모험", "birth descriptor name")
 t("#GOLD##{bold}#Adventure mode#WHITE#", "#GOLD##{bold}#모험 모드#WHITE#", "_t")
@@ -4474,7 +4474,7 @@ Thank you for everything. You must continue your hunt now that you know what to 
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
 I am afraid with the power they gained today they will be even harder to stop, but we do not have a choice.]], [[주술사들이라고요? 그런 이야기는 처음 들어봅니다. 긍지의 새 주인에 대한 여러 소문들이 있었지만, 그 주인이란 자는 사실 두 명인 것 같군요.
 놈들이 힘을 얻었으니 이제 저지하기가 더 힘들어졌겠지만, 우리에겐 선택의 여지가 없습니다.]], "_t")
-t("I will avenge your men.", "그들의 복수를 하겠습니다.", "_t")
+t("I will avenge your men.", "먼저 간 이들의 복수를 하겠습니다.", "_t")
 t("Ah! This is wonderful! Finally a ray of hope amidst the darkness. I will assign my best troops to this. Thank you, @playername@ - take this as a token of gratitude.", "아! 정말 멋지군요! 드디어 어둠 속에서 희망의 빛이 한 줄기 보입니다! 최고 중의 최고만 모아 정찰대를 꾸리겠습니다. 감사드립니다, @playername@ - 감사의 증표로써, 이걸 받아 주세요.", "_t")
 t("Good luck.", "행운을 빌죠.", "_t")
 t("Aeryn gives you: %s", "아에린이 %s 주었다.", "logPlayer", nil, {"를"})
@@ -5135,6 +5135,7 @@ If you feel you cannot take part in a slaver's game, I am afraid you will need t
 넌 노예처럼 보이진 않으니, 약간의 돈을 내면 '게임'을 하게 해 주지.
 하지만 우리 노예상들의 게임에 관심이 없다면, 안타까운 일이지만... 사라져 줘야겠다.]], "_t")
 t("Slavers? This is so wrong! [attack]", "노예상이라고? 이 사악한 자식! [공격한다]", "_t")
+t("You think so? Die.", "그렇게 생각하나? 죽어라.", "_t")
 t("Game? I like playing, what's this about?", "게임이라고? 게임 좋지, 무슨 게임인데?", "_t")
 t([[Well, you see, it's quite simple. I will mentally take control of various wild creatures or slaves while you use the orb of command on the other side of this room to take control of a slave.
 Then we fight using our pawns for 10 rounds. If your slave survives you will win the Bloodcaller.]], [[음, 보면 알겠지만, 꽤 간단한 거지. 난 온갖 야생 동물들이나 노예들을 정신지배해서 조종하고, 넌 저기 있는 지배의 오브를 써서 노예를 조종하게 될 거다.
@@ -5535,7 +5536,7 @@ Ah! Our guest is finally here. I take it you found the peak entertaining?]], [[#
 t("Spare me the small talk. I am here to stop you!", "잡소리는 거기까지다. 너희를 막으러 왔다!", "_t")
 t("Why are you doing all that? You were supposed to help people!", "왜 이런 짓을 하는 거지? 너흰 사람들을 도우려 했잖아!", "_t")
 t([[Oh, but all we want is to help people. We have come to the self-evident conclusion that common people are just unfit to govern themselves, always bickering, arguing...
-Since the last invasion of the orcs there has been no threat to unite them!]], "오, 당연히 사람들을 돕는 것만 생각하고 있지. 그저, 그 사람들은 스스로를 통치하기엔 적절하지 않다는 자명한 결론이 나왔을 뿐. 항상 다투고, 언쟁을 벌이고 말이야... 오크들이 침략했던 때 이후로는, 그 사람들이 하나로 뭉치게 될 만큼 위협적인 것이 없었다고!", "_t")
+Since the last invasion of the orcs there has been no threat to unite them!]], "오, 우린 여전히 사람들을 돕는 것만 생각하고 있는데 말이야. 그저, 그 사람들은 스스로를 통치하기엔 적절하지 않다는 자명한 결론이 나왔을 뿐. 사람들은 항상 다투고, 언쟁을 벌이지... 오크들이 침략했던 때 이후로는, 그 사람들이 하나로 뭉치게 될 만큼 위협적인 것이 없었다고!", "_t")
 t("So you have decided to become the threat yourselves?", "그래서, 손수 그 '위협적인 것' 이 되기로 하셨다?", "_t")
 t("Us? Ah, no, we are merely instruments for the Master. We have planned for His return.", "우리가 말이야? 어, 아니지. 우린 그저 주인의 도구에 불과해. 우린 그분을 돌아오시게 할 계획을 세웠을 뿐이다.", "_t")
 t("And 'He' would be...?", "'그분' 이라고...?", "_t")
@@ -5931,7 +5932,7 @@ t("I am sorry, but I cannot do that.", "죄송합니다만, 못 하겠습니다.
 section "game/modules/tome/data/chats/zemekkys.lua"
 
 t([[#LIGHT_GREEN#*A slot in the door opens and a pair of wild eyes peer out.*#WHITE#
-What do you want, @playerdescriptor.race@?]], [[#LIGHT_GREEN#*문에 붙은 작은 창이 열리고 거친 눈동자들이 이쪽을 바라봅니다.*#WHITE#
+What do you want, @playerdescriptor.race@?]], [[#LIGHT_GREEN#*문에 붙은 작은 창이 열리고 거친 눈동자가 이쪽을 바라봅니다.*#WHITE#
 원하는 게 뭐냐, @playerdescriptor.race@?]], "_t")
 t("Paladin Aeryn told me that you could help me. I need to get to Maj'Eyal.", "아에린 님이 당신이 절 도울 수 있다던데. 전 마즈'에이알로 가 봐야 합니다.", "_t")
 t("I found the Blood-Runed Athame, but there was no Resonating Diamond.", "피의 룬 제례단검은 찾았지만, 공명하는 다이아몬드는 없었습니다.", "_t")
@@ -6447,7 +6448,7 @@ t("Allied Kingdoms halfling patrol", "왕국연합의 하플링 순찰대", "ent
 t("allied kingdoms", "왕국연합", "entity subtype")
 t("patrol", "순찰대", "entity type")
 t("adventurers party", "모험가 무리", "entity name")
-t("ziguranth patrol", "지구르 추종자 순찰대", "entity name")
+t("ziguranth patrol", "지구랏 추종자 순찰대", "entity name")
 t("hostile", "적대적인", "entity type")
 t("humanoid", "인간형", "entity subtype")
 t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "당신이 추잡한 비전 마법 사용자가 아니라면 두려워할 필요는 없습니다. 반대라면: 죽어라!", "_t")
@@ -7304,9 +7305,9 @@ section "game/modules/tome/data/general/npcs/aquatic_demon.lua"
 t("aquatic", "수생", "entity type")
 t("demon", "악마", "entity subtype")
 t("water imp", "물 임프", "entity name")
-t("A small water demon, lobbing spells at you.", "작음 물의 악마로, 당신에게 주문을 던집니다.", "_t")
+t("A small water demon, lobbing spells at you.", "작은 물의 악마로, 당신에게 주문을 던집니다.", "_t")
 t("Walrog", "왈록", "entity name")
-t("Walrog, the lord of Water, is fearsome to behold. The water writhes around him as if trying to escape, making his form indistinct. He does not seem surprised to see you.", "왈록, 물의 주인으로 바라보기만해도 소름이 끼칩니다. 물이 그에게서 벗어나려는 듯이 그의 주변을 휘감고 있어, 그의 형태를 제대로 가늠할 수 없습니다. 그는 당신을 보고도 놀라지 않은 것 같습니다.", "_t")
+t("Walrog, the lord of Water, is fearsome to behold. The water writhes around him as if trying to escape, making his form indistinct. He does not seem surprised to see you.", "왈록은 물의 주인으로 바라보기만 해도 소름이 끼칩니다. 물이 그에게서 벗어나려는 듯이 그의 주변을 휘감고 있어, 그의 형태를 제대로 가늠할 수 없습니다. 그는 당신을 보고도 놀라지 않은 것 같습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7730,7 +7731,7 @@ t("lich", "리치", "entity name")
 t("Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "영생을 손에 넣으려한 이 존재들은 영생을 위해 역생이 삶의 즐거움을 앗아가는 것을 허락했습니다. 이제 이 강력한 주문 시전자들은 생명을 파괴하려 합니다.", "_t")
 t("ancient lich", "고대의 리치", "entity name")
 t("An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "이제는 잊혀진 시대의 나이든 존재로, 살아있는 것들에 대한 증오로 가득 차 있고, 분노로 불타오르고 있습니다. 이 존재는 이제는 가질 수 없는 소중한 것을 다른 이들에게서 앗아갑니다... 바로 생명이죠.", "_t")
-t("archlich", "고위 리치", "entity name")
+t("archlich", "아크 리치", "entity name")
 t("Blacker than the deepest night, this cold cruel form of darkness approaches.  Long ago it laid aside its mortality, but it has not forgotten its power; rather, its malice and hate have bent this undead entity on the destruction of all things living.", "칠흑의 밤보다 검은, 이 어둠에 감싸인 차갑고 냉혹한 존재가 다가옵니다.  오래 전, 필멸성을 던저버렸지만, 힘을 잃어버리진 않았습니다. 오히려 악의와 증오가 이 언데드를 모든 생명체의 파괴로 이끕니다.", "_t")
 t("blood lich", "피의 리치", "entity name")
 t("The seething, pumping, disembodied blood of a horrendously powerful necromancer. To strike it is to bathe in the rivers of the Fearscape itself.", "강력한 강령술사의 몸을 벗어난 들끓으며, 고동치는 피입니다. 이 존재를 공격하는 것은 공포의 구역를 통과하는 강물, 그 자체에게 세례를 받는 것과 마찬가질 겁니다.", "_t")
@@ -7769,7 +7770,7 @@ It moves swiftly toward you, casting terrible spells and swinging its weapons at
 t("champion of Urh'Rok", "울흐'록의 대전사", "entity name")
 t("One of Urh'Rok's own champions. A thousand nightmares made flesh and screaming steel tower before you in the form of a massive, armored humanoid.", "울흐'록의 대전사 중 하나로, 당신 앞에 우뚝 선 거대한 살점과 비명지르는 강철의 존재는 천 가지 악몽으로 이루어저 있습니다.", "_t")
 t("forge-giant", "대장간 거인", "entity name")
-t("A burning giant wielding a forge hammer of the underworld in each hand -- weapons imbued by Urh'Rok himself with the power to crush and shape felsteel. Enter their range at your peril.", "양 손에 지하세계의 대장장이 망치를 든 불타는 거인으로, 울흐록이 직접 그 망치에 규장철을 가공하고, 부술 힘을 불어넣었습니다. 그 망치 사이에 끼인다면 분명 엄청나게 위험할 겁니다.", "_t")
+t("A burning giant wielding a forge hammer of the underworld in each hand -- weapons imbued by Urh'Rok himself with the power to crush and shape felsteel. Enter their range at your peril.", "양 손에 지하세계의 대장장이 망치를 든 불타는 거인으로, 울흐'록이 직접 그 망치에 규장철을 가공하고, 부술 힘을 불어넣었습니다. 그 망치 사이에 끼인다면 분명 엄청나게 위험할 겁니다.", "_t")
 t("Khulmanar, General of Urh'Rok", "쿨마나르, 울흐'록의 장군", "entity name")
 t("This massive form, sheathed in dark flames, stands tall above a legion of lesser demons. In his hands he holds a massive blackened battleaxe, flames dancing around the blades.", "하급 악마들의 군단 앞에 어두운 화염에 감싸인 거대한 존재가 서있습니다. 그 손에는 불에 그슬린, 거대한 전투 도끼를 들고있으며, 그 도끼날 위에서 화염이 춤을 춥니다.", "_t")
 
@@ -8738,7 +8739,7 @@ Removes (25%% chance) up to three stuns, pins, or dazes each turn%s]], [[함정 
 t("#CRIMSON#%s twitches, alerting %s that a hidden trap is nearby.", "#CRIMSON#%s 움찔 거리며, %s 주변에 함정이 있음을 경고한다.", "logSeen", nil, {"는"})
 t("%s shrugs off some effects!", "%s 몇가지 효과를 제거했다!", "logSeen", nil, {"는"})
 t("#LIGHT_RED#You feel uneasy carrying %s.", "#LIGHT_RED#%s 들고 다니는 것은 왠지 꺼림찍하다.", "logPlayer", nil, {"를"})
-t("Psionic Fury", "염동 집중", "entity name")
+t("Psionic Fury", "날뛰는 염력", "entity name")
 t("vibrating mindstar", "진동하는 마석", "_t")
 t("This mindstar constantly shakes and vibrates, as if a powerful force is desperately trying to escape.", "이 마석은 마치 강력한 힘이 필사적으로 탈출하려는 것 처럼, 끊임없이 흔들리고 진동합니다.", "_t")
 t("release a wave of psionic power, dealing %0.2f mind damage (based on Willpower) to all within radius %d", "초능력 파동을 해방하여, %0.2f 정신 피해를 반경 %d 칸의 모든 적에게 가합니다. (의지에 비례)", "tformat")
@@ -9954,7 +9955,7 @@ t("dispeller", "퇴마사", "entity keyword")
 t(" of alchemy", " 연금술 ", "entity name")
 t("alchemy", "연금술", "entity keyword")
 t("timebroken ", "깨어진 시간의 ", "entity name")
-t("timebroken", "깨진시 간", "entity keyword")
+t("timebroken", "깨진 시간", "entity keyword")
 t("spellwoven ", "주문으로 짜낸 ", "entity name")
 t("spellwoven", "주문 방직", "entity keyword")
 t(" of Linaniil", " 리나니일 ", "entity name")
@@ -11882,7 +11883,7 @@ t("Amethyst of Sanctuary", "성역의 자수정", "entity name")
 t("deep purple gem", "깊은 보랏빛 보석", "_t")
 t("This bright violet gem exudes a calming, focusing force. Holding it, you feel protected against outside forces.", "이 빛나는 보석은 조용하고, 집중된 힘의 기운을 풍깁니다. 손에 쥐고있으면, 외부의 힘에 대항해 보호받고 있다는 느낌을 받습니다.", "_t")
 t("Reduce damage from attackers more than 3 tiles away by 25%", "3 칸 밖에서 오는 공격의 피해량을 25% 줄입니다", "_t")
-t("Sceptre of the Archlich", "강력한 리치의 홀", "entity name")
+t("Sceptre of the Archlich", "아크 리치의 홀", "entity name")
 t("bone carved sceptre", "뼈를 깎아 만든 홀", "_t")
 t("This sceptre, carved of ancient, blackened bone, holds a single gem of deep obsidian. You feel a dark power from deep within, looking to get out.", "이 홀은 고대의, 불에 그슬린 뼈를 깎아 만들었고, 섬세하게 세공된 흑요석이 박혀있습니다. 이 홀 깊은 곳에서 어둠의 힘이 느껴집니다. 사악한 힘은 이 홀에서 빠저나가려 안간 힘을 씁니다.", "_t")
 t("#LIGHT_BLUE#You feel the power of the sceptre flow over your undead form!", "#LIGHT_BLUE#이 홀의 강력한 힘이 당신의 언데드 육체에 흘려들어온다!", "logPlayer")
@@ -13498,7 +13499,7 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
  
 “다른 사람을 기대하신 건가요?” 놀란 내 얼굴을 보며, 그녀가 밝은 웃음으로 물었다.
  
-“생각을 좀 하고있었습니다.” 고개를 숙여 인사를 건내며 해명했다.  “저는 장거리 포탈의 작동을 점검하러 가는 길입니다.  아마 아가씨께서도-“
+“생각을 좀 하고있었습니다.” 고개를 숙여 인사를 건내며 해명했다.  “저는 장거리 차원문의 작동을 점검하러 가는 길입니다.  아마 아가씨께서도-“
  
 “저도 같이 가죠.” 그녀가 나의 초대도 기다리지 않고 빠르게 말했다.  나는 고개를 끄덕였고, 그녀를 내 마차로 안내했다.
 
@@ -14049,7 +14050,7 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 이 추운, 마치 지하묘지같은 동굴은 사방이 부드럽고 빛나는 얼음으로 덮혀있었다.  벽은 네모 반듯하고 직각이였으며, 고대의 대리석 기둥이 방 안에 흩어져있었고, 기둥에는 룬과 기호들이 새겨져있었다.  더 자세히 보기위해 몸을 옮겼지만, 내가 공부한 것들 중 어디에서도 이와 같은 것을 보지 못했음을 깨달았다.  “여기는 어떤 곳이지?” 리나니일에게 몸을 돌리며 물었다.  “쉐르'툴 보다 오래된 것 같은데.”
 
-그녀는 문의 외곽선을 찾기 위해 벽에 손을 대고 달렸다.  “여긴 Quekorja 의 사원입니다. 어떤 종족의 신이였는데, 어떤 종족인진 잊어버렸네요.  그들은 우리 종족이 태어나기 한참 전에 쉐르'툴에게 죽어 없어졌습니다.  그들은 Quekorja 를 위해 이 사원을 지었고, 마지막 남은 생존자도 이곳에서 그녀를 지키다가 죽었습니다.”
+그녀는 문의 외곽선을 찾기 위해 벽에 손을 대고 달렸다.  “여긴 쿠에코르자의 사원입니다. 어떤 종족의 신이였는데, 어떤 종족인진 잊어버렸네요.  그들은 우리 종족이 태어나기 한참 전에 쉐르'툴에게 죽어 없어졌습니다.  그들은 쿠에코르자 를 위해 이 사원을 지었고, 마지막 남은 생존자도 이곳에서 그녀를 지키다가 죽었습니다.”
 
 나는 경외를 갖고 그 곳을 둘러보았다.  비록 많은 쉐르' 툴 유적들을 탐험했지만, 이런것을 본 적은 없었다.  건축 구조는 단순했지만 기품이있었다.  그 모든 것에는 조잡한 아름다움이 있었다.  나는 리나니일이 조사중인 문 쪽으로 돌아섰다.
 
@@ -14059,47 +14060,47 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 나는 빛의 존재를 베려했지만, 하지만 그 형태를 꿰뚫기 직전, 칼이 겨우 스칠 정도로 느려졌고, 내가 일으킨 화염도 별 효과가 없었다.  그것은 나를 향해 촉수를 치켜들었고, 강렬하게 빛나는 빛 줄기가 내 몸통에 번쩍였다. 내 살은 불타는 고통으로 가득 찼다. 나는 등 뒤로 물러서, 그것에게 얼음 파동을 내보냈고, 촉수를 잘라버리고 뒤로 밀치는 데 성공했다.  한편 리나니일은 뾰족한 생명체 하나를 먼지로 만들어버렸지만, 그녀의 마법 보호막은 다른 생명체들의 공격으로 부서져 버렸고, 더 많은 괴물들이 천장에서 쏟아저나왔다.  입구쪽에서는 벌레 떼가 밀어닥치고 있었고, 마구 꿈틀대는 몸에 붙은 아가리에서는 불타는 산성액이 뿜어저나왔다.
 
-너무 많은 적들이 한꺼번에 우리에게 달려들었기 때문에, 우리는 이 좁은 공간 안에서 둘러싸여질 위험이 컸었다.  “이쪽이예요!” 리나니일이 소리쳤고, 그녀는 자신이 박살낸 바위 문 쪽으로 달려나갔다.  나는 그녀를 따라가며, 벌레 떼들을 베고, the mass of worms, causing it to lurch back screeching in pain, and spearing a blast of lightning through one of the spiked creatures, splitting open its head.  It continued to attack me, but I parried and cut its arm off, dancing around it and reaching the doorway.  With my back to the opening I brought up a wall of water and sent it flooding into the chamber, pushing the horrors away as I leapt backwards through the door.
+너무 많은 적들이 한꺼번에 우리에게 달려들었기 때문에, 우리는 그 비좁은 공간 안에서 둘러싸여질 위험이 컸었다.  “이쪽이예요!” 리나니일이 소리쳤고, 그녀는 자기가 박살낸 바위 문 쪽으로 달려나갔다.  나는 그녀를 따라가며, 벌레 떼들을 베고, 찢고, 뾰족한 생명체들 하나에게 번개 폭발을 날려보내, 머리통을 쪼개버렸다.  그 생명체는 계속해서 나를 공격하려 했으나, 나는 공격을 막아내며 그 주변에서 칼춤을 추면서 팔을 베어버렸고, 이윽고 문에 다다랐다.  입구를 등지고, 나는 물의 장벽을 만들어냈다, 뒤 쪽으로 도약하며 공포체들을 밀어냈고, 곧장 물의 벽을 방 안으로 내보내, 방 전체를 잠기게했다.
 
-As soon as I passed through Linaniil thrust her staff into the ground and a pillar of rock rose upwards, sealing off the opening.  I could hear thrashing and thumping sounds from the other side, but for now we seemed safe.  “What were those things?!” I asked incredulously, as I scanned around the open cavern for signs of any more creatures.  It was a large space, but everything was still, and I could see no other entrances.
+내가 리나니일에게 달려가자, 그녀는 지팡이를 땅에 꽂아넣고, 바위 기둥을 일으켜, 입구를 봉인했다.  반대쪽에서 부수는 소리가 들렸지만, 그때는 안전한 것 같았다.  “저게 대체 뭐야?!” 열린 동굴에서 또 다른 괴물이 튀어나오지 않을까 감시하며 믿기지 않는다는 듯이 물었다.  넓은 공간이었지만 모든 것이 고요했고, 다른 출입구는 보이지 않았다.
 
-“Scions of Amakthel,” she responded calmly.  “The butchered god seeks to break his chains.  But he needs more power...  And here in this dark, forgotten place is part of that power he seeks.”
+“아마크텔의 자손들.” 그녀가 조용하게 대답했다.  “도살당한 신이 사슬을 끊을 방법을 찾고있어요.  하지만 그는 힘이 부족합니다...  그리고 이곳, 이 어둠 속의 잊혀진 곳은 그가 찾고있는 힘의 일부입니다.”
 
-“And what is here?  What terrible power lies here that would draw both you and those horrors?!”
+“그럼 여긴 뭐야?  어떤 끔찍한 힘이 이곳에 잠든거지? 대체 어떻게 공포체들을 부르고있는거야?!”
 
-“Quekorja,” she said.
+“쿠에코르자.” 그녀가 말했다.
 
-“Quekorja?  The... the god?”  I couldn’t believe I what I was hearing.  “Was it not slain by the Sher’Tul?”
+“쿠에코르자?  그... 신?”  대답을 듣긴 했지만 나는 믿을 수가 없었다.  “쉐르'툴에게 죽은 거 아니였나?”
 
-“Aye, that it were.  But there be power even in a slain god.  Look behind ye, Aranion.”
+“네, 그랬었지요.  하지만 살해당한 신도 힘을 갖고있습니다.  뒤를 보세요. 아라니온.”
 
-I turned then, wondering what she wanted me to behold.  It took me a moment to see it, but when I did I gasped in shock.  The far wall of this great cavern was not merely a wall.  It was covered in a thick layer of ice, but beneath at its centre I could make out a huge yellow eye.  And around that eye I could trace out a giant form.  Dark grey skin covered a bulging head, topped with three great curved horns, which sat atop a long, thick body with six limbs.  It was deathly still and chillingly ancient, seeming more like part of the rock than anything that had once been alive.  I couldn’t believe what I was seeing, but I could feel it.  In that corpse was still power, immense power, like nothing I had ever felt before.
+나는 리나니일이 내게 무엇을 보여줄까 궁금해하며 몸을 돌렸다.  그것을 제대로 보는 데에는 시간이 좀 걸렸지만, 그것을 보자, 충격에 숨을 몰아쉬었다.  이 거대한 동공의 끝은 단순히 벽이 아니였다.  그것은 두꺼운 얼음 층으로 덮혀 있었지만, 그 아래, 중심부에는 거대한 노란색 눈알이 자리잡고 있었다.  그리고 그 눈 주위의 거대한 형상을, 나는 찾아낼 수 있었다.  불룩한 머리를 덮고있는 검회색의 피부, 그 위에는 커다란 곡선을 그리는 뿔 세 개가 보였다. 그리고 그 아래, 여섯 개의 팔다리가 달린 두꺼운 몸통이 있었다.  그 시체는 죽음처럼 고요하고, 오싹할 정도로 오래된 것으로, 한때 살아 있었던 것 보다는 바위의 일부처럼 보였다.  나는 내가 보고있던 것을 믿을 수가 없었으나 느낄 수는 있었다.  시체 속에는 아직도 힘이 잠들어있었다. 내가 전에 느껴본 적 없는 강력한 힘이.
 
-“This be it,” said Linaniil.  “One of the few corpses of the gods left to find in Maj’Eyal.  And I shall take its power as mine own.”
+“이게 그것 입니다.” 리나니일이 말했다.  “마즈'에이알에 남겨진 몇 안되는 신들의 시체 중 하납니다.  그리고 이 힘을 제 것으로 만들거구요.”
 
-“This is insane!” I shouted.  “You have no idea if that is safe or not.  You don’t know what it will do to you!”
+“이건 미친 짓이야!” 내가 외쳤다.  “이게 안전한지 아닌지도 모르잖아.  이게 어떤 영향을 줄지도 모른다고!”
 
-She chuckled darkly.  “Aye, that be true.  But that is why I have brought ye here.”  I looked at her in confusion and she chuckled again.  “Ye still know not your purpose here.  Did ye think I took ye here for protection?  That I couldst not handle those horrors on mine own?  No, there be a different reason I have brought ye.  When I absorb this corpse, when I take its power for mine own, I do not know what wilst become of me.  It may kill me.  Or it may drive me mad, it may turn me into something terrible.  Should that happen, Aranion, you art the only one I know with the strength to kill me.”
+그녀는 어두운 미소를 지었다.  “맞아요, 사실입니다.  하지만 그것 때문에 제가 당신을 이곳으로 데려왔죠.”  나는 혼란스러워하며 그녀를 바라보았고, 그녀는 다시 웃음 지었다.  “당신은 아직도 이 곳에서의 당신의 목적을 모릅니다.  설마 안전 때문에 데려온줄 알았나요?  저 공포체들을 혼자서 처리 못할거라 생각한 건 아니겠지요?  아닙니다, 당신을 데려온 이유는 따로 있어요.  내가 이 시체를 흡수하고 나서, 저것의 힘을 내 것으로 만든 후, 저도 제가 어떻게 될지 모릅니다.  저를 죽일 수도 있겠지요.  아니면 나를 미치게하거나, 아니면 나를 끔찍한 존재로 변하게 할 수도 있어요.  그렇게되면, 나를 죽일 수 있을만한 힘과 기예를 가진, 아라니온, 당신이 절 죽여야해요.”
 
-The words hit me like a blow to the chest.  “Kill you?  But I couldn’t...”
+그 말이 내 가슴에 강타 날리는 것 같았다.  “널... 죽여?  하지만 나는...”
 
-“But ye must!” she said firmly.  “After all ye have done... all the torture ye have brought my life... ye owe me this.”  I looked deep into her eyes and saw the turmoil of emotions within, the pain and agony of all that had befallen her, the hatred and blame of those who had wronged her, the guilt and shame for not being able to do more herself.  And deep inside still some touch of love for me and what we had shared.  I reached out my hand and stroked her soft hair, my fingers touching lightly against the side of her face.  I leaned in close and she closed her eyes, turning her face up to me as I moved my lips towards hers.
+“하지만 당신은 반드시 해야해요!” 그녀가 단호하게 말했다.  “당신이 한 짓들... 당신이 내 가저온 고통들이 제 삶을 앗아갔습니다... 당신이 진 빚을 갚을 때 입니다.”  그녀의 눈 깊숙한 곳에서 혼란스러운 감정들을 보았다. 그녀에게 닥친 모든 고통과 괴로움, 그녀를 괴롭히던 이들에 대한 증오와 비난, 더 많은 일을 할 수 없다는 죄책감과 수치심.  그리고, 마음 속 깊은 곳에서는 아직도 우리가 나누었던 사랑의 손길이 남아있었다.  나는 손을 뻗어, 그녀의 부드러운 머리칼을 쓰다듬었고, 내 손가락은 그녀의 얼굴 옆에 가볍게 닿았다.  나는 그녀에게 다가갔고 그녀는 눈을 감았다. 하지만 그녀에게로 서서히 입술을 옮기자, 그녀는 고개를 돌렸다.
 
-“No!” she suddenly cried, pushing me back.  “It cannot be!”  She swiftly turned from me, and I saw a tear drip down one cheek.  “The world has changed, Aranion.  I have a duty before me, and none can walk that path beside me.”  And with that she began to run, staff in hand, towards the great eye whose dead gaze was locked behind the wall of ice.  I sprinted after her, but she was faster, and with running leap she thrust the base of her staff through the ice and into the center of the god’s eye.
+“안돼!” 그녀는 갑자기 소리쳤고, 나를 뒤로 밀쳤다.  “안됀다고!”  그녀는 빠르게 몸을 돌렸다.  나는 그녀의 한 쪽 뺨에서 눈물 한줄기를 보았다.  “세상은 변해버렸어요. 아라니온.  저에게는 임무가 있어요, 그리고 아무도 내 옆에서 그 길을 걸을 수 없고요.”  그러고는 그녀가 한 손에 지팡이를 잡고 얼음벽 뒤에 갇혀있는, 죽음의 시선을 가진 거대한 눈을 향해 뛰기 시작했다.  나는 그녀를 뒤쫓아 달렸으나, 그녀가 더 빨랐고, 그녀는 도약하며 지팡이를 얼음 벽에 꿰뚫었고, 신의 눈 가운데에 찔러넣었다.
 
-The ice cracked with a deafening thunder, and the giant yellow eye pulsed before exploding in a ball of light.  I stopped and covered my eyes as white light flooded the room and shards of ice flew through the air.  I could barely make out Linaniil, bathed in light, hanging with one hand from her staff, her hair and robes blown backwards as she reached forwards with her other arm.  Slowly, intrepidly, she placed her hand into the centre of the ball of light where the eye had been, and shadows danced about the cavern as she wrapped her fingers round that luminous sphere, before squeezing tight.
+얼음에 금이 가면서 거대한 굉음을 냈다. 거대한 노란색 눈이 고동치기 시작하더니 빛의 구가 되어 폭발했고, 나는 제자리에 멈춰서 방 내부를 가득 채운 빛과 얼음 조각들에게서 두 눈을 가렸다.  나는 리나니일을 겨우 볼 수 있었다. 빛의 세례를 받으며, 한 손은 지팡이에 의지하고 있었고, 다른 쪽 팔을 앞으로 뻗고 있는 동안 그녀의 머리카락과 로브는 뒤쪽으로 휘날렸다.  천천히, 또 대담하게, 그녀는 눈알이 있었던 빛의 구 중심에 손을 놓았고, 그녀가 광구를 손가락으로 감싸자, 그림자들은 동굴 안에서 춤을 추더니 쥐어짜지듯 사라졌다.
 
-The cavern shook, her staff shattered, the wall creaked and split before wholly blasting apart.  The corpse of the dead god collapsed into a stream of silver and in a roaring cacophony rushed towards Linaniil, tearing apart her robes and sinking into her skin.  She floated in the air, limbs outstretched as the vast energy poured into her flesh.  She opened her mouth as if to scream and light burst out, and light spilled from her eyes and ears.  The cavern quaked dangerously and rocks fell from the walls and ceiling.  But in seconds it was over, the corpse of the god fully absorbed, the light in Linaniil’s eyes went out, and she dropped to the ground like a stone.
+동굴은 요동쳤고, 그녀의 지팡이는 부서졌다. 갈라진 벽은 삐걱이는 소리를 내더니, 완전히 부서저버렸다.  죽은 신의 시체는 은빛을 발하는 흐름이 되어 시끄러운 소리로 울부짖으며 로브를 갈기 갈기 찢고 리나니일의 살 속으로 흘러들어갔다.  방대한 에너지가 그녀의 살 위에 쏟아지자, 공중으로 점점 솟아오르며 두 팔을 활짝 펴졌다.  그녀가 비명을 지르는 것 같이 입을 벌리자 빛이 그 사이에서 터져나왔고, 두 눈과 귀에서도 빛이 흘러나왔다.  동굴은 위험할 정도로 흔들렸고, 바위들이 벽과 천장에서 떨어지기 시작했다.  하지만 몇 초 후, 모든 것이 가라앉았다. 신의 사체는 완전히 흡수 되었고, 리나니일의 안광은 사라졌다. 그녀가 돌맹이처럼 땅바닥에 쓰러졌다.
 
-Then the horrors broke through, the collapsing cavern having made an opening for them, and immediately they sped hungrily to where Linaniil lay.  “No!” I cried, rushing to intercept them.  “You cannot have her!”
+그러자, 공포체들이 뚫고들어오기 시작했다.  동굴의 떨림으로 인해 막혀있던 입구가 부서진 것이다. 그리고 그 괴물들은 리나니일이 누워있는 곳으로 곧장 달려가기 시작했다.  “안돼!” 그것들을 막아세우며 나는 울부짖었다.  “아무도 그녀에게 해를 끼칠 수는 없다!”
 
-I sliced off the head of a spiked creature and put up a wall of fire ahead of the rest of them as I backed towards Linaniil’s body.  She looked dead, with no sign of movement or breathing, but I had no time to check.  The being of light and tentacles passed through my flames without resistance, and I ran sparks along my sword as I tore it up the centre of the monster.  It shot light through my torso and I coughed up blood, but I forced my sword in deeper and ran a flood of arcane energy through it, blowing the thing apart.  More spiked creatures came, and I took care of my footing whilst parrying and chopping on my left and sending waves of flame to my right.
+나는 뾰족한 생명체의 머리를 베고, 나는 리나니일의 몸 쪽으로 뒷걸음 질 치며, 나머지 놈들을 향해 화염의 벽을 만들어냈다.  그녀는 죽은 것 같았다. 어떤 움직임도 보이지 않았고 호흡도 하지 않았으나, 확인할 시간 같은 것은 없었다.  촉수 달린 빛의 존재가 나의 화염을 미동도 하지 않은 채 통과했고, 내가 그 괴물의 몸 가운데에 칼을 꽂고 찢을 때, 나는 마법 에너지로 엄청난 스파크를 만들어 냈다.  그것은 빛을 발사해 내 몸통을 꿰뚫었고, 나는 피를 토했지만, 나는 칼을 더 깊숙하게 찔러넣고, 엄청난 양의 비전 에너지를 주입해 놈을 찢어버렸다.  뾰족한 생명체들이 더 다가왔지만, 나는 발걸음을 주의하며 왼쪽 놈의 공격을 막아내고, 오른 쪽 괴물에게 화염 파동을 날려보냈다.
 
-The mass of worms broke through the wall, and with it two more luminous horrors, and some fiend of darkness and nightmares, and I could see behind others were spilling through.  I put up a shield as rays of light shot towards me, and sent balls of frost back at them.  One of the light beings fell, whilst the other was slowed.  The dark thing came quickly, and the mass of worms not far behind, so I sliced my sword across the ground, sending heat through it, and turned the stone into a mass of lava.  The dark thing came around it, and I felt an aura of deathly cold from it as it approached.  I hacked at it desperately, and it shot back speared limbs towards my chest that seemed to suck all strength from me.  With a roar I shot a pulse of flames down my blade and it burst apart.  The worms charged directly over the lava, squealing in pain as a bulk of them were burned, but coming at me with speed.  I adjusted my grip, getting ready to make deft strokes to stay out of its range, but a lance of light then shot through my leg, dropping me to one knee with a scream.  The mass of worms rushed at me then, and I dug my sword deep into their midst, but the worms crawled over my arms, digging their acidic teeth into my flesh and reaching for my neck.  With my left arm I cast a blanket of flames over them, burning my arm along with the screeching worms.  They pulled away slightly, but the being of light was approaching from the side, a tentacle flaring up in luminescent energy, and three spiked horrors were behind it.  My right arm was burnt, my left leg injured, my mail pocked with holes, and my mana reserves were running low.  But I gritted my teeth in determination - I could not back from this fight.  I rushed at the mass of worms with my sword held firm.
+벌레뗴가 벽을 부수고 들어왔고, 밤에 빛나는 공포 두 체와 암흑과 악몽의 악마같은 것들이 다가왔다. 나는 그 밖에도 다른 괴물들이 다가오는 것을 볼 수 있었다.  광선이 내게 날아오자 나는 방패를 들어 막고, 서리 구체를 놈들에게 발사했다.  빛의 존재 하나가 쓰러졌고, 다른 놈들은 움직임이 굼떠졌다.  암흑의 존재는 빠르게 다가왔고, 벌레 덩어리도 가까운 곳에 있었다. 그래서 나는 바닥에 상처를 상처를 내고, 그곳에 열기를 보내, 바위들을 용암 덩어리로 만들었다.  어둠의 존재가 다가오자, 나는 죽음과 같이 싸늘한 기운을 느낄 수 있었다.  나는 필사적으로 칼을 내리쳤고, 놈은 창같은 팔을 내 가슴에 쏘아보내 내 모든 힘을 흡수하려고 한 것 같다.  우렁찬 함성과 함께, 칼날에서 화염 파동을 뿜어내자, 그 괴물은 폭발해 버렸다.  벌레들은 용암을 건너 바로 돌진하려했다. 벌레들 대부분은 불에 타 끽끽 거리는 소리만을 냈으나 그러면서도 내게 빠른 속도로 달려왔다.  나는 손 위치를 조정하고, 벌레들의 사정거리에 닿지 않게끔 참격을 준비하려 했으나, 그 때, 빛의 창이 내 다리를 관통했고, 나는 비명을 지르며 한쪽 다리로 넘어질 수 밖에 없었다.  그러자 벌레떼가 내게로 달려오기 시작했고, 나는 벌레떼 한 가운데, 깊숙한 곳으로 칼을 찔러넣었지만, 벌레들은 내 팔을 기어오기 시작했다.  벌레들의 산성 이빨을 내 피부에 꽂아넣었고, 점점 내 목 쪽으로 기어왔다.  나는 화염 장막을 소환해 벌레들에게 씌웠다. 끽끽거리는 벌레들과 함께 내 팔도 같이 불타올랐다.  벌레떼는 서서히 도망치기 시작했지만, 빛의 존재가 내 옆에 다가오고 말았다.  촉수가 번쩍이는 에너지로 빛을 발했고, 세 체의 가시돋힌 공포들이 그 뒤를 따랐다.  내 오른 팔은 불에 타버렸고, 내 왼발에는 깊은 상쳐가났다. 사슬 갑옷은 구멍투성이였고, 마나 원천력도 서서히 고갈되고 있었다.  하지만 나는 이 악물고 결의를 다졌다 - 나는 이 싸움에서 등을 돌릴 수 없었다.  나는 검을 꽉 쥐고, 벌레떼를 향해 돌진했다.
 
-It exploded in a fiery mess, and an intense wave of force and fire blasted across the cavern, turning the other horrors to ash, and even burning through the luminous being - a low scream arising from it as the flames tore it apart.  I gasped, not knowing whence this blaze had come, until I turned around and saw Linaniil.  She was standing tall, her robes burnt off, flames dancing up and down her skin, bright light shining from her eyes.  Heat seemed to radiate from her.  I kept my grip on my sword, not sure if this was the Linaniil I knew, or some other force born of her union with the dead god.
+벌레떼가 화염을 뿜어내며 폭발했고, 강렬한 힘과 화염의 파동이 온 동굴에 퍼졌다.  다른 공포들은 재가 되었고, 빛의 존재도 화염에 휩쓸렸다 - 화염이 그 존재를 찢어버리자 낮은 소리로 비명을 질러댔다.  내가 리나니일에게로 몸을 돌리기 전까지, 이 불길이 언제 들이닥쳤는지 의문을 가지며, 숨을 몰아쉬었다.  그녀는 우뚝 서있었고, 그녀의 로브는 타버렸다. 화염이 그녀의 피부 위 아래로 춤추고 있었고, 광채가 그녀의 눈에서 발산되고 있었다.  열기는 그녀에게서 뿜어저 나오는 것 같았다.  나는 칼을 계속 쥐고있었다. 내가 알던 그 리나니일이 맞는 건지, 아니면 죽은 신과의 결합으로 탄생한 어떤 다른 힘인지 확신할 수 없었다.
 
-She laughed suddenly, and it was a harsh laugh that I had not heard her make before.  “What a fool I have been,” she said, almost to herself.  “I brought ye here in case ye had to stop me.  But now...  Now mine power exceeds ye by a long distance.  Ye would have no hope of opposing me!”  She made a low sound somewhere between a laugh and a sigh.  “Ah, but ye have no cause to worry.  I am still me.  Mostly.  And through pain and sacrifice I have achieved the power I desired.  The power I need.”
+그녀가 갑자기 웃었고, 그 웃음소리는 전에 들어보지 못한 냉혹한 웃음이였다.  “나는 정말 바보였구나.” 그녀가 거의 자신에게만 들릴 정도로 말했다.  “나는 너를 나를 막아햐 할 상황을 위해 데려왔다.  하지만 지금은...  나의 힘은 너의 힘을 아득히 초월하는구나.  너는 나를 막지 못한다!”  그녀는 웃음과 한숨 사이의 낮은 어투로 말했다.  “아, 하지만 걱정할 필요 없어요.  나는 아직 나예요.  거의.  고통과 희생을 통해, 내가 필요로 하는 힘을 얻었습니다.  내게 필요한 힘.”
 
 I let my sword dip and breathed heavily, relief mingled with trepidation sweeping through me, whilst the withdrawing adrenalin of battle left me feeling exhausted.  I looked Linaniil over, her pale skin now glowing, her eyes brimming with energy and vitality.  I saw the power she had was not in mere force, but that she had taken on the ageless nature of the gods.  A power forbidden to all creatures was now hers and hers alone.
 
@@ -14679,6 +14680,8 @@ Dragons are regularly hunted for their thick scales and their elementally imbued
 용들의 인간과 하플링 정착지에 대한 공격은 상당히 드물지만, 그런일이 발생했을 때, 용들은 정말로 파괴적일 수 있다. 보통은 가축을 먹이로 삼지만, 이따금씩 막 성숙한 드레이크들은 이런 공격에서 둥지에 비축할만한 귀금속과 보석들을 약탈해간다. 용 둥지에관해 가장 거대한 용들이 말 그대로 황금의 산을 지키고 있다는 전설이 내려져오지만 현대에는 정말로 크기가 큰 용둥지는 드물다. 난쟁이들은 매혹의 시대에 거의 멸종될 정도로 용을 사냥했기 때문이다, 요즘 대부분의 용들은 단지 작은 보물들만 그들의 둥지에 간직하고 있다.
 
 용들은 두꺼운 비늘과 원소들이 스며든 뼈 때문에 정기적으로 사냥을 당한다. 용 가죽은 적절히 처리되었을때 가볍고 질긴데다가 죽은 용의 힘을 어느 정도 가지고 있기도 하기 때문에 장인들 사이에서 귀중하게 여겨지고 있다. 용골은 자연적으로 원소의 힘을 잘 받아들여  지팡이 제작자들이 매우 선호하고 있으며, 때때로 가장 섬세하지만 탄력 있는 활과 화살을 만들기 위해 활 제작자들에 의해 사용되기도 한다. 그러나 많은 용인들은 그들의 피부와 뼈를 위해 용을 사냥하는 것에 대해 크게 반대하며, 자연적인 원인으로 죽은 용에서 채취한 "자연적으로 수확된"  재료에 대한 시장이 증가하고 있다. 그럼에도 불구하고 모든 용에게서 나온 재료들은 유달리 높은 값을 받고 있기 때문에 많은 탐욕스러운 영혼들이 이 장엄한 생명체의 송곳니와 발톱에 매해 목숨을 잃는다]], "_t")
+t("Mocking Note", "조롱하는 쪽지", "_t")
+t("Guard's Journal", "경비병의 일지", "_t")
 t("Boss's Journal", "우두머리의 일지", "_t")
 t("vault", "보물창고", "newLore category")
 t("How to Summon a Phoenix", "불사조를 소환하는 법", "_t")
@@ -14820,7 +14823,7 @@ t("Poltergeist's %s", "폴터가이스트의 %s", "tformat")
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/orc-hatred.lua"
 
-t("Something in the floor clicks ominously.", "바닥의 무언가가 불길하게 찰칵 소리를 낸다.", "logPlayer")
+t("Something in the floor clicks ominously.", "바닥의 무언가가 불길하게 찰칵 소리를 냈다.", "logPlayer")
 
 
 ------------------------------------------------
@@ -14828,58 +14831,84 @@ section "game/modules/tome/data/maps/vaults/auto/greater/paladin-vs-vampire.lua"
 
 t("corrupted lava floor", "오염된 용암 바닥", "_t")
 t("#Source# emits dark energies at your feet.", "#Source1# 다리 밑에서 어두운 에너지를 내뿜었다.", "logCombat")
-t("The corrupted lava reanimates %s's corpse!", "오염된 용암 바닥이 %s의 시체를 되살렸다!", "logSeen")
+t("The corrupted lava reanimates %s's corpse!", "오염된 용암 바닥이 %s의 시체를 일으켰다!", "logSeen")
 t("human sun-paladin", "인간 태양의 기사", "_t")
-t("A Human in shining plate armour.", "빛나는 판금 갑옷을 입은 인간.", "_t")
+t("A Human in shining plate armour.", "빛나는 판금 갑옷을 입은 인간입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/portal-vault.lua"
 
+t("#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "#YELLOW#차원문은 당신을 튕겨냈고 곧 잠잠해졌다.  반대편이 막혀 있는 것 같다.", "logPlayer")
+t("An ominous aura emanates from this portal. Are you sure you want to go through?", "이 차원문은 불길한 기운을 내뿜고 있습니다. 정말로 들어가겠습니까?", "_t")
+t("Malevolent Portal", "악의를 품은 차원문", "_t")
+t("#YELLOW#You overcome intense #LIGHT_BLUE#REPULSIVE FORCES#LAST# as you traverse the Portal.", "#YELLOW#차원문으로 들어가, #LIGHT_BLUE#강렬한 반발력#LAST#을 극복하고 차원문을 통과했다.", "logPlayer")
 t("Cancel", "취소", "_t")
 t("Teleport", "순간이동", "_t")
+t("#YELLOW#Nothing happens when you use the Portal.", "#YELLOW#차원문을 이용했고 아무 일도 일어나지 않았다.", "logPlayer")
+t("A strange portal to some place else.", "다른 장소로 이어지는 이상한 차원문입니다.", "_t")
+t("Portal", "차원문", "_t")
+t("A portal out of this place.", "이 장소에서 나가는 차원문입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/greater/sleeping-dragons.lua"
 
+t("The dragons here are asleep. You may try to steal their treasure... at your own risk.", "이곳의 용들은 잠들어 있다. 녀석들의 보물을 훔칠 수도 있다... 위험을 감수해야겠지만.", "log")
+t("#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!", "#CRIMSON#보물이 도둑맞은 걸 느끼고 용들이 깊은 잠에서 깨어났다!", "log")
+t("Sleeping #rng#", "잠자는 #rng#", "_t")
+t("Dozing #rng#", "졸린 #rng#", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/auto/lesser/loot-vault.lua"
 
 t("scroll", "두루마리", "_t")
+t("Mocking Note", "조롱하는 쪽지", "_t")
+t("A small scrap of paper written in a mocking tone.", "조롱하는 말투의 글이 쓰여진 작은 종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/bandit-fortress.lua"
 
+t("bandit fortress", "도적의 요새", "_t")
 t("stairs back to %s", "%s 돌아가는 계단", "_t", nil, {"로"})
 t("#rng# the Guard", "경비병 #rng#", "_t")
 t("scroll", "두루마리", "_t")
+t("Guard's Journal", "경비병의 일지", "_t")
 t("A messily scrawled pile of loose papers.", "엉망진창으로 휘갈겨져 있는, 헐거운 종이 다발입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/collapsed-tower.lua"
 
+t("elemental crystal", "원소 수정", "_t")
+t("collapsed tower", "무너진 탑", "_t")
 t("stairs back to %s", "%s 돌아가는 계단", "_t", nil, {"로"})
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/greater-crypt.lua"
 
-t("Something in the floor clicks ominously.", "바닥의 무언가가 불길하게 찰칵 소리를 낸다.", "logPlayer")
+t(", and suddenly the world spins around you!", ", 그러자 갑자기 주변 세상이 빙빙 돈다!", "_t")
+t("Something in the floor clicks ominously.", "바닥의 무언가가 불길하게 찰칵 소리를 냈다.", "logPlayer")
+t(", and the crypt rearranges itself around you!", ", 그러자 주변의 지형이 재배열됐다!", "_t")
+t("Something in the floor clicks ominously%s", "바닥의 무언가가 불길하게 찰칵 소리를 냈고%s", "logPlayer")
+t("Something beneath you clicks ominously.", "발밑의 무언가가 불길하게 찰칵 소리를 냈다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/grushnak-armory.lua"
 
+t("#rng# the Archer", "궁수 #rng#", "_t")
+t("Warbear #rng#", "전투곰 #rng#", "_t")
+t("Elite Combat Trainer #rng#", "정예 전투 교관 #rng#", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/maps/vaults/lava_island.lua"
 
+t("#rng# the Witherer", "활력을 뺏는 #rng#", "_t")
 
 
 ------------------------------------------------
@@ -15145,8 +15174,8 @@ t("Escort the %s to the recall portal on level %s.", "%s %s 구역의 귀환 차
 t("#LIGHT_RED#%s is dead, quest failed!", "#LIGHT_RED#%s 죽었다. 임무 실패다!", "logPlayer", nil, {"이"})
 t("something", "무언가", "_t")
 t("Recall Portal", "귀환 차원문", "_t")
-t("%s of %s", "%s %s층", "tformat", {2,1})
-t("Escort: %s (level %s)", "호위: %s (구역 %s)", "tformat")
+t("%s of %s", "%s %s구역", "tformat", {2,1})
+t("Escort: %s (level %s)", "호위: %s (%s)", "tformat")
 
 
 ------------------------------------------------
@@ -15271,6 +15300,7 @@ t("#LIGHT_GREEN#* You are now on the path of lichdom.#WHITE#", "#LIGHT_GREEN#* �
 t("#SLATE#* Use the control orb of Yiilkgur to begin the ceremony.#WHITE#", "#SLATE#* 의식을 시작하려면 일크구르의 제어 오브를 사용하세요.#WHITE#", "_t")
 t("#SLATE#* Your lair must amass enough energy to use in your rebirth (40 energy).#WHITE#", "#SLATE#* 당신의 거처에 환생에 쓸 수 있을 만큼의 충분한 에너지가 필요합니다 (40 에너지).#WHITE#", "_t")
 t("#SLATE#* The ceremony will require a suitable location, secluded and given to the channelling of energy#WHITE#", "#SLATE#* 의식을 치르려면 적합한 장소가 필요합니다. 고립되어 있고, 에너지를 집중시킬 수 있는 장소가 좋겠습니다.#WHITE#", "_t")
+t("#CRIMSON#* You have ascended to Lichdom!#WHITE#", "#CRIMSON#* 리치가 되는 것에 성공했습니다!#WHITE#", "_t")
 t("Lichform", "리치 형상", "_t")
 t("The secrets of death lay open to you! You are to become a Lich upon your next death!", "죽음의 비밀이 눈앞에 열려 있습니다! 다음 번에 죽으면 리치가 됩니다!", "_t")
 
@@ -15709,7 +15739,7 @@ t("You decided to side with the orc.", "오크의 편을 들기로 결정했습�
 t("Fillarel told you to go to the southeast and meet with High Sun Paladin Aeryn.", "필라렐은 남동쪽으로 가서 고위 태양의 기사 아에린을 만나라고 했습니다.", "_t")
 t("Krogar told you to go to the west and look for the Kruk Pride.", "크로가르는 서쪽으로 가서 크룩 긍지를 찾아보라고 했습니다.", "_t")
 t("%s go to the west, and find Kruk Pride!", "%s, 서쪽으로 가서 크룩 긍지를 찾아라!", "tformat")
-t("%s go to the southeast, and tell Aeryn what happened to me!", "%s, 남동쪽으로 가, 아에린에게 이 일을 전하세요!", "tformat")
+t("%s go to the southeast, and tell Aeryn what happened to me!", "%s, 남동쪽으로 가, 아에린 님께 이 일을 전하세요!", "tformat")
 
 
 ------------------------------------------------
@@ -15741,7 +15771,7 @@ t("Temporal Warden", "시간 감시자", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/quests/trollmire-treasure.lua"
 
-t("You have found all the clues leading to the hidden treasure. There should be a way on the third level of the Trollmire.", "숨겨진 보물에 대한 모든 단서를 찾았습니다. 트롤 늪에는 세 번째 층으로 가는 길이 있을 것입니다.", "_t")
+t("You have found all the clues leading to the hidden treasure. There should be a way on the third level of the Trollmire.", "숨겨진 보물에 대한 모든 단서를 찾았습니다. 트롤 늪에는 세 번째 구역으로 가는 길이 있을 것입니다.", "_t")
 t("It looks extremely dangerous, however - beware.", "하지만 굉장히 위험해 보입니다 - 조심하세요.", "_t")
 t("You have slain Bill. His treasure is yours for the taking.", "빌을 처단했습니다. 그 보상으로 그의 보물은 모두 당신 것입니다.", "_t")
 t("way to the hidden trollmire treasure", "트롤 늪의 숨겨진 보물로 통하는 길", "_t")
@@ -15768,6 +15798,10 @@ t("Tutorial: Movement", "튜토리얼: 움직이기", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/quests/void-gerlyk.lua"
 
+t("In the void, no one can hear you scream", "공허 속에선, 그 누구도 네 비명을 듣지 못하네", "_t")
+t("You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "주술사들은 죽였습니다. 하지만 안타깝게도, 공허로의 차원문은 열려 있습니다. 창조자가 오고 있습니다.", "_t")
+t("This cannot be allowed to happen. After thousands of years trapped in the Void between the stars, Gerlyk is mad with rage.", "일어나선 안 되는 일입니다. 별들 사이의 공허에 수천 년간 갇혀 있었던 게를릭은 분노로 미쳐 버렸을 것이기 때문입니다.", "_t")
+t("You must now finish what the Sher'tuls started. Take the Staff of Absorption and become a Godslayer yourself.", "이제 쉐르'툴 종족이 시작했던 일을 당신이 마무리해야 합니다. 흡수의 지팡이를 들고, 신살자가 되세요.", "_t")
 
 
 ------------------------------------------------
@@ -21399,11 +21433,11 @@ t("You attune your %s to deal #ORANGE#mind#LAST# damage.", "당신의 %s #ORANGE
 t("You attune your %s to deal #LIGHT_GREEN#nature#LAST# damage.", "당신의 %s #LIGHT_GREEN#자연#LAST# 속성으로 변경했다.", "logPlayer", nil, {"를"})
 t("Alter the flow of energies of your equiped mindstars, changing their damage type between nature and mind.", "장착한 마석의 에너지 흐름을 바꿔, 피해 속성을 자연, 또는 정신으로 변경합니다.", "tformat")
 t("Command Staff", "지팡이 다루기", "talent name")
-t("@Source@ refocuses the energies of %s staff.", "@Source2@ %s 지팡이의 에너지를 재조정한다.", "tformat")
+t("@Source@ refocuses the energies of %s staff.", "@Source2@ %s의 지팡이의 에너지를 재조정했다.", "tformat")
 t("You need a staff.", "지팡이를 장착해야 합니다.", "logPlayer")
 t("You must be holding a staff.", "지팡이를 장착하고 있어야합니다.", "logPlayer")
 t("Command Staff: ", "지팡이 다루기: ", "_t")
-t("Alter the flow of energies through a staff.", "지팡이의 에너지 흐름을 재조정합니다..", "tformat")
+t("Alter the flow of energies through a staff.", "지팡이의 에너지 흐름을 재조정합니다.", "tformat")
 t("Ward", "보호구역", "_t")
 t([[Bring a damage-type-specific ward into being. The ward will fully negate as many attacks of its element as it has charges.
 		You can activate the following wards: %s]], [[주변에 특수한 속성 피해를 막아내는 보호구역을 만들어냅니다. 보호구역은 도구의 충전량만큼 해당 속성 공격을 무효화합니다.
@@ -34219,7 +34253,7 @@ This farportal is not connected to any other portal. It is made for exploration;
 It should automatically create a portal back, but it might not be near your arrival zone.]], [[장거리 차원문은 엄청난 거리를 눈 깜박할 새에 이동할 수 있는 통로입니다. 강대한 쉐르'툴 종족이 남긴 것이지요.
 이 차원문은 다른 어떤 차원문과도 연결되어 있지 않습니다. 이건 탐험용입니다. 즉, 이게 당신을 어디로 보내줄 지는 알 수 없습니다.
 이것은 어딘가에 다시 돌아올 수 있는 차원문을 만들어 주지만, 아마 당신이 도착한 곳 근처는 아닐 것입니다.]], "_t")
-t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in a strangely familiar zone, right next to a farportal...", "#VIOLET#소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 이상하게 낯익은 지역에 착지했다. 장거리 포탈이 바로 옆에 있다...", "log")
+t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in a strangely familiar zone, right next to a farportal...", "#VIOLET#소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 이상하게 낯익은 지역에 착지했다. 장거리 차원문이 바로 옆에 있다...", "log")
 t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot in strange empty space...", "#VIOLET#소용돌이치는 차원문으로 들어갔고 눈 깜박할 새에 이상하게 텅 빈 장소에 도착했다...", "log")
 t("The farportal seems to be inactive", "이 장거리 차원문은 비활성 상태인 것 같습니다.", "_t")
 t("The farportal is broken and will not be usable anymore.", "이 장거리 차원문은 부서져서 더는 쓸 수 없습니다.", "_t")
@@ -35169,7 +35203,7 @@ t("Shatur", "샤툴", "_t")
 section "game/modules/tome/data/zones/town-zigur/grids.lua"
 
 t("Zigur Postsign", "지구르 포고문", "entity name")
-t("The laws of the Ziguranth", "지구르 추종자들의 규율", "_t")
+t("The laws of the Ziguranth", "지구랏 추종자들의 규율", "_t")
 t("lava pit", "용암 구덩이", "entity name")
 t("cultivated fields", "경작지", "entity name")
 t("cobblestone road", "조약돌 길", "entity name")
@@ -35186,7 +35220,7 @@ section "game/modules/tome/data/zones/town-zigur/npcs.lua"
 t("Grand Corruptor", "위대한 타락자", "entity name")
 t("An Elven corruptor, drawn to these blighted lands.", "이 황폐화된 땅에 이끌린 엘프 타락자입니다.", "_t")
 t("Protector Myssil", "보호자 미씰", "entity name")
-t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "어두운 색의 강철 갑옷을 입고 있는 하플링 지구르 추종자입니다. 지구르의 현 지도자입니다.", "_t")
+t("A Halfling Ziguranth, clad in dark steel plates. She is the current leader of Zigur.", "어두운 색의 강철 갑옷을 입고 있는 하플링 지구랏 추종자입니다. 지구르의 현 지도자입니다.", "_t")
 t("halfling", "하플링", "entity subtype")
 
 
@@ -35502,10 +35536,10 @@ t("Gerlyk, the Creator", "창조자 게를릭", "entity name")
 t([[During the Age of Haze nearly all gods were destroyed by the Sher'tul Godslayers. However, a small number escaped.
 Gerlyk, the creator of the Human race, prefered to flee into the void between the stars than to face death. He has been trapped ever since.
 The sorcerers tried to bring him back and nearly succeeded.
-Now you have come to finish what the Sher'tul began. Become a Godslayer yourself.]], [[아지랑이의 시대 동안 거의 모든 신들이 쉐르'툴 신 살해자들에게 파괴되었습니다. 하지만, 적은 수의 신들은 탈출에 성공했습니다.
-인간 종족의 창조주, 게를릭은 죽음을 맞는 것 보다 별들 사이의 공허 속으로 도망는 것을 선택했습니다. 하지만 그 이후로 계속 갇혀 있습니다.
+Now you have come to finish what the Sher'tul began. Become a Godslayer yourself.]], [[아지랑이의 시대 동안 거의 모든 신들이 쉐르'툴 신살자들에게 파괴되었습니다. 하지만, 소수 신들은 탈출에 성공했습니다.
+인간 종족의 창조주, 게를릭은 죽음을 맞는 것 보다 별들 사이의 공허 속으로 도망치는 것을 선택했습니다. 하지만 그 이후로 계속 갇혀 있습니다.
 주술사들은 게를릭을 다시 불러오려 했고, 거의 성공했었습니다.
-이제 당신은 쉐르'툴이 시작한 일을 끝내려왔습니다. 신 살해자가 되십시오.]], "_t")
+이제 당신은 쉐르'툴이 시작한 일을 마무리하러 왔습니다. 신살자가 되십시오.]], "_t")
 
 
 ------------------------------------------------
@@ -37131,7 +37165,7 @@ t("Greater training in the use of armour lets it be used more effectively, block
 t("The Thick Skin talent reduces all incoming damage, letting you survive for longer before needing to heal.", "두꺼운 피부 기술은 모든 종류의 피해를 줄여줌으로써 생명력이 회복될 때까지 생존할 수 있도록 도와줍니다.", "init.lua load_tips")
 t("Regeneration infusions act over several turns, letting you anticipate damage that will be taken and prepare for it.", "재생 주입물은 여러 턴에 걸쳐 당신의 생명력을 회복시킵니다. 어느 정도의 피해가 들어올지 예상하여 상대에 대응할 수 있습니다.", "init.lua load_tips")
 t("In the most dire circumstances teleportation can be the best escape, but is not without risk.", "모든 상황에서 순간이동은 최고의 회피기입니다. 물론 위험에 빠질 가능성이 없다는 것은 아닙니다.", "init.lua load_tips")
-t("The Ziguranth are an ancient order vehemently opposed to magic. Some have become so attuned to nature they can resist arcane forces with their will alone.", "지구르 추종자들은 고대의 조직으로 마법 사용자들에게 격렬하게 저항합니다. 강력한 추종자들은 스스로의 의지만으로 마법의 힘에 저항할 수 있을 정도로 자연과 동화 되어있습니다.", "init.lua load_tips")
+t("The Ziguranth are an ancient order vehemently opposed to magic. Some have become so attuned to nature they can resist arcane forces with their will alone.", "지구랏은 고대의 조직으로 마법 사용자들에게 격렬하게 저항합니다. 몇몇 강력한 추종자들은 스스로의 의지만으로 마법의 힘에 저항할 수 있을 정도로 자연과 동화되어 있습니다.", "init.lua load_tips")
 t("Records say that giants once lived civilised lives, with mastery of many crafts and sciences. Now, though, they have adopted nomadic cultures, turning hostile against those that encroach on their lands.", "남겨진 기록에서는 거인들은 한때 문명화된 생활상을 가졌다고 전해집니다. 그들은 과학과 제작 기술에 통달했었지만, 지금은 유목 생활을 하며 그들의 영역을 침범하는 이들에게 야만적이고 호전적인 모습만을 보여줍니다.", "init.lua load_tips")
 t("Zigur was founded by escapees of Conclave experiments during the Allure wars between humans and halflings.", "지구르는 인간과 하플링 사이에 일어난 매혹의 전투동안 탈출한 최고 의회 실험 생존자들에 의해 세워졌습니다.", "init.lua load_tips")
 t("The Thaloren and Shaloren elves have never had good relations, and have been outright hostile since the Spellblaze devastated many Thaloren lands.", "탈로레와 샬로레들은 좋은 관계였던 적이 없습니다. 마법폭발이 탈로레들의 땅들을 파괴한 후로는 오히려 서로 적대적입니다.", "init.lua load_tips")

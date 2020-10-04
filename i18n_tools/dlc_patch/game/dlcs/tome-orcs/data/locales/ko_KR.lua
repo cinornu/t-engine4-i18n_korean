@@ -2180,7 +2180,7 @@ t([["...for posterity!  Let's make sure future generations can hear the moments 
 
 "물론이지요! 여기에-- 수레를 가져와라!"  (철컥거리는 소리, 삐걱거리는 소리.)  "원한다면, 열어 보셔도 됩니다."
 
-"필요 없다. 힘이 느껴지는구나, 너무나도 친숙하지만 굉장히 새롭다... 아마크텔 그 분의 눈이 확실하다! 실로 아름답도다, 그리고 모두가 이 아름다움을 알게 되리라..."
+"필요 없다. 힘이 느껴지는구나, 너무나도 친숙하지만 굉장히 새롭다... 아마크텔 그분의 눈이 확실하다! 실로 아름답도다, 그리고 모두가 이 아름다움을 알게 되리라..."
 
 "어... 예, 아름답습니다! 이로써 우리 아트모스와... 음, 그쪽 사람들은 오래토록 아름다운 협력 관계를 맺게 되었군요! 이제 돌아가서 준비가 되었다고 말해야겠고, 그쪽도 오크 문제를 해결할 준비가 되었습니까? 아, 그쪽 분들도 기뻐서 여기까지 내려오--"
 
@@ -2523,9 +2523,9 @@ t([[I'm not going to lie to you: things aren't going great.  Between the Doomelf
 
 And regarding the First Duathedlen - quit your murmuring right now.  I've seen his track record, and I know most of you know it too, which is why we can safely say that despite his... nature, his loyalty is [b]not[/b] in question - we can assume his abrupt cessation of communication is a necessary part of his investigations, and not him going rogue.  If you see him, tell us of his whereabouts, but do not interfere.
 
-[i](The letter is signed with an unreadable but formal-looking demonic seal.)[/i] ]], [[솔직히 말하겠다, 상황이 좋지 않다.  둠엘프들의 탈주 사건 때문에 쿨마나르를 포함한 우리 귀중한 병력의 대부분이 '비정상' 의 손에 죽었다. 게다가 듀아세들렌 1호기도 실종되어, 이번 년도에 우린 손해를 상당히 많이 본 상태다.  그렇기 때문에 너희들에게 내릴 명령은 간단하다 - 죽은 듯이 있어라.  눈에 띄는 행동을 하지 말고, 우리가 적당한 발판과 새 계획을 얻어낼 때 까지 정보 수집은 최소한으로 제한하라.
+[i](The letter is signed with an unreadable but formal-looking demonic seal.)[/i] ]], [[솔직히 말하겠다, 상황이 좋지 않다.  둠엘프들의 탈주 사건 때문에 쿨마나르를 포함한 우리 귀중한 병력의 대부분이 '비정상' 의 손에 죽었다. 게다가 최초의 듀아세들렌도 실종되어, 이번 년도에 우린 손해를 상당히 많이 본 상태다.  그렇기 때문에 너희들에게 내릴 명령은 간단하다 - 죽은 듯이 있어라.  눈에 띄는 행동을 하지 말고, 우리가 적당한 발판과 새 계획을 얻어낼 때 까지 정보 수집은 최소한으로 제한하라.
 
-그리고 듀아세들렌 1호기에 대해서는 - 그 이야기로 수군대지 마라.  난 놈의 이동 기록을 보았고, 너희들이 아는 건 대부분 나도 알고 있다. 놈의... 본성을 고려하더라도, 놈의 충성심에 대해선 [b]결코[/b] 이견이 없을 것이다 - 놈이 보고를 갑자기 끊은 건 그게 임무에 필요했기 때문으로 보이고, 놈이 배반을 했다고 생각하기는 어렵다.  만약 놈을 발견했다면, 보고하라. 하지만 놈을 방해하진 마라.
+그리고 최초의 듀아세들렌에 대해서는 - 그 이야기로 수군대지 마라.  난 놈의 이동 기록을 보았고, 너희들이 아는 건 대부분 나도 알고 있다. 놈의... 본성을 고려하더라도, 놈의 충성심에 대해선 [b]결코[/b] 이견이 없을 것이다 - 놈이 보고를 갑자기 끊은 건 그게 임무에 필요했기 때문으로 보이고, 놈이 배반을 했다고 생각하기는 어렵다.  만약 놈을 발견했다면, 보고하라. 하지만 놈을 방해하진 마라.
 
 [i](이 편지에는 무엇인지 읽을 수는 없지만, 공적인 것처럼 보이는 악마의 인장이 찍혀 있습니다.)[/i] ]], "_t")
 t("bootlegger's complaint letter", "주류 밀수꾼의 불평이 적힌 편지", "_t")
@@ -4999,7 +4999,7 @@ t("All steamtech criticals reduce the remaining cooldown of a random steamtech t
 section "game/dlcs/tome-orcs/data/talents/uber/dex.lua"
 
 t("Automated Reflex System", "자동 반사작용 시스템", "talent name")
-t("Have gained the #{italic}#Matrix Style#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "지금 이 캐릭터나, 과거에 어떤 캐릭터로든, 현재 난이도와 영구적 죽음 설정으로 #{italic}#매트릭스처럼!#{normal}# 도전과제를 달성했을 것.", "_t")
+t("Have gained the #{italic}#Matrix Style#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "지금 이 캐릭터나, 과거에 어떤 캐릭터로든, 현재 난이도와 영구적 죽음 설정으로 #{italic}#매트릭스처럼!#{normal}# 업적을 달성했을 것.", "_t")
 t([[A small automatic detection system is always looking for incoming projectiles, when one is about to hit you it injects drugs into your system to boost your reactivity, granting you a free turn.
 		This effect can not happen more than once every 5 turns.]], [[작은 자동 탐지 시스템이 항상 시전자에게 다가오는 투사체를 감지합니다. 투사체가 명중하는 순간, 약품을 신경계에 주입하여 반사 신경을 극대화해, 1 턴을 획득합니다.
 		이 효과는 매 5 턴마다 한 번씩 일어납니다.]], "tformat")
@@ -5011,7 +5011,7 @@ section "game/dlcs/tome-orcs/data/talents/uber/mag.lua"
 t("Arcane Amplification Drone Effect", "비전 증폭 드론 효과", "talent name")
 t("Spell damage done to it ripples in radius 4 doing 160% arcane damage.", "드론에게 가해진 주문 피해의 160% 비전 피해를 입히는 반경 4 칸의 폭발을 일으킵니다.", "_t")
 t("Arcane Amplification Drone", "비전 증폭 드론", "talent name")
-t("Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "지금 이 캐릭터나, 과거에 어떤 캐릭터로든, 현재 난이도와 영구적 죽음 설정으로 #{italic}#마법폭발의 이야기#{normal}# 도전과제를 달성했을 것.", "_t")
+t("Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "지금 이 캐릭터나, 과거에 어떤 캐릭터로든, 현재 난이도와 영구적 죽음 설정으로 #{italic}#마법폭발의 이야기#{normal}# 업적을 달성했을 것.", "_t")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("arcane amplification drone", "비전 증폭 드론", "_t")
 t("Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "드론에게 가해진 주문 피해가 반경 4 칸 범위에 160% 비전 피해를 가하게됩니다.", "_t")

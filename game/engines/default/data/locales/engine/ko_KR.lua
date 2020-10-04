@@ -649,9 +649,9 @@ t("Chat filters", "대화 필터", "_t")
 t("Public chat", "공개 대화", "_t")
 t("Private whispers", "귓속말", "_t")
 t("Join/part messages", "메시지 참가/퇴장", "_t")
-t("First time achievements (recommended to keep them on)", "최초 달성 도전과제 (항상 켜두는 것을 추천)", "_t")
-t("Important achievements (recommended to keep them on)", "중요한 도전과제 (항상 켜두는 것을 추천)", "_t")
-t("Other achievements", "기타 도전과제", "_t")
+t("First time achievements (recommended to keep them on)", "최초 달성 업적 (항상 켜두는 것을 추천)", "_t")
+t("Important achievements (recommended to keep them on)", "중요한 업적 (항상 켜두는 것을 추천)", "_t")
+t("Other achievements", "기타 업적", "_t")
 t("Select which types of chat events to see or not.", "확인할 메시지를 선택하세요.", "_t")
 
 
@@ -698,7 +698,7 @@ t("Language", "언어", "_t")
 t("Key Bindings", "키 설정", "_t")
 t("Video Options", "비디오 설정", "_t")
 t("Display Resolution", "표시 해상도", "_t")
-t("Show Achievements", "도전과제 확인", "_t")
+t("Show Achievements", "업적 확인", "_t")
 t("Audio Options", "오디오 설정", "_t")
 t("#GREY#Developer Mode", "#GREY#개발자 모드", "_t")
 t("Disable developer mode?", "개발자 모드를 비활성화하시겠습니까?", "_t")
@@ -773,16 +773,16 @@ t("Language Selection", "언어 선택", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/ShowAchievements.lua"
 
-t("Achievements(%s/%s)", "도전과제(%s/%s)", "tformat")
+t("Achievements(%s/%s)", "업적(%s/%s)", "tformat")
 t("Yours only", "현재 플레이 중", "_t")
 t("All achieved", "모두 달성", "_t")
 t("Everything", "전체 실적", "_t")
-t("Achievement", "도전과제", "_t")
+t("Achievement", "업적", "_t")
 t("Category", "분류", "_t")
 t("When", "위치", "_t")
 t("Who", "달성자", "_t")
 t([[#GOLD#Also achieved by your current character#LAST#
-]], [[#GOLD#현재 캐릭터도 도전과제를 달성했습니다#LAST#
+]], [[#GOLD#현재 캐릭터도 업적을 달성했습니다#LAST#
 ]], "_t")
 t([[#GOLD#Achieved on:#LAST# %s
 #GOLD#Achieved by:#LAST# %s

@@ -105,7 +105,7 @@ section "game/dlcs/tome-cults/data/birth/krog.lua"
 
 t("Krog", "크로그", "birth descriptor name")
 t("Once an abomination, now a weapon.", "한 때는 흉물에 지나지 않았지만, 지금은 무기입니다.", "_t")
-t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한 때 오우거였으나, 그 천성이 근본적으로 달라저버렸습니다. 지구르 추종자들은 룬을 신체에서 벗겨버리는 대신, 자연적인 주입물과 용의 피의 혼합물로 그들을 죽음에서 구했습니다. 크로그는 완전히 반마법에 헌신적이며, 그 의외의 것은 그렇게 중요하지 않습니다.", "_t")
+t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한 때 오우거였으나, 그 천성이 근본적으로 달라저버렸습니다. 지구랏 추종자들은 룬을 신체에서 벗겨버리는 대신, 자연적인 주입물과 용의 피의 혼합물로 그들을 죽음에서 구했습니다. 크로그는 완전히 반마법에 헌신적이며, 그 의외의 것은 그렇게 중요하지 않습니다.", "_t")
 t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "크로그는 적들에게 기절/혼절을 유발하는 #GOLD#야생의 분노#WHITE# 기술을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +2 체격", "_t")
@@ -176,6 +176,13 @@ t("Golem becomes a Glass Golem", "골렘이 유리 골렘이 됩니다", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/chats/fanged-collar.lua"
 
+t("#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "#{italic}##GREY#무시무시한 망각의 어둠이 자신을 덮치는 게 느껴집니다. 하지만 어쩐 일인지, 어둠이 주변을 완전히 감싼 게 아니었습니다. 지금 여기에 뭔가 다른 존재가 함께 있습니다. 그것은 당신을 돕고 싶어하는 것 같은 느낌이 들었습니다. 두말할 필요 없이, 그것은 모두 잘 되게 해줄 것이고 당신이 이 운명을 벗어나도록 도울 수 있을 것입니다. 그냥, 알겠다고 하기만 하면 됩니다.#{normal}#", "_t")
+t("Silently you agree. You want to live!", "말없이 동의한다. 난 살고 싶다!", "_t")
+t("Silently you refuse, the presence creeps you out too much.", "말없이 거절한다, 이 존재는 너무 소름끼친다.", "_t")
+t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has respected your decision. It allows you to find the peace that only death can give.#{normal}#", "#{italic}##GREY#그 존재는 슬프게 돌아섰지만, 그게 당신의 결정을 존중해 준다는 느낌이 들었습니다. 그것은 죽음만이 줄 수 있는 평화를 누릴 수 있게 해 주었습니다.#{normal}#", "_t")
+t("[die]", "[죽는다]", "_t")
+t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#당신은 죽고 싶지 않습니다. 더 생각할 것도 없이, 그 존재의 제안을 받아들였습니다. 기쁘게도, 그 존재는... 뭔가를 하기 시작했습니다. 의식이 깨어나기 시작하고, 자신의 생명이 사지로 돌아오는 것이 느껴졌습니다. 하지만, 깨지는 듯한 두통이 느껴지고 목 쪽의 고통도 잦아들질 않습니다. 당신을 죽음에서 건져내기 위해 그 존재는 무엇을 한 걸까요?#{normal}#", "_t")
+t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#이상하다... 당신은 확실히 죽었지만, 아직도 여기에 있다. 하지만 뭔가 중요한 게 없어진 느낌이 든다. 목 부분도 미칠듯이 아프고 깨질 듯한 두통도 느껴진다. 왠지 모르게, 당분간 거울을 봐서는 안 된다는 미묘한 생각이 들었다.", "log")
 
 
 ------------------------------------------------
@@ -183,7 +190,7 @@ section "game/dlcs/tome-cults/data/chats/godfeaster-malyu-escaped.lua"
 
 t([[#DARK_SEA_GREEN##{italic}#Fresh air!#{normal}##LAST#
 Nice job! You handled yourself a lot better than I thought you would. Now, usually I get a reward... What? Why are you looking at me like that? I'm obviously the one who saved you here. It's customary for adventurers to get rewarded when they do a good deed.]], [[#DARK_SEA_GREEN##{italic}#신선한 공기다!#{normal}##LAST#
-잘 했어! 너 내가 생각했던 것보다 훨씬 잘 하던걸? 보통은, 이쯤에서 내가 보상을 받는데 말이야... 응? 왜 그렇게 쳐다보는데? 내가 널 여기서 구해냈잖아. 모험가가 좋은 일을 했을 때 보상을 주는 건 당연한 관습이라고.]], "_t")
+잘 했어! 내가 생각했던 것보다 훨씬 잘 하던걸? 보통은, 이쯤에서 내가 보상을 받는데 말이야... 응? 왜 그렇게 쳐다보는데? 내가 널 여기서 구해냈잖아. 모험가가 좋은 일을 했을 때 보상을 주는 건 당연한 관습이라고.]], "_t")
 t("[Offer to teach her '%s'.]", "[그녀에게 가르쳐준다: '%s'.]", "tformat")
 t("[Offer her stat increases.]", "[그녀의 능력치를 올려준다.]", "_t")
 t("[Offer her nothing.]", "[그녀에게 아무것도 주지 않는다.]", "_t")
@@ -424,8 +431,10 @@ section "game/dlcs/tome-cults/data/general/grids/tentacle-tree.lua"
 
 t("creep", "군생", "entity subtype")
 t("floor", "바닥", "entity type")
+t("Do you #{strong}#really#{normal}# want to touch that?", "#{strong}#정말로#{normal}# 이걸 만지겠습니까?", "_t")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
+t("#CRIMSON#The %s glows ominously.", "#CRIMSON#%s 불길하게 빛났다.", "log", nil, {"이"})
 
 
 ------------------------------------------------
@@ -754,6 +763,7 @@ t("book", "책", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
 
+t("Portal", "차원문", "_t")
 t("Enter", "들어간다", "_t")
 t("A paper scrap.", "종잇조각입니다.", "_t")
 
@@ -1899,6 +1909,24 @@ Despite the benevolent and gentle demeanour he has been attributed in his myths,
 그들의 고향행성은 순전히 울흐'록의 의지에 따라 붙들어져 있는 조각난 대륙들의 집합체로 묘사된다. 악마들에 의하면, 이런 모습은 쉐르'툴의 장거리 차원문을 통해 쏟아진 대재앙 때문이라고 한다. 그들의 기록은 대재앙이 대략 마법폭발과 대략 비슷한 시기에 발생했음을 진술하고 있다. 이것은 마법폭발이 우리의 현재 이해를 넘어 더 멀리까지 영향을 미쳤으며 여러 세계에 영향을 미쳤을 수 있다는 것을 암시한다.
 
 그가 신화속에서 보여준 자비롭고 온화한 태도에도 불구하고, 악마들은 그의 이름으로 에이얄인들에게 저지른 만행을 자주 선언해 왔다. 에이얄 종족들에 대한 태도와 그 자신의 창조물들에 대한 이러한 대조적인 태도는 자비로운 성질을 암시하지 않는다, 이러한 일은 단순히 버릇없는 아이들을 보호하는 아버지와 비슷한 것으로 보이며 그의 존재는 신들이 단순히 에이얄에서만 국한된 현상이 아니라 수많은 다른 세계에도 존재할 수 있다는 것을 증명한다]], "_t")
+t("Mightier than Gods: Preface", "신보다 강한 자들: 서곡", "_t")
+t([[As part of scholarly pursuits into the nature of Eyal's gods, the role of the Sher'tul in their demise must not be forgotten. It was nine Sher'tul who slayed the gods, figures now known as the Godslayers. Beyond that, little about these individuals can be said with any certainty. The Sher'Tul are believed to have mastered many forms of technology, magical spells and psionic techniques. There is not a single force on Eyal then or now which could hope to match their might. Using these techniques in ways that we could not even guess at, they forged the weapons which would kill Eyal's gods, nine in total for each of the nine Godslayers who would wield them.
+
+This series will analyse what little information about the Godslayers that is still available. Given the obscure nature of the Sher'tul race, there are no solid records regarding their most prominent figures.]], [[에이얄 신들의 본성을 탐구하는 학문적 노력의 일환으로, 그들의 죽음에 있어 쉐르'툴의 역할은 잊혀져서는 안 된다. 9명의 쉐르'툴이 신들을 살해했는데, 지금은 신살자로 알려진 인물들이다. 그 이상으론, 이 개인들에 대해 확실하게 말할 수 있는 것이 거의 없다. 쉐르'툴은 많은 형태의 기술, 마법 주문, 그리고 초능력 기술을 숙달했다고 믿어진다. 그때나 지금이나 에이얄에게는 그들의 힘에 필적할 만한 존재가 하나도 없다. 우리가 짐작조차 할 수 없는 방법으로, 그들은 에이얄의 신들을 죽일 수 있는 무기를 제조했는데, 그것들을 휘두르는 9명의 신살자에게 맞춰 9개가 존재했다.
+
+이 시리즈에선 아직 이용할 수 있는 얼마 되지 않는 신살자들에 대한 분석할 것이다. 쉐르'툴 종족의 불명확한 생태로 볼 때 가장 두드러진 인물에 대한 확실한 기록은 없다.]], "_t")
+t("Mightier than Gods: Caldizar", "신보다 강한 자들: 칼디자르", "_t")
+t([[All Godslayer myths come back to one figure. Caldizar was the one who gathered the Godslayers and led the Sher'tul against the gods of Eyal. His standing in Sher'tul society is not completely clear, but given the resources he commanded and his influence over the Sher'tul, it's thought that he was one of their leaders, or at least a prominent figure in Sher'tul society.
+
+The Godhunt started because Amakthel commanded the Sher'tul to slay the other gods. Caldizar personally went out and audited potential candidates to wield the Godslayer weapons. He too chose to wield a Godslayer, becoming the leader of the nine who would take part in the Godhunt. However, as the Godslayers did their work, they began to think about how Amakthel was using them as tools to meet its own ends. Their creator, while it wielded great power, had the intellectual capacity of an infant compared to the Sher'tul.
+
+In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was thought that this command was not carried out by all Sher'tul and was, in fact, openly reviled by many of them, leading to conflicts within their ranks. There are no records of the Sher'tul after the Godhunt ended, let alone of Caldizar. No one is certain what became of their race. It is also noted that there is a strange absence of Sher'tul ruins on Eyal, almost as if they have been removed.]], [[모든 신살자의 신화는 한 인물에게로 돌아온다. 칼디자르는 신살자들을 모아 쉐르'툴을 에이얄의 신들과 맞서게한 장본인이었다. 쉐르'툴 사회에서 그의 지위는 완전히 분명하지는 않지만, 그가 활용한 자원과 쉐르'툴에 대한 그의 영향력을 볼 때, 그가 그들의 지도자 중 한 사람, 혹은 적어도 쉐르'툴 사회의 저명한 인물이라고 생각된다.
+
+신사냥이 시작된 것은 아마크텔이 쉐르'툴에게 다른 신들을 죽이라고 명령했기 때문이다. 칼디자르는 직접 나서서 잠재적인 후보들을 색출하여 신살자의 무기를 휘두르게 했다. 그도 역시 신살자의 무기를 휘두르는 것을 선택했고, 신사냥에 참여할 아홉 명의 지도자가 되었다. 그러나 쉐르'툴들은 임무를 마치고 나서 어떻게 아마크텔이 자신의 목적을 달성하기 위한 도구로 자신들을 이용한건지 생각하기 시작했다. 그들의 창조자는 엄청난 힘을 휘두르면서도 쉐르'툴에 비한다면 유아에 가까운 지적 능력을 가지고 있었다.
+
+결국 쉐르'툴중에게 아마크텔을 살해하라고 명령한 이는 칼디자르였다. 이 명령을 쉐르'툴 전부가 수행한 것은 아니며, 사실 그들 중 다수가 공개적으로 이 명령을 비판했으며 계급 내 갈등으로 이어졌다고 생각되었다. 칼디자르는 고사하고 신사냥이 끝난 이후의 쉐르'툴에 대한 기록은 없다. 아무도 그들의 종족이 어떻게 되었는지 확신하지 못한다. 에이얄에는 쉐르'툴 폐허가 거의 증발한 것처럼 기이한 부재가 느껴진다는 점도 눈에 띈다.]], "_t")
+t("Mightier than Gods: Branzir", "신보다 강한 자들: 브란지르", "_t")
+t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "우리에게 알려지지 않은 이유로 브란지르의 삶에 관한 문서들이 많이 살아남아 있다. 되풀이되는 이야기 속에서 그는 순전히 스포츠로 야수를 추적하고 죽이는 능력으로 유명한 사냥꾼이었으며 어떤 귀족과 비슷한 것이었다고 한다. 쉐르'툴 종족에게 곤궁함이란 없었기 때문에 그들 중 많은 이들이 여유롭게 여가생활을 즐기는데 대부분의 시간을 바쳤는데 브란지르도 예외는 아니었다. 그에게는 강력한 검이 주어졌고 가차없이 신들을 사냥했다. 살아남은 기록에 따르면, 그는 혼자서 적어도 두 명의 신들을 성공적으로 살해했으며, 분명히 오늘날까지도 여전히 신 랄쿠르를 쫓고 있는 것으로 보인다.", "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 
 
@@ -3857,6 +3885,7 @@ t("Class: Cultist of Entropy", "직업: 엔트로피 광신도", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/Birther.lua"
 
+t(" or ", " 또는 ", "_t")
 
 
 ------------------------------------------------

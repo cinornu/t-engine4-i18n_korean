@@ -86,60 +86,6 @@ t("#SLATE##{italic}#Your level of #LIGHT_BLUE#Full Control talent#LAST# is not h
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/achievements/all.lua"
--- 17 entries
-t("A Fist Full of Demons", "A Fist Full of Demons", "achievement name")
-t("Killed 1000 demons.", "Killed 1000 demons.", "_t")
-t("Glory to the Fearscape", "Glory to the Fearscape", "achievement name")
-t("Activated all 23 different kinds of demon statues.", "Activated all 23 different kinds of demon statues.", "_t")
-t("Well Seeded", "Well Seeded", "achievement name")
-t("Created 500 demon seeds.", "Created 500 demon seeds.", "_t")
-t("Demonic Party!", "Demonic Party!", "achievement name")
-t("Have your party composed of at least 5 demons.", "Have your party composed of at least 5 demons.", "_t")
-t("Hell has no fury like a demon scorned!", "Hell has no fury like a demon scorned!", "achievement name")
-t("Escaped the Searing Halls.", "Escaped the Searing Halls.", "_t")
-t("Once bitten, twice shy", "Once bitten, twice shy", "achievement name")
-t("Escaped the Anteroom of Agony.", "Escaped the Anteroom of Agony.", "_t")
-t("The Old Ones", "The Old Ones", "achievement name")
-t("Kill all the three demons that are on Eyal since before the Spellblaze: Shasshhiy'Kaish, Kryl'Feijan and Walrog.", "Kill all the three demons that are on Eyal since before the Spellblaze: Shasshhiy'Kaish, Kryl'Feijan and Walrog.", "_t")
-t("#LIGHT_GREEN#Shasshhiy'Kaish#LAST#", "#LIGHT_GREEN#Shasshhiy'Kaish#LAST#", "_t")
-t("#LIGHT_GREEN#Kryl-Feijan#LAST#", "#LIGHT_GREEN#Kryl-Feijan#LAST#", "_t")
-t("#LIGHT_GREEN#Walrog#LAST#", "#LIGHT_GREEN#Walrog#LAST#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/general/events/demon-statue.lua"
--- 5 entries
-t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving no traces.", "#CRIMSON#The power of the Fearscape touches %s and fades away, leaving no traces.", "logSeen")
-t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a nasty looking %s nearby.", "#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a nasty looking %s nearby.", "logSeen")
-t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a nasty effect upon you.", "#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a nasty effect upon you.", "logPlayer")
-t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a strange effect upon you.", "#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a strange effect upon you.", "logPlayer")
-t("#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a strange item behind.", "#CRIMSON#The power of the Fearscape touches %s and fades away, leaving a strange item behind.", "logSeen")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/general/grids/demon_statues.lua"
--- 17 entries
-t("a champion of Urh'Rok", "a champion of Urh'Rok", "_t")
-t("a dolleg", "a dolleg", "_t")
-t("a dúathedlen", "a dúathedlen", "_t")
-t("a fire imp", "a fire imp", "_t")
-t("a forge giant", "a forge giant", "_t")
-t("an onilug", "an onilug", "_t")
-t("a quasit", "a quasit", "_t")
-t("a thaurhereg", "a thaurhereg", "_t")
-t("an uruivellas", "an uruivellas", "_t")
-t("a water imp", "a water imp", "_t")
-t("a wretchling", "a wretchling", "_t")
-t("a wretch titan", "a wretch titan", "_t")
-t("a ruin banshee", "a ruin banshee", "_t")
-t("statue of %s", "statue of %s", "tformat")
-t("Demon Statue of %s", "Demon Statue of %s", "tformat")
-t("Do you #{strong}#really#{normal}# want to touch that?", "Do you #{strong}#really#{normal}# want to touch that?", "_t")
-t("#CRIMSON#The %s glows ominously.", "#CRIMSON#The %s glows ominously.", "log")
-
-
-------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
 -- 1 entries
 t("", "", "_t")
@@ -147,7 +93,7 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/lore/demon.lua"
--- 71 entries
+-- 70 entries
 t("history of Mal'Rok (mistranslated)", "history of Mal'Rok (mistranslated)", "_t")
 t([[(You see here a pile of strange tablets, all piled up in a nice, orderly stack.  You remove the top one, and study it; your finger slips across a square in one corner, and strange sentences start playing through your mind. You struggle to make sense of the unfamiliar words and concepts in your thoughts.)
 
@@ -512,52 +458,14 @@ t("Lithfengel, mentor of Draebor and child of emerald, was one of our finest sch
 t("demon statue: Rogroth, Eater of Souls", "demon statue: Rogroth, Eater of Souls", "_t")
 t("Recently, the cultists of Shasshhiy'Kaish have begun speaking of a \"demon seed,\" a sort of magical cluster of life-essence which can be implanted in a sentient being, allowing it to grow inside of them and eventually become one of our citizens.  Inspired by this idea, the children of emerald have developed a prototype of this form of magic, and the children of onyx have made a chassis to carry it into combat.  Rogroth generates countless essence-less seeds from within its frame, then embeds them in nearby living beings, so when they expire, their life-essence goes directly into the seed and allows it to grow.  We have not yet perfected its production capabilities, so currently the seeds will only become degenerate husks when they grow, but fear not!  As we get data from the tests of this design, we'll improve on it, and soon the slaughter of our foes will cause wretchlings, quasits, and even thaurheregs to spring up from their corpses.  With a little bit of luck and some decisive early skirmishes, we could even bypass the problem of getting an invasion force to the surface entirely, growing it there instead.", "Recently, the cultists of Shasshhiy'Kaish have begun speaking of a \"demon seed,\" a sort of magical cluster of life-essence which can be implanted in a sentient being, allowing it to grow inside of them and eventually become one of our citizens.  Inspired by this idea, the children of emerald have developed a prototype of this form of magic, and the children of onyx have made a chassis to carry it into combat.  Rogroth generates countless essence-less seeds from within its frame, then embeds them in nearby living beings, so when they expire, their life-essence goes directly into the seed and allows it to grow.  We have not yet perfected its production capabilities, so currently the seeds will only become degenerate husks when they grow, but fear not!  As we get data from the tests of this design, we'll improve on it, and soon the slaughter of our foes will cause wretchlings, quasits, and even thaurheregs to spring up from their corpses.  With a little bit of luck and some decisive early skirmishes, we could even bypass the problem of getting an invasion force to the surface entirely, growing it there instead.", "_t")
 t("One of the problems with making daelach is the inherent instability that comes from creating something that is almost entirely made of magic.  If ambient levels of blight are even slightly too high, it can set off a chain reaction that at best destroys the daelach, and at worst destroys most of the mages who were building it.  Daelach production is thus theoretically cheap, but in practice involves great expense, and usually a blighted daelach has to be immediately put down lest it cause tremendous damage.  One specimen, though, adapted to the blight in a very interesting way, sprouting wings and bolstering its usual firestorms with blight, but otherwise remaining perfectly balanced and controllable.  We'll try to recreate this happy accident however we can, but in the meantime, it will prove effective on the surface of Eyal.", "One of the problems with making daelach is the inherent instability that comes from creating something that is almost entirely made of magic.  If ambient levels of blight are even slightly too high, it can set off a chain reaction that at best destroys the daelach, and at worst destroys most of the mages who were building it.  Daelach production is thus theoretically cheap, but in practice involves great expense, and usually a blighted daelach has to be immediately put down lest it cause tremendous damage.  One specimen, though, adapted to the blight in a very interesting way, sprouting wings and bolstering its usual firestorms with blight, but otherwise remaining perfectly balanced and controllable.  We'll try to recreate this happy accident however we can, but in the meantime, it will prove effective on the surface of Eyal.", "_t")
-t("Ashes of Urh'Rok", "Ashes of Urh'Rok", "newLore category")
 t("demon statue: Harkor'Zun", "demon statue: Harkor'Zun", "_t")
 t("Of the anomalies and phenomena we've noticed in our studies of the shield protecting Eyal, none have frustrated us so much as meteors.  Certain powerful Eyalite spellcasters can pull a large meteor into low orbit, passing it through the shield relatively unharmed, aside from being split into predictably-sized chunks, which are then called to the surface one-by-one in a series of devastating meteoric crashes.  While we have not yet found a way to reverse-engineer these spells to protect our standard troops from disintegration, we have had some limited success in making a construct that closely resembles a meteor in composition and appearance.  Harkor'Zun, a being made mostly of stone, was simply dropped from our platform; the shield shattered him as expected, but we had designed him to survive this, the fragments merging back into their completed form once he reached the surface.  It would seem, though, that either we made him to be too sturdy, or the shield envelops incoming objects in a sort of anti-magic coating, as he has been unable to start the second stage of this process, wherein he merges these fragments back into a completed form.  Should an Eyalite stumble upon him and attempt to destroy the fragments, Harkor'Zun will be able to re-combine and \"thank\" whoever granted him his ascension.", "Of the anomalies and phenomena we've noticed in our studies of the shield protecting Eyal, none have frustrated us so much as meteors.  Certain powerful Eyalite spellcasters can pull a large meteor into low orbit, passing it through the shield relatively unharmed, aside from being split into predictably-sized chunks, which are then called to the surface one-by-one in a series of devastating meteoric crashes.  While we have not yet found a way to reverse-engineer these spells to protect our standard troops from disintegration, we have had some limited success in making a construct that closely resembles a meteor in composition and appearance.  Harkor'Zun, a being made mostly of stone, was simply dropped from our platform; the shield shattered him as expected, but we had designed him to survive this, the fragments merging back into their completed form once he reached the surface.  It would seem, though, that either we made him to be too sturdy, or the shield envelops incoming objects in a sort of anti-magic coating, as he has been unable to start the second stage of this process, wherein he merges these fragments back into a completed form.  Should an Eyalite stumble upon him and attempt to destroy the fragments, Harkor'Zun will be able to re-combine and \"thank\" whoever granted him his ascension.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/quests/re-abducted.lua"
--- 7 entries
-t("I've a feeling we're not on Eyal anymore", "I've a feeling we're not on Eyal anymore", "_t")
-t([[Somehow you did not recall out as usual but instead ended up on a sadly familiar area.
-You are back in the Fearscape. Back and with a welcome committee.
-
-You must find a way to escape, again.
-
-]], [[Somehow you did not recall out as usual but instead ended up on a sadly familiar area.
-You are back in the Fearscape. Back and with a welcome committee.
-
-You must find a way to escape, again.
-
-]], "_t")
-t("#LIGHT_GREEN#* You have found your way out of the primary ambush.#WHITE#", "#LIGHT_GREEN#* You have found your way out of the primary ambush.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have destroyed Rogroth the Eater of Souls and made your escape possible. Flee!#WHITE#", "#LIGHT_GREEN#* You have destroyed Rogroth the Eater of Souls and made your escape possible. Flee!#WHITE#", "_t")
-t("#SLATE#* Find a way back to Eyal.#WHITE#", "#SLATE#* Find a way back to Eyal.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have escaped the Anteroom of Agony.#WHITE#", "#LIGHT_GREEN#* You have escaped the Anteroom of Agony.#WHITE#", "_t")
+-- 1 entries
 t("#LIGHT_GREEN#* #WHITE#", "#LIGHT_GREEN#* #WHITE#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/quests/start-ashes.lua"
--- 6 entries
-t("Ashes in the Wind", "Ashes in the Wind", "_t")
-t([[You do not remember much of your life before you were on this burning continent, floating in the void between worlds.  You have been helping demons, happily participating in their experiments to shatter some sort of shield preventing them from taking their righteous revenge on Eyal.
-
-You are being taken by your handler to the torture-pits to help them figure out how to cause the most pain to those on Eyal, when you hear a roaring above you; you look up and see a burning meteor, flying closer, and the demons' spells failing to divert its course!  It lands near you, knocking you off your feet with its shockwave and killing your handler instantly.
-
-As you recover, and your platform of searing earth splits from the main continent, your old memories flood your mind and you come to your senses - the demons are out to destroy your home!  You must escape... but not without destroying the crystal they've used to keep track of you.
-]], [[You do not remember much of your life before you were on this burning continent, floating in the void between worlds.  You have been helping demons, happily participating in their experiments to shatter some sort of shield preventing them from taking their righteous revenge on Eyal.
-
-You are being taken by your handler to the torture-pits to help them figure out how to cause the most pain to those on Eyal, when you hear a roaring above you; you look up and see a burning meteor, flying closer, and the demons' spells failing to divert its course!  It lands near you, knocking you off your feet with its shockwave and killing your handler instantly.
-
-As you recover, and your platform of searing earth splits from the main continent, your old memories flood your mind and you come to your senses - the demons are out to destroy your home!  You must escape... but not without destroying the crystal they've used to keep track of you.
-]], "_t")
-t("#LIGHT_GREEN#* You have destroyed the controlling crystal. The demons can no track you down anymore.#WHITE#", "#LIGHT_GREEN#* You have destroyed the controlling crystal. The demons can no track you down anymore.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have destroyed the Planar Controller. Flee now!#WHITE#", "#LIGHT_GREEN#* You have destroyed the Planar Controller. Flee now!#WHITE#", "_t")
-t("#SLATE#* You have to destroy the Planar Controller to escape.#WHITE#", "#SLATE#* You have to destroy the Planar Controller to escape.#WHITE#", "_t")
-t("#SLATE#* You have to destroy the controlling crystal before leaving or the demons will be able to track you down.#WHITE#", "#SLATE#* You have to destroy the controlling crystal before leaving or the demons will be able to track you down.#WHITE#", "_t")
 
 
 ------------------------------------------------
@@ -576,223 +484,6 @@ t("-Demonic Cut", "-Demonic Cut", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/grids.lua"
--- 9 entries
-t("portal to the main island", "portal to the main island", "entity name")
-t("portal to the arrival platform", "portal to the arrival platform", "entity name")
-t("portal to previous level", "portal to previous level", "entity name")
-t("portal to next level", "portal to next level", "entity name")
-t("portal to Eyal", "portal to Eyal", "entity name")
-t("#CRIMSON#The portal is kept shut for you by a malovelant creature nearby.", "#CRIMSON#The portal is kept shut for you by a malovelant creature nearby.", "log")
-t("torture rack", "torture rack", "entity name")
-t("iron maiden", "iron maiden", "entity name")
-t("demonic spike", "demonic spike", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/objects.lua"
--- 4 entries
-t("A written message.", "A written message.", "_t")
-t("A hastily written message.", "A hastily written message.", "_t")
-t("crystalline tablets", "crystalline tablets", "entity name")
-t("A pile of crystalline tablets.", "A pile of crystalline tablets.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/zones/anteroom-agony/zone.lua"
--- 1 entries
-t("Anteroom of Agony", "Anteroom of Agony", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
--- 10 entries
-t("demon killed by a meteor", "demon killed by a meteor", "entity name")
-t("impact crater", "impact crater", "entity name")
-t("tracking control crystal", "tracking control crystal", "entity name")
-t("destroyed the crystal", "destroyed the crystal", "_t")
-t("destroying the crystal", "destroying the crystal", "_t")
-t("#VIOLET#The crystal is destroyed!", "#VIOLET#The crystal is destroyed!", "log")
-t("#YELLOW#The disturbance has attracted the Planar Controller!", "#YELLOW#The disturbance has attracted the Planar Controller!", "say")
-t("portal to somewhere on Eyal", "portal to somewhere on Eyal", "entity name")
-t("Safe!", "Safe!", "_t")
-t("You made it to Eyal! You are not quite sure where, but it can not be worse than the Fearscape.", "You made it to Eyal! You are not quite sure where, but it can not be worse than the Fearscape.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/objects.lua"
--- 2 entries
-t("crystalline tablets", "crystalline tablets", "entity name")
-t("A pile of crystalline tablets.", "A pile of crystalline tablets.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/zones/searing-halls/zone.lua"
--- 1 entries
-t("Searing Halls", "Searing Halls", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/init.lua"
--- 2 entries
-t("Ashes of Urh'Rok", "Ashes of Urh'Rok", "init.lua long_name")
-t([[Many in Maj'Eyal have heard of "demons", sadistic creatures who appear seemingly from nowhere, leaving a trail of suffering and destruction whereever they go.  Their Fearscape floats far above the skies, watching and waiting, but not idly; their agents scout the land, their legions build up their forces, and their scholars develop new spells and strategies.  As the barrier between our worlds begins to crack under their scrutiny, helpless Eyalites have begun to disappear, whisked up to serve as their slaves and playthings.  They imbue these victims with magical powers to better survive the ensuing stresses - can you use your new-found abilities to escape the legions of Mal'Rok?
-
-Features:
-* Start with a new class, the Doombringer!  These avatars of demonic destruction charge into battle with massive two-handed weapons, cutting swaths of firey devastation through hordes of opponents.  Armed with flame magic and demonic strength, they delight in fighting against overwhelming odds, softening up the crowd with waves of fire, then feeding on the flames and suffering of their surroundings to stay alive while quickly reducing any group to a pile of ash and gore.
-* Unlock a new class, the Demonologist, with an all-new item enhancement mechanic!  Bearing a shield and the magic of the Spellblaze itself, these melee-fighting casters can grow demonic seeds from their fallen enemies.  Imbue these seeds onto your items to gain a wide array of new talents and passive benefits, and summon the demons within them to fight on your side!  Ever looked at a gigantic demon-cursed minotaur and wished it was on your side for once?  Well, now you CAN summon one to pound your foes into paste while you cast devastating spells from afar, or call forth a squad of Fire Imps to pelt your enemies to death while they exhaust themselves on your impenetrable defenses!  Demons have persistent health, making them a little more precious than disposable necromancer skeletons or summoner beasts, but can be revived from death nonetheless.
-* Two new zones, with all-new art, foes, and bosses!  You've seen the plains of the Fearscape before, now see the lairs and headquarters of the demons themselves!
-* Over 10,000 words of written lore to find!  The demons were once an enlightened, peaceful race, hailing from a distant planet known as Mal'Rok; learn what drove them to plot Eyal's eternal torture!  Discover monuments to each of the demonic species and noteworthy individuals, showing the place of honor each has among them!  Get a glimpse into the culture and daily lives of these sadistic invaders and their brainwashed thralls!
-* Unlock a new race, Doomelves: Shalore who've taken to the demonic alterations especially well, corrupting their typical abilities into a darker form.  Blink away to safety, transform into a shadowy dúathedlen to hide in the shadows or prey on your foes with blasts of darkness, use your new resilience to soak up status effects and critical hits, and assault your enemies' minds to leave them unsteady in combat!
-* Between the aforementioned classes and Doomelves, a whopping 75 new talents!
-* Unlock two new cosmetic options!  You know you've always wanted demon-horns.  
-* Two new events, appearing anywhere in Eyal!
-* 20 new artifacts, with unique and interesting effects.  Collect the Obsidian Treasures to amass more and more power!  Slip your hands into the Will of Ul'Gruth and watch your sweeping blows smash down walls!  Wear a giant hideous hell-mouth as a fashionable belt!
-* 7 new achievements!  Conquer the worst Urh'Rok's forces can throw at you, and hang their metaphorical skulls from your profile page!
-]], [[Many in Maj'Eyal have heard of "demons", sadistic creatures who appear seemingly from nowhere, leaving a trail of suffering and destruction whereever they go.  Their Fearscape floats far above the skies, watching and waiting, but not idly; their agents scout the land, their legions build up their forces, and their scholars develop new spells and strategies.  As the barrier between our worlds begins to crack under their scrutiny, helpless Eyalites have begun to disappear, whisked up to serve as their slaves and playthings.  They imbue these victims with magical powers to better survive the ensuing stresses - can you use your new-found abilities to escape the legions of Mal'Rok?
-
-Features:
-* Start with a new class, the Doombringer!  These avatars of demonic destruction charge into battle with massive two-handed weapons, cutting swaths of firey devastation through hordes of opponents.  Armed with flame magic and demonic strength, they delight in fighting against overwhelming odds, softening up the crowd with waves of fire, then feeding on the flames and suffering of their surroundings to stay alive while quickly reducing any group to a pile of ash and gore.
-* Unlock a new class, the Demonologist, with an all-new item enhancement mechanic!  Bearing a shield and the magic of the Spellblaze itself, these melee-fighting casters can grow demonic seeds from their fallen enemies.  Imbue these seeds onto your items to gain a wide array of new talents and passive benefits, and summon the demons within them to fight on your side!  Ever looked at a gigantic demon-cursed minotaur and wished it was on your side for once?  Well, now you CAN summon one to pound your foes into paste while you cast devastating spells from afar, or call forth a squad of Fire Imps to pelt your enemies to death while they exhaust themselves on your impenetrable defenses!  Demons have persistent health, making them a little more precious than disposable necromancer skeletons or summoner beasts, but can be revived from death nonetheless.
-* Two new zones, with all-new art, foes, and bosses!  You've seen the plains of the Fearscape before, now see the lairs and headquarters of the demons themselves!
-* Over 10,000 words of written lore to find!  The demons were once an enlightened, peaceful race, hailing from a distant planet known as Mal'Rok; learn what drove them to plot Eyal's eternal torture!  Discover monuments to each of the demonic species and noteworthy individuals, showing the place of honor each has among them!  Get a glimpse into the culture and daily lives of these sadistic invaders and their brainwashed thralls!
-* Unlock a new race, Doomelves: Shalore who've taken to the demonic alterations especially well, corrupting their typical abilities into a darker form.  Blink away to safety, transform into a shadowy dúathedlen to hide in the shadows or prey on your foes with blasts of darkness, use your new resilience to soak up status effects and critical hits, and assault your enemies' minds to leave them unsteady in combat!
-* Between the aforementioned classes and Doomelves, a whopping 75 new talents!
-* Unlock two new cosmetic options!  You know you've always wanted demon-horns.  
-* Two new events, appearing anywhere in Eyal!
-* 20 new artifacts, with unique and interesting effects.  Collect the Obsidian Treasures to amass more and more power!  Slip your hands into the Will of Ul'Gruth and watch your sweeping blows smash down walls!  Wear a giant hideous hell-mouth as a fashionable belt!
-* 7 new achievements!  Conquer the worst Urh'Rok's forces can throw at you, and hang their metaphorical skulls from your profile page!
-]], "init.lua description")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/overload/data/texts/intro-ashes-urhrok.lua"
--- 2 entries
-t("Welcome to Tales of Maj'Eyal - #CRIMSON#Ashes of Urh'Rok", "Welcome to Tales of Maj'Eyal - #CRIMSON#Ashes of Urh'Rok", "_t")
-t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You do not remember much of your life before you were on this burning continent, floating in the void between worlds.  You have been helping demons, happily participating in their experiments to shatter some sort of shield preventing them from taking their righteous revenge on Eyal.
-
-You are being taken by your handler to the torture-pits to help them figure out how to cause the most pain to those on Eyal, when you hear a roaring above you; you look up and see a burning meteor, flying closer, and the demons' spells failing to divert its course!  It lands near you, knocking you off your feet with its shockwave and killing your handler instantly.
-
-As you recover, and your platform of searing earth splits from the main continent, your old memories flood your mind and you come to your senses - the demons are out to destroy your home!
-
-#{bold}#You must escape!#{normal}#.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You do not remember much of your life before you were on this burning continent, floating in the void between worlds.  You have been helping demons, happily participating in their experiments to shatter some sort of shield preventing them from taking their righteous revenge on Eyal.
-
-You are being taken by your handler to the torture-pits to help them figure out how to cause the most pain to those on Eyal, when you hear a roaring above you; you look up and see a burning meteor, flying closer, and the demons' spells failing to divert its course!  It lands near you, knocking you off your feet with its shockwave and killing your handler instantly.
-
-As you recover, and your platform of searing earth splits from the main continent, your old memories flood your mind and you come to your senses - the demons are out to destroy your home!
-
-#{bold}#You must escape!#{normal}#.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-corrupter_demonologist.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Corruptor (Demonologist)", "New Class: #LIGHT_GREEN#Corruptor (Demonologist)", "_t")
-t([[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
-Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
-Some have managed to escape their programming and chose to follow their own desires instead.
-
-You have defeated countless demons, seen how their essence work, witnessed how to bind demons to your own purpose and can now create new characters with the #LIGHT_GREEN#Demonologist class#WHITE#.
-
-Corruptors are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Infect your foes with demonic seeds.
-- Bind demonic seeds to your equipment to enhance them.
-- Summon and control demons to do your binding.
-- Blend corrupted magic with a martial shield training to protect yourself and ruin your foes.#WHITE#
-
-Corruptors use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], [[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
-Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
-Some have managed to escape their programming and chose to follow their own desires instead.
-
-You have defeated countless demons, seen how their essence work, witnessed how to bind demons to your own purpose and can now create new characters with the #LIGHT_GREEN#Demonologist class#WHITE#.
-
-Corruptors are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Infect your foes with demonic seeds.
-- Bind demonic seeds to your equipment to enhance them.
-- Summon and control demons to do your binding.
-- Blend corrupted magic with a martial shield training to protect yourself and ruin your foes.#WHITE#
-
-Corruptors use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-cosmetic_doomhorns.lua"
--- 2 entries
-t("New Cosmetic Race Option: #LIGHT_GREEN#Doomhorns", "New Cosmetic Race Option: #LIGHT_GREEN#Doomhorns", "_t")
-t([[You have killed a creature by infusing your shield with demon horns, and you loved it!
-
-You can now create new characters with a pair of demonic horns.
-]], [[You have killed a creature by infusing your shield with demon horns, and you loved it!
-
-You can now create new characters with a pair of demonic horns.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-cosmetic_red_skin.lua"
--- 2 entries
-t("New Cosmetic Race Option: #LIGHT_GREEN#Red Skin", "New Cosmetic Race Option: #LIGHT_GREEN#Red Skin", "_t")
-t([[You have used a lot of demon seeds to increase your power, proving your devotion to the corrupting forces.
-
-You can now create new characters with a demonic red skin.
-]], [[You have used a lot of demon seeds to increase your power, proving your devotion to the corrupting forces.
-
-You can now create new characters with a demonic red skin.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/overload/data/texts/unlock-race_doomelf.lua"
--- 2 entries
-t("New Race: #LIGHT_GREEN#Doomelf", "New Race: #LIGHT_GREEN#Doomelf", "_t")
-t([[Doomelves are not a real race, they are Shaloren that have been taken by demons and transformed into harbingers of doom.
-Their skills in inflicting and resisting pain have been honed by their rigorous training on the Fearscape.
-
-You have killed the only three explorers from Mal'Rok that could have told the demons the truth and thus have earned the right to make #LIGHT_GREEN#Doomelf#WHITE# characters.
-
-Race features:#YELLOW#
-- Instant cast phase door
-- Can turn into a dúathedlen
-- Can increase detrimental effects and reduce beneficial ones on their foes
-#WHITE#
-]], [[Doomelves are not a real race, they are Shaloren that have been taken by demons and transformed into harbingers of doom.
-Their skills in inflicting and resisting pain have been honed by their rigorous training on the Fearscape.
-
-You have killed the only three explorers from Mal'Rok that could have told the demons the truth and thus have earned the right to make #LIGHT_GREEN#Doomelf#WHITE# characters.
-
-Race features:#YELLOW#
-- Instant cast phase door
-- Can turn into a dúathedlen
-- Can increase detrimental effects and reduce beneficial ones on their foes
-#WHITE#
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/overload/mod/class/DemonologistsDLC.lua"
--- 1 entries
-t("Shadow Power: ", "Shadow Power: ", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Game.lua"
--- 3 entries
-t("Class: Demonologist", "Class: Demonologist", "_t")
-t("Cosmetic: demonic horns", "Cosmetic: demonic horns", "_t")
-t("Cosmetic: red skin", "Cosmetic: red skin", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Object.lua"
 -- 1 entries
 t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
@@ -800,34 +491,14 @@ t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/superload/mod/dialogs/Birther.lua"
--- 4 entries
-t([[Thank you for purchasing #CRIMSON#Ashes of Urh'Rok#WHITE#, the first expansion pack of Tales of Maj'Eyal.
-
-To begin your adventures as a fiery bringer of doom simply create a character with the class #LIGHT_GREEN#Doombringer#WHITE# (in the Defiler category) and a race of #LIGHT_BLUE#%s#WHITE#.
-
-Have fun crushing your foes!
-]], [[Thank you for purchasing #CRIMSON#Ashes of Urh'Rok#WHITE#, the first expansion pack of Tales of Maj'Eyal.
-
-To begin your adventures as a fiery bringer of doom simply create a character with the class #LIGHT_GREEN#Doombringer#WHITE# (in the Defiler category) and a race of #LIGHT_BLUE#%s#WHITE#.
-
-Have fun crushing your foes!
-]], "tformat")
-t("Welcome to #CRIMSON#Ashes of Urh'Rok", "Welcome to #CRIMSON#Ashes of Urh'Rok", "_t")
-t(" or ", " or ", "_t")
+-- 1 entries
 t(", ", ", ", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/chats/fanged-collar.lua"
--- 8 entries
-t("#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "_t")
-t("Silently you agree. You want to live!", "Silently you agree. You want to live!", "_t")
-t("Silently you refuse, the presence creeps you out too much.", "Silently you refuse, the presence creeps you out too much.", "_t")
-t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has respected your decision. It allows you to find the peace that only death can give.#{normal}#", "#{italic}##GREY#The presence shirks back sadly, but you feel like it has respected your decision. It allows you to find the peace that only death can give.#{normal}#", "_t")
-t("[die]", "[die]", "_t")
-t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "_t")
+-- 1 entries
 t("...", "...", "_t")
-t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "log")
 
 
 ------------------------------------------------
@@ -1003,11 +674,9 @@ t("open slimy_godfeaster door", "open slimy_godfeaster door", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/tentacle-tree.lua"
--- 4 entries
+-- 2 entries
 t("strange tentacle 'tree'", "strange tentacle 'tree'", "entity name")
-t("Do you #{strong}#really#{normal}# want to touch that?", "Do you #{strong}#really#{normal}# want to touch that?", "_t")
 t("Tentacle Tree", "Tentacle Tree", "_t")
-t("#CRIMSON#The %s glows ominously.", "#CRIMSON#The %s glows ominously.", "log")
 
 
 ------------------------------------------------
@@ -1053,9 +722,8 @@ t("assault the mind of a foe to utterly dominate it", "assault the mind of a foe
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
--- 10 entries
+-- 9 entries
 t("#PURPLE#A Font of Sacrifice appears nearby!", "#PURPLE#A Font of Sacrifice appears nearby!", "_t")
-t("Portal", "Portal", "_t")
 t("You feel this portal leads to a place from where you are likely to not come back.", "You feel this portal leads to a place from where you are likely to not come back.", "_t")
 t("Save your life and stay!", "Save your life and stay!", "_t")
 t("#PURPLE#A portal appears inside the Occult Egress!", "#PURPLE#A portal appears inside the Occult Egress!", "_t")
@@ -1316,25 +984,7 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/kroshkkur.lua"
--- 20 entries
-t("Mightier than Gods: Preface", "Mightier than Gods: Preface", "_t")
-t([[As part of scholarly pursuits into the nature of Eyal's gods, the role of the Sher'tul in their demise must not be forgotten. It was nine Sher'tul who slayed the gods, figures now known as the Godslayers. Beyond that, little about these individuals can be said with any certainty. The Sher'Tul are believed to have mastered many forms of technology, magical spells and psionic techniques. There is not a single force on Eyal then or now which could hope to match their might. Using these techniques in ways that we could not even guess at, they forged the weapons which would kill Eyal's gods, nine in total for each of the nine Godslayers who would wield them.
-
-This series will analyse what little information about the Godslayers that is still available. Given the obscure nature of the Sher'tul race, there are no solid records regarding their most prominent figures.]], [[As part of scholarly pursuits into the nature of Eyal's gods, the role of the Sher'tul in their demise must not be forgotten. It was nine Sher'tul who slayed the gods, figures now known as the Godslayers. Beyond that, little about these individuals can be said with any certainty. The Sher'Tul are believed to have mastered many forms of technology, magical spells and psionic techniques. There is not a single force on Eyal then or now which could hope to match their might. Using these techniques in ways that we could not even guess at, they forged the weapons which would kill Eyal's gods, nine in total for each of the nine Godslayers who would wield them.
-
-This series will analyse what little information about the Godslayers that is still available. Given the obscure nature of the Sher'tul race, there are no solid records regarding their most prominent figures.]], "_t")
-t("Mightier than Gods: Caldizar", "Mightier than Gods: Caldizar", "_t")
-t([[All Godslayer myths come back to one figure. Caldizar was the one who gathered the Godslayers and led the Sher'tul against the gods of Eyal. His standing in Sher'tul society is not completely clear, but given the resources he commanded and his influence over the Sher'tul, it's thought that he was one of their leaders, or at least a prominent figure in Sher'tul society.
-
-The Godhunt started because Amakthel commanded the Sher'tul to slay the other gods. Caldizar personally went out and audited potential candidates to wield the Godslayer weapons. He too chose to wield a Godslayer, becoming the leader of the nine who would take part in the Godhunt. However, as the Godslayers did their work, they began to think about how Amakthel was using them as tools to meet its own ends. Their creator, while it wielded great power, had the intellectual capacity of an infant compared to the Sher'tul.
-
-In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was thought that this command was not carried out by all Sher'tul and was, in fact, openly reviled by many of them, leading to conflicts within their ranks. There are no records of the Sher'tul after the Godhunt ended, let alone of Caldizar. No one is certain what became of their race. It is also noted that there is a strange absence of Sher'tul ruins on Eyal, almost as if they have been removed.]], [[All Godslayer myths come back to one figure. Caldizar was the one who gathered the Godslayers and led the Sher'tul against the gods of Eyal. His standing in Sher'tul society is not completely clear, but given the resources he commanded and his influence over the Sher'tul, it's thought that he was one of their leaders, or at least a prominent figure in Sher'tul society.
-
-The Godhunt started because Amakthel commanded the Sher'tul to slay the other gods. Caldizar personally went out and audited potential candidates to wield the Godslayer weapons. He too chose to wield a Godslayer, becoming the leader of the nine who would take part in the Godhunt. However, as the Godslayers did their work, they began to think about how Amakthel was using them as tools to meet its own ends. Their creator, while it wielded great power, had the intellectual capacity of an infant compared to the Sher'tul.
-
-In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was thought that this command was not carried out by all Sher'tul and was, in fact, openly reviled by many of them, leading to conflicts within their ranks. There are no records of the Sher'tul after the Godhunt ended, let alone of Caldizar. No one is certain what became of their race. It is also noted that there is a strange absence of Sher'tul ruins on Eyal, almost as if they have been removed.]], "_t")
-t("Mightier than Gods: Branzir", "Mightier than Gods: Branzir", "_t")
-t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "_t")
+-- 14 entries
 t("Mightier than Gods: Oslrey", "Mightier than Gods: Oslrey", "_t")
 t([[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
 
@@ -2470,7 +2120,7 @@ t("Urgent affair in Zigur", "Urgent affair in Zigur", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/Birther.lua"
--- 3 entries
+-- 2 entries
 t([[Thank you for purchasing #CRIMSON#Forbidden Cults#WHITE#, the third expansion pack of Tales of Maj'Eyal.
 
 To begin your adventures as a half horror simply create a character with the class #LIGHT_GREEN#Writhing One#WHITE# (in the Demented category).
@@ -2483,7 +2133,6 @@ To begin your adventures as a half horror simply create a character with the cla
 Have fun lashing your tentacle at your foes!
 ]], "_t")
 t("Welcome to #CRIMSON#Forbidden Cults", "Welcome to #CRIMSON#Forbidden Cults", "_t")
-t(" or ", " or ", "_t")
 
 
 ------------------------------------------------
@@ -4957,12 +4606,6 @@ section "game/modules/tome/data/chats/player-inscription.lua"
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/chats/ring-of-blood-master.lua"
--- 1 entries
-t("You think so? Die.", "You think so? Die.", "_t")
 
 
 ------------------------------------------------
@@ -7809,7 +7452,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 57 entries
+-- 55 entries
 t("tract of destruction", "tract of destruction", "_t")
 t("tract of anarchy", "tract of anarchy", "_t")
 t("tract of acceptance", "tract of acceptance", "_t")
@@ -8170,7 +7813,6 @@ As you begin to come to grips with this strange environment, you realize with ho
 They all seem to be focused on something in particular, but what? Just as soon as you set your mind to discerning what your dreamselves are focusing on, you feel it. With horror, you realize that you are not alone here. 
 Somehow, your foe has invaded your very subconcious and is attacking you in your dreams. Still unable to move, your lucid mind races on how to handle such an insane and horrible situation. On a whim you concentrate on one of your projections and you find that you can control it. 
 Free now to face this nightmare, you turn to find your foe. While you have a sense that having one of your dreamselves destroyed may not by itself be catastrophic, what would happen if several or many are cut down? Unwilling to find out, you resolve yourself to end this offensive intrustion into your mind.]], "_t")
-t("Mocking Note", "Mocking Note", "_t")
 t([[Dear graverobber,
 
 Try to be a little faster next time.
@@ -8180,7 +7822,6 @@ Love, #{italic}#Eden#{normal}#]], [[Dear graverobber,
 Try to be a little faster next time.
 
 Love, #{italic}#Eden#{normal}#]], "_t")
-t("Guard's Journal", "Guard's Journal", "_t")
 t([[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
 
 Almost miss being at the farm sometimes. At least there I wasn't able to screw anything up. Wonder if they would take me back knowing what I've been doing with my life...]], [[Sixth time this week stuck guarding at the stash. And for what? Just a little fun! 
@@ -9680,72 +9321,6 @@ Actually...  You fight in a more subtle way than most, do you not?  It is a poin
 
 
 ------------------------------------------------
-section "game/modules/tome/data/maps/vaults/auto/greater/portal-vault.lua"
--- 8 entries
-t("#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "#YELLOW#The Portal repels you briefly before becoming quiescent.  The other side seems to be blocked.", "logPlayer")
-t("An ominous aura emanates from this portal. Are you sure you want to go through?", "An ominous aura emanates from this portal. Are you sure you want to go through?", "_t")
-t("Malevolent Portal", "Malevolent Portal", "_t")
-t("#YELLOW#You overcome intense #LIGHT_BLUE#REPULSIVE FORCES#LAST# as you traverse the Portal.", "#YELLOW#You overcome intense #LIGHT_BLUE#REPULSIVE FORCES#LAST# as you traverse the Portal.", "logPlayer")
-t("#YELLOW#Nothing happens when you use the Portal.", "#YELLOW#Nothing happens when you use the Portal.", "logPlayer")
-t("A strange portal to some place else.", "A strange portal to some place else.", "_t")
-t("Portal", "Portal", "_t")
-t("A portal out of this place.", "A portal out of this place.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/auto/greater/sleeping-dragons.lua"
--- 4 entries
-t("The dragons here are asleep. You may try to steal their treasure... at your own risk.", "The dragons here are asleep. You may try to steal their treasure... at your own risk.", "log")
-t("#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!", "#CRIMSON#The dragons awaken from their slumber detecting their loot being stolen!", "log")
-t("Sleeping #rng#", "Sleeping #rng#", "_t")
-t("Dozing #rng#", "Dozing #rng#", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/auto/lesser/loot-vault.lua"
--- 2 entries
-t("Mocking Note", "Mocking Note", "_t")
-t("A small scrap of paper written in a mocking tone.", "A small scrap of paper written in a mocking tone.", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/bandit-fortress.lua"
--- 2 entries
-t("bandit fortress", "bandit fortress", "_t")
-t("Guard's Journal", "Guard's Journal", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/collapsed-tower.lua"
--- 2 entries
-t("elemental crystal", "elemental crystal", "_t")
-t("collapsed tower", "collapsed tower", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/greater-crypt.lua"
--- 4 entries
-t(", and suddenly the world spins around you!", ", and suddenly the world spins around you!", "_t")
-t(", and the crypt rearranges itself around you!", ", and the crypt rearranges itself around you!", "_t")
-t("Something in the floor clicks ominously%s", "Something in the floor clicks ominously%s", "logPlayer")
-t("Something beneath you clicks ominously.", "Something beneath you clicks ominously.", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/grushnak-armory.lua"
--- 3 entries
-t("#rng# the Archer", "#rng# the Archer", "_t")
-t("Warbear #rng#", "Warbear #rng#", "_t")
-t("Elite Combat Trainer #rng#", "Elite Combat Trainer #rng#", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/maps/vaults/lava_island.lua"
--- 1 entries
-t("#rng# the Witherer", "#rng# the Witherer", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/quests/arena.lua"
 -- 1 entries
 t("", "", "_t")
@@ -9773,12 +9348,6 @@ t("", "", "_t")
 section "game/modules/tome/data/quests/high-peak.lua"
 -- 1 entries
 t("", "", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/lichform.lua"
--- 1 entries
-t("#CRIMSON#* You have ascended to Lichdom!#WHITE#", "#CRIMSON#* You have ascended to Lichdom!#WHITE#", "_t")
 
 
 ------------------------------------------------
@@ -9812,15 +9381,6 @@ t("Tutorial: combat stats", "Tutorial: combat stats", "_t")
 t("Explore the Dungeon of Adventurer Enlightenment to learn about ToME's combat mechanics.", "Explore the Dungeon of Adventurer Enlightenment to learn about ToME's combat mechanics.", "_t")
 t("#LIGHT_GREEN#You have navigated the Dungeon of Adventurer Enlightenment!#WHITE#", "#LIGHT_GREEN#You have navigated the Dungeon of Adventurer Enlightenment!#WHITE#", "_t")
 t("Tutorial Finished", "Tutorial Finished", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/quests/void-gerlyk.lua"
--- 4 entries
-t("In the void, no one can hear you scream", "In the void, no one can hear you scream", "_t")
-t("You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "You have destroyed the sorcerers. Sadly, the portal to the Void remains open; the Creator is coming.", "_t")
-t("This cannot be allowed to happen. After thousands of years trapped in the Void between the stars, Gerlyk is mad with rage.", "This cannot be allowed to happen. After thousands of years trapped in the Void between the stars, Gerlyk is mad with rage.", "_t")
-t("You must now finish what the Sher'tuls started. Take the Staff of Absorption and become a Godslayer yourself.", "You must now finish what the Sher'tuls started. Take the Staff of Absorption and become a Godslayer yourself.", "_t")
 
 
 ------------------------------------------------
