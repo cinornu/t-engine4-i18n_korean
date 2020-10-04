@@ -234,7 +234,7 @@ function _M:display()
 				end
 				if o and o.wielded and o.use_talent and o.use_talent.id then
 					local t = a:getTalentFromId(o.use_talent.id)
-					if not a:preUseTalent(t, true, true) then
+					if not a:preUseTalent(t, true, true, true) then
 						angle = 0
 						color = {190,190,190}
 						frame = "disabled"

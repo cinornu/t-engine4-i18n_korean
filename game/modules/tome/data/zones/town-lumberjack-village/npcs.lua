@@ -77,7 +77,7 @@ newEntity{ defined_as = "LUMBERJACK",
 	max_life = 100, life_rating = 10,
 	stats = { str=20 },
 	rank = 2,
-	size_category = 2,
+	size_category = 3,
 	infravision = 10,
 
 	body = { INVEN = 10, MAINHAND=1, OFFHAND=1, BODY=1 },

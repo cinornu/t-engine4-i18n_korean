@@ -1023,7 +1023,7 @@ newTalent{
 	direct_hit = true,
 	requires_target = true,
 	target = function(self, t)
-		return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t)}
+		return {type="ball", range=self:getTalentRange(t), friendlyfire=false, radius=self:getTalentRadius(t)}
 	end,
 	tactical = { ATTACK = { PHYSICAL = 2 } },
 	getDamage = function(self, t) return self:combatScale(self:getStr()*self:getTalentLevel(t), 20, 0, 420, 500) end,

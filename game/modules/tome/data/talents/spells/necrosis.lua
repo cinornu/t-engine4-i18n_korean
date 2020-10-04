@@ -102,7 +102,7 @@ newTalent{
 	mode = "passive",
 	no_npc_use = true, -- They mostly wouldnt use it efficiently
 	getLifeBonus = function(self, t) return self:combatTalentScale(t, 8, 30) end,
-	getCrit = function(self, t) return self:combatTalentScale(t, 1, 3) end,
+	getCrit = function(self, t) return self:combatTalentScale(t, 1, 1.8) end,
 	countRunes = function(self, t)
 		local nb = 0
 		for tid, lvl in pairs(self.talents) do

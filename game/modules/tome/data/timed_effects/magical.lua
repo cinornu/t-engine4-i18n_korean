@@ -2006,13 +2006,14 @@ newEffect{
 	on_lose = function(self, err) return _t"#Target# is freed from the impending doom.", _t"-Doomed" end,
 	activate = function(self, eff)
 		eff.healid = self:addTemporaryValue("healing_factor", -0.8)
-		eff.soul_turn = false
+		eff.soul_turn = 0
 	end,
 	on_timeout = function(self, eff)
 		if eff.src.dead or not game.level:hasEntity(eff.src) then return true end
 		DamageType:get(DamageType.FROSTDUSK).projector(eff.src, self.x, self.y, DamageType.FROSTDUSK, eff.dam)
-		eff.soul_turn = not eff.soul_turn
-		if eff.soul_turn then
+		eff.soul_turn = eff.soul_turn + 1
+		if eff.soul_turn >= 3 then
+			eff.soul_turn = 0
 			eff.src:incSoul(1)
 			game.logSeen(self, "#CRIMSON#A piece of the soul of %s is torn apart by Impending Doom!", self:getName())
 		end
@@ -4988,7 +4989,7 @@ newEffect{
 	status = "beneficial",
 	charges = function(self, eff) return math.floor(eff.stacks) end,
 	parameters = {stacks=0, max_stacks=3, dam=20, radius=3},
-	on_gain = function(self, err) return _t"#Target# summons a corpselight!", true end,
+	on_gain = function(self, err) return "#Target# summons a corpselight!", true end,
 	on_lose = function(self, err) return nil, true end,
 	callbackOnChangeLevel = function(self, eff, what)
 		if what ~= "leave" then return end
@@ -5303,7 +5304,7 @@ newEffect{
 		self:effectTemporaryValue(eff, "cleansing_flames", eff.chance)
 	end,
 	on_timeout = function(self, eff)
-		DamageType:get(DamageType.FIRE).projector(self, self.x, self.y, DamageType.FIRE, eff.power)
+		DamageType:get(DamageType.INFERNO).projector(self, self.x, self.y, DamageType.INFERNO, eff.power)
 	end,
 }
 

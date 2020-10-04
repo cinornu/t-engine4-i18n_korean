@@ -169,7 +169,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		return ([[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 2 turns it tears a part of the target's soul, generating one soul for you.
+		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
 		The damage will increase with your Spellpower.]]):
 		tformat(t.getDamage(self, t), t.getMax(self, t))
 	end,

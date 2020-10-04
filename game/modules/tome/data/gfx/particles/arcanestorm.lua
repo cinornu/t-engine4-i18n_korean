@@ -17,6 +17,7 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
+local radius = radius or 5
 base_size = 32
 can_shift = true
 
@@ -24,7 +25,7 @@ return { generator = function()
 	local ad = rng.range(0, 360)
 	local a = math.rad(ad)
 	local dir = math.rad(ad + 90)
-	local r = rng.avg(1, 40 * 3)
+	local r = rng.avg(1, 16 + 32 * radius)
 	local dirv = math.rad(5)
 
 	return {
@@ -44,7 +45,7 @@ return { generator = function()
 	}
 end, },
 function(self)
-	self.ps:emit(10)
+	self.ps:emit(radius * radius / 2)
 end,
-500,
+2000,
 "weather/snowflake"

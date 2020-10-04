@@ -65,7 +65,7 @@ newTalent{
 						act:setEffect(act.EFF_SLEEP, 4, {src=self, power=en, insomnia=en, no_ct_effect=true, apply_power=self:combatMindpower()})
 						game.level.map:particleEmitter(act.x, act.y, 1, "generic_charge", {rm=0, rM=0, gm=180, gM=255, bm=180, bM=255, am=35, aM=90})
 					else
-						game.logSeen(self, "%s resists the sleep!", act.name:capitalize())
+						game.logSeen(self, "%s resists the sleep!", act:getName():capitalize())
 					end
 				end
 			end

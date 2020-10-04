@@ -249,7 +249,7 @@ function _M:generateList()
 									revertMove()
 								end
 							end
-							,  _"Accept", _"Revert")
+							,  _t"Accept", _t"Revert")
 						game:registerTimer(10
 							, function()
 								-- Blast out changes if no response

@@ -5683,12 +5683,11 @@ end
 -- Check the actor can cast it
 -- @param ab the talent (not the id, the table)
 -- @return true to continue, false to stop
-function _M:preUseTalent(ab, silent, fake)
+function _M:preUseTalent(ab, silent, fake, ignore_ressources)
 	if ab._ai_parsed == nil then -- add some AI info to the talent if needed
 		print("[Actor:preUseTalent] PARSING TALENT for AI info", ab.id, self.name)
 		mod.class.interface.ActorAI.aiParseTalent(ab, self)
 	end
-
 	if self.forbid_talents and self.forbid_talents[ab.id] then
 		if not silent then game.logSeen(self, self.forbid_talents[ab.id] or "%s can not use %s.", self:getName():capitalize(), ab.name) end
 		return false
@@ -5778,7 +5777,7 @@ function _M:preUseTalent(ab, silent, fake)
 	end
 
 	-- check resource costs (sustains can always be deactivated at no cost)
-	if not self:attr("force_talent_ignore_ressources") and not self:isTalentActive(ab.id) and (not self.talent_no_resources or not self.talent_no_resources[ab.id]) then
+	if not ignore_ressources and not self:attr("force_talent_ignore_ressources") and not self:isTalentActive(ab.id) and (not self.talent_no_resources or not self.talent_no_resources[ab.id]) then
 		local rname, cost, rmin, rmax
 		-- check for sustained resources
 		self.on_preuse_checking_resources = true

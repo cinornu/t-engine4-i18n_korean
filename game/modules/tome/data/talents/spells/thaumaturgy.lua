@@ -123,7 +123,7 @@ newTalent{
 	require = spells_req_high3,
 	points = 5,
 	mode = "sustained",
-	mana = 40,
+	sustain_mana = 40,
 	cooldown = 20,
 	use_only_arcane = 5,
 	tactical = { BUFF=1 },

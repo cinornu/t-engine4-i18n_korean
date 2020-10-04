@@ -75,17 +75,14 @@ newTalent{
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 55) end,
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/fire")
-		local cft = self:getTalentFromId(self.T_CLEANSING_FLAMES)
 		self:addShaderAura("burning_wake", "awesomeaura", {time_factor=3500, alpha=0.6, flame_scale=0.6}, "particles_images/wings.png")
 		return {
 			bw = self:addTemporaryValue("burning_wake", t.getDamage(self, t)),
-			cf = self:addTemporaryValue("cleansing_flames", cft.getChance(self, cft)),
 		}
 	end,
 	deactivate = function(self, t, p)
 		self:removeShaderAura("burning_wake")
 		self:removeTemporaryValue("burning_wake", p.bw)
-		self:removeTemporaryValue("cleansing_flames", p.cf)
 		return true
 	end,
 	info = function(self, t)

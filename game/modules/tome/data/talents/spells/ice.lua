@@ -118,7 +118,7 @@ newTalent{
 					-- Instakill critters
 					if act.rank <= 1 then
 						if act:canBe("instakill") then
-							game.logSeen(act, "%s shatters!", act.name:capitalize())
+							game.logSeen(act, "%s shatters!", act:getName():capitalize())
 							act:die(self)
 						end
 					end
