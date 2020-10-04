@@ -11873,7 +11873,7 @@ t("#DARK_GREEN#You feel nature's power protecting you!", "#DARK_GREEN#자연의 
 t("Star Shot", "별의 탄환", "entity name")
 t("blazing shot", "불타는 탄환", "_t")
 t("Intense heat radiates from this powerful shot.", "이 강력한 탄환에서 열기가 방출됩니다", "_t")
-t("sets off a powerful explosion", "강력한 폭발을 을으킵니다", "_t")
+t("sets off a powerful explosion", "강력한 폭발을 일으킵니다", "_t")
 t("Nexus of the Way", "한길의 결합", "entity name")
 t("brilliant green mindstar", "빛나는 초록색 마석", "_t")
 t("The vast psionic force of the Way reverberates through this gemstone. With a single touch, you can sense overwhelming power, and hear countless thoughts.", "한길의 거대한 초능력이 이 보석 안에서 울립니다. 한번 만지면, 당신을 압도하는 힘을 느낄 수 있으며 셀 수 없이 많은 생각이 당신을 채웁니다.", "_t")
@@ -23468,11 +23468,6 @@ t([[Teleport all foes in radius %d to your boneyard, as close to its center as p
 		최대 %d 체의 구울이나 스켈레톤이 묘지에서 생성되어, 적들을 포위합니다, 소환에 원혼을 추가로 소모하지 않지만, 이 하수인들은 5 턴 동안 유지됩니다.
 		]], "tformat")
 t("Impending Doom", "임박한 운명", "talent name")
-t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
-		This spell is so powerful that every 2 turns it tears a part of the target's soul, generating one soul for you.
-		The damage will increase with your Spellpower.]], [[대상의 파멸이 임박합니다. 대상의 회복 효율이 80%% 감소하고, 남은 생명력의 %d%%, 또는 %0.2f 피해 중 더 낮은 값을 10 턴에걸쳐 서리 황혼 피해르 받습니다.
-		이 주문은 매우 강력하기 때문에, 매 2 턴 마다, 대상의 영혼을 찢어발겨, 시전자가 원혼을 하나 수확합니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Eternal Night", "영원한 밤", "talent name")
 t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
 		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[서리 황혼으로 주위를 뒤덮어, 시전자가 가하는 모든 암흑, 냉기 피해를 %0.1f%% 증가시키고, 적의 암흑, 냉기 저항을 %d%% 무시합니다.
@@ -30156,7 +30151,6 @@ t("Black Ice", "검은 얼음", "_t")
 t("Damage from necrotic minions increased by %d%%.", "강령술 하수인에게 받는 피해 +%d%%.", "tformat")
 t("Corpselight", "시체 등불", "_t")
 t("Sustains a corpselight of radius %d that deals %0.2f cold damage per turn.", "반경 %d 칸의, 매 턴 %0.2f 냉기 피해를 주는 시체 등불을 유지 중.", "tformat")
-t("#Target# summons a corpselight!", "#Target1# 시체 등불을 소환했다!", "_t")
 t("Crepuscule", "어스름", "_t")
 t("Bring the night!", "밤을 불러오라!", "_t")
 t("#Target# calls the night!", "#Target1# 밤을 내린다!", "_t")

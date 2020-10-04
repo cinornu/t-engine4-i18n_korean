@@ -617,7 +617,7 @@ Read now for a fate worse than death inside awaits.
 ]], "_t")
 t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
 t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 댓가로 치뤄야할까요?", "_t")
-t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 떄, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '교사'로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
+t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 떄, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '선생님' 으로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
 t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이 일은 일어나지 않았다.", "_t")
 t("Hithre", "하이트르", "_t")
 t("The importance of power (+3% spell critical chance)", "힘의 중요성 (주문 치명타 확률+3%)", "_t")
@@ -2042,7 +2042,7 @@ t("Fatebreaker", "운명 파괴자", "talent name")
 t([[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
 		As long as your target remains alive this redirects all damage you take to it as temporal and darkness damage for 1 turn.
 		Any Fortune stacks you have and any Jinx stacks the enemy have will then be consumed to heal you for %d life per stack.]], [[시전자와 선택된 대상의 운명을 %d 턴 동안 하나로 잇습니다. 지속시간 동안, 시전자가 죽음에 다다를수있는 피해를 입게되면 현실 개변을 일으켜 운명 공유 효과를 끝내고, 운명 파괴자를 발동해 대상이 시전자 대신 치명적인 피해를 입게 합니다.
-		운명 파괴자가 발동되고난 후 1 턴 동안 시전자가 받는 모든 피해는 시간 피해와 암흑 피해로 대상에게 재전송 될 것입니다.
+		운명 파괴자가 발동되고 난 후 1 턴 동안 시전자가 받는 모든 피해는 시간 피해와 암흑 피해로 대상에게 재전송 될 것입니다.
 		시전자의 모든 행운 중첩과 적들이 가진 모든 불행 중첩은 %d 생명력을 회복시키는데 쓰여질 것입니다.]], "tformat")
 
 
@@ -3298,30 +3298,39 @@ t("#Target# is less armoured.", "#Target2# 덜 강인하다.", "_t")
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/grids.lua"
 
 t("cave", "동굴", "entity subtype")
+t("portal back to the occult egress", "비술의 출로로 돌아가는 차원문", "entity name")
+t("stairs down", "내려가는 계단", "entity name")
+t("back to the tunnels", "터널로 돌아간다", "entity name")
+t("incubator", "인큐베이터", "entity name")
+t("A strange kind of huge glass tube, something seems to be floating inside...", "이상한 거대 유리관입니다. 안에 뭔가가 떠 있습니다...", "_t")
 t("floor", "바닥", "entity subtype")
 t("wall", "벽", "entity type")
+t("wheeing and buzzing thing", "윙윙거리는 것", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/npcs.lua"
 
-t("half formed drem", "반 쪽 짜리 드렘", "entity name")
+t("half formed drem", "반쪽짜리 드렘", "entity name")
 t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "작고 얼굴없는 인간형 생명체로 드워프와 조금 비슷한 특징을 가졌습니다.  들고있는 전투도끼와 방패는 낧고, 녹슬고, 그리고 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
 t("The Amalgamation", "융합체", "entity name")
 t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "무로부터 생명을 창조하는 것은 쉬운일은 아닙니다. 눈알이 여러 개라던가, 팔다리가 너무 많이 붙는다던가, 뇌가 없다던가, 몸에 너무 많다던가 하는 등 잘못 될 수 있는 요소들이 너무나 많습니다. 그런 잘못된 육신들이 하나로 융합되어, 뼈와 고깃덩이가 분노로 맥동합니다. 이... 생명체의 거대한 몸집에도 불구하고, 당신과 이 괴물 사이의 간격이 순식간에 좁혀집니다.", "_t")
-t("and absorbed into the foul thing", "흡수되어 일부가 되었습니다", "_t")
+t("and absorbed into the foul thing", "그리고 그 시체는 흡수되어 그 일부가 되었습니다.", "_t")
 t("#CRIMSON#As %s takes an other blow you see part of it split into a drem!", "#CRIMSON#%s 공격을 받자, 일부분이 드렘이 되어 떨어저 나갔다!", "logSeen", nil, {"가"})
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/objects.lua"
 
+t("drem research paper", "드렘 연구 기록", "entity name")
 t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/zone.lua"
 
+t("Dremshor Tunnels", "드렘쇼르 터널", "_t")
+t("Strange Machine", "이상한 기계", "_t")
 
 
 ------------------------------------------------
@@ -3341,26 +3350,35 @@ t("The twisting mass of limbs and maws that floats in front of you is no less th
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/entropic-void/zone.lua"
 
+t("Entropic Void", "엔트로피의 공허", "_t")
+t("#GOLD#An #{bold}#antropy#{normal}# zone appears, run to it!", "#GOLD##{bold}#반-엔트로피#{normal}# 지대가 나타났다. 그쪽으로 뛰어야 한다!", "say")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/fortress-arena/grids.lua"
 
+t("Arena Control Orb", "투기장 제어 오브", "entity name")
+t("Do you want to flee the fight?", "싸움에서 도망치겠습니까?", "_t")
+t("S.M.A.C.K", "죽.인.다. 안전한 투기장", "_t")
+t([[With but a thought you enact Yiilkgur's safety protocols and pull yourself out of the arena.
+You have fled your fight.]], [[생각만으로 일크구르의 안전 프로토콜을 작동시켜 투기장에서 빠져나왔습니다.
+당신은 싸움에서 도망쳤습니다.]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/fortress-arena/zone.lua"
 
+t("Safe Multiverse Arena for Commotion and Killing", "죽음으로 인도하는 다중우주의 안전한 투기장", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-cultist/npcs.lua"
 
 t("Unspeakable Thing", "형용할 수 없는 것", "entity name")
-t("Through idiotic pride, one of the students has called this thing to your world. Thick, impenetrable darkness billows from its form, devouring all light around it. As the darkness touches you, you feel only one thing... Hunger. Bottomless, infinite hunger, as vast and unending as the void of space itself.", "학생들 중 한명의 멍청한 자존심으로 인해, 이 존재는 당신의 세계로 불러져왔습니다. 두껍고, 꿰뚫을 수 없는 어둠이 이 형체에서 피어올라, 주변의 모든 빛을 삼켜버립니다. 어둠이 당신에게 닿자, 당신은 한 가지만 생각합니다... 굶주림. 끝이없는, 무한한 굶주림, 우주 그 자체의 공허만큼 광대하고, 끝이없는.", "_t")
+t("Through idiotic pride, one of the students has called this thing to your world. Thick, impenetrable darkness billows from its form, devouring all light around it. As the darkness touches you, you feel only one thing... Hunger. Bottomless, infinite hunger, as vast and unending as the void of space itself.", "한 학생의 멍청한 자존심으로 인해, 이 존재는 당신의 세계로 불려왔습니다. 두껍고, 꿰뚫을 수 없는 어둠이 이 형체에서 피어올라, 주변의 모든 빛을 삼켜버립니다. 어둠이 당신에게 닿자, 단 하나... 굶주림만 느껴집니다. 끝이 없는, 무한한 굶주림, 우주 그 자체의 공허만큼 광대하고, 끝이 없는.", "_t")
 t("unknown", "알 수 없음", "entity subtype")
-t("The Teacher", "교사", "entity name")
-t("A being from another world, or so it claims. Despite its wholly alien appearance, it is not particularly threatening nor does it appear to be malevolent. It will not say how it learned to manipulate the powers of entropy, merely stating that it has been to many different places and experienced many different things.", "다른 세계에서 온, 또는 그렇게 주장하는 존재입니다. 완전히 이 세계의 것이 아닌 외모에도 불구하고, 위협적이거나, 악의를 갖고있는 것 같지는 않습니다. 이 존재가 어떻게 엔트로피의 힘을 조작하는 법을 배웠는지는 말해주지 않지만, 많은 장소와 많은 것들을 경험했다고 말합니다.", "_t")
+t("The Teacher", "선생님", "entity name")
+t("A being from another world, or so it claims. Despite its wholly alien appearance, it is not particularly threatening nor does it appear to be malevolent. It will not say how it learned to manipulate the powers of entropy, merely stating that it has been to many different places and experienced many different things.", "다른 세계에서 온, 또는 그렇게 주장하는 존재입니다. 완전히 이 세계의 것이 아닌 외모에도 불구하고, 위협적이거나 악의를 품고 있는 것 같지는 않습니다. 이 존재가 어떻게 엔트로피의 힘을 조작하는 법을 배웠는지는 말해주지 않지만, 많은 장소와 많은 것들을 경험했다고 말합니다.", "_t")
 t("dummy", "더미", "entity subtype")
 t("training", "훈련용", "entity type")
 t("Training Dummy", "훈련용 더미", "entity name")
@@ -3380,32 +3398,54 @@ t("A halfling student.", "하플링 학생입니다.", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-cultist/objects.lua"
 
+t("food", "음식", "_t")
+t("Food for Grung!", "그룽을 위한 음식입니다!", "_t")
 t("name", "이름", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-cultist/zone.lua"
 
+t("The Teacher's Abode", "선생님의 집", "_t")
+t([[Lesson 1: Entropic Gift
+%d/3 entropic gifts used]], [[첫 번째 수업: 엔트로피의 선물
+엔트로피의 선물 %d/3 회 사용함]], "tformat")
+t([[Lesson 2: Netherblast
+%d/4 netherblasts used]], [[두 번째 수업: 황천폭발
+황천폭발 %d/4 회 사용함]], "tformat")
+t([[Lesson 3: Fatebreaker
+%d/2 fatebreakers used]], [[세 번째 수업: 운명 파괴자
+운명 파괴자 %d/2 회 사용함]], "tformat")
+t([[Lesson 4: Unravel Existence
+Coordonate with students]], [[네 번째 수업: 존재 해체
+다른 학생들과 협력해 봅시다]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/grids.lua"
 
+t("return home", "집으로 돌아오다", "entity name")
+t("Grung story does not end yet, find more food and bring it here.", "그룽의 이야기는 아직 안 끝났습니다. 먹을 것들을 더 찾아서 여기 갖다 놔야 합니다.", "_t")
 t("Grung", "그룽", "_t")
+t("Grung story ends there, he manages to gather enough food to survive some more days.", "그룽의 이야기는 이걸로 끝입니다. 그는 며칠 간 버틸 수 있는 음식들을 충분히 모으는 데 성공했습니다.", "_t")
 t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
+t("dead creature", "죽은 생명체", "entity name")
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
+t("book of binding", "봉인의 서", "entity name")
+t("#YELLOW#You hear a terrible shriek.", "#YELLOW#끔찍한 비명 소리가 들렸다.", "say")
+t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "#CRIMSON#끔찍한 비명 소리에 이어, 바스락거리는 펜질 소리가 들렸다.", "say")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/npcs.lua"
 
 t([[You can not comprehend what you're seeing.
-#{bold}##CRIMSON#These beings would squash you like a bug if you even tried to interfere in their combat.#{normal}#]], [[당신은 당신이 보고있는 것을 이해할 수 없습니다.
-#{bold}##CRIMSON#당신이 그들의 전투에 개입한다면, 이들은 당신을 벌레 잡듯 으스러버릴겁니다.#{normal}#]], "_t")
-t("Grung made great being angry!", "그룽은 위대한 존재를 화나게했다!", "saySimple")
-t("Great Tentacly Being", "위대한 촉수의 존재", "entity name")
+#{bold}##CRIMSON#These beings would squash you like a bug if you even tried to interfere in their combat.#{normal}#]], [[당신은 지금 보고 있는 것을 이해할 수가 없습니다.
+#{bold}##CRIMSON#당신이 저들의 전투에 개입한다면, 저들은 당신을 벌레 잡듯 으스러뜨릴 겁니다.#{normal}#]], "_t")
+t("Grung made great being angry!", "그룽은 위대한 존재를 화나게 했다!", "saySimple")
+t("Great Tentacly Being", "촉수 달린 위대한 존재", "entity name")
 t("shertul", "쉐르'툴", "entity subtype")
 t("rodent", "설치류", "entity subtype")
 t("vermin", "해충", "entity type")
@@ -3417,21 +3457,55 @@ t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "와빗을 죽�
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/objects.lua"
 
+t("food", "음식", "_t")
+t("Food for Grung!", "그룽을 위한 음식입니다!", "_t")
 t("name", "이름", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-haze-cave/zone.lua"
 
+t("A cave from ages old", "오래된 동굴", "_t")
+t("%d Food Collected", "음식 %d 개 모음", "tformat")
+t("Hungry", "배고픔", "_t")
+t([[It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.
+
+The many tentacled ones who sometimes come down from the sky to look at you say that they are going to battle with themselves. You did not really understand why they would fight among themselves, even as it tried to explain it to you. You reconsider the idea of going outside when its warnings come across your mind, but the rumbling in your belly renews your resolve. Everyone in your tribe tonight must eat, no matter what.]], [[오늘 밤은 춥고 온종일 먹을 걸 하나도 찾지 못했습니다. 당신의 피부만으로는 이 한기를 버텨낼 수도 없습니다. 지금 사냥을 나가려고 하지만, 다른 이들 모두가 그러면 안 된다고 경고했었습니다. 밤은 위험하고 하늘에는 이상한 빛이 떠다닙니다. 아무리 봐도 좋은 징조는 아니지요. 최근에는 먹을거리들을 구하기가 어려워져서, 모두 다 당신처럼 배가 고픕니다.
+
+가끔씩 하늘에서 내려오는, 촉수가 많이 달린 자들은 당신을 바라보면서 자신들은 동포들과 싸울 것이라고 이야기했습니다. 당신은 저들이 설명을 하려 했었음에도 왜 그런 싸움을 하는지 이해할 수가 없었습니다. 나가려고 할 때 그들의 경고가 머릿속을 스쳐 잠시 주저했지만, 도저히 허기를 참을 수가 없습니다. 부족의 사람들 모두는 오늘 밤에 뭔가를, 뭐라도 좋으니 좀 먹어야만 합니다.]], "_t")
+t("Why is there a dead tentacled one here?", "촉수 달린 사람이 왜 여기 죽어 있지?", "_t")
+t("Corpses are raining from the sky...", "하늘에서 시체들이 쏟아지고 있어...", "_t")
+t("The many tentacled ones are piling on the ground, forming mass graves.", "촉수 달린 사람들이 한가득이네, 무슨 커다란 묘지 보는 느낌이다.", "_t")
+t("What are these things?!", "이게 다 뭐야?!", "_t")
+t("Your primitive mind recoils in horror from the thing in front of you.", "지금 눈 앞에 있는 것을 목도하자 당신의 본능이 공포로 움츠러듭니다.", "_t")
+t("You do not have the words you need to articulate your horror.", "이 공포를 표현할만한 적당한 단어가 떠오르지 않습니다.", "_t")
+t("Are the many tentacled ones using these creatures against each another?", "촉수 달린 사람들이 이것들을 동포들한테 쓴 건가?", "_t")
+t("Little of what you're seeing makes sense to you. You simply don't have the words to articulate the terror you're feeling.", "지금 눈 앞에서 무슨 일이 일어나고 있는지 전혀 이해가 되지 않습니다. 당신은 그저 공포로 말문이 막힐 뿐입니다.", "_t")
+t("Why are they killing each other? For what reason does this horror have to happen?", "왜 서로 죽이고 있지? 대체 뭣 때문에 이런 무서운 일이 일어나고 있는 거야?", "_t")
+t("You have fought against other tribes before, but the bloodshed you saw then is nothing compared to this.", "당신은 이전에 다른 부족과 싸워 본 적이 있긴 하지만, 지금 목도하고 있는 참혹한 광경은 그 어떤 것과도 비교할 수가 없습니다.", "_t")
+t("Great blasts of light come from the sky.", "하늘에서 눈부신 빛과 함께 엄청난 폭발이 일어났습니다.", "_t")
+t("Indescribable things are emerging from the darkness.", "어둠 속에서 그 모습을 차마 형용할 수 없는 것들이 나타나고 있습니다.", "_t")
+t("Looking up, you see something writhing between the stars. You look away before curiosity gets the better of you.", "하늘을 올려다보자, 별들 사이에서 뭔가가 뒤틀리고 있는 게 보였습니다. 호기심이 더 자극되기 전에, 다른 곳으로 눈을 돌렸습니다.", "_t")
+t("The lights nearly blind you as cascades of swirling colours explode in the darkness above your head.", "머리 위쪽의 어둠 속에서 형형색색의 빛이 소용돌이치며 쇄도하자 거의 눈이 멀어버릴 지경입니다.", "_t")
+t("Terrified by the carnage around it, the rabbit has become easy prey.", "이 토끼는 주변의 대학살에 겁을 먹어, 손쉽게 사냥할 수 있었습니다.", "_t")
+t("A good little meal, but you will need more than this.", "좋은 사냥감이긴 하지만, 더 많이 필요합니다.", "_t")
+t("Meat has been a rare treat as of late.", "최근엔 고기를 맛보기 어렵지.", "_t")
+t("#ANTIQUE_WHITE#Grung: %s", "#ANTIQUE_WHITE#그룽: %s", "log")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-home/grids.lua"
 
+t("book of exit", "밖으로 나가는 책", "entity name")
 t("floor", "바닥", "entity name")
+t("You can leave items here for safekeeping.", "물건들을 여기 놔 두면 안전하게 보관될 것 같습니다.", "_t")
 t("horror", "공포", "entity subtype")
 t("wall", "벽", "entity type")
+t("torture tools", "고문 도구", "entity name")
+t("Torture tools", "고문 도구", "_t")
+t("Use the torture tools on yourself?", "고문 도구를 써서 자신을 고문하겠습니까?", "_t")
 t("No", "아니요", "_t")
+t("Self-torture", "자신을 고문한다", "_t")
 t("void", "공허", "entity name")
 
 
@@ -3450,6 +3524,7 @@ t("Stay", "그대로 있는다", "_t")
 t("floor", "바닥", "entity type")
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
+t("book of binding", "봉인의 서", "entity name")
 
 
 ------------------------------------------------
@@ -3485,6 +3560,7 @@ section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
 
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
+t("book of binding", "봉인의 서", "entity name")
 t("floor", "바닥", "entity subtype")
 t("locked chest", "잠긴 상자", "entity name")
 t("Locked Chest", "잠긴 상자", "_t")
@@ -3529,6 +3605,9 @@ section "game/dlcs/tome-cults/data/zones/ft-yaech/grids.lua"
 t("floor", "바닥", "entity type")
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
+t("book of binding", "봉인의 서", "entity name")
+t("#YELLOW#You hear a terrible shriek.", "#YELLOW#끔찍한 비명 소리가 들렸다.", "say")
+t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "#CRIMSON#끔찍한 비명 소리에 이어, 바스락거리는 펜질 소리가 들렸다.", "say")
 
 
 ------------------------------------------------
@@ -3829,6 +3908,7 @@ t("enabled", "켜기", "_t")
 section "game/dlcs/tome-cults/overload/mod/dialogs/EntropicWormhole.lua"
 
 t("Status", "상태", "_t")
+t("S.M.A.C.K", "죽.인.다. 안전한 투기장", "_t")
 
 
 ------------------------------------------------
@@ -3880,6 +3960,7 @@ section "game/dlcs/tome-cults/superload/mod/class/Actor.lua"
 section "game/dlcs/tome-cults/superload/mod/class/Game.lua"
 
 t("Class: Cultist of Entropy", "직업: 엔트로피 광신도", "_t")
+t("S.M.A.C.K", "죽.인.다. 안전한 투기장", "_t")
 
 
 ------------------------------------------------

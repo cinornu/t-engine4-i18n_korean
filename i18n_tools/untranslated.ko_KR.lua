@@ -1356,147 +1356,12 @@ t("Save Kroshkkur", "Save Kroshkkur", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/grids.lua"
--- 6 entries
-t("portal back to the occult egress", "portal back to the occult egress", "entity name")
-t("stairs down", "stairs down", "entity name")
-t("back to the tunnels", "back to the tunnels", "entity name")
-t("incubator", "incubator", "entity name")
-t("A strange kind of huge glass tube, something seems to be floating inside...", "A strange kind of huge glass tube, something seems to be floating inside...", "_t")
-t("wheeing and buzzing thing", "wheeing and buzzing thing", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/objects.lua"
--- 1 entries
-t("drem research paper", "drem research paper", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/zone.lua"
--- 2 entries
-t("Dremshor Tunnels", "Dremshor Tunnels", "_t")
-t("Strange Machine", "Strange Machine", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/entropic-void/zone.lua"
--- 2 entries
-t("Entropic Void", "Entropic Void", "_t")
-t("#GOLD#An #{bold}#antropy#{normal}# zone appears, run to it!", "#GOLD#An #{bold}#antropy#{normal}# zone appears, run to it!", "say")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/fortress-arena/grids.lua"
--- 4 entries
-t("Arena Control Orb", "Arena Control Orb", "entity name")
-t("Do you want to flee the fight?", "Do you want to flee the fight?", "_t")
-t("S.M.A.C.K", "S.M.A.C.K", "_t")
-t([[With but a thought you enact Yiilkgur's safety protocols and pull yourself out of the arena.
-You have fled your fight.]], [[With but a thought you enact Yiilkgur's safety protocols and pull yourself out of the arena.
-You have fled your fight.]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/fortress-arena/zone.lua"
--- 1 entries
-t("Safe Multiverse Arena for Commotion and Killing", "Safe Multiverse Arena for Commotion and Killing", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-cultist/objects.lua"
--- 2 entries
-t("food", "food", "_t")
-t("Food for Grung!", "Food for Grung!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-cultist/zone.lua"
--- 5 entries
-t("The Teacher's Abode", "The Teacher's Abode", "_t")
-t([[Lesson 1: Entropic Gift
-%d/3 entropic gifts used]], [[Lesson 1: Entropic Gift
-%d/3 entropic gifts used]], "tformat")
-t([[Lesson 2: Netherblast
-%d/4 netherblasts used]], [[Lesson 2: Netherblast
-%d/4 netherblasts used]], "tformat")
-t([[Lesson 3: Fatebreaker
-%d/2 fatebreakers used]], [[Lesson 3: Fatebreaker
-%d/2 fatebreakers used]], "tformat")
-t([[Lesson 4: Unravel Existence
-Coordonate with students]], [[Lesson 4: Unravel Existence
-Coordonate with students]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-haze-cave/grids.lua"
--- 7 entries
-t("return home", "return home", "entity name")
-t("Grung story does not end yet, find more food and bring it here.", "Grung story does not end yet, find more food and bring it here.", "_t")
-t("Grung story ends there, he manages to gather enough food to survive some more days.", "Grung story ends there, he manages to gather enough food to survive some more days.", "_t")
-t("dead creature", "dead creature", "entity name")
-t("book of binding", "book of binding", "entity name")
-t("#YELLOW#You hear a terrible shriek.", "#YELLOW#You hear a terrible shriek.", "say")
-t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "say")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-haze-cave/objects.lua"
--- 2 entries
-t("food", "food", "_t")
-t("Food for Grung!", "Food for Grung!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-haze-cave/zone.lua"
--- 22 entries
-t("A cave from ages old", "A cave from ages old", "_t")
-t("%d Food Collected", "%d Food Collected", "tformat")
-t("Hungry", "Hungry", "_t")
-t([[It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.
-
-The many tentacled ones who sometimes come down from the sky to look at you say that they are going to battle with themselves. You did not really understand why they would fight among themselves, even as it tried to explain it to you. You reconsider the idea of going outside when its warnings come across your mind, but the rumbling in your belly renews your resolve. Everyone in your tribe tonight must eat, no matter what.]], [[It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.
-
-The many tentacled ones who sometimes come down from the sky to look at you say that they are going to battle with themselves. You did not really understand why they would fight among themselves, even as it tried to explain it to you. You reconsider the idea of going outside when its warnings come across your mind, but the rumbling in your belly renews your resolve. Everyone in your tribe tonight must eat, no matter what.]], "_t")
-t("Why is there a dead tentacled one here?", "Why is there a dead tentacled one here?", "_t")
-t("Corpses are raining from the sky...", "Corpses are raining from the sky...", "_t")
-t("The many tentacled ones are piling on the ground, forming mass graves.", "The many tentacled ones are piling on the ground, forming mass graves.", "_t")
-t("What are these things?!", "What are these things?!", "_t")
-t("Your primitive mind recoils in horror from the thing in front of you.", "Your primitive mind recoils in horror from the thing in front of you.", "_t")
-t("You do not have the words you need to articulate your horror.", "You do not have the words you need to articulate your horror.", "_t")
-t("Are the many tentacled ones using these creatures against each another?", "Are the many tentacled ones using these creatures against each another?", "_t")
-t("Little of what you're seeing makes sense to you. You simply don't have the words to articulate the terror you're feeling.", "Little of what you're seeing makes sense to you. You simply don't have the words to articulate the terror you're feeling.", "_t")
-t("Why are they killing each other? For what reason does this horror have to happen?", "Why are they killing each other? For what reason does this horror have to happen?", "_t")
-t("You have fought against other tribes before, but the bloodshed you saw then is nothing compared to this.", "You have fought against other tribes before, but the bloodshed you saw then is nothing compared to this.", "_t")
-t("Great blasts of light come from the sky.", "Great blasts of light come from the sky.", "_t")
-t("Indescribable things are emerging from the darkness.", "Indescribable things are emerging from the darkness.", "_t")
-t("Looking up, you see something writhing between the stars. You look away before curiosity gets the better of you.", "Looking up, you see something writhing between the stars. You look away before curiosity gets the better of you.", "_t")
-t("The lights nearly blind you as cascades of swirling colours explode in the darkness above your head.", "The lights nearly blind you as cascades of swirling colours explode in the darkness above your head.", "_t")
-t("Terrified by the carnage around it, the rabbit has become easy prey.", "Terrified by the carnage around it, the rabbit has become easy prey.", "_t")
-t("A good little meal, but you will need more than this.", "A good little meal, but you will need more than this.", "_t")
-t("Meat has been a rare treat as of late.", "Meat has been a rare treat as of late.", "_t")
-t("#ANTIQUE_WHITE#Grung: %s", "#ANTIQUE_WHITE#Grung: %s", "log")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-home/grids.lua"
--- 6 entries
-t("book of exit", "book of exit", "entity name")
-t("You can leave items here for safekeeping.", "You can leave items here for safekeeping.", "_t")
-t("torture tools", "torture tools", "entity name")
-t("Torture tools", "Torture tools", "_t")
-t("Use the torture tools on yourself?", "Use the torture tools on yourself?", "_t")
-t("Self-torture", "Self-torture", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-horrors/grids.lua"
--- 7 entries
+-- 6 entries
 t("exit to reality", "exit to reality", "entity name")
 t("Do you really want to exit the tome? You will not be able to come back.", "Do you really want to exit the tome? You will not be able to come back.", "_t")
 t("previous chapter", "previous chapter", "entity name")
 t("next chapter", "next chapter", "entity name")
-t("book of binding", "book of binding", "entity name")
 t("#YELLOW#You hear a terrible shriek!", "#YELLOW#You hear a terrible shriek!", "say")
 t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.  You feel the guardian of this place grow in power.", "#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.  You feel the guardian of this place grow in power.", "say")
 
@@ -1517,10 +1382,9 @@ t("Something blocks the way to this chapter...", "Something blocks the way to th
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
--- 7 entries
+-- 6 entries
 t("exit to reality", "exit to reality", "entity name")
 t("shortcut to chapter", "shortcut to chapter", "entity name")
-t("book of binding", "book of binding", "entity name")
 t("#YELLOW#As you close the book you feel the castle shaking.", "#YELLOW#As you close the book you feel the castle shaking.", "say")
 t("#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "say")
 t("Open the chest now that the guardian golem is no more?", "Open the chest now that the guardian golem is no more?", "_t")
@@ -1609,11 +1473,8 @@ t("Strange, it seems the book only serves as an entry to an actual physical zone
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-yaech/grids.lua"
--- 4 entries
+-- 1 entries
 t("exit to reality", "exit to reality", "entity name")
-t("book of binding", "book of binding", "entity name")
-t("#YELLOW#You hear a terrible shriek.", "#YELLOW#You hear a terrible shriek.", "say")
-t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.", "say")
 
 
 ------------------------------------------------
@@ -2021,7 +1882,7 @@ t("%s of the Blightspawn", "%s of the Blightspawn", "tformat")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/EntropicWormhole.lua"
--- 8 entries
+-- 7 entries
 t("Entropic Wormhole", "Entropic Wormhole", "_t")
 t("Handicap: ", "Handicap: ", "_t")
 t("Player", "Player", "_t")
@@ -2035,7 +1896,6 @@ t([[The wormwhole failed to latch on a timeline, you should retry an other one.
 t([[As your foe crumbles Yiilkgur's safety protocols activate and pull you out of the arena.
 You have defeated #CRIMSON#%s#LAST#, congratulations!]], [[As your foe crumbles Yiilkgur's safety protocols activate and pull you out of the arena.
 You have defeated #CRIMSON#%s#LAST#, congratulations!]], "_t")
-t("S.M.A.C.K", "S.M.A.C.K", "_t")
 
 
 ------------------------------------------------
@@ -2087,12 +1947,11 @@ t("#ORCHID#You can only gain insanity in combat!#LAST#", "#ORCHID#You can only g
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/class/Game.lua"
--- 8 entries
+-- 7 entries
 t("Race: Drem", "Race: Drem", "_t")
 t("Race: Krog", "Race: Krog", "_t")
 t("Class tree: Scourge drake", "Class tree: Scourge drake", "_t")
 t("Class feature: Alchemist's Glass Golem", "Class feature: Alchemist's Glass Golem", "_t")
-t("S.M.A.C.K", "S.M.A.C.K", "_t")
 t("Saving is not possible in the S.M.A.C.K. Do you want to cancel the fight?", "Saving is not possible in the S.M.A.C.K. Do you want to cancel the fight?", "_t")
 t([[As you enter Last Hope a courier finds you to deliver a letter from Protector Myssil of Zigur:
 
@@ -3537,8 +3396,9 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/VideoOptions.lua"
--- 1 entries
+-- 2 entries
 t("", "", "_t")
+t("Revert", "Revert", "_t")
 
 
 ------------------------------------------------
@@ -9761,6 +9621,16 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 		Any active Aura damage bonusses will extend to your main weapons for this attack.]], [[Assault your target with all weapons, dealing two strikes with your telekinetically-wielded weapon for %d%% damage followed by an attack with your physical weapon for %d%% damage.
 		This physical weapon attack uses your Willpower and Cunning instead of Strength and Dexterity to determine Accuracy and damage.
 		Any active Aura damage bonusses will extend to your main weapons for this attack.]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/eradication.lua"
+-- 1 entries
+t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
+		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
+		The damage will increase with your Spellpower.]], [[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
+		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
+		The damage will increase with your Spellpower.]], "tformat")
 
 
 ------------------------------------------------

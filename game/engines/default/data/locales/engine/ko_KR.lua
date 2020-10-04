@@ -1059,6 +1059,7 @@ t("Enter the y-coordinate", "y값을 입력", "_t")
 t("Window Origin: Y-Coordinate", "창 기준점: Y값", "_t")
 t("Position changed.", "위치 변경됨", "_t")
 t("Save position?", "위치를 저장하시겠습니까?", "_t")
+t("Accept", "수락", "_t")
 
 
 ------------------------------------------------
