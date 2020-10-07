@@ -379,7 +379,7 @@ t("Improve", "향상 :", "_t")
 t("Learn", "배우기 :", "_t")
 t("[%s talent %s (+%d level(s))]", "[%s %s (+%d 레벨)]", "tformat")
 t("Select the party member to receive the reward:", "보상을 받을 파티 멤버를 선택하세요:", "_t")
-t("gained talent category %s (at mastery %0.2f)", "기술 계열 %s 배운다 (숙련치 %0.2f)", "tformat", nil, {"를"})
+t("gained talent category %s (at mastery %0.2f)", "기술 계열 %s 배웠다 (숙련치 %0.2f)", "tformat", nil, {"를"})
 t("[Allow training of talent category %s (at mastery %0.2f)]", "[기술 계열 %s 배운다 (숙련치 %0.2f)]", "tformat", nil, {"를"})
 
 
