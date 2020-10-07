@@ -538,8 +538,8 @@ t([[Deal a blight-enhanced melee blow, dealing %d%% blight damage.
 		공격이 명중하고, 대상이 2 턴 이내에 쓰러질 시, 정수를 먹어치워, 다음 %d 턴 동안 원기를 7 매 턴 회복하고, 40%% 확률로 받은 공격을 무효화합니다.
 		]], "tformat")
 t("Meteor Slam", "운석 강타", "talent name")
-t("You require a weapon and a shield to use this talent.", "방패와 근접무기 없이 이 기술을 사용할 수 없다.", "logPlayer")
-t("You cannot use Meteor Slam without a shield!", "방패 없이 운석 강타를 사용할 수 없다!", "logPlayer")
+t("You require a weapon and a shield to use this talent.", "방패와 근접 무기를 장비하지 않으면 이 기술을 사용할 수 없다.", "logPlayer")
+t("You cannot use Meteor Slam without a shield!", "방패를 장비하지 않으면 운석 강타를 사용할 수 없다!", "logPlayer")
 t([[Using demonic forces you jump high in the sky and fall down on your target as a meteor, slamming the ground with your shield.
 		The impact is so powerful it shakes the ground in radius %d, dealing a %d%% fire and physical shield attack to all foes and turning the ground into lava.]], [[악마의 힘을 이용해 하늘 높이 도약한 후, 대상을 향해 운석처럼 떨어져 내려, 방패로 지면을 강타합니다.
 		충격은 너무나 강력하여 반경 %d 칸의 대지를 뒤흔들어, %d%% 화염, 물리 방패 피해를 모든 적에게 가하고, 땅을 녹여 용암으로 만들어버립니다.]], "tformat")
@@ -594,7 +594,7 @@ t("#CRIMSON#You extract a %s and add it to your inventory.", "#CRIMSON#당신은
 t("#CRIMSON#You extract a %s and bind it to your %s.", "#CRIMSON#당신은 %s 추출해 당신의 %s에 결합시켰다.", "logPlayer", nil, {"를"})
 t("#CRIMSON#You feed vim into your %s, increasing its level to %d and healing it.", "#CRIMSON#당신은 %s에게 원기를 먹여, 악마를 회복시켰다. (현재 레벨 %d)", "logPlayer")
 t("Demon Seed", "악마의 씨앗", "talent name")
-t("You require a weapon and a shield to use this talent.", "방패와 근접무기 없이 이 기술을 사용할 수 없다.", "logPlayer")
+t("You require a weapon and a shield to use this talent.", "방패와 근접 무기를 장비하지 않으면 이 기술을 사용할 수 없다.", "logPlayer")
 t([[Strike a blow with your weapon for %d%% blight damage.
 		If the attack hits a demonic seed tries to take hold inside your foe and you follow up with a shield strike dealing %d%% damage and dazing your target for %d turns.
 		
@@ -763,7 +763,7 @@ t([[Taking example from Mal'Rok, the demon's homeworld you harden yourself.
 		Increases total armour by %d%% + 10 and spellpower by %d.]], [[악마들의 모성인 말'록의 과거를 바탕으로, 자신 스스로를 경화합니다.
 		방어력이 %d%% + 10 증가하고, 주문력이 %d 증가합니다.]], "tformat")
 t("Demonic Madness", "악마적 광기", "talent name")
-t("You require a weapon and a shield to use this talent.", "방패와 근접무기 없이 이 기술을 사용할 수 없다.", "logPlayer")
+t("You require a weapon and a shield to use this talent.", "방패와 근접 무기를 장비하지 않으면 이 기술을 사용할 수 없다.", "logPlayer")
 t([[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns.
 		At level 4 you also automatically block at the end.]], [[방패를 미친듯이 회전시켜, 시전자 근처의 적에게 %d%% 방패 피해를 암흑 속성으로 가하고, 적들에게 %d 턴 동안 혼란을 유발합니다.
 		기술 레벨 4 일때, 기술 사용 후 자동적으로 방패 막기 태세에 돌입합니다.]], "tformat")
@@ -847,7 +847,7 @@ t([[Using demonic forces you create a link of pain from a source creature to a v
 		숙주가 피해를 받으면, 희생양 역시 해당 피해의 %d%% 를 받게됩니다.
 		이 효과로 희생양이 쓰러지면, 에너지 쇄도가 일어나, 모든 재사용 대기시간이 1 턴 단축됩니다.]], "tformat")
 t("Demon Horns", "악마의 뿔", "talent name")
-t("You require a weapon and a shield to use this talent.", "방패와 근접무기 없이 이 기술을 사용할 수 없다.", "logPlayer")
+t("You require a weapon and a shield to use this talent.", "방패와 근접 무기를 장비하지 않으면 이 기술을 사용할 수 없다.", "logPlayer")
 t("%s resists the shield bash!", "%s 방패 강타에 저항했다!", "logSeen", nil, {"가"})
 t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d%% damage.
 		If the attack hits the creature is impaled by the horns, causing it to bleed black blood for 50%% of the damage done as darkness over 5 turns.
@@ -1134,6 +1134,7 @@ t("Surge of Power", "힘의 쇄도", "_t")
 t("This unit will not die until it has less than -%d HP.", "생명력이 -%d 에 도달할 때 까지 죽지 않음.", "tformat")
 t("#Target# surges with an incredible power!", "#Target#에게서 믿을 수 없는 힘이 쇄도했다!", "_t")
 t("+Surge of Power", "+힘의 쇄도", "_t")
+t("#Target#'s surge ends.", "#대상의 힘의 쇄도가 멈췄다.", "_t")
 t("-Surge of Power", "-힘의 쇄도", "_t")
 t("Recklessness", "무모함", "_t")
 t("This unit has %d%% resistance penetration.", "저항 관통 +%d%%.", "tformat")
@@ -1153,6 +1154,7 @@ t("You regenerate a total of %0.2f life over the duration of the effect.", "이 
 t("+Osmosis Regen", "+삼투의 재생", "_t")
 t("-Osmosis Regen", "-삼투의 재생", "_t")
 t("Acidic Bath", "산성 세례", "_t")
+t("Gain %d%% resistance and %d%% affinity to acid.", "산성 저항 +%d%% / 산성 친화 +%d%%", "tformat")
 t("heal", "회복", "effect subtype")
 t("resistance", "저항", "effect subtype")
 t("+Acidic Bath", "+산성 세례", "_t")
@@ -1186,7 +1188,9 @@ t("bleed", "출혈", "effect subtype")
 t("cut", "상처", "effect subtype")
 t("wound", "상처", "effect subtype")
 t("#Target# starts to bleed darkness.", "#Target#의 그림자 상처에서 피가 흘러나온다.", "_t")
+t("+Demonic Cut", "+악마적인 상처", "_t")
 t("#Target# stops bleeding darkness.", "#Target#의 그림자 상처가 아물었다.", "_t")
+t("-Demonic Cut", "-악마적인 상처", "_t")
 t("Link of Pain", "고통의 연결", "_t")
 t("When this target is damaged %d%% of the damage will also be done to an other victim.", "피격 시 받는 피해의 %d%% 를 다른 희생양도 같이 받음.", "tformat")
 t("ritual", "의식", "effect subtype")

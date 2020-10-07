@@ -39,14 +39,14 @@ t("Writhing One", "뒤틀린 자", "birth descriptor name")
 t("Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "뒤틀린 자들은 우리가 #{italic}#공포체#{normal}# 라고 불리는 것들이 아지랑이의 시대부터 내려오는 고대의 지식과 힘에 대한 열쇠를 쥐고있다는 걸 알고, 그 힘과 지식에 접근하기 위해 어떤 짓이든 할 준비가 되어있습니다.", "_t")
 t("In their lust for power they somehow lost a part of themselves, turning more and more into the horrors they study.", "그들의 힘에 대한 집착 속에서, 그들은 자신의 몸 일부를 잃어버리고, 그들이 연구하는 공포체로 서서히 변해갑니다.", "_t")
 t("Most of them forgo an entire arm to turn it into a deadly tentacle.", "대부분의 뒤틀린 자들은 무시무시한 촉수를 갖기 위해, 자신의 팔 한쪽 전체를 희생시킵니다.", "_t")
-t("Some are even known to never leave their sanctuary without their own worm that walks friend.", "어떤 이들은 걸어다니는 벌레떼의 동행이 없이는 그들의 성소를 절대 벗어나지 않는다고도 알려져있습니다.", "_t")
+t("Some are even known to never leave their sanctuary without their own worm that walks friend.", "어떤 이들은 걸어다니는 벌레떼의 동행이 없이는 그들의 성소를 절대 벗어나지 않는다고도 알려져 있습니다.", "_t")
 t("Their most important stats are: Strength and Magic", "그들에게 가장 중요한 능력치는 힘과 마법입니다.", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +3 힘, +0 민첩, +3 체질", "_t")
 t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +3", "_t")
-t("Cultist of Entropy", "엔트로피의 광신도", "birth descriptor name")
+t("Cultist of Entropy", "엔트로피 광신도", "birth descriptor name")
 t("Everything ends eventually. Harness this inevitability.", "결국 모든 것은 끝을 맞게됩니다. 그러므로 그들은 이 필연성을 다룹니다.", "_t")
-t("Cultists of Entropy are doomed beings which have unlocked the secrets of using entropy as a weapon. Their spells cause their bodies to wither away from entropic backlash, but they have learned how to resist this backlash and even pass it onto their foes.", "엔트로피의 광신도들은 엔트로피를 무기로써 활용하는 비의를 알아내버린 파멸한 존재들입니다. 그들의 주문은 엔트로피 반발을 유발해 스스로의 몸에 노화를 일으키지만, 그들은 반발에 저항하는 법과, 반발을 적에게 떠넘기는 법을 터득했습니다.", "_t")
+t("Cultists of Entropy are doomed beings which have unlocked the secrets of using entropy as a weapon. Their spells cause their bodies to wither away from entropic backlash, but they have learned how to resist this backlash and even pass it onto their foes.", "엔트로피 광신도들은 엔트로피를 무기로써 활용하는 비의를 알아낸 파멸한 존재들입니다. 그들의 주문은 엔트로피 반발을 유발해 스스로의 몸에 노화를 일으키지만, 그들은 반발에 저항하는 법과 적에게 떠넘기는 법을 터득했습니다.", "_t")
 t("Their most important stats are: Magic and Cunning", "그들에게 가장 중요한 능력치는 마법과 교활입니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +0 체격", "_t")
@@ -58,9 +58,9 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 section "game/dlcs/tome-cults/data/birth/drem.lua"
 
 t("Drem", "드렘", "birth descriptor name")
-t("Faceless, but not mindless.", "얼굴없는 자들이지만, 정신은 존재합니다.", "_t")
-t("Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "드렘은 정신이 존재하지 않는 돌연변이로, 대지 깊은 곳에서 오랫동안 살아왔습니다. 그러던 드렘들 사이에 지각이 존재하는 드렘이 나타난 것은 매우 최근의 일입니다. 드렘들은 여전히 에이알의 지각 깊은 곳에 숨어, 자신들이 땅 위의 종족들에게 환영 받지 못할 것이라고 믿고있습니다.", "_t")
-t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "드렘은 재사용 대기시간을 무시하게 하는 #GOLD#폭주#WHITE# 기술을 갖고있습니다.", "_t")
+t("Faceless, but not mindless.", "얼굴 없는 자들이지만, 정신은 존재합니다.", "_t")
+t("Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "드렘은 정신이 존재하지 않는 돌연변이로, 대지 깊은 곳에서 오랫동안 살아왔습니다. 그러던 드렘들 사이에 지각이 존재하는 드렘이 나타난 것은 매우 최근의 일입니다. 드렘들은 여전히 에이알의 지각 깊은 곳에 숨어, 자신들이 땅 위의 종족들에게 환영 받지 못할 것이라고 믿고 있습니다.", "_t")
+t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "드렘은 재사용 대기시간을 무시하게 하는 #GOLD#폭주#WHITE# 기술을 갖고 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +3 힘, +1 민첩, +1 체격", "_t")
 t("#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +2 마법, -1 의지, +0 교활", "_t")
@@ -105,7 +105,7 @@ section "game/dlcs/tome-cults/data/birth/krog.lua"
 
 t("Krog", "크로그", "birth descriptor name")
 t("Once an abomination, now a weapon.", "한 때는 흉물에 지나지 않았지만, 지금은 무기입니다.", "_t")
-t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한 때 오우거였으나, 그 천성이 근본적으로 달라저버렸습니다. 지구랏 추종자들은 룬을 신체에서 벗겨버리는 대신, 자연적인 주입물과 용의 피의 혼합물로 그들을 죽음에서 구했습니다. 크로그는 완전히 반마법에 헌신적이며, 그 의외의 것은 그렇게 중요하지 않습니다.", "_t")
+t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한 때 오우거였으나, 그 천성이 근본적으로 달라져 버렸습니다. 지구랏 추종자들은 룬을 신체에서 벗겨버리는 대신, 자연적인 주입물과 용의 피의 혼합물로 그들을 죽음에서 구했습니다. 크로그는 반마법에 완전히 헌신적이며, 그 외의 것들은 그렇게 중요하게 여기지 않습니다.", "_t")
 t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "크로그는 적들에게 기절/혼절을 유발하는 #GOLD#야생의 분노#WHITE# 기술을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +2 체격", "_t")
@@ -257,6 +257,7 @@ section "game/dlcs/tome-cults/data/factions.lua"
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/encounters/maj-eyal.lua"
 
+t("Occult Egress", "비술의 출로", "entity name")
 t("harmless", "무해한", "entity type")
 t("Way to a strange portal", "이상한 차원문으로 가는 길", "_t")
 t("Godfeaster", "신 포식자", "entity name")
@@ -274,6 +275,7 @@ t("Use the rod", "장대를 사용한다", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/encounters/tar-eyal.lua"
 
+t("Occult Egress", "비술의 출로", "entity name")
 t("harmless", "무해한", "entity type")
 t("special", "특별한", "entity subtype")
 t("Way to a strange portal", "이상한 차원문으로 가는 길", "_t")
@@ -282,6 +284,7 @@ t("Way to a strange portal", "이상한 차원문으로 가는 길", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/encounters/var-eyal.lua"
 
+t("Occult Egress", "비술의 출로", "entity name")
 t("harmless", "무해한", "entity type")
 t("special", "특별한", "entity subtype")
 t("Way to a strange portal", "이상한 차원문으로 가는 길", "_t")
@@ -360,6 +363,7 @@ t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되어 있는 것 같습니다만, 열 수는 있을 것 같습니다.", "_t")
+t("maggot", "구더기", "entity subtype")
 t("wall", "벽", "entity type")
 
 
@@ -765,6 +769,7 @@ section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
 
 t("Portal", "차원문", "_t")
 t("Enter", "들어간다", "_t")
+t("log entry", "기록", "_t")
 t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
@@ -1927,12 +1932,100 @@ In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was 
 결국 쉐르'툴중에게 아마크텔을 살해하라고 명령한 이는 칼디자르였다. 이 명령을 쉐르'툴 전부가 수행한 것은 아니며, 사실 그들 중 다수가 공개적으로 이 명령을 비판했으며 계급 내 갈등으로 이어졌다고 생각되었다. 칼디자르는 고사하고 신사냥이 끝난 이후의 쉐르'툴에 대한 기록은 없다. 아무도 그들의 종족이 어떻게 되었는지 확신하지 못한다. 에이얄에는 쉐르'툴 폐허가 거의 증발한 것처럼 기이한 부재가 느껴진다는 점도 눈에 띈다.]], "_t")
 t("Mightier than Gods: Branzir", "신보다 강한 자들: 브란지르", "_t")
 t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "우리에게 알려지지 않은 이유로 브란지르의 삶에 관한 문서들이 많이 살아남아 있다. 되풀이되는 이야기 속에서 그는 순전히 스포츠로 야수를 추적하고 죽이는 능력으로 유명한 사냥꾼이었으며 어떤 귀족과 비슷한 것이었다고 한다. 쉐르'툴 종족에게 곤궁함이란 없었기 때문에 그들 중 많은 이들이 여유롭게 여가생활을 즐기는데 대부분의 시간을 바쳤는데 브란지르도 예외는 아니었다. 그에게는 강력한 검이 주어졌고 가차없이 신들을 사냥했다. 살아남은 기록에 따르면, 그는 혼자서 적어도 두 명의 신들을 성공적으로 살해했으며, 분명히 오늘날까지도 여전히 신 랄쿠르를 쫓고 있는 것으로 보인다.", "_t")
+t("Mightier than Gods: Oslrey", "신보다 강한 자들: 오슬레이", "_t")
+t([[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
+
+He too was asked to become a Godslayer, for his prowess with his staff was the stuff of legends. He refused politely, but again and again, the requests for his assistance kept coming. After watching the land he wandered burn around him, he finally chose to take a stand against the Gods of Eyal. He was presented with Ythral, a uniquely made staff with a cresent blade on one end.
+
+When he fought against the Gods, he acted completely without passion. His staff hammered them down, sliced them open and slaughtered them. He killed without mercy and without malice. When the last of the gods were dead, he returned to his wanderings, carrying Ythral and his old iron staff with him.]], [[방랑자 오슬레이는 쉐르'툴 종족 사이에서도 신화적인 존재로 여겨졌다. 그는 대부분의 나날을 에이얄 표면을 배회하면서 야만에서 막 벗어난 어린 종족들을 조용히 관찰하며 보냈다. 대부분의 쉐르'툴은 '더 하등한' 종으로부터는 거리를 두는것을 선택했지만, 오슬레이는 그들 사이를 걷고 그들과 대화하는 데까지 시간을 할애했다. 그는 걸을 때마다 평범한 철제 지팡이를 들고 다녔는데, 이것은 그가 소중히 간직하고 있던 구식 무기였다.
+
+그 역시 신살자가 되어 달라는 요청을 받았다. 왜냐하면 그의 봉술 솜씨는 전설적인 수준이었기 때문이다. 그는 정중하게 거절했지만, 그를 향한 도움 요청은 계속 되었다. 그가 방랑하던 땅이 그의 눈 앞에서 불타버리는것을 본 후, 그는 마침내 에이얄의 신들에 대항하는 입장을 택했다. 그는 한쪽 끝에 크레센트 칼날이 달린 독특하게 만들어진 지팡이, 이쓰랄을 선물받았다.
+
+그가 신과 싸울 때, 그는 어떠한 분노도 없이 완벽하게 행동했다. 그의 지팡이는 그들을 때려 눕히고, 토막내어 그들을 학살했다. 그는 가차없이, 또 악의없이 신들을 죽였다. 마지막 신이 죽었을 때, 그는 이쓰랄과 그의 옛 철제 지팡이를 들고 그의 방랑길로 돌아갔다.]], "_t")
+t("Mightier than Gods: Murtas", "신보다 강한 자들: 무르타스", "_t")
+t([[Murtas the Unfathomable came from a famous line of Sher'tul warriors, dating back to the days of the race when they had barely risen out of barbarism. As such, she was a prominent military leader, having decades of experience and prestige behind her. Her expertise in battle tactics proved to be invaluable numerous times to the Sher'tul. She was often described as a calculating and inscrutable individual, someone who did not share her thoughts openly.
+
+When the Godhunt was under way, she was the one who supplied the finest smiths she could in order to produce the weapons necessary to deliver a killing blow to a God. She too was provided with a Godslayer, the blade Hyturac. Without her smiths and her expertise in the forging of arms, the weapons could not have possibly been made.
+
+From there, she outwitted the Gods numerous times, springing ambushes and herding them to the exact locations she wanted them. The Gods, for all of their power, lacked the cunning to match Murtas' tactics, leading to them being cornered and slaughtered like helpless animals.]], [[불가해한 자 무르타스는 쉐르'툴 종족이 이제 막 야만에서 벗어났던 시기부터 존재했던 유명한 전사 집단 출신으로. 그만큼 그녀는 수십 년의 경험과 드높은 위신을 뒤에 두고 있는 저명한 군사 지도자였다. 그녀의 전투 전술에 대한 전문지식은 쉐르'툴 종족에게 무척이나 귀중한 것으로 수 차례 판명되었다. 그녀는 종종 자신의 생각을 공개적으로 공유하지 않는, 계산적이고 불가해한 자로 묘사되었다.
+
+신사냥이 진행 중일 때, 그녀는 신에게 치명적인 타격을 주는 데 필요한 무기를 생산하기 위해 그녀가 알고 있는 가장 훌륭한 대장장이들을 불러온 사람이었다. 그녀에게도 신살자의 무기인 히투라크라는 검이 제공되었다. 그녀의 대장장이와 무기를 제조하는 그녀의 전문지식이 없었더라면, 그 무기들은 만들어질 수 없었을 것이다.
+
+신사냥의 때 그녀는 여러 번 신들보다 전술에서 앞서며 매복을 이용해 그녀가 원하는 정확한 장소로 그들을 몰아갔다. 신들은 그들의 막강한 힘에 비해, 무르타스의 전술에 필적할 만한 교활함이 부족하여, 궁지에 몰린채 무기력한 동물처럼 도살되었다.]], "_t")
+t("Mightier than Gods: Harqel", "신보다 강한 자들: 하르퀠", "_t")
+t([[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placcid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
+
+Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He beared everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
+
+When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[신화에 따르면 하퀠은 불행하고 고통받는 자들을 이끌었다 한다. 그는 신화 속에서 조용하고, 확고하며, 너그러운 자였는데, 신살자가 되려는 자에게는 전혀 어울리지 않는 것처럼 보이는 완전히 무뚝뚝한 태도였다. 이로 인해 그는 동료들로부터 수많은 학대를 당하게 되었는데, 동료들이 그에게 무슨 짓을 해도 그는 항상 동료들을 용서해 주었다. 그에게 어떤 일격이 쏟아지든, 어떤 끔찍한 상처를 입었든, 그는 항상 살아남았다. 신사냥이 일어났을 때, 그는 신살자들과 함께 설 기회를 제공받았다.그는 처음에는 신들을 설득할 수 있을거라 생각했지만, 신들의 무의미한 싸움에의해 황폐화된 대지를 본 이후로, 그는 두 번 다시 생각하지 않고 신사냥의 대의에 전념했다.
+
+그가 동의하자, 대방패 안브그레아가 그를 위해 제조되었다. 그는 신들 앞에 서서 신의 힘에 도전하며 거침없고 굽히지 않았다. 타오르는 불길, 얼어붙는 냉기와 썩어가는 황폐의 힘, 불타는 산은 그를 당황시키거나 그의 전진을 멈출 수 없었다. 그는 신살자들의 고통을 짊어지는 방패가 되었으며 그로인해 신살자들은 이 세상에 있는 거대하고, 조심성 없는 신들을 처치할 수 있었다. 어떤 것도 하르퀠과 그의 강력한 방패 너머로 지나갈 수 없었다.
+
+신사냥이 끝나자 하르퀠은 조용한 삶으로 돌아왔다. 살아남은 쉐르'툴은 신살자들을 영웅으로 취급했고 각각은 후하게 보상 받았지만, 하르퀠은 단순히 누구에게도 방해받지 않을 별들 어딘가에 은신처를 요청했을 뿐이다.]], "_t")
+t("Mightier than Gods: Frosat", "신보다 강한 자들: 프로사트", "_t")
+t([[The Sher'Tul were a people who possessed many exceptional individuals. The tale of Frosat is a mundane one compared to the other Godslayers. He was a scholar who spent most of his time reading, researching and teaching. The Library of Frosat was a fabled place of learning where he kept his large archives of knowledge he had accumulated over his life. Perhaps what was most notable about his career was his research into the nature of antropic power, the energy which only the Gods of Eyal possessed.
+
+He was a consultant on the creation of the Godslayer weapons. His understanding of antropic power was unparalleled among his peers, so his advice proved invaluable to the mighty weaponsmiths who forged these instruments. There were going to be eight Godslayers at first, but he asked for one more weapon to be made. He wished to test the fruit of his research himself, so the staff Frosatur was made and named in his honour.
+
+His fate after the Godhunt is unknown. Some sources speculate that he still remains in his library today, waiting for a student worthy of learning the full contents of his archives.]], [[쉐르'툴은 비범한 인물들을 많이 보유했던 종족이었다. 프로사트의 이야기는 다른 신살자들에 비해 평범하다. 그는 대부분의 시간을 독서와 연구, 가르침으로 보낸 학자였다. 프로사트 도서관은 그가 일생 동안 쌓아온 방대한 지식의 기록 보관소이자 전설적인 수준의 배움의 터였다. 아마도 그의 경력에 있어서 가장 주목할 만한 것은 오직 에이얄의 신들만이 가지고 있는 반-엔트로피적 힘의 본질에 대한 연구였을 것이다.
+
+그는 신살자의 무기 제작에 자문위원이었다. 그의 반-엔트로피적 힘에 대한 이해는 동료들 사이에서도 전례 없는 수준이어서, 그의 충고는 이 강력한 무기들을 제조했던 무기 제조자들에게있어 매우 귀중한 것으로 판명되었다. 처음에는 8명의 신살자가 있을 예정이었지만, 그는 무기를 하나 더 만들어 달라고 부탁했다. 그는 자신이 직접 연구의 결실을 시험해 보고자 하였기 때문에 지팡이 프로사투르가 만들어졌고 그의 명예를 담아 이름을 지었다.
+
+신사냥 이후 그의 운명은 알려지지 않았다. 일부 자료들은 그가 오늘날에도 여전히 그의 도서관에 남아 그의 기록물의 모든 내용을 배울 가치 있는 학생을 기다리고 있다고 추측한다.]], "_t")
+t("Mightier than Gods: Azorol", "신보다 강한 자들: 아조롤", "_t")
+t([[Azorol was the great marksman. She was an instructor in the use of weapons and seemed to favour an antiquated approach to their use. Many Sher'tul believed her to be foolish, for they could not see why she would use primitive projectile weapons when far more devastating weaponry had already been developed. She did not give up her ways, however harsh her critics were, for she believed there was value in preserving the old ways of war. Many tales tell of her unerring accuracy. No matter how small the target and how far the distance, her mighty spear throws would always land. 
+
+For her, the spear Thoral was made, a throwing weapon of unparalleled might. She seemed to care little for the reasons behind the Godhunt, for the spear alone was a great enough prize for her. With this new weapon, there were tales of Azorol striking targets in the darkness beyond our world while standing on the flat plains of Eyal. She proved to be one of the mightiest of the Godslayers, for there was nowhere on Eyal which was safe from Thoral and its user.
+
+Judging by surviving records, she was one of the Godslayers who was killed during the climax of the Godhunt. The fate of the spear Thoral is unknown.]], [[아조롤은 명사수였다. 그녀는 무기 사용법의 강사였고, 오래된 무기를 선호하는 것 같았다. 많은 쉐르'툴은 훨씬 더 파괴적인 무기가 이미 개발되어 있는데 왜 원시적인 발사체 무기를 사용하는지 알 수 없기 때문에 그녀가 어리석다고 믿었다. 그녀는 비평가들의 언사가 아무리 가혹해도 그녀의 방식을 포기하지 않았다. 왜냐하면 그녀는 전쟁의 오래된 방식을 보존하는것은 가치가 있다고 믿었기 때문이다. 많은 이야기들에서 그녀의 틀림없는 정확성을 말해준다. 아무리 과녁이 작고 거리가 멀어도 그녀의 힘찬 투창은 언제나 적중할 것이었다.
+
+그녀를 위해 창 쏘랄은 비길 데 없는 힘을 지닌 투척무기였다. 그녀는 신사냥의 이유에는 신경을 쓰지 않는 것 같았는데, 창만으로도 그녀에게 있어 이미 대단한 보상이었기 때문이다. 이 새로운 무기와 함께 아조롤이 에이알의 평평한 평야에 서서 우리 세계 너머의 어둠 속에 있는 목표물을 명중시키는 이야기가 펼쳐졌다. 그녀의 쏘랄과 그 사용자로부터 안전한 곳은 에이얄 어디에도 없었기 때문에 아조롤은 그녀가 신살자들 중 가장 힘센 이 중 한 명이라는 것을 증명했다.
+
+살아남은 기록으로 미루어 보아 그녀는 신사냥의 절정기에 살해된 신살자 중 한 명이었다. 창 쏘랄의 운명은 알 수 없다.]], "_t")
+t("Mightier than Gods: Uthkal", "신보다 강한 자들: 우쓰칼", "_t")
+t([[The death penalty did exist in Sher'tul society, but it was only ever used as a last resort. To deliver such a sentence, special executioners were employed. Uthkal was such an executioner, an expert in the use of a special halberd. Given the unique anatomy of the Sher'tul, executioners required extensive knowledge of how the Sher'tul body worked in order to provide the fastest and least painful death possible. Uthkal was often described as cold, calculating, but had a strange sense of mercy to him. The strokes of his halberd always delivered a sudden and painless death to those he executed.
+
+When the Godhunt came, Uthkal volunteered his services. He knew that the Gods had to be disposed of, but at the same time, he did not wish for them to suffer. For him, it was another execution. The halberd Thragusal was created for him, an executioner's weapon without any equal. It was designed in such a way that it would sever the very nerves of its victim, making cuts from its great blade painless.
+
+It was thought that Uthkal lingered over the corpses of the gods for a long time after the Godhunt ended, ensuring that they were truly dead and not suffering a prolonged, painful journey into oblivion.]], [[쉐르'툴 사회에도 사형제도가 존재했지만, 그것은 최후의 수단으로만 사용되었다. 그러한 형을 집행하기 위해 특별 집행관들이 고용되었다. 우쓰칼은 그런 처형자였고, 특수 할버드 사용의 전문가였다. 쉐르'툴의 독특한 해부학적 구조를 고려할 때, 사형 집행자들은 가능한 가장 빠르고 덜 고통스러운 죽음을 제공하기 위해 쉐르'툴의 몸이 어떻게 작동하는지에 대한 광범위한 지식을 필요로 했다. 우쓰칼은 종종 냉정하고 계산적인 것으로 묘사되었지만 그에게는 묘한 자비심이 있었다. 그가 내지른 할버드의 일격은 항상 처형된 이들에게 빠르고 고통없는 죽음을 가져다 주었다.
+
+신사냥이 시작되자 우쓰칼은 자원봉사를 시작 했다. 그는 신들을 처분해야 한다는 것은 알았지만 동시에 신들이 고통받는건 바라지 않았다. 그에게 있어 그것은 또 다른 처형이었다. 할버드 쓰라구샬은 그를 위해 만들어졌는데, 그 무기는 처형인을 위해 만들어진 무엇과도 비할 수 없는 강력한 무기였다. 쓰라구샬은 희생양의 작은 신경 마저도 절단할 수 있는 방식으로 설계되었고, 그것의 거대한 칼날을 통해 신들은 고통 없이 잘려나갔다.
+
+우쓰칼은 신사냥이 끝난 후 오랫동안 신들의 시체 위를 맴돌면서 그들이 진정으로 죽었고 신들이 망각 속으로의 길고 고통스러운 여정을 겪지 않았음을 확인했다고 생각되었다.]], "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
+t("Mightier than Gods: Yhurash", "신보다 강한 자들: 유라쉬", "_t")
+t([[Since the Sher'tul had mastered many forms of technology and supernatural techniques, they faced issues with a growing number of their citizens indulging in extremely eccentric entertainment. Physical sport quickly regained popularity among them, the most notable of which was gladiatorial combat. Yhurash the Undefeated was someone who loved the arena.
+
+Yhurash was a nobleman, someone who had seen every pleasure and form of entertainment that the Sher'tul's mighty civilisation had produced. He was often described as being absent minded and largely uninterested in the world around him, as well as lethargic to the extreme. When the arena made its return into Sher'tul society, he quickly became enthralled by it. It got to the point where he eventually gave up his old life and became a gladiator himself. From there, he fought his way up until he became the arena's greatest champion.
+
+When he first heard of the plan to kill the gods, he volunteered eagerly to become one of the Godslayers. He was granted the blade Cirarey, which beared a distinct resemblance to the famous blade he wielded in the arena. After he aided in the slaying of the gods, he willingly gave up Cirarey and returned to the arena, where it is speculated that he was one day killed by another competitor. It was later shown that the competitor had cheated by coating their blade in poison, leading to Yhurash's posthumous title of Yhurash the Undefeated.]], [[쉐르'툴 종족이 많은 형태의 기술과 초자연적인 기법을 터득했기 때문에, 그들은 극도로 기이한 오락에 빠져가는 시민의 수가 점점 더 많아 지면서 문제에 직면했다. 그 중 가장 눈에 띄는 것은 검투사 전투였다. 무패자 유라쉬는 경기장을 사랑하는 자였다.
+
+유라쉬는 귀족으로, 쉐르'툴의 강대한 문명이 만들어 낸 모든 즐거움과 오락거리를 본 사람이었다. 그는 종종 정신이 멍해 있고, 극도로 무기력할뿐만 아니라 주위 세계에 대해 대체로 관심이 없는 것으로 묘사되었다. 검투사 투기장이 쉐르'툴 사회로 돌아오자, 그는 곧 그것에 매료되었다. 결국 그는 여생을 포기하고 스스로 검투사가 되는 지경에 이르렀다. 거기서부터 그는 경기장에서 가장 위대한 챔피언이 될 때까지 싸워나갔다.
+
+그가 처음 신들을 죽이는 계획을 들은 후, 그는 열정적으로 자원해 신살자가 되고자 했다. 그는 검 시라레이를 받았는데 시라레이는 그가 경기장에 휘둘렀던 유명한 검과 무척이나 흡사했다. 후에 그는 신사냥이 끝난후, 그는 기꺼이 Cirarey을 포기하고 나중에 다른 경쟁자에게 살해당했을것이라 추측되는 경기장으로 되돌아갔다. 뒤늦게야 그의 경쟁자가 그의 칼날에 독을 바르는 부정을 저지른것이 밝혀졌다. 유라쉬는 사후 무패의 유라쉬라는 타이틀을 얻었다.]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/misc.lua"
 
+t("Message from the Assassin's Lord", "암살단장으로부터 온 전갈", "_t")
+t([[My dear %s,
+
+You have come a long way since the days we met. I am proud of you.
+I have #{italic}#"found"#{normal}# a strange glyph sequence that to me looks like some kind of code. I have all faith you can figure out its meaning and hopefully use it to further our cause.
+
+%s
+
+
+Good luck on your future #{italic}#acquisitions of properties#{normal}#.]], [[[친애하는 %s,
+
+우리가 만났던 날로부터 먼 길을 걸어 왔군. 네가 자랑스럽다.
+내가 이상한 문양의 배열을 #{italic}#"찾아"#{normal}# 냈다. 내 눈엔 무슨 암호처럼 보인다만. 네가 이게 무슨 의미인지 알아낼 수 있다고 믿고 있고, 바라건대 우리의 목적을 위해 잘 써먹길 바란다.
+
+%s
+
+
+네 앞길과 #{italic}#재산을 늘리는 일#{normal}#에 행운이 따르길 빈다.]], "tformat")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 t("Loremaster Greynot's Analysis of the Races - Chapter 12 - Krogs", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 12 - 크로그", "_t")
 t([[The krog are perhaps the youngest of the intelligent races of Maj'Eyal, only coming into existence recently. They claim that they were formerly ogres that have had their runes removed, somehow surviving having their runes replaced by a combination of natural infusions and drakes blood. The removal of their runes was orchestrated by the Ziguranth, who apparently decided action needed to be taken to prevent all ogres from being horribly and brutally killed as a result of the Spellhunt, leading to the creation of the krog. The official reasons given by the Ziguranth for this action was that the ogres were unfortunate victims of magic rather then perpetrators of it, and the Ziguranth were just looking to help to free them from the taint of the arcane.
@@ -3518,13 +3611,19 @@ t("The Home Which Is Not", "집같지 않은 우리 집", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-horrors/grids.lua"
 
+t("exit to reality", "현실로 나가는 출구", "entity name")
+t("Do you really want to exit the tome? You will not be able to come back.", "정말로 고서에서 나가겠습니까? 다시 돌아올 수 없습니다.", "_t")
 t("Forbidden Tome", "금지된 고서", "_t")
 t("Exit", "나가기", "_t")
 t("Stay", "그대로 있는다", "_t")
+t("previous chapter", "이전 장", "entity name")
 t("floor", "바닥", "entity type")
+t("next chapter", "다음 장", "entity name")
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
 t("book of binding", "봉인의 서", "entity name")
+t("#YELLOW#You hear a terrible shriek!", "#YELLOW#끔찍한 비명 소리가 들렸다!", "say")
+t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.  You feel the guardian of this place grow in power.", "#CRIMSON#끔찍한 비명 소리에 이어, 바스락거리는 펜질 소리가 들렸다.  이 장소의 수호자가 강해진 것 같다.", "say")
 
 
 ------------------------------------------------
@@ -3532,7 +3631,7 @@ section "game/dlcs/tome-cults/data/zones/ft-horrors/npcs.lua"
 
 t("The One That Writes", "글을 쓰는 자", "entity name")
 t("Even as this creature focuses its attention on you, many of its tentacles are preoccupied with writing letters onto sheets of strange, wispy parchment. With every word it finishes, the environment around you changes its shape, objects become more defined and patches of ground appear to be more detailed. You don't want to know the ending it has planned for your story.", "이 생명체가 당신에게 주의를 기울이고 있다고 해도, 대부분의 촉수들은 신기하게 생긴 양피지에 글을 쓰는 것에 집중하고 있습니다. 글자가 쓰여질 때마다 당신의 주위 환경이 급격히 변합니다. 다양한 사물들이 나타나고, 바닥 또한 더욱 정교해집니다. 이 생명체가 당신을 위해 준비한 결말은 무엇일지 절대로 알고 싶지 않을 것 같습니다.", "_t")
-t("and written off the story", "이야기를 끝내", "_t")
+t("and written off the story", "이게 이 이야기의 끝이었습니다.", "_t")
 
 
 ------------------------------------------------
@@ -3552,24 +3651,33 @@ t("The Place Which Does Not Exist", "존재하지 않는 장소", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/generatorMap.lua"
 
+t("shortcut to chapter \"%s\"", "\"%s\" 장으로 통하는 지름길", "tformat")
+t("[actual level %d, on branch %s]", "[실제로는 %s 분기의 %d구역]", "tformat", {2,1})
 t("Illusory Castle", "환상의 성", "_t")
+t("Something blocks the way to this chapter...", "뭔가가 이 장으로 가는 길을 막고 있다...", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
 
+t("exit to reality", "현실로 나가는 출구", "entity name")
+t("shortcut to chapter", "다른 장으로 통하는 지름길", "entity name")
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
 t("book of binding", "봉인의 서", "entity name")
+t("#YELLOW#As you close the book you feel the castle shaking.", "#YELLOW#책을 닫자 성이 흔들리는 게 느껴졌다.", "say")
+t("#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "#CRIMSON#책을 닫자 성이 또 흔들렸고 이번엔 좀 더... '실제' 같다는 느낌이 들었다.", "say")
 t("floor", "바닥", "entity subtype")
 t("locked chest", "잠긴 상자", "entity name")
 t("Locked Chest", "잠긴 상자", "_t")
+t("Open the chest now that the guardian golem is no more?", "수호자 골렘도 처치했으니 상자를 열겠습니까?", "_t")
 t("#GOLD#An object rolls from the chest!", "#GOLD#상자에서 어떤 물건이 튀어나왔다!", "logSeen")
 t("chest (opened)", "상자 (열림)", "_t")
 t("Leave", "떠난다", "_t")
 t("Open", "연다", "_t")
 t("glass", "유리", "entity subtype")
 t("throne", "왕좌", "entity type")
+t("glass throne", "유리 왕좌", "entity name")
 
 
 ------------------------------------------------
@@ -3579,10 +3687,10 @@ t("minotaur mindscrew", "미노타우르스 정신 파쇄자", "entity name")
 t("A belligerent minotaur with a frightening amount of mind powers, and armed with a hammer and a pack of huge rocks.", "무시무시한 정신력과 망치, 바위로 무장한 미노타우스입니다.", "_t")
 t("The Glass Golem", "유리 골렘", "entity name")
 t("A huge golem-like construct made entirely out of glass. It seems to be the custodian of the whole castle and likely the key to those nice looking chests around the throne.", "거대한 골렘같은 구조물로, 유리로만 제작되었습니다. 이 골렘은 성 전체의 관리자인 것 같으며, 왕좌 주변의 멋진 보물상자들의 열쇠가 될 것 같습니다.", "_t")
-t("and turned into glass", "유리로 변해", "_t")
-t("#AQUAMARINE#As the Glass Golem's life dwindles too low it teleports to its throne to heal!", "#AQUAMARINE#유리 골렘의 생명력이 너무 낮아지자, 왕좌로 순간이동해 생명력을 치유한다!", "say")
-t("#AQUAMARINE#As the Glass Golem's life dwindles too low it rushes toward its throne to heal!", "#AQUAMARINE#유리 골렘의 생명력이 너무 낮아지자, 왕좌로 달려가 생명력을 치유한다!", "say")
-t("#AQUAMARINE#As the Glass Golem's life dwindles too low it rushes toward its throne but hits a glass wall instead!", "#AQUAMARINE#유리 골렘의 생명력이 너무 낮아지자, 생명력을 치유하기 위해 왕좌로 달려갔지만 유리벽에 부딫혔다!", "say")
+t("and turned into glass", "그리고 그 시체는 유리로 변했습니다.", "_t")
+t("#AQUAMARINE#As the Glass Golem's life dwindles too low it teleports to its throne to heal!", "#AQUAMARINE#유리 골렘은 생명력이 너무 낮아지자, 왕좌로 순간이동해 생명력을 회복했다!", "say")
+t("#AQUAMARINE#As the Glass Golem's life dwindles too low it rushes toward its throne to heal!", "#AQUAMARINE#유리 골렘은 생명력이 너무 낮아지자, 왕좌로 달려가 생명력을 회복했다!", "say")
+t("#AQUAMARINE#As the Glass Golem's life dwindles too low it rushes toward its throne but hits a glass wall instead!", "#AQUAMARINE#유리 골렘은 생명력이 너무 낮아지자, 생명력을 회복하기 위해 왕좌로 달려갔지만 유리벽에 부딪혔다!", "say")
 
 
 ------------------------------------------------
@@ -3590,19 +3698,90 @@ section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/objects.lua"
 
 t("tattered paper scrap", "너덜너덜한 종잇조각", "entity name")
 t("A paper scrap, left by an adventurer.", "어떤 모험가가 남긴 종잇조각입니다.", "_t")
+t("Hardened Glass Sword", "경화된 유리 검", "entity name")
+t("shining sword", "빛나는 검", "_t")
 t(".", "없습니다.", "_t")
+t("Helm of Knowledge", "지식의 투구", "entity name")
+t("psionic crown", "정신파 왕관", "_t")
+t("A large crown, part metallic part glass that radiates with psionic powers.", "금속과 유리로 이루어진 커다란 왕관입니다. 정신파를 내뿜고 있습니다.", "_t")
+t("It can be used without being worn.", "장비하지 않은 상태에선 쓸 수 없다.", "_t")
+t("sense the presence of unique objects", "특이한 물체들이 있는지 감지한다", "_t")
+t("#GREY#You sense no unique items on the floor.", "#GREY#이 구역에는 특이한 물건이 없다.", "log")
+t("#GOLD#You sense %d unique item(s) on the floor.", "#GOLD#이 구역엔 특이한 물건이 %d 개 있는 게 느껴진다.", "log")
+t("#GREY#You sense no unique items on creatures.", "#GREY#이 구역엔 특이한 물건을 갖고 있는 생명체가 없다.", "log")
+t("#GOLD#You sense %d unique item(s) on creatures.", "#GOLD#이 구역엔 특이한 물건을 갖고 있는 생명체가 %d 체 있는 게 느껴진다.", "log")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/zone.lua"
 
+t("Nervous Energy", "불안한 에너지", "_t")
+t("Prosthetic Conscience", "인공적 양심", "_t")
+t("The Ends Of Invention", "발명의 끝", "_t")
+t("Irregular Apocalyse", "비정상적인 종말", "_t")
+t("No More Mr Nice Guy", "이제 안 봐준다", "_t")
+t("Profit Margin", "이익 마진", "_t")
+t("Trade Surplus", "무역 흑자", "_t")
+t("Flexible Demeanour", "유연한 태도", "_t")
+t("Just Read The Instructions", "시발 설명 좀 읽어", "_t")
+t("Of Course I Still Love You", "물론 난 널 여전히 사랑해", "_t")
+t("Limiting Factor", "제한 요인", "_t")
+t("Cargo Cult", "화물 신앙", "_t")
+t("Little Rascal", "꼬마 악동", "_t")
+t("So Much For Subtlety", "세세한 건 이제 됐어", "_t")
+t("Unfortunate Conflict Of Evidence", "불행한 증거 간 충돌", "_t")
+t("Youthful Indiscretion", "젊은 시절의 패기", "_t")
+t("Gunboat Diplomat", "무력 외교관", "_t")
+t("Zealot", "광신도", "_t")
+t("Kiss My Ass", "졷까", "_t")
+t("Prime Mover", "견인차", "_t")
+t("Just Testing", "테스트 중", "_t")
+t("Xenophobe", "이방인 혐오자", "_t")
+t("Very Little Gravitas Indeed", "진짜로 약간 진지할 뿐이야", "_t")
+t("What Are The Civilian Applications?", "민간 지원이란 무엇인가?", "_t")
+t("Congenital Optimist", "선천적 낙천가", "_t")
+t("Size Isn't Everything", "크기가 전부는 아니잖아요", "_t")
+t("Sweet and Full of Grace", "달콤하고 은혜로운", "_t")
+t("Different Tan", "남다른 태닝", "_t")
+t("Fate Amenable To Change", "변화를 위한 운명", "_t")
+t("Grey Area", "회색영역", "_t")
+t("It's Character Forming", "캐릭터 생성 중", "_t")
+t("Jaundiced Outlook", "비관적 전망", "_t")
+t("Problem Child", "문제아", "_t")
+t("Reasonable Excuse", "타당한 변명", "_t")
+t("Recent Convert", "새로 입교한 자", "_t")
+t("Tactical Grace", "전술적 우아함", "_t")
+t("Unacceptable Behaviour", "용납할 수 없는 행동", "_t")
+t("Steely Glint", "번뜩이는 강철", "_t")
+t("Highpoint", "절정부", "_t")
+t("Shoot Them Later", "나중에 처리하자", "_t")
+t("Attitude Adjuster", "예절 주입기", "_t")
+t("Killing Time", "킬링 타임", "_t")
+t("Frank Exchange Of Views", "솔직한 의견 교환", "_t")
+t("Death and Gravity", "죽음과 중력", "_t")
+t("Ethics Gradient", "윤리 변화도", "_t")
+t("Honest Mistake", "고의 아님", "_t")
+t("Quietly Confident", "소리 없는 자신감", "_t")
+t("Sleeper Service", "슬리퍼 서비스", "_t")
+t("Uninvited Guest", "초대받지 않은 손님", "_t")
+t("Use Psychology", "심리학을 이용해", "_t")
+t("What Is The Answer and Why?", "답과 그 근거를 서술하시오", "_t")
+t("Wisdom Like Silence", "침묵이 금이다", "_t")
+t("Zero Gravitas", "진지함 0", "_t")
+t("Serious Callers Only", "급할 때만 부르쇼", "_t")
+t("Not Invented Here", "우리가 개발한 게 최고야", "_t")
+t("Illusory Castle - %s", "환상의 성 - %s", "tformat")
+t("illusory beam endpoint", "환상 빔 종점", "_t")
+t("#%s#Welcome to chapter \"%s\"!", "#%s#\"%s\" 장에 어서옵쇼!", "log")
 t("Illusory Castle", "환상의 성", "_t")
+t("Strange, it seems the book only serves as an entry to an actual physical zone... somewhere.", "이상하다. 이 책은 그저 실존하는... 어딘가로 통하는 통로 정도의 역할만 하는 것 같다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-yaech/grids.lua"
 
 t("floor", "바닥", "entity type")
+t("exit to reality", "현실로 나가는 출구", "entity name")
 t("book", "책", "entity type")
 t("underground", "지하", "entity subtype")
 t("book of binding", "봉인의 서", "entity name")
@@ -3615,18 +3794,23 @@ section "game/dlcs/tome-cults/data/zones/ft-yaech/npcs.lua"
 
 t("The One That Writes", "글을 쓰는 자", "entity name")
 t("A strange creature sporting 7 formless tentacles each with some kind of pen attached. It is ever focused on its book and does not seem to notice you, yet you can feel its hatred and hostility towards you.", "7개의 흐물흐물한 촉수에 펜처럼 생긴 물체가 달려있는 괴상하게 생긴 생명체입니다. 책에 집중한 탓에, 아직 당신의 인기척을 느끼지 못했습니다. 하지만, 곧 당신을 휩쓸 증오와 적의를 느낄 수 있습니다.", "_t")
-t("and written off the story", "이야기를 끝내", "_t")
+t("and written off the story", "이게 이 이야기의 끝이었습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-yaech/zone.lua"
 
+t("--not done--", "--안 끝남--", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/godfeaster/grids.lua"
 
+t("portal to outside", "밖으로 나가는 차원문", "entity name")
 t("floor", "바닥", "entity type")
+t("maggot", "구더기", "entity subtype")
+t("maggot's nerval spine", "구더기의 신경중추", "entity name")
+t("%s (corrupted)", "%s (오염됨)", "tformat")
 
 
 ------------------------------------------------
@@ -3643,7 +3827,10 @@ t("This gritty adventurer saved you.", "투지로 가득 찬 모험가입니다.
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/godfeaster/objects.lua"
 
+t("log entry", "기록", "entity name")
 t("A paper scrap.", "종잇조각입니다.", "_t")
+t("strange piece of organic matter", "이상한 생체 조직", "entity name")
+t("Organic matter.", "생체 조직입니다.", "_t")
 
 
 ------------------------------------------------
@@ -3659,44 +3846,51 @@ t("digestive sack", "소화 자루", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/maggot/grids.lua"
 
+t("portal to Kroshkkur", "크로슈쿠르로 통하는 차원문", "entity name")
 t("floor", "바닥", "entity type")
+t("maggot", "구더기", "entity subtype")
+t("maggot's nerval spine", "구더기의 신경중추", "entity name")
+t("%s (dead)", "%s (죽음)", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/maggot/npcs.lua"
 
 t("The Spinal Cord", "뒤틀린 끈", "entity name")
-t("One of the centers of the nervous system of the Maggot, if severed the Maggot will surely wither and die.", "구더기의 신경 중추중 하나로, 절단해낸다면 구더기는 분명 시들어 죽게될 것입니다.", "_t")
+t("One of the centers of the nervous system of the Maggot, if severed the Maggot will surely wither and die.", "구더기의 신경 중추중 하나로, 잘라낸다면 구더기는 분명 쇠약해질 것이고, 곧 죽게 될 겁니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/maggot/objects.lua"
 
+t("log entry", "기록", "entity name")
 t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/maggot/zone.lua"
 
+t("The Maggot", "구더기", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/necromancers-ruins/grids.lua"
 
+t("ritual circle", "의식진", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/necromancers-ruins/npcs.lua"
 
 t("Chanting Necromancer", "성가를 부르는 강령술사", "entity name")
-t("A grim looking necromancer vampire. It seems to be draining the krogs of their life force for some nefarious purpose.", "암울한 분위기의 뱀파이어 강령술사입니다. 사악한 목적을 위해 크로그들의 생명력을 갈취하고 있는 것 같습니다.", "_t")
-t("Grand Necromancer", "대 강령술사", "entity name")
-t("You can hardly believe your eyes, standing in from of you as the grand master of the necromancers is a lich.", "당신은 두 눈을 믿기가 힘듭니다. 당신의 눈 앞에 강령술사, '주인'이 리치의 모습으로 서있습니다.", "_t")
-t("and raised to serve", "봉사를 위해 다시 일으켜졌다", "_t")
+t("A grim looking necromancer vampire. It seems to be draining the krogs of their life force for some nefarious purpose.", "암울한 분위기의 흡혈귀 강령술사입니다. 사악한 목적을 위해 크로그들의 생명력을 갈취하고 있는 것 같습니다.", "_t")
+t("Grand Necromancer", "위대한 강령술사", "entity name")
+t("You can hardly believe your eyes, standing in from of you as the grand master of the necromancers is a lich.", "당신은 두 눈을 믿을 수가 없습니다. 눈 앞에 궁극의 강령술사가 리치의 모습으로 서 있습니다.", "_t")
+t("and raised to serve", "그리고 그 시체는 봉사를 위해 다시 일으켜졌습니다.", "_t")
 t("giant", "거인", "entity type")
 t("krog", "크로그", "entity subtype")
 t("captive krog", "붙잡힌 크로그", "entity name")
-t("How this giant, this force of Nature has been captured and subdued is proof that the necromancers are not to be treated lightly.", "어떻게 이 거대한, 자연의 힘에 둘러싸인 거인이 붙잡히고 갇혀있게 되었는 지는 강령술사들의 위협을 가볍게 볼 것이 아니라는 증거입니다.", "_t")
+t("How this giant, this force of Nature has been captured and subdued is proof that the necromancers are not to be treated lightly.", "어떻게 이 거대한, 자연의 힘에 둘러싸인 거인이 붙잡혀 갇혀 있게 되었는지는 강령술사들의 위협을 가볍게 볼 것이 아니라는 증거입니다.", "_t")
 
 
 ------------------------------------------------
@@ -3710,46 +3904,60 @@ t("The bottom part of Telos' broken staff.", "부서진 텔로스 지팡이의 �
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/necromancers-ruins/zone.lua"
 
+t("Necromancers' Ruins", "강령술사들의 폐허", "_t")
 t("The cultists are about to sacrifice the woman. Stop them!", "광신도들이 여자를 희생시키려 합니다. 그들을 막아야 합니다!", "_t")
+t("Chanting", "성가", "_t")
+t("The foul stench of rotten ichor and undeath hangs over this place. There is necromancy at work here. As you listen more closely, you can hear anguished bellows coming from further inside the lair. There's a certain rough and deep timbre to the voice, sounding like a mix of a dragon's roar and a giant's rumblings. That could be none other than the Krogs you came to rescue. You do not know what experiments the necromancers are performing on them, but you're certain that you need to stop them before they succeed.", "이곳엔 부패한 이코르와 불사체의 역겨운 악취가 진동합니다. 이곳에선 강령술이 행해지고 있던 것입니다. 조금 더 귀를 기울이자, 이 소굴 안쪽 깊은 곳에서 고통에 찬 포효가 들렸습니다. 그 목소리는 꽤 특이했는데, 마치 용의 포효 소리와 거인의 웅웅거리는 목소리를 섞어 놓은 것 같습니다. 당신이 구출하러 온 크로그가 틀림없습니다. 강령술사들이 그들에게 어떤 실험을 하고 있었는지는 모르겠지만, 그 실험이 완수되기 전에 막아야 하는 건 확실합니다.", "_t")
+t("Captive Krogs", "붙잡힌 크로그들", "_t")
+t("The captive krogs are no longer protected in their time prisons are very vulnerable!", "붙잡힌 크로그들이 갇혀 있던 시간의 감옥이 사라졌습니다. 이제 무방비합니다!", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/occult-egress/grids.lua"
 
+t("Occult Egress", "비술의 출로", "entity name")
+t("The strange device looks inactive.", "이 기묘한 장치는 비활성 상태인 것으로 보입니다.", "_t")
+t("The strange device looks active.", "이 기묘한 장치는 활성 상태인 것으로 보입니다.", "_t")
+t("Strange Glyph", "이상한 문양", "entity name")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/occult-egress/objects.lua"
 
+t("log entry", "기록", "entity name")
 t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/occult-egress/zone.lua"
 
+t("Occult Egress", "비술의 출로", "_t")
+t("#CRIMSON#The ground shakes as you finish the glyph sequence %s%s%s%s!", "#CRIMSON#문양 배열을 %s%s%s%s로 완성하자 땅이 흔들린다!", "say")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/scourged-pits/npcs.lua"
 
 t("awoken tentacle tree", "깨어난 촉수 나무", "entity name")
-t("One of the tentacle tree has awakened!", "촉수 나무가 깨어났다!", "_t")
+t("One of the tentacle tree has awakened!", "촉수 나무 중 하나가 깨어났다!", "_t")
 t("dragon", "용", "entity type")
 t("scourge", "재앙", "entity subtype")
 t("Kroltar the Scourge", "재앙의 크롤타", "entity name")
-t("Kroltar, the mightiest fire wyrm to have ever walked Eyal. It was said that a group of dwarves had slain him, but something has taken up residence in the once proud creature's body, reanimating it into a twisted new lifeform.", "크롤타, 최강의 화룡은 한 때 에이알을 거닐었습니다. 드워프 군대가 그를 무찔렀다고 알려져있지만, 무엇인가가 한 때 위대했던 용의 유해에 깃들게 되어 뒤틀려진 생명의 힘으로 다시 일어서게 되었습니다.", "_t")
-t("and fed to the corrupt writhing tentacles", "뒤틀린 촉수에 먹혀", "_t")
+t("Kroltar, the mightiest fire wyrm to have ever walked Eyal. It was said that a group of dwarves had slain him, but something has taken up residence in the once proud creature's body, reanimating it into a twisted new lifeform.", "최강의 화룡인 크롤타는 한 때 에이알을 거닐었습니다. 드워프 군대가 그를 무찔렀다고 알려져 있지만, 무언가가 한때 위대했던 용의 유해에 깃들게 되어 뒤틀려진 형상으로 새롭게, 다시 일어서게 되었습니다.", "_t")
+t("and fed to the corrupt writhing tentacles", "그리고 그 시체는 뒤틀린 촉수들에게 먹혔습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/scourged-pits/objects.lua"
 
+t("page of a logbook", "기록장의 한 페이지", "entity name")
 t("A paper scrap.", "종잇조각입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/scourged-pits/zone.lua"
 
+t("Scourged Pits", "재앙의 구덩이", "_t")
 t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#나무 중 하나가 잠시 흔들리더니 깨어났다!", "logSeen")
 
 
@@ -3758,6 +3966,7 @@ section "game/dlcs/tome-cults/data/zones/test/grids.lua"
 
 t("door", "문", "entity name")
 t("wall", "벽", "entity type")
+t("statue", "석상", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("ancient", "고대", "entity subtype")
 t("floor", "바닥", "entity type")
@@ -3790,6 +3999,7 @@ t("Night's Star", "밤길의 별", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/test/zone.lua"
 
+t("test", "테스트", "_t")
 
 
 ------------------------------------------------
@@ -3797,10 +4007,13 @@ section "game/dlcs/tome-cults/data/zones/town-kroshkkur/grids.lua"
 
 t("door", "문", "entity name")
 t("wall", "벽", "entity type")
+t("statue", "석상", "entity name")
+t("teleporter to the surface", "지상으로 통하는 순간이동기", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("ancient", "고대", "entity subtype")
 t("floor", "바닥", "entity type")
+t("portal to the Maggot", "구더기에게로 통하는 차원문", "entity name")
 
 
 ------------------------------------------------
@@ -3813,7 +4026,7 @@ t("A drem cultist.", "드렘 광신도입니다.", "_t")
 t("drem seeker of knowledge", "드렘 지식의 구도자", "entity name")
 t("A drem in long red robes, minding its own business.", "길고 붉은색의 로브를 입은 드렘으로, 자신의 일에만 골몰하고 있습니다.", "_t")
 t("disfigured creature", "흉측한 존재", "entity name")
-t("A vaguely humanoid shape, wandering around to some unknown goals.", "인간의 모습을 조금 닮은 존재로 알려지지 않은 목표를 향해 방황하고 있습니다.", "_t")
+t("A vaguely humanoid shape, wandering around to some unknown goals.", "인간의 모습을 조금 닮은 존재로, 알 수 없는 목표를 향해 방황하고 있습니다.", "_t")
 t("That Which Teaches History", "역사를 가르치는 존재", "entity name")
 t("This creature manages the sanctuary's library.", "이 존재는 성역의 도서관을 관리하고 있습니다.", "_t")
 t("The Sightless Acolyte", "시각을 잃은 견습생", "entity name")
@@ -3831,6 +4044,7 @@ t("This creature sells tools for the sanctuary.", "이 존재는 성역을 위�
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/town-kroshkkur/objects.lua"
 
+t("kroshkkur", "크로슈쿠르", "entity subtype")
 
 
 ------------------------------------------------
@@ -3848,6 +4062,8 @@ t("Night's Star", "밤길의 별", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/town-kroshkkur/zone.lua"
 
+t("Kroshkkur, the Hidden Sanctuary", "숨겨진 성역, 크로슈쿠르", "_t")
+t("The Maggot", "구더기", "_t")
 
 
 ------------------------------------------------
@@ -3865,36 +4081,171 @@ t("Forbidden Cults", "금지된 교단", "init.lua long_name")
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/intro-cults.lua"
 
+t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "어서 오십시오, 테일즈 오브 마즈'에이알 - #CRIMSON#금지된 교단", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/intro-krog.lua"
 
+t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "어서 오십시오, 테일즈 오브 마즈'에이알 - #CRIMSON#금지된 교단", "_t")
+t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
+
+You are a Krog, a former ogre stripped of its runes by the Ziguranth. Ogres cannot live without runes, yet you a Krog have been kept alive by the powers of nature coursing through your body. 
+
+All Krogs are infused with anti-magic forces as a result of the changes made to their bodies by the Ziguranth. While much of Maj'Eyal shuns the arcane, there is still those who practice it, and you would like nothing more then to eradicate them from the world.
+
+You have come to an old ruin named Kor'Pul on a mission to eliminate the foulest of arcane creations: undeads.
+]], [[어서 오십시오, #LIGHT_GREEN#@name@#WHITE#.
+
+당신은 지구랏에게 자신의 룬을 제거당한 오우거인, 크로그입니다. 오우거들은 룬 없이는 살 수가 없지만, 크로그인 당신은 몸에 흐르는 자연의 힘으로 살아남을 수 있습니다. 
+
+지구랏의 처치를 거쳤기 때문에, 모든 크로그들의 몸에는 반마법의 힘이 깃들어 있습니다. 마즈'에이알에 사는 대부분의 사람들은 마법을 꺼리지만 여전히 그걸 수련하는 자들이 있고, 당신은 그들을 이 세상에서 완전히 뿌리뽑아 버리는 것만 생각하고 있습니다.
+
+당신은 마법의 창조물 중에서도 가장 역겨운 부류인 언데드들을 말살하는 임무를 받고, 코르'풀이라 불리는 오래된 폐허로 왔습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/unlock-cosmetic_class_alchemist_glass_golem.lua"
 
+t("New Class Option: #LIGHT_GREEN#Glass Golem", "새로운 직업 옵션: #LIGHT_GREEN#유리 골렘", "_t")
+t([[You have defeated the Glass Golem with your Alchemist and took some time to figure how it was built.
+
+You may now create alchemist characters with a glass golem instead of a golem.
+Glass Golems look awesome and can eventually learn Glass Splinter talent to disrupt and damage their foes.
+]], [[당신은 연금술사 캐릭터로 유리 골렘을 쓰러뜨렸고 그게 어떻게 만들어졌는지 조사했습니다.
+
+이제부터 골렘 대신에 유리 골렘을 쓸 수 있는 연금술사 캐릭터를 생성할 수 있습니다.
+유리 골렘은 생긴 게 멋있고 레벨이 오르면 유리 파편 기술도 배울 수 있습니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/unlock-demented_cultist_entropy.lua"
 
+t("New Class: #LIGHT_GREEN#Cultist of Entropy (Demented)", "새로운 직업: #LIGHT_GREEN#엔트로피 광신도 (광인)", "_t")
+t([[Entropy is a force of chaos, always striving to create more disorder in the universe.
+Most say it is impossible to harness and use it, but they are wrong.
+A long time ago a creature came to Eyal and took pity on a group of refugees, teaching them powers to manipulate entropy itself.
+
+You have read a tome depicting the first teachings of entropy magic and can now create new characters with the #LIGHT_GREEN#Cultist of Entropy class#WHITE#.
+
+Cultists of Entropy are spellcasters, ranged attackers using magic.
+Class features:#YELLOW#
+- Take entropic backlash for healing and dealing damage but learn to use that backlash as an attack
+- Rip apart spacetime to create rifts
+- Unravel the very existence of your foes, calling forth terrible foes upon them
+- Manipulate the threads of prophecy#WHITE#
+
+Cultist of Entropy use "insanity" to power their special abilities.
+Insanity is a measure of their own dementia and makes them more and more chaotic.
+]], [[엔트로피는 혼돈의 힘이며, 끊임없이 이 우주를 더욱더 무질서하게 만들려고 합니다.
+대부분의 사람들은 이것을 제어하고 이용하는 것은 불가능하다고 하지만, 틀렸습니다.
+아주 오래 전에 에이알에 왔던 어떤 존재는 한 무리의 피난민들을 불쌍히 여겼고, 그들에게 엔트로피 그 자체를 다룰 수 있는 힘을 가르쳤습니다.
+
+당신은 엔트로피의 마법을 처음 가르쳤을 때를 묘사하는 내용의 고서를 읽었고, 따라서 이제부터 #LIGHT_GREEN#엔트로피 광신도 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+
+엔트로피 광신도들은 마법으로 멀리서 공격하는 마법사들입니다.
+직업 특징:#YELLOW#
+- 회복을 하거나 피해를 줄 때 엔트로피 반발을 받는다. 하지만 그 반발을 공격에 응용할 수 있다.
+- 균열을 만들어내 시공간을 찢어 가른다.
+- 적들의 존재 자체를 해체하여, 강력한 존재를 소환한다.
+- 적들에게 불길한 예언을 한다.#WHITE#
+
+엔트로피 광신도들은 "광기" 를 원천력으로 삼습니다.
+광기는 그들의 정신 상태를 의미하며 그들의 힘을 점점 더 종잡을 수 없게 만듭니다.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/unlock-race_drem.lua"
 
+t("New Race: #LIGHT_GREEN#Drem", "새로운 종족: #LIGHT_GREEN#드렘", "_t")
+t([[Drems are a mutated offshoot of the dwarven race.
+Long ago the mysterious machines that seem to be the source of dwarves malfunctioned and started to create all kind of monstrous beings, including Drems.
+Something in Kroshkkur seems to try to #{italic}#fix#{normal}# them by making them sentient.
+
+You have learned the origins of Drems and can now create new #LIGHT_GREEN#Drem#WHITE# characters!
+
+Race features:#YELLOW#
+- Enter a Frenzy to eliminate cooldown on talents
+- Bleed your black blood on your attackers
+- Learn to summon a horror!
+#WHITE#
+]], [[드렘은 드워프 종족으로부터 변이되어 갈라져 나온 종족입니다.
+오랜 옛날에 드워프들을 만들어낸 것 같은 신비로운 기계가 오작동하였고, 온갖 괴물같은 것들을 만들어내기 시작했습니다. 그 중에 드렘도 있었지요.
+크로슈쿠르의 무언가가 그들이 지성을 갖도록 #{italic}#고쳐#{normal}# 보려 시도한 것 같습니다.
+
+당신은 드렘의 기원에 대해 알게 되었고 따라서 이제부터 #LIGHT_GREEN#드렘#WHITE# 캐릭터를 생성할 수 있습니다!
+
+종족 특징:#YELLOW#
+- 광분 상태로 돌입하여 기술들의 재사용 대기시간을 무시한다.
+- 공격한 자들이 검은 피를 흘리게 만든다.
+- 공포를 소환하는 법을 배운다!
+#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/unlock-race_krog.lua"
 
+t("New Race: #LIGHT_GREEN#Krog", "새로운 종족: #LIGHT_GREEN#크로그", "_t")
+t([[Ogres were created long ago by terrible ways as elite fighters in the allure wars. Imbued from birth with runes their bodies can not survive without the arcane forces powering them.
+
+But while they are magic users Ziguranth took pity on them for they had not chosen their fate, it was forced upon them.
+After lots of painful, but required, experiments Zigur was finally able to create an offshoot of the ogre race by replacing their runes and arcane forces with drake blood and nature.
+Ever since the Krogs as they are called have been mighty stalwards of nature and staunch protectors of Zigur. Elite fighters capable of dual wielding any one handed weapons to crush all foes of Nature!
+
+You have rescued a group of them from the undead flith can now create new #LIGHT_GREEN#Krog#WHITE# characters!
+
+Race features:#YELLOW#
+- Their wrath is so terrible they can stun their foes with any attacks
+- Drake infused blood that lets them resist the elements themselves
+- A mastery of infusions like no others
+- A warborn race, able to dual wield any one handed weapons and survive situations that would kill most others
+#WHITE#
+]], [[오우거들은 옛날 매혹의 전쟁 시기에 끔찍한 방법으로 만들어져, 정예 전사로 이용되었습니다. 태어날 때부터 룬을 사용하기 때문에 그들의 몸은 마법의 힘이 없다면 살아갈 수가 없습니다.
+
+그러나 오우거들은 자신들의 선택으로 룬을 사용한 것이 아니라, 강제된 것이었기 때문에 지구랏 추종자들은 그들이 마법 사용자임에도 그들을 불쌍히 여겼습니다.
+고통스럽기 그지없는, 하지만 꼭 필요했던 실험들을 수없이 수행한 결과, 지구르에선 마침내 오우거들의 룬과 마법의 힘을 용의 피와 자연의 힘으로 대체하여, 오우거의 자매 종족이라 할 수 있는 것을 만들어낼 수 있게 되었습니다.
+그들은 크로그라는 이름을 받았고, 그때부터 강력한 자연의 추종자이자 지구르의 충실한 보호자들이 되었습니다. 양손에 무기를 하나씩 들고 자연의 적이라면 무엇이든지 쳐부수는 정예 전사들이 탄생한 것입니다!
+
+당신은 그런 크로그들을 쓰레기 같은 언데드들에게서 구출했고, 따라서 이제부터 #LIGHT_GREEN#크로그#WHITE# 캐릭터를 생성할 수 있습니다!
+
+종족 특징:#YELLOW#
+- 무시무시한 분노를 선보여, 그 어떤 공격으로든 적들을 기절에 빠뜨릴 수 있다.
+- 몸에 섞인 용의 피로 각종 속성 저항을 얻음
+- 다른 이들과 비교를 불허하는 주입물 숙련도
+- 전쟁통에 난 종족이므로 어떤 한손 무기든지 양손에 하나씩 들 수 있고, 다른 이들이라면 죽었을 상황에서도 살아남을 수 있다.
+#WHITE#
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/unlock-wyrmic_scourge.lua"
 
+t("New Talent Category: #LIGHT_GREEN#Scourge Drake", "새로운 기술 계열: #LIGHT_GREEN#재앙 드레이크", "_t")
+t([[Drakes are forces of Nature, the ultimate apex predators. But even they can be corrupted beyond hope.
+You have encountered the horror that came out of Kroltar, the mightiest wyrm, and vanquished it.
+
+You can now master Scourge Drake magic and create new Wyrmic characters that can learn the #LIGHT_GREEN#Scourge Drake talents#WHITE#.
+
+Talents:
+- #YELLOW#Tentacled Wings: #WHITE#Project slimy tentacles to pull your foes to you
+- #YELLOW#Decaying Grounds: #WHITE#Cover the ground in blighted energies, increasing cooldowns
+- #YELLOW#Augment Despair: #WHITE#Hit where it hurts, doing more damage based on detrimental effects
+- #YELLOW#Maggot Breath: #WHITE#Breath maggots to slow down your foes
+]], [[드레이크들은 자연의 힘 그 자체이며, 궁극의 최상위 포식자들입니다. 하지만 그런 그들조차도 절망적인 지경까지 오염될 수 있습니다.
+당신은 가장 강력한 용인 크롤타에게서 나온 공포를 마주했고, 무찔렀습니다.
+
+따라서 지금부터 새로 생성된 용인 캐릭터들은 #LIGHT_GREEN#재앙 드레이크 기술#WHITE#을 배울 수 있고, 그들의 마법을 수련할 수 있습니다.
+
+속한 기술들:
+- #YELLOW#촉수 날개: #WHITE#끈적한 점액 촉수들로 적들을 눈앞으로 끌고 옵니다.
+- #YELLOW#부패하는 대지: #WHITE#황폐의 에너지로 땅을 뒤덮어, 재사용 대기 시간을 늘립니다.
+- #YELLOW#깊어지는 절망: #WHITE#적들의 상처를 노려 공격하여, 부정적인 효과들이 많을수록 큰 피해를 가합니다.
+- #YELLOW#구더기 숨결: #WHITE#적들을 느리게 만드는 구더기들을 뿜어냅니다.
+]], "_t")
 
 
 ------------------------------------------------

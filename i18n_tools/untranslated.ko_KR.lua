@@ -475,15 +475,6 @@ t("", "", "log")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/timed_effects.lua"
--- 4 entries
-t("#Target#'s surge ends.", "#Target#'s surge ends.", "_t")
-t("Gain %d%% resistance and %d%% affinity to acid.", "Gain %d%% resistance and %d%% affinity to acid.", "tformat")
-t("+Demonic Cut", "+Demonic Cut", "_t")
-t("-Demonic Cut", "-Demonic Cut", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Object.lua"
 -- 1 entries
 t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
@@ -541,24 +532,6 @@ t("Sanctuary of Horrors", "Sanctuary of Horrors", "faction name")
 t("The Tribe", "The Tribe", "faction name")
 t("Food", "Food", "faction name")
 t("Things from above", "Things from above", "faction name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/encounters/maj-eyal.lua"
--- 1 entries
-t("Occult Egress", "Occult Egress", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/encounters/tar-eyal.lua"
--- 1 entries
-t("Occult Egress", "Occult Egress", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/encounters/var-eyal.lua"
--- 1 entries
-t("Occult Egress", "Occult Egress", "entity name")
 
 
 ------------------------------------------------
@@ -656,10 +629,9 @@ t("open godfeaster door", "open godfeaster door", "entity name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/maggot.lua"
--- 4 entries
+-- 3 entries
 t("maggot wall", "maggot wall", "entity name")
 t("maggot door", "maggot door", "entity name")
-t("maggot", "maggot", "entity subtype")
 t("open maggot door", "open maggot door", "entity name")
 
 
@@ -722,14 +694,13 @@ t("assault the mind of a foe to utterly dominate it", "assault the mind of a foe
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
--- 9 entries
+-- 8 entries
 t("#PURPLE#A Font of Sacrifice appears nearby!", "#PURPLE#A Font of Sacrifice appears nearby!", "_t")
 t("You feel this portal leads to a place from where you are likely to not come back.", "You feel this portal leads to a place from where you are likely to not come back.", "_t")
 t("Save your life and stay!", "Save your life and stay!", "_t")
 t("#PURPLE#A portal appears inside the Occult Egress!", "#PURPLE#A portal appears inside the Occult Egress!", "_t")
 t("#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "_t")
 t("splattered remains of an adventurer", "splattered remains of an adventurer", "_t")
-t("log entry", "log entry", "_t")
 t("#PURPLE#An item appears on the egress!", "#PURPLE#An item appears on the egress!", "_t")
 t("#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "_t")
 
@@ -983,101 +954,8 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/lore/kroshkkur.lua"
--- 14 entries
-t("Mightier than Gods: Oslrey", "Mightier than Gods: Oslrey", "_t")
-t([[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
-
-He too was asked to become a Godslayer, for his prowess with his staff was the stuff of legends. He refused politely, but again and again, the requests for his assistance kept coming. After watching the land he wandered burn around him, he finally chose to take a stand against the Gods of Eyal. He was presented with Ythral, a uniquely made staff with a cresent blade on one end.
-
-When he fought against the Gods, he acted completely without passion. His staff hammered them down, sliced them open and slaughtered them. He killed without mercy and without malice. When the last of the gods were dead, he returned to his wanderings, carrying Ythral and his old iron staff with him.]], [[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
-
-He too was asked to become a Godslayer, for his prowess with his staff was the stuff of legends. He refused politely, but again and again, the requests for his assistance kept coming. After watching the land he wandered burn around him, he finally chose to take a stand against the Gods of Eyal. He was presented with Ythral, a uniquely made staff with a cresent blade on one end.
-
-When he fought against the Gods, he acted completely without passion. His staff hammered them down, sliced them open and slaughtered them. He killed without mercy and without malice. When the last of the gods were dead, he returned to his wanderings, carrying Ythral and his old iron staff with him.]], "_t")
-t("Mightier than Gods: Murtas", "Mightier than Gods: Murtas", "_t")
-t([[Murtas the Unfathomable came from a famous line of Sher'tul warriors, dating back to the days of the race when they had barely risen out of barbarism. As such, she was a prominent military leader, having decades of experience and prestige behind her. Her expertise in battle tactics proved to be invaluable numerous times to the Sher'tul. She was often described as a calculating and inscrutable individual, someone who did not share her thoughts openly.
-
-When the Godhunt was under way, she was the one who supplied the finest smiths she could in order to produce the weapons necessary to deliver a killing blow to a God. She too was provided with a Godslayer, the blade Hyturac. Without her smiths and her expertise in the forging of arms, the weapons could not have possibly been made.
-
-From there, she outwitted the Gods numerous times, springing ambushes and herding them to the exact locations she wanted them. The Gods, for all of their power, lacked the cunning to match Murtas' tactics, leading to them being cornered and slaughtered like helpless animals.]], [[Murtas the Unfathomable came from a famous line of Sher'tul warriors, dating back to the days of the race when they had barely risen out of barbarism. As such, she was a prominent military leader, having decades of experience and prestige behind her. Her expertise in battle tactics proved to be invaluable numerous times to the Sher'tul. She was often described as a calculating and inscrutable individual, someone who did not share her thoughts openly.
-
-When the Godhunt was under way, she was the one who supplied the finest smiths she could in order to produce the weapons necessary to deliver a killing blow to a God. She too was provided with a Godslayer, the blade Hyturac. Without her smiths and her expertise in the forging of arms, the weapons could not have possibly been made.
-
-From there, she outwitted the Gods numerous times, springing ambushes and herding them to the exact locations she wanted them. The Gods, for all of their power, lacked the cunning to match Murtas' tactics, leading to them being cornered and slaughtered like helpless animals.]], "_t")
-t("Mightier than Gods: Harqel", "Mightier than Gods: Harqel", "_t")
-t([[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placcid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
-
-Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He beared everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
-
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placcid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
-
-Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He beared everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
-
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], "_t")
-t("Mightier than Gods: Frosat", "Mightier than Gods: Frosat", "_t")
-t([[The Sher'Tul were a people who possessed many exceptional individuals. The tale of Frosat is a mundane one compared to the other Godslayers. He was a scholar who spent most of his time reading, researching and teaching. The Library of Frosat was a fabled place of learning where he kept his large archives of knowledge he had accumulated over his life. Perhaps what was most notable about his career was his research into the nature of antropic power, the energy which only the Gods of Eyal possessed.
-
-He was a consultant on the creation of the Godslayer weapons. His understanding of antropic power was unparalleled among his peers, so his advice proved invaluable to the mighty weaponsmiths who forged these instruments. There were going to be eight Godslayers at first, but he asked for one more weapon to be made. He wished to test the fruit of his research himself, so the staff Frosatur was made and named in his honour.
-
-His fate after the Godhunt is unknown. Some sources speculate that he still remains in his library today, waiting for a student worthy of learning the full contents of his archives.]], [[The Sher'Tul were a people who possessed many exceptional individuals. The tale of Frosat is a mundane one compared to the other Godslayers. He was a scholar who spent most of his time reading, researching and teaching. The Library of Frosat was a fabled place of learning where he kept his large archives of knowledge he had accumulated over his life. Perhaps what was most notable about his career was his research into the nature of antropic power, the energy which only the Gods of Eyal possessed.
-
-He was a consultant on the creation of the Godslayer weapons. His understanding of antropic power was unparalleled among his peers, so his advice proved invaluable to the mighty weaponsmiths who forged these instruments. There were going to be eight Godslayers at first, but he asked for one more weapon to be made. He wished to test the fruit of his research himself, so the staff Frosatur was made and named in his honour.
-
-His fate after the Godhunt is unknown. Some sources speculate that he still remains in his library today, waiting for a student worthy of learning the full contents of his archives.]], "_t")
-t("Mightier than Gods: Azorol", "Mightier than Gods: Azorol", "_t")
-t([[Azorol was the great marksman. She was an instructor in the use of weapons and seemed to favour an antiquated approach to their use. Many Sher'tul believed her to be foolish, for they could not see why she would use primitive projectile weapons when far more devastating weaponry had already been developed. She did not give up her ways, however harsh her critics were, for she believed there was value in preserving the old ways of war. Many tales tell of her unerring accuracy. No matter how small the target and how far the distance, her mighty spear throws would always land. 
-
-For her, the spear Thoral was made, a throwing weapon of unparalleled might. She seemed to care little for the reasons behind the Godhunt, for the spear alone was a great enough prize for her. With this new weapon, there were tales of Azorol striking targets in the darkness beyond our world while standing on the flat plains of Eyal. She proved to be one of the mightiest of the Godslayers, for there was nowhere on Eyal which was safe from Thoral and its user.
-
-Judging by surviving records, she was one of the Godslayers who was killed during the climax of the Godhunt. The fate of the spear Thoral is unknown.]], [[Azorol was the great marksman. She was an instructor in the use of weapons and seemed to favour an antiquated approach to their use. Many Sher'tul believed her to be foolish, for they could not see why she would use primitive projectile weapons when far more devastating weaponry had already been developed. She did not give up her ways, however harsh her critics were, for she believed there was value in preserving the old ways of war. Many tales tell of her unerring accuracy. No matter how small the target and how far the distance, her mighty spear throws would always land. 
-
-For her, the spear Thoral was made, a throwing weapon of unparalleled might. She seemed to care little for the reasons behind the Godhunt, for the spear alone was a great enough prize for her. With this new weapon, there were tales of Azorol striking targets in the darkness beyond our world while standing on the flat plains of Eyal. She proved to be one of the mightiest of the Godslayers, for there was nowhere on Eyal which was safe from Thoral and its user.
-
-Judging by surviving records, she was one of the Godslayers who was killed during the climax of the Godhunt. The fate of the spear Thoral is unknown.]], "_t")
-t("Mightier than Gods: Uthkal", "Mightier than Gods: Uthkal", "_t")
-t([[The death penalty did exist in Sher'tul society, but it was only ever used as a last resort. To deliver such a sentence, special executioners were employed. Uthkal was such an executioner, an expert in the use of a special halberd. Given the unique anatomy of the Sher'tul, executioners required extensive knowledge of how the Sher'tul body worked in order to provide the fastest and least painful death possible. Uthkal was often described as cold, calculating, but had a strange sense of mercy to him. The strokes of his halberd always delivered a sudden and painless death to those he executed.
-
-When the Godhunt came, Uthkal volunteered his services. He knew that the Gods had to be disposed of, but at the same time, he did not wish for them to suffer. For him, it was another execution. The halberd Thragusal was created for him, an executioner's weapon without any equal. It was designed in such a way that it would sever the very nerves of its victim, making cuts from its great blade painless.
-
-It was thought that Uthkal lingered over the corpses of the gods for a long time after the Godhunt ended, ensuring that they were truly dead and not suffering a prolonged, painful journey into oblivion.]], [[The death penalty did exist in Sher'tul society, but it was only ever used as a last resort. To deliver such a sentence, special executioners were employed. Uthkal was such an executioner, an expert in the use of a special halberd. Given the unique anatomy of the Sher'tul, executioners required extensive knowledge of how the Sher'tul body worked in order to provide the fastest and least painful death possible. Uthkal was often described as cold, calculating, but had a strange sense of mercy to him. The strokes of his halberd always delivered a sudden and painless death to those he executed.
-
-When the Godhunt came, Uthkal volunteered his services. He knew that the Gods had to be disposed of, but at the same time, he did not wish for them to suffer. For him, it was another execution. The halberd Thragusal was created for him, an executioner's weapon without any equal. It was designed in such a way that it would sever the very nerves of its victim, making cuts from its great blade painless.
-
-It was thought that Uthkal lingered over the corpses of the gods for a long time after the Godhunt ended, ensuring that they were truly dead and not suffering a prolonged, painful journey into oblivion.]], "_t")
-t("Mightier than Gods: Yhurash", "Mightier than Gods: Yhurash", "_t")
-t([[Since the Sher'tul had mastered many forms of technology and supernatural techniques, they faced issues with a growing number of their citizens indulging in extremely eccentric entertainment. Physical sport quickly regained popularity among them, the most notable of which was gladiatorial combat. Yhurash the Undefeated was someone who loved the arena.
-
-Yhurash was a nobleman, someone who had seen every pleasure and form of entertainment that the Sher'tul's mighty civilisation had produced. He was often described as being absent minded and largely uninterested in the world around him, as well as lethargic to the extreme. When the arena made its return into Sher'tul society, he quickly became enthralled by it. It got to the point where he eventually gave up his old life and became a gladiator himself. From there, he fought his way up until he became the arena's greatest champion.
-
-When he first heard of the plan to kill the gods, he volunteered eagerly to become one of the Godslayers. He was granted the blade Cirarey, which beared a distinct resemblance to the famous blade he wielded in the arena. After he aided in the slaying of the gods, he willingly gave up Cirarey and returned to the arena, where it is speculated that he was one day killed by another competitor. It was later shown that the competitor had cheated by coating their blade in poison, leading to Yhurash's posthumous title of Yhurash the Undefeated.]], [[Since the Sher'tul had mastered many forms of technology and supernatural techniques, they faced issues with a growing number of their citizens indulging in extremely eccentric entertainment. Physical sport quickly regained popularity among them, the most notable of which was gladiatorial combat. Yhurash the Undefeated was someone who loved the arena.
-
-Yhurash was a nobleman, someone who had seen every pleasure and form of entertainment that the Sher'tul's mighty civilisation had produced. He was often described as being absent minded and largely uninterested in the world around him, as well as lethargic to the extreme. When the arena made its return into Sher'tul society, he quickly became enthralled by it. It got to the point where he eventually gave up his old life and became a gladiator himself. From there, he fought his way up until he became the arena's greatest champion.
-
-When he first heard of the plan to kill the gods, he volunteered eagerly to become one of the Godslayers. He was granted the blade Cirarey, which beared a distinct resemblance to the famous blade he wielded in the arena. After he aided in the slaying of the gods, he willingly gave up Cirarey and returned to the arena, where it is speculated that he was one day killed by another competitor. It was later shown that the competitor had cheated by coating their blade in poison, leading to Yhurash's posthumous title of Yhurash the Undefeated.]], "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/misc.lua"
--- 17 entries
-t("Message from the Assassin's Lord", "Message from the Assassin's Lord", "_t")
-t([[My dear %s,
-
-You have come a long way since the days we met. I am proud of you.
-I have #{italic}#"found"#{normal}# a strange glyph sequence that to me looks like some kind of code. I have all faith you can figure out its meaning and hopefully use it to further our cause.
-
-%s
-
-
-Good luck on your future #{italic}#acquisitions of properties#{normal}#.]], [[My dear %s,
-
-You have come a long way since the days we met. I am proud of you.
-I have #{italic}#"found"#{normal}# a strange glyph sequence that to me looks like some kind of code. I have all faith you can figure out its meaning and hopefully use it to further our cause.
-
-%s
-
-
-Good luck on your future #{italic}#acquisitions of properties#{normal}#.]], "tformat")
+-- 15 entries
 t("Lessons of Inevitability - Introduction", "Lessons of Inevitability - Introduction", "_t")
 t([[In the Age of Dusk, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, disease was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.
 
@@ -1356,252 +1234,9 @@ t("Save Kroshkkur", "Save Kroshkkur", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-horrors/grids.lua"
--- 6 entries
-t("exit to reality", "exit to reality", "entity name")
-t("Do you really want to exit the tome? You will not be able to come back.", "Do you really want to exit the tome? You will not be able to come back.", "_t")
-t("previous chapter", "previous chapter", "entity name")
-t("next chapter", "next chapter", "entity name")
-t("#YELLOW#You hear a terrible shriek!", "#YELLOW#You hear a terrible shriek!", "say")
-t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.  You feel the guardian of this place grow in power.", "#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and papers.  You feel the guardian of this place grow in power.", "say")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua"
 -- 1 entries
 t("..", "..", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/generatorMap.lua"
--- 3 entries
-t("shortcut to chapter \"%s\"", "shortcut to chapter \"%s\"", "tformat")
-t("[actual level %d, on branch %s]", "[actual level %d, on branch %s]", "tformat")
-t("Something blocks the way to this chapter...", "Something blocks the way to this chapter...", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/grids.lua"
--- 6 entries
-t("exit to reality", "exit to reality", "entity name")
-t("shortcut to chapter", "shortcut to chapter", "entity name")
-t("#YELLOW#As you close the book you feel the castle shaking.", "#YELLOW#As you close the book you feel the castle shaking.", "say")
-t("#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "#CRIMSON#As you close the book the castle shakes again and this time feels more ... 'solid'.", "say")
-t("Open the chest now that the guardian golem is no more?", "Open the chest now that the guardian golem is no more?", "_t")
-t("glass throne", "glass throne", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/objects.lua"
--- 11 entries
-t("Hardened Glass Sword", "Hardened Glass Sword", "entity name")
-t("shining sword", "shining sword", "_t")
-t("Helm of Knowledge", "Helm of Knowledge", "entity name")
-t("psionic crown", "psionic crown", "_t")
-t("A large crown, part metallic part glass that radiates with psionic powers.", "A large crown, part metallic part glass that radiates with psionic powers.", "_t")
-t("It can be used without being worn.", "It can be used without being worn.", "_t")
-t("sense the presence of unique objects", "sense the presence of unique objects", "_t")
-t("#GREY#You sense no unique items on the floor.", "#GREY#You sense no unique items on the floor.", "log")
-t("#GOLD#You sense %d unique item(s) on the floor.", "#GOLD#You sense %d unique item(s) on the floor.", "log")
-t("#GREY#You sense no unique items on creatures.", "#GREY#You sense no unique items on creatures.", "log")
-t("#GOLD#You sense %d unique item(s) on creatures.", "#GOLD#You sense %d unique item(s) on creatures.", "log")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-illusory-castle/zone.lua"
--- 59 entries
-t("Nervous Energy", "Nervous Energy", "_t")
-t("Prosthetic Conscience", "Prosthetic Conscience", "_t")
-t("The Ends Of Invention", "The Ends Of Invention", "_t")
-t("Irregular Apocalyse", "Irregular Apocalyse", "_t")
-t("No More Mr Nice Guy", "No More Mr Nice Guy", "_t")
-t("Profit Margin", "Profit Margin", "_t")
-t("Trade Surplus", "Trade Surplus", "_t")
-t("Flexible Demeanour", "Flexible Demeanour", "_t")
-t("Just Read The Instructions", "Just Read The Instructions", "_t")
-t("Of Course I Still Love You", "Of Course I Still Love You", "_t")
-t("Limiting Factor", "Limiting Factor", "_t")
-t("Cargo Cult", "Cargo Cult", "_t")
-t("Little Rascal", "Little Rascal", "_t")
-t("So Much For Subtlety", "So Much For Subtlety", "_t")
-t("Unfortunate Conflict Of Evidence", "Unfortunate Conflict Of Evidence", "_t")
-t("Youthful Indiscretion", "Youthful Indiscretion", "_t")
-t("Gunboat Diplomat", "Gunboat Diplomat", "_t")
-t("Zealot", "Zealot", "_t")
-t("Kiss My Ass", "Kiss My Ass", "_t")
-t("Prime Mover", "Prime Mover", "_t")
-t("Just Testing", "Just Testing", "_t")
-t("Xenophobe", "Xenophobe", "_t")
-t("Very Little Gravitas Indeed", "Very Little Gravitas Indeed", "_t")
-t("What Are The Civilian Applications?", "What Are The Civilian Applications?", "_t")
-t("Congenital Optimist", "Congenital Optimist", "_t")
-t("Size Isn't Everything", "Size Isn't Everything", "_t")
-t("Sweet and Full of Grace", "Sweet and Full of Grace", "_t")
-t("Different Tan", "Different Tan", "_t")
-t("Fate Amenable To Change", "Fate Amenable To Change", "_t")
-t("Grey Area", "Grey Area", "_t")
-t("It's Character Forming", "It's Character Forming", "_t")
-t("Jaundiced Outlook", "Jaundiced Outlook", "_t")
-t("Problem Child", "Problem Child", "_t")
-t("Reasonable Excuse", "Reasonable Excuse", "_t")
-t("Recent Convert", "Recent Convert", "_t")
-t("Tactical Grace", "Tactical Grace", "_t")
-t("Unacceptable Behaviour", "Unacceptable Behaviour", "_t")
-t("Steely Glint", "Steely Glint", "_t")
-t("Highpoint", "Highpoint", "_t")
-t("Shoot Them Later", "Shoot Them Later", "_t")
-t("Attitude Adjuster", "Attitude Adjuster", "_t")
-t("Killing Time", "Killing Time", "_t")
-t("Frank Exchange Of Views", "Frank Exchange Of Views", "_t")
-t("Death and Gravity", "Death and Gravity", "_t")
-t("Ethics Gradient", "Ethics Gradient", "_t")
-t("Honest Mistake", "Honest Mistake", "_t")
-t("Quietly Confident", "Quietly Confident", "_t")
-t("Sleeper Service", "Sleeper Service", "_t")
-t("Uninvited Guest", "Uninvited Guest", "_t")
-t("Use Psychology", "Use Psychology", "_t")
-t("What Is The Answer and Why?", "What Is The Answer and Why?", "_t")
-t("Wisdom Like Silence", "Wisdom Like Silence", "_t")
-t("Zero Gravitas", "Zero Gravitas", "_t")
-t("Serious Callers Only", "Serious Callers Only", "_t")
-t("Not Invented Here", "Not Invented Here", "_t")
-t("Illusory Castle - %s", "Illusory Castle - %s", "tformat")
-t("illusory beam endpoint", "illusory beam endpoint", "_t")
-t("#%s#Welcome to chapter \"%s\"!", "#%s#Welcome to chapter \"%s\"!", "log")
-t("Strange, it seems the book only serves as an entry to an actual physical zone... somewhere.", "Strange, it seems the book only serves as an entry to an actual physical zone... somewhere.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-yaech/grids.lua"
--- 1 entries
-t("exit to reality", "exit to reality", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/ft-yaech/zone.lua"
--- 1 entries
-t("--not done--", "--not done--", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/godfeaster/grids.lua"
--- 4 entries
-t("portal to outside", "portal to outside", "entity name")
-t("maggot", "maggot", "entity subtype")
-t("maggot's nerval spine", "maggot's nerval spine", "entity name")
-t("%s (corrupted)", "%s (corrupted)", "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/godfeaster/objects.lua"
--- 3 entries
-t("log entry", "log entry", "entity name")
-t("strange piece of organic matter", "strange piece of organic matter", "entity name")
-t("Organic matter.", "Organic matter.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/maggot/grids.lua"
--- 4 entries
-t("portal to Kroshkkur", "portal to Kroshkkur", "entity name")
-t("maggot", "maggot", "entity subtype")
-t("maggot's nerval spine", "maggot's nerval spine", "entity name")
-t("%s (dead)", "%s (dead)", "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/maggot/objects.lua"
--- 1 entries
-t("log entry", "log entry", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/maggot/zone.lua"
--- 1 entries
-t("The Maggot", "The Maggot", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/necromancers-ruins/grids.lua"
--- 1 entries
-t("ritual circle", "ritual circle", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/necromancers-ruins/zone.lua"
--- 5 entries
-t("Necromancers' Ruins", "Necromancers' Ruins", "_t")
-t("Chanting", "Chanting", "_t")
-t("The foul stench of rotten ichor and undeath hangs over this place. There is necromancy at work here. As you listen more closely, you can hear anguished bellows coming from further inside the lair. There's a certain rough and deep timbre to the voice, sounding like a mix of a dragon's roar and a giant's rumblings. That could be none other than the Krogs you came to rescue. You do not know what experiments the necromancers are performing on them, but you're certain that you need to stop them before they succeed.", "The foul stench of rotten ichor and undeath hangs over this place. There is necromancy at work here. As you listen more closely, you can hear anguished bellows coming from further inside the lair. There's a certain rough and deep timbre to the voice, sounding like a mix of a dragon's roar and a giant's rumblings. That could be none other than the Krogs you came to rescue. You do not know what experiments the necromancers are performing on them, but you're certain that you need to stop them before they succeed.", "_t")
-t("Captive Krogs", "Captive Krogs", "_t")
-t("The captive krogs are no longer protected in their time prisons are very vulnerable!", "The captive krogs are no longer protected in their time prisons are very vulnerable!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/occult-egress/grids.lua"
--- 4 entries
-t("Occult Egress", "Occult Egress", "entity name")
-t("The strange device looks inactive.", "The strange device looks inactive.", "_t")
-t("The strange device looks active.", "The strange device looks active.", "_t")
-t("Strange Glyph", "Strange Glyph", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/occult-egress/objects.lua"
--- 1 entries
-t("log entry", "log entry", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/occult-egress/zone.lua"
--- 2 entries
-t("Occult Egress", "Occult Egress", "_t")
-t("#CRIMSON#The ground shakes as you finish the glyph sequence %s%s%s%s!", "#CRIMSON#The ground shakes as you finish the glyph sequence %s%s%s%s!", "say")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/scourged-pits/objects.lua"
--- 1 entries
-t("page of a logbook", "page of a logbook", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/scourged-pits/zone.lua"
--- 1 entries
-t("Scourged Pits", "Scourged Pits", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/test/grids.lua"
--- 1 entries
-t("statue", "statue", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/test/zone.lua"
--- 1 entries
-t("test", "test", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/town-kroshkkur/grids.lua"
--- 3 entries
-t("statue", "statue", "entity name")
-t("teleporter to the surface", "teleporter to the surface", "entity name")
-t("portal to the Maggot", "portal to the Maggot", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/town-kroshkkur/objects.lua"
--- 1 entries
-t("kroshkkur", "kroshkkur", "entity subtype")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/town-kroshkkur/zone.lua"
--- 2 entries
-t("Kroshkkur, the Hidden Sanctuary", "Kroshkkur, the Hidden Sanctuary", "_t")
-t("The Maggot", "The Maggot", "_t")
 
 
 ------------------------------------------------
@@ -1661,8 +1296,7 @@ That something is you.
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/intro-cults.lua"
--- 2 entries
-t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "_t")
+-- 1 entries
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are one of several like-minded individuals that delves into knowledge long lost and forgotten, seeking sanctuary from an outside hostile world to such activities. Delving into research within the forgotten and inactive fortress of Kroshkkur, the reasons of pursuit differ among a myriad of topics. Some look to uncover knowledge hailing back to the Age of Haze when beings immensely powerful walked Eyal, while others explore the origins of themselves and other races.
 
@@ -1679,170 +1313,6 @@ Regardless of the subject or method of research, no rules exist to constrain any
 But today the sanctuary is threatened by a giant worm that is tunneling directly towards Kroshkkur. If nothing is done it will collide with and destroy what remains of the ancient fortress. One idea to dealing with the worm is for someone to teleport inside it and make there way towards the worms brain cluster and destroy it. Alternatively, you consider leaving before the worm arrives and finding your own purpose in the outside world.
 
 As with all things here, nothing restrains you in what path you #{bold}#ultimately choose#{normal}#. The question is whether you step into the #{bold}#portal to teleport into the worm#{normal}# or leave now while it is safe to do so and let #{bold}#Kroshkkur be destroyed#{normal}#.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/data/texts/intro-krog.lua"
--- 2 entries
-t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "_t")
-t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
-
-You are a Krog, a former ogre stripped of its runes by the Ziguranth. Ogres cannot live without runes, yet you a Krog have been kept alive by the powers of nature coursing through your body. 
-
-All Krogs are infused with anti-magic forces as a result of the changes made to their bodies by the Ziguranth. While much of Maj'Eyal shuns the arcane, there is still those who practice it, and you would like nothing more then to eradicate them from the world.
-
-You have come to an old ruin named Kor'Pul on a mission to eliminate the foulest of arcane creations: undeads.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-
-You are a Krog, a former ogre stripped of its runes by the Ziguranth. Ogres cannot live without runes, yet you a Krog have been kept alive by the powers of nature coursing through your body. 
-
-All Krogs are infused with anti-magic forces as a result of the changes made to their bodies by the Ziguranth. While much of Maj'Eyal shuns the arcane, there is still those who practice it, and you would like nothing more then to eradicate them from the world.
-
-You have come to an old ruin named Kor'Pul on a mission to eliminate the foulest of arcane creations: undeads.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/data/texts/unlock-cosmetic_class_alchemist_glass_golem.lua"
--- 2 entries
-t("New Class Option: #LIGHT_GREEN#Glass Golem", "New Class Option: #LIGHT_GREEN#Glass Golem", "_t")
-t([[You have defeated the Glass Golem with your Alchemist and took some time to figure how it was built.
-
-You may now create alchemist characters with a glass golem instead of a golem.
-Glass Golems look awesome and can eventually learn Glass Splinter talent to disrupt and damage their foes.
-]], [[You have defeated the Glass Golem with your Alchemist and took some time to figure how it was built.
-
-You may now create alchemist characters with a glass golem instead of a golem.
-Glass Golems look awesome and can eventually learn Glass Splinter talent to disrupt and damage their foes.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/data/texts/unlock-demented_cultist_entropy.lua"
--- 2 entries
-t("New Class: #LIGHT_GREEN#Cultist of Entropy (Demented)", "New Class: #LIGHT_GREEN#Cultist of Entropy (Demented)", "_t")
-t([[Entropy is a force of chaos, always striving to create more disorder in the universe.
-Most say it is impossible to harness and use it, but they are wrong.
-A long time ago a creature came to Eyal and took pity on a group of refugees, teaching them powers to manipulate entropy itself.
-
-You have read a tome depicting the first teachings of entropy magic and can now create new characters with the #LIGHT_GREEN#Cultist of Entropy class#WHITE#.
-
-Cultists of Entropy are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Take entropic backlash for healing and dealing damage but learn to use that backlash as an attack
-- Rip apart spacetime to create rifts
-- Unravel the very existence of your foes, calling forth terrible foes upon them
-- Manipulate the threads of prophecy#WHITE#
-
-Cultist of Entropy use "insanity" to power their special abilities.
-Insanity is a measure of their own dementia and makes them more and more chaotic.
-]], [[Entropy is a force of chaos, always striving to create more disorder in the universe.
-Most say it is impossible to harness and use it, but they are wrong.
-A long time ago a creature came to Eyal and took pity on a group of refugees, teaching them powers to manipulate entropy itself.
-
-You have read a tome depicting the first teachings of entropy magic and can now create new characters with the #LIGHT_GREEN#Cultist of Entropy class#WHITE#.
-
-Cultists of Entropy are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Take entropic backlash for healing and dealing damage but learn to use that backlash as an attack
-- Rip apart spacetime to create rifts
-- Unravel the very existence of your foes, calling forth terrible foes upon them
-- Manipulate the threads of prophecy#WHITE#
-
-Cultist of Entropy use "insanity" to power their special abilities.
-Insanity is a measure of their own dementia and makes them more and more chaotic.
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/data/texts/unlock-race_drem.lua"
--- 2 entries
-t("New Race: #LIGHT_GREEN#Drem", "New Race: #LIGHT_GREEN#Drem", "_t")
-t([[Drems are a mutated offshoot of the dwarven race.
-Long ago the mysterious machines that seem to be the source of dwarves malfunctioned and started to create all kind of monstrous beings, including Drems.
-Something in Kroshkkur seems to try to #{italic}#fix#{normal}# them by making them sentient.
-
-You have learned the origins of Drems and can now create new #LIGHT_GREEN#Drem#WHITE# characters!
-
-Race features:#YELLOW#
-- Enter a Frenzy to eliminate cooldown on talents
-- Bleed your black blood on your attackers
-- Learn to summon a horror!
-#WHITE#
-]], [[Drems are a mutated offshoot of the dwarven race.
-Long ago the mysterious machines that seem to be the source of dwarves malfunctioned and started to create all kind of monstrous beings, including Drems.
-Something in Kroshkkur seems to try to #{italic}#fix#{normal}# them by making them sentient.
-
-You have learned the origins of Drems and can now create new #LIGHT_GREEN#Drem#WHITE# characters!
-
-Race features:#YELLOW#
-- Enter a Frenzy to eliminate cooldown on talents
-- Bleed your black blood on your attackers
-- Learn to summon a horror!
-#WHITE#
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/data/texts/unlock-race_krog.lua"
--- 2 entries
-t("New Race: #LIGHT_GREEN#Krog", "New Race: #LIGHT_GREEN#Krog", "_t")
-t([[Ogres were created long ago by terrible ways as elite fighters in the allure wars. Imbued from birth with runes their bodies can not survive without the arcane forces powering them.
-
-But while they are magic users Ziguranth took pity on them for they had not chosen their fate, it was forced upon them.
-After lots of painful, but required, experiments Zigur was finally able to create an offshoot of the ogre race by replacing their runes and arcane forces with drake blood and nature.
-Ever since the Krogs as they are called have been mighty stalwards of nature and staunch protectors of Zigur. Elite fighters capable of dual wielding any one handed weapons to crush all foes of Nature!
-
-You have rescued a group of them from the undead flith can now create new #LIGHT_GREEN#Krog#WHITE# characters!
-
-Race features:#YELLOW#
-- Their wrath is so terrible they can stun their foes with any attacks
-- Drake infused blood that lets them resist the elements themselves
-- A mastery of infusions like no others
-- A warborn race, able to dual wield any one handed weapons and survive situations that would kill most others
-#WHITE#
-]], [[Ogres were created long ago by terrible ways as elite fighters in the allure wars. Imbued from birth with runes their bodies can not survive without the arcane forces powering them.
-
-But while they are magic users Ziguranth took pity on them for they had not chosen their fate, it was forced upon them.
-After lots of painful, but required, experiments Zigur was finally able to create an offshoot of the ogre race by replacing their runes and arcane forces with drake blood and nature.
-Ever since the Krogs as they are called have been mighty stalwards of nature and staunch protectors of Zigur. Elite fighters capable of dual wielding any one handed weapons to crush all foes of Nature!
-
-You have rescued a group of them from the undead flith can now create new #LIGHT_GREEN#Krog#WHITE# characters!
-
-Race features:#YELLOW#
-- Their wrath is so terrible they can stun their foes with any attacks
-- Drake infused blood that lets them resist the elements themselves
-- A mastery of infusions like no others
-- A warborn race, able to dual wield any one handed weapons and survive situations that would kill most others
-#WHITE#
-]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/data/texts/unlock-wyrmic_scourge.lua"
--- 2 entries
-t("New Talent Category: #LIGHT_GREEN#Scourge Drake", "New Talent Category: #LIGHT_GREEN#Scourge Drake", "_t")
-t([[Drakes are forces of Nature, the ultimate apex predators. But even they can be corrupted beyond hope.
-You have encountered the horror that came out of Kroltar, the mightiest wyrm, and vanquished it.
-
-You can now master Scourge Drake magic and create new Wyrmic characters that can learn the #LIGHT_GREEN#Scourge Drake talents#WHITE#.
-
-Talents:
-- #YELLOW#Tentacled Wings: #WHITE#Project slimy tentacles to pull your foes to you
-- #YELLOW#Decaying Grounds: #WHITE#Cover the ground in blighted energies, increasing cooldowns
-- #YELLOW#Augment Despair: #WHITE#Hit where it hurts, doing more damage based on detrimental effects
-- #YELLOW#Maggot Breath: #WHITE#Breath maggots to slow down your foes
-]], [[Drakes are forces of Nature, the ultimate apex predators. But even they can be corrupted beyond hope.
-You have encountered the horror that came out of Kroltar, the mightiest wyrm, and vanquished it.
-
-You can now master Scourge Drake magic and create new Wyrmic characters that can learn the #LIGHT_GREEN#Scourge Drake talents#WHITE#.
-
-Talents:
-- #YELLOW#Tentacled Wings: #WHITE#Project slimy tentacles to pull your foes to you
-- #YELLOW#Decaying Grounds: #WHITE#Cover the ground in blighted energies, increasing cooldowns
-- #YELLOW#Augment Despair: #WHITE#Hit where it hurts, doing more damage based on detrimental effects
-- #YELLOW#Maggot Breath: #WHITE#Breath maggots to slow down your foes
 ]], "_t")
 
 
@@ -3696,13 +3166,10 @@ t("%s %s: ", "%s %s: ", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/EscortRewards.lua"
--- 5 entries
-t("improved", "improved", "_t")
-t("learnt", "learnt", "_t")
+-- 2 entries
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
-t("gained talent category %s (at mastery %0.2f)", "gained talent category %s (at mastery %0.2f)", "tformat")
 t([[#GOLD#%s / %s#LAST#
 %s]], [[#GOLD#%s / %s#LAST#
 %s]], "tformat")
@@ -5438,7 +4905,7 @@ As they notice you one calls out 'Intruder! Protect the seed of Kryl-Feijan!']],
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/fun.lua"
--- 13 entries
+-- 7 entries
 t([[#{bold}#"The Necromancer's Canticle"
 
 #{italic}#Saved from coffin, casket, urn
@@ -5492,52 +4959,6 @@ From your lofty perch you glower
 Time will come when you will cower
 We rule death, we wield the power
 #{normal}#]], "_t")
-t("how to be a necromancer, part 1", "how to be a necromancer, part 1", "_t")
-t([[#{bold}#THE GLORIOUS ART#{normal}#
-
-Have you cast away the feeble pretensions of your society? Does your soul thirst for the taste of real power? Do you wish to have the strength to deny that most prevalent force, death itself? The glorious art of necromancy shall fulfil your wishes in ways you couldn't possibly imagine.
-
-#{italic}#1. Your First Steps#{normal}#
-
-Be aware, necromancy isn't all weaving mighty spells of undeath, wearing flowing black robes and crushing entire nations beneath the feet of your mighty undead horde; you'll have to put in some elbow grease as well. Your first few bodies will have to be stolen away personally as few people will aid a necromancer willingly, and those that do are rarely competent. The cemeteries of small towns and villages are good sites for your first acquisitions, but if time demands it don't be afraid to "make" some specimens of your own with the aid of a sharp knife or heavy bludgeon. Once you have your first minions out performing your bidding you needn't worry about resources any longer; opportunities to practice your art will, quite literally, pile up.
-
-Also important is the upkeep of the bodies themselves. True, this is not strictly necessary as sufficient enchantment can bestow mobility upon even the most ruined and incomplete remains, but making sure that the joints and cruses of your prospective minions move freely and with ease much reduces the will required to grant them reanimation. It also makes for a sturdy and reliable base in case you desire to undertake larger, more audacious projects (see 46. Bone Giants & You).
-
-Still not sure what to do? Then suffer and perish. Necromancy does not abide the inept.]], [[#{bold}#THE GLORIOUS ART#{normal}#
-
-Have you cast away the feeble pretensions of your society? Does your soul thirst for the taste of real power? Do you wish to have the strength to deny that most prevalent force, death itself? The glorious art of necromancy shall fulfil your wishes in ways you couldn't possibly imagine.
-
-#{italic}#1. Your First Steps#{normal}#
-
-Be aware, necromancy isn't all weaving mighty spells of undeath, wearing flowing black robes and crushing entire nations beneath the feet of your mighty undead horde; you'll have to put in some elbow grease as well. Your first few bodies will have to be stolen away personally as few people will aid a necromancer willingly, and those that do are rarely competent. The cemeteries of small towns and villages are good sites for your first acquisitions, but if time demands it don't be afraid to "make" some specimens of your own with the aid of a sharp knife or heavy bludgeon. Once you have your first minions out performing your bidding you needn't worry about resources any longer; opportunities to practice your art will, quite literally, pile up.
-
-Also important is the upkeep of the bodies themselves. True, this is not strictly necessary as sufficient enchantment can bestow mobility upon even the most ruined and incomplete remains, but making sure that the joints and cruses of your prospective minions move freely and with ease much reduces the will required to grant them reanimation. It also makes for a sturdy and reliable base in case you desire to undertake larger, more audacious projects (see 46. Bone Giants & You).
-
-Still not sure what to do? Then suffer and perish. Necromancy does not abide the inept.]], "_t")
-t("how to be a necromancer, part 2", "how to be a necromancer, part 2", "_t")
-t([[#{italic}#2. Domination Of The Deceased#{normal}#
-
-A contentious issue arises when it comes time to breathe life into your gathered specimens - do you raise them as lifeless drones, or do you bind the souls of the deceased within their vessels once more? There is much disagreement on this between the various movements of necromancers. The Beinagrind method of necromancy extols the torturous imprisonment of the soul as fundamental; the anguish generated by the captive spirit makes for a much more effective undead thrall, they claim. The recently founded Tren? method however disagrees, claiming that allowing souls freedom not only results in more obedient slaves less prone to rising up and slaughtering their masters, but also causes your work to become marginally more acceptable to the unwashed masses. Sure, they'll still thrash you, drag you through town and burn you at the stake if they get the chance, but they'll feel ambivalent about it, by thunder!
-
-Remember, when utilising a runic circle to bend your new minions to your will, make sure beforehand that every rune in the circle is enchanted properly and in no danger of fizzling out. If the unthinkable happens and one of your thralls is freed from your control, offer them goods or equipment in exchange for your life. Few undead will kill their creators after receiving such an act of generosity.]], [[#{italic}#2. Domination Of The Deceased#{normal}#
-
-A contentious issue arises when it comes time to breathe life into your gathered specimens - do you raise them as lifeless drones, or do you bind the souls of the deceased within their vessels once more? There is much disagreement on this between the various movements of necromancers. The Beinagrind method of necromancy extols the torturous imprisonment of the soul as fundamental; the anguish generated by the captive spirit makes for a much more effective undead thrall, they claim. The recently founded Tren? method however disagrees, claiming that allowing souls freedom not only results in more obedient slaves less prone to rising up and slaughtering their masters, but also causes your work to become marginally more acceptable to the unwashed masses. Sure, they'll still thrash you, drag you through town and burn you at the stake if they get the chance, but they'll feel ambivalent about it, by thunder!
-
-Remember, when utilising a runic circle to bend your new minions to your will, make sure beforehand that every rune in the circle is enchanted properly and in no danger of fizzling out. If the unthinkable happens and one of your thralls is freed from your control, offer them goods or equipment in exchange for your life. Few undead will kill their creators after receiving such an act of generosity.]], "_t")
-t("how to be a necromancer, part 3", "how to be a necromancer, part 3", "_t")
-t([[#{italic}#3. Unwanted Attention#{normal}#
-
-Sadly, it is not only the peasantry and our "virtuous" archmage cousins that disapprove of our work. Though not entirely understood, necromancy is known to create "ripples" of a sort across the many dimensions, ripples that attract extra-planar attention. As a necromancer's power grows, so do said ripples, until eventually said necromancer finds all manner of demonic force and entity beating down their door, both mentally and physically.
-
-Once again, opinions differ on this demonic interference. Necromancy is such a beautiful, divergent art, is it not? The Tren? method sees the necromancer's corruption by outside forces as a negative thing, and practitioners of said method often take measures to divert supernatural attention from themselves, creating talismans to act as spiritual "conductors" or living close to the communities that despise them, the life essences of the masses masking the necromancer's dark emanations. On the other hand, the Beinagrind method welcomes the cursed whisperings that come from the demonic realms, believing it to be the completion of their psyches. Only once their spirits have been "corrupted" (a term Beinagrind practitioners scoff at) do people realize their true ambitions, they claim. Why these "true ambitions" always seem to be the utter and complete destruction of all life in this world and the summoning of unthinkable atrocities from the outer dimensions is unexplored.
-
-You may have noticed that no instruction has been given on how to deal with the attention of common folk. That is because a true necromancer requires none. They are vermin, fit only to be crushed.]], [[#{italic}#3. Unwanted Attention#{normal}#
-
-Sadly, it is not only the peasantry and our "virtuous" archmage cousins that disapprove of our work. Though not entirely understood, necromancy is known to create "ripples" of a sort across the many dimensions, ripples that attract extra-planar attention. As a necromancer's power grows, so do said ripples, until eventually said necromancer finds all manner of demonic force and entity beating down their door, both mentally and physically.
-
-Once again, opinions differ on this demonic interference. Necromancy is such a beautiful, divergent art, is it not? The Tren? method sees the necromancer's corruption by outside forces as a negative thing, and practitioners of said method often take measures to divert supernatural attention from themselves, creating talismans to act as spiritual "conductors" or living close to the communities that despise them, the life essences of the masses masking the necromancer's dark emanations. On the other hand, the Beinagrind method welcomes the cursed whisperings that come from the demonic realms, believing it to be the completion of their psyches. Only once their spirits have been "corrupted" (a term Beinagrind practitioners scoff at) do people realize their true ambitions, they claim. Why these "true ambitions" always seem to be the utter and complete destruction of all life in this world and the summoning of unthinkable atrocities from the outer dimensions is unexplored.
-
-You may have noticed that no instruction has been given on how to deal with the attention of common folk. That is because a true necromancer requires none. They are vermin, fit only to be crushed.]], "_t")
 t("how to be a necromancer, part 4", "how to be a necromancer, part 4", "_t")
 t([[#{italic}#4. Necromancers Of Maj'Eyal#{normal}#
 
