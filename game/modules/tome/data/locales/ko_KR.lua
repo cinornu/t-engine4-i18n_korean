@@ -4512,8 +4512,8 @@ t([[#VIOLET#*As you open the door you notice a huge orc in the distance, covered
 @playerdescriptor.race@! You should never have come! Your doom awaits!
 The Orc Pride will never yield to anybody! They have their precious and there is nothing you can do.]], [[#VIOLET#*문을 열자 저 멀리 거대한 오크가 보였습니다. 불꽃과 얼음을 동시에 두르고 있습니다.*#LAST#
 @playerdescriptor.race@! 넌 이곳에 와선 안 됐다! 네게 남은 건 이제 죽음 뿐이다!
-오크 긍지는 누구에게도 항복하지 않는다! 그자들은 원하던 것을 손에 넣었고 넌 아무것도 할 수 없다.]], "_t")
-t("The Orc Pride obeys a master? I see... 'pride' indeed!", "오크 긍지라는 게, 주인에게 복종한다고? 흠... 너흰 참 긍지높은 족속이구나!", "_t")
+오크 긍지는 누구에게도 굴복하지 않는다! 그자들은 원하던 것을 손에 넣었고 넌 아무것도 할 수 없다.]], "_t")
+t("The Orc Pride obeys a master? I see... 'pride' indeed!", "'오크 긍지' 라는 게, 주인에게 복종한다고? 흠... 너흰 참 긍지높은 족속이구나!", "_t")
 t("The Pride chooses its allies. It has no master! ATTACK!", "긍지는 동맹을 고를 뿐이다. 주인 따위는 없다! 공격하라!!", "_t")
 t("#LIGHT_GREEN#[Attack]", "#LIGHT_GREEN#[공격한다]", "_t")
 
@@ -8584,7 +8584,7 @@ t("glittering longsword", "번쩍이는 장검", "_t")
 t("Wintertide", "밀려오는 겨울", "entity name")
 t([[The air seems to freeze around the blade of this sword, draining all heat from the area.
 It is said the Conclave created this weapon for their warmaster during the dark times of the first allure war.]], [[이 장검의 칼날 근처의 공기는 얼어붙는 것 처럼 보입니다. 주변의 모든 열을 흡수하는 것 처럼요.
-첫번째 매혹의 전투 때, 최고 의회가 전쟁 지도자를 위해 만든 것이라고 알려져 있습니다.]], "_t")
+첫번째 매혹의 전쟁 때, 최고 의회가 전쟁 지도자를 위해 만든 것이라고 알려져 있습니다.]], "_t")
 t("No Winter Storm Active", "활성화 중인 겨울 폭풍 없음", "_t")
 t("None", "없음", "_t")
 t("Winter Storm: ", "겨울 폭풍 : ", "_t")
@@ -10436,7 +10436,7 @@ t("ice ant stinger", "얼음 개미의 침", "entity name")
 t("Wickedly sharp and still freezing cold.", "매우 날카로우며, 지금도 살을 에는 듯이 차갑습니다.", "_t")
 t("minotaur nose", "미노타우르스의 코", "_t")
 t("The severed front half of a minotaur snout, ring and all.", "미노타우르스의 코 앞부분을 잘라낸 것이며 코뚜레를 한 고리까지 달려있습니다.", "_t")
-t("black blood", "금은 피", "_t")
+t("black blood", "검은 피", "_t")
 t("vial of elder vampire blood", "흡혈귀 장로의 피가 담긴 유리병", "entity name")
 t("Thick, clotted, and foul. The vial is cold to the touch.", "질척거리고 엉겨붙은 피로, 악취가 난다. 유리병을 만지니 냉기가 느껴집니다.", "_t")
 t("shimmering scale", "일렁이는 비늘", "_t")
@@ -13550,7 +13550,7 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
 나는 대답할 말이 없었고, 여전히 그 광경에 대한 경외에 젖어 그저 고개를 가볍게 끄덕였다.  네이라도 마찬가지인 것처럼 보였다.  그녀는 장거리 차원문을 리나니일과 같은, 간절히 바라는 듯한 눈으로 바라보고 있었다.  그녀는 마음이 바뀌었다.
  
 하지만 나는 나도 모르게 달을 가르는 자의 손잡이로 손을 가저다댔고, 내 심장은 불안감의 중얼거림을 내뱉었다.]], "_t")
-t("The Spellblaze Chronicles(4): Before the Dawn", "마법 폭발 연대기 (4): 새벽 전에", "_t")
+t("The Spellblaze Chronicles(4): Before the Dawn", "마법폭발 연대기 (4): 새벽 전에", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Four: Before the Dawn#{normal}#
@@ -13862,7 +13862,7 @@ The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smok
 
 우리의 도시가 구름과 연기에 둘러싸이자, 엘발라의 장막이 시작되었다.  우리의 방패, 우리의 가면, 우리의 은신처.  그 후 몇 세기동안, 오직 이 장벽만이 바깥 세상에 대한 우리의 유일한 대답이였다.
 ]], "_t")
-t("The Spellblaze Chronicles(7): Into Darkness", "마법 폭발 연대기 (7) : 어둠 속으로", "_t")
+t("The Spellblaze Chronicles(7): Into Darkness", "마법폭발 연대기 (7) : 어둠 속으로", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Seven: Into Darkness#{normal}#
@@ -14102,27 +14102,27 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 그녀가 갑자기 웃었고, 그 웃음소리는 전에 들어보지 못한 냉혹한 웃음이였다.  “나는 정말 바보였구나.” 그녀가 거의 자신에게만 들릴 정도로 말했다.  “나는 너를 나를 막아햐 할 상황을 위해 데려왔다.  하지만 지금은...  나의 힘은 너의 힘을 아득히 초월하는구나.  너는 나를 막지 못한다!”  그녀는 웃음과 한숨 사이의 낮은 어투로 말했다.  “아, 하지만 걱정할 필요 없어요.  나는 아직 나예요.  거의.  고통과 희생을 통해, 내가 필요로 하는 힘을 얻었습니다.  내게 필요한 힘.”
 
-I let my sword dip and breathed heavily, relief mingled with trepidation sweeping through me, whilst the withdrawing adrenalin of battle left me feeling exhausted.  I looked Linaniil over, her pale skin now glowing, her eyes brimming with energy and vitality.  I saw the power she had was not in mere force, but that she had taken on the ageless nature of the gods.  A power forbidden to all creatures was now hers and hers alone.
+나는 칼을 내려놓고 무거운 한숨을 내쉬자, 안도감과 함께 두려움이 나를 휩쓸었다. 전투의 아드레날린으로 인해 깊은 피로를 느꼈다.  리나니일을 흘겨보니, 그녀의 창백한 피부는 이제 빛나고 있었고, 그녀의 눈은 에너지와 활기가 가득했다.  그녀가 가진 힘은 단지 강한 능력만이 아닌, 신에게서 불멸성을 취했다는 것을 뜻했다.  모든 존재에게 있어 금단의 힘은 이제 그녀의 것이고, 또 그녀 혼자만의 것이 되었다.
 
-“What now?” I said quietly.
+“이젠 어쩌지?” 나는 조용히 말했다.
 
-“Now, ye go home, and I go to make mine home, a sanctuary for me and mine people.”
+“이제, 집으로 가세요. 저는 집을 지으러 가야합니다. 제 사람들을 위한 성역이죠.”
 
-“Will we meet again?”
+“우린 다시 만날 수 있을까?”
 
-She smiled sadly.  “Mayhaps.  Mayhaps not.  The world changes quicker than predictions can tell.  But if we do meet again it shall be in a place that does not yet exist - the city of Angolwen.”  She raised an arm then and from it shot a tremendous pulse of arcane energy, the violet light shooting to the roof of the cavern and spearing through, deep through, till it split the rock apart right through to the open sky a mile above.  Sunlight spilled down, splashing over Linaniil’s lithe form.  It had been many hours since this long long night had begun.
+그녀가 슬프게 미소지었다.  “어쩌면요.  아닐 수도 있고.  세상은 예측보다 빨리 변하는 법입니다.  하지만 우리가 다시 만나게 된다면, 아직 존재하지 않는 곳에서 만나게 될겁니다 - 앙골웬.”  그녀가 한 쪽 팔을 들고 엄청난 양의 마법 에너지 파동을 뿜어냈다. 발사된 보라색 빛이 동굴 천장을 그대로 관통하고 바위들을 갈라놓더니 1.5 킬로미터 위의 하늘이 두 눈에 들어왔다.  태양빛이 쏟아저 내려와, 리나니일의 우연한 몸을 비추었다.  이 기나긴 밤이 시작된 지 벌써 여러 시간이 지났다.
 
-“But for now, farewell Aranion,” she said as she began to float from the ground.  And then she sped up and soared out of sight.
+“하지만. 지금은, 안녕히계시길 아라니온.” 그녀가 공중부양을 하며 말했다.  그러더니 엄청난 속도로 날아가, 시야에서 보이지 않게되었다.
 
-I lay down on the cold stone, resting for a while, slowly healing my wounds and recovering my strength.  I reflected on the events since the evening before, thinking back on the trials of all the races of Maj’Eyal.  War, disease and death threatened all equally.  Was Linaniil beyond that now?  How would a taste of immortality affect her?
+차가운 돌 위에 누워서 잠시동안 휴식을 취했다.  서서히 상처를 치유하고, 힘을 회복했다.  나는 그날 저녁부터 있던 일들을 깊게 생각해보며, 마즈'에이알의 모든 종족이 겪고있는 시련들을 되돌아보았다.  전쟁, 질병 그리고 죽음이 모두를 위협하고 있었다.  이제 리나니일은 초월한 것일까?  불멸의 맛이 그녀에게 어떤 영향을 끼칠까?
 
-It was then that thought for our race came to me.  In ages past we had searched for immortality.  Our ancestral leaders had obsessed over it, but out of vanity, pride and a fear of death.  What would the real effects be if all our society were to be gifted with it?  With immortal life we might separate ourselves from the strifes and wars of the world.  It would give us a perspective beyond the petty squabbles and prideful competition of the other races.
+그때, 우리 종족에 대한 생각이 떠올랐다.  오래전 우리들은 불멸을 찾아다녔었다.  우리 조상들은 그것에 집착했지만, 허영심과 자부심, 그리고 죽음의 공포를 잃어버리게 되었다.  만약 우리 모두가 불멸성을 갖추게된다면 어떤 일이 일어나게될까?  불멸의 생명력과 함께, 우리는 세상이 맞서고있는 분쟁들과 전쟁에서 벗어나게될 것이며, 그것은 필히 우리에게 다른 종족들의 사소한 다툼과 자존심 싸움을 넘어서는 시야를 갖게 해줄 것이다.
 
-I dug through the ice and rocks and found still some trace of the dead god Quekorja, faint though it were.  I gathered all that was left and made the long journey back to Elvala.  There I retreated to my labs, studying the remains for years before finally unlocking its secrets.  It was thus that immortality for our race was born, and it has changed our outlook on the world ever since.
+나는 얼음과 바위를 파헤쳤고, 희미하긴 했지만, 죽은 신, 쿠에코르자의 흔적을 찾아냈다.  나는 남은 잔해를 모두 모아 엘발라로 돌아가는 긴 여행을 했다.  연구실로 돌아가, 몇 년 동안의 연구 끝에 결국 비밀을 풀어냈다.  그렇게 우리 종족의 불멸성이 시작되었고, 그 이후 세계를 바라보는 우리 시선이 완전히 바뀌었다.
 
-We stood apart from the others then, not engaging in war, finding a new respect for life.  It was not till Garkul the Devourer assaulted our gates in the Age of Pyre that we ever had cause for large scale war again, and I rode out to face him in combat.
+우리는 다른 종족과 떨어저, 전쟁에 참여하지 않고 생명을 대하는 다른 방법을 찾으려고했고, 장작더미의 시대에 이르러서야, 포식자 가르쿨이 도시의 정문을 공격할 때 대규모의 전쟁을 일으켰고, 나는 그와 대적하기 위해 달려나갔다.
 
-But ah, that is another tale, one indeed of many tales, in the long and rich history of the Tales of Maj’Eyal...]], "_t")
+하지만, 아, 내 이야기는 그저 이야기에 불과하다. 수 많은 이야기 중 단 하나, 참으로 길고 풍부한 마즈'에이알의 이야기 역사 속의 한 이야기에 불과하다...]], "_t")
 
 
 ------------------------------------------------
@@ -14195,6 +14195,52 @@ Me likes to club!#{normal}#]], [[#{bold}#"나 몽둥이 조아"
 배고픔 때리면,
 나 몽둥이 좋다!!#{normal}#]], "_t")
 t("necromancer poem", "강령술사의 시", "_t")
+t("how to be a necromancer, part 1", "강령술사가 되는 법 : 제 1 장", "_t")
+t([[#{bold}#THE GLORIOUS ART#{normal}#
+
+Have you cast away the feeble pretensions of your society? Does your soul thirst for the taste of real power? Do you wish to have the strength to deny that most prevalent force, death itself? The glorious art of necromancy shall fulfil your wishes in ways you couldn't possibly imagine.
+
+#{italic}#1. Your First Steps#{normal}#
+
+Be aware, necromancy isn't all weaving mighty spells of undeath, wearing flowing black robes and crushing entire nations beneath the feet of your mighty undead horde; you'll have to put in some elbow grease as well. Your first few bodies will have to be stolen away personally as few people will aid a necromancer willingly, and those that do are rarely competent. The cemeteries of small towns and villages are good sites for your first acquisitions, but if time demands it don't be afraid to "make" some specimens of your own with the aid of a sharp knife or heavy bludgeon. Once you have your first minions out performing your bidding you needn't worry about resources any longer; opportunities to practice your art will, quite literally, pile up.
+
+Also important is the upkeep of the bodies themselves. True, this is not strictly necessary as sufficient enchantment can bestow mobility upon even the most ruined and incomplete remains, but making sure that the joints and cruses of your prospective minions move freely and with ease much reduces the will required to grant them reanimation. It also makes for a sturdy and reliable base in case you desire to undertake larger, more audacious projects (see 46. Bone Giants & You).
+
+Still not sure what to do? Then suffer and perish. Necromancy does not abide the inept.]], [[#{bold}#위대한 기예#{normal}#
+
+사회 속의 보잘 것 없는 가식을 버렸는가? 진정한 힘을 위해 영혼을 탐하는가? 가장 널리 퍼저있는 힘인 죽음 그 자체를 부정할 수 있는 힘을 원하는가? 위대한 강령술의 기예는 당신이 상상조차 할 수 없는 방식으로 당신의 소원을 실현할 것이다.
+
+#{italic}#1. 첫번째 단계#{normal}#
+
+조심하라, 강령술은 검은 로브를 입고, 강력한 불사자 군단을 발 밑에 놓고 한 국가를 파괴하는 것도, 위력적인 강령 주문을 엮어내는 것도 아니다.  우선 당신은 팔꿈치 관절에 기름부터 발라야한다. 당신이 가장 처음에 구할 몇 구의 시체는 당신이 스스로 훔처내야 할 것이다. 소수의 사람들이 기꺼히 강령술사를 도울테지만, 대게 그들이 구한 시체의 상태는 그리 좋지않다. 작은 도시나 마을의 공동묘지는 첫번째 취득을 위한 좋은 장소이지만, 필요하다면 날카로운 칼이나 무거운 둔기를 이용하여 표본 몇 구를 "만드는 것" 을 두려워하지 말라. 하수인을 만들어 낸 이후엔 더 이상 자원을 찾기위해 애쓸 필요가 없어진다.  말 그대로 당신의 기예를 연습할 기회가 쌓이게된다.
+
+중요한 것은 시체들을 좋은 상태로 유지하는 것이다. 사실, 부서지고 불안정한 유해에도 일정 수준 이상의 마법을 사용한다면, 충분히 움직이게 할 수는 있기에 꼭 필요하진 않지만, 하수인들의 관절과 두 다리가 자연스럽게 움직이게끔 유지하는 것이 소생에 들어가는 수고를 덜어준다. 또한 이를 수행함으로써, 더 거대하고 대담한 계획을 준비할 때, 견고하고 신뢰할 수 있는 기반을 마련할 수 있다.  (46 쪽. 해골 거인과 당신 참조)
+
+아직 무엇을 할 지 모르는가? 그렇다면 고통 속에서 죽어라. 강령술은 그런 무능력자에게는 어울리지 않는다.]], "_t")
+t("how to be a necromancer, part 2", "강령술사가 되는 법 : 제 2 장", "_t")
+t([[#{italic}#2. Domination Of The Deceased#{normal}#
+
+A contentious issue arises when it comes time to breathe life into your gathered specimens - do you raise them as lifeless drones, or do you bind the souls of the deceased within their vessels once more? There is much disagreement on this between the various movements of necromancers. The Beinagrind method of necromancy extols the torturous imprisonment of the soul as fundamental; the anguish generated by the captive spirit makes for a much more effective undead thrall, they claim. The recently founded Tren? method however disagrees, claiming that allowing souls freedom not only results in more obedient slaves less prone to rising up and slaughtering their masters, but also causes your work to become marginally more acceptable to the unwashed masses. Sure, they'll still thrash you, drag you through town and burn you at the stake if they get the chance, but they'll feel ambivalent about it, by thunder!
+
+Remember, when utilising a runic circle to bend your new minions to your will, make sure beforehand that every rune in the circle is enchanted properly and in no danger of fizzling out. If the unthinkable happens and one of your thralls is freed from your control, offer them goods or equipment in exchange for your life. Few undead will kill their creators after receiving such an act of generosity.]], [[#{italic}#2. 사자의 지배#{normal}#
+
+수집한 표본에 생명을 불어넣을 때, 이견이 갈리는 문제가 발생한다 - 생명이 존재하지 않는 하수인으로 일으켜 세울 것인가? 또는 사자의 영혼을 그릇에다가 다시 한번 속박하는가? 많은 강령술사 계파들 조차 논쟁하는 문제이다. 베나그라인드 강령 계파는 영혼의 고통스러운 감금을 기본적으로 추구한다. 속박된 영혼이 만들어내는 괴로움은 언데드 노예들을 더 효과적으로 만든다고 그들은 주장한다. 최근에 세워진 트렌 계파는 어떤가?  그들은 영혼의 자유를 제약하는 것이 더 순종적인 하수인을 만들고, 주인이 살해당하는 일을 줄일 뿐만 아니라 우매한 민중들이 당신의 하수인을 더 잘 받아드리도록 한다고 주장한다. 물론, 그들은 여전히 당신을 두들겨 패고, 마을로 끌고가 화형을 시작할 기회만 보고있을 것이다. 하지만 천둥이 치면, 그 양면성을 느끼게 될것이다!
+
+기억하라, 룬 마법진을 사용해, 하수인들은 당신 뜻대로 부릴 때, 마법진 안의 모든 룬이 제대로 마법이 걸려있는지, 또 흐려질 위험이 없는지 확인해야한다. 생각치도 못한 일이 일어나, 노예 하나가 당신의 통제에서 벗어나면 당신의 생명의 댓가로 좋은 장비나 물품을 지급하라. 이런 관용을 받은 불사자들 중 매우 소수만이 주인을 끝내 살해한다.]], "_t")
+t("how to be a necromancer, part 3", "강령술사가 되는 법 :제 3 장", "_t")
+t([[#{italic}#3. Unwanted Attention#{normal}#
+
+Sadly, it is not only the peasantry and our "virtuous" archmage cousins that disapprove of our work. Though not entirely understood, necromancy is known to create "ripples" of a sort across the many dimensions, ripples that attract extra-planar attention. As a necromancer's power grows, so do said ripples, until eventually said necromancer finds all manner of demonic force and entity beating down their door, both mentally and physically.
+
+Once again, opinions differ on this demonic interference. Necromancy is such a beautiful, divergent art, is it not? The Tren? method sees the necromancer's corruption by outside forces as a negative thing, and practitioners of said method often take measures to divert supernatural attention from themselves, creating talismans to act as spiritual "conductors" or living close to the communities that despise them, the life essences of the masses masking the necromancer's dark emanations. On the other hand, the Beinagrind method welcomes the cursed whisperings that come from the demonic realms, believing it to be the completion of their psyches. Only once their spirits have been "corrupted" (a term Beinagrind practitioners scoff at) do people realize their true ambitions, they claim. Why these "true ambitions" always seem to be the utter and complete destruction of all life in this world and the summoning of unthinkable atrocities from the outer dimensions is unexplored.
+
+You may have noticed that no instruction has been given on how to deal with the attention of common folk. That is because a true necromancer requires none. They are vermin, fit only to be crushed.]], [[#{italic}#3. 원치않는 주목#{normal}#
+
+Sadly, it is not only the peasantry and our "virtuous" archmage cousins that disapprove of our work. Though not entirely understood, necromancy is known to create "ripples" of a sort across the many dimensions, ripples that attract extra-planar attention. As a necromancer's power grows, so do said ripples, until eventually said necromancer finds all manner of demonic force and entity beating down their door, both mentally and physically.
+
+Once again, opinions differ on this demonic interference. Necromancy is such a beautiful, divergent art, is it not? The Tren? method sees the necromancer's corruption by outside forces as a negative thing, and practitioners of said method often take measures to divert supernatural attention from themselves, creating talismans to act as spiritual "conductors" or living close to the communities that despise them, the life essences of the masses masking the necromancer's dark emanations. On the other hand, the Beinagrind method welcomes the cursed whisperings that come from the demonic realms, believing it to be the completion of their psyches. Only once their spirits have been "corrupted" (a term Beinagrind practitioners scoff at) do people realize their true ambitions, they claim. Why these "true ambitions" always seem to be the utter and complete destruction of all life in this world and the summoning of unthinkable atrocities from the outer dimensions is unexplored.
+
+You may have noticed that no instruction has been given on how to deal with the attention of common folk. That is because a true necromancer requires none. They are vermin, fit only to be crushed.]], "_t")
 t("of halfling feet", "하플링의 발에 대해", "_t")
 t("misc", "도구", "newLore category")
 t("Dust to Dust", "먼지에서 먼지로", "_t")
@@ -25790,9 +25836,9 @@ t("@Source@ unleashes a flurry of disrupting kicks.", "@Source2@ 파괴적인 �
 t([[Unleash a flurry of disruptive kicks at your target's vulnerable areas. For each combo point you attack for %d%% weapon damage and deactivate one physical sustain.
 			At talent level 3 #DARK_ORCHID#Magical#LAST# sustains will also be effected.
 			At talent level 5 #YELLOW#Mental#LAST# sustains will also be effected.
-			Using this talent removes your combo points.]], [[대상의 약점에 파괴적인 발차기를 꽂아 넣습니다. 연계 점수 하나 당 무기 피해가 %d%% 상승하고, 물리적 유지기를 하나 제거합니다.
-			기술 레벨 3 일 때 #DARK_ORCHID#마법#LAST# 유지기를 제거합니다.
-			기술 레벨 5 일 때 #YELLOW#정신#LAST# 유지기를 제거합니다.
+			Using this talent removes your combo points.]], [[대상의 약점에 파괴적인 발차기를 꽂아 넣습니다. 연계 점수 1점 당 1회 씩, 무기 피해의 %d%% 만큼 공격하여 물리 유지형 기술을 하나 제거합니다.
+			기술 레벨 3 일 때 #DARK_ORCHID#마법#LAST# 유지형 기술도 제거합니다.
+			기술 레벨 5 일 때 #YELLOW#정신#LAST# 유지형 기술도 제거합니다.
 			이 기술의 사용은 연계 점수를 모두 소모합니다.]], "tformat")
 t("Relentless Strikes", "끈질긴 공격", "talent name")
 t("When gaining a combo point, you have a %d%% chance to gain an extra combo point. Additionally, every time you earn a combo point, you will regain %0.2f stamina, or %0.2f stamina if you would exceed 5 combo points.", "연계 점수를 얻을 때, %d%% 확률로 추가 연계 점수를 하나 더 얻습니다. 추가적으로, 연계 점수를 얻을 때마다 기력을 %0.2f 회복하고 연계점수가 5 이상일 때 %0.2f 기력을 회복합니다", "tformat")
@@ -28922,10 +28968,10 @@ Race features:#YELLOW#
 #WHITE#
 ]], [[오우거 종족은 인간족이 마법으로 변한 것으로, 엘발라에서 샬로레 엘프족 사이에 피신해 있습니다. 
 그들의 거대한 몸은 몸에 새겨진 복잡하게 얽힌 거미줄과 같은 룬으로 강화되었고, 오우거들도 그것에 의존합니다. 그 모습은 그들의 본성이 선하고 얌전한 편임에도 오해를 불러일으킵니다.
-오우거들은 매혹의 전투 시기에 최고 의회가 전사와 노동자로써 이용할 목적으로 만들어냈으며, 전쟁이 끝나자 버려졌습니다.  그들의 거대한 몸집과 빛나는 룬들은 마법 사냥 시기에 눈에 안 띌 수가 없었고, 결국 샬로레의 땅으로 도망친 일부를 제외하고는 모두 절멸했습니다.
+오우거들은 매혹의 전쟁 시기에 최고 의회가 전사와 노동자로써 이용할 목적으로 만들어냈으며, 전쟁이 끝나자 버려졌습니다.  그들의 거대한 몸집과 빛나는 룬들은 마법 사냥 시기에 눈에 안 띌 수가 없었고, 결국 샬로레의 땅으로 도망친 일부를 제외하고는 모두 절멸했습니다.
 오우거들이 살아남기 위해서는 자신들의 각인을 유지해야 했기 때문에, 그들의 각인 기술은 그야말로 독보적으로 발전했고 또 대대로 전승되었습니다. 비록 최대한 단순하고 빠른 방식으로 문제를 해결하려는 경향 때문에 (그리고 또... 다혈질 때문에) 무식한 짐승이라는 부당한 평을 듣고 있지만, 각인 산업과 시장이 성장함에 따라 이런 이미지를 차츰 쇄신하고 있습니다.
 
-당신은 오우거들의 내력에 대해 자세히 알게 되었고 그들의 끔찍한 창조주들에게 안식을 주었습니다. 그리고 최고 의회의 잔당들을 제거하여, 한참 전에 끝났어야 할 매혹의 전투에 진정으로 종지부를 찍었습니다. 따라서 이제부터 #LIGHT_GREEN#오우거#WHITE# 캐릭터를 생성할 수 있고, 그들의 강력한 마법의 힘을 확인할 수 있습니다!
+당신은 오우거들의 내력에 대해 자세히 알게 되었고 그들의 끔찍한 창조주들에게 안식을 주었습니다. 그리고 최고 의회의 잔당들을 제거하여, 한참 전에 끝났어야 할 매혹의 전쟁에 진정으로 종지부를 찍었습니다. 따라서 이제부터 #LIGHT_GREEN#오우거#WHITE# 캐릭터를 생성할 수 있고, 그들의 강력한 마법의 힘을 확인할 수 있습니다!
 
 종족 특징:#YELLOW#
 - 강하지만 멍청하진 않음
@@ -37169,7 +37215,7 @@ t("Regeneration infusions act over several turns, letting you anticipate damage 
 t("In the most dire circumstances teleportation can be the best escape, but is not without risk.", "모든 상황에서 순간이동은 최고의 회피기입니다. 물론 위험에 빠질 가능성이 없다는 것은 아닙니다.", "init.lua load_tips")
 t("The Ziguranth are an ancient order vehemently opposed to magic. Some have become so attuned to nature they can resist arcane forces with their will alone.", "지구랏은 고대의 조직으로 마법 사용자들에게 격렬하게 저항합니다. 몇몇 강력한 추종자들은 스스로의 의지만으로 마법의 힘에 저항할 수 있을 정도로 자연과 동화되어 있습니다.", "init.lua load_tips")
 t("Records say that giants once lived civilised lives, with mastery of many crafts and sciences. Now, though, they have adopted nomadic cultures, turning hostile against those that encroach on their lands.", "남겨진 기록에서는 거인들은 한때 문명화된 생활상을 가졌다고 전해집니다. 그들은 과학과 제작 기술에 통달했었지만, 지금은 유목 생활을 하며 그들의 영역을 침범하는 이들에게 야만적이고 호전적인 모습만을 보여줍니다.", "init.lua load_tips")
-t("Zigur was founded by escapees of Conclave experiments during the Allure wars between humans and halflings.", "지구르는 인간과 하플링 사이에 일어난 매혹의 전투동안 탈출한 최고 의회 실험 생존자들에 의해 세워졌습니다.", "init.lua load_tips")
+t("Zigur was founded by escapees of Conclave experiments during the Allure wars between humans and halflings.", "지구르는 인간과 하플링 사이에 일어난 매혹의 전쟁동안 탈출한 최고 의회 실험 생존자들에 의해 세워졌습니다.", "init.lua load_tips")
 t("The Thaloren and Shaloren elves have never had good relations, and have been outright hostile since the Spellblaze devastated many Thaloren lands.", "탈로레와 샬로레들은 좋은 관계였던 적이 없습니다. 마법폭발이 탈로레들의 땅들을 파괴한 후로는 오히려 서로 적대적입니다.", "init.lua load_tips")
 t("The third elven race, the Naloren, were rendered extinct after a huge cataclysm swept the eastern side of Maj'Eyal into the sea.", "세번째 엘프 종족인 날로레는 마즈'에이알의 동부가 바다에 잠기는 재앙 이후로 멸절한 것으로 여겨집니다.", "init.lua load_tips")
 t("Trolls were once seen as little more than beasts or pests, but the orcs trained them up for use in war and they became much more intelligent and fearsome.", "트롤들은 짐승이나 해충과 다를바 없다고 여겨졌었지만, 오크들이 전쟁에 쓰기 위해 훈련시킨 후로는 지능적이고 무서운 괴물이 되었습니다.", "init.lua load_tips")
