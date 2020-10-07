@@ -120,7 +120,7 @@ end)
 ------------------------------------------------
 section "always_merge"
 
-t("3-head", "3-head", nil)
+t("3-head", "세 머리 ", nil)
 t("3-headed hydra", "세 머리 히드라", nil)
 t("Agrimley the hermit", "은둔자 아그림레이", nil)
 t("Allied Kingdoms", "왕국연합", nil)
@@ -1474,7 +1474,7 @@ Check out the following folder on your computer:
 %s
 ]], "_t")
 t("Updating addon: #LIGHT_GREEN#%s", "애드온 업데이트 중: #LIGHT_GREEN#%s", "tformat")
-t("Really exit T-Engine/ToME?", "T-Engine/ToME를 끄시겠습니까?", "_t")
+t("Really exit T-Engine/ToME?", "T-Engine/ToME를 종료하시겠습니까?", "_t")
 t("Continue", "계속하기", "_t")
 t("Quit", "출구", "_t")
 t([[Welcome to #LIGHT_GREEN#Tales of Maj'Eyal#LAST#!

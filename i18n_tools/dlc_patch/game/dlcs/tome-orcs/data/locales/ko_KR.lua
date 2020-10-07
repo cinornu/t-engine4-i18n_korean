@@ -1519,7 +1519,7 @@ If you're very careful.]], [[이 장화는 어... 자기 스스로를 공중으�
 아마도요.
 매우 조심한다면 말입니다.]], "_t")
 t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "이 장화는 %d%% 확률로 작동을 실패합니다 (교활에 반비례).", "tformat")
-t("jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "반경 %d 칸의 범위 내의 원하는 지점으로 도약합니다. 도약 전의 위치에는 반경 2 칸의 폭발을 일으키고, (%d 불타는 화염 피해, 2 칸 밀처냄) 도약 후의 위치에는 반경 3 칸의 폭발을 일으킵니다 (%d 불타는 화염 피해, 3 칸 밀처냄) (피해량은 교활에 비례)", "tformat")
+t("jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "반경 %d 칸의 범위 내의 원하는 지점으로 도약합니다. 도약 전의 위치에는 반경 2 칸의 폭발을 일으키고, (%d 불타는 화염 피해, 2 칸 밀쳐냄) 도약 후의 위치에는 반경 3 칸의 폭발을 일으킵니다 (%d 불타는 화염 피해, 3 칸 밀쳐냄) (피해량은 교활에 비례)", "tformat")
 t("#LIGHT_RED#You see no place to land near there.", "#LIGHT_RED#그 근처에는 착륙할 곳이 없다.", "logPlayer")
 t("engulfs %s spectacularly", "%s 덮치는", "tformat", nil, {"를"})
 t("launches %s in the air", "%s 하늘로 띄우는", "tformat", nil, {"를"})
@@ -1647,7 +1647,7 @@ t("Gain a random beneficial effect", "무작위한 이로운 효과를 하나 �
 t("vibrating shield", "떨리는 방패", "_t")
 t("Deflector", "편향기", "entity name")
 t("The front plate of this shield vibrates at all times, covering some strange assembly you can't quite make sense of.", "이 방패의 전면부는은 항상 얉게 진동합니다. 좀처럼 작동 구조를 이해할 수 없는 기계 부품으로 덮혀있습니다.", "_t")
-t("Knocks melee attackers away. Distance scales with damage incoming.", "근접 공격에 피격당할 시, 적을 멀리 밀칩니다. 밀처내는 거리는 피해량에 비례하여 증가합니다.", "_t")
+t("Knocks melee attackers away. Distance scales with damage incoming.", "근접 공격에 피격당할 시, 적을 멀리 밀칩니다. 밀쳐내는 거리는 피해량에 비례하여 증가합니다.", "_t")
 t("Skysmasher", "하늘 파쇄자", "entity name")
 t("rocket powered maul", "로켓으로 작동하는 망치", "_t")
 t("The discovery of rockets has proved incredibly dangerous. It is not always clear for whom.", "로켓의 발명은 엄청나게 위험한 것으로 여겨졌습니다. 누구에게나 항상 명확한건 아니니까요.", "_t")
@@ -3354,7 +3354,7 @@ t([[Spin your saw at incredible speeds for an instant, fully breaking reality in
 		The damage will increase with your Spellpower.]], [[짧은 시간동안 톱을 믿을 수 없는 속도로 빠르게 회전시켜, 현실의 구조를 완전히 파괴시키는 3 칸 두께의 광선을 쏘아냅니다.
 		광선 내의 모든 개체는 %0.2f 비술 피해를 받고, 현실에서 잠시 벗어나게 되어, 4 턴 동안 전체 속도가 %d%% 감소하고, 영향을 받은 적이 발사하는 투사체 속도 역시 %d%% 감소하게 됩니다.
 		기술 레벨 3 에서, 광선 안의 모든 투사체는 즉시 섬멸됩니다.
-		기술 레벨 5 에서, 광선은 무지막지한 힘을 발휘하게 되어, 광선 내의 모든 개체를 3 칸 밀처냅니다.
+		기술 레벨 5 에서, 광선은 무지막지한 힘을 발휘하게 되어, 광선 내의 모든 개체를 3 칸 밀쳐냅니다.
 		현실 구조에 입히는 균열은 너무나도 깊어, 광선은 언제나 최대 사거리로 발사됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Ethereal Steam", "에테르의 증기", "talent name")

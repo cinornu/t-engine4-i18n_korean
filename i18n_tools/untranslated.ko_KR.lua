@@ -3166,13 +3166,10 @@ t("%s %s: ", "%s %s: ", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/EscortRewards.lua"
--- 5 entries
-t("improved", "improved", "_t")
-t("learnt", "learnt", "_t")
+-- 2 entries
 t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
-t("gained talent category %s (at mastery %0.2f)", "gained talent category %s (at mastery %0.2f)", "tformat")
 t([[#GOLD#%s / %s#LAST#
 %s]], [[#GOLD#%s / %s#LAST#
 %s]], "tformat")
