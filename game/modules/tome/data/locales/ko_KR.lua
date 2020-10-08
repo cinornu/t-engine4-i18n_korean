@@ -373,8 +373,8 @@ t("[Improve %s by +%d]", "[%s +%d]", "tformat")
 t("improved %s save by +%d", " %s 내성 +%d", "tformat")
 t("[Improve %s save by +%d]", "[%s 내성 by +%d]", "tformat")
 t("%s talent %s (+%d level(s))", "%s %s (+%d 레벨)", "tformat")
-t("improved", "향상 :", "_t")
-t("learnt", "배우기 :", "_t")
+t("improved", "향상됨 -", "_t")
+t("learnt", "배움 -", "_t")
 t("Improve", "향상 :", "_t")
 t("Learn", "배우기 :", "_t")
 t("[%s talent %s (+%d level(s))]", "[%s %s (+%d 레벨)]", "tformat")
@@ -492,6 +492,7 @@ section "game/modules/tome/class/GameState.lua"
 
 t("crackling", "치직", "_t")
 t("Ambush!", "복병이다!", "_t")
+t("%s the %s", "%s %s", "tformat", {2,1})
 t("Exterminator", "절멸자", "_t")
 t("but nobody knew why #sex# suddenly became evil", "하지만 왜 그 #sex#이 타락했는지는 아무도 모릅니다.", "_t")
 t("Accept", "수락", "_t")
@@ -503,8 +504,19 @@ section "game/modules/tome/class/Grid.lua"
 
 t("Leave", "떠난다", "_t")
 t("Open", "연다", "_t")
-t("%s's %s", "%s 의 %s", "tformat")
+t("spot", "지형", "_t")
+t("%s's %s", "%s의 %s", "tformat")
+t("Min.level: ", "최소 레벨: ", "_t")
+t("Never visited yet", "미답 상태", "_t")
+t("In sight", "시야 내", "_t")
+t("Lit", "밝음", "_t")
+t("Blocks sight", "시야를 가림", "_t")
+t("Blocks movement", "통행 불가능", "_t")
+t("Special breathing method required", "특수한 호흡 방법이 필요", "_t")
 t("Diggable", "굴착 가능", "_t")
+t("Cannot teleport to this place", "이 곳으로 순간이동 불가능", "_t")
+t("Coords: ", "좌표: ", "_t")
+t("map attrs: ", "맵 속성: ", "_t")
 t("#VIOLET#You hear a mechanism clicking.", "#VIOLET#어떤 장치가 딸깍 하는 소리를 들었다.", "log")
 
 
@@ -513,7 +525,7 @@ section "game/modules/tome/class/MapEffects.lua"
 
 t(" area effect", " 지형 효과", "_t")
 t("area effect", "지형 효과", "_t")
-t("%s's %s", "%s 의 %s", "tformat")
+t("%s's %s", "%s의 %s", "tformat")
 
 
 ------------------------------------------------
@@ -522,8 +534,10 @@ section "game/modules/tome/class/NPC.lua"
 t("#PINK#Your summoned %s disappears.", "#PINK#소환물 %s 사라졌다.", "logPlayer", nil, {"가"})
 t("her", "그녀", "_t")
 t("him", "그", "_t")
+t("Killed by you: %s", "당신이 죽인 횟수: %s", "tformat")
 t("Target: ", "대상: ", "_t")
 t("none", "없음", "_t")
+t("%s says: '%s'", "%s 말했다: '%s'", "logSeen", nil, {"가"})
 
 
 ------------------------------------------------
@@ -937,7 +951,8 @@ t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#퀘스트 '%s' 실패!", "saySimp
 ------------------------------------------------
 section "game/modules/tome/class/Projectile.lua"
 
-t("%s's %s", "%s 의 %s", "tformat")
+t("Coords: ", "좌표: ", "_t")
+t("%s's %s", "%s의 %s", "tformat")
 
 
 ------------------------------------------------
@@ -952,7 +967,7 @@ t("Sell", "판매", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/Trap.lua"
 
-t("%s's %s", "%s 의 %s", "tformat")
+t("%s's %s", "%s의 %s", "tformat")
 t("neutral", "중립", "_t")
 t("hostile", "적대적인", "_t")
 t("friendly", "우호적", "_t")
@@ -991,6 +1006,7 @@ t("Ryal the Towering", "거탑 같은 라이알", "_t")
 t("Fryjia the Hailstorm", "우박폭풍의 프리지아", "_t")
 t("Riala the Crimson", "진홍의 리아라", "_t")
 t("Valfren the Rampage", "미쳐 날뛰는 발프렌", "_t")
+t("%s the %s", "%s %s", "tformat", {2,1})
 
 
 ------------------------------------------------
@@ -5019,7 +5035,7 @@ t([[Yes, we have sensed the blight of the eldritch forces there. I have people w
 We know that a Tempest, a powerful Archmage who can control the storms, is responsible for the damage. Those wretched fools from Angolwen will not act. All corrupted!
 So you must act, @playername@. I will show you the location of this mage - high in the Daikara mountains.
 Erase him.]], [[그래, 우리도 그곳의 섬뜩한 황폐의 힘을 감지했다. 그 구름을 없애라는 명을 내려 뒀지만, 그 원인이 다른 곳에 있더군.
-우린 폭풍을 제어할 수 있을 정도로 강력한 대기술사를 한 명 알고 있다. 놈에게 이 모든 사태의 책임이 있지. 앙골웬의 사악한 멍청이들은 가만히 있을 뿐이야. 오염된 쓰레기들 같으니라고!
+우린 폭풍을 제어할 수 있을 정도로 강력한 대기술사를 한 명 알고 있다. 놈에게 이 모든 사태의 책임이 있지. 앙골웬의 사악한 멍청이들은 가만히 있을 뿐이야. 타락한 쓰레기들 같으니라고!
 그러므로, 네가 해야 한다, @playername@. 그 마법사 놈이 있는 곳을 알려 주마. 다이카라 산의 높은 봉우리다.
 놈을 이 세상에서 지우고 와라.]], "_t")
 t("You can count on me, Protector.", "기대에 부응하겠습니다, 보호자님.", "_t")
@@ -7565,13 +7581,13 @@ t("undead", "언데드", "entity type")
 t("necrotic mass", "강령술 덩어리", "entity name")
 t("This putrid mass of rotting flesh shifts and quivers, but shows no signs of intelligence or mobility.", "이 썩어가는 살덩어리는 모습을 바꾸며 가볍게 떨고 있지만, 어떤 지능도, 움직임도 보여주지 않습니다.", "_t")
 t("necrotic abomination", "강령술 혐오체", "entity name")
-t("This monstrous form of putrid, torn flesh and chipped bone drags its mass towards you, spurting blood and viscera along the way.", "이 썩어가는, 찢겨진 살과 깨진 뼈로 이루어진 괴물같은 형체는 피와 내장을 뿜어내며 당신에게 다가오고있습니다.", "_t")
-t("#VIOLET#As the necrotic abomination is destroyed you see the remaining bones and flesh reassembling in the form of new foes!", "#VIOLET#강령술 혐오체가 파괴되자, 남아있는 뼈와 살이 재조합되어, 새로운 적으로 형성되었다!", "logSeen")
+t("This monstrous form of putrid, torn flesh and chipped bone drags its mass towards you, spurting blood and viscera along the way.", "이 썩어가는, 찢겨진 살과 깨진 뼈로 이루어진 괴물같은 형체는 피와 내장을 뿜어내며 당신에게 다가오고 있습니다.", "_t")
+t("#VIOLET#As the necrotic abomination is destroyed you see the remaining bones and flesh reassembling in the form of new foes!", "#VIOLET#강령술 혐오체가 파괴되자, 남아있는 뼈와 살이 재조합되어, 새로운 적들이 되었다!", "logSeen")
 t("bone horror", "뼈의 공포", "entity name")
-t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락 거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 동시에, 팔다리는 내부로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
-t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new foes!", "#VIOLET#뼈의 공포가 파괴되자, 남아있는 뼈와 살이 재조합되어 새로운 적으로 형성되었다!", "logSeen")
+t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 동시에, 팔다리는 내부로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
+t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new foes!", "#VIOLET#뼈의 공포가 파괴되자, 남아있는 뼈와 살이 재조합되어 새로운 적들이 되었다!", "logSeen")
 t("sanguine horror", "피의 공포", "entity name")
-t("This pulsing, quivering form is a deep crimson, and appears to be composed entirely of thick, virulent blood. Waves rhythmically ripple across its surface, indicating a still beating heart somewhere in its body.", "이 박동하며 떨고있는 형태는 진한 핏빛을 띄고 있으며, 끈적이고, 치명적인 혈액으로만 구성된 것 같습니다. 그 표면에서는 규칙적으로 잔물결이 퍼져, 피로 이루어진 몸 속 어딘가에 아직도 박동하는 심장이 존재함을 보여줍니다.", "_t")
+t("This pulsing, quivering form is a deep crimson, and appears to be composed entirely of thick, virulent blood. Waves rhythmically ripple across its surface, indicating a still beating heart somewhere in its body.", "이 박동하며 떨고 있는 형체는 진한 핏빛을 띠고 있으며, 끈적이고, 치명적인 혈액으로만 구성된 것 같습니다. 그 표면에서는 규칙적으로 잔물결이 퍼져, 피로 이루어진 몸 속 어딘가에 아직도 박동하는 심장이 존재함을 보여줍니다.", "_t")
 t("animated blood", "살아 움직이는 피", "entity name")
 t("blood", "혈액", "entity subtype")
 t("This crimson shape drips ceaselessly, spattering the nearby ground. The droplets seem to continue moving of their own volition.", "이 핏빛 형체는 끊임없이 핏방울을 떨어뜨려, 바닥을 피로 적십니다. 물방울들은 스스로의 의지를 갖고 끊임없이 움직이는 것 같습니다.", "_t")
@@ -7583,8 +7599,8 @@ section "game/modules/tome/data/general/npcs/horror.lua"
 t("horror", "공포", "entity type")
 t("worm that walks", "걸어다니는 벌레떼", "entity name")
 t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
-Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[이 썩어가는 로브는 당장이라도 터질 것 같습니다. 이 끔찍한 존재가 움직일 때마다 부풀어오른 벌레 떼들이 몸 여기저기서 쏟아저 나옵니다. 2 개의 팔 같은, 점액질로 끈적이는 구더기로 이루어진 팔이 담즙이 흘러나오는 전투 도끼의 손잡이 부분을 꽉 쥐고있습니다.
-무기를 휘두르자, 고름이 뚝뚝 흘러내립니다. 작은 방울 하나 하나가 땅바닥에 닿기 전까지 꿈틀거림을 멈추지 않습니다.]], "_t")
+Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[이 썩어가는 로브는 당장이라도 터질 것 같습니다. 이 끔찍한 존재가 움직일 때마다 부풀어오른 벌레 떼들이 몸 여기저기서 쏟아저 나옵니다. 2 개의 팔 같은, 점액질로 끈적이는 구더기로 이루어진 팔이 담즙이 흘러나오는 전투 도끼의 손잡이 부분을 꽉 쥐고 있습니다.
+무기를 휘두르자, 고름이 뚝뚝 흘러내립니다. 작은 방울 하나하나가 땅바닥에 닿기 전까지 꿈틀거림을 멈추지 않습니다.]], "_t")
 t("#LIGHT_RED#A carrion worm mass has spawned from %s' wounds!", "#LIGHT_RED#%s의 상처에서 시체 벌레떼가 튀어나왔다!", "logSeen")
 t("bloated horror", "부풀어오른 공포", "entity name")
 t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 띈 형체가 공중에 떠 있습니다. 머리카락이 없는, 아이의 것 같은 머리는 몸에 비해 말도 안되게 거대하고, 그 피부는 붉은 상처로 곰보 자국이 잔뜩 나있습니다.", "_t")
@@ -8021,7 +8037,7 @@ t("giant brown mouse", "거대한 갈색 생쥐", "entity name")
 t("giant white rat", "거대한 흰색 시궁쥐 ", "entity name")
 t("giant brown rat", "거대한 갈색 시궁쥐", "entity name")
 t("giant rabbit", "거대한 토끼", "entity name")
-t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "와빗을 죽여, 와빗을 죽여, 와빗을 주우우우겨어어어어어ㅓ.", "_t")
+t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "와빗을 죽여, 와빗을 죽여, 와빗을 주우우우겨어어어어어.", "_t")
 t("giant crystal rat", "거대 수정 시궁쥐", "entity name")
 t("Instead of fur, this rat has crystals growing on its back, which provide extra protection.", "이 시궁쥐는 털 대신 보호의 수정이 등 뒤에 달려있습니다.", "_t")
 t("giant grey mouse", "거대한 회색 생쥐", "entity name")
@@ -14754,6 +14770,30 @@ section "game/modules/tome/data/lore/old-forest.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/orc-prides.lua"
 
+t("Grushnak's Note", "그루쉬낙의 일지", "_t")
+t([[Treachery! During a patrol around the outskirts of the High Peak I witnessed two orcs - the envoys from our supposed "master" - talking in secret. Remaining to watch them, I beheld as their orcish features sloughed from their bodies, revealing a pair of human wizards! Humans! To think that our great pride has been deceived in such a manner! I should have crushed their skulls there and then. However, mages can be crafty, so I left them to their scheming.
+
+Even now the blood runs hot! What would Garkul, our mighty berserker king, think if he saw our great race bending before humans?! Many times I have entertained the idea of taking a group of my finest warriors and ending this folly, but... loathsome as it is, I must use tact. A rebellion would leave my pride weakened, easy prey. That bone-picker Rak'Shor and his unnatural creations have dreamed of my death (and subsequent dominion) for years, I know this to be true. This conundrum frustrates and confuses! ... At least we are agreed on one matter - the total destruction of those sun-worshipping dogs of the Gates of Morning...]], [[배신자들! 최고봉 근처를 순찰하다가 오크 두 명을 보았다. 우리의 소위 "주인" 이 보낸 사절들이었는데, 그 녀석들은 뭔가 비밀스런 이야기를 하고 있었다. 그래서 놈들을 계속 지켜보고 있었는데, 놈들의 오크스러움이 벗겨지고 그 밑에서 인간 마법사의 모습이 드러나는 게 아닌가! 인간 놈들! 감히 우리의 위대한 긍지를 그런 식으로 기만해? 놈들의 머리통을 그 자리에서 바로 깨 버렸어야 했는데. 하지만 마법사라는 족속들은 교활하니, 일단은 놈들이 자기들 계획을 진행하도록 놔 뒀다.
+
+지금까지도 피가 끓어오르고 있다! 우리의 막강한 광전사 왕 가르쿨이, 위대한 우리 종족이 인간 놈들에게 고개를 숙이는 걸 봤다면 무슨 생각을 할까?! 내 정예 전사들과 함께 이 광대놀음을 끝내는 상상은 몇 번을 해도 즐거웠지만, 으... 지금은 그런 짓을 할 때가 아니다. 좀 역겹긴 하지만, 머리를 써야지. 지금 들고 일어나면 내 긍지는 약해져, 손쉬운 먹잇감이 될 거다. 뼈나 갖고 노는 락'쇼르 놈과 그 언데드 똘마니들은 지난 몇 년간 내가 죽기만을 바라고 있으니까 (내 시체도 노예로 굴리고 싶은 모양이다), 틀림없이 그렇게 되겠지. 이러지도 저러지도 못하고 미칠 지경이다! ... 뭐 그나마 우리에겐 똑같은 목적이 있다 - 아침의 문에서 태양을 숭배하는 개자식들을 완전히 갈아버리는 거지...]], "_t")
+t("Rak'Shor's Note", "락'쇼르의 일지", "_t")
+t([[The eyes of the dead bring interesting news to me. Our masters are not what they appear; they are human, simply masquerading as orcs in our presence. I might have suspected this... it is difficult to disguise the basic weakness and frailty of a human soul, even with complex spells. Their goals elude me, yet I sense strange energies in the vicinity of the High Peak - the voices of spirits long departed from this world... some not from this world at all.
+
+But this is foolishness compared to my current trials. Gorbat remains as obstinate as ever, the dragon-loving, scale-shining buffoon. He thinks that dragons are special, different, not suitable for my craft. I care not for his prattling, I desire the corpses of dragons! Mountains of them! How can his heart not beat a little faster at the prospect of a dracozombie?! The mere thought of it is enough to send delightful shivers down my spine...]], [[죽은 자들의 눈은 내게 흥미로운 소식들을 가져다 준다. 우리의 주인들은 겉모습과는 다르게 인간이며, 우리 앞에서만 오크의 가면을 쓰고 있는 것 뿐이라고 한다. 더 빨리 알아챌 수도 있었는데... 아주 고도의 마법을 사용하더라도, 인간의 영혼이 가지고 있는 기본적인 취약점과 연약함을 숨기는 것은 쉬운 일이 아니니까. 그 녀석들의 목적은 알 수가 없지만, 최고봉 쪽에서 이상한 에너지가 느껴진다 - 오래 전에 세상을 떠난 영혼들의 목소리가... 아예 다른 세상에서 온 것들도 있다.
+
+하지만 내 계획에 비하면 하찮기 짝이 없는 것이다. 고르뱃은 여전히 꽉 막힌 용 애호가고, 우스꽝스럽게 비늘에 광이나 내면서 살고 있다. 그놈은 용족은 아주 특별하고 남달라서, 내 작품에는 어울리지 않는다고 생각하고 있다. 그놈이 뭐라고 주절거리든 상관없다, 용의 시체가 필요하다! 산더미만큼 말이야! 고르뱃 놈, 어떻게 그렇게까지 좀비 용에 관심이 없을 수가 있는 거지?! 난 상상만 해도 들떠서 등골에 소름이 쫙 끼치는데 말이야...]], "_t")
+t("Gorbat's Note", "고르뱃의 일지", "_t")
+t([[My dragons bring news. They witnessed humans upon the High Peak, speaking of their mastery over our prides. They did not heed my dragons, unwitting of their ability to communicate with me. Now I possess this information, I must think deeply on how to proceed regarding our "masters". Many of my finest wyrmics wish to rise up against our deceivers, see them consumed in wyrmfire. Even some of my dragons have divulged this wish to me. Sadly, this must wait.
+
+Vor's insolence will be tolerated no longer! His claims that his pride's mastery over the elements surpasses that of the dragons is insult enough, but this...! Some of my finest dragons, my glorious multi-hued wyrms, have been captured and held within their armouries in the hopes that they can further their twisted mockeries of fire and ice! This will not stand! I must ignore the plots of our human deceivers for the moment, for Vor requires my full attention.]], [[내 용들이 새 소식을 가져왔다. 최고봉에서 인간들을 봤고, 그놈들이 우리 긍지들을 어떻게 지배할지 이야기를 하고 있었다 한다. 놈들은 내 용들이 나랑 소통을 할 수 있다는 걸 몰라서 그냥 놔 둔 것 같다. 이제 이 정보를 얻게 됐으니, 우리 "주인들" 을 어떻게 요리해 드릴지 잘 생각해봐야 한다. 내 휘하의 정예 용인들은 우릴 속인 놈들에게 맞서서, 놈들이 화염 숨결을 뒤집어쓰는 꼴을 보고 싶어 한다. 심지어 내 용들 중에서도 그러고 싶어 하는 녀석들이 있다. 안타깝지만, 지금은 때를 기다려야 한다.
+
+보르 놈의 무례함을 더는 참을 수가 없다! 자기네 긍지의 원소에 대한 숙련도는 용들마저 넘어선다는 소리만으로도 충분히 모욕적이지만, 그래도 이건...! 내 정예 용들을, 내 자랑스러운 다색 용들을 붙잡아서, 자기네 무기고에 가뒀다니! 자기들의 엉터리 같은 불장난 얼음장난이 더 나아질 거라는 어처구니없는 이유로! 이건 선을 넘었다! 지금은 우릴 속인 인간 놈들의 계획은 놔 두고, 보르 놈에게 집중해야만 한다.]], "_t")
+t("Vor's Note", "보르의 일지", "_t")
+t([[Strange lights play atop the High Peak. Torches? Nay. The fire of dragons? Not so. A volcanic eruption, perchance? Alas, no. It is unmistakably the fire of the arcane, the fire of mages, and seeing as every pyromancer within our pride is under my dominion, I can only assume that these lights come from one not affiliated with us. The lights are fascinating, I wish to study them; they put me in mind of the fires of the Spellblaze, burning so very long ago...
+
+Sadly, such desires are denied to me at this moment. Plans are in motion, and we are scant weeks away from finally crushing the accursed sun paladins and their tin-plated harlot ruler. Even once the Sunwall lies in ruins I must be careful - the horde of sub-orc savages Grushnak calls a pride are ever at my door, claiming we do not follow Garkul's "true path". He is a fool, but dangerous, and I must be vigilant.]], [[최고봉 윗쪽에서 이상한 불빛들이 깜박이고 있다. 횃불인가? 그럴 리가. 용들의 불꽃인가? 아마 아닐 거다. 화산 분출일 수도? 아아, 그럴 리가 없지. 마법으로 일어난 불꽃, 마법사들의 불꽃이 틀림없다. 그리고 우리 긍지의 화염술사들은 전부 내 휘하에 있으니, 저 빛은 우리랑 상관 없는 자들이 만들어낸 것이라 생각할 수밖에 없다. 그 빛들은 참 매력적이다 - 연구해 보고 싶군. 아주 옛날에 불타올랐던, 마법폭발의 불꽃을 떠올리게 만든다...
+
+안타깝지만, 지금은 이런 것들을 접어둘 수 밖에 없다. 계획은 착착 진행되고 있고, 이제 몇 주만 더 준비하면 그 저주받을 태양의 기사들과 놈들을 이끄는 깡통 갑옷 입은 화냥년을 끝장내 버릴 수 있다. 그리고 태양의 장벽이 아주 폐허가 되더라도 조심해야 한다 - 그루쉬낙 놈은 자기 긍지라고 부른다만, 유사 오크라고 하는 게 더 정확한 야만인들이 아직까지도 대문에 몰려들어서 우리가 가르쿨의 "진짜 길" 을 따르지 않는다고 아우성치고 있기 때문이다. 그루쉬낙 놈은 멍청하지만 위험하니까, 항상 경계해야만 한다.]], "_t")
 t("Records of Lorekeeper Hadak part one", "전승지기 하다크의 기록 제1부", "_t")
 t("Records of Lorekeeper Hadak part two", "전승지기 하다크의 기록 제2부", "_t")
 t("Records of Lorekeeper Hadak part three", "전승지기 하다크의 기록 제3부", "_t")
@@ -15820,7 +15860,7 @@ t("Temporal Warden", "시간 감시자", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/quests/trollmire-treasure.lua"
 
-t("You have found all the clues leading to the hidden treasure. There should be a way on the third level of the Trollmire.", "숨겨진 보물에 대한 모든 단서를 찾았습니다. 트롤 늪에는 세 번째 구역으로 가는 길이 있을 것입니다.", "_t")
+t("You have found all the clues leading to the hidden treasure. There should be a way on the third level of the Trollmire.", "숨겨진 보물에 대한 모든 단서를 찾았습니다. 트롤 늪의 세 번째 구역에 보물이 있는 곳으로 가는 길이 있을 것입니다.", "_t")
 t("It looks extremely dangerous, however - beware.", "하지만 굉장히 위험해 보입니다 - 조심하세요.", "_t")
 t("You have slain Bill. His treasure is yours for the taking.", "빌을 처단했습니다. 그 보상으로 그의 보물은 모두 당신 것입니다.", "_t")
 t("way to the hidden trollmire treasure", "트롤 늪의 숨겨진 보물로 통하는 길", "_t")
@@ -16369,7 +16409,7 @@ t([[Chant the glory of the Moons, granting you %d%% stun, blindness and confusio
 		한 번에 하나의 찬가만 활성화할 수 있습니다.]], "tformat")
 t("Hymn of Moonlight", "월광의 찬가", "talent name")
 t("#DARK_GREY#A shroud of shadow dances around %s!", "#DARK_GREY#%s 주위의 그림자가 춤추기 시작합니다!", "logSeen")
-t("%s's %s", "%s 의 %s", "tformat")
+t("%s's %s", "%s의 %s", "tformat")
 t("#DARK_GREY#The shroud of shadows around %s disappears.", "#DARK_GREY#%s 주위의 그림자가 사라집니다.", "logSeen")
 t([[Chant the glory of the Moons, conjuring a shroud of dancing shadows that follows you as long as this spell is active.
 		Each turn, a shadowy beam will hit up to %d of your foes within radius 5 for 1 to %0.2f damage.
@@ -19423,7 +19463,7 @@ t([[You slash wildly at your target for %d%% (at 0 Hate) to %d%% (at 100+ Hate) 
 		피해량은 힘에 비례하여 증가합니다.
 
 		방패를 들고 있는 경우, 이 기술을 사용할 때 방패로도 공격합니다.]], "tformat", {1,2,4,3})
-t("Frenzy", "난도질", "talent name")
+t("Frenzy", "광분", "talent name")
 t("You require a mainhand weapon to use this talent.", "이 기술을 사용하기 위해서는 주 무기 칸에 장비를 장착해야 한다.", "logPlayer")
 t([[Assault nearby foes with 4 fast attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Stalked prey are always targeted if nearby.
 		At level 3 the intensity of your assault overwhelms anyone who is struck, reducing their Defense by %d for 4 turns.
@@ -20169,7 +20209,7 @@ t([[Instantly call all of your bloated oozes to your aid.
 		If you have less than the maximum number of oozes allowed by the Mitosis talent, up to %d will be created with %d life (%d%% of the maximum life allowed by Mitosis).
 		Each ooze created will form near a random foe in sight (no more than one ooze per target) and grab its attention.
 		This will then allow you to channel a melee attack through your ooze to its target, doing %d%% weapon damage (as Acid).]], [[모든 불어터진 점액을 불러모아 시전자을 돕게합니다. 이 기술은 턴을 소모하지 않습니다.
-		만약 최대치에 못미치는 점액을 갖고있다면, 최대 %d 개가 %d 생명력을 갖고 생성됩니다. (불어터진 점액이 갖을 수 있는 최대 생명력의 %d%% 입니다).
+		만약 최대치에 못미치는 점액을 갖고있다면, 최대 %d 개가 %d 생명력을 갖고 생성됩니다. (불어터진 점액이 가질 수 있는 최대 생명력의 %d%% 입니다).
 		점액은 시야 내의 적 인근에 나타나며 (하나의 적에게 하나의 점액만 생성됩니다) 적의 주의를 끕니다.
 		점액은 각각의 대상에게 산성 피해를 입히는 근접 공격을 실시합니다.]], "tformat")
 t("Indiscernible Anatomy", "불가해한 해부학", "talent name")
@@ -20724,7 +20764,7 @@ t("%s resists the cut!", "%s 출혈에 저항했다!", "logSeen", nil, {"는"})
 t([[Bites the target for %d%% weapon damage, potentially causing it to bleed for %d%% weapon damage over five turns.
 		If the target is affected by the bleed it will send the devourer into a frenzy for %d turns (which in turn will frenzy other nearby devourers).
 		The frenzy will increase global speed by %d%%, physical crit chance by %d%%, and prevent death until -%d%% life.]], [[적을 물어 뜯어 %d%% 무기 피해를 주고 확률적으로 5 턴에 걸쳐 %d%% 무기 피해를 입히는 출혈효과를 유발합니다.
-		대상이 출혈 시, 포식귀가 %d 턴 동안 광란 상태에 돌입하고, 주변의 devourer 역시 광란 상태에 빠집니다.
+		대상이 출혈 시, 포식귀가 %d 턴 동안 광란 상태에 돌입하고, 주변의 포식귀들 역시 광란 상태에 빠집니다.
 		광란시 전체속도가 %d%% , 물리 치명타 확률이 %d%% 증가하고 생명선 하한이 -%d%% 됩니다.]], "tformat")
 t("Abyssal Shroud", "심연의 장막", "talent name")
 t("Creates a shroud of darkness over a radius 3 area that lasts %d turns.  The shroud causes %0.2f darkness damage each turn, reduces light radius by %d, and darkness resistance by %d%% of those within.", "반경 3 칸 내에 %d 턴 동안 지속되는 심연의 장막을 생성합니다. 장막 내부의 모든 대상은 매 턴 %0.2f 암흑 피해를 받고, 광원 반경이 %d 줄어듭니다. 추가로 어둠 저항이 %d%% 감소합니다.", "tformat")
@@ -22366,7 +22406,7 @@ t("Beyond the Flesh", "육체 초월", "talent name")
 t("#Source#'s mindstar telekinetically grabs #target#!", "#Source#의 마석이 #target3# 염동력으로 붙잡았다 !", "logCombat")
 t("%s telekinetically grabs %s!", "%s %s 염동력으로 붙잡는다 !", "logSeen", nil, {"는","을"})
 t("You require a telekinetically wielded weapon or gem for your psionic focus.", "초능력 집중을 위해서는 염동력으로 장착한 무기나 보석이 필요하다.", "logPlayer")
-t("%s's %s", "%s 의 %s", "tformat")
+t("%s's %s", "%s의 %s", "tformat")
 t([[Allows you to wield a physical melee or ranged weapon, a mindstar or a gem telekinetically, gaining a special effect for each.
 		A gem will provide a +3 bonus to all primary stats per tier of the gem.
 		A mindstar will randomly try to telekinetically grab a far away foe (10% chance and range 3 for a tier 1 mindstar, +1 range and +5% chance for each tier above 1) and pull it into melee range.
@@ -22466,7 +22506,7 @@ t([[Overcharge your psionic focus with energy for %d turns, producing a differen
 		A telekinetically wielded melee weapon enters a frenzy, striking up to %d enemies per turn, also increases the radius by %d.
 		A mindstar will attempt to pull in all enemies within its normal range.
 		A gem will fire an energy bolt at a random enemy in range 6, each turn for %0.1f damage. The type is determined by the colour of the gem. Damage scales with Mindpower.]], [[%d 턴 동안 염동력을 과부화시켜, 염동력 장착 장비에 따른 다양한 효과를 발생시킵니다.
-		근접 무기는 광폭화 상태애 진입하며, 최대 %d 의 적을 동시에 타격하며, 범위 또한 %d 증가 합니다.
+		근접 무기는 광폭화 상태에 진입하며, 최대 %d 의 적을 동시에 타격하며, 범위 또한 %d 증가 합니다.
 		마석은 범위 내의 모든 적을 끌어당길 것입니다.
 		보석은 6 칸 이내의 무작위한 적에게 에너지의 화살을 쏘아, 매 턴 %0.1f 피해를 입힙니다. 피해 속성은 보석의 색에 의해 결정됩니다. 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
@@ -23451,9 +23491,9 @@ t([[By crushing an alchemist gem you generate a thunderclap in a cone of radius 
 		The duration and damage will increase with your Spellpower.]], [[연금술 보석을 파괴해 반경 %d 칸의 원뿔 범위에 천둥을 생성합니다. 천둥은 %0.2f 물리 피해와 %0.2f 전기 피해를 줍니다.
 		범위 내의 대상은 뒤로 밀려나고, %d 턴 동안 무장 해제됩니다.
 		지속시간과 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Living Lightning", "살아움직이는 전류", "talent name")
+t("Living Lightning", "살아 움직이는 전류", "talent name")
 t("#LIGHT_STEEL_BLUE#%s is energized by all the damage taken!", "#LIGHT_STEEL_BLUE#%s 받은 피해로 강화된다!", "logSeen", nil, {"는"})
-t("%s's %s", "%s 의 %s", "tformat")
+t("%s's %s", "%s의 %s", "tformat")
 t([[Infuse your body with lightning energy, bolstering your movement speed by +%d%%.
 		Each turn, a foe within range %d will be struck by lightning and be dealt %0.1f Lightning damage.
 		In addition, damage to your health will energize you.
@@ -36442,8 +36482,8 @@ t("Disallow boot images that could be found 'offensive'.#WHITE#", "실행 시 �
 t("#GOLD##{bold}#Censor boot#WHITE##{normal}#", "#GOLD##{bold}#민감한 이미지 제한#WHITE##{normal}#", "_t")
 t("Replace headwear images by cloak hoods if a cloak is worn#WHITE#", "망토 장착 시, 머리 방어구의 이미지가 망토의 후드로 대체됩니다#WHITE#", "_t")
 t("#GOLD##{bold}#Show cloak hoods#WHITE##{normal}#", "#GOLD##{bold}#망토 후드 표시#WHITE##{normal}#", "_t")
-t("disabled", "끄기", "_t")
-t("enabled", "켜기", "_t")
+t("disabled", "꺼짐", "_t")
+t("enabled", "켜짐", "_t")
 
 
 ------------------------------------------------
@@ -36870,8 +36910,8 @@ Evolutions are special prodigies specific to a class or race. Only one evolution
 ------------------------------------------------
 section "game/modules/tome/dialogs/UnlockDialog.lua"
 
-t("#VIOLET#Option unlocked: %s", "#VIOLET# 옵션 언락: %s", "logPlayer")
-t("Option unlocked: %s", "해금 표시: %s", "tformat")
+t("#VIOLET#Option unlocked: %s", "#VIOLET# 옵션 해금됨 - %s", "logPlayer")
+t("Option unlocked: %s", "옵션 해금됨 -  %s", "tformat")
 
 
 ------------------------------------------------
@@ -37111,6 +37151,7 @@ section "game/modules/tome/dialogs/talents/ChronomancyContingency.lua"
 
 t("Contingency", "불확실성 대비", "_t")
 t("Talent", "기술", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 
 
 ------------------------------------------------
@@ -37118,6 +37159,7 @@ section "game/modules/tome/dialogs/talents/ChronomancyEmpower.lua"
 
 t("Empower", "시간의 힘 부여", "_t")
 t("Talent", "기술", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 
 
 ------------------------------------------------
@@ -37125,6 +37167,7 @@ section "game/modules/tome/dialogs/talents/ChronomancyExtension.lua"
 
 t("Extension", "시간의 힘 연장", "_t")
 t("Talent", "기술", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 
 
 ------------------------------------------------
@@ -37132,6 +37175,7 @@ section "game/modules/tome/dialogs/talents/ChronomancyMatrix.lua"
 
 t("Matrix", "시간의 힘 정렬", "_t")
 t("Talent", "기술", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 
 
 ------------------------------------------------
@@ -37139,6 +37183,7 @@ section "game/modules/tome/dialogs/talents/ChronomancyQuicken.lua"
 
 t("Quicken", "시간의 힘 가속", "_t")
 t("Talent", "기술", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 
 
 ------------------------------------------------

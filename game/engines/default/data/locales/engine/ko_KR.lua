@@ -891,8 +891,8 @@ Disable if you have bandwidth limitations.#WHITE#]], [[Steam 클라우드 저장
 저장된 게임이 Steam 클라우드에 동기화되며, 어디에서든 동기화된 게임을 불러올 수 있게됩니다.
 인터넷 속도가 제한된 환경이라면 꺼주세요.#WHITE#]], "_t")
 t("#GOLD##{bold}#Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우드 동기화#WHITE##{normal}#", "_t")
-t("disabled", "끄기", "_t")
-t("enabled", "켜기", "_t")
+t("disabled", "꺼짐", "_t")
+t("enabled", "켜짐", "_t")
 t([[Purge all Steam Cloud saves.
 This will remove all saves from the cloud cloud (but not your local copy). Only use if you somehow encounter storage problems on it (which should not happen, the game automatically manages it for you).#WHITE#]], [[Steam 클라우드에 저장된 모든 게임을 제거합니다.
 컴퓨터 내에 저장된 세이브 파일은 제거되지 않습니다. Steam 클라우드의 저장 공간 문제를 발생했을 때만 사용해주세요. (그러한 문제가 발생하지 않았다면 자동으로 관리됩니다.)#WHITE#]], "_t")
@@ -1037,8 +1037,8 @@ t([[Enable/disable usage of tilesets.
 In some rare cases on very slow machines with bad GPUs/drivers it can be detrimental.]], [[타일셋 사용 유무를 변경합니다.
 성능이 좋지않거나 드라이버에 문제가 있는 일부 컴퓨터에서 문제가 발생할 수도 있습니다.]], "_t")
 t("#GOLD##{bold}#Use tilesets#WHITE##{normal}#", "#GOLD##{bold}#타일셋 사용#WHITE##{normal}#", "_t")
-t("disabled", "끄기", "_t")
-t("enabled", "켜기", "_t")
+t("disabled", "꺼짐", "_t")
+t("enabled", "켜짐", "_t")
 t([[Request a specific origin point for the game window.
 This point corresponds to where the upper left corner of the window will be located.
 Useful when dealing with multiple monitors and borderless windows.
@@ -1868,6 +1868,7 @@ t("Error", "오류", "_t")
 section "game/engines/default/modules/boot/dialogs/UpdateAll.lua"
 
 t("Version", "버전", "_t")
+t("Error!", "에러!", "_t")
 
 
 ------------------------------------------------
