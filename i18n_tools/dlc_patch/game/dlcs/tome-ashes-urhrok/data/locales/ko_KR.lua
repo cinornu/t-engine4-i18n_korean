@@ -213,7 +213,7 @@ t("re-generate the item with random stats. Can only be done three levels after t
 t("#RED#The ring does not react.", "#RED#반지는 반응하지 않는다.", "logPlayer")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Wheel of Fate", "운명의 수레바퀴", "_t")
-t("#GREEN#The skull embossed in the ring twists around momentarily. ...Did it just laugh?", "#GREEN#반지에 조각된 해골이 순간 뒤틀렸다. ...방금 웃던건가?", "logPlayer")
+t("#GREEN#The skull embossed in the ring twists around momentarily. ...Did it just laugh?", "#GREEN#반지에 조각된 해골이 순간 뒤틀렸다. ...방금 웃은건가?", "logPlayer")
 t("Helm of the Dominated", "지배 당한 자의 투구", "entity name")
 t("horned helm", "뿔 난 투구", "_t")
 t("An experimental helmet designed to enhance the effects of the Doomelf corruption.", "둠엘프의 타락의 힘을 강화하기 위해 제작된 실험적인 투구입니다.", "_t")

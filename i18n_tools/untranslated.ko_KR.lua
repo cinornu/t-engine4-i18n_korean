@@ -3036,14 +3036,13 @@ t("nothing", "nothing", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/Archery.lua"
--- 10 entries
+-- 9 entries
 t("You need a missile launcher (%s)!", "You need a missile launcher (%s)!", "logPlayer")
 t("#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "logPlayer")
 t("#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "logPlayer")
 t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "logPlayer")
 t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "logPlayer")
 t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)", "tformat")
-t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "logCombat")
 t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!", "logSeen")
 t("You are disarmed!", "You are disarmed!", "logPlayer")
 t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!", "logPlayer")
@@ -3051,7 +3050,7 @@ t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!"
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/Combat.lua"
--- 16 entries
+-- 15 entries
 t("%s is too afraid to attack.", "%s is too afraid to attack.", "logSeen")
 t("%s is too terrified to attack.", "%s is too terrified to attack.", "logSeen")
 t("#Target# notices you at the last moment!", "#Target# notices you at the last moment!", "logCombat")
@@ -3062,7 +3061,6 @@ t("#Target# repels an attack from #Source#.", "#Target# repels an attack from #S
 t("#Target# evades #Source#.", "#Target# evades #Source#.", "logCombat")
 t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)", "tformat")
 t("%s(%d gestured#LAST#)", "%s(%d gestured#LAST#)", "tformat")
-t("#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#", "#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#", "logCombat")
 t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!", "logSeen")
 t("#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "logPlayer")
 t("#Source# counter attacks #Target# with %s shield shards!", "#Source# counter attacks #Target# with %s shield shards!", "logCombat")
@@ -3085,12 +3083,6 @@ t(" (yet again)", " (yet again)", "_t")
 t("%s the level %d %s %s %s on level %s of %s.", "%s the level %d %s %s %s on level %s of %s.", "_t")
 t("%s(%d %s %s) %s on %s %s.", "%s(%d %s %s) %s on %s %s.", "_t")
 t("#{bold}#", "#{bold}#", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/class/interface/PartyLore.lua"
--- 1 entries
-t("learnt lore", "learnt lore", "_t")
 
 
 ------------------------------------------------

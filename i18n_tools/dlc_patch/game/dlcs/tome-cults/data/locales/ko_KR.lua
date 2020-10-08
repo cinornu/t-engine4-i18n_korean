@@ -3014,7 +3014,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
 		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
 		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[대상에게 고전염성 질병을 감염시켜, 6 턴 동안 %0.2f 피해를 매 턴 가합니다.
-		대상은 질병 이외의 수단으로 황폐 피해를 받을 때마다 확률적으로 반경 2 칸 이내의 무작위한 적들에게 질병을 퍼뜨립니다.
+		대상은 질병 이외의 수단으로 황폐 피해를 받을 때마다 일정 확률로 반경 2 칸 이내의 무작위한 적들에게 질병을 퍼뜨립니다.
 		전염 확률은 대상에게 가한 황폐 속성 피해량에 비례해 증가하며, 최대 생명력의 %d%% 이상 피해를 줄 경우 100%% 전염됩니다.
 		이 질병에 감염된 적들은 생명력 회복 효율이 %d%% 감소하며, 질병 면역력이 %d%% 감소합니다.
 		이 질병은 무시무시하게 강력하기 때문에, 대상의 질병 면역력을 완전히 무시합니다.

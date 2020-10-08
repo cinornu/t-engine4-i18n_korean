@@ -77,23 +77,23 @@ setFlag("noun_target_sub", function(str, type, noun)
 	if type == "#Source#" then
 		return str:gsub("#Source#", noun):gsub("#Source1#", addJosa(noun, "가")):gsub("#Source2#", addJosa(noun, "는")):gsub("#Source3#", addJosa(noun, "를")):gsub("#Source4#", addJosa(noun, "로")):gsub("#Source5#", addJosa(noun, "다")):gsub("#Source6#", addJosa(noun, "과")):gsub("#Source7#", addJosa(noun, 7))
 	elseif type == "#source#" then
-		return str:gsub("#source#", noun):gsub("#source#", addJosa(noun, "가")):gsub("#source2#", addJosa(noun, "는")):gsub("#source3#", addJosa(noun, "를")):gsub("#source4#", addJosa(noun, "로")):gsub("#source5#", addJosa(noun, "다")):gsub("#source6#", addJosa(noun, "과")):gsub("#source7#", addJosa(noun, 7))
+		return str:gsub("#source#", noun):gsub("#source1#", addJosa(noun, "가")):gsub("#source2#", addJosa(noun, "는")):gsub("#source3#", addJosa(noun, "를")):gsub("#source4#", addJosa(noun, "로")):gsub("#source5#", addJosa(noun, "다")):gsub("#source6#", addJosa(noun, "과")):gsub("#source7#", addJosa(noun, 7))
 	elseif type == "#Target#" then
 		return str:gsub("#Target#", noun):gsub("#Target1#", addJosa(noun, "가")):gsub("#Target2#", addJosa(noun, "는")):gsub("#Target3#", addJosa(noun, "를")):gsub("#Target4#", addJosa(noun, "로")):gsub("#Target5#", addJosa(noun, "다")):gsub("#Target6#", addJosa(noun, "과")):gsub("#Target7#", addJosa(noun, 7))
 	elseif type == "#target#" then
-		return str:gsub("#target#", noun):gsub("#target#", addJosa(noun, "가")):gsub("#target2#", addJosa(noun, "는")):gsub("#target3#", addJosa(noun, "를")):gsub("#target4#", addJosa(noun, "로")):gsub("#target5#", addJosa(noun, "다")):gsub("#target6#", addJosa(noun, "과")):gsub("#target7#", addJosa(noun, 7))
+		return str:gsub("#target#", noun):gsub("#target1#", addJosa(noun, "가")):gsub("#target2#", addJosa(noun, "는")):gsub("#target3#", addJosa(noun, "를")):gsub("#target4#", addJosa(noun, "로")):gsub("#target5#", addJosa(noun, "다")):gsub("#target6#", addJosa(noun, "과")):gsub("#target7#", addJosa(noun, 7))
 	elseif type == "@Source@" then
 		return str:gsub("@Source@", noun):gsub("@Source1@", addJosa(noun, "가")):gsub("@Source2@", addJosa(noun, "는")):gsub("@Source3@", addJosa(noun, "를")):gsub("@Source4@", addJosa(noun, "로")):gsub("@Source5@", addJosa(noun, "다")):gsub("@Source6@", addJosa(noun, "과")):gsub("@Source7@", addJosa(noun, 7))
 	elseif type == "@source@" then
-		return str:gsub("@source@", noun):gsub("@source@", addJosa(noun, "가")):gsub("@source2@", addJosa(noun, "는")):gsub("@source3@", addJosa(noun, "를")):gsub("@source4@", addJosa(noun, "로")):gsub("@source5@", addJosa(noun, "다")):gsub("@source6@", addJosa(noun, "과")):gsub("@source7@", addJosa(noun, 7))
+		return str:gsub("@source@", noun):gsub("@source1@", addJosa(noun, "가")):gsub("@source2@", addJosa(noun, "는")):gsub("@source3@", addJosa(noun, "를")):gsub("@source4@", addJosa(noun, "로")):gsub("@source5@", addJosa(noun, "다")):gsub("@source6@", addJosa(noun, "과")):gsub("@source7@", addJosa(noun, 7))
 	elseif type == "@Target@" then
-		return str:gsub("@Target@", noun):gsub("@Target@", addJosa(noun, "가")):gsub("@Target2@", addJosa(noun, "는")):gsub("@Target3@", addJosa(noun, "를")):gsub("@Target4@", addJosa(noun, "로")):gsub("@Target5@", addJosa(noun, "다")):gsub("@Target6@", addJosa(noun, "과")):gsub("@Target7@", addJosa(noun, 7))
+		return str:gsub("@Target@", noun):gsub("@Target1@", addJosa(noun, "가")):gsub("@Target2@", addJosa(noun, "는")):gsub("@Target3@", addJosa(noun, "를")):gsub("@Target4@", addJosa(noun, "로")):gsub("@Target5@", addJosa(noun, "다")):gsub("@Target6@", addJosa(noun, "과")):gsub("@Target7@", addJosa(noun, 7))
 	elseif type == "@target@" then
-		return str:gsub("@target@", noun):gsub("@target@", addJosa(noun, "가")):gsub("@target2@", addJosa(noun, "는")):gsub("@target3@", addJosa(noun, "를")):gsub("@target4@", addJosa(noun, "로")):gsub("@target5@", addJosa(noun, "다")):gsub("@target6@", addJosa(noun, "과")):gsub("@target7@", addJosa(noun, 7))
+		return str:gsub("@target@", noun):gsub("@target1@", addJosa(noun, "가")):gsub("@target2@", addJosa(noun, "는")):gsub("@target3@", addJosa(noun, "를")):gsub("@target4@", addJosa(noun, "로")):gsub("@target5@", addJosa(noun, "다")):gsub("@target6@", addJosa(noun, "과")):gsub("@target7@", addJosa(noun, 7))
 	elseif str == "@playername@" then
-		return str:gsub("@playername@", noun):gsub("@playername@", addJosa(noun, "가")):gsub("@playername2@", addJosa(noun, "는")):gsub("@playername3@", addJosa(noun, "를")):gsub("@playername4@", addJosa(noun, "로")):gsub("@playername5@", addJosa(noun, "다")):gsub("@playername6@", addJosa(noun, "과")):gsub("@playername7@", addJosa(noun, 7))
+		return str:gsub("@playername@", noun):gsub("@playername1@", addJosa(noun, "가")):gsub("@playername2@", addJosa(noun, "는")):gsub("@playername3@", addJosa(noun, "를")):gsub("@playername4@", addJosa(noun, "로")):gsub("@playername5@", addJosa(noun, "다")):gsub("@playername6@", addJosa(noun, "과")):gsub("@playername7@", addJosa(noun, 7))
 	elseif type == "@npcname@" then
-		return str:gsub("@npcname@", noun):gsub("@npcname@", addJosa(noun, "가")):gsub("@npcname2@", addJosa(noun, "는")):gsub("@npcname3@", addJosa(noun, "를")):gsub("@npcname4@", addJosa(noun, "로")):gsub("@npcname5@", addJosa(noun, "다")):gsub("@npcname6@", addJosa(noun, "과")):gsub("@npcname7@", addJosa(noun, 7))
+		return str:gsub("@npcname@", noun):gsub("@npcname1@", addJosa(noun, "가")):gsub("@npcname2@", addJosa(noun, "는")):gsub("@npcname3@", addJosa(noun, "를")):gsub("@npcname4@", addJosa(noun, "로")):gsub("@npcname5@", addJosa(noun, "다")):gsub("@npcname6@", addJosa(noun, "과")):gsub("@npcname7@", addJosa(noun, 7))
 	else
 		return str:gsub(type, noun)
 	end
@@ -1313,7 +1313,7 @@ t("resting", "휴식", "_t")
 t("rested", "휴식함", "_t")
 t("You are %s, press Enter to stop.", "%s 중입니다. Enter키로 종료합니다.", "tformat")
 t("%s starts...", "%s 시작...", "log")
-t("%s for %d turns (stop reason: %s).", "%d 턴 동안 %s (종료 원인: %s).", "log", {2,1,3})
+t("%s for %d turns (stop reason: %s).", "%d 턴 동안 %s (종료 원인: %s)", "log", {2,1,3})
 t("%s for %d turns.", "%d 턴 동안 %s", "log", {2,1})
 
 
@@ -1324,7 +1324,7 @@ t("You are running, press Enter to stop.", "움직이는 중입니다. 멈추시
 t("You don't see how to get there...", "그 장소로 갈 방법을 찾지 못했습니다...", "logPlayer")
 t("Running...", "움직이는 중...", "_t")
 t("You are running, press any key to stop.", "움직이는 중입니다. 멈추시려면 아무 키나 누르세요.", "_t")
-t("didn't move", "이동하지 못했습니다.", "_t")
+t("didn't move", "이동 불가능", "_t")
 t("trap spotted", "함정 발견", "_t")
 t("terrain change on the left", "왼쪽부터는 다른 장소", "_t")
 t("terrain change on the right", "오른쪽부터는 다른 장소", "_t")
