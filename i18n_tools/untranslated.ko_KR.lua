@@ -493,222 +493,9 @@ t("...", "...", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/chats/space-dwarf-trinket.lua"
--- 12 entries
-t([[#YELLOW_GREEN##{bold}#Suddenly the strange metallic device emits some beeps and starts to speak. Somehow.#{normal}##LAST#
-Uplink established with remote satellite. Activating emergency communication array.
-Current user does not match with previous user records. Performing scan.]], [[#YELLOW_GREEN##{bold}#Suddenly the strange metallic device emits some beeps and starts to speak. Somehow.#{normal}##LAST#
-Uplink established with remote satellite. Activating emergency communication array.
-Current user does not match with previous user records. Performing scan.]], "_t")
-t("..what?", "..what?", "_t")
-t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature matches expected species, but does not match any identity records in database. Sending information for further analysis.
-
-User added to database. I am now your personal assistant and will help you survive until further assistance can arrive. Enabling protective electromagnetic barrier and real time health monitoring.]], [[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature matches expected species, but does not match any identity records in database. Sending information for further analysis.
-
-User added to database. I am now your personal assistant and will help you survive until further assistance can arrive. Enabling protective electromagnetic barrier and real time health monitoring.]], "_t")
-t("Expected species?", "Expected species?", "_t")
-t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature indicates dangerous degeneration of genome due to unknown factors. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature indicates dangerous degeneration of genome due to unknown factors. Sending information for further analysis.]], "_t")
-t("Genome?", "Genome?", "_t")
-t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-No signs of life detected. User appears to be still moving despite absence of living tissue. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-No signs of life detected. User appears to be still moving despite absence of living tissue. Sending information for further analysis.]], "_t")
-t("Never seen an undead have you?", "Never seen an undead have you?", "_t")
-t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature does not match any currently known species in database. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature does not match any currently known species in database. Sending information for further analysis.]], "_t")
-t("Database?", "Database?", "_t")
-t("#YELLOW_GREEN##{bold}#The machine beeps twice, then goes completely silent. Any further attempts to get it to speak prove futile.#{normal}##LAST#", "#YELLOW_GREEN##{bold}#The machine beeps twice, then goes completely silent. Any further attempts to get it to speak prove futile.#{normal}##LAST#", "_t")
-t("That was weird...", "That was weird...", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/factions.lua"
--- 4 entries
-t("Sanctuary of Horrors", "Sanctuary of Horrors", "faction name")
-t("The Tribe", "The Tribe", "faction name")
-t("Food", "Food", "faction name")
-t("Things from above", "Things from above", "faction name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/events/digestive-sack.lua"
--- 11 entries
-t("\
-#DARK_SEA_GREEN#It was corrupted by the digestive sack.", "\
-#DARK_SEA_GREEN#It was corrupted by the digestive sack.", "_t")
-t("\
-#DARK_SEA_GREEN#It was hardened by the digestive sack.", "\
-#DARK_SEA_GREEN#It was hardened by the digestive sack.", "_t")
-t("\
-#DARK_SEA_GREEN#It was changed by the digestive sack.", "\
-#DARK_SEA_GREEN#It was changed by the digestive sack.", "_t")
-t("corrupted #base#", "corrupted #base#", "_t")
-t("giant digestive sack", "giant digestive sack", "_t")
-t("Giant Digestive Sack", "Giant Digestive Sack", "_t")
-t("Open the sack?", "Open the sack?", "_t")
-t("#DARK_SEA_GREEN#An object rolls from the sack!", "#DARK_SEA_GREEN#An object rolls from the sack!", "logSeen")
-t("#DARK_SEA_GREEN#A not yet digested foe burst out from the sack!", "#DARK_SEA_GREEN#A not yet digested foe burst out from the sack!", "logSeen")
-t("giant digestive sack (opened)", "giant digestive sack (opened)", "_t")
-t("#DARK_SEA_GREEN#Sickening fumes emanates from the sack as it opens!", "#DARK_SEA_GREEN#Sickening fumes emanates from the sack as it opens!", "logSeen")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/events/scourged-pits.lua"
--- 3 entries
-t("Way into the scourged pits", "Way into the scourged pits", "_t")
-t("The air is pestilent", "The air is pestilent", "_t")
-t("You smell a blighted perfume in the air for an instant...", "You smell a blighted perfume in the air for an instant...", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/events/space-dwarf-ship.lua"
--- 6 entries
-t("strange metallic capsule", "strange metallic capsule", "_t")
-t("You have already scavenged what you could understand and use.", "You have already scavenged what you could understand and use.", "_t")
-t("Strange metallic capsule", "Strange metallic capsule", "_t")
-t([[The thing in front of you appears to be a strange dome made from green glass. Judging by the crater around it, this dome must have crashed into the earth with tremendous force. Stranger still is the figure seated inside it. It appears to be wearing a suit made of an unknown material and a glass dome over its head. Looking inside the dome, you can plainly see that the figure is a dwarf! There is no mistaking that oversized nose. Judging by the smell, he has been dead for quite some time.
-
-You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], [[The thing in front of you appears to be a strange dome made from green glass. Judging by the crater around it, this dome must have crashed into the earth with tremendous force. Stranger still is the figure seated inside it. It appears to be wearing a suit made of an unknown material and a glass dome over its head. Looking inside the dome, you can plainly see that the figure is a dwarf! There is no mistaking that oversized nose. Judging by the smell, he has been dead for quite some time.
-
-You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], "_t")
-t("Eerie Cave", "Eerie Cave", "_t")
-t("eerie cave", "eerie cave", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/events/tentacle-tree.lua"
--- 10 entries
-t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears.", "#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears.", "logSeen")
-t("#DARK_SEA_GREEN#As you touch it the tentacle tree awakens and attacks you!", "#DARK_SEA_GREEN#As you touch it the tentacle tree awakens and attacks you!", "logSeen")
-t("#DARK_SEA_GREEN#As you touch it the tentacle constricts you and swallows you whole!", "#DARK_SEA_GREEN#As you touch it the tentacle constricts you and swallows you whole!", "logPlayer")
-t("way back to %s", "way back to %s", "tformat")
-t("#DARK_SEA_GREEN# You escaped the tentacle!", "#DARK_SEA_GREEN# You escaped the tentacle!", "log")
-t("inside a giant tentacle", "inside a giant tentacle", "_t")
-t("#rng# the Blightborn", "#rng# the Blightborn", "_t")
-t("#DARK_SEA_GREEN#You can feel tremors in the tentacle.. A gastric wave is coming!", "#DARK_SEA_GREEN#You can feel tremors in the tentacle.. A gastric wave is coming!", "say")
-t("#DARK_SEA_GREEN#The gastric wave is upon you!", "#DARK_SEA_GREEN#The gastric wave is upon you!", "say")
-t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears, leaving behind %s.", "#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears, leaving behind %s.", "logSeen")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/fonts.lua"
--- 9 entries
-t("font of knowledge", "font of knowledge", "entity name")
-t("Do you want to touch it?", "Do you want to touch it?", "_t")
-t("Font of Knowledge", "Font of Knowledge", "_t")
-t("#PURPLE#The %s glows as you touch it. Your knowledge grows (+1 prodigy point).", "#PURPLE#The %s glows as you touch it. Your knowledge grows (+1 prodigy point).", "log")
-t("#VIOLET#The %s glows as you touch it. Your knowledge grows (+1 category point).", "#VIOLET#The %s glows as you touch it. Your knowledge grows (+1 category point).", "log")
-t("#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "log")
-t("#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "log")
-t("#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "log")
-t("font of sacrifice", "font of sacrifice", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/fortress-multiverse.lua"
--- 5 entries
-t("entropic breach", "entropic breach", "entity name")
-t("Entropic Wormhole Control Orb", "Entropic Wormhole Control Orb", "entity name")
-t("#CRIMSON#The entropic forces are already at work. FIGHT!", "#CRIMSON#The entropic forces are already at work. FIGHT!", "say")
-t("#CRIMSON#The entropic control orb seems unresponsive...", "#CRIMSON#The entropic control orb seems unresponsive...", "say")
-t("#PURPLE#Make sure you are connected and joined the main Tales of Maj'Eyal chat channel.", "#PURPLE#Make sure you are connected and joined the main Tales of Maj'Eyal chat channel.", "log")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/godfeaster.lua"
--- 4 entries
-t("godfeaster wall", "godfeaster wall", "entity name")
-t("godfeaster door", "godfeaster door", "entity name")
-t("godfeaster", "godfeaster", "entity subtype")
-t("open godfeaster door", "open godfeaster door", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/maggot.lua"
--- 3 entries
-t("maggot wall", "maggot wall", "entity name")
-t("maggot door", "maggot door", "entity name")
-t("open maggot door", "open maggot door", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/slimy_godfeaster.lua"
--- 4 entries
-t("slimy_godfeaster wall", "slimy_godfeaster wall", "entity name")
-t("slimy_godfeaster door", "slimy_godfeaster door", "entity name")
-t("slimy_godfeaster", "slimy_godfeaster", "entity subtype")
-t("open slimy_godfeaster door", "open slimy_godfeaster door", "entity name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/grids/tentacle-tree.lua"
--- 2 entries
-t("strange tentacle 'tree'", "strange tentacle 'tree'", "entity name")
-t("Tentacle Tree", "Tentacle Tree", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/objects/forbidden-tomes-base.lua"
--- 8 entries
-t("forbidden", "forbidden", "entity subtype")
-t("strange book", "strange book", "_t")
-t("A lost tome of knowledge.", "A lost tome of knowledge.", "_t")
-t("read the book", "read the book", "_t")
-t("The book story is done already.", "The book story is done already.", "_t")
-t("You can not enter a book while already inside one.", "You can not enter a book while already inside one.", "_t")
-t("You can not enter a book while the timeline is split.", "You can not enter a book while the timeline is split.", "_t")
-t("You can not enter this book while in combat.", "You can not enter this book while in combat.", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/objects/lore/eyal.lua"
--- 2 entries
-t("gods", "gods", "entity subtype")
-t("godslayers", "godslayers", "entity subtype")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/general/objects/special-misc.lua"
--- 10 entries
-t("Robe of the Worm", "Robe of the Worm", "entity name")
-t("worm", "worm", "entity short_name")
-t("Rags of the Sanctuary", "Rags of the Sanctuary", "entity name")
-t("rags", "rags", "entity short_name")
-t("Bizzare Contraption", "Bizzare Contraption", "entity name")
-t("bizzare contraption", "bizzare contraption", "_t")
-t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "_t")
-t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "logSeen")
-t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "logPlayer")
-t("It's a head... but is it yours?", "It's a head... but is it yours?", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/general/objects/world-artifacts.lua"
 -- 1 entries
 t("assault the mind of a foe to utterly dominate it", "assault the mind of a foe to utterly dominate it", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
--- 8 entries
-t("#PURPLE#A Font of Sacrifice appears nearby!", "#PURPLE#A Font of Sacrifice appears nearby!", "_t")
-t("You feel this portal leads to a place from where you are likely to not come back.", "You feel this portal leads to a place from where you are likely to not come back.", "_t")
-t("Save your life and stay!", "Save your life and stay!", "_t")
-t("#PURPLE#A portal appears inside the Occult Egress!", "#PURPLE#A portal appears inside the Occult Egress!", "_t")
-t("#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "_t")
-t("splattered remains of an adventurer", "splattered remains of an adventurer", "_t")
-t("#PURPLE#An item appears on the egress!", "#PURPLE#An item appears on the egress!", "_t")
-t("#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/glyph_sequences/orcs.lua"
--- 1 entries
-t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put them in your ingredients cache.", "#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put them in your ingredients cache.", "_t")
 
 
 ------------------------------------------------
@@ -1160,51 +947,6 @@ t("An illustrated tome!", "An illustrated tome!", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/quests/grung.lua"
--- 3 entries
-t([[You are Grung, a halfling from the Age of Haze. You must gather food or die but outside there is a terrible war being fought.
-A war between incomprehensible beings for incomprehensible reasons. All you can hope to do is gather food while avoiding to get crushed.]], [[You are Grung, a halfling from the Age of Haze. You must gather food or die but outside there is a terrible war being fought.
-A war between incomprehensible beings for incomprehensible reasons. All you can hope to do is gather food while avoiding to get crushed.]], "_t")
-t("#LIGHT_GREEN#* You have gathered enough food for a few day for your tribe, go back home now.#WHITE#", "#LIGHT_GREEN#* You have gathered enough food for a few day for your tribe, go back home now.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have came home with the food.#WHITE#", "#LIGHT_GREEN#* You have came home with the food.#WHITE#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/quests/illusory-castle.lua"
--- 5 entries
-t("The Impossible Castle", "The Impossible Castle", "_t")
-t("You have discovered the entrance to a strange castle inside a huge book. The place seems to eat at your sanity but you feel drawn to it somehow...", "You have discovered the entrance to a strange castle inside a huge book. The place seems to eat at your sanity but you feel drawn to it somehow...", "_t")
-t("#LIGHT_GREEN#* You have closed a book of binding, it seems the whole castle had stabilized a little, there may be more books to close.#WHITE#", "#LIGHT_GREEN#* You have closed a book of binding, it seems the whole castle had stabilized a little, there may be more books to close.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have closed two books of binding, the castle is now stable and you should probably be able to access the last chapter.#WHITE#", "#LIGHT_GREEN#* You have closed two books of binding, the castle is now stable and you should probably be able to access the last chapter.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have killed the Glass Golem and claimed the castle treasures for yourself!#WHITE#", "#LIGHT_GREEN#* You have killed the Glass Golem and claimed the castle treasures for yourself!#WHITE#", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/quests/krogs-rescue.lua"
--- 6 entries
-t("Cleaning the trash", "Cleaning the trash", "_t")
-t([[Protector Myssil has requested that you go at once to the ruins on the eastern shores of the sea of Sash to rescue a party of Krogs taken by necromancers filth.
-Save our people and show the evildoers the wrongness of their way. Permanently.]], [[Protector Myssil has requested that you go at once to the ruins on the eastern shores of the sea of Sash to rescue a party of Krogs taken by necromancers filth.
-Save our people and show the evildoers the wrongness of their way. Permanently.]], "_t")
-t("#LIGHT_RED#* You have killed the necromancers but not in time to save any of the captive Krogs.", "#LIGHT_RED#* You have killed the necromancers but not in time to save any of the captive Krogs.", "_t")
-t("#LIGHT_GREEN#* You have killed the necromancers and saved some of the Krogs.", "#LIGHT_GREEN#* You have killed the necromancers and saved some of the Krogs.", "_t")
-t("#LIGHT_GREEN#* You have killed the necromancers and saved all of the Krogs, well done Ziguranth!", "#LIGHT_GREEN#* You have killed the necromancers and saved all of the Krogs, well done Ziguranth!", "_t")
-t("trapdoor into the necromancer's ruins", "trapdoor into the necromancer's ruins", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/quests/start-cults.lua"
--- 5 entries
-t("The Worm That Devours", "The Worm That Devours", "_t")
-t([[A huge mindless and corrupted worm is heading toward Kroshkkur!
-It has to be stopped or the Sanctuary will fall, digested in the bowels of giant worm, its forbidden knowledge lost forever.]], [[A huge mindless and corrupted worm is heading toward Kroshkkur!
-It has to be stopped or the Sanctuary will fall, digested in the bowels of giant worm, its forbidden knowledge lost forever.]], "_t")
-t("#LIGHT_GREEN#* You have destroyed the Worm's neural spine, preventing the doom of the Sanctuary.#WHITE#", "#LIGHT_GREEN#* You have destroyed the Worm's neural spine, preventing the doom of the Sanctuary.#WHITE#", "_t")
-t("#LIGHT_RED#* You have failed to destroy the Worm in time, the Sanctuary has been destroyed.#WHITE#", "#LIGHT_RED#* You have failed to destroy the Worm in time, the Sanctuary has been destroyed.#WHITE#", "_t")
-t("#SLATE#* You have to destroy the Worm's neural spine.#WHITE#", "#SLATE#* You have to destroy the Worm's neural spine.#WHITE#", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/demented/writhing-body.lua"
 -- 7 entries
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
@@ -1228,8 +970,7 @@ t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/timed_effects.lua"
--- 2 entries
-t("S.M.A.C.K.", "S.M.A.C.K.", "_t")
+-- 1 entries
 t("Save Kroshkkur", "Save Kroshkkur", "_t")
 
 
@@ -1240,261 +981,33 @@ t("..", "..", "entity name")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/hooks/bonestaff.lua"
--- 18 entries
-t("#GREY##{italic}#You feel the bones of the staff creeking and vibrating in your hand.#{normal}##LAST# Yes... #{italic}#\"master\"#{normal}#.", "#GREY##{italic}#You feel the bones of the staff creeking and vibrating in your hand.#{normal}##LAST# Yes... #{italic}#\"master\"#{normal}#.", "_t")
-t("#GREY##{italic}#The vibrations feel like a shrug.#{normal}##LAST# By magic #{bold}#obviously#{normal}#. What kind of necromancer might you be to ask such #{bold}#stupid#{normal}# questions?", "#GREY##{italic}#The vibrations feel like a shrug.#{normal}##LAST# By magic #{bold}#obviously#{normal}#. What kind of necromancer might you be to ask such #{bold}#stupid#{normal}# questions?", "_t")
-t("#GREY##{italic}#The vibrations intensify.#{normal}##LAST# As long as this means more deaths and bones, I will agree to change aspect. Which do you choose?", "#GREY##{italic}#The vibrations intensify.#{normal}##LAST# As long as this means more deaths and bones, I will agree to change aspect. Which do you choose?", "_t")
-t("#GREY##{italic}#The staff shudders.#{normal}##LAST# My finest services are only available to real necromancers. Stop bothering me, inferior creature.", "#GREY##{italic}#The staff shudders.#{normal}##LAST# My finest services are only available to real necromancers. Stop bothering me, inferior creature.", "_t")
-t("Is there anything else you can do?", "Is there anything else you can do?", "_t")
-t("I am ready to use your powers!", "I am ready to use your powers!", "_t")
-t("I want you to start summoning the bone horror again.", "I want you to start summoning the bone horror again.", "_t")
-t("I want you to stop summoning the bone horror.", "I want you to stop summoning the bone horror.", "_t")
-t([[#GREY##{italic}#You feel the staff writhing in your hand with dark intents.#{normal}##LAST# Once you will have collected one hundred souls and one class talent point I will be able to enhance your pathetic summons with a mighty bone horror!
-Anytime you use your Create Minions spell I will make sure one of them is a Bone Horror, if none are present.
-
-#ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
-#GREY#You have captured %d souls out of the 100 needed.]], [[#GREY##{italic}#You feel the staff writhing in your hand with dark intents.#{normal}##LAST# Once you will have collected one hundred souls and one class talent point I will be able to enhance your pathetic summons with a mighty bone horror!
-Anytime you use your Create Minions spell I will make sure one of them is a Bone Horror, if none are present.
-
-#ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
-#GREY#You have captured %d souls out of the 100 needed.]], "tformat")
-t("That could be handy.", "That could be handy.", "_t")
-t([[#GREY##{italic}#You feel the staff in your hand glowing with dark powers.#{normal}##LAST# At last! You sure took your sweet time #{italic}#"necromancer"#{normal}#!
-Anyway, I have now enough souls to be able to summon the bone horror.
-Do you wish to imbue me with a class talent point to finally become a real necromancer?
-
-#ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
-]], [[#GREY##{italic}#You feel the staff in your hand glowing with dark powers.#{normal}##LAST# At last! You sure took your sweet time #{italic}#"necromancer"#{normal}#!
-Anyway, I have now enough souls to be able to summon the bone horror.
-Do you wish to imbue me with a class talent point to finally become a real necromancer?
-
-#ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
-]], "_t")
-t("I do. (#YELLOW#spend 1 class point#LAST#)", "I do. (#YELLOW#spend 1 class point#LAST#)", "_t")
-t("I can't. (#LIGHT_RED#you need one class point#LAST#)", "I can't. (#LIGHT_RED#you need one class point#LAST#)", "_t")
-t("#GREY##{italic}#The staff shudders.#{normal}##LAST# Pathetic.", "#GREY##{italic}#The staff shudders.#{normal}##LAST# Pathetic.", "_t")
-t([[#GREY##{italic}#The staff vibrates with great intensity.#{normal}##LAST# POWER! YES!
-ALL SHALL BOW BEFORE MY MIGH... your might.]], [[#GREY##{italic}#The staff vibrates with great intensity.#{normal}##LAST# POWER! YES!
-ALL SHALL BOW BEFORE MY MIGH... your might.]], "_t")
-t("Great!", "Great!", "_t")
-t("#GREY##{italic}#The staff stays calm.#{normal}##LAST# Stupid useless pathetic excuse of a #{italic}#\"necromancer\"#{normal}#! Why refuse to use true power?!", "#GREY##{italic}#The staff stays calm.#{normal}##LAST# Stupid useless pathetic excuse of a #{italic}#\"necromancer\"#{normal}#! Why refuse to use true power?!", "_t")
-t("I have my reasons!", "I have my reasons!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/init.lua"
--- 1 entries
-t([[Not all adventurers seek fortune, not all that defend the world have good deeds in mind.
-Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal.
-That something is you.
-]], [[Not all adventurers seek fortune, not all that defend the world have good deeds in mind.
-Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal.
-That something is you.
-]], "init.lua description")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/data/texts/intro-cults.lua"
--- 1 entries
-t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are one of several like-minded individuals that delves into knowledge long lost and forgotten, seeking sanctuary from an outside hostile world to such activities. Delving into research within the forgotten and inactive fortress of Kroshkkur, the reasons of pursuit differ among a myriad of topics. Some look to uncover knowledge hailing back to the Age of Haze when beings immensely powerful walked Eyal, while others explore the origins of themselves and other races.
-
-Regardless of the subject or method of research, no rules exist to constrain anyone in their approach. This has led to experimentation into what many would deem mad and certainly forbidden among the surface dwellers. If Kroshkkur were to be found it would most certainly be destroyed. Therefore the only rules that truly exist in the sanctuary are that of secrecy and safeguarding the accrued knowledge that has been obtained therein.
-
-But today the sanctuary is threatened by a giant worm that is tunneling directly towards Kroshkkur. If nothing is done it will collide with and destroy what remains of the ancient fortress. One idea to dealing with the worm is for someone to teleport inside it and make there way towards the worms brain cluster and destroy it. Alternatively, you consider leaving before the worm arrives and finding your own purpose in the outside world.
-
-As with all things here, nothing restrains you in what path you #{bold}#ultimately choose#{normal}#. The question is whether you step into the #{bold}#portal to teleport into the worm#{normal}# or leave now while it is safe to do so and let #{bold}#Kroshkkur be destroyed#{normal}#.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are one of several like-minded individuals that delves into knowledge long lost and forgotten, seeking sanctuary from an outside hostile world to such activities. Delving into research within the forgotten and inactive fortress of Kroshkkur, the reasons of pursuit differ among a myriad of topics. Some look to uncover knowledge hailing back to the Age of Haze when beings immensely powerful walked Eyal, while others explore the origins of themselves and other races.
-
-Regardless of the subject or method of research, no rules exist to constrain anyone in their approach. This has led to experimentation into what many would deem mad and certainly forbidden among the surface dwellers. If Kroshkkur were to be found it would most certainly be destroyed. Therefore the only rules that truly exist in the sanctuary are that of secrecy and safeguarding the accrued knowledge that has been obtained therein.
-
-But today the sanctuary is threatened by a giant worm that is tunneling directly towards Kroshkkur. If nothing is done it will collide with and destroy what remains of the ancient fortress. One idea to dealing with the worm is for someone to teleport inside it and make there way towards the worms brain cluster and destroy it. Alternatively, you consider leaving before the worm arrives and finding your own purpose in the outside world.
-
-As with all things here, nothing restrains you in what path you #{bold}#ultimately choose#{normal}#. The question is whether you step into the #{bold}#portal to teleport into the worm#{normal}# or leave now while it is safe to do so and let #{bold}#Kroshkkur be destroyed#{normal}#.
-]], "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/class/CultsDLC.lua"
--- 21 entries
-t("Insanity", "Insanity", "_t")
-t([[Your mental insanity.  The higher it is the more random your damage and cooldowns become.
-
-Damage and cooldowns have a chance to increase or decrease by up to chaotic%.
-
-Both the chance and size of effects will increase with insanity.]], [[Your mental insanity.  The higher it is the more random your damage and cooldowns become.
-
-Damage and cooldowns have a chance to increase or decrease by up to chaotic%.
-
-Both the chance and size of effects will increase with insanity.]], "_t")
-t("%d%%%% (%d%%%% chaotic)", "%d%%%% (%d%%%% chaotic)", "tformat")
-t("Use the book-like display for Forbidden Tomes. This option requires both framebuffers and shaders to be active in the video options.#WHITE#", "Use the book-like display for Forbidden Tomes. This option requires both framebuffers and shaders to be active in the video options.#WHITE#", "_t")
-t("#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{normal}#", "#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{normal}#", "_t")
-t("#CRIMSON#This was a very satisfying meal, 'you' feel strengthened. (+1 generic talent point)", "#CRIMSON#This was a very satisfying meal, 'you' feel strengthened. (+1 generic talent point)", "log")
-t("#CRIMSON#[The parasite loves death and pain and gives no choice but to shoot down the airship]", "#CRIMSON#[The parasite loves death and pain and gives no choice but to shoot down the airship]", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Melinda].", "#CRIMSON#[The parasite is hungry and promptly swallows and eat Melinda].", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Aeryn].", "#CRIMSON#[The parasite is hungry and promptly swallows and eat Aeryn].", "_t")
-t("#CRIMSON#[The parasite is hungry and attacks Slasul].", "#CRIMSON#[The parasite is hungry and attacks Slasul].", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat %s].", "#CRIMSON#[The parasite is hungry and promptly swallows and eat %s].", "tformat")
-t("#CRIMSON#[The parasite is hungry and takes over the conversation.]#LAST# I smelled a weakling here and wanted a nice meal. [point your finger at the captured merchant]", "#CRIMSON#[The parasite is hungry and takes over the conversation.]#LAST# I smelled a weakling here and wanted a nice meal. [point your finger at the captured merchant]", "_t")
-t("Ah I see, you are a ...thing... of special tastes. Very well, I'd rather have you as a friend so have your meal and someday we may have some more business to do together.", "Ah I see, you are a ...thing... of special tastes. Very well, I'd rather have you as a friend so have your meal and someday we may have some more business to do together.", "_t")
-t("[eat the merchant]", "[eat the merchant]", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Fillarel]#LAST# No I have not...", "#CRIMSON#[The parasite is hungry and promptly swallows and eat Fillarel]#LAST# No I have not...", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat the yeek wayist]#LAST# I 'saved' you to get a nice meal...", "#CRIMSON#[The parasite is hungry and promptly swallows and eat the yeek wayist]#LAST# I 'saved' you to get a nice meal...", "_t")
-t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#You can't enter a Forbidden Tome from here!#LAST#", "log")
-t("The protagonist of the story is dead.", "The protagonist of the story is dead.", "_t")
-t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "log")
+-- 1 entries
 t("#AQUAMARINE#%s", "#AQUAMARINE#%s", "log")
-t("%s of the Blightspawn", "%s of the Blightspawn", "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/mod/dialogs/EntropicWormhole.lua"
--- 7 entries
-t("Entropic Wormhole", "Entropic Wormhole", "_t")
-t("Handicap: ", "Handicap: ", "_t")
-t("Player", "Player", "_t")
-t("Character", "Character", "_t")
-t("Entropic Wormhole failure", "Entropic Wormhole failure", "_t")
-t([[The wormwhole failed to latch on a timeline, you should retry an other one.
-
-#{italic}##GREY#The character you tried to download either contained errors, was somehow corrupt or failed to load. Possible reasons are numerous and could be related to addons. Please simply try an other one.#{normal}#]], [[The wormwhole failed to latch on a timeline, you should retry an other one.
-
-#{italic}##GREY#The character you tried to download either contained errors, was somehow corrupt or failed to load. Possible reasons are numerous and could be related to addons. Please simply try an other one.#{normal}#]], "_t")
-t([[As your foe crumbles Yiilkgur's safety protocols activate and pull you out of the arena.
-You have defeated #CRIMSON#%s#LAST#, congratulations!]], [[As your foe crumbles Yiilkgur's safety protocols activate and pull you out of the arena.
-You have defeated #CRIMSON#%s#LAST#, congratulations!]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/mod/dialogs/FontSacrifice.lua"
--- 11 entries
-t([[The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).
-Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#1000 gold#LAST# for a greater ego per each time you've rerolled that ego type on the same object.
-Lesser and Greater egos can only be rerolled into the same type, and only egos with compatible power sources will be offered.
-
-Note:  Many egos and external talents don't currently display properly but will apply to the item correctly.]], [[The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).
-Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#1000 gold#LAST# for a greater ego per each time you've rerolled that ego type on the same object.
-Lesser and Greater egos can only be rerolled into the same type, and only egos with compatible power sources will be offered.
-
-Note:  Many egos and external talents don't currently display properly but will apply to the item correctly.]], "_t")
-t("Font of Sacrifice", "Font of Sacrifice", "_t")
-t("Properties", "Properties", "_t")
-t("Reroll properties set", "Reroll properties set", "_t")
-t("You need at least #GOLD#%s gold#LAST# to reroll this item.", "You need at least #GOLD#%s gold#LAST# to reroll this item.", "tformat")
-t("So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "tformat")
-t(" (Greater)", " (Greater)", "_t")
-t("Select a properties set", "Select a properties set", "_t")
-t("Select properties set #{bold}#\"%s\"#{normal}# ?", "Select properties set #{bold}#\"%s\"#{normal}# ?", "tformat")
-t("Error!", "Error!", "_t")
-t("The gizmocombobulator of the font seems to have failed, you have not been billed.", "The gizmocombobulator of the font seems to have failed, you have not been billed.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
--- 5 entries
-t("", "", "_t")
-t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#You can't enter a Forbidden Tome yet!#LAST#", "log")
-t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#You can't enter a Forbidden Tome from here!#LAST#", "log")
-t("You feel this book is extremely dangerous for you. Proceed?", "You feel this book is extremely dangerous for you. Proceed?", "_t")
-t("Read Tome", "Read Tome", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/overload/mod/dialogs/RingOfTheHunter.lua"
--- 2 entries
-t("The Writhing Ring seems unable to learn this prodigy.", "The Writhing Ring seems unable to learn this prodigy.", "_t")
-t("#PURPLE#The Ring writhes and contracts around your finger and suddently you realize your now possess the prodigy #LIGHT_GREEN#%s%s!", "#PURPLE#The Ring writhes and contracts around your finger and suddently you realize your now possess the prodigy #LIGHT_GREEN#%s%s!", "log")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/superload/mod/class/Actor.lua"
 -- 1 entries
-t("#ORCHID#You can only gain insanity in combat!#LAST#", "#ORCHID#You can only gain insanity in combat!#LAST#", "logSeen")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/superload/mod/class/Game.lua"
--- 7 entries
-t("Race: Drem", "Race: Drem", "_t")
-t("Race: Krog", "Race: Krog", "_t")
-t("Class tree: Scourge drake", "Class tree: Scourge drake", "_t")
-t("Class feature: Alchemist's Glass Golem", "Class feature: Alchemist's Glass Golem", "_t")
-t("Saving is not possible in the S.M.A.C.K. Do you want to cancel the fight?", "Saving is not possible in the S.M.A.C.K. Do you want to cancel the fight?", "_t")
-t([[As you enter Last Hope a courier finds you to deliver a letter from Protector Myssil of Zigur:
-
-%s, while you were away destroying arcane filth I have received grave news.
-A group of Krogs has been ambushed and taken to a hidden ruin on the eastern shores of the sea of Sash near Zigur.
-From what the scouts can tell they were taken by a group of necromancers, probably to do vile experiments on them.
-
-All our other elite fighting forces are currently abroad, you are their only hope.
-Please, go there at once, free them and show the necromancers filth the True Wrath of the Ziguranth!
-
-#{italic}#Protector Myssil#{normal}#
-]], [[As you enter Last Hope a courier finds you to deliver a letter from Protector Myssil of Zigur:
-
-%s, while you were away destroying arcane filth I have received grave news.
-A group of Krogs has been ambushed and taken to a hidden ruin on the eastern shores of the sea of Sash near Zigur.
-From what the scouts can tell they were taken by a group of necromancers, probably to do vile experiments on them.
-
-All our other elite fighting forces are currently abroad, you are their only hope.
-Please, go there at once, free them and show the necromancers filth the True Wrath of the Ziguranth!
-
-#{italic}#Protector Myssil#{normal}#
-]], "_t")
-t("Urgent affair in Zigur", "Urgent affair in Zigur", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/superload/mod/dialogs/Birther.lua"
--- 2 entries
-t([[Thank you for purchasing #CRIMSON#Forbidden Cults#WHITE#, the third expansion pack of Tales of Maj'Eyal.
-
-To begin your adventures as a half horror simply create a character with the class #LIGHT_GREEN#Writhing One#WHITE# (in the Demented category).
-
-Have fun lashing your tentacle at your foes!
-]], [[Thank you for purchasing #CRIMSON#Forbidden Cults#WHITE#, the third expansion pack of Tales of Maj'Eyal.
-
-To begin your adventures as a half horror simply create a character with the class #LIGHT_GREEN#Writhing One#WHITE# (in the Demented category).
-
-Have fun lashing your tentacle at your foes!
-]], "_t")
-t("Welcome to #CRIMSON#Forbidden Cults", "Welcome to #CRIMSON#Forbidden Cults", "_t")
+t("", "", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyGrandOration.lua"
--- 4 entries
-t([[You may empower the chosen prophecy with Grand Oration, causing it to spread to nearby enemies.
-]], [[You may empower the chosen prophecy with Grand Oration, causing it to spread to nearby enemies.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
-t("All prophecies that can be used with Grand Oration.", "All prophecies that can be used with Grand Oration.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyRevelation.lua"
--- 4 entries
-t([[You may empower the chosen prophecy with Revelation, causing it to grant you a powerful beneficial effect.
-]], [[You may empower the chosen prophecy with Revelation, causing it to grant you a powerful beneficial effect.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
-t("All prophecies that can be used with Revelation.", "All prophecies that can be used with Revelation.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyTwofoldCurse.lua"
--- 4 entries
-t([[You may empower the chosen prophecy with Twofold Curse, causing it to apply instantly when you cast another prophecy.
-]], [[You may empower the chosen prophecy with Twofold Curse, causing it to apply instantly when you cast another prophecy.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
-t("All prophecies that can be used with Twofold Curse.", "All prophecies that can be used with Twofold Curse.", "_t")
 
 
 ------------------------------------------------
@@ -3034,7 +2547,7 @@ t("Username or Email already taken, please select an other one.", "Username or E
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/UpdateAll.lua"
--- 12 entries
+-- 11 entries
 t("Update all game modules", "Update all game modules", "_t")
 t([[All those components will be updated:
 ]], [[All those components will be updated:
@@ -3045,7 +2558,6 @@ t("Nothing to update", "Nothing to update", "_t")
 t("Game: #{bold}##GOLD#", "Game: #{bold}##GOLD#", "_t")
 t("Engine: #{italic}##LIGHT_BLUE#", "Engine: #{italic}##LIGHT_BLUE#", "_t")
 t("Downloading: ", "Downloading: ", "_t")
-t("Error!", "Error!", "_t")
 t([[There was an error while downloading:
 ]], [[There was an error while downloading:
 ]], "_t")
@@ -3186,7 +2698,7 @@ t("%s", "%s", "log")
 
 ------------------------------------------------
 section "game/modules/tome/class/GameState.lua"
--- 74 entries
+-- 73 entries
 t("#AQUAMARINE#Most stores should have new stock now.", "#AQUAMARINE#Most stores should have new stock now.", "log")
 t("faceted", "faceted", "_t")
 t("faded", "faded", "_t")
@@ -3208,7 +2720,6 @@ t("twisted", "twisted", "_t")
 t("unblemished", "unblemished", "_t")
 t("%s '%s'", "%s '%s'", "tformat")
 t("You have been ambushed!", "You have been ambushed!", "_t")
-t("%s the %s", "%s the %s", "tformat")
 t("Infinite Dungeon Challenge (Level %s): %s", "Infinite Dungeon Challenge (Level %s): %s", "tformat")
 t("Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "_t")
 t("Pacifist", "Pacifist", "_t")
@@ -3271,30 +2782,17 @@ t("You have unlocked a new talent: %s!", "You have unlocked a new talent: %s!", 
 
 ------------------------------------------------
 section "game/modules/tome/class/Grid.lua"
--- 13 entries
+-- 2 entries
 t("%s", "%s", "logSeen")
-t("spot", "spot", "_t")
 t(" (range: ", " (range: ", "_t")
-t("Min.level: ", "Min.level: ", "_t")
-t("Never visited yet", "Never visited yet", "_t")
-t("In sight", "In sight", "_t")
-t("Lit", "Lit", "_t")
-t("Blocks sight", "Blocks sight", "_t")
-t("Blocks movement", "Blocks movement", "_t")
-t("Special breathing method required", "Special breathing method required", "_t")
-t("Cannot teleport to this place", "Cannot teleport to this place", "_t")
-t("Coords: ", "Coords: ", "_t")
-t("map attrs: ", "map attrs: ", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/NPC.lua"
--- 5 entries
-t("Killed by you: %s", "Killed by you: %s", "tformat")
+-- 3 entries
 t(" looking %s", " looking %s", "tformat")
 t(" looking at you.", " looking at you.", "_t")
 t("UID: ", "UID: ", "_t")
-t("%s says: '%s'", "%s says: '%s'", "logSeen")
 
 
 ------------------------------------------------
@@ -3353,13 +2851,12 @@ t("", "", "log")
 
 ------------------------------------------------
 section "game/modules/tome/class/Projectile.lua"
--- 10 entries
+-- 9 entries
 t("Projectile: ", "Projectile: ", "_t")
 t("Origin: ", "Origin: ", "_t")
 t("Speed: %d%% %s", "Speed: %d%% %s", "tformat")
 t("Affect origin chance: ", "Affect origin chance: ", "_t")
 t("Affect origin's friends chance: ", "Affect origin's friends chance: ", "_t")
-t("Coords: ", "Coords: ", "_t")
 t("UID: ", "UID: ", "_t")
 t(" homing: %s(%s, %s)", " homing: %s(%s, %s)", "tformat")
 t(" range: ", " range: ", "_t")
@@ -3457,7 +2954,7 @@ t("Killed by you: ", "Killed by you: ", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/class/generator/actor/Arena.lua"
--- 27 entries
+-- 26 entries
 t("Skeletal rats", "Skeletal rats", "_t")
 t("Gladiators", "Gladiators", "_t")
 t("Golden crystals", "Golden crystals", "_t")
@@ -3475,7 +2972,6 @@ t("Rej the Master of Arena", "Rej the Master of Arena", "_t")
 t("#LIGHT_RED#WARNING! Rej Arkatis, the master of the arena, appears!!!", "#LIGHT_RED#WARNING! Rej Arkatis, the master of the arena, appears!!!", "log")
 t("The final fight!", "The final fight!", "_t")
 t("Congratulations!", "Congratulations!", "_t")
-t("%s the %s", "%s the %s", "tformat")
 t("%s the Master of Arena", "%s the Master of Arena", "tformat")
 t("#LIGHT_RED#WARNING! %s, the master of the arena, appears!!!", "#LIGHT_RED#WARNING! %s, the master of the arena, appears!!!", "log")
 t("OVERKILL", "OVERKILL", "_t")
@@ -7445,31 +6941,7 @@ t("As you descend to the next level you traverse a kind of magical barrier keepi
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/orc-prides.lua"
--- 29 entries
-t("Grushnak's Note", "Grushnak's Note", "_t")
-t([[Treachery! During a patrol around the outskirts of the High Peak I witnessed two orcs - the envoys from our supposed "master" - talking in secret. Remaining to watch them, I beheld as their orcish features sloughed from their bodies, revealing a pair of human wizards! Humans! To think that our great pride has been deceived in such a manner! I should have crushed their skulls there and then. However, mages can be crafty, so I left them to their scheming.
-
-Even now the blood runs hot! What would Garkul, our mighty berserker king, think if he saw our great race bending before humans?! Many times I have entertained the idea of taking a group of my finest warriors and ending this folly, but... loathsome as it is, I must use tact. A rebellion would leave my pride weakened, easy prey. That bone-picker Rak'Shor and his unnatural creations have dreamed of my death (and subsequent dominion) for years, I know this to be true. This conundrum frustrates and confuses! ... At least we are agreed on one matter - the total destruction of those sun-worshipping dogs of the Gates of Morning...]], [[Treachery! During a patrol around the outskirts of the High Peak I witnessed two orcs - the envoys from our supposed "master" - talking in secret. Remaining to watch them, I beheld as their orcish features sloughed from their bodies, revealing a pair of human wizards! Humans! To think that our great pride has been deceived in such a manner! I should have crushed their skulls there and then. However, mages can be crafty, so I left them to their scheming.
-
-Even now the blood runs hot! What would Garkul, our mighty berserker king, think if he saw our great race bending before humans?! Many times I have entertained the idea of taking a group of my finest warriors and ending this folly, but... loathsome as it is, I must use tact. A rebellion would leave my pride weakened, easy prey. That bone-picker Rak'Shor and his unnatural creations have dreamed of my death (and subsequent dominion) for years, I know this to be true. This conundrum frustrates and confuses! ... At least we are agreed on one matter - the total destruction of those sun-worshipping dogs of the Gates of Morning...]], "_t")
-t("Rak'Shor's Note", "Rak'Shor's Note", "_t")
-t([[The eyes of the dead bring interesting news to me. Our masters are not what they appear; they are human, simply masquerading as orcs in our presence. I might have suspected this... it is difficult to disguise the basic weakness and frailty of a human soul, even with complex spells. Their goals elude me, yet I sense strange energies in the vicinity of the High Peak - the voices of spirits long departed from this world... some not from this world at all.
-
-But this is foolishness compared to my current trials. Gorbat remains as obstinate as ever, the dragon-loving, scale-shining buffoon. He thinks that dragons are special, different, not suitable for my craft. I care not for his prattling, I desire the corpses of dragons! Mountains of them! How can his heart not beat a little faster at the prospect of a dracozombie?! The mere thought of it is enough to send delightful shivers down my spine...]], [[The eyes of the dead bring interesting news to me. Our masters are not what they appear; they are human, simply masquerading as orcs in our presence. I might have suspected this... it is difficult to disguise the basic weakness and frailty of a human soul, even with complex spells. Their goals elude me, yet I sense strange energies in the vicinity of the High Peak - the voices of spirits long departed from this world... some not from this world at all.
-
-But this is foolishness compared to my current trials. Gorbat remains as obstinate as ever, the dragon-loving, scale-shining buffoon. He thinks that dragons are special, different, not suitable for my craft. I care not for his prattling, I desire the corpses of dragons! Mountains of them! How can his heart not beat a little faster at the prospect of a dracozombie?! The mere thought of it is enough to send delightful shivers down my spine...]], "_t")
-t("Gorbat's Note", "Gorbat's Note", "_t")
-t([[My dragons bring news. They witnessed humans upon the High Peak, speaking of their mastery over our prides. They did not heed my dragons, unwitting of their ability to communicate with me. Now I possess this information, I must think deeply on how to proceed regarding our "masters". Many of my finest wyrmics wish to rise up against our deceivers, see them consumed in wyrmfire. Even some of my dragons have divulged this wish to me. Sadly, this must wait.
-
-Vor's insolence will be tolerated no longer! His claims that his pride's mastery over the elements surpasses that of the dragons is insult enough, but this...! Some of my finest dragons, my glorious multi-hued wyrms, have been captured and held within their armouries in the hopes that they can further their twisted mockeries of fire and ice! This will not stand! I must ignore the plots of our human deceivers for the moment, for Vor requires my full attention.]], [[My dragons bring news. They witnessed humans upon the High Peak, speaking of their mastery over our prides. They did not heed my dragons, unwitting of their ability to communicate with me. Now I possess this information, I must think deeply on how to proceed regarding our "masters". Many of my finest wyrmics wish to rise up against our deceivers, see them consumed in wyrmfire. Even some of my dragons have divulged this wish to me. Sadly, this must wait.
-
-Vor's insolence will be tolerated no longer! His claims that his pride's mastery over the elements surpasses that of the dragons is insult enough, but this...! Some of my finest dragons, my glorious multi-hued wyrms, have been captured and held within their armouries in the hopes that they can further their twisted mockeries of fire and ice! This will not stand! I must ignore the plots of our human deceivers for the moment, for Vor requires my full attention.]], "_t")
-t("Vor's Note", "Vor's Note", "_t")
-t([[Strange lights play atop the High Peak. Torches? Nay. The fire of dragons? Not so. A volcanic eruption, perchance? Alas, no. It is unmistakably the fire of the arcane, the fire of mages, and seeing as every pyromancer within our pride is under my dominion, I can only assume that these lights come from one not affiliated with us. The lights are fascinating, I wish to study them; they put me in mind of the fires of the Spellblaze, burning so very long ago...
-
-Sadly, such desires are denied to me at this moment. Plans are in motion, and we are scant weeks away from finally crushing the accursed sun paladins and their tin-plated harlot ruler. Even once the Sunwall lies in ruins I must be careful - the horde of sub-orc savages Grushnak calls a pride are ever at my door, claiming we do not follow Garkul's "true path". He is a fool, but dangerous, and I must be vigilant.]], [[Strange lights play atop the High Peak. Torches? Nay. The fire of dragons? Not so. A volcanic eruption, perchance? Alas, no. It is unmistakably the fire of the arcane, the fire of mages, and seeing as every pyromancer within our pride is under my dominion, I can only assume that these lights come from one not affiliated with us. The lights are fascinating, I wish to study them; they put me in mind of the fires of the Spellblaze, burning so very long ago...
-
-Sadly, such desires are denied to me at this moment. Plans are in motion, and we are scant weeks away from finally crushing the accursed sun paladins and their tin-plated harlot ruler. Even once the Sunwall lies in ruins I must be careful - the horde of sub-orc savages Grushnak calls a pride are ever at my door, claiming we do not follow Garkul's "true path". He is a fool, but dangerous, and I must be vigilant.]], "_t")
+-- 21 entries
 t([[Our history is a history of battles, a history of wars. We orcs have always been under attack from the other races, always having to defend ourselves against their ruthless advances. The other races paint us as evil, they think of us as purely beasts. Not so! If we are cruel, it is because they made us cruel. If we are heartless, it is because they ripped our beating hearts from our chests and stamped them beneath their feet!
 
 It was the halflings we first did war with, in the Age of Allure. We were weak then, and disorganised, and in their arrogance they sought to enslave us. But we fought back! And we have been fighting back ever since. They used magic on us, though we had never come in touch with the arts before. They used whips and chains and tried to beat us down. They used us for labour, butchering any young that were not strong enough for them, burning any constructions we tried to make for ourselves.
@@ -10281,56 +9753,51 @@ t("#LIGHT_RED#no", "#LIGHT_RED#no", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyContingency.lua"
--- 4 entries
+-- 3 entries
 t([[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
 ]], [[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
 ]], "_t")
 t("", "", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
 t("All talents that can be used with Contingency.", "All talents that can be used with Contingency.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyEmpower.lua"
--- 4 entries
+-- 3 entries
 t([[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
 ]], [[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
 ]], "_t")
 t("", "", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
 t("All talents that can be used with Empower.", "All talents that can be used with Empower.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyExtension.lua"
--- 4 entries
+-- 3 entries
 t([[You may select a chronomancy spell to Extend, increasing the duration of that spell.
 ]], [[You may select a chronomancy spell to Extend, increasing the duration of that spell.
 ]], "_t")
 t("", "", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
 t("All talents that can be used with Extension.", "All talents that can be used with Extension.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyMatrix.lua"
--- 4 entries
+-- 3 entries
 t([[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
 ]], [[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
 ]], "_t")
 t("", "", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
 t("All talents that can be used with Matrix.", "All talents that can be used with Matrix.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyQuicken.lua"
--- 4 entries
+-- 3 entries
 t([[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
 ]], [[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
 ]], "_t")
 t("", "", "_t")
-t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choose a talent#{normal}#", "_t")
 t("All talents that can be used with Quicken.", "All talents that can be used with Quicken.", "_t")
 
 

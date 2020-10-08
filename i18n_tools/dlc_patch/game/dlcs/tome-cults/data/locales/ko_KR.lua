@@ -225,6 +225,34 @@ t("Malyu", "말류", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/chats/space-dwarf-trinket.lua"
 
+t([[#YELLOW_GREEN##{bold}#Suddenly the strange metallic device emits some beeps and starts to speak. Somehow.#{normal}##LAST#
+Uplink established with remote satellite. Activating emergency communication array.
+Current user does not match with previous user records. Performing scan.]], [[#YELLOW_GREEN##{bold}#갑자기 이상한 장치가 삑삑거리면서 말을 하기 시작했습니다. 어떻게 하는지는 모르겠지만요.#{normal}##LAST#
+원격 위성으로 업링크 설정됨. 긴급 통신 배열 활성화.
+현재 사용자는 이전 사용자 기록과 일치하지 않음. 스캔 개시.]], "_t")
+t("..what?", "..뭐?", "_t")
+t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
+User's biological signature matches expected species, but does not match any identity records in database. Sending information for further analysis.
+
+User added to database. I am now your personal assistant and will help you survive until further assistance can arrive. Enabling protective electromagnetic barrier and real time health monitoring.]], [[#YELLOW_GREEN##{bold}#장치가 다시 삑삑거리면서 말합니다.#{normal}##LAST#
+사용자의 생체 서명은 예상 종족과 일치하지만, 데이터베이스 내의 그 어떤 식별 기록과도 일치하지 않음. 자세한 분석을 위해 정보 전송.
+
+데이터베이스에 사용자 추가됨. 이제 난 당신의 개인 보좌관임. 그리고 더 많은 지원이 도착할 때까지 살아남도록 도와주겠음. 전자기적 보호막 활성화. 실시간 생체 모니터링 개시.]], "_t")
+t("Expected species?", "예상 종족이라고?", "_t")
+t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
+User's biological signature indicates dangerous degeneration of genome due to unknown factors. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#장치가 다시 삑삑거리면서 말합니다.#{normal}##LAST#
+사용자의 생체 서명은 유전체의 치명적인 퇴화를 나타냄. 요인 불명. 자세한 분석을 위해 정보 전송.]], "_t")
+t("Genome?", "유전체?", "_t")
+t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
+No signs of life detected. User appears to be still moving despite absence of living tissue. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#장치가 다시 삑삑거리면서 말합니다.#{normal}##LAST#
+생명 징후 탐지되지 않음. 사용자에겐 살아 있는 생체 조직이 없음에도 여전히 움직이고 있는 것으로 보임. 자세한 분석을 위해 정보 전송.]], "_t")
+t("Never seen an undead have you?", "언데드 처음 봐?", "_t")
+t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
+User's biological signature does not match any currently known species in database. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#장치가 다시 삑삑거리면서 말합니다.#{normal}##LAST#
+사용자의 생체 서명은 데이터베이스 내에 존재하는 그 어떤 종족과도 일치하지 않음. 자세한 분석을 위해 정보 전송.]], "_t")
+t("Database?", "데이터베이스?", "_t")
+t("#YELLOW_GREEN##{bold}#The machine beeps twice, then goes completely silent. Any further attempts to get it to speak prove futile.#{normal}##LAST#", "#YELLOW_GREEN##{bold}#기계가 두 번 삑삑거리더니, 완전히 조용해졌습니다. 이걸 다시 말하게 하려는 건 헛수고 같습니다.#{normal}##LAST#", "_t")
+t("That was weird...", "이거 참 괴상하네...", "_t")
 
 
 ------------------------------------------------
@@ -252,6 +280,10 @@ t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPL
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/factions.lua"
 
+t("Sanctuary of Horrors", "공포의 성역", "faction name")
+t("The Tribe", "부족", "faction name")
+t("Food", "음식", "faction name")
+t("Things from above", "하늘에서 온 것들", "faction name")
 
 
 ------------------------------------------------
@@ -293,6 +325,23 @@ t("Way to a strange portal", "이상한 차원문으로 가는 길", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/events/digestive-sack.lua"
 
+t("\
+#DARK_SEA_GREEN#It was corrupted by the digestive sack.", "\
+#DARK_SEA_GREEN#이건 소화 자루 때문에 오염되었다.", "_t")
+t("\
+#DARK_SEA_GREEN#It was hardened by the digestive sack.", "\
+#DARK_SEA_GREEN#이건 소화 자루 때문에 경화되었다.", "_t")
+t("\
+#DARK_SEA_GREEN#It was changed by the digestive sack.", "\
+#DARK_SEA_GREEN#이건 소화 자루 때문에 바뀌었다.", "_t")
+t("corrupted #base#", "오염된 #base#", "_t")
+t("giant digestive sack", "거대 소화 자루", "_t")
+t("Giant Digestive Sack", "거대 소화 자루", "_t")
+t("Open the sack?", "자루를 열겠습니까?", "_t")
+t("#DARK_SEA_GREEN#An object rolls from the sack!", "#DARK_SEA_GREEN#자루에서 어떤 물건이 튀어나왔다!", "logSeen")
+t("#DARK_SEA_GREEN#A not yet digested foe burst out from the sack!", "#DARK_SEA_GREEN#덜 소화된 적들이 자루에서 쏟아져 나왔다!", "logSeen")
+t("giant digestive sack (opened)", "거대 소화 자루 (열림)", "_t")
+t("#DARK_SEA_GREEN#Sickening fumes emanates from the sack as it opens!", "#DARK_SEA_GREEN#자루를 열자 안에서 역겨운 연기가 뿜어져 나왔다!", "logSeen")
 t("Leave", "떠난다", "_t")
 t("Open", "연다", "_t")
 
@@ -300,6 +349,9 @@ t("Open", "연다", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/events/scourged-pits.lua"
 
+t("Way into the scourged pits", "재앙의 구덩이로 가는 길", "_t")
+t("The air is pestilent", "공기 중에 역병이", "_t")
+t("You smell a blighted perfume in the air for an instant...", "갑자기 썩은 내가 코를 찔렀습니다...", "_t")
 
 
 ------------------------------------------------
@@ -307,25 +359,54 @@ section "game/dlcs/tome-cults/data/general/events/space-dwarf-ship.lua"
 
 t("floor", "바닥", "_t")
 t("wall", "벽", "_t")
+t("strange metallic capsule", "이상한 금속 캡슐", "_t")
+t("You have already scavenged what you could understand and use.", "이해가 되는 선에서 쓸만한 건 전부 뒤졌다.", "_t")
+t("Strange metallic capsule", "이상한 금속 캡슐", "_t")
+t([[The thing in front of you appears to be a strange dome made from green glass. Judging by the crater around it, this dome must have crashed into the earth with tremendous force. Stranger still is the figure seated inside it. It appears to be wearing a suit made of an unknown material and a glass dome over its head. Looking inside the dome, you can plainly see that the figure is a dwarf! There is no mistaking that oversized nose. Judging by the smell, he has been dead for quite some time.
+
+You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], [[이건 녹색 유리로 만든 이상한 돔 같은 걸로 보입니다. 바로 옆의 크레이터를 생각해 보면, 이 돔은 터무니없는 힘으로 땅에 처박힌 게 틀림없습니다. 그 안쪽에는 여전히 이방인이 앉아 있습니다. 입고 있는 옷은 무슨 재료로 만들었는지 알 수가 없고, 머리에 유리 돔 같은 걸 쓰고 있습니다. 그 돔의 안쪽을 살펴보니, 이건 드워프의 모습이 확실합니다! 코가 저렇게 큰데 드워프가 아니면 뭐겠습니까. 냄새를 보아하니 죽은 지 꽤 된 것 같습니다.
+
+당신은 드워프들이 이런 걸 만들거나 할 수가 없고, 특히나 저런 식으로 옷을 입고 다니지도 않는다고 확신합니다. 그럼, 저 이상한 드워프는 어디서 온 걸까요? 좀 더 자세히 살펴보니, 드워프의 팔에 이상한 장치가 하나 붙어 있었습니다. 당신은 그걸 손쉽게 떼어냈습니다. 이 장치는 이때까지 봤던 그 어떤 것과도 완전히 다르며, 뭐 하는 데 쓰는 건지도 알 수가 없습니다. 이걸 갖고 있으면, 나중에 어떻게 쓰는 건지 알게 될지도 모릅니다.]], "_t")
 t("previous level", "이전 구역", "_t")
 t("ladder back to %s", "%s 돌아가는 사다리", "tformat", nil, {"로"})
+t("Eerie Cave", "으스스한 동굴", "_t")
+t("eerie cave", "으스스한 동굴", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/events/tentacle-tree.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears.", "#DARK_SEA_GREEN#가까이 가서 만져보자, 촉수가 쪼그라들더니 사라졌다.", "logSeen")
+t("#DARK_SEA_GREEN#As you touch it the tentacle tree awakens and attacks you!", "#DARK_SEA_GREEN#만져보자 촉수 나무가 깨어나서 공격하기 시작한다!", "logSeen")
+t("#DARK_SEA_GREEN#As you touch it the tentacle constricts you and swallows you whole!", "#DARK_SEA_GREEN#만져보자 촉수가 당신을 휘감고 통째로 집어삼켰다!", "logPlayer")
+t("way back to %s", "%s 돌아가는 길", "tformat", nil, {"로"})
+t("#DARK_SEA_GREEN# You escaped the tentacle!", "#DARK_SEA_GREEN# 촉수 내부에서 탈출했다!", "log")
+t("inside a giant tentacle", "거대 촉수 내부", "_t")
+t("#rng# the Blightborn", "황폐에서 태어난 #rng#", "_t")
+t("#DARK_SEA_GREEN#You can feel tremors in the tentacle.. A gastric wave is coming!", "#DARK_SEA_GREEN#촉수 안쪽의 떨림이 느껴진다... 위장 운동의 여파가 온다!", "say")
+t("#DARK_SEA_GREEN#The gastric wave is upon you!", "#DARK_SEA_GREEN#위장 운동의 여파가 왔다!", "say")
+t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears, leaving behind %s.", "#DARK_SEA_GREEN#가까이 가서 만져보자, 촉수가 %s 남기고 쪼그라들더니 사라졌다.", "logSeen", nil, {"를"})
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/fonts.lua"
 
 t("creep", "군생", "entity subtype")
+t("font of knowledge", "지식의 원천", "entity name")
+t("Do you want to touch it?", "이걸 만져보겠습니까?", "_t")
+t("Font of Knowledge", "지식의 원천", "_t")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t("#PURPLE#The %s glows as you touch it. Your knowledge grows (+1 prodigy point).", "#PURPLE#만지자 %s에서 빛이 난다. 지식이 늘었다 (특수 기술 점수 +1점).", "log")
+t("#VIOLET#The %s glows as you touch it. Your knowledge grows (+1 category point).", "#VIOLET#만지자 %s에서 빛이 난다. 지식이 늘었다 (기술 계열 점수 +1점).", "log")
+t("#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "#YELLOW#만지자 %s에서 빛이 난다. 지식이 늘었다 (직업 기술 점수 +1점).", "log")
+t("#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "#ORANGE#만지자 %s에서 빛이 난다. 지식이 늘었다 (일반 기술 점수 +1점).", "log")
+t("#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "#AQUAMARINE#만지자 %s에서 빛이 난다. 지식이 늘었다 (능력치 점수 +3점).", "log")
 t("cave", "동굴", "entity subtype")
 t("floor", "바닥", "entity type")
+t("font of sacrifice", "희생의 그릇", "entity name")
 
 
 ------------------------------------------------
@@ -342,6 +423,11 @@ t("sealed door", "봉인된 문", "entity name")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/grids/fortress-multiverse.lua"
 
+t("entropic breach", "엔트로피 균열", "entity name")
+t("Entropic Wormhole Control Orb", "엔트로피 웜홀 제어 오브", "entity name")
+t("#CRIMSON#The entropic forces are already at work. FIGHT!", "#CRIMSON#엔트로피의 힘은 이미 작용하고 있다. 싸워라!!", "say")
+t("#CRIMSON#The entropic control orb seems unresponsive...", "#CRIMSON#엔트로피 제어 오브는 반응이 없다...", "say")
+t("#PURPLE#Make sure you are connected and joined the main Tales of Maj'Eyal chat channel.", "#PURPLE#테일즈 오브 마즈'에이알의 메인 채팅 채널에 접속 중인지 확인해 주세요.", "log")
 
 
 ------------------------------------------------
@@ -351,8 +437,12 @@ t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
+t("godfeaster wall", "신 포식자 벽", "entity name")
+t("godfeaster door", "신 포식자 문", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되어 있는 것 같습니다만, 열 수는 있을 것 같습니다.", "_t")
+t("godfeaster", "신 포식자", "entity subtype")
 t("wall", "벽", "entity type")
+t("open godfeaster door", "열린 신 포식자 문", "entity name")
 
 
 ------------------------------------------------
@@ -362,9 +452,12 @@ t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
+t("maggot wall", "구더기 벽", "entity name")
+t("maggot door", "구더기 문", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되어 있는 것 같습니다만, 열 수는 있을 것 같습니다.", "_t")
 t("maggot", "구더기", "entity subtype")
 t("wall", "벽", "entity type")
+t("open maggot door", "열린 구더기 문", "entity name")
 
 
 ------------------------------------------------
@@ -389,8 +482,12 @@ t("exit to the worldmap", "세계 지도로의 출구", "entity name")
 t("previous level", "이전 구역", "entity name")
 t("next level", "다음 구역", "entity name")
 t("floor", "바닥", "entity name")
+t("slimy_godfeaster wall", "끈적한 신 포식자 벽", "entity name")
+t("slimy_godfeaster door", "끈적한 신 포식자 벽", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "이 문은 봉인되어 있는 것 같습니다만, 열 수는 있을 것 같습니다.", "_t")
+t("slimy_godfeaster", "끈적한 신 포식자", "entity subtype")
 t("wall", "벽", "entity type")
+t("open slimy_godfeaster door", "열린 끈적한 신 포식자 문", "entity name")
 
 
 ------------------------------------------------
@@ -435,7 +532,9 @@ section "game/dlcs/tome-cults/data/general/grids/tentacle-tree.lua"
 
 t("creep", "군생", "entity subtype")
 t("floor", "바닥", "entity type")
+t("strange tentacle 'tree'", "이상한 촉수 '나무'", "entity name")
 t("Do you #{strong}#really#{normal}# want to touch that?", "#{strong}#정말로#{normal}# 이걸 만지겠습니까?", "_t")
+t("Tentacle Tree", "촉수 나무", "_t")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
 t("#CRIMSON#The %s glows ominously.", "#CRIMSON#%s 불길하게 빛났다.", "log", nil, {"이"})
@@ -543,23 +642,43 @@ t("The tentacle tree has awakened!", "촉수 나무가 깨어났습니다!", "_t
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/objects/forbidden-tomes-base.lua"
 
+t("forbidden", "금지된", "entity subtype")
 t("tome", "고서", "entity type")
+t("strange book", "이상한 책", "_t")
+t("A lost tome of knowledge.", "잃어버린 지식이 담긴 고서입니다.", "_t")
+t("read the book", "책을 읽는다", "_t")
+t("The book story is done already.", "이 책의 이야기는 이미 끝냈다.", "_t")
+t("You can not enter a book while already inside one.", "이미 책 안에 있는데 또 책 안으로 들어갈 순 없다.", "_t")
+t("You can not enter a book while the timeline is split.", "시간선이 분리된 상태에선 책 안으로 들어갈 수 없다.", "_t")
+t("You can not enter this book while in combat.", "전투 중에는 책 안으로 들어갈 수 없다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/objects/lore/eyal.lua"
 
+t("gods", "신", "entity subtype")
+t("godslayers", "신살자", "entity subtype")
 t("analysis", "분석", "entity subtype")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/objects/special-misc.lua"
 
+t("Robe of the Worm", "벌레의 로브", "entity name")
+t("worm", "벌레", "entity short_name")
+t("Rags of the Sanctuary", "성역의 넝마", "entity name")
+t("rags", "넝마", "entity short_name")
 t("misc", "도구", "entity type")
 t("tool", "도구", "entity subtype")
+t("Bizzare Contraption", "기묘한 장치", "entity name")
+t("bizzare contraption", "기묘한 장치", "_t")
+t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "이 이상한 장치는 겉도 속도 모두 기계인 것 같지만, 그 부품 중 어떤 것도 어떻게 작동하는지 이해할 수가 없습니다. 옆면에는 가끔씩 이상한 소음을 내는 금속 격자 같은 게 달려 있습니다.", "_t")
+t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "기묘한 장치가 공격을 완벽히 흡수했다 (%0.2f 피해 흡수됨).", "logSeen")
+t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#전자기적 보호막 활성화. 실시간 생체 모니터링 개시.#{normal}#", "logPlayer")
 t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
 t("Fanged Collar", "송곳니 목줄", "entity name")
+t("It's a head... but is it yours?", "머리인데... 이거 당신 머리 맞나요?", "_t")
 
 
 ------------------------------------------------
@@ -574,30 +693,30 @@ t("This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brai
 t("%s resists the mental assault!", "%s 정신 공격에 저항했다!", "logSeen", nil, {"는"})
 t("Writhing Ring of the Hunter", "사냥꾼의 몸부림치는 반지", "entity name")
 t("green slimy ring", "초록색의 끈적이는 반지", "_t")
-t("A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "뒤틀린 촉수 덩어리가 거칠게 비틀려 반지의 형상을 갖게 되었습니다. 어둡고 악의 가득한 힘이 반지에서 뿜어나옵니다.", "_t")
+t("A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "뒤틀린 촉수 덩어리가 거칠게 비틀려 반지의 형상을 갖게 되었습니다. 사악한 어둠의 힘이 반지에서 뿜어져 나오고 있습니다.", "_t")
 t("When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "반지를 처음 착용 시, 반지는 착용자에게 적응해, 특수 기술을 하나 더 선택 할 수 있도록 해줍니다. 해당 특수 기술은 반지를 착용하고 있을 때, 영구적으로 적용됩니다. 한 번 선택한 특수 기술은 변경할 수 없습니다. 만약, 처음 착용 시, 특수 기술을 선택하지 않았다면, 다시 착용했을 때 특수 기술을 선택합니다.", "_t")
 t("#DARK_SEA_GREEN#While the ring senses battle it grips your finger so hard you can not take it off.", "#DARK_SEA_GREEN#반지가 전투가 일어났음을 느끼자, 손가락에 딱 달라붙어서 빠지지가 않는다.", "logPlayer")
 t("#DARK_SEA_GREEN#As you put the %s on your finger, you feel more attuned to the horror within you.", "#DARK_SEA_GREEN#%s 손가락에 끼자, 내면에 자리잡은 공포에 더 익숙해 진 것 같다.", "logPlayer", nil, {"를"})
 t("Staff of Bones", "뼈의 지팡이", "entity name")
 t("bone staff", "뼈 지팡이", "_t")
-t("A staff made out of the bones of fallen foes. Disgustingly powerful.", "쓰러진 적들의 뼈로 만든 지팡이로 역겨울 정도로 강력합니다.", "_t")
-t("It seems willing and able to talk to you (use Command Staff).", "착용자와 대화하길 원하는 것 같습니다 (지팡이 다루기 사용).", "_t")
-t("Growing more powerful? Still pathetic compared to a True Necromancer!", "더 강해지고 싶어? 진정한 강령술사에 비하면 한심한 수준인데!", "_t")
-t("Ahh the rush of power... I love that!", "아 힘의 쇄도... 너무 좋아!", "_t")
-t("What feeble power you wield now is nothing!", "네 힘 따위는 아무 것도 아니야!", "_t")
-t("Yes yes you've leveled up, so what?", "그래, 너 레벨업했다 어쩔래?", "_t")
-t("One more level, that's hardly impressive you know?", "레벨업, 솔직히 별로 기쁘진 않지?", "_t")
-t("If you weren't so useless I'd be nearly impressed by that new level...", "니가 좀 더 쓸모 있었다면, 레벨업할 때 깊은 인상을 받았을지도 몰라...", "_t")
-t("KILL! KILL!", "죽여라! 죽여!", "_t")
-t("We require more souls!", "우린 영혼이 더 해!", "_t")
-t("Destroy them all! OBEY!", "놈들을 박살내! 복종하라!", "_t")
-t("FEED ME!", "원혼을 줘!", "_t")
-t("I nee ..err.. you need more souls. Yes you...", "나는 더 많은.. 영ㅎ.. 너는 영혼이 더 필요해. 그래... 바로 너...", "_t")
+t("A staff made out of the bones of fallen foes. Disgustingly powerful.", "쓰러진 적들의 뼈로 만든 지팡이입니다. 역겨울 정도로 강력합니다.", "_t")
+t("It seems willing and able to talk to you (use Command Staff).", "착용자와 대화하길 원하는 것 같습니다 (지팡이 다루기를 사용하세요).", "_t")
+t("Growing more powerful? Still pathetic compared to a True Necromancer!", "더 강해지고 있다고? 진정한 강령술사에 비하면 아직도 한심한 수준인데!", "_t")
+t("Ahh the rush of power... I love that!", "아아... 힘이 밀려드는 건... 너무 좋아!", "_t")
+t("What feeble power you wield now is nothing!", "네 보잘것없는 힘 따위는 아무 것도 아니야!", "_t")
+t("Yes yes you've leveled up, so what?", "그래 그래, 너 레벨 업 했다. 그래서 뭐?", "_t")
+t("One more level, that's hardly impressive you know?", "레벨 하나 더 올라간 게 딱히 경사는 아니잖아?", "_t")
+t("If you weren't so useless I'd be nearly impressed by that new level...", "네가 좀 더 쓸모가 있었다면, 네 레벨이 오르는 것도 좀 더 의미가 있었을 텐데...", "_t")
+t("KILL! KILL!", "살해하라!! 살해하라!!", "_t")
+t("We require more souls!", "우린 영혼이 더 필요해!", "_t")
+t("Destroy them all! OBEY!", "놈들을 박살내버려! 복종하라!!", "_t")
+t("FEED ME!", "원혼을 줘!!", "_t")
+t("I nee ..err.. you need more souls. Yes you...", "나는 영ㅎ.. 으.. 너는 영혼이 더 필요해. 그래, 네가 말이야...", "_t")
 t("Pain and misery, spread them!", "고통과 괴로움을 퍼뜨려!", "_t")
-t("I love the smell of a fresh corpse.", "음 나는 신선한 시체 냄새가 좋더라.", "_t")
-t("Splatter me with the blood of our foes!", "적들의 피로 나를 적셔줘!", "_t")
-t("That one wasn't such an impressive kill...", "방금 거는 그렇게 인상적이지 않은 것 같은데...", "_t")
-t("Getting a bit sloppy on the kills no?", "너 좀 대충한거 같다?", "_t")
+t("I love the smell of a fresh corpse.", "난 신선한 시체 냄새가 참 좋더라.", "_t")
+t("Splatter me with the blood of our foes!", "저 놈들의 피로 날 적셔줘!", "_t")
+t("That one wasn't such an impressive kill...", "방금 건 그렇게 인상적이진 않은 것 같은데...", "_t")
+t("Getting a bit sloppy on the kills no?", "너 방금 좀 대충 한 것 같다?", "_t")
 t("Forbidden Tome: \"Of Knowledge And Horrors\"", "금지된 고서: \"지식과 공포에 관해\"", "entity name")
 t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "잃어버린 지식의 두꺼운 고서로, 만지기만해도 토할 것 같습니다.", "_t")
 t([[The book of horrors,
@@ -767,15 +886,24 @@ t("book", "책", "entity subtype")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/glyph_sequences/cults.lua"
 
+t("#PURPLE#A Font of Sacrifice appears nearby!", "#PURPLE#희생의 그릇이 근처에 나타났다!", "_t")
 t("Portal", "차원문", "_t")
+t("You feel this portal leads to a place from where you are likely to not come back.", "이 차원문은 다시는 돌아올 수 없는 곳과 연결되어 있다는 느낌이 듭니다.", "_t")
 t("Enter", "들어간다", "_t")
+t("Save your life and stay!", "목숨이 아깝다!", "_t")
+t("#PURPLE#A portal appears inside the Occult Egress!", "#PURPLE#비술의 출로에 차원문이 나타났다!", "_t")
+t("#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "#PURPLE#비술의 출로에 차원문이 나타났다. 그 모험가는 저걸 통해서 왔을 것이다!", "_t")
+t("splattered remains of an adventurer", "산산조각난 모험가의 잔해", "_t")
 t("log entry", "기록", "_t")
 t("A paper scrap.", "종잇조각입니다.", "_t")
+t("#PURPLE#An item appears on the egress!", "#PURPLE#비술의 출로에 어떤 물건이 나타났다!", "_t")
+t("#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "#PURPLE#순간 이 세계의 시간이 느려진 것 같은 느낌이 들었다! #{italic}#(세계 지도의 순찰대들이 영구적으로 느려짐)#{normal}#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/glyph_sequences/orcs.lua"
 
+t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put them in your ingredients cache.", "#YELLOW#비술의 출로에... 뇌가 든 통이 두 개 나타났다! 재빨리 재료 보관함에 넣었다.", "_t")
 
 
 ------------------------------------------------
@@ -2069,21 +2197,46 @@ t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서: \"환상의 성\
 section "game/dlcs/tome-cults/data/quests/grung.lua"
 
 t("A View From The Gallery", "회랑에서 본 것", "_t")
+t([[You are Grung, a halfling from the Age of Haze. You must gather food or die but outside there is a terrible war being fought.
+A war between incomprehensible beings for incomprehensible reasons. All you can hope to do is gather food while avoiding to get crushed.]], [[당신은 아지랑이의 시대에 살던 하플링 그룽입니다. 먹을 것을 모으지 않으면 곧 죽을 지경이지만, 바깥에선 끔찍한 전쟁이 일어났습니다.
+당신의 이해를 넘어선 존재들이 이해할 수가 없는 이유로 일으킨 내전이지요. 당신은 그저 몸 성한 채로 먹을 것을 모아올 수 있기를 바랄 뿐입니다.]], "_t")
+t("#LIGHT_GREEN#* You have gathered enough food for a few day for your tribe, go back home now.#WHITE#", "#LIGHT_GREEN#* 부족 사람들이 며칠간 먹을 수 있을 만큼의 음식을 모았습니다. 이제 집으로 돌아가세요.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have came home with the food.#WHITE#", "#LIGHT_GREEN#* 먹을 것을 가지고 집으로 돌아왔습니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/quests/illusory-castle.lua"
 
+t("The Impossible Castle", "불가능의 성", "_t")
+t("You have discovered the entrance to a strange castle inside a huge book. The place seems to eat at your sanity but you feel drawn to it somehow...", "거대한 책 안의 이상한 성으로 들어가는 입구를 발견했습니다. 그곳은 당신을 미치게 만들 것 같지만, 왠지 모르게 이끌립니다...", "_t")
+t("#LIGHT_GREEN#* You have closed a book of binding, it seems the whole castle had stabilized a little, there may be more books to close.#WHITE#", "#LIGHT_GREEN#* 봉인의 서를 닫았고, 성 전체가 살짝 안정화된 것 같지만 아직 닫아야 할 책이 더 있는 모양입니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have closed two books of binding, the castle is now stable and you should probably be able to access the last chapter.#WHITE#", "#LIGHT_GREEN#* 봉인의 서를 두 권 닫았고, 성이 안정화되어 이제 마지막 장으로 갈 수 있을 겁니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have killed the Glass Golem and claimed the castle treasures for yourself!#WHITE#", "#LIGHT_GREEN#* 유리 골렘을 죽였고 성의 보물들을 독차지했습니다!#WHITE#", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/quests/krogs-rescue.lua"
 
+t("Cleaning the trash", "쓰레기 청소", "_t")
+t([[Protector Myssil has requested that you go at once to the ruins on the eastern shores of the sea of Sash to rescue a party of Krogs taken by necromancers filth.
+Save our people and show the evildoers the wrongness of their way. Permanently.]], [[보호자 미씰은 사쉬 해 동쪽 해변에 있는 폐허로 가서 쓰레기 같은 강령술사들에게 붙잡힌 크로그들을 구해 달라고 했습니다.
+크로그들을 구하고 그 악당들에게 자기들의 방식이 잘못되었다는 걸 '납득' 시키세요. 영원히.]], "_t")
+t("#LIGHT_RED#* You have killed the necromancers but not in time to save any of the captive Krogs.", "#LIGHT_RED#* 강령술사들을 죽였지만 붙잡힌 크로그들을 제때 구해내는 데에 실패했습니다.", "_t")
+t("#LIGHT_GREEN#* You have killed the necromancers and saved some of the Krogs.", "#LIGHT_GREEN#* 강령술사들을 죽이고 크로그 몇 명을 구해냈습니다.", "_t")
+t("#LIGHT_GREEN#* You have killed the necromancers and saved all of the Krogs, well done Ziguranth!", "#LIGHT_GREEN#* 강령술사들을 죽이고 크로그를 모두 구해냈습니다. 훌륭합니다, 지구랏 추종자여!", "_t")
+t("trapdoor into the necromancer's ruins", "강령술사들의 폐허로 통하는 문", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/quests/start-cults.lua"
 
+t("The Worm That Devours", "집어삼키는 벌레", "_t")
+t([[A huge mindless and corrupted worm is heading toward Kroshkkur!
+It has to be stopped or the Sanctuary will fall, digested in the bowels of giant worm, its forbidden knowledge lost forever.]], [[지성이 없고 오염된 거대한 벌레가 크로슈쿠르로 다가오고 있습니다!
+놈을 저지하지 않으면 성역은 놈의 한 끼 식사가 될 거고, 금지된 지식들은 영영 사라지게 될 겁니다.]], "_t")
+t("#LIGHT_GREEN#* You have destroyed the Worm's neural spine, preventing the doom of the Sanctuary.#WHITE#", "#LIGHT_GREEN#* 벌레의 신경 중추를 파괴하여, 성역이 파괴되는 걸 막았습니다.#WHITE#", "_t")
+t("#LIGHT_RED#* You have failed to destroy the Worm in time, the Sanctuary has been destroyed.#WHITE#", "#LIGHT_RED#* 제때 벌레를 죽이는 데에 실패했고, 성역은 파괴되었습니다.#WHITE#", "_t")
+t("#SLATE#* You have to destroy the Worm's neural spine.#WHITE#", "#SLATE#* 벌레의 신경 중추를 파괴해야 합니다.#WHITE#", "_t")
 
 
 ------------------------------------------------
@@ -2092,7 +2245,7 @@ section "game/dlcs/tome-cults/data/talents/demented/beyond-sanity.lua"
 t("Chaos Orbs", "혼돈의 보주", "talent name")
 t([[You harness the chaos created by high insanity.
 		Each time you trigger an insanity chaotic effect with a power higher than %d or lower than -%d you gain a chaos orb for 10 turns (this effect can only happen once per turn).
-		Each orb increases your damage by 3%% and can stack up to %d.]], [[광기가 빚어낸 혼돈을 휘두룹니다.
+		Each orb increases your damage by 3%% and can stack up to %d.]], [[광기가 빚어낸 혼돈을 휘두릅니다.
 		주문 사용시, 광기로 인한 변동 수치가 %d 이상이거나 -%d 이하라면, 시전자는 10 턴 동안 지속되는 혼돈의 보주를 하나 얻습니다. (이 효과는 한 턴에 1 번만 일어날 수 있습니다.)
 		보주는 하나당 시전자의 모든 피해가 3%% 증가합니다. 보주는 최대 %d 개 보유할 수 있습니다.]], "tformat")
 t("Anarchic Walk", "무질서의 발걸음", "talent name")
@@ -2210,7 +2363,7 @@ The damage increase is based on your Spellpower.]], [[소환한 공포들을 죽
 section "game/dlcs/tome-cults/data/talents/demented/demented.lua"
 
 t("Insanity Pool", "광기", "talent name")
-t("Allows you to have an insanity pool. Insanity is used for most demented powers.", "광기 주문에 접근할 수 있게됩니다. 광기는 대부분의 광기 계통 주문에서 소모됩니다.", "_t")
+t("Allows you to have an insanity pool. Insanity is used for most demented powers.", "광기 주문에 접근할 수 있게 됩니다. 광기는 대부분의 광기 계통 주문에서 소모됩니다.", "_t")
 t("Grow horrific tentacles to assail your foes.", "끔찍한 촉수를 돋아나게 해, 적들에게 공격을 가합니다.", "_t")
 t("tentacles", "촉수", "_t")
 t("Let your body mutate in terrible and efficient ways.", "자신의 신체를 끔찍하지만 효율적이게 변화시킵니다.", "_t")
@@ -2934,7 +3087,7 @@ t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f
 section "game/dlcs/tome-cults/data/talents/misc/races.lua"
 
 t("drem", "드렘", "_t")
-t("Frenzy", "난도질", "talent name")
+t("Frenzy", "광분", "talent name")
 t([[Enter a killing frenzy for 3 turns.
 		During the frenzy the first time you use a class talent it has no cooldown (but does if used twice).
 		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
@@ -2954,20 +3107,20 @@ t("Faceless", "얼굴 없는 존재", "talent name")
 t([[Your faceless visage is puzzling and emotionless, allowing you to more easily resist mind tricks.
 		You gain %d mental save, %d%% confusion immunity.]], [[얼굴없는 안면은 매우 당혹스럽게 보이고, 감정이 느껴지질 않습니다. 따라서 정신적인 효과에 더 쉽게 저항할 수 있게 되었습니다.
 		정신 내성 %d , 혼란 면역력 %d%% 가 증가합니다.]], "tformat")
-t("From Below It Devours", "집어삼키는 심연에서", "talent name")
+t("From Below It Devours", "깊은 곳에서 집어삼킨다", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
-t("hungering mouth", "굶주린 아가리", "_t")
-t("\"From below, it devours.\"", "\"심연으로 부터, 집어삼킨다.\"", "_t")
+t("hungering mouth", "굶주린 주둥이", "_t")
+t("\"From below, it devours.\"", "\"깊은 곳에서, 집어삼킨다.\"", "_t")
 t([[Your affinity with things that dwell deep beneath the surface allows you to summon a hungering mouth.
 		The mouth has %d bonus life, lasts for %d turns, and deals no damage.
 		Each turn the mouth will draw all enemies in radius 10 2 spaces towards itself.
-		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], [[지면 깊은 곳에 사는 존재들과의 친화력을 통해, 굶주린 아가리를 소환할 수 있게되었습니다.
-		아가리는 %d 추가 생명력을 갖고, %d 턴 동안 지속되지만, 피해를 가하지는 않습니다.
-		매 턴 아가리는 반경 10 칸 내의 모든 적을 2 칸씩 끌어옵니다.
+		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], [[지면 깊은 곳에 사는 존재들과의 친화력을 통해, 굶주린 주둥이를 소환할 수 있게 되었습니다.
+		주둥이는 %d 추가 생명력을 갖고, %d 턴 동안 지속되지만, 피해를 가하지는 않습니다.
+		매 턴 주둥이는 반경 10 칸 내의 모든 적을 2 칸씩 끌어옵니다.
 		추가 생명력은 체격과 기술 레벨에 비례하여 증가합니다. 기타 능력치는 레벨에 비례하여 증가합니다.]], "tformat")
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
-드렘의 경우, 이 효과는 '집어삼키는 심연에서'로 굶주린 아가리가 소환되어 있을 때 활성화됩니다.", "_t")
+드렘의 경우, 이 효과는 '깊은 곳에서 집어삼킨다' 로 굶주린 주둥이가 소환되어 있을 때 활성화됩니다.", "_t")
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
 t("krog", "크로그", "_t")
 t("Wrath of the Wilds", "야생의 분노", "talent name")
@@ -2980,7 +3133,7 @@ t([[You unleash the wrath of the wilds for 5 turns.
 		확률은 체격에 비례하여 증가하고, 판정 시, 물리력 또는 정신력 중 더 높은 값을 사용합니다.]], "tformat")
 t("Drake-Infused Blood", "주입된 용의 피", "talent name")
 t("You must kill more enemies before you can use this talent!", "더 많은 적을 살해해야 이 기술을 사용할 수 있다!", "logPlayer")
-t("#GREEN#You can now change your elemental drake aspect", "#GREEN#당신은 원소 드레이크의 위상을 변경할 수 있다.", "say")
+t("#GREEN#You can now change your elemental drake aspect", "#GREEN#이제 원소 드레이크의 위상을 변경할 수 있다.", "say")
 t("Fire Drake / Fire Resistance", "화염 드레이크 / 화염 저항", "_t")
 t("Cold Drake / Cold Resistance", "냉기 드레이크 / 냉기 저항", "_t")
 t("Storm Drake / Lightning Resistance", "전기 드레이크 / 전기 저항", "_t")
@@ -3018,16 +3171,16 @@ t([[You were created by ziguranth for one purpose only, to wage war on magic!
 			대상을 강타해 %d%% %s 무기 피해를 주고, 대상을 %d 턴 동안 침묵시킵니다.
 			피해 속성은 드레이크의 위상에 따라 변경됩니다.
 			침묵 확률은 물리력과 정신력 중 높은 값에 비례하여 증가합니다 .]], "tformat")
-t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "캐릭터가 갖을 수 있는 여러가지 종족의 능력입니다.. 자신의 머리통을 날려버리고 기생충으로 대체했을 때 말입니다..", "_t")
-t("parasite", "기생충", "_t")
+t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.. 자신의 머리통을 날려버리고 기생생물로 대체했을 때 말입니다..", "_t")
+t("parasite", "기생생물", "_t")
 t("race", "종족", "talent category")
-t("Take a Bite", "씹어먹기", "talent name")
-t("#Source# tries to bite #target#!", "#Source1# #target3# 씹어먹으려 하고있다!", "logCombat")
+t("Take a Bite", "한 입", "talent name")
+t("#Source# tries to bite #target#!", "#Source1# #target3# 씹어먹으려 하고 있다!", "logCombat")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 t([[You try to bite off your foe with your #{italic}#head#{normal}# for %d%% blight weapon damage.
 		If the target falls under 20%% life you have %d%% chances to outright kill it (bosses are immune).
 		Whenever you succesfully bite a foe you regenerate %0.1f life per turn for 5 turns.
-		Instant kill chances and regeneration increase with your Constitution stat and weapon damage increases with the highest of your Strength, Dexterity or Magic stat.]], [[#{italic}#머리#{normal}#를 이용하여 적을 물어뜯습니다 %d%% 황폐 무기 피해를 입힙니다.
+		Instant kill chances and regeneration increase with your Constitution stat and weapon damage increases with the highest of your Strength, Dexterity or Magic stat.]], [[#{italic}#머리#{normal}#를 이용하여 적을 물어뜯어 %d%% 황폐 무기 피해를 입힙니다.
 		대상의 생명력이 20%% 이하일 경우, %d%% 확률로 즉사시킵니다. (보스 등급의 적에게는 통하지 않습니다).
 		명중 시, 5 턴 동안 시전자는 생명력 재생이 %0.1f 증가합니다.
 		즉시 살해 확률과 재생량은 체격에 비례하여 증가하고, 무기 피해량은 힘, 민첩, 마법 중 가장 높은 것에 비례하여 증가합니다.]], "tformat")
@@ -3037,7 +3190,7 @@ t([[Without the distraction of #{bold}#thoughts#{normal}# or #{bold}#self#{norma
 		모든 속도가 %d%% 증가합니다.]], "tformat")
 t("Corrupting Influence", "부패하는 영향력", "talent name")
 t([[The parasite corruption seeps into your body, strengthening it.
-		Increases blight, darkness, temporal and acid resistances by %d%% but decreases nature and light resistances by %d%%.]], [[기생충의 오염이 육체에 스며들어, 육체를 더욱 강하게 합니다.
+		Increases blight, darkness, temporal and acid resistances by %d%% but decreases nature and light resistances by %d%%.]], [[기생생물의 오염이 육체에 스며들어, 육체를 더욱 강하게 합니다.
 		황폐, 암흑, 시간, 산성 저항이 %d%% 증가하지만, 자연과 빛 저항이 %d%% 감소합니다.]], "tformat")
 t("Horror Shell", "끔찍한 껍질", "talent name")
 t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
@@ -3048,14 +3201,15 @@ t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/spell/necro.lua"
 
-t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락 거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 동시에, 팔다리는 내부로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
-t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#뼈의 공포가 파괴되자, 남아있는 뼈와 살이 재조합되어 새로운 적으로 형성되었다!", "logSeen")
+t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 동시에, 팔다리는 내부로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
+t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#뼈의 공포가 파괴되자, 남아있는 뼈와 살이 재조합되어 새로운 적들이 되었다!", "logSeen")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/timed_effects.lua"
 
-t("Fight your foe! If anything wrong happens, the Fortress will pull you out.", "적과 맞써라! 안좋은일이 일어날 경우, 요새가 당신을 끌어올림.", "_t")
+t("S.M.A.C.K.", "죽.인.다. 안전한 투기장", "_t")
+t("Fight your foe! If anything wrong happens, the Fortress will pull you out.", "적과 맞서 싸워라! 뭔가 잘못되면, 요새가 당신을 끌어낼 것임.", "_t")
 t("other", "기타", "effect subtype")
 t("Frenzy", "광폭화", "_t")
 t("Class talents have no cooldown the first time they are used.", "첫번째로 사용하는 직업 기술에는 재사용 대기시간이 적용되지 않음.", "_t")
@@ -3544,7 +3698,7 @@ t("rodent", "설치류", "entity subtype")
 t("vermin", "해충", "entity type")
 t("giant brown rat", "거대한 갈색 시궁쥐", "entity name")
 t("giant rabbit", "거대한 토끼", "entity name")
-t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "와빗을 죽여, 와빗을 죽여, 와빗을 주우우우겨어어어어어ㅓ.", "_t")
+t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "와빗을 죽여, 와빗을 죽여, 와빗을 주우우우겨어어어어어.", "_t")
 
 
 ------------------------------------------------
@@ -3639,7 +3793,7 @@ section "game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua"
 
 t("A page of the tome.", "두꺼운 책의 한 페이지.", "_t")
 t("Forbidden Tome: \"Home, Horrific Home\"", "금지된 고서: \"집, 무시무시한 집\"", "entity name")
-t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "잃어버린 지식을 담고 있는 두꺼운 책. 만지면 역겨움과 평화를 동시에 느낄 수 있다.", "_t")
+t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "잃어버린 지식을 담고 있는 두꺼운 책입니다. 만지면 역겹지만, 이상하게도 동시에 평화로움을 느낄 수 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -3809,7 +3963,7 @@ section "game/dlcs/tome-cults/data/zones/godfeaster/grids.lua"
 t("portal to outside", "밖으로 나가는 차원문", "entity name")
 t("floor", "바닥", "entity type")
 t("maggot", "구더기", "entity subtype")
-t("maggot's nerval spine", "구더기의 신경중추", "entity name")
+t("maggot's nerval spine", "구더기의 신경 중추", "entity name")
 t("%s (corrupted)", "%s (오염됨)", "tformat")
 
 
@@ -3849,7 +4003,7 @@ section "game/dlcs/tome-cults/data/zones/maggot/grids.lua"
 t("portal to Kroshkkur", "크로슈쿠르로 통하는 차원문", "entity name")
 t("floor", "바닥", "entity type")
 t("maggot", "구더기", "entity subtype")
-t("maggot's nerval spine", "구더기의 신경중추", "entity name")
+t("maggot's nerval spine", "구더기의 신경 중추", "entity name")
 t("%s (dead)", "%s (죽음)", "tformat")
 
 
@@ -3890,7 +4044,7 @@ t("and raised to serve", "그리고 그 시체는 봉사를 위해 다시 일으
 t("giant", "거인", "entity type")
 t("krog", "크로그", "entity subtype")
 t("captive krog", "붙잡힌 크로그", "entity name")
-t("How this giant, this force of Nature has been captured and subdued is proof that the necromancers are not to be treated lightly.", "어떻게 이 거대한, 자연의 힘에 둘러싸인 거인이 붙잡혀 갇혀 있게 되었는지는 강령술사들의 위협을 가볍게 볼 것이 아니라는 증거입니다.", "_t")
+t("How this giant, this force of Nature has been captured and subdued is proof that the necromancers are not to be treated lightly.", "자연의 힘 그 자체인 이 거인이 붙잡혀 갇혀 있게 되었다는 건 강령술사들의 위협을 가볍게 봐선 안 된다는 증거입니다.", "_t")
 
 
 ------------------------------------------------
@@ -4069,19 +4223,81 @@ t("The Maggot", "구더기", "_t")
 ------------------------------------------------
 section "game/dlcs/tome-cults/hooks/bonestaff.lua"
 
+t("#GREY##{italic}#You feel the bones of the staff creeking and vibrating in your hand.#{normal}##LAST# Yes... #{italic}#\"master\"#{normal}#.", "#GREY##{italic}#이 지팡이의 뼈들이 진동하면서 끼릭끼릭거리는 걸 느낄 수 있습니다.#{normal}##LAST# 여어... #{italic}#\"주인\"#{normal}# 아.", "_t")
+t("#GREY##{italic}#The vibrations feel like a shrug.#{normal}##LAST# By magic #{bold}#obviously#{normal}#. What kind of necromancer might you be to ask such #{bold}#stupid#{normal}# questions?", "#GREY##{italic}#진동하는 게 마치 으쓱하는 듯 합니다.#{normal}##LAST# #{bold}#당연히#{normal}# 마법으로지. 뭐 하는 강령술사길래 그딴 #{bold}#멍청한#{normal}# 질문을 하냐?", "_t")
+t("#GREY##{italic}#The vibrations intensify.#{normal}##LAST# As long as this means more deaths and bones, I will agree to change aspect. Which do you choose?", "#GREY##{italic}#진동이 격렬해집니다.#{normal}##LAST# 이걸 해서 뭘 더 많이 죽일 수 있으면, 위상 바꿔 줄게. 뭘로 할 건데?", "_t")
+t("#GREY##{italic}#The staff shudders.#{normal}##LAST# My finest services are only available to real necromancers. Stop bothering me, inferior creature.", "#GREY##{italic}#지팡이가 마구 흔들립니다.#{normal}##LAST# 내 우수한 서비스는 진짜 강령술사들을 위한 거라고. 나 좀 그만 귀찮게 해라, 열등한 생물아.", "_t")
+t("Is there anything else you can do?", "뭐 다른 거 또 할 수 있는 게 있어?", "_t")
+t("I am ready to use your powers!", "네 힘을 쓸 준비가 됐어!", "_t")
+t("I want you to start summoning the bone horror again.", "뼈의 공포를 다시 불러내 줬으면 좋겠어.", "_t")
+t("I want you to stop summoning the bone horror.", "뼈의 공포를 불러내는 걸 멈춰 줬으면 좋겠어.", "_t")
+t([[#GREY##{italic}#You feel the staff writhing in your hand with dark intents.#{normal}##LAST# Once you will have collected one hundred souls and one class talent point I will be able to enhance your pathetic summons with a mighty bone horror!
+Anytime you use your Create Minions spell I will make sure one of them is a Bone Horror, if none are present.
+
+#ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
+#GREY#You have captured %d souls out of the 100 needed.]], [[#GREY##{italic}#지팡이가 사악한 의도를 품고 손 안에서 꿈틀대는 게 느껴집니다.#{normal}##LAST# 영혼을 100체 모으고 직업 기술 점수 1점을 나한테 주면, 네 한심한 소환술을 강력한 뼈의 공포로 강화시켜 줄 수 있어!
+네가 하수인 소환 주문을 쓰면, 그 중 하나는 무조건 뼈의 공포로 바꿔 줄게. 뼈의 공포가 없는 상태라면 말이야.
+
+#ANTIQUE_WHITE#뼈의 공포는 수많은 뼈로 이루어진 강력한 언데드입니다. 뼈를 이용해 공격하고 뼈의 방패 기술을 사용하며, 사망 시 스켈레톤 하수인 3마리로 분열됩니다.
+#GREY#지금 영혼을 %d체 모은 상태이며 100체가 필요합니다.]], "tformat")
+t("That could be handy.", "꽤 편리하겠는데.", "_t")
+t([[#GREY##{italic}#You feel the staff in your hand glowing with dark powers.#{normal}##LAST# At last! You sure took your sweet time #{italic}#"necromancer"#{normal}#!
+Anyway, I have now enough souls to be able to summon the bone horror.
+Do you wish to imbue me with a class talent point to finally become a real necromancer?
+
+#ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
+]], [[#GREY##{italic}#손 안의 지팡이가 사악한 힘을 내뿜는 걸 느낄 수 있습니다.#{normal}##LAST# 마침내! 기다리기도 힘들었다고, #{italic}#"강령술사"#{normal}#!
+뭐 아무튼, 이제 뼈의 공포를 충분히 소환할 수 있을 정도로 영혼이 모였네.
+이제 나한테 직업 기술 점수 주고 '진짜' 강령술사가 될 거냐?
+
+#ANTIQUE_WHITE#뼈의 공포는 수많은 뼈로 이루어진 강력한 언데드입니다. 뼈를 이용해 공격하고 뼈의 방패 기술을 사용하며, 사망 시 스켈레톤 하수인 3마리로 분열됩니다.
+]], "_t")
+t("I do. (#YELLOW#spend 1 class point#LAST#)", "될게. (#YELLOW#직업 기술 점수 1점 소모#LAST#)", "_t")
+t("I can't. (#LIGHT_RED#you need one class point#LAST#)", "아직은 안 돼. (#LIGHT_RED#직업 기술 점수가 1점 필요함#LAST#)", "_t")
 t("Not now.", "나중에.", "_t")
+t("#GREY##{italic}#The staff shudders.#{normal}##LAST# Pathetic.", "#GREY##{italic}#지팡이가 마구 흔들립니다.#{normal}##LAST# 한심하긴.", "_t")
+t([[#GREY##{italic}#The staff vibrates with great intensity.#{normal}##LAST# POWER! YES!
+ALL SHALL BOW BEFORE MY MIGH... your might.]], [[#GREY##{italic}#지팡이가 굉장히 격렬하게 진동합니다.#{normal}##LAST# 힘이다!! 그래!!
+이제 모두가 내 힘 앞에 무릎을 ㄲ... 네 힘, 네 힘.]], "_t")
+t("Great!", "훌륭해!", "_t")
+t("#GREY##{italic}#The staff stays calm.#{normal}##LAST# Stupid useless pathetic excuse of a #{italic}#\"necromancer\"#{normal}#! Why refuse to use true power?!", "#GREY##{italic}#지팡이가 가만히 있습니다.#{normal}##LAST# 이 멍청하고 쓸모없고 한심하기 짝이 없는 #{italic}#\"강령술사\"#{normal}# 야! 왜 진정한 힘을 거부하는 건데?!", "_t")
+t("I have my reasons!", "나도 다 사정이 있어!", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/init.lua"
 
 t("Forbidden Cults", "금지된 교단", "init.lua long_name")
+t([[Not all adventurers seek fortune, not all that defend the world have good deeds in mind.
+Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal.
+That something is you.
+]], [[모험가들이라고 모두 행운을 찾고 있는 건 아니고, 세상을 지키고 있다고 모두 선행을 염두에 두고 있는 것도 아닙니다.
+최근에 공포체들을 목격하는 빈도가 엄청하게 증가했습니다. 익숙한 길에서 벗어나버린 사람들은 몇 년 뒤에야 발견될 것이고, 그들은 무시무시하게 변이되어 있고, 또 약간 미친 상태일 겁니다. 물론 발견이 된다면 말이지요. 마즈'에이알 지하 깊은 곳에 무언가가 있다는 게 확실해지고 있습니다.
+그 무언가가 바로 당신입니다.
+]], "init.lua description")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/data/texts/intro-cults.lua"
 
 t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "어서 오십시오, 테일즈 오브 마즈'에이알 - #CRIMSON#금지된 교단", "_t")
+t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
+You are one of several like-minded individuals that delves into knowledge long lost and forgotten, seeking sanctuary from an outside hostile world to such activities. Delving into research within the forgotten and inactive fortress of Kroshkkur, the reasons of pursuit differ among a myriad of topics. Some look to uncover knowledge hailing back to the Age of Haze when beings immensely powerful walked Eyal, while others explore the origins of themselves and other races.
+
+Regardless of the subject or method of research, no rules exist to constrain anyone in their approach. This has led to experimentation into what many would deem mad and certainly forbidden among the surface dwellers. If Kroshkkur were to be found it would most certainly be destroyed. Therefore the only rules that truly exist in the sanctuary are that of secrecy and safeguarding the accrued knowledge that has been obtained therein.
+
+But today the sanctuary is threatened by a giant worm that is tunneling directly towards Kroshkkur. If nothing is done it will collide with and destroy what remains of the ancient fortress. One idea to dealing with the worm is for someone to teleport inside it and make there way towards the worms brain cluster and destroy it. Alternatively, you consider leaving before the worm arrives and finding your own purpose in the outside world.
+
+As with all things here, nothing restrains you in what path you #{bold}#ultimately choose#{normal}#. The question is whether you step into the #{bold}#portal to teleport into the worm#{normal}# or leave now while it is safe to do so and let #{bold}#Kroshkkur be destroyed#{normal}#.
+]], [[어서 오십시오, #LIGHT_GREEN#@name@#WHITE#.
+당신은 옛날에 실전된 지식들을 탐구하기 위해, 위험한 바깥 세상을 떠나 성역을 찾고 있던 자들 중 하나입니다. 그들은 크로슈쿠르라고 불리는, 비활성화된 채로 잊혀진 요새에서 연구에 몰두하고 있고, 그 연구를 하는 이유는 제각각이며 다루는 주제 또한 넓습니다. 어떤 이들은 아지랑이의 시대까지 거슬러 올라가 굉장히 강력한 존재들이 에이알에 살고 있었을 때의 지식을 탐구하고 있고, 또 어떤 이들은 자신들, 그리고 다른 종족들의 기원에 대해 파고들고 있습니다.
+
+주제나 연구 방법론과는 상관없이, 연구자들의 접근 방법에 대해서는 그 어떤 규칙도 존재하지 않습니다. 그래서 수많은 사람들이 미쳤다고 여길만한 것들이나 지상에서는 확실히 금지된 실험들이 성행하고 있습니다. 만약에 지상의 사람들이 크로슈쿠르를 발견하게 된다면, 확실하게 사라져 버리겠지요. 그러므로 이 성역에서는 단 하나의 규칙만이 존재합니다 - 이곳에서 얻은 지식은 확실하게 비밀로 하며, 보호할 것.
+
+하지만 지금 성역은 위험에 처해 있습니다. 거대한 벌레가 크로슈쿠르 쪽으로 곧장 굴을 파며 다가오고 있기 때문입니다. 그냥 놔 두면 벌레가 성역과 충돌하게 될 것이고, 이 고대 요새에 남아 있던 것들은 전부 박살날 겁니다. 유일하게 시도해 볼 만한 건 누군가가 벌레의 몸 속으로 순간이동해서 뇌가 있는 곳까지 나아간 다음, 그걸 부숴버리는 겁니다. 아니면, 벌레가 이곳에 도착하기 전에 자리를 뜨고 바깥 세상에서 할 일을 찾아볼 수도 있겠지만요.
+
+이곳의 규칙대로, #{bold}#선택은 당신의 몫#{normal}#이고 그것에 대해 아무도 뭐라고 하지 않습니다. 이제 선택해야 합니다 - #{bold}#벌레의 몸 속으로 순간이동하는 차원문#{normal}#으로 들어갈지, 아니면 더 늦기 전에 이곳을 떠나고 #{bold}#크로슈쿠르가 파괴되도록 놔 둘지#{normal}#.
+]], "_t")
 
 
 ------------------------------------------------
@@ -4241,7 +4457,7 @@ Talents:
 따라서 지금부터 새로 생성된 용인 캐릭터들은 #LIGHT_GREEN#재앙 드레이크 기술#WHITE#을 배울 수 있고, 그들의 마법을 수련할 수 있습니다.
 
 속한 기술들:
-- #YELLOW#촉수 날개: #WHITE#끈적한 점액 촉수들로 적들을 눈앞으로 끌고 옵니다.
+- #YELLOW#촉수 날개: #WHITE#끈적한 촉수들로 적들을 눈앞으로 끌고 옵니다.
 - #YELLOW#부패하는 대지: #WHITE#황폐의 에너지로 땅을 뒤덮어, 재사용 대기 시간을 늘립니다.
 - #YELLOW#깊어지는 절망: #WHITE#적들의 상처를 노려 공격하여, 부정적인 효과들이 많을수록 큰 피해를 가합니다.
 - #YELLOW#구더기 숨결: #WHITE#적들을 느리게 만드는 구더기들을 뿜어냅니다.
@@ -4251,21 +4467,76 @@ Talents:
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/class/CultsDLC.lua"
 
-t("disabled", "끄기", "_t")
-t("enabled", "켜기", "_t")
+t("Insanity", "광기", "_t")
+t([[Your mental insanity.  The higher it is the more random your damage and cooldowns become.
+
+Damage and cooldowns have a chance to increase or decrease by up to chaotic%.
+
+Both the chance and size of effects will increase with insanity.]], [[당신의 광기를 의미합니다.  높으면 높을수록 당신의 피해량과 재사용 대기 시간이 점점 더 종잡을 수 없게 됩니다.
+
+피해량과 재사용 대기 시간은 일정 확률로 혼돈 % 범위 내에서 상승하거나 하락합니다.
+
+해당 확률과 효과량은 광기에 비례합니다.]], "_t")
+t("%d%%%% (%d%%%% chaotic)", "%d%%%% (혼돈 %d%%%%)", "tformat")
+t("Use the book-like display for Forbidden Tomes. This option requires both framebuffers and shaders to be active in the video options.#WHITE#", "금지된 고서에 실제 책 같은 그래픽을 적용합니다. 비디오 옵션에서 프레임 버퍼와 셰이더 기능이 활성화된 상태여야 합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{normal}#", "#GOLD##{bold}#금지된 교단: 금지된 고서에 책 효과 사용#WHITE##{normal}#", "_t")
+t("disabled", "꺼짐", "_t")
+t("enabled", "켜짐", "_t")
+t("#CRIMSON#This was a very satisfying meal, 'you' feel strengthened. (+1 generic talent point)", "#CRIMSON#굉장히 만족스러운 식사였다. '당신' 은 강해진 느낌이 들었다. (일반 기술 점수 +1점)", "log")
+t("#CRIMSON#[The parasite loves death and pain and gives no choice but to shoot down the airship]", "#CRIMSON#[기생생물은 죽음과 고통을 사랑해서, 비행선을 쏴 격추시키는 것 외에 선택지를 주지 않는다]", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Melinda].", "#CRIMSON#[기생생물은 배가 고파서 곧장 멜린다를 집어삼켜 먹었다].", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Aeryn].", "#CRIMSON#[기생생물은 배가 고파서 곧장 아에린을 집어삼켜 먹었다].", "_t")
+t("#CRIMSON#[The parasite is hungry and attacks Slasul].", "#CRIMSON#[기생생물은 배가 고파서 슬라술을 공격했다].", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat %s].", "#CRIMSON#[기생생물은 배가 고파서 곧장 %s 집어삼켜 먹었다].", "tformat", nil, {"를"})
+t("#CRIMSON#[The parasite is hungry and takes over the conversation.]#LAST# I smelled a weakling here and wanted a nice meal. [point your finger at the captured merchant]", "#CRIMSON#[기생생물은 배가 고파서 대화에 끼어들었다]#LAST# 여기서 약해빠진 놈 냄새가 났고 즐겁게 식사를 하고 싶었다. [손가락으로 붙잡힌 상인을 가리킨다]", "_t")
+t("Ah I see, you are a ...thing... of special tastes. Very well, I'd rather have you as a friend so have your meal and someday we may have some more business to do together.", "아, 알겠다... 넌 참... 특별한 식성을 가진... 녀석이구만. 좋아, 널 친구로 삼는 게 차라리 낫겠군. 식사 잘 하고, 나중에 일이나 같이 해 보자고.", "_t")
+t("[eat the merchant]", "[상인을 먹는다]", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Fillarel]#LAST# No I have not...", "#CRIMSON#[기생생물은 배가 고파서 곧장 필라렐을 집어삼켜 먹었다]#LAST# 널 구한 게 아니다...", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat the yeek wayist]#LAST# I 'saved' you to get a nice meal...", "#CRIMSON#[기생생물은 배가 고파서 곧장 이크 한길의 일원을 집어삼켜 먹었다]#LAST# 맛있게 먹으려고...", "_t")
+t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금지된 고서로 들어갈 수 없다!#LAST#", "log")
+t("The protagonist of the story is dead.", "이야기의 주인공이 죽었습니다.", "_t")
+t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s 무너지기 시작한다, 한 번 나가면 완전히 사라질 것이다!", "log")
+t("%s of the Blightspawn", "황폐의 %s", "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/EntropicWormhole.lua"
 
+t("Entropic Wormhole", "엔트로피 웜홀", "_t")
+t("Handicap: ", "핸디캡: ", "_t")
+t("Player", "플레이어", "_t")
+t("Character", "캐릭터", "_t")
 t("Status", "상태", "_t")
+t("Entropic Wormhole failure", "엔트로피 웜홀 실패", "_t")
+t([[The wormwhole failed to latch on a timeline, you should retry an other one.
+
+#{italic}##GREY#The character you tried to download either contained errors, was somehow corrupt or failed to load. Possible reasons are numerous and could be related to addons. Please simply try an other one.#{normal}#]], [[웜홀이 시간선에 정착하지 못했습니다. 다시 시도해 보세요.
+
+#{italic}##GREY#당신이 다운로드하려 했던 캐릭터에 에러가 있었거나, 파일이 모종의 이유로 오염되었거나, 불러오는 데에 실패했습니다. 원인은 매우 다양하고 애드온과 관계가 있을 수도 있습니다. 한 번 더 시도해 주세요.#{normal}#]], "_t")
+t([[As your foe crumbles Yiilkgur's safety protocols activate and pull you out of the arena.
+You have defeated #CRIMSON#%s#LAST#, congratulations!]], [[적이 쓰러지자, 일크구르의 안전 프로토콜이 작동해 당신을 투기장 밖으로 끌어냈습니다.
+#CRIMSON#%s#LAST#에게 승리했습니다, 축하드립니다!]], "_t")
 t("S.M.A.C.K", "죽.인.다. 안전한 투기장", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/FontSacrifice.lua"
 
+t([[The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).
+Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#1000 gold#LAST# for a greater ego per each time you've rerolled that ego type on the same object.
+Lesser and Greater egos can only be rerolled into the same type, and only egos with compatible power sources will be offered.
+
+Note:  Many egos and external talents don't currently display properly but will apply to the item correctly.]], [[희생의 그릇은 골드를 지불하여 무작위로 생성된 유물 장비나 레어 장비의 특정한 옵션을 바꿀 수 있게 해 줍니다 (현재 장비하고 있지 않은 것만 가능).
+장비 당 재생성 비용은 #GOLD#500 골드#LAST#(하급 에고), #GOLD#1000 골드#LAST#(상급 에고) 로 시작하며, 특정 등급을 재생성할 때마다 해당 등급 재생성 비용이 +500(하급), +1000(상급) 됩니다.
+재생성 시 에고의 등급은 변하지 않으며, 선택한 장비 종류에 원래 출현하지 않는 에고는 선택지로 등장하지 않습니다.
+
+알림: 현재 수많은 에고들과 기술의 영향이 제대로 표시되지 않지만, 장비에는 확실하게 적용됩니다.]], "_t")
+t("Font of Sacrifice", "희생의 그릇", "_t")
+t("Properties", "능력", "_t")
+t("Reroll properties set", "재생성", "_t")
 t("Not enough money", "돈이 부족합니다", "_t")
+t("You need at least #GOLD#%s gold#LAST# to reroll this item.", "이 물건을 재생성하려면 최소 #GOLD#%s 골드#LAST#가 필요합니다.", "tformat")
+t("So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "#GOLD#%s 골드#LAST#를 지불하여 능력을 재생성합니까?", "tformat")
 t("Type: %s / %s", "속성: %s / %s", "tformat")
 t([[Powered by #VIOLET#arcane forces#LAST#
 ]], [[#VIOLET#마법의 힘#LAST#에 의해 작동함
@@ -4286,37 +4557,88 @@ t([[Powered by #CRIMSON#unknown forces#LAST#
 ]], [[#CRIMSON#알 수 없는 힘#LAST#이 스며듬
 ]], "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t(" (Greater)", " (상급)", "_t")
+t("Select a properties set", "능력을 선택", "_t")
 t("Name", "이름", "_t")
 t("Confirm", "확인", "_t")
+t("Select properties set #{bold}#\"%s\"#{normal}# ?", "#{bold}#\"%s\"#{normal}# 를 선택합니까?", "tformat")
+t("Error!", "에러!", "_t")
+t("The gizmocombobulator of the font seems to have failed, you have not been billed.", "그릇이 잘 작동하지 않은 것 같습니다. 비용을 돌려받았습니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
 
+t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#아직 금지된 고서로 들어갈 수 없다!#LAST#", "log")
+t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금지된 고서로 들어갈 수 없다!#LAST#", "log")
+t("You feel this book is extremely dangerous for you. Proceed?", "이 책은 엄청나게 위험한 것 같습니다. 계속합니까?", "_t")
 t("Cancel", "취소", "_t")
+t("Read Tome", "고서를 읽는다", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/overload/mod/dialogs/RingOfTheHunter.lua"
 
 t("Impossible", "불가능", "_t")
+t("The Writhing Ring seems unable to learn this prodigy.", "몸부림치는 반지는 이 특수 기술을 배울 수 없는 것 같습니다.", "_t")
+t("#PURPLE#The Ring writhes and contracts around your finger and suddently you realize your now possess the prodigy #LIGHT_GREEN#%s%s!", "#PURPLE#반지가 몸부림치며 손가락에 휘감겼고, 문득 어떤 특수 기술을 쓸 수 있게 되었음을 알았다! - #LIGHT_GREEN#%s%s", "log")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/class/Actor.lua"
 
+t("#ORCHID#You can only gain insanity in combat!#LAST#", "#ORCHID#광기는 전투 중에만 얻을 수 있다!#LAST#", "logSeen")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/class/Game.lua"
 
 t("Class: Cultist of Entropy", "직업: 엔트로피 광신도", "_t")
+t("Race: Drem", "종족: 드렘", "_t")
+t("Race: Krog", "종족: 크로그", "_t")
+t("Class tree: Scourge drake", "직업 계열: 재앙 드레이크", "_t")
+t("Class feature: Alchemist's Glass Golem", "직업 특성: 연금술사의 유리 골렘", "_t")
 t("S.M.A.C.K", "죽.인.다. 안전한 투기장", "_t")
+t("Saving is not possible in the S.M.A.C.K. Do you want to cancel the fight?", "죽.인.다. 안전한 투기장에선 저장을 할 수 없습니다. 전투를 중단하겠습니까?", "_t")
+t([[As you enter Last Hope a courier finds you to deliver a letter from Protector Myssil of Zigur:
+
+%s, while you were away destroying arcane filth I have received grave news.
+A group of Krogs has been ambushed and taken to a hidden ruin on the eastern shores of the sea of Sash near Zigur.
+From what the scouts can tell they were taken by a group of necromancers, probably to do vile experiments on them.
+
+All our other elite fighting forces are currently abroad, you are their only hope.
+Please, go there at once, free them and show the necromancers filth the True Wrath of the Ziguranth!
+
+#{italic}#Protector Myssil#{normal}#
+]], [[마지막 희망에 들어서자 어떤 배달부가 편지를 주었습니다. 지구르의 보호자 미씰이 보낸 겁니다:
+
+%s, 네가 쓰레기 같은 마법사들을 없애러 간 동안 중대한 소식을 들었다.
+크로그 한 부대가 급습을 당했고, 지구르 근처 사쉬 해의 동쪽 해안에 숨겨져 있는 폐허로 납치되었다 한다.
+정찰대는 그들을 습격한 게 강령술사들이라고 했으니, 아마 그 크로그들에게 사악한 실험을 하려는 것이겠지.
+
+우리 정예 병력들은 죄다 멀리 흩어져 있고, 그러니 네가 그 크로그들의 유일한 희망이다.
+부탁이니, 그 폐허로 가서 그들을 풀어 주고, 쓰레기 같은 강령술사 놈들에게 지구랏의 진짜 분노를 보여주어라!
+
+#{italic}#보호자 미씰#{normal}#
+]], "_t")
+t("Urgent affair in Zigur", "지구르의 긴급 지령", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/Birther.lua"
 
+t([[Thank you for purchasing #CRIMSON#Forbidden Cults#WHITE#, the third expansion pack of Tales of Maj'Eyal.
+
+To begin your adventures as a half horror simply create a character with the class #LIGHT_GREEN#Writhing One#WHITE# (in the Demented category).
+
+Have fun lashing your tentacle at your foes!
+]], [[테일즈 오브 마즈'에이알의 세 번째 확장팩인 #CRIMSON#금지된 교단#WHITE#을 구입해 주셔서 감사합니다.
+
+반쯤은 공포인 자로 모험을 시작하시려면 그냥 #LIGHT_GREEN#뒤틀린 자#WHITE# (광인 계열) 직업의 캐릭터를 만드세요.
+
+촉수로 적들을 후려갈기면서, 재밌게 즐기세요!
+]], "_t")
+t("Welcome to #CRIMSON#Forbidden Cults", "어서 오십시오, #CRIMSON#금지된 교단에", "_t")
 t(" or ", " 또는 ", "_t")
 
 
@@ -4324,20 +4646,35 @@ t(" or ", " 또는 ", "_t")
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyGrandOration.lua"
 
 t("Grand Oration", "위대한 기도문", "_t")
+t([[You may empower the chosen prophecy with Grand Oration, causing it to spread to nearby enemies.
+]], [[선택한 예언을 위대한 기도문으로 강화하면 예언이 근처 적들에게 퍼져나가도록 할 수 있습니다.
+]], "_t")
 t("Talent", "기술", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
+t("All prophecies that can be used with Grand Oration.", "위대한 기도문으로 강화 가능한 예언들입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyRevelation.lua"
 
 t("Revelation", "계시", "_t")
+t([[You may empower the chosen prophecy with Revelation, causing it to grant you a powerful beneficial effect.
+]], [[선택한 예언을 계시로 강화하면 막강한 이로운 효과를 얻을 수 있습니다.
+]], "_t")
 t("Talent", "기술", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
+t("All prophecies that can be used with Revelation.", "계시로 강화 가능한 예언들입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/superload/mod/dialogs/ProphecyTwofoldCurse.lua"
 
 t("Twofold Curse", "이중 저주", "_t")
+t([[You may empower the chosen prophecy with Twofold Curse, causing it to apply instantly when you cast another prophecy.
+]], [[선택한 예언을 이중 저주로 강화하면 다른 예언과 동시에 시전할 수 있습니다.
+]], "_t")
 t("Talent", "기술", "_t")
+t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
+t("All prophecies that can be used with Twofold Curse.", "이중 저주로 강화 가능한 예언들입니다.", "_t")
 
 
