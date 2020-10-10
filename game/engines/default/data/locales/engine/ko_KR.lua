@@ -731,7 +731,7 @@ section "game/engines/default/engine/dialogs/GetQuantity.lua"
 t("Quantity", "수량", "_t")
 t("Accept", "수락", "_t")
 t("Cancel", "취소", "_t")
-t("Enter a quantity.", "수량 입력.", "_t")
+t("Enter a quantity.", "수량 입력", "_t")
 t("Error", "오류", "_t")
 
 
@@ -741,7 +741,7 @@ section "game/engines/default/engine/dialogs/GetQuantitySlider.lua"
 t("Quantity", "수량", "_t")
 t("Accept", "수락", "_t")
 t("Cancel", "취소", "_t")
-t("Enter a quantity.", "수량 입력.", "_t")
+t("Enter a quantity.", "수량 입력", "_t")
 t("Error", "오류", "_t")
 
 

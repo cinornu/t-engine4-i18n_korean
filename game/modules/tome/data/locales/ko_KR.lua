@@ -599,7 +599,7 @@ t("Dam. multiplier: ", "추가 피해량: ", "_t")
 t("Firing range: ", "사거리: ", "_t")
 t("Capacity: ", "탄환 수: ", "_t")
 t("Reload speed: ", "재장전 속도: ", "_t")
-t("Turns elapse between self-loadings: ", "재장전시 소모하는 턴: ", "_t")
+t("Turns elapse between self-loadings: ", "자동 재장전 발동 턴 간격: ", "_t")
 t("When this weapon hits: %s (%d%% chance level %d).", "이 무기로 명중 시: %s (%d%% 확률 레벨 %d).", "tformat")
 t("When this weapon crits: %s (%d%% chance level %d).", "이 무기로 치명타 시: %s (%d%% 확률 레벨 %d).", "tformat")
 t("#YELLOW#On weapon hit:#LAST#", "#YELLOW#명중 시:#LAST#", "_t")
@@ -7539,11 +7539,11 @@ t("undead", "언데드", "entity type")
 t("ghoul", "구울", "entity name")
 t("Flesh is falling off in chunks from this decaying abomination.", "이 썩어가는 흉물에게서 살점이 떨어저 나가고있다.", "_t")
 t("ghast", "가스트", "entity name")
-t("This vile abomination is a relative of ghouls, and often leads packs of them. It smells foul, and its bite carries a rotting disease.", "이 끔찍한 흉물은 구울의 친척입니다으로, 자주 구울 무리의 우두머리 역활을 맡습니다. 악취를 풍기며, 이빨로 부패성 질병을 흩뿌립니다.", "_t")
+t("This vile abomination is a relative of ghouls, and often leads packs of them. It smells foul, and its bite carries a rotting disease.", "이 끔찍한 흉물은 구울의 친척으로, 보통 구울 무리의 우두머리 역할을 맡습니다. 악취를 풍기며, 이빨로 부패성 질병을 흩뿌립니다.", "_t")
 t("ghoulking", "구울왕", "entity name")
-t("Stench rises from this rotting abomination. Its brow is adorned with gold, and it moves at you with hatred gleaming in its eyes.", "악취가 이 부패하는 흉물에게서 품겨저나옵니다. 이마는 황금으로 장식되어 있으며, 증오로 가득찬 눈을 하며 당신에게 다가옵니다.", "_t")
+t("Stench rises from this rotting abomination. Its brow is adorned with gold, and it moves at you with hatred gleaming in its eyes.", "악취를 풍기고 있는 썩어가는 흉물입니다. 이마는 황금으로 장식되어 있으며, 증오에 찬 눈으로 당신에게 다가오고 있습니다.", "_t")
 t("risen corpse", "다시 일어난 시체", "entity name")
-t("A body raised through dark magic.", "사악한 마법으로 다시 일으켜세워진 시체입니다.", "_t")
+t("A body raised through dark magic.", "사악한 마법으로 다시 일으켜진 시체입니다.", "_t")
 
 
 ------------------------------------------------
@@ -8638,7 +8638,7 @@ t("A pitch black ring, unadorned. It seems as though tendrils of darkness creep 
 t("obsidian ring", "흑요석 반지", "_t")
 t("tribal helm", "부족 투구", "_t")
 t("Steel Helm of Garkul", "가르쿨의 강철 투구", "entity name")
-t("A great helm that belonged to Garkul the Devourer, one of the greatest orcs ever to live.", "가장 위대한 오크들 중 하나인 포식자 가르쿨이 갖고있던 얼굴을 모두 가리는 투구입니다.", "_t")
+t("A great helm that belonged to Garkul the Devourer, one of the greatest orcs ever to live.", "가장 위대한 오크들 중 하나인 포식자 가르쿨이 사용하던, 얼굴을 모두 가리는 투구입니다.", "_t")
 t("Another of Garkul's heirlooms would bring out his spirit.", "가르쿨의 또 다른 보물이 그의 영혼을 불러낼 것입니다.", "_t")
 t("Lunar Shield", "달빛 방패", "entity name")
 t("chitinous shield", "키틴질 방패", "_t")
@@ -9034,7 +9034,7 @@ t(" of persecution", " 마법 사냥 ", "entity name")
 t("persecution", "마법 사냥", "entity keyword")
 t("inquisitor's ", "이단심문관의 ", "entity name")
 t("inquisitors", "이단 심문관", "entity keyword")
-t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위 마법 주문 하나에 #YELLOW#%d#LAST# 턴의 재사용 대기시간을 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has their %s spell disrupted for for %d turns!", "#YELLOW#%s의 %s 주문이 방해되어 %d 턴 동안 사용이 불가능하다!", "logSeen")
 t(" of disruption", " 주문 방해 ", "entity name")
 t("disruption", "주문 방해", "entity keyword")
@@ -9048,7 +9048,7 @@ t("psychokinetic", "염력", "entity keyword")
 t("#LIGHT_GREEN#20%%#LAST# chance to knock the target back 3 spaces and deal #YELLOW#%d#LAST# physical damage", "#LIGHT_GREEN#20%%#LAST# 확률로 적을 3 칸 밀치고 #YELLOW#%d#LAST# 물리 피해를 줍니다", "tformat")
 t(" of amnesia", " 기억 상실 ", "entity name")
 t("amnesia", "기억상실", "entity keyword")
-t("#LIGHT_GREEN#50%%#LAST# chance to put 1 talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#LIGHT_GREEN#50%%#LAST# 확률로 기술 하나의 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("#LIGHT_GREEN#50%%#LAST# chance to put 1 talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#LIGHT_GREEN#50%%#LAST# 확률로 기술 하나에 #YELLOW#%d#LAST# 턴의 재사용 대기시간을 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has temporarily forgotten %s for %d turns!", "#YELLOW#%s %s 기술을 %d 턴 동안 망각했다!", "logSeen", nil, {"는"})
 t(" of torment", " 고문 ", "entity name")
 t("torment", "고문", "entity keyword")
@@ -9755,7 +9755,7 @@ t("manaburning ", "마나 소각의 ", "entity name")
 t("manaburning", "마나 소각", "entity keyword")
 t("inquisitor's ", "이단심문관의 ", "entity name")
 t("inquisitors", "이단 심문관", "entity keyword")
-t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위 마법 주문 하나에 #YELLOW#%d#LAST# 턴의 재사용 대기시간을 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has their %s spell disrupted for for %d turns!", "#YELLOW#%s의 %s 주문이 방해되어 %d 턴 동안 사용이 불가능하다!", "logSeen")
 t("protector's ", "보호자의 ", "entity name")
 t("protectors", "보호자의", "entity keyword")
@@ -10337,7 +10337,7 @@ t(" of persecution", " 마법 사냥 ", "entity name")
 t("persecution", "마법 사냥", "entity keyword")
 t("inquisitor's ", "이단심문관의 ", "entity name")
 t("inquisitors", "이단 심문관", "entity keyword")
-t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위한 하나의 마법 주문에 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("Deals #YELLOW#%d#LAST# Manaburn damage and puts 1 random spell talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#YELLOW#%d#LAST# 마나 소각 피해를 주고, 무작위 마법 주문 하나에 #YELLOW#%d#LAST# 턴의 재사용 대기시간을 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has their %s spell disrupted for for %d turns!", "#YELLOW#%s의 %s 주문이 방해되어 %d 턴 동안 사용이 불가능하다!", "logSeen")
 t(" of disruption", " 주문 방해 ", "entity name")
 t("disruption", "주문 방해", "entity keyword")
@@ -10353,7 +10353,7 @@ t("thought-forged ", "생각으로 단조한 ", "entity name")
 t("thought", "생각", "entity keyword")
 t(" of amnesia", " 기억 상실 ", "entity name")
 t("amnesia", "기억상실", "entity keyword")
-t("#LIGHT_GREEN#50%%#LAST# chance to put 1 talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#LIGHT_GREEN#50%%#LAST# 확률로 기술 하나의 재사용 대기시간을 #YELLOW#%d#LAST# 턴 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
+t("#LIGHT_GREEN#50%%#LAST# chance to put 1 talent on cooldown for #YELLOW#%d#LAST# turns (checks Confusion immunity)", "#LIGHT_GREEN#50%%#LAST# 확률로 기술 하나에 #YELLOW#%d#LAST# 턴의 재사용 대기시간을 적용합니다 (이 효과는 혼란 면역력으로 저항 가능합니다)", "tformat")
 t("#YELLOW#%s has temporarily forgotten %s for %d turns!", "#YELLOW#%s %s 기술을 %d 턴 동안 망각했다!", "logSeen", nil, {"는"})
 t(" of torment", " 고문 ", "entity name")
 t("torment", "고문", "entity keyword")
@@ -11642,7 +11642,7 @@ t("a weird metallic hand", "이상한 기계 손", "_t")
 t("You can feel this strange metallic hand wriggling around, it feels as if space distorts around it.", "당신은 이 기괴한 기계 손이 꿈틀대는 것을 느낍니다. 주변의 공간이 왜곡되는 것처럼 느껴집니다.", "_t")
 t("Garkul's Teeth", "가르쿨의 이빨", "entity name")
 t("a necklace made of teeth", "치아로 만든 목걸이", "_t")
-t("Hundreds of humanoid teeth have been strung together on multiple strands of thin leather, creating this tribal necklace.  One would have to assume that these are not the teeth of Garkul the Devourer but rather the teeth of Garkul's many meals.", "인간형 생명체의 이빨 수 백개가 여러 가닥의 얇은 가죽으로 이어, 이 부족 목걸이를 만들었습니다.  이것들은 포식자 가르쿨의 치아가 아니라, 오히려 가르쿨의 점심 식사들의 이빨이라고 보는게 나을겁니다.", "_t")
+t("Hundreds of humanoid teeth have been strung together on multiple strands of thin leather, creating this tribal necklace.  One would have to assume that these are not the teeth of Garkul the Devourer but rather the teeth of Garkul's many meals.", "인간형 생명체의 이빨 수 백개가 여러 가닥의 얇은 가죽으로 이어, 이 부족 목걸이를 만들었습니다.  이것들은 포식자 가르쿨의 치아가 아니라, 오히려 가르쿨의 점심 식사들의 이빨이라고 보는게 나을 겁니다.", "_t")
 t("Another of Garkul's heirlooms would bring out his spirit.", "가르쿨의 또 다른 보물이 그의 영혼을 불러낼 것입니다.", "_t")
 t("#CRIMSON#As you wear both Garkul's heirlooms you can feel the mighty warrior's spirit flowing through you.", "#CRIMSON#가르쿨의 보물 두 개를 장비하자, 강력한 전사의 혼이 당신의 신체를 타고 흐르는 것을 느낍니다.", "logSeen")
 t("#CRIMSON#The spirit of Garkul fades away.", "#CRIMSON#가르쿨의 영혼이 사라집니다.", "logPlayer")
@@ -12752,7 +12752,7 @@ t("The spiders in your barn won't do. You'll know a giant spider when you see on
 t("honey tree root", "벌꿀 나무의 뿌리", "ingredient name")
 t("The severed end of one of a honey tree's roots. It wriggles around occasionally, seemingly unwilling to admit that it's dead... and a *plant*.", "벌꿀 나무 뿌리의 끝 부분을 잘라낸 것입니다. 이따금씩 꿈틀 거린다. 이 움직임은 마치 이미 죽었다는 것을 부정하려는 듯 합니다... 자신이 *식물*이라는 것마저도.", "_t")
 t("Keep a firm grip on it. These things will dig themselves right back into the ground if you drop them.", "꽉 붙잡고 있어야 해. 만약 떨어뜨리면 이것들은 땅 속으로 바로 파고들 거야.", "_t")
-t("bloated horror heart", "부풀어오른 공포의 심장.", "ingredient name")
+t("bloated horror heart", "부풀어오른 공포의 심장", "ingredient name")
 t("Diseased-looking and reeking. It seems to be decaying as you watch.", "그 자체로 질병과 악취를 풍기고 있습니다. 매 순간 부패해가고 있는듯 합니다.", "_t")
 t("Don't worry if it dissolves. Just don't get any on you.", "터져도 걱정하지 말라고. 닿지만 않으면 되니까.", "_t")
 t("electric eel tail", "전기 뱀장어의 꼬리", "ingredient name")
@@ -13051,9 +13051,9 @@ t("age of pyre", "장작더미의 시대", "newLore category")
 t("Atamathon, the giant golem", "아타마쏜, 거대 골렘", "_t")
 t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
 Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. One of its eyes seems to be missing. At over 40 feet high it towers above you.
-Someone foolish has tried to reconstruct it, but it seems like it misses an eye to be completed.]], [[이 거대한 골렘은 장작더미의 시대 당시 오크들과 싸우기 위해 제작되었으나 포식자 가르쿨에 의해 파괴되었다.
-몸체는 대리석으로 되어있고, 관절 부분은 단단한 보라툰으로 이루어져있으며, 두 눈은 순수한 루비로 되어있었다. 두 눈 중 하나는 사라진 것으로 보인다. 12 미터는 족히 되보이는 골렘이 당신 앞에 서있다.
-몇몇 어리석은 이들이 이 골렘을 다시 제작하려 했으나, 완성을 위해서는 한 쪽 눈이 필요한 것 같다.]], "_t")
+Someone foolish has tried to reconstruct it, but it seems like it misses an eye to be completed.]], [[이 거대 골렘은 장작 전쟁 시기에 하플링들이 오크들에게 맞서기 위해 만들어냈지만, 포식자 가르쿨에게 쓰러졌습니다.
+몸은 대리석으로 만들어졌고 연결부는 견고한 보라툰이며, 가장 순수한 루비가 눈으로 박혀 있습니다. 눈 하나는 사라진 모양입니다. 크기가 12 미터가 넘기 때문에 당신보다 훨씬 큽니다.
+어떤 얼간이가 이걸 고쳐 보려 했지만, 골렘이 완성되려면 사라진 눈이 필요했던 모양입니다.]], "_t")
 
 
 ------------------------------------------------
@@ -14798,10 +14798,225 @@ Sadly, such desires are denied to me at this moment. Plans are in motion, and we
 
 안타깝지만, 지금은 이런 것들을 접어둘 수 밖에 없다. 계획은 착착 진행되고 있고, 이제 몇 주만 더 준비하면 그 저주받을 태양의 기사들과 놈들을 이끄는 깡통 갑옷 입은 화냥년을 끝장내 버릴 수 있다. 그리고 태양의 장벽이 아주 폐허가 되더라도 조심해야 한다 - 그루쉬낙은 자기 긍지라고 부른다만, 유사 오크라고 하는 게 더 정확한 야만인들이 아직까지도 대문에 몰려들어서 우리가 가르쿨의 "진짜 길" 을 따르지 않는다고 아우성치고 있기 때문이다. 그루쉬낙 놈은 멍청하지만 위험하니까, 항상 경계해야만 한다.]], "_t")
 t("Records of Lorekeeper Hadak part one", "전승지기 하다크의 기록 제1부", "_t")
+t([[Our history is a history of battles, a history of wars. We orcs have always been under attack from the other races, always having to defend ourselves against their ruthless advances. The other races paint us as evil, they think of us as purely beasts. Not so! If we are cruel, it is because they made us cruel. If we are heartless, it is because they ripped our beating hearts from our chests and stamped them beneath their feet!
+
+It was the halflings we first did war with, in the Age of Allure. We were weak then, and disorganised, and in their arrogance they sought to enslave us. But we fought back! And we have been fighting back ever since. They used magic on us, though we had never come in touch with the arts before. They used whips and chains and tried to beat us down. They used us for labour, butchering any young that were not strong enough for them, burning any constructions we tried to make for ourselves.
+
+At first we escaped and fled, and hid in dark caves. Our numbers grew, though we had to endure squalor and hardship. After many years we could hide no longer, as starvation and disease threatened to kill us all. And so seeing our enemy weak we rose upon them in wrath. We were not organised, but we were determined. The elves and the humans and the dwarves tried to oppose us too, but we would not allow ourselves to be beaten! They tried to use their magics against us, but we overcame them with numbers, five of us dying for every mage we managed to kill. With blood we paid and finally we had lands for our own!]], [[우리의 역사는 투쟁의 역사이자, 전쟁의 역사라고 할 수 있다. 우리 오크 종족은 언제나 다른 종족들의 공격을 받았고, 언제나 그들의 가차없는 진격에 맞서 우리 스스로를 방어해야만 했다. 다른 종족들은 우리에게 '악' 이라는 낙인을 찍었고, 우릴 순수한 짐승이라고 생각했다. 전혀 그렇지 않다! 만약에 우리가 잔혹한 종족이라면, 그건 그들이 우릴 잔혹하게 만들었기 때문이다. 만약에 우리가 냉혹하다면, 그건 그들이 우리의 따뜻한 마음을 도려내어 자신들의 발로 짓밟았기 때문이다!
+
+우리가 처음으로 전쟁을 벌였던 건 매혹의 시대, 하플링들과였다. 그 때 우린 약했고, 제대로 조직화되어 있지도 않았으며, 오만한 하플링들은 우릴 노예로 삼으려 했다. 하지만 우린 맞서 싸웠다! 그리고 우린 그 때부터 맞서 싸워 왔다. 하플링들은 우리에게 마법을 사용했는데, 그 때 당시 우린 그런 기술에 대해서 전혀 모르고 있었다. 놈들은 채찍과 사슬을 써서 우릴 굴복시키려 했다. 놈들은 우리에게 노역을 시켰고, 충분히 강하지 않은 어린이들을 모두 죽여 버렸으며, 우리가 지은 건물들은 죄다 불태워 버렸다.
+
+처음엔 우리는 탈출해 도망쳤고, 어두운 동굴 안에 숨었다. 우린 그 더러운 동굴의 환경을 참으면서 머릿수를 늘렸다. 하지만 언제까지나 거기에 숨어 있을 순 없었다 - 기아와 질병 때문에 다 죽을 뻔했기 때문이다. 그래서 우린 적들이 약해진 걸 보았고, 분노를 품고 놈들을 공격했다. 우린 여전히 따로 놀고 있었지만, 결의를 다진 상태였다. 엘프와 인간, 그리고 드워프들도 우리에게 맞서려 했지만, 우린 쓰러지지 않았다! 놈들은 마법을 써서 우리에게 맞섰지만, 우린 머릿수로 극복했다. 오크 다섯이 한꺼번에 덤벼야 간신히 마법사 하나를 죽일 수 있었다. 수많은 피를 흘린 끝에, 우린 마침내 영토를 얻을 수 있었다!]], "_t")
 t("Records of Lorekeeper Hadak part two", "전승지기 하다크의 기록 제2부", "_t")
+t([[After fighting back the other races we began to build and prosper. Finally we had our own towns and cities, and we began to advance our own abilities. Though battles were still ongoing at our borders we were free to thrive and prosper.
+
+But then the accursed Shaloren mages began experimenting with Sher'Tul ruins. Oh what a dark and terrible a day it was for our race! The Spellblaze massacred our people. Earthquakes tore up our new-built towns, fires raged over old and young alike, and the whole world was turned to turmoil. Afterwards disease and blight ravaged our people, utterly ruining all the progress we had made.
+
+Only the strongest of us lived through the dark times that followed. We fled east, back to our dark and hidden places, but our people swore terrible oaths of vengeance on the races that had brought such bloody ruin upon us.]], [[다른 종족들과 맞서 싸운 뒤, 우리 종족은 건물들을 쌓아올리며 번영하기 시작했다. 마침내 우리에게도 마을과 도시들이 생겼고, 스스로의 능력을 갈고닦을 수 있게 되었다. 우리의 국경에선 여전히 전투가 진행 중이었지만 우린 자유롭게 번영할 수 있었다.
+
+그러나 저주받을 샬로레 마법사들이 쉐르'툴의 유적으로 실험을 하기 시작했다. 아아, 실로 암울하고 끔찍한 날이었다! 마법폭발이 우리 동포들을 무참하게 학살했다. 지진이 일어나 우리가 새롭게 지은 마을들을 갈기갈기 찢어 버렸고, 불꽃이 젊은이고 늙은이고 할 것 없이 모두 집어삼켰으며, 온 세상이 혼란스러워졌다. 그 후폭풍으로 온 질병과 황폐도 우릴 피폐하게 만들었고, 우리가 이룩했던 것들은 모두 완전히 잿더미가 되었다.
+
+가장 강인한 이들만이 그 암흑의 시대에서 살아남을 수 있었다. 우린 동쪽의 그 어두운 동굴로 다시 도망쳤지만, 우리 동포들은 언젠가 우리 종족에게 이런 끔찍한 짓을 저지른 자들에게 잔혹한 피의 복수를 할 것을 맹세했다.]], "_t")
 t("Records of Lorekeeper Hadak part three", "전승지기 하다크의 기록 제3부", "_t")
+t([[During the Age of Dusk we lay hidden, nursing our wounds and plotting our revenge. But this turned against us, as centuries after the Spellblaze had torn our race apart, the Cataclysm would bring ruin upon us again. We were finally recovering our numbers when earthquakes tore through all of our settlements. Falling rocks crushed and smothered us, thousands of us were left trapped to die beneath the ground. What few of us were left came out to a changed world.
+
+The effects of magic left a grave impression on us then, and we knew we must learn its secrets in order to compete. For centuries we studied the effects of the Spellblaze, and captured enemy mages to experiment on them. Finally we were able to master the arts of magic and use them for ourselves. We built up our capabilities in secret, waiting for the right moment to strike a decisive vengeance. Garkul the Devourer, the greatest of our race, brought the plans to fruition. Under his awe-inspiring leadership we marched out upon the halfling kingdoms and burnt all before us. What glorious retribution we had! Whole cities were felled beneath our wrath. Everywhere we went we piled the bodies of our victims high and lit them in blazing pyres, as a symbol of our indomitable strength.
+
+The Age of Pyre was our age, the time when we showed ourselves the strongest of the races, standing alone and unbeatable.]], [[황혼의 시대에는 우린 은둔하며, 우리의 상처들을 치유하고 복수의 칼을 갈고 있었다. 하지만 이건 우리에게 더 안 좋은 결과로 돌아왔다. 마법폭발이 우리 종족을 산산조각낸지 몇 세기가 지나서, 대재앙이 일어나 또 다시 우리 종족을 파멸로 몰고 간 것이다. 우리가 겨우 머릿수를 다시 채웠을 무렵에, 지진이 일어나 우리의 정착지를 죄다 갈아엎어 버렸다. 낙석들이 떨어져 우릴 깔아뭉개고 숨을 못 쉬게 했으며, 수천 명의 동포가 땅 속에 갇혀서 죽었다. 극소수만 살아남아 새롭게 바뀐 세상으로 나왔다.
+
+마법의 위력은 우리에게 엄청난 인상을 남겼고, 우린 마법에 맞서기 위해선 마법의 힘을 알아야 한다는 걸 깨달았다. 그 후 몇 세기 동안 우린 마법폭발의 영향에 대해 연구했고, 적의 마법사들을 붙잡아 실험을 했다. 마침내 우린 마법에 통달하였고 우리 스스로를 위해서 마법을 사용할 수 있게 되었다. 우린 비밀스럽게 힘을 키우면서, 결정적인 복수를 이루기 알맞은 때가 오기를 기다렸다. 그 결실을 맺을 계획을 세운 것은 가장 위대한 오크인, 포식자 가르쿨이었다. 그는 경악스러울 정도의 지도력을 발휘하였고, 우린 하플링 왕국까지 전진하여 눈앞의 모든 것을 불태웠다. 이 얼마나 영광스러운 복수인가! 모든 것이 우리의 분노 아래에 쓰러졌다. 우리의 발길이 닿는 곳마다 적들의 시체가 산을 이루었고, 곧 불태워졌다. 그 불꽃은 우리가 가진 꺾이지 않는 의지의 상징이었다.
+
+장작더미의 시대는 그야말로 우리의 시대였고, 우리가 가장 강한 종족이며, 또한 고고하고 꺾을 수 없는 이들이라는 것을 증명한 시대였다.]], "_t")
 t("Records of Lorekeeper Hadak part four", "전승지기 하다크의 기록 제4부", "_t")
+t([[How greatly our race advanced during the Age of Pyre! Truly none of the weaker races can compare. For it was vengeance that drove us, and so fervently we pursued our goals at the thought of our just retribution on the races that had punished us and beaten us for so long before.
+
+During the Age of Pyre we discovered the farportal, deep beneath the dwarven cities. We were more cautious than the foolish elves before us, and managed to harness the portal's power to open a gateway to the lost east. We sent military forces over, and easily beat back the puny elves and humans that were hoveling there already. We established the Prides there - training camps for our soldiers where they could hone their battle skills before returning to fight the wars in the west.
+
+But all in the west did not go well. We conquered many lands, and came close to wiping out many races, but we became spread thin. As the other races began to fight back our Age of Pyre was to dwindle.]], [[우리가 장작더미의 시대에 얼마나 많은 발전을 이룩했던가! 실로 다른 약해빠진 종족들과는 비할 바가 되지 못했다. 우리의 목적은 오직 피의 복수였기에, 우릴 그토록 오랫동안 괴롭히고 억압했던 종족들에 대한 복수만을 생각하며 열정적으로 임했기 때문일 것이다.
+
+장작더미의 시대에 우린 드워프족의 도시 깊은 곳에 있던 장거리 차원문을 발견했다. 우린 그 어리석은 엘프들보다 더 조심스럽게 행동했고, 간신히 그 힘을 제어할 수 있었다. 잊혀진 동쪽 먼 곳의 대륙으로 향하는 문을 열게 된 것이다. 우린 그쪽으로 군대를 보냈고, 그쪽에 살고 있던 하찮은 엘프들과 인간들을 손쉽게 물리쳤다. 우린 그곳에다 '긍지' - 우리의 군사들이 서쪽의 전쟁에 참여하러 돌아가기 전까지 자신들의 전투 기술들을 갈고닦을 수 있는 훈련장들을 세웠다.
+
+그러나 서쪽의 일들이 모두 뜻대로 된 것은 아니었다. 우린 수많은 땅을 정복했고, 수많은 종족을 멸종 직전까지 몰아세웠지만, 그 탓에 우리 병력은 분산되어 버렸던 것이다. 다른 종족들이 우리에게 맞서 싸우기 시작하였고, 우리의 황금기는 끝나가기 시작했다.]], "_t")
 t("Records of Lorekeeper Hadak part five", "전승지기 하다크의 기록 제5부", "_t")
+t([[The humans and the halflings made an alliance to defend their kingdoms, and soon the elves and the dwarves joined too, and we were pushed back. Our tactics became increasingly defensive as they made greater advances into our territory.
+
+We fought well and hard, but we were not prepared for the terrible tactics they would use. Instead of attacking our military bases they went for our towns and cities, killing all of our civilians. Babes were slaughtered in their mother's arms, and every last woman and child was hunted down and murdered. It was genocide of the highest order.
+
+What forces we could muster we sent east, leaving behind token troops who bravely sacrificed themselves against the enemy attacks, convincing them that their genocide had been complete.
+
+But what was left of our people in the east was a broken picture. Gone were the majority of our women and children, gone were our centres of culture, gone was all softness that ever lived in us. Our military forces were all that were left, consolidated in the Prides. By arcane experimentation we found ways to breed again, but we are left a hollow people. Until we are free from the threats of the other races we can focus on only one thing - revenge.
+
+We still have a secret presence in the west, in our rightful lands across which we have spilled rivers of our own blood. We are building up our military force at an accelerating rate, and when the time comes we shall sweep across Maj'Eyal with a vengeance that cannot be held back. The other races will suffer as they have made us suffer, and all that they have built will be brought to ruin.]], [[인간과 하플링은 자신들의 왕국을 지키기 위해 연합을 결성했고, 얼마 지나지 않아 엘프와 드워프도 거기에 동참했다. 그리고 놈들은 우리에게 반격해오기 시작했다. 놈들이 우리의 영토로 맹렬하게 진격해 오면서 우리의 전술은 점점 더 방어적으로 변해갔다.
+
+우린 훌륭하게, 그리고 처절하게 싸웠지만, 놈들이 그런 끔찍한 전략을 택했을 줄은 상상도 하지 못했다. 놈들은 우리의 군사 기지를 공격하는 대신에 우리의 마을과 도시로 가서, 무고한 시민들을 죽였던 것이다. 갓난아기들조차도 어머니의 품에서 토막났으며, 여자들과 아이들은 한 명도 남김없이 모두 살해당했다. 사상 최악의 대량 학살이었다.
+
+심지어 우리 병력 중 일부는 우릴 모두 대피시키고 용감하게 적들의 공격을 받아내고 희생하여, 놈들이 자신들의 학살이 끝났다고 믿게 만들려 했다. 그런데 우리가 어찌 동쪽 대륙의 병사들을 불러들일 수가 있었겠는가?
+
+하지만 동쪽에 남은 우리 동포들의 상황은 암울하기 그지없었다. 여자들과 아이들은 거의 다 죽었고, 우리가 쌓아올렸던 문화도 소실되었으며, 우리의 마음 속에 남아 있던 온정마저 사라져 버렸다. 우리에게 남은 건 오직 군대, 긍지들에 모여 있던 군대 뿐이었다. 마법 실험을 통해서 우린 다시 번식할 방법을 찾아냈지만, 우리의 내면은 텅 비게 되었다. 이제 우린 다른 종족들의 위협으로부터 자유로워질 때까지, 단 한 가지에만 집중할 수 있다.
+
+복수.
+
+서쪽 대륙에서는 우린 여전히 숨어 살고 있다. 우리의 피로 강을 만들어 정당히 얻어낸 그 땅에. 우리의 군사들은 점점 더 빠르게 늘어나고 있고, 우린 때가 오면 맹렬하게 마즈'에이알을 휩쓸 것이다. 그 누구도 우릴 막지 못할 것이다. 다른 종족들은 자신들이 가했던 고통을 그대로 돌려받게 될 것이며, 놈들이 이제까지 쌓아왔던 것들은 모두 잿더미가 될 것이다.]], "_t")
+t([[#{bold}#Chapter One: A Young Warrior#{normal}#
+
+#{italic}#"Without hardship you cannot have strength. Only through pain do we truly learn. Our race has lived through war and fire and pestilence, and each one has made us stronger. Each trial we overcome brings us to greater strength."
+- Sayings of Garkul the Devourer#{normal}#
+
+Garkul was the greatest orc to ever live, and the tale of his life is the tale of the greatest age for our race. He united our tribes, drove back the enemy races, conquered west and east, and died with ten thousand bodies at his feet.
+
+He was born in a troubled time, when we lived a life of hiding, capable of only sneak attacks on the other races from our dark caves. He was from a small brood of no notable blood, but at a young age proved himself on the streets as a fierce and intelligent warrior. Note that there could be no one like Garkul in the other races. They coddle their nobility and weaken them, whilst those that endure true hardship are doomed to live a life of servitude. We orcs are all born equal, and every one of us is given the opportunity to fight and show our prowess above others. Only the strong live to rule, and only the smart stay in power.
+
+Garkul formed his own street gang, as those who saw his strength quickly devoted themselves to him. Soon he became powerful enough to take over his whole tribe. But one day he was spotted for a greater fate. Verikor the spellmaker was visiting each tribe, gathering volunteers for his experiments in magic. When he came to Garkul's tribe the young orc laughed at him, and said that all the spells of Eyal could not match the muscles in his left arm. Verikor was impressed by this adolescent display of pride, and moreover saw something else in the youth, and invited Garkul to test his brawn against the strongest of the new breed of mages. Garkul accepted, and the two travelled to Verikor's halls.
+
+Here Garkul was surprised, for the caverns beneath the halls hid thousands of orcs training in the ways of magic. They were highly organised, split into schools of ability and rising ranks, with masters teaching them well in the use of the Art for combat. Verikor explained how he had spent his life studying the effects of the Spellblaze, and experimenting on kidnapped mages from the other races, and this was the culmination of that lifelong research. With young orcs from all the tribes he could build an army of mages that could help their whole race fight back against their enemies. Garkul was clearly stirred by the possibilities this could bring.
+
+Then came the time of the trial, for Garkul had bet that with his left arm alone he could fend off the greatest of wizards. So Verikor brought out his three most advanced students, one trained in fire, one trained in ice, and one trained in blood, and the challenge was to see who could knock the other out first. Garkul accepted with a grin, putting his right arm behind his back as he faced the three mages.
+
+The pyromancer began by shooting a wreath of flames at the fighter, but Garkul dodged with immense speed, and before the mage could cast another spell Garkul was upon him, and swept a vicious uppercut into the caster's jaw, breaking it and instantly knocking him out. Then the cryomancer let loose a hail of ice, but Garkul grabbed the swooning fire mage by his robe and used him as a shield as he ran through the icy storm, till he came to the second caster, tossed aside the inert body, and hooked the ice mage soundly on the temple. With two mages down in just a few seconds he then turned on the corruptor, who backed off in fright. Garkul advanced with a laugh, but as he came near the blood mage cast a hex, and the warrior felt his arm suddenly shrivel up, unusable. With a curse he headbutted the final caster, who fell instantly to the ground, and the hex was broken.
+
+Garkul turned to the amazed Verikor and bowed. "You have bested me - I had to use my head for the last one." But Verikor was in awe of the fighter's skills - his incredible speed, his amazing strength, and his quick-wittedness in battle were all far beyond anything he had seen before. The two talked a while, and Garkul brought forth many ideas for how the army of mages could work together with the warriors and the wilders of the tribes to produce an unequalled force. His eyes were open now to the potential for magic, and his brain wrought together new tactics and strategies for how it could be used in battle.
+
+Verikor kept Garkul as his guest for many months, and though Garkul had no inkling for the Art he learnt many things about how to resist and avoid the effects of magic. Verikor never ceased to be impressed by the young orc's talents, and it became clear to him that here was one who was destined to lead their race to great things.]], [[#{bold}#제1장: 젊은 전사#{normal}#
+
+#{italic}#"힘을 손쉽게 얻을 수는 없다. 고통을 통해서만 진정으로 배울 수 있다. 우리 종족은 전쟁과 불길과 역병을 거쳐 살아남았고, 그것들은 우릴 더욱 강하게 만들었다. 우리가 시련을 하나 넘어설 때마다, 우린 더 강한 힘을 얻게 될 것이다."
+- 포식자 가르쿨#{normal}#
+
+가르쿨은 우리의 역사상 가장 위대한 오크이며, 그의 이야기가 곧 우리 종족 황금기의 이야기이다. 그는 우리 부족을 통합했고 적 종족들을 물리쳤으며, 서쪽은 물론이고 동쪽까지 정복했고, 최후에는 일만 명의 적군과 함께 죽었다.
+
+그는 어려운 시대에 태어났다. 우리 종족이 어두운 동굴에서 은둔 생활을 하며, 할 수 있는 것이라고는 다른 종족들을 기습하는 것 뿐이었던 시기였다. 그는 작은 부족 출신으로, 특별한 혈통도 아니었다. 하지만 그는 어린 나이에 길거리에서 자신이 맹렬하고 영리한 전사라는 것을 증명했다. 다른 종족에는 가르쿨 같은 자가 있을 수 없다는 것에 주목하라. 놈들은 고귀함을 애지중지하면서 스스로를 약하게 만들 뿐이며, 진정한 고난을 견뎌내는 자들만이 섬김을 받는 삶을 살게 되는 것이다. 우리 오크들은 모두 평등하게 태어나며, 모두가 싸움을 통해서 다른 이들에게 자신의 솜씨를 증명할 수 있다. 강한 자만이 지배할 수 있고, 영리한 자만이 그 지배를 유지할 수 있는 것이다.
+
+가르쿨은 길거리에서 자신의 갱단을 만들어냈고, 그 일원들은 모두 그의 힘을 목도하고 곧바로 충성을 맹세한 이들이었다. 얼마 지나지 않아 그는 자신의 부족 전체를 좌지우지할 정도로 강해지게 되었다. 하지만 어느 날 그는 운명의 갈림길을 마주하게 되었다. 주문제작자 베리코르가 각 부족들을 방문하며 그의 마법 실험에 자원할 이를 찾고 있던 것이다. 그가 가르쿨의 부족을 방문하였을 때 그 젊은 오크는 한껏 웃어제끼고는, 에이알의 그 어떤 마법도 자신의 왼팔에는 미치지 못한다고 말하였다. 베리코르는 그 젊은이의 긍지에 깊은 감명을 받았을 뿐만 아니라 그에게서 또 다른 무언가를 보았고, 그래서 가르쿨을 초대하여 그가 새롭게 만들어낸 마법사들과 대적시켜, 그의 힘을 시험하고자 하였다. 가르쿨은 승낙하였고, 그 둘은 베리코르의 실험장으로 갔다.
+
+그곳에서 가르쿨은 적잖게 놀랐다. 실험장 아래의 숨겨진 동굴에서 수천 명의 오크들이 마법을 수련하고 있었기 때문이다. 그들은 고도로 조직화되어 있었고, 능력 별로 학파와 등급이 나뉘어져 있었으며, 그들의 스승들 또한 실전 전투 기술을 훌륭하게 가르치고 있었다. 베리코르는 그가 마법폭발의 영향을 연구하는 데에 일생을 바치게 된 이유와 다른 종족들의 마법사들을 납치하여 실험을 한 이야기, 그리고 지금 보고 있는 게 그가 한평생 연구한 것의 결실이라는 것을 말해 주었다. 각 부족들의 젊은 오크들을 데려다가 마법사 군대를 양성하여, 동포들을 돕고 적들에게 맞서려 했던 것이다. 가르쿨은 이들의 잠재력에 대해 생각하며 깊은 감명을 받았다.
+
+그리고 가르쿨의 시험 시간이 되었고, 가르쿨은 이전에 말했던 대로 왼팔 하나만으로도 최고의 마법사들을 상대할 수 있다고 선언하였다. 그래서 베리코르는 가장 훌륭한 학생 셋을 뽑았는데, 그들은 각각 불, 얼음, 그리고 피를 다루는 마법사였다. 그는 상대방을 먼저 쓰러뜨리는 쪽이 승리한 것으로 한다고 했고, 가르쿨은 만면에 웃음을 띄우며 승낙하고는, 자신의 오른팔을 등 뒤쪽에 딱 붙인 채로 세 명의 마법사들과 맞섰다.
+
+화염술사가 상대방에게 무시무시한 불길을 쏘아댔지만 가르쿨은 엄청난 속도로 모두 피했고, 그 마법사가 다음 주문을 시전하기 전에 턱에 맹렬한 어퍼컷을 박아 넣어 그를 일격에 쓰러뜨렸다. 냉기술사가 얼음 우박을 마구 날려댔지만, 가르쿨은 기절한 화염술사의 로브를 잡고 그를 낚아채어 방패로 삼아서 우박 폭풍을 뚫으며 달려나갔고, 두 번째 마법사 앞에서 그 방패를 던져 버린 다음 곧바로 마법사의 관자놀이를 내리쳤다. 이렇게 마법사 두 명이 불과 몇 초만에 나가떨어지게 되자, 이제 그는 겁을 먹고 뒷걸음질을 치고 있던 타락자에게로 몸을 돌렸다. 가르쿨은 웃음을 흘리며 돌진했지만, 그 혈마법사가 저주를 걸었고 가르쿨은 자신의 팔이 갑자기 쪼그라들어서 쓸 수가 없게 되었다는 걸 알아차렸다. 그러자 그는 마지막 마법사에게 박치기를 날렸고, 마법사가 곧바로 쓰러지면서 저주도 즉시 깨졌다.
+
+가르쿨은 매우 놀란 베리코르를 돌아보았고, 고개를 숙였다. "당신이 이겼다. 마지막 놈을 처리할 때 머리를 써 버렸으니까." 그러나 베리코르는 그 전사의 기술에 엄청난 충격을 받았다. 그의 믿을 수 없는 속도와 놀라운 힘, 그리고 임기응변은 그가 이제까지 보아 왔던 그 어떤 이보다도 뛰어났다. 두 사람은 잠시 이야기를 나누었고, 가르쿨은 그의 마법사 군대에 대해 다양한 의견을 제시했다. 그들이 부족의 전사들, 그리고 자연의 추종자들과 힘을 합치면 막강한 군대를 만들어낼 수 있다는 것이었다. 그는 이제 마법의 잠재력에 대해 확실히 깨달았고, 그의 머릿속엔 실전에서 사용할 수 있을 만한 전략전술들이 한가득 떠올랐다.
+
+그 후 베리코르는 몇 달간 가르쿨을 손님으로 맞이했고, 가르쿨은 마법 자체에 대해서는 전혀 이해하지 못했지만 그것들의 효과에 저항하고 회피하는 방법들에 대해 배울 수 있었다. 베리코르는 그 젊은 오크의 기술에 끊임없이 감탄했고, 장차 우리 종족을 훌륭하게 이끌 자가 지금 이 자리에 있다는 것을 깨닫게 되었다.]], "_t")
+t([[#{bold}#Chapter Two: Rise of the Devourer#{normal}#
+
+#{italic}#"There are no such things as obstacles, no such things as impossibilities. When a problem presents itself you use your head and your fists, and you remove the problem. If you cannot punch you kick, and if you cannot kick you bite, and you do not unclench your jaws until the thing that was a problem is a problem no more."
+- Sayings of Garkul the Devourer#{normal}#
+
+The next spring Verikor brought Garkul to the tribal council, when each of the leaders of the tribes met. Wargon the elder headed the meeting, as they heard reports from the happenings in each tribe.
+
+Garkul listened patiently until one of the western tribes briefed about an attack on their base by the halflings, and he stirred as he heard about how their warriors had fallen to the Eldoral slingers and mages, but Verikor bade him be still. There were mutterings from some of the other tribal leaders, but Garkul was shocked that none called for an avenging strike.
+
+Wargon stayed silent and contemplative, but when the mutterings died down he raised his voice. "These are terrible events, but little can be done. To attack back would be to draw attention to ourselves, to invite further destruction. We must remain silent, perhaps-"
+
+"Fangless dog!" shouted Garkul, standing up suddenly, no longer able to control himself. "You have no teeth! We should fight back, we should teach them a lesson for daring to assault our tribes!"
+
+Wargon seethed with rage at the insult, and gestured for several guards to chop down the young warrior. Garkul tensed as he saw them reach for their weapons, ready to fight back against the whole room if needs be, but Verikor swiftly stood up to intervene. "Elder, forgive the boy; he is young and keen for battle. It is my fault for bringing him here, I accept full responsibility."
+
+Wargon's eyes turned to slits as he looked at the spellmaker. "You would take this boy's stead?" Verikor gravely nodded, and a thin smile crossed the elder's lips. Long had he suspected the mage of building up secret forces, and now he saw a chance to remove a potential rival. He motioned to the nearest guard, who advanced on the unresisting mage and slit his throat.
+
+Garkul remained motionless, staring hard at the elder. Wargon's slitted eyes rested on him for a moment, but the stare made him uneasy. Turning to one of the guards he said, "I do not like the look in this one's eyes. Put out his right eye, and then let him go." Garkul did not flinch as the guard took the knife to his face, and his left eye remained fixed on Wargon as the right was cut open and blood poured down his face.
+
+He returned to his tribe and had the wound tended, but would accept no patch on it, and the name of Garkul One-Eye was laid on him. People asked, "How do you now intend to stand for leadership of our tribe when you have but half vision?" But Garkul responded, "I see more than all others, and I will lead this tribe and more besides."
+
+He awaited his vengeance till he deemed the time right, and at the next tribal council he arrived with twenty of his followers. When he was refused entry he batted away the guards with a single swipe of his fist. He marched towards Wargon whilst his warriors surrounded the tribal leaders. "So, fangless wolf," he growled. "Will you fight me now?"
+
+Wargon clenched his teeth, and not wanting to appear weak he reached for his daggers and sprung at the challenger. But Garkul grabbed both of his arms, and in a swift movement tore them from their sockets. Then he seized the screaming elder by the head, digging his nails into his flesh, and pulled the face close to his own. He opened his jaw over Wargon's right eye and bit down sharply, shearing the orb from its socket, before tossing back his head and swallowing the eyeball. Then he turned to the other eye and did the same, black blood running down his chin as he chewed through the squelching flesh.
+
+He dropped the twitching body on the ground, bent over it and pummelled his fist down on the wounded head, cracking Wargon's skull apart and smashing out all his teeth. He turned then to the other leaders and cried, "See?! For each eye one takes from me, I take two! Follow me, and I will kill two halflings for every one they take of us. There will be no more snivelling and sneaking - we will rise up and bring a blaze of wrath across the lands!" Confronted by Garkul's strength and surrounded by his warriors, the tribal leaders without hesitation all agreed to follow him.
+
+So ended the name Garkul One-Eye, for a new name was born: Garkul the Devourer. The teeth of Wargon he collected and made into a necklace, and he added more teeth to it as he dealt with dissent amongst the tribes, until all followed him without question.]], [[#{bold}#제2장: 포식자의 등장#{normal}#
+
+#{italic}#"장애물이라는 것은 없고, 불가능이라는 것도 없다. 어떤 문제가 일어나면 네 머리와 주먹을 써서 문제를 없애버려라. 만약 주먹질도 발길질도 할 수 없고, 물어뜯을 수도 없다면, 그 문제가 더는 문제되지 않을 때까지 턱에서 힘을 빼지 마라."
+- 포식자 가르쿨#{normal}#
+
+이듬해 봄에 베리코르는 가르쿨을 부족 평의회에 데려갔다. 각 부족의 지도자들이 만나는 모임이었다. 의회의 지도자는 장로 와곤으로, 그는 각 부족에서 일어난 일들에 대해 보고를 받고 있었다.
+
+가르쿨은 서쪽의 어느 부족이 하플링들에게 공격을 받았다는 보고를 하기 전까진, 가만히 듣고만 있었다. 그리고 그 부족의 전사들이 엘도랄의 투석꾼들과 마법사들에게 쓰러졌다는 대목에 이르러서는 심기가 불편해졌지만, 베리코르는 그에게 가만히 있으라고 말했다. 다른 부족의 지도자들이 약간 불평을 하긴 했지만, 가르쿨은 그들 중 누구도 복수 이야기를 꺼내지 않는 것에 충격을 받았다.
+
+와곤은 조용히 생각을 하고 있다가, 불평들이 가라앉자 목소리를 높였다. "끔찍한 일이긴 하지만, 할 수 있는 게 거의 없다. 반격에 나서는 건 다른 종족들의 주의를 끌어서, 더 많은 파괴로 이어질 수 있다. 우린 아마 아무 일도 없었다는 듯이 있어야-"
+
+"이빨 없는 개 같은 놈!" 가르쿨이 갑자기 일어서며 소리쳤다. 더는 참을 수가 없었다. "이 겁쟁이 새끼야! 우린 맞서 싸워야 한다, 우리 부족을 공격한 건방진 놈들에게 그 대가를 똑똑히 가르쳐줘야 한다고!"
+
+와곤은 그 모욕에 치를 떨었고, 경비병들에게 손짓해 젊은 전사를 베어 버리라고 명했다. 그들이 무기를 들고 다가오자 가르쿨은 마음을 다잡고, 필요하다면 이 방의 모두와도 싸울 태세를 취했지만, 곧바로 베리코르가 일어서서 막아 섰다. "장로님, 이 아이의 무례를 용서해 주십시오. 그는 아직 젊고 싸움을 하길 바라고 있습니다. 제가 그를 여기에 데려왔으므로, 모든 책임은 제가 지겠습니다."
+
+와곤이 눈을 가늘게 뜨고 주문제작자를 보았다. "그 꼬마 대신 벌을 받겠다는 건가?" 베리코르는 말없이 고개를 끄덕였고, 그러자 장로의 입술에 옅은 미소가 떠올랐다. 저 자가 사병으로 부리기 위해 마법사들을 훈련시키고 있던 게 아닌가 의심하던 차에, 잠재적인 경쟁자를 제거할 기회가 생긴 것이다. 장로는 가장 가까운 경비병에게 명을 내렸고, 그는 일절 저항하지 않는 마법사에게 다가가 그의 목을 베었다.
+
+가르쿨은 우뚝 멈춰 서서 장로를 노려보고 있었다. 와곤이 만족에 찬 눈을 하고 그를 잠깐 마주보았다가, 그 눈빛에서 불길함을 느꼈다. 장로는 경비병 하나에게 말했다. "저 녀석의 눈빛이 마음에 안 드는군. 오른쪽 눈을 째고, 제 갈 길 가게 놔 둬라." 가르쿨은 경비병이 자신의 얼굴에 칼을 들이대도 미동도 하지 않았으며, 오른쪽 눈이 잘려서 피가 얼굴을 타고 흐르고 있을 때도, 왼쪽 눈은 여전히 와곤을 노려보고 있었다.
+
+그는 부족으로 돌아가 상처를 치료했지만, 안대는 하지 않았다. 그리하여 '외눈의 가르쿨' 이라는 별명을 얻게 되었다. 사람들은 "이제 눈이 한 쪽밖에 없는데 어떻게 우리 부족을 잘 이끌 수 있겠는가?" 라고 물었다. 하지만 가르쿨은 이렇게 대답했다. "난 다른 자들이 볼 수 없는 것을 볼 수 있고, 내가 이 부족을 더 나은 곳으로 이끌 것이다."
+
+그는 복수를 하기 적당한 때가 오기를 기다렸고, 다음 번 부족 평의회 날에 부하 스무 명을 대동하고 나섰다. 막아서는 경비들은 주먹질 한 번으로 쓰러뜨렸다. 그의 부하들이 나머지 부족 지도자들을 막아선 동안, 그는 와곤에게 다가갔다. "자, 이빨 빠진 늑대 놈아." 그가 으르렁거렸다. "이제 나랑 붙어 볼 테냐?"
+
+와곤은 그 도전자에게 얕보이고 싶지 않아, 양손에 단검을 쥐고 이를 악물었다. 그러나 가르쿨은 그의 양팔을 붙잡아, 곧바로 몸통에서 찢어 냈다. 그러곤 손으로 비명을 지르고 있는 장로의 머리를 꽉 잡고, 손톱을 살에다가 박다시피 한 채로, 그의 얼굴을 자기 얼굴 앞까지 당겨왔다. 그는 와곤의 오른쪽 눈 위로 턱을 벌리고, 날카롭게 베어물어 눈구멍 째로 깨문 다음, 그대로 고개를 젖혀서 뜯어내고 눈알을 삼켰다. 그러고는 다른 쪽 눈도 똑같이 뜯어내 삼켰고, 그가 짜부러진 살점을 씹자 시커먼 피가 턱을 타고 흘렀다.
+
+움찔거리는 몸통이 땅으로 떨어졌고, 가르쿨은 눈구멍이 뻥 뚫린 그 머리에다가 주먹을 내리쳐, 와곤의 두개골을 산산조각냈고 그의 이빨을 죄다 날려버렸다. 그는 다른 지도자들 쪽으로 몸을 돌리고 울부짖었다. "봤나?! 내게서 눈을 하나 가져갔으니, 난 두 개를 가져갔다! 날 따라라, 내가 죽은 오크 한 명당 하플링을 두 놈 죽여 버리겠다. 울면서 숨어 지내는 건 이제 끝이다 - 우린 이제 일어서서, 이 땅을 분노로 불태울 것이다!" 가르쿨의 전사들에게 둘러싸인 채로 그의 힘을 목도한 부족 지도자들은 두말없이 그를 따르기로 하였다.
+
+그렇게 외눈의 가르쿨이라는 별명은 사라지고 새 이름으로 바뀌었다. '포식자 가르쿨'. 그는 와곤의 이빨들을 모아 목걸이로 만들었고, 부족들 내부의 반대 의견들을 처리하면서 목걸이에 이빨을 더 넣었다. 그렇게 모두가 그의 뜻을 따르게 되었다.]], "_t")
+t([[#{bold}#Chapter Three: Bringer of Pyre#{normal}#
+
+#{italic}#"Fire is a symbol all races understand. To burn is to destroy utterly. When I conquer I leave behind fire - every house, every field, every corpse, burnt to a cinder. This is a sign of our dominance, and the word of it spreads amongst our enemies. To them I become a living, unquenchable flame, and the sight of my army fills them with the dread of incineration."
+- Sayings of Garkul the Devourer#{normal}#
+
+Garkul united the tribes swiftly and effectively. He reorganised them, joining together the warriors and the wyrmics into their own bands, encouraging competition between them. Seeing the strength of the mages he split them in two, one for the elements, and one for corruption and death, and he encouraged them to compete against each other further. He said that only orcs could compete against other orcs, for the other races could never compare. Only through competition with ourselves could we achieve our true strengths.
+
+He organised protective groups around the orcish territories, so that any attacks from the other races were quickly put down. But the halflings saw our increased organisation, and began to enlarge their scouting groups and bolster their patrols. Garkul saw that this could not continue any longer, and that the time was ripe to bring his plans to full fruition. He began to plan an attack on Barton, the largest Eldoral city in the region.
+
+The attack was made in the dead of night. Under the shadow of darkness his army marched towards the city walls, and they were not spotted until they were nearly upon it. When the guards let up a cry of warning they tried to close the city gates, but the orcish mages let loose a barrage of spells that tore the defences apart. The Barton army finally rallied and began to flood out of the city gates to meet their attackers, but Garkul ordered that balls of fire be shot into their midst, splitting the troops apart, so that his fighters could easily slice through the few that came through the gates, whilst the archers shot down those held back by the flames. The pyromancers continued to send conflagrations of flame over the city walls, and as the halflings inside tried to escape their burning homes a new chaos erupted. For Garkul had sent necromancers into the city in advance through the sewers, and hidden by arcane illusion they now began to raise the fallen halflings as their undead minions. People screamed as they saw their deceased loved ones suddenly rise as ghasts and wights to attack them. And no leadership could be found amongst the defenders, as Garkul had sent through stealthed assassins to strike them down at the moment of attack. As all resistance crumbled the great leader then let loose his berserkers and wilders into the city, and they tore through the streets butchering every last opponent. Within a few hours not a single halfling remained alive, and not a single cobblestone in the city was left unstained by their crimson blood. And Garkul's victory was truly transcendent, for not a single orc had been hurt in all the battles.
+
+When his troops asked what should be done next he stayed quiet for a moment, looking at a hill to the south of the city. Then he said, "Chop down wood from the forest nearby and bring it to the top of that hill. Then gather all the bodies from the city - every part of every man, woman and child - and construct atop the hill a mighty pyre." And his army did so, and did it quickly, for the word of Garkul now stood above all else in their minds. When the pyre was finished it was over 80 feet high, and crammed with the bodies of thousands of their victims. As dawn began to glow red on the eastern horizon they lit the pyre, and the flames rose up to make a mighty furnace, incinerating the fallen corpses.
+
+The pyre could be seen for miles around, and the other races sent out scouts to find out what it was. Garkul instructed his troops not to stop them, and the reports came back to the leaders of the other races of a butchery beyond all concept. Some could barely believe the words of their scouts, but the next night the same happened again to another Eldoral city, and the night after several towns in the region were burnt to a cinder. Garkul's army was sweeping forth in a blaze of wrath, and suddenly the peaceful world of the other races was falling apart.
+
+These early victories came easy, but as they advanced they met more resistance, as the races had more forewarning of their attacks. But Garkul was always master of any situation, and his strategy and tactics overcame all defences. And after each victory was always the great pyre, and our armies would chant songs of victory as the flames reached into the cold night sky. The battles would become known as the Pyre Wars, and the flames of conquest would spread across all of Maj'Eyal.
+
+Within three months the Eldoral kingdom was broken, and refugees flooded south to the halfling kingdom of Nargol, desperate to escape the deadly pyres. Garkul then consolidated his forces, building new bases in the conquered lands, before advancing out against the other races. None would escape the wrath of the people that had suffered so long from the attacks of the other races. Centuries of oppression had hardened us, and now the flames of vengeance that rose in our hearts could not be quenched.]], [[#{bold}#제3장: 불길을 이끄는 자#{normal}#
+
+#{italic}#"불은 모든 종족이 이해할 수 있는 상징이다. 불태운다는 것은 완전히 파괴한다는 뜻이다. 내가 정복한 곳에는 불길만 남겨 두었다 - 집도, 땅도, 시체도, 모두 다, 잿더미가 되었다. 이것은 우리 지배의 상징이고, 이 이야기는 우리의 적들에게 퍼질 것이다. 그렇게 놈들에게 난 살아 숨쉬며 꺼뜨릴 수 없는 불꽃이 되는 것이고, 놈들은 우리 군대를 볼때마다 불길이 떠올라 겁에 질리게 되는 것이다."
+- 포식자 가르쿨#{normal}#
+
+가르쿨은 부족들을 신속하게, 또 효과적으로 통합하였다. 그는 부족을 재조직하여, 전사들과 용인들을 별개의 부대들로 만들어 상호 경쟁을 장려하였다. 또한 그는 마법의 힘을 이해하고 있었으므로 마법사들을 두 부대로 나누었다 - 하나는 원소를 다루는 자들로, 다른 하나는 타락과 죽음을 다루는 자들로. 그리고 그들이 다른 부대의 마법사들과 경쟁할 수 있도록 하였다. 그는 오크와 경쟁할 수 있는 건 같은 오크 뿐이며 다른 종족들은 비교도 되지 않는다, 오직 상호 경쟁을 통해서만 우리의 진정한 힘을 얻을 수 있다고 말하였다.
+
+그는 오크 영토를 보호하는 부대들을 따로 조직하였고, 그리하여 다른 종족들이 어떤 공격을 하더라도 빠르게 진압되었다. 그러나 하플링들은 우리의 군대가 강해지고 있는 것을 눈치챘고, 자신들의 정찰부대를 늘리고 순찰대를 보강하였다. 가르쿨은 이 이상 버틸 수는 없다고 판단했고, 지금이 바로 자신의 계획이 완전히 결실을 맺을 때라고 생각했다. 그는 엘도랄의 가장 큰 도시인 바르통을 공격할 계획을 세우기 시작했다.
+
+공격은 한밤중에 시작되었다. 그늘진 어둠 속에 숨어 그의 군대는 도시 성벽을 향해 진군하였고, 성벽을 거의 다 넘을 때까지 발각되지 않았다. 경비병들이 경보를 외쳤고 도시의 문을 닫으려 했으나, 오크 마법사들의 주문 세례에 완전히 산산조각났다. 바르통의 군대가 마침내 집결하여 침략자들을 맞이하기 위해 성문 밖으로 쏟아져 나왔으나, 가르쿨은 그들 한가운데로 화염구를 쏘아 적들을 갈라 놓으라 명했고, 그 덕분에 궁수들이 불길에 발목을 잡힌 적들을 쏘아 쓰러뜨리는 동안 전사들은 성문 밖으로 나온 몇 안되는 적들을 손쉽게 베어넘길 수 있었다. 화염술사들은 성벽 너머로 계속해서 불덩이를 쏘아냈고, 성벽 안의 하플링들이 불타는 집에서 탈출하려 하자 새로운 난장판이 만들어지고 있었다. 가르쿨이 보낸 강령술사들이 마법으로 은신한 채로 하수도를 통해 진군하여, 죽은 하플링들을 언데드 하수인으로 일으킨 것이다. 하플링들은 먼저 간 소중한 이들이 갑자기 가스트와 와이트로 일어나 자신들을 공격하는 광경을 보며 비명을 질렀다. 또한 가르쿨이 보내 두었던 암살자들이 공격 직전에 장군들을 죄다 쓰러뜨렸으므로, 방어 측에선 사태를 수습할 지휘관이 없었다. 훌륭한 지휘로 모든 방어 수단이 무너지자 그는 광전사들과 자연의 추종자들을 도시로 보냈고, 그들은 거리를 활보하며 적들을 한 놈도 남기지 않고 모두 다 죽였다. 한 시간도 채 되지 않아 도시 안에 하플링은 단 한 명도 남지 않게 되었고, 땅의 자갈 하나하나가 피로 물들게 되었다. 가르쿨의 승리는 그야말로 하늘마저 놀랄 일이었는데, 이 전투 내내 단 한 명의 오크도 다치지 않았기 때문이다.
+
+그의 군사들이 다음 해야 할 일은 무엇인지 묻자 그는 잠시 생각하더니, 도시 남쪽의 언덕을 바라보고는 말했다. "근처 숲에서 나무들을 베어다가 저 언덕 위로 가져와라. 그러고 나면 도시 안의 시체들을 전부 모아라. 남자든 여자든, 아이든 노인이든 조그만 조각도 남기지 말고 모두. 그것들을 언덕에 높이 쌓아서, 엄청난 장작더미를 만들 것이다." 그의 군대는 명령을 신속하게 수행했다. 이제 가르쿨의 명령은 그 무엇보다도 더 중요했기 때문이다. 장작더미가 완성되자 그 높이는 무려 24미터를 넘었고, 수천 구의 시체로 빽빽히 들이차 있었다. 동쪽 수평선으로 붉은 빛이 떠오르며 동이 트기 시작하자, 그들은 장작더미에 불을 붙였고 불꽃은 맹렬하게 불타올라, 쓰러진 자들의 시체를 불태웠다.
+
+그 불꽃은 몇 킬로미터 밖에서도 볼 수 있었고, 다른 종족들은 정찰대를 보내 무슨 일이 일어난 건지 확인하려 했다. 가르쿨은 그의 군사들에게 그 정찰대들을 막지 말라고 했고, 그래서 다른 종족들의 지도자들은 그 살육에 대한 보고를 받게 되었다. 몇몇 지도자들은 정찰대의 이야기를 거의 믿지 못했지만, 그 다음 밤에 엘도랄의 다른 도시에서 똑같은 일이 벌어졌고, 또 다음 밤에는 영토 안의 마을 몇 개가 잿더미가 되었다. 가르쿨의 군대는 분노의 불길로 온 사방을 휩쓸었고, 다른 종족들의 평화로운 세계는 순식간에 무너졌다.
+
+이렇듯 전쟁 초창기에는 손쉽게 이겼으나, 적들도 점점 발전했기에 저항은 점점 더 거세졌다. 적들이 경계에 조금 더 힘을 쏟았기 때문이었다. 하지만 가르쿨은 어떤 상황에서도 능숙하게 대응했고, 그의 전략전술은 항상 적들의 방어를 뛰어넘었다. 그리고 그런 승리 뒤에는 항상 거대한 장작더미가 있었고, 우리의 군대는 그 불길이 차가운 밤하늘을 밝힐 때마다 승리의 노래를 불렀다. 그 전투들은 '장작 전쟁' 이라는 이름으로 알려지게 되었고, 정복의 불길은 마즈'에이알 전역으로 퍼져 나갔다.
+
+3개월도 채 되지 않아 엘도랄 왕국은 무너졌고, 난민들은 자포자기한 채로 그 불길을 피해 남쪽으로 몰려가 '나르골' 이라는 하플링 왕국을 세웠다. 그러자 가르쿨은 그의 군사들을 모아 정복한 땅에 새로운 기지들을 건설한 뒤 다른 종족들을 향해 진격했다. 다른 종족들로부터 매우 오랫동안 고통을 받아 왔던 자들의 분노는, 그 누구도 피할 수 없었다. 수 세기에 걸친 억압은 우릴 강인하게 만들었고, 이제 우리의 가슴 속에 타오른 복수의 불꽃은 꺼뜨릴 수 없게 되었다.]], "_t")
+t([[#{bold}#Chapter Four: Conqueror of West and East#{normal}#
+
+#{italic}#"Our strength must come through our pride, and our pride must rise from our strength. Many are our powers and abilities, and we are unified in our pride of them. Be proud in our great race and revel in the glories we can achieve together."
+- Sayings of Garkul the Devourer#{normal}#
+
+For many years the great conquest could not be held back. Garkul marched across the lands, insufferable of any resistance. The Eldoral were broken, and they fled to their halfling cousins the Nargols in the south. The humans were split into many kingdoms, and Garkul began to pick them off one by one, leaving just a few isolated in the west and south. The Thaloren hid in their dark forests, penned in by the mighty orcish armies. The Shaloren tried to fight, and with their great magics they created grave opposition to the orcish troops, but gradually they were beaten back and forced to retreat to their capital in the south-west. The dwarves viciously defended their halls in the east, and Garkul could not penetrate their cities of stone, but he laid plans in place to take them through caves below.
+
+All the centre of Maj'Eyal was under Garkul's dominion - from the northern wastes to the southern lakes; from the Daikara Mountains to the western ocean. Orc patrols covered every valley and every field, and any enemies found were eradicated. Garkul's support was utterly unwavering, as every orc took new pride in their amazing achievements under his leadership.
+
+But victory was not complete, as many centres of power and resistance still remained, and the Nargol were still a grave threat from the south. Garkul was careful not to overreach, not to spread his forces too thin before victory was assured. He knew he must bide his time and build up his forces to their greatest possible strength.
+
+Then beneath the dwarven city of Reknor our scouts discovered an amazing thing - a Sher'Tul farportal. The blood mages studied it, and after some time they succeeded in activating it, and discovered a new land. It was the lost East, sundered from Maj'Eyal after the great cataclysm. Garkul saw here a great opportunity, and he instructed many thousands of young warriors and mages to be sent over to the east. There they formed training grounds where the military could train and practise to master their techniques before returning to join the wars in the west. Garkul named them the Prides, for he said here was were the strength of our race would lie, and here was what we would be most proud of.
+
+But while Garkul was busy establishing the Prides the Nargol king was planning a strategy of defence. He knew that the orcish armies would come for his kingdom soon, and he drew on the powers of his greatest strategists to prepare a force that could not be overcome. He summoned the mightiest alchemists from all the lands and together they laid plans for a creation that could not be beaten: the giant golem Atamathon.
+
+When Garkul next returned from the east he heard from his spies of great operations afoot in the Nargol kingdom, and he knew that he must face down the halflings. He did not know that it would be his last battle.]], [[#{bold}#제4장: 서방과 동방의 정복#{normal}#
+
+#{italic}#"우리의 힘은 우리의 긍지로부터 와야 하며, 우리의 긍지는 우리의 힘으로부터 솟아야 한다. 수많은 것들이 우리의 힘이자 능력이고, 우린 그것들에 대한 긍지로 뭉쳤다. 우리가 이렇게 위대한 종족이라는 것을 자랑스러워하고, 우리가 함께 이룰 수 있는 영광을 즐겨라."
+- 포식자 가르쿨#{normal}#
+
+For many years the great conquest could not be held back. Garkul marched across the lands, insufferable of any resistance. The Eldoral were broken, and they fled to their halfling cousins the Nargols in the south. The humans were split into many kingdoms, and Garkul began to pick them off one by one, leaving just a few isolated in the west and south. The Thaloren hid in their dark forests, penned in by the mighty orcish armies. The Shaloren tried to fight, and with their great magics they created grave opposition to the orcish troops, but gradually they were beaten back and forced to retreat to their capital in the south-west. The dwarves viciously defended their halls in the east, and Garkul could not penetrate their cities of stone, but he laid plans in place to take them through caves below.
+
+All the centre of Maj'Eyal was under Garkul's dominion - from the northern wastes to the southern lakes; from the Daikara Mountains to the western ocean. Orc patrols covered every valley and every field, and any enemies found were eradicated. Garkul's support was utterly unwavering, as every orc took new pride in their amazing achievements under his leadership.
+
+But victory was not complete, as many centres of power and resistance still remained, and the Nargol were still a grave threat from the south. Garkul was careful not to overreach, not to spread his forces too thin before victory was assured. He knew he must bide his time and build up his forces to their greatest possible strength.
+
+Then beneath the dwarven city of Reknor our scouts discovered an amazing thing - a Sher'Tul farportal. The blood mages studied it, and after some time they succeeded in activating it, and discovered a new land. It was the lost East, sundered from Maj'Eyal after the great cataclysm. Garkul saw here a great opportunity, and he instructed many thousands of young warriors and mages to be sent over to the east. There they formed training grounds where the military could train and practise to master their techniques before returning to join the wars in the west. Garkul named them the Prides, for he said here was were the strength of our race would lie, and here was what we would be most proud of.
+
+But while Garkul was busy establishing the Prides the Nargol king was planning a strategy of defence. He knew that the orcish armies would come for his kingdom soon, and he drew on the powers of his greatest strategists to prepare a force that could not be overcome. He summoned the mightiest alchemists from all the lands and together they laid plans for a creation that could not be beaten: the giant golem Atamathon.
+
+When Garkul next returned from the east he heard from his spies of great operations afoot in the Nargol kingdom, and he knew that he must face down the halflings. He did not know that it would be his last battle.]], "_t")
 t("The Legend of Garkul", "가르쿨의 전설", "_t")
 t("Captain Gumlarat's report", "대장 검라랏의 보고서", "_t")
 t("orc prides", "오크 긍지", "newLore category")
@@ -21726,10 +21941,10 @@ t("Skirmisher", "척후병", "talent name")
 t([[Orcs have seen countless battles, and won many of them.
 		You revel in the defeat of your foes, gaining %d%% damage resistance for 2 turns each time you kill an enemy.
 		The resistance will scale with talent level and your Constitution.
-		Additionally, passively increase all damage penetration by %d%%.]], [[오크는 셀 수 없이 많은 전투를 치뤘고, 대부분 승리했습니다.
-		시전자가 적을 살해할 때, 2 턴 동안 모든 피해 저항 %d%% 상승합니다.
+		Additionally, passively increase all damage penetration by %d%%.]], [[오크는 셀 수 없이 많은 전투를 치렀고, 대부분 승리했습니다.
+		적을 살해했을 때, 2 턴 간 모든 피해 저항이 %d%% 상승합니다.
 		피해 저항은 기술 레벨과 체격에 비례하여 증가합니다.
-		추가로, 지속 효과로써 모든 저항 관통이 %d%% 향상됩니다.]], "tformat")
+		추가로, 지속 효과로 모든 저항 관통이 %d%% 향상됩니다.]], "tformat")
 t("Pride of the Orcs", "오크의 긍지", "talent name")
 t([[Call upon the will of all of the Orc Prides to survive this battle.
 		You remove up to %d detrimental effect(s) then heal for %d life.
@@ -24141,14 +24356,14 @@ t([[As you continue to attune your body to undeath you reject nature as a whole.
 		As long as you have no natural infusion on your skin, each rune on it increases your minimum negative life by -%d and your spells critical chance by %0.1f%%.
 
 		Currently: %s]], [[불사 그 자체에 신체를 적응시켜, 자연을 완전히 배격하게 되었습니다.
-		시전자가 자연적인 주입물을 사용하지 않을 때, 세겨진 룬 하나 당, 시전자의 최저 생명력 하한이 -%d 으로 감소되고, 주문 치명타 확류이 %0.1f%% 증가합니다.
+		자연적인 주입물을 사용하지 않을 때, 새겨진 룬 하나 당 최저 생명력 하한이 -%d 으로 감소되고, 주문 치명타 확률이 %0.1f%% 증가합니다.
 
 		현재 수치 : %s]], "tformat")
 t("Spikes of Decrepitude", "노쇠의 가시", "talent name")
 t([[Each turn you unleash dark powers through your runeskin.
 		For each rune you have a random foe in sight will be hit by a spike of decrepitude, dealing %0.2f frostdusk damage.
 		A foe can only be hit by one spike per turn.
-		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]], [[매 턴, 룬 피부를 통해 어두운 힘을 해방합니다.
+		If your life is below 1, the spikes also reduce all damage done by the targets by %d%%.]], [[매 턴 룬 피부를 통해 어두운 힘을 해방합니다.
 		세겨진 룬 하나 당, 시전자의 시야 내의 무작위한 적은 노쇠의 가시에 찔려, %0.2f 서리 황혼 피해를 가합니다.
 		하나의 적에 대해, 가시는 한 턴에 1 번만 피해를 가합니다.
 		시전자의 생명력이 1 이하일 경우, 가시는 대상이 가하는 모든 피해를 %d%% 줄입니다.]], "tformat")
@@ -33061,7 +33276,7 @@ t("LIFE-ENDING SYSTEMS ACTIVATED!", "절멸  시스템  활성화!", "_t")
 t("GLORY TO THE HALFLINGS!", "하플링에게  영광을!", "_t")
 t("YOUR DEATH IS NECESSARY", "너의  죽음은  필연적이다", "_t")
 t("ACTIVATING PAIN GIVING SUBMODULES!", "고통  선사  서브모듈  활성화!", "_t")
-t("YOUR LIFE WILL END, PLEASE DO NOT RESIST!", "너의  삶은  끝난다  부디  저항하지  말아라!", "_t")
+t("YOUR LIFE WILL END, PLEASE DO NOT RESIST!", "너의  삶은  곧  끝난다  부디  저항하지  말아라!", "_t")
 t("RESISTANCE IS FUTILE, YOUR WILL BE EXTERMINATED!", "저항은  무의미하다  넌  제거될  것이다!", "_t")
 t("PLEASE STAY STEADY AS YOU ARE ERASED FROM THE WORLD!", "널  세상에서  지워주마  부디  가만히  있어라!", "_t")
 t("EXECUTE PHASE COMMENCING!", "처형  단계  개시!", "_t")

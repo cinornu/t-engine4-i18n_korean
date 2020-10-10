@@ -570,7 +570,7 @@ t("Improved core stats", "기초 능력치 상승", "_t")
 t([[#LIGHT_GREEN#*The muscle tissue suddenly vanishes from your inventory.*#WHITE#
 Thank you @playername@, this is indeed a suitable specimen. We shall honor our bargain with you. What do you wish to learn?]], [[#LIGHT_GREEN#*배낭에서 근육 조직이 갑자기 사라졌습니다.*#WHITE#
 고맙다 @playername@, 이것은 확실히 적합한 자의 것이다. 우린 너와의 약속을 지킬 것이다. 무엇을 배우길 원하는가?]], "_t")
-t("What do you wish to learn?", "무엇을 배우겠습니까?", "_t")
+t("What do you wish to learn?", "무엇을 배우길 원하는가?", "_t")
 t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
 t([[Antimagic is a very special category. If you learn it you will never be able to use arcane powered items or talents again.
 Do you still wish to take this path?]], [[반마법은 매우 특수한 기술 계열입니다. 이걸 배우면 마법의 힘으로 작동하는 물건들이나 마법 기술들을 두 번 다시 쓸 수 없게 될 겁니다.
@@ -1291,9 +1291,9 @@ t("armor", "방어구", "entity type")
 t("cloak", "망토", "entity subtype")
 t("action packed cloak", "흥미진진한 망토", "_t")
 t("Rogue's Gallery", "도둑의 화랑", "entity name")
-t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상황에도요!", "_t")
+t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "충격에 반응하는 기능을 갖춘 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상황에도요!", "_t")
 t("On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "생명력이 최대 생명력의 20% 이하로 떨어지면, 5 턴 동안 연막을 풀어, 근처의 적에게 혼란을 유발하고, 착용자는 은신하며, 일정 확률로 받는 피해를 무효화합니다.", "_t")
-t("cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "착용자가 다음번에 가하는 피해는 방해성 독 중독을 유발하여, (사용되기 전 까지는 충전되지 않습니다) 미약한 독 피해를 가하고, 대상이 10% 확률로 기술의 사용을 실패하게 합니다", "_t")
+t("cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "착용자가 다음 번에 가하는 피해는 방해성 독 중독을 유발하여, (효과 발동 전까지는 재충전되지 않습니다) 미약한 독 피해를 가하고, 대상이 10% 확률로 기술의 사용을 실패하게 합니다", "_t")
 t("%s rustproof coating", "%s 녹 방지 코팅", "tformat")
 t("BODY", "가슴 방어구", "entity on slot")
 t("%d%% chance to avoid a detrimental acid subtype effect.", "%d%% 확률로 산성 계열의 부정적인 효과를 막아냅니다.", "tformat")
@@ -1658,24 +1658,24 @@ This is not real this is not real this is not real.]], [[널잡으러왓어
 정신나갈거같애정신나갈거같애점심나갈거같애.]], "_t")
 t([[By all accounts, just an ordinary cooking pot with an array of antennae haphazardly soldered onto it. An attached manual contains nothing but fifty pages of deranged gibberish, nonsensical diagrams and lines upon lines of numbers with no apparent pattern or reason to them. 
 
-Putting this on your head may not be the best idea.]], [[누가 보아도, 그저 평범한 요리 냄비에 안테나가  대충 접합되어 있습니다. 동봉된 설명서는 50 장에 걸처 헛소리와 말도안되는 도형들, 그리고 논리도, 규칙성도 없는 숫자의 나열만이 써있습니다. 
+Putting this on your head may not be the best idea.]], [[누가 보아도, 그저 평범한 요리 냄비에 안테나가 대충 접합되어 있습니다. 동봉된 설명서는 50장에 걸쳐서 헛소리와 말도 안되는 도형들, 그리고 논리도 규칙성도 없는 숫자의 나열만이 쓰여 있습니다. 
 
 이걸 머리통에 뒤집어 쓰는 것은 그렇게 좋은 생각은 아닌거 같은데요...]], "_t")
 t("%s's Shadow", "%s의 그림자", "tformat")
 t([[itshereitshereitshereitshere
 itshereitshereitshereitshere
 itshereitshereitshereitshere
-itshereitshereitshereitshere]], [[여깃어여깃어여깃어여깃어
-여깃어여깃어여깃어여깃어
-여깃어여깃어여깃어여깃어
-여깃어여깃어여깃어여깃어]], "_t")
+itshereitshereitshereitshere]], [[여깄어여깄어여깄어여깄어
+여깄어여깄어여깄어여깄어
+여깄어여깄어여깄어여깄어
+여깄어여깄어여깄어여깄어]], "_t")
 t("#F53CBE#%s's shadow awakens!", "#F53CBE#%s의 그림자가 깨어났다!", "logSeen")
 t("Pressurizer", "가압기", "entity name")
 t("heavy lined cloak", "무거운, 안감을 댄 망토", "_t")
 t("This cloak hides and protects a series of powerful steam compressors.", "이 망토는 수많은 강력한 증기 압축기를 숨기고, 보호하고 있습니다.", "_t")
-t("Eastern Wood Hat", "이스턴 우드 모자", "entity name")
+t("Eastern Wood Hat", "극동의 나무 모자", "entity name")
 t("worn leather hat", "해진 가죽 모자", "_t")
-t("This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "이 모자는 오래전에 이름이 잊혀진, 극동의 숲에서 나는 물질들로 만들어졌습니다. 최초의 총잡이들이 갖고있었다고 전해집니다.", "_t")
+t("This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "이 모자는 오래전에 이름이 잊혀진, 극동의 숲에서 나는 물질들로 만들어졌습니다. 최초의 총잡이들이 갖고 있었다고 전해집니다.", "_t")
 t("Steamcatcher", "증기 수집기", "entity name")
 t("pipe coated leather hat", "도관으로 둘러싸인 가죽 모자", "_t")
 t("There's an old saying that most of your body heat escapes through your head. It's not true of body heat, but strangely, is actually true of steam.", "어떤 늙은 이가 말하길, 인채 대부분의 열기는 머리를 통해 빠저나간다고 합니다. 이젠 체온같은게 아니라, 증기지만요.", "_t")
@@ -5623,7 +5623,7 @@ t("What is better than throwing sand in someone's face? Throwing sand that shine
 t("Itching Powder", "가려움 가루", "_t")
 t("The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "'기어다니는 개미' 가려움 가루는 여러분들의 적들을 복잡한 행동을 하지 못하게 할거예요!", "_t")
 t("Rogue's Gallery", "도둑의 화랑", "_t")
-t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "강렬하게 반응하는 기계 구조와 결합한, 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상황에도요!", "_t")
+t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "충격에 반응하는 기능을 갖춘 이 망토는 당신이 맞닥뜨릴 수 있는 모든 상황에 대응할 수 있습니다. 심지어는 맞닥뜨릴 수 없는 상황에도요!", "_t")
 t("flash powder", "섬광 가루", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
@@ -7254,7 +7254,7 @@ t("Tier 4", "등급 4", "_t")
 t("Tier 5", "등급 5", "_t")
 t("Requires talents:", "요구 기술:", "_t")
 t("Requires ingredients:", "필요한 재료:", "_t")
-t(" (You have: %s)", " (갖고 있는 개수: %s)", "tformat")
+t(" (You have: %s)", " (보유 수량: %s)", "tformat")
 t("Requires items:", "필요한 물건:", "_t")
 t("Requires:", "요구사항:", "_t")
 t("Example Item:", "결과물 예시:", "_t")
