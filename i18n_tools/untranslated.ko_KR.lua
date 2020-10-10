@@ -2058,12 +2058,6 @@ t([[You create an Arcane Amplification Drone at the selected location for 3 turn
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
--- 1 entries
-t("TO THE MOUNTAINS!", "TO THE MOUNTAINS!", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/zones/gem/objects.lua"
 -- 1 entries
 t("..", "..", "entity name")
