@@ -2320,6 +2320,23 @@ With that in mind, my only option is to kill it from the inside. Dunno how I'm g
 그걸 염두에 두고 내 유일한 선택은 안에서부터 이놈을 죽이는 거야. 내가 어떻게 해야 할지는 모르겠지만.]], "_t")
 t("godflesh", "신의 살점", "_t")
 t("This strange, rubbery substance appears to be the flesh of some unknown creature. Small sparks of antropic power surge from it at times, filling you with incredible vitality. You suspect that it was part of the Maggot's last meal before it transformed into the monstrosity that swallowed you.", "이 이상하고 고무같은 물질은 어떤 미지의 생물의 살점처럼 보인다. 때때로 이것으로부터 반-엔트로피적인 힘의 작은 불꽃이 튀어올라, 믿을 수 없는 생명력으로 당신을 가득 채운다. 당신은 그것이 당신을 삼킨 구더기가 괴물로 변하기 전 행한 마지막 식사의 흔적이지 않나 의심한다.", "_t")
+t("the egress (1)", "출입로 (1)", "_t")
+t([[Being an adventurer is supposed to be fun. You know, get out there, kill a couple monsters, grab some loot, spend all the loot money you made and repeat. There's always something new out there to plunder, if you get in there before everyone else. But sometimes, people like to lock their loot behind dumb puzzles. Like this one. I've been sitting here just trying different combinations in this thing. All day, all night, different combinations. The way this stupid thing works doesn't make any sense at all! Most people who make puzzles like these usually leave some hints, but I've got nothing to work with!
+
+So, my approach has been to just keep trying different combinations until something eventually works. I'll record the combination down in this journal and then give it a tick or a cross. That way I can keep track of what works and what doesn't. There had better be an amazing reward for all this work...
+
+#{italic}#(The list appears to have nothing but crosses next to combinations, except for the very last one at the bottom. Surprisingly, it has neither a tick nor a cross next to it. Maybe he did not get a chance to test it?)#{normal}#
+%s]], [[모험가가 되는 것은 재미있는 일이야. 저기 나가서 괴물 몇 마리 죽이고, 전리품도 좀 줍고, 약탈한 돈을 다 탕진한 뒤에 반복하는 거야. 다른 사람들보다 먼저 들어가면 항상 뭔가 약탈할 만한 게 있지, 하지만 때때로, 사람들은 바보 같은 퍼즐 뒤에 그들의 보물을 숨기는 것을 좋아하곤 해. 이것처럼 말이야. 난 여기 앉아서 몇 가지 다른 조합을 시도하고 있어. 온 종일, 밤새도록, 다른 조합들을 말이지. 이 바보 같은 물건이 어떻게 작동하는지 전혀 이해가 안 돼! 이런 퍼즐을 만드는 사람들은 보통 힌트를 남기지만, 내겐 아무런 단서도 없다니!
+
+그래서, 내 접근방식은 결국 무언가 작동할 때까지 계속해서 다른 조합들을 시도해 보는 거지. 나는 이 일지에 그 조합을 기록해서 체크 표시나 십자 기호를 덧대고 있어. 그렇게 하면 나는 어떤 게 효과가 있고 없고 한 지 계속 확인할 수 있거든. 이 모든 일에 대해 놀라운 보상이 있어야 할거야...
+
+#{italic}#(리스트는 맨 아래에 있는 마지막 것을 제외하고 모든 조합 옆에 십자가만 있는 것으로 보인다. 놀랍게도 옆에 체크 표시도 십자가도 없다. 시험해 볼 기회가 없었던 건 아닐까?)#{normal}#
+%s]], "tformat")
+t("the egress (2)", "출입로 (2)", "_t")
+t("Some puzzle this is! I finally enter the right combination and it dumps me in some forsaken corner of the world! I don't even know what to make of my surroundings, they're utterly bizarre! Why did this have to happen to me? I was supposed to be the one who got in first and got the treasure... Now look at me! I've wandered all over this place, but I can't find any exit! It's like this entire place is conspiring to keep me trapped here!", "이게 대체 무슨 퍼즐이지!? 내가 마침내 올바른 조합을 찾아냈고 그게 나를 세상의 어떤 외딴 구석에 던져버리다니! 주변 환경을 봐도 뭐가 뭔지도 모르겠어, 정말 기괴한 것들이 가득해, 왜 나한테 이런 일이 일어난거지? 내가 제일 먼저 들어가서 보물을 얻는 사람이어야 했는데... 이곳 저곳을 돌아다녔는데 출구를 찾을 수조차 없다니. 마치 이 모든 곳이 날 여기 갇히게 하려고 음모를 꾸미는 것 같다.", "_t")
+t("the truth beyond the veil (1)", "장막 너머의 진실 (1)", "_t")
+t("the truth beyond the veil (2)", "장막 너머의 진실 (2)", "_t")
+t("the truth beyond the veil (3)", "장막 너머의 진실 (3)", "_t")
 t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서: \"회랑에서 본 것\"", "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서: \"환상의 성\"", "_t")
@@ -3159,14 +3176,14 @@ section "game/dlcs/tome-cults/data/talents/misc/misc.lua"
 t("glass golem", "유리 골렘", "_t")
 t("Self-destruction", "자폭", "talent name")
 t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "자폭해 영광스러운 피와 뼈의 대폭발을 일으킵니다. %0.2f 황폐 피해를 반경 %d 칸 안의 모든 적에게 가합니다. 이 기술을 사용하기 위해서, 시전자의 소환자는 반드시 사망상태이여야 합니다.", "tformat")
-t("Teleport: Kroshkkur", "순간이동: Kroshkkur", "talent name")
-t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur는 파괴되었다. 그곳으로 순간이동할 필요도, 할 수도 없다.", "logPlayer")
+t("Teleport: Kroshkkur", "순간이동: 크로슈쿠르", "talent name")
+t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#크로슈쿠르는 파괴되었다. 그곳으로 순간이동할 필요도, 할 수도 없다.", "logPlayer")
 t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
 t("There are creatures that could be watching you; you cannot take the risk.", "당신을 보고있는 자들이 있다. 당신은 위험을 감수할 수 없다.", "log")
 t([[Allows to teleport to Kroshkkur.
 	You have studied the forbidden secrets there and have been granted a special portal spell to teleport back.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
-	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], [[Kroshkkur로 순간이동 합니다.
+	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], [[크로슈쿠르로 순간이동 합니다.
 	당신은 그곳에서 금지된 비밀에 대해 배웠고, 따라서 그곳으로 가는 특수한 차원문을 여는 법을 익혔습니다.
 	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 무지한 자들이 보고있는 동안에는 사용이 불가능합니다.
 	마법 발동에는 시간이 약간 필요하며, (40 턴) 그 시간 동안 당신은 누군가의 시야 내에 들어가서는 안됩니다.]], "_t")
@@ -3578,11 +3595,11 @@ t("blood", "혈액", "effect subtype")
 t("leech", "흡혈", "effect subtype")
 t("#Target# is covered in black blood!", "#Target2# 검은 피로 뒤덮혔다!", "_t")
 t("#Target# is clear from the black blood.", "#Target3# 뒤덮은 검은 피가 씻겨나갔다.", "_t")
-t("Teleport: Kroshkkur", "순간이동: Kroshkkur", "_t")
-t("The target is waiting to be recalled back to Kroshkkur.", "Kroshkkur로 돌아가길 기다리는 중.", "_t")
+t("Teleport: Kroshkkur", "순간이동: 크로슈쿠르", "_t")
+t("The target is waiting to be recalled back to Kroshkkur.", "크로슈쿠르로 돌아가길 기다리는 중.", "_t")
 t("teleport", "순간이동", "effect subtype")
-t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur는 파괴되었다. 그곳으로 순간이동할 필요도, 할 수도 없다.", "log")
-t("There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "당신을 보고있는 자들이 있다. 당신은 위험을 감수할 수 없다.", "log")
+t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#크로슈쿠르는 파괴되었다. 그곳으로 순간이동할 필요도, 할 수도 없다.", "log")
+t("There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "당신을 보고 있는 자들이 있다. 위험을 감수할 순 없다.", "log")
 t("You are yanked out of this place!", "밖으로 튕겨져 나간다!", "logPlayer")
 t("Space restabilizes around you.", "당신 주변의 공간이 다시 안정화된다.", "logPlayer")
 t("Slowly transfered to a Forbidden Tome.", "금지된 고서로 느리게 이동됐다.", "_t")
@@ -3612,12 +3629,13 @@ t("opness", "개사기임", "effect subtype")
 t("Total Collapse", "완전한 붕괴", "_t")
 t("Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "이곳에서는 신체가 제대로 작동하지 않음 : 매 턴 %0.2f 공허 피해 받음 / 새로 받는 부정적인 효과의 지속시간이 %d%% 연장됨. 이 효과가 사라지기 전까지, 이 불이익은 점점 커짐.", "tformat")
 t("entropy", "엔트로피", "effect subtype")
-t("Kroshkkur is still under threat from %s.", "Kroshkkur는 여전히 %s의 위협 속에 있다.", "tformat")
+t("Save Kroshkkur", "크로슈쿠르를 구하라", "_t")
+t("Kroshkkur is still under threat from %s.", "크로슈쿠르는 여전히 %s의 위협 속에 있다.", "tformat")
 t("threat", "위협", "effect subtype")
-t("#CRIMSON#You waited too long, Kroshkkur has been destroyed by %s!", "#CRIMSON#당신은 시간을 너무 낭비했다. Kroshkkur 는 %s에 의해 파괴되었다!", "say")
+t("#CRIMSON#You waited too long, Kroshkkur has been destroyed by %s!", "#CRIMSON#시간을 너무 낭비했다. 크로슈쿠르는 %s에 의해 파괴되었다!", "say")
 t("Reduces all damage taken by %d%% and remove all detrimental effects on application.", "받는 피해 -%d%% / 효과를 적용 받을 때, 모든 부정적인 효과 제거.", "tformat")
 t("protection", "보호", "effect subtype")
-t("Covered in Gastric Fluids", "위엑에 덮힘", "_t")
+t("Covered in Gastric Fluids", "위액에 덮힘", "_t")
 t("Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "가하는 피해 -%d%% / 효과를 적용 받을 때, 모든 부정적인 효과 6 턴 연장됨.", "tformat")
 t("debilitate", "쇠약", "effect subtype")
 t("Blinded", "실명", "_t")

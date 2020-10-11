@@ -17135,7 +17135,7 @@ t("Examine and alter the timelines that make up the spacetime continuum.", "시�
 t("Timeline Threading", "시간선 재단", "_t")
 t("Directly manipulate the flow of time", "시간의 흐름을 직접적으로 조작합니다", "_t")
 t("timetravel", "시간여행", "_t")
-t("Manipulate chronomantic spells.", "시공 주문을 다룹니다.", "_t")
+t("Manipulate chronomantic spells.", "시공 주문 그 자체를 조작합니다.", "_t")
 t("Spellbinding", "주문 엮음", "_t")
 t("Allows you to glimpse the future, or become more aware of the present.", "미래를 엿보거나, 현재를 파악하는 능력을 갖춥니다.", "_t")
 t("Chronomancy", "시공 제어", "_t")
@@ -17297,7 +17297,7 @@ t([[Sends out a blast wave of gravity in a radius %d cone, dealing %0.2f base ph
 		Closer targets will be knocked back further and the damage will scale with your Spellpower.]], [[반경 %d 칸의 원뿔 범위에 중력 파동을 내보내, 범위 내의 대상에게 %0.2f 물리 (중력 속성) 피해를 입히고 뒤로 밀쳐냅니다.
 		벽이나 다른 대상에게 충돌한 적은 25%% 의 추가 피해를 받고, 밀려난 대상과 부딪힌 적도 25%%의 피해를 입습니다.
 		시전자와 가까운 대상은 더 멀리 밀려납니다. 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Gravity Spike", "중력의 가시", "talent name")
+t("Gravity Spike", "중력 가시", "talent name")
 t("%s resists the knockback!", "%s 꿈쩍도 하지 않았다!", "logSeen", nil, {"는"})
 t("%s is drawn in by the singularity!", "특이점이 %s 끌어당겼다!", "logSeen", nil, {"를"})
 t([[Creates a gravity spike in a radius of %d that moves all targets towards the spell's center and inflicts %0.2f physical (gravity) damage.
@@ -17360,7 +17360,7 @@ t("%s resists the confusion!", "%s 혼란에 저항했다!", "logSeen", nil, {"�
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/matter.lua"
 
-t("Dust to Dust", "먼지에서 먼지로", "talent name")
+t("Dust to Dust", "먼지는 먼지로", "talent name")
 t([[Fires a beam that turns matter into dust, inflicting %0.2f temporal damage and %0.2f physical (warp) damage.
 		Alternatively you may target yourself, creating a field of radius %d around you that will inflict the damage over three turns.
 		The damage will scale with your Spellpower.]], [[물질을 먼지로 돌려보내는 광선을 발사합니다. %0.2f 시간 피해와 %0.2f 물리 (왜곡) 피해를 입힙니다.
@@ -17382,7 +17382,7 @@ t([[While active your physical and temporal damage has a %d%% chance to remove o
 		Only one physical and one magical effect may be removed per turn from each target.
 		Additionally your Dust to Dust spell now digs up to %d tiles into walls.]], [[활성화된 동안, 시전자가 가하는 물리 피해와 시간피해는 대상의 이로운 물리적, 마법적 효과를 %d%% 확률로 제거합니다. (각각 1개씩 제거합니다)
 		1 턴 동안, 적 하나 당, 한 개의 물리적 효과와 한 개의 마법적 효과만 제거할 수 있습니다.
-		추가로, 먼지에서 먼지로 주문은 최대 %d 칸의 벽을 파괴할 수 있게됩니다.]], "tformat")
+		추가로, 먼지는 먼지로 주문은 최대 %d 칸의 벽을 파괴할 수 있게됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -17577,7 +17577,7 @@ t([[Reduces the casting speed of the selected chronomancy spell by %d%%.
 ------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/stasis.lua"
 
-t("Spacetime Stability", "시공간 안정성", "talent name")
+t("Spacetime Stability", "시공간 안정", "talent name")
 t([[You automatically adjust your Paradox %0.2f points towards your preferred Paradox each turn.
 		While using Spacetime Tuning twice this value will instead be added to the amount you would normally tune.]], [[턴 마다 설정한 괴리 수치를 향하여 괴리 수치가 매 턴 %0.2f 씩 변동합니다.
 		시공간 조율이 활성화 중일 때, 이 기술의 값의 2 배가 변동량에 추가됩니다.]], "tformat")
@@ -25552,7 +25552,7 @@ t([[Allows you to use melee weapons to focus your spells, granting a %d%% chance
 		While dual wielding or using a shield the chance is halved.
 		The chance increases with your Cunning.
 
-		Allowed spells: %s %s]], [[근접 무기를 사용하며 주문에 집중할 수 있게됩니다. 매 공격당, %d%% 확률로 턴 소모 없이 공격 주문을 사용해 대상에게 날립니다.
+		Allowed spells: %s %s]], [[근접 무기를 사용하며 주문에 집중할 수 있게 됩니다. 매 공격당, %d%% 확률로 턴 소모 없이 공격 주문을 사용해 대상에게 날립니다.
 		발동된 주문은 재사용 대기시간이 발생하지 않습니다.
 		당신은 발동될 주문을 선택할 수 있지만, 무작위한 주문이 나가도록 선택할 수도 있습니다.
 		쌍수 무기를 쓰거나, 방패를 사용할 시, 확률은 반으로 감소합니다.
@@ -37368,47 +37368,74 @@ t("Cancel", "취소", "_t")
 section "game/modules/tome/dialogs/talents/ChronomancyContingency.lua"
 
 t("Contingency", "불확실성 대비", "_t")
+t([[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
+]], [[선택한 주문은 생명력이 일정 비율 이하로 내려갔을 때 자동적으로 시전됩니다. 대상을 지정하지 않는 사용형 주문만 선택할 수 있습니다.
+]], "_t")
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
+t("All talents that can be used with Contingency.", "불확실성 대비로 지정할 수 있는 기술들입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyEmpower.lua"
 
-t("Empower", "시간의 힘 부여", "_t")
+t("Empower", "부여", "_t")
+t([[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
+]], [[선택한 주문을 '부여' 로 강화하면 해당 주문의 주문력을 상승시킬 수 있습니다.
+]], "_t")
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
+t("All talents that can be used with Empower.", "부여로 강화 가능한 기술들입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyExtension.lua"
 
-t("Extension", "시간의 힘 연장", "_t")
+t("Extension", "연장", "_t")
+t([[You may select a chronomancy spell to Extend, increasing the duration of that spell.
+]], [[선택한 주문을 '연장' 으로 강화하면 해당 주문의 지속시간을 상승시킬 수 있습니다.
+]], "_t")
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
+t("All talents that can be used with Extension.", "연장으로 강화 가능한 기술들입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyMatrix.lua"
 
-t("Matrix", "시간의 힘 정렬", "_t")
+t("Matrix", "정렬", "_t")
+t([[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
+]], [[선택한 주문을 '정렬' 로 강화하면 해당 주문의 재사용 대기시간이 감소합니다.
+]], "_t")
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
+t("All talents that can be used with Matrix.", "정렬로 강화 가능한 기술들입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyQuicken.lua"
 
-t("Quicken", "시간의 힘 가속", "_t")
+t("Quicken", "가속", "_t")
+t([[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
+]], [[선택한 주문을 '가속' 으로 강화하면 해당 주문의 시전 시간이 빨라집니다.
+]], "_t")
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
+t("All talents that can be used with Quicken.", "가속으로 강화 가능한 기술들입니다.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/MagicalCombatArcaneCombat.lua"
 
 t("Arcane Combat", "비전 전투", "_t")
+t([[You may select a spell for Arcane Combat to automatically trigger with melee attacks.  Otherwise, select 'Random spells' to have a spell selected automatically with each attack.
+]], [[선택한 주문은 근접 공격 시 자동적으로 시전됩니다. 또는, '무작위 주문' 을 선택하면 각 공격마다 무작위한 주문을 시전합니다.
+]], "_t")
 t("Talent", "기술", "_t")
+t("Random spells", "무작위 주문", "_t")
+t("Each time Arcane Combat is triggered, a random allowed spell will be used.", "비전 전투가 발동할 때마다, 무작위한 주문이 시전됩니다.", "_t")
+t("#{bold}#Choose a spell#{normal}#", "#{bold}#주문을 선택하세요#{normal}#", "_t")
+t("All known spells that can be used with Arcane Combat.", "비전 전투로 지정 가능한 주문들입니다.", "_t")
 
 
 ------------------------------------------------
