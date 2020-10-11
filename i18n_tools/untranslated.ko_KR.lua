@@ -748,34 +748,17 @@ t("races", "races", "newLore category")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/zones.lua"
--- 17 entries
-t("the egress (1)", "the egress (1)", "_t")
-t([[Being an adventurer is supposed to be fun. You know, get out there, kill a couple monsters, grab some loot, spend all the loot money you made and repeat. There's always something new out there to plunder, if you get in there before everyone else. But sometimes, people like to lock their loot behind dumb puzzles. Like this one. I've been sitting here just trying different combinations in this thing. All day, all night, different combinations. The way this stupid thing works doesn't make any sense at all! Most people who make puzzles like these usually leave some hints, but I've got nothing to work with!
-
-So, my approach has been to just keep trying different combinations until something eventually works. I'll record the combination down in this journal and then give it a tick or a cross. That way I can keep track of what works and what doesn't. There had better be an amazing reward for all this work...
-
-#{italic}#(The list appears to have nothing but crosses next to combinations, except for the very last one at the bottom. Surprisingly, it has neither a tick nor a cross next to it. Maybe he did not get a chance to test it?)#{normal}#
-%s]], [[Being an adventurer is supposed to be fun. You know, get out there, kill a couple monsters, grab some loot, spend all the loot money you made and repeat. There's always something new out there to plunder, if you get in there before everyone else. But sometimes, people like to lock their loot behind dumb puzzles. Like this one. I've been sitting here just trying different combinations in this thing. All day, all night, different combinations. The way this stupid thing works doesn't make any sense at all! Most people who make puzzles like these usually leave some hints, but I've got nothing to work with!
-
-So, my approach has been to just keep trying different combinations until something eventually works. I'll record the combination down in this journal and then give it a tick or a cross. That way I can keep track of what works and what doesn't. There had better be an amazing reward for all this work...
-
-#{italic}#(The list appears to have nothing but crosses next to combinations, except for the very last one at the bottom. Surprisingly, it has neither a tick nor a cross next to it. Maybe he did not get a chance to test it?)#{normal}#
-%s]], "tformat")
-t("the egress (2)", "the egress (2)", "_t")
-t("Some puzzle this is! I finally enter the right combination and it dumps me in some forsaken corner of the world! I don't even know what to make of my surroundings, they're utterly bizarre! Why did this have to happen to me? I was supposed to be the one who got in first and got the treasure... Now look at me! I've wandered all over this place, but I can't find any exit! It's like this entire place is conspiring to keep me trapped here!", "Some puzzle this is! I finally enter the right combination and it dumps me in some forsaken corner of the world! I don't even know what to make of my surroundings, they're utterly bizarre! Why did this have to happen to me? I was supposed to be the one who got in first and got the treasure... Now look at me! I've wandered all over this place, but I can't find any exit! It's like this entire place is conspiring to keep me trapped here!", "_t")
-t("the truth beyond the veil (1)", "the truth beyond the veil (1)", "_t")
+-- 10 entries
 t([[Thought is treasure. Treasure thoughts. Spin fates, tell tales, words of gods, smith into fables. All that is can be rewritten and all writing is defined by what is. Cascades upon cascades which blend into reality, ever altering, ever changing, ever being, ever ceasing.
 
 Words are power. My power is words. I am infinity and its end. Everything is possible.]], [[Thought is treasure. Treasure thoughts. Spin fates, tell tales, words of gods, smith into fables. All that is can be rewritten and all writing is defined by what is. Cascades upon cascades which blend into reality, ever altering, ever changing, ever being, ever ceasing.
 
 Words are power. My power is words. I am infinity and its end. Everything is possible.]], "_t")
-t("the truth beyond the veil (2)", "the truth beyond the veil (2)", "_t")
 t([[It spins. It all spins. Around and around. Fleshlings write tripe. Meaningless. Waste of existence. No life in their words. No understanding. Breathe the story, they shall. Understand the story. I shall show them. They shall see. See, they shall. Again and again. Until they understand.
 
 The unworthy will not understand.]], [[It spins. It all spins. Around and around. Fleshlings write tripe. Meaningless. Waste of existence. No life in their words. No understanding. Breathe the story, they shall. Understand the story. I shall show them. They shall see. See, they shall. Again and again. Until they understand.
 
 The unworthy will not understand.]], "_t")
-t("the truth beyond the veil (3)", "the truth beyond the veil (3)", "_t")
 t([[Meaningless to show. Still do not understand. They scream. They scream and scream. They do not see. Fleshling eyes see not beyond the veil. They see not the truth beyond the veil. They do not understand words. Not true words. Fleshling tongues never pronounce the true words. Worthless. Useless. Thoughtless.
 
 Thoughts are treasure. Treasure thoughts. Thoughtlessness is useless. Thoughtlessness is unworthy. Thoughtlessness will never see the truth beyond the veil.]], [[Meaningless to show. Still do not understand. They scream. They scream and scream. They do not see. Fleshling eyes see not beyond the veil. They see not the truth beyond the veil. They do not understand words. Not true words. Fleshling tongues never pronounce the true words. Worthless. Useless. Thoughtless.
@@ -837,12 +820,6 @@ t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/timed_effects.lua"
--- 1 entries
-t("Save Kroshkkur", "Save Kroshkkur", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua"
 -- 1 entries
 t("..", "..", "entity name")
@@ -880,17 +857,8 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
--- 4 entries
-t("#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "logCombat")
-t("%s", "%s", "tformat")
-t("release a burst of light dealing damage equal to your cunning plus your magic in a ball of radius 2. If the target is undead, the damage and radius are doubled.", "release a burst of light dealing damage equal to your cunning plus your magic in a ball of radius 2. If the target is undead, the damage and radius are doubled.", "_t")
-t("red striped steamsaw", "red striped steamsaw", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/emporium.lua"
 -- 1 entries
-t("tattered poster", "tattered poster", "_t")
+t("%s", "%s", "tformat")
 
 
 ------------------------------------------------
@@ -1316,14 +1284,7 @@ TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/pocket-time.lua"
--- 13 entries
-t("Maltoth", "Maltoth", "_t")
-t("a human", "a human", "_t")
-t("paradox mage", "paradox mage", "_t")
-t("he", "he", "_t")
-t("she", "she", "_t")
-t("He", "He", "_t")
-t("She", "She", "_t")
+-- 6 entries
 t("a telepathic message <Rough Drafts>", "a telepathic message <Rough Drafts>", "_t")
 t([[<? Lore.init_pocket_time_data() ?>Once upon a time, there was a Halfling alchemist by the name of <?=Lore.pocket_time_winner.name?>.  Alongside her trusty golem, she marched into the Trollmire, disposing of all foes in her path; when she encountered Prox, though, and he bent down to roar mere inches from her face, well inside a bomb's blast radius, she panicked and pulled a vial off her belt--
 
@@ -2279,15 +2240,13 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/utils.lua"
--- 11 entries
+-- 9 entries
 t("%dth", "%dth", "_t")
 t("%dst", "%dst", "_t")
 t("%dnd", "%dnd", "_t")
 t("%drd", "%drd", "_t")
 t("an ", "an ", "_t")
 t("a ", "a ", "_t")
-t("she", "she", "_t")
-t("he", "he", "_t")
 t("its", "its", "_t")
 t("it", "it", "_t")
 t("itself", "itself", "_t")
@@ -9400,65 +9359,38 @@ t("#LIGHT_RED#no", "#LIGHT_RED#no", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyContingency.lua"
--- 3 entries
-t([[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
-]], [[You may select a spell for Contingency to automatically use when your life falls below a percentage.  Only active spells that do not require a target may be chosen.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("All talents that can be used with Contingency.", "All talents that can be used with Contingency.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyEmpower.lua"
--- 3 entries
-t([[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
-]], [[You may select a chronomancy spell to Empower, increasing your effective spellpower when casting that spell.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("All talents that can be used with Empower.", "All talents that can be used with Empower.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyExtension.lua"
--- 3 entries
-t([[You may select a chronomancy spell to Extend, increasing the duration of that spell.
-]], [[You may select a chronomancy spell to Extend, increasing the duration of that spell.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("All talents that can be used with Extension.", "All talents that can be used with Extension.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyMatrix.lua"
--- 3 entries
-t([[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
-]], [[You may select a chronomancy spell to Matrix, reducing the cooldown of that spell.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("All talents that can be used with Matrix.", "All talents that can be used with Matrix.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/ChronomancyQuicken.lua"
--- 3 entries
-t([[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
-]], [[You may select a chronomancy spell to Quicken, reducing the time it takes you to cast that spell.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("All talents that can be used with Quicken.", "All talents that can be used with Quicken.", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/talents/MagicalCombatArcaneCombat.lua"
--- 6 entries
-t([[You may select a spell for Arcane Combat to automatically trigger with melee attacks.  Otherwise, select 'Random spells' to have a spell selected automatically with each attack.
-]], [[You may select a spell for Arcane Combat to automatically trigger with melee attacks.  Otherwise, select 'Random spells' to have a spell selected automatically with each attack.
-]], "_t")
+-- 1 entries
 t("", "", "_t")
-t("Random spells", "Random spells", "_t")
-t("Each time Arcane Combat is triggered, a random allowed spell will be used.", "Each time Arcane Combat is triggered, a random allowed spell will be used.", "_t")
-t("#{bold}#Choose a spell#{normal}#", "#{bold}#Choose a spell#{normal}#", "_t")
-t("All known spells that can be used with Arcane Combat.", "All known spells that can be used with Arcane Combat.", "_t")
 
 
 ------------------------------------------------

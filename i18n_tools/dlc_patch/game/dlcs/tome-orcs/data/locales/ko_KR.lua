@@ -1514,15 +1514,16 @@ t("overheating steel greaves", "과열된 강철 전투장화", "_t")
 t([[These boots seem to have been made by a... creative individual who seems to have decided that launching yourself through the air via rocketry qualifies as "anti-gravity".
 They look like they will work, though.
 Probably.
-If you're very careful.]], [[이 장화는 어... 자기 스스로를 공중으로 날려보내기로 결심한 창의적인 발명가가 만든 것으로 보입니다. 이런 말도안되는 로켓 공학을 "반중력" 이라고 이름 붙였나봅니다.
+If you're very careful.]], [[이 장화는, 어... 자기 스스로를 공중으로 날려보내기로 결심한 창의적인 발명가가 만든 것으로 보입니다. 이런 말도 안되는 로켓 공학을 "반중력" 이라고 불렀나 봅니다.
 어찌되건 작동은 하는 것 같습니다.
 아마도요.
 매우 조심한다면 말입니다.]], "_t")
-t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "이 장화는 %d%% 확률로 작동을 실패합니다 (교활에 반비례).", "tformat")
+t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "이 장화는 %d%% 확률로 작동에 실패합니다 (교활에 반비례).", "tformat")
 t("jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "반경 %d 칸의 범위 내의 원하는 지점으로 도약합니다. 도약 전의 위치에는 반경 2 칸의 폭발을 일으키고, (%d 불타는 화염 피해, 2 칸 밀쳐냄) 도약 후의 위치에는 반경 3 칸의 폭발을 일으킵니다 (%d 불타는 화염 피해, 3 칸 밀쳐냄) (피해량은 교활에 비례)", "tformat")
 t("#LIGHT_RED#You see no place to land near there.", "#LIGHT_RED#그 근처에는 착륙할 곳이 없다.", "logPlayer")
-t("engulfs %s spectacularly", "%s 덮치는", "tformat", nil, {"를"})
-t("launches %s in the air", "%s 하늘로 띄우는", "tformat", nil, {"를"})
+t("#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "#Source2# %s %s에 불을 붙여, #LIGHT_RED#화염 폭발#LAST#을 일으켜 %s!", "logCombat")
+t("engulfs %s spectacularly", "%s 덮쳤다", "tformat", nil, {"를"})
+t("launches %s in the air", "%s 하늘로 띄웠다", "tformat", nil, {"를"})
 t("#Source# lands in a #LIGHT_RED#firey explosion#LAST#!", "#Source1# #LIGHT_RED#화염 폭발#LAST#을 일으키며 착지했다!", "logCombat")
 t("Assassin's Surprise", "암살자의 깜짝 선물", "entity name")
 t("glistening steel gauntlets", "섬광의 강철 전투장갑", "_t")
@@ -1580,9 +1581,10 @@ t("Thundercrack", "천둥 굉음", "entity name")
 t("pouch of copper shots", "구리 탄환 주머니", "_t")
 t("Through a combination of magic and airborne probes, these shots incite powerful bolts of lightning to strike your target from above, frying them and those around them!", "마법과 대기 관측 장비를 통해 , 머리 위에서 내려친 번개로 적을 튀겨버리고, 주변의 적들까지 구워버립니다!", "_t")
 t("a bolt of lightning strikes your target, dealing lightning damage to them and fire damage to those around them.", "대상에게 전기 화살을 날려 변개 피해를 주고, 대상 주변에 화염 피해를 줍니다.", "_t")
-t("Vindicator", "옹호자", "entity name")
+t("Vindicator", "수호자", "entity name")
 t("engraved gun", "각인된 총", "_t")
-t("\"Pesky undead plaguing your village? Necromancers ransacking your burial grounds? The Vindicator is the solution to all your woes!\"", "\"귀찮은 언데드놈들이 여러분의 마을에 전염병을 풀어놓고있다고요? 또, 강령술사들이 무덤을 파해치고있다고요? 그렇다면 옹호자가 훌륭한 고민 해결사가 되겠군요!\"", "_t")
+t("\"Pesky undead plaguing your village? Necromancers ransacking your burial grounds? The Vindicator is the solution to all your woes!\"", "\"귀찮은 언데드놈들이 여러분의 마을에 전염병을 풀어놓고 있다고요? 또, 강령술사들이 무덤을 파헤치고 있다고요? 그렇다면 수호자가 훌륭한 고민 해결사가 되겠군요!\"", "_t")
+t("release a burst of light dealing damage equal to your cunning plus your magic in a ball of radius 2. If the target is undead, the damage and radius are doubled.", "눈부신 빛으로 사용자의 교활 능력치와 마법 능력치를 합한 만큼의 피해를 대상 주위 2칸 범위 내에 가합니다. 대상이 언데드라면, 피해량과 범위가 2배가 됩니다.", "_t")
 t("Overburst", "과폭파", "entity name")
 t("\"Have you ever fired a shot into a group of monsters and thought 'there must be a better way?' Well now, there is!\"", "\"괴물들에게 총을 쏘고, '더 괜찮은 방법이 있을텐데?' 라고 생각하신 적이 있나요? 흠, 바로 여기있군요!\"", "_t")
 t("Release a burst of shrapnel, dealing physical damage equal to your steampower in a cone from the target of radius 4.", "파편 폭발을 일으켜, 반경 4 칸의 원뿔 범위에 착용자의 증기력과 같은 수치의 물리 피해를 가합니다.", "_t")
@@ -1721,6 +1723,7 @@ t("Overcutter", "과잉절단기", "entity name")
 t("enormous steamsaw", "거대한 증기톱", "_t")
 t("Earlier steamsaws were notably not meant to be used with one hand.", "초기형 증기톱들은 한 손으로 들고 사용할 물건들이 아니였습니다.", "_t")
 t("Turbocutter", "고속절단기", "entity name")
+t("red striped steamsaw", "붉은 줄무늬 증기톱", "_t")
 t("\"Have you ever thought your steamsaws were just too slow? Well, have I got the thing for you...\"", "\"증기톱이 너무 느리다고 생각한적 있으십니까? 저희에게 좋은 물건이 있는데요...\"", "_t")
 t("Increases the speed bonus from Saw Wheels by 25%.", "톱날 바퀴의 이동력 상승치가 25% 증가합니다.", "_t")
 t("Whipsnap", "애송이", "entity name")
@@ -2035,6 +2038,7 @@ WARNING: This product has been determined by the Council of Health Authority to 
 #{italic}#[알림 사항이 포스터 아랫부분 여백에 빼곡하게 적혀 있지만, 너무 깨알같이 적혀 있어서 거인들은 절대로 읽지 못할 거라는 생각이 들었습니다.]#{normal}#
  
 경고: 보건 당국 평의회에서는 이 상품이 다음과 같은 현상들과 관계가 있다는 결론을 내렸습니다 - 강렬한 현기증, 모발의 가연성 증가, 비기화성 발한, 밤 공포증, 간 이상, 두통, 탄폐증, 사고 정지, 낮 공포증, 체세포 이상 분열, 토막난 시체가 보이는 환각, 팔꿈치 염증, 뼈 이탈증, 소화기질환, 신장질환, 목록 공포증, 전체속도 감소, 의도하지 않은 순간이동, 혀 탄화증, 콧구멍 결합증, 고대의 역겨운 저주, 증기압 감소, 지방 연소(문자 그대로), 눈 주위 털 증가, 오크체취증, 마법 방해, 중력 저하, 혈류 정지, 부정행위, 창자 코팅, 허무주의, 저녁 공포증, 무릎 골병, 그리고 환풍구 막힘.]], "_t")
+t("tattered poster", "너덜너덜한 포스터", "_t")
 t([[CLOSING SALE
 for
 KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
@@ -2558,7 +2562,14 @@ section "game/dlcs/tome-orcs/data/lore/palace-fumes.lua"
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/pocket-time.lua"
 
+t("Maltoth", "말토스", "_t")
+t("a human", "인간", "_t")
+t("paradox mage", "괴리술사", "_t")
 t("him", "그", "_t")
+t("he", "그", "_t")
+t("she", "그녀", "_t")
+t("He", "그", "_t")
+t("She", "그녀", "_t")
 t("her", "그녀", "_t")
 t("his", "그", "_t")
 t("pocket of distorted time", "왜곡된 시간의 틈새", "newLore category")
