@@ -1262,7 +1262,7 @@ Represents the raw materials for creating undead minions.
 It increases each time you or your minions kill something that is inside the aura radius.
 ]], [[#GOLD#원혼#LAST#
 원혼은 언데드 하수인을 생성하는데 필요한 재료를 나타냅니다.
-사령술의 기운 내에서 적이 죽을때마다 증가합니다.
+강령술의 기운 내에서 적이 죽을때마다 증가합니다.
 ]], "_t")
 t([[#GOLD#Fortress Energy#LAST#
 The energy of the Sher'Tul Fortress. It is replenished by transmogrifying items and used to power all the Fortress systems.
@@ -10811,13 +10811,13 @@ t("A poem written by a... Necromancer?", "강령술사가... 쓴... 시?", "_t")
 t("rogues do it from behind", "도적들은 뒤에서 해결한다", "entity name")
 t("A poem written for a rogue?", "도적들을 위한 시?", "_t")
 t("how to become a necromancer, part %d", "강령술사가 되는 법 %d 장", "tformat")
-t("How to become a powerful Necromancer!", "어떻게 강력한 강령술사가 되는지 배웁니다!", "_t")
+t("How to become a powerful Necromancer!", "강력한 강령술사가 되는 법에 대해 배울 수 있습니다!", "_t")
 t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"먼지에서 먼지로\", 아슬라보르 보리스의 언데드 사냥 안내서", "entity name")
-t("An undead hunter's guide, by Aslabor Borys.", "아슬라보르 보리스의 언데드 사냥 안내서.", "_t")
+t("An undead hunter's guide, by Aslabor Borys.", "아슬라보르 보리스의 언데드 사냥 안내서입니다.", "_t")
 t("Rolf", "롤프", "_t")
 t("Weisman", "와이즈만", "_t")
 t("letter to %s (%d)", "%s에게 보내는 편지 (%d)", "tformat")
-t("A part of the correspondence between two adventurers.", "두 모험가 사이에 주고 받은 편지의 일부.", "_t")
+t("A part of the correspondence between two adventurers.", "두 모험가 사이에 주고 받은 편지의 일부입니다.", "_t")
 t("of halfling feet", "하플링의 발에 대해", "entity name")
 t("Notes about... Halfling feet??", "하플링의 발에 대한... 쪽지??", "_t")
 
@@ -13866,7 +13866,7 @@ The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smok
 
 내 정신은 멍해있었다. 일련의 사건들이 나를 압도했다.  “누가 우리를 이끌지?” 내가 말했다.
 
-“없습니다.  생존해 있다고 알려진 왕족들 중 이 일에 적합한 이는 아무도 없습니다.  우리는 현재 전시 상태에 돌입하고 있고, 우리들 중 그 누구도 경험해 본 적 없는 끔찍한 시간이 우리에게 다가올겁니다.  우리에겐 군의 지도력이 필요합니다.  아라니온 사령관, 당신이 우리의 지도자가 되어야합니다.”
+“없습니다.  생존해 있다고 알려진 왕족들 중 이 일에 적합한 이는 아무도 없습니다.  우리는 현재 전시 상태에 돌입하고 있고, 우리들 중 그 누구도 경험해 본 적 없는 끔찍한 시간이 우리에게 다가올겁니다.  우리에겐 군의 지도력이 필요합니다.  아라니온 사령관, 당신이 우리의 지도자가 되어야 합니다.”
 
 나는 그때, 페리사의 시선을 느끼며 그녀 말에 담긴 지혜를 보았다.  샬로레로써의 나의 임무는 명확했지만, 리나니일을 보려 몸을 돌리자 나의 심장은 마구 뛰었다.
 
@@ -14231,7 +14231,7 @@ Me likes to club!#{normal}#]], [[#{bold}#"나 몽둥이 조아"
 음식을 찾자!
 배고픔 때리면,
 나 몽둥이 좋다!!#{normal}#]], "_t")
-t("necromancer poem", "사령술사의 시", "_t")
+t("necromancer poem", "강령술사의 시", "_t")
 t([[#{bold}#"The Necromancer's Canticle"
 
 #{italic}#Saved from coffin, casket, urn
@@ -14258,7 +14258,7 @@ Fools! Sit high in golden tower
 From your lofty perch you glower
 Time will come when you will cower
 We rule death, we wield the power
-#{normal}#]], [[#{bold}#"사령술사의 찬송가"
+#{normal}#]], [[#{bold}#"강령술사의 찬송가"
 
 #{italic}#관짝에서, 관속에서, 단지속에서 구해져
 어둠은 내려왔지만 , 삶은 되돌아왔다!
@@ -14285,7 +14285,7 @@ We rule death, we wield the power
 때가 오리라 너희가 겁먹을 때
 우린 죽음을 지배하고, 힘을 가지고 있나니
 #{normal}#]], "_t")
-t("how to be a necromancer, part 1", "사령술사가 되는 법 : 제 1 장", "_t")
+t("how to be a necromancer, part 1", "강령술사가 되는 법: 제1장", "_t")
 t([[#{bold}#THE GLORIOUS ART#{normal}#
 
 Have you cast away the feeble pretensions of your society? Does your soul thirst for the taste of real power? Do you wish to have the strength to deny that most prevalent force, death itself? The glorious art of necromancy shall fulfil your wishes in ways you couldn't possibly imagine.
@@ -14298,26 +14298,26 @@ Also important is the upkeep of the bodies themselves. True, this is not strictl
 
 Still not sure what to do? Then suffer and perish. Necromancy does not abide the inept.]], [[#{bold}#영광스러운 기예#{normal}#
 
-네가 속한 사회의 보잘 것 없는 가식을 버렸는가? 진정한 힘에 영혼이 목마른가? 가장 널리 퍼져있는 힘인 죽음 그 자체를 부정할 수 있는 힘을 원하는가? 위대한 사령술의 기예는 네가 상상조차 할 수 없는 방식으로 너의 소원을 실현할 것이다.
+네가 속한 사회의 보잘 것 없는 가식을 버렸는가? 진정한 힘에 영혼이 목마른가? 가장 널리 퍼져있는 힘인 죽음 그 자체를 부정할 수 있는 힘을 원하는가? 위대한 강령술의 기예는 네가 상상조차 할 수 없는 방식으로 너의 소원을 실현할 것이다.
 
 #{italic}#1. 너의 첫 번째 걸음#{normal}#
 
-명심하라, 사령술이라고 전부 검은 로브를 입은채, 강력한 불사자 군단의 발걸음으로 한 국가를 파괴하는 것도, 강력한 불사의 주문을 자아내는 것도 아니다. 너는 우선 육체 노동부터 해야할 것이다. 네가 맨처음 시체 몇 구는 너 스스로 훔처내야 할 것이다. 소수의 사람들만이 기꺼히 사령술사를 도울테지만, 그런 이들은 드물게 만족스런 결과를 낸다. 작은 도시나 마을의 공동묘지는 첫번째 습득물을 위한 좋은 장소이지만, 필요하다면 날카로운 칼이나 무거운 둔기를 이용하여 표본 몇 구를 "만드는 것" 을 두려워하지 말라. 첫 번째 하수인들이 노동을 시작한다면 더 이상 자원을 찾기위해 스스로 애쓸 필요가 없어진다. 이후엔 너의 기예를 연습할 시간이 말 그대로 넘치게 된다.
+명심하라, 강령술이라고 전부 검은 로브를 입은채, 강력한 불사자 군단의 발걸음으로 한 국가를 파괴하는 것도, 강력한 불사의 주문을 자아내는 것도 아니다. 너는 우선 육체 노동부터 해야할 것이다. 네가 맨처음 시체 몇 구는 너 스스로 훔처내야 할 것이다. 소수의 사람들만이 기꺼히 강령술사를 도울테지만, 그런 이들은 드물게 만족스런 결과를 낸다. 작은 도시나 마을의 공동묘지는 첫번째 습득물을 위한 좋은 장소이지만, 필요하다면 날카로운 칼이나 무거운 둔기를 이용하여 표본 몇 구를 "만드는 것" 을 두려워하지 말라. 첫 번째 하수인들이 노동을 시작한다면 더 이상 자원을 찾기위해 스스로 애쓸 필요가 없어진다. 이후엔 너의 기예를 연습할 시간이 말 그대로 넘치게 된다.
 
 또한 중요한 것은 시신 자체의 유지 관리이다. 사실, 완전히 파괴되고 불완전한 잔해로도 충분한 마법만 있다면 움직일 능력을 부여할 수 있기 때문에 꼭 필요한 것은 아니지만, 너의 예비 하수인들의 관절과 단지가 자유롭게 움직이고 그들을 되살리는데 필요한 의지력을 줄이도록 하기 위한 것이다. 또한 더 크고 대담한 프로젝트를 수행하고자 할 경우에 대비하여 견고하고 신뢰할 수 있는 기반을 마련해야한다.  (46 쪽. 해골 거인과 당신 참조)
 
 아직 무엇을 할 지 모르는가? 그렇다면 고통 속에서 죽어라. 강령술은 그런 무능한자에게는 어울리지 않는다.]], "_t")
-t("how to be a necromancer, part 2", "사령술사가 되는 법 : 제 2 장", "_t")
+t("how to be a necromancer, part 2", "강령술사가 되는 법: 제2장", "_t")
 t([[#{italic}#2. Domination Of The Deceased#{normal}#
 
 A contentious issue arises when it comes time to breathe life into your gathered specimens - do you raise them as lifeless drones, or do you bind the souls of the deceased within their vessels once more? There is much disagreement on this between the various movements of necromancers. The Beinagrind method of necromancy extols the torturous imprisonment of the soul as fundamental; the anguish generated by the captive spirit makes for a much more effective undead thrall, they claim. The recently founded Tren? method however disagrees, claiming that allowing souls freedom not only results in more obedient slaves less prone to rising up and slaughtering their masters, but also causes your work to become marginally more acceptable to the unwashed masses. Sure, they'll still thrash you, drag you through town and burn you at the stake if they get the chance, but they'll feel ambivalent about it, by thunder!
 
 Remember, when utilising a runic circle to bend your new minions to your will, make sure beforehand that every rune in the circle is enchanted properly and in no danger of fizzling out. If the unthinkable happens and one of your thralls is freed from your control, offer them goods or equipment in exchange for your life. Few undead will kill their creators after receiving such an act of generosity.]], [[#{italic}#2. 사자의 지배#{normal}#
 
-수집한 표본에 생명을 불어넣을 때, 의견이 갈리는 문제가 발생한다 - 단순히 몸뚱이만을 일으켜 세울 것인가? 아니면 사자의 영혼을 그들의 몸에 다시 한번 속박할 것인가? 많은 사령술사 계파들 조차 논쟁하는 문제다. 베나그라인드 사령술 계파는 영혼의 고통스러운 속박을 기본적으로 추구한다. 속박된 영혼이 만들어내는 괴로움은 언데드 노예들을 더 효과적으로 만든다고 그들은 주장한다. 최근에 세워진 트렌 계파는 어떤가? 그들은 영혼의 자유를 보장하는 것이 더 순종적인 하수인을 만들고, 주인이 살해당하는 일을 줄여줄 뿐만 아니라 우매한 민중들이 당신의 하수인을 더 잘 받아드리도록 한다고 주장한다. 물론, 그들은 여전히 당신을 두들겨 패고, 마을로 끌고가 화형을 시작할 기회만 보고있을 것이다. 하지만 그들은 그런 짓을 하는것에 크게 후회하게 되리라!
+수집한 표본에 생명을 불어넣을 때, 의견이 갈리는 문제가 발생한다 - 단순히 몸뚱이만을 일으켜 세울 것인가? 아니면 사자의 영혼을 그들의 몸에 다시 한번 속박할 것인가? 많은 강령술사 계파들 조차 논쟁하는 문제다. 베나그라인드 강령술 계파는 영혼의 고통스러운 속박을 기본적으로 추구한다. 속박된 영혼이 만들어내는 괴로움은 언데드 노예들을 더 효과적으로 만든다고 그들은 주장한다. 최근에 세워진 트렌 계파는 어떤가? 그들은 영혼의 자유를 보장하는 것이 더 순종적인 하수인을 만들고, 주인이 살해당하는 일을 줄여줄 뿐만 아니라 우매한 민중들이 당신의 하수인을 더 잘 받아드리도록 한다고 주장한다. 물론, 그들은 여전히 당신을 두들겨 패고, 마을로 끌고가 화형을 시작할 기회만 보고있을 것이다. 하지만 그들은 그런 짓을 하는것에 크게 후회하게 되리라!
 
 기억하라, 룬 마법진을 사용해, 하수인들은 너의 의지에 속박할 때, 마법진 안의 모든 룬에 제대로 마법이 걸려있는지, 또 흐려질 위험은 없는지 확인해야한다. 생각치도 못한 일이 일어나, 노예 하나가 너의 통제에서 벗어나면 네 생명의 댓가로 좋은 장비나 물품을 지급하라. 이런 관용을 받은 불사자 중 매우 소수만이 주인을 끝내 살해한다.]], "_t")
-t("how to be a necromancer, part 3", "사령술사가 되는 법 :제 3 장", "_t")
+t("how to be a necromancer, part 3", "강령술사가 되는 법: 제3장", "_t")
 t([[#{italic}#3. Unwanted Attention#{normal}#
 
 Sadly, it is not only the peasantry and our "virtuous" archmage cousins that disapprove of our work. Though not entirely understood, necromancy is known to create "ripples" of a sort across the many dimensions, ripples that attract extra-planar attention. As a necromancer's power grows, so do said ripples, until eventually said necromancer finds all manner of demonic force and entity beating down their door, both mentally and physically.
@@ -14326,14 +14326,159 @@ Once again, opinions differ on this demonic interference. Necromancy is such a b
 
 You may have noticed that no instruction has been given on how to deal with the attention of common folk. That is because a true necromancer requires none. They are vermin, fit only to be crushed.]], [[#{italic}#3. 원치않는 관심#{normal}#
 
-슬프게도, 우리의 일을 못마땅하게 여기는 것은 농민들과 우리의 "고결한" 마도사 사촌들만이 아니다. 비록 완전히 이해되지는 않았지만 사령술은 다른 차원에 걸쳐 일종의 "파문"을 만들어 내는 것으로 알려졌으며, 이는 다른 차원에 사는 존재의 관심을 끈다. 사령술사의 힘이 커지면, 파문의 크기도 마찬가지다. 결국, 사령술사가 정신적, 육체적으로 그들의 문을 두드리는 모든 종류의 악마적인 힘과 실체를 발견하기 전까지는 말이다.
+슬프게도, 우리의 일을 못마땅하게 여기는 것은 농민들과 우리의 "고결한" 마도사 사촌들만이 아니다. 비록 완전히 이해되지는 않았지만 강령술은 다른 차원에 걸쳐 일종의 "파문"을 만들어 내는 것으로 알려졌으며, 이는 다른 차원에 사는 존재의 관심을 끈다. 강령술사의 힘이 커지면, 파문의 크기도 마찬가지다. 결국, 강령술사가 정신적, 육체적으로 그들의 문을 두드리는 모든 종류의 악마적인 힘과 실체를 발견하기 전까지는 말이다.
 
-다시 한 번 이 악마적 간섭에 대한 의견이 엇갈린다. 사령술은 정말 아름답고, 의견이 갈리는 예술이다, 그렇지 않나? 트렌의 방식은 외부 세력에 의한 사령술사의 타락를 부정적인 것으로 보고 있으며, 그 방법의 실천자들은 종종 자신으로부터 초자연적인 관심을 딴 데로 돌리기 위한 조치를 취하여 영적인 '전도체'로 사용하기 위한 부적을 만들거나 그들을 경멸하는 공동체와 가까운 곳에서 생활하는데, 대중의 생명 정수가 사령술의 어두운 기운을 가리는 것이다. 한편, 베나그라인드의 방식은 악마적 세계에서 오는 저주받은 속삭임을 환영하며, 그것이 사령술사의 정신적 완성이라고 믿고 있다. 그들은 영혼이 "타락한" 후에야 진정한 야망을 실현할 수 있다고 주장한다. 왜 이러한 '진정한 야망'이 항상 이 세상의 모든 생명을 완전하고 완벽하게 파괴하는 것처럼 보이는지, 그리고 어째서 외부 차원에서 생각할 수 없을 만큼의 잔혹 행위를 불러들이는 것인지는 설명되지 않았다.
-너는 이쯤에서 대중의 관심에 어떻게 대처해야 하는지에 대한 지침이 주어지지 않았다는 사실을 눈치챘을 것이다. 진정한 사령술사는 어떤 대처도 필요하지 않기 때문이다. 그것들은 해충이고, 으깨버리면 그만이다.]], "_t")
-t("how to be a necromancer, part 4", "사령술사가 되는 법 , part 4", "_t")
+다시 한 번 이 악마적 간섭에 대한 의견이 엇갈린다. 강령술은 정말 아름답고, 의견이 갈리는 예술이다, 그렇지 않나? 트렌의 방식은 외부 세력에 의한 강령술사의 타락를 부정적인 것으로 보고 있으며, 그 방법의 실천자들은 종종 자신으로부터 초자연적인 관심을 딴 데로 돌리기 위한 조치를 취하여 영적인 '전도체'로 사용하기 위한 부적을 만들거나 그들을 경멸하는 공동체와 가까운 곳에서 생활하는데, 대중의 생명 정수가 강령술의 어두운 기운을 가리는 것이다. 한편, 베나그라인드의 방식은 악마적 세계에서 오는 저주받은 속삭임을 환영하며, 그것이 강령술사의 정신적 완성이라고 믿고 있다. 그들은 영혼이 "타락한" 후에야 진정한 야망을 실현할 수 있다고 주장한다. 왜 이러한 '진정한 야망'이 항상 이 세상의 모든 생명을 완전하고 완벽하게 파괴하는 것처럼 보이는지, 그리고 어째서 외부 차원에서 생각할 수 없을 만큼의 잔혹 행위를 불러들이는 것인지는 설명되지 않았다.
+너는 이쯤에서 대중의 관심에 어떻게 대처해야 하는지에 대한 지침이 주어지지 않았다는 사실을 눈치챘을 것이다. 진정한 강령술사는 어떤 대처도 필요하지 않기 때문이다. 그것들은 해충이고, 으깨버리면 그만이다.]], "_t")
+t("how to be a necromancer, part 4", "강령술사가 되는 법: 제4장", "_t")
 t("of halfling feet", "하플링의 발에 대해", "_t")
 t("misc", "도구", "newLore category")
 t("Dust to Dust", "먼지에서 먼지로", "_t")
+t([[#{italic}#An undead hunter's guide, by Aslabor Borys#{normal}#
+
+So, apparently I'm a legend now. Hah, knock a vampire's head off with a greatmaul and suddenly you're up there with Toknor and Mirvenia apparently. More and more often these days I get novice adventurers coming up to me, asking me for advice when it comes to battling the undead. My first instinct was to tell them to get back home and become bakers or gardeners or something. If they need crib notes for combat they obviously aren't cut out for it.
+
+But then I was thinking, these are good kids. Heck, I'd buy every man and woman in the world who's bumped off a ghoul a free drink if I could. If they want help when it comes to putting down necromancer slime and their chilling creations, I would be more than happy to oblige. Not much of a writer, but let's see. First...
+
+#{bold}#1. Ghouls#{normal}#
+
+Every once in a while, people come to me and say "Are all necromancers truly evil?" "Surely necromancy could be used for good!" "Isn't it wrong to discriminate against others simply because of the magicks they practice?" To these people, the first thing I usually say - shortly after giving them a black eye - is to take a look at a ghoul. Take a good, long look. Take in the diseased, putrescent flesh. Take in the oozing, exposed organs. Take in its features, slowly rotting to mulch. It used to be a person. It used to have a family, people who loved it. Now it's a walking corpse, its only desire being death and the mad, all-encompassing consumption of living flesh. Are all necromancers truly evil? A thousand times, yes.
+
+Even this most basic of undead minions can strike terror into the unprepared. The multitude of diseases that a normal ghoul carries are contagious in a manner many adventurers do not truly appreciate until they see the sores and necrosis visibly spreading up their arm from where a ghoul bit them. Such maladies must be dealt with promptly: if bitten by a ghoul, immediately plunge the afflicted area in scalding hot water, then wrap it quickly in clean cloth lined with mugwort and quartz powder. The wound must remain dressed for three weeks, with new dressings applied every four days, and make sure to burn the old ones! Failing the above, a wild infusion also works splendidly.
+
+    * * *
+
+
+#{bold}#2. Skeletons#{normal}#
+
+What guide to the undead would be complete without mentioning the humble skeleton? Despite these clattering and chittering bones of the deceased often looking so fragile that a stiff breeze could break them apart, in many ways they are more dangerous than their ghoul cousins.
+
+With no masses of rotted and ruined flesh to reanimate, necromancers can commit themselves fully to bestowing some level of fighting skill on a reanimated skeleton, and since a fighter's weapons will often last as long as his bones will, skeletons are usually armed and sometimes even armoured. The potential skill of a skeleton doesn't stop at melee weapons either - fallen archers take up their bows once again, and although difficult by comparison, some necromancers can even grant dead mages their magic powers once again.
+
+Some adventurers find themselves baffled when it comes to fighting skeletons. How do you destroy a foe who, by all rights, should be destroyed already? To these adventurers, I say take heart. The more broken and incomplete a body is, the more effort it takes to keep it reanimated. As most necromancers see skeletons as the lowest of low peons, you can expect a few good blows to easily dissipate the minimal effort their masters put into creating them.
+
+    * * *
+
+
+#{bold}#3. Wights#{normal}#
+
+Wights are an odd duck amongst the undead, often not created by necromancers specifically, but instead rising of their own volition when the conditions are right. Wights are by no means individual souls, but often part of a gestalt; when a particular land has seen enough bloodshed - battlefields, forest, crypts and graveyards - wights can be seen to rise en masse, a near-physical representation of the battles and turmoil the land has faced. Sadly, it is for this reason that necromancers often facilitate the creation of wights regardless, for no other study or profession causes so much blood or death.
+
+Those who have had encounters with wights often describe them as indistinct skeletal figures, wrapped in flowing cloaks that become faded and incorporeal at their edges, while strange lights dance where their eyes should remain. Survivors tell of a peculiar sense of exhaustion when in close proximity to them, as though merely being close to these figments of death causes one's life force to sputter and fade. Regardless of this and their ghostly appearance however, it has been recorded that steel and strength of arms is yet enough to destroy them, or at least to erase them for the time being. It's just a shame that such battles are likely to simply create more of them in the long run...
+
+    * * *
+
+
+#{bold}#4. Vampires#{normal}#
+
+Vampires are so far removed from other varieties of undead it seems almost unreal. What grants them their longevity? How do they retain such great intelligence? Beyond their sallow complexion and drawn features, why do they not decay and decompose as their ghoulish siblings do? The study of vampiric nature is one long list of unanswered questions, each new study adding yet more to the ever-growing pile.
+
+As said before, a vampire's greatest strength is its resemblance to a living man, both in mind and body. Thanks to this, vampires are known for residing comparatively close to normal towns and villages far more than other undead. Some have even been known to keep their lairs within these communities themselves! Despite their resemblance however, there are many telltale signs of vampirism: Unnaturally pale skin, long and distinctive fangs, an aversion to sunlight, and much more besides. In an effort to avoid close inspection, some vampires are known to masquerade as men of wealth, often cloistering themselves in remote locations to discourage prying eyes.
+
+But perhaps the most astonishing thing regarding vampires is their propensity for alliance and familial relationships. No other undead being even approaches matching the incomprehensible tangle of clans, broods, families and bloodkin that vampires create for themselves. It is for this reason that vampires often end up becoming rulers of lesser undead themselves, commanding them as a normal necromancer would. So, in turn, treat them as you would a necromancer - with cold steel.
+
+    * * *
+
+
+#{bold}#5. Spirits#{normal}#
+
+During my travels, I have noticed that some communities in the wild no longer bury their deceased as is the norm in larger settlements. Some folk burn the corpses of their fallen, committing their ashes to the earth instead. When asked why they perform this peculiar practice, I always receive the same answer: Necromancers. Fearful of their dead rising up to slay them at the whims of delusional, murderous filth, they believe that with the burning of the dead, their spirits are forever beyond the reach of a necromancer's bony fingers.
+
+Alas, this is not true. While fire may burn away a man's physical being, no flame can touch his spirit. Unfortunately, necromancers can. Bereft of both body and freedom, many souls are driven mad in the employ of necromancers, ceaselessly drifting through windswept crypts, harrying any unfortunate wanderers they encounter with a multitude of curses and hexes. Worst of all are those spirits who embrace their newfound purpose, causing them to grow in power at a frightening rate. No other being in Maj'Eyal is so obviously abhorrent to existence itself as these "dreads"; it is almost as though creation itself wants these beings gone from her world. It is my hope that you, and many others, oblige her wish.
+
+    * * *
+
+
+#{bold}#6. Bone Giants#{normal}#
+
+One of the most horrific, vomit-inducing expressions of the necromancer's so-called "art" is the bone giant. Not content with merely profaning the bodies of singular souls, some ambitious necromancers work to bind the bodies of countless skeletons together, creating hideous engines of destruction that can stand many times higher than the height of a normal man.
+
+It is a deadly mistake to liken these abominations to the golems alchemists and archmages employ. Wilful and fey as they are, normal mages often only craft golems for utility and their own protection, while necromancers create bone giants for the sole purpose of dealing death, and the only limit to their destructive capability is the necromancer's twisted imagination. Ever fought a snow giant? Imagine one with six arms and fingers like blades, wrought of sharpened ribs. Imagine one with countless skulls lining every inch of its wretched body, all screaming for your blood to be spilt as it thrashes spinal columns like whips from its disfigured hands! After facing one of these grotesque amalgamations, you'll be begging to go back to the Daikara to pick on simple, frost-rimed sub-men.
+
+    * * *
+
+
+#{bold}#7. Liches#{normal}#
+
+Hate made flesh. Evil made pure. Death incarnate. The culmination of a necromancer's work. Whatever you know liches as, I can tell you that they do not match the countless myths and legends that surround their terrible figures. They surpass them.
+
+Once a powerful necromancer finally crosses the border between life and death, the abyssal power that they could only initially grasp in dribs and drabs becomes theirs to control totally. It is often said that unexpected quakes, crops failing, and the leaves simultaneously falling from the trees heralds the birth of a lich. Lords of the undead, liches can annihilate ghouls and skeletons, banish dreads with a glance, and reduce bone giants to powder within moments.
+
+As to how to actually destroy one? Well, tell you what. If you manage to defeat one of these abominations, be a dear and write a guide for me, for I have absolutely, positively, no idea.
+
+    * * *]], [[#{italic}#아슬라보르 보리스의 언데드 사냥 안내서#{normal}#
+
+확실히 난 이제 전설적인 반열에 들어섰나보다. 하, 대형 망치로로 흡혈귀의 머리를 날려버리고 갑자기 토크놀과 미르베니아와 함께 저 위에 올라선 모양이군. 요즘 들어 언데드와 싸우는법에대한 조언을 구하는 초보 모험가들이 점점 더 많이 내게 찾아온다. 내 첫 번째 가르침은 집으로 돌아가 제빵사나 정원사가 되라고 말하는 것이었다. 만약 그들이 전투를 위해 컨닝 페이퍼 따위가 필요하다면 그들은 분명 전투에 적합하지 않다는 뜻이다.
+
+하지만 생각해 봤는데 얘들은 착한 애들이야 제기랄, 가능하다면 구울을 해치우는데 힘쓰고 있는 모든 남녀에게 공짜로 한턱 내주고 싶을 정도지. 강령술사 오물들과 그들의 오싹한 창조물을 처리하는 일에 도움을 원한다면 나는 기꺼이 응할 생각이다. 대단한 글솜씨가 있는건 아니지만, 어디 보자. 먼저...
+
+#{bold}#1. 구울#{normal}#
+
+때때로 사람들은 내게 와서 "모든 강령술사들이 정말 사악한가요?" "분명히 강령술도 좋게 이용될 수 있을 거예요!" "쓰는 마법 때문에 차별하는 것은 잘못된 거 아닌가요?"라고 말한다. 이 사람들에게,-눈을 멍들게 한 직후- 내가 첫 번째로 말하는 이야기는, 구울을 보라는 것이다. 그들의 특징을 자세히 보아라. 병에 찌든 채, 부패하는 살덩어리를 보아라. 질질 흐르고 노출된 장기를 보아라, 천천히 썩어 문드러져 떨어져 나가고 있는 구울들의 형상을 보란 말이다. 그들도 예전에는 사람이었다. 예전엔 가족이 있었고, 사람들이 좋아했던 사람이다. 이제 그것은 걸어 다니는 시체일 뿐, 구울의 유일한 욕망은 죽음과 광기다. 모든 것을 넘어선 살점에 대한 갈망뿐. 모든 강령술사들이 정말 사악한가? 천 번 물어도 대답은 언제나 그렇다는 것이다.
+
+이런 가장 단순한 언데드 하수인마저도 준비되지 않은 이들을 공포에 떨게 할 수 있다. 평범한 구울이 옮기는 수많은 질병은 구울이 물어뜯은 팔뚝에서 눈에 띄게 부풀어 오르고 괴사하는 어떤 의미에선 많은 모험가가 진정으로 고마워하지 않을 방식으로 전염된다. 어떤 의미에선 모험가들이 진정 고마워 하지 않을 방식으로 전염된다. 이런 심각한 상처는 즉시 대처해야 한다: 구울에 물리면 즉시 상처 부위를 뜨거운 물에 담근 다음 쑥과 석영 가루를 발라놓은 깨끗한 천으로 싸매야 한다. 상처는 3주 동안 붕대로 감아야 하고, 4일마다 새 드레싱으로 교환하며, 사용한 드레싱은 반드시 태워야 한다! 위와 같은 치료가 불가능할 경우, 야생 주입물 또한 훌륭하게 작용할 것이다.
+
+    * * *
+
+
+#{bold}#2. 스켈레톤#{normal}#
+
+어떻게 겸손한 스켈레톤을 언급하지 않고 언데드에 관한 길잡이가 완성되겠는가? 이 달가닥거리는 죽은자의 뼈다귀들은 산들 바람이 불기만해도 부서질 정도로 연약해 보이지만, 여러 면에서 스켈레톤은 그들의 구울 사촌들보다 더 위험하다.
+
+되살릴 썩고 문드러진 살덩어리가 없다면 강령술사들은 되살아날 해골에 어느 정도 수준의 전투 기술을 부여하는 데 온전히 집중할 수 있으며, 전사의 무기는 종종 뼈 만큼이나 오래 남아있기 때문에 스켈레톤은 보통 무기를 들고 때로는 방어구 까지 착용할 수도 있다. 이런 잠재적인 기술은 근거리 무기에서 멈추지 않는다 -쓰러진 궁수들은 다시 한 번 활을 들고, 비교적 어렵지만, 일부 강령술사들은 죽은 마법사들에게 다시 한 번 마법의 힘을 부여할 수도 있다.
+
+어떤 모험가들은 스켈레톤을 상대하는 것에 당황하곤 한다. 이미 명백히 파괴된 적을 어떻게 파괴할 것인가? 이런 모험가들에게, 나는 용기를 내라고 말한다. 스켈레톤의 몸이 망가지고 불완전할수록, 그것을 움직이는 데는 더 많은 힘이 필요하다. 대부분의 강령술사들은 스켈레톤을 가장 하찮은 노예로 보고 있으므로, 몇 번의 깔끔한 타격으로 스켈레톤의 주인이 그들을 창조하는데 쏟은 최소한의 노력 정도는 쉽게 소멸시킬 수 있을 거라고 기대할 수 있다.
+
+    * * *
+
+
+#{bold}#3. 와이트#{normal}#
+
+와이트는 언데드 사이에서도 유별난 부류다, 그들은 대부분 강령술사에 의해 특별히 만들어지기보다는, 일정한 조건이 맞을 때 그들 자신의 의지로 솟아오르곤 한다. 와이트는 결코 개별적인 영혼이 아니라, 게슈탈트의 일부분이다: 특정한 땅, 즉 전쟁터나 숲, 지하 영묘, 묘지 같은곳에 충분한 피가 흩뿌려지면, 그 땅이 직면해 있는 전투와 파란을 물리적 형상에 가까운 모습으로 무리지어 실체화된 것이 와이트다. 이러한 와이트 생성의 원리는 슬프게도 강령술사 만큼이나 그렇게 많은 피와 죽음을 야기하는 다른 연구나 직업은 없으므로 그들이 종종 와이트를 만들어내는 걸 쉽게 만든다.
+
+와이트와 마주친 사람들은 종종 와이트를 끝자락이 헤져 풀어지며 나풀거리는 빛바랜 망토에 싸인 흐릿한 스켈레톤의 형체를 가졌다고, 이상한 불빛이 눈이 있어야 할 자리에서 춤을 추고 있다고 묘사한다. 생존자들은 이런 죽음의 허상이 가까이 있을 때, 생명력이 시들고 빠져나가는 것 같은 특이한 피로감을 느낀다고 말한다, 그러나 와이트의 유령 같은 외모와는 상관없이, 강철과 완력이면 이들을 파괴하거나 적어도 당분간은 자리에서 지워버리는 데 충분하다고 기록되어 있다. 이런 전투가 장기적으로 더 많은 와이트들을 만들어 낼 발판이 될 것 같아 안타깝기는 하지만 말이다...
+
+    * * *
+
+
+#{bold}#4. 흡혈귀#{normal}#
+
+흡혈귀들은 다른 언데드로부터 차별화된 감이 있다. 그들은 거의 비현실적으로 보인다. 흡혈귀는 어떻게 장수하는가? 그들은 어떻게 그렇게 뛰어난 지능을 유지할 수 있을까? 창백한 안색과 수척한 이목구비를 넘어서 왜 흡혈귀는 그들의 으스스한 형제자매들처럼 부패하고 분해되지 않는가? 흡혈귀의 생태 연구는 풀리지 않은 질문들의 긴 목록이며, 각각의 새로운 연구는 점점 늘어나는 의문의 모음이다.
+
+앞에서 말한 것처럼 흡혈귀의 가장 큰 강점은 심신이 모두 살아 있는 사람과 닮았다는 것이다. 덕분에 흡혈귀는 다른 언데드보다 훨씬 더 마을과 가까운 곳에 사는 것으로 알려져 있다. 어떤 흡혈귀는 심지어 지역사회 안에 자신들의 둥지를 꾸리는 것으로 알려져 있다! 그러나 흡혈귀의 유사성에도 불구하고 흡혈귀만의 특징들이 있다. 부자연스럽게 창백한 피부, 길고 독특한 송곳니, 햇빛에 대한 혐오감, 그리고 훨씬 더 많은 특징이 있다. 가까이에서 관찰되는걸 피하기 위한 노력의 일환으로, 일부 흡혈귀는 부자인 것처럼 가장하는 것으로 알려져 있으며, 종종 의심의 눈길을 피하기 위해 외딴곳에 은둔하곤 한다.
+
+하지만 흡혈귀와 관련하여 가장 놀라운 것은 아마도 그들의 동맹과 가족 관계에 대한 성향일 것이다. 다른 언데드들은 뱀파이어들이 자신들을 위해 만들어내는 이해할 수 없는 씨족, 무리, 가족, 그리고 혈족과같은 개념에 비슷한 수준에도 미치지 못한다. 흡혈귀들이 강령술사가 하는 것처럼 하급 언데드들을 다스리는 지배자가 되는 것도 이런 이유에서이다. 그런 의미에서 그것들을 강령술사처럼 대접해라, 차가운 강철로 말이다.
+
+    * * *
+
+
+#{bold}#5. Spirits#{normal}#
+
+During my travels, I have noticed that some communities in the wild no longer bury their deceased as is the norm in larger settlements. Some folk burn the corpses of their fallen, committing their ashes to the earth instead. When asked why they perform this peculiar practice, I always receive the same answer: Necromancers. Fearful of their dead rising up to slay them at the whims of delusional, murderous filth, they believe that with the burning of the dead, their spirits are forever beyond the reach of a necromancer's bony fingers.
+
+Alas, this is not true. While fire may burn away a man's physical being, no flame can touch his spirit. Unfortunately, necromancers can. Bereft of both body and freedom, many souls are driven mad in the employ of necromancers, ceaselessly drifting through windswept crypts, harrying any unfortunate wanderers they encounter with a multitude of curses and hexes. Worst of all are those spirits who embrace their newfound purpose, causing them to grow in power at a frightening rate. No other being in Maj'Eyal is so obviously abhorrent to existence itself as these "dreads"; it is almost as though creation itself wants these beings gone from her world. It is my hope that you, and many others, oblige her wish.
+
+    * * *
+
+
+#{bold}#6. Bone Giants#{normal}#
+
+One of the most horrific, vomit-inducing expressions of the necromancer's so-called "art" is the bone giant. Not content with merely profaning the bodies of singular souls, some ambitious necromancers work to bind the bodies of countless skeletons together, creating hideous engines of destruction that can stand many times higher than the height of a normal man.
+
+It is a deadly mistake to liken these abominations to the golems alchemists and archmages employ. Wilful and fey as they are, normal mages often only craft golems for utility and their own protection, while necromancers create bone giants for the sole purpose of dealing death, and the only limit to their destructive capability is the necromancer's twisted imagination. Ever fought a snow giant? Imagine one with six arms and fingers like blades, wrought of sharpened ribs. Imagine one with countless skulls lining every inch of its wretched body, all screaming for your blood to be spilt as it thrashes spinal columns like whips from its disfigured hands! After facing one of these grotesque amalgamations, you'll be begging to go back to the Daikara to pick on simple, frost-rimed sub-men.
+
+    * * *
+
+
+#{bold}#7. Liches#{normal}#
+
+Hate made flesh. Evil made pure. Death incarnate. The culmination of a necromancer's work. Whatever you know liches as, I can tell you that they do not match the countless myths and legends that surround their terrible figures. They surpass them.
+
+Once a powerful necromancer finally crosses the border between life and death, the abyssal power that they could only initially grasp in dribs and drabs becomes theirs to control totally. It is often said that unexpected quakes, crops failing, and the leaves simultaneously falling from the trees heralds the birth of a lich. Lords of the undead, liches can annihilate ghouls and skeletons, banish dreads with a glance, and reduce bone giants to powder within moments.
+
+As to how to actually destroy one? Well, tell you what. If you manage to defeat one of these abominations, be a dear and write a guide for me, for I have absolutely, positively, no idea.
+
+    * * *]], "_t")
 
 
 ------------------------------------------------
@@ -15084,7 +15229,7 @@ When Garkul next returned from the east he heard from his spies of great operati
 
 그러나 가르쿨이 긍지들을 세우느라 바쁜 동안, 나르골의 왕은 방어 전략을 짜고 있었다. 놈은 오크 군대가 머지않아 자신의 왕국으로 올 것이라는 걸 알고 있었고, 그래서 최고의 전략가들의 힘을 빌려 절대로 패배하지 않는 병력을 만들어내려 했다. 놈은 마즈'에이알 전역에서 최고의 연금술사들을 불러모았고, 그리하여 전례가 없는 최강의 병기를 만들어낼 계획을 세웠다. 그 결과물이 바로, 거대 골렘 아타마쏜이었다.
 
-동쪽 대륙에서 돌아온 가르쿨은 그의 첩자들로부터 나르골 왕국에서 진행된 엄청난 계획에 대한 이야기를 듣게 되었고, 그는 하플링들을 반드시 쓰러뜨려야 한다는 것을 깨닫고 전투 준비에 나섰다. 그러나 그것이 최후의 전투가 될 것이라고는 알지 못했다.]], "_t")
+동쪽 대륙에서 돌아온 가르쿨은 그의 첩자들로부터 나르골 왕국에서 진행된 엄청난 계획에 대한 이야기를 듣게 되었고, 그는 하플링들을 반드시 쓰러뜨려야 한다는 것을 깨닫고 전투 준비에 나섰다. 그러나 그것이, 자신의 마지막 전투가 될 것이라고는 알지 못했다.]], "_t")
 t("The Legend of Garkul", "가르쿨의 전설", "_t")
 t([[#{bold}#Chapter Five: Fall of the Mighty#{normal}#
 
@@ -15118,31 +15263,73 @@ Our forces never full recovered from the loss of our great leader. The wars cont
 #{italic}#"진정한 전사는 결코 죽지 않는다. 전장에서 쓰러질 순 있지만, 따르는 자들을 고무시키기 위해서 쓰러지는 것이다. 전사는 그들의 찌르기 하나하나에, 쳐내기 하나하나에, 그리고 무기 하나하나에 살아 숨쉬고 있다. 그의 이름으로 피가 흩뿌려지는 한, 전사는 불멸이다."
 - 포식자 가르쿨#{normal}#
 
-Garkul gathered a force together to take on the Nargol kingdom, striking south at their centre of power. It was not a force as strong as he would have liked, for many troops had been sent east to establish the Prides, but he knew he must quell any resistance from the halflings before it was too late.
+가르쿨은 적의 본거지인 남쪽 나르골 왕국을 치기 위해 병력을 모았다. 수많은 병사들이 긍지를 건설하기 위해 동쪽 대륙으로 가 있었기 때문에, 그가 모은 병력은 이제까지에 비하면 부족한 편이었다. 하지만 그는 너무 늦기 전에 하플링들의 저항을 뿌리뽑아야 한다는 것을 알고 있었다.
 
-He marched with care towards the southern city, with minor skirmishes along the way. As he approached the capital he saw the halfling armies ready, with over ten thousand troops organised into units, ready to defend their kingdom. Garkul had only five thousand with him, but he knew that his warriors were far stronger, and that with his tactics they would easily prevail. But still a nervousness was in him, and he advanced his troops with caution.
+그는 소규모 교전을 치르면서 신중하게 남쪽의 도시로 진격했다. 중심 도시가 가까워지자 일만을 넘는 하플링 군대가 부대별로 모여서, 자신들의 왕국을 지킬 태세를 마친 것이 보였다. 가르쿨에겐 병사가 오천 남짓밖에 없었지만, 그는 자신의 군사들 쪽이 저들보다 훨씬 더 강하며 전략전술을 잘 활용하면 쉽게 이길 수 있다는 걸 알고 있었다. 그럼에도 불구하고 그는 다소 불안함을 느껴, 신중하게 전진했다.
 
-The orcs reached a tilled field, and the halfling army stood on the other side, waiting. Garkul eyed the ground suspiciously, but as the halfling slingers began to fire at them he knew he must act - he gave the order to attack. His warriors charged with speed towards with enemy, with his mages following behind, but as they neared their foe there was a sudden tumult in the ground. The fighters were knocked back as the earth tore open and a massive hand rose up, followed by a gigantic head. Slowly rising forth from the ground they saw a monster of unparalleled size - it was the giant golem Atamathon. Long had the halfling alchemists worked on it in secret, crafting its body of marble and its joints of voratun, setting a thousand rubies into each of its eyes and imbuing it with unrivalled power. Carefully had the strategists laid the trap, leading Garkul's army to this place with precisely timed skirmishes, waiting for the right moment to reveal their awe-inspiring weapon.
+오크 군대는 경작지에 도착했고, 하플링 군대는 그 맞은편에서 기다리고 있었다. 가르쿨은 근처 땅을 주의깊게 살펴봤지만, 하플링의 투석꾼들이 공격을 시작하자 더 지체할 시간이 없다는 걸 깨달았고, 공격 명령을 내렸다. 전사들이 적들을 향해 돌격하였고, 마법사들이 그 뒤를 따랐다. 그러나 병사들이 적들에게 다다르자, 갑자기 발밑의 땅이 흔들리기 시작했다. 땅이 갈라지면서 전사들은 뒤로 밀려났고, 그 틈에서 육중한 손이 솟아나더니, 곧이어 거대한 머리도 튀어나왔다. 믿을 수 없을 정도로 거대한 괴물이 땅에서 천천히 일어나기 시작했다. 바로 거대 골렘 아타마쏜이었다. 몸통은 대리석이었고 연결부는 보라툰이었으며, 수천 개의 루비로 만들어낸 눈동자에는 비할 바 없이 강력한 힘이 깃들어 있었다. 하플링의 연금술사들이 비밀리에 오랜 시간을 들여 만들어낸 것이었다. 전략가들은 신중하게 소규모 교전을 유도하여 가르쿨의 군대를 이곳으로 유인해, 자신들의 경이로운 병기를 선보일 순간을 기다리고 있던 것이다.
 
-The orcish troops flailed against the golem, battering their weapons against its solid feet, but to no result. The mages fired spells of fire and ice at its chest, but they were reflected away without effect. Then the halfling alchemists stood forth and channelled their energies through the golem, and its ruby eyes glowed brightly before a beam of flames erupted and burned down on the orcish troops. The golem marched forwards, each step crushing dozens of warriors, whilst its beaming eyes tore through the ranks of mages. Then the alchemists joined in throwing bombs, and the slingers fired shot after shot and a great massacre began.
+오크 병사들은 골렘 앞에서 무력했다. 무기로 단단한 발을 몇 번을 내리쳐 봐도, 흠집도 나지 않았다. 마법사들이 가슴팍에다 화염과 얼음을 쏘아 봐도, 튕겨 나갈 뿐이었다. 그러자 하플링 연금술사들이 나서서 골렘에 에너지를 집중시켰고, 골렘의 루비 눈이 밝게 빛나더니 화염의 광선을 쏘아내어 오크 병사들을 불살랐다. 골렘은 앞으로 전진하기 시작했고, 한 걸음 걸을 때마다 전사 한 무리를 짓밟으며 눈에서 광선을 쏘아 마법사들을 찢어 버렸다. 연금술사들도 이제 폭탄을 던지기 시작했고, 투석꾼들도 끊임없이 사격을 하며 엄청난 난장판이 벌어지게 되었다.
 
-Garkul saw his troops in disarray, and knew that against this new weapon none of his army could prevail. He ran to his wolf-riders and grabbed the greatest beast, a vicious warg over ten feet long, and mounting it he charged into the fray. He rushed the wolf straight towards the giant golem, and made it leap towards the monster's towering chest. The golem swiped down a massive fist that smashed the warg apart, but Garkul jumped at the last moment and grabbed onto the golem's head, and drawing out his axe he swept it into one of the ruby eyes, shattering it.
+가르쿨은 병사들의 대열이 무너지는 것을 보았고, 자신의 군사들만으로는 저 신무기를 결코 쓰러뜨릴 수 없다는 걸 깨달았다. 그는 늑대기수들에게로 달려가 가장 큰 놈 - 크기가 3미터를 넘는 와르그를 골라잡고, 곧바로 올라타고서 돌격했다. 그는 늑대를 타고 거대 골렘을 향해 곧장 질주하여, 그 괴물의 거대한 몸통을 향해 뛰어들었다. 골렘이 육중한 주먹을 휘둘러 와르그를 산산조각냈지만, 가르쿨은 그 직전에 점프하여 골렘의 머리를 붙잡았고, 도끼를 꺼내 루비 눈 하나에다 휘둘러 산산조각냈다.
 
-Then the golem reached with both hands and grabbed Garkul by the arms, and his axe fell to the ground below. Atamathon held tightly to the great orc's limbs in its marble grip, and proceeded to try and rip them off. But Garkul flexed his muscles with all his strength, and resisted the might of the golem, and slowly he began to twist the golem's fists forwards, drawing him closer to monster's head. When he was close enough to that marble brow he smashed his head forwards against it, and the ringing sound of his steel helm hitting the solid stone tore through the air. The golem shuddered a moment, and Garkul headbutted it again, and his steel helm was torn from his pate. Once more he thrust his head forward, and the impact made a deep gash across his temples, but the thick marble of the golem's head was also dented. Another headbutt was launched forth, and two more as the golem's skull began to crack apart and its legs gave way beneath it. Garkul turned his bloodied head to the sky and roared before delivering a final fatal plunge of his head. His brow met the thick marble, and the golem's head shattered apart beneath the force. The golem collapsed, and Garkul with it. Thus fell the giant golem Atamathon, and its like has not been seen again.
+그러자 골렘이 양손으로 가르쿨을 붙잡았고, 그의 도끼는 땅으로 떨어져 버렸다. 아타마쏜은 대리석 손으로 위대한 오크의 팔다리를 꽉 잡고, 몸통에서 뜯어내려고 했다. 그러나 가르쿨은 온힘을 다해 골렘의 괴력에 저항했고, 조금씩 골렘의 주먹을 앞으로 비틀어서 그 괴물의 머리가 점점 가까워지게 만들었다. 대리석으로 된 이마가 충분히 가까워진 순간, 그는 박치기를 날렸고 그의 강철 투구가 단단한 돌과 부딪혀, 찢어질 듯한 소리가 울려퍼졌다. 골렘은 잠시 휘청였고, 가르쿨이 다시 한 번 박치기를 날리자 강철 투구가 아예 찢겨져 나갔다. 자신의 머리를 믿고 한 번 더 날리자 정수리 쪽에 깊은 상처가 났다. 하지만 골렘의 단단한 대리석 머리도 움푹 패였다. 또 다시 박치기가 작렬하고, 곧바로 두 방 더 들어가자 골렘의 머리가 깨져 나가기 시작하면서, 아타마쏜은 무릎을 꿇었다. 가르쿨은 피투성이가 된 머리를 하늘로 치켜들고, 우렁찬 포효와 함께, 최후의 일격을 날렸다. 이마가 딱딱한 대리석과 부딪혀, 산산조각난 것은 골렘의 머리였다. 골렘은 무너져 내렸고, 가르쿨도 함께 쓰러졌다. 이것이 거대 골렘 아타마쏜의 최후였고, 이것과 견줄만한 병기는 두 번 다시 등장하지 않았다.
 
-At this the halflings were dismayed, for though the orcish troops were decimated their mighty weapon was also broken. Then they advanced towards the ruins and saw movement within, and before them rose Garkul the Devourer. His head was gashed and bloodied, and his arms were badly bruised, but he had recovered his axe and now faced them with a grin.
+하플링들은 경악을 금치 못했다. 오크 군대는 궤멸되었지만 자신들의 강력한 병기도 파괴되었기 때문이었다. 그러고 나서 놈들은 아타마쏜의 잔해로 달려갔고, 그 안에서 무언가가 움직이는 것을, 포식자 가르쿨이 일어서는 것을 보았다. 그의 머리는 상처투성이에 피범벅이 되어 있고, 양 팔도 심하게 멍이 들어 있었다. 그럼에도 불구하고 자신의 도끼를 움켜쥔 채로, 만면에 웃음을 짓고 있었다.
 
-He saw he was alone now, for what had remained of his army had been finished off whilst he had battled the golem, and though they had fought well there still remained ten thousand troops before him. But he grinned, for he was a warrior true, and never more happy than when on the battlefield, facing foes insurmountable. He charged.
+그는 이제 혼자 남았다는 것을 알고 있었다. 골렘과 사투를 벌이는 동안 남은 병력들이 전부 쓸려나갔기 때문이다. 그들은 훌륭하게 싸웠지만, 여전히 지금 눈앞에는 일만은 족히 되는 병사들이 남아 있다. 하지만 그는 진정한 전사였기 때문에, 전장에서 넘어설 수 없는 적들을 마주하고 있을 때 가장 행복한 자였기 때문에, 환희에 찬 웃음을 지었다. 그리고, 뛰어들었다.
 
-The bodies soon piled up in his wake as he tore through the halfling troops. He shrugged off blows against him, and swung his axe before him. He cleaved through skulls and sliced through armour and flesh and bones. When they tried to grab his weapon from him he punched them away, or bit through their throats. He laughed as he danced around his enemies, blood spurting up from their wounds and raining down over his face. Hundreds fell beneath his blade before the axe cracked and broke, but still he gripped the shaft and stabbed and clubbed and swiped.
+그가 하플링 병사들을 뚫고 지나가자, 지나온 길에는 시체가 쌓였다. 그는 자신에게 날아오는 공격에도 아랑곳하지 않고 도끼를 휘둘렀다. 수많은 두개골을 쪼개고, 갑옷과 살점과 뼈를 베어냈다. 놈들이 무기를 붙잡으려 하면 주먹질로 날려버리거나 목을 물어뜯었다. 그는 적들 사이로 춤을 추며 한껏 웃어제꼈고, 놈들의 상처에선 피가 솟구쳐 그의 얼굴로 쏟아졌다. 그의 손에 수백 명이 쓰러졌고 마침내 움켜쥔 도끼에 금이 가고 부서져 버렸지만, 그는 남은 도끼자루로 똑같이 베고, 으깨고, 날려버렸다.
 
-Then the alchemists threw their bombs at him, scorching his flesh. And the archers and slingers fired at him, their arrows piercing his skin and their shots bruising his body. But Garkul roared a mighty warshout, and the arrows and shots in the air were shattered, and the ground before him tore apart. He grabbed two waraxes from the bodies nearby and rushed towards his attackers, raining down blows on them with each hand. The halflings surrounded him, and attacks came from all sides, but he carried on fighting furiously.
+그러자 연금술사들이 폭탄을 던져 그의 피부를 그을렸다. 궁수들과 투석꾼들도 그를 쏘아 맞혀, 화살이 살을 파고들었고 멍이 들었다. 하지만 가르쿨이 막강한 포효를 지르자, 날아오던 화살과 탄환들은 가루가 되었고 발밑의 땅이 갈라졌다. 그는 근처의 시체에서 두 자루의 도끼를 주워들고, 적들에게 달려들어 양손으로 난무를 가했다. 하플링들이 그를 둘러싸고 온 사방에서 일제히 공격했으나, 그는 광란에 휩싸인 채로 계속해서 싸워나갔다.
 
-But the fight could not carry on forever. A stab from a sword crippled his leg, and a blast from a bomb blinded his eye, and though he continued to battle, wading through the corpses around him, blood now seeped through cuts all over his body. The blades of the axes he wielded became cracked and dented, and he was left wielding the shafts as clubs. He swung them through the troops before him, until his movements slowed to a stop, and the alchemists rained down bomb after bomb until his charred corpse moved no more. So died Garkul the Devourer, though his body stayed upright even in death, clutching his weapons above his head, and standing atop a field of over ten thousand bodies. For when the halflings counted their numbers after, only a few hundred remained.
+그러나 영원히 싸울 수는 없었다. 날카로운 검에 다리를 꿰뚫렸고, 폭탄에 맞아 눈을 잃었으며, 그럼에도 계속해서 싸워 시체들을 남기며 나아갔지만, 이젠 온몸이 피범벅이 되었다. 그가 움켜쥔 도끼들은 전부 금이 가고 날이 나갔으며, 이제 그것들을 몽둥이처럼 쓰게 되었다. 몽둥이들을 병사들에게 휘두르던 그의 움직임은 점차 느려지다가 결국 멈추게 되었고, 연금술사들은 그의 시체가 숯덩이가 되서 더는 움직이지 않게 될 때까지 폭탄을 퍼부었다. 그렇게 포식자 가르쿨은 일만이 넘는 시체들이 널부러진 땅에 우뚝 서서, 여전히 무기를 잡고 있는 손을 머리 위로 치켜든 채로 죽었다. 하플링들은 남은 병력의 수를 세 보았고, 전투에서 살아남은 건 고작 수백 명 뿐이었다.
 
-Our forces never full recovered from the loss of our great leader. The wars continued, but without his strategies failure became more frequent. Eventually the other races began to fight back, and we were driven from our homeland. But the spirit of Garkul remains with us all, and his lessons stay in our hearts and minds. One day we will return to the place of his birth, and the glory he began shall be completed - Maj'Eyal will be ours.]], "_t")
+우리 군대는 위대한 지도자의 공백을 메울 수 없었다. 전쟁은 계속되었지만, 전략전술의 부재로 패색이 더욱 짙어질 뿐이었다. 마침내 다른 종족들의 반격으로 우린 고향 땅까지 몰리게 되었다. 하지만 가르쿨의 혼은 우리 모두에게 남아 있고, 그의 가르침 또한 우리의 정신과 가슴에 새겨져 있다. 훗날 우린 그가 태어난 땅으로 돌아와, 그가 시작했던 영광을 이어받아 끝마칠 것이다. 마즈'에이알은 우리의 것이 되리라.]], "_t")
 t("Captain Gumlarat's report", "대장 검라랏의 보고서", "_t")
 t("orc prides", "오크 긍지", "newLore category")
+t("Ukruk's log", "우크룩의 기록", "_t")
+t([[Sher'Tul ruin matches description from high command. Investigation begun, but slow. Looks like it crashed into the ground long ago - hard to access many areas. Target item has been described by command as a staff. Do not know why a staff so important. Surely the ultimate weapon should be a sword or axe, like that wielded by the great Garkul?
+
+Have heard many rumours against high command lately - strange rumours, indeed. Perhaps by completing this mission I shall get closer to them so that I might seek the truth...
+
+...
+
+Curses and banes! Some bastard blaze-born THIEF has raided the ruins! And a halfling no less, a curr-damned halfling! I am pyred with rage!
+
+He got in during dusk somehow, crawling through a tunnel too narrow for my workers to reach. He grabbed a staff from the ruins and snuck out past my orcs! The dirty, treacherous sneak has run away, and my career with him! I have sent scouts to track him, but he is proving elusive. But I will not let him escape! This is unforgiveable!
+
+...
+
+We've followed the tracks of the wretch. It seems as if he met up with a dwarf and a human near a town called Derth, and they travelled south-east from there. Following the three of them was much easier than the sneak alone, but we still must take care to remain hidden. Our orders from high command strictly forbid showing ourselves, and we must avoid battle as much as possible. I have a trained team of archers and fighters with me that know how to stay hidden in the woods.
+
+The thief and his cursed allies have entered an old ruined tower called Dreadfell. It an ancient place, known to be filled with undead in its dungeons. If we break in we're bound to cause a stir, and so close to the big human town east of here... I am not sure how to proceed, and have sent a message to command requesting instructions. For now we wait in the woods, keeping an eye on the entrance for any change. If anyone comes out from the tower with that staff they will face my wrath!
+
+...
+
+Word is finally back from command - hold position and wait for the staff to emerge. If it doesn't happen soon then they will send their own agents in time.
+
+In time! Bah! This will be my ruin if it comes to that. If there is any appearance of the staff I must snatch it and get back East as soon as possible...]], [[쉐르'툴 유적은 그분들 설명대로다. 조사를 시작하긴 했지만, 느려터졌다. 엄청 옛날에 땅에다 세게 처박힌 것 같다 - 대부분 뚫고 들어가기가 힘들다. 목표 물건은, 설명대로라면 지팡이. 그깟 막대기가 뭐가 그렇게 중요한진 모르겠다. 궁극의 무기라는 건 검이나 도끼여야 되는 거 아닌가? 위대하신 가르쿨께서 쓰셨던 것처럼?
+
+최근에 그분들에 대한 소문이 많이 들린다 - 특히, 수상쩍은 소문이다. 이 임무를 끝내면 그분들과 조금 더 가까워지게 될 거다. 그렇게 되면 뭐가 맞는 말인지 확인해봐야겠다...
+
+...
+
+이런 빌어먹을! 어떤 망할 도둑놈이 유적을 털어먹었다! 하플링이 틀림없다, 엿같은 하플링들! 진짜 열받는다!
+
+어떻게 했는진 모르겠지만 해질녘에 내 일꾼들은 너무 좁아서 못 들어가는 터널로 기어서 들어갔다. 놈은 유적에서 지팡이를 챙겨다가 몰래 빠져나간 거다! 그 더럽고 얍삽한 놈 때문에 내 경력도 망치게 생겼다! 잡아 오라고 정찰대를 보냈지만 통 소식이 없다. 하지만 절대 가만 안 놔둔다! 용서 못한다!
+
+...
+
+그 쓰레기 자식의 흔적을 쫓았다. 그놈은 데르스라는 마을 근처에서 어떤 드워프랑 인간이랑 만난 다음에 남동쪽으로 간 것 같다. 그 세 놈을 쫓는 건 숨어서 도망다니는 한 놈을 쫓는 것보다 훨씬 쉽지만, 여전히 발각되지 않도록 조심해야만 한다. 높으신 분들은 우리가 모습을 드러내는 걸 엄격히 금지하고 있고, 싸움도 최대한 피해야 한다. 그래도 내 밑에는 숲 속에서 숨어 지내는 법을 알고 있는 궁수와 전사 부대가 있다.
+
+도둑놈과 그놈의 저주받을 친구들은 두려움의 영역이라는 낡아빠진 탑으로 들어갔다. 진짜 오래된 곳이고, 안에 언데드들이 한가득 있다고 한다. 저기로 쳐들어가면 분명히 귀찮은 일이 생기게 될 거고, 여기서 동쪽으로 조금만 가면 인간들의 대도시도 있다... 뭘 어떻게 해야할지 몰라서 지시를 내려 달라고 메시지를 보냈다. 우린 지금 숲 속에 숨어서 기다리고 있고, 탑 입구를 감시하고 있다. 어떤 놈이든 지팡이를 들고 저기서 나오면 내 분노를 맛보여 줄 테다!
+
+...
+
+드디어 지시가 내려왔다 - '지팡이가 나타날 때까지 그 자리에서 기다려라. 시간이 오래 걸리면 조만간에 요원들을 보내겠다'.
+
+조만간? 흥! 진짜 오면 나만 쪽팔린다고. 지팡이가 보이면 바로 빼앗아서 최대한 빨리 동쪽으로 돌아가야겠다...]], "_t")
 
 
 ------------------------------------------------
@@ -15202,15 +15389,143 @@ section "game/modules/tome/data/lore/tannen.lua"
 ------------------------------------------------
 section "game/modules/tome/data/lore/trollmire.lua"
 
+t([[You find a tattered page scrap. Perhaps this is part of a diary entry.
+"...is a gorgeous glade, but I could swear that looked like a part of a human femur.
+
+...
+
+Saw an absolutely gigantic troll, but fortunately I threw him off my scent."]], [[당신은 너덜너덜한 종잇조각을 발견했다. 아마도 어떤 일지의 일부분인 것 같다.
+"...는 제법 근사한 공터지만, 내가 보기엔 저기 널부러진 건 사람의 정강이 뼈가 확실해 보인다.
+
+...
+
+무지막지하게 커다란 트롤을 발견했다. 다행히 그 놈으로 부터 내 자취를 감출 수 있었다."]], "_t")
+t([[You find a tattered page scrap. Perhaps this is part of a diary entry.
+"...ack again, but he's just a stupid old troll. It'll be easy to not let him get wind of me.
+
+...
+
+...initely found his treasure stash further on, but had to turn back. If you get this, HELP!"]], [[당신은 너덜너덜한 종잇조각을 발견했다. 아마도 어떤 일지의 일부분인 것 같다.
+"...시 여기로 돌아왔지만, 그 놈은 그냥 늙고 멍청한 트롤일 뿐이다. 녀석 몰래 움직이는 게 어렵진 않을 것이다.
+
+...
+
+...실히 저 앞에 저 트롤 녀석의 보물 창고가 있는걸 봤지만, 여기로 돌아올 수 밖에 없었다. 만약 이걸 본다면, 도와줘!"]], "_t")
+t("trollmire", "트롤 늪", "newLore category")
 t("tattered paper scrap (trollmire)", "너덜너덜한 종잇조각 (트롤 늪)", "_t")
+t([[You find a tattered page scrap. Perhaps this is part of a diary entry.
+"...writing this in a tree and he's at the bottom of it. Waiting. His club is the size of a tall dwarf. Don't think I'm going to make it..."
+
+Alongside the note is a part of a plan of the region.]], [[당신은 너덜너덜한 종잇조각을 발견했다. 아마도 어떤 일지의 일부분인 것 같다.
+"...나무 속에 숨어들어와 이 일지를 쓴다. 그 트롤은 나무 아랫쪽을 지키고 있다. 기다리고 있다. 녀석의 몽둥이는 거의 키 큰 드워프만하다. 아무래도 살아나갈 수 없을 것 같다는 생각이 든다..."
+
+노트 옆에는 이 근방의 지도 조각이 떨어져 있다.]], "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/zigur.lua"
 
+t("Rules of the Ziguranth", "지구랏 추종자의 원칙", "_t")
+t([[1. You will not talk about Zigur to the wider world, lest evil ears be listening.
+2. You will shun the use of all spells and witchcraft.
+3. You will shun the use of magic-cursed items.
+4. You will shun the baneful influence of arcane runes and burn any skin that comes in contact with them.
+5. You will not aid or abet any you suspect of wizardry or conjuration.
+6. You will take note of any you suspect of spellweaving and report their name and address to the elders.
+7. You will actively hunt down and bring suffering upon any you suspect of using magic, communing with spirits, demon worship, or any you suspect of aiding others in these acts.
+8. You will report to the elders all activity you deem suspicious, especially evidence of cults or secret societies.
+
+These are the rules we live by, these are the rules by which we will save our world. All who fail in these rules will be purged with flame.]], [[1. 그대는 지구르에 대해 외부에 발설하지 말지어다. 사악한 이들이 귀를 기울이고 있음이라.
+2. 그대는 모든 마법과 사악한 마술을 피할지어다.
+3. 그대는 마법이 깃든 불경한 물건들을 쓰는 일을 피할지어다.
+4. 그대는 마법의 룬으로 말미암은 사악한 효과와 그것들을 몸에 새기는 행위를 피할지어다.
+5. 그대는 마법이나 주술로 의심되는 그 어떠한 행위도 돕거나 방조하지 말지어다.
+6. 그대는 주문을 구현하는 것으로 의심되는 것들은 무엇이든지 기록하고, 그들의 이름과 위치를 장로들에게 고할지어다.
+7. 그대는 마법을 이용하는 자, 영혼과 교감하는 자, 악마를 숭배하는 자, 혹은 그들의 조력자로 의심되는 이들을 적극적으로 추적하고, 고통을 내릴 지어다.
+8. 그대는 장로들에게 모든 의심스러운 정황들, 특히 사이한 종교나 비밀 결사들의 증거로 간주되는 모든 것에 대해 장로들에게 고할지어다.
+
+우리는 이 원칙들 아래 살아가며, 이로 말미암아 우리의 세계를 구원할 지어다. 누구든 우리의 원칙을 배반하는 자는 불로써 정화되리라.]], "_t")
 t("The Great Evil", "강대한 악", "_t")
+t([[We live in a world of wonders. All around us are natural energies and wild powers that are a marvel to see and experience. Soaring birds, mighty bears and ice-breathing dragons all abound in towering mountains, deep oceans and luscious forests. And we are part of this glorious environment, with our thoughts and strengths and all our wondrous capabilities. Truly we live in a fantastic world, and we should be glad to have a place amongst the wonders of Maj'Eyal.
+
+But some are not content. Some seek to pervert the wonders of the world with unnatural powers. With arcane forces they rip the threads of nature apart and sew it back however they see fit, uncaring of the damage they cause. Sometimes it is out of curiosity or a misplaced desire to do good, but normally it is out of greed and malice and a perverse obsession with power. Even those who enter into the banes of magic with good intentions inevitably end up doing harm and becoming themselves corrupted by the gross forces they tamper in.
+
+History teaches us well the dangers of these forces. First were the Sher'Tul, of which we know little, but we do know that they manipulated magic to strengths beyond the dreams of current mages. And they led themselves to their own utter destruction. Alas that the lesson was not learnt by the younger races. The first recorded war in our history is between the humans and halflings for control of Sher'Tul ruins. Magic was used in those wars and the battles only stopped after two thousand years of slaughter left both sides too crippled to carry on fighting. It was in this time that our order was formed, and we tried to stop the insanity and the bloodshed. Alas that we failed.
+
+The weakening of our peoples by the magic-fuelled fighting left us then open to attacks by the orcs, whose surging numbers nearly overwhelmed us. But instead of relying on our own strengths and our natural defences, the foolish elves decided that only the arcane forces could save us. How very wrong they were... Their insidious mages tapped the vile powers of the Sher'Tul ruins and unleashed catastrophic waves of energy that burned half the world to a cinder. Mountains crumbled, lakes were boiled, and raging fires stripped the land of all life. The devastation can truly never be fully stated. But it is unforgettable and utterly unforgiveable. The Shaloren try to deny responsibility, but the blood of millions is on their hands.
+
+The suffering that followed the unfortunate survivors lasted centuries, as the unnatural forces created black plagues that wiped out kingdoms and made huge swathes of land uninhabitable. Dread warlocks and necromancers took advantage of the chaos to raise armies and gain power. Kor'Pul was the deadliest of these, and our order fought long and hard to kill him time and time again. We fought viciously to protect the people of Maj'Eyal from all the terrible pains of this time.
+
+But our efforts could not prevent the ultimate tragedy that followed. The plagues were mere echoes of the Spellblaze as its horrible effects rebounded across the land. One dark and terrible day those echoes rose in resonance, and a cataclysmic force tore through the heart of our world. The land was rent in two, earthquakes spouted forth magma from the ground, and the eastern edge of our land was torn away and sunk into the deepest oceans. It was a tragedy beyond comparison.
+
+As our civilisations slowly recovered the orcs began to increase in numbers, and it became clear then that they too had learned the dark arts. For centuries we suffered their attacks, and only by a unification of the races did we manage to finally contain them and wipe them out. Our order was vital in suppressing their pyromancers and blood mages, and many of our people bravely gave up their lives to protect the western armies and towns from destruction.
+
+But we are not clear of danger yet. Magic still exists, though oft it lies secret and hidden. Memories of the dark days have waned, and one can even see alchemists and enchanters walking openly in the streets, unheeding of the pain their ilk have brought to our world. But worse exists... Secret societies hide themselves in unknown places, plotting and scheming to bring further destruction on Maj'Eyal. Dark cults exist in quiet isolation, kidnapping innocents and performing vile ceremonies. We try our best to hunt these monsters down, to root them out from their fell dens and bring an end to their depraved plans. Yet we must try harder, for our world is in mortal peril if these fiends are allowed to act unhindered.
+
+We must never forget the terrors of the Great Evil, and the suffering brought upon us by those who choose to corrupt nature with arcane powers. Be wary in your travels, and be thorough in your duties. Our fight is difficult, but it is just and true, and not until all Maj'Eyal is cleansed of the impurities of magic can we ever know peace. We are the protectors of the world, and by our strength and our union with nature we shall be its saviours.
+
+-- Protector Myssil]], [[우리는 경이로운 세계에 살고 있다. 우리 주위에 가득한 자연의 에너지와 야생의 힘은 언제 보아도 놀랍고, 매 순간 새롭다. 날아오르는 새들, 장대한 곰들과 얼음 숨결을 머금은 용들이 드높이 치솟은 산봉우리들 사이를 거닐고, 깊은 대양과 감미로운 숲들이 존재하는 세상. 그리고 우리는 이 영광스러운 자연의 일부로서, 우리의 정신과 힘, 그 모든 역량들을 지니게 된다. 실로 우리는 환상적인 세계에 살고 있으며, 이토록 경이로운 마즈'에이얄의 일부를 향유하고 있음을 감사해야 할 것이다.
+
+그러나 이에 만족하지 못하는 자들이 있다. 이치에 어긋난 힘으로 이 세계의 아름다움을 뒤틀어 버리고자 하는 이들이. 그들은 자신들이 초래할 폐해를 고려하지도 않은 채, 마법의 힘을 이용하여 자연의 결을 뜯어내고 마음대로 이어붙여 버린다. 이러한 행위는 가끔은 호기심으로부터, 또는 선을 행하기 위한 잘못된 열망으로부터 비롯되지만, 보통은 탐욕과 악의, 힘에 대한 비뚤어진 집착이 그 원인이다. 심지어 좋은 의도를 가지고서  마법의 악독함을 이용하고자 하는 이들 조차도 필연적으로 해악을 끼치게 되며, 그들이 조작하려던 그 역겨운 힘에 오염되어 타락하고 만다.
+
+역사는 우리에게 그 힘이 가진 위험성에 대해 잘 가르쳐준다. 그 첫번째 예시는 쉐르'툴로, 비록 우리가 잘 알지 못하는 존재들이나, 우리는 그들이 마법을 조작하여 현대의 마법사들은 꿈도 꾸지 못할 힘을 빚어냈음을 알고 있다. 그리고 그들은 스스로를 완전히 파멸시키고 말았다. 아아, 그러나 쉐르'툴의 몰락 이후 새로이 도래한 종족들은, 아무런 교훈을 얻지 못하였다. 역사에 기록된 첫번째 전쟁인 인간과 하플링 사이의 전쟁은, 쉐르'툴의 유적에 대한 소유권을 두고 일어난 것이었다. 이후 그들 사이의 수많은 전쟁 속에서 마법이 사용되었고, 결국 2천년 간 지속된 살육전 끝에, 두 종족이 더는 서로 싸울 수 없을 정도로 만신창이가 되고 나서야 싸움을 멈출 수 있었다. 우리의 비밀 결사는 이 때 만들어졌으며, 우리는 그 광기와 유혈을 막고자 노력했지만, 오오, 결국 우리는 실패하고 말았다.
+
+우리 인류는 마법으로 점철된 싸움에서 약화되었고, 결국 우리의 수를 아득히 뛰어넘는 오크들의 공세에 무방비로 노출되고 말았다. 그러나 우리 자신의 힘과 자연의 요새를 의지하는 대신, 저 어리석은 엘프들은 오직 마법의 힘을 이용하는 것만이 우리를 구원할 수 있으리라 여겼다. 그 얼마나 그릇된 판단이었단 말인가... 그들의 음흉한 마법사들은 쉐르'툴의 유적에 잠재된 사악한 힘에 손을 대었고, 이로 인해 풀려난 파멸적인 에너지 파동은 온 세상의 절반을 새까맣게 태워버리고 말았다. 산은 바스러지고, 호수가 끓어오르며, 맹렬한 불길이 온 땅을 뒤덮어 모든 생명을 앗아갔다. 실로 그 참상을 말로써 온전히 표현할 방법은 없으리라. 하지만 이는 잊혀지지 않을 것이며, 결코 용서받지 못할 것이다. 샬로렌 족속은 그들의 책임을 부인하려 했으나, 그들의 이미 수백만 명의 피를 손에 묻혔다.
+
+그 비정상적인 힘으로부터 생겨난 흑사병은 수많은 왕국들을 절멸시키고, 사람이 살 수 없는 땅으로 만들고 말았으며, 불행히도 살아남은 자들은 수세기 동안이나 고통을 겪을 수밖에 없었다. 흉악한 요술사들과 강령술사는 이러한 혼돈을 이용해서 그들의 군대를 일으키고 힘을 축적하였다. 코르'풀은 그 중에서도 가장 악독한 자였으며, 우리 결사대는 그를 죽이기 위한 길고도 치열한 싸움을 몇 번이고 계속하고 있다. 우리는 이 시대의 끔찍한 고통으로부터 마즈'에이얄의 사람들을 보호하기 위해 치열하게 싸워온 것이다.
+
+그러나 우리의 노력으로는 곧이어 도래한 최악의 비극을 막아낼 수 없었다. 역병은 바로 마법 폭발의 메아리였다. 마법 폭발의 소름끼치는 영향력이 다시금 온 대륙을 가로질러 약동하기 시작했기 때문이다. 어느 어둡고도 끔찍한 날, 그 메아리가 공명하며 더욱 커지기 시작했고, 대재앙의 힘이 우리 세계의 심장부를 찢어버리고 말았다. 대지가 둘로 찢어지며, 지진으로 흔들리는 대지에서는 마그마가 뿜어져 나오고, 결국 우리 대륙의 동쪽 끝이 뜯겨져 나가 바닷속 가장 깊은 곳으로 가라앉아버린 것이다. 이는 그 무엇과도 비길 데 없는 비극이었음이라.
+
+우리의 문명이 서서히 회복기에 접어드는 사이 오크들은 그 수를 불리기 시작했고, 그들이 그 사악한 마법을 익혀왔다는 것 또한 분명해졌다. 수세기 동안 우리는 그들의 공격에 고통받았으며, 모든 종족의 힘을 합치고 나서야 마침내 그들을 막아내고, 소탕할 수 있었다. 우리 결사대는 그들의 화염술사들과 혈마법사들을 억제하는 막중한 역할을 수행하였고, 수많은 인원이 목숨을 내던져, 서부의 군단과 도시들을 파멸로부터 지켜냈다.
+
+그러나 아직 우리가 위험으로부터 벗어난 것은 아니다. 마법은 여전히 존재하고 있지만 보통은 은밀히 숨겨져있다. 고통스럽던 날들의 기억은 나날이 희미해져가고, 심지어는 연금술사나 부여술사들이 대놓고 거리를 활보하는 모습을 볼 수 있기까지 하다. 이 세상을 고통에 빠뜨렸던, 그 부류의 작자들이 뻔뻔하게 나도는 모습을. 그러나 더욱 끔찍한 것은... 비밀 결사들이 모처에 숨어들어, 마즈'에이얄에 더 큰 파멸을 가져올 음모와 계략을 꾸미고 있다는 점이다. 저 사악한 이교도들은 고요하고 격리된 곳에 둥지를 틀고, 무고한 이들을 납치하고 부정한 의식을 치르고 있다. 우리는 온 힘을 다해서 이 극악무도한 자들을 색출해내며, 저들의 사악한 소굴을 뿌리뽑고 타락한 계획에 종지부를 찍을 것이다. 그러나 우리는 아직도 더욱 노력해야만 한다. 이 악마들이 아무 방해 없이 날뛰도록 내버려둔다면, 우리 세계는 필멸의 위험에 처하고 말 것이기 때문이다.
+
+우리는 그 강대한 악에 대한 공포를, 마법의 힘으로 자연을 오염시키고자 한 자들이 우리에게 안겨주었던 고통을, 결코 잊어서는 안된다. 여행의 도중에는 경계를 늦추지 않도록, 그리고 그대의 의무에 철저히 임하도록 하라. 우리의 투쟁은 고되지만, 정의롭고 진실된 것이니, 모든 마법의 불순물들을 마즈'에이얄에서 씻어낼 때 까지 우리는 평화를 얻을 수 없으리라. 우리는 이 세계의 수호자이며, 우리의 힘과 자연과의 결속으로 말미암아 이 세상의 구원자가 되리라.
+
+-- 보호자 미씰]], "_t")
 t("The story of my salvation", "나의 구원 이야기", "_t")
+t([[I used to be a potion merchant in Derth. I brewed alchemical tonics and elixirs for locals and travellers. My trade was good, and I lived very happily from the gold I earned. For a young woman to have such a business I was very proud.
+
+One day however several people in the town fell ill from a mystery disease. Rumours spread that my potions were to blame, and people stopped coming to my shop. My business was in ruins, and I soon ran the risk of becoming destitute. Then one of the elders died, and though he had been ill for some time, I was blamed for his death. People said I had laid a hex on him, and murmurs arose of witchcraft.
+
+I still remember how peaceful the evening had seemed when the townsfolk came for me. I was looking up at the brightness of the stars and the clear crescent Summertide moon, thinking of how I should restart my business, when I heard shouts from the distance. I saw the crowd appear from round the corner, advancing with their torches. I screamed for help, but they broke through my door, smashed through my windows and grabbed me. They dragged me outside and set their torches to my house. I was stripped to my skin and beaten heavily whilst they cursed and jeered, and even the man who had been my fiancé spat on my face and cursed me.
+
+They pulled me over grass and stone to the town square, and though half-blinded by the tears and my swollen flesh I could still make out the wooden stake they were erecting. I tried to cry out, I tried to beg for mercy, but their response was to hold me down by my throat and pull out my tongue with the blacksmith's tongs. As I coughed up blood they put me against the wooden pole and used barbed cords to tie my wrists to it above my head. The pain was unbearable and I passed out, and did not wake until I could feel the burning at my feet. The crowd were cheering as the smoke began to wrap around me, and they cheered louder with every pained scream I released from my lungs.
+
+I was choking from the smoke, barely able to breathe, and I could no longer feel my legs. Just when I felt my consciousness slipping away again I heard a commotion and a woman's voice shouted out, "She is no witch!" Then I saw some people coming towards me, and at the front was a halfling woman in dark armour. She rushed towards me, unheeding of the flames, and with a swift flick from her long sword she cut my bonds. She caught me as I fell and pulled me away from the fire, laying me down on the ground. I saw her soft face above mine as she whispered to me, "Tell me child, do you reject magic in all its forms?" I nodded my head - I could not say no to those bright eyes. She wiped the tears streaming down my face and kissed my forehead. "Then you will be safe - rest now." At once I passed out.
+
+When I awoke I was in another village in a soft bed. There were wrappings round my legs and bandages covering the cuts and bruises over the rest of my body. Healers tended to me, using natural remedies and herbal balms. The halfling woman would come and see me every day to check up on me. I longed for her every visit. She would speak to me sometimes. She explained how the townsfolk weren't to blame for their actions. It was all the mages' fault. They were corrupting the world, spreading chaos, and turning people against each other. I realised I was wrong for ever brewing potions - they were infested with arcane energies and could only bring harm to the world.
+
+She explained how she and her friends were helping to save the world, to rid our lands of all magic. And she has saved me. Not just from a terrible death, but also from the evil influences of the arcane. Even if I still had a tongue I could not find words to express my thanks to her, and my joy at the new life I lead, free from the abominations of magic. Thanks to her help I can now walk again with the aid of a crutch, and I can find true happiness in my rightful place in nature.
+
+I have no voice now to tell my story to others, and so I write it down instead, and I spread it to the winds. I have suffered from my contact with magic, and others will suffer too. Do not trust in the terrible powers of these devious arts. They will only betray you and bring you to harm. Turn your back on magic, and make others repent too. Find your own salvation in nature's joys before it is too late.
+]], [[저는 한 때 데르스의 포션 상인이었습니다. 주로 연금술 토닉이나 영약을 만들어서 지역 주민들과 여행자들에게 팔고는 했죠. 저는 수완이 좋은 편이었고, 제가 벌어들인 골드로 매우 만족스러운 삶을 영위할 수 있었습니다. 젊은 여성으로서 이정도 사업을 운영한다는 것에 큰 자부심도 있었죠.
+
+그러던 어느날 마을 사람들 몇몇이 알 수 없는 질병에 걸려 알아눕게 되었습니다. 제 포션이 문제였다는 근거 없는 소문이 돌았고, 사람들은 제 가게에 찾아오지 않게 되었습니다. 제 사업은 완전히 망해버렸고, 곧 궁핍한 처지를 면하기 어려워졌죠. 이내 병에 걸렸던 노인들 중 한명이 죽었고, 저는 그의 죽음에 대한 책임을 추궁당했습니다. 사람들은 제가 그 노인에게 주술을 걸었다고 이야기했으며, 사악한 마술에 대해 수근거리기 시작했습니다.
+
+그들이 저를 찾아왔던 그날 밤이 아직도 기억납니다. 그날따라 어찌나 평온해 보이던지. 저는 별들이 반짝이는 모습을, 그리고 그 옆에 떠오른 청명한 여름 초승달을 바라보면서 어떻게 내 사업을 다시 시작할 수 있을지 고민하고 있었죠. 그 때, 멀리서 고함 소리가 들렸습니다. 한 무리의 사람들이 온 사방에서 모습을 드러냈고, 하나같이 횃불을 손에 들고 저를 향해 전진하고 있었습니다. 저는 도와달라며 비명을 질렀지만, 그 사람들은 제 집 문을 부수고, 창문을 깨고 들이닥쳐 저를 붙잡았습니다. 그들이 저를 욕하고 조롱하는 동안 제 살갗은 찢어지고 심하게 얻어맞았으며, 심지어 제 약혼자였던 남자는 저의 얼굴에 침을 뱉으며 저주를 내뱉더군요.
+
+그들은 저를 질질 끌고 풀밭과 돌길을 지나 마을의 광장으로 갔습니다. 제 눈물과 부어오른 살두덩이 때문에 반쯤은 눈이 멀어있는 상태였지만, 그들이 나무 화형대를 세우고 있다는 것 정도는 알아볼 수 있었습니다. 저는 비명을 내지르며 자비를 구하려 애썼지만, 그들은 제 목구멍을 열어젖히고 대장간 집게로 제 혀를 뽑아내는 것으로 답했습니다. 제가 피를 토해내는 동안 그들은 저를 나무 기둥에 올리고 가시돋힌 철사로 제 손목을 머리 위로 묶었습니다. 도저히 견딜 수 없는 고통에 저는 정신을 잃어버렸고, 제 발 끝이 불타오르는 것을 느끼고 나서야 깨어날 수 있었습니다. 거기 모인 사람들은 연기가 제 주위를 감싸기 시작하는 것을 보며 환호성을 지르고 있었고, 저의 폐부에서 고통에 찬 비명소리가 터져나올때마다 점점 더 크게 환호성을 내질렀습니다.
+
+저는 숨막히는 연기 때문에 거의 호흡을 할 수가 없었고, 다리에서는 감각이 사라져가고 있었습니다. 저의 의식이 다시금 빠져나가는 것이 느껴질 때 즈음, 저는 무언가 소란이 일어나는 소리와 함께, "그녀는 마녀가 아니오!" 라고 외치는 여자의 목소리를 들을 수 있었습니다. 그 때 저는 몇몇 사람들이 저에게 다가오는 것을 보았고, 그 선두에는 검은 갑옷을 입은 하플링 여자가 있었습니다. 그녀는 제 주위에서 타오르는 불꽃은 아랑곳하지도 않고, 저에게 달려와서 그녀의 장검을 튕기듯 휘둘러 제 결박을 풀어주었습니다. 제가 아래로 떨어지는 것을 그녀가 잡아주었고, 저를 불길에서 멀리 떨어진 곳에 눕혀주었습니다. 그녀의 부드러운 얼굴을 바라보는 동안 그녀는 저에게 속삭였습니다. "말해보게, 젊은이. 그대는 그 어떠한 형태의 마법도 거부하겠는가?" 저는 고개를 주억거렸습니다. 그처럼 반짝이는 눈을 바라보며 아니라고 대답할 수는 없었죠. 그녀는 내 뺨에 흐르던 눈물을 닦아주고는 저의 이마에 키스했습니다. "그렇다면 그대는 안전할 것이네. 이만 쉬도록 하게." 그 순간 저는 의식을 잃어버렸습니다.
+
+다시 정신을 차렸을 때, 저는 어딘가 다른 마을에 도착해 있었고, 부드러운 침상에 눕혀있었습니다. 제 다리에는 천 같은 것이 감겨있었고, 온 몸을 뒤덮고 있던 자상과 타박상들에도 붕대가 둘러져 있었습니다. 치유사들은 저를 돌보며 생약과 약초로 만든 연고를 써주었습니다. 그 하플링 여성은 매일마다 저를 방문하여 제 상세를 확인하고는 했죠. 저는 그녀가 저를 찾을 때마다 몹시 기뻤습니다. 그녀는 가끔 저에게 이야기를 해주곤 했습니다. 어째서 마을 사람들이 한 짓이 그들의 잘못이 아닌지에 대해 설명해주려 하기도 했었죠. 그것은 모두 마법사들의 잘못이었습니다. 마법사들이 세계를 오염시키고, 혼돈을 퍼뜨리며 사람들이 서로 반목하게 만들고 있었던 것입니다. 저는 심지어 제가 물약을 주조하던 것도 잘못된 일이란 걸 깨달았습니다. 그 물약들은 마법 에너지로 오염되어 있었고, 결국은 세상에 해를 끼치고 말 것이었습니다.
+
+그녀는 그녀 자신과 친우들이 세상을 지키기 위해 해왔던 노력들, 마법을 온 세상에서 없애버리기 위한 노력들에 대해 설명해주었습니다. 그리고 그녀는 저를 구해주었죠. 끔찍한 죽음으로부터 구한 것 뿐만이 아닌, 마법의 사악한 영향력으로부터 저를 구해낸 것입니다. 만일 제게 혀가 남아있었더라도, 그녀에게 감사한 마음을, 마법의 부정한 힘으로부터 해방시켜주고, 새로운 삶으로 저를 이끌어준 데에 대한 기쁨을 말로써 표헌할 수 없었을 겁니다. 그녀의 도움 덕에 저는 목발을 짚고서 다시 걸어다닐 수 있게 되었고, 이젠 대자연 속에 마련된 저의 정당한 공간 안에 살아가며, 진정한 행복을 찾을 수 있게 되었습니다.
+
+이제는 제 이야기를 들려줄 목소리를 낼 수 없기에, 대신 이 이야기를 글로써 적습니다. 그리고 바람에 날려보냅니다. 저는 마법과 함께하여 고통받았으므로, 다른 이들도 고통받게 될 것입니다. 그 부정한 기술들이 지닌 끔찍한 힘들을 신뢰하지 마십시오. 그 힘은 당신을 배반하고, 위험에 빠뜨릴 것입니다. 마법으로부터 등을 돌리고, 다른 이들도 회개하도록 하십시오. 자연이 선사하는 환희로부터 스스로를 구원하도록 하세요. 이미 너무 늦어버리기 전에 말입니다.
+]], "_t")
+t("zigur", "지구르", "newLore category")
 t("Purging Trap", "정화 함정", "_t")
+t([[[As you begin to leave, Protector Myssil stops you.]
+
+Actually...  You fight in a more subtle way than most, do you not?  It is a point of pride for many of us that we stand tall in the face of arcane aggression and give warlocks one chance to repent before purging them, and much of our training reflects that, but I won't deny that less...  #{italic}#traditionally glorious#{normal}# methods can be extremely effective.  Decorum's no reason to let a necromancer get away alive when you could've planted a trap in their escape route.
+
+(She hands you a scroll.) Here - some of us have come up with a pre-prepared device which will sap magic from whoever or whatever sets it off.  All we ask is that you use discretion with these devices; no matter what our #{italic}#last#{normal}# assassin thought, planting them in some lesser rune-scribe's shop would be more likely to do us harm than good in the long run.]], [[[당신이 떠나려 할때, 보호자 미씰이 당신을 멈춰세웠다.]
+
+확실히... 넌 다른 이들보다 영리한 방법으로 싸우는군. 그렇지 않나? 마법의 위험과 당당히 맞서고, 요술사들을 숙청하기 전에 단 한번 회개할 기회를 주는 것은 우리 추종자들 중 많은 이들이 자랑스러워 하는 점이지. 우리들이 하는 훈련의 많은 부분도 그런 관점을 반영하고 있지만, 굉장히 효과적인 방법이 있다는 것을 부정하지는 않겠다. #{italic}#전통적인 영광스러움#{normal}#이 조금 덜... 한 방법 말이야. 네가 그놈들의 도주 경로에 함정을 깔아둘 기회가 있는데도, 그저 점잖게 굴자고 강령술사가 하나라도 살아서 도망가도록 내버려둘 수는 없지 않겠는가.
+
+(그녀는 당신에게 스크롤을 한 장 건넨다.) 여기 - 우리들 중 몇 사람은 이 미리 준비된 장치를 고안해냈다. 누구든지, 아니면 무엇이든지 간에 이걸 가동시키는 녀석의 마력을 약화시킬 수 있는 물건이지. 우리는 그저 네가 이 장비들을 가지고 약간의 재량권을 행사해줬으면 하는 것 뿐이다. 우리가 #{italic}#지난번에#{normal}# 고용했던 암살자가 무슨 생각을 했는지는 모르겠지만, 이 장비들을 고작 조그마한 룬 상점같은 곳에 설치하는 건 우리에게 장기적으로 손해가 되는 일이란 것만은 알아 두어라.]], "_t")
 
 
 ------------------------------------------------
@@ -25953,8 +26268,8 @@ t("@Source@ uses Warshout.", "@Source1@ 전투함성을 사용합니다.", "_t",
 t("@Source@ uses Warsqueak.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
 t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (50%% confusion power) for %d turns.", "반경 %d 칸 범위에 원뿔 형태로 전투함성을 내질러, 범위 내의 대상에게 50%% 위력의 혼란 상태를 유발합니다. 혼란 상태는 %d 턴간 지속됩니다.", "tformat")
 t("Berserker Rage", "광전사의 분노", "talent name")
-t("#Source#'s rage awakens!", "#Source#의 순수한 분노가 타오른다!", "logCombat")
-t("#Source#'s rage subsides!", "#Source#의 분노가 가라앉는다!", "logCombat")
+t("#Source#'s rage awakens!", "순수한 #Source#가 타오른다!", "logCombat")
+t("#Source#'s rage subsides!", "#Source#가 가라앉는다!", "logCombat")
 t([[You enter an aggressive battle rage, increasing Accuracy by %d and Physical Power by %d and making you nearly unstoppable, granting %d%% stun and pinning resistance.
 		Sustaining this rage takes its toll on your body, decreasing your life by 2%% each turn, but for every 1%% of life missing you gain 0.5%% critical hit chance.
 		Even when sustained, this talent is only active when foes are in sight.
@@ -26665,7 +26980,7 @@ t([[You infuse blighted energies into all of your summons, granting them Bone Sh
 		- Ghouls: Virulent Disease
 		- Dread: Slumber
 		]], [[모든 소환수들에게 황폐의 힘을 주입하여, 기술 레벨 3 의 뼈의 방패를 부여하고, 소환수의 주문력에 소환사의 마법 수치를 더합니다.
-		야생의 소환수와 사령술 하수인들은 기술 레벨 3의 새로운 타락의 기술을 배우게 됩니다. 그밖의 소환물들은 가하는 피해의 10%% 가 황폐 피해로 전환되며, 기술 레벨 3 의 치명적인 질병을 배웁니다.
+		야생의 소환수와 강령술 하수인들은 기술 레벨 3의 새로운 타락의 기술을 배우게 됩니다. 그밖의 소환물들은 가하는 피해의 10%% 가 황폐 피해로 전환되며, 기술 레벨 3 의 치명적인 질병을 배웁니다.
 		#GREEN#야생의 소환수:#LAST#
 		- 전투견: 물어뜯기
 		- 젤리: 무방비의 저주
@@ -26677,7 +26992,7 @@ t([[You infuse blighted energies into all of your summons, granting them Bone Sh
 		- 화염 드레이크: 울흐'록의 불꽃
 		- 거북이: 원소의 불협화음
 		- 거미: 피의 움켜쥠
-		#GREY#사령술 하수인:#LAST#
+		#GREY#강령술 하수인:#LAST#
 		- 스켈레톤 마법사: 뼈의 창
 		- 스켈레톤 궁수: 뼈의 가시
 		- 스켈레톤 전사: 파멸
@@ -26704,7 +27019,7 @@ t([[Your inner flame is strong. Each time that you receive a blow that would kil
 		매 턴 마다 무효화시킨 피해량의 10%% 에 해당하는 피해를 받습니다. 이 피해는 피해 저항이나 속성 친화력을 무시합니다.
 		알림 : 이 효과는 재사용 대기시간이 존재합니다.]], "tformat")
 t("Lich", "리치", "talent name")
-t("Is a living creature that knows necromancy", "사령술을 알고있는 살아있는 생명체일 것", "_t")
+t("Is a living creature that knows necromancy", "강령술을 알고있는 살아있는 생명체일 것", "_t")
 t("Have completed the ritual", "의식을 모두 완료했을 것", "_t")
 t("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "#GREY#강력한 언데드로 변하자, 당신의 몸이 생명의 피를 강하게 거부하는 것을 느꼈다.", "log")
 t([[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
@@ -36871,7 +37186,7 @@ t("You cannot unlearn this talent because of talent(s): ", "당신은 다음과 
 t("You can only improve a category mastery once!", " 계열 숙련도는 한번만 투자할 수 있습니다!", "_t")
 t("Not enough talent category points", "계열 점수가 충분하지 않습니다", "_t")
 t("You have no category points left!", "계열 점수가 더는 없습니다!", "_t")
-t("This talent tree only provides talents starting at level %d. Learning it now would be useless.", "이 기술계열은 레벨 %d 부터 사용할 수 있습니다. 지금 이 기술계열을 익히는 것은 쓸모가 없습니다.", "tformat")
+t("This talent tree only provides talents starting at level %d. Learning it now would be useless.", "이 기술 계열은 레벨 %d 부터 사용할 수 있습니다. 지금 익혀봤자 쓸모가 없습니다.", "tformat")
 t("Too low level", "레벨이 너무 낮습니다", "_t")
 t("You cannot take out more points!", "더 이상 습득을 취소할 수 없습니다!", "_t")
 t("You cannot unlearn this category!", "이 계열의 습득을 취소하는건 불가능합니다!", "_t")
@@ -37602,8 +37917,8 @@ t("Alchemists can transmute gems to create fiery explosions, and are known to tr
 t("In the Age of Pyre the giant golem Atamathon was built with the sole purpose of stopping the orcish leader Garkul the Devourer. The golem was single-handedly destroyed by the orc, who then slaughtered an army of thousands before the demonic fighter was finally slain.", "장작더미의 시대에 오크의 지도자인 포식자 가르쿨을 막기 위해 거대한 골렘인 아타마쏜이 만들어졌습니다. 아타마쏜은 이 강력한 오크에 의해 바로 파괴되었고, 포식자 가르쿨은 쓰러지기 전까지 수천의 군대를 학살했습니다.", "init.lua load_tips")
 t("None know what the Sher'Tul looked like, or what caused them all to disappear thousands of years ago. Their rare ruins are a source of mystery and terror.", "누구도 쉐르'툴이 어떻게 생겼는지, 무엇이 수 천년 전에 이들을 사라지게 만들었는지 알지 못합니다. 하지만 그 폐허는 여전히 남아서 공포와 의문을 불러일으킵니다.", "init.lua load_tips")
 t("In deep places dark things dwell beyond description or understanding. None know the source of these hideous horrors.", "깊은 곳에서는 이해의 영역을 뛰어넘는 어둠의 존재가 살고 있습니다. 누구도 이 끔찍한 괴물이 어디서 왔는지 알지 못합니다.", "init.lua load_tips")
-t("Who knows what dark thoughts drive people to necromancy? Its art is as old as magic itself, and its creations have plagued all the races since the earliest memories.", "많은 이들이 왜 사령술사들이 그 사악한 마법을 연구하는지에 관한 의문을 갖고 있습니다. 이 사악한 비술은 마법 자체만큼 오래되었고, 태초부터 모든 종족을 타락시켜왔습니다.", "init.lua load_tips")
-t("Some say that in their early days the Shaloren kings experimented with necromancy to preserve their flesh after death, but with little success. The Shaloren vehemently deny this.", "어떤 사람들은 샬로레의 왕들이 죽음 이후에도 육체를 보존하기 위해 오래전부터 사령술을 실험해 왔다고 말하지만, 매우 적은 수만이 성공했다고 합니다. 샬로레들은 이런 소문을 단호하게 부정합니다.", "init.lua load_tips")
+t("Who knows what dark thoughts drive people to necromancy? Its art is as old as magic itself, and its creations have plagued all the races since the earliest memories.", "많은 이들이 왜 강령술사들이 그 사악한 마법을 연구하는지에 관한 의문을 갖고 있습니다. 이 사악한 비술은 마법 자체만큼 오래되었고, 태초부터 모든 종족을 타락시켜왔습니다.", "init.lua load_tips")
+t("Some say that in their early days the Shaloren kings experimented with necromancy to preserve their flesh after death, but with little success. The Shaloren vehemently deny this.", "어떤 사람들은 샬로레의 왕들이 죽음 이후에도 육체를 보존하기 위해 오래전부터 강령술을 실험해 왔다고 말하지만, 매우 적은 수만이 성공했다고 합니다. 샬로레들은 이런 소문을 단호하게 부정합니다.", "init.lua load_tips")
 t("120 years ago Toknor and Mirvenia united the human and halfling kingdoms and wiped out the orcish race, thus establishing the Age of Ascendancy.", "120 년 전 Toknor와 Mirvenia 가  인간과 하플링 왕국을 하나의 왕국으로 재건해, 오크들을 쓸어버림으로서 주도의 시대를 열었습니다.", "init.lua load_tips")
 t("\"The Spellblaze tore Eyal apart and nearly brought about the end of all civilisation. Two thousand years on its shadow still hangs over many lands, and the prideful mages have never been forgiven their place in bringing it about.", "\"마법폭발은 에이알을 찢어놓았고, 문명들을 모두 끝장낼 뻔 했습니다. 2000 년이 지난 지금도 아직도 많은 땅에 마법폭발의 영향이 남아있습니다. 그러나 오만스러운 마법사들은 그런 재앙을 불러온 것에 대해 단 한번도 죄책감을 느끼지 않았습니다.", "init.lua load_tips")
 t("Some are cursed with mental powers beyond their full control, turning them to a dark life powered by hatred.", "통제할 수 없는 정신력을 가진 저주받은 이들은 증오에서 살아갈 힘을 받으며 어두운 삶을 살아가게 됩니다.", "init.lua load_tips")
@@ -37630,7 +37945,7 @@ t("Some of the most powerful undead do not fall easily, and only through extreme
 t("History says little of the ancient race of yeeks that lived in halfling territory, but vanished before the time of the Spellblaze.", "역사에 따르면, 마법폭발이 있기 전 고대종족 이크들은 갑자기 사라지기 전까지 하플링의 영토 내에서 살았었다고 합니다.", "init.lua load_tips")
 t("Dwarves are naturally a inquisitive people, but do not enjoy such inquisition turned on them. Most live secretive lives in their closed-off city, the Iron Throne.", "드워프들은 본래 아주 호기심많은 종족입니다. 다만 타인의 호기심이 자신들을 향하는 걸 원치 않기 때문에, 그들 대부분은 철의 왕좌에서 숨어 삽니다.", "init.lua load_tips")
 t("Alchemists can bind gems to armour to grant them magical effects, to protect the wearer or improve their powers. Some commercial alchemists can imbue gems into jewellery.", "연금술사들은 갑옷에 보석을 박아 마법 효과를 부여할 수 있습니다. 이를테면 착용자를 보호하거나 갑옷의 능력을 향상시킬 수 있습니다. 돈을 좋아하는 몇몇 연금술사들은 보석을 장신구에 끼워놓기도 합니다.", "init.lua load_tips")
-t("The Spellblaze was followed by the Age of Dusk, when disease was rife and civilisation collapsed. Necromancers and fell sorcerers took advantage of the chaos to spread their vile deeds.", "황혼의 시대 직후에 마법 폭발이 일어났습니다. 그로 인해 질병이 창궐했고, 문명은 붕괴되었습니다. 사령술사들과 타락한 주술사들은 그들의 사악한 목적을 이루기 위해 혼란스러운 세상을 이용했습니다.", "init.lua load_tips")
+t("The Spellblaze was followed by the Age of Dusk, when disease was rife and civilisation collapsed. Necromancers and fell sorcerers took advantage of the chaos to spread their vile deeds.", "황혼의 시대 직후에 마법 폭발이 일어났습니다. 그로 인해 질병이 창궐했고, 문명은 붕괴되었습니다. 강령술사들과 타락한 주술사들은 그들의 사악한 목적을 이루기 위해 혼란스러운 세상을 이용했습니다.", "init.lua load_tips")
 t("After the Spellblaze came the Spellhunt, when the normal people rose against the arrogance of the mages and hunted them down like wolves. Some survived and went into hiding, but many innocents were killed.", "마법 폭발 후에는 마법 사냥이 있었습니다. 평범한 사람들이 마법사의 오만함에 반기를 들고, 늑대 떼처럼 그들을 사냥했습니다. 일부는 살아서 은신처로 숨었지만, 무고한 사람들이 많이 살해당했습니다.", "init.lua load_tips")
 t("Demons are thought to come from another world, brought to Eyal by magical forces. Some are highly intelligent and follow their own ambitions. To what end, none know.", "악마들은 다른 세상에서 마법의 힘에 의해 에이알로 소환되었다고 여겨집니다. 일부는 매우 지능적이고, 자신만의 야망을 가지고 있는 경우도 있습니다. 어떻든간에 진실은 누구도 모릅니다.", "init.lua load_tips")
 t("The art of potion making fell into decline after the Spellhunt, and only a rare few now master the gift.", "물약을 만드는 기술은 마법사냥 이래로 쇠퇴해 왔습니다. 이제는 소수의 전문가만이 기술을 보존하고 있습니다.", "init.lua load_tips")
