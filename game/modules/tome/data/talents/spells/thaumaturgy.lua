@@ -67,6 +67,7 @@ newTalent{
 		["spell/lightning"] = 	{ "T_CHAIN_LIGHTNING", "T_NOVA", "T_SHOCK" },
 		["spell/water"] = 	{ "T_GLACIAL_VAPOUR", "T_TIDAL_WAVE", "T_FREEZE", "T_FROZEN_GROUND" },
 		["spell/earth"] = 	{ "T_MUDSLIDE", "T_EARTHEN_MISSILES", "T_EARTHQUAKE" },
+		["spell/phantasm"] = 	{ "T_ILLUMINATE" },
 	},
 	callbackOnDealDamage = function(self, t, val, target, dead, death_note)
 		if not rng.percent(t:_getChance(self)) then return end
@@ -107,13 +108,32 @@ newTalent{
 		return true
 	end,
 	info = function(self, t)
+		local spells = {}
+		local is_aethar_avatar = self:hasEffect(self.EFF_AETHER_AVATAR)
+		for kind, list in pairs(t.spells_list) do
+			for _, tid in ipairs(list) do
+				local tt = self:getTalentFromId(tid)
+				if self:knowTalent(tid) then
+					if (not is_aethar_avatar or (tt.use_only_arcane and self:getTalentLevel(self.T_AETHER_AVATAR) >= tt.use_only_arcane)) then
+						spells[#spells+1] = ("#LIGHT_BLUE#%s [known, eligible]#LAST#"):tformat(tt.name)
+					else
+						spells[#spells+1] = ("#YELLOW#%s [known]#LAST#"):tformat(tt.name)
+					end
+				else
+					spells[#spells+1] = ("#GREY#%s [unknown]#LAST#"):tformat(tt.name)
+				end
+			end
+		end
+		table.sort(spells, function(a, b) return a:removeColorCodes() < b:removeColorCodes() end)
 		return ([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
 		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
 		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
 		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
-		The additional cast will cost mana but no turn and will not active its cooldown.
-		During Aether Avatar only compatible spells are used.]]):
-		tformat(t:_getChance(self))
+		The additional cast will cost mana but no turn, will not active its cooldown and can trigger on spells currently on cooldown.
+		During Aether Avatar only compatible spells are used.
+
+		Eligible spells: %s]]):
+		tformat(t:_getChance(self), table.concat(spells, ", "))
 	end,
 }
 
