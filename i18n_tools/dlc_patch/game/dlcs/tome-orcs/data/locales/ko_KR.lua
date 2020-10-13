@@ -3145,12 +3145,12 @@ t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
 t("race", "종족", "talent category")
 t("whitehooves", "화이트후프", "_t")
-t("Whitehooves", "하얀 발굽", "talent name")
+t("Whitehooves", "화이트후프", "talent name")
 t([[Improves your undead body, increasing Strength and Magic by %d.
 		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
 		Each turn spent not moving you lose a charge.]], [[언데드 신체를 강화하여, 힘과 마법이 %d 증가합니다.
-		또한 이동할 때마다, 최대 %d 번 중첩되는 죽음의 기세 중첩을 얻어, 이동 속도를 20%% 늘립니다.
-		이동을 하지 않으면, 중첩을 하나씩 잃게됩니다.]], "tformat")
+		또한 이동할 때마다 최대 %d 번 중첩되는 죽음의 기세 중첩을 얻어, 이동 속도를 20%% 늘립니다.
+		이동을 하지 않으면, 중첩을 하나씩 잃게 됩니다.]], "tformat")
 t("Dead Hide", "죽은 가죽", "talent name")
 t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "언데드 가죽이 부하로 인해 경화됩니다. 죽음의 기세 중첩 마다, 모든 속성에 대한 고정 피해 감소 %d 를 얻습니다.", "tformat")
 t("Lifeless Rush", "생기없는 돌진", "talent name")
@@ -3277,7 +3277,7 @@ section "game/dlcs/tome-orcs/data/talents/psionic/psionic.lua"
 t("Harness steam energies to power your own mind.", "증기 에너지를 이용하여 정신에 힘을 공급합니다.", "_t")
 t("gestalt", "게슈탈트", "_t")
 t("Focus your mental energies to make things happen. Or combust.", "정신 에너지를 집중하여 다양한 결과를 초래합니다. 아니면 그냥 불태워 버리던가요.", "_t")
-t("action at a distance", "원격 물질 조작", "_t")
+t("action at a distance", "원격 조작", "_t")
 t("Psionically manipulate steam to harass your foes and protect yourself.", "초능력적으로 조작된 증기를 이용하여 적을 괴롭히고, 스스로를 지킵니다.", "_t")
 t("psionic", "초능력", "talent category")
 t("psionic fog", "초능력 증기", "_t")
@@ -4389,7 +4389,7 @@ t([[When you fire your metalstar, your also establish a psionic bloodlink with t
 		매 턴, 영향을 받은 적은 %0.2f 물리 피해를 받고, 피해량의 절반만큼 시전자의 생명력을 회복합니다. (피해를 받는 대상이 많아질 수록 회복량은 반감됩니다.
 		효과를 받는 적이 쇠붙이 별로 밀치는 거리의 2 배 이상 멀리 떨어질 경우, 이 효과는 즉시 중단됩니다. (현재 %d 칸)
 		이 피해는 혼절 상태인 적을 깨우지 않고, 증기력에 비례하여 증가합니다.]], "tformat")
-t("Steamstar", "연기의 별", "talent name")
+t("Steamstar", "증기의 별", "talent name")
 t([[Your bloodstar effect also burns part of your victim's flesh, dealing %0.2f fire damage.
 		The intensity of the fire generates steam which you psionically absorb through gestalt, providing %d steam each turn (each additional victim steam generation is reduced by 66%%).
 		This damage does not break daze and increases with your Steampower.]], [[피의 별 효과가 희생자의 피부를 불살라 %0.2f 화염 피해를 입힙니다.
@@ -4829,12 +4829,12 @@ t("automation", "자동화", "_t")
 t("Meld your psionic powers with awesome steamtech! For mayhem!", "염동력과 증기 공학을 하나로 합칩니다! 아수라장을 위해서요!", "_t")
 t("psytech gunnery", "염동 공학 사수", "_t")
 t("Apply some of your formidable willpower through steam devices.", "가공할 의지력을 증기 장치에 불어넣습니다.", "_t")
-t("thoughts of iron", "강철의 생각", "_t")
+t("thoughts of iron", "강철의 의지", "_t")
 t("Control your mindstar and infuse it with steamtech.", "마석을 다루고, 증기 공학을 불어넣습니다.", "_t")
 t("mechstar", "기계별", "_t")
 t("Behold the mechanized horrors.", "기계 장치의 공포를 목도하라.", "_t")
 t("dread", "공포", "_t")
-t("Use the power of electricity to supercharge your shield.", "방패를 과충전하기위해 전력을 사용합니다.", "_t")
+t("Use the power of electricity to supercharge your shield.", "전력을 사용하여 방패를 과충전합니다.", "_t")
 t("magnetism", "자력", "_t")
 t("The use of high explosives.", "고폭탄을 사용합니다.", "_t")
 t("demolition", "폭파", "_t")
@@ -4842,7 +4842,7 @@ t("Cunning devices to augment your combat skill.", "전투력을 향상시키기
 t("gadgets", "도구", "_t")
 t("Wield powerful steamtech tools of destruction.", "강력한 파괴의 증기 공학 무기를 두 손에 듭니다.", "_t")
 t("heavy weapons", "중화기", "_t")
-t("Deploy steam powered turrets to assist you in combat.", "증기 포탑을 설치해, 전투를 돕게합니다.", "_t")
+t("Deploy steam powered turrets to assist you in combat.", "증기 포탑을 설치해, 전투를 돕게 합니다.", "_t")
 t("The various kinds of turrets.", "다양한 포탑들.", "_t")
 t("turrets", "포탑", "_t")
 t("Advanced explosive weaponry.", "진보된 폭발 무기.", "_t")
@@ -4854,9 +4854,9 @@ t("chemical warfare", "화학전", "_t")
 t("steamtech", "증기 공학", "talent category")
 t("#VIOLET#EUREKA!", "#VIOLET#유레카!", "log")
 t("#VIOLET#EUREKA!#WHITE# Schematic learnt: #LIGHT_BLUE#%s", "#VIOLET#유레카!#WHITE# 도면 습득: #LIGHT_BLUE#%s", "saySimple")
-t("This talent is required for the following tinkers (you still need to learn/find the schematics):", "이 기술을 다음 발명품을 요구합니다. (당신은 설계도를 배우거나, 찾아야합니다.):", "_t")
+t("This talent is required for the following tinkers (you still need to learn/find the schematics):", "이 기술은 다음 발명품을 요구합니다. (설계도를 배우거나, 찾아야 합니다.):", "_t")
 t(" #LIGHT_BLUE#(known)#LAST#", " #LIGHT_BLUE#(습득함)#LAST#", "_t")
-t("#{italic}#* ...perhaps more to discover...#{normal}#", "#{italic}#* ...이 의외에도 더 발견할 수 있을지도 모릅니다...#{normal}#", "_t")
+t("#{italic}#* ...perhaps more to discover...#{normal}#", "#{italic}#* ...이외에도 더 발견할 수 있을지도 모릅니다...#{normal}#", "_t")
 
 
 ------------------------------------------------

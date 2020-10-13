@@ -14150,6 +14150,21 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 ------------------------------------------------
 section "game/modules/tome/data/lore/fearscape.lua"
 
+t("a fearsome sight", "무시무시한 광경", "_t")
+t([[You stand in a field of fire, the flames dancing back and forth like blaze-spawned corn waving in the wind. It licks your feet, your skin, your face, and writhes around in tiny shapes which tear across your flesh and crawl down your throat. It burns and blazes through your body, and crazed thoughts fill your mind. This is Goedalath they tell you, the Fearscape, and you have no rightful place here.
+
+In the distance you see looming, demonic shapes of absolute darkness, towering above the blazing land like wardens of doom. The sky is black, but above your head hangs a round world that you recognise as Eyal. Across the burning plains gather armies of fiendish figures, and glowing eyes turn up with hateful glowers to your home world. Suddenly both you and it and seem small and frail. As the flames fill your body with pain your only thought is of escape.]], [[불타는 들판에 서 있으면 바람에 흔들리는 불꽃이 불에서 태어난 옥수수처럼 앞뒤로 춤을 춘다. 불꽃은 당신의 발, 피부, 얼굴을 핥고 당신의 살을 찢고 당신의 목구멍으로 기어드는 작은 형태로 이리저리 당신을 휘감는다. 불꽃은 당신의 몸을 타고 활활 타오르고, 정신 나간 생각들이 마음을 가득 채운다. 여긴 괴달라스, 공포의 영역이라고 그들이 말하지만, 당신에게 있어 여기엔 있을 만한 장소가 없다.
+
+저 멀리에는 어렴풋이 완전한 어둠으로 된 악마 같은 형체들이, 불타는 땅 위에 마치 파멸의 수호자들처럼 우뚝 솟아 있는 게 보인다. 하늘은 검지만 머리 위에는 에이얄로 보이는 둥근 세계가 걸려 있다. 불타는 평원 건너편에는 악마 같은 자들의 군대가 모여들고, 발광하는 눈들은 증오로 불타는 시선을 당신의 고향 세계에 보내고 있다. 당신은 갑자기 자신과 에이얄 둘 다 작고 허약하게 느껴진다. 불꽃이 당신의 몸을 고통으로 가득 채울 때 떠오른 유일한 생각은 탈출뿐이다.]], "_t")
+t("fearscape", "공포의 영역", "newLore category")
+t("sacrificial altar", "희생의 제단", "_t")
+t([[You see a female human lying unconscious on a black altar, twisted sigils scored into her naked flesh.
+Around her are several figures in dark robes.
+
+As they notice you one calls out 'Intruder! Protect the seed of Kryl-Feijan!']], [[검은 제단 위에 의식을 잃고 누워 있는 인간 여성이 보입니다, 비틀려진 인장들이 그녀의 알몸 위로 그슬려 있습니다.
+그녀의 주위에는 어두운 로브를 입은 자들이 여럿 있습니다.
+
+그들이 당신을 알아차리자 어떤 자가 크게 외쳤습니다. '침입자다! 키릴-페이얀의 씨앗을 보호하라!']], "_t")
 
 
 ------------------------------------------------
@@ -14216,8 +14231,61 @@ Me likes to club!#{normal}#]], [[#{bold}#"나 몽둥이 조아"
 음식을 찾자!
 배고픔 때리면,
 나 몽둥이 좋다!!#{normal}#]], "_t")
-t("necromancer poem", "강령술사의 시", "_t")
-t("how to be a necromancer, part 1", "강령술사가 되는 법 : 제 1 장", "_t")
+t("necromancer poem", "사령술사의 시", "_t")
+t([[#{bold}#"The Necromancer's Canticle"
+
+#{italic}#Saved from coffin, casket, urn
+Darkness falls, but life returns!
+Flesh may fall and bone may burn
+But soul remains, for which we yearn
+
+Those we return to life's esteem
+We see their hearts, their eyes do gleam
+They rave! They kill! They gnash! They scream!
+So full of joy! Their greatest dream!
+
+Returning those that we amend
+They hurry home, a distant friend
+But do they cheer? Do they commend?
+They yell! Does rotting flesh offend?
+
+We bring life to lifeless bone
+But do they smile? Do they condone?
+They sit upon their golden thrones
+They shun us, spurn us, make unknown
+
+Fools! Sit high in golden tower
+From your lofty perch you glower
+Time will come when you will cower
+We rule death, we wield the power
+#{normal}#]], [[#{bold}#"사령술사의 찬송가"
+
+#{italic}#관짝에서, 관속에서, 단지속에서 구해져
+어둠은 내려왔지만 , 삶은 되돌아왔다!
+살점은 떨어지고 뼈는 불태워졌을지라도
+그러나 우리가 갈망하는, 영혼은 그대로 남아
+
+삶의 경탄 속으로 우리가 그들을 되돌린다 
+우리가 그들의 심장을 보면, 그들의 눈은 반짝인다
+그들은 악쓰고! 죽이고! 이를 갈며! 비명 지른다!
+얼마나 즐거운가! 그들의 위대한 꿈이여!
+
+우리가 고친 이들 돌아가지만 
+가족에게 친구에게, 달려서 돌아가지만
+그러나 그들은 기뻐하는가? 그들은 우리를 칭찬하나?
+그들은 고함지른다! 썩어가는 살점이 불쾌한가?
+
+우린 생명없는 뼈에 삶을 불어 넣는데 
+그들은 미소짓나? 그들은 용납하나?
+그들은 황금 옥좌에 앉아
+그들은 우릴 피하고, 쫒아내고, 감추려 든다
+
+천치들! 황금 탑 위에 거만하게 앉아
+너희의 고귀한 자리에서 언짢아 하지만
+때가 오리라 너희가 겁먹을 때
+우린 죽음을 지배하고, 힘을 가지고 있나니
+#{normal}#]], "_t")
+t("how to be a necromancer, part 1", "사령술사가 되는 법 : 제 1 장", "_t")
 t([[#{bold}#THE GLORIOUS ART#{normal}#
 
 Have you cast away the feeble pretensions of your society? Does your soul thirst for the taste of real power? Do you wish to have the strength to deny that most prevalent force, death itself? The glorious art of necromancy shall fulfil your wishes in ways you couldn't possibly imagine.
@@ -14228,41 +14296,41 @@ Be aware, necromancy isn't all weaving mighty spells of undeath, wearing flowing
 
 Also important is the upkeep of the bodies themselves. True, this is not strictly necessary as sufficient enchantment can bestow mobility upon even the most ruined and incomplete remains, but making sure that the joints and cruses of your prospective minions move freely and with ease much reduces the will required to grant them reanimation. It also makes for a sturdy and reliable base in case you desire to undertake larger, more audacious projects (see 46. Bone Giants & You).
 
-Still not sure what to do? Then suffer and perish. Necromancy does not abide the inept.]], [[#{bold}#위대한 기예#{normal}#
+Still not sure what to do? Then suffer and perish. Necromancy does not abide the inept.]], [[#{bold}#영광스러운 기예#{normal}#
 
-사회 속의 보잘 것 없는 가식을 버렸는가? 진정한 힘을 위해 영혼을 탐하는가? 가장 널리 퍼저있는 힘인 죽음 그 자체를 부정할 수 있는 힘을 원하는가? 위대한 강령술의 기예는 당신이 상상조차 할 수 없는 방식으로 당신의 소원을 실현할 것이다.
+네가 속한 사회의 보잘 것 없는 가식을 버렸는가? 진정한 힘에 영혼이 목마른가? 가장 널리 퍼져있는 힘인 죽음 그 자체를 부정할 수 있는 힘을 원하는가? 위대한 사령술의 기예는 네가 상상조차 할 수 없는 방식으로 너의 소원을 실현할 것이다.
 
-#{italic}#1. 첫번째 단계#{normal}#
+#{italic}#1. 너의 첫 번째 걸음#{normal}#
 
-조심하라, 강령술은 검은 로브를 입고, 강력한 불사자 군단을 발 밑에 놓고 한 국가를 파괴하는 것도, 위력적인 강령 주문을 엮어내는 것도 아니다.  우선 당신은 팔꿈치 관절에 기름부터 발라야한다. 당신이 가장 처음에 구할 몇 구의 시체는 당신이 스스로 훔처내야 할 것이다. 소수의 사람들이 기꺼히 강령술사를 도울테지만, 대게 그들이 구한 시체의 상태는 그리 좋지않다. 작은 도시나 마을의 공동묘지는 첫번째 취득을 위한 좋은 장소이지만, 필요하다면 날카로운 칼이나 무거운 둔기를 이용하여 표본 몇 구를 "만드는 것" 을 두려워하지 말라. 하수인을 만들어 낸 이후엔 더 이상 자원을 찾기위해 애쓸 필요가 없어진다.  말 그대로 당신의 기예를 연습할 기회가 쌓이게된다.
+명심하라, 사령술이라고 전부 검은 로브를 입은채, 강력한 불사자 군단의 발걸음으로 한 국가를 파괴하는 것도, 강력한 불사의 주문을 자아내는 것도 아니다. 너는 우선 육체 노동부터 해야할 것이다. 네가 맨처음 시체 몇 구는 너 스스로 훔처내야 할 것이다. 소수의 사람들만이 기꺼히 사령술사를 도울테지만, 그런 이들은 드물게 만족스런 결과를 낸다. 작은 도시나 마을의 공동묘지는 첫번째 습득물을 위한 좋은 장소이지만, 필요하다면 날카로운 칼이나 무거운 둔기를 이용하여 표본 몇 구를 "만드는 것" 을 두려워하지 말라. 첫 번째 하수인들이 노동을 시작한다면 더 이상 자원을 찾기위해 스스로 애쓸 필요가 없어진다. 이후엔 너의 기예를 연습할 시간이 말 그대로 넘치게 된다.
 
-중요한 것은 시체들을 좋은 상태로 유지하는 것이다. 사실, 부서지고 불안정한 유해에도 일정 수준 이상의 마법을 사용한다면, 충분히 움직이게 할 수는 있기에 꼭 필요하진 않지만, 하수인들의 관절과 두 다리가 자연스럽게 움직이게끔 유지하는 것이 소생에 들어가는 수고를 덜어준다. 또한 이를 수행함으로써, 더 거대하고 대담한 계획을 준비할 때, 견고하고 신뢰할 수 있는 기반을 마련할 수 있다.  (46 쪽. 해골 거인과 당신 참조)
+또한 중요한 것은 시신 자체의 유지 관리이다. 사실, 완전히 파괴되고 불완전한 잔해로도 충분한 마법만 있다면 움직일 능력을 부여할 수 있기 때문에 꼭 필요한 것은 아니지만, 너의 예비 하수인들의 관절과 단지가 자유롭게 움직이고 그들을 되살리는데 필요한 의지력을 줄이도록 하기 위한 것이다. 또한 더 크고 대담한 프로젝트를 수행하고자 할 경우에 대비하여 견고하고 신뢰할 수 있는 기반을 마련해야한다.  (46 쪽. 해골 거인과 당신 참조)
 
-아직 무엇을 할 지 모르는가? 그렇다면 고통 속에서 죽어라. 강령술은 그런 무능력자에게는 어울리지 않는다.]], "_t")
-t("how to be a necromancer, part 2", "강령술사가 되는 법 : 제 2 장", "_t")
+아직 무엇을 할 지 모르는가? 그렇다면 고통 속에서 죽어라. 강령술은 그런 무능한자에게는 어울리지 않는다.]], "_t")
+t("how to be a necromancer, part 2", "사령술사가 되는 법 : 제 2 장", "_t")
 t([[#{italic}#2. Domination Of The Deceased#{normal}#
 
 A contentious issue arises when it comes time to breathe life into your gathered specimens - do you raise them as lifeless drones, or do you bind the souls of the deceased within their vessels once more? There is much disagreement on this between the various movements of necromancers. The Beinagrind method of necromancy extols the torturous imprisonment of the soul as fundamental; the anguish generated by the captive spirit makes for a much more effective undead thrall, they claim. The recently founded Tren? method however disagrees, claiming that allowing souls freedom not only results in more obedient slaves less prone to rising up and slaughtering their masters, but also causes your work to become marginally more acceptable to the unwashed masses. Sure, they'll still thrash you, drag you through town and burn you at the stake if they get the chance, but they'll feel ambivalent about it, by thunder!
 
 Remember, when utilising a runic circle to bend your new minions to your will, make sure beforehand that every rune in the circle is enchanted properly and in no danger of fizzling out. If the unthinkable happens and one of your thralls is freed from your control, offer them goods or equipment in exchange for your life. Few undead will kill their creators after receiving such an act of generosity.]], [[#{italic}#2. 사자의 지배#{normal}#
 
-수집한 표본에 생명을 불어넣을 때, 이견이 갈리는 문제가 발생한다 - 생명이 존재하지 않는 하수인으로 일으켜 세울 것인가? 또는 사자의 영혼을 그릇에다가 다시 한번 속박하는가? 많은 강령술사 계파들 조차 논쟁하는 문제이다. 베나그라인드 강령 계파는 영혼의 고통스러운 감금을 기본적으로 추구한다. 속박된 영혼이 만들어내는 괴로움은 언데드 노예들을 더 효과적으로 만든다고 그들은 주장한다. 최근에 세워진 트렌 계파는 어떤가?  그들은 영혼의 자유를 제약하는 것이 더 순종적인 하수인을 만들고, 주인이 살해당하는 일을 줄일 뿐만 아니라 우매한 민중들이 당신의 하수인을 더 잘 받아드리도록 한다고 주장한다. 물론, 그들은 여전히 당신을 두들겨 패고, 마을로 끌고가 화형을 시작할 기회만 보고있을 것이다. 하지만 천둥이 치면, 그 양면성을 느끼게 될것이다!
+수집한 표본에 생명을 불어넣을 때, 의견이 갈리는 문제가 발생한다 - 단순히 몸뚱이만을 일으켜 세울 것인가? 아니면 사자의 영혼을 그들의 몸에 다시 한번 속박할 것인가? 많은 사령술사 계파들 조차 논쟁하는 문제다. 베나그라인드 사령술 계파는 영혼의 고통스러운 속박을 기본적으로 추구한다. 속박된 영혼이 만들어내는 괴로움은 언데드 노예들을 더 효과적으로 만든다고 그들은 주장한다. 최근에 세워진 트렌 계파는 어떤가? 그들은 영혼의 자유를 보장하는 것이 더 순종적인 하수인을 만들고, 주인이 살해당하는 일을 줄여줄 뿐만 아니라 우매한 민중들이 당신의 하수인을 더 잘 받아드리도록 한다고 주장한다. 물론, 그들은 여전히 당신을 두들겨 패고, 마을로 끌고가 화형을 시작할 기회만 보고있을 것이다. 하지만 그들은 그런 짓을 하는것에 크게 후회하게 되리라!
 
-기억하라, 룬 마법진을 사용해, 하수인들은 당신 뜻대로 부릴 때, 마법진 안의 모든 룬이 제대로 마법이 걸려있는지, 또 흐려질 위험이 없는지 확인해야한다. 생각치도 못한 일이 일어나, 노예 하나가 당신의 통제에서 벗어나면 당신의 생명의 댓가로 좋은 장비나 물품을 지급하라. 이런 관용을 받은 불사자들 중 매우 소수만이 주인을 끝내 살해한다.]], "_t")
-t("how to be a necromancer, part 3", "강령술사가 되는 법 :제 3 장", "_t")
+기억하라, 룬 마법진을 사용해, 하수인들은 너의 의지에 속박할 때, 마법진 안의 모든 룬에 제대로 마법이 걸려있는지, 또 흐려질 위험은 없는지 확인해야한다. 생각치도 못한 일이 일어나, 노예 하나가 너의 통제에서 벗어나면 네 생명의 댓가로 좋은 장비나 물품을 지급하라. 이런 관용을 받은 불사자 중 매우 소수만이 주인을 끝내 살해한다.]], "_t")
+t("how to be a necromancer, part 3", "사령술사가 되는 법 :제 3 장", "_t")
 t([[#{italic}#3. Unwanted Attention#{normal}#
 
 Sadly, it is not only the peasantry and our "virtuous" archmage cousins that disapprove of our work. Though not entirely understood, necromancy is known to create "ripples" of a sort across the many dimensions, ripples that attract extra-planar attention. As a necromancer's power grows, so do said ripples, until eventually said necromancer finds all manner of demonic force and entity beating down their door, both mentally and physically.
 
 Once again, opinions differ on this demonic interference. Necromancy is such a beautiful, divergent art, is it not? The Tren? method sees the necromancer's corruption by outside forces as a negative thing, and practitioners of said method often take measures to divert supernatural attention from themselves, creating talismans to act as spiritual "conductors" or living close to the communities that despise them, the life essences of the masses masking the necromancer's dark emanations. On the other hand, the Beinagrind method welcomes the cursed whisperings that come from the demonic realms, believing it to be the completion of their psyches. Only once their spirits have been "corrupted" (a term Beinagrind practitioners scoff at) do people realize their true ambitions, they claim. Why these "true ambitions" always seem to be the utter and complete destruction of all life in this world and the summoning of unthinkable atrocities from the outer dimensions is unexplored.
 
-You may have noticed that no instruction has been given on how to deal with the attention of common folk. That is because a true necromancer requires none. They are vermin, fit only to be crushed.]], [[#{italic}#3. 원치않는 주목#{normal}#
+You may have noticed that no instruction has been given on how to deal with the attention of common folk. That is because a true necromancer requires none. They are vermin, fit only to be crushed.]], [[#{italic}#3. 원치않는 관심#{normal}#
 
-Sadly, it is not only the peasantry and our "virtuous" archmage cousins that disapprove of our work. Though not entirely understood, necromancy is known to create "ripples" of a sort across the many dimensions, ripples that attract extra-planar attention. As a necromancer's power grows, so do said ripples, until eventually said necromancer finds all manner of demonic force and entity beating down their door, both mentally and physically.
+슬프게도, 우리의 일을 못마땅하게 여기는 것은 농민들과 우리의 "고결한" 마도사 사촌들만이 아니다. 비록 완전히 이해되지는 않았지만 사령술은 다른 차원에 걸쳐 일종의 "파문"을 만들어 내는 것으로 알려졌으며, 이는 다른 차원에 사는 존재의 관심을 끈다. 사령술사의 힘이 커지면, 파문의 크기도 마찬가지다. 결국, 사령술사가 정신적, 육체적으로 그들의 문을 두드리는 모든 종류의 악마적인 힘과 실체를 발견하기 전까지는 말이다.
 
-Once again, opinions differ on this demonic interference. Necromancy is such a beautiful, divergent art, is it not? The Tren? method sees the necromancer's corruption by outside forces as a negative thing, and practitioners of said method often take measures to divert supernatural attention from themselves, creating talismans to act as spiritual "conductors" or living close to the communities that despise them, the life essences of the masses masking the necromancer's dark emanations. On the other hand, the Beinagrind method welcomes the cursed whisperings that come from the demonic realms, believing it to be the completion of their psyches. Only once their spirits have been "corrupted" (a term Beinagrind practitioners scoff at) do people realize their true ambitions, they claim. Why these "true ambitions" always seem to be the utter and complete destruction of all life in this world and the summoning of unthinkable atrocities from the outer dimensions is unexplored.
-
-You may have noticed that no instruction has been given on how to deal with the attention of common folk. That is because a true necromancer requires none. They are vermin, fit only to be crushed.]], "_t")
+다시 한 번 이 악마적 간섭에 대한 의견이 엇갈린다. 사령술은 정말 아름답고, 의견이 갈리는 예술이다, 그렇지 않나? 트렌의 방식은 외부 세력에 의한 사령술사의 타락를 부정적인 것으로 보고 있으며, 그 방법의 실천자들은 종종 자신으로부터 초자연적인 관심을 딴 데로 돌리기 위한 조치를 취하여 영적인 '전도체'로 사용하기 위한 부적을 만들거나 그들을 경멸하는 공동체와 가까운 곳에서 생활하는데, 대중의 생명 정수가 사령술의 어두운 기운을 가리는 것이다. 한편, 베나그라인드의 방식은 악마적 세계에서 오는 저주받은 속삭임을 환영하며, 그것이 사령술사의 정신적 완성이라고 믿고 있다. 그들은 영혼이 "타락한" 후에야 진정한 야망을 실현할 수 있다고 주장한다. 왜 이러한 '진정한 야망'이 항상 이 세상의 모든 생명을 완전하고 완벽하게 파괴하는 것처럼 보이는지, 그리고 어째서 외부 차원에서 생각할 수 없을 만큼의 잔혹 행위를 불러들이는 것인지는 설명되지 않았다.
+너는 이쯤에서 대중의 관심에 어떻게 대처해야 하는지에 대한 지침이 주어지지 않았다는 사실을 눈치챘을 것이다. 진정한 사령술사는 어떤 대처도 필요하지 않기 때문이다. 그것들은 해충이고, 으깨버리면 그만이다.]], "_t")
+t("how to be a necromancer, part 4", "사령술사가 되는 법 , part 4", "_t")
 t("of halfling feet", "하플링의 발에 대해", "_t")
 t("misc", "도구", "newLore category")
 t("Dust to Dust", "먼지에서 먼지로", "_t")
@@ -14881,17 +14949,17 @@ Verikor kept Garkul as his guest for many months, and though Garkul had no inkli
 #{italic}#"힘을 손쉽게 얻을 수는 없다. 고통을 통해서만 진정으로 배울 수 있다. 우리 종족은 전쟁과 불길과 역병을 거쳐 살아남았고, 그것들은 우릴 더욱 강하게 만들었다. 우리가 시련을 하나 넘어설 때마다, 우린 더 강한 힘을 얻게 될 것이다."
 - 포식자 가르쿨#{normal}#
 
-가르쿨은 우리의 역사상 가장 위대한 오크이며, 그의 이야기가 곧 우리 종족 황금기의 이야기이다. 그는 우리 부족을 통합했고 적 종족들을 물리쳤으며, 서쪽은 물론이고 동쪽까지 정복했고, 최후에는 일만 명의 적군과 함께 죽었다.
+가르쿨은 우리의 역사상 가장 위대한 오크이며, 그의 이야기가 곧 우리 종족 황금기의 이야기이다. 그는 우리 부족을 통합했고 적 종족들을 물리쳤으며, 서방은 물론이고 동방까지 정복했고, 최후에는 일만 명의 적군과 함께 죽었다.
 
 그는 어려운 시대에 태어났다. 우리 종족이 어두운 동굴에서 은둔 생활을 하며, 할 수 있는 것이라고는 다른 종족들을 기습하는 것 뿐이었던 시기였다. 그는 작은 부족 출신으로, 특별한 혈통도 아니었다. 하지만 그는 어린 나이에 길거리에서 자신이 맹렬하고 영리한 전사라는 것을 증명했다. 다른 종족에는 가르쿨 같은 자가 있을 수 없다는 것에 주목하라. 놈들은 고귀함을 애지중지하면서 스스로를 약하게 만들 뿐이며, 진정한 고난을 견뎌내는 자들만이 섬김을 받는 삶을 살게 되는 것이다. 우리 오크들은 모두 평등하게 태어나며, 모두가 싸움을 통해서 다른 이들에게 자신의 솜씨를 증명할 수 있다. 강한 자만이 지배할 수 있고, 영리한 자만이 그 지배를 유지할 수 있는 것이다.
 
-가르쿨은 길거리에서 자신의 갱단을 만들어냈고, 그 일원들은 모두 그의 힘을 목도하고 곧바로 충성을 맹세한 이들이었다. 얼마 지나지 않아 그는 자신의 부족 전체를 좌지우지할 정도로 강해지게 되었다. 하지만 어느 날 그는 운명의 갈림길을 마주하게 되었다. 주문제작자 베리코르가 각 부족들을 방문하며 그의 마법 실험에 자원할 이를 찾고 있던 것이다. 그가 가르쿨의 부족을 방문하였을 때 그 젊은 오크는 한껏 웃어제끼고는, 에이알의 그 어떤 마법도 자신의 왼팔에는 미치지 못한다고 말하였다. 베리코르는 그 젊은이의 긍지에 깊은 감명을 받았을 뿐만 아니라 그에게서 또 다른 무언가를 보았고, 그래서 가르쿨을 초대하여 그가 새롭게 만들어낸 마법사들과 대적시켜, 그의 힘을 시험하고자 하였다. 가르쿨은 승낙하였고, 그 둘은 베리코르의 실험장으로 갔다.
+가르쿨은 길거리에서 자신의 갱단을 만들어냈고, 그 일원들은 모두 그의 힘을 목도하고 곧바로 충성을 맹세한 이들이었다. 얼마 지나지 않아 그는 자신의 부족 전체를 좌지우지할 정도로 강해지게 되었다. 하지만 어느 날 그는 운명의 갈림길을 마주하게 되었다. 주문제작자 베리코르가 각 부족들을 방문하며 그의 마법 실험에 자원할 이를 찾고 있던 것이다. 그가 가르쿨의 부족을 방문하였을 때 그 젊은 오크는 한껏 웃어제끼고는, 에이알의 그 어떤 마법도 자신의 왼팔에는 미치지 못한다고 말하였다. 베리코르는 그 젊은이의 자신감에 깊은 감명을 받았을 뿐만 아니라 그에게서 또 다른 무언가를 보았고, 그래서 가르쿨을 초대하여 그가 새롭게 만들어낸 마법사들과 대적시켜, 그의 힘을 시험하고자 하였다. 가르쿨은 승낙하였고, 그 둘은 베리코르의 실험장으로 갔다.
 
-그곳에서 가르쿨은 적잖게 놀랐다. 실험장 아래의 숨겨진 동굴에서 수천 명의 오크들이 마법을 수련하고 있었기 때문이다. 그들은 고도로 조직화되어 있었고, 능력 별로 학파와 등급이 나뉘어져 있었으며, 그들의 스승들 또한 실전 전투 기술을 훌륭하게 가르치고 있었다. 베리코르는 그가 마법폭발의 영향을 연구하는 데에 일생을 바치게 된 이유와 다른 종족들의 마법사들을 납치하여 실험을 한 이야기, 그리고 지금 보고 있는 게 그가 한평생 연구한 것의 결실이라는 것을 말해 주었다. 각 부족들의 젊은 오크들을 데려다가 마법사 군대를 양성하여, 동포들을 돕고 적들에게 맞서려 했던 것이다. 가르쿨은 이들의 잠재력에 대해 생각하며 깊은 감명을 받았다.
+그곳에서 가르쿨은 적잖게 놀랐다. 실험장 아래의 숨겨진 동굴에서 수천 명의 오크들이 마법을 수련하고 있었기 때문이다. 그들은 고도로 조직화되어 있었고, 능력별로 학파와 등급이 나뉘어져 있었으며, 그들의 스승들 또한 실전 전투 기술을 훌륭하게 가르치고 있었다. 베리코르는 그가 마법폭발의 영향을 연구하는 데에 일생을 바치게 된 이유와 다른 종족들의 마법사들을 납치하여 실험을 한 이야기, 그리고 지금 보고 있는 게 그가 한평생 연구한 것의 결실이라는 것을 말해 주었다. 각 부족들의 젊은 오크들을 데려다가 마법사 군대를 양성하여, 동포들을 돕고 적들에게 맞서려 했던 것이다. 가르쿨은 이들의 잠재력에 대해 생각하며 깊은 감명을 받았다.
 
 그리고 가르쿨의 시험 시간이 되었고, 가르쿨은 이전에 말했던 대로 왼팔 하나만으로도 최고의 마법사들을 상대할 수 있다고 선언하였다. 그래서 베리코르는 가장 훌륭한 학생 셋을 뽑았는데, 그들은 각각 불, 얼음, 그리고 피를 다루는 마법사였다. 그는 상대방을 먼저 쓰러뜨리는 쪽이 승리한 것으로 한다고 했고, 가르쿨은 만면에 웃음을 띄우며 승낙하고는, 자신의 오른팔을 등 뒤쪽에 딱 붙인 채로 세 명의 마법사들과 맞섰다.
 
-화염술사가 상대방에게 무시무시한 불길을 쏘아댔지만 가르쿨은 엄청난 속도로 모두 피했고, 그 마법사가 다음 주문을 시전하기 전에 턱에 맹렬한 어퍼컷을 박아 넣어 그를 일격에 쓰러뜨렸다. 냉기술사가 얼음 우박을 마구 날려댔지만, 가르쿨은 기절한 화염술사의 로브를 잡고 그를 낚아채어 방패로 삼아서 우박 폭풍을 뚫으며 달려나갔고, 두 번째 마법사 앞에서 그 방패를 던져 버린 다음 곧바로 마법사의 관자놀이를 내리쳤다. 이렇게 마법사 두 명이 불과 몇 초만에 나가떨어지게 되자, 이제 그는 겁을 먹고 뒷걸음질을 치고 있던 타락자에게로 몸을 돌렸다. 가르쿨은 웃음을 흘리며 돌진했지만, 그 혈마법사가 저주를 걸었고 가르쿨은 자신의 팔이 갑자기 쪼그라들어서 쓸 수가 없게 되었다는 걸 알아차렸다. 그러자 그는 마지막 마법사에게 박치기를 날렸고, 마법사가 곧바로 쓰러지면서 저주도 즉시 깨졌다.
+화염술사가 무시무시한 불꽃을 쏘아댔지만 가르쿨은 엄청난 속도로 모두 피했고, 그 마법사가 다음 주문을 시전하기 전에 턱에 맹렬한 어퍼컷을 박아 넣어 그를 일격에 쓰러뜨렸다. 냉기술사가 얼음 우박을 마구 날려댔지만, 가르쿨은 기절한 화염술사의 로브를 잡고 그를 낚아채어 방패로 삼아서 우박 폭풍을 뚫으며 달려나갔고, 두 번째 마법사 앞에서 그 방패를 던져 버린 다음 곧바로 마법사의 관자놀이를 내리쳤다. 이렇게 마법사 두 명이 불과 몇 초만에 나가떨어지게 되자, 이제 그는 겁을 먹고 뒷걸음질을 치고 있던 타락자에게로 몸을 돌렸다. 가르쿨은 웃음을 흘리며 돌진했지만, 그 혈마법사가 저주를 걸었고 가르쿨은 자신의 팔이 갑자기 쪼그라들어서 쓸 수가 없게 되었다는 걸 알아차렸다. 그러자 그는 마지막 마법사에게 박치기를 날렸고, 마법사가 곧바로 쓰러지면서 저주도 즉시 깨졌다.
 
 가르쿨은 매우 놀란 베리코르를 돌아보았고, 고개를 숙였다. "당신이 이겼다. 마지막 놈을 처리할 때 머리를 써 버렸으니까." 그러나 베리코르는 그 전사의 기술에 엄청난 충격을 받았다. 그의 믿을 수 없는 속도와 놀라운 힘, 그리고 임기응변은 그가 이제까지 보아 왔던 그 어떤 이보다도 뛰어났다. 두 사람은 잠시 이야기를 나누었고, 가르쿨은 그의 마법사 군대에 대해 다양한 의견을 제시했다. 그들이 부족의 전사들, 그리고 자연의 추종자들과 힘을 합치면 막강한 군대를 만들어낼 수 있다는 것이었다. 그는 이제 마법의 잠재력에 대해 확실히 깨달았고, 그의 머릿속엔 실전에서 사용할 수 있을 만한 전략전술들이 한가득 떠올랐다.
 
@@ -14946,7 +15014,7 @@ So ended the name Garkul One-Eye, for a new name was born: Garkul the Devourer. 
 
 그는 복수를 하기 적당한 때가 오기를 기다렸고, 다음 번 부족 평의회 날에 부하 스무 명을 대동하고 나섰다. 막아서는 경비들은 주먹질 한 번으로 쓰러뜨렸다. 그의 부하들이 나머지 부족 지도자들을 막아선 동안, 그는 와곤에게 다가갔다. "자, 이빨 빠진 늑대 놈아." 그가 으르렁거렸다. "이제 나랑 붙어 볼 테냐?"
 
-와곤은 그 도전자에게 얕보이고 싶지 않아, 양손에 단검을 쥐고 이를 악물었다. 그러나 가르쿨은 그의 양팔을 붙잡아, 곧바로 몸통에서 찢어 냈다. 그러곤 손으로 비명을 지르고 있는 장로의 머리를 꽉 잡고, 손톱을 살에다가 박다시피 한 채로, 그의 얼굴을 자기 얼굴 앞까지 당겨왔다. 그는 와곤의 오른쪽 눈 위로 턱을 벌리고, 날카롭게 베어물어 눈구멍 째로 깨문 다음, 그대로 고개를 젖혀서 뜯어내고 눈알을 삼켰다. 그러고는 다른 쪽 눈도 똑같이 뜯어내 삼켰고, 그가 짜부러진 살점을 씹자 시커먼 피가 턱을 타고 흘렀다.
+와곤은 그 도전자에게 얕보이고 싶지 않아, 양손에 단검을 쥐고 이를 악물었다. 그러나 가르쿨은 그의 양팔을 붙잡아, 곧바로 몸통에서 뜯어 냈다. 그러곤 비명을 지르고 있는 장로의 머리를 손으로 꽉 잡고, 손톱을 살에다가 박다시피 한 채로, 그의 얼굴을 자기 얼굴 앞까지 당겨왔다. 그는 와곤의 오른쪽 눈 위로 턱을 벌리고, 날카롭게 베어물어 눈구멍 째로 깨문 다음, 그대로 고개를 젖혀서 뜯어내고 눈알을 삼켰다. 그러고는 다른 쪽 눈도 똑같이 뜯어내 삼켰고, 그가 짜부러진 살점을 씹자 시커먼 피가 턱을 타고 흘렀다.
 
 움찔거리는 몸통이 땅으로 떨어졌고, 가르쿨은 눈구멍이 뻥 뚫린 그 머리에다가 주먹을 내리쳐, 와곤의 두개골을 산산조각냈고 그의 이빨을 죄다 날려버렸다. 그는 다른 지도자들 쪽으로 몸을 돌리고 울부짖었다. "봤나?! 내게서 눈을 하나 가져갔으니, 난 두 개를 가져갔다! 날 따라라, 내가 죽은 오크 한 명당 하플링을 두 놈 죽여 버리겠다. 울면서 숨어 지내는 건 이제 끝이다 - 우린 이제 일어서서, 이 땅을 분노로 불태울 것이다!" 가르쿨의 전사들에게 둘러싸인 채로 그의 힘을 목도한 부족 지도자들은 두말없이 그를 따르기로 하였다.
 
@@ -14985,7 +15053,7 @@ Within three months the Eldoral kingdom was broken, and refugees flooded south t
 
 이렇듯 전쟁 초창기에는 손쉽게 이겼으나, 적들도 점점 발전했기에 저항은 점점 더 거세졌다. 적들이 경계에 조금 더 힘을 쏟았기 때문이었다. 하지만 가르쿨은 어떤 상황에서도 능숙하게 대응했고, 그의 전략전술은 항상 적들의 방어를 뛰어넘었다. 그리고 그런 승리 뒤에는 항상 거대한 장작더미가 있었고, 우리의 군대는 그 불길이 차가운 밤하늘을 밝힐 때마다 승리의 노래를 불렀다. 그 전투들은 '장작 전쟁' 이라는 이름으로 알려지게 되었고, 정복의 불길은 마즈'에이알 전역으로 퍼져 나갔다.
 
-3개월도 채 되지 않아 엘도랄 왕국은 무너졌고, 난민들은 자포자기한 채로 그 불길을 피해 남쪽으로 몰려가 '나르골' 이라는 하플링 왕국을 세웠다. 그러자 가르쿨은 그의 군사들을 모아 정복한 땅에 새로운 기지들을 건설한 뒤 다른 종족들을 향해 진격했다. 다른 종족들로부터 매우 오랫동안 고통을 받아 왔던 자들의 분노는, 그 누구도 피할 수 없었다. 수 세기에 걸친 억압은 우릴 강인하게 만들었고, 이제 우리의 가슴 속에 타오른 복수의 불꽃은 꺼뜨릴 수 없게 되었다.]], "_t")
+3개월도 채 되지 않아 엘도랄 왕국은 무너졌고, 난민들은 자포자기한 채로 그 불길을 피해 남쪽의 '나르골' 이라는 하플링 왕국으로 몰려갔다. 그러자 가르쿨은 그의 군사들을 모아 정복한 땅에 새로운 기지들을 건설한 뒤 다른 종족들을 향해 진격했다. 다른 종족들로부터 매우 오랫동안 고통을 받아 왔던 자들의 분노는, 그 누구도 피할 수 없었다. 수 세기에 걸친 억압은 우릴 강인하게 만들었고, 이제 우리의 가슴 속에 타오른 복수의 불꽃은 꺼뜨릴 수 없게 되었다.]], "_t")
 t([[#{bold}#Chapter Four: Conqueror of West and East#{normal}#
 
 #{italic}#"Our strength must come through our pride, and our pride must rise from our strength. Many are our powers and abilities, and we are unified in our pride of them. Be proud in our great race and revel in the glories we can achieve together."
@@ -15006,18 +15074,73 @@ When Garkul next returned from the east he heard from his spies of great operati
 #{italic}#"우리의 힘은 우리의 긍지로부터 와야 하며, 우리의 긍지는 우리의 힘으로부터 솟아야 한다. 수많은 것들이 우리의 힘이자 능력이고, 우린 그것들에 대한 긍지로 뭉쳤다. 우리가 이렇게 위대한 종족이라는 것을 자랑스러워하고, 우리가 함께 이룰 수 있는 영광을 즐겨라."
 - 포식자 가르쿨#{normal}#
 
-For many years the great conquest could not be held back. Garkul marched across the lands, insufferable of any resistance. The Eldoral were broken, and they fled to their halfling cousins the Nargols in the south. The humans were split into many kingdoms, and Garkul began to pick them off one by one, leaving just a few isolated in the west and south. The Thaloren hid in their dark forests, penned in by the mighty orcish armies. The Shaloren tried to fight, and with their great magics they created grave opposition to the orcish troops, but gradually they were beaten back and forced to retreat to their capital in the south-west. The dwarves viciously defended their halls in the east, and Garkul could not penetrate their cities of stone, but he laid plans in place to take them through caves below.
+위대한 정복은 몇십 년간 이어졌다. 가르쿨은 그 어떤 저항에도 굴하지 않고 대지를 가로질렀다. 엘도랄 왕국은 무너졌고, 그들은 하플링 사촌들이 사는 남쪽의 나르골 왕국으로 도망쳤다. 인간들은 수많은 왕국들로 분열되었고, 가르쿨은 그 왕국들을 하나하나 공격하여 결국 서쪽과 남쪽의 몇몇만 제외하고 모두 멸망시켰다. 탈로레들은 자신들의 어두운 숲에 숨었는데, 막강한 오크 군대에 의해 그곳에 갇힌 꼴이나 다름없었다. 샬로레들은 맞서 싸우려 했고 실제로 강력한 마법을 구사하여 오크 군대에게 큰 위협이 되었었지만, 점점 패퇴하여 결국 남서쪽에 있는 자신들의 중심 도시로 후퇴할 수밖에 없었다. 드워프들은 동쪽에 있는 자신들의 도시를 맹렬하게 방어했고, 가르쿨조차 그들의 바위로 된 도시를 뚫어내진 못하였지만 그 대신에 그는 도시 아랫쪽의 동굴을 통해 놈들을 처리할 계획을 세웠다.
 
-All the centre of Maj'Eyal was under Garkul's dominion - from the northern wastes to the southern lakes; from the Daikara Mountains to the western ocean. Orc patrols covered every valley and every field, and any enemies found were eradicated. Garkul's support was utterly unwavering, as every orc took new pride in their amazing achievements under his leadership.
+북부 황무지부터 남쪽의 호수까지, 다이카라 산맥부터 서쪽의 바다까지, 마즈'에이알의 모든 중심지가 가르쿨의 지배 하에 있었다. 오크 순찰대가 협곡과 평야를 전부 감시했으며, 적들을 발견하는 즉시 뿌리를 뽑아 버렸다. 가르쿨의 지휘 또한 한결같았고, 모든 오크들은 그의 아래에서 이룩한 업적들을 보며 새롭게 자긍심을 다질 수 있었다.
 
-But victory was not complete, as many centres of power and resistance still remained, and the Nargol were still a grave threat from the south. Garkul was careful not to overreach, not to spread his forces too thin before victory was assured. He knew he must bide his time and build up his forces to their greatest possible strength.
+그러나 아직 완전한 승리는 아니었다. 여전히 힘을 모으며 저항하고 있는 무리들이 남아 있었고, 남쪽의 나르골 왕국 또한 여전히 중대한 위협이었다. 가르쿨은 자신의 승리가 확실해지기 전까지는 방심하지 않으려 노력했고, 병력들을 너무 분산시키지 않으려 했다. 그는 적절한 시기가 오길 기다리면서 최강의 병력을 키워내야 한다는 것을 알고 있었다.
 
-Then beneath the dwarven city of Reknor our scouts discovered an amazing thing - a Sher'Tul farportal. The blood mages studied it, and after some time they succeeded in activating it, and discovered a new land. It was the lost East, sundered from Maj'Eyal after the great cataclysm. Garkul saw here a great opportunity, and he instructed many thousands of young warriors and mages to be sent over to the east. There they formed training grounds where the military could train and practise to master their techniques before returning to join the wars in the west. Garkul named them the Prides, for he said here was were the strength of our race would lie, and here was what we would be most proud of.
+그 이후, 우리의 정찰대가 드워프의 도시 레크놀 지하에서 아주 놀라운 것을 발견하였다. 바로 쉐르'툴의 장거리 차원문이었다. 혈마법사들이 그것을 연구하였고, 얼마 지나지 않아 그것을 작동시키는 데 성공하여 새로운 땅을 발견하게 되었다. 그 땅이 바로 잃어버린 동쪽 대륙으로, 대재앙 당시 마즈'에이알에서 떨어져 나온 땅이었다. 가르쿨은 그 땅에서 굉장한 잠재력을 보았고, 수천에 달하는 젊은 전사들과 마법사들을 동쪽 땅으로 보내라고 명했다. 그들은 군대가 서쪽의 전쟁에 참가하러 돌아가기 전까지 자신들의 기술을 갈고닦을 수 있는 훈련장을 만들었다. 가르쿨은 우리 종족의 힘이 이곳에 있으며, 우리가 가장 자랑스러워해야 할 것이 있는 곳이라고 하며, 그곳들을 '긍지' 라고 명명하였다.
 
-But while Garkul was busy establishing the Prides the Nargol king was planning a strategy of defence. He knew that the orcish armies would come for his kingdom soon, and he drew on the powers of his greatest strategists to prepare a force that could not be overcome. He summoned the mightiest alchemists from all the lands and together they laid plans for a creation that could not be beaten: the giant golem Atamathon.
+그러나 가르쿨이 긍지들을 세우느라 바쁜 동안, 나르골의 왕은 방어 전략을 짜고 있었다. 놈은 오크 군대가 머지않아 자신의 왕국으로 올 것이라는 걸 알고 있었고, 그래서 최고의 전략가들의 힘을 빌려 절대로 패배하지 않는 병력을 만들어내려 했다. 놈은 마즈'에이알 전역에서 최고의 연금술사들을 불러모았고, 그리하여 전례가 없는 최강의 병기를 만들어낼 계획을 세웠다. 그 결과물이 바로, 거대 골렘 아타마쏜이었다.
 
-When Garkul next returned from the east he heard from his spies of great operations afoot in the Nargol kingdom, and he knew that he must face down the halflings. He did not know that it would be his last battle.]], "_t")
+동쪽 대륙에서 돌아온 가르쿨은 그의 첩자들로부터 나르골 왕국에서 진행된 엄청난 계획에 대한 이야기를 듣게 되었고, 그는 하플링들을 반드시 쓰러뜨려야 한다는 것을 깨닫고 전투 준비에 나섰다. 그러나 그것이 최후의 전투가 될 것이라고는 알지 못했다.]], "_t")
 t("The Legend of Garkul", "가르쿨의 전설", "_t")
+t([[#{bold}#Chapter Five: Fall of the Mighty#{normal}#
+
+#{italic}#"A true warrior never dies. His fall may come on the battlefield, but it is a fall to inspire all others who follow him. He lives on in their every thrust, every parry, every swipe. Whilst blood still spills in his name a warrior is immortal."
+- Sayings of Garkul the Devourer#{normal}#
+
+Garkul gathered a force together to take on the Nargol kingdom, striking south at their centre of power. It was not a force as strong as he would have liked, for many troops had been sent east to establish the Prides, but he knew he must quell any resistance from the halflings before it was too late.
+
+He marched with care towards the southern city, with minor skirmishes along the way. As he approached the capital he saw the halfling armies ready, with over ten thousand troops organised into units, ready to defend their kingdom. Garkul had only five thousand with him, but he knew that his warriors were far stronger, and that with his tactics they would easily prevail. But still a nervousness was in him, and he advanced his troops with caution.
+
+The orcs reached a tilled field, and the halfling army stood on the other side, waiting. Garkul eyed the ground suspiciously, but as the halfling slingers began to fire at them he knew he must act - he gave the order to attack. His warriors charged with speed towards with enemy, with his mages following behind, but as they neared their foe there was a sudden tumult in the ground. The fighters were knocked back as the earth tore open and a massive hand rose up, followed by a gigantic head. Slowly rising forth from the ground they saw a monster of unparalleled size - it was the giant golem Atamathon. Long had the halfling alchemists worked on it in secret, crafting its body of marble and its joints of voratun, setting a thousand rubies into each of its eyes and imbuing it with unrivalled power. Carefully had the strategists laid the trap, leading Garkul's army to this place with precisely timed skirmishes, waiting for the right moment to reveal their awe-inspiring weapon.
+
+The orcish troops flailed against the golem, battering their weapons against its solid feet, but to no result. The mages fired spells of fire and ice at its chest, but they were reflected away without effect. Then the halfling alchemists stood forth and channelled their energies through the golem, and its ruby eyes glowed brightly before a beam of flames erupted and burned down on the orcish troops. The golem marched forwards, each step crushing dozens of warriors, whilst its beaming eyes tore through the ranks of mages. Then the alchemists joined in throwing bombs, and the slingers fired shot after shot and a great massacre began.
+
+Garkul saw his troops in disarray, and knew that against this new weapon none of his army could prevail. He ran to his wolf-riders and grabbed the greatest beast, a vicious warg over ten feet long, and mounting it he charged into the fray. He rushed the wolf straight towards the giant golem, and made it leap towards the monster's towering chest. The golem swiped down a massive fist that smashed the warg apart, but Garkul jumped at the last moment and grabbed onto the golem's head, and drawing out his axe he swept it into one of the ruby eyes, shattering it.
+
+Then the golem reached with both hands and grabbed Garkul by the arms, and his axe fell to the ground below. Atamathon held tightly to the great orc's limbs in its marble grip, and proceeded to try and rip them off. But Garkul flexed his muscles with all his strength, and resisted the might of the golem, and slowly he began to twist the golem's fists forwards, drawing him closer to monster's head. When he was close enough to that marble brow he smashed his head forwards against it, and the ringing sound of his steel helm hitting the solid stone tore through the air. The golem shuddered a moment, and Garkul headbutted it again, and his steel helm was torn from his pate. Once more he thrust his head forward, and the impact made a deep gash across his temples, but the thick marble of the golem's head was also dented. Another headbutt was launched forth, and two more as the golem's skull began to crack apart and its legs gave way beneath it. Garkul turned his bloodied head to the sky and roared before delivering a final fatal plunge of his head. His brow met the thick marble, and the golem's head shattered apart beneath the force. The golem collapsed, and Garkul with it. Thus fell the giant golem Atamathon, and its like has not been seen again.
+
+At this the halflings were dismayed, for though the orcish troops were decimated their mighty weapon was also broken. Then they advanced towards the ruins and saw movement within, and before them rose Garkul the Devourer. His head was gashed and bloodied, and his arms were badly bruised, but he had recovered his axe and now faced them with a grin.
+
+He saw he was alone now, for what had remained of his army had been finished off whilst he had battled the golem, and though they had fought well there still remained ten thousand troops before him. But he grinned, for he was a warrior true, and never more happy than when on the battlefield, facing foes insurmountable. He charged.
+
+The bodies soon piled up in his wake as he tore through the halfling troops. He shrugged off blows against him, and swung his axe before him. He cleaved through skulls and sliced through armour and flesh and bones. When they tried to grab his weapon from him he punched them away, or bit through their throats. He laughed as he danced around his enemies, blood spurting up from their wounds and raining down over his face. Hundreds fell beneath his blade before the axe cracked and broke, but still he gripped the shaft and stabbed and clubbed and swiped.
+
+Then the alchemists threw their bombs at him, scorching his flesh. And the archers and slingers fired at him, their arrows piercing his skin and their shots bruising his body. But Garkul roared a mighty warshout, and the arrows and shots in the air were shattered, and the ground before him tore apart. He grabbed two waraxes from the bodies nearby and rushed towards his attackers, raining down blows on them with each hand. The halflings surrounded him, and attacks came from all sides, but he carried on fighting furiously.
+
+But the fight could not carry on forever. A stab from a sword crippled his leg, and a blast from a bomb blinded his eye, and though he continued to battle, wading through the corpses around him, blood now seeped through cuts all over his body. The blades of the axes he wielded became cracked and dented, and he was left wielding the shafts as clubs. He swung them through the troops before him, until his movements slowed to a stop, and the alchemists rained down bomb after bomb until his charred corpse moved no more. So died Garkul the Devourer, though his body stayed upright even in death, clutching his weapons above his head, and standing atop a field of over ten thousand bodies. For when the halflings counted their numbers after, only a few hundred remained.
+
+Our forces never full recovered from the loss of our great leader. The wars continued, but without his strategies failure became more frequent. Eventually the other races began to fight back, and we were driven from our homeland. But the spirit of Garkul remains with us all, and his lessons stay in our hearts and minds. One day we will return to the place of his birth, and the glory he began shall be completed - Maj'Eyal will be ours.]], [[#{bold}#제5장: 쓰러지는 영웅#{normal}#
+
+#{italic}#"진정한 전사는 결코 죽지 않는다. 전장에서 쓰러질 순 있지만, 따르는 자들을 고무시키기 위해서 쓰러지는 것이다. 전사는 그들의 찌르기 하나하나에, 쳐내기 하나하나에, 그리고 무기 하나하나에 살아 숨쉬고 있다. 그의 이름으로 피가 흩뿌려지는 한, 전사는 불멸이다."
+- 포식자 가르쿨#{normal}#
+
+Garkul gathered a force together to take on the Nargol kingdom, striking south at their centre of power. It was not a force as strong as he would have liked, for many troops had been sent east to establish the Prides, but he knew he must quell any resistance from the halflings before it was too late.
+
+He marched with care towards the southern city, with minor skirmishes along the way. As he approached the capital he saw the halfling armies ready, with over ten thousand troops organised into units, ready to defend their kingdom. Garkul had only five thousand with him, but he knew that his warriors were far stronger, and that with his tactics they would easily prevail. But still a nervousness was in him, and he advanced his troops with caution.
+
+The orcs reached a tilled field, and the halfling army stood on the other side, waiting. Garkul eyed the ground suspiciously, but as the halfling slingers began to fire at them he knew he must act - he gave the order to attack. His warriors charged with speed towards with enemy, with his mages following behind, but as they neared their foe there was a sudden tumult in the ground. The fighters were knocked back as the earth tore open and a massive hand rose up, followed by a gigantic head. Slowly rising forth from the ground they saw a monster of unparalleled size - it was the giant golem Atamathon. Long had the halfling alchemists worked on it in secret, crafting its body of marble and its joints of voratun, setting a thousand rubies into each of its eyes and imbuing it with unrivalled power. Carefully had the strategists laid the trap, leading Garkul's army to this place with precisely timed skirmishes, waiting for the right moment to reveal their awe-inspiring weapon.
+
+The orcish troops flailed against the golem, battering their weapons against its solid feet, but to no result. The mages fired spells of fire and ice at its chest, but they were reflected away without effect. Then the halfling alchemists stood forth and channelled their energies through the golem, and its ruby eyes glowed brightly before a beam of flames erupted and burned down on the orcish troops. The golem marched forwards, each step crushing dozens of warriors, whilst its beaming eyes tore through the ranks of mages. Then the alchemists joined in throwing bombs, and the slingers fired shot after shot and a great massacre began.
+
+Garkul saw his troops in disarray, and knew that against this new weapon none of his army could prevail. He ran to his wolf-riders and grabbed the greatest beast, a vicious warg over ten feet long, and mounting it he charged into the fray. He rushed the wolf straight towards the giant golem, and made it leap towards the monster's towering chest. The golem swiped down a massive fist that smashed the warg apart, but Garkul jumped at the last moment and grabbed onto the golem's head, and drawing out his axe he swept it into one of the ruby eyes, shattering it.
+
+Then the golem reached with both hands and grabbed Garkul by the arms, and his axe fell to the ground below. Atamathon held tightly to the great orc's limbs in its marble grip, and proceeded to try and rip them off. But Garkul flexed his muscles with all his strength, and resisted the might of the golem, and slowly he began to twist the golem's fists forwards, drawing him closer to monster's head. When he was close enough to that marble brow he smashed his head forwards against it, and the ringing sound of his steel helm hitting the solid stone tore through the air. The golem shuddered a moment, and Garkul headbutted it again, and his steel helm was torn from his pate. Once more he thrust his head forward, and the impact made a deep gash across his temples, but the thick marble of the golem's head was also dented. Another headbutt was launched forth, and two more as the golem's skull began to crack apart and its legs gave way beneath it. Garkul turned his bloodied head to the sky and roared before delivering a final fatal plunge of his head. His brow met the thick marble, and the golem's head shattered apart beneath the force. The golem collapsed, and Garkul with it. Thus fell the giant golem Atamathon, and its like has not been seen again.
+
+At this the halflings were dismayed, for though the orcish troops were decimated their mighty weapon was also broken. Then they advanced towards the ruins and saw movement within, and before them rose Garkul the Devourer. His head was gashed and bloodied, and his arms were badly bruised, but he had recovered his axe and now faced them with a grin.
+
+He saw he was alone now, for what had remained of his army had been finished off whilst he had battled the golem, and though they had fought well there still remained ten thousand troops before him. But he grinned, for he was a warrior true, and never more happy than when on the battlefield, facing foes insurmountable. He charged.
+
+The bodies soon piled up in his wake as he tore through the halfling troops. He shrugged off blows against him, and swung his axe before him. He cleaved through skulls and sliced through armour and flesh and bones. When they tried to grab his weapon from him he punched them away, or bit through their throats. He laughed as he danced around his enemies, blood spurting up from their wounds and raining down over his face. Hundreds fell beneath his blade before the axe cracked and broke, but still he gripped the shaft and stabbed and clubbed and swiped.
+
+Then the alchemists threw their bombs at him, scorching his flesh. And the archers and slingers fired at him, their arrows piercing his skin and their shots bruising his body. But Garkul roared a mighty warshout, and the arrows and shots in the air were shattered, and the ground before him tore apart. He grabbed two waraxes from the bodies nearby and rushed towards his attackers, raining down blows on them with each hand. The halflings surrounded him, and attacks came from all sides, but he carried on fighting furiously.
+
+But the fight could not carry on forever. A stab from a sword crippled his leg, and a blast from a bomb blinded his eye, and though he continued to battle, wading through the corpses around him, blood now seeped through cuts all over his body. The blades of the axes he wielded became cracked and dented, and he was left wielding the shafts as clubs. He swung them through the troops before him, until his movements slowed to a stop, and the alchemists rained down bomb after bomb until his charred corpse moved no more. So died Garkul the Devourer, though his body stayed upright even in death, clutching his weapons above his head, and standing atop a field of over ten thousand bodies. For when the halflings counted their numbers after, only a few hundred remained.
+
+Our forces never full recovered from the loss of our great leader. The wars continued, but without his strategies failure became more frequent. Eventually the other races began to fight back, and we were driven from our homeland. But the spirit of Garkul remains with us all, and his lessons stay in our hearts and minds. One day we will return to the place of his birth, and the glory he began shall be completed - Maj'Eyal will be ours.]], "_t")
 t("Captain Gumlarat's report", "대장 검라랏의 보고서", "_t")
 t("orc prides", "오크 긍지", "newLore category")
 
@@ -21224,7 +21347,7 @@ t([[Allows a mage to teleport to the secret town of Angolwen.
 	마법 발동에는 시간이 약간 필요하며, 그 시간 동안 당신은 누군가의 시야 내에 들어가서는 안됩니다.]], "_t")
 t("Timeport: Point Zero", "시공간이동 : 영점", "talent name")
 t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
-t("There are creatures that could be watching you; you cannot take the risk.", "당신을 보고있는 자들이 있다. 당신은 위험을 감수할 수 없다.", "log")
+t("There are creatures that could be watching you; you cannot take the risk.", "당신을 보고 있는 자들이 있다. 위험을 감수할 순 없다.", "log")
 t([[Allows a chronomancer to timeport to Point Zero.
 	You have studied the chronomancy there and have been granted a special portal spell to teleport back.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
@@ -24766,17 +24889,6 @@ t([[You create an orb attuned to thaumaturgy for %d turns.
 		지속시간 동안, 시전자가 시전하는 모든 광선 주문이 복제되어, 구체가 원래의 %d%% 피해로 같은 주문을 시전합니다.
 		]], "tformat")
 t("Multicaster", "다중 시전자", "talent name")
-t([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
-		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
-		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
-		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
-		The additional cast will cost mana but no turn and will not active its cooldown.
-		During Aether Avatar only compatible spells are used.]], [[광선 주문의 시전은 본능의 영역에 다다라, 동시에 다른 주문을 손쉽게 엮어낼 수 있게됩니다.
-		광선 마법을 시전할 때, %d%% 확률로 시전자가 알고있는 공격 주문을 자동으로 시전합니다.
-		주술의 보주로 복제된 광선 주문도 이 효과를 발동시킵니다.
-		이 효과는 한 턴에 1 번 발동되며, 주술의 보주가 활성화 된 상태라면 2 번까지 발동됩니다.
-		추가 시전에는 마나가 소모되지만 턴을 소모하지 않고, 재사용 대기시간 역시 적용되지 않습니다.
-		에테르의 화신의 지속 시간 동안, 에테르의 화신에 맞는 주문들만 사용됩니다.]], "tformat")
 t("Slipstream", "비전 이동", "talent name")
 t("#PURPLE#Your Slipstream does not have enough resources!", "#PURPLE#당신은 비전 이동을 사용할 충분한 마나가 없다!", "logPlayer")
 t("#PURPLE#Your Slipstream regenerates to full!", "#PURPLE#당신의 비전 이동은 완전히 충전되었다!", "logPlayer")

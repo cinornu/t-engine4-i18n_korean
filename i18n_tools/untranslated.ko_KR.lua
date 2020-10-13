@@ -748,52 +748,7 @@ t("races", "races", "newLore category")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/zones.lua"
--- 10 entries
-t([[Thought is treasure. Treasure thoughts. Spin fates, tell tales, words of gods, smith into fables. All that is can be rewritten and all writing is defined by what is. Cascades upon cascades which blend into reality, ever altering, ever changing, ever being, ever ceasing.
-
-Words are power. My power is words. I am infinity and its end. Everything is possible.]], [[Thought is treasure. Treasure thoughts. Spin fates, tell tales, words of gods, smith into fables. All that is can be rewritten and all writing is defined by what is. Cascades upon cascades which blend into reality, ever altering, ever changing, ever being, ever ceasing.
-
-Words are power. My power is words. I am infinity and its end. Everything is possible.]], "_t")
-t([[It spins. It all spins. Around and around. Fleshlings write tripe. Meaningless. Waste of existence. No life in their words. No understanding. Breathe the story, they shall. Understand the story. I shall show them. They shall see. See, they shall. Again and again. Until they understand.
-
-The unworthy will not understand.]], [[It spins. It all spins. Around and around. Fleshlings write tripe. Meaningless. Waste of existence. No life in their words. No understanding. Breathe the story, they shall. Understand the story. I shall show them. They shall see. See, they shall. Again and again. Until they understand.
-
-The unworthy will not understand.]], "_t")
-t([[Meaningless to show. Still do not understand. They scream. They scream and scream. They do not see. Fleshling eyes see not beyond the veil. They see not the truth beyond the veil. They do not understand words. Not true words. Fleshling tongues never pronounce the true words. Worthless. Useless. Thoughtless.
-
-Thoughts are treasure. Treasure thoughts. Thoughtlessness is useless. Thoughtlessness is unworthy. Thoughtlessness will never see the truth beyond the veil.]], [[Meaningless to show. Still do not understand. They scream. They scream and scream. They do not see. Fleshling eyes see not beyond the veil. They see not the truth beyond the veil. They do not understand words. Not true words. Fleshling tongues never pronounce the true words. Worthless. Useless. Thoughtless.
-
-Thoughts are treasure. Treasure thoughts. Thoughtlessness is useless. Thoughtlessness is unworthy. Thoughtlessness will never see the truth beyond the veil.]], "_t")
-t("an escape from reality (1)", "an escape from reality (1)", "_t")
-t([[So, what does an adventurer do when they get bored with it all? For me, I wanted to find a nice castle somewhere out in the countryside and spend the rest of my days in idle contentment. The issue there is that I made a lot of enemies who would have loved for me to settle down in one spot, so I needed to think of a solution.
-
-That's when I found this place. Everyone else avoided it because people never left once they went inside it. Being used to the adventuring life, I saw such a thing as a challenge. Turns out that this cursed castle, as people referred to it, constantly changes its inside layout. No one really knows how or why it does it, but I'm not really one to question such things. If I could just work out the logic behind how it shifted itself, I could have an unassailable fortress. 
-
-However, I also found that this still didn't deter people from coming to kill me. They all swarmed in and although a lot of them got lost in the hallways, a few actually managed to reach me. I had grown rather attached to the place at this point, but neither could I stay there. My solution came with a bizarre tome I had found in my adventures. When I opened the cover and pointed it in the right direction, it could suck things into its very pages.
-
-So, being the savvy adventurer I am, I opened the tome and sucked the entire castle inside of it. It seems like the tome could only suck so much inside its covers, so it could no longer hold anything else in it. Although I had to sacrifice a great treasure, I now had a sanctuary away from the real world which I could escape to whenever I needed shelter.]], [[So, what does an adventurer do when they get bored with it all? For me, I wanted to find a nice castle somewhere out in the countryside and spend the rest of my days in idle contentment. The issue there is that I made a lot of enemies who would have loved for me to settle down in one spot, so I needed to think of a solution.
-
-That's when I found this place. Everyone else avoided it because people never left once they went inside it. Being used to the adventuring life, I saw such a thing as a challenge. Turns out that this cursed castle, as people referred to it, constantly changes its inside layout. No one really knows how or why it does it, but I'm not really one to question such things. If I could just work out the logic behind how it shifted itself, I could have an unassailable fortress. 
-
-However, I also found that this still didn't deter people from coming to kill me. They all swarmed in and although a lot of them got lost in the hallways, a few actually managed to reach me. I had grown rather attached to the place at this point, but neither could I stay there. My solution came with a bizarre tome I had found in my adventures. When I opened the cover and pointed it in the right direction, it could suck things into its very pages.
-
-So, being the savvy adventurer I am, I opened the tome and sucked the entire castle inside of it. It seems like the tome could only suck so much inside its covers, so it could no longer hold anything else in it. Although I had to sacrifice a great treasure, I now had a sanctuary away from the real world which I could escape to whenever I needed shelter.]], "_t")
-t("an escape from reality (2)", "an escape from reality (2)", "_t")
-t([[As much as I love this castle, it really does give you a headache after a while. Whenever I tried to decorate rooms or organise anything in its interior, I would inevitably find the room in a completely different area. While I can navigate through the place without too much trouble now, it's still pretty annoying when I have to find a specific room.
-
-I sometimes wonder if I'll ever run into the people who entered this place and never left. The shifting rooms themselves aren't that difficult to understand, once you find out the patterns behind their changes. If I could work out, then surely someone else had to as well, right? I do sometimes feel as if I'm not really alone in the castle, despite being the only person who can even reach this place, not to mention the only living thing walking these halls. I haven't seen so much as a mouse since I trapped the castle within my book.
-
-I fear that I'm also starting to develop an unhealthy attachment to this place. I have not been able to have a single day of peace since I began my adventuring career, so the security these glass walls offer is becoming far too alluring to me.]], [[As much as I love this castle, it really does give you a headache after a while. Whenever I tried to decorate rooms or organise anything in its interior, I would inevitably find the room in a completely different area. While I can navigate through the place without too much trouble now, it's still pretty annoying when I have to find a specific room.
-
-I sometimes wonder if I'll ever run into the people who entered this place and never left. The shifting rooms themselves aren't that difficult to understand, once you find out the patterns behind their changes. If I could work out, then surely someone else had to as well, right? I do sometimes feel as if I'm not really alone in the castle, despite being the only person who can even reach this place, not to mention the only living thing walking these halls. I haven't seen so much as a mouse since I trapped the castle within my book.
-
-I fear that I'm also starting to develop an unhealthy attachment to this place. I have not been able to have a single day of peace since I began my adventuring career, so the security these glass walls offer is becoming far too alluring to me.]], "_t")
-t("an escape from reality (3)", "an escape from reality (3)", "_t")
-t([[I knew it. I'm not alone in here. While I was right that I'm the only living thing, this castle does have its own guardians and servitors. Animated golems made of glass wander the halls now, searching for me. My fortress is no longer mine and there is no safety to be found within these walls. I knew that I could never truly find somewhere I could be safe, not in this book or in the outside world. I do not know where these golems came from. Perhaps the castle itself is trying to expel me from it or maybe I triggered some defence by wandering into the wrong room.
-
-My treasure is stored somewhere in this castle, but I just don't care anymore. Escaping with my life will be treasure enough. When I reach the outside world again, maybe I'll drop the tome in a river and hope that no one else tries their luck with this place. I'm sure the spirits that haunt this place will rest easier knowing that there won't be any more victims.]], [[I knew it. I'm not alone in here. While I was right that I'm the only living thing, this castle does have its own guardians and servitors. Animated golems made of glass wander the halls now, searching for me. My fortress is no longer mine and there is no safety to be found within these walls. I knew that I could never truly find somewhere I could be safe, not in this book or in the outside world. I do not know where these golems came from. Perhaps the castle itself is trying to expel me from it or maybe I triggered some defence by wandering into the wrong room.
-
-My treasure is stored somewhere in this castle, but I just don't care anymore. Escaping with my life will be treasure enough. When I reach the outside world again, maybe I'll drop the tome in a river and hope that no one else tries their luck with this place. I'm sure the spirits that haunt this place will rest easier knowing that there won't be any more victims.]], "_t")
+-- 1 entries
 t("An illustrated tome!", "An illustrated tome!", "_t")
 
 
@@ -4199,82 +4154,8 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 
 
 ------------------------------------------------
-section "game/modules/tome/data/lore/fearscape.lua"
--- 5 entries
-t("a fearsome sight", "a fearsome sight", "_t")
-t([[You stand in a field of fire, the flames dancing back and forth like blaze-spawned corn waving in the wind. It licks your feet, your skin, your face, and writhes around in tiny shapes which tear across your flesh and crawl down your throat. It burns and blazes through your body, and crazed thoughts fill your mind. This is Goedalath they tell you, the Fearscape, and you have no rightful place here.
-
-In the distance you see looming, demonic shapes of absolute darkness, towering above the blazing land like wardens of doom. The sky is black, but above your head hangs a round world that you recognise as Eyal. Across the burning plains gather armies of fiendish figures, and glowing eyes turn up with hateful glowers to your home world. Suddenly both you and it and seem small and frail. As the flames fill your body with pain your only thought is of escape.]], [[You stand in a field of fire, the flames dancing back and forth like blaze-spawned corn waving in the wind. It licks your feet, your skin, your face, and writhes around in tiny shapes which tear across your flesh and crawl down your throat. It burns and blazes through your body, and crazed thoughts fill your mind. This is Goedalath they tell you, the Fearscape, and you have no rightful place here.
-
-In the distance you see looming, demonic shapes of absolute darkness, towering above the blazing land like wardens of doom. The sky is black, but above your head hangs a round world that you recognise as Eyal. Across the burning plains gather armies of fiendish figures, and glowing eyes turn up with hateful glowers to your home world. Suddenly both you and it and seem small and frail. As the flames fill your body with pain your only thought is of escape.]], "_t")
-t("fearscape", "fearscape", "newLore category")
-t("sacrificial altar", "sacrificial altar", "_t")
-t([[You see a female human lying unconscious on a black altar, twisted sigils scored into her naked flesh.
-Around her are several figures in dark robes.
-
-As they notice you one calls out 'Intruder! Protect the seed of Kryl-Feijan!']], [[You see a female human lying unconscious on a black altar, twisted sigils scored into her naked flesh.
-Around her are several figures in dark robes.
-
-As they notice you one calls out 'Intruder! Protect the seed of Kryl-Feijan!']], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/lore/fun.lua"
--- 7 entries
-t([[#{bold}#"The Necromancer's Canticle"
-
-#{italic}#Saved from coffin, casket, urn
-Darkness falls, but life returns!
-Flesh may fall and bone may burn
-But soul remains, for which we yearn
-
-Those we return to life's esteem
-We see their hearts, their eyes do gleam
-They rave! They kill! They gnash! They scream!
-So full of joy! Their greatest dream!
-
-Returning those that we amend
-They hurry home, a distant friend
-But do they cheer? Do they commend?
-They yell! Does rotting flesh offend?
-
-We bring life to lifeless bone
-But do they smile? Do they condone?
-They sit upon their golden thrones
-They shun us, spurn us, make unknown
-
-Fools! Sit high in golden tower
-From your lofty perch you glower
-Time will come when you will cower
-We rule death, we wield the power
-#{normal}#]], [[#{bold}#"The Necromancer's Canticle"
-
-#{italic}#Saved from coffin, casket, urn
-Darkness falls, but life returns!
-Flesh may fall and bone may burn
-But soul remains, for which we yearn
-
-Those we return to life's esteem
-We see their hearts, their eyes do gleam
-They rave! They kill! They gnash! They scream!
-So full of joy! Their greatest dream!
-
-Returning those that we amend
-They hurry home, a distant friend
-But do they cheer? Do they commend?
-They yell! Does rotting flesh offend?
-
-We bring life to lifeless bone
-But do they smile? Do they condone?
-They sit upon their golden thrones
-They shun us, spurn us, make unknown
-
-Fools! Sit high in golden tower
-From your lofty perch you glower
-Time will come when you will cower
-We rule death, we wield the power
-#{normal}#]], "_t")
-t("how to be a necromancer, part 4", "how to be a necromancer, part 4", "_t")
+-- 5 entries
 t([[#{italic}#4. Necromancers Of Maj'Eyal#{normal}#
 
 The greatest enemy of the necromancer is other necromancers. Well, apart from the Ziguranth, the Allied Kingdoms, the Shaloren, the Thaloren, the Iron Throne, common townsfolk, undead hunters, adventurers, rogue undead and Linaniil. But apart from them, the greatest enemy of the necromancer is other necromancers. Below is listed the location of many notable necromancers, areas possessing above-average undead activity, and other regions considered unfitting for our designs. Budding practitioners of our art are encouraged to perform their work away from these areas, lest they be recognized as threats or nuisances and are subsequently eradicated.
@@ -6760,62 +6641,7 @@ t("As you descend to the next level you traverse a kind of magical barrier keepi
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/orc-prides.lua"
--- 12 entries
-t([[#{bold}#Chapter Five: Fall of the Mighty#{normal}#
-
-#{italic}#"A true warrior never dies. His fall may come on the battlefield, but it is a fall to inspire all others who follow him. He lives on in their every thrust, every parry, every swipe. Whilst blood still spills in his name a warrior is immortal."
-- Sayings of Garkul the Devourer#{normal}#
-
-Garkul gathered a force together to take on the Nargol kingdom, striking south at their centre of power. It was not a force as strong as he would have liked, for many troops had been sent east to establish the Prides, but he knew he must quell any resistance from the halflings before it was too late.
-
-He marched with care towards the southern city, with minor skirmishes along the way. As he approached the capital he saw the halfling armies ready, with over ten thousand troops organised into units, ready to defend their kingdom. Garkul had only five thousand with him, but he knew that his warriors were far stronger, and that with his tactics they would easily prevail. But still a nervousness was in him, and he advanced his troops with caution.
-
-The orcs reached a tilled field, and the halfling army stood on the other side, waiting. Garkul eyed the ground suspiciously, but as the halfling slingers began to fire at them he knew he must act - he gave the order to attack. His warriors charged with speed towards with enemy, with his mages following behind, but as they neared their foe there was a sudden tumult in the ground. The fighters were knocked back as the earth tore open and a massive hand rose up, followed by a gigantic head. Slowly rising forth from the ground they saw a monster of unparalleled size - it was the giant golem Atamathon. Long had the halfling alchemists worked on it in secret, crafting its body of marble and its joints of voratun, setting a thousand rubies into each of its eyes and imbuing it with unrivalled power. Carefully had the strategists laid the trap, leading Garkul's army to this place with precisely timed skirmishes, waiting for the right moment to reveal their awe-inspiring weapon.
-
-The orcish troops flailed against the golem, battering their weapons against its solid feet, but to no result. The mages fired spells of fire and ice at its chest, but they were reflected away without effect. Then the halfling alchemists stood forth and channelled their energies through the golem, and its ruby eyes glowed brightly before a beam of flames erupted and burned down on the orcish troops. The golem marched forwards, each step crushing dozens of warriors, whilst its beaming eyes tore through the ranks of mages. Then the alchemists joined in throwing bombs, and the slingers fired shot after shot and a great massacre began.
-
-Garkul saw his troops in disarray, and knew that against this new weapon none of his army could prevail. He ran to his wolf-riders and grabbed the greatest beast, a vicious warg over ten feet long, and mounting it he charged into the fray. He rushed the wolf straight towards the giant golem, and made it leap towards the monster's towering chest. The golem swiped down a massive fist that smashed the warg apart, but Garkul jumped at the last moment and grabbed onto the golem's head, and drawing out his axe he swept it into one of the ruby eyes, shattering it.
-
-Then the golem reached with both hands and grabbed Garkul by the arms, and his axe fell to the ground below. Atamathon held tightly to the great orc's limbs in its marble grip, and proceeded to try and rip them off. But Garkul flexed his muscles with all his strength, and resisted the might of the golem, and slowly he began to twist the golem's fists forwards, drawing him closer to monster's head. When he was close enough to that marble brow he smashed his head forwards against it, and the ringing sound of his steel helm hitting the solid stone tore through the air. The golem shuddered a moment, and Garkul headbutted it again, and his steel helm was torn from his pate. Once more he thrust his head forward, and the impact made a deep gash across his temples, but the thick marble of the golem's head was also dented. Another headbutt was launched forth, and two more as the golem's skull began to crack apart and its legs gave way beneath it. Garkul turned his bloodied head to the sky and roared before delivering a final fatal plunge of his head. His brow met the thick marble, and the golem's head shattered apart beneath the force. The golem collapsed, and Garkul with it. Thus fell the giant golem Atamathon, and its like has not been seen again.
-
-At this the halflings were dismayed, for though the orcish troops were decimated their mighty weapon was also broken. Then they advanced towards the ruins and saw movement within, and before them rose Garkul the Devourer. His head was gashed and bloodied, and his arms were badly bruised, but he had recovered his axe and now faced them with a grin.
-
-He saw he was alone now, for what had remained of his army had been finished off whilst he had battled the golem, and though they had fought well there still remained ten thousand troops before him. But he grinned, for he was a warrior true, and never more happy than when on the battlefield, facing foes insurmountable. He charged.
-
-The bodies soon piled up in his wake as he tore through the halfling troops. He shrugged off blows against him, and swung his axe before him. He cleaved through skulls and sliced through armour and flesh and bones. When they tried to grab his weapon from him he punched them away, or bit through their throats. He laughed as he danced around his enemies, blood spurting up from their wounds and raining down over his face. Hundreds fell beneath his blade before the axe cracked and broke, but still he gripped the shaft and stabbed and clubbed and swiped.
-
-Then the alchemists threw their bombs at him, scorching his flesh. And the archers and slingers fired at him, their arrows piercing his skin and their shots bruising his body. But Garkul roared a mighty warshout, and the arrows and shots in the air were shattered, and the ground before him tore apart. He grabbed two waraxes from the bodies nearby and rushed towards his attackers, raining down blows on them with each hand. The halflings surrounded him, and attacks came from all sides, but he carried on fighting furiously.
-
-But the fight could not carry on forever. A stab from a sword crippled his leg, and a blast from a bomb blinded his eye, and though he continued to battle, wading through the corpses around him, blood now seeped through cuts all over his body. The blades of the axes he wielded became cracked and dented, and he was left wielding the shafts as clubs. He swung them through the troops before him, until his movements slowed to a stop, and the alchemists rained down bomb after bomb until his charred corpse moved no more. So died Garkul the Devourer, though his body stayed upright even in death, clutching his weapons above his head, and standing atop a field of over ten thousand bodies. For when the halflings counted their numbers after, only a few hundred remained.
-
-Our forces never full recovered from the loss of our great leader. The wars continued, but without his strategies failure became more frequent. Eventually the other races began to fight back, and we were driven from our homeland. But the spirit of Garkul remains with us all, and his lessons stay in our hearts and minds. One day we will return to the place of his birth, and the glory he began shall be completed - Maj'Eyal will be ours.]], [[#{bold}#Chapter Five: Fall of the Mighty#{normal}#
-
-#{italic}#"A true warrior never dies. His fall may come on the battlefield, but it is a fall to inspire all others who follow him. He lives on in their every thrust, every parry, every swipe. Whilst blood still spills in his name a warrior is immortal."
-- Sayings of Garkul the Devourer#{normal}#
-
-Garkul gathered a force together to take on the Nargol kingdom, striking south at their centre of power. It was not a force as strong as he would have liked, for many troops had been sent east to establish the Prides, but he knew he must quell any resistance from the halflings before it was too late.
-
-He marched with care towards the southern city, with minor skirmishes along the way. As he approached the capital he saw the halfling armies ready, with over ten thousand troops organised into units, ready to defend their kingdom. Garkul had only five thousand with him, but he knew that his warriors were far stronger, and that with his tactics they would easily prevail. But still a nervousness was in him, and he advanced his troops with caution.
-
-The orcs reached a tilled field, and the halfling army stood on the other side, waiting. Garkul eyed the ground suspiciously, but as the halfling slingers began to fire at them he knew he must act - he gave the order to attack. His warriors charged with speed towards with enemy, with his mages following behind, but as they neared their foe there was a sudden tumult in the ground. The fighters were knocked back as the earth tore open and a massive hand rose up, followed by a gigantic head. Slowly rising forth from the ground they saw a monster of unparalleled size - it was the giant golem Atamathon. Long had the halfling alchemists worked on it in secret, crafting its body of marble and its joints of voratun, setting a thousand rubies into each of its eyes and imbuing it with unrivalled power. Carefully had the strategists laid the trap, leading Garkul's army to this place with precisely timed skirmishes, waiting for the right moment to reveal their awe-inspiring weapon.
-
-The orcish troops flailed against the golem, battering their weapons against its solid feet, but to no result. The mages fired spells of fire and ice at its chest, but they were reflected away without effect. Then the halfling alchemists stood forth and channelled their energies through the golem, and its ruby eyes glowed brightly before a beam of flames erupted and burned down on the orcish troops. The golem marched forwards, each step crushing dozens of warriors, whilst its beaming eyes tore through the ranks of mages. Then the alchemists joined in throwing bombs, and the slingers fired shot after shot and a great massacre began.
-
-Garkul saw his troops in disarray, and knew that against this new weapon none of his army could prevail. He ran to his wolf-riders and grabbed the greatest beast, a vicious warg over ten feet long, and mounting it he charged into the fray. He rushed the wolf straight towards the giant golem, and made it leap towards the monster's towering chest. The golem swiped down a massive fist that smashed the warg apart, but Garkul jumped at the last moment and grabbed onto the golem's head, and drawing out his axe he swept it into one of the ruby eyes, shattering it.
-
-Then the golem reached with both hands and grabbed Garkul by the arms, and his axe fell to the ground below. Atamathon held tightly to the great orc's limbs in its marble grip, and proceeded to try and rip them off. But Garkul flexed his muscles with all his strength, and resisted the might of the golem, and slowly he began to twist the golem's fists forwards, drawing him closer to monster's head. When he was close enough to that marble brow he smashed his head forwards against it, and the ringing sound of his steel helm hitting the solid stone tore through the air. The golem shuddered a moment, and Garkul headbutted it again, and his steel helm was torn from his pate. Once more he thrust his head forward, and the impact made a deep gash across his temples, but the thick marble of the golem's head was also dented. Another headbutt was launched forth, and two more as the golem's skull began to crack apart and its legs gave way beneath it. Garkul turned his bloodied head to the sky and roared before delivering a final fatal plunge of his head. His brow met the thick marble, and the golem's head shattered apart beneath the force. The golem collapsed, and Garkul with it. Thus fell the giant golem Atamathon, and its like has not been seen again.
-
-At this the halflings were dismayed, for though the orcish troops were decimated their mighty weapon was also broken. Then they advanced towards the ruins and saw movement within, and before them rose Garkul the Devourer. His head was gashed and bloodied, and his arms were badly bruised, but he had recovered his axe and now faced them with a grin.
-
-He saw he was alone now, for what had remained of his army had been finished off whilst he had battled the golem, and though they had fought well there still remained ten thousand troops before him. But he grinned, for he was a warrior true, and never more happy than when on the battlefield, facing foes insurmountable. He charged.
-
-The bodies soon piled up in his wake as he tore through the halfling troops. He shrugged off blows against him, and swung his axe before him. He cleaved through skulls and sliced through armour and flesh and bones. When they tried to grab his weapon from him he punched them away, or bit through their throats. He laughed as he danced around his enemies, blood spurting up from their wounds and raining down over his face. Hundreds fell beneath his blade before the axe cracked and broke, but still he gripped the shaft and stabbed and clubbed and swiped.
-
-Then the alchemists threw their bombs at him, scorching his flesh. And the archers and slingers fired at him, their arrows piercing his skin and their shots bruising his body. But Garkul roared a mighty warshout, and the arrows and shots in the air were shattered, and the ground before him tore apart. He grabbed two waraxes from the bodies nearby and rushed towards his attackers, raining down blows on them with each hand. The halflings surrounded him, and attacks came from all sides, but he carried on fighting furiously.
-
-But the fight could not carry on forever. A stab from a sword crippled his leg, and a blast from a bomb blinded his eye, and though he continued to battle, wading through the corpses around him, blood now seeped through cuts all over his body. The blades of the axes he wielded became cracked and dented, and he was left wielding the shafts as clubs. He swung them through the troops before him, until his movements slowed to a stop, and the alchemists rained down bomb after bomb until his charred corpse moved no more. So died Garkul the Devourer, though his body stayed upright even in death, clutching his weapons above his head, and standing atop a field of over ten thousand bodies. For when the halflings counted their numbers after, only a few hundred remained.
-
-Our forces never full recovered from the loss of our great leader. The wars continued, but without his strategies failure became more frequent. Eventually the other races began to fight back, and we were driven from our homeland. But the spirit of Garkul remains with us all, and his lessons stay in our hearts and minds. One day we will return to the place of his birth, and the glory he began shall be completed - Maj'Eyal will be ours.]], "_t")
+-- 11 entries
 t("Clinician Korbek's experimental notes part one", "Clinician Korbek's experimental notes part one", "_t")
 t([[#{bold}#Clinician Korbek's experimental notes part one#{normal}#
 
@@ -8120,6 +7946,29 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 		Any active Aura damage bonusses will extend to your main weapons for this attack.]], [[Assault your target with all weapons, dealing two strikes with your telekinetically-wielded weapon for %d%% damage followed by an attack with your physical weapon for %d%% damage.
 		This physical weapon attack uses your Willpower and Cunning instead of Strength and Dexterity to determine Accuracy and damage.
 		Any active Aura damage bonusses will extend to your main weapons for this attack.]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/thaumaturgy.lua"
+-- 4 entries
+t("#LIGHT_BLUE#%s [known, eligible]#LAST#", "#LIGHT_BLUE#%s [known, eligible]#LAST#", "tformat")
+t("#YELLOW#%s [known]#LAST#", "#YELLOW#%s [known]#LAST#", "tformat")
+t("#GREY#%s [unknown]#LAST#", "#GREY#%s [unknown]#LAST#", "tformat")
+t([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
+		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
+		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
+		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
+		The additional cast will cost mana but no turn, will not active its cooldown and can trigger on spells currently on cooldown.
+		During Aether Avatar only compatible spells are used.
+
+		Eligible spells: %s]], [[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
+		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
+		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
+		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
+		The additional cast will cost mana but no turn, will not active its cooldown and can trigger on spells currently on cooldown.
+		During Aether Avatar only compatible spells are used.
+
+		Eligible spells: %s]], "tformat")
 
 
 ------------------------------------------------

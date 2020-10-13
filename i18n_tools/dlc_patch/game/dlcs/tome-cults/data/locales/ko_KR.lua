@@ -2335,8 +2335,54 @@ So, my approach has been to just keep trying different combinations until someth
 t("the egress (2)", "출입로 (2)", "_t")
 t("Some puzzle this is! I finally enter the right combination and it dumps me in some forsaken corner of the world! I don't even know what to make of my surroundings, they're utterly bizarre! Why did this have to happen to me? I was supposed to be the one who got in first and got the treasure... Now look at me! I've wandered all over this place, but I can't find any exit! It's like this entire place is conspiring to keep me trapped here!", "이게 대체 무슨 퍼즐이지!? 내가 마침내 올바른 조합을 찾아냈고 그게 나를 세상의 어떤 외딴 구석에 던져버리다니! 주변 환경을 봐도 뭐가 뭔지도 모르겠어, 정말 기괴한 것들이 가득해, 왜 나한테 이런 일이 일어난거지? 내가 제일 먼저 들어가서 보물을 얻는 사람이어야 했는데... 이곳 저곳을 돌아다녔는데 출구를 찾을 수조차 없다니. 마치 이 모든 곳이 날 여기 갇히게 하려고 음모를 꾸미는 것 같다.", "_t")
 t("the truth beyond the veil (1)", "장막 너머의 진실 (1)", "_t")
+t([[Thought is treasure. Treasure thoughts. Spin fates, tell tales, words of gods, smith into fables. All that is can be rewritten and all writing is defined by what is. Cascades upon cascades which blend into reality, ever altering, ever changing, ever being, ever ceasing.
+
+Words are power. My power is words. I am infinity and its end. Everything is possible.]], [[생각은 보물이다. 생각을 소중히 여겨라. 운명과 설화, 신들의 말을 우화로 제련해라. 모든 것은 다시 쓸 수 있고 모든 말은 그 자체에 의해 정의된다. 수없이 이야기되고 다시 이야기되며 현실과 뒤섞이고, 고쳐지고, 변화하고, 존재하며, 끊임없이 계속된다.
+
+말은 힘이다. 나의 힘은 말이다. 나는 무한하고 그것의 끝이다. 모든 것이 가능하다.]], "_t")
 t("the truth beyond the veil (2)", "장막 너머의 진실 (2)", "_t")
+t([[It spins. It all spins. Around and around. Fleshlings write tripe. Meaningless. Waste of existence. No life in their words. No understanding. Breathe the story, they shall. Understand the story. I shall show them. They shall see. See, they shall. Again and again. Until they understand.
+
+The unworthy will not understand.]], [[돌고 돈다, 모든 게 돈다. 빙글빙글. 육신에 갇힌 자들은 시시한 글을 쓴다. 무가치하다. 존재의 낭비야. 그놈들의 이야기엔 생명이 없다. 이해도 없다. 이야기를 숨 쉬면, 그들은 알게 되리라. 이야기를 이해하리라. 내가 보여 주겠다. 그들은 보게 될 것이다. 보게 될 것이다. 다시 또다시. 이해할 때까지
+
+무가치한 자는 이해하지 못하리라.]], "_t")
 t("the truth beyond the veil (3)", "장막 너머의 진실 (3)", "_t")
+t([[Meaningless to show. Still do not understand. They scream. They scream and scream. They do not see. Fleshling eyes see not beyond the veil. They see not the truth beyond the veil. They do not understand words. Not true words. Fleshling tongues never pronounce the true words. Worthless. Useless. Thoughtless.
+
+Thoughts are treasure. Treasure thoughts. Thoughtlessness is useless. Thoughtlessness is unworthy. Thoughtlessness will never see the truth beyond the veil.]], [[보여주는 의미가 없었다. 아직도 이해가 안 된다. 그들은 비명을 지른다. 비명을 지르고 비명을 지른다.
+결코 보지 않는다. 육신을 입은 자의 눈은 장막 너머를 보지 못한다. 그들은 장막 너머의 진실을 보지 못한다. 그들은 말을 이해하지 못한다. 진실된 말을 말이다. 육신을 입은자의 혀는 절대 진정한 말을 발음하지 않았다. 가치 없다. 쓸모없다. 생각도 없다.
+
+생각은 보물이다. 생각을 소중히 여겨라. 생각 없는 자 쓸모없다. 생각 없는 자 무가치하다. 생각 없는 자 장막 너머의 진실을 보지 못 하리라.]], "_t")
+t("an escape from reality (1)", "현실에서의 탈출 (1)", "_t")
+t([[So, what does an adventurer do when they get bored with it all? For me, I wanted to find a nice castle somewhere out in the countryside and spend the rest of my days in idle contentment. The issue there is that I made a lot of enemies who would have loved for me to settle down in one spot, so I needed to think of a solution.
+
+That's when I found this place. Everyone else avoided it because people never left once they went inside it. Being used to the adventuring life, I saw such a thing as a challenge. Turns out that this cursed castle, as people referred to it, constantly changes its inside layout. No one really knows how or why it does it, but I'm not really one to question such things. If I could just work out the logic behind how it shifted itself, I could have an unassailable fortress. 
+
+However, I also found that this still didn't deter people from coming to kill me. They all swarmed in and although a lot of them got lost in the hallways, a few actually managed to reach me. I had grown rather attached to the place at this point, but neither could I stay there. My solution came with a bizarre tome I had found in my adventures. When I opened the cover and pointed it in the right direction, it could suck things into its very pages.
+
+So, being the savvy adventurer I am, I opened the tome and sucked the entire castle inside of it. It seems like the tome could only suck so much inside its covers, so it could no longer hold anything else in it. Although I had to sacrifice a great treasure, I now had a sanctuary away from the real world which I could escape to whenever I needed shelter.]], [[모험가로 사는 이 모든 것에 싫증을 느낄 때 뭘 해야 할까? 나로서는 시골 어딘가에서 멋진 성을 찾아내 남은 나날을 한가하게 만족하며 보내고 싶었다. 문제는 내가 한 곳에 정착하기엔 나를 격하게 사랑해줄 적들을 너무 많이 만들었기 때문에 이에 해결책을 생각해 볼 필요가 있었다.
+
+그때 이곳을 찾아냈었다. 다른 사람들은 모두 이곳을 피했다. 왜냐하면 사람들은 한 번 그 안으로 들어가면 절대 돌아오지 않았기 때문이다. 모험가 생활에 익숙해진 나는 그런 것을 도전으로 보았다. 사람들이 말했듯이 이 저주받은 성은 끊임없이 내부 배치를 바꾼다는 것이 밝혀졌다. 성이 어떻게 또 왜 그런 짓을 하는지는 아무도 모르지만 말이다, 나는 정말로 그런 것에 의문을 가질 사람이 아니다. 어떻게 변하는지 그 규칙만 알 수 있다면 난공불락의 요새를 가질 수 있을 텐데.
+
+그러나, 나는 이정도로는 누군가가 여전히 나를 죽이러 찾아 오는 것을 단념하게 만들지 못한다는 걸 알아차렸다. 그들은 한꺼번에 몰려들어와 복도에서 대다수가 길을 잃곤 하지만, 몇몇은 나에게 도달할 수 있었다. 나는 이쯤에서 오히려 이 장소에 애착을 갖게 되었으나, 여기에 머물 수는 없었다. 이 문제의 해결책은 모험중에 발견한 기이한 두꺼운 책이었다. 내가 덮개를 열고 올바른 방향을 가리켰을 때, 그것은 즉시 페이지 속으로 물건을 빨아들일 수 있었다.
+
+그래서, 나는 요령 있는 모험가로서, 고서를 열고 그 안으로 성 전체를 빨아들였다. 책속에 너무 많은 것을 가둔 것인지 성을 제외한 다른 것들은 전부 사라졌다. 비록 나는 많은 보물을 희생해야 했지만, 이제는 피난처가 필요할 때마다 드나들 수 있는 현실 세계와는 동떨어진 성소를 갖게 되었다.]], "_t")
+t("an escape from reality (2)", "현실에서의 탈출 (2)", "_t")
+t([[As much as I love this castle, it really does give you a headache after a while. Whenever I tried to decorate rooms or organise anything in its interior, I would inevitably find the room in a completely different area. While I can navigate through the place without too much trouble now, it's still pretty annoying when I have to find a specific room.
+
+I sometimes wonder if I'll ever run into the people who entered this place and never left. The shifting rooms themselves aren't that difficult to understand, once you find out the patterns behind their changes. If I could work out, then surely someone else had to as well, right? I do sometimes feel as if I'm not really alone in the castle, despite being the only person who can even reach this place, not to mention the only living thing walking these halls. I haven't seen so much as a mouse since I trapped the castle within my book.
+
+I fear that I'm also starting to develop an unhealthy attachment to this place. I have not been able to have a single day of peace since I began my adventuring career, so the security these glass walls offer is becoming far too alluring to me.]], [[내가 이 성을 사랑하는 만큼, 한동안 정말 머리가 아팠다. 방을 꾸미거나 실내의 어떤 것을 정리하려고 할 때마다 나는 불가피하게 전혀 다른 공간에 있는 방을 찾곤 했다. 지금은 큰 어려움 없이 방들을 헤쳐 나갈 수 있지만, 특정한 방을 찾아야 할 때는 여전히 꽤 귀찮다.
+
+나는 가끔 내가 이곳에 들어와 한 번도 떠나지 않았던 사람들과 마주칠 가능성이 있을까 하는 생각이 들 때가 있다. 일단 변화에 따르는 패턴을 발견하면, 변화무쌍한 방들 그 자체는 이해하기 어렵지 않다. 내가 이해할 수 있다는 것은 분명 다른 사람들도 이해 할 수 있다는 뜻이다, 그렇지않나? 이 홀을 걸어 다니는 유일한 생명체인지는 말할 것도 없고, 심지어 이곳까지 도달할 수 있는 유일한 사람임에도 불구하고, 나는 가끔 성안에서 정말로 혼자가 아닌 것처럼 느낀다. 책 속에 성을 가둔 후로는 쥐 한 마리도 보지 못했다.
+
+나 역시 이곳에 대해 불건전한 애착이 생기기 시작하는 것 같아 두렵다. 나는 모험가 경력을 시작한 이래로 하루도 평화로운 날을 보낼 수 없었다. 그래선지 이 유리벽들이 제공하는 안전함이 나에게 너무 큰 유혹 되고 있다.]], "_t")
+t("an escape from reality (3)", "현실에서의 탈출 (3)", "_t")
+t([[I knew it. I'm not alone in here. While I was right that I'm the only living thing, this castle does have its own guardians and servitors. Animated golems made of glass wander the halls now, searching for me. My fortress is no longer mine and there is no safety to be found within these walls. I knew that I could never truly find somewhere I could be safe, not in this book or in the outside world. I do not know where these golems came from. Perhaps the castle itself is trying to expel me from it or maybe I triggered some defence by wandering into the wrong room.
+
+My treasure is stored somewhere in this castle, but I just don't care anymore. Escaping with my life will be treasure enough. When I reach the outside world again, maybe I'll drop the tome in a river and hope that no one else tries their luck with this place. I'm sure the spirits that haunt this place will rest easier knowing that there won't be any more victims.]], [[그럴 줄 알았어. 난 혼자가 아니였던거야 내가 유일한 생명체라는 말은 맞았지만 이 성에는 성의 수호자들과 서기관들이 따로 존재했다. 유리로 만든 골렘들이 지금 나를 찾아 복도를 배회하고 있다. 내 요새는 더 이상 내 것이 아니며 이 성벽 안에서 찾을 안전도 없다. 나는 내가 이 책 속이든 바깥세상이든 진정으로 안전할 수 있는 곳은 찾을 수 없다는 것을 알고 있었다. 나는 이 골렘들이 어디서 왔는지 모른다. 어쩌면 성 자체가 나를 이 성에서 쫓아내려고 하는 것인지, 아니면 내가 엉뚱한 방으로 침입하여 어떤 방어기재를 촉발한 것인지도 모른다.
+
+내 보물은 이 성의 어딘가에 저장되어 있지만, 나는 더이상 신경 쓰지 않을 뿐이다. 내 목숨을 온존한 채 탈출하는 것은 충분한 보물이 될 것이다. 내가 다시 바깥세상에 도달하면, 어쩌면 이 고서를 강물에 빠뜨리고, 아무도 이 안에서 그들의 행운을 시도하지 않기를 바랄지도 모른다. 이곳을 떠도는 혼령들 또한 더는 희생자가 없을 거라는 걸 알게되면 좀 더 편히 쉬게 될 거라고 확신한다.]], "_t")
 t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서: \"회랑에서 본 것\"", "_t")
 t("Forbidden Cults", "금지된 교단", "newLore category")
 t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서: \"환상의 성\"", "_t")
@@ -3179,7 +3225,7 @@ t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to 
 t("Teleport: Kroshkkur", "순간이동: 크로슈쿠르", "talent name")
 t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#크로슈쿠르는 파괴되었다. 그곳으로 순간이동할 필요도, 할 수도 없다.", "logPlayer")
 t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
-t("There are creatures that could be watching you; you cannot take the risk.", "당신을 보고있는 자들이 있다. 당신은 위험을 감수할 수 없다.", "log")
+t("There are creatures that could be watching you; you cannot take the risk.", "당신을 보고 있는 자들이 있다. 위험을 감수할 순 없다.", "log")
 t([[Allows to teleport to Kroshkkur.
 	You have studied the forbidden secrets there and have been granted a special portal spell to teleport back.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
