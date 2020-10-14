@@ -90,7 +90,7 @@ setFlag("noun_target_sub", function(str, type, noun)
 		return str:gsub("@Target@", noun):gsub("@Target1@", addJosa(noun, "가")):gsub("@Target2@", addJosa(noun, "는")):gsub("@Target3@", addJosa(noun, "를")):gsub("@Target4@", addJosa(noun, "로")):gsub("@Target5@", addJosa(noun, "다")):gsub("@Target6@", addJosa(noun, "과")):gsub("@Target7@", addJosa(noun, 7))
 	elseif type == "@target@" then
 		return str:gsub("@target@", noun):gsub("@target1@", addJosa(noun, "가")):gsub("@target2@", addJosa(noun, "는")):gsub("@target3@", addJosa(noun, "를")):gsub("@target4@", addJosa(noun, "로")):gsub("@target5@", addJosa(noun, "다")):gsub("@target6@", addJosa(noun, "과")):gsub("@target7@", addJosa(noun, 7))
-	elseif str == "@playername@" then
+	elseif type == "@playername@" then
 		return str:gsub("@playername@", noun):gsub("@playername1@", addJosa(noun, "가")):gsub("@playername2@", addJosa(noun, "는")):gsub("@playername3@", addJosa(noun, "를")):gsub("@playername4@", addJosa(noun, "로")):gsub("@playername5@", addJosa(noun, "다")):gsub("@playername6@", addJosa(noun, "과")):gsub("@playername7@", addJosa(noun, 7))
 	elseif type == "@npcname@" then
 		return str:gsub("@npcname@", noun):gsub("@npcname1@", addJosa(noun, "가")):gsub("@npcname2@", addJosa(noun, "는")):gsub("@npcname3@", addJosa(noun, "를")):gsub("@npcname4@", addJosa(noun, "로")):gsub("@npcname5@", addJosa(noun, "다")):gsub("@npcname6@", addJosa(noun, "과")):gsub("@npcname7@", addJosa(noun, 7))
@@ -595,7 +595,7 @@ Again, thank you, and enjoy Eyal!
 당신의 후원액 총합은 #LIGHT_GREEN#%0.2f 유로#WHITE#이며 #ROYAL_BLUE#%d 보라툰 코인#WHITE#으로 te4.org 에서 사용이 가능합니다.
 당신의 아이템 금고는 총 #TEAL#%d 칸#WHITE#입니다.
 
-다시 한번 감사드리며, 에이알을 즐겨주세요!!
+다시 한 번 감사드리며, 에이알을 즐겨주세요!!
 
 #{italic}#당신만의 악랄한 어둠의 신, darkgod#GOLD#DarkGod#{normal}#]], "tformat")
 t("Thank you!", "감사합니다!", "_t")
@@ -713,7 +713,7 @@ When activated you will have access to special commands:
 ]], [[개발자 모드를 활성화하시겠습니까?
 개발자 모드는 디버그 및 애드온 제작에 사용되는 특별한 게임 모드입니다..
 개발자 모드에서 사용한 모든 세이브 파일은 더 이상 #CRIMSON#유효하지 않습니다.#LAST#.
-활성화 된 동안 특별한 명령어에 접근할 수 있습니다:
+활성화된 동안 특별한 명령어에 접근할 수 있습니다:
 - CTRL+L: 명령어를 입력할 수 있는 lua 콘솔을 불러옵니다. (직접적인 게임 내부 접근)
 - CTRL+A: 쉽게 많은 일을 할 수 있는 메뉴를 불러옵니다. (NPC 생성, 텔레포트 등)
 - CTRL+좌 클릭: 클릭한 장소로 텔레포트합니다.
@@ -888,7 +888,7 @@ t("Steam Options", "스팀 설정", "_t")
 t([[Enable Steam Cloud saves.
 Your saves will be put on steam cloud and always be available everywhere.
 Disable if you have bandwidth limitations.#WHITE#]], [[Steam 클라우드 저장을 활성화합니다.
-저장된 게임이 Steam 클라우드에 동기화되며, 어디에서든 동기화된 게임을 불러올 수 있게됩니다.
+저장된 게임이 Steam 클라우드에 동기화되며, 어디에서든 동기화된 게임을 불러올 수 있게 됩니다.
 인터넷 속도가 제한된 환경이라면 꺼주세요.#WHITE#]], "_t")
 t("#GOLD##{bold}#Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우드 동기화#WHITE##{normal}#", "_t")
 t("disabled", "꺼짐", "_t")
@@ -1243,8 +1243,8 @@ t("Use %s?", "%s 사용하시겠습니까?", "tformat", nil, {"를"})
 t("Cancel", "취소", "_t")
 t("Continue", "계속하기", "_t")
 t("unknown", "알 수 없음", "_t")
-t("activates", "활성화했다", "_t")
-t("deactivates", "비활성화했다", "_t")
+t("activates", "활성화했다.", "_t")
+t("deactivates", "비활성화했다.", "_t")
 t("%s uses %s.", "%s %s 사용했다.", "logSeen", nil, {"는","를"})
 t("not enough stat: %s", "능력치 부족: %s", "tformat")
 t("not enough levels", "레벨 부족", "_t")

@@ -245,8 +245,8 @@ t("%s fails to use %s.", "%s %s의 시전에 실패했다.", "logSeen", nil, {"�
 t("%s fumbles and fails to use %s, injuring %s!", "%s %s 실패하고 %s 부상을 입고 말았다!", "logSeen", nil, {"는","을"})
 t("%s's %s is interrupted by the shot!", "%s의 %s 사격에 의해 방해받았다!", "logSeen", nil, {[2]="은"})
 t("%s %s #{bold}##ORANGE#%s#LAST#.#{normal}#", "%s #{bold}##ORANGE#%s#LAST# %s#{normal}#", "logSeen", {1,3,2}, {"는","을"})
-t("activates", "활성화했다", "_t")
-t("deactivates", "비활성화했다", "_t")
+t("activates", "활성화했다.", "_t")
+t("deactivates", "비활성화했다.", "_t")
 t("%s casts #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 시전했다.", "logSeen", nil, {"는",[3]="을"})
 t("%s uses #{bold}#%s%s.#{normal}##LAST#", "%s #{bold}#%s%s#{normal}##LAST# 사용했다.", "logSeen", nil, {"는",[3]="을"})
 t("%s talent '%s%s' is disrupted by the mind parasite.", "%s의 '%s%s' 정신 기생충에 의해 방해받았다.", "logSeen", nil, {[3]="은"})
@@ -300,7 +300,7 @@ t([[%s:
  적용 하시겠습니까?]], "tformat")
 t("Automatic use", "자동 사용", "_t")
 t("%s will not be automatically used.", "%s 이제 자동으로 사용되지 않습니다.", "tformat", nil, {"는"})
-t("Automatic use disabled", "자동 사용이 비활성화 됐습니다", "_t")
+t("Automatic use disabled", "자동 사용이 비활성화됐습니다", "_t")
 t("%s resists the dispelling of %s!", "%s %s 해제되는 것에 저항했다!", "logSeen", nil, {"은","이"})
 t("#LIGHT_RED#%s starts suffocating to death!", "#LIGHT_RED#%s 질식 중이다!", "logSeen", nil, {"는"})
 t("Physical save", "물리 내성", "_t")
@@ -412,7 +412,7 @@ Difficulty: %s / %s
 Campaign: %s]], [[%s %s %s.
 난이도: %s / %s
 캠페인: %s]], "tformat")
-t("#LIGHT_RED#You may not change level so soon after a kill (%d game turns left to wait)!", "#LIGHT_RED#살해 후 몇 턴간 지역을 이동할 수 없습니다! (%d 실질 턴 남음)", "logPlayer")
+t("#LIGHT_RED#You may not change level so soon after a kill (%d game turns left to wait)!", "#LIGHT_RED#살해 후 몇 턴 동안 지역을 이동할 수 없습니다! (%d 실질 턴 남음)", "logPlayer")
 t("#LIGHT_RED#You may not change level without your own body!", "#LIGHT_RED#당신의 육신을 두고 구역을 이동할 수 없습니다!", "logPlayer")
 t("#LIGHT_RED#You may not leave the zone with this character!", "#LIGHT_RED#이 캐릭터로는 지역을 이동할 수 없습니다!", "logPlayer")
 t("#LIGHT_RED#You cannot escape your fate by leaving the level!", "#LIGHT_RED#구역 이동으로 당신의 운명에서 회피할 수 없습니다!", "logPlayer")
@@ -720,7 +720,7 @@ t("Equilibrium when hit: ", "명중 시 평정 회복: ", "_t")
 t("Psi when hit: ", "명중 시 염력 회복: ", "_t")
 t("Hate when hit: ", "명중 시 증오 회복: ", "_t")
 t("Vim when hit: ", "명중 시 원기 회복: ", "_t")
-t("Vim when hitting in melee: ", "근접 공격시 원기 회복: ", "_t")
+t("Vim when hitting in melee: ", "근접 공격 시 원기 회복: ", "_t")
 t("Mana when firing critical spell: ", "주문 치명타 시 마나 회복: ", "_t")
 t("Vim when firing critical spell: ", "주문 치명타 시 원기 회복: ", "_t")
 t("Spellpower on spell critical (stacks up to 3 times): ", "주문 치명타 시 주문력 증가 (최대 3 번 중첩): ", "_t")
@@ -796,11 +796,11 @@ t("The wearer no longer has to breathe.", "이 물건의 착용자는 숨을 쉴
 t("Quick Weapon Swap:", "빠른 무장 교체:", "_t")
 t("This item allows the wearer to swap to their secondary weapon without spending a turn.", "이 물건은 착용자가 턴을 소모하지 않고 보조 무장으로 변경할 수 있게 해줍니다.", "_t")
 t("Avoid Pressure Traps: ", "압력식 함정 회피: ", "_t")
-t("The wearer never triggers traps that require pressure.", "이 물건은 착용자가 압력 발동식 함정을 절대 발동하지 않게합니다.", "_t")
-t("Allows you to speak and read the old Sher'Tul language.", "이 물건은 착용자가 고대 쉐르'툴 언어를 읽고 말할 수 있게합니다.", "_t")
+t("The wearer never triggers traps that require pressure.", "이 물건은 착용자가 압력 발동식 함정을 절대 발동하지 않게 합니다.", "_t")
+t("Allows you to speak and read the old Sher'Tul language.", "이 물건은 착용자가 고대 쉐르'툴 언어를 읽고 말할 수 있게 합니다.", "_t")
 t("When used to modify unarmed attacks:", "맨손 격투시 적용:", "_t")
 t("Learn an unarmed attack talent or enable 'Always show glove combat' to see combat stats.", "맨손 전투 기술을 배우거나, '언제나 장갑 전투 능력치 보기' 를 활성화하여 전투 능력치를 볼 수 있습니다.", "_t")
-t("When used to attack (with talents):", "방패 공격시 적용:", "_t")
+t("When used to attack (with talents):", "방패 공격 시 적용:", "_t")
 t("Learn shield attack talent or enable 'Always show shield combat' to see combat stats.", "방패 공격 기술을 배우거나, '언제나 방패 전투 능력치 보기' 를 활성화하여 전투 능력치를 볼 수 있습니다.", "_t")
 t("It is immune to teleportation, if you teleport it will fall on the ground.", "이것은 순간이동에 완전 면역이기 때문에 순간이동 시 바닥에 떨어집니다.", "_t")
 t("When wielded/worn:", "장착 시:", "_t")
@@ -812,7 +812,7 @@ t("Attach on item worn on slot '#ORANGE#%s#LAST#'", "'#ORANGE#%s#LAST#' 부위�
 t("When attach to an other item:", "장비에 장착시:", "_t")
 t("Special effect on block: ", "방패 막기 시 특수 효과: ", "_t")
 t("When used to imbue an object:", "물건에 합성시 적용:", "_t")
-t("When used as an alchemist bomb:", "연금술 폭탄 사용시:", "_t")
+t("When used as an alchemist bomb:", "연금술 폭탄 사용 시:", "_t")
 t("Bomb damage +%d%%", "폭탄 피해량 +%d%%", "tformat")
 t("Bomb thrown range +%d", "폭탄 투척 사거리 +%d", "tformat")
 t("Mana regain %d", "마나 회복 %d", "tformat")
@@ -822,8 +822,8 @@ t("Additional %d %s damage", "추가 %d %s 피해", "tformat")
 t("Life regen %d%% of max life", "최대 생명력의 %d%% 해당하는 양 재생", "tformat")
 t("Latent Damage Type: ", "잠재 속성: ", "_t")
 t("When inscribed on your body:", "몸에 새겨 넣을 시:", "_t")
-t("Talent level: %+d %s.", "기술레벨: %+d %s.", "tformat")
-t("Talent level: %s.", "기술레벨: %s.", "tformat")
+t("Talent level: %+d %s.", "기술 레벨: %+d %s.", "tformat")
+t("Talent level: %s.", "기술 레벨: %s.", "tformat")
 t("Talent on hit(spell): %s (%d%% chance level %d).", "기술 명중 시(주문): %s (%d%% 확률 레벨 %d).", "tformat")
 t("Talent on hit(nature): %s (%d%% chance level %d).", "기술 명중 시(자연): %s (%d%% 확률 레벨 %d).", "tformat")
 t("Talent on hit(mindpower): %s (%d%% chance level %d).", "기술 명중 시(정신력): %s (%d%% 확률 레벨 %d).", "tformat")
@@ -921,7 +921,7 @@ t("You cannot do that on the world map.", "세계 지도에서는 할 수 없다
 t("Item not found", "아이템 없음", "_t")
 t("You do not have any %s.", "%s 갖고 있지 않다.", "tformat", nil, {"를"})
 t("Pickup", "줍기", "_t")
-t("You cannot pick up items from the floor while asleep!", "자고있는 동안엔 바닥에 떨어진 물건을 주을 수 없다!", "delayedLogMessage")
+t("You cannot pick up items from the floor while asleep!", "자고 있는 동안엔 바닥에 떨어진 물건을 주을 수 없다!", "delayedLogMessage")
 t("Drop object", "물건 버리기", "_t")
 t("Wield/wear object", "장비 장착", "_t")
 t("Take off object", "장비 해제", "_t")
@@ -1120,7 +1120,7 @@ The Blood of Life courses through your veins.
 This can save you from death and restore you to full health (once) if you would otherwise die.
 ]], [[#GOLD#생명의 피#LAST#
 생명의 피가 혈관을 타고 흐르고 있습니다.
-생명의 피 외의 다른 부활 수단이 없다면, 단 한번 생명의 피를 소모하여 당신을 죽음으로부터 구원하고 생명력을 최대로 회복시켜줍니다.
+생명의 피 외의 다른 부활 수단이 없다면, 단 한 번 생명의 피를 소모하여 당신을 죽음으로부터 구원하고 생명력을 최대로 회복시켜줍니다.
 ]], "_t")
 t([[#GOLD#Life#LAST#
 This is your life force, which is reduced each time you take damage.
@@ -1128,7 +1128,7 @@ Normally, you will die if this drops below zero, though some effects will allow 
 Death is usually permanent so beware!
 It is increased by Constitution.
 ]], [[#GOLD#생명력#LAST#
-당신의 생명의 힘으로, 피해를 받을 때 마다 점점 줄어듭니다.
+당신의 생명의 힘으로, 피해를 받을 때마다 점점 줄어듭니다.
 일반적으로 생명력이 0이 되면 사망하지만 몇몇 효과로 생명력이 음수인 상태로 살아남을 수 있습니다.
 죽음은 되돌리기 매우 힘들기 때문에 조심하십시오!.
 체격에 따라 증가합니다.
@@ -1206,7 +1206,7 @@ If you can't pay for the Vim cost of a talent you may instead pay with life at a
 ]], [[#GOLD#원기#LAST#
 원기는 당신이 제어중인 생명 에너지의 양을 나타냅니다. 타락 계통 기술은 사용하는데 일정량의 원기를 요구합니다.
 원기는 자연적으로 회복되지 않기 때문에 적이나 스스로에게서 흡수해야 합니다.
-적을 처치할때마다 의지의 30%+1의 원기를 회복합니다. 원기 회복량은 적의 희귀도에 따라 증가합니다.
+적을 처치할 때마다 의지의 30%+1의 원기를 회복합니다. 원기 회복량은 적의 희귀도에 따라 증가합니다.
 기술을 사용하는데 필요한 원기 비용이 부족하다면 원기 비용의 2배에 해당하는 생명력을 지불하고 사용할 수 있습니다.
 ]], "_t")
 t([[#GOLD#Equilibrium#LAST#
@@ -1233,7 +1233,7 @@ When your modified Paradox is above 600 the shifts will become more violent.
 Your control over chronomancy spells increases with your Willpower.
 ]], [[#GOLD#괴리#LAST#
 괴리는 현재 시간선이 얼마나 안정적인지 나타냅니다.
-괴리가 증가함에 따라 당신의 주문력도 증가하지만 마법을 시전할때 시간선의 변화가 발생할 수도 있습니다.
+괴리가 증가함에 따라 당신의 주문력도 증가하지만 마법을 시전할 때 시간선의 변화가 발생할 수도 있습니다.
 조정된 괴리가 600을 초과하면 이러한 변화는 더욱 끔찍해집니다.
 의지에 따라 시공 주문의 제어력이 증가합니다.
 ]], "_t")
@@ -1254,7 +1254,7 @@ Feedback decays at the rate of 10% or 1 per turn (which ever is greater) dependi
 All damage you take from an outside source will increase your Feedback based on to how much of your health is lost and your level.  First level characters gain 100 Feedback when losing 50% health, while 50th level characters gain the same amount when losing 20% health.
 ]], [[#GOLD#반작용#LAST#
 반작용은 고통의 정신적 크기를 나타내며 강력한 반작용 능력을 사용하는데 활용됩니다.
-반작용은 매 턴 마다 10% 또는 1 중 더 큰 값에 해당하는 수치가 감소됩니다.
+반작용은 매 턴마다 10% 또는 1 중 더 큰 값에 해당하는 수치가 감소됩니다.
 외부에서 받은 모든 피해는 반작용을 증가시키며 증가율은 잃은 생명력 양과 레벨에 비례합니다. 1 레벨 캐릭터가 반작용 100 을 얻기 위해선 생명력의 50% 에 해당하는 피해를 받아야하지만 50 레벨 캐릭터가 같은 수치를 얻기 위해선 생명력의 20% 에 해당하는 피해만 받으면 됩니다.
 ]], "_t")
 t([[#GOLD#Necrotic Aura#LAST#
@@ -1309,7 +1309,7 @@ These talents work like normal, learned talents, but are lost if the object gran
 t([[#GOLD#Activated Talents#LAST#
 Most talents require activation (i.e. time) to use, and create a specific effect when called upon.
 Specific information on each talent appears its tooltip.]], [[#GOLD#발동형 기술#LAST#
-많은 능력은 사용하는데 활성화(즉, 시간)가 필요하고 필요할때 특정한 효과를 발생시킵니다.
+많은 능력은 사용하는데 활성화(즉, 시간)가 필요하고 필요할 때 특정한 효과를 발생시킵니다.
 각 기술에 대한 정보는 기술의 툴팁에 표시됩니다.]], "_t")
 t([[#GOLD#Instant Talents#LAST#
 Some activated talents take no time to use, being activated with but a thought.
@@ -1432,7 +1432,7 @@ When you use Accuracy to inflict temporary physical effects on an enemy, every p
 Many weapon types will have an additional "accuracy bonus" scaling per point of Accuracy greater than the targets Defense.
 ]], [[#GOLD#정확도#LAST#
 공격을 명중 시킬 확률을 결정합니다.
-정확도를 사용하여 물리 상태이상을 시도할때 대상의 회피도가 정확도를 초과한 수치 1당 효과 지속시간이 5% 감소합니다.
+정확도를 사용하여 물리 상태이상을 시도할 때 대상의 회피도가 정확도를 초과한 수치 1당 효과 지속시간이 5% 감소합니다.
 대부분의 무기는 정확도 보너스가 존재하여 대상의 회피도를 초과한 정확도 수치에 따른 다양한 추가 효과를 얻습니다.
 ]], "_t")
 t([[#GOLD#Physical Power#LAST#
@@ -1440,7 +1440,7 @@ Measures your ability to deal physical damage in combat.
 When you use Physical Power to inflict temporary physical effects on an enemy, every point your opponent's relevant saving throw exceeds your physical power will reduce the duration of the effect by 5%.
 ]], [[#GOLD#물리력#LAST#
 기술의 물리 피해량을 결정합니다.
-물리력을 이용해서 적에게 일시적인 물리 효과를 일으킬 때, 대상의 내성 판정 값이 시전자의 물리력을 1 초과할 때 마다 효과의 지속시간이 5% 씩 줄어듭니다.
+물리력을 이용해서 적에게 일시적인 물리 효과를 일으킬 때, 대상의 내성 판정 값이 시전자의 물리력을 1 초과할 때마다 효과의 지속시간이 5% 씩 줄어듭니다.
 ]], "_t")
 t([[#GOLD#Damage#LAST#
 This is the damage you inflict on your foes when you hit them.
@@ -1490,7 +1490,7 @@ t([[#GOLD#Archery range and speed#LAST#
 Archery attacks create projectiles with a maximum range, beyond which they will terminate.
 The projectiles travel at their own speed, measured as a percentage (higher, usually) of normal movement speed.
 ]], [[#GOLD#투사체 사거리와 속도#LAST#
-사격은 항상 최대 사정거리까지 도달하는 투사체를 발사합니다. 발사한 투사체가 최대 사거리에 도달 했을 때, 투사체는 사라지게됩니다.
+사격은 항상 최대 사정거리까지 도달하는 투사체를 발사합니다. 발사한 투사체가 최대 사거리에 도달 했을 때, 투사체는 사라지게 됩니다.
 투사체는 자체적인 속도를 갖고있으며, 보통 이동 속도를 기준으로 표시됩니다. (보통 100% 보다 높습니다)
 ]], "_t")
 t([[#GOLD#Ammo remaining#LAST#
@@ -1508,7 +1508,7 @@ It represents the fatigue created by wearing heavy equipment.
 Not all talents are affected; notably, Wild Gifts are not.
 ]], [[#GOLD#피로도#LAST#
 피로도에 따라 기술을 시전할 때 발생하는 원천력 비용이 늘어납니다.
-무거운 장비를 입었을 때 피로도가 증가하게됩니다.
+무거운 장비를 입었을 때 피로도가 증가하게 됩니다.
 모든 기술이 피로도에 영향을 받는 것은 아닙니다. 예를들면, 자연 계통은 영향을 받지 않습니다.
 ]], "_t")
 t([[#GOLD#Armour#LAST#
@@ -1611,7 +1611,7 @@ Spell cooldown represents how fast your spells will come off of cooldown.
 The lower it is, the more often you'll be able to use your spell talents and runes.
 ]], [[#GOLD#주문 재사용 대기시간#LAST#
 주문 재사용 대기시간은 얼마나 빨리 재사용 대기시간을 돌릴 수 있는지 나타냅니다.
-이 수치가 낮을 수록, 당신은 주문과 룬을 더 자주 사용할 수 있게됩니다.]], "_t")
+이 수치가 낮을 수록, 당신은 주문과 룬을 더 자주 사용할 수 있게 됩니다.]], "_t")
 t([[#GOLD#Mindpower#LAST#
 Your mindpower represents how powerful your mental abilities are.  It is opposed by your opponent's mental save.
 In addition, when your mental abilities inflict temporary detrimental effects, every point your opponent's save exceeds your mindpower will reduce the duration of the effect by 5%.
@@ -1761,7 +1761,7 @@ This represents your chance to completely avoid ANY persistent bad magical effec
 t([[#GOLD#Damage when hit#LAST#
 Each time a creature hits you with a melee attack, it will suffer damage or other effects.
 ]], [[#GOLD#반사 피해#LAST#
-근접 공격에 피격 당할 때 마다, 공격자에게 피해를 가하거나, 특정 효과를 일으킵니다.
+근접 공격에 피격 당할 때마다, 공격자에게 피해를 가하거나, 특정 효과를 일으킵니다.
 ]], "_t")
 t([[#GOLD#Additional Melee Damage#LAST#
 Each time you strike a creature with a melee attack, you will deal additional damage or other effects.
@@ -2220,9 +2220,9 @@ t("Destroyed your own Shade.", "자기 자신의 그림자를 파괴했다.", "_
 t("Home sweet home", "즐거운 나의 집", "achievement name")
 t("Dispatched the Weirdling Beast and took possession of Yiilkgur, the Sher'Tul Fortress for your own usage.", "기이한 짐승을 해치우고 쉐르'툴 요새 일크구르의 소유권을 얻었다.", "_t")
 t("Squadmate", "전우", "achievement name")
-t("Escaped from Reknor alive with your squadmate Norgan.", "같은 분대원 노르간과 함께 레크노르에서 무사히 탈출했다.", "_t")
+t("Escaped from Reknor alive with your squadmate Norgan.", "같은 분대원 노르간과 함께 레크놀에서 무사히 탈출했다.", "_t")
 t("Genocide", "종족 학살", "achievement name")
-t("Killed the Orc Greatmother in the breeding pits, thus dealing a terrible blow to the orc race.", "번식 구덩이의 오크 큰어미를 처치해 오크들에게 막대한 피해를 입혔다.", "_t")
+t("Killed the Orc Greatmother in the breeding pits, thus dealing a terrible blow to the orc race.", "번식굴의 오크 대모를 처치해 오크들에게 막대한 피해를 입혔다.", "_t")
 t("Savior of the damsels in distress", "고통받은 소녀의 구원자", "achievement name")
 t("Saved Melinda from her terrible fate in the Crypt of Kryl-Feijan.", "키릴-페이얀의 지하묘지에서 끔찍한 운명에 처한 멜린다를 구해냈다.", "_t")
 t("Impossible Death", "불가능한 죽음", "achievement name")
@@ -2261,7 +2261,7 @@ t("Unlocked Archmage class and did over one million fire damage (with any item/t
 t("Cryomancer", "냉기술사", "achievement name")
 t("Unlocked Archmage class and did over one million cold damage (with any item/talent/class).", "마도사를 해금한 뒤 (아무 아이템/기술/직업으로나) 누적 100만 점 이상의 냉기 피해를 입혔다.", "_t")
 t("Lichform", "리치 형상", "achievement name")
-t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "힘과 영생을 향한 당신의 야망은 이루어졌다: 당신은 리치가 되었다!", "_t")
+t("Achieved your wild dreams of power and eternal life: you turned into a Lich!", "힘과 영생을 향한 당신의 야망은 이루어졌다. 당신은 리치가 되었다!", "_t")
 t("Best album ever!", "'더 큐어' 아시는구나!", "achievement name")
 t("Removed 89 beneficial effects from enemies via Disintegration.", "'분해' 기술로 적으로부터 '89'개의 이로운 효과를 제거했다.", "_t")
 
@@ -2507,7 +2507,7 @@ section "game/modules/tome/data/birth/classes/warrior.lua"
 t("Warrior", "전사", "birth descriptor name")
 t("Warriors train in all aspects of physical combat. They can be juggernauts of destruction wielding two-handed greatswords, or massive iron-clad protectors with gleaming shields.", "전사는 물리적 전투에서의 모든 방면을 수련합니다. 전사들은 대검을 든 무지막지한 파괴 전차가 될 수도 있고, 매우 무거운 철갑과  번쩍이는 방패를 장착한 수호자가 될 수도 있습니다.", "_t")
 t("Berserker", "광전사", "birth descriptor name")
-t("A Berserker wields huge two-handed weapons of destruction, bringing pain and death to his foes as he cleaves them in two.", "광전사는 거대하고, 파괴적인 양손무기를 들고 적을 두 쪽으로 쪼개버려 고통과 죽음을 몰고옵니다.", "_t")
+t("A Berserker wields huge two-handed weapons of destruction, bringing pain and death to his foes as he cleaves them in two.", "광전사는 거대하고, 파괴적인 양손 무기를 들고 적을 두 쪽으로 쪼개버려 고통과 죽음을 몰고옵니다.", "_t")
 t("A Berserker usually forfeits all ideas of self-defense to concentrate on what he does best: killing things.", "광전사는 보통 그들이 가장 잘 해낼 수 있는 단 한 가지만을 위해 자기 방어를 포기합니다. 바로 살해 말이지요.", "_t")
 t("Their most important stats are: Strength and Constitution", "그들에게 가장 중요한 능력치는 힘과 체격입니다.", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +1 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +5 힘, +1 민첩, +3 체격", "_t")
@@ -2541,7 +2541,7 @@ t("The ravages of the Spellblaze stretched armies thin and left many unprotected
 t("Without steel or iron, poor communities of all races turned to the strength of their own bodies for defense against the darkness.", "무쇠나, 강철 없이 모든 종족의 가난한 공동체들은 어둠에 맞서 몸을 지키기 위해 스스로의 육체의 힘을 길렀습니다.", "_t")
 t("Whether a pit-fighter, a boxer, or just an amateur practitioner, the Brawler's skills are still handy today.", "구덩이 싸움꾼, 권투 선수, 또는 그저 취미로 배우는 견습생이던 간에, 격투가의 기술들은 오늘 날에도 꽤 쓸만합니다.", "_t")
 t("Many of the Brawler's abilities will earn combo points which they can use on finishing moves that will have added effect.", "격투가의 기술 대부분은 사용 시, 연계 점수를 얻게되며 이를 사용하여 마무리 기술의 효과를 증폭시킵니다.", "_t")
-t("The unarmed fighting styles the Brawler uses rely on maneuverability and having both hands available. As such, they cannot make use of their training wearing massive armour or while a weapon or shield is equipped.", "격투가가 사용하는 맨손 격투 기술은 기동성과 두 손을 모두 사용할 수 있어야합니다. 따라서 무거운 갑옷이나, 무기, 방패를 장착할 시, 격투 기술을 사용할 수 없게됩니다.", "_t")
+t("The unarmed fighting styles the Brawler uses rely on maneuverability and having both hands available. As such, they cannot make use of their training wearing massive armour or while a weapon or shield is equipped.", "격투가가 사용하는 맨손 격투 기술은 기동성과 두 손을 모두 사용할 수 있어야합니다. 따라서 무거운 갑옷이나, 무기, 방패를 장착할 시, 격투 기술을 사용할 수 없게 됩니다.", "_t")
 t("Their most important stats are: Strength, Dexterity, and Cunning", "그들에게 가장 중요한 능력치는 힘과 민첩, 그리고 교활입니다", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 힘, +3 민첩, +0 체격", "_t")
@@ -2627,7 +2627,7 @@ t("All creature talent levels increased by 30%", "모든 개체의 기술 레벨
 t("Unique (fixed) bosses advance in bonus classes 30% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 30% 빠릅니다", "_t")
 t("Rare creatures are slightly more frequent", "희귀 등급의 적이 좀 더 자주 등장합니다.", "_t")
 t("Stairs can not be used for 3 turns after a kill.", "살해 후 3 턴 동안 계단 사용이 불가능합니다.", "_t")
-t("Player can earn Nightmare version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 악몽 난이도의 도전 과제를 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
+t("Player can earn Nightmare version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 악몽 난이도의 업적을 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
 t("Insane", "광기", "birth descriptor name")
 t("Easy is for the weak! Normal is for the weak! Nightmare is too easy! Bring on the true pain!", "쉬움과 보통 난이도는 약해빠진 놈들을 위한 것이고, 악몽 난이도는 너무 쉽다! 진정한 고난을 내게 가져와라!", "_t")
 t("#GOLD##{bold}#Insane mode#WHITE##{normal}#", "#GOLD##{bold}#광기 난이도#WHITE##{normal}#", "_t")
@@ -2636,7 +2636,7 @@ t("All zone levels increased by 50% + 1 by the time Player reaches level 10", "�
 t("All creature talent levels increased by 70%", "모든 개체의 기술 레벨이 70% 증가합니다", "_t")
 t("Unique (fixed) bosses advance in bonus classes 70% faster", "유일 (고정) 보스들은 보너스 직업의 성장 속도가 70% 더 빠릅니다.", "_t")
 t("Stairs can not be used for 5 turns after a kill.", "살해 후 5 턴 동안 계단 사용이 불가능합니다.", "_t")
-t("Player can earn Insane version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 광기 난이도의 도전 과제를 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
+t("Player can earn Insane version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 광기 난이도의 업적을 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
 t("Madness", "광란", "birth descriptor name")
 t("Insane is for the weak! Bring on the true mind-shattering experience!", "광기 난이도도 너무 쉽다! 진정한 정신 붕괴를 내게 가져와라!", "_t")
 t("#GOLD##{bold}#Madness mode#WHITE##{normal}#", "#GOLD##{bold}#광란 난이도#WHITE##{normal}#", "_t")
@@ -2649,7 +2649,7 @@ t("Rare creatures are far more frequent and random bosses start to appear", "희
 t("Stairs can not be used for 9 turns after a kill.", "살해 후 9 턴 동안 계단 사용이 불가능합니다.", "_t")
 t("Player starts with 100 more life and 500 gold, but trust us, you'll need it!", "플레이어는 100 의 추가 생명력과 금화 500 을 들고 시작합니다. 우릴 믿으세요, 정말로 저것들이 필요할 겁니다!", "_t")
 t("Player is being hunted! Randomly all foes in a radius will get a feeling of where she/he is", "이제 플레이어는 사냥감이 되었습니다! 범위 내의 모든 적이 당신이 어디에 있는지 감지합니다.", "_t")
-t("Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 광란 난이도의 도전 과제를 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
+t("Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.", "이 난이도에서는 광란 난이도의 업적을 달성 할 수 있습니다. 탐험 모드를 제외하고 말이죠.", "_t")
 t("Exploration", "탐험", "birth descriptor name")
 t("Exploration mode: Infinite lives (donator feature)", "탐험 모드: 목숨 무제한 (기부자 전용)", "_t")
 t("#GOLD##{bold}#Exploration mode#WHITE#", "#GOLD##{bold}#탐험 모드#WHITE#", "_t")
@@ -2861,9 +2861,9 @@ t("#GOLD#Life per level:#LIGHT_BLUE# 9", "#GOLD#레벨 당 생명력:#LIGHT_BLUE
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#경험치 불이익:#LIGHT_BLUE# 12%", "_t")
 t("Blond Hair 1", "금빛 머리카락 1", "_t")
 t("Thalore", "탈로레", "birth descriptor name")
-t("Thaloren elves have spent most of the ages hidden within their forests, seldom leaving them.", "탈로레는 대부분의 시대를 그들이 살고있는 숲에서 보냈고, 좀처럼 숲을 떠나지 않습니다.", "_t")
+t("Thaloren elves have spent most of the ages hidden within their forests, seldom leaving them.", "탈로레는 대부분의 시대를 그들이 살고 있는 숲에서 보냈고, 좀처럼 숲을 떠나지 않습니다.", "_t")
 t("The ages of the world passed by and yet they remained unchanged.", "세계의 여러 시대들이 지나갔지만, 탈로레는 변하지 않은 그대로입니다.", "_t")
-t("Their affinity for nature and their reclusion have made them great protectors of the natural order, often opposing their Shaloren cousins.", "탈로레의 자연에 대한 친화력과 오랜 시간동안 지속된 은둔으로 인해, 탈로레는 자연 질서의 위대한 보호자로 여겨집니다. 때때로 샬로레 사촌들과 대적하기도 하지요.", "_t")
+t("Their affinity for nature and their reclusion have made them great protectors of the natural order, often opposing their Shaloren cousins.", "탈로레의 자연에 대한 친화력과 오랜 시간 동안 지속된 은둔으로 인해, 탈로레는 자연 질서의 위대한 보호자로 여겨집니다. 때때로 샬로레 사촌들과 대적하기도 하지요.", "_t")
 t("They possess the #GOLD#Gift of the Woods#WHITE# talent, which allows them to regenerate life and increase healing once in a while.", "탈로레는 생명력을 회복하고, 회복 효율을 상승시키는 #GOLD#나무의 선물#WHITE# 기술을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +3 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +2 힘, +3 민첩, +1 체격", "_t")
@@ -2890,7 +2890,7 @@ to start, look where halflings once tinkered with portals...]], [[아주 오래 
 거인들의 잊혀진 출생지는 깊은 지하에 자리잡고있고,
 파괴된 터널로 인해 발견되지 않았다.
 과거의 절도는 실패했지만, 그들의 자료는 불멸한다;
-시작하기 위해선, 한 때 하플링들이 차원문으로 실험했던 곳부터 찾아보아라...]], "_t")
+시작하기 위해선, 한때 하플링들이 차원문으로 실험했던 곳부터 찾아보아라...]], "_t")
 t("Ogres are an altered form of Human, created in the Age of Allure as workers and warriors for the Conclave.", "오우거는 인간의 변형된 모습으로, 매혹의 시대 때, 최고 의회를 위해 일하던 노동자들과 전사였습니다.", "_t")
 t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "각인은 오우거에게 자연의 한계를 뛰어넘은 강력한 육체적인 힘과 마법적인 힘을 주었습니다. 그러나 룬 마법에 대한 의존으로 인해, 마법사냥 기간동안 오우거들은 주된 표적이 되었고, 그로 인해 샬로레의 영역 내로 피난을 가게되었습니다.", "_t")
 t("Their preference for simple and direct solutions has given them an undeserved reputation as dumb brutes, despite their extraordinary talent with runes and their humble, dutiful nature.", "오우거는 단순하고 직접적인 해결법을 선호하기 때문에, 룬과 그들의 겸손하고 순종적인 성향에도 불구하고 덜떨어지고, 무식한 짐승이라는 평판을 갖게되었습니다.", "_t")
@@ -3003,7 +3003,7 @@ section "game/modules/tome/data/birth/races/human.lua"
 t("Human", "인간", "birth descriptor name")
 t("The Humans are one of the main races on Maj'Eyal, along with the Halflings. For many thousands of years they fought each other until events, and great people, unified all the Human and Halfling nations under one rule.", "인간과 하플링은 마즈'에이알의 주요 종족 중 하나입니다. 위대한 인물과 사건이 그들을 하나의 규율 아래 묶어주기 전까지 인간과 하플링들은 수천년간 싸워왔습니다.", "_t")
 t("Humans of these Allied Kingdoms have known peace for over a century now.", "왕국연합의 지배아래 인간들은 백년 넘게 평화를 누려왔습니다.", "_t")
-t("Humans are split into two categories: the Highers, and the rest. Highers have latent magic in their blood which gives them higher attributes and senses along with a longer life.", "인간들은 하이어(Higher)와 나머지로 나뉩니다. 하이어의 핏속에 흐르는 마법은 그들이 뛰어난 능력과 감각, 긴 수명을 누리게합니다.", "_t")
+t("Humans are split into two categories: the Highers, and the rest. Highers have latent magic in their blood which gives them higher attributes and senses along with a longer life.", "인간들은 하이어(Higher)와 나머지로 나뉩니다. 하이어의 핏속에 흐르는 마법은 그들이 뛰어난 능력과 감각, 긴 수명을 누리게 합니다.", "_t")
 t("The rest of Humanity is gifted with quick learning and mastery. They can do and become anything they desire.", "나머지 인간들은 빠른 습득과 숙달을 타고났습니다. 이 사람들은 원하는 무었이든지 될 수 있습니다.", "_t")
 t("Facial features", "얼굴 특징", "birth facial category")
 t("Hairs", "머리카락", "birth facial category")
@@ -3693,7 +3693,7 @@ All you need to do is beat three of my men in battle, and you shall be rewarded.
 좋아...좋아... 자넨 정말 대단한 전사가 될 것 같구만...
 제안 하나 하겠네, @playerdescriptor.race@.
 자네도 알겠지만... 나는 투기장에서 일하는 중개인이라네. 
-나는 관객들의 재미를 보장할 수 있는 전사를 찾고 있다네. 자네도 한번 참가해보면 좋을 것 같구만.
+나는 관객들의 재미를 보장할 수 있는 전사를 찾고 있다네. 자네도 한 번 참가해보면 좋을 것 같구만.
 전투에서 3명만 제압한다면 보상을 받을 걸세.
 #LIGHT_GREEN#*당신은 후드를 쓴 신비한 남자의 제안을 잠시 고민합니다.*
 ]], "_t")
@@ -3745,7 +3745,7 @@ If I am still around, we can have a deal. Think about it, @playerdescriptor.race
 아아... 자네의 뜻이 그렇다면, 우리는 다시 만날 일은 없겠군.
 하지만, 혹시나 자네의 생각이 바뀐다면... 나는 #YELLOW#데르스에 잠깐 더 머무를 
 생각이라네.#WHITE#
-지나다니다가 내가 아직도 보인다면, 아직은 기회가 있는 셈이야. 다시 한번 생각해보는게 좋을 걸세, @playerdescriptor.race@.
+지나다니다가 내가 아직도 보인다면, 아직은 기회가 있는 셈이야. 다시 한 번 생각해보는게 좋을 걸세, @playerdescriptor.race@.
 ]], "_t")
 t("We'll see. [Leave]", "두고보지. [떠난다]", "_t")
 t([[#LIGHT_GREEN#*The man smiles in approval*#WHITE#
@@ -4108,7 +4108,7 @@ section "game/modules/tome/data/chats/chronomancy-see-threads.lua"
 
 t("#PURPLE#A paradox has already destroyed other timelines!", "#PURPLE#이미 괴리로 인해 다른 시간선들이 파괴되었다!", "logPlayer")
 t("#LIGHT_BLUE#You select the timeline and re-arrange the universe to your liking!", "#LIGHT_BLUE#시간선을 선택했고 그것에 맞추어 우주를 재구성했다!", "logPlayer")
-t("You have lived %d turns in three different timelines. Which do you choose to be the real timeline?", "세 가지의 다른 시간선에서 %d 턴간 있었습니다. 어떤 시간선을 현실로 삼겠습니까?", "tformat")
+t("You have lived %d turns in three different timelines. Which do you choose to be the real timeline?", "세 가지의 다른 시간선에서 %d 턴 동안 있었습니다. 어떤 시간선을 현실로 삼겠습니까?", "tformat")
 t("The first.", "첫 번째.", "_t")
 t("The second.", "두 번째.", "_t")
 t("The third.", "세 번째.", "_t")
@@ -4488,8 +4488,8 @@ t([[One more bit of aid I might give you before you go. Your tale has moved me, 
 t("I'll leave not a single orc standing.", "오크를 단 한 놈도 남기지 않겠습니다.", "_t")
 t("#VIOLET#You have learned the talent Relentless Pursuit.", "#VIOLET#기술 '끈질긴 추격' 을 배웠다.", "logPlayer")
 t("I have heard about that; good men lost their lives for this. I hope it was worth it.", "그 이야기는 들었습니다. 선량한 사람들이 목숨을 잃었죠. 그만한 가치가 있었길.", "_t")
-t("Yes, my lady, they delayed the orcs so that I could get to the heart of the volcano. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "예, 고귀한 여인이시여, 그들이 오크들을 막아 준 덕분에, 제가 화산의 심장부에 도착할 수 있었습니다. *#LIGHT_GREEN#그녀에게 자세히 설명한다#WHITE#*", "_t")
-t("I am afraid I was too late, but I still have some valuable information. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "한 발 늦고 말았지만, 중요한 정보들을 얻었습니다. *#LIGHT_GREEN#그녀에게 자세히 설명한다#WHITE#*", "_t")
+t("Yes, my lady, they delayed the orcs so that I could get to the heart of the volcano. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "예, 고귀한 여인이시여, 그들이 오크들을 막아 준 덕분에, 제가 화산의 심장부에 도착할 수 있었습니다. #LIGHT_GREEN#*그녀에게 자세히 설명한다*#WHITE#", "_t")
+t("I am afraid I was too late, but I still have some valuable information. *#LIGHT_GREEN#Tell her what happened#WHITE#*", "한 발 늦고 말았지만, 중요한 정보들을 얻었습니다. #LIGHT_GREEN#*그녀에게 자세히 설명한다*#WHITE#", "_t")
 t([[Sorcerers? I have never heard of them. There were rumours about a new master of the Pride, but it seems they have two.
 Thank you for everything. You must continue your hunt now that you know what to look for.]], [[주술사들이라고요? 그런 이야기는 처음 들어봅니다. 긍지의 새 주인에 대한 여러 소문들이 있었지만, 그 주인이란 자는 사실 두 명인 것 같군요.
 정말로 감사드립니다. 이제 뭘 찾아야 할 지 알았으니, 계속 찾아 봐 주세요.]], "_t")
@@ -4840,7 +4840,7 @@ section "game/modules/tome/data/chats/lost-merchant.lua"
 
 t([[Please save me! I will make it worth your whi..
 *#LIGHT_GREEN#The assassin lord hits him in the face.#WHITE#*Shut up!]], [[살려줘! 사례는 두둑ㅎ..
-*#LIGHT_GREEN#암살단장이 그의 얼굴을 한 대 쳤습니다.#WHITE#*다물어라!]], "_t")
+#LIGHT_GREEN#*암살단장이 그의 얼굴을 한 대 쳤습니다.*#WHITE# 다물어라!]], "_t")
 t("Sorry, I have to go!", "미안, 가 봐야겠어!", "_t")
 t("Please get me out of here!", "제발 여기서 나가게 해 줘!", "_t")
 t("Come, there is a way out!", "이쪽이다, 여기가 출구야!", "_t")
@@ -4853,7 +4853,7 @@ t([[#LIGHT_GREEN#*Ben lies defeated at your feet*#WHITE#
 T...thank you for... *cough*... saving me from the curse.
 I did no... not want for this to...
 #LIGHT_GREEN#*he coughs one last time and dies, a smile on his face as his curse is gone.*#WHITE#]], [[#LIGHT_GREEN#*벤이 발치에 쓰러졌습니다*#WHITE#
-고...고맙다... *콜록* 날 저주에서 구해 준 거야.
+고...고맙다... *콜록*... 날 저주에서 구해 준 거야.
 나도 이... 이러고 싶진 않았...
 #LIGHT_GREEN#*그는 마지막으로 기침을 하고 죽었습니다. 그의 저주가 사라져, 미소를 짓고 있었습니다.*#WHITE#]], "_t")
 t("Rest in peace.", "편히 쉬길.", "_t")
@@ -5132,7 +5132,7 @@ section "game/modules/tome/data/chats/pre-charred-scar.lua"
 
 t([[*#LIGHT_GREEN#Suddenly a voice appears in your head.#WHITE#*
 @playername@, this is High Sun Paladin Aeryn of the Sunwall. I am communicating with you by the power of the Anorithil.
-I have some urgent information for you: the staff you were looking for has been located.]], [[*#LIGHT_GREEN#갑자기 머릿속에서 어떤 목소리가 울립니다.#WHITE#*
+I have some urgent information for you: the staff you were looking for has been located.]], [[#LIGHT_GREEN#*갑자기 머릿속에서 어떤 목소리가 울립니다.*#WHITE#
 @playername@, 태양의 장벽의 고위 태양의 기사, 아에린입니다. 지금 아노리실의 힘으로 그대와 소통하고 있는 겁니다.
 급히 전할 소식이 있습니다. 그대가 찾고 있는 지팡이가 지금 어디에 있는지 알아냈습니다.]], "_t")
 t("Where?!", "그게 어디입니까?!", "_t")
@@ -5234,7 +5234,7 @@ t("Farewell.", "안녕히.", "_t")
 section "game/modules/tome/data/chats/shertul-fortress-butler.lua"
 
 t([[*#LIGHT_GREEN#The creature slowly turns to you. You hear its terrible voice directly in your head.#WHITE#*
-Welcome, master.]], [[*#LIGHT_GREEN#생명체가 천천히 당신 쪽으로 몸을 돌립니다. 끔찍한 목소리가 머릿속에 직접 울립니다.#WHITE#*
+Welcome, master.]], [[#LIGHT_GREEN#*생명체가 천천히 당신 쪽으로 몸을 돌립니다. 끔찍한 목소리가 머릿속에 직접 울립니다.*#WHITE#
 어서 오십시오, 주인님.]], "_t")
 t("What are you, and what is this place?", "넌 뭐고, 여긴 또 뭐야?", "_t")
 t("Master? I am not your mas...", "주인님이라고? 난 네 주인이 아니...", "_t")
@@ -5251,10 +5251,10 @@ t("I find your appearance unsettling. Any way you can change it?", "네 모습�
 t("I have come upon a strange thing indeed. #LIGHT_GREEN#[tell him about Melinda]", "엄청 이상한 일이 있었는데 말이야. #LIGHT_GREEN#[멜린다 이야기를 한다]", "_t")
 t("[leave]", "[떠난다]", "_t")
 t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
-You possess a control rod. You are the master.]], [[*#LIGHT_GREEN#생명체가 당신을 응시합니다.#WHITE#*
+You possess a control rod. You are the master.]], [[#LIGHT_GREEN#*생명체가 당신을 응시합니다.*#WHITE#
 귀하께선 제어봉을 소지하고 계십니다. 귀하가 주인님입니다.]], "_t")
 t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
-You are the master; you have the rod. I am created to speak to the master.]], [[*#LIGHT_GREEN#생명체가 당신을 응시합니다.#WHITE#*
+You are the master; you have the rod. I am created to speak to the master.]], [[#LIGHT_GREEN#*생명체가 당신을 응시합니다.*#WHITE#
 귀하께선 제어봉을 소지하고 계십니다. 귀하가 주인님입니다. 저는 주인님께 이야기하기 위해 창조되었습니다.]], "_t")
 t("Err... ok.", "어... 알았어.", "_t")
 t([[*#LIGHT_GREEN#The creature glares at you with intensity. You 'see' images in your head.
@@ -5266,15 +5266,15 @@ Then you see darkness; it seems like the shadow does not know what followed thos
 
 You shake your head as the vision dissipates, and your normal sight comes back slowly.
 #WHITE#*
-]], [[*#LIGHT_GREEN#생명체가 당신을 강렬하게 응시합니다. 자신의 머릿속에서 영상들을 '볼' 수 있습니다.
+]], [[#LIGHT_GREEN#*생명체가 당신을 강렬하게 응시합니다. 자신의 머릿속에서 영상들을 '볼' 수 있습니다.
 지금은 잊혀진 고대 시대에 일어난 엄청난 전쟁의 모습이 보입니다. 군대 같은 것이 보입니다. 저들은 모두 쉐르'툴일 것입니다. 병사들의 모습이 요새의 그림자와 닮았기 때문입니다.
 그들은 무기와 마법, 그리고 온갖 것들로 신들과 싸우고 있습니다. 그들은 신들을 쓰러뜨리고, 죽이거나 추방했습니다.
 지금 있는 장소와 비슷한 거대 요새들이, 에이알의 하늘을 가득 메우고 있는 모습이 보입니다. 먼 옛날의 태양빛을 받아 빛나고 있습니다.
 신들이 모두 패배하여, 죽는 모습이 보였습니다. 딱 하나의 신만 빼고요.
 그러고 나선, 어둠만 보일 뿐입니다. 그림자는 이 일 이후에 일어난 일들은 모르는 것 같습니다.
 
-고개를 흔들자 영상이 사라지고, 원래 보이던 풍경으로 천천히 돌아왔습니다.
-#WHITE#*
+고개를 흔들자 영상이 사라지고, 원래 보이던 풍경으로 천천히 돌아왔습니다.*
+#WHITE#
 ]], "_t")
 t("Those are Sher'Tuls? They fought the gods?!", "방금 그게 다 쉐르'툴이야? 신들과 싸웠어?!", "_t")
 t("They had to. They forged terrible weapons of war. They won.", "그럴 수밖에 없었습니다. 그들은 끔찍한 전쟁 병기들을 만들어냈습니다. 그리고 이겼습니다.", "_t")
@@ -5284,7 +5284,7 @@ t("But I am the master!", "난 네 주인이야! 얘기해 봐!", "_t")
 t("Fine.", "알겠어.", "_t")
 t([[*#LIGHT_GREEN#The creature glares at you.#WHITE#*
 You are the master. You can use this place as you desire. However, most of the energies are depleted and only some rooms are usable.
-To the south you will find the storage room.]], [[*#LIGHT_GREEN#생명체가 당신을 응시합니다.#WHITE#*
+To the south you will find the storage room.]], [[#LIGHT_GREEN#*생명체가 당신을 응시합니다.*#WHITE#
 귀하는 주인님입니다. 귀하는 본 요새를 뜻대로 이용할 수 있습니다. 하지만 에너지가 대부분 사라진 상태이며 몇 가지 방만 이용 가능합니다.
 남쪽으로 가시면 보관소가 있습니다.]], "_t")
 t([[This Fortress is designed as a mobile base for the Godslayers - it can fly.
@@ -5368,33 +5368,33 @@ t("[done]", "...", "_t")
 section "game/modules/tome/data/chats/shertul-fortress-command-orb.lua"
 
 t([[*#LIGHT_GREEN#This orb seems to represent the world of Eyal as a whole. It is also probably used for controlling the fortress.
-]], [[*#LIGHT_GREEN#이 오브는 에이알 전체를 표현하는 것 같습니다. 또, 요새를 제어하는 데에도 쓰이는 것 같습니다.
+]], [[#LIGHT_GREEN#*이 오브는 에이알 전체를 표현하는 것 같습니다. 또, 요새를 제어하는 데에도 쓰이는 것 같습니다.
 ]], "_t")
 t([[You do not understand the inscriptions there.#WHITE#*
-#{italic}#"Rokzan krilt copru."#{normal}#]], [[거기에 새겨진 말을 이해할 수가 없습니다.#WHITE#*
+#{italic}#"Rokzan krilt copru."#{normal}#]], [[거기에 새겨진 말을 이해할 수가 없습니다.*#WHITE#
 #{italic}#"롴잔 크릹 코프루."#{normal}#]], "_t")
-t("#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "#WHITE#*#{italic}#\"제어봉을 삽입하라.\"#{normal}#", "_t")
+t("#WHITE#*#{italic}#\"Insert control rod.\"#{normal}#", "*#WHITE##{italic}#\"제어봉을 삽입하라.\"#{normal}#", "_t")
 t("[Examine the orb]", "[오브를 살펴 본다]", "_t")
 t("[Fly the fortress -- #LIGHT_RED#FOR TESTING ONLY#LAST#]", "[요새를 비행시킨다 -- #LIGHT_RED#시험용 기능#LAST#]", "_t")
 t("[Begin the Lichform ceremory]", "[리치 형상의 의식을 거행한다]", "_t")
 t([[*#LIGHT_GREEN#The device seems to be made of pure crystal. It projects a very accurate map of the known world - including the forbidden continent of the south.
-There seems to be a hole about the size and form of your Rod of Recall.#WHITE#*]], [[*#LIGHT_GREEN#이 장치는 순수한 수정으로 만들어진 것 같습니다. 이 세상의 지도를 매우 상세하게 비추고 있습니다. 심지어 남쪽의 금지된 대륙도 있습니다.
-귀환의 장대가 꼭 맞아들어갈 것 같은 구멍이 있습니다.#WHITE#*]], "_t")
+There seems to be a hole about the size and form of your Rod of Recall.#WHITE#*]], [[#LIGHT_GREEN#*이 장치는 순수한 수정으로 만들어진 것 같습니다. 이 세상의 지도를 매우 상세하게 비추고 있습니다. 심지어 남쪽의 금지된 대륙도 있습니다.
+귀환의 장대가 꼭 맞아들어갈 것 같은 구멍이 있습니다.*#WHITE#]], "_t")
 t("[Insert the rod]", "[장대를 밀어넣는다]", "_t")
 t([[*#LIGHT_GREEN#As you take the rod close to the orb it seems to vibrate and react.
 A shadow appears in a corner of the room! You retract the rod immediately but the shadow stays.
 It looks like the horrors you fought when coming inside, only less degenerated.
-The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*]], [[*#LIGHT_GREEN#장대를 오브에 가까이 대자 오브가 진동하며 반응합니다.
+The thing looks roughly humanoid, but it has no head and its limbs look like tentacles. It does not seem hostile.#WHITE#*]], [[#LIGHT_GREEN#*장대를 오브에 가까이 대자 오브가 진동하며 반응합니다.
 방의 구석에 웬 그림자가 나타났습니다! 곧바로 장대를 뽑았지만 그림자는 변함없이 있습니다.
 그 그림자는 여기 들어올 때 싸웠던 공포와 닮았지만, 조금 덜 퇴화된 상태였습니다.
-그 생물은 대충 사람처럼 생겼지만, 머리통이 없고 사지는 촉수처럼 생겼습니다. 적대적이진 않은 것 같습니다.#WHITE#*]], "_t")
+그 생물은 대충 사람처럼 생겼지만, 머리통이 없고 사지는 촉수처럼 생겼습니다. 적대적이진 않은 것 같습니다.*#WHITE#]], "_t")
 t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/chats/shertul-fortress-gladium-orb.lua"
 
-t("*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*", "*#LIGHT_GREEN#이 오브는 검투장을 제어하는 데 쓰이는 것 같습니다.#WHITE#*", "_t")
+t("*#LIGHT_GREEN#This orb is used to control the gladium arena.#WHITE#*", "#LIGHT_GREEN#*이 오브는 검투장을 제어하는 데 쓰이는 것 같습니다.*#WHITE#", "_t")
 t("[Go back to the Fortress]", "[요새로 돌아간다]", "_t")
 t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 
@@ -5410,7 +5410,7 @@ t("[Alter the appearance of your cosmetic aura]", "[아우라의 모습을 바�
 t("[Load/Save outfit]", "[외형 불러오기/저장하기]", "_t")
 t("[Disable the visual effects of your sustains]", "[유지형 기술들의 시각적 효과를 비활성화한다]", "_t")
 t("[Leave the mirror alone]", "[거울을 놔 둔다]", "_t")
-t("*#LIGHT_GREEN#As you gaze into the mirror you see an infinite number of slightly different reflections of yourself. You feel dizzy.#WHITE#*", "*#LIGHT_GREEN#거울을 응시하자 조금씩만 다른 자신의 모습이 수도 없이 많이 보입니다. 조금 어지럽습니다.#WHITE#*", "_t")
+t("*#LIGHT_GREEN#As you gaze into the mirror you see an infinite number of slightly different reflections of yourself. You feel dizzy.#WHITE#*", "#LIGHT_GREEN#*거울을 응시하자 조금씩만 다른 자신의 모습이 수도 없이 많이 보입니다. 조금 어지럽습니다.*#WHITE#", "_t")
 
 
 ------------------------------------------------
@@ -5421,7 +5421,7 @@ t("Armour Hardiness", "방어 효율", "_t")
 t("From 0 to 100", "0부터 100까지", "_t")
 t("Armour", "방어력", "_t")
 t("From 0 to 1000", "0부터 1000까지", "_t")
-t("*#LIGHT_GREEN#This orb is used to control the training facilities.#WHITE#*", "*#LIGHT_GREEN#이 오브는 훈련 시설을 제어하는 데 쓰이는 것 같습니다.#WHITE#*", "_t")
+t("*#LIGHT_GREEN#This orb is used to control the training facilities.#WHITE#*", "#LIGHT_GREEN#*이 오브는 훈련 시설을 제어하는 데 쓰이는 것 같습니다.*#WHITE#", "_t")
 t("[Create one target dummy]", "[더미를 하나 만든다]", "_t")
 t("[Create two target dummy]", "[더미를 둘 만든다]", "_t")
 t("[Create three target dummy]", "[더미를 셋 만든다]", "_t")
@@ -5749,7 +5749,7 @@ He believes he can use it to #{italic}#improve#{normal}# nagas.
 But he has become mad and now looks upon all other intelligent water life as a threat, and that includes myself.
 I cannot leave this sanctuary, but perhaps you could help me?
 After all, it would be an act of mercy to end his madness.]], [[잠깐! 넌 충분히 강해 보이니, 이 이야기를 들어 보아라.
-장작더미의 시대에 마법폭발로 인해 세계가 찢어져 버렸지. 마즈'에이알의 대륙붕 일부가 찢겨져, 바다 속으로 내던져졌다.
+장작더미의 시대에 마법폭발의 후유증으로 인해 세계가 찢어져 버렸지. 마즈'에이알의 대륙붕 일부가 찢겨져, 바다 속으로 내던져졌다.
 그 때문에 날로레 엘프족이 사라져 버렸다... 고 세상은 생각한다만. 그들 중 일부는 살아남았다. 스스로를 지키기 위해 고대 쉐르'툴의 마법을 사용하여, 물밑에서도 살 수 있도록 몸을 변형시켰지.
 그게 바로 지금 나가라 불리는 종족이다. 그들은 마즈'에이알과 동쪽 먼 곳의 대륙 사이에 위치한 바다, 그 깊은 곳에 살고 있다.
 그 중의 한 명인 슬라술이라는 자가 반역을 일으켜, 이 세계를 손에 넣으려 한다. 물밖과 물밑 모두. 놈은 창조의 사원이라 불리는 고대의 사원을 찾아 냈다. 아마 쉐르'툴이 남긴 것이겠지.
@@ -7340,7 +7340,7 @@ t("bear", "곰", "entity subtype")
 t("brown bear", "갈색 곰", "entity name")
 t("The weakest of bears, covered in brown shaggy fur.", "가장 약한 곰으로, 덥수룩한 갈색 털로 덮혀있습니다.", "_t")
 t("black bear", "검은 곰", "entity name")
-t("Do you smell like honey? 'Cause this bear wants honey.", "꿀 좋아하나? 이 곰이 꿀을 찾고있어서 말이지.", "_t")
+t("Do you smell like honey? 'Cause this bear wants honey.", "꿀 좋아하나? 이 곰이 꿀을 찾고 있어서 말이지.", "_t")
 t("cave bear", "동굴 곰", "entity name")
 t("It has come down from its cave foraging for food. Unfortunately, it found you.", "식량을 채집하기 위해 동굴에서 내려온 곰. 불행히도, 당신을 찾고 말았습니다.", "_t")
 t("war bear", "전투곰", "entity name")
@@ -7475,7 +7475,7 @@ t("mean looking elven guard", "야위여보이는 엘프 경비병", "entity nam
 t("An elven guard, scarred and sullen.", "흉터와 좋지 않은 표정의 엘프 경비병입니다.", "_t")
 t("elven warrior", "엘프 전사", "entity name")
 t("elven elite warrior", "엘프 정예 전사", "entity name")
-t("An elven warrior, clad in heavy armour.", "엘프 전사로, 중갑을 착용하고있습니다.", "_t")
+t("An elven warrior, clad in heavy armour.", "엘프 전사로, 중갑을 착용하고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -7525,7 +7525,7 @@ t("undead", "언데드", "entity type")
 t("dread", "공포", "entity name")
 t("It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "비명으로써 당신의 두 눈에 존재를 내보이는 유령으로, 죽음의 구현체입니다. 그 흉물스런 검은 몸은, 우주 그 자체가 이 존재를 추방하기 위해 분투하는 것으로 보입니다.", "_t")
 t("dreadmaster", "두려움의 주인", "entity name")
-t("It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "필적할 것이 없는 힘을 가진유령으로, 그 자체가 존재에 대한 모욕이며, 이 존재의 손길만으로 생명의 흐름을 방해하고, 뒤틀리게합니다. 또한 섬뜩하고 순수한 암흑으로 구성된 사지는, 돌 마저 쉽게 으스러뜨리며 피부와 살을 빠르게 시들게합니다.", "_t")
+t("It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "필적할 것이 없는 힘을 가진유령으로, 그 자체가 존재에 대한 모욕이며, 이 존재의 손길만으로 생명의 흐름을 방해하고, 뒤틀리게 합니다. 또한 섬뜩하고 순수한 암흑으로 구성된 사지는, 돌 마저 쉽게 으스러뜨리며 피부와 살을 빠르게 시들게 합니다.", "_t")
 t("banshee", "밴시", "entity name")
 t("It is a ghostly woman's form that wails mournfully.", "슬프게 울부짖은 여성의 모습을 한 유령입니다.", "_t")
 t("ruin banshee", "파멸의 밴시", "entity name")
@@ -7563,17 +7563,17 @@ section "game/modules/tome/data/general/npcs/horror-corrupted.lua"
 t("corrupted", "부패", "entity subtype")
 t("horror", "공포", "entity type")
 t("drem", "드렘", "entity name")
-t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "작고 얼굴없는 인간형 생명체로 드워프와 조금 비슷한 특징을 가졌습니다.  들고있는 전투도끼와 방패는 낧고, 녹슬고, 그리고 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
+t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "작고 얼굴없는 인간형 생명체로 드워프와 조금 비슷한 특징을 가졌습니다.  들고 있는 전투도끼와 방패는 낧고, 녹슬고, 그리고 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
 t("dremling", "어린 드렘", "entity name")
 t("A giant black-skinned humanoid covered in spikey scabrous deposits.  Its face is featureless; its eyesockets, empty and hollow.", "거대하고, 검은 피부를 가진 인간형 생명체로, 피부에는 가시가 돋혀있습니다.  얼굴은 특색이 없습니다; 두 눈이 있어야 할 곳은, 텅 비어있고 공허합니다.", "_t")
 t("drem master", "드렘 주인", "entity name")
-t("A disfigured humanoid with vaguely Dwarven features dressed in patched-together and rusted mail armor.  It seems to be in command of others, though its mouth is sewn shut.", "녹슨, 기워만든 사슬 갑옷을 입고있는 약간은 드워프 같은 특징을 갖고있는 못생긴 인간형 생명체입니다.  이 개체는 다른 동족들에게 명령을 내리고 있는 것 같습니다. 비록 입은 꿰매어졌지만요.", "_t")
+t("A disfigured humanoid with vaguely Dwarven features dressed in patched-together and rusted mail armor.  It seems to be in command of others, though its mouth is sewn shut.", "녹슨, 기워만든 사슬 갑옷을 입고 있는 약간은 드워프 같은 특징을 갖고 있는 못생긴 인간형 생명체입니다.  이 개체는 다른 동족들에게 명령을 내리고 있는 것 같습니다. 비록 입은 꿰매어졌지만요.", "_t")
 t("brecklorn", "브렉클론", "entity name")
 t("A giant hairless bat with the face of a Dwarf twisted into a constant scream.  Pustulant sores cover its malformed body, and your heart weakens as it nears.", "항시 비명을 지르는 거대하고 털 없는 박쥐로, 뒤틀린 드워프의 얼굴을 갖고있습니다.  염증과 고름이 그 흉한 몸을 덮고있으며, 당신은 브렉클론이 다가오면 심장이 약해짐을 느낍니다.", "_t")
 t("grannor'vor", "그란놀'보르", "entity name")
-t("A large sluglike creature that moves slowly, leaving a trail of acid in its wake.  Its head has strangely humanoid features.", "거대하고 민달팽이 같은 존재로 느리게 움직이며, 움직일 때 마다 산성물질로 이루어진 지국을 남깁니다.  그란놀'보르의 머리는 기이하게도 인간형 종족들의 특징을 하고있습니다.", "_t")
+t("A large sluglike creature that moves slowly, leaving a trail of acid in its wake.  Its head has strangely humanoid features.", "거대하고 민달팽이 같은 존재로 느리게 움직이며, 움직일 때마다 산성물질로 이루어진 지국을 남깁니다.  그란놀'보르의 머리는 기이하게도 인간형 종족들의 특징을 하고 있습니다.", "_t")
 t("grannor'vin", "그란놀'빈", "entity name")
-t("A large sluglike creature with the face of a man.  Shadows seem to be drawn to its massive form, and your light dims as it approaches.", "거대한 민달팽이 같은 존재로, 인간의 얼굴을 하고있습니다.  그림자는 그 거대한 몸에 끌리는 것 같습니다. 그란놀'보르가 다가오자 랜턴의 빛이 어두워집니다.", "_t")
+t("A large sluglike creature with the face of a man.  Shadows seem to be drawn to its massive form, and your light dims as it approaches.", "거대한 민달팽이 같은 존재로, 인간의 얼굴을 하고 있습니다.  그림자는 그 거대한 몸에 끌리는 것 같습니다. 그란놀'보르가 다가오자 랜턴의 빛이 어두워집니다.", "_t")
 
 
 ------------------------------------------------
@@ -7632,7 +7632,7 @@ t("umbral horror", "그림자의 호러", "entity name")
 t("A dark shifting shape stalks through the shadows, blending in seamlessly.", "끊임없이 형태를 바꾸는 검은 형체가 그림자를 뚫고 당신을 추격합니다. 형체는 그림자와 완벽하게 융합되어 있습니다.", "_t")
 t("dreaming horror", "꿈꾸는 공포", "entity name")
 t([[A vaguely tentacled yet constantly changing form rests here apparently oblivious to your existence.
-With each slow breath it takes reality distorts around it.  Blue twirls into red, green twists into yellow, and the air sings softly before bursting into a myriad of pastel shapes and colors.]], [[희미한 촉수가 나있는 이 형태는 끊임없이 형태를 바꾸며 이곳에 존재합니다. 분명 당신의 존재를 잊고있는 것 같습니다.
+With each slow breath it takes reality distorts around it.  Blue twirls into red, green twists into yellow, and the air sings softly before bursting into a myriad of pastel shapes and colors.]], [[희미한 촉수가 나있는 이 형태는 끊임없이 형태를 바꾸며 이곳에 존재합니다. 분명 당신의 존재를 잊고 있는 것 같습니다.
 형태가 내뿜는 느린 숨결이 주변의 현실 구조를 왜곡하고 있습니다.  파랑색은 빨강색으로 회전하고, 초록색은 노란색으로 뒤틀립니다. 그리고 공기들은 무수한 도형들과 은은한 색채들이 폭발하기 전까지 부드럽게 노래하고 있습니다.]], "_t")
 t("It looks asleep and dreamy.", "깊게 잠들어, 꿈을 꾸고 있는 것 같습니다.", "_t")
 t("It looks awake, beware!", "일어났습니다! 조심하십시오!", "_t")
@@ -7649,7 +7649,7 @@ t("parasitic horror", "기생하는 공포", "entity name")
 t("You don't want to think about what sort of creature this lamprey-like horror was feeding on to grow so large.  Its skin pulsates and writhes, like things are moving underneath...", "당신은 어떤 종류의 생명체를 잡어먹으며 이 칠성장어 같은 공포가 이런 거대한 크기로 자라났는지 생각하고 싶지 않을겁니다.  이 공포의 피부는 고동하며 비틀립니다. 마치 그 피부 밑에 무엇인가가 기어다니는 것 처럼...", "_t")
 t("%s's severed flesh starts crawling!", "%s의 절단된 살점이 기어가기 시작했다!", "logSeen")
 t("mass of parasitic leeches", "기생성 거머리 떼", "entity name")
-t("Dozens - hundreds maybe? - of blood-gorged worms, of varying shapes and sizes, making a writhing, ichor-soaked sea of tooth-lined maws and sickly green skin, ready to latch onto you and drink until they burst or your veins run dry.", "몇십 - 아마 몇백 - 개의  피에 목마른 벌레들로, 가지각색의 크기와 모양을 갖고있습니다. 피 고름에 덮힌 이빨들이 역겨운 초록색 피부한 속에서, 당신에게 달려들어 모든 혈관을 비워버릴 때까지 마실 준비를 하고있습니다.", "_t")
+t("Dozens - hundreds maybe? - of blood-gorged worms, of varying shapes and sizes, making a writhing, ichor-soaked sea of tooth-lined maws and sickly green skin, ready to latch onto you and drink until they burst or your veins run dry.", "몇십 - 아마 몇백 - 개의  피에 목마른 벌레들로, 가지각색의 크기와 모양을 갖고있습니다. 피 고름에 덮힌 이빨들이 역겨운 초록색 피부한 속에서, 당신에게 달려들어 모든 혈관을 비워버릴 때까지 마실 준비를 하고 있습니다.", "_t")
 t("Grgglck the Devouring Darkness", "삼키는 어둠의 그르글륵", "entity name")
 t([[A horror from the deepest pits of the earth. It looks like a huge pile of tentacles all trying to reach for you.
 You can discern a huge round mouth covered in razor-sharp teeth.]], [[대지의 가장 깊은 구덩이에서 온 공포입니다. 거대한 촉수 덩어리로, 모든 촉수들이 당신을 붙잡으려합니다.
@@ -7666,7 +7666,7 @@ t("#AQUAMARINE#A rift opens and a free floating blade emerges!", "#AQUAMARINE#�
 t("construct", "구조체", "entity type")
 t("weapon", "무기", "entity subtype")
 t("Distorted Animated Sword", "왜곡된 살아 움직이는 칼", "entity name")
-t("This floating weapon shifts and shimmers, time and space warping and bending as it moves. It appears to vibrate, as if it may explode at any moment.", "이 공중에 뜬 무기는 모슴을 바꾸며 빛을냅니다. 칼이 움직이면, 시간과 공간이 왜곡되고 비틀리며, 금방이라도 폭발할 듯이 떨고있는 것 같습니다.", "_t")
+t("This floating weapon shifts and shimmers, time and space warping and bending as it moves. It appears to vibrate, as if it may explode at any moment.", "이 공중에 뜬 무기는 모슴을 바꾸며 빛을냅니다. 칼이 움직이면, 시간과 공간이 왜곡되고 비틀리며, 금방이라도 폭발할 듯이 떨고 있는 것 같습니다.", "_t")
 t("#AQUAMARINE#A rift opens and a free floating blade emerges! It looks unstable...", "#AQUAMARINE#균열이 열리고, 떠다니는 칼날이 나타난다! 불안정해 보인다...", "logSeen")
 t("#AQUAMARINE#The %s no longer seems to be controlled and clatters to the ground before vanishing into a rift.", "#AQUAMARINE#%s 통제를 벗어나, 달그락 소리를 내며 땅에 떨어지고 공간의 균열로 추방된다.", "logSeen", nil, {"는"})
 
@@ -7748,7 +7748,7 @@ t("A strange black blob on the dungeon floor; through it you seem to be able to 
 section "game/modules/tome/data/general/npcs/lich.lua"
 
 t("undead", "언데드", "entity type")
-t("Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "역생의 신비에 통달한 강력한 마법사만이 리치가 될 수 있습니다. 영겁의 시간동안 세상에 악행을 퍼뜨리는 저주를 받았고, 숨을 쉬거나 영역을 침범하는 모든 이들에게 증오를 풀어넣습니다. 유감스럽게도 당신도 그 중 하나입니다.", "_t")
+t("Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "역생의 신비에 통달한 강력한 마법사만이 리치가 될 수 있습니다. 영겁의 시간 동안 세상에 악행을 퍼뜨리는 저주를 받았고, 숨을 쉬거나 영역을 침범하는 모든 이들에게 증오를 풀어넣습니다. 유감스럽게도 당신도 그 중 하나입니다.", "_t")
 t("lich", "리치", "entity name")
 t("Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "영생을 손에 넣으려한 이 존재들은 영생을 위해 역생이 삶의 즐거움을 앗아가는 것을 허락했습니다. 이제 이 강력한 주문 시전자들은 생명을 파괴하려 합니다.", "_t")
 t("ancient lich", "고대의 리치", "entity name")
@@ -7781,7 +7781,7 @@ t("dúathedlen", "듀아세들렌", "entity name")
 t("Under a shroud of darkness you discern an evil shape.", "어둠의 장막 아래의 악의 가득한 형상이 어렴풋이 보입니다.", "_t")
 t("uruivellas", "우뤼벨라스", "entity name")
 t([[This demon would look like a minotaur, if a minotaur had a fiery aura surrounding it and horns all over its body.
-Oh, and it is twice as big, too.]], [[이 악마는 미노타우르스같지만, 꼭 화염의 기운에 둘러싸이고, 전신에 뿔이 돋아난 모습을 하고있습니다.
+Oh, and it is twice as big, too.]], [[이 악마는 미노타우르스같지만, 꼭 화염의 기운에 둘러싸이고, 전신에 뿔이 돋아난 모습을 하고 있습니다.
 아, 그리고 2 배 정도 거대합니다.]], "_t")
 t("thaurhereg", "싸울헤레그", "entity name")
 t("This terrible demon is covered in blood, which flows *on* its skin in ever-changing patterns that disturb you simply when looking at it.", "이 끔찍한 악마는 피부 위를 변화무쌍하게 흐르는 피로 뒤덮혀있어, 보기만해도 집중이 흐려집니다.", "_t")
@@ -7805,7 +7805,7 @@ t("minor", "하위", "entity subtype")
 t("fire imp", "화염 임프", "entity name")
 t("A small demon, lobbing spells at you.", "작은 악마로, 당신에게 주문을 던집니다.", "_t")
 t("wretchling", "렛츨링", "entity name")
-t("Acid oozes all over this small demon's skin.  Beware, they tend to hunt in packs.", "이 작은 악마의 피부에서 산성 진물이 흘러나옵니다.  조심하십시오, 이 악마들은 무리지어 사냥하는 특성이 있습니다.", "_t")
+t("Acid oozes all over this small demon's skin.  Beware, they tend to hunt in packs.", "이 작은 악마의 피부에서 산성 진물이 흘러나옵니다.  조심하십시오, 이 악마들은 무리 지어 사냥하는 특성이 있습니다.", "_t")
 t("onilug", "오닐루그", "entity name")
 t([[A gaunt vaguely humanoid shape featuring unadorned grey leathery skin. Its arms and legs seem somehow too long and it stands tall, projecting an ominous shadow even in darkness.
 Its glowing red eyes shine with both cruelty and a deep frightening intellect.]], [[삐쩍마른 인간의 형상을 한 악마로 특징없는 회색 피부를 갖고있다. 팔다리는 아주 길어, 우뚝선 채로 어둠 속에서 그림자를 뿜어냅니다.
@@ -7874,7 +7874,7 @@ t("naga", "나가", "entity subtype")
 t("naga myrmidon", "나가 미르미돈", "entity name")
 t("Before you stands a tall figure -- a very tall figure, propped high by a thick serpent's tail in place of where his legs should rightly be. His torso is human-like, with bulging muscles beneath fitted armour, and large hands gripping a fiercely sharp trident. He glares at you with dark intensity, like a wolf about to pounce on unsuspecting prey.", "당신 앞에 커다란 형상이 서있습니다 -- 마땅히 다리가 있어야 할 대신 굵은 뱀 꼬리가 나있어, 이 거대한 존재의 육체를 떠받히고 있습니다. 그 몸통은 인간의 몸통과 비슷하며, 딱 맞는 갑옷 밑으로 울룩불룩한 근육이 보입니다. 또한 커다란 두 손은 험악하게 생긴 날카로운 삼지창을 쥐고 있습니다. 그는 마치 순진한 양을 덮치려는 늑대처럼, 어둡고 강렬한 눈빛으로 당신을 응시합니다.", "_t")
 t("naga tide huntress", "나가 파도 사냥꾼", "entity name")
-t("Though the sharp point of an arrow pointed steadily at your head is of concern, more unnerving is the creature that wields it: a slim and lithe woman from the waist up, but a terrifying giant serpent beneath, her tail stretching for several feet behind her. Her eyes turn cold and ice seems to magically condense on the tip of her barbed arrow. Suddenly it is of concern again.", "물론 날카로운 화살촉이 당신의 머리를 노리고 있지만, 더욱 불안에 떨게 하는 것은 화살을 들고있는 생명체입니다. 늘씬한 몸매의 여성이지만, 허리 아래부터는 공포스러운 거대한, 1 미터 가까이되는 뱀 꼬리가 나있습니다. 그녀가 차가운 눈빛으로 쏘아보자, 쐐기 화살의 끝부분에 마법적인 얼음이 맺히는 것 같습니다.  또 다시 불안감이 엄습합니다.", "_t")
+t("Though the sharp point of an arrow pointed steadily at your head is of concern, more unnerving is the creature that wields it: a slim and lithe woman from the waist up, but a terrifying giant serpent beneath, her tail stretching for several feet behind her. Her eyes turn cold and ice seems to magically condense on the tip of her barbed arrow. Suddenly it is of concern again.", "물론 날카로운 화살촉이 당신의 머리를 노리고 있지만, 더욱 불안에 떨게 하는 것은 화살을 들고 있는 생명체입니다. 늘씬한 몸매의 여성이지만, 허리 아래부터는 공포스러운 거대한, 1 미터 가까이되는 뱀 꼬리가 나있습니다. 그녀가 차가운 눈빛으로 쏘아보자, 쐐기 화살의 끝부분에 마법적인 얼음이 맺히는 것 같습니다.  또 다시 불안감이 엄습합니다.", "_t")
 t("naga psyren", "나가 사이렌", "entity name")
 t("Such a mix of enchanting beauty and revolting horror you have never before seen combined. Above, a beautiful, ethereal woman, of scant form and entrancing grace. Below, the thick, smooth scales of a snake, its stretched tail gently waving back and forth in the air behind her. The movement is eye-catching and hypnotic, and whilst you watch a mysterious smile plays across her seductive lips.", "전에 본 적 없는 매력적인 아름다움과 혐오스러운 공포의 융합으로, 허리 위로는 아름다운, 천상에서 온 것 같은 여성이 고귀한 자태와 매혹적인 우아함을 뽐내고 있지만, 그 아래는 두껍고 부드러운 뱀 꼬리가 그녀의 등 뒤에서 앞 뒤로 흔들립니다. 그녀의 움직임은 눈길을 사로잡고, 몽환적이며, 그녀의 신비로운 미소는 매혹적인 입술을 가로질러 퍼집니다.", "_t")
 
@@ -8008,7 +8008,7 @@ t("immovable", "부동생물", "entity type")
 t("plants", "식물", "entity subtype")
 t("A not-so-strange growth on the dungeon floor.", "던전 바닥에서 자라나는게 그렇게 이상하진 않네요.", "_t")
 t("giant venus flytrap", "거대한 끈끈이주걱", "entity name")
-t("This flesh-eating plant has grown to enormous proportions and seeks to quell its hunger.", "살점을 뜯어먹는 식물이 거대하게 자라 굶주림을 가라앉힐 방법을 찾고있습니다.", "_t")
+t("This flesh-eating plant has grown to enormous proportions and seeks to quell its hunger.", "살점을 뜯어먹는 식물이 거대하게 자라 굶주림을 가라앉힐 방법을 찾고 있습니다.", "_t")
 t("treant", "나무 정령", "entity name")
 t("A very strong near-sentient tree, which has become hostile to other living things.", "매우 강력하고, 막 지각을 개화한 나무 생명체로, 다른 생명체에게 적대적으로 변해버렸습니다.", "_t")
 t("poison ivy", "맹독 담쟁이덩굴", "entity name")
@@ -8052,15 +8052,15 @@ section "game/modules/tome/data/general/npcs/sandworm.lua"
 
 t("vermin", "해충", "entity type")
 t("sandworm", "샌드웜", "entity name")
-t("A huge worm coloured as the sand it inhabits. It seems quite unhappy about you being in its lair.", "모래의 색깔을 띄고있는 거대한 벌레로, 당신이 둥지에 있는게 내키지 않는 모양입니다.", "_t")
+t("A huge worm coloured as the sand it inhabits. It seems quite unhappy about you being in its lair.", "모래의 색깔을 띄고 있는 거대한 벌레로, 당신이 둥지에 있는게 내키지 않는 모양입니다.", "_t")
 t("sandworm destroyer", "샌드웜 파괴자", "entity name")
-t("A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "모래의 색깔을 띄고있는 거대한 벌레로, 이 특별한 샌드웜들은 단 한가지 목적을 위해 부화한 것 같습니다. 바로 샌드웜이 아닌 모든 것의 박멸. 이를테면... 당신같은거요.", "_t")
+t("A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "모래의 색깔을 띄고 있는 거대한 벌레로, 이 특별한 샌드웜들은 단 한가지 목적을 위해 부화한 것 같습니다. 바로 샌드웜이 아닌 모든 것의 박멸. 이를테면... 당신같은거요.", "_t")
 t("sand-drake", "모래 드레이크", "entity name")
 t("dragon", "용", "entity type")
 t("sand", "모래", "entity subtype")
-t("This unholy creature looks like a wingless dragon in shape, but it is sand-colored, making it all the more dangerous for its prey.", "이 불경한 생명체는 날개없는 용의 모습을 하고있지만, 모래같은 색을 띄어, 사냥감에게는 훨씬 위험합니다.", "_t")
+t("This unholy creature looks like a wingless dragon in shape, but it is sand-colored, making it all the more dangerous for its prey.", "이 불경한 생명체는 날개없는 용의 모습을 하고 있지만, 모래같은 색을 띄어, 사냥감에게는 훨씬 위험합니다.", "_t")
 t("gigantic sandworm tunneler", "거대 샌드웜 굴착꾼", "entity name")
-t("The ground shakes as this huge worm burrows towards you, its gigantic mouth just as capable of devouring flesh as stone.", "이 거대한 벌레가 당신 앞을 파고 지나가자 지축이 흔들립니다. 저 거대한 아가리는 돌덩이를 고기를 씹듯이 집어 삼킬 수 있습니다.", "_t")
+t("The ground shakes as this huge worm burrows towards you, its gigantic mouth just as capable of devouring flesh as stone.", "이 거대한 벌레가 당신 앞을 파고 지나가자 지축이 흔들립니다. 저 거대한 아가리는 돌덩이를 고기를 씹듯이 집어삼킬 수 있습니다.", "_t")
 t("gigantic gravity worm", "거대 중력 벌레", "entity name")
 t("Space and time seem to bend around this huge worm.", "이 거대한 벌레의 주변의 시공이 휘어버리는 것 같습니다.", "_t")
 t("gigantic corrosive tunneler", "거대 산성 굴착꾼", "entity name")
@@ -8100,7 +8100,7 @@ section "game/modules/tome/data/general/npcs/skeleton.lua"
 t("skeleton", "스켈레톤", "entity subtype")
 t("undead", "언데드", "entity type")
 t("degenerated skeleton warrior", "낡은 스켈레톤 전사", "entity name")
-t("A haphazard collection of crumbling bones, with jerky movements that remind you of a child playing with a marionette.  It only has one arm, but that's all it needs to hold a sword.", "무너저가는 뼈들을 대충 이어붙인 존재로, 덜컥거리는 움직임은 어렸을 적, 관절 인형을 생각나게합니다.  팔은 한 쪽밖에 없지만, 칼을 쥘 수 있다면, 그걸로도 충분합니다.", "_t")
+t("A haphazard collection of crumbling bones, with jerky movements that remind you of a child playing with a marionette.  It only has one arm, but that's all it needs to hold a sword.", "무너저가는 뼈들을 대충 이어붙인 존재로, 덜컥거리는 움직임은 어렸을 적, 관절 인형을 생각나게 합니다.  팔은 한 쪽밖에 없지만, 칼을 쥘 수 있다면, 그걸로도 충분합니다.", "_t")
 t("degenerated skeleton archer", "낡은 스켈레톤 궁수", "entity name")
 t("A frail skeleton; just about the only bones that aren't cracked are its arms.  It's missing a hand, but a notch has been carved into its wrist to let it pull back a bowstring regardless.", "연약한 스켈레톤으로, 금이 가지 않은 부분이라곤 팔 밖에 없습니다.  한 쪽 손이 없어졌지만, 팔목에 홈이 세겨져있어, 무리없이 활 시위를 당길 수 있습니다.", "_t")
 t("skeleton mage", "스켈레톤 마법사", "entity name")
@@ -8116,7 +8116,7 @@ t("It feels no pain.  It moves with fluidity and strength that would tear natura
 t("skeleton master archer", "스켈레톤 명사수", "entity name")
 t("This skeleton can fire arrows and nock new ones with blinding speed.  Arcane forces pull its bones with unnatural precision - its arms will never tremble or get tired.", "이 스켈레톤은 화살을 발사하고, 눈에 보이지 않는 속도로 다른 화살을 시위에 걸 수 있습니다.  마법의 힘이 이 뼈다귀에게 비 자연적인 집중을 부여합니다 - 팔은 결코 흐뜨러지지 않으며 피로가 쌓이지도 않습니다.", "_t")
 t("skeleton assassin", "스켈레톤 암살자", "entity name")
-t("Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "대부분의 스켈레톤들은 덜커덕 거리는 뼈들의 합주로 자신들의 존재감을 나타내곤하지만, 이 칠흑의 스켈레톤은 다가갈 때 소리를 내지 않기 위한 연골이 충분합니다.   당신이 가장 먼저 보게될 것은 분명 칼날에 비친 빛일 겁니다.", "_t")
+t("Most skeletons announce their presence with a chorus of rattling bones; this one's been charred black and has enough cartilage between its joints to muffle its approach.  The first you'll see of it will be the flash of its blade.", "대부분의 스켈레톤들은 덜커덕 거리는 뼈들의 합주로 자신들의 존재감을 나타내곤하지만, 이 칠흑의 스켈레톤은 다가갈 때 소리를 내지 않기 위한 연골이 충분합니다.   당신이 가장 먼저 보게 될 것은 분명 칼날에 비친 빛일 겁니다.", "_t")
 
 
 ------------------------------------------------
@@ -8136,7 +8136,7 @@ t("It is a large snake with a hooded face.", "덮개를 뒤집어 쓴것 같은 
 t("black mamba", "블랙 맘바", "entity name")
 t("It has glistening black skin, a sleek body, and highly venomous fangs.", "눈부신 검은 비늘과 윤기가 나는 몸, 그리고 맹독의 이빨.", "_t")
 t("anaconda", "아나콘다", "entity name")
-t("You recoil in fear as you notice this gigantic snake.  It seeks to crush the life out of you.", "이 거대한 뱀을 발견하자, 당신은 공포로 뒷걸음질 칩니다.  이 뱀은 당신의 생명을 부숴버릴 방법을 찾고있습니다.", "_t")
+t("You recoil in fear as you notice this gigantic snake.  It seeks to crush the life out of you.", "이 거대한 뱀을 발견하자, 당신은 공포로 뒷걸음질 칩니다.  이 뱀은 당신의 생명을 부숴버릴 방법을 찾고 있습니다.", "_t")
 
 
 ------------------------------------------------
@@ -8167,7 +8167,7 @@ t("A huge arachnid, it sprays venom at its prey.", "거대한 거미로, 먹잇�
 t("chitinous spider", "키틴질 거미", "entity name")
 t("A huge arachnid with a massive exoskeleton.", "거대한 거미로, 무거운 외골격을 갖고있습니다.", "_t")
 t("gaeramarth", "개라마르스", "entity name")
-t("These cunning spiders terrorize those who enter the ever-growing borders of their lairs.  Those who encounter them rarely return.", "이 교활한 거미는 점점 커저가는 영역을 침범한 모든 것을 공포에 떨게합니다.  이들과 조우하고도 살아 돌아올 수 있는 사람은 극히 적습니다.", "_t")
+t("These cunning spiders terrorize those who enter the ever-growing borders of their lairs.  Those who encounter them rarely return.", "이 교활한 거미는 점점 커저가는 영역을 침범한 모든 것을 공포에 떨게 합니다.  이들과 조우하고도 살아 돌아올 수 있는 사람은 극히 적습니다.", "_t")
 t("ninurlhing", "니뉼르링", "entity name")
 t("The air reeks with noxious fumes and the ground around it decays.", "주변의 공기와 대지가 부패한 연기를 내뿜고, 썩어가며 악취를 내뿜고있습니다.", "_t")
 t("faerlhing", "패를링", "entity name")
@@ -8381,7 +8381,7 @@ t("It is a ghostly apparition with a humanoid form.", "인간형의 유령입니
 t("grave wight", "무덤 와이트", "entity name")
 t("It is a ghostly form with eyes that haunt you.", "당신을 두려움에 떨게하는 눈을 가진 유령입니다.", "_t")
 t("barrow wight", "고분 와이트", "entity name")
-t("It is a ghostly nightmare of an entity.", "실체를 갖고있는, 악몽과 같은 유령입니다.", "_t")
+t("It is a ghostly nightmare of an entity.", "실체를 갖고 있는, 악몽과 같은 유령입니다.", "_t")
 t("emperor wight", "와이트 황제", "entity name")
 t("Your life force is torn from your body as this powerful unearthly being approaches.", "이 강력하고 섬뜩한 존재가 다가오자 생명력이 당신의 몸에서 찢겨나갑니다.", "_t")
 
@@ -8409,7 +8409,7 @@ t("xaren", "싸렌", "entity name")
 t("It is a tougher relative of the Xorn. Its hide glitters with metal ores.", "쏘른에 비하면 강인합니다. 싸렌의 가죽에 박힌 금속 광물이 반짝입니다.", "_t")
 t("The Fragmented Essence of Harkor'Zun", "하코르'준의 조각난 정수", "entity name")
 t("Fragmented essence... maybe it'd be best if it stayed fragmented.", "조각난 정수... 조각난 채로 있는게 차라리 더 나을 것 같습니다.", "_t")
-t("#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "#AQUAMARINE#%s 파괴된 조각으로 부터 힘을 되찾는다!", "logSeen", nil, {"는"})
+t("#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "#AQUAMARINE#%s 파괴된 조각으로부터 힘을 되찾는다!", "logSeen", nil, {"는"})
 t("#AQUAMARINE#%s is infused with all the energies of the fragments. The real Harkor'Zun is reconstituted!", "#AQUAMARINE#%s 조각난 정수의 모든 힘을 흡수했다. 진정한 하코르'준이 재구성되었다!", "logSeen", nil, {"는"})
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
@@ -8576,7 +8576,7 @@ t("With this unbearably bright whip of flame, the demon master Urh'Rok has becom
 t("Storm Fury", "폭풍 분노", "entity name")
 t("crackling longbow", "스파크 튀는 활", "_t")
 t("This dragonbone longbow is enhanced with bands of steel, which arc with intense lightning. Bolts travel up and down the string, ignorant of you.", "이 용뼈 활은 강철 띠로 강화되어, 활의 몸체에선 강력한 전류가 흐르고, 번개가 시위의 위 아래로 내리칩니다. 착용자를 아랑곳 하지 않고요.", "_t")
-t("Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "근처의 적에게 실질 턴 마다 번개 화살을 날려 %d - %d 번개 피해를 주고, 착용자의 마법에 비례해 일정 확률로 혼절을 적용합니다.", "tformat")
+t("Automatically fires lightning bolts every game turn at nearby enemies dealing %d to %d lightning damage based on Magic with a chance to inflict Daze.", "근처의 적에게 실질 턴마다 번개 화살을 날려 %d - %d 번개 피해를 주고, 착용자의 마법에 비례해 일정 확률로 혼절을 적용합니다.", "tformat")
 t("#GOLD#A bolt of lightning fires from #Source#'s bow, striking #Target#!", "#GOLD#전기 화살이 #Source#의 활에서 발사되어, #Target3# 공격했다!", "logCombat")
 t("Frozen Shroud", "얼어붙은 장막", "entity name")
 t("chilling cloak", "차가운 망토", "_t")
@@ -8611,7 +8611,7 @@ t("No Winter Storm Active", "활성화 중인 겨울 폭풍 없음", "_t")
 t("None", "없음", "_t")
 t("Winter Storm: ", "겨울 폭풍 : ", "_t")
 t("radius %d (%d turns remaining)", "반경 %d 칸 (%d 턴 남음)", "tformat")
-t("Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "점점 넓어지는 겨울 폭풍을 만들어냅니다. (최소 %d 칸 - 최대 %d 칸)  매 턴, 겨울 폭풍은 힘에 비례하는 %0.2f 냉기 피해를 적들에게 가하고, 20%% 의 감속을 적용합니다.  이후, 적에게 근접 공격을 가할 때 마다, 대상에게 폭풍을 이동시키고, 지속시간을 연장합니다.", "tformat")
+t("Create a Winter Storm that gradually expands (from radius %d to radius %d), dealing %0.2f cold damage (based on Strength) to your enemies each turn and slowing their ability to act by 20%%.  Subsequent melee strikes will relocate the storm on top of your target and increase its duration.", "점점 넓어지는 겨울 폭풍을 만들어냅니다. (최소 %d 칸 - 최대 %d 칸)  매 턴, 겨울 폭풍은 힘에 비례하는 %0.2f 냉기 피해를 적들에게 가하고, 20%% 의 감속을 적용합니다.  이후, 적에게 근접 공격을 가할 때마다, 대상에게 폭풍을 이동시키고, 지속시간을 연장합니다.", "tformat")
 t("#LIGHT_BLUE#A Winter Storm forms around %s.", "#LIGHT_BLUE#겨울 폭풍이 %s 근처에서 일어난다.", "logSeen")
 t("precipitate ice walls (lasting 10 turns) within your Winter Storm's area", "겨울 폭풍을 얼려 10 턴 동안 지속되는 얼음 벽을 생성합니다.", "_t")
 t("#LIGHT_BLUE#%s brandishes %s %s, releasing a wave of Winter cold!", "#LIGHT_BLUE#%s %s %s 휘둘러, 겨울의 한파를 일으킨다!", "logSeen", nil, {"는",[3]="를"})
@@ -8626,7 +8626,7 @@ t("%s uses %s %s to cleanse %s mind!", "%s %s %s 사용해 %s 정신을 정화�
 t("ice-covered boots", "얼음으로 뒤덮힌 신발", "_t")
 t("Frost Treads", "서리 걸음", "entity name")
 t("A pair of leather boots. Cold to the touch, they radiate a cold blue light.", "한 쌍의 가죽 장화로. 만저보면 차갑습니다. 차가운 푸른색 빛을 내고있습니다.", "_t")
-t("Each step taken casts a ground frost effect in a radius of 1 around you for 5 turns, giving you a 20% cold damage bonus for 3 turns. Additionally, any enemy standing in the frost has a 20% chance of talent failure for 3 turns.", "걸을 때 마다, 착용자 기준 반경 1 칸에 5 턴 동안 지속되는 얼어붙은 대지 효과를 발생시킵니다. 이 효과는 3 턴 동안 착용자의 냉기 피해를 20% 증가시킵니다. 추가로, 얼음 위에 선 적은 3 턴 동안 20% 확률로 기술 사용에 실패합니다.", "_t")
+t("Each step taken casts a ground frost effect in a radius of 1 around you for 5 turns, giving you a 20% cold damage bonus for 3 turns. Additionally, any enemy standing in the frost has a 20% chance of talent failure for 3 turns.", "걸을 때마다, 착용자 기준 반경 1 칸에 5 턴 동안 지속되는 얼어붙은 대지 효과를 발생시킵니다. 이 효과는 3 턴 동안 착용자의 냉기 피해를 20% 증가시킵니다. 추가로, 얼음 위에 선 적은 3 턴 동안 20% 확률로 기술 사용에 실패합니다.", "_t")
 t("Dragonskull Helm", "용의 두개골 투구", "entity name")
 t("skull helm", "두개골 투구", "_t")
 t("Traces of a dragon's power still remain in this bleached and cracked skull.", "용이 가졌던 힘의 흔적이 아직도 빛바래고 금이 간 두개골 속에 남아있습니다.", "_t")
@@ -8669,7 +8669,7 @@ t("The top part of Telos' broken staff.", "부서진 텔로스 지팡이의 윗�
 t("Choker of Dread", "공포의 목걸이", "entity name")
 t("dark amulet", "어둠의 목걸이", "_t")
 t("The evilness of undeath radiates from this amulet.", "불사의 사악함이 이 목걸이에서 뿜어저나옵니다.", "_t")
-t("summon an elder vampire with Taunt to your side for 15 turns", "흡혈귀 장로를 소환해 15 턴 동안 전투를 돕게합니다", "_t")
+t("summon an elder vampire with Taunt to your side for 15 turns", "흡혈귀 장로를 소환해 15 턴 동안 전투를 돕게 합니다", "_t")
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
 t("You need an enemy nearby to summon!", "소환하기 위해서는 주변에 적이 있어야한다!", "logPlayer")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
@@ -8732,7 +8732,7 @@ t("These blackened boots have lost all vestiges of any former glory they might h
 t("Withering Orbs", "시드는 보주", "entity name")
 t("shadow-strung orbs", "예민한 그림자 구체들", "_t")
 t([[These opalescent orbs stare at you with deathly knowledge, undeceived by your vanities and pretences.  They have lived and died through horrors you could never imagine, and now they lie strung in black chords watching every twitch of the shadows.
-If you close your eyes a moment, you can almost imagine what dread sights they see...]], [[이 오팔색의 보주들이 그 치명적인 지식으로 응시하여, 착용자의 허영과 기만을 마주보게합니다.  이 보주들은 상상도 할 수 없는 공포를 겪으며 살아왔습니다. 그리고 이제, 그들 모두가 검은 줄에 묶여 그림자의 아주 작은 움직임마저 지켜봅니다.
+If you close your eyes a moment, you can almost imagine what dread sights they see...]], [[이 오팔색의 보주들이 그 치명적인 지식으로 응시하여, 착용자의 허영과 기만을 마주보게 합니다.  이 보주들은 상상도 할 수 없는 공포를 겪으며 살아왔습니다. 그리고 이제, 그들 모두가 검은 줄에 묶여 그림자의 아주 작은 움직임마저 지켜봅니다.
 잠깐 눈을 감으면, 어떤 두려운 광경을 보는지 상상할 수있습니다...]], "_t")
 t("Borfast's Cage", "보르패스트의 감옥", "entity name")
 t("a suit of pitted and pocked plate-mail", "움푹 패이고, 상처로 가득한 판금 갑옷", "_t")
@@ -8797,7 +8797,7 @@ t("firey blackened battleaxe", "불타는 검게 그을린 전투도끼", "_t")
 t("Blackened with soot and covered in spikes, this battleaxe roars with the flames of the Fearscape. Given by Urh'Rok himself to his general, this powerful weapon can burn even the most resilient of foes.", "그을음이 잔뜩 끼고 송곳으로 덮힌, 이 전투도끼는 공포의 영역의 화염으로 포효합니다. 울흐'록, 그 스스로 그의 장군에게 준 도끼로, 이 강력한 무기는 가장 강인한 적 조차도 불태워 버릴 수 있습니다.", "_t")
 t("Bladed Rift", "칼날 균열", "entity name")
 t("hole in space", "공간의 균열", "_t")
-t("Upon defeat, Ak'Gishil collapsed into this tiny rift. How it remains stable, you are unsure. If you focus, you think you can call forth a sword from it.", "아크'기실은 패배하자 이 작은 균열로 붕괴되었습니다. 이게 정말 안정적으로 유지되는지, 확신이 서지 않습니다. 이 균열에 집중 하고있으면, 균열에서 검을 불러낼 수 있을 것 같습니다.", "_t")
+t("Upon defeat, Ak'Gishil collapsed into this tiny rift. How it remains stable, you are unsure. If you focus, you think you can call forth a sword from it.", "아크'기실은 패배하자 이 작은 균열로 붕괴되었습니다. 이게 정말 안정적으로 유지되는지, 확신이 서지 않습니다. 이 균열에 집중 하고 있으면, 균열에서 검을 불러낼 수 있을 것 같습니다.", "_t")
 t("Blade of Distorted Time", "뒤틀린 시간의 칼날", "entity name")
 t("time-warped sword", "시간이 뒤틀린 검", "_t")
 t("The remnants of a damaged timeline, this blade shifts and fades at random.", "손상된 시간선의 파편으로, 이 칼은 마구잡이로 변화하고, 흐려집니다.", "_t")
@@ -9022,10 +9022,10 @@ t("erosion", "침식", "entity keyword")
 t(" of wind", " 바람 ", "entity name")
 t("wind", "바람", "entity keyword")
 t("#LIGHT_GREEN#20%%#LAST# chance to create an air burst in radius 3 knocking enemies back 2 spaces and dealing #RED#%d#LAST# physical damage", "#LIGHT_GREEN#20%%#LAST# 확률로 반경 3 칸 범위 내의 공기를 터뜨려 적들을 2 칸 밀치고, #RED#%d#LAST# 물리 피해를 줍니다", "tformat")
-t(" of grasping", " 덩쿨 ", "entity name")
-t("grasping", "덩쿨", "entity keyword")
-t("#LIGHT_GREEN#20%%#LAST# chance to create vines that bind the target to the ground dealing #YELLOW#%d#LAST# nature damage and pinning them for 3 turns", "#LIGHT_GREEN#20%%#LAST# 확률로 대상을 속박하는 덩쿨이 옭아매어, #YELLOW#%d#LAST# 자연 피해를 주고 3 턴 동안 속박합니다", "tformat")
-t("%s resists the grasping vines!", "%s 덩쿨에 저항했다!", "logSeen", nil, {"는"})
+t(" of grasping", " 덩굴 ", "entity name")
+t("grasping", "덩굴", "entity keyword")
+t("#LIGHT_GREEN#20%%#LAST# chance to create vines that bind the target to the ground dealing #YELLOW#%d#LAST# nature damage and pinning them for 3 turns", "#LIGHT_GREEN#20%%#LAST# 확률로 대상을 속박하는 덩굴이 옭아매어, #YELLOW#%d#LAST# 자연 피해를 주고 3 턴 동안 속박합니다", "tformat")
+t("%s resists the grasping vines!", "%s 덩굴에 저항했다!", "logSeen", nil, {"는"})
 t("manaburning ", "마나 소각의 ", "entity name")
 t("manaburning", "마나 소각", "entity keyword")
 t("slimey ", "슬라임의 ", "entity name")
@@ -9731,7 +9731,7 @@ t("mitotic", "유사분열", "entity keyword")
 t("divide the mindstar in two", "마석을 2 개로 분할합니다", "_t")
 t("You must have a free hand to divide the %s.", "%s 분할하기 위해서는 한쪽 손이 비어있어야 한다.", "logPlayer", nil, {"을"})
 t("You cannot split your %s while it has a tinker inside.", "발명품이 적용되어 있는 한 %s 분할할 수 없다.", "logPlayer", nil, {"을"})
-t("You cannot split your %s while using it as a psionic focus.", "염동력으로 %s 들고있는 한 분할할 수 없다.", "logPlayer", nil, {"을"})
+t("You cannot split your %s while using it as a psionic focus.", "염동력으로 %s 들고 있는 한 분할할 수 없다.", "logPlayer", nil, {"을"})
 t("Your %s is too flawed to divide.", "당신의 %s 더 이상 분할할 수 없다.", "logPlayer", nil, {"을"})
 t("You divide your %s in two, forming a linked set.", "%s 2 개로 분할하여, 연결된 한 쌍을 이룹니다.", "logPlayer", nil, {"을"})
 t("This mindstar would symbiotize with another like it.", "이 마석은 같은 종류의 마석과 공생이 가능하다.", "_t")
@@ -10860,7 +10860,7 @@ t("The definitive guide to hunting magic users.", "마법사용자 사냥에 대
 section "game/modules/tome/data/general/objects/lore/sunwall.lua"
 
 t("Loremaster Verutir's note", "전승의 대가 베루틸의 쪽지", "entity name")
-t("A paper scrap containing some lore.", "이야기를 담고있는 종이 쪼가리.", "_t")
+t("A paper scrap containing some lore.", "이야기를 담고 있는 종이 쪼가리.", "_t")
 
 
 ------------------------------------------------
@@ -10965,7 +10965,7 @@ t("tome", "고서", "entity subtype")
 section "game/modules/tome/data/general/objects/potions.lua"
 
 t("potion", "물약", "_t")
-t("Magical potions can have wildly different effects, from healing to killing you -- beware! Most of them function better with a high Magic score.", "마법 물약은 전혀 다른 효과들을 갖고있습니다. 당신을 회복시킬 수도, 죽일 수도 있습니다! -- 조심하십시오! 대부분은 높은 마법 능력치를 갖고있을 경우, 더 효과적입니다.", "_t")
+t("Magical potions can have wildly different effects, from healing to killing you -- beware! Most of them function better with a high Magic score.", "마법 물약은 전혀 다른 효과들을 갖고있습니다. 당신을 회복시킬 수도, 죽일 수도 있습니다! -- 조심하십시오! 대부분은 높은 마법 능력치를 갖고 있을 경우, 더 효과적입니다.", "_t")
 
 
 ------------------------------------------------
@@ -11027,7 +11027,7 @@ Simply go to your inventory to move them out of the chest if you wish to keep th
 Items in the chest will not encumber you.]], [[이 상자는 옛 쉐르'툴의 힘의 연장선입니다. 이 상자 안에 물건을 놓으면, 다른 곳으로 전이되며, 일련의 과정 후에 파괴되어 에너지를 추출합니다.
 해당 과정에서 부산물인 금이 생산됩니다.
 
-당신이 상자를 갖고있는 동안, 당신이 발견하고 습득한 모든 물품은 자동적으로 내부에 수납되고, 현재 층을 떠날 때, 에너지와 금으로 변환됩니다.
+당신이 상자를 갖고 있는 동안, 당신이 발견하고 습득한 모든 물품은 자동적으로 내부에 수납되고, 현재 층을 떠날 때, 에너지와 금으로 변환됩니다.
 상자 내에 소지하길 원하는 물품들이 있을 경우, 상자를 열어, 밖으로 빼내, 가방에 보관하십시오.
 상자 안의 물품들은 무게 0 으로 간주됩니다.]], "_t")
 t("transmogrify all the items in your chest at once (also done automatically when you change level)", "한 번에 상자 속의 모든 물품을 변환합니다. (현재 구역을 떠날 때도 자동으로 변환됩니다.)", "_t")
@@ -11043,7 +11043,7 @@ To take an item out, simply go to your inventory to move them out of the chest.
 Items in the chest will not encumber you.]], [[이 상자는 옛 쉐르'툴의 힘의 연장선입니다. 이 상자 안에 물건을 놓으면, 다른 곳으로 전이되며, 일련의 과정 후에 파괴되어 에너지를 추출합니다.
 해당 과정에서 부산물인 금이 생산됩니다.
 
-당신이 상자를 갖고있는 동안, 당신이 발견하고 습득한 모든 물품은 자동적으로 내부에 수납되고, 현재 층을 떠날 때, 에너지와 금으로 변환됩니다.
+당신이 상자를 갖고 있는 동안, 당신이 발견하고 습득한 모든 물품은 자동적으로 내부에 수납되고, 현재 층을 떠날 때, 에너지와 금으로 변환됩니다.
 상자 내에 소지하길 원하는 물품들이 있을 경우, 상자를 열어, 밖으로 빼내, 가방에 보관하십시오.
 상자 안의 물품들은 무게 0 으로 간주됩니다.]], "_t")
 t("Transmogrification Chest", "변환 상자", "_t")
@@ -11051,12 +11051,12 @@ t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다
 t("Bikini", "비키니", "entity name")
 t([[Revealing, pink, fun.
 #{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], [[섹시한, 핑크색, 재밌다!
-#{bold}#만약 당신이 비키니를 한번도 벗지 않고 게임에서 승리한다면, 놀라운 도전 과제를 달성합니다! 맘껏 뽐내세요!#{normal}#]], "_t")
+#{bold}#만약 당신이 비키니를 한 번도 벗지 않고 게임에서 승리한다면, 놀라운 업적을 달성합니다! 맘껏 뽐내세요!#{normal}#]], "_t")
 t("Mankini", "맨키니", "entity name")
 t("tiny piece of cloth", "천 조각", "_t")
 t([[Revealing, green, fun.
 #{bold}#If you never take it off and win you will gain a neat achievement and bragging rights!#{normal}#]], [[섹시한, 초록색, 재밌다!
-#{bold}#만약 당신이 맨키니를 한번도 벗지 않고 게임에서 승리한다면, 놀라운 도전 과제를 달성합니다! 맘껏 뽐내세요!#{normal}#]], "_t")
+#{bold}#만약 당신이 맨키니를 한 번도 벗지 않고 게임에서 승리한다면, 놀라운 업적을 달성합니다! 맘껏 뽐내세요!#{normal}#]], "_t")
 t("You have never taken it off.", "당신은 이것을 벗은 적이 없습니다.", "_t")
 
 
@@ -11183,7 +11183,7 @@ t("rod", "마법 막대", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/general/objects/scrolls.lua"
 
-t("Magical scrolls can have wildly different effects!", "마법의 두루마리는 여러가지 다른 효과를 가질 수 있습니다! 대부분은 마법 능력치가 높을수록 더 높은 효과를 보입니다!", "_t")
+t("Magical scrolls can have wildly different effects!", "마법의 두루마리는 여러 가지 다른 효과를 가질 수 있습니다! 대부분은 마법 능력치가 높을수록 더 높은 효과를 보입니다!", "_t")
 t("infusion", "주입", "_t")
 t("Natural infusions may be grafted onto your body, granting you an on-demand nature talent.", "자연적 주입물을 육체에 새겨넣어, 필요한 기술을 가질 수 있습니다.", "_t")
 t("inscribe your skin with the infusion", "주입물을 피부에 새겨 넣습니다", "_t")
@@ -11195,7 +11195,7 @@ t("Corrupted taints may be inscribed onto your body, granting you an on-demand a
 t("inscribe your skin with the taint", "낙인을 피부에 새겨 넣습니다", "_t")
 t("lore", "이야기", "entity subtype")
 t("scroll", "두루마리", "_t")
-t("This parchment contains some lore.", "이야기를 담고있는 양피지.", "_t")
+t("This parchment contains some lore.", "이야기를 담고 있는 양피지.", "_t")
 t("read it", "읽기", "_t")
 t("healing infusion", "회복 주입물", "entity name")
 t("regeneration infusion", "재생 주입물", "entity name")
@@ -11421,7 +11421,7 @@ t("Untouched by the ravages of time, this fine spun white cloak appears to be cr
 t("Blood-Edge", "피칼날", "entity name")
 t("red crystalline sword", "붉은 수정 검", "_t")
 t([[This deep red sword weeps blood continuously. It was born in the labs of the orcish corrupter Hurik, who sought to make a crystal that would house his soul after death. But his plans were disrupted by a band of sun paladins, and though most died purging his keep of dread minions, their leader Raasul fought through to Hurik's lab, sword in hand. There the two did battle, blade against blood magic, till both fell to the floor with weeping wounds. The orc with his last strength crawled towards his fashioned phylactery, hoping to save himself, but Raasul saw his plans and struck the crystal with his light-bathed sword. It shattered, and in the sudden impulse of energies the steel, crystal and blood were fused into one.
-Now the broken fragments of Raasul's soul are trapped in this terrible artifact, his mind warped beyond all sanity by decades of imprisonment. Only the taste of blood calls him forth, his soul stealing the lifeblood of others to take on physical form again, that he may thrash and wail against the living.]], [[이 짙은 붉은 색의 검은 계속해서 피눈물을 흘립니다. 자신이 죽은 후에도 영혼이 기거할 수 있을만한 수정을 만들려던 오크 타락자, 휴릭이 이 칼을 자신의 연구소에서 만들어냈습니다. 어느날, 태양의 기사 한 무리에 의해 휴릭의 계획은 수포로 돌아갔습니다.  기사 대부분은 죽었지만, 기사 대장이였던 라술이 한 손에 칼을 쥐고 성채를 지키던 공포의 하수인들을 처치하며, 휴릭의 실험실에 도달했습니다.  그곳에서 휴릭과 라술, 두 사람은 전투를 벌였습니다. 혈마법과 칼날이 오고간 끝에, 두 명 모두 심각한 상처를 입고 바닥에 쓰러졌습니다. 오크 타락자는 마지막 힘을 다해 그의 성물함으로 기어갔습니다. 죽음에서 휴릭, 그 스스로를 구원할 것 이라는 희망을 품고서요. 하지만 라술은 이미 그의 계획을 속속들이 알고 있었고, 성물함에 담겨있던 수정을 빛의 세례를 받은 검으로 내려쳤습니다. 수정은 파괴되었으나, 파괴와 동시에 방출된 에너지가 강철, 수정, 그리고 혈액을 하나로 융합시켰습니다.
+Now the broken fragments of Raasul's soul are trapped in this terrible artifact, his mind warped beyond all sanity by decades of imprisonment. Only the taste of blood calls him forth, his soul stealing the lifeblood of others to take on physical form again, that he may thrash and wail against the living.]], [[이 짙은 붉은 색의 검은 계속해서 피눈물을 흘립니다. 자신이 죽은 후에도 영혼이 기거할 수 있을만한 수정을 만들려던 오크 타락자, 휴릭이 이 칼을 자신의 연구소에서 만들어냈습니다. 어느 날, 태양의 기사 한 무리에 의해 휴릭의 계획은 수포로 돌아갔습니다.  기사 대부분은 죽었지만, 기사 대장이였던 라술이 한 손에 칼을 쥐고 성채를 지키던 공포의 하수인들을 처치하며, 휴릭의 실험실에 도달했습니다.  그곳에서 휴릭과 라술, 두 사람은 전투를 벌였습니다. 혈마법과 칼날이 오고간 끝에, 두 명 모두 심각한 상처를 입고 바닥에 쓰러졌습니다. 오크 타락자는 마지막 힘을 다해 그의 성물함으로 기어갔습니다. 죽음에서 휴릭, 그 스스로를 구원할 것 이라는 희망을 품고서요. 하지만 라술은 이미 그의 계획을 속속들이 알고 있었고, 성물함에 담겨있던 수정을 빛의 세례를 받은 검으로 내려쳤습니다. 수정은 파괴되었으나, 파괴와 동시에 방출된 에너지가 강철, 수정, 그리고 혈액을 하나로 융합시켰습니다.
 이제, 이 사악한 유물은 라술의 부서진 영혼의 감옥이 되었습니다. 그의 정신은 수십년 동안의 감금으로 인해 미치고, 뒤틀렸습니다. 오직 피의 향미만이 그를 불러내, 타인의 생명의 피를 빼앗아, 다시금 물리적인 형상을 취하게할 수 있습니다. 라술은 살아있는 이들의 피를 취하며 울부짖을 것입니다.]], "_t")
 t("15% chance to animate a bleeding foe's blood", "15% 확률로 출혈 중인 적의 피가 살아 움직입니다", "_t")
 t("animated blood", "살아 움직이는 피", "_t")
@@ -11474,7 +11474,7 @@ t("unleash a destructive wail, destroying terrain and dealing %0.2f physical dam
 t("%s uses the %s!", "%s %s 사용했다!", "logSeen", nil, {"는","를"})
 t("Daneth's Neckguard", "다네스의 목 보호구", "entity name")
 t("a thick steel gorget", "두꺼운 강철 목 보호구", "_t")
-t("A thick steel gorget designed to protect its wearer from fatal attacks to the neck.  This particular gorget was worn by the Halfling General Daneth Tendermourn during the pyre wars, and judging by the marks along its surface may have saved the General's life on more than one occasion.", "두꺼운 강철 목 보호구로, 착용자의 목을 향하는 치명적인 공격을 막기위해 고안되었습니다.  이 특별한 목 보호구는 하플링 장군 다네스 텐더모운이 장작더미 전쟁 때 착용했습니다. 그리고 표면에 난 자국은, 이 목 보호구가 장군의 생명을 최소한 한번 이상 구했을 것 같습니다.", "_t")
+t("A thick steel gorget designed to protect its wearer from fatal attacks to the neck.  This particular gorget was worn by the Halfling General Daneth Tendermourn during the pyre wars, and judging by the marks along its surface may have saved the General's life on more than one occasion.", "두꺼운 강철 목 보호구로, 착용자의 목을 향하는 치명적인 공격을 막기위해 고안되었습니다.  이 특별한 목 보호구는 하플링 장군 다네스 텐더모운이 장작더미 전쟁 때 착용했습니다. 그리고 표면에 난 자국은, 이 목 보호구가 장군의 생명을 최소한 한 번 이상 구했을 것 같습니다.", "_t")
 t("#LIGHT_BLUE#You feel invincible!", "#LIGHT_BLUE#당신은 무적의 힘을 느낀다!", "logPlayer")
 t("Thaloren-Tree Longbow", "탈로레 나무 활", "entity name")
 t("glowing elven-wood longbow", "빛나는 엘프나무 활", "_t")
@@ -11486,7 +11486,7 @@ t("A lost artifact of the Age of Dusk, the Corpsebow is filled with a lingering 
 t("#DARK_BLUE#You feel a kindred spirit in this bow...", "#DARK_BLUE#당신은 이 활에서 비슷한 영혼을 느낍니다...", "logPlayer")
 t("Spellblade", "주문칼날", "entity name")
 t("glowing long sword", "빛나는 장검", "_t")
-t("Mages sometimes have funny ideas. Archmage Varil once learned how to handle a sword and found he preferred wielding it instead of his staff.", "마법사들은 가끔 재밌는 생각을 하곤 합니다. 마도사 바릴은 한 때 검술을 배웠고, 자기는 지팡이보다는 칼이 더 잘 맞는다는 사실을 깨달았습니다.", "_t")
+t("Mages sometimes have funny ideas. Archmage Varil once learned how to handle a sword and found he preferred wielding it instead of his staff.", "마법사들은 가끔 재밌는 생각을 하곤 합니다. 마도사 바릴은 한때 검술을 배웠고, 자기는 지팡이보다는 칼이 더 잘 맞는다는 사실을 깨달았습니다.", "_t")
 t("Genocide", "종족 학살", "entity name")
 t("pitch black blade", "칠흑같은 칼날", "_t")
 t("Farian was King Toknor's captain, and fought by his side in the great Battle of Last Hope.  However, when he returned after the battle to find his hometown burnt in an orcish pyre, a madness overtook him.  The desire for vengeance made him quit the army and strike out on his own, lightly armoured and carrying nought but his sword.  Most thought him dead until the reports came back of a fell figure tearing through the orcish encampments, slaughtering all before him and mercilessly butchering the corpses after.  It is said his blade drank the blood of 100 orcs each day until finally all of Maj'Eyal was cleared of their presence.  When the final orc was slain and no more were to be found, Farian at the last turned the blade on himself and stuck it through his chest.  Those nearby said his body shook with convulsions as he did so, though they could not tell whether he was laughing or crying.", "페리언은 마지막 희망 대전투에서 토크놀 왕을 위해 싸운 군 장교입니다. 그는 전투를 끝내고 고향에 돌아왔지만, 그를 반기는 것은 오크의 장작더미로 불타오르는 고향이였고, 이윽고 페리언은 광기에 빠저들었습니다. 분노를 향한 그의 욕망으로 인해, 페리언은 군에서 전역해, 혼자 활동하기 시작했습니다. 경갑을 입고, 칼 한자루만을 쥔 체. 	많은 사람들이 오크 야영지를 찢어버리고, 모두를 학살하며, 무자비하게 도살한다는 사나이에 대한 보고가 들어오기 전까지 페리언은 죽었다고 생각했습니다.  오크들이 마즈'에이알에서 박멸되기까지 그의 검은 하루에 100 명에 달하는 오크의 피를 마셨다고 합니다.  마지막 오크가 그의 손에 쓰러지고, 더이상 남은 오크가 없다는 것을 깨닫게되자, 페리언은 칼날을 자신에게 돌려, 그의 가슴을 꿰뚫었습니다. 주변에 있던 사람들은 그의 몸이 경련으로 떨렸었다고 했지만, 누구도 그가 울고있었는지, 웃고있엇는지 알 수 없었습니다.", "_t")
@@ -11496,7 +11496,7 @@ t("A thick staff with a heavy knob on the end.  It was said to be used by the gr
 t("Guidance", "인도", "entity name")
 t("a softly glowing crystal", "부드럽게 빛나는 수정", "_t")
 t([[Said to have once belonged to Inquisitor Marcus Dunn during the Spellhunt this fist sized quartz crystal glows constantly with a soft white light and was rumoured to be a great aid in meditation, helping focus the mind, body, and soul of the owner as well as protecting them from the foulest of magics.
-It seems somebody well versed in antimagic could use it to its fullest potential.]], [[마법 사냥 기간동안 이단심문관 마커스 던이 사용했다고 전해지는, 이 주먹만한 석영 수정은 끊임없이 부드러운 하얀 빛을 내뿜습니다.  또한, 착용자의 명상이나 육체와 정신의 집중을 돕는다고 전해지며, 악랄한 마법으로 부터 착용자를 지켜준다고 합니다.
+It seems somebody well versed in antimagic could use it to its fullest potential.]], [[마법 사냥 기간동안 이단심문관 마커스 던이 사용했다고 전해지는, 이 주먹만한 석영 수정은 끊임없이 부드러운 하얀 빛을 내뿜습니다.  또한, 착용자의 명상이나 육체와 정신의 집중을 돕는다고 전해지며, 악랄한 마법으로부터 착용자를 지켜준다고 합니다.
 반마법에 정통한 사람이 이 수정의 힘을 최대한 이끌어낼 수 있을 것 같습니다.]], "_t")
 t("#LIGHT_BLUE#You feel a great hero guiding you!", "#LIGHT_BLUE#위대한 영웅이 당신을 인도함을 느꼈다!", "logPlayer")
 t("Eldoral Last Resort", "엘도랄의 최후의 수단", "entity name")
@@ -11559,7 +11559,7 @@ t("surround yourself with a magical shield (strength %d, based on Magic) for %d 
 t("%s invokes the memory of Neira!", "%s 네이라의 기억을 불러냈다!", "logSeen", nil, {"는"})
 t("Nature's Blessing", "자연의 축복", "entity name")
 t("supple leather armour entwined with willow bark", "버드나무 껍질로 얽힌 유연한 가죽 갑옷", "_t")
-t("Worn by Protector Ardon, who first formed the Ziguranth during the mage wars between the Humans and the Halflings.  This armour is infused with the powers of nature, and protected against the disruptive forces of magic.", "인간과 하플링 간의 마법사 전쟁이 벌어질 때 지구랏을 설립한 보호자 아르돈이 착용한 갑옷입니다.  이 갑옷엔 자연의 힘이 주입되어있어 마법의 부정한 힘으로 부터 착용자를 지켜줍니다.", "_t")
+t("Worn by Protector Ardon, who first formed the Ziguranth during the mage wars between the Humans and the Halflings.  This armour is infused with the powers of nature, and protected against the disruptive forces of magic.", "인간과 하플링 간의 마법사 전쟁이 벌어질 때 지구랏을 설립한 보호자 아르돈이 착용한 갑옷입니다.  이 갑옷엔 자연의 힘이 주입되어 있어 마법의 부정한 힘으로부터 착용자를 지켜줍니다.", "_t")
 t("#DARK_GREEN#You feel especially blessed.", "#DARK_GREEN#당신은 특별한 축복을 받았음을 느낀다.", "logPlayer")
 t("Plate Armor of the King", "왕의 판금 갑옷", "entity name")
 t("suit of gleaming voratun plate", "빛나는 보라툰 판금갑옷", "_t")
@@ -11567,7 +11567,7 @@ t("Beautifully detailed with images of King Toknor's defence of Last Hope. Despa
 t("Witch-Bane", "마녀의 파멸", "entity name")
 t("an ivory handled voratun longsword", "상아 손잡이의 보라툰 장검", "_t")
 t([[A thin voratun blade with an ivory handle wrapped in purple cloth.  The weapon is nearly as legendary as its former owner, Marcus Dunn, and was thought to have been destroyed after Marcus was slain near the end of the Spellhunt.
-It seems somebody well versed in antimagic could use it to its fullest potential.]], [[보라색 천에 감싸여있는, 상아 손잡이를 갖고있는 보라툰 장검입니다.  이 무기는 원래 주인인 마커스 던처럼 가히 전설적입니다. 주문 사냥 말기, 마커스가 목숨을 잃고 난 뒤 파괴된 것으로 알려져 있었습니다.
+It seems somebody well versed in antimagic could use it to its fullest potential.]], [[보라색 천에 감싸여있는, 상아 손잡이를 갖고 있는 보라툰 장검입니다.  이 무기는 원래 주인인 마커스 던처럼 가히 전설적입니다. 주문 사냥 말기, 마커스가 목숨을 잃고 난 뒤 파괴된 것으로 알려져 있었습니다.
 반마법에 정통한 사람이 이 검의 힘을 최대한 이끌어낼 수 있을 것 같습니다.]], "_t")
 t("#LIGHT_BLUE#You feel a great hero watching over you!", "#LIGHT_BLUE#위대한 영웅이 당신을 바라봄을 느꼈다!", "logPlayer")
 t("Staff of Arcane Supremacy", "지고의 비전 지팡이", "entity name")
@@ -11662,7 +11662,7 @@ t("%s brandishes the %s which radiates in all directions!", "%s %s 흔들자, �
 t("Dúathedlen Heart", "듀아세들렌 심장", "entity name")
 t("a dark, fleshy mass", "어두운, 고깃덩어리", "_t")
 t("This dark red heart still beats despite being separated from its owner.  It also snuffs out any light source that comes near it.", "이 어두운 붉은 심장은 원 주인에게서 떨어저나왔음에도 불구하고 계속 고동치고 있습니다.  이 심장은 가까이 오는 자들의 광원을 약하게 만드는 힘이있습니다.", "_t")
-t("The heart seems to absorb light when you deal darkness damage. Standing on unlit tiles, you feel stronger.", "당신이 암흑 피해를 가할 때 마다, 심장은 빛을 흡수합니다. 그늘진 칸에 있을 떄, 당신은 힘이 강해짐을 느낍니다.", "_t")
+t("The heart seems to absorb light when you deal darkness damage. Standing on unlit tiles, you feel stronger.", "당신이 암흑 피해를 가할 때마다, 심장은 빛을 흡수합니다. 그늘진 칸에 있을 때, 당신은 힘이 강해짐을 느낍니다.", "_t")
 t("potion", "물약", "entity subtype")
 t("Blood of Life", "생명의 피", "entity name")
 t("bloody phial", "핏빛 유리병", "_t")
@@ -11684,15 +11684,15 @@ t("huge shield", "거대한 방패", "_t")
 t("This shield made of the darkest stralite is huge, heavy and very solid.", "이 방패는 가장 어두운 스트랄라이트로 만들어졌고, 아주 무겁고 아주 견고합니다.", "_t")
 t("Black Mesh", "검은 그물", "entity name")
 t("pile of tendrils", "덩굴 더미", "_t")
-t("Black, interwoven tendrils form this mesh that can be used as a shield. It reacts visibly to your touch, clinging to your arm and engulfing it in a warm, black mass.", "검은, 덩쿨들이 얽히고 설켜 형성된 이 그물은 방패로도 사용할 수 있습니다. 만지면 눈에 띄게 반응하고, 팔에 달라붙어 온기를 전해줍니다.", "_t")
+t("Black, interwoven tendrils form this mesh that can be used as a shield. It reacts visibly to your touch, clinging to your arm and engulfing it in a warm, black mass.", "검은, 덩굴들이 얽히고 설켜 형성된 이 그물은 방패로도 사용할 수 있습니다. 만지면 눈에 띄게 반응하고, 팔에 달라붙어 온기를 전해줍니다.", "_t")
 t("Up to once per turn, pull an attacker up to 15 spaces away into melee range, pinning and asphyxiating it", "한 턴에 1 번, 15 칸 떨어진 적을 인접한 위치로 끌어당기고, 질식과 속박을 적용합니다", "_t")
-t("#ORCHID#Black tendrils from #Source# grab #Target#!", "#ORCHID##Source#의 검은 덩쿨이 #Target3# 붙잡았다!", "logCombat")
-t("#ORCHID##Source#'s tendrils pull #Target# in!", "#ORCHID##Source#의 덩쿨이 #Target3# 끌어당긴다!", "logCombat")
-t("#ORCHID#%s resists the tendrils' pull!", "#ORCHID#%s 덩쿨의 잡아당기는 힘에 저항했다!", "logSeen", nil, {"는"})
+t("#ORCHID#Black tendrils from #Source# grab #Target#!", "#ORCHID##Source#의 검은 덩굴이 #Target3# 붙잡았다!", "logCombat")
+t("#ORCHID##Source#'s tendrils pull #Target# in!", "#ORCHID##Source#의 덩굴이 #Target3# 끌어당긴다!", "logCombat")
+t("#ORCHID#%s resists the tendrils' pull!", "#ORCHID#%s 덩굴의 잡아당기는 힘에 저항했다!", "logSeen", nil, {"는"})
 t("Rogue Plight", "도적의 역경", "entity name")
 t("blackened leather armour", "검게 그슬린 가죽 갑옷", "_t")
 t("No rogue blades shall incapacitate the wearer of this armour.", "그 어떤 도적의 칼날도 이 갑옷의 착용자를 무력화 할 수 없다.", "_t")
-t("Transfers a bleed, poison, or wound to its source or a nearby enemy every 4 turns.", "4 턴 마다 한 번씩, 출혈, 독, 상처 효과 중 하나를 인근의 적이나, 효과 부여자에게 전송합니다.", "_t")
+t("Transfers a bleed, poison, or wound to its source or a nearby enemy every 4 turns.", "4 턴마다 한 번씩, 출혈, 독, 상처 효과 중 하나를 인근의 적이나, 효과 부여자에게 전송합니다.", "_t")
 t("#CRIMSON#Rogue Plight transfers an effect to its source!", "#CRIMSON#도적의 역경이 상태 효과 하나를 효과 부여자에게 전송했다!", "logPlayer")
 t("#CRIMSON#Rogue Plight transfers an effect to a nearby enemy!", "#CRIMSON#도적의 역경이 상태 효과 하나를 인접한 적에게 전송했다!", "logPlayer")
 t("egg", "알", "entity subtype")
@@ -11790,7 +11790,7 @@ t("Oddly it never produces a hat.", "이상하게도 모자는 생산되지 않�
 t("Un'fezan's Cap", "운'페잔의 모자", "entity name")
 t("red stylish hat", "멋진 빨강색 모자", "_t")
 t([[This fez once belonged to a traveler; it always seems to be found lying around in odd locations.
-#{italic}#Fezzes are cool.#{normal}#]], [[이 페즈는 한 때, 한 모험가가 착용했습니다. 항상 이상한 곳에서 발견되는 것 같습니다.
+#{italic}#Fezzes are cool.#{normal}#]], [[이 페즈는 한때, 한 모험가가 착용했습니다. 항상 이상한 곳에서 발견되는 것 같습니다.
 #{italic}#페즈는 아주 멋져.#{normal}#]], "_t")
 t("Needs something equally stylish and cool to go with it.", "페즈에 어울릴 만한 멋지고 쿨한 게 필요할거 같은데?", "_t")
 t("#STEEL_BLUE#A time vortex briefly appears in front of you.", "#STEEL_BLUE#시간의 소용돌이가 당신 앞에 짧게 나타난다.", "logPlayer")
@@ -11816,7 +11816,7 @@ t("The stitched-together skins of many creatures. Some eyes and mouths still dec
 t("#BLUE#The skin seems pleased to be worn by the unliving, and grows silent.", "#BLUE#이 가죽은 불사자들이 자신을 입기를 원하는 것 같다. 가죽이 조용히 빛난다.", "logPlayer")
 t("Iron Mail of Bloodletting", "유혈의 무쇠 갑옷", "entity name")
 t("gore-encrusted suit of iron mail", "피로 뒤덮힌 무쇠 갑옷", "_t")
-t("Blood drips continuously from this fell suit of iron, and dark magics churn almost visibly around it. Bloody ruin comes to those who stand against its wearer.", "이 타락한 무쇠 갑옷에서 피가 계속 떨어지고, 사악한 마법이 눈에 보일만큼 갑옷의 주위를 휘돌고있습니다. 이 갑옷을 입은 자에게 대적하는 이들은 핏빛 파멸을 맞게될 것입니다.", "_t")
+t("Blood drips continuously from this fell suit of iron, and dark magics churn almost visibly around it. Bloody ruin comes to those who stand against its wearer.", "이 타락한 무쇠 갑옷에서 피가 계속 떨어지고, 사악한 마법이 눈에 보일만큼 갑옷의 주위를 휘돌고있습니다. 이 갑옷을 입은 자에게 대적하는 이들은 핏빛 파멸을 맞게 될 것입니다.", "_t")
 t("Scale Mail of Kroltar", "크롤타의 비늘 갑옷", "entity name")
 t("perfectly-wrought suit of dragon scales", "완벽하게 만들어진 용비늘 갑옷", "_t")
 t("A heavy shirt of scale mail constructed from the remains of Kroltar, whose armour was like tenfold shields.", "크롤타의 잔해로 만든 비늘 갑옷으로, 마치 10 겹의 방패를 입고다니는 것 같습니다.", "_t")
@@ -11870,10 +11870,10 @@ t("Potentially it would go with a sword in the future.", "잠재적으로 미래
 t("10% chance to return the target to a much younger state", "10% 확률로 대상을 유아기로 돌려보냅니다", "_t")
 t("Stone Gauntlets of Harkor'Zun", "하코르'준의 바위 전투 장갑", "entity name")
 t("dark stone gauntlets", "검은 바위의 전투장갑", "_t")
-t("Fashioned in ancient times by cultists of Harkor'Zun, these heavy granite gauntlets were designed to protect the wearer from the wrath of their dark master.", "고대에 하코르'준의 광신도들이 만든, 이 화강암 전투 장갑은 그들의 사악한 주인으로 부터 착용자를 보호하기 위해 제작되었습니다.", "_t")
+t("Fashioned in ancient times by cultists of Harkor'Zun, these heavy granite gauntlets were designed to protect the wearer from the wrath of their dark master.", "고대에 하코르'준의 광신도들이 만든, 이 화강암 전투 장갑은 그들의 사악한 주인으로부터 착용자를 보호하기 위해 제작되었습니다.", "_t")
 t("Unflinching Eye", "불굴의 눈", "entity name")
 t("a bloodshot eye", "충혈된 눈", "_t")
-t("Someone has strung a thick black cord through this large bloodshot eyeball, allowing it to be worn around the neck, should you so choose.", "누군가 두꺼운 검은 줄을 이 거대하고, 충혈된 눈알에 꿰어놔, 목걸이 처럼 사용할 수 있게되었습니다. 장착할지 말지는 당신의 선택이지만요.", "_t")
+t("Someone has strung a thick black cord through this large bloodshot eyeball, allowing it to be worn around the neck, should you so choose.", "누군가 두꺼운 검은 줄을 이 거대하고, 충혈된 눈알에 꿰어놔, 목걸이 처럼 사용할 수 있게 되었습니다. 장착할지 말지는 당신의 선택이지만요.", "_t")
 t("Pick of Dwarven Emperors", "드워프 황제의 곡괭이", "entity name")
 t("crude iron pickaxe", "투박한 무쇠 곡괭이", "_t")
 t("This ancient pickaxe was used to pass down dwarven legends from one generation to the next. Every bit of the head and shaft is covered in runes that recount the stories of the dwarven people.", "이 고대의 곡괭이는 한 세대에서 다음 세대로 전설을 전승하는데 사용되었습니다. 곡괭이 머리와 손잡이 까지의 모든 부분에 드워프 민족의 이야기가 담긴 룬이 세겨져있습니다.", "_t")
@@ -11886,8 +11886,8 @@ t("grey quiver", "회색 화살통", "_t")
 t("Powerful telepathic forces emanate from the arrows of this quiver. The tips appear dull, but touching them causes you intense pain.", "강력한 텔레파시의 힘이 이 화살통의 화살에서 발산되고 있습니다. 화살촉은 뾰족하지는 않지만, 만저보면 격렬한 고통을 느낄 수 있습니다.", "_t")
 t("dominate the target", "대상을 지배합니다", "_t")
 t("Blightstopper", "역병을 가로막는 자", "entity name")
-t("vine coated shield", "덩쿨이 뒤덮힌 방패", "_t")
-t("This voratun shield, coated with thick vines, was imbued with nature's power long ago by the Halfling General Almadar Riul, who used it to stave off the magic and diseases of orcish corruptors during the peak of the Pyre Wars.", "오래전 하플링 장군 알마다르 리울이 이 두꺼운 덩쿨로 뒤덮힌 보라툰 방패에 자연의 힘을 주입했습니다. 장작더미 전쟁의 한창일 때, 리울은 이 방패를 오크 타락자들이 퍼뜨리는 역병과 마법에 대항하기 위해 사용했습니다.", "_t")
+t("vine coated shield", "덩굴이 뒤덮힌 방패", "_t")
+t("This voratun shield, coated with thick vines, was imbued with nature's power long ago by the Halfling General Almadar Riul, who used it to stave off the magic and diseases of orcish corruptors during the peak of the Pyre Wars.", "오래전 하플링 장군 알마다르 리울이 이 두꺼운 덩굴로 뒤덮힌 보라툰 방패에 자연의 힘을 주입했습니다. 장작더미 전쟁의 한창일 때, 리울은 이 방패를 오크 타락자들이 퍼뜨리는 역병과 마법에 대항하기 위해 사용했습니다.", "_t")
 t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "최대 %d 개의 질병을 치유하고, (의지에 비례) 5 턴 동안, 질병 면역력을 얻으며, 황폐 저항이 %d%% 상승합니다. 또한 주문 내성이 %d 증가합니다", "tformat")
 t("%s holds %s %s close, cleansing %s of corruption!", "%s %s %s 몸 쪽으로 끌어당겨, %s 부정한 힘을 정화했다!", "logSeen", nil, {"는",[3]="를"})
 t("%s is purged of diseases!", "%s 질병을 정화했다!", "logSeen", nil, {"은"})
@@ -11898,7 +11898,7 @@ t("Intense heat radiates from this powerful shot.", "이 강력한 탄환에서 
 t("sets off a powerful explosion", "강력한 폭발을 일으킵니다", "_t")
 t("Nexus of the Way", "한길의 결합", "entity name")
 t("brilliant green mindstar", "빛나는 초록색 마석", "_t")
-t("The vast psionic force of the Way reverberates through this gemstone. With a single touch, you can sense overwhelming power, and hear countless thoughts.", "한길의 거대한 초능력이 이 보석 안에서 울립니다. 한번 만지면, 당신을 압도하는 힘을 느낄 수 있으며 셀 수 없이 많은 생각이 당신을 채웁니다.", "_t")
+t("The vast psionic force of the Way reverberates through this gemstone. With a single touch, you can sense overwhelming power, and hear countless thoughts.", "한길의 거대한 초능력이 이 보석 안에서 울립니다. 한 번 만지면, 당신을 압도하는 힘을 느낄 수 있으며 셀 수 없이 많은 생각이 당신을 채웁니다.", "_t")
 t("#LIGHT_BLUE#You feel the power of the Way within you!", "#LIGHT_BLUE#한 길의 힘이 당신의 내부를 가득 채움을 느낀다!", "logPlayer")
 t("#RED#The Way rejects its former captors!", "#RED#한길은 과거의 침략자들을 받아드리지 않는다!", "logPlayer")
 t("Amethyst of Sanctuary", "성역의 자수정", "entity name")
@@ -11932,14 +11932,14 @@ t("This helmet radiates a dark power. Its visor seems to twist and corrupt the v
 t("Umbral Razor", "그림자 면도칼", "entity name")
 t("shadowy dagger", "그림자 단검", "_t")
 t("This dagger seems to be formed of pure shadows, with a strange miasma surrounding it.", "이 단검은 순수한 그림자로 이루어저 있는 것 같습니다. 기이한 독기가 칼날 근처에 감돕니다.", "_t")
-t("20% chance to make the target bleed shadows. You heal for 15 whenever you hit an enemy bleeding shadows.", "20% 확률로 대상의 그림자를 피흘리게합니다. 피흘리는 그림자를 갖고있는 적을 공격할 때마다 생명력을 15 회복합니다.", "_t")
+t("20% chance to make the target bleed shadows. You heal for 15 whenever you hit an enemy bleeding shadows.", "20% 확률로 대상의 그림자를 피흘리게 합니다. 피흘리는 그림자를 갖고 있는 적을 공격할 때마다 생명력을 15 회복합니다.", "_t")
 t("%s resists the shadowy cut", "%s 그림자 상처에 저항한다.", "logSeen", nil, {"는"})
 t("Emblem of Evasion", "회피의 상징", "entity name")
 t("gold coated emblem", "금도금된 상징", "_t")
 t("Said to have belonged to a master of avoiding attacks, this gilded steel emblem symbolizes his talent.", "회피의 달인이 갖고있었다는 금 도금된 강철 문양은, 그의 기술을 상징합니다.", "_t")
 t("Surefire", "확실함", "entity name")
 t("high-quality bow", "고품질 활", "_t")
-t("This tightly strung bow appears to have been crafted by someone of considerable talent. When you pull the string, you feel incredible power behind it.", "시위가 팽팽하게 걸린 이 활은 굉장한 기술을 갖고있는 이가 만든 것 같습니다. 시위를 당겨보면, 그 뒤에 숨겨있는 믿을 수 없는 힘을 느껴집니다.", "_t")
+t("This tightly strung bow appears to have been crafted by someone of considerable talent. When you pull the string, you feel incredible power behind it.", "시위가 팽팽하게 걸린 이 활은 굉장한 기술을 갖고 있는 이가 만든 것 같습니다. 시위를 당겨보면, 그 뒤에 숨겨있는 믿을 수 없는 힘을 느껴집니다.", "_t")
 t("Frozen Shards", "얼음 조각", "entity name")
 t("pouch of crystallized ice", "결정화된 얼음 뭉치", "_t")
 t("In this dark blue pouch lie several small orbs of ice. A strange vapour surrounds them, and touching them chills you to the bone.", "이 어두운 파란색 주머니 안에 얼음 구체가 많이 담겨있습니다. 이상한 연기가 구체들을 감싸고 있고, 만저보니 뼈가 시릴 정도로 차갑습니다.", "_t")
@@ -11961,7 +11961,7 @@ t("#Source# manifests a psychic assult with %s %s!", "#Source2# %s %s 사용해 
 t("Latafayn", "라타파인", "entity name")
 t("flame covered greatsword", "화염으로 덮힌 대검", "_t")
 t("This massive, flame-coated greatsword was stolen by the adventurer Kestin Highfin, during the Age of Dusk. It originally belonged to a demon named Frond'Ral the Red.  It roars with vile flames and its very existence seems to be a blight upon the lands.", "이 거대하고, 화염으로 덮힌 대검은 황혼의 시대 때, 케스틴 하이핀이 훔처낸 것으로, 원래는 붉은 프론드'랄 이라는 악마가 소유하고 있었습니다.  이 대검은 사악한 화염의 포효를 지르며, 그 존재 자체만으로 이 대지를 황폐화하는 것 같습니다.", "_t")
-t("accelerate burning effects on all creatures in a radius %d ball within range %d, consuming them to instantly inflict 125%% of all remaining burn damage", "반경 %d 칸 내의 모든 개체에게 적용된 화상 효과를 가속해, 화상 효과를 제거하고, 남아있던 피해량의 125%% 에 달하는 피해를 한번에 줍니다", "tformat")
+t("accelerate burning effects on all creatures in a radius %d ball within range %d, consuming them to instantly inflict 125%% of all remaining burn damage", "반경 %d 칸 내의 모든 개체에게 적용된 화상 효과를 가속해, 화상 효과를 제거하고, 남아있던 피해량의 125%% 에 달하는 피해를 한 번에 줍니다", "tformat")
 t("%s's %s lashes out in a flaming arc, intensifying the burning of %s enemies!", "%s의 %s 화염의 호를 그려, %s 체의 적에게 적용된 화상 효과를 증폭했다!", "logSeen", nil, {[2]="으로"})
 t("Robe of Force", "힘의 로브", "entity name")
 t("rippling cloth robe", "물결이 이는 천 로브", "_t")
@@ -11998,22 +11998,22 @@ t("@Source@ taps the #SALMON#trapped soul#LAST# of %s, xmanifesting %s!", "@Sour
 t("%s's %s #SALMON#CONSUMES THE SOUL#LAST# of %s, gaining the power of %s!", "%s의 %s, %s의 #SALMON#영혼을 삼켜#LAST#, %s의 힘을 주었다!", "logSeen", nil, {[2]="가"})
 t("Hydra's Bite", "히드라의 아가리", "entity name")
 t("triple headed flail", "머리 셋 달린 도리꺠", "_t")
-t("This three-headed stralite flail strikes with the power of a hydra. With each attack it lashes out, hitting everyone around you.", "이 머리 셋 달린 스트랄라이트 도리꺠는 히드라의 힘으로 적을 공격합니다. 공격을 이어나갈 때 마다, 주변에 있는 적도 공격을 받습니다.", "_t")
+t("This three-headed stralite flail strikes with the power of a hydra. With each attack it lashes out, hitting everyone around you.", "이 머리 셋 달린 스트랄라이트 도리꺠는 히드라의 힘으로 적을 공격합니다. 공격을 이어나갈 때마다, 주변에 있는 적도 공격을 받습니다.", "_t")
 t("hit up to two adjacent enemies", "인접한 최대 2 체의 적을 공격합니다", "_t")
 t(" and %s", " 그리고 %s", "tformat")
 t("#Source#'s three headed flail lashes at #Target#%s!", "#Source#의 세머리 도리깨가 #Target#%s 공격했다!", "logCombat", nil, {"를"})
 t("#Source#'s three headed flail lashes at #Target#!", "#Source#의 세머리 도리깨가 #Target3# 내려친다!", "logCombat")
 t("Spellhunt Remnants", "마법사냥의 잔재", "entity name")
 t("heavily corroded voratun gauntlets", "엄청나게 부식된 보라툰 전투장갑", "_t")
-t("These once brilliant voratun gauntlets have fallen into a deep decay. Originally used in the spellhunt, they were often used to destroy arcane artifacts, curing the world of their influence.", "한 때, 찬란히 빛났던 보라툰 전투장갑이 지금은 너무 심각한 부식으로 못 쓸 지경이되었습니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 치유할 때 자주 쓰였습니다.", "_t")
+t("These once brilliant voratun gauntlets have fallen into a deep decay. Originally used in the spellhunt, they were often used to destroy arcane artifacts, curing the world of their influence.", "한때, 찬란히 빛났던 보라툰 전투장갑이 지금은 너무 심각한 부식으로 못 쓸 지경이되었습니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 치유할 때 자주 쓰였습니다.", "_t")
 t("Can't be worn by those with arcane powers.", "마법 사용자는 장착할 수 없습니다.", "_t")
 t("#ORCHID#Your arcane equipment or powers conflict with the gauntlets!#LAST#", "#ORCHID#당신의 마법적인 힘, 또는 장비가 이 전투장갑과 대립중이다!#LAST#", "logPlayer")
 t("corroded voratun gauntlets", "부식된 보라툰 전투장갑", "_t")
-t("These once brilliant voratun gauntlets appear heavily decayed. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "한 때, 찬란히 빛났던 보라툰 전투장갑은 지금 심각하게 부식되었습니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 제거할 때 자주 쓰였습니다.", "_t")
+t("These once brilliant voratun gauntlets appear heavily decayed. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "한때, 찬란히 빛났던 보라툰 전투장갑은 지금 심각하게 부식되었습니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 제거할 때 자주 쓰였습니다.", "_t")
 t("tarnished voratun gauntlets", "변색된 보라툰 전투장갑", "_t")
-t("These voratun gauntlets appear to have suffered considerable damage. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "한 때, 찬란히 빛났던 보라툰 전투장갑의 표면은 꽤 강한 피해를 받은 것으로 보입니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 제거할 때 자주 쓰였습니다.", "_t")
+t("These voratun gauntlets appear to have suffered considerable damage. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "한때, 찬란히 빛났던 보라툰 전투장갑의 표면은 꽤 강한 피해를 받은 것으로 보입니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 제거할 때 자주 쓰였습니다.", "_t")
 t("slightly tarnished voratun gauntlets", "조금 변색된 보라툰 전투장갑", "_t")
-t("These voratun gauntlets shine brightly beneath a thin layer of wear. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "한 때, 찬란히 빛났던 보라툰 전투장갑은 세월의 흙먼지 아래에서 밝게 빛나고있습니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 제거할 때 자주 쓰였습니다.", "_t")
+t("These voratun gauntlets shine brightly beneath a thin layer of wear. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence.", "한때, 찬란히 빛났던 보라툰 전투장갑은 세월의 흙먼지 아래에서 밝게 빛나고있습니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 제거할 때 자주 쓰였습니다.", "_t")
 t("gleaming voratun gauntlets", "빛나는 보라툰 전투장갑", "_t")
 t("These brilliant voratun gauntlets shine with an almost otherworldly glow. Originally used in the spellhunt, they were often used to destroy arcane artifacts, ridding the world of their influence. Pride in the fulfillment of this ancient duty practically radiates from them.", "이 눈부신 보라툰 장갑은 이 세계의 것이 아닌 것 처럼 빛납니다. 원래는 마법 사냥 시기에 쓰였으며, 마법 유물을 파괴함으로써 세상에서 마법의 폐해를 제거할 때 자주 쓰였습니다. 이제 이 고대 의무를 이행한 긍지가 장갑에서 발산되고있습니다.", "_t")
 t("attempt to destroy all magic effects and sustains on creatures in a radius %d cone (unnatural creatures are additionally dealt %0.2f arcane damage and stunned)", "반경 %d 칸의 원뿔 범위 내의 모든 개체에 적용된 마법 효과와 유지기를 전부 제거합니다. (비자연적인 개체들은 추가로 %0.2f 비전 피해를 받고 기절합니다)", "tformat")
@@ -12043,11 +12043,11 @@ t("Skeletal Claw", "해골 손톱", "entity name")
 t("This whip appears to have been made from a human spine. A handle sits on one end, a sharply honed claw on the other.", "이 채찍은 인간의 척추 뼈로 만든 것 같습니다. 손잡이는 한쪽 끝에 있고, 다른 한쪽에는 날카롭고 가시가 돋은 손톱이 달려있습니다.", "_t")
 t("Core of the Forge", "대장간의 핵", "entity name")
 t("fiery mindstar", "불타는 마석", "_t")
-t("This blazing hot mindstar beats rhythmically, releasing a burst of heat with each strike.", "뜨겁게 불타는 마석이 일정한 간격으로 맥박쳐, 공격을 가할 때 마다 열기 나뿜습니다.", "_t")
+t("This blazing hot mindstar beats rhythmically, releasing a burst of heat with each strike.", "뜨겁게 불타는 마석이 일정한 간격으로 맥박쳐, 공격을 가할 때마다 열기 나뿜습니다.", "_t")
 t("Aetherwalk", "에테르 걸음", "entity name")
 t("ethereal boots", "영체 장화", "_t")
 t("A wispy purple aura surrounds these translucent black boots.", "듬성듬성한 보라색 기운이 이 반투명한 검은 장화를 둘러싸고 있습니다.", "_t")
-t("Creates an arcane explosion dealing %d arcane damage based on magic in a radius of 3 around the user after any teleport.", "시전자가 순간 이동 시, 마법에 비례한 %d 비전 피해르 입히는 반경 3 칸의 폭발을 일으킵니다. 이 효과는 모든 순간이동에 발동합니다", "tformat")
+t("Creates an arcane explosion dealing %d arcane damage based on magic in a radius of 3 around the user after any teleport.", "시전자가 순간이동 시, 마법에 비례한 %d 비전 피해르 입히는 반경 3 칸의 폭발을 일으킵니다. 이 효과는 모든 순간이동에 발동합니다", "tformat")
 t("phase door up to range 6, within radius 2 of the target location", "최대 6 칸 범위 내의 지정한 장소로 순간이동합니다. 오차 범위는 2 칸입니다", "_t")
 t("%s is #PURPLE#ENVELOPED#LAST# in a deep purple aura from %s %s!", "%s %s %s 발산하는 진한 보라색의 기운에 #PURPLE#싸인다#LAST#!", "logSeen", nil, {"는",[3]="이"})
 t("Colaryem", "콜라리엠", "entity name")
@@ -12101,15 +12101,15 @@ t("cracked black amulet", "금 간 검정색 목걸이", "_t")
 t("A deep red light glows from within this damaged amulet of black stone. When you touch it, you can hear voices whispering within your mind.", "이 부서진 목걸이에 엮인 검은 돌은 진한 붉은색의 빛을 내고있습니다. 만저보면, 정신에 직접 속삭이는 목소리를 들을 수 있습니다.", "_t")
 t("Pouch of the Subconscious", "잠재의식의 주머니", "entity name")
 t("familiar pouch", "친근한 주머니", "_t")
-t("You find yourself constantly fighting an urge to handle this strange pouch of shot.", "어느 순간 이 이상한 주머니 속의 탄환을 계속 만지고 싶다는 충동과 싸우게됩니다.", "_t")
+t("You find yourself constantly fighting an urge to handle this strange pouch of shot.", "어느 순간 이 이상한 주머니 속의 탄환을 계속 만지고 싶다는 충동과 싸우게 됩니다.", "_t")
 t("50% chance to reload 1 ammo", "50% 확률로 1 발 장전합니다", "_t")
 t("Wind Worn Shot", "바람에 닳은 탄환", "entity name")
 t("perfectly smooth shot", "완벽하게 부드러운 탄환", "_t")
 t("These perfectly white spheres appear to have been worn down by years of exposure to strong winds.", "이 완벽하게 둥그런 구체는 강한 바람에 긴 세월 동안 풍화된 것 같습니다.", "_t")
 t("35% chance for lightning to arc to a second target", "35% 확률로 또 다른 대상에게 전류가 연쇄합니다", "_t")
 t("Spellcrusher", "주문 파괴자", "entity name")
-t("vine coated hammer", "덩쿨덮힌 망치", "_t")
-t("This large steel greatmaul has thick vines wrapped around the handle.", "이 거대한 강철 대형 망치는 손잡이 부분이 두꺼운 덩쿨로 감싸저있습니다.", "_t")
+t("vine coated hammer", "덩굴덮힌 망치", "_t")
+t("This large steel greatmaul has thick vines wrapped around the handle.", "이 거대한 강철 대형 망치는 손잡이 부분이 두꺼운 덩굴로 감싸저있습니다.", "_t")
 t("50% chance to shatter magical shields", "50% 확률로 마법 보호막을 파쇄합니다", "_t")
 t("%s's magical shields are shattered!", "%s의 마법 보호막이 파쇄되었다!", "logSeen")
 t("#DARK_GREEN#You feel a great power rise within you!", "#DARK_GREEN#위대한 힘이 당신 속에서 일어서는 게 느껴집니다!", "logPlayer")
@@ -12125,7 +12125,7 @@ t("Said to have belonged to a lost Anorithil, stars are reflected in the myriad 
 t("cracked golem eye", "금이 간 골렘의 눈", "_t")
 t("Prothotipe's Prismatic Eye", "프로토티프의 다색 눈", "entity name")
 t("multi-hued", "다색", "entity subtype")
-t("This cracked gemstone looks faded with age. It appears to have once been the eye of a golem.", "이 금이 간 보석은 세월의 풍파를 맞아 빛이 바랬습니다. 한 때, 골렘의 눈에 박혀있었을 것 같습니다.", "_t")
+t("This cracked gemstone looks faded with age. It appears to have once been the eye of a golem.", "이 금이 간 보석은 세월의 풍파를 맞아 빛이 바랬습니다. 한때, 골렘의 눈에 박혀있었을 것 같습니다.", "_t")
 t("Casts lasers on spellcast when worn or imbued.", "착용하거나, 장비에 부여되었을 때, 주문 시전 시 광선을 발사합니다.", "_t")
 t("Plate of the Blackened Mind", "검은 정신의 판금 갑옷", "entity name")
 t("solid black breastplate", "단단하고 검은 흉갑", "_t")
@@ -12139,7 +12139,7 @@ t("take root increasing health by 300, armor by 20, and armor hardiness by 20%% 
 t("%s merges with %s %s!", "%s %s %s 융합된다!", "logSeen", nil, {"는",[3]="과"})
 t("Ring of Growth", "성장의 반지", "entity name")
 t("This small wooden ring has a single green stem wrapped around it. Thin leaves still seem to be growing from it.", "이 작은 나무 반지는 초록색 줄기 하나가 감싸고 있습니다. 두꺼운 잎사귀들이 곧 줄기에서 자라날 것 같습니다.", "_t")
-t("vine encircled ring", "덩쿨 둘린 반지", "_t")
+t("vine encircled ring", "덩굴 둘린 반지", "_t")
 t("Wrap of Stone", "바위의 포옹", "entity name")
 t("solid stone cloak", "단단한 바위 망토", "_t")
 t("This thick cloak is incredibly tough, yet bends and flows with ease.", "이 두꺼운 망토는 말도 안되게 강하지만, 바람에 쉽게 휘날립니다.", "_t")
@@ -12165,13 +12165,13 @@ t("#GOLD#As the final sands drop into place, you feel a surge of power.", "#GOLD
 t("#GOLD#As the final sands drop into place, you suddenly feel safer.", "#GOLD#마지막 모래가 떨어지자, 당신은 갑작스레 안도감을 느낀다.", "logPlayer")
 t("Malslek the Accursed's Hat", "저주받은 말슬렉의 모자", "entity name")
 t("black charred hat", "새까맣게 탄 모자", "_t")
-t("This black hat once belonged to a powerful mage named Malslek, in the Age of Dusk, who was known to deal with beings from other planes. In particular, he dealt with many powerful demons, until one of them, tired of his affairs, betrayed him and stole his power. In his rage, Malslek set fire to his own tower in an attempt to kill the demon. This charred hat is all that remained in the ruins.", "이 검은 모자는 황혼의 시대 때 강력한 마도사, 말슬렉이 소유하고 있었습니다. 말슬렉은 다른 차원의 존재들과 계약을 맺었다고 알려져 있습니다. 특히 그는 여러 강력한 악마와 계약을 했는데, 어느날 악마중 하나가 그의, 고압적인 태도에 신물이 난 나머지, 말슬렉을 배신하고 그의 힘을 훔처갔습니다. 분노에 가득찬 말슬렉은 악마를 죽이기 위해 그의 탑에 불을 질렀습니다만, 이 숯더미가 된 모자가 그 폐허에 남은 유일한 것이였습니다.", "_t")
+t("This black hat once belonged to a powerful mage named Malslek, in the Age of Dusk, who was known to deal with beings from other planes. In particular, he dealt with many powerful demons, until one of them, tired of his affairs, betrayed him and stole his power. In his rage, Malslek set fire to his own tower in an attempt to kill the demon. This charred hat is all that remained in the ruins.", "이 검은 모자는 황혼의 시대 때 강력한 마도사, 말슬렉이 소유하고 있었습니다. 말슬렉은 다른 차원의 존재들과 계약을 맺었다고 알려져 있습니다. 특히 그는 여러 강력한 악마와 계약을 했는데, 어느 날 악마중 하나가 그의, 고압적인 태도에 신물이 난 나머지, 말슬렉을 배신하고 그의 힘을 훔처갔습니다. 분노에 가득찬 말슬렉은 악마를 죽이기 위해 그의 탑에 불을 질렀습니다만, 이 숯더미가 된 모자가 그 폐허에 남은 유일한 것이였습니다.", "_t")
 t("#RED#Malslek's hatred flows through you.", "#RED#말슬렉의 증오가 당신에서 흘러나온다.", "logPlayer")
 t("Fortune's Eye", "행운의 눈", "entity name")
 t("golden telescope", "금색 망원경", "_t")
 t([[This finely crafted telescope once belonged to the explorer and adventurer Kestin Highfin. With this tool in hand he traveled in search of treasures all across Maj'Eyal, and before his death it was said his collection was incredibly vast. He often credited this telescope with his luck, saying that as long as he had it, he could escape any situation, no matter how dangerous. It is said he died confronting a demon seeking revenge for a stolen sword.
 
-His last known words were "Somehow this feels like an ending, yet I know there is so much more to find."]], [[이 좋은 품질 망원경은 한 때 모험가이지 탐험가인 케스틴 하이핀이 소유하고 있었습니다. 이 도구를 쥐고, 그는 마즈'에이알을 가로지르며 보물을 찾기위한 여행을 했습니다. 훗날 케스틴이 죽기 전 까지 모은 수집품들은 말도안되게 많았다고 전해집니다. 케스틴은 이 망원경을 자신의 행운의 상징이라고 생각했었고, 실제로도 이 망원경을 갖고있는 동안 아무리 위험한 상황에서도 탈출 할 수 있었습니다. 케스틴은 잃어버린 검에 대한 복수로 격노한 악마와 대적하다 죽었다고 전해집니다.
+His last known words were "Somehow this feels like an ending, yet I know there is so much more to find."]], [[이 좋은 품질 망원경은 한때 모험가이지 탐험가인 케스틴 하이핀이 소유하고 있었습니다. 이 도구를 쥐고, 그는 마즈'에이알을 가로지르며 보물을 찾기위한 여행을 했습니다. 훗날 케스틴이 죽기 전 까지 모은 수집품들은 말도 안되게 많았다고 전해집니다. 케스틴은 이 망원경을 자신의 행운의 상징이라고 생각했었고, 실제로도 이 망원경을 갖고 있는 동안 아무리 위험한 상황에서도 탈출 할 수 있었습니다. 케스틴은 잃어버린 검에 대한 복수로 격노한 악마와 대적하다 죽었다고 전해집니다.
 
 마지막으로 그가 남긴 말은 다음과 같습니다. "왠지 이게 끝이라는 느낌이 드는구만, 아직 저기에 더 많은 보물이 있을텐데 말이야."]], "_t")
 t("Eye of the Forest", "숲의 눈", "entity name")
@@ -12196,13 +12196,13 @@ t("This double-helical ring seems resistant to attempts to move it. Wearing it s
 t("entwined iron ring", "얽혀있는 무쇠 반지", "_t")
 t("Everpyre Blade", "영원의 장작더미 검", "entity name")
 t("flaming wooden blade", "불타는 나무 칼", "_t")
-t("This ornate blade is carved from the wood of a tree said to burn eternally. Its hilt is encrusted with gems, suggesting it once belonged to a figure of considerable status. The flames seem to bend to the will of the sword's holder.", "이 화려하게 장식된 칼은 영원히 불탄다는 나무를 깎아 만들었습니다. 손잡이 부분은 보석으로 싸여있어, 한 때, 꽤 높은 신분이 사용했음을 알 수 있습니다. 불꽃은 검을 쥔 사람의 의지대로 굽힐 수 있는 것 같습니다.", "_t")
+t("This ornate blade is carved from the wood of a tree said to burn eternally. Its hilt is encrusted with gems, suggesting it once belonged to a figure of considerable status. The flames seem to bend to the will of the sword's holder.", "이 화려하게 장식된 칼은 영원히 불탄다는 나무를 깎아 만들었습니다. 손잡이 부분은 보석으로 싸여있어, 한때, 꽤 높은 신분이 사용했음을 알 수 있습니다. 불꽃은 검을 쥔 사람의 의지대로 굽힐 수 있는 것 같습니다.", "_t")
 t("dark, radiant staff", "어둡고, 빛나는 지팡이", "_t")
 t("Eclipse", "일식", "entity name")
 t("This tall staff is tipped with a pitch black sphere that yet seems to give off a strong light.", "이 긴 지팡이의 끝에 찬란한 빛을 발하는 칠흑의 구체가 달려있습니다.", "_t")
 t("gore stained battleaxe", "피로 뒤덮힌 전투도끼", "_t")
 t("Eksatin's Ultimatum", "엑사틴의 최후통첩", "entity name")
-t("This gore-stained battleaxe was once used by an infamously sadistic king, who took the time to personally perform each and every execution he ordered. He kept a vault of every head he ever removed, each and every one of them carefully preserved. When he was overthrown, his own head was added as the centrepiece of the vault, which was maintained as a testament to his cruelty.", "이 피로 뒤덮힌 전투 도끼는 한 때, 그 가학성으로 악명높던 왕이 사용했습니다. 왕은 그가 처형을 지시하고, 그 스스로 처형을 집행했습니다. 그는 처형한 이들의 머리를 아주 소중하게 보물 보관고에 보관했습니다. 그가 왕좌에서 쫓겨난 뒤, 그의 머리 역시 보관고의 중심에 전시되었습니다. 그 가학성과 잔임함을 널리 알리기 위해서 말이죠.", "_t")
+t("This gore-stained battleaxe was once used by an infamously sadistic king, who took the time to personally perform each and every execution he ordered. He kept a vault of every head he ever removed, each and every one of them carefully preserved. When he was overthrown, his own head was added as the centrepiece of the vault, which was maintained as a testament to his cruelty.", "이 피로 뒤덮힌 전투 도끼는 한때, 그 가학성으로 악명높던 왕이 사용했습니다. 왕은 그가 처형을 지시하고, 그 스스로 처형을 집행했습니다. 그는 처형한 이들의 머리를 아주 소중하게 보물 보관고에 보관했습니다. 그가 왕좌에서 쫓겨난 뒤, 그의 머리 역시 보관고의 중심에 전시되었습니다. 그 가학성과 잔임함을 널리 알리기 위해서 말이죠.", "_t")
 t("decapitate a weakened target", "약해진 적을 참수합니다", "_t")
 t("#RED#%s#GOLD# has been decapitated!#LAST#", "#RED#%s#GOLD# 참수 당했다!#LAST#", "logSeen", nil, {"는"})
 t("Radiance", "광휘", "entity name")
@@ -12217,7 +12217,7 @@ t([[This rugged jacket is the subject of many a rural legend.
 Some say it was fashioned by an adventurous mage turned rogue, in times before the Spellblaze, but was since lost.
 All manner of shady gamblers have since claimed to have worn it at one point or another. To fail, but live, is what it means to be untouchable, they said.]], [[이 투박한 상의는 많은 시골 전설들의 단골 소재입니다.
 몇몇 전설에서는 마법폭발 이전, 마법사에서 도적이 된 모험심 넘치는 이가 만들었다고하나, 그는 행방불명되었습니다.
-온갖 음흉한 도박꾼들이 이 옷을 한번 쯤은 입어보았다고 주장합니다. 실패하지만, 결국 살아남는다. 이것이 왜 이 코트의 이름이 불가촉인 이유라고 도박꾼들은 말합니다.]], "_t")
+온갖 음흉한 도박꾼들이 이 옷을 한 번 쯤은 입어보았다고 주장합니다. 실패하지만, 결국 살아남는다. 이것이 왜 이 코트의 이름이 불가촉인 이유라고 도박꾼들은 말합니다.]], "_t")
 t("When you take a hit of more than 20% of your max life a shield is created equal to 130% the damage taken.", "한 번에 최대 생명력의 20% 이상의 피해를 받을 때, 받은 피해량의 130% 에 달하는 보호막이 생성됩니다.", "_t")
 t("#LIGHT_BLUE#A barrier bursts from the leather jacket!", "#LIGHT_BLUE#가죽 자켓에서 방벽이 뿜어저 나온다!", "logPlayer")
 t("totem", "토템", "entity subtype")
@@ -12226,7 +12226,7 @@ t("sap filled cup", "수액이 든 잔", "_t")
 t("This wooden cup seems perpetually filled with a thick sap-like substance. Tasting it is exhilarating, and you feel intensely aware when you do so.", "이 나무 잔은 끈적이는 수액같은 물질로 계속 채워집니다. 맛을 보면 아주 기분이 좋고, 강렬한 자각력을 느낍니다.", "_t")
 t("The Calm", "고요", "entity name")
 t("ornate green robe", "화려한 장식의 초록 로브", "_t")
-t("This green robe is engraved with icons showing clouds and swirling winds. Its original owner, a powerful mage named Proccala, was often revered for both his great benevolence and his intense power when it proved necessary.", "이 초록 로브는 구름과 소용돌이 치는 바람의 형상이 새겨져있습니다. 원래 주인, 프로칼라 라는 강력한 마법사는 커다란 자비와 막강한 힘이 필요할 때 마다 큰 찬사를 받았습니다.", "_t")
+t("This green robe is engraved with icons showing clouds and swirling winds. Its original owner, a powerful mage named Proccala, was often revered for both his great benevolence and his intense power when it proved necessary.", "이 초록 로브는 구름과 소용돌이 치는 바람의 형상이 새겨져있습니다. 원래 주인, 프로칼라 라는 강력한 마법사는 커다란 자비와 막강한 힘이 필요할 때마다 큰 찬사를 받았습니다.", "_t")
 t("Your Lightning and Chain Lightning spells gain a 24% chance to daze, and your Thunderstorm spell gains a 12% chance to daze.", "번개와 연쇄 번개 주문이 24% 확률로 적에게 혼절을 유발하고, 뇌우 주문이 12% 확률로 혼절을 유발합니다.", "_t")
 t("Omniscience", "전지", "entity name")
 t("very plain leather cap", "매우 평범한 가죽 모자", "_t")
@@ -12257,7 +12257,7 @@ Passed on and on, this blade has developed a thirst of its own.]], [[더 강력�
 t("steals up to 50 mana from the target", "대상으로부터 최대 50 마나를 훔칩니다", "_t")
 t("Frost Lord's Chain", "서리 군주의 사슬", "entity name")
 t("ice coated chain", "얼음으로 뒤덮힌 사슬", "_t")
-t("This impossibly cold chain of frost-coated metal radiates a strange and imposing aura.", "이 말도안되게 차가운 서리로 뒤덮힌 금속 사슬은 기이하고 인상적인 기운을 내뿜습니다.", "_t")
+t("This impossibly cold chain of frost-coated metal radiates a strange and imposing aura.", "이 말도 안되게 차가운 서리로 뒤덮힌 금속 사슬은 기이하고 인상적인 기운을 내뿜습니다.", "_t")
 t("Gives all your cold damage a 20% chance to freeze the target.", "착용자가 가하는 모든 냉기 속성 공격은 20% 확률로 대상을 얼려버립니다.", "_t")
 t("Twilight's Edge", "황혼의 칼날", "entity name")
 t("shining long sword", "빛나는 장검", "_t")
@@ -12272,7 +12272,7 @@ t("corroded sword", "부식된 검", "_t")
 t("This warped, blackened sword drips acid from its countless pores.", "이 뒤틀리고, 검게 탄 칼은 그 셀 수 없이 많은 구멍에서 산성물질을 떨어뜨리고있습니다.", "_t")
 t("Borosk's Hate", "보로스크의 증오", "entity name")
 t("double-bladed sword", "양날검", "_t")
-t("This impressive looking sword features two massive blades aligned in parallel. They seem weighted remarkably well.", "이 인상적인 검의 두 거대한 날은 평행을 이루며 정렬되어 있습니다. 척 보기에도 좋은 무게 균형을 갖고있는 것 같습니다.", "_t")
+t("This impressive looking sword features two massive blades aligned in parallel. They seem weighted remarkably well.", "이 인상적인 검의 두 거대한 날은 평행을 이루며 정렬되어 있습니다. 척 보기에도 좋은 무게 균형을 갖고 있는 것 같습니다.", "_t")
 t("25% chance to strike the target again.", "25% 확률로 대상을 한 번 더 공격합니다.", "_t")
 t("Butcher", "도살자", "entity name")
 t("blood drenched shortsword", "피에 젖은 짧은 검", "_t")
@@ -12296,8 +12296,8 @@ t("These gloves are coated with a thick, green liquid.", "이 장갑은 끈적�
 t("Ring of the Archlich", "아크 리치의 반지", "entity name")
 t("dusty, cracked ring", "먼지 묻고, 금 간 반지", "_t")
 t([[This ring is filled with an overwhelming, yet restrained, power. It lashes, grasps from its metal prison, searching for life to snuff out. You alone are unharmed.
-Perhaps it feels all the death you will bring to others in the near future.]], [[이 반지는 압도적이지만 억눌린 힘이 주입되어있습니다. 이 힘은 강철 감옥에서 마수를 마구 뻗어, 파괴시켜버릴 생명을 찾고있습니다. 오직 당신만 그 사악한 손아귀에서 무사합니다.
-아마도, 가까운 미래에 당신이 흩뿌릴 죽음을 느끼게될 것같습니다.]], "_t")
+Perhaps it feels all the death you will bring to others in the near future.]], [[이 반지는 압도적이지만 억눌린 힘이 주입되어 있습니다. 이 힘은 강철 감옥에서 마수를 마구 뻗어, 파괴시켜버릴 생명을 찾고 있습니다. 오직 당신만 그 사악한 손아귀에서 무사합니다.
+아마도, 가까운 미래에 당신이 흩뿌릴 죽음을 느끼게 될 것 같습니다.]], "_t")
 t("It desires to be surrounded by undeath.", "이 반지는 불사의 힘에 둘러싸이길 원합니다.", "_t")
 t("#DARK_GREY#Your ring releases a burst of necromantic energy!", "#DARK_GREY#당신의 반지가 강령 에너지의 폭발을 해방했다!", "logPlayer")
 t("#DARK_GREY#Your ring's power fades away.", "#DARK_GREY#반지의 힘이 사라저간다.", "logPlayer")
@@ -12322,11 +12322,11 @@ t("These titanic double-helical arrows seem to have been designed more for knock
 t("25% of all damage splashes in a radius of 1 around the target.", "가하는 모든 피해의 25% 가 대상 주위 반경 1 칸에 가해집니다.", "_t")
 t("Punae's Blade", "퓨나이의 검", "entity name")
 t("thin blade", "얇은 검", "_t")
-t("This very thin sword cuts through the air with ease, allowing remarkably quick movement.", "이 매우 얇은 칼은 공기를 손쉽게 베어낼 정도로 가벼워, 빠르게 휘두를 수 있게됩니다.", "_t")
+t("This very thin sword cuts through the air with ease, allowing remarkably quick movement.", "이 매우 얇은 칼은 공기를 손쉽게 베어낼 정도로 가벼워, 빠르게 휘두를 수 있게 됩니다.", "_t")
 t("Crimson Robe", "핏빛 로브", "entity name")
 t("blood-stained robe", "피칠갑된 로브", "_t")
-t("This robe was formerly owned by Callister the Psion, a powerful Psionic that pioneered many Psionic abilities. After his wife was murdered, Callister became obsessed with finding her killer, using his own hatred as a fuel for new and disturbing arts. After forcing the killer to torture himself to death, Callister walked the land, forcing any he found to kill themselves - his way of releasing them from the world's horrors. One day, he simply disappeared. This robe, soaked in blood, was the only thing he left behind.", "이 로브는 원래 수많은 초능력 분야를 개척한, 뛰어난 초능력자인 칼리스터가 소유하고 있었습니다. 그의 아내가 살해당한 후, 칼리스터는 증오를 연료로 삼는 새롭고 파괴적인 기술을 사용하며, 아내를 죽인 자를 반드시 찾고 말겠다는 집념에 차 있었습니다. 그 살인자를 고문해 자살로 몰아놓은 후, 칼리스터는 대지를 떠돌며 그가 만나는 모든 이를 자살로 몰아넣었습니다 - 그 나름대로 세상의 공포로부터 해방시켜준 것입니다. 어느날, 칼리스터는 사라졌습니다. 이 피로물든, 로브는 그가 남긴 유일한 물건이였습니다.", "_t")
-t("Increases your solipsism threshold by 20% (if you have one). If you do, also grants 15% global speed when worn.", "유아론 한계량이 20% 증가합니다 (갖고있을 경우). 유아론 수치를 갖고 있을 경우, 전체 속도가 15% 증가합니다.", "_t")
+t("This robe was formerly owned by Callister the Psion, a powerful Psionic that pioneered many Psionic abilities. After his wife was murdered, Callister became obsessed with finding her killer, using his own hatred as a fuel for new and disturbing arts. After forcing the killer to torture himself to death, Callister walked the land, forcing any he found to kill themselves - his way of releasing them from the world's horrors. One day, he simply disappeared. This robe, soaked in blood, was the only thing he left behind.", "이 로브는 원래 수많은 초능력 분야를 개척한, 뛰어난 초능력자인 칼리스터가 소유하고 있었습니다. 그의 아내가 살해당한 후, 칼리스터는 증오를 연료로 삼는 새롭고 파괴적인 기술을 사용하며, 아내를 죽인 자를 반드시 찾고 말겠다는 집념에 차 있었습니다. 그 살인자를 고문해 자살로 몰아놓은 후, 칼리스터는 대지를 떠돌며 그가 만나는 모든 이를 자살로 몰아넣었습니다 - 그 나름대로 세상의 공포로부터 해방시켜준 것입니다. 어느 날, 칼리스터는 사라졌습니다. 이 피로물든, 로브는 그가 남긴 유일한 물건이였습니다.", "_t")
+t("Increases your solipsism threshold by 20% (if you have one). If you do, also grants 15% global speed when worn.", "유아론 한계량이 20% 증가합니다 (갖고 있을 경우). 유아론 수치를 갖고 있을 경우, 전체 속도가 15% 증가합니다.", "_t")
 t("#RED#You feel yourself lost in the aura of the robe.", "#RED#이 로브의 기운 속에서, 당신은 상실감을 느낀다.", "logPlayer")
 t("#RED#The robe drapes comfortably over your doomed body.", "#RED#당신의 저주받은 몸을 이 로브는 편안하게 감싸준다.", "logPlayer")
 t("Exiler", "추방 강제자", "entity name")
@@ -12354,7 +12354,7 @@ t("Breaks enemy weapon.", "적의 무장을 파괴합니다.", "_t")
 t("Shieldsmaiden", "방패 처녀", "entity name")
 t("icy shield", "얼음에 뒤덮인 방패", "_t")
 t("Myths tell of shieldsmaidens, a tribe of warrior women from the northern wastes of Maj'Eyal. Their martial prowess and beauty drew the fascination of swaths of admirers, yet all unrequited. So began the saying, that a shieldsmaiden's heart is as cold and unbreakable as her shield.", "전설에 의하면, 마즈'에이알의 북부 황무지에는 방패 처녀라는 여전사 부족이 있었다고 합니다. 부족민들의 무예는 흠잡을 데 없었고, 그 아름다움은 많은 이들의 마음을 사로잡았지만, 그들 모두 좌절을 맛보았습니다. 그리하여, 방패 처녀의 심장은 그녀들의 방패처럼 차가우며, 부서지지 않는다는 말이 퍼지기 시작했습니다.", "_t")
-t("Granted talent can block up to 1 instance of damage each 10 turns.", "매 10 턴 마다 1 번의 피해를 막아냅니다.", "_t")
+t("Granted talent can block up to 1 instance of damage each 10 turns.", "매 10 턴마다 1 번의 피해를 막아냅니다.", "_t")
 t("Tirakai's Maul", "티라카이의 거대 망치", "entity name")
 t("This massive hammer is formed from a thick mass of strange crystalline growths. In the side of the hammer itself you see an empty slot; it looks like a gem of your own could easily fit inside it.", "이 거대한 망치는 기이한 결정들로 이루어진 두꺼운 덩어리로 만들어저 있습니다. 망치의 옆 부분에는 빈 공간이 있습니다. 보석이 쉽게 들어갈 것 같습니다.", "_t")
 t("None", "없음", "_t")
@@ -12386,7 +12386,7 @@ t([[Stolen flesh,
 	다시 살기위해서라면,
 	모두 놓아줘야 됨을.]], "_t")
 t([[Reduces all damage by %d%% of current vim or 50%% of the damage, whichever is lower; but at the cost of vim equal to 5%% of the damage blocked. 
-Current Bonus: %d]], [[현재 원기량의 %d%%, 또는 피해량의 50%% 중 더 낮은 값을 적용하여, 피격 시 받는 피해량을 줄입니다. 하지만 피해를 막아낼 때 마다, 막아낸 피해의 5%% 만큼 원기가 소모됩니다. 
+Current Bonus: %d]], [[현재 원기량의 %d%%, 또는 피해량의 50%% 중 더 낮은 값을 적용하여, 피격 시 받는 피해량을 줄입니다. 하지만 피해를 막아낼 때마다, 막아낸 피해의 5%% 만큼 원기가 소모됩니다. 
 현재 피해 방어량: %d]], "tformat")
 t("With a better grip it would be the destroyer of your enemies.", "보다 나은 장갑이 있었더라면 더 강력한 파괴자가 될 수 있을 것 같습니다.", "_t")
 t("Obliterator", "말살자", "entity name")
@@ -12415,7 +12415,7 @@ t("slow the movement speed of all creatures (including yourself) within range 5 
 t("%s rebalances the bulky plates of %s %s, and things slow down a bit.", "%s %s %s의 두꺼운 판금들을 재배치하여, 주위의 움직임을 둔화시켰다.", "logSeen")
 t("The Face of Fear", "공포의 얼굴", "entity name")
 t("bone mask", "뼈 가면", "_t")
-t("This mask appears to be carved out of the skull of a creature that never should have existed, malformed and distorted. You shiver as you look upon it, and its hollow eye sockets seem to stare back into you.", "이 가면은 결코 존재하지 않았어야할 뒤틀리고, 기형인 생명체의 두개골을 깎아 만든 것 같습니다. 가면을 보면 공포로 떨게되고, 텅 빈 눈 구멍이 당신을 응시하는 것처럼 느껴집니다.", "_t")
+t("This mask appears to be carved out of the skull of a creature that never should have existed, malformed and distorted. You shiver as you look upon it, and its hollow eye sockets seem to stare back into you.", "이 가면은 결코 존재하지 않았어야할 뒤틀리고, 기형인 생명체의 두개골을 깎아 만든 것 같습니다. 가면을 보면 공포로 떨게 되고, 텅 빈 눈 구멍이 당신을 응시하는 것처럼 느껴집니다.", "_t")
 t("flame coated sandals", "불길로 덮인 샌들", "_t")
 t("Cinderfeet", "잉걸불의 발", "entity name")
 t("A cautionary tale tells of the ancient warlock by the name of Caim, who fancied himself daily walks through Goedalath, both to test himself and the harsh demonic wastes. He was careful to never bring anything back with him, lest it provide a beacon for the demons to find him. Unfortunately, over time, his sandals drenched in the soot and ashes of the fearscape and the fire followed his footsteps outside, drawing in the conclusion of his grim fate.", "한 경고의 이야기에 따르면 케임이라는 고대의 흑마법사는 항상 괴달라스를 거니며, 케임 스스로의 힘과 악랄 한 악마의 황무지의 힘, 두 개를 실험해 보곤 했습니다. 그는 매우 조심스러워 항상 홀로, 내부의 아무것도 취하지 않고 돌아와, 악마들이 자신의 위치를 찾을 수 없도록 했습니다. 불행히도, 괴달라스로의 왕래가 잦아지자, 그의 샌들, 공포의 영역의 그을음과 재로 덮힌 샌들과 그 뒤를 이은 불붙은 발자국이, 그에게 어두운 운명의 끝을 선사했습니다.", "_t")
@@ -12457,12 +12457,12 @@ t("The blade glows faintly blue, and reflects a sky full of stormy clouds.", "�
 t("inflicts either shocked or wet, chosen at random", "전기 충격 또는 젖음 효과 중 하나를 적용합니다", "_t")
 t("Eye of Summer", "여름의 눈", "entity name")
 t("warm mindstar", "따뜻한 마석", "_t")
-t("This mindstar glows with a bright warm light, but seems somehow incomplete.", "이 마석은 따뜻하고 밝은 빛을 내지만, 뭔가 부족하다는 느낌을 받게됩니다.", "_t")
+t("This mindstar glows with a bright warm light, but seems somehow incomplete.", "이 마석은 따뜻하고 밝은 빛을 내지만, 뭔가 부족하다는 느낌을 받게 됩니다.", "_t")
 t("#GREEN#You feel the seasons in perfect balance.", "#GREEN#계절에 완벽한 균형이 돌아옴을 느낍니다.", "logSeen")
 t("#GREEN#The seasons no longer feel balanced.", "#GREEN#계절의 균형이 깨저버렸습니다.", "logPlayer")
 t("Eye of Winter", "겨울의 눈", "entity name")
 t("cold mindstar", "차가운 마석", "_t")
-t("This mindstar glows with a dim cool light, but seems somehow incomplete.", "이 마석은 어둡고 차가운 빛을 내지만, 뭔가 부족하다는 느낌을 받게됩니다.", "_t")
+t("This mindstar glows with a dim cool light, but seems somehow incomplete.", "이 마석은 어둡고 차가운 빛을 내지만, 뭔가 부족하다는 느낌을 받게 됩니다.", "_t")
 t("Nature requires balance in these matters.", "자연에는 균형이 필요합니다.", "_t")
 t("Ruthless Grip", "무자비한 손아귀", "entity name")
 t("sinister gauntlets", "사악한 전투장갑", "_t")
@@ -12479,7 +12479,7 @@ t("explodes a frozen creature (damage scales with willpower)", "얼어붙은 개
 t("Thunderfall", "우레추락", "entity name")
 t("large echoing mace", "크게 울리는 둔기", "_t")
 t("Tremendous power is concentrated in this heavy mace. Just dropping it can knock down nearby walls.", "막대한 힘이 히 무거운 둔기에 집중되어 있습니다. 그저 떨어뜨리는 것만으로도 근처의 벽을 무너뜨릴 수 있습니다.", "_t")
-t("perform a melee strike against a target at up to range %d for an automatic critical hit as lightning damage", "최대 %d 칸 내의 적에게 근접공격을 가합니다. 무조건 치명타를 발생시키며, 전기 피해를 줍니다", "tformat")
+t("perform a melee strike against a target at up to range %d for an automatic critical hit as lightning damage", "최대 %d 칸 내의 적에게 근접 공격을 가합니다. 무조건 치명타를 발생시키며, 전기 피해를 줍니다", "tformat")
 t("#Source# hurls %s %s at #target#!", "#Source1# %s %s #target#에게 던진다!", "logCombat", nil, {"는"})
 t("something", "무언가", "_t")
 t("%s's weapon returns to %s!", "%s의 무기가 %s에게 돌아왔다!", "logSeen")
@@ -12555,7 +12555,7 @@ section "game/modules/tome/data/general/traps/annoy.lua"
 t("annoy", "방해", "entity subtype")
 t("trap", "함정", "_t")
 t("lethargy trap", "무기력 함정", "entity name")
-t("@Target@ seems less active.", "@Target1@ 비활성화 되었다.", "_t")
+t("@Target@ seems less active.", "@Target1@ 비활성화되었다.", "_t")
 t("pattern of glyphs", "상형 문자의 집합", "_t")
 t("Disrupts activated talents.", "발동형 기술의 사용을 방해합니다.", "_t")
 t("burning curse trap", "불타는 저주 함정", "entity name")
@@ -12652,10 +12652,10 @@ t("@Target@ slides on a rock!", "@Target1@ 바위를 밟고 미끄러졌다!", "
 t("slippery rock", "미끄로운 돌", "_t")
 t("Stuns for 4 turns.", "4 턴 동안 기절합니다.", "_t")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
-t("poison vine", "독성 덩쿨", "entity name")
-t("A poisonous vine strikes at @Target@!", "독성 덩쿨이 @Target3@ 후려쳤다!", "_t")
-t("venomous vine", "맹독 덩쿨", "_t")
-t("A motile vine that strikes out for %s%d#LAST# %s damage.", "움직이는 덩쿨이 가격해 %s%d#LAST# %s 피해를 줍니다.", "tformat")
+t("poison vine", "독성 덩굴", "entity name")
+t("A poisonous vine strikes at @Target@!", "독성 덩굴이 @Target3@ 후려쳤다!", "_t")
+t("venomous vine", "맹독 덩굴", "_t")
+t("A motile vine that strikes out for %s%d#LAST# %s damage.", "움직이는 덩굴이 가격해 %s%d#LAST# %s 피해를 줍니다.", "tformat")
 
 
 ------------------------------------------------
@@ -12745,7 +12745,7 @@ t("Thick, clotted, and foul. The vial is cold to the touch.", "질척거리고 �
 t("Once you've gotten it, cross some moving water on your way back.", "이걸 얻고 나면, 돌아오는 길에 흐르는 물을 건너서 오도록 하라고.", "_t")
 t("multi-hued wyrm scale", "무지갯빛 용 비늘", "ingredient name")
 t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "아름다우며 믿을 수 없을 정도로 튼튼합니다. 용에게서 이 비늘을 뜯는 건 꽤 힘든 일이었을 겁니다.", "_t")
-t("If you think collecting one of these is hard, try liquefying one.", "이걸 뜯어 내는 것 쯤을 어렵다고 생각한다면, 한번 이걸 액화시켜 보라고.", "_t")
+t("If you think collecting one of these is hard, try liquefying one.", "이걸 뜯어 내는 것 쯤을 어렵다고 생각한다면, 한 번 이걸 액화시켜 보라고.", "_t")
 t("giant spider spinneret", "거대 거미의 방적 돌기", "ingredient name")
 t("An ugly, ripped-out chunk of giant spider. Bits of silk protrude from an orifice.", "거대 거미에게서 뜯어낸 너저분한 몸뚱아리의 일부. 거미줄이 조금씩 구멍에서 튀어나옵니다.", "_t")
 t("The spiders in your barn won't do. You'll know a giant spider when you see one, though they're rare in Maj'Eyal.", "당신네 헛간에 사는 거미들은 소용이 없네. 거대 거미가 뭔지는 만나보면 바로 알 거야. 마즈'에이알에서 찾기 힘든 놈들이지만 말이야.", "_t")
@@ -13076,7 +13076,7 @@ Ah, how much hope was in me then. But foolish were I to think it could be so eas
 
 Aye, and humility is what I teach to ye now. Know ye well that there are forces out there which dwarf ye into insignificance. Know as well that they have no glory, no pride, for they are forces of ultimate destruction which bring only terror and pain.
 
-Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], [[침묵 속의 의무와 비밀의 장막으로 인해 가장 훌륭했던 두 학생이 앙골웬을 떠난지 몇 년이 지났습니다. 그들이 우리 곁에서 쌓아 올릴 수 있었던 업적을 생각하면, 아직도 가슴 한편이 무겁네요. 하지만 어느날 그들이 다시 돌아올 때, 그들이 우리의 엄숙한 임무를 진정 이해해 주길, 저는 희망합니다.
+Our mission is to help the world. Our penance is to act in secret. Old wounds remain and new threats do arise, but all must be dealt with from behind our cloak of silence. The mistrust of our ilk still lies deep in people's minds, and there are even those who hate us with a violent passion. But the world is changing, and perhaps one day we shall be accepted again in society. Until then remember well this lesson of humility, and in the open world keep ye secret, and keep ye safe.]], [[침묵 속의 의무와 비밀의 장막으로 인해 가장 훌륭했던 두 학생이 앙골웬을 떠난지 몇 년이 지났습니다. 그들이 우리 곁에서 쌓아 올릴 수 있었던 업적을 생각하면, 아직도 가슴 한편이 무겁네요. 하지만 어느 날 그들이 다시 돌아올 때, 그들이 우리의 엄숙한 임무를 진정 이해해 주길, 저는 희망합니다.
 
 저는 미래를 걱정해야만 합니다. 제 젊은 날의 후회는 너무나 크기에, 그 후회를 모두 짊어진다면 저는 파멸에 이르겠지요. 그래서 저는 이제, 우리들의 이야기를 배우는 여러분, 젊은 견습 마법사들을 생각해야 합니다. 저는 여러분들에게 임무에 대해 설명할 것이며, 우리 목적, 우리의 정당한 이유에 대한 가르침을 줄 것입니다. 그리하여 여러분들은 우리가 무엇을 행하는지, 왜 행하는지 이해하게 되겠지요. 비밀 속에서 우리는 움직이고, 과거의 상처를 치유하기 위해 힘쓸 것이며, 보다 나은 미래를 건설하기 위해 노력할 것입니다. 우리 참회는 실로 거대하여, 모든 에이알을 파멸로 몰아 넣은 마법폭발을 결코 잊지 않을 것입니다.
 
@@ -13086,13 +13086,13 @@ Our mission is to help the world. Our penance is to act in secret. Old wounds re
 
 그 날, 저는 사랑했던 사람들을 많이 잃었지만, 그런 슬픔에 빠진 사람은 저 혼자가 아니였습니다. 온 에이알에 죽은 사람들이 넘처났고, 뒤 이은 혼란에 더 많은 사람들이 희생되었습니다. 그렇게 마법사냥이 시작되자, 사람들은 마법사의 오만함에 반기를 들었고 우리들을 무자비하게 학살했습니다. 마법폭발 이후, 우리와 마나 사이의 연결은 혼란스러워졌고, 우리의 마나 집중은 우리에게서 끊어졌었습니다. 우리는 거의 무방비 상태였고, 그렇기에 우리들은 숨겨진 도시, 앙골웬을 찾아 내는데 많은 노력을 들여야했습니다. 수 많은 위대한 마법사들이 마법폭발 이후 벌어진 폭동에 살해당했고, 무고한 이들도 많은 피를 흘렸습니다. 불신과 피에 대한 갈증이 사람들 사이에 가득헀다. 하지만, 아아.. 고통은 거기서 끝나지 않았습니다.
 
-마법폭발의 흔적은 땅을 고문하거나, 대지를 황폐화 시키는 등, 오늘 날에도 잔재합니다. 황혼의 시대 때의 상황은 훨신 나빴었습니다. 새로운 질병이 퍼지고, 모든 도시에 역병이 창궐했으며, 많은 문명들이 거품처럼 사라졌습니다. 모든 종족들이 멸종의 위기에 몰렸고,  모든 깨달음과 가르침에 암흑의 시기가 도래하였습니다. 영주들과 강도들은 얼마 남지 않은, 아직 황폐화 되지 않은 땅덩이 안에서도 싸웠었고, 그 밖의 지역에서는 역병이 계속 번저나가 자유민들이 남아있는 땅을 파괴했습니다. 그때가 바로 제가 세계를 고치고, 저희의 잘못된 것을 고치려는, 우리의 비밀스러운 임무를 시작한 때였습니다. 그 소리없는 임무들 속에서, 우리는 부서진 땅을 찾아가, 우리의 힘을 파괴가 아닌, 회복을 위해 사용했습니다. 세계의 회복은 오랜 시간이 걸렸지만, 적어도 마법폭발의 후폭풍은 잦아들기 시작했고, 사람들은 재건하기 시작했습니다.
+마법폭발의 흔적은 땅을 고문하거나, 대지를 황폐화 시키는 등, 오늘 날에도 잔재합니다. 황혼의 시대 때의 상황은 훨신 나빴었습니다. 새로운 질병이 퍼지고, 모든 도시에 역병이 창궐했으며, 많은 문명들이 거품처럼 사라졌습니다. 모든 종족들이 멸종의 위기에 몰렸고,  모든 깨달음과 가르침에 암흑의 시기가 도래하였습니다. 영주들과 강도들은 얼마 남지 않은, 아직 황폐화 되지 않은 땅덩이 안에서도 싸웠었고, 그 밖의 지역에서는 역병이 계속 번저나가 자유민들이 남아있는 땅을 파괴했습니다. 그때가 바로 제가 세계를 고치고, 저희의 잘못된 것을 고치려는, 우리의 비밀스러운 임무를 시작한때였습니다. 그 소리없는 임무들 속에서, 우리는 부서진 땅을 찾아가, 우리의 힘을 파괴가 아닌, 회복을 위해 사용했습니다. 세계의 회복은 오랜 시간이 걸렸지만, 적어도 마법폭발의 후폭풍은 잦아들기 시작했고, 사람들은 재건하기 시작했습니다.
 
 아, 그 때 저는 얼마나 큰 희망을 갖고있었는지 모릅니다. 하지만 저는 너무 쉽다고 생각할 정도로 어리석었습니다. 에이알의 상처는 그 대지에 창궐한 질병들 보다 더 깊숙한 곳 까지 파고들었었습니다. 마법폭발의 독기는 우리 생각보다 훨씬 깊은 곳까지 파고들었었고, 그 갈라진 상처는 우리 세계 그 자체의 뿌리를 찢어버렸습니다. 어느 어둡고, 폭풍이 일던 날, 거대한 격변이 동쪽 대지를 덮쳤고, 대지는 수 천 킬로미터까지 치솟아 올랐습니다. 우리가 아무 것도 할 수 없었던 동안, 도시 전체가 공포에 질려 숨도 제대로 쉬지 못했고, 이윽고 모든 종족이 바다에 휩쓸려버렸습니다. 대륙은 갈라졌고, 모든 에이알이 영원히 변해버렸습니다. 가장 강력한 마도사마저 그 힘 앞에서는 겸손해질 수 밖에 없겠지요.
 
 아아, 그래서, 겸손이야말로 제가 여러분들에게 가르치는 것입니다. 여러분 모두, 저 밖에는 여러분들을 무가치할 정도로 작아지게 만드는 강력한 힘이 존재합니다. 그 힘은 오직 공포와 파괴를 가져오기에, 그것들은 영광도, 긍지도 없음을 잘 아시길 바랍니다.
 
-우리 의무는 세계를 구하는 것입니다. 우리의 속죄는 비밀 속에서 행해집니다. 오래된 상처가 남아있고, 새로운 상처가 나타나지만, 그 모두를 침묵의 장막 뒤에서 처리할겁니다. 우리 동족에 대한 불신은 아직 사람들의 마음 속에 깊히 자리잡고 있고, 우리들을 폭력적인 열정으로 증오하는 이들도 존재합니다. 하지만 세계는 변하고 있으며, 아마 언젠가, 우리들도 사회에 다시 한번 받아들여지게 될 겁니다. 그 때까지, 이 겸손에 대한 강의를 잘 기억하고, 저 밖의 세상에서는 비밀로 하여, 여러분 모두의 몸을 지키기를 희망합니다.]], "_t")
+우리 의무는 세계를 구하는 것입니다. 우리의 속죄는 비밀 속에서 행해집니다. 오래된 상처가 남아있고, 새로운 상처가 나타나지만, 그 모두를 침묵의 장막 뒤에서 처리할겁니다. 우리 동족에 대한 불신은 아직 사람들의 마음 속에 깊히 자리잡고 있고, 우리들을 폭력적인 열정으로 증오하는 이들도 존재합니다. 하지만 세계는 변하고 있으며, 아마 언젠가, 우리들도 사회에 다시 한 번 받아들여지게 될 겁니다. 그 때까지, 이 겸손에 대한 강의를 잘 기억하고, 저 밖의 세상에서는 비밀로 하여, 여러분 모두의 몸을 지키기를 희망합니다.]], "_t")
 t("Lecture on the nature of magic by Archmage Tarelion", "마도사 타레리온의 마법의 본질에 대한 강의", "_t")
 t([[#{bold}#"What is Magic?"
 #{italic}#A study by Archmage Tazimar Tarelion#{normal}#
@@ -13121,7 +13121,7 @@ Some believe that magic is inherently wrong, that the so-called twisting of the 
 
 하지만 원소들의 힘에 접근할 수 있는 다른 방법이 있다 - 더 직접적인 방법, 소위 비자연적이라고 부르는 방법이다. 먼 옛날, 사람들은 많은 수련을 통하여 어떻게 그들의 의지를 집중해, 원소의 가닥을 직접 뽑을 수 있는 지에 대한 방법을 발견하였다. 이 방법은 강력한 에너지를 발산하고, 또 이 세계에 실질적인 영향을 낼 수 있도록 다듬어질 수 있다. 화염의 기둥, 전기 화살 그리고 얼음 폭발처럼. 적당한 훈련을 받은 이들이라면 누구나 이 힘을 불러낼 수 있다. 거기에 더해, 진정한 마법의 대가들은 다양한 힘의 공명을 혼합해 더욱 복잡한 물리 효과를 만들어 냈다.
 
-원소들의 가닥을 이용하는 방식은 유지하기 위해 많은 의지력이 필요하기에, 때때로 시전자의 힘을 고갈시켰다. 이것이 바로 마법 주문에 정통한 이들, 우리들이 흔히 말하는 "마나" 이다. 이 정신적인 기력은 오직 세계의 원소들을 간섭하기 위해 존재한다. 마법의 지속적인 사용은 무거운 물체를 항상 들고, 들어올리려는 것과 같으며, 결국에는 술사는 술사의 힘이 고갈됨을 알게 될 것이다. 연습이야말로, 마법 사용자들의 마나 웅덩이를 키우는 방법이며, 몇몇 룬과 주문은 필요할 떄, 원천력을 서서히 늘릴 수 있다.
+원소들의 가닥을 이용하는 방식은 유지하기 위해 많은 의지력이 필요하기에, 때때로 시전자의 힘을 고갈시켰다. 이것이 바로 마법 주문에 정통한 이들, 우리들이 흔히 말하는 "마나" 이다. 이 정신적인 기력은 오직 세계의 원소들을 간섭하기 위해 존재한다. 마법의 지속적인 사용은 무거운 물체를 항상 들고, 들어올리려는 것과 같으며, 결국에는 술사는 술사의 힘이 고갈됨을 알게 될 것이다. 연습이야말로, 마법 사용자들의 마나 웅덩이를 키우는 방법이며, 몇몇 룬과 주문은 필요할 때, 원천력을 서서히 늘릴 수 있다.
 
 마법 룬과 마법 물품들은 원소 가닥을 부착해 힘을 주입한다. 이 섬세한 기교는 경험과 마법 부여자로써의 천성적인 능력이 뒷받침 되어야한다. 아주 복잡한 마법 유물들은 몇 년동안의 노력을 요할 것이며, 핵심 물질을 올바른 원소 에너지에 동화시키기 위해 막대한 정신적 노력이 수반되어야 한다. 보석들은 이러한 노력들을 훨씬 쉽게 만들어주고, 연금술사들은 보석을 사용해 원소 효과를 불러낸다.
 
@@ -13134,11 +13134,11 @@ Another day dawns on Angolwen. I hesitate to write this, but it almost feels as 
 This is not to say that life has been without conflict at all. An agent of the Ziguranth infiltrated Angolwen under the guise of a travelling alchemist a few days ago; an unhappy first, I'm afraid. Having used choking powder to incapacitate the guards and rob the surrounding mages of their voices, things may have turned ugly if Linaniil hadn't been passing by on one of her walks. Little was left of that man... or the tree he hid behind... or many of the surrounding buildings, to be honest.
 
 In a way, the incident lit a fire under me to pursue my studies and develop my powers, but I must admit that my interest in staff practice has waned as of late. My fencing, on the other hand, improves by the day. Hmm... I wonder if I can get some of the enchanters to help me "augment" my old sword. After all, what is a blade but a sharpened metal staff?]], [[대마도사 바릴의 책상에서,
-앙골웬에 또 새로운 태양이 떴다네. 편지를 쓰기 망설여지지만, 다시한번, 에이알로 평화가 돌아오는 것 같은 느낌이 든다네. 이렇게 말하면서도, 나는 전쟁과 파괴가 당장 폭발할 것이라 예상하지만 - 운명이라는 것은 변덕진 놈이니까 말일세. 그럼에도 불구하고, 날이면 날마다, 마법사냥의 기억들이 잠을 덜 방해하기 시작했다네. 그래서 나는 이제, 이 산의 우리 공동체에 발전을 위해 온 시간을 쏟을 수 있게되었네.
+앙골웬에 또 새로운 태양이 떴다네. 편지를 쓰기 망설여지지만, 다시 한 번, 에이알로 평화가 돌아오는 것 같은 느낌이 든다네. 이렇게 말하면서도, 나는 전쟁과 파괴가 당장 폭발할 것이라 예상하지만 - 운명이라는 것은 변덕진 놈이니까 말일세. 그럼에도 불구하고, 날이면 날마다, 마법사냥의 기억들이 잠을 덜 방해하기 시작했다네. 그래서 나는 이제, 이 산의 우리 공동체에 발전을 위해 온 시간을 쏟을 수 있게 되었네.
 
-그렇다고 이곳에서의 삶에 불화가 없었다는 뜻은 아니네. 며칠 전에, 지구랏 요원 하나가 연금술사로 위장하여 앙골웬으로 잠입했네. 이런 안좋은 상황은 처음 맞았던 건데... 나는 걱정했네. 질식 가루를 사용해 우리 보초들을 무력화시키고, 주위를 둘러싼 마법사들의 목소리를 강탈했네. 리나니일이 근처를 산책하지  않았다면 상황은 안좋게 돌아갔을거야. 그 남자는 아무것도 남기지 않았다네. 아무것도. 그가 숨었던 나무들, 그리고 둘러싼 많은 건물들 모두 사라졌어. 이건 장난이 아닐세.
+그렇다고 이곳에서의 삶에 불화가 없었다는 뜻은 아니네. 며칠 전에, 지구랏 요원 하나가 연금술사로 위장하여 앙골웬으로 잠입했네. 이런 안좋은 상황은 처음 맞았던 건데... 나는 걱정했네. 질식 가루를 사용해 우리 보초들을 무력화시키고, 주위를 둘러싼 마법사들의 목소리를 강탈했네. 리나니일이 근처를 산책하지 않았다면 상황은 안좋게 돌아갔을거야. 그 남자는 아무것도 남기지 않았다네. 아무것도. 그가 숨었던 나무들, 그리고 둘러싼 많은 건물들 모두 사라졌어. 이건 장난이 아닐세.
 
-어찌되건, 그 사건은 내게있어 연구와 힘을 계발하기 위한 큰 동기를 부여 해주었지만, 최근들어 지팡이 수련에 관심이 시들어저가고 있다는 것은 인정해야겠네. 그 반면에, 내 검술, 하루가 다르게 늘고있다네. 음... 나는 내 오래된 칼을 "강화" 할 수 있을만한 마법 부여자를 찾을 수 있을지 궁금하다네. 어쨋든, 칼날이라는 것 자체가 날카로운 금속 지팡이 아니겠나?]], "_t")
+어찌되건, 그 사건은 내게있어 연구와 힘을 계발하기 위한 큰 동기를 부여 해주었지만, 최근들어 지팡이 수련에 관심이 시들어저가고 있다는 것은 인정해야겠네. 그 반면에, 내 검술, 하루가 다르게 늘고있다네. 음... 나는 내 오래된 칼을 "강화" 할 수 있을만한 마법 부여자를 찾을 수 있을지 궁금하다네. 어쨌든, 칼날이라는 것 자체가 날카로운 금속 지팡이 아니겠나?]], "_t")
 t("angolwen", "앙골웬", "newLore category")
 t("Angolwen Fountain", "앙골웬 분수", "_t")
 t([[#{italic}#(You see here a large, elaborate fountain.  A statue of Linaniil stands in the center, her arms outstretched to welcome all; around the outside of the fountain stand statues of a dwarf manipulating earthen runes, a human with a simple healer's crosier, an elf with a tall, elaborate staff, and a halfling with a scepter in one hand and a fireball hovering over the other.  The runes and the fireball are not connected to anything, and float in a fixed position in the air.  You see a carving repeating along the border of the fountain, in small print.)#{normal}#
@@ -13273,9 +13273,9 @@ Turthel paused reflectively before nodding his head slowly, and it was clear tha
 
 그는 두 쌍둥이 딸과 동행했다. 리나니일과 네이라. 그녀들은 투르텔의 뒤를 따라왔다.  겉으로는 똑같이 생겼으나, 그녀들의 성격은 정 반대라는 것을 한 눈에 느꼈다.  그녀들 모두 진홍색 머리칼을 길게 땋고 있었으며, 그 백옥같은 피부에 태양 빛이 반짝였다.  둘 모두 비단 로브를 입고 있었으나, 네이라의 로브는 노랑색과 주황색 장식이 새겨져 있었고, 리나니일의 로브는 파랑색과 은색 장식이 수놓아저 있었다.  네이라의 두 눈엔 빛이 감돌았고, 엘발라의 뜰을 지나며 보이는 모든 아름다움에 대해 활기찬 목소리로 이야기하고 있었다.  그에 반해 리나니일은 조용했고, 보이는 모든 것을 차갑게 분석하고, 계산하는 듯한 엄숙한 표정을 짓고있었다.  하지만 그 차가운 외모와는 다르게 나는 불꽃을 보았다. 아니, 타오르는 들불을. 밝은 불길은 그녀에게서 터저나오려고 하지만, 그 불꽃들은 차갑게 절제되어 있었다. 일행이 성채에 당도하자, 그녀와 나는 눈을 마주쳤다. 그러자 나는 그녀 내면의 거친 영혼과 터저나오는 생각들을 느낄 수 있었다. 그녀의 의지와 정신력은 가히 대적할 자가 없는 듯 했다. 나는 숨을 들이마실 수 밖에 없었다.
 
-우리 종족들 중 대부분은 어떻게 인간에게 애정을 품을 수 있는지 조차 이해하지 못한다.  하지만 그들은 리나니일을 몰랐다.  나를 제외하곤, 그 누구도.  살아있는 화염인 것 마냥, 그녀는 감정과 욕망의 불덩어리 같았다.  리나니일의 강렬한 정신은 그 어떤 반대자도 용납하지 않았고, 그녀의 재치와 말 한마디 한마디가 그녀 주위의 모든 것을 매료하고, 복종케했다.  그녀는 아름다웠고, 눈부셨다. 마치 여름 태양처럼. 그러나 그녀는 차갑고, 쌀쌀맞고, 그녀가 원치 않는다면, 그녀에게 닿을 수 없었다.  이것은 그 후에도, 오랜 시간동안 변하지 않았다.
+우리 종족들 중 대부분은 어떻게 인간에게 애정을 품을 수 있는지 조차 이해하지 못한다.  하지만 그들은 리나니일을 몰랐다.  나를 제외하곤, 그 누구도.  살아있는 화염인 것 마냥, 그녀는 감정과 욕망의 불덩어리 같았다.  리나니일의 강렬한 정신은 그 어떤 반대자도 용납하지 않았고, 그녀의 재치와 말 한마디 한마디가 그녀 주위의 모든 것을 매료하고, 복종케했다.  그녀는 아름다웠고, 눈부셨다. 마치 여름 태양처럼. 그러나 그녀는 차갑고, 쌀쌀맞고, 그녀가 원치 않는다면, 그녀에게 닿을 수 없었다.  이것은 그 후에도, 오랜 시간 동안 변하지 않았다.
 
-네이라가 관문을 나왔을 떄, 그녀가 나에게 따뜻한 인사를 건냈다는 것을 겨우 알아차릴 수 있었다.  반면, 리나니일은 고개를 끄덕이기만 했다.  뒤이어, 우리 지도자와 손님들이 대실로 들어가고, 자리에 착석하자 나는 그들을 따라갔다.  정상 회담은 새로운 계획을 논의 하는 것 부터 시작됐다. 바로 우리들 중 가장 뛰어난 마법사들이 쉐르'툴 장거리 차원문의 힘을 해방하는 것이였다.  그 누구도 손 대지 못한 채 남겨진, 고대 종족의 잠들어 있는 유물.  그 차원문의 힘은 우리와 오크 사이의 전쟁을 빠르게 끝낼, 결정적인 한 방이였다.  마법 폭발. 그들이 이름 붙였고, 그 이름이 우리가 경외와 경의를 담고 불렀던 이름이였다.
+네이라가 관문을 나왔을 때, 그녀가 나에게 따뜻한 인사를 건냈다는 것을 겨우 알아차릴 수 있었다.  반면, 리나니일은 고개를 끄덕이기만 했다.  뒤이어, 우리 지도자와 손님들이 대실로 들어가고, 자리에 착석하자 나는 그들을 따라갔다.  정상 회담은 새로운 계획을 논의 하는 것 부터 시작됐다. 바로 우리들 중 가장 뛰어난 마법사들이 쉐르'툴 장거리 차원문의 힘을 해방하는 것이였다.  그 누구도 손 대지 못한 채 남겨진, 고대 종족의 잠들어 있는 유물.  그 차원문의 힘은 우리와 오크 사이의 전쟁을 빠르게 끝낼, 결정적인 한 방이였다.  마법 폭발. 그들이 이름 붙였고, 그 이름이 우리가 경외와 경의를 담고 불렀던 이름이였다.
 
 에피니아스 왕은 회의를 시작했다. 우선 그는 자기 주변에 앉아있던 손님들부터 소개했다.  “이 자가 우리 장군이오.” 그가 나를 가르키며 말했다. “샬로레 군대의 사령관, 가웨일.”  리나니일이 나를 처다보더니 얼빠진 표정을 지었다.
 
@@ -13299,7 +13299,7 @@ Turthel paused reflectively before nodding his head slowly, and it was clear tha
 
 에피니아스는 그의 눈을 냉정하게 처다보며 말했다.  “날로레들은 워낙 긍지높은 종족이기에, 협력을 희망하지 않는다고 말했소.  그들은 자신의 땅을 자신들의 힘으로 지킬 수 있다고 생각하오.  하지만 나는 결국엔 그들이 우리에게 감사할 것이라고 확신하오...  탈로레들 역시 열성적이지는 않소.  하지만 우리는 그들의 왕과 여왕과 대화해, 우리의 작전이 매우 안전할 것임을 확신시켰소.  그들은 우리, 또는 마법의 힘을 완전히 믿지않지만, 적어도 이 건에 대해서는 우리와 대적하지는 않소.  샤툴 역시 우리들처럼 오크의 잇다른 국경 공격으로 골머리를 썩고있소.  그들은 어디든 그들 깃발 아래라면, 적절한 곳에서 적절한 도움을 줄것이오.  우리는 그들의 특별한 도움이 필요 없으나, 우리가 참여시킬 수 있는 모든 종족을 참여시키도록 하는 것이 현명하다고 생각했소.
 
-“다른 인간 지도자들도 대부분 찬성했소.  하지만 몇몇은 우리들의 활동에 전적으로 비이성적인 공포를 내비쳤소.  아아, 쉐르'툴과 관련된 전설과 신화 때문에 사람들은 쉐르'툴과 관련된 것이라면 먼저 겁에 질려버리오.  하지만 우리는, 우리가 이곳에서 무엇을 하고있는지 잘 알고있다고 확신하오.  카르'크룰 고위층들을 나는 분명히 이해할 것이오.  그리고 당신들의 연합은 미천한 왕 열여명의 가치가 있소.”
+“다른 인간 지도자들도 대부분 찬성했소.  하지만 몇몇은 우리들의 활동에 전적으로 비이성적인 공포를 내비쳤소.  아아, 쉐르'툴과 관련된 전설과 신화 때문에 사람들은 쉐르'툴과 관련된 것이라면 먼저 겁에 질려버리오.  하지만 우리는, 우리가 이곳에서 무엇을 하고 있는지 잘 알고있다고 확신하오.  카르'크룰 고위층들을 나는 분명히 이해할 것이오.  그리고 당신들의 연합은 미천한 왕 열여명의 가치가 있소.”
 
 건장한 인간은 에피니아스의 눈을 뚫어지게 응시했다. 그러더니 그녀의 딸들에게로 몸을 돌리며 말했다.  “어떻게 생각하느냐, 딸들아?”
 
@@ -13307,7 +13307,7 @@ Turthel paused reflectively before nodding his head slowly, and it was clear tha
 
 방은 조용해졌다. 그리고 나는 에피나스가 조용히 분노를 삭히고 있는 것을 보았다.  그는 그런 공공연한 비판에 익숙치 않았다.  그리고는 리나니일이 말하기 시작했다. 그 목소리는 낮고 차가웠으나, 모든 이가 그녀의 말에 귀를 기울였다.  “몇 년 동안 계속되는 오만함 이라는 이름의 노력은 결국 많은 업적을 낳았습니다.  우리의 아름다운 예술 작품들은 어디에서 왔을까요? 또, 우리 위대한 도시들은, 우리의 사회의 기반이 되는 마법 방적 기술은 어디에서 왔을까요?  그 과업들 역시 누군가의 눈에는 오만함이였을 것입니다.  오만함 때문에 행동하는 것은 수치심이 없으나, 우리는 잘못된 겸손에서 아무 것도 얻지 못할겁니다.  공포와 두려움 때문에 쉐르'툴의 힘은 너무 오랫동안 잠들어 있었습니다.”  나는 그녀의 눈이 흥분으로 빛나는 것을 보았다.  “우리가 봉인을 풀 위대한 힘을 생각해보세요!  이 오크들과의 전쟁은 그저 시작에 불과할 것입니다.  우리 모두 그 힘의 수혜를 입게 될 것입니다.  이런 힘을 묻어버리는 것은 옳지 않다고 생각합니다.”
 
-투르텔은 반사적으로 멈칫하더니 느리게 끄덕였고, 리나니일의 말이 그의 생각과 부합하다는 것은 자명해보였다.  “아주 좋군,” 그가 에피니아스를 바라보며 느리게 말했다.  “우리는 당신과 함께하오.”  네이라가 침묵을 지키며 음울한 걱정을 하고있었지만, 자매의 눈에는 만족이 빛이 스처지나갔다.]], "_t")
+투르텔은 반사적으로 멈칫하더니 느리게 끄덕였고, 리나니일의 말이 그의 생각과 부합하다는 것은 자명해보였다.  “아주 좋군,” 그가 에피니아스를 바라보며 느리게 말했다.  “우리는 당신과 함께하오.”  네이라가 침묵을 지키며 음울한 걱정을 하고 있었지만, 자매의 눈에는 만족이 빛이 스처지나갔다.]], "_t")
 t("The Spellblaze Chronicles(2): A Night to Remember", "마법폭발 연대기 (2): 기억해야 할 밤", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -13385,11 +13385,11 @@ She strode forward then, and grabbing me roughly by my hauberk she pulled my lip
  
 “바로 가죠.” 그녀가 그렇게 말하고는 엄청난 속도를 내며 오크 야영지의 바로 위에서, 그들 한 가운데로 내려왔다.  나는 욕지거리를 하며 그녀를 바로 쫓아갔다. 그녀의 바로 옆에 착륙해 달을 가르는 자를 휘두르자, 시끄러운 경보 소리 속에서 오크들이 분노하며 일어나 무기를 손에 쥐었다.  검과 창, 할버드로 이루어진 검은 고리가 우리를 둘러싸자, 리나니일이 야성적인 웃음을 내보이며 말했다. “춤 출 시간이에요.”
  
-그녀는 오른손에서 자주색 마법 에너지 광선을 뿜어냈다. 그녀가 왼손에 쥐고있던 지팡이의 끝은 마치 횃불처럼 불타올랐다.  나는 검을 높게 처들어, 마찬가지로 화염이 일게했다. 그리고서는 곧장 큰 호를 그리며 가장 가까운 오크 하나를 쓰러뜨리고, 그 뒤에서 우리를 노려보던 오크 분대에게 화염의 충격파를 날려보냈다.  나는 그르렁거리는 열풍과 함께 앞으로 밀고나가, 내 앞의 오크들을 격퇴했다.  열기가 밀려오자, 오크들은 얼굴을 가리기 위해 무기를 떨궜고, 나는 만족스러운 웃음과 함꼐 달려나가 적들의 머리통을 잘라내었다.  하지만 내가 검을 휘두르려 할 때, 뒤에서 닥쳐온 화염 폭발로 인해 나는 땅바닥으로 고꾸라졌다. 뒤를 돌아보니, 리나니일이 팔을 넓게 벌리며 화염 기둥에 서있었다.  “너무 뜨거운가보죠? 아라니온?” 그녀가 오크들에게 근처의 오크들에게 무어라고 소리치자, 오크들의 피부는 바짝 튀겨졌고, 이윽고 그들의 살은 검은 먼지가 되어 흩어졌다.
+그녀는 오른손에서 자주색 마법 에너지 광선을 뿜어냈다. 그녀가 왼손에 쥐고 있던 지팡이의 끝은 마치 횃불처럼 불타올랐다.  나는 검을 높게 처들어, 마찬가지로 화염이 일게했다. 그리고서는 곧장 큰 호를 그리며 가장 가까운 오크 하나를 쓰러뜨리고, 그 뒤에서 우리를 노려보던 오크 분대에게 화염의 충격파를 날려보냈다.  나는 그르렁거리는 열풍과 함께 앞으로 밀고나가, 내 앞의 오크들을 격퇴했다.  열기가 밀려오자, 오크들은 얼굴을 가리기 위해 무기를 떨궜고, 나는 만족스러운 웃음과 함꼐 달려나가 적들의 머리통을 잘라내었다.  하지만 내가 검을 휘두르려 할 때, 뒤에서 닥쳐온 화염 폭발로 인해 나는 땅바닥으로 고꾸라졌다. 뒤를 돌아보니, 리나니일이 팔을 넓게 벌리며 화염 기둥에 서있었다.  “너무 뜨거운가보죠? 아라니온?” 그녀가 오크들에게 근처의 오크들에게 무어라고 소리치자, 오크들의 피부는 바짝 튀겨졌고, 이윽고 그들의 살은 검은 먼지가 되어 흩어졌다.
  
 나는 투덜거리며, 나의 검을 얼음 조각으로 변하게 했다. 그리고는 재빠르게 휘둘러 그녀 근처의 오크들에게 얼어붙는 냉기의 흐름을 쏟아부었다. 그러자 오크들은 화염이 그들을 삼키기도 전에, 유리처럼 부셔졌다.  리나니일은 나를 욕하면서 그녀 주위의 화염을 바닥으로 떨구면서 말했다.  “방해하지 말아요!” 그녀가 외쳤다. 그러고는 오크 야영지의 다른 쪽으로 순간이동 하더니 오크들을 박살내기 시작했다.
 
-나는 크게 웃으며 내게 붙은 짐승들에게 몸을 돌렸다. 나는 적에게 검격을 가할 때마다 대지를 요동치게 해, 검이 그들의 목에 스치기도 전에 그들을 쓰러뜨렸다. 그러고선, 나는 오크들이 모여있는 곳으로 강력한 전류를 발사하고, 그대로 돌진해 그 전류의 빛이 닿는 동안, 그 괴물들이 미처 반응할 틈도 없는 아주 짧은 순간 사이에 그들을 쓰러뜨렸다.  나는 전투의 뜨거운 열기에 취해 다시 한번 웃었다. 그 후, 나는 투구와 판갑을 벗고, 전장을 자유롭게 뛰어 다니며, 먼지보다 못한 적들을 학살하는 즐거움에 빠저들었다.  달을 가르는 자가 오크들의 살덩이를 꿰뚫으며 춤추자, 그들의 검은 피가 경쾌한 리듬으로 뿜어저 나와, 분수가되었다.
+나는 크게 웃으며 내게 붙은 짐승들에게 몸을 돌렸다. 나는 적에게 검격을 가할 때마다 대지를 요동치게 해, 검이 그들의 목에 스치기도 전에 그들을 쓰러뜨렸다. 그러고선, 나는 오크들이 모여있는 곳으로 강력한 전류를 발사하고, 그대로 돌진해 그 전류의 빛이 닿는 동안, 그 괴물들이 미처 반응할 틈도 없는 아주 짧은 순간 사이에 그들을 쓰러뜨렸다.  나는 전투의 뜨거운 열기에 취해 다시 한 번 웃었다. 그 후, 나는 투구와 판갑을 벗고, 전장을 자유롭게 뛰어 다니며, 먼지보다 못한 적들을 학살하는 즐거움에 빠저들었다.  달을 가르는 자가 오크들의 살덩이를 꿰뚫으며 춤추자, 그들의 검은 피가 경쾌한 리듬으로 뿜어저 나와, 분수가되었다.
 
 오크 야영지 반대 쪽에서는 리나니일이 거니는 곳마다, 폭발과 비명이 터저나왔다. 저 멀리 리나니일이 있는 곳을 보고있노라면, 허공에 불타오르는 팔 다리가 날아다니고 화염 줄기가 밤을 찢어놓고 있는 것이 보였다.  그 여자, 주술사는 화염에 감싸져있었고, 그 두 눈에는 빛이 맺혀있었다. 화염과 함께 춤추는 리나니일은 마치 화염이 깃든 요정처럼 보였다.  그보다 더 아름답고 경외 - 인상깊은 광경은 나는 전에 보지 못했다.
 
@@ -13505,7 +13505,7 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
  
 “나는 전사야.” 나는 마침내, 그녀에게 말했다. 침대에서 무뚝뚝하게 걸어나와 내 로브를 걸쳤다.  “나는 전장에서 적들과 맞설 뿐, 고대 유물로 수작이나 부리고 있지 않아.  그런 비겁한 방법으로 적들을 처리해야 된다는 건 부끄러운 일이야.”
 
-“하지만 이 쉐르'툴 폐허의 힘을 사용하는 게 기대되지 않으시나요?” 그녀가 손가락을 그녀의 아랫 입술에 갖다대며 말했다. 그녀는 여전히 내 침대 위에 누워있었고, 침대 시트가 그녀의 벗은 몸에 착 달라 붙어있었다.  그녀는 자기만의 생각에 눈에 띄게 빠저들고, 또 기대하고 있는 것 같았다.  “강대한 힘이 오랜 시간동안 잠들어 있었고, 이제 우리의 뜻대로 불러올 준비가 되었어요...  나는 언제쯤이여야 그런 위대한 업적을 이끌 수 있을까!”
+“하지만 이 쉐르'툴 폐허의 힘을 사용하는 게 기대되지 않으시나요?” 그녀가 손가락을 그녀의 아랫 입술에 갖다대며 말했다. 그녀는 여전히 내 침대 위에 누워있었고, 침대 시트가 그녀의 벗은 몸에 착 달라 붙어있었다.  그녀는 자기만의 생각에 눈에 띄게 빠저들고, 또 기대하고 있는 것 같았다.  “강대한 힘이 오랜 시간 동안 잠들어 있었고, 이제 우리의 뜻대로 불러올 준비가 되었어요...  나는 언제쯤이여야 그런 위대한 업적을 이끌 수 있을까!”
 
 나는 더블렛의 단추를 다 채우며 슬프게 고개를 저었다.  “나는 이 고대의 유물을 믿지 않아.  우리 샬로레들은 강하지만, 쉐르'툴의 강력함에는 비하지 못하지. 또, 아무도 쉐르'툴이 남긴 장치들을 정말로 이해하고 있는 이는 없어.  이 계획에 대한 내 생각은 네이라의 생각에 더 가까워.  그런 거창한 실험 대신, 우리는 우리가 가장 잘 할 수 있는 것을 해야해.”
  
@@ -13521,7 +13521,7 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
  
 “다른 사람을 기대하신 건가요?” 놀란 내 얼굴을 보며, 그녀가 밝은 웃음으로 물었다.
  
-“생각을 좀 하고있었습니다.” 고개를 숙여 인사를 건내며 해명했다.  “저는 장거리 차원문의 작동을 점검하러 가는 길입니다.  아마 아가씨께서도-“
+“생각을 좀 하고 있었습니다.” 고개를 숙여 인사를 건내며 해명했다.  “저는 장거리 차원문의 작동을 점검하러 가는 길입니다.  아마 아가씨께서도-“
  
 “저도 같이 가죠.” 그녀가 나의 초대도 기다리지 않고 빠르게 말했다.  나는 고개를 끄덕였고, 그녀를 내 마차로 안내했다.
 
@@ -13541,7 +13541,7 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
  
 몇 년 전, 우리는 탑을 열 수 있는 투명한 룬을 발견해 탑의 정문을 여는데 성공했다. 그 안에는, 거대한 수정으로 수놓아진 현관을 주축으로, 방들이 기하학적으로 아름답고, 세심하게 배치되어 있었다.  방의 모든 표면은 빛을 반사하며 반짝이고 있었고, 탑을 이루는 벽들은 에너지로 웅웅거리고 있었다.  많은 갱도들과 통로들은 무너지거나 파괴되어, 비행 수단을 동반하지 않으면 갈 수 없었으나, 그 꼭대기에는 엘발라 궁전 전체와 맞먹는 만큼 거대한 방이 우리를 반겨주었다.  그리고 그 중심에는 장거리 차원문이 자리잡고있었다. 10 여 미터 정도의 지름의 튀어나온 연단 위에, 틱틱 거리는 소리를 내는 성운과 같은 형태의 에너지가 회전하고 있었다.  매우 아름답고 두려운 광경이였으며, 매혹적이면서 공포스러운 장면이였다.  그 어떤 샬로레의 기술과 힘으로도 어떻게 작동하는지조차 파악하지 못하였다. 그나마 세심한 실험을 통해 그 에너지를 조작할 수 있었으나, 그 밑에 잠자고 있는 진정한 힘을 정말로 이해할 수는 없었다.
 
-네이라와 나는 폐허의 숨막히고 차가운 그림자 속에서 탑의 밑바닥으로 내려왔다.  하얀 사각형 모양의 입구를 지나갈 떄, 나는 경비병에게 고개를 끄덕였고, 그러자 네이라의 눈이 순식간에 경외로 커젔다.  물론 빛나는 방들이 그녀의 눈길을 사로잡았지만, 방은 황량하고 텅 비어있었다.  나는 쉐르'툴이 아직 이곳에 존재할 때, 이 방이 어떤 모습이였을지 상상하려고 했다.  “대체 어떻게 그들 모두가 다 죽었을까?” 수정 회랑을 횡단할 떄, 중얼거리며 자문했다. 과거, 많은 사람들이 궁금해했던 질문.
+네이라와 나는 폐허의 숨막히고 차가운 그림자 속에서 탑의 밑바닥으로 내려왔다.  하얀 사각형 모양의 입구를 지나갈 때, 나는 경비병에게 고개를 끄덕였고, 그러자 네이라의 눈이 순식간에 경외로 커젔다.  물론 빛나는 방들이 그녀의 눈길을 사로잡았지만, 방은 황량하고 텅 비어있었다.  나는 쉐르'툴이 아직 이곳에 존재할 때, 이 방이 어떤 모습이였을지 상상하려고 했다.  “대체 어떻게 그들 모두가 다 죽었을까?” 수정 회랑을 횡단할 때, 중얼거리며 자문했다. 과거, 많은 사람들이 궁금해했던 질문.
  
 마법사는 내 말을 듣고 부드럽게 웃었다.  “불가사의 그 자체죠!  저희 어머니께서는 그들이 거대한 내전을 벌여 자멸했다고 가르쳐 주셨어요. 그들은 우리의 상상을 뛰어 넘는 마법을 사용했다고 해요.”
  
@@ -13561,13 +13561,13 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
  
 왕은 웃으며 고개를 끄덕이고는 보좌관 몇 명을 불렀다.  “강렬한 화염 가닥을 이용한 지질학 시연을 준비하게.”  그는 우리에게로 몸을 돌렸다.  “우리는 기술과 힘 뿐만이 아니라 세밀함과, 거대함 역시 보여줄 수 있소.  그럼, 다른 사람들과 의논하는 동안 잠시 실례하겠소.”
  
-그는 두명의 선임 연구 마법사와 장거리 차원문의 앞에 섰다.  그들은 마주보며 일제히 낮은 소리로 웅얼거리기 시작했고, 장거리 차원문에서 나온 불꽃들이 서서히 붉은 빛을 띄며 깜빡였다.  몇 분이 지나자, 그들의 웅얼거림은 높은 음조의 찬가가 되었지만, 그 부드러운 노랫가락은 여전히 완벽한 조화로 퍼저나갔다.  그들이 지팡이를 치켜세우자, 장거리 차원문 위에서 화염의 상이 나타났고, 마치 거울을 보고있는 것 처럼, 그곳에 경탄하고있는 나와 네이라가 투영되어있어, 위를 바라보고 있는 형체가 우리라는 것을 알 수 있었다.  비쳐진 상은 특징과 움직임을 모두 완벽하게 투영하고 있었고, 세심한 부분까지 완전히 똑같았다. 단, 그 모든 것이 깜빡이는 주황색 화염으로 이루어저 있었다.
+그는 두명의 선임 연구 마법사와 장거리 차원문의 앞에 섰다.  그들은 마주보며 일제히 낮은 소리로 웅얼거리기 시작했고, 장거리 차원문에서 나온 불꽃들이 서서히 붉은 빛을 띄며 깜빡였다.  몇 분이 지나자, 그들의 웅얼거림은 높은 음조의 찬가가 되었지만, 그 부드러운 노랫가락은 여전히 완벽한 조화로 퍼저나갔다.  그들이 지팡이를 치켜세우자, 장거리 차원문 위에서 화염의 상이 나타났고, 마치 거울을 보고 있는 것 처럼, 그곳에 경탄하고 있는 나와 네이라가 투영되어있어, 위를 바라보고 있는 형체가 우리라는 것을 알 수 있었다.  비쳐진 상은 특징과 움직임을 모두 완벽하게 투영하고 있었고, 세심한 부분까지 완전히 똑같았다. 단, 그 모든 것이 깜빡이는 주황색 화염으로 이루어저 있었다.
 
-찬가의 음조가 점점 높아지자, 차원문에 맺힌 우리의 상이 점점 축소되며, 더 넓은 장소를 비추었다. 그렇게 우리들은 우리 근처의 장거리 차원문과, 마법사들이 모여있는 것을 볼 수 있었다. 하지만 초점은 우리들이 넓은 회랑의 조그만한 점이 될 때 까지 허공으로 치솟았다. 이윽고, 우리는 반듯한 하얀 사각형이 대지에 묻혀있음을 보게되었다. 나는 그 떄, 우리가 하늘 높은 곳에서 수정탑을 내려다 보고있음을 깨달았다.  시야가 점점 넓어지고, 대지가 빠르게 작아졌다. 서쪽의 엘발라가 보였다.  찬가는 더욱 더 높아졌고, 이제 우리는 바다와 북서쪽의 산맥, 그리고 모든 대지가 보였다.  전 대륙이 우리 눈에 들어왔다, 북쪽에 얼어붙은 대지가 자리잡고 있었고, 대지가 그 모든것을 감싸고 있었다. 나는 그 투영된 상에 작은 하얀 별들이 점처럼 찍혀져 있는 것을 보았다.  노랫소리는 최고조에 달했고, 우리 앞에는 온 에이알의 상이 비추어저 있었다. 공중에 매달린 불덩어리가, 서서히 회전했다.
+찬가의 음조가 점점 높아지자, 차원문에 맺힌 우리의 상이 점점 축소되며, 더 넓은 장소를 비추었다. 그렇게 우리들은 우리 근처의 장거리 차원문과, 마법사들이 모여있는 것을 볼 수 있었다. 하지만 초점은 우리들이 넓은 회랑의 조그만한 점이 될 때까지 허공으로 치솟았다. 이윽고, 우리는 반듯한 하얀 사각형이 대지에 묻혀있음을 보게되었다. 나는 그 때, 우리가 하늘 높은 곳에서 수정탑을 내려다 보고있음을 깨달았다.  시야가 점점 넓어지고, 대지가 빠르게 작아졌다. 서쪽의 엘발라가 보였다.  찬가는 더욱 더 높아졌고, 이제 우리는 바다와 북서쪽의 산맥, 그리고 모든 대지가 보였다.  전 대륙이 우리 눈에 들어왔다, 북쪽에 얼어붙은 대지가 자리잡고 있었고, 대지가 그 모든것을 감싸고 있었다. 나는 그 투영된 상에 작은 하얀 별들이 점처럼 찍혀져 있는 것을 보았다.  노랫소리는 최고조에 달했고, 우리 앞에는 온 에이알의 상이 비추어저 있었다. 공중에 매달린 불덩어리가, 서서히 회전했다.
  
 찬가가 끝나고, 상 또한 사라졌다. 나는 내 옆에 있던 네이라가 몇 분동안 숨을 못 쉰것 처럼 가쁜 숨소리를 들었다.
  
-“이제 보이는가?” 기쁨으로 활짝 웃고있는 에피니아스가 말했다.  “가장 작고 세세한 부분부터 가장 크고 웅장한 것 까지, 우리는 장거리 차원문의 에너지를 조작할 수 있소.  상에 표시된 하얀색 점들을 보았소?  그것들은 우리 세계에 퍼진 또 다른 장거리 차원문이고, 우리 앞의 이 차원문은 그 모든 차원문과 연결할 수 있소.  세심하고, 섬세한 조종으로 우리는 그 모든 에너지를 조화시키고, 우리의 의지대로 사용할 수 있소.  이 계획 속에서, 자네의 검은 쓸모가 없는 것 같네만... 아라니온..”
+“이제 보이는가?” 기쁨으로 활짝 웃고 있는 에피니아스가 말했다.  “가장 작고 세세한 부분부터 가장 크고 웅장한 것 까지, 우리는 장거리 차원문의 에너지를 조작할 수 있소.  상에 표시된 하얀색 점들을 보았소?  그것들은 우리 세계에 퍼진 또 다른 장거리 차원문이고, 우리 앞의 이 차원문은 그 모든 차원문과 연결할 수 있소.  세심하고, 섬세한 조종으로 우리는 그 모든 에너지를 조화시키고, 우리의 의지대로 사용할 수 있소.  이 계획 속에서, 자네의 검은 쓸모가 없는 것 같네만... 아라니온..”
  
 나는 대답할 말이 없었고, 여전히 그 광경에 대한 경외에 젖어 그저 고개를 가볍게 끄덕였다.  네이라도 마찬가지인 것처럼 보였다.  그녀는 장거리 차원문을 리나니일과 같은, 간절히 바라는 듯한 눈으로 바라보고 있었다.  그녀는 마음이 바뀌었다.
  
@@ -13635,9 +13635,9 @@ Was it a dream?  Some strange foretelling?  Or could it have been a true apparit
  
 그는 갑자기 안장 위에서 자세를 고쳐앉더니, 깃대를 꽉 움켜잡았다.  “예, 사령관님!” 그가 불안해하며 말했다.  “무슨 일이든 따르겠습니다, 사령관님!”  그의 얼굴은 전방을 향해 있었지만, 나는 그의 두 눈이 나는 흘겨보는 것을 볼 수 있었다. 인정을 간절히 바라는 듯이.  무슨 일이든 따르겠다라...  나는 그가 그런 눈빛을 내게 보내는 것을 전에 본 적이 있다.  젊은 병사가 사령관을 향해 보내는 존경의 시선, 그리고 어쩌면 다른 감정이 실려있을 수도 있겠지.  만약 내가 리나니일과 함께하는 기쁨을 누리지 못했다면, 소년의 관심은 나쁘지 않았을 것이다.  그러나 지금은 그런 생각을 할 때가 아니다.
  
-그 날은 마법폭발의 날이였고 소년은 긴장할 만도 했다.  그 떄는 자정이 몇시간 지났을 때였고, 우리 정찰병들은 다른 종족들과 함께 오크들을 은신처에서 끌어내어 전투를 하고 있었을 것이다.  우리는 대폭발이 일어나기 전, 그들의 발을 묶어놓을 주요 공격선을 가로질러갔다.  주위는 온통 별빛에 반짝이는 창끝과 검, 갑옷들이 늘어서있었다.  야영지 내의 전투 마법사 부대는 자주색 로브를 입고 있었고, 빛나는 지팡이를 하늘 높게 들고있었다.  장관이였다.  하지만 우리 모두, 사방이 탁 트인 전장에서 무수한 오크 떼와 교전 해야할 때의 위험성도 알고있었다.  마법폭발이 실패한다면, 우리 모두 큰 손실을 입게 될 터였다.
+그 날은 마법폭발의 날이였고 소년은 긴장할 만도 했다.  그 때는 자정이 몇시간 지났을 때였고, 우리 정찰병들은 다른 종족들과 함께 오크들을 은신처에서 끌어내어 전투를 하고 있었을 것이다.  우리는 대폭발이 일어나기 전, 그들의 발을 묶어놓을 주요 공격선을 가로질러갔다.  주위는 온통 별빛에 반짝이는 창끝과 검, 갑옷들이 늘어서있었다.  야영지 내의 전투 마법사 부대는 자주색 로브를 입고 있었고, 빛나는 지팡이를 하늘 높게 들고있었다.  장관이였다.  하지만 우리 모두, 사방이 탁 트인 전장에서 무수한 오크 떼와 교전 해야할 때의 위험성도 알고있었다.  마법폭발이 실패한다면, 우리 모두 큰 손실을 입게 될 터였다.
 
-나는 들판이 내려다보이는 낮은 언덕에 진을 쳤고, 북방의 카르'크룰 군대를 찾기위해 수행단을 떠나 움직이기 시작했다.  말을 타고 그들의 주둔지를 향해 달려나갔을 때, 나는 동쪽에서 연기가 피어오르는 것을 발견했다.  네 개의 두꺼운 회색 기둥이 새벽 전의 희미한 빛에 대적하는 듯 우뚝 서있었다.  분명 우리들의 기습에 분노한 오크들에게 약탈당하고, 불타버린 마을들일 것이다.  마을 주민들은 이미 피난을 마친 뒤였겠지만, 이 전투가 끝나면 그들이 돌아갈 집은 존재하지 않을 것이다.   전 대륙에서 벌어지고있는 전쟁 놀이에서의 조그만한 희생이였다.
+나는 들판이 내려다보이는 낮은 언덕에 진을 쳤고, 북방의 카르'크룰 군대를 찾기위해 수행단을 떠나 움직이기 시작했다.  말을 타고 그들의 주둔지를 향해 달려나갔을 때, 나는 동쪽에서 연기가 피어오르는 것을 발견했다.  네 개의 두꺼운 회색 기둥이 새벽 전의 희미한 빛에 대적하는 듯 우뚝 서있었다.  분명 우리들의 기습에 분노한 오크들에게 약탈당하고, 불타버린 마을들일 것이다.  마을 주민들은 이미 피난을 마친 뒤였겠지만, 이 전투가 끝나면 그들이 돌아갈 집은 존재하지 않을 것이다.   전 대륙에서 벌어지고 있는 전쟁 놀이에서의 조그만한 희생이였다.
 
 아침의 푸르스름한 연무 속에서 다섯 번째 연기구름이 치솟았다. 연기 기둥들은 갑자기 온 세상에 뻗친 악마의 마수같은 느낌을 주었다.   마수는 마치 그 손톱으로 땅을 헤집어, 대지 밑의 살갗을 찢어낼 준비가 된 듯 했다.  내가 알고 있는, 모든 문명은 오크들의 위협에 직면해있다.  우리가 이 오크들을 막기위해 치를 댓가는, 분명, 결실에 비해 아주 작은 댓가가 될 것이다.   나는 그렇게 생각했다.  우리 모두 그렇게 생각했다.
  
@@ -13721,7 +13721,7 @@ But mine was just one voice, one torment, a single note in the great cacophony t
 
 군대가 앞으로 전진할 때, 나는 달을 가르는 자를 칼집에서 꺼냈다.  나는 고삐를 꽉 잡아, 말이 흥분으로 달려나가지 않도록 했다. 내 옆의 종자 역시 고삐를 꽉 쥐고있었다.  긴장감이 허공에서도 뚜렷하게 느껴졌다.  우리들 앞, 2 킬로미터도 되지 않은 거리에서, 오크 선봉대가 모습을 드러냈다.  우리는 그들의 진지를 휘젔고 다녔고, 그들은 전력으로 대응했다.  오크들은 마치 지평선을 집어삼킨 사악한 질병과도 같았다. 세계를 위협하며 집어삼키려는 거대한 역병.  비록, 내 앞의 살로레 군대는 비록 수는 적었지만, 나는 머릿수가 곧 힘이 아님을 알고있었다.
 
-최전방의 하마 기사들은 적의 제 1 파와 교전할 준비가 끝날을 때, 필요에 따라 전투나팔을 불어 전투의 시작을 알릴 수 있었다.  북쪽에는 적들의 초기 저항을 부수기 위한 궁수들이 배치되어 있었고, 그 측면에는 주문 기수 군단이 배치되어 있었다. 그들은 공포스러운 군마 위에서 마법 에너지로 빛나는 손으로 고삐를 쥐고 있었다.  남쪽에는 일반적인 기수들과 대검수, 중무장 기사들과 우리 전력의 대부분을 맡고있는 마법사들이 주문으로 그들을 보조할 준비가 되어 있었다.  선임 전투 마법사들은 이곳 저곳에 흩어저있어, 격렬한 전장으로 빠르게 이동하며 적들을 격파할 준비를 하고있다.  그들은 혼자서도 수많은 오크들을 손쉽게 처리할 수 있었기에 같은 장소에 한 명 이상 배치할 필요는 없었다.
+최전방의 하마 기사들은 적의 제 1 파와 교전할 준비가 끝날을 때, 필요에 따라 전투나팔을 불어 전투의 시작을 알릴 수 있었다.  북쪽에는 적들의 초기 저항을 부수기 위한 궁수들이 배치되어 있었고, 그 측면에는 주문 기수 군단이 배치되어 있었다. 그들은 공포스러운 군마 위에서 마법 에너지로 빛나는 손으로 고삐를 쥐고 있었다.  남쪽에는 일반적인 기수들과 대검수, 중무장 기사들과 우리 전력의 대부분을 맡고 있는 마법사들이 주문으로 그들을 보조할 준비가 되어 있었다.  선임 전투 마법사들은 이곳 저곳에 흩어저있어, 격렬한 전장으로 빠르게 이동하며 적들을 격파할 준비를 하고 있다.  그들은 혼자서도 수많은 오크들을 손쉽게 처리할 수 있었기에 같은 장소에 한 명 이상 배치할 필요는 없었다.
 
 멀리서 북소리가 시끄럽게 울리고, 적들의 함성이 점점 커저갔다.  그들은 훈련된 짐승들과 트롤을 데리고 있었고, 투박한 검과 둔기, 그리고 조잡한 갑옷을 입고있었다.  하나가 울부짖으니, 다른 이가 연이어 소리를 내지르기 시작했다. 공기는 그들의 추악한 목소리와 함께 울리는 듯 했다.
 
@@ -13735,11 +13735,11 @@ But mine was just one voice, one torment, a single note in the great cacophony t
 
 오크들은 혼란에 빠진 우리들을 보고 돌격을 감행하기 시작했다.  하지만 나의 주의를 사로잡은 것은 동쪽이 아닌, 엘발라, 그리고 우리의 왕이 쉐르'툴 장거리 차원문을 조작하고 있던 수정 탑이 있는 서쪽이였다.  하지만 탑이, 사라진 것, 같았다 - 탑이 무너저 내려 땅 속으로 사라졌으며, 이제는 그 곳에서 흰색의 뜨거운 화염 파동만이 뿜어져나왔다.  오크들은 혼란에 빠진 우리 군대를 찢어놓았고, 그들의 무기는 엘프 병사들을 도살했다. 하지만 그들 역시, 곧 엄청난 파괴 에너지의 파동을 맞게 될 것이다.
 
-“방패!” 온 하늘이 피보다 붉게 물들어가고 있을 떄, 나는 소리쳤다. 하지만 갑자기 공기를 태워버리는 듯한 굉음 때문에, 내 외침은 들리지 않았다.  어찌됐든 그 명령은 별 도움이 되지 않았을 것이다. 마나에 연결되지 못하는 이상, 내 군대는 어짜피 무방비 상태였을 것이다.  화염의 창들이 연속으로 우리 머리 위에서 날아갔고, 살과 강철을 가르며 땅 속으로 가라앉았다.  대지는 흔들렸고, 찢겨진 바위 사이의 깊은 구멍에서 용암이 터저 나왔다.
+“방패!” 온 하늘이 피보다 붉게 물들어가고 있을 때, 나는 소리쳤다. 하지만 갑자기 공기를 태워버리는 듯한 굉음 때문에, 내 외침은 들리지 않았다.  어찌됐든 그 명령은 별 도움이 되지 않았을 것이다. 마나에 연결되지 못하는 이상, 내 군대는 어짜피 무방비 상태였을 것이다.  화염의 창들이 연속으로 우리 머리 위에서 날아갔고, 살과 강철을 가르며 땅 속으로 가라앉았다.  대지는 흔들렸고, 찢겨진 바위 사이의 깊은 구멍에서 용암이 터저 나왔다.
 
-나는 모든 정신력을 동원해 마법 보호막을 내 주위에 전개했다.  내 종자도 내가 했던 것 처럼 손을 치켜 올렸지만, 불길이 그의 팔을 찢어버렸다.  또 다른 파장이 그의 상반신의 절반을 불태우기도 전까지, 그는 비명조차 지르지 못했다.  뿜어저 나온 피는 즉시 증발해버렸고, 공기는 붉은 안개와 화염으로 가득찼다.  타고있던 말이 울고, 비틀거리다가 쓰러지자 나는 뛰어내렸다. 쓰러진 말이 잿더미가 되어 흩날렸다.
+나는 모든 정신력을 동원해 마법 보호막을 내 주위에 전개했다.  내 종자도 내가 했던 것 처럼 손을 치켜 올렸지만, 불길이 그의 팔을 찢어버렸다.  또 다른 파장이 그의 상반신의 절반을 불태우기도 전까지, 그는 비명조차 지르지 못했다.  뿜어저 나온 피는 즉시 증발해버렸고, 공기는 붉은 안개와 화염으로 가득찼다.  타고 있던 말이 울고, 비틀거리다가 쓰러지자 나는 뛰어내렸다. 쓰러진 말이 잿더미가 되어 흩날렸다.
 
-또 다른 파동이 몰아닥쳤다. 나는 방패를 강화하려 했지만, 엄청난 힘이 내 몸을 허공으로 날려버렸다.  나는 소용돌이 치는 나뭇잎처럼 허공에서 몸부림쳤다, 내가 할수 있는 것은, 그저 방어를 유지하기위해 안간 힘을 쏟는 것 뿐이였다.  내 군대의 모든 것은 완전히 파괴되고 있었다. 병사들과 병사들의 횡렬, 그리고 마법사들은 불로 인해 바짝 구워지거나 순수한 에너지에 의해 갈기갈기 찢어지고 있었다.  오크들의 상황도 별 다르지 않았다. 찢어진 대지가 오크 군대의 수 많은 병사들을 집어 삼켜버렸다.  용암은 천둥소리를 내며 뿜어저나와, 수 킬로미터에 걸쳐 빛나는 죽음의 강이 되어, 모든 것을 뒤덮었다.
+또 다른 파동이 몰아닥쳤다. 나는 방패를 강화하려 했지만, 엄청난 힘이 내 몸을 허공으로 날려버렸다.  나는 소용돌이 치는 나뭇잎처럼 허공에서 몸부림쳤다, 내가 할수 있는 것은, 그저 방어를 유지하기위해 안간 힘을 쏟는 것 뿐이였다.  내 군대의 모든 것은 완전히 파괴되고 있었다. 병사들과 병사들의 횡렬, 그리고 마법사들은 불로 인해 바짝 구워지거나 순수한 에너지에 의해 갈기갈기 찢어지고 있었다.  오크들의 상황도 별 다르지 않았다. 찢어진 대지가 오크 군대의 수 많은 병사들을 집어삼켜버렸다.  용암은 천둥소리를 내며 뿜어저나와, 수 킬로미터에 걸쳐 빛나는 죽음의 강이 되어, 모든 것을 뒤덮었다.
 
 어떻게 내가 살아남았는지, 나는 아직도 모르겠다.  나는 몇 번인가 의식을 잃을 뻔 헀으나, 나 조차 알지 못하는 정신력으로 집중을 유지한 채 보호막을 지속시킬 수 있었다.  내 주위에 일어나는 일들에 대해 서서히 무감각해졌다. 나의 보호막이 허공을 떠다니고 있는지, 화염과 핏 속을 떠다니고 있는지, 또는 에이알의 심연에 삼켜저, 여태껏 본 적없는 지옥을 떠다니고 있는지. 나는 아무래도 상관 없었다.  마침내, 고통스러운 시기와 에너지 파장이 지나가자, 나는 메마르고 갈라진 대지 위 돌무더기에 누워 있음을 깨닫게 되었다.  공기 중의 뜨거운 실안개가 나를 감쌌다.
 
@@ -13749,7 +13749,7 @@ But mine was just one voice, one torment, a single note in the great cacophony t
 
 그녀의 옷은 거의 불타없어졌고, 그녀의 머리카락의 절반은 재가 되어버렸다. 그녀는 거의 전신에 화상을 입어, 피가 새어나오고 있었다.  약한 보호막이 그녀 주위에서 웅웅대고 있었지만, 내가 무릎을 꿇고, 그녀에게 손을 얹자 보호막은 사라졌다.  그녀는 숨을 조용히 몰아쉬며 “네이라.” 라고 속삭였고, 이윽고 그녀는 무의식 속으로 가라앉았다.  그녀는 살아있었지만, 겨우 살아있었다.  나를 그녀 자매의 흔적을 찾아보았으나, 아무 것도 발견할 수 없었다. 그녀의 부대의 잔존병들 역시 찾아볼 수 없었다. 오직, 화염이 어느 방향으로 휩쓸고 지나갔는지 보여주는 그을린 고깃덩어리들과 불타버린 뼈만 가득했다.
 
-나는 내가 쓸 수 있었던 회복 마법을 리나니일에게 시전하기 시작했으나, 그것만으로는 부족했다. 나의 약해진 힘은 그녀를 구할 수 없을 것만 같았다. 그날, 내가 잃은 모든 것을 생각하며, 끔찍하게 잘못 된 모든 것을 생각하며 나는 울부짖기 시작했다.  희망은 위기로 변해버렸고, 운명의 잔인함은 내가 감당하기에는 너무 벅찼다.  죽어가는 내 사랑의 머리를 안고 나는 하늘로 머리를 치켜들며 울부짖었다.  고통은 갈라진 내 목소리에 담겨져있었고, 나는 내 주변 모든 것을 뒤덮은 피, 뼈, 재 가운데서 생명의 부당함과 전쟁의 헛됨에 분노했다.  그들은 한 때 희망과 꿈을 갖고있던 영혼들이였으나, 이제는 모두 바람에 날린 먼지가 되어 흩어졌다. 나는 그들의 죽음과 나의 절망 속에서 한탄했다.
+나는 내가 쓸 수 있었던 회복 마법을 리나니일에게 시전하기 시작했으나, 그것만으로는 부족했다. 나의 약해진 힘은 그녀를 구할 수 없을 것만 같았다. 그날, 내가 잃은 모든 것을 생각하며, 끔찍하게 잘못 된 모든 것을 생각하며 나는 울부짖기 시작했다.  희망은 위기로 변해버렸고, 운명의 잔인함은 내가 감당하기에는 너무 벅찼다.  죽어가는 내 사랑의 머리를 안고 나는 하늘로 머리를 치켜들며 울부짖었다.  고통은 갈라진 내 목소리에 담겨져있었고, 나는 내 주변 모든 것을 뒤덮은 피, 뼈, 재 가운데서 생명의 부당함과 전쟁의 헛됨에 분노했다.  그들은 한때 희망과 꿈을 갖고 있던 영혼들이였으나, 이제는 모두 바람에 날린 먼지가 되어 흩어졌다. 나는 그들의 죽음과 나의 절망 속에서 한탄했다.
 
 하지만 나의 목소리, 고통은 전 대륙을 가로지르는 거대한 불협화음을 이루는 하나의 음에 불과했다.  수백 만의 목숨이 사라지고 부셔졌으며, 수백 만의 목소리가 고통과 고뇌와 고문 속에서 비명을 질렀으며, 마즈'에이알의 모든 곳에서 궁극적인 파괴의 힘이 계속 지속되고 있었다. 마법폭발.]], "_t")
 t("The Spellblaze Chronicles(6): A Changed Eyal", "마법폭발 연대기 (6): 변해버린 에이알", "_t")
@@ -13848,7 +13848,7 @@ The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smok
 
 “아라니온 사령관!” 그녀가 시끄럽게 말했다 “당신이 이곳에 와있다고 들었지만 도저히 믿을 수가 없었습니다.  당신이 돌아오다니, 원소의 가닥들에게 감사해야겠습니다!  지금은 중대한 시기니, 우리는 지금 당장 이 상황을 의논해야 합니다.”
 
-하지만 나는 라니니일의 손을 잡고있는 인간을 보며 그녀를 무시했다. 리나니일의 눈이 부드럽게 열렸고, 천천히 속삭였다. “퀴란?”
+하지만 나는 라니니일의 손을 잡고 있는 인간을 보며 그녀를 무시했다. 리나니일의 눈이 부드럽게 열렸고, 천천히 속삭였다. “퀴란?”
 
 “예, 접니다, 아가씨.” 그가 조용히 말했다.  “투르텔 님께서 저를 이곳에 보냈습니다.  아버님께서 이것을 전달하라고 제게 명령하셨습니다.”  그 전언과 함께, 그는 불타는 루비가 박힌 황금 반지를 꺼냈다.  나는 즉시 그것이 강력한 투르텔이 착용했던 카르'크룰의 반지임을 알아차렸다.  리나니일은 고통에 움찔하며 재빨리 일어났다. 하지만 그녀 손 위에 반지가 놓이자 그녀의 시선은 반지에 고정되어 있었다.
 
@@ -13860,7 +13860,7 @@ The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smok
 
 “기다리시오!” 나는 소리쳤고, 퀴란이라는 인간에게 몸을 돌렸다.  “대체 뭐지?  어떻게 투르텔과 같은 자가 죽을 수 있는거지?”
 
-사내는 나를 슬픔이 가득한 눈으로 나를 바라보았다. 그리고는 리나니일에게 말하기 시작했다.  “어제, 끔찍한 주문폭발 다음 날, 우리가 여전히 마나 항로를 재정비하며 복구를 시작하려 했을 때, 사람들 사이에서 소문이 돌기 시작했습니다.  카르'크룰의 마법사 연합이 일반 사람들을 배신했다고요.  그들은 우리를 엘프들의 편에서 마법사들이 아닌 자들을 파괴했고, 우리의 통제를 넘어서는 끔찍한 힘을 조작했으며, 악의를 갖고 의도적으로 자신들을 학살하고 있다고 비난했습니다.  저희는 그들을 논리적으로 대할 수 없었고, 그들은 이유도 들으려 하지 않은 채, 분노에 휩싸여 봉기했습니다.  그들은 농기구와 조잡한 무기들로 우리를 공격했습니다.  우리의 방어는 약해져 있었고, 우리가 가한 반격은 군중들의 화만 돋굴 뿐이였습니다.  우리는 투르텔 님에게 도움을 구하려 투르텔 님의 집으로 후퇴했지만, 투르텔 님 께서는 맞서 싸울 수 없다고 하셨습니다.  그 떄, 그들이 궁전을 덮첬고, 투르텔 님 께서는 저항하지 말라고 명령하셨습니다.  그 분께서는 제게 엘발라에서 아가씨를 찾으라고 하시며 반지를 제게 맡기시고 군중들에게로 나아가셨습니다.  투르텔 님 께서는 저항도 하지 않으셨습니다!  사람들은... 그들... 그들이...”  그는 슬픔에 잠겨 고개를 가로저으며 침울한 침묵에 빠저들었다.  그는 울고 싶어 보였지만, 흘릴 눈물 한 방울 조차 남아있지 않았다.  리나니일의 표정은 심각해 보였고, 반지를 뚫어지게 바라보고 있었다.
+사내는 나를 슬픔이 가득한 눈으로 나를 바라보았다. 그리고는 리나니일에게 말하기 시작했다.  “어제, 끔찍한 주문폭발 다음 날, 우리가 여전히 마나 항로를 재정비하며 복구를 시작하려 했을 때, 사람들 사이에서 소문이 돌기 시작했습니다.  카르'크룰의 마법사 연합이 일반 사람들을 배신했다고요.  그들은 우리를 엘프들의 편에서 마법사들이 아닌 자들을 파괴했고, 우리의 통제를 넘어서는 끔찍한 힘을 조작했으며, 악의를 갖고 의도적으로 자신들을 학살하고 있다고 비난했습니다.  저희는 그들을 논리적으로 대할 수 없었고, 그들은 이유도 들으려 하지 않은 채, 분노에 휩싸여 봉기했습니다.  그들은 농기구와 조잡한 무기들로 우리를 공격했습니다.  우리의 방어는 약해져 있었고, 우리가 가한 반격은 군중들의 화만 돋굴 뿐이였습니다.  우리는 투르텔 님에게 도움을 구하려 투르텔 님의 집으로 후퇴했지만, 투르텔 님 께서는 맞서 싸울 수 없다고 하셨습니다.  그 때, 그들이 궁전을 덮첬고, 투르텔 님 께서는 저항하지 말라고 명령하셨습니다.  그 분께서는 제게 엘발라에서 아가씨를 찾으라고 하시며 반지를 제게 맡기시고 군중들에게로 나아가셨습니다.  투르텔 님 께서는 저항도 하지 않으셨습니다!  사람들은... 그들... 그들이...”  그는 슬픔에 잠겨 고개를 가로저으며 침울한 침묵에 빠저들었다.  그는 울고 싶어 보였지만, 흘릴 눈물 한 방울 조차 남아있지 않았다.  리나니일의 표정은 심각해 보였고, 반지를 뚫어지게 바라보고 있었다.
 
 그때, 페리사가 나를 붙잡고 내게 말했다.  “이것이 제가 당신과 의논해야만 하는 이유입니다. 아라니온 사령관.  만약 이 인간의 이야기가 사실이라면, 우리는 매우 심각한 위험에 처해 있습니다!  정찰병의 보고서에 의하면, 북족에서 인간으로 구성된 단체가 이곳으로 향하고 있다고 합니다.  이 인간이 말한 바에 따르면, 그들은 분명 보복을 위해 움직이고 있는 것일 겁니다. 그들은 우리 모두를 도륙하길 원합니다.  분노의 폭풍이 우리 국경선에 드리웠고, 우리는 무방비 상태에 놓여있습니다!  방어선을 조직하고, 우리 도시와 우리 민족을 지키기 위해서는 당신의 존재가 절대적으로 필요합니다.”
 
@@ -13876,11 +13876,11 @@ The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smok
 
 “치유되지 않을거에요!” 그녀가 소리쳤다. 그녀의 목소리에서 증오가 베어나오고 있었다.  그녀의 눈빛은 차가웠고, 마치 꿰뚫을 수 없는 단단한 얼음과 같았다. 그 깊숙한 곳에 분노가 자리잡고 있었다.  “이리와, 퀴란, 이곳을 뜨자.”  그렇게 그들은 떠났다. 리나니일은 그녀의 부상에도 불구하고 우뚝 서서, 긍지 높은 발걸음으로 문 밖을 걸어나갔다.
 
-그떄, 나는 내 마음과 감정을 모두 닫아버렸다. 그렇지 않았다면 그게 나를 압도했을 테니까.  내가 수행할 임무는 내 앞에 놓여있었고, 과거의 사건들은 기억 저멀리 묻어버려야 했다.
+그때, 나는 내 마음과 감정을 모두 닫아버렸다. 그렇지 않았다면 그게 나를 압도했을 테니까.  내가 수행할 임무는 내 앞에 놓여있었고, 과거의 사건들은 기억 저멀리 묻어버려야 했다.
 
 의식은 한 시간도 채 안되어 이루어졌다. 나는 엘발라 대의회의 기름부음 받은 지도자가 되었고, 샬로레 민족의 대표자가 되었다.  감시자들은 내 명령에 따라 외딴 정착지의 생존자들을 수송하기 시작했고, 남아있는 마법사들에게는 도시 벽을 강화하라는 명령이 주어졌다.
 
-다음 날, 증오의 소용돌이의 첫번째 폭풍이 몰아쳤다.  인간 농민들과 농노들, 평범한 노동자들이 한심한 수준의 무장을 하고있었고, 그들이 챙긴 칼과 창들은 무예라고는 없이 쥐어져 있었다.  그들이 다가올 때, 나는 달을 가르는 자를 쥐고 정문에서 홀로 서있었다.  처음 몇 놈들이 나에게 달려들었을 때, 나는 칼날을 땅에 꽂아 거대한 균열을 일으켰고, 우리 마법사들은 대지에서 솟아오른 안개와 연기로 온 도시를 감싸기 시작했다.  농노들이 혼란에 빠지자, 궁수들이 방벽에서 사격을 시작했다.  연기와 화살비 속에서, 내가 직접 달을 베는자를 이용해 약한 적들을 벨 일은 거의 없었다.  그들의 피는 수십리터씩 뿜어저나와 우리 땅을 적시고, 내 살갗을 붉게 물들였다.  마치 끓어오르는 감정을 식히는 소나기, 죄를 씻기위한 피의 세례 같았다.
+다음 날, 증오의 소용돌이의 첫번째 폭풍이 몰아쳤다.  인간 농민들과 농노들, 평범한 노동자들이 한심한 수준의 무장을 하고 있었고, 그들이 챙긴 칼과 창들은 무예라고는 없이 쥐어져 있었다.  그들이 다가올 때, 나는 달을 가르는 자를 쥐고 정문에서 홀로 서있었다.  처음 몇 놈들이 나에게 달려들었을 때, 나는 칼날을 땅에 꽂아 거대한 균열을 일으켰고, 우리 마법사들은 대지에서 솟아오른 안개와 연기로 온 도시를 감싸기 시작했다.  농노들이 혼란에 빠지자, 궁수들이 방벽에서 사격을 시작했다.  연기와 화살비 속에서, 내가 직접 달을 베는자를 이용해 약한 적들을 벨 일은 거의 없었다.  그들의 피는 수십리터씩 뿜어저나와 우리 땅을 적시고, 내 살갗을 붉게 물들였다.  마치 끓어오르는 감정을 식히는 소나기, 죄를 씻기위한 피의 세례 같았다.
 
 우리의 도시가 구름과 연기에 둘러싸이자, 엘발라의 장막이 시작되었다.  우리의 방패, 우리의 가면, 우리의 은신처.  그 후 몇 세기동안, 오직 이 장벽만이 바깥 세상에 대한 우리의 유일한 대답이였다.
 ]], "_t")
@@ -13921,7 +13921,7 @@ I took a deep breath and stepped forwards.]], [[#{italic}#엘발라 대의회장
 
 #{bold}#제 7 장 : 어둠 속으로#{normal}#
 
-우린 우리가 저지른 짓을 숨기고, 범죄를 은폐했다.  비록 우리는 외부의 하플링 상인들, 그리고 이상하게 변장한 샬로레 모험가들과 접촉할 수 있었지만, 우리는 여전히 비난의 시선으로 부터 숨은 채, 침묵 속에 남아있었다.  장벽 외부의 사람들은 피난처라는 사치를 누릴 수 없었다.  마법 사냥이 시작됐고, 그것은 자비를 몰랐다.
+우린 우리가 저지른 짓을 숨기고, 범죄를 은폐했다.  비록 우리는 외부의 하플링 상인들, 그리고 이상하게 변장한 샬로레 모험가들과 접촉할 수 있었지만, 우리는 여전히 비난의 시선으로부터 숨은 채, 침묵 속에 남아있었다.  장벽 외부의 사람들은 피난처라는 사치를 누릴 수 없었다.  마법 사냥이 시작됐고, 그것은 자비를 몰랐다.
 
 보통 사람들이 마법사들의 오만함에 대항하여 일어났다. 많은 이들의 목숨을 앗아간 극히 소수만이 지닌 힘에 대항하는 반란.  주술 사용의 의심을 받거나 "기예" 에 연관된 이들은 모두 잔인하게 처리되었다.  일말의 동정심도 없이, 무수히 많은 무고한 이들이 결코 채워지지 않을, 보복을 갈망하는 목마름에 희생되었다.  광기가 마즈'에이알 전역을 휩쓸었다.
 
@@ -14076,7 +14076,7 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 나는 경외를 갖고 그 곳을 둘러보았다.  비록 많은 쉐르' 툴 유적들을 탐험했지만, 이런것을 본 적은 없었다.  건축 구조는 단순했지만 기품이있었다.  그 모든 것에는 조잡한 아름다움이 있었다.  나는 리나니일이 조사중인 문 쪽으로 돌아섰다.
 
-그녀는 문을 열려고 노력하고있었지만, 문을 열 방법을 찾기위해 애쓰고있었다.  “열쇠가 있을거야, 이걸 열기위한 퍼즐같은거.” 그녀가 중얼거렸다.  “하지만 할 수가 없잖아 - 오랜 시간이 지났고, 비밀은 사라졌어.”  그녀는 분노로 그르릉거리며 뒤로 물러섰다.  그녀는 지팡이를 내밀고, 비전력 폭발을 일으켰다. 바위 문을 난폭하게 쪼게버려, 다음 방으로 향하는 문을 찢어열었다.
+그녀는 문을 열려고 노력하고 있었지만, 문을 열 방법을 찾기위해 애쓰고있었다.  “열쇠가 있을거야, 이걸 열기위한 퍼즐같은거.” 그녀가 중얼거렸다.  “하지만 할 수가 없잖아 - 오랜 시간이 지났고, 비밀은 사라졌어.”  그녀는 분노로 그르릉거리며 뒤로 물러섰다.  그녀는 지팡이를 내밀고, 비전력 폭발을 일으켰다. 바위 문을 난폭하게 쪼게버려, 다음 방으로 향하는 문을 찢어열었다.
 
 순간 많은 일들이 한꺼번에 일어났다.  나는 저 멀리서 에너지의 고동을 느꼈고, 전에 본 적 없는 거대한 힘의 쇄도를 느꼈다.  리나니일은 그것에 집중했다.  하지만 주변에서 마치 뭔가 움직이는 듯한 갑작스러운 소음이 들려왔다.  우리가 들어왔던 입구에서 백여명의 울부짖는 비명소리가 들렸고, 우리 발 밑의 바닥이 흔들리기 시작했다.  바위가 천장에서 떨어졌고, 뾰족한 자시를 갖고, 부드러운 삼각형 얼굴을 가진 공포스러운 존재들이 뛰처나왔다.  흔들리는 땅에서 기이한, 이 세계에 속하지 않은 빛의 존재가 긴 촉수를 팔다리 삼아 일어섰다.  이 위협에 직면해 있을 때, 전에 동굴에서 봤었던 벌레들이 다시 살아나 악취를 내뿜는 거대한 살덩어리로 합쳐지는 것을 보았다.
 
@@ -14086,9 +14086,9 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 내가 리나니일에게 달려가자, 그녀는 지팡이를 땅에 꽂아넣고, 바위 기둥을 일으켜, 입구를 봉인했다.  반대쪽에서 부수는 소리가 들렸지만, 그때는 안전한 것 같았다.  “저게 대체 뭐야?!” 열린 동굴에서 또 다른 괴물이 튀어나오지 않을까 감시하며 믿기지 않는다는 듯이 물었다.  넓은 공간이었지만 모든 것이 고요했고, 다른 출입구는 보이지 않았다.
 
-“아마크텔의 자손들.” 그녀가 조용하게 대답했다.  “도살당한 신이 사슬을 끊을 방법을 찾고있어요.  하지만 그는 힘이 부족합니다...  그리고 이곳, 이 어둠 속의 잊혀진 곳은 그가 찾고있는 힘의 일부입니다.”
+“아마크텔의 자손들.” 그녀가 조용하게 대답했다.  “도살당한 신이 사슬을 끊을 방법을 찾고 있어요.  하지만 그는 힘이 부족합니다...  그리고 이곳, 이 어둠 속의 잊혀진 곳은 그가 찾고 있는 힘의 일부입니다.”
 
-“그럼 여긴 뭐야?  어떤 끔찍한 힘이 이곳에 잠든거지? 대체 어떻게 공포체들을 부르고있는거야?!”
+“그럼 여긴 뭐야?  어떤 끔찍한 힘이 이곳에 잠든거지? 대체 어떻게 공포체들을 부르고 있는거야?!”
 
 “쿠에코르자.” 그녀가 말했다.
 
@@ -14096,9 +14096,9 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 “네, 그랬었지요.  하지만 살해당한 신도 힘을 갖고있습니다.  뒤를 보세요. 아라니온.”
 
-나는 리나니일이 내게 무엇을 보여줄까 궁금해하며 몸을 돌렸다.  그것을 제대로 보는 데에는 시간이 좀 걸렸지만, 그것을 보자, 충격에 숨을 몰아쉬었다.  이 거대한 동공의 끝은 단순히 벽이 아니였다.  그것은 두꺼운 얼음 층으로 덮혀 있었지만, 그 아래, 중심부에는 거대한 노란색 눈알이 자리잡고 있었다.  그리고 그 눈 주위의 거대한 형상을, 나는 찾아낼 수 있었다.  불룩한 머리를 덮고있는 검회색의 피부, 그 위에는 커다란 곡선을 그리는 뿔 세 개가 보였다. 그리고 그 아래, 여섯 개의 팔다리가 달린 두꺼운 몸통이 있었다.  그 시체는 죽음처럼 고요하고, 오싹할 정도로 오래된 것으로, 한때 살아 있었던 것 보다는 바위의 일부처럼 보였다.  나는 내가 보고있던 것을 믿을 수가 없었으나 느낄 수는 있었다.  시체 속에는 아직도 힘이 잠들어있었다. 내가 전에 느껴본 적 없는 강력한 힘이.
+나는 리나니일이 내게 무엇을 보여줄까 궁금해하며 몸을 돌렸다.  그것을 제대로 보는 데에는 시간이 좀 걸렸지만, 그것을 보자, 충격에 숨을 몰아쉬었다.  이 거대한 동공의 끝은 단순히 벽이 아니였다.  그것은 두꺼운 얼음 층으로 덮혀 있었지만, 그 아래, 중심부에는 거대한 노란색 눈알이 자리잡고 있었다.  그리고 그 눈 주위의 거대한 형상을, 나는 찾아낼 수 있었다.  불룩한 머리를 덮고 있는 검회색의 피부, 그 위에는 커다란 곡선을 그리는 뿔 세 개가 보였다. 그리고 그 아래, 여섯 개의 팔다리가 달린 두꺼운 몸통이 있었다.  그 시체는 죽음처럼 고요하고, 오싹할 정도로 오래된 것으로, 한때 살아 있었던 것 보다는 바위의 일부처럼 보였다.  나는 내가 보고 있던 것을 믿을 수가 없었으나 느낄 수는 있었다.  시체 속에는 아직도 힘이 잠들어있었다. 내가 전에 느껴본 적 없는 강력한 힘이.
 
-“이게 그것 입니다.” 리나니일이 말했다.  “마즈'에이알에 남겨진 몇 안되는 신들의 시체 중 하납니다.  그리고 이 힘을 제 것으로 만들거구요.”
+“이게 그것입니다.” 리나니일이 말했다.  “마즈'에이알에 남겨진 몇 안되는 신들의 시체 중 하납니다.  그리고 이 힘을 제 것으로 만들거구요.”
 
 “이건 미친 짓이야!” 내가 외쳤다.  “이게 안전한지 아닌지도 모르잖아.  이게 어떤 영향을 줄지도 모른다고!”
 
@@ -14136,9 +14136,9 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 “하지만. 지금은, 안녕히계시길 아라니온.” 그녀가 공중부양을 하며 말했다.  그러더니 엄청난 속도로 날아가, 시야에서 보이지 않게되었다.
 
-차가운 돌 위에 누워서 잠시동안 휴식을 취했다.  서서히 상처를 치유하고, 힘을 회복했다.  나는 그날 저녁부터 있던 일들을 깊게 생각해보며, 마즈'에이알의 모든 종족이 겪고있는 시련들을 되돌아보았다.  전쟁, 질병 그리고 죽음이 모두를 위협하고 있었다.  이제 리나니일은 초월한 것일까?  불멸의 맛이 그녀에게 어떤 영향을 끼칠까?
+차가운 돌 위에 누워서 잠시동안 휴식을 취했다.  서서히 상처를 치유하고, 힘을 회복했다.  나는 그날 저녁부터 있던 일들을 깊게 생각해보며, 마즈'에이알의 모든 종족이 겪고 있는 시련들을 되돌아보았다.  전쟁, 질병 그리고 죽음이 모두를 위협하고 있었다.  이제 리나니일은 초월한 것일까?  불멸의 맛이 그녀에게 어떤 영향을 끼칠까?
 
-그때, 우리 종족에 대한 생각이 떠올랐다.  오래전 우리들은 불멸을 찾아다녔었다.  우리 조상들은 그것에 집착했지만, 허영심과 자부심, 그리고 죽음의 공포를 잃어버리게 되었다.  만약 우리 모두가 불멸성을 갖추게된다면 어떤 일이 일어나게될까?  불멸의 생명력과 함께, 우리는 세상이 맞서고있는 분쟁들과 전쟁에서 벗어나게될 것이며, 그것은 필히 우리에게 다른 종족들의 사소한 다툼과 자존심 싸움을 넘어서는 시야를 갖게 해줄 것이다.
+그때, 우리 종족에 대한 생각이 떠올랐다.  오래전 우리들은 불멸을 찾아다녔었다.  우리 조상들은 그것에 집착했지만, 허영심과 자부심, 그리고 죽음의 공포를 잃어버리게 되었다.  만약 우리 모두가 불멸성을 갖추게된다면 어떤 일이 일어나게 될까?  불멸의 생명력과 함께, 우리는 세상이 맞서고 있는 분쟁들과 전쟁에서 벗어나게 될 것이며, 그것은 필히 우리에게 다른 종족들의 사소한 다툼과 자존심 싸움을 넘어서는 시야를 갖게 해줄 것이다.
 
 나는 얼음과 바위를 파헤쳤고, 희미하긴 했지만, 죽은 신, 쿠에코르자의 흔적을 찾아냈다.  나는 남은 잔해를 모두 모아 엘발라로 돌아가는 긴 여행을 했다.  연구실로 돌아가, 몇 년 동안의 연구 끝에 결국 비밀을 풀어냈다.  그렇게 우리 종족의 불멸성이 시작되었고, 그 이후 세계를 바라보는 우리 시선이 완전히 바뀌었다.
 
@@ -14304,7 +14304,7 @@ Still not sure what to do? Then suffer and perish. Necromancy does not abide the
 
 명심하라, 강령술이라고 전부 검은 로브를 입은채, 강력한 불사자 군단의 발걸음으로 한 국가를 파괴하는 것도, 강력한 불사의 주문을 자아내는 것도 아니다. 너는 우선 육체 노동부터 해야할 것이다. 네가 맨처음 시체 몇 구는 너 스스로 훔처내야 할 것이다. 소수의 사람들만이 기꺼히 강령술사를 도울테지만, 그런 이들은 드물게 만족스런 결과를 낸다. 작은 도시나 마을의 공동묘지는 첫번째 습득물을 위한 좋은 장소이지만, 필요하다면 날카로운 칼이나 무거운 둔기를 이용하여 표본 몇 구를 "만드는 것" 을 두려워하지 말라. 첫 번째 하수인들이 노동을 시작한다면 더 이상 자원을 찾기위해 스스로 애쓸 필요가 없어진다. 이후엔 너의 기예를 연습할 시간이 말 그대로 넘치게 된다.
 
-또한 중요한 것은 시신 자체의 유지 관리이다. 사실, 완전히 파괴되고 불완전한 잔해로도 충분한 마법만 있다면 움직일 능력을 부여할 수 있기 때문에 꼭 필요한 것은 아니지만, 너의 예비 하수인들의 관절과 단지가 자유롭게 움직이고 그들을 되살리는데 필요한 의지력을 줄이도록 하기 위한 것이다. 또한 더 크고 대담한 프로젝트를 수행하고자 할 경우에 대비하여 견고하고 신뢰할 수 있는 기반을 마련해야한다.  (46 쪽. 해골 거인과 당신 참조)
+또한 중요한 것은 시신 자체의 유지 관리이다. 사실, 완전히 파괴되고 불완전한 잔해로도 충분한 마법만 있다면 움직일 능력을 부여할 수 있기 때문에 꼭 필요한 것은 아니지만, 너의 예비 하수인들의 관절과 단지가 자유롭게 움직이고 그들을 되살리는데 필요한 의지력을 줄이도록 하기 위한 것이다. 또한 더 크고 대담한 프로젝트를 수행하고자 할 경우에 대비하여 견고하고 신뢰할 수 있는 기반을 마련해야 한다.  (46 쪽. 해골 거인과 당신 참조)
 
 아직 무엇을 할 지 모르는가? 그렇다면 고통 속에서 죽어라. 강령술은 그런 무능한자에게는 어울리지 않는다.]], "_t")
 t("how to be a necromancer, part 2", "강령술사가 되는 법: 제2장", "_t")
@@ -14314,9 +14314,9 @@ A contentious issue arises when it comes time to breathe life into your gathered
 
 Remember, when utilising a runic circle to bend your new minions to your will, make sure beforehand that every rune in the circle is enchanted properly and in no danger of fizzling out. If the unthinkable happens and one of your thralls is freed from your control, offer them goods or equipment in exchange for your life. Few undead will kill their creators after receiving such an act of generosity.]], [[#{italic}#2. 사자의 지배#{normal}#
 
-수집한 표본에 생명을 불어넣을 때, 의견이 갈리는 문제가 발생한다 - 단순히 몸뚱이만을 일으켜 세울 것인가? 아니면 사자의 영혼을 그들의 몸에 다시 한번 속박할 것인가? 많은 강령술사 계파들 조차 논쟁하는 문제다. 베나그라인드 강령술 계파는 영혼의 고통스러운 속박을 기본적으로 추구한다. 속박된 영혼이 만들어내는 괴로움은 언데드 노예들을 더 효과적으로 만든다고 그들은 주장한다. 최근에 세워진 트렌 계파는 어떤가? 그들은 영혼의 자유를 보장하는 것이 더 순종적인 하수인을 만들고, 주인이 살해당하는 일을 줄여줄 뿐만 아니라 우매한 민중들이 당신의 하수인을 더 잘 받아드리도록 한다고 주장한다. 물론, 그들은 여전히 당신을 두들겨 패고, 마을로 끌고가 화형을 시작할 기회만 보고있을 것이다. 하지만 그들은 그런 짓을 하는것에 크게 후회하게 되리라!
+수집한 표본에 생명을 불어넣을 때, 의견이 갈리는 문제가 발생한다 - 단순히 몸뚱이만을 일으켜 세울 것인가? 아니면 사자의 영혼을 그들의 몸에 다시 한 번 속박할 것인가? 많은 강령술사 계파들 조차 논쟁하는 문제다. 베나그라인드 강령술 계파는 영혼의 고통스러운 속박을 기본적으로 추구한다. 속박된 영혼이 만들어내는 괴로움은 언데드 노예들을 더 효과적으로 만든다고 그들은 주장한다. 최근에 세워진 트렌 계파는 어떤가? 그들은 영혼의 자유를 보장하는 것이 더 순종적인 하수인을 만들고, 주인이 살해당하는 일을 줄여줄 뿐만 아니라 우매한 민중들이 당신의 하수인을 더 잘 받아드리도록 한다고 주장한다. 물론, 그들은 여전히 당신을 두들겨 패고, 마을로 끌고가 화형을 시작할 기회만 보고 있을 것이다. 하지만 그들은 그런 짓을 하는것에 크게 후회하게 되리라!
 
-기억하라, 룬 마법진을 사용해, 하수인들은 너의 의지에 속박할 때, 마법진 안의 모든 룬에 제대로 마법이 걸려있는지, 또 흐려질 위험은 없는지 확인해야한다. 생각치도 못한 일이 일어나, 노예 하나가 너의 통제에서 벗어나면 네 생명의 댓가로 좋은 장비나 물품을 지급하라. 이런 관용을 받은 불사자 중 매우 소수만이 주인을 끝내 살해한다.]], "_t")
+기억하라, 룬 마법진을 사용해, 하수인들은 너의 의지에 속박할 때, 마법진 안의 모든 룬에 제대로 마법이 걸려있는지, 또 흐려질 위험은 없는지 확인해야 한다. 생각치도 못한 일이 일어나, 노예 하나가 너의 통제에서 벗어나면 네 생명의 댓가로 좋은 장비나 물품을 지급하라. 이런 관용을 받은 불사자 중 매우 소수만이 주인을 끝내 살해한다.]], "_t")
 t("how to be a necromancer, part 3", "강령술사가 되는 법: 제3장", "_t")
 t([[#{italic}#3. Unwanted Attention#{normal}#
 
@@ -14434,7 +14434,7 @@ As to how to actually destroy one? Well, tell you what. If you manage to defeat 
 
 #{bold}#3. 와이트#{normal}#
 
-와이트는 언데드 사이에서도 유별난 부류다, 그들은 대부분 강령술사에 의해 특별히 만들어지기보다는, 일정한 조건이 맞을 때 그들 자신의 의지로 솟아오르곤 한다. 와이트는 결코 개별적인 영혼이 아니라, 게슈탈트의 일부분이다: 특정한 땅, 즉 전쟁터나 숲, 지하 영묘, 묘지 같은곳에 충분한 피가 흩뿌려지면, 그 땅이 직면해 있는 전투와 파란을 물리적 형상에 가까운 모습으로 무리지어 실체화된 것이 와이트다. 이러한 와이트 생성의 원리는 슬프게도 강령술사 만큼이나 그렇게 많은 피와 죽음을 야기하는 다른 연구나 직업은 없으므로 그들이 종종 와이트를 만들어내는 걸 쉽게 만든다.
+와이트는 언데드 사이에서도 유별난 부류다, 그들은 대부분 강령술사에 의해 특별히 만들어지기보다는, 일정한 조건이 맞을 때 그들 자신의 의지로 솟아오르곤 한다. 와이트는 결코 개별적인 영혼이 아니라, 게슈탈트의 일부분이다: 특정한 땅, 즉 전쟁터나 숲, 지하 영묘, 묘지 같은곳에 충분한 피가 흩뿌려지면, 그 땅이 직면해 있는 전투와 파란을 물리적 형상에 가까운 모습으로 무리 지어 실체화된 것이 와이트다. 이러한 와이트 생성의 원리는 슬프게도 강령술사 만큼이나 그렇게 많은 피와 죽음을 야기하는 다른 연구나 직업은 없으므로 그들이 종종 와이트를 만들어내는 걸 쉽게 만든다.
 
 와이트와 마주친 사람들은 종종 와이트를 끝자락이 헤져 풀어지며 나풀거리는 빛바랜 망토에 싸인 흐릿한 스켈레톤의 형체를 가졌다고, 이상한 불빛이 눈이 있어야 할 자리에서 춤을 추고 있다고 묘사한다. 생존자들은 이런 죽음의 허상이 가까이 있을 때, 생명력이 시들고 빠져나가는 것 같은 특이한 피로감을 느낀다고 말한다, 그러나 와이트의 유령 같은 외모와는 상관없이, 강철과 완력이면 이들을 파괴하거나 적어도 당분간은 자리에서 지워버리는 데 충분하다고 기록되어 있다. 이런 전투가 장기적으로 더 많은 와이트들을 만들어 낼 발판이 될 것 같아 안타깝기는 하지만 말이다...
 
@@ -14454,23 +14454,23 @@ As to how to actually destroy one? Well, tell you what. If you manage to defeat 
 
 #{bold}#5. Spirits#{normal}#
 
-During my travels, I have noticed that some communities in the wild no longer bury their deceased as is the norm in larger settlements. Some folk burn the corpses of their fallen, committing their ashes to the earth instead. When asked why they perform this peculiar practice, I always receive the same answer: Necromancers. Fearful of their dead rising up to slay them at the whims of delusional, murderous filth, they believe that with the burning of the dead, their spirits are forever beyond the reach of a necromancer's bony fingers.
+여행하는 동안, 나는 야생 지역에 있는 공동체들은 더 큰 공동체들과 다르게 그들의 사자를 땅에 그대로 묻지 않는다는 것에 주목하게 됐다. 일부 가족들은 죽은 이의 시체를 태운 다음 재를 대신 땅에 묻었다. 왜 그들은 이런 독특한 장례절차를 수행하는지 물었을 때 나는 항상 같은 답을 얻었다: 강령술사. 사람들은 죽은 자들이 망상에 사로잡힌 채 살인적이고 추악한 괴물로 변해 자신들을 죽이려 하는 것을 두려워하고 있었다, 그들은 죽은 자를 태우면 망자의 영혼이 강령술사의 앙상한 손아귀 너머로 영원히 떠난다고 믿었다.
 
-Alas, this is not true. While fire may burn away a man's physical being, no flame can touch his spirit. Unfortunately, necromancers can. Bereft of both body and freedom, many souls are driven mad in the employ of necromancers, ceaselessly drifting through windswept crypts, harrying any unfortunate wanderers they encounter with a multitude of curses and hexes. Worst of all are those spirits who embrace their newfound purpose, causing them to grow in power at a frightening rate. No other being in Maj'Eyal is so obviously abhorrent to existence itself as these "dreads"; it is almost as though creation itself wants these beings gone from her world. It is my hope that you, and many others, oblige her wish.
-
-    * * *
-
-
-#{bold}#6. Bone Giants#{normal}#
-
-One of the most horrific, vomit-inducing expressions of the necromancer's so-called "art" is the bone giant. Not content with merely profaning the bodies of singular souls, some ambitious necromancers work to bind the bodies of countless skeletons together, creating hideous engines of destruction that can stand many times higher than the height of a normal man.
-
-It is a deadly mistake to liken these abominations to the golems alchemists and archmages employ. Wilful and fey as they are, normal mages often only craft golems for utility and their own protection, while necromancers create bone giants for the sole purpose of dealing death, and the only limit to their destructive capability is the necromancer's twisted imagination. Ever fought a snow giant? Imagine one with six arms and fingers like blades, wrought of sharpened ribs. Imagine one with countless skulls lining every inch of its wretched body, all screaming for your blood to be spilt as it thrashes spinal columns like whips from its disfigured hands! After facing one of these grotesque amalgamations, you'll be begging to go back to the Daikara to pick on simple, frost-rimed sub-men.
+아아, 이건 진실이 아니다. 불꽃이 한 사람의 육체를 태워버릴 수는 있어도 영혼에는 영향을 끼칠 수 없다. 불행하게도, 강령술사는 할 수 있다. 육신과 자유를 잃은 많은 영혼들은 강령술사의 예속으로 광기에 빠지게 되고, 강한 바람이 부는 지하 묘실을 쉴 새 없이 떠돌아다니면서, 그들이 마주치는 불행한 방랑자들을 수많은 저주와 주술로 괴롭힌다. 가장 나쁜 것은 새로 발견한 목적을 수용하여 무서운 속도로 힘을 키우는 영혼들이다. 마즈'에이얄에 있는 다른 어떤 존재도 이러한 "두려움"만큼이나 존재 자체가 혐오스럽지는 않다; 그것은 마치 창조 자체가 이러한 존재들이 그녀의 세계에서 사라지기를 원하는 것과 같다. 너와 다른 많은 사람이 그녀의 소원을 들어주는 것이 나의 희망이다.
 
     * * *
 
 
-#{bold}#7. Liches#{normal}#
+#{bold}#6. 해골 거인#{normal}#
+
+강령술사의 이른바 '예술' 중에서, 가장 소름끼치고 구토를 유발하는 창작물 중 하나는 바로 해골 거인이다. 단지 한 영혼의 육체를 모독하는 것에 만족하지 않고, 몇몇 야심찬 강령술사들은 수많은 해골들의 몸을 한데 묶어, 보통 사람의 키보다 몇 배는 더 거대한 공포스런 파괴의 엔진을 만들어 낸다.
+
+이런 흉물을 연금술사들과 마도사들이 부리는 골렘과 비슷하게 생각하는 것은 치명적인 실수다. 의욕적이고 약간 엉뚱한 보통의 마법사들은 종종 유용성과 자기 보호를 위해 골렘을 만드는 반면, 강령술사들은 죽음을 다룬다는 유일한 목적으로 해골 거인을 창조하는데, 해골 거인의 파괴 능력의 유일한 한계는 강령술사의 뒤틀린 상상력이다. 설원 거인과 싸운 적 있는가? 갈비뼈가  날카롭게 구부러져 있고 여섯 개의 팔과 손가락 끝이 칼날처럼 날카로운 놈으로 한번 상상해 봐라. 비참한 몸 구석구석까지 수많은 해골들이 줄지어 박혀 있는 것을 상상해보라. 해골 거인이 흉하게 비틀린 손으로 척추를 채찍처럼 휘두를 때 너의 피가 흩뿌려지기를 비명 지르며 갈구하는 해골들을 말이다. 이런 기괴한 융합체들 중 하나를 마주한다면, 너는 다이아카라로 돌아가 단순하고 서리 낀 아인종과 싸우게 해달라고 애원하게 될 것이다.
+
+    * * *
+
+
+#{bold}#7. 리치#{normal}#
 
 Hate made flesh. Evil made pure. Death incarnate. The culmination of a necromancer's work. Whatever you know liches as, I can tell you that they do not match the countless myths and legends that surround their terrible figures. They surpass them.
 
@@ -14606,7 +14606,7 @@ And yet I live. Weisman, I sincerely hope that my letter has revealed to you you
 
 Rolf]], [[Dear Weisman,
 
-하! 네 마지막 편지가 내게 일으킨 감정이란... 주로 웃고, 경멸하기에 충분했어! 네 그 나무 쪼가리 칼로 이빨없는 호랑이를 때리는 듯한 이야기를 끝도 없이 나한테 전해야 하겠어? 내가 한번 네 '전설들'을 좀 더 그럴듯하게 써볼게: 어느날, 저는 강아지를 죽이려다가 실패했어요. 이렇게 용맹스러울 때가 있다니!
+하! 네 마지막 편지가 내게 일으킨 감정이란... 주로 웃고, 경멸하기에 충분했어! 네 그 나무 쪼가리 칼로 이빨없는 호랑이를 때리는 듯한 이야기를 끝도 없이 나한테 전해야 하겠어? 내가 한 번 네 '전설들'을 좀 더 그럴듯하게 써볼게: 어느 날, 저는 강아지를 죽이려다가 실패했어요. 이렇게 용맹스러울 때가 있다니!
 
 네 쓰잘데기 없는 장난은 말이야, 내가 최근 뛰어넘은 시련들에 비하면 아무것도 아니야. 수일 전에 나는 오래된 숲을 걷고 있었지(니가 말한 데르스 외곽이야, Weisman! 불쌍하게도 넌 공포에 사로잡혔겠지?), 불행하게도 나는 흉물스럽고 찐득이는 공포에 맞서게 되었지! 거대 개미의 혐오스러운 조상임이 틀림없었지! 뒤에 어마무시한 무리가 뒤따르니까, 마치 대지 전체가 나를 집어삼키려고 덮쳐오는 것 같았어!
 
@@ -14782,11 +14782,11 @@ All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and 
 
 코르낙의 신장은 175cm 정도이다, 보통은 검은 머리칼을 가졌고, 갈색 눈과 불그스름한 피부색을 띈다. 대부분의 코르낙은 장사꾼이나, 농부 혹은 단순 노동자로 종사한다. 도적 무리의 주요 구성원이 코르낙이라는 점은 슬픈 사실이다 . 코르낙은 대가족을 이루는 경향이 있다, 황혼의 시대 이후 그들의 인구수는 빠르게 늘어났다, 특히 서쪽의 농경지와 남쪽의 마지막 희망 주변에서 말이다.
 
-숄타르의 신장은 180cm 정도이다, 검은 피부와 검은 머리칼, 검은 눈을 가졌다. 그들은 마즈'에이얄의 남동쪽에서 기원했다, 그들은 소수에 불과한데 대재앙이 그들의 고향땅을 바다 아래로 가라앉혔기 때문이다. 그들은 자연 친화력으로 잘 알려져있다, 그리고 그들은 자주 치료사, 주입물 제작자 or 혹은 용인 사냥꾼으로 고용된다.
+숄타르의 신장은 180cm 정도이다, 검은 피부와 검은 머리칼, 검은 눈을 가졌다. 그들은 마즈'에이얄의 남동쪽에서 기원했다, 그들은 소수에 불과한데 대재앙이 그들의 고향땅을 바다 아래로 가라앉혔기 때문이다. 그들은 자연 친화력으로 잘 알려져 있다, 그리고 그들은 자주 치료사, 주입물 제작자 or 혹은 용인 사냥꾼으로 고용된다.
 
 마드로프 종은 멸종했다, 마법 사냥과 황혼의 시대에 퍼진 역병 때문이다. 그들은 강력한 마법 사용자로 알려졌었다, 그리고 그런 자들은 마법 사냥꾼의 주된 목표였다. 하지만 그들의 몇가지 흔적들이 여전히 발견되곤 한다, 그들의 붉은 머리와 주근깨 피부가 먼 거리에서 잘 보이기 때문이다. 루머에 따르면 적은 수가 여전히 외딴곳에 있는 성채나 탑에 기거하고 있다고 한다.
 
-하이어의 신장은 182cm 정도이다, 금발과 하얀 피부 그리고 파란 눈이나 회색 눈을 가졌다. 학자의 대부분은 하이어들이다, 그리고 그들이 대부분의 귀족지위를 차지하고있는 경향이 있다. 몇몇은 이것이 차별이고 엘리트주의라고 말한다, 이런 말들이 단순한 질투심에서 나온것일지 몰라도, 하이어들의 높은 지능은 매혹의 시대 고대 콘클라베가 실행한 불가사의한 비전 실험에 의한것이라는 소문이 있다, 하지만 나는 이와 관련된 자료를 찾을 수 없었고 근거 없는 주장이라 판단했다. 하이어의 혈통은 우월함의 표식으로 여겨지며, 하이어들은 하위 혈통과 섞이는것을 불쾌하게 생각한다.
+하이어의 신장은 182cm 정도이다, 금발과 하얀 피부 그리고 파란 눈이나 회색 눈을 가졌다. 학자의 대부분은 하이어들이다, 그리고 그들이 대부분의 귀족지위를 차지하고 있는 경향이 있다. 몇몇은 이것이 차별이고 엘리트주의라고 말한다, 이런 말들이 단순한 질투심에서 나온것일지 몰라도, 하이어들의 높은 지능은 매혹의 시대 고대 콘클라베가 실행한 불가사의한 비전 실험에 의한것이라는 소문이 있다, 하지만 나는 이와 관련된 자료를 찾을 수 없었고 근거 없는 주장이라 판단했다. 하이어의 혈통은 우월함의 표식으로 여겨지며, 하이어들은 하위 혈통과 섞이는것을 불쾌하게 생각한다.
 
 모든 인간 왕국은 장작의 시대 용맹한 자 토크놀에 의해 통일되었다, 그리고 여전히 공평한 자 톨락의 치세 아래 유지되고 있다. 인간의 긴 역사에 대한 완전한 논고는 훨씬 상세한 문서가 필요할 것이다.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 2 - 하플링", "_t")
@@ -14799,15 +14799,15 @@ The Eldorals used to have a kingdom in the north of the continent, but most of i
 The Nargols once had many strong fortifications in the south of Maj'Eyal, but though they suffered less than the Eldoral in the Age of Pyre they still lost great numbers, and much of their centres of population dwindled. The rise of Last Hope has accelerated this process, as many communities are subsumed into the city's suburbs. Nargols are known as great jewellers, alchemists and rune-crafters, and possess some of the best tactical minds of all the races. Many generals and military advisers are employed from their kingdom.
 
 The most famous of all halflings is Queen Mirvenia, most famed for her saving of King Toknor in Last Hope from a siege of orcs. Mystery still surrounds how she managed to bypass the winter's icy floes with her army to reach the citadel in time to rescue Toknor. Some have hypothesised that she enlisted the aid of sorcerers, but none of her troops would talk about the journey afterwards. She wed King Toknor in the second year of the Age of Ascendancy, and gave birth to the first known mixed race child - Tolak the Fair.
-]], [[하플링은 크게 두 인종으로 나뉜다, 엘도랄과 나르골로 말이다, 두 인종이 자주 섞이긴 하지만 말이다. 모든 하플링은 120cm 아래의 키를 가졌다, 그리고 보통 그들의 큰 발과 곱슬머리로 알아차릴 수 있다. 엘도랄은 보통 금발과 푸른눈을 가졌고 나르골은 더 어두운 머리색과 피부색 그리고 헤이즐 색 눈을 지녔으며 대부분은 그들의 사촌들보다 키가 작다. 하플링은 그들의 지능과 재빠른 기지로 알려져 있다, 하지만 다른 종족을 대할때의 오만함으로도 잘 알려져있다 - 하플링들은 이 말을 부정하지 않는데 그들이 그럴만한 권리가 있다고 믿기 때문이다.
+]], [[하플링은 크게 두 인종으로 나뉜다, 엘도랄과 나르골로 말이다, 두 인종이 자주 섞이긴 하지만 말이다. 모든 하플링은 120cm 아래의 키를 가졌다, 그리고 보통 그들의 큰 발과 곱슬머리로 알아차릴 수 있다. 엘도랄은 보통 금발과 푸른눈을 가졌고 나르골은 더 어두운 머리색과 피부색 그리고 헤이즐 색 눈을 지녔으며 대부분은 그들의 사촌들보다 키가 작다. 하플링은 그들의 지능과 재빠른 기지로 알려져 있다, 하지만 다른 종족을 대할 때의 오만함으로도 잘 알려져 있다 - 하플링들은 이 말을 부정하지 않는데 그들이 그럴만한 권리가 있다고 믿기 때문이다.
 
-하플링은 마즈'에이얄의 주된 지배 종족이었다, 전술적인 쉐르'툴 유적들을 통제하에 두고 넓은 땅을 통치했다. 하플링과 인간 사이의 전쟁기록은 상당하다, 그리고 많은 전쟁에서 하플링들은 승리자였다. 하지만 장작의 시대 그들은 커다란 파멸을 마주했다, 오크들이 하플링들은 주된 목표로 맹렬하게 공격했기 때문이다, 그리고 많은 수의 하플링 공동체가 지도에서 사라졌다. 그리고 이 때문에 현대의 하플링들은 다른 종족과 거래하는것에 더 의존하게 되었다, 특히 인간과 말이다.
+하플링은 마즈'에이얄의 주된 지배 종족이었다, 전술적인 쉐르'툴 유적들을 통제하에 두고 넓은 땅을 통치했다. 하플링과 인간 사이의 전쟁기록은 상당하다, 그리고 많은 전쟁에서 하플링들은 승리자였다. 하지만 장작의 시대 그들은 커다란 파멸을 마주했다, 오크들이 하플링들은 주된 목표로 맹렬하게 공격했기 때문이다, 그리고 많은 수의 하플링 공동체가 지도에서 사라졌다. 그리고 이때문에 현대의 하플링들은 다른 종족과 거래하는것에 더 의존하게 되었다, 특히 인간과 말이다.
 
-엘도랄은 대륙의 북쪽에 왕국을 가졋었다, 하지만 대부분의 왕국은 오크와의 전쟁에서 멸망했으며 그다지 재건되지 않았다. 하지만 비록 다른 종족들과 공유하긴 하지만 하플링들은 여전히 데르쓰와 같은 농경 정착지를 가지고 있다. 엘도랄들은 위대한 치유사와 농부로 알려져있다, 그리고 그들의 슬링 기술은 대륙 최고라고 알려져있다.
+엘도랄은 대륙의 북쪽에 왕국을 가졋었다, 하지만 대부분의 왕국은 오크와의 전쟁에서 멸망했으며 그다지 재건되지 않았다. 하지만 비록 다른 종족들과 공유하긴 하지만 하플링들은 여전히 데르쓰와 같은 농경 정착지를 가지고 있다. 엘도랄들은 위대한 치유사와 농부로 알려져 있다, 그리고 그들의 슬링 기술은 대륙 최고라고 알려져 있다.
 
-나르골은 한때 대륙의 남쪽에 강대한 방어 기지들을 가지고 있었다, 하지만 장작의 시대 엘도랄들 보다 덜 시달렸음에도 그들은 많은 수를 잃었다, 그리고 그들의 주요 인구 집단의 인구수가 줄어들기 시작했다. 마지막 희망의 등장이 이 과정에 속도를 더했는데 많은 공동체가 도시의 교외로 흡수되었기 때문이다. 나르골은 또한 위대한 세공사, 연금술사 룬 제작자로 알려져있다 그리고  모든 종족들 중에서도 가장 뛰어난 참모진들중 다수가 하플링들이다. 많은 장군들과 군사 전문가들이 그들의 왕국에서 차출되곤 한다.
+나르골은 한때 대륙의 남쪽에 강대한 방어 기지들을 가지고 있었다, 하지만 장작의 시대 엘도랄들 보다 덜 시달렸음에도 그들은 많은 수를 잃었다, 그리고 그들의 주요 인구 집단의 인구수가 줄어들기 시작했다. 마지막 희망의 등장이 이 과정에 속도를 더했는데 많은 공동체가 도시의 교외로 흡수되었기 때문이다. 나르골은 또한 위대한 세공사, 연금술사 룬 제작자로 알려져 있다 그리고  모든 종족들 중에서도 가장 뛰어난 참모진들중 다수가 하플링들이다. 많은 장군들과 군사 전문가들이 그들의 왕국에서 차출되곤 한다.
 
-하플링중에서 가장 유명한 이는 여왕 미르베니아다, 그녀는 오크의 공성에서 왕 토크놀을 구한것으로 가장 잘 알려져있다. 불가사의한 점은 어떻게 그녀가 군대와 함께 겨울의 얼어붙은 유빙위를 제 시간에 건너 성채에 도달해 토크놀을 구출할 수 있었냐는 것이다. 몇몇은 그녀가 마법사들의 힘을 빌렸을거라 가설을 세웠다, 하지만 그녀의 군인들중 누구도 그날의 여정을 말하지 않았따. 그녀는 주도의 시대 두번째 해에 왕 토크놀과 혼인했다, 그리고 최초로 알려지게될 혼혈 종족의 자손 -공평한자 토크놀을 낳았다.
+하플링 중에서 가장 유명한 이는 여왕 미르베니아다, 그녀는 오크의 공성에서 왕 토크놀을 구한것으로 가장 잘 알려져 있다. 불가사의한 점은 어떻게 그녀가 군대와 함께 겨울의 얼어붙은 유빙 위를 제 시간에 건너 성채에 도달해 토크놀을 구출할 수 있었냐는 것이다. 몇몇은 그녀가 마법사들의 힘을 빌렸을거라 가설을 세웠다, 하지만 그녀의 군인들중 누구도 그날의 여정을 말하지 않았다. 그녀는 주도의 시대 두번째 해에 왕 토크놀과 혼인했다, 그리고 최초로 알려지게 될 혼혈 종족의 자손 - 공평한 자 톨락을 낳았다.
 ]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 3 - Dwarves", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 3 - 드워프", "_t")
 t([[The dwarves are an exceptionally secretive and quiet race, reluctant to talk about themselves to outsiders unless hefty bribes are paid. Many times in their history they have cut off all contact with the other races for no known reason, shutting tight the great iron doors that cover the trade passages to their mines and their cavernous cities. However of late they have become more open with the outside world, and I have even had the pleasure of receiving the unique distinction of being allowed to enter their main city, the Iron Throne, and speaking with several of their guild leaders.
@@ -14818,11 +14818,11 @@ Dwarves are known especially for their smithwork and artificing, which is unriva
 
 Their skill with metal is renowned above all else. Dwarven steel is considered the most durable material for use in construction, and dwarves are the finest workers with stralite and voratun, precious metals of immense value. They trade heavily in their crafts from their capital the Iron Throne, but allow no outsiders in - instead they send innumerable merchant caravans out to all the cities to ply their wares.
 
-As well as the many merchant dwarves one may meet there are also a great deal of young dwarves who venture beyond their halls of stone. These are generally of adventuring fare, and it is encouraged in dwarven society to experience something of the wider world in one's younger years. This is known to them as being "smithed upon the anvil of the world". In private though some senior dwarves admit that this activity is promoted to help with their "market research strategy".]], [[드워프들은 극도로 폐쇄적이고 은둔적인 종족으로 알려져있다, 드워프들은 두둑한 돈주머니를 뇌물로 쥐어주지 않는이상 외부인에게 그들 스스로에 대해 말하기를 꺼려한다. 그들의 역사속 대부분 시간동안 드워프들은 무역로와 동굴 도시들을 감싸는 거대한 금속 관문들을 굳게 걸어잠구고, 다른 종족들과 알려진 어떤 이유도 없이 소통하지 않고 살아왔다. 하지만 최근에 들어 그들은 외부 세계에 조금 더 개방적이게 변화했다, 그리고 심지어 나는 그들의 주요 도시인 철의 왕좌에 입장할 수 있는 자격과 몇몇 길드 마스터와 대화할 수 있는 특권을 누리는 기쁨을 얻기도 했다.
+As well as the many merchant dwarves one may meet there are also a great deal of young dwarves who venture beyond their halls of stone. These are generally of adventuring fare, and it is encouraged in dwarven society to experience something of the wider world in one's younger years. This is known to them as being "smithed upon the anvil of the world". In private though some senior dwarves admit that this activity is promoted to help with their "market research strategy".]], [[드워프들은 극도로 폐쇄적이고 은둔적인 종족으로 알려져 있다, 드워프들은 두둑한 돈주머니를 뇌물로 쥐어주지 않는이상 외부인에게 그들 스스로에 대해 말하기를 꺼려한다. 그들의 역사속 대부분 시간 동안 드워프들은 무역로와 동굴 도시들을 감싸는 거대한 금속 관문들을 굳게 걸어잠구고, 다른 종족들과 알려진 어떤 이유도 없이 소통하지 않고 살아왔다. 하지만 최근에 들어 그들은 외부 세계에 조금 더 개방적이게 변화했다, 그리고 심지어 나는 그들의 주요 도시인 철의 왕좌에 입장할 수 있는 자격과 몇몇 길드 마스터와 대화할 수 있는 특권을 누리는 기쁨을 얻기도 했다.
 
-드워프들은 150cm 정도 신장을 가졌다, 보통 검거나 회색 마리칼을 가졌고 땅딸막 하며 근육질의 체형이다, 그리고 그들은 종족 특유의 물리적 저항력으로 잘 알려져있다, 드워프 여성은 드워프 남성과 구분하기 어렵지만 그들의 수염에 달려있는 장식용 구슬로 쉽게 구분할 수 있다. 모든 드워프들은 그들의 수염에대해 굉장한 자긍심을 가지고 있으며 수염을 티끌 하나 없이 깨끗하게 유지하려고 한다. 드워프에게 있어 가장 큰 모욕은 그의 수염을 하찮게 여기는 것이다, 그리고 드워프에게 있어 최악의 고통을 표출하는 방식은 그들의 수염을 잡아 뜯는것이다.
+드워프들은 150cm 정도 신장을 가졌다, 보통 검거나 회색 마리칼을 가졌고 땅딸막 하며 근육질의 체형이다, 그리고 그들은 종족 특유의 물리적 저항력으로 잘 알려져 있다, 드워프 여성은 드워프 남성과 구분하기 어렵지만 그들의 수염에 달려있는 장식용 구슬로 쉽게 구분할 수 있다. 모든 드워프들은 그들의 수염에대해 굉장한 자긍심을 가지고 있으며 수염을 티끌 하나 없이 깨끗하게 유지하려고 한다. 드워프에게 있어 가장 큰 모욕은 그의 수염을 하찮게 여기는 것이다, 그리고 드워프에게 있어 최악의 고통을 표출하는 방식은 그들의 수염을 잡아 뜯는것이다.
 
-드워프들은 특히나 다른 종족과 비교조차 할 수 없는 대장간 기술과 공예술로 잘 알려져있다. 그리고 그들은 한계까지 이윤을 뽑아내는 교활한 무역자들로도 알려져있다. 드워프들의 사회는 상당히 경직된 계급 사회로 알려져있다, 그들은 가문단위로 광부, 제련사, 공예가 등등으로 구별되어져 있다, 그리고 태어난 가문이 맡은것 외의 직종에서 종사하는 경우는 거의 알려져 있지 않다. 그러나 길드간 눈에 띄는 불평등은 없으며 길드 간 통치 위원회에 동등한 수의 길드 인원들이 선출되어 있다. 누가 실질적인 수장으로 활동하고 있는지는 외부인에게 알려져 있지 않지만, 엄청난 뇌물을 준다해도 그 어떤 드워프도 이 주제에 대해 이야기하려 들지 않는다. 드워프들이 그들의 지도자에 대해 넌지시 말할때는 거의 항상 종교적 경의를 담은 표현을 사용하곤 한다.
+드워프들은 특히나 다른 종족과 비교조차 할 수 없는 대장간 기술과 공예술로 잘 알려져 있다. 그리고 그들은 한계까지 이윤을 뽑아내는 교활한 무역자들로도 알려져 있다. 드워프들의 사회는 상당히 경직된 계급 사회로 알려져 있다, 그들은 가문단위로 광부, 제련사, 공예가 등등으로 구별되어져 있다, 그리고 태어난 가문이 맡은것 외의 직종에서 종사하는 경우는 거의 알려져 있지 않다. 그러나 길드간 눈에 띄는 불평등은 없으며 길드 간 통치 위원회에 동등한 수의 길드 인원들이 선출되어 있다. 누가 실질적인 수장으로 활동하고 있는지는 외부인에게 알려져 있지 않지만, 엄청난 뇌물을 준다해도 그 어떤 드워프도 이 주제에 대해 이야기하려 들지 않는다. 드워프들이 그들의 지도자에 대해 넌지시 말할 때는 거의 항상 종교적 경의를 담은 표현을 사용하곤 한다.
 
 드워프들의 금속 기술은 타의 추종을 불허한다. 드워프제 강철은 가장 견고한 건축용 재료로 취급되며, 막대한 가치를 지닌 스트랄라이트와 보라툰같은 귀금속에 있어서도 최고의 기술을 가지고있다. 철의 왕좌에서 생산된 공예품을 주류상품으로 삼지만, 외부인은 누구도 들어오게 하지 않는다 - 대신 그들은 셀수없는 행상인들을 도시밖으로 보내 상품들을 취급하게 한다.
 
@@ -14842,7 +14842,7 @@ They deal with other races seldom, preferring to keep a low profile, and most of
 
 샬로레는 오늘날까지 이어지는 마법 사용의 긴 역사를 가졌다. 다른 종족들이 마법을 큰 위험으로 기피함에도 불구하고, 샬로레는 마법을 받아들였다, 그리고 마법은 여전히 그들 사회 전반에 광범위하게 사용되고 있다. 하지만 그들은 다른 종족에게 이러한 마법사용을 주의깊게 숨기고 있다. 샬로레는 마법폭발을 일으킨 자들중 하나였으며 그들은 그걸 얼마 안가 망각해버렸지만, 비난 받았던 기억만큼은 그들 사이에서 깊게 흐르고 있다. 황혼의 시대에 행해진 마법 사냥에서 그들은 도시의 문을 잠구고 일대를 안개로 뒤덮고는 아주 은밀하게만 도시로 출입했다. 이것은 수세기동안 샬로레가 다시 세계 사회에 받아들여질때까지 지속되었다, 그리고 그들은 여전히 다른 이들에게 극명하게 불신되고 있다.
 
-그들의 수도는 엘발라로, 남서쪽의 반도에 자리하고있으며 샬로레는 오직 소수의 정착지만을 엘발라 외부에 건설하였다. 그들은 자연적으로 장수하는 종족이지만 그들의 숙련된 마법기예가 그들의 수명을 무한정 늘릴 수 있게 해주었다. 그들 중 가장 나이가 많은 불멸자들은 그들의 왕 아라니온 게일을 필두로 장로회를 구성한다. 죽음은 샬로레에게 특별한 매력으로 다가왔으며, 초기의 샬로레 왕들은 그들의 사후를 위한 거대한 무덤들을 세우게 했고 육체 보존술과 강령술을 연구하게 했다. 믈론 샬로레들은 이 사실을 부정한다.
+그들의 수도는 엘발라로, 남서쪽의 반도에 자리하고 있으며 샬로레는 오직 소수의 정착지만을 엘발라 외부에 건설하였다. 그들은 자연적으로 장수하는 종족이지만 그들의 숙련된 마법기예가 그들의 수명을 무한정 늘릴 수 있게 해주었다. 그들 중 가장 나이가 많은 불멸자들은 그들의 왕 아라니온 게일을 필두로 장로회를 구성한다. 죽음은 샬로레에게 특별한 매력으로 다가왔으며, 초기의 샬로레 왕들은 그들의 사후를 위한 거대한 무덤들을 세우게 했고 육체 보존술과 강령술을 연구하게 했다. 믈론 샬로레들은 이 사실을 부정한다.
 
 그들은 다른 종족들을 좀처럼 상대하지 않으며, 가능한한 주목받지 않으려 한다, 그리고 그들의 무역 대부분은 하플링 중개상들을 통해 이루어진다. 소수의 룬 제작자와 부여술사들만이 종종 다른 대도시로 사업차 여행을 떠난다, 그리고 소수의 자신만만한 젊은이들은 이보다 더 나아가 집에서 더 먼곳으로 여행을 떠나곤 한다.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 5 - Thaloren", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 5 - 탈로레", "_t")
@@ -14852,9 +14852,9 @@ Their capital city is Shatur, hidden deep within the northern woods, and they ar
 
 Those who choose to leave the fastness of the forest tend to be of unique disposition with unusual attitudes and traits. Oft they are musicians, bowmasters or skilled warriors. However they are sometimes mistrusted heavily, as rumour has it that many of those who leave Shatur are actually criminals expelled for the very worst crimes. In any case they tend to be natural loners who wander the world on their own personal quests.
 
-The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], [[탈로렌 (혹은 탈로레 - lit "분노의 형제자매들")은 평균적으로 193cm이다, 검은 갈색 머리를 가지고 눈은 엹은 갈색이다. 그들은 보통 근육질이며, 육체적 강함으로 잘 알려져있다. 탈로레는 요정같은 성미로 유명한데 - 노래 부르는것을 즐기다가도 급작스럽게 분노하는 성미를 가졌다. 탈로레와 샬로레의 관계는 그들이 친척들의 마법 사용을 강하게 반대하기 때문에 상당히 껄끄럽다.
+The Thaloren do business very rarely with the outside world, but when they do it is normally for metals and certain foodstuffs that they cannot get themselves. Usually in trade they sell woodcraft and fine silks. This is the only legal source of elven-wood, a rare commodity that is often sought after for fletchwork. Black market sources rely on poachers to cut trees from the Shatur forest - an immensely risky business, but also very profitable for the high prices paid by Shaloren mages for an elven-wood staff.]], [[탈로렌 (혹은 탈로레 - lit "분노의 형제자매들")은 평균적으로 193cm이다, 검은 갈색 머리를 가지고 눈은 엹은 갈색이다. 그들은 보통 근육질이며, 육체적 강함으로 잘 알려져 있다. 탈로레는 요정같은 성미로 유명한데 - 노래 부르는것을 즐기다가도 급작스럽게 분노하는 성미를 가졌다. 탈로레와 샬로레의 관계는 그들이 친척들의 마법 사용을 강하게 반대하기 때문에 상당히 껄끄럽다.
 
-그들의 수도는 샤툴로, 북부 숲의 깊은곳에 숨겨져있으며, 그들은 샤툴의 주변 숲에조차 외부인이 가까이 오는걸 혐오한다. 궁수와 전사들이 주의깊게 경계를 순찰하고 있으며, 접근하는 누구에게든 나무 위에서 죽음을 비처럼 쏟아낼 준비가 되어있다. 그들의 리더는 여왕 네실라 탄탈렌이다, 그리고 그들은 거대한 나무에 파여진 넓은 구멍에 사는것으로 알려져있다, 하지만 탈로레의 사회에 관해서 다른것들은 거의 알려져 있지 않다.
+그들의 수도는 샤툴로, 북부 숲의 깊은곳에 숨겨져있으며, 그들은 샤툴의 주변 숲에조차 외부인이 가까이 오는걸 혐오한다. 궁수와 전사들이 주의깊게 경계를 순찰하고 있으며, 접근하는 누구에게든 나무 위에서 죽음을 비처럼 쏟아낼 준비가 되어있다. 그들의 리더는 여왕 네실라 탄탈렌이다, 그리고 그들은 거대한 나무에 파여진 넓은 구멍에 사는것으로 알려져 있다, 하지만 탈로레의 사회에 관해서 다른것들은 거의 알려져 있지 않다.
 
 숲의 요새를 떠나기로 정한 이들은 별난 성격으로 특이한 태도와 특성을 가진 경향이 있다. 자주 그들은 음악가나, 명궁 혹은 숙련된 전사들이다. 하지만 그들은 때때로 강하게 불신받으며, 샤툴을 떠난 이들중 많은이가 사실은 가장 끔찍한 죄를 지어 추방된 자들이라는 루머가 있기 때문이다. 어떤 경우에든 그들은 타고난 고독생활을 즐기는 이들이며 보통 탐구를 위해 홀로 떠돌곤 한다.
 
@@ -14868,7 +14868,7 @@ They traded little with the other races, and were very protective of their coast
 
 Alas their love of the sea was to be their undoing. When the Cataclysm came the whole of the coastal kingdom was shorn away and fell into the sea, annihilating almost the entire race. What small numbers survived committed suicide soon after by leaping from the eastern cliffs into the ocean, following their fallen brothers and sisters. Almost no evidence of their civilisation remains.]], [[날로렌 (혹은 날로레 - lit "영혼의 형재자매들")은 멸종한 종족이다, 대재앙으로 인해 그들의 영토가 바다에 휩쓸려 사라졌기 때문이다. 하지만 기록물이 거의 남아있지 않음에도 독립된 엘프 종족으로써 그들은 연구할만한 가치가 있다. 현재 날로레에 관해 이야기되는것들은 신화에서 나온것들이지만, 이중에서도 진실을 가려낼 수 있었다.
 
-날로레는 178cm정도이며, 밝은 금발과 초록빛의 눈을 가졌다. 그들은 놀라울 정도로 말랐지만 재빠르고 솜씨좋은 움직임으로 유명했다. 그들의 왕국은 마즈'에이얄의 동쪽에 위치했었는데, 그들의 마을은 전부 바닷가나 커다란 강에 가로질러 위치했다. 그들은 스스로를 어부로, 스폰지 채취 잠수부, 뱃사람과 음악가로 여겼다. 날로레는 숨 한번으로 물속에서 한시간이상 보낼 수 있는것으로 유명하였다, 그리고 비전 능력이 있는 자들은 무한정 잠수할 수 있었다고 한다.
+날로레는 178cm정도이며, 밝은 금발과 초록빛의 눈을 가졌다. 그들은 놀라울 정도로 말랐지만 재빠르고 솜씨좋은 움직임으로 유명했다. 그들의 왕국은 마즈'에이얄의 동쪽에 위치했었는데, 그들의 마을은 전부 바닷가나 커다란 강에 가로질러 위치했다. 그들은 스스로를 어부로, 스폰지 채취 잠수부, 뱃사람과 음악가로 여겼다. 날로레는 숨 한 번으로 물속에서 한시간이상 보낼 수 있는것으로 유명하였다, 그리고 비전 능력이 있는 자들은 무한정 잠수할 수 있었다고 한다.
 
 날로레는 다른 종족과는 적은 교류를 했으며 그들의 해안선 영토를 굉장히 민감하게 보호했다. 그들은 특히나 영토 중앙에 있는 쉐르'툴 유적을 열성적으로 보호했다. 날로레는 이 유적을 탐구하는데 특이할정도로 열성적이었다, 하지만 날로레들은 유적에 접근하지 않았는데, 그들 스스로 유적을 만지기엔 너무 조심스러웠기 때문으로 보인다. 오크들이 그들의 영토를 자주 잠식했었지만 언제나 사슬갑옷을 입고 날카로운 삼지창을 든 전사들에게 격퇴되었다.
 
@@ -14890,7 +14890,7 @@ Due to the safety and comfort of Elvala, and their mistrust of much of the outsi
 
 샬로레들의 마법 사용이 선택적(논란의 여지가있지만)인것이지만 , 오우거는 그런 사치를 부릴수 없다. 그들의 룬 문신은 중요한 내부 장기들 만큼이나 그들의 생명유지와 생물학적 무결성에 중요하다, 그리고 지구랏트의 "정화"시도로 포획된 오우거들은 스스로의 무게를 이기지도 못해 고꾸라지며, 장기들은 하나씩 기능을 정지했다 오우거에게 자연 주입물이 필수적인것처럼 마법 주입물 또한 그러하다 생각된다. 그렇기 때문에 오우거에게 번식은 매우 신중하게 이루어져야하는 작업이며 오우거 신생아는 주입물 없이 몇달간 생존할 수 있다, 그러나 그 후에는 오우거 부모들은 자녀에게 룬을 주입하고 약초 주입물을 철저하게 각인해야 한다. 오우거 부모들은 보통 이 일을 함께한다, 서로의 룬을 참고자료 삼아 작업하며, 룬을 그리는 과정에서 어떤 실수라도 아이의 건강과 성장에 악영향을 끼친다 (잘못 그려진 각인이 오우거의 성질을 억누른다고 믿어지지만 실제로는 악영향을 끼칠 뿐이다). 그런면에서 오우거 아이의 성장과 정신적 육체적 성격적 발달에 있어 주입물이 유의미한 영향을 끼친다고 할 수 있다.	
 
-엘발라의 안전함과 편안함 때문에, 그리고 그들이 가진 외부세계에 대한 불신 때문에, 그들의 고향을 떠난 오우거들은 대부분 교역을 위해서만 여정을 나서며 때때로 더 커다란 룬과 주입물 시장에 뛰어들기도 한다. 그리고 이들은 자주 성공을 거두는데 그들이 가진 이 분야의 재능 덕분이다. '모험가'라고 여겨질 수 있는 몇 안 되는 오우거들은 짐을 싸서 갑자기 떠나는 경향이 있다. 영광이나 재물을 위해서가 아니라, 그들은 세상에 되풀이되는 불행의 근원을 찾아 대의로서 뿌리뽑길 원하기 때문이다. 곡물이 약탈되었다는 소식을 들은 오우거가 좌절감에 한숨을 쉬는 것은 드문 일이 아니며 그대로 떠나, 며칠 후 한 때 도적떼 였던것의 피가 몽둥이에 범벅이 된채 돌아와 곧바로 농작물을 가꾸러 돌아가곤한다.]], "_t")
+엘발라의 안전함과 편안함 때문에, 그리고 그들이 가진 외부세계에 대한 불신 때문에, 그들의 고향을 떠난 오우거들은 대부분 교역을 위해서만 여정을 나서며 때때로 더 커다란 룬과 주입물 시장에 뛰어들기도 한다. 그리고 이들은 자주 성공을 거두는데 그들이 가진 이 분야의 재능 덕분이다. '모험가'라고 여겨질 수 있는 몇 안 되는 오우거들은 짐을 싸서 갑자기 떠나는 경향이 있다. 영광이나 재물을 위해서가 아니라, 그들은 세상에 되풀이되는 불행의 근원을 찾아 대의로서 뿌리뽑길 원하기 때문이다. 곡물이 약탈되었다는 소식을 들은 오우거가 좌절감에 한숨을 쉬는 것은 드문 일이 아니며 그대로 떠나, 며칠 후 한때 도적떼였던 것의 피가 몽둥이에 범벅이 된 채 돌아와 곧바로 농작물을 가꾸러 돌아가곤 한다.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 8 - Orcs (extinct)", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 8 - 오크 (멸종)", "_t")
 t([[The orcs are, joyfully, extinct from Maj'Eyal, following the purge instigated by King Toknor the Brave at the start of the Age of Ascendancy. But an academic study of their previous culture and civilisation is still of interest, primitive though it may have been.
 
@@ -14926,7 +14926,7 @@ What caused them to become extinct is unknown, though many theories abound. The 
 
 그들의 외모에 대해 우리는 거의 아무것도 알지 못하는데, 그것은 그들 자신을 묘사하는 남아 있는 예술작품이나 기록이 없기 때문이다. 그러나 그들의 폐허에는 계단, 문, 그리고 인간에게도 적당한 방이 있었기 때문에 그들은 다른 일반적인 종족들과 비슷한 형태였을 것이다. 오크톤은 그들의 도구와 유물에 대한 연구를 통해 그들이 굉장히 긴 팔다리와 손가락을 가진 약 160cm의 신장이었을 것이라고 추정한다.
 
-많은 이론들이 있지만, 그들이 멸종하게 된 원인은 알려지지 않았다. 현재 학계에서 가장 인기 있는 것은 그들의 강력한 마법이 어떤 큰 내분 중에 그들 자신의 백성들에게 돌아갔다는 것이다. 그러나 다른 이론들도 중요하다 - 악마학 교수인 개리발트 아치맨은 쉐르'툴이 낭비에 가까운 비전 에너지를 광범위하게 사용했다고 믿는다.  이 때문에 쉐르'툴은 고대 종족을 전멸시킨 다른 세계의 비틀어진 힘을 끌어들였을지도 모른다고 추측한다. 어떤 사람들은 심지어 그들이 진정으로 멸종된 것이 아니라 숨어 있거나 혹은 다른 곳으로 이 세상을 떠났다고 믿는다. 진실이 결코 완전히 밝혀지지 않을까 두렵지만, 그들이 남긴 유물에 대한 지속적인 연구와 조사는 엄청난 가치와 영감을 계속 제공하고 있다.]], "_t")
+많은 이론들이 있지만, 그들이 멸종하게 된 원인은 알려지지 않았다. 현재 학계에서 가장 인기 있는 것은 그들의 강력한 마법이 어떤 큰 내분 중에 그들 자신의 백성들에게 돌아갔다는 것이다. 그러나 다른 이론들도 중요하다 - 악마학 교수인 개리발트 아치맨은 쉐르'툴이 낭비에 가까운 비전 에너지를 광범위하게 사용했다고 믿는다.  이때문에 쉐르'툴은 고대 종족을 전멸시킨 다른 세계의 비틀어진 힘을 끌어들였을지도 모른다고 추측한다. 어떤 사람들은 심지어 그들이 진정으로 멸종된 것이 아니라 숨어 있거나 혹은 다른 곳으로 이 세상을 떠났다고 믿는다. 진실이 결코 완전히 밝혀지지 않을까 두렵지만, 그들이 남긴 유물에 대한 지속적인 연구와 조사는 엄청난 가치와 영감을 계속 제공하고 있다.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 10 - Monstrous Races", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 10 - 괴수 종족들", "_t")
 t([[No text would be complete without at least a brief note of some of the more brutish races which infest our world. These do not hold any civilised society of note, nor in general do they seem capable of any form of higher thought or culture, but they are still of interest to study for any who take delight in analysing beings of more primitive intellect.
 
@@ -15399,7 +15399,7 @@ Saw an absolutely gigantic troll, but fortunately I threw him off my scent."]], 
 
 ...
 
-무지막지하게 커다란 트롤을 발견했다. 다행히 그 놈으로 부터 내 자취를 감출 수 있었다."]], "_t")
+무지막지하게 커다란 트롤을 발견했다. 다행히 그 놈으로부터 내 자취를 감출 수 있었다."]], "_t")
 t([[You find a tattered page scrap. Perhaps this is part of a diary entry.
 "...ack again, but he's just a stupid old troll. It'll be easy to not let him get wind of me.
 
@@ -15468,7 +15468,7 @@ We must never forget the terrors of the Great Evil, and the suffering brought up
 
 그러나 이에 만족하지 못하는 자들이 있다. 이치에 어긋난 힘으로 이 세계의 아름다움을 뒤틀어 버리고자 하는 이들이. 그들은 자신들이 초래할 폐해를 고려하지도 않은 채, 마법의 힘을 이용하여 자연의 결을 뜯어내고 마음대로 이어붙여 버린다. 이러한 행위는 가끔은 호기심으로부터, 또는 선을 행하기 위한 잘못된 열망으로부터 비롯되지만, 보통은 탐욕과 악의, 힘에 대한 비뚤어진 집착이 그 원인이다. 심지어 좋은 의도를 가지고서  마법의 악독함을 이용하고자 하는 이들 조차도 필연적으로 해악을 끼치게 되며, 그들이 조작하려던 그 역겨운 힘에 오염되어 타락하고 만다.
 
-역사는 우리에게 그 힘이 가진 위험성에 대해 잘 가르쳐준다. 그 첫번째 예시는 쉐르'툴로, 비록 우리가 잘 알지 못하는 존재들이나, 우리는 그들이 마법을 조작하여 현대의 마법사들은 꿈도 꾸지 못할 힘을 빚어냈음을 알고 있다. 그리고 그들은 스스로를 완전히 파멸시키고 말았다. 아아, 그러나 쉐르'툴의 몰락 이후 새로이 도래한 종족들은, 아무런 교훈을 얻지 못하였다. 역사에 기록된 첫번째 전쟁인 인간과 하플링 사이의 전쟁은, 쉐르'툴의 유적에 대한 소유권을 두고 일어난 것이었다. 이후 그들 사이의 수많은 전쟁 속에서 마법이 사용되었고, 결국 2천년 간 지속된 살육전 끝에, 두 종족이 더는 서로 싸울 수 없을 정도로 만신창이가 되고 나서야 싸움을 멈출 수 있었다. 우리의 비밀 결사는 이 때 만들어졌으며, 우리는 그 광기와 유혈을 막고자 노력했지만, 오오, 결국 우리는 실패하고 말았다.
+역사는 우리에게 그 힘이 가진 위험성에 대해 잘 가르쳐준다. 그 첫번째 예시는 쉐르'툴로, 비록 우리가 잘 알지 못하는 존재들이나, 우리는 그들이 마법을 조작하여 현대의 마법사들은 꿈도 꾸지 못할 힘을 빚어냈음을 알고 있다. 그리고 그들은 스스로를 완전히 파멸시키고 말았다. 아아, 그러나 쉐르'툴의 몰락 이후 새로이 도래한 종족들은, 아무런 교훈을 얻지 못하였다. 역사에 기록된 첫번째 전쟁인 인간과 하플링 사이의 전쟁은, 쉐르'툴의 유적에 대한 소유권을 두고 일어난 것이었다. 이후 그들 사이의 수많은 전쟁 속에서 마법이 사용되었고, 결국 2천년 간 지속된 살육전 끝에, 두 종족이 더는 서로 싸울 수 없을 정도로 만신창이가 되고 나서야 싸움을 멈출 수 있었다. 우리의 비밀 결사는 이때 만들어졌으며, 우리는 그 광기와 유혈을 막고자 노력했지만, 오오, 결국 우리는 실패하고 말았다.
 
 우리 인류는 마법으로 점철된 싸움에서 약화되었고, 결국 우리의 수를 아득히 뛰어넘는 오크들의 공세에 무방비로 노출되고 말았다. 그러나 우리 자신의 힘과 자연의 요새를 의지하는 대신, 저 어리석은 엘프들은 오직 마법의 힘을 이용하는 것만이 우리를 구원할 수 있으리라 여겼다. 그 얼마나 그릇된 판단이었단 말인가... 그들의 음흉한 마법사들은 쉐르'툴의 유적에 잠재된 사악한 힘에 손을 대었고, 이로 인해 풀려난 파멸적인 에너지 파동은 온 세상의 절반을 새까맣게 태워버리고 말았다. 산은 바스러지고, 호수가 끓어오르며, 맹렬한 불길이 온 땅을 뒤덮어 모든 생명을 앗아갔다. 실로 그 참상을 말로써 온전히 표현할 방법은 없으리라. 하지만 이는 잊혀지지 않을 것이며, 결코 용서받지 못할 것이다. 샬로렌 족속은 그들의 책임을 부인하려 했으나, 그들의 이미 수백만 명의 피를 손에 묻혔다.
 
@@ -15480,7 +15480,7 @@ We must never forget the terrors of the Great Evil, and the suffering brought up
 
 그러나 아직 우리가 위험으로부터 벗어난 것은 아니다. 마법은 여전히 존재하고 있지만 보통은 은밀히 숨겨져있다. 고통스럽던 날들의 기억은 나날이 희미해져가고, 심지어는 연금술사나 부여술사들이 대놓고 거리를 활보하는 모습을 볼 수 있기까지 하다. 이 세상을 고통에 빠뜨렸던, 그 부류의 작자들이 뻔뻔하게 나도는 모습을. 그러나 더욱 끔찍한 것은... 비밀 결사들이 모처에 숨어들어, 마즈'에이얄에 더 큰 파멸을 가져올 음모와 계략을 꾸미고 있다는 점이다. 저 사악한 이교도들은 고요하고 격리된 곳에 둥지를 틀고, 무고한 이들을 납치하고 부정한 의식을 치르고 있다. 우리는 온 힘을 다해서 이 극악무도한 자들을 색출해내며, 저들의 사악한 소굴을 뿌리뽑고 타락한 계획에 종지부를 찍을 것이다. 그러나 우리는 아직도 더욱 노력해야만 한다. 이 악마들이 아무 방해 없이 날뛰도록 내버려둔다면, 우리 세계는 필멸의 위험에 처하고 말 것이기 때문이다.
 
-우리는 그 강대한 악에 대한 공포를, 마법의 힘으로 자연을 오염시키고자 한 자들이 우리에게 안겨주었던 고통을, 결코 잊어서는 안된다. 여행의 도중에는 경계를 늦추지 않도록, 그리고 그대의 의무에 철저히 임하도록 하라. 우리의 투쟁은 고되지만, 정의롭고 진실된 것이니, 모든 마법의 불순물들을 마즈'에이얄에서 씻어낼 때 까지 우리는 평화를 얻을 수 없으리라. 우리는 이 세계의 수호자이며, 우리의 힘과 자연과의 결속으로 말미암아 이 세상의 구원자가 되리라.
+우리는 그 강대한 악에 대한 공포를, 마법의 힘으로 자연을 오염시키고자 한 자들이 우리에게 안겨주었던 고통을, 결코 잊어서는 안된다. 여행의 도중에는 경계를 늦추지 않도록, 그리고 그대의 의무에 철저히 임하도록 하라. 우리의 투쟁은 고되지만, 정의롭고 진실된 것이니, 모든 마법의 불순물들을 마즈'에이얄에서 씻어낼 때까지 우리는 평화를 얻을 수 없으리라. 우리는 이 세계의 수호자이며, 우리의 힘과 자연과의 결속으로 말미암아 이 세상의 구원자가 되리라.
 
 -- 보호자 미씰]], "_t")
 t("The story of my salvation", "나의 구원 이야기", "_t")
@@ -15499,13 +15499,13 @@ When I awoke I was in another village in a soft bed. There were wrappings round 
 She explained how she and her friends were helping to save the world, to rid our lands of all magic. And she has saved me. Not just from a terrible death, but also from the evil influences of the arcane. Even if I still had a tongue I could not find words to express my thanks to her, and my joy at the new life I lead, free from the abominations of magic. Thanks to her help I can now walk again with the aid of a crutch, and I can find true happiness in my rightful place in nature.
 
 I have no voice now to tell my story to others, and so I write it down instead, and I spread it to the winds. I have suffered from my contact with magic, and others will suffer too. Do not trust in the terrible powers of these devious arts. They will only betray you and bring you to harm. Turn your back on magic, and make others repent too. Find your own salvation in nature's joys before it is too late.
-]], [[저는 한 때 데르스의 포션 상인이었습니다. 주로 연금술 토닉이나 영약을 만들어서 지역 주민들과 여행자들에게 팔고는 했죠. 저는 수완이 좋은 편이었고, 제가 벌어들인 골드로 매우 만족스러운 삶을 영위할 수 있었습니다. 젊은 여성으로서 이정도 사업을 운영한다는 것에 큰 자부심도 있었죠.
+]], [[저는 한때 데르스의 포션 상인이었습니다. 주로 연금술 토닉이나 영약을 만들어서 지역 주민들과 여행자들에게 팔고는 했죠. 저는 수완이 좋은 편이었고, 제가 벌어들인 골드로 매우 만족스러운 삶을 영위할 수 있었습니다. 젊은 여성으로서 이정도 사업을 운영한다는 것에 큰 자부심도 있었죠.
 
-그러던 어느날 마을 사람들 몇몇이 알 수 없는 질병에 걸려 알아눕게 되었습니다. 제 포션이 문제였다는 근거 없는 소문이 돌았고, 사람들은 제 가게에 찾아오지 않게 되었습니다. 제 사업은 완전히 망해버렸고, 곧 궁핍한 처지를 면하기 어려워졌죠. 이내 병에 걸렸던 노인들 중 한명이 죽었고, 저는 그의 죽음에 대한 책임을 추궁당했습니다. 사람들은 제가 그 노인에게 주술을 걸었다고 이야기했으며, 사악한 마술에 대해 수근거리기 시작했습니다.
+그러던 어느 날 마을 사람들 몇몇이 알 수 없는 질병에 걸려 알아눕게 되었습니다. 제 포션이 문제였다는 근거 없는 소문이 돌았고, 사람들은 제 가게에 찾아오지 않게 되었습니다. 제 사업은 완전히 망해버렸고, 곧 궁핍한 처지를 면하기 어려워졌죠. 이내 병에 걸렸던 노인들 중 한명이 죽었고, 저는 그의 죽음에 대한 책임을 추궁당했습니다. 사람들은 제가 그 노인에게 주술을 걸었다고 이야기했으며, 사악한 마술에 대해 수근거리기 시작했습니다.
 
 그들이 저를 찾아왔던 그날 밤이 아직도 기억납니다. 그날따라 어찌나 평온해 보이던지. 저는 별들이 반짝이는 모습을, 그리고 그 옆에 떠오른 청명한 여름 초승달을 바라보면서 어떻게 내 사업을 다시 시작할 수 있을지 고민하고 있었죠. 그 때, 멀리서 고함 소리가 들렸습니다. 한 무리의 사람들이 온 사방에서 모습을 드러냈고, 하나같이 횃불을 손에 들고 저를 향해 전진하고 있었습니다. 저는 도와달라며 비명을 질렀지만, 그 사람들은 제 집 문을 부수고, 창문을 깨고 들이닥쳐 저를 붙잡았습니다. 그들이 저를 욕하고 조롱하는 동안 제 살갗은 찢어지고 심하게 얻어맞았으며, 심지어 제 약혼자였던 남자는 저의 얼굴에 침을 뱉으며 저주를 내뱉더군요.
 
-그들은 저를 질질 끌고 풀밭과 돌길을 지나 마을의 광장으로 갔습니다. 제 눈물과 부어오른 살두덩이 때문에 반쯤은 눈이 멀어있는 상태였지만, 그들이 나무 화형대를 세우고 있다는 것 정도는 알아볼 수 있었습니다. 저는 비명을 내지르며 자비를 구하려 애썼지만, 그들은 제 목구멍을 열어젖히고 대장간 집게로 제 혀를 뽑아내는 것으로 답했습니다. 제가 피를 토해내는 동안 그들은 저를 나무 기둥에 올리고 가시돋힌 철사로 제 손목을 머리 위로 묶었습니다. 도저히 견딜 수 없는 고통에 저는 정신을 잃어버렸고, 제 발 끝이 불타오르는 것을 느끼고 나서야 깨어날 수 있었습니다. 거기 모인 사람들은 연기가 제 주위를 감싸기 시작하는 것을 보며 환호성을 지르고 있었고, 저의 폐부에서 고통에 찬 비명소리가 터져나올때마다 점점 더 크게 환호성을 내질렀습니다.
+그들은 저를 질질 끌고 풀밭과 돌길을 지나 마을의 광장으로 갔습니다. 제 눈물과 부어오른 살두덩이때문에 반쯤은 눈이 멀어있는 상태였지만, 그들이 나무 화형대를 세우고 있다는 것 정도는 알아볼 수 있었습니다. 저는 비명을 내지르며 자비를 구하려 애썼지만, 그들은 제 목구멍을 열어젖히고 대장간 집게로 제 혀를 뽑아내는 것으로 답했습니다. 제가 피를 토해내는 동안 그들은 저를 나무 기둥에 올리고 가시돋힌 철사로 제 손목을 머리 위로 묶었습니다. 도저히 견딜 수 없는 고통에 저는 정신을 잃어버렸고, 제 발 끝이 불타오르는 것을 느끼고 나서야 깨어날 수 있었습니다. 거기 모인 사람들은 연기가 제 주위를 감싸기 시작하는 것을 보며 환호성을 지르고 있었고, 저의 폐부에서 고통에 찬 비명소리가 터져나올때마다 점점 더 크게 환호성을 내질렀습니다.
 
 저는 숨막히는 연기 때문에 거의 호흡을 할 수가 없었고, 다리에서는 감각이 사라져가고 있었습니다. 저의 의식이 다시금 빠져나가는 것이 느껴질 때 즈음, 저는 무언가 소란이 일어나는 소리와 함께, "그녀는 마녀가 아니오!" 라고 외치는 여자의 목소리를 들을 수 있었습니다. 그 때 저는 몇몇 사람들이 저에게 다가오는 것을 보았고, 그 선두에는 검은 갑옷을 입은 하플링 여자가 있었습니다. 그녀는 제 주위에서 타오르는 불꽃은 아랑곳하지도 않고, 저에게 달려와서 그녀의 장검을 튕기듯 휘둘러 제 결박을 풀어주었습니다. 제가 아래로 떨어지는 것을 그녀가 잡아주었고, 저를 불길에서 멀리 떨어진 곳에 눕혀주었습니다. 그녀의 부드러운 얼굴을 바라보는 동안 그녀는 저에게 속삭였습니다. "말해보게, 젊은이. 그대는 그 어떠한 형태의 마법도 거부하겠는가?" 저는 고개를 주억거렸습니다. 그처럼 반짝이는 눈을 바라보며 아니라고 대답할 수는 없었죠. 그녀는 내 뺨에 흐르던 눈물을 닦아주고는 저의 이마에 키스했습니다. "그렇다면 그대는 안전할 것이네. 이만 쉬도록 하게." 그 순간 저는 의식을 잃어버렸습니다.
 
@@ -15521,9 +15521,9 @@ t([[[As you begin to leave, Protector Myssil stops you.]
 
 Actually...  You fight in a more subtle way than most, do you not?  It is a point of pride for many of us that we stand tall in the face of arcane aggression and give warlocks one chance to repent before purging them, and much of our training reflects that, but I won't deny that less...  #{italic}#traditionally glorious#{normal}# methods can be extremely effective.  Decorum's no reason to let a necromancer get away alive when you could've planted a trap in their escape route.
 
-(She hands you a scroll.) Here - some of us have come up with a pre-prepared device which will sap magic from whoever or whatever sets it off.  All we ask is that you use discretion with these devices; no matter what our #{italic}#last#{normal}# assassin thought, planting them in some lesser rune-scribe's shop would be more likely to do us harm than good in the long run.]], [[[당신이 떠나려 할때, 보호자 미씰이 당신을 멈춰세웠다.]
+(She hands you a scroll.) Here - some of us have come up with a pre-prepared device which will sap magic from whoever or whatever sets it off.  All we ask is that you use discretion with these devices; no matter what our #{italic}#last#{normal}# assassin thought, planting them in some lesser rune-scribe's shop would be more likely to do us harm than good in the long run.]], [[[당신이 떠나려 할 때, 보호자 미씰이 당신을 멈춰세웠다.]
 
-확실히... 넌 다른 이들보다 영리한 방법으로 싸우는군. 그렇지 않나? 마법의 위험과 당당히 맞서고, 요술사들을 숙청하기 전에 단 한번 회개할 기회를 주는 것은 우리 추종자들 중 많은 이들이 자랑스러워 하는 점이지. 우리들이 하는 훈련의 많은 부분도 그런 관점을 반영하고 있지만, 굉장히 효과적인 방법이 있다는 것을 부정하지는 않겠다. #{italic}#전통적인 영광스러움#{normal}#이 조금 덜... 한 방법 말이야. 네가 그놈들의 도주 경로에 함정을 깔아둘 기회가 있는데도, 그저 점잖게 굴자고 강령술사가 하나라도 살아서 도망가도록 내버려둘 수는 없지 않겠는가.
+확실히... 넌 다른 이들보다 영리한 방법으로 싸우는군. 그렇지 않나? 마법의 위험과 당당히 맞서고, 요술사들을 숙청하기 전에 단 한 번 회개할 기회를 주는 것은 우리 추종자들 중 많은 이들이 자랑스러워 하는 점이지. 우리들이 하는 훈련의 많은 부분도 그런 관점을 반영하고 있지만, 굉장히 효과적인 방법이 있다는 것을 부정하지는 않겠다. #{italic}#전통적인 영광스러움#{normal}#이 조금 덜... 한 방법 말이야. 네가 그놈들의 도주 경로에 함정을 깔아둘 기회가 있는데도, 그저 점잖게 굴자고 강령술사가 하나라도 살아서 도망가도록 내버려둘 수는 없지 않겠는가.
 
 (그녀는 당신에게 스크롤을 한 장 건넨다.) 여기 - 우리들 중 몇 사람은 이 미리 준비된 장치를 고안해냈다. 누구든지, 아니면 무엇이든지 간에 이걸 가동시키는 녀석의 마력을 약화시킬 수 있는 물건이지. 우리는 그저 네가 이 장비들을 가지고 약간의 재량권을 행사해줬으면 하는 것 뿐이다. 우리가 #{italic}#지난번에#{normal}# 고용했던 암살자가 무슨 생각을 했는지는 모르겠지만, 이 장비들을 고작 조그마한 룬 상점같은 곳에 설치하는 건 우리에게 장기적으로 손해가 되는 일이란 것만은 알아 두어라.]], "_t")
 
@@ -15895,7 +15895,7 @@ t("You have created a portal back to Maj'Eyal. You should try to talk to someone
 t("You talked to the Elder in Last Hope who in turn told you to talk to Tannen, who lives in the north of the city.", "마지막 희망의 장로와 이야기를 했고 그는 도시의 북쪽에 사는 탄넨이라는 자와 이야기를 해 보라고 했습니다.", "_t")
 t("You gave the Orb of Many Ways to Tannen to study while you look for the athame and diamond in Reknor.", "탄넨의 연구를 위해 그에게 여러 장소로의 오브를 맡겼습니다. 그가 연구를 하는 동안 제례단검과 다이아몬드를 찾으러 레크놀로 가야 합니다.", "_t")
 t("You kept the Orb of Many Ways despite Tannen's request to study it. You must now look for the athame and diamond in Reknor.", "연구를 위해 여러 장소로의 오브를 달라는 탄넨의 부탁을 거절했습니다. 이제 제례단검과 다이아몬드를 찾으러 레크놀로 가야 합니다.", "_t")
-t("You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "탄넨에게 다이아몬드와 제례단검을 가져다 주었고, 이번에는 그는 텔무르의 탑에서 차원문에 대한 문서를 한번 찾아보라 했습니다. 문서는 거기에 없을 수도 있다고 합니다. 그는 며칠 뒤에 다시 오라고 말했습니다.", "_t")
+t("You brought back the diamond and athame to Tannen who asked you to check the tower of Telmur, looking for a text of portals, although he is not sure it is even there. He told you to come back in a few days.", "탄넨에게 다이아몬드와 제례단검을 가져다 주었고, 이번에는 그는 텔무르의 탑에서 차원문에 대한 문서를 한 번 찾아보라 했습니다. 문서는 거기에 없을 수도 있다고 합니다. 그는 며칠 뒤에 다시 오라고 말했습니다.", "_t")
 t("You brought back the diamond and athame to Tannen who asked you to contact Zemekkys to ask some delicate questions.", "탄넨에게 다이아몬드와 제례단검을 가져다 주었고, 이번에는 그는 제메키스에게 가서 몇 가지 중요한 질문에 대한 답을 듣고 오라고 했습니다.", "_t")
 t("You brought back the diamond and athame to Tannen who asked you to come back in a few days.", "탄넨에게 다이아몬드와 제례단검을 가져다 주었고, 그는 며칠 뒤에 다시 오라고 말했습니다.", "_t")
 t("Tannen has tricked you! He swapped the orb for a false one that brought you to a demonic plane. Find the exit, and get revenge!", "탄넨이 당신을 속였습니다! 놈은 여러 장소로의 오브 대신에 악마의 차원으로 보내주는 가짜 오브를 돌려준 것이었습니다. 탈출구를 찾고 그놈에게 복수하세요!", "_t")
@@ -16723,7 +16723,7 @@ t([[Your skill at Chanting now extends the cloak of light, increasing your light
 		Chant of Fortitude cures mental effects.
 		Chant of Fortress cures physical effects.
 		Chant of Resistance cures magical effects.]], [[숙달된 성가로 빛의 망토를 멀리 퍼트려 광원 반경을 %d 증가시킵니다.
-		추가적으로 새로운 성가를 부르기 시작할때마다 모든 압도 효과를 정화하고 부정적 효과를 최대 %d개 정화합니다.
+		추가적으로 새로운 성가를 부르기 시작할 때마다 모든 압도 효과를 정화하고 부정적 효과를 최대 %d개 정화합니다.
 		불굴의 성가는 정신 효과를 정화합니다.
 		인내의 성가는 물리 효과를 정화합니다.
 		저항의 성가는 마법 효과를 정화합니다.]], "tformat")
@@ -16766,8 +16766,8 @@ section "game/modules/tome/data/talents/celestial/combat.lua"
 t("Weapon of Light", "빛의 무기", "talent name")
 t([[Infuse your weapon with the power of the Sun, adding %0.1f light damage on each melee hit.
 		Additionally, if you have a temporary damage shield active, melee hits will increase its power by %d once per turn.
-		The damage dealt and shield bonus will increase with your Spellpower.]], [[태양의 힘을 무기에 주입하여 근접 공격시 %0.1f 빛 피해를 추가합니다.
-		추가로 피해 흡수 보호막이 활성화된 상태면 턴당 1번, 근접 공격시 보호막 수치를 %d 증가시킵니다.
+		The damage dealt and shield bonus will increase with your Spellpower.]], [[태양의 힘을 무기에 주입하여 근접 공격 시 %0.1f 빛 피해를 추가합니다.
+		추가로 피해 흡수 보호막이 활성화된 상태면 턴당 1번, 근접 공격 시 보호막 수치를 %d 증가시킵니다.
 		주문력에 따라 효과가 강화됩니다.]], "tformat")
 t("Wave of Power", "힘의 파동", "talent name")
 t("#CRIMSON#%sstrikes twice with Wave of Power!#NORMAL#", "#CRIMSON#%s 힘의 파동으로 2번 공격합니다!#NORMAL#", "logSeen", nil, {"이"})
@@ -16876,7 +16876,7 @@ Every point of positive energy increases the damage by %.2f%%.
 Every %d points of positive energy increase the radius by 1 (up to 10).]], [[물리적, 마법적 힘을 최대한 끌어내 단 하나의 파괴적인 일격을 준비합니다.
 인접한 모든 적을 %d%% 무기 피해로 공격하고, 3 턴 동안 혼절을 유발합니다. 혼절 판정은 시전자의 물리력, 주문력, 정신력 중 가장 높은 값을 이용하여 계산합니다.
 
-이 기술은 시전자의 모든 양기를 소모하며, 이후 5 턴 동안 양기를 생성할 수 없게됩니다.
+이 기술은 시전자의 모든 양기를 소모하며, 이후 5 턴 동안 양기를 생성할 수 없게 됩니다.
 양기 수치 1 점 당 피해량이 %.2f%% 증가합니다.
 양기 수치 %d 점 마다, 범위가 1 칸씩 증가합니다. 최대 10 칸 범위까지 증가합니다.]], "tformat")
 
@@ -16902,8 +16902,8 @@ t("Dirge of Pestilence", "질병의 장송곡", "talent name")
 t([[Sing a song of decay and defiance and sustain yourself through spite.
 							Each time you suffer a detrimental effect, you gain a shield with strength %d, that lasts as long as the effect would.
 							This can only trigger once every %d turns]], [[앙심을 불태우게하고, 살아갈 힘을 주던 부패와 반항의 노래를 부릅니다.
-							부정적인 효과에 당할 때 마다, 위력 %d 의 보호막을 얻습니다. 보호막의 지속 시간은 해당 효과의 지속시간과 같습니다.
-							이 효과는 매 %d 턴 마다 한 번씩 발생합니다.]], "tformat")
+							부정적인 효과에 당할 때마다, 위력 %d 의 보호막을 얻습니다. 보호막의 지속 시간은 해당 효과의 지속시간과 같습니다.
+							이 효과는 매 %d 턴마다 한 번씩 발생합니다.]], "tformat")
 t("Dirge Acolyte", "섬기는 자의 장송곡", "talent name")
 t([[Even now, something compels you to sing.
 			Dirge of Famine: Increases health regen by %d.
@@ -16928,7 +16928,7 @@ Furthermore, you are given focus by the song.  Your dirges increase your resista
 추가로, 노래로 인해 집중력이 강해져, 혼란과 공포 면역력이 %d%% 증가합니다.]], "tformat")
 t("Dirge Nihilist", "허무주의자의 장송곡", "talent name")
 t([[Your dirges deaden you to the outside world, reducing all incoming damage by %d.
-The damage reduction will increase with your Spellpower.]], [[장송곡이 외부의 개입을 약하게 하여, 받는 모든 피해를 %d 감소시킵니다.
+The damage reduction will increase with your Spellpower.]], [[장송곡이 외부의 개입을 약하게하여, 받는 모든 피해를 %d 감소시킵니다.
 피해 감소치는 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -16977,7 +16977,7 @@ t([[When one of your spells goes critical, you bind glyphs in radius 1 centered 
 		]], [[주문 치명타를 가할 시, 반경 %d 칸 내의 무작위한 대상을 기준으로 반경 1 칸의 문양을 세깁니다. 이 효과는 양기와 음기를 5 씩 소모합니다.
 		문양은 %d 턴 동안 지속되며, 적이 문양에 내에 진입하면 다양한 효과를 발휘합니다.
 		문양은 기존의 문양에 인접하지 않은 적의 위치에 세겨집니다.
-		이 효과는 매 %d 실질 턴 마다 일어납니다.
+		이 효과는 매 %d 실질 턴마다 일어납니다.
 		문양의 효과는 주문력에 비례하여 증가합니다.
 
 		새길 수 있는 문양 :
@@ -16989,7 +16989,7 @@ t("Glyphs of Fury", "분노의 문양", "talent name")
 t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
 		#ffd700#Glyph of Sunlight#LAST#:  Deals %0.2f light damage.
 		#7f7f7f#Glyph of Moonlight#LAST#:  Deals %0.2f darkness damage.
-		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[시전자의 문양이 천공의 분노로 물듭니다. 문양의 지속시간이 %d 턴 증가하고 발동할때 추가 피해를 줍니다.
+		#9D9DC9#Glyph of Twilight#LAST#:  Deals %0.2f light and %0.2f darkness damage.]], [[시전자의 문양이 천공의 분노로 물듭니다. 문양의 지속시간이 %d 턴 증가하고 발동할 때 추가 피해를 줍니다.
 		#ffd700#태양광의 문양#LAST#:  %0.2f 빛 피해를 줍니다.
 		#7f7f7f#월광의 문양#LAST#:  %0.2f 암흑 피해를 줍니다.
 		#9D9DC9#황혼의 문양#LAST#:  %0.2f 빛 피해와 %0.2f 암흑 피해를 줍니다.]], "tformat")
@@ -17000,7 +17000,7 @@ t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy s
 		At talent level 2 glyphs triggered this way will leave a residue of themselves on the ground, dealing damage each turn for %d turns.
 		#ffd700#Sunlight#LAST#:  %0.2f light damage.
 		#7f7f7f#Moonlight#LAST#:  %0.2f darkness damage.
-		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[문양을 붕괴시켜 반경 10칸 내의 적이 밟고있는 문양을 발동시킵니다.
+		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[문양을 붕괴시켜 반경 10칸 내의 적이 밟고 있는 문양을 발동시킵니다.
 		기술 레벨 2에 도달하면 문양 붕괴를 통해 발동한 문양이 잔해를 남겨 %d 턴 동안 피해를 줍니다.
 		#ffd700#태양광#LAST#:  %0.2f 빛 피해.
 		#7f7f7f#월광#LAST#:  %0.2f 암흑 피해.
@@ -17016,7 +17016,7 @@ t([[Infuse your shield with light, healing you for %0.2f each time you take dama
 		Additionally, once per turn successful melee attacks will trigger a bonus attack with your shield dealing %d%% light damage.
 		The healing done will increase with your Spellpower.]], [[방패에 빛의 힘을 주입하여 피해를 받을때마다 양기 2를 소모하여 생명력을 %0.2f 회복합니다.
 		소모할 양기가 없다면 이 효과는 발동하지 않습니다.
-		추가로 매 턴당 1번 근접 공격시 방패로 추가 공격하여 %d%% 빛 무기 피해를 줍니다.
+		추가로 매 턴당 1번 근접 공격 시 방패로 추가 공격하여 %d%% 빛 무기 피해를 줍니다.
 		주문력에 따라 회복량이 증가합니다.]], "tformat")
 t("Brandish", "휘두르기", "talent name")
 t("You cannot use Brandish without a shield!", "이 기술을 사용하려면 방패를 착용해야 합니다.", "logPlayer")
@@ -17056,7 +17056,7 @@ t([[Chant the glory of the Moons, granting you stealth detection (+%d power), an
 		You may also attack creatures you cannot see without penalty and your critical hits do %d%% more damage.
 		You may only have one Hymn active at once.
 		The stealth and invisibility detection will increase with your Spellpower.]], [[달의 영광을 노래하여 은신 감지가 %d 증가하고 투명 감지가 %d 증가합니다.
-		보이지 않는 적을 공격할때 패널티가 사라지고 치명타 피해량이 %d%% 증가합니다.
+		보이지 않는 적을 공격할 때 패널티가 사라지고 치명타 피해량이 %d%% 증가합니다.
 		한 번에 하나의 찬가만 활성화할 수 있습니다.
 		주문력에 따라 은신 감지와 투명 감지가 증가합니다.]], "tformat")
 t("Hymn of Perseverance", "의지의 찬가", "talent name")
@@ -17187,19 +17187,19 @@ t([[You are so infused with sunlight that your body glows permanently in radius 
 		]], "tformat")
 t("Judgement", "심판", "_t")
 t([[Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects, dealing %d light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing %d light damage in radius 1 and healing you for 50%% of the damage dealt.
-		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], [[광휘의 범위 안의 모든 적에게 눈부신 빛의 구체를 발사합니다. 모든 구체는 대상에게 닿을 때 까지 느리게 대상을 추격합니다. 구체에 닿은 적은 %d 빛 피해를 받고, 대상에게 빛 구체가 닿을 경우, 반경 1 칸의 폭발이 일어나 %d 빛 피해를 입히고, 피해량의 50%% 만큼 시전자의 생명력을 회복합니다.
+		All targets struck by your Judgement will be blighted by light, reducing saves by %d, reducing critical power by %d%%, and causing light damage received to splash in radius 2 for %d%% damage against all hostile targets for 4 turns.]], [[광휘의 범위 안의 모든 적에게 눈부신 빛의 구체를 발사합니다. 모든 구체는 대상에게 닿을 때까지 느리게 대상을 추격합니다. 구체에 닿은 적은 %d 빛 피해를 받고, 대상에게 빛 구체가 닿을 경우, 반경 1 칸의 폭발이 일어나 %d 빛 피해를 입히고, 피해량의 50%% 만큼 시전자의 생명력을 회복합니다.
 		심판에 영향을 받은 모든 적은 빛에 의해 황폐화 되어, 모든 내성이 %d 감소하고, 치명타 피해량이 %d%% 감소합니다. 또한 대상은 4 턴 동안 빛속성 피해를 입게되면, 대상을 기준으로, 해당 피해량의 %d%% 의 피해를 가하는 반경 2 칸의 폭발을 만들어 냅니다.]], "tformat")
 t("Searing Sight", "타오르는 시야", "talent name")
 t([[Your Radiance is so powerful it burns all foes caught in it, dealing %0.1f light damage to all foes caught inside every turn.
 		Each enemy effected has a %d%% chance of being dazed and blinded by the light for 3 turns. The daze and blind can be applied to each enemy at most once every 7 turns.
 		The damage increases with your Spellpower.]], [[강렬한 광휘가 범위 내의 적을 불태워, 매 턴 %0.1f 빛 피해를 범위 내의 모든 적에게 가합니다.
-		영향을 받은 적은 %d%% 확률로 3 턴 동안 지속되는 혼절과 실명이 적용됩니다. 혼절과 실명은 각각 적에 대해 7 턴 마다 1 번씩 적용될 수 있습니다.
+		영향을 받은 적은 %d%% 확률로 3 턴 동안 지속되는 혼절과 실명이 적용됩니다. 혼절과 실명은 각각 적에 대해 7 턴마다 1 번씩 적용될 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Illumination", "발광", "talent name")
 t([[The light of your Radiance allows you to see that which would normally be unseen and strike that which would normally be protected.
 		All enemies in your Radiance aura have their invisibility and stealth power reduced by %d; all actors affected by illumination have their defense reduced by %d as well as all evasion bonuses from being unseen negated.
 		In addition, your light damage is increased by %d%% and your strikes ignore %d%% of the light resistance of your targets.
-		The invisibility, stealth power, and defense reductions increase with your Spellpower.]], [[광휘의 빛으로 인해, 평상시라면 보지 못했을 것을 볼 수 있게되고, 빗나갔을 공격을 명중 시킬 수 있게 되었습니다.
+		The invisibility, stealth power, and defense reductions increase with your Spellpower.]], [[광휘의 빛으로 인해, 평상시라면 보지 못했을 것을 볼 수 있게 되고, 빗나갔을 공격을 명중 시킬 수 있게 되었습니다.
 		광휘 내의 모든 적의 은신력과 투명 은신력이 %d 감소합니다. 또한 발광의 영향을 받는 모든 개체의 회피도가 %d 감소하고, 은신으로 받는 모든 이득을 무효화합니다.
 		추가로, 빛 피해량이 %d%% 증가하고, 빛 속성 공격이 대상의 빛 피해 저항을 %d%% 무시합니다.
 		은신력과 회피도 감소는 주문력에 비례하여 증가합니다.]], "tformat")
@@ -17250,12 +17250,12 @@ t([[Infuse yourself with the raging fury of the Sun, increasing your physical an
 		물리/마법 치명타가 발생할 때마다 %d%% 확률로 2 턴 동안 태양의 분노를 얻습니다.
 		태양의 분노가 활성화된 동안 태양 광선을 턴 소모 없이 시전할 수 있으며 피해량이 25%% 증가합니다.
 		태양 광선이 재사용 대기중이라면 재사용 대기시간이 즉시 1턴으로 감소합니다.
-		이 효과는 1턴에 한번만 발동합니다.]], "tformat")
+		이 효과는 1턴에 한 번만 발동합니다.]], "tformat")
 t("Suncloak", "태양 망토", "talent name")
 t([[You wrap yourself in a cloak of sunlight that empowers your magic and protects you for 6 turns.
 		While the cloak is active, your spell casting speed is increased by %d%%, your spell cooldowns are reduced by %d%%, and you cannot take more than %d%% of your maximum life from a single blow.
 		The effects will increase with your Spellpower.]], [[태양의 망토를 둘러 6 턴 동안 마력을 강화하고 몸을 보호합니다.
-		태양의 망토가 활성화된 동안 시전 속도가 %d%% 증가하고 주문 재사용 대기시간이 %d%% 감소하며 한번에 받는 피해가 최대 생명력의 %d%% 를 초과하면 초과하는 피해를 무효화합니다.
+		태양의 망토가 활성화된 동안 시전 속도가 %d%% 증가하고 주문 재사용 대기시간이 %d%% 감소하며 한 번에 받는 피해가 최대 생명력의 %d%% 를 초과하면 초과하는 피해를 무효화합니다.
 		주문력에 따라 효과가 강화됩니다.]], "tformat")
 
 
@@ -17304,7 +17304,7 @@ t([[Create a shadow jumpgate at your current location. As long as you sustain th
 		기술 레벨 4에 도달하면 도약관문을 최대 2개 생성하고 유지할 수 있습니다.]], "tformat")
 t("Mind Blast", "정신 폭발", "talent name")
 t([[Let out a mental cry that shatters the will of your targets within radius %d, dealing %0.2f darkness damage and confusing (%d%% to act randomly) them for %d turns.
-		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[적의 의지를 산산조각내는 마음의 외침을 내뱉습니다. 외침은 반경 %d 내의 적에게 %0.2f 암흑 피해를 주고 %d 턴 동안 혼란(위력: %d%%)시킵니다.
+		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[적의 의지를 산산조각 내는 마음의 외침을 내뱉습니다. 외침은 반경 %d 내의 적에게 %0.2f 암흑 피해를 주고 %d 턴 동안 혼란(위력: %d%%)시킵니다.
 		주문력에 따라 피해량이 증가하고 교활에 따라 지속시간이 증가합니다.]], "tformat", {1,2,4,3})
 t("Shadow Simulacrum", "그림자 분신", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
@@ -17372,7 +17372,7 @@ t("Reality asserts itself and forces the wormhole shut.", "현실 그 자체가 
 t("Creates a wormhole nearby and a second wormhole up to ten tiles away.", "웜홀을 기술 시전자 주변에 하나 생성하고, 또 다른 웜홀을 10칸 이내의 위치에 설치합니다.", "tformat")
 t("Anomaly Probability Travel", "이상 현상 가능성 도약", "talent name")
 t("@Source@ places several targets out of phase.", "@Source2@ 여러 대상을 위상변화 시켰다.", "_t")
-t("Allows up to five targets in a radius of %d to travel up to %d tiles through walls.", "반경 %d 칸 이내의 최대 다섯 대상을 최대 %d 칸을 벽을 뚫고 이동할 수 있게합니다.", "tformat")
+t("Allows up to five targets in a radius of %d to travel up to %d tiles through walls.", "반경 %d 칸 이내의 최대 다섯 대상을 최대 %d 칸을 벽을 뚫고 이동할 수 있게 합니다.", "tformat")
 t("Anomaly Blink", "이상현상 순간이동", "talent name")
 t("@Source@ makes several targets blink uncontrollably.", "@Source2@ 여러 대상을 순간이동 시켰다.", "_t")
 t("Up to five targets in a radius of %d are teleporting %d tiles every turn.", "반경 %d 칸 이내의 최대 다섯 대상을 매 턴 %d 칸 순간이동 시킵니다.", "tformat")
@@ -17382,7 +17382,7 @@ t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer
 t("human farmer", "인간 농부", "_t")
 t("A weather-worn Human farmer, looking at a loss as to what's going on.", "세상의 풍파를 겪은 인간 농부, 무슨 일이 일어나고 있는지 허탈한 눈으로 바라보고 있다..", "_t")
 t("halfling gardener", "하플링 정원사", "_t")
-t("A rugged Halfling gardener, looking quite confused as to what he's doing here.", "다부지게 생긴 하플링 정원사, 자신이 여기서 뭘 하고있는지 생각하며 꽤 혼란스러워한다.", "_t")
+t("A rugged Halfling gardener, looking quite confused as to what he's doing here.", "다부지게 생긴 하플링 정원사, 자신이 여기서 뭘 하고 있는지 생각하며 꽤 혼란스러워한다.", "_t")
 t("shalore scribe", "샬로레 서기", "_t")
 t("A scrawny Elven scribe, looking bewildered at his surroundings.", "앙상한 엘프 서기, 그의 주변을 당혹스럽게 처다본다.", "_t")
 t("dwarven lumberjack", "드워프 벌목꾼", "_t")
@@ -17454,7 +17454,7 @@ t("Anomaly Deus Ex", "이상현상 데우스 엑스", "talent name")
 t("The odds have tilted.", "승산이 기울어졌다.", "_t")
 t("Substantially toughens and hastes one target for %d turns.", "하나의 대상을 %d 턴 동안, 더 강인하고 빠르게 만듭니다.", "tformat")
 t("Anomaly Evil Twin", "이상현상 악의 쌍둥이", "talent name")
-t("@Source@'s evil twin has come from another timeline.", "@Source@의 사악한 쌍둥이가 또다른 시간선으로 부터 나타났다.", "_t")
+t("@Source@'s evil twin has come from another timeline.", "@Source@의 사악한 쌍둥이가 또다른 시간선으로부터 나타났다.", "_t")
 t("Clones the caster.", "시전자를 복제합니다.", "tformat")
 t("Anomaly Intersecting Threads", "이상현상 가닥 교차", "talent name")
 t("@Source@ has caused two threads to merge.", "@Source@ 두 개의 시간 가닥을 교차했다.", "_t")
@@ -17501,7 +17501,7 @@ t([[Teleport to the target and attack with your melee weapons for %d%% damage.  
 		Blink Blade can hit the same target multiple times.]], [[대상에게 순간이동해 근접 무기로 %d%% 피해를 입힙니다. 그 후 무작위한 적에게 다시 순간이동 해, %d%% 피해를 입힙니다.
 		점멸의 칼날은 동일한 대상을 여러 번 공격할 수 있습니다.]], "tformat")
 t("Blade Shear", "절단의 칼날", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 한다.", "logPlayer")
 t("%s has been cut from the timeline!", "%s 시간선에서 잘려나갔다!", "logSeen", nil, {"는"})
 t("%s resists the temporal shear!", "%s 시간 절단을 저항했다!", "logSeen", nil, {"는"})
 t([[Attack up to three adjacent targets for %d%% weapon damage.  If any attack hits you'll create a temporal shear dealing %0.2f temporal damage in a radius %d cone.
@@ -17555,7 +17555,7 @@ t("Temporal Guardian", "시간의 수호자", "_t")
 t("Warden combat training and techniques.", "감시자의 전투 훈련과 전투 기술입니다.", "_t")
 t("A blend of ranged and dual-weapon combat.", "원거리 사격과 쌍수 무기의 조합 입니다.", "_t")
 t("Threaded Combat", "재단의 전투", "_t")
-t("Call temporal hounds to aid you in combat.", "시간의 사냥개를 풀어 전투를 돕게합니다.", "_t")
+t("Call temporal hounds to aid you in combat.", "시간의 사냥개를 풀어 전투를 돕게 합니다.", "_t")
 t("Temporal Hounds", "시간의 사냥개", "_t")
 t("Fluctuate spacetime.", "시공간에 변동을 일으킵니다.", "_t")
 t("flux", "흐름", "_t")
@@ -17606,7 +17606,7 @@ section "game/modules/tome/data/talents/chronomancy/chronomancy.lua"
 t("Precognition", "예지", "talent name")
 t([[You peer into the future, sensing creatures and traps in a radius of %d for %d turns.
 		If you know Foresight you'll gain additional defense and chance to shrug off critical hits (equal to your Foresight bonuses) while Precognition is active.]], [[미래를 유심히 관찰하여, 반경 %d 칸 내의 개체와 함정을 %d 턴 동안 감지합니다.
-		예견을 배웠다면 이 기술이 활성화 됐을 때, 추가적인 회피도와 피격 시 치명타 무효화 확률을 얻습니다. (예견으로 얻는 양과 동일합니다)]], "tformat")
+		예견을 배웠다면 이 기술이 활성화됐을 때, 추가적인 회피도와 피격 시 치명타 무효화 확률을 얻습니다. (예견으로 얻는 양과 동일합니다)]], "tformat")
 t("Foresight", "예견", "talent name")
 t([[Gain %d defense and %d%% chance to shrug off critical hits.
 		If you have Precognition or See the Threads active these bonuses will be added to those effects, granting additional defense and chance to shrug off critical hits.
@@ -17623,7 +17623,7 @@ t([[Choose an activatable spell that affects only you, does not require a target
 
 		Current Contingency Spell: %s]], [[자신에게만 영향을 미치고, 대상이 필요하지 않으며, 고정되지 않은 재사용 대기시간을 가진 주문을 하나 고릅니다. 시전자의 생명력이 %d%% 이하로 떨어질 때, 주문이 자동으로 시전됩니다.
 		선택된 주문은 재사용 대기시간 중일지라도 시전됩니다. 이로인해 시전된 주문은 턴이나 원천력을 소모하지 않습니다. 이로써 발동되는 주문의 레벨은 불확실성 대비 기술 레벨과 주문의 기술 레벨중 낮은 것의 레벨을 따릅니다.
-		주문의 발동은 %d 턴 마다 1 번씩 일어날 수 있으며, 피해가 적용된 후 발동합니다.
+		주문의 발동은 %d 턴마다 1 번씩 일어날 수 있으며, 피해가 적용된 후 발동합니다.
 
 		현재 불확실성 대비 주문: %s]], "tformat")
 t("See the Threads", "가닥 보기", "talent name")
@@ -17634,8 +17634,8 @@ t([[You peer into three possible futures, allowing you to explore each for %d tu
 		This spell splits the timeline.  Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.
 		If you die in any thread you'll revert the timeline to the point when you first cast the spell and the effect will end.
 		This spell may only be used once per zone level.]], [[세 가지 존재 가능한 미래를 보고, 각각의 미래에 %d 턴 동안 개입할 수 있습니다. 지속시간이 끝났을때, 세 개의 미래 중에 현실이 될 미래를 결정합니다.
-		예견을 배웠다면, 가닥 보기가 활성화 됐을때 추가적인 회피도와 치명타 무효화 확률을 얻습니다. (예견으로 얻는 양과 동일합니다)
-		이 주문은 시간선을 분열시킵니다. 이 기술이 활성화 되어있을 때, 다른 시간선을 분열시키는 주문을 시전하는 것은 불가능합니다.
+		예견을 배웠다면, 가닥 보기가 활성화됐을때 추가적인 회피도와 치명타 무효화 확률을 얻습니다. (예견으로 얻는 양과 동일합니다)
+		이 주문은 시간선을 분열시킵니다. 이 기술이 활성화되어있을 때, 다른 시간선을 분열시키는 주문을 시전하는 것은 불가능합니다.
 		가닥 속에서 사망 시, 시전자는 시간선을 되돌려 주문을 시전했을 때로 돌아가고, 주문의 효과가 중지됩니다.
 		이 주문은 한 층에 한 번만 사용 가능합니다.]], "tformat")
 
@@ -17672,15 +17672,15 @@ t([[Each time you would take damage from someone else you gain one Spin, increas
 t("Seal Fate", "운명 봉인", "talent name")
 t([[Activate to Seal Fate for %d turns.  When you damage a target while Seal Fate is active you gain Spin and have a %d%% chance to increase the duration of one detrimental status effect on it by one turn.
 		If you have Spin Fate active the chance will be increased by 33%% per Spin (for %d%% at three Spin.)
-		The duration increase can occur up to %d times per turn and the bonus Spin once per turn.]], [[%d 턴 동안 운명 봉인을 활성화합니다. 운명 방적이 활성화 된 동안 대상에게 피해를 줄 시, 시전자는 방적을 1 개 획득하고, %d%% 확률로 피해를 받은 적의 부정적인 효과 하나를 1 턴 연장시킵니다.
-		운명 방적의 효과가 활성화 된 경우, 적을 대상으로한 부정적인 효과 연장 확률이 방적 하나 당 33%% 상승합니다  (방적이 3개일 때 %d%%.)
+		The duration increase can occur up to %d times per turn and the bonus Spin once per turn.]], [[%d 턴 동안 운명 봉인을 활성화합니다. 운명 방적이 활성화된 동안 대상에게 피해를 줄 시, 시전자는 방적을 1 개 획득하고, %d%% 확률로 피해를 받은 적의 부정적인 효과 하나를 1 턴 연장시킵니다.
+		운명 방적의 효과가 활성화된 경우, 적을 대상으로한 부정적인 효과 연장 확률이 방적 하나 당 33%% 상승합니다  (방적이 3개일 때 %d%%.)
 		지속시간 연장은 1 턴에 최대 %d 번 일어날 수 있고, 추가 방적 획득은 1 턴에 1 번만 일어납니다.]], "tformat")
 t("Fateweaver", "운명을 엮는 자", "talent name")
 t("You now gain %d combat accuracy, physical power, spellpower, and mindpower per Spin.", "이제 방적 하나 마다 %d 정확도, 물리력, 주문력, 그리고 정신력을 획득합니다.", "tformat")
 t("Webs of Fate", "운명의 거미줄", "talent name")
 t([[For the next %d turns you displace %d%% of any damage you receive onto a random enemy.
 		While Webs of Fate is active you may gain one additional Spin per turn and your maximum Spin is doubled.]], [[%d 턴 동안 시전자가 받는 피해의 %d%% 을 무작위한 적에게 전달합니다.
-		운명의 거미줄이 활성화 되어 있는 동안, 1 턴 마다 방적 중첩을 하나 씩 얻을 수 있고, 최대 방적 중첩 한계를 두 배로 늘립니다.]], "tformat")
+		운명의 거미줄이 활성화되어 있는 동안, 1 턴마다 방적 중첩을 하나 씩 얻을 수 있고, 최대 방적 중첩 한계를 두 배로 늘립니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -17750,7 +17750,7 @@ t([[Create a gravity field around you that converts %d%% all damage you deal int
 		추가로, 척력 폭발로 피해를 가하면 %d%% 확률로 대상의 밀치기 저항을 2 턴 동안 반감합니다.]], "tformat")
 t("Gravity Well", "중력 우물", "talent name")
 t([[Increases local gravity in a radius of %d for %d turns, dealing %0.2f physical (gravity) damage as well as decreasing the global speed of all affected targets by %d%%.
-		The damage done will scale with your Spellpower.]], [[반경 %d 칸 범위의 지역에 중력을 %d 턴간 증폭시킵니다. 범위 내의 대상에게 %0.2f 물리 (중력 속성) 피해를 가하고 영향을 받는 모든 대상의 전체 속도를 %d%% 낮춥니다.
+		The damage done will scale with your Spellpower.]], [[반경 %d 칸 범위의 지역에 중력을 %d 턴 동안 증폭시킵니다. 범위 내의 대상에게 %0.2f 물리 (중력 속성) 피해를 가하고 영향을 받는 모든 대상의 전체 속도를 %d%% 낮춥니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -17770,13 +17770,13 @@ t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d 피해분담)#LAST#", "tform
 t("Not enough space to summon warden!", "감시자를 소환하기에는 공간이 부족하다!", "logPlayer")
 t([[When a single hit deals more than %d%% of your maximum life another you appears and takes %d%% of the damage as well as %d%% of all damage you take for the next %d turns.
 		The clone is out of phase with this reality and deals 50%% less damage but its arrows will pass through friendly targets.
-		This talent has a cooldown.]], [[최대 생명력의 %d%% 이상의 피해를 한번에 받을 때, 다른 시간선의 자신이 나타나 해당 피해의 %d%% 를 대신 받고, 다음 %d 턴 동안 받는 피해의 %d%% 를 나눠 받습니다.
+		This talent has a cooldown.]], [[최대 생명력의 %d%% 이상의 피해를 한 번에 받을 때, 다른 시간선의 자신이 나타나 해당 피해의 %d%% 를 대신 받고, 다음 %d 턴 동안 받는 피해의 %d%% 를 나눠 받습니다.
 		시전자의 분신은 다른 위상에 존재하기 때문에, 50%% 적은 피해를 가하지만, 수호자의 화살은 아군에게 피해를 주지않고 적을 향해 날아갑니다.
 		이 기술은 재사용 대기시간이 존재합니다.]], "tformat", {1,2,4,3})
 t("Vigilance", "감시", "talent name")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했습니다!#LAST#", "logSeen", nil, {"가"})
 t([[Improves your capacity to see invisible foes by +%d and to see through stealth by +%d.  Additionally you have a %d%% chance to recover from a single negative status effect each turn.
-		Sense abilities will scale with your Magic stat.]], [[투명하거나, 은신 중인 적을 찾는 능력을 수련합니다. 투명한 적에 대한 탐지력이 +%d, 은신한 적에 대한 탐지력이 +%d 향상됩니다. 또한 %d%% 확률로, 매 턴 마다 하나의 부정적인 효과에서 회복됩니다.
+		Sense abilities will scale with your Magic stat.]], [[투명하거나, 은신 중인 적을 찾는 능력을 수련합니다. 투명한 적에 대한 탐지력이 +%d, 은신한 적에 대한 탐지력이 +%d 향상됩니다. 또한 %d%% 확률로, 매 턴마다 하나의 부정적인 효과에서 회복됩니다.
 		탐지력은 마법에 비례하여 증가합니다.]], "tformat")
 t("Warden's Focus", "감시자의 집중", "talent name")
 t("You require a weapon to use this talent.", "이 기술을 사용하기 위해서는 무기가 필요하다.", "logPlayer")
@@ -17820,7 +17820,7 @@ t([[While active your physical and temporal damage has a %d%% chance to remove o
 		Only one physical and one magical effect may be removed per turn from each target.
 		Additionally your Dust to Dust spell now digs up to %d tiles into walls.]], [[활성화된 동안, 시전자가 가하는 물리 피해와 시간피해는 대상의 이로운 물리적, 마법적 효과를 %d%% 확률로 제거합니다. (각각 1개씩 제거합니다)
 		1 턴 동안, 적 하나 당, 한 개의 물리적 효과와 한 개의 마법적 효과만 제거할 수 있습니다.
-		추가로, 먼지는 먼지로 주문은 최대 %d 칸의 벽을 파괴할 수 있게됩니다.]], "tformat")
+		추가로, 먼지는 먼지로 주문은 최대 %d 칸의 벽을 파괴할 수 있게 됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -17905,7 +17905,7 @@ t("%s resists the teleport!", "%s 순간이동에 저항했다!", "logSeen", nil
 t([[Tether the target to the location for %d turns.  
 		Each turn the target has a %d%% chance per tile it's travelled away from the tether to be teleported back, inflicting %0.2f physical and %0.2f temporal (warp) damage to all enemies in a radius of %d at both the entrance and exit locations.
 		The damage will scale with your Spellpower.]], [[%d 턴 동안 지속되는 공간 사슬을 생성해 대상과 대상의 공간을 묶습니다.  
-		매 턴, 대상은 공간 사슬에게서 멀어진 칸 × %d%% 확률로 사슬이 위치한 지점으로 순간이동합니다. 이 때 %0.2f 물리 피해와 %0.2f 시간 피해 (왜곡 속성) 를 순간이동 대상과 공간 사슬 주변의 반경 %d 칸 내의 모든 적에게 입힙니다.
+		매 턴, 대상은 공간 사슬에게서 멀어진 칸 × %d%% 확률로 사슬이 위치한 지점으로 순간이동합니다. 이때 %0.2f 물리 피해와 %0.2f 시간 피해 (왜곡 속성) 를 순간이동 대상과 공간 사슬 주변의 반경 %d 칸 내의 모든 적에게 입힙니다.
 		피해량은 주문력에 비례해 증가합니다.]], "tformat")
 t("Banish", "추방", "talent name")
 t("The spell fizzles on %s!", "주문이 실패했다 %s!", "logSeen", nil, {"을"})
@@ -17934,7 +17934,7 @@ t("%s's space-time folding fizzles!", "%s의 시공간 접기가 실패했다!",
 t("%s emerges from a space-time rift!", "%s 시공의 틈에서 나타난다!", "logSeen", nil, {"가"})
 t([[Teleports you to up to %d tiles away, to a targeted location in line of sight.
 		At talent level 5 you may swap positions with a target creature.]], [[시아 내에 보이는 위치로 최대 %d 칸 순간이동합니다.
-		기술 레벨 5 일때 시전자는 일정 확률로 대상과 위치를 맞바꿀 수 있습니다.]], "tformat")
+		기술 레벨 5 일 때 시전자는 일정 확률로 대상과 위치를 맞바꿀 수 있습니다.]], "tformat")
 t("Dimensional Shift", "차원 전환", "talent name")
 t("When you teleport you reduce the duration of a single detrimental effect by %d turns.", "시전자가 순간이동할 때, 부정적인 효과 하나의 지속시간을 %d 턴 단축합니다.", "tformat")
 t("Wormhole", "웜홀", "talent name")
@@ -17971,7 +17971,7 @@ t("Haste", "가속", "talent name")
 t("Increases your global speed by %d%% for %d game turns.", "%d 실질 턴 동안 전체 속도가 %d%% 증가됩니다", "tformat", {2,1})
 t("Time Stop", "시간 정지", "talent name")
 t("#STEEL_BLUE#%s has stopped time!#LAST#", "#STEEL_BLUE#%s 시간을 멈췄다!#LAST#", "logSeen", nil, {"는"})
-t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "%d 턴을 획득합니다. 멈춰진 시간동안 시전자가 가하는 피해량은 %d%% 감소합니다.", "tformat")
+t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "%d 턴을 획득합니다. 멈춰진 시간 동안 시전자가 가하는 피해량은 %d%% 감소합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -18017,7 +18017,7 @@ section "game/modules/tome/data/talents/chronomancy/stasis.lua"
 
 t("Spacetime Stability", "시공간 안정", "talent name")
 t([[You automatically adjust your Paradox %0.2f points towards your preferred Paradox each turn.
-		While using Spacetime Tuning twice this value will instead be added to the amount you would normally tune.]], [[턴 마다 설정한 괴리 수치를 향하여 괴리 수치가 매 턴 %0.2f 씩 변동합니다.
+		While using Spacetime Tuning twice this value will instead be added to the amount you would normally tune.]], [[턴마다 설정한 괴리 수치를 향하여 괴리 수치가 매 턴 %0.2f 씩 변동합니다.
 		시공간 조율이 활성화 중일 때, 이 기술의 값의 2 배가 변동량에 추가됩니다.]], "tformat")
 t("Time Shield", "시간 보호막", "talent name")
 t([[This intricate spell instantly erects a time shield around the caster, preventing any incoming damage and sending it forward in time.
@@ -18026,8 +18026,8 @@ t([[This intricate spell instantly erects a time shield around the caster, preve
 		While under the effect of Time Shield, all newly applied magical, physical and mental effects will have their durations reduced by %d%%.
 		The shield's max absorption will increase with your Spellpower.]], [[이 복잡한 주문은 시전 시 자기 주위에 즉시 시간 보호막을 둘러칩니다. 보호막은 모든 피해를 막고, 해당 피해를 미래로 보내버립니다.
 		시간의 보호막은 모든 피해를 흡수하여 미래로 보내버리며, 보호막이 총 %d 이상의 피해량을 흡수하거나 %d 턴이 지나 지속시간이 끝나면 보호막은 사라집니다. 보호막은 사라지면서 5 턴 동안 시간의 회복 역장을 만들어내,
-		매 턴 마다 보호막에 누적됐던 피해량의 10%% 만큼 시전자의 생명력을 회복합니다. 
-		시간의 보호막이 활성화 된 동안 받은 모든 상태효과는 보호막으로 인해 지속시간이 %d%% 단축됩니다.
+		매 턴마다 보호막에 누적됐던 피해량의 10%% 만큼 시전자의 생명력을 회복합니다. 
+		시간의 보호막이 활성화된 동안 받은 모든 상태효과는 보호막으로 인해 지속시간이 %d%% 단축됩니다.
 		보호막의 최대 흡수량은 주문력의 영향을 받아 증가합니다.]], "tformat")
 t("Stop", "정지", "talent name")
 t([[Inflicts %0.2f temporal damage, and attempts to stun all targets in a radius %d ball for %d turns.
@@ -18050,19 +18050,19 @@ section "game/modules/tome/data/talents/chronomancy/temporal-combat.lua"
 t("Fold Fate", "운명 접합", "talent name")
 t([[When you hit with Weapon Folding you have a %d%% chance of dealing an additional %0.2f temporal damage to enemies in a radius of %d.
 		Affected targets may also have their physical and temporal resistance reduced by %d%% for %d turns.
-		This effect has a cooldown.  If it triggers while on cooldown it will reduce the cooldown of Fold Gravity and Fold Warp by one turn.]], [[무기 접합이 활성화 된 상태에서 공격 시, %d%% 확률로 추가적인 %0.2f 시간 피해를 대상 주변 반경 %d 칸에 입힙니다.
+		This effect has a cooldown.  If it triggers while on cooldown it will reduce the cooldown of Fold Gravity and Fold Warp by one turn.]], [[무기 접합이 활성화된 상태에서 공격 시, %d%% 확률로 추가적인 %0.2f 시간 피해를 대상 주변 반경 %d 칸에 입힙니다.
 		물리, 시간 피해 저항이 %d%% 저하됩니다. 이 효과는 %d 턴 동안 지속됩니다.
 		이 효과는 재사용 대기시간이 있습니다. 이 기술이 발동하면 다른 무기 접합의 재사용 대기시간이 1 턴 단축됩니다.]], "tformat")
 t("Fold Warp", "왜곡 접합", "talent name")
 t([[When you hit with Weapon Folding you have a %d%% chance of dealing an additional %0.2f physical and %0.2f temporal (warp) damage to enemies in a radius of %d.
 		Each target hit may be stunned, blinded, pinned, or confused for %d turns.
-		This effect has a cooldown.  If it triggers while on cooldown it will reduce the cooldown of Fold Gravity and Fold Fate by one turn.]], [[무기 접합이 활성화 된 상태에서 공격 시, %d%% 확률로 추가적인 %0.2f 물리 피해와 %0.2f 시간 피해를 (왜곡 속성) 대상 주변 반경 %d 칸에 입힙니다.
+		This effect has a cooldown.  If it triggers while on cooldown it will reduce the cooldown of Fold Gravity and Fold Fate by one turn.]], [[무기 접합이 활성화된 상태에서 공격 시, %d%% 확률로 추가적인 %0.2f 물리 피해와 %0.2f 시간 피해를 (왜곡 속성) 대상 주변 반경 %d 칸에 입힙니다.
 		피해를 받은 적은 일정 확률로 %d 턴 동안 지속되는 기절, 실명, 속박, 혹은 혼란에 걸립니다.
 		이 효과는 재사용 대기시간이 있습니다. 이 기술이 발동하면 다른 무기 접합의 재사용 대기시간이 1 턴 단축됩니다.]], "tformat")
 t("Fold Gravity", "중력 접합", "talent name")
 t([[When you hit with Weapon Folding you have a %d%% chance of dealing an additional %0.2f physical (gravity) damage to enemies in a radius of %d.
 		Affected targets may also be slowed, decreasing their global speed speed by %d%% for %d turns
-		This effect has a cooldown.  If it triggers while on cooldown it will reduce the cooldown of Fold Fate and Fold Warp by one turn.]], [[무기 접합이 활성화 된 상태에서 공격 시, %d%% 확률로 추가적인 %0.2f 물리 피해를 (중력 속성) 대상 주변 반경 %d 칸에 입힙니다.
+		This effect has a cooldown.  If it triggers while on cooldown it will reduce the cooldown of Fold Fate and Fold Warp by one turn.]], [[무기 접합이 활성화된 상태에서 공격 시, %d%% 확률로 추가적인 %0.2f 물리 피해를 (중력 속성) 대상 주변 반경 %d 칸에 입힙니다.
 		피해를 받은 적은 일정 확률로 느려집니다. 대상의 전체 속도를 %d%% 감소시킵니다. 이 효과는 %d 턴 동안 지속됩니다.
 		이 효과는 재사용 대기시간이 있습니다. 이 기술이 발동하면 다른 무기 접합의 재사용 대기시간이 1 턴 단축됩니다.]], "tformat")
 t("Weapon Folding", "무기 접합", "talent name")
@@ -18106,7 +18106,7 @@ t("temporal-hound", "시간의 사냥개", "_t")
 t("Temporal Hounds", "시간의 사냥개", "talent name")
 t([[Upon activation summon a Temporal Hound.  Every %d turns another hound will be summoned, up to a maximum of three hounds. If a hound dies you'll summon a new hound in %d turns.  
 		Your hounds inherit your increased damage percent, have %d%% physical resistance and %d%% temporal resistance, and are immune to teleportation effects.
-		Hounds will get, %d Strength, %d Dexterity, %d Constitution, %d Magic, %d Willpower, and %d Cunning, based on your Magic stat.]], [[활성화하여 시간의 사냥개들을 불러냅니다. 매 %d 턴 마다 또 다른 사냥개를 소환하고, 사냥개는 최대 3 마리 소환 가능합니다. 사냥개가 죽었을 시, 시전자는 새로운 사냥개를 %d 턴 후에 소환합니다.  
+		Hounds will get, %d Strength, %d Dexterity, %d Constitution, %d Magic, %d Willpower, and %d Cunning, based on your Magic stat.]], [[활성화하여 시간의 사냥개들을 불러냅니다. 매 %d 턴마다 또 다른 사냥개를 소환하고, 사냥개는 최대 3 마리 소환 가능합니다. 사냥개가 죽었을 시, 시전자는 새로운 사냥개를 %d 턴 후에 소환합니다.  
 		사냥개는 시전자의 피해량 증가량을 그대로 적용받고 물리 피해 저항 %d%%, 시간 피해 저항 %d%%, 순간이동에 대한 면역을 갖고있습니다.
 		사냥개의 능력치는 힘 %d, 민첩 %d, 건강 %d, 마법 %d, 의지 %d, 교활 %d 으로 적용됩니다. 이 수치는 시전자의 마법에 비례하여 증가합니다.]], "tformat")
 t("Command Hounds: Blink", "명령 : 점멸", "talent name")
@@ -18124,7 +18124,7 @@ t("Temporal Vigour", "시간의 활력", "talent name")
 t([[Your hounds can now survive for up to %d turns after their hit points are reduced below 1.  While in this state they deal 50%% less damage but are immune to additional damage.
 		Command Blink will now regenerate your hounds for %d life per turn and increase their global speed by %d%% for five turns.  Hounds below 1 life when this effect occurs will have the bonuses doubled.
 		When you learn this talent, your hounds gain %d%% stun, blind, confusion, and pin resistance.
-		The regeneration scales with your Spellpower.]], [[사냥개가 이제 생명력 1 이하에서 최대 %d 턴 동안 죽지 않습니다. 이 상태 동안 사냥개의 피해량은 50%% 감소하지만, 추가적인 피해에 면역을 갖게됩니다.
+		The regeneration scales with your Spellpower.]], [[사냥개가 이제 생명력 1 이하에서 최대 %d 턴 동안 죽지 않습니다. 이 상태 동안 사냥개의 피해량은 50%% 감소하지만, 추가적인 피해에 면역을 갖게 됩니다.
 		명령 : 점멸을 시전 시 5 턴 동안 사냥개들의 생명력 재생이 %d 향상되고 사냥개의 전체 속도가 %d%% 증가됩니다. 생명력이 1 이하인 사냥개에게는 이 효과가 2 배가 됩니다.
 		사냥개들은 기절, 실명, 혼란, 속박 면역력 %d%% 를 얻습니다.
 		생명력 재생량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -18191,12 +18191,12 @@ t([[For the next %d turns two alternate versions of you enter your timeline.  Wh
 		시전자와 분신이 서로에게 가하는 피해는 0으로 고정됩니다.]], "tformat")
 t("Braid Lifelines", "생명선 엮기", "talent name")
 t([[Your Rethread now braids the lifelines of all targets it hits for %d turns.  Braided targets take %d%% of all damage dealt to other braided targets.
-		The amount of damage shared will scale with your Spellpower.]], [[이제 가닥 복구가 대상 목표들의 생명선을 %d 턴간 엮어 버립니다. 한 대상이 피해를 입으면 그 피해의 %d%% 가 다른 대상에게도 전송됩니다.
+		The amount of damage shared will scale with your Spellpower.]], [[이제 가닥 복구가 대상 목표들의 생명선을 %d 턴 동안 엮어 버립니다. 한 대상이 피해를 입으면 그 피해의 %d%% 가 다른 대상에게도 전송됩니다.
 		피해의 공유량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Cease to Exist", "존재 부정", "talent name")
 t("The timeline is too fractured to do this now.", "지금은 시간선의 파편화가 너무 심하다.", "logPlayer")
 t("#LIGHT_BLUE#%s never existed, this never happened!", "#LIGHT_BLUE#%s 존재한 적이 없다! 이 일은 일어나지도 않았다!", "logSeen", nil, {"는"})
-t("#LIGHT_STEEL_BLUE#%s tries to remove %sself from existance!", "#LIGHT_STEEL_BLUE#%s %s 자신의 존재를 지우려 하고있다!", "logSeen", nil, {"는"})
+t("#LIGHT_STEEL_BLUE#%s tries to remove %sself from existance!", "#LIGHT_STEEL_BLUE#%s %s 자신의 존재를 지우려 하고 있다!", "logSeen", nil, {"는"})
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 t([[Over the next %d turns, you attempt to remove the target from the timeline, lowering its resistance to physical and temporal damage by %d%%.
 		If you manage to kill the target while the spell is in effect, you'll be returned to the point in time you cast this spell and the target will be slain.
@@ -18219,7 +18219,7 @@ t([[Pull a bolt of temporal energy back through time.  The bolt will home in on 
 t("Time Skip", "시간 넘기기", "talent name")
 t("%s is immune!", "%s 면역이다!", "logSeen", nil, {"는"})
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
-t("Something has prevented the timetravel.", "무엇인가 시간 여행을 방해하고있다.", "logPlayer")
+t("Something has prevented the timetravel.", "무엇인가 시간 여행을 방해하고 있다.", "logPlayer")
 t("temporal instability", "시간의 불안정성", "_t")
 t("%s has moved forward in time!", "%s 미래로 보내졌다!", "logSeen", nil, {"는"})
 t([[Inflicts %0.2f temporal damage.  If your target survives, it may be removed from time for %d turns.
@@ -18266,9 +18266,9 @@ t([[A furious storm of blighted poison rages around the caster in a radius of %d
 		Each possible effect is equally likely.
 		The poison damage dealt is capable of a critical strike.
 		The damage will increase with your Spellpower.]], [[%d 턴 동안, 격렬한 독성 폭풍이 시전자 주변 %d 칸 내에서 몰아칩니다. 폭풍 내의 대상은 %0.2f 황폐 피해를 받고, 중독되어 %0.2f 황폐 피해를 4 턴에 걸쳐 받습니다.
-		기술 레벨 2 : 폭풍은 잠행성 역병을 퍼뜨릴 확률을 갖게됩니다. 이는 생명력 회복 효율을 %d%% 낮춥니다.
-		기술 레벨 4 : 폭풍은 마비성 역병을 퍼뜨릴 확률을 갖게됩니다. 이는 적이 가하는 모든 피해량을 %d%% 낮춥니다.
-		기술 레벨 6 : 폭풍은 방해성 역병을 퍼뜨릴 확률을 갖게됩니다. 이는 %d%% 확률로 기술 사용을 실패하게 합니다.
+		기술 레벨 2 : 폭풍은 잠행성 역병을 퍼뜨릴 확률을 갖게 됩니다. 이는 생명력 회복 효율을 %d%% 낮춥니다.
+		기술 레벨 4 : 폭풍은 마비성 역병을 퍼뜨릴 확률을 갖게 됩니다. 이는 적이 가하는 모든 피해량을 %d%% 낮춥니다.
+		기술 레벨 6 : 폭풍은 방해성 역병을 퍼뜨릴 확률을 갖게 됩니다. 이는 %d%% 확률로 기술 사용을 실패하게 합니다.
 		각 효과의 중독 확률은 모두 같습니다.
 		독 피해는 치명타를 가할 확률이 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,1,3,4,5,6,7})
@@ -18293,7 +18293,7 @@ t("Blood Boil", "끓어오르는 피", "talent name")
 t([[Make the impure blood of all creatures around you in radius %d boil.
 				Each enemy afflicted by a disease, poison, or wound will have one removed at random dealing %0.2f blight damage, healing you for %d, and slowing them by %d%% for 5 turns.
 			The damage will increase with your Spellpower.]], [[시전자를 기준으로, 반경 %d 칸 내의 적의 피를 끓입니다.
-				대상 위치 내의 적이 가진 무작위의 질병, 독, 상처효과를 하나 제거하고 %0.2f 황폐 피해를 입힙니다. 영향을 받는 적 1 체 마다 시전자의 생명력을 %d 회복하고, 적들을 5 턴 동안 %d%% 느려지게합니다.
+				대상 위치 내의 적이 가진 무작위의 질병, 독, 상처효과를 하나 제거하고 %0.2f 황폐 피해를 입힙니다. 영향을 받는 적 1 체 마다 시전자의 생명력을 %d 회복하고, 적들을 5 턴 동안 %d%% 느려지게 합니다.
 			피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blood Fury", "피의 분노", "talent name")
 t([[Concentrate on the corruption you bring, increasing your spell critical chance by %d%%.
@@ -18329,7 +18329,7 @@ t([[Bone shields start circling around you. They will each fully absorb one inst
 		Then every %d turns a new one will be created if not full.
 		This will only trigger on hits over %d damage based on Spellpower.]], [[뼈의 방패가 시전자 주변을 돌며, 적의 공격을 완전히 막아냅니다.
 		주문을 활성화하면 %d 개의 방패가 생겨납니다.
-		방패의 개수가 최대치에 미달하는 경우, %d 턴 마다 하나씩 방패가 재생됩니다.
+		방패의 개수가 최대치에 미달하는 경우, %d 턴마다 하나씩 방패가 재생됩니다.
 		이 효과는 오직 %d 이상의 피해에만 발동되며, 기준치는 주문력에 비례합니다.]], "tformat")
 
 
@@ -18393,7 +18393,7 @@ section "game/modules/tome/data/talents/corruptions/hexes.lua"
 
 t("Pacification Hex", "진정의 비술", "talent name")
 t([[Hexes your target, dazing it and everything in a 2 radius ball around it for 3 turns and giving a %d%% chance to daze affected targets again each turn for 20 turns.
-		The chance will increase with your Spellpower.]], [[대상에게 비술을 걸어 반경 2 칸 이내의 모든 적에게 3 턴 동안 지속되는 혼절을 겁니다. 이 후, 매 턴 마다 %d%% 확률로 다시 혼절하게 만듭니다. 추가 효과는 20 턴 동안 지속됩니다.
+		The chance will increase with your Spellpower.]], [[대상에게 비술을 걸어 반경 2 칸 이내의 모든 적에게 3 턴 동안 지속되는 혼절을 겁니다. 이 후, 매 턴마다 %d%% 확률로 다시 혼절하게 만듭니다. 추가 효과는 20 턴 동안 지속됩니다.
 		이 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Burning Hex", "화염의 비술", "talent name")
 t([[Hexes your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a resource (stamina, mana, vim, ...), it takes %0.2f fire damage.
@@ -18431,7 +18431,7 @@ t([[Make your target's diseases burst, doing %0.2f blight damage for each diseas
 t("Catalepsy", "근경직", "talent name")
 t("Diseases #DARK_GREEN#BURN THROUGH#LAST# %s!", "%s 고통으로 인해#DARK_GREEN#몸부림친다#LAST#!", "logSeen", nil, {"은"})
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
-t("All your foes within a radius %d ball infected with a disease enter a cataleptic state, stunning them for %d turns and dealing %d%% of all remaining disease damage instantly.", "반경 %d 칸 내의 이미 질병에 감염된 대상에게 근육 경직성 질병을 퍼뜨립니다. 대상은 %d 턴 동안 기절하고, 갖고있던 질병에 의해 서서히 받아야 했던 피해량의 %d%% 만큼을 한번에 받습니다.", "tformat")
+t("All your foes within a radius %d ball infected with a disease enter a cataleptic state, stunning them for %d turns and dealing %d%% of all remaining disease damage instantly.", "반경 %d 칸 내의 이미 질병에 감염된 대상에게 근육 경직성 질병을 퍼뜨립니다. 대상은 %d 턴 동안 기절하고, 갖고 있던 질병에 의해 서서히 받아야 했던 피해량의 %d%% 만큼을 한 번에 받습니다.", "tformat")
 t("Epidemic", "범유행", "talent name")
 t("The diseases of %s spread!", "%s의 질병이 확산된다!", "logSeen")
 t("%s resists the disease!", "%s 질병에 저항했다!", "logSeen", nil, {"는"})
@@ -18493,8 +18493,8 @@ t([[Your body has become a mass of living corruption, increasing your blight and
 On taking damage greater than 15%% of your maximum health, the damage will be reduced by %d%% and a carrion worm mass will burst forth onto a nearby tile, attacking your foes for 5 turns.
 You can never have more than 5 worms active from any source at a time.
 When a carrion worm dies it will explode into a radius 2 pool of blight for 5 turns, dealing %0.2f blight damage each turn and healing you for 33%% of that amount.]], [[몸이 살아있는 부패 덩어리가 됩니다. 황폐와 산성 저항이 %d%% 증가되고 황폐 속성 친화도 %d%% 증가됩니다.
-최대 생명력의 15%% 이상의 피해를 한번에 받을 시, 해당 피해는 %d%% 만큼 감소되며 시체 벌레 떼가 인접한 칸에 뛰쳐 나와 5 턴 동안 주인의 적을 공격합니다.
-어떤 이유에서건 한번에 5마리 이상의 벌레를 동시에 몰고 다닐수 없습니다.
+최대 생명력의 15%% 이상의 피해를 한 번에 받을 시, 해당 피해는 %d%% 만큼 감소되며 시체 벌레 떼가 인접한 칸에 뛰쳐 나와 5 턴 동안 주인의 적을 공격합니다.
+어떤 이유에서건 한 번에 5마리 이상의 벌레를 동시에 몰고 다닐수 없습니다.
 시체 벌레는 죽음과 동시에 폭발하여, 5 턴 동안 반경 2 칸의 황폐 웅덩이를 남깁니다. 웅덩이는 %0.2f 황폐 피해를 매 턴 입히며, 웅덩이가 가한 피해량의 33%% 가 벌레의 주인의 생명력으로 흡수됩니다.]], "tformat")
 t("Worm Walk", "벌레 걸음", "talent name")
 t("You do not have line of sight to this location.", "당신의 시야 내에는 이 위치가 보이지 않는다.", "logPlayer")
@@ -18508,7 +18508,7 @@ At talent level 4, this affects targets in a radius 1 ball.
 Your worms also have a %d%% chance to blind, silence, disarm or pin with their melee attacks, lasting 2 turns.
 The chance to apply this effect will increase with your Spellpower.]], [[황폐 피해를 입힐 때마다 %d%% 확률로 대상을 부패시켜, 침묵, 무장해제, 실명, 속박 중 하나를 %d 턴 동안 겁니다. 이 효과는 재사용 대기시간이 존재합니다.
 기술 레벨이 4 일 때, 이 효과는 대상 주변의 반경 1 칸의 적에게도 영향을 미칩니다.
-시체 벌레 또한, 근접 공격시 %d%% 확률로 2 턴 동안 지속되는 실명, 침묵, 무장해제, 속박 중 하나를 겁니다
+시체 벌레 또한, 근접 공격 시 %d%% 확률로 2 턴 동안 지속되는 실명, 침묵, 무장해제, 속박 중 하나를 겁니다
 이 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Worm Rot", "벌레 부패", "talent name")
 t("%s resists the worm rot!", "%s 벌레 부패에 저항했다!", "logSeen", nil, {"는"})
@@ -18519,7 +18519,7 @@ You can never have more than 5 worms active from any source at a time.
 The damage dealt will increase with your Spellpower.]], [[5 턴 동안 대상을 시체 벌레 유충으로 감염시킵니다. 매 턴, 이로운 물리적 효과를 하나 제거하고 %0.2f 산성 피해와 %0.2f 황폐 피해를 입힙니다.
 5 턴이 지나서도 이 질병이 제거되지 읺았을 시, 유충이 알에서 부화하여 %0.2f 황폐 피해를 입힙니다. 대상 근처에 시체 벌레 떼가 튀어 나오며 질병은 사라지게 됩니다.
 이 질병이 일찍 제거됐을지라도 여전히 %d%% 의 부화 확률이 존재합니다.
-어떤 이유에서건 한번에 5마리 이상의 벌레를 동시에 몰고 다닐수 없습니다.
+어떤 이유에서건 한 번에 5마리 이상의 벌레를 동시에 몰고 다닐수 없습니다.
 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -18537,7 +18537,7 @@ t("The cost of using life instead of vim for talents is reduced to %d%%.", "원�
 t("Absorb Life", "원기 강탈", "talent name")
 t([[Absorbs the life force of your foes as you kill them.
 		As long as this talent is active, vim will decrease by 0.5 per turn and increase by %0.1f for each kill of a non-undead creature (in addition to the usual increase based on Willpower).]], [[적을 쓰러뜨릴 때, 생명의 힘을 흡수합니다.
-		주문이 활성화된 동안, 매 턴 마다 원기가 0.5 씩 소진되며, 언데드를 제외한 적을 죽일 때마다 원기가 %0.1f 회복됩니다. (최종 원기 회복량은 의지 능력치에 따른 기본 회복량과 더해져서 결정됩니다).]], "tformat")
+		주문이 활성화된 동안, 매 턴마다 원기가 0.5 씩 소진되며, 언데드를 제외한 적을 죽일 때마다 원기가 %0.1f 회복됩니다. (최종 원기 회복량은 의지 능력치에 따른 기본 회복량과 더해져서 결정됩니다).]], "tformat")
 t("Life Tap", "생명력 전송", "talent name")
 t([[Feed on the pain you cause your foes.
 			For 2 turns you gain %d%% lifesteal on all damage dealt.
@@ -18605,9 +18605,9 @@ t([[Summon a part of the Fearscape to intersect with the current level.
 		It has no effect if cast from within the Fearscape.
 		The damage will increase with your Spellpower.]], [[공포의 영역과 현재 장소를 잇는 교차점으로 이동합니다.
 		오직 대상과 시전자 둘만이 공포의 영역으로 이동하며, 둘 중 하나가 죽거나 마법이 끝날 때까지 나갈 수 없게 됩니다.
-		공포의 영역에서는 열기가 끊임없이 올라오기 때문에 대상과 시전자 모두 매 턴 마다 %0.2f 화염 피해를 받습니다. (악마는 생명력을 회복합니다).
+		공포의 영역에서는 열기가 끊임없이 올라오기 때문에 대상과 시전자 모두 매 턴마다 %0.2f 화염 피해를 받습니다. (악마는 생명력을 회복합니다).
 		마법이 끝나면 시전자와 대상만 (아직 살아있을 경우) 원래 세계로 돌아가게 되며, 모든 소환수들은 공포의 영역에 남겨집니다.
-		이 강력한 주문은 시전시 원기를 5 소모하며, 그 후 매 턴 원기 소모량이 1 씩 증가합니다. 주문은 원기가 바닥났을때 끝납니다.
+		이 강력한 주문은 시전 시 원기를 5 소모하며, 그 후 매 턴 원기 소모량이 1 씩 증가합니다. 주문은 원기가 바닥났을때 끝납니다.
 		공포의 영역 안에서 이 주문을 시전하는 것은 아무 효과도 일으키지 않습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -18620,16 +18620,16 @@ t([[You set your mind toward a single goal: the destruction of all your foes.
 		Increases the maximum amount of vim you can store by %d.]], [['모든 적들의 파괴' 라는, 단 하나의 목표에 모든 정신을 집중합니다.
 		최대 보유 가능한 원기의 양이 %d 상승합니다.]], "tformat")
 t("Blood Lock", "혈액 고정", "talent name")
-t("Reach out and touch the blood and health of your foes. Any creatures caught in the radius 2 ball will be unable to heal above their current life value (at the time of the casting) for %d turns.", "적들의 피와 생명력에 마수를 뻗어, %d 턴 동안 반경 2 칸 이내의 모든 적들에게 효과 적용 당시 생명력을 초과할 수 없게합니다.", "tformat")
+t("Reach out and touch the blood and health of your foes. Any creatures caught in the radius 2 ball will be unable to heal above their current life value (at the time of the casting) for %d turns.", "적들의 피와 생명력에 마수를 뻗어, %d 턴 동안 반경 2 칸 이내의 모든 적들에게 효과 적용 당시 생명력을 초과할 수 없게 합니다.", "tformat")
 t("Overkill", "압살", "talent name")
 t([[When you kill a creature, the remainder of the damage done will not be lost. Instead, %d%% of it will splash in a radius 2 as blight damage.
-		The splash damage will increase with your Spellpower.]], [[시전자가 적을 살해할때마다, 쓸데없이 초과된 피해량을 더 이상 낭비하지 않게 됩니다. 적을 죽이고 남는 피해량의 %d%% 의 피해를 주는 폭발이 일어나, 주변 2 칸 반경에 황폐 속성 피해를 줍니다.
+		The splash damage will increase with your Spellpower.]], [[시전자가 적을 살해할 때마다, 쓸데없이 초과된 피해량을 더 이상 낭비하지 않게 됩니다. 적을 죽이고 남는 피해량의 %d%% 의 피해를 주는 폭발이 일어나, 주변 2 칸 반경에 황폐 속성 피해를 줍니다.
 		폭발 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blood Vengeance", "피의 복수", "talent name")
 t("#RED#The powerful blow energizes %s reducing their cooldowns!#LAST#", "#RED#강력한 일격이 %s 에게 힘을 부여했다! 재사용 대기시간이 단축된다!#LAST#", "logSeen")
 t([[When you are dealt a blow that reduces your life by at least %d%%, you have a %d%% chance to reduce the remaining cooldown of all your talents by 1.
 		Temporary life from Sanguine Infusion will not count against the damage threshold.
-		The chance will increase with your Spellpower.]], [[생명력의 %d%% 이상을 한번에 잃으면, %d%% 확률로 모든 기술들의 재사용 대기시간이 1 턴 단축됩니다.
+		The chance will increase with your Spellpower.]], [[생명력의 %d%% 이상을 한 번에 잃으면, %d%% 확률로 모든 기술들의 재사용 대기시간이 1 턴 단축됩니다.
 		선혈 주입으로 획득한 임시 생명력은 계산되지 않습니다.
 		확률은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -18687,7 +18687,7 @@ t("Dark Portal", "어둠의 차원문", "talent name")
 t([[Open a dark portal (radius 3) to the target zone. All creatures caught inside will be teleported to your location, and you to theirs.
 		All creatures (except you) traversing the portal will catch a random disease, doing %0.2f blight damage per turn for 6 turns and reducing one of its physical stats (strength, constitution, dexterity) by %d.
 		The damage will increase with your Spellpower.]], [[반경 3 칸의 어둠의 차원문을 엽니다. 범위 내의 모든 적과 시전자는 자리를 맞바꿉니다.
-		시전자를 제외한 모든 개체는 차원문을 지날 때 무작위한 질병에 감염됩니다. 질병은 6 턴 동안 지속되고, 매 턴 마다 %0.2f 황폐 속성 피해를 가하며 힘, 체격, 민첩 능력치 중 하나를 %d 감소시킵니다.
+		시전자를 제외한 모든 개체는 차원문을 지날 때 무작위한 질병에 감염됩니다. 질병은 6 턴 동안 지속되고, 매 턴마다 %0.2f 황폐 속성 피해를 가하며 힘, 체격, 민첩 능력치 중 하나를 %d 감소시킵니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Vimsense", "원기 감지", "talent name")
 t([[Feel the very existence of creatures around you for %d turns, in a radius of 10.
@@ -18717,7 +18717,7 @@ t([[You reach out with the shadows silencing and disarming your target for %d tu
 t("Umbral Agility", "그림자의 민첩성", "talent name")
 t([[Your mastery of dark magic empowers you.
 		You gain %d Accuracy, %d Defense, and %d%% Darkness damage penetration.
-		The effects will increase with your Spellpower stat.]], [[어둠의 마법에 관한 지식은 자신의 능력을 더욱 강하게합니다.
+		The effects will increase with your Spellpower stat.]], [[어둠의 마법에 관한 지식은 자신의 능력을 더욱 강하게 합니다.
 		정확도 %d , 회피도 %d 와 암흑 저항 관통 %d%% 를 얻습니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Shadow Veil", "그림자 장막", "talent name")
@@ -18764,7 +18764,7 @@ Only one tool of each type can be equipped at a time.
 
 %s
 이 기술은 각 암기의 기술 레벨을 결정하며, 암기를 준비하는 즉시 해당 암기에 재사용 대기시간을 적용합니다.
-한번에 같은 종류의 암기를 여러 개 준비할 수는 없습니다.
+한 번에 같은 종류의 암기를 여러 개 준비할 수는 없습니다.
 ]], "tformat")
 t("Intricate Tools", "복잡한 암기", "talent name")
 t([[With some advanced preparation, you learn to create and equip a third tool (at #YELLOW#level %d#WHITE#):
@@ -18776,7 +18776,7 @@ Only one tool of each type can be equipped at a time.
 
 %s
 이 기술은 각 암기의 기술 레벨을 결정하며, 암기를 준비하는 즉시 해당 암기에 재사용 대기시간을 적용합니다.
-한번에 같은 종류의 암기를 여러 개 준비할 수는 없습니다.
+한 번에 같은 종류의 암기를 여러 개 준비할 수는 없습니다.
 ]], "tformat")
 t("Master Artificer", "숙련된 암기 제작자", "talent name")
 t("none", "없음", "_t")
@@ -18814,8 +18814,8 @@ t([[Imbibe a potent mixture of energizing and restorative substances, restoring 
 	#YELLOW#Prepared with: %s#LAST#]], [[힘을 돋구고 상처릉 치유하는 물질을 혼합한 물약을 마십니다. 생명력 %d 과 기력 %d 을 회복하고 %d 개의 부정적인 물리적 효과를 제거합니다. 회복량은 교활 능력치에 비례하여 증가합니다.
 	#YELLOW#현재 암기: %s#LAST#]], "tformat")
 t("Rogue's Brew Mastery", "도적의 숙련된 양조 기술", "talent name")
-t("Your Rogue's Brew fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "도적의 양조주가 8 턴 동안 생명력이 -%d 이하로 떨어지기 전 까지 죽지 않게합니다.", "tformat")
-t("Adjust your Rogue's Brew formulation so that it fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "도적의 양조주의 제조법을 조금 손봤습니다. 이제 8 턴 동안 시전자는 생명력이 -%d 이하로 떨어지기 전 까지 죽지 않게됩니다.", "tformat")
+t("Your Rogue's Brew fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "도적의 양조주가 8 턴 동안 생명력이 -%d 이하로 떨어지기 전 까지 죽지 않게 합니다.", "tformat")
+t("Adjust your Rogue's Brew formulation so that it fortifies you for 8 turns, preventing you from dying until you reach -%d life.", "도적의 양조주의 제조법을 조금 손봤습니다. 이제 8 턴 동안 시전자는 생명력이 -%d 이하로 떨어지기 전 까지 죽지 않게 됩니다.", "tformat")
 t("Smokescreen", "연막탄", "talent name")
 t("Throw a smokebomb creating a radius 2 cloud of smoke, lasting %d turns, that blocks sight and reduces enemies' vision by %d. 15 turn cooldown.", "연막탄을 던저 반경 2 칸의 연기 구름을 생성합니다. 구름은 %d 턴 동안 유지되고, 적의 시야를 가로막고 영향을 받는 적의 최대 시야를 %d 만큼 줄입니다. 15 턴의 재사용 대기시간을 갖습니다.", "tformat")
 t([[Throw a vial of volatile liquid that explodes in a radius %d cloud of smoke lasting %d turns.  The smoke blocks line of sight, and enemies within will have their vision range reduced by %d.
@@ -18847,7 +18847,7 @@ t("%s resists the pin!", "%s 속박에 저항했다!", "logSeen", nil, {"가"})
 t("You cannot move!", "움직일 수 없습니다!", "logPlayer")
 t("You need more room to swing your hook effectively.", "갈고리 닻을 효과적으로 던지기에는 공간이 부족하다.", "logPlayer")
 t("%s uses a grappling hook to pull %s %s!", "%s 갈고리 닻을 사용하여 %s %s 방향으로 이동했다!", "logSeen", nil, {"는","을"})
-t("You must anchor the hook to something solid.", "당신은 단단한 물체에 갈고리를 고정해야한다.", "logPlayer")
+t("You must anchor the hook to something solid.", "당신은 단단한 물체에 갈고리를 고정해야 한다.", "logPlayer")
 t("Throw a grappling hook up to range %d that drags you towards the target or the target towards you. 8 turn cooldown.", "갈고리 닻을 던저 반경 %d 칸 내의 대상을 끌고오거나 대상 쪽으로 이동 합니다. 8 턴의 재사용 대기시간이 적용됩니다.", "tformat")
 t("not prepared", "준비되지 않음", "_t")
 t([[Toss out a grappling hook to a target within range %d.  If this strikes either a wall or a creature that is immovable or larger than you, you will pull yourself towards it, otherwise, you will drag the target towards you.  Creatures struck by the hook will be pinned for 2 turns.
@@ -18939,7 +18939,7 @@ t("Backstab", "뒤치기", "talent name")
 t([[Your quick wit gives you a big advantage against disabled targets, increasing your damage by %d%% for each disabling effect the target is under, to a maximum of %d%%.
 For this purpose, disabling effects are stun, blind, daze, confuse, pin, disarm, cripple and silence.
 In addition, for each disabling effect the target is under, your melee attacks have a %d%% (to a maximum of %d%%) chance to inflict a new effect on them (that they do not already have): either disarm, cripple (25%% power) or pin for 2 turns.
-The chance to further disable the target increases with your Accuracy.]], [[번뜩이는 재치는 무력화된 대상을 상대할때 큰 이점을 가져옵니다. 상대에게 적용된 무력화 효과 하나 당 %d%% 추가 피해를 입히며, 피해는 최대 %d%% 까지 상승합니다.
+The chance to further disable the target increases with your Accuracy.]], [[번뜩이는 재치는 무력화된 대상을 상대할 때 큰 이점을 가져옵니다. 상대에게 적용된 무력화 효과 하나 당 %d%% 추가 피해를 입히며, 피해는 최대 %d%% 까지 상승합니다.
 무력화 효과는 기절, 실명, 혼절, 혼란, 속박, 무장해제, 불구 그리고 침묵 효과를 포함합니다.
 대상의 무력화 효과마다 시전자의 근접 공격은 %d%% (최대 %d%%) 확률로 적에게 적용되지 않은 다음 효과 중 하나를 적에게 일으킵니다 : 2 턴 동안의 무장해제, 방해 (25%% 위력), 속박.
 추가적인 무력화 확률은 정확도에 비례해 증가합니다.]], "tformat")
@@ -18983,7 +18983,7 @@ section "game/modules/tome/data/talents/cunning/poisons.lua"
 t("Apply Poison", "독 바르기", "talent name")
 t("%s resists the vile poison!", "%s 독에 저항합니다!", "logSeen", nil, {"는"})
 t([[Learn how to coat your melee weapons, throwing knives, sling and bow ammo with poison, giving your attacks a %d%% chance to poison the target for %d nature damage per turn for %d turns. Every application of the poison stacks, up to a maximum of %d nature damage per turn.
-		The damage scales with your Cunning.]], [[근접 무기, 단검 투척, 투석구 및 활에 독을 발라 시전자의 공격이 %d%% 확률로 독을 걸어, 대상에게 턴 마다 %d 의 자연 피해를 %d 턴 동안 입힙니다. 독 피해는 중첩되어 턴 마다 최대 %d 의 자연 피해를 입힐 수 있습니다.
+		The damage scales with your Cunning.]], [[근접 무기, 단검 투척, 투석구 및 활에 독을 발라 시전자의 공격이 %d%% 확률로 독을 걸어, 대상에게 턴마다 %d 의 자연 피해를 %d 턴 동안 입힙니다. 독 피해는 중첩되어 턴마다 최대 %d 의 자연 피해를 입힐 수 있습니다.
 		피해량은 교활에 비례하여 증가합니다.]], "tformat")
 t("Toxic Death", "독성 죽음", "talent name")
 t("#GREEN#Poison bursts out of %s's corpse!", "#GREEN#독이 %s의 시체에서 뿜어져 나옵니다!", "logSeen")
@@ -19028,7 +19028,7 @@ t([[You strike your target with your melee or ranged weapon, doing %d%% weapon d
 		]], [[근접이나 원거리 무기로 공격해 %d%%의 무기 피해만큼 자연 피해를 주고, 치명적인 독에 의해 부여된 독에 따라 추가 효과를 줍니다:
 		
 		%s
-		단검 투척 기술을 알고있을 경우, 맹독성 투척을 사용할 수 있게 됩니다. 맹독성 타격과 맹독성 투척은 재사용 대기시간을 공유합니다.
+		단검 투척 기술을 알고 있을 경우, 맹독성 투척을 사용할 수 있게 됩니다. 맹독성 타격과 맹독성 투척은 재사용 대기시간을 공유합니다.
 		]], "tformat")
 t("Numbing Poison", "마비성 독", "talent name")
 t("Enhances your Deadly Poison with a numbing agent, causing the poison to reduce all damage the target deals by %d%%.", "독을 마비성 물질로 강화시켜, 대상이 입히는 피해량을 %d%%만큼 감소시킵니다.", "tformat")
@@ -19140,7 +19140,7 @@ t([[You know how to make the most out of being unseen.
 t("Soothing Darkness", "위로하는 어둠", "talent name")
 t([[You have a special affinity for darkness and shadows.
 		When standing in an unlit grid, the minimum range to your foes for activating stealth or for maintaining it after a Shadow Dance is reduced by %d.
-		While stealthed, your life regeneration is increased by %0.1f (based on your Cunning) and your stamina regeneration is increased by %0.1f.  The regeneration effects persist for %d turns after exiting stealth, with 5 times the normal rate.]], [[그림자와 어둠에 특별한 친밀감을 갖게됩니다.
+		While stealthed, your life regeneration is increased by %0.1f (based on your Cunning) and your stamina regeneration is increased by %0.1f.  The regeneration effects persist for %d turns after exiting stealth, with 5 times the normal rate.]], [[그림자와 어둠에 특별한 친밀감을 갖게 됩니다.
 		불빛이 없는 곳에 있으면, 다시 은신하기 위한 최소 거리가 %d 감소합니다.
 		은신 상태에서 생명력 회복량이 %0.1f 증가하고 (교활에 비례), 기력 회복량이 %0.1f 만큼 증가합니다. 회복량 증가는 은신이 해제될 경우 %d 턴 추가로 유지되며, 회복량이 5 배 증가합니다.]], "tformat")
 t("Shadow Dance", "어둠의 춤", "talent name")
@@ -19158,7 +19158,7 @@ t([[You notice the small things others do not notice, allowing you to "see" crea
 		Also, your attention to detail increases stealth detection and invisibility detection by %d, and you gain the ability to detect traps (+%d detect 'power').
 		The detection abilities improve with Cunning.]], [[남들이 눈치 채지 못하는 작은 부분까지 감지할 수 있게 되어, 주변 %d 칸 반경의 적들을 빛이 없어도 볼 수 있게 됩니다.
 		하지만 이 능력이 텔레파시가 아니기 때문에, 시야 반경 밖을 내다볼 수는 없습니다.
-		세밀한 것까지 감지하는 주의력을 얻어, 은신과 투명 탐지력이 %d 증가하고, 이제 함정을 탐지할 수 있게됩니다.		 (함정 탐지력 +%d).
+		세밀한 것까지 감지하는 주의력을 얻어, 은신과 투명 탐지력이 %d 증가하고, 이제 함정을 탐지할 수 있게 됩니다.		 (함정 탐지력 +%d).
 		탐지력은 교활 능력치에 비례해 증가합니다.]], "tformat")
 t("Device Mastery", "도구 숙련", "talent name")
 t([[Your cunning manipulations allow you to use charms (wands, totems and torques) more efficiently, reducing their cooldowns and the power cost of all usable items by %d%%.
@@ -19252,7 +19252,7 @@ t([[This talent allows you to prepare up to %d different trap(s) of tier %d or l
 		You are immune to the damage and negative effects of your traps, and traps may critically strike based on your physical crit chance.
 		Most traps last %d turns if not triggered, and refund 80%% of their stamina cost on expiration.
 		More designs may be discovered via disarming or learned from special instructors in the world.]], [[함정 설치법을 배웁니다. 최대 %d 종류의 함정을 준비할 수 있고, 최대 %d 등급의 함정까지 준비할 수 있습니다. 이 기술을 사용함으로써 준비할 함정을 선택할 수 있습니다.
-		알고있는 함정 도안 :
+		알고 있는 함정 도안 :
 %s
 
 		설치된 함정들은 알아차리기 힘들고 (%d 탐지력), 해체하기도 어렵습니다 (%d 해체력). 이 효과는 교활 능력치에 비례해 증가합니다. 이 기술에 의한 함정의 효과는 %+d%% 향상되고, %d%% 확률로 은신상태를 해제하지 않고 함정을 설치합니다.
@@ -19268,7 +19268,7 @@ t([[Deploy a noisy lure that attracts all creatures within radius %d to it for %
 		At level 5, when the lure is destroyed, it will trigger some traps in a radius of 2 around it (check individual trap descriptions to see if they are triggered).
 		Use of this talent will not break stealth.]], [[시끄러운 미끼를 설치해 반경 %d 내의 모든 개체의 주의를 끕니다. 미끼는 %d 턴 동안 지속됩니다.
 		미끼는 %d 생명력을 갖고 (교활 능력치에 비례해 증가합니다) 매우 튼튼합니다. %d 방어력과 비물리적 공격에 대한 %d%% 의 저항을 갖고있습니다.
-		기술 레벨이 5일때, 미끼가 부서지면, 미끼 주변 반경 2 칸 내의 특수한 함정들이 발동됩니다. (각 함정의 설명문에 어떤 함정이 발동되는지 알 수 있습니다).
+		기술 레벨이 5일 때, 미끼가 부서지면, 미끼 주변 반경 2 칸 내의 특수한 함정들이 발동됩니다. (각 함정의 설명문에 어떤 함정이 발동되는지 알 수 있습니다).
 		이 기술의 사용은 은신을 해제하지 않습니다.]], "tformat")
 t("Advanced Trap Deployment", "진보된 함정 설치", "talent name")
 t([[You learn new techniques for setting traps.
@@ -19289,7 +19289,7 @@ t([[You prepare an additional trap (up to tier %d) with a special primed trigger
 
 A trap with a primed trigger gains %+d%% effectiveness (replacing the normal bonus from Trap Mastery) and won't break stealth %d%% of the time.
 #YELLOW#Current primed trap: %s#LAST#]], [[특수 뇌관을 장착한 함정 하나를 추가로 준비하여 (최대 %d 등급) 설치 즉시 발동시킵니다. 이 기술을 사용함으로써 준비할 함정을 선택할 수 있습니다.
-		모든 함정을 이런식으로 준비할 수 있는 것은 아닙니다. 한번에 같은 종류의 함정 여러개를 준비할 수 없습니다.
+		모든 함정을 이런식으로 준비할 수 있는 것은 아닙니다. 한 번에 같은 종류의 함정 여러개를 준비할 수 없습니다.
 		뇌관 장착 가능한 함정 도안:
 %s
 
@@ -19362,7 +19362,7 @@ t("dragonsfire trap", "용의 화염 함정 trap", "_t")
 t("Explodes (radius 2): stuns and combusts for %0.2f fire damage per turn for 3 turns.  Area deflagrates (%0.2f fire damage) for 5 turns.", "폭발하여 (반경 2 칸) 적을 기절 시키고 소각해 %0.2f 화염 피해를 3 턴 동안 가합니다. 5 턴 동안 지역을 불사릅니다. (%0.2f 화염 피해)", "tformat")
 t([[Lay a pressure triggered trap that explodes in a radius 2 cloud of searing flames when triggered, stunning foes with the blast (%0.2f fire damage per turn) for 3 turns.
 		The deflagration persists in the area for 5 turns, burning foes for %0.2f fire damage each turn.
-		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[반경 2 칸 내에 화염 구름을 생성하는 압력 발동식 폭발 함정을 설치합니다. 기절과 함께 턴 마다 %0.2f 화염 피해를 줍니다.
+		This trap can use a primed trigger and a high level lure can trigger it.%s]], [[반경 2 칸 내에 화염 구름을 생성하는 압력 발동식 폭발 함정을 설치합니다. 기절과 함께 턴마다 %0.2f 화염 피해를 줍니다.
 		지역을 5 턴 동안 불살라 범위 내의 적애게 %0.2f 화염 피해를 매 턴 입힙니다.
 		이 함정은 뇌관 장착이 가능하며, 높은 기술 레벨의 미끼는 이 함정의 효과를 발동시킬 수 있습니다.%s]], "tformat")
 t("Gravitic Trap", "중력 함정", "talent name")
@@ -19444,7 +19444,7 @@ t("Shadow's Path", "그림자의 길", "talent name")
 t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
 		For the purpose of this talent, you force your shadows through any walls in their way.
 		Damage increases with your Mindpower.]], [[시야 내의 모든 그림자를 대상 위치로 집결 시켜, 그림자가 지나간 경로에 있는 적들에게 %0.1f 물리 피해를 가합니다.
-		기술 사용시, 그림자들은 벽을 뚫고 이동합니다.
+		기술 사용 시, 그림자들은 벽을 뚫고 이동합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Cursed Bolt", "저주받은 화살", "talent name")
 t("You need a shadow in sight range!", "시야 내에 그림자가 존재해야 한다!", "logPlayer")
@@ -19517,7 +19517,7 @@ t([[When you kill an enemy, their death forms a cursed magical pattern on the gr
 t("Mark of the Vampire", "흡혈귀의 표식", "talent name")
 t([[Dooms your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a talent, it takes %0.2f physical damage as its life is drawn out.	In addition, any bleed applied to the target will have its power increased by %d%%.
 							The damage will increase with your Spellpower.
-							The chance to apply will increase with your Spellpower.]], [[대상과 대상 주변 반경 2 칸 내의 모든 것에게 20 턴 간 파멸을 내립니다. 영향을 받은 적은 기술 시전 시, %0.2f 물리 피해를 받고, 생명력이 뽑혀 나옵니다.	추가로, 대상에게 적용된 모든 출혈 효과의 위력이 %d%% 증폭됩니다.
+							The chance to apply will increase with your Spellpower.]], [[대상과 대상 주변 반경 2 칸 내의 모든 것에게 20 턴 동안 파멸을 내립니다. 영향을 받은 적은 기술 시전 시, %0.2f 물리 피해를 받고, 생명력이 뽑혀 나옵니다.	추가로, 대상에게 적용된 모든 출혈 효과의 위력이 %d%% 증폭됩니다.
 							피해량은 주문력에 비례하여 증가합니다.
 							적용 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Rosebloom", "장미 개화", "talent name")
@@ -19528,9 +19528,9 @@ t([[Draw on the wounds of nearby enemies, healing yourself and putting them into
 							
 							When the sleep ends, each target will benefit from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it 50%% sleep immunity.]], [[주변의 적의 상처들을 끌어내어, 생명력을 회복하고 적들에게 자비로운 잠을 선사합니다.
 							수면 확률은 주문력에 비례하여 증가합니다.
-							범위 내의 출혈 효과가 적용된 적들의 피를 흡수해, 남은 출혈 피해량의 %d%% 만큼 생명력을 회복합니다. (출혈 당 최소 %d 회복) 적들은 가장 지속시간이 긴 출혈 효과의 지속시간 + %d 턴 동안 잠에 빠져, 행동할 수 없게됩니다. 수면의 위력은 출혈의 위력에 비례합니다.	 과도한 피해량은 수면의 지속시간을 단축합니다.
+							범위 내의 출혈 효과가 적용된 적들의 피를 흡수해, 남은 출혈 피해량의 %d%% 만큼 생명력을 회복합니다. (출혈 당 최소 %d 회복) 적들은 가장 지속시간이 긴 출혈 효과의 지속시간 + %d 턴 동안 잠에 빠져, 행동할 수 없게 됩니다. 수면의 위력은 출혈의 위력에 비례합니다.	 과도한 피해량은 수면의 지속시간을 단축합니다.
 							
-							잠이 끝나면, 대상은 잠이 들었던 시간만큼 불면증 상태가 되며 (최대 10 턴) 50%% 의 수면 면역력을 갖게됩니다.]], "tformat")
+							잠이 끝나면, 대상은 잠이 들었던 시간만큼 불면증 상태가 되며 (최대 10 턴) 50%% 의 수면 면역력을 갖게 됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -19557,7 +19557,7 @@ t([[Your defiling touch permeates everything around you, permanently imparting a
 		Level 9  -- tools/totems/torques/wands
 		level 10 -- ammunition
 		At level 5, you can activate this talent to surround yourself with an aura that adds 2 levels to a curse of your choosing. (%s chosen)
-		Also, talent levels above 5 reduce the negative effects of your curses (currently %d%% reduction).]], [[모독의 손길은 손에 닿는 모든 것에 침투하여 발견한 물품에 영구적으로 무작위한 저주를 내립니다. 저주받은 장비를 장착할 시, 그 저주의 효과를 받게됩니다. (이로운 효과로 표시됩니다) 같은 종류의 저주가 담긴 장비를 여러 개 장착하면 저주의 위력이 증폭됩니다. 낮은 위력의 저주는 유해하나, 높은 위력의 저주는 강력하고 이로운 효과를 냅니다.
+		Also, talent levels above 5 reduce the negative effects of your curses (currently %d%% reduction).]], [[모독의 손길은 손에 닿는 모든 것에 침투하여 발견한 물품에 영구적으로 무작위한 저주를 내립니다. 저주받은 장비를 장착할 시, 그 저주의 효과를 받게 됩니다. (이로운 효과로 표시됩니다) 같은 종류의 저주가 담긴 장비를 여러 개 장착하면 저주의 위력이 증폭됩니다. 낮은 위력의 저주는 유해하나, 높은 위력의 저주는 강력하고 이로운 효과를 냅니다.
 		어둠의 선물 기술은 높은 레벨의 저주 효과를 해금하고, 저주의 힘을 강화합니다. 
 		이 기술의 레벨에 따라 저주의 아우라는 장비에 더욱 빈틈없이 파고들 것입니다. 다음과 같은 장비에 저주를 내릴 수 있습니다.:
 		레벨 1  -- 무기
@@ -19569,12 +19569,12 @@ t([[Your defiling touch permeates everything around you, permanently imparting a
 		레벨 8  -- 조명
 		레벨 9  -- 도구/토템/염동력 고리/마법봉
 		레벨 10 -- 탄환
-		기술 레벨 5 일때, 이 기술을 활성화하여, 자신의 주변에 저주를 두를 수 있습니다. 선택된 저주의 레벨을 2 증가시킵니다. (선택한 저주 : %s)
+		기술 레벨 5 일 때, 이 기술을 활성화하여, 자신의 주변에 저주를 두를 수 있습니다. 선택된 저주의 레벨을 2 증가시킵니다. (선택한 저주 : %s)
 		기술 레벨이 5 이상일 때, 저주의 부정적인 효과를 줄일 수 있습니다. (현재 %d%% 감소됨).]], "tformat")
 t("Dark Gifts", "어둠의 선물", "talent name")
 t([[Your curses bring you dark gifts. Unlocks bonus level %d effects on all of your curses, allowing you to gain that effect when the power level of your curse reaches that level. At talent level 5, the luck penalty of cursed effects is reduced to 1.
-		Talent levels above 5 add bonus power levels to your curses, increasing their effects (currently %0.1f).]], [[저주가 어두운 선물을 가져옵니다. 최대 %d 레벨의 저주 효과를 해금하며, 도달한 저주 레벨의 효과를 적용할 수 있게됩니다. 기술 레벨이 5 일 때, 저주의 행운 감소치가 1 줄어듭니다.
-		기술 레벨 5 일때, 저주에 추가적인 위력을 더하여 효과를 강화합니다. (현재 %0.1f).]], "tformat")
+		Talent levels above 5 add bonus power levels to your curses, increasing their effects (currently %0.1f).]], [[저주가 어두운 선물을 가져옵니다. 최대 %d 레벨의 저주 효과를 해금하며, 도달한 저주 레벨의 효과를 적용할 수 있게 됩니다. 기술 레벨이 5 일 때, 저주의 행운 감소치가 1 줄어듭니다.
+		기술 레벨 5 일 때, 저주에 추가적인 위력을 더하여 효과를 강화합니다. (현재 %0.1f).]], "tformat")
 t("Ruined Earth", "대지 황폐화", "talent name")
 t("Curse the earth around you in a radius of %d for %d turns. Any who stand upon it are weakened, reducing the damage they inflict by %d%%", "%d 턴 동안, 자신을 기준으로 반경 %d 범위 내에 저주를 내립니다. 범위 내의 모든 대상은 약화되어, 대상이 가하는 피해량을 %d%% 낮춥니다", "tformat", {2,1,3})
 t("Choose Cursed Sentry", "저주받은 파수꾼 선택", "talent name")
@@ -19582,7 +19582,7 @@ t("Which weapon will be your sentry?", "어떤 무기를 파수꾼으로 삼을�
 t("Choose a sentry to instill your affliction into.", "당신의 고통을 주입시킬 파수꾼을 선택합니다.", "_t")
 t("You cannot use %s without a weapon in your inventory!", "소지 중인 무기가 없으면, %s의 사용은 불가능합니다!", "logPlayer")
 t("animated %s", "움직이는 %s", "tformat")
-t("A weapon imbued with a living curse. It seems to be searching for its next victim.", "살아있는 저주가 스민 무기로, 다음 희생양을 찾고있는 것 같다.", "_t")
+t("A weapon imbued with a living curse. It seems to be searching for its next victim.", "살아있는 저주가 스민 무기로, 다음 희생양을 찾고 있는 것 같다.", "_t")
 t("#ffa0ff#%s returns to your bags!", "#ffa0ff#%s 당신의 가방 속으로 돌아왔다!", "logPlayer", nil, {"은"})
 t("Your animated sentry struggles for a moment and then returns to your inventory inexplicably.", "당신의 움직이는 파수꾼은 잠시 떨리더니, 당신의 가방으로 돌아갔다.", "logPlayer")
 t("Cursed Sentry", "저주 받은 파수꾼", "_t")
@@ -19593,8 +19593,8 @@ t([[Instill a part of your living curse into a weapon in your inventory, and tos
 			At talent level 5, you can corrupt artifacts.]], [[살아있는 저주의 일부를 가방 속 무기로 주입하고 주변에 던집니다. 이 불굴의 감시자는 주변의 모든 적을 %d 턴 동안 공격합니다. 저주가 끝날 때, 무기는 땅에 떨어집니다.
 			저주 받은 파수꾼의 공격 속도는 기술 레벨에 비례해 증가합니다. (현재 %d%%)
 			처음으로 무기를 선택한 무기가 무기가 계속 소지품 내에 있는 한, 같은 무기를 사용합니다. 저주받은 파수꾼 선택 기술로 무기를 다시 선택할 수 있습니다.
-			기술 레벨 3 일때, 더욱 강력한, 상급 에고를 갖고있는 장비에 저주를 풀어놓을 수 있게 됩니다.
-			기술 레벨 5 일때, 유물에 저주를 풀어놓을 수 있게 됩니다.]], "tformat")
+			기술 레벨 3 일 때, 더욱 강력한, 상급 에고를 갖고 있는 장비에 저주를 풀어놓을 수 있게 됩니다.
+			기술 레벨 5 일 때, 유물에 저주를 풀어놓을 수 있게 됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -19602,14 +19602,14 @@ section "game/modules/tome/data/talents/cursed/cursed-form.lua"
 
 t("Unnatural Body", "잠식된 육체", "talent name")
 t([[Your body's strength is fed by your hatred. This causes most forms of healing to be between 50%% effective (at 0 Hate) to 100%% effective (at 100+ Hate). In addition, after each kill, you store the waning life force to invigorate yourself, restoring %d life (limited by the foe's maximum life, up to a maximum of %d at any time).  You can heal no more than %0.1f life per turn this way, and it is not affected by your hatred level or other effects.
-		Healing from kills improves with your Willpower.]], [[증오의 힘이 육체를 잠식합니다. 이로 인해, 치유 효율이 증오심에 따라 50%% 에서 100%% 까지 증감합니다. (증오가 0 일 때 50%% / 증오가 100 이상일 때 100%%) 그리고 적을 살해할 때마다, 적의 생명력을 저장해서 자신의 생명력을 %d 회복할 수 있게 됩니다. (적의 최대 생명력 이상은 회복할 수 없으며, %d 이상은 회복할 수 없습니다)  매 턴 마다 %0.1f 이상의 생명력은 회복할 수 없으며, 이는 증오심에 따른 치유 효율이나 다른 효과의 영향을 받지 않습니다
+		Healing from kills improves with your Willpower.]], [[증오의 힘이 육체를 잠식합니다. 이로 인해, 치유 효율이 증오심에 따라 50%% 에서 100%% 까지 증감합니다. (증오가 0 일 때 50%% / 증오가 100 이상일 때 100%%) 그리고 적을 살해할 때마다, 적의 생명력을 저장해서 자신의 생명력을 %d 회복할 수 있게 됩니다. (적의 최대 생명력 이상은 회복할 수 없으며, %d 이상은 회복할 수 없습니다)  매 턴마다 %0.1f 이상의 생명력은 회복할 수 없으며, 이는 증오심에 따른 치유 효율이나 다른 효과의 영향을 받지 않습니다
 		살육을 통한 회복량은 의지 능력치에 비례해 증가합니다.]], "tformat")
 t("Relentless", "무자비함", "talent name")
 t("Your thirst for blood drives your movements. You gain +%d%% confusion, fear, knockback and stun immunity.", "피에 대한 갈망이 몸의 움직임을 지배합니다. 기절, 혼란, 공포, 밀어내기 면역력이 %d%% 상승합니다.", "tformat")
 t("Seethe", "끓어오르는 증오", "talent name")
-t("You have learned to hold onto your hate and use your suffering to fuel your body's rage. Every turn you take damage, the damage you inflict increases, until it reaches a maximum of +%d%% after 5 turns. Any turn in which you do not take damage will reduce the bonus.", "증오를 억누르고, 자신의 고통으로 육신의 분노의 불을 지피는 법을 깨달았습니다. 피해를 입을 때마다, 자신이 가하는 피해량이 증가합니다. 최대 5 턴 동안 %d%% 까지 증가합니다. 공격을 받지 않은 턴 마다 피해 증가량이 감소합니다.", "tformat")
+t("You have learned to hold onto your hate and use your suffering to fuel your body's rage. Every turn you take damage, the damage you inflict increases, until it reaches a maximum of +%d%% after 5 turns. Any turn in which you do not take damage will reduce the bonus.", "증오를 억누르고, 자신의 고통으로 육신의 분노의 불을 지피는 법을 깨달았습니다. 피해를 입을 때마다, 자신이 가하는 피해량이 증가합니다. 최대 5 턴 동안 %d%% 까지 증가합니다. 공격을 받지 않은 턴마다 피해 증가량이 감소합니다.", "tformat")
 t("Grim Resolve", "음산한 결의", "talent name")
-t("You rise to meet the pain that others would inflict on you. Every turn you take damage, your Strength and Willpower increase until they reach a maximum of +%d after 5 turns. Any turn in which you do not take damage will reduce the bonus. While in effect, your body also has a %d%% chance to overcome poisons and diseases each turn.", "타인이 자신에게 가하는 피해와 고통에 대적합니다. 공격을 받는 턴 마다 힘과 의지가 증가합니다. 최대 5 턴 동안 %d 까지 증가합니다. 공격을 받지 않은 턴 마다 능력치 증가량이 감소합니다. 이 효과 동안, 매 턴 %d%% 확률로 독과 질병을 제거합니다.", "tformat")
+t("You rise to meet the pain that others would inflict on you. Every turn you take damage, your Strength and Willpower increase until they reach a maximum of +%d after 5 turns. Any turn in which you do not take damage will reduce the bonus. While in effect, your body also has a %d%% chance to overcome poisons and diseases each turn.", "타인이 자신에게 가하는 피해와 고통에 대적합니다. 공격을 받는 턴마다 힘과 의지가 증가합니다. 최대 5 턴 동안 %d 까지 증가합니다. 공격을 받지 않은 턴마다 능력치 증가량이 감소합니다. 이 효과 동안, 매 턴 %d%% 확률로 독과 질병을 제거합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -19671,9 +19671,9 @@ t("Fear radiates from your target in a radius of %d for %d turns driving all oth
 t("Suppression", "억제", "talent name")
 t("The time you have spent suppressing the curse has taught you self control. The duration of most non-magical effects are reduced by %d%%.", "저주를 억누르는데 보낸 시간으로 자신을 통제하는 법을 익혔습니다. 모든 비마법적 효과의 지속시간이 %d%% 단축됩니다.", "tformat")
 t("Cruel Vigor", "고통스러운 활력", "talent name")
-t("You are invigorated by the death around you. Each life you take grants %d%% speed for %d more turns.", "주위의 죽음으로 부터 활력을 얻습니다. 앗아간 생명마다 전체 속도가 %d%% 상승하며, %d 턴 동안 지속됩니다.", "tformat")
+t("You are invigorated by the death around you. Each life you take grants %d%% speed for %d more turns.", "주위의 죽음으로부터 활력을 얻습니다. 앗아간 생명마다 전체 속도가 %d%% 상승하며, %d 턴 동안 지속됩니다.", "tformat")
 t("Pity", "거짓 연민", "talent name")
-t("You hide your terrible nature behind a pitiful figure. Those that see you from a distance of %d will ignore you. If you attack or use a talent they will see you for what you are and pity will be deactivated.", "잔혹한 본성을 자비로운 얼굴 아래 숨겨, %d 칸 이상 떨어진 적들이 시전자를 무시하게합니다. 공격이나 기술을 사용 시, 적들이 사악한 본성을 알아차리게 되어 기술이 비활성화됩니다.", "tformat")
+t("You hide your terrible nature behind a pitiful figure. Those that see you from a distance of %d will ignore you. If you attack or use a talent they will see you for what you are and pity will be deactivated.", "잔혹한 본성을 자비로운 얼굴 아래 숨겨, %d 칸 이상 떨어진 적들이 시전자를 무시하게 합니다. 공격이나 기술을 사용 시, 적들이 사악한 본성을 알아차리게 되어 기술이 비활성화됩니다.", "tformat")
 
 
 ------------------------------------------------
@@ -19684,7 +19684,7 @@ t("You can only gain sustenance from your foes!", "오직 적에게서만 힘을
 t([[Feed from the essence of your enemy. Draws %0.1f hate per turn from a targeted foe, as long as they remain in your line of sight.
 			If you aren't already feeding this will be automatically applied to the nearest enemy.
 		Hate gain improves with your Mindpower.]], [[적의 정수를 포식해, 매 턴 대상에게서 %0.1f 증오를 흡수합니다. 대상이 시야 내에 있는 한 지속됩니다.
-			포식을 하지 않고있는 경우, 가장 가까운 적의 정수를 포식합니다.
+			포식을 하지 않고 있는 경우, 가장 가까운 적의 정수를 포식합니다.
 		증오 획득량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Devour Life", "생명력 삼키기", "talent name")
 t([[Devours life from the target of your feeding reducing their life regeneration by %d and adding half of that to yours.
@@ -19713,15 +19713,15 @@ t([[Creeping dark slowly spreads from the target location and %d spots in a radi
 		피해량은 정신력에 비례하여 증가합니다. 뻗어나가는 어둠 속의 대상에게 가하는 모든 피해가 %d%% 증폭됩니다.]], "tformat", {2,1,3,4})
 t("Dark Vision", "어둠의 시야", "talent name")
 t([[Your eyes penetrate the darkness to find anyone that may be hiding there. This allows you to see through creeping darkness out to a radius of %d. You can also find your way through the darkness with greater speed (+%d%% movement into creeping darkness).
-		You do +%d%% damage to anything that has entered your creeping dark.]], [[어둠 속을 꿰뚫어보고 어둠 속에 숨은 이들을 볼 수 있게 됩니다. 반경 %d 칸 내의 뻗어나가는 어둠의 시야 차단 효과를 무시합니다. 또한 어둠 속에서도 빠른 속도로 길을 찾아 낼 수 있게되어, 뻗어나가는 어둠 속에서 이동속도가 %d%% 증가합니다.
+		You do +%d%% damage to anything that has entered your creeping dark.]], [[어둠 속을 꿰뚫어보고 어둠 속에 숨은 이들을 볼 수 있게 됩니다. 반경 %d 칸 내의 뻗어나가는 어둠의 시야 차단 효과를 무시합니다. 또한 어둠 속에서도 빠른 속도로 길을 찾아 낼 수 있게 되어, 뻗어나가는 어둠 속에서 이동속도가 %d%% 증가합니다.
 		뻗어나가는 어둠 속의 대상에게 가하는 모든 피해가 %d%% 증폭됩니다.]], "tformat")
 t("Dark Torrent", "쏟아지는 어둠", "talent name")
 t([[Sends a torrent of searing darkness through your foes, doing %d damage. There is a 25%% chance the rushing darkness will blind them for 3 turns, and cause them to forget their target.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[눈을 지지는 어둠을 쏟아내어, %d 피해를 입힙니다. 25%% 확률로 어둠이 쇄도하여 3 턴간 지속되는 실명을 걸고, 그들이 공격하던 대상이 누구였는지 기억하지 못하게 합니다.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[눈을 지지는 어둠을 쏟아내어, %d 피해를 입힙니다. 25%% 확률로 어둠이 쇄도하여 3 턴 동안 지속되는 실명을 걸고, 그들이 공격하던 대상이 누구였는지 기억하지 못하게 합니다.
 		피해량은 정신력에 비례하여 증가합니다. 뻗어나가는 어둠 속의 대상에게 가하는 모든 피해가 %d%% 증폭됩니다.]], "tformat")
 t("Dark Tendrils", "어둠의 덩굴", "talent name")
 t([[Send tendrils of creeping dark out to attack your target, and pin them in the darkness for %d turns. Creeping dark will trail behind the tendrils as they move. The darkness does %d damage per turn.
-		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[어둠의 덩굴을 보내 대상을 공격하게 합니다. 덩굴은 적을 공격해 %d 턴 동안 적을 어둠 속에 속박합니다. 덩굴이 이동할 시, 뻗어가가는 어둠이 그 자리에 남습니다. 이 어둠은 턴 마다 %d 피해를 입힙니다.
+		The damage will increase with your Mindpower. You do +%d%% damage to anything that has entered your creeping dark.]], [[어둠의 덩굴을 보내 대상을 공격하게 합니다. 덩굴은 적을 공격해 %d 턴 동안 적을 어둠 속에 속박합니다. 덩굴이 이동할 시, 뻗어가가는 어둠이 그 자리에 남습니다. 이 어둠은 턴마다 %d 피해를 입힙니다.
 		피해량은 정신력에 비례하여 증가합니다. 뻗어나가는 어둠 속의 대상에게 가하는 모든 피해가 %d%% 증폭됩니다.]], "tformat")
 
 
@@ -19734,7 +19734,7 @@ t([[When you focus your attacks on a single foe and strike them in melee for two
 		Bonus level 1: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
 		Bonus level 2: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
 		Bonus level 3: +%d Accuracy, +%d%% melee damage, +%0.2f hate/turn prey was hit
-		The accuracy bonus improves with your Willpower, and the melee damage bonus with your Strength.]], [[2 턴을 연이어 같은 대상을 근접 공격하면, 그 적에게 모든 것을 집중하게됩니다. 대상을 향한 증오가 가득 차, 단 하나의 목적을 위해 적을 추적합니다. 이 효과는 먹잇감이 죽지 않는 한, %d 턴 동안 지속됩니다. 적에게 공격을 명중한 턴에 비례해 추가 효과를 얻고, 그렇지 않을 경우 추가 효과를 점점 잃게 됩니다.
+		The accuracy bonus improves with your Willpower, and the melee damage bonus with your Strength.]], [[2 턴을 연이어 같은 대상을 근접 공격하면, 그 적에게 모든 것을 집중하게 됩니다. 대상을 향한 증오가 가득 차, 단 하나의 목적을 위해 적을 추적합니다. 이 효과는 먹잇감이 죽지 않는 한, %d 턴 동안 지속됩니다. 적에게 공격을 명중한 턴에 비례해 추가 효과를 얻고, 그렇지 않을 경우 추가 효과를 점점 잃게 됩니다.
 		추가효과 1 단계: 정확도 %d, 무기 피해 %d%%, 명중 시 증오 회복 %0.2f 
 		추가효과 2 단계: 정확도 %d, 무기 피해 %d%%, 명중 시 증오 회복 %0.2f 
 		추가효과 3 단계: 정확도 %d, 무기 피해 %d%%, 명중 시 증오 회복 %0.2f 
@@ -19798,7 +19798,7 @@ t([[Impose your tyranny on the minds of those who fear you. When a foe gains a n
 t("Panic", "공황", "talent name")
 t("#F53CBE#%s ignores the panic!", "#F53CBE#%s 공황을 무시했다!", "logSeen", nil, {"는"})
 t("#F53CBE#%s resists the panic!", "#F53CBE#%s 공황에 저항했다!", "logSeen", nil, {"는"})
-t("Panic your enemies within a range of %d for %d turns. Anyone who fails to make a mental save against your Mindpower has a %d%% chance each turn of trying to run away from you.", "반경 %d 칸 범위 내의 적을 %d 턴 동안 공황에 빠지게합니다. 정신 내성 판정에 실패한 적들은, 매 턴 마다 %d%% 확률로 기술 시전자로부터 멀어지려 할 것입니다.", "tformat")
+t("Panic your enemies within a range of %d for %d turns. Anyone who fails to make a mental save against your Mindpower has a %d%% chance each turn of trying to run away from you.", "반경 %d 칸 범위 내의 적을 %d 턴 동안 공황에 빠지게 합니다. 정신 내성 판정에 실패한 적들은, 매 턴마다 %d%% 확률로 기술 시전자로부터 멀어지려 할 것입니다.", "tformat")
 
 
 ------------------------------------------------
@@ -19820,7 +19820,7 @@ t("Deflection (%d)", "편향 (%d)", "tformat")
 t("You have deflected %d incoming damage!", "당신은 받은 피해를 %d 편향 시켰다!", "logPlayer")
 t([[Create a barrier that siphons hate from you at the rate of 0.2 a turn. The barrier will deflect 50%% of incoming damage with the force of your will, up to %d damage. The barrier charges at a rate of 1/%d of its maximum charge per turn.
 		In addition, your ability to channel force with this talent increases all critical damage by %d%% (currently: %d%%)
-		The maximum damage deflected increases with your Mindpower.]], [[턴 마다 시전자의 증오를 0.2 씩 흡수하는 방어막을 만들어냅니다. 방어막은 받는 피해의 50%% 를 정신의 힘으로 줄입니다. 최대 %d 피해를 경감 합니다. 방어막은 턴 마다 최대 치의 %d 분의 1 만큼 회복됩니다.
+		The maximum damage deflected increases with your Mindpower.]], [[턴마다 시전자의 증오를 0.2 씩 흡수하는 방어막을 만들어냅니다. 방어막은 받는 피해의 50%% 를 정신의 힘으로 줄입니다. 최대 %d 피해를 경감 합니다. 방어막은 턴마다 최대 치의 %d 분의 1 만큼 회복됩니다.
 		추가로, 이 기술로 인해 모든 치명타 공격의 피해가 %d%% 상승합니다 (현재 증가량 : %d%%)
 		최대 피해 감소량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Blast", "악의 폭발", "talent name")
@@ -19865,7 +19865,7 @@ t("Gesture of Guarding", "보호의 손짓", "talent name")
 t("#F53CBE##Source# lashes back at #Target#!", "#F53CBE##Source2# #Target3#! 후려쳤다", "logCombat")
 t([[You guard against melee damage with a sweep of your hand. So long as you can use Gestures (Requires two free or mindstar-equipped hands), you deflect up to %d damage (%0.1f%% of your best free hand melee damage) from up to %0.1f melee attack(s) each turn (based on your cunning). Deflected attacks cannot be crits.
 		If Gesture of Pain is active, you also have a %0.1f%% chance to counterattack.]], [[손을 휘둘러 근접 공격을 방어합니다. 손짓을 사용할 수 있는 상태라면, (마석을 두 손에 장비하거나, 손이 비어 있는 경우) 매 턴, 최대 %0.1f 번의 근접 공격을 방어해, 최대 %d 피해를 경감합니다. 턴 당 최대 방어 횟수는 교활에 비례하며, 피해 감소량은 맨손 공격 최대 피해의 %0.1f%% 입니다. 방어된 공격에는 치명타가 적용되지 않습니다.
-		고통의 손짓이 활성화 된 경우, %0.1f%% 확률로 반격합니다.]], "tformat", {3,1,2,4})
+		고통의 손짓이 활성화된 경우, %0.1f%% 확률로 반격합니다.]], "tformat", {3,1,2,4})
 
 
 ------------------------------------------------
@@ -19891,7 +19891,7 @@ t([[Every turn, all enemies in your gloom take %0.2f mind damage and %0.2f darkn
 		This damage is increased by your global speed but only happens ever game turn.
 		The damage scales with your Mindpower.
 		Each point in Gloom talents increases your Mindpower (current total: %d).]], [[매 턴,  암울한 기운 속의 모든 적은 %0.2f 정신 피해와 %0.2f 암흑 피해를 받습니다.
-		이 피해는 전체 속도에 비례하여 증가하지만, 실질 턴 마다 발동합니다.
+		이 피해는 전체 속도에 비례하여 증가하지만, 실질 턴마다 발동합니다.
 		피해량은 정신력에 비례하여 증가합니다.
 		암울 계열 기술에 투자한 기술 점수 마다 정신력이 증가됩니다 (현재 : %d).]], "tformat")
 t("Sanctuary", "성역", "talent name")
@@ -19906,7 +19906,7 @@ section "game/modules/tome/data/talents/cursed/one-with-shadows.lua"
 t("Shadow Senses", "그림자 탐지", "talent name")
 t([[Your awareness extends to your shadows.
 		You always know exactly where your shadows are and can perceive any foe within %d tiles of their vision.]], [[의식이 그림자로 뻗어나갑니다.
-		항상 그림자가 어디에 있는지 정확하게 파악하게 되고, 그림자의 시야 내 반경 %d 칸 이내의 적을 감지할 수 있게됩니다.]], "tformat")
+		항상 그림자가 어디에 있는지 정확하게 파악하게 되고, 그림자의 시야 내 반경 %d 칸 이내의 적을 감지할 수 있게 됩니다.]], "tformat")
 t("Shadows Empathy", "그림자 교감", "talent name")
 t([[You empathy with your shadows causes the line between you and your shadows to blur.
 		You lose %d%% light resistance, but gain %d%% darkness resistance and affinity. You also gain %0.2f%% all resistance for each shadow in your party.]], [[그림자와 교감해 그림자와 자신의 경계선을 허뭅니다.
@@ -19924,8 +19924,8 @@ t([[Your shadows guard you with their lives.
 		When you would receive a fatal blow, you instantly transpose with a random shadow that takes the blow instead, putting this talent on cooldown.
 		For the next 4 turns you only die if you reach -%d life.
 		Effect increases with Mindpower.]], [[그림자들은 목숨을 바쳐 시전자를 보호합니다.
-		죽음에 다다를 수 있는 공격에 맞게되면, 무작위의 그림자 하나와 자리를 바꾸고, 해당 피해를 대신 맞게합니다. 사용 직후 재사용 대기시간이 적용됩니다.
-		다음 4 턴 동안, 시전자의 생명력이 -%d 에 도달해야 죽게됩니다.
+		죽음에 다다를 수 있는 공격에 맞게되면, 무작위의 그림자 하나와 자리를 바꾸고, 해당 피해를 대신 맞게 합니다. 사용 직후 재사용 대기시간이 적용됩니다.
+		다음 4 턴 동안, 시전자의 생명력이 -%d 에 도달해야 죽게 됩니다.
 		이 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -19948,7 +19948,7 @@ t([[While shrouded in cursed miasma you gain stealth (%d power) and %d physical 
 		The stealth power and physical power will increase with your mindpower.]], [[저주받은 독기 속에 있을 시, 은신력 %d 과 물리력 %d 상승 효과를 받습니다.
 		은신력과 물리력은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Mark Prey", "먹잇감 지정", "talent name")
-t("Focus your predation on the most worthy prey. Upon entering a level for the first time, up to %d foes are marked as your prey. You gain vision of them, wherever they are. Additionally, all damage you receive from their subtype is reduced by %d%%.", "가장 가치있는 적에 포식 본능을 집중합니다. 처음 해당 층에 진입할 때, 최대 %d 체의 적을 먹잇감으로 지정합니다. 또한 어떤 상태가 되던, 지정된 적을 감지할 수 있게됩니다. 추가적으로, 지정된 대상의 종족에게서 받는 피해량이 %d%% 감소합니다.", "tformat")
+t("Focus your predation on the most worthy prey. Upon entering a level for the first time, up to %d foes are marked as your prey. You gain vision of them, wherever they are. Additionally, all damage you receive from their subtype is reduced by %d%%.", "가장 가치있는 적에 포식 본능을 집중합니다. 처음 해당 층에 진입할 때, 최대 %d 체의 적을 먹잇감으로 지정합니다. 또한 어떤 상태가 되던, 지정된 적을 감지할 수 있게 됩니다. 추가적으로, 지정된 대상의 종족에게서 받는 피해량이 %d%% 감소합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -19976,7 +19976,7 @@ t([[Unleash agony upon your target. The pain will grow over the course of %d tur
 		25%% chance of brainlock. The damage will increase with your Mindpower.]], [[대상에게 격통을 해방합니다. 지속시간 %d 턴 동안 피해량이 서서히 증가합니다. 첫 턴에는 %d 피해를 입히지만, 마지막 턴에는 %d 피해를 입힙니다. (총 %d 피해를 입힙니다).
 		25%% 확률로 사고 정지를 적용합니다. 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Madness", "정신 이상", "talent name")
-t("Every time you inflict mind damage, there is a %d%% chance that your foe must save against your Mindpower or go mad. Madness can cause them to become confused, slowed or stunned for 3 turns, and lowers resistance to mind damage by %d%%.", "정신 피해를 입힐 때마다, %d%% 확률로 정신 내성 판정을 시도해, 실패하면 미치게됩니다. 광기는 3 턴 동안 혼란을 유발하거나, 감속, 기절을 유발하고, 정신 피해 저항을 %d%% 낮춥니다.", "tformat")
+t("Every time you inflict mind damage, there is a %d%% chance that your foe must save against your Mindpower or go mad. Madness can cause them to become confused, slowed or stunned for 3 turns, and lowers resistance to mind damage by %d%%.", "정신 피해를 입힐 때마다, %d%% 확률로 정신 내성 판정을 시도해, 실패하면 미치게 됩니다. 광기는 3 턴 동안 혼란을 유발하거나, 감속, 기절을 유발하고, 정신 피해 저항을 %d%% 낮춥니다.", "tformat")
 
 
 ------------------------------------------------
@@ -19988,7 +19988,7 @@ t([[You enter a terrible rampage for %d turns (up to a maximum of %d turns), des
 		Any talent, rune or infusion you use while rampaging becomes a distraction, and reduces the duration of the rampage by 1. Your first movement while rampaging increases the rampage duration by 1.
 		Rampage Bonus: +%d%% movement speed.
 		Rampage Bonus: +%d%% attack speed.
-		Rampage Bonus: +%d%% mind speed.]], [[%d 턴 동안 끔찍한 광란상태에 돌입하여 (최대 %d 턴), 진로를 가로막는 모든 것을 파괴합니다. 광란상태로 돌입하는 것은 턴을 소모하지 않습니다. 최대 생명력의 8%% 이상을 한번에 잃을 시 50%% 확률로 광란이 발동합니다. 
+		Rampage Bonus: +%d%% mind speed.]], [[%d 턴 동안 끔찍한 광란상태에 돌입하여 (최대 %d 턴), 진로를 가로막는 모든 것을 파괴합니다. 광란상태로 돌입하는 것은 턴을 소모하지 않습니다. 최대 생명력의 8%% 이상을 한 번에 잃을 시 50%% 확률로 광란이 발동합니다. 
 		모든 기술, 룬 혹은 주입물을 사용하는 것은 집중을 방해해, 광란의 지속시간을 1 턴 단축합니다. 광란을 발동한 후, 첫걸음을 내딛으면 광란의 지속시간이 1 턴 연장됩니다.
 		광란 추가 효과: 이동속도 %d%% 증가.
 		광란 추가 효과: 공격 속도 %d%% 증가.
@@ -20003,7 +20003,7 @@ t("Tenacity", "끈기", "talent name")
 t([[Nothing will stop your rampage.
 		Rampage Bonus: You shrug off up to %d damage each turn during your rampage. If you shrug off more than %d damage, the rampage duration increases by 1.
 		The amount of damage you can shrug off improves with your Strength.]], [[광란을 멈출 수 있는 것은 존재하지 않습니다.
-		광란 추가 효과: 광란의 지속시간동안 최대 %d 피해를 무시합니다. %d 이상의 피해를 무시한 경우, 광란의 지속시간이 1 턴 연장됩니다.
+		광란 추가 효과: 광란의 지속시간 동안 최대 %d 피해를 무시합니다. %d 이상의 피해를 무시한 경우, 광란의 지속시간이 1 턴 연장됩니다.
 		최대 피해 무시량은 힘에 비례하여 증가합니다.]], "tformat")
 t("Slam", "광란의 강타", "talent name")
 t("You must be rampaging to use this talant.", "광란 상태가 아니면 사용할 수 없다.", "logPlayer")
@@ -20019,12 +20019,12 @@ t([[While rampaging, you slam up to %d adjacent opponents, stunning them for %d 
 section "game/modules/tome/data/talents/cursed/self-hatred.lua"
 
 t("Self-Harm", "자해", "talent name")
-t("You can only use this while in combat", "이 기술은 전투에서 단 한번만 사용 가능하다", "logPlayer")
+t("You can only use this while in combat", "이 기술은 전투에서 단 한 번만 사용 가능하다", "logPlayer")
 t([[At the start of each turn, if you're bleeding, you gain %d hate.
 
 You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns.	This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
 
-#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[출혈 상태일때 매 턴 증오를 %d 회복합니다.
+#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[출혈 상태일 때 매 턴 증오를 %d 회복합니다.
 
 이 기술을 활성화하면, 자신의 살을 빠르게 베어내어, 5 턴에 걸쳐 %0.2f 출혈 피해를 받습니다.	이 출혈 효과는 저항하거나 제거할 수 없지만, 피칠갑 기술계열로 피해를 완화 할 수 있습니다
 
@@ -20043,10 +20043,10 @@ This talent deactivates automatically upon rest.
 This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
 
 #{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[그 어떤 댓가도 생각하지 않고, 오직 승리만을 위해 내면의 힘을 모조리 털어놓습니다.	
-활성화 즉시, 그리고 지속시간 중, 시전자의 부정적인 효과는 빠르게 사라지고, 기술들의 재사용 대기시간 역시 더욱 빠르게 돌게됩니다.	
+활성화 즉시, 그리고 지속시간 중, 시전자의 부정적인 효과는 빠르게 사라지고, 기술들의 재사용 대기시간 역시 더욱 빠르게 돌게 됩니다.	
 이 재사용 대기시간 단축 효과는 일반적으로 재사용 대기시간이 단축되지 않는 기술도 영향을 받습니다.
 이 기술은 휴식 시 비활성화 됩니다.
-이 강력한 효과에는 그에 걸맞는 댓가를 치뤄야합니다 : 최대 생명력의 %d%% 를 매 턴 잃게됩니다. 이 피해로 죽을 수도 있습니다.
+이 강력한 효과에는 그에 걸맞는 댓가를 치뤄야합니다 : 최대 생명력의 %d%% 를 매 턴 잃게 됩니다. 이 피해로 죽을 수도 있습니다.
 
 #{italic}#당신은 운이 좋지, 그 행운이 당신이 가진 모든 것을 가져갈 거야.#{normal}#]], "tformat")
 t("Self-Judgement", "자가 심판", "talent name")
@@ -20082,18 +20082,18 @@ t("Call Shadows", "그림자 소환", "talent name")
 t("Your hate is too low to call another shadow!", "다른 그림자를 소환하기에는 당신의 증오가 부족하다!", "logPlayer")
 t("Summon", "소환", "_t")
 t([[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Each shadow costs 5 hate to summon. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
-		Shadows ignore %d%% of the damage dealt to them by their master.]], [[이 기술이 활성화 된 동안, 지속적으로 그림자들이 소환됩니다. 최대 %d 개의 그림자가 레벨 %d 로 전장에서 시전자를 돕기위해 소환됩니다. 그림자를 소환 할 때마다 증오가 5 소모됩니다. 그림자는 비교적 약한 전투원이지만 다음과 같은 기술을 사용할 수 있습니다 : 기술 레벨 %d 의 비전 재건을 사용해 스스로를 회복합니다 / 기술 레벨 %d 의 그림자 기습으로 적을 공격합니다 / 위상 관문으로 순간 이동합니다.
+		Shadows ignore %d%% of the damage dealt to them by their master.]], [[이 기술이 활성화된 동안, 지속적으로 그림자들이 소환됩니다. 최대 %d 개의 그림자가 레벨 %d 로 전장에서 시전자를 돕기위해 소환됩니다. 그림자를 소환 할 때마다 증오가 5 소모됩니다. 그림자는 비교적 약한 전투원이지만 다음과 같은 기술을 사용할 수 있습니다 : 기술 레벨 %d 의 비전 재건을 사용해 스스로를 회복합니다 / 기술 레벨 %d 의 그림자 기습으로 적을 공격합니다 / 위상 관문으로 순간이동합니다.
 		그림자는 주인이 가한 피해의 %d%% 를 무시합니다.]], "tformat")
 t("Shadow Warriors", "그림자 전사", "talent name")
-t("Instill hate in your shadows, strengthening their attacks. They gain %d%% extra Accuracy and %d%% extra damage. The fury of their attacks gives them the ability to try to Dominate their foes, increasing all damage taken by that foe for 4 turns (level %d, %d%% chance at range 1). They also gain the ability to Fade when hit, avoiding all damage until their next turn (%d turn cooldown).", "그림자에 증오를 먹여 공격능력을 향상시킵니다. 그림자는 %d%% 향상된 정확도와 %d%% 향상된 피해량을 갖습니다. 그림자의 공격에 서린 분노로 인해 그림자는 적들에게 기술 레벨 %d 의 지배를 %d%% 확률로 적용해 적들이 받는 피해를 4 턴 동안 늘립니다.(하지만 확률은 기술 레벨 1 의 지배를 따릅니다) 또한 흐려짐 기술을 얻게되어, 다음 턴 동안 받는 모든 피해를 무효화합니다 (재사용 대기시간은 %d 턴 입니다).", "tformat")
+t("Instill hate in your shadows, strengthening their attacks. They gain %d%% extra Accuracy and %d%% extra damage. The fury of their attacks gives them the ability to try to Dominate their foes, increasing all damage taken by that foe for 4 turns (level %d, %d%% chance at range 1). They also gain the ability to Fade when hit, avoiding all damage until their next turn (%d turn cooldown).", "그림자에 증오를 먹여 공격능력을 향상시킵니다. 그림자는 %d%% 향상된 정확도와 %d%% 향상된 피해량을 갖습니다. 그림자의 공격에 서린 분노로 인해 그림자는 적들에게 기술 레벨 %d 의 지배를 %d%% 확률로 적용해 적들이 받는 피해를 4 턴 동안 늘립니다.(하지만 확률은 기술 레벨 1 의 지배를 따릅니다) 또한 흐려짐 기술을 얻게 되어, 다음 턴 동안 받는 모든 피해를 무효화합니다 (재사용 대기시간은 %d 턴 입니다).", "tformat")
 t("Shadow Mages", "그림자 마법사", "talent name")
 t([[Infuse magic into your shadows to give them fearsome spells. Your shadows receive a bonus of %d to their Spellpower.
 		Your shadows can strike adjacent foes with Lightning (level %d, %d%% chance at range 1).
 		At level 3 your shadows can sear their enemies from a distance with Flames (level %d, %d%% chance at range 2 to 6).
-		At level 5 when your shadows are struck down they will attempt to Reform, becoming whole again (50%% chance).]], [[그림자에 주문력을 먹여 그림자들이 공포스러운 마법을 사용할 수 있게됩니다. 그림자들의 주문력이 %d 상승합니다.
+		At level 5 when your shadows are struck down they will attempt to Reform, becoming whole again (50%% chance).]], [[그림자에 주문력을 먹여 그림자들이 공포스러운 마법을 사용할 수 있게 됩니다. 그림자들의 주문력이 %d 상승합니다.
 		그림자는 인접한 적을 기술 레벨 %d 의 그림자 번개로 공격합니다. 확률은 %d%% 이며 사거리는 1 칸 입니다.
-		기술 레벨 3 일때, 그림자는 원거리의 적을 기술레벨 %d 의 그림자 불꽃으로 불태웁니다. 확률은 %d%% 며 사거리는 2 - 6 칸 입니다.
-		기술 레벨 5 일때, 그림자가 파괴되었을 때, 50%% 확률로 스스로를 재구성하여 완전히 회복합니다.]], "tformat")
+		기술 레벨 3 일 때, 그림자는 원거리의 적을 기술 레벨 %d 의 그림자 불꽃으로 불태웁니다. 확률은 %d%% 며 사거리는 2 - 6 칸 입니다.
+		기술 레벨 5 일 때, 그림자가 파괴되었을 때, 50%% 확률로 스스로를 재구성하여 완전히 회복합니다.]], "tformat")
 t("Focus Shadows", "그림자 집중", "talent name")
 t("#PINK#The shadows converge on #Target#!", "#PINK#그림자들이 #Target#에게 몰려든다!", "logCombat")
 t("There are no shadows to heed the call!", "부름에 응답할 그림자가 없다!", "logPlayer")
@@ -20198,7 +20198,7 @@ t([[You stand in the way of magical damage. That which does not kill you will ma
 		Additionally, each time you take non-physical, non-mind damage, your equilibrium will decrease and stamina increase by %0.2f.
 		The effects will increase with the greater of your Mindpower or Physical power and the bonus resistance can be a mental crit.]], [[마법에 맞서 결의를 다집니다. 생명을 앗아가지 못하는 마법은 자신을 강하게 만듭니다.
 		적대적인 비물리적, 비정신적 피해를 입을때 %d%% 의 해당 피해에 대한 저항을 7 턴 동안 얻습니다.
-		기술 레벨이 3 일때, 저항 상승치가 3 개의 속성에 동시에 적용됩니다. 각 속성에 대한 저항이 추가될 때마다 지속시간이 새로 갱신됩니다.
+		기술 레벨이 3 일 때, 저항 상승치가 3 개의 속성에 동시에 적용됩니다. 각 속성에 대한 저항이 추가될 때마다 지속시간이 새로 갱신됩니다.
 		추가적으로, 비물리적. 비정신적 피해를 입을 때마다, %0.2f 만큼의 평정이 감소하고 기력은 회복됩니다.
 		이 효과는 정신력과 물리력 중 높은것에 비례해 증가합니다. 속성 저항 강화 효과에는 정신 치명타가 일어날 수 있습니다.]], "tformat")
 t("Antimagic Zone", "반마법 지대", "talent name")
@@ -20248,8 +20248,8 @@ t([[Meditate on your link with Nature.
 		Also, any time you are resting (even with Meditation not sustained) you enter a simple meditative state that decreases your equilibrium by %0.2f per turn.
 		The activated effects increase with your Mindpower.]], [[자연과의 연결을 통해 명상합니다.
 		명상중에, 매 턴 평정이 %0.2f 씩 감소하고 정신 내성이 %d 증가합니다. 또한 회복 효율이 %d%% 향상됩니다.
-		하지만 깊은 명상으로 인해 정상적인 공격을 할 수가 없게되어, 시전자와 시전자의 소환물들의 피해량이 50%% 감소합니다.
-		명상이 비활성화 되어 있더라도, 휴식하는 동안 간단한 명상 상태로 진입해 매 턴 평정이 %0.2f 감소합니다.
+		하지만 깊은 명상으로 인해 정상적인 공격을 할 수가 없게 되어, 시전자와 시전자의 소환물들의 피해량이 50%% 감소합니다.
+		명상이 비활성화되어 있더라도, 휴식하는 동안 간단한 명상 상태로 진입해 매 턴 평정이 %0.2f 감소합니다.
 		발동 효과는 정신력에 비례해 증가합니다.]], "tformat")
 t("Nature's Touch", "자연의 손길", "talent name")
 t([[Touch a target (or yourself) to infuse it with Nature, healing it for %d (this heal does not work on undead).
@@ -20315,7 +20315,7 @@ t([[You gain %d%% Acid resistance.
 		This damage bonus will improve up to 4 times (no more than once each turn) with later Nature damage you do, up to a maximum of %0.1f%%.
 		The resistance and damage increase improve with your Mindpower.]], [[%d%% 산성 저항을 얻습니다.
 		자연 피해를 적에게 가할 때마다, %0.1f%% 의 산성 추가 피해량을 %d 턴 동안 얻습니다.
-		이 추가 피해량은 최대 4 번 중첩되고 (1 턴에 한번 중첩됩니다.), 최대 %0.1f%% 까지 증가합니다.
+		이 추가 피해량은 최대 4 번 중첩되고 (1 턴에 한 번 중첩됩니다.), 최대 %0.1f%% 까지 증가합니다.
 		저항과 피해 증가량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("trap", "함정", "_t")
 t("Corrosive Seeds", "부식성 씨앗", "talent name")
@@ -20340,14 +20340,14 @@ t("Earthen Missiles", "암석 화살", "talent name")
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], [[%d 개의 날카로운 유선형의 바위를 소환해 사거리 이내의 대상에게 발사합니다. 각각의 바위는 서로 다른 개체를 대상으로 할 수 있습니다. 바위는 %0.2f 물리 피해를 입히며, 추가로 %0.2f 출혈 피해를 5 턴 동안 매 턴 입습니다.
-		기술 레벨이 5 일때, 하나의 바위를 추가로 소환합니다.
+		기술 레벨이 5 일 때, 하나의 바위를 추가로 소환합니다.
 		피해량은 주문력에 비례하여 증가합니다..]], "tformat")
 t("Elemental Split", "원소 분할", "talent name")
 t("Crystaline Half (%s)", "%s의 수정 분신", "tformat")
-t("A crystaline structure that has taken the form of %s.", "수정으로 이루어진 구조물로 %s의 모습을 하고있다.", "tformat")
+t("A crystaline structure that has taken the form of %s.", "수정으로 이루어진 구조물로 %s의 모습을 하고 있다.", "tformat")
 t("Crystaline Half", "수정 분신", "_t")
 t("Stone Half (%s)", "%s의 바위 분신", "tformat")
-t("A stone structure that has taken the form of %s.", "바위로 이루어진 구조물로 %s의 모습을 하고있다.", "tformat")
+t("A stone structure that has taken the form of %s.", "바위로 이루어진 구조물로 %s의 모습을 하고 있다.", "tformat")
 t("Stone Half", "바위 분신", "_t")
 t([[Reach inside your dwarven core and summon your stone and crystaline halves to fight alongside you for %d turns.
 		Your Crystaline Half will attack your foes with earthen missiles.
@@ -20356,7 +20356,7 @@ t([[Reach inside your dwarven core and summon your stone and crystaline halves t
 		]], [[드워프의 본성으로부터 %d 턴 동안 시전자를 도와 싸울 바위 분신과 수정 분신을 소환합니다.
 		수정 분신은 적들을 암석 화살로 공격합니다.
 		바위 분신은 적들을 도발해 시전자를 보호합니다.
-		깊은 바위 형상이 활성화 되어 있을 때는 이 능력을 사용하지 못합니다.
+		깊은 바위 형상이 활성화되어 있을 때는 이 능력을 사용하지 못합니다.
 		]], "tformat")
 t("Power Core", "동력핵", "talent name")
 t([[Your halves learn new talents.
@@ -20365,7 +20365,7 @@ t([[Your halves learn new talents.
 		The level of those talents is %d.]], [[분신들이 새로운 기술을 익힙니다.
 		수정 분신: 가시의 비 - 인근의 모든 적에게 출혈을 유발합니다.
 		바위 분신: 바위 연결 - 인근의 모든 아군이 받는 피해를 바위 분신이 대신 받습니다.
-		이 기술들의 기술레벨은 %d 입니다.]], "tformat")
+		이 기술들의 기술 레벨은 %d 입니다.]], "tformat")
 t("Dwarven Unity", "드워프의 단결", "talent name")
 t([[You call upon the immediate help of your Halves.
 		Your Stone Half will trade places (if in sight) with you and all creatures currently targetting you in a radius of %d will target it instead.
@@ -20392,15 +20392,15 @@ section "game/modules/tome/data/talents/gifts/earthen-power.lua"
 t("Stoneshield", "바위 방패", "talent name")
 t([[The first time you take damage each turn, you regenerate %d%% of the damage dealt as mana (up to a maximum of %0.2f) and %d%% as equilibrium (up to %0.2f).
 		Increases Physical Power by %d, increases damage done with shields by %d%%, and allows you to dual-wield shields.
-		Also, all of your melee attacks will perform a shield bash in addition to their normal effects.]], [[매 턴 마다, 첫번째로 받은 피해의 %d%% 를 마나로 회복하고 (최대 %0.2f) %d%% 를 평정으로 회복합니다. (최대 %0.2f).
-		물리력이 %d, 방패로 가하는 피해가 %d%% 향상되고, 두 손에 방패를 장착할 수 있게됩니다.
+		Also, all of your melee attacks will perform a shield bash in addition to their normal effects.]], [[매 턴마다, 첫번째로 받은 피해의 %d%% 를 마나로 회복하고 (최대 %0.2f) %d%% 를 평정으로 회복합니다. (최대 %0.2f).
+		물리력이 %d, 방패로 가하는 피해가 %d%% 향상되고, 두 손에 방패를 장착할 수 있게 됩니다.
 		시전자가 가하는 모든 근접 공격은 방패로 인한 추가 공격을 유발합니다.]], "tformat")
 t("Stone Fortress", "바위 요새", "talent name")
 t([[When you use your Resilience of the Dwarves racial power your skin becomes so tough that it even absorbs damage from non-physical attacks.
 		Non-physical damage is reduced by %d%% of your total armour value (ignoring hardiness).
 		While this effect is not active, half of it is still applied against foes entangled by your stone vines.]], [[드워프의 체질 (종족 기술) 을 사용할 때, 피부가 믿을 수 없게 강인해져 비물리적 공격마저 흡수합니다
 		비물리적 피해는 총 방어력의 %d%% 만큼 감소합니다. (방어 효율은 무시됩니다)
-		이 효과가 비활성화 된 동안, 시전자의 바위 덩쿨에 영향을 받는 적에 대해 이 기술의 수치 50%% 가 적용됩니다.]], "tformat")
+		이 효과가 비활성화된 동안, 시전자의 바위 덩굴에 영향을 받는 적에 대해 이 기술의 수치 50%% 가 적용됩니다.]], "tformat")
 t("Shards", "바위 조각", "talent name")
 t([[Sharp shards of stone grow from your shields.
 		When you are hit in melee, you will get a free attack against the attacker with the shards doing %d%% shield damage (as Nature).
@@ -20424,7 +20424,7 @@ t([[Creates a shield of impenetrable stone around you for %d turns, absorbing up
 ------------------------------------------------
 section "game/modules/tome/data/talents/gifts/earthen-vines.lua"
 
-t("Stone Vines", "바위 덩쿨", "talent name")
+t("Stone Vines", "바위 덩굴", "talent name")
 t(" and %0.1f Arcane", ", %0.1f 비전 피해 받음", "tformat")
 t([[From the ground around you, you form living stone vines extending from your feet.
 		Each turn, the vines will attempt to seize a random target within radius %d.
@@ -20435,7 +20435,7 @@ t([[From the ground around you, you form living stone vines extending from your 
 		이 효과가 적용된 개체는 땅에 속박되고 %0.1f 자연 피해를%s %d 턴 동안 받습니다.
 		넝쿨에 속박된 개체는 매 턴 넝쿨에서 풀려날 확률이 있습니다. 시전자에게서 %d 칸 이상 떨어질 때, 속박이 즉시 풀립니다.
 		효과가 적용될 확률과 피해량은 정신력과 기술 레벨에 따라 증가합니다.]], "tformat")
-t("Eldritch Vines", "일그러진 덩쿨", "talent name")
+t("Eldritch Vines", "일그러진 덩굴", "talent name")
 t([[Each time one of your stone vines deals damage to a creature it will restore %0.1f equilibrium and %0.1f mana.
 		Your vines also become infused with eldritch energies, dealing an additional %0.1f arcane damage.]], [[바위 넝쿨이 피해를 가하고 있는 경우, %0.1f 평정과 %0.1f 마나를 회복합니다.
 		일그러진 에너지가 넝쿨에 주입되어 %0.1f 비전 피해를 추가적으로 가합니다.]], "tformat")
@@ -20543,7 +20543,7 @@ t([[The fungus on your body allows regeneration effects to last longer.
 		생명력 재생 계열의 이로운 효과를 받을 때마다 지속시간을 %d%% + 1 늘립니다. (소숫점은 반올림합니다)
 		이 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Ancestral Life", "원초적인 생명력", "talent name")
-t("#LIGHT_GREEN##Source# gains %d%%%% of a turn from Ancestral Life.#LAST#", "#LIGHT_GREEN##Source2# 원시의 생명력으로 부터 %d%%%% 의 추가 턴을 획득했다.#LAST#", "logCombat")
+t("#LIGHT_GREEN##Source# gains %d%%%% of a turn from Ancestral Life.#LAST#", "#LIGHT_GREEN##Source2# 원시의 생명력으로부터 %d%%%% 의 추가 턴을 획득했다.#LAST#", "logCombat")
 t([[Your fungus reaches into the primordial ages of the world, granting you ancient instincts.
 		Each time you receive non-regeneration healing you gain %0.1f%% of a turn per 100 life healed.  This effect can't add energy past 2 stored turns and overhealing is not counted.
 		Also, regeneration effects on you will decrease your equilibrium by %0.1f each turn.
@@ -20574,7 +20574,7 @@ t("The art of manipulating the lifespan and location of your summons.", "소환�
 t("summoning (augmentation)", "소환 (강화)", "_t")
 t("The art of improving the quality of your summons.", "소환물의 질을 향상하는 방법을 배웁니다.", "_t")
 t("summoning (advanced)", "소환 (고급)", "_t")
-t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "슬라임 곰팡이 즙을 마심으로써 슬라임과 친화력을 갖게됩니다.", "_t")
+t("Through dedicated consumption of slime mold juice, you have gained an affinity with slime molds.", "슬라임 곰팡이 즙을 마심으로써 슬라임과 친화력을 갖게 됩니다.", "_t")
 t("slime", "슬라임", "_t")
 t("By covering yourself in fungus, you better your healing.", "몸을 곰팡이로 뒤덮어서, 더 나은 회복 효과를 받습니다.", "_t")
 t("fungus", "미생물", "_t")
@@ -20608,8 +20608,8 @@ t("Unleash nature's fury against foes around you.", "주위의 적에게 대자�
 t("eyal's fury", "에이알의 분노", "_t")
 t("Dwarves have learned to imbue their shields with the power of stone itself.", "드워프는 바위 그 자체의 힘으로 방패를 강화하는 법을 익혔습니다.", "_t")
 t("earthen power", "대지의 힘", "_t")
-t("Control the stone itself and bring it alive in the form of dreadful vines.", "바위 그 자체를 조작하여 생명력을 부여하고 무시무시한 덩쿨의 형상으로 구현화합니다.", "_t")
-t("earthen vines", "대지의 덩쿨", "_t")
+t("Control the stone itself and bring it alive in the form of dreadful vines.", "바위 그 자체를 조작하여 생명력을 부여하고 무시무시한 덩굴의 형상으로 구현화합니다.", "_t")
+t("earthen vines", "대지의 덩굴", "_t")
 t("Learn to harness the innate power of your race.", "돌의 종족이 지닌 타고난 힘을 일깨웁니다.", "_t")
 t("dwarven nature", "드워프의 천성", "_t")
 t("wild-gift", "자연의 권능", "talent category")
@@ -20709,7 +20709,7 @@ t("You require a psiblade in your mainhand to use this talent.", "이 기술을 
 t([[You touch the target with your psiblade, bringing the forces of nature to bear on your foe.
 		Thorny vines will grab the target, slowing it by %d%% and dealing %0.2f nature damage each turn for 10 turns.
 		Damage will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %2.f).]], [[염동 칼날을 대상과 접촉시켜 자연의 힘을 흘려보냅니다.
-		가시돋친 덩쿨이 적을 휘감아 , 위력 %d%% 의 감속을 걸고 %0.2f 자연피해를 10 턴 동안 매 턴 가합니다.
+		가시돋친 덩굴이 적을 휘감아 , 위력 %d%% 의 감속을 걸고 %0.2f 자연피해를 10 턴 동안 매 턴 가합니다.
 		피해량은 정신력과 마석의 위력에 비례해 증가합니다.(양손에 마석을 들어야합니다, 배율은 %2.f 입니다).]], "tformat")
 t("Leaves Tide", "나뭇잎의 파도", "talent name")
 t([[Smash your psiblades into the ground, creating a tide of crystallized leaves circling you in a radius of 3 for 7 turns.
@@ -20720,7 +20720,7 @@ t([[Smash your psiblades into the ground, creating a tide of crystallized leaves
 		또한 나뭇잎이 아군을 보호해, %d%% 확률로 받은 피해를 무효화 합니다.
 		피해량과 피해 무효 확률은 정신력과 마석의 위력에 비례해 증가합니다. (양손에 마석을 들어야합니다, 배율은 %2.f 입니다)]], "tformat")
 t("Nature's Equilibrium", "자연의 평정", "talent name")
-t("You require two psiblades in your hands to use this talent.", "당신은 이 기술을 쓰기 위해 양손에 염동 칼날을 장착해야한다.", "logPlayer")
+t("You require two psiblades in your hands to use this talent.", "당신은 이 기술을 쓰기 위해 양손에 염동 칼날을 장착해야 한다.", "logPlayer")
 t([[You hit a foe with your mainhand psiblade doing %d%% weapon damage, channeling all the damage done through your offhand psiblade with which you touch a friendly creature to heal it.
 		The maximum heal possible is %d. Equilibrium of the healed target will also decrease by 10%% of the heal power.
 		Max heal will increase with your Mindpower and Mindstar power (requires two mindstars, multiplier %2.f).]], [[오른손에 쥔 염동 칼날로 공격 해 %d%% 무기 피해를 가하고, 가한 모든 피해를 보조무기를 통해 동료에게 전달하여 생명력을 회복합니다.
@@ -20794,7 +20794,7 @@ t([[For %d turns, you lay down mucus where you walk or stand.
 		매 턴 진액은 자동으로 생성되고, 이 진액은 %d 턴 동안 지속됩니다.
 		기술 레벨이 4 일 때, 시전자의 발 밑 반경 1 칸 범위에 진액을 남기게 됩니다.
 		진액을 통과해 오는 모든 적은 중독되어, %0.1f 자연 피해를 5 턴 동안 매 턴 입힙니다. (중첩 가능)
-		추가로, 진액 위에서 시간을 보내는 턴 마다 평정이 %0.1f 회복됩니다. 그리고 다른 우호적인 개체가 진액 위에 있는 동안, 시전자와 해당 개체의 평정을 1 회복합니다.
+		추가로, 진액 위에서 시간을 보내는 턴마다 평정이 %0.1f 회복됩니다. 그리고 다른 우호적인 개체가 진액 위에 있는 동안, 시전자와 해당 개체의 평정을 1 회복합니다.
 		독 피해량과 평정 재생량은 정신력에 비례하여 증가합니다. 그리고 같은 지점에 더 많은 진액을 남기는 것은 진액의 효과를 강화하고 땅에 뿌려진 진액의 지속시간을 매 턴 갱신합니다.]], "tformat")
 t("Acid Splash", "산성 방울", "talent name")
 t([[Calling upon nature, you cause the ground to erupt in an radius %d acidic explosion, dealing %0.1f acid damage to all creatures and creating mucus in the area.
@@ -20817,7 +20817,7 @@ t([[Your mucus is brought to near sentience.
 		The spawn chance increases with your Mindpower.]], [[흩뿌려진 점액이 지각을 개화하기 시작합니다.
 		매 탠, %d%% 확률로 진액 내의 무작위한 지점에서 살아있는 점액이 나타납니다.
 		살아있는 점액은 %d 턴 동안 지속되며 근처의 적을 슬라임 뱉기로 공격합니다.
-		한번에 최대 %d 개의 살아있는 점액이 존재할 수 있습니다. (교활에 비례)
+		한 번에 최대 %d 개의 살아있는 점액이 존재할 수 있습니다. (교활에 비례)
 		시전자가 정신 치명타를 가할 때마다, 모든 살아있는 점액의 지속시간이 2 턴 연장됩니다.
 		생성 확률은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Oozewalk", "진액 걸음", "talent name")
@@ -20837,7 +20837,7 @@ t("You try to split, but there is no free space close enough to summon!", "분�
 t("bloated ooze", "불어터진 점액", "_t")
 t("It's made from your own flesh and it's oozing.", "당신의 살로부터 만들어진 점액, 끈적인다.", "_t")
 t([[In addition, you restore %0.1f Equilibrium per turn while this talent is active.
-		]], [[추가로, 이 기술이 활성화 된 동안, 턴 당 %0.1f 평정을 회복합니다.
+		]], [[추가로, 이 기술이 활성화된 동안, 턴 당 %0.1f 평정을 회복합니다.
 		]], "tformat")
 t([[Your body is more like that of an ooze.
 		When you take damage, you may split and create a Bloated Ooze nearby within your line of sight.
@@ -20849,7 +20849,7 @@ t([[Your body is more like that of an ooze.
 		피해를 입을 때마다, 자가분열하여 근처에 불어터진 점액을 생성합니다.
 		불어터진 점액은 시전자가 입은 피해의 2 배에 해당하는 생명력을 갖고 있습니다. (최대 %d, 정신력과 최대 생명력에 비례합니다)
 		분열 확률은 시전자가 잃은 생명력 × %0.2f 입니다.
-		한번에 최대 %d 개의 불어터진 점액이 동시에 존재할 수 있습니다. (기술레벨과 소환 제한에 의해 제한됨) 이 기술이 활성화 된 동안, 시전자가 받는 모든 피해량은 시전자와 불어터진 점액들에게 동등하게 나눠집니다.
+		한 번에 최대 %d 개의 불어터진 점액이 동시에 존재할 수 있습니다. (기술 레벨과 소환 제한에 의해 제한됨) 이 기술이 활성화된 동안, 시전자가 받는 모든 피해량은 시전자와 불어터진 점액들에게 동등하게 나눠집니다.
 		불어터진 점액은 %d 턴 동안 지속되며, 이들은 매우 강인하고 (피해 공유에 의한 피해가 아니라면 %d%% 의 모든 피해 저항이 적용됩니다), 생명력이 빠르게 재생됩니다.
 		%s분열 확률은 교활에 비례하여 증가합니다.]], "tformat")
 t("Reabsorb", "재흡수", "talent name")
@@ -20858,13 +20858,13 @@ t([[You randomly merge with an adjacent bloated ooze, granting you 40%% all dama
 		This talent allows you to restore %0.1f Equilibrium per turn while Mitosis is active.
 		The damage, duration and Equilibrium restoration increase with your Mindpower.]], [[인근에 있는 무작위한 불어터진 점액과 융합하여 %d 턴 동안 40%% 의 모든 피해 저항을 얻습니다.
 		이 과정은 반마법 폭발을 야기하여 %0.1f 마나 소각 피해를 반경 %d 칸 내에 입힙니다.
-		이 기술은 유사 분열 능력을 강화하여, 유사 분열이 활성화 되어 있을 때, 턴 당 %0.1f 평정을 회복합니다.
+		이 기술은 유사 분열 능력을 강화하여, 유사 분열이 활성화되어 있을 때, 턴 당 %0.1f 평정을 회복합니다.
 		피해량, 지속시간 그리고 평정 회복량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Call of the Ooze", "점액의 부름", "talent name")
 t([[Instantly call all of your bloated oozes to your aid.
 		If you have less than the maximum number of oozes allowed by the Mitosis talent, up to %d will be created with %d life (%d%% of the maximum life allowed by Mitosis).
 		Each ooze created will form near a random foe in sight (no more than one ooze per target) and grab its attention.
-		This will then allow you to channel a melee attack through your ooze to its target, doing %d%% weapon damage (as Acid).]], [[모든 불어터진 점액을 불러모아 시전자을 돕게합니다. 이 기술은 턴을 소모하지 않습니다.
+		This will then allow you to channel a melee attack through your ooze to its target, doing %d%% weapon damage (as Acid).]], [[모든 불어터진 점액을 불러모아 시전자을 돕게 합니다. 이 기술은 턴을 소모하지 않습니다.
 		만약 최대치에 못미치는 점액을 갖고있다면, 최대 %d 개가 %d 생명력을 갖고 생성됩니다. (불어터진 점액이 가질 수 있는 최대 생명력의 %d%% 입니다).
 		점액은 시야 내의 적 인근에 나타나며 (하나의 적에게 하나의 점액만 생성됩니다) 적의 주의를 끕니다.
 		점액은 각각의 대상에게 산성 피해를 입히는 근접 공격을 실시합니다.]], "tformat")
@@ -20889,7 +20889,7 @@ t([[You gain %d%% Nature resistance.
 		This damage bonus will improve up to 4 times (no more than once each turn) with later Acid damage you do, up to a maximum of %0.1f%%.
 		The resistance and damage increase improve with your Mindpower.]], [[%d%% 자연 저항을 얻습니다.
 		산성 피해를 적에게 가할 때마다, %0.1f%% 의 자연 추가 피해량을 %d 턴 동안 얻습니다.
-		이 추가 피해량은 최대 4 번 중첩되고 (1 턴에 한번 중첩됩니다.), 최대 %0.1f%% 까지 증가합니다.
+		이 추가 피해량은 최대 4 번 중첩되고 (1 턴에 한 번 중첩됩니다.), 최대 %0.1f%% 까지 증가합니다.
 		저항과 피해 증가량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Mind Parasite", "정신 기생충", "talent name")
 t([[You use your psiblades to fire a small worm at a foe.
@@ -20952,8 +20952,8 @@ t([[Allows you to burrow into earthen walls for %d turns.
 		Your powerful digging abilities also allow you to exploit and smash through enemy defensive weaknesses; You ignore %d of target armor and %d%% of enemy physical damage resistance while this is in effect.
 		At Talent Level 5, this talent can be used instantly, and the cooldown will reduce with levels.
 		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[%d 턴 동안 흙으로 된 벽을 파헤칠 수 있게 됩니다.
-		강력한 땅 파기 능력은 적의 방어의 틈새를 찾아내고 깨부수는데에도 사용 될 수 있습니다. 효과가 활성화 된 동안 적의 방어력를 %d 만큼, 물리 저항을 %d%% 만큼 무시합니다.
-		기술 레벨 5 일때, 이 기술은 턴을 소모하지 않으며, 재사용 대기 시간도 레벨에 따라 단축됩니다. 
+		강력한 땅 파기 능력은 적의 방어의 틈새를 찾아내고 깨부수는데에도 사용 될 수 있습니다. 효과가 활성화된 동안 적의 방어력를 %d 만큼, 물리 저항을 %d%% 만큼 무시합니다.
+		기술 레벨 5 일 때, 이 기술은 턴을 소모하지 않으며, 재사용 대기 시간도 레벨에 따라 단축됩니다. 
 		모래 드레이크 기술에 투자된 기술 점수 하나 당 물리 저항이 0.5%% 상승합니다.]], "tformat")
 t("Sand Breath", "모래 숨결", "talent name")
 t("@Source@ breathes sand!", "@Source2@ 모래를 뿜어냈다!", "_t")
@@ -21061,9 +21061,9 @@ t([[While Master Summoner is active, when a creature you summon appears in the w
 		- Turtle: Heals all friendly targets in the radius %d HP
 		- Spider: Pins all foes in the radius
 		Radius for effects is %d, and the duration of each lasting effect is %d turns.
-		The effects improve with your mindpower.]], [[소환의 달인이 활성화 된 동안, 이 세계로 불러온 소환수들이 야성적인 효과를 얻게됩니다.
+		The effects improve with your mindpower.]], [[소환의 달인이 활성화된 동안, 이 세계로 불러온 소환수들이 야성적인 효과를 얻게 됩니다.
 		- 불꽃뿜는 릿치: 주위 적들의 화염 피해 저항을 %d%% 감소 시킵니다.
-		- 히드라: 오랫동안 유지되는 독구름을 생성하여, 범위 내의 모든 적에게 %0.1f 자연 피해를 턴 마다 입힙니다. (중첩 가능합니다)
+		- 히드라: 오랫동안 유지되는 독구름을 생성하여, 범위 내의 모든 적에게 %0.1f 자연 피해를 턴마다 입힙니다. (중첩 가능합니다)
 		- 서리 나무: 주위 적들의 냉기 피해 저항을 %d%% 감소 시킵니다.
 		- 화염 드레이크: %d 어린 화염 드레이크가 추가로 나타납니다.
 		- 전투견: 주위 적들의 물리 피해 저항을 %d%% 감소 시킵니다.
@@ -21076,7 +21076,7 @@ t([[While Master Summoner is active, when a creature you summon appears in the w
 		이 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Nature's Cycle", "자연의 순환", "talent name")
 t([[While Master Summoner is active, each new summon will reduce the remaining cooldown of Pheromones, Detonate and Wild Summon.
-		%d%% chance to reduce them by %d.]], "소환의 달인이 활성화 된 동안, 소환할 때마다 %d%% 확률로 페로몬, 소환수 폭발, 야생의 소환수 기술의 재사용 대기시간이 %d 턴 단축됩니다.", "tformat")
+		%d%% chance to reduce them by %d.]], "소환의 달인이 활성화된 동안, 소환할 때마다 %d%% 확률로 페로몬, 소환수 폭발, 야생의 소환수 기술의 재사용 대기시간이 %d 턴 단축됩니다.", "tformat")
 t("Wild Summon", "야생의 소환수", "talent name")
 t([[For %d turn(s), you have 100%% chance that your summons appear as a wild version.
 		Each turn the chance disminishes.
@@ -21093,7 +21093,7 @@ t([[For %d turn(s), you have 100%% chance that your summons appear as a wild ver
 		- Spider: Can project an insidious poison at its foes, reducing their healing
 		This talent requires Master Summoner to be active to be used.
 		Effects scale with levels in summon talents.]], [[%d 턴 동안, 100%% 확률로 야생의 소환수를 소환합니다.
-		이 확률은 턴 마다 점점 감소합니다.
+		이 확률은 턴마다 점점 감소합니다.
 		야생의 소환수는 일반 소환수보다 하나 더 많은 기술을 가지고 있습니다:
 		- 불꽃뿜는 릿치: 하늘을 날수 있으며, 대상과 릿치 사이의 적들을 무시하고 대상을 공격합니다.
 		- 히드라: 숨결에 아군이 휘말릴 경우, 숨결대신 압축한 화살을 뱉어냅니다.
@@ -21105,7 +21105,7 @@ t([[For %d turn(s), you have 100%% chance that your summons appear as a wild ver
 		- 암석 골렘: 적의 무장을 해제합니다.
 		- 거북이: 주위의 모든 적을 인접한 칸으로 끌어당깁니다
 		- 거미: 적에게 잠행성 독을 뱉어, 회복 효율을 감소시킵니다.
-		이 기술을 사용 하기 위해서는 소환의 달인이 활성화 되어야 합니다.
+		이 기술을 사용 하기 위해서는 소환의 달인이 활성화되어야 합니다.
 		이 효과는 소환 기술의 레벨에 비례하여 증가합니다.]], "tformat")
 
 
@@ -21134,7 +21134,7 @@ t([[Destroys one of your summons, making it detonate in radius of %d.
 		- 불을 뿜는 릿치: %d 피해를 주는 화염구가 폭발합니다. 적들에게 화염 충격을 적용합니다.
 		- 히드라: 7 턴 동안 모든 아군의 전기, 산성, 자연 속성 친화를 %d%% 증가시키고 턴 당 생명력 재생을 %d 증가시킵니다.
 		- 서리나무: %d 얼음 피해를 주는 얼음 구체가 폭발합니다. 일정 확률로 적을 얼릴 수 있습니다.
-		- 화염 드레이크: 오랫동안 지속되는 화염 구름을 퍼뜨려, %d 피해를 턴 마다 입힙니다.
+		- 화염 드레이크: 오랫동안 지속되는 화염 구름을 퍼뜨려, %d 피해를 턴마다 입힙니다.
 		- 전투견: 6 턴 동안 %0.1f 출혈 피해를 입히는 파편성 구체가 폭발합니다.
 		- 젤리: 움직임을 느리게 만드는 점액질 구체가 폭발합니다. %d 자연 피해를 입히고 상대를 %0.1f%% 느려지게 합니다.
 		- 미노타우르스: 5 턴 동안 적들에게 위력 %d%% 의 혼란을 겁니다.
@@ -21255,7 +21255,7 @@ t("Jelly Spread", "젤리 확산", "talent name")
 t("@source@ oozes over the ground!!", "@source1@ 점액을 지면에 퍼뜨린다!", "_t")
 t("Ooze over the floor, spreading caustic jelly in a radius of 1 lasting %d turns and dealing %d nature damage per turn to hostile creatures caught within.", "바닥을 점액으로 뒤덮어, 반경 1 칸 내에 산성 젤리를 퍼뜨립니다. 이는 %d 턴 동안 지속되며 범위 내의 적대적인 개체에 %d 자연 피해를 매 턴 입힙니다.", "tformat")
 t("Mitotic Split", "젤리 분열", "talent name")
-t("%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "한번의 공격으로 최대 생명력의 %d%% 이상의 피해를 받으면 %d%% 확률로 분열합니다.", "tformat", {2,1})
+t("%d%% chance to split upon taking a single hit dealing at least %d%% of your maximum life.", "한 번의 공격으로 최대 생명력의 %d%% 이상의 피해를 받으면 %d%% 확률로 분열합니다.", "tformat", {2,1})
 t("War Hound", "전투견", "talent name")
 t("@Source@ summons a War Hound!", "@Source1@ 전투견을 소환했다!", "_t")
 t([[Summon a War Hound for %d turns to attack your foes. War hounds are good basic melee attackers.
@@ -21334,7 +21334,7 @@ t([[Summon a Spider for %d turns to harass your foes. Spiders can poison your fo
 t("Frantic Summoning", "광란의 소환", "talent name")
 t([[You focus yourself on nature, allowing you to summon natural creatures much faster (%d%% of a normal summon time) and with no chance to fail from high equilibrium for %d turns.
 		When activating this power, a random summoning talent will come off cooldown.
-		Each time you summon, the duration of the frantic summoning effect will reduce by 1.]], [[자연에 집중하여, 소환 시 소모하는 턴의 %d%% 만 소모하여 소환수를 불러낼 수 있게됩니다. 높은 평정 수치에서의 기술 실패 확률을 제거합니다. 이 효과는 %d 턴 동안 지속됩니다.
+		Each time you summon, the duration of the frantic summoning effect will reduce by 1.]], [[자연에 집중하여, 소환 시 소모하는 턴의 %d%% 만 소모하여 소환수를 불러낼 수 있게 됩니다. 높은 평정 수치에서의 기술 실패 확률을 제거합니다. 이 효과는 %d 턴 동안 지속됩니다.
 		이 기술을 활성화하면, 무작위한 하나의 기술의 재사용 대기시간이 초기화됩니다.
 		소환을 할 때마다, 광란의 소환의 지속시간이 1 턴 씩 줄어듭니다.]], "tformat")
 t("Pheromones", "페로몬", "talent name")
@@ -21448,7 +21448,7 @@ t([[Launches a knife with intense power doing %0.2f physical damage to all targe
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Slime Wave", "슬라임 파도", "talent name")
 t([[A wall of slime oozes out from the caster with radius 1, increasing once every two turns to a maximum eventual radius of %d, doing %0.2f slime damage for %d turns.
-		The damage and duration will increase with your Mindpower.]], [[시전자를 중심으로 반경 1 칸 범위에 슬라임의 파도가 밀어닥칩니다. 2 턴 마다 범위는 점점 증가해, 최대 %d 칸까지 퍼지게됩니다. 파도는 %0.2f 슬라임 피해를 %d 턴 동안 줍니다.
+		The damage and duration will increase with your Mindpower.]], [[시전자를 중심으로 반경 1 칸 범위에 슬라임의 파도가 밀어닥칩니다. 2 턴마다 범위는 점점 증가해, 최대 %d 칸까지 퍼지게 됩니다. 파도는 %0.2f 슬라임 피해를 %d 턴 동안 줍니다.
 		피해량과 지속시간은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Tentacle Grab", "촉수의 움켜짐", "talent name")
 t("%s resists the grab!", "%s 손아귀를 뿌리쳐냈다!", "logSeen", nil, {"가"})
@@ -21476,7 +21476,7 @@ t([[Latch on to the target and suck their blood, doing %0.2f physical and %0.2f 
 		After 5 turns of drinking, drop off and gain the ability to Multiply.
 		Damage scales with your level.
 		]], [[대상을 움켜 잡고 피를 뽑아 마십니다. %0.2f 물리 피해와 %0.2f 산성 피해를 매 턴 가합니다.
-		기술 사용 후 5 턴 뒤, 시전자는 대상을 놓아주고, 분열 능력을 얻게됩니다.
+		기술 사용 후 5 턴 뒤, 시전자는 대상을 놓아주고, 분열 능력을 얻게 됩니다.
 		피해량은 레벨에 비례하여 증가합니다.
 		]], "tformat")
 
@@ -21559,7 +21559,7 @@ t("regen %d%% over %d turns; mana %d; cd %d", "지속 %d / 재생 효율 %d%% / 
 t("Rune of the Rift", "균열의 룬", "talent name")
 t("%s is immune!", "%s 면역이다!", "logSeen", nil, {"는"})
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
-t("Something has prevented the timetravel.", "무엇인가 시간 여행을 방해하고있다.", "logPlayer")
+t("Something has prevented the timetravel.", "무엇인가 시간 여행을 방해하고 있다.", "logPlayer")
 t("temporal instability", "시간의 불안정성", "_t")
 t("%s has moved forward in time!", "%s 미래로 보내졌다!", "logSeen", nil, {"는"})
 t([[Inflicts %0.2f temporal damage.  If your target survives, it will be sent %d turns into the future.
@@ -21621,7 +21621,7 @@ section "game/modules/tome/data/talents/misc/misc.lua"
 
 t("The basic talents defining a class.", "직업을 규정하는 기본적인 기술입니다.", "_t")
 t("class", "직업", "_t")
-t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
+t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.", "_t")
 t("base", "베이스", "talent category")
 t("race", "종족", "_t")
 t("Infusions are not class abilities, you must find them or learn them from other people.", "주입물은 직업 기술이 아니며, 당신은 반드시 모험 중에 찾아내거나, 타인으로부터 얻어야 합니다.", "_t")
@@ -21658,7 +21658,7 @@ t([[Allows a mage to teleport to the secret town of Angolwen.
 	Nobody must learn about this spell and so it should never be used while seen by any creatures.
 	The spell will take time to activate. You must be out of sight of any creature when you cast it and when the teleportation takes effect.]], [[마법사들의 숨겨진 마을인 앙골웬으로 순간이동 합니다.
 	당신은 마법을 그곳에서 공부했으며, 따라서 그곳으로 가는 특수한 차원문을 여는 법을 익혔습니다.
-	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 타인이 보고있는 동안에는 사용이 불가능합니다.
+	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 타인이 보고 있는 동안에는 사용이 불가능합니다.
 	마법 발동에는 시간이 약간 필요하며, 그 시간 동안 당신은 누군가의 시야 내에 들어가서는 안됩니다.]], "_t")
 t("Timeport: Point Zero", "시공간이동 : 영점", "talent name")
 t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
@@ -21668,7 +21668,7 @@ t([[Allows a chronomancer to timeport to Point Zero.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
 	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the timeportation takes effect.]], [[시간속에 숨겨진 시공제어자들의 마을인 영점으로 시공간이동 합니다.
 	당신은 시공간 제어술을 그곳에서 공부했으며, 따라서 그곳으로 가는 특수한 차원문을 여는 법을 익혔습니다.
-	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 타인이 보고있는 동안에는 사용이 불가능합니다.
+	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 타인이 보고 있는 동안에는 사용이 불가능합니다.
 	마법 발동에는 시간이 약간 필요하며, 그 시간 동안 당신은 누군가의 시야 내에 들어가서는 안됩니다.]], "_t")
 t("Relentless Pursuit", "끈질긴 추격", "talent name")
 t("%s: Reducing duration of %s, using %s, by %d", "%s: %s의 지속시간을 %s를 통해 %d 단축한다", "tformat")
@@ -21846,7 +21846,7 @@ t("Shriek (radius %d) to call your allies.", "비명을 질러 반경 %d 칸 내
 t("Crush", "부수기", "talent name")
 t("You cannot use Crush without a two-handed weapon!", "양손 무기 없이 파쇄를 사용할 수 없다!", "logPlayer")
 t("%s resists the crushing!", "%s 부수기에 저항했다!", "logSeen", nil, {"는"})
-t("Hits the target with a mighty blow to the legs doing %d%% weapon damage. If the attack hits, the target is unable to move for %d turns.", "대상의 다리를 강력하게 내려쳐 %d%% 피해를 입힙니다. 명중 시, 대상은 %d 턴 동안 움직일 수 없게됩니다.", "tformat")
+t("Hits the target with a mighty blow to the legs doing %d%% weapon damage. If the attack hits, the target is unable to move for %d turns.", "대상의 다리를 강력하게 내려쳐 %d%% 피해를 입힙니다. 명중 시, 대상은 %d 턴 동안 움직일 수 없게 됩니다.", "tformat")
 t("Silence", "침묵", "talent name")
 t("Sends a telepathic attack, silencing the target for %d turns.  The chance to silence improves with Mindpower.", "텔레파시 공격을 보내, 대상을 %d 턴 동안 침묵시킵니다.  침묵 확률은 정신력에 비례하여 증가합니다.", "tformat")
 t("Telekinetic Blast", "염동력 폭발", "talent name")
@@ -21887,7 +21887,7 @@ t([[Sends Dredges in a radius of %d into a frenzy for %d turns.
 		The frenzy will increase global speed by %d%%, physical crit chance by %d%%, and prevent death until -%d%% life.]], [[반경 %d 칸 내의 모든 드렛지를 %d 턴 동안 광폭화 상태로 돌입시킵니다.
 		광폭화는 전체 속도를 %d%%, 물리 치명타 확률을 %d%% 늘리고, 생명선 하한이 -%d%% 됩니다.]], "tformat")
 t("Sever Lifeline", "생명선 절단", "talent name")
-t("Start to sever the lifeline of the target. After 4 turns, if the target is still in line of sight of you, its existance will be ended (%d temporal damage).", "대상의 생명선을 자릅니다. 4 턴 후에, 대상이 여전히 시전자의 시야 내에 있을 경우, 대상의 존재는 끝을 맞게됩니다 (%d 시간 피해)", "tformat")
+t("Start to sever the lifeline of the target. After 4 turns, if the target is still in line of sight of you, its existance will be ended (%d temporal damage).", "대상의 생명선을 자릅니다. 4 턴 후에, 대상이 여전히 시전자의 시야 내에 있을 경우, 대상의 존재는 끝을 맞게 됩니다 (%d 시간 피해)", "tformat")
 t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
 t("Pull all foes within radius 10 1 grid towards you.", "반경 10 칸의 모든 적들을 1 칸 다가오게 합니다.", "tformat")
@@ -21967,7 +21967,7 @@ t([[Grapples the target and inflicts %0.2f physical damage. If the target is alr
 t("Bloodrage", "피의 분노", "talent name")
 t("Each time one of your foes bites the dust, you feel a surge of power, increasing your strength by 2 (stacking up to a maximum of %d) for %d turns.", "적을 살해할 때마다, 힘의 쇄도를 느낍니다. 살해 시 마다 힘이 2 증가합니다. 최대 %d 회 중첩 가능합니다. %d 턴 동안 지속됩니다.", "tformat")
 t("Martyrdom", "순교", "talent name")
-t("Designate a target as a martyr for 10 turns. When the martyr deals damage, it also damages itself for %d%% of the damage dealt.", "10 턴 동안. 대상을 순교자로 지목합니다. 순교자가 피해를 입힐 때, 해당 피해량의 %d%% 만큼 순교자도 피해를 입게됩니다.", "tformat")
+t("Designate a target as a martyr for 10 turns. When the martyr deals damage, it also damages itself for %d%% of the damage dealt.", "10 턴 동안. 대상을 순교자로 지목합니다. 순교자가 피해를 입힐 때, 해당 피해량의 %d%% 만큼 순교자도 피해를 입게 됩니다.", "tformat")
 t("Overpower", "제압", "talent name")
 t("You require a weapon and a shield to use this talent.", "방패와 근접 무기를 장비하지 않으면 이 기술을 사용할 수 없다.", "logPlayer")
 t("You cannot use Overpower without a shield!", "방패없이는 제압을 사용할 수 없다!", "logPlayer")
@@ -21983,7 +21983,7 @@ t("Shattering Charge", "파쇄의 돌진", "talent name")
 t("You can't move there.", "그곳으로 이동할 수 없다.", "logSeen")
 t([[You expend massive amounts of energy to launch yourself across %d squares at incredible speed. All enemies in your path will be knocked flying and dealt between %d and %d Physical damage.
 		At talent level 5, you can batter through solid walls.]], [[엄청난 양의 에너지를 응축시켜 스스로를 발사합니다. %d 칸을 믿을 수 없는 속도로 날아가, 경로내의 모든 적을 밀쳐내버리고 %d - %d 물리 피해를 줍니다.
-		레벨 5 일 때, 단단한 벽도 부수고 날아갈 수 있게됩니다.]], "tformat")
+		레벨 5 일 때, 단단한 벽도 부수고 날아갈 수 있게 됩니다.]], "tformat")
 t("Telekinetic Throw", "염동력 투척", "talent name")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
 t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source2# #Target#의 염동력에 저항했다!", "logCombat")
@@ -21996,7 +21996,7 @@ t([[Use your telekinetic power to enhance your strength, allowing you to pick up
 		피해량은 정신력에 비례하여 증가하고, 범위는 정신력과 힘에 비례하여 증가합니다.]], "tformat")
 t("Reach", "도달", "talent name")
 t("Reload", "재장전", "talent name")
-t("You must have a quiver or pouch equipped.", "화살통이나 탄환 주머니를 장착해야한다.", "logPlayer")
+t("You must have a quiver or pouch equipped.", "화살통이나 탄환 주머니를 장착해야 한다.", "logPlayer")
 t([[Quickly reload your ammo by %d (depends on masteries and object bonuses).
 		Doing so requires no turn but you are considered disarmed for 2 turns.
 
@@ -22058,7 +22058,7 @@ t("Unseen Actions", "보이지 않는 행동", "talent name")
 t([[You are able to perform usually unstealthy actions (attacking, using objects, ...) without breaking stealth.	 When you perform such an action while stealthed, you have a chance to stay hidden.
 		Success is more likely against fewer opponents and is determined by comparing %0.2f times your stealth power (currently %d) to the stealth detection (reduced by 10%% per tile distance) of all enemies that have a clear line of sight to you.
 		Your base chance of success is 100%% if you are not directly observed, and good or bad luck may also affect it.
-		You estimate your current chance to maintain stealth as %0.1f%%.]], [[은신 상태에서 은밀하지 않은 행위들을 할 수 있게됩니다. (공격, 물품 사용, ...)	 은신 중에 이러한 행동을 취할 때, 일정 확률로 은신 상태에서 벗어나지 않습니다.
+		You estimate your current chance to maintain stealth as %0.1f%%.]], [[은신 상태에서 은밀하지 않은 행위들을 할 수 있게 됩니다. (공격, 물품 사용, ...)	 은신 중에 이러한 행동을 취할 때, 일정 확률로 은신 상태에서 벗어나지 않습니다.
 		적의 수와 거리에 따라 성공률이 결정됩니다. 시전자의 은신도 × %0.2f (현재 %d)와 시전자의 위치를 확인한 모든 적의 탐지력을 비교하여 성공 여부를 가립니다. (떨어진 한 타일마다 탐지력이 10%% 줄어듭니다)
 		대상이 시전자를 직접적으로 보지 못하는 경우, 은신은 반드시 성공하지만 행운 수치 역시 영향을 미칩니다.
 		현재 성공률은 %0.1f%% 입니다.]], "tformat")
@@ -22081,7 +22081,7 @@ t([[You look at your surroundings with more intensity than most people, allowing
 		은신 탐지력이 %d, 투명 탐지력이 %d 증가합니다.
 		탐지력은 교활에 비례하여 증가합니다.]], "tformat")
 t("Precision", "집중", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 한다.", "logPlayer")
 t("You cannot use Precision without dual wielding!", "당신은 쌍수 무기 없이는 집중을 사용할 수 없다!", "logPlayer")
 t([[You have learned to hit the right spot, increasing your armor penetration by %d when dual wielding.
 		The Armour penetration bonus will increase with your Dexterity.]], [[약점을 공략하는 법을 배웠습니다. 쌍수 무기 사용 시 방어력 관통이 %d 증가합니다.
@@ -22244,7 +22244,7 @@ t([[Raise your dagger into blocking position for one turn, reducing the damage o
 		방패 막기 수치는 민첩과 교활에 비례하여 증가합니다.]], "tformat")
 t("Shieldsmaiden Aura", "방패 자매의 아우라", "talent name")
 t("#CRIMSON#%s's shield deflects the blow!", "#CRIMSON#%s의 방패가 공격을 막아냈다!", "logSeen")
-t("Can block up to 1 hit per 10 turns.", "10 턴 마다 공격을 한번 막아냅니다.", "tformat")
+t("Can block up to 1 hit per 10 turns.", "10 턴마다 공격을 한 번 막아냅니다.", "tformat")
 t("Psionic Maelstrom", "초능력 소용돌이", "talent name")
 t("For the next 8 turns, powerful blasts of psionic energies will erupt from you, doing %d damage.", "다음 8 턴 동안, 기술 시전자의 몸에서 강력한 초능력 에너지 폭발이 터저나와 %d 피해를 줍니다.", "tformat")
 t("Melee retaliation", "근접 보복", "talent name")
@@ -22266,7 +22266,7 @@ t([[While Highers are not meant to rule other humans - and show no particular wi
 		At talent level 5, each time you hit a target you gain telepathy to all similar creatures in radius 15 for 5 turns.]], [[하이어의 혈통은 군림하고, 지배하는 것만을 의미하지는 않습니다. 하이어는 다른 인간 종족을 지배하기보다 고귀한 피를 가진 하이어로써의 의무를 다할 뿐 입니다.
 		하이어는 선천적으로 다른 인간 종족보다 뛰어난 감각을 갖고있습니다.
 		실명 면역력이 %d%% 증가하고, 최대 시야 범위가 %d 증가합니다. 또한 적외선 시야와 향상된 감각의 적용 범위를 %d 칸 늘립니다.
-		기술 레벨 5 일때, 적을 공격할 때마다, 적과 동일한 종족 - 종류를 탐지하는 텔레파시가 활성화되어 15 칸 범위 내의 같은 종족의 위치를 5 턴 동안 볼 수 있게됩니다.]], "tformat")
+		기술 레벨 5 일 때, 적을 공격할 때마다, 적과 동일한 종족 - 종류를 탐지하는 텔레파시가 활성화되어 15 칸 범위 내의 같은 종족의 위치를 5 턴 동안 볼 수 있게 됩니다.]], "tformat")
 t("Born into Magic", "마법 태생", "talent name")
 t([[Highers were originally created during the Age of Allure by the human Conclave. They are imbued with magic at the very core of their being.
 		Increase spell save by %d and arcane resistance by %d%%.
@@ -22290,12 +22290,12 @@ t([[Reality bends slightly in the presence of a Shaloren due to their inherent m
 		치명타 확률이 %d%% , 치명타 피해량이 %d%% 증가합니다.]], "tformat")
 t("Secrets of the Eternals", "영원의 비밀", "talent name")
 t([[As the only immortal race of Eyal, Shaloren have learnt over the long years to use their innate inner magic to protect themselves.
-		%d%% chance to become invisible (power %d) for 5 turns when hit by a blow doing at least 10%% of your total life.]], [[에이알의 유일한 불멸자 종족으로써, 샬로레는 아주 오랜 시간동안 선천적인 내면의 마법력으로 스스로를 보호하는 방법을 배웠습니다.
+		%d%% chance to become invisible (power %d) for 5 turns when hit by a blow doing at least 10%% of your total life.]], [[에이알의 유일한 불멸자 종족으로써, 샬로레는 아주 오랜 시간 동안 선천적인 내면의 마법력으로 스스로를 보호하는 방법을 배웠습니다.
 		최대 생명력의 10%% 이상의 피해를 받을 경우, %d%% 확률로 5 턴 동안 은신력 %d 의 투명 상태가 됩니다.]], "tformat")
 t("Timeless", "불멸", "talent name")
 t([[The world grows old as you stand through the ages. To you, time is different.
 		Reduces the time remaining on detrimental effects by %d, most cooling down talents by %d, and increases the time remaining on beneficial effects by %d (up to 2 times the current duration).]], [[샬로레 종족은 세월의 풍파에 맞서 굳게 버티고 있습니다. 샬로레에게 있어, 시간의 개념은 다른 종족과는 약간 다릅니다.
-		현재 갖고있는 부정적 효과의 지속시간을 %d 턴, 모든 기술의 재사용 대기시간도 %d 턴 단축하고, 현재 갖고있는 이로운 효과의 지속시간을 %d 턴 연장합니다. (현재 지속시간의 최대 2 배까지 연장됩니다).]], "tformat")
+		현재 갖고 있는 부정적 효과의 지속시간을 %d 턴, 모든 기술의 재사용 대기시간도 %d 턴 단축하고, 현재 갖고 있는 이로운 효과의 지속시간을 %d 턴 연장합니다. (현재 지속시간의 최대 2 배까지 연장됩니다).]], "tformat")
 t("thalore", "탈로레", "_t")
 t("Gift of the Woods", "나무의 선물", "talent name")
 t([[Call upon nature to regenerate your body for %d life every turn and increase healing mod by %d%% for 8 turns.
@@ -22307,7 +22307,7 @@ t([[Thaloren have an affinity for natural elements, allowing them to heal for a 
 		자연과 산성 속성 친화가 %d%% 증가합니다.]], "tformat")
 t("Guardian of the Wood", "나무의 수호자", "talent name")
 t([[Thaloren are part of the wood; it shields them from corruption.
-		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], [[탈로레와 숲은 떼놓을수 없는 것으로, 탈로레는 오염으로 부터 나무를 보호합니다.
+		Increase disease immunity by %d%%, blight resistance by %0.1f%%, and all resistances by %0.1f%%.]], [[탈로레와 숲은 떼놓을수 없는 것으로, 탈로레는 오염으로부터 나무를 보호합니다.
 		질병 면역력이 %d%%, 황폐 피해 저항이 %0.1f%%, 그리고 모든 피해 저항이 %0.1f%% 향상됩니다.]], "tformat")
 t("Nature's Pride", "자연의 긍지", "talent name")
 t("treant", "나무 정령", "_t")
@@ -22352,7 +22352,7 @@ t([[Call upon the luck and cunning of the Little Folk to increase your critical 
 t("Duck and Dodge", "구사일생", "talent name")
 t([[Halfling's incredible luck always kicks in at just the right moment to save their skin.
 		Whenever you take %d%% or more of your life from a single attack, you gain %d%% Evasion and %d additional defense for the next %d turns. The defense increases based on your luck and other defensive stats.]], [[하플링의 믿을 수 없는 행운은 언제나 알맞은 순간에 발휘되어, 목숨을 구합니다.
-		전체 생명력의 %d%% 이상의 피해를 한번에 받았을 때, 이후 %d 턴 동안, %d%% 확률로 받는 피해를 완전 무효화하고, 회피가 %d 증가됩니다. 회피도는 행운과 다른 방어적인 능력치에 비례하여 증가합니다.]], "tformat", {1,4,2,3})
+		전체 생명력의 %d%% 이상의 피해를 한 번에 받았을 때, 이후 %d 턴 동안, %d%% 확률로 받는 피해를 완전 무효화하고, 회피가 %d 증가됩니다. 회피도는 행운과 다른 방어적인 능력치에 비례하여 증가합니다.]], "tformat", {1,4,2,3})
 t("Militant Mind", "호전적인 의지", "talent name")
 t([[Halflings have always been a very organised and methodical race; the more foes they face, the more organised they are.
 		If two or more foes are in sight your Physical Power, Physical Save, Spellpower, Spell Save, Mental Save, and Mindpower are increased by %0.1f per foe (up to 5 foes).]], [[하플링들은 언제나 조직적이고 체계적인 종족입니다. 더 많은 적과 대적할 수록, 하플링은 더욱 치밀하게 준비합니다.
@@ -22373,14 +22373,14 @@ t("#CRIMSON#%s roars with rage shaking off %d mental debuffs!", "#CRIMSON#%s 분
 t([[Orcs have been the prey of the other races for thousands of years, with or without justification. They have learnt to withstand things that would break weaker races.
 		When your life goes below 50%% your sheer determination cleanses you of %d mental debuff(s) based on talent level and Willpower.  This can only happen once every %d turns.
 		Also increases physical save by %d.]], [[오크들은 수 천년동안 다른 종족들의 먹잇감으로 취급되었습니다. 그렇기에 오크들은 가장 약한 종족으로써 살아가는 방법을 터득했습니다.
-		생명력이 50%% 이하로 떨어지면 순수한 결의로 %d 개의 부정적인 정신 효과를 제거합니다. (기술 레벨과 의지에 비례합니다) 이 효과는 매 %d 턴 마다 1 번씩 발동합니다.
+		생명력이 50%% 이하로 떨어지면 순수한 결의로 %d 개의 부정적인 정신 효과를 제거합니다. (기술 레벨과 의지에 비례합니다) 이 효과는 매 %d 턴마다 1 번씩 발동합니다.
 		또한 물리 내성이 %d 향상됩니다.]], "tformat")
 t("Skirmisher", "척후병", "talent name")
 t([[Orcs have seen countless battles, and won many of them.
 		You revel in the defeat of your foes, gaining %d%% damage resistance for 2 turns each time you kill an enemy.
 		The resistance will scale with talent level and your Constitution.
 		Additionally, passively increase all damage penetration by %d%%.]], [[오크는 셀 수 없이 많은 전투를 치렀고, 대부분 승리했습니다.
-		적을 살해했을 때, 2 턴 간 모든 피해 저항이 %d%% 상승합니다.
+		적을 살해했을 때, 2 턴 동안 모든 피해 저항이 %d%% 상승합니다.
 		피해 저항은 기술 레벨과 체격에 비례하여 증가합니다.
 		추가로, 지속 효과로 모든 저항 관통이 %d%% 향상됩니다.]], "tformat")
 t("Pride of the Orcs", "오크의 긍지", "talent name")
@@ -22411,7 +22411,7 @@ t([[Yeeks live fast, think fast, and sacrifice fast for the Way.
 		Your global speed is increased by %0.1f%%.
 		If your life drops below 30%% you gain 1.5 turns.  This effect can only happen once every %d turns.]], [[이크는 빠르게 행동하고, 빠르게 생각하고, 빠르게 '한길'을 위해 희생합니다.
 		전체 속도가 %0.1f%% 증가합니다.
-		생명력이 30%% 이하로 떨어졌을 경우, 1.5 턴을 획득합니다.  이 효과는 매 %d 턴 마다 한 번씩 일어납니다.]], "tformat")
+		생명력이 30%% 이하로 떨어졌을 경우, 1.5 턴을 획득합니다.  이 효과는 매 %d 턴마다 한 번씩 일어납니다.]], "tformat")
 t("Wayist", "한길의 일원", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("yeek mindslayer", "이크 정신파괴자", "_t")
@@ -22420,14 +22420,14 @@ t([[Reach through the collective psionic gestalt of the yeeks, the Way, to call 
 		Summons up to 3 yeek mindslayers to your side for 6 turns.
 		All their primary stats will be set to %d (based on your Willpower and Talent Level).
 		Your increased damage, damage penetration, and many other stats will be inherited.]], [[이크의 초능력 집합체인 한길에 닿아, 즉각적인 도움을 요청합니다.
-		6 턴간 유지되는 이크 정신파괴자를 최대 3 명 소환해 전투를 돕게 합니다.
+		6 턴 동안 유지되는 이크 정신파괴자를 최대 3 명 소환해 전투를 돕게 합니다.
 		모든 기초 능력치는 %d 입니다 (의지와 기술 레벨에 비례하여 증가합니다).
 		기술 시전자의 피해량 변동치, 피해 저항 관통과 그 밖의 여러 능력치들이 적용됩니다.]], "tformat")
 t("Knowledge of the Way", "'한길'의 지식", "talent name")
 t([[You merge your mind with the rest of the Way for a brief moment; the sum of all yeek knowledge gathers in your mind
-		and allows you to identify any item you could not recognize yourself.]], [[짧은 시간동안 정신을 한길의 나머지 부분과 연결해, 이크 종족이 모은 모든 지식을 시전자의 정신에 채웁니다.
+		and allows you to identify any item you could not recognize yourself.]], [[짧은 시간 동안 정신을 한길의 나머지 부분과 연결해, 이크 종족이 모은 모든 지식을 시전자의 정신에 채웁니다.
 		이를 통해 알 수 없었던 도구나 장비를 감정해냅니다.]], "tformat")
-t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
+t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.", "_t")
 t("ogre", "오우거", "_t")
 t("race", "종족", "talent category")
 t("Ogric Wrath", "오우거의 분노", "talent name")
@@ -22436,7 +22436,7 @@ t([[You enter an ogric wrath for %d turns, increasing your stun and pinning resi
 		Each charge grants 20%% critical damage power and 5%% critical strike chance.
 		You lose a charge each time you deal a critical strike.
 		The duration will increase with your Strength.]], [[오우거의 분노 상태로 진입해, %d 턴 동안, 기절과 속박 면역력을 20%% 얻고 가하는 모든 피해를 10%% 늘립니다.
-		추가로, 주입물이나 룬을 사용할 때, 근접 공격이 빗나갔을 때 또는 피해 보호막이나 그에 준하는 효과로 감소했을 경우, 당신은 오우거의 격노 중첩을 하나 얻게됩니다. (최대 5 번 중첩되고, 각 중첩은 7 턴 동안 지속됩니다).
+		추가로, 주입물이나 룬을 사용할 때, 근접 공격이 빗나갔을 때 또는 피해 보호막이나 그에 준하는 효과로 감소했을 경우, 당신은 오우거의 격노 중첩을 하나 얻게 됩니다. (최대 5 번 중첩되고, 각 중첩은 7 턴 동안 지속됩니다).
 		각 중첩 마다 치명타 피해량이 20%% 증가하고, 치명타 확률이 5%% 증가합니다.
 		당신이 치명타를 터뜨렸을 때, 중첩이 하나 사라집니다.
 		지속시간은 힘에 비례하여 증가합니다.]], "tformat")
@@ -22446,12 +22446,12 @@ t([[An ogre's body is acclimated to spells and inscriptions.
 		At level 5 your body is so strong you can use a two handed weapon in your main hand while still using an offhand item.
 		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], [[오우거의 신체는 주문과 각인에 친숙합니다.
 		주문 내성이 %d 상승하고 주입물과 룬에 적용되는 능력치 효과가 %d%% 향상됩니다.
-		기술 레벨 5 일 때, 신체는 너무나도 강해져, 양손 무기를 한 손으로 들고, 다른 한 손에 보조장비를 장착할 수 있게됩니다.
+		기술 레벨 5 일 때, 신체는 너무나도 강해져, 양손 무기를 한 손으로 들고, 다른 한 손에 보조장비를 장착할 수 있게 됩니다.
 		양손 무기를 한 손으로 쓰는 동안, 정확도, 물리력, 주문력, 정신력이 20%% 감소하지만, 이 수치는 당신의 크기가 #{italic}#커질수록#{normal}#; 5%% 씩 감소합니다. 또한 명중 시 일어나는 추가 피해량이 50%% 감소합니다.]], "tformat")
 t("Scar-Scripted Flesh", "흉터 투성이 육신", "talent name")
 t([[When you crit you have a %d%% chance to reduce by 1 the remaining cooldown of one of your inscriptions and of any saturations effects.
 		This effect can only happen once per turn.]], [[치명타를 가할 때, %d%% 확률로 각인의 재사용 대기시간과 포화 상태의 지속시간을 1 턴 씩 단축합니다.
-		이 효과는 1 턴에 한번 일어납니다.]], "tformat")
+		이 효과는 1 턴에 한 번 일어납니다.]], "tformat")
 t("Writ Large", "뚜렷한 존재", "talent name")
 t("#PURPLE#Your mastery over inscriptions is unmatched! One more inscriptions slot available to buy.", "#PURPLE#당신의 각인에 대한 숙련은 비할 존재가 없다! 추가적인 각인 슬롯을 구입할 수 있게 되었다.", "logPlayer")
 t([[Instantly removes runic and infusion saturations.
@@ -22503,7 +22503,7 @@ t([[Surround yourself with a shield that will absorb %d%% of any physical/acid/n
 		보호막이 피해를 흡수할 때마다 피해량의 일부를 염력으로 변환하여 염력을 1 회복합니다. 추가로, 매 %0.1f 피해를 흡수할 때마다 염력을 1 회복합니다. 1 턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
 		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴 동안 보호막이 흡수한 피해량의 2 배에 해당하는 강도를 가진 보호막을 생성합니다.
 		보호막의 최대 피해 흡수량과 최대 염력 회복 제한은 정신력의 비례하여 증가합니다.
-		보호막은 한번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
+		보호막은 한 번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
 t("Thermal Shield", "열역학 보호막", "talent name")
 t([[Surround yourself with a shield that will absorb %d%% of any fire/cold/light/arcane attack, up to a maximum of %d damage per attack.
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
@@ -22513,7 +22513,7 @@ t([[Surround yourself with a shield that will absorb %d%% of any fire/cold/light
 		보호막이 피해를 흡수할 때마다 피해량의 일부를 염력으로 변환하여 염력을 1 회복합니다. 추가로, 매 %0.1f 피해를 흡수할 때마다 염력을 1 회복합니다. 1 턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
 		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴 동안 보호막이 흡수한 피해량의 2 배에 해당하는 강도를 가진 보호막을 생성합니다.
 		보호막의 최대 피해 흡수량과 최대 염력 회복 제한은 정신력의 비례하여 증가합니다.
-		보호막은 한번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
+		보호막은 한 번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
 t("Charged Shield", "전기역학 보호막", "talent name")
 t("You may only sustain two shields at once. Shield activation cancelled.", "당신은 최대 두개의 보호막만 유지할 수 있다. 보호막 활성화가 실패했다.", "logSeen")
 t([[Surround yourself with a shield that will absorb %d%% of any lightning/blight/darkness/mind attack, up to a maximum of %d damage per attack.
@@ -22524,7 +22524,7 @@ t([[Surround yourself with a shield that will absorb %d%% of any lightning/bligh
 		보호막이 피해를 흡수할 때마다 피해량의 일부를 염력으로 변환하여 염력을 1 회복합니다. 추가로, 매 %0.1f 피해를 흡수할 때마다 염력을 1 회복합니다. 1 턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
 		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴 동안 보호막이 흡수한 피해량의 2 배에 해당하는 강도를 가진 보호막을 생성합니다.
 		보호막의 최대 피해 흡수량과 최대 염력 회복 제한은 정신력의 비례하여 증가합니다.
-		보호막은 한번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
+		보호막은 한 번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
 t("Forcefield", "역장", "talent name")
 t([[Surround yourself with a forcefield, reducing all incoming damage by %d%%.
 		Such a shield is very expensive to maintain, draining 5%% of your maximum psi per turn initially plus an addition 5%% for each turn it has been maintained. For example, on turn 2 it will drain 10%%.
@@ -22620,7 +22620,7 @@ t([[For %d turns your electrokinesis transcends your normal limits, increasing y
 		전기역학 흡수에 혼란 효과가 적용됩니다 (%d%% 위력).
 		전기역학 강타에 반경 3 칸 이내의 적 3 체에 연쇄하는 부가적인 전기 폭발이 일어납니다.
 		전기 피해 상승량과 전기 저항 관통은 정신력에 비례하여 증가합니다.
-		한번에 단 하나의 '초월' 기술만 활성화 될 수 있습니다.]], "tformat")
+		한 번에 단 하나의 '초월' 기술만 활성화 될 수 있습니다.]], "tformat")
 t("Thought Sense", "사고 감지", "talent name")
 t([[Detect the mental activity of creatures in a radius of %d for %d turns.
 		This reveals their location and boosts your defense by %d.
@@ -22639,7 +22639,7 @@ t("Heartstart", "심소생", "talent name")
 t([[Store an electric charge for saving your life at a later time.
 		If you are reduced to less than zero life while this is active, it will deactivate, cure you of all stun/daze/freeze effects and allow you to survive with up to %d negative health for %d turns.
 		The negative health limit scales with your Mindpower and maxium life.]], [[죽음에서 돌아오기 위해 전류를 미리 충전합니다.
-		기술이 유지되는 동안, 생명력이 0 이하로 떨어질 경우, 기술은 비활성화되고 모든 기절/혼절/빙결 상태효과를 해제합니다. 그리고 생명력이 최대 -%d 에 도달할 때 까지 %d 턴 동안 생존할 수 있게됩니다.
+		기술이 유지되는 동안, 생명력이 0 이하로 떨어질 경우, 기술은 비활성화되고 모든 기절/혼절/빙결 상태효과를 해제합니다. 그리고 생명력이 최대 -%d 에 도달할 때까지 %d 턴 동안 생존할 수 있게 됩니다.
 		최저 생명력 한계수치는 정신력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -22658,7 +22658,7 @@ t("Feedback Loop", "반작용 순환", "talent name")
 t("You have no feedback to start a feedback loop!", "당신은 반작용 순환을 시작하는 데 필요한 반작용이 부족하다!", "logPlayer")
 t([[Activate to invert your Feedback decay for %d turns.  This effect can be a critical hit, increasing the duration even further.
 		You must have some Feedback in order to start the loop.
-		The maximum Feedback gain will scale with your Mindpower.]], [[매 턴 마다 일어나는 반작용 소모를 %d 턴 동안 역전합니다. 이 효과에는 치명타가 일어날 수 있으며, 치명타 시 지속시간이 더 길어집니다.
+		The maximum Feedback gain will scale with your Mindpower.]], [[매 턴마다 일어나는 반작용 소모를 %d 턴 동안 역전합니다. 이 효과에는 치명타가 일어날 수 있으며, 치명타 시 지속시간이 더 길어집니다.
 		반작용 순환을 하기 위해서는 충분한 반작용을 갖고 있어야합니다.
 		최대 반작용 획득량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Backlash", "반발", "talent name")
@@ -22686,7 +22686,7 @@ t([[Fire a bolt of distortion that ignores resistance and inflicts %0.2f physica
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
 		At talent level 5, you learn to shape your distortion effects, preventing them from hitting you or your allies.
 		The damage will scale with your Mindpower.]], [[왜곡 화살을 발사하여, 저항을 무시하는 %0.2f 물리 피해를 줍니다. 이 피해는 대상에게 일정 확률로 왜곡 효과를 부여하며, 2 턴 동안 물리 피해 저항을 %d%% 감소시키고, 다른 왜곡 계열 기술에 취약하게 만듭니다.
-		왜곡 화살이 이미 왜곡 효과를 받고있는 적에게 닿을 경우, 폭발이 일어나 반경 %d 칸 내에 기본 피해량의 150%% 에 달하는 피해를 줍니다.
+		왜곡 화살이 이미 왜곡 효과를 받고 있는 적에게 닿을 경우, 폭발이 일어나 반경 %d 칸 내에 기본 피해량의 150%% 에 달하는 피해를 줍니다.
 		이 기술에 기술 점수를 투자할 때마다, 왜곡 효과의 물리 저항 감소 효과가 상승하게 됩니다.
 		기술 레벨이 5 이상이면, 왜곡의 형태를 조절하여 시전자와 시전자의 아군은 폭발에 휘말리지 않게 됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
@@ -22716,7 +22716,7 @@ t("#Source# pulls #Target# in!", "#Source1# #Target3# 끌어당긴다!", "logCom
 t([[Create a powerful maelstorm for %d turns.  Each turn, the maelstrom will pull in targets within a radius of %d, and inflict %0.2f physical damage.
 		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
-		The damage will scale with your Mindpower.]], [[%d 턴 동안 지속되는 강력한 염력의 소용돌이를 생성합니다.  매 턴 마다 소용돌이는 반경 %d 칸 내의 적들을 끌어당기며, %0.2f 물리 피해를 가합니다
+		The damage will scale with your Mindpower.]], [[%d 턴 동안 지속되는 강력한 염력의 소용돌이를 생성합니다.  매 턴마다 소용돌이는 반경 %d 칸 내의 적들을 끌어당기며, %0.2f 물리 피해를 가합니다
 		이 피해는 대상에게 일정 확률로 왜곡 효과를 부여하며, 2 턴 동안 물리 피해 저항을 %d%% 감소시키고, 다른 왜곡 계열 기술에 취약하게 만듭니다.
 		이 기술에 기술 점수를 투자할 때마다, 왜곡 효과의 물리 저항 감소 효과가 상승하게 됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
@@ -22733,9 +22733,9 @@ t([[When an attack would deal 15%% or more of your effective total health, you f
 		If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (a normal melee or ranged attack will instead deal 200%% damage) for one turn.
 		At talent level 5, the block effect will last two turns.
 		This damage reduction scales with your Mindpower.]], [[한 번에 최대 생명력의 15%% 이상의 피해를 받았을 때, 꿈의 방패를 벼려내 스스로를 보호합니다. 다음 %d 턴 동안 방패 단조를 발동시킨 속성의 피해를 %0.2f 만큼 덜 받게 됩니다.
-		한번에 여러 속성의 공격을 막아낼 수 있지만, 추가 속성 마다 발동에 필요한 피해 한계량이 15%% 증가합니다.
+		한 번에 여러 속성의 공격을 막아낼 수 있지만, 추가 속성 마다 발동에 필요한 피해 한계량이 15%% 증가합니다.
 		꿈의 방패로 공격을 완전히 막아내면, 1 턴 동안 공격자가 치명적인 반격에 취약해지게 됩니다 (근접 공격이나 활, 투석구를 사용한 원거리 공격의 피해량이 2 배로 증폭됩니다)
-		기술 레벨이 5 일때, 방패는 2 턴 동안 지속됩니다.
+		기술 레벨이 5 일 때, 방패는 2 턴 동안 지속됩니다.
 		피해감소량은 정신력에 비례하여 증가합니다.]], "tformat", {2,1})
 t("Forge Bellows", "대장간의 풀무", "talent name")
 t("%s's forge barrier", "%s의 벼려낸 장벽", "tformat")
@@ -22756,7 +22756,7 @@ t([[The pounding forge of thought in your mind is released upon your surrounding
 		The effect will build over five turns, until it reaches a maximum radius of %d, maximum mind damage of %0.2f, and maximum burning damage of %0.2f.
 		At this point you'll begin breaking the dreams of enemies who hear the forge, reducing their Mental Save by %d and giving them a %d%% chance of spell failure due to the tremendous echo in their minds for %d turns.
 		Broken Dreams has a %d%% chance to brainlock your enemies.
-		The damage and dream breaking effect will scale with your Mindpower.]], [[생각을 단조하는 정신의 대장간을 시전자 주위에 구현합니다. 시전자가 이동하지 않은 턴 마다 꿈의 모루를 두들겨, 근처의 적에게 정신 피해와 화염 피해를 입힙니다.
+		The damage and dream breaking effect will scale with your Mindpower.]], [[생각을 단조하는 정신의 대장간을 시전자 주위에 구현합니다. 시전자가 이동하지 않은 턴마다 꿈의 모루를 두들겨, 근처의 적에게 정신 피해와 화염 피해를 입힙니다.
 		효과는 5 턴에 걸쳐 완성되며, 최대 반경인 %d 칸에 이르기 전까지, 최대 정신 피해 %0.2f 와 최대 화염 피해 %0.2f 를 가합니다.
 		효과가 완성되면, 효과 범위 내의 적들의 꿈을 파괴해, 정신 내성을 %d 감소시키고 %d%% 의 주문 실패 확률을 %d 턴 동안 적용합니다.
 		부서진 꿈은 %d%% 확률로 적에게 사고정지를 겁니다.
@@ -22773,7 +22773,7 @@ t([[Craft a hammer from the dream forge and strike an adjacent foe, inflicting %
 		
 		Current Dream Hammer Stats:
 		%s]], [[꿈의 대장간에서 망치를 만들어내어 인접한 적을 공격합니다. %d%% 무기 피해를 입히며, 공격이 명중하면 무작위한 꿈 주조자 계열 기술의 재사용 대기시간이 초기화됩니다.
-		기술 레벨이 5 일때, 기술 두 개의 재사용 대기시간이 초기화됩니다
+		기술 레벨이 5 일 때, 기술 두 개의 재사용 대기시간이 초기화됩니다
 		꿈의 망치의 기본 위력, 정확도, 방어력 관통, 치명타 확률은 정신력에 비례하여 증가합니다.
 		
 		현재 꿈의 망치의 능력치 :
@@ -22807,7 +22807,7 @@ t([[Puts targets in a radius of %d to sleep for %d turns, rendering them unable 
 		At talent level 5 Sleep will become contagious and has a 25%% chance to spread to nearby targets each turn.
 		The damage threshold will scale with your Mindpower.]], [[반경 %d 칸 내의 적들을 %d 턴 동안 재웁니다. 수면 중에는 행동이 불가능하며, 매 %d 피해를 받을 때마다 수면의 지속시간이 1 턴씩 줄어듭니다.
 		수면이 끝나면, 대상은 불면증 상태가 되며, (불면증의 지속시간은 잠들어있던 시간과 같습니다) 추가로 잠들었던 턴 당 %d%% 수면 면역을 얻게 됩니다. (최대 10 턴으로 제한됩니다)
-		기술 레벨이 5 일때, 수면은 전염성을 띄게 되어, 매 턴 마다 25%% 확률로 잠든 대상 근처의 자고있지 않은 적을 잠들게합니다.
+		기술 레벨이 5 일 때, 수면은 전염성을 띄게 되어, 매 턴마다 25%% 확률로 잠든 대상 근처의 자고있지 않은 적을 잠들게 합니다.
 		지속시간 단축 피해 한계량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Lucid Dreamer", "자각몽", "talent name")
 t([[Slip into a lucid dream.  While in this state, you are considered sleeping, but can still act, are immune to insomnia, inflict %d%% more damage to targets under the effects of Insomnia, and your Physical, Mental, and Spell saves are increased by %d.
@@ -22834,7 +22834,7 @@ section "game/modules/tome/data/talents/psionic/feedback.lua"
 
 t("Biofeedback", "생체 반작용", "talent name")
 t([[Your Feedback decay now heals you for %0.1f times the loss, and the decay rate is reduced to %d%% of the normal rate (up to %0.1f%% per turn).  As a result, you are healed for %0.2f%% of your feedback pool each turn.
-		The healing effect improves with your Willpower.]], [[매 턴 소모되는 반작용이 %0.1f%% 효율로 생명력을 회복합니다, 또한 반작용 소모가 %d%% 적어집니다. (매 턴 %0.1f%%) 결과적으로, 매 턴 마다 반작용의 %0.2f%% 만큼의 생명력을 회복합니다.
+		The healing effect improves with your Willpower.]], [[매 턴 소모되는 반작용이 %0.1f%% 효율로 생명력을 회복합니다, 또한 반작용 소모가 %d%% 적어집니다. (매 턴 %0.1f%%) 결과적으로, 매 턴마다 반작용의 %0.2f%% 만큼의 생명력을 회복합니다.
 		회복 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Resonance Field", "반향 역장", "talent name")
 t([[Activate to create a resonance field that will absorb 50%% of all damage you take (%d max absorption).  The field will not interfere with Feedback gain.
@@ -22936,7 +22936,7 @@ t([[For %d turns your telekinesis transcends your normal limits, increasing your
 		동역학 흡수에 수면 효과가 적용됩니다
 		동역학 강타는 인접한 두 적까지 휩쓸어 공격합니다.
 		물리 피해 상승량과 물리 저항 관통치는 정신력에 비례하여 증가합니다.
-		한번에 단 하나의 '초월' 기술만 활성화 될 수 있습니다.]], "tformat")
+		한 번에 단 하나의 '초월' 기술만 활성화 될 수 있습니다.]], "tformat")
 t("Kinetic Surge", "동역학 쇄도", "talent name")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
 t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source2# #Target#의 염동력에 저항했다!", "logCombat")
@@ -22969,7 +22969,7 @@ t([[You learn to devote a portion of your attention to mentally swatting, grabbi
 		이 기술을 비활성해 당신 주변의 투사체를 조종하십시오.]], "tformat")
 t("Implode", "내파", "talent name")
 t([[Bind the target mercilessly with constant, bone-shattering pressure, pinning and slowing it by 50%% for %d turns and dealing %0.1f Physical damage each turn.
-		The duration and damage improve with Mindpower.]], [[대상을 뼈를 부숴버릴 정도의 압력으로 억눌러, %d 턴 동안 속박하고, 50%% 느려지게합니다. %0.1f 물리 피해를 매 턴 가합니다.
+		The duration and damage improve with Mindpower.]], [[대상을 뼈를 부숴버릴 정도의 압력으로 억눌러, %d 턴 동안 속박하고, 50%% 느려지게 합니다. %0.1f 물리 피해를 매 턴 가합니다.
 		피해량과 지속시간은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -23000,12 +23000,12 @@ t("Projection of %s", "%s의 투영", "tformat")
 t([[Activate to project your mind from your body for %d turns.  In this state you're invisible (+%d power), can see invisible and stealthed creatures (+%d detection power), can move through walls, and do not need air to survive.
 		All damage you suffer is shared with your physical body, and while in this form you may only deal damage to 'ghosts' or through an active mind link (mind damage only in the second case.)
 		To return to your body, simply release control of the projection.]], [[육체에서 정신을 투영해 %d 턴 동안 정신력 그 자체를 조종합니다. 정신력은 투명하며 (+%d 위력), 투명하거나 은신중인 개체들을 볼 수 있습니다. (+%d 탐지력) 또한 벽을 통과해 움직일 수 있고, 호흡할 필요가 사라집니다.
-		지속 시간동안 받는 모든 피해는 시전자의 물리적인 육신과 시전자에게 나누어집니다. 이 상태에서는 오직 '유령' 형태의 적과 정신 연결의 효과를 받는 적에게만 피해를 입힐 수 있습니다.
+		지속 시간 동안 받는 모든 피해는 시전자의 물리적인 육신과 시전자에게 나누어집니다. 이 상태에서는 오직 '유령' 형태의 적과 정신 연결의 효과를 받는 적에게만 피해를 입힐 수 있습니다.
 		육체로 돌아가기 위해서는, 그저 투영을 끝내면 됩니다.]], "tformat")
 t("Mind Link", "정신 연결", "talent name")
 t([[Link minds with the target.  While your minds are linked, you'll inflict %d%% more mind damage to the target and gain telepathy for its creature type.
 		Only one mindlink can be maintained at a time, and the effect will break if the target dies or goes beyond range (%d)).
-		The mind damage bonus will scale with your Mindpower.]], [[대상과 정신을 연결합니다. 정신이 연결되어있는 동안, 대상은 정신 공격에 취약해져, 정신 피해를 %d%% 더 받게됩니다. 또한, 대상의 종족에 대한 텔레파시를 얻습니다.
+		The mind damage bonus will scale with your Mindpower.]], [[대상과 정신을 연결합니다. 정신이 연결되어있는 동안, 대상은 정신 공격에 취약해져, 정신 피해를 %d%% 더 받게 됩니다. 또한, 대상의 종족에 대한 텔레파시를 얻습니다.
 		한 번에 하나의 대상에게만 정신 연결을 유지할 수 있으며, 대상이 사망하거나 %d 칸 이상 멀어지면 연결이 끊어집니다.
 		추가 정신 피해량은 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
@@ -23018,7 +23018,7 @@ t([[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rend
 		Each turn, they'll suffer %0.2f darkness damage.  This damage will not reduce the duration of the effect.
 		When Nightmare ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
 		The damage threshold and mind damage will scale with your Mindpower.]], [[반경 %d 칸의 원뿔 범위 내의 적들을 %d 턴 동안 끔찍한 악몽에 빠저들게 합니다. 악몽을 꾸는 동안에는 행동할 수 없습니다. 매 %d 피해를 받을 때마다 지속시간이 1 턴씩 단축됩니다.
-		매 턴 마다 %0.2f 암흑 피해를 입으며, 이 피해로는 지속시간이 단축되지 않습니다.
+		매 턴마다 %0.2f 암흑 피해를 입으며, 이 피해로는 지속시간이 단축되지 않습니다.
 		악몽이 끝나면, 대상은 불면증 상태가 되며, (불면증의 지속시간은 잠들어있던 시간과 같습니다) 추가로 잠들었던 턴 당 %d%% 수면 면역을 얻게 됩니다.
 		지속시간 단축 피해 한계량과 지속 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Inner Demons", "내면의 악마", "talent name")
@@ -23074,7 +23074,7 @@ t([[Allows you to wield a physical melee or ranged weapon, a mindstar or a gem t
 		보석은 보석의 등급 당 모든 능력치를 3 추가합니다.
 		마석은 멀리 떨어진 무작위의 적을 끌고 올 것입니다. (1 등급 마석의 경우 10% 확률, 3 칸 내의 적을 끌고오며, 이후 등급마다 5% 확률과 1 칸의 사거리가 추가됩니다)
 		근접 무기는 반 독립적인 개체로, 매 턴 인접한 적을 공격하며 원거리 무기의 경우, 시전자가 사격할 때마다 같은 염동력으로 장착 무기도 같은 대상을 향해 사격합니다.
-		이 기술이 활성화 된 동안, 모든 근접과 원거리 무기는 민첩과 힘 능력치 대신 교활과 의지 능력치의 60%%를 이용하여 피해량과 정확도를 산출합니다.
+		이 기술이 활성화된 동안, 모든 근접과 원거리 무기는 민첩과 힘 능력치 대신 교활과 의지 능력치의 60%%를 이용하여 피해량과 정확도를 산출합니다.
 		
 
 		]], "_t")
@@ -23121,8 +23121,8 @@ t([[Fills the air around you with reactive currents of force.
 		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
 		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
 		You can only have two of these auras active at once.]], [[주위의 공기를 힘의 흐름으로 가득 채웁니다.
-		보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 물리 피해를 모든 인접한 적에게 입힙니다. 이 때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
-		일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 모든 무기 공격에 %0.1f 물리 피해를 추가합니다. 이 때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
+		보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 물리 피해를 모든 인접한 적에게 입힙니다. 이때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
+		일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 모든 무기 공격에 %0.1f 물리 피해를 추가합니다. 이때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
 		%d 이상의 에너지를 갖고 있는 상태에서 아우라를 비활성화하면, 거대한 동역학 에너지 반응이 해방되어, 사거리 %d 의 광선을 발사해, 발사 경로 상의 적들을 꿰뚫고, %d 물리 피해를 가하며 뒤로 밀쳐냅니다.
 		#{bold}#아우라의 활성화는 턴을 소모하지 않지만, 비 활성화는 턴을 소모합니다.#{normal}#
 		비활성화 시의 반응 효과를 원치 않는 경우, 자신을 대상으로 두면 됩니다. 피해량은 정신력에 비례하여 증가합니다.
@@ -23135,9 +23135,9 @@ t([[Fills the air around you with reactive currents of furnace-like heat.
 		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
 		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
 		You can only have two of these auras active at once.]], [[주위의 공기를 용광로같은 열기로 가득 채웁니다.
-		보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 화염 피해를 모든 인접한 적에게 입힙니다. 이 때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
-		일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 모든 무기 공격에 %0.1f 화염 피해를 추가합니다. 이 때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
-		%d 이상의 에너지를 갖고 있는 상태에서 아우라를 비활성화하면, 거대한 열역학 에너지 반응이 해방되어, 범위 %d 칸의 원뿔 범위에 과열된 공기 폭발을 일으킵니다. 범위 내의 모든 대상은 최대 %d 화염 피해를 여러 턴에 걸쳐 받게됩니다.
+		보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 화염 피해를 모든 인접한 적에게 입힙니다. 이때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
+		일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 모든 무기 공격에 %0.1f 화염 피해를 추가합니다. 이때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
+		%d 이상의 에너지를 갖고 있는 상태에서 아우라를 비활성화하면, 거대한 열역학 에너지 반응이 해방되어, 범위 %d 칸의 원뿔 범위에 과열된 공기 폭발을 일으킵니다. 범위 내의 모든 대상은 최대 %d 화염 피해를 여러 턴에 걸쳐 받게 됩니다.
 		#{bold}#아우라의 활성화는 턴을 소모하지 않지만, 비 활성화는 턴을 소모합니다.#{normal}#
 		비활성화 시의 반응 효과를 원치 않는 경우, 자신을 대상으로 두면 됩니다. 피해량은 정신력에 비례하여 증가합니다.
 		아우라는 한 번애 2 개까지만 활성화 가능합니다.]], "tformat")
@@ -23151,8 +23151,8 @@ t([[Fills the air around you with crackling energy.
 		#{bold}#Activating the aura takes no time but de-activating it does.#{normal}#
 		To turn off an aura without spiking it, deactivate it and target yourself. The damage will improve with your Mindpower.
 		You can only have two of these auras active at once.]], [[주위의 공기를 탁탁 튀는 전하로 가득 채웁니다.
-		보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 전기 피해를 모든 인접한 적에게 입힙니다. 이 때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
-		일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 모든 무기 공격에 %0.1f 전기 피해를 추가합니다. 이 때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
+		보석이나 마석을 염동력으로 장비하고 있을 경우, 아우라는 %0.1f 전기 피해를 모든 인접한 적에게 입힙니다. 이때, 개체 하나 당 %0.1f 에너지가 소모 됩니다. 
+		일반적인 무기를 염동력으로 장비하고 있을 경우, 아우라는 모든 무기 공격에 %0.1f 전기 피해를 추가합니다. 이때, 적중 한 번 당 %0.1f 에너지가 소모 됩니다.
 		%d 이상의 에너지를 갖고 있는 상태에서 아우라를 비활성화하면, 거대한 전기역학 에너지 반응이 해방되어, 인근의 최대 %d 체의 적에게 연쇄됩니다. %0.1f 전기 피해를 각각 적에게 가하며 50%% 확률로 혼절을 일으킵니다.
 		#{bold}#아우라의 활성화는 턴을 소모하지 않지만, 비 활성화는 턴을 소모합니다.#{normal}#
 		비활성화 시의 반응 효과를 원치 않는 경우, 자신을 대상으로 두면 됩니다. 피해량은 정신력에 비례하여 증가합니다.
@@ -23202,7 +23202,7 @@ t([[Assume a defensive mental state.
 		This requires a telekinetically-wielded weapon.]], [[방어적인 정신상태를 수용합니다.
 		1 턴 동안, 다음 물리 공격을 염동력으로 쥐고 있는 무기로 완전히 방어한 뒤 주 무기를 휘둘러 %d%% 피해로 반격합니다.
 		이 기술에 투자된 기술 점수가 3 이상일 경우, 공격과 함께 적의 무장을 3 턴 동안 해제시킵니다.
-		이 기술에 투자된 기술 점수가 5 이상일 경우, 이 기술을 사용하지 않아도 매 턴 마다 1 번씩 %d%% 확률의 반사적인 막기를 사용 할 수 있습니다. 이 확률은 교활함 능력치에 따라 결정됩니다. 반사적으로 막을 때마다 염력이 10 씩 소모되고, 염력이 부족한 경우 반사적인 막기를 사용하지 않습니다.
+		이 기술에 투자된 기술 점수가 5 이상일 경우, 이 기술을 사용하지 않아도 매 턴마다 1 번씩 %d%% 확률의 반사적인 막기를 사용 할 수 있습니다. 이 확률은 교활함 능력치에 따라 결정됩니다. 반사적으로 막을 때마다 염력이 10 씩 소모되고, 염력이 부족한 경우 반사적인 막기를 사용하지 않습니다.
 		기술을 사용하기 위해서는 염동력 장착 무기가 필요합니다]], "tformat")
 t("Impale", "꿰뚫기", "talent name")
 t("You cannot do that without a weapon in your telekinetic slot.", "염동력 장착 무기가 없이는 할 수 없다.", "logPlayer")
@@ -23235,7 +23235,7 @@ t("Pull energy from your surroundings.", "주위로부터 에너지를 끌어옵
 t("voracity", "탐식", "_t")
 t("Subtle applications of the psionic arts.", "초능력의 기예에 관한 섬세한 적용을 배웁니다.", "_t")
 t("finer energy manipulations", "미세 에너지 조작", "_t")
-t("Various psionic talents.", "여러가지 초능력 기술들.", "_t")
+t("Various psionic talents.", "여러 가지 초능력 기술들.", "_t")
 t("other", "기타", "_t")
 t("Mastery of telekinetic forces.", "동역학적 힘에 대한 숙련.", "_t")
 t("kinetic mastery", "동역학 숙련", "_t")
@@ -23267,7 +23267,7 @@ t("Various mind based effects.", "다양한 기본 효과.", "_t")
 t("mentalism", "심리주의", "_t")
 t("Store feedback as you get damaged and use it to protect and heal your body.", "피해를 받을 때 반작용을 쌓고, 그것을 이용해 자신의 몸을 방어하고 회복하는 기술들 입니다.", "_t")
 t("feedback", "반작용", "_t")
-t("Put your mind into a deep trance.", "당신의 정신을 깊은 무아지경에 빠지게합니다.", "_t")
+t("Put your mind into a deep trance.", "당신의 정신을 깊은 무아지경에 빠지게 합니다.", "_t")
 t("psionic", "초능력", "talent category")
 t("trance", "무아지경", "_t")
 
@@ -23343,7 +23343,7 @@ t([[You believe that your mind is the center of everything.  Permanently increas
 		You also have learned to overcome damage with your mind alone, and convert %d%% of all damage you receive into Psi damage and %d%% of your healing and life regen now recovers Psi instead of life.
 		Converted Psi damage you take will be further reduced by %0.1f%% (%0.1f%% from character level with the remainder further reduced by %0.1f%% from talent level).
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
-		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], [[시전자의 자아가 모든 것의 중심이라고 믿습니다. 레벨마다 획득하는 염동력 수치가 5 추가되며 생명력 증가량이 50%% 감소됩니다. (레벨 업 시 상승하는 생명력 양에 영향을 주며, 위 효과는 단 한번만 적용됩니다).
+		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], [[시전자의 자아가 모든 것의 중심이라고 믿습니다. 레벨마다 획득하는 염동력 수치가 5 추가되며 생명력 증가량이 50%% 감소됩니다. (레벨 업 시 상승하는 생명력 양에 영향을 주며, 위 효과는 단 한 번만 적용됩니다).
 		정신력만으로 피해를 극복하는 법을 배워, 피격 시 피해량의 %d%% 를 염력으로 대신 받습니다. 또한 생명력 회복량과 재생량의 %d%% 가 생명력 대신 염력을 회복시킵니다.
 		생명력 대신 염력으로 피해를 받을 때, %0.1f%% 감소한 값의 염력이 소모됩니다 (캐릭터 레벨을 통해 %0.1f%% 만큼, 기술 레벨을 통해 %0.1f%% 만큼 추가로 감소).
 		이 기술을 배우면, 의지 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
@@ -23352,7 +23352,7 @@ t("Balance", "균형", "talent name")
 t([[You now substitute %d%% of your Mental Save for %d%% of your Physical and Spell Saves throws (so at 100%%, you would effectively use mental save for all saving throw rolls).
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
 		Learning this talent also increases your solipsism threshold by 10%% (currently %d%%).]], [[물리 내성과 주문 내성의 %d%% 를 정신 내성의 %d%% 로 대체합니다. (즉 이 비율이 100%% 가 되면, 정신 내성이 물리 내성과 주문 내성을 완전히 대체하게 됩니다)
-		기술 레벨이 1 일때, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
+		기술 레벨이 1 일 때, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
 		이 기술을 배우면 유아론 한계량이 10%% 증가하게 됩니다. (현재 : %d%%)]], "tformat")
 t("Clarity", "깨달음", "talent name")
 t([[For every percent that your Psi pool exceeds %d%%, you gain 1%% global speed (up to a maximum of %+d%%).
@@ -23364,7 +23364,7 @@ t("#TAN#(%d dismissed)#LAST#", "#TAN#(%d 정신적 무시)#LAST#", "tformat")
 t([[Each time you take damage, you roll %d%% of your mental save against it.  A successful saving throw can crit and will reduce the damage by at least 50%%.
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
 		The first talent point also increases your solipsism threshold by 10%% (currently %d%%).]], [[피해를 받을 때마다, 정신 내성의 %d%% 를 이용해서 정신 내성 판정을 합니다. 판정이 성공할 경우, 받는 피해량이 50%% 이상 감소합니다 이 판정에는 치명타 확률이 적용됩니다.
-		기술 레벨이 1 일때, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
+		기술 레벨이 1 일 때, 의지 능력치 1 당 최대 염력이 0.5 증가하게 되지만 그 대신 체격 능력치 1 당 최대 생명력이 0.25 감소하게 됩니다. 
 		이 기술을 배우면 유아론 한계량이 10%% 증가하게 됩니다. (현재 : %d%%)]], "tformat")
 
 
@@ -23396,7 +23396,7 @@ t([[For %d turns your pyrokinesis transcends your normal limits, increasing your
 		열역학 흡수에 대상의 피해량 감소 %d%% 가 적용됩니다.
 		열역학 강타에 반경 1 칸의 부가적인 냉기/화염 폭발이 일어납니다.
 		화염과 냉기 피해 상승량과 화염과 냉기 저항 관통치는 정신력에 비례하여 증가합니다.
-		한번에 단 하나의 '초월' 기술만을 사용할 수 있습니다.]], "tformat")
+		한 번에 단 하나의 '초월' 기술만을 사용할 수 있습니다.]], "tformat")
 t("Brainfreeze", "두뇌 동결", "talent name")
 t([[Quickly drain the heat from your target's brain, dealing %0.1f Cold damage.
 		Affected creatures will also be brainlocked for 4 turns, putting a random talent on cooldown, and freezing cooldowns.
@@ -23407,7 +23407,7 @@ t("Heat Shift", "열 전환", "talent name")
 t([[Within radius %d, transfer heat from a group of enemies bodies to their equipment, freezing them to the floor while the excess heat disables their weapons and armor.
 		Those afflicted will be dealt %0.1f Cold and %0.1f Fire damage, and be pinned (Frozen Feet) and disarmed for %d turns.
 		Targets suffering both types of damage will also have have their Armour and saves reduced by %d.
-		The chance to apply the effects and the duration increase with your Mindpower.]], [[반경 %d 칸 내의 모든 적들의 체온과 장비의 열을 교환합니다, 적의 육신은 바닥 위에 얼어붙고, 무기와 방어구는 과열되어 쓰지 못하게됩니다.
+		The chance to apply the effects and the duration increase with your Mindpower.]], [[반경 %d 칸 내의 모든 적들의 체온과 장비의 열을 교환합니다, 적의 육신은 바닥 위에 얼어붙고, 무기와 방어구는 과열되어 쓰지 못하게 됩니다.
 		%0.1f 냉기 피해와 %0.1f 화염 피해를 가합니다. 피해를 받은 적은 발이 얼어붙어 %d 턴 동안 속박되고, 무장이 해제됩니다.
 		두 속성의 피해를 받은 적은 방어력와 내성이 %d 감소하게 됩니다.
 		효과 적용 확률과 지속시간은 정신력에 비례하여 증가합니다.]], "tformat")
@@ -23457,11 +23457,11 @@ t([[Forge a guardian from your thoughts alone.  Your guardian's primary stat wil
 		Only one thought-form may be active at a time, and the stat bonuses will improve with your Mindpower.]], [[생각만으로 수호자를 단조해냅니다. 수호자들의 우선적 능력치를 %d 만큼 늘리고, 2 개의 부가적 능력치를 %d 만큼 늘립니다. 그리고 마법, 교활, 의지 능력치는 시전자의 것을 따릅니다.
 		기술 레벨 1 일 때 가죽 갑옷을 입은 위력적인 궁수를 버려냅니다. 기술 레벨 3 일 때 양손 무기를 든 막강한 전사를, 기술 레벨 5 일 때 방패와 검을 쓰는 강인한 수호자를 단조합니다.
 		생각의 구현체들은 시전자를 중심으로 반경 %d 내에서만 유지될 수 있습니다. 범위를 벗어난 경우, 시전자의 옆에서 재구성됩니다.
-		한번에 단 하나의 구현체만 존재할 수 있으며, 능력치 상승량은 정신력에 비례하여 증가합니다.]], "tformat")
+		한 번에 단 하나의 구현체만 존재할 수 있으며, 능력치 상승량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Transcendent Thought-Forms", "초월적인 구현", "talent name")
 t("Your thought-forms now know Lucid Dreamer, Biofeedback, and Psychometry at talent level %d.", "당신의 구현체들은 이제 기술 레벨 %d 의 자각몽, 생체 반작용, 초감각 기술을 사용합니다 .", "tformat")
 t("Over Mind", "정신을 넘어", "talent name")
-t("You must have an active Thought-Form to use this talent!", "이 기술을 사용하기 위해서는 생각의 구현을 활성화 해야한다!", "logPlayer")
+t("You must have an active Thought-Form to use this talent!", "이 기술을 사용하기 위해서는 생각의 구현을 활성화 해야 한다!", "logPlayer")
 t([[Take direct control of your active thought-form, improving its damage, attack speed, and maximum life by %d%%, but leaving your body a defenseless shell.
 		At talent level 1, any Feedback your Thought-Forms gain will be given to you as well. At level 3, your Thought-Forms gain a bonus to all saves equal to your Mental Save. At level 5, they gain a bonus to all damage equal to your bonus mind damage.
 		The secondary bonuses apply whether or not this talent is currently active.
@@ -23471,7 +23471,7 @@ t([[Take direct control of your active thought-form, improving its damage, attac
 		구현체의 생명력, 피해량, 속도 증가량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Thought-Form Unity", "구현체 일치", "talent name")
 t([[You now gain %d%% mind speed while Thought-Form: Bowman is active, %d Mindpower while Thought-Form: Warrior is active, and %d%% resist all while Thought-Form: Defender is active. 
-		These bonuses scale with your Mindpower.]], [[시전자는 이제 생각의 구현 : 궁수 가 활성화 되어있을 때,  %d%% 사고 속도를, 생각의 구현 : 전사 가 활성화 되어있을 때, %d 정신력을, 생각의 구현 : 파수꾼이 활성화 되어있을 때, 모든 피해 저항 %d%% 를 얻습니다.
+		These bonuses scale with your Mindpower.]], [[시전자는 이제 생각의 구현 : 궁수 가 활성화되어있을 때,  %d%% 사고 속도를, 생각의 구현 : 전사 가 활성화되어있을 때, %d 정신력을, 생각의 구현 : 파수꾼이 활성화되어있을 때, 모든 피해 저항 %d%% 를 얻습니다.
 		이 효과들은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -23483,19 +23483,19 @@ t([[Activate to purge negative status effects (100%% chance for the first effect
 		The chance to purge and saving throw bonus will scale with your mindpower.
 		Only one trance may be active at a time.]], [[활성화하면 나쁜 상태효과들이 제거됩니다. (100%% 확률로 첫번째 상태효과가 제거되며, 두번째 상태효과부터는 확률이 %d%% 씩 낮아집니다)  무아지경이 유지되는 동안, 모든 내성이 %d 향상됩니다.
 		상태효과 제거 확률과 내성 증가량은 정신력에 비례하여 증가합니다.
-		한번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
+		한 번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
 t("Trance of Well-Being", "치유의 무아지경", "talent name")
 t([[Activate to heal yourself for %0.2f life.  While this talent is sustained your healing modifier will be increased by %d%% and your life regen by %0.2f.
 		The effects will scale with your mindpower.
 		Only one trance may be active at a time.]], [[활성화하면 생명력이 %0.2f 회복됩니다. 무아지경이 유지되는 동안, 치유 효율이 %d%% 증가하고 생명력 재생이 %0.2f 증가합니다.
 		효과는 정신력에 비례하여 증가합니다.
-		한번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
+		한 번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
 t("Trance of Focus", "집중의 무아지경", "talent name")
 t([[Activate to increase your critical strike damage by %d%% for 10 turns.  While this talent is sustained your critical strike chance is improved by +%d%%.
 		The effects will scale with your mindpower.
 		Only one trance may be active at a time.]], [[사용하면 치명타 피해량이 10 턴 동안 %d%% 증가합니다. 무아지경이 유지되는 동안, 치명타 확률이 %d%% 증가합니다.
 		효과는 정신력에 비례하여 증가합니다.
-		한번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
+		한 번에 하나의 무아지경 효과만을 유지할 수 있습니다.]], "tformat")
 t("Deep Trance", "깊은 무아지경", "talent name")
 t([[When you wield or wear an item infused by psionic, nature, or arcane-disrupting forces you improve all values under its 'when wielded/worn' field %d%%.
 		Note this doesn't change the item itself, but rather the effects it has on your person (the item description will not reflect the improved values).]], [[염력, 자연, 반마법의 힘이 깃든 장비를 착용하면, 해당 장비의 '착용시 적용' 항목에 있는 모든 능력치가 %d%% 향상됩니다.
@@ -23512,7 +23512,7 @@ t([[You draw kinetic energy from your surroundings to replenish your Psi.
 		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
 		The strength of these effects increases as your Psi depletes and with your Mindpower.]], [[시전자 주변에서 동역학 에너지를 흡수하여 염력을 회복합니다.
 		4 턴 동안, 반경 %d 칸 내의 모든 적은  %d%% 느려집니다. (최대 %d%%) 또한, 효과에 영향을 받은 대상 하나 마다 %0.1f 기력이 회복됩니다. (최대 %0.1f).
-		첫번째 대상으로부터 %d 염력을 회복합니다. (최대 %d) 범위 내 다른 적에게서도 염력을 획득하지만, 한 개체에게서 염력을 흡수할 때 마다 염력 획득량이 20%% 씩 적어집니다. 
+		첫번째 대상으로부터 %d 염력을 회복합니다. (최대 %d) 범위 내 다른 적에게서도 염력을 획득하지만, 한 개체에게서 염력을 흡수할 때마다 염력 획득량이 20%% 씩 적어집니다. 
 		이 효과는 정신력에 비례하고, 남은 염력 양에는 반비례하여 증가합니다.]], "tformat")
 t("Thermal Leech", "열역학 흡수", "talent name")
 t([[You draw thermal energy from your surroundings to replenish your Psi.
@@ -23520,7 +23520,7 @@ t([[You draw thermal energy from your surroundings to replenish your Psi.
 		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
 		The damage and the strength of these effects increases as your Psi depletes and with your Mindpower.]], [[시전자 주변에서 열역학 에너지를 흡수하여 염력을 회복합니다.
 		반경 %d 칸 내의 모든 적은 %d 턴 동안 (최대 %d 턴) 얼어붙고, %0.1f (최대 %0.1f) 냉기 피해를 받습니다.
-		첫번째 대상으로부터 %d 염력을 회복합니다. (최대 %d) 범위 내 다른 적에게서도 염력을 획득하지만, 한 개체에게서 염력을 흡수할 때 마다 염력 획득량이 20%% 씩 적어집니다
+		첫번째 대상으로부터 %d 염력을 회복합니다. (최대 %d) 범위 내 다른 적에게서도 염력을 획득하지만, 한 개체에게서 염력을 흡수할 때마다 염력 획득량이 20%% 씩 적어집니다
 		이 효과는 정신력에 비례하고, 남은 염력 양에는 반비례하여 증가합니다.]], "tformat")
 t("Charge Leech", "전기역학 흡수", "talent name")
 t([[You draw electical potential energy from your surroundings to replenish your Psi.
@@ -23528,7 +23528,7 @@ t([[You draw electical potential energy from your surroundings to replenish your
 		You replenish %d (max %d) Psi from the first target, with each additional target restoring 20%% less than the one before it.
 		The strength of these effects increases as your Psi depletes and with your Mindpower.]], [[시전자 주변에서 전기역학 에너지를 흡수하여 당신의 염력을 회복합니다.
 		%0.1f (최대 %0.1f) 전기피해를 반경 %d 칸 내의 적 모두에게 가합니다. 이 공격은 %d%% (최대 %d%%) 확률로 3 턴 동안 지속되는 혼절을 겁니다.
-		당신은 첫번째 대상으로부터 %d 염력을 회복합니다 (최대 %d). 범위 내 다른 적에게서도 염력을 획득하지만, 한 개체에게서 염력을 흡수할 때 마다 염력 획득량이 20%% 씩 적어집니다
+		당신은 첫번째 대상으로부터 %d 염력을 회복합니다 (최대 %d). 범위 내 다른 적에게서도 염력을 획득하지만, 한 개체에게서 염력을 흡수할 때마다 염력 획득량이 20%% 씩 적어집니다
 		이 효과는 정신력에 비례하고, 남은 염력 양에는 반비례하여 증가합니다.]], "tformat")
 t("Insatiable", "만족할 줄 모르는 탐식", "talent name")
 t("Increases your maximum energy by %d. You also gain %0.1f Psi for each kill and %0.1f Psi for each mind critical.", "최대 염력을 %d 늘립니다. 또한 적을 살해할 때 %0.1f 염력을 회복하고, 정신 치명타를 가할 때 %0.1f 염력을 회복합니다.", "tformat")
@@ -23546,8 +23546,8 @@ t([[When you throw your alchemist bombs, you infuse them with explosive acid tha
 t("Caustic Golem", "부식성 골렘", "talent name")
 t([[While Acid Infusion is active, your bombs coat your golem in acid for %d turns when they hit it.
 		While coated, any melee hit against your golem has a %d%% chance to trigger a radius 4 cone of acid towards the attacker that does %0.1f Acid damage to all caught inside. (This can only happen once per turn.)
-		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[산성 물질 주입이 활성화 되었을 시, 연금술 폭탄의 폭발은 골렘을 %d 턴 동안 산성 물질로 뒤덮습니다.
-		이 때 동안 골렘이 근접 공격에 피격 당하면, %d%% 확률로 반경 4 칸의 원뿔 범위의 산성 물질을 쏟아부어, %0.1f 산성 피해를 범위 내의 모든 대상에게 입힙니다. (이 효과는 한 턴에 한 번만 일어납니다.)
+		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[산성 물질 주입이 활성화되었을 시, 연금술 폭탄의 폭발은 골렘을 %d 턴 동안 산성 물질로 뒤덮습니다.
+		이때 동안 골렘이 근접 공격에 피격 당하면, %d%% 확률로 반경 4 칸의 원뿔 범위의 산성 물질을 쏟아부어, %0.1f 산성 피해를 범위 내의 모든 대상에게 입힙니다. (이 효과는 한 턴에 한 번만 일어납니다.)
 		이 효과는 시전자의 기술 레벨, 시전자의 주문력, 그리고 골렘의 피해량 변동치에 비례해 증가합니다.]], "tformat")
 t("Caustic Mire", "침식성 수렁", "talent name")
 t([[A radius %d pool of acid spawns at the target location, doing %0.1f Acid damage each turn for %d turns.
@@ -23587,7 +23587,7 @@ t("Runic Golem", "룬 골렘", "talent name")
 t([[Increases your golem's life, mana and stamina regeneration rates by %0.2f.
 		At level 1, 3 and 5, the golem also gains a new rune slot.
 		Even without this talent, Golems start with three rune slots.]], [[골렘의 생명력, 마나, 그리고 기력 재생량을 %0.2f 늘립니다.
-		기술 레벨 1, 3, 5 일때 골렘은 룬 슬롯을 추가적으로 장비할 수 있습니다.
+		기술 레벨 1, 3, 5 일 때 골렘은 룬 슬롯을 추가적으로 장비할 수 있습니다.
 		이 기술이 없더라도, 골렘은 기본적으로 3 개의 룬 슬롯을 갖고있습니다. with three rune slots.]], "tformat")
 
 
@@ -23604,7 +23604,7 @@ t([[Surround yourself with strengthening arcane forces.
 		At level 5, it also increases the duration of all shields by 1 turn.
 		The shield value will increase with your Spellpower.]], [[주위를 강화된 비전력으로 둘러쌉니다.
 		모든 피해 보호막, 시간 보호막, 변위 보호막, 분해 보호막의 위력이 %d%% 증가합니다. 
-		기술 레벨 5 일때, 모든 보호막의 지속시간이 1 턴 증가합니다.
+		기술 레벨 5 일 때, 모든 보호막의 지속시간이 1 턴 증가합니다.
 		보호막의 위력은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Arcane Shield", "비전 보호막", "talent name")
 t([[Surround yourself with protective arcane forces.
@@ -23644,9 +23644,9 @@ t("Aether Breach", "에테르의 균열", "talent name")
 t([[Rupture reality to temporarily open a passage to the aether, triggering %d random arcane explosions in the target area.
 		Each explosion does %0.2f arcane damage in radius 2, and will each trigger at one turn intervals.
 		Subsequent casts will stack but the explosions will still only occur once per turn and will be centered at the last area targeted.
-		The damage will increase with your Spellpower.]], [[현실 구조에 구멍을 내어, 짧은 시간동안 에테르의 통로를 엽니다. 대상 위치에 %d 번의 무작위한 비전력 폭발을 일으킵니다.
-		매 폭발은 반경 2 칸 내에 %0.2f 비전 피해를 입힙니다. 폭발은 한 턴 마다 한 번씩 일어납니다.
-		이후, 같은 지역에 에테르 균열을 시전시, 중첩은 가능하지만, 폭발은 여전히 한 턴마다 한 번씩 일어납니다. 나중에 시전한 에테르의 균열의 폭발이 우선 됩니다.
+		The damage will increase with your Spellpower.]], [[현실 구조에 구멍을 내어, 짧은 시간 동안 에테르의 통로를 엽니다. 대상 위치에 %d 번의 무작위한 비전력 폭발을 일으킵니다.
+		매 폭발은 반경 2 칸 내에 %0.2f 비전 피해를 입힙니다. 폭발은 한 턴마다 한 번씩 일어납니다.
+		이후, 같은 지역에 에테르 균열을 시전 시, 중첩은 가능하지만, 폭발은 여전히 한 턴마다 한 번씩 일어납니다. 나중에 시전한 에테르의 균열의 폭발이 우선 됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Aether Avatar", "에테르의 화신", "talent name")
 t("#VIOLET#%s loses 50 mana from using a non-Arcane talent!#LAST#", "#VIOLET#%s 비전 계열이 아닌 기술 사용을 사용하여, 대가로 마나 50을 소모했다!#LAST#", "logSeen", nil, {"는"})
@@ -23666,7 +23666,7 @@ t([[Infuse your body with untethered aether forces for %d turns.
 t("Pure Aether", "순수한 에테르", "talent name")
 t([[Surround yourself with Pure Aether, increasing all your arcane damage by %0.1f%% and ignoring %d%% arcane resistance of your targets.
 		At level 5 casting Aether Avatar removes up to %d magical or physical detrimental effects.]], [[자신의 주위를 순수한 에테르로 감싸, 모든 비전 피해량이 %0.1f%% 증가되고, 대상의 비전 피해 저항을 %d%% 무시합니다.
-		기술 레벨 5 일때, 에테르의 화신 활성화 시, 최대 %d 개의 부정적인 마법적, 물리적 효과를 제거합니다.]], "tformat")
+		기술 레벨 5 일 때, 에테르의 화신 활성화 시, 최대 %d 개의 부정적인 마법적, 물리적 효과를 제거합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -23686,7 +23686,7 @@ t("Crepuscule", "어스름", "talent name")
 t("%s resists the crepuscule!", "%s 어스름에 저항했다!", "logSeen", nil, {"는"})
 t([[You call upon an eerie night to aid you for %d turns.
 		Each turn you automatically fire a beam of darkness towards a random foe (prioritizing the ones further away) that deals %0.2f darkness damage and has 25%% chance to blind any foes caught inside for 4 turns.
-		The damage will increase with your Spellpower.]], [[으스스한 밤의 힘을 불러내 %d 턴 동안 전투를 돕게합니다.
+		The damage will increase with your Spellpower.]], [[으스스한 밤의 힘을 불러내 %d 턴 동안 전투를 돕게 합니다.
 		매 턴, 자동적으로 어둠의 광선을 무작위한 적에게 쏘아, %0.2f 암흑 피해를 입히고, 25%% 확률로 발사 궤도 내의 적들에게 4 턴 동안 지속되는 실명을 일으킵니다. 광선은 가장 멀리있는 적을 우선적으로 공격합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("The End of All Hope", "모든 희망의 종말", "talent name")
@@ -23695,10 +23695,10 @@ t([[Whenever one of your Dire Plague rips a soul it feels the inescapable coming
 		The duration increase may happen only once per turn.
 		If Crepuscule is currently active it fires an additional free beam at the target.
 		In addition the chance to rip a soul by Dire Plague increases by %d%%.
-		]], [[끔찍한 역병이 희생양의 영혼을 찢어놓을 때, 희생양은 피할 수 없는 끝이 옴을 느끼게됩니다.
+		]], [[끔찍한 역병이 희생양의 영혼을 찢어놓을 때, 희생양은 피할 수 없는 끝이 옴을 느끼게 됩니다.
 		끔찍한 역병의 암흑 피해에 치명타가 발생할 경우, 대상을 기준으로, 반경 %d 칸 내의 모든 끔찍한 역병의 지속시간이 %d 턴 연장됩니다.
 		지속시간 연장은 한 턴에 1 번만 일어납니다.
-		어스름이 활성화 되어있다면, 대상에게 광선을 하나 더 발사합니다.
+		어스름이 활성화되어있다면, 대상에게 광선을 하나 더 발사합니다.
 		추가로, 끔찍한 역병이 영혼을 찢어버릴 확률이 %d%% 증가합니다.
 		]], "tformat")
 t("Golden Age of Necromancy", "강령술의 황금기", "talent name")
@@ -23753,11 +23753,11 @@ t([[Each time you or your undead minions deal damage to a creature you apply Sou
 		Also increases your maximum souls capacity by %d .
 		]], [[시전자나, 시전자의 강령술 하수인들이 피해를 가할 때, 영혼 착취를 적용합니다.
 		개체가 이 효과의 지속 도중에 쓰러지면, 시전자가 영혼을 강탈합니다.
-		강력한 적과 보스들은 영혼의 힘이 흘러 넘처, 몇 턴 마다 한 번씩 영혼의 조각을 강탈할 수 있습니다.
-		%s- 희귀: 매 %d 턴 마다 
-		%s- 단일: 매 %d 턴 마다
-		%s- 보스: 매 %d 턴 마다
-		%s- 정예 보스: 매 %d 턴 마다#WHITE#
+		강력한 적과 보스들은 영혼의 힘이 흘러 넘처, 몇 턴마다 한 번씩 영혼의 조각을 강탈할 수 있습니다.
+		%s- 희귀: 매 %d 턴마다 
+		%s- 단일: 매 %d 턴마다
+		%s- 보스: 매 %d 턴마다
+		%s- 정예 보스: 매 %d 턴마다#WHITE#
 
 		또한 최대 원혼량이 %d 증가합니다.
 		]], "tformat")
@@ -23770,7 +23770,7 @@ t([[Consume a soul whole to rebuild your body, healing you for %d and generating
 t("Torture Souls", "영혼 고문", "talent name")
 t([[Unleash dark forces to all foes in sight that are afflicted by Soul Leech, dealing %0.2f frostdusk damage to them and tearing apart their souls.
 		This returns up to %d souls to you (one for each foe hit).
-		The damage increases with your Spellpower.]], [[시야 내의 영혼 착취의 효과를 받고있는 모든 적에게 어둠의 힘을 해방해, %0.2f 서리 황혼 피해를 주고, 영혼을 찢어발깁니다.
+		The damage increases with your Spellpower.]], [[시야 내의 영혼 착취의 효과를 받고 있는 모든 적에게 어둠의 힘을 해방해, %0.2f 서리 황혼 피해를 주고, 영혼을 찢어발깁니다.
 		최대 %d 원혼을 획득합니다. 공격에 영향을 받은 적 하나 당 1 원혼을 획득합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Reaping", "수확", "talent name")
@@ -23790,7 +23790,7 @@ t("Manathrust", "마나 쐐기", "talent name")
 t([[Conjures up mana into a powerful bolt doing %0.2f arcane damage.
 		At level 3, it becomes a beam.
 		The damage will increase with your Spellpower.]], [[마나의 쐐기를 박아넣어 %0.2f 비전 피해를 입힙니다.
-		기술 레벨 3 일때, 마나 쐐기가 광선이 되어 적들을 관통합니다.
+		기술 레벨 3 일 때, 마나 쐐기가 광선이 되어 적들을 관통합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Arcane Power", "신비한 힘", "talent name")
 t("Your mastery of magic allows you to enter a state of deep concentration, increasing your Spellpower by %d and arcane resistance by %d%%.", "마법에 대한 숙련으로 더 깊은 집중 상태로 들어갈 수 있게 되었습니다. 주문력이 %d 증가하고 비전 피해 저항이 %d%% 향상됩니다.", "tformat")
@@ -23799,8 +23799,8 @@ t([[Creates a vortex of arcane energies on the target for 6 turns. Each turn the
 		If no foes are found, the target will take 50%% more arcane damage.
 		If the target dies, the vortex explodes, releasing all remaining damage in a radius 2 ball of arcane force.
 		The damage will increase with your Spellpower.]], [[6 턴 동안 지속되는 마법 에너지의 소용돌이를 대상에게 생성합니다. 매 턴 소용돌이는 시야 내의 다른 적을 찾아 마나 쐐기를 시전하여 %0.2f 비전 피해를 경로 상의 모든 적에게 가합니다.
-		대상 주위에 적이 없을 경우, 대상은 비전 피해를 50%% 더 받게됩니다.
-		대상이 죽으면 소용돌이가 폭발해, 반경 2 칸 범위에 남은 피해를 한번에 주는 비전 폭발을 일으킵니다.
+		대상 주위에 적이 없을 경우, 대상은 비전 피해를 50%% 더 받게 됩니다.
+		대상이 죽으면 소용돌이가 폭발해, 반경 2 칸 범위에 남은 피해를 한 번에 주는 비전 폭발을 일으킵니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Disruption Shield", "분해 보호막", "talent name")
 t("#VIOLET#%s's disruption shield collapses and then explodes in a powerful manastorm!", "#VIOLET#%s의 분해 보호막이 붕괴되어 강력한 마나 폭풍의 일어난다!", "logSeen")
@@ -23819,7 +23819,7 @@ t([[Surround yourself with arcane forces, disrupting any attempts to harm you by
 		Current shield power: %d
 		Current stored energy: %d]], [[주위에 비전의 힘의 순수한 에테르 보호막을 만듭니다. 시전자를 대상으로 하는 모든 공격은 분해됩니다. 보호막은 %d 피해량을 흡수할 수 있습니다.
 		전투 중에 보호막을 유지하는 것은 막대한 부담을 주기 때문에, 이 기술은 기술을 배움과 동시에 활성화 됩니다. 활성화 중에 보호막이 깨지게되면 마나를 이용해 피해를 흡수합니다. 비율은 피해량 1 당 마나 %0.2f 입니다.
-		마나를 사용하여 피해를 막은 경우, 보호막은 최대 %d 의 에너지를 흡수합니다. 보호막이 비활성화 되면 모아둔 모든 에너지가 방출되어 반경 %d 칸에 비전 폭풍을 5 턴간 일으킵니다. 폭풍은 매 턴 저장한 에너지의 20%% 에 해당하는 피해를 입힙니다 
+		마나를 사용하여 피해를 막은 경우, 보호막은 최대 %d 의 에너지를 흡수합니다. 보호막이 비활성화되면 모아둔 모든 에너지가 방출되어 반경 %d 칸에 비전 폭풍을 5 턴 동안 일으킵니다. 폭풍은 매 턴 저장한 에너지의 20%% 에 해당하는 피해를 입힙니다 
 		전투에서 벗어나면, 매 턴마다 보호막의 최대 흡수량의 10%% 를 회복하며, 쌓아둔 에너지는 빠르게 사라집니다.
 		마나가 50%% 이하로 떨어지거나 최대 에너지 저장량에 도달하면 이 기술은 비활성화 될것입니다.
 		보호막 흡수량은 주문력에 비례하여 증가합니다.
@@ -23839,8 +23839,8 @@ t([[Teleports you randomly within a small range of up to %d grids.
 		At level 5, it allows you to choose the target area (radius %d).
 		If the target area is not in line of sight, there is a chance the spell will partially fail and teleport the target randomly.
 		The range will increase with your Spellpower.]], [[시전자가 %d 칸 내의 위치로 순간이동합니다.
-		기술 레벨 4 일때, 순간이동할 개체를 선택할 수 있습니다.
-		기술 레벨 5 일때, 순간이동할 위치를 선택할 수 있습니다. (오차범위는 %d 칸 입니다)
+		기술 레벨 4 일 때, 순간이동할 개체를 선택할 수 있습니다.
+		기술 레벨 5 일 때, 순간이동할 위치를 선택할 수 있습니다. (오차범위는 %d 칸 입니다)
 		대상 위치가 시야 내에 없을 경우, 주문이 부분적으로 실패해 대상을 무작위 위치로 순간이동 시킵니다.
 		범위는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Teleport", "순간이동", "talent name")
@@ -23854,8 +23854,8 @@ t([[Teleports you randomly within a large range (%d).
 		If the target area is not in line of sight, there is a chance the spell will partially fail and teleport the target randomly.
 		Random teleports have a minimum range of %d.
 		The range will increase with your Spellpower.]], [[시전자를 반경 %d 칸 내의 무작위한 위치로 순간이동 시킵니다.
-		기술 레벨 4 일때, 순간이동할 개체를 선택할 수 있습니다.
-		기술 레벨 5 일때, 순간이동할 위치를 선택할 수 있습니다. (오차범위는 %d 칸 입니다)
+		기술 레벨 4 일 때, 순간이동할 개체를 선택할 수 있습니다.
+		기술 레벨 5 일 때, 순간이동할 위치를 선택할 수 있습니다. (오차범위는 %d 칸 입니다)
 		대상 위치가 시야 내에 없을 경우, 주문이 부분적으로 실패해, 일정 확률로 대상을 무작위 위치로 순간이동 시킵니다.
 		무작위 순간이동은 최소 %d 칸 이상 떨어진 곳으로 순간이동 시킵니다.
 		범위는 주문력에 비례하여 증가합니다.]], "tformat")
@@ -23918,7 +23918,7 @@ t([[Your body starts to radiate shadows, increasing your darkness resistance by 
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Utterly Destroyed", "완파", "talent name")
 t([[Whenever a creature is killed by yourself or a minion you feast on its essence, gaining %0.1f mana.
-		At level 3 the thrill of the death invigorates you, granting a movement speed bonus of 50%% for %d turns.]], [[시전자나, 시전자의 하수인에게 쓰러진 적의 정수를 집어 삼켜, 마나를 %0.1f 회복합니다.
+		At level 3 the thrill of the death invigorates you, granting a movement speed bonus of 50%% for %d turns.]], [[시전자나, 시전자의 하수인에게 쓰러진 적의 정수를 집어삼켜, 마나를 %0.1f 회복합니다.
 		기술 레벨 3 일 때, 죽음의 스릴에 고조되어, %d 턴 동안 이동 속도가 50%% 증가합니다.]], "tformat")
 
 
@@ -23938,19 +23938,19 @@ t([[You call upon the very core of the world, harnessing its power to transform 
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 t("\
 In addition, you use your physical resistance versus all damage against you.", "\
-추가적으로, 물리 피해 저항으로 모든 피해에 저항할 수 있게됩니다.", "_t")
+추가적으로, 물리 피해 저항으로 모든 피해에 저항할 수 있게 됩니다.", "_t")
 t("Volcanic Rock", "화산암", "talent name")
 t([[When you turn into a Deeprock elemental your Arcane damage is increased by %0.1f%%, Arcane damage penetration by %0.1f%% and you gain the power to invoke volcanos:
-		%s]], [[깊은 바위 정령으로 변신할 때 비전 피해량이 %0.1f%% 증가하고, 비전 저항 관통이 %0.1f%% 증가합니다. 또한 화산 폭발을 일으킬 수 있는 힘을 얻게됩니다 :
+		%s]], [[깊은 바위 정령으로 변신할 때 비전 피해량이 %0.1f%% 증가하고, 비전 저항 관통이 %0.1f%% 증가합니다. 또한 화산 폭발을 일으킬 수 있는 힘을 얻게 됩니다 :
 		%s]], "tformat")
 t("Boulder Rock", "수성암", "talent name")
 t([[When you turn into a Deeprock elemental your Nature damage is increased by %0.1f%%, Nature damage penetration by %0.1f%% and you gain the power to throw boulders:
-		%s]], [[깊은 바위 정령으로 변신할 때 자연 피해량이 %0.1f%% 증가하고, 자연 저항 관통이 %0.1f%% 증가합니다. 또한 거대한 돌을 들어 던질 수 있는 힘을 얻게됩니다:
+		%s]], [[깊은 바위 정령으로 변신할 때 자연 피해량이 %0.1f%% 증가하고, 자연 저항 관통이 %0.1f%% 증가합니다. 또한 거대한 돌을 들어 던질 수 있는 힘을 얻게 됩니다:
 		%s]], "tformat")
 t("Mountainhewn", "산의 주인", "talent name")
 t([[While in deeprock form, you become indomitable, granting you %d%% resistance to cuts, poisons, diseases and stuns.
 		At level 5 and higher, while Deeprock Form is active, all incoming damage is applied against physical resistance instead of the normal resistance type.]], [[깊은 바위 형상 동안, 시전자는 불굴의 의지를 갖게 됩니다,  %d%% 상처, 독, 질병과 기절 면역력을 얻습니다.
-		기술 레벨 5 일때, 깊은 바위 형상 활성화 시, 물리 저항을 이용하여 모든 피해를 경감할 수 있게됩니다.]], "tformat")
+		기술 레벨 5 일 때, 깊은 바위 형상 활성화 시, 물리 저항을 이용하여 모든 피해를 경감할 수 있게 됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -23967,9 +23967,9 @@ t([[Summons an ethereal magical eye at the designated location that lasts for %d
 		눈은 다른 개체의 눈에 띄거나 공격받지 않습니다. 소환된 눈은 마법적 시야를 갖고있어 반경 %d 칸 범위 안의 모든 개체를 볼 수 있습니다.
 		이 기술은 광원이 없어도 정상적으로 작동하지만, 벽 너머를 볼 수는 없습니다.
 		이 기술의 시전은 턴을 소모하지 않습니다.
-		한번에 단 1 개의 비전의 눈만 존재할 수 있습니다.
-		기술 레벨 4 일때, 대상을 지정할 수 있게됩니다. 지속시간이 끝나거나, 개체가 죽을 때까지 추적합니다.
-		기술 레벨 5 일때, 지정 대상에게 마법 표식을 남겨, 투명과 은신 효과를 무효화합니다.]], "tformat")
+		한 번에 단 1 개의 비전의 눈만 존재할 수 있습니다.
+		기술 레벨 4 일 때, 대상을 지정할 수 있게 됩니다. 지속시간이 끝나거나, 개체가 죽을 때까지 추적합니다.
+		기술 레벨 5 일 때, 지정 대상에게 마법 표식을 남겨, 투명과 은신 효과를 무효화합니다.]], "tformat")
 t("Keen Senses", "날카로운 감각", "talent name")
 t([[You focus your senses, getting information from moments in the future.
 		Improves your capacity to see invisible foes by +%d, to see through stealth by +%d, and to perform a critical spell cast by +%d%%.
@@ -23979,13 +23979,13 @@ t([[You focus your senses, getting information from moments in the future.
 t("Vision", "확장된 시야", "talent name")
 t("Form a map of your surroundings in your mind in a radius of %d", "시전자 주변 반경 %d 칸 내의 지형을 파악합니다.", "tformat")
 t("Premonition", "위기 예측", "talent name")
-t("#OLIVE_DRAB#Your premonition allows you to raise a shield just in time!", "#OLIVE_DRAB#당신의 위기 예측 능력으로 알맞은 때에 보호막을 전개시킬 수 있게되었다!", "logPlayer")
+t("#OLIVE_DRAB#Your premonition allows you to raise a shield just in time!", "#OLIVE_DRAB#당신의 위기 예측 능력으로 알맞은 때에 보호막을 전개시킬 수 있게 되었다!", "logPlayer")
 t([[Echoes of the future flash before your eyes, allowing you to sense some incoming attacks.
 		If the attack is not physical, you will erect a temporary shield that reduces all damage of this type by %d%% for 5 turns.
 		This effect can only happen once every 5 turns, and happens before damage is taken.
-		The bonus will increase with your Spellpower.]], [[미래의 메아리가 눈앞에서 번뜩입니다. 다가올 공격을 감지할 수 있게됩니다.
+		The bonus will increase with your Spellpower.]], [[미래의 메아리가 눈앞에서 번뜩입니다. 다가올 공격을 감지할 수 있게 됩니다.
 		물리 피해가 아닌 공격을 받을 경우, 5 턴 동안 일시적 피해 보호막을 펼쳐 해당 속성의 모든 피해를 %d%% 줄입니다.
-		이 효과는 5 턴 마다 발동되며, 피해를 받기 전에 발동됩니다 .
+		이 효과는 5 턴마다 발동되며, 피해를 받기 전에 발동됩니다 .
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -24013,8 +24013,8 @@ t("#GREY#%s has fed on enough minions and starts to randomly hex foes!", "#GREY#
 t([[Any time one of your minions dies or expires, and even if it is resurrected by a boneyard, the dread feeds on it.
 		Each time it feeds it gets healed for %d and reduces remaining cooldown of its spells by %d.
 		Every 10 minion deaths it casts a random hex on up to %d foes at once, instantly and without triggering a cooldown.]], [[강령술 하수인이 죽거나, 지속시간이 종료되면, 묘지에서 부활했다하더라도 두려움이 그 영혼을 먹습니다.
-		영혼을 먹을 때 마다, 두려움의 생명력은 %d 회복되고, 주문의 재사용 대기시간이 %d 단축됩니다.
-		강령술 하수인이 10 체 죽을 때 마다, 최대 %d 체의 적들에게 무작위한 비술을 겁니다, 이렇게 발동되는 비술은 턴을 소모하지 않고, 재사용 대기시간을 적용하지 않습니다.]], "tformat")
+		영혼을 먹을 때마다, 두려움의 생명력은 %d 회복되고, 주문의 재사용 대기시간이 %d 단축됩니다.
+		강령술 하수인이 10 체 죽을 때마다, 최대 %d 체의 적들에게 무작위한 비술을 겁니다, 이렇게 발동되는 비술은 턴을 소모하지 않고, 재사용 대기시간을 적용하지 않습니다.]], "tformat")
 t("Neverending Peril", "끝나지않는 위협", "talent name")
 t("In an effort to make your dread more annoying you focus a shell of darkness around it, rendering it fully invincible for %d turns.", "두려움을 더욱 강화하려는 노력 끝에, 두려움에게 어둠의 껍질을 씌워, %d 턴 동안 완전 무적 상태로 만듭니다.", "tformat")
 t("Dreadmaster", "두려움의 주인", "talent name")
@@ -24040,7 +24040,7 @@ t("Stone Skin", "바위 피부", "talent name")
 t([[The caster's skin grows as hard as stone, granting a %d bonus to Armour.
 		Each time you are hit in melee, you have a %d%% chance to reduce the cooldown of an Earth or Stone spell by 2 (this effect can only happen once per turn).
 		The bonus to Armour will increase with your Spellpower.]], [[피부가 돌덩이처럼 단단해집니다. %d 방어력을 얻습니다.
-		근접 공격을 받을 때마다, %d%% 확률로 대지, 암석 계열 기술중 하나의 재사용 대기시간을 2 턴 단축시킵니다. (이 효과는 1 턴에 한번만 발생합니다.)
+		근접 공격을 받을 때마다, %d%% 확률로 대지, 암석 계열 기술중 하나의 재사용 대기시간을 2 턴 단축시킵니다. (이 효과는 1 턴에 한 번만 발생합니다.)
 		추가 방어력은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Mudslide", "산사태", "talent name")
 t([[Conjures a mudslide, dealing %0.2f physical damage in a radius of %d. Any creatures caught inside will be knocked back 8 spaces.
@@ -24052,8 +24052,8 @@ t("a summoned wall of stone", "소환된 바위의 벽", "_t")
 t([[Entomb yourself in a wall of stone for %d turns.
 		At level 4, it becomes targetable.
 		Any hostile creature caught in the radius will also suffer %0.2f physical damage.
-		Duration and damage will improve with your Spellpower.]], [[스스로를 바위벽에 %d 턴 간 가둡니다.
-		기술 레벨 4 일때, 대상을 지정할 수 있습니다.
+		Duration and damage will improve with your Spellpower.]], [[스스로를 바위벽에 %d 턴 동안 가둡니다.
+		기술 레벨 4 일 때, 대상을 지정할 수 있습니다.
 		범위 내의 적은 %0.2f 물리 피해를 입습니다.
 		지속시간과 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -24096,7 +24096,7 @@ t([[Slam your shield on the ground creating a shockwave.
 		At level 5 your Block cooldown is reset.]], [[방패로 지면을 강타해 충격파를 만들어 냅니다.
 		반경 %d 칸 범위 내의 대상에게 %d%% 비전 피해를 입힙니다 .
 		영향을 받은 대상에게는 방패 막기를 사용한 것처럼 반격 약화 효과를 3 턴 동안 부여합니다.
-		기술 레벨 5 일때, 방패 막기의 재사용 대기시간이 초기화됩니다.]], "tformat", {2,1})
+		기술 레벨 5 일 때, 방패 막기의 재사용 대기시간이 초기화됩니다.]], "tformat", {2,1})
 
 
 ------------------------------------------------
@@ -24141,7 +24141,7 @@ t([[While Lightning Infusion is active, your bombs energize your golem.
 		All talents on cooldown on your golem have %d%% chance to be reduced by %d.]], [[연금술 폭탄을 던질 때, 폭탄이 골렘에게 힘을 부여합니다.
 		골렘의 모든 기술의 재사용 대기시간이 %d%% 확률로 %d 감소합니다.]], "tformat")
 t("Thunderclap", "천둥", "talent name")
-t("You need to ready alchemist gems in your quiver.", "연금술 보석을 장착해야한다.", "logPlayer")
+t("You need to ready alchemist gems in your quiver.", "연금술 보석을 장착해야 한다.", "logPlayer")
 t([[By crushing an alchemist gem you generate a thunderclap in a cone of radius %d dealing %0.2f physical damage and %0.2f lightning damage.
 		All creatures caught inside are knocked back and disarmed for %d turns.
 		The duration and damage will increase with your Spellpower.]], [[연금술 보석을 파괴해 반경 %d 칸의 원뿔 범위에 천둥을 생성합니다. 천둥은 %0.2f 물리 피해와 %0.2f 전기 피해를 줍니다.
@@ -24157,7 +24157,7 @@ t([[Infuse your body with lightning energy, bolstering your movement speed by +%
 		The effects increase with your Spellpower.]], [[자신의 몸에 전기 에너지를 주입해, 이동 속도를 %d%% 증가시킵니다.
 		매 턴, 사거리 %d 내의 적에게 전류를 흘려보내 %0.1f 전기 피해를 줍니다.
 		추가로, 받는 피해가 스스로를 강화합니다.
-		지난 턴에, 최대 생명력의 20%%를 한번에 잃었을 경우, (생명력 %d) 한 턴의 %d%% 를 획득합니다.
+		지난 턴에, 최대 생명력의 20%%를 한 번에 잃었을 경우, (생명력 %d) 한 턴의 %d%% 를 획득합니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -24187,7 +24187,7 @@ t("Inner Power", "내면의 힘", "talent name")
 t([[You concentrate on your inner self, increasing your Strength, Dexterity, Magic, and Cunning by %d.
 		Additionally, you gain a shield absorbing %d damage before you take damage every %d turns.
 		The stat increase and shield will improve with your Spellpower.]], [[내면의 자아에 집중하여, 힘, 민첩, 마법, 교활을 %d 향상시킵니다.
-		추가로, %d 턴 마다, 적의 공격에 반응하여 %d 피해를 자동으로 흡수하는 보호막을 형성합니다.
+		추가로, %d 턴마다, 적의 공격에 반응하여 %d 피해를 자동으로 흡수하는 보호막을 형성합니다.
 		능력치 상승량과 보호막 효과는 주문력에 비례하여 향상됩니다.]], "tformat", {1,3,2})
 
 
@@ -24216,19 +24216,19 @@ t("Impending Doom", "임박한 운명", "talent name")
 t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and will take %d%% of its remaining life (or %0.2f, whichever is lower) over 10 turns as frostdusk damage.
 		This spell is so powerful that every 3 turns it tears a part of the target's soul, generating one soul for you.
 		The damage will increase with your Spellpower.]], [[대상의 파멸이 임박합니다. 대상의 회복 효율이 80%% 감소하고, 남은 생명력의 %d%%, 또는 %0.2f 피해 중 더 낮은 값을 10 턴에걸쳐 서리 황혼 피해르 받습니다.
-		이 주문은 매우 강력하기 때문에, 매 3 턴 마다, 대상의 영혼을 찢어발겨, 시전자가 원혼을 하나 수확합니다.
+		이 주문은 매우 강력하기 때문에, 매 3 턴마다, 대상의 영혼을 찢어발겨, 시전자가 원혼을 하나 수확합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Eternal Night", "영원한 밤", "talent name")
 t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
 		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[서리 황혼으로 주위를 뒤덮어, 시전자가 가하는 모든 암흑, 냉기 피해를 %0.1f%% 증가시키고, 적의 암흑, 냉기 저항을 %d%% 무시합니다.
-		추가로, 턴이 끝날 때 마다, 시전자의 생명력이 1 이하일 경우, 시전자가 가한 피해량의 %d%% 만큼 생명력을 회복합니다.]], "tformat")
+		추가로, 턴이 끝날 때마다, 시전자의 생명력이 1 이하일 경우, 시전자가 가한 피해량의 %d%% 만큼 생명력을 회복합니다.]], "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/explosives.lua"
 
 t("Throw Bomb", "연금술 폭탄 투척", "talent name")
-t("You need to ready alchemist gems in your quiver.", "연금술 보석을 장착해야한다.", "logPlayer")
+t("You need to ready alchemist gems in your quiver.", "연금술 보석을 장착해야 한다.", "logPlayer")
 t([[Imbue an alchemist gem with an explosive charge of mana and throw it.
 		The gem will explode for %0.1f %s damage.
 		Each kind of gem will also provide a specific effect.
@@ -24239,13 +24239,13 @@ t([[Imbue an alchemist gem with an explosive charge of mana and throw it.
 t("Alchemist Protection", "연금술사의 보호대책", "talent name")
 t([[Grants %d%% protection to you, your golem and other friendly creatures against the elemental damage of your own bombs, and against external elemental damage (fire, cold, lightning and acid) by %d%%.
 		At talent level 5 it also protects against all side effects of your bombs.]], [[시전자와 골렘, 그밖에 우호적인 개체에게 폭발 보호 대책을 마련하여, 연금술 폭탄의 속성 피해의 %d%% 를 감소시킵니다. 또한 화염, 냉기, 전기, 산성 피해도 %d%% 감소시킵니다.
-		기술 레벨 5 일때 폭탄의 부가효과도 무시할 수 있게됩니다.]], "tformat")
+		기술 레벨 5 일 때 폭탄의 부가효과도 무시할 수 있게 됩니다.]], "tformat")
 t("Explosion Expert", "폭파 전문가", "talent name")
 t([[Your alchemist bombs now affect a radius of %d around them.
 		Explosion damage may increase by %d%% (if the explosion is not contained) to %d%% if the area of effect is confined.]], [[연금술 폭발이 이제 반경 %d 칸의 폭발 범위를 갖습니다
 		개방된 공간에서의 폭발 피해는 %d%% 증가하고, 지형으로 인해 폐쇄되어 있는 공간에서의 폭발 피해는 %d%% 증가합니다.]], "tformat")
 t("Shockwave Bomb", "충격파 폭탄", "talent name")
-t("You need to ready at least two alchemist gems in your quiver.", "연금술 보석을 장착해야한다.", "logPlayer")
+t("You need to ready at least two alchemist gems in your quiver.", "연금술 보석을 장착해야 한다.", "logPlayer")
 t([[Crush together two alchemist gems, making them extremely unstable.
 		You then throw them to a target area, where they explode on impact, dealing %0.2f physical damage and knocking back any creatures in the blast radius.
 		Each kind of gem will also provide a specific effect.
@@ -24322,7 +24322,7 @@ t([[When you throw your alchemist bombs, you infuse them with cold damage that c
 t("Ice Armour", "얼음의 갑옷", "talent name")
 t([[While Frost Infusion is active, your bombs deposit a layer of ice on your golem for %d turns when they hit it.
 		This ice provides your golem with %d additional armour, melee attacks against it deal %0.1f Cold damage to the attacker, and 50%% of its damage is converted to Cold.
-		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[냉기 주입이 활성화 된 동안, 시전자의 폭탄은 골렘의 외피에 %d 턴 동안 얼음 층을 한 겹 생성합니다.
+		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[냉기 주입이 활성화된 동안, 시전자의 폭탄은 골렘의 외피에 %d 턴 동안 얼음 층을 한 겹 생성합니다.
 		얼음 층은 골렘에게 %d 방어력을 추가하고, 근접 공격을 가하는 공격자에게 %0.1f 냉기 피해를 줍니다. 또한 골렘이 가하는 피해량의 50%% 는 냉기피해로 전환됩니다.
 		이 효과는 기술 레벨과 주문력, 골렘의 피해 추가량에 비례해 증가합니다.]], "tformat")
 t("Flash Freeze", "급속 냉동", "talent name")
@@ -24373,7 +24373,7 @@ t([[Your desolate wastes are now rapidly crumbling.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Bleak Guard", "황량한 수호", "talent name")
 t([[Your hiemal shield is stronger, taking %d%% less damage from all attacks.
-		When under 1 life this effect is increased to %d%%.]], [[겨울의 보호막이 더욱 강력해저,  모든 공격으로 부터 %d%% 적은 피해를 받습니다.
+		When under 1 life this effect is increased to %d%%.]], [[겨울의 보호막이 더욱 강력해저,  모든 공격으로부터 %d%% 적은 피해를 받습니다.
 		생명력이 1 이하일 경우, 이 효과가 %d%% 더 증가합니다.]], "tformat")
 
 
@@ -24389,7 +24389,7 @@ t([[Your golem rushes to the target, dealing %d%% damage and knocking it back.
 		돌격 중에, 골렘은 영체 상태가 되어 대상과 골렘 사이의 모든 개체를 무시하고 지나갑니다.]], "tformat")
 t("Taunt", "도발", "talent name")
 t("#Source# provokes #Target# to attack it.", "#Source2# #Target3# 도발했다!.", "logCombat")
-t("The golem taunts targets in a radius of %d, forcing them to attack it.", "골렘이 반경 %d 칸 이내의 대상을 도발하여, 강제로 자신을 공격하게합니다.", "tformat")
+t("The golem taunts targets in a radius of %d, forcing them to attack it.", "골렘이 반경 %d 칸 이내의 대상을 도발하여, 강제로 자신을 공격하게 합니다.", "tformat")
 t("Crush", "부수기", "talent name")
 t("%s resists the crushing!", "%s 부수기에 저항했다!", "logSeen", nil, {"는"})
 t([[Your golem rushes to the target, crushing it into the ground for %d turns and doing %d%% damage.
@@ -24504,7 +24504,7 @@ t([[Summon an icy spike directly on a foe, impaling it for %0.2f cold damage.
 		Any creature hit will take %d%% more damage from your necrotic minions for 3 turns.
 		The damage will increase with your Spellpower.]], [[날카로운 얼음 송곳을 적에게 직접 소환하여 적을 꿰뚫고, %0.2f 냉기 피해를 가합니다.
 		기술 레벨 5 일 때, 대상을 기준으로, 반경 1 칸 내의 모든 적을 공격합니다.
-		공격을 받은 적은, 시전자의 강령술 하수인에게서 %d%% 증가된 피해를 받게됩니다.
+		공격을 받은 적은, 시전자의 강령술 하수인에게서 %d%% 증가된 피해를 받게 됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Chill of the Tomb", "무덤의 냉기", "talent name")
 t([[Conjures up a bolt of cold that moves toward the target and explodes into a chilly circle of death, doing %0.2f cold damage in a radius of %d.
@@ -24534,7 +24534,7 @@ t([[Upon expiring the corpselight implodes, pulling in all foes towards its cent
 		이 피해량은 중첩 마다 10%% 씩 증가됩니다.
 		피해량은 주문력에 비례하여 증가합니다.
 
-		#PURPLE#이 기술을 배우면, 시체 등불을 사용할 시, 원혼을 1 소모하는 대신 2 소모하게됩니다.]], "tformat")
+		#PURPLE#이 기술을 배우면, 시체 등불을 사용할 시, 원혼을 1 소모하는 대신 2 소모하게 됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -24586,8 +24586,8 @@ t("Aura of Undeath", "불사의 기운", "talent name")
 t([[Your mastery of necromancy becomes so total that an aura of undeath radiates around you in radius %d.
 		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
 		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists and damage increases (applied to all elements).
-		]], [[강령술에 대한 통달이 완전무결한 것이 되어, 반경 %d 칸 내에 불사의 기운을 내뿜게됩니다.
-		기운 내에 위치하는 모든 강령술 하수인들은 보호를 받게되어, 모든 저항이 %d%% 상승합니다.
+		]], [[강령술에 대한 통달이 완전무결한 것이 되어, 반경 %d 칸 내에 불사의 기운을 내뿜게 됩니다.
+		기운 내에 위치하는 모든 강령술 하수인들은 보호를 받게 되어, 모든 저항이 %d%% 상승합니다.
 		추가로, 시전자가 새로운 하수인을 소환할 때, 시전자 능력치들의 %d%% 가 적용됩니다. 시전자의 주문력의 일부가 하수인들의 물리력, 정신력, 마법력, 증기력에 추가되고, 시전자의 주문 치명타 확률의 일부가 하수인들의 모든 치명타 확률에 추가되며, 시전자의 내성들의 일부가 하수인들의 각 내성에 추가됩니다. 또한 시전자의 피해 저항과 속성 피해 변동치의 일부 역시 하수인들에게 추가됩니다.
 		]], "tformat")
 t("Surge of Undeath", "불사자들의 분노", "talent name")
@@ -24613,7 +24613,7 @@ t("#GREY#(%d to minion: %s)#LAST#", "#GREY#(%d 하수인 피해: %s)#LAST#", "tf
 t([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
 		Anytime you take damage %d%% of it is instead redirected to a random minion without your aura of undeath.
 		The minion takes 300%% damage from that effect.
-		The damage redirected percent depends on your Spellpower.]], [[시전자와 하수인 군단의 마법적 연결로, 받은 피부의 일부를 하수인들에게 떠넘길 수 있게되었습니다.
+		The damage redirected percent depends on your Spellpower.]], [[시전자와 하수인 군단의 마법적 연결로, 받은 피부의 일부를 하수인들에게 떠넘길 수 있게 되었습니다.
 		시전자가 피해를 받으면, 피해량의 %d%% 가 불사의 기운 내의 무작위한 하수인에게 전송됩니다.
 		하수인은 이 효과로 인해 300%% 증폭된 피해를 받습니다.
 		피해 재전송 비율은 시전자의 주문력에 비례하여 증가합니다.]], "tformat")
@@ -24630,7 +24630,7 @@ t([[Call upon the battlefields of old, collecting bones, fusing them with souls,
 
 		#GREY##{italic}#Skeleton minions come in fewer numbers than ghoul minions but are generally more durable.#{normal}#
 		]], [[과거의 전장을 소환해, 뼈를 모으고, 원혼을 불어넣어, 스켈레톤 하수인으로 재탄생시킵니다.
-		최대 %d 체의 스켈레톤 전사들이 레벨 %d 으로 소환되고, 한번에 최대 %d 체의 스켈레톤을 제어 가능합니다.
+		최대 %d 체의 스켈레톤 전사들이 레벨 %d 으로 소환되고, 한 번에 최대 %d 체의 스켈레톤을 제어 가능합니다.
 		기술 레벨 3 일 때, 소환수들이 무장한 스켈레톤 전사가 됩니다.
 		기술 레벨 5 일 때, 스켈레톤 전사 3 체 마다, 스켈레톤 마법사나 스켈레톤 궁사가 원혼의 소모 없이 소환됩니다. 만약 이 스켈레톤의 소환이 스켈레톤 소환 한도를 넘게된다면, 일반 스켈레톤은 사라지고, 일반 스켈레톤의 소환에 사용되었던 원혼이 반환됩니다.
 
@@ -24671,7 +24671,7 @@ t([[Consume a soul to empower one of your skeleton, making it into a Lord of Sku
 		]], [[원혼을 사용하여 스켈레톤 하수인 중 하나에게 강력한 힘을 안겨, 해골의 군주로 만듭니다.
 		해골의 군주는 %d 더 많은 생명력을 갖으며, 효과가 발동하면 즉시 최대 생명력으로 회복됩니다.
 		오직 하나의 해골의 군주만이 활성화 될 수 있습니다. 이미 해골의 군주가 존재할 때, 이 주문을 사용하면 기존 해골의 군주는 강화 효과를 잃어버리게 됩니다.
-		해골의 군주는 기술 레벨에 따라 새로운 능력을 얻게됩니다
+		해골의 군주는 기술 레벨에 따라 새로운 능력을 얻게 됩니다
 		기술 레벨 2 일 때, 전사는 대약진을 배웁니다. 강력한 도약 공격으로 범위 내의 적에게 피해와 혼절을 가하고, 해골의 군주에게 적용되던 기절, 혼절, 속박 효과를 해제합니다
 		기술 레벨 3 일 때, 궁수는 숨통을 끊는 한 발을 배웁니다. 적을 기절시키고, 무력화하는 강력한 사격입니다.
 		기술 레벨 5 일 때, 마법사는 유성 충돌을 배웁니다. 넓은 범위 내의 적을 으스러뜨리고, 불태우며 기절을 유발하는 파괴적인 주문입니다.
@@ -24696,12 +24696,12 @@ t([[You control dead matter around you, lyring in the ground, decaying.
 		%s
 		#GREY##{italic}#Ghoul minions come in larger numbers than skeleton minions but are generally more frail and disposable.#{normal}#
 		]], [[땅바닥에 구르고, 부패 중인 죽은 물질들을 조종합니다.
-		전투에 돌입하면 매 %d 턴 마다, 레벨 %d 의 구울이 소환되어 전투에 참여합니다.
+		전투에 돌입하면 매 %d 턴마다, 레벨 %d 의 구울이 소환되어 전투에 참여합니다.
 		기술 레벨 3 일 때, 이 주문을 강제로 활성화 해, 최대 %d 체의 가스트를 소환합니다.
 		기술 레벨 5 일 때, 소환된 구울, 또는 가스트 4 체 마다 구울의 왕이 추가로 소환됩니다.
 		구울, 가스트, 구울의 왕은 %d 턴 동안 유지됩니다.
 		%s
-		#GREY##{italic}#구울 하수인들은 스켈레톤 하수인보다 수가 더 많지만, 대체적으로 더 연약하고, 지속시간이 끝나면 사라지게됩니다.#{normal}#
+		#GREY##{italic}#구울 하수인들은 스켈레톤 하수인보다 수가 더 많지만, 대체적으로 더 연약하고, 지속시간이 끝나면 사라지게 됩니다.#{normal}#
 		]], "tformat")
 t("Corpse Explosion", "시체 폭발", "talent name")
 t([[Ghouls are nothing but mere tools to you, for %d turns you render them bloated with dark forces.
@@ -24753,7 +24753,7 @@ t([[You learn to finely craft and tune your spells, reducing all their cooldowns
 		In doing so you can also carve a hole in spells that affect an area to avoid damaging yourself.  The chance of success is %d%%.
 		In addition, you hone your damaging spells to spellshock their targets. Whenever you deal damage with a spell you attempt to spellshock them with %d more Spellpower than normal. Spellshocked targets suffer a temporary 20%% penalty to damage resistances.]], [[주문을 훌륭하게 연성하고, 조율하는 방법을 터득해 모든 주문의 재사용 대기시간이 %d%% 감소합니다.
 		또한 범위 마법 사용 시, 피해를 피할 임시 방편을 마련해, %d%% 확률로 자신에게 가해지는 피해를 무시합니다.
-		추가로, 대상에게 주문 충격을 가하기 위해 공격 주문을 갈고 닦은 결과, 주문으로 공격을 가할 때 주문 충격 적용 여부 판정 시, 일반 상황보다 %d 더 높은 주문력을 갖고있는 것으로 판정합니다. 주문충격 효과를 받은 적은 모든 피해 저항에 20%% 의 불이익을 받습니다.]], "tformat")
+		추가로, 대상에게 주문 충격을 가하기 위해 공격 주문을 갈고 닦은 결과, 주문으로 공격을 가할 때 주문 충격 적용 여부 판정 시, 일반 상황보다 %d 더 높은 주문력을 갖고 있는 것으로 판정합니다. 주문충격 효과를 받은 적은 모든 피해 저항에 20%% 의 불이익을 받습니다.]], "tformat")
 t("Energy Alteration", "에너지 변조", "talent name")
 t([[Your mastery over magic is so great that you can alter the energy of all damaging spells to suit your needs.
 		Whenever you deal damage with a spell you attune to the element of that spell for 6 turns, converting %d%% of any damage you deal into that element.
@@ -24782,7 +24782,7 @@ t("#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "#GREY#%s %
 t([[As you learn to tiptoe across the veil of death you learn to master the dark forces.
 		Each time you cross the 1 life threshold you automatically unleash a blast of %0.2f frostdusk damage in radius %d.
 		For each creature that takes damage from the blast one of your talent's cooldown is reduced by %d turns.
-		The damage will increase with your Spellpower.]], [[죽음의 장막을 넘는 방법을 터득해, 어둠의 힘을 다루는 방법을 배우게됩니다.
+		The damage will increase with your Spellpower.]], [[죽음의 장막을 넘는 방법을 터득해, 어둠의 힘을 다루는 방법을 배우게 됩니다.
 		생명력이 1 이하로 떨어질 경우, 즉시 반경 %d 칸의 폭발을 해방시켜 %0.2f 서리 황혼 피해를 가합니다.
 		폭발에 휘말린 적 하나 당, 시전자의 기술 하나의 재사용 대기시간이 %d 턴 감소합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,1,3})
@@ -24827,7 +24827,7 @@ t([[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature ente
 t("Erupting Shadows", "그림자 분출", "talent name")
 t([[Shadows engulf your foes, anytime you deal darkness damage to a creature affected by a bane, the bane's duration is increased by 1 turn and the shadows erupt, dealing an additional %0.2f darkness damage.
 		The damage can only happen once per turn per creature, the turn increase however always happens.
-		The damage will increase with your Spellpower.]], [[그림자가 적의 숨통을 조여, 파멸의 영향을 받고있는 적에게 어둠 피해를 가할 때마다, 파멸의 지속 시간이 1 턴 연장되고, 그림자가 분출되어 추가적인 %0.2f 암흑 피해를 가합니다.
+		The damage will increase with your Spellpower.]], [[그림자가 적의 숨통을 조여, 파멸의 영향을 받고 있는 적에게 어둠 피해를 가할 때마다, 파멸의 지속 시간이 1 턴 연장되고, 그림자가 분출되어 추가적인 %0.2f 암흑 피해를 가합니다.
 		이렇게 발생하는 피해는 하나의 적에 대해, 한 턴에 1 번만 발생합니다. 지속시간 연장 효과는 언제나 일어납니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("River of Souls", "영혼의 강", "talent name")
@@ -24846,14 +24846,14 @@ section "game/modules/tome/data/talents/spells/phantasm.lua"
 t("Illuminate", "광원 폭발", "talent name")
 t([[Creates a globe of pure light within a radius of %d that illuminates the area and deals %0.2f damage to all creatures.
 		At level 3, it also blinds all who see it (except the caster) for %d turns.]], [[반경 %d 칸 범위에 순수한 빛의 구를 만들어 내 지역을 밝히고 %0.2f 빛 피해를 모든 개체에게 가합니다.
-		기술 레벨 3 일때, 시전자를 제외한 시야가 존재하는 개체는 %d 턴 동안 눈이 멀게 됩니다.]], "tformat")
+		기술 레벨 3 일 때, 시전자를 제외한 시야가 존재하는 개체는 %d 턴 동안 눈이 멀게 됩니다.]], "tformat")
 t("Phantasmal Shield", "환영 보호막", "talent name")
 t([[Surround yourself with a phantasmal shield of pure light.
 		Whenever you would take damage there is %d%% chance to become ethereal for an instant and fully ignore it.
 		If you do get hit, the shield glows brightly, sending triggering a flash of light on the attacker, dealing %0.2f light damage in radius %d around it and dazzling any affected creature (deal 10%% less damage) for 5 turns. This can only happen every %d turns.
 		The damage and ignore chance will increase with your Spellpower.]], [[순수한 빛으로 구성된 환영의 보호막을 둘러칩니다.
 		공격을 받을 때마다, %d%% 확률로 짧은 시간 동안 영체 상태에 돌입하고, 이 기술을 발동시킨 피해를 완전히 무시합니다.
-		피격 당할 경우, 보호막이 밝게 빛나, 섬광을 공격자에게 내뿜습니다. 섬광은 %0.2f 빛 피해를 반경 %d 칸 범위 내의 모든 대상에게 가하고 피해를 받은 적에게 5 턴 동안 지속되는 눈부심 효과를 적용합니다. 눈부심 효과가 적용된 적은 가하는 피해량이 10%% 감소합니다. 이 효과는 %d 턴에 한번씩만 발동됩니다.
+		피격 당할 경우, 보호막이 밝게 빛나, 섬광을 공격자에게 내뿜습니다. 섬광은 %0.2f 빛 피해를 반경 %d 칸 범위 내의 모든 대상에게 가하고 피해를 받은 적에게 5 턴 동안 지속되는 눈부심 효과를 적용합니다. 눈부심 효과가 적용된 적은 가하는 피해량이 10%% 감소합니다. 이 효과는 %d 턴에 한 번씩만 발동됩니다.
 		피해량과 무시 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Invisibility", "투명화", "talent name")
 t([[Weave a net of arcane disturbances around your body, removing yourself from the sight of all, granting %d bonus to invisibility for 7 turns.
@@ -24875,7 +24875,7 @@ t([[Create a perfect lookalike of your own form made out of pure light near a cr
 		이 형상은 %d 생명력을 갖고 있으며, 한 턴 동안, 한 대상에 대해 1 이상의 피해를 받지 않습니다. 또한 이 상은 모든 비 직접적인 피해에 면역입니다. (지형 효과, 지속 피해, ...).
 		주문을 시전할 때, 가능할 경우, 시전자의 거울의 상 역시 같은 대상을 향해 같은 마법을 시전해, 66%% 적은 피해를 입힙니다. 거울의 상이 주문을 시전할 때, 생명력 1 이 소모됩니다. 거울의 상이 주문을 시전하지 못하는 상황일 경우, 거울의 상은 적을 도발해 주의를 끕니다.
 		거울의 상이 지속되는 동안, 투명화 상태인 것 처럼 투명화 주문으로 얻는 추가 피해량을 얻습니다.
-		이 주문은 거울의 상이 이미 존재하고 있는 경우, 사용 할 수 없으며, 한 전투에서 단 한번만 사용 가능합니다. 전투에서 벗어나면 거울의 상이 빠르게 사라지게됩니다.
+		이 주문은 거울의 상이 이미 존재하고 있는 경우, 사용 할 수 없으며, 한 전투에서 단 한 번만 사용 가능합니다. 전투에서 벗어나면 거울의 상이 빠르게 사라지게 됩니다.
 		]], "tformat")
 
 
@@ -24901,7 +24901,7 @@ t([[When switching targets your rime wraith now always prefers the one farther a
 		Any creatures on the path of the wraith while it travels are affected:
 		- if friendly: they are healed for %d
 		- if hostile: they take %0.2f cold damage, because the wraith is inside the creature the damage fully ignores any damage shield
-		The damage and healing will increase with your Spellpower.]], [[대상을 변경할 때, 이제 서리 유령은 가능한 경우, 가장 멀리있는 적을 선호하게됩니다.
+		The damage and healing will increase with your Spellpower.]], [[대상을 변경할 때, 이제 서리 유령은 가능한 경우, 가장 멀리있는 적을 선호하게 됩니다.
 		서리 유령의 이동 경로에 존재하는 모든 개체는 다음과 같은 효과를 받습니다.
 		- 우호적인 대상일 경우: 생명력이 %d 회복됩니다.
 		- 적대적인 대상일 경우: %0.2f 냉기 피해를 받습니다. 서리 유령은 적의 본체 그 자체를 직접 공격하기 때문에 모든 피해 보호막을 완전히 무시합니다.
@@ -24918,9 +24918,9 @@ t("Permafrost", "만년설", "talent name")
 t([[Hoarfrost now has additional effects:
 		- if friendly: magical and physical saves increased by %d, at level 5 healing factor is also increased by 15%%.
 		- if hostile: magical and physical saves reduced by %d, at level 5 all talents cool down 15%% slower.
-		]], [[성에가 다음과 같은 효과를 추가로 갖게됩니다.
-		- 우호적인 대상일 경우: 물리 내성과 주문 내성이 %d 증가합니다. 기술 레벨 5 일때, 회복 효율도 15%% 증가합니다.
-		- 적대적인 대상일 경우: 물리 내성과 주문 내성이 %d 감소합니다, 기술 레벨 5 일때, 모든 기술의 재사용 대기시간이 15%% 느리게 돌아갑니다.
+		]], [[성에가 다음과 같은 효과를 추가로 갖게 됩니다.
+		- 우호적인 대상일 경우: 물리 내성과 주문 내성이 %d 증가합니다. 기술 레벨 5 일 때, 회복 효율도 15%% 증가합니다.
+		- 적대적인 대상일 경우: 물리 내성과 주문 내성이 %d 감소합니다, 기술 레벨 5 일 때, 모든 기술의 재사용 대기시간이 15%% 느리게 돌아갑니다.
 		]], "tformat")
 
 
@@ -24930,15 +24930,15 @@ section "game/modules/tome/data/talents/spells/spectre.lua"
 t("Ghost Walk", "유령 걸음", "talent name")
 t([[Taking on a spectral form, you teleport to the target tile within range %d. 
 		For 3 turns after using this spell, you gain the ability to instantly teleport back to your original tile as long as you are within range of it.]], [[유령같은 형체를 취해, 반경 %d 칸 내의 장소로 이동합니다. 
-		이 주문을 사용하고 난 후, 범위 내에만 있다면, 3 턴 동안 원래 있던 위치로 돌아올 수 있는 능력을 갖게됩니다.]], "tformat")
+		이 주문을 사용하고 난 후, 범위 내에만 있다면, 3 턴 동안 원래 있던 위치로 돌아올 수 있는 능력을 갖게 됩니다.]], "tformat")
 t("Ghost Walk - Return", "유령 걸음 - 귀환", "talent name")
 t("You do not have line of sight.", "시야 밖의 대상입니다.", "logPlayer")
 t("%s's ghost walk fizzles!", "%s의 유령 걸음이 실패했다!", "logSeen")
 t("Return to the location you used Ghost Walk from.", "유령 걸음을 사용했던 장소로 돌아갑니다.", "tformat")
 t("Spectral Sight", "유령의 시야", "talent name")
 t([[While in your spectral form from Ghost Walk and for %d turns afterwards, you gain vision of all enemies within radius %d.
-In addition, at all times you gain the ability to sense undead within %d tiles, and can perceive any foe within %d tiles of your necrotic minions.]], [[유령 걸음을 사용하고, 이후 %d 턴 동안 반경 %d 칸 내의 모든 적을 감지할 수 있게됩니다.
-추가로, 지속 효과로써, 반경 %d 칸 내의 언데드들을 감지할 수 있게되며, 강령술 하수인들을 기준으로 반경 %d 칸 내의 적을 감지할 수 있게됩니다.]], "tformat")
+In addition, at all times you gain the ability to sense undead within %d tiles, and can perceive any foe within %d tiles of your necrotic minions.]], [[유령 걸음을 사용하고, 이후 %d 턴 동안 반경 %d 칸 내의 모든 적을 감지할 수 있게 됩니다.
+추가로, 지속 효과로써, 반경 %d 칸 내의 언데드들을 감지할 수 있게되며, 강령술 하수인들을 기준으로 반경 %d 칸 내의 적을 감지할 수 있게 됩니다.]], "tformat")
 t("Intangibility", "비존재", "talent name")
 t("While in your spectral form from Ghost Walk and for %d turns afterwards, damage and detrimental effects have a %d%% chance to harmlessly pass through you.", "유령 걸음을 사용하고, 이후 %d 턴 동안, 모든 피해와 부정적인 효과가 %d%% 확률로 시전자에게 해를 끼치지 않고 그대로 통과합니다.", "tformat")
 t("Path to Beyond", "저 너머로의 길", "talent name")
@@ -25013,9 +25013,9 @@ t("Golem basic capacity.", "골렘 기본 능력.", "_t")
 t("Drolem basic capacity.", "드롤렘 기본 능력.", "_t")
 t("drolem", "드롤렘", "_t")
 t("golem", "골렘", "talent category")
-t("Become of the master of bones, creating skeletal minions to do your bidding.", "뼈의 주인이 되어, 의지대로 스켈레톤 하수인들을 만들어 낼 수 있게됩니다.", "_t")
+t("Become of the master of bones, creating skeletal minions to do your bidding.", "뼈의 주인이 되어, 의지대로 스켈레톤 하수인들을 만들어 낼 수 있게 됩니다.", "_t")
 t("master of bones", "뼈의 주인", "_t")
-t("Become of the master of flesh, creating ghoul minions to do your bidding", "육신의 주인이 되어, 의지대로 구울 하수인들을 만들어 낼 수 있게됩니다.", "_t")
+t("Become of the master of flesh, creating ghoul minions to do your bidding", "육신의 주인이 되어, 의지대로 구울 하수인들을 만들어 낼 수 있게 됩니다.", "_t")
 t("master of flesh", "육신의 주인", "_t")
 t("Full and total control over your undead army.", "언데드 군단을 완전 무결하게 조종합니다.", "_t")
 t("master necromancer", "강령술의 주인", "_t")
@@ -25037,7 +25037,7 @@ t("Learn to fasten your foes way into the grave.", "적들을 빠르게 묘지�
 t("death", "죽음", "_t")
 t("Doom to all your foes. Crush them.", "적들에게 파멸을 선사합니다. 모두 부서지리라.", "_t")
 t("eradication", "박멸", "_t")
-t("Gain control over death, by unnaturally expanding your life.", "비 정상적으로 목숨을 늘린 결과, 죽음을 다스릴 수 있게됩니다.", "_t")
+t("Gain control over death, by unnaturally expanding your life.", "비 정상적으로 목숨을 늘린 결과, 죽음을 다스릴 수 있게 됩니다.", "_t")
 t("necrosis", "강령술", "_t")
 t("Turn into a spectre to move around the battlefield.", "유령으로 변해 전장을 거닙니다.", "_t")
 t("spectre", "유령", "_t")
@@ -25075,7 +25075,7 @@ t([[Hit a target for %d%% melee damage and stun it for %d turns.
 		Stun chance will improve with Spellpower.
 		At level 5, this attack cannot miss.]], [[대상을 공격해 %d%% 피해를 가하고 %d 턴 동안 기절시킵니다.
 		기절 확률은 주문력에 비례하여 증가합니다.
-		기술 레벨 5 일때, 이 공격은 빗나가지 않습니다.]], "tformat")
+		기술 레벨 5 일 때, 이 공격은 빗나가지 않습니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -25112,9 +25112,9 @@ t([[Touch your foe and turn it to stone for %d turns.
 		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], [[적을 만저 %d 턴 동안 석화시킵니다.
 		석화된 대상은 움직일 수도, 생명력을 재생할 수도 없으며 매우 연약해집니다.
 		석화된 대상은 최대 생명력의 30%% 이상의 피해를 받으면 부서져 산산히 조각납니다.
-		석화된 대상은 화염과 전기에 대한 높은 저항력을 갖게되고, 물리 공격에도 어느정도 잘 버티게됩니다.
-		기술 레벨 3 일때, 석화의 손길은 광선으로 변합니다.
-		이 기술은 기절 면역력을 갖고있는 개체에게는 실패할 수도 있습니다. 특히 석화 면역력을 가졌거나, 몇몇 보스들에게는 통하지 않습니다.]], "tformat")
+		석화된 대상은 화염과 전기에 대한 높은 저항력을 갖게 되고, 물리 공격에도 어느정도 잘 버티게 됩니다.
+		기술 레벨 3 일 때, 석화의 손길은 광선으로 변합니다.
+		이 기술은 기절 면역력을 갖고 있는 개체에게는 실패할 수도 있습니다. 특히 석화 면역력을 가졌거나, 몇몇 보스들에게는 통하지 않습니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -25124,7 +25124,7 @@ t("Earthen Missiles", "암석 화살", "talent name")
 t([[Conjures %d missile-shaped rocks that you target individually at any target or targets in range.  Each missile deals %0.2f physical damage, and an additional %0.2f bleeding damage every turn for 5 turns.
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], [[%d 개의 날카로운 유선형의 바위를 소환해 사거리 이내의 대상에게 발사합니다. 각각의 바위는 서로 다른 개체를 대상으로 할 수 있습니다. 바위는 %0.2f 물리 피해를 입히며, 추가로 %0.2f 출혈 피해를 5 턴 동안 매 턴 입습니다.
-		기술 레벨이 5 일때, 하나의 바위를 추가로 소환합니다.
+		기술 레벨이 5 일 때, 하나의 바위를 추가로 소환합니다.
 		피해량은 주문력에 비례하여 증가합니다..]], "tformat")
 t("Body of Stone", "암석의 신체", "talent name")
 t([[You root yourself into the earth, and transform your flesh into stone.  While this spell is sustained, you may not move, and any forced movement will end the effect.
@@ -25132,7 +25132,7 @@ t([[You root yourself into the earth, and transform your flesh into stone.  Whil
 		* Reduces the cooldown of Earthen Missiles, Pulverizing Auger, Earthquake, and Mudslide by %d%%.
 		* Grants %d%% Fire Resistance, %d%% Lightning Resistance, %d%% Acid Resistance, and %d%% Stun Resistance.
 		Resistances scale with your Spellpower.]], [[대지에 뿌리를 내리고, 피부를 돌로 변화시킵니다. 활성화 동안, 기술 시전자는 움직일 수 없으며, 위치가 강제로 바뀔 시 비활성화됩니다.
-		기술이 활성화 된 동안, 바위의 형상과 대지에 대한 친화력은 다음과 같은 효과를 추가합니다:
+		기술이 활성화된 동안, 바위의 형상과 대지에 대한 친화력은 다음과 같은 효과를 추가합니다:
 		* 암석 화살과, 파쇄의 나선, 지진, 그리고 산사태의 재사용 대기시간을 %d%% 단축 시킵니다.
 		* %d%% 화염 저항, %d%% 전기 저항, %d%% 산성 저항과 %d%% 기절 면역력을 얻습니다.
 		저항상승치는 주문력에 비례하여 증가합니다.]], "tformat")
@@ -25182,7 +25182,7 @@ t([[This intricate spell instantly erects a time shield around the caster, preve
 		Each turn the restoration field is active, you get healed for 10%% of the absorbed damage (Aegis Shielding talent affects the percentage).
 		The shield's max absorption will increase with your Spellpower.]], [[이 복잡한 주문은 시전 시, 당신에게 즉시 시간 보호막을 둘러칩니다. 보호막은 모든 피해를 막고, 해당 피해를 미래로 보내버립니다.
 		시간의 보호막은 모든 피해를 흡수하여 미래로 보내버리며, 보호막이 총 %d 이상의 피해량을 흡수하거나 %d 턴이 지나 지속시간이 끝나면 보호막이 사라집니다. 이 보호막은 사라지면서 5 턴 동안 시간의 회복장을 만들어냅니다.
-		매 턴 마다 보호막에 누적됐던 피해량의 10%% 만큼 생명력을 회복시켜줍니다 (아이기스는 이 비율에 영향을 줍니다.)
+		매 턴마다 보호막에 누적됐던 피해량의 10%% 만큼 생명력을 회복시켜줍니다 (아이기스는 이 비율에 영향을 줍니다.)
 		최대 피해 흡수량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Time Prison", "시간의 감옥", "talent name")
 t([[Removes the target from the flow of time for %d turns. In this state, the target can neither act nor be harmed.
@@ -25210,8 +25210,8 @@ t("#PURPLE#Your Slipstream regenerates to full!", "#PURPLE#당신의 비전 이�
 t([[By weaving arcane triggers around you feet you can use the residual energies of your beam spells for free movement.
 		Each time you cast a beam spell you can move right afterwards without spending a turn.
 		This spell has %d charges. Once all charges are spent it unsustains.
-		If you exit combat with some charges left it will after 10 turn regenerates its charges, if you have enough mana.]], [[마법력으로 이루어진 마법진을 발 밑에 생성해, 광선 주문의 남은 에너지를 이용해 즉시 이동할 수 있게됩니다.
-		매 턴, 광선 주문을 사용한 뒤, 턴의 소모 없이 이동할 수 있게됩니다.
+		If you exit combat with some charges left it will after 10 turn regenerates its charges, if you have enough mana.]], [[마법력으로 이루어진 마법진을 발 밑에 생성해, 광선 주문의 남은 에너지를 이용해 즉시 이동할 수 있게 됩니다.
+		매 턴, 광선 주문을 사용한 뒤, 턴의 소모 없이 이동할 수 있게 됩니다.
 		이 주문은 %d 번 충전되어 있으며, 충전을 모두 소모하면 주문이 비활성화됩니다.
 		전투에서 벗어나고 나고 10 턴 후, 마나만 충분히 존재 한다면 비전 이동이 완전히 충전됩니다.]], "tformat")
 t("Elemental Array Burst", "원소 배열 폭발", "talent name")
@@ -25227,8 +25227,8 @@ t([[Using your near-perfect knowledge of beam spells you combine them all into a
 		주술 피해는 "모든 속성 저항" 으로만 저항할 수 있고, 시전자의 가장 높은 속성 피해 변동치와, 가장 높은 저항 관통 수치를 이용하며, 다른 속성으로 변환될 수 없습니다.
 		이 주문은 타오르는 궤적과 태풍의 눈 효과를 발동합니다.
 		시전자가 쉬브고로스의 형상을 취한 상태라면, 젖음 효과에 영향을 받습니다 (피해량 30%% 증가)
-		결정화된 집중이나, 절대영도가 활성화 되어있을 시, 25%% 확률로, 대상에게 3 턴 동안 기절이나 동결을 적용합니다.
-		광선 주문으로 피해를 가할 때 마다, 남은 재사용 대기시간이 1 턴 씩 감소합니다 (이 효과는 한 턴에 1 번만 발동합니다.).
+		결정화된 집중이나, 절대영도가 활성화되어있을 시, 25%% 확률로, 대상에게 3 턴 동안 기절이나 동결을 적용합니다.
+		광선 주문으로 피해를 가할 때마다, 남은 재사용 대기시간이 1 턴 씩 감소합니다 (이 효과는 한 턴에 1 번만 발동합니다.).
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Thaumaturgy Unlock Checker", "주술사 해제 체크", "talent name")
 
@@ -25298,7 +25298,7 @@ t([[A wave of fire emanates from you with a radius of %d, knocking back anything
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Burning Wake", "타오르는 궤적", "talent name")
 t([[Your Flame, Flameshock, Fireflash and Blastwave spells leave a burning wake on the ground, burning all within for %0.2f fire damage for 4 turns.
-		The damage will increase with your Spellpower.]], [[불꽃, 불꽃 충격, 불꽃 섬광과 후폭풍의 궤적이 대지를 불태워, 해당 범위 내의 모든 개체에 %0.2f 화염 피해를 4 턴간 줍니다.
+		The damage will increase with your Spellpower.]], [[불꽃, 불꽃 충격, 불꽃 섬광과 후폭풍의 궤적이 대지를 불태워, 해당 범위 내의 모든 개체에 %0.2f 화염 피해를 4 턴 동안 줍니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Cleansing Flames", "정화의 불꽃", "talent name")
 t([[When you stand in your Burning Wake or Inferno ground effect, you can self immolate to trigger Cleansing Flames for %d turns.
@@ -25306,12 +25306,12 @@ t([[When you stand in your Burning Wake or Inferno ground effect, you can self i
 		Each turn there is a %d%% chance for any creature taking damage from Burning Wake, Inferno or Cleansing Flames to remove a status effect (physical or magical).
 		If the target is hostile, it will remove a beneficial effect.
 		If the target is friendly, it will remove a detrimental effect.]], [[타오르는 궤적이나, 열화의 지형 효과 내에 서있을 경우, 시전자는 스스로를 불태우고, %d 턴 동안 정화의 불꽃을 발동합니다.
-		효과가 지속되는 동안 %0.2f 화염 피해를 매 턴 입게됩니다.
+		효과가 지속되는 동안 %0.2f 화염 피해를 매 턴 입게 됩니다.
 		매 턴, %d%% 확률로 타오르는 궤적, 열화, 정화의 불꽃에 피해를 받은 적들이 물리적, 마법적 상태 효과를 하나 제거합니다.
 		적대적인 대상일 경우, 이로운 효과가 제거됩니다.
 		우호적인 대상일 경우, 부정적인 효과가 제거됩니다.]], "tformat")
 t("Wildfire", "열화", "talent name")
-t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, ignoring %d%% fire resistance of your targets and reducing self-inflicted fire damage by %d%%.", "주변에 열화를 일으켜, 모든 화염 피해를 %0.1f%% 증가시키고, 대상의 화염 저항을 %d%% 무시합니다. 또한 자신이 가하는 화염 피해를 %d%% 덜 받게됩니다.", "tformat")
+t("Surround yourself with Wildfire, increasing all your fire damage by %0.1f%%, ignoring %d%% fire resistance of your targets and reducing self-inflicted fire damage by %d%%.", "주변에 열화를 일으켜, 모든 화염 피해를 %0.1f%% 증가시키고, 대상의 화염 저항을 %d%% 무시합니다. 또한 자신이 가하는 화염 피해를 %d%% 덜 받게 됩니다.", "tformat")
 
 
 ------------------------------------------------
@@ -25356,7 +25356,7 @@ t("Warshout", "전투함성", "talent name")
 t("@Source@ uses Warshout.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
 t("@Source@ uses Warsqueak.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
 t("You cannot use Warshout without a two-handed weapon!", "양손 무기 없이는 전투함성을 사용할 수 없습니다!", "logPlayer")
-t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "반경 %d 칸 범위에 원뿔 형태로 전투함성을 내질러, 범위 내의 대상에게 %d%% 위력의 혼란 상태를 유발합니다. 혼란 상태는 %d 턴간 지속됩니다.", "tformat")
+t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (power %d%%) for %d turns.", "반경 %d 칸 범위에 원뿔 형태로 전투함성을 내질러, 범위 내의 대상에게 %d%% 위력의 혼란 상태를 유발합니다. 혼란 상태는 %d 턴 동안 지속됩니다.", "tformat")
 t("Death Blow", "죽음의 일격", "talent name")
 t("You cannot use Death Blow without a two-handed weapon!", "양손 무기 없이는 죽음의 일격을 사용할 수 없습니다!", "logPlayer")
 t("%s feels the pain of the death blow!", "%s 죽음의 일격으로 고통을 느낀다!", "logSeen", nil, {"가"})
@@ -25390,7 +25390,7 @@ t("You require a two handed weapon to use this talent.", "이 기술을 사용�
 t("You cannot use Blood Frenzy without a two-handed weapon!", "양손 무기 없이는 피의 광란을 사용할 수 없습니다!", "logPlayer")
 t([[Enter a blood frenzy, draining stamina quickly (-2 stamina/turn). Each time you kill a foe while in the blood frenzy, you gain a cumulative bonus to Physical Power of %d.
 		Each turn, this bonus decreases by 2.]], [[피의 광란 상태에 돌입해 빠르게 기력이 감소합니다(-2 기력/턴). 피의 광란 상태에서 적을 죽일 때마다 중첩 가능한 추가 물리력 %d 을 획득합니다.
-		턴 마다 추가 물리력이 2 감소합니다.]], "tformat")
+		턴마다 추가 물리력이 2 감소합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -25413,7 +25413,7 @@ t("You cannot move!", "움직일 수 없습니다!", "logPlayer")
 t("You cannot tumble to that space.", "해당 위치로는 공중제비할 수 없습니다.", "logPlayer")
 t([[Move to a spot within range, bounding around, over, or through any enemies in the way.
 		This maneuver can surprise your foes and improves your tactical position, improving your physical critical chance by %d%% for 1 turn.]], [[사거리 내의 장소로 공중제비하고 경로에 있는 적들을 통과해 이동합니다.
-		이 행동으로 적은 당황하게되고 당신은 전술적 위치를 확보해, 1 턴 동안 물리 치명타 확률이 %d%% 증가합니다.]], "tformat")
+		이 행동으로 적은 당황하게 되고 당신은 전술적 위치를 확보해, 1 턴 동안 물리 치명타 확률이 %d%% 증가합니다.]], "tformat")
 t("Trained Reactions", "훈련된 반사 신경", "talent name")
 t([[While this talent is sustained, you anticipate deadly attacks against you.
 		Any time you would lose more than %d%% of your maximum life in a single hit, you instead duck out of the way and assume a defensive posture.
@@ -25529,7 +25529,7 @@ t([[You fire a pinning shot, doing %d%% damage and pinning your target to the gr
 section "game/modules/tome/data/talents/techniques/assassination.lua"
 
 t("Coup de Grace", "최후의 일격", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 한다.", "logPlayer")
 t("You cannot use Coup de Grace without dual wielding!", "쌍수 무기를 장비하지 않으면 최후의 일격을 사용할 수 없습니다!", "logPlayer")
 t("#Source# delivers a Coup de Grace against #Target#!", "#Source1# #Target#에게 최후의 일격을 날립니다. #Target#!", "logCombat")
 t("%s resists the Coup de Grace!", "%s 최후의 일격에 저항합니다!", "logSeen", nil, {"는"})
@@ -25554,7 +25554,7 @@ t("Marked for Death", "죽음의 표식", "talent name")
 t([[You mark a target for death for 4 turns, causing them to take %d%% increased damage from all sources. When this effect ends they will immediately take physical damage equal to %0.2f plus %d%% of all damage taken while marked.
 		If a target dies while marked, the cooldown of this ability is reset and the cost refunded.
 		This ability can be used without breaking stealth.
-		The base damage dealt will increase with your Dexterity.]], [[4 턴 동안 대상에게 죽음의 표식을 부여하여 받는 피해량을 %d%% 증가시킵니다. 표식의 지속시간이 끝날때 대상은 표식의 지속시간동안 받은 피해의 %0.2f + %d%% 만큼 추가적인 물리 피해를 입습니다.
+		The base damage dealt will increase with your Dexterity.]], [[4 턴 동안 대상에게 죽음의 표식을 부여하여 받는 피해량을 %d%% 증가시킵니다. 표식의 지속시간이 끝날때 대상은 표식의 지속시간 동안 받은 피해의 %0.2f + %d%% 만큼 추가적인 물리 피해를 입습니다.
 		죽음의 표식이 남은 상태로 대상이 사망하면 이 기술의 재사용 대기시간이 초기화되며, 사용된 자원이 반환됩니다.
 		이 기술은 은신 상태를 해제하지 않습니다.
 		민첩에 기반하여 기본 피해량이 증가합니다.]], "tformat")
@@ -25589,7 +25589,7 @@ t([[Take a defensive stance to resist the onslaught of your foes.
 		생명력을 잃은 경우, 잃은 생명력의 %d%% 에 해당하는 전체 저항력을 얻습니다.
 		(생명력의 70%% 를 잃은 경우, 전체 저항력을 %d%% 획득합니다.)
 		또한, 모든 피해 저항 한계치가 %0.1f%% 상승해 100%% 에 가까워집니다.
-		투지를 불태우는 동안에는 기력이 급격히 감소됩니다 (%0.1f 기력/턴, 이 후 턴 마다 0.3/턴씩 증가합니다).
+		투지를 불태우는 동안에는 기력이 급격히 감소됩니다 (%0.1f 기력/턴, 이 후 턴마다 0.3/턴씩 증가합니다).
 		당신이 피해를 입을 때마다, 저항 수치가 다시 계산됩니다.]], "tformat")
 
 
@@ -25628,7 +25628,7 @@ section "game/modules/tome/data/talents/techniques/bow.lua"
 t("Bow Mastery", "활 숙련", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using bows.
 		Also, increases your reload rate by %d.]], [[활을 사용할 때, 무기 피해가 %d%%, 물리력이 30 증가합니다.
-		추가로, 한번에 %d 발의 화살을 추가로 재장전할 수 있게 됩니다.]], "tformat")
+		추가로, 한 번에 %d 발의 화살을 추가로 재장전할 수 있게 됩니다.]], "tformat")
 t("Piercing Arrow", "꿰뚫는 화살", "talent name")
 t("You fire an arrow that cuts right through anything, piercing multiple targets if possible with nigh infinite armor penetration, doing %d%% damage.", "어떤 것이든 꿰뚫는 화살을 쏴서, %d%% 의 무기 피해를 주고 다수의 적을 관통합니다. 특수한 경우가 아닌 이상, 적의 방어력는 무시됩니다.", "tformat")
 t("Dual Arrows", "이중 화살", "talent name")
@@ -25654,10 +25654,10 @@ t([[Allows shields to be equipped, using Cunning instead of strength as a requir
 t("Bash and Smash", "후리고 박살내기", "talent name")
 t("You require a ranged weapon and a shield to use this talent.", "이 기술을 사용하기 위해서는 방패와 원거리 무기가 필요하다.", "logPlayer")
 t("%s resists the knockback!", "%s 꿈쩍도 하지 않았다!", "logSeen", nil, {"는"})
-t("Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", "인접한 적을 방패로 후려쳐, (기술 레벨 5 이상일때, 2 번 후려칩니다) 적을 %d 칸 뒤로 밀어냅니다. 이후 투석구로 치명적인 영거리 사격을 가해, %d%% 피해를 줍니다. 방패 공격은 힘 대신 민첩을 사용해 추가 피해량을 결정합니다.", "tformat", {2,1})
+t("Bash an enemy in melee range with your shield (twice for talent level 5 or more), doing %d%% damage and knocking them back %d squares. You may then follow with a deadly short-range sling attack, dealing %d%% damage. The shield bash will use Dexterity instead of Strength for the shield's bonus damage.", "인접한 적을 방패로 후려쳐, (기술 레벨 5 이상일 때, 2 번 후려칩니다) 적을 %d 칸 뒤로 밀어냅니다. 이후 투석구로 치명적인 영거리 사격을 가해, %d%% 피해를 줍니다. 방패 공격은 힘 대신 민첩을 사용해 추가 피해량을 결정합니다.", "tformat", {2,1})
 t("Buckler Mastery", "방패 숙련", "talent name")
-t(" At talent level 5, your Bash and Smash shield hits are guaranteed criticals.", "기술 레벨이 5 일때 방패 타격이 치명타가 됩니다.", "_t")
-t(" At talent level 5, your Bash and Smash shield hit is a guaranteed critical.", "기술 레벨이 5 일때 방패 타격이 치명타가 됩니다.", "_t")
+t(" At talent level 5, your Bash and Smash shield hits are guaranteed criticals.", "기술 레벨이 5 일 때 방패 타격이 치명타가 됩니다.", "_t")
+t(" At talent level 5, your Bash and Smash shield hit is a guaranteed critical.", "기술 레벨이 5 일 때 방패 타격이 치명타가 됩니다.", "_t")
 t("When you are hit by a projectile, physical or otherwise, you have a %d%% chance to deflect it up to %d squares away.%s", "당신이 투사체에 피격당할 때, %d%% 확률로 투사체를 주변 %d 칸 밖으로 튕겨냅니다.%s", "tformat")
 t("Counter Shot", "반격 사격", "talent name")
 t("#ORCHID##Source# follows up with a countershot.#LAST#", "#ORCHID##Source2# 반격 사격을 가한다.#LAST#", "logCombat")
@@ -25685,7 +25685,7 @@ t("You have learned to focus your blows to hit your target, granting +%d accurac
 t("Blinding Speed", "눈부신 속도", "talent name")
 t("Through rigorous training, you have learned to focus your actions for a short while, increasing your speed by %d%% for 5 turns.", "철저한 훈련을 통해 일시적으로 집중력을 끌어올리는 법을 익혔습니다. 5 턴 동안 속도가 %d%% 증가합니다.", "tformat")
 t("Quick Recovery", "빠른 회복", "talent name")
-t("Your combat focus allows you to keep your hatred burning (%0.1f hate refunded after spending hate on a talent)", "전투 집중을 통해, 더 오랫동안 증오에 불을 지필 수 있게되었습니다. (기술 사용으로 증오 소모 시, 증오 %0.1f 가 다시 회복됩니다)", "tformat")
+t("Your combat focus allows you to keep your hatred burning (%0.1f hate refunded after spending hate on a talent)", "전투 집중을 통해, 더 오랫동안 증오에 불을 지필 수 있게 되었습니다. (기술 사용으로 증오 소모 시, 증오 %0.1f 가 다시 회복됩니다)", "tformat")
 t("Your combat focus allows you to regenerate stamina faster (+%0.1f stamina/turn).", "전투 집중을 통해 더 빠르게 기력을 재생할 수 있습니다(+%0.1f 기력/턴).", "tformat")
 t("Fast Metabolism", "빠른 신진대사", "talent name")
 t("Your combat focus allows you to regenerate life faster (+%0.1f life/turn).", "전투 집중을 통해 더 빠르게 생명력을 재생할 수 있습니다(+%0.1f 생명력/턴).", "tformat")
@@ -25746,10 +25746,10 @@ t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했습니다!#LAST#", "lo
 t([[You've learned to recover quickly from effects that would disable you. Each turn, you have a %d%% chance to recover from a single stun effect.
 		At talent level 2 you may also recover from Blindness, at level 3 Confusion and Pins, and level 4 Disarms and Slows.
 		Effects will be cleansed with the priority order Stun > Blind > Confusion > Pin > Disarm > Slow.
-		Only one effect may be recovered from each turn, and the chance to recover from an effect scales with your Constitution.]], [[무력화 효과로부터 빠르게 회복하는 법을 익혔습니다. 턴 마다 %d%% 확률로 하나의 기절 효과에서 회복합니다.
+		Only one effect may be recovered from each turn, and the chance to recover from an effect scales with your Constitution.]], [[무력화 효과로부터 빠르게 회복하는 법을 익혔습니다. 턴마다 %d%% 확률로 하나의 기절 효과에서 회복합니다.
 		기술 레벨 2 일 때 실명, 레벨 3 일 때 혼란과 속박, 레벨 4 일 때 무장해제와 감속에서 회복할 수 있습니다.
 		기절 > 실명 > 혼란 > 속박 > 무장해제 > 감속 순으로 회복됩니다.
-		턴 마다 오직 하나의 효과에서 회복될 수 있으며 회복 확률은 체격에 비례하여 증가합니다.]], "tformat")
+		턴마다 오직 하나의 효과에서 회복될 수 있으며 회복 확률은 체격에 비례하여 증가합니다.]], "tformat")
 t("Daunting Presence", "위협적인 존재감", "talent name")
 t([[Enemies are intimidated by your very presence.
 		Enemies within radius %d have their Physical Power, Mindpower, and Spellpower reduced by %d.
@@ -25778,7 +25778,7 @@ t([[You have learned to block incoming blows with your offhand weapon.
 		A successful parry reduces damage like armour (before any attack multipliers) and prevents critical strikes.  Partial parries have a proportionally reduced chance to succeed.  It is difficult to parry attacks from unseen attackers and you cannot parry with a mindstar.
 		The defense and chance to parry improve with Dexterity.  The number of parries increases with Cunning.]], [[보조 무기로 공격을 막는 방법을 배웠습니다.
 		쌍수 무기를 착용 중일 때, 방어가 %d 증가합니다.
-		턴 마다 %0.1f번, %d%% 확률로 근접 공격의 피해를 최대 %d 쳐냅니다(보조 무기의 피해량 기반).
+		턴마다 %0.1f번, %d%% 확률로 근접 공격의 피해를 최대 %d 쳐냅니다(보조 무기의 피해량 기반).
 		성공적으로 공격을 쳐내면 갑옷과 동일하게(공격 계수 적용 전) 피해가 감소하고 치명적인 공격을 방지합니다. 부분적인 쳐내기는 성공 확률이 비례하여 감소합니다. 보이지 않는 적의 공격은 쳐내기 어렵고 마석으로는 쳐내기를 사용할 수 없습니다.
 		방어와 쳐내기 확률은 민첩에 비례하여 증가합니다. 쳐내기 횟수는 교활의 영향을 받아 증가합니다.]], "tformat")
 t("Close Combat Management", "근접 전투 통제", "talent name")
@@ -25809,7 +25809,7 @@ t("Lashes out with a flurry of blows, hitting your target three times with each 
 t("Heartseeker", "급소 노리기", "talent name")
 t("Swiftly leap to your target and strike at their vital points with both weapons, dealing %d%% weapon damage. This attack deals %d%% increased critical strike damage.", "민첩하게 대상에게 도약해 각 무기로 대상의 치명적인 부위를 공격하고 %d%% 무기 피해를 줍니다. 이 공격은 %d%% 증가한 치명타 공격 피해를 줍니다.", "tformat")
 t("Whirlwind", "선풍", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 한다.", "logPlayer")
 t("The target location must be within range and within view.", "대상이 범위 및 시야 내에 있어야 합니다.", "logPlayer")
 t("There is no open space in which to land near there.", "근처에 이동할 수 있는 열린 공간이 없습니다.", "logPlayer")
 t("%s becomes a whirlwind of weapons!", "%s 무기의 선풍을 일으켰습니다!", "logSeen", nil, {"가"})
@@ -25843,7 +25843,7 @@ t([[Make a cunning feint that tricks your target into swapping places with you. 
 		자리 교체는 적들을 당황시키며, 당신의 방어 능력이 향상됩니다. %d 턴 동안, 1 턴당 1 회의 추가 받아넘기기 한도를 얻고, 실패 확률이 %d%% 감소합니다.
 		속박과 혼절 확률은 정확도에 비례하여 증가합니다.]], "tformat")
 t("Lunge", "찌르기", "talent name")
-t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야한다.", "logPlayer")
+t("You require two weapons to use this talent.", "이 기술을 사용하기 위해서는 쌍수 무기를 장비해야 한다.", "logPlayer")
 t("You cannot use Lunge without dual wielding!", "쌍수 무기 없이 기술을 사용할 수 없다!", "logPlayer")
 t("%s resists the blow!", "%s 공격에 저항했다!", "logSeen", nil, {"는"})
 t([[Exploiting a gap in your target's defenses, you make a lethal strike with your offhand weapon for %d%% damage that causes them to drop their weapon, disarming them for %d turns.
@@ -25939,7 +25939,7 @@ t([[Make a melee attack for %d%% damage and then attempt to grapple a target up 
 		Any movement from the target or you will break the grapple. Maintaining a grapple drains %d stamina per turn.
 		You may only grapple a single target at a time, and using any targeted unarmed talent on a target that you're not grappling will break the grapple.]], [[관절기를 걸어 %d%% 피해를 입히고, 대상에 관절기를 걸어 %d 턴 동안 유지합니다. 조이기에 당한 대상은 이동이 불가능하고, %d 피해를 매 턴 받습니다. 당신이 받는 모든 피해의 %d%% 는 물리 피해로 치환되어 적에게 재전송됩니다.
 		해당 위치에서 멀어지는 모든 행위는 효과를 즉시 중단합니다. 조이기를 유지하는데 매 턴, %d 기력이 소모됩니다.
-		당신은 한번에 하나의 적에게만 조이기를 걸 수 있습니다. 조이기를 걸고 있지 않은 대상에게 맨손 격투 기술을 사용할 시, 붙잡은 대상이 풀려납니다.]], "tformat")
+		당신은 한 번에 하나의 적에게만 조이기를 걸 수 있습니다. 조이기를 걸고 있지 않은 대상에게 맨손 격투 기술을 사용할 시, 붙잡은 대상이 풀려납니다.]], "tformat")
 t("Crushing Hold", "관절 꺾기", "talent name")
 t([[Enhances your grapples with additional effects. All additional effects will apply to every grapple with no additional save or resist check.
 		#RED#Talent Level 1:  Reduces physical power by %d
@@ -25950,7 +25950,7 @@ t([[Enhances your grapples with additional effects. All additional effects will 
 		기술 레벨 5:  대상의 전체 속도를 %d%% 감소시킵니다.]], "tformat")
 t("Take Down", "메치기", "talent name")
 t([[Rushes forward and attempts to take the target to the ground, making a melee attack for %d%% damage then attempting to grapple them. If you're already grappling the target you'll instead slam them into the ground creating a radius 5 shockwave for %d physical damage and breaking your grapple.
-		The grapple effects and duration will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], [[전방으로 뛰어들어 일정 확률로 적을 넘어뜨립니다. %d%% 피해를 가하며, 일정 확률로 관절기를 겁니다. 이미 관절기에 당하고있는 적일 경우, 그 대신 대상을 지면에 내다꽂아, 반경 5 칸의 충격파를 생성하여 %d 물리 피해를 주고, 관절기를 끝냅니다.
+		The grapple effects and duration will be based off your grapple talent, if you have it, and the damage will scale with your Physical Power.]], [[전방으로 뛰어들어 일정 확률로 적을 넘어뜨립니다. %d%% 피해를 가하며, 일정 확률로 관절기를 겁니다. 이미 관절기에 당하고 있는 적일 경우, 그 대신 대상을 지면에 내다꽂아, 반경 5 칸의 충격파를 생성하여 %d 물리 피해를 주고, 관절기를 끝냅니다.
 		관절기 효과와 지속시간은 당신의 관절기 기술에 비례하여 증가하고, 피해량은 물리력에 비례하여 증가합니다.]], "tformat")
 t("Hurricane Throw", "용오름 던지기", "talent name")
 t("You must be grappling something to use this talent.", "이 기술을 사용하기 위해서는 관절기가 적용중인 대상이 필요하다.", "logPlayer")
@@ -25959,7 +25959,7 @@ t("#RED#%s is shaken by the collision and loses a turn!#LAST#", "#RED#%s 충격�
 t([[In a mighty show of strength you whirl your grappled victim around and throw them into the air causing %d%% damage to them and enemies in radius %d on landing.  
 			If at least 1 other enemy is hit the thrown enemy will be shaken by the impact losing a full turn.
 			You can only throw enemies that could move normally.]], [[관절기에 걸린 희생양을 붙잡고 그대로 회전하여 허공에 내던집니다. %d%% 피해를 대상과 착륙지점 주위 반경 %d 칸 내에 가합니다.  
-			내던저진 적이 적어도 하나 이상의 적과 충돌했을 경우, 충격으로 인해 1 턴을 낭비하게됩니다.
+			내던저진 적이 적어도 하나 이상의 적과 충돌했을 경우, 충격으로 인해 1 턴을 낭비하게 됩니다.
 			정상적으로 이동하지 못하는 적은 내던질 수 없습니다.]], "tformat")
 
 
@@ -25989,7 +25989,7 @@ t([[Allows you to use melee weapons to focus your spells, granting a %d%% chance
 t("Arcane Cunning", "비전의 교활함", "talent name")
 t("The user gains a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "당신은 교활의 %d%% 만큼 주문력을 증가시킵니다. (현재 증가량: %d).", "tformat")
 t("Arcane Feed", "비전력 공급", "talent name")
-t("Regenerates %0.2f mana per turn, and increases physical and spell critical chance by %d%% while active.", "활성화시, 턴 마다 %0.2f 마나가 재생되고, 물리와 마법 치명타 확률이 %d%% 향상됩니다.", "tformat")
+t("Regenerates %0.2f mana per turn, and increases physical and spell critical chance by %d%% while active.", "활성화시, 턴마다 %0.2f 마나가 재생되고, 물리와 마법 치명타 확률이 %d%% 향상됩니다.", "tformat")
 t("Arcane Destruction", "비전 파괴", "talent name")
 t([[Raw magical damage channels through the caster's weapon, increasing raw Physical Power by %d%% of your Magic (current bonus: %d).
 		Each time you crit with a melee blow, you will unleash a radius %d ball of arcane damage, doing %0.2f.
@@ -26012,19 +26012,19 @@ section "game/modules/tome/data/talents/techniques/marksmanship.lua"
 t("Master Marksman", "사격술의 달인", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using bows or slings, as well as your reload rate by %d.
 		In addition, your Shoot has a %d%% chance to mark targets on hit.
-The mark lasts for 5 turns, grants you visibility of the target (even through walls and other concealment), and causes them to become vulnerable to Headshot, Volley and Called Shots.]], [[활과 투석구를 사용할 때, 무기 피해가 %d%%, 물리력이 30 증가하고 한번에 %d 발의 화살을 추가로 재장전할 수 있게 됩니다.
+The mark lasts for 5 turns, grants you visibility of the target (even through walls and other concealment), and causes them to become vulnerable to Headshot, Volley and Called Shots.]], [[활과 투석구를 사용할 때, 무기 피해가 %d%%, 물리력이 30 증가하고 한 번에 %d 발의 화살을 추가로 재장전할 수 있게 됩니다.
 		추가로, 당신의 사격은 %d%% 확률로 적에게 표적을 남깁니다.
-표적은 5 턴간 지속되며, 당신에게 대상의 위치 정보를 제공합니다 (시야 밖에 있거나, 기타 볼 수 없는 상황에서도 볼 수 있습니다) 표적이 된 적은 해드 샷, 일제 사격, 침묵 사격에 약해집니다.]], "tformat")
+표적은 5 턴 동안 지속되며, 당신에게 대상의 위치 정보를 제공합니다 (시야 밖에 있거나, 기타 볼 수 없는 상황에서도 볼 수 있습니다) 표적이 된 적은 해드 샷, 일제 사격, 침묵 사격에 약해집니다.]], "tformat")
 t("First Blood", "선제 사격", "talent name")
 t([[You take advantage of unwary foes (those at or above 90%% life). Against these targets, Shoot, Steady Shot and Headshot bleed targets for %d%% additional damage over 5 turns and have a 50%% increased chance to mark (if capable of marking).
 In addition, your Steady Shot, Shoot and Headshot now restore %0.1f stamina on hit.]], [[부주의한 적에 대한 이점을 가져갑니다. (생명력이 90%% 이상인 적). 이러한 대상에게 가해지는 사격, 안정된 사격 그리고 해드샷에는 %d%% 의 추가 출혈 피해가 적용되어 5 턴에 걸쳐 피해를 줍니다. 그리고 50%% 증가된 표적 확률을 갖습니다. (대상에 표적을 걸 수 있을 때에 한합니다).
 추가로 당신의 안정된 사격, 사격, 헤드 샷은 명중 시 %0.1f 기력을 회복시킵니다.]], "tformat")
 t("Flare", "조명탄", "talent name")
 t([[Fire a shot at the target tile that blinds enemies for %d turns, marks them for 2 turns and illuminates the area within radius %d for %d turns. Enemies within the illuminated area lose %d defence and stealth power and cannot benefit from concealment.
-		The status chance increases with your Accuracy, and the defense reduction with your Dexterity.]], [[대상의 위치에 화살을 쏘아 %d 턴 동안 적들을 실명시키고, 2 턴간 표적을 겁니다. 반경 %d 칸 범위를 %d 턴 동안 밝히고, 해당 지역 내의 모든 적은 회피도와 은신력이 %d 감소되고, 투명과 은신의 이점을 상실하게됩니다.
+		The status chance increases with your Accuracy, and the defense reduction with your Dexterity.]], [[대상의 위치에 화살을 쏘아 %d 턴 동안 적들을 실명시키고, 2 턴 동안 표적을 겁니다. 반경 %d 칸 범위를 %d 턴 동안 밝히고, 해당 지역 내의 모든 적은 회피도와 은신력이 %d 감소되고, 투명과 은신의 이점을 상실하게 됩니다.
 		상태이상 부여 확률은 정확도에 비례하여 증가하고, 회피도 감소치는 민첩에 비례하여 증가합니다.]], "tformat")
 t("Trueshot", "초속사", "talent name")
-t("Enter a state of heightened focus for %d turns. While in this state your ranged attack speed is increased by %d%%, your shots do not consume ammo, and all shots capable of marking have their chance to mark increased by %d%%.", "%d 턴 동안 강화된 집중상태에 진입합니다. 이 상태 동안 당신의 원거리 공격 속도가 %d%% 상승하고, 당신의 사격은 화살을 소모하지 않게됩니다. 그리고 모든 표적을 걸 수 있는 모든 사격의 표적 확률은 %d%% 증가됩니다.", "tformat")
+t("Enter a state of heightened focus for %d turns. While in this state your ranged attack speed is increased by %d%%, your shots do not consume ammo, and all shots capable of marking have their chance to mark increased by %d%%.", "%d 턴 동안 강화된 집중상태에 진입합니다. 이 상태 동안 당신의 원거리 공격 속도가 %d%% 상승하고, 당신의 사격은 화살을 소모하지 않게 됩니다. 그리고 모든 표적을 걸 수 있는 모든 사격의 표적 확률은 %d%% 증가됩니다.", "tformat")
 
 
 ------------------------------------------------
@@ -26033,13 +26033,13 @@ section "game/modules/tome/data/talents/techniques/mobility.lua"
 t("Disengage", "후퇴", "talent name")
 t("You must be able to move to use %s!", "이동이 불가능하면 %s 쓸 수 없다!", "logPlayer", nil, {"를"})
 t("You must disengage directly away from your target in a straight line.", "후퇴 방향은 대상에게서 직선 방향이여야 한다.", "logPlayer")
-t("You must land in an empty space.", "당신은 빈 공간에 착지해야한다.", "logPlayer")
+t("You must land in an empty space.", "당신은 빈 공간에 착지해야 한다.", "logPlayer")
 t("Your Disengage was partially blocked.", "후퇴 중에 경로가 가로막혔다.", "logPlayer")
 t("You are not able to Disengage in that direction.", "당신은 그 방향으로 후퇴할 수 없다.", "logPlayer")
 t([[Jump back up to %d grids from your target, springing over any creatures in your way. 
 		You must disengage in a nearly straight line directly away from your target (which you must be able to see).
 		After moving, you gain %d%% increased movement speed for 3 turns (which ends if you take any actions other than movement), and you may reload your ammo (if any).
-		The extra speed and maximum distance you can move are reduced by your Fatigue level.]], [[대상에게서 최대 %d 칸 멀리 후퇴합니다. 이 때, 경로상의 모든 개체들을 뛰어넘어 이동합니다.
+		The extra speed and maximum distance you can move are reduced by your Fatigue level.]], [[대상에게서 최대 %d 칸 멀리 후퇴합니다. 이때, 경로상의 모든 개체들을 뛰어넘어 이동합니다.
 		당신은 대상에게서 직선으로 떨어진 장소로만 후퇴 가능합니다. (시야내의 장소여야 합니다).
 		후퇴 직후, 3 턴 동안 이동 속도가 %d%% 증가합니다. (이 효과는 당신이 이동 이외의 다른 행위를 하면 즉시 종료됩니다) 가능하다면, 탄환의 재장전도 실시합니다.
 		추가 이동 속도와 당신이 도달할 수 있는 최대 사거리는 당신의 피로도에 반비례합니다.]], "tformat")
@@ -26048,7 +26048,7 @@ t([[Your quick wit and reflexes allow you to anticipate attacks against you, gra
 		The chance to evade and defense bonus increase with your Dexterity.]], [[뛰어난 재치와 반사 신경으로 다가오는 공격을 예측합니다. %d%% 확률로 근접과 원거리 공격을 완전히 무효화하고, 회피도가 %d 증가합니다. 이 효과는 %d 턴 동안 지속됩니다.
 		무효화 확률과 회피 증가치는 민첩에 비례하여 증가합니다.]], "tformat")
 t("Tumble", "공중제비", "talent name")
-t("You must have an empty space to roll to.", "공중제비를 돌기위해선 비어있는 위치를 대상으로 해야한다.", "logPlayer")
+t("You must have an empty space to roll to.", "공중제비를 돌기위해선 비어있는 위치를 대상으로 해야 한다.", "logPlayer")
 t([[In an extreme feat of agility, you move to a spot you can see within range, bounding around, over, or through any enemies in the way.
 		This talent cannot be used while wearing heavy armor, and leaves you exhausted.  The exhaustion increases the cost of your activated Mobility talents by %d%% (stacking), but fades over %d turns.]], [[극단적으로 빠른 몸놀림으로, 모든 적들의 방해를 무시하고 시야 내의 한 지점으로 이동합니다.
 		이 기술은 중갑, 판갑 착용시 사용이 불가능합니다. 기술 사용 후, 당신은 탈진하여 기동 기술들의 기력 소모량이 %d%% 증가합니다.(중첩됨), 하지만 %d 턴에 걸쳐 탈진이 회복됩니다.]], "tformat")
@@ -26064,9 +26064,9 @@ t([[You have trained to be very light on your feet and have conditioned your ref
 		This requires %0.1f stamina and reduces the damage by %d%%.
 		Your reactions are too slow for this if you are wearing heavy armour.
 		The damage reduction improves with your Defense.]], [[당신은 매우 빠른 발재간을 습득하여, 피해를 받았을 때, 빠르게 당신의 반사 신경을 활성화 하는 법을 깨달았습니다.
-		이 기술이 활성화 되면, %d%% 이상의 피해를 받을시 턴 소모 없이 공격에 반응합니다. (상태 변화나 기타 효과에는 반응하지 않습니다)
+		이 기술이 활성화되면, %d%% 이상의 피해를 받을시 턴 소모 없이 공격에 반응합니다. (상태 변화나 기타 효과에는 반응하지 않습니다)
 		발동을 위해서 %0.1f 기력이 필요하며, 해당 피해는 %d%% 감소됩니다.
-		중갑 방어구를 착용시 반응 속도가 너무 느려지게됩니다.
+		중갑 방어구를 착용시 반응 속도가 너무 느려지게 됩니다.
 		피해량 감소는 당신의 회피도에 비례하여 증가합니다.]], "tformat")
 
 
@@ -26100,7 +26100,7 @@ t([[Load piercing ammunition, causing attacks to reduce the target's armor and s
 		The armor and save reduction will scale with your Physical Power.]], [[3 턴 동안 대상의 방어력과 내성을 %d 감소시키는 관통 탄약을 장전합니다. 당신의 물리 저항 관통이 %d%% 상승합니다.
 		방어력 관통, 내성 저항은 물리력에 비례하여 증가합니다.]], "tformat")
 t("Explosive Shot", "폭발 탄약", "talent name")
-t("You require incendiary, venomous or piercing ammunition to use this talent!", "이 기술을 사용하기 위해서는 특수 탄약을 장전해야한다!", "logPlayer")
+t("You require incendiary, venomous or piercing ammunition to use this talent!", "이 기술을 사용하기 위해서는 특수 탄약을 장전해야 한다!", "logPlayer")
 t([[Fires a special shot based on your currently loaded ammo:
 Incendiary - Fire a shot that deals %d%% weapon damage as fire and covers targets in radius %d in sticky pitch for %d turns, reducing global speed by %d%% and increasing fire damage taken by %d%%.
 Venomous - Fire a shot that deals %d%% weapon damage as nature and explodes into a radius %d cloud of crippling poison for %d turns, dealing %0.2f nature damage each turn and giving affected targets a %d%% chance to fail talent usage.
@@ -26144,13 +26144,13 @@ t([[Increases your Accuracy by %d, the damage multiplier of your striking talent
 t("Double Strike", "연속 타격", "talent name")
 t("@Source@ throws two quick punches.", "@Source2@ 2 번의 재빠른 펀치를 날린다.", "_t")
 t([[Deliver two quick punches that deal %d%% damage each, and switch your stance to Striking Stance. If you already have Striking Stance active and Double Strike isn't on cooldown, this talent will automatically replace your normal attacks (and trigger the cooldown).
-		If either jab connects, you earn one combo point. At talent level 4 or greater, if both jabs connect, you'll earn two combo points.]], [[두번의 펀치를 빠르게 날려, 각 타격 당 %d%% 피해를 입히고, 당신의 타격 자세에 돌입합니다. 이미 타격 자세가 활성화 되어있고, 연속 타격이 재사용 대기시간 중이 아닐 경우, 이 기술은 자동적으로 일반 공격을 대체합니다. (그리고 재사용 대기시간을 적용합니다).
-		두번의 타격중 하나가 성공하면, 연계 점수 1점을 획득합니다. 기술레벨이 4 일때, 2 번의 타격이 모두 성공하면, 연계 점수 2점을 획득합니다.]], "tformat")
+		If either jab connects, you earn one combo point. At talent level 4 or greater, if both jabs connect, you'll earn two combo points.]], [[두번의 펀치를 빠르게 날려, 각 타격 당 %d%% 피해를 입히고, 당신의 타격 자세에 돌입합니다. 이미 타격 자세가 활성화되어있고, 연속 타격이 재사용 대기시간 중이 아닐 경우, 이 기술은 자동적으로 일반 공격을 대체합니다. (그리고 재사용 대기시간을 적용합니다).
+		두번의 타격중 하나가 성공하면, 연계 점수 1점을 획득합니다. 기술 레벨이 4 일 때, 2 번의 타격이 모두 성공하면, 연계 점수 2점을 획득합니다.]], "tformat")
 t("Spinning Backhand", "회전 손등 치기", "talent name")
 t("@Source@ lashes out with a spinning backhand.", "@Source2@ 회전하며 손등으로 후려친다.", "_t")
 t([[Attack your foes in a frontal arc with a spinning backhand, doing %d%% damage. If you're not adjacent to the target, you'll step forward as you spin, gaining up to %d%% bonus damage, which increases the farther you move.
 		This attack will remove any grapples you're maintaining, and earn one combo point (or one combo point per attack that connects, if the talent level is 4 or greater).]], [[회전 손등치기로 시전자와 인접한 대상과 대상 양쪽의 적을 모두 공격하여 %d%% 피해를 입힙니다. 대상이 인접하지 않은 경우, 사용자는 회전하며 적에게 달려들어, 최대 %d%% 추가 피해를 적용합니다. 추가 피해는 당신이 이동한 거리에 비례하여 증가합니다.
-		이 공격은 당신의 관절기를 즉시 종료시킵니다. 기술이 명중하면 연계 점수를 하나 얻습니다 (기술레벨이 4 일때, 공격을 성공시킨 적 하나 마다 연계 점수를 하나 씩 얻습니다.]], "tformat")
+		이 공격은 당신의 관절기를 즉시 종료시킵니다. 기술이 명중하면 연계 점수를 하나 얻습니다 (기술 레벨이 4 일 때, 공격을 성공시킨 적 하나 마다 연계 점수를 하나 씩 얻습니다.]], "tformat")
 t("Axe Kick", "도끼 차기", "talent name")
 t("@Source@ raises their leg and snaps it downward in a devastating axe kick.", "@Source2@ 다리를 들고, 내리찍어 파괴적인 도끼 차기를 가한다!", "_t")
 t([[Deliver a devastating axe kick dealing %d%% damage. If the blow connects your target is brain damaged, causing all talents to fail for %d turns and earning 2 combo points.
@@ -26172,7 +26172,7 @@ t([[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spe
 		You can shoot down up to %d projectiles.
 		In addition, your heightened senses also reduce the speed of incoming projectiles by %d%%, and prevents your own projectiles from striking you.]], [[번개처럼 빠른 반사 신경으로 투사체를 포착 시 (화살, 탄환, 주문, ...) 턴 소모없이 투사체를 격추시킬 수 있습니다.
 		최대 %d 개의 투사체를 격추시킬수있습니다
-		추가로 향상된 반사 신경은, 날아오는 투사체의 속도를 %d%% 감소시키고, 자신이 쏜 화살에 자신이 맞지 않게합니다.]], "tformat")
+		추가로 향상된 반사 신경은, 날아오는 투사체의 속도를 %d%% 감소시키고, 자신이 쏜 화살에 자신이 맞지 않게 합니다.]], "tformat")
 t("Intuitive Shots", "직감 사격", "talent name")
 t([[Activating this talent enhances your reflexes to incredible levels.  Each time you are attacked in melee, you have a %d%% chance to fire off a defensive shot off in time to intercept the attack, evading it and dealing %d%% archery damage.
 		This cannot damage the same target more than once per turn.]], [[[이 기술을 활성화 하는것은 당신의 반사 신경을 믿기힘든 수준으로 향상시킵니다. 당신이 근접 공격에 피격당할 때마다, %d%% 확률로 사격을 가해 공격을 방해합니다. 해당 공격은 무시되며, %d%% 사격 피해를 가합니다.
@@ -26194,14 +26194,14 @@ section "game/modules/tome/data/talents/techniques/skirmisher-slings.lua"
 t("Sling Supremacy", "투석구 지상주의", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using slings.
 		Also, increases your reload rate by %d.]], [[투석구를 사용할 때, 무기 피해가 %d%%, 물리력이 30 증가합니다.
-		추가로, 한번에 %d 발의 탄환을 추가로 재장전할 수 있게 됩니다.]], "tformat")
+		추가로, 한 번에 %d 발의 탄환을 추가로 재장전할 수 있게 됩니다.]], "tformat")
 t("Swift Shot", "재빠른 사격", "talent name")
 t("Double Archery (#LIGHT_GREEN#%d%%#LAST# of a turn)", "이중사격 (한 턴의#LIGHT_GREEN#%d%%#LAST# )", "tformat")
 t([[Fire off a quick sling bullet for %d%% damage at double your normal attack speed, as well as increasing your attack speed by %d%% for 5 turns.
 		Each time you move, the cooldown of this talent is reduced by 1.]], [[%d%% 의 피해를 주는 투석구 탄환으로 재빠르게 공격합니다. 공격 속도는 원래 속도의 2 배로 적용되고, 기술 사용 후 5 턴 동안 공격 속도가 %d%% 증가합니다.
 		이동 시, 이 기술의 재사용 대기시간이 1 턴씩 감소합니다.]], "tformat")
 t("Hurricane Shot", "용오름 사격", "talent name")
-t("Take aim and unload up to %d shots for %d%% weapon damage each against random enemies inside a cone. Each enemy can only be hit once (twice for talent level 3 and higher). Using Swift Shot lowers the cooldown by 1.", "%d%% 피해를 입히는 %d 개의 탄환을 장전하고, 한번에 발사합니다. 원뿔 범위 내의 모든 적에게 피해를 입힙니다. 이 때 하나의 대상은 단 1 번만 사격을 받습니다. (기술레벨 3 일때 2 번 적용됩니다) 재빠른 사격의 사용은 이 기술의 재사용 대기시간을 1 턴 단축시킵니다.", "tformat", {2,1})
+t("Take aim and unload up to %d shots for %d%% weapon damage each against random enemies inside a cone. Each enemy can only be hit once (twice for talent level 3 and higher). Using Swift Shot lowers the cooldown by 1.", "%d%% 피해를 입히는 %d 개의 탄환을 장전하고, 한 번에 발사합니다. 원뿔 범위 내의 모든 적에게 피해를 입힙니다. 이때 하나의 대상은 단 1 번만 사격을 받습니다. (기술 레벨 3 일 때 2 번 적용됩니다) 재빠른 사격의 사용은 이 기술의 재사용 대기시간을 1 턴 단축시킵니다.", "tformat", {2,1})
 t("Bombardment", "폭격", "talent name")
 t("Your Shoot talent now costs %d stamina but fires %d times for %d%% damage per shot.", "일반 사격 기술이 기력 %d 을 소모하는 대신, %d 번을 동시에 사격하며, 탄환 당 %d%% 피해를 입힙니다.", "tformat")
 
@@ -26212,7 +26212,7 @@ section "game/modules/tome/data/talents/techniques/sling.lua"
 t("Sling Mastery", "투석구 숙련", "talent name")
 t([[Increases weapon damage by %d%% and physical power by 30 when using slings.
 		Also, increases your reload rate by %d.]], [[투석구를 사용할 때, 무기 피해가 %d%%, 물리력이 30 증가합니다.
-		추가로, 한번에 %d 발의 탄환을 추가로 재장전할 수 있게 됩니다.]], "tformat")
+		추가로, 한 번에 %d 발의 탄환을 추가로 재장전할 수 있게 됩니다.]], "tformat")
 t("Eye Shot", "안구 사격", "talent name")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 t([[You fire a shot into your target's eyes, blinding it for %d turns and doing %d%% damage.
@@ -26236,7 +26236,7 @@ t("Concealment", "은폐", "talent name")
 t("You are being observed too closely to enter Concealment!", "은폐하기에는 적과 너무 가깝다!", "logPlayer")
 t([[Enter a concealed sniping stance, increasing your weapon's attack range and vision range by %d, giving all incoming damage a %d%% chance to miss you, and causing your Headshot, Volley and Called Shots to behave as if the target was marked.
 Any non-instant, non-movement action will break concealment, but the increased range and vision and damage avoidance will persist for 3 turns, with the damage avoidance decreasing in power by 33%% each turn.
-This requires a bow to use, and cannot be used if there are foes in sight within range %d.]], [[저격 태세로 들어가, 무기 사거리와 시야 범위를 %d 칸 늘립니다. 피격시, %d%% 확률로 피해를 무효화하고, 헤드샷, 일제 사격과 침묵 사격이 대상에 표적이 걸린 것처럼 적용됩니다.
+This requires a bow to use, and cannot be used if there are foes in sight within range %d.]], [[저격 태세로 들어가, 무기 사거리와 시야 범위를 %d 칸 늘립니다. 피격 시, %d%% 확률로 피해를 무효화하고, 헤드샷, 일제 사격과 침묵 사격이 대상에 표적이 걸린 것처럼 적용됩니다.
 모든 비 즉발성, 비 이동성 행동은 은폐 효과를 즉시 중지시키지만, 증가된 사거리, 시야 범위와 피해 무효 효과는 3 턴 동안 지속됩니다, 단 피해 무효 효과는 매 턴 33%% 씩 감소됩니다.
 이 기술의 사용에는 활이 필요합니다. 시야 범위 %d 칸 내에 적이 있는 경우, 은폐를 활성화 할 수 없습니다.]], "tformat")
 t("Shadow Shot", "그림자 사격", "talent name")
@@ -26249,7 +26249,7 @@ t("Aim", "정조준", "talent name")
 t([[Enter a calm, focused stance, increasing physical power and accuracy by %d, projectile speed by %d%% and the chance to mark targets by an additional %d%%.
 This makes your shots more effective at range, increasing all damage dealt by %0.1f%% per tile travelled beyond 3, to a maximum of %0.1f%% damage at range 8.
 The physical power and accuracy increase with your Dexterity. This requires a bow to use.]], [[고요하고, 집중한 자세로 진입합니다. 물리력과 정확도가 %d, 투사체 속도가 %d%%, 대상에게 표적을 남길 확률이 %d%% 증가합니다.
-정조준은 원거리 사격의 효율성을 증가시킵니다. 3 칸 이상을 초과한 사정거리의 사격은 1 칸당 %0.1f%% 추가 피해량을 얻습니다. 사거리가 8 일때 최대 피해량인 %0.1f%% 에 도달합니다.
+정조준은 원거리 사격의 효율성을 증가시킵니다. 3 칸 이상을 초과한 사정거리의 사격은 1 칸당 %0.1f%% 추가 피해량을 얻습니다. 사거리가 8 일 때 최대 피해량인 %0.1f%% 에 도달합니다.
 물리력과 정확도 증가는 민첩에 비례하여 증가합니다. 이 기술의 사용에는 활이 필요합니다.]], "tformat")
 t([[Take aim for 1 turn, preparing a deadly shot. During the next turn, this talent will be replaced with the ability to fire a lethal shot dealing %d%% damage and marking the target.
 While aiming, your intense focus causes you to shrug off %d%% incoming damage and all negative effects.
@@ -26266,10 +26266,10 @@ section "game/modules/tome/data/talents/techniques/strength-of-the-berserker.lua
 t("Warshout", "전투함성", "talent name")
 t("@Source@ uses Warshout.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
 t("@Source@ uses Warsqueak.", "@Source1@ 전투함성을 사용합니다.", "_t", nil, {"가"})
-t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (50%% confusion power) for %d turns.", "반경 %d 칸 범위에 원뿔 형태로 전투함성을 내질러, 범위 내의 대상에게 50%% 위력의 혼란 상태를 유발합니다. 혼란 상태는 %d 턴간 지속됩니다.", "tformat")
+t("Shout your warcry in a frontal cone of radius %d. Any targets caught inside will be confused (50%% confusion power) for %d turns.", "반경 %d 칸 범위에 원뿔 형태로 전투함성을 내질러, 범위 내의 대상에게 50%% 위력의 혼란 상태를 유발합니다. 혼란 상태는 %d 턴 동안 지속됩니다.", "tformat")
 t("Berserker Rage", "광전사의 분노", "talent name")
 t("#Source#'s rage awakens!", "순수한 #Source#가 타오른다!", "logCombat")
-t("#Source#'s rage subsides!", "#Source#가 가라앉는다!", "logCombat")
+t("#Source#'s rage subsides!", "#Source#가 가라앉았다!", "logCombat")
 t([[You enter an aggressive battle rage, increasing Accuracy by %d and Physical Power by %d and making you nearly unstoppable, granting %d%% stun and pinning resistance.
 		Sustaining this rage takes its toll on your body, decreasing your life by 2%% each turn, but for every 1%% of life missing you gain 0.5%% critical hit chance.
 		Even when sustained, this talent is only active when foes are in sight.
@@ -26313,7 +26313,7 @@ t("%s is called to battle!", "%s 전투에 끌려나왓다!", "logSeen", nil, {"
 t("Call all foes in a radius of %d around you into battle, getting them into melee range in an instant.", "전투의 부름을 외쳐, 시전자 주위 반경 %d 칸의 모든 적을 즉시 인접한 칸으로 이동시킵니다.", "tformat")
 t("Shattering Impact", "파쇄의 충격", "talent name")
 t([[Put all of your strength into your weapon blows, creating shockwaves that deal %d%% Physical weapon damage to all nearby targets.  Only one shockwave will be created per action, and the primary target does not take extra damage.
-		Each shattering impact will drain 8 stamina.]], [[무기에 혼신의 힘을 불어놓아, %d%% 물리 피해를 입히는 충격파를 만들어 인근의 모든 적을 공격합니다. 행동 1 번에 단 1 번의 충격파가 발생됩니다. 기본 대상은 추가 피해를 받지 않습니다.
+		Each shattering impact will drain 8 stamina.]], [[무기에 혼신의 힘을 불어놓아, %d%% 물리 피해를 입히는 충격파를 만들어 인근의 모든 적을 공격합니다. 행동 1 번에 단 1 번의 충격파가 발생됩니다. 주 대상은 추가 피해를 받지 않습니다.
 		매 충격파는 기력을 8 소모합니다.]], "tformat")
 
 
@@ -26448,7 +26448,7 @@ t([[Equip a bandolier holding up to %d throwing knives, allowing you to attack f
 %s]], "tformat")
 t("Fan of Knives", "칼날 부채", "_t")
 t([[You keep a special stash of %d throwing knives in your bandolier, which you can throw all at once at enemies within a radius %d cone, for %d%% damage each.
-		Each target can be hit up to 5 times, if the number of knives exceeds the number of enemies.  Creatures block knives from hitting targets behind them.]], [[가죽띠에 %d 개의 추가적인 투척용 단검을 저장하는 보관소를 장착합니다. 당신은 이 단검을 한번에 던저 반경 %d 칸의 원뿔 범위 내의 적을 공격합니다. 단검 하나 당 %d%% 피해를 입힙니다.
+		Each target can be hit up to 5 times, if the number of knives exceeds the number of enemies.  Creatures block knives from hitting targets behind them.]], [[가죽띠에 %d 개의 추가적인 투척용 단검을 저장하는 보관소를 장착합니다. 당신은 이 단검을 한 번에 던저 반경 %d 칸의 원뿔 범위 내의 적을 공격합니다. 단검 하나 당 %d%% 피해를 입힙니다.
 		던저진 단검의 수가 적의 수보다 많은 경우, 범위 내 대상을 최대 5번 까지 공격 할 수 있습니다. 어떤 개체의 등 뒤로 돌아감으로써 투척용 단검을 막아낼 수 있습니다.]], "tformat")
 t("Precise Aim", "정밀 조준", "talent name")
 t([[You are able to target your throwing knives with pinpoint accuracy, increasing their critical strike chance by %d%% and critical strike damage by %d%%. 
@@ -26457,8 +26457,8 @@ In addition, your critical strikes with throwing knives have a %d%% chance to ra
 t("Quickdraw", "빨리 뽑기", "talent name")
 t("Quickdraw Knife", "단검 빨리뽑기", "_t")
 t([[You can throw knives with lightning speed, increasing your attack speed with them by %d%% and giving you a %d%% chance when striking a target in melee to throw a knife at a random foe within 7 tiles for 100%% damage. 
-		This bonus attack can only trigger once per turn, and does not trigger from throwing knife attacks.]], [[당신은 빛의 속도로 단검을 뽑아 던집니다. 당신의 공격 속도를 %d%% 증가시키고, 근접 공격시 %d%% 확률로 7칸 이내의 무작위한 적에게 100%% 의 피해를 가하는 단검을 던집니다. 
-		이 추가 공격은 1 턴에 한번만 발동합니다. 단검 투척 기술로는 발동하지 않습니다.]], "tformat")
+		This bonus attack can only trigger once per turn, and does not trigger from throwing knife attacks.]], [[당신은 빛의 속도로 단검을 뽑아 던집니다. 당신의 공격 속도를 %d%% 증가시키고, 근접 공격 시 %d%% 확률로 7칸 이내의 무작위한 적에게 100%% 의 피해를 가하는 단검을 던집니다. 
+		이 추가 공격은 1 턴에 한 번만 발동합니다. 단검 투척 기술로는 발동하지 않습니다.]], "tformat")
 t("Venomous Throw", "맹독성 투척", "_t")
 t([[Throw a knife coated with venom, doing %d%% damage as nature and inflicting additional effects based on your active vile poisons (as per the Venomous Strike talent):
 		
@@ -26504,8 +26504,8 @@ t("Pace Yourself", "숨 고르기", "talent name")
 t([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
 		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
 		If you have a shield equipped and Block is not on cooldown, any blockable damage that is greater than 25%% of your block value (before resistances) will have a %d%% chance to instantly activate Block.
-		The flat damage reduction will increase with your defense.]], [[방어 능력을 향상시키기 위해 움직임을 조정합니다. 크지 않은 피해를 무시할 수 있게되고, 방패를 착용한 경우, 다가올 피해에 대해 선제 반응을 취하게됩니다.  
-		이 기술이 활성화 된 동안, 전체 속도가 %0.1f%%  감소하지만, 피격 시 받는 피해량이 고정적으로 %0.1f 감소합니다.
+		The flat damage reduction will increase with your defense.]], [[방어 능력을 향상시키기 위해 움직임을 조정합니다. 크지 않은 피해를 무시할 수 있게 되고, 방패를 착용한 경우, 다가올 피해에 대해 선제 반응을 취하게 됩니다.  
+		이 기술이 활성화된 동안, 전체 속도가 %0.1f%%  감소하지만, 피격 시 받는 피해량이 고정적으로 %0.1f 감소합니다.
 		방패를 장착 중이고, 방패 막기가 재사용 대시기간이 아닐 경우, 방패 수치의 25%% 이상의 방어 가능한 공격에 대해 %d%% 확률로 방패 막기를 즉시 발동합니다.
 		고정 피해 감소량은 회피도에 비례하여 증가합니다.]], "tformat")
 t("Dauntless Challenger", "불굴의 도전자", "talent name")
@@ -26545,7 +26545,7 @@ t("#Source# strikes at a vital spot on #target#!", "#Source2# #target#의 경혈
 t([[Using your deep knowledge of anatomy, you strike a target in a vital pressure point for %d%% weapon damage, bypassing their defense and evasion.
 		This strike inflicts terrible wounds inside the target's body, causing them to take physical damage equal to 100%% of any damage dealt during the attack each turn for 4 turns, increasing by %d%% each turn (so after 4 turns, they would have taken a total of %d%% damage).
 		If the target dies while under or from this effect their body will explode in a radius %d shower of bone and gore, inflicting physical damage equal to the current tick to all enemies and granting you 4 combo points.]], [[해부학 지식을 사용하여, 경혈을 찌릅니다. 이 공격은 %d%% 피해를 입히며, 회피도와 모든 피해 무효화 효과를 무시합니다.
-		이 공격은 대상의 몸에 큰 내상을 입히고, 대상은 4 턴 동안, 매 턴 가해지는 모든 피해의 100%%를 물리 피해로 받게됩니다. 또한 매 턴 피해량이 %d%% 씩 증가하게 됩니다 (즉 4 턴 후, 총 피해량의 %d%% 를 받게될 것입니다.).
+		이 공격은 대상의 몸에 큰 내상을 입히고, 대상은 4 턴 동안, 매 턴 가해지는 모든 피해의 100%%를 물리 피해로 받게 됩니다. 또한 매 턴 피해량이 %d%% 씩 증가하게 됩니다 (즉 4 턴 후, 총 피해량의 %d%% 를 받게 될 것입니다.).
 		대상이 이 효과 중에 죽거나, 이 효과로 인해 죽게되면, 몸이 폭발해 반경 %d 칸에 뼈와 살의 비가 내리게 됩니다. 폭발에 휘말린 적은, 경혈이 찔린 적에게 부여된 피해량을 물리 피해로 받습니다. 이로인해 연계 점수를 4 점 얻습니다.]], "tformat")
 
 
@@ -26576,7 +26576,7 @@ t("#Source# shatters '#Target#'.", "#Source1# #Target3# 파쇄합니다.", "logC
 t([[Release a powerful shout, doing %0.2f physical damage in a radius %d cone in front of you.
 		At level 5 the shout is so strong it shatters all incomming projectiles caught inside.
 		The damage increases with your Strength.]], [[강렬한 외침으로, 반경 %d 칸의 원뿔 범위 내에 %0.2f 물리 피해를 입힙니다.
-		기술 레벨이 5 일때, 외침은 너무나 강력해져, 다가오는 모든 투사체를 파쇄합니다.
+		기술 레벨이 5 일 때, 외침은 너무나 강력해져, 다가오는 모든 투사체를 파쇄합니다.
 		피해량은 힘에 비례하여 증가합니다.]], "tformat", {2,1})
 t("Second Wind", "새로운 활력", "talent name")
 t("Take a deep breath to recover %d stamina.  The stamina recovery improves with your Strength and Willpower.", "심호흡을 해 %d 기력을 회복합니다. 기력 회복은 힘과 의지에 비례하여 증가합니다.", "tformat")
@@ -26646,8 +26646,8 @@ t("You cannot use Last Stand without a shield!", "방패를 장비하지 않으�
 t([[You brace yourself for the final stand, increasing Defense and Armor by %d, maximum and current life by %d, but making you unable to move.
 		Your stand lets you concentrate on every blow, allowing you to avoid death from normally fatal wounds. You can only die when reaching -%d life.
 		If your life is below 0 when Last Stand ends it will be set to 1.
-		The increase in Defense and Armor is based on your Dexterity, and the increase in life is based on your Constitution and normal maximum life.]], [[최후의 저항을 위해 스스로를 준비시킵니다. 회피도와 방어력이 %d 상승하고, 최대 생명력과 현재 생명력이 %d 증가하지만, 이동할 수 없게됩니다.
-		매 타격에 극도로 집중하여, 치명적인 상처에서도 죽음을 피할 수 있게됩니다. 생명력이 -%d 에 달하지 않는 한, 죽지 않습니다.
+		The increase in Defense and Armor is based on your Dexterity, and the increase in life is based on your Constitution and normal maximum life.]], [[최후의 저항을 위해 스스로를 준비시킵니다. 회피도와 방어력이 %d 상승하고, 최대 생명력과 현재 생명력이 %d 증가하지만, 이동할 수 없게 됩니다.
+		매 타격에 극도로 집중하여, 치명적인 상처에서도 죽음을 피할 수 있게 됩니다. 생명력이 -%d 에 달하지 않는 한, 죽지 않습니다.
 		0 이하의 생명력에서 최후의 저항이 끝났다면, 생명력이 1 인 채로 살아남게 됩니다.
 		방어력과 회피도 증가는 민첩에 비례하여 증가하고, 생명력 증가량은 일반적인 최대 생명력 수치와 체격에 비례하여 증가합니다.]], "tformat")
 
@@ -26662,7 +26662,7 @@ t("Your body hardens and recovers quickly. When pushed below 30%% life, you inst
 t("Bloodspring", "피분수", "talent name")
 t("Have let Melinda be sacrificed", "멜린다가 희생되도록 놔둘 것", "_t")
 t([[When a single blow deals more than 15%% of your total life, a torrent of blood gushes from your body, creating a bloody tidal wave for 4 turns that deals %0.2f blight damage, heals you for 50%% of the damage done, and knocks foes back.
-		The damage increases with your Constitution.]], [[최대 생명력의 15%% 이상 피해를 한번에 받았을 때, 혈액의 급류가 뿜어져나와 선혈의 파도를 이룹니다. 파도는 4 턴 동안 지속되고 %0.2f 황폐 피해를 입히고 적을 뒤로 밀쳐내며, 피해량의 50%% 만큼 생명력을 회복합니다.
+		The damage increases with your Constitution.]], [[최대 생명력의 15%% 이상 피해를 한 번에 받았을 때, 혈액의 급류가 뿜어져나와 선혈의 파도를 이룹니다. 파도는 4 턴 동안 지속되고 %0.2f 황폐 피해를 입히고 적을 뒤로 밀쳐내며, 피해량의 50%% 만큼 생명력을 회복합니다.
 		피해량은 체격에 비례하여 증가합니다.]], "tformat")
 t("Eternal Guard", "영원한 수호", "talent name")
 t("Know the Block talent", "방패 막기 기술을 알고 있을 것", "_t")
@@ -26708,7 +26708,7 @@ t("#LIGHT_BLUE#%s reaches critical velocity!", "#LIGHT_BLUE#%s 초신속 상태�
 t([[When moving over 800%% speed for at least 3 steps in the same direction, you become so fast you can blink through obstacles as if they were not there.
 		While moving this fast you have 50%% chances to fully ignore an attack by displacing yourself (this may only happen once per turn).
 		Changing direction will break the effect.]], [[800%% 이상의 속도로 3 칸을 같은 방향으로 움직이면, 시전자는 너무나 빨라저서 장애물에 구애받지않고 뚫고나갈 수 있습니다.
-		초신속 상태로 움직이는 동안, 50%% 의 확률로 위치를 바꾸면서 공격을 피해 공격을 완전히 무시합니다. (이 효과는 한 턴에 한번 일어납니다)
+		초신속 상태로 움직이는 동안, 50%% 의 확률로 위치를 바꾸면서 공격을 피해 공격을 완전히 무시합니다. (이 효과는 한 턴에 한 번 일어납니다)
 		이동 방향을 바꾸면 효과가 사라집니다.]], "tformat")
 t("Tricky Defenses", "교묘한 방어", "talent name")
 t("Antimagic", "반마법", "_t")
@@ -26745,7 +26745,7 @@ t([[Surround yourself with a malevolent aura that stores damage you deal.
 		#LIGHT_STEEL_BLUE#시간:#LAST#  5 턴 동안 전체 속도를 %d%% 감소시킵니다.
 		#ORANGE#정신 :#LAST#  5 턴 동안 위력 %d%% 의 혼란을 겁니다
 
-		매 효과는 플레이어 턴으로 10 턴 당 한번 일어납니다.  이것은 보통의 재사용 대기시간과는 다릅니다.
+		매 효과는 플레이어 턴으로 10 턴 당 한 번 일어납니다.  이것은 보통의 재사용 대기시간과는 다릅니다.
 		피해량과 효과 강도는 교활에 비례하고, 피해한계량은 레벨에 비례합니다. 또한 적용 위력은 정신력과 주문력 중 높은 값을 적용합니다.
 		%s]], "tformat")
 t("Secrets of Telos", "텔로스의 비밀", "talent name")
@@ -26786,11 +26786,11 @@ t([[Surround yourself with an elemental aura that stores damage you deal.
 		#YELLOW#빛 :#LAST#		3 턴 동안 모든 기술의 재사용 대기시간이 20%% 줄어듭니다.
 		#LIGHT_GREEN#자연 :#LAST#		1 개의 부정적인 마법 효과를 제거하고, 부정적인 마법 효과에 2 턴 동안 면역이 됩니다.
 
-		매 효과는 10 턴 플레이어 턴 당 한번 일어납니다.  이것은 보통의 재사용 대기시간과는 다릅니다.
+		매 효과는 10 턴 플레이어 턴 당 한 번 일어납니다.  이것은 보통의 재사용 대기시간과는 다릅니다.
 		피해량과 몇몇 효과는 교활에 비례하고, 피해한계량은 레벨에 비례합니다.
 		%s]], "tformat")
 t("All physical criticals reduce the remaining cooldown of a random technique or cunning talent by 2.", "물리 치명타를 입힐 때마다, 전투 기술 혹은 교활 계통의 무작위한 기술 하나를 골라 재사용 대기시간을 2 턴 단축시킵니다.", "_t")
-t("All spell criticals reduce the remaining cooldown of a random spell/corruption/celestial/chronomancy talent by 2.", "주문 치명타를 입힐 때마다, 무작위한 주문 / 타락 / 천공 / 시공 제어 계통의 무작위한 기술 중 하나를 골라 재사용 대기시간을 2 턴 단축시킵니다.", "_t")
+t("All spell criticals reduce the remaining cooldown of a random spell/corruption/celestial/chronomancy talent by 2.", "주문 치명타를 입힐 때마다, 주문 / 타락 / 천공 / 시공 제어 계통의 무작위한 기술 중 하나를 골라 재사용 대기시간을 2 턴 단축시킵니다.", "_t")
 t("All mind criticals reduce the remaining cooldown of a random wild gift/psionic/afflicted talent by 2.", "정신 치명타를 입힐 때마다, 자연의 권능 / 초능력 / 고통 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 2 턴 단축시킵니다.", "_t")
 t("Eye of the Tiger", "호랑이의 눈", "talent name")
 t([[%s		
@@ -26860,7 +26860,7 @@ t([[You are used to a crowded party:
 		- you can swap places with friendly creatures in just one tenth of a turn as a passive effect.
 		- you can never damage your friends or neutral creatures while this talent is active.
 		- you love being surrounded by friends; for each friendly creature in sight you gain +10 to all saves and +3%% to global speed (max 15%%)
-		- every party member is also automatically granted Through The Crowd]], [[언제나 무리지어 다녔던 경험을 바탕으로,
+		- every party member is also automatically granted Through The Crowd]], [[언제나 무리 지어 다녔던 경험을 바탕으로,
 		- 동료와 위치를 바꿀 때 0.1 턴 만에 바꿀 수 있습니다 (이 효과는 해당 특수기술이 유지중이 아니더라도, 항상 지속적으로 적용됩니다).
 		- 이 기술이 유지되는 동안 절대 동료나 중립적인 존재에게 피해를 주지 않게 됩니다.
 		- 동료들과 함께 있는 것을 좋아하여, 시야내에 존재하는 동료의 수만큼 각각 모든 내성이 10씩 증가하고, 전체 속도가 3%% 씩 증가합니다 (최대 15%%)
@@ -26908,7 +26908,7 @@ t([[You fire a shot straight at your enemy's vital areas, wounding them terribly
 section "game/modules/tome/data/talents/uber/mag.lua"
 
 t("Spectral Shield", "영체 방패", "talent name")
-t("Know the Block talent, have cast 100 spells, and have a block value over 200", "방패 막기 기술을 알고있을 것, 마법을 100 번 이상 사용했을 것, 방패 막기 수치가 200 이상일 것", "_t")
+t("Know the Block talent, have cast 100 spells, and have a block value over 200", "방패 막기 기술을 알고 있을 것, 마법을 100 번 이상 사용했을 것, 방패 막기 수치가 200 이상일 것", "_t")
 t("By infusing your shield with raw magic, your block can now block any damage type.", "방패에 순수한 마력을 주입하여, 그 어떤 공격 속성도 방패를 뚫지 못하게 만듭니다.", "tformat")
 t("Ethereal Form", "초차원적 형상", "talent name")
 t("Have an effective defense of at least 40", "실질 회피도가 40 이상일 것", "_t")
@@ -27006,7 +27006,7 @@ t([[You can now control the recent past. Upon using this prodigy you gain a temp
 		While this effect holds you can use the prodigy again to rewrite history.
 		This prodigy splits the timeline. Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.]], [[얼마 전의 과거를 조작할 수 있게 되어, 20 턴의 시간 조작 효과를 얻게 됩니다.
 		이 기술을 사용하면, 기술이 지속되는 동안 이 기술을 다시 사용하여 언제든지 처음 기술을 사용한 순간으로 돌아올 수 있게 됩니다.
-		이 주문은 시간선을 분열시킵니다. 이 기술이 활성화 되어있을 때, 또 다른 시간선을 분열시키는 주문을 시전하는 것은 불가능합니다..]], "tformat")
+		이 주문은 시간선을 분열시킵니다. 이 기술이 활성화되어있을 때, 또 다른 시간선을 분열시키는 주문을 시전하는 것은 불가능합니다..]], "tformat")
 t("Unfold History", "역사 펼치기", "talent name")
 t("Rewrite the recent past to go back to when you cast Revisionist History.", "'수정론자의 역사 기록법' 이 지속되는 동안 사용할 수 있으며, 기술을 처음 사용한 순간으로 돌아가 역사를 다시 쓸 수 있게 됩니다.", "tformat")
 t("Cauterize", "상처 지지기", "talent name")
@@ -27016,10 +27016,10 @@ t([[Your inner flame is strong. Each time that you receive a blow that would kil
 		Each turn 10%% of the damage absorbed will be dealt by the flames. This will bypass resistance and affinity.
 		Warning: this has a cooldown.]], [[내면의 불꽃을 키워. 시전자의 목숨을 끊어버릴 일격이 날아오기 직전에 몸을 불태웁니다.
 		불꽃은 상처를 급속도로 지져 해당 턴에 받은 피해를 무효화시키지만, 8 턴 동안 상처가 불타오릅니다.
-		매 턴 마다 무효화시킨 피해량의 10%% 에 해당하는 피해를 받습니다. 이 피해는 피해 저항이나 속성 친화력을 무시합니다.
+		매 턴마다 무효화시킨 피해량의 10%% 에 해당하는 피해를 받습니다. 이 피해는 피해 저항이나 속성 친화력을 무시합니다.
 		알림 : 이 효과는 재사용 대기시간이 존재합니다.]], "tformat")
 t("Lich", "리치", "talent name")
-t("Is a living creature that knows necromancy", "강령술을 알고있는 살아있는 생명체일 것", "_t")
+t("Is a living creature that knows necromancy", "강령술을 알고 있는 살아있는 생명체일 것", "_t")
 t("Have completed the ritual", "의식을 모두 완료했을 것", "_t")
 t("#GREY#As you turn into a powerful undead you feel your body violently rejecting the Blood of Life.", "#GREY#강력한 언데드로 변하자, 당신의 몸이 생명의 피를 강하게 거부하는 것을 느꼈다.", "log")
 t([[#GREY#You feel your life slip away, only to be replaced by pure arcane forces! Your flesh starts to rot on your bones, and your eyes fall apart as you are reborn into a Lich!
@@ -27049,7 +27049,7 @@ t([[This is your true goal and the purpose of all necromancy - to become a power
 		리치는 마법, 의지, 교활 능력치가 12 상승하고, 60%% 확률로 치명타를 무시합니다. 또한 레벨 당 생명력 증가율이 +4 가 됩니다. (이 수치가 그대로 적용됩니다) 또한, 주문과 정신 내성이 +35 상승하며 마나 재생이 7 상승합니다.
 
 		리치는 다음 기술들이 포함된 새로운 종족 계열을 얻습니다.
-		- 끝나지않는 불생 : 리치의 신체는 극도로 강인합니다. 생명력이 1 이하로 떨어저도 살아남을 수 있고, 파괴되었을 때, 다시 재생할 수 있게됩니다.
+		- 끝나지않는 불생 : 리치의 신체는 극도로 강인합니다. 생명력이 1 이하로 떨어저도 살아남을 수 있고, 파괴되었을 때, 다시 재생할 수 있게 됩니다.
 		- 두려운 존재감 : 당신의 존재만으로도 만인의 결의를 깨부수기 충분합니다. 각종 내성, 피해량과 이동 속도를 감소시킵니다.
 		- 영원히 저주받을 자 : 절망과 파멸의 존재들이 당신의 곁에서 끊임없이 생성됩니다.
 		- 죽은 자들의 지휘관 : 자신을 포함한, 모든 언데드 군단 개개인에게 비 자연적인 힘을 불어넣어 주문력과 물리력을 증가시킵니다.
@@ -27065,10 +27065,10 @@ t([[Thaumaturgists have unlocked a deeper understanding of their spells, allowin
 		- Elemental Array Burst: a powerful, multi-elemental beam spell that can inflict all elemental ailments and can not be resisted
 		#CRIMSON#The fine spellcasting required for wide beams and all thaumaturgy spells can only happen while wearing cloth. Anything heavier will hinder the casting too much.]], [[주술사들은 주문에 대한 깊은 이해에 도달해, 새로운 방법으로 여러 원소를 혼합해 주문을 강력하게 강화합니다.
 		불꽃, 마나 쐐기, 번개, 파쇄의 나선 그리고 얼음 조각 주문들 영구적으로 3 칸 두께의 광선으로 변화합니다.
-		추가로, 주술 기술 계열에 접근할 수 있게됩니다.
+		추가로, 주술 기술 계열에 접근할 수 있게 됩니다.
 		- 주술의 보주 : 당신이 시전하는 주문을 그대로 복제하여 시전합니다.
 		- 다중 시전자 : 광선 주문을 사용할 때, 일정 확률로 다른 마도사 주문을 시전합니다.
-		- 후폭풍 : 광선을 시전하면서 이동할 수 있게됩니다.
+		- 후폭풍 : 광선을 시전하면서 이동할 수 있게 됩니다.
 		- 원소 배열 폭발 : 강력한, 다중 속성의 광선을 발사합니다. 이 주문은 모든 속성의 추가 효과를 가하고, 저항이 불가능합니다.
 		#CRIMSON#넓은 광선을 쏘기 위한 양질의 주문 시전과 모든 주술 주문의 시전을 위해서는, 천 옷을 입고 있어야 합니다. 그보다 무거운 장비는 주문 시전을 심각하게 방해합니다.]], "tformat")
 
@@ -27082,14 +27082,14 @@ t([[You accurately jump to the target and deal 200%% weapon damage to all foes w
 		When you jump you free yourself from any stun, daze and pinning effects.]], [[대상에게 정확하게 도약하여 대상과 주변 1 칸 반경의 적들에게 200%% 무기 피해를 주고 3 턴 동안 혼절시킵니다
 		도약할 때, 기절, 혼절, 속박 효과에서 벗어나게 됩니다.]], "tformat")
 t("You Shall Be My Weapon!", "나의 무기가 되어라!", "talent name")
-t("Be of size category 'big' or larger. This is also required to use it.", "몸집 크기가 '큼' 이상일 것. 습득 뿐만 아니라 사용시에도 필요.", "_t")
+t("Be of size category 'big' or larger. This is also required to use it.", "몸집 크기가 '큼' 이상일 것. 습득 뿐만 아니라 사용 시에도 필요.", "_t")
 t([[You deal a massive blow to your foe, smashing it for 350%% weapon damage, knocking it back 5 tiles, and knocking aside all foes in its path.
 		All targets affected are stunned for 3 turns.
 		For each size category over 'big' you gain an additional +80%% weapon damage.]], [[대상에게 강력한 일격을 날려, 350%% 무기 피해를 주고 5 칸 뒤로 밀어냅니다. 경로상의 모든 적이 밀려나갑니다
 		피해를 받은 대상은 3 턴 동안 기절합니다.
 		신체 크기가 '큼'보다 더 크다면, 크기가 한 단계 커질수록 피해량이 추가로 80%% 증가합니다.]], "tformat")
 t("Massive Blow", "*강력한* 일격", "talent name")
-t("Have dug at least 30 walls/trees/etc. and have dealt over 50000 damage with two-handed weapons", "30 번 이상의 굴착 경험이 있으며, 양손무기로 적에게 총 50,000 이상의 피해를 가할 것", "_t")
+t("Have dug at least 30 walls/trees/etc. and have dealt over 50000 damage with two-handed weapons", "30 번 이상의 굴착 경험이 있으며, 양손 무기로 적에게 총 50,000 이상의 피해를 가할 것", "_t")
 t([[You deal a massive blow to your foe, smashing it for 150%% weapon damage and knocking it back 4 tiles (ignoring knockback resistance or physical save).
 		If the knockback makes it hit a wall, it will smash down the wall, deal an additional 350%% weapon damage and apply the Counterstrike effect.]], [[적에게 강력한 일격을 날려, 150%% 무기 피해를 주고 4 칸 뒤로 밀어냅니다. (밀쳐냄 저항과 물리 내성을 무시합니다)
 		밀려난 적이 벽과 충돌할 경우, 벽이 파괴되고 350%% 무기 피해를 추가로 받습니다. 또한 반격 약화 효과를 적용합니다.]], "tformat")
@@ -27159,7 +27159,7 @@ t([[When casting damaging spells or mind attacks, the release of your willpower 
 		You and your allies take no damage from either effect.
 
 		Additionally, your fire damage bonus and resistance penetration is set to your current highest damage bonus and resistance penetration. This applies to all fire damage you deal.
-		The damage scales with your Spellpower or Mindpower.]], [[마법이나 정신공격을 가할 때, 의지를 해방시켜 운석을 불러내 적에게 떨어뜨릴 수 있게됩니다.
+		The damage scales with your Spellpower or Mindpower.]], [[마법이나 정신공격을 가할 때, 의지를 해방시켜 운석을 불러내 적에게 떨어뜨릴 수 있게 됩니다.
 		운석은 %0.2f 물리 피해와 %0.2f 화염 피해를 주며 반경 2 칸 내에 입히며, 영향을 받은 적을 3 턴 동안 기절시킵니다
 		반경 3 칸 범위에 용암이 형성되며, 매 턴 %0.2f 화염 피해를 8 턴 동안 가합니다. 용암은 모든 지형을 파괴합니다.
 		시전자와 우호적인 대상은 피해도, 영향도 받지 않습니다.
@@ -27181,7 +27181,7 @@ t("Unbreakable Will", "깨지지않는 의지", "talent name")
 t("#LIGHT_BLUE#%s's unbreakable will shrugs off the effect!", "#LIGHT_BLUE#%s 의 깨어지지 않는 의지가 효과를 무시했다!", "logSeen")
 t([[Your will is so strong that you simply ignore mental effects used against you.
 		This effect can only occur once every 5 turns.]], [[극한의 의지로, 정신 상태효과를 무시할 수 있게 됩니다.
-		이 효과는 5 턴 마다 한 번씩 일어납니다.]], "tformat")
+		이 효과는 5 턴마다 한 번씩 일어납니다.]], "tformat")
 t("Spell Feedback", "주문 반작용", "talent name")
 t("Antimagic", "반마법", "_t")
 t("#LIGHT_BLUE##Source# punishes #Target# for casting a spell!", "#LIGHT_BLUE##Source2# #Target# 에게 주문 시전의 징벌을 내린다!", "logCombat")
@@ -27228,7 +27228,7 @@ t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to le
 		
 		#CRIMSON#이 직업 진화는 직업과 캐릭터를 근본적으로, 아주 크게 변화시킵니다. 너무 가벼이 선택하지 마십시오.#LAST#
 
-		모든 전투 기술 계통과 해제 가능한 천공 계통 기술들은 적들 사이에 핏자국을 흩뿌리는 저주받은 기술로 대체됩니다. 광휘는 암울로 변하고, 새로운 전투 방식과 방어 능력을 얻게됩니다.
+		모든 전투 기술 계통과 해제 가능한 천공 계통 기술들은 적들 사이에 핏자국을 흩뿌리는 저주받은 기술로 대체됩니다. 광휘는 암울로 변하고, 새로운 전투 방식과 방어 능력을 얻게 됩니다.
 
 		다음 기술 계열이 변경됩니다 :
 		- #GOLD#광휘#LAST#는 #CRIMSON#암울#LAST#로 변합니다 : 증오를 발산해, 적들을 방해합니다.
@@ -27252,7 +27252,7 @@ section "game/modules/tome/data/talents/undeads/ghoul.lua"
 t("Ghoul", "구울", "talent name")
 t([[Improves your ghoulish body, increasing Strength and Constitution by %d.
 		Your body also becomes incredibly resilient to damage; you can never take a blow that deals more than %d%% of your maximum life.]], [[구울의 신체를 개선하여, 힘과 체격 능력치를 %d 만큼 증가시킵니다.
-		또한 신체의 피해 저항력이 크게 증가하여, 한번의 타격에 최대 생명력의 %d%% 이상은 절대 피해를 받지 않게 됩니다.]], "tformat")
+		또한 신체의 피해 저항력이 크게 증가하여, 한 번의 타격에 최대 생명력의 %d%% 이상은 절대 피해를 받지 않게 됩니다.]], "tformat")
 t("Ghoulish Leap", "구울의 도약", "talent name")
 t([[Leap toward your target.
 		When you land your global speed is increased by %d%% for 4 turns.]], [[목표 지점으로 도약합니다.
@@ -27263,8 +27263,8 @@ t([[Vomit on the ground around you, healing any undead in the area and damaging 
 		Lasts %d turns and deals %d blight damage or heals %d life.
 		Creatures standing in the retch also have %d%% chance to remove a physical effect each turn; undeads will be stripped from a detrimental effect while others will be stripped from a beneficial effect.
 		When you stand in your own retch your racial -20%% global speed is cancelled.]], [[주변의 땅에 구토를 해, 해당 지역의 언데드에게는 치료 효과를 주고 그 밖의 존재에게는 피해를 줍니다.
-		이는 %d 턴간 지속되며, 황폐 속성의 피해를 %d 만큼 주거나 생명력을 %d 만큼 치료합니다.
-		해당 지역에 있는 동안에는, 매 턴 마다 %d%% 확률로 하나의 물리적 상태이상이 제거됩니다. (언데드는 부정적인 상태이상이, 다른 생명체들은 이로운 상태이상이 제거됩니다)
+		이는 %d 턴 동안 지속되며, 황폐 속성의 피해를 %d 만큼 주거나 생명력을 %d 만큼 치료합니다.
+		해당 지역에 있는 동안에는, 매 턴마다 %d%% 확률로 하나의 물리적 상태이상이 제거됩니다. (언데드는 부정적인 상태이상이, 다른 생명체들은 이로운 상태이상이 제거됩니다)
 		당신이 구역질 낸에 있는 동안 구울의 전체속도 -20%% 변동치가 사라집니다.]], "tformat")
 t("Gnaw", "물어뜯기", "talent name")
 t("Risen Ghoul", "일어선 구울", "_t")
@@ -27276,9 +27276,9 @@ t([[Gnaw your target for %d%% damage.  If your attack hits, the target may be in
 		Each turn, Ghoul Rot inflicts %0.2f blight damage.
 		Targets suffering from Ghoul Rot rise as friendly ghouls when slain.
 		Ghouls last for %d turns and can use Gnaw, Ghoulish Leap, Stun, and Rotting Disease.
-		The blight damage scales with your Constitution.]], [[대상을 물어뜯어 %d%% 피해를 가합니다. 공격이 성공하면, 목표는 %d 턴간 구울의 부패 에 감염됩니다.
+		The blight damage scales with your Constitution.]], [[대상을 물어뜯어 %d%% 피해를 가합니다. 공격이 성공하면, 목표는 %d 턴 동안 구울의 부패 에 감염됩니다.
 		매 턴, 구울의 부패로 인해 %0.2f 만큼의 황폐 속성 피해릅 입게 됩니다.
-		가울의 부패에 감염된 체 사망한 적은 다시 우호적인 구울로 일어나게됩니다.
+		가울의 부패에 감염된 체 사망한 적은 다시 우호적인 구울로 일어나게 됩니다.
 		구울은 %d 턴 동안 지속되며, 물어뜯기, 구울의 도약, 기절, 그리고 부패성 독을 사용합니다.
 		황폐 피해는 체격에 비례하여 증가합니다.]], "tformat")
 
@@ -27295,14 +27295,14 @@ t([[A Lich's body is extremely hard to fully destroy. You only die with your lif
 		If you have not killed one when the duration expires or if you are killed again in this duration, you die permanently.
 		If this happens this power can never re-activate, even if you managed to resurrect by other means.]], [[리치의 신체는 완전히 파괴되기에는 너무나도 튼튼합니다. 생명력이 -%d 에 도달하기 전까지 죽지 않습니다.
 		추가로, 신체가 파괴될 지라도, 일정 조건 하에 최대 생명력으로 회복됩니다.
-		이 효과가 처음 발생하면, 리치로의 변신이 완료되어, 리치의 모든 힘을 누릴 수 있게됩니다.
+		이 효과가 처음 발생하면, 리치로의 변신이 완료되어, 리치의 모든 힘을 누릴 수 있게 됩니다.
 		그 이후로도 죽음에서 살아남을 수 있지만, %d 턴 내에 단일/보스/정예 보스를 쓰러뜨려, 그 정수를 소모해 스스로를 유지해야 합니다.
-		지속 시간 중, 해당하는 적을 쓰러뜨리지 못했거나, 지속 시간 중에 또 다시 살해당할 경우, 영구히 사망하게됩니다.
+		지속 시간 중, 해당하는 적을 쓰러뜨리지 못했거나, 지속 시간 중에 또 다시 살해당할 경우, 영구히 사망하게 됩니다.
 		이 효과가 발생하면, 설령 다른 방식으로 부활했다 하더라도, 이 기술은 절대 재사용될 수 없습니다.]], "tformat")
 t("Frightening Presence", "두려운 존재감", "talent name")
 t([[Your mere presence is terrying to any foes that dare stand against you.
 		Every turn all foes in radius %d must make a metal save against your spellpower/physical power (whichever is highest) or become frightened (bypassing fear immunity), reducing all their saves by %d, all damage by %d%% and movement speed by %d%%.
-		If they successfully resist, they are immune for %d turns.]], [[시전자의 존재만으로도 감히 대적하려는 적들을 겁에 질리게합니다.
+		If they successfully resist, they are immune for %d turns.]], [[시전자의 존재만으로도 감히 대적하려는 적들을 겁에 질리게 합니다.
 		매 턴, 반경 %d 칸 내의 모든 적들은 시전자의 물리력, 주문력 중 높은 수치에 대항한 정신 내성 판정을 하여, 실패할 경우 겁에 질려, (공포 면역력을 무시합니다) 모든 내성이 %d 감소하고, 가하는 모든 피해량이 %d%% 줄어들고 이동속도가 %d%% 감소합니다.
 		판정에 성공할 경우, %d 턴 동안 이 효과에 면역이 됩니다.]], "tformat")
 t("Shadow Invoke Darkness", "어둠을 부르는 그림자", "talent name")
@@ -27312,11 +27312,11 @@ t([[Bathes the target in flames doing %0.2f damage
 		피해는 마법에 비례하여 증가합니다]], "tformat")
 t("Doomed For Eternity", "영원히 저주받을 자", "talent name")
 t([[While this ability is active, you will continually call up to %d level %d shadows to aid you in battle. Shadows are weak combatants that can: Use Arcane Reconstruction to heal themselves (level %d), Blindside their opponents (level %d), and Phase Door from place to place.
-		Shadows ignore %d%% of the damage dealt to them by their master.]], [[이 기술이 활성화 된 동안, 최대 %d 레벨의 그림자 %d 체를 지속적으로 소환해, 전투를 돕게합니다. 그림자는 비교적 약한 전투원이지만 다음과 같은 기술을 사용할 수 있습니다 : 기술 레벨 %d 의 비전 재건을 사용해 스스로를 회복합니다 / 기술 레벨 %d 의 그림자 기습으로 적을 공격합니다 / 위상 관문으로 순간 이동합니다.
+		Shadows ignore %d%% of the damage dealt to them by their master.]], [[이 기술이 활성화된 동안, 최대 %d 레벨의 그림자 %d 체를 지속적으로 소환해, 전투를 돕게 합니다. 그림자는 비교적 약한 전투원이지만 다음과 같은 기술을 사용할 수 있습니다 : 기술 레벨 %d 의 비전 재건을 사용해 스스로를 회복합니다 / 기술 레벨 %d 의 그림자 기습으로 적을 공격합니다 / 위상 관문으로 순간이동합니다.
 		그림자는 주인이 가한 피해의 %d%% 를 무시합니다.]], "tformat")
 t("Commander of the Dead", "죽은 자들의 지휘관", "talent name")
 t([[You are so full with power that it overflows out of you whenever you cast a spell.
-		Upon spell cast you have %d%% chances to boost the physical power, spellpower, mindpower and all saves of all friendly undeads in sight (including yourself) by %d for 4 turns.]], [[주문을 시전할 때 마다, 강력한 힘이 끓어 넘치게됩니다.
+		Upon spell cast you have %d%% chances to boost the physical power, spellpower, mindpower and all saves of all friendly undeads in sight (including yourself) by %d for 4 turns.]], [[주문을 시전할 때마다, 강력한 힘이 끓어 넘치게 됩니다.
 		주문을 시전할 때마다 %d%% 확률로 시야 내의 모든 우호적인 언데드들의 물리력, 주문력, 정신력과 모든 내성을 4 턴 동안 %d 증가시킵니다. 시전자도 이 효과의 영향을 받습니다.]], "tformat")
 
 
@@ -27334,7 +27334,7 @@ t("Your undead bones are very resilient, reducing the duration of all detrimenta
 t("Re-assemble", "재구성", "talent name")
 t([[Reposition some of your bones, healing yourself for %d.
 		At level 5, you will gain the ability to completely re-assemble your body should it be destroyed (can only be used once).]], [[뼈를 맞춰, 생명력을 %d 회복합니다.
-		기술 레벨 5 일 때, 당신은 완전한 파괴속에서 다시 완전하게 재구성 될 수 있습니다. (사망시 부활할 수 있으며, 오직 한번만 발동됩니다).]], "tformat")
+		기술 레벨 5 일 때, 당신은 완전한 파괴속에서 다시 완전하게 재구성 될 수 있습니다. (사망시 부활할 수 있으며, 오직 한 번만 발동됩니다).]], "tformat")
 
 
 ------------------------------------------------
@@ -27932,7 +27932,7 @@ Now close this dialog and go west (left) until you arrive in a bigger area.
 - 방향키나 숫자 패드를 누르면 해당 방향으로 움직입니다.
 - Shift + 방향키를 누르면 해당 방향으로 뛰어갑니다.
 - 숫자 패드의 5를 누르면 1 턴을 넘깁니다 (아무것도 하지 않습니다).
-- z를 누르면 뭔가 위험한 것이나 흥미로운 것을 찾을 때 까지 "자동 탐색" 을 합니다.
+- z를 누르면 뭔가 위험한 것이나 흥미로운 것을 찾을 때까지 "자동 탐색" 을 합니다.
 
 #GOLD#마우스:#WHITE#
 - 맵의 한 지점을 클릭하면 그곳으로 이동합니다.
@@ -27943,7 +27943,7 @@ Now close this dialog and go west (left) until you arrive in a bigger area.
 
 Shift를 누른 상태에서 마우스로 클릭 + 드래그하거나, "L" 을 누르고 Shift + 이동 키를 누르는 것으로 맵을 스크롤할 수 있습니다.
 
-이제 이 대화창을 닫고, 더 넓은 구역에 도착할 때 까지 서쪽(왼쪽)으로 가세요.
+이제 이 대화창을 닫고, 더 넓은 구역에 도착할 때까지 서쪽(왼쪽)으로 가세요.
 ]], "_t")
 
 
@@ -28626,9 +28626,9 @@ Remember to use your talents, infusions and runes to win the fight.
 #GOLD#항상 싸움을 제어하세요.#WHITE#
 
 전투가 끝나면 아마 당신의 생명력은 낮아졌을 것이고, 당신은 잃어버린 생명력과 원천력을 회복하기 위해 잠깐 쉴 수 있습니다.
-휴식하려면 'R'을 누르거나 당신을 마우스 우클릭하세요. 다른 생물이 방해하지 않는 한, 완전히 회복될 때 까지 휴식할 것입니다.
+휴식하려면 'R'을 누르거나 당신을 마우스 우클릭하세요. 다른 생물이 방해하지 않는 한, 완전히 회복될 때까지 휴식할 것입니다.
 
-이제 한번에 뱀 한 마리와만 싸울 수 있게 몇 걸음 뒤로 가서, 살아남으세요.
+이제 한 번에 뱀 한 마리와만 싸울 수 있게 몇 걸음 뒤로 가서, 살아남으세요.
 싸움에서 승리하기 위해 당신의 기술들과 주입물들, 그리고 룬들을 사용하는 걸 잊지 마세요.
 ]], "_t")
 
@@ -28683,7 +28683,7 @@ Now go forward and try using your talents:
 
 기술들에는 세 가지 유형이 있는데,
 * #GOLD#발동형#WHITE#: 당신이 사용했을 때 발동되며 즉각적인 효과를 내는 기술입니다.
-* #GOLD#유지형#WHITE#: 한 번 활성화되면 비활성화될 때 까지 효과가 유지되는 기술입니다. 이 유형은 일반적으로 당신이 사용 가능한 원천력의 최대치를(이 경우에는 기력을) 감소시킵니다.
+* #GOLD#유지형#WHITE#: 한 번 활성화되면 비활성화될 때까지 효과가 유지되는 기술입니다. 이 유형은 일반적으로 당신이 사용 가능한 원천력의 최대치를(이 경우에는 기력을) 감소시킵니다.
 * #GOLD#지속형#WHITE#: 이로운 효과를 항상 제공하는 기술입니다.
 
 어떤 기술들은 기술의 대상이 필요합니다. 그런 기술을 사용하면 당신이 커서로 대상을 지정할 수 있도록 인터페이스가 바뀔 것인데,
@@ -29067,7 +29067,7 @@ This has no effect on gameplay at all but it is fun!
 이제부터 비키니나 맨키니를 입고 시작하는 캐릭터를 생성할 수 있습니다.
 게임 플레이 자체에 영향은 없지만 재밌잖아요!
 
-#{bold}#또한 만약에 비키니/맨키니를 절대 벗지 않은 채로 게임에서 승리하면, 도전 과제를 하나 달성하실 수 있습니다!#{normal}#
+#{bold}#또한 만약에 비키니/맨키니를 절대 벗지 않은 채로 게임에서 승리하면, 업적을 하나 달성하실 수 있습니다!#{normal}#
 
 #LIGHT_GREEN#이건 기부자 전용 혜택입니다. 지원 고마워요!
 ]], "_t")
@@ -29161,7 +29161,7 @@ Insane features:#YELLOW#
 - 희귀 등급 적들이 매우 자주 등장하며 랜덤 보스들이 등장하기 시작함
 - 보스들은 랜덤한 기술들을 가지게 됨
 - 모든 적의 생명력이 20% 증가
-- 탐험 모드가 아니라면 광기 난이도의 도전 과제를 달성 가능
+- 탐험 모드가 아니라면 광기 난이도의 업적을 달성 가능
 
 #WHITE#재미있고 불합리한 죽음에 수없이 고통받으시길!
 ]], "_t")
@@ -29196,7 +29196,7 @@ Madness features:#YELLOW#
 - 희귀 등급 적들이 매우 자주 등장하며 랜덤 보스들이 등장하기 시작함
 - 보스들은 랜덤한 기술들을 가지게 됨
 - 플레이어가 사냥당합니다! 랜덤하게 특정 범위 내의 모든 적들이 플레이어의 위치를 알게 됨
-- 탐험 모드가 아니라면 광란 난이도의 도전 과제를 달성 가능
+- 탐험 모드가 아니라면 광란 난이도의 업적을 달성 가능
 
 #WHITE#재미있고 불합리한 죽음에 수없이 고통받으시길!
 ]], "_t")
@@ -29418,7 +29418,7 @@ It slowly replenishes over time.
 직업 특징:#YELLOW#
 - 어둠과 얼음의 주문을 시전하여 적들을 부숴버린다.
 - 언데드 하수인 군단을 소환하여 부린다.
-- 하수인들을 장기말로 이용해, 그들을 여러가지 잔혹하고 비정상적인 방법으로 희생시킨다.
+- 하수인들을 장기말로 이용해, 그들을 여러 가지 잔혹하고 비정상적인 방법으로 희생시킨다.
 - 일생일대의 과제인 리치화를 시도한다.#WHITE#
 
 모든 마법사들은 주문을 시전하기 위해 마나를 사용합니다.
@@ -30015,9 +30015,9 @@ t("The target is near a font of life, granting %+0.2f life regeneration, %+0.2f 
 t("Spellblaze Scar", "마법 폭발의 상처", "floorEffect desc")
 t("The target is near a spellblaze scar, granting +25% spell critical chance, +10% fire and blight damage but critical spells will drain arcane forces.", "마법폭발의 상처 효과 : 주문 치명타 확률 +25% / 화염 속성 피해량 +10% / 황폐 속성 피해량 +10% / 주문 치명타시 해당 원천력이 추가로 소모됨.", "_t")
 t("Blighted Soil", "황폐한 토양", "floorEffect desc")
-t("The target is walking on blighted soil, reducing diseases resistance by 60% and giving all attacks a 40% chance to infect the target with a random disease (can only happen once per turn).", "황폐한 토양 효과 : 질병 면역력 -60% / 공격 성공시 40%의 확률로 (한 턴당 한번씩) 목표가 임의의 질병에 걸림.", "_t")
+t("The target is walking on blighted soil, reducing diseases resistance by 60% and giving all attacks a 40% chance to infect the target with a random disease (can only happen once per turn).", "황폐한 토양 효과 : 질병 면역력 -60% / 공격 성공 시 40%의 확률로 (한 턴당 한 번씩) 목표가 임의의 질병에 걸림.", "_t")
 t("Glimmerstone", "점멸석", "floorEffect desc")
-t("The target is affected by a glimmerstone, its next attack will try to daze.", "점멸석 효과 : 다음 공격시 상대를 일정 확률로 혼절.", "_t")
+t("The target is affected by a glimmerstone, its next attack will try to daze.", "점멸석 효과 : 다음 공격 시 상대를 일정 확률로 혼절.", "_t")
 t("Protective Aura", "보호의 아우라", "floorEffect desc")
 t("The target is near a protective aura, granting +%d armour and +%d physical save.", "보호의 아우라 효과 : 방어력 +%d / 물리 내성 +%d.", "tformat")
 t("Antimagic Bush", "반마법 덤불", "floorEffect desc")
@@ -30029,7 +30029,7 @@ t("The target is in a whistling vortex, granting +%d ranged defense, -%d ranged 
 t("Fell Aura", "격렬한 기운", "floorEffect desc")
 t("The target is surrounded by a fell aura, granting 40% critical damage bonus but -20% to all resistances.", "격렬한 기운 효과 : 치명타 피해량 +40% 추가 / 전체 저항 -20.", "_t")
 t("Slimey Pool", "슬라임 웅덩이", "floorEffect desc")
-t("The target is walking on slime. Decreasing movement speed by 20% and dealing 20 slime damage to any creatures attacking it.", "슬라임 웅덩이 효과 : 이동 속도 -20% / 근접 공격시 슬라임 속성 피해량 +20.", "_t")
+t("The target is walking on slime. Decreasing movement speed by 20% and dealing 20 slime damage to any creatures attacking it.", "슬라임 웅덩이 효과 : 이동 속도 -20% / 근접 공격 시 슬라임 속성 피해량 +20.", "_t")
 
 
 ------------------------------------------------
@@ -30056,7 +30056,7 @@ t("+Mana Overflow", "+마나 범람", "_t")
 t("#Target# stops overflowing mana.", "#Target#의 마나가 범람을 끝냈다.", "_t")
 t("-Mana Overflow", "-마나 범람", "_t")
 t("Stoned", "석화", "_t")
-t("The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "대상이 돌로 변함 : 바닥에 고정됨 / 행동할 수 없음 / 최대 생명력의 30% 이상의 피해를 한번에 받으면 부서져 즉사 / 독과 상처에 면역 / 물리 저항 +20% / 화염 저항 +80% / 전기 저항 +50%", "_t")
+t("The target has been turned to stone: it is rooted in place, unable to act, and may be shattered by a single blow dealing more than 30% of its maximum life.  It's new form makes it immune to being poisoned or cut, and grants improved physical(+20%), fire(+80%) and lightning(+50%) resistances.", "대상이 돌로 변함 : 바닥에 고정됨 / 행동할 수 없음 / 최대 생명력의 30% 이상의 피해를 한 번에 받으면 부서져 즉사 / 독과 상처에 면역 / 물리 저항 +20% / 화염 저항 +80% / 전기 저항 +50%", "_t")
 t("stone", "암석", "effect subtype")
 t("#Target# turns to #GREY#STONE#LAST#!", "#Target1# #GREY#석화#LAST#됐다!", "_t")
 t("+Stoned", "+석화", "_t")
@@ -30336,7 +30336,7 @@ t("Redux", "회귀", "_t")
 t("Chronomancy spells with cooldown less than %d will not go on cooldown when cast.", "%d 턴 이하의 재사용 대기시간을 가진 시공 계열 기술의 대기시간 즉시 초기화.", "tformat")
 t("Target is destabilized and in %d turns will start suffering %0.2f temporal damage per turn.  If it dies with this effect active after the damage starts it will explode.", "시간의 흐름 속에서 불안정한 상태임 : %d 턴 동안 %0.2f 시간 피해를 매 턴 입음 / 효과 중에 사망시 폭발.", "tformat")
 t("Temporal Destabilization", "시간적 불안성", "_t")
-t("Target is destabilized and suffering %0.2f temporal damage per turn.  If it dies with this effect active it will explode.", "%0.2f 시간 피해를 턴 마다 입음 / 효과 중에 사망시 폭발.", "tformat")
+t("Target is destabilized and suffering %0.2f temporal damage per turn.  If it dies with this effect active it will explode.", "%0.2f 시간 피해를 턴마다 입음 / 효과 중에 사망시 폭발.", "tformat")
 t("#Target# is unstable.", "#Target# 의 시간은 불안정하다.", "_t")
 t("+Temporal Destabilization", "+시간적 불안성", "_t")
 t("#Target# has regained stability.", "#Target2# 시간적 안정을 되찾았다.", "_t")
@@ -30391,19 +30391,19 @@ t("cross tier", "압도효과", "effect subtype")
 t("+Spellshocked", "+주문 충격", "_t")
 t("-Spellshocked", "-주문 충격", "_t")
 t("Rotting Disease", "부패성 질병", "_t")
-t("The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 체격 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
+t("The target is infected by a disease, reducing its constitution by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 체격 -%d / 매 턴마다 황폐 피해 %0.2f.", "tformat")
 t("#Target# is afflicted by a rotting disease!", "#Target2# 부패성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the rotting disease.", "#Target2# 부패성 질병에서 벗어났다.", "_t")
 t("Decrepitude Disease", "노화성 질병", "_t")
-t("The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 민첩 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
+t("The target is infected by a disease, reducing its dexterity by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 민첩 -%d / 매 턴마다 황폐 피해 %0.2f.", "tformat")
 t("#Target# is afflicted by a decrepitude disease!", "#Target2# 노화성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the decrepitude disease.", "#Target2# 노화성 질병에서 벗어났다.", "_t")
 t("Weakness Disease", "약화성 질병", "_t")
-t("The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 힘 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
+t("The target is infected by a disease, reducing its strength by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 힘 -%d / 매 턴마다 황폐 피해 %0.2f.", "tformat")
 t("#Target# is afflicted by a weakness disease!", "#Target2# 약화성 질병에 고통받고있다!", "_t")
 t("#Target# is free from the weakness disease.", "#Target2# 약화성 질병에서 벗어났다.", "_t")
 t("Woeful Disease", "고통의 질병", "_t")
-t("The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 힘, 민첩, 체격 -%d / 매 턴 마다 황폐 피해 %0.2f.", "tformat")
+t("The target is infected by a disease, reducing its strength, constitution, dexterity by %d and doing %0.2f blight damage per turn.", "질병에 감염됨 : 힘, 민첩, 체격 -%d / 매 턴마다 황폐 피해 %0.2f.", "tformat")
 t("#Target# is afflicted by a woeful disease!", "#Target2# 고통의 질병에 고통받고있다!", "_t")
 t("#Target# is free from the woeful disease.", "#Target2# 고통의 질병에서 벗어났다.", "_t")
 t("Woeful Darkness", "고통의 어둠", "_t")
@@ -30413,7 +30413,7 @@ t("+Woeful Darkness", "+고통의 어둠", "_t")
 t("#Target# looks more determined.", "#Target2# 고통의 어둠에서 벗어났다.", "_t")
 t("-Woeful Darkness", "-고통의 어둠", "_t")
 t("Woeful Corrosion", "고통의 부식", "_t")
-t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "산성 물질에 덮힘 : 매 턴 마다 산성 피해 %0.2f.", "tformat")
+t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "산성 물질에 덮힘 : 매 턴마다 산성 피해 %0.2f.", "tformat")
 t("#Target# is covered in acid!", "#Target2# 고통의 부식에 휩쌓였다!", "_t")
 t("#Target# is free from the acid.", "#Target2# 고통의 부식에서 벗어났다.", "_t")
 t("Woeful Cripple", "고통의 무력화", "_t")
@@ -30563,7 +30563,7 @@ t("#Target# is filled with the Sun's fury!", "#Target1# 태양의 분노로 가�
 t("+Sun's Vengeance", "+태양의 복수", "_t")
 t("-Sun's Vengeance", "-태양의 복수", "_t")
 t("Suncloak", "태양 망토", "_t")
-t("The target is protected by the sun, increasing their spell casting speed by %d%%, reducing spell cooldowns by %d%%, and preventing damage over %d%% of your maximum life from a single hit.", "태양이 보호 중 :시전 속도 +%d%% / 재사용 대기시간 %d%% 감소 / 최대 생명력의 %d%% 이상의 피해를 한번에 받지 않음.", "tformat")
+t("The target is protected by the sun, increasing their spell casting speed by %d%%, reducing spell cooldowns by %d%%, and preventing damage over %d%% of your maximum life from a single hit.", "태양이 보호 중 :시전 속도 +%d%% / 재사용 대기시간 %d%% 감소 / 최대 생명력의 %d%% 이상의 피해를 한 번에 받지 않음.", "tformat")
 t("#Target# is energized and protected by the Sun!", "#Target2# 태양의 보호로부터 힘을 얻는다!", "_t")
 t("+Suncloak", "+태양 망토", "_t")
 t("#Target#'s solar fury subsides.", "#Target#의 태양의 보호가 가라앉는다.", "_t")
@@ -30627,7 +30627,7 @@ t("Target is randomly teleporting every turn.", "매 턴 무작위로 순간이�
 t("+Blink", "+점멸", "_t")
 t("-Blink", "-점멸", "_t")
 t("Dimensional Anchor", "차원의 닻", "_t")
-t("The target is unable to teleport and takes %0.2f temporal and %0.2f physical damage if they try.", "순간 이동 불가능 / 순간 이동 시도 시 %0.2f 시간 피해와 %0.2f 물리 피해 받음.", "tformat")
+t("The target is unable to teleport and takes %0.2f temporal and %0.2f physical damage if they try.", "순간이동 불가능 / 순간이동 시도 시 %0.2f 시간 피해와 %0.2f 물리 피해 받음.", "tformat")
 t("slow", "감속", "effect subtype")
 t("#Target# is anchored.", "#Target2# 닻에 묶였다.", "_t")
 t("+Anchor", "+차원의 닻", "_t")
@@ -30678,8 +30678,8 @@ t("#Target# has returned to its natural state.", "#Target2# 다시 정상적인 
 t("-Regression", "-퇴행", "_t")
 t("The target is being removed from the timeline and is taking %0.2f temporal damage per turn.", "시간선에서 제거됨 : 매 턴 %0.2f 시간 피해 받음.", "tformat")
 t("#Target# is being being removed from the timeline!", "#Target2# 시간선에서 사라지기 시작했다!", "_t")
-t("#Target# survived the attenuation.", "#Target1# 존재 희석으로 부터 살아남았다.", "_t")
-t("%s has been removed from the timeline!", "%s 시간선으로 부터 삭제됐다!", "logSeen", nil, {"이"})
+t("#Target# survived the attenuation.", "#Target1# 존재 희석으로부터 살아남았다.", "_t")
+t("%s has been removed from the timeline!", "%s 시간선으로부터 삭제됐다!", "logSeen", nil, {"이"})
 t("Attenuate", "존재 희석", "_t")
 t("The target is being grounded in the timeline and is healing %0.2f life per turn.", "이 시간선 내에서 확실하게 존재함 : 턴 당 생명력 재생 +%0.2f.", "tformat")
 t("#Target# is being being grounded in the timeline!", "이 시간선 내에서의 #Target#의 존재는 확고하다!", "_t")
@@ -30792,7 +30792,7 @@ t("The target is hexed, granting it %d%% chance each turn to be dazed for 3 turn
 t("+Pacification Hex", "+진정의 비술", "_t")
 t("-Pacification Hex", "-진정의 비술", "_t")
 t("Burning Hex", "화염의 비술", "_t")
-t("The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "비술에 걸림 : 기술 사용시 %0.2f 화염 피해 받음 / 기술 재사용 대기시간 증가 %s + 1 턴.", "tformat")
+t("The target is hexed.  Each time it uses an ability it takes %0.2f fire damage, and talent cooldowns are increased by %s plus 1 turn.", "비술에 걸림 : 기술 사용 시 %0.2f 화염 피해 받음 / 기술 재사용 대기시간 증가 %s + 1 턴.", "tformat")
 t("#Target# is hexed!", "#Target2# 비술에 걸렸다!", "_t")
 t("+Burning Hex", "+화염의 비술", "_t")
 t("-Burning Hex", "-화염의 비술", "_t")
@@ -30827,7 +30827,7 @@ t("+Retched", "+구역질", "_t")
 t("#Target# speeds down outside of the retch.", "#Target2# 원래 속도로 돌아왔다.", "_t")
 t("-Retched", "-구역질", "_t")
 t("Shadow Cut", "그림자 상처", "_t")
-t("Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "거대한 그림자 상처가 남 : 매 턴 %0.2f 암흑 피해 받음 / 시전자가 이 대상을 공격시 생명력 %d 회복.", "tformat")
+t("Huge shadow cut that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "거대한 그림자 상처가 남 : 매 턴 %0.2f 암흑 피해 받음 / 시전자가 이 대상을 공격 시 생명력 %d 회복.", "tformat")
 t("#Target# starts to bleed darkness.", "#Target#의 그림자 상처에서 피가 흘러나온다.", "_t")
 t("+Shadow Cut", "+그림자 상처", "_t")
 t("#Target# stops bleeding darkness.", "#Target#의 그림자 상처가 아물었다.", "_t")
@@ -31084,7 +31084,7 @@ t("+Harassed", "+유린됨", "_t")
 t("#Target# is no longer harassed.", "#Target2# 더 이상 유린의 효과를 받지 않는다.", "_t")
 t("-Harassed", "-유린됨", "_t")
 t("Dominated", "지배됨", "_t")
-t("The target has been dominated.  It is unable to move and has lost %d armor and %d defense. Attacks from %s gain %d%% damage penetration.", "이동 불가 / 방어력 -%d / 회피도 -%d / %s으로 부터의 공격은 %d%% 의 저항 관통이 적용됨.", "tformat")
+t("The target has been dominated.  It is unable to move and has lost %d armor and %d defense. Attacks from %s gain %d%% damage penetration.", "이동 불가 / 방어력 -%d / 회피도 -%d / %s으로부터의 공격은 %d%% 의 저항 관통이 적용됨.", "tformat")
 t("#F53CBE##Target# has been dominated!", "#F53CBE##Target2# 지배당했다!", "_t")
 t("+Dominated", "+지배", "_t")
 t("#F53CBE##Target# is no longer dominated.", "#F53CBE##Target2# 지배에서 벗어났다.", "_t")
@@ -31092,9 +31092,9 @@ t("-Dominated", "-지배", "_t")
 t("Agony", "격통", "_t")
 t("%s is writhing in agony, suffering from %d to %d damage over %d turns.", "%s 고통을 겪음 /%d - %d 피해를 %d 턴에 걸쳐 받음.", "tformat", nil, {"은"})
 t("pain", "고통", "effect subtype")
-t("#Target# is writhing in agony!", "#Target2# 격통으로 몸부림친다!", "_t")
+t("#Target# is writhing in agony!", "#Target2# 격통으로 몸부림쳤다!", "_t")
 t("+Agony", "+격통", "_t")
-t("#Target# is no longer writhing in agony.", "#Target3# 괴롭히는 격통이 가셨다.", "_t")
+t("#Target# is no longer writhing in agony.", "#Target3# 괴롭히는 격통이 사라졌다.", "_t")
 t("-Agony", "-격통", "_t")
 t("Hateful Whisper", "증오의 속삭임", "_t")
 t("%s has heard the hateful whisper.", "%s 증오의 속삭임을 들었다.", "tformat", nil, {"은"})
@@ -31268,7 +31268,7 @@ t("The thrill of combat improves the target's maximum life by %d%%, life regener
 t("regeneration", "재생", "effect subtype")
 t("+Bloodbath", "+유혈사태", "_t")
 t("-Bloodbath", "-유혈사태", "_t")
-t("%s's blood frenzy intensifies!", "%s의 피에젖은 광란이 더 강화된다!", "logSeen")
+t("%s's blood frenzy intensifies!", "%s의 피에 젖은 광란이 더 강화된다!", "logSeen")
 t("%s revels in the spilt blood and grows stronger!", "%s 흩뿌려진 피와 그로부터 얻는 힘에 도취된다!", "logSeen")
 t("%s no longer revels in blood quite so much.", "%s의 학살이 끝났다.", "logSeen")
 t("Bloodrage", "피의 분노", "_t")
@@ -31477,7 +31477,7 @@ t("Caught Lightning", "전기 포집", "_t")
 t("Lightning Catcher has caught energy and is empowering you for +%d%% lightning damage and +%d to all stats.", "전기 피해 +%d%% / 모든 능력치 +%d.", "tformat")
 t("lightning", "전기", "effect subtype")
 t("Mark of the Vampire", "흡혈귀의 표식", "_t")
-t("The target is doomed to die a bloody death.  Each time it uses an ability it takes %0.2f physical damage, and incoming bleeds are strengthened by %d%%.", "핏빛 죽음을 맞을 것이라는 저주를 받음 : 기술을 사용할 때 마다 %0.2f 물리 피해 받음 / 이후 가해지는 출혈 피해가 %d%% 강력해짐.", "tformat")
+t("The target is doomed to die a bloody death.  Each time it uses an ability it takes %0.2f physical damage, and incoming bleeds are strengthened by %d%%.", "핏빛 죽음을 맞을 것이라는 저주를 받음 : 기술을 사용할 때마다 %0.2f 물리 피해 받음 / 이후 가해지는 출혈 피해가 %d%% 강력해짐.", "tformat")
 t("psionic", "초능력", "effect subtype")
 t("#Target# is doomed!", "#Target#에게 임박한 운명이 다가온다!", "_t")
 t("+Vampire Mark", "+흡혈귀의 표식", "_t")
@@ -31499,7 +31499,7 @@ t("Immune to detrimental magical effects", "부정적인 마법 효과에 면역
 t("Elemental Surge: Fire", "원소 고조 : 화염", "_t")
 t("All damage increased by %d%%", "가하는 피해 +%d%%", "tformat")
 t("Elemental Surge: Cold", "원소 고조 : 냉기", "_t")
-t("Armor increased by %d, deals %d ice damage when hit in melee.", "방어력 +%d / 근접공격 피격 시 %d 얼음 피해로 보복.", "tformat")
+t("Armor increased by %d, deals %d ice damage when hit in melee.", "방어력 +%d / 근접 공격 피격 시 %d 얼음 피해로 보복.", "tformat")
 t("Elemental Surge: Lightning", "원소 고조 : 전기", "_t")
 t("Movement speed increased by %d%%.", "이동 속도 +%d%%.", "tformat")
 t("Elemental Surge: Light", "원소 고조 : 빛", "_t")
@@ -31642,7 +31642,7 @@ t([[An aura of death surrounds you.
 #CRIMSON#부정적효과	 : #WHITE#죽음의 공포: 언데드에게서 받는 모든 공격에 모든 저항 %+d%% 적용
 #CRIMSON#위력	 1+	 : %s죽음을 넘어선 힘	: 언데드에게 가하는 피해량 %+d%%
 #CRIMSON#위력	 2+	 : %s%+d 행운, %+d 힘, %+d 마법
-#CRIMSON#위력	 3+	 : %s살아있는 죽음	: 구울의 토사물이 시전자를 회복. 매 %d 턴 마다, 구역질이 (레벨 %d) 발동. 구역질 효과는 생명력이 %d%% 이하일 때 발동
+#CRIMSON#위력	 3+	 : %s살아있는 죽음	: 구울의 토사물이 시전자를 회복. 매 %d 턴마다, 구역질이 (레벨 %d) 발동. 구역질 효과는 생명력이 %d%% 이하일 때 발동
 #CRIMSON#위력	 4+	 : %s죽음 유예		: 살해된 인간형 적은 %d%% 확률로 다시 일어나 6 턴 동안 시전자를 도움.]], "tformat")
 t("walking corpse", "산송장", "_t")
 t("This corpse was recently alive but moves as though it is just learning to use its body.", "이 시체는 최근까지 살아있었지만, 지금은 몸을 움직이는 방법을 배우는 것처럼 움직인다.", "_t")
@@ -31737,7 +31737,7 @@ t("The target has faded and is no longer taking damage.", "피해 면역.", "_t"
 t("#Target# fades!", "#Target1# 흐려진다!", "_t")
 t("+Faded", "+흐려짐", "_t")
 t("Highborn's Bloom", "고귀한 개화", "_t")
-t("The target is using talents without consuming resources.", "기술 사용시 원천력 소모 없음.", "_t")
+t("The target is using talents without consuming resources.", "기술 사용 시 원천력 소모 없음.", "_t")
 t("Victory Rush", "승리의 돌진", "_t")
 t("The thrill of victory makes this creature invulnerable.", "피해 면역.", "_t")
 t("Solipsism", "유아론", "_t")
@@ -31807,14 +31807,14 @@ t("The target is under the effect of the cloak of deception, making it look huma
 t("undead", "언데드", "effect subtype")
 t("#LIGHT_BLUE#An illusion appears around #Target# making %s appear human.", "#LIGHT_BLUE#환영이 나타나 #Target3# 인간처럼 %s 보이게했다.", "tformat")
 t("+CLOAK OF DECEPTION", "+기만의 망토", "_t")
-t("#LIGHT_BLUE#The illusion covering #Target# disappears.", "#LIGHT_BLUE##Target3# 덮고있던 환영이 사라졌다.", "_t")
+t("#LIGHT_BLUE#The illusion covering #Target# disappears.", "#LIGHT_BLUE##Target3# 덮고 있던 환영이 사라졌다.", "_t")
 t("-CLOAK OF DECEPTION", "-기만의 망토", "_t")
 t("Suffocating", "질식", "_t")
 t("You are suffocating! Each turn you lose an ever increasing percent of your total life (currently %d%%)", "질식 중. 시간이 지날 때마다 생명력의 소모가 커짐. (현재 %d%%)", "tformat")
 t("suffocating", "질식", "effect subtype")
 t("#Target# is suffocating.", "#Target1# 질식 중이다.", "_t")
 t("+SUFFOCATING", "+질식", "_t")
-t("#Target# can breathe again.", "#Target1# 다시 숨을 쉴 수 있게되었다.", "_t")
+t("#Target# can breathe again.", "#Target1# 다시 숨을 쉴 수 있게 되었다.", "_t")
 t("-Suffocating", "-질식", "_t")
 t("suffocated to death", "질식사 함", "_t")
 t("Antimagic Disruption", "반마법 방해", "_t")
@@ -31833,7 +31833,7 @@ t("The target has replenished some ammo.", "재장전 중.", "_t")
 t("disarm", "무장 해제", "effect subtype")
 t("#Target# is disarmed!", "#Target1# 무장을 해제당했다!", "_t")
 t("+Disarmed", "+무장 해제", "_t")
-t("#Target# rearms.", "#Target1# 무장을 다시 갖추었다.", "_t")
+t("#Target# rearms.", "#Target1# 무장을 다시 갖췄다.", "_t")
 t("-Disarmed", "-무장 해제", "_t")
 t("Spacetime Tuning", "시공간 조율", "_t")
 t("Tuning Paradox at a rate of %+d per turn.", "괴리를 조율해 괴리 수칠을 매 턴 %+d 변동.", "tformat")
@@ -31868,7 +31868,7 @@ t("-Aeons Stasis", "-영겁의 정체", "_t")
 t("Unstoppable", "저지불가", "_t")
 t("The target is unstoppable! It refuses to die and cannot heal.  When the effect ends, it will heal %d Life (%d%% of maximum life per foe slain during the frenzy).", "죽음 거부 / 회복 불가 / 지속시간 종료시 생명력 %d 회복 (지속시간중 살해한 적 하나 당 최대 생명력의 %d%% 회복).", "tformat")
 t("frenzy", "광란", "effect subtype")
-t("Hit Penalty", "한 손으로 양손무기 사용중", "_t")
+t("Hit Penalty", "한 손으로 양손 무기 사용중", "_t")
 t("The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "한 손으로 양손 무기 사용중 / 정확도, 물리력, 주문력, 정신력 -%d%% (몸집 크기에 비례) / 모든 명중 시 추가 효과의 피해량 -50%%.", "tformat")
 t("combat", "전투", "effect subtype")
 t("penalty", "불이익", "effect subtype")
@@ -31982,7 +31982,7 @@ t("Fed Upon", "포식 당하는 중", "_t")
 t("%s is fed upon by %s.", "%s %s에게 힘을 잡아먹히고있다.", "tformat", nil, {"는"})
 t("psychic_drain", "초능력 흡수", "effect subtype")
 t("Lich Hunger", "리치의 굶주림", "_t")
-t("To complete your resurrection you must kill a unique/boss/elite boss rank creature before the duration expires.", "부활을 완성시키기 위해서는 단일/보스/정예 보스 등급의 적을 지속 시간내에 처치해야한다.", "_t")
+t("To complete your resurrection you must kill a unique/boss/elite boss rank creature before the duration expires.", "부활을 완성시키기 위해서는 단일/보스/정예 보스 등급의 적을 지속 시간내에 처치해야 한다.", "_t")
 t("lich", "리치", "effect subtype")
 t("#DARK_ORCHID#Lichform regeneration is complete!#{normal}#", "#DARK_ORCHID#정수를 흡수하여 재생을 완료했다!#{normal}#", "say")
 t("Sensing Everything", "모든 것 감지", "_t")
@@ -32113,13 +32113,13 @@ t("The target is maimed, unable to correctly wield a weapon.", "무기를 놓침
 t("disarm", "무장 해제", "effect subtype")
 t("#Target# is disarmed!", "#Target1# 무장을 해제당했다!", "_t")
 t("+Disarmed", "+무장 해제", "_t")
-t("#Target# rearms.", "#Target1# 무장을 다시 갖추었다.", "_t")
+t("#Target# rearms.", "#Target1# 무장을 다시 갖췄다.", "_t")
 t("-Disarmed", "-무장 해제", "_t")
 t("Constricted", "조여짐", "_t")
 t("The target is constricted, preventing movement and making it suffocate (loses %0.2f air per turn).", "이동 불가 / 질식 (매 턴 %0.2f 공기를 잃음).", "tformat")
-t("#Target# is constricted!", "#Target#의 목이 조여진다!", "_t")
+t("#Target# is constricted!", "#Target#의 목이 조여졌다!", "_t")
 t("+Constricted", "+조여짐", "_t")
-t("#Target# is free to breathe.", "#Target1# 다시 숨을 쉴 수 있게되었다.", "_t")
+t("#Target# is free to breathe.", "#Target1# 다시 숨을 쉴 수 있게 되었다.", "_t")
 t("-Constricted", "-조여짐", "_t")
 t(" was constricted to death by %s.", " %s에 의해 질식사.", "tformat")
 t("Dazed", "혼절", "_t")
@@ -32146,7 +32146,7 @@ t("Stoneskin", "바위 피부", "_t")
 t("The target's skin reacts to damage, granting %d armour.", "방어력 +%d.", "tformat")
 t("Thorny Skin", "가시 피부", "_t")
 t("The target's skin reacts to damage, granting %d armour and %d%% armour hardiness.", "방어력 +%d 방어 효율 +%d%%.", "tformat")
-t("#Target#'s skin looks a bit thorny.", "#Target#의 피부에 가시가 돋는다.", "_t")
+t("#Target#'s skin looks a bit thorny.", "#Target#의 피부에 가시가 돋았다.", "_t")
 t("+Thorny Skin", "+가시 피부", "_t")
 t("#Target# is less thorny now.", "#Target#의 가시가 사라졌다.", "_t")
 t("-Thorny Skin", "-가시 피부", "_t")
@@ -32183,15 +32183,15 @@ t("#Target# feels pain again.", "#Target1# 고통을 다시 느낀다.", "_t")
 t("-Pain Suppression", "-고통 억제", "_t")
 t("Primal Attunement", "근원의 친화", "_t")
 t("The target is attuned to the wild, increasing all damage affinity by %d%% and reducing a random debuff duration by %d each turn.", "모든 속성 친화 +%d%% / 매 턴 무작위한 부정적 효과의 지속시간 -%d 턴.", "tformat")
-t("#Target# attunes to the wild.", "#Target1# 스스로를 자연에 동화한다.", "_t")
+t("#Target# attunes to the wild.", "#Target1# 스스로를 자연에 동화했다.", "_t")
 t("+Primal", "+근원", "_t")
-t("#Target# is no longer one with nature.", "#Target#의 자연과의 동화가 서서히 흐려진다.", "_t")
+t("#Target# is no longer one with nature.", "#Target#의 자연과의 동화가 서서히 흐려졌다.", "_t")
 t("-Primal", "-근원", "_t")
 t("Purge Blight", "황폐 정화", "_t")
 t("The target is infused with the power of nature, reducing all blight damage taken by %d%%, increasing spell saves by %d, and granting immunity to diseases.", "받는 황폐 피해 -%d%% / 주문 내성 +%d / 질병 면역력 상승.", "tformat")
-t("#Target# rejects blight!", "#Target1# 황폐를 거부한다!", "_t")
+t("#Target# rejects blight!", "#Target1# 황폐를 거부했다!", "_t")
 t("+Purge", "+황폐 정화", "_t")
-t("#Target# is susceptible to blight again.", "#Target#의 몸은 다시 황폐를 수용한다.", "_t")
+t("#Target# is susceptible to blight again.", "#Target#의 몸은 다시 황폐를 수용하기 시작했다.", "_t")
 t("-Purge", "-황폐 정화", "_t")
 t("Sensing", "감지", "_t")
 t("Improves senses, allowing the detection of unseen things.", "감지력 향상.", "_t")
@@ -32528,7 +32528,7 @@ t("+Spine of the World", "+세계의 척추", "_t")
 t("#Target# is less impervious to physical effects.", "#Target2# 다시 물리 효과에 영향을 받는다.", "_t")
 t("-Spine of the World", "-세계의 척추", "_t")
 t("Fungal Blood", "곰팡이 피", "_t")
-t("You have %d fungal energies stored. Release them to heal by using the Fungal Blood prodigy.", "곰팡이 수치 %d / 곰팡이 피 특수 기술 사용시, 곰팡이 수치로 생명력을 회복.", "tformat")
+t("You have %d fungal energies stored. Release them to heal by using the Fungal Blood prodigy.", "곰팡이 수치 %d / 곰팡이 피 특수 기술 사용 시, 곰팡이 수치로 생명력을 회복.", "tformat")
 t("heal", "회복", "effect subtype")
 t("+Fungal Blood", "+곰팡이 피", "_t")
 t("-Fungal Blood", "-곰팡이 피", "_t")
@@ -32628,10 +32628,10 @@ t("-Garrote", "-교살", "_t")
 t("something", "무언가", "_t")
 t("#Source# #LIGHT_RED#strangles#LAST# #Target#!", "#Source1# #Target#의 #LIGHT_RED#목을 조른다#LAST# !", "logCombat")
 t("Marked for Death", "죽음의 표식", "_t")
-t("The target takes %d%% increased damage from all sources.  If this effect runs its full course, the target will take an additional %0.1f physical damage (increased by %d%% of all damage taken while this effect is active).", "모든 공격으로 부터 %d%% 증가된 피해를 받음 / 지속시간이 끝날 때, 추가적으로 %0.1f 물리 피해를 받음. (지속시간 내에 받은 피해량의 %d%% 가 추가됨).", "tformat")
+t("The target takes %d%% increased damage from all sources.  If this effect runs its full course, the target will take an additional %0.1f physical damage (increased by %d%% of all damage taken while this effect is active).", "모든 공격으로부터 %d%% 증가된 피해를 받음 / 지속시간이 끝날 때, 추가적으로 %0.1f 물리 피해를 받음. (지속시간 내에 받은 피해량의 %d%% 가 추가됨).", "tformat")
 t("#Target# is marked for death!", "#Target2# 죽음의 표식이 찍혔다!", "_t")
 t("+Marked for Death!", "+죽음의 표식!", "_t")
-t("#Target# is free from the deathmark.", "#Target2# 죽음의 표식으로 부터 벗어났다.", "_t")
+t("#Target# is free from the deathmark.", "#Target2# 죽음의 표식으로부터 벗어났다.", "_t")
 t("-Marked for Death", "-죽음의 표식", "_t")
 t("Deadly Poison", "죽음의 독", "_t")
 t(" Healing received is reduced by %d%%.", "/ 회복 효율 -%d%%.", "tformat")
@@ -32679,14 +32679,14 @@ t("+Bear Trap", "+곰 덫", "_t")
 t("A bear trap snaps onto #Target#!", "곰 덫이 #Target#에게 뛰어들었다!", "_t")
 t("#Target# is freed from a bear trap.", "#Target2# 곰 덫에서 빠저나왔다.", "_t")
 t("-Bear Trap", "-곰 덫", "_t")
-t("Stone Vine", "바위 덩쿨", "_t")
+t("Stone Vine", "바위 덩굴", "_t")
 t(" and %0.1f Arcane", ", %0.1f 비전 피해 받음", "tformat")
 t("A living stone vine holds the target in place, inflicting %0.1f Nature%s damage per turn.", "매 턴 %0.1f 자연%s 피해 받음 .", "tformat")
 t("pin", "속박", "effect subtype")
-t("#Target# is seized by a stone vine.", "#Target2# 바위 덩쿨에 속박되었다.", "_t")
-t("+Stone Vine", "+바위 덩쿨", "_t")
-t("#Target# is free from the stone vine.", "#Target2# 바위 덩쿨을 떨쳐냈다.", "_t")
-t("-Stone Vine", "-바위 덩쿨", "_t")
+t("#Target# is seized by a stone vine.", "#Target2# 바위 덩굴에 속박되었다.", "_t")
+t("+Stone Vine", "+바위 덩굴", "_t")
+t("#Target# is free from the stone vine.", "#Target2# 바위 덩굴을 떨쳐냈다.", "_t")
+t("-Stone Vine", "-바위 덩굴", "_t")
 t("Dwarven Resilience", "드워프의 강인함", "_t")
 t("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, %d physical save and %d spell save. Also applies %d armour to all non-physical damage.", "방어력 +%d /  방어 효율 +%d%% / 물리 내성 +%d / 주문 내성 +%d. 모든 비물리적 피해에 %d 방어력 적용.", "tformat")
 t("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, %d physical save and %d spell save.", "방어력 +%d /  방어 효율 +%d%% / 물리 내성 +%d / 주문 내성 +%d..", "tformat")
@@ -33492,7 +33492,7 @@ t("skeleton", "스켈레톤", "entity subtype")
 t("undead", "언데드", "entity type")
 t("Filio Flightfond", "필리오 플라이트폰드", "entity name")
 t([[A short, furtive-looking skeleton with padded feet. He moves quickly and silently, and seems to meld into the shadows with ease. In one hand he holds a sling, and the other a short dagger.
-There is a cunning air to his hollow skull, and his empty sockets reveal nothing of what tricks and tactics he has planned.]], [[발에 뭔가가 덧대어져 있는, 키가 작고 음흉해 보이는 스켈레톤입니다. 빠르고 조용하게 움직이며 손쉽게 그림자 속으로 사라질 수 있는 것 같습니다. 한손에는 투석구를 들고 있고 다른 손에는 단검을 쥐고 있습니다.
+There is a cunning air to his hollow skull, and his empty sockets reveal nothing of what tricks and tactics he has planned.]], [[발에 뭔가가 덧대어져 있는, 키가 작고 음흉해 보이는 스켈레톤입니다. 빠르고 조용하게 움직이며 손쉽게 그림자 속으로 사라질 수 있는 것 같습니다. 한 손에는 투석구를 들고 있고 다른 손에는 단검을 쥐고 있습니다.
 그의 텅 빈 해골에는 교활한 기운이 감돌고 있고, 뻥 뚫린 눈구멍에서는 어떤 계획도 읽어낼 수가 없습니다.]], "_t")
 t("and offered to his dark Master", "그리고 그 시체는 그의 사악한 주인에게 바쳐졌습니다.", "_t")
 
@@ -33946,7 +33946,7 @@ The Sorcerers seem to have awakened its power.
 이 지팡이 주변의 빛은 어두워지고 있으며, 단순히 만져 보기만 해도 지팡이의 터무니없는 힘을 느낄 수 있습니다.
 그 주술사들이 이것의 진정한 힘을 일깨운 모양입니다.
 #{italic}#"그리고 오오, 그들은 아마크텔께 당도하였고, 그분의 옥좌를 향한 사투로 수천의 군사가 목숨을 잃었으며 세 명의 신살자들이 그분의 발밑에서 부서졌도다. 그러나 팔리온이 죽어가며 얼음장 같이 차가운 칼 아르킬로 그분의 무릎을 꿰뚫었으며, 이어서 신살자들의 지도자 칼디자르가 흡수의 지팡이를 쥐고 진격하여 아마크텔께 끔찍한 일격을 가했도다. 그리하여 신들의 왕은 그분의 아이들의 손에 스러져, 그분의 용안은 모래 속으로 밀어넣어졌도다."#{normal}#]], "_t")
-t("absorb the essence (ignoring resistance and bypassing most defenses) of a target in range %d, draining 30%% of its life and increasing your own damage by 30%% for %d turns", "%d 칸 이내의 대상 하나의 정수를 흡수하여 (저항을 무시하며 대부분의 방어 효과를 우회함) 생명력을 30%% 흡수하고 시전자의 피해량을 %d 턴 간 30%% 증가시킵니다.", "tformat")
+t("absorb the essence (ignoring resistance and bypassing most defenses) of a target in range %d, draining 30%% of its life and increasing your own damage by 30%% for %d turns", "%d 칸 이내의 대상 하나의 정수를 흡수하여 (저항을 무시하며 대부분의 방어 효과를 우회함) 생명력을 30%% 흡수하고 시전자의 피해량을 %d 턴 동안 30%% 증가시킵니다.", "tformat")
 t("was absorbed by the %s held by %s", "%s의 지팡이에 의해 %s에게 힘을 빼앗겼다.", "tformat")
 t("#Source# brandishes %s %s, absorbing the essence of #target#!", "#Source2# %s %s를 휘둘러, #target#의 정수를 흡수했다!", "logCombat")
 t("#ORCHID# %d essence drain#LAST#", "#ORCHID# %d 정수 흡수#LAST#", "tformat")
@@ -34343,7 +34343,7 @@ t("humanoid", "인간형", "entity type")
 t("naga", "나가", "entity subtype")
 t("naga tidewarden", "나가 파도감시자", "entity name")
 t("naga tidecaller", "나가 파도소환사", "entity name")
-t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful elf-like woman. As she moves her delicate hands water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "상반신은 엘프와 닮은 아름다운 여인이지만, 하반신은 뱀 꼬리를 닮은 이상한 생물입니다. 지금 그 꼬리를 꼿꼿이 세워서 서 있으며, 움직일 때 마다 스르르 하는 소리가 납니다. 섬세한 손이 움직이면 땅에서 물이 솟아나며 그걸 보고 있으면 그녀가 단순한 괴물이 아니라 경외심마저 들게 하는 강력한 존재라는 생각이 듭니다.", "_t")
+t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful elf-like woman. As she moves her delicate hands water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "상반신은 엘프와 닮은 아름다운 여인이지만, 하반신은 뱀 꼬리를 닮은 이상한 생물입니다. 지금 그 꼬리를 꼿꼿이 세워서 서 있으며, 움직일 때마다 스르르 하는 소리가 납니다. 섬세한 손이 움직이면 땅에서 물이 솟아나며 그걸 보고 있으면 그녀가 단순한 괴물이 아니라 경외심마저 들게 하는 강력한 존재라는 생각이 듭니다.", "_t")
 t("naga nereid", "나가 네레이드", "entity name")
 t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "부드럽고 창백한 피부 위로 물결치듯 늘어뜨려진 황금색 머리칼 뒤에서, 초록빛의 눈동자가 당신을 노려보고 있습니다. 그녀의 알몸에 저절로 눈길이 가지만, 멀리서 보면 새까만 비늘과 그 뒤의 기다란 뱀꼬리에 눈길이 갑니다. 그녀가 움직이자 당신은 머리칼 뒤에 숨겨져 있던 갸름하고 아름다운 얼굴을, 높은 광대뼈와 통통한 입술을 보았습니다. 그러나 이 모든 것에도 불구하고 그 공포스러운 뱀꼬리가 등골을 서늘하게 만듭니다.", "_t")
 t("Lady Nashva the Streambender", "물길을 다루는 레이디 나스바", "entity name")
@@ -34537,7 +34537,7 @@ t("Rak'shor, Grand Necromancer of the Pride", "긍지의 위대한 강령술사 
 t("An old orc, wearing black robes. He commands his undead armies to destroy you.", "새까만 로브를 입고 있는 늙은 오크입니다. 당신을 박살내기 위해 언데드 군단에게 명령을 내립니다.", "_t")
 t("and raised as a malformed servant", "그리고 그 시체는 기괴하게 변형된 하인으로 일으켜졌습니다.", "_t")
 t("Rotting Titan", "썩어가는 타이탄", "entity name")
-t("This gigantic mass of flesh and stone moves slowly, the ground rumbling with each step it takes. Its body seems to constantly pulsate and reform. Massive stones at the end of each limb form massive blunt weapons.", "살점과 돌로 이루어진 거대한 덩어리입니다. 움직임은 느릿하지만, 한 걸음 내딛을 때 마다 땅이 울립니다. 몸통은 끊임없이 진동하고 재구성되고 있는 걸로 보이며, 팔다리 끝부분의 거대한 돌은 거대한 둔기 모양으로 바뀝니다.", "_t")
+t("This gigantic mass of flesh and stone moves slowly, the ground rumbling with each step it takes. Its body seems to constantly pulsate and reform. Massive stones at the end of each limb form massive blunt weapons.", "살점과 돌로 이루어진 거대한 덩어리입니다. 움직임은 느릿하지만, 한 걸음 내딛을 때마다 땅이 울립니다. 몸통은 끊임없이 진동하고 재구성되고 있는 걸로 보이며, 팔다리 끝부분의 거대한 돌은 거대한 둔기 모양으로 바뀝니다.", "_t")
 t("The ground shakes as %s steps!", "%s 발을 내딛자 땅이 흔들린다!", "logSeen", nil, {"이"})
 t("Glacial Legion", "빙하의 군단", "entity name")
 t("A massive, shifting, ethereal form floats in the air around an orb of frozen blood.  The air around it condenses into freezing pools on the floor beneath it.", "피가 얼어붙은 구체 주변의 공중에 거대하고 변화무쌍한, 유령 같은 형체가 떠 있습니다. 그 주변의 공기는 응결되어 아래쪽 바닥의 얼어붙은 웅덩이가 되고 있습니다.", "_t")
@@ -35078,7 +35078,7 @@ t("naga", "나가", "entity subtype")
 t("naga tidewarden", "나가 파도감시자", "entity name")
 t("Before you stands a tall figure, propped high by a serpent's tail in place of where his legs should rightly be. His torso is slim and muscular, and his face has an elven beauty to it, framed by locks of blonde hair. But there is a fierceness to this creature too, and his bright eyes veil a smouldering anger.", "사람의 다리가 있어야 할 자리에 뱀꼬리가 꼿꼿이 서 있는 훤칠한 생물입니다. 그의 상반신은 날씬하면서 근육질이고, 머리칼은 황금빛이며 얼굴은 엘프처럼 아름답습니다. 그러나 의외로 성격이 불 같아, 밝은 눈동자에는 끓어오르는 분노가 감추어져 있습니다.", "_t")
 t("naga tidecaller", "나가 파도소환사", "entity name")
-t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "상반신은 엘프와 닮은 아름다운 여인이지만, 하반신은 뱀 꼬리를 닮은 이상한 생물입니다. 지금 그 꼬리를 꼿꼿이 세워서 서 있으며, 움직일 때 마다 스르르 하는 소리가 납니다. 섬세한 손이 움직이면 땅에서 물이 솟아나며 그걸 보고 있으면 그녀가 단순한 괴물이 아니라 경외심마저 들게 하는 강력한 존재라는 생각이 듭니다.", "_t")
+t("A slithering noise accompanies the movement of this strange creature, whose snake-like tail gives rise to the body of a beautiful Elf-like woman. As she moves her delicate hands, water rises from the ground, and you feel that here is no mere monster, but a creature of awe and power.", "상반신은 엘프와 닮은 아름다운 여인이지만, 하반신은 뱀 꼬리를 닮은 이상한 생물입니다. 지금 그 꼬리를 꼿꼿이 세워서 서 있으며, 움직일 때마다 스르르 하는 소리가 납니다. 섬세한 손이 움직이면 땅에서 물이 솟아나며 그걸 보고 있으면 그녀가 단순한 괴물이 아니라 경외심마저 들게 하는 강력한 존재라는 생각이 듭니다.", "_t")
 t("naga nereid", "나가 네레이드", "entity name")
 t("Green eyes stare out from behind strands of long, golden hair, which falls down in waves over smooth, pale skin. Your eyes are drawn to the bare flesh, but as they look further they see dark scales stretching out into a long serpent's tail. You look up as she moves, her hair parting to reveal a slim and beautiful face with high cheekbones and full lips. Yet for all the allure of this wondrous creature the terror of the serpentine tail sends shivers down your spine.", "부드럽고 창백한 피부 위로 물결치듯 늘어뜨려진 황금색 머리칼 뒤에서, 초록빛의 눈동자가 당신을 노려보고 있습니다. 그녀의 알몸에 저절로 눈길이 가지만, 멀리서 보면 새까만 비늘과 그 뒤의 기다란 뱀꼬리에 눈길이 갑니다. 그녀가 움직이자 당신은 머리칼 뒤에 숨겨져 있던 갸름하고 아름다운 얼굴을, 높은 광대뼈와 통통한 입술을 보았습니다. 그러나 이 모든 것에도 불구하고 그 공포스러운 뱀꼬리가 등골을 서늘하게 만듭니다.", "_t")
 t("Lady Zoisla the Tidebringer", "파도를 이끄는 레이디 조이슬라", "entity name")
@@ -36539,7 +36539,7 @@ While this is a free game that I am doing for fun, if it can help feed my family
 You will need an online profile active and connected for the tile selector to enable. If you choose to donate now you will need to restart the game to be granted access.
 
 Donators will also gain access to the Exploration Mode featuring infinite lives.]], [[커스텀 타일이 추가되었습니다! ToME을 위해 기부해주신 분들 모두 감사합니다.
-이것은 일종의 스킨 기능으로, 180 개 가까이의 (더 늘어날겁니다!) 캐릭터 타일을 선택할 수 있게됩니다. 특별한 인간형 타일에서 독특한 생명체까지, 원하시는 대로 캐릭터를 꾸며보세요!
+이것은 일종의 스킨 기능으로, 180 개 가까이의 (더 늘어날겁니다!) 캐릭터 타일을 선택할 수 있게 됩니다. 특별한 인간형 타일에서 독특한 생명체까지, 원하시는 대로 캐릭터를 꾸며보세요!
 
 이 기능을 사용하고 싶으시거나, 이 게임이 괜찮다고 느껴지시면 기부를 고려해주십시오. 게임이 지속되는데 도움이 될 것입니다.
 이것은 무료 게임이고 순전히 취미로 개발했지만, 이것이 제 가족을 먹여살리는데 도움이 된다면, 기꺼이 도움을 받겠습니다. 인생은 때때로 가혹하니까요.
@@ -36663,7 +36663,7 @@ t("min", "최소", "_t")
 t("No Description", "설명없음", "_t")
 t([[#GOLD#%s Recovery/Depletion#LAST#
 The amount of %s automatically gained or lost each turn.]], [[#GOLD#%s 회복 / 감소#LAST#
-턴 마다 %s 회복, 또는 감소됩니다.]], "tformat", nil, {[2]="가"})
+턴마다 %s 회복, 또는 감소됩니다.]], "tformat", nil, {[2]="가"})
 t("Current Feedback gain is %0.1f%% of damage taken.", "피해의 %0.1f%% 를 반작용으로 전환.", "tformat")
 t("#7fffd4#Feedback: #00ff00#%d/%s", "#7fffd4#반작용: #00ff00#%d/%s", "tformat")
 t("#LIGHT_BLUE#Speeds:", "#LIGHT_BLUE#속도:", "_t")
@@ -36779,7 +36779,7 @@ t("You have #LIGHT_RED#died#LAST#!", "당신은 #LIGHT_RED#죽었습니다#LAST#
 t([[Death in #{bold}#Tales of Maj'Eyal#{normal}# is usually permanent, but if you have a means of resurrection it will be proposed in the menu below.
 You can dump your character data to a file to remember her/him forever, or you can exit and try once again to survive in the wilds!
 ]], [[#{bold}#테일즈 오브 마즈'에이알#{normal}#에서의 죽음은 보통 영구적이지만, 부활 수단을 갖고있다면, 아래 메뉴에 나타날 것입니다.
-캐릭터의 데이터를 덤프 파일로 만들어 당신의 캐릭터를 영원히 기억할 수도 있고, 아니면 나가서 다시 한번 야생에서 생존해 보세요!
+캐릭터의 데이터를 덤프 파일로 만들어 당신의 캐릭터를 영원히 기억할 수도 있고, 아니면 나가서 다시 한 번 야생에서 생존해 보세요!
 ]], "_t")
 t([[#LIGHT_GREEN#During your game you#WHITE#:
 * %s]], [[#LIGHT_GREEN#이 게임 동안#WHITE#:
@@ -36789,7 +36789,7 @@ t("#LIGHT_RED#You have no more lives left.", "#LIGHT_RED#더 이상 남아있는
 t("#LIGHT_RED#From the brink of death you seem to be yanked to another plane.", "#LIGHT_RED#죽음의 직전에, 다른 차원으로 날아간 것 같다.", "log")
 t("#LIGHT_BLUE#You resurrect! CHEATER!", "#LIGHT_BLUE#당신은 부활했다! 사기꾼같으니라고!", "logPlayer")
 t("#LIGHT_RED#The Blood of Life rushes through your dead body. You come back to life!", "#LIGHT_RED#생명의 피가 당신의 죽은 몸 속을 질주했다. 당신은 부활했다!", "logPlayer")
-t("#YELLOW#Your bones magically knit back together. You are once more able to dish out pain to your foes!", "#YELLOW#당신의 뼈는 마법적으로 다시 맞춰졌다. 당신의 적에게 한번 더 고통을 안길 때가 됐다!", "logPlayer")
+t("#YELLOW#Your bones magically knit back together. You are once more able to dish out pain to your foes!", "#YELLOW#당신의 뼈는 마법적으로 다시 맞춰졌다. 당신의 적에게 한 번 더 고통을 안길 때가 됐다!", "logPlayer")
 t("#YELLOW#Your %s is consumed and disappears! You come back to life!", "#YELLOW#당신의 %s 는 소모되어 사라졌다! 당신은 부활했다!", "logPlayer")
 t("You managed to die on the eidolon plane! DIE!", "에이돌론의 차원에서 죽음을 선택했다! 죽어라!", "logPlayer")
 t("Resurrect by cheating", "치트로 부활한다", "_t")
@@ -36866,9 +36866,9 @@ t("#GOLD##{bold}#Smooth creatures movement#WHITE##{normal}#", "#GOLD##{bold}#개
 t("Enter movement speed(lower is faster)", "이동 애니메이션 속도를 입력해주세요 (낮은 수치일 수록 빠릅니다)", "_t")
 t("From 0 to 60", "0 ~ 60", "_t")
 t([[Enables or disables 'twitch' movement.
-When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[근접 공격시 적에게 다가가는 애니메이션을 활성화하거나 비활성화 합니다.
+When enabled creatures will do small bumps when moving and attacking.#WHITE#]], [[근접 공격 시 적에게 다가가는 애니메이션을 활성화하거나 비활성화 합니다.
 활성화 시, 각 개체들은 공격 방향으로 살짝 움직입니다.#WHITE#]], "_t")
-t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#근접공격 시 접근 애니메이션#WHITE##{normal}#", "_t")
+t("#GOLD##{bold}#Twitch creatures movement and attack#WHITE##{normal}#", "#GOLD##{bold}#근접 공격 시 접근 애니메이션#WHITE##{normal}#", "_t")
 t([[Enables smooth fog-of-war.
 Disabling it will make the fog of war look 'blocky' but might gain a slight performance increase.#WHITE#]], [[부드러운 전장의 안개를 활성화 합니다.
 비활성화 시, 전장의 안개가 '딱딱해' 보이지만, 성능이 약간 향상될 수도 있습니다.#WHITE#]], "_t")
@@ -36932,7 +36932,7 @@ t("From 1 to 4", "1 ~ 4", "_t")
 t("Number of icons rows", "아이콘 줄 수", "_t")
 t("When you activate a hotkey, either by keyboard or click a visual feedback will appear over it in the hotkeys bar.#WHITE#", "단축키를 활성화 했을 때, 키보드 또는 클릭이 단축키 바에 시각적 피드백을 표시함.#WHITE#", "_t")
 t("#GOLD##{bold}#Visual hotkeys feedback#WHITE##{normal}#", "#GOLD##{bold}#단축키 시각적 피드백#WHITE##{normal}#", "_t")
-t("When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "플레이어나 NPC 가 기술을 사용할 떄, 기술의 아이콘과 이름을 작게 띄웁니다.#WHITE#", "_t")
+t("When the player or an NPC uses a talent shows a quick popup with the talent's icon and name over its head.#WHITE#", "플레이어나 NPC 가 기술을 사용할 때, 기술의 아이콘과 이름을 작게 띄웁니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Talents activations map display#WHITE##{normal}#", "#GOLD##{bold}#기술 사용 시 팝업 표시#WHITE##{normal}#", "_t")
 t("Size of the icons in the hotkeys toolbar.#WHITE#", "단축키 툴바에 표시될 아이콘 크기를 설정합니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Icons hotkey toolbar icon size#WHITE##{normal}#", "#GOLD##{bold}#단축키 툴바 아이콘 크기#WHITE##{normal}#", "_t")
@@ -36982,13 +36982,13 @@ t("Always display the combat properties of gloves even if you don't know unarmed
 t("#GOLD##{bold}#Always show glove combat properties#WHITE##{normal}#", "#GOLD##{bold}#언제나 장감 전투 능력치 보기#WHITE##{normal}#", "_t")
 t("Always display combat properties of shields even if you don't know shield attack talents.#WHITE#", "방패 공격 기술을 알지 못하더라도, 항상 방패의 전투 특성을 표시합니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Always show shield combat properties#WHITE##{normal}#", "#GOLD##{bold}#언제나 방패 전투 능력치 보기#WHITE##{normal}#", "_t")
-t("When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "마우스 제스쳐를 사용할 떄 (오른쪽 클릭 + 드래그) 궤적이 표시됩니다.#WHITE#", "_t")
+t("When you do a mouse gesture (right click + drag) a color coded trail is displayed.#WHITE#", "마우스 제스쳐를 사용할 때 (오른쪽 클릭 + 드래그) 궤적이 표시됩니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Display mouse gesture trails#WHITE##{normal}#", "#GOLD##{bold}#마우스 제스처 궤적 표시#WHITE##{normal}#", "_t")
 t("If enabled new quests and quests updates will display a big popup, if not a simple line of text will fly on the screen.#WHITE#", "활성화 시, 새로운 퀘스트를 받거나, 퀘스트를 갱신 할 때, 커다란 팝업이 나타납니다. 비활성화 할 시, 간단한 텍스트가 화면에 나타납니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Big Quest Popups#WHITE##{normal}#", "#GOLD##{bold}#커다란 퀘스트 팝업#WHITE##{normal}#", "_t")
-t("Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "WASD 방향키를 활성화 합니다. 한번에 두 방향을 눌러, 대각선 방향으로 이동할 수 있습니다.#WHITE#", "_t")
+t("Enable the WASD movement keys. Can be used to move diagonaly by pressing two directions at once.#WHITE#", "WASD 방향키를 활성화 합니다. 한 번에 두 방향을 눌러, 대각선 방향으로 이동할 수 있습니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Enable WASD movement keys#WHITE##{normal}#", "#GOLD##{bold}#WASD 이동 활성화 #WHITE##{normal}#", "_t")
-t("Sharpen Visuals, set to 0 to disable.#WHITE#", "그래픽을 날카롭게합니다. 0 으로 설정할 시, 비활성화 됩니다.#WHITE#", "_t")
+t("Sharpen Visuals, set to 0 to disable.#WHITE#", "그래픽을 날카롭게 합니다. 0 으로 설정할 시, 비활성화 됩니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Sharpen Visuals#WHITE##{normal}#", "#GOLD##{bold}#날카로운 그래픽#WHITE##{normal}#", "_t")
 t("Enter Sharpen Power", "날카로움 강도를 입력하세요", "_t")
 t("From 0(disable) to 10", "0(비활성화) ~ 10", "_t")
@@ -37014,9 +37014,9 @@ Talents that require a melee target will automatically target when pressing a di
 t("#GOLD##{bold}#Quick melee targeting#WHITE##{normal}#", "#GOLD##{bold}#빠른 근접 타게팅#WHITE##{normal}#", "_t")
 t([[Enables quick melee targeting auto attacking.
 Talents that require a melee target will automatically target and confirm if there is only one hostile creatue around.#WHITE#]], [[자동 공격 시의 빠른 근접 타게팅을 활성화합니다.
-활성화 할 시, 근접한 적들이 단 하나 뿐일 떄, 자동으로 대상에게 기술을 시전합니다.#WHITE#]], "_t")
+활성화 할 시, 근접한 적들이 단 하나 뿐일 때, 자동으로 대상에게 기술을 시전합니다.#WHITE#]], "_t")
 t("#GOLD##{bold}#Quick melee targeting auto attack#WHITE##{normal}#", "#GOLD##{bold}#자동 공격 시, 빠른 근접 타게팅#WHITE##{normal}#", "_t")
-t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "마우스 타게팅을 활성화합니다. 비활성화 시, 기술을 사용할 떄의 마우스의 움직임은 대상 지정에 영향을 끼치지 ㅇ낳습니다.#WHITE#", "_t")
+t("Enables mouse targeting. If disabled mouse movements will not change the target when casting a spell or using a talent.#WHITE#", "마우스 타게팅을 활성화합니다. 비활성화 시, 기술을 사용할 때의 마우스의 움직임은 대상 지정에 영향을 끼치지 ㅇ낳습니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Mouse targeting#WHITE##{normal}#", "#GOLD##{bold}#마우스 타게팅#WHITE##{normal}#", "_t")
 t([[Auto-validate targets. If you fire an arrow/talent/... it will automatically use the default target without asking
 #LIGHT_RED#This is dangerous. Do not enable unless you know exactly what you are doing.#WHITE#
@@ -37024,13 +37024,13 @@ t([[Auto-validate targets. If you fire an arrow/talent/... it will automatically
 Default target is always either one of:
  - The last creature hovered by the mouse
  - The last attacked creature
- - The closest creature]], [[활, 또는 기술 등을 사용할 떄 대상을 자동으로 확정합니다. 이는 당신에게 물어보지 않고, 기본 대상에게 자동으로 기술을 사용할 것입니다.
-#LIGHT_RED#이것은 매우 위험합니다. 당신이 무엇을 하고있는지 정확하게 아는 상황에서만 활성화하십시오.#WHITE#
+ - The closest creature]], [[활, 또는 기술 등을 사용할 때 대상을 자동으로 확정합니다. 이는 당신에게 물어보지 않고, 주 대상에게 자동으로 기술을 사용할 것입니다.
+#LIGHT_RED#이것은 매우 위험합니다. 당신이 무엇을 하고 있는지 정확하게 아는 상황에서만 활성화하십시오.#WHITE#
 
-기본 대상은 다음과 같습니다 :
+주 대상은 다음과 같습니다 :
  - 마우스 커서가 닿은 마지막 개체
  - 마지막으로 공격당한 개체
- - 가장 가까운 게체]], "_t")
+ - 가장 가까운 개체]], "_t")
 t("#GOLD##{bold}#Auto-accept target#WHITE##{normal}#", "#GOLD##{bold}#대상 자동 승낙#WHITE##{normal}#", "_t")
 t("New games begin with some talent points auto-assigned.#WHITE#", "새 게임을 시작할 때, 기술 점수의 일부를 자동으로 분배합니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Auto-assign talent points at birth#WHITE##{normal}#", "#GOLD##{bold}#캐릭터 생성 시, 기술 점수 자동 분배#WHITE##{normal}#", "_t")
@@ -37090,12 +37090,12 @@ If you do not want that, simply run the game directly: the #{bold}#only#{normal}
 A full exit and restart of the game is neccessary to apply this setting.#{normal}#]], [[게임의 모든 네트워크 연결을 해제합니다.
 여기에는 다음과 같은 사항이 포함되지만, 국한되지는 않습니다 :
 - 플레이어 프로필 : 로그인도, 회원 가입도 불가능 해집니다.
-- 캐릭터 보관소 : 당신은 어떤 캐릭터도 온라인 보관소에 업로드 할 수 없게됩니다.
-- 아이템 금고 : 온라인 아이템 금고에 접근할 수 없게됩니다. 아이템을 저장하는 것도, 꺼내오는 것도 불가능합니다.
+- 캐릭터 보관소 : 당신은 어떤 캐릭터도 온라인 보관소에 업로드 할 수 없게 됩니다.
+- 아이템 금고 : 온라인 아이템 금고에 접근할 수 없게 됩니다. 아이템을 저장하는 것도, 꺼내오는 것도 불가능합니다.
 - 인게임 채팅 : 인게임 채팅은 다른 플레이어와 이야기 하기 위해서 서버와의 연결이 필수적입니다. 불가능해집니다.
 - 구입자 / 후원자 보너스 : 기본 게임은 무료지만, 기부자들에게 보너스를 공정하게 주는 방법은, 온라인 프로필을 확인하는 방법 뿐입니다. 따라서 이것 역시 불가능해집니다.
 - 쉬운 애드온 다운로드, 설치 : 게임 내에서 사용 가능한 애드온 리스트를 보지 못하게 됩니다. 간편한 설치 역시 불가능해집니다. 수동으로 설치해야됩니다.
-- 버전 확인 : 애드온들의 버전을 자동으로 확인할 수 없게됩니다.
+- 버전 확인 : 애드온들의 버전을 자동으로 확인할 수 없게 됩니다.
 - 디스코드 : 디스코드의 Rich Presence 기능을 사용중이라면, 이 세팅으로 인해 비활성화 됩니다.
 - 인게임 게임 뉴스 : 메인 메뉴가 게임의 새로운 업데이트 정보를 더 이상 제공하지 않습니다. 
 
@@ -37183,7 +37183,7 @@ t("You must be out of combat or in a quiet place like a #{bold}#town#{normal}# t
 t("You cannot unlearn this talent!", "이 기술을 습득을 취소할 수 없습니다!", "_t")
 t("not enough stat", "능력치가 부족합니다", "_t")
 t("You cannot unlearn this talent because of talent(s): ", "당신은 다음과 같은 기술 때문에 이 기술의 습득을 취소 할 수 없습니다 : ", "_t")
-t("You can only improve a category mastery once!", " 계열 숙련도는 한번만 투자할 수 있습니다!", "_t")
+t("You can only improve a category mastery once!", " 계열 숙련도는 한 번만 투자할 수 있습니다!", "_t")
 t("Not enough talent category points", "계열 점수가 충분하지 않습니다", "_t")
 t("You have no category points left!", "계열 점수가 더는 없습니다!", "_t")
 t("This talent tree only provides talents starting at level %d. Learning it now would be useless.", "이 기술 계열은 레벨 %d 부터 사용할 수 있습니다. 지금 익혀봤자 쓸모가 없습니다.", "tformat")
@@ -37285,7 +37285,7 @@ t("A generic talent allows you to perform various utility actions and improve yo
 t("Class talent tree", "직업 기술 계통", "_t")
 t("A class talent allows you to perform new combat moves, cast spells, and improve your character. It represents the core function of your class. You gain one point every level and two every 5th level. You may also find trainers or artifacts that allow you to learn more.", "직업기술은 당신이 선택한 직업의 핵심적인 능력들을 나타내며, 새로운 전투법이나 주문, 강화효과 등을 얻을 수 있습니다. 레벨 상승시 1 점을 받으며, 5 의 배수 레벨에서는 2 점을 받습니다. 직업기술 점수를 추가로 획득할 수 있는 유물이나 기회를 발견할 수도 있습니다.", "_t")
 t("This talent was recently learnt; you can still unlearn it.", "이 기술은 최근에 습득했으므로, 아직 습득을 취소할 수 있습니다.", "_t")
-t("This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "이 기술은 영구적으로 세계에 영향을 끼치기에, 한번 배우면 다시는 습득을 취소할 수 없습니다.", "_t")
+t("This talent can alter the world in a permanent way; as such, you can never unlearn it once known.", "이 기술은 영구적으로 세계에 영향을 끼치기에, 한 번 배우면 다시는 습득을 취소할 수 없습니다.", "_t")
 t(" class", " 직업", "_t")
 t(" generic", " 일반", "_t")
 t("The last %d %s talents you learnt are always unlearnable.", "최근에 습득한 %d 점의 %s 기술은 습득의 취소가 가능합니다.", "tformat")
@@ -37911,7 +37911,7 @@ t("The Rush talent lets you close in on an enemy quickly and daze them, disablin
 t("Stunning an opponent slows down their movement and reduces their damage output, giving you the opportunity to tactically reposition or finish them off at less risk.", "적을 기절시켜서 느려지게 만들거나 적이 가하는 피해를 줄일 수 있습니다. 그 동안 적을 끝장내거나, 좋은 위치를 잡아 우위에 서십시오.", "init.lua load_tips")
 t("Movement is key on the battlefield. A stationary fighter will become a dead fighter. One must always seek the position of greatest tactical advantage and continue to re-evaluate throughout the battle.", "전장에서 계속 움직이는 것은 아주 중요합니다. 움직이지 않는 투사는 곧 시체가 될 것입니다. 전투중에 계속 전략적 우위를 점하기 위해 자리를 이동하고, 자신의 자리를 재고하는 것을 멈추지 마십시오.", "init.lua load_tips")
 t("In the Age of Pyre the orcs learned the secrets of magic, and with their newfound powers nearly overcame the whole of Maj'Eyal.", "장작 더미의 시대에 오크들은 마법의 비밀을 배웠습니다. 이제 그들은 새로이 얻은 힘으로 마즈'에이알 전체를 위협하고 있습니다.", "init.lua load_tips")
-t("The orcs once terrorised the whole continent. In the Age of Ascendancy they were rendered extinct, but rumours abound of hidden groups biding their time to return.", "한 때 오크들은 전 대륙을 공포에 떨게 했었지만, 주도의 시대에는 멸망한 것으로 여겨집니다. 하지만 어딘가에 숨어 살아있으며, 힘을 키우며 때를 기다리고 있다는 불길한 소문이 들려옵니다.", "init.lua load_tips")
+t("The orcs once terrorised the whole continent. In the Age of Ascendancy they were rendered extinct, but rumours abound of hidden groups biding their time to return.", "한때 오크들은 전 대륙을 공포에 떨게 했었지만, 주도의 시대에는 멸망한 것으로 여겨집니다. 하지만 어딘가에 숨어 살아있으며, 힘을 키우며 때를 기다리고 있다는 불길한 소문이 들려옵니다.", "init.lua load_tips")
 t("Intense willpower lets wyrmics take on the natural powers of dragons.", "용인들은 강력한 의지를 이용해, 용들의 힘을 부립니다.", "init.lua load_tips")
 t("Alchemists can transmute gems to create fiery explosions, and are known to travel with a sturdy golem for extra protection.", "연금술사들은 보석을 변환시켜 폭발물을 만들 수 있습니다. 이들은 자신의 호위를 위해 강인한 골렘을 데리고 여행합니다.", "init.lua load_tips")
 t("In the Age of Pyre the giant golem Atamathon was built with the sole purpose of stopping the orcish leader Garkul the Devourer. The golem was single-handedly destroyed by the orc, who then slaughtered an army of thousands before the demonic fighter was finally slain.", "장작더미의 시대에 오크의 지도자인 포식자 가르쿨을 막기 위해 거대한 골렘인 아타마쏜이 만들어졌습니다. 아타마쏜은 이 강력한 오크에 의해 바로 파괴되었고, 포식자 가르쿨은 쓰러지기 전까지 수천의 군대를 학살했습니다.", "init.lua load_tips")
@@ -37920,7 +37920,7 @@ t("In deep places dark things dwell beyond description or understanding. None kn
 t("Who knows what dark thoughts drive people to necromancy? Its art is as old as magic itself, and its creations have plagued all the races since the earliest memories.", "많은 이들이 왜 강령술사들이 그 사악한 마법을 연구하는지에 관한 의문을 갖고 있습니다. 이 사악한 비술은 마법 자체만큼 오래되었고, 태초부터 모든 종족을 타락시켜왔습니다.", "init.lua load_tips")
 t("Some say that in their early days the Shaloren kings experimented with necromancy to preserve their flesh after death, but with little success. The Shaloren vehemently deny this.", "어떤 사람들은 샬로레의 왕들이 죽음 이후에도 육체를 보존하기 위해 오래전부터 강령술을 실험해 왔다고 말하지만, 매우 적은 수만이 성공했다고 합니다. 샬로레들은 이런 소문을 단호하게 부정합니다.", "init.lua load_tips")
 t("120 years ago Toknor and Mirvenia united the human and halfling kingdoms and wiped out the orcish race, thus establishing the Age of Ascendancy.", "120 년 전 Toknor와 Mirvenia 가  인간과 하플링 왕국을 하나의 왕국으로 재건해, 오크들을 쓸어버림으로서 주도의 시대를 열었습니다.", "init.lua load_tips")
-t("\"The Spellblaze tore Eyal apart and nearly brought about the end of all civilisation. Two thousand years on its shadow still hangs over many lands, and the prideful mages have never been forgiven their place in bringing it about.", "\"마법폭발은 에이알을 찢어놓았고, 문명들을 모두 끝장낼 뻔 했습니다. 2000 년이 지난 지금도 아직도 많은 땅에 마법폭발의 영향이 남아있습니다. 그러나 오만스러운 마법사들은 그런 재앙을 불러온 것에 대해 단 한번도 죄책감을 느끼지 않았습니다.", "init.lua load_tips")
+t("\"The Spellblaze tore Eyal apart and nearly brought about the end of all civilisation. Two thousand years on its shadow still hangs over many lands, and the prideful mages have never been forgiven their place in bringing it about.", "\"마법폭발은 에이알을 찢어놓았고, 문명들을 모두 끝장낼 뻔 했습니다. 2000 년이 지난 지금도 아직도 많은 땅에 마법폭발의 영향이 남아있습니다. 그러나 오만스러운 마법사들은 그런 재앙을 불러온 것에 대해 단 한 번도 죄책감을 느끼지 않았습니다.", "init.lua load_tips")
 t("Some are cursed with mental powers beyond their full control, turning them to a dark life powered by hatred.", "통제할 수 없는 정신력을 가진 저주받은 이들은 증오에서 살아갈 힘을 받으며 어두운 삶을 살아가게 됩니다.", "init.lua load_tips")
 t("Dreadfell has always been shunned for its haunted crypts, but of late rumours tell of a darker and more terrible power in residence.", "유령들린 묘지인 두려움의 영역은 먼 미래까지, 공포로 인해 꺼려지는 장소일 것입니다. 어둡고 사악하지만 강력한 존재가 살고 있다는 소문들이 자주 들려옵니다.", "init.lua load_tips")
 t("Some Sher'Tul artifacts can still be found in hidden places, but it is said they are not to be trifled with.", "몇 개의 쉐르'툴 유물을 숨겨진 장소에서 찾을 수 있습니다. 만일 이 유물들을 획득한다면, 귀중하게 여기는게 좋을겁니다.", "init.lua load_tips")
@@ -37953,9 +37953,9 @@ t("It's said that some rare powers can save your soul from the edge of death.", 
 t("Rumours tell of a shadowy cult kidnapping women and performing strange rites. Their intentions are unknown, and they have so far evaded capture.", "비밀스러운 종교집단이 여자들을 납치하고 기이한 의식을 치룬다는 소문이 돕니다. 종교집단의 의도를 알 수 없을 뿐더러, 그 신도들은 아직까지도 잡히지 않고 있습니다.", "init.lua load_tips")
 t("Though slavery is illegal there is still a black market for it, and in some areas men are even used for blood sports.", "노예를 부리는 것은 불법이지만, 아직도 노예시장이 어딘가에 존재한다고 합니다. 어떤 곳에서는 피튀기는 스포츠를 위해 사람이 동원된다고 합니다.", "init.lua load_tips")
 t("Maj'Eyal is the biggest continent in the world of Eyal. Though records suggest other continents and islands may exist it has not been possible to cross the wide and stormy oceans since the Spellblaze and the Cataclysm.", "마즈'에이알은 에이알의 세계에서 가장 큰 대륙입니다. 기록에 따르면 다른 대륙과 섬들이 있지만, 대재앙과 마법폭발 이후로 드넓은 대양을 건너는 것은 불가능해졌습니다.", "init.lua load_tips")
-t("The effects of the Spellblaze were not all instant, and many centuries later the Cataclysm tore the continent apart once more, devastating coastal areas the destroying all of the Naloren lands.", "모든 마법 폭발의 여파가 즉각적인 것은 아니였습니다. 수 세기후, 대재앙이 닥쳐 대륙을 한번 더 찢어놓고 해안에 있던 날로레의 영토를 파괴했습니다.", "init.lua load_tips")
+t("The effects of the Spellblaze were not all instant, and many centuries later the Cataclysm tore the continent apart once more, devastating coastal areas the destroying all of the Naloren lands.", "모든 마법 폭발의 여파가 즉각적인 것은 아니였습니다. 수 세기후, 대재앙이 닥쳐 대륙을 한 번 더 찢어놓고 해안에 있던 날로레의 영토를 파괴했습니다.", "init.lua load_tips")
 t("Archers are fast and deadly, and with pinning shots can render their foes helpless as they swiftly dispatch them.", "궁수는 빠르고 치명적입니다. 화살을 꽂아넣어 적들이 접근하기도 전에 무력화시킬 수 있습니다.", "init.lua load_tips")
-t("Reavers are powerful fighters with corrupted blood, and the strength to wield a one-handed weapon in each arm.", "타락한 피를 가진 약탈자들은 강력한 투사입니다. 두 손 모두에 한손무기를 장비할 수 있습니다.", "init.lua load_tips")
+t("Reavers are powerful fighters with corrupted blood, and the strength to wield a one-handed weapon in each arm.", "타락한 피를 가진 약탈자들은 강력한 투사입니다. 두 손 모두에 한 손무기를 장비할 수 있습니다.", "init.lua load_tips")
 t("Corruptors feed off the essence of others, and can use their own corrupted blood to launch deadly magical attacks.", "타락자들은 생명의 정수를 포식합니다. 타락한 피를 이용하여 치명적인 마법 공격을 할 수 있습니다.", "init.lua load_tips")
 t("Clever rogues can lay traps to damage or debilitate their foes without having to go near them.", "영리한 도적은 덫을 놓아 적과 근접하지 않은 상태에서 피해를 주고 무력화시킬 수 있습니다.", "init.lua load_tips")
 t("Rogues can move silently and stealthily, letting them approach foes unaware or avoid them entirely.", "도적들은 조용하고 은밀하게 움직입니다. 적이 눈치채기 전에 접근하거나, 적을 완전히 무시하고 지나갈 수 있습니다.", "init.lua load_tips")

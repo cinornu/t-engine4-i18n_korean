@@ -23,9 +23,9 @@ All your characters in alternate universes will be able to access it from here.
 Only items from a validated game versions are uploadable.#WHITE#*
 
 #CRIMSON#Offline mode#WHITE#: The item's vault works even without a network connection but items will thus only be saved on your computer and can not be shared to an other one.
-The offline vault is only available when offline and contains 3 slots.]], [[*#LIGHT_GREEN#이 오브는 여분 차원의 아이템 금고와 상호 작용할 수 있는 것 같습니다.
+The offline vault is only available when offline and contains 3 slots.]], [[#LIGHT_GREEN#*이 오브는 여분 차원의 아이템 금고와 상호 작용할 수 있는 것 같습니다.
 다른 우주에 존재하는 모든 캐릭터들 또한 여기에 접근할 수 있습니다.
-유효한 게임 버전의 아이템만 보관할 수 있습니다.#WHITE#*
+유효한 게임 버전의 아이템만 보관할 수 있습니다.*#WHITE#
 
 #CRIMSON#오프라인 모드#WHITE#: 아이템 금고는 인터넷 연결이 되어있지 않아도 작동하지만, 컴퓨터 내 저장소에만 저장되므로 온라인 상 다른 아이템에 접근이 불가능합니다.
 오프라인 금고는 3 칸의 금고만 사용 가능합니다.]], "_t")
@@ -49,9 +49,9 @@ All your characters in alternate universes will be able to access it from here.
 Only items from a validated game versions are uploadable.#WHITE#*
 
 #GOLD#Donator's Feature#ANCIENT_WHITE#: Items are saved on the server, only donators have access to this feature and the number of items storable at once depends on your generosity.
-I, DarkGod, the maker of this game want to personaly thank all donators because you people are keeping this game going. Thanks and enjoy!]], [[*#LIGHT_GREEN#이 오브는 여분 차원의 아이템 금고와 상호 작용할 수 있는 것 같습니다.
+I, DarkGod, the maker of this game want to personaly thank all donators because you people are keeping this game going. Thanks and enjoy!]], [[#LIGHT_GREEN#*이 오브는 여분 차원의 아이템 금고와 상호 작용할 수 있는 것 같습니다.
 다른 우주에 존재하는 모든 캐릭터들 또한 여기에 접근할 수 있습니다.
-유효한 게임 버전의 아이템만 보관할 수 있습니다.#WHITE#*
+유효한 게임 버전의 아이템만 보관할 수 있습니다.*#WHITE#
 
 #GOLD#기부자 전용 기능#ANCIENT_WHITE#: 아이템을 서버에 저장할 수 있습니다. 기부자만 이 기능을 사용할 수 있으며 아이템 금고의 크기는 기부자의 도량에 따라 달라집니다.
 이 게임의 제작자인 나 DarkGod은 모든 기부자분들께 개인적으로 감사드립니다. 즐겨주세요!]], "_t")

@@ -45,7 +45,7 @@ t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +
 t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +3", "_t")
 t("Cultist of Entropy", "엔트로피 광신도", "birth descriptor name")
-t("Everything ends eventually. Harness this inevitability.", "결국 모든 것은 끝을 맞게됩니다. 그러므로 그들은 이 필연성을 다룹니다.", "_t")
+t("Everything ends eventually. Harness this inevitability.", "결국 모든 것은 끝을 맞게 됩니다. 그러므로 그들은 이 필연성을 다룹니다.", "_t")
 t("Cultists of Entropy are doomed beings which have unlocked the secrets of using entropy as a weapon. Their spells cause their bodies to wither away from entropic backlash, but they have learned how to resist this backlash and even pass it onto their foes.", "엔트로피 광신도들은 엔트로피를 무기로써 활용하는 비의를 알아낸 파멸한 존재들입니다. 그들의 주문은 엔트로피 반발을 유발해 스스로의 몸에 노화를 일으키지만, 그들은 반발에 저항하는 법과 적에게 떠넘기는 법을 터득했습니다.", "_t")
 t("Their most important stats are: Magic and Cunning", "그들에게 가장 중요한 능력치는 마법과 교활입니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
@@ -104,8 +104,8 @@ t("Bikini / Mankini", "비키니 / 맨키니", "_t")
 section "game/dlcs/tome-cults/data/birth/krog.lua"
 
 t("Krog", "크로그", "birth descriptor name")
-t("Once an abomination, now a weapon.", "한 때는 흉물에 지나지 않았지만, 지금은 무기입니다.", "_t")
-t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한 때 오우거였으나, 그 천성이 근본적으로 달라져 버렸습니다. 지구랏 추종자들은 룬을 신체에서 벗겨버리는 대신, 자연적인 주입물과 용의 피의 혼합물로 그들을 죽음에서 구했습니다. 크로그는 반마법에 완전히 헌신적이며, 그 외의 것들은 그렇게 중요하게 여기지 않습니다.", "_t")
+t("Once an abomination, now a weapon.", "한때는 흉물에 지나지 않았지만, 지금은 무기입니다.", "_t")
+t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한때 오우거였으나, 그 천성이 근본적으로 달라져 버렸습니다. 지구랏 추종자들은 룬을 신체에서 벗겨버리는 대신, 자연적인 주입물과 용의 피의 혼합물로 그들을 죽음에서 구했습니다. 크로그는 반마법에 완전히 헌신적이며, 그 외의 것들은 그렇게 중요하게 여기지 않습니다.", "_t")
 t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "크로그는 적들에게 기절/혼절을 유발하는 #GOLD#야생의 분노#WHITE# 기술을 갖고있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +2 체격", "_t")
@@ -549,7 +549,7 @@ t("Ewwww.", "어으..", "_t")
 t("plasmic disruptor", "방해성 혈장 세포", "entity name")
 t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 초록 점액을 내뿜고 있습니다.", "_t")
 t("mastocytic feeder", "포식성 면역 세포", "entity name")
-t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "불그스름한 공격 세포로, 다른 세포들이 공격할 떄, 당신의 집중을 방해합니다.", "_t")
+t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "불그스름한 공격 세포로, 다른 세포들이 공격할 때, 당신의 집중을 방해합니다.", "_t")
 t("protoplasmic controller", "원형질 관리 세포", "entity name")
 t("Acid. Fire. Pain.", "산성. 화염. 고통.", "_t")
 t("dendritic hemospinner", "수상 돌기 혈액 공급 세포", "entity name")
@@ -569,7 +569,7 @@ t("Ewwww.", "어으..", "_t")
 t("corrupted plasmic disruptor", "타락한 방해성 혈장 세포", "entity name")
 t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 초록 점액을 내뿜고 있습니다.", "_t")
 t("corrupted mastocytic feeder", "타락한 포식성 면역 세포", "entity name")
-t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "불그스름한 공격 세포로, 다른 세포들이 공격할 떄, 당신의 집중을 방해합니다.", "_t")
+t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "불그스름한 공격 세포로, 다른 세포들이 공격할 때, 당신의 집중을 방해합니다.", "_t")
 t("corrupted protoplasmic controller", "타락한 원형질 관리 세포", "entity name")
 t("Acid. Fire. Pain.", "산성. 화염. 고통.", "_t")
 t("corrupted dendritic hemospinner", "타락한 수상 돌기 혈액 공급 세포", "entity name")
@@ -596,13 +596,13 @@ t("searing horror", "불사르는 빛의 공포", "entity name")
 t("And you thought radiant horrors were bad.", "그리고 당신은 발광의 공포는 나쁘다고 생각하겠죠.", "_t")
 t("#GOLD#The Searing Horror adds a reflective shield to its allies!#LAST#", "#GOLD#불사르는 빛의 공포가 적들에게 반사 보호막을 시전한다!#LAST#", "say")
 t("ravaging entropic rip", "파괴하는 엔트로피의 균열", "entity name")
-t("A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "기이한 현실 구조의 수정/균열입니다. 어떻게 존재하고있는 건지 감히 생각도 할 수 없습니다.", "_t")
+t("A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "기이한 현실 구조의 수정/균열입니다. 어떻게 존재하고 있는 건지 감히 생각도 할 수 없습니다.", "_t")
 t("bursting entropic shard", "폭발하는 엔트로피의 조각", "entity name")
 t("A strange tall crystal pusling with nether energies. It's broken. Tentacles come out of it to get you! #{bold}#RUN!#{normal}#", "기이하고 높은 수정이 황천 에너지로 맥동합니다. 수정이 부셔지자, 촉수들이 튀어나와 당신에게로 몰려옵니다! #{bold}#뛰십시오!#{normal}#", "_t")
 t("nethergate", "황천 차원문", "entity name")
 t("A strange portal of nether energies, it somehow feels alive itself.", "황천 에너지의 기이한 차원문으로, 차원문 그 자체가 살아있는 것 같습니ㅏㄷ.", "_t")
 t("It looks inactive and dormant for now. Maybe try to not wake it up.", "지금은 비활성화 상태고,  잠들어 있는 것 같습니다. 깨우지 않도록 노력하십시오.", "_t")
-t("It looks active and you can feel dark energies coming out of it.", "활성화 되어, 당신은 어둠의 에너지가 이 차원문에서 방출됨을 느낍니다.", "_t")
+t("It looks active and you can feel dark energies coming out of it.", "활성화되어, 당신은 어둠의 에너지가 이 차원문에서 방출됨을 느낍니다.", "_t")
 t("#PURPLE#The nethergate feels a presence nearby and wakes up!", "#PURPLE#황천 차원문은 주변의 존재감을 느껴 깨어났다!", "logSeen")
 t("#PURPLE#The nethergate absorbs the attack and stirs, reactivating...", "#PURPLE#황천 차원문은 공격을 흡수하고, 서서히 움직였다. 재활성화 중...", "logSeen")
 t("netherworm mass", "황천 구더기 떼", "entity name")
@@ -735,12 +735,12 @@ Read now for a fate worse than death inside awaits.
 광기의 책,
 정신 이상의 책.
 
-책을 읽은 이는 고통 너머의 고통을 알게될 것이다.
+책을 읽은 이는 고통 너머의 고통을 알게 될 것이다.
 읽어라. 죽음보다 더 극심한 운명이 기다린다.
 ]], "_t")
 t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
-t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 댓가로 치뤄야할까요?", "_t")
-t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 떄, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '선생님' 으로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
+t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한 번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 댓가로 치뤄야할까요?", "_t")
+t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 때, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '선생님' 으로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
 t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이 일은 일어나지 않았다.", "_t")
 t("Hithre", "하이트르", "_t")
 t("The importance of power (+3% spell critical chance)", "힘의 중요성 (주문 치명타 확률+3%)", "_t")
@@ -777,7 +777,7 @@ t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with 
 t("#DARK_SEA_GREEN#The %s reaches for %s with a tentacle!", "#DARK_SEA_GREEN#%s %s 촉수 팔로 조였다!", "logSeen", nil, {"는","을"})
 t("Monolith Armour", "거석의 갑옷", "entity name")
 t("black stone armour", "흑석 갑옷", "_t")
-t("This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "이 '갑옷'은 룬이 세겨진 바위와 높은 유연성을 가진 검은 그물의 융합물로 이루어 진 것 같습니다. 거석은 의심할 여지 없이 당신에게 가해지는 공격을 막아낼 테지만, 착용하고, 움직이라면 말도안되는 힘이 필요합니다. 거석에 새겨진 문양과 룬들은 때때로 저절로 빛을 내, 작은 마법 폭발을 일으킵니다.", "_t")
+t("This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "이 '갑옷'은 룬이 세겨진 바위와 높은 유연성을 가진 검은 그물의 융합물로 이루어 진 것 같습니다. 거석은 의심할 여지 없이 당신에게 가해지는 공격을 막아낼 테지만, 착용하고 움직이려면 말도 안되는 힘이 필요합니다. 거석에 새겨진 문양과 룬들은 때때로 저절로 빛을 내, 작은 마법 폭발을 일으킵니다.", "_t")
 t([[15% chance when hit to shatter reality around you creating rifts to help you (free cast of a Reality Fracture talent, level 4). This effect has a 30 turns cooldown.
 #PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], [[피격 시 15% 확률로, 주변의 현실 구조를 찢고, 균열을 만들어 적을 공격합니다. (현실 균열 기술을 턴과 원천력 소모 없이 사용합니다. 기술 레벨은 4 입니다) 이 효과는 30 턴의 재사용 대기시간이 존재합니다.
 #PURPLE#만약 착용자의 체격이 이 갑옷의 요구 조건 이하로 감소한다면, 참을 수 없이 무거운 이 갑옷을 자동으로 장비 해제합니다. 조심하십시오.#LAST#]], "_t")
@@ -800,7 +800,7 @@ t("Dedication", "헌신", "entity name")
 t("always blunt mace", "항상 뭉툭한 둔기", "_t")
 t([[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
 The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], [[크로그들은 보통 한 손에는 둔기를, 한 손에는 검을 든다고 알려져 있습니다. 한 손으로는 지구랏의 전언을 퍼뜨리며, 다른 한 손으로 그 전언을 실행합니다.
-둔기는 마법의 힘에 마지막 일격을 가할 때 까지 기꺼이 참고 인내하겠노라는 의지를 상징합니다. 일반적으로 이 둔기는 마법사를 두들겨 패, 기절시켜 마법 시전을 막아버리는 용도로 사용됩니다. ]], "_t")
+둔기는 마법의 힘에 마지막 일격을 가할 때까지 기꺼이 참고 인내하겠노라는 의지를 상징합니다. 일반적으로 이 둔기는 마법사를 두들겨 패, 기절시켜 마법 시전을 막아버리는 용도로 사용됩니다. ]], "_t")
 t("#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#둔기를 쥐자 칼이 당신의 크로그 본성에 동화되는 것을 느낀다. 힘이 모인다!", "logPlayer")
 t("It is said perseverance comes hand in hand with dedication.", "인내는 다른 손에 헌신을 쥐고 온다고 합니다.", "_t")
 t("charm", "부적", "entity type")
@@ -814,7 +814,7 @@ This stake of wood appears to one of those used to prop up one of the executed h
 하지만, 이럼에도 불구하고, 시민들은 계속 자연의 적들을 산 채로 불태웠습니다. 권력자들은 죽은 가해자들의 머리가 죽고 나서도 민중을 선동했음을 모릅니다.
 
 이 나무 말뚝은 처형한 머리가 꽂혀있었을 것 같습니다. 말뚝은 꽂혀있던 머리의 의지를 일부 흡수해, 들고있노라면 지구르의 전언이 머릿속에서 울려퍼집니다.]], "_t")
-t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "반경 10 칸 내의 모든 비 마법 사용자들을 마법을 사용하는 동료들에게 강제로 적대하게합니다. 이 효과는 6 턴 동안 지속되며, 확률은 정신력에 비례합니다.", "tformat")
+t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "반경 10 칸 내의 모든 비 마법 사용자들을 마법을 사용하는 동료들에게 강제로 적대하게 합니다. 이 효과는 6 턴 동안 지속되며, 확률은 정신력에 비례합니다.", "tformat")
 t("Worm Nest", "구더기 둥지", "entity name")
 t("disgusting robe", "역겨운 로브", "_t")
 t("This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "이 이상하게 두꺼운 로브는 계속 꿈틀거리고 작게 움직입니다. 가끔 구더기들이 튀어 나와, 땅바닥에 떨어집니다. 구더기들은 착용자에게 가해지는 피해를 일부 흡수하지만, 이렇게나 많은 기생성 생명체를 연약한 피부에 가까이하는 것은 그렇게 좋은 생각 같진 않습니다.", "_t")
@@ -850,7 +850,7 @@ t("temporarily causes the target to receive entropic backlash from any healing t
 t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
-t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 메말라버린 촉수 덩어리는 감염되어, 자연물과 비자연물 사이의 기이한 융합을 만들어 내는 마석같습니다. 한 때, 깨끗했던 보석은 이제는 채찍같은 촉수가 달린 검은 흑요석 조각처럼 변해버렸습니다. 공포의 영향이 자연 그 자체와 융합할 수 있을거라 생각하고 싶지 않습니다.", "_t")
+t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 메말라버린 촉수 덩어리는 감염되어, 자연물과 비자연물 사이의 기이한 융합을 만들어 내는 마석같습니다. 한때, 깨끗했던 보석은 이제는 채찍같은 촉수가 달린 검은 흑요석 조각처럼 변해버렸습니다. 공포의 영향이 자연 그 자체와 융합할 수 있을거라 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 폭발을 대상에게 시전합니다", "_t")
 
 
@@ -916,7 +916,7 @@ It is only after these ruins were found that thought finally manifested in our b
 
 There is one question which keeps coming back to me. Why do we exist? Where did we come from? There are many strange things which dwell below the surface, but we are somehow different. The dwarven race bears similarities to us, but they possess a face where we do not. Are we cast from the same mold, but the process went awry somehow?
 
-I strongly believe that Drem and Dwarf do share a common origin. But, what is that origin? Could this simply have been the result of our different environments over the years? I could speculate all day about this, but that would not produce any concrete evidence. I intend to explore these caverns until I can find some clue or fragment of knowledge which will point me in the right direction. I need to know the truth.]], [[나의 기억은 이 거대한 폐허가 마지막으로, 이전에 무슨 일이 있었는지는 전혀 기억나지 않는다. 우리들은 세상의 표면에 사는 이들에게 드렘이라고 불리고, 흔히 괴물로 취급된다. 틀린 말은 아닐지도 모르지. 우린 한 때 아무 생각없이 지하를 배회하는 생명체였으며, 그저 폭력을 휘두룰 뿐인 존재였고 본능을 따라 살 뿐이었으니까. 
+I strongly believe that Drem and Dwarf do share a common origin. But, what is that origin? Could this simply have been the result of our different environments over the years? I could speculate all day about this, but that would not produce any concrete evidence. I intend to explore these caverns until I can find some clue or fragment of knowledge which will point me in the right direction. I need to know the truth.]], [[나의 기억은 이 거대한 폐허가 마지막으로, 이전에 무슨 일이 있었는지는 전혀 기억나지 않는다. 우리들은 세상의 표면에 사는 이들에게 드렘이라고 불리고, 흔히 괴물로 취급된다. 틀린 말은 아닐지도 모르지. 우린 한때 아무 생각없이 지하를 배회하는 생명체였으며, 그저 폭력을 휘두룰 뿐인 존재였고 본능을 따라 살 뿐이었으니까. 
 
 이 폐허를 발견하고 나서 우리의 몸에 정신이 깃들기 시작했다. 나에게는 지고의 지식도 선사해 주었지. 일부의 드렘에게는 이 선물은 전혀 도움이 되지 않았다. 그리고 다른 드렘들에게는 겨우 하찮은 생각을 가능케 하는 정도에 불과했다. 추측컨데 폐허에서 작용한 힘은 우리들 개체마다 제각각 달리 작용한 듯 싶다. 선물을 받은 후 간신히 자아를 인식하게 된 우리는 우리가 사는 세상과 스스로에 대해 많이 배워야 했다.
 
@@ -934,7 +934,7 @@ Multiple scouting parties were sent down the tunnels and it became obvious that 
 
 It is a vague hope, but I hope in my heart of hearts that this place will finally give me the answers I have been seeking about the origin of Dwarves and Drem alike.]], [[얼마 전에 폐허 주위에서 땅이 함몰된 일이 몇 번 있었다. 구덩이가 조사하기 안전하단 것을 알아낸 후 우리는 그 장소를 탐색했고, 이 함몰로 인하여 이전에 드러나지 않았던 굴들이 노출된 것이 발견되었다. 근래 내 연구가 별다른 진전이 없었기에 반가운 소식이었다.
 
-놀랍게도 굴 안에서 거주의 흔적이 발견되었다! 몇 가지의 낡고 닳은 원시적인 도구와 무기들이 발견되었는데, 아무 생각이 없는 드렘 종족은 도구를 만들 줄 모른다고 알려져있다. 따라서 오래된 드워프 굴이라고 결론지었다. 이 굴의 내부에서 수염나고 건장한 인간 형상의 존재가 촉수 괴물과 싸우는 듯한 동굴 벽화도 발견되었다.
+놀랍게도 굴 안에서 거주의 흔적이 발견되었다! 몇 가지의 낡고 닳은 원시적인 도구와 무기들이 발견되었는데, 아무 생각이 없는 드렘 종족은 도구를 만들 줄 모른다고 알려져 있다. 따라서 오래된 드워프 굴이라고 결론지었다. 이 굴의 내부에서 수염나고 건장한 인간 형상의 존재가 촉수 괴물과 싸우는 듯한 동굴 벽화도 발견되었다.
 
 우리가 발견한 것은 이뿐만이 아니었다. 다른 많은 굴들이 발견되었고, 그 굴들이 손으로 파서 만들어졌다고 시사하는 증거도 있었다. 드워프들이 뛰어난 광부인 것은 주지의 사실이지만, 원시 드워프들도 암반을 이렇게 쉽게 파냈다니... 정말 놀라울 따름이었다.
 
@@ -1072,7 +1072,7 @@ Reaching into my pack to pull out some more infusions to finish my job I heard t
 
 "그 상처를 치료해야 해요." 난 그렇게 말했다. 자신의 팔을 흘겨보며 그는 앓는 듯이 말을 꺼냈다. "금방 붕대를 감을 거요." 그가 '붕대를 감을 것'이라고 말한 것이 조금 혼란스러웠다. 하지만 내가 이에 대해 물어보기도 전에 그가 말했다. "따라 오시오. 여긴 맹수들이 듫끓고 있어 위험하니." 나를 지나치면서 그는 남쪽으로 걷기 시작했다. 내가 따라가려고 움직인 순간, 멀리서 늑대의 울음 소리가 들렸고, 그를 따라가는 게 최선이라는 걸 확신했다. 우리는 건물들에서 멀리 떨어져 그곳에서 빠져나왔다. 몇몇 짐승들이 우리를 발견했지만, 우리가 마을들 빠져나오는 걸 그저 보고 있을 뿐이었다.
 
-몇 시간동안 우리는 오래된 도로를 따라 걸어갔다. 그동안 그는 자신을 소개했다. 다른 종족들처럼 그는 자신의 이름을 알려줬으며, 자신이 수도의 바깥에 남겨진 다른 샬로렌들이 남아있는지 찾기 위해 파견된 순찰자라고 말했다. 불행히도 떠나기 위해 사람들을 결집하고 있을 때, 늑대들이 정착지에 있던 사람들을 모두 공격하고 죽였다고 한다. 내가 그를 마주친 그곳에서 일어난 일이었다. 내가 그곳에 도착했을 때 그는 활을 잃어버린 채였고 유일한 생존자였으며, 그가 구조하려고 했던 다른 샬로렌들은 모두 늑대들에게 잡아먹혔다. 우리는 무거운 분위기 속에서 말없이 앞으로 계속 나아갔다. 한 시간쯤 더 걷고 나서야 우리는 사람들이 있는 야영지에 도착할 수 있었다.
+몇 시간 동안 우리는 오래된 도로를 따라 걸어갔다. 그동안 그는 자신을 소개했다. 다른 종족들처럼 그는 자신의 이름을 알려줬으며, 자신이 수도의 바깥에 남겨진 다른 샬로렌들이 남아있는지 찾기 위해 파견된 순찰자라고 말했다. 불행히도 떠나기 위해 사람들을 결집하고 있을 때, 늑대들이 정착지에 있던 사람들을 모두 공격하고 죽였다고 한다. 내가 그를 마주친 그곳에서 일어난 일이었다. 내가 그곳에 도착했을 때 그는 활을 잃어버린 채였고 유일한 생존자였으며, 그가 구조하려고 했던 다른 샬로렌들은 모두 늑대들에게 잡아먹혔다. 우리는 무거운 분위기 속에서 말없이 앞으로 계속 나아갔다. 한 시간쯤 더 걷고 나서야 우리는 사람들이 있는 야영지에 도착할 수 있었다.
 
 야영지에 가까워지자 뒤에서 망토를 걸친 자들이 뒤에서 뛰쳐나왔다. 우리의 앞에서 몇몇 사람들이 검을 쥔 채로 다가왔다. 그들은 잠시 멈추었다가 우리가 왔던 방향을 바라봤다. 마지막으로 한 샬로렌 남성이 우리 앞에 다가왔다. 그가 이 그룹의 리더인 듯했다. "주민들은 어디에 있나?" 그가 쉰 목소리로 말했다. "모두 죽었습니다. 늑대들의 먹이가 됐습니다." 정찰병이 대답했다. "같은 일이 저한테도 일어날 뻔 했습니다." 대장은 이내 내 쪽을 보고 나서 말했다. "그렇다면 이 자는 오는 길에 합류한 듯하군. 들어와라. 야영지 안에서 이야기하도록 하지."
 
@@ -1522,7 +1522,7 @@ Asking him what was wrong the dark blue glow went away from the ogres eyes and I
 
 그 오우거를 자세히 보니 그의 눈에 푸른 빛이 서려있는 것을 볼 수 있었다. 이게 주변을 둘러볼 수 있도록 해주는 듯 했다. 갑자기 오우거는 꽥 소리를 질렀다. "지금 당장 가야 돼." 그러자 오우거 무리들이 모두 심각한 표정을 지었다. 개중에는 "어떡하지"라고 계속 혼잣말을 되뇌이며 가쁜 숨을 내쉬는 자도 있었다. 나는 조금 혼란스러워 하며 물었다. "무슨 일이요?" 그 오우거는 뒤돌아 내가 다가왔다. 방금까지 푸르게 빛났던 눈으로 무언가를 찾는 듯, 나를 뚫어져라 쳐다봤다. 이내 그는 섬뜩한 목소리로 일갈했다. "우리를 속이고 있는게 아니어야 할 거다, 탈로레. 당장 우리를 엘발라로 데려다 주게. 당장 가야 해. 지금 당장!"
 
-갑작스런 요청에 나는 벙찐 채로 말을 더듬었다. "그, 그렇게 하죠." 그 오우거는 바로 다른 이들에게 소리쳤다. "가자고!" 그는 잽싸게 내 팔을 부여잡고 달리기 시작했다. 다른 오우거들이 따라오는 발소리가 우렁차게 들려왔다. 우리는 죽음이 도사리는 땅 위로 무작정 달렸고, 땅의 균열과 날카로운 바위를 지나쳤다. 내가 걸어오는 데에 하루가 꼬박 걸린 거리를 그들은 한 시간만에 돌파했다. 내 팔을 잡고 달리던 오우거는 때때로 나를 위로 들어올리며 온갖 위험한 지형들을 돌파했다. 우리는 해안선이 보일때까지 계속 달렸다. 나는 다른 팔로 우리가 가야할 서쪽 방향을 가리켰고, 오크 무리는 용암 웅덩이를 피해가며 달렸다.
+갑작스런 요청에 나는 벙찐 채로 말을 더듬었다. "그, 그렇게 하죠." 그 오우거는 바로 다른 이들에게 소리쳤다. "가자고!" 그는 잽싸게 내 팔을 부여잡고 달리기 시작했다. 다른 오우거들이 따라오는 발소리가 우렁차게 들려왔다. 우리는 죽음이 도사리는 땅 위로 무작정 달렸고, 땅의 균열과 날카로운 바위를 지나쳤다. 내가 걸어오는 데에 하루가 꼬박 걸린 거리를 그들은 한 시간만에 돌파했다. 내 팔을 잡고 달리던 오우거는 때때로 나를 위로 들어올리며 온갖 위험한 지형들을 돌파했다. 우리는 해안선이 보일 때까지 계속 달렸다. 나는 다른 팔로 우리가 가야할 서쪽 방향을 가리켰고, 오크 무리는 용암 웅덩이를 피해가며 달렸다.
 
 날 잡고 있던 오우거가 숨을 헐떡이며 휘청거릴 즈음에서야 속도를 줄였다. 그는 멈춘 뒤 뒤를 돌아봤고, 방금처럼 검푸른 빛의 안광이 눈에서 빛났다. 더 이상 아무런 설명도 받지 않고 어리둥절해 있을 수는 없었기에 나는 무얼하는 것이냐고 물었다. 오우거가 나를 돌아보자 검푸른 안광은 사라졌고 이내 대답했다. "당신이 룬에 대해 잘 모른다는 건 알겠네. 탈로렌들이 마법을 그다지 좋아하지 않는다는 걸 생각하면 그다지 놀랄만한 일도 아니구만. 이 주변 지역의 모습을 비춰주는 룬을 사용하고 있네. 물론 주변의 지형만을 보기 위해서 지금 이 룬을 쓰고 있는 건 당연히 아니지만." 오우거는 말을 멈추며 다시 뒤를 돌아봤다.
 
@@ -1808,15 +1808,15 @@ Immediately I pulled every force of my being away from the enchantress. She inst
 
 Eventually as I recovered enough to move around a bit I was finally released from the care of the healers. I was given a dwelling in a secluded part of Elvala and a pair of guards were stationed outside of it at all times. Although I never asked, I was sure they were there to confine me from the rest of the citizens of Elvala, and them from me. I didn't blame the shaloren for this as even now I could feel something driving me, influencing my thoughts, wanting to lash out. Who knows what sort of actions I might have been pushed to do, or whether I may have gone into a mad killing rage against the Shaloren; the irony of which is not lost on me considering my initial reasons for leaving Thaloren lands so long ago.]], [[[i]알레이웬이 날 지금 용서했을진 모르겠다. 내가 그녀에게 끼쳤던 공포, 그녀가 느꼈을 나의 증오에 대해서 용서했을까. 한 순간의 일이었지만, 내 분노가 그녀의 존재 그 자체에 흘러들어갔음을 느꼈다. 그 광신도들과 싸울 때 느꼈던 그 분노였다. 그때 알레이웬은 내가 얼마나 위험한 존재인지 깨달았던 것 같다. 레이, 이걸 만약 읽는다면 이것만은 알아줘요. 정말 미안하다는 걸.[/i]
 
-그 이후로 두 시간동안 부여술사는 내가 엘발라를 떠난 이후로 무슨 일이 있었는지 계속 물어보았다. 나는 매우 상세하게 나르골 왕국에서 있었던 일과 마즈'에이알의 남쪽 해안선을 향해서 갔던 이야기를 알려줬다. 이 호기심 많은 샬로레는 끊임없이 내가 봤던 광신도들이나 그들이 저질렀거나 저지른 것으로 의심되는 사건들에 대해 물어봤다. 솔직히 말해서 이 질문들이 그녀 자신의 호기심을 채우려는 것이었는지, 아니면 아라니온 장군이 알고 싶었던 내용이었는지 모르겠다. 쏟아지는 질문도 결국 멈추고 대화가 끝났지만, 이때가 가장 심란한 대목이 시작되는 부분이었다.
+그 이후로 두 시간 동안 부여술사는 내가 엘발라를 떠난 이후로 무슨 일이 있었는지 계속 물어보았다. 나는 매우 상세하게 나르골 왕국에서 있었던 일과 마즈'에이알의 남쪽 해안선을 향해서 갔던 이야기를 알려줬다. 이 호기심 많은 샬로레는 끊임없이 내가 봤던 광신도들이나 그들이 저질렀거나 저지른 것으로 의심되는 사건들에 대해 물어봤다. 솔직히 말해서 이 질문들이 그녀 자신의 호기심을 채우려는 것이었는지, 아니면 아라니온 장군이 알고 싶었던 내용이었는지 모르겠다. 쏟아지는 질문도 결국 멈추고 대화가 끝났지만, 이때가 가장 심란한 대목이 시작되는 부분이었다.
 
-"네, 뭐 이 정도면 아라니온이 알고 싶었던 건 모두 물어봤네요." 그렇게 말하고선 그녀는 계속 말을 이었다. "하지만, 치유사들도 당신의 몸에 관련해서 여러가지 묻고 싶어하던데요. 알고 있는지 모르겠지만, 당신은 침상에 누운지 벌써 몇 달은 됐어요. 보통 그 정도의 부상은 몇 주 정도면 치료되어야 하는데 말이에요. 혹시 짚이는 구석이 있나요?" 그때 내 몸에 확실히 문제가 생겼다는 것을 깨달았다. 그 황량한 대지에서 싸웠던 것이 뭔가 이 느린 회복 속도와 관련이 있는 것은 아닐까? 하지만 이때 나는 그런 것을 별로 이야기하고 싶지도 않았고, 무슨 일이 일어났었는지 다시 떠올리고 싶지도 않았다.
+"네, 뭐 이 정도면 아라니온이 알고 싶었던 건 모두 물어봤네요." 그렇게 말하고선 그녀는 계속 말을 이었다. "하지만, 치유사들도 당신의 몸에 관련해서 여러 가지 묻고 싶어하던데요. 알고 있는지 모르겠지만, 당신은 침상에 누운지 벌써 몇 달은 됐어요. 보통 그 정도의 부상은 몇 주 정도면 치료되어야 하는데 말이에요. 혹시 짚이는 구석이 있나요?" 그때 내 몸에 확실히 문제가 생겼다는 것을 깨달았다. 그 황량한 대지에서 싸웠던 것이 뭔가 이 느린 회복 속도와 관련이 있는 것은 아닐까? 하지만 이때 나는 그런 것을 별로 이야기하고 싶지도 않았고, 무슨 일이 일어났었는지 다시 떠올리고 싶지도 않았다.
 
 "내가 알 리가 있나." 부여술사로부터 고개를 돌리며 대답했다. 샬로레의 얼굴을 볼 수는 없었지만, 그녀가 날 빤히 쳐다보고 있다는 것은 분명히 알 수 있었다. "보아하니 뭔가 알고 있나 본데요." 그녀가 기쁘다는듯이 대답했다. 나는 역겨움이 밀려오는 것을 참고 그녀를 쳐다봤다. 하지만 그녀의 눈에선 오히려 만족감이 느껴졌다. 도대체 무엇이 그리 만족스러웠는지 알 수 없었다. "제 생각엔 아마 최근에 치뤘던 전투 때문인 거 같네요. 딱 보니까 알겠어요." 난 무심코 고개를 돌려 그녀를 노려봤다. 이런 행동은 결국 그녀가 정확히 나에 대해 읽어냈다는 방증밖에 되지 않았다. 그녀는 쿡쿡 소리내어 웃었고, 나는 짜증이 솟구쳐 당장 그녀가 나갔으면 좋겠다는 생각밖에 하지 못 했다.
 
 "당신이 오우거들을 여기까지 이끈 것에 대해서 오우거들은 잠시도 말을 쉬지 않더군요. 당신이 없었다면 그 추적자들과의 전투에서도 살아남지 못 했을 거라면서요. 그런데, 얘기하면 얘기할수록 뭔가 이상한 거 있죠. 이상하게도 오우거들은 당신이 치뤘던 전투에 관해서 이야기를 잘 꺼내려 들질 않았어요. 당신이 없었으면 절대 이기지 못 했을 전투 말예요. 오우거들은 모두 다 그렇게 생각하는 것 같던데요. 어떻게 당신이 오우거들의 피난 작전에서 공을 크게 세웠다는 거죠? 정찰병들 얘기를 들어보면 당신이 늑대 몇 마리 정도는 문제없이 상대한다고 하지만, 굶주린 짐승과 싸우는 것과 무장한 전사들과 싸우는 건 분명 수준이 다른 얘기일 텐데요. 당신이 싸움에 익숙한 것처럼 보이지도 않고요."
 
-그녀는 명백히 의도적으로 나를 취조하고 있었다. 나를 계속 살펴보며 내 표정이나 몸짓을 분석하고 단서를 찾으려는 것 같았다. 나는 그때 필사적으로 내 기억을 억누르고 있었다. 그때 나를 사로잡았던 감정들이 터져나오지 않도록 말이다. 그저 흘러가도록 내버려두고자 했다. 치유사는 계속해서 나를 압박하며 무슨 일이 있었는지 캐내려고 했다. 내 어두운 면을 보기 위해서. "뭘 숨기고 있는 거예요? 오우거들은 뭘 말하지 않으려는 거예요? 도대체 오우거들의 피난을 도우면서 무슨 말할 수 없는 일을 저질렀길래 그러는 거예요?" 그녀는 계속 나를 탐문하듯이 질문을 쏟아냈다. 절대로 멈추지 않았다. 결국 나는 더 이상 참을 수 없어 그녀를 멈추게 해야한다고 결심했다.
+그녀는 명백히 의도적으로 나를 취조하고 있었다. 나를 계속 살펴보며 내 표정이나 몸짓을 분석하고 단서를 찾으려는 것 같았다. 나는 그때 필사적으로 내 기억을 억누르고 있었다. 그때 나를 사로잡았던 감정들이 터져나오지 않도록 말이다. 그저 흘러가도록 내버려두고자 했다. 치유사는 계속해서 나를 압박하며 무슨 일이 있었는지 캐내려고 했다. 내 어두운 면을 보기 위해서. "뭘 숨기고 있는 거예요? 오우거들은 뭘 말하지 않으려는 거예요? 도대체 오우거들의 피난을 도우면서 무슨 말할 수 없는 일을 저질렀길래 그러는 거예요?" 그녀는 계속 나를 탐문하듯이 질문을 쏟아냈다. 절대로 멈추지 않았다. 결국 나는 더 이상 참을 수 없어 그녀를 멈추게 해야 한다고 결심했다.
 
 "당장 입닥쳐! 쓸데없는 질문은 그만해!" 이 말이 내 입 바깥으로 튀어나갔다. 하지만 나는 이렇게 난폭하게 말할 생각은 전혀 없었다. 젊은 샬로레는 그 외침에 뒤로 넘어졌다. 그녀는 눈을 휘둥그레 뜬 채로 멍 하니 있었고, 떠나갈 것 같지 않았던 미소도 일순간에 사라졌다. 그녀는 벌벌 떨며 식은 땀을 흘리기 시작했고, 말을 더듬었다. "뭐... 뭐라고요?" 의자에 앉은 채로 벌벌 떨면서, 그녀의 몸에서 공포가 흘러나오는 것이 느껴졌다. 나는 그 순간 잠시 멈춰 만족감을 느꼈다. 이때 느낀 그 감각, 이전에도 느꼈던 적이 있다. 그제서야 나는 무슨 일이 벌어졌는지 깨달았다. 내 감정이 또다시 나를 사로잡으려 했던 것이다.
 
@@ -1848,7 +1848,7 @@ Making my way back to my dwelling I felt in control of myself and my actions. Wh
 
 몇 달이 지나지 않아 처음으로 날 만나고 싶다는 사람이 있었다. 바깥에서 경비병들이 누군가가 대화하고 있었고 그 상대는 바로 알아들을 수 있을만큼 낮은 목소리의 소유자였다. 오우거가 분명했다. 잠시 후 경비병들의 면회를 허가했고, 날 찾아온 오우거는 그때의 그 참모였다. 그는 진중한 표정으로 말하기 시작했다. "어떻게 지냅니까, 탈로레? 시간이 걸리긴 했지만 드디어 당신을 만나는 걸 허가받았습니다. 당신이 아니었다면 오우거들은 다 죽었을 겁니다. 아니면 죽음보다도 더 끔찍한 꼴을 봤겠죠. 우리는 엘발라에 도착한 뒤로 당신에게 제대로 감사를 전한 적이 없습니다. 당신이 우리를 자유케 했으니, 이제는 우리가 당신을 자유롭게 해줄 차례겠지요."
 
-참모는 말을 마치고 나서 고개를 숙였다. 그때 나는 그가 느끼고 있던 슬픔의 무게를 온전히 느낄 수 있었다. 그는 슬픔을 잠시 진정시키는 듯하다가 고개를 들고 말했다. "우리는 모두를 위해 축하를 하기로 했습니다. 여러가지 많은 일들이 있었고, 우리는 그것에 대해 잠시 동안이라도 떨쳐내고 기분을 전환할 필요가 있을 거라 생각했죠. 그렇게 입을 뗴며 오우거는 나를 똑바로 쳐다봤다. 그리고 매우 중요한 의제를 꺼내려는 듯 했다. "그리고 제가 들은 바로는, 당신 또한 과거를 떨쳐낼 만한 무언가가 필요한 것 같습니다." 그제서야 오우거가 나에게 감사를 전하기 위해서만 온 것이 아니라 사람들이 모인 곳에 초대를 하기 위해 왔다는 것을 겨우내 깨달았다.
+참모는 말을 마치고 나서 고개를 숙였다. 그때 나는 그가 느끼고 있던 슬픔의 무게를 온전히 느낄 수 있었다. 그는 슬픔을 잠시 진정시키는 듯하다가 고개를 들고 말했다. "우리는 모두를 위해 축하를 하기로 했습니다. 여러 가지 많은 일들이 있었고, 우리는 그것에 대해 잠시 동안이라도 떨쳐내고 기분을 전환할 필요가 있을 거라 생각했죠. 그렇게 입을 뗴며 오우거는 나를 똑바로 쳐다봤다. 그리고 매우 중요한 의제를 꺼내려는 듯 했다. "그리고 제가 들은 바로는, 당신 또한 과거를 떨쳐낼 만한 무언가가 필요한 것 같습니다." 그제서야 오우거가 나에게 감사를 전하기 위해서만 온 것이 아니라 사람들이 모인 곳에 초대를 하기 위해 왔다는 것을 겨우내 깨달았다.
 
 '나'는 정말 괜찮은 것일까? 누군가에게 달려들거나 하진 않을까? "그게 좋은 생각인 것 같지는 않은데..." 나는 말을 흐렸다. 내가 느끼는 불편함이 전달되면서도 어느 분노나 다른 감정이 끓어오르지 않기를 바랬다. 이를 본 오우거가 바로 도중에 끼어들어 말을 꺼냈다. "당신이 스스로를 통제하지 못 할까봐 그럽니까? 그 부여술사한테 했던 것처럼요?" 아픈 곳을 찔려 나는 눈을 부릅 떴다. 하지만 참모는 아무 말도 하지 않았고 처음 이 방에 들어왔을 때처럼 진중한 표정으로 날 볼 뿐이었다. 나는 정신을 가다듬고 시선을 돌리며 말했다. "난 누구도 해치고 싶지 않아요. 다른 사람과 만나지 않고 떨어져 지내는 게 최선일 거예요."
 
@@ -1860,7 +1860,7 @@ Making my way back to my dwelling I felt in control of myself and my actions. Wh
 
 오우거들이 춤을 끝마치자, 두 명의 샬로레가 나서서 공연을 시작했다. 한 샬로레가 고운 목소리로 노래를 하다가 멈추면, 다른 샬로레가 같은 노래를 이어가면서도 조금 낮은 음으로 즐거운 음색을 이어갔다. 마침내 그 둘이 합창을 하고 아름다은 선율이 관객들을 감쌌다. 그 순간속에서 나는 오히려 내 생각에 온전히 집중할 수 있었다. 공연이 계속되면서 나는 내가 잃어버렸단 나 스스로의 일면들을 다시 주워담았다. 물론, 나를 사로잡았던 악감정은 사라지지 않았으나, 매순간마다 약해져갔다. 마침내 나는 오랫동안 느끼지 못했던 행복을 느꼈다. 축제가 끝나고 난 뒤에도 나는 계속 행복감을 느낄 수 있었다.
 
-내가 있던 집으로 돌아가는 길에 난 스스로의 행동을 통제할 수 있다는 확신을 얻었다. 도대체 내게 무슨 일이 일어난 것인지는 몰라도, 난 거기에 사로잡히지 않았고 사로잡히지도 않을 것이다. 건물 앞의 경비병들에게 미소를 지으며 다정하게 인사했다. 일단은 다시 들어왔지만, 내일이라도 금방 다시 여기를 나설 참이었다. 오우거들이 예전 이야기를 할때마다 내 덕분에 그들이 살아남을 수 있었다고 말한다. 하지만 난 사실 그들이 나를 살려줬다고 믿는다. 오우거들은 보통 이런 내 말을 받아들이지 않지만, 축제를 즐기며 내 자신을 완전히 통제하고 내 삶을 온전히 살 수 있게 되었다. 그렇다면 감사하단 말을 할 사람은 바로 나다.]], "_t")
+내가 있던 집으로 돌아가는 길에 난 스스로의 행동을 통제할 수 있다는 확신을 얻었다. 도대체 내게 무슨 일이 일어난 것인지는 몰라도, 난 거기에 사로잡히지 않았고 사로잡히지도 않을 것이다. 건물 앞의 경비병들에게 미소를 지으며 다정하게 인사했다. 일단은 다시 들어왔지만, 내일이라도 금방 다시 여기를 나설 참이었다. 오우거들이 예전 이야기를 할 때마다 내 덕분에 그들이 살아남을 수 있었다고 말한다. 하지만 난 사실 그들이 나를 살려줬다고 믿는다. 오우거들은 보통 이런 내 말을 받아들이지 않지만, 축제를 즐기며 내 자신을 완전히 통제하고 내 삶을 온전히 살 수 있게 되었다. 그렇다면 감사하단 말을 할 사람은 바로 나다.]], "_t")
 t("Escapades of Fay Willows [Book 4, Chapter 6] - Rebuilding Anew", "페이 윌로즈의 여행기 [4권, 제 6장] - 다시금 나아가며", "_t")
 t([[[i]As time passed, both ogre and shalore slowly adapted to their secluded lives from the outside world.[/i] The shaloren slowly gathered themselves and their belongings in secret from the abandoned settlements in the north, and then quickly worked to create permanent implements that would ensure that the Shroud concealing Elvala would stay in place. They then worked to expand the Shroud to encompass all the forests surrounding Elvala and lock off the Shaloren Peninsula from the outside world. After that, many shaloren began to study the chaotic energies that had been unleashed in hopes of learning more about the damage they had caused and what effects it would leave in Eyal.
 
@@ -1886,7 +1886,7 @@ When I look back at the many events the occurred after the Spellblaze, I wonder 
 
 [i]나 자신은 언젠가 다시 엘발라를 떠나 바깥 세상으로 여행하고자 했다.[/i] 하지만 바깥 세상으로 나선다면 나 자신을 지킬 방법 정도는 알아야 했다. 언제 그 광신도나 사악한 무리와 마주칠지 모르는 일이니 말이다. 또한 오우거들이 썼던 룬 마법에 대해서도 배우고 싶었다. 가능하다면 그런 룬 마법을 나도 쓰고 싶었다. 그리고 나를 사로잡았던 감정 또한 무시할 수 없었다. 통제를 잃고 내 감정에 사로잡힌다면 또 누군가에게 해를 끼칠 수 있었다. 이를 위해 주변의 모두에게 도움을 구했고 배울 수 있는 것은 모조리 배우고자 했다.
 
-다른 이들에게 도움을 구하자 샬로레와 오우거가 거리낌없이 나서 나를 가르쳤다. 내겐 꽤나 올라운 일이었다. 고향에서는 다른 이들과 지식을 공유하는 경우가 거의 없었으며, 심지어 가족끼리도 예외는 아니었다. 탈로레의 존속에 꼭 필요한 때, 예를 들어 전쟁이나 그와 같은 재앙이 닥쳤을 때에나 가능한 일인 데다가 그마저도 상당히 제한적이었다. 샬로레는 나를 가르치는 것에 대한 대가를 바라긴 했다. 보통 금전적인 요구였다. 하지만 오우거는 조금 지나치지 않나 싶을 정도로 숨김 없이 가르쳐주었다. 특히 한 오우거가 매우 열성적이었다.
+다른 이들에게 도움을 구하자 샬로레와 오우거가 거리낌없이 나서 나를 가르쳤다. 내겐 꽤나 올라운 일이었다. 고향에서는 다른 이들과 지식을 공유하는 경우가 거의 없었으며, 심지어 가족끼리도 예외는 아니었다. 탈로레의 존속에 꼭 필요한때, 예를 들어 전쟁이나 그와 같은 재앙이 닥쳤을 때에나 가능한 일인 데다가 그마저도 상당히 제한적이었다. 샬로레는 나를 가르치는 것에 대한 대가를 바라긴 했다. 보통 금전적인 요구였다. 하지만 오우거는 조금 지나치지 않나 싶을 정도로 숨김 없이 가르쳐주었다. 특히 한 오우거가 매우 열성적이었다.
 
 그 오우거는 바로 나의 선생으로, 내 목에 귀환의 룬을 새겨준 그 여성 오우거였다. 그녀는 내게 룬의 사용과 적용에 대해 세세하게 가르쳐주었다. 나는 다양한 룬과 룬으로 이뤄지는 다양한 능력들에 대해 배웠다. 또한 룬 사용의 기초에 대해 배웠다. 몸 안에 잠재된 마법을 모아 비전 에너지를 일으키고, 그 비전 에너지를 룬으로 발동할 수 있는 마법의 형타로 변환하는 것에 대한 수업이었다. 이 과정을 다시 반복하는 데에는 시간을 둘 필요가 있으며, 룬을 한 번 발동하면 체내에 마법적인 부하가 쌓이기 때문에 점점 제어하기 어려워진다고 했다.
 
@@ -1918,7 +1918,7 @@ Realizing the danger that was headed to Elvala, I quickly activated the Rune of 
 
 I turned towards the soldier who nodded in the direction of the main battlement line facing towards Elvala's northern forests. Nodding back, I proceeded to make my way to the tower above the main gate where I suspected the watch captain would be. I quickly made my way through the host of gathering soldiers forming below the walls and made my way up along with the mages and archers who were climbing the stairs to get to their positions. Noticing me as I made my way up, the watch captain called out in my direction, and I hurried over to his position to relay to him what had occurred. The captain tensed his face as I gave him my report and cursed as he turned his head to look out towards the Shroud.]], [[[i]구울을 마주쳤을 때만큼 끔찍한 경험도 없다. 이들은 끔찍한 악취를 풍기고, 운이 좋다면 냄새 대신 낮고 고통스러운 울음 소리만 들을 것이다. 이들의 모습은 끔찍하기 그지 없는데, 살덩이가 너덜너덜해져 매달려 있고, 겨우 사람의 형체를 유지하는 그것에서 썩은 진액이 뚝뚝 떨어진다. 하지만 구울에 관해서 가장 끔찍한 것은 이들과 어떤 식으로든 접촉할 때다. 누구든지 나뭇가지로든 뭐든 간에 그들을 쿡 찔러보는 것만으로도 소름이 끼칠 것이다. 특히나 가까이서 전투를 치른다면 더욱 그럴 것이다. 마치 내가 그랬듯이.[/i]
 
-나는 가로수길을 걸으면서 지금까지의 일을 되돌아보고 있었다. 난 지금 이 자리에 한 병사로서 순찰을 돌고 있다. 마법 폭발로부터 33년이 지났지만 그때의 일은 내 마음과 몸에 깊게 박혀있다. 난 여러가지 사건들을 헤쳐나가며 결국 엘발라에서 샬로레와 함께 살고 있다. 난 샬로레를 도우러 여기까지 왔으나 결국은 그들 또한 나를 도왔다. 난 함께 훈련했던 병사들 중 한 명과 사랑에 빠져 그와 가족이 되었다. 지금에 이르러서도 난 지금 엘발라 바깥이 어떤지, 탈로레의 고향은 어떤지 궁금했다. 내가 한때 원했듯이 바깥 세상으로 떠나고 싶기도 했다.
+나는 가로수길을 걸으면서 지금까지의 일을 되돌아보고 있었다. 난 지금 이 자리에 한 병사로서 순찰을 돌고 있다. 마법 폭발로부터 33년이 지났지만 그때의 일은 내 마음과 몸에 깊게 박혀있다. 난 여러 가지 사건들을 헤쳐나가며 결국 엘발라에서 샬로레와 함께 살고 있다. 난 샬로레를 도우러 여기까지 왔으나 결국은 그들 또한 나를 도왔다. 난 함께 훈련했던 병사들 중 한 명과 사랑에 빠져 그와 가족이 되었다. 지금에 이르러서도 난 지금 엘발라 바깥이 어떤지, 탈로레의 고향은 어떤지 궁금했다. 내가 한때 원했듯이 바깥 세상으로 떠나고 싶기도 했다.
 
 순찰을 끝내고 숲속으로 난 옛길을 통해 돌아갔다. 그때 멀리서 엘발라의 관리들과 위병이 보였다. 가까이 다가가자 그들의 발치 아래 썩어가는 시체가 놓여있는 것이 보였다. 시체를 쳐다보는 것만으로도 한기가 느껴졌다. 지금까지 느꼈던 그 무엇보다도, 내 안의 어두운 힘보다도 사악한 힘이었다. 관리들 중 하나가 날 발견하고 돌아보며 단도직입적으로 말했다. "페이, 빨리 장막 바깥으로 나가서 주변을 살펴보게. 뭔가 이상한 게 있다면 보고할 수 있도록." 그 지시 속에서 다급함이 느껴졌고, 나는 곧바로 장막을 뚫고 바깥으로 나갔다.
 
@@ -1957,7 +1957,7 @@ We will bide our time down here in the dark and turn this place into a beacon of
 t("the history of Kroshkkur (2)", "크로슈쿠르의 역사 (2)", "_t")
 t([[We were few once. Just outcasts from some crevices and dark places that everyone else forgot about long ago. When we claimed this fortress, more began to come. Not horrors, not surface dwellers, but those of us caught in between the two. Some of us were born this way while others were altered by forces beyond our understanding. The only thing that is common among all of us is that we simply don't belong anywhere. With conscious minds, we can plainly understand the horrors of Eyal's depths. With twisted and corrupted bodies, no 'civilised' people would tolerate our presence among them. When we reside in Kroshkurr, however, we are craftsmen, scholars, hermits, poets and warriors.
 
-To that end, we all gather here. Are we spiteful for how this world openly rejects us? It would be a lie if we said no. To that end, we shall plunge head first into the places no one else dares look. We shall use the dark secrets of this world to carve out our own place in it. We shall create wonders while the world above us rests in fitful dreams.]], [[우리는 한 때  소수였다. 다른 이들이 오래 전에 잊어버린 어떤 틈새와 어두운 장소들에서 추방된 자들. 우리가 이 요새를 차지했을 때, 더 많은 이들이 오기 시작했다. 공포체도 아니고, 지상의 거주자도 아니었으며, 그 사이에 끼어버린 우리같은 찾아왔다. 우리들 중 몇몇은 이렇게 태어났고 다른 이들은 우리가 이해할 수 없는 힘에 의해 변이되었다. 우리 모두에게 공통적인 것은 우리가 어디에도 속하지 않는다는 것이다. 주의 깊게 들여다 본다면 우리는 에이얄 깊은 곳의 공포를 분명히 이해할 수 있다. 뒤틀리고 타락한 몸으로, 어떤 '문명화된' 사람들도 우리가 그들 사이에 있는 것을 용납하지 않을 것이다. 그러나 우리가 크로슈쿠르에 거주할 때, 우리는 장인, 학자, 은둔자, 시인, 전사들이다.
+To that end, we all gather here. Are we spiteful for how this world openly rejects us? It would be a lie if we said no. To that end, we shall plunge head first into the places no one else dares look. We shall use the dark secrets of this world to carve out our own place in it. We shall create wonders while the world above us rests in fitful dreams.]], [[우리는 한때  소수였다. 다른 이들이 오래 전에 잊어버린 어떤 틈새와 어두운 장소들에서 추방된 자들. 우리가 이 요새를 차지했을 때, 더 많은 이들이 오기 시작했다. 공포체도 아니고, 지상의 거주자도 아니었으며, 그 사이에 끼어버린 우리같은 찾아왔다. 우리들 중 몇몇은 이렇게 태어났고 다른 이들은 우리가 이해할 수 없는 힘에 의해 변이되었다. 우리 모두에게 공통적인 것은 우리가 어디에도 속하지 않는다는 것이다. 주의 깊게 들여다 본다면 우리는 에이얄 깊은 곳의 공포를 분명히 이해할 수 있다. 뒤틀리고 타락한 몸으로, 어떤 '문명화된' 사람들도 우리가 그들 사이에 있는 것을 용납하지 않을 것이다. 그러나 우리가 크로슈쿠르에 거주할 때, 우리는 장인, 학자, 은둔자, 시인, 전사들이다.
 
 그러기 위해 우리 모두가 여기에 모인것이다. 우리는 이 세상이 우리를 대놓고 거부하는 것에 앙심을 품은걸까? 아니라고 말한다면 거짓말일것이다. 그렇기 때문에 우리는 다른 누구도 감히 볼 수 없는 곳에 먼저 뛰어들 것이다. 우리는 이 세상의 어두운 비밀을 이용하여 그 속에 우리 자신의 자리를 개척할 것이다. 우리 위의 세계가 산발적인 꿈 속에 있는 동안 우리는 경이로운 것들을 창조할 것이다.]], "_t")
 t("the history of Kroshkkur (3)", "크로슈쿠르의 역사 (3)", "_t")
@@ -1987,9 +1987,9 @@ With these things established, we will discuss the gods of Eyal and what influen
 t("Researcher Dremnot's Demystification of the Gods: Chapter 1 - Amakthel", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 1 - 아마크텔", "_t")
 t([[Even among the gods, there was one that towered above them all. Its name was Amakthel, mightiest of Eyal's gods. It was said that it was the creator of the Sher'Tul, that ancient and mysterious race whose true nature is still unknown to this day. More than any other god, Amakthel appears as a creation figure in ancient myths, more readily interfering with mortal beings than any other god. Nearly every race has some myth of Amakthel coming into contact with them, some describing it as a glowing, divine being while others declared it as a bringer of ill omens. Its touch seemed to curse as readily as it blessed according to these different sources, altering beings in ways that only made sense to Amakthel itself. As such, it is difficult to get a clear picture of Amakthel's true personality and disposition towards mortals.
 
-How exactly Amakthel's downfall came is not certain. Some myths say that the Sher'Thul were commanded by their creator to kill the gods, while others suggest that the Sher'Tul openly rebelled against them. ]], [[신들 사이에서도 모든 신들 위에 우뚝 솟은 자가 있었다. 그것의 이름은 아마크텔로 에이얄의 신들 중 가장 강력한 자였다. 오늘날까지도 본성을 알 수 없는 고대의 신비로운 종족 쉐르'툴의 창조자였다고 한다. 아마크텔은 고대 신화에서 어떤 신보다도 더 창조적인 존재로 등장하며, 다른 신들보다 더 필멸 존재들에게 기꺼이 개입했다. 거의 모든 종족은 아마크텔이 그들과 접촉했다는 신화를 가지고 있고, 어떤 종족은 그것을 빛나고, 신성한 존재라고 묘사하는 반면, 다른 종족은 그것을 불길한 징조를 가져오는 자라고 여겼다, 그의 손길은 축복이면서 저주와도 같았다고 하는데, 여러가지 출저에 따르면 오로지 아마크텔 자신만이 이해할 수 있는 모습으로 존재들을 변화시켰으며 그런 만큼 아마크텔 진정한 성격과 필멸자들에 대한 의도를 명확히 파악하기는 어렵다.
+How exactly Amakthel's downfall came is not certain. Some myths say that the Sher'Thul were commanded by their creator to kill the gods, while others suggest that the Sher'Tul openly rebelled against them. ]], [[신들 사이에서도 모든 신들 위에 우뚝 솟은 자가 있었다. 그것의 이름은 아마크텔로 에이얄의 신들 중 가장 강력한 자였다. 오늘날까지도 본성을 알 수 없는 고대의 신비로운 종족 쉐르'툴의 창조자였다고 한다. 아마크텔은 고대 신화에서 어떤 신보다도 더 창조적인 존재로 등장하며, 다른 신들보다 더 필멸 존재들에게 기꺼이 개입했다. 거의 모든 종족은 아마크텔이 그들과 접촉했다는 신화를 가지고 있고, 어떤 종족은 그것을 빛나고, 신성한 존재라고 묘사하는 반면, 다른 종족은 그것을 불길한 징조를 가져오는 자라고 여겼다, 그의 손길은 축복이면서 저주와도 같았다고 하는데, 여러 가지 출저에 따르면 오로지 아마크텔 자신만이 이해할 수 있는 모습으로 존재들을 변화시켰으며 그런 만큼 아마크텔 진정한 성격과 필멸자들에 대한 의도를 명확히 파악하기는 어렵다.
 
-How exactly Amakthel's downfall came is not certain. Some myths say that the Sher'Thul were commanded by their creator to kill the gods, while others suggest that the Sher'Tul openly rebelled against them. ]], "_t")
+아마크텔이 정확히 어떻게 몰락했는가는 확실하지 않다. 몇몇 신화들에선 "쉐르'툴들은 자신들의 창조자로부터 신들을 죽이라는 명을 받았다" 고 하는가 하면, 또 어떤 신화들에선 "쉐르'툴들은 공공연하게 신들에게 반기를 들었다" 고 한다. ]], "_t")
 t("Researcher Dremnot's Demystification of the Gods: Chapter 2 - Ralkur", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 2 - 랄쿠르", "_t")
 t([[Ralkur, the god of illusions and deceit, was perhaps the most petty god of Eyal. The myths of Ralkur are often tragedies, describing the downfall of its titular character after trusting a mysterious stranger. Due to the consistency of these stories, it can be concluded that Ralkur did not care for meddling with things on a large scale, but preferred a much smaller one. It delighted in understanding what drove mortal races and how it could bring a single person to ruin with nothing but words and clever lies. It always revealed itself at the end of the tale, its hapless victim realising that they had been fooled all along. In this sense, Ralkur was cruel in a way that was distinct from the other gods.
 
@@ -1999,7 +1999,7 @@ When the god slayer Branzir came for it, Ralkur came to know fear and fled. The 
 t("Researcher Dremnot's Demystification of the Gods: Chapter 5 - Gerlyk", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 5 -게를릭", "_t")
 t([[Gerlyk, according to some ancient myths, is the creator of humanity and interacted the most with them during those times. Its contact with humanity seems dubious, however, when other sources are consulted. It interacted with mortals on its own whims and did not seem to particularly favour any species according to these stories. It seemed to be a more curious god than others, as a handful of myths mention it making contact with mortals so it could learn more about how they lived. The myths surrounding Gerlyk are noticeably less numerous than those of other gods and there appears to be large time gaps between them, suggesting that Gerlyk simply did not interact with Eyalites for the most part. For this reason, it is seen to be a god who observed, but didn't interfere.
 
-During the Godhunt, there are no records indicating that any of the God Slayers slew Gerlyk or even found it. This suggests that the god hid somewhere even the Sher'tul could not find it.]], [[몇몇 고대 신화에 따르면, 게를릭이 인류를 창조했고 그 시대에 그들과 가장 많이 교류했다고 전해진다. 그러나 다른 신화들과 비교할 때 그것과 인류 사이의 접촉은 의심스러워 보인다. 그것은 그저 변덕으로 인간들과 접촉했고, 이러한 이야기에 따르면 딱히 어떤 종도 특별히 좋아하는 것처럼 보이지는 않는다. 게를릭은 다른 신들보다 더 호기심 많은 신인 것처럼 보이는데, 몇 안돼는 신화에서 그는 필멸자들이 어떻게 살아가는지에 더 많이 배우기 위해 필멸자들과 접촉했다고 언급하고 있기 때문이다. 게를릭을 둘러싼 신화는 다른 신들에 비해 눈에 띄게 수가 적고, 그 사이에 시간적 간극이 큰 것으로 보아 단순히 게를릭이 역사속 대부분의 시기엔 에이얄의 필멸자와 교류하지 않았음을 시사한다. 이 때문에 게를릭은 관찰은 했지만 간섭은 하지 않은 신으로 보인다.
+During the Godhunt, there are no records indicating that any of the God Slayers slew Gerlyk or even found it. This suggests that the god hid somewhere even the Sher'tul could not find it.]], [[몇몇 고대 신화에 따르면, 게를릭이 인류를 창조했고 그 시대에 그들과 가장 많이 교류했다고 전해진다. 그러나 다른 신화들과 비교할 때 그것과 인류 사이의 접촉은 의심스러워 보인다. 그것은 그저 변덕으로 인간들과 접촉했고, 이러한 이야기에 따르면 딱히 어떤 종도 특별히 좋아하는 것처럼 보이지는 않는다. 게를릭은 다른 신들보다 더 호기심 많은 신인 것처럼 보이는데, 몇 안돼는 신화에서 그는 필멸자들이 어떻게 살아가는지에 더 많이 배우기 위해 필멸자들과 접촉했다고 언급하고 있기 때문이다. 게를릭을 둘러싼 신화는 다른 신들에 비해 눈에 띄게 수가 적고, 그 사이에 시간적 간극이 큰 것으로 보아 단순히 게를릭이 역사속 대부분의 시기엔 에이얄의 필멸자와 교류하지 않았음을 시사한다. 이때문에 게를릭은 관찰은 했지만 간섭은 하지 않은 신으로 보인다.
 
 신살자 중 어느 누구도 게를릭을 살해하거나 심지어 그를 발견했다는 기록은 없다. 이는 게를릭이 쉐르'툴 조차 찾을 수 없는 어딘가에 숨었음을 암시한다.]], "_t")
 t("Researcher Dremnot's Demystification of the Gods: Chapter 8 - Quekorja", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 8 - 쿠에코르자", "_t")
@@ -2037,7 +2037,7 @@ t([[Urh'Rok is supposedly a god from the world Mal'Rok, who created the race we 
 
 Their homeworld is described as a collection of fragmented continents held together only by Urh'Rok's will. According to the demons, this was the result of a great cataclysm which came through a Sher'Thul far portal. Their records state this cataclysm occurred roughly at the same time as the Spellblaze did on Eyal. This suggests that the Spellblaze had far reaching consequences beyond our current understanding and could have impacted multiple worlds.
 
-Despite the benevolent and gentle demeanour he has been attributed in his myths, demons have frequently declared their atrocities committed against Eyalites in his name. This contrast in his attitude toward Eyalites and his own creations does not suggest a benevolent disposition, but rather one similar to a father protecting his spoiled children. His existence proves that gods are not a phenomena which are isolated to simply Eyal, but may exist on countless other worlds too.]], [[울흐'록은 우리가 악마로 알고 있는 종족을 창조한 말'록의 신으로 추정된다. 울흐'록과 관련된 모든 신화들은 그가 자비롭고 사려 깊은 신이며 그의 창조물과 깊고 친밀한 관계를 가진 신이라고 묘사하고 있다. 이 때문에 악마들은 다정하게 그를 아버지라고 부르며 그를 찬양할 수 밖에 없었다. 상호 참조할 만한 다른 출처가 많지 않기 때문에 울흐'록의 성격에 관해 편견 없는 검토는 할 수 없을지도 모른다.
+Despite the benevolent and gentle demeanour he has been attributed in his myths, demons have frequently declared their atrocities committed against Eyalites in his name. This contrast in his attitude toward Eyalites and his own creations does not suggest a benevolent disposition, but rather one similar to a father protecting his spoiled children. His existence proves that gods are not a phenomena which are isolated to simply Eyal, but may exist on countless other worlds too.]], [[울흐'록은 우리가 악마로 알고 있는 종족을 창조한 말'록의 신으로 추정된다. 울흐'록과 관련된 모든 신화들은 그가 자비롭고 사려 깊은 신이며 그의 창조물과 깊고 친밀한 관계를 가진 신이라고 묘사하고 있다. 이때문에 악마들은 다정하게 그를 아버지라고 부르며 그를 찬양할 수 밖에 없었다. 상호 참조할 만한 다른 출처가 많지 않기 때문에 울흐'록의 성격에 관해 편견 없는 검토는 할 수 없을지도 모른다.
 
 그들의 고향행성은 순전히 울흐'록의 의지에 따라 붙들어져 있는 조각난 대륙들의 집합체로 묘사된다. 악마들에 의하면, 이런 모습은 쉐르'툴의 장거리 차원문을 통해 쏟아진 대재앙 때문이라고 한다. 그들의 기록은 대재앙이 대략 마법폭발과 대략 비슷한 시기에 발생했음을 진술하고 있다. 이것은 마법폭발이 우리의 현재 이해를 넘어 더 멀리까지 영향을 미쳤으며 여러 세계에 영향을 미쳤을 수 있다는 것을 암시한다.
 
@@ -2441,7 +2441,7 @@ t("Chaos Orbs", "혼돈의 보주", "talent name")
 t([[You harness the chaos created by high insanity.
 		Each time you trigger an insanity chaotic effect with a power higher than %d or lower than -%d you gain a chaos orb for 10 turns (this effect can only happen once per turn).
 		Each orb increases your damage by 3%% and can stack up to %d.]], [[광기가 빚어낸 혼돈을 휘두릅니다.
-		주문 사용시, 광기로 인한 변동 수치가 %d 이상이거나 -%d 이하라면, 시전자는 10 턴 동안 지속되는 혼돈의 보주를 하나 얻습니다. (이 효과는 한 턴에 1 번만 일어날 수 있습니다.)
+		주문 사용 시, 광기로 인한 변동 수치가 %d 이상이거나 -%d 이하라면, 시전자는 10 턴 동안 지속되는 혼돈의 보주를 하나 얻습니다. (이 효과는 한 턴에 1 번만 일어날 수 있습니다.)
 		보주는 하나당 시전자의 모든 피해가 3%% 증가합니다. 보주는 최대 %d 개 보유할 수 있습니다.]], "tformat")
 t("Anarchic Walk", "무질서의 발걸음", "talent name")
 t("You require at least two chaos orbs.", "적어도 2 개의 혼돈의 보주가 필요하다.", "logPlayer")
@@ -2456,14 +2456,14 @@ t([[You trigger an explosion of your chaos orbs on a target.
 		All your orbs are always spent.]], [[혼돈의 보주를 대상에게 폭발시킵니다.
 		보주는 피해를 입히진 않지만, 대상에게 %d 턴 동안 혼란을 유발합니다. 혼란의 위력은 소유한 보주 하나당 10%% 씩 강해집니다.
 		내성 판정 시 계산되는 시전자의 주문력 수치도 소유한 보주 하나당 10%% 씩 강해집니다.
-		소유하고있던 보주는 모두 소모 될 것입니다.]], "tformat")
+		소유하고 있던 보주는 모두 소모 될 것입니다.]], "tformat")
 t("Controlled Chaos", "통제된 혼란", "talent name")
 t("You require at least one chaos orb.", "당신은 적어도 하나의 혼돈의 보주가 필요하다.", "logPlayer")
 t([[You lean to alter chaotic forces to your advantage.
 		Your maximum negative insanity effect is reduced from 50%% to %d%%.
 		You may activate this talent to consume any Chaos Orbs you have, gaining %d insanity per orb.]], [[혼돈의 힘을 제어해 유리하게 사용하는 법을 배웠습니다.
 		광기의 부정적인 효과가 50%% 에서 %d%% 로 줄어듭니다.
-		또한 이 기술을 사용해, 혼돈의 보주를 모두 소모하고, 소모한 보주 하나 당 %d 의 광기를 획득할 수 있게됩니다.]], "tformat")
+		또한 이 기술을 사용해, 혼돈의 보주를 모두 소모하고, 소모한 보주 하나 당 %d 의 광기를 획득할 수 있게 됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -2477,7 +2477,7 @@ t("Preordain", "운명 예지", "talent name")
 t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "인과 관계의 흐름을 교묘하게 조작하여, 적들에게 더 큰 불행을 가져옵니다. 6 중첩 이상의 불운 중첩은 %d%% 확률로 기술 사용을 실패하게 합니다.", "tformat")
 t("Luckdrinker", "운명 포식자", "talent name")
 t([[Each time you apply Jinx to an enemy, you have a %d%% chance to siphon some of their luck for yourself for 5 turns. This stacks up to 10 times, increasing saves and defense by %0.2f and critical strike chance by %0.2f%%.
-		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[적에게 불운을 적용할 때 마다, %d%% 의 확률로 적들의 행운을 흡수합니다. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 시전자의 내성과 회피도가 %0.2f, 치명타 확률이 %0.2f%% 씩 증가합니다.
+		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[적에게 불운을 적용할 때마다, %d%% 의 확률로 적들의 행운을 흡수합니다. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 시전자의 내성과 회피도가 %0.2f, 치명타 확률이 %0.2f%% 씩 증가합니다.
 		운명 예지를 이미 배운 경우, 운명 포식자가 6 중첩 이상일 시, %d%% 확률로 받은 피해를 완전히 무효화 합니다.]], "tformat")
 t("Fatebreaker", "운명 파괴자", "talent name")
 t([[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
@@ -2499,7 +2499,7 @@ t("Severed Threads", "가닥 절단", "talent name")
 t("On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "최대 생명력의 %d%% 이하의 대상에 쇠퇴를 적용하면 생명선을 즉시 절단하여, 그들을 즉시 살해합니다. 시전자는 절단된 생명선을 %d 턴 동안 포식합니다. 생명력 재생효과가 %0.1f 증가되고, 재사용 대기시간이 고정된 기술을 제외한 모든 기술들의 대기시간을 2 배 더 빨리 돌립니다.", "tformat")
 t("Temporal Feast", "시간 포식", "talent name")
 t([[You drink deeper from the timeline of others. Each time you apply atrophy you gain %0.1f%% spell speed per atrophy stack on the target and cause them to lose %d%% of a turn.
-			The highest atrophy stack found will be used for the spell speed calculation.]], [[희생자의 시간선을 집어 삼킵니다. 매 번 쇠퇴를 적용할 때마다, 대상의 쇠퇴 중첩 하나 당 시전 속도가 %0.1f%% 증가합니다. 대상은 %d%% 확률로 1 턴을 낭비하게 됩니다.
+			The highest atrophy stack found will be used for the spell speed calculation.]], [[희생자의 시간선을 집어삼킵니다. 매 번 쇠퇴를 적용할 때마다, 대상의 쇠퇴 중첩 하나 당 시전 속도가 %0.1f%% 증가합니다. 대상은 %d%% 확률로 1 턴을 낭비하게 됩니다.
 			범위 내 가장 높은 쇠퇴 중첩을 가진 대상이 시전 속도 계산에 이용됩니다.]], "tformat")
 t("Terminus", "종점", "talent name")
 t("#GREEN#You gain %.1f turns!", "#GREEN#당신은 %.1f 턴을 획득했다!", "say")
@@ -2541,7 +2541,7 @@ t([[You forcefully try to turn a creature into an horror.
 If the target fails a magical save against your Spellpower, its appearance turns into that of a horror for %d turns, making all other creatures hostile to it.
 Enemies near the target will have their target cleared on application.
 This spell does not work on horrors.]], [[대상을 공포로 바꿔버립니다.
-만약 대상이 주문 내성 판정에 실패할 경우, 대상의 몸이 %d 턴 동안 공포의 모습으로 변하게되고, 다른 모든 개체들이 대상을 적대하게 됩니다.
+만약 대상이 주문 내성 판정에 실패할 경우, 대상의 몸이 %d 턴 동안 공포의 모습으로 변하게 되고, 다른 모든 개체들이 대상을 적대하게 됩니다.
 대상 근처의 적들은 즉시 공격 목표를 대상으로 변경합니다.
 이 주문은 공포에게는 효과가 없습니다.]], "tformat")
 t("Call of Amakthel", "아마크텔의 부름", "talent name")
@@ -2549,8 +2549,8 @@ t([[You attune your horrors to the dead god Amakthel, increasing your summoned h
 At talent level 3, your Decaying Devourers spell will summon 4 additional Devourers adjacent to random enemies nearby and your Bloated Horror will learn the Agony talent.
 At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn.
 The damage increase is based on your Spellpower.]], [[소환한 공포들을 죽은 신 아마크텔의 힘을 빌어 강화합니다. 소환된 공포들의 피해량이 %d%% 증가합니다.
-기술 레벨 3 일 때, 부패의 포식귀 주문이 근처의 무작위한 적 인근에 부패하는 포식귀를 4 체 더 소환합니다. 부풀어오른 공포는 격통을 사용하게됩니다.
-기술 레벨 5 일 때, 공포스러운 모습의 대상이 반경 10 칸 내의 모든 적을 매 턴 1 칸 끌어 당기게됩니다.
+기술 레벨 3 일 때, 부패의 포식귀 주문이 근처의 무작위한 적 인근에 부패하는 포식귀를 4 체 더 소환합니다. 부풀어오른 공포는 격통을 사용하게 됩니다.
+기술 레벨 5 일 때, 공포스러운 모습의 대상이 반경 10 칸 내의 모든 적을 매 턴 1 칸 끌어 당기게 됩니다.
 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -2595,7 +2595,7 @@ t("Take on the defining aspects of a Scourge Drake.", "황폐 드레이크의 �
 t("scourge drake", "폐룡의 위상", "_t")
 t("Foretell the dire fate of your enemies.", "적들의 비참한 운명을 예언합니다.", "_t")
 t("doom", "몰락", "_t")
-t("The various prophecies you can tell.", "선고가능한 여러가지 예언을 다룹니다.", "_t")
+t("The various prophecies you can tell.", "선고가능한 여러 가지 예언을 다룹니다.", "_t")
 t("prophecy", "예언", "_t")
 t("Stack the odds in your favour.", "마음 먹은대로 행운을 조작합니다.", "_t")
 t("calamity", "대재앙", "_t")
@@ -2656,7 +2656,7 @@ Level 1: Prophecy of Ruin. Deals %0.2f damage on falling below 75%%, 50%% or 25%
 Level 3: Prophecy of Treason. %d%% chance each turn to attack an ally or themselves.
 Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[엔트로피의 힘을 대상에게 불러와, 그들에게 불가피한 파멸을 예언합니다. 이 기술에 투자된 기술 점수에 따라 예언들을 추가적으로 획득합니다. 하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
 Level 1: 파멸의 예언. %0.2f 의 피해를 최대 생명력의 75%%, 50%% 혹은 25%% 이하로 떨어질 때마다 가합니다.
-Level 3: 배반의 예언. 매 턴 마다 %d%% 확률로 동료나 대상 스스로를 공격하게 합니다.
+Level 3: 배반의 예언. 매 턴마다 %d%% 확률로 동료나 대상 스스로를 공격하게 합니다.
 Level 5: 광기의 예언. 재사용 대기시간을 %d%% 늘립니다.]], "tformat")
 t("Prophecy of Madness", "광기의 예언", "talent name")
 t([[Utter a prophecy of the impending madness of your target, increasing the cooldown of all their talents by %d%% for 6 turns.
@@ -2726,7 +2726,7 @@ The damage dealt when applying this to an enemy will increase with your Spellpow
 t("Reverse Entropy", "엔트로피 역전", "talent name")
 t([[Your knowledge of entropy allows you to defy the laws of physics, allowing you to better endure your entropic energies.
 			You take %d%% less damage from your entropic backlash.
-		You may activate this talent to instantly remove your current Entropy.]], [[엔트로피에 관한 지식으로 물리 법칙에 도전합니다. 엔트로피 에너지를 더 오래 버틸 수 있게됩니다.
+		You may activate this talent to instantly remove your current Entropy.]], [[엔트로피에 관한 지식으로 물리 법칙에 도전합니다. 엔트로피 에너지를 더 오래 버틸 수 있게 됩니다.
 			엔트로피 반발에 %d%% 더 적은 피해를 입습니다.
 		이 기술을 사용해서 현재 엔트로피를 모두 제거 할 수 있습니다.]], "tformat")
 t("Black Hole", "블랙홀", "talent name")
@@ -2734,7 +2734,7 @@ t([[On casting Entropic Gift, a radius 1 rift in spacetime will be opened undern
 		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[엔트로피의 선물을 시전할 때, 반경 1 칸 시공간 균열이 대상의 발 밑에 %d 턴 동안 열립니다. 매 턴 반경이 1 칸씩 증가하고 최대 %d 만큼 커집니다.
 		균열의 영향을 받는 모든 대상은 중심으로 끌려가며, %0.2f 암흑 피해와 %0.2f 시간 피해를 입고, 현재 엔트로피의 %d%% 에 해당하는 피해를 매 턴 입힙니다. (현재 %d).]], "tformat")
 t("Power Overwhelming", "압도적인 힘", "talent name")
-t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "주문이 매우 위험한 엔트로피 에너지로 강화됩니다. 암흑과 시간 피해가 %d%% 늘어나고, 저항 관통이 %d%% 증가합니다. 고통의 댓가로 %0.2f 엔트로피 반발을 즉발형 기술이 아닌 주문을 시전할때 추가로 받습니다.", "tformat")
+t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "주문이 매우 위험한 엔트로피 에너지로 강화됩니다. 암흑과 시간 피해가 %d%% 늘어나고, 저항 관통이 %d%% 증가합니다. 고통의 댓가로 %0.2f 엔트로피 반발을 즉발형 기술이 아닌 주문을 시전할 때 추가로 받습니다.", "tformat")
 
 
 ------------------------------------------------
@@ -2871,10 +2871,10 @@ t("The spell fizzles on %s!", "주문이 실패했다 %s!", "logSeen", nil, {"�
 t("#CRIMSON#%s is swallowed by a portal!", "#CRIMSON#%s 차원문에게 삼켜졌다!", "logSeen", nil, {"는"})
 t("%s resists the warp!", "%s 공간의 뒤틀림에 저항했다!", "logSeen", nil, {"는"})
 t("entropic maw", "엔트로피의 아가리", "_t")
-t("Tendrils lash around the mouth of this gigantic beast, seeking prey to devour.", "덩굴손이 이 거대한 짐승의 아가리 주변에 나있다. 먹어치울 희생양을 찾고있다.", "_t")
+t("Tendrils lash around the mouth of this gigantic beast, seeking prey to devour.", "덩굴손이 이 거대한 짐승의 아가리 주변에 나있다. 먹어치울 희생양을 찾고 있다.", "_t")
 t([[Briefly open a radius %d rift in spacetime that teleports those within to the targeted location. Enemies will take %0.2f darkness and %0.2f temporal damage.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will improve with your Spellpower.]], [[짧은 시간동안 지정 위치 내의 적을 반경 %d 의 균열을 열어 순간 이동 시킵니다. 적들은 %0.2f 암흑 피해와 %0.2f 시간 피해를 입습니다.
+		The damage will improve with your Spellpower.]], [[짧은 시간 동안 지정 위치 내의 적을 반경 %d 의 균열을 열어 순간이동 시킵니다. 적들은 %0.2f 암흑 피해와 %0.2f 시간 피해를 입습니다.
 		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용 될 수있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Halo of Ruin", "파멸의 후광", "talent name")
@@ -2906,7 +2906,7 @@ t([[Your Nihil unravels the existence of the target, tearing them apart with ent
 		The Herald will have a bonus to all attributes equal to your Magic.  Many other stats will scale with level.
 		Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[허무의 힘으로 대상의 존재를 엔트로피로 변화시켜 찢어놓고 해체합니다.
 		허무의 영향을 받는 대상이 지속시간 동안 6 개의 부정적인 마법 효과가 적용되면, 소멸의 전령이 소환되어 %d 턴 동안 전투에 참여합니다.
-		이미 적용된 부정적 효과, 주문 충격, 그리고 비전의 눈으로 인한 효과는 부정적인 마법 효과로 인정되지않습니다. 다만 이미 적용된 부정적인 효과를 한번 더 적용하여 갱신하는 것은 인정이 됩니다.
+		이미 적용된 부정적 효과, 주문 충격, 그리고 비전의 눈으로 인한 효과는 부정적인 마법 효과로 인정되지않습니다. 다만 이미 적용된 부정적인 효과를 한 번 더 적용하여 갱신하는 것은 인정이 됩니다.
 		시전자의 마법과 같은 수치가 전령의 모든 능력치에 더해집니다. 그 밖의 능력치는 레벨에 따라 증가됩니다.
 		시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 전령에게 적용됩니다.]], "tformat")
 t("Erase", "삭제", "talent name")
@@ -2919,7 +2919,7 @@ t("#ORCHID#The entropic storm destroys %s!#LAST#", "#ORCHID#엔트로피 폭풍�
 t("a projectile", "투사체", "_t")
 t([[Summon a radius 4 storm of all-consuming oblivion at the targeted location for %d turns, reducing those within to nothing. Targets within will take %0.2f darkness damage and %0.2f temporal damage each turn.  Walls and other terrain within the storm will be disintegrated.
 		Each time the storm deals damage enemies will have any detrimental magical effect with less than 3 duration set to 3 duration, and all enemy projectiles will be destroyed.
-		The damage will scale with your Spellpower.]], [[%d 턴 동안 반경 4 칸 내의 모든 것을 집어삼키는 소멸의 폭풍을 해당 위치에 소환합니다. 내부의 모든 대상은 %0.2f 암흑 피해와 %0.2f 시간 피해를 턴 마다 입습니다. 폭풍 내의 벽과 기타 지형은 파괴될 것입니다.
+		The damage will scale with your Spellpower.]], [[%d 턴 동안 반경 4 칸 내의 모든 것을 집어삼키는 소멸의 폭풍을 해당 위치에 소환합니다. 내부의 모든 대상은 %0.2f 암흑 피해와 %0.2f 시간 피해를 턴마다 입습니다. 폭풍 내의 벽과 기타 지형은 파괴될 것입니다.
 		매번 폭풍이 적에게 피해를 가할 때마다 3 턴 이하의 지속시간을 가진 부정적인 마법 효과의 지속시간을 3 턴으로 늘립니다. 모든 적들의 투사체는 파괴됩니다.
 		이 피해는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Void Crash", "공허 파쇄", "talent name")
@@ -2947,7 +2947,7 @@ t("Overgrowth", "과대성장", "talent name")
 t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		Your body grows much bigger, gaining 2 size categories, making you able to walk through walls and increasing all your damage by %d%% and all your resistances by %d%%.
 		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], [[%d 턴 동안 변이된 세포의 급류를 일으킵니다.
-		시전자의 신체가 거대하게 성장하여, 몸집 크기가 2 증가하고, 벽을 넘어 이동할 수 있게됩니다. 시전자가 가하는 모든 피해량이 %d%% 증가하고, 모든 저항력이 %d%% 증가합니다.
+		시전자의 신체가 거대하게 성장하여, 몸집 크기가 2 증가하고, 벽을 넘어 이동할 수 있게 됩니다. 시전자가 가하는 모든 피해량이 %d%% 증가하고, 모든 저항력이 %d%% 증가합니다.
 		거대화된 형체로 이동할 때마다 작은 지진을 일으켜 주위 지형을 파괴하거나 재배열합니다.]], "tformat")
 t("Writhing One", "뒤틀린 자", "talent name")
 t([[At last you unlock the true power of your mutated body!
@@ -2973,14 +2973,14 @@ t("You must target a void rift.", "당신은 반드시 공허의 틈을 대상�
 t("%s's space-time folding fizzles!", "%s의 시공간 접기가 실패했다!", "logSeen")
 t("%s emerges from a space-time rift!", "%s 시공의 틈에서 나타난다!", "logSeen", nil, {"가"})
 t([[You briefly open a tunnel through spacetime, teleporting to a void rift in range %d. This destroys the rift, granting you a shield for %d turns absorbing %d damage.
-		The damage absorbed will scale with your Spellpower]], [[당신은 시공간을 관통하는 터널을 짧은 시간동안 열어 %d 반경 내의 공허의 틈으로 순간이동 합니다. 이 행위는 대상 공허의 틈을 파괴하고, 당신에게 %d 의 피해를 흡수하는 보호막을 부여합니다.
+		The damage absorbed will scale with your Spellpower]], [[당신은 시공간을 관통하는 터널을 짧은 시간 동안 열어 %d 반경 내의 공허의 틈으로 순간이동 합니다. 이 행위는 대상 공허의 틈을 파괴하고, 당신에게 %d 의 피해를 흡수하는 보호막을 부여합니다.
 		보호막 수치는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Pierce the Veil", "장막 뚫기", "talent name")
 t("nether breach", "황천의 구멍", "_t")
 t("temporal vortex", "시간의 소용돌이", "_t")
 t("dimensional gateway", "차원 관문", "_t")
 t("void skitterer", "공허 미물", "_t")
-t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "뒤틀린 덩쿨손으로 뒤덮한 괴이한 생명체로, 먹잇감을 향하여 빠르게 순간이동한다.", "_t")
+t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "뒤틀린 덩굴손으로 뒤덮한 괴이한 생명체로, 먹잇감을 향하여 빠르게 순간이동한다.", "_t")
 t("%s (empowered)", "%s (강화됨)", "tformat")
 t("Summon", "소환", "_t")
 t([[Pouring more energy into your rifts, you have a %d%% chance for each one to instead appear as a more powerful type.
@@ -2989,12 +2989,12 @@ t([[Pouring more energy into your rifts, you have a %d%% chance for each one to 
 #PURPLE#Dimensional Gate:#LAST# Has a 50%% chance each turn to summon a voidling lasting %d turns; a fast melee attacker that can teleport.
 The stats of your Void Skitterers will scale with your Magic stat and level.]], [[공허의 틈에 더 많은 에너지를 쏟아 붓습니다, %d%% 확률로 기존보다 더욱 강력한 틈을 열 수 있습니다.
 #PURPLE#황천의 구멍:#LAST# 반경 10 칸 이내의 무작위한 적에게 광선을 쏘아 %0.2f 암흑 피해를 입힙니다.
-#PURPLE#시간의 소용돌이:#LAST# 반경 4 칸 이내의 적에게 %0.2f 시간 피해를 턴 마다 입히고, 전체 속도를 30%%만큼 감소시킵니다.
+#PURPLE#시간의 소용돌이:#LAST# 반경 4 칸 이내의 적에게 %0.2f 시간 피해를 턴마다 입히고, 전체 속도를 30%%만큼 감소시킵니다.
 #PURPLE#차원 관문:#LAST# 매 턴 50%% 확률로 %d 턴 동안 지속되는 공허 미물을 소환합니다. 공허 미물은 빠르게 공격하며 순간이동이 가능합니다.
 공허 미물의 능력치는 당신의 마법 능력치와 레벨에 비례하여 증가합니다.]], "tformat")
 t("Dimensional Skitter", "차원 ", "talent name")
 t("%s's Dimensional Skitter fizzles!", "%s의 차원 도약이 실패했다!", "logSeen")
-t("Teleport to a target within range 10 and strike them with your fangs dealing %d%% weapon damage.", "반경 10 칸 내의 적에게 순간 이동합니다. 송곳니로 %d%% 무기 피해를 입힙니다.", "tformat")
+t("Teleport to a target within range 10 and strike them with your fangs dealing %d%% weapon damage.", "반경 10 칸 내의 적에게 순간이동합니다. 송곳니로 %d%% 무기 피해를 입힙니다.", "tformat")
 t("Zero Point Energy", "영점 에너지", "talent name")
 t([[You draw power from the depths of the void causing your Reality Fracture to enhance any existing rifts.
 #GREY#Void Rift:#LAST# Deals %d%% increased damage and projectiles explode in radius 1.
@@ -3051,7 +3051,7 @@ t([[The pain you inflict to the victim you are digesting is so intense something
 		You may not steal a talent which you already know.
 		The stolen talent will not use any resources to activate.
 		]], [[적을 삼킨동안 적은 끔찍한 고통으로 정신이 붕괴되어, 머릿 속을 쉽게 들여다 볼 수 있게 됩니다.
-		적을 삼키면 대상이 가진 무작위 기술을 사용할 수 있게 됩니다. 이 때, 해당 기술의 레벨은 %d 입니다.
+		적을 삼키면 대상이 가진 무작위 기술을 사용할 수 있게 됩니다. 이때, 해당 기술의 레벨은 %d 입니다.
 		끔찍한 고통의 레벨이 5 일 때, 어떤 기술을 빼앗을 지 선택할 수 있습니다.
 		이미 알고 있는 기술을 빼앗을 수는 없습니다.
 		빼앗은 기술을 사용할 때에는 어떠한 원천력도 필요하지 않습니다.
@@ -3060,7 +3060,7 @@ t("Inner Tentacles", "내면의 촉수", "talent name")
 t([[Your stomatch grows small tentacles inside which probe and torment your digested victim even more.
 		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
 		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 삼켜진 적을 지켜보며 끔찍한 고문을 가합니다.
-		치명타 공격을 가하면, 촉수들이 적들이 느끼는 고통을 집어삼킬 수 있게됩니다 
+		치명타 공격을 가하면, 촉수들이 적들이 느끼는 고통을 집어삼킬 수 있게 됩니다 
 		3 턴 동안 20%% 확률로 시전자가 가하는 피해량의 %d%% 가 생명력으로 흡수됩니다.]], "tformat")
 t("Consume Whole", "소화", "talent name")
 t("You are not digesting a creature.", "당신은 적을 삼키고 있지 않습니다.", "logPlayer")
@@ -3121,7 +3121,7 @@ t([[You plant your tentacle hand in the ground where it splits up and extends to
 t("Constrict", "조이기", "talent name")
 t("You require an empty offhand to use your tentacle hand.", "촉수 손을 사용하기 위해서는 한 쪽 손을 비워야한다.", "logPlayer")
 t("%s's tentacle fails to move %s!", "%s의 촉수가 %s 끌어오는데 실패했다!", "tformat", nil, {[2]="을"})
-t("Your constrict target has disappeared!", "촉수로 조이고있던 대상이 사라졌다!", "logPlayer")
+t("Your constrict target has disappeared!", "촉수로 조이고 있던 대상이 사라졌다!", "logPlayer")
 t("You require a mutated hand!", "당신은 변이된 손이 필요하다!", "logPlayer")
 t("This target can not be moved!", "이 대상을 움직이게 할 수는 없다!", "logPlayer")
 t([[You extend your tentacle to grab a distant target, pulling it to you.
@@ -3172,8 +3172,8 @@ t("#FIREBRICK##Target#'s void star absorbs the damage from #Source#, converting 
 t("%s(%d to entropy)", "%s(%d 엔트로피 흡수)", "tformat")
 t([[Conjure void stars that orbit you, defending you from incoming attacks. Each time an attack deals more than 10%% of your maximum life, a star will be consumed to reduce the damage taken by %d%%, of which 40%% will be dealt to you as entropic backlash.
 		You regenerate 1 star every %d turns, stacking up to 4 times.
-		This talent will only function in light armor.]], [[주위를 떠다니는 공허의 별을 불러내어, 다가올 공격에서 스스로를 방어합니다. 한번의 공격으로 10%% 이상의 생명력을 잃을 때, 해당 피해를 %d%% 낮추고 별 하나를 소모합니다. 감소된 피해의 40%%는 엔트로피 반발로 전환될 것입니다.
-		%d 턴 마다 공허의 별을 하나 씩 얻습니다. 별은 최대 4 개 소유 할 수있습니다.
+		This talent will only function in light armor.]], [[주위를 떠다니는 공허의 별을 불러내어, 다가올 공격에서 스스로를 방어합니다. 한 번의 공격으로 10%% 이상의 생명력을 잃을 때, 해당 피해를 %d%% 낮추고 별 하나를 소모합니다. 감소된 피해의 40%%는 엔트로피 반발로 전환될 것입니다.
+		%d 턴마다 공허의 별을 하나 씩 얻습니다. 별은 최대 4 개 소유 할 수있습니다.
 		이 기술은 오직 경갑 착용 상태애서만 작동합니다.]], "tformat")
 t("Nullmail", "무존재의 갑옷", "talent name")
 t([[Reinforce your armor with countless tiny void stars, increasing armor by %d.
@@ -3186,7 +3186,7 @@ t("void monolith", "공허의 거석", "_t")
 t("This bizarre oblong shape floats in the air, defying gravity. Its form seems to subtly shift, and you feel an intense desire to move towards it.", "이 괴상하고 길쭉한 돌덩이는 중력에 거스르려는 듯 허공에 떠다니고 있다. 그 형태는 눈에 띄지는 않지만 시시각각 변하고 있다. 당신은 그것에 다가가려는 강한 충동을 느낀다.", "_t")
 t("Summon", "소환", "_t")
 t([[Consuming a void star, you use it to summon a void monolith at the targeted location for %d turns. The monolith is very durable, and while immobile it will attempt to daze enemies within radius %d for 2 turns every half a turn using your spellpower.
-			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], [[공허의 별을 하나 소모하여, 대상 위치에 %d 턴 동안 지속되는 공허 거석을 불러 일으킵니다. 거석은 매우 단단하며 움직일 수 없고, 반경 %d 내의 적에게 매 0.5 턴 마다 혼절을 일으킵니다. 적의 혼절 내성 판정에 당신의 주문력을 사용합니다.
+			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], [[공허의 별을 하나 소모하여, 대상 위치에 %d 턴 동안 지속되는 공허 거석을 불러 일으킵니다. 거석은 매우 단단하며 움직일 수 없고, 반경 %d 내의 적에게 매 0.5 턴마다 혼절을 일으킵니다. 적의 혼절 내성 판정에 당신의 주문력을 사용합니다.
 			거석은 당신의 마법 능력치에 따라 레벨 당 생명력 증가량이 %d 증가하고, 모든 피해 저항을 %d%% 얻습니다.]], "tformat")
 t("Essence Reave", "정수 찢기", "talent name")
 t("%s rends the essence of %s, restoring %d void shards!", "%s %s의 정수를 찢어발겨, %d 개의 공허의 별로 전환했다!", "logSeen", nil, {"가"})
@@ -3231,7 +3231,7 @@ t([[Allows to teleport to Kroshkkur.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
 	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], [[크로슈쿠르로 순간이동 합니다.
 	당신은 그곳에서 금지된 비밀에 대해 배웠고, 따라서 그곳으로 가는 특수한 차원문을 여는 법을 익혔습니다.
-	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 무지한 자들이 보고있는 동안에는 사용이 불가능합니다.
+	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 무지한 자들이 보고 있는 동안에는 사용이 불가능합니다.
 	마법 발동에는 시간이 약간 필요하며, (40 턴) 그 시간 동안 당신은 누군가의 시야 내에 들어가서는 안됩니다.]], "_t")
 t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
@@ -3316,7 +3316,7 @@ t([[Your affinity with things that dwell deep beneath the surface allows you to 
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
 드렘의 경우, 이 효과는 '깊은 곳에서 집어삼킨다' 로 굶주린 주둥이가 소환되어 있을 때 활성화됩니다.", "_t")
-t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.", "_t")
+t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.", "_t")
 t("krog", "크로그", "_t")
 t("Wrath of the Wilds", "야생의 분노", "talent name")
 t([[You unleash the wrath of the wilds for 5 turns.
@@ -3346,14 +3346,14 @@ t([[Since ziguranth removed those filthy magic runes from your body you have nee
 
 		Changing your aspect requires combat experience, you may only do so after slaying 100 enemies (current %d).
 
-		When you learn this talent you become so strong you can wield any type of one handed weapon in your offhand.]], [[지구랏 추종자들이 더러운 마법 룬을 크로그의 육체에서 제거한 후, 크로그들은 육체를 유지하기 위해 룬을 대체 할만한 강력한 힘을 찾아 다녔습니다. 고맙게도, 용족의 피로 육체를 유지할 수 있게되었습니다.
+		When you learn this talent you become so strong you can wield any type of one handed weapon in your offhand.]], [[지구랏 추종자들이 더러운 마법 룬을 크로그의 육체에서 제거한 후, 크로그들은 육체를 유지하기 위해 룬을 대체 할만한 강력한 힘을 찾아 다녔습니다. 고맙게도, 용족의 피로 육체를 유지할 수 있게 되었습니다.
 		드레이크의 피로 크로그는 강인해집니다. 지속 효과로써, 기절 면역력이 %d%%, %s 저항이 %d%% 증가하고, 근접 공격으로 %d %s 속성 피해를 입힙니다.
 		이 기술을 활성화 함으로써 위상을 다시 선택해, 다양한 원소 효과를 받을 수 있습니다.
 		피해량과 저항은 의지에 비례하여 증가합니다.
 
 		위상의 변경은 많은 전투 경험을 요구합니다. 100 체의 적을 살해해야 위상을 변경할 수 있습니다. (현재 %d).
 
-		이 기술을 배우면, 한 손 무기를 보조 무기 칸에 장착 가능해집니다.]], "tformat")
+		이 기술을 배우면, 한손 무기를 보조 무기 칸에 장착 가능해집니다.]], "tformat")
 t("Fuel Pain", "고통의 연료", "talent name")
 t([[Your body is used to pain. When you take a hit of 20%% or more of your max life one of your inscriptions is taken off cooldown and infusion saturation is removed.
 		This effect has a cooldown of %d turns.]], [[크로그들은 고통에 익숙합니다. 한 번에 최대 생명력의 20%% 이상의 피해를 입은 경우 주입물 하나의 재사용 대기시간이 초기화되고, 주입물 포화 효과가 사라집니다.
@@ -3366,7 +3366,7 @@ t([[You were created by ziguranth for one purpose only, to wage war on magic!
 			대상을 강타해 %d%% %s 무기 피해를 주고, 대상을 %d 턴 동안 침묵시킵니다.
 			피해 속성은 드레이크의 위상에 따라 변경됩니다.
 			침묵 확률은 물리력과 정신력 중 높은 값에 비례하여 증가합니다 .]], "tformat")
-t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "캐릭터가 가질 수 있는 여러가지 종족의 능력입니다.. 자신의 머리통을 날려버리고 기생생물로 대체했을 때 말입니다..", "_t")
+t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.. 자신의 머리통을 날려버리고 기생생물로 대체했을 때 말입니다..", "_t")
 t("parasite", "기생생물", "_t")
 t("race", "종족", "talent category")
 t("Take a Bite", "한 입", "talent name")
@@ -3571,7 +3571,7 @@ t("#ORANGE#The wounds of #Source# appear on #target#!#LAST#", "#ORANGE##Source#�
 t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d 연결)#LAST#", "tformat")
 t("Nihil", "허무", "_t")
 t([[The target is engulfed in entropy, reducing the duration of new beneficial effects and increasing the duration of new negative effects by %d%%.
-This effect will fade in 2 turns if the source is not in line of sight.]], [[엔트로피에 집어 삼켜짐 : 부정적인 효과들의 지속시간, 이로운 효과의 지속시간을 각각 %d%% 연장, 단축.
+This effect will fade in 2 turns if the source is not in line of sight.]], [[엔트로피에 집어삼켜짐 : 부정적인 효과들의 지속시간, 이로운 효과의 지속시간을 각각 %d%% 연장, 단축.
 이 효과는 효과 부여자의 시선에서 2 턴 동안 사라지면 즉시 중단됨.]], "tformat")
 t("#Target# is wreathed in entropy.", "#Target2# 엔트로피로 인해 뒤틀린다.", "_t")
 t("#Target# is free of the entropy.", "#Target2# 엔트로피에서 벗어났다.", "_t")
@@ -3616,7 +3616,7 @@ t("The target is being erased from reality. Each time a magical effect is applie
 t("#Target# is being erased from reality!", "#Target2# 현실에서 지워지고 있다!", "_t")
 t("#Target# has survived the unraveling.", "#Target2# 존재 해체에서 살아남았다.", "_t")
 t("#LIGHT_RED#A void annihilator manifests from %s!", "#LIGHT_RED#공허의 섬멸자가 %s에게서 모습을 나타냈다!", "logSeen")
-t("The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "타인의 운명에 묶여있음 : 효과 부여자가 죽을 경우, 선택된 희생자가 그 대신 죽게되고, 효과 부여자는 불운과 행운 중첩마다 생명력을 %d 회복함.", "tformat")
+t("The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "타인의 운명에 묶여있음 : 효과 부여자가 죽을 경우, 선택된 희생자가 그 대신 죽게 되고, 효과 부여자는 불운과 행운 중첩마다 생명력을 %d 회복함.", "tformat")
 t("#Target# intertwines it's fate!", "#Target#의 운명이 뒤얽혔다!", "_t")
 t("#Target#'s fate is no longer linked to another.", "#Target#의 운명 연결이 끊어졌다.", "_t")
 t("Fatebreaker", "운명 파괴자", "_t")
@@ -3633,7 +3633,7 @@ t("The target is infected by a disease, reducing its speed by %d%% and doing %0.
 t("blight", "황폐", "effect subtype")
 t("disease", "질병", "effect subtype")
 t("slow", "감속", "effect subtype")
-t("#Target# is afflicted by a crippling disease!", "#Target2# 불구성 질병으로 고통스러워 하고있다!", "_t")
+t("#Target# is afflicted by a crippling disease!", "#Target2# 불구성 질병으로 고통스러워 하고 있다!", "_t")
 t("#Target# is free from the crippling disease.", "#Target3# 괴롭히던 불구성 질병이 사라졌다.", "_t")
 t("Defiled Blood", "오염된 피", "_t")
 t("Covered in defiled blood, healing the source for %d%% of all damage done.", "불결한 피로 덮힘 : 가하는 피해의 %d%% 가 효과 부여자의 생명력을 회복.", "tformat")
@@ -3755,7 +3755,7 @@ t("wheeing and buzzing thing", "윙윙거리는 것", "entity name")
 section "game/dlcs/tome-cults/data/zones/dremshor-tunnel/npcs.lua"
 
 t("half formed drem", "반쪽짜리 드렘", "entity name")
-t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "작고 얼굴없는 인간형 생명체로 드워프와 조금 비슷한 특징을 가졌습니다.  들고있는 전투도끼와 방패는 낧고, 녹슬고, 그리고 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
+t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "작고 얼굴없는 인간형 생명체로 드워프와 조금 비슷한 특징을 가졌습니다.  들고 있는 전투도끼와 방패는 낧고, 녹슬고, 그리고 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
 t("The Amalgamation", "융합체", "entity name")
 t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "무로부터 생명을 창조하는 것은 쉬운일은 아닙니다. 눈알이 여러 개라던가, 팔다리가 너무 많이 붙는다던가, 뇌가 없다던가, 몸에 너무 많다던가 하는 등 잘못 될 수 있는 요소들이 너무나 많습니다. 그런 잘못된 육신들이 하나로 융합되어, 뼈와 고깃덩이가 분노로 맥동합니다. 이... 생명체의 거대한 몸집에도 불구하고, 당신과 이 괴물 사이의 간격이 순식간에 좁혀집니다.", "_t")
 t("and absorbed into the foul thing", "그리고 그 시체는 흡수되어 그 일부가 되었습니다.", "_t")
@@ -3787,7 +3787,7 @@ t("The rift leads... somewhere.", "이 균열은 어딘가로... 이어집니다
 section "game/dlcs/tome-cults/data/zones/entropic-void/npcs.lua"
 
 t("Hypostasis of Entropy", "엔트로피의 위격", "entity name")
-t("The twisting mass of limbs and maws that floats in front of you is no less than inevitability personified. All civilisation, all life, all matter, all energy and all light will one day succumb to entropy. You feel terribly cold as a horrifying realisation comes to the forefront of your mind. The heat death of the universe itself is coming for you.", "뒤틀린 사지와 아가리가 당신 앞에 떠 다닙니다. 필연성이 현현한 듯 합니다. 모든 문명, 모든 생명, 모든 물질, 모든 에너지와 모든 빛이 어느날 엔트로피 앞에 무릎을 꿇을 것입니다. 당신 정신 앞에 공포스런 현현이 다가오자, 끔찍한 추위를 느낍니다. 우주 종말, 그 자체의 온기가 당신에게 다가옵니다.", "_t")
+t("The twisting mass of limbs and maws that floats in front of you is no less than inevitability personified. All civilisation, all life, all matter, all energy and all light will one day succumb to entropy. You feel terribly cold as a horrifying realisation comes to the forefront of your mind. The heat death of the universe itself is coming for you.", "뒤틀린 사지와 아가리가 당신 앞에 떠 다닙니다. 필연성이 현현한 듯 합니다. 모든 문명, 모든 생명, 모든 물질, 모든 에너지와 모든 빛이 어느 날 엔트로피 앞에 무릎을 꿇을 것입니다. 당신 정신 앞에 공포스런 현현이 다가오자, 끔찍한 추위를 느낍니다. 우주 종말, 그 자체의 온기가 당신에게 다가옵니다.", "_t")
 
 
 ------------------------------------------------
@@ -4293,7 +4293,7 @@ t("One of the tentacle tree has awakened!", "촉수 나무 중 하나가 깨어�
 t("dragon", "용", "entity type")
 t("scourge", "재앙", "entity subtype")
 t("Kroltar the Scourge", "재앙의 크롤타", "entity name")
-t("Kroltar, the mightiest fire wyrm to have ever walked Eyal. It was said that a group of dwarves had slain him, but something has taken up residence in the once proud creature's body, reanimating it into a twisted new lifeform.", "최강의 화룡인 크롤타는 한 때 에이알을 거닐었습니다. 드워프 군대가 그를 무찔렀다고 알려져 있지만, 무언가가 한때 위대했던 용의 유해에 깃들게 되어 뒤틀려진 형상으로 새롭게, 다시 일어서게 되었습니다.", "_t")
+t("Kroltar, the mightiest fire wyrm to have ever walked Eyal. It was said that a group of dwarves had slain him, but something has taken up residence in the once proud creature's body, reanimating it into a twisted new lifeform.", "최강의 화룡인 크롤타는 한때 에이알을 거닐었습니다. 드워프 군대가 그를 무찔렀다고 알려져 있지만, 무언가가 한때 위대했던 용의 유해에 깃들게 되어 뒤틀려진 형상으로 새롭게, 다시 일어서게 되었습니다.", "_t")
 t("and fed to the corrupt writhing tentacles", "그리고 그 시체는 뒤틀린 촉수들에게 먹혔습니다.", "_t")
 
 
