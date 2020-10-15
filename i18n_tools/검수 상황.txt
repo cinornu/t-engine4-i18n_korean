@@ -7,3 +7,9 @@
 엥간하면 경로별로 깔끔하게 뭉쳐주면 ㄳ
 =================================
 
+
+
+-- 기술
+
+"game/modules/tome/data/talents/psionic/augmented-mobility.lua" 
+"game/modules/tome/data/talents/psionic/augmented-striking.lua" 1차 cinornu - 초능력 계열 단어 통일 요망
