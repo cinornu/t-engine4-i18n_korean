@@ -668,7 +668,7 @@ newTalent{
 	type = {"cunning/tools", 1},
 	mode = "passive",
 	points = 1,
-	getSlow = function(self, t) return self:combatTalentLimit(self:getTalentFromId(self.T_MASTER_ARTIFICER), 50, 15, 40)/100 end,
+	getSlow = function(self, t) return self:combatTalentLimit(self:getTalentFromId(self.T_MASTER_ARTIFICER), 50, 20, 40)/100 end,
 	short_info = function(self, t)
 		return ([[Your darts ignore poison and sleep immunity and waking targets are slowed by %d%% for 4 turns.]]):tformat(t.getSlow(self, t)*100)
 	end,

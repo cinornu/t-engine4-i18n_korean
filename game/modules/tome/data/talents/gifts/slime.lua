@@ -30,7 +30,7 @@ newTalent{
 	proj_speed = 6,
 	requires_target = true,
 	getTargetCount = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5, "log")) end,
-	bouncePercent = function(self, t) return self:combatTalentLimit(t, 100, 50, 60) end, --Limit < 100%
+	bouncePercent = function(self, t) return self:combatTalentLimit(t, 100, 45, 70) end, --Limit < 100%
 	action = function(self, t)
 		local tg = {type="bolt", range=self:getTalentRange(t), selffire=false, talent=t, display={particle="bolt_slime"}, name = t.name, speed = t.proj_speed}
 		local x, y = self:getTarget(tg)
@@ -73,9 +73,9 @@ newTalent{
 				local defaults = {target.EFF_SPYDRIC_POISON, target.EFF_INSIDIOUS_POISON, target.EFF_CRIPPLING_POISON, target.EFF_NUMBING_POISON}
 				local poison = rng.table(self.poisonous_spores_list or defaults)
 				target:setEffect(poison, 10, {src=self, power=dam/10, 
-				reduce=self:combatTalentLimit(t, 100, 12, 20), 
-				fail=math.ceil(self:combatTalentLimit(t, 100, 6, 10)),
-				heal_factor=self:combatTalentLimit(t, 100, 24, 40)})
+				reduce=self:combatTalentLimit(t, 100, 12.5, 25), 
+				fail=math.ceil(self:combatTalentLimit(t, 100, 7, 12)),
+				heal_factor=self:combatTalentLimit(t, 100, 25, 40)})
 			end
 		end, 0, {type="slime"})
 
@@ -103,7 +103,7 @@ newTalent{
 	range = 1,
 	requires_target = false,
 	tactical = { DEFEND = 1 },
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 7, 15) end, -- Limit < 100%
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 7, 18) end, -- Limit < 100%
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 10, 50) end,
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/slime")

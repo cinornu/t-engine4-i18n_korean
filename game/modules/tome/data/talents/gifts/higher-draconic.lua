@@ -121,7 +121,7 @@ newTalent{
 		local bonus = self:knowTalent(self.T_CHROMATIC_FURY) and self:combatTalentStatDamage(t, "wil", 60, 750) or 0
 		return self:combatTalentStatDamage(t, "str", 60, 750) + bonus
 	end,
-	getEffect = function(self, t) return math.ceil(self:combatTalentLimit(t, 50, 10, 20)) end,
+	getEffect = function(self, t) return math.ceil(self:combatTalentLimit(t, 50, 15, 30)) end,
 	on_learn = function(self, t)
 		self.resists[DamageType.NATURE] = (self.resists[DamageType.NATURE] or 0) + 3
 		self.inc_damage[DamageType.NATURE] = (self.inc_damage[DamageType.NATURE] or 0) + 4
@@ -141,7 +141,7 @@ newTalent{
 		self:project(tg, x, y, function(px, py)
 			local target = game.level.map(px, py, Map.ACTOR)
 			if target and target:canBe("poison") then
-				target:setEffect(self.EFF_CRIPPLING_POISON, 6, {src=self, power=dam/6, fail=math.ceil(self:combatTalentLimit(t, 100, 10, 20))})
+				target:setEffect(self.EFF_CRIPPLING_POISON, 6, {src=self, power=dam/6, fail=math.ceil(self:combatTalentLimit(t, 100, 15, 30))})
 			end
 		end)
 
@@ -169,8 +169,8 @@ newTalent{
 	require = gifts_req_high3,
 	points = 5,
 	mode = "passive",
-	resistKnockback = function(self, t) return self:combatTalentLimit(t, 1, .17, .5) end, -- Limit < 100%
-	resistBlindStun = function(self, t) return self:combatTalentLimit(t, 1, .07, .25) end, -- Limit < 100%
+	resistKnockback = function(self, t) return self:combatTalentLimit(t, 1, .2, .5) end, -- Limit < 100%
+	resistBlindStun = function(self, t) return self:combatTalentLimit(t, 1, .1, .25) end, -- Limit < 100%
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "knockback_immune", t.resistKnockback(self, t))
 		self:talentTemporaryValue(p, "stun_immune", t.resistBlindStun(self, t))
@@ -189,9 +189,9 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	no_npc_use = true, -- breaths are high damage on rares already; should really change this to be less binary in general, this is weird design
-	getDamageIncrease = function(self, t) return self:combatTalentLimit(t, 50, 5, 15) end, -- Limit < 50%
+	getDamageIncrease = function(self, t) return self:combatTalentLimit(t, 50, 8, 20) end, -- Limit < 50%
 	getResists = function(self, t) return self:combatTalentScale(t, 0.6, 2.5) end,
-	getResistPen = function(self, t) return self:combatTalentLimit(t, 50, 5, 15) end, -- Limit < 50%
+	getResistPen = function(self, t) return self:combatTalentLimit(t, 50, 12, 30) end, -- Limit < 50%
 	passives = function(self, t, p)
 		local dam_inc = t.getDamageIncrease(self, t)
 		local resists = t.getResists(self, t)

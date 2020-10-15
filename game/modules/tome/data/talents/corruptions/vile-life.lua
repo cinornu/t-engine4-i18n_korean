@@ -63,9 +63,9 @@ newTalent{
 	tactical = { BUFF = 2 },
 	getFire = function(self, t) return self:combatTalentSpellDamage(t, 10, 400) end,
 	getCold = function(self, t) return self:combatTalentSpellDamage(t, 10, 500) end,
-	getLightning = function(self, t) return math.floor(self:combatTalentLimit(t, 8, 3, 5)) end,
-	getAcid = function(self, t) return math.floor(self:combatTalentLimit(t, 8, 2, 5)) end,
-	getNature = function(self, t) return self:combatTalentLimit(t, 60, 15, 45) end,
+	getLightning = function(self, t) return math.floor(self:combatTalentLimit(t, 8, 3, 6)) end,
+	getAcid = function(self, t) return math.floor(self:combatTalentLimit(t, 8, 3, 6)) end,
+	getNature = function(self, t) return self:combatTalentLimit(t, 75, 25, 55) end,
 	callbackOnTakeDamage = function(self, t, src, x, y, type, dam, tmp)
 		local p = self:isTalentActive(t.id)
 		if not p then return end
@@ -171,7 +171,7 @@ newTalent{
 	no_npc_use = true,  -- Bypasses all forms of immunity and such
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t), talent=t} end,
 	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 2, 4, "log")) end,
-	getDam = function(self, t) return self:combatTalentLimit(t, 2, 10, 5) end, --Limit < 10% life/effect
+	getDam = function(self, t) return self:combatTalentLimit(t, 2, 10, 3) end, --Limit < 10% life/effect
 	getVim = function(self, t) return 18 end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)

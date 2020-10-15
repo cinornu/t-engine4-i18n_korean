@@ -135,7 +135,7 @@ newTalent{
 	cooldown = 60,
 	tactical = { BUFF = 10},
 	getPower = function(self, t) -- Similar to blurred mortality
-		return self:combatTalentMindDamage(t, 0, 300) + self.max_life * self:combatTalentLimit(t, 1, .01, .05)
+		return self:combatTalentMindDamage(t, 0, 300) + self.max_life * self:combatTalentLimit(t, 1, .015, .055)
 	end,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
 	activate = function(self, t)

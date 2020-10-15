@@ -26,7 +26,7 @@ newTalent{
 	cooldown = 30,
 	no_energy = true,
 	tactical = { DEFEND = 1, ESCAPE = 1, CLOSEIN = 1 },
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 5, 9)) end, -- Limit < 30 (make sure they can't hide forever)
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 4, 10)) end, -- Limit < 30 (make sure they can't hide forever)
 	getDefs = function(self, t) return self:combatTalentScale(t, 5, 20), self:combatTalentScale(t, 5, 16) end,
 	action = function(self, t)
 		local def, armor = t.getDefs(self, t)
@@ -90,7 +90,7 @@ newTalent{
 	sustain_vim = 90,
 	cooldown = 30,
 	tactical = { DEFEND = 1, BUFF = 2 },
-	getSpeed = function(self, t) return self:combatTalentScale(t, 0.03, 0.15) end,
+	getSpeed = function(self, t) return self:combatTalentScale(t, 0.05, 0.165) end,
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/flame")
 		self.__old_type = {self.type, self.subtype}

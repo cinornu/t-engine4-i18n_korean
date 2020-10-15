@@ -34,7 +34,7 @@ newTalent{
 	no_energy = true,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	getDur = function(self, t) return math.floor(self:combatTalentScale(t, 2, 6)) end,
-	getDamPct = function(self, t) return math.floor(self:combatTalentLimit(t, 0, 60, 25)) end,
+	getDamPct = function(self, t) return math.floor(self:combatTalentLimit(t, 0, 55, 25)) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTargetLimitedWallStop(tg)
@@ -60,7 +60,7 @@ newTalent{
 	use_only_arcane = 5,
 	tactical = { BUFF = 1 },
 	on_pre_use = thaumaturgyCheck,
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 10, 30) end,
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 15, 30) end,
 	spells_list = {
 		["spell/fire"] = 	{ "T_FLAMESHOCK", "T_FIREFLASH", "T_INFERNO", "T_BLASTWAVE"},
 		["spell/arcane"] = 	{ "T_ARCANE_VORTEX", "T_AETHER_BEAM", "T_AETHER_BREACH"},

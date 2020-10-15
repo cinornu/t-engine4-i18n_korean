@@ -339,8 +339,8 @@ newTalent{
 	on_pre_use_ai = aiSummonPreUse,
 	aiSummonGrid = aiSummonGridRanged,
 	tactical = { BUFF = 0.2 },
-	getReduc = function(self, t) return self:combatTalentLimit(t, 85, 25, 70)  end, -- Limit <85%
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 25, 2.7, 5.6)) end, -- Limit <25
+	getReduc = function(self, t) return self:combatTalentLimit(t, 85, 35, 65)  end, -- Limit <85%
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 25, 3.5, 6.5)) end, -- Limit <25
 	action = function(self, t)
 		self:setEffect(self.EFF_FRANTIC_SUMMONING, t.getDuration(self, t), {power=t.getReduc(self, t)})
 		return true

@@ -88,7 +88,7 @@ newTalent{
 	tactical = { ATTACK = 2, DISABLE = 2 },
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	on_pre_use = function(self, t, silent) if not self:hasPsiblades(true, false) then if not silent then game.logPlayer(self, "You require a psiblade in your mainhand to use this talent.") end return false end return true end,
-	speedPenalty = function(self, t) return self:combatTalentLimit(t, 1, 0.18, 0.23) end,
+	speedPenalty = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.45) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y, target = self:getTarget(tg)

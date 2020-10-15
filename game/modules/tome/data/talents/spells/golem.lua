@@ -89,7 +89,7 @@ newTalent{
 	type = {"golem/fighting", 2},
 	require = techs_req2,
 	points = 5,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 18, 10, true)) end, -- Limit to > 0
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 18, 10, true, 1.0)) end, -- Limit to > 0
 	range = 10,
 	radius = function(self, t) return math.floor(self:combatTalentScale(t, 0.5, 2.5)) end,
 	stamina = 5,

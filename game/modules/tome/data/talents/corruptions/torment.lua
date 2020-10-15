@@ -119,7 +119,7 @@ newTalent{
 	points = 5,
 	mode = "sustained",
 	cooldown = 20,
-	getPower = function(self, t) return self:combatTalentLimit(t, 5, 15, 10), self:combatLimit(self:combatTalentSpellDamage(t, 10, 90), 100, 20, 0, 50, 61.3) end, -- Limit threshold > 5%, chance < 100%
+	getPower = function(self, t) return self:combatTalentLimit(t, 5, 15, 8), self:combatLimit(self:combatTalentSpellDamage(t, 10, 90), 100, 20, 0, 50, 61.3) end, -- Limit threshold > 5%, chance < 100%
 	sustain_vim = 22,
 	tactical = { BUFF = 2 },
 	activate = function(self, t)

@@ -199,7 +199,7 @@ newTalent {
 		return self:combatTalentScale(t, 0.7, 2.5)
 	end,
 	getResistCap = function(self, t)
-		return self:combatTalentLimit(t, 30, 0.7, 2.5)/t.getMax(self, t) -- Limit < 30%
+		return self:combatTalentLimit(t, 30, 1, 3.5)/t.getMax(self, t) -- Limit < 30%
 	end,
 	getDuration = function(self, t)
 		return 3

@@ -117,7 +117,7 @@ newTalent{
 	tactical = { DEFEND = 2 },
 	critResist = function(self, t) return self:combatTalentScale(t, 10, 50) end,
 	getResistance = function(self, t) return self:combatTalentSpellDamage(t, 5, 45) * 0.6 end,
-	getAffinity = function(self, t) return self:combatTalentLimit(t, 50, 5, 20) end, -- Limit <50%
+	getAffinity = function(self, t) return self:combatTalentLimit(t, 50, 8, 25) end, -- Limit <50%
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/ice")
 		local ret = {}

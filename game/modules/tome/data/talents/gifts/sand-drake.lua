@@ -23,7 +23,7 @@ newTalent{
 	require = gifts_req1,
 	points = 5,
 	equilibrium = 4,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 4, 10, 7)) end,
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 4, 10, 5.9)) end,
 	range = 1,
 	no_message = true,
 	tactical = { ATTACK = { weapon = 1 }, EQUILIBRIUM = 0.5},

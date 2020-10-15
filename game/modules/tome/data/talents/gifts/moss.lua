@@ -35,7 +35,7 @@ newTalent{
 	no_energy = true,
 	tactical = { ATTACKAREA = {NATURE=1}, DISABLE = {pin = 1} },
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 6, 40) end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 16, 4, 8)) end, -- Limit < 16
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 16, 4, 10)) end, -- Limit < 16
 	getSlow = function(self, t) return math.ceil(self:combatTalentLimit(t, 100, 36, 60)) end, -- Limit < 100%
 	getPin = function(self, t) return math.ceil(self:combatTalentLimit(t, 100, 25, 45)) end, -- Limit < 100%
 	range = 0,
@@ -86,7 +86,7 @@ newTalent{
 	tactical = { ATTACKAREA = {NATURE=1}, HEAL = 1 },
 	requires_target = true,
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 6, 40) end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 16, 4, 8)) end, -- Limit < 16
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 16, 4, 10)) end, -- Limit < 16
 	getHeal = function(self, t) return math.floor(self:combatTalentLimit(t, 200, 62, 110)) end, -- Limit < 200%	
 	range = 0,
 	radius = function(self, t)
@@ -134,8 +134,8 @@ newTalent{
 	no_energy = true,
 	tactical = { ATTACKAREA = {NATURE=1}, DISABLE = 2 },
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 6, 40) end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 16, 4, 8)) end, -- Limit < 16
-	getFail = function(self, t) return self:combatTalentLimit(t, 50, 19, 35) end, -- Limit < 50%
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 16, 4, 10)) end, -- Limit < 16
+	getFail = function(self, t) return self:combatTalentLimit(t, 50, 20, 35) end, -- Limit < 50%
 	range = 0,
 	radius = function(self, t)
 		return math.floor(self:combatTalentScale(t,2.5, 4.5, nil, 0, 0, true)) 
@@ -182,7 +182,7 @@ newTalent{
 	no_energy = true,
 	tactical = { ATTACKAREA = {NATURE=1}, DISABLE = {confusion = 1} },
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 6, 40) end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 16, 4, 8)) end, -- Limit < 16
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 16, 4, 10)) end, -- Limit < 16
 	getChance = function(self, t) return math.ceil(self:combatTalentLimit(t, 100, 25.5, 47.5)) end, -- Limit < 100%
 	getPower = function(self, t) return math.max(0,self:combatTalentLimit(t, 50, 20, 40)) end, -- Limit < 50%
 	range = 0,

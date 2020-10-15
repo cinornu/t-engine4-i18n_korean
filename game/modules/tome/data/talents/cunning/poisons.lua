@@ -132,7 +132,7 @@ newTalent{
 	},
 	sustain_stamina = 10,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 4, 7)) end,
-	getChance = function(self,t) return self:combatTalentLimit(t, 100, 25, 45) end,
+	getChance = function(self,t) return self:combatTalentLimit(t, 100, 30, 50) end,
 	getDamage = function(self, t) return 8 + self:combatTalentStatDamage(t, "cun", 10, 60) * 0.6 end,
 	ApplyPoisons = function(self, t, target, weapon) -- apply poison(s) to a target
 		if self:knowTalent(self.T_VULNERABILITY_POISON) then -- apply vulnerability first
@@ -196,7 +196,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	require = cuns_req2,
-	getRadius = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 1.5, 3.5)) end,
+	getRadius = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 2, 5)) end,
 	on_kill = function(self, t, target)
 		local poisons = {}
 		local to_spread  = 0
@@ -300,7 +300,7 @@ newTalent{
 	getDamage = function (self, t) return self:combatTalentWeaponDamage(t, 1.2, 2.1) end,
 	getSecondaryDamage = function (self, t) return self:combatTalentStatDamage(t, "cun", 50, 550) end,
 	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 1, 4, "log")) end,
-	getPower = function(self, t) return self:combatTalentLimit(t, 50, 10, 30)/100 end,
+	getPower = function(self, t) return self:combatTalentLimit(t, 50, 20, 35)/100 end,
 	tactical = function(self, t, aitarget)
 		local tacs = { attack = {NATURE = self:isTalentActive(self.T_INSIDIOUS_POISON) and 3 or 2},
 			__wt_cache_turns=1}
@@ -414,7 +414,7 @@ newTalent{
 	poison_tactics = { disable = {poison = 1.5}, defend = {poison = -0.5}},
 	tactical_imp = poisonTactics,
 	no_unlearn_last = true,
-	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 35, 10, 20) end, -- Limit effect to <35%
+	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 35, 15, 25) end, -- Limit effect to <35%
 	activate = function(self, t)
 		cancelPoisons(self)
 		self.vile_poisons = self.vile_poisons or {}
@@ -446,7 +446,7 @@ newTalent{
 	poison_tactics = {attack = {poison = 1.5}, disable = {poison = 0.5}},
 	tactical_imp = poisonTactics,
 	no_unlearn_last = true,
-	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 150, 45, 70) end, -- Limit -healing effect to <150%
+	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 150, 50, 75) end, -- Limit -healing effect to <150%
 	activate = function(self, t)
 		cancelPoisons(self)
 		self.vile_poisons = self.vile_poisons or {}
@@ -478,7 +478,7 @@ newTalent{
 	poison_tactics = {disable = {poison = 2}},
 	tactical_imp = poisonTactics,
 	no_unlearn_last = true,
-	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 35, 10, 20) end, --	Limit chance to < 35%
+	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 35, 15, 25) end, --	Limit chance to < 35%
 	activate = function(self, t)
 		cancelPoisons(self)
 		self.vile_poisons = self.vile_poisons or {}
@@ -510,7 +510,7 @@ newTalent{
 	poison_tactics = {heal = {poison = -2}}, -- heals if a HOSTILE target is affected by the poison
 	tactical_imp = poisonTactics,
 	no_unlearn_last = true,
-	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 100, 10, 40) end, -- limit < 50%
+	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 100, 18, 40) end, -- limit < 50%
 	activate = function(self, t)
 		cancelPoisons(self)
 		self.vile_poisons = self.vile_poisons or {}
@@ -547,7 +547,7 @@ newTalent{
 		end
 	end,
 	no_unlearn_last = true,
-	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 100, 15, 50) end, --	Limit effect to < 100%
+	getEffect = function(self, t) return self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 100, 22, 50) end, --	Limit effect to < 100%
 	activate = function(self, t)
 		cancelPoisons(self)
 		self.vile_poisons = self.vile_poisons or {}
@@ -608,7 +608,7 @@ newTalent{
 	vile_poison = true,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(self:getTalentLevel(self.T_VILE_POISONS), 6, 8)) end,
 	getDOT = function(self, t) return 8 + self:combatTalentStatDamage(self.T_VILE_POISONS, "cun", 10, 30) * 0.4 end,
-	stoneTime = function(self, t) return math.ceil(self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 1, 10, 5.6)) end, -- Time to stone target, always > 1 turn
+	stoneTime = function(self, t) return math.ceil(self:combatTalentLimit(self:getTalentLevel(self.T_VILE_POISONS), 1, 7, 2)) end, -- Time to stone target, always > 1 turn
 	getEffect = function(self, t) return math.floor(self:combatTalentScale(self:getTalentLevel(self.T_VILE_POISONS), 3, 4)) end,
 	on_learn = function(self, t)
 		table.set(self, "__show_special_talents", t.id, true)

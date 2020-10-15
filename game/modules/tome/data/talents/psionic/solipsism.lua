@@ -27,11 +27,11 @@ newTalent{
 	psi = 0,
 	-- Speed effect calculations performed in _M:actBase function in mod\class\Actor.lua to handle suppressing the solipsim threshold
 	-- Damage conversion handled in mod.class.Actor.lua _M:onTakeHit
-	getConversionRatio = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.5) end, -- Limit < 100% Keep some life dependency
+	getConversionRatio = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.5) end, -- Limit < 100% Keep some life dependency
 	getPsiDamageResist = function(self, t)
 		local lifemod = 1 + (1 + self.level)/2/40 -- Follows normal life progression with level see mod.class.Actor:getRankLifeAdjust (level_adjust = 1 + self.level / 40)
 		-- Note: This effectively magifies healing effects
-		local talentmod = self:combatTalentLimit(t, 50, 2.5, 10) -- Limit < 50%
+		local talentmod = self:combatTalentLimit(t, 50, 3, 11) -- Limit < 50%
 		return 100 - (100 - talentmod)/lifemod, 1-1/lifemod, talentmod
 	end,
 
@@ -109,7 +109,7 @@ newTalent{
 	require = psi_wil_req3,
 	mode = "passive",
 	-- Speed effect calculations performed in _M:actBase function in mod\class\Actor.lua to handle suppressing the solipsim threshold
-	getClarityThreshold = function(self, t) return self:combatTalentLimit(t, 0, 0.89, 0.65)	end, -- Limit > 0%
+	getClarityThreshold = function(self, t) return self:combatTalentLimit(t, 0, 0.85, 0.6)	end, -- Limit > 0%
 	on_learn = function(self, t)
 		if self:getTalentLevelRaw(t) == 1 then
 			self.inc_resource_multi.psi = (self.inc_resource_multi.psi or 0) + 0.5

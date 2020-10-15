@@ -229,7 +229,7 @@ newTalent{
 	base_tactical = {defend=1}, -- could check base immunities here
 	adept_deac_tactical = {defend = -0.5}, -- adept tactic adjustments when deactivating (negated)
 	range = 10,
-	getImmunities = function(self, t) return self:combatTalentLimit(t, 1, 0.16, 0.4) end, -- Limit < 100%
+	getImmunities = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.45) end, -- Limit < 100%
 	callbackOnActBase = function(self, t)
 		if self:isTalentActive(self.T_HYMN_NOCTURNALIST) then
 			local t2 = self:getTalentFromId(self.T_HYMN_NOCTURNALIST)
@@ -300,7 +300,7 @@ newTalent{
 	range = 5,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 7, 80) end,
 	getTargetCount = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
-	getNegativeDrain = function(self, t) return self:combatTalentLimit(t, 0, 8, 3) end, -- Limit > 0, no regen at high levels
+	getNegativeDrain = function(self, t) return self:combatTalentLimit(t, 0, 7, 3) end, -- Limit > 0, no regen at high levels
 	target = function(self, t) -- for AI only
 		 return {type="ball", friendlyfire=false, friendlyblock=false, radius=self:getTalentRange(t), range=0, talent=t}
 	end,

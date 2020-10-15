@@ -185,7 +185,7 @@ newTalent{
 	sustain_vim = 50,
 	tactical = { DEFEND = 4 },
 	direct_hit = true,
-	getRegen = function(self, t) return self:combatTalentLimit(t, 3, 20, 3.3) end,
+	getRegen = function(self, t) return self:combatTalentLimit(t, 3, 16, 4.5) end,
 	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 1, 3.5)) end,
 	getThreshold = function(self, t) return math.floor(self:combatSpellpower() * 0.7) end,
 	iconOverlay = function(self, t, p)

@@ -200,7 +200,7 @@ newTalent{
 	on_pre_use = function(self, t, silent) if not self:hasShield() then if not silent then game.logPlayer(self, "You require a weapon and a shield to use this talent.") end return false end return true end,
 	getArmor = function(self,t) return self:combatTalentStatDamage(t, "str", 6, 30) + self:combatTalentStatDamage(t, "dex", 6, 30) end,
 	getBlock = function(self, t) return self:combatTalentStatDamage(t, "str", 20, 75) + self:combatTalentStatDamage(t, "dex", 20, 75) end,
-	stunKBresist = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.50) end, -- Limit <100%
+	stunKBresist = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.50) end, -- Limit <100%
 	activate = function(self, t)
 		local shield = self:hasShield()
 		if not shield then

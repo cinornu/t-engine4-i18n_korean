@@ -33,7 +33,7 @@ newTalent{
 	mode = "passive",
 	points = 5,
 	getDefense = function(self, t) return self:combatStatScale("cun", 5, 15, 0.75) end,
-	getMaximum = function(self, t) return t.getDefense(self, t) * self:combatTalentLimit(t, 8, 1, 5) end, -- Limit to 8x defense bonus
+	getMaximum = function(self, t) return t.getDefense(self, t) * self:combatTalentLimit(t, 8, 2, 5) end, -- Limit to 8x defense bonus
 	do_tact_update = function (self, t)
 		local nb_foes = 0
 		local act
@@ -153,7 +153,7 @@ newTalent{
 	sustain_stamina = 30,
 	tactical = { BUFF = 2 },
 	speed = "combat",
-	getReductionMax = function(self, t) return 5 * math.floor(self:combatTalentLimit(t, 20, 1.4, 7.1)) end, -- Limit to 95%
+	getReductionMax = function(self, t) return 5 * math.floor(self:combatTalentLimit(t, 20, 3.5, 10)) end, -- Limit to 95%
 	do_weakness = function(self, t, target)
 		target:setEffect(target.EFF_WEAKENED_DEFENSES, 3, {inc = - 5, max = - t.getReductionMax(self, t)})
 	end,

@@ -39,7 +39,7 @@ Talents.stealthDetection = stealthDetection
 
 -- radius of detection for stealth talents
 local function stealthRadius(self, t, fake)
-	local base = math.ceil(self:combatTalentLimit(t, 0, 8.9, 4.6)) -- Limit to range >= 1
+	local base = math.ceil(self:combatTalentLimit(t, 0, 8.5, 4)) -- Limit to range >= 1
 	local sooth = self:callTalent(self.T_SOOTHING_DARKNESS, "getRadius", fake)
 	local final = math.max(0, base - sooth)
 	if fake then return base, final

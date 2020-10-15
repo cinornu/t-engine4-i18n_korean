@@ -168,7 +168,7 @@ newTalent{
 		return tostring(math.ceil(val)), fnt
 	end,
 	critpower = function(self, t) return self:combatTalentScale(t, 4, 15) end,
-	getRechargeRate = function(self, t) return self:combatTalentLimit(t, 5, 35, 10) end,
+	getRechargeRate = function(self, t) return self:combatTalentLimit(t, 5, 33, 10) end,
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/spell_generic2")
 		local ret = {

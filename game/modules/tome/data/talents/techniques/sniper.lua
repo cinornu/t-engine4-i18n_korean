@@ -71,9 +71,9 @@ newTalent{
 		end
 		return true
 	end,
-	getAvoidance = function(self, t) return math.floor(self:combatTalentLimit(t, 25, 5, 15)) end,
+	getAvoidance = function(self, t) return math.floor(self:combatTalentLimit(t, 25, 8, 17.5)) end,
 	getSight = function(self, t) return math.floor(self:combatTalentScale(t, 1, 3, "log")) end,
-	getRadius = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 8.9, 4.5)) end,
+	getRadius = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 8, 4)) end,
 	sustain_lists = "break_with_stealth",
 	activate = function(self, t)
 		local ret = {}
@@ -161,8 +161,8 @@ newTalent{
 	tactical = { BUFF = 2 },
 	on_pre_use = function(self, t, silent) return archerPreUse(self, t, silent, "bow") end,
 	getPower = function(self, t)  return self:combatTalentStatDamage(t, "dex", 15, 50) end,
-	getSpeed = function(self, t) return math.floor(self:combatTalentLimit(t, 150, 50, 100)) end,
-	getDamage = function(self, t) return self:combatTalentLimit(t, 8.0, 2.0, 4.0) end,
+	getSpeed = function(self, t) return math.floor(self:combatTalentLimit(t, 150, 55, 115)) end,
+	getDamage = function(self, t) return self:combatTalentLimit(t, 8.0, 2.0, 4.5) end,
 	getMarkChance = function(self, t) return math.floor(self:combatTalentScale(t, 2, 10)) end,
 	sustain_slots = 'archery_stance',
 	activate = function(self, t)
@@ -212,7 +212,7 @@ newTalent{
 	no_npc_use = true, --no way am i giving a npc a 300%+ ranged shot
 	on_pre_use = function(self, t, silent) return archerPreUse(self, t, silent, "bow") end,
 	getDamage = function(self, t) return self:combatTalentWeaponDamage(t, 1.7, 3.5) end, -- very high damage as this effectively takes 2 turns
-	getDamageReduction = function(self, t) return math.floor(self:combatTalentLimit(t, 90, 30, 70)) end,
+	getDamageReduction = function(self, t) return math.floor(self:combatTalentLimit(t, 90, 40, 70)) end,
 	action = function(self, t)
 		local dam = t.getDamage(self,t)
 		local reduction = t.getDamageReduction(self,t)

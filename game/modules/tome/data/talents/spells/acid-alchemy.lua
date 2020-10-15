@@ -90,7 +90,7 @@ newTalent{
 	end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 7, 60) end,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 6, 10)) end,
-	getSlow = function(self, t) return self:combatTalentLimit(t, 100, 10, 40) end,
+	getSlow = function(self, t) return self:combatTalentLimit(t, 100, 20, 50) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)

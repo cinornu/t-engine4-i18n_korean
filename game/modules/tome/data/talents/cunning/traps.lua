@@ -675,9 +675,9 @@ newTalent{
 	no_break_stealth = true,
 	require = cuns_req2,
 	no_npc_use = true,
-	range = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 2, 5.5)) end, -- limit < 10
+	range = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 7)) end, -- limit < 10
 	getDuration = function(self,t) return math.floor(self:combatTalentScale(t, 5, 13)) end,
-	getLife = function(self, t) return self:getCun()*self:combatTalentLimit(t, 5, 1, 2) end,
+	getLife = function(self, t) return self:getCun()*self:combatTalentLimit(t, 5, 1.5, 2.5) end,
 	getArmor = function(self, t) return math.floor(self:combatTalentScale(t, 10, 25)) end,
 	getResist = function(self, t) return self:combatTalentLimit(t, 90, 65, 75) end,
 	speed = "combat",

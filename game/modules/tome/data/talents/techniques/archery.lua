@@ -290,7 +290,7 @@ newTalent{
 	on_pre_use = function(self, t, silent) return archerPreUse(self, t, silent) end,
 	getDamage = function(self, t) return self:combatTalentWeaponDamage(t, 1.0, 1.5) end,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 3, 7)) end,
-	getSpeedPenalty = function(self, t) return math.floor(self:combatTalentLimit(t, 50, 10, 40))/100 end,
+	getSpeedPenalty = function(self, t) return math.floor(self:combatTalentLimit(t, 50, 15, 40))/100 end,
 	getChance = function(self,t) 
 		local chance = 20
 		if self:hasEffect(self.EFF_TRUESHOT) then chance = chance + (chance * self:callTalent(self.T_TRUESHOT, "getMarkChance")/100) end
@@ -668,8 +668,8 @@ newTalent{
 	mode = "passive",
 	require = techs_dex_req4,
 	getSpeed = function(self, t) return math.floor(self:combatTalentLimit(t, 25, 5, 15))/100 end,
-	getTalentCount = function(self, t) return math.floor(self:combatTalentLimit(t, 4, 1, 2.5)) end,
-	getCooldown = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 1, 3)) end,
+	getTalentCount = function(self, t) return math.floor(self:combatTalentLimit(t, 4, 1, 3.5)) end,
+	getCooldown = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 2, 4.5)) end,
 	proc = function(self, t)
 		if not self:isTalentCoolingDown(t) then 
 			self:setEffect(self.EFF_BULLSEYE, 2, {src=self, power=self:callTalent(self.T_BULLSEYE, "getSpeed")})

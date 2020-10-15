@@ -81,9 +81,9 @@ newTalent{
 	points = 5,
 	mana = 20,
 	cant_steal = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 24, 20)) end, -- Limit to > 0
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 4, 20, 12)) end, -- Limit to > 4
 	tactical = { DEFEND = 1, ATTACK=1 },
-	getPower = function(self, t) return (60 + self:combatTalentSpellDamage(t, 15, 450)) / 7, 7, self:combatTalentLimit(t, 100, 27, 55) end, --Limit life gain < 100%
+	getPower = function(self, t) return (60 + self:combatTalentSpellDamage(t, 15, 450)) / 7, 7, self:combatTalentLimit(t, 100, 30, 55) end, --Limit life gain < 100%
 	action = function(self, t)
 		if not self.alchemy_golem then return end
 		local regen, dur, hp = t.getPower(self, t)

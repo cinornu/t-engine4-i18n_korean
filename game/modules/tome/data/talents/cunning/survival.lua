@@ -55,7 +55,7 @@ newTalent{
 	mode = "passive",
 	points = 5,
 	random_boss_rarity = 50, -- make sure a reasonable number of randbosses don't take this
-	cdReduc = function(self, t) return self:combatTalentLimit(t, 100, 10, 40) end,
+	cdReduc = function(self, t) return self:combatTalentLimit(t, 100, 15, 40, false, 1.0) end,
 	passives = function(self, t, p) -- slight nerf to compensate for trap disarming ability?
 		self:talentTemporaryValue(p, "use_object_cooldown_reduce", t.cdReduc(self, t))
 	end,
@@ -81,7 +81,7 @@ newTalent{
 	points = 5,
 	random_ego = "utility",
 	cooldown = 20,
-	radius = function(self, t) return math.floor(self:combatScale(self:getCun(10, true) * self:getTalentLevel(t), 5, 0, 55, 50)) end,
+	radius = function(self, t) return math.floor(self:combatScale(self:getCun(10, true) * self:getTalentLevel(t), 5, 5, 35, 55)) end,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 4, 8)) end,
 	no_npc_use = true,
 	no_break_stealth = true,
@@ -108,8 +108,8 @@ newTalent{
 	random_boss_rarity = 50, -- make sure a reasonable number of randbosses don't take this
 	mode = "passive",
 	trapDetect = function(self, t) return math.max(0, self:combatScale(self:getTalentLevel(t) * self:getCun(25, true), 5, 3.75, 35, 125, 0.25)) end, -- bonus trap detection power
-	critResist = function(self, t) return self:combatTalentScale(t, 1.3, 5) end,
-	getUnseenReduction = function(self, t) return self:combatTalentLimit(t, 1, .1, .25) end, -- Limit < 100%
+	critResist = function(self, t) return self:combatTalentScale(t, 3.5, 12) end,
+	getUnseenReduction = function(self, t) return self:combatTalentLimit(t, 1, .15, .33, false, 1.0) end, -- Limit < 100%
 	savePenalty = function(self, t) return self:combatLimit(self:getTalentLevel(t) * self:getCun(25, true), 5, 20, 0, 10, 125) end, --Limit: best is save @ -5
 	callbackOnStatChange = function(self, t, stat, v)
 		if stat == self.STAT_CUN then -- force recalculation of bonuses
@@ -131,7 +131,7 @@ newTalent{
 	info = function(self, t)
 		return ([[You have an enhanced sense of self preservation, and your keen intuition allows you to sense dangers others miss.
 		Your ability to detect traps is enhanced (+%d detect 'power').
-		Attacks against you have a %0.1f%% reduced chance to be critical hits, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
+		Critical attacks against you have %0.1f%% reduced bonus damage, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
 		You also gain an additional chance (at your normal save %+d, effective) to resist detrimental status effects that can be resisted.
 		The detection and additional save chance improve with Cunning.]]):
 		tformat(t.trapDetect(self, t), t.critResist(self, t), t.getUnseenReduction(self, t)*100, -t.savePenalty(self, t))

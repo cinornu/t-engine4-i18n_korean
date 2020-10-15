@@ -85,7 +85,7 @@ newTalent{
 	mode = "passive",
 	points = 5,
 	require = techs_req2,
-	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.5) end,
+	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.5) end,
 	passives = function(self, t, p)
 		local immune = t.getImmune(self, t)
 		self:talentTemporaryValue(p, "stun_immune", immune)

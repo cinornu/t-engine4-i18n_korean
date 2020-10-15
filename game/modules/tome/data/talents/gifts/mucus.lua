@@ -37,7 +37,7 @@ newTalent{
 			if self:getTalentLevel(t)>=4 then return {NATURE = 1 } end
 		end
 	},
-	getDur = function(self, t) return math.floor(self:combatTalentLimit(t, 20, 4, 6.5)) end, -- Limit < 20
+	getDur = function(self, t) return math.floor(self:combatTalentLimit(t, 20, 4, 8)) end, -- Limit < 20
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 10, 50) end,
 	-- note meditation recovery: local pt = 2 + self:combatTalentMindDamage(t, 20, 120) / 10 = O(<1)
 	getEqui = function(self, t) return self:combatTalentMindDamage(t, 2, 8) end,

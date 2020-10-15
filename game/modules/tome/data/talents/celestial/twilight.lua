@@ -168,7 +168,7 @@ newTalent{
 		return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), talent=t, selffire=false}
 	end,
 	getConfuseDuration = function(self, t) return math.min(10, math.floor(self:combatScale(self:getTalentLevel(t) + self:getCun(5), 2, 0, 12, 10))) end,
-	getConfuseEfficency = function(self, t) return self:combatTalentLimit(t, 60, 15, 45) end, -- Limit < 60% (slightly better than most confusion effects)
+	getConfuseEfficency = function(self, t) return math.min(50, self:combatTalentScale(t, 20, 45)) end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 1, 100) end,  -- Mostly for the crit synergy
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)

@@ -94,7 +94,7 @@ newTalent{
 	mode = "passive",
 	points = 5,
 	getChance = function(self, t) return math.min(100, 30 + self:getTalentLevel(t) * 15) end,
-	getReduction = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 1, 3.1)) end, -- Limit < 5
+	getReduction = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 1.5, 4.1)) end, -- Limit < 5
 	info = function(self, t)
 		return ([[While Master Summoner is active, each new summon will reduce the remaining cooldown of Pheromones, Detonate and Wild Summon.
 		%d%% chance to reduce them by %d.]]):tformat(t.getChance(self, t), t.getReduction(self, t))
@@ -114,7 +114,7 @@ newTalent{
 	on_pre_use = function(self, t, silent)
 		return self:isTalentActive(self.T_MASTER_SUMMONER)
 	end,
-	duration = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 1, 6)) end, -- Limit <25
+	duration = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 3, 7)) end, -- Limit <15
 	action = function(self, t)
 		self:setEffect(self.EFF_WILD_SUMMON, t.duration(self,t), {chance=100})
 		game:playSoundNear(self, "talents/teleport")

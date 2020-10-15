@@ -122,7 +122,7 @@ newTalent{
 			local wrath = self:hasEffect(self.EFF_FOCUSED_WRATH)
 			tl = self:mindCrit(tl, nil, wrath and wrath.power or 0)
 		end
-		return math.floor(self:combatTalentLimit(tl, 24, 3.5, 9.5))  -- Limit <24
+		return math.floor(self:combatTalentLimit(tl, 24, 4, 11))  -- Limit <24
 	end,
 	on_pre_use = function(self, t, silent) if self:getFeedback() <= 0 then if not silent then game.logPlayer(self, "You have no feedback to start a feedback loop!") end return false end return true end,
 	action = function(self, t)
@@ -196,7 +196,7 @@ newTalent{
 	target = function(self, t)
 		return {type="hit", range=self:getTalentRange(t)}
 	end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 12, 3, 7)) end, -- Limit <12
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 12, 4, 8)) end, -- Limit <12
 	direct_hit = true,
 	requires_target = true,
 	no_break_channel = true,

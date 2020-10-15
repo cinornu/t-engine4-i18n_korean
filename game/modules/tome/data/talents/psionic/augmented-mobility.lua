@@ -29,7 +29,7 @@ newTalent{
 	no_energy = true,
 	tactical = { SELF = { ESCAPE = 1 }, CLOSEIN = 1},
 	getSpeed = function(self, t) return self:combatTalentScale(t, 0.2, 0.5, 0.75) end,
-	getKBVulnerable = function(self, t) return 1 - self:combatTalentLimit(t, 1, 0.3, 0.7) end,
+	getKBVulnerable = function(self, t) return 1 - self:combatTalentLimit(t, 1, 0.55, 0.85) end,
 	activate = function(self, t)
 		return {
 			speed = self:addTemporaryValue("movement_speed", t.getSpeed(self, t)),
@@ -84,11 +84,11 @@ newTalent{
 	name = "Mindhook",
 	type = {"psionic/augmented-mobility", 3},
 	require = psi_wil_req3,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 18, 10)) end, -- Limit to >5
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 15, 7)) end, -- Limit to >5
 	psi = 10,
 	points = 5,
 	tactical = { CLOSEIN = 2 },
-	range = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 7)) end, -- Limit base range to 10
+	range = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 4.5, 7)) end, -- Limit base range to 10
 	target = function(self, t) return {type="bolt", range=self:getTalentRange(t)} end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
@@ -124,7 +124,7 @@ newTalent{
 	points = 5,
 	tactical = { SELF = { ESCAPE = 1 }, CLOSEIN = 2},
 	range = function(self, t)
-		return math.floor(math.max(1, self:combatTalentLimit(t, 10, 2, 7.5))) -- Limit < 10
+		return math.floor(math.max(1, self:combatTalentLimit(t, 10, 3.5, 7.5))) -- Limit < 10
 	end,
 	message = _t"@Source@ performs a telekinetically enhanced leap!",
 	target = function(self, t)

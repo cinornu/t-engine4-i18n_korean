@@ -31,11 +31,11 @@ newTalent{
 		end
 	},
 	getMaxHP = function(self, t) return
-		50 + self:combatTalentMindDamage(t, 30, 250) + self.max_life * self:combatTalentLimit(t, 0.25, .025, .1)
+		50 + self:combatTalentMindDamage(t, 30, 250) + self.max_life * self:combatTalentLimit(t, 0.25, .035, .125)
 	end,
-	getMax = function(self, t) local _, _, max = checkMaxSummon(self, true) return math.min(max, math.max(1, math.floor(self:combatTalentLimit(t, 6, 1, 3.1)))) end, --Limit < 6
+	getMax = function(self, t) local _, _, max = checkMaxSummon(self, true) return math.min(max, math.max(1, math.floor(self:combatTalentLimit(t, 6, 1.1, 4.1)))) end, --Limit < 6
 	getChance = function(self, t) return self:combatLimit(self:combatTalentStatDamage(t, "cun", 10, 400), 100, 20, 0, 61, 234) end, -- Limit < 100%
-	getOozeResist = function(self, t) return self:combatTalentLimit(t, 70, 15, 30) end, --Limit < 70%
+	getOozeResist = function(self, t) return self:combatTalentLimit(t, 70, 15, 35) end, --Limit < 70%
 	getSummonTime = function(self, t) return math.floor(self:combatTalentScale(t, 6, 10)) end,
 	-- called in mod.class.Actor.onTakeHit
 	spawn = function(self, t, life)
@@ -252,7 +252,7 @@ newTalent{
 	mode = "passive",
 	--compare to lethality: self:combatTalentScale(t, 7.5, 25, 0.75)
 	critResist = function(self, t) return self:combatTalentScale(t, 15, 50, 0.75) end,
-	immunities = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.7) end, -- Limit < 100% immunities
+	immunities = function(self, t) return self:combatTalentLimit(t, 1, 0.25, 0.65) end, -- Limit < 100% immunities
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "blind_immune", t.immunities(self, t))
 		self:talentTemporaryValue(p, "poison_immune", t.immunities(self, t))

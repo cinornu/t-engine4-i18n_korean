@@ -57,7 +57,7 @@ newTalent{
 		end
 		return self:combatScale(dam, 5, 10, 50, 250)
 	end,
-	getoffmult = function(self,t) return self:combatTalentLimit(t, 1, 0.6, 0.80) end, -- limit <100%
+	getoffmult = function(self,t) return self:combatTalentLimit(t, 1, 0.6, 0.85) end, -- limit <100%
 	callbackOnActBase = function(self, t)
 		local mh, oh = self:hasDualWeapon()
 		if (mh and oh) and oh.subtype ~= "mindstar" then
@@ -94,8 +94,8 @@ newTalent{
 	require = techs_dex_req2,
 	points = 5,
 	mode = "passive",
-	getStamina = function(self, t) return self:combatTalentLimit(t, 15, 1, 4) end, -- Limit < 15 (effectively scales with actor speed)
-	getSpeed = function(self, t) return self:combatTalentLimit(t, 25, 5, 10) end, -- Limit < 25% of a turn gained
+	getStamina = function(self, t) return self:combatTalentLimit(t, 15, 2, 5) end, -- Limit < 15 (effectively scales with actor speed)
+	getSpeed = function(self, t) return self:combatTalentLimit(t, 25, 5, 15) end, -- Limit < 25% of a turn gained
 	do_tempo = do_tempo,
 	callbackOnMeleeMiss = do_tempo,
 	callbackOnArcheryMiss = do_tempo,
@@ -132,9 +132,9 @@ newTalent{
 	is_melee = true,
 	range = 1,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 6, 2, 3.4)) end, -- fix
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 6, 2, 4.5)) end, 
 	getParryEfficiency = function(self, t) -- return increased parry efficiency
-		return math.floor(self:combatTalentLimit(t, 75, 15, 50))
+		return math.floor(self:combatTalentLimit(t, 75, 20, 50))
 	end,
 	on_pre_use = function(self, t, silent)
 		if self:attr("never_move") then

@@ -123,7 +123,7 @@ newTalent{
 	proj_speed = 10,
 	tactical = { ATTACK = { PHYSICAL = 0.2 } },
 	no_break_stealth = true,
-	range = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 4.2, 7)) end,
+	range = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 4, 7)) end,
 	requires_target = true,
 	target = function(self, t)
 		return {type="bolt", range=self:getTalentRange(t), selffire=false, talent=t, display={display='', particle="arrow", particle_args={tile="shockbolt/object/knife_steel"} }}
@@ -132,8 +132,8 @@ newTalent{
 		local eff = self:hasEffect(self.EFF_THROWING_KNIVES)
 		if eff and eff.stacks > 0 then return true end
 	end,
-	getBaseDamage = function(self, t) return self:combatTalentLimit(t, 72, 9, 35) end, -- Scale as dagger damage by material tier (~voratun dagger @ TL 6.5), limit base damage < voratun greatmaul
-	getBaseApr = function(self, t) return self:combatTalentScale(t, 2, 10) end,
+	getBaseDamage = function(self, t) return self:combatTalentLimit(t, 72, 10, 42) end, -- Scale as dagger damage by material tier (~voratun dagger @ TL 6.5), limit base damage < voratun greatmaul
+	getBaseApr = function(self, t) return self:combatTalentScale(t, 3, 10) end,
 	getReload = function(self, t) return 2 end,
 	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 6, 9.5, 0.25)) end,
 	getBaseCrit = function(self, t) return self:combatTalentScale(t, 2, 5) end,
@@ -220,7 +220,7 @@ newTalent{
 	tactical = { ATTACKAREA = { PHYSICAL = 2}},
 	speed = "throwing",
 	proj_speed = 10,
-	getDamage = function (self, t) return self:combatTalentLimit(t, 1, 0.3, 0.75) end,
+	getDamage = function (self, t) return self:combatTalentLimit(t, 1, 0.4, 0.75) end,
 	getNb = function(self, t) return math.floor(self:combatTalentScale(t, 8, 20)) end,
 	range = 0,
 	cooldown = 10,
@@ -282,7 +282,7 @@ newTalent{
 	range = 0,
 	getCrit = function(self, t) return self:combatTalentScale(t, 3, 15) end,
 	getCritPower = function(self, t) return self:combatTalentScale(t, 7, 20) end,
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 15, 45) end,
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 20, 45) end,
 	info = function(self, t)
 		local crit = t.getCrit(self,t)
 		local power = t.getCritPower(self,t)
@@ -303,8 +303,8 @@ newTalent{
 	sustain_stamina = 30,
 	tactical = { BUFF = 2 },
 	range = 7,
-	getSpeed = function(self, t) return self:combatTalentLimit(t, 1, 0.10, 0.35) end, -- Limit < +100% attack speed
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 8, 25) end,
+	getSpeed = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.35) end, -- Limit < +100% attack speed
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 10, 25) end,
 	activate = function(self, t)
 		local ret = {
 		}

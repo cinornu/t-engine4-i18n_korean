@@ -169,7 +169,7 @@ newTalent{
 	target = function(self, t)
 		return {type="hit", range=self:getTalentRange(t), selffire=false, talent=t}
 	end,
-	getEvasion = function(self, t) return self:combatTalentLimit(t, 90, 15, 40), self:getTalentLevel(t) >= 4 and 2 or 1 end, -- Limit chance <90%
+	getEvasion = function(self, t) return self:combatTalentLimit(t, 90, 20, 40), self:getTalentLevel(t) >= 4 and 2 or 1 end, -- Limit chance <90%
 	activate = function(self, t)
 		local chance, spread = t.getEvasion(self, t)
 		return {

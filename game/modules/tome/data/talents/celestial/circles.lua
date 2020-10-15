@@ -181,7 +181,7 @@ newTalent{
 	negative = 15,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 75) end,
 	getSlow = function(self, t) return 50 end,
-	getDuration = function(self, t) return self:combatTalentLimit(t, 15, 1, 10) end,
+	getDuration = function(self, t) return self:combatTalentLimit(t, 15, 3.5, 10) end,
 	getSlowDur = function(self, t) return self:combatTalentLimit(t, 7, 2, 5) end,
 	on_pre_use = function(self, t, silent)
 		if not game.level then return end

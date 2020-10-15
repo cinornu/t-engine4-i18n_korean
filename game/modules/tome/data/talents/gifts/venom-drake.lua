@@ -25,7 +25,7 @@ newTalent{
 	random_ego = "attack",
 	message = _t"@Source@ spits acid!",
 	equilibrium = 3,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 3, 6.9, 5.5)) end, -- Limit >=3
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 3, 6.9, 4)) end, -- Limit >=3
 	tactical = { ATTACK = { ACID = 2 } },
 	range = function(self, t) return math.floor(self:combatTalentScale(t, 5.5, 7.5)) end,
 	on_learn = function(self, t)

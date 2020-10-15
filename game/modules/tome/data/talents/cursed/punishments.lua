@@ -31,7 +31,7 @@ newTalent{
 	getDamage = function(self, t)
 		return self:combatTalentMindDamage(t, 0, 320)
 	end,
-	getSpreadFactor = function(self, t) return self:combatTalentLimit(t, .95, .75, .85) end,
+	getSpreadFactor = function(self, t) return self:combatTalentLimit(t, .95, .7, .85) end,
 	target = function(self, t) return {type="ball", radius=self:getTalentRange(t), range=0, friendlyfire=false} end,
 	action = function(self, t)
 		local tg, targets = self:getTalentTarget(t), {}

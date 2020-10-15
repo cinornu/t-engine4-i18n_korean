@@ -153,8 +153,8 @@ newTalent{
 	require = psi_wil_req4,
 	points = 5,
 	mode = "passive",
-	stunImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.10, 0.40) end,
-	cureChance = function(self, t) return self:combatTalentLimit(t, 1, 0.10, 0.30) end,
+	stunImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.40) end,
+	cureChance = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.30) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "stun_immune", t.stunImmune(self, t))
 	end,

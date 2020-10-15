@@ -73,8 +73,8 @@ newTalent{
 	explodeFire = function(self,t) return self:combatTalentMindDamage(t, 30, 120) end,
 	hydraAffinity = function(self,t) return self:combatTalentLimit(t, 50, 15, 40) end,
 	hydraRegen = function(self,t) return self:combatTalentMindDamage (t, 8, 40) end,
-	jellySlow = function(self,t) return self:combatTalentLimit(t, 0.60, 0.10, 0.35) end,
-	minotaurConfuse = function(self,t) return self:combatTalentLimit(t, 50, 15, 35) end,
+	jellySlow = function(self,t) return self:combatTalentLimit(t, 0.60, 0.25, 0.48) end,
+	minotaurConfuse = function(self,t) return self:combatTalentLimit(t, 50, 20, 35) end,
 	golemArmour = function(self,t) return self:combatTalentScale(t, 15, 33) end,
 	golemHardiness = function(self,t) return 15 + self:getTalentLevelRaw(t)*10 end,
 	shellShielding = function(self,t) return self:combatTalentMindDamage(t, 10, 35) end,
@@ -131,8 +131,8 @@ newTalent{
 	require = gifts_req3,
 	mode = "passive",
 	points = 5,
-	incLife = function(self, t) return self:combatTalentLimit(t, 1, 0.05, 0.20) end,
-	incDur = function(self, t) return math.floor(self:combatTalentLimit(t, 6, 1, 2.8)) end,
+	incLife = function(self, t) return self:combatTalentLimit(t, 1, 0.125, 0.25) end,
+	incDur = function(self, t) return math.floor(self:combatTalentLimit(t, 6, 2, 5)) end,
 	info = function(self, t)
 		return ([[Increases all your summons' max life by %0.1f%% and extends your summons' maximum lifetime by %d turns.]]):tformat(100*t.incLife(self, t), t.incDur(self,t))
 	end,

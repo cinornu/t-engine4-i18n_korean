@@ -34,7 +34,7 @@ newTalent{
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	tactical = { ATTACK = {PHYSICAL = 2} },
 	requires_target = true,
-	getIncrease = function(self, t) return math.floor(self:combatTalentLimit(t, 4, 1, 3.5)) end,
+	getIncrease = function(self, t) return math.floor(self:combatTalentLimit(t, 4, 1.5, 3.5)) end,
 	getDamage = function(self, t) return self:combatTalentWeaponDamage(t, 0.8, 1.6) end,
 	on_pre_use = function(self, t, silent)
 		if not self:hasDualWeapon() then
@@ -126,7 +126,7 @@ newTalent{
 	vim = 20,
 	cooldown = 8,
 	range = 1,
-	radius = function(self, t) return self:combatTalentLimit(t, 7, 1, 5) end,
+	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 7, 2.5, 5.5)) end,
 	requires_target = true,
 	is_melee = true,
 	tactical = { ATTACK = {ACID = 2}},

@@ -30,7 +30,7 @@ newTalent{
 	stamina = 24,
 	require = techs_dex_req_high1,
 	getDamage = function (self, t) return self:combatTalentWeaponDamage(t, 1.0, 1.5) end,
-	getPercent = function(self, t) return self:combatTalentLimit(t, 0.3, 0.1, 0.2) end,
+	getPercent = function(self, t) return self:combatTalentLimit(t, 0.3, 0.1, 0.25) end,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	range = 1,
 	requires_target = true,
@@ -92,7 +92,7 @@ newTalent{
 	require = techs_dex_req_high2,
 	points = 5,
 	mode = "passive",
-	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 1.5, 4.4)) end,
+	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 2, 5.5)) end,
 	range = 0,
 	getDuration = function(self, t) return self:combatTalentScale(t, 3, 5) end,
 	target = function(self, t)
@@ -164,7 +164,7 @@ newTalent{
 	no_break_stealth = true,
 	no_npc_use = true, -- lol 
 	getPower = function(self, t) return self:combatTalentScale(t, 15, 40) end,
-	getPercent = function(self, t) return self:combatTalentLimit(t, 50, 10, 40) end,
+	getPercent = function(self, t) return self:combatTalentLimit(t, 50, 20, 40) end,
 	getDamage = function(self,t) return self:combatTalentStatDamage(t, "dex", 15, 180) end,
 	target = function(self, t)
 		return {type="hit", range=self:getTalentRange(t), talent=t}

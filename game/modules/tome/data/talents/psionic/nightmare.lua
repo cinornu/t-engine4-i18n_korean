@@ -104,7 +104,7 @@ newTalent{
 		if crit then tl = self:mindCrit(tl) end
 		return self:combatLimit(tl, 100, 0, 0, 21, 21) -- Limit < 100%
 	end,
-	getDuration = function(self, t) return self:combatTalentLimit(t, 15, 2, 12) end,
+	getDuration = function(self, t) return self:combatTalentLimit(t, 15, 4, 10) end,
 	summon_inner_demons = function(self, target, t)
 		-- Find space
 		local x, y = util.findFreeGrid(target.x, target.y, 1, true, {[Map.ACTOR]=true})

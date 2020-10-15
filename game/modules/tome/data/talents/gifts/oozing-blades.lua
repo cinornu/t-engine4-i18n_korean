@@ -96,8 +96,8 @@ newTalent{
 	tactical = { DISABLE = 2 },
 	requires_target = true,
 	getChance = function(self, t) return math.max(0, self:combatLimit(self:combatTalentMindDamage(t, 10, 70), 100, 39, 9, 86, 56)) end, -- Limit < 100%
-	getNb = function(self, t) return math.ceil(self:combatTalentLimit(t, 4, 1, 2)) end,
-	getTurns = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 2, 6)) end,
+	getNb = function(self, t) return math.ceil(self:combatTalentLimit(t, 4, .9, 3.1)) end,
+	getTurns = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 3, 6.5)) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
@@ -135,8 +135,8 @@ newTalent{
 		return main and off
 	end,
 	tactical = { BUFF = 2 },
-	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 100, 15, 50) end, -- Limit < 100%
-	getChance = function(self, t) return math.max(0,self:combatTalentLimit(t, 100, 14, 70)) end, -- Limit < 100%
+	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 100, 20, 50) end, -- Limit < 100%
+	getChance = function(self, t) return math.max(0,self:combatTalentLimit(t, 70, 25, 55)) end, -- Limit < 100%
 	freespit = function(self, t, target)
 		if game.party:hasMember(self) then
 			for act, def in pairs(game.party.members) do

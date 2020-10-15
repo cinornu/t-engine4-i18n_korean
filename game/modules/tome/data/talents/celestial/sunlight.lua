@@ -202,7 +202,7 @@ newTalent{
 	end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 250) end,
 	getDuration = function(self, t) return 4 end,
-	getPower = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.7) end,
+	getPower = function(self, t) return self:combatTalentLimit(t, 1, 0.4, 0.7) end,
 	getTargetCount = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5)) end,
 	action = function(self, t)
 		local damInc = (self:combatGetDamageIncrease(DamageType.DARKNESS, true)) * t.getPower(self, t)

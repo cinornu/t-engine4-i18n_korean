@@ -114,7 +114,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	getStamina = function(self, t) return self:combatTalentLimit(t, 6, 1, 4) end,
-	getChance = function(self, t) return self:combatTalentLimit(t, 70, 15, 60) end,
+	getChance = function(self, t) return self:combatTalentLimit(t, 70, 25, 60) end,
 	info = function(self, t)
 		local stamina = t.getStamina(self, t)
 		local chance = t.getChance(self, t)
@@ -172,7 +172,7 @@ newTalent{
 	requires_target = true,
 	radius = function(self,t) return self:combatTalentScale(t, 1, 3) end,
 	getDamage = function(self, t) return 0.2 + getStrikingStyle(self, dam) end,
-	getMult = function(self, t) return self:combatTalentLimit(t, 100, 15, 40) end,
+	getMult = function(self, t) return self:combatTalentLimit(t, 100, 25, 40) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y, target = self:getTarget(tg)

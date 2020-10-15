@@ -105,7 +105,7 @@ newTalent{
 	require = psi_wil_req3,
 	mode = "passive",
 	getSleepPowerBonus = function(self, t) return self:combatTalentLimit(t, 2, 1.1, 1.5) end, -- Limit < 2
-	getInsomniaPower = function(self, t) return self:combatTalentLimit(t, 12, 3, 10) end, -- Limit to <20%
+	getInsomniaPower = function(self, t) return self:combatTalentLimit(t, 12, 4, 10) end, -- Limit to <20%
 	info = function(self, t)
 		local power_bonus = t.getSleepPowerBonus(self, t) - 1
 		local insomnia = t.getInsomniaPower(self, t)
@@ -129,7 +129,7 @@ newTalent{
 	requires_target = true,
 	range = 7,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t), talent=t} end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 24, 6, 14)) end, -- Limit < 24
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 24, 8, 15)) end, -- Limit < 24
 	getPower = function(self, t) return self:combatTalentMindDamage(t, 10, 100) end,
 	on_pre_use = function(self, t, silent) if self:attr("is_psychic_projection") then if not silent then game.logPlayer(self, "You feel it unwise to travel to the dreamscape in such a fragile form.") end return false end return true end,
 	action = function(self, t)

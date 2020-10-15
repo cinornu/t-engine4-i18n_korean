@@ -100,7 +100,7 @@ newTalent{
 	
 		return bonus
 	end,
-	getStunChance = function(self, t) return self:combatTalentLimit(t, 50, 12, 20) end, -- Limit < 50%
+	getStunChance = function(self, t) return self:combatTalentLimit(t, 50, 15, 22) end, -- Limit < 50%
 	preAttack = function(self, t, target)
 		if not canUseGestures(self) then
 			game.logPlayer(self, "You require two free or mindstar-equipped hands to use Gesture of Pain.")
@@ -259,7 +259,7 @@ newTalent{
 	require = cursed_cun_req4,
 	mode = "passive",
 	points = 5,
-	getGuardPercent = function(self, t) return self:combatTalentLimit(t, 80, 20, 45) end,
+	getGuardPercent = function(self, t) return self:combatTalentLimit(t, 80, 25, 45) end,
 	-- Damage reduction handled in _M:attackTargetWith function in mod.class.interface.Combat.lua
 	getDamageChange = function(self, t, fake)
 		local test, dam = canUseGestures(self)
@@ -268,7 +268,7 @@ newTalent{
 	end,
 	getCounterAttackChance = function(self, t, fake)
 		if (not canUseGestures(self) or not self:isTalentActive(self.T_GESTURE_OF_PAIN)) and not fake then return 0 end 
-		return self:combatTalentLimit(t, 50, 4, 8.9) -- Limit < 50%
+		return self:combatTalentLimit(t, 50, 5, 9.5) -- Limit < 50%
 	end,
 	-- Mental effect "GESTURE_OF_GUARDING" handles the deflect count, refreshed in mod.class.Actor.lua _M:actBase
 	getDeflects = function(self, t, fake)

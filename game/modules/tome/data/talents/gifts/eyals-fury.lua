@@ -60,7 +60,7 @@ newTalent{
 	getSave = function(self, t) return self:combatTalentMindDamage(t, 5, 50) end,
 	getResist = function(self, t) return self:combatTalentMindDamage(t, 5, 40) end,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 3, 7)) end,
-	getAffinity = function(self, t) return self:combatTalentLimit(t, 50, 5, 20) end, -- Limit <50%
+	getAffinity = function(self, t) return self:combatTalentLimit(t, 50, 8, 25) end, -- Limit <50%
 	getPower = function(self, t) return self:combatTalentMindDamage(t, 2, 8) end,
 	trigger = function(self, t, target, source_t) -- called in damage_types.lua default projector
 		self:setEffect(self.EFF_NATURE_REPLENISHMENT, t.getDuration(self, t), {power = t.getPower(self, t)})
@@ -98,7 +98,7 @@ newTalent{
 	tactical = { ATTACKAREA = { ACID = 2 },  DISABLE = {blind = 1} },
 	getDuration = function(self, t) return 5 end,
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 10, 120) end,
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 20, 40) end, --Limit < 100%
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 25, 40) end, --Limit < 100%
 	removeEffect = function(self, target) -- remove one random beneficial magical effect or sustain
 	-- Go through all beneficial magical effects
 		local effs = {}
@@ -170,7 +170,7 @@ newTalent{
 	points = 5,
 	equilibrium = 20,
 	cooldown = 20,
-	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 4, 6)) end, --Limit < 10
+	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 4, 8)) end, --Limit < 10
 	tactical = { ATTACKAREA = { NATURE = 2 },  EQUILIBRIUM = 1 },
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 4, 8)) end,
 	getDamage = function(self, t) return self:combatTalentMindDamage(t, 10, 100) end,
