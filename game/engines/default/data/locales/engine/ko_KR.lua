@@ -157,7 +157,7 @@ t("Thalore", "탈로레", nil)
 t("The Way", "한길", nil)
 t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
 The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s 년 %s %s 일 입니다.
-현재 시간은 %02d 시 %02d 분입니다.]], nil)
+현재 시간은 %02d시 %02d분입니다.]], nil)
 t("Undead", "언데드", nil)
 t("Ungrol of Last Hope", "마지막 희망의 웅그롤", nil)
 t("Vargh Republic", "바르그 공화국", nil)
@@ -574,8 +574,8 @@ t("Sell", "판매", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/Trap.lua"
 
-t("%s fails to disarm a trap (%s).", "%s %s 함정을 해제하는데 실패함.", "logSeen")
-t("%s disarms a trap (%s).", "%s %s 함정을 해제하는데 성공함.", "logSeen")
+t("%s fails to disarm a trap (%s).", "%s %s 함정을 해제하는데 실패했다.", "logSeen", nil, {"는"})
+t("%s disarms a trap (%s).", "%s %s 함정을 해제하는데 성공했다.", "logSeen", nil, {"는"})
 t("%s triggers a trap (%s)!", "%s %s 함정이 발동됨!", "logSeen")
 
 
