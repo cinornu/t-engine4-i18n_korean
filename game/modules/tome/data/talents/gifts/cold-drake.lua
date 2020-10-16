@@ -89,7 +89,7 @@ newTalent{
 	on_learn = function(self, t) self.resists[DamageType.COLD] = (self.resists[DamageType.COLD] or 0) + 1 end,
 	on_unlearn = function(self, t) self.resists[DamageType.COLD] = (self.resists[DamageType.COLD] or 0) - 1 end,
 	getArmor = function(self, t) return self:combatTalentMindDamage(t, 5, 25) end,
-	getLifePct = function(self, t) return self:combatTalentLimit(t, 1, 0.02, 0.10) end, -- Limit < 100% bonus
+	getLifePct = function(self, t) return self:combatTalentLimit(t, 1, 0.05, 0.15) end, -- Limit < 100% bonus
 	getDamageOnMeleeHit = function(self, t) return 10 +  self:combatTalentMindDamage(t, 10, 30) end,
 	activate = function(self, t)
 		return {

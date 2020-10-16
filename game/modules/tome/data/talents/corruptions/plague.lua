@@ -265,8 +265,8 @@ newTalent{
 	tactical = { ATTACK = {BLIGHT = 2} },
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t), talent=t} end,
 	requires_target = true,
-	healloss = function(self,t) return self:combatTalentLimit(t, 150, 44, 80) end, -- Limit < 150%
-	disfact = function(self,t) return self:combatTalentLimit(t, 100, 36, 60) end, -- Limit < 100%
+	healloss = function(self,t) return self:combatTalentLimit(t, 150, 50, 75) end, -- Limit < 150%
+	disfact = function(self,t) return self:combatTalentLimit(t, 100, 35, 60) end, -- Limit < 100%
 	-- Desease spreading handled in mod.data.damage_types.lua for BLIGHT
 	spreadFactor = function(self, t) return self:combatTalentLimit(t, 0.05, 0.35, 0.17) end, -- Based on previous formula: 256 damage gave 100% chance (1500 hps assumed)
 	

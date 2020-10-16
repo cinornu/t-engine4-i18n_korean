@@ -1134,7 +1134,7 @@ section "game/dlcs/tome-orcs/data/general/objects/inscriptions.lua"
 
 t("scroll", "두루마리", "entity type")
 t("implant", "이식물", "_t")
-t("Steamtech implants can be grafted on the users skin..", "증기공학 이식물은 사용자의 피부에 이식될 수 있습니다..", "_t")
+t("Steamtech implants can be grafted on the users skin..", "증기공학 이식물은 피부에 이식할 수 있습니다..", "_t")
 t("implant on your skin.", "피부에 이식합니다.", "_t")
 t("steam generator implant", "증기 생성 이식물", "entity name")
 t("medical injector implant", "의료용 주사기 이식물", "entity name")

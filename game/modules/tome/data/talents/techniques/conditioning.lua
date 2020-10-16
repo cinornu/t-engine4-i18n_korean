@@ -27,7 +27,7 @@ newTalent{
 	getHealValues = function(self, t)
 		return self:combatTalentStatDamage(t, "con", 1, 200)
 	end,
-	getWoundReduction = function(self, t) return self:combatTalentLimit(t, 0.6, 0.17, 0.5) end, -- Limit <60%%
+	getWoundReduction = function(self, t) return self:combatTalentLimit(t, 0.6, 0.225, 0.5) end, -- Limit <60%%
 	getDuration = function(self, t) return 8 end,
 	do_vitality_recovery = function(self, t)
 		if self:isTalentCoolingDown(t) then return end
@@ -53,7 +53,7 @@ newTalent{
 	require = techs_con_req2,
 	mode = "passive",
 	points = 5,
-	getChance = function(self, t) return self:combatStatLimit("con", 1, .28, .745)*self:combatTalentLimit(t,100, 28,74.8) end, -- Limit < 100%
+	getChance = function(self, t) return self:combatStatLimit("con", 1, .28, .745)*self:combatTalentLimit(t, 100, 45, 80) end, -- Limit < 100%
 	callbackOnActBase = function(self, t)
 		local effs = {}
 		-- Go through all spell effects
@@ -152,7 +152,7 @@ newTalent{
 		if self.stamina/self.max_stamina < 0.5 or tgt and core.fov.distance(self.x, self.y, tgt.x, tgt.y) < 10 and self:hasLOS(tgt.x, tgt.y) then return true end
 	end,
 	getAttackPower = function(self, t) return self:combatTalentStatDamage(t, "con", 5, 45) end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 7)) end, -- Limit < 24
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 4, 7)) end, -- Limit < 24
 	no_energy = true,
 	action = function(self, t)
 		self:setEffect(self.EFF_ADRENALINE_SURGE, t.getDuration(self, t), {power = t.getAttackPower(self, t)})

@@ -210,7 +210,7 @@ newTalent{
 		local ammo = self:hasAlchemistWeapon()
 
 		--	Heal fraction of max life for higher levels
-		local healbase = 44+self.alchemy_golem.max_life*self:combatTalentLimit(self:getTalentLevel(self.T_GOLEM_POWER),0.2, 0.008, 0.033) -- Add up to 20% of max life to heal
+		local healbase = 44+self.alchemy_golem.max_life*self:combatTalentLimit(self:getTalentLevel(self.T_GOLEM_POWER),0.2, 0.01, 0.05) -- Add up to 20% of max life to heal
 		return healbase + self:combatTalentSpellDamage(self.T_GOLEM_POWER, 15, 550, ((ammo and ammo.alchemist_power or 0) + self:combatSpellpower()) / 2) --I5
 	end,
 	on_learn = function(self, t)
@@ -394,7 +394,7 @@ newTalent{
 	mode = "passive",
 	require = spells_req2,
 	points = 5,
-	getHealingFactor = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.5) end,
+	getHealingFactor = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.5) end,
 	cant_steal = true,
 	on_learn = function(self, t)
 		if not self.alchemy_golem then return end -- Safety net
@@ -474,7 +474,7 @@ newTalent{
 	points = 5,
 	mana = 40,
 	cant_steal = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 14, 10, true)) end, -- Limit to > 0
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 14, 8)) end, -- Limit to > 0
 	action = function(self, t)
 		local mover, golem = getGolem(self)
 		if not golem then

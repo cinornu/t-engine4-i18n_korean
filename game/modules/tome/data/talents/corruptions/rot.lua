@@ -147,10 +147,10 @@ newTalent{
 	getDamage = function(self, t)
 		return self:combatTalentSpellDamage(t, 10, 70)
 	end,
-	getResist = function(self, t) return self:combatTalentLimit(t, 30, 5, 25) end,
-	getAffinity = function(self, t) return self:combatTalentLimit(t, 25, 4, 20) end,
+	getResist = function(self, t) return self:combatTalentScale(t, 10, 25) end,
+	getAffinity = function(self, t) return self:combatTalentScale(t, 7, 20) end,
 	getDamageReduction = function(self, t) 
-		return self:combatTalentLimit(t, 0.5, 0.1, 0.22)
+		return self:combatTalentLimit(t, 0.5, 0.15, 0.3)
 	end,
 	tactical = {BUFF = 3},
 	activate = function(self, t)
@@ -235,7 +235,7 @@ newTalent{
 	range = 7,
 	getHeal = function(self, t) return math.floor(self:combatTalentSpellDamage(t, 20, 400)) end,
 	getVim = function(self, t) return 8 + math.floor(self:combatTalentScale(t, 5, 35)) end,
-	getDam = function(self, t) return self:combatTalentLimit(t, 1, 20, 5) end,
+	getDam = function(self, t) return self:combatTalentLimit(t, 1, 18, 5) end,
 	tactical = {HEAL = 0.5},  -- Only use the healing functionality of this since in practice thats almost always optimal, but use it rarely so we don't waste time hopping around a lot as a melee
 	target = function(self, t) -- no change to default_target because worms will usually be in melee with an enemy
 		return {type="hit", nolock=true, range=self:getTalentRange(t)}

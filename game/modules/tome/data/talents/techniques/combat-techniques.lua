@@ -29,7 +29,7 @@ newTalent{
 	random_ego = "attack",
 	stamina = function(self, t) return not self:attr("swap_combat_techniques_hate") and (self:knowTalent(self.T_STEAMROLLER) and 2 or 22) end,
 	hate = function(self, t) return self:attr("swap_combat_techniques_hate") and (self:knowTalent(self.T_STEAMROLLER) and 1 or 6) end,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 36, 20)) end, --Limit to >0
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 35, 15)) end, --Limit to >0
 	tactical = { ATTACK = { weapon = 1, stun = 1 }, CLOSEIN = 3 },
 	requires_target = true,
 	is_melee = true,
@@ -135,7 +135,7 @@ newTalent{
 	require = techs_strdex_req3,
 	no_energy = true,
 	tactical = { BUFF = 2 },
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 7, 2, 5)) end, -- Limit < 25
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 8, 3.5, 6.5)) end, -- Limit < 8
 	getAtk = function(self, t) return self:combatTalentScale(t, 40, 100, 0.75) end,
 	action = function(self, t)
 		self:setEffect(self.EFF_ATTACK, t.getDuration(self, t), {power = t.getAtk(self, t)})

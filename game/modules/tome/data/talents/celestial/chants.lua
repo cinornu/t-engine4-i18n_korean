@@ -35,7 +35,7 @@ newTalent{
 	tactical = { DEFEND = 2 },
 	range = 0,
 	getResists = function(self, t) return self:combatTalentSpellDamage(t, 5, 60) end,
-	getLifePct = function(self, t) return self:combatTalentLimit(t, 1, 0.10, 0.20) end,
+	getLifePct = function(self, t) return self:combatTalentLimit(t, 1, 0.125, 0.25) end,
 	sustain_slots = 'celestial_chant',
 	activate = function(self, t)
 		local power = t.getResists(self, t)
@@ -158,7 +158,7 @@ newTalent{
 	range = 0,
 	getResists = function(self, t) return self:combatTalentSpellDamage(t, 10, 30) end,
 	getDamageChange = function(self, t)
-		return -self:combatTalentLimit(t, 50, 14, 30) -- Limit < 50% damage reduction
+		return -self:combatTalentLimit(t, 50, 15, 33) -- Limit < 50% damage reduction
 	end,
 	getSpellResists = function(self, t) return self:combatTalentSpellDamage(t, 5, 60) end,
 	sustain_slots = 'celestial_chant',

@@ -70,7 +70,7 @@ newTalent{
 	on_pre_use = function(self, t, silent) if not self:hasTwoHandedWeapon() then if not silent then game.logPlayer(self, "You require a two handed weapon to use this talent.") end return false end return true end,
 	getDam = function(self, t) return self:combatScale(self:getStr(7, true) * self:getTalentLevel(t), 5, 0, 40, 35)end,
 	getAtk = function(self, t) return self:combatScale(self:getDex(7, true) * self:getTalentLevel(t), 5, 0, 40, 35) end ,
-	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.17, 0.5) end,
+	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.22, 0.55) end,
 	hasFoes = function(self)
 		for i = 1, #self.fov.actors_dist do
 			local act = self.fov.actors_dist[i]
@@ -217,7 +217,7 @@ newTalent{
 	tactical = { CLOSEIN = 2, STAMINA = 2, BUFF = 2 },
 	getDur = function(self, t) return math.floor(self:combatTalentLimit(t, 19, 4, 8)) end,
 	getStamina = function(self, t) return self:combatStatScale("con", 4, 25) end,
-	getSpeed = function(self, t) return self:combatTalentLimit(t, 70, 10, 30) end,
+	getSpeed = function(self, t) return self:combatTalentLimit(t, 70, 15, 35) end,
 	on_pre_use = function(self, t, silent)
 	if not self:hasTwoHandedWeapon() and self:getStamina() > self:getMaxStamina() * 0.3 then if not silent then
 		game.logPlayer(self, "You require a two handed weapon and less stamina to use this talent.") end return false end

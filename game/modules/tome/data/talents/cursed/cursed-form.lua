@@ -32,7 +32,7 @@ newTalent{
 		return combatTalentDamage(self, t, 15, 50)
 	end,
 	getMaxUnnaturalBodyHeal = function(self, t) -- Add up to 50% max life to pool
-		return t.getHealPerKill(self, t) * 2 + self:combatTalentLimit(t, .5, 0.01, 0.03) * self.max_life
+		return t.getHealPerKill(self, t) * 2 + self:combatTalentLimit(t, .5, 0.03, 0.055) * self.max_life
 	end,
 	getRegenRate = function(self, t) return 3 + combatTalentDamage(self, t, 15, 25) end,
 	updateHealingFactor = function(self, t)
@@ -81,7 +81,7 @@ newTalent{
 	mode = "passive",
 	require = cursed_wil_req2,
 	points = 5,
-	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.5) end, -- Limit < 100%
+	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.22, 0.5) end, -- Limit < 100%
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "fear_immune", t.getImmune(self, t))
 		self:talentTemporaryValue(p, "confusion_immune", t.getImmune(self, t))
@@ -100,7 +100,7 @@ newTalent{
 	require = cursed_wil_req3,
 	points = 5,
 	getIncDamageChange = function(self, t, increase)
-		return self:combatTalentLimit(t, 60, 2, 2*2.24) * increase --I5 Limit < 60%
+		return self:combatTalentLimit(t, 60, 5, 10) * increase --I5 Limit < 60%
 	end,
 	info = function(self, t)
 		local incDamageChangeMax = t.getIncDamageChange(self, t, 5)

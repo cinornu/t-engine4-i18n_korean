@@ -4151,6 +4151,9 @@ newEffect{
 	callbackOnActBase = function(self, t)
 		self:incPositive(-1 * self:getPositive())
 	end,
+	callbackOnTalentPost = function(self, t)
+		self:incPositive(-1 * self:getPositive())
+	end,
 	activate = function(self, eff) end,
 	deactivate = function(self, eff) end,
 }

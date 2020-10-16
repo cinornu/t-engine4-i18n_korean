@@ -86,7 +86,7 @@ newTalent{
 	cooldown = 10,
 	tactical = { BUFF = 2 },
 	getArmor = function(self, t) return self:combatTalentSpellDamage(t, 10, 23) end,
-	getCDChance = function(self, t) return self:combatTalentLimit(t, 100, 30, 90) end,
+	getCDChance = function(self, t) return self:combatTalentLimit(t, 100, 40, 85) end,
 	callbackOnMeleeHit = function(self, t, src, dam)
 		if self == src then return end  -- This matters, Stone Wall gives you a lot of time to whack yourself
 		if not rng.percent(t.getCDChance(self, t)) then return end

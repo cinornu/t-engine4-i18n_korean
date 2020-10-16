@@ -40,7 +40,7 @@ newTalent{
 		return { self.EFF_CURSE_OF_CORPSES, self.EFF_CURSE_OF_MADNESS, self.EFF_CURSE_OF_MISFORTUNE, self.EFF_CURSE_OF_NIGHTMARES, self.EFF_CURSE_OF_SHROUDS }
 	end,
 	cursePenalty = function(self, t)
-		return self:combatTalentLimit(math.max(1, self:getTalentLevel(t)-4), 0, 1, 0.64)
+		return self:combatTalentLimit(math.max(1, self:getTalentLevel(t)-4), 0, 0.95, 0.55)
 	end,
 	-- tests whether or not an item can be cursed (takes into account current talent level unless ignoreLevel = true)
 	canCurseItem = function(self, t, item, level)
@@ -439,7 +439,7 @@ newTalent{
 			autolevel = o.combat.wil_attack and "summoner" or "warrior",
 			ai = "summoned", ai_real = "tactical", ai_state = { talent_in=1, },
 
-			max_life = 50 + self.max_life*self:combatTalentLimit(t, 1, 0.04, 0.17),  -- Add % of summoner's life < 100%
+			max_life = 50 + self.max_life*self:combatTalentLimit(t, 1, 0.08, 0.22),  -- Add % of summoner's life < 100%
 			life_rating = 3,
 			stats = o.combat.wil_attack and {wil= 20, cun = 20, mag=10, con=10} or {str=20, dex=20, mag=10, con=10},
 			combat = { dam=1, atk=1, apr=1 },
@@ -452,7 +452,7 @@ newTalent{
 			combat_physspeed = t.getAttackSpeed(self, t),
 			infravision = 10,
 
-			resists = { all = self:combatTalentLimit(t, 100, 71, 75), },
+			resists = { all = self:combatTalentLimit(t, 100, 50, 75), },
 			cut_immune = 1,
 			blind_immune = 1,
 			fear_immune = 1,

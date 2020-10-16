@@ -45,9 +45,9 @@ newTalent{
 	tactical = { CLOSEIN = 3 },
 	direct_hit = true,
 	fixed_cooldown = true,
-	cooldown = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 25, 15)) end,
+	cooldown = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 20, 10, false, 1.1)) end,
 	range = function(self, t) return math.floor(self:combatTalentScale(t, 5, 10, 0.5, 0, 1)) end,
-	getSpeed = function(self, t) return math.floor(self:combatTalentLimit(t, 40, 20, 30)) end,
+	getSpeed = function(self, t) return math.floor(self:combatTalentLimit(t, 40, 20, 30, false, 1.1)) end,
 	requires_target = true,
 	action = function(self, t)
 		local tg = {type="hit", range=self:getTalentRange(t), nolock=true}
@@ -106,7 +106,7 @@ newTalent{
 	target = function(self, t) return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), selffire = not self:attr("undead")} end,  --selffire is set only for the ai, the map effect doesn't use it
 	requires_target = true,
 	getduration = function(self, t) return 10 end,
-	getPurgeChance = function(self, t) return self:combatTalentLimit(t, 100, 5, 25) end, -- Limit < 100%
+	getPurgeChance = function(self, t) return self:combatTalentLimit(t, 100, 10, 33, false, 1.1) end, -- Limit < 100%
 	-- status effect removal handled in mod.data.damage_types (type = "RETCH")
 	action = function(self, t)
 		local duration = t.getduration(self, t)
@@ -149,8 +149,8 @@ newTalent{
 	is_melee = true,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	getDamage = function(self, t) return self:combatTalentScale(t, 1, 1.6) end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 6)) end,
-	getGhoulDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 6)) end,
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 7, false, 1.1)) end,
+	getGhoulDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 7, false, 1.1)) end,
 	getDiseaseDamage = function(self, t) return self:combatTalentStatDamage(t, "con", 10, 70) end,
 	spawn_ghoul = function (self, target, t)
 		local x, y = util.findFreeGrid(target.x, target.y, 10, true, {[Map.ACTOR]=true})

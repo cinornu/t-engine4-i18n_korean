@@ -28,9 +28,9 @@ newTalent{
 	require = divi_req_high1,
 	points = 5,
 	radius = function(self, t) return self:combatTalentLimit(t, 14, 4, 10) end,
-	getResist = function(self, t) return self:combatTalentLimit(t, 100, 25, 75) end,
+	getResist = function(self, t) return self:combatTalentLimit(t, 100, 25, 67) end,
 	getLightResist = function(self, t) return self:combatTalentScale(t, 15, 35) end,
-	getAffinity = function(self, t) return self:combatTalentLimit(t, 50, 15, 30) end,
+	getAffinity = function(self, t) return self:combatTalentLimit(t, 50, 15, 33) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "radiance_aura", radianceRadius(self))
 		self:talentTemporaryValue(p, "blind_immune", t.getResist(self, t) / 100)
@@ -113,7 +113,7 @@ newTalent{
 	tactical = { ATTACKAREA = {LIGHT=1} },
 	sustain_positive = 10,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 3, 35) end,
-	getDaze = function(self, t) return self:combatTalentLimit(t, 35, 5, 25) end,
+	getDaze = function(self, t) return self:combatTalentLimit(t, 35, 8, 25) end,
 	updateParticle = function(self, t)
 		local p = self:isTalentActive(self.T_SEARING_SIGHT)
 		if not p then return end

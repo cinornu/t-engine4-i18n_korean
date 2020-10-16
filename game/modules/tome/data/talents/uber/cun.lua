@@ -479,6 +479,7 @@ uberTalent{
 	end,
 }
 
+
 uberTalent{
 	name = "Tricks of the Trade",
 	mode = "passive",

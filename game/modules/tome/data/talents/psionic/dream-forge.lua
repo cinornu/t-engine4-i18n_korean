@@ -230,7 +230,7 @@ newTalent{
 	getDamage = function(self, t) return math.ceil(self:combatTalentMindDamage(t, 5, 30)) end,
 	getPower = function(self, t) return math.floor(self:combatTalentMindDamage(t, 5, 25)) end,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 1.5, 3.5)) end,
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 5, 25) end, --Limit < 100%
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 8, 30) end, --Limit < 100%
 	getFailChance = function(self, t) return self:combatLimit(self:combatTalentMindDamage(t, 5, 25), 67, 0, 0, 16.34, 16.34) end, -- Limit to <67%
 	
 	callbackOnActBase = function(self, t, p)

@@ -130,8 +130,8 @@ newTalent{
 	rnd_boss_restrict = function(self, t, data) return true end, -- martyrdom is fine on fixedbosses specifically given the talents but let's avoid it on randbosses
 	tactical = { BUFF = 2 },
 	range = 10,
-	getMartyrDamage = function(self, t) return self:combatTalentLimit(t, 50, 5, 25) end, --Limit < 50%
-	getLifeDamage = function(self, t) return self:combatTalentLimit(t, 1.0, 0.1, 0.8) end, -- Limit < 100%
+	getMartyrDamage = function(self, t) return self:combatTalentLimit(t, 50, 10, 25) end, --Limit < 50%
+	getLifeDamage = function(self, t) return self:combatTalentScale(t, 0.55, 0.95) end, -- Limit < 100%
 	getMaxDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 400) end,
 	getDamage = function(self, t)
 		local damage = (self:attr("weapon_of_wrath_life") or t.getLifeDamage(self, t)) * (self.max_life - math.max(0, self.life)) -- avoid problems with die_at
@@ -183,7 +183,7 @@ newTalent{
 	sustain_positive = 20,
 	cooldown = 30,
 	tactical = { DEFEND = 2 },
-	getLife = function(self, t) return self.max_life * self:combatTalentLimit(t, 1.5, 0.09, 0.4) end, -- Limit < 150% max life (to survive a large string of hits between turns)
+	getLife = function(self, t) return self.max_life * self:combatTalentLimit(t, 1.5, 0.2, 0.5) end, -- Limit < 150% max life (to survive a large string of hits between turns)
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/heal")
 		local ret = {}

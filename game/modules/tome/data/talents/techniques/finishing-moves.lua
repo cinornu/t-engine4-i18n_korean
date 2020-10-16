@@ -136,7 +136,7 @@ newTalent{
 	points = 5,
 	random_ego = "attack",
 	cooldown = function(self, t)
-		return math.ceil(self:combatTalentLimit(t, 0, 30, 10)) -- Limit > 0
+		return math.ceil(self:combatTalentLimit(t, 0, 25, 10)) -- Limit > 0
 	end,
 	stamina = 20,
 	tactical = { ATTACKAREA = { weapon = 2 }, CLOSEIN = 1 },

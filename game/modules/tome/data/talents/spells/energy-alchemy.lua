@@ -53,7 +53,7 @@ newTalent{
 	require = spells_req_high2,
 	mode = "passive",
 	points = 5,
-	getChance = function(self, t) return math.floor(self:combatTalentLimit(t, 100, 20, 75)) end,
+	getChance = function(self, t) return math.floor(self:combatTalentLimit(t, 100, 35, 75)) end,
 	getNb = function(self, t) return self:getTalentLevel(t) <= 6 and 1 or 2 end,
 	applyEffect = function(self, t, golem)
 		local tids = table.keys(golem.talents_cd)
@@ -144,7 +144,7 @@ newTalent{
 	cooldown = 40,
 	sustain_mana = 100,
 	points = 5,
-	range = function(self, t) return math.ceil(self:combatTalentLimit(t, 6, 1, 3)) end,
+	range = function(self, t) return math.ceil(self:combatTalentLimit(t, 6, 2.2, 5)) end,
 	tactical = { SELF = {DEFEND = 1, BUFF = 1}, ESCAPE = 0.5, CLOSEIN = 0.5, ATTACKAREA = {LIGHTNING = 0.5}},
 	getSpeed = function(self, t) return self:combatTalentScale(t, 0.05, 0.15, 0.90) end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 70) end,

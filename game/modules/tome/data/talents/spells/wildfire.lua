@@ -150,7 +150,7 @@ newTalent{
 	cooldown = 30,
 	tactical = { BUFF = 2 },
 	getFireDamageIncrease = function(self, t) return self:combatTalentScale(t, 2.5, 10) end,
-	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 60, 17, 50) end, --Limit < 60%
+	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 60, 20, 50) end, --Limit < 60%
 	getResistSelf = function(self, t) return math.min(100, self:getTalentLevel(t) * 14) end,
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/fire")

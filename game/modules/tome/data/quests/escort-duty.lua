@@ -67,7 +67,7 @@ desc = function(self, who)
 		if self.abandoned then
 			desc[#desc+1] = ("You abandoned %s, to death."):tformat(_t(self.kind.name))
 		else
-			desc[#desc+1] = ("You failed to protect the %s from death by %s."):tformat(_t(self.kind.name), _t(self.killing_npc) or "???")
+			desc[#desc+1] = ("You failed to protect the %s from death by %s."):tformat(_t(self.kind.name), _t(self.killing_npc) or _t"???")
 		end
 	else
 		desc[#desc+1] = ("Escort the %s to the recall portal on level %s."):tformat(_t(self.kind.name), self.level_name)

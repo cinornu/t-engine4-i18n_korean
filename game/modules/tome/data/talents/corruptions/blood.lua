@@ -53,7 +53,7 @@ newTalent{
 	target = function(self, t)
 		return {type="cone", range=self:getTalentRange(t), radius=self:getTalentRadius(t), talent=t}
 	end,
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 30, 70) end, -- Limit < 100%
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 40, 70) end, -- Limit < 100%
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTarget(tg)
@@ -127,7 +127,7 @@ newTalent{
 	range = 0,
 	radius = function(self, t) return 10 end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 250) end,
-	getSlow = function(self, t) return self:combatTalentLimit(t, 100, 20, 70) end,
+	getSlow = function(self, t) return self:combatTalentLimit(t, 100, 35, 70) end,
 	getHeal = function(self, t) return self:combatTalentSpellDamage(t, 10, 90) end,
 	requires_target = true,
 	target = function(self, t)

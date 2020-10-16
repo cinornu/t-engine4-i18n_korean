@@ -64,7 +64,7 @@ newTalent {
 		end
 	end,
 	speed = function(self, t) return self:getSpeed('archery') * 0.5 end,
-	getAttackSpeed = function(self,t) return self:combatTalentLimit(t, 40, 10, 25) end,
+	getAttackSpeed = function(self,t) return self:combatTalentLimit(t, 40, 15, 30) end,
 	display_speed = function(self, t)
 		return ("Double Archery (#LIGHT_GREEN#%d%%#LAST# of a turn)"):
 			tformat(self:getSpeed('archery') * 50)

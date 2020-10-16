@@ -117,7 +117,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 180) end,
-	getSilence = function(self, t) return math.ceil(self:combatTalentLimit(t, 12, 3, 8)) end,
+	getSilence = function(self, t) return math.ceil(self:combatTalentLimit(t, 12, 4, 8.5)) end,
 	info = function(self, t)
 		local dam = t.getDamage(self, t)
 		return ([[Imbues your stone spikes with arcane forces, dealing %0.1f Arcane damage and silencing each target hit for %d turns.
@@ -133,7 +133,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 10, 200) end,
-	getDisarm = function(self, t) return math.ceil(self:combatTalentLimit(t, 12, 3, 8)) end,
+	getDisarm = function(self, t) return math.ceil(self:combatTalentLimit(t, 12, 4, 8.5)) end,
 	info = function(self, t)
 		return ([[Your stone spikes grow in length, instantly dealing %0.1f Physical damage and disarming targets hit for %d turns.
 		The damage increases with Spellpower and the chance to disarm increases with either Spellpower or Physical Power, whichever is greater.]]):

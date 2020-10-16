@@ -25,8 +25,21 @@ newTalent{
 	points = 5, 
 	require = psi_wil_req1,
 	mode = "passive",
-	getPsychometryCap = function(self, t) return self:getTalentLevelRaw(t)/2 end,
-	getMaterialMult = function(self,t) return math.max(.5,self:combatTalentLimit(t, 5, 0.15, 0.5)) end, -- Limit to <5 x material level
+	getPsychometryCap = function(self, t) return self:getTalentLevel(t)*1.1539 end, -- 1.5 per tier at 1.3 mastery
+	getMaterialMult = function(self,t) return 2 end,
+	getPsychometryCount = function(self, t)
+		local psychometry_count = 0
+		for inven_id, inven in pairs(self.inven) do
+			if inven.worn then
+				for item, o in ipairs(inven) do
+					if o and item and o.power_source and (o.power_source.psionic or o.power_source.nature or o.power_source.antimagic) then
+						psychometry_count = psychometry_count + math.min((o.material_level or 1) * t.getMaterialMult(self,t), t.getPsychometryCap(self, t))
+					end
+				end
+			end
+		end	
+		return psychometry_count
+	end,
 	updatePsychometryCount = function(self, t)
 		-- Update psychometry power
 		local psychometry_count = 0
@@ -53,8 +66,9 @@ newTalent{
 	end,
 	info = function(self, t)
 		local max = t.getPsychometryCap(self, t)
-		return ([[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.2f or %d%% of the object's material level (whichever is lower).
-		This effect stacks and applies for each qualifying object worn.]]):tformat(max, 100*t.getMaterialMult(self,t))
+		return ([[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.1f or %d%% of the object's material level (whichever is lower).
+		This effect stacks and applies for each qualifying object worn.
+		Current bonus: %d]]):tformat(max, 100*t.getMaterialMult(self,t), t.getPsychometryCount(self,t))
 	end,
 }
 
@@ -221,7 +235,7 @@ newTalent{
 	sustain_psi = 50,
 	mode = "sustained",
 	no_sustain_autoreset = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 44, 12)) end, -- Limit >0
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 1, 30, 10)) end, -- Limit >1
 	tactical = { BUFF = 2, ATTACK = {MIND = 2}},
 	range = 7,
 	direct_hit = true,

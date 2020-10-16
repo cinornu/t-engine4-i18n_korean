@@ -32,9 +32,9 @@ newTalent{
 	end,
 	getValues = function(self, t)
 		return
-			self:combatTalentLimit(t, 1, 0.07, 0.15),
+			self:combatTalentLimit(t, 1, 0.08, 0.165),
 			self:combatTalentScale(t, 6, 10),
-			self:combatTalentLimit(t, 0.5, 0.067, 0.185),
+			self:combatTalentLimit(t, 0.5, 0.075, 0.2),
 			self:combatTalentScale(t, 5, 9, "log")
 	end,
 	getDamage = function(self, t) return 30 end,

@@ -65,7 +65,7 @@ newTalent{
 	mode = "passive",
 	getSight = function(self, t) return math.floor(self:combatTalentScale(t, 1, 5, "log")) end,
 	getESight = function(self, t) return math.ceil(self:combatTalentScale(t, 0.3, 2.3, "log", 0, 2)) end,
-	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.1, 0.4) end,
+	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.5, false, 1.0) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "blind_immune", t.getImmune(self, t))
 		self:talentTemporaryValue(p, "sight", t.getSight(self, t))
@@ -92,7 +92,7 @@ newTalent{
 	require = racial_req3,
 	points = 5,
 	mode = "passive",
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 19, 5)) end, -- Limit > 0
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 0, 15, 5, false, 1.0)) end, -- Limit > 0
 	getSave = function(self, t) return self:combatTalentScale(t, 5, 35, 0.75) end,
 	power = function(self, t) return self:combatTalentScale(t, 7, 25) end,
 	trigger = function(self, t, damtype)
@@ -118,7 +118,7 @@ newTalent{
 	require = racial_req4,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 20, 47, 35)) end, -- Limit >20
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 20, 45, 30, false, 1.0)) end, -- Limit >20
 	on_pre_use_ai = function(self, t)
 		local aitarget = self.ai_target.actor
 		if not aitarget then return end -- don't activate without a target
@@ -145,7 +145,7 @@ newTalent{
 		t.tactical = tacs
 		return tacs
 	end,
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 2, 6.1)) end,  --  Limit to < 10
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 7.1, false, 1.0)) end,  --  Limit to < 10
 	action = function(self, t)
 		self:setEffect(self.EFF_HIGHBORN_S_BLOOM, t.getDuration(self, t), {})
 		return true
@@ -169,7 +169,7 @@ newTalent{
 	require = racial_req1,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 46, 30)) end,  -- Limit to >10 turns
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 45, 25, false, 1.0)) end,  -- Limit to >10 turns
 	getSpeed = function(self, t) return self:combatStatScale(math.max(self:getDex(), self:getMag()), 0.1, 0.476) end,
 	tactical = { DEFEND = 1 },
 	action = function(self, t)
@@ -207,8 +207,8 @@ newTalent{
 	type = {"race/shalore", 3},
 	require = racial_req3,
 	points = 5,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 47, 25)) end, -- Limit > 5
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 21, 45) end, -- Limit < 100%
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 45, 25, false, 1.0)) end, -- Limit > 5
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 20, 45, false, 1.0) end, -- Limit < 100%
 	getInvis = function(self, t) return math.ceil(self:combatStatScale("mag" , 7, 25)) end,
 	mode = "sustained",
 	no_energy = true,
@@ -314,10 +314,10 @@ newTalent{
 	require = racial_req1,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 45, 25)) end, -- Limit >10
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 45, 25, false, 1.0)) end, -- Limit >10
 	tactical = { HEAL = 2 },
 	on_pre_use = function(self, t) return not self:hasEffect(self.EFF_REGENERATION) end,
-	getHealMod = function(self, t) return self:combatTalentLimit(t, 50, 10, 30) end,
+	getHealMod = function(self, t) return self:combatTalentLimit(t, 50, 15, 30, false, 1.0) end,
 	getHealing = function(self, t) return 6 + math.max(self:getWil(), self:getCon()) * 0.6 end,
 	action = function(self, t)
 		self:setEffect(self.EFF_REGENERATION, 8, {power=t.getHealing(self,  t)})
@@ -357,7 +357,7 @@ newTalent{
 	require = racial_req3,
 	points = 5,
 	mode = "passive",
-	getDiseaseImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.75) end, -- Limit < 100%
+	getDiseaseImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.25, 0.7, false, 1.0) end, -- Limit < 100%
 	getBResist = function(self, t) return self:combatTalentScale(t, 3, 10) end,
 	getAllResist = function(self, t) return self:combatTalentScale(t, 2, 6.5) end,
 	passives = function(self, t, p)
@@ -378,7 +378,7 @@ newTalent{
 	require = racial_req4,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 8, 46, 34)) end, -- limit >8
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 8, 45, 25, false, 1.0)) end, -- limit >8
 	tactical = { ATTACK = { PHYSICAL = 2 }, DISABLE = { stun = 1, knockback = 1 } },
 	range = 4,
 	action = function(self, t)
@@ -466,11 +466,11 @@ newTalent{
 	require = racial_req1,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 8, 45, 25)) end, -- Limit >8
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 8, 45, 25, false, 1.0)) end, -- Limit >8
 	getParams = function(self, t)
 		return {
 			armor = self:combatStatScale("con", 7, 25),
-			armor_hardiness = self:combatTalentLimit(t, 40, 20, 35),
+			armor_hardiness = self:combatTalentLimit(t, 40, 20, 35, false, 1.0),
 			physical = self:combatStatScale("con", 12, 30, 0.75),
 			spell = self:combatStatScale("con", 12, 30, 0.75),
 		}
@@ -513,7 +513,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	getMaxSaves = function(self, t) return self:combatTalentScale(t, 8, 50) end,
-	getGold = function(self, t) return self:combatTalentLimit(t, 40, 85, 65) end, -- Limit > 40
+	getGold = function(self, t) return self:combatTalentLimit(t, 40, 85, 60, false, 1.0) end, -- Limit > 40
 	-- called by _M:combatPhysicalResist, _M:combatSpellResist, _M:combatMentalResist in mod.class.interface.Combat.lua
 	getSaves = function(self, t)
 		return util.bound(self.money / t.getGold(self, t), 0, t.getMaxSaves(self, t))
@@ -531,7 +531,7 @@ newTalent{
 	type = {"race/dwarf", 4},
 	require = racial_req4,
 	points = 5,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 45, 25)) end, -- Limit >5
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 45, 25, false, 1.0)) end, -- Limit >5
 	range = 1,
 	no_npc_use = true,
 	getRange = function(self, t)
@@ -575,7 +575,7 @@ newTalent{
 	require = racial_req1,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 45, 25)) end, -- Limit >5
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 45, 25, false, 1.0)) end, -- Limit >5
 	getParams = function(self, t)
 		return {
 			crit = self:combatStatScale("cun", 15, 60, 0.75),
@@ -638,7 +638,7 @@ newTalent{
 	require = racial_req4,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 45, 25)) end, -- limit >10
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 45, 25, false, 1.0)) end, -- limit >10
 	tactical = { DEFEND = function(self, t, aitarget)
 			local count, t = 0
 			for tid, _ in pairs(aitarget.talents) do
@@ -704,7 +704,7 @@ newTalent{
 	require = racial_req1,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 46, 30)) end, -- Limit to >5 turns
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 45, 25, false, 1.0)) end, -- Limit to >5 turns
 	getPower = function(self, t) return self:combatStatScale("con", 1, 6 ) end,
 	enemyCount = function(self, t) -- Count actors in LOS and seen
 		local nb = 0
@@ -775,7 +775,7 @@ newTalent{
 	require = racial_req3,
 	points = 5,
 	mode = "passive",
-	getPen = function(self, t) return self:combatTalentLimit(t, 20, 7, 15) end,
+	getPen = function(self, t) return self:combatTalentLimit(t, 20, 7, 15, false, 1.0) end,
 	getResist = function(self, t) return 5+self:combatTalentStatDamage(t, "con", 3, 10) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "resists_pen", {all = t.getPen(self, t)})
@@ -799,7 +799,7 @@ newTalent{
 	require = racial_req4,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 46, 30)) end, -- Limit to >10
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 45, 25, false, 1.0)) end, -- Limit to >10
 	remcount  = function(self,t) return math.ceil(self:combatTalentScale(t, 0.5, 3, "log", 0, 3)) end,
 	heal = function(self, t) return 50+self:combatTalentStatDamage(t, "wil", 100, 500) end,
 	tactical = { HEAL = 1, CURE = function(self, t, target)
@@ -864,7 +864,7 @@ newTalent{
 	require = racial_req1,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 47, 35)) end, -- Limit >10
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 45, 25, false, 1.0)) end, -- Limit >10
 	getduration = function(self) return math.floor(self:combatStatScale("wil", 5, 14)) end,
 	range = 4,
 	no_npc_use = true,
@@ -917,7 +917,7 @@ newTalent{
 	require = racial_req2,
 	points = 5,
 	mode = "passive",
-	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.17, 0.6) end, -- Limit < 100%
+	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.2, 0.55, false, 1.0) end, -- Limit < 100%
 	getSave = function(self, t) return self:combatTalentScale(t, 5, 20, 0.75) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "confusion_immune", t.getImmune(self, t))
@@ -938,7 +938,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	speedup = function(self, t) return self:combatTalentScale(t, 0.04, 0.15, 0.75) end,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 20, 50, 30)) end,
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 20, 45, 25, false, 1.0)) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "global_speed_base", t.speedup(self, t))
 		self:recomputeGlobalSpeed()
@@ -964,7 +964,7 @@ newTalent{
 	require = racial_req4,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 6, 47, 35)) end, -- Limit >6
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 6, 45, 25, false, 1.0)) end, -- Limit >6
 	range = 4,
 	no_npc_use = true, -- make available to NPCs?
 	action = function(self, t)
@@ -1077,7 +1077,7 @@ newTalent{
 	require = racial_req1,
 	points = 5,
 	no_energy = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 47, 35)) end, -- Limit >10
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 45, 25, false, 1.0)) end, -- Limit >10
 	getduration = function(self) return math.floor(self:combatStatScale("str", 5, 12)) end,
 	range = 4,
 	no_npc_use = true,
@@ -1131,7 +1131,7 @@ newTalent{
 	require = racial_req3,
 	points = 5,
 	mode = "passive",
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 20, 45) end, -- Limit < 100%
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 25, 50, false, 1.0) end, -- Limit < 100%
 	callbackOnCrit = function(self, t)
 		if self.turn_procs.scar_scripted_flesh then return end
 		if not rng.percent(t.getChance(self, t)) then return end
@@ -1165,8 +1165,8 @@ newTalent{
 	points = 5,
 	no_energy = true,
 	no_unlearn_last = true,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 6, 47, 35)) end, -- Limit >6
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 5, 10)) end,
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 6, 45, 25, false, 1.0)) end, -- Limit >6
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 15, 5, 10, false, 1.0)) end,
 	on_levelup_close = function(self, t, lvl, old_lvl, lvl_raw, old_lvl_raw)
 		if lvl_raw >= 5 and old_lvl_raw < 5 then
 			self.inscriptions_slots_added = self.inscriptions_slots_added - 1

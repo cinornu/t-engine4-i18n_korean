@@ -26,7 +26,7 @@ newTalent{
 	cooldown = 30,
 	tactical = { BUFF = 3 },
 	getPower = function(self, t) return self:combatTalentMindDamage(t, 10, 30) end,
-	getDamagePenalty = function(self, t) return self:combatTalentLimit(t, 100, 15, 50) end, --Limit < 100%
+	getDamagePenalty = function(self, t) return self:combatTalentLimit(t, 100, 20, 50) end, --Limit < 100%
 	getPenetration = function(self, t) return self:combatLimit(self:combatTalentMindDamage(t, 10, 20), 100, 4.2, 4.2, 13.4, 13.4) end, -- Limit < 100%
 	getDuration = function(self, t) return 5 end, --Limit < 30
 	action = function(self, t)

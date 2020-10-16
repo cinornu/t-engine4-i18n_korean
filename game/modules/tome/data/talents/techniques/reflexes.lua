@@ -89,7 +89,7 @@ newTalent{
 	no_energy = true,
 	require = techs_dex_req2,
 	tactical = { BUFF = 2 },
-	getChance = function(self, t) return math.floor(self:combatTalentLimit(t, 40, 10, 30)) end,
+	getChance = function(self, t) return math.floor(self:combatTalentLimit(t, 35, 15, 30)) end,
 	getDamage = function(self, t) return self:combatTalentWeaponDamage(t, 0.2, 0.6) end,
 	-- called by _M:attackTarget in mod.class.interface.Combat.lua
 	proc = function(self, t, target)
@@ -186,7 +186,7 @@ newTalent{
 	require = techs_dex_req4,
 	random_ego = "defensive",
 	tactical = { ESCAPE = 2, DEFEND = 2 },
-	getDamageReduction = function(self, t) return self:combatTalentLimit(t, 70, 15, 40) end,
+	getDamageReduction = function(self, t) return self:combatTalentLimit(t, 70, 25, 45) end,
 	getSpeed = function(self, t) return self:combatTalentScale(t, 150, 350) end,
 	getStamina = function(self, t) return self:combatTalentScale(t, 5, 10) end,
 	action = function(self, t)

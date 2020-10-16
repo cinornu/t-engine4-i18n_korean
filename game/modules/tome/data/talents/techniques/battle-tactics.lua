@@ -27,7 +27,7 @@ newTalent{
 	stamina = 25,
 	tactical = { ATTACK = 3 },
 	no_energy = true,
-	getdur = function(self,t) return math.floor(self:combatTalentLimit(t, 10, 3, 8)) end, -- Limit to <10
+	getdur = function(self,t) return math.floor(self:combatTalentLimit(t, 10, 4, 8)) end, -- Limit to <10
 	getchance = function(self,t) return self:combatLimit(self:combatTalentStatDamage(t, "dex", 10, 90),100, 6.8, 6.8, 61, 61) end, -- Limit < 100%
 	action = function(self, t)
 		self:setEffect(self.EFF_GREATER_WEAPON_FOCUS, t.getdur(self,t), {chance=t.getchance(self, t)})
@@ -65,7 +65,7 @@ newTalent{
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	range = 1,
 	tactical = { ATTACK = { weapon = 1, cut = 1 }, DISABLE = 2 },
-	healloss = function(self,t) return self:combatTalentLimit(t, 150, 25, 75) end, -- Limit to < 150%
+	healloss = function(self,t) return self:combatTalentLimit(t, 150, 40, 75) end, -- Limit to < 150%
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y, target = self:getTarget(tg)
@@ -109,7 +109,7 @@ newTalent{
 	tactical = { DEFEND = 2 }, -- AI for this could be better
 	--Note: this can result in > 100% resistancs (before cap) at high talent levels to keep up with opposing resistance lowering talents
 	resistCoeff = function(self, t) return self:combatTalentScale(t, 25, 45) end,
-	getCapApproach = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.5) end,
+	getCapApproach = function(self, t) return self:combatTalentLimit(t, 1, 0.25, 0.5) end,
 	getResist = function(self, t) return (1 - self.life / self.max_life)*t.resistCoeff(self, t) end,
 	getResistCap = function(self, t) return util.bound((100-(self.resists_cap.all or 100))*t.getCapApproach(self, t), 0, 100) end,
 	remove_on_zero = true,

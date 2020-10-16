@@ -36,7 +36,7 @@ newTalent{
 		return false
 	end,
 	is_heal = true,
-	getdur = function(self,t) return math.floor(self:combatTalentLimit(t, 30, 6, 10)) end, -- limit to <30
+	getdur = function(self,t) return math.floor(self:combatTalentLimit(t, 30, 6, 14)) end, -- limit to <30
 	action = function(self, t)
 		local nb = 0
 		for eff_id, p in pairs(self.tmp) do
@@ -152,9 +152,9 @@ newTalent{
 	direct_hit = true,
 	requires_target = true,
 	range = 0,
-	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 2, 5.2)) end, -- Limit < 10
+	radius = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3.5, 7)) end, -- Limit < 10
 	target = function(self, t) return {type="ball", range=self:getTalentRange(t), radius=self:getTalentRadius(t), selffire=false, talent=t} end, -- To be improved after AI update
-	getDur = function(self, t) return math.floor(self:combatTalentLimit(t, 20, 4, 8)) end, -- Limit < 20
+	getDur = function(self, t) return math.floor(self:combatTalentLimit(t, 20, 6, 10)) end, -- Limit < 20
 	getPct = function(self, t) return self:combatTalentLimit(t, 1, 0.4, 0.7) end, -- Limit < 100% healing transfer
 	getEquilibrium = function(self, t) return self:combatTalentScale(t, 5, 10, "log", 0, 3) end, -- slow scaling since this can affect a lot of heals quickly
 	action = function(self, t)

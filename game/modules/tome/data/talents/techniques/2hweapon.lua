@@ -71,7 +71,7 @@ newTalent{
 	on_pre_use = function(self, t, silent) if not self:hasTwoHandedWeapon() then if not silent then game.logPlayer(self, "You require a two handed weapon to use this talent.") end return false end return true end,
 	getDam = function(self, t) return self:combatScale(self:getStr(7, true) * self:getTalentLevel(t), 5, 0, 40, 35)end,
 	getAtk = function(self, t) return self:combatScale(self:getDex(7, true) * self:getTalentLevel(t), 5, 0, 40, 35) end ,
-	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.17, 0.5) end,
+	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.22, 0.5) end,
 	activate = function(self, t)
 		local weapon = self:hasTwoHandedWeapon()
 		if not weapon then

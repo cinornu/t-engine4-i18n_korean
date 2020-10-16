@@ -85,7 +85,7 @@ newTalent{
 	getLightningRes = function(self, t) return self:combatTalentSpellDamage(t, 5, 50) end,
 	getAcidRes = function(self, t) return self:combatTalentSpellDamage(t, 5, 20) end,
 	getStunRes = function(self, t) return self:getTalentLevel(t)/10 end,
-	getCooldownReduction = function(self, t) return self:combatTalentLimit(t, 50, 16.7, 35.7) end,  -- Limit to < 50%
+	getCooldownReduction = function(self, t) return self:combatTalentLimit(t, 50, 18, 40) end,  -- Limit to < 50%
 	activate = function(self, t)
 		local cdr = t.getCooldownReduction(self, t)
 		game:playSoundNear(self, "talents/earth")
@@ -192,7 +192,7 @@ newTalent{
 	cooldown = 30,
 	tactical = { BUFF = 2 },
 	getPhysicalDamageIncrease = function(self, t) return self:combatTalentScale(t, 2.5, 10) end,
-	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 60, 17, 50, true) end,  -- Limit to < 60%
+	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 60, 20, 50) end,  -- Limit to < 60%
 	getSaves = function(self, t) return self:getTalentLevel(t) * 5 end,
 	activate = function(self, t)
 		game:playSoundNear(self, "talents/earth")

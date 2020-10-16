@@ -129,7 +129,7 @@ newTalent{
 	getFatigue = function(self, t, fake)
 		-- Note: drakeskin body armour @ 8% + drakeskin leather cap @ 5% + drakeskin leather boots @ 5% = 18%
 		if fake or self:hasLightArmor() then
-			return self:combatTalentLimit(t, 50, 5, 18)
+			return self:combatTalentLimit(t, 50, 10, 25, false, 1.0)
 		else return 0
 		end
 	end,
@@ -151,7 +151,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		local defense = t.getDefense(self,t)
-		return ([[You learn to maintain your agility and manage your combat posture while wearing light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
+		return ([[You learn to maintain your agility and manage your combat posture while wearing robes or light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
 		In addition, when you step adjacent to a (visible) enemy, you use the juxtaposition to increase your total Defense by %d for 2 turns.
 		The Defense bonus scales with your Dexterity.]]):
 		tformat(defense, t.getArmorHardiness(self,t), t.getFatigue(self, t, true), defense/2)

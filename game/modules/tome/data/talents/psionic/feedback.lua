@@ -26,7 +26,7 @@ newTalent{
 	-- called by _M:actBase in mod.class.Actor.lua
 	getHealRatio = function(self, t) return self:combatScale(self:getWil()*self:getTalentLevel(t), 0, 0, 2.5, 500, 0.75) end, -- Follows buff to quick recovery, scales faster than getDecaySpeed to improve healing
 	-- called by _M:getFeedbackDecay in mod.class.Actor.lua
-	getDecaySpeed = function(self, t) return math.min(1, self:combatTalentLimit(t, 0.1, 0.9, 0.5)) end, -- Limit >10%
+	getDecaySpeed = function(self, t) return math.min(1, self:combatTalentLimit(t, 0.1, 0.85, 0.5)) end, -- Limit >10%
 	info = function(self, t)
 		local heal = t.getHealRatio(self, t)
 		local decaySpeed = t.getDecaySpeed(self, t)

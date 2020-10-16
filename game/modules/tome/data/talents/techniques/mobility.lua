@@ -59,7 +59,7 @@ newTalent{
 		return true
 	end,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
-	getDist = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 7)/(1 + self:combatFatigue()/100)) end,
+	getDist = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3.5, 7.5)/(1 + self:combatFatigue()/100)) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local tx, ty, target = self:getTarget(tg)
@@ -291,10 +291,6 @@ newTalent {
 	cooldown = 5,
 	no_energy = true,
 	tactical = { DEFEND = 2 },
---	pinImmune = function(self, t) return self:combatTalentLimit(t, 1, .17, .5) end, -- limit < 100%
---	passives = function(self, t, p)
---		self:talentTemporaryValue(p, "pin_immune", t.pinImmune(self, t))
---	end,
 	on_pre_use = function(self, t, silent, fake)
 		if self:hasHeavyArmor() then
 			if not silent then game.logPlayer(self, "%s is not usable while wearing heavy armour.", t.name) end
@@ -303,11 +299,11 @@ newTalent {
 		return true
 	end,
 	getReduction = function(self, t, fake) -- % reduction based on both TL and Defense
-		return math.max(0.1, self:combatTalentLimit(t, 0.8, 0.25, 0.6))*self:combatLimit(self:combatDefense(fake), 1.0, 0.25, 0, 0.5, 50) -- vs TL/def: 1/10 == ~08%, 1.3/10 == ~10%, 1.3/50 == ~16%, 6.5/50 == ~32%, 6.5/100 = ~40%
+		return math.max(0.1, self:combatTalentLimit(t, 0.8, 0.25, 0.6))*self:combatLimit(self:combatDefense(fake), 1.0, 0.25, 0, 0.55, 50) -- vs TL/def: 1/10 == ~08%, 1.3/10 == ~10%, 1.3/50 == ~16%, 6.5/50 == ~32%, 6.5/100 = ~40%
 	end,
 	getStamina = function(self, t) return 12*(1 + self:combatFatigue()/100)*math.max(0.1, self:combatTalentLimit(t, 0.8, 0.25, 0.45)) end,
 	getLifeTrigger = function(self, t)
-		return self:combatTalentLimit(t, 10, 30, 15) -- Limit trigger > 10% life
+		return self:combatTalentLimit(t, 10, 30, 13.5) -- Limit trigger > 10% life
 	end,
 	callbackOnTakeDamage = function(self, t, src, x, y, type, dam, state)
 		if dam > 0 and state and not (self:attr("encased_in_ice") or self:attr("invulnerable")) then

@@ -81,7 +81,7 @@ newTalent{
 	sustain_mana = 20,
 	require = cuns_req3,
 	tactical = { BUFF = 2 },
-	getManaRegen = function(self, t) return self:combatTalentLimit(t, 1, 0.3, 0.8) * (1+t.getAtkSpeed(self, t)/100) end,
+	getManaRegen = function(self, t) return self:combatTalentLimit(t, 1, 0.45, 0.8) * (1+t.getAtkSpeed(self, t)/100) end,
 	getAtkSpeed = function(self, t) return self:combatTalentScale(t, 2.2, 15) end,
 	activate = function(self, t)
 		local speed = t.getAtkSpeed(self, t)/100

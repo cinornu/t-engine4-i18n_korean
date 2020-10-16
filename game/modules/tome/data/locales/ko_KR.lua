@@ -760,7 +760,7 @@ t("Combat speed: ", "전투속도: ", "_t")
 t("Casting speed: ", "시전 속도: ", "_t")
 t("Mental speed: ", "사고 속도: ", "_t")
 t("Healing mod.: ", "회복 효율: ", "_t")
-t("Heals friendly targets nearby when you use a nature summon: ", "당신이 자연적인 소환수를 소환할 시, 아군을 회복시킵니다: ", "_t")
+t("Heals friendly targets nearby when you use a nature summon: ", "자연적인 소환수를 소환 시 아군을 회복: ", "_t")
 t("Life leech chance: ", "생명력 강탈 확률: ", "_t")
 t("Life leech: ", "생명력 강탈: ", "_t")
 t("Resource leech chance: ", "원천력 강탈 확률: ", "_t")
@@ -6473,7 +6473,7 @@ t("adventurers party", "모험가 무리", "entity name")
 t("ziguranth patrol", "지구랏 추종자 순찰대", "entity name")
 t("hostile", "적대적인", "entity type")
 t("humanoid", "인간형", "entity subtype")
-t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "당신이 추잡한 비전 마법 사용자가 아니라면 두려워할 필요는 없습니다. 반대라면: 죽어라!", "_t")
+t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "당신이 추잡한 비전 마법 사용자가 아니라면 두려워할 필요는 없습니다. 반대라면... 죽어라!", "_t")
 
 
 ------------------------------------------------
@@ -10558,7 +10558,7 @@ t("voratun gauntlets", "보라툰 전투장갑", "entity name")
 section "game/modules/tome/data/general/objects/gem.lua"
 
 t("gem", "보석", "entity type")
-t("Gems can be sold for money or used in arcane rituals.", "보석은 아주 값지며, 마법 의식에도 쓰인다", "_t")
+t("Gems can be sold for money or used in arcane rituals.", "보석은 아주 값진 물건이며, 마법적인 의식에도 사용됩니다.", "_t")
 t("alchemist-gem", "연금술 보석", "entity type")
 t("color", "색깔", "entity subtype")
 t("alchemist diamond", "연금술 다이아몬드", "alchemist gem")
@@ -11636,7 +11636,7 @@ t("This ring shines with many colors.", "이 반지는 다양한 색으로 빛�
 t("All your damage is converted and split into arcane, fire, cold and lightning.", "당신이 가하는 모든 피해는 비전, 화염, 냉기, 전기 속성으로 치환됩니다.", "_t")
 t("Feathersteel Amulet", "깃털강철 목걸이", "entity name")
 t("light amulet", "가벼운 목걸이", "_t")
-t("The weight of the world seems a little lighter with this amulet around your neck.", "세계의 무기는 이 목걸이 근처에서는 조금 더 가벼워지는 것 같습니다.", "_t")
+t("The weight of the world seems a little lighter with this amulet around your neck.", "세상의 무게가 이 목걸이 근처에서는 조금 더 가벼워지는 것 같습니다.", "_t")
 t("The Far-Hand", "먼 손", "entity name")
 t("a weird metallic hand", "이상한 기계 손", "_t")
 t("You can feel this strange metallic hand wriggling around, it feels as if space distorts around it.", "당신은 이 기괴한 기계 손이 꿈틀대는 것을 느낍니다. 주변의 공간이 왜곡되는 것처럼 느껴집니다.", "_t")
@@ -11855,7 +11855,7 @@ t("razor sharp war axe", "예리한 전쟁도끼", "_t")
 t("Razorblade, the Cursed Waraxe", "면도날, 저주받은 전쟁도끼", "entity name")
 t([[This mighty axe can cleave through armour like the sharpest swords, yet hit with all the impact of a heavy club.
 It is said the wielder will slowly grow mad. This, however, has never been proven - no known possessor of this item has lived to tell the tale.]], [[이 강력한 도끼는 아주 예리한 칼처럼 갑옷을 통째로 벨 수 있을 뿐더러, 무거운 둔기처럼 충격을 일으킵니다.
-사람들이 말하길, 이 도끼를 드는 이들은 서서히 미처간다고 합니다. 그러나, 그 누구도 그 소문을 증명하지 못했습니다 - 땅에 묻힌 소유자들은 소문이 사실인지 아닌지 말할 수 없기 때문입니다.]], "_t")
+사람들이 말하길, 이 도끼를 드는 이들은 서서히 미쳐간다고 합니다. 그러나, 그 누구도 그 소문을 증명하지 못했습니다 - 땅에 묻힌 소유자들은 소문이 사실인지 아닌지 말할 수 없기 때문입니다.]], "_t")
 t("Sword of Potential Futures", "잠재적인 미래의 검", "entity name")
 t("under-wrought blade", "무딘 칼", "_t")
 t("Legend has it this blade is one of a pair: twin blades forged in the earliest of days of the Wardens. To an untrained wielder it is less than perfect; to a Warden, it represents the untapped potential of time.", "전설에 따르면, 이 칼에는 짝이 되는 칼 한자루가 더 있다고 합니다. 이 쌍둥이 검은 감시자가 설립되던 시기에 단조되었습니다. 숙련되지 않은 이들은 이 검의 힘을 제대로 발휘할 수 없지만, 감시자들은 이를 아직 이용하지 않은 시간의 잠재력을 상징한다고 생각합니다.", "_t")
@@ -12467,7 +12467,7 @@ t("Nature requires balance in these matters.", "자연에는 균형이 필요합
 t("Ruthless Grip", "무자비한 손아귀", "entity name")
 t("sinister gauntlets", "사악한 전투장갑", "_t")
 t("Crafted for a warlord who wanted to keep his subjects under a stralite grip. Dark thoughts went into the making of these gauntlets, literally.", "스트랄라이트 손아귀 아래 백성들을 붙잡아 놓고 싶어했던 전쟁 군주를 위해 제작되었습니다. 문자 그대로, 이 전투장갑을 만드는 데, 어두운 생각들이 흘러 들어갔습니다.", "_t")
-t("Icy Kill", "얼어붙은 살해", "entity name")
+t("Icy Kill", "얼어붙은 죽음", "entity name")
 t("sharpened icicle", "깨진 고드름", "_t")
 t([[As any scryer knows, the link between the murderer and the murdered is the murder weapon, and a scryer can follow that link from the murdered to the weapon to the murderer.
 One rather cold blooded killer thought of a way around this. By carving blades out of ice, they could kill as they wished and the link would just melt away.
@@ -14472,11 +14472,11 @@ As to how to actually destroy one? Well, tell you what. If you manage to defeat 
 
 #{bold}#7. 리치#{normal}#
 
-Hate made flesh. Evil made pure. Death incarnate. The culmination of a necromancer's work. Whatever you know liches as, I can tell you that they do not match the countless myths and legends that surround their terrible figures. They surpass them.
+증오심이 육신을 만들고. 악은 정수를 만들었다. 죽음의 화신이자, 강령술 작품의 걸작. 리치를 무엇으로 알고 있든 간에, 나는 리치가 그들의 끔찍한 형상을 둘러싸고 있는 무수한 신화와 전설과는 일치하지 않는다고 말할 수 있다. 그들은 전설을 능가한다.
 
-Once a powerful necromancer finally crosses the border between life and death, the abyssal power that they could only initially grasp in dribs and drabs becomes theirs to control totally. It is often said that unexpected quakes, crops failing, and the leaves simultaneously falling from the trees heralds the birth of a lich. Lords of the undead, liches can annihilate ghouls and skeletons, banish dreads with a glance, and reduce bone giants to powder within moments.
+일단 강력한 강령술사가 마침내 삶과 죽음의 경계를 넘나들게 되면, 처음에는 겨우 쥐어짜네 쓸 수 있던 심연의 힘을 완전히 통제하에 놓게 된다. 흔히 갑작스러운 지진이나 작물이 시들고, 일제히 나뭇잎이 떨어지는 것을 보고 리치 탄생의 징조라고 한다. 언데드의 군주로서, 리치는 구울과 스켈레톤을 전멸시킬 수 있고, 시선만으로 두려움을 추방할 수 있으며, 해골 거인들을 순식간에 뼛가루로 만들 수 있다.
 
-As to how to actually destroy one? Well, tell you what. If you manage to defeat one of these abominations, be a dear and write a guide for me, for I have absolutely, positively, no idea.
+어떻게 리치를 파괴할 거냐고? 글쎄, 말해봐. 네가 이 흉물을 물리칠 수 있다면, 부디 친절을 베풀어 나를 위한 안내서를 써 주렴. 나는 정말, 확실히, 전혀 모르겠거든.
 
     * * *]], "_t")
 
@@ -14484,6 +14484,64 @@ As to how to actually destroy one? Well, tell you what. If you manage to defeat 
 ------------------------------------------------
 section "game/modules/tome/data/lore/high-peak.lua"
 
+t("closing the void farportal", "공허로 통하는 장거리 차원문을 닫는다", "_t")
+t("The void farportal is closed, preventing untold horrors from assaulting Eyal.", "공허로 통하는 장거리 차원문은 닫혔고, 헤아릴 수 없는 공포가 에이알에 침입하는 것을 막았습니다.", "_t")
+t("a blood-soaked resonating diamond", "피에 젖은 공명하는 다이아몬드", "_t")
+t([[#{italic}#On touching the still-wet diamond, you find yourself experiencing memories that are not your own, memories that slowly seep into your mind with increasing detail.  You cannot tell if the initial haze covering them is a side-effect of the absorption process, or if it's from being dazed and waking from unconsciousness in these memories...#{normal}#
+
+#FIREBRICK#Pain#LAST#.  Everywhere, but where is worst...
+
+Abdomen.  Broken ribs?  Breathe in--  #FIREBRICK#yes they're broken#LAST#.  Shallow breaths.  What happ--  right.  Damned orcs.  Didn't expect them on this continent, much less in a Sher'Tul ruin.  Didn't even expect a Sher'Tul ruin...  Carrying Ziguranth weapons, preventing healing magic from working.  So now we've got #{italic}#two#{normal}# bands of past-their-prime savages working together to burn down civilization.  Lovely.
+
+[...]
+
+Elandar, leaning over me, can't hug me because of my ribcage.  Says I should be dead.  That he found what he thinks is the fabled Blood of Life, and poured it down my throat and into my wounds.  That I'm healing, but...  if he was wrong, we can't go back to them.  Back to #{italic}#her#{normal}# - not after last time.  I can't let them take me from Elandar, not after all he's done for me, no matter what they might find if they analyze what's left in that bottle.
+
+The pain is fading - little by little, ribs mending minute by minute, I can breathe slightly deeper before #FIREBRICK#hitting#LAST# that sudden wall of #FIREBRICK#agony#LAST#.  It feels...  healthy.  Powerful, even.  Whatever my love may have found, his gift is definitely capable of nourishing living creatures...  but there are other feelings too.  Feelings of being trapped.  Lost.  Alone.  Homesick for a home I'm already lying in.
+
+[...]
+
+I have my theories, unsettling as they are, as to what's coming over me - what I suspect to have invisibly replaced my subconscious already, what I constantly feel my conscious thoughts drifting towards if I'm not focusing, why that ability to hold conscious attention on anything else seems to be slipping more every minute.  Committing suicide or sending myself to an Angolwen asylum (if they were that merciful) are not options - egotistical as this sounds, I know the happiness I bring to Elandar's tragic life is the only thing that keeps him going.  I believe I can use this bond and the #FIREBRICK#painfully unnatural#LAST# urges that come with it...  productively, without breaking my love's heart or leaving a worse world behind.  I will be happy, Elandar will be happy, and #FIREBRICK#he#LAST# will be happy.]], [[#{italic}#여전히 피에 젖어있는 다이아몬드를 만지자 자신의 것이 아닌 기억이 마음에 서서히 스며들며 점점 선명해지는 경험을 하게 됩니다. 기억을 덮고 있던 초기의 흐릿함은 흡수과정의 부작용인지, 아니면 이 기억 속에서 멍해진 채 무의식 속에 있다 지금 깨어나고 있는 것인지는 알 수가 없습니다...#{normal}#
+
+#FIREBRICK#고통#LAST#. 고통이 가득하다, 하지만 가장 끔찍한 고통은...
+
+가슴이. 갈비뼈가 부러졌나? 숨을 들이쉬어야--  #FIREBRICK#그래... 부러졌네#LAST#. 얕게 숨을 쉰다. 대체 무슨 일이--  그래. 망할 오크들. 그놈들이 이 대륙에 있을 줄 몰랐다, 쉐르'툴 유적안에선 더더욱. 쉐르'툴 유적이 있을 것이라 예상도 못했지만... 지구르 추종자의 무기를 들고 와선, 치유 마법이 작동하는 걸 막을 줄이야. 이제 #FIREBRICK#두#LAST# 무리의 과거 야만인들이 문명을 불태우기 위해 협력하고 있다. 사랑스럽군.
+
+[...]
+
+엘란다르는 내게 기대었지만 내 갈비뼈 때문에 나를 안아 줄 수는 없다. 내가 죽었을 거라 생각했다 말한다. 그는 전설 속 '생명의 피' 라고 생각되는 걸 발견했다고는 말했고, 그리고 내 목구멍과 상처에 그것을 부었다고 했다. 내가 치유되곤 있다 하지만... 만약 그가 틀렸다면, 우리는 그들에게 돌아갈 수 없어. #{italic}#그녀에게#{normal}# 돌아가야 해. 그들이 엘란다르에게서 날 데려가게 놔둘 순 없어. 그가 날 위해 해준 모든 일들 때문이 아니야, 그들이 그 병안에 남아 있는 것을 분석한다면 어떤 것을 찾을 수 있을지라도 말이야.
+
+고통이 잦아든다 - 조금씩 천천히, 갈비뼈가 천천히 아물고 있고, 전보단 조금 더 깊게 숨쉴 수 있다. 갑작스럽게 #FIREBRICK#심한 괴로움이#LAST# #FIREBRICK#엄습하기 전까진#LAST#. 건강해지고 있는 것 같다... 심지어 힘이 넘치기까지. 아무튼 내 사랑이 뭘 발견했든, 그의 선물은 분명 살아있는 생명체를 치유할 수 있어... 하지만 다른 감정도 느껴진다. 갇힌 기분. 길을 잃은 기분. 혼자인 기분. 나는 이미 집에 누워 있지만, 집에 대한 향수가 느껴진다.
+
+[...]
+
+나는 내게 무엇이 다가오고 있는지에 대한 나를 불안하게 하는 이론이 있다. 내가 모르는 사이에 눈에 보이지 않게 내 잠재의식을 이미 대체했다고 의심되는 것, 내가 의식적으로 통제하지 않는다면 나의 생각이 끊임없이 향하는 것, 어째서 그것 외에 다른것에 의식적인 주의력을 유지하는것이 매 순간 더 힘들어지는 것 같지? 자살하거나 앙골웬 정신병원에 나를 보내는 것은 선택사항이 아니다. - 이렇게 말하면 이기적으로 들릴지도 모르겠지만, 나는 엘란다르의 비극적인 삶에 내가 가져다주는 행복이 그를 지탱해 주는 유일한 것임을 알고 있다. 난 내가 이 유대감과 함께 오는 #FIREBRICK#고통스러울 정도로 부자연스러운 충동#LAST#을 생산적으로 이용할 수 있다고 믿어... 내 사랑의 마음을 아프게 하거나 더 나쁜 세계에 홀로 남겨놓지 않을 것이다. 난 행복하게 될 거고, 엘란다르도 행복하게 될 거고, #FIREBRICK#그도#LAST# 행복하게 될 것이다.]], "_t")
+t("Elandar's journal (1)", "엘란다르의 일지 (1)", "_t")
+t([[I am increasingly certain that what I gave my love was not the Blood of Life.
+
+Her demeanor has...  changed, but not in the way one would expect.  If I had given her the essence of some god the Sher'Tul wounded and exsanguinated for a trophy, or a blight-ridden demon, or something else that would affect her mental state, I would expect her to start acting oddly - with more cruelty, more arrogance, less #{italic}#humanity.#{normal}#  Instead...  she acts like she knows the world is about to end and can't tell anyone.  She mutters about needing to use the contents of that ruin, one that we still can't even tell Angolwen #{italic}#exists#{normal}#, to bring about a new order of magocracy like the one Tannen wants "before it's too late."  Something is gnawing at her, and she dreads that I may find out what, but otherwise...  she's almost #{italic}#too#{normal}# rational.
+
+She is terrified of losing me, losing this world, losing #{italic}#herself#{normal}# - but to what, I have no idea.  Ultimately, it does not matter what is running through her mind; I will study the texts in this ruin for summoning rituals, farportal schematics, or something else that would fulfill her plan for her.  She will get to see this "Gerlyk" once, for herself - and then his magic will be absorbed and it will be over.  Whatever this creature is, it can't give orders when it's dead.]], [[내 사랑에게 내가 준 것이 생명의 피가 아니었다는 확신이 깊어져 간다.
+
+그녀의 태도는... 변했다, 하지만 예상할 수 있는 그런 형태가 아니다. 만약 내가 그녀에게 쉐르'툴이 부상 입힌 신에게서 전리품으로 채혈한 정수를 준 것이거나, 황폐의 힘으로 들끓는 악마의 피 혹은 그녀의 정신 상태에 영향을 줄 수 있는 다른 어떤 것을 준 것이라면, 나는 그녀가 기이하게 행동할 거라고 예상한다 - 더 잔인하고, 더 오만하고, 덜 #{italic}#인간적으로#{normal}#. 대신에... 그녀는 세상의 끝이 다가오고 있는 것을 알고 있지만 아무한테도 말하지 못하는 것처럼 행동하고 있다. 그녀는 우리가 아직도 앙골웬에 #{italic}#존재#{normal}#한다고 말할 수 없는 그 유적의 내용물을 사용할 필요가 있다고 중얼거린다. 탄넨과 같은 자가 "너무 늦기 전에" 해야 한다며 바라고 있는 새로운 마법사 정부의 신체제를 설립하기 위해서 말이다. 뭔가가 그녀를 갉아먹고 있어. 그리고 그녀는 내가 그게 뭔지 알아낼까 두려워하지만, 한편으로는... 그녀는 거의 #{italic}#너무#{normal}# 이성적이다.
+
+그녀는 나를 잃고, 이 세상을 잃고, #{italic}그녀 자신#{normal}#을 잃는 것을 두려워하지만, 나는 무슨 말을 하는지 전혀 알 수가 없다. 궁극적으로, 어떤 생각이 그녀의 마음속을 기어 다니는지는 중요하지 않다. 나는 그녀의 계획을 충족시킬 수 있는 소환 의식이나 장거리 차원문 도식, 아니면 그 무엇이든 간에 그녀를 위해 이 유적의 문서들을 연구할 것이다. 그녀는 이 "게를릭" 이란 것을 직접 한 번 보게 될 것이고, 그러면 그의 마법은 흡수되어 끝날 것이다. 이 생물이 무엇이든지 간에 죽게 되면 그녀에게 더 이상 명령을 내릴 수는 없을 것이다.]], "_t")
+t("Argoniel's blood-runed athame", "아르고니엘의 피의 룬 제례단검", "_t")
+t("high peak", "최고봉", "newLore category")
+t("Elandar's journal (2)", "엘란다르의 일지 (2)", "_t")
+t([[I awoke early this morning to see the love of my life altering the unique farportal we've been building together.  Our plans are all on track so far, the Staff of Absorption has been integrated into the portal so it'll drain Gerlyk the moment it summons him, the orcs are too busy suspecting each other to bother investigating us...  and then I discover that she's sabotaged it.  This portal will #{italic}#em#{normal}#power Gerlyk when it summons him - and he surely must be insane from the loneliness of tumbling in the void of space all this time.  In any case, even a sane god would be devastating to life as we know it.
+    
+...I can't bring myself to stop her.
+
+Argoniel, my love, you have brought me so much joy and given me much to live for.  I have sworn to hold your hand and walk beside you, no matter where you choose to go.  If that means joining you down the road to a second Spellblaze...  so be it.  
+
+Forgive me, Eyal.]], [[나는 오늘 아침 일찍 일어나 내 삶의 사랑이 우리가 함께 만들어 온 특별한 장거리 차원문을 개조하고 있는 것을 보았다. 우리의 계획은 모두 잘 진행되고 있었고, 흡수의 지팡이는 차원문과 통합되어 있었다. 그래서 차원문이 게를릭을 소환하는 순간 지팡이가 그를 흡수할 것이었고, 오크들은 서로 의심하느라 너무 바빠 우리를 조사하지 못할 것이다... 그리고 난 그녀가 차원문을 사보타지 했다는 걸 깨달았다. 이 차원문은 게를릭을 소환할 때 그것에게 힘을 #{italic}#부여#{normal}#할 것이다. 그리고 그는 분명 엄청난 시간 동안 우주의 공허함 속에서 굴러떨어지는 외로움 때문에 미쳐 있을 것이다. 만에 하나, 그 신이 제정신일지라도 우리의 삶은 완전히 파괴될 것이다.
+    
+...나로서는 그녀를 막을 수 없다.
+
+아르고니엘, 내 사랑, 너는 내게 많은 기쁨을 가져다 주었고 내게 살아갈 많은 의미를 주었어. 나는 네가 어디를 가든 네 손을 잡고 네 옆에서 걸을 것을 맹세할게. 만약 그게 너와 함께 제2의 마법폭발로 가는 길이라면... 그렇게 되게 두리라.  
+
+나를 용서해다오, 에이얄이여.]], "_t")
 
 
 ------------------------------------------------
@@ -16891,29 +16949,8 @@ This dirge increases your health regeneration by %d.  The regeneration will incr
 
 이 장송곡은 생명력 재생을 %d 증가시킵니다. 재생 효과는 레벨에 비례하여 증가합니다.]], "tformat")
 t("Dirge of Conquest", "정복의 장송곡", "talent name")
-t([[Sing a song of violence and victory (mostly violence) and sustain yourself through cruelty.
-Each time you deal a critical strike you gain 10%% of a turn (only once per turn).
-Each time you kill a creature you gain 50%% of a turn (only once per turn).
-]], [[잔학 행위가 벌여졌을 때, 살아갈 힘을 주던 대부분 폭력으로 점철된, 승리의 노래를 부릅니다.
-시전자가 치명타를 가할 때 0.1 턴을 획득합니다. (이 효과는 한 턴에 1 번만 발생합니다)
-시전자가 누군가를 살해할 때, 0.5 턴을 획득합니다. (이 효과는 한 턴에 1 번만 발생합니다)
-]], "tformat")
 t("Dirge of Pestilence", "질병의 장송곡", "talent name")
-t([[Sing a song of decay and defiance and sustain yourself through spite.
-							Each time you suffer a detrimental effect, you gain a shield with strength %d, that lasts as long as the effect would.
-							This can only trigger once every %d turns]], [[앙심을 불태우게하고, 살아갈 힘을 주던 부패와 반항의 노래를 부릅니다.
-							부정적인 효과에 당할 때마다, 위력 %d 의 보호막을 얻습니다. 보호막의 지속 시간은 해당 효과의 지속시간과 같습니다.
-							이 효과는 매 %d 턴마다 한 번씩 발생합니다.]], "tformat")
 t("Dirge Acolyte", "섬기는 자의 장송곡", "talent name")
-t([[Even now, something compels you to sing.
-			Dirge of Famine: Increases health regen by %d.
-			Dirge of Conquest: Gives you part of a turn on critical (10%%) or kill (50%%).
-			Dirge of Pestilence: Shields you for %d when an enemy inflicts a detrimental effect on you.
-			You may only have one Dirge active at a time.]], [[지금도, 무엇인가가 노래를 부르게 끔 강요하는 것을 느낍니다.
-			기근의 장송곡 : 생명력 재생이 %d 증가합니다.
-			정복의 장송곡 : 치명타 시 0.1 턴을 획득하고, 살해 시 0.5 턴을 획득합니다.
-			질병의 장송곡 : 부정적인 효과를 받을 때, %d 위력이 보호막이 생성됩니다.
-			한 번에 하나의 장송곡만 활성화할 수 있습니다.]], "tformat")
 t("Dirge Intoner", "기도하는 자의 장송곡", "talent name")
 t([[Your dirges carry the pain within you, which threatens to swallow those who come too close.  Anyone who hits you in melee suffers %0.2f mind damage.
 							You, on the other hand, are steadied by the song.  Your dirges increase your resistance to stun and knockback by %d%%.
@@ -19169,15 +19206,6 @@ t([[Sense foes around you in a radius of %d for %d turns.
 		The radius will increase with your Cunning.]], [[반경 %d 칸 내의 적들의 위치를 %d 턴 동안 감지합니다.
 		범위는 교활 능력치에 비례해 증가합니다.]], "tformat")
 t("Danger Sense", "위기 감지", "talent name")
-t([[You have an enhanced sense of self preservation, and your keen intuition allows you to sense dangers others miss.
-		Your ability to detect traps is enhanced (+%d detect 'power').
-		Attacks against you have a %0.1f%% reduced chance to be critical hits, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
-		You also gain an additional chance (at your normal save %+d, effective) to resist detrimental status effects that can be resisted.
-		The detection and additional save chance improve with Cunning.]], [[남들보다 뛰어난 위기 감지 능력을 갖고있습니다. 날카로운 직감은 다른 이들이 감지하지 못하는 위험마저 간파할 수 있습니다.
-		함정 탐지력이 강화됩니다 (+%d 함정 탐지력).
-		피격 시 %0.1f%% 낮아진 치명타 확률이 적용되고, 보이지 않는 적이 가하는 은신 추가 피해량은 %d%% 감소됩니다.
-		일정 확률로 저항 가능한 부정적인 효과에 대해 추가적인 판정 기회를 얻습니다. (추가 저항은 평상시의 내성에서 %+d 만큼 변동됩니다)
-		탐지력과 추가 내성 확률은 교활 능력치에 비례해 증가합니다.]], "tformat")
 t("Disarm Trap", "함정 해체", "talent name")
 t("#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "#CADET_BLUE#함정 해체: (해체할 함정이 있는 방향을 선택 해 주세요. shift+방향 키로 자유롭게 이동합니다)", "log")
 t("#CADET_BLUE#You don't have the skill to disarm traps.", "#CADET_BLUE#함정을 해체하기엔 당신의 기술이 부족하다.", "logPlayer")
@@ -19463,15 +19491,6 @@ t("Reduces the damage you take from bleeds by %d%%", "출혈로 받는 피해를
 t("Blood Rush", "피의 쇄도", "talent name")
 t("Nowhere to appear!", "나타날 곳이 없다!", "logSeen")
 t("The bloodrush fizzles!", "피의 쇄도가 실패했다!", "logSeen")
-t([[Teleport to an enemy, striking them for 100%% weapon damage, bleeding them for %d%% weapon damage over five turns, and marking them for six turns.
-
-When the marked enemy dies, the cooldown of this talent will be reduced by two turns for every turn the mark had remaining.
-
-Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[적의 옆으로 이동해, 100%% 무기 피해를 주고, 출혈을 일으켜 %d%% 무기 피해를 5 턴에 걸쳐 가합니다. 또한 6 턴 동안 지속되는 표식을 남깁니다.
-
-표식이 찍힌 적이 쓰러지면, 표식의 남은 지속시간 × 2 턴 만큼 이 기술의 재사용 대기시간이 줄어듭니다.
-
-피칠갑 기술에 투자된 기술 점수 하나 당 출혈 효과로 받는 피해량이 2%% 줄어듭니다.]], "tformat")
 t("Blood Rage", "피의 격노", "talent name")
 t([[Cut into an enemy and twist the blade, dealing %d%% damage and increasing the intensity of their existing bleed effects by %d%%.
 
@@ -19497,40 +19516,10 @@ section "game/modules/tome/data/talents/cursed/crimson-templar.lua"
 
 t("Shared Agony", "격통 분산", "talent name")
 t("%s(%d shared agony)#LAST#", "%s(%d 격통 분산)#LAST#", "tformat")
-t([[You displace %d%% of any damage you receive onto a random bleeding enemy within range 5.	This redirected damage is amplified by %d%%.
-
-#{italic}#All living things are linked by blood.	It is one river, flowing through all.#{normal}#]], [[피격 시, 받은 피해의 %d%% 를 반경 5 칸 내의 출혈 효과가 적용된 무작위한 적에게 전송합니다.	전송된 피해는 %d%% 강하게 증폭됩니다.
-
-#{italic}#모든 생명체는 피로 이어져있다.	이는 강줄기요, 모든 이들에게 흐른다.#{normal}#]], "tformat")
 t("Splatter Sigils", "유혈의 인장", "talent name")
-t([[When you kill an enemy, their death forms a cursed magical pattern on the ground. This creates a circle of radius %d which blinds enemies and deals them %0.2f light damage, while giving you %d positive energy per turn.	 The circle lasts for %d turns.
-							The damage will increase with your Spellpower.
-							The duration of the circle can be increased by a critical hit.
-							The blind chance increases with your Spellpower.
-							You can activate this talent to draw the pattern in your own blood, creating it underneath you at the cost of %d%% of your maximum life.
-]], [[적을 살해할 때, 적의 죽음이 저주받은 마법의 인장이 되어 땅에 세겨집니다. 반경 %d 칸 내의 지역에 마법진이 나타나, 적들을 실명시키고  %0.2f 빛 피해를 입힙니다. 또한 시전자의 양기가 %d 씩 재생됩니다.	 마법진은 %d 턴 동안 유지됩니다.
-							피해량은 주문력에 비례하여 증가합니다.
-							치명타 시, 마법진의 지속시간이 연장됩니다.
-							실명 확률은 주문력에 비례하여 증가합니다.
-							이 기술을 발동해, 인장을 시전자의 피 속에서 뽑아내, 발 밑에 마법진을 그립니다. 최대 생명력의 %d%% 를 소모합니다.
-]], "tformat")
 t("Mark of the Vampire", "흡혈귀의 표식", "talent name")
-t([[Dooms your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a talent, it takes %0.2f physical damage as its life is drawn out.	In addition, any bleed applied to the target will have its power increased by %d%%.
-							The damage will increase with your Spellpower.
-							The chance to apply will increase with your Spellpower.]], [[대상과 대상 주변 반경 2 칸 내의 모든 것에게 20 턴 동안 파멸을 내립니다. 영향을 받은 적은 기술 시전 시, %0.2f 물리 피해를 받고, 생명력이 뽑혀 나옵니다.	추가로, 대상에게 적용된 모든 출혈 효과의 위력이 %d%% 증폭됩니다.
-							피해량은 주문력에 비례하여 증가합니다.
-							적용 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Rosebloom", "장미 개화", "talent name")
 t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
-t([[Draw on the wounds of nearby enemies, healing yourself and putting them into a merciful sleep.
-							The sleep chance increases with your Spellpower.
-							You are healed for %d%% of the remaining damage of bleed effects on enemies in range (minimum %d per bleed).	Enemies fall asleep for %d turns longer than their longest-lasting bleed, rendering them unable to act. The strength of the sleep effect is based on the strength of the bleed.	 Excess damage will reduce their sleep duration.
-							
-							When the sleep ends, each target will benefit from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it 50%% sleep immunity.]], [[주변의 적의 상처들을 끌어내어, 생명력을 회복하고 적들에게 자비로운 잠을 선사합니다.
-							수면 확률은 주문력에 비례하여 증가합니다.
-							범위 내의 출혈 효과가 적용된 적들의 피를 흡수해, 남은 출혈 피해량의 %d%% 만큼 생명력을 회복합니다. (출혈 당 최소 %d 회복) 적들은 가장 지속시간이 긴 출혈 효과의 지속시간 + %d 턴 동안 잠에 빠져, 행동할 수 없게 됩니다. 수면의 위력은 출혈의 위력에 비례합니다.	 과도한 피해량은 수면의 지속시간을 단축합니다.
-							
-							잠이 끝나면, 대상은 잠이 들었던 시간만큼 불면증 상태가 되며 (최대 10 턴) 50%% 의 수면 면역력을 갖게 됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -20020,43 +20009,11 @@ section "game/modules/tome/data/talents/cursed/self-hatred.lua"
 
 t("Self-Harm", "자해", "talent name")
 t("You can only use this while in combat", "이 기술은 전투에서 단 한 번만 사용 가능하다", "logPlayer")
-t([[At the start of each turn, if you're bleeding, you gain %d hate.
-
-You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns.	This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
-
-#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[출혈 상태일 때 매 턴 증오를 %d 회복합니다.
-
-이 기술을 활성화하면, 자신의 살을 빠르게 베어내어, 5 턴에 걸쳐 %0.2f 출혈 피해를 받습니다.	이 출혈 효과는 저항하거나 제거할 수 없지만, 피칠갑 기술계열로 피해를 완화 할 수 있습니다
-
-#{italic}#오직 고통만이 당신이 느낄 수 있는 모든 것이다.#{normal}#]], "tformat")
 t("Self-Loathing", "자가 혐오", "talent name")
-t([[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
-
-#{italic}#Anger makes you strong.	 And you're always angry.#{normal}#]], [[치명타 확률이 %d%% 향상되고, 현재 증오 수치에 비례해 치명타 피해량이 최대 %d%% 까지 증가합니다.
-
-#{italic}#분노가 당신을 강하게한다.	 그리고, 당신은 항상 분노해 있다.#{normal}#]], "tformat")
 t("Self-Destruction", "자가 파괴", "talent name")
-t([[Call upon your deepest reserves of strength to win no matter the cost.	
-Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed.	
-This bonus cooldown occurs even if your talents would not normally cool down.
-This talent deactivates automatically upon rest.
-This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
-
-#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[그 어떤 댓가도 생각하지 않고, 오직 승리만을 위해 내면의 힘을 모조리 털어놓습니다.	
-활성화 즉시, 그리고 지속시간 중, 시전자의 부정적인 효과는 빠르게 사라지고, 기술들의 재사용 대기시간 역시 더욱 빠르게 돌게 됩니다.	
-이 재사용 대기시간 단축 효과는 일반적으로 재사용 대기시간이 단축되지 않는 기술도 영향을 받습니다.
-이 기술은 휴식 시 비활성화 됩니다.
-이 강력한 효과에는 그에 걸맞는 댓가를 치뤄야합니다 : 최대 생명력의 %d%% 를 매 턴 잃게 됩니다. 이 피해로 죽을 수도 있습니다.
-
-#{italic}#당신은 운이 좋지, 그 행운이 당신이 가진 모든 것을 가져갈 거야.#{normal}#]], "tformat")
 t("Self-Judgement", "자가 심판", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target2# #Source#의 %s, 피해를 경감한다!#LAST#.", "logCombat", nil, {"으로"})
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d 피가 뿜어져 나옴#LAST#%s)#LAST#", "tformat")
-t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns.	 This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
-
-#{italic}#You can't just die.	 That would be too easy.	You deserve to die slowly.#{normal}#]], [[최대 생명력의 %d%% 이상의 피해를 한 번에 받을 때, 초과된 피해량이 얕은 상처로 전환되어, 다음 %d 턴 동안 출혈로 인한 피해를 입습니다.	 이 출혈 효과는 저항할 수도, 제거할 수도 없으나, 피칠갑 기술계열로 피해를 완화 할 수 있습니다. 또한 최대 생명력의 %d%% 이상의 피해를 가하는 너무나 강력한 일격은, 불완전한 상태로 얕은 상처로 전환됩니다.
-
-#{italic}#당신은 그냥 죽지를 못하지.	 그건 너무 쉬우니까.	당신은 천천히 죽어가야 마땅해.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -21678,9 +21635,9 @@ t("\
 t([[Not the Master himself, nor all the orcs in fallen Reknor, nor even the terrifying unknown beyond Reknor's portal could slow your pursuit of the Staff of Absorption.
 		Children will hear of your relentlessness in song for years to come.
 		When activated, this ability reduces the duration of all active detrimental effects by 20%% of your associated save value or 2, whichever is greater:
-		%s]], [[탑의 주인도, 몰락한 레크놀의 모든 오크들도, 그리고 레크놀의 차원문 너머의 알 수 없는 존재들마저, 흡수의 지팡이를 향한 당신의 추격을 방해하지 못했습니다.
-		수십 년, 수백 년이 지나도 아이들은 당신의 끈질긴 추격에 대한 노래를 들을 수 있겠지요.
-		활성화 시, 이 능력은 현재 당신에게 적용된 모든 부정적인 효과의 지속시간을 대응하는 내성 수치의 20%% 만큼 단축합니다. 최소 단축량 2 턴은 보장됩니다.
+		%s]], [[탑의 주인도, 몰락한 레크놀의 모든 오크들도, 그리고 레크놀의 차원문 너머의 알 수 없는 존재들마저 흡수의 지팡이를 향한 당신의 추격을 방해하지 못했습니다.
+		수십, 수백 년이 지나도 아이들은 당신의 끈질긴 추격에 대한 노래를 들을 수 있겠지요.
+		발동 시 현재 적용된 모든 부정적인 효과의 지속 시간을 각각의 효과에 대응하는 내성 수치의 20%% 만큼 단축합니다. 최소 2 턴은 보장됩니다.
 		%s]], "tformat")
 t("Teleport to the ground", "지표면으로 순간이동", "talent name")
 t("You cannot teleport there.", "당신은 순간이동 할 수 없다.", "log")
@@ -22218,7 +22175,7 @@ t("Battle Trance", "전투의 무아지경", "talent name")
 t("You overdose on the honeyroot sap!", "당신은 벌꿀나무 수액을 과음했다! 부작용이 나타난다!", "logPlayer")
 t([[You enter into a fighting trance, gaining 15%% resist all, losing 15 mindpower, but gaining 20 mental save. However, each turn after the fifth that this talent is active, there is a chance that you will be overcome and become confused.
 This does not take a turn to use.]], [[전투에 무아지경에 빠저, 모든 피해 저항 15%% 와 정신 내성 20 을 얻지만 정신력을 15 잃습니다. 하지만 이 효과를 5 턴 이상 지속 시킬 경우, 과음 효과가 나타나 혼란 상태가 될 확률이 점점 높아지게 됩니다.
-이것에 사용에는 턴이 소모되지 않습니다.]], "tformat")
+턴 소모없이 발동됩니다.]], "tformat")
 t("Soul Purge", "영혼 숙청", "talent name")
 t("Remove any talent Morrigor has absorbed.", "모리고어가 흡수한 모든 기술을 제거합니다.", "tformat")
 t("Dig", "굴착", "talent name")
@@ -22987,9 +22944,6 @@ t("Iron Will", "강철의 의지", "talent name")
 section "game/modules/tome/data/talents/psionic/mentalism.lua"
 
 t("Psychometry", "초감각", "talent name")
-t([[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.2f or %d%% of the object's material level (whichever is lower).
-		This effect stacks and applies for each qualifying object worn.]], [[착용하고 있는 염력, 자연의 힘, 반마법 속성의 장비와 공명하여, 물리력, 정신력이 %0.2f 또는 장비 등급의 %d%% 만큼 상승합니다 (둘 중 낮은 쪽이 적용됩니다).
-		이 효과는 모든 종류의 장비에 적용되며, 중첩됩니다.]], "tformat")
 t("Mental Shielding", "정신 방어", "talent name")
 t("%s's mind is clear!", "%s의 정신은 정화된다!", "logSeen")
 t("Clears your mind of current mental effects, and blocks additional ones over 6 turns.  At most, %d mental effects will be affected.", "정신을 정화하여 6 턴 동안 추가적인 정신적 효과를 방어합니다. 촤대 %d 개의 정신적 효과에 적용됩니다.", "tformat")
@@ -25717,11 +25671,6 @@ t([[You become better at using your armour to deflect blows and protect your vit
 		레벨 3에서 판금 갑옷을 착용할 수 있습니다.
 		%s]], "tformat")
 t("Light Armour Training", "경갑 훈련", "talent name")
-t([[You learn to maintain your agility and manage your combat posture while wearing light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
-		In addition, when you step adjacent to a (visible) enemy, you use the juxtaposition to increase your total Defense by %d for 2 turns.
-		The Defense bonus scales with your Dexterity.]], [[경갑을 착용하며 민첩함과 전투 자세를 유지하는 법을 익혔습니다. 신체에 가죽보다 무겁지 않은 갑옷을 착용할 때, 회피도가 %d, 방어 효율이 %d%% 증가하고 피로도가 %d%% 감소합니다.
-		추가로 (눈에 보이는) 적과 인접한 곳으로 이동할 때, 적과 나란히 서서 2 턴 동안 총 회피도가 %d 증가합니다.
-		회피 효과는 민첩의 영향을 받아 증가합니다.]], "tformat")
 t("Combat Accuracy", "전투 정확도", "talent name")
 t("Increases the accuracy of unarmed, melee and ranged weapons by %d.", "맨손 전투, 근접 및 원거리 무기의 정확도가 %d 증가합니다.", "tformat")
 t("Weapons Mastery", "무기 숙련", "talent name")
@@ -25754,7 +25703,7 @@ t("Daunting Presence", "위협적인 존재감", "talent name")
 t([[Enemies are intimidated by your very presence.
 		Enemies within radius %d have their Physical Power, Mindpower, and Spellpower reduced by %d.
 		The power of the intimidation effect improves with your Physical power]], [[적들의 당신의 존재에 위협을 받습니다.
-		%d 범위 안에 있는 적들은 물리력, 정신력, 주문력이 %d 감소합니다.
+		%d 칸 내에 있는 적들은 물리력, 정신력, 주문력이 %d 감소합니다.
 		위협 효과는 물리력의 영향을 받아 증가합니다.]], "tformat")
 t("Adrenaline Surge", "아드레날린 분출", "talent name")
 t([[You release a surge of adrenaline that increases your Physical Power by %d for %d turns. While the effect is active, you may continue to fight beyond the point of exhaustion.
@@ -27203,47 +27152,6 @@ t("Unlocked the Fallen evolution", "타락한 자 진화를 해금", "_t")
 t("Committed a heinous act", "극악무도한 행위를 자행할 것", "_t")
 t("Fallen", "타락한 자", "_t")
 t("#CRIMSON#You give in to the darkness. You have fallen!", "#CRIMSON#당신은 어둠에 굴복했다. 당신은 타락했다!", "say")
-t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
-		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
-		
-		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
-
-		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
-
-		The following talent trees are swapped:
-		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
-		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
-
-		You will learn the following talents trees:
-		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
-		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
-		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
-		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strength your resolve
-
-		You will forget the following talent trees: Shield Offense, Two-handed Assault.
-		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], [[태양의 기사들의 규율은 때때로 감당하기 어려울 수도 있습니다.	 어둠에 굴복해서
-		#{italic}##GREY#규율을 저버리는게 어떻겠습니까?#LAST##{normal}#
-		
-		#CRIMSON#이 직업 진화는 직업과 캐릭터를 근본적으로, 아주 크게 변화시킵니다. 너무 가벼이 선택하지 마십시오.#LAST#
-
-		모든 전투 기술 계통과 해제 가능한 천공 계통 기술들은 적들 사이에 핏자국을 흩뿌리는 저주받은 기술로 대체됩니다. 광휘는 암울로 변하고, 새로운 전투 방식과 방어 능력을 얻게 됩니다.
-
-		다음 기술 계열이 변경됩니다 :
-		- #GOLD#광휘#LAST#는 #CRIMSON#암울#LAST#로 변합니다 : 증오를 발산해, 적들을 방해합니다.
-		- #GOLD#수호자#LAST#는 #CRIMSON#진홍의 기사#LAST#으로 변합니다 : 피의 힘을 사용해 당신의 앞길을 방해하는 멍청이들에게 패배를 안깁니다.
-		- #GOLD#성전사는#LAST# #CRIMSON#어두운 태양#LAST#으로 변합니다 : 죽은 태양의 에너지를 불러와, 적들을 파괴합니다.
-
-		다음 기술들을 익힙니다 :
-		- #CRIMSON#피칠갑#LAST# : 적에게 출혈을 유발합니다!
-		- #CRIMSON#어두운 면#LAST# : 모든 빛은 그림자를 남깁니다. 당신의 힘도 마찬가지 입니다.
-		- #CRIMSON#자기혐오#LAST#: 출혈을 통해 자신의 증오를 드러냅니다.
-		- #CRIMSON#장송곡#LAST#: 죽음과 슬픔의 노래를 불러, 결의를 확고하게 다집니다.
-
-		또한 다음과 같은 기술들을 잊어버립니다 : 방패 공격, 양손 무기 맹공.
-		또한 모든 전투 기술 계통의 기술들이 기력 대신 증오를 소모하게 됩니다.
-		]], "tformat")
 
 
 ------------------------------------------------
@@ -34877,9 +34785,9 @@ t("putrescent potion", "썩어 들어가는 물약", "_t")
 t("A vial of thick, lumpy fluid. Who knows what this will do to you if you drink it?", "걸쭉하고 덩어리진 액체가 든 작은 유리병입니다. 이걸 마시면 당신에게 무슨 일이 일어날지는 아무도 모릅니다.", "_t")
 t("drink the vile fluid", "불쾌한 액체를 마신다", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
-t("#00FFFF#You drink the wyrm bile and feel forever transformed!", "#00FFFF#용의 담즙을 마셨고 영영 변해 버린 느낌이 들었다!", "logPlayer")
+t("#00FFFF#You drink the wyrm bile and feel forever transformed!", "#00FFFF#용의 담즙을 마시자 뭔가가 영원히 변한 느낌이 들었다!", "logPlayer")
 t("You have %d category point(s) to spend. Press p to use them.", "기술계열 점수가 %d점 남아 있다. 사용하려면 p를 누를 것.", "log")
-t("#00FF00#Your stats have changed! (Str %s, Dex %s, Mag %s, Wil %s, Cun %s, Con %s)", "#00FF00#당신의 능력치가 바뀌었다! (힘 %s, 민첩 %s, 마법 %s, 의지 %s, 교활 %s, 체격 %s)", "logPlayer")
+t("#00FF00#Your stats have changed! (Str %s, Dex %s, Mag %s, Wil %s, Cun %s, Con %s)", "#00FF00#능력치가 변동되었다! (힘 %s, 민첩 %s, 마법 %s, 의지 %s, 교활 %s, 체격 %s)", "logPlayer")
 t("red", "빨간색", "entity subtype")
 t("Atamathon's Lost Ruby Eye", "잃어버린 아타마쏜의 루비 눈", "entity name")
 t([[One of the ruby eyes of the legendary giant golem Atamathon.
@@ -36431,7 +36339,7 @@ t("Long tunnel", "긴 터널", "_t")
 t("You cannot abandon the yeeks of Rel to the dangers that lie within the island.", "렐 섬에 드리운 위험 아래에 이크들을 내버려둘 수는 없다.", "_t")
 t("Unremarkable cave", "평범한 동굴", "entity name")
 t("A gate into the old kingdom of Reknor", "레크놀의 옛 왕국으로 통하는 관문", "entity name")
-t("Entrance into Telmur, tower of Telos", "텔로스의 탑인 텔무르의 입구", "entity name")
+t("Entrance into Telmur, tower of Telos", "텔로스의 탑, 텔무르의 입구", "entity name")
 t("Way into the lair of Murgol", "무르골의 굴로 통하는 길", "entity name")
 t("Long road to the Tempest Peak", "폭풍우 봉우리로의 긴 길", "entity name")
 t([[After walking many hours, you finally reach the end of the way. You are nearly on top of one of the highest peaks you can see.

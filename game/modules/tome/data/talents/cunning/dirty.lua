@@ -65,7 +65,7 @@ newTalent{
 	points = 5,
 	require = cuns_req2,
 	getDamageBoost = function(self, t) return self:combatTalentScale(t, 4, 10) end,
-	getDisableChance = function(self, t) return self:combatTalentLimit(t, 30, 1, 5) end, -- Limit < 30%
+	getDisableChance = function(self, t) return self:combatTalentLimit(t, 30, 2.5, 7.5) end, -- Limit < 30%
 	callbackOnMeleeAttack = function(self, t, target, hitted, crit, weapon, damtype, mult, dam)
 		if target and hitted and dam > 0 then
 			local nb = 0
@@ -127,7 +127,7 @@ newTalent{
 		return {type="cone", range=self:getTalentRange(t), radius=self:getTalentRadius(t), selffire=false, talent=t}
 	end,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 3, 5)) end,
-	getSlow = function(self, t) return self:combatTalentLimit(t, 90, 15, 30) end, -- Limit < 90% speed loss
+	getSlow = function(self, t) return self:combatTalentLimit(t, 90, 35, 70) end, -- Limit < 90% speed loss
 	getAcc = function(self, t) return math.ceil(self:combatTalentScale(t, 8, 24, 0.75)) end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)

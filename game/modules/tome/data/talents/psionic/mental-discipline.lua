@@ -26,7 +26,7 @@ newTalent{
 	require = psi_wil_req1,
 	points = 5,
 	mode = "passive",
-	cooldownred = function(self,t) return math.max(0,math.floor(self:combatTalentLimit(t, 8, 1, 5))) end, -- Limit to <8 turns reduction
+	cooldownred = function(self,t) return math.max(0,math.floor(self:combatTalentLimit(t, 8, 2, 6))) end, -- Limit to <8 turns reduction
 	getMastery = function(self, t) return self:combatTalentScale(t, 2.5, 10, 0.75) end,
 	info = function(self, t)
 		local cooldown = t.cooldownred(self,t)
@@ -42,7 +42,7 @@ newTalent{
 	require = psi_wil_req2,
 	points = 5,
 	mode = "passive",
-	mastery = function(self,t) return self:combatTalentLimit(t, 20, 3, 10) end, -- Adjustment to damage absorption, Limit to 20
+	mastery = function(self,t) return self:combatTalentLimit(t, 20, 4, 10) end, -- Adjustment to damage absorption, Limit to 20
 	cooldownred = function(self,t) return math.floor(self:combatTalentLimit(t, 16, 4, 10)) end,  -- Limit to <16 turns reduction
 	absorbLimit = function(self,t) return self:combatTalentScale(t, 0.5, 2) end, -- Limit of bonus psi on shield hit per turn
 	info = function(self, t)
@@ -59,7 +59,7 @@ newTalent{
 	require = psi_wil_req3,
 	points = 5,
 	mode = "passive",
-	stunImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.17, 0.50) end,
+	stunImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.22, 0.50) end,
 	on_learn = function(self, t)
 		self.combat_mentalresist = self.combat_mentalresist + 6
 	end,

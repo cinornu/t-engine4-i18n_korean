@@ -128,12 +128,12 @@ newTalent{
 	end,
 	tactical = { ATTACKAREA = { FIRE = 2 } },
 	getDuration = function(self, t) return math.floor(self:combatScale(self:combatSpellpower(0.05) + self:getTalentLevel(t), 5, 0, 12.67, 7.66)) end,
-	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 5, 120) end,
+	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 20, 175) end,
 	action = function(self, t)
 		-- Add a lasting map effect
 		local ef = game.level.map:addEffect(self,
 			self.x, self.y, t.getDuration(self, t),
-			DamageType.FIRE_FRIENDS, t.getDamage(self, t),
+			DamageType.FIRE_FRIENDS, self:spellCrit(t.getDamage(self, t)),
 			3,
 			5, nil,
 			{type="firestorm", only_one=true},

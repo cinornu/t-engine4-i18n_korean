@@ -39,7 +39,7 @@ newTalent{
 	type = {"undead/skeleton", 2},
 	require = undeads_req2,
 	points = 5,
-	cooldown = function(self, t) return self:combatTalentLimit(t, 10, 30, 16) end,
+	cooldown = function(self, t) return self:combatTalentLimit(t, 10, 25, 15, false, 1.1) end,
 	tactical = { DEFEND = 2 },
 	getShield = function(self, t)
 		return 3.5*self:getDex()+self:combatTalentScale(t, 120, 400) + self:combatTalentLimit(t, 0.1, 0.01, 0.05)*self.max_life
@@ -66,7 +66,7 @@ newTalent{
 	mode = "passive",
 	range = 1,
 	-- called by _M:on_set_temporary_effect function in mod.class.Actor.lua
-	durresist = function(self, t) return self:combatTalentLimit(t, 1, 0.1, 5/12) end, -- Limit < 100%
+	durresist = function(self, t) return self:combatTalentLimit(t, 1, 0.1, 5/12, false, 1.1) end, -- Limit < 100%
 	info = function(self, t)
 		return ([[Your undead bones are very resilient, reducing the duration of all detrimental effects on you by up to %d%%.]]):
 		tformat(100 * t.durresist(self, t))
@@ -78,9 +78,9 @@ newTalent{ short_name = "SKELETON_REASSEMBLE",
 	type = {"undead/skeleton",4},
 	require = undeads_req4,
 	points = 5,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 30, 16)) end, -- Limit cooldown >10
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 30, 15, false, 1.1)) end, -- Limit cooldown >10
 	getHeal = function(self, t)
-		return self:combatTalentScale(t, 100, 500) + self:combatTalentLimit(t, 0.1, 0.01, 0.05)*self.max_life
+		return self:combatTalentScale(t, 100, 500) + self:combatTalentLimit(t, 0.1, 0.01, 0.05, false, 1.1)*self.max_life
 	end,
 	tactical = { HEAL = 2 },
 	is_heal = true,

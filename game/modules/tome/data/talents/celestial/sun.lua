@@ -136,7 +136,7 @@ newTalent{
 	mode = "passive",
 	points = 5,
 	getCrit = function(self, t) return self:combatTalentScale(t, 2, 10, 0.75) end,
-	getProcChance = function(self, t) return self:combatTalentLimit(t, 100, 30, 75) end,
+	getProcChance = function(self, t) return self:combatTalentLimit(t, 100, 40, 75) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "combat_spellcrit", t.getCrit(self, t))
 		self:talentTemporaryValue(p, "combat_physcrit", t.getCrit(self, t))
@@ -186,9 +186,9 @@ newTalent{
 		return self.ai_target.actor and self:hasLOS(self.ai_target.actor.x, self.ai_target.actor.y)
 	end,
 	range = 10,
-	getCap = function(self, t) return self:combatTalentLimit(t, 30, 90, 70) end,
+	getCap = function(self, t) return self:combatTalentLimit(t, 30, 85, 55) end,
 	getHaste = function(self, t) return math.min(0.5, self:combatTalentSpellDamage(t, 0.1, 0.4)) end,
-	getCD = function(self, t) return self:combatLimit(self:combatTalentSpellDamage(t, 5, 450), 0.5, .03, 32, .35, 350) end, -- Limit < 50% cooldown reduction
+	getCD = function(self, t) return self:combatLimit(self:combatTalentSpellDamage(t, 5, 450), 0.5, .065, 32, .38, 350) end, -- Limit < 50% cooldown reduction
 	action = function(self, t)
 		self:setEffect(self.EFF_SUNCLOAK, 6, {cap=t.getCap(self, t), haste=t.getHaste(self, t), cd=t.getCD(self, t)})
 		game:playSoundNear(self, "talents/flame")

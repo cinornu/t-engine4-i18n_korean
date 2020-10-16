@@ -149,7 +149,7 @@ newTalent{
 	tactical = { ATTACK = { PHYSICAL = 2 } },
 	getDamage = function (self, t) return math.floor(self:combatTalentMindDamage(t, 12, 340)) end,
 	getWeaponDamage = function(self, t) return self:combatTalentWeaponDamage(t, 1.5, 2.6) end,
-	getShatter = function(self, t) return self:combatTalentLimit(t, 100, 10, 85) end,
+	getShatter = function(self, t) return self:combatTalentLimit(t, 100, 30, 85) end,
 	target = function(self, t) return {type="hit", range=self:getTalentRange(t)} end,
 	is_melee = true,
 	action = function(self, t)

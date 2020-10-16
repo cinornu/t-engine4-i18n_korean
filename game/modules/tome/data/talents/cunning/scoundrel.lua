@@ -26,7 +26,7 @@ newTalent{
 	require = cuns_req1,
 	mode = "passive",
 	no_break_stealth = true,
-	getChance = function(self,t) return self:combatTalentLimit(t, 70, 20, 55) end, --Limit < 50%
+	getChance = function(self,t) return self:combatTalentLimit(t, 70, 25, 55) end, --Limit < 50%
 	callbackOnMeleeAttack = function(self, t, target, hitted, crit, weapon, damtype, mult, dam)
 		if not (target and hitted and dam > 0) or self:reactionToward(target) >= 0 then return nil end
 		if rng.percent(t.getChance(self, t)) and target:canBe("cut") then
@@ -58,9 +58,9 @@ newTalent{
 	require = cuns_req2,
 	mode = "passive",
 	points = 5,
-	getCritPenalty = function(self,t) return self:combatTalentLimit(t, 100, 20, 60) end,
+	getCritPenalty = function(self,t) return self:combatTalentLimit(t, 100, 25, 60) end,
 	getDuration = function(self,t) return 4 end,
-	getChance = function(self, t) return self:combatTalentLimit(t, 100, 8, 35) end, -- Limit < 100%
+	getChance = function(self, t) return self:combatTalentLimit(t, 100, 12, 35) end, -- Limit < 100%
 	callbackOnMeleeAttack = function(self, t, target, hitted, crit, weapon, damtype, mult, dam)
 		if not (target and hitted and dam > 0) or self:reactionToward(target) >=0 then return nil end
 		target:setEffect(target.EFF_SCOUNDREL, 5, {src=self, power=t.getCritPenalty(self,t) })
@@ -118,7 +118,7 @@ newTalent{
 	require = cuns_req3,
 	mode = "passive",
 	getDuration = function(self, t) return self:combatTalentLimit(t, 100, 30, 55) end, --limit < 100%
-	getChance = function(self, t) return self:combatTalentLimit(t, 50, 10, 35) end, --limit < 100%
+	getChance = function(self, t) return self:combatTalentLimit(t, 50, 15, 35) end, --limit < 100%
 	getDefense = function(self, t) return self:combatTalentStatDamage(t, "cun", 15, 60) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "combat_def", t.getDefense(self, t))
@@ -164,7 +164,7 @@ newTalent{
 	mode = "passive",
 	points = 5,
 	getDamage = function(self, t) return self:combatTalentStatDamage(t, "cun", 25, 400) end,
-	getStacks = function(self,t) return math.floor(self:combatTalentLimit(t, 20, 3, 15)) end,
+	getStacks = function(self,t) return math.floor(self:combatTalentLimit(t, 20, 5, 15)) end,
 	callbackOnMeleeAttack = function(self, t, target, hitted, crit, weapon, damtype, mult, dam)
 		if not (target and hitted and dam > 0) or self:reactionToward(target) >=0 then return nil end
 		local dam = t.getDamage(self, t)

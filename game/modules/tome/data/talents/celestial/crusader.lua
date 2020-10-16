@@ -74,7 +74,7 @@ newTalent{
 	tactical = { DISABLE=2, HEAL=2 },
 	range = 5,
 	requires_target = true,
-	getPower = function(self, t) return self:combatTalentLimit(t, 100, 15, 50) end, --Limit < 100%
+	getPower = function(self, t) return self:combatTalentLimit(t, 100, 20, 50) end, --Limit < 100%
 	on_pre_use = function(self, t, silent) if not self:hasTwoHandedWeapon() then if not silent then game.logPlayer(self, "You require a two handed weapon to use this talent.") end return false end return true end,
 	action = function(self, t)
 		local tg = {type="hit", range=self:getTalentRange(t)}

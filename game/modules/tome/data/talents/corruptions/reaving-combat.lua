@@ -24,7 +24,7 @@ newTalent{
 	points = 5,
 	require = str_corrs_req1,
 	-- called by _M:getOffHandMult function in mod\class\interface\Combat.lua
-	getoffmult = function(self,t) return self:combatTalentLimit(t, 1, 0.53, 0.69) end, -- limit <100%
+	getoffmult = function(self,t) return self:combatTalentLimit(t, 1, 0.6, 0.8) end, -- limit <100%
 	on_learn = function(self, t)
 		if self:getTalentLevelRaw(t) == 1 then
 			self:attr("allow_any_dual_weapons", 1)
@@ -69,9 +69,9 @@ newTalent{
 	mode = "passive",
 	require = str_corrs_req3,
 	points = 5,
-	getDiseaseImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.20, 0.75) end, -- Limit < 100%
+	getDiseaseImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.33, 0.7) end, -- Limit < 100%
 	-- called by _M:attackTargetWith in mod.class.interface.Combat.lua
-	getDiseaseSpread = function(self, t) return self:combatTalentLimit(t, 100, 5, 20) end, --Limit < 100%
+	getDiseaseSpread = function(self, t) return self:combatTalentLimit(t, 100, 10, 25) end, --Limit < 100%
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "disease_immune", t.getDiseaseImmune(self, t))
 	end,

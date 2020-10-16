@@ -92,7 +92,7 @@ newTalent{
 	requires_target = true,
 	is_teleport = true,
 	target = function(self, t)
-		return {type="ball", range=self:getTalentRange(t), radius=1, selffire=false, talent=t}
+		return {type="ball", range=self:getTalentRange(t), nolock=true, radius=1, selffire=false, talent=t}
 	end,
 	getBlastTarget = function(self, t)
 		return {type="ball", range=0, radius=1, selffire=false, talent=t}

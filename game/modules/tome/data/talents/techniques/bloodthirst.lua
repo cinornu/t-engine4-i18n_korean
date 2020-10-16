@@ -23,7 +23,7 @@ newTalent{
 	require = techs_req_high1,
 	points = 5,
 	mode = "passive",
-	threshold = function(self,t) return self:combatTalentLimit(t, 10, 45, 25) end, -- Limit >10%
+	threshold = function(self,t) return self:combatTalentLimit(t, 10, 45, 20) end, -- Limit >10%
 	getCrit = function(self, t) return self:combatTalentScale(t, 2.8, 14) end,
 	do_terror = function(self, t, target, dam)
 		if dam < target.max_life * t.threshold(self, t) / 100 then return end
@@ -47,7 +47,7 @@ newTalent{
 		return ([[Your mighty blows inspire utter terror on your foes. Any melee strike you do that deals more than %d%% of the target's total life puts them in a mortal terror, dazing them for 5 turns.
 		Your critical strike chance also increase by %d%%.
 		The daze chance increase with your Physical Power.]]):
-		tformat(t.threshold(self, t), self:getTalentLevelRaw(t) * 2.8)
+		tformat(t.threshold(self, t), t.getCrit(self, t))
 	end,
 }
 
@@ -57,7 +57,7 @@ newTalent{
 	require = techs_req_high2,
 	points = 5,
 	mode = "passive",
-	getHealth = function(self,t) return self:combatTalentLimit(t, 50, 2, 10)  end,  -- Limit max health increase to <+50%
+	getHealth = function(self,t) return self:combatTalentLimit(t, 50, 5, 14)  end,  -- Limit max health increase to <+50%
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 6, 10)) end,
 	getRegen = function (self, t) return self:combatTalentScale(t, 1.7, 5) end,
 	getMax = function(self, t) return 5*self:combatTalentScale(t, 1.7, 5) end,
@@ -112,8 +112,8 @@ newTalent{
 			return val
 		end
 	},
-	getHealPercent = function(self,t) return self:combatTalentLimit(t, 50, 3.5, 17.5) end, -- Limit <50%
-	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3, 6, true)) end, -- Limit < 10
+	getHealPercent = function(self,t) return self:combatTalentLimit(t, 50, 5, 20) end, -- Limit <50%
+	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 10, 3.5, 7)) end, -- Limit < 10
 	action = function(self, t)
 		self:setEffect(self.EFF_UNSTOPPABLE, t.getDuration(self, t), {hp_per_kill=t.getHealPercent(self,t)})
 		return true

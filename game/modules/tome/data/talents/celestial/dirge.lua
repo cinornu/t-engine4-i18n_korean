@@ -99,6 +99,7 @@ newTalent{
 	cooldown = 12,
 	sustain_slots = 'fallen_celestial_dirge',
 	mode = "sustained",
+	getKillEnergy = function(self, t) return self:combatTalentLimit(t, 100, 33, 67) end,
 	callbackOnCrit = function(self, t)
 		if self.turn_procs.fallen_conquest_on_crit then return end
 		self.turn_procs.fallen_conquest_on_crit = true
@@ -113,7 +114,7 @@ newTalent{
 		if self.turn_procs.fallen_conquest_on_kill then return end
 		self.turn_procs.fallen_conquest_on_kill = true
 		
-		self.energy.value = self.energy.value + 500
+		self.energy.value = self.energy.value + t.getKillEnergy(self, t) * 10
 		if core.shader.active(4) then
 			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=true , size_factor=1.5, y=-0.3, img="healgreen", life=25}, {type="healing", time_factor=2000, beamsCount=20, noup=2.0, circleDescendSpeed=3.5}))
 			self:addParticles(Particles.new("shader_shield_temp", 1, {toback=false, size_factor=1.5, y=-0.3, img="healgreen", life=25}, {type="healing", time_factor=2000, beamsCount=20, noup=1.0, circleDescendSpeed=3.5}))
@@ -137,7 +138,7 @@ newTalent{
 		if self:knowTalent(self.T_DIRGE_ADEPT) then
 			clearDirges(self)
 			local t3 = self:getTalentFromId(self.T_DIRGE_ADEPT)
-			self:setEffect(self.EFF_DIRGE_OF_CONQUEST, t3.getDuration(self, t3), {src=self})
+			self:setEffect(self.EFF_DIRGE_OF_CONQUEST, t3.getDuration(self, t3), {power=t.getKillEnergy(self, t), src=self})
 		end
 		
 		return true
@@ -145,8 +146,8 @@ newTalent{
 	info = function(self, t)
 		return ([[Sing a song of violence and victory (mostly violence) and sustain yourself through cruelty.
 Each time you deal a critical strike you gain 10%% of a turn (only once per turn).
-Each time you kill a creature you gain 50%% of a turn (only once per turn).
-]]):tformat()
+Each time you kill a creature you gain %d%% of a turn (only once per turn).
+]]):tformat(t.getKillEnergy(self, t))
 	end,
 }
 
@@ -164,7 +165,17 @@ newTalent{
 		if not self:hasProc("dirge_shield") then
 			if e_def.status == "detrimental" and e_def.type ~= "other" and eff.src ~= self then
 				self:setProc("dirge_shield", true, t.getShieldCD(self, t))
-				self:setEffect(self.EFF_DAMAGE_SHIELD, eff.dur, {color={0xff/255, 0x3b/255, 0x3f/255}, power=self:spellCrit(t.getShield(self, t))})
+				if self:hasEffect(self.EFF_DAMAGE_SHIELD) then
+					local shield = self:hasEffect(self.EFF_DAMAGE_SHIELD)
+					local shield_power = self:spellCrit(t.getShield(self, t))
+					
+					shield.power = shield.power + shield_power
+					self.damage_shield_absorb = self.damage_shield_absorb + shield_power
+					self.damage_shield_absorb_max = self.damage_shield_absorb_max + shield_power
+					shield.dur = math.max(eff.dur, shield.dur)
+				else
+					self:setEffect(self.EFF_DAMAGE_SHIELD, eff.dur, {color={0xff/255, 0x3b/255, 0x3f/255}, power=self:spellCrit(t.getShield(self, t))})
+				end
 			end
 		end
 	end,
@@ -193,7 +204,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		return ([[Sing a song of decay and defiance and sustain yourself through spite.
-							Each time you suffer a detrimental effect, you gain a shield with strength %d, that lasts as long as the effect would.
+							Each time you suffer a detrimental effect, you gain a shield with strength %d, that lasts as long as the effect would.  This will add to and extend an existing shield if possible.
 							This can only trigger once every %d turns]]):tformat(t.getShield(self, t), t.getShieldCD(self, t))
 	end,
 }
@@ -243,10 +254,10 @@ newTalent{
 						local t3 = self:getTalentFromId(self.T_DIRGE_OF_PESTILENCE)
 						ret = ([[Even now, something compels you to sing.
 			Dirge of Famine: Increases health regen by %d.
-			Dirge of Conquest: Gives you part of a turn on critical (10%%) or kill (50%%).
-			Dirge of Pestilence: Shields you for %d when an enemy inflicts a detrimental effect on you.
+			Dirge of Conquest: Gives you part of a turn on critical (10%%) or kill (%d%%).
+			Dirge of Pestilence: Shields you for %d when an enemy inflicts a detrimental effect on you (5 turn cooldown).
 			You may only have one Dirge active at a time.]]):
-						tformat(t1.getRegen(self, t1), t3.getShield(self, t3))
+						tformat(t1.getRegen(self, t1), t2.getKillEnergy(self, t), t3.getShield(self, t3))
 					end)
 		self.talents[self.T_DIRGE_OF_FAMINE] = old1
 		self.talents[self.T_DIRGE_OF_CONQUEST] = old2
@@ -262,7 +273,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	getDamageOnMeleeHit = function(self, t) return self:combatTalentMindDamage(t, 5, 50) * (1 + (1 + self.level)/40) end,
-	getImmune = function(self, t) return math.min(1, self:combatTalentScale(t, 0.05, 0.45, 0.5)) end,
+	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.50) end,
 	info = function(self, t)
 		local damage = t.getDamageOnMeleeHit(self, t)
 		local nostun = t.getImmune(self, t)*100
@@ -279,7 +290,7 @@ newTalent{
 	points = 5,
 	mode = "passive",
 	getDuration = function(self, t) return self:getTalentLevel(t) end,
-	getImmune = function(self, t) return math.min(1, self:combatTalentScale(t, 0.05, 0.45, 0.5)) end,
+	getImmune = function(self, t) return self:combatTalentLimit(t, 1, 0.15, 0.50) end,
 	info = function(self, t)
 		return ([[Your dirges echo mournfully through the air.  When you end a dirge, you continue to gain its acolyte-level effects for %d turns.  You can only benefit from one such lingering dirge at a time.
 

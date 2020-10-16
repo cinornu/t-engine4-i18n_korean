@@ -83,7 +83,7 @@ newTalent{
 		if offshield then tiers = tiers + (offshield.material_level or 1) * 0.5 end
 		return power * tiers
 	end,
-	getBlockCD = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 0, 2)) end,
+	getBlockCD = function(self, t) return math.floor(self:combatTalentLimit(t, 5, 1, 3)) end,
 	on_pre_use = function(self, t, silent)
 		if not self:hasShield() then if not silent then game.logPlayer(self, "You require a shield to use this talent.") end return false end
 		return true

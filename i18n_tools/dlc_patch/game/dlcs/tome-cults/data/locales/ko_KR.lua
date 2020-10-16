@@ -768,7 +768,7 @@ t([[The world inside the tome depicts a castle. At least, it gives the impressio
 Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[고서 안의 세계는 성 한 채를 묘사하고 있습니다. 적어도, 성 같다는 느낌이 듭니다. 고서 내부는 꿈과 같은 느낌을 주며, 당신은 깨어있는지, 아닌지 스스로 되묻게 됩니다. 유리 벽은 얕은 빛으로 일렁이며, 또 셀 수 없이 많은, 그러나 어디서 왔는지 알 수 없는 빛을 투과하고, 반사하고 있습니다.
 
 끊임 없이 변화하고 바뀌는 벽과 길로 보건대, 이 장소는 탐험하기 힘들 것 같다는 확신이 듭니다.]], "_t")
-t("gross", "두꺼운", "entity subtype")
+t("gross", "역겨움", "entity subtype")
 t("misc", "도구", "entity type")
 t("Cut Drem Arm", "잘린 드렘 팔", "entity name")
 t("bloody arm", "피묻은 팔", "_t")
