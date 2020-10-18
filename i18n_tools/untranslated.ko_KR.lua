@@ -741,12 +741,6 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/lore/misc.lua"
--- 1 entries
-t("races", "races", "newLore category")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/zones.lua"
 -- 1 entries
 t("An illustrated tome!", "An illustrated tome!", "_t")
@@ -820,101 +814,6 @@ t("%s", "%s", "tformat")
 section "game/dlcs/tome-orcs/data/lore/gem.lua"
 -- 1 entries
 t("G.E.M", "G.E.M", "newLore category")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/misc.lua"
--- 12 entries
-t("STOP BLOWING OUR COVER", "STOP BLOWING OUR COVER", "_t")
-t([[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
-
-In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, whereever that might be.
-
-My point is, when you're writing those letters, write them like King Tolak's looking over your left shoulder and your grandmother's looking over your right - or at least show SOME semblance of subtlety.  Don't complain about the prices of "illegal potions," complain about "extra-strength medicine."  Don't ask about safety accommodations for "slaves," ask about "private servants."  And please, for the love of Linaniil, [i]stop calling the farportal a farportal![/i]  The A.K. doesn't even know we [i]have[/i] this thing yet, and we don't want to give them any ideas on where or how to start looking.  Call it a courier, or a pack golem, or a trained uruivellas for all I care.
-
--Korbek
-
-PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], [[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
-
-In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, whereever that might be.
-
-My point is, when you're writing those letters, write them like King Tolak's looking over your left shoulder and your grandmother's looking over your right - or at least show SOME semblance of subtlety.  Don't complain about the prices of "illegal potions," complain about "extra-strength medicine."  Don't ask about safety accommodations for "slaves," ask about "private servants."  And please, for the love of Linaniil, [i]stop calling the farportal a farportal![/i]  The A.K. doesn't even know we [i]have[/i] this thing yet, and we don't want to give them any ideas on where or how to start looking.  Call it a courier, or a pack golem, or a trained uruivellas for all I care.
-
--Korbek
-
-PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], "_t")
-t("severed hand", "severed hand", "_t")
-t([[[i](You see here a rotting human hand in a black leather glove, severed at the wrist.  It is still clutching a cracked artifact resembling an Orb of Many Ways, with a note folded up between the orb and its palm.)[/i]
-
-"Drew the short straw" for the calibration [i]my entire ass.[/i]  That cheat used translocation magic and everyone there knew it.  If there's one thing I miss about the Ziguranth, it's that with them around, you only had to watch for sleight-of-hand and wear a mind-caging cap to avoid getting ripped off.
-
-Speaking of ripoffs, why are we trusting this corpse-lover anyway? I guess it WOULD cost more to make a fake this convincing than we paid for it, but...  why would Tannen have made a portal that only works on the living, then used it to pay off a necromancer, [i]the only type of person who'd call that a downside?[/i]
-
-Well, I guess that's what made him a [i]mad[/i] alchemist, and not some rich potion-brewer living comfortably.  Not like anyone can ask him now, except for who we got this altar from.
-
-Anyway...  Korbek, if you're reading this, it means those crotch-heights screwed up again.  Send them back the orb, and hopefully it'll tell them what they need (well, as far as I'm concerned, [i]hopefully[/i] it'll blow them apart).  You got the calibration right on your end, and your poorly-disguised thugs are doing just fine (and stop with the illusions, it's just insulting, we don't care who or what you are as long as your gold glitters).  We just need to get the signal lock straight on our side, and we'll be able to fill the order you sent over, and then some.
-
-Seriously, though, I'm writing this note so even if I get killed from this, I'm doing you a favor.  If I'm dead, I'd appreciate you showing your gratitude by making sure that ankle-biting son-of-a-ritch has played his last game of musical straws.
-]], [[[i](You see here a rotting human hand in a black leather glove, severed at the wrist.  It is still clutching a cracked artifact resembling an Orb of Many Ways, with a note folded up between the orb and its palm.)[/i]
-
-"Drew the short straw" for the calibration [i]my entire ass.[/i]  That cheat used translocation magic and everyone there knew it.  If there's one thing I miss about the Ziguranth, it's that with them around, you only had to watch for sleight-of-hand and wear a mind-caging cap to avoid getting ripped off.
-
-Speaking of ripoffs, why are we trusting this corpse-lover anyway? I guess it WOULD cost more to make a fake this convincing than we paid for it, but...  why would Tannen have made a portal that only works on the living, then used it to pay off a necromancer, [i]the only type of person who'd call that a downside?[/i]
-
-Well, I guess that's what made him a [i]mad[/i] alchemist, and not some rich potion-brewer living comfortably.  Not like anyone can ask him now, except for who we got this altar from.
-
-Anyway...  Korbek, if you're reading this, it means those crotch-heights screwed up again.  Send them back the orb, and hopefully it'll tell them what they need (well, as far as I'm concerned, [i]hopefully[/i] it'll blow them apart).  You got the calibration right on your end, and your poorly-disguised thugs are doing just fine (and stop with the illusions, it's just insulting, we don't care who or what you are as long as your gold glitters).  We just need to get the signal lock straight on our side, and we'll be able to fill the order you sent over, and then some.
-
-Seriously, though, I'm writing this note so even if I get killed from this, I'm doing you a favor.  If I'm dead, I'd appreciate you showing your gratitude by making sure that ankle-biting son-of-a-ritch has played his last game of musical straws.
-]], "_t")
-t("?...secar", "?...secar", "newLore category")
-t("stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "_t")
-t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
-
-.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta  this;revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
-
-.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep thing;aerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf istle;hw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
-
- (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw nimum;im a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti  ages;rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
-
-.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht  stay;feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
-
-.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], [[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
-
-.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta  this;revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
-
-.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep thing;aerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf istle;hw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
-
- (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw nimum;im a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti  ages;rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
-
-.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht  stay;feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
-
-.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], "_t")
-t("Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "_t")
-t([[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
-
-Steam Giants are strikingly similar to what humans would look like, were they 8-10 feet tall and slightly on the stocky side (in contrast to the gangly, yet deceptively strong giants of Daikara).  Their most distinguishing physical trait is almost certainly their steam, for which they are named - their skin has numerous pores and vents which are capable of emitting pressurized steam.  They have limited conscious control over this; at rest they are nearly invisible and emit either a gentle mist or nothing at all, but they can will them to seal shut or distend widely, which, in addition to being rather disconcerting to watch, emits a stream or burst of pressurized steam.
-
-Rather ingeniously, they have figured out how to use this steam to power and operate a wide array of metallic contraptions.  Although the giants' oldest texts have been lost to occasional fires and other disasters, they claim that the first bit of "steam-tech" was a simple whistle; from there, they discovered a sort of pressurized stone-cleaner, and from there more and more complex contraptions.  A similar effect can theoretically be achieved by using a furnace to boil water, but this method requires attention and adjustment that comes as naturally to the Steam Giants as breathing; perhaps it is this intuitive quality that made it so easy for them to accomplish so much with it.
-
-The Steam Giants of the Atmos Tribe have hidden in the Clork mountains for ages; it is truly fortunate for them that the Spellblaze missed them entirely, for they were so concentrated and so few in number that it surely would have eradicated them.  They have kept their interactions with other races to a minimum; while Grand Councilor Kasyros claims this was due to fear of both what the outside world could do to them, and what their careless intervention could do to outsiders, most of the other Atmos I spoke to claimed to merely find the "lesser races" to be boorish and unpleasant.  (This is an entirely understandable view, seeing as their only neighbors until just recently have been Orcs.) 
-
-While this isolation has given them peace to let their society develop, it has also fostered a strain of sophistry and disconnection to reality, according to Kasyros, who has begun open trade with the Sunwall and Allied Kingdoms to grant his citizens some fresh perspective.  I could not hope to fully analyze this society during my brief stay; the only deeper insight worth noting I was able to see is that they value physical fitness almost exactly as much as intellectual pursuits, perhaps owing to the fact that steam-tech can be made more powerful through more efficient construction OR simply being able to force out more steam from one's vents.  Their government, accordingly, is chosen by an apparent compromise between democracy and bloodsport (aside from a brief period under King Traglamar, which Kasyros would only tell me "was deeply embarassing for all involved").  Although I cannot say how it reflects on the Atmos people in a greater sense, I feel I must make special note that they have learned how to make the best absinthe I have ever tasted.
-
-Alas, I was not able to study them for long enough to learn more than this.  Kasyros tells me he cannot accompany me any longer, for he has arranged a meeting with the Hero of Maj'Eyal - something about using an exploratory farportal for disposal purposes?  Whatever the case, although most of our contact with the Atmos is still done via constructs dropped from airships, we will soon gain the opportunity to meet more of them in person, and perhaps outsiders other than myself will soon be allowed to see their cities for themselves.  Their help in crushing the Kruk Rebellion and thwarting their leader's attempts to commandeer [b]IMMOLATUS, IMPUDENT RAVAGER OF THE HEAVENS[/b] has ensured that they will be enduring allies with us for an age to come.]], [[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
-
-Steam Giants are strikingly similar to what humans would look like, were they 8-10 feet tall and slightly on the stocky side (in contrast to the gangly, yet deceptively strong giants of Daikara).  Their most distinguishing physical trait is almost certainly their steam, for which they are named - their skin has numerous pores and vents which are capable of emitting pressurized steam.  They have limited conscious control over this; at rest they are nearly invisible and emit either a gentle mist or nothing at all, but they can will them to seal shut or distend widely, which, in addition to being rather disconcerting to watch, emits a stream or burst of pressurized steam.
-
-Rather ingeniously, they have figured out how to use this steam to power and operate a wide array of metallic contraptions.  Although the giants' oldest texts have been lost to occasional fires and other disasters, they claim that the first bit of "steam-tech" was a simple whistle; from there, they discovered a sort of pressurized stone-cleaner, and from there more and more complex contraptions.  A similar effect can theoretically be achieved by using a furnace to boil water, but this method requires attention and adjustment that comes as naturally to the Steam Giants as breathing; perhaps it is this intuitive quality that made it so easy for them to accomplish so much with it.
-
-The Steam Giants of the Atmos Tribe have hidden in the Clork mountains for ages; it is truly fortunate for them that the Spellblaze missed them entirely, for they were so concentrated and so few in number that it surely would have eradicated them.  They have kept their interactions with other races to a minimum; while Grand Councilor Kasyros claims this was due to fear of both what the outside world could do to them, and what their careless intervention could do to outsiders, most of the other Atmos I spoke to claimed to merely find the "lesser races" to be boorish and unpleasant.  (This is an entirely understandable view, seeing as their only neighbors until just recently have been Orcs.) 
-
-While this isolation has given them peace to let their society develop, it has also fostered a strain of sophistry and disconnection to reality, according to Kasyros, who has begun open trade with the Sunwall and Allied Kingdoms to grant his citizens some fresh perspective.  I could not hope to fully analyze this society during my brief stay; the only deeper insight worth noting I was able to see is that they value physical fitness almost exactly as much as intellectual pursuits, perhaps owing to the fact that steam-tech can be made more powerful through more efficient construction OR simply being able to force out more steam from one's vents.  Their government, accordingly, is chosen by an apparent compromise between democracy and bloodsport (aside from a brief period under King Traglamar, which Kasyros would only tell me "was deeply embarassing for all involved").  Although I cannot say how it reflects on the Atmos people in a greater sense, I feel I must make special note that they have learned how to make the best absinthe I have ever tasted.
-
-Alas, I was not able to study them for long enough to learn more than this.  Kasyros tells me he cannot accompany me any longer, for he has arranged a meeting with the Hero of Maj'Eyal - something about using an exploratory farportal for disposal purposes?  Whatever the case, although most of our contact with the Atmos is still done via constructs dropped from airships, we will soon gain the opportunity to meet more of them in person, and perhaps outsiders other than myself will soon be allowed to see their cities for themselves.  Their help in crushing the Kruk Rebellion and thwarting their leader's attempts to commandeer [b]IMMOLATUS, IMPUDENT RAVAGER OF THE HEAVENS[/b] has ensured that they will be enduring allies with us for an age to come.]], "_t")
-t("races...?", "races...?", "newLore category")
-t("Scholar Graynot's Assessment of the Species, Chapter 83: Wei...", "Scholar Graynot's Assessment of the Species, Chapter 83: Wei...", "_t")
-t("(This note had already caught fire when the paradox anomaly pulled it in from another timeline.  You only had time to read part of the title before it burned away completely.)", "(This note had already caught fire when the paradox anomaly pulled it in from another timeline.  You only had time to read part of the title before it burned away completely.)", "_t")
 
 
 ------------------------------------------------
@@ -4306,85 +4205,8 @@ it will be
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/infinite-dungeon.lua"
--- 16 entries
-t([[There is an inscription here:
-#{italic}#The river flows in its bed of stone...#{normal}#]], [[There is an inscription here:
-#{italic}#The river flows in its bed of stone...#{normal}#]], "_t")
-t([[There is an inscription here:
-#{italic}#...The feather flies gently in the wind.
-The tree's roots run deep...#{normal}#]], [[There is an inscription here:
-#{italic}#...The feather flies gently in the wind.
-The tree's roots run deep...#{normal}#]], "_t")
-t([[There is an inscription here:
-#{italic}#...The eldritch force burns all that lives.#{normal}#]], [[There is an inscription here:
-#{italic}#...The eldritch force burns all that lives.#{normal}#]], "_t")
-t([[There is an inscription here:
-#{italic}#Darkness beyond twilight.
-Crimson from the blood that flows...#{normal}#]], [[There is an inscription here:
-#{italic}#Darkness beyond twilight.
-Crimson from the blood that flows...#{normal}#]], "_t")
-t([[There is an inscription here:
-#{italic}#...Buried in the flow of time.
-Colder than the coldest ice...#{normal}#]], [[There is an inscription here:
-#{italic}#...Buried in the flow of time.
-Colder than the coldest ice...#{normal}#]], "_t")
-t("clue (ruined dungeon)", "clue (ruined dungeon)", "_t")
-t([[There is an inscription here:
-#{italic}#...Unleash dark thoughts.
-Upon this blighted land!#{normal}#]], [[There is an inscription here:
-#{italic}#...Unleash dark thoughts.
-Upon this blighted land!#{normal}#]], "_t")
-t("ruined dungeon", "ruined dungeon", "newLore category")
-t("infinite dungeon (ruined dungeon)", "infinite dungeon (ruined dungeon)", "_t")
-t([[There is an inscription here:
-The deceptive god Ralkur fled before the wrath of the godslayer Branzir and his dark blade Madrath. But though he fled to the depths of the dungeon he came to an end. Seeing himself cornered he used his power to delve deeper into the ground, laying traps and summoning enemies to confound his enemy. But Branzir would not be lost. He pursued his prey ever on, hunting him ever deeper. And Ralkur fled further, and faster, delving to fathoms beyond knowledge, with the godslayer always behind him, hunting relentlessly.
-
-And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.
-
-This passage seems to point to the passage there, it seems to indicate there are no possible exits.
-You should not enter it.]], [[There is an inscription here:
-The deceptive god Ralkur fled before the wrath of the godslayer Branzir and his dark blade Madrath. But though he fled to the depths of the dungeon he came to an end. Seeing himself cornered he used his power to delve deeper into the ground, laying traps and summoning enemies to confound his enemy. But Branzir would not be lost. He pursued his prey ever on, hunting him ever deeper. And Ralkur fled further, and faster, delving to fathoms beyond knowledge, with the godslayer always behind him, hunting relentlessly.
-
-And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.
-
-This passage seems to point to the passage there, it seems to indicate there are no possible exits.
-You should not enter it.]], "_t")
-t([[Branzir was the mightiest of the Sher'Tul hunters, and his fame was known at every Farportal. He could run for days without rest, cross terrain no others would dare to pass, and had senses more keen than all the wildest animals of Eyal. It was for this reason that Caldizar came to him at his forest keep and beseeched him to join in the Godhunt. At first Branzir refused, for he said he was not one to meddle in such mighty affairs, and he wanted but peace to hunt and fend for his family. But Caldizar convinced him that this life of peace was not possible whilst the schemes and machinations of the gods continued. And so reluctantly Branzir accepted, and took in his hands the great sword Madrath, and upon his shoulders was laid the title "Godslayer".
-
-In the great Godhunt that followed Branzir became the most fervent of the Godslayers, and would not sleep nor rest whilst a hunt was on. He it was that chased the troll-spawner Ugg'matho through the snow-capped mountains of Pertolias and broke his body on the highest peak. He it was that tracked the blight-weaver Xadoch through the howling vales of Anvion and trapped him and throttled him and cut him into seven pieces to be cast into the Glonglum lake. And he it was that was tasked with finding and killing Ralkur the Deceptor, god of charms and illusions, who had taken hiding amongst the lesser races.]], [[Branzir was the mightiest of the Sher'Tul hunters, and his fame was known at every Farportal. He could run for days without rest, cross terrain no others would dare to pass, and had senses more keen than all the wildest animals of Eyal. It was for this reason that Caldizar came to him at his forest keep and beseeched him to join in the Godhunt. At first Branzir refused, for he said he was not one to meddle in such mighty affairs, and he wanted but peace to hunt and fend for his family. But Caldizar convinced him that this life of peace was not possible whilst the schemes and machinations of the gods continued. And so reluctantly Branzir accepted, and took in his hands the great sword Madrath, and upon his shoulders was laid the title "Godslayer".
-
-In the great Godhunt that followed Branzir became the most fervent of the Godslayers, and would not sleep nor rest whilst a hunt was on. He it was that chased the troll-spawner Ugg'matho through the snow-capped mountains of Pertolias and broke his body on the highest peak. He it was that tracked the blight-weaver Xadoch through the howling vales of Anvion and trapped him and throttled him and cut him into seven pieces to be cast into the Glonglum lake. And he it was that was tasked with finding and killing Ralkur the Deceptor, god of charms and illusions, who had taken hiding amongst the lesser races.]], "_t")
-t([[Thus began the greatest hunt there ever was. Branzir used forceful coercion and the spilling of blood to uncover the secret of his enemy's hiding place. He tracked Ralkur down to the primitive settlement where he had taken the form of one of the lesser races. Branzir rooted him out, and came upon him with Madrath in hand. But Ralkur seeing the wrath of the hunter and the terrible sword became frightful, and he took on the form of an antelope and fled across the Harloe Plains. But Branzir ran after and ran swifter and nigh caught him before they reached the Woods of Darmin. There Ralkur assumed the form of a monkey and took to the trees. But Branzir tracked him and followed close, overcoming the traps his foe left behind. Then the forest fell away and they came to the Azure Sea, and Ralkur took the form of a gull and flew over the waters cawing with prideful glee. But Branzir was unfazed and leapt into the water, swimming after the cowardly god with all his strength. Twenty days and nights he followed through the ocean, feeding off fish he could catch near the surface, whilst Ralkur beat his wings on the winds above. Not once did Branzir lose sight of his target, and with each passing day Ralkur became more and more filled with fright.
-
-Finally they came to the far shore of Tar'Eyal, and Ralkur fell onto the sandy beach bereft of strength. Depleted of all energy he reverted to his natural form, short and squat, and stumbled across the sand before falling down exhausted. Branzir arose from the water behind, and in spite of his trials he stood tall and fierce, and marched with purpose towards the cowering god. He drew out the fell blade Madrath from its sheath and held it to the throat of his prey.
-
-But Ralkur, in a last desperate effort, took on a pathetic and piteous form, and wailing and crying he begged Branzir for mercy, promising to leave all Eyal and never return. And Branzir, looking on the divine form sunk to such depths, was moved in his heart, and agreed. But he said in a solemn tone, "Get thee then from this world, which we mortals now claim for our own. Remove thyself from all influence in Eyal, and never dare thee to return. But if thou doest break my trust, let thee be afeared. For then not a breath shalt thou take that it will not be a gasp, and not a step shalt thou take that it will not be in flight, and each beat of thy traitorous heart shalt be a pounding of terror. For I shalt come for thee and I shalt find thee and even to the depths of Infinity I shalt hunt thee without rest till my hands are on thy throat and thy life is crushed to dust." And when he spake the wind fell silent and the sky turned black, for when a Sher'Tul speaks so his words become Words of Power, and they can change the world forever. And Ralkur hearing those words was filled with a dread beyond conception, and forgetting all exhaustion he immediately took the form of a swallow and flew high into the sky beyond all sight.]], [[Thus began the greatest hunt there ever was. Branzir used forceful coercion and the spilling of blood to uncover the secret of his enemy's hiding place. He tracked Ralkur down to the primitive settlement where he had taken the form of one of the lesser races. Branzir rooted him out, and came upon him with Madrath in hand. But Ralkur seeing the wrath of the hunter and the terrible sword became frightful, and he took on the form of an antelope and fled across the Harloe Plains. But Branzir ran after and ran swifter and nigh caught him before they reached the Woods of Darmin. There Ralkur assumed the form of a monkey and took to the trees. But Branzir tracked him and followed close, overcoming the traps his foe left behind. Then the forest fell away and they came to the Azure Sea, and Ralkur took the form of a gull and flew over the waters cawing with prideful glee. But Branzir was unfazed and leapt into the water, swimming after the cowardly god with all his strength. Twenty days and nights he followed through the ocean, feeding off fish he could catch near the surface, whilst Ralkur beat his wings on the winds above. Not once did Branzir lose sight of his target, and with each passing day Ralkur became more and more filled with fright.
-
-Finally they came to the far shore of Tar'Eyal, and Ralkur fell onto the sandy beach bereft of strength. Depleted of all energy he reverted to his natural form, short and squat, and stumbled across the sand before falling down exhausted. Branzir arose from the water behind, and in spite of his trials he stood tall and fierce, and marched with purpose towards the cowering god. He drew out the fell blade Madrath from its sheath and held it to the throat of his prey.
-
-But Ralkur, in a last desperate effort, took on a pathetic and piteous form, and wailing and crying he begged Branzir for mercy, promising to leave all Eyal and never return. And Branzir, looking on the divine form sunk to such depths, was moved in his heart, and agreed. But he said in a solemn tone, "Get thee then from this world, which we mortals now claim for our own. Remove thyself from all influence in Eyal, and never dare thee to return. But if thou doest break my trust, let thee be afeared. For then not a breath shalt thou take that it will not be a gasp, and not a step shalt thou take that it will not be in flight, and each beat of thy traitorous heart shalt be a pounding of terror. For I shalt come for thee and I shalt find thee and even to the depths of Infinity I shalt hunt thee without rest till my hands are on thy throat and thy life is crushed to dust." And when he spake the wind fell silent and the sky turned black, for when a Sher'Tul speaks so his words become Words of Power, and they can change the world forever. And Ralkur hearing those words was filled with a dread beyond conception, and forgetting all exhaustion he immediately took the form of a swallow and flew high into the sky beyond all sight.]], "_t")
-t([[Branzir returned to his people, and continued the hunt for the other gods, till but one god remained: Amakthel. Then the last great Godhunt began, as the Sher'Tul fought to overcome their maker and master. And this was no easy feat, for Amakthel was by far the strongest of all the gods, and many Sher'Tul were still loyal to their creator. Much blood was spilled before ever the assault on his throne could begin, and much blood would spill still after.
-
-Now Ralkur had fled into the heavens with the full intent of passing beyond all reach of mortals forever more, such was the fear laid on him by the solemn words of Branzir. But as he soared higher and the fear faded, he came to change his mind, for he was a prideful god and moreso a vengeful one. Thoughts and schemes began to build in his mind for how he could gain retribution on the Sher'Tul that had brought him to shame. So he took on the form of an eagle and flew above the highest volcano in Eyal, and there he stretched his wings and glided high on the rising heat, watching all that happened in the lands below and biding his time for vengeance.
-
-He watched with joy as he saw the Sher'Tul armies fall before the forces of Amakthel's fortress. He watched with anxiety as he saw the Sher'Tul finally break through the defences and come upon the great god himself. He watched with awe as he saw the nine Godslayers do battle with their creator, and several broken before his almighty wrath. And then he watched with utter terror as he saw the mightiest of all gods felled, and maimed and mutilated and bound, and cast into the darkest depths of the world.
-]], [[Branzir returned to his people, and continued the hunt for the other gods, till but one god remained: Amakthel. Then the last great Godhunt began, as the Sher'Tul fought to overcome their maker and master. And this was no easy feat, for Amakthel was by far the strongest of all the gods, and many Sher'Tul were still loyal to their creator. Much blood was spilled before ever the assault on his throne could begin, and much blood would spill still after.
-
-Now Ralkur had fled into the heavens with the full intent of passing beyond all reach of mortals forever more, such was the fear laid on him by the solemn words of Branzir. But as he soared higher and the fear faded, he came to change his mind, for he was a prideful god and moreso a vengeful one. Thoughts and schemes began to build in his mind for how he could gain retribution on the Sher'Tul that had brought him to shame. So he took on the form of an eagle and flew above the highest volcano in Eyal, and there he stretched his wings and glided high on the rising heat, watching all that happened in the lands below and biding his time for vengeance.
-
-He watched with joy as he saw the Sher'Tul armies fall before the forces of Amakthel's fortress. He watched with anxiety as he saw the Sher'Tul finally break through the defences and come upon the great god himself. He watched with awe as he saw the nine Godslayers do battle with their creator, and several broken before his almighty wrath. And then he watched with utter terror as he saw the mightiest of all gods felled, and maimed and mutilated and bound, and cast into the darkest depths of the world.
-]], "_t")
-t([[Seeing the full powers of the Sher'Tul Ralkur felt paralysed with fear, and thought his quest for vengeance hopeless. But he bided his time still, and his patience was rewarded as he saw dissention begin to arise in the great race. When Caldizar disappeared and the Godslayers separated he felt his time was ripe, and he came upon the forest keep of Branzir under a storm of wrath. He flew down screeching, and spreading his wings he let loose spikes of steel that rained down on the keep, cutting through wood and stone and flesh. All who were in the keep were killed, and the air was filled with Ralkur's cackling laughter as he flew away.
-
-But the vengeful god had been hasty at the last, for Branzir was out hunting at the time. Coming back the next day he saw his home in ruins, and all his family and servants butchered, and sorrow and torment filled every corner of his being. On hearing reports of what happened he knew well the perpetrator and his fury was incandescent. He sought the aid of the other Godhunters in scouring out the stray god, but they were all divided, and each engaged in the politics that would lay the seeds for war. Perhaps if they had aided him then the popular Branzir could have helped unify the people and stop the madness that was to come. But Caldizar was gone, reportedly aggrieved and repentant at their acts, and the remaining Godslayers thought only of their own powers and making gods of themselves.]], [[Seeing the full powers of the Sher'Tul Ralkur felt paralysed with fear, and thought his quest for vengeance hopeless. But he bided his time still, and his patience was rewarded as he saw dissention begin to arise in the great race. When Caldizar disappeared and the Godslayers separated he felt his time was ripe, and he came upon the forest keep of Branzir under a storm of wrath. He flew down screeching, and spreading his wings he let loose spikes of steel that rained down on the keep, cutting through wood and stone and flesh. All who were in the keep were killed, and the air was filled with Ralkur's cackling laughter as he flew away.
-
-But the vengeful god had been hasty at the last, for Branzir was out hunting at the time. Coming back the next day he saw his home in ruins, and all his family and servants butchered, and sorrow and torment filled every corner of his being. On hearing reports of what happened he knew well the perpetrator and his fury was incandescent. He sought the aid of the other Godhunters in scouring out the stray god, but they were all divided, and each engaged in the politics that would lay the seeds for war. Perhaps if they had aided him then the popular Branzir could have helped unify the people and stop the madness that was to come. But Caldizar was gone, reportedly aggrieved and repentant at their acts, and the remaining Godslayers thought only of their own powers and making gods of themselves.]], "_t")
+-- 1 entries
 t("infinite dungeon", "infinite dungeon", "newLore category")
-t([[So Branzir set out alone, with Madrath in his sheath. It did not take long to find his prey, who had now stopped all attempts at hiding. He came upon the god in a settlement of lesser creatures who worshipped him, and he ruthlessly cut down the pathetic wretches that tried to protect their new deity. Ralkur fled at the sight of Branzir and his dark blade, filled with all-encompassing fright. But Branzir was not to be lost, and chased him into some nearby ruins. There Ralkur laid traps and summoned enemies and fled deeper into the darkness. But Branzir overcame them all and came on faster, till they reached the depths of the dungeons. And being out of space the god created new space and fled further, and kept on fleeing. And Branzir carried on chasing, not letting up for a second as the pursued god continued to delve deeper into the ground.
-
-And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.]], [[So Branzir set out alone, with Madrath in his sheath. It did not take long to find his prey, who had now stopped all attempts at hiding. He came upon the god in a settlement of lesser creatures who worshipped him, and he ruthlessly cut down the pathetic wretches that tried to protect their new deity. Ralkur fled at the sight of Branzir and his dark blade, filled with all-encompassing fright. But Branzir was not to be lost, and chased him into some nearby ruins. There Ralkur laid traps and summoned enemies and fled deeper into the darkness. But Branzir overcame them all and came on faster, till they reached the depths of the dungeons. And being out of space the god created new space and fled further, and kept on fleeing. And Branzir carried on chasing, not letting up for a second as the pursued god continued to delve deeper into the ground.
-
-And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.]], "_t")
 
 
 ------------------------------------------------
@@ -5712,7 +5534,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 55 entries
+-- 51 entries
 t("tract of destruction", "tract of destruction", "_t")
 t("tract of anarchy", "tract of anarchy", "_t")
 t("tract of acceptance", "tract of acceptance", "_t")
@@ -5901,8 +5723,6 @@ And I saw then in the centre of the world, as it spun and crumpled and crunched,
 Am I going mad? The name “Urh'Rok” still rebounds through my skull and my vision is dimmed. Perhaps I have been wearing this ring too long...
 
 Yes, yes, this is all clearly an illusion! A strange nightmare that I shall wake up from. I shall take the ring off, and go visit the lovely moonstone again. Once I see the stars all shall be well...]], "_t")
-t("races", "races", "newLore category")
-t("shatur", "shatur", "newLore category")
 t("Lament for Lands now Lost", "Lament for Lands now Lost", "_t")
 t([[You see a moss covered statue of a Thalore reciting a poem, over and over.
 #{italic}#"Where bright and berried yews did stand,
@@ -5963,7 +5783,6 @@ Running man, running man
 Now's the time to choose
 Running man, running man
 Your honour or your shoes!]], "_t")
-t("artifacts", "artifacts", "newLore category")
 t("Gifts of Nature", "Gifts of Nature", "_t")
 t([[In Age of Allure rose an archmage high
 With power beyond compare
@@ -6165,7 +5984,6 @@ What does reach us then, are not people, but objects. Artifacts of great power, 
 It is important to remember, that every artifact has a meaning, beings of great power and importance behind them. Stories, that now slowly wane into nothing. This is why it is not artifacts that make an adventurer. It is his great deeds, the will to dare where nobody did before. It is not important if you get known in the process or not, after all, if you were truly great, maybe you will leave behind a legacy of your own.
 
 -#{italic}#Kestin Highfin#{normal}#]], "_t")
-t("point zero", "point zero", "newLore category")
 t("Warden-Master Galsamae's Orientation Notes", "Warden-Master Galsamae's Orientation Notes", "_t")
 t([[Congratulations, sir and/or madam. Whether by invitation, discovering it on your own, or simply being enough of a thorn in our side to recruit rather than dispose of, you have gained the secrets of chronomancy. The ultimate power of time - the ability to reset and try again if you fail, the ability to save time by seeing the results of investigations before they happen. Though our powers are bound to post-Spellblaze Eyal, they are those of nigh-omnipotence with enough patience.
 
@@ -7197,32 +7015,6 @@ t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#PLACED LESSER VAULT: %s", "log")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/talents/celestial/dirge.lua"
--- 3 entries
-t([[Sing a song of violence and victory (mostly violence) and sustain yourself through cruelty.
-Each time you deal a critical strike you gain 10%% of a turn (only once per turn).
-Each time you kill a creature you gain %d%% of a turn (only once per turn).
-]], [[Sing a song of violence and victory (mostly violence) and sustain yourself through cruelty.
-Each time you deal a critical strike you gain 10%% of a turn (only once per turn).
-Each time you kill a creature you gain %d%% of a turn (only once per turn).
-]], "tformat")
-t([[Sing a song of decay and defiance and sustain yourself through spite.
-							Each time you suffer a detrimental effect, you gain a shield with strength %d, that lasts as long as the effect would.  This will add to and extend an existing shield if possible.
-							This can only trigger once every %d turns]], [[Sing a song of decay and defiance and sustain yourself through spite.
-							Each time you suffer a detrimental effect, you gain a shield with strength %d, that lasts as long as the effect would.  This will add to and extend an existing shield if possible.
-							This can only trigger once every %d turns]], "tformat")
-t([[Even now, something compels you to sing.
-			Dirge of Famine: Increases health regen by %d.
-			Dirge of Conquest: Gives you part of a turn on critical (10%%) or kill (%d%%).
-			Dirge of Pestilence: Shields you for %d when an enemy inflicts a detrimental effect on you (5 turn cooldown).
-			You may only have one Dirge active at a time.]], [[Even now, something compels you to sing.
-			Dirge of Famine: Increases health regen by %d.
-			Dirge of Conquest: Gives you part of a turn on critical (10%%) or kill (%d%%).
-			Dirge of Pestilence: Shields you for %d when an enemy inflicts a detrimental effect on you (5 turn cooldown).
-			You may only have one Dirge active at a time.]], "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/talents/chronomancy/induced-phenomena.lua"
 -- 11 entries
 t("Cosmic Cycle", "Cosmic Cycle", "talent name")
@@ -7369,72 +7161,9 @@ t([[%s (%s)
 
 
 ------------------------------------------------
-section "game/modules/tome/data/talents/cunning/survival.lua"
--- 1 entries
-t([[You have an enhanced sense of self preservation, and your keen intuition allows you to sense dangers others miss.
-		Your ability to detect traps is enhanced (+%d detect 'power').
-		Critical attacks against you have %0.1f%% reduced bonus damage, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
-		You also gain an additional chance (at your normal save %+d, effective) to resist detrimental status effects that can be resisted.
-		The detection and additional save chance improve with Cunning.]], [[You have an enhanced sense of self preservation, and your keen intuition allows you to sense dangers others miss.
-		Your ability to detect traps is enhanced (+%d detect 'power').
-		Critical attacks against you have %0.1f%% reduced bonus damage, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
-		You also gain an additional chance (at your normal save %+d, effective) to resist detrimental status effects that can be resisted.
-		The detection and additional save chance improve with Cunning.]], "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/talents/cunning/traps.lua"
 -- 1 entries
 t(" (%s)", " (%s)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/cursed/bloodstained.lua"
--- 1 entries
-t([[Teleport to an enemy, striking them for 100%% weapon damage, bleeding them for %d%% weapon damage over five turns, and marking them for six turns. You will not teleport if you are already adjacent.
-
-When the marked enemy dies, the cooldown of this talent will be reduced by two turns for every turn the mark had remaining.
-
-Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[Teleport to an enemy, striking them for 100%% weapon damage, bleeding them for %d%% weapon damage over five turns, and marking them for six turns. You will not teleport if you are already adjacent.
-
-When the marked enemy dies, the cooldown of this talent will be reduced by two turns for every turn the mark had remaining.
-
-Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/cursed/crimson-templar.lua"
--- 4 entries
-t([[You displace %d%% of any damage you receive onto a random bleeding enemy within range 5. This redirected damage is amplified by %d%%.
-
-#{italic}#All living things are linked by blood. It is one river, flowing through all.#{normal}#]], [[You displace %d%% of any damage you receive onto a random bleeding enemy within range 5. This redirected damage is amplified by %d%%.
-
-#{italic}#All living things are linked by blood. It is one river, flowing through all.#{normal}#]], "tformat")
-t([[When you kill an enemy, their death forms a cursed magical pattern on the ground. This creates a circle of radius %d which blinds enemies and deals them %0.2f light damage, while giving you %d positive energy per turn. The circle lasts for %d turns.
-							The damage will increase with your Spellpower.
-							The duration of the circle can be increased by a critical hit.
-							The blind chance increases with your Spellpower.
-							You can activate this talent to draw the pattern in your own blood, creating it underneath you at the cost of %d%% of your maximum life.
-]], [[When you kill an enemy, their death forms a cursed magical pattern on the ground. This creates a circle of radius %d which blinds enemies and deals them %0.2f light damage, while giving you %d positive energy per turn. The circle lasts for %d turns.
-							The damage will increase with your Spellpower.
-							The duration of the circle can be increased by a critical hit.
-							The blind chance increases with your Spellpower.
-							You can activate this talent to draw the pattern in your own blood, creating it underneath you at the cost of %d%% of your maximum life.
-]], "tformat")
-t([[Dooms all enemies within a radius 2 ball for 20 turns. Each time an affected target uses a talent, it takes %0.2f physical damage as its life is drawn out. In addition, any bleed applied to the target will have its power increased by %d%%.
-							The damage will increase with your Spellpower.
-							The chance to apply will increase with your Spellpower.]], [[Dooms all enemies within a radius 2 ball for 20 turns. Each time an affected target uses a talent, it takes %0.2f physical damage as its life is drawn out. In addition, any bleed applied to the target will have its power increased by %d%%.
-							The damage will increase with your Spellpower.
-							The chance to apply will increase with your Spellpower.]], "tformat")
-t([[Draw on the wounds of enemies within range 10, healing yourself and putting them into a merciful sleep.
-							The sleep chance increases with your Spellpower.
-							You are healed for %d%% of the remaining damage of bleed effects on enemies in range (minimum %d per bleed). Enemies fall asleep for %d turns longer than their longest-lasting bleed, rendering them unable to act. The strength of the sleep effect is based on the strength of the bleed. Excess damage will reduce their sleep duration.
-							
-							When the sleep ends, each target will benefit from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it 50%% sleep immunity.]], [[Draw on the wounds of enemies within range 10, healing yourself and putting them into a merciful sleep.
-							The sleep chance increases with your Spellpower.
-							You are healed for %d%% of the remaining damage of bleed effects on enemies in range (minimum %d per bleed). Enemies fall asleep for %d turns longer than their longest-lasting bleed, rendering them unable to act. The strength of the sleep effect is based on the strength of the bleed. Excess damage will reduce their sleep duration.
-							
-							When the sleep ends, each target will benefit from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it 50%% sleep immunity.]], "tformat")
 
 
 ------------------------------------------------
@@ -7456,40 +7185,8 @@ t([[Bathes the target in raw magic inflicting %d damage. Such wild magic is diff
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/cursed/self-hatred.lua"
--- 5 entries
-t([[At the start of each turn, if you're bleeding, you gain %d hate.
-
-You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
-
-#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[At the start of each turn, if you're bleeding, you gain %d hate.
-
-You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
-
-#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], "tformat")
-t([[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
-
-#{italic}#Anger makes you strong. And you're always angry.#{normal}#]], [[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
-
-#{italic}#Anger makes you strong. And you're always angry.#{normal}#]], "tformat")
+-- 1 entries
 t("#CRIMSON#%d#LAST#", "#CRIMSON#%d#LAST#", "tformat")
-t([[Call upon your deepest reserves of strength to win no matter the cost. 
-Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed. 
-This bonus cooldown occurs even if your talents would not normally cool down.
-This talent deactivates automatically upon rest.
-This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
-
-#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[Call upon your deepest reserves of strength to win no matter the cost. 
-Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed. 
-This bonus cooldown occurs even if your talents would not normally cool down.
-This talent deactivates automatically upon rest.
-This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
-
-#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], "tformat")
-t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
-
-#{italic}#You can't just die. That would be too easy. You deserve to die slowly.#{normal}#]], [[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
-
-#{italic}#You can't just die. That would be too easy. You deserve to die slowly.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -7634,16 +7331,6 @@ t([[A life of the mind has had predictably good effects on your Willpower and Cu
 
 
 ------------------------------------------------
-section "game/modules/tome/data/talents/psionic/mentalism.lua"
--- 1 entries
-t([[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.1f or %d%% of the object's material level (whichever is lower).
-		This effect stacks and applies for each qualifying object worn.
-		Current bonus: %d]], [[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.1f or %d%% of the object's material level (whichever is lower).
-		This effect stacks and applies for each qualifying object worn.
-		Current bonus: %d]], "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/talents/psionic/psi-archery.lua"
 -- 6 entries
 t("Thought-quick Shot", "Thought-quick Shot", "talent name")
@@ -7685,25 +7372,10 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/spells/thaumaturgy.lua"
--- 4 entries
+-- 3 entries
 t("#LIGHT_BLUE#%s [known, eligible]#LAST#", "#LIGHT_BLUE#%s [known, eligible]#LAST#", "tformat")
 t("#YELLOW#%s [known]#LAST#", "#YELLOW#%s [known]#LAST#", "tformat")
 t("#GREY#%s [unknown]#LAST#", "#GREY#%s [unknown]#LAST#", "tformat")
-t([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
-		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
-		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
-		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
-		The additional cast will cost mana but no turn, will not active its cooldown and can trigger on spells currently on cooldown.
-		During Aether Avatar only compatible spells are used.
-
-		Eligible spells: %s]], [[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
-		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
-		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
-		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
-		The additional cast will cost mana but no turn, will not active its cooldown and can trigger on spells currently on cooldown.
-		During Aether Avatar only compatible spells are used.
-
-		Eligible spells: %s]], "tformat")
 
 
 ------------------------------------------------
@@ -7713,16 +7385,6 @@ t("Heat", "Heat", "talent name")
 t([[Turn part of your target into fire, burning the rest for %0.2f fire damage over 8 turns.
 		The damage will increase with your Spellpower.]], [[Turn part of your target into fire, burning the rest for %0.2f fire damage over 8 turns.
 		The damage will increase with your Spellpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/techniques/combat-training.lua"
--- 1 entries
-t([[You learn to maintain your agility and manage your combat posture while wearing robes or light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
-		In addition, when you step adjacent to a (visible) enemy, you use the juxtaposition to increase your total Defense by %d for 2 turns.
-		The Defense bonus scales with your Dexterity.]], [[You learn to maintain your agility and manage your combat posture while wearing robes or light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
-		In addition, when you step adjacent to a (visible) enemy, you use the juxtaposition to increase your total Defense by %d for 2 turns.
-		The Defense bonus scales with your Dexterity.]], "tformat")
 
 
 ------------------------------------------------
@@ -7741,52 +7403,6 @@ t([[%s
 #YELLOW#%s#LAST#
 %s
 ]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/uber/wil.lua"
--- 1 entries
-t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
-		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
-		
-		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
-
-		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
-
-		The following talent trees are swapped:
-		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
-		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
-
-		You will learn the following talents trees:
-		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
-		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
-		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
-		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
-
-		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
-		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], [[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
-		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
-		
-		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
-
-		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
-
-		The following talent trees are swapped:
-		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
-		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
-
-		You will learn the following talents trees:
-		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
-		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
-		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
-		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
-
-		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
-		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], "tformat")
 
 
 ------------------------------------------------

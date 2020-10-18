@@ -2025,19 +2025,19 @@ ALSO EFFECTIVE FOR: Headaches, nausea, ennui, fatigue, aches and pains, and gene
 #{italic}#[A disclaimer occupies the bottom margin of the poster, in print so small you doubt the giants would be able to read it.]#{normal}#
  
 WARNING: This product has been determined by the Council of Health Authority to be correlated with the following conditions: Inverse vertigo, increased hair flammability, non-vaporous sweating, night terrors, liver dysphoria, headaches, miner's lung, brainlock, day terrors, mitosis, visions of a great butchered being, miner's elbow, skeletal emancipation, gastrointestinal infamy, brittle kidney, pinaciphobia, decreased global speed, teleportitis, miner's tongue, merged nostrils, an ancient and foul curse, lowered steam pressure, fat burning (literal), ocular feathering, Orcish body odor, arcane disruption, gravity loss, bloodlock, malfeasance, rectal carpeting, nihilism, mid-evening terrors, knee rust, and minor clogging of the pores.]], [[#{bold}#이제 안 막혀요!#{normal}#
-증기 환풍구가 막혀서 스트레스시라구요? 그런 당신을 위해 준비했습니다!
+증기구가 막혀서 스트레스시라구요? 그런 당신을 위해 준비했습니다!
  
 #{italic}#[각진 유리병의 그림이 그려져 있습니다. 병에는 "닥터 래글럭의 뻥뚫어 약" 이라 적힌 딱지가 붙어 있습니다.]#{normal}#
  
 애정과 걱정, 그리고 증기 채굴장에서 구할 수 있는 가장 순수한 광물질 함유!!
  
-딱 한 방울이면 여러분의 환풍구에서 독소를 증기와 함께 날려버리고, 깨끗하게 만들어줍니다!
+딱 한 방울이면 여러분의 증기구에서 독소를 증기와 함께 날려버리고, 깨끗하게 만들어줍니다!
  
 이 약은 두통, 메스꺼움, 권태감, 피로, 쑤심, 고통, 그리고 그 외 일반적인 문제들에도 효과적이랍니다!
  
 #{italic}#[알림 사항이 포스터 아랫부분 여백에 빼곡하게 적혀 있지만, 너무 깨알같이 적혀 있어서 거인들은 절대로 읽지 못할 거라는 생각이 들었습니다.]#{normal}#
  
-경고: 보건 당국 평의회에서는 이 상품이 다음과 같은 현상들과 관계가 있다는 결론을 내렸습니다 - 강렬한 현기증, 모발의 가연성 증가, 비기화성 발한, 밤 공포증, 간 이상, 두통, 탄폐증, 사고 정지, 낮 공포증, 체세포 이상 분열, 토막난 시체가 보이는 환각, 팔꿈치 염증, 뼈 이탈증, 소화기질환, 신장질환, 목록 공포증, 전체속도 감소, 의도하지 않은 순간이동, 혀 탄화증, 콧구멍 결합증, 고대의 역겨운 저주, 증기압 감소, 지방 연소(문자 그대로), 눈 주위 털 증가, 오크체취증, 마법 방해, 중력 저하, 혈류 정지, 부정행위, 창자 코팅, 허무주의, 저녁 공포증, 무릎 골병, 그리고 환풍구 막힘.]], "_t")
+경고: 보건 당국 평의회에서는 이 상품이 다음과 같은 현상들과 관계가 있다는 결론을 내렸습니다 - 강렬한 현기증, 모발의 가연성 증가, 비기화성 발한, 밤 공포증, 간 이상, 두통, 탄폐증, 사고 정지, 낮 공포증, 체세포 이상 분열, 토막난 시체가 보이는 환각, 팔꿈치 염증, 뼈 이탈증, 소화기질환, 신장질환, 목록 공포증, 전체속도 감소, 의도하지 않은 순간이동, 혀 탄화증, 콧구멍 결합증, 고대의 역겨운 저주, 증기압 감소, 지방 연소(문자 그대로), 눈 주위 털 증가, 오크체취증, 마법 방해, 중력 저하, 혈류 정지, 부정행위, 창자 코팅, 허무주의, 저녁 공포증, 무릎 골병, 그리고 증기구 막힘.]], "_t")
 t("tattered poster", "너덜너덜한 포스터", "_t")
 t([[CLOSING SALE
 for
@@ -2099,7 +2099,7 @@ Thank you for helping ensure we ALL have power, while we work on curing this sho
 
 -파이프들을 정기적으로 점검하세요. 새고 있는 밸브나 느슨한 부속품들은 어마어마한 양의 증기를 낭비시킬 수 있습니다. 가정용 증기 파이프는 3년마다 한 번씩만 점검하면 되지만, 추가 검사는 무료입니다 (6개월에 한 번씩). 이런 검사를 한 번씩 해 주기만 해도 지열 소모량은 물론 증기 요금 또한 획기적으로 줄일 수 있습니다.
 
--증기를 만들어 써 보세요! 평소에 규칙적으로 운동을 하고 있고 식단을 신경쓰고 있으셨다면, 수집 슈트를 착용하시고 가압 저장 탱크와 가정의 흡입 밸브를 연결하면 지열 시스템에 의한 에너지 사용량을 40% 이상 절감할 수 있습니다 (개인 생산량에 따라 다름). 구멍 청소약을 적당히 사용하는 것도 도움이 될 수 있지만, 장기간 사용 시 일반적으로 부작용을 초래합니다.
+-증기를 만들어 써 보세요! 평소에 규칙적으로 운동을 하고 있고 식단을 신경쓰고 있으셨다면, 수집 슈트를 착용하시고 가압 저장 탱크와 가정의 흡입 밸브를 연결하면 지열 시스템에 의한 에너지 사용량을 40% 이상 절감할 수 있습니다 (개인 생산량에 따라 다름). 증기구 청소약을 적당히 사용하는 것도 도움이 될 수 있지만, 장기간 사용 시 일반적으로 부작용을 초래합니다.
 
 -절대로 증기꼭지로 탱크에 압력을 가하지 마세요! 또, 그걸 타인에게 팔지 마세요! 의회법 위반 행위이며, 탱크 하나 당 3,000 골드 이하의 벌금, 그리고 4년 이하의 징역에 처합니다.
 
@@ -2159,7 +2159,7 @@ t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Ex
 
 #{italic}#(문이 닫혔습니다.)#{normal}#
 
-"...그래, 탄탈로스 의원은 차를 즐기려 한다. 놈이 벌집을 발로 까서 우릴 이 혼돈의 도가니로 던져 놓았던 걸, 없던 일로 할 수 있다는 걸 알게 되자마자. 뭐, 기록을 계속해 보면... 시간 맞춰서 출발했고, 궁전 바로 아래에서부터 굴을 파내서, 충신이 마지막으로 있었다고 알려진 위치로 현재 이동 중이다. 전 시스템 정상 작동 중, 차 끓이는 기계 빼고. 그거에 대해서는 뭐라 할 말이 없다. 기록 끝."]], "_t")
+"...그래, 탄탈로스 의원은 차를 즐기려 한다. 자기가 벌집을 발로 까서 우릴 이 혼돈의 도가니로 던져 놓았던 걸, 없던 일로 할 수 있다는 걸 알게 되자마자. 뭐, 기록을 계속해 보면... 시간 맞춰서 출발했고, 궁전 바로 아래에서부터 굴을 파내서, 충신이 마지막으로 있었다고 알려진 위치로 현재 이동 중이다. 전 시스템 정상 작동 중, 차 끓이는 기계 빼고. 그거에 대해서는 뭐라 할 말이 없다. 기록 끝."]], "_t")
 t("strange black disk (2)", "이상한 검정색 원판 (2)", "_t")
 t([["...for posterity!  Let's make sure future generations can hear the moments of history being made!" You hear the voice of Councillor Tantalos again... and then you hear a very strange voice, one that's all too clear. Even with the device playing it, it sounds like it's coming from inside your own head.#{normal}#
 
@@ -2558,7 +2558,97 @@ Say the word, and I'll send over the temporary rune design so you can set the ne
 말만 하면, 시스템에다 맞출 수 있게 그 룬의 임시 도안을 보내 주겠다. 뭔가 대가를 지불할 필요도 없다 - 당신네가 수락만 해 준다면.
 
 [i](아래쪽에 찍혀서 빛을 내고 있는 정교한 문양은 오우거들이 서명을 하는 데 쓰는 게 아닌가 하는 생각이 들었습니다.)[/i] ]], "_t")
+t("STOP BLOWING OUR COVER", "작작 떠벌리고 다녀라", "_t")
+t([[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
+
+In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, whereever that might be.
+
+My point is, when you're writing those letters, write them like King Tolak's looking over your left shoulder and your grandmother's looking over your right - or at least show SOME semblance of subtlety.  Don't complain about the prices of "illegal potions," complain about "extra-strength medicine."  Don't ask about safety accommodations for "slaves," ask about "private servants."  And please, for the love of Linaniil, [i]stop calling the farportal a farportal![/i]  The A.K. doesn't even know we [i]have[/i] this thing yet, and we don't want to give them any ideas on where or how to start looking.  Call it a courier, or a pack golem, or a trained uruivellas for all I care.
+
+-Korbek
+
+PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], [[우리도 안다, 장거리 차원문을 이용한 우편 체계가 완벽하지 않은 게 우리 탓이라는 걸 안다고.  너희들의 차원문이 생물 말고 아무것도 전송시키지 못하고 있는 건 조잡하게 땜빵 쳤던 설정 때문이고, 우리 쪽 사람들이 그걸 되돌리려고 부단하게 노력하고 있다. 그리고 지금 우리가 뭘 잘못 건드리게 되면, 사람들이 또다시 벽 속으로 순간이동되기 시작할 거다.  지금도 반대편으로 나왔을 때, 갖고 있던 배낭이랑 그 내용물은커녕 옷이나 제대로 걸치고 있으면 존나 기적이란 말이다.
+
+그러고 있는 동안에도, 우리가 차원문에 밀어넣는 편지들 중 몇 통이 사라지고 있다. 그리고 그 편지들은 말 그대로 '어디로든' 순간이동될 수 있지.  차원문에서 3미터 떨어진 곳이든, 왕.연. 의 공사다망하신 분들 손바닥 위에든, 어쩌면 울흐'록의 콧구멍에다가 꽂힐 수도 있겠군.  즉, 거기다가 뭘 써 놓든 간에 너희들한테 전혀 달갑지 않은 놈의 손에 떨어질 수도 있단 말이다. 그게 어디 사는 누구든지 간에.
+
+요점은 이거다. 그런 편지를 쓸 때는, 톨락 국왕 나으리랑 너희들 할머니가 사이좋게 등 뒤에서 지켜보고 있다는 생각을 하면서 써야 한다는 거다. 아니면 좀 교묘하게라도 써 놓든지.  "불법 물약" 의 가격에 대해서 불평하지 말고, "강장제" 에 대해서 불평해라.  안전한 "노예" 시설에 대해서 묻지 말고, "개인 하인" 에 대해서 물어보란 말이다.  그리고, 리나니일의 사랑에다 걸고 말하는데, [i]제발 장거리 차원문을 장거리 차원문이라고 부르지 마라![/i]  왕.연. 은 우리가 이걸 [i]갖고[/i] 있다는 것도 모르고 있고, 놈들에게 굳이 우릴 추적할 단서를 만들어 주고 싶지도 않다.  그러니까 배달부든, 짐 싸주는 골렘이든, 길들인 우뤼벨라스든 뭐든 상관없으니 좀 다르게 불러라.
+
+-코르벡
+
+추신: 그래, 나도 내가 하지 말라고 하는 것들 여기다가 다 써놓은 거 알고 있다 - 너희들 같은 멍청이들은 돌려서 말하면 확실하게 알아듣질 못하니, 완곡하게 써 놓은 편지를 알아먹을 거라고는 기대 안 해서 그랬다.  그래, 나도 이 편지가 다른 놈 손에 떨어질 수도 있다는 거 알고 있다.  아니, 난 그딴 아이러니는 신경 안 쓴다.  그래, 내가 방금 앞에다 써 놓은 이야길 꺼내는 "똑똑한" 놈이 있으면 그놈부터 병신을 만들어 주겠다.]], "_t")
 t("var'eyal", "바르'에이알", "newLore category")
+t("severed hand", "잘린 손", "_t")
+t([[[i](You see here a rotting human hand in a black leather glove, severed at the wrist.  It is still clutching a cracked artifact resembling an Orb of Many Ways, with a note folded up between the orb and its palm.)[/i]
+
+"Drew the short straw" for the calibration [i]my entire ass.[/i]  That cheat used translocation magic and everyone there knew it.  If there's one thing I miss about the Ziguranth, it's that with them around, you only had to watch for sleight-of-hand and wear a mind-caging cap to avoid getting ripped off.
+
+Speaking of ripoffs, why are we trusting this corpse-lover anyway? I guess it WOULD cost more to make a fake this convincing than we paid for it, but...  why would Tannen have made a portal that only works on the living, then used it to pay off a necromancer, [i]the only type of person who'd call that a downside?[/i]
+
+Well, I guess that's what made him a [i]mad[/i] alchemist, and not some rich potion-brewer living comfortably.  Not like anyone can ask him now, except for who we got this altar from.
+
+Anyway...  Korbek, if you're reading this, it means those crotch-heights screwed up again.  Send them back the orb, and hopefully it'll tell them what they need (well, as far as I'm concerned, [i]hopefully[/i] it'll blow them apart).  You got the calibration right on your end, and your poorly-disguised thugs are doing just fine (and stop with the illusions, it's just insulting, we don't care who or what you are as long as your gold glitters).  We just need to get the signal lock straight on our side, and we'll be able to fill the order you sent over, and then some.
+
+Seriously, though, I'm writing this note so even if I get killed from this, I'm doing you a favor.  If I'm dead, I'd appreciate you showing your gratitude by making sure that ankle-biting son-of-a-ritch has played his last game of musical straws.
+]], [[[i](손목 쪽에서 잘린 인간의 손이 있습니다. 검은색 가죽 장갑을 끼고 있고, 썩어가고 있습니다.  여러 장소로의 오브와 비슷하게 생겼고 금이 가 있는 유물을 쥐고 있었는데, 손바닥이랑 오브 사이에 쪽지가 하나 끼어 있습니다.)[/i]
+
+"제비를 잘못 뽑아서" 교정 작업을 하게 됐어. [i]제대로 부려먹히고 있다고.[/i]  위치 전환 마법을 써서 속임수를 쓴 거였고, 그 자리에 있던 녀석들도 다 한통속이었어.  지구랏에서 일하다 보니까, 그런 녀석들이랑 한 판 벌일 때는 정신 보호 모자를 쓰고 녀석들이 하는 짓을 잘 보고 있어야 바가지를 안 쓴다는 걸 까먹고 있었어.
+
+바가지 얘기가 나와서 말인데, 우리가 왜 이런 시체 애호가 놈을 믿고 있는 거지? 이게 가짜라면, 이걸 만드는 비용이 우리한테 판 값보다 훨씬 더 비쌀 것 같긴 한데, 그래도...  탄넨은 왜 살아 있는 것만 통과할 수 있는 차원문을 만들었고, 왜 또 그걸 하필 강령술사 놈들한테 - [i]살아 있다는 걸 단점이라고 보는 유일한 족속들[/i]한테 보수로 넘겼을까?
+
+뭐, 그러니까 [i]미치광이[/i] 연금술사 소릴 듣게 됐고, 떵떵거리면서 편하게 사는 물약 장인도 아닌 거겠지만.  이제와선 탄넨한테 사정을 들을 수 있는 놈도 없어. 우리가 이 차원문을 얻어 낸 녀석을 빼면 말이야.
+
+아무튼... 코르벡, 지금 이걸 읽고 있다면, 그 '밑단 줄이기' 가 또 망했다는 뜻이겠지.  이 오브를 놈들한테 돌려줘. 이게 놈들이 알고 싶어 하는 걸 가르쳐 줬으면 좋겠네 (뭐, 개인적으로는 그 오브가 놈들을 아주 산산조각 냈으면 [i]좋겠지만[/i]).  그쪽에선 교정이 잘 끝났고, 변장 더럽게 못 하는 네 패거리들도 잘 하고 있어 (그리고 환영을 씌우는 짓거린 관둬라, 사람 놀리는 것도 아니고. 돈만 잘 주면 우린 네가 누구든지, 무엇이든지 상관없다고).  그냥 우리 쪽에서 신호를 잠글 수만 있으면 되고, 그럼 네가 보내는 지령들도 다 수행할 수 있고, 여러 가지로 잘 할 수 있다는 거야.
+
+뭐 그래도 진지한 이야기를 해 보자면, 내가 지금 이 쪽지를 쓰고 있는 건 내가 일을 하다가 목이 날아가더라도, 네가 부탁한 일은 끝마치려고 그런 거야.  만약에 내가 죽으면, 감사의 표시로 고작 제비뽑기에다가 장난질을 한 그 애송이 새끼를 확실하게 손봐주면 정말 감사하겠어.
+]], "_t")
+t("?...secar", "?...족종", "newLore category")
+t("stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "인거 기증 :84 터챕 ,가평 족종 의낫이래그 자구탐", "_t")
+t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
+
+.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta  this;revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
+
+.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep thing;aerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf istle;hw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
+
+ (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw nimum;im a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti  ages;rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
+
+.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht  stay;feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
+
+.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], [[.다이것 던셨하탁부 고라달 해구연 도서해대 에들족동 ,고셨되 게알 로으적략대 해대 에들족종 른다 은않 지하숙익 게에들족동 는고시보어읽 을들품작 던썼 가내 서께장원의 스로시카 ,도게좋운 말정  .다하능가불 상실사 은것 는하용이 을문원차 는하통 로으륙대 의쪽동 이들민시 한범평 ,상이 닌아 이인상 한유부 로도정 을있 수 일먹 을물뇌 테한들병비경 면니아 ,나거이연혈 의하폐 왕국 락톨 ,나거이민시 의벽장 의양태 .다었니아 건 던웠쉬 게 는하구연 서해 고다었있 이까가  !니다었있 어숨 에곳 운까가 게렇이 이명문 한보진 나게렇이
+
+.다있 도수 킬시발폭 나거내어뿜 쭉 를기증 된축압 ,만지하 긴이경광 운러스황당 나꽤 .다있 도수 열 게크 더 나거리버 아닫 예아 을들것그 은들인거 기증 ,만지없 도저마그 나거오나어새 나도정 개안 은옅 야해껏기 고않 지이보 의거 는에시상평 은들구기증 .다있 수 할어제 도정 느어 을들것그 은들인거 기증  .다있 수 낼어뿜 를기증 된축압 은들구기증 그 ,고있 려뚫 이들구기증 과멍구 은많 히수무 는에부피 의들그 .다기증 ,는있 어붙 도에름이 ,히연당 은징특 는띄 에눈 장가 .(다이적조대 록도랍놀 는과들인거 의라카이다 한인강 로도정 을없 수 을믿) 다있 이면 진부다 짝살 은격체 .만지하 긴크 로도정 mc003 - mc042 가키 .다았닮 과족간인 록도랍놀 는새김생 의족인거 기증
+
+?까닐아 이것 던었있 수 할룩이 게쉽손 을명문 된전발 로도고 나게렇그 에분덕 력관직 런이 .다있 수 할 게럽스연자 럼처것 는쉬숨 을정조 한밀세 그 은들인거 기증 고리그 .다하요필 이정조 한밀세 면려하용이 를과효 그 ,만지테 날타나 가과효 은같똑 도서해통 를로화 는이끓 을물 는로으상론이  .다한 고다냈어들만 을들치장 한잡복 점점 로으식 런그 ,고내 해안고 을것 른다 터부로으것그 가가군누 또 ,고했안고 를치장 는우치 돌 한용이 을력압 의기증 가가군누 터부로으것그 .다한 고다였기라루호 한순단 는초시 의 "학공 기증" 이 는로말 들그 ,만지렸버 어되실소 해인 로들앙재 러여 외 그 와재화 은잦 은들헌문 옛 의들인거  .다냈 해안고 을법 는루다 을들치장 속금 한양다 여하용이 를기증 이 은들그 ,도게하발기
+
+ (.다이문때 기었없 에밖 크오 은족종 한만 할 고라이웃이 의들그 에근최 ,게 는되 가해이)  .다했장주 고라이문때 기하쾌불 고럽스만야 이 "들족종 한등열" 저그 분부대 은들원족부 스모트아 른다 ,만지셨하 고라이문때 기렵두 한또 향영 는있 수 줄 에상세 깥바 이들신자 고이론물 은것 운려두 이들이 의상세 깥바 선께장원의 스로시카 .다있 고하 만류교 의한소최 는과들족종 른다 히전여 은들그  .다이문때 기이것 을었했종멸 게하실확 면다았받 를해피 의발폭법마 ,에문때 기았살 서여모 무너 고었적 도체자 자숫 은들그 면하냐왜 .다었이운행 로실 게 던있 나어벗 히전완 서에위범 의발폭법마 ,면보 서에장입 의들그 .다았살 어숨 에산 크로클 안동랫오 우매 은들인거 기증 의족부 스모트아
+
+.다였고최 중 들것 본맛 지까때이 가내 .다겠야놔 써 꼭 걸 는다었있 고알 을법 는드만 를트생압 한륭훌 은들그 ,만지겠르모 는지는있 고하영반 나마얼 을질성 의들람사 스모트아 게이 ,또 고리그  .(다했기야이 만고라 "다했워러스혹당 히심 두모 이들이 된련관" 는씨 스로시카 .고빼 은간기 치통 은짧 의왕 르마라글라트) .다된출선 로으식방 한충절 를다바피 와의주주민 도봐 가누 은들인요 부정 의들그 서라따  .다이것 일문때 기하능가 도내어뿜 를기증 은많 더 서에구기증 의인개개 저그 ,고니아 이만뿐 것 는내어들만 를치장 인적율효 더 이법방 는드만 게하력강 욱더 을학공 기증 는이 .다었이점 는다한시요중 나이큼만구탐 적지 한또 련단 의체육 은들인거 기증 ,은것 던었있 수 할인확 게깊 도심 게하일유 가내 .다않 진같 것 을있 수 할석분 게하벽완 를회사 이 에문때 기짧 은간기 는있 수 물머 에곳이 가내  .다한 고다였서해위 기하사선 을점관 한선신 좀 게에들족동 런그 건 한작시 을역무 개공 의과합연국왕 과벽장 의양태 이분그 .다했말 고다었되 게하논 을변궤 어되절단 과실현 에문때 것그 는로으편한 또 ,만지었있 수 킬시전발 를회사 게롭화평 에분덕 활생 립고 한러이 는씨 스로시카
+
+.다이것 줄 어되 이군아 한든든 도로으앞 ,니으았받 을움도 데 는키시절좌 를도시 는려하취탈 를[b]스투라몰이 자린유 의국천 한례무[/b] 가자도지 의들놈 과것 는하압진 을란반 의룩크  .다이것 을있 도수 할문방 를시도 의들그 도들인지외 른다 고말 나 고이것 길생 가회기 질워까가 더 좀 과들그 아않지머 ,만지있 고하 를류교 로으만들것 는리뜨어떨 해통 을선행비 이들람사 스모트아 린우 금지 ,에간든떻어 가뭐  ?가던였 "다한용이 에리처 기폐 을문원차 리거장 용험탐" 가제의 .다했 고다없 수 할께함 와나 상이 이 에문때 기있 고하 를비준 담회 의과웅영 의알이에'즈마 는씨 스로시카  .다었없 수 할구연 래오 큼만 을있 수 울배 더 뭘 상이 이 난 ,아아]], "_t")
+t("Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "탐구자 그래이낫의 종족 평가, 챕터 48: 증기 거인", "_t")
+t([[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
+
+Steam Giants are strikingly similar to what humans would look like, were they 8-10 feet tall and slightly on the stocky side (in contrast to the gangly, yet deceptively strong giants of Daikara).  Their most distinguishing physical trait is almost certainly their steam, for which they are named - their skin has numerous pores and vents which are capable of emitting pressurized steam.  They have limited conscious control over this; at rest they are nearly invisible and emit either a gentle mist or nothing at all, but they can will them to seal shut or distend widely, which, in addition to being rather disconcerting to watch, emits a stream or burst of pressurized steam.
+
+Rather ingeniously, they have figured out how to use this steam to power and operate a wide array of metallic contraptions.  Although the giants' oldest texts have been lost to occasional fires and other disasters, they claim that the first bit of "steam-tech" was a simple whistle; from there, they discovered a sort of pressurized stone-cleaner, and from there more and more complex contraptions.  A similar effect can theoretically be achieved by using a furnace to boil water, but this method requires attention and adjustment that comes as naturally to the Steam Giants as breathing; perhaps it is this intuitive quality that made it so easy for them to accomplish so much with it.
+
+The Steam Giants of the Atmos Tribe have hidden in the Clork mountains for ages; it is truly fortunate for them that the Spellblaze missed them entirely, for they were so concentrated and so few in number that it surely would have eradicated them.  They have kept their interactions with other races to a minimum; while Grand Councilor Kasyros claims this was due to fear of both what the outside world could do to them, and what their careless intervention could do to outsiders, most of the other Atmos I spoke to claimed to merely find the "lesser races" to be boorish and unpleasant.  (This is an entirely understandable view, seeing as their only neighbors until just recently have been Orcs.) 
+
+While this isolation has given them peace to let their society develop, it has also fostered a strain of sophistry and disconnection to reality, according to Kasyros, who has begun open trade with the Sunwall and Allied Kingdoms to grant his citizens some fresh perspective.  I could not hope to fully analyze this society during my brief stay; the only deeper insight worth noting I was able to see is that they value physical fitness almost exactly as much as intellectual pursuits, perhaps owing to the fact that steam-tech can be made more powerful through more efficient construction OR simply being able to force out more steam from one's vents.  Their government, accordingly, is chosen by an apparent compromise between democracy and bloodsport (aside from a brief period under King Traglamar, which Kasyros would only tell me "was deeply embarassing for all involved").  Although I cannot say how it reflects on the Atmos people in a greater sense, I feel I must make special note that they have learned how to make the best absinthe I have ever tasted.
+
+Alas, I was not able to study them for long enough to learn more than this.  Kasyros tells me he cannot accompany me any longer, for he has arranged a meeting with the Hero of Maj'Eyal - something about using an exploratory farportal for disposal purposes?  Whatever the case, although most of our contact with the Atmos is still done via constructs dropped from airships, we will soon gain the opportunity to meet more of them in person, and perhaps outsiders other than myself will soon be allowed to see their cities for themselves.  Their help in crushing the Kruk Rebellion and thwarting their leader's attempts to commandeer [b]IMMOLATUS, IMPUDENT RAVAGER OF THE HEAVENS[/b] has ensured that they will be enduring allies with us for an age to come.]], [[이렇게나 진보한 문명이 이렇게 가까운 곳에 숨어 있었다니!  가까이 있었다고 해서 연구하는 게 쉬웠던 건 아니었다. 태양의 장벽의 시민이거나, 톨락 국왕 폐하의 혈연이거나, 아니면 경비병들한테 뇌물을 먹일 수 있을 정도로 부유한 상인이 아닌 이상, 평범한 시민들이 동쪽의 대륙으로 통하는 차원문을 이용하는 것은 사실상 불가능하다.  정말 운좋게도, 카시로스 의원장께서 내가 썼던 작품들을 읽어보시고는 동족들에게 익숙하지 않은 다른 종족들에 대해 대략적으로 알게 되셨고, 동족들에 대해서도 연구해 달라고 부탁하셨던 것이다.
+
+증기 거인족의 생김새는 놀랍도록 인간족과 닮았다. 키가 240cm - 300cm 정도로 크긴 하지만. 체격은 살짝 다부진 면이 있다 (믿을 수 없을 정도로 강인한 다이카라의 거인들과는 놀랍도록 대조적이다). 가장 눈에 띄는 특징은 당연히, 이름에도 붙어 있는, 증기다. 그들의 피부에는 무수히 많은 구멍과 증기구들이 뚫려 있고, 그 증기구들은 압축된 증기를 뿜어낼 수 있다.  증기 거인들은 그것들을 어느 정도 제어할 수 있다. 증기구들은 평상시에는 거의 보이지 않고 기껏해야 옅은 안개 정도나 새어나오거나 그마저도 없지만, 증기 거인들은 그것들을 아예 닫아 버리거나 더 크게 열 수도 있다. 꽤나 당황스러운 광경이긴 하지만, 압축된 증기를 쭉 뿜어내거나 폭발시킬 수도 있다.
+
+기발하게도, 그들은 이 증기를 이용하여 다양한 금속 장치들을 다루는 법을 고안해 냈다.  거인들의 옛 문헌들은 잦은 화재와 그 외 여러 재앙들로 인해 소실되어 버렸지만, 그들 말로는 이 "증기 공학" 의 시초는 단순한 호루라기였다고 한다. 그것으로부터 누군가가 증기의 압력을 이용한 돌 치우는 장치를 고안했고, 또 누군가가 그것으로부터 다른 것을 고안해 내고, 그런 식으로 점점 복잡한 장치들을 만들어냈다고 한다.  이론상으로는 물을 끓이는 화로를 통해서도 똑같은 효과가 나타날 테지만, 그 효과를 이용하려면 세밀한 조정이 필요하다. 그리고 증기 거인들은 그 세밀한 조정을 숨쉬는 것처럼 자연스럽게 할 수 있다. 이런 직관력 덕분에 그렇게나 고도로 발전된 문명을 손쉽게 이룩할 수 있었던 것이 아닐까?
+
+아트모스 부족의 증기 거인들은 매우 오랫동안 클로크 산에 숨어 살았다. 그들의 입장에서 보면, 마법폭발의 범위에서 완전히 벗어나 있던 게 실로 행운이었다. 왜냐하면 그들은 숫자 자체도 적었고 너무 모여서 살았기 때문에, 마법폭발의 피해를 받았다면 확실하게 멸종했었을 것이기 때문이다.  그들은 여전히 다른 종족들과는 최소한의 교류만 하고 있다. 카시로스 의원장께선 바깥 세상의 이들이 두려운 것은 물론이고 자신들이 바깥 세상에 줄 수 있는 영향 또한 두렵기 때문이라고 하셨지만, 다른 아트모스 부족원들은 대부분 그저 "열등한 종족들" 이 야만스럽고 불쾌하기 때문이라고 주장했다.  (이해가 되는 게, 최근에 그들의 이웃이라고 할 만한 종족은 오크 밖에 없었기 때문이다.) 
+
+카시로스 씨는 이러한 고립 생활 덕분에 평화롭게 사회를 발전시킬 수 있었지만, 또 한편으로는 그것 때문에 현실과 단절되어 궤변을 논하게 되었다고 말했다. 그분이 태양의 장벽과 왕국연합과의 공개 무역을 시작한 건 그런 동족들에게 좀 신선한 관점을 선사하기 위해서였다고 한다.  내가 이곳에 머물 수 있는 기간은 짧기 때문에 이 사회를 완벽하게 분석할 수 있을 것 같진 않다. 내가 유일하게 심도 깊게 확인할 수 있었던 것은, 증기 거인들은 육체의 단련 또한 지적 탐구만큼이나 중요시한다는 점이었다. 이는 증기 공학을 더욱 강력하게 만드는 방법이 더 효율적인 장치를 만들어내는 것 뿐만이 아니고, 그저 개개인의 증기구에서 더 많은 증기를 뿜어내도 가능하기 때문일 것이다.  따라서 그들의 정부 요인들은 누가 봐도 민주주의와 피바다를 절충한 방식으로 선출된다. (트라글라마르 왕의 짧은 통치 기간은 빼고. 카시로스 씨는 "관련된 이들이 모두 심히 당혹스러워했다" 라고만 이야기했다).  그리고 또, 이게 아트모스 사람들의 성질을 얼마나 반영하고 있는지는 모르겠지만, 그들은 훌륭한 압생트를 만드는 법을 알고 있었다는 걸 꼭 써 놔야겠다. 내가 이때까지 맛본 것들 중 최고였다.
+
+아아, 난 이 이상 뭘 더 배울 수 있을 만큼 오래 연구할 수 없었다.  카시로스 씨는 마즈'에이알의 영웅과의 회담 준비를 하고 있기 때문에 이 이상 나와 함께할 수 없다고 했다. 의제가 "탐험용 장거리 차원문을 폐기 처리에 이용한다" 였던가?  뭐가 어떻든간에, 지금 우린 아트모스 사람들이 비행선을 통해 떨어뜨리는 것들만으로 교류를 하고 있지만, 머지않아 그들과 좀 더 가까워질 기회가 생길 것이고 나 말고 다른 외지인들도 그들의 도시를 방문할 수도 있을 것이다.  크룩의 반란을 진압하는 것과 놈들의 지도자가 [b]무례한 천국의 유린자 이몰라투스[/b]를 탈취하려는 시도를 좌절시키는 데 도움을 받았으니, 앞으로도 든든한 아군이 되어 줄 것이다.]], "_t")
+t("races...?", "종족...?", "newLore category")
+t("Scholar Graynot's Assessment of the Species, Chapter 83: Wei...", "탐구자 그래이낫의 종족 평가, 챕터 83: 웨이...", "_t")
+t("(This note had already caught fire when the paradox anomaly pulled it in from another timeline.  You only had time to read part of the title before it burned away completely.)", "(괴리로 인한 이상현상이 이 쪽지를 다른 시간선에서 뽑아냈을 땐, 이미 불타고 있었습니다.  당신은 딱 제목만, 그것도 불타 없어지고 있던 것만 잠깐 읽을 수 있었습니다.)", "_t")
 
 
 ------------------------------------------------
@@ -3900,7 +3990,7 @@ t([[You load a magazine of %d grenades into your launcher, causing your next %d 
 		While the magazine is loaded your attack speed is increased by %d%%.
 		Your Grenade Launcher talent must be on cooldown to use this talent, and the magazine will only last for 6 turns.]], [[%d 개 들이의 수류탄 다발을 장전해, 다음 %d 발의 사격에 시전자가 선택한 수류탄 대신, 무작위한 종류의 강화 수류탄을 추가로 발사합니다. 이 수류탄들은 평상 시보다 50%% 낮은 피해량을 갖습니다.
 		수류탄 다발이 장전되어 있는 동안, 공격 속도가 %d%% 증가합니다.
-		이 기술을 사용하려면 시전자의 수류탄 발사기 기술이 반드시 재사용 대기 시간 중이여야 합니다. 수류탄 다발은 최대 6 턴 동안 지속됩니다.]], "tformat")
+		이 기술을 사용하려면 시전자의 수류탄 발사기 기술이 반드시 재사용 대기시간 중이여야 합니다. 수류탄 다발은 최대 6 턴 동안 지속됩니다.]], "tformat")
 t("Incendiary Grenade", "발화성 수류탄", "talent name")
 t("Enhance your grenade with an incendiary agent that burns through armor, dealing fire damage over 3 turns and increasing damage taken while burning by %d%%.", "장갑을 녹이고 화상을 입히는 가연성 물질로 수류탄을 강화합니다, 3 턴에 걸쳐 화염 피해를 주고, 화상 효과동안 대상이 입는 피해를 %d%% 늘립니다.", "tformat")
 t("Chemical Grenade", "화학 수류탄", "talent name")
@@ -4269,7 +4359,7 @@ t("Magnetic Field", "자기장", "talent name")
 t("#Source# shatters '#Target#'.", "#Source1# #Target3# 파쇄합니다.", "logCombat")
 t([[You project a powerful blast of magnetic energy from your shield in radius %d around you. Enemies caught within are knocked back %d tiles and take %d%% shield damage as lightning, and any projectiles will be destroyed.
 		While this talent is not on cooldown, you also project a magnetic field from your shield, reducing the speed of incoming projectiles by %d%% and your chance to be critically hit by %d%%.]], [[방패에서 강력한 자기장 폭발을 일으켜, 시전자를 기준으로, 반경 %d 칸 내의 적을 공격합니다. 범위 내의 적은 %d 칸 밀려나고, %d%% 방패 피해를 전기 속성으로 받습니다. 또한 범위 내의 모든 투사체는 파괴됩니다.
-		이 기술이 재사용 대기 시간이 아닐 때, 방패에서 미약한 자기장이 방출되어, 시전자를 향해 오는 투사체의 속도가 %d%% 감소하고, 시전자의 치명타 피격 확률이 %d%% 줄어듭니다.]], "tformat")
+		이 기술이 재사용 대기시간이 아닐 때, 방패에서 미약한 자기장이 방출되어, 시전자를 향해 오는 투사체의 속도가 %d%% 감소하고, 시전자의 치명타 피격 확률이 %d%% 줄어듭니다.]], "tformat")
 t("Capacitor Discharge", "축전기 방전", "talent name")
 t([[Mount capacitors to your shield that dampen the impact of attacks, increasing block value by %d%% and storing 100%% of the damage blocked as an electrical charge (to a maximum of %d).
 Activating this ability discharges blocked damage, firing a bolt of lightning dealing %d%% shield damage as lightning to the first target, then projecting a bolt of lightning that arcs to %d other targets dealing lightning damage equal to the stored amount.

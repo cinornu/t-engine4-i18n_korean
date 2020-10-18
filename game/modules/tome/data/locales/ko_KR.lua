@@ -2224,7 +2224,7 @@ t("Escaped from Reknor alive with your squadmate Norgan.", "같은 분대원 노
 t("Genocide", "종족 학살", "achievement name")
 t("Killed the Orc Greatmother in the breeding pits, thus dealing a terrible blow to the orc race.", "번식굴의 오크 대모를 처치해 오크들에게 막대한 피해를 입혔다.", "_t")
 t("Savior of the damsels in distress", "고통받은 소녀의 구원자", "achievement name")
-t("Saved Melinda from her terrible fate in the Crypt of Kryl-Feijan.", "키릴-페이얀의 지하묘지에서 끔찍한 운명에 처한 멜린다를 구해냈다.", "_t")
+t("Saved Melinda from her terrible fate in the Crypt of Kryl-Feijan.", "키릴-페이얀의 지하실에서 끔찍한 운명에 처한 멜린다를 구해냈다.", "_t")
 t("Impossible Death", "불가능한 죽음", "achievement name")
 t("Got killed by your future self.", "미래의 자기 자신에게 처치당했다.", "_t")
 t("Self-killer", "스스로를 죽인 자", "achievement name")
@@ -14535,7 +14535,7 @@ t([[I awoke early this morning to see the love of my life altering the unique fa
 
 Argoniel, my love, you have brought me so much joy and given me much to live for.  I have sworn to hold your hand and walk beside you, no matter where you choose to go.  If that means joining you down the road to a second Spellblaze...  so be it.  
 
-Forgive me, Eyal.]], [[나는 오늘 아침 일찍 일어나 내 삶의 사랑이 우리가 함께 만들어 온 특별한 장거리 차원문을 개조하고 있는 것을 보았다. 우리의 계획은 모두 잘 진행되고 있었고, 흡수의 지팡이는 차원문과 통합되어 있었다. 그래서 차원문이 게를릭을 소환하는 순간 지팡이가 그를 흡수할 것이었고, 오크들은 서로 의심하느라 너무 바빠 우리를 조사하지 못할 것이다... 그리고 난 그녀가 차원문을 사보타지 했다는 걸 깨달았다. 이 차원문은 게를릭을 소환할 때 그것에게 힘을 #{italic}#부여#{normal}#할 것이다. 그리고 그는 분명 엄청난 시간 동안 우주의 공허함 속에서 굴러떨어지는 외로움 때문에 미쳐 있을 것이다. 만에 하나, 그 신이 제정신일지라도 우리의 삶은 완전히 파괴될 것이다.
+Forgive me, Eyal.]], [[나는 오늘 아침 일찍 일어나 내 삶의 사랑이 우리가 함께 만들어 온 특별한 장거리 차원문을 개조하고 있는 것을 보았다. 우리의 계획은 모두 잘 진행되고 있었고, 흡수의 지팡이는 차원문과 통합되어 있었다. 그리하여 차원문이 게를릭을 소환하는 순간 지팡이가 그를 흡수할 것이었고, 오크들은 서로 의심하느라 너무 바빠 우리를 조사하지 못할 것이다... 그리고 난 그녀가 차원문을 사보타지 했다는 걸 깨달았다. 이 차원문은 게를릭을 소환할 때 그것에게 힘을 #{italic}#부여#{normal}#할 것이다. 그리고 그는 분명 엄청난 시간 동안 우주의 공허함 속에서 굴러떨어지는 외로움 때문에 미쳐 있을 것이다. 만에 하나, 그 신이 제정신일지라도 우리의 삶은 완전히 파괴될 것이다.
     
 ...나로서는 그녀를 막을 수 없다.
 
@@ -14547,11 +14547,88 @@ Forgive me, Eyal.]], [[나는 오늘 아침 일찍 일어나 내 삶의 사랑�
 ------------------------------------------------
 section "game/modules/tome/data/lore/infinite-dungeon.lua"
 
+t([[There is an inscription here:
+#{italic}#The river flows in its bed of stone...#{normal}#]], [[여기에 다음과 같은 글이 새겨져 있다:
+#{italic}#강물은 바윗돌 위로 흐르고...#{normal}#]], "_t")
+t([[There is an inscription here:
+#{italic}#...The feather flies gently in the wind.
+The tree's roots run deep...#{normal}#]], [[여기에 다음과 같은 글이 새겨져 있다:
+#{italic}#...깃털은 바람결에 부드럽게 날아오른다
+나무의 뿌리는 깊게 자라고...#{normal}#]], "_t")
+t([[There is an inscription here:
+#{italic}#...The eldritch force burns all that lives.#{normal}#]], [[여기에 다음과 같은 글이 새겨져 있다:
+#{italic}#...섬뜩한 힘은 살아있는 모든 것을 불태운다.#{normal}#]], "_t")
+t([[There is an inscription here:
+#{italic}#Darkness beyond twilight.
+Crimson from the blood that flows...#{normal}#]], [[여기에 다음과 같은 글이 새겨져 있다:
+#{italic}#황혼 너머의 어둠.
+흐르는 피로부터 나온 진홍색...#{normal}#]], "_t")
+t([[There is an inscription here:
+#{italic}#...Buried in the flow of time.
+Colder than the coldest ice...#{normal}#]], [[여기에 다음과 같은 글이 새겨져 있다:
+#{italic}#...시간의 흐름 속에 파묻혀.
+가장 차가운 얼음보다 더 차갑다....#{normal}#]], "_t")
+t("clue (ruined dungeon)", "단서 (파괴된 던전)", "_t")
+t([[There is an inscription here:
+#{italic}#...Unleash dark thoughts.
+Upon this blighted land!#{normal}#]], [[여기에 다음과 같은 글이 새겨져 있다:
+#{italic}#...어두운 생각을 풀어라.
+이 황폐한 땅에!#{normal}#]], "_t")
+t("ruined dungeon", "파괴된 던전", "newLore category")
+t("infinite dungeon (ruined dungeon)", "무한의 던전 (파괴된 던전)", "_t")
+t([[There is an inscription here:
+The deceptive god Ralkur fled before the wrath of the godslayer Branzir and his dark blade Madrath. But though he fled to the depths of the dungeon he came to an end. Seeing himself cornered he used his power to delve deeper into the ground, laying traps and summoning enemies to confound his enemy. But Branzir would not be lost. He pursued his prey ever on, hunting him ever deeper. And Ralkur fled further, and faster, delving to fathoms beyond knowledge, with the godslayer always behind him, hunting relentlessly.
+
+And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.
+
+This passage seems to point to the passage there, it seems to indicate there are no possible exits.
+You should not enter it.]], [[여기에 다음과 같은 글이 새겨져 있다:
+기만적인 신 랄쿠르는 신살자 브란지르와 그의 검은 검 마드라스의 분노 앞에서 도망쳤다. 그러나 그는 지하감옥의 깊숙한 곳으로 도망쳤고, 결국 막다른 끝에 몰렸다. 궁지에 몰린 것을 자각한 랄쿠르는 그의 힘으로 땅속 깊이 파고들어 함정을 깔고 적을 소환하여 그의 대적을 교란했다. 그러나 브란지르는 길을 잃지 않을 것이다. 그는 더 깊은 곳으로 끈질기게 추적하면서 그의 사냥감을 쫓았다. 그리고 랄쿠르는 더 멀리, 그리고 더 빨리 도망쳐, 지식을 넘어선 깊이로 도망쳤다. 하지만 신시해자는 지치는 일 없이 그의 뒤를 끈질기게 추적하고 있다.
+
+그리하여 사냥은 계속되고있다. 브란지르는 헤아릴 수 없이 많은 세기 동안 쉬지도 않고 잠도 자지 않은 채 무한의 던전을 돌파하며 사냥감을 쫓고있다. 그에게 죽음은 달콤한 휴식이 되겠지만 그는 오직 사냥 그 자체와 비겁한 신을 사냥할 생각만 하고 있다 한다. 랄쿠르는 계속 도망쳤지만, 헐떡임이 아닌 숨은 쉬지도 못한 채, 한 걸음도 멈춰 서지 못하며, 그의 불충한 심장은 시간이 종말을 고하는 그 순간까지 매 순간 공포로 가득 차오를 것이다.
+
+이 통로는 그곳의 통로를 가리키는 것 같고, 출구가 없다는 것을 나타내는 것 같다.
+당신은 함부로 들어가선 안 될 것이다.]], "_t")
 t("The Hunter and the Hunted chapter 1", "사냥꾼과 사냥감 1장", "_t")
+t([[Branzir was the mightiest of the Sher'Tul hunters, and his fame was known at every Farportal. He could run for days without rest, cross terrain no others would dare to pass, and had senses more keen than all the wildest animals of Eyal. It was for this reason that Caldizar came to him at his forest keep and beseeched him to join in the Godhunt. At first Branzir refused, for he said he was not one to meddle in such mighty affairs, and he wanted but peace to hunt and fend for his family. But Caldizar convinced him that this life of peace was not possible whilst the schemes and machinations of the gods continued. And so reluctantly Branzir accepted, and took in his hands the great sword Madrath, and upon his shoulders was laid the title "Godslayer".
+
+In the great Godhunt that followed Branzir became the most fervent of the Godslayers, and would not sleep nor rest whilst a hunt was on. He it was that chased the troll-spawner Ugg'matho through the snow-capped mountains of Pertolias and broke his body on the highest peak. He it was that tracked the blight-weaver Xadoch through the howling vales of Anvion and trapped him and throttled him and cut him into seven pieces to be cast into the Glonglum lake. And he it was that was tasked with finding and killing Ralkur the Deceptor, god of charms and illusions, who had taken hiding amongst the lesser races.]], [[브란지르는 쉐르'툴 사냥꾼 중에서 가장 강력한 자였다. 그리고 그의 명성은 모든 장거리 차원문 너머로 알려졌다. 그는 며칠 동안을 쉬지 않고 달릴 수 있었고, 다른 어떤 이도 감히 지나갈 수 없는 지형을 건널 수 있었으며, 에이얄의 모든 야생 동물들보다 더 예리한 감각을 가지고 있었다. 칼디자르가 숲에서 그를 찾아와 신사냥에 합류하라고 간청한 것도 바로 이런 이유 때문이었다. 처음에 브란지르는 자신은 그런 엄청난 일에 간섭할 인물이 아니라고 말하며 제의를 거절했다. 그리고 그는 평화롭게 그의 가족을 부양하기 위해서만 사냥하길 원했다. 그러나 칼디자르는 신들의 음모와 술책이 계속되는 한 평화로운 삶은 불가능하다고 그를 설득했다. 그리히여 마지못해 브란지르는 받아들였고, 대검 마드라쓰를 손에 쥔 채, 그의 어깨 위에는 "신살자"라는 칭호가 놓이게 되었다.
+
+뒤따른 대-신사냥의 시기에 브란지르는 가장 열성적인 신살자가 되어 사냥을 하는 동안에는 잠을 자거나 쉬지도 않았다. 트롤을 창조한 우그'마토를 눈 덮인 페르톨리아스 산맥을 따라 쫓아다니다가 가장 높은 봉우리에서 그의 몸을 부숴버린 것이 바로 그였다. 그는 또한 안비온의 울부짖는 계곡 사이로 황폐를 부르는 자 자도치를 추적하여 그를 가두고 목졸라 죽인 뒤 일곱 조각으로 토막 내 글롱룸 호수에 던져넣었다. 그리고 그는 하등 종족들 사이에 숨어있던 매혹과 환상의 신, 기만자 랄쿠르를 찾아 죽이는 임무를 맡았다.]], "_t")
 t("The Hunter and the Hunted chapter 2", "사냥꾼과 사냥감 2장", "_t")
+t([[Thus began the greatest hunt there ever was. Branzir used forceful coercion and the spilling of blood to uncover the secret of his enemy's hiding place. He tracked Ralkur down to the primitive settlement where he had taken the form of one of the lesser races. Branzir rooted him out, and came upon him with Madrath in hand. But Ralkur seeing the wrath of the hunter and the terrible sword became frightful, and he took on the form of an antelope and fled across the Harloe Plains. But Branzir ran after and ran swifter and nigh caught him before they reached the Woods of Darmin. There Ralkur assumed the form of a monkey and took to the trees. But Branzir tracked him and followed close, overcoming the traps his foe left behind. Then the forest fell away and they came to the Azure Sea, and Ralkur took the form of a gull and flew over the waters cawing with prideful glee. But Branzir was unfazed and leapt into the water, swimming after the cowardly god with all his strength. Twenty days and nights he followed through the ocean, feeding off fish he could catch near the surface, whilst Ralkur beat his wings on the winds above. Not once did Branzir lose sight of his target, and with each passing day Ralkur became more and more filled with fright.
+
+Finally they came to the far shore of Tar'Eyal, and Ralkur fell onto the sandy beach bereft of strength. Depleted of all energy he reverted to his natural form, short and squat, and stumbled across the sand before falling down exhausted. Branzir arose from the water behind, and in spite of his trials he stood tall and fierce, and marched with purpose towards the cowering god. He drew out the fell blade Madrath from its sheath and held it to the throat of his prey.
+
+But Ralkur, in a last desperate effort, took on a pathetic and piteous form, and wailing and crying he begged Branzir for mercy, promising to leave all Eyal and never return. And Branzir, looking on the divine form sunk to such depths, was moved in his heart, and agreed. But he said in a solemn tone, "Get thee then from this world, which we mortals now claim for our own. Remove thyself from all influence in Eyal, and never dare thee to return. But if thou doest break my trust, let thee be afeared. For then not a breath shalt thou take that it will not be a gasp, and not a step shalt thou take that it will not be in flight, and each beat of thy traitorous heart shalt be a pounding of terror. For I shalt come for thee and I shalt find thee and even to the depths of Infinity I shalt hunt thee without rest till my hands are on thy throat and thy life is crushed to dust." And when he spake the wind fell silent and the sky turned black, for when a Sher'Tul speaks so his words become Words of Power, and they can change the world forever. And Ralkur hearing those words was filled with a dread beyond conception, and forgetting all exhaustion he immediately took the form of a swallow and flew high into the sky beyond all sight.]], [[그리하여 지금까지 있었던 것중 가장 위대한 사냥이 시작되었다. 브란지르는 적의 은신처의 비밀을 밝히기 위해 강압적인 방법과 피 흘리는 방법을 사용했다. 그는 랄쿠르를 추적하여 원시적인 정착지에 도달했고 그곳에서 그는 하등종족의 구성원의 형태를 취한 상태였다. 브란지르는 그를 색출하여, 마드라쓰를 손에 들고 그에게 덤벼들었다. 그러나 랄쿠르는 사냥꾼과 끔찍한 검의 노여움을 보고 겁에 질려 영양의 형태를 띠며 할로 평원을 가로질러 도망쳤다. 그러나 브란지르는 그들이 다민의 숲에 도착하기 전에 신속하게 뒤쫓아 달려와 그를 붙잡았다. 그곳에서 랄쿠르는 원숭이의 형태로 변해 나무 사이로 도망갔다. 그러나 브란지르는 그의 사냥감이 남긴 함정을 극복하고 그를 추적하여 바짝 따라갔다. 그러자 숲이 끝나고 하늘색 바다가 나왔다, 랄쿠르는 갈매기 형상을 한채 고소해 하며 까악거리고 물 위를 날아갔다. 그러나 브란지르는 방심하지 않고 물속으로 뛰어들어 온 힘을 다해 비겁한 신을 뒤쫓아 헤엄쳤다. 그는 바다 속을 가로질러 랄쿠르를 따라다니며 수면 가까이에서 잡을 수 있는 물고기를 잡아먹으면서 20일 밤낮으로 위에서 바람을 타고 나는 랄쿠르를 추격했다. 브란지르는 단 한 번도 목표물을 놓친 적이 없었고, 날이 갈수록 랄쿠르는 점점 두려움에 휩싸였다.
+
+마침내 그들은 타르'에이얄의 먼 해안에 도착했고, 랄쿠르는 힘이 빠진채 모래사장으로 추락했다. 모든 에너지가 고갈된 그는 자신의 원래 형태인 짧고 땅딸막한 형태로 돌아가 모래를 비틀거리며 가로지르다 지쳐 쓰러졌다. 뒤편에서 브란지르는 물속에서 일어나, 갖은 시련에도 불구하고 우뚝 선채, 몸을 움츠리고 있는 신을 향해 접근하였다. 그는 칼집에서 뽑아든 대검 마드라쓰를 사냥감의 목에 갖다댔다.
+
+그러나 랄쿠르는 마지막 필사적인 노력으로 한심하고 애처로운 형태를 띠었고, 통곡하고 울면서 브란지르에게 자비를 간청하며, 에이얄을 떠나 다시는 돌아오지 않겠다고 약속했다. 그리고 브란지르는 그렇게 한심한 모습으로 몰락한 신성한 존재를 바라보며 동정심에 자비를 베풀었다. 그러나 그는 엄숙한 어조로 말했다. "에이알에 끼친 너의 모든 영향력을 제거하고, 우리 필멸자들이 지금 우리 자신을 위해 주장하고 있는 이 세상에서 떠나라. 너는 감히 돌아올 수 없을 것이다. 그러나 네가 내 신뢰를 저버린다면, 너를 죽이겠다.너는 헐떡임이 아닌 숨은 쉬지 못할 것이며, 한 걸음도 멈춰 서지 못할 것이고, 네 불충한 심장은 매 순간 공포로 가득 차오를 것이다. 무한히 깊은 곳까지라도 내가 너를 죽이기 위해 쫒아 들어가, 내 손이 너의 목구멍에 닿게 하고, 너의 목숨이 먼지가 될 때까지 쉬지 않고 너를 사냥할 것이다." 그리고 그가 말을 끝내자, 바람이 잠잠해지고 하늘이 검게 변했다, 쉐르'툴은 그들의 말이 언령이 되도록 할 수 있고, 그 힘은 세상을 영원히 바꿀 수 있었다. 그리고 그 말을 들은 랄쿠르는 상상을 초월하는 공포로 가득 차올라, 모든 피로를 잊은 채 즉시 제비의 형태를 취하여 시야를 넘어 하늘 높이 날아올랐다.]], "_t")
 t("The Hunter and the Hunted chapter 3", "사냥꾼과 사냥감 3장", "_t")
+t([[Branzir returned to his people, and continued the hunt for the other gods, till but one god remained: Amakthel. Then the last great Godhunt began, as the Sher'Tul fought to overcome their maker and master. And this was no easy feat, for Amakthel was by far the strongest of all the gods, and many Sher'Tul were still loyal to their creator. Much blood was spilled before ever the assault on his throne could begin, and much blood would spill still after.
+
+Now Ralkur had fled into the heavens with the full intent of passing beyond all reach of mortals forever more, such was the fear laid on him by the solemn words of Branzir. But as he soared higher and the fear faded, he came to change his mind, for he was a prideful god and moreso a vengeful one. Thoughts and schemes began to build in his mind for how he could gain retribution on the Sher'Tul that had brought him to shame. So he took on the form of an eagle and flew above the highest volcano in Eyal, and there he stretched his wings and glided high on the rising heat, watching all that happened in the lands below and biding his time for vengeance.
+
+He watched with joy as he saw the Sher'Tul armies fall before the forces of Amakthel's fortress. He watched with anxiety as he saw the Sher'Tul finally break through the defences and come upon the great god himself. He watched with awe as he saw the nine Godslayers do battle with their creator, and several broken before his almighty wrath. And then he watched with utter terror as he saw the mightiest of all gods felled, and maimed and mutilated and bound, and cast into the darkest depths of the world.
+]], [[브란지르는 그의 동족에게로 돌아가서, 다른 신들을 찾아 사냥을 계속하였다. 그러나 한 신은 여전히 남아 있었다: 아마크텔. 이로써 최후의 가장 위대한 신사냥이 시작되었다. 쉐르'툴은 그들을 창조한 주인을 극복하기 위해 싸웠다. 그리고 이것은 달성하기 쉬운 위업이 아니었는데, 아마크텔은 모든 신 중에서 단연코 가장 강력하였고, 많은 쉐르'툴이 여전히 그들의 창조자에게 충성했기 때문이다. 그의 왕좌를 향해 공세가 시작되기도 전에 많은 피가 쏟아졌고, 그 후에도 많은 피가 여전히 쏟아질 것이었다.
+
+그 시점에 랄쿠르는 영원히 필멸자들의 손길이 영영 미치지 않는 곳으로 향하려는 의도를 가지고 천상으로 달아났는데, 그의 행동 그 자체가 브란지르의 엄숙한 말 한마디에 의해 그에게 드리워진 공포였다. 그러나 그가 더 높이 날아오르며 두려움이 사라지자, 그는 마음을 바꾸게 되었다. 그는 자존심이 강한 신이었고, 더욱이 복수심이 강한 신이었기 때문이다. 어떻게 하면 쉐르'툴에게 보복 할 수 있을 것인가 하는 생각과 계책이 마음속에 쌓이기 시작했다. 그를 수치스럽게 만든 쉐르'툴에게 말이다. 그리하여 그는 독수리의 형태를 취하여 에이얄에서 가장 높은 화산 위를 날았고, 거기에서 그는 날개를 펴고 솟아오르는 열기를 타고 나는 동안 저 아래 땅에서 일어나는 모든 일들을 지켜보며 복수할 시간을 가졌다.
+
+그는 쉐르'툴의 군단이 아마크텔의 요새 앞에 쓰러지는 것을 즐겁게 지켜보았다. 그는 쉐르'툴이 마침내 방어선을 뚫고 가장 위대한 신에게 접근하는 것을 불안해하며 지켜보았다. 그는 아홉 명의 신살자들이 그들의 창조자와 싸우며, 그의 전능한 분노 앞에서 몇 명이 쓰러지는 것을 보고 경외심을 가지고 지켜보았다. 그리고 그는 모든 신 중에서도 가장 강한 신이 쓰러지고, 불구가 되고, 신체가 훼손되고, 묶인 채, 세상의 가장 어둡고 깊숙한 곳으로 추방되는 것을 완전히 공포에 질려 지켜보았다.
+]], "_t")
 t("The Hunter and the Hunted chapter 4", "사냥꾼과 사냥감 4장", "_t")
+t([[Seeing the full powers of the Sher'Tul Ralkur felt paralysed with fear, and thought his quest for vengeance hopeless. But he bided his time still, and his patience was rewarded as he saw dissention begin to arise in the great race. When Caldizar disappeared and the Godslayers separated he felt his time was ripe, and he came upon the forest keep of Branzir under a storm of wrath. He flew down screeching, and spreading his wings he let loose spikes of steel that rained down on the keep, cutting through wood and stone and flesh. All who were in the keep were killed, and the air was filled with Ralkur's cackling laughter as he flew away.
+
+But the vengeful god had been hasty at the last, for Branzir was out hunting at the time. Coming back the next day he saw his home in ruins, and all his family and servants butchered, and sorrow and torment filled every corner of his being. On hearing reports of what happened he knew well the perpetrator and his fury was incandescent. He sought the aid of the other Godhunters in scouring out the stray god, but they were all divided, and each engaged in the politics that would lay the seeds for war. Perhaps if they had aided him then the popular Branzir could have helped unify the people and stop the madness that was to come. But Caldizar was gone, reportedly aggrieved and repentant at their acts, and the remaining Godslayers thought only of their own powers and making gods of themselves.]], [[쉐르'툴의 진정한 힘을 목격한 랄쿠르는 두려움에 마비된 채, 복수를 향한 그의 여정은 절망적이라고 생각했다. 그러나 그는 여전히 그는 인내했고, 그의 인내심은 위대한 종족 사이에서 불화가 일어나기 시작하는 것으로 보상받았다. 칼디자르가 사라지고 신살자들이 흩어졌을 때 그는 자신의 시대가 다가왔다고 느꼈고, 그는 분노의 폭풍에 휩싸여 브란지르의 숲속 성채로 들이닥쳤다. 그는 꽥꽥 소리를 내며 날아 내려가더니 날개를 펼쳐 빗발치는 강철 가시들을 쏘아내 나무와 돌 그리고 살점을 찢어발겼다. 성채에 있던 모든 이들은 도살당했고, 공기는 랄쿠르가 날아가면서 꽥꽥거리는 웃음으로 가득 찼다.
+
+그러나 복수심에 불타는 신은 결국 성급했었는데, 브란지르는 그때 사냥을 나갔기 때문이다. 다음날 돌아온 그는 가족과 하인들이 모두 도살되었고 집이 폐허가 된 것을 보았다, 슬픔과 괴로움이 그의 존재의 구석구석을 가득 채웠다. 무슨 일이 일어났는지에 대한 보고를 들은 그는 가해자를 잘 알고 있었고 그의 분노는 백열처럼 타올랐다. 그는 도망친 신을 샅샅이 수색하기 위해 다른 신살자들의 도움을 구했으나, 그들은 모두 분열되어 있었고, 각각 전쟁의 씨앗을 뿌릴 정치적 행위에 종사하고 있었다. 그들이 그를 도왔더라면, 인기 있는 브란지르는 동족들을 통일시키고, 다가올 광기를 멈추는데 도움을 줄 수 있었을 것이다. 그러나 칼디자르는 신살자들의 행동에 분개하고 뉘우치며 사라졌다고 알려졌으며, 남은 신살자들은 오직 자신의 힘만을 생각하고 자기 자신을 신으로 여기고 있었다.]], "_t")
 t("The Hunter and the Hunted chapter 5", "사냥꾼과 사냥감 5장", "_t")
+t([[So Branzir set out alone, with Madrath in his sheath. It did not take long to find his prey, who had now stopped all attempts at hiding. He came upon the god in a settlement of lesser creatures who worshipped him, and he ruthlessly cut down the pathetic wretches that tried to protect their new deity. Ralkur fled at the sight of Branzir and his dark blade, filled with all-encompassing fright. But Branzir was not to be lost, and chased him into some nearby ruins. There Ralkur laid traps and summoned enemies and fled deeper into the darkness. But Branzir overcame them all and came on faster, till they reached the depths of the dungeons. And being out of space the god created new space and fled further, and kept on fleeing. And Branzir carried on chasing, not letting up for a second as the pursued god continued to delve deeper into the ground.
+
+And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.]], [[그리하여 브란지르는 마드라쓰를 검집에 넣은채 혼자 길을 떠났다. 이제 모든 은신 시도를 중단한 그의 먹잇감을 찾는 데는 그리 오래 걸리지 않았다. 그는 자신을 숭배하는 하등 생물들의 정착지에서 신에게 다가갔고, 그는 그들의 새로운 신을 지키려는 한심한 쓰레기들을 무자비하게 베어버렸다. 랄쿠르는 모든 것을 아우르는 공포로 가득 찬 브란지르와 그의 검은 칼날을 보고 도망쳤다. 그러나 브란지르는 그를 놓치지 않은 채, 그를 근처 폐허로 쫓아갔다. 거기에서 랄쿠르는 덫을 놓고 적을 소환하며 더 깊은 어둠 속으로 도망쳤다. 그러나 브란지르는 그들을 모두 이겨내고 더 빨리 쫒아갔다, 결국 그들은 지하감옥의 깊숙한 곳에 다다르게 되었다. 그리고 도망칠 공간이 없어진 신은 새로운 공간을 창조하면서 더 멀리 도망쳤고, 계속해서 도망쳤다. 그리고 브란지르는 신이 계속 땅속 깊이 파고들며 도망치자 잠시도 쉬지 않고 뒤쫓아갔다.
+
+그리하여 사냥은 계속되고있다. 브란지르는 헤아릴 수 없이 많은 세기 동안 쉬지도 않고 잠도 자지 않은 채 무한의 던전을 돌파하며 사냥감을 쫓고있다. 그에게 죽음은 달콤한 휴식이 되겠지만 그는 오직 사냥 그 자체와 비겁한 신을 사냥할 생각만 하고 있다 한다. 랄쿠르는 계속 도망쳤지만, 헐떡임이 아닌 숨은 쉬지도 못한 채, 한 걸음도 멈춰 서지 못하며, 그의 불충한 심장은 시간이 종말을 고하는 그 순간까지 매 순간 공포로 가득 차오를 것이다.]], "_t")
 
 
 ------------------------------------------------
@@ -14810,7 +14887,7 @@ Chapter 10 - Monstrous Races
 Chapter 11 - Dragons
 ]], [[나는 마즈'에이얄의 모든 지성 종족에 관한 완전하고도 빈틈없는 보고서를 작성하기 위해 착수했다. 이것은 조금도 과장하지 않고 가장 야심적인 프로젝트로, 모든 왕국들 사이를 여행하고 고위 지도자들과 가장 박식한 현자들을 만나기 위한 여행을 포함한 다년간의 노력과, 평범한 지식부터 독점 인터뷰 그리고 수천장의 문서와 수천년을 거슬러 오르는 역사서의 연구끝에 지필할 수 있었다.
 
-공평한자 톨락의 궁정의 고용인이자 나 스스로 하이어 인종이지만, 모든 내용은 최대한 중립적인 관점에서 서술할 수 있게 최고의 노력을 기울였다. 나의 독자들에게 내 저작물의 성공의 판단을 맡긴다.
+공평한 자 톨락의 궁정의 고용인이자 나 스스로 하이어 인종이지만, 모든 내용은 최대한 중립적인 관점에서 서술할 수 있게 최고의 노력을 기울였다. 나의 독자들에게 내 저작물의 성공의 판단을 맡긴다.
 
 색인:
 챕터 1 - 인간
@@ -15003,6 +15080,7 @@ The origin of Demons is not wholly known, but it is clear that they are capable 
 나가는 한때 신화에 불과하다고 믿어졌지만 믿을 만한 보고와 심지어 죽은 신체 샘플의 포획으로 그들이 실제 생명체임을 보여주었다. 그들의 상반신은 휴머노이드로 금발머리에 극도로 마른 체격이지만, 하반신은 거대한 뱀의 꼬리와 같다. 그들의 꼬리는 몇 피트 더 뻗어있지만, 육지에서는 약 182cm 높이로 서있다. 그들은 마즈'에이얄의 동쪽과 남동쪽 해안에서 목격됐는데, 이것은 파도 아래 이국적인 문명이 있음을 나타내는 것 같다. 이들에 대한 기록은 지난 몇 백 년 동안만 존재하며, 최근에는 술취한 선원들의 엉뚱한 환상을 넘어서는 것으로 해석되고 있다. 그들은 공기와 물속에서 숨을 쉴 수 있고 폐와 아가미를 모두 가지고 있으며 지상에서 놀라운 속도로 움직이는 것으로 보고되었다. 단순히 이상한 괴물이라고 생각할 수도 있지만, 그들은 보석으로 자신을 꾸미고 두꺼운 상어 가죽으로 만들어진 유연한 메일과 같은 해저에서 발견된 재료로 무기와 방어구를 만든다. 이것은 진보된 문화를 암시할 수 있지만, 지금까지 이들과의 의사소통은 불가능하다는 것이 증명되었다. 그들이 복잡한 말을 할 수 있는 능력이 있는지는 알 수 없지만, 그들과 마주치는 사람들에 대한 그들의 유일한 대응은 극단적인 폭력이었고, 동부의 어부들은 항상 이런 악랄한 생물들과 마주치는것을 경계한다고한다.
 
 악마의 기원은 완전히 알려진 것은 아니지만, 그들이 지성을 발휘할 수 있는 능력이 있는 것은 분명하기 때문에, 나는 여기서 악마들을 어느 정도 묘사할 필요성을 느낀다. 그들은 특정한 마법 의식에 의해 소환될 수 있다고 알려져 있고, 황혼의 시대에는 악한 마법사들이 하급 악마들은 소환하곤 했다. 샬로레 마법사들의 특정 연구를 근거로 현재 지지를 받고 있는 이론은 악마들이 강렬한 비전 에너지를 통해 형성된 연결을 통해 우리의 세계가 아닌 다른 세계에서 건너 왔다고 주장한다. 그런 역겨운 자들이 살아가는 그곳은 정말 무서운 곳임에 틀림없다. 악마는 우리 세계의 생물들이 다양하듯이 외모와 힘에 있어 엄청나게 다양하다. 그들은 일반적으로 푸른 피와 금속성 피부와 살을 가지고 있는데, 이것은 우리 세계의 대기와 기이하게 반응하곤 한다. 어떤 것은 화염에 휩싸이게 되고, 어떤 것은 끔찍한 산을 방출하거나 어둠의 구름을 내뿜는다. 모두 어느 정도 마법적 능력에 정통한 것 같고, 그중에서도 가장 강한 것은 실로 무서운 능력을 지니고 있다. 다행히도 그것들은 예외적으로 희귀하며, 현대에 와서 마법이 사용되지 않아 훨씬 덜 흔한 것 같다.]], "_t")
+t("races", "종족", "newLore category")
 t("Loremaster Greynot's Analysis of the Races - Chapter 11 - Dragons", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 11 - 용", "_t")
 t([[The common man may scoff at the idea of classifying dragons as an intelligent race, but experienced wyrmics know otherwise. Dragons are incredibly long-lived creatures, with some known to survive for thousands of years. Though in their early life they are of a bestial nature, as they advance through the centuries they gain an ever keener and more developed intellect. The eldest of wyrms are sometimes considered the most subtle and intelligent of creatures in Maj'Eyal, capable of telepathic communication and advanced mental abilities, and wyrmics speak of them with the highest reverence.
 
@@ -15019,6 +15097,8 @@ Dragons are regularly hunted for their thick scales and their elementally imbued
 용들의 인간과 하플링 정착지에 대한 공격은 상당히 드물지만, 그런일이 발생했을 때, 용들은 정말로 파괴적일 수 있다. 보통은 가축을 먹이로 삼지만, 이따금씩 막 성숙한 드레이크들은 이런 공격에서 둥지에 비축할만한 귀금속과 보석들을 약탈해간다. 용 둥지에관해 가장 거대한 용들이 말 그대로 황금의 산을 지키고 있다는 전설이 내려져오지만 현대에는 정말로 크기가 큰 용둥지는 드물다. 난쟁이들은 매혹의 시대에 거의 멸종될 정도로 용을 사냥했기 때문이다, 요즘 대부분의 용들은 단지 작은 보물들만 그들의 둥지에 간직하고 있다.
 
 용들은 두꺼운 비늘과 원소들이 스며든 뼈 때문에 정기적으로 사냥을 당한다. 용 가죽은 적절히 처리되었을때 가볍고 질긴데다가 죽은 용의 힘을 어느 정도 가지고 있기도 하기 때문에 장인들 사이에서 귀중하게 여겨지고 있다. 용골은 자연적으로 원소의 힘을 잘 받아들여  지팡이 제작자들이 매우 선호하고 있으며, 때때로 가장 섬세하지만 탄력 있는 활과 화살을 만들기 위해 활 제작자들에 의해 사용되기도 한다. 그러나 많은 용인들은 그들의 피부와 뼈를 위해 용을 사냥하는 것에 대해 크게 반대하며, 자연적인 원인으로 죽은 용에서 채취한 "자연적으로 수확된"  재료에 대한 시장이 증가하고 있다. 그럼에도 불구하고 모든 용에게서 나온 재료들은 유달리 높은 값을 받고 있기 때문에 많은 탐욕스러운 영혼들이 이 장엄한 생명체의 송곳니와 발톱에 매해 목숨을 잃는다]], "_t")
+t("shatur", "샤툴", "newLore category")
+t("artifacts", "유물", "newLore category")
 t("Mocking Note", "조롱하는 쪽지", "_t")
 t("Guard's Journal", "경비병의 일지", "_t")
 t("Boss's Journal", "우두머리의 일지", "_t")
@@ -15026,6 +15106,7 @@ t("vault", "보물창고", "newLore category")
 t("How to Summon a Phoenix", "불사조를 소환하는 법", "_t")
 t("magic", "마법", "newLore category")
 t("On Adventuring", "모험 도중", "_t")
+t("point zero", "영점", "newLore category")
 t("boss", "보스", "newLore category")
 t("Walrog", "왈록", "_t")
 
@@ -16949,8 +17030,29 @@ This dirge increases your health regeneration by %d.  The regeneration will incr
 
 이 장송곡은 생명력 재생을 %d 증가시킵니다. 재생 효과는 레벨에 비례하여 증가합니다.]], "tformat")
 t("Dirge of Conquest", "정복의 장송곡", "talent name")
+t([[Sing a song of violence and victory (mostly violence) and sustain yourself through cruelty.
+Each time you deal a critical strike you gain 10%% of a turn (only once per turn).
+Each time you kill a creature you gain %d%% of a turn (only once per turn).
+]], [[대부분 폭력으로 점철된 승리의 노래를 불러 잔인함으로써 자신을 지탱합니다.
+시전자가 치명타를 가할 때, 한 턴의 10%% 를 획득합니다. (이 효과는 한 턴에 1 번만 발생합니다)
+시전자가 누군가를 살해할 때, 한 턴의 %d%% 를 획득합니다. (이 효과는 한 턴에 1 번만 발생합니다)
+]], "tformat")
 t("Dirge of Pestilence", "질병의 장송곡", "talent name")
+t([[Sing a song of decay and defiance and sustain yourself through spite.
+							Each time you suffer a detrimental effect, you gain a shield with strength %d, that lasts as long as the effect would.  This will add to and extend an existing shield if possible.
+							This can only trigger once every %d turns]], [[부패와 반항의 노래를 불러, 악의로써 자신을 지탱합니다.
+							부정적인 효과에 당할 때마다, 위력 %d 의 보호막을 얻습니다. 보호막의 지속 시간은 해당 효과의 지속시간과 같습니다.  가능할 경우, 이미 존재하는 보호막에 피해 흡수량이 더해지고, 지속시간이 연장될 것입니다.
+							이 효과는 매 %d 턴마다 한 번씩 발생합니다.]], "tformat")
 t("Dirge Acolyte", "섬기는 자의 장송곡", "talent name")
+t([[Even now, something compels you to sing.
+			Dirge of Famine: Increases health regen by %d.
+			Dirge of Conquest: Gives you part of a turn on critical (10%%) or kill (%d%%).
+			Dirge of Pestilence: Shields you for %d when an enemy inflicts a detrimental effect on you (5 turn cooldown).
+			You may only have one Dirge active at a time.]], [[지금도, 무엇인가가 노래를 부르게 끔 강요하는 것을 느낍니다.
+			기근의 장송곡 : 생명력 재생이 %d 증가합니다.
+			정복의 장송곡 : 치명타 시 한 턴의 10%% 를 획득하고, 적을 쓰러뜨릴 시 한 턴의 %d%% 를 획득합니다.
+			질병의 장송곡 : 적에게서 부정적인 효과를 적용 받을 때, %d 위력이 보호막이 생성됩니다 (재사용 대기시간 5 턴).
+			한 번에 하나의 장송곡만 활성화할 수 있습니다.]], "tformat")
 t("Dirge Intoner", "기도하는 자의 장송곡", "talent name")
 t([[Your dirges carry the pain within you, which threatens to swallow those who come too close.  Anyone who hits you in melee suffers %0.2f mind damage.
 							You, on the other hand, are steadied by the song.  Your dirges increase your resistance to stun and knockback by %d%%.
@@ -18224,7 +18326,7 @@ t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer
 t([[For the next %d turns two alternate versions of you enter your timeline.  While the effect is active all damage done by you or your copies is reduced by two thirds and all damage received is split between the three of you.
 		Temporal Fugue does not normally cooldown while active.  You may take direct control of your clones, give them orders, and set their talent usage.
 		Damage you deal to Fugue Clones or that they deal to you or each other is reduced to zero.]], [[다음 %d 턴 동안 다른 시간선의 2 명의 시전자가 현재 시간선에 진입합니다. 이 효과가 지속 되는 동안 시전자와 시전자의 분신들이 가하는 피해량은 66%%로 줄어들지만, 받는 피해는 모두 나누어 받습니다. 
-		분신 활성화 동안, 이 기술의 재사용 대기 시간은 정상적으로 줄어 들지 않습니다. 시전자는 분신들을 직접 조종하거나, 명령을 내리거나, 사용 할 기술을 골라줄 수 있습니다.
+		분신 활성화 동안, 이 기술의 재사용 대기시간은 정상적으로 줄어 들지 않습니다. 시전자는 분신들을 직접 조종하거나, 명령을 내리거나, 사용 할 기술을 골라줄 수 있습니다.
 		시전자와 분신이 서로에게 가하는 피해는 0으로 고정됩니다.]], "tformat")
 t("Braid Lifelines", "생명선 엮기", "talent name")
 t([[Your Rethread now braids the lifelines of all targets it hits for %d turns.  Braided targets take %d%% of all damage dealt to other braided targets.
@@ -18250,9 +18352,9 @@ section "game/modules/tome/data/talents/chronomancy/timetravel.lua"
 t("Temporal Bolt", "시간의 화살", "_t")
 t([[Pull a bolt of temporal energy back through time.  The bolt will home in on your location, dealing %0.2f temporal damage to targets, and reducing the cooldown of one chronomancy talent on cooldown by one turn per enemy hit.
 		The bolt gains 5%% damage each time it moves and the damage will scale with your Spellpower.
-		At talent level five cooldowns are reduced by two.]], [[시간의 에너지로 이루어진 화살을 끌어당깁니다. 화살은 시전자를 목표로 움직이며, 화살에 맞은 적에게 %0.2f 의 시간 피해를 입히고, 피해를 입힌 적 하나마다 시공 계열 기술 중 하나의 재사용 대기 시간을 1 턴 줄입니다.
+		At talent level five cooldowns are reduced by two.]], [[시간의 에너지로 이루어진 화살을 끌어당깁니다. 화살은 시전자를 목표로 움직이며, 화살에 맞은 적에게 %0.2f 의 시간 피해를 입히고, 피해를 입힌 적 하나마다 시공 계열 기술 중 하나의 재사용 대기시간을 1 턴 줄입니다.
 		화살은 1 칸씩 움직일 때마다 5%%의 피해가 추가되며 피해량은 주문력에 비례하여 상승합니다.
-		기술 레벨이 5가 되면 재사용 대기 시간 감소량은 2 턴이 됩니다.]], "tformat")
+		기술 레벨이 5가 되면 재사용 대기시간 감소량은 2 턴이 됩니다.]], "tformat")
 t("Time Skip", "시간 넘기기", "talent name")
 t("%s is immune!", "%s 면역이다!", "logSeen", nil, {"는"})
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
@@ -19206,6 +19308,15 @@ t([[Sense foes around you in a radius of %d for %d turns.
 		The radius will increase with your Cunning.]], [[반경 %d 칸 내의 적들의 위치를 %d 턴 동안 감지합니다.
 		범위는 교활 능력치에 비례해 증가합니다.]], "tformat")
 t("Danger Sense", "위기 감지", "talent name")
+t([[You have an enhanced sense of self preservation, and your keen intuition allows you to sense dangers others miss.
+		Your ability to detect traps is enhanced (+%d detect 'power').
+		Critical attacks against you have %0.1f%% reduced bonus damage, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
+		You also gain an additional chance (at your normal save %+d, effective) to resist detrimental status effects that can be resisted.
+		The detection and additional save chance improve with Cunning.]], [[남들보다 뛰어난 위기 감지 능력을 갖고있습니다. 날카로운 직감은 다른 이들이 감지하지 못하는 위험마저 간파할 수 있습니다.
+		함정 탐지력이 강화됩니다 (+%d 함정 탐지력).
+		피격 시, 적의 치명타로 인해 추가되는 피해량이 %0.1f%% 감소하고, 보이지 않는 적의 은신으로 인해 추가되는 피해량이 %d%% 감소합니다.
+		일정 확률로 저항 가능한 부정적인 효과에 대해 추가적인 판정 기회를 얻습니다. (추가 저항에 적용되는 내성은 실질 내성에서 %+d 만큼 변동된 수치가 적용됩니다)
+		탐지력과 추가 내성 확률은 교활 능력치에 비례해 증가합니다.]], "tformat")
 t("Disarm Trap", "함정 해체", "talent name")
 t("#CADET_BLUE#Disarm A Trap: (direction keys to select where to disarm, shift+direction keys to move freely)", "#CADET_BLUE#함정 해체: (해체할 함정이 있는 방향을 선택 해 주세요. shift+방향 키로 자유롭게 이동합니다)", "log")
 t("#CADET_BLUE#You don't have the skill to disarm traps.", "#CADET_BLUE#함정을 해체하기엔 당신의 기술이 부족하다.", "logPlayer")
@@ -19491,6 +19602,15 @@ t("Reduces the damage you take from bleeds by %d%%", "출혈로 받는 피해를
 t("Blood Rush", "피의 쇄도", "talent name")
 t("Nowhere to appear!", "나타날 곳이 없다!", "logSeen")
 t("The bloodrush fizzles!", "피의 쇄도가 실패했다!", "logSeen")
+t([[Teleport to an enemy, striking them for 100%% weapon damage, bleeding them for %d%% weapon damage over five turns, and marking them for six turns. You will not teleport if you are already adjacent.
+
+When the marked enemy dies, the cooldown of this talent will be reduced by two turns for every turn the mark had remaining.
+
+Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[적에게 순간이동 해, 100%% 무기 피해를 주고 출혈을 일으켜, 5 턴에 걸쳐 %d%% 무기 피해를 입힙니다. 또 6 턴 동안 지속되는 표식을 남깁니다. 시전자가 이미 적에게 인접해 있을 경우, 순간이동하지 않습니다.
+
+표식이 찍힌 적이 쓰러지면, 표식의 남은 지속시간 × 2 턴 만큼 이 기술의 재사용 대기시간이 줄어듭니다.
+
+피칠갑 기술에 투자된 기술 점수 하나 당 출혈 효과로 받는 피해량이 2%% 줄어듭니다.]], "tformat")
 t("Blood Rage", "피의 격노", "talent name")
 t([[Cut into an enemy and twist the blade, dealing %d%% damage and increasing the intensity of their existing bleed effects by %d%%.
 
@@ -19516,10 +19636,40 @@ section "game/modules/tome/data/talents/cursed/crimson-templar.lua"
 
 t("Shared Agony", "격통 분산", "talent name")
 t("%s(%d shared agony)#LAST#", "%s(%d 격통 분산)#LAST#", "tformat")
+t([[You displace %d%% of any damage you receive onto a random bleeding enemy within range 5. This redirected damage is amplified by %d%%.
+
+#{italic}#All living things are linked by blood. It is one river, flowing through all.#{normal}#]], [[피격 시, 받은 피해의 %d%% 를 반경 5 칸 내의 출혈 효과가 적용된 무작위한 적에게 전송합니다. 전송된 피해는 %d%% 증폭됩니다.
+
+#{italic}#모든 생명체는 피로 이어져있다.	이는 모든 이들에게 흐르는 하나의 강 줄기이다.#{normal}#]], "tformat")
 t("Splatter Sigils", "유혈의 인장", "talent name")
+t([[When you kill an enemy, their death forms a cursed magical pattern on the ground. This creates a circle of radius %d which blinds enemies and deals them %0.2f light damage, while giving you %d positive energy per turn. The circle lasts for %d turns.
+							The damage will increase with your Spellpower.
+							The duration of the circle can be increased by a critical hit.
+							The blind chance increases with your Spellpower.
+							You can activate this talent to draw the pattern in your own blood, creating it underneath you at the cost of %d%% of your maximum life.
+]], [[적을 살해할 때, 적의 죽음이 저주받은 마법의 인장이 되어 땅에 새겨집니다. 반경 %d 칸의 마법진이 나타나, 적들을 실명시키고 %0.2f 빛 피해를 입힙니다. 마법진은 매 턴 시전자의 양기를 %d 씩 재생시키며, %d 턴 동안 지속됩니다.
+							피해량은 주문력에 비례하여 증가합니다.
+							치명타 시, 마법진의 지속시간이 연장됩니다.
+							실명 확률은 주문력에 비례하여 증가합니다.
+							이 기술을 직접 사용해 시전자의 피로써 마법의 인장을 새깁니다. 최대 생명력의 %d%% 를 소모합니다.
+]], "tformat")
 t("Mark of the Vampire", "흡혈귀의 표식", "talent name")
+t([[Dooms all enemies within a radius 2 ball for 20 turns. Each time an affected target uses a talent, it takes %0.2f physical damage as its life is drawn out. In addition, any bleed applied to the target will have its power increased by %d%%.
+							The damage will increase with your Spellpower.
+							The chance to apply will increase with your Spellpower.]], [[반경 2 칸 내의 모든 적에게 20 턴 동안 파멸을 내립니다. 영향을 받은 적은 기술 시전 시, %0.2f 물리 피해를 받고, 생명력이 뽑혀 나옵니다. 추가로, 대상에게 적용된 모든 출혈 효과의 위력이 %d%% 증폭됩니다.
+							피해량은 주문력에 비례하여 증가합니다.
+							적용 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Rosebloom", "장미 개화", "talent name")
 t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
+t([[Draw on the wounds of enemies within range 10, healing yourself and putting them into a merciful sleep.
+							The sleep chance increases with your Spellpower.
+							You are healed for %d%% of the remaining damage of bleed effects on enemies in range (minimum %d per bleed). Enemies fall asleep for %d turns longer than their longest-lasting bleed, rendering them unable to act. The strength of the sleep effect is based on the strength of the bleed. Excess damage will reduce their sleep duration.
+							
+							When the sleep ends, each target will benefit from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it 50%% sleep immunity.]], [[반경 10 칸 이내의 적에게서 상처를 끌어내, 생명력을 회복하고 적들에게 자비로운 잠을 선사합니다.
+							수면 확률은 주문력에 비례하여 증가합니다.
+							범위 내에 존재하는 출혈의 남은 피해량의 %d%% 만큼 생명력을 회복합니다. (출혈 당 최소 %d 회복) 적들이 가진 출혈 효과 중에, 가장 지속시간이 긴 출혈 효과의 지속시간 + %d 턴 동안 잠에 빠져, 행동할 수 없게 됩니다. 수면의 위력은 출혈의 위력에 비례합니다.	 과도한 피해량은 수면의 지속시간을 단축합니다.
+							
+							잠이 끝나면, 대상은 잠이 들었던 시간만큼 불면증 상태가 되며 (최대 10 턴) 50%% 의 수면 면역력을 갖게 됩니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -19746,7 +19896,7 @@ t([[Let hate fuel your movements. While active, you gain %d%% movement speed. Th
 		Cleave, Repel and Surge cannot be active simultaneously, and activating one will place the others in cooldown.
 		Sustaining Surge while Dual Wielding grants %d additional Defense.
 		Movement speed and dual-wielding Defense both increase with the Willpower stat.]], [[증오를 장작삼아, 이동 속도에 불을 지핍니다. 활성화 동안 이동속도가 %d%% 증가합니다. 무모한 이동 방식은 불행을 불러옵니다. (행운 -3)
-		두개골 쪼개기, 격퇴와 쇄도는 동시에 활성화 할 수 없습니다. 셋 중 하나를 활성화 하면, 다른 두 기술에 재사용 대기 시간을 적용합니다.
+		두개골 쪼개기, 격퇴와 쇄도는 동시에 활성화 할 수 없습니다. 셋 중 하나를 활성화 하면, 다른 두 기술에 재사용 대기시간을 적용합니다.
 		쌍수 무기 사용 중 쇄도를 활성화하면 추가적으로 회피도가 %d 상승합니다.
 		이동 속도 증가량과 쌍수 무기 회피도 상승치는 의지에 비례하여 증가합니다.]], "tformat")
 
@@ -20009,11 +20159,44 @@ section "game/modules/tome/data/talents/cursed/self-hatred.lua"
 
 t("Self-Harm", "자해", "talent name")
 t("You can only use this while in combat", "이 기술은 전투에서 단 한 번만 사용 가능하다", "logPlayer")
+t([[At the start of each turn, if you're bleeding, you gain %d hate.
+
+You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
+
+#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[출혈 상태일 때 매 턴 증오를 %d 회복합니다.
+
+이 기술을 활성화하면, 자신의 살을 빠르게 베어내어, 5 턴에 걸쳐 %0.2f 출혈 피해를 받습니다. 이 출혈 효과는 저항하거나 제거할 수 없지만, 피칠갑 기술계열로 피해를 완화할 수 있습니다. 출혈 피해량은 최대 생명력에 비례하여 증가합니다.
+
+#{italic}#오직 고통만이 당신이 아직 느낄 수 있는 전부다.#{normal}#]], "tformat")
 t("Self-Loathing", "자가 혐오", "talent name")
+t([[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
+
+#{italic}#Anger makes you strong. And you're always angry.#{normal}#]], [[치명타 확률이 %d%% 향상되고, 현재 증오 수치에 비례해 치명타 피해량이 최대 %d%% 까지 증가합니다
+
+#{italic}#분노가 당신을 강하게한다.	 그리고, 당신은 항상 분노해 있다.#{normal}#]], "tformat")
 t("Self-Destruction", "자가 파괴", "talent name")
+t([[Call upon your deepest reserves of strength to win no matter the cost. 
+Immediately upon activation and every turn while this talent is active, your detrimental effects expire and your talents cool down as if an extra turn had passed. 
+This bonus cooldown occurs even if your talents would not normally cool down.
+This talent deactivates automatically upon rest.
+This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
+
+#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[그 어떤 댓가도 생각하지 않고, 오직 승리만을 위해 내면의 힘을 모조리 쏟아붓습니다.	
+활성화 즉시, 그리고 이 기술의 지속시간 중, 시전자의 부정적인 효과는 빠르게 사라지고, 기술들의 재사용 대기시간 역시 2 배 더 빠르게 돌게 됩니다.
+이 재사용 대기시간 단축 효과는 일반적으로 재사용 대기시간이 단축되지 않는 기술도 영향을 받습니다.
+이 기술은 휴식 시 비활성화 됩니다.
+이 강력한 효과에는 그에 걸맞는 댓가를 치뤄야합니다 : 최대 생명력의 %d%% 를 매 턴 잃게 됩니다. 이 피해로 죽을 수도 있습니다.
+
+
+#{italic}#당신은 운이 좋지, 그 행운이 당신이 가진 모든 것을 가져갈 거야.#{normal}#]], "tformat")
 t("Self-Judgement", "자가 심판", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target2# #Source#의 %s, 피해를 경감한다!#LAST#.", "logCombat", nil, {"으로"})
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d 피가 뿜어져 나옴#LAST#%s)#LAST#", "tformat")
+t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
+
+#{italic}#You can't just die. That would be too easy. You deserve to die slowly.#{normal}#]], [[최대 생명력의 %d%% 이상의 피해를 한 번에 받을 때, 초과된 피해량이 얕은 상처로 전환되어, 다음 %d 턴 동안 출혈로 인한 피해를 입습니다. 이 출혈 효과는 저항할 수도, 제거할 수도 없으나, 피칠갑 기술계열로 피해를 완화할 수 있습니다. 또한 최대 생명력의 %d%% 이상의 피해를 가하는 너무나 강력한 일격은, 불완전한 상태로 얕은 상처로 전환됩니다.
+
+#{italic}#당신은 그냥 죽으면 안돼. 그건 너무 쉽잖아. 당신은 천천히 죽어가야 마땅해.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -20243,7 +20426,7 @@ t([[Your skin forms icy scales and your flesh toughens, increasing your Maximum 
 		생명력 상승량은 기술 레벨에 비례하여 증가하고 방어력과 보복의 냉기 피해는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Ice Wall", "얼음 벽", "talent name")
 t("ice wall", "얼음벽", "_t")
-t("a summoned, transparent wall of ice", "소환된, 투명한 얼음벽", "_t")
+t("a summoned, transparent wall of ice", "소환된 투명한 얼음벽", "_t")
 t([[Summons an icy wall of %d length for %d turns. Ice walls are transparent, but block projectiles and enemies.
 		Ice walls also emit freezing cold, dealing %0.2f damage for each ice wall within radius %d of an enemy, and with each wall giving a 25%% chance to freeze an enemy. This cold cannot hurt the talent user or their allies.
 		Each point in cold drake talents also increases your cold resistance by 1%%.]], [[%d 길이의 얼음 벽을 %d 턴 동안 일으켜 세웁니다. 얼음 벽은 투명하여 시야를 가로막지 않지만, 투사체를 막고 이동을 막습니다.
@@ -20910,7 +21093,7 @@ t([[Allows you to burrow into earthen walls for %d turns.
 		At Talent Level 5, this talent can be used instantly, and the cooldown will reduce with levels.
 		Each point in sand drake talents also increases your physical resistance by 0.5%%.]], [[%d 턴 동안 흙으로 된 벽을 파헤칠 수 있게 됩니다.
 		강력한 땅 파기 능력은 적의 방어의 틈새를 찾아내고 깨부수는데에도 사용 될 수 있습니다. 효과가 활성화된 동안 적의 방어력를 %d 만큼, 물리 저항을 %d%% 만큼 무시합니다.
-		기술 레벨 5 일 때, 이 기술은 턴을 소모하지 않으며, 재사용 대기 시간도 레벨에 따라 단축됩니다. 
+		기술 레벨 5 일 때, 이 기술은 턴을 소모하지 않으며, 재사용 대기시간도 레벨에 따라 단축됩니다. 
 		모래 드레이크 기술에 투자된 기술 점수 하나 당 물리 저항이 0.5%% 상승합니다.]], "tformat")
 t("Sand Breath", "모래 숨결", "talent name")
 t("@Source@ breathes sand!", "@Source2@ 모래를 뿜어냈다!", "_t")
@@ -22288,7 +22471,7 @@ t([[Dwarf skin is a complex structure; it can automatically react to physical bl
 		When you are hit in melee, you have a 15%% chance to increase your armour total by %d for 5 turns and fully ignore the attack triggering it.
 		There is no cooldown to this effect; it can happen while already active.]], [[드워프의 피부는 물리 공격에 자동적으로 반응하고 경화됩니다.
 		근접 공격을 받을 때, 15%% 확률로 5 턴 동안 방어력이 총 %d 증가되며, 이 효과를 발동시킨 공격의 피해량을 완전히 무시합니다.
-		이 효과에는 재사용 대기 시간이 없으며, 활성화 중에도 다시 발동될 수 있습니다.]], "tformat")
+		이 효과에는 재사용 대기시간이 없으며, 활성화 중에도 다시 발동될 수 있습니다.]], "tformat")
 t("Power is Money", "황금 = 힘", "talent name")
 t([[Money is the heart of the Dwarven Empire; it rules over all other considerations.
 		Increases Physical, Mental and Spell Saves based on the amount of gold you possess.
@@ -22456,37 +22639,37 @@ t([[Surround yourself with a shield that will absorb %d%% of any physical/acid/n
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
 		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], [[시전자 주변을 보호막으로 둘러 싸, 받는 물리/산성/자연/시간 속성 피해를 %d%% 막아냅니다. 한 번에 최대 %d 피해를 막아냅니다.
-		보호막이 피해를 흡수할 때마다 피해량의 일부를 염력으로 변환하여 염력을 1 회복합니다. 추가로, 매 %0.1f 피해를 흡수할 때마다 염력을 1 회복합니다. 1 턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
-		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴 동안 보호막이 흡수한 피해량의 2 배에 해당하는 강도를 가진 보호막을 생성합니다.
-		보호막의 최대 피해 흡수량과 최대 염력 회복 제한은 정신력의 비례하여 증가합니다.
-		보호막은 한 번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
+		You can only have two of these shields active at once.]], [[주변을 보호막으로 둘러 싸, 받는 물리/산성/자연/시간 속성 피해를 %d%% 막아냅니다. 공격 당 최대 %d 피해까지 막아낼 수 있습니다.
+		보호막으로 흡수한 피해량의 일부를 염력으로 변환하여, 흡수한 공격마다 염력을 1 회복합니다. 추가적으로, %0.1f 피해를 흡수할 때마다 염력을 1 회복하며, 매 턴 최대 %0.1f 염력까지 회복할 수 있습니다.
+		기술 레벨이 3 이상일때, 보호막 해제 시 지난 3 턴 동안 보호막이 흡수한 피해량의 2배에 해당하는 강도를 가진 피해 흡수 보호막을 생성합니다.
+		보호막의 최대 피해 흡수량과 턴 당 염력 회복 제한은 정신력에 비례하여 증가합니다.
+		흡수 보호막은 동시에 2개까지만 유지 가능합니다.]], "tformat")
 t("Thermal Shield", "열역학 보호막", "talent name")
 t([[Surround yourself with a shield that will absorb %d%% of any fire/cold/light/arcane attack, up to a maximum of %d damage per attack.
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
 		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], [[시전자 주변을 보호막으로 둘러 싸, 받는 화염/냉기/빛/비전 속성 피해를 %d%% 막아냅니다. 한 번에 최대 %d 피해를 막아냅니다.
-		보호막이 피해를 흡수할 때마다 피해량의 일부를 염력으로 변환하여 염력을 1 회복합니다. 추가로, 매 %0.1f 피해를 흡수할 때마다 염력을 1 회복합니다. 1 턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
-		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴 동안 보호막이 흡수한 피해량의 2 배에 해당하는 강도를 가진 보호막을 생성합니다.
-		보호막의 최대 피해 흡수량과 최대 염력 회복 제한은 정신력의 비례하여 증가합니다.
-		보호막은 한 번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
+		You can only have two of these shields active at once.]], [[주변을 보호막으로 둘러 싸, 받는 화염/냉기/빛/비전 속성 피해를 %d%% 막아냅니다. 공격 당 최대 %d 피해까지 막아낼 수 있습니다.
+		보호막으로 흡수한 피해량의 일부를 염력으로 변환하여, 흡수한 공격마다 염력을 1 회복합니다. 추가적으로, %0.1f 피해를 흡수할 때마다 염력을 1 회복하며, 매 턴 최대 %0.1f 염력까지 회복할 수 있습니다.
+		기술 레벨이 3 이상일때, 보호막 해제 시 지난 3 턴 동안 보호막이 흡수한 피해량의 2배에 해당하는 강도를 가진 피해 흡수 보호막을 생성합니다.
+		보호막의 최대 피해 흡수량과 턴 당 염력 회복 제한은 정신력에 비례하여 증가합니다.
+		흡수 보호막은 동시에 2개까지만 유지 가능합니다.]], "tformat")
 t("Charged Shield", "전기역학 보호막", "talent name")
-t("You may only sustain two shields at once. Shield activation cancelled.", "당신은 최대 두개의 보호막만 유지할 수 있다. 보호막 활성화가 실패했다.", "logSeen")
+t("You may only sustain two shields at once. Shield activation cancelled.", "최대 두 개의 보호막까지 유지할 수 있기 때문에, 보호막 발동이 취소되었다.", "logSeen")
 t([[Surround yourself with a shield that will absorb %d%% of any lightning/blight/darkness/mind attack, up to a maximum of %d damage per attack.
 		Every time your shield absorbs damage, you convert some of the attack into energy, gaining one point of Psi, plus an additional point for every %0.1f points of damage absorbed, up to a maximum %0.1f points each turn.
 		At talent level 3, when you de-activate the shield twice the absorbed damage (if any) in the last 3 turns is released as a full psionic shield (absorbing all damage).
 		The maximum amount of damage your shield can absorb and the efficiency of the psi gain scale with your mindpower.
-		You can only have two of these shields active at once.]], [[시전자 주변을 보호막으로 둘러싸 전기/황폐/암흑/정신 속성 피해를 %d%% 막아냅니다. 한 번에 최대 %d 피해를 막아냅니다.
-		보호막이 피해를 흡수할 때마다 피해량의 일부를 염력으로 변환하여 염력을 1 회복합니다. 추가로, 매 %0.1f 피해를 흡수할 때마다 염력을 1 회복합니다. 1 턴에 최대 %0.1f 의 염력을 회복할 수 있습니다.
-		기술 레벨이 3 이상일 경우, 보호막을 해제할 때 지난 3 턴 동안 보호막이 흡수한 피해량의 2 배에 해당하는 강도를 가진 보호막을 생성합니다.
-		보호막의 최대 피해 흡수량과 최대 염력 회복 제한은 정신력의 비례하여 증가합니다.
-		보호막은 한 번에 2 개 까지만 유지할 수 있습니다.]], "tformat")
+		You can only have two of these shields active at once.]], [[주변을 보호막으로 둘러 싸, 받는 전기/황폐/암흑/정신 속성 피해를 %d%% 막아냅니다. 공격 당 최대 %d 피해까지 막아낼 수 있습니다.
+		보호막으로 흡수한 피해량의 일부를 염력으로 변환하여, 흡수한 공격마다 염력을 1 회복합니다. 추가적으로, %0.1f 피해를 흡수할 때마다 염력을 1 회복하며, 매 턴 최대 %0.1f 염력까지 회복할 수 있습니다.
+		기술 레벨이 3 이상일때, 보호막 해제 시 지난 3 턴 동안 보호막이 흡수한 피해량의 2배에 해당하는 강도를 가진 피해 흡수 보호막을 생성합니다.
+		보호막의 최대 피해 흡수량과 턴 당 염력 회복 제한은 정신력에 비례하여 증가합니다.
+		흡수 보호막은 동시에 2개까지만 유지 가능합니다.]], "tformat")
 t("Forcefield", "역장", "talent name")
 t([[Surround yourself with a forcefield, reducing all incoming damage by %d%%.
 		Such a shield is very expensive to maintain, draining 5%% of your maximum psi per turn initially plus an addition 5%% for each turn it has been maintained. For example, on turn 2 it will drain 10%%.
-		Current drain rate: %0.1f psi/turn]], [[시전자 주변을 정신 역장으로 둘러 싸, 받는 피해량을 %d%% 줄입니다.
-		강력한 보호막은 매우 유지하기 힘들기 때문에, 매 턴 최대 염력의 5%% 가 소모되고 매 턴 염력 소모량이 5%%씩 증가합니다. 예를들면, 2 턴째에는 염력의 10%%가 소모됩니다.
+		Current drain rate: %0.1f psi/turn]], [[주변을 정신 역장으로 둘러 싸, 받는 피해량을 %d%% 줄입니다.
+		역장의 유지 비용은 굉장히 높습니다. 매 턴 최대 염력의 5%%가 소모되고, 염력 소모량이 5%%씩 지속적으로 증가합니다. 예를 들어, 2턴 째에는 염력의 10%%가 소모됩니다.
 		현재 염력 소모율: %0.1f 염력/턴]], "tformat")
 
 
@@ -22497,25 +22680,25 @@ t("Skate", "공중 부양", "talent name")
 t([[You telekinetically float just off the ground.
 		This allows you to slide around the battle quickly, increasing your movement speed by %d%%.
 		It also makes you more vulnerable to being pushed around (-%d%% knockback resistance).]], [[염력을 사용해 지면 위로 살짝 떠오릅니다.
-		이를 통해 지면을 미끄러지듯 신속하게 움직일 수 있게 되어, 이동 속도가 %d%% 증가하게 됩니다.
-		하지만 공중 부양 상태에서는, 평상시보다 쉽게 밀려나게 됩니다. (밀어내기 저항력 -%d%%)]], "tformat")
+		이를 통해 지면을 미끄러지듯 신속하게 움직일 수 있게 되기에, 이동 속도가 %d%% 증가하게 됩니다.
+		하지만 공중 부양 상태에서는 평상시보다 쉽게 밀려나게 됩니다. (밀어내기 저항력 -%d%%)]], "tformat")
 t("Quick as Thought", "생각의 속도", "talent name")
 t([[Encase your body in a sheath of thought-quick forces, allowing you to control your body's movements directly without the inefficiency of dealing with crude mechanisms like nerves and muscles.
 		Increases Accuracy by %d, your critical strike chance by %0.1f%% and your global speed by %d%% for %d turns.
-		The duration improves with your Mindpower.]], [[육체를 정신력으로 감싸, 신경과 근육을 통한 비효율적인 운동 방식 대신 초능력으로 몸의 움직임을 직접 제어해, 매우 효율적이게 만듭니다.
-		%d 턴 동안 정확도가 %d / 치명타 확률이 %0.1f%% / 전체 속도가 %d%% 증가합니다.
+		The duration improves with your Mindpower.]], [[육체를 정신력으로 감싸 신경과 근육을 통한 비효율적인 운동 방식 대신 초능력으로 몸의 움직임을 직접 제어해 매우 효율적으로 만듭니다.
+		%d 턴 동안 정확도가 %d, 치명타 확률이 %0.1f%%, 전체 속도가 %d%% 증가합니다.
 		지속시간은 정신력의 비례하여 증가합니다.]], "tformat", {4,1,2,3})
 t("Mindhook", "정신 갈고리", "talent name")
 t("The target is out of range", "대상이 사거리 밖에 있다.", "logPlayer")
 t([[Briefly extend your telekinetic reach to grab an enemy and haul them towards you.
 		Works on enemies up to %d squares away.
-		The cooldown decreases, and the range increases, with additional talent points spent.]], [[염동력을 뻗어 대상을 붙잡고 시전자가 있는 곳으로 끌어옵니다.
+		The cooldown decreases, and the range increases, with additional talent points spent.]], [[염동력을 뻗어 대상을 붙잡아 시전자 쪽으로 끌어옵니다.
 		반경 %d 칸 내의 적을 끌어올 수 있습니다.
-		재사용 대기시간과 최대 사거리는 이 기술의 기술 레벨에 비례하여 향상 됩니다.]], "tformat")
+		재사용 대기시간과 최대 사거리는 이 기술에 사용한 점수에 비례하여 증가합니다.]], "tformat")
 t("Telekinetic Leap", "염동력 도약", "talent name")
-t("@Source@ performs a telekinetically enhanced leap!", "@Source2@ 염동력의 힘으로 도약한다!", "_t")
-t("You can not jump onto a creature.", "당신은 대상에게 도약 할 수 없다.", "logPlayer")
-t("You perform a precise, telekinetically-enhanced leap, landing up to %d squares from your starting point.", "정신을 집중해, 염동력으로 강화된 도약을 합니다, 도약 시작 지점에서 최대 %d 칸 떨어진 곳으로 도약합니다.", "tformat")
+t("@Source@ performs a telekinetically enhanced leap!", "@Source2@ 염동력의 힘으로 도약했다!", "_t")
+t("You can not jump onto a creature.", "다른 대상 위로는 도약할 수 없다.", "logPlayer")
+t("You perform a precise, telekinetically-enhanced leap, landing up to %d squares from your starting point.", "정신을 집중하여 염동력으로 강화된 도약을 합니다. 현재 위치에서 최대 %d 칸 떨어진 곳까지 도약할 수 있습니다.", "tformat")
 
 
 ------------------------------------------------
@@ -22526,33 +22709,33 @@ t("%s resists the pin!", "%s 속박에 저항했다!", "logSeen", nil, {"가"})
 t([[Focus kinetic energy and strike an enemy for %d%% weapon damage as physical.
 		They will be pinned to the ground for %d turns by the force of this attack.
 		Any frozen creature hit by this attack will take an extra %0.2f physical damage.
-		The extra damage will scale with your Mindpower.]], [[동역학 에너지를 모아, 무기 피해의 %d%% 를 물리 속성으로 입힙니다.
-		이 공격으로 인해 대상은 %d 턴 동안 속박될 것입니다.
-		빙결된 적을 대상으로 한 동역학 강타는 추가로 %0.2f 물리 피해를 입힙니다.
+		The extra damage will scale with your Mindpower.]], [[동역학 에너지를 모아 타격하여, 대상에게 무기 피해의 %d%% 를 물리 속성으로 입힙니다.
+		이 공격으로 인해 대상은 %d 턴 동안 속박됩니다.
+		빙결된 적을 대상으로 할 시 %0.2f 물리 피해를 추가적으로 더 입힙니다.
 		추가 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Thermal Strike", "열역학 강타", "talent name")
 t("ice wall", "얼음벽", "_t")
-t("a summoned, transparent wall of ice", "소환된, 투명한 얼음벽", "_t")
+t("a summoned, transparent wall of ice", "소환된 투명한 얼음벽", "_t")
 t([[Focus thermal energy and strike an enemy for %d%% weapon damage as cold.
 		A burst of cold will then engulf them, doing an extra %0.1f Cold damage and also freeze them for %d turns.
 		If the attack freezes a pinned creature a burst of ice is summoned, circling the caster and the creature with a wall of ice for 3 turns.
-		The cold burst damage will scale with your Mindpower.]], [[열역학 에너지를 모아, 무기 피해의 %d%% 를 냉기 속성으로 입힙니다.
-		냉기 폭발이 대상을 에워싸, 추가로 %0.1f 냉기 피해를 입히고 %d 턴 동안 얼려버립니다.
+		The cold burst damage will scale with your Mindpower.]], [[열역학 에너지를 모아 타격하여, 대상에게 무기 피해의 %d%% 를 냉기 속성으로 입힙니다.
+		추가적으로 냉기 폭발이 대상을 에워싸 %0.1f 냉기 피해를 입히고, %d 턴 동안 얼립니다.
 		속박된 적을 빙결시킬 경우, 얼음 덩어리가 솟아나 대상과 시전자를 3 턴 동안 둘러쌉니다.
 		냉기 폭발 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Charged Strike", "전기역학 강타", "talent name")
-t("You cannot do that without a weapon in your hands.", "근접무기없이는 불가능하다.", "logPlayer")
+t("You cannot do that without a weapon in your hands.", "무기를 손에 들고있지 않으면 사용할 수 없다.", "logPlayer")
 t([[Focus charged energy and strike an enemy for %d%% weapon damage as lightning.
 		Energy will then discharge from your weapon, doing an extra %0.2f lightning damage and halving their stun/daze/freeze/pin resistance for %d turns.
 		If the target is pinned and Charged Shield is sustained, its absorb value will be increased by %0.2f.
 		If the target is frozen, the ice will melt in a flash of vapour, knocking back all creatures around it in radius 2.
-		The discharge damage will scale with your Mindpower.]], [[전기역학 에너지를 모아, 무기 피해의 %d%% 를 전기 속성으로 입힙니다.
-		전기 에너지가 무기에서 방전되어, %0.2f 전기 피해를 추가로 입히고 %d 턴 동안 기절/혼절/빙결/속박 면역력을 절반으로 감소시킵니다.
-		시전자의 전기역학 보호막이 활성화 중이고, 속박된 적을 대상으로 할 경우, 보호막의 피해 흡수량이 %0.2f 증가합니다.
-		대상이 이미 빙결되어 있다면, 번쩍이는 섬광으로 얼음 덩어리를 녹이고, 반경 2 칸 내의 모든 개체를 밀어냅니다.
+		The discharge damage will scale with your Mindpower.]], [[전기역학 에너지를 모아 타격하여, 대상에게 무기 피해의 %d%% 를 전기 속성으로 입힙니다.
+		추가적으로 전기 에너지가 무기에서 방전되어 대상에게 %0.2f 전기 피해를 입히고, %d 턴 동안 기절/혼절/빙결/속박 면역력을 절반으로 감소시킵니다.
+		시전자의 전기역학 보호막이 활성화 중이고, 속박된 적을 대상으로 할 경우 보호막의 피해 흡수량이 %0.2f 증가합니다.
+		대상이 이미 빙결된 상태라면, 번쩍이는 섬광으로 얼음 덩어리를 녹이고 반경 2 칸 내의 모든 개체를 밀쳐냅니다.
 		방전 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Psi Tap", "염력 수집", "talent name")
-t("Wrap a psionic energy field around your weapons, increasing their armour penentration by %d and allowing you to siphon excess energy from each weapon hit you land, gaining %0.1f psi per hit.", "무기를 염동력 역장으로 감싸, 방어력 관통이 %d 향상되고, 무기에서 발생하는 과잉 에너지를 흡수하여 타격 당 %0.1f 염력을 획득합니다.", "tformat")
+t("Wrap a psionic energy field around your weapons, increasing their armour penentration by %d and allowing you to siphon excess energy from each weapon hit you land, gaining %0.1f psi per hit.", "무기를 염동력 역장으로 감싸 방어력 관통을 %d 향상시킵니다. 또한, 무기에서 발생하는 과잉 에너지를 흡수하여 타격 당 %0.1f 염력을 획득합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -22944,6 +23127,11 @@ t("Iron Will", "강철의 의지", "talent name")
 section "game/modules/tome/data/talents/psionic/mentalism.lua"
 
 t("Psychometry", "초감각", "talent name")
+t([[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.1f or %d%% of the object's material level (whichever is lower).
+		This effect stacks and applies for each qualifying object worn.
+		Current bonus: %d]], [[착용하고 있는 염력, 자연의 힘, 반마법 속성의 장비와 공명하여, 물리력, 정신력이 %0.2f 또는 장비 등급의 %d%% 만큼 상승합니다. (둘 중 낮은 쪽이 적용됩니다)
+		이 효과는 모든 종류의 장비에 적용되며, 중첩됩니다.
+		현재 상승량 : %d]], "tformat")
 t("Mental Shielding", "정신 방어", "talent name")
 t("%s's mind is clear!", "%s의 정신은 정화된다!", "logSeen")
 t("Clears your mind of current mental effects, and blocks additional ones over 6 turns.  At most, %d mental effects will be affected.", "정신을 정화하여 6 턴 동안 추가적인 정신적 효과를 방어합니다. 촤대 %d 개의 정신적 효과에 적용됩니다.", "tformat")
@@ -23134,11 +23322,11 @@ t("Use telekinetic forces to greatly augment the durability and tension of your 
 section "game/modules/tome/data/talents/psionic/psi-fighting.lua"
 
 t("Telekinetic Smash", "염동 강타", "talent name")
-t("You cannot do that without a weapon in your hands.", "근접무기없이는 불가능하다.", "logPlayer")
+t("You cannot do that without a weapon in your hands.", "무기를 손에 들고있지 않으면 사용할 수 없다.", "logPlayer")
 t([[Gather your will, and brutally smash the target with your mainhand weapon and then your telekinetically wielded weapon, doing %d%% weapon damage.
 		If your mainhand weapon hits, you will also stun the target for %d turns.
 		This attack uses 60%% of your Willpower and Cunning instead of Strength and Dexterity to determine weapon damage and accuracy, for both attacks.
-		Any active Aura damage bonusses will extend to the weapons used for this attack.]], [[의지를 모아, 주 무기로 대상을 난폭하게 강타한 후 염동력 장착 무기로 공격합니디. %d%% 무기 피해를 줍니다.
+		Any active Aura damage bonusses will extend to the weapons used for this attack.]], [[의지를 모아, 주 무기로 대상을 난폭하게 강타한 후 염동력 장착 무기로 공격합니다. %d%% 무기 피해를 줍니다.
 		주 무기 공격이 명중한 경우, %d 턴 동안 대상을 기절시킵니다.
 		2 번의 공격 모두 피해량과 정확도를 산출하기 위해 힘 대신 교활, 민첩 대신 의지를 의지를 이용합니다.
 		활성화돤 아우라의 추가피해가 두 번의 공격에 모두 적용됩니다.]], "tformat")
@@ -23325,7 +23513,7 @@ t([[Each time you take damage, you roll %d%% of your mental save against it.  A 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/telekinetic-combat.lua"
 
-t("You cannot do that without a weapon in your hands.", "근접무기없이는 불가능하다.", "logPlayer")
+t("You cannot do that without a weapon in your hands.", "무기를 손에 들고있지 않으면 사용할 수 없다.", "logPlayer")
 
 
 ------------------------------------------------
@@ -24032,7 +24220,7 @@ t([[Imbues your shields with arcane power, dealing %0.2f arcane damage with each
 		Allows counterstrikes after incomplete blocks and the cooldown of Block is reduced by %d turns.
 		The damage will increase with Spellpower.]], [[방패를 비전의 힘으로 강화하여, %0.2f 비전 피해를 매 물리 공격에 추가하고, 피격 시 %0.2f 비전 피해로 적에게 보복합니다.
 		시전자의 방패는 일그러진 힘을 방출해, 방패의 등급마다 %d 주문력과 정신력을 얻습니다. 보조무기 칸에 든 방패의 등급은 50%% 로 적용됩니다. 현재 획득한 주문력과 정신력은 %d 입니다.
-		완전한 방패 막기에 실패하더라도, 대상에게 반격 약화 효과를 부여합니다. 또한 방패 막기의 재사용 대기 시간이 %d 턴 줄어듭니다.
+		완전한 방패 막기에 실패하더라도, 대상에게 반격 약화 효과를 부여합니다. 또한 방패 막기의 재사용 대기시간이 %d 턴 줄어듭니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Eldritch Fury", "일그러진 분노", "talent name")
 t("You cannot use Eldricth Fury without a shield!", "방패없이 일그러진 분노를 사용할 수 없다!", "logPlayer")
@@ -24716,7 +24904,7 @@ t([[Your mastery over magic is so great that you can alter the energy of all dam
 		이 효과는 두 번 이상 적용되지 않고, 오직 시전자가 시전한 주문에만 영향을 끼칩니다. 지속 피해나 지면의 효과로 인한 피해는 적용되지 않습니다.]], "tformat")
 t("Metaflow", "흐름 초월", "talent name")
 t([[Your mastery of arcane flows allow you to reset the cooldown of up to %d of your spells (that don't have a fixed cooldown) of tier %d or less.
-		In addition for %d turns you are overflowing with energy; all known spells are considered one talent level higher when casting them.]], [[마법의 흐름에 숙달되어, 최대 %d 개의 %d 등급 이하 주문의 재사용 대기 시간을 초기화 할 수 있게 되었습니다.
+		In addition for %d turns you are overflowing with energy; all known spells are considered one talent level higher when casting them.]], [[마법의 흐름에 숙달되어, 최대 %d 개의 %d 등급 이하 주문의 재사용 대기시간을 초기화 할 수 있게 되었습니다.
 		추가로 %d 턴 동안, 시전자는 막대한 에너지를 축적해, 시전자가 배운 모든 주문의 기술 레벨이 1 증가된 것 처럼 작동합니다.]], "tformat")
 
 
@@ -25158,6 +25346,21 @@ t([[You create an orb attuned to thaumaturgy for %d turns.
 		지속시간 동안, 시전자가 시전하는 모든 광선 주문이 복제되어, 구체가 원래의 %d%% 피해로 같은 주문을 시전합니다.
 		]], "tformat")
 t("Multicaster", "다중 시전자", "talent name")
+t([[Casting beam spells has become so instinctive for you that you can now easily weave in other spells at the same time.
+		Anytime you cast a beam spell there is a %d%% chance to automatically cast an offensive spell that you know.
+		Beam spells duplicated by the Orb of Thaumaturgy can also trigger this effect.
+		This can only happen once (or twice with Orb of Thaumaturgy) per turn.
+		The additional cast will cost mana but no turn, will not active its cooldown and can trigger on spells currently on cooldown.
+		During Aether Avatar only compatible spells are used.
+
+		Eligible spells: %s]], [[광선 주문의 시전은 본능의 영역에 다다라, 동시에 다른 주문들을 손쉽게 엮어낼 수 있게 됩니다.
+		광선 마법을 시전할 때, %d%% 확률로 시전자가 알고 있는 공격 주문을 자동으로 시전합니다.
+		주술의 보주로 복제된 광선 주문도 이 효과를 발동시킵니다.
+		이 효과는 한 턴에 1 번 발동되며, 주술의 보주로는 2 번까지 발동됩니다
+		추가 시전으로 발동하는 주문에는 마나가 소모되지만 턴을 소모하지 않고, 재사용 대기시간 역시 적용되지 않습니다. 단, 시전자가 직접 시전한 주문에는 재사용 대기시간이 적용됩니다. 
+		에테르의 화신의 지속 시간 동안, 에테르의 화신에 맞는 주문들만 사용됩니다.
+
+		적합한 주문 : %s]], "tformat")
 t("Slipstream", "비전 이동", "talent name")
 t("#PURPLE#Your Slipstream does not have enough resources!", "#PURPLE#당신은 비전 이동을 사용할 충분한 마나가 없다!", "logPlayer")
 t("#PURPLE#Your Slipstream regenerates to full!", "#PURPLE#당신의 비전 이동은 완전히 충전되었다!", "logPlayer")
@@ -25671,6 +25874,11 @@ t([[You become better at using your armour to deflect blows and protect your vit
 		레벨 3에서 판금 갑옷을 착용할 수 있습니다.
 		%s]], "tformat")
 t("Light Armour Training", "경갑 훈련", "talent name")
+t([[You learn to maintain your agility and manage your combat posture while wearing robes or light armour.  When wearing armour no heavier than leather in your main body slot, you gain %d Defense, %d%% Armour hardiness, and %d%% reduced Fatigue.
+		In addition, when you step adjacent to a (visible) enemy, you use the juxtaposition to increase your total Defense by %d for 2 turns.
+		The Defense bonus scales with your Dexterity.]], [[경갑과 로브를 착용하며 민첩함과 전투 자세를 유지하는 법을 익혔습니다. 가슴 방어구로 경갑과 로브를 착용할 때, 회피도가 %d, 방어 효율이 %d%% 증가하고 피로도가 %d%% 감소합니다.
+		추가로 (눈에 보이는) 적과 인접한 곳으로 이동할 때, 적과 나란히 서서 2 턴 동안 총 회피도가 %d 증가합니다.
+		회피 효과는 민첩의 영향을 받아 증가합니다.]], "tformat")
 t("Combat Accuracy", "전투 정확도", "talent name")
 t("Increases the accuracy of unarmed, melee and ranged weapons by %d.", "맨손 전투, 근접 및 원거리 무기의 정확도가 %d 증가합니다.", "tformat")
 t("Weapons Mastery", "무기 숙련", "talent name")
@@ -27152,6 +27360,47 @@ t("Unlocked the Fallen evolution", "타락한 자 진화를 해금", "_t")
 t("Committed a heinous act", "극악무도한 행위를 자행할 것", "_t")
 t("Fallen", "타락한 자", "_t")
 t("#CRIMSON#You give in to the darkness. You have fallen!", "#CRIMSON#당신은 어둠에 굴복했다. 당신은 타락했다!", "say")
+t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
+		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
+		
+		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
+
+		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
+
+		The following talent trees are swapped:
+		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
+		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
+		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
+
+		You will learn the following talents trees:
+		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
+		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
+		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
+		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
+
+		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
+		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
+		]], [[태양의 기사들의 규율은 때때로 감당하기 어려울 수도 있습니다.  어둠에 굴복해서
+		#{italic}##GREY#규율을 저버리는게 어떻겠습니까?#LAST##{normal}#
+		
+		#CRIMSON#이 직업 진화는 직업과 캐릭터를 근본적으로, 아주 크게 변화시킵니다. 너무 가벼이 선택하지 마십시오.#LAST#
+
+		당신이 알고있는 모든 전투 기술 계통과 해제 가능한 천공 계통 기술들은 저주받은 기술로 변해, 적들 사이에 피를 흩뿌리고, 광휘 대신 암울의 그림자를 드리울 수 있게됩니다. 또 새로운 전투 방식과 방어 능력을 얻게됩니다.
+
+		다음 기술 계열이 변경됩니다 :
+		- #GOLD#광휘#LAST#는 #CRIMSON#암울#LAST#로 변합니다 : 증오를 발산해, 적들을 방해합니다.
+		- #GOLD#수호자#LAST#는 #CRIMSON#진홍의 기사#LAST#으로 변합니다 : 피의 힘을 사용해 당신의 앞길을 방해하는 멍청이들에게 패배를 안깁니다.
+		- #GOLD#성전사는#LAST# #CRIMSON#어두운 태양#LAST#으로 변합니다 : 죽은 태양의 에너지를 불러와, 적들을 파괴합니다.
+
+		다음 기술들을 익힙니다 :
+		- #CRIMSON#피칠갑#LAST# : 적에게 출혈을 유발합니다!
+		- #CRIMSON#어두운 면#LAST# : 모든 빛은 그림자를 남깁니다. 당신의 힘은 짙은 그림자를 남깁니다.
+		- #CRIMSON#자기혐오#LAST#: 출혈을 통해 자신의 증오를 드러냅니다.
+		- #CRIMSON#장송곡#LAST#: 죽음과 슬픔의 노래를 불러, 결의를 확고하게 다집니다.
+
+		해당 기술 계열을 잊어버리지만, 기술 점수가 반환됩니다 : 방패 공격, 양손 무기 맹공.
+		또한 모든 전투 기술 계통의 기술들이 기력 대신 증오를 소모하게 됩니다.
+		]], "tformat")
 
 
 ------------------------------------------------

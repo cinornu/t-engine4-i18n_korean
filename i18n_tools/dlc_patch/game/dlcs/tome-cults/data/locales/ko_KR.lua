@@ -2015,7 +2015,7 @@ According to the records of Anglowen, Quekorja was slain during the Godhunt and 
 t("Researcher Dremnot's Demystification of the Gods: Chapter 9 - Xadoch", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 9 - Xadoch", "_t")
 t([[Xadoch held the title of Blight-Weaver. It loved the creatures which crawled close to the earth and toiled in Eyal's filth, but had no love for its sapient races. As such, it was attributed in many mythologies to the creation of numerous diseases and plagues. Some myths stated that there was necessity to Xadoch's presence, as its plagues prevented any one race dominating the world and kept a balance of sorts. On the other hand, many other myths attest that the god had a cruel curiosity. It spread blight across the world and created diseases just to see what sort of effect they would have on sapient life. If it weren't for the other gods on Eyal, it is believed that Xadoch would have scoured the entire world of sapient life.
 
-Xadoch was one of the first gods to be felled in the God Hunt by the hunter Branzir. The Sher'tul had a particular dislike of the god, as it had tried to undermine them with plagues numerous times. Strains of Xadoch's diseases are thought to still be on Eyal to this day, waiting for some unfortunate victim to carry them back to civilisation, so Xadoch may commit one last act of spite against sapient life.]], [[Xadoch는 황폐를 부르는자라는 타이틀을 갖고 있었다. 그것은 지표면 가까이 기어다니며 에이얄의 오물 속에서 고생하는 생물들을 사랑했지만, 자신의 지성종족에 대한 사랑은 없었다. 많은 신화에서 수많은 질병과 역병이 Xadoch에의해 만들어졌다고 한다. 하지만 어떤 신화들은 Xadoch의 존재가 필요했다고 말했다. Xadoch의 재앙은 세계를 어떤 한 종족이 독점하는 것을 막을 수 있었고, 일종의 균형을 유지했기 때문이다. 반면에, 많은 다른 신화들은 신이 잔인한 호기심을 가졌다는 것을 증명한다. Xadoch는 황폐를 전세계로 흩뿌렸고, 단순히 지성종족들에게 어떤 종류의 영향을 미치게 될지 보기 위해 질병을 만들었다고 한다. 만약 에이얄의 다른 신들이 아니었다면, Xadoch가 온 세상의 지성종족을 시들어버리게 만들었을거라고 믿어진다.
+Xadoch was one of the first gods to be felled in the God Hunt by the hunter Branzir. The Sher'tul had a particular dislike of the god, as it had tried to undermine them with plagues numerous times. Strains of Xadoch's diseases are thought to still be on Eyal to this day, waiting for some unfortunate victim to carry them back to civilisation, so Xadoch may commit one last act of spite against sapient life.]], [[자도치는 황폐를 부르는자라는 타이틀을 갖고 있었다. 그것은 지표면 가까이 기어다니며 에이얄의 오물 속에서 고생하는 생물들을 사랑했지만, 자신의 지성종족에 대한 사랑은 없었다. 많은 신화에서 수많은 질병과 역병이 자도치에의해 만들어졌다고 한다. 하지만 어떤 신화들은 Xadoch의 존재가 필요했다고 말했다. Xadoch의 재앙은 세계를 어떤 한 종족이 독점하는 것을 막을 수 있었고, 일종의 균형을 유지했기 때문이다. 반면에, 많은 다른 신화들은 신이 잔인한 호기심을 가졌다는 것을 증명한다. 자도치는 황폐를 전세계로 흩뿌렸고, 단순히 지성종족들에게 어떤 종류의 영향을 미치게 될지 보기 위해 질병을 만들었다고 한다. 만약 에이얄의 다른 신들이 아니었다면, 자도치가 온 세상의 지성종족을 시들어버리게 만들었을거라고 믿어진다.
 
 Xadoch는 신 사냥꾼 브란지르에의해 쓰러진 첫번째 신들중 하나다. 쉐르'툴은 이 신을 특히나 싫어했는데, Xadoch가 몇번씩이나 역병으로 그들을 약화시키려 했기 때문이다. Xadoch의 질병은 오늘날까지도 에이얄에 남아 있는 것으로 생각되며, 어떤 불행한 희생자가 그것들을 다시 문명으로 데려가기를 기다리고 있다, 그로인해 Xadoch는 지적생명에 대한 마지막 악행을 저지를지도 모른다.]], "_t")
 t("Researcher Dremnot's Demystification of the Gods: Chapter 12 - Ugg'matho", "연구원 드렘낫의 신들에 대한 해체분석: 챕터 12 - 우그'마토", "_t")
@@ -2231,6 +2231,7 @@ Of course no analysis of the krog would be complete without mentioning the many 
 보통 그들이 지구랏 인들에게 고용되지 않거나 탈주 마법사와 싸우고 있지 않을 때, 크로그는 누구든 그들을 고용할 사람들에게 그들 자신을 노동자로 계약하는 것으로 알려져 있다. 오우거들럼, 크로그 또한 인상적인 식욕을 가지고 있는 것으로 알려져 있고 많은 크로그 농부들이 먹을 음식을 재배하기 위해 밭을 갈고 있는 것을 발견할 수 있다. 그들은 또한 주입물 을 혼합하는 재능으로 알려져 있으며, 대륙의 시장에서 찾을 수 있는 대부분의 것을 생산한다.
 
 물론 크로그의 많은 이야기, 노래, 예술작품을 언급하지 않고는 크로그의 분석이 완벽하지 않을 것이다. 많은 크로그 부모들이 어린 크로그들에게 과감하게 세상으로 나가서 영웅적인 행동을 하라고 격려한다. 이러한 행동의 과정은 용맹함, 영광 또는 부와는 별로 관련이 없는 것처럼 보인다. 전형적인 '모험가'에게 기대할 수 있는 어떤 것, 그리고 이전에 그들이 오우거였던 것에 따르는 불신과 더 많은 관련이 있다. 이전에 오우거였던 그들의 초기 이미지와 싸우기 위해, 크로그는 인상적인 위업의 달성을 통해 새로운 이미지를 얻으려고 노력했다. 결과적으로 크로그에 관해 많은 예술 작품들의 창작된 것에서 증명되었듯이 이것은 꽤나 성공적이었던 것 같다. ]], "_t")
+t("races", "종족", "newLore category")
 t("Loremaster Greynot's Analysis of the Races - Chapter 13 - Drems", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 13 - 드렘", "_t")
 t([[Eyal's underground is abundant with strange, and not particularly wholesome, creatures. Many of them are mindless monstrosities, unable to be reasoned with and best left alone. However, perhaps the most unusual of these creatures are the Drem. For the longest time, Drem were presumed to simply be another form of horror which dwelled in Eyal's underground. The recent emergence of thinking Drem, however, has forced many scholars to reassess their race as a whole.
 
@@ -3288,7 +3289,7 @@ t([[Enter a killing frenzy for 3 turns.
 		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
 		]], [[3 턴 동안 살육의 광란에 진입합니다.
 		지속 기간 동안 첫번째로 사용한 직업 기술은 재사용 대기시간이 적용되지 않습니다. (같은 기술을 2 번 사용할 시 재사용 대기시간이 적용됩니다).
-		이 효과는 각인, 즉발성 기술, 지속 효과와 현재 고정된 재사용 대기 시간을 가진 기술에는 적용되지 않습니다.
+		이 효과는 각인, 즉발성 기술, 지속 효과와 현재 고정된 재사용 대기시간을 가진 기술에는 적용되지 않습니다.
 		]], "tformat")
 t("Spikeskin", "가시 피부", "talent name")
 t([[Your skin grows small spikes coated in dark blight.
@@ -4654,7 +4655,7 @@ Talents:
 
 속한 기술들:
 - #YELLOW#촉수 날개: #WHITE#끈적한 촉수들로 적들을 눈앞으로 끌고 옵니다.
-- #YELLOW#부패하는 대지: #WHITE#황폐의 에너지로 땅을 뒤덮어, 재사용 대기 시간을 늘립니다.
+- #YELLOW#부패하는 대지: #WHITE#황폐의 에너지로 땅을 뒤덮어, 재사용 대기시간을 늘립니다.
 - #YELLOW#깊어지는 절망: #WHITE#적들의 상처를 노려 공격하여, 부정적인 효과들이 많을수록 큰 피해를 가합니다.
 - #YELLOW#구더기 숨결: #WHITE#적들을 느리게 만드는 구더기들을 뿜어냅니다.
 ]], "_t")
@@ -4668,9 +4669,9 @@ t([[Your mental insanity.  The higher it is the more random your damage and cool
 
 Damage and cooldowns have a chance to increase or decrease by up to chaotic%.
 
-Both the chance and size of effects will increase with insanity.]], [[당신의 광기를 의미합니다.  높으면 높을수록 당신의 피해량과 재사용 대기 시간이 점점 더 종잡을 수 없게 됩니다.
+Both the chance and size of effects will increase with insanity.]], [[당신의 광기를 의미합니다.  높으면 높을수록 당신의 피해량과 재사용 대기시간이 점점 더 종잡을 수 없게 됩니다.
 
-피해량과 재사용 대기 시간은 일정 확률로 혼돈 % 범위 내에서 상승하거나 하락합니다.
+피해량과 재사용 대기시간은 일정 확률로 혼돈 % 범위 내에서 상승하거나 하락합니다.
 
 해당 확률과 효과량은 광기에 비례합니다.]], "_t")
 t("%d%%%% (%d%%%% chaotic)", "%d%%%% (혼돈 %d%%%%)", "tformat")
