@@ -333,6 +333,30 @@ t("Fifth Hotkey 9", "다섯번째 단축키 9", "_t")
 t("Fifth Hotkey 10", "다섯번째 단축키 10", "_t")
 t("Fifth Hotkey 11", "다섯번째 단축키 11", "_t")
 t("Fifth Hotkey 12", "다섯번째 단축키 12", "_t")
+t("Six Hotkey 1", "여섯번째 단축키 1", "_t")
+t("Six Hotkey 2", "여섯번째 단축키 2", "_t")
+t("Six Hotkey 3", "여섯번째 단축키 3", "_t")
+t("Six Hotkey 4", "여섯번째 단축키 4", "_t")
+t("Six Hotkey 5", "여섯번째 단축키 5", "_t")
+t("Six Hotkey 6", "여섯번째 단축키 6", "_t")
+t("Six Hotkey 7", "여섯번째 단축키 7", "_t")
+t("Six Hotkey 8", "여섯번째 단축키 8", "_t")
+t("Six Hotkey 9", "여섯번째 단축키 9", "_t")
+t("Six Hotkey 10", "여섯번째 단축키 10", "_t")
+t("Six Hotkey 11", "여섯번째 단축키 11", "_t")
+t("Six Hotkey 12", "여섯번째 단축키 12", "_t")
+t("Seven Hotkey 1", "일곱번째 단축키 1", "_t")
+t("Seven Hotkey 2", "일곱번째 단축키 2", "_t")
+t("Seven Hotkey 3", "일곱번째 단축키 3", "_t")
+t("Seven Hotkey 4", "일곱번째 단축키 4", "_t")
+t("Seven Hotkey 5", "일곱번째 단축키 5", "_t")
+t("Seven Hotkey 6", "일곱번째 단축키 6", "_t")
+t("Seven Hotkey 7", "일곱번째 단축키 7", "_t")
+t("Seven Hotkey 8", "일곱번째 단축키 8", "_t")
+t("Seven Hotkey 9", "일곱번째 단축키 9", "_t")
+t("Seven Hotkey 10", "일곱번째 단축키 10", "_t")
+t("Seven Hotkey 11", "일곱번째 단축키 11", "_t")
+t("Seven Hotkey 12", "일곱번째 단축키 12", "_t")
 t("Previous Hotkey Page", "이전 단축키 페이지", "_t")
 t("Next Hotkey Page", "다음 단축키 페이지", "_t")
 t("Quick switch to Hotkey Page 2", "2번 단축키 페이지로 빠른 전환", "_t")
@@ -384,7 +408,11 @@ t("Run diagonally right and up", "우상단으로 대각 달리기", "_t")
 t("Run diagonally left and down", "좌하단으로 대각 달리기", "_t")
 t("Run diagonally right and down", "좌상단으로 대각 달리기", "_t")
 t("Auto-explore", "자동 탐색", "_t")
+t("Move left (WASD directions)", "왼쪽으로 이동 (WASD 방향)", "_t")
+t("Move right (WASD directions)", "오른쪽으로 이동 (WASD 방향)", "_t")
+t("Move up (WASD directions)", "위로 이동 (WASD 방향)", "_t")
 t("movement", "이동", "_t")
+t("Move down (WASD directions)", "아래로 이동 (WASD 방향)", "_t")
 
 
 ------------------------------------------------
@@ -947,15 +975,15 @@ t("Go to online charsheet", "온라인 캐릭터 시트 가기", "_t")
 section "game/engines/default/engine/dialogs/VideoOptions.lua"
 
 t("Video Options", "비디오 설정", "_t")
-t("Display resolution.", "화면 해상도.", "_t")
+t("Display resolution.", "화면 해상도", "_t")
 t("#GOLD##{bold}#Resolution#WHITE##{normal}#", "#GOLD##{bold}#해상도#WHITE##{normal}#", "_t")
-t("If you have a very high DPI screen you may want to raise this value. Requires a restart to take effect.#WHITE#", "DPI가 높은 모니터를 사용하신다면 이 수치를 올리는 게 좋습니다. 적용에는 재시작이 필요합니다.#WHITE#", "_t")
+t("If you have a very high DPI screen you may want to raise this value. Requires a restart to take effect.#WHITE#", "DPI가 높은 모니터를 사용한다면 이 수치를 올리는 게 좋습니다. 설정 변경 시 게임을 재시작해야만 적용됩니다.#WHITE#", "_t")
 t("#GOLD##{bold}#Screen Zoom#WHITE##{normal}#", "#GOLD##{bold}#화면 확대/축소#WHITE##{normal}#", "_t")
 t("Enter Zoom %", "비율 입력 %", "_t")
 t("From 50 to 400", "50부터 400까지", "_t")
 t([[Request this display refresh rate.
 Set it lower to reduce CPU load, higher to increase interface responsiveness.#WHITE#]], [[화면 재생률을 조정합니다.
-값을 낮추면 CPU 부하가 적어지고, 높이면 인터페이스 반응성이 증가합니다.#WHITE#]], "_t")
+값을 낮추면 CPU 부하가 적어지고, 높이면 인터페이스의 반응성이 증가합니다.#WHITE#]], "_t")
 t("#GOLD##{bold}#Requested FPS#WHITE##{normal}#", "#GOLD##{bold}#FPS 조정#WHITE##{normal}#", "_t")
 t("From 5 to 60", "5부터 60까지", "_t")
 t([[Controls the particle effects density.
@@ -1046,7 +1074,7 @@ Useful when dealing with multiple monitors and borderless windows.
 The default origin is (0,0).
 
 Note: This value will automatically revert after ten seconds if not confirmed by the user.#WHITE#]], [[게임 창의 기준점을 설정합니다.
-이 지점은 윈도우가 위치한 좌상단 부분과 일치합니다.
+이 좌표는 게임 창의 좌상단 부분을 의미합니다.
 여러 개의 모니터를 사용하거나, 경계없는 창을 사용할 때 유용합니다.
 
 기본값은 (0,0)입니다.
@@ -1060,6 +1088,7 @@ t("Window Origin: Y-Coordinate", "창 기준점: Y값", "_t")
 t("Position changed.", "위치 변경됨", "_t")
 t("Save position?", "위치를 저장하시겠습니까?", "_t")
 t("Accept", "수락", "_t")
+t("Revert", "되돌리기", "_t")
 
 
 ------------------------------------------------

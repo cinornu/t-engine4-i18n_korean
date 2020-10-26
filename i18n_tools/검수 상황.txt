@@ -13,4 +13,5 @@
 "game/modules/tome/data/talents/psionic/absorption.lua"
 "game/modules/tome/data/talents/psionic/augmented-mobility.lua" 
 "game/modules/tome/data/talents/psionic/augmented-striking.lua"
-"game/modules/tome/data/talents/psionic/charged-mastery.lua" 1차 cinornu - 초능력 계열 단어 통일 요망
+"game/modules/tome/data/talents/psionic/charged-mastery.lua"
+"game/modules/tome/data/talents/psionic/discharge.lua" 1차 cinornu - 초능력 계열 단어 통일 요망

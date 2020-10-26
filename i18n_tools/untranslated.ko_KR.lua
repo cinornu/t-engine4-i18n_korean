@@ -500,41 +500,7 @@ t("assault the mind of a foe to utterly dominate it", "assault the mind of a foe
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
--- 12 entries
-t("Escapades of Fay Willows [Book 5, Chapter 3] - Leadership From The Front", "Escapades of Fay Willows [Book 5, Chapter 3] - Leadership From The Front", "_t")
-t([[[i]As an experienced commander would tell me long after the battle with the undead "the winner of a battle is not necessarily dictated by the amount of enemies slain but rather by which side breaks first." While the quality of an armies ability to fight is important it means nothing should its soldiers lose the will to fight. We had been lucky in the defense of Elvala with the aid from the ogres and eventually rallying leadership of Aranion.  Without them all hope of victory would have surely been lost.[/i]
-
-The hatred within me began to build as enemies attacked from in front and behind. However, I had my own problems to deal with as one of the bone giants, as I would call them, stepped up to clobber me. Managing to somehow avoid the first attack I focused the chaotic energies within me and unleashed a powerful strike that destroyed a good portion of its lower body. This seemed to be to no avail though as the bone giant reorganizeed and shifted the bones of its body around to form a protective barrier before seemingly beginning to rebuild itself. The bone giant then proceeded to unleash another strike against me that left me stunned and temporarily unable to react. Put on my back foot, matters only got worse when a ghoul approached me from behind and bit deeply into my shoulder.
-
-The situation was looking quite hopeless but from behind I heard a voice yell and out of the corner of my eye I saw a ghoul careen passed me. A flash of frost shot forth and blasted a hole through the ghoul as well as blowing off one of the arms of the bone giant in front of me. Glancing to the side I noticed a young ogre step up and I could hear the giant footsteps of stampeding ogres that were hurrying towards the fray. I didn't have much time to observe what was happening around me however as the bone giant turned its attention to me and the ogre. Attacking the first ogre, the much bigger bone giant brought down an attack with its other arm, knocking the ogre away like a rag doll.
-
-Leaving itself open to my side I lunged to attack the bone giant once again, but this had little effect as I had little strength to cause any damage and the barrier of bones surrounding the bone giant's body absorbed the entirety of the blow. Responding to my efforts I was subsequently battered with another powerful attack and sent reeling away. Yet again though the ogre would come to my aid, charging into the bulk of the bone giant, and knocking it backwards away from me before it could make a follow up attack. Seeing me in my exhausted state, the ogre shouted over his shoulder for me to run, before activating a shielding run and bracing himself for the retaliation that would come. Battered and bruised I began to move away to recover.
-
-After getting some distance away from the skirmish, I turned to survey the battlefield in its entirety. The undead line had been broken significantly by the charging ogres who had come to aid us, but a good deal of our defensive line was injured or dead. Many of those shaloren who had teleported away had now returned to fight, engaging in small groups on all sides of the undead army, and keeping the undead off balance. However, the line of skeleton archers and mages of the undead force remained largely intact, and were now picking off individual defenders in their unguarded flanks. The scene was one of chaos, and I could not tell if we were winning or losing, but nonetheless I could hear the screams of my fellow defenders dying all around me.
-
-"It seems that this has turned into quite the battle,” a voice came out from behind me. All of a sudden as those words were being stated I could feel myself being enveloped in a bright glow, as my bruises disappeared and wounds began to heal. Turning to face the voice I came face to face with an armored shalore holding a glowing hand outstretched in my direction. I recognized the armor worn and weapon held as being the same set from the Grand Council Chambers. Putting his hand down the shalore continued, "I'm no doctor but this should be enough to keep you on your feet until the battle’s end. Now then, let's see..." He paused for a moment as he looked at the battlefield and then took a deep breath.
-
-Then, in a rather surprisingly loud voice for a shalore he yelled, "DEFENDERS! FOCUS YOUR EFFORTS ON CRUSHING THE SKELETON ARCHERS AND MAGES, LEAVE THOSE HULKING BONE MONSTROSITIES AND ARMORED SKELETONS TO ME!" Before I even had a chance to understand what had been said, the shalore teleported himself in front of the ogre that had come to my aid and in an instant struck the side of the bone giant. All at once a violent display of colors exploded all around the bone giant that shattered the monstrosity into a thousand pieces all over the street. Not missing a beat, the shalore swiftly dove onto the next bone giant nearby and brought it down with little effort as well.
-
-Seeing this display I immediately began to regain my will to fight, and following the order given I charged forward. However, before I could reach the undead ranged supporters a couple armored skeletons step forward with shields raised to meet me. Looking to break through them I stepped forward with a heavy strike only to have my attack deflected and my footing thrown off balance. Seeing an opportunity, one of the skeletons dropped its shield down and prepared to launch a counterattack against me. Before its attack could connect though, a heavy swipe flew over my head, sending its skull sailing away. From behind me another one of the ogres stepped forward and together we converged on the other skeleton.
-
-After sending bones flying, I nodded to the ogre, and we continued on towards the waiting archers and mages. Along with the other ogres and shaloren we dove deep within the enemy ranks, hewing our weapons through their undefended line. Perhaps realizing that they had no hope of winning, the skeletons turned around and began to move away, seemingly entering into a retreat. Getting ready to pursue them, we were stopped by the remaining ghouls who jumped into our way, and the remaining bone giants that had not yet been dispatched. While the undead had been weakened enough to no longer be a threat, they would buy enough time for the skeleton archers and mages to escape out the gate and into the Shroud.]], [[[i]As an experienced commander would tell me long after the battle with the undead "the winner of a battle is not necessarily dictated by the amount of enemies slain but rather by which side breaks first." While the quality of an armies ability to fight is important it means nothing should its soldiers lose the will to fight. We had been lucky in the defense of Elvala with the aid from the ogres and eventually rallying leadership of Aranion.  Without them all hope of victory would have surely been lost.[/i]
-
-The hatred within me began to build as enemies attacked from in front and behind. However, I had my own problems to deal with as one of the bone giants, as I would call them, stepped up to clobber me. Managing to somehow avoid the first attack I focused the chaotic energies within me and unleashed a powerful strike that destroyed a good portion of its lower body. This seemed to be to no avail though as the bone giant reorganizeed and shifted the bones of its body around to form a protective barrier before seemingly beginning to rebuild itself. The bone giant then proceeded to unleash another strike against me that left me stunned and temporarily unable to react. Put on my back foot, matters only got worse when a ghoul approached me from behind and bit deeply into my shoulder.
-
-The situation was looking quite hopeless but from behind I heard a voice yell and out of the corner of my eye I saw a ghoul careen passed me. A flash of frost shot forth and blasted a hole through the ghoul as well as blowing off one of the arms of the bone giant in front of me. Glancing to the side I noticed a young ogre step up and I could hear the giant footsteps of stampeding ogres that were hurrying towards the fray. I didn't have much time to observe what was happening around me however as the bone giant turned its attention to me and the ogre. Attacking the first ogre, the much bigger bone giant brought down an attack with its other arm, knocking the ogre away like a rag doll.
-
-Leaving itself open to my side I lunged to attack the bone giant once again, but this had little effect as I had little strength to cause any damage and the barrier of bones surrounding the bone giant's body absorbed the entirety of the blow. Responding to my efforts I was subsequently battered with another powerful attack and sent reeling away. Yet again though the ogre would come to my aid, charging into the bulk of the bone giant, and knocking it backwards away from me before it could make a follow up attack. Seeing me in my exhausted state, the ogre shouted over his shoulder for me to run, before activating a shielding run and bracing himself for the retaliation that would come. Battered and bruised I began to move away to recover.
-
-After getting some distance away from the skirmish, I turned to survey the battlefield in its entirety. The undead line had been broken significantly by the charging ogres who had come to aid us, but a good deal of our defensive line was injured or dead. Many of those shaloren who had teleported away had now returned to fight, engaging in small groups on all sides of the undead army, and keeping the undead off balance. However, the line of skeleton archers and mages of the undead force remained largely intact, and were now picking off individual defenders in their unguarded flanks. The scene was one of chaos, and I could not tell if we were winning or losing, but nonetheless I could hear the screams of my fellow defenders dying all around me.
-
-"It seems that this has turned into quite the battle,” a voice came out from behind me. All of a sudden as those words were being stated I could feel myself being enveloped in a bright glow, as my bruises disappeared and wounds began to heal. Turning to face the voice I came face to face with an armored shalore holding a glowing hand outstretched in my direction. I recognized the armor worn and weapon held as being the same set from the Grand Council Chambers. Putting his hand down the shalore continued, "I'm no doctor but this should be enough to keep you on your feet until the battle’s end. Now then, let's see..." He paused for a moment as he looked at the battlefield and then took a deep breath.
-
-Then, in a rather surprisingly loud voice for a shalore he yelled, "DEFENDERS! FOCUS YOUR EFFORTS ON CRUSHING THE SKELETON ARCHERS AND MAGES, LEAVE THOSE HULKING BONE MONSTROSITIES AND ARMORED SKELETONS TO ME!" Before I even had a chance to understand what had been said, the shalore teleported himself in front of the ogre that had come to my aid and in an instant struck the side of the bone giant. All at once a violent display of colors exploded all around the bone giant that shattered the monstrosity into a thousand pieces all over the street. Not missing a beat, the shalore swiftly dove onto the next bone giant nearby and brought it down with little effort as well.
-
-Seeing this display I immediately began to regain my will to fight, and following the order given I charged forward. However, before I could reach the undead ranged supporters a couple armored skeletons step forward with shields raised to meet me. Looking to break through them I stepped forward with a heavy strike only to have my attack deflected and my footing thrown off balance. Seeing an opportunity, one of the skeletons dropped its shield down and prepared to launch a counterattack against me. Before its attack could connect though, a heavy swipe flew over my head, sending its skull sailing away. From behind me another one of the ogres stepped forward and together we converged on the other skeleton.
-
-After sending bones flying, I nodded to the ogre, and we continued on towards the waiting archers and mages. Along with the other ogres and shaloren we dove deep within the enemy ranks, hewing our weapons through their undefended line. Perhaps realizing that they had no hope of winning, the skeletons turned around and began to move away, seemingly entering into a retreat. Getting ready to pursue them, we were stopped by the remaining ghouls who jumped into our way, and the remaining bone giants that had not yet been dispatched. While the undead had been weakened enough to no longer be a threat, they would buy enough time for the skeleton archers and mages to escape out the gate and into the Shroud.]], "_t")
+-- 10 entries
 t("Escapades of Fay Willows [Book 5, Chapter 4] - Confrontation", "Escapades of Fay Willows [Book 5, Chapter 4] - Confrontation", "_t")
 t([[[i]I was oddly able to get back on my feet quite easily after receiving the initial healing spell cast on me, perhaps even quicker than what was normally possibly. This would hold true to the additional healing I would receive moments after. There is something about the chaotic energies within me that interacts with my body and allows it to mend quicker with the more hate I feel. This isn't something I can easily take advantage of however and should the hatred within me dissipate before I receive any medical attention it will result in a long and arduous recovery time.[/i]
 
@@ -1641,44 +1607,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/engines/default/data/keybinds/hotkeys.lua"
--- 24 entries
-t("Six Hotkey 1", "Six Hotkey 1", "_t")
-t("Six Hotkey 2", "Six Hotkey 2", "_t")
-t("Six Hotkey 3", "Six Hotkey 3", "_t")
-t("Six Hotkey 4", "Six Hotkey 4", "_t")
-t("Six Hotkey 5", "Six Hotkey 5", "_t")
-t("Six Hotkey 6", "Six Hotkey 6", "_t")
-t("Six Hotkey 7", "Six Hotkey 7", "_t")
-t("Six Hotkey 8", "Six Hotkey 8", "_t")
-t("Six Hotkey 9", "Six Hotkey 9", "_t")
-t("Six Hotkey 10", "Six Hotkey 10", "_t")
-t("Six Hotkey 11", "Six Hotkey 11", "_t")
-t("Six Hotkey 12", "Six Hotkey 12", "_t")
-t("Seven Hotkey 1", "Seven Hotkey 1", "_t")
-t("Seven Hotkey 2", "Seven Hotkey 2", "_t")
-t("Seven Hotkey 3", "Seven Hotkey 3", "_t")
-t("Seven Hotkey 4", "Seven Hotkey 4", "_t")
-t("Seven Hotkey 5", "Seven Hotkey 5", "_t")
-t("Seven Hotkey 6", "Seven Hotkey 6", "_t")
-t("Seven Hotkey 7", "Seven Hotkey 7", "_t")
-t("Seven Hotkey 8", "Seven Hotkey 8", "_t")
-t("Seven Hotkey 9", "Seven Hotkey 9", "_t")
-t("Seven Hotkey 10", "Seven Hotkey 10", "_t")
-t("Seven Hotkey 11", "Seven Hotkey 11", "_t")
-t("Seven Hotkey 12", "Seven Hotkey 12", "_t")
-
-
-------------------------------------------------
-section "game/engines/default/data/keybinds/move.lua"
--- 4 entries
-t("Move left (WASD directions)", "Move left (WASD directions)", "_t")
-t("Move right (WASD directions)", "Move right (WASD directions)", "_t")
-t("Move up (WASD directions)", "Move up (WASD directions)", "_t")
-t("Move down (WASD directions)", "Move down (WASD directions)", "_t")
-
-
-------------------------------------------------
 section "game/engines/default/engine/Birther.lua"
 -- 1 entries
 t("", "", "_t")
@@ -1784,9 +1712,8 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/VideoOptions.lua"
--- 2 entries
+-- 1 entries
 t("", "", "_t")
-t("Revert", "Revert", "_t")
 
 
 ------------------------------------------------

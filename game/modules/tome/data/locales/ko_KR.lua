@@ -396,7 +396,7 @@ t("The teleport fizzles!", "순간이동이 실패했다!", "_t")
 ------------------------------------------------
 section "game/modules/tome/class/Game.lua"
 
-t("<Scroll mode, press direction keys to scroll, press again to exit>", "<스크롤 모드, 방향키로 화면을 이동하고, 다시 한 번눌러서 나갑니다>", "_t")
+t("<Scroll mode, press direction keys to scroll, press again to exit>", "<스크롤 모드. 방향키로 화면을 이동합니다. 키를 다시 누르면 종료됩니다>", "_t")
 t("Main character", "주 캐릭터", "_t")
 t("Character Creation ( %s unlocked options)", "캐릭터 생성 (해금 요소 %s)", "tformat")
 t("Welcome to #LIGHT_BLUE#Tales of Maj'Eyal", "#LIGHT_BLUE#테일즈 오브 마즈'에이알에 오신 것을 환영합니다", "_t")
@@ -420,7 +420,7 @@ t("Stay: level %s of %s", "%s 의 %s 구역에 머무는 중", "tformat", {2,1})
 t("Keep Trying: level %s of %s", "%s 의 %s 구역 탐색중", "tformat", {2,1})
 t("Log the problem, Stay: level %s of %s", "문제 로그 열기, %s 의 %s 구역 탐색중", "tformat", {2,1})
 t("Debug the problem (move to the failed zone/level)", "문제 디버그하기 (실패한 지역/구역으로 이동)", "_t")
-t("Information logged", "정보 로그됨", "_t")
+t("Information logged", "정보 기록됨", "_t")
 t("Information on the failed zone and level dumped to the log file.", "실패한 지역과 구역에 대한 정보가 로그 파일에 덤프되었다.", "_t")
 t("The game could not generate level %s of %s after %s attempts. What do you want to do?", "게임이 %s 의 %s 층 생성을 %s 번 시도했지만 실패했다. 어떻게 할까?", "tformat", {2,1,3})
 t("Level Generation Failure", "구역 생성 실패", "_t")
@@ -22829,30 +22829,30 @@ t("Mind Storm", "정신 폭풍", "talent name")
 t([[Unleash your subconscious on the world around you.  While active, you fire up to %d bolts each turn (one per hostile target) that deal %0.2f mind damage.  Each bolt consumes 5 Feedback.
 		Feedback gains beyond your maximum allowed amount may generate extra bolts (one bolt per %d excess Feedback per target), but no more than %d extra bolts per turn. 
 		This effect is a psionic channel, increasing the range of Mind Sear, Psychic Lobotomy, and Sunder Mind to 10 but will break if you move.
-		The damage will scale with your Mindpower.]], [[시전자를 둘러싼 현실 세계에 잠재의식을 해방합니다. 활성화시, 최대 %d 개의 정신력으로 이루어진 화살을 매 턴 발사하여 %0.2f 정신 피해를 줍니다. 화살은 적 1 체당 1 개로 제한됩니다.  화살 1 개 당 반작용이 5 소모 됩니다.
-		최대 반작용 이상의 반작용을 얻으면, 화살이 추가로 발사됩니다 (%d 의 초과 반작용 수치마다 하나의 대상에게 발사하는 화살이 1개 증가 합니다), 초과 피드백으로 얻는 화살의 수는 1 턴에 %d 개를 초과할 수 없습니다. 
-		이 기술은 초능력 집중으로 판정되어, 정신 파괴, 뇌엽 절제, 정신 분열의 사거리를 10 칸으로 늘리지만 시전자가 이동할 시, 초능력 집중 효과는 즉시 종료됩니다.
+		The damage will scale with your Mindpower.]], [[시전자를 둘러싼 현실 세계에 잠재의식을 해방합니다. 활성화 시, 매 턴 최대 %d 개의 정신력으로 이루어진 화살을 발사하여 %0.2f 정신 피해를 입힙니다. 발사되는 화살은 각 대상 당 1 발로 제한되며, 생성된 화살 하나 당 반작용이 5 소모됩니다.
+		최대 반작용 수치를 초과하는 반작용을 발생할 시, 화살이 추가로 발사됩니다 (초과 반작용 수치 %d 마다 대상 당 화살 1개 추가 발사), 초과 반작용으로 발사되는 화살의 수는 1 턴에 %d 개를 초과할 수 없습니다. 
+		이 기술은 초능력 집중 효과로 적용되어 정신 파괴, 뇌엽 절제, 정신 분열의 사거리를 10 칸으로 늘립니다. 하지만 이동 시 초능력 집중 효과가 즉시 종료됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Feedback Loop", "반작용 순환", "talent name")
-t("You have no feedback to start a feedback loop!", "당신은 반작용 순환을 시작하는 데 필요한 반작용이 부족하다!", "logPlayer")
+t("You have no feedback to start a feedback loop!", "반작용 순환을 시작하는 데 필요한 반작용이 부족하다!", "logPlayer")
 t([[Activate to invert your Feedback decay for %d turns.  This effect can be a critical hit, increasing the duration even further.
 		You must have some Feedback in order to start the loop.
-		The maximum Feedback gain will scale with your Mindpower.]], [[매 턴마다 일어나는 반작용 소모를 %d 턴 동안 역전합니다. 이 효과에는 치명타가 일어날 수 있으며, 치명타 시 지속시간이 더 길어집니다.
-		반작용 순환을 하기 위해서는 충분한 반작용을 갖고 있어야합니다.
+		The maximum Feedback gain will scale with your Mindpower.]], [[턴마다 일어나는 반작용 소모를 %d 턴 동안 역전합니다. 이 효과는 치명타가 발생할 수 있으며, 치명타 발생 시 지속 시간이 연장됩니다.
+		반작용 순환을 하기 위해서는 충분한 양의 반작용을 보유해야합니다.
 		최대 반작용 획득량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Backlash", "반발", "talent name")
 t([[Your subconscious now retaliates when you take damage.  If the attacker is within range (%d), you'll inflict mind damage equal to the Feedback gained from the attack or %0.2f, whichever is lower.
 		This effect can only happen once per creature per turn.
-		The damage will scale with your Mindpower.]], [[이제 시전자의 잠재의식은 적의 공격에 즉각적으로 보복합니다.  반경 %d 칸 이내의 공격자에게, 피격으로 획득한 반작용과 같은 수치의 정신 피해나 %0.2f 정신 피해 중에 더 낮은 수치로 피해를 입힙니다.
-		이 효과는 한 턴에 한 개체당 1 번씩 발동됩니다.
+		The damage will scale with your Mindpower.]], [[잠재의식이 적의 공격에 반응하여 보복을 가합니다. 반경 %d 칸 이내의 공격자에게 피격으로 획득한 반작용과 같은 수치의 정신 피해 혹은 %0.2f 정신 피해 중에 더 낮은 수치의 피해를 입힙니다.
+		이 효과는 한 턴에 각 대상마다 1회 발동됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Focused Wrath", "집중된 분노", "talent name")
 t([[Focus your mind on a single target, diverting all offensive Discharge talent effects to it for %d turns.  While this effect is active, all Discharge talents gain %d%% critical power and you ignore %d%% mind resistance of your targets.
 		If the target is killed, the effect will end early.
 		At level level 5 your single-minded focus also resets the cooldown of Mind Storm.
-		The damage bonus will scale with your Mindpower.]], [[하나의 대상에게 정신을 집중하여, %d 턴 동안 모든 방출 계열 기술이 대상에게 유도됩니다. 이 효과가 적용되는 동안, 모든 방출 계열 기술의 치명타 위력이 %d%% 증가하고 대상의 정신 피해 저항을 %d%% 무시합니다.
-		대상이 사망하면 효과가 끝납니다.
-		기술 레벨 5 일 때, 집중된 분노는 정신 폭풍의 재사용 대기시간을 초기화합니다.
+		The damage bonus will scale with your Mindpower.]], [[하나의 대상에게 정신을 집중하여 %d 턴 동안 모든 방출 계열 기술을 대상에게 유도됩니다. 이 효과가 적용되는 동안, 모든 방출 계열 기술의 치명타 피해량이 %d%% 증가하고, 대상의 정신 속성 저항을 %d%% 무시합니다.
+		대상이 처치되면 효과가 종료됩니다.
+		기술 레벨 5 일 때, 집중된 분노가 정신 폭풍의 재사용 대기시간을 초기화합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 
 
