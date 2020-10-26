@@ -14527,6 +14527,35 @@ She is terrified of losing me, losing this world, losing #{italic}#herself#{norm
 
 그녀는 나를 잃고, 이 세상을 잃고, #{italic}그녀 자신#{normal}#을 잃는 것을 두려워하지만, 나는 무슨 말을 하는지 전혀 알 수가 없다. 궁극적으로, 어떤 생각이 그녀의 마음속을 기어 다니는지는 중요하지 않다. 나는 그녀의 계획을 충족시킬 수 있는 소환 의식이나 장거리 차원문 도식, 아니면 그 무엇이든 간에 그녀를 위해 이 유적의 문서들을 연구할 것이다. 그녀는 이 "게를릭" 이란 것을 직접 한 번 보게 될 것이고, 그러면 그의 마법은 흡수되어 끝날 것이다. 이 생물이 무엇이든지 간에 죽게 되면 그녀에게 더 이상 명령을 내릴 수는 없을 것이다.]], "_t")
 t("Argoniel's blood-runed athame", "아르고니엘의 피의 룬 제례단검", "_t")
+t([[#{italic}#On touching the blood-dripping knife, memories flood your mind - this time, with incredible intensity.  You drop the knife immediately, thankful you only touched the plain handle, and not the rune-lit blade or the red pool under it.  Moments later, your mind starts parsing and interpreting what it just absorbed:#{normal}#
+
+pain.  pain loneliness and cold, so much cold and it keeps growing.  in my dreams i can't move a muscle thanks to this #{italic}##FIREBRICK#[untranslatably foul profanity]#LAST##{normal}# cage.  he never had his chance.  could've made the world in his image.  could've made a peaceful world, one of meadows and soft rolling hills, if the other gods hadn't fought with him over it.  might've made humans - in any case he watched over us, protected us from those #{italic}##FIREBRICK#[untranslatably ancient profanity]#LAST##{normal}# squid until they drove him into the void
+
+he suffers on a distant world, his power leeched out bit by bit for reasons never told to him by evildoers he's never seen.  this is not right.  he must be free.  i must be free.  he must come to eyal so our vision for it can finally be realized
+
+it will be
+
+#{italic}#so#{normal}#
+
+
+
+#{italic}##FIREBRICK#b e a u t i f u l#LAST##{normal}#
+
+]], [[#{italic}#피가 뚝뚝 떨어지는 칼을 만지면, 이번에는 기억들이 믿을 수 없을 정도로 강렬하게 당신의 마음에 넘쳐흐른다. 당신은 칼을 즉시 떨어뜨리고, 당신이 평범한 손잡이를 만진 것에 감사하며, 그 밑에 있는 룬으로 비치는 칼날이나 빨간 웅덩이를 만지지 않은 것에 안도한다. 잠시 후, 당신의 마음은 방금 흡수된 것을 해석하고 이해하기 시작한다:#{normal}#
+
+고통. 외로움과 추위, 엄청난 추위가 계속 심해진다. 꿈 속에서 나는 의심의 여지 없이 이 #{italic}##FIREBRICK#형언할 수 없이 악독하고 불경한#LAST##{normal}# 새장 덕분에 꼼짝도 할 수 없다. 그에겐 기회가 없었다, 자신의 이미지대로, 초원과 부드러운 구릉들로 된 평화로운 세상을 만들 수 있었을 텐데, 다른 신들이 그 때문에 그와 싸우지 않았더라면 말이다. 그가 우리를 지켜보고 있었을 때 - 어쩌면 그가 인간을 만들었을지도 모른다 - 그는 그 #{italic}##FIREBRICK#고대의 형언할 수 없을 만큼 불경스러운#LAST##{normal}# 오징어들로부터 우리를 보호해 주었다. 그들이 그를 공허 속으로 몰아넣기 전까지.
+
+그는 그가 보지도 못한 악한 자들에 의해 먼 세상에서 고통받고 있다. 그의 힘은 조금씩 조금씩 빠져나가고 있다, 결코 누구도 말해주지 않은 이유로 갇힌 채 말이다. 이건 옳지 않아. 그는 자유로워져야 한다. 나는 자유로워져야 한다. 그는 우리의 비전이 마침내 실현될 수 있도록 반드시 에이얄로 와야 한다.
+
+그렇게 된다면
+
+#{italic}#정말로#{normal}#
+
+
+
+#{italic}##FIREBRICK#아 름 다 울 거 야#LAST##{normal}#
+
+]], "_t")
 t("high peak", "최고봉", "newLore category")
 t("Elandar's journal (2)", "엘란다르의 일지 (2)", "_t")
 t([[I awoke early this morning to see the love of my life altering the unique farportal we've been building together.  Our plans are all on track so far, the Staff of Absorption has been integrated into the portal so it'll drain Gerlyk the moment it summons him, the orcs are too busy suspecting each other to bother investigating us...  and then I discover that she's sabotaged it.  This portal will #{italic}#em#{normal}#power Gerlyk when it summons him - and he surely must be insane from the loneliness of tumbling in the void of space all this time.  In any case, even a sane god would be devastating to life as we know it.
@@ -14812,6 +14841,19 @@ Rolf]], [[와이즈만에게,
 다음 편지에는 글씨를 크고 선명하게 쓰도록 해.
 롤프가]], "_t")
 t("letter to Rolf (3)", "롤프씨에게 보내는 편지 (3)", "_t")
+t([[Rolf,
+
+I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
+
+Wishing you and your ale a hearty good-bye,
+
+Weisman.]], [[롤프씨에게,
+
+저는 그 싸움에서 무슨 일이 있었는지 전혀 기억나지 않아요. 그렇게 무시무시하고 강력한 무언가와 가까이 있게 되는 순수한 공포 외에는 말입니다. 쓰러뜨릴 수 없는 적에게서 도망치는 것은 부끄러운 일이 아니지요, 그렇지 않은가요? 선술집에서 에일 한잔이 좋은 생각일지도 모르지만, 어쩌면 두려움을 완전히 정복하는 것이 더 나을지도 모른다는 생각이 들기 시작했어요... 당신이 날 용서해 줬으면 좋겠습니다, 이 괴물을 물리쳐야 해요, 내 남은 삶을 앗아가는 일이 있더라도.
+
+당신과, 당신과 함께 마시는 에일에게 따뜻한 작별 인사를 하며,
+
+와이스만이.]], "_t")
 t("letter to Weisman (4)", "와이즈만에게 보내는 편지 (4)", "_t")
 t([[Weisman,
 

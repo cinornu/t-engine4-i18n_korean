@@ -3906,40 +3906,6 @@ But by the names they kill]], "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/lore/high-peak.lua"
--- 1 entries
-t([[#{italic}#On touching the blood-dripping knife, memories flood your mind - this time, with incredible intensity.  You drop the knife immediately, thankful you only touched the plain handle, and not the rune-lit blade or the red pool under it.  Moments later, your mind starts parsing and interpreting what it just absorbed:#{normal}#
-
-pain.  pain loneliness and cold, so much cold and it keeps growing.  in my dreams i can't move a muscle thanks to this #{italic}##FIREBRICK#[untranslatably foul profanity]#LAST##{normal}# cage.  he never had his chance.  could've made the world in his image.  could've made a peaceful world, one of meadows and soft rolling hills, if the other gods hadn't fought with him over it.  might've made humans - in any case he watched over us, protected us from those #{italic}##FIREBRICK#[untranslatably ancient profanity]#LAST##{normal}# squid until they drove him into the void
-
-he suffers on a distant world, his power leeched out bit by bit for reasons never told to him by evildoers he's never seen.  this is not right.  he must be free.  i must be free.  he must come to eyal so our vision for it can finally be realized
-
-it will be
-
-#{italic}#so#{normal}#
-
-
-
-#{italic}##FIREBRICK#b e a u t i f u l#LAST##{normal}#
-
-]], [[#{italic}#On touching the blood-dripping knife, memories flood your mind - this time, with incredible intensity.  You drop the knife immediately, thankful you only touched the plain handle, and not the rune-lit blade or the red pool under it.  Moments later, your mind starts parsing and interpreting what it just absorbed:#{normal}#
-
-pain.  pain loneliness and cold, so much cold and it keeps growing.  in my dreams i can't move a muscle thanks to this #{italic}##FIREBRICK#[untranslatably foul profanity]#LAST##{normal}# cage.  he never had his chance.  could've made the world in his image.  could've made a peaceful world, one of meadows and soft rolling hills, if the other gods hadn't fought with him over it.  might've made humans - in any case he watched over us, protected us from those #{italic}##FIREBRICK#[untranslatably ancient profanity]#LAST##{normal}# squid until they drove him into the void
-
-he suffers on a distant world, his power leeched out bit by bit for reasons never told to him by evildoers he's never seen.  this is not right.  he must be free.  i must be free.  he must come to eyal so our vision for it can finally be realized
-
-it will be
-
-#{italic}#so#{normal}#
-
-
-
-#{italic}##FIREBRICK#b e a u t i f u l#LAST##{normal}#
-
-]], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/lore/infinite-dungeon.lua"
 -- 1 entries
 t("infinite dungeon", "infinite dungeon", "newLore category")
@@ -5270,20 +5236,7 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 42 entries
-t([[Rolf,
-
-I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
-
-Wishing you and your ale a hearty good-bye,
-
-Weisman.]], [[Rolf,
-
-I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
-
-Wishing you and your ale a hearty good-bye,
-
-Weisman.]], "_t")
+-- 41 entries
 t("adventures", "adventures", "newLore category")
 t([[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
 And Gerlyk walked Eyal with his three brothers.
