@@ -500,40 +500,7 @@ t("assault the mind of a foe to utterly dominate it", "assault the mind of a foe
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/lore/fay-willows.lua"
--- 13 entries
-t([[[i]Looking past the gruesome nature of the undead, I can somewhat appreciate the brilliance of the tactics and strategy that they employed. Everything seemed to have been meticulously planned out beforehand and being undead they were able to act perfectly in a preordained manner. This allowed the necromancer controlling them to stay safely out of harms way and away for the duration of the battle.[/i]
-
-Suddenly I noticed the captain's eyes narrow and lock onto something within the smoke and turning to look myself I noticed the quivering distortions. Suddenly, with a loud call to "FIRE" coming from the watch captain, the many archers and mages began to loose arrows and cast spells, causing the disturbance to turn into a whirling maelstrom as projectiles and magic slammed into it. Despite the barrage a glistening phalanx of moving bones and tattered armor emerged, revealing several rows of skeletons in a defensive formation. Holding their shields high above them, they moved within lockstep of each other, and slowly made their approach towards the wall.
-
-The defenders continued to unleash everything they could over the walls, but for every single skeleton that was shattered or had its bones scattered across the battlefield it seemed as if two more would emerge behind it. Being unliving enemies with no free will of their own they continued to advanced towards us no matter how many of them fell. Approaching the walls, soldiers from below began to cart up rocks and stones into great piles, and as the skeletons got closer the soldiers began to throw the debris over the walls. Unlike with arrows and spells, the skeletons could not overcome the heavy weight dropping down on them and many would be subsequently crushed.
-
-Looking down at them, the captain seem to muse over the situation before muttering, "I don't see them carrying any ladders, but judging from how they marched to the walls they must have some plan." Continuing to monitor them, I noticed hoarse voices in the air, and all of a sudden nearby panicked voices from those on the wall began to call out that they were under attack. Looking around I couldn’t see any attackers but I could tell that there were foes nearby. Then all at once I could feel the faint presence of something moving behind me and the watch captain. Quickly pulling my weapon I slashed behind me at the space where one of them was and though I couldn't see the enemy I heard a low gasp as my weapon slashed through the air.
-
-Becoming aware of what was happening, the watch captain called out to the defenders on the battlements, "We are under attack by shades, defend yourselves!" All at once everyone on the battlements turned to deal with the new threat and ignore the skeletons below. Those that could determine where the hidden enemies were quickly focused their attacks on dispatching the enemies directly while those that couldn't unleashed attacks in wide arcs that would be difficult to evade. It wasn't long before a torrent of death cries filled the air, but it would soon become clear that these enemies were just a distraction as skeletons made their move, constructing ladders and forming pyramids made of bones.
-
-Now with means to get to us, the skeletons were clambering up and arriving onto the battlements, using their superior numbers to push us back. Seeing that we were being overwhelmed, the watch captain gave the order to abandon the walls, causing everyone to scramble in an attempt to get off in whatever way possible. Unfortunately in the confusion, many who were still engaged or injured were unable to get away, and were subsequently hacked to pieces. Having lost control of the battlements, a small force of the skeletons moved to take over the gates and allow for the rest of the undead outside to get in, while the rest of the skeletons began to jump off in pursuit of us in a bid to run us down.
-
-As we ran down one of Elvala's narrow streets, the watch captain saw an opportunity present itself, and ordered the mages to form a firing line. Following us, the skeletons funneled into the streets after us into a tight formation, presenting a perfect opportunity for a barrage of spells to be used against them. Waves of lightning, fire, and cold spells washed over that battlefield and sent their bones scattering all over the street. Seeing most of the skeletons vanquished the defenders broke into a resounding cheer, until realization set in that there was more to come. Looking past the fallen skeletons, we could see a torrent of undead now flooding through the gate.
-
-The guttural sounds of ghouls began to fill the air and along with these ghouls walked another couple legions of skeletons. However, it was behind them that a truly frightening undead began to move, hulking figures of towering bone that stood as high as many of Elvala's buildings. A final line of skeletons also appeared too, but unlike the others they appeared to be armed with staves and bows. Quickly the undead began to organize themselves before moving lockstep with each other in our direction. Our mages attempted to ready another set of spells but quickly found this quite difficult as arrows and spells from the undead rained down on them. Realizing we would have to engage the undead fully we raised our shields and proceeded to step forward.
-
-As the front lines drew closer, we would be caught off guard when the ghouls made giant leaps over our entire formation. We soon found ourselves boxed in as ghouls clawed us in the back while the remaining undead forces collided into us from the front. With little room to maneuver, shaloren archers and mages behind us were cut down, while soldiers in front could do little more than keep their shields in front of them to block attacks. Panicking, those who could teleport broke from the line, leaving the rest of us to fend off the encroaching undead horde. The situation was looking quite bleak as we found ourselves trapped by the undead and everything was thrown into complete disarray.]], [[[i]Looking past the gruesome nature of the undead, I can somewhat appreciate the brilliance of the tactics and strategy that they employed. Everything seemed to have been meticulously planned out beforehand and being undead they were able to act perfectly in a preordained manner. This allowed the necromancer controlling them to stay safely out of harms way and away for the duration of the battle.[/i]
-
-Suddenly I noticed the captain's eyes narrow and lock onto something within the smoke and turning to look myself I noticed the quivering distortions. Suddenly, with a loud call to "FIRE" coming from the watch captain, the many archers and mages began to loose arrows and cast spells, causing the disturbance to turn into a whirling maelstrom as projectiles and magic slammed into it. Despite the barrage a glistening phalanx of moving bones and tattered armor emerged, revealing several rows of skeletons in a defensive formation. Holding their shields high above them, they moved within lockstep of each other, and slowly made their approach towards the wall.
-
-The defenders continued to unleash everything they could over the walls, but for every single skeleton that was shattered or had its bones scattered across the battlefield it seemed as if two more would emerge behind it. Being unliving enemies with no free will of their own they continued to advanced towards us no matter how many of them fell. Approaching the walls, soldiers from below began to cart up rocks and stones into great piles, and as the skeletons got closer the soldiers began to throw the debris over the walls. Unlike with arrows and spells, the skeletons could not overcome the heavy weight dropping down on them and many would be subsequently crushed.
-
-Looking down at them, the captain seem to muse over the situation before muttering, "I don't see them carrying any ladders, but judging from how they marched to the walls they must have some plan." Continuing to monitor them, I noticed hoarse voices in the air, and all of a sudden nearby panicked voices from those on the wall began to call out that they were under attack. Looking around I couldn’t see any attackers but I could tell that there were foes nearby. Then all at once I could feel the faint presence of something moving behind me and the watch captain. Quickly pulling my weapon I slashed behind me at the space where one of them was and though I couldn't see the enemy I heard a low gasp as my weapon slashed through the air.
-
-Becoming aware of what was happening, the watch captain called out to the defenders on the battlements, "We are under attack by shades, defend yourselves!" All at once everyone on the battlements turned to deal with the new threat and ignore the skeletons below. Those that could determine where the hidden enemies were quickly focused their attacks on dispatching the enemies directly while those that couldn't unleashed attacks in wide arcs that would be difficult to evade. It wasn't long before a torrent of death cries filled the air, but it would soon become clear that these enemies were just a distraction as skeletons made their move, constructing ladders and forming pyramids made of bones.
-
-Now with means to get to us, the skeletons were clambering up and arriving onto the battlements, using their superior numbers to push us back. Seeing that we were being overwhelmed, the watch captain gave the order to abandon the walls, causing everyone to scramble in an attempt to get off in whatever way possible. Unfortunately in the confusion, many who were still engaged or injured were unable to get away, and were subsequently hacked to pieces. Having lost control of the battlements, a small force of the skeletons moved to take over the gates and allow for the rest of the undead outside to get in, while the rest of the skeletons began to jump off in pursuit of us in a bid to run us down.
-
-As we ran down one of Elvala's narrow streets, the watch captain saw an opportunity present itself, and ordered the mages to form a firing line. Following us, the skeletons funneled into the streets after us into a tight formation, presenting a perfect opportunity for a barrage of spells to be used against them. Waves of lightning, fire, and cold spells washed over that battlefield and sent their bones scattering all over the street. Seeing most of the skeletons vanquished the defenders broke into a resounding cheer, until realization set in that there was more to come. Looking past the fallen skeletons, we could see a torrent of undead now flooding through the gate.
-
-The guttural sounds of ghouls began to fill the air and along with these ghouls walked another couple legions of skeletons. However, it was behind them that a truly frightening undead began to move, hulking figures of towering bone that stood as high as many of Elvala's buildings. A final line of skeletons also appeared too, but unlike the others they appeared to be armed with staves and bows. Quickly the undead began to organize themselves before moving lockstep with each other in our direction. Our mages attempted to ready another set of spells but quickly found this quite difficult as arrows and spells from the undead rained down on them. Realizing we would have to engage the undead fully we raised our shields and proceeded to step forward.
-
-As the front lines drew closer, we would be caught off guard when the ghouls made giant leaps over our entire formation. We soon found ourselves boxed in as ghouls clawed us in the back while the remaining undead forces collided into us from the front. With little room to maneuver, shaloren archers and mages behind us were cut down, while soldiers in front could do little more than keep their shields in front of them to block attacks. Panicking, those who could teleport broke from the line, leaving the rest of us to fend off the encroaching undead horde. The situation was looking quite bleak as we found ourselves trapped by the undead and everything was thrown into complete disarray.]], "_t")
+-- 12 entries
 t("Escapades of Fay Willows [Book 5, Chapter 3] - Leadership From The Front", "Escapades of Fay Willows [Book 5, Chapter 3] - Leadership From The Front", "_t")
 t([[[i]As an experienced commander would tell me long after the battle with the undead "the winner of a battle is not necessarily dictated by the amount of enemies slain but rather by which side breaks first." While the quality of an armies ability to fight is important it means nothing should its soldiers lose the will to fight. We had been lucky in the defense of Elvala with the aid from the ogres and eventually rallying leadership of Aranion.  Without them all hope of victory would have surely been lost.[/i]
 
@@ -817,239 +784,8 @@ t("G.E.M", "G.E.M", "newLore category")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/orcs.lua"
--- 1 entries
-t([[Our pride has never been held in high esteem by the others.  We were the backbone of Garkul's army, the supply-runners, the road-builders, the medics tending to the wounded - all roles that had to be done to support those who gloriously fought in the thick of battle...  Alas, all this meant is that the others only barely accepted our necessity, barely concealing their distaste for us "cowards" and "weaklings."  Garkul stood up for us whenever the opportunity arose, so their prejudices were a moot point until his defeat; unfortunately, once the Allied Kingdoms started pushing us back and attacking the fortified towns we'd built in Maj'Eyal, we took the blame for not making them strong enough to hold off all attackers.  "What good are they?"  Rak'shor once asked.  "Even when they're hiding behind us, they still can't make anything worthwhile!"  When it was revealed that our then-leader had held off the Allied Kingdoms at one of their strongholds to buy enough time for most of our Pride's women and children to retreat to Var'Eyal, by way of launching ancient Nargol golems into human ranks via trebuchet, the accusations of cowardice gave way to ones of selfishness and betrayal.  We kept quiet about them, hoping to change their minds when rebuilding Orcish towns in Var'Eyal, hoping that they would come to see reason when they had roofs over their heads and wells to drink from, courtesy of our Pride; it seemed to work for the time being.  We kept our distance from the others, building our own homes in a distant corner of the continent, and only sending small groups out to do minor repair and construction.  The walls we built were strong enough to keep the Sunwall forces from simply walking over them, and that seemed to be enough.
-
-Alas, this acceptance would neither grow nor last.  One fateful night, Grand Architect Kruk came running back after a meeting with the other leaders of the Prides, saying we had to leave immediately, and that the women had to go first.  To this day, we are not entirely certain what drove her to such a panic...  she only told us that we would never want peace with the other Prides if we knew what we were running from, and that we may need that peace someday.  We swiftly built a bridge to the Clork Peninsula over the next few days, looking back over our shoulders towards the other Prides as we worked, and on the night the last Orc made it across, Kruk set it ablaze with burning arrows.  On the distant shore, we could only see the torches of those who we had narrowly escaped.
-
-We barely had time to sigh in relief before a thunderous noise roared above us, and a bright light came down from the sky, lighting us up but leaving the surrounding land dark.  A curious sort of golem fell from it, made of springs and gears rather than runes and stone.  It spoke with a scratchy yet organic-sounding voice, asking what had happened and what had caused the lights and noises in the dead of night; we told it we had fled the mainland for our own safety, and that we were only looking for a place to exist.  Hooks descended from the whirring airship above, dragging the construct back up, and it left without another word.
-
-We found a suitable home on the far side of the mountain range, shielded by the surrounding hills and yet fertile enough to sustain us.  Once we had settled in, the airships and constructs began visiting us more and more often, at first simply watching, then conversing with us and even helping us build homes.  It was not too long until one of the constructs' masters finally came to speak with us in person; he introduced himself as one of the Atmos, the Steam Giants we'd assumed for so long to be merely an ancient myth.  They were a strange people, and one we began to admire as we became fast friends.  Wise and reasoned yet valuing strength, neither overly arrogant nor overly timid...  a bit on the frivolous and eccentric side, but living for countless ages alone on a mountaintop would do that to anyone, we reasoned.  Likewise, they seemed to think of us as their rambunctious but gifted children, and when they began to teach us of their steam-pressure-driven machinery, they were impressed by how quickly we adapted to and improved on it.  They gave us guidance and wisdom, we gave them drive and innovation; we could have become true allies, if we'd only had enough time.
-
-All good things must come to an end, it seems.  One day, a panicked scout ran into our camp and announced that an Orcish army had arrived by boat on the shores of the Clork Peninsula, and was charging toward us with hostile intent.  Whatever they had originally wanted that drove Grand Architect Kruk away, they were no longer content to go without it.
-
-We told the Atmos, and they told us to simply reason with them; they had clearly never been under attack!  We would obtain no assistance from them, not even when our lives clearly depended on it.  Instead, Grand Architect Kruk showed us a series of schematics she'd made, ones that she dared not reveal before for fear of the Atmos seeing them - ones showing how to turn our helpful steam contraptions into hideously effective weaponry.  A harness to wear the great whirling lumber-saws as weapons, portable steam generators so we could power our machinery like the Atmos could without being tethered to a pipe or hose, a means of removing the safety mechanisms on nail-guns and swapping their barrels out so they could fire sling-bullets at incredible speeds, a giant version of the jewelry-plating device they gave us that could electrocute dozens of invaders at once...
-
-We held strong when the other Prides came for us, and we were fighting with weapons they had never encountered before, inflicting wounds they had never learned to tolerate or heal, fighting with forces that they could not hope to even understand, let alone fight.  The shrieking din of sawblades shredding through armor and severing limbs, the screams of Gorbat's wyrm-riders as giant grappling hooks pulled them out of the sky, the smell of Orcish flesh cooked through to the core by lightning or scalded by jets of steam, the rattling of steamguns as they turned an attacking formation into a pile of corpses - these sensations might haunt the nightmares of Atmos and the other Prides, but to us they were the sweet sounds, sights, and smells of victory and safety.  We had prevailed, with only a handful dead on our side before they fled.  Kruk Pride would not be conquered.
-
-The Atmos, however, did not see the dire circumstances we were in.  They did not see the threat we faced, and I doubt that even if the Grand Architect of the Pride had told them what she knew, they would have listened.  All they saw was their tools of creation being used to destroy, their beautiful inventions being used for something so monstrous, their darling clever "children" causing bloody carnage on a scale hundreds of times greater than they'd ever seen.  They denounced us, and those who had begun to mingle with us promptly retreated back to the mountains.  We were no longer welcome using their technology, and perhaps not even living near their mountains.
-
-We will miss their company, their ancient wisdom, and their cautious kindness.  We will not miss their squeamish ignorance and pompous self-righteousness.]], [[Our pride has never been held in high esteem by the others.  We were the backbone of Garkul's army, the supply-runners, the road-builders, the medics tending to the wounded - all roles that had to be done to support those who gloriously fought in the thick of battle...  Alas, all this meant is that the others only barely accepted our necessity, barely concealing their distaste for us "cowards" and "weaklings."  Garkul stood up for us whenever the opportunity arose, so their prejudices were a moot point until his defeat; unfortunately, once the Allied Kingdoms started pushing us back and attacking the fortified towns we'd built in Maj'Eyal, we took the blame for not making them strong enough to hold off all attackers.  "What good are they?"  Rak'shor once asked.  "Even when they're hiding behind us, they still can't make anything worthwhile!"  When it was revealed that our then-leader had held off the Allied Kingdoms at one of their strongholds to buy enough time for most of our Pride's women and children to retreat to Var'Eyal, by way of launching ancient Nargol golems into human ranks via trebuchet, the accusations of cowardice gave way to ones of selfishness and betrayal.  We kept quiet about them, hoping to change their minds when rebuilding Orcish towns in Var'Eyal, hoping that they would come to see reason when they had roofs over their heads and wells to drink from, courtesy of our Pride; it seemed to work for the time being.  We kept our distance from the others, building our own homes in a distant corner of the continent, and only sending small groups out to do minor repair and construction.  The walls we built were strong enough to keep the Sunwall forces from simply walking over them, and that seemed to be enough.
-
-Alas, this acceptance would neither grow nor last.  One fateful night, Grand Architect Kruk came running back after a meeting with the other leaders of the Prides, saying we had to leave immediately, and that the women had to go first.  To this day, we are not entirely certain what drove her to such a panic...  she only told us that we would never want peace with the other Prides if we knew what we were running from, and that we may need that peace someday.  We swiftly built a bridge to the Clork Peninsula over the next few days, looking back over our shoulders towards the other Prides as we worked, and on the night the last Orc made it across, Kruk set it ablaze with burning arrows.  On the distant shore, we could only see the torches of those who we had narrowly escaped.
-
-We barely had time to sigh in relief before a thunderous noise roared above us, and a bright light came down from the sky, lighting us up but leaving the surrounding land dark.  A curious sort of golem fell from it, made of springs and gears rather than runes and stone.  It spoke with a scratchy yet organic-sounding voice, asking what had happened and what had caused the lights and noises in the dead of night; we told it we had fled the mainland for our own safety, and that we were only looking for a place to exist.  Hooks descended from the whirring airship above, dragging the construct back up, and it left without another word.
-
-We found a suitable home on the far side of the mountain range, shielded by the surrounding hills and yet fertile enough to sustain us.  Once we had settled in, the airships and constructs began visiting us more and more often, at first simply watching, then conversing with us and even helping us build homes.  It was not too long until one of the constructs' masters finally came to speak with us in person; he introduced himself as one of the Atmos, the Steam Giants we'd assumed for so long to be merely an ancient myth.  They were a strange people, and one we began to admire as we became fast friends.  Wise and reasoned yet valuing strength, neither overly arrogant nor overly timid...  a bit on the frivolous and eccentric side, but living for countless ages alone on a mountaintop would do that to anyone, we reasoned.  Likewise, they seemed to think of us as their rambunctious but gifted children, and when they began to teach us of their steam-pressure-driven machinery, they were impressed by how quickly we adapted to and improved on it.  They gave us guidance and wisdom, we gave them drive and innovation; we could have become true allies, if we'd only had enough time.
-
-All good things must come to an end, it seems.  One day, a panicked scout ran into our camp and announced that an Orcish army had arrived by boat on the shores of the Clork Peninsula, and was charging toward us with hostile intent.  Whatever they had originally wanted that drove Grand Architect Kruk away, they were no longer content to go without it.
-
-We told the Atmos, and they told us to simply reason with them; they had clearly never been under attack!  We would obtain no assistance from them, not even when our lives clearly depended on it.  Instead, Grand Architect Kruk showed us a series of schematics she'd made, ones that she dared not reveal before for fear of the Atmos seeing them - ones showing how to turn our helpful steam contraptions into hideously effective weaponry.  A harness to wear the great whirling lumber-saws as weapons, portable steam generators so we could power our machinery like the Atmos could without being tethered to a pipe or hose, a means of removing the safety mechanisms on nail-guns and swapping their barrels out so they could fire sling-bullets at incredible speeds, a giant version of the jewelry-plating device they gave us that could electrocute dozens of invaders at once...
-
-We held strong when the other Prides came for us, and we were fighting with weapons they had never encountered before, inflicting wounds they had never learned to tolerate or heal, fighting with forces that they could not hope to even understand, let alone fight.  The shrieking din of sawblades shredding through armor and severing limbs, the screams of Gorbat's wyrm-riders as giant grappling hooks pulled them out of the sky, the smell of Orcish flesh cooked through to the core by lightning or scalded by jets of steam, the rattling of steamguns as they turned an attacking formation into a pile of corpses - these sensations might haunt the nightmares of Atmos and the other Prides, but to us they were the sweet sounds, sights, and smells of victory and safety.  We had prevailed, with only a handful dead on our side before they fled.  Kruk Pride would not be conquered.
-
-The Atmos, however, did not see the dire circumstances we were in.  They did not see the threat we faced, and I doubt that even if the Grand Architect of the Pride had told them what she knew, they would have listened.  All they saw was their tools of creation being used to destroy, their beautiful inventions being used for something so monstrous, their darling clever "children" causing bloody carnage on a scale hundreds of times greater than they'd ever seen.  They denounced us, and those who had begun to mingle with us promptly retreated back to the mountains.  We were no longer welcome using their technology, and perhaps not even living near their mountains.
-
-We will miss their company, their ancient wisdom, and their cautious kindness.  We will not miss their squeamish ignorance and pompous self-righteousness.]], "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/palace-fumes.lua"
--- 15 entries
-t("a reminder", "a reminder", "_t")
-t([[A Reminder to Our Constituents:
-
-Any votes for an individual candidate for office cease to be valid once the primaries are over, and the field has been narrowed down to two (or rarely three, in a close race) candidates.  At this point, you cannot vote for your candidate; instead, a competition will be held, after which its victor will be awarded with the position.  The vote you are submitting now determines how they will be competing.  While we cannot enforce how or why you vote, we request that you respect the spirit of our system, and select a competition which reflects the candidates' capability to handle the responsibilities of the Chief Councilor position.]], [[A Reminder to Our Constituents:
-
-Any votes for an individual candidate for office cease to be valid once the primaries are over, and the field has been narrowed down to two (or rarely three, in a close race) candidates.  At this point, you cannot vote for your candidate; instead, a competition will be held, after which its victor will be awarded with the position.  The vote you are submitting now determines how they will be competing.  While we cannot enforce how or why you vote, we request that you respect the spirit of our system, and select a competition which reflects the candidates' capability to handle the responsibilities of the Chief Councilor position.]], "_t")
-t("a wrinkled pamphlet", "a wrinkled pamphlet", "_t")
-t([[A Plea from the Volunteer's Bureau of Gaming:
-
-Once again, we find ourselves faced with an election for the competition of Chief Councilor.  While this is the most prestigious position in our government, it should not be forgotten that is also arguably the most complex, and the one bearing the greatest responsibility for the fate of our people.  A Chief Councilor's duties require not only cautious, reasoned foresight, but a quick wit to get emergencies under control in little time; yet, he or she must be aware of the precedent set or the unintended consequences of such decisive action, never acting rashly or out of ill temper.  Such a leader would wield our citizens and our military like a drunkard with a glass bottle, not caring if his weapon is shattered in the process. He or she must be able to develop creative solutions to problems but be open to outside advice, to be a character judge capable of selecting his or her most valuable acquaintances and a persuader to convince them to do the tasks for which they are most suited...  suffice to say, there are a great many mental skills required.  Accordingly, the competition should be one that tests all these skills.
-
-This election, we are formally endorsing the board game [i]Automobiles and Automatons v9.8,[/i] a refined variant of the game introduced last year in a competition for the Marshall of the City Guard.  Its "oil-punk" science-fantasy setting, although perhaps easy to brush off as irrelevant to our reality, has its own consistent internal rules, forcing its players to learn a new status quo and work with it, as our leaders must be willing to learn from ongoing events and rapidly adapt to them; yet, since the game has been out for a year already and there are already numerous books about strategies for it, it also tests our candidates' long-term memory, as our leaders must be able to remember our history, to repeat our ancestors' successes but not their failures.  The rules of v9.8 are somewhat, but not entirely, different from those of previous versions, making these strategy books only partially accurate, just as our ancestors' wisdom only reflected the world they lived in, not the increasingly different one of the present.
-
-v9.8 uses the "Crumbling Divide" map, providing a barrier that eliminates the possibility of an aggressive player gaining an early victory, tests the players' ability to plan in the long term, and yet due to the presence of non-player foes on either side, they still must be able to make plans in the short-term that will ensure their survival and leave them in an advantageous position when the barrier fades.  Non-player foes follow a predictable set of rules, eliminating luck as a factor, and our necropsychs have found a method of copying the same spiritual consciousness into two figurines, meaning that both players will be using identical sets of Negotiator figurines to demonstrate their diplomatic finesse.  (As always, the figurines are designed to release their spirits after no more than one month, ensuring that this process is as humane as possible to the deceased.)
-
-The consumer edition of this game, v6.0, has won countless awards for its engaging and challenging play, with special attention given to the diverse array of viable strategies and skills tested by it.  Both sides agreed it was a fair game in the Marshall's election, as v1.0; v9.8 is unlikely to disappoint as a method of selecting our next leader.  Vote for [i]Automobiles and Automatons v9.8[/i] this year, and you will not be let down by its winner.]], [[A Plea from the Volunteer's Bureau of Gaming:
-
-Once again, we find ourselves faced with an election for the competition of Chief Councilor.  While this is the most prestigious position in our government, it should not be forgotten that is also arguably the most complex, and the one bearing the greatest responsibility for the fate of our people.  A Chief Councilor's duties require not only cautious, reasoned foresight, but a quick wit to get emergencies under control in little time; yet, he or she must be aware of the precedent set or the unintended consequences of such decisive action, never acting rashly or out of ill temper.  Such a leader would wield our citizens and our military like a drunkard with a glass bottle, not caring if his weapon is shattered in the process. He or she must be able to develop creative solutions to problems but be open to outside advice, to be a character judge capable of selecting his or her most valuable acquaintances and a persuader to convince them to do the tasks for which they are most suited...  suffice to say, there are a great many mental skills required.  Accordingly, the competition should be one that tests all these skills.
-
-This election, we are formally endorsing the board game [i]Automobiles and Automatons v9.8,[/i] a refined variant of the game introduced last year in a competition for the Marshall of the City Guard.  Its "oil-punk" science-fantasy setting, although perhaps easy to brush off as irrelevant to our reality, has its own consistent internal rules, forcing its players to learn a new status quo and work with it, as our leaders must be willing to learn from ongoing events and rapidly adapt to them; yet, since the game has been out for a year already and there are already numerous books about strategies for it, it also tests our candidates' long-term memory, as our leaders must be able to remember our history, to repeat our ancestors' successes but not their failures.  The rules of v9.8 are somewhat, but not entirely, different from those of previous versions, making these strategy books only partially accurate, just as our ancestors' wisdom only reflected the world they lived in, not the increasingly different one of the present.
-
-v9.8 uses the "Crumbling Divide" map, providing a barrier that eliminates the possibility of an aggressive player gaining an early victory, tests the players' ability to plan in the long term, and yet due to the presence of non-player foes on either side, they still must be able to make plans in the short-term that will ensure their survival and leave them in an advantageous position when the barrier fades.  Non-player foes follow a predictable set of rules, eliminating luck as a factor, and our necropsychs have found a method of copying the same spiritual consciousness into two figurines, meaning that both players will be using identical sets of Negotiator figurines to demonstrate their diplomatic finesse.  (As always, the figurines are designed to release their spirits after no more than one month, ensuring that this process is as humane as possible to the deceased.)
-
-The consumer edition of this game, v6.0, has won countless awards for its engaging and challenging play, with special attention given to the diverse array of viable strategies and skills tested by it.  Both sides agreed it was a fair game in the Marshall's election, as v1.0; v9.8 is unlikely to disappoint as a method of selecting our next leader.  Vote for [i]Automobiles and Automatons v9.8[/i] this year, and you will not be let down by its winner.]], "_t")
-t("a fading poster", "a fading poster", "_t")
-t([[Councilor Tantalos, unlike that cowardly wimp Chief Councilor Kasyros, knows just what to do to solve the steam shortages, and isn't afraid to do it!  Even though he can't reveal his plan yet for security reasons, the Geothermal Authority and our military's highest generals have assured us that his plan would work, without requiring us to ration steam usage or regulate our appliances; let's see Tantalos show that old geezer what-for, and end this drought for good!
-
-VOTE FISTICUFFS]], [[Councilor Tantalos, unlike that cowardly wimp Chief Councilor Kasyros, knows just what to do to solve the steam shortages, and isn't afraid to do it!  Even though he can't reveal his plan yet for security reasons, the Geothermal Authority and our military's highest generals have assured us that his plan would work, without requiring us to ration steam usage or regulate our appliances; let's see Tantalos show that old geezer what-for, and end this drought for good!
-
-VOTE FISTICUFFS]], "_t")
-t("Kasyros' resignation speech", "Kasyros' resignation speech", "_t")
-t([[My fellow councilors,
-
-In this time of increasing vent-drought, it is tempting for us to seek the easy way out.  I understand that at this point, I am powerless to prevent our new Chief Councillor's plans to take the promising vents under the Kruk orcs, but should we fail, you may be tempted to compensate by approaching that...  entity who called itself "the Loyalist."  I am of the opinion that this would be a foolish decision.
-
-Do you remember the Official Histories' record of when we first interacted with the lesser races?  They spoke of them as an entertaining, jovial bunch, friends and companions with our own people.  How naive we were back then...  but when our ancestors saw their true nature, the brutality they were capable of, they recorded these acts in detail.  They did not, however, explicitly tell us not to trust the Orcs.  They did not explicitly tell us that they are pests to be avoided, or a scourge to be eradicated, or a pitiful, fallen reminder of why letting the lesser races use our discoveries will only end in tragedy.  They simply recorded what they learned, and allowed future generations to come to those conclusions themselves, compared with their own observations - and in our grandparents' case, by unfortunate personal experience.  Even through the distress and feelings of betrayal at the time, even though opinions ran in every direction from fury to sorrow at the lesser races' barbarism, not one of the Councilors responsible for recording events gave in to editorialism.  Perhaps we would be in a better situation if they had, so we would have not repeated their mistake of trust, but they stayed fair nonetheless.
-
-Going even further back, they spoke of relations with our now-distant kin, the Sturmos Tribe.  Though the records describe a strained relationship, the mentions of their boorish behavior are recorded in a matter-of-fact nature, and interspersed with the mentions of their advanced metallurgy techniques and other such valuable things we gained from cooperating with them.  Although their current state of Great Firestorm-induced exile to the mountains of Maj'Eyal makes it a rather moot point, the fact still stands that if we were somehow in a position to trade with them, we could rely on the Official Histories for a trustworthy indication of, at a minimum, how they [i]used[/i] to behave.
-
-The examples go on; the Official Histories have remained dispassionate and fair, and a reliable metric for making decisions.  Not once did our forefathers allow their biases to influence their recordings.  Not once did a fervent political movement manage to compromise their integrity.  Not one chapter of these texts can be safely and fully discredited as the subjective, unfair writings of a dominant political party, or the deluded ramblings of a movement influenced by some banal philosophical fad.
-
-(Obviously, the mercifully brief reign of King Traglamar is an exception, but it should be clear why this was a special case and not worthy of further consideration.)
-
-My point is, the Official Histories have a very well-proven track record.  Every single time but once, they have given a solid analysis of the evidence.  Every single time but once, they have refrained from outright suggesting a course of action.  And only once have they allowed something as subjective as a gut feeling into their reports.
-
-Do you know what they say about the meeting with the Loyalist?  After a brief description of the events of the meeting - a strange creature approaching the Council of the time, demonstrating its power by using a small wand to blast a hole halfway to Eyal's core (a wand which he then handed them as though it were a child's cheaply-made toy), stating it could offer us a source of near-infinite energy in return for a rather inconvenient magical artifact.  When they turned it down, the creature gave a speech recorded in verbatim detail: "It hardly matters.  I have all the time in the world to wait for your people to trip over their own hubris and shatter.  If you will not allow me to save you, then I need only sift through the shards of your ruined cities to find it."
-
-Our forefathers say this creature gave them a means of contacting it again, but outright refuse to say what it was; the only reason we still know how to reach it is the yearly messages dropped on the Palace's front steps.  After mentioning that, they wrote this:
-
-"Do not trust this Loyalist.  When we look upon him, we feel something deep within us, older than ourselves, telling us that he is simply... [i]wrong[/i].  His intentions with the Eye, an artifact with incredible power that we have yet to successfully harness, cannot be good for anyone, least of all ourselves.  Never give him the Eye, and continue our work of trying to find a means of destroying it.  Never accept any other deal he offers.  If you are ever unfortunate enough to see him as well, you will immediately understand why we say this."
-
-Perhaps political discourse has gotten a bit...  muddier in recent years.  With the bickering and sniping of modern-day debates, it can be hard to believe that past Councilors had ideas other than their careers in mind, that a vehement display of emotion would be something other than political posturing.  But even if those Councilors were just as petty and selfish as we are, they did not let it affect the Official Histories, not once.
-
-I intend to trust the only advice our ancestors gave us in the Official Histories.  I beg of you all to do so as well.]], [[My fellow councilors,
-
-In this time of increasing vent-drought, it is tempting for us to seek the easy way out.  I understand that at this point, I am powerless to prevent our new Chief Councillor's plans to take the promising vents under the Kruk orcs, but should we fail, you may be tempted to compensate by approaching that...  entity who called itself "the Loyalist."  I am of the opinion that this would be a foolish decision.
-
-Do you remember the Official Histories' record of when we first interacted with the lesser races?  They spoke of them as an entertaining, jovial bunch, friends and companions with our own people.  How naive we were back then...  but when our ancestors saw their true nature, the brutality they were capable of, they recorded these acts in detail.  They did not, however, explicitly tell us not to trust the Orcs.  They did not explicitly tell us that they are pests to be avoided, or a scourge to be eradicated, or a pitiful, fallen reminder of why letting the lesser races use our discoveries will only end in tragedy.  They simply recorded what they learned, and allowed future generations to come to those conclusions themselves, compared with their own observations - and in our grandparents' case, by unfortunate personal experience.  Even through the distress and feelings of betrayal at the time, even though opinions ran in every direction from fury to sorrow at the lesser races' barbarism, not one of the Councilors responsible for recording events gave in to editorialism.  Perhaps we would be in a better situation if they had, so we would have not repeated their mistake of trust, but they stayed fair nonetheless.
-
-Going even further back, they spoke of relations with our now-distant kin, the Sturmos Tribe.  Though the records describe a strained relationship, the mentions of their boorish behavior are recorded in a matter-of-fact nature, and interspersed with the mentions of their advanced metallurgy techniques and other such valuable things we gained from cooperating with them.  Although their current state of Great Firestorm-induced exile to the mountains of Maj'Eyal makes it a rather moot point, the fact still stands that if we were somehow in a position to trade with them, we could rely on the Official Histories for a trustworthy indication of, at a minimum, how they [i]used[/i] to behave.
-
-The examples go on; the Official Histories have remained dispassionate and fair, and a reliable metric for making decisions.  Not once did our forefathers allow their biases to influence their recordings.  Not once did a fervent political movement manage to compromise their integrity.  Not one chapter of these texts can be safely and fully discredited as the subjective, unfair writings of a dominant political party, or the deluded ramblings of a movement influenced by some banal philosophical fad.
-
-(Obviously, the mercifully brief reign of King Traglamar is an exception, but it should be clear why this was a special case and not worthy of further consideration.)
-
-My point is, the Official Histories have a very well-proven track record.  Every single time but once, they have given a solid analysis of the evidence.  Every single time but once, they have refrained from outright suggesting a course of action.  And only once have they allowed something as subjective as a gut feeling into their reports.
-
-Do you know what they say about the meeting with the Loyalist?  After a brief description of the events of the meeting - a strange creature approaching the Council of the time, demonstrating its power by using a small wand to blast a hole halfway to Eyal's core (a wand which he then handed them as though it were a child's cheaply-made toy), stating it could offer us a source of near-infinite energy in return for a rather inconvenient magical artifact.  When they turned it down, the creature gave a speech recorded in verbatim detail: "It hardly matters.  I have all the time in the world to wait for your people to trip over their own hubris and shatter.  If you will not allow me to save you, then I need only sift through the shards of your ruined cities to find it."
-
-Our forefathers say this creature gave them a means of contacting it again, but outright refuse to say what it was; the only reason we still know how to reach it is the yearly messages dropped on the Palace's front steps.  After mentioning that, they wrote this:
-
-"Do not trust this Loyalist.  When we look upon him, we feel something deep within us, older than ourselves, telling us that he is simply... [i]wrong[/i].  His intentions with the Eye, an artifact with incredible power that we have yet to successfully harness, cannot be good for anyone, least of all ourselves.  Never give him the Eye, and continue our work of trying to find a means of destroying it.  Never accept any other deal he offers.  If you are ever unfortunate enough to see him as well, you will immediately understand why we say this."
-
-Perhaps political discourse has gotten a bit...  muddier in recent years.  With the bickering and sniping of modern-day debates, it can be hard to believe that past Councilors had ideas other than their careers in mind, that a vehement display of emotion would be something other than political posturing.  But even if those Councilors were just as petty and selfish as we are, they did not let it affect the Official Histories, not once.
-
-I intend to trust the only advice our ancestors gave us in the Official Histories.  I beg of you all to do so as well.]], "_t")
-t("excerpts from a Council meeting transcript (1)", "excerpts from a Council meeting transcript (1)", "_t")
-t([[The Steam Council has been called to order, with Chief Councilor Tantalos presiding.  
-
-TANTALOS: "Greetings, my fellow- heh, now [i]lesser[/i] Councilors!  It is my pleasure to finally lead the proceedings.  The agenda for today..." Ruffles through papers. "Is irrelevant, for I have a solution to every malady mentioned therein.  The first order--"
-
-KASYROS: "With all due respect, Chief Councilor, the agenda--"
-
-TANTALOS: "Is.  [i]Irrelevant.[/i]  Tormak?  You've been scrying on potential sources of geothermal energy, would you care to inform the others where you see the most potential?"
-
-TORMAK: Sighs. "Right under the Kruk orcs, unfortunately.  It's a promising source for sure, the magma powering it hasn't drained out like it has under us, but digging there would...  well, we all know how quickly they turned construction tools into weapons to rival our own.  If we went in there with the state-of-the-art mining equipment necessary to--"
-
-TANTALOS: Laughter. "Mining equipment!  What manner of fool do you take me for?  Palaquie, tell me what's going through the minds of those silly little waist-height warriors, rummaging through the mainland for Orcish rebels." Holds up hand to silence Councilor Emeritus Kasyros. "This IS relevant, I assure you."
-
-PALAQUIE: "Discontent...  revolving around hidden, long-fermented resentment. Some want the Kruk exterminated, others imprisoned.  Neither can afford direct intervention, but some form of support will assuredly be available."
-
-TANTALOS: "So, with the right negotiation, we can get these tinies, who have [i]endless[/i] experience fighting Orcs, to assist us and make any sort of action in Kruk territory more manageable.  At a bare minimum, we can obtain weaponry that has long proved sufficient for slashing Orcish throats...  although we'll need it custom-fit for our size, naturally."
-
-PALAQUIE: "They have a race whose armor would work.  A tight fit, but sufficient."
-
-TANTALOS: "Even better!  And...  Kasyros, I'm going to let [i]you[/i] tell me what the people care about most.  I'm sure your bruises are adequate reminders of the citizens' will?"
-
-KASYROS: [Statement was deemed excessively profane and stricken from the record by 4-2 vote.]
-
-TANTALOS: "Such undignified conduct!  All because you can't accept that the public wants their steam back.  More than they want those filthy little greenskins around, more than they fear getting their hands dirty, more than they want [i]your[/i] way of doing things.  So!  It's resolved that we have much to gain from this, it's resolved that we have or can obtain the means to carry it out, and it's resolved that it is what the voting public desires.  I see no need for further debate.  Nashal, I'd like to speak to you after this about a wand.  Meeting adjourned."
-
-[At this time, Councilor Kasyros gave a lengthy speech before officially resigning from the Council.  It has been recorded in a separate document.] ]], [[The Steam Council has been called to order, with Chief Councilor Tantalos presiding.  
-
-TANTALOS: "Greetings, my fellow- heh, now [i]lesser[/i] Councilors!  It is my pleasure to finally lead the proceedings.  The agenda for today..." Ruffles through papers. "Is irrelevant, for I have a solution to every malady mentioned therein.  The first order--"
-
-KASYROS: "With all due respect, Chief Councilor, the agenda--"
-
-TANTALOS: "Is.  [i]Irrelevant.[/i]  Tormak?  You've been scrying on potential sources of geothermal energy, would you care to inform the others where you see the most potential?"
-
-TORMAK: Sighs. "Right under the Kruk orcs, unfortunately.  It's a promising source for sure, the magma powering it hasn't drained out like it has under us, but digging there would...  well, we all know how quickly they turned construction tools into weapons to rival our own.  If we went in there with the state-of-the-art mining equipment necessary to--"
-
-TANTALOS: Laughter. "Mining equipment!  What manner of fool do you take me for?  Palaquie, tell me what's going through the minds of those silly little waist-height warriors, rummaging through the mainland for Orcish rebels." Holds up hand to silence Councilor Emeritus Kasyros. "This IS relevant, I assure you."
-
-PALAQUIE: "Discontent...  revolving around hidden, long-fermented resentment. Some want the Kruk exterminated, others imprisoned.  Neither can afford direct intervention, but some form of support will assuredly be available."
-
-TANTALOS: "So, with the right negotiation, we can get these tinies, who have [i]endless[/i] experience fighting Orcs, to assist us and make any sort of action in Kruk territory more manageable.  At a bare minimum, we can obtain weaponry that has long proved sufficient for slashing Orcish throats...  although we'll need it custom-fit for our size, naturally."
-
-PALAQUIE: "They have a race whose armor would work.  A tight fit, but sufficient."
-
-TANTALOS: "Even better!  And...  Kasyros, I'm going to let [i]you[/i] tell me what the people care about most.  I'm sure your bruises are adequate reminders of the citizens' will?"
-
-KASYROS: [Statement was deemed excessively profane and stricken from the record by 4-2 vote.]
-
-TANTALOS: "Such undignified conduct!  All because you can't accept that the public wants their steam back.  More than they want those filthy little greenskins around, more than they fear getting their hands dirty, more than they want [i]your[/i] way of doing things.  So!  It's resolved that we have much to gain from this, it's resolved that we have or can obtain the means to carry it out, and it's resolved that it is what the voting public desires.  I see no need for further debate.  Nashal, I'd like to speak to you after this about a wand.  Meeting adjourned."
-
-[At this time, Councilor Kasyros gave a lengthy speech before officially resigning from the Council.  It has been recorded in a separate document.] ]], "_t")
-t("excerpts from a Council meeting transcript (2)", "excerpts from a Council meeting transcript (2)", "_t")
-t([[(Ink has been spilled on this transcript - you can only read certain passages.)
-
-???: "[...]ame me for this!  YOUR mechanics examined that airship, YOUR equipment was used to repair it, and it's YOUR fault it went down!"
-
-NASHAL: "Yes, and I told you to call the attack off the moment I heard the news - the Loyalist's wand as a fire-support tool was far too valuable to conduct the invasion without it.  But no, Palaquie had to insist on going right then--"
-
-PALAQUIE: "My visions do not lie.  It was the best way forward.  Our odds of success at that point, low as they were, were still better than if we had let Pendor's inflexible, time-dependent plan sit and--"
-
-PENDOR: "DON'T YOU EVEN START, YOU YETI-LOVI--[...]"
-
-[...]
-
-Motion made to record the statement that Councilor Pendor would not know decent equipment if it shot or stabbed him in the face passed, 3-1, with Councilor Tantalos abstaining.
-
-Motion made to record the statement that Councilor Tormak's robes smell of absinthe and vagrants passed, 3-1, with Councilor Tantalos abstaining.
-
-Motion made to begin an official inquiry passed 3-1, with Councilor Tantalos abstaining.  The first order of business at the next session will be determining whether or not Councilor Nashal's state-of-the-art mining and extracting equipment is capable of extracting her head from her--
-
-[...]
-
-TANTALOS: "If you are all quite finished with this rubbish...  How bad is the situation, exactly?  I want details and facts, not blame."
-
-TORMAK: "You don't want blame because this whole thing was YOUR idea!  It's YOUR fault we--"
-
-Motion to censure Councilor Tantalos for defenestrating Councilor Tormak has failed, 1-1 (tie broken by Chief Councilor status), with Palaquie, Nashal, and Pendor abstaining.
-
-[...]
-
-TANTALOS: "So, a few wastrels in the marketplace are gone, and the Kruk have moved on to the mainland.  As far as I am concerned, they are not presently our responsibility - these 'Allied Kingdoms' and 'Sunwall' folk can deal with them.  Thanks to Pendor's scouts, we have a weapon we can point at the Kruk Pride homeland as a deterrent, which should buy us even more time.  We should use this time to bolster our defenses...  and consider additional options.  Meeting adjourned."
-
-PALAQUIE: "Additional options?"
-
-TANTALOS: "The meeting has been adjourned.  You should be training our necropsychs, Councilor."]], [[(Ink has been spilled on this transcript - you can only read certain passages.)
-
-???: "[...]ame me for this!  YOUR mechanics examined that airship, YOUR equipment was used to repair it, and it's YOUR fault it went down!"
-
-NASHAL: "Yes, and I told you to call the attack off the moment I heard the news - the Loyalist's wand as a fire-support tool was far too valuable to conduct the invasion without it.  But no, Palaquie had to insist on going right then--"
-
-PALAQUIE: "My visions do not lie.  It was the best way forward.  Our odds of success at that point, low as they were, were still better than if we had let Pendor's inflexible, time-dependent plan sit and--"
-
-PENDOR: "DON'T YOU EVEN START, YOU YETI-LOVI--[...]"
-
-[...]
-
-Motion made to record the statement that Councilor Pendor would not know decent equipment if it shot or stabbed him in the face passed, 3-1, with Councilor Tantalos abstaining.
-
-Motion made to record the statement that Councilor Tormak's robes smell of absinthe and vagrants passed, 3-1, with Councilor Tantalos abstaining.
-
-Motion made to begin an official inquiry passed 3-1, with Councilor Tantalos abstaining.  The first order of business at the next session will be determining whether or not Councilor Nashal's state-of-the-art mining and extracting equipment is capable of extracting her head from her--
-
-[...]
-
-TANTALOS: "If you are all quite finished with this rubbish...  How bad is the situation, exactly?  I want details and facts, not blame."
-
-TORMAK: "You don't want blame because this whole thing was YOUR idea!  It's YOUR fault we--"
-
-Motion to censure Councilor Tantalos for defenestrating Councilor Tormak has failed, 1-1 (tie broken by Chief Councilor status), with Palaquie, Nashal, and Pendor abstaining.
-
-[...]
-
-TANTALOS: "So, a few wastrels in the marketplace are gone, and the Kruk have moved on to the mainland.  As far as I am concerned, they are not presently our responsibility - these 'Allied Kingdoms' and 'Sunwall' folk can deal with them.  Thanks to Pendor's scouts, we have a weapon we can point at the Kruk Pride homeland as a deterrent, which should buy us even more time.  We should use this time to bolster our defenses...  and consider additional options.  Meeting adjourned."
-
-PALAQUIE: "Additional options?"
-
-TANTALOS: "The meeting has been adjourned.  You should be training our necropsychs, Councilor."]], "_t")
-t("palace of fumes", "palace of fumes", "newLore category")
+-- 2 entries
 t("excerpts from a Council meeting transcript (3)", "excerpts from a Council meeting transcript (3)", "_t")
 t([[TANTALOS: "Tell the others of the unfortunate developments, Palaquie."
 
@@ -5534,17 +5270,20 @@ No, NO! I have - I --- acci--- pain, such pa--______
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
--- 51 entries
-t("tract of destruction", "tract of destruction", "_t")
-t("tract of anarchy", "tract of anarchy", "_t")
-t("tract of acceptance", "tract of acceptance", "_t")
-t("temple of creation", "temple of creation", "newLore category")
-t("personal note (Slasul)", "personal note (Slasul)", "_t")
-t("letter to Rolf (1)", "letter to Rolf (1)", "_t")
-t("letter to Weisman (1)", "letter to Weisman (1)", "_t")
-t("letter to Rolf (2)", "letter to Rolf (2)", "_t")
-t("letter to Weisman (2)", "letter to Weisman (2)", "_t")
-t("letter to Weisman (3)", "letter to Weisman (3)", "_t")
+-- 42 entries
+t([[Rolf,
+
+I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
+
+Wishing you and your ale a hearty good-bye,
+
+Weisman.]], [[Rolf,
+
+I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
+
+Wishing you and your ale a hearty good-bye,
+
+Weisman.]], "_t")
 t("adventures", "adventures", "newLore category")
 t([[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
 And Gerlyk walked Eyal with his three brothers.

@@ -2151,7 +2151,7 @@ t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Ex
 
 #{italic}#(The door closes.)#{normal}#
 
-"...Yeah, Councillor Tantalos is getting his tea as soon as he can un-kick the hornet's nest that got us into this chaos.  Moving on...  departure was on time, projected journey to the Loyalist's last known position is underway, making a tunnel there from right under the palace.  All systems functioning, except for the tea-maker, and I can't give a slag about that.  End log."]], [["...이러면 되나? 좋아. 음. 여기는 지열 탐사 굴착기, G.E.M의 아지랑이 지휘관 팔모르다. 내 임무는..." *한숨 소리* "'그 '충신' 을 찾아내고 우릴 그의 은신처로 안전히 이동시킬 준비를 할 것. 그에게 이전에 동의했던 것을 제공할 것'. '우린 너무 무서워서 우릴 이 난장판에서 구원해 줄 수 있는 유일한 존재에게로 도망칠 거다. 그리고 우리한테 그 눈을 가져와라' 를 평의회어로 번역하면 저렇다. 개인적으로, 우리 종족의 운명을 웬 땅 속에 사는 미친 놈한테 맡기는 게 내키진 않는다. 그리고..." *잘 알아들을 수 없는 불평* "...제기랄, 이건 내가 할 일도 아니라고, 난 정치꾼 부하가 아니라--"
+"...Yeah, Councillor Tantalos is getting his tea as soon as he can un-kick the hornet's nest that got us into this chaos.  Moving on...  departure was on time, projected journey to the Loyalist's last known position is underway, making a tunnel there from right under the palace.  All systems functioning, except for the tea-maker, and I can't give a slag about that.  End log."]], [["...이러면 되나? 좋아. 음. 여기는 지열 탐사 굴착기, G.E.M의 아지랑이 지휘관 팔모르다. 내 임무는..." *한숨 소리* "'그 '충신' 을 찾아내고 우릴 그의 은신처로 안전히 이동시킬 준비를 할 것. 그에게 이전에 동의했던 것을 제공할 것'. '우린 너무 무서워서 우릴 이 난장판에서 구원해 줄 수 있는 유일한 존재에게로 도망칠 거다. 그리고 우리한테 그 '눈' 을 가져와라' 를 평의회어로 번역하면 저렇다. 개인적으로, 우리 종족의 운명을 웬 땅 속에 사는 미친 놈한테 맡기는 게 내키진 않는다. 그리고..." *잘 알아들을 수 없는 불평* "...제기랄, 이건 내가 할 일도 아니라고, 난 정치꾼 부하가 아니라--"
 
 #{italic}#(문이 열리고, 다른 누군가가 말하는 소리가 들렸습니다.)#{normal}#
 
@@ -2656,11 +2656,237 @@ section "game/dlcs/tome-orcs/data/lore/orcs.lua"
 
 t("orc prides", "오크 긍지", "newLore category")
 t("The Shunned Kruk", "미움받는 크룩 긍지", "_t")
+t([[Our pride has never been held in high esteem by the others.  We were the backbone of Garkul's army, the supply-runners, the road-builders, the medics tending to the wounded - all roles that had to be done to support those who gloriously fought in the thick of battle...  Alas, all this meant is that the others only barely accepted our necessity, barely concealing their distaste for us "cowards" and "weaklings."  Garkul stood up for us whenever the opportunity arose, so their prejudices were a moot point until his defeat; unfortunately, once the Allied Kingdoms started pushing us back and attacking the fortified towns we'd built in Maj'Eyal, we took the blame for not making them strong enough to hold off all attackers.  "What good are they?"  Rak'shor once asked.  "Even when they're hiding behind us, they still can't make anything worthwhile!"  When it was revealed that our then-leader had held off the Allied Kingdoms at one of their strongholds to buy enough time for most of our Pride's women and children to retreat to Var'Eyal, by way of launching ancient Nargol golems into human ranks via trebuchet, the accusations of cowardice gave way to ones of selfishness and betrayal.  We kept quiet about them, hoping to change their minds when rebuilding Orcish towns in Var'Eyal, hoping that they would come to see reason when they had roofs over their heads and wells to drink from, courtesy of our Pride; it seemed to work for the time being.  We kept our distance from the others, building our own homes in a distant corner of the continent, and only sending small groups out to do minor repair and construction.  The walls we built were strong enough to keep the Sunwall forces from simply walking over them, and that seemed to be enough.
+
+Alas, this acceptance would neither grow nor last.  One fateful night, Grand Architect Kruk came running back after a meeting with the other leaders of the Prides, saying we had to leave immediately, and that the women had to go first.  To this day, we are not entirely certain what drove her to such a panic...  she only told us that we would never want peace with the other Prides if we knew what we were running from, and that we may need that peace someday.  We swiftly built a bridge to the Clork Peninsula over the next few days, looking back over our shoulders towards the other Prides as we worked, and on the night the last Orc made it across, Kruk set it ablaze with burning arrows.  On the distant shore, we could only see the torches of those who we had narrowly escaped.
+
+We barely had time to sigh in relief before a thunderous noise roared above us, and a bright light came down from the sky, lighting us up but leaving the surrounding land dark.  A curious sort of golem fell from it, made of springs and gears rather than runes and stone.  It spoke with a scratchy yet organic-sounding voice, asking what had happened and what had caused the lights and noises in the dead of night; we told it we had fled the mainland for our own safety, and that we were only looking for a place to exist.  Hooks descended from the whirring airship above, dragging the construct back up, and it left without another word.
+
+We found a suitable home on the far side of the mountain range, shielded by the surrounding hills and yet fertile enough to sustain us.  Once we had settled in, the airships and constructs began visiting us more and more often, at first simply watching, then conversing with us and even helping us build homes.  It was not too long until one of the constructs' masters finally came to speak with us in person; he introduced himself as one of the Atmos, the Steam Giants we'd assumed for so long to be merely an ancient myth.  They were a strange people, and one we began to admire as we became fast friends.  Wise and reasoned yet valuing strength, neither overly arrogant nor overly timid...  a bit on the frivolous and eccentric side, but living for countless ages alone on a mountaintop would do that to anyone, we reasoned.  Likewise, they seemed to think of us as their rambunctious but gifted children, and when they began to teach us of their steam-pressure-driven machinery, they were impressed by how quickly we adapted to and improved on it.  They gave us guidance and wisdom, we gave them drive and innovation; we could have become true allies, if we'd only had enough time.
+
+All good things must come to an end, it seems.  One day, a panicked scout ran into our camp and announced that an Orcish army had arrived by boat on the shores of the Clork Peninsula, and was charging toward us with hostile intent.  Whatever they had originally wanted that drove Grand Architect Kruk away, they were no longer content to go without it.
+
+We told the Atmos, and they told us to simply reason with them; they had clearly never been under attack!  We would obtain no assistance from them, not even when our lives clearly depended on it.  Instead, Grand Architect Kruk showed us a series of schematics she'd made, ones that she dared not reveal before for fear of the Atmos seeing them - ones showing how to turn our helpful steam contraptions into hideously effective weaponry.  A harness to wear the great whirling lumber-saws as weapons, portable steam generators so we could power our machinery like the Atmos could without being tethered to a pipe or hose, a means of removing the safety mechanisms on nail-guns and swapping their barrels out so they could fire sling-bullets at incredible speeds, a giant version of the jewelry-plating device they gave us that could electrocute dozens of invaders at once...
+
+We held strong when the other Prides came for us, and we were fighting with weapons they had never encountered before, inflicting wounds they had never learned to tolerate or heal, fighting with forces that they could not hope to even understand, let alone fight.  The shrieking din of sawblades shredding through armor and severing limbs, the screams of Gorbat's wyrm-riders as giant grappling hooks pulled them out of the sky, the smell of Orcish flesh cooked through to the core by lightning or scalded by jets of steam, the rattling of steamguns as they turned an attacking formation into a pile of corpses - these sensations might haunt the nightmares of Atmos and the other Prides, but to us they were the sweet sounds, sights, and smells of victory and safety.  We had prevailed, with only a handful dead on our side before they fled.  Kruk Pride would not be conquered.
+
+The Atmos, however, did not see the dire circumstances we were in.  They did not see the threat we faced, and I doubt that even if the Grand Architect of the Pride had told them what she knew, they would have listened.  All they saw was their tools of creation being used to destroy, their beautiful inventions being used for something so monstrous, their darling clever "children" causing bloody carnage on a scale hundreds of times greater than they'd ever seen.  They denounced us, and those who had begun to mingle with us promptly retreated back to the mountains.  We were no longer welcome using their technology, and perhaps not even living near their mountains.
+
+We will miss their company, their ancient wisdom, and their cautious kindness.  We will not miss their squeamish ignorance and pompous self-righteousness.]], [[우리 긍지는 다른 이들로부터 고평가를 받아 본 적이 없다.  우린 가르쿨의 군대에서 중추 역할을 했었다. 보급을 담당했고, 길을 만들었으며, 다친 이들을 간호했었다 - 모두 다 최전선에서 영광스럽게 싸우는 이들을 돕기 위해 필요한 일이었지만...  아아, 다른 이들은 우리의 중요성을 거의 알아보지 못했고, 우리가 "겁쟁이들" 이고 "약골들" 이라고 생각하는 걸 잘 숨기지도 못했다.  가르쿨은 기회가 있을 때마다 우리의 공을 치하해 주었기 때문에 그가 패배하기 전까진 그런 편견도 별로 문제가 되지 않았으나, 왕국연합 놈들이 우릴 압박하면서 우리가 마즈'에이알에 세웠던 요새화된 마을을 공격하기 시작하자, 우린 '왜 모두 다 물리칠 수 있을 만큼 튼튼하게 짓지 못했나' 라는 비난을 듣게 되었다.  "저놈들이 도움이 되긴 하나?"  락'쇼르가 한 말이었다.  "우리 뒤에 숨어있는 주제에, 여전히 뭔가 쓸만한 건 만들지 못하고 있지 않은가!"  당시 우리 긍지의 지도자가 여자들과 아이들을 바르'에이알로 대피시키기 위해 왕국연합의 거점에서 투석기로 고대 나르골의 골렘들을 인간들에게 던져 시간을 벌었다는 것이 밝혀졌을 때에도, "겁쟁이들" 이라는 말이 "이기적인 놈들" 과 "배신자들" 로 바뀌었을 뿐이었다.  우린 그냥 참고만 있었다. 바르'에이알에 오크 마을을 새로 세우게 되면 인정해 주겠지, 우리 긍지가 집을 지어 주고, 물을 마실 수 있는 우물도 만들어 주면 도리가 뭔지 알게 되겠지 하면서. 처음에는 정말 그렇게 된 것 같았다.  우린 다른 이들과 거리를 두었고, 대륙의 구석 멀리 떨어진 곳에 우리의 집을 짓고 사소한 수리나 건설을 할 인원들만 조금 보냈을 뿐이었다.  우리가 쌓아올린 벽들은 태양의 장벽의 군대도 쉽게 뚫지 못할 만큼 견고했고, 그 정도로도 충분하다고 생각했다.
+
+아아, 이 관계는 더 나아지지도, 오래가지도 못했다.  어느 날 밤, 위대한 설계자 크룩은 다른 긍지 지도자들과의 회의를 마치고 돌아와, 우리의 운명을 가른 결단을 내렸다. 우린 지금 당장 떠나야 하며, 여자들이 먼저 출발해야 한다고 말한 것이다.  오늘날까지도, 대체 무슨 일이 있었기에 그녀가 그렇게까지 당황하고 있었던 것인지 확실하게 알 수가 없다...  그녀는 그저, "우리가 무엇으로부터 도망쳐야 하는지 알게 된다면, 다른 긍지들과 결코 평화롭게 지내고 싶지 않게 될 거다. 그리고 훗날, 우린 그 평화가 필요할지도 모른다." 라고만 말했다.  그 후로 며칠간 우린 등 뒤의 다른 긍지들이 있는 곳을 바라보며 서둘러 클로크 반도로 통하는 다리를 지었고, 완성된 날 밤에 우리 모두가 다리를 건너자 크룩은 불화살을 쏘아 다리를 불태웠다.  저 멀리 바닷가에는, 추격자들이 들고 있는 횃불의 불빛만 보일 뿐이었다. 정말 간신히 탈출했던 것이었다.
+
+우리에겐 숨을 돌릴 시간도 없었다. 우레와 같은 소리가 머리 위에서 울렸고, 눈부신 빛이 하늘에서 내려와 우릴 밝혀 주고 주변 땅은 어둡게 만들었다.  그것으로부터 기묘한 골렘 같은 것이 떨어졌는데, 룬이나 바위가 아닌 용수철과 톱니로 만들어진 것이었다.  그것은 지직거리면서, 그럼에도 생명체의 목소리로 대체 무슨 일이 일어난 건지, 또 왜 한밤중에 이런 소란을 일으켰는지 물었다. 우린 목숨을 건지기 위해 본토에서 도망쳐 왔으며, 그저 살만한 곳을 찾고 있을 뿐이라고 대답했다.  그러자 머리 위의 윙윙거리는 비행선에서 갈고리가 내려와 골렘 같은 것을 끌어올렸고, 아무 말도 없이 떠나 버렸다.
+
+우린 산줄기 반대편에서 집을 짓기 적당한 곳을 발견했다. 언덕들에 둘러싸여 방어가 용이하고, 그럼에도 땅은 기름져 자급자족이 가능한 곳이었다.  우리가 그곳에 살게 되자, 비행선들과 골렘들이 우릴 점점 더 자주 찾아오게 되었다. 그들은 처음에는 그저 지켜볼 뿐이었지만, 차츰 이야기도 나누게 되었고 우리가 집을 짓는 것을 도와주기도 하였다.  얼마 지나지 않아, 마침내 그 골렘들의 주인 중 하나가 우리와 개인적으로 이야기를 하러 왔었다. 그는 자신을 증기 거인 아트모스 부족의 일원이라 소개하였다. 우리가 오랫동안 그저 옛 전설에 불과하다고 여겼던, 그 증기 거인족이었던 것이다.  별난 이들이었지만 그들과 빠르게 친해지면서, 우린 그들을 존경하게 되었다.  현명하고 합리적이면서도 힘을 중요시 여기고, 너무 오만하지도, 너무 소심하지도 않고...  다소 경솔하고 괴팍한 면도 있었지만, 매우 오랫동안 산꼭대기에서 홀로 살았으니 그런 면이 없는 게 더 이상하다고 생각했다.  비슷하게, 그들도 우리를 난폭하지만 재능이 있는 자신들의 아이들처럼 생각하는 것 같았다. 그들은 우리에게 '증기압으로 작동하는 기계' 에 대해 가르치기 시작했고, 그 기술에 놀랍도록 빠르게 적응하고 발전하는 우릴 보며 감탄했다.  그들은 우리에게 방향과 지혜를 주었고, 우린 그들에게 새로운 원동력을 주었던 것이다. 우린 진정한 동료가 될 수도 있었을 것이다. 시간이 조금만 더 있었다면.
+
+좋은 일들은 모두 언젠가는 끝나 버리는 것 같다.  어느 날, 정찰병 하나가 어쩔 줄 몰라하며 우리의 캠프로 뛰어들어와, 오크 군대가 쪽배를 타고 클로크 반도 해안에 도착했고 적의를 드러내며 우리 쪽으로 돌격하고 있다고 전했다.  그날 밤에 그들이 원했던 것이, 위대한 설계자 크룩을 도망치게 만든 것이 도대체 무엇이었는지는 모르겠지만, 그들은 원하던 것을 얻어내겠노라고 작정한 것이었다.
+
+우린 아트모스 사람들에게 이 이야기를 전했고, 그러자 그들은 그냥 설득을 해 보라고 말했다. 외적에게 공격을 받아 본 적이 없는 게 확실했다!  그들에게선 전혀 도움을 받지 못했다... 심지어 그들이 우리의 유일한 희망이 되었을 때 조차도.  그 대신, 위대한 설계자 크룩이 자신이 직접 만들어낸 설계도들을 보여 주었다. 그동안 아트모스 사람들도 보게 될까 봐 두려워 차마 보여줄 수 없었던 것들이었는데, 바로 편리한 증기 장치들을 끔찍하리만치 효과적인 무기들로 바꾸는 방법들이었다.  거대한 벌목용 회전톱을 무기로 쓸 수 있게 해 주는 장비에, 아트모스 사람들처럼 파이프나 호스 없이 기계에 동력을 공급할 수 있게 해 주는 휴대용 증기 발생기, 못총의 안전장치를 제거하고 총열을 교체하여 투석구의 탄환을 엄청난 속도로 쏘아낼 수 있도록 만드는 방법에, 아트모스 사람들에게서 받은 보석 도금 장치를 거대화해서 수많은 적들을 단번에 구워 죽일 수 있도록 하는 등...
+
+다른 긍지들의 군대가 도착했을 땐 우린 만반의 준비를 마친 상태였고, 우린 그들이 생전 처음 보는 무기를 들고 싸웠다. 그들이 치료법을 모르는 상처를 입히고, 그들로서는 이해할 수가 없는 힘을 휘두르며, 홀로 맞서 싸웠다.  적들의 갑옷을 가르고 사지를 잘라내는 톱날의 시끄러운 소음, 거대 갈고리에 걸려 땅으로 끌어내려진 고르뱃의 용 기수들이 지르는 비명, 번개와 증기 분출에 맞아 안쪽까지 구워지는 오크 살점의 냄새, 그리고 전장을 시체 밭으로 만드는 증기총 소리 - 아트모스 사람들과 다른 긍지의 이들에겐 지금까지도 머릿속에서 떠나지 않는 악몽과도 같겠지만, 우리에겐 승리와 안전을 상징하는 달콤한 소리이고, 광경이고, 냄새였다.  우린 승리했고, 사상자는 손에 꼽을 정도였다.  크룩 긍지는 그 누구에게도 굴복하지 않을 것이다.
+
+하지만 아트모스의 사람들은, 우리가 처해 있었던 끔찍한 상황을 이해하지 못했다.  그자들은 우리가 마주했던 위협에 대해 이해하지 못했고, 사실 우리 긍지의 위대한 설계자가 모두 다 이야기했더라도, 그걸 들어주기나 했을지도 의문스럽다.  그들이 본 건 그저, 자신들의 창조의 도구가 파괴 무기로 사용되었다는 것과, 자신들의 아름다운 발명품들이 뭔가 끔찍한 것을 위해 사용되었다는 것, 그리고 자신들의 사랑스럽고 영리한 "아이들" 이 이제까지 봤던 것보다 수백 배는 더한, 피비린내나는 대학살을 일으켰다는 것. 오직 그것뿐이었다.  그들은 우릴 맹렬하게 비난했고, 우리와 어울리기 시작했던 자들은 곧바로 산으로 돌아갔다.  우린 이제 그들의 기술을 사용하는 것은 물론이고, 아마 그 산 근처에 사는 것도 환영받지 못할 것이다.
+
+그들이 그리울 것이다. 그들이 가진 고대의 지혜도, 조심스러운 친절도.  그들이 보여주었던 어처구니없는 순진함과 거만하기까지 한 독선은 빼고.]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/palace-fumes.lua"
 
+t("a reminder", "안내문", "_t")
+t([[A Reminder to Our Constituents:
+
+Any votes for an individual candidate for office cease to be valid once the primaries are over, and the field has been narrowed down to two (or rarely three, in a close race) candidates.  At this point, you cannot vote for your candidate; instead, a competition will be held, after which its victor will be awarded with the position.  The vote you are submitting now determines how they will be competing.  While we cannot enforce how or why you vote, we request that you respect the spirit of our system, and select a competition which reflects the candidates' capability to handle the responsibilities of the Chief Councilor position.]], [[유권자 여러분께 안내드립니다:
+
+예비선거가 끝난 뒤에는 입후보 개개인에게 투표할 수 없으며, 후보 자체도 둘로 (차이가 근소하다면 셋으로) 좁혀지게 되었습니다.  이제 입후보에게 투표를 할 수는 없습니다. 투표 대신에, 경기를 개최하여 승리한 후보가 당선될 겁니다.  이제 여러분의 투표는 그들이 어떤 경기를 치를지 결정합니다.  저희 측에서 투표를 강제할 수는 없지만, 부디 우리의 선거체계를 존중해 주시고 각 후보가 평의원장 자리에 걸맞는 능력이 있는지 확인할 수 있을만한 경기를 선택해 주시길 부탁드립니다.]], "_t")
+t("a wrinkled pamphlet", "구겨진 팸플릿", "_t")
+t([[A Plea from the Volunteer's Bureau of Gaming:
+
+Once again, we find ourselves faced with an election for the competition of Chief Councilor.  While this is the most prestigious position in our government, it should not be forgotten that is also arguably the most complex, and the one bearing the greatest responsibility for the fate of our people.  A Chief Councilor's duties require not only cautious, reasoned foresight, but a quick wit to get emergencies under control in little time; yet, he or she must be aware of the precedent set or the unintended consequences of such decisive action, never acting rashly or out of ill temper.  Such a leader would wield our citizens and our military like a drunkard with a glass bottle, not caring if his weapon is shattered in the process. He or she must be able to develop creative solutions to problems but be open to outside advice, to be a character judge capable of selecting his or her most valuable acquaintances and a persuader to convince them to do the tasks for which they are most suited...  suffice to say, there are a great many mental skills required.  Accordingly, the competition should be one that tests all these skills.
+
+This election, we are formally endorsing the board game [i]Automobiles and Automatons v9.8,[/i] a refined variant of the game introduced last year in a competition for the Marshall of the City Guard.  Its "oil-punk" science-fantasy setting, although perhaps easy to brush off as irrelevant to our reality, has its own consistent internal rules, forcing its players to learn a new status quo and work with it, as our leaders must be willing to learn from ongoing events and rapidly adapt to them; yet, since the game has been out for a year already and there are already numerous books about strategies for it, it also tests our candidates' long-term memory, as our leaders must be able to remember our history, to repeat our ancestors' successes but not their failures.  The rules of v9.8 are somewhat, but not entirely, different from those of previous versions, making these strategy books only partially accurate, just as our ancestors' wisdom only reflected the world they lived in, not the increasingly different one of the present.
+
+v9.8 uses the "Crumbling Divide" map, providing a barrier that eliminates the possibility of an aggressive player gaining an early victory, tests the players' ability to plan in the long term, and yet due to the presence of non-player foes on either side, they still must be able to make plans in the short-term that will ensure their survival and leave them in an advantageous position when the barrier fades.  Non-player foes follow a predictable set of rules, eliminating luck as a factor, and our necropsychs have found a method of copying the same spiritual consciousness into two figurines, meaning that both players will be using identical sets of Negotiator figurines to demonstrate their diplomatic finesse.  (As always, the figurines are designed to release their spirits after no more than one month, ensuring that this process is as humane as possible to the deceased.)
+
+The consumer edition of this game, v6.0, has won countless awards for its engaging and challenging play, with special attention given to the diverse array of viable strategies and skills tested by it.  Both sides agreed it was a fair game in the Marshall's election, as v1.0; v9.8 is unlikely to disappoint as a method of selecting our next leader.  Vote for [i]Automobiles and Automatons v9.8[/i] this year, and you will not be let down by its winner.]], [[자발적 게임 당국의 간청:
+
+우린 다시 한 번, 평의원장을 선출할 경기를 선택하게 되었습니다.  물론 우리 정부에서 가장 명망 높은 자리인 것은 맞지만, 그와 동시에 직무가 가장 복잡한 자리이며 우리 부족의 운명과 가장 큰 관계가 있는 자리라는 것을 잊어선 안 됩니다.  평의원장직은 단순히 신중함 외에도 선견지명도 필요할 뿐만 아니라 긴급사태가 일어나더라도 신속히 처리할 수 있을 정도의 임기응변도 요구됩니다. 그리고 또, 평의원장은 결정적인 판단으로 일어난 의도치 않은 결과들이나 과거의 전례들에 대해 알고 있어야 하며, 절대로 경솔하게 행동하거나 이성을 잃어선 안 됩니다.  그런 지도자는 우리 시민들과 군대를 주정뱅이가 술병 다루듯이 할 것이며 자기가 휘두르는 게 산산조각나든 말든 전혀 신경쓰지 않을 것입니다. 또한 우리의 지도자는 문제가 일어났을 때 창의적인 해결책을 수립할 수 있어야 하며, 그러면서도 생각이 열려 있는 사람이어야 하고 주변인들 중 가장 가치 있는 자들을 선별해낼 수 있어야 하며, 개개인이 자신들에게 가장 알맞은 작업을 수행하도록 설득할 수 있어야 합니다...  요약하자면, 지적인 능력이 매우 많이 요구됩니다.  그러므로, 우린 그런 능력들을 모두 시험할 수 있는 경기를 선택해야 합니다.
+
+이번 선거에서, 우린 작년에 도시 경비대장을 뽑는 데에 사용되었던 보드 게임의 개량판인 [i]오토모빌 앤 오토마톤 9.8판[/i]을 공식적으로 지지하는 바입니다.  해당 게임의 "오일펑크" 공상과학 설정은 (우리의 현실과는 전혀 상관이 없다고 일축하실지도 모르겠지만) 한결같은 독자적 규칙들을 갖고 있고, 플레이어들은 새로운 상황들과 그것들에 대처하는 법을 배워야만 합니다. 이는 우리의 지도자들이 현재 일어나고 있는 사건들과 그것들에 빠르게 적응해야 하는 법을 배워야 하는 것과 마찬가지입니다. 물론 해당 게임이 발매된 지 벌써 1년이 지난 상태라 수많은 전략 가이드가 시중에 풀려 있는 상태이긴 하지만, 그렇더라도 우리 입후보들의 장기 기억력을 시험해볼 수 있습니다. 이것은 우리의 지도자들이 우리의 지난 역사들을 기억하면서, 우리 선조들의 실패가 아닌 성공을 답습해야 하는 것과 마찬가지입니다.  9.8판의 규칙들도 이전 판본과는 다소 다르기 때문에, 시중의 전략 가이드들 또한 일부분만 정확한 상태입니다. 마치 선조들의 지혜는 그들이 살던 시대에만 적용되지만, 그 시대 자체가 현재와 큰 차이가 없는 것처럼 말이지요.
+
+9.8판은 "허물어지는 경계" 맵을 사용합니다. 해당 맵에서는 공격적인 플레이어가 순식간에 승리를 차지하는 것을 원천봉쇄하는 방벽이 주어지므로 플레이어들의 장기 전략 구상 능력을 시험할 수 있으며, 비-플레이어 적들이 존재하기 때문에 단기 전략 또한 여전히 요구됩니다. 자신들의 생존을 위한 전략과 방벽이 사라졌을 때 유리한 위치를 선점하기 위한 전략을 세워야 하는 것이지요.  비-플레이어 적들은 철저히 정해진 규칙에 따라서 행동하기 때문에 확률적 요소는 일절 배제되며, 플레이어들은 그들의 행동 규칙을 예측할 수 있습니다. 그리고 우리 염령술사들은 동일한 영적 인격을 두 개의 기물에 복사하는 방법을 발견하였고, 이것은 양 플레이어들이 사용하는 '협상가' 기물이 완전히 동일하다는 것을 의미하며 즉 플레이어들이 자신들의 뛰어난 외교술을 선보일 수 있다는 것입니다.  (늘 그렇듯이, 각 기물들에 깃든 영들은 한 달 정도만 지나면 풀려나도록 되어 있습니다. 그 과정은 고인들에게 최대한 인도적인 방식으로 이루어진다는 것을 보장합니다.)
+
+해당 게임의 고객판인 6.0판은 매우 다양한 전략과 능력을 시험할 수 있고, 매력적이며 도전정신을 자극하는 게임성 덕분에 수많은 상을 입상하였습니다.  1.0판을 사용했던 경비대장 선거 당시엔, 양 후보자들이 입을 모아 "공정한 게임이었다" 고 말했었지요. 9.8판 역시 우리의 차기 지도자를 선별하기에 손색이 없을 것입니다.  [i]오토모빌 앤 오토마톤 9.8판[/i]에 투표하시면, 그 승리자는 여러분을 실망시키지 않을 것입니다.]], "_t")
+t("a fading poster", "빛바랜 포스터", "_t")
+t([[Councilor Tantalos, unlike that cowardly wimp Chief Councilor Kasyros, knows just what to do to solve the steam shortages, and isn't afraid to do it!  Even though he can't reveal his plan yet for security reasons, the Geothermal Authority and our military's highest generals have assured us that his plan would work, without requiring us to ration steam usage or regulate our appliances; let's see Tantalos show that old geezer what-for, and end this drought for good!
+
+VOTE FISTICUFFS]], [[평의원 탄탈로스는 저 비겁한 겁쟁이 평의원장 카시로스와는 다르게, 증기 부족을 해결하기 위해 해야 할 일을 알고 있으며 주저하지도 않는다!  비록 보안 문제 때문에 자신의 계획을 밝히지는 않지만, 지열 당국과 우리 군대를 이끄는 장군들은 그의 계획은 우리들의 증기 사용량을 제한하지도, 증기 제품들을 규제하지도 않으며, 그럼에도 효과적일 것이라 장담했다.  탄탈로스가 그 늙은이에게 본때를 보여주는 것을 구경하고, 증기 가뭄을 영영 끝내 버리자!
+
+무투 경기에 투표하라!]], "_t")
+t("Kasyros' resignation speech", "카시로스의 사임 연설", "_t")
+t([[My fellow councilors,
+
+In this time of increasing vent-drought, it is tempting for us to seek the easy way out.  I understand that at this point, I am powerless to prevent our new Chief Councillor's plans to take the promising vents under the Kruk orcs, but should we fail, you may be tempted to compensate by approaching that...  entity who called itself "the Loyalist."  I am of the opinion that this would be a foolish decision.
+
+Do you remember the Official Histories' record of when we first interacted with the lesser races?  They spoke of them as an entertaining, jovial bunch, friends and companions with our own people.  How naive we were back then...  but when our ancestors saw their true nature, the brutality they were capable of, they recorded these acts in detail.  They did not, however, explicitly tell us not to trust the Orcs.  They did not explicitly tell us that they are pests to be avoided, or a scourge to be eradicated, or a pitiful, fallen reminder of why letting the lesser races use our discoveries will only end in tragedy.  They simply recorded what they learned, and allowed future generations to come to those conclusions themselves, compared with their own observations - and in our grandparents' case, by unfortunate personal experience.  Even through the distress and feelings of betrayal at the time, even though opinions ran in every direction from fury to sorrow at the lesser races' barbarism, not one of the Councilors responsible for recording events gave in to editorialism.  Perhaps we would be in a better situation if they had, so we would have not repeated their mistake of trust, but they stayed fair nonetheless.
+
+Going even further back, they spoke of relations with our now-distant kin, the Sturmos Tribe.  Though the records describe a strained relationship, the mentions of their boorish behavior are recorded in a matter-of-fact nature, and interspersed with the mentions of their advanced metallurgy techniques and other such valuable things we gained from cooperating with them.  Although their current state of Great Firestorm-induced exile to the mountains of Maj'Eyal makes it a rather moot point, the fact still stands that if we were somehow in a position to trade with them, we could rely on the Official Histories for a trustworthy indication of, at a minimum, how they [i]used[/i] to behave.
+
+The examples go on; the Official Histories have remained dispassionate and fair, and a reliable metric for making decisions.  Not once did our forefathers allow their biases to influence their recordings.  Not once did a fervent political movement manage to compromise their integrity.  Not one chapter of these texts can be safely and fully discredited as the subjective, unfair writings of a dominant political party, or the deluded ramblings of a movement influenced by some banal philosophical fad.
+
+(Obviously, the mercifully brief reign of King Traglamar is an exception, but it should be clear why this was a special case and not worthy of further consideration.)
+
+My point is, the Official Histories have a very well-proven track record.  Every single time but once, they have given a solid analysis of the evidence.  Every single time but once, they have refrained from outright suggesting a course of action.  And only once have they allowed something as subjective as a gut feeling into their reports.
+
+Do you know what they say about the meeting with the Loyalist?  After a brief description of the events of the meeting - a strange creature approaching the Council of the time, demonstrating its power by using a small wand to blast a hole halfway to Eyal's core (a wand which he then handed them as though it were a child's cheaply-made toy), stating it could offer us a source of near-infinite energy in return for a rather inconvenient magical artifact.  When they turned it down, the creature gave a speech recorded in verbatim detail: "It hardly matters.  I have all the time in the world to wait for your people to trip over their own hubris and shatter.  If you will not allow me to save you, then I need only sift through the shards of your ruined cities to find it."
+
+Our forefathers say this creature gave them a means of contacting it again, but outright refuse to say what it was; the only reason we still know how to reach it is the yearly messages dropped on the Palace's front steps.  After mentioning that, they wrote this:
+
+"Do not trust this Loyalist.  When we look upon him, we feel something deep within us, older than ourselves, telling us that he is simply... [i]wrong[/i].  His intentions with the Eye, an artifact with incredible power that we have yet to successfully harness, cannot be good for anyone, least of all ourselves.  Never give him the Eye, and continue our work of trying to find a means of destroying it.  Never accept any other deal he offers.  If you are ever unfortunate enough to see him as well, you will immediately understand why we say this."
+
+Perhaps political discourse has gotten a bit...  muddier in recent years.  With the bickering and sniping of modern-day debates, it can be hard to believe that past Councilors had ideas other than their careers in mind, that a vehement display of emotion would be something other than political posturing.  But even if those Councilors were just as petty and selfish as we are, they did not let it affect the Official Histories, not once.
+
+I intend to trust the only advice our ancestors gave us in the Official Histories.  I beg of you all to do so as well.]], [[동료 평의원 여러분,
+
+증기 고갈이 가속화되고 있는 지금 상황에서, '손쉬운 해결법' 이란 것은 당연히 구미가 당기는 말입니다.  저 또한 현시점에선, 제겐 우리의 새로운 평의원장의 계획 - 크룩 오크들의 발밑에 있는 유망한 지열관들을 탈취하는 계획을 막을 힘이 없다는 것을 잘 알고 있습니다. 그러나 만약 우리가 실패한다면, 여러분들은 자신을 "충신" 이라 칭하는 그... '존재' 와 거래를 하고 싶어질 수도 있을 것입니다.  저는 그러한 결정을 내리는 것은 굉장히 어리석은 짓이라고 생각합니다.
+
+우리가 열등한 종족들과 처음으로 접촉했을 때 작성되었던 공식 기록을 기억하고 계십니까?  그 기록에선 그 종족들을 "즐겁고 쾌활한 무리이며, 우리 종족의 친구이자 동반자" 라고 표현했습니다.  돌이켜보면 우린 참 순진했습니다...  하지만 우리의 선조들께서 그 종족들의 잔혹한 본질을 목도하셨을 때, 그분들께선 그들의 행위들에 대해 낱낱이 기록하셨습니다.  그러나, "오크들을 믿지 말라" 고 확실하게 이야기하진 않으셨습니다.  그분들께선 그들을 멀리해야 할 해충이라고도, 뿌리 뽑아야 할 재앙이라고도, 열등한 종족들이 우리가 이룩한 것들을 이용하게 되면 일어나는 잔혹한 비극의 산 증인들이라고도 이야기하지 않으셨습니다.  그분들께선 그저 배운 것을 기록했을 뿐이고, 그리하여 미래 세대들이 선조들의 기록과 자신들이 보아왔던 것을 비교하고 스스로 판단하여, 결론을 내릴 수 있도록 하셨던 겁니다. 우리 조부모님들께선, 그 기록들과 자신들의 불행한 경험을 비교하여 그 결론에 도달하셨습니다.  그 당시 만연했던 괴로움과 배신감에도 불구하고, 그 열등한 종족들의 야만스러움 때문에 격노부터 슬픔에 이르는 온갖 의견들이 난무했음에도 불구하고, 당시 기록 업무를 맡던 평의원들께선 그 누구도 외부의 사견들에 굴복하지 않으셨습니다.  그분들께서 그렇게 해 주셨다면 지금 우리가 처한 상황이 조금 더 나았을지도 모르고, 우리도 그분들의 실수를 반복하지 않았을 것이지만, 그럼에도 불구하고 그분들께선 공정하셨습니다.
+
+좀 더 먼 옛날로 돌아가 보면, 그분들께선 지금은 멀어진 친척인 스터모스 부족과의 관계에 대해서도 이야기하셨습니다.  비록 기록들에선 불편한 관계였다고 묘사되어 있지만, 그들의 천박한 행동들에 대해서는 담담하게 사실적으로 기록되어 있고 그들과 교류하면서 뛰어난 야금학을 비롯하여 가치 있는 것들을 많이 얻을 수 있었다는 언급들도 존재합니다.  물론 그들은 엄청난 화염 폭풍을 피해 마즈'에이알의 산맥으로 피난했기 때문에 지금 이야기하는 주제와는 상관이 없겠지만, 그래도 만약에 우리가 그들과 어떻게든 거래를 하는 관계였다면, 우린 그들이 어떻게 행동하는지 - 최소한 어떻게 행동[i]했었는지[/i]에 대한 신뢰할 수 있는 자료로써, 우리의 공식 기록들에 기댈 수 있었을 것이라는 건 변함이 없습니다.
+
+예시는 또 있습니다. 우리의 공식 기록들은 사사로운 감정을 배제하고 공정함을 유지하고 있고, 어떤 결정을 내릴 때 신뢰할 수 있는 사료로써 남아 있습니다.  우리의 선조들께선 기록에 영향을 끼칠 수 있는 주관은 결코 허용하지 않으셨습니다.  격렬한 정치적 운동이 일어났을 때에도 그 기록들의 완전함은 훼손되지 않았습니다.  이 기록들의 그 어떤 부분도 가볍게 폄하될 순 없습니다. "그 당시의 여당이 주도한 주관적이고 불공평한 서술이다" 라든가 "그 당시에 유행하던 시시한 사상운동의 영향을 받은 횡설수설일 뿐이다" 같은 주장은 통하지 않는다는 말입니다.
+
+(물론, 정말 다행스럽게도 잠깐 동안만 이어졌던 트라글라마르 왕의 통치는 예외입니다. 이게 왜 특수한 경우인지는 더 설명할 필요도, 더 논할 필요도 없다는 건 여러분 모두 아실 겁니다.)
+
+요점은, 공식 기록은 매우 훌륭하게 증명된 기록들이라는 것입니다.  선조들께선 모든 사건들을 철저하게 분석해 왔습니다 - 단 한 번의 예외를 제외하면.  선조들께선 특정한 행동 방침을 제시하는 것을 최대한 자제해 왔습니다 - 단 한 번의 예외를 제외하면 말입니다.  그분들께서 단 한 번, 주관적인 서술을 허용한 적이 있습니다. 직감을 담아낸 것 같은 내용이었지요.
+
+그분들께서 이 "충신" 과의 회동에 대해 어떻게 서술하셨는지 아십니까?  우선 그 회동이 어떻게 일어난 것인지 기록되어 있습니다 - 기괴한 생명체가 그 당시 평의회에 나타나서, 조그만 마법봉으로 폭발을 일으켜 에이알 행성의 중심에 가까이 갈 수 있을 정도로 깊은 구멍을 뚫어서 자신의 힘을 선보인 뒤 (그 마법봉은 아이들의 싸구려 장난감인 것처럼 평의회에게 넘겨줬다고 합니다), 자신에게 어떤 처치 곤란한 마법 유물을 넘겨주면 그 보답으로 무한에 가까운 에너지원을 선사하겠다고 제안했다 합니다. 그리고 그분들께서 그 제안을 거절하시자, 그 생명체가 했던 말이 그대로 받아 적혀 있습니다.  "상관없다. 나에겐 억겁의 시간이 있고 너희 종족이 스스로의 자만에 발이 걸려 부서지기를 기다릴 수 있다.  너희가 나의 구원을 받아들이지 않는다면, 난 다만 너희의 도시들이 폐허가 되었을 때 그 잔해를 살피리라."
+
+우리의 선조들께선 그 생명체가 자신에게 다시 연락할 수 있는 수단을 주었다고 하셨지만, 그것이 무엇인지 서술하길 명백히 거부하셨습니다. 우리가 지금 충신과 접촉하는 법을 알고 있는 건 매년 궁전 입구에 떨어져 있는 메시지들 때문입니다.  그리고 뒤이어, 이렇게 기록되어 있습니다.
+
+"이 충신이라는 자를 믿어선 안 된다. 우리가 그자를 마주했을 때, 우리의 내면 깊은 곳에 있는, 우리 자신보다도 오래된 무언가가, 그자는 그저... [i]잘못되었다[/i]고 말했다.  그자의 목적은 '눈' - 우리가 아직 다루지 못하는 엄청난 힘을 가진 유물이고, 이 거래는 우리들은 물론이고 이 세상 그 누구에게도 이득이 될 수가 없다.  결코 그자에게 눈을 넘겨선 안 되며, 눈을 파괴할 수단을 끊임없이 강구하라.  그자가 제시하는 제안은 그게 무엇이든지 받아들여선 안 된다.  만약 그대들이 불행하게도 그자를 마주하게 된다면, 우리가 왜 이런 말을 남겼는지 즉시 이해하게 될 것이다."
+
+최근 몇 년 들어 정치 담론이 다소... 저급해진 것 같습니다.  언쟁과 비난이 난무하는 근래의 토론들을 생각하면 과거의 평의원들께선 자신들의 경력만 생각하지 않았다는 걸, 격렬하게 감정을 표출하는 게 정치적인 가식이 아니었다는 걸 믿기 힘드실 수도 있습니다.  하지만 설령 그 평의원들께서 우리와 똑같이 이기적인 속물들이었다고 해도, 그분들께선 공식 기록에는 그런 사사로운 감정을 표출하지 않으셨습니다. 결코.
+
+전 우리의 선조들께서 공식 기록에 남기신 유일한 충고를 믿을 것입니다.  간청하건대, 여러분도 그분들의 뜻을 믿어 주십시오.]], "_t")
+t("excerpts from a Council meeting transcript (1)", "평의회 회의 속기록에서 발췌한 문서 (1)", "_t")
+t([[The Steam Council has been called to order, with Chief Councilor Tantalos presiding.  
+
+TANTALOS: "Greetings, my fellow- heh, now [i]lesser[/i] Councilors!  It is my pleasure to finally lead the proceedings.  The agenda for today..." Ruffles through papers. "Is irrelevant, for I have a solution to every malady mentioned therein.  The first order--"
+
+KASYROS: "With all due respect, Chief Councilor, the agenda--"
+
+TANTALOS: "Is.  [i]Irrelevant.[/i]  Tormak?  You've been scrying on potential sources of geothermal energy, would you care to inform the others where you see the most potential?"
+
+TORMAK: Sighs. "Right under the Kruk orcs, unfortunately.  It's a promising source for sure, the magma powering it hasn't drained out like it has under us, but digging there would...  well, we all know how quickly they turned construction tools into weapons to rival our own.  If we went in there with the state-of-the-art mining equipment necessary to--"
+
+TANTALOS: Laughter. "Mining equipment!  What manner of fool do you take me for?  Palaquie, tell me what's going through the minds of those silly little waist-height warriors, rummaging through the mainland for Orcish rebels." Holds up hand to silence Councilor Emeritus Kasyros. "This IS relevant, I assure you."
+
+PALAQUIE: "Discontent...  revolving around hidden, long-fermented resentment. Some want the Kruk exterminated, others imprisoned.  Neither can afford direct intervention, but some form of support will assuredly be available."
+
+TANTALOS: "So, with the right negotiation, we can get these tinies, who have [i]endless[/i] experience fighting Orcs, to assist us and make any sort of action in Kruk territory more manageable.  At a bare minimum, we can obtain weaponry that has long proved sufficient for slashing Orcish throats...  although we'll need it custom-fit for our size, naturally."
+
+PALAQUIE: "They have a race whose armor would work.  A tight fit, but sufficient."
+
+TANTALOS: "Even better!  And...  Kasyros, I'm going to let [i]you[/i] tell me what the people care about most.  I'm sure your bruises are adequate reminders of the citizens' will?"
+
+KASYROS: [Statement was deemed excessively profane and stricken from the record by 4-2 vote.]
+
+TANTALOS: "Such undignified conduct!  All because you can't accept that the public wants their steam back.  More than they want those filthy little greenskins around, more than they fear getting their hands dirty, more than they want [i]your[/i] way of doing things.  So!  It's resolved that we have much to gain from this, it's resolved that we have or can obtain the means to carry it out, and it's resolved that it is what the voting public desires.  I see no need for further debate.  Nashal, I'd like to speak to you after this about a wand.  Meeting adjourned."
+
+[At this time, Councilor Kasyros gave a lengthy speech before officially resigning from the Council.  It has been recorded in a separate document.] ]], [[평의원장 탄탈로스의 요청으로, 증기 평의회가 소집됨.  
+
+탄탈로스: "안녕하십니까, 동료 평의- 헤, 이제부턴 [i]부하[/i] 평의원 여러분이군요!  마침내 평의회를 지휘할 수 있게 되어서 정말 기쁩니다.  오늘의 의제는..." 서류를 뒤적거림. "필요 없습니다. 내게 이 모든 사태를 해결할 방안이 있으니.  가장 먼저 할 일은--"
+
+카시로스: "실례합니다만, 평의원장님, 의제는--"
+
+탄탈로스: "는.  [i]필요. 없다.[/i]  토르막?  그대는 지열 에너지를 얻어낼 수 있는 지점을 조사하고 있었지요?  가장 유망해 보이는 지점이 어디였는지 다른 이들에게 알려주시겠습니까?"
+
+토르막: 한숨. "불행하게도, 크룩 오크들의 발밑이었습니다.  우리 쪽이랑 다르게 열원인 마그마가 아직 빠져나가지가 않아서, 확실히 훌륭한 지점이긴 합니다.  하지만 거길 파내려면...  음, 그놈들이 얼마나 빠르게 건설장비들을 무기들로, 그것도 우리의 것들과 견줄만한 무기들로 바꿨었는지 다들 알고 계시겠지요.  우리가 그곳에 최첨단 굴착 장비를 끌고 간다면--"
+
+탄탈로스: 웃음. "굴착 장비라!  날 바보로 아는 겁니까?  팔라퀴, 그 우스꽝스러운 꼬마 기사들이 무슨 생각을 하고 있는 건지 이야기해줄 수 있습니까? 지금 오크 반란군들 때문에 본토를 샅샅이 뒤지고 있는 자들 말입니다."  한 손을 들어서 명예 평의원 카시로스를 조용히 시킴.  "확실하게 관계가 있는 이야기입니다. 보장하지요."
+
+팔라퀴: "불만입니다...  아주 오랫동안 몰래 쌓아두고 있던 원한이라고 해야 하나. 어떤 자들은 크룩 오크들을 절멸시키고 싶어 하고, 다른 자들은 그 오크들을 구금해 두고 싶어 합니다.  어느 쪽에도 직접적으로 관여할 수는 없지만, 약간의 지원 정도는 확실히 가능합니다."
+
+탄탈로스: "그럼, 협상을 잘 하면 오크들과 [i]끝도 없이[/i] 싸워왔던 그 난쟁이들이 우릴 돕도록 만들 수 있겠군요. 크룩의 영토를 좀 더 수월하게 처리할 수 있도록.  최소한 그 난쟁이들이 직접 쓰면서 성능을 입증한, 오크 놈들의 목을 잘라낼 수 있는 무기 정도는 얻어낼 수 있을 겁니다...  우리 몸에 맞춘 크기로 개조를 해야겠지만."
+
+팔라퀴: "난쟁이들 중엔 갑옷을 잘 만드는 종족도 있습니다.  몸에 꽤 끼지만, 못 쓸 정도는 아닙니다."
+
+탄탈로스: "더 좋지요!  그리고... 카시로스, [i]그대가[/i] 우리 동포들이 가장 걱정하는 것을 이야기해 주십시오.  그대 몸의 멍 자국들을 보면 우리 시민들의 뜻이 바로 떠오를 거라고 생각합니다만?"
+
+카시로스: [투표 결과 4대 2로 해당 발언은 지나치게 불경한 것으로 간주되었고 기록에서 삭제됨.]
+
+탄탈로스: "어떻게 그런 품위 없는 짓을!  다 그대가 증기를 되찾고자 하는 대중들의 뜻을 받아들이지 못하기 때문입니다.  대중들은 자신들의 증기를 되찾는 게 그 추잡한 초록이들보다도 더, 자신들의 손을 더럽히는 것보다도 더, 그리고 [i]그대의[/i] 이념보다도 훨씬 더 중요하단 말입니다.  그러므로!  이 계획으로 얻을 수 있는 게 많다고 결정되었고, 이 계획을 수행할 방법도 이미 갖고 있거나, 얻어낼 수 있다는 것으로 결정되었으며, 이 계획이 곧 대중들이 원하는 것이라고 결정된 겁니다.  이 이상의 토의는 필요 없다고 봅니다.  나샬, 나중에 마법봉에 대해서 이야기해 주었으면 합니다.  이것으로 폐회를 선언합니다."
+
+[이 때, 평의원 카시로스가 평의원직을 공식적으로 사임하기 전에 장황한 연설을 남겼음.  그 전문은 별도로 기록되어 있음.] ]], "_t")
+t("excerpts from a Council meeting transcript (2)", "평의회 회의 속기록에서 발췌한 문서 (2)", "_t")
+t([[(Ink has been spilled on this transcript - you can only read certain passages.)
+
+???: "[...]ame me for this!  YOUR mechanics examined that airship, YOUR equipment was used to repair it, and it's YOUR fault it went down!"
+
+NASHAL: "Yes, and I told you to call the attack off the moment I heard the news - the Loyalist's wand as a fire-support tool was far too valuable to conduct the invasion without it.  But no, Palaquie had to insist on going right then--"
+
+PALAQUIE: "My visions do not lie.  It was the best way forward.  Our odds of success at that point, low as they were, were still better than if we had let Pendor's inflexible, time-dependent plan sit and--"
+
+PENDOR: "DON'T YOU EVEN START, YOU YETI-LOVI--[...]"
+
+[...]
+
+Motion made to record the statement that Councilor Pendor would not know decent equipment if it shot or stabbed him in the face passed, 3-1, with Councilor Tantalos abstaining.
+
+Motion made to record the statement that Councilor Tormak's robes smell of absinthe and vagrants passed, 3-1, with Councilor Tantalos abstaining.
+
+Motion made to begin an official inquiry passed 3-1, with Councilor Tantalos abstaining.  The first order of business at the next session will be determining whether or not Councilor Nashal's state-of-the-art mining and extracting equipment is capable of extracting her head from her--
+
+[...]
+
+TANTALOS: "If you are all quite finished with this rubbish...  How bad is the situation, exactly?  I want details and facts, not blame."
+
+TORMAK: "You don't want blame because this whole thing was YOUR idea!  It's YOUR fault we--"
+
+Motion to censure Councilor Tantalos for defenestrating Councilor Tormak has failed, 1-1 (tie broken by Chief Councilor status), with Palaquie, Nashal, and Pendor abstaining.
+
+[...]
+
+TANTALOS: "So, a few wastrels in the marketplace are gone, and the Kruk have moved on to the mainland.  As far as I am concerned, they are not presently our responsibility - these 'Allied Kingdoms' and 'Sunwall' folk can deal with them.  Thanks to Pendor's scouts, we have a weapon we can point at the Kruk Pride homeland as a deterrent, which should buy us even more time.  We should use this time to bolster our defenses...  and consider additional options.  Meeting adjourned."
+
+PALAQUIE: "Additional options?"
+
+TANTALOS: "The meeting has been adjourned.  You should be training our necropsychs, Councilor."]], [[(이 기록에는 잉크가 엎질러져 있습니다. 몇몇 부분만 읽을 수 있습니다.)
+
+???: "[...]걸 날 탓하겠다고?  비행선을 점검했던 건 "너의" 정비공이었고, 수리에 쓴 것도 "너의" 장비였으니, 그게 추락한 건 "너의" 잘못이란 말이다!"
+
+나샬: "그렇죠, 그리고 내가 그 소식을 듣자마자 당장 공격을 중지하라고 당신한테 이야기했었습니다. 충신이 주었던 마법봉은 화력 보조용으로 굉장히 우수해서, 그것 없이는 침공을 해선 안 된다고 말입니다.  하지만 팔라퀴가 지금 공격할 수밖에 없다고 밀어붙였고--"
+
+팔라퀴: "내 예측은 틀리지 않습니다.  그게 최선이었다고요.  그땐 확실히 성공 확률이 낮았지만, 그래도 펜도르가 구상했던 뻣뻣하고 촉박한 계획에 비하면 훨씬 나은--"
+
+펜도르: "말도 꺼내지 마라, 이 더러운 예티 성애자년--[...]"
+
+[...]
+
+"평의원 펜도르는 눈앞의 기계가 자길 쏘는 기계인지 칼로 찌르는 기계인지 분간하지 못한다" 라는 발언을 기록하자는 동의안이 발의됨, 투표 결과 3대 1로 가결됨, 평의원 탄탈로스는 기권함.
+
+"평의원 토르막의 로브에선 압생트 냄새랑 부랑자 같은 냄새가 난다" 는 발언을 기록하자는 동의안이 발의됨, 투표 결과 3대 1로 가결됨, 평의원 탄탈로스는 기권함.
+
+공식 질의를 시작하자는 동의안이 발의됨, 투표 결과 3대 1로 가결됨, 평의원 탄탈로스는 기권함.  다음 회의의 첫 의제는 "평의원 나샬의 최첨단 굴착 장비와 추출 장비가 그녀의 머리를 몸통에서 추출해낼 수 있는가" 로 결--
+
+[...]
+
+탄탈로스: "여러분이 이 추잡한 짓거릴 충분히 했다고 생각한다면... 지금 상황이 정확히 얼마나 나쁜 겁니까?  여러분을 비난하고 싶은 게 아니라, 사실을 자세히 알고 싶을 뿐입니다."
+
+토르막: "당연히 비난하고 싶지 않겠지, 이건 다 "당신" 계획이니까!  우리가 이 꼴이 난 건 전부 당신 탓이--"
+
+평의원 탄탈로스가 평의원 토르막을 창문 밖으로 내던지려 한 것을 견책하자는 동의안이 발의됨, 투표 결과 1대 1로 부결됨 (평의원장의 권한으로 동률이 깨짐), 평의원 팔라퀴, 나샬, 펜도르는 기권함.
+
+[...]
+
+탄탈로스: "그러니까, 상업지구에 있던 게으름뱅이 몇 명이 죽었고, 크룩 놈들이 본토로 진출했다는 것이군요.  제 생각엔, 당장은 우리가 신경쓰지 않아도 될 것 같습니다 - 그 '왕국연합' 과 '태양의 장벽' 친구들이 놈들을 상대할 테니.  펜도르의 정찰대 덕분에, 우린 크룩 긍지 놈들의 본거지를 공격할 수 있는 무기를 손에 넣을 수 있었습니다. 이건 억지력으로 작용하여, 우리에게 시간을 좀 더 벌어주겠지요.  그 시간 동안 우리의 방어를 더 견고히 해야 합니다... 다른 선택지도 고려해 봐야겠고요.  폐회를 선언합니다."
+
+팔라퀴: "다른 선택지라고요?"
+
+탄탈로스: "이번 회의는 이걸로 끝입니다.  이제 염령술사들을 훈련시켜야 할 겁니다, 팔라퀴."]], "_t")
+t("palace of fumes", "연기의 궁전", "newLore category")
 
 
 ------------------------------------------------
@@ -2868,7 +3094,7 @@ t("#LIGHT_GREEN#* Council Member Tormak is dead.#WHITE#", "#LIGHT_GREEN#* 평의
 t("#LIGHT_GREEN#* Council Member Pendor is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 펜도르는 죽었습니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* Council Member Palaquie is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 팔라퀴는 죽었습니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 탄탈로스는 죽었습니다.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "#LIGHT_GREEN#* 아트모스 평의회를 박살내고 부족을 파괴했습니다.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "#LIGHT_GREEN#* 아트모스 평의회를 박살내고 부족을 산산조각냈습니다.#WHITE#", "_t")
 t("What is all this noise about!", "이게 무슨 소란이냐!", "_t")
 t("Tantalos! What have you done!", "탄탈로스! 대체 무슨 짓을 한 거냐!", "_t")
 
@@ -2955,7 +3181,7 @@ section "game/dlcs/tome-orcs/data/quests/weissi.lua"
 t("Mystery of the Yetis", "예티들의 수수께끼", "_t")
 t("You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "잘 보존된 예티 근육을 찾아냈습니다. 누군가는 이것에 관심을 보일 것입니다.", "_t")
 t("For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "예티 근육들을 잃어버린 도시의 폐허에 있는 염동력 기계에게 넘기면 엄청난 보상을 받게 될 겁니다.", "_t")
-t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* 이상한 염동력 기계를 도왔고, 모든 보상을 얻어냈습니다. 여전히 잘못된 일을 한 것 같은 느낌이 듭니다...", "_t")
+t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* 이상한 염동력 기계를 도왔고, 모든 보상을 얻어냈습니다. 여전히 잘못된 일을 해 버린 것 같은 느낌이 듭니다...", "_t")
 
 
 ------------------------------------------------

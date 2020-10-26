@@ -4277,7 +4277,7 @@ I have deemed you worthy of my 'interest'. I will watch your future steps with i
 You may rest here, and when you are ready I will send you back to the material plane.
 But do not abuse my help. I am not your servant, and someday I might just let you die.
 As for your probable many questions, they will stay unanswered. I may help, but I am not here to explain why.]], [[#LIGHT_GREEN#*인간처럼 생겼지만 '무'로 채워져 있는 형체가 눈 앞에 서 있습니다. 당신을 응시하고 있는 것 같습니다.*#WHITE#
-네가 죽기 직전의 순간, 널 이곳으로 옮긴 것은 나다. 난 에이돌론이다.
+네가 죽기 직전, 널 이곳으로 옮긴 것은 나다. 난 에이돌론이다.
 난 네가 나의 '흥미' 에 걸맞은 자라고 생각해 왔다. 난 네가 앞으로 걸어갈 길을 지켜볼 것이다.
 넌 이곳에서 휴식을 취해도 되며, 준비가 충분히 되었다면 널 물질 차원으로 돌려보내 주마.
 하지만 내가 항상 도움을 줄 것이라 여기지 말아라. 난 너의 하인이 아니며, 또한 난 언젠가 네가 죽는 것을 지켜볼 것이다.
@@ -14674,6 +14674,7 @@ t("the perfect killing device", "완벽한 살해 장치", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/lore/misc.lua"
 
+t("tract of destruction", "파괴의 장", "_t")
 t([[#{bold}#Tract of Destruction#{normal}#
 
 Though armies would fall before the Spellblaze's might, though forests were razed and the skies bled red with fire, they always felt that the earth would endure. It seemed eternal, unmoving. Not even the fury of the Spellblaze could hope to destroy it.
@@ -14682,11 +14683,12 @@ How wrong they were. The Nalorën people, long secluded, were prepared to fend o
 
 The lands of the Nalorën had sunk beneath the waves.]], [[#{bold}#Tract of Destruction#{normal}#
 
-마법폭발의 위력 속에 군대들이 무너지고ㅡ 숲이 불타 하늘이 핏빛으로 물들지라도, 대지는 결국 견뎌낼 것이라고 사람들은 생각했습니다. 대지는 영원하고 불멸하다. 날뛰는 마법폭발의 영향도 대지를 파괴할 수는 없을 것이다.
+마법폭발의 위력 속에 군대들이 무너지고 숲이 불타고 하늘이 화염으로 붉게 물들지라도, 대지는 결국 견뎌낼 것이라고 사람들은 생각했습니다. 대지는 흔들림 없이 영원할 거라고 말입니다. 마법폭발의 격노도 대지를 파괴할 수는 없을 것이라 말이죠.
 
-얼마나 틀린 생각이었는지... 날로렌 인들은 오랫동안 은둔해 살면서 온갖 위협에 대비해 왔지만, 대지 그 자체가 무너져 내리는 광경을 멈추는 것이 가능이나 하겠습니까? 한 순간, 끔찍하게 고향이 산산조각나고 들판과 숲이 가라않아 바다가 되는 광경을 보면서 날로레 인들은 그저 지켜볼 수밖에 없었습니다. 마법폭발이 세상의 사람들만이 아니라 세상 자체를 갈기갈기 찢어놓는 것을...
+얼마나 틀린 생각이었는지. 날로레 사람들은 오랫동안 은둔해 살면서 온갖 위협에 대비해 왔지만, 대지 그 자체가 무너져 내리는 것을 멈추는 것이 가능이나 하겠습니까? 한 순간, 고향이 끔찍하게 산산이 조각나고 들판과 숲이 가라앉아 바다가 되는 광경을 보면서 날로레 사람들은, 그저 지켜볼 수밖에 없었습니다. 그리고 날로레 사람들은 깨달았습니다, 마법폭발이 사람들뿐만 아니라 세상 자체를 갈기갈기 찢어놓는다는 것을 말이죠.
 
-파도가 몰려와 날로레의 땅을 집어삼켰습니다.]], "_t")
+이윽고 파도에 쓸려 날로레의 땅은 수면 아래로 가라앉았습니다.]], "_t")
+t("tract of anarchy", "혼돈의 장", "_t")
 t([[#{bold}#Tract of Anarchy#{normal}#
 
 For the years following the cataclysm, chaos reigned. Their culture, their way of life, it was as broken and fractured as the land itself. Nalorë civilisation was reduced to a few isolated and feeble settlements, scratching out meagre existences as land, mind and body was warped in both shape and spirit.
@@ -14695,23 +14697,27 @@ Faced with the idea of their great race failing – another victim of the Spellb
 
 The Nalorën received no answer.]], [[#{bold}#Tract of Anarchy#{normal}#
 
-혼돈으로 가득찬 재앙의 시대를 지나오면서. 그들의 문화와 삶의 방식은 대지가 망가진 것처럼 무너지고 말았습니다. 날로레 문명은 소수의 작고 고립된 정착지만이 남을 정도로 쇠퇴했습니다. 심지어 그들의 정신과 육체마저 흐트러졌습니다.
+혼돈이 지배하는 대재앙의 시대를 지나오면서, 그들의 문화와 삶의 방식은 망가진 대지처럼 무너지고 부서지고 말았습니다. 날로레 문명은 소수의 작고 고립된 정착지만이 남을 정도로 쇠퇴했습니다. 심지어 그들의 정신과 육체마저 뒤틀려졌습니다.
 
-위대한 종족-역사서의 각주에 의하면, 또 다른 마법폭발의 희생자이다-이 붕괴해가는 현실을 마주하자, 날로레들은 엘프 형제들-샬로레와 탈로레를 말합니다-에게 도움을 요청했습니다. 자기들끼리 '사소한'언쟁을 벌이던 인간과 하플링에게도 도와달라고 간청했습니다. 
+위대한 이들 종족은 멸종의 현실을 직면하자 -역사서의 각주에 의하면, 또 다른 마법폭발의 희생자인- 엘프 형제들인 샬로레와 탈로레에게 도움을 요청했습니다. 자기들끼리 '사소한' 언쟁을 벌이던 인간과 하플링에게도 도움을 간청했습니다. 
 
-그리고 아무 도움도 받지 못했습니다.]], "_t")
+그러나 아무런 도움도 받지 못했습니다.]], "_t")
+t("tract of acceptance", "수용의 장", "_t")
 t([[#{bold}#Tract of Acceptance#{normal}#
 
 Betrayed by the Shalorën, wilful and destructive, and the Thalorën, aloof and suspicious, a long, seething silence fell over the remaining Nalorën people. It was during this period of grim introspection that salvation was suddenly and unexpectedly granted. The ancient Sher'Tul magicks, long pondered over by the land's mystics, would bear fruit at last.
 
 The same force that destroyed the Nalorën would save them. Through the Sher'Tul's magic, the Nalorën became able to breathe water as if it was air. Their bodies became adapted for existence under the waves, their legs becoming long, snake-like tails. Such drastic metamorphosis would naturally cause horror, you may expect. However, the Nalorën saw the possibilities their new forms provided: Their sunken lands were their own once again. Their homes would be rebuilt, their civilisation reborn. Nalorën no more, the denizens of the sunken kingdom would come to be known as 'nagas'...]], [[#{bold}#Tract of Acceptance#{normal}#
 
-고집센 샬로레들과 신중하고 의심많은 탈로레들에게 배신당하고, 날로레 생존자들은 오랬동안 침묵 속에 속앓이하며 고통받을 수밖에 없었습니다. 암울하게 하루 하루를 보내던 중, 구원은 갚자기 찾아왔습니다. 오랜기간 수수께끼였던 쉐르'툴의 고대 마법이 마침내 열매를 맺은 것입니다.
+고집세고 파괴적인 샬로레들과 신중하고 의심많은 탈로레들에게 배신당하고, 날로레 생존자들은 오랬동안 침묵 속에 속앓이하며 고통받을 수밖에 없었습니다. 암울하게 하루 하루를 보내던 중, 구원은 갑작스럽게 또 예상치못하게 찾아왔습니다. 오랜기간 수수께끼였던 쉐르'툴의 고대 마법이 마침내 열매를 맺은 것입니다.
 
-날로레를 파멸시켰던 힘이 이번에는 구원의 손을 내밀었습니다. 쉐르'툴의 마법을 통해 날로레들은 물 속에서 숨쉴 수 있게 되었습니다. 몸은 파도 아래의 생활에 적응하였고, 다리는 뱀같이 긴 꼬리가 되었습니다. 갑작스럽게 큰 변이가 일어나면 보통 놀라고 두려워하기 마련입니다. 그래도 날로레들은 새로운 육체에서 가능성을 보았습니다: 이제 가라앉은 땅은 다시 그들의 것이 되고, 집을 다시 짓고 문명이 일어설 것입니다. 날로레는 더 이상 없습니다. 이 가라않은 왕국의 거주자들은 '나가'라고 불리게 됩니다...]], "_t")
+날로레를 파멸시켰던 힘이 이번에는 구원의 손길을 내밀었습니다. 쉐르'툴의 마법을 통해 날로레들은 물 속에서 숨 쉴 수 있게 되었습니다. 몸은 파도 아래의 생활에 적응하였고, 다리는 뱀같이 긴 꼬리가 되었습니다. 갑작스럽게 큰 변이가 일어나면 보통 놀라고 두려워하기 마련입니다. 그러나 날로레들은 새로운 육체에서 가능성을 보았습니다: 이제 가라앉은 땅은 다시 그들의 것이 되고, 집을 다시 짓고 문명이 일어설 것입니다. 날로레는 더 이상 없습니다. 이 가라앉은 왕국의 거주자들은 '나가'라고 불리게 됩니다...]], "_t")
+t("temple of creation", "창조의 사원", "newLore category")
+t("personal note (Slasul)", "개인적인 일지 (슬라슐)", "_t")
 t([[At long last, the temple finally reveals its secrets to me, and my plans can be set in motion. Lithe in form, faultless in combat, unmatched in speed both above the waves and beneath... nature couldn't have hoped to create such a race as nagas. With the Temple of Creation now open to me however, we may become so much more. With my guidance, my careful shaping of the Sher'Tul's magicks, under my expert hand our great race shall soon reach its zenith. A new tract shall soon be written: The Tract of the Devourer.
-]], [[오랜 기간끝에, 드디어 신전이 비밀을 드러내는구나 이제 나의 계획을 실행할 수 있겠다! 유연한 형상과 무결점의 전투능력, 파도 위와 아래에서 누구도 따라올 수 없는 속도까지...  자연은 나가와 같은 이런 종족을 만들 수 없었다. 그러나 창조의 신전이 개방되었으니, 우리는 더 나아가리라. 나의 인도 아래, 나의 섬세한 쉐르'툴 마법에 의해서 우리 위대한 종족은 정점이 되리라. 새로운 길이 쓰여질 것이니 이것이 곧 : The Tract of the Devourer.
+]], [[마침내, 드디어 신전이 내게 비밀을 드러내는구나 이제서야 나의 계획을 실행할 수 있겠다! 유연한 형상과 무결점의 전투능력, 파도 위와 아래에서 누구도 따라올 수 없는 속도까지... 자연은 나가와 같은 종족을 만들 수 없었다. 그러나 창조의 신전이 개방되었으니, 우리는 더 나아가리라. 나의 인도 아래, 나의 섬세한 쉐르'툴 마법에 의해서 우리 위대한 종족은 정점이 되리라. 새로운 장이 쓰여질 것이니 이것이 곧 : '포식자의 장'이 되리라 .
 ]], "_t")
+t("letter to Rolf (1)", "롤프씨에게 보내는 편지 (1)", "_t")
 t([[Dear Rolf,
 
 I hope this letter finds you well. I must apologise for this recent dry spell in our communication; my adventures across Maj'Eyal have taken many exciting and perilous turns as of late. What turns do I speak of, you ask? I know how you delight in reading the accounts of my exploits, so I shall waste no further time on this pre-amble.
@@ -14721,16 +14727,17 @@ Imagine, if you will, a wolf. Imagine a beastly wolf, a wolf with strength, fero
 And indeed, would there have been much glory in killing such a creature? True, I would have had enough to fur to line each and every boot and hat in Derth, but legends must live on. They are what give this world its very spirit!
 
 With eager anticipation for your reply,
-Weisman]], [[Dear Rolf,
+Weisman]], [[롤프씨에게,
 
-이 편지가 잘 도착했으면 좋겠군요. 최근 저의 연락이 뜸한 것에 대해 사과하는 것부터 시작해야 하겠군요.; 마즈'에이알에서의 저의 여정은 최근 여러 흥미롭고 위험한 일이 있었답니다. 아마 무슨 일이 있었을까, 라고 묻고 싶겠죠? 당신이 제 여정의 기록을 읽어 나가기를 아주 좋아한다고 알고 있습니다. 잡소리는 집어치우고 바로 시작하죠.
+이 편지가 잘 도착했으면 좋겠군요. 최근 저의 연락이 뜸한 것에 대해 사과하는 것부터 시작해야 하겠네요; 마즈'에이알에서의 저의 여정은 최근 여러 흥미롭고 위험한 일이 있었답니다. 아마 어떤 일이 있었는지 묻고 싶겠죠? 당신이 제 여정의 기록을 읽어 나가기를 아주 좋아한다고 알고 있습니다. 잡소리는 집어치우고 바로 시작하죠.
 
-한 번 늑대 한마리를 상상해 보세요. 흉포하고 강력하며 따르는 무리와 함께 살에 굶주린 그런 늑대를 말이죠. 아마 당신도 이런 "와르그"와 관련해 조금 경험한 바가 있으실 겁니다. 주민들은 이들을 무서워하고 이놈들을 불러모으지 않토록 주의하지요. 이제... 곰의 크기를 한 늑대를 상상해보세요. 제가 데르스 근처를 여행할 때 이 거대하고 경이로운 상대를 만납답니다. 진짜로요. 이 녀석은 제 칼날과 길이가 비슷할 정도로 거대한 송곳니를 가지고 있었죠! 이 강력한 우두머리 늑대와 숨어있던 이리 떼와 전 싸웠답니다. 안타깝지만 그 짐승을 죽이지 못했답니다. 그래도 이걸 기억해 주세요. 야생의 흉포한 괴물과 맞서 살아남았다는 자체만으로도 명예로운 일이라는 걸요!
+한 번 늑대 한마리를 상상해 보세요. 흉포하고 강력하며 늑대 한무리를 이끌고 다니는 살점에 굶주린 그런 늑대를 말이죠. 아마 당신도 이런 "와르그"와 관련해 조금 경험한 바가 있으실 겁니다. 주민들은 이들을 무서워하고 이놈들을 불러모으지 않토록 주의하지요. 이제... 곰의 크기를 한 늑대를 상상해보세요. 제가 데르스 근처를 여행할 때 이 거대하고 경이로운 상대를 만납답니다. 진짜로요. 이 녀석은 제 검의 칼날과 길이가 비슷할 정도로 거대한 송곳니를 가지고 있었죠! 이 강력한 우두머리 늑대와, 숨어있던 이리 떼와 전 싸웠답니다. 안타깝지만 그 짐승을 죽이지 못했답니다. 그래도 이걸 기억해 주세요. 야생의 흉포한 괴물과 맞서 살아남았다는 자체만으로도 명예로운 일이라는 걸요!
 
-그리고 당연히, 이 괴물을 죽이는 것만큼 영광스러운 일이 있을까요? True, I would have had enough to fur to line each and every boot and hat in Derth, 하지만 전설은 남아있어야죠. 전설들이 이 세상에 영혼을 불어넣어 준답니다!
+그리고 당연히, 이 괴물을 죽이는 것만큼 영광스러운 일이 있을까요? 아마 없을겁니다, 그리 했다면 저는 데르스의 모든 부츠와 모자에 안감으로 덧댈 수 있을 만큼 충분한 모피를 구할 수 있었겠지만, 전설은 남아있어야죠. 전설들이 이 세상에 영혼을 불어넣어 준답니다!
 
 당신의 답장을 기다리며,
-Weisman]], "_t")
+와이즈만이]], "_t")
+t("letter to Weisman (1)", "와이즈만에게 보내는 편지 (1)", "_t")
 t([[Dear Weisman,
 
 Ah! What feelings your last letters inspired within me... primarily mirth, with a good amount of scorn! Must you continuously assail me with tale after tale of your waving of wooden swords and pestering of toothless mongrels? Allow me to recount your "legends" in a much more succinct manner: One day, I failed to kill a dog. Such bravery! Such pluck and derring-do!
@@ -14739,15 +14746,16 @@ Your petty escapades are made ever more insignificant by the trials I myself hav
 
 And yet I live. Weisman, I sincerely hope that my letter has revealed to you your folly. Only when you have faced true danger can you call yourself an adventurer. Bore me with your tales no longer.
 
-Rolf]], [[Dear Weisman,
+Rolf]], [[와이즈만에게,
 
-하! 네 마지막 편지가 내게 일으킨 감정이란... 주로 웃고, 경멸하기에 충분했어! 네 그 나무 쪼가리 칼로 이빨없는 호랑이를 때리는 듯한 이야기를 끝도 없이 나한테 전해야 하겠어? 내가 한 번 네 '전설들'을 좀 더 그럴듯하게 써볼게: 어느 날, 저는 강아지를 죽이려다가 실패했어요. 이렇게 용맹스러울 때가 있다니!
+아! 네 마지막 편지가 내게 일으킨 감정이란... 기본적으로 웃기고, 경멸하기에도 충분했어! 네 그 나무 쪼가리 칼로 이빨 없는 똥개를 성가시게 구는 이야기를 끝도 없이 나한테 전해야겠어? 내가 한 번 네 '전설들'을 좀 더 그럴듯하게 써볼게: 어느 날, 저는 강아지를 죽이려다가 실패했어요. 이렇게 용맹스러울 때가 있다니!
 
-네 쓰잘데기 없는 장난은 말이야, 내가 최근 뛰어넘은 시련들에 비하면 아무것도 아니야. 수일 전에 나는 오래된 숲을 걷고 있었지(니가 말한 데르스 외곽이야, Weisman! 불쌍하게도 넌 공포에 사로잡혔겠지?), 불행하게도 나는 흉물스럽고 찐득이는 공포에 맞서게 되었지! 거대 개미의 혐오스러운 조상임이 틀림없었지! 뒤에 어마무시한 무리가 뒤따르니까, 마치 대지 전체가 나를 집어삼키려고 덮쳐오는 것 같았어!
+네 쓸데없는 장난은 말이야, 내가 최근 뛰어넘은 시련들에 비하면 아무것도 아니야. 수일 전에 나는 오래된 숲을 걷고 있었지(네가 말한 데르스 외곽이야, 와이즈만! 불쌍하게도 넌 이미 겁에 질렸겠지?), 불행하게도 나는 흉물스럽게 부플어 오른 채 즙을 흘리며 재잘거리는 공포에 맞서게 되었지! 거대 개미의 혐오스러운 조상임이 틀림없었지! 뒤에 어마무시한 무리가 뒤따랐으니까 말이야, 마치 대지 전체가 나를 집어삼키려고 덮쳐오는 것 같았어!
 
-그런 일을 겪었지만 난 살아있어. Weisman, 정말로 내 편지가 네 어리석음을 일깨워 줬으면 좋겠다. 모험가라는 건 말이야, 진정한 위험과 마주쳐본 적이 있어야 스스로 칭할 수 있는거야. 더이상 네 헛소리로 짜증나게 하지마라.
+그런 일을 겪었지만 난 살아있어. 와이즈만, 정말로 내 편지가 네 어리석음을 일깨워 줬으면 좋겠다. 모험가라는 건 말이야, 진정한 위험과 마주쳐본 적이 있어야 스스로 칭할 수 있는 거야 더이상 네 헛소리로 날 짜증 나게 하지 마라.
 
-Rolf]], "_t")
+롤프가]], "_t")
+t("letter to Rolf (2)", "롤프씨에게 보내는 편지 (2)", "_t")
 t([[Dear Rolf the Antslayer,
 
 Ha! Such trials you have overcome! Forget dragons and demons, here we have a hero who has survived against ants! I shall deliver this joyous news to Last Hope with all haste - perhaps there shall be a parade in your honour!
@@ -14757,16 +14765,17 @@ I hope you registered the sarcasm in my previous words, but I obviously cannot e
 Such a magnificent sight! With wings of fire, leaving the air itself hissing and smouldering in its wake, I could only watch with rapt amazement as it alighted on a rocky outcrop mere yards away from me, the stone beneath its talons warping from its tremendous heat. It was at that moment, Rolf, that I realised that this was what being an adventurer was about - there is always more in this world of ours to amaze and astonish us.
 
 Learn from my experiences,
-Weisman]], [[Dear Rolf the Antslayer,
+Weisman]], [[친애하는 개미 학살자 롤프씨에게,
 
-와! 굉장한 시련을 뛰어넘으셨군요! 용이나 악마보다 대단한 개미 몇마리를 상대하고 살아남으신 영웅님이 여기 계시답니다! 최대한 빨리 마지막 희망에 이 즐거운 소식을 전해야 겠어요 - 이 소식을 듣고 개선식을 해줄지도 몰라요!
+하! 굉장한 시련을 뛰어넘으셨군요! 용이나 악마보다 대단한 개미 몇 마리를 상대하고 살아남으신 영웅님이 여기 계신 답니다! 최대한 빨리 마지막 희망에 이 즐거운 소식을 전해야겠어요 - 이 소식을 듣고 개선식을 해줄지도 몰라요!
 
-내가 한 말이 조금 비꼬는 의도가 있다는 걸 알아차렸으면 좋을텐데, 뭐 곤충이랑 씨름하는 사람한테서는 그 정도도 무리일려나? 내가 진정한 모험가에 걸맞은 짐승을 만난 이야기를 해줄게요. 남쪽으로 여행했을 적에, 밤이 되어서 버려진 산길을 걷고 있었죠. 내일 찾을지도 모르는 보물과 시련을 상상하면서 말이에요. 그런데 갑자기 밝은 빛무리가 나타난거에요! 빛이 대낮처럼 내 주변을 비추더라고, 그 때 내가 이놈을 처음 보게됬죠.
+제가 한 말이 조금 비꼬는 의도가 있다는 걸 알아차리시면 좋을 텐데, 뭐 곤충이랑 씨름하는 사람한테서는 그 정도도 무리이려나? 제가 진정한 모험가에 걸맞은 짐승을 만난 이야기를 해줄게요. 남쪽으로 여행했을 적에, 밤이 되어서 버려진 산길을 걷고 있었죠. 내일 찾을지도 모르는 보물과 시련을 상상하면서 말이에요. 그런데 갑자기 밝은 빛무리가 나타난 거에요! 전 잠깐 그 빛 속에 서 있었죠, 그 빛이 제 주변을 마치 대낮같이 밝히더랍니다, 그때 제가 이놈을 처음 보게 됐죠.
 
-굉장한 광경이었어요! 불타는 날개를 가진 이놈은 사방을 뱀 소리와 증기로 가득 채웠죠! 불과 몇 야드 앞에서 엄청난 열을 내뿜는 이놈을 그저 바라보기만 할 수 밖에 없었어요. Ralf, 그 순간 모험가가 된다는 것이 무었인지 깨달아버렸어요 - 세상에는 놀랍고 까무라칠만한 놈들이 항상 있다는 걸요.
+굉장한 광경이었어요! 불타는 날개를 가진 이놈은 주변의 공기를 쉬익거리고 끓어오르게 했죠! 불과 몇 야드 앞에서 엄청난 열을 내뿜는 이놈을 그저 바라보기만 할 수밖에 없었어요. 롤프, 그 순간 모험가가 된다는 것이 무엇인지 깨달아버렸어요 - 세상에는 놀랍고 까무러칠만한 놈들이 항상 있다는 걸요.
 
-내 경험에서 뭐라도 좀 배우셨으면 좋겠는데,
-Weisman]], "_t")
+제 경험에서 뭐라도 좀 배우셨으면 좋겠는데 말입니다,
+와이즈만이]], "_t")
+t("letter to Weisman (2)", "와이즈만에게 보내는 편지 (2)", "_t")
 t([[Dearest Weisman,
 
 Sorry to cut your birdwatching session short, but I must bring this badinage to an end. I have tolerated your ridiculous pomposity and false heroics long enough. At first, I took your over-inflated tales of bothering local wildlife with good humour but now I realise, with dread, that you are sincere; you believe your pathetic wanderings to be the stuff of legend.
@@ -14774,14 +14783,15 @@ Sorry to cut your birdwatching session short, but I must bring this badinage to 
 Well, no more. We shall meet seven days from now in Derth's town square. Come prepared for travel. The number of rumours claiming that a monster has taken up residence within the ruins just north of town have grown to the point where they cannot be considered rumours anymore. You shall come with me, face this creature alongside me, and experience intimately the vast difference between your skills and my own. If we're lucky, you will learn this lesson unscathed, but I fear that such a trial may cost you a limb or two.
 
 Prepare yourself, if you've the courage,
-Rolf]], [[Dearest Weisman,
+Rolf]], [[친애하는 와이즈만에게,
 
-네 새관찰 시간을 방해해서 미안해, 그래도 이런 헛소리는 끝을 내야겠더라고. 그 거만하고 거짓말 덩어리인 영웅담은 질릴만큼 들었어. 처음에는, 과장된 산불구경이야기일 뿐이고, 웃음거리는 된다고 생각했어. 하지만 말이야, 네가 진짜로 불쌍하게 돌아다니는 것이 전설의 이야기가 될거라고 믿는거 같은데. 이건 좀 무섭더라.
+네 새 관찰 시간을 방해해서 미안해, 그래도 이런 농담은 끝을 내야겠더라고. 그 거만하고 거짓말 덩어리인 영웅담은 질릴 만큼 들었어. 처음에는, 과장된 산불구경 이야기일 뿐이고, 웃음거리는 된다고 생각했어. 하지만 말이야 난 깨닫고 말았어 두려운 무언가를 말이야, 네가 진짜로 불쌍하게 떠돌아다니는 것이 전설의 이야기가 될 거라고 믿는 거 같구나.
 
-그니까 이젠 그만해. 데르스의 마을광장에서 7일 후에 만나자. 와서 여행준비하라고. 예전에 마을 북쪽 거주지를 괴물들이 점령했다는 소문이 점점 불어나더라고, 이제는 단순히 소문으로 치부할 수 없을 것 같아. 와서 함께 가서, 이 괴물들과 같이 맞서자. 내 옆에서 나와 너의 기술의 차이를 똑똑히 보도록해. 우리가 운이 좋으면, 다치지 않고 뭔가 얻어갈 수 있을거야. 네가 팔다리 몇 쪽 잃을 것 같아서 걱정되지만 말이야.
+그니까 이젠 그만해. 데르스의 마을광장에서 7일 후에 만나자. 와서 여행준비 하라고. 예전 마을 북쪽 거주지의 폐허를 괴물들이 점령했다는 소문이 점점 불어나더라고, 이제는 단순히 소문으로 치부할 수 없을 것 같아. 와서 함께 가서, 이 괴물들에 함께 맞서자. 내 옆에서 나와 너의 기술의 차이를 똑똑히 보도록 해. 우리가 운이 좋으면, 다치지 않고 뭔가 얻어갈 수 있을 거야. 네가 팔다리 몇 개를 잃을 것 같아 걱정되지만 말이야.
 
-용기가 있다면, 와.
-Rolf]], "_t")
+용기가 있다면, 오도록 해.
+롤프가]], "_t")
+t("letter to Weisman (3)", "와이즈먼에게 보내는 편지 (3)", "_t")
 t([[Weisman,
 
 The tentacles. I still remember them. They have lashed into my mind as they lashed into my flesh. How can nature abide such a... a... being in her realm? What dark plane of existence could it have been born from? How can creation itself tolerate such an aberration?!
@@ -14791,52 +14801,39 @@ How did we survive? I have no clue. All I can remember is pain, and panic, and f
 Rest easy, brother. It may have taken your eye, but think of what else it could have taken. Anyway, I shall be leaving for the tavern soon. Maybe I can drown the images of that monster in a sea of ale.
 
 Make sure you write the words on your next letter nice and big,
-Rolf]], [[Weisman,
+Rolf]], [[와이즈만에게,
 
-아직도 그 촉수들이 생생히 기억나. 이놈들이 날 후려칠 때 마음까지 두들겼나봐. 대체 왜 자연이 그...그... 것들을 품고 있을까? 대체 얼마나 어둡고 타락한 곳에서 이놈들이 태어났을까? 이렇게 어긋난 창조가 가능케나 한 것이었다니?!
+아직도 그 촉수들이 생생히 기억나. 그놈들이 날 후려칠 때 내 마음마저 두들겼나 봐. 대체 왜 자연이 그...그...그런 것들을 품고 있을까? 대체 얼마나 어둡고 타락한 곳에서 이놈들이 태어났을까? 이렇게 어긋난 창조가 가능케나 한 것이었다니?!
 
-어떻게 우리가 살아남을 수 있었는지 전혀 모르겟어. 그저 고통과 공포로 공황에 빠졌던 것만 기억날 뿐이야. 수치스러지만 도망치는 것밖에는... 생각할 수 없었어. 집과 너와 내 고향을 생각하면서... 살기위해 발버둥치면서... 날 가로막는 것들을 마구 헤치면서... 아마 그것이 그걸 하지 않은 이유가... 아니 그냥 생각하지 말자. 내일 일어나서도 이놈을 생각하기는 싫으니까, 오늘 밤 악몽은 반드시 이 괴물에 대한거겠지. 
+어떻게 우리가 살아남을 수 있었는지 전혀 모르겠어. 그저 고통과 공포로 공황에 빠졌던 것만 기억날 뿐이야. 수치스럽지만 도망치는 것 외에는... 생각할 수 없었어. 집과 너와 내 고향을 생각하면서... 살기 위해 발버둥을 치면서... 날 가로막는 것들을 마구 헤치면서... 아마 그것이 막지 않은 이유가... 아니 그냥 생각하지 말자. 내일 일어나서도 이놈을 생각하기는 싫으니까, 오늘 밤 악몽은 반드시 이 괴물에 대한 거겠지. 
 
-형제여, 이젠 편히 쉬자고. 네 눈을 잃었지만, 생각해보면 다른 것도 잃었을 수도 있었어. 아무튼 난 이제 선술집으로 갈 거야. 술독에 빠지면 그 놈을 잊을 수 있기를 바래고 있어.
+형제여, 이젠 편히 쉬자고. 네 눈을 잃었지만, 생각해보면 다른 것도 잃었을 수도 있었어. 아무튼, 난 이제 선술집으로 갈 거야. 술독에 빠지면서 그놈을 잊을 수 있기를 바래야겠어.
 
-Make sure you write the words on your next letter nice and big,
-Rolf]], "_t")
-t("letter to Rolf (3)", "롤프에게 보내는 편지 (3)", "_t")
-t([[Rolf,
-
-I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
-
-Wishing you and your ale a hearty good-bye,
-
-Weisman.]], [[Rolf,
-
-그렇게 강하고 흉측한 녀석과 가까이 있었다니, 그저 공포밖에는 아무것도 기억나지 않아요. 이길 가망도 없는 상대한테서 도망치는 것 수치스러운 일이 아닐거에요, 그렇죠? 선술집에서 맥주를 마시는건 좋은 생각 같네요. 그래도 공포를 이겨내는게...정복해 내는 것이... 더 낫지 않을까 생각해요. 전 제 인생 나머지를 이놈이 가져가더라도 괴물녀석을 쓰러뜨려야겠어요. 절 용서해 주세요. 
-
-당신과 멋진 맥주 한 잔에게 진심으로 작별을 구하며,
-
-Weisman.]], "_t")
-t("letter to Weisman (4)", "웨이스만에게 보내는 편지 (4)", "_t")
+다음 편지에는 글씨를 크고 선명하게 쓰도록 해.
+롤프가]], "_t")
+t("letter to Rolf (3)", "롤프씨에게 보내는 편지 (3)", "_t")
+t("letter to Weisman (4)", "와이즈만에게 보내는 편지 (4)", "_t")
 t([[Weisman,
 
 By my ancestors' profits I hope you receive this message in good health and spirits. Please, old friend - there is no need to impress upon me your valour, I know full well how courageous you are. Please, do not go after that... that thing! If I must drag you away physically, that is what I shall do, but I beg of you, please, consider another foe to fight!
 
 Your friend,
 
-Rolf.]], [[Weisman,
+Rolf.]], [[와이즈만에게,
 
-By my ancestors' profits I hope you receive this message in good health and spirits. 오랜 친구여 네 용기를 더 뽐낼 필요는 없어, 자네의 용맹함은 이미 잘 알고 있으니. 제발 그...괴물을 쫒아가지 마! 만일 쫒아가겠다면 온몸을 던져 말릴거야, 그치만 제발 부탁한다. 다른 상대를 찾자!
+내 조상님들의 이윤을 걸고 나는 네가 이 편지를 육체적으로도 영적으로도 건강한 상태에서 받기를 바라고있다.. 오랜 친구여 네 용기를 내게 더 뽐낼 필요는 없어, 자네의 용맹함은 이미 잘 알고 있으니. 제발 그...괴물을 쫓아가지 마! 만일 쫓아가겠다면 온몸을 던져 말릴 거야, 그렇지만 제발 부탁한다. 싸울거라면 제발 다른 상대를 찾자!
 
-네 친구가,
+너의 친구,
 
-Rolf.]], "_t")
+롤프가.]], "_t")
 t("Last Will of Rolf", "롤프의 마지막 유언", "_t")
 t([[Last Will and Testament of Rolf Two-Axes
 
 I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set out to slay was dead already by another's hand, but its corruption remained still. When I arrived in its chamber, Weisman was already half-gone; he was hacking away at foes only he could see. When I tried to stop him, he turned his axe on me... I am beaten and broken, hiding in some crevasse away from... from my own friend, who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
-#{italic}#(the ink blotch seems to indicate Weisman had caught up to his old friend, one-half of that abomination)#{normal}#]], [[Last Will and Testament of Rolf Two-Axes
+#{italic}#(the ink blotch seems to indicate Weisman had caught up to his old friend, one-half of that abomination)#{normal}#]], [[쌍도끼 롤프의 유언장
 
-난 실패했다. Oh by the great wyrm's maw, I have failed! Weisman이 죽이러 갔던 짐승은 다른 이의 손에 이미 죽어있었다. 그럼에도 타락의 영향은 남아있었다. 내가 도착했을 때, Weisman은 이미 반쪽이 되어 있었다.; 그는 보이는 적을 향해서 닥치는 대로 헤집고 있었다. 나는 그를 멈추려고 했지만, 그는 도끼를 나에게 향했다... 나는 두들겨 맞고 처참한 몰골로... 내 친구에게서 떨어진 작은 틈에 몸을 숨겼다. who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
-#{italic}#(잉크자국으로 보아 Weisman이 그의 오랜 친구를 잡으러 온 것 같다. one-half of that abomination)#{normal}#]], "_t")
+난 실패했다. 가장 거대한 용의 아가리여, 나는 실패했다! 와이즈만이 죽이러 갔던 짐승은 이미 다른 이의 손에 죽어있었다. 그런데도 타락의 영향은 남아있었다. 내가 그놈의 둥지에 도착했을 때, 와이즈만은 이미 반쯤 미쳐있었다; 그는 그에게만 보이는 적을 향해서 닥치는 대로 도끼를 휘두르고 있었다. 나는 그를 멈추려고 했지만, 그는 도끼를 나에게 향했다... 나는 두들겨 맞고 처참한 몰골로... 내 친구에게서 떨어진 작은 틈에 몸을 숨겼다. 이 곳의 타락으로 인해 뒤틀린 자들은 내 도끼로는 쓰러뜨릴 수 없는 괴물들이야. 나는 지금도 내 옛 친구가 나를 부르는 뒤틀린 목소리를 들을 수 있기에 이번이 내가 양피지에 글을 쓰는 마지막 순간이라는 것을 의심하지 않는다. 나는 누구든 그를 처치해줄 자에게 내 소지품을 양도하...
+#{italic}#(잉크 자국으로 보아 와이즈만이 그의 오랜 친구를 잡으러 온 것 같다. 반은 흉물인 그가)#{normal}#]], "_t")
 t("memories of Artelia Firstborn", "아르텔리아 퍼스트본의 기억", "_t")
 t([[#{italic}#This scroll looks ancient, possibly going back millennia, but has been incredibly well-preserved.#{normal}#
 
@@ -22709,9 +22706,9 @@ t("%s resists the pin!", "%s 속박에 저항했다!", "logSeen", nil, {"가"})
 t([[Focus kinetic energy and strike an enemy for %d%% weapon damage as physical.
 		They will be pinned to the ground for %d turns by the force of this attack.
 		Any frozen creature hit by this attack will take an extra %0.2f physical damage.
-		The extra damage will scale with your Mindpower.]], [[동역학 에너지를 모아 타격하여, 대상에게 무기 피해의 %d%% 를 물리 속성으로 입힙니다.
-		이 공격으로 인해 대상은 %d 턴 동안 속박됩니다.
-		빙결된 적을 대상으로 할 시 %0.2f 물리 피해를 추가적으로 더 입힙니다.
+		The extra damage will scale with your Mindpower.]], [[동역학 에너지를 집중하여, 대상에게 %d%% 무기 피해를 물리 속성으로 전환하여 타격합니다.
+		이 공격은 대상을 %d 턴 동안 속박합니다.
+		대상이 빙결 상태일 경우, %0.2f 물리 피해를 추가로 가합니다.
 		추가 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Thermal Strike", "열역학 강타", "talent name")
 t("ice wall", "얼음벽", "_t")
@@ -22719,23 +22716,23 @@ t("a summoned, transparent wall of ice", "소환된 투명한 얼음벽", "_t")
 t([[Focus thermal energy and strike an enemy for %d%% weapon damage as cold.
 		A burst of cold will then engulf them, doing an extra %0.1f Cold damage and also freeze them for %d turns.
 		If the attack freezes a pinned creature a burst of ice is summoned, circling the caster and the creature with a wall of ice for 3 turns.
-		The cold burst damage will scale with your Mindpower.]], [[열역학 에너지를 모아 타격하여, 대상에게 무기 피해의 %d%% 를 냉기 속성으로 입힙니다.
-		추가적으로 냉기 폭발이 대상을 에워싸 %0.1f 냉기 피해를 입히고, %d 턴 동안 얼립니다.
-		속박된 적을 빙결시킬 경우, 얼음 덩어리가 솟아나 대상과 시전자를 3 턴 동안 둘러쌉니다.
+		The cold burst damage will scale with your Mindpower.]], [[열역학 에너지를 집중하여, 대상에게 %d%% 무기 피해를 냉기 속성으로 전환하여 타격합니다.
+		추가적으로 냉기 폭발이 대상을 에워싸 %0.1f 냉기 피해를 입히고, %d 턴 동안 빙결시킵니다.
+		속박된 적을 빙결시킬 경우, 얼음덩어리가 솟아나 대상과 시전자를 3 턴 동안 둘러쌉니다.
 		냉기 폭발 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Charged Strike", "전기역학 강타", "talent name")
-t("You cannot do that without a weapon in your hands.", "무기를 손에 들고있지 않으면 사용할 수 없다.", "logPlayer")
+t("You cannot do that without a weapon in your hands.", "무기를 손에 장비해야만 기술을 발동할 수 있다", "logPlayer")
 t([[Focus charged energy and strike an enemy for %d%% weapon damage as lightning.
 		Energy will then discharge from your weapon, doing an extra %0.2f lightning damage and halving their stun/daze/freeze/pin resistance for %d turns.
 		If the target is pinned and Charged Shield is sustained, its absorb value will be increased by %0.2f.
 		If the target is frozen, the ice will melt in a flash of vapour, knocking back all creatures around it in radius 2.
-		The discharge damage will scale with your Mindpower.]], [[전기역학 에너지를 모아 타격하여, 대상에게 무기 피해의 %d%% 를 전기 속성으로 입힙니다.
-		추가적으로 전기 에너지가 무기에서 방전되어 대상에게 %0.2f 전기 피해를 입히고, %d 턴 동안 기절/혼절/빙결/속박 면역력을 절반으로 감소시킵니다.
-		시전자의 전기역학 보호막이 활성화 중이고, 속박된 적을 대상으로 할 경우 보호막의 피해 흡수량이 %0.2f 증가합니다.
-		대상이 이미 빙결된 상태라면, 번쩍이는 섬광으로 얼음 덩어리를 녹이고 반경 2 칸 내의 모든 개체를 밀쳐냅니다.
+		The discharge damage will scale with your Mindpower.]], [[전기역학 에너지를 집중하여, 대상에게 %d%% 무기 피해를 전기 속성으로 전환하여 타격합니다.
+		추가적으로 무기가 방전되어 대상에게 %0.2f 전기 피해를 입히고, %d 턴 동안 기절/혼절/빙결/속박 면역력을 반감시킵니다.
+		전기역학 보호막이 활성화 중이면서 속박된 적을 대상으로 할 경우, 보호막의 피해 흡수량이 %0.2f 증가합니다.
+		대상이 이미 빙결된 상태라면, 번쩍이는 섬광으로 얼음덩어리를 녹여버리고, 반경 2 칸 내의 모든 개체를 밀쳐냅니다.
 		방전 피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Psi Tap", "염력 수집", "talent name")
-t("Wrap a psionic energy field around your weapons, increasing their armour penentration by %d and allowing you to siphon excess energy from each weapon hit you land, gaining %0.1f psi per hit.", "무기를 염동력 역장으로 감싸 방어력 관통을 %d 향상시킵니다. 또한, 무기에서 발생하는 과잉 에너지를 흡수하여 타격 당 %0.1f 염력을 획득합니다.", "tformat")
+t("Wrap a psionic energy field around your weapons, increasing their armour penentration by %d and allowing you to siphon excess energy from each weapon hit you land, gaining %0.1f psi per hit.", "무기를 염동력 역장으로 감싸 방어력 관통을 %d 향상시킵니다. 또한, 무기에서 발생하는 과잉 에너지를 흡수하여 타격 당 %0.1f 염력을 회복합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -22751,36 +22748,36 @@ t([[For %d turns your electrokinesis transcends your normal limits, increasing y
 		Charge Leech will also inflict confusion (%d%% effect).
 		Charged Strike will have its secondary lightning burst chain to up to 3 targets in a radius of 3.
 		The damage bonus and resistance penetration scale with your Mindpower.
-		Only one Transcendent talent may be in effect at a time.]], [[%d 턴 동안, 한계를 뛰어넘은 초월적인 전기역학 염동력을 휘두룹니다. 전기 피해량이 %d%%, 전기 저항 관통이 %d%% 증가됩니다.
+		Only one Transcendent talent may be in effect at a time.]], [[%d 턴 동안 한계를 뛰어넘은 초월적인 전기역학 염동력을 휘두릅니다. 전기 속성 피해량이 %d%%, 전기 저항 관통이 %d%% 증가합니다.
 		추가 효과 :
 		전기역학 보호막, 전기역학 흡수, 전기역학 아우라, 전기역학 강타, 뇌파 폭풍의 재사용 대기시간을 즉시 초기화합니다.
-		전기역학 아우라의 범위는 1 칸 늘어납니다.
-		전기역학 보호막의 흡수 효율이 100%% 가 되어, 평상시의 2 배의 피해를 흡수합니다.
-		뇌파 폭풍에 실명 효과가 적용됩니다.
-		전기역학 흡수에 혼란 효과가 적용됩니다 (%d%% 위력).
-		전기역학 강타에 반경 3 칸 이내의 적 3 체에 연쇄하는 부가적인 전기 폭발이 일어납니다.
-		전기 피해 상승량과 전기 저항 관통은 정신력에 비례하여 증가합니다.
-		한 번에 단 하나의 '초월' 기술만 활성화 될 수 있습니다.]], "tformat")
+		전기역학 아우라의 범위가 1 칸 늘어납니다.
+		전기역학 보호막의 흡수 효율이 100%% 가 되어, 피해 흡수량이 두배 정도 늘어납니다.
+		뇌파 폭풍이 실명 효과를 유발합니다.
+		전기역학 흡수가 혼란 효과를 유발됩니다 (%d%% 위력).
+		전기역학 강타가 반경 3 칸 이내의 적 3 체에게 연쇄적인 추가 전기 폭발이 일어납니다.
+		전기 속성 피해 상승량과 전기 저항 관통은 정신력에 비례하여 증가합니다.
+		'초월' 기술은 오직 하나만 유지할 수 있습니다.]], "tformat")
 t("Thought Sense", "사고 감지", "talent name")
 t([[Detect the mental activity of creatures in a radius of %d for %d turns.
 		This reveals their location and boosts your defense by %d.
-		The defense scales with you Mindpower and the range with your Willpower.]], [[주변 %d 칸 반경에 있는 적들의 정신 활동을 %d 턴 동안 감지합니다.
-		이를 통해 적들의 위치를 감지하며, 시전자의 회피도가 %d 상승합니다.
-		회피도 상승량은 정신력에 비례하여 증가하고 감지 반경은 의지에 비례하여 증가합니다.]], "tformat")
+		The defense scales with you Mindpower and the range with your Willpower.]], [[반경 %d 칸 이내에 있는 적들의 정신 활동을 %d 턴 동안 감지합니다.
+		이를 통해 적들의 위치를 감지하며, 시전자의 회피도를 %d 상승시킵니다.
+		회피도 상승량은 정신력에 비례하여 증가하고, 감지 반경은 의지에 비례하여 증가합니다.]], "tformat")
 t("Static Net", "정전기 망", "talent name")
 t([[Cast a net of static electricity in a radius of %d for %d turns.
 		Enemies standing in the net will take %0.1f Lightning damage and be slowed by %d%%.
 		When you move through the net, a static charge will accumulate on your weapon which will add %0.1f additional Lightning damage to your next attack for each turn you spend within its area.
-		These effects scale with your Mindpower.]], [[%d 칸 반경에 정전기 망을 %d 턴 동안 설치합니다.
-		정전기 망 안에 있는 적은 %0.1f 전기 피해를 입고 %d%% 감속됩니다.
-		시전자가 정전기 망 안에 있을 경우, 전하가 무기에 충전되어 다음 공격에 %0.1f 만큼의 추가 전기 피해를 입힙니다. 이 효과는 시전자가 망 안에서 시간을 보낼 때마다 축적됩니다.
+		These effects scale with your Mindpower.]], [[범위가 %d 칸인 정전기 망을 %d 턴 동안 설치합니다.
+		정전기 망 안에 있는 적은 %0.1f 전기 피해를 입고, %d%% 만큼 감속됩니다.
+		시전자가 정전기 망 안에 있을 경우, 무기에 전하가 충전되어 다음 공격이 %0.1f 만큼의 추가 전기 피해를 입힙니다. 이 효과는 시전자가 망 안에 있으면 계속 누적됩니다.
 		효과는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Heartstart", "심소생", "talent name")
 t([[Store an electric charge for saving your life at a later time.
 		If you are reduced to less than zero life while this is active, it will deactivate, cure you of all stun/daze/freeze effects and allow you to survive with up to %d negative health for %d turns.
-		The negative health limit scales with your Mindpower and maxium life.]], [[죽음에서 돌아오기 위해 전류를 미리 충전합니다.
-		기술이 유지되는 동안, 생명력이 0 이하로 떨어질 경우, 기술은 비활성화되고 모든 기절/혼절/빙결 상태효과를 해제합니다. 그리고 생명력이 최대 -%d 에 도달할 때까지 %d 턴 동안 생존할 수 있게 됩니다.
-		최저 생명력 한계수치는 정신력에 비례하여 증가합니다.]], "tformat")
+		The negative health limit scales with your Mindpower and maxium life.]], [[죽음으로부터 살아돌아오기 위해 전류를 미리 충전합니다.
+		기술이 유지되는 동안 생명력이 0 이하로 떨어질 경우, 기술이 비활성화되고 모든 기절/혼절/빙결 효과를 해제합니다. 그리고 %d 턴 동안 생명력이 -%d 까지 감소하더라도 생존할 수 있게 됩니다.
+		최저 생명력 한계 수치는 정신력에 비례하여 증가합니다.]], "tformat", {2,1})
 
 
 ------------------------------------------------
@@ -23076,7 +23073,7 @@ t([[For %d turns your telekinesis transcends your normal limits, increasing your
 		동역학 흡수에 수면 효과가 적용됩니다
 		동역학 강타는 인접한 두 적까지 휩쓸어 공격합니다.
 		물리 피해 상승량과 물리 저항 관통치는 정신력에 비례하여 증가합니다.
-		한 번에 단 하나의 '초월' 기술만 활성화 될 수 있습니다.]], "tformat")
+		'초월' 기술은 오직 하나만 유지할 수 있습니다.]], "tformat")
 t("Kinetic Surge", "동역학 쇄도", "talent name")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
 t("#YELLOW##Source# resists #Target#'s throw!", "#YELLOW##Source2# #Target#의 염동력에 저항했다!", "logCombat")
@@ -23322,7 +23319,7 @@ t("Use telekinetic forces to greatly augment the durability and tension of your 
 section "game/modules/tome/data/talents/psionic/psi-fighting.lua"
 
 t("Telekinetic Smash", "염동 강타", "talent name")
-t("You cannot do that without a weapon in your hands.", "무기를 손에 들고있지 않으면 사용할 수 없다.", "logPlayer")
+t("You cannot do that without a weapon in your hands.", "무기를 손에 장비해야만 기술을 발동할 수 있다", "logPlayer")
 t([[Gather your will, and brutally smash the target with your mainhand weapon and then your telekinetically wielded weapon, doing %d%% weapon damage.
 		If your mainhand weapon hits, you will also stun the target for %d turns.
 		This attack uses 60%% of your Willpower and Cunning instead of Strength and Dexterity to determine weapon damage and accuracy, for both attacks.
@@ -23513,7 +23510,7 @@ t([[Each time you take damage, you roll %d%% of your mental save against it.  A 
 ------------------------------------------------
 section "game/modules/tome/data/talents/psionic/telekinetic-combat.lua"
 
-t("You cannot do that without a weapon in your hands.", "무기를 손에 들고있지 않으면 사용할 수 없다.", "logPlayer")
+t("You cannot do that without a weapon in your hands.", "무기를 손에 장비해야만 기술을 발동할 수 있다", "logPlayer")
 
 
 ------------------------------------------------
@@ -23538,7 +23535,7 @@ t([[For %d turns your pyrokinesis transcends your normal limits, increasing your
 		열역학 흡수에 대상의 피해량 감소 %d%% 가 적용됩니다.
 		열역학 강타에 반경 1 칸의 부가적인 냉기/화염 폭발이 일어납니다.
 		화염과 냉기 피해 상승량과 화염과 냉기 저항 관통치는 정신력에 비례하여 증가합니다.
-		한 번에 단 하나의 '초월' 기술만을 사용할 수 있습니다.]], "tformat")
+		'초월' 기술은 오직 하나만 유지할 수 있습니다.]], "tformat")
 t("Brainfreeze", "두뇌 동결", "talent name")
 t([[Quickly drain the heat from your target's brain, dealing %0.1f Cold damage.
 		Affected creatures will also be brainlocked for 4 turns, putting a random talent on cooldown, and freezing cooldowns.
@@ -33535,7 +33532,7 @@ section "game/modules/tome/data/zones/deep-bellow/objects.lua"
 
 t("Deep Bellow excavation report %d", "깊은 포효 탐사 보고서 %d", "tformat")
 t("letter to Rolf (3)", "롤프에게 보내는 편지 (3)", "entity name")
-t("letter to Weisman (4)", "웨이스만에게 보내는 편지 (4)", "entity name")
+t("letter to Weisman (4)", "와이즈만에게 보내는 편지 (4)", "entity name")
 t("Last Will of Rolf", "롤프의 마지막 유언", "entity name")
 t("A paper scrap.", "종잇조각입니다.", "_t")
 
