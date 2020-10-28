@@ -199,13 +199,13 @@ function _M:createDisplay()
 	self.c_tut = Textzone.new{ width=self.iw, auto_height = true, text=self.regentuttext()}
 	
 	local vsep = Separator.new{dir="horizontal", size=self.ih - 20 - self.c_tut.h}
-	local listsep = Separator.new{dir="vertical", size=370, text="#{bold}##GOLD#Prodigies#{normal}#", text_shadow=1}
+	local listsep = Separator.new{dir="vertical", size=370, text=_t"#{bold}##GOLD#Prodigies#{normal}#", text_shadow=1}
 	local evosep
 
 	self.c_desc = TextzoneList.new{ focus_check = true, scrollbar = true, pingpong = 20, width=self.iw - 370 - vsep.w - 20, height = self.ih - self.c_tut.h, dest_area = { h = self.ih - self.c_tut.h } }
 
 	if self.has_evos then
-		evosep = Separator.new{dir="vertical", size=370, text="#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", text_shadow=1}
+		evosep = Separator.new{dir="vertical", size=370, text=_t"#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", text_shadow=1}
 		self.c_evo = TalentGrid.new{
 			font = core.display.newFont("/data/font/DroidSans.ttf", 14),
 			tiles=game.uiset.hotkeys_display_icons,

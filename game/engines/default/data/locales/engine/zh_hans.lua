@@ -67,7 +67,7 @@ t("exit", "出口", nil)
 t("harmonystaff", "和谐法杖", nil)
 t("humanoid", "人形生物", nil)
 t("humanoid/orc", "人形生物/兽人", nil)
-t("husk", "不死傀儡", nil)
+t("husk", "尸傀", nil)
 t("hydra", "多头蛇", nil)
 t("image", "镜像", nil)
 t("injured seer", "受伤的先知", nil)
@@ -223,6 +223,30 @@ t("Fifth Hotkey 9", "第五快捷键 9", "_t")
 t("Fifth Hotkey 10", "第五快捷键 10", "_t")
 t("Fifth Hotkey 11", "第五快捷键 11", "_t")
 t("Fifth Hotkey 12", "第五快捷键 12", "_t")
+t("Six Hotkey 1", "第六快捷键 1", "_t")
+t("Six Hotkey 2", "第六快捷键 2", "_t")
+t("Six Hotkey 3", "第六快捷键 3", "_t")
+t("Six Hotkey 4", "第六快捷键 4", "_t")
+t("Six Hotkey 5", "第六快捷键 5", "_t")
+t("Six Hotkey 6", "第六快捷键 6", "_t")
+t("Six Hotkey 7", "第六快捷键 7", "_t")
+t("Six Hotkey 8", "第六快捷键 8", "_t")
+t("Six Hotkey 9", "第六快捷键 9", "_t")
+t("Six Hotkey 10", "第六快捷键 10", "_t")
+t("Six Hotkey 11", "第六快捷键 11", "_t")
+t("Six Hotkey 12", "第六快捷键 12", "_t")
+t("Seven Hotkey 1", "第七快捷键 1", "_t")
+t("Seven Hotkey 2", "第七快捷键 2", "_t")
+t("Seven Hotkey 3", "第七快捷键 3", "_t")
+t("Seven Hotkey 4", "第七快捷键 4", "_t")
+t("Seven Hotkey 5", "第七快捷键 5", "_t")
+t("Seven Hotkey 6", "第七快捷键 6", "_t")
+t("Seven Hotkey 7", "第七快捷键 7", "_t")
+t("Seven Hotkey 8", "第七快捷键 8", "_t")
+t("Seven Hotkey 9", "第七快捷键 9", "_t")
+t("Seven Hotkey 10", "第七快捷键 10", "_t")
+t("Seven Hotkey 11", "第七快捷键 11", "_t")
+t("Seven Hotkey 12", "第七快捷键 12", "_t")
 t("Previous Hotkey Page", "上一页快捷键", "_t")
 t("Next Hotkey Page", "下一页快捷键", "_t")
 t("Quick switch to Hotkey Page 2", "快速切换到快捷键第2页", "_t")
@@ -344,6 +368,7 @@ t("Missing!", "不见了！", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/HotkeysIconsDisplay.lua"
 
+t("Unknown!", "未知!", "_t")
 t("Missing!", "不见了！", "_t")
 
 
@@ -374,6 +399,11 @@ t("Test", "测试", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/Module.lua"
 
+t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#插件开发者可以通过开启调试模式继续测试他们的插件。#{normal}#", "_t")
+t("Beta Addons Disabled", "Beta版禁用插件", "_t")
+t([[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
+#GREY#]], [[本Beta版本设计上用于纯原版测试环境，因此，以下插件被自动禁用:
+#GREY#]], "_t")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#由于 %s ，在线存档无法运行（切换至离线存档）", "log")
 
 
@@ -954,6 +984,8 @@ t("Enter the y-coordinate", "输入Y坐标", "_t")
 t("Window Origin: Y-Coordinate", "窗口原点：Y坐标", "_t")
 t("Position changed.", "位置已修改。", "_t")
 t("Save position?", "保存位置？", "_t")
+t("Accept", "接受", "_t")
+t("Revert", "撤销", "_t")
 
 
 ------------------------------------------------
@@ -1710,7 +1742,7 @@ t([[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
 #LIGHT_UMBER#New race:#WHITE# Doomelves. Shalore who've taken to the demonic alterations especially well, corrupting their typical abilities into a darker form.
 #LIGHT_UMBER#New artifacts, lore, zones, events...#WHITE# For your demonic delight!
 
-]], [[#{bold}##GOLD#乌鲁洛克之焰 - 游戏扩展包#LAST##{normal}#
+]], [[#{bold}##GOLD#乌鲁洛克之烬 - 游戏扩展包#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#很多马基埃亚尔的居民都曾经听说过“恶魔”的名字，它们是一群似乎凭空出现的暴虐生物，无论走到哪里都会带来痛苦和毁灭。#{normal}##LAST#
 
 #{bold}#扩展包特性#{normal}#:
@@ -1763,9 +1795,9 @@ t([[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
 #LIGHT_UMBER#新职业：#WHITE# 苦痛者。 它们被赋予了腐化的力量，最终将自己的身体转化成了恐魔。它们可以召唤恐魔在战斗中协助自己，撕裂你的皮肤，融化你的脸庞，作为攻击敌人的武器。当你的手臂也被转化成触手之后，还有什么敌人能阻挡你呢？
 #LIGHT_UMBER#新职业：#WHITE# 熵教徒。 这种法师职业使用疯狂的能力，掌控了熵的力量，颠覆了传统的物理定律。它们可以将治疗转换成伤害，并召唤虚空的力量，将敌人粉碎为尘土。
 #LIGHT_UMBER#新种族：#WHITE# 德瑞姆。 他们是矮人的一支腐化分支，但是因为某种原因，保持了一定程度的理性，而没有完全孵化成为没有意识的恐魔。他们可以进入狂热状态，并学会召唤恐魔。
-#LIGHT_UMBER#新种族：#WHITE# 克罗格。 他们是一群被本来应当杀死他们的一群人转化的食人魔。他们强大的攻击可以震慑敌人，并且他们强壮的力量可以双持任何单手武器。
+#LIGHT_UMBER#新种族：#WHITE# 克罗格。 他们是被本来应当杀死他们的那群人转化的食人魔。他们强大的攻击可以震慑敌人，并且他们强壮的力量可以双持任何单手武器。
 #LIGHT_UMBER#大量全新地图：#WHITE# 探索瘟疫之穴，在一只巨大蠕虫的身体内杀出一条血路(不要问我你是怎么*进来*的)，探索神秘的出口，以及更多奇异的，充满触手的地图！
-#LIGHT_UMBER#新的恐魔：#WHITE# 你喜欢灼眼恐魔吗？你一定会喜欢上灼热恐魔的！还有以太蠕虫，还有熵之碎片，还有其他更多怪物！
+#LIGHT_UMBER#新的恐魔：#WHITE# 你喜欢灼眼恐魔吗？你一定会喜欢上灼热恐魔的！还有虚空蠕虫，还有熵之碎片，还有其他更多怪物！
 #LIGHT_UMBER#厌倦了你自己的头？#WHITE#  把它换成一个悠闲的寄生兽吧！
 #LIGHT_UMBER#大量#WHITE# 全新神器、手札、事件……
 

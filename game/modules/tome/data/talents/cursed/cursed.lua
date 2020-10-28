@@ -44,7 +44,7 @@ newTalentType{ allow_random=true, is_mind=true, type="cursed/fears", name = _t"f
 -- Fallen Class Evolution
 newTalentType{ allow_random=true, is_mind=true, type="cursed/bloodstained", name = _t"Bloodstained", description = _t"You, like your weapons, are tainted forever." }
 newTalentType{ allow_random=true, is_mind=true, type="cursed/crimson-templar", name = _t"Crimson Templar", description = _t"Blood is power. Let the rivers run red." }
-newTalentType{ allow_random=true, is_mind=true, generic=true, type="cursed/self-hatred", name = _t"Self-Hatred", description = _t"Of all the things in this dark world, you are the worst.  Torment yourself and find the power therein." }
+newTalentType{ allow_random=true, is_mind=true, generic=true, type="cursed/hatred", name = _t"Hatred", description = _t"All the things in this dark world are contemptible.  Let yourself hate them and find the power therein." }
 newTalentType{ allow_random=false, type="cursed/other", name = _t"Cursed", description = _t"Hate-powered abilities that don't belong anywhere else." }
 
 cursed_wil_req1 = {

@@ -117,7 +117,7 @@ newTalent{
 	range = 7,
 	getMaxStacks = function(self, t) return math.floor(self:combatTalentScale(t, 3, 7.5)) end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 30, 400) / 7 end,
-	target = function(self, t) return {type="ball", radius=self:getTalentRadius(t), range=self:getTalentRange(t), nolock=true, nowarning=true} end,
+	target = function(self, t) return {type="ball", radius=self:getTalentRadius(t) + (self.life < 1 and 3 or 0), range=self:getTalentRange(t), nolock=true, nowarning=true} end,
 	action = function(self, t)
 		local tg = self:getTalentTarget(t)
 		local x, y = self:getTargetLimitedWallStop(tg)

@@ -113,7 +113,7 @@ newTalent{
 	end,
 	
 	action = function(self, t)
-		self:takeHit(self.max_life * t.getPrice(self, t) / 100, self, {special_death_msg="sacrificed themself"})
+		self:takeHit(self.max_life * t.getPrice(self, t) / 100, self, {special_death_msg=_t"sacrificed themself"})
 		t.makeSigil(self, t, self.x, self.y)
 		game:playSoundNear(self, "talents/arcane")
 		return true

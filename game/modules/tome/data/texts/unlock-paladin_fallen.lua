@@ -27,7 +27,7 @@ You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladin
 Learn new Talents:#YELLOW#
 - Bloodstained: Make your foes bleed!
 - Darkside: Every light casts a shadow, yours is powerful indeed
-- Self-Hatred: Manifest your self hatred through bleeding
+- Hatred: Manifest your hatred through bleeding
 - Dirges: Sing of death and sorrow to strength your resolve#WHITE#
 
 Swap your paladin Talents:#YELLOW#

@@ -739,6 +739,22 @@ end
 
 --- Make a module loadscreen
 function _M:loadScreen(mod)
+	mod.waiter_load_ui = mod.waiter_load_ui or "dark-ui"
+
+	local left
+	local right
+	local middle
+	local bar
+	local function swap_ui(ui)
+		if fs.exists("/data/gfx/"..ui.."/waiter/left.png") and fs.exists("/data/gfx/"..ui.."/waiter/right.png") and fs.exists("/data/gfx/"..ui.."/waiter/middle.png") and fs.exists("/data/gfx/"..ui.."/waiter/bar.png") then
+			left = {core.display.loadImage("/data/gfx/"..ui.."/waiter/left.png"):glTexture()}
+			right = {core.display.loadImage("/data/gfx/"..ui.."/waiter/right.png"):glTexture()}
+			middle = {core.display.loadImage("/data/gfx/"..ui.."/waiter/middle.png"):glTexture()}
+			bar = {core.display.loadImage("/data/gfx/"..ui.."/waiter/bar.png"):glTexture()}
+		end
+	end
+	swap_ui(mod.waiter_load_ui)
+
 	core.display.forceRedraw()
 	core.wait.enable(10000, function()
 		local has_max = mod.loading_wait_ticks
@@ -756,13 +772,6 @@ function _M:loadScreen(mod)
 			pubimg, publisher = core.display.loadImage("/data/gfx/background/"..mod.publisher_logo..".png"), nil
 		end
 		if pubimg then publisher = {pubimg:glTexture()} end
-
-		mod.waiter_load_ui = mod.waiter_load_ui or "dark-ui"
-
-		local left = {core.display.loadImage("/data/gfx/"..mod.waiter_load_ui.."/waiter/left.png"):glTexture()}
-		local right = {core.display.loadImage("/data/gfx/"..mod.waiter_load_ui.."/waiter/right.png"):glTexture()}
-		local middle = {core.display.loadImage("/data/gfx/"..mod.waiter_load_ui.."/waiter/middle.png"):glTexture()}
-		local bar = {core.display.loadImage("/data/gfx/"..mod.waiter_load_ui.."/waiter/bar.png"):glTexture()}
 
 		local font = FontPackage:get("small")
 		local bfont = FontPackage:get("default")
@@ -909,6 +918,7 @@ function _M:loadScreen(mod)
 		end
 	end)
 	core.display.forceRedraw()
+	return swap_ui
 end
 
 
@@ -983,7 +993,7 @@ function _M:instanciate(mod, name, new_game, no_reboot, extra_module_info)
 
 	-- Display the loading bar
 	profile.waiting_auth_no_redraw = true
-	self:loadScreen(mod)
+	local loader_swap_ui = self:loadScreen(mod)
 	core.wait.addMaxTicks(savesize)
 
 	-- Check MD5sum with the server
@@ -1029,6 +1039,11 @@ function _M:instanciate(mod, name, new_game, no_reboot, extra_module_info)
 	end
 
 	local hashlist = self:loadAddons(mod, (save_desc and save_desc.addons) or (__module_extra_info.set_addons))
+
+	-- HACK! I feel so dirty :<
+	if config.settings and config.settings.tome and config.settings.tome.ui_theme3 then
+		loader_swap_ui(config.settings.tome.ui_theme3.."-ui")
+	end
 
 	-- Check all hashes at once
 	hashlist[#hashlist+1] = {module=mod.version_name, md5=module_md5}

@@ -5124,6 +5124,7 @@ end
 -- Make sure such talents are always flagged as unlearnable (see Command Staff for an example)
 function _M:learnItemTalent(o, tid, level)
 	local t = self:getTalentFromId(tid)
+	if not t then return end
 	local max = t.hard_cap or (t.points and t.points + 2) or 5
 	if not self.item_talent_surplus_levels then self.item_talent_surplus_levels = {} end
 	if not self.item_talent_surplus_levels[tid] then self.item_talent_surplus_levels[tid] = 0 end
@@ -5146,6 +5147,7 @@ end
 
 function _M:unlearnItemTalent(o, tid, level)
 	local t = self:getTalentFromId(tid)
+	if not t then return end
 	local max = (t.points and t.points + 2) or 5
 	if not self.item_talent_surplus_levels then self.item_talent_surplus_levels = {} end
 	if not self.item_talent_surplus_levels[tid] then self.item_talent_surplus_levels[tid] = 0 end
@@ -7212,8 +7214,6 @@ end
 -- @param src who is doing the dispelling
 -- @param allow_immunity If true will check for canBe("dispel_XXX"), defaults to true
 function _M:dispel(effid_or_tid, src, allow_immunity, params)
-	if allow_immunity and self:attr("invulnerable") then return end
-
 	if not params then params = {} end
 	if params.silent == nil then params.silent = false end
 	if params.force == nil then params.force = false end
@@ -7223,6 +7223,8 @@ function _M:dispel(effid_or_tid, src, allow_immunity, params)
 
 	-- Dont resist yourself!
 	if src == self then allow_immunity = false end
+
+	if allow_immunity and self:attr("invulnerable") then return end
 
 	-- Effect
 	if effid_or_tid:find("^EFF_") then
