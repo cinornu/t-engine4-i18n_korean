@@ -1,4 +1,12 @@
 ------------------------------------------------
+section "game/addons/tome-addon-dev/superload/mod/dialogs/debug/AddonDeveloper.lua"
+-- 1 entries
+t([[- Your profile has been enabled for addon uploading, you can go to #{italic}##LIGHT_BLUE#https://te4.org/addons/tome#LAST##{normal}# and upload your addon.
+]], [[- Your profile has been enabled for addon uploading, you can go to #{italic}##LIGHT_BLUE#https://te4.org/addons/tome#LAST##{normal}# and upload your addon.
+]], "_t")
+
+
+------------------------------------------------
 section "game/addons/tome-items-vault/overload/data/maps/items-vault/fortress.lua"
 -- 2 entries
 t("Psionic Metarial Retention", "Psionic Metarial Retention", "_t")
@@ -738,6 +746,13 @@ t("", "", "_t")
 
 
 ------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/snake-add.lua"
+-- 2 entries
+t("Gunsnake", "Gunsnake", "entity name")
+t("#{italic}##ANTIQUE_WHITE#From a bygone era it slithers...#LAST##{normal}#", "#{italic}##ANTIQUE_WHITE#From a bygone era it slithers...#LAST##{normal}#", "_t")
+
+
+------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
 -- 1 entries
 t("%s", "%s", "tformat")
@@ -747,81 +762,6 @@ t("%s", "%s", "tformat")
 section "game/dlcs/tome-orcs/data/lore/gem.lua"
 -- 1 entries
 t("G.E.M", "G.E.M", "newLore category")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/palace-fumes.lua"
--- 2 entries
-t("excerpts from a Council meeting transcript (3)", "excerpts from a Council meeting transcript (3)", "_t")
-t([[TANTALOS: "Tell the others of the unfortunate developments, Palaquie."
-
-PALAQUIE: "The Kruk Orcs, under %s, appear to have pushed to the last bastion of the Sunwall forces...  none of my visions predict this ending favorably for anyone of non-Orcish descent.  With the Sunwall gone, there will be no further distractions for the Kruk.  In short, the Sunwall are doomed - and we are next."
-
-TANTALOS: "Where there's a will, Palaquie, there's a way.  What of the Migratory Leviathan?  Nashal, do you have any idea where--"
-
-NASHAL: "About that...  Kasyros stole it when everything started going to slag.  We'd take it back, but he's using it to evacuate civilians.  We'd end up using too many bullets on our own people that belong in the Kruk Orcs."
-
-TANTALOS: "Unfortunate, but we'll surely be able to convict him of treason once this all blows over.  Pendor, you've been working with our marksmen - how are they doing?"
-
-PENDOR: "Scared scrapless, Your Honor, but they're learning quick.  I managed to snatch up some newer Flameshot rifles from Kaltor's surplus, and our Retaliators are as strong as ever."
-
-TANTALOS: "Splendid to hear.  And what of that backup weapon you had mentioned - what was that name again, #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF-#{normal}#"
-
-TORMAK: "It's gone.  The mages I sent with Pendor's runners...  their invisibility spells were inadequate.  The Orcs found them...  if it's any consolation, they don't appear to have realized what the keys are for, or what it's capable of.  I'm...  I'm sorry."
-
-Lengthy pause.
-
-TANTALOS: "...I think it's time."  Removes a briefcase from behind the podium, and opens it to show the other Councilors its contents, before closing it and holding it again.  Councilors Palaquie, Tormak, and Nashal audibly gasp.  Motion to strike all description of its contents from the record passed, 3-2.
-
-TORMAK: "You can't be serious!  How is that going to make the situation BETTER?"
-
-PALAQUIE: "It cannot."
-
-NASHAL: "I can't agree with this, Councilor Tantalos, your predecessor had a point--"
-
-TANTALOS: Pounds fist, breaking podium.  "That doddering old coward knew NOTHING!"  Pause; sighs.  "None of us do.  All we know is, this eye's almost certainly useful for more than making declogging draught from its tears, and the person who wants it is the type of person who casually digs holes to the center of Eyal.  We've tried everything; the time for a last resort has come, and we are in dire need of a miracle.  This... 'Loyalist' is the only possible source of miracles around, and if infinite energy and blasting holes through the planet are within his capabilities, then disposing of these barbarians should be quite simple."
-
-PALAQUIE: "If our ancestors are to believed, this could result in a fate worse than our own destruction--"
-
-TANTALOS: "Would everyone who doesn't have any #{italic}#better#{normal}# ideas cease their jabbering before I cease it #{italic}#for them?#{normal}#"
-
-[Silence.]
-
-TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and mechanics.  There is business I must attend to.  Meeting adjourned."]], [[TANTALOS: "Tell the others of the unfortunate developments, Palaquie."
-
-PALAQUIE: "The Kruk Orcs, under %s, appear to have pushed to the last bastion of the Sunwall forces...  none of my visions predict this ending favorably for anyone of non-Orcish descent.  With the Sunwall gone, there will be no further distractions for the Kruk.  In short, the Sunwall are doomed - and we are next."
-
-TANTALOS: "Where there's a will, Palaquie, there's a way.  What of the Migratory Leviathan?  Nashal, do you have any idea where--"
-
-NASHAL: "About that...  Kasyros stole it when everything started going to slag.  We'd take it back, but he's using it to evacuate civilians.  We'd end up using too many bullets on our own people that belong in the Kruk Orcs."
-
-TANTALOS: "Unfortunate, but we'll surely be able to convict him of treason once this all blows over.  Pendor, you've been working with our marksmen - how are they doing?"
-
-PENDOR: "Scared scrapless, Your Honor, but they're learning quick.  I managed to snatch up some newer Flameshot rifles from Kaltor's surplus, and our Retaliators are as strong as ever."
-
-TANTALOS: "Splendid to hear.  And what of that backup weapon you had mentioned - what was that name again, #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF-#{normal}#"
-
-TORMAK: "It's gone.  The mages I sent with Pendor's runners...  their invisibility spells were inadequate.  The Orcs found them...  if it's any consolation, they don't appear to have realized what the keys are for, or what it's capable of.  I'm...  I'm sorry."
-
-Lengthy pause.
-
-TANTALOS: "...I think it's time."  Removes a briefcase from behind the podium, and opens it to show the other Councilors its contents, before closing it and holding it again.  Councilors Palaquie, Tormak, and Nashal audibly gasp.  Motion to strike all description of its contents from the record passed, 3-2.
-
-TORMAK: "You can't be serious!  How is that going to make the situation BETTER?"
-
-PALAQUIE: "It cannot."
-
-NASHAL: "I can't agree with this, Councilor Tantalos, your predecessor had a point--"
-
-TANTALOS: Pounds fist, breaking podium.  "That doddering old coward knew NOTHING!"  Pause; sighs.  "None of us do.  All we know is, this eye's almost certainly useful for more than making declogging draught from its tears, and the person who wants it is the type of person who casually digs holes to the center of Eyal.  We've tried everything; the time for a last resort has come, and we are in dire need of a miracle.  This... 'Loyalist' is the only possible source of miracles around, and if infinite energy and blasting holes through the planet are within his capabilities, then disposing of these barbarians should be quite simple."
-
-PALAQUIE: "If our ancestors are to believed, this could result in a fate worse than our own destruction--"
-
-TANTALOS: "Would everyone who doesn't have any #{italic}#better#{normal}# ideas cease their jabbering before I cease it #{italic}#for them?#{normal}#"
-
-[Silence.]
-
-TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and mechanics.  There is business I must attend to.  Meeting adjourned."]], "tformat")
 
 
 ------------------------------------------------
@@ -6786,6 +6726,19 @@ t(" (%s)", " (%s)", "tformat")
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/cursed/crimson-templar.lua"
+-- 1 entries
+t("sacrificed themself", "sacrificed themself", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/cursed/cursed.lua"
+-- 2 entries
+t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "_t")
+t("Hatred", "Hatred", "_t")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/cursed/primal-magic.lua"
 -- 8 entries
 t("Displace", "Displace", "talent name")
@@ -6804,8 +6757,20 @@ t([[Bathes the target in raw magic inflicting %d damage. Such wild magic is diff
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/cursed/self-hatred.lua"
--- 1 entries
+-- 5 entries
+t("Self-Sacrifice", "Self-Sacrifice", "talent name")
+t([[At the start of each turn, if you're bleeding, you gain %d hate.
+
+You can activate this talent to use your own life for power, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.]], [[At the start of each turn, if you're bleeding, you gain %d hate.
+
+You can activate this talent to use your own life for power, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.]], "tformat")
 t("#CRIMSON#%d#LAST#", "#CRIMSON#%d#LAST#", "tformat")
+t("tore themself apart", "tore themself apart", "_t")
+t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
+
+#{italic}#You can't just die. That would be too easy.#{normal}#]], [[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
+
+#{italic}#You can't just die. That would be too easy.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -7022,6 +6987,52 @@ t([[%s
 #YELLOW#%s#LAST#
 %s
 ]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/uber/wil.lua"
+-- 1 entries
+t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
+		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
+		
+		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
+
+		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
+
+		The following talent trees are swapped:
+		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
+		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
+		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
+
+		You will learn the following talents trees:
+		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
+		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
+		- #CRIMSON#Hatred#LAST#: Manifest your hatred through bleeding
+		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
+
+		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
+		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
+		]], [[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
+		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
+		
+		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
+
+		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
+
+		The following talent trees are swapped:
+		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
+		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
+		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
+
+		You will learn the following talents trees:
+		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
+		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
+		- #CRIMSON#Hatred#LAST#: Manifest your hatred through bleeding
+		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
+
+		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
+		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
+		]], "tformat")
 
 
 ------------------------------------------------
@@ -7529,9 +7540,54 @@ t([[ToME 4 is a large, complex game. Despite this, the most important mechanics-
 
 
 ------------------------------------------------
-section "game/modules/tome/data/timed_effects/magical.lua"
+section "game/modules/tome/data/texts/unlock-paladin_fallen.lua"
 -- 1 entries
+t([[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
+
+As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
+
+You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
+
+Learn new Talents:#YELLOW#
+- Bloodstained: Make your foes bleed!
+- Darkside: Every light casts a shadow, yours is powerful indeed
+- Hatred: Manifest your hatred through bleeding
+- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
+
+Swap your paladin Talents:#YELLOW#
+- Radiance turns into Gloom: Project onto others your own hate, hindering them
+- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
+- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
+#WHITE#
+
+Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
+]], [[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
+
+As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
+
+You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
+
+Learn new Talents:#YELLOW#
+- Bloodstained: Make your foes bleed!
+- Darkside: Every light casts a shadow, yours is powerful indeed
+- Hatred: Manifest your hatred through bleeding
+- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
+
+Swap your paladin Talents:#YELLOW#
+- Radiance turns into Gloom: Project onto others your own hate, hindering them
+- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
+- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
+#WHITE#
+
+Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
+]], "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/data/timed_effects/magical.lua"
+-- 2 entries
 t("%d%%", "%d%%", "tformat")
+t("#Target# summons a corpselight!", "#Target# summons a corpselight!", "_t")
 
 
 ------------------------------------------------
@@ -7544,15 +7600,20 @@ t("%s", "%s", "tformat")
 
 ------------------------------------------------
 section "game/modules/tome/data/timed_effects/other.lua"
--- 4 entries
+-- 9 entries
+t("was smeared across all space and time", "was smeared across all space and time", "_t")
 t("\
 - %s%s#LAST#", "\
 - %s%s#LAST#", "tformat")
 t("\
 - #ffa0ff#%s#LAST#", "\
 - #ffa0ff#%s#LAST#", "tformat")
+t("burnt to death by cauterize", "burnt to death by cauterize", "_t")
+t("killed in a dream", "killed in a dream", "_t")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("???", "???", "_t")
+t("failed to complete the lich ressurection ritual", "failed to complete the lich ressurection ritual", "_t")
+t("died a well-deserved death by exsanguination", "died a well-deserved death by exsanguination", "_t")
 
 
 ------------------------------------------------
@@ -7763,6 +7824,13 @@ t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
 t(" (%s)", " (%s)", "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/dialogs/UberTalent.lua"
+-- 2 entries
+t("#{bold}##GOLD#Prodigies#{normal}#", "#{bold}##GOLD#Prodigies#{normal}#", "_t")
+t("#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "_t")
 
 
 ------------------------------------------------
@@ -8270,10 +8338,9 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/load.lua"
--- 4 entries
+-- 3 entries
 t("Second weapon set: psionic focus", "Second weapon set: psionic focus", "_t")
 t("List of items that can be instantly used by swift hands.", "List of items that can be instantly used by swift hands.", "_t")
-t("Switf Hands", "Switf Hands", "_t")
 t("lck", "lck", "stat short_name")
 
 

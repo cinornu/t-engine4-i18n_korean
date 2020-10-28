@@ -882,6 +882,11 @@ t("The skin of this creature is literally crawling with larvae, yet she seems to
 
 
 ------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/snake-add.lua"
+
+
+
+------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/steam-drone.lua"
 
 t("drone", "드론", "entity subtype")
@@ -2151,7 +2156,7 @@ t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Ex
 
 #{italic}#(The door closes.)#{normal}#
 
-"...Yeah, Councillor Tantalos is getting his tea as soon as he can un-kick the hornet's nest that got us into this chaos.  Moving on...  departure was on time, projected journey to the Loyalist's last known position is underway, making a tunnel there from right under the palace.  All systems functioning, except for the tea-maker, and I can't give a slag about that.  End log."]], [["...이러면 되나? 좋아. 음. 여기는 지열 탐사 굴착기, G.E.M의 아지랑이 지휘관 팔모르다. 내 임무는..." *한숨 소리* "'그 '충신' 을 찾아내고 우릴 그의 은신처로 안전히 이동시킬 준비를 할 것. 그에게 이전에 동의했던 것을 제공할 것'. '우린 너무 무서워서 우릴 이 난장판에서 구원해 줄 수 있는 유일한 존재에게로 도망칠 거다. 그리고 우리한테 그 '눈' 을 가져와라' 를 평의회어로 번역하면 저렇다. 개인적으로, 우리 종족의 운명을 웬 땅 속에 사는 미친 놈한테 맡기는 게 내키진 않는다. 그리고..." *잘 알아들을 수 없는 불평* "...제기랄, 이건 내가 할 일도 아니라고, 난 정치꾼 부하가 아니라--"
+"...Yeah, Councillor Tantalos is getting his tea as soon as he can un-kick the hornet's nest that got us into this chaos.  Moving on...  departure was on time, projected journey to the Loyalist's last known position is underway, making a tunnel there from right under the palace.  All systems functioning, except for the tea-maker, and I can't give a slag about that.  End log."]], [["...이러면 되나? 좋아. 음. 여기는 지열 탐사 굴착기, G.E.M. 의 아지랑이 지휘관 팔모르다. 우리 임무는..." *한숨 소리* "'그 '충신' 을 찾아내고 그의 은신처로 안전히 이동할 준비를 한다. 그가 이전에 요구했던 것을 제공한다'. '우린 너무 무서워서 우릴 이 난장판에서 구원해 줄 수 있는 유일한 존재에게로 도망칠 거다. 그 '눈' 도 챙겨서' 를 평의회어로 번역하면 저렇다. 개인적으로, 우리 종족의 운명을 웬 땅 속에 사는 미친놈한테 맡기는 게 내키진 않는다. 그리고..." *잘 알아들을 수 없는 불평* "...제기랄, 이건 내가 할 일도 아니라고, 난 정치꾼 부하가 아니라--"
 
 #{italic}#(문이 열리고, 다른 누군가가 말하는 소리가 들렸습니다.)#{normal}#
 
@@ -2180,19 +2185,19 @@ t([["...for posterity!  Let's make sure future generations can hear the moments 
 #{italic}#(You hear Parmor's voice again.)#{normal}#  "Slag it, RUN!  Grab everything and--"  (The recording ends.)
 ]], [["...후세를 위해서! 미래 세대가 역사적인 순간을 들을 수 있게 하지요!" 평의원 탄탈로스의 목소리가 다시 들립니다... 그리고 굉장히 이상한 목소리도 들렸습니다. 이상할 정도로 깨끗한 목소리입니다. 이 장치가 소리를 내고 있지만, 머릿속에서 그 목소리가 들리는 것 같다는 느낌까지 듭니다.#{normal}#
 
-"그래, 그래, 좋은 생각이다. 오늘은 중요한 날이다. 우리 둘 모두에게 - 아니, 에이알에게... 그럼, 그대는 내가 오래 전에 말했던 것을 가져온 것인가?"
+"그래, 그래, 좋은 생각이다. 오늘은 중요한 날이다. 우리 둘 모두에게 - 아니, 에이알에게... 그럼, 내가 오래 전에 말했던 것을 가져온 것인가?"
 
-"물론이지요! 여기에-- 수레를 가져와라!"  (철컥거리는 소리, 삐걱거리는 소리.)  "원한다면, 열어 보셔도 됩니다."
+"물론이지요! 여기-- 수레를 가져와라!"  (철컥거리는 소리, 삐걱거리는 소리.)  "원한다면, 열어 보셔도 됩니다."
 
 "필요 없다. 힘이 느껴지는구나, 너무나도 친숙하지만 굉장히 새롭다... 아마크텔 그분의 눈이 확실하다! 실로 아름답도다, 그리고 모두가 이 아름다움을 알게 되리라..."
 
-"어... 예, 아름답습니다! 이로써 우리 아트모스와... 음, 그쪽 사람들은 오래토록 아름다운 협력 관계를 맺게 되었군요! 이제 돌아가서 준비가 되었다고 말해야겠고, 그쪽도 오크 문제를 해결할 준비가 되었습니까? 아, 그쪽 분들도 기뻐서 여기까지 내려오--"
+"어... 예, 아름답습니다! 이로써 우리 아트모스와... 음, 그쪽 사람들은 오래토록 아름다운 협력 관계를 맺게 되었군요! 이제 돌아가서 협상이 잘 됐고, 그쪽도 오크 문제를 해결할 준비가 되었다고 이야기해도 되겠습니까? 다른 의원들도, 그, 정말 내려오고 싶어했지만--"
 
-"가라, 나의 전령들이여. 모두 환영한다고 전하라."
+"가라, 나의 전령이여. 모두 환영하노라고 전하라."
 
 "다-당신 대체 무슨--"  #{italic}#뒤쪽에서 비명 소리. 꾸르륵 소리. 박살나는 소리. 멀리서, 짐승 같은 포효 소리.#{normal}#
 
-"아마크텔께서 그대의 봉사에 마땅한 상을 내리시리라." *박살나는 소리가 커짐*  "더 나은 모습으로 축복을 받으리라. 더 나은, 새로운 정신과 함께. 그대의 민족 역시 환대를 받으리..."
+"아마크텔께서 네 봉사에 마땅한 상을 내리시리라." *박살나는 소리가 커짐*  "더 나은 모습으로 축복을 받게 되리라. 더 나은, 새로운 정신과 함께. 너의 민족 역시 환대를 받으리..."
 
 #{italic}#(팔모르의 목소리가 다시 들립니다.)#{normal}#  "제기랄, 도망쳐!! 근처에 아무거나 잡고--"  (기록이 끝났습니다.)
 ]], "_t")
@@ -2201,7 +2206,7 @@ t([[#{italic}#(You hear loud, mechanical rumbling; in the distance, you hear sou
 
 "Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], [[#{italic}#(기계가 시끄럽게 웅웅거리는 소리가 들립니다. 멀리서 요란한 싸움 소리와 세게 부딪히는 소리, 검이 살점을 베어내는 소리, 증기총 소리, 그리고 거인과 공포가 고통으로 지르는 고함 소리가 들렸습니다. 팔모르는 어쩔 줄 모르는 듯한 목소리입니다.)#{normal}#
 
-"메이데이, 메이데이, 우린 탈출 중이다! 탄탈로스는 사라졌고, 우린 그 놈을 구하러 가지 않을! 것이다! 연기의 궁전으로 가는 터널도, 빌어처먹을 평의회도 상관 없다! 우린 이곳에서부터 최대한 멀리 갈 것이--" *시끄러운 쉭쉭 소리* "이 개새--!" *신음 소리, 으깨지는 소리, 베는 소리*  "빌어먹을 태양의 장벽 쪽으로 전속력 이동 중, 우린 이 대륙 최초의 장거리 차원문을 탈취할 거다! 그 난쟁이들이 환영해주든 아니든! 엄밀히 말하면 이건 반역이나 폭동이나 뭐 아무튼 그런 거겠지만, 만약 지금 이거 듣고 있는 게 평의회 놈들이면, 좆이나 까 잡숴라 이 개새끼들아, 우린 살고 싶다고!! 고도 상승 중, 지표 도달 중, 여기는 아.지. 팔모르 통신 종료--"]], "_t")
+"메이데이, 메이데이, 우린 탈출 중이다! 탄탈로스는 사라졌고, 우린 그놈을 구하러 가지 않을! 것이다! 연기의 궁전에 있는 터널을 폐쇄하고, 빌어처먹을 평의회도 완전 폐쇄하라! 우린 이곳에서부터 최대한 멀리 갈 것이--" *시끄러운 쉭쉭 소리* "이 개새--!" *신음 소리, 으깨지는 소리, 베는 소리*  "빌어먹을 태양의 장벽 쪽으로 전속력 이동 중, 우린 이 대륙 최초의 장거리 차원문을 파괴할 거다! 그 난쟁이들이 좋아하든 말든! 엄밀히 말하면 이건 반역이나 폭동이나 뭐 아무튼 그런 거겠지만, 만약 지금 이거 듣고 있는 게 평의회 놈들이면, 좆이나 까 잡숴라 이 개새끼들아, 우리도 살고 싶다고!! 고도 상승 중, 지표 도달 중, 여기는 아.지. 팔모르 통신 종료--"]], "_t")
 t("why is it down there why is it ANYWHERE", "왜 저게 저 아래에 있는 거야 왜 저게 사방에 있는 거야", "_t")
 t("If anyone finds this, tell the Jarsovi brothers their father lov", "누가 이걸 찾아냈다면, 자르소비 형제한테 아빠가 사랑했다고 저ㄴㅎ", "_t")
 t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "너무 많아. 아트모스 사람들을 더 데리고 나올 수도 없었어, 안전하지 않았어, 놈들이랑 구분이 되지 않았어. 연료가 지상까지 갈 수 있을 만큼 충분하기를.", "_t")
@@ -2857,17 +2862,17 @@ TANTALOS: "The meeting has been adjourned.  You should be training our necropsyc
 
 ???: "[...]걸 날 탓하겠다고?  비행선을 점검했던 건 "너의" 정비공이었고, 수리에 쓴 것도 "너의" 장비였으니, 그게 추락한 건 "너의" 잘못이란 말이다!"
 
-나샬: "그렇죠, 그리고 내가 그 소식을 듣자마자 당장 공격을 중지하라고 당신한테 이야기했었습니다. 충신이 주었던 마법봉은 화력 보조용으로 굉장히 우수해서, 그것 없이는 침공을 해선 안 된다고 말입니다.  하지만 팔라퀴가 지금 공격할 수밖에 없다고 밀어붙였고--"
+나샬: "그렇죠, 그리고 내가 그 소식을 듣자마자 당장 공격을 중지하라고 당신한테 이야기했었습니다. 충신이 주었던 마법봉은 화력 보조용으로 너무나도 우수해서, 그것 없이는 침공을 해선 안 된다고 말입니다.  하지만 팔라퀴가 지금 공격할 수밖에 없다고 밀어붙였고--"
 
-팔라퀴: "내 예측은 틀리지 않습니다.  그게 최선이었다고요.  그땐 확실히 성공 확률이 낮았지만, 그래도 펜도르가 구상했던 뻣뻣하고 촉박한 계획에 비하면 훨씬 나은--"
+팔라퀴: "내 예지는 틀리지 않습니다.  그게 최선이었다고요.  그땐 확실히 성공 확률이 낮았지만, 그래도 펜도르가 구상했던 뻣뻣하고 촉박한 계획에 비하면 훨씬 나은--"
 
 펜도르: "말도 꺼내지 마라, 이 더러운 예티 성애자년--[...]"
 
 [...]
 
-"평의원 펜도르는 눈앞의 기계가 자길 쏘는 기계인지 칼로 찌르는 기계인지 분간하지 못한다" 라는 발언을 기록하자는 동의안이 발의됨, 투표 결과 3대 1로 가결됨, 평의원 탄탈로스는 기권함.
+평의원 펜도르는 눈앞의 기계가 자길 쏘는 기계인지 칼로 찌르는 기계인지 분간하지 못한다는 요지의 발언을 기록하자는 동의안이 발의됨, 투표 결과 3대 1로 가결됨, 평의원 탄탈로스는 기권함.
 
-"평의원 토르막의 로브에선 압생트 냄새랑 부랑자 같은 냄새가 난다" 는 발언을 기록하자는 동의안이 발의됨, 투표 결과 3대 1로 가결됨, 평의원 탄탈로스는 기권함.
+평의원 토르막의 로브에선 압생트 냄새랑 부랑자 같은 냄새가 난다는 요지의 발언을 기록하자는 동의안이 발의됨, 투표 결과 3대 1로 가결됨, 평의원 탄탈로스는 기권함.
 
 공식 질의를 시작하자는 동의안이 발의됨, 투표 결과 3대 1로 가결됨, 평의원 탄탈로스는 기권함.  다음 회의의 첫 의제는 "평의원 나샬의 최첨단 굴착 장비와 추출 장비가 그녀의 머리를 몸통에서 추출해낼 수 있는가" 로 결--
 
@@ -2885,8 +2890,78 @@ TANTALOS: "The meeting has been adjourned.  You should be training our necropsyc
 
 팔라퀴: "다른 선택지라고요?"
 
-탄탈로스: "이번 회의는 이걸로 끝입니다.  이제 염령술사들을 훈련시켜야 할 겁니다, 팔라퀴."]], "_t")
+탄탈로스: "회의는 끝났습니다.  염령술사들을 훈련시켜야 하지 않습니까, 팔라퀴?"]], "_t")
 t("palace of fumes", "연기의 궁전", "newLore category")
+t("excerpts from a Council meeting transcript (3)", "평의회 회의 속기록에서 발췌한 문서 (3)", "_t")
+t([[TANTALOS: "Tell the others of the unfortunate developments, Palaquie."
+
+PALAQUIE: "The Kruk Orcs, under %s, appear to have pushed to the last bastion of the Sunwall forces...  none of my visions predict this ending favorably for anyone of non-Orcish descent.  With the Sunwall gone, there will be no further distractions for the Kruk.  In short, the Sunwall are doomed - and we are next."
+
+TANTALOS: "Where there's a will, Palaquie, there's a way.  What of the Migratory Leviathan?  Nashal, do you have any idea where--"
+
+NASHAL: "About that...  Kasyros stole it when everything started going to slag.  We'd take it back, but he's using it to evacuate civilians.  We'd end up using too many bullets on our own people that belong in the Kruk Orcs."
+
+TANTALOS: "Unfortunate, but we'll surely be able to convict him of treason once this all blows over.  Pendor, you've been working with our marksmen - how are they doing?"
+
+PENDOR: "Scared scrapless, Your Honor, but they're learning quick.  I managed to snatch up some newer Flameshot rifles from Kaltor's surplus, and our Retaliators are as strong as ever."
+
+TANTALOS: "Splendid to hear.  And what of that backup weapon you had mentioned - what was that name again, #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF-#{normal}#"
+
+TORMAK: "It's gone.  The mages I sent with Pendor's runners...  their invisibility spells were inadequate.  The Orcs found them...  if it's any consolation, they don't appear to have realized what the keys are for, or what it's capable of.  I'm...  I'm sorry."
+
+Lengthy pause.
+
+TANTALOS: "...I think it's time."  Removes a briefcase from behind the podium, and opens it to show the other Councilors its contents, before closing it and holding it again.  Councilors Palaquie, Tormak, and Nashal audibly gasp.  Motion to strike all description of its contents from the record passed, 3-2.
+
+TORMAK: "You can't be serious!  How is that going to make the situation BETTER?"
+
+PALAQUIE: "It cannot."
+
+NASHAL: "I can't agree with this, Councilor Tantalos, your predecessor had a point--"
+
+TANTALOS: Pounds fist, breaking podium.  "That doddering old coward knew NOTHING!"  Pause; sighs.  "None of us do.  All we know is, this eye's almost certainly useful for more than making declogging draught from its tears, and the person who wants it is the type of person who casually digs holes to the center of Eyal.  We've tried everything; the time for a last resort has come, and we are in dire need of a miracle.  This... 'Loyalist' is the only possible source of miracles around, and if infinite energy and blasting holes through the planet are within his capabilities, then disposing of these barbarians should be quite simple."
+
+PALAQUIE: "If our ancestors are to believed, this could result in a fate worse than our own destruction--"
+
+TANTALOS: "Would everyone who doesn't have any #{italic}#better#{normal}# ideas cease their jabbering before I cease it #{italic}#for them?#{normal}#"
+
+[Silence.]
+
+TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and mechanics.  There is business I must attend to.  Meeting adjourned."]], [[탄탈로스: "다른 이들에게 이 불행한 상황에 대해 설명해 주십시오, 팔라퀴."
+
+팔라퀴: "%s 휘하의 크룩 오크들이 태양의 장벽의 마지막 보루까지 밀고 들어간 것 같습니다...  제가 볼 수 있는 그 어떤 미래도, 오크들에게 불리한 결말로는 끝나지 않습니다.  태양의 장벽이 사라졌으니, 이제 크룩 오크들을 막을 수 있을만한 것들이 모두 사라진 겁니다.  쉽게 말하면, 태양의 장벽이 파멸을 맞이했고 - 이제 우리 차례입니다."
+
+탄탈로스: "하려는 의지가 있다면, 팔라퀴, 길 또한 있는 법입니다.  레비아탄 호는 어떻게 되었습니까?  나샬, 혹시 짐작 가는 곳이 있--"
+
+나샬: "그건...  사태가 파국으로 치닫기 시작하자 카시로스가 훔쳐갔습니다.  되찾으려고 했었지만, 그는 그걸 써서 민간인들을 피난시키고 있습니다.  크룩 오크들에게 쏘아야 할 탄을 우리 민간인들에게 쏠 순 없는 노릇이잖습니까."
+
+탄탈로스: "불쾌한 일이군요. 이 사태가 전부 정리되고 나면 그에게 반역죄를 물을 수 있을 겁니다.  펜도르, 그대에겐 사수들을 맡겼었는데, 그들은 좀 어떻습니까?"
+
+펜도르: "모두 겁에 질린 상태입니다, 의원장님. 하지만 훈련은 순조롭습니다.  칼토르에게서 남는 화염 장총을 좀 건질 수 있었고, 우리 복수자 부대의 전력은 현재 최고조입니다."
+
+탄탈로스: "훌륭합니다.  또, 그대들이 말했던 예비 무기는 어떻게 되었습니까? 이름이 분명 - #{bold}#가차없는 천공의 관통자 데스트럭-#{normal}#"
+
+토르막: "사라졌습니다.  펜도르의 운반책들에 마법사들을 붙여 놓았었지만...  투명 마법을 잘 쓰지 못했습니다.  그래서 오크 놈들한테 발각됐고...  그나마 다행이라면, 놈들이 그 열쇠들이 다 뭔지, 그것들로 뭘 할 수 있는지는 알아차리지 못한 것 같습니다.  정말... 정말 죄송합니다."
+
+긴 정적.
+
+탄탈로스: "...때가 된 것 같군요."  연단 뒤쪽에서 서류 가방을 꺼내더니, 열어서 그 내용물을 다른 의원들에게 보여주고 다시 닫아서 챙김.  평의원 팔라퀴, 토르막, 나샬이 경악하며 헉 하는 소리를 냄.  해당 내용물에 대한 묘사를 기록에서 완전히 삭제하자는 동의안이 발의됨, 투표 결과 3대 2로 가결됨.
+
+토르막: "제정신입니까?!  이걸로 상황이 "나아진다" 고요?"
+
+팔라퀴: "그럴 순 없습니다."
+
+나샬: "동의할 수 없습니다, 탄탈로스 의원, 당신 전임자의 말이 옳아요--"
+
+탄탈로스: 주먹을 내려침, 연단이 박살남.  "그 오들거리는 겁쟁이 늙다리 새끼는 아무것도 모른단 말이다!!"  정적. 한숨.  "우리도 마찬가지고요.  우리가 아는 건 그저, 이 눈을 여기서 나오는 눈물로 증기구 청소약 따윌 만드는 것보단 더 유용하게 쓸 수 있다는 것과, 이걸 원하는 자는 이 행성 중심부까지 통하는 구멍을 아주 손쉽게 뚫을 수 있는 사람이라는 겁니다.  우린 수단이란 수단은 모두 강구했습니다. 이제 최후의 수단을 써야 할 때가 왔고, 우리에겐 기적이라 부를만한 것이 절실하게 필요합니다.  우리가 아는 한에선 이... '충신' 이 그 기적을 일으킬 수 있는 유일한 인물이고, 만약 그 무한한 에너지와 행성에다 구멍을 뚫어버린 게 진정 그자의 힘이라면, 저 바깥의 야만인들을 지워버리는 건 정말 손쉬운 일일 겁니다."
+
+팔라퀴: "우리 선조들의 이야기가 맞다면, 그건 우리가 이대로 멸망하는 것보다 더 심각한 결과를 초래하게 될--"
+
+탄탈로스: "#{italic}#더 나은#{normal}# 의견이 없으면, 입을 닥쳐 주시지 않겠습니까? 내가 닥치게 #{italic}#해 드리기#{normal}# 전에?"
+
+[정적.]
+
+탄탈로스: "예상대로.  나샬, G.E.M. 을 준비하고 거기에 탑승할 병력들과 정비공들을 모으십시오.  이제 내가 나서야 할 차례입니다.  폐회합니다."]], "tformat")
 
 
 ------------------------------------------------
@@ -5570,7 +5645,6 @@ t("#Target# seems more focused.", "#Target#의 혼란이 끝났다.", "_t")
 t("-Confused", "-혼란", "_t")
 t("Shield of the Sun", "태양의 방패", "_t")
 t("The power of the Sun itself shields the target.", "태양의 힘 그 자체가 대상을 보호함.", "_t")
-t("TO THE MOUNTAINS!", "TO THE MOUNTAINS!_test", "_t")
 t("A Light in the Darkness", "어둠 속의 빛", "_t")
 t("The power of the Sun imbues the target.", "태양의 힘이 대상을 강화함.", "_t")
 t("sun", "태양", "effect subtype")

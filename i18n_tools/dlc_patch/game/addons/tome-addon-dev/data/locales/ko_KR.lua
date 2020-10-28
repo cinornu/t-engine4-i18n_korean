@@ -11,9 +11,6 @@ t("Provides tools to develop and publish addons.", "애드온을 개발하고 �
 section "game/addons/tome-addon-dev/superload/mod/dialogs/debug/AddonDeveloper.lua"
 
 t("Addon Developer", "애드온 개발자", "_t")
-t([[- Your profile has been enabled for addon uploading, you can go to #{italic}##LIGHT_BLUE#http://te4.org/addons/tome#LAST##{normal}# and upload your addon.
-]], [[- 애드온 업로드 기능이 활성화된 계정이며, #{italic}##LIGHT_BLUE#http://te4.org/addons/tome#LAST##{normal}# 에서 애드온을 업로드할 수 있습니다.
-]], "_t")
 t([[Addon archive created:
 - Addon file: #LIGHT_GREEN#%s#LAST# in folder #{bold}#%s#{normal}#
 - Addon MD5: #LIGHT_BLUE#%s#LAST# (this was copied to your clipboard)

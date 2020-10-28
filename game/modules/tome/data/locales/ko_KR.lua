@@ -19833,8 +19833,6 @@ t("Bloodstained", "피칠갑", "_t")
 t("You, like your weapons, are tainted forever.", "너는, 네 무기 처럼, 영원히 더럽혀지리라.", "_t")
 t("Blood is power. Let the rivers run red.", "피는 힘이다. 강을 붉게 물들여라.", "_t")
 t("Crimson Templar", "진홍의 기사", "_t")
-t("Of all the things in this dark world, you are the worst.  Torment yourself and find the power therein.", "이 어두운 세계의 모든 것 중, 네가 최악이다.  자신을 고문해 그 안에서 힘을 찾아라.", "_t")
-t("Self-Hatred", "자기혐오", "_t")
 t("Cursed", "저주받은 자", "_t")
 t("Hate-powered abilities that don't belong anywhere else.", "어디에도 속하지 않은 증오의 힘입니다.", "_t")
 t("cursed", "저주", "talent category")
@@ -20196,17 +20194,7 @@ t([[While rampaging, you slam up to %d adjacent opponents, stunning them for %d 
 ------------------------------------------------
 section "game/modules/tome/data/talents/cursed/self-hatred.lua"
 
-t("Self-Harm", "자해", "talent name")
 t("You can only use this while in combat", "이 기술은 전투에서 단 한 번만 사용 가능하다", "logPlayer")
-t([[At the start of each turn, if you're bleeding, you gain %d hate.
-
-You can activate this talent to quickly draw a blade across your skin, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.
-
-#{italic}#Pain is just about the only thing you can still feel.#{normal}#]], [[출혈 상태일 때 매 턴 증오를 %d 회복합니다.
-
-이 기술을 활성화하면, 자신의 살을 빠르게 베어내어, 5 턴에 걸쳐 %0.2f 출혈 피해를 받습니다. 이 출혈 효과는 저항하거나 제거할 수 없지만, 피칠갑 기술계열로 피해를 완화할 수 있습니다. 출혈 피해량은 최대 생명력에 비례하여 증가합니다.
-
-#{italic}#오직 고통만이 당신이 아직 느낄 수 있는 전부다.#{normal}#]], "tformat")
 t("Self-Loathing", "자가 혐오", "talent name")
 t([[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
 
@@ -20231,11 +20219,6 @@ This strength comes at a cost: you lose %d%% of your maximum life every turn.  T
 t("Self-Judgement", "자가 심판", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target2# #Source#의 %s, 피해를 경감한다!#LAST#.", "logCombat", nil, {"으로"})
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d 피가 뿜어져 나옴#LAST#%s)#LAST#", "tformat")
-t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
-
-#{italic}#You can't just die. That would be too easy. You deserve to die slowly.#{normal}#]], [[최대 생명력의 %d%% 이상의 피해를 한 번에 받을 때, 초과된 피해량이 얕은 상처로 전환되어, 다음 %d 턴 동안 출혈로 인한 피해를 입습니다. 이 출혈 효과는 저항할 수도, 제거할 수도 없으나, 피칠갑 기술계열로 피해를 완화할 수 있습니다. 또한 최대 생명력의 %d%% 이상의 피해를 가하는 너무나 강력한 일격은, 불완전한 상태로 얕은 상처로 전환됩니다.
-
-#{italic}#당신은 그냥 죽으면 안돼. 그건 너무 쉽잖아. 당신은 천천히 죽어가야 마땅해.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -27399,47 +27382,6 @@ t("Unlocked the Fallen evolution", "타락한 자 진화를 해금", "_t")
 t("Committed a heinous act", "극악무도한 행위를 자행할 것", "_t")
 t("Fallen", "타락한 자", "_t")
 t("#CRIMSON#You give in to the darkness. You have fallen!", "#CRIMSON#당신은 어둠에 굴복했다. 당신은 타락했다!", "say")
-t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
-		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
-		
-		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
-
-		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
-
-		The following talent trees are swapped:
-		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
-		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
-
-		You will learn the following talents trees:
-		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
-		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
-		- #CRIMSON#Self-Hatred#LAST#: Manifest your self hatred through bleeding
-		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
-
-		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
-		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], [[태양의 기사들의 규율은 때때로 감당하기 어려울 수도 있습니다.  어둠에 굴복해서
-		#{italic}##GREY#규율을 저버리는게 어떻겠습니까?#LAST##{normal}#
-		
-		#CRIMSON#이 직업 진화는 직업과 캐릭터를 근본적으로, 아주 크게 변화시킵니다. 너무 가벼이 선택하지 마십시오.#LAST#
-
-		당신이 알고있는 모든 전투 기술 계통과 해제 가능한 천공 계통 기술들은 저주받은 기술로 변해, 적들 사이에 피를 흩뿌리고, 광휘 대신 암울의 그림자를 드리울 수 있게됩니다. 또 새로운 전투 방식과 방어 능력을 얻게됩니다.
-
-		다음 기술 계열이 변경됩니다 :
-		- #GOLD#광휘#LAST#는 #CRIMSON#암울#LAST#로 변합니다 : 증오를 발산해, 적들을 방해합니다.
-		- #GOLD#수호자#LAST#는 #CRIMSON#진홍의 기사#LAST#으로 변합니다 : 피의 힘을 사용해 당신의 앞길을 방해하는 멍청이들에게 패배를 안깁니다.
-		- #GOLD#성전사는#LAST# #CRIMSON#어두운 태양#LAST#으로 변합니다 : 죽은 태양의 에너지를 불러와, 적들을 파괴합니다.
-
-		다음 기술들을 익힙니다 :
-		- #CRIMSON#피칠갑#LAST# : 적에게 출혈을 유발합니다!
-		- #CRIMSON#어두운 면#LAST# : 모든 빛은 그림자를 남깁니다. 당신의 힘은 짙은 그림자를 남깁니다.
-		- #CRIMSON#자기혐오#LAST#: 출혈을 통해 자신의 증오를 드러냅니다.
-		- #CRIMSON#장송곡#LAST#: 죽음과 슬픔의 노래를 불러, 결의를 확고하게 다집니다.
-
-		해당 기술 계열을 잊어버리지만, 기술 점수가 반환됩니다 : 방패 공격, 양손 무기 맹공.
-		또한 모든 전투 기술 계통의 기술들이 기력 대신 증오를 소모하게 됩니다.
-		]], "tformat")
 
 
 ------------------------------------------------
@@ -29719,45 +29661,6 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 section "game/modules/tome/data/texts/unlock-paladin_fallen.lua"
 
 t("New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "새로운 직업 진화: #LIGHT_GREEN#타락한 자 (태양의 기사)", "_t")
-t([[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
-
-As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
-
-You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
-
-Learn new Talents:#YELLOW#
-- Bloodstained: Make your foes bleed!
-- Darkside: Every light casts a shadow, yours is powerful indeed
-- Self-Hatred: Manifest your self hatred through bleeding
-- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
-
-Swap your paladin Talents:#YELLOW#
-- Radiance turns into Gloom: Project onto others your own hate, hindering them
-- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
-- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
-#WHITE#
-
-Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
-]], [[#{bold}##GOLD#당신도 그렇게 다르지 않습니다...#LAST##{normal}#
-
-당신은 태양의 기사로써 규율을 따라 왔습니다. 하지만 세상의 어둠을 마주하고 나서부터, 의심이 생기기 시작했습니다.
-
-따라서 태양의 기사 직업의 #LIGHT_GREEN#타락한 자 직업 진화#WHITE#가 해금되었습니다.
-
-새롭게 배울 수 있는 기술들:#YELLOW#
-- 피칠갑: 적들이 피를 흘리게 만듭니다!
-- 어두운 면: 모든 빛에는 그림자가 지며, 당신의 그림자는 특히 더 강력합니다.
-- 자기혐오: 출혈을 통해 자기혐오를 드러냅니다.
-- 장송곡: 죽음과 슬픔의 노래를 불러 스스로의 다짐을 강화합니다.#WHITE#
-
-몇몇 기술들은 새롭게 바뀝니다:#YELLOW#
-- 광휘는 암울로: 스스로의 증오를 다른 자들에게 투영하여 그들을 방해한다.
-- 성전사는 어두운 태양으로: 죽은 태양의 에너지를 불러내어 적들을 쳐부순다.
-- 수호자는 진홍의 기사로: 피의 힘으로 자신에게 대적하는 어리석은 것들을 제어하고 쓰러뜨린다.
-#WHITE#
-
-직업 진화는 특수 기술로 취급되며, 기본 직업에 새로운 성장 방향을 제시해 줍니다. 또한 직업 진화는 진화가 가능한 직업에게만 표시됩니다.
-]], "_t")
 
 
 ------------------------------------------------
@@ -38205,6 +38108,7 @@ t("Weapon Set 2: You can use shields or a second weapon in your off-hand, if you
 t("Weapon Set 2: Object held in your telekinetic grasp. It can be a weapon or some other item to provide a benefit to your psionic powers. Press 'x' to switch weapon sets.", "무기 세트 2: 염동력 손아귀에 쥔 물체입니다. 무기나 다른 아이템을 쥐어서 염동력을 향상시킬 수 있습니다.'x'를 눌러 무기 세트를 바꾸십시오.", "_t")
 t("Second weapon set: Quiver", "두 번째 무기 : 화살통", "_t")
 t("Weapon Set 2: Your readied ammo.", "무기 세트 2: 준비된 탄약.", "_t")
+t("Swift Hands", "빠른 손놀림", "_t")
 t("Strength", "힘", "stat name")
 t("Strength defines your character's ability to apply physical force. It increases your melee damage, damage done with heavy weapons, your chance to resist physical effects, and carrying capacity.", "힘은 물리적 힘을 행사하는 능력을 결정합니다. 근접 피해와 무거운 무기로 입히는 피해를 증가시킵니다. 물리 상태 효과에 저항할 확률과 당신이 지닐 수 있는 무게를 증가시킵니다.", "_t")
 t("str", "힘", "stat short_name")
