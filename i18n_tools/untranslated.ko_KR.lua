@@ -1567,13 +1567,7 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/utils.lua"
--- 9 entries
-t("%dth", "%dth", "_t")
-t("%dst", "%dst", "_t")
-t("%dnd", "%dnd", "_t")
-t("%drd", "%drd", "_t")
-t("an ", "an ", "_t")
-t("a ", "a ", "_t")
+-- 3 entries
 t("its", "its", "_t")
 t("it", "it", "_t")
 t("itself", "itself", "_t")

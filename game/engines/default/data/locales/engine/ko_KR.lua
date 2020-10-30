@@ -1437,6 +1437,12 @@ t("Game installed!", "게임 설치됨!", "_t")
 ------------------------------------------------
 section "game/engines/default/engine/utils.lua"
 
+t("%dth", "%d", "_t")
+t("%dst", "%d", "_t")
+t("%dnd", "%d", "_t")
+t("%drd", "%d", "_t")
+t("an ", " ", "_t")
+t("a ", " ", "_t")
 t("she", "그녀", "_t")
 t("he", "그", "_t")
 t("his", "그", "_t")
