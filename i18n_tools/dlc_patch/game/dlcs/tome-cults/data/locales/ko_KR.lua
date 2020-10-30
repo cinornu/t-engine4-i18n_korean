@@ -1736,7 +1736,7 @@ Then from behind me came a voice, "What is this about ogres?" I turned around to
 
 Approaching the guards to communicate something, their bewildered faces quickly became somewhat distressed both by the actions and words of the shalore woman. I don't know what the mage had said, but it seemed as if the guards were almost pleading with the young shaloren woman about something. Eventually she called for me to follow her and began to move in the direction I had come when I entered the city with the Rune of Return. I could tell that this shalore seemed to have some plan in mind, perhaps one that would allow the ogres passage into the city. Before turning to follow her, I noticed the two guards murmer something to each other before one of them rushed inside the building. The other seemed to look at worriedly in the direction of me and the mage as we walked away.]], [[[i]분명히 말해두고 싶은 것은 내가 살아왔던 곳은 마법을 거의 쓰지 않았거니와 룬 같은 마법 도구도 없는 것이나 마찬가지였다는 것이다. 마법을 쓸 줄 아는 탈로레가 있기는 했지만, 그들은 독학을 해냈을 뿐이고 비밀 리 이뤄지는 것이었다. 마법을 쓰는 탈로레는 탈로렌의 땅에서 추방당하거나, 추방되지 않더라도 배척당한다. 지금도 나는 귀환의 룬이 어떻게 작동하는 것인지 구조를 잘 모른다. 하지만 나는 지금부터라도 룬에 대해 기초부터 배우고 있으며 그 안에 담긴 마법을 이해하려고 노력하고 있다.[/i]
 
-우리는 샬로렌의 영토 안으로 계속 전진해나갔으며, 광신도들의 정찰병들도 계속 우리의 뒤를 밟았다. 하지만 그들은 항상 조심하며 거리를 두었고 결코 가까이 오지 않았다. 며칠 뒤 우리는 엘발라를 감싸는 장막의 경계에 다다를 수 있었다. 내가 처음에 엘발라로 들어설 때 지나갔던 안개의 벽에 도착하여, 나는 오래 전에 받아두었던 귀환의 룬을 배낭에서 꺼냈다. 나는 손을 뻗어 그것을 오우거 대장에게 보여주었다. 난 대장이 룬을 받아들 것이라 생각했지만 그는 그저 고개를 끄덕이며 이렇게 말할 뿐이었다. "귀환의 룬이군." 나는 계속 손을 내민 채로 그 앞에 서있었는데, 오우거 대장은 그 모습에 나만큼이나 꽤 혼란스러운 듯했다. 참모가 끼어들며 말하기 전까지는 계속 그런 상태였다. "자네는 그 룬이 어떻게 작동하는지 전혀 모르는군?"
+우리는 샬로렌의 영토 안으로 계속 전진해나갔으며, 광신도들의 정찰병들도 계속 우리의 뒤를 밟았다. 하지만 그들은 항상 조심하며 거리를 두었고 결코 가까이 오지 않았다. 며칠 뒤 우리는 엘발라를 감싸는 장막의 경계에 다다를 수 있었다. 내가 처음에 엘발라로 들어설 때 지나갔던 안개의 벽에 도착하여, 나는 오래전에 받아두었던 귀환의 룬을 배낭에서 꺼냈다. 나는 손을 뻗어 그것을 오우거 대장에게 보여주었다. 난 대장이 룬을 받아들 것이라 생각했지만 그는 그저 고개를 끄덕이며 이렇게 말할 뿐이었다. "귀환의 룬이군." 나는 계속 손을 내민 채로 그 앞에 서있었는데, 오우거 대장은 그 모습에 나만큼이나 꽤 혼란스러운 듯했다. 참모가 끼어들며 말하기 전까지는 계속 그런 상태였다. "자네는 그 룬이 어떻게 작동하는지 전혀 모르는군?"
 
 그제서야 대장은 눈을 껌뻑이며 상황을 이해했다. "그래, 마법에 대해 전혀 모르는구만." 나는 어찌 할 바를 모르고 멀뚱멀뚱 서있을 뿐이었다. 오우거들은 이를 알아챈 것 같았다. "이리 오게, 탈로레." 목소리가 들리자 나는 그 말이 들린 쪽으로 고개를 들렸다. 내가 이전에 도왔던 여성 오우거가 말한 것이었다. "당신, 그 룬 좀 보여주세요." 나는 혼란스러웠지만, 이내 그녀에게 다가가 룬을 보여줬다. 그녀는 룬을 받아들고 이리저리 살펴보더니 이내 나에게 돌려줬다. "이 룬은 당신에게 묶여있어요. 당신만이 새길 수 있죠. 그렇게 해야만 당신이 엘발라로 들어갈 수 있고 우리들을 들여보내달라고 부탁할 수 있겠죠."
 
@@ -2024,7 +2024,7 @@ We will bide our time down here in the dark and turn this place into a beacon of
 t("the history of Kroshkkur (2)", "크로슈쿠르의 역사 (2)", "_t")
 t([[We were few once. Just outcasts from some crevices and dark places that everyone else forgot about long ago. When we claimed this fortress, more began to come. Not horrors, not surface dwellers, but those of us caught in between the two. Some of us were born this way while others were altered by forces beyond our understanding. The only thing that is common among all of us is that we simply don't belong anywhere. With conscious minds, we can plainly understand the horrors of Eyal's depths. With twisted and corrupted bodies, no 'civilised' people would tolerate our presence among them. When we reside in Kroshkurr, however, we are craftsmen, scholars, hermits, poets and warriors.
 
-To that end, we all gather here. Are we spiteful for how this world openly rejects us? It would be a lie if we said no. To that end, we shall plunge head first into the places no one else dares look. We shall use the dark secrets of this world to carve out our own place in it. We shall create wonders while the world above us rests in fitful dreams.]], [[우리는 한때  소수였다. 다른 이들이 오래 전에 잊어버린 어떤 틈새와 어두운 장소들에서 추방된 자들. 우리가 이 요새를 차지했을 때, 더 많은 이들이 오기 시작했다. 공포체도 아니고, 지상의 거주자도 아니었으며, 그 사이에 끼어버린 우리같은 찾아왔다. 우리들 중 몇몇은 이렇게 태어났고 다른 이들은 우리가 이해할 수 없는 힘에 의해 변이되었다. 우리 모두에게 공통적인 것은 우리가 어디에도 속하지 않는다는 것이다. 주의 깊게 들여다 본다면 우리는 에이얄 깊은 곳의 공포를 분명히 이해할 수 있다. 뒤틀리고 타락한 몸으로, 어떤 '문명화된' 사람들도 우리가 그들 사이에 있는 것을 용납하지 않을 것이다. 그러나 우리가 크로슈쿠르에 거주할 때, 우리는 장인, 학자, 은둔자, 시인, 전사들이다.
+To that end, we all gather here. Are we spiteful for how this world openly rejects us? It would be a lie if we said no. To that end, we shall plunge head first into the places no one else dares look. We shall use the dark secrets of this world to carve out our own place in it. We shall create wonders while the world above us rests in fitful dreams.]], [[우리는 한때  소수였다. 다른 이들이 오래전에 잊어버린 어떤 틈새와 어두운 장소들에서 추방된 자들. 우리가 이 요새를 차지했을 때, 더 많은 이들이 오기 시작했다. 공포체도 아니고, 지상의 거주자도 아니었으며, 그 사이에 끼어버린 우리같은 찾아왔다. 우리들 중 몇몇은 이렇게 태어났고 다른 이들은 우리가 이해할 수 없는 힘에 의해 변이되었다. 우리 모두에게 공통적인 것은 우리가 어디에도 속하지 않는다는 것이다. 주의 깊게 들여다 본다면 우리는 에이얄 깊은 곳의 공포를 분명히 이해할 수 있다. 뒤틀리고 타락한 몸으로, 어떤 '문명화된' 사람들도 우리가 그들 사이에 있는 것을 용납하지 않을 것이다. 그러나 우리가 크로슈쿠르에 거주할 때, 우리는 장인, 학자, 은둔자, 시인, 전사들이다.
 
 그러기 위해 우리 모두가 여기에 모인것이다. 우리는 이 세상이 우리를 대놓고 거부하는 것에 앙심을 품은걸까? 아니라고 말한다면 거짓말일것이다. 그렇기 때문에 우리는 다른 누구도 감히 볼 수 없는 곳에 먼저 뛰어들 것이다. 우리는 이 세상의 어두운 비밀을 이용하여 그 속에 우리 자신의 자리를 개척할 것이다. 우리 위의 세계가 산발적인 꿈 속에 있는 동안 우리는 경이로운 것들을 창조할 것이다.]], "_t")
 t("the history of Kroshkkur (3)", "크로슈쿠르의 역사 (3)", "_t")
@@ -4235,7 +4235,7 @@ t("%s (corrupted)", "%s (오염됨)", "tformat")
 section "game/dlcs/tome-cults/data/zones/godfeaster/npcs.lua"
 
 t("The Divine Writhing Mass", "신적인 뒤틀린 덩어리", "entity name")
-t("Once the nervous system of the Maggot, it transformed into something... else after the Maggot ate some remains of a long dead god. If severed the Godfeaster will surely wither and die.", "한때는 어떤 구더기의 신경계에 불과했지만, 구더기가 오래 전에 죽은 신의 유해를 파먹게 되자 뭔가... 다른 것으로 변했습니다. 이것을 신 포식자에게서 잘라낸다면 분명 쇠약해질 것이고, 곧 죽게 될 겁니다.", "_t")
+t("Once the nervous system of the Maggot, it transformed into something... else after the Maggot ate some remains of a long dead god. If severed the Godfeaster will surely wither and die.", "한때는 어떤 구더기의 신경계에 불과했지만, 구더기가 오래전에 죽은 신의 유해를 파먹게 되자 뭔가... 다른 것으로 변했습니다. 이것을 신 포식자에게서 잘라낸다면 분명 쇠약해질 것이고, 곧 죽게 될 겁니다.", "_t")
 t("Malyu", "말류", "entity name")
 t("humanoid", "인간형", "entity type")
 t("shalore", "샬로레", "entity subtype")
@@ -4621,7 +4621,7 @@ Cultist of Entropy use "insanity" to power their special abilities.
 Insanity is a measure of their own dementia and makes them more and more chaotic.
 ]], [[엔트로피는 혼돈의 힘이며, 끊임없이 이 우주를 더욱더 무질서하게 만들려고 합니다.
 대부분의 사람들은 이것을 제어하고 이용하는 것은 불가능하다고 하지만, 틀렸습니다.
-아주 오래 전에 에이알에 왔던 어떤 존재는 한 무리의 피난민들을 불쌍히 여겼고, 그들에게 엔트로피 그 자체를 다룰 수 있는 힘을 가르쳤습니다.
+아주 오래전에 에이알에 왔던 어떤 존재는 한 무리의 피난민들을 불쌍히 여겼고, 그들에게 엔트로피 그 자체를 다룰 수 있는 힘을 가르쳤습니다.
 
 당신은 엔트로피의 마법을 처음 가르쳤을 때를 묘사하는 내용의 고서를 읽었고, 따라서 이제부터 #LIGHT_GREEN#엔트로피 광신도 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
 

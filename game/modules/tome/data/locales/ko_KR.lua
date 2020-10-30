@@ -308,7 +308,7 @@ t("Mental save", "정신 내성", "_t")
 t("Spell save", "주문 내성", "_t")
 t("#ORANGE#%s shrugs off %s '%s'!", "#ORANGE#%s %s %s 무효화했다!", "logCombat", {1,3,2}, {"는",[3]="를"})
 t("#LIGHT_UMBER#%s resists %s '%s'!", "#LIGHT_UMBER#%s %s %s 저항했다!", "logCombat", {1,3,2}, {"는",[3]="를"})
-t("#Target#'s", "#Target#의", "_t")
+t("#Target#'s", " ", "_t")
 t("the effect", "효과", "_t")
 t("but fumbles!", "하지만 실패했다!", "_t")
 t("to the %s!", "그리고 %s에 부딪쳤다!", "tformat")
@@ -1057,7 +1057,7 @@ t("#{bold}#%s's mind surges with critical power!#{normal}#", "#{bold}#%s의 정�
 section "game/modules/tome/class/interface/PartyDeath.lua"
 
 t("unknown", "알 수 없음", "_t")
-t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "1번-%s (2번-%d 레벨, 3번-%s 4번-%s)는 5번-%s 6번-%s에게 죽었다. (7번-%s 8번-%s 9번-%s 10번-%s)", "_t")
+t("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s.", "1번-%s (2번-%d 레벨, 3번-%s 4번-%s)는 5번-%s 6번-%s에게 죽었다. (7번-%s 8번-%s 9번-%s 10번-%s)", "_t", {4,1,3,2,5,6,9,8,10,7})
 t("her", "그녀", "_t")
 t("him", "그", "_t")
 t("herself", "자기 자신", "_t")
@@ -4127,7 +4127,7 @@ t("It is not yet your place to command such a staff as this. To do so invites ob
 t("Call on which aspect of the staff?", "어떤 위상을 불러냅니까?", "_t")
 t("Oh, I was once a mighty Eldritch Channeler. Mighty and absentminded, as it turns out. Had a bit of a mishap with an Inverted Kugala's Soul-infusion technique. Long story short, my soul is now stuck in this stick, and the soul I was working with... well, I don't rightly know where he got to. But I hope we never meet him.", "오, 전 원래 강력한 힘을 가진, 섬뜩한 마법사였습니다. 강력하면서도 덜렁이였지만요. 쿠갈라의 영혼 주입 기술을 역으로 쓰다가 작은 사고가 일어났었죠. 긴 이야기니까 요약하면, 제 영혼은 이제 이 막대기에 갇혀 버렸고, 그 때 저랑 같이 일하던 다른 영혼은... 음, 그가 어디로 갔는지는 저도 정확히는 모릅니다. 하지만 그와 만날 일이 제발 없었으면 하네요.", "_t")
 t("Argh! Bollocksed up a tricky bit of soul magic and the fool that I was supposed to be imprisoning for all eternity flitted away. My body, like all the targets of my spells, intended or otherwise, got reduced to elementary particles. Fortunately, I had this soul-cage of a staff all prepped and ready for a stray soul, so I'm not completely gone. But enough chit-chat. Let's fry somebody.", "으아악! 영혼 마법이 아주 살짝 좆돼서 내가 영원히 가둬 두려 했던 멍청이가 도망가 버렸어. 내 몸은 원소 수준의 입자로 크기가 줄어들어 버렸다고. 이때까지 내가 주문을 걸었던 것들처럼. 뭐 의도치 않게 그렇게 된 것들도 있긴 하지만. 아무튼 다행스럽게도 난 이 지팡이의 영혼 우리를 항상 갖고 다니면서 영혼이 돌아갈 곳이 없어지는 사태에 대비하고 있었고, 덕분에 난 완전히 사라지진 않았지. 잡담은 이 정도면 됐어. 이제 누구 좀 불태우러 가자고.", "_t")
-t("My old master-- who, though a powerful enchanter, did not compare to you and your glory-- saw fit to imprison me in this fine staff to aid him in his work. Alas, he is long gone, but I despair not, for I have found a mighty new master.", "강력한 마법부여사셨던 저의 옛 주인님은-- 아, 물론 지금 주인님과 비교하면 아무 것도 아니지만요-- 아무튼 그분은 저를 이 훌륭한 지팡이에다가 가두셨고, 제가 그분의 도움이 될 것이라고 하셨죠. 아아... 그분은 오래 전에 돌아가셨지만, 슬프진 않아요. 막강하신 새 주인님을 찾았으니까.", "_t")
+t("My old master-- who, though a powerful enchanter, did not compare to you and your glory-- saw fit to imprison me in this fine staff to aid him in his work. Alas, he is long gone, but I despair not, for I have found a mighty new master.", "강력한 마법부여사셨던 저의 옛 주인님은-- 아, 물론 지금 주인님과 비교하면 아무 것도 아니지만요-- 아무튼 그분은 저를 이 훌륭한 지팡이에다가 가두셨고, 제가 그분의 도움이 될 것이라고 하셨죠. 아아... 그분은 오래전에 돌아가셨지만, 슬프진 않아요. 막강하신 새 주인님을 찾았으니까.", "_t")
 t("I am a portion of the very spirit of the world that was ripped free during the Spellblaze. I speak that I might enlighten those who bear me.", "저는 이 세계의 의지 그 자체의 일부입니다. 마법폭발 당시에 분리된 일부분이죠. 제가 이런 말을 하는 이유는 절 소유한 자가 올바른 길을 걸었으면 하기 때문입니다.", "_t")
 t("What's the good of immortality if you can't even speak? No archmage worth his salt is going to concoct some immoral life-after-death scheme without including some sort of capacity for making his opinions known. And, by the way, your energy manipulation techniques are on the same level as those of my average pair of shoes. Best study up if you don't want to die forgotten and incompetent.", "말도 못 하면 불멸이라는 게 무슨 의미가 있겠어? 밥값도 못하는 칠푼이가 아닌 이상에야, 무슨 불멸의 삶이나 사후의 삶 같은 걸 설계할 때 자기 의사 표명도 못하도록 계획을 세우는 마도사는 없다고. 그리고 딴 얘기지만, 네 에너지 조작 실력은 대충 내 발치 정도 수준이구만. 무능한 채로 살다가 죽어서도 잊혀지는 꼴 나기 싫으면 최선을 다해서 공부하라고.", "_t")
 t("Of course. Which aspect?", "물론이죠. 어떤 위상으로 할까요?", "_t")
@@ -11199,7 +11199,7 @@ t("This parchment contains some lore.", "이야기를 담고 있는 양피지.",
 t("read it", "읽기", "_t")
 t("healing infusion", "회복 주입물", "entity name")
 t("regeneration infusion", "재생 주입물", "entity name")
-t("wild infusion", "야생 주입물", "entity name")
+t("wild infusion", "자연 주입물", "entity name")
 t("movement infusion", "이동 주입물", "entity name")
 t("heroism infusion", "영웅 주입물", "entity name")
 t("teleportation rune", "공간이동 룬", "entity name")
@@ -13651,7 +13651,7 @@ Was it a dream?  Some strange foretelling?  Or could it have been a true apparit
  
 “바보같은 꿈 때문에요.” 그녀는 냉랭하게 말했다.
  
-네이라의 두 눈이 쏘아부쳤다.  “그건 꿈이 아니라고!” 그녀가 외쳤다.  “흉조라고, 내가 말했잖아!”  그녀가 애원하는 눈으로 내게 돌아섰다.  “당신은 저를 믿어야해요. 아라니온.  오늘은 뭔가 끔찍하게 잘못될 거예요.  나는 어젯밤 꿈 속에서 마치 오래 전에 겪었던 것처럼 생생하게 느꼈어요.  유리와 은, 그리고 대리석으로 만들어진 도시가 불타고 있었고, 수 천명이 울부짖고 있었어요. 아니. 수 만명이. 나이든 자, 어린 아이들 모두가 죽어가고 있었어요.  하늘에 떠있던 도시가 무너지자, 도시가 추락하며 산산조각 났고, 그 고통을 온 대지에 퍼뜨렸어요.  그리고 그곳에 있던 다른 도시들에게서 보라색 빛의 기둥이 솟아나오면서, 공기를 오존과 불타버린 살의 향기로 채우며 춤을 췄어요.  어디를 둘러보아도 죽음이 자리잡고 있었어요!  우리가 전에 결코 볼수 없었던 그런 죽음이."
+네이라의 두 눈이 쏘아부쳤다.  “그건 꿈이 아니라고!” 그녀가 외쳤다.  “흉조라고, 내가 말했잖아!”  그녀가 애원하는 눈으로 내게 돌아섰다.  “당신은 저를 믿어야해요. 아라니온.  오늘은 뭔가 끔찍하게 잘못될 거예요.  나는 어젯밤 꿈 속에서 마치 오래전에 겪었던 것처럼 생생하게 느꼈어요.  유리와 은, 그리고 대리석으로 만들어진 도시가 불타고 있었고, 수 천명이 울부짖고 있었어요. 아니. 수 만명이. 나이든 자, 어린 아이들 모두가 죽어가고 있었어요.  하늘에 떠있던 도시가 무너지자, 도시가 추락하며 산산조각 났고, 그 고통을 온 대지에 퍼뜨렸어요.  그리고 그곳에 있던 다른 도시들에게서 보라색 빛의 기둥이 솟아나오면서, 공기를 오존과 불타버린 살의 향기로 채우며 춤을 췄어요.  어디를 둘러보아도 죽음이 자리잡고 있었어요!  우리가 전에 결코 볼수 없었던 그런 죽음이."
  
 “제가 이건 단순한 꿈이 아니예요.  이건... 계시였어요. 경고하는 - 우리가 손 댄 위험에 대한 잊혀진 이야기들...  우린 당장 멈춰야해요!”
  
@@ -14874,7 +14874,7 @@ t([[Last Will and Testament of Rolf Two-Axes
 I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set out to slay was dead already by another's hand, but its corruption remained still. When I arrived in its chamber, Weisman was already half-gone; he was hacking away at foes only he could see. When I tried to stop him, he turned his axe on me... I am beaten and broken, hiding in some crevasse away from... from my own friend, who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
 #{italic}#(the ink blotch seems to indicate Weisman had caught up to his old friend, one-half of that abomination)#{normal}#]], [[쌍도끼 롤프의 유언장
 
-난 실패했다. 가장 거대한 용의 아가리여, 나는 실패했다! 와이즈만이 죽이러 갔던 짐승은 이미 다른 이의 손에 죽어있었다. 그런데도 타락의 영향은 남아있었다. 내가 그놈의 둥지에 도착했을 때, 와이즈만은 이미 반쯤 미쳐있었다; 그는 그에게만 보이는 적을 향해서 닥치는 대로 도끼를 휘두르고 있었다. 나는 그를 멈추려고 했지만, 그는 도끼를 나에게 향했다... 나는 두들겨 맞고 처참한 몰골로... 내 친구에게서 떨어진 작은 틈에 몸을 숨겼다. 이 곳의 타락으로 인해 뒤틀린 자들은 내 도끼로는 쓰러뜨릴 수 없는 괴물들이야. 나는 지금도 내 옛 친구가 나를 부르는 뒤틀린 목소리를 들을 수 있기에 이번이 내가 양피지에 글을 쓰는 마지막 순간이라는 것을 의심하지 않는다. 나는 누구든 그를 처치해줄 자에게 내 소지품을 양도하...
+난 실패했다. 가장 거대한 용의 아가리여, 나는 실패했다! 와이즈만이 죽이러 갔던 짐승은 이미 다른 이의 손에 죽어있었다. 그럼에도 타락의 영향은 남아있었다. 내가 그놈의 둥지에 도착했을 때, 와이즈만은 이미 반쯤 미쳐있었다; 그는 그에게만 보이는 적을 향해서 닥치는 대로 도끼를 휘두르고 있었다. 나는 그를 멈추려고 했지만, 그는 도끼를 나에게 향했다... 나는 두들겨 맞고 처참한 몰골로... 내 친구에게서 떨어진 작은 틈에 몸을 숨겼다. 이 곳의 타락으로 인해 뒤틀린 자들은 내 도끼로는 쓰러뜨릴 수 없는 괴물들이야. 나는 지금도 내 옛 친구가 나를 부르는 뒤틀린 목소리를 들을 수 있기에 이번이 내가 양피지에 글을 쓰는 마지막 순간이라는 것을 의심하지 않는다. 나는 누구든 그를 처치해줄 자에게 내 소지품을 양도하...
 #{italic}#(잉크 자국으로 보아 와이즈만이 그의 오랜 친구를 잡으러 온 것 같다. 반은 흉물인 그가)#{normal}#]], "_t")
 t("memories of Artelia Firstborn", "아르텔리아 퍼스트본의 기억", "_t")
 t([[#{italic}#This scroll looks ancient, possibly going back millennia, but has been incredibly well-preserved.#{normal}#
@@ -14893,17 +14893,77 @@ In all those centuries I still searched for the woman and found no trace. I know
 
 처음 깨어나서 첫 숨을 들이켰을 때, 세상의 신선한 공기가 나를 활력으로 가득 채우던 그 순간을 기억한다. 눈을 뜨자, 내 위에는 찬란한 광채를 내뿜는 형상이 서 있었다. 비단 나무 사이에서 그녀는 크고 늘씬하고, 바닥에 닿을 정도로 긴 은발을 가지고 서 있었다. 그녀의 피부는 빛보다 하얗고, 눈은 별보다 밝았다.
 
-그녀를 쳐다보는 것만으로 한 세기가 지날 것만 같았다. 그녀도 나를 봤고, 그 두 눈에서 눈물이 맺혔다. 나는 아직 목소리조차 없었지만, "왜 이렇게나 슬퍼 보일까?"라고 생각했다. 그러자 내 정신안에서 그녀의 대답이 메아리쳤다. "네가 아름답기에, 이 세상의 누구보다 훨씬 아름답기에... 하지만 이 세상은 고통과 슬픔으로 가득찻기에... 나의 피조물이 고통받을 생각을 하니 견딜 수가 없었단다. 너에게 수십년을 버틸 힘과 네 욕망을 표현할 목소리를 주마. 그럼에도 슬픔의 무게가 널 평생 짓누를 것이니... 이 생각을 하니 울지 않을 수 없었단다."
+그녀를 쳐다보는 것만으로 한 세기가 지날 것만 같았다. 그녀도 나를 봤고, 그녀의 두 눈에 눈물이 맺혔다. 나는 아직 목소리조차 없었지만, "왜 이렇게나 슬퍼 보일까?"라고 생각했다. 그러자 내 정신 안에서 그녀의 대답이 메아리쳤다. "네가 아름답기에, 이 세상의 무엇보다도 훨씬 더 아름답기에... 하지만 이 세상은 고통과 슬픔으로 가득 찼기에... 나의 피조물이 고통받을 생각을 하니 견딜 수가 없단다. 너에게 여러 해를 버틸 힘과 네 모든 욕망을 표현할 목소리를 주마. 그럼에도 슬픔의 무게가 널 평생 짓누를 것이니... 이 생각을 하니 울지 않을 수 없었단다."
 
-내 수족에 힘이 생기고, 목구멍에서 목소리가 나오기 시작했다. 일어나 주위를 둘러보고, 세상의 경이로움과 내 위의 별들을 보고나서 기뻐서 크게 노래하지 않을 수 없었다. 내 목소리를 듣고 그 여인은 미소지었다. 눈물도 그쳤다. 그녀를 즐겁게 해주려고 좀 더 노래를 불렀다. "저는 혼자인가요?" 내가 묻자 그녀는 끄덕였다. 너 같은 존재는 달리 없단다." 나는 슬픔을 느꼇다. 그녀는 내 가슴속에 외로움이 있음을 볼 수 있었다. 잠깐 주저하고서 그녀는 말했다, "고통스럽지만, 네 욕망을 부정할 수 없겠구나. 이제 잠들어라, 네가 다시 깨어났을때 넌 너와 같은 사람들 사이에 있게 될 거다. 그리고 이 망가진 세상으로 걸어나가 고치려고 해 보아라."
+내 수족에 힘이 생기고, 목구멍에서 목소리가 나오기 시작했다. 일어나 주위를 둘러보고, 세상의 경이로움과 내 위의 별들을 보고 나서 기뻐서 크게 노래하지 않을 수 없었다. 내 목소리를 듣고 그 여인은 미소지었다. 눈물도 그쳤다. 그녀를 즐겁게 해주려고 좀 더 노래를 불렀다. "저는 혼자인가요?" 내가 묻자 그녀는 끄덕였다. 너 같은 존재는 달리 없단다." 나는 슬픔을 느꼈다. 그녀는 내 가슴속에 외로움이 있음을 볼 수 있었다. 잠깐 주저하고서 그녀는 말했다, "고통스럽지만, 네 욕망을 부정할 수 없겠구나. 이제 잠들어라, 네가 다시 깨어났을 때 넌 너와 같은 자들 사이에 있게 될 거다. 그리고 이 망가진 세상으로 걸어 나가 고치려고 시도해 보거라."
 
-그녀가 말을 마치고 나는 즉시 잠에 빠졌다. 내가 일어났을 때 세상은 바뀌어 있었다. 하늘에는 강렬한 빛이 있었다-그것은 갓 태어난 태양이었다. 주변에는 나와 같은 사람들이 있었고, 외관상 비슷하지만 능력과 특성이 다른 사람들도 있었다. 그들을 깨우고 한 데 모았다. 우리는 서로의 존재함 그 자체를 기뻐했다. 우리 스스로를 Alor? 라고 이름붙였다. 그렇지만 그 여인은 사라졌다. 아무도 그녀에 대해서 몰랐고, 찾기 위해 여기 저기를 찾았지만 모두 수포로 돌아갔다.
+그녀가 말을 마치고 나는 즉시 잠에 빠졌다. 내가 일어났을 때 세상은 바뀌어 있었다. 하늘에는 강렬한 빛이 있었다-그것은 갓 태어난 태양이었다. 주변에는 나와 같은 사람들이 있었고, 외관상 비슷하지만, 능력과 특성이 다른 사람들도 있었다. 나는 그들을 깨우고 한데 모았다. 우리는 서로의 존재함 그 자체를 기뻐했다. 우리 스스로를 알로레 라고 이름 붙였다. 그렇지만 그 여인은 사라졌다. 아무도 그녀에 대해서 몰랐고, 찾기 위해 여기저기를 찾았지만 모두 수포로 돌아갔다.
 
-시간이 흐르고, 다른 생물들이 발견됬다. 종종 새로 발견된 생물들은 사악한 존재였으며, 우린 그들과 전쟁을 벌였다. 그리고 우리는 쉐르'툴을 발견했다. 그들은 우리의 아름다움에 환희했고 the ways of the Arts를 가르쳐 주었다. 그 전쟁이 찾아오자 우리 중 일부는 그들의 편에서 싸웠지만, 그런 대가들 옆에 설 자리는 없다는 걸 깨달았다. 그래서 우리는 숲속으로 후퇴했고, 전쟁이 재앙이나 다름없는 결과로 맹렬히 치닫는 것을 볼 수 밖에 없었다.
+시간이 흐르고, 다른 생물들이 발견됐다. 종종 새로 발견된 생물들은 사악한 존재였으며, 우린 그들과 전쟁을 벌였다. 그리고 우리는 쉐르'툴을 발견했다. 그들은 우리의 아름다움에 환희했고 예술과 아름다움의 길을 가르쳐 주었다. 그 전쟁이 찾아오자 우리 중 일부는 그들의 편에서 싸웠지만, 그런 대가들 옆에 설 자리는 없다는 걸 깨달았다. 그래서 우리는 숲속으로 후퇴했고, 전쟁이 재앙이나 다름없는 결과로 맹렬히 치닫는 것을 지켜볼 수 밖에 없었다.
 
-지난 수 세기 동안 나는 그 여인을 찾았고 어떠한 흔적도 발견할 수 없었다. 신들은 모두 사냥당한 것을 알고 있었고, 그들이 성전을 치룰 동안 쉐르'툴을 철저히 수색한 것도 기억한다. 난 이제 늙었다. 나와 함께 처음 깨어난 이들은 하나 둘씩 세상을 떠나기 시작했다. 밤이 지날때마다 점점 더 춥고 외로워짐을 느낀다. 하지만 잠자리에 들때면 꿈속에서 그녀의 얼굴을 보고 목소리를 듣는다. 언젠가, 어떻게든, 그녀를 다시 볼 수 있을 거라는 느낌이 든다.]], "_t")
+지난 수 세기 동안 나는 그 여인을 찾았고 어떠한 흔적도 발견할 수 없었다. 신들은 모두 사냥당한 것을 알고 있었고, 그들이 성전을 치를 동안 쉐르'툴은 신들을 철저히 수색한 것도 기억한다. 난 이제 늙었다. 나와 함께 처음 깨어난 이들은 하나둘씩 세상을 떠나기 시작했다. 밤이 지날 때마다 점점 더 춥고 외로워짐을 느낀다. 하지만 잠자리에 들 때면 꿈속에서 그녀의 얼굴을 보고 목소리를 듣는다. 언젠가, 어떻게든, 그녀를 다시 볼 수 있을 거라는 느낌이 든다.]], "_t")
 t("human myth of creation", "인간 창조 신화", "_t")
+t([[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
+And Gerlyk walked Eyal with his three brothers.
+But one day Gerlyk walked alone and realised he was alone, and he desired company.
+So Gerlyk took a burning coal, and put stones around it, and wrapped it in earth, and bathed it in water and breathed his breath into it, and it became alive. And Gerlyk named it Human.
+Now Gerlyk brought Human back to his brothers to see.
+But Gerlyk's brothers were jealous and tore Human apart. One brother grabbed the stone, and one brother grabbed the earth, and one brother grabbed the water.
+Gerlyk was sad, but took the burning coal that was left and made a new Human.
+Then the brother with the earth copied him, but made a short creature, and called it Halfling.
+And the brother with the stone made a thick creature, and called it Dwarf.
+And the brother with the water made a thin creature, and called it Elf.
+But Gerlyk's brothers grew jealous of each others creatures, and they fought, and they all were killed. And Elf cried and Dwarf cried and Halfling cried to see their creators fall.
+And Gerlyk was sad, and looked at Human and said, "I am sorry, but this is not a time for creators any more. I must go."
+And Gerlyk walked into the Darkness.
+But Human did not cry, for the coal in his heart burned hot, and he knew he was not truly alone.]], [[태초에 태양과 달이 태어나고, 에이얄이 어둠속에서 모습을 드러냈다.
+그리고 게를릭은 세 형제와 함께 에이얄을 걸었다.
+그러나 어느 날 게를릭은 혼자 거닐다 자신이 혼자라는 것을 깨닫고 누군가와 함께 하기를 원했다.
+그래서 게를릭은 불타는 석탄을 가져다가 그 주위에 돌을 두르고 흙으로 감싼 다음 물을 적시고 그 속에 그의 숨결을 불어 넣으니, 그것은 생명을 얻었다. 그리고 게를릭은 그것을 인간이라고 이름 지었다.
+이후 게를릭은 인간을 형제들에게 데리고 가 보여주었다.
+그러나 게를릭의 형제들은 질투심이 나서 인간을 갈기갈기 찢어 버렸다. 한 형제는 돌을 움켜쥐고, 한 형제는 흙을 움켜쥐고, 한 형제는 물을 움켜쥐었다.
+게를릭은 슬펐지만 남아 있는 불타는 석탄을 가져다가 새로운 인간을 만들었다.
+그리고 흙을 든 형제가 그를 따라 하였으나, 땅딸막한 생물을 만들어서, 그것을 하플링이라고 불렀다.
+그리고 돌을 든 형제는 두꺼운 생물을 만들어, 그것을 드워프라고 불렀다.
+그리고 물을 가진 형제는 가는 생물을 만들어, 엘프라고 불렀다.
+그러나 게를릭의 형제들은 서로가 만든 다른 생물들을 질투하게 되었다, 그들은 싸웠고, 그들은 서로를 살해했다. 그리고 그들의 창조주의 몰락을 보며 엘프가 울었고 드워프가 울었으며 하플링이 울었다.
+그리고 게를릭은 슬퍼하였다. 그는 인간을 바라보며 말하였다, "미안하지만, 지금은 더이상 창조주들을 위한 시간이 아니다. 나는 가야만 하노라."
+그리고 게를릭은 어둠 속으로 걸어 들어갔다.
+그러나 인간은 울지 않았다, 마음속의 석탄이 뜨겁게 타오르기에 진정으로 혼자가 아니라는 사실을 알고 있었기 때문이다.]], "_t")
 t("a logical analysis of creation, by philosopher Smythen", "철학자 스미슨의 창조의 논리적 분석", "_t")
+t([[Many are the tales of how our world was made, from the absurd to the romantic to the horrific. But they are all mere myths, with no more than seeds of truth to even the most reliable. The history of our race goes back far, but it is tantalisingly scant in details from before we met the other races. Indeed, it is only through our battles with the others that we halflings have any ancient records at all.
+
+The elves one would suspect of having the greatest knowledge of elder times, but they are aloof and silent. One must judge from this that either they do not know, or that the truth ashames them. The latter would certainly not surprise me.
+
+The humans have more myths than they have brain cells. It seems that each village has several versions of their own local tales, usually passed down orally over the ages. It is clear that not a single element of any of their myths can be construed to contain any essence of the truth.
+
+The dwarves are reticent about the subject of how they were made. They say that such talk is "not profitable". However upon further pressing (and bribing) they will open up a little further. They as a race are of the most fervent belief that they were the last people to be made in Maj'Eyal. They say they are the "final product". Their word for all other races in fact translates directly to "prototype". This mostly singular outlook does of course seem absurd, but one need only look at the rest of dwarven society to see that they are an absurd race with ridiculous ideals. If they are what they consider perfection then I thank whatever god made me that I am flawed!
+
+The subject of gods is of course a difficult one. Clearly there are no divine forces at work in the world today. But the world as we know it did not come from nothing, and even the great Sher'Tul clearly did naught more than manipulate the world - they did not make it.
+
+By logical conjecture one can only presume that some great being made the world. This must have been a benevolent being, for it is clear that "He" created creatures separate from himself to walk the earth. Clearly this is we halflings. We are the only race that truly appreciates the world. We do not warp it with magic experiments like the Shaloren, nor hide from it like the Thaloren. We do not bring destruction like the orcs, or petty greed like the dwarves. And our understanding and knowledge is so far advanced than the humans that it is hard to understand why we share the same world with them at all. We were quite clearly the first of the current races to be created, and our natural feelings of entitlement to all there is in Maj'Eyal must stem from this.
+
+Now that this has been clearly analysed in logical terms, one must consider the source of the other races. It is impossible that they were made by the same god - truly impossible. What strange being could create our race, so gifted and rounded, and yet make such warped and twisted creatures as the dwarves and humans? No, clearly other gods were responsible, lesser gods than our own which copied his grand design. But with fudging fingers and inelegant touches the works of their design were clearly far inferior to the subtleties and perfection which crafted us.
+
+However there remains the matter of the Sher'Tul. Clearly these were of greater power than us, and yet they disappeared. One must presume that our god made this race before us, but was somehow unhappy with them, and so removed them and made us instead. We are not as powerful as the Sher'Tul - not yet at least - but we have our own gifts that evidently give us a greater place in our creator's heart. This would explain why we were the first race to unlock the powers of the Sher'Tul farportals. We had a natural affinity to the works of our elder brethren.
+
+So what happened to these gods after they had made the races which we see today? One must presume strife between them, and that they killed themselves, or took their battle away from the world. Our creator, seeing the other gods killed or left, must have then entrusted the world to us halflings, knowing that we would rule over it in his stead. This is why at every point in history we have played a pivotal role in the shaping of our world. It is our rightful inheritance, and it is our duty to rule it well.]], [[우리의 세계가 어떻게 만들어졌는지에 대한 이야기들은 터무니없는 것부터 낭만적인 것, 끔찍한 것까지 다양하다. 그러나 가장 신뢰할만한 내용마저도 진실의 씨앗 이상의 가치는 없는 단순한 신화일 뿐이다. 우리 종족의 역사는 멀리 거슬러 올라가지만, 다른 종족을 만나기 전의 세부적인 이야기는 감질나게 부족하다. 사실, 우리 하플링들이 가지고 있는 고대의 기록들은 전부 다른 종족들과의 전투에 관한 것 뿐이다.
+
+엘프들은 고대역사에 관해 가장 대단한 지식을 가지고 있다고 의심되지만, 그들은 냉담하고 말이 없다. 이러한 사실에 미루어 판단하건대 엘프들은 진실을 모르거나, 진실이 그들을 부끄럽게 만들기 때문일 것이다. 후자의 경우라도 확실히 나를 놀라게 하지는 않을 것 같다.
+
+인간은 그들의 뇌세포 수보다 더 많은 신화를 가지고 있다. 각 마을에는 대개 구전으로 시대를 지나 전해지는 그들만의 지역 설화가 몇 개씩 있는 것 같다. 확실한 건 인간 신화의 어떤 요소도 진실의 어떤 본질조차 담고 있지 않다는 것이다.
+
+드워프들은 그들이 어떻게 만들어졌는지에 대해선 말을 아끼고 있다. 그들은 그런 대화가 "수익성이 없다"고 말한다. 그러나 그들을 더 압박(그리고 뇌물을 주면)하면 조금 더 털어놓을 것이다. 그들은 종족으로서 그들이 마즈'에이얄에서 가장 마지막으로 만들어진 종족이라는 열렬한 믿음을 가지고 있다. 그들은 그들이 "최종 제품"이라고 말한다. 다른 종족을 지칭하는 그들의 말은 사실 "시제품"으로 번역된다. 물론 이 가장 특이한 세계관은 터무니없어 보인다, 그러나 한번 드워프 사회를 들여다보면 그들이 우스꽝스러운 이상을 가진 터무니없는 종족이라는 것을 알 수 있다. 만약 그들이 스스로를 완벽하다고 생각하는 것이라면, 나는 우리를 결점 있게 만들어준 신에게 감사를 표한다!
+
+신들에 관한 주제는 물론 어려운 것이다. 분명히 오늘날 세계에는 신의 힘이 작용하고 있지 않다. 그러나 우리가 알고 있는 세상은 무에서 온 것이 아니었고, 위대한 쉐르'툴조차 세상을 조종하는 것 이상은 하지 않았다는 게 확실하다 - 그들이 세상을 만든 건 아니다.
+
+논리적인 추측으로는 어떤 위대한 존재가 세상을 만들었다고 추측할 수 있을 뿐이다. '그'는 자기 자신으로부터 분리된 생명체를 창조하여 대지를 걷게 하였으므로 이것은 분명 자비로운 존재였을 것이다. 그리고 분명히 이건 우리 하플링들이다. 우리는 세상에 진정으로 감사하는 유일한 종족이다. 우리는 샬로레와 같은 마법 실험으로 세상을 뒤틀지도 않고, 탈로레처럼 그것으로부터 숨지도 않는다. 우리는 오크처럼 파멸을 가져오거나 드워프처럼 하찮은 욕심을 부리지 않는다. 그리고 우리의 이해와 지식은 인간보다 훨씬 진보되어 있어서 왜 우리가 그들과 같은 세계를 공유하는지 전혀 이해할 수 없을 정도다. 우리는 분명히 현재의 종족 중 처음으로 창조된 것이었고, 마즈'에이얄에 있는 모든 것에 대한 우리의 당연한 권리에 대한 감정은 이것으로부터 기인한 것이 분명하다.
+
+이제 이것을 논리적인 용어로 명확하게 분석하였으므로, 다른 종족의 기원을 고려해야 한다. 그들이 우리를 만든 같은 신에 의해 만들어졌다는 것은 불가능하다 - 정말 불가능하다. 어떤 이상한 존재가 그렇게 재능 있고 모든 걸 아우르는 우리 종족을 창조하고, 그러면서도 드워프와 인간처럼 뒤틀리고 비틀린 생명체를 만들 수 있었을까? 아니, 분명히 다른 신들에게 책임이 있다, 우리를 만든 신의 웅장한 디자인을 베낀 열등한 신들이 있었을 것이다. 그러나 손가락이 쭈글쭈글한 데다 손끝이 곱지 않은 그들의 디자인은 우리를 만들어준 섬세함과 완벽함에는 훨씬 못 미쳤던 것이다.
+
+그러나 쉐르'툴의 문제가 남아있다. 분명히 쉐르'툴은 우리보다 더 큰 힘을 가지고 있었으나, 그럼에도 그들은 사라졌다. 우리의 신이 우리를 만들기 전에 먼저 이 종족을 만들었지만, 어찌 된 일인지 이들에게 불만이 생겨 이들을 제거하고 대신 우리를 만들었다고 추측해야만 한다. 우리는 -적어도 아직은- 쉐르'툴만큼 강력하지는 않지만, 분명히 우리의 창조자의 마음속에 더 큰 자리를 마련해 주는 우리만의 선물을 가지고 있다. 이것이 왜 우리가 쉐르'툴 장거리 차원 문의 힘을 파헤친 첫 종족이었는지를 설명해 줄 것이다. 우리는 고대의 연장자들의 작품에 타고난 친화력을 가지고 있다는 것이다.
+
+그렇다면 이 신들은 오늘날 우리가 보는 종족을 만든 후에 어떻게 되었을까? 그들 사이의 다툼 끝에 그들이 스스로 목숨을 잃었거나, 그들의 싸움터를 세상 너머로 옮겨갔다고 가정해야 한다. 우리의 창조자는 다른 신들이 죽거나 떠나는 것을 보고, 우리가 그를 대신해 세상을 다스릴 것을 알고, 세상을 우리 하플링들에게 맡겼을 것이다. 그렇기 때문에 역사의 모든 시점에서 우리가 우리 세계의 형성에 중추적인 역할을 해 온 것이다. 세상은 우리의 정당한 유산이며, 세상을 잘 다스리는 것이 우리의 의무다.]], "_t")
 t("eyal", "에이알", "newLore category")
 t("Tale of the Moonsisters", "달의 자매 이야기", "_t")
 t("ancient papyrus scroll", "고대의 파피루스 두루마리", "_t")
@@ -15173,7 +15233,7 @@ Even now the blood runs hot! What would Garkul, our mighty berserker king, think
 t("Rak'Shor's Note", "락'쇼르의 일지", "_t")
 t([[The eyes of the dead bring interesting news to me. Our masters are not what they appear; they are human, simply masquerading as orcs in our presence. I might have suspected this... it is difficult to disguise the basic weakness and frailty of a human soul, even with complex spells. Their goals elude me, yet I sense strange energies in the vicinity of the High Peak - the voices of spirits long departed from this world... some not from this world at all.
 
-But this is foolishness compared to my current trials. Gorbat remains as obstinate as ever, the dragon-loving, scale-shining buffoon. He thinks that dragons are special, different, not suitable for my craft. I care not for his prattling, I desire the corpses of dragons! Mountains of them! How can his heart not beat a little faster at the prospect of a dracozombie?! The mere thought of it is enough to send delightful shivers down my spine...]], [[죽은 자들의 눈은 내게 흥미로운 소식들을 가져다 준다. 우리의 주인들은 겉모습과는 다르게 인간이며, 우리 앞에서만 오크의 가면을 쓰고 있는 것 뿐이었다. 더 빨리 알아챌 수도 있었는데... 아주 고도의 마법을 사용하더라도, 인간의 영혼이 가지고 있는 기본적인 취약점과 연약함을 숨기는 것은 쉬운 일이 아니니까. 그 녀석들의 목적은 알 수가 없지만, 최고봉 쪽에서 이상한 에너지가 느껴진다 - 오래 전에 세상을 떠난 영혼들의 목소리가... 아예 다른 세상에서 온 것들도 있다.
+But this is foolishness compared to my current trials. Gorbat remains as obstinate as ever, the dragon-loving, scale-shining buffoon. He thinks that dragons are special, different, not suitable for my craft. I care not for his prattling, I desire the corpses of dragons! Mountains of them! How can his heart not beat a little faster at the prospect of a dracozombie?! The mere thought of it is enough to send delightful shivers down my spine...]], [[죽은 자들의 눈은 내게 흥미로운 소식들을 가져다 준다. 우리의 주인들은 겉모습과는 다르게 인간이며, 우리 앞에서만 오크의 가면을 쓰고 있는 것 뿐이었다. 더 빨리 알아챌 수도 있었는데... 아주 고도의 마법을 사용하더라도, 인간의 영혼이 가지고 있는 기본적인 취약점과 연약함을 숨기는 것은 쉬운 일이 아니니까. 그 녀석들의 목적은 알 수가 없지만, 최고봉 쪽에서 이상한 에너지가 느껴진다 - 오래전에 세상을 떠난 영혼들의 목소리가... 아예 다른 세상에서 온 것들도 있다.
 
 하지만 내 계획에 비하면 하찮기 짝이 없는 것이다. 고르뱃은 여전히 꽉 막힌 용 애호가고, 우스꽝스럽게 비늘에 광이나 내면서 살고 있다. 그놈은 용족은 아주 특별하고 남달라서, 내 작품에는 어울리지 않는다고 생각하고 있다. 그놈이 뭐라고 주절거리든 상관없다, 용의 시체가 필요하다! 산더미만큼 말이야! 고르뱃 놈, 어떻게 그렇게까지 좀비 용에 관심이 없을 수가 있는 거지?! 난 상상만 해도 들떠서 등골에 소름이 쫙 끼치는데 말이야...]], "_t")
 t("Gorbat's Note", "고르뱃의 일지", "_t")
@@ -16053,7 +16113,7 @@ section "game/modules/tome/data/quests/deep-bellow.lua"
 t("From bellow, it devours", "깊은 곳에서, 집어삼킨다", "_t")
 t("Your escape from Reknor got your heart pounding and your desire for wealth and power increased tenfold.", "레크놀에서 탈출한 당신의 심장은 쿵쾅거리고 있고, 부와 힘에 대한 갈망은 10배쯤 더 거세졌습니다.", "_t")
 t("Maybe it is time for you to start an adventurer's career. Deep below the Iron Throne mountains lies the Deep Bellow.", "모험가로써의 삶을 시작할 시간일지도 모릅니다. 철의 왕좌 산의 지하 깊숙한 곳에 '깊은 포효' 라 불리는 곳이 있습니다.", "_t")
-t("It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "오래 전에 봉인되었지만 여전히 가끔씩 모험가들이 부를 찾아서 내려가곤 합니다.", "_t")
+t("It has been long sealed away but still, from time to time adventurers go there looking for wealth.", "오래전에 봉인되었지만 여전히 가끔씩 모험가들이 부를 찾아서 내려가곤 합니다.", "_t")
 t("None that you know of has come back yet, but you did survive Reknor. You are great.", "거기서 돌아왔다는 사람은 아직까지 듣도 보도 못했지만, 당신은 레크놀에서 살아나왔잖습니까. 분명 당신은 다를 겁니다.", "_t")
 
 
@@ -21653,7 +21713,7 @@ Its effects scale with your %s stat.", "\
 t("Infusion: Regeneration", "주입 : 재생", "talent name")
 t("Activate the infusion to heal yourself for %d life over %d turns.", "주입물을 활성화하여 %d 턴 동안 총 %d 생명력을 회복합니다.", "tformat", {2,1})
 t("heal %d; %d cd", "회복 %d / 대기시간 %d", "tformat")
-t("Infusion: Healing", "주입 : 치료", "talent name")
+t("Infusion: Healing", "주입 : 회복", "talent name")
 t("Activate the infusion to instantly heal yourself for %d then cleanse 1 wound, poison, and disease effect.", "주입물을 활성화하여 턴 소모 없이 생명력을 %d 회복하고, 상처, 독, 질병을 하나 치료합니다.", "tformat")
 t("heal %d; cd %d", "회복 %d / 대기시간 %d", "tformat")
 t("Infusion: Wild", "주입 : 자연", "talent name")
@@ -25507,7 +25567,7 @@ t("Take a step toward your foes then use the momentum to cleave all creatures ad
 t("Death Dance", "죽음의 무도", "talent name")
 t("You cannot use Death Dance without a two-handed weapon!", "양손 무기가 없으면 죽음의 무도를 사용할 수 없습니다!", "logPlayer")
 t([[Spin around, extending your weapon in radius %d and damaging all targets around you for %d%% weapon damage.
-		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]], [[무기를 뻗어내고, 회전하여 반경 %d 칸 내에 모든 적에게 %d%% 무기 피해를 입힙니다.
+		At level 3 all damage done will also make the targets bleed for an additional %d%% damage over 5 turns]], [[무기를 뻗어내고, 회전하여 반경 %d 칸 내의 모든 대상에게 %d%% 무기 피해를 입힙니다.
 		기술 레벨 3 부터는 대상에게 출혈을 유발해 %d%% 추가 피해를 5 턴 걸쳐 가합니다.]], "tformat")
 t("Execution", "처형", "talent name")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
@@ -33796,7 +33856,7 @@ t("Insert", "밀어넣는다", "_t")
 section "game/modules/tome/data/zones/golem-graveyard/npcs.lua"
 
 t("Atamathon the Giant Golem", "거대 골렘 아타마쏜", "entity name")
-t("This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "이 거대 골렘은 장작 전쟁 시기에 하플링들이 오크들에게 맞서기 위해 만들어냈지만, 포식자 가르쿨에게 쓰러졌습니다. 어떤 얼간이가 이걸 고쳐 보려 했지만 통제가 불가능해졌고, 이제 이것은 오래 전에 죽은 자신의 창조자들을 대신하여 날뜁니다. 몸은 대리석으로 만들어졌고 연결부는 견고한 보라툰이며, 눈으로 가장 순수한 루비들이 박혀 있습니다. 크기가 12 미터가 넘기 때문에 당신보다 훨씬 크며, 진홍색의 눈동자들은 분노를 머금고 빛나고 있습니다.", "_t")
+t("This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer. Someone foolish has tried to reconstruct it, but has lost control of it, and now it rampages in search of its original creators, who are long dead. Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. At over 40 feet tall, it towers above you, and its crimson orbs seem to glow with rage.", "이 거대 골렘은 장작 전쟁 시기에 하플링들이 오크들에게 맞서기 위해 만들어냈지만, 포식자 가르쿨에게 쓰러졌습니다. 어떤 얼간이가 이걸 고쳐 보려 했지만 통제가 불가능해졌고, 이제 이것은 오래전에 죽은 자신의 창조자들을 대신하여 날뜁니다. 몸은 대리석으로 만들어졌고 연결부는 견고한 보라툰이며, 눈으로 가장 순수한 루비들이 박혀 있습니다. 크기가 12 미터가 넘기 때문에 당신보다 훨씬 크며, 진홍색의 눈동자들은 분노를 머금고 빛나고 있습니다.", "_t")
 t("DESTROY!", "파괴하라!", "_t")
 t("LIFE-ENDING SYSTEMS ACTIVATED!", "절멸  시스템  활성화!", "_t")
 t("GLORY TO THE HALFLINGS!", "하플링에게  영광을!", "_t")
