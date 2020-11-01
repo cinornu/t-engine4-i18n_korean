@@ -55,9 +55,9 @@ t("Freed the remnants of the Prides from the Internment Camp.", "수용소에서
 t("The High Lady's Destiny (Finale)", "고귀한 여인의 운명 (결말)", "achievement name")
 t("Crushed High Sun Paladin Aeryn and with her destroyed the bastion of the Sunwall.", "고위 태양의 기사 아에린을 박살내고 태양의 장벽의 요새를 파괴했다.", "_t")
 t("One Ill Turn Deserves Another", "가는 말이 고와야 오는 말이 곱다", "achievement name")
-t("The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "연기의 궁전을 폐허로 만들었고, 그 평의회를 산산조각냈다. 아트모스 부족은 더 이상 긍지를 괴롭히지 못할 겁니다.", "_t")
+t("The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "연기의 궁전을 폐허로 만들었고, 그 평의회를 산산조각냈다. 아트모스 부족은 더 이상 긍지들을 괴롭히지 못할 겁니다.", "_t")
 t("The Dead God Rests", "죽은 신이 잠들다", "achievement name")
-t("You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "아마크텔을 부활시키려던 쉐르'툴 신관을 쓰러뜨려, 긍지와 이 세계를 구했다.", "_t")
+t("You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "아마크텔을 부활시키려던 쉐르'툴 신관을 쓰러뜨려, 긍지들과 이 세계를 구했다.", "_t")
 t("To the Bitter End", "씁쓸한 결말", "achievement name")
 t("You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "아트모스 부족 최후의 생존자들을 몰살하여, 그들의 문명을 끝냈다.", "_t")
 t("Imp'ing Away", "임프가 나라간다", "achievement name")
@@ -537,7 +537,7 @@ section "game/dlcs/tome-orcs/data/chats/shertul-priest.lua"
 
 t([[#LIGHT_GREEN#*Before you stands a tentaculous horror which you recognize for what it truly is. A living #{bold}#Sher'Tul#{normal}#!.*#WHITE#
 Who are you, young creature, to stand up to a High Priest of Amakthel? Do you not know that you are before a servant of the Almighty Creator, the Sunfather, the God of Gods, Lord of all Eyal? In the millenia I have lived I have killed whole races like yourself. I have even wrenched the spirits of immortal gods from this world. So who are you, little one, who dare defy me?]], [[#LIGHT_GREEN#*눈앞에 촉수 달린 공포가 있습니다. 당신은 그게 무엇인지 알 수 있습니다. 살아 있는 #{bold}#쉐르'툴#{normal}#입니다!*#WHITE#
-아마크텔의 고위 사제 앞에 서 있는 넌 대체 무엇인가, 어린 생명이여? 지금 전능한 창조자이자 태양의 아버지이며 신들 중의 신, 그리고 온 에이알의 주인이신 분의 시종 앞에 서 있다는 것을 모르는 건가? 난 수천년간 살아 오며 너 같은 종족들을 수도 없이 절멸시켜 왔고, 불멸하는 신들의 영혼조차 이 세계에서 추방했다. 그래서 넌 무엇인가, 왜소한 자여? 대체 무엇이길래 감히 내게 맞서는 것인가?]], "_t")
+아마크텔의 고위 사제 앞에 서 있는 넌 대체 무엇인가, 어린 생명이여? 지금 전능한 창조자이자 태양의 아버지이며 신 중의 신, 그리고 온 에이알의 주인이신 분의 시종 앞에 서 있다는 것을 모르는 건가? 난 수천년간 살아 오며 너 같은 종족들을 수도 없이 절멸시켜 왔고, 불멸하는 신들의 영혼조차 이 세계에서 추방했다. 그래서 넌 무엇인가, 왜소한 자여? 대체 무엇이길래 감히 내게 맞서는 것인가?]], "_t")
 t("I... am %s, of the seed of Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "난... %s, 포식자 가르쿨의 후예다. 가르쿨은 우리에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 가르쿨의 혼이 내 안에서 타오르고 있으니. 그리고 가르쿨의 이름으로, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
 t("I... am %s, though I lack my original body my mind is bound to Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "난... %s, 비록 원래 몸을 잃었을지라도, 내 정신은 포식자 가르쿨과 함께한다. 가르쿨은 우리에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 가르쿨의 혼이 내 안에서 타오르고 있으니. 그리고 가르쿨의 이름으로, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
 t("I... am %s and I am not mortal! Garkul taught the orcs to fight legends, and to flinch not from even the most desperate deed. We learned that from them! Here and now I face you without fear or hesitation, for cold touch of undeath is within me. And I will #{bold}#break#{normal}# you!", "난... %s. 난 필멸자가 아니다! 가르쿨은 오크들에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 우린 그들에게서 그것을 배웠다! 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 차가운 불사의 손길이 내 안에 있으니. 그러니 지금부터, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
@@ -884,7 +884,7 @@ t("The skin of this creature is literally crawling with larvae, yet she seems to
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/npcs/snake-add.lua"
 
-t("Gunsnake", "총 쏘는 뱀", "entity name")
+t("Gunsnake", "총 든 뱀", "entity name")
 t("#{italic}##ANTIQUE_WHITE#From a bygone era it slithers...#LAST##{normal}#", "#{italic}##ANTIQUE_WHITE#지나간 시대부터 계속 기어오고 있었습니다...#LAST##{normal}#", "_t")
 
 
@@ -3077,7 +3077,7 @@ Of course, a character like that can't simply be thrown away.  The story may be 
 
 [b]<?=player.name?>[/b], you crave the thrill and tension of a close fight as much as <?=Lore.pocket_time_winner.heshe?> does.  I owe this opportunity to you in life, and the Scourge from the West in <?=Lore.pocket_time_winner.hisher?> legend; all I ask in return is that the two of you give me a battle that the people of Eyal will sing songs about.]], [[<? Lore.init_pocket_time_data() ?>옛날 옛적에, 에이알의 그 어떤 것보다도 오래된, 에이돌론이라는 영혼이 있었다.  어떤 이들은 그것을 질서와 정의를 가져오는 구세주라 불렀고, 다른 이들은 그것을 자신의 즐거움을 위해 공포를 퍼뜨리는 "어두운 신" - 다크 갓이라 불렀다.  이런 필멸자들의 구분은 정말로 적절치 못한 것이, 거의 시간 그 자체만큼이나 오래된 이 존재가 어째서 그런 어처구니없는 규모의 예지를 하는가를 설명할 수가 없기 때문이다...  하지만 만약 당신이 에이돌론에게 직접 물어본다면, 그것은 자신을 "작가" 라고 칭할 것이다.
 
-그 이야기가 그 자신의 머릿속에만 있는 것인지, 아니면 그 이야기가 샨드랄 성계에 영향을 미치는지는, 아무도 모른다. 하지만 언제나 그랬듯이, 에이돌론에겐 자신의 이야기에 등장할 영웅이 필요하다.  최근에는, 그것이 원했던 영웅이란 포식자 가르쿨 이후로 나타난 적이 없었던, 전장을 휘어잡는 자였다.  에이돌론은 몇 가지 후보들을 고려해 봤다. 그중 대부분은 실패작으로 여겨졌지만, 개중에는 몇 번 실수를 하더라도 용서할 수 있을 만한 유망주들이 있었고, 결국 마지막에는 단 하나만 남게 되었다.  그 주인공이 바로 <?=Lore.pocket_time_winner.himher?>였고, 그래서 수많은 시련들을 마주하게 되었다. 어떨 땐 손쉽게, 보통은 어렵사리, 가끔씩은 순전히 운에 기대서 헤쳐나갔고, 결국에는 최고봉에 꼭대기에 도착해 이제까지 마주했던 것들 중 가장 큰 위협으로부터 에이알을 구해냈다<? if Lore.pocket_time_winner.sacrifice then ?>. 주술사들의 장거리 차원문을 꺼뜨리기 위해 <?=Lore.pocket_time_winner.himher?> 자신을 희생함으로써 말이다<? end ?>.
+그 이야기가 그 자신의 머릿속에만 있는 것인지, 아니면 샨드랄 성계에 영향을 미치는지는, 아무도 모른다. 하지만 언제나 그랬듯이, 에이돌론에겐 자신의 이야기에 등장할 영웅이 필요하다.  최근에는, 그것이 원했던 영웅이란 포식자 가르쿨 이후로 나타난 적이 없었던, 전장을 휘어잡는 자였다.  에이돌론은 몇 가지 후보들을 고려해 봤다. 그중 대부분은 실패작으로 여겨졌지만, 개중에는 몇 번 실수를 하더라도 용서할 수 있을 만한 유망주들이 있었고, 결국 마지막에는 단 하나만 남게 되었다.  그 주인공이 바로 <?=Lore.pocket_time_winner.himher?>였고, 그래서 수많은 시련들을 마주하게 되었다. 어떨 땐 손쉽게, 보통은 어렵사리, 가끔씩은 순전히 운에 기대서 헤쳐나갔고, 결국에는 최고봉에 꼭대기에 도착해 이제까지 마주했던 것들 중 가장 큰 위협으로부터 에이알을 구해냈다<? if Lore.pocket_time_winner.sacrifice then ?>. 주술사들의 장거리 차원문을 꺼뜨리기 위해 <?=Lore.pocket_time_winner.himher?> 자신을 희생함으로써 말이다<? end ?>.
 <? if not Lore.pocket_time_winner.sacrifice then ?>
 그러고 나선?  전장을 휘어잡는 자는, 전투에서 승리하고 나면 딱히 할 일이 없다.  <?=Lore.pocket_time_winner.HeShe?>는 더 강한 적들을 찾아 나설 수도 있겠지만, 결국 <?=Lore.pocket_time_winner.heshe?>가 찾아내게 되는 건 굳이 상대할 가치도 없는 놈이거나, 에이알의 시민들이나 좀 피해를 볼 만한 수준일 것이다. 그런 것들은 이야기에 아무런 도움이 되지 않는다.  에이돌론이 <?=Lore.pocket_time_winner.himher?>를 완전히 박살낼 수 있을 정도로 강한 적을 내려줄 수도 있겠지만, 뭔 놈의 결말이 그따위인가?  그래서 에이돌론은 그렇게 하는 대신에, 주인공의 역할이 끝난 뒤에는 <?=Lore.pocket_time_winner.heshe?>가 마음대로 살게 놔 두기로 했다...  무한의 던전으로 내려가서 피할 수 없는 파멸을 맞이하든지, 아타마쏜이나 리나니일같은 말도 안 되는 적들을 쓰러뜨리려 시도하든지, 아니면 그냥 은퇴해서 <?=Lore.pocket_time_winner.hisher?> 자신의 남은 인생을 쉐르'툴 요새의 주인으로 보내든지, 아무튼 <?=Lore.pocket_time_winner.heshe?>가 선택한 대로 살도록 내버려 두었다.  어떻게 되든 간에, 이야기는 끝이 났다. <?=Lore.pocket_time_winner.name?>의 여생에 뭔가 더 다룰 여지 같은 건 없었다.<? end ?>
 
@@ -3089,6 +3089,50 @@ Of course, a character like that can't simply be thrown away.  The story may be 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/primal-forest.lua"
 
+t("a warning sign", "경고문", "_t")
+t([[WARNING - READ THIS!
+
+---
+
+This forest is the site of a massive and ongoing ecological disaster.  As far as I can tell (and as a Mender, I have at least [i]some[/i] clue of what I'm talking about), Eyal's trying to fight off an infection, and the infection's fighting back for all it's worth.  Given the indiscriminate hostility of the local treants, we can assume the infection's winning, if only slightly; it's concentrated most of its power into a handful of crystalline avatars at the top of the great tree.  Best case scenario, Eyal's pushing them out like splinters, and destroying these avatars will eliminate the problem; worst case, the tree is already infected down to its roots, and these avatars are its spores, growing until they're ready to leave the tree and spread elsewhere.  I came to destroy these crystals myself, but I wasn't counting on the treants turning on me as well; since you're reading this, congratulations!  This is your responsibility now.
+
+My advice?  Head through the portal to Shatur and call for backup.  I don't have that option, as that'd require incriminating myself by admitting that I was in Var'Eyal without a pass (you wouldn't judge me if you knew how much the trolls were paying for cheerblossom).  I can assure you that the others there are considerably more dedicated and competent than I am, even if only as a group; together, they'll be able to control this infection and treat the wounds it's left behind.  If you go in alone, you'll likely get ripped apart by the treants before you can even reach the trunk - and more are waking up every passing minute.  Unless you're the Hero of Maj'Eyal or Garkul's reanimated corpse, you'll be walking into your own grave.  Let the professionals handle this.
+
+If you insist on going in, though, here's what I know:
+
+-The treants, unfortunately, are no longer concerned with discerning friend from foe.  Anything not stemming from Nature is a potential source of the infection in their eyes, and must be purged before they can slumber once more.  I know that saying "please" isn't exactly sufficient for asking you not to defend yourself...  just try to keep the damage to a minimum, so they can heal the land once ravaged by this sickness.  If you want to avoid them, get off the ground level and into the canopy as soon as you can; they won't animate if they don't see anything on the forest floor to attack.  Also, do NOT try to take a core sample!  Trust me on this - as much as I wanted to know how deep the infection had spread, whether it was all the way through the tree or if it had pushed it all to the top, it attracted the treants to me like Shaloren to a stupid decision.  
+
+-The destructive agent in question is a group of animated arcane crystals, of the type previously documented in the Scintillating Caverns.  The exact processes involved in their formation are still unclear, but it's a safe assumption that they're connected to the massive surge of blight introduced by the Spellblaze, and proof that even now, the damage is most likely worse than we can ever be sure of.  Expect to take powerful blasts of every kind of magic if you're not exceptionally evasive; fortunately, although they frequently teleport, they are completely immobile between blinks.  If one teleports near you, either take cover, or destroy it before it can reposition itself.
+
+-The consequences of letting this go unchecked would be disastrous.  Even if this great tree's growth IS a sign of the planet successfully fighting the infection off by pushing it out, the crystalline avatars could simply climb down, bury themselves, and sicken Eyal once more.  And if Eyal's losing...  as much as I loathe to say it, perhaps those Shaloren pyromaniacs could do some good for once in their all-too-long lives, and cauterize the area down to the roots.  Provided, of course, that they can figure out how to do so without blowing up the sun.
+
+I wish you luck, and thank you for doing what I cannot.  There are reasons why this is a risk I cannot afford to take, but it's probably best for both of us that you assume I'm a coward.  It's not too far from the truth.
+
+With unending gratitude,
+(This is where I would sign my name, were I an utter moron.)
+
+PS: If you wouldn't mind doing me a personal favor, please destroy any written articles you find.  They spilled out of my bag as I fled; I'm already a coward, and I'd rather not be a litterer as well.]], [[경고 - 이걸 읽으시오!
+
+---
+
+이 숲에선 대규모의 생태학적인 재앙이 발생하고 있습니다.  제가 아는 한에선, (전 멘더의 일원이고, 별다른 [i]근거[/i]도 없이 이런 소릴 하는 건 아닙니다) 에이알은 이런 감염에 맞서 싸우려 하고 있고, 그 감염은 거의 모든 것을 집어삼키려 하고 있습니다. 이 지역의 나무 정령들에게 무차별적인 공격성이 생긴 걸 고려하면 지금 감염 측이 이기고 있다고 추측할 수 있습니다. 너무 많이 우세하진 않았으면 좋겠습니다만. 그리고 그 힘의 대부분은 지금 거대한 나무 꼭대기에 집중되어서 결정체들로 변하고 있습니다.  가능한 경우가 두 가지인데, 최선의 경우엔 지금 에이알이 그 나무의 가시 같은 역할을 해서 그것들을 밀어낸 거고, 그렇다면 그 수정체들을 박살내면 문제 해결입니다. 최악의 경우엔 그 나무는 이미 뿌리까지 침식된 상태인 거고, 이러면 그 결정체들은 그 나무의 포자 격이라 볼 수 있겠고 그것들은 머지않아 나무에서 내려와 사방으로 퍼져나갈 겁니다.  전 그 수정체들을 박살내려고 여기 왔습니다만, 나무 정령들까지 저한테 달려들 거라곤 상상도 못 했습니다. 그러니 지금 누가 이걸 읽고 있다면, 축하드립니다!  이제 이 일은 당신이 맡게 되었습니다.
+
+충고 같은 건 없냐고요?  차원문을 타고 샤툴로 가서 도움을 요청하십쇼.  전 그런 짓을 못합니다. 왜냐면 제가 통행증 없이 바르'에이알에 갔었다는 걸 자백하게 되는 꼴이니까요 (당신도 트롤들이 치어블로섬에 돈을 얼마나 꼬라박고 있는지 알게 되면 절 욕하지 못할 겁니다).  장담하건대, 그쪽 사람들은 저보다 훨씬 더 실력이 좋고 이 일에 헌신적일 겁니다. 그 사람들이 팀으로 움직인다면 말입니다만. 그 사람들이 힘을 합하면, 이 감염을 통제할 수 있을 것이고 그것 때문에 생긴 상처들도 치유할 수 있을 겁니다.  만약 이걸 당신 혼자 처리하려 한다면, 아마 그 나무에 도착하기도 전에 나무 정령들한테 갈가리 찢기게 될 겁니다.  당신이 마즈'에이알의 영웅이나 살아 움직이는 가르쿨의 시체가 아닌 이상, 그건 제 무덤 파는 짓이라고요.  그러니까 전문가들을 부르십쇼.
+
+그래도 혼자서 하겠다고 고집을 부리시겠다면, 제가 아는 것들을 죄다 말씀드리겠습니다.
+
+-안타깝지만 저 나무 정령들은 더 이상 친구며 적이며 따질 만한 상태가 아닙니다.  그 녀석들의 눈에는 자연 그 자체와 상관없는 것들은 뭐든지 다 감염원으로 보일 거고, 자기들이 다시 잠들기 전에 그것들을 죄다 뿌리뽑으려 할 겁니다.  저도 이게 당신 스스로를 위험에 빠뜨리라는 소리라는 걸 알고 있고, 여기서 "부탁입니다" 같은 말은 별 의미가 없다는 것도 알고 있지만... 가급적이면 녀석들을 공격하지 말아주십쇼. 그 녀석들이 감염 때문에 난장판이 된 이 땅을 치유할 수 있도록 말입니다.  녀석들을 피하고 싶으시다면, 최대한 빨리 나무 위로 올라가십쇼. 녀석들은 숲 바닥에 공격할 만한 것이 보이지 않으면 움직이지 않을 겁니다.  또, 절대로 뿌리에서 표본을 채집하려 하지 마십쇼!  절 믿으십쇼 - 제가 지금 감염이 얼마나 깊은 곳까지 퍼졌는지, 그러니까 감염이 나무 꼭대기까지 밀려난 건지 아니면 뿌리까지 파고든 건지 확인하고 싶어서 해 봤는데, 나무 정령들이 꼭 멍청한 짓에 달려드는 샬로레들처럼 저한테 달려들더라고요.  
+
+-지금 문제가 되는 것들은 살아 움직이는 마법의 수정 결정체들입니다. 이전에 번뜩이는 동굴에서 보고된 것들과 같은 종류죠.  그것들이 정확히 어떻게 형성됐는가는 아직까지도 불분명하지만, 마법폭발이 일으킨 엄청난 황폐의 힘이랑 관련이 있다고 봐도 별 문제는 없을 것 같네요. 그것의 후폭풍이 아직도 우리가 예상했던 것 이상으로 심각하다는 증거입니다.  미칠듯한 회피 능력이 없으면, 온갖 종류의 강력한 마법이 날아올 테니 각오하십쇼. 그것들은 순간이동을 자주 하지만 다행스럽게도 그 외엔 움직이질 못합니다.  한 놈이 근처로 순간이동했다면 엄폐하든지, 아니면 다시 순간이동하기 전에 깨부숴 버리십쇼.
+
+-이걸 그냥 놔두면 끔찍한 재앙으로 돌아올 겁니다.  가령 그 거대한 나무 위의 결정체들이 이 행성이 감염을 몰아냈다는 신호라 할지라도, 결정체들은 그냥 나무에서 내려와서, 스스로를 땅에다 묻어버리고, 다시 한 번 에이알에 고통을 가할 겁니다.  그리고 만약에 에이알이 패배하고 있는 거라면...  진짜 이런 소리 하기도 역하지만, 샬로레 화염술사들이 드디어 그 기나긴 인생 동안 처음으로 뭔가 도움이 되는 일을 할 수가 있을 겁니다. 그들은 이 지역 전체를 뿌리 끝까지 불태워 버릴 수 있겠죠.  물론, 태양을 날려버리지 않고 그럴 방법을 찾아내야겠지만.
+
+행운을 빕니다. 또, 제가 못한 일을 해 주셔서 감사드립니다.  제가 이 일을 맡을 수 없는 이유들이 있긴 하지만, 제가 겁쟁이라서 못하는 거라고 생각해 주시는 게 아마 서로를 위해 제일 나을 겁니다.  그게 아주 틀린 말도 아니니까요.
+
+무한한 감사를 담아,
+(여기다 당당하게 이름을 써놓진 않겠습니다. 제가 그렇게까지 얼간이는 아니거든요)
+
+추신: 괜찮으시다면, 개인적으로 부탁 하나만 더 드려도 되겠습니까? 근처에서 제가 쓴 글 같은 걸 줍게 되면 그것들을 좀 없애 주십쇼.  제가 도망칠 때 가방에서 쏟아진 것들인데, 이미 겁쟁이인데 쓰레기 투기꾼까지 되고 싶진 않아서요.]], "_t")
 
 
 ------------------------------------------------

@@ -3820,12 +3820,12 @@ t([[#LIGHT_GREEN#*A gigantic bone giant walks through the main gate.
 #LIGHT_GREEN#As an eerie blue glow fills where its eyes should be, the undead giant
 #LIGHT_GREEN#roars and multiple bones fly in your general direction!*
 ]], [[#LIGHT_GREEN#*거대한 해골 거인이 정문에서 걸어 나옵니다.
-#LIGHT_GREEN#생김새는 복잡하고 날카로워 마치 용처럼 생겼지만, 날개 대신
-#LIGHT_GREEN#수많은 가시들이 달려 있습니다.
+#LIGHT_GREEN#생김새는 복잡하고 날카로워 마치 용처럼 생겼지만,
+#LIGHT_GREEN#날개 대신 수많은 가시들이 달려 있습니다.
 #LIGHT_GREEN#이 거대한 언데드는 이상하게도... 지성을 품고 당신을 응시합니다.
 #LIGHT_GREEN#그에 대해선 들은 적이 있습니다. 거탑 같은 라이알, 그가 바로 당신의 첫 난적입니다!
-#LIGHT_GREEN#으스스한 푸른 빛이 눈알이 있어야 할 곳을 채우자, 언데드 거인은
-#LIGHT_GREEN#고함을 질렀고 뼈들이 당신 쪽으로 날아옵니다!*
+#LIGHT_GREEN#으스스한 푸른 빛이 눈알이 있어야 할 곳을 채우자,
+#LIGHT_GREEN#언데드 거인은 고함을 질렀고 뼈들이 당신 쪽으로 날아옵니다!*
 ]], "_t")
 t("Have at you!!", "덤벼라!!", "_t")
 t([[#LIGHT_GREEN#*After taking several hits, the undead giant finally succumbs
@@ -4369,7 +4369,7 @@ section "game/modules/tome/data/chats/escort-quest.lua"
 
 t([[At the last moment you invoke the power of nature.  The portal fizzles and transports @npcname@ to Zigur.
 You can feel Nature thanking you.]], [[들어가기 직전에 자연의 힘을 사용했습니다. 차원문은 쉭쉭거리면서 @npcname3@ 지구르로 보냈습니다.
-자연이 고마워하는 걸 느낄 수 있습니다.]], "_t")
+대자연이 고마워하는 걸 느낄 수 있습니다.]], "_t")
 t([[Thank you, my friend. I do not think I would have survived without you.
 Please let me reward you:]], [[고맙습니다, 친구여. 당신이 아니었으면 전 분명히 죽었겠죠.
 부디 그 보답을 받아 주세요.]], "_t")
@@ -4420,7 +4420,7 @@ Then the orc pride came and we have been fighting for our survival ever since.]]
 인간들은 장작더미의 시대에 이 땅에 왔습니다. 우리의 선조들은 마드롭 원정대 출신이었는데, 바다 밑으로 가라앉은 날로레 엘프족의 땅에 무슨 일이 일어났는지 알아보려 했던 사람들이었죠. 그들이 타고 온 배는 침몰했고, 그 생존자들이 이 대륙에 정착했답니다.
 그 사람들은 이 땅의 토착민처럼 보이던 엘프들과 마주쳤고, 그들과 친우가 되었습니다. 그것이 태양의 장벽과 아침의 문의 시작이었죠.
 그러고 나서 오크 긍지들이 나타났고, 그때부터 우리는 살아남기 위해 싸워 왔습니다.]], "_t")
-t("Ahh, so they survived? That is good news...", "아, 그들이 살아남았던가요? 좋은 소식이군요...", "_t")
+t("Ahh, so they survived? That is good news...", "아아, 그들이 살아남았던가요? 좋은 소식이군요...", "_t")
 t("Go on.", "계속 말씀하시죠.", "_t")
 t("Well, actually...", "음, 그렇지요...", "_t")
 t([[The people you saw are likely the volunteers of Zemekkys' early experiments regarding the farportals.
@@ -5915,7 +5915,7 @@ t("What is the Way, and what are you?", "그 '한길' 이라는 게 뭐야? 그�
 t("The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "한길이란 계몽 그 자체이며, 평화와 수호 그 자체이기도 하지. 난 이크고. 난 우리 종족에게 수천 년 간 열려 있지 않던 이 세상을 탐험하려 이 터널로 왔다네.", "_t")
 t("Can you tell me more about the Way?", "한길에 대해 조금 더 얘기해 줄래?", "_t")
 t("Select the party member to receive the mental shield:", "정신 보호막을 받을 파티 멤버를 선택하세요:", "_t")
-t("The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "한길의 일원과의 만남으로, 정신 보호막이 강화되었다. (정신 내성 +15, 혼란 저항 +10%%)", "logPlayer")
+t("The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "한길의 일원과의 만남으로, 정신의 보호력이 강화되었다. (정신 내성 +15, 혼란 저항 +10%%)", "logPlayer")
 t("I am never alone. I have the Way.", "난 결코 혼자가 아닐세. 내겐 한길이 있지.", "_t")
 t("Farewell, then.", "그럼, 안녕히.", "_t")
 t([[I cannot, but I may show you a glimpse.
@@ -6024,7 +6024,7 @@ t("No thanks.", "사양하지.", "_t")
 ------------------------------------------------
 section "game/modules/tome/data/chats/zigur-trainer.lua"
 
-t("Well met, friend.", "반갑네, 친구.", "_t")
+t("Well met, friend.", "반갑네, 친구여.", "_t")
 t("Brother", "형제", "_t")
 t("Sister", "자매", "_t")
 t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
@@ -6086,7 +6086,7 @@ t([[The portal randomly teleported us before exploding.
 You fool! You have doomed us, we could be #{bold}#anywhere!#{normal}#
 DIE !]], [[차원문이 폭발하기 직전에, 우릴 어딘가로 보냈군.
 이 머저리 자식! 너 때문에 우린 망했어, 우리가 지금 대체 #{bold}#어디까지#{normal}# 날아왔는지도 모르겠다고!
-죽어라 !!]], "_t")
+죽어라!!]], "_t")
 
 
 ------------------------------------------------
@@ -6553,7 +6553,7 @@ t("disrupted monolith", "불완전한 모노리스", "_t")
 t("Something the cultists are doing is coming. Beware.", "광신도들이 애타게 찾는 것이 오고 있습니다. 조심하십시오.", "_t")
 t("The cultist's soul seems to be absorbed by the strange stone he was guarding. You feel like something is about to happen...", "광신도의 영혼이 그가 지키던 이상한 돌에 흡수된 것 같습니다. 무슨 일이 일어날 것 같은 느낌이 듭니다...", "_t")
 t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
-t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "굉장히 고혹적인 악마입니다. 떠다니는 불꽃 왕관과 세 개의 꼬리, 그리고 날카로운 손톱이 없었더라면요. 그녀를 바라보자 살을 파내는 듯한 고통이 느껴집니다. 그녀는 당신에게 고통을 주고 싶어 합니다.", "_t")
+t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "굉장히 고혹적인 악마입니다. 떠다니는 불꽃 왕관과 세 개의 꼬리, 그리고 날카로운 손톱이 없었더라면요. 그녀를 바라보자 살을 파내는 듯한 고통이 느껴집니다. 당신이 고통받길 원하고 있습니다.", "_t")
 t("and used for her perverted desires", "그리고 그 시체는 그녀의 추잡한 욕망을 위해 쓰였습니다.", "_t")
 t("Crown of Burning Pain", "불타는 고통의 왕관", "_t")
 t("burning crown", "불타는 왕관", "_t")
@@ -7793,7 +7793,7 @@ t("champion of Urh'Rok", "울흐'록의 대전사", "entity name")
 t("One of Urh'Rok's own champions. A thousand nightmares made flesh and screaming steel tower before you in the form of a massive, armored humanoid.", "울흐'록의 대전사 중 하나로, 당신 앞에 우뚝 선 거대한 살점과 비명지르는 강철의 존재는 천 가지 악몽으로 이루어저 있습니다.", "_t")
 t("forge-giant", "대장간 거인", "entity name")
 t("A burning giant wielding a forge hammer of the underworld in each hand -- weapons imbued by Urh'Rok himself with the power to crush and shape felsteel. Enter their range at your peril.", "양 손에 지하세계의 대장장이 망치를 든 불타는 거인으로, 울흐'록이 직접 그 망치에 규장철을 가공하고, 부술 힘을 불어넣었습니다. 그 망치 사이에 끼인다면 분명 엄청나게 위험할 겁니다.", "_t")
-t("Khulmanar, General of Urh'Rok", "쿨마나르, 울흐'록의 장군", "entity name")
+t("Khulmanar, General of Urh'Rok", "울흐'록의 장군 쿨마나르", "entity name")
 t("This massive form, sheathed in dark flames, stands tall above a legion of lesser demons. In his hands he holds a massive blackened battleaxe, flames dancing around the blades.", "하급 악마들의 군단 앞에 어두운 화염에 감싸인 거대한 존재가 서있습니다. 그 손에는 불에 그슬린, 거대한 전투 도끼를 들고있으며, 그 도끼날 위에서 화염이 춤을 춥니다.", "_t")
 
 
@@ -8225,7 +8225,7 @@ t("A swarm of midges; they want blood.", "각다귀 떼입니다, 피를 원하�
 t("bee swarm", "벌 떼", "entity name")
 t("They buzz at you threateningly, as you have gotten too close to their hive.", "벌집에 너무 가까이 다가가자, 벌 떼가 위협적인 윙윙소리를 냅니다.", "_t")
 t("hornet swarm", "말벌 떼", "entity name")
-t("You have intruded on their ground, and they will defend it at all costs.", "말벌들의 영역을 침범했습니다. 어떤 댓가를 치르더라도 그 영역을 지킬 것입니다.", "_t")
+t("You have intruded on their ground, and they will defend it at all costs.", "말벌들의 영역을 침범했습니다. 어떤 대가를 치르더라도 그 영역을 지킬 것입니다.", "_t")
 t("hummerhorn", "윙윙뿔", "entity name")
 t("A giant buzzing wasp, its stinger dripping venom.", "거대한 말벌로, 독침에서 맹독이 뚝뚝 떨어집니다.", "_t")
 
@@ -12429,7 +12429,7 @@ t("%s revels in the bloodlust of %s %s!", "%s %s %s 일으키는 피의 충동�
 t("Blood Charges: %d", "혈액 중첩 : %d", "tformat")
 t("Decayed Visage", "썩어가는 얼굴", "entity name")
 t("mask of mummified skin", "미라화된 가죽 마스크", "_t")
-t("A desiccated mask of human skin, all that remains of a necromancer from the Age of Pyre who failed to achieve lichdom.  The transformative process partially succeeded, leaving him unable to die as his body slowly rotted from the inside out over several years.  Now his spirit resides within this last bit of mummified flesh, still hungering for eternal life.", "건조된 인간 피부로 만든 가면으로, 장작의 시대 때, 리치가 되는데 실패한 강령술사가 남긴 유일한 물품입니다.  변신 과정은 부분적으로만 성공해, 그는 죽지도 못한 채, 몸의 안팎이 몇년에 걸쳐 느리게 썩어갔습니다.  이제 그의 영혼은 이 미라화된 가죽 한 점에만 남아있지만, 여전히 영생에 목말라합니다.", "_t")
+t("A desiccated mask of human skin, all that remains of a necromancer from the Age of Pyre who failed to achieve lichdom.  The transformative process partially succeeded, leaving him unable to die as his body slowly rotted from the inside out over several years.  Now his spirit resides within this last bit of mummified flesh, still hungering for eternal life.", "건조된 인간 피부로 만든 가면으로, 장작더미의 시대 때, 리치가 되는데 실패한 강령술사가 남긴 유일한 물품입니다.  변신 과정은 부분적으로만 성공해, 그는 죽지도 못한 채, 몸의 안팎이 몇년에 걸쳐 느리게 썩어갔습니다.  이제 그의 영혼은 이 미라화된 가죽 한 점에만 남아있지만, 여전히 영생에 목말라합니다.", "_t")
 t("Dream Malleus", "꿈의 망치뼈", "entity name")
 t("keening hammer", "울부짖는 망치", "_t")
 t("A large shimmering maul that seems to produce a ringing in your ears.  It is both as malleable as thought and as hard as the strongest steel.", "이 거대하고 반짝이는 망치는 당신의 귀에 이명을 일으키는 것 같습니다. 이 망치는 생각만큼 유연하고 가장 단단한 금속만큼 단단합니다.", "_t")
@@ -13639,7 +13639,7 @@ Was it a dream?  Some strange foretelling?  Or could it have been a true apparit
 
 나는 들판이 내려다보이는 낮은 언덕에 진을 쳤고, 북방의 카르'크룰 군대를 찾기위해 수행단을 떠나 움직이기 시작했다.  말을 타고 그들의 주둔지를 향해 달려나갔을 때, 나는 동쪽에서 연기가 피어오르는 것을 발견했다.  네 개의 두꺼운 회색 기둥이 새벽 전의 희미한 빛에 대적하는 듯 우뚝 서있었다.  분명 우리들의 기습에 분노한 오크들에게 약탈당하고, 불타버린 마을들일 것이다.  마을 주민들은 이미 피난을 마친 뒤였겠지만, 이 전투가 끝나면 그들이 돌아갈 집은 존재하지 않을 것이다.   전 대륙에서 벌어지고 있는 전쟁 놀이에서의 조그만한 희생이였다.
 
-아침의 푸르스름한 연무 속에서 다섯 번째 연기구름이 치솟았다. 연기 기둥들은 갑자기 온 세상에 뻗친 악마의 마수같은 느낌을 주었다.   마수는 마치 그 손톱으로 땅을 헤집어, 대지 밑의 살갗을 찢어낼 준비가 된 듯 했다.  내가 알고 있는, 모든 문명은 오크들의 위협에 직면해있다.  우리가 이 오크들을 막기위해 치를 댓가는, 분명, 결실에 비해 아주 작은 댓가가 될 것이다.   나는 그렇게 생각했다.  우리 모두 그렇게 생각했다.
+아침의 푸르스름한 연무 속에서 다섯 번째 연기구름이 치솟았다. 연기 기둥들은 갑자기 온 세상에 뻗친 악마의 마수같은 느낌을 주었다.   마수는 마치 그 손톱으로 땅을 헤집어, 대지 밑의 살갗을 찢어낼 준비가 된 듯 했다.  내가 알고 있는, 모든 문명은 오크들의 위협에 직면해있다.  우리가 이 오크들을 막기위해 치를 대가는, 분명, 결실에 비해 아주 작은 대가가 될 것이다.   나는 그렇게 생각했다.  우리 모두 그렇게 생각했다.
  
 내가 카르'크룰 야영지에 도착하자 리나니일이 나와 나를 맞아주었다.  그녀의 미소는 따뜻해 보였으나, 그녀의 눈을 통해, 그녀가 그 날 벌여질 대사건에 대해 큰 기대를 갖고 있음을 알 수 있었다.  “몇 시간 뒤면 다 끝나요.” 그녀는 참을성 없는 어린 아이처럼 속삭였다.  “정말 재밌을거예요!”
  
@@ -13671,7 +13671,7 @@ Was it a dream?  Some strange foretelling?  Or could it have been a true apparit
  
 그녀가 내게 바짝 다가왔다. 그녀의 얼굴이 갑작스럽게 걱정으로 달아올랐다.  “그냥 꿈인 거겠죠, 그쵸?”  나는 그 허세와 장난기 속에서 그녀가 두려움에 떨고 있음을 알 수 있었다. 그녀는 나의 눈을 바라보고 있었고, 그녀의 손가락은 안정을 바라며 덜덜 떨렸다.
 
-“그냥 꿈이야.” 내가 말했다. 내가 모든 심혈과 영혼을 댓가로 했던 거짓말.  “다 잘 될거야.”  나는 그녀를 끌어당겨 나의 팔로 그녀의 가냘픈 몸을 안았다. 그녀가 나를 꽉 잡았다. 그녀는 아직도 떨고 있엇다.
+“그냥 꿈이야.” 내가 말했다. 내가 모든 심혈과 영혼을 대가로 했던 거짓말.  “다 잘 될거야.”  나는 그녀를 끌어당겨 나의 팔로 그녀의 가냘픈 몸을 안았다. 그녀가 나를 꽉 잡았다. 그녀는 아직도 떨고 있엇다.
  
 “고마워요 아라니온.” 그녀가 속삭이며 그녀는 얼굴을 들고 내게 입맞춤을 해주었다. 그건 그녀가 내게 해주었던 가장 부드럽고, 가장 섬세한 입맞춤이였다.  또한 마지막 입맞춤이기도 했다.
  
@@ -14316,7 +14316,7 @@ Remember, when utilising a runic circle to bend your new minions to your will, m
 
 수집한 표본에 생명을 불어넣을 때, 의견이 갈리는 문제가 발생한다 - 단순히 몸뚱이만을 일으켜 세울 것인가? 아니면 사자의 영혼을 그들의 몸에 다시 한 번 속박할 것인가? 많은 강령술사 계파들 조차 논쟁하는 문제다. 베나그라인드 강령술 계파는 영혼의 고통스러운 속박을 기본적으로 추구한다. 속박된 영혼이 만들어내는 괴로움은 언데드 노예들을 더 효과적으로 만든다고 그들은 주장한다. 최근에 세워진 트렌 계파는 어떤가? 그들은 영혼의 자유를 보장하는 것이 더 순종적인 하수인을 만들고, 주인이 살해당하는 일을 줄여줄 뿐만 아니라 우매한 민중들이 당신의 하수인을 더 잘 받아드리도록 한다고 주장한다. 물론, 그들은 여전히 당신을 두들겨 패고, 마을로 끌고가 화형을 시작할 기회만 보고 있을 것이다. 하지만 그들은 그런 짓을 하는것에 크게 후회하게 되리라!
 
-기억하라, 룬 마법진을 사용해, 하수인들은 너의 의지에 속박할 때, 마법진 안의 모든 룬에 제대로 마법이 걸려있는지, 또 흐려질 위험은 없는지 확인해야 한다. 생각치도 못한 일이 일어나, 노예 하나가 너의 통제에서 벗어나면 네 생명의 댓가로 좋은 장비나 물품을 지급하라. 이런 관용을 받은 불사자 중 매우 소수만이 주인을 끝내 살해한다.]], "_t")
+기억하라, 룬 마법진을 사용해, 하수인들은 너의 의지에 속박할 때, 마법진 안의 모든 룬에 제대로 마법이 걸려있는지, 또 흐려질 위험은 없는지 확인해야 한다. 생각치도 못한 일이 일어나, 노예 하나가 너의 통제에서 벗어나면 네 생명의 대가로 좋은 장비나 물품을 지급하라. 이런 관용을 받은 불사자 중 매우 소수만이 주인을 끝내 살해한다.]], "_t")
 t("how to be a necromancer, part 3", "강령술사가 되는 법: 제3장", "_t")
 t([[#{italic}#3. Unwanted Attention#{normal}#
 
@@ -15022,7 +15022,7 @@ All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and 
 
 하이어의 신장은 182cm 정도이다, 금발과 하얀 피부 그리고 파란 눈이나 회색 눈을 가졌다. 학자의 대부분은 하이어들이다, 그리고 그들이 대부분의 귀족지위를 차지하고 있는 경향이 있다. 몇몇은 이것이 차별이고 엘리트주의라고 말한다, 이런 말들이 단순한 질투심에서 나온것일지 몰라도, 하이어들의 높은 지능은 매혹의 시대 고대 콘클라베가 실행한 불가사의한 비전 실험에 의한것이라는 소문이 있다, 하지만 나는 이와 관련된 자료를 찾을 수 없었고 근거 없는 주장이라 판단했다. 하이어의 혈통은 우월함의 표식으로 여겨지며, 하이어들은 하위 혈통과 섞이는것을 불쾌하게 생각한다.
 
-모든 인간 왕국은 장작의 시대 용맹한 자 토크놀에 의해 통일되었다, 그리고 여전히 공평한 자 톨락의 치세 아래 유지되고 있다. 인간의 긴 역사에 대한 완전한 논고는 훨씬 상세한 문서가 필요할 것이다.]], "_t")
+모든 인간 왕국은 장작더미의 시대 용맹한 자 토크놀에 의해 통일되었다, 그리고 여전히 공평한 자 톨락의 치세 아래 유지되고 있다. 인간의 긴 역사에 대한 완전한 논고는 훨씬 상세한 문서가 필요할 것이다.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 2 - 하플링", "_t")
 t([[There are two main kingdoms of halflings, the Eldoral and the Nargol, though both mix often. All halflings are just under 4' tall, and are generally noted for their large feet and curly hair. Eldoral are usually fair-haired and blue-eyed. Nargol tend to be darker in hair and complexion, with hazel eyes, and oft slightly shorter than their cousins. Halflings are known for their intelligence and quick wit, but also their arrogance in dealing with other races - something they do not deny, for they say it is well-deserved.
 
@@ -15035,11 +15035,11 @@ The Nargols once had many strong fortifications in the south of Maj'Eyal, but th
 The most famous of all halflings is Queen Mirvenia, most famed for her saving of King Toknor in Last Hope from a siege of orcs. Mystery still surrounds how she managed to bypass the winter's icy floes with her army to reach the citadel in time to rescue Toknor. Some have hypothesised that she enlisted the aid of sorcerers, but none of her troops would talk about the journey afterwards. She wed King Toknor in the second year of the Age of Ascendancy, and gave birth to the first known mixed race child - Tolak the Fair.
 ]], [[하플링은 크게 두 인종으로 나뉜다, 엘도랄과 나르골로 말이다, 두 인종이 자주 섞이긴 하지만 말이다. 모든 하플링은 120cm 아래의 키를 가졌다, 그리고 보통 그들의 큰 발과 곱슬머리로 알아차릴 수 있다. 엘도랄은 보통 금발과 푸른눈을 가졌고 나르골은 더 어두운 머리색과 피부색 그리고 헤이즐 색 눈을 지녔으며 대부분은 그들의 사촌들보다 키가 작다. 하플링은 그들의 지능과 재빠른 기지로 알려져 있다, 하지만 다른 종족을 대할 때의 오만함으로도 잘 알려져 있다 - 하플링들은 이 말을 부정하지 않는데 그들이 그럴만한 권리가 있다고 믿기 때문이다.
 
-하플링은 마즈'에이얄의 주된 지배 종족이었다, 전술적인 쉐르'툴 유적들을 통제하에 두고 넓은 땅을 통치했다. 하플링과 인간 사이의 전쟁기록은 상당하다, 그리고 많은 전쟁에서 하플링들은 승리자였다. 하지만 장작의 시대 그들은 커다란 파멸을 마주했다, 오크들이 하플링들은 주된 목표로 맹렬하게 공격했기 때문이다, 그리고 많은 수의 하플링 공동체가 지도에서 사라졌다. 그리고 이때문에 현대의 하플링들은 다른 종족과 거래하는것에 더 의존하게 되었다, 특히 인간과 말이다.
+하플링은 마즈'에이얄의 주된 지배 종족이었다, 전술적인 쉐르'툴 유적들을 통제하에 두고 넓은 땅을 통치했다. 하플링과 인간 사이의 전쟁기록은 상당하다, 그리고 많은 전쟁에서 하플링들은 승리자였다. 하지만 장작더미의 시대 그들은 커다란 파멸을 마주했다, 오크들이 하플링들은 주된 목표로 맹렬하게 공격했기 때문이다, 그리고 많은 수의 하플링 공동체가 지도에서 사라졌다. 그리고 이때문에 현대의 하플링들은 다른 종족과 거래하는것에 더 의존하게 되었다, 특히 인간과 말이다.
 
 엘도랄은 대륙의 북쪽에 왕국을 가졋었다, 하지만 대부분의 왕국은 오크와의 전쟁에서 멸망했으며 그다지 재건되지 않았다. 하지만 비록 다른 종족들과 공유하긴 하지만 하플링들은 여전히 데르쓰와 같은 농경 정착지를 가지고 있다. 엘도랄들은 위대한 치유사와 농부로 알려져 있다, 그리고 그들의 슬링 기술은 대륙 최고라고 알려져 있다.
 
-나르골은 한때 대륙의 남쪽에 강대한 방어 기지들을 가지고 있었다, 하지만 장작의 시대 엘도랄들 보다 덜 시달렸음에도 그들은 많은 수를 잃었다, 그리고 그들의 주요 인구 집단의 인구수가 줄어들기 시작했다. 마지막 희망의 등장이 이 과정에 속도를 더했는데 많은 공동체가 도시의 교외로 흡수되었기 때문이다. 나르골은 또한 위대한 세공사, 연금술사 룬 제작자로 알려져 있다 그리고  모든 종족들 중에서도 가장 뛰어난 참모진들중 다수가 하플링들이다. 많은 장군들과 군사 전문가들이 그들의 왕국에서 차출되곤 한다.
+나르골은 한때 대륙의 남쪽에 강대한 방어 기지들을 가지고 있었다, 하지만 장작더미의 시대 엘도랄들 보다 덜 시달렸음에도 그들은 많은 수를 잃었다, 그리고 그들의 주요 인구 집단의 인구수가 줄어들기 시작했다. 마지막 희망의 등장이 이 과정에 속도를 더했는데 많은 공동체가 도시의 교외로 흡수되었기 때문이다. 나르골은 또한 위대한 세공사, 연금술사 룬 제작자로 알려져 있다 그리고  모든 종족들 중에서도 가장 뛰어난 참모진들중 다수가 하플링들이다. 많은 장군들과 군사 전문가들이 그들의 왕국에서 차출되곤 한다.
 
 하플링 중에서 가장 유명한 이는 여왕 미르베니아다, 그녀는 오크의 공성에서 왕 토크놀을 구한것으로 가장 잘 알려져 있다. 불가사의한 점은 어떻게 그녀가 군대와 함께 겨울의 얼어붙은 유빙 위를 제 시간에 건너 성채에 도달해 토크놀을 구출할 수 있었냐는 것이다. 몇몇은 그녀가 마법사들의 힘을 빌렸을거라 가설을 세웠다, 하지만 그녀의 군인들중 누구도 그날의 여정을 말하지 않았다. 그녀는 주도의 시대 두번째 해에 왕 토크놀과 혼인했다, 그리고 최초로 알려지게 될 혼혈 종족의 자손 - 공평한 자 톨락을 낳았다.
 ]], "_t")
@@ -15136,9 +15136,9 @@ Recent investigations of orcish ruins have revealed a surprising amount of cultu
 
 There have been no substantiated reports of orcs for over 100 years. What reported sightings there are tend to be from such unreliable sources as adventurers and hermits, and have never been verified. We should be thankful that these horrible creatures have been banished to the annals of history, surviving only as stories to be told to misbehaving children.]], [[즐겁게도 오크들은 주도의 시대 용맹한 자 토크놀의 즉위 초기에 주도된 대대적인 숙청으로 마즈'에이얄에서 멸종했다. 그러나 그들의 끝나버린 문화와 문명에 대한 학문적 연구는 비록 그것이 원시적일지 몰라도 여전히 흥미롭다.
 
-오크들은 보통 185cm 정도였고, 녹색이나 검은 피부를 가지고 있었다. 그들은 외모와 체형에 있어서 큰 다양성을 보였는데, 아마도 그들의 번식 속도가 유난히 빨랐기 때문일 것이다. 대다수의 오크들은 육중한 체격에 근육질이었다. 오크들은 또한 끔찍한 꿀꿀거림으로도 잘 알려져 있었다. 그러나 장작의 시대에는 파괴적인 마법에 정통한 마르고 왜소한 오크들이 더 많이 나타났다.
+오크들은 보통 185cm 정도였고, 녹색이나 검은 피부를 가지고 있었다. 그들은 외모와 체형에 있어서 큰 다양성을 보였는데, 아마도 그들의 번식 속도가 유난히 빨랐기 때문일 것이다. 대다수의 오크들은 육중한 체격에 근육질이었다. 오크들은 또한 끔찍한 꿀꿀거림으로도 잘 알려져 있었다. 그러나 장작더미의 시대에는 파괴적인 마법에 정통한 마르고 왜소한 오크들이 더 많이 나타났다.
 
-오크들은 이 단순한 생물들을 하인으로 쓰려고 했던 엘도랄 하플링에의해 최초 조우되었다, 하지만 이 시도는 오크들이 너무 폭력적인 탓에 좌절되었다. 수세기 동안 전쟁과 전투에서 우리는 이 짐승들과 끊이없이 싸워왔다. 그들의 우월한 물량은 때때로 모든 문명을 압도할 위협으로 다가왔었는데 이는 마법폭발과 같은 극단적인 방어조치마저 불러일으킬 정도였다. 가장 끔찍했던 시간은 단연코 장작의 시대였다. 오크들이 비전 능력을 개발시켰을 때이자 포식자 가르쿨의 지휘아래 대륙을 집어삼키던 시대였다, 그들은 뒤에 아무도 남기지 않고 무자비하게 도살했다. 최후에 만명의 하플링들이 그들의 목숨을 바쳐 악마적인 오크들의 지도자를 끝장내었고 그들의 진격을 저지할 수 있었다. 그러자 점점 문명 세력은 회복되기 시작했고, 마침내 토크놀 왕의 인간 왕국과 미르베니아 여왕의 하플링 왕국이 통합하는 데 성공하여 오크들을 몰아내고 궁극적으로 그들을 완전히 멸종시켰다.
+오크들은 이 단순한 생물들을 하인으로 쓰려고 했던 엘도랄 하플링에의해 최초 조우되었다, 하지만 이 시도는 오크들이 너무 폭력적인 탓에 좌절되었다. 수세기 동안 전쟁과 전투에서 우리는 이 짐승들과 끊이없이 싸워왔다. 그들의 우월한 물량은 때때로 모든 문명을 압도할 위협으로 다가왔었는데 이는 마법폭발과 같은 극단적인 방어조치마저 불러일으킬 정도였다. 가장 끔찍했던 시간은 단연코 장작더미의 시대였다. 오크들이 비전 능력을 개발시켰을 때이자 포식자 가르쿨의 지휘아래 대륙을 집어삼키던 시대였다, 그들은 뒤에 아무도 남기지 않고 무자비하게 도살했다. 최후에 만명의 하플링들이 그들의 목숨을 바쳐 악마적인 오크들의 지도자를 끝장내었고 그들의 진격을 저지할 수 있었다. 그러자 점점 문명 세력은 회복되기 시작했고, 마침내 토크놀 왕의 인간 왕국과 미르베니아 여왕의 하플링 왕국이 통합하는 데 성공하여 오크들을 몰아내고 궁극적으로 그들을 완전히 멸종시켰다.
 
 최근 오크 유적을 조사한 결과 놀라운 양의 문화 유물이 발굴되었다.그리고 심지어 다산과 전투에 바탕을 둔 조잡한 예술품들마저 발견되었다. 또한 오크 문화에 강한 공동체적 요소들이 있었음을 뜻하는 몇몇 증거들도 발견되었다. 스포츠 활동과 종족적 자긍심의 행사에 많은 중점을 둔 유물들이었다. 그러나 이러한 것들은 여전히 우리의 선진 문화의 미학에 비하면 아름다움과 섬세함이 분명히 결여되어 있었으며 우리의 문화와 비교하려는 어떠한 시도도 그들의 잔혹성, 영토 분쟁, 전쟁에 대한 집착으로 가려져왔던것으로 보인다.
 
@@ -19777,7 +19777,7 @@ section "game/modules/tome/data/talents/cursed/cursed-aura.lua"
 t("Defiling Touch", "모독의 손길", "talent name")
 t("curse", "저주", "_t")
 t("The %s lying nearby catches your attention. What draws you to it is not the thing itself, but something burning inside you. You feel contempt for it and all worldly things. This feeling is not new but the power of it overwhelms you. You reach out to touch the object, to curse it, to defile it. And you notice it begin to change. The colors of it begin to fade and are replaced with an insatiable hate. For a moment you hesitate. You know you must choose to resist this manifestation of your curse now and forever, or fall further into your madness.", "근처에 놓인 %s 당신의 눈길을 사로잡았다. 그것에 관심이 있던 것은 아니지만, 내면의 무언가가 불타는 것을 느꼈다. 당신은 이 불타오르는 느낌을 무시했다. 이러한 감정은 딱히 새로운 것은 아니었지만, 그 느낌과 함께 찾아온 힘, 그것만은 당신을 압도할 것처럼 흘러나왔다. 당신은 의도치 않게 그 물체를 저주하고 오염시키기 위해 팔을 뻗었다. 그러자 당신은 무언가 변화를 느꼈다. 장비의 색은 탈색되고 끝없는 증오가 그 빈자리를 채웠다. 잠시동안 당신은 망설였다. 이 저주의 전조를 버텨내고 다시는 발현하지 못하게 할 지, 더 깊은 광기로 빠져들 것인지. 선택의 시간이 도래했다.", "tformat", nil, {"가"})
-t("The %s lies defiled at your feet. An aura of hatred surrounds you and you now feel truly cursed. You have gained the Cursed Aura talent tree and 1 point in Defiling Touch, but at the cost of 2 Willpower.", "%s 당신의 발 근처에 모독된 상태로 남겨져있다. 이제 증오의 기운이 당신 주위에서 발산된다. 당신은 이제 진정 저주 받았다는 것을 느꼈다. 저주 받은 자의 기운 기술 계열을 얻고, 모독의 손길 기술을 1 레벨 얻었지만 그에 대한 댓가로 의지가 2 감소했습니다.", "tformat", nil, {"가"})
+t("The %s lies defiled at your feet. An aura of hatred surrounds you and you now feel truly cursed. You have gained the Cursed Aura talent tree and 1 point in Defiling Touch, but at the cost of 2 Willpower.", "%s 당신의 발 근처에 모독된 상태로 남겨져있다. 이제 증오의 기운이 당신 주위에서 발산된다. 당신은 이제 진정 저주 받았다는 것을 느꼈다. 저주 받은 자의 기운 기술 계열을 얻고, 모독의 손길 기술을 1 레벨 얻었지만 그에 대한 대가로 의지가 2 감소했습니다.", "tformat", nil, {"가"})
 t("Cursed Fate", "저주받은 운명", "_t")
 t("The %s returns to normal and your hate subsides.", "%s 정상적으로 돌아왔고, 당신의 증오는 가라앉았다.", "tformat", nil, {"가"})
 t("Release your hate upon the object", "증오를 물체에 해방한다", "_t")
@@ -20268,11 +20268,11 @@ This bonus cooldown occurs even if your talents would not normally cool down.
 This talent deactivates automatically upon rest.
 This strength comes at a cost: you lose %d%% of your maximum life every turn.  This can kill you.
 
-#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[그 어떤 댓가도 생각하지 않고, 오직 승리만을 위해 내면의 힘을 모조리 쏟아붓습니다.	
+#{italic}#If you're lucky, this will take everything you've got.#{normal}#]], [[그 어떤 대가도 생각하지 않고, 오직 승리만을 위해 내면의 힘을 모조리 쏟아붓습니다.	
 활성화 즉시, 그리고 이 기술의 지속시간 중, 시전자의 부정적인 효과는 빠르게 사라지고, 기술들의 재사용 대기시간 역시 2 배 더 빠르게 돌게 됩니다.
 이 재사용 대기시간 단축 효과는 일반적으로 재사용 대기시간이 단축되지 않는 기술도 영향을 받습니다.
 이 기술은 휴식 시 비활성화 됩니다.
-이 강력한 효과에는 그에 걸맞는 댓가를 치뤄야합니다 : 최대 생명력의 %d%% 를 매 턴 잃게 됩니다. 이 피해로 죽을 수도 있습니다.
+이 강력한 효과에는 그에 걸맞는 대가를 치뤄야합니다 : 최대 생명력의 %d%% 를 매 턴 잃게 됩니다. 이 피해로 죽을 수도 있습니다.
 
 
 #{italic}#당신은 운이 좋지, 그 행운이 당신이 가진 모든 것을 가져갈 거야.#{normal}#]], "tformat")
@@ -29605,7 +29605,7 @@ It slowly replenishes over time.
 ]], [[강령술, 그것은 금지된 마법.
 강령술, 그것은 사악한 마법.
 
-황혼의 시대와 장작의 시대 동안, 이 세계는 끔찍한 고통에 시달렸습니다. 왕국들은 무너졌고, 모든 종족들은 억압됐었으며 전염병이 창궐하여 수백만이 목숨을 잃었습니다.
+황혼의 시대와 장작더미의 시대 동안, 이 세계는 끔찍한 고통에 시달렸습니다. 왕국들은 무너졌고, 모든 종족들은 억압됐었으며 전염병이 창궐하여 수백만이 목숨을 잃었습니다.
 그야말로 암흑의 시대였고 그 혼란스러운 시기에 공포를 이끄는 자들이 나타났습니다. 바로 강령술사들이죠.
 물론 강령술사들은 항상 존재했고, 지금도 강령술은 수많은 이들을 유혹하고 있습니다. 하지만 그 시대는 확실히 강령술사들의 황금기였습니다.
 소위 '고결한' 마도사들은 강령술사들을 타락한 형제라고 여겼고, 그들을 갱생시키거나... 없애 버려야 한다고 생각했습니다. 하지만 강령술사들은 자신들이 부당한 오해를 받고 있는 연구자라고 여겼습니다. 다른 이들은 너무 나약하거나 겁이 나서 손을 대지 못하는 분야를 연구하는 것일 뿐이라고 말이죠. 오, 강력한 힘을 주는 분야긴 하지만요....
@@ -33519,7 +33519,7 @@ section "game/modules/tome/data/zones/deep-bellow/npcs.lua"
 t("The Mouth", "'주둥이'", "entity name")
 t("\"From bellow, it devours.\"", "\"깊은 곳에서, 집어삼킨다.\"", "_t")
 t("and revived as a screeching drem bat", "그리고 그 시체는 비명을 지르는 드렘 박쥐로 되살아났습니다.", "_t")
-t("#CRIMSON#%s seems invulnerable, there must be an other way to kill it!", "#CRIMSON#%s 피해를 받지 않는 걸로 보인다. 죽일 수 있는 다른 방법이 분명히 있을 것이다!", "logSeen", nil, {"은"})
+t("#CRIMSON#%s seems invulnerable, there must be an other way to kill it!", "#CRIMSON#%s 피해를 받지 않는 것 같다. 죽일 수 있는 다른 방법이 분명히 있을 것이다!", "logSeen", nil, {"은"})
 t("I have heard a dwarf whispering about some abomination in the deep bellow.", "어떤 드워프가 깊은 포효 안쪽의 흉측한 것에 대해서 속삭이는 걸 들었어.", "_t")
 t("slimy crawler", "끈적끈적한 것", "entity name")
 t([[This disgusting... thing crawls on the floor toward you with great speed.

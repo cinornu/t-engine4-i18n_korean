@@ -123,7 +123,7 @@ t("Draebor, the Imp", "임프 드래보르", "_t")
 t("a dúathedlen", "듀아세들렌", "_t")
 t("a fire imp", "화염 임프", "_t")
 t("a forge giant", "대장간 거인", "_t")
-t("Khulmanar, General of Urh'Rok", "쿨마나르, 울흐'록의 장군", "_t")
+t("Khulmanar, General of Urh'Rok", "울흐'록의 장군 쿨마나르", "_t")
 t("Kryl-Feijan", "키릴-페이얀", "_t")
 t("Lithfengel", "리스펭겔", "_t")
 t("an onilug", "오닐루그", "_t")
@@ -729,7 +729,7 @@ t([[You learn to use death around you to an even greater advantage.
 		기술 레벨 3 일 때, 어둠의 지배 효과가 죽음으로부터 시전자를 보호해, 매 중첩 당 생명력 하한이 %d 증가합니다.]], "tformat")
 t("Blood Pact", "피의 계약", "talent name")
 t([[Pay %d%% of your current life and gain 100%% darkness damage conversion for 1 turns.
-			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[현재 생명력의 %d%% 를 댓가로 1 턴 동안 모든 피해가 어둠 속성으로 전환됩니다.
+			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[현재 생명력의 %d%% 를 대가로 1 턴 동안 모든 피해가 어둠 속성으로 전환됩니다.
 			어둠의 지배가 활성화되어 있다면, 중첩 당 기력 %d, 원기 %d 가 회복됩니다.]], "tformat")
 t("Erupting Darkness", "폭발하는 어둠", "talent name")
 t("raging volcano", "분출하는 화산", "_t")

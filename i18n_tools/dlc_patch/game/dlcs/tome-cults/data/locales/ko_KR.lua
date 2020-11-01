@@ -739,7 +739,7 @@ Read now for a fate worse than death inside awaits.
 읽어라. 죽음보다 더 극심한 운명이 기다린다.
 ]], "_t")
 t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
-t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한 번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 댓가로 치뤄야할까요?", "_t")
+t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한 번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 대가로 치뤄야할까요?", "_t")
 t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 때, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '선생님' 으로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
 t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이 일은 일어나지 않았다.", "_t")
 t("Hithre", "하이트르", "_t")
@@ -2802,7 +2802,7 @@ t([[On casting Entropic Gift, a radius 1 rift in spacetime will be opened undern
 		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[엔트로피의 선물을 시전할 때, 반경 1 칸 시공간 균열이 대상의 발 밑에 %d 턴 동안 열립니다. 매 턴 반경이 1 칸씩 증가하고 최대 %d 만큼 커집니다.
 		균열의 영향을 받는 모든 대상은 중심으로 끌려가며, %0.2f 암흑 피해와 %0.2f 시간 피해를 입고, 현재 엔트로피의 %d%% 에 해당하는 피해를 매 턴 입힙니다. (현재 %d).]], "tformat")
 t("Power Overwhelming", "압도적인 힘", "talent name")
-t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "주문이 매우 위험한 엔트로피 에너지로 강화됩니다. 암흑과 시간 피해가 %d%% 늘어나고, 저항 관통이 %d%% 증가합니다. 고통의 댓가로 %0.2f 엔트로피 반발을 즉발형 기술이 아닌 주문을 시전할 때 추가로 받습니다.", "tformat")
+t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "주문이 매우 위험한 엔트로피 에너지로 강화됩니다. 암흑과 시간 피해가 %d%% 늘어나고, 저항 관통이 %d%% 증가합니다. 고통의 대가로 %0.2f 엔트로피 반발을 즉발형 기술이 아닌 주문을 시전할 때 추가로 받습니다.", "tformat")
 
 
 ------------------------------------------------
@@ -4162,7 +4162,7 @@ t("Size Isn't Everything", "크기가 전부는 아니잖아요", "_t")
 t("Sweet and Full of Grace", "달콤하고 은혜로운", "_t")
 t("Different Tan", "남다른 태닝", "_t")
 t("Fate Amenable To Change", "변화를 위한 운명", "_t")
-t("Grey Area", "회색영역", "_t")
+t("Grey Area", "회색지대", "_t")
 t("It's Character Forming", "캐릭터 생성 중", "_t")
 t("Jaundiced Outlook", "비관적 전망", "_t")
 t("Problem Child", "문제아", "_t")
