@@ -3484,7 +3484,7 @@ t([[#LIGHT_GREEN#*The halfling finally returns with a vial and a small pouch.*#W
 YOUR DOSE OF THE ELIXIR, AS WELL AS SOMETHING ELSE. THIS INFUSION IS RARE AS HELL, SO DON'T GO WASTING IT.]], [[#LIGHT_GREEN#*마침내 하플링이 유리병과 작은 주머니를 들고 돌아왔습니다.*#WHITE#
 여기 네 영약, 그리고 이것도. 이 주입물은 존나게 희귀한 거니까 낭비하지 마.]], "_t")
 t("THANK YOU. I'LL BE OFF.", "고마워, 이제, 가야겠어.", "_t")
-t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "어떤 영약 만드는 걸 도와주고 싶은데? 그냥 도와주려고 온거 맞지? 사랑의 영약 같은 걸 찾으러 온 얼간이는 아니지?", "_t")
+t("WHICH ELIXIR DO YOU WANT TO HELP ME WITH? YOU ARE HERE TO DO JUST THAT, RIGHT? YOU'RE NOT SOME IMBECILE HERE LOOKING FOR A LOVE POTION?", "어떤 영약 만드는 걸 도와주고 싶은데? 그냥 도와주려고 온거 맞지? 사랑의 묘약 같은 걸 찾으러 온 얼간이는 아니지?", "_t")
 t("[Indicate the %s.]", "[%s 가리킨다.]", "tformat", nil, {"를"})
 t("[leave]", "[떠난다]", "_t")
 t("TAKE THIS LIST OF INGREDIENTS, AND HURRY THE HELL UP.", "재료 목록 받아, 그리고 제기랄, 서둘러.", "_t")
@@ -4119,7 +4119,7 @@ section "game/modules/tome/data/chats/command-staff.lua"
 
 t("Greetings. How can I help you?", "안녕하십니까. 어떻게 도와드릴까요?", "_t")
 t("Hurry up and make with the foe-blasting.", "서둘러, 놈들을 날려버려야지.", "_t")
-t("O wise wielder, instruct me that I may better serve you.", "오 현명하신 사용자님, 제가 모실 수 있도록 지시를 내려 주세요.", "_t")
+t("O wise wielder, instruct me that I may better serve you.", "오 현명하신 사용자님, 제가 잘 모실 수 있도록 지시를 내려 주세요.", "_t")
 t("Make amends, magic-user, for the harm ye have wrought is beyond compare.", "치유를 행하세요, 마법사님, 당신은 이제까지 어마어마하게 파괴하고 다녔으니까.", "_t")
 t("You really could have chosen a better home for me, you know. I was reasonably happy in my old crystal. This stick smells like armpit.", "있잖아, 제발 내 집 좀 더 좋은 곳으로 마련해 줘. 옛날에 살던 수정이 참 좋았는데 말이야. 이 막대기에선 겨드랑이 같은 냄새가 난다고.", "_t")
 t("Tremble before the might of Telos!", "텔로스의 힘 앞에 전율하라!", "_t")
