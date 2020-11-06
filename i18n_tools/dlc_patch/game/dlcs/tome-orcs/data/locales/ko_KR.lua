@@ -19,8 +19,8 @@ t("Do not go gentle into that good night", "그런 좋은 밤에는 신사처럼
 t("Trapped John.", "존을 가두었다.", "_t")
 t("I did not want that!", "일부러 한 거 아니야!", "achievement name")
 t("Tricked Nektosh into killing one of his own people.", "네크토쉬가 자신의 추종자를 죽이게 했다.", "_t")
-t("We weren't kidding!", "진심으로 했었어!", "achievement name")
-t("Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "속박되지도, 기절하지도, 잠들지도, 혼절되지도, 혼란스럽지도 않은 상태에서 네크토쉬의 광선을 맞고 죽었다.", "_t")
+t("We weren't kidding!", "장난 친 거 아니야!", "achievement name")
+t("Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "속박되지도, 기절하지도, 잠들지도, 혼절하지도, 혼란스럽지도 않은 상태에서 네크토쉬의 광선을 맞고 죽었다.", "_t")
 t("Make Him Squirm", "수치플레이", "achievement name")
 t("Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "네크토쉬가 힘을 다 쓰게 만든 다음에, 지역을 떠나서 그를 놔 둔 채로 게임에서 승리했다. 다른 화이트후프들이 잘 정리해주겠지 뭐...", "_t")
 t("True Savior", "진정한 구원자", "achievement name")
@@ -57,7 +57,7 @@ t("Crushed High Sun Paladin Aeryn and with her destroyed the bastion of the Sunw
 t("One Ill Turn Deserves Another", "가는 말이 고와야 오는 말이 곱다", "achievement name")
 t("The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "연기의 궁전을 폐허로 만들었고, 그 평의회를 산산조각냈다. 아트모스 부족은 더 이상 긍지들을 괴롭히지 못할 겁니다.", "_t")
 t("The Dead God Rests", "죽은 신이 잠들다", "achievement name")
-t("You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "아마크텔을 부활시키려던 쉐르'툴 신관을 쓰러뜨려, 긍지들과 이 세계를 구했다.", "_t")
+t("You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "아마크텔을 부활시키려던 쉐르'툴 사제를 쓰러뜨려, 긍지들과 이 세계를 구했다.", "_t")
 t("To the Bitter End", "씁쓸한 결말", "achievement name")
 t("You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "아트모스 부족 최후의 생존자들을 몰살하여, 그들의 문명을 끝냈다.", "_t")
 t("Imp'ing Away", "임프가 나라간다", "achievement name")
@@ -1921,7 +1921,7 @@ For pricing, please discuss the matter with Kaltor, and then forget about it ent
 
 가격에 대해선 칼토르와 상의한 후에, 까맣게 잊어버리세요. 가격을 신경써야 하는 분이시라면, 아마 확실히 데스트럭티쿠스를 살 형편이 못 되시는 분일 겁니다.
 
-#{italic}#(알림: 저희는 데스트럭티쿠스를 잘못된 방식으로 옮기다가 일어날 수 있는 일체의 상해, 사망, 재물 손괴에 대해서 책임지지 않습니다. 저희는 데스트럭티쿠스를 옮길 적절한 방법을 선택하는 것에 대해서 책임지지 않습니다. 데스트럭티쿠스에 사용 가능한 여분의 미사일은 제공하지 않습니다. 데스트럭티쿠스의 폭발 반경 이상 범위에 대한 명중은 보장하지 않습니다. 저흰 데스트럭티쿠스의 탄도를 발사 이후에 변경하려 시도함으로써 일어날 수 있는 일체의 상해, 사망, 재물 손괴에 대해서 책임지지 않습니다.)#{normal}#]], "_t")
+#{italic}#(알림: 저희는 데스트럭티쿠스를 잘못된 방식으로 옮기다가 일어날 수 있는 일체의 상해, 사망, 재물 손괴에 대해서 책임지지 않습니다. 저희는 데스트럭티쿠스를 옮길 적절한 방법을 선택하는 것에 대해서 책임지지 않습니다. 데스트럭티쿠스에 사용 가능한 여분의 미사일은 제공하지 않습니다. 데스트럭티쿠스의 폭발 반경 이상 범위에 대한 명중은 보장하지 않습니다. 저희는 데스트럭티쿠스의 탄도를 발사 이후에 변경하려 시도함으로써 일어날 수 있는 일체의 상해, 사망, 재물 손괴에 대해서 책임지지 않습니다.)#{normal}#]], "_t")
 
 
 ------------------------------------------------
@@ -1962,7 +1962,7 @@ t([[DISCIPLINARY REPORT:
 -룬티, 개인 물품이었던 드워프산 맥주를 훔침. 채찍질 11대.
 -햄피스트, 개인 물품이었던 오우거산 브랜디를 훔침. 채찍질 5대, 감봉 조치.
 -소환사 독처커, 다른 선원의 얼굴을 망가뜨림. 처벌 유보.  [i]주석: 사고였던 것으로 여겨짐[/i]
--파도의 토르골, 아군 선박을 침몰시키는 사고를 저지름. 5일 간에 걸쳐서 채찍질 1000대.  [i]주석: 원래라면 밧줄로 묶어서 잠수시켜야 하지만, 파도술사는 귀중한 전력이다![/i]
+-파도의 토르골, 아군 선박을 침몰시키는 사고를 저지름. 5일에 걸쳐서 채찍질 1000대.  [i]주석: 원래라면 밧줄로 묶어서 잠수시켜야 하지만, 파도술사는 귀중한 전력이다![/i]
 -그레이프샷 이등항해사, 대포를 부적절하게 사용함. 채찍질 30대, 강등 조치.
 -레이디 라고, 전리품을 팔아 사익을 챙김. 채찍질 30대, 벌로써 봉사 활동에 배정함.
 -시프티, 명령 불복종. 채찍질 10대.
@@ -1994,7 +1994,7 @@ t([[OPERATIONS PERFORMED:
 
 -조국에 마지막으로 보냈던 화물선 말입니다만, 그 쬐깐한 상자들이 엄청 많이 실려 있고, 안에 든 거 전부 보내라 하시고 나중에 연락 주시겠다고 하셨던 그거 말입니다. 거기에 '그거' 로 가득찬 상자가 하나 들어 있습니다. 철의 왕좌 밀수꾼 놈들한테 받은 걸 줘서, 그 대가로 받은 것입죠. "47-C" 라고 이름표 붙여진 상자입니다. 다른 상자들은 싹 다 버리십쇼, [i]하나도 빠짐없이[/i] 함정을 담아 두었으니까. "쉐리 톨" 과의 거래는 다행스럽게도 별 탈 없이 끝났고, 받은 물건들도 다 멀쩡히 작동하는 것 같습니다. 이 정도면 확실히 승진 감 아닙니까, 보스?
 
--마즈'에이알의 암시장과는 접촉하기가 쉽고, 우리가 그쪽에다 안전하게 거래할 수 있도록 거점을 만들어 줘서 우린 지금 떼돈을 벌고 있습니다. 게다가 마즈'에이알 쪽에서 원하는 물건을 그쪽으로 보낼 수 있는 수단도 있습죠. "꼬리구름" 쪽에서도 열정적으로 가담하고 있고, 아트모스산 압생트를 왕국연합 쪽 밀수꾼 녀석들에게 넘겨서 또 큰 돈을 벌었습니다. 엘발라산 와인과 브랜디를 "꼬리구름" 쪽에 넘기는 일도 비슷하게 수익을 내고 있고요. 이득 본 것들 (쓸만한 금속들, 연금술 재료들, 노예들) 은 배에다가 꽉꽉 실어서 격월로 조국으로 보내겠습니다. 선원 중 그것들로 자기 주머니 채우는 놈을 찾았으면, 그 놈은 곧바로 배 아랫쪽이 어떻게 생겼는지 구경 좀 시켜 주십쇼.
+-마즈'에이알의 암시장과는 접촉하기가 쉽고, 우리가 그쪽에다 안전하게 거래할 수 있도록 거점을 만들어 줘서 우린 지금 떼돈을 벌고 있습니다. 게다가 마즈'에이알 쪽에서 원하는 물건을 그쪽으로 보낼 수 있는 수단도 있습죠. "꼬리구름" 쪽에서도 열정적으로 가담하고 있고, 아트모스산 압생트를 왕국연합 쪽 밀수꾼 녀석들에게 넘겨서 또 큰 돈을 벌었습니다. 엘발라산 와인과 브랜디를 "꼬리구름" 쪽에 넘기는 일도 비슷하게 수익을 내고 있고요. 이득 본 것들 (쓸만한 금속들, 연금술 재료들, 노예들) 은 배에다가 꽉꽉 실어서 격월로 조국으로 보내겠습니다. 선원 중 그것들로 자기 주머니 채우는 놈을 찾았으면, 그놈은 곧바로 배 아랫쪽이 어떻게 생겼는지 구경 좀 시켜 주십쇼.
 
 -선원들이 계속 말을 안 듣고 의욕도 없어서 골치입니다. 채찍질을 해도 별로 달라지는 게 없지만, 그래도 아직까진 인원도 충분하고 놈들을 잘 써먹고 있습니다. 뭐, 말은 그렇게 했지만 죄를 저지른 놈들을 계속 보내 주십쇼. 술이랑 치어블로섬을 계속 주기만 하면 쉴새 없이 일을 해 주니까요.]], "_t")
 t("dominion port", "자치령 항구", "newLore category")
@@ -3182,22 +3182,202 @@ Thus, we're putting our efforts into two areas.  The first is advocacy of Natura
 따라서, 우린 두 가지 활동에 힘을 쏟고 있습니다.  첫 번째는 마법 대신에 자연의 힘을 사용할 것을 주장하는 것입니다. 주문 사용자들과 이야기를 나누어 왜 마법을 사용하는지 알아보고, 자연의 힘을 이용하여 (최소한) 마법과 동등한 결과를 얻어낼 수 있는 방법을 찾아내는 것이지요.  우린 오우거들의 룬을 전부 자연적인 것으로 대체하려 했던 지구랏의 노력을 이어왔고 (우리의 최신 혼합물을 사용하면 오우거들의 기대 수명이 40% 정도만 감소할 것으로 예상하고 있습니다), 마법을 배제한 비료 제작법을 개발했으며, 물 마법에 의존하지 않고 사막 근처 정착지에 우물을 만들어냈고, 그 외에도 마법이 위험한 구닥다리 유물 정도로 보일 정도의 기술들과 그 활용법들을 다수 개발하였습니다.  두 번째는 주문 시전자들에게 마법을 안전하게, 책임감 있게, 그리고 자연을 고려하면서 사용할 수 있는 방법을 가르쳐, 마법이 불러일으키는 해악을 최소화하는 것입니다.  주문 시전자들이 모두 사악한 것은 아니며, 사실 어떤 이들은 주변 사람들의 삶을 풍요롭게 만들어 줄 수 있지요!  룬 마법은 최소한 스스로 한계점을 정해두기라도 하며, 그래서 우린 "살아있는 화석" 길드와 협력하여 새로운 유형의 마법을 만들어내려 하고 있습니다. 대자연의 일부가 되어, 그것에 의해 제한되는 마법을 말입니다.  그쪽 길드의 바위 감시자들은 마법과 자연의 완벽한 조화를 유지하고 있고, 만약 이것이 진정 우리가 나아가야 할 길이라면, 우린 기꺼이 두 팔 벌려 환영할 것입니다.
 ]], "_t")
 t("primal forest", "태고의 숲", "newLore category")
+t("a leaf-bound journal", "나뭇잎으로 엮인 일지", "_t")
+t([[[i](You see here a leaf-bound journal; the moment you open it, it begins to wither and crumble.  You manage to rip out one page; it is still disintegrating, but slowly enough that you can read it before it turns to dust.)[/i]
+
+Another vandalized poster.  Calling us traitors, collaborators, declaring themselves the True Ziguranth.  Fools, the lot of them.
+
+When I established the Menders, it wasn't because I thought the arrival of a handful of magic-users who also happen to be decent people disproved anything taught in Zigur or my childhood in Shatur.  It wasn't because I suddenly forgot that anything derived from arcane magic, no matter whether or not it's wrapped up in some mumbo-jumbo about the heavens, carries the risk of mutating into something that could put the Spellblaze to shame.  It was because those maniacs had ignored the shifting political tides for so long that they found themselves sliding into irrelevance, then went and skipped directly over irrelevance into pariahdom with that foolhardy assassination attempt.  They can blame the Far East all they want, but that was only the last nail in the coffin, alongside widespread acceptance of runes and alchemists operating openly across the continent.
+
+I can appreciate their dedication.  I can appreciate their frustration, and how seeing the world treating magic-use as normal would just make them want to get more violent - but the fact is, the raid on Zigur was a mercy kill, preventing the fanatics from making us look even worse in the public eye.  We are long past the point where intimidation can get us anywhere - so we need to try a new approach.  If reminding the world of the horrors of magic isn't working anymore, the Spellblaze and the Age of Dusk being too faded from public memory, then we need to remind them of the wonders of Nature instead, wonders they can see for themselves, today.  If the public won't believe that magic is evil, they can believe that Nature is better.  If we can't make magic taboo, we can make magic obsolete...  and all of this gathers support we'd otherwise lack, curious minds waiting to be taught the beauty of Nature and warned of the hazards of the arcane.
+
+So maybe the old guard's been overrun with Thaloren, youths, and others who care a great deal more about loving nature than hating magic.  I don't see why this is a problem - making Nature stronger will make it more capable of resisting the damage magic may inflict.  We've allowed the idea of supporting Nature over magic to survive the Allied Kingdoms' treaty with the Gates of Morning, the raid on Zigur, and the attacks on Ziguranth patrols.  We've established ourselves as a selfless, charitable organization working for the good of all, a reputation that will grant us significantly more credibility than our previous public image of a band of crazed fanatics.
+
+Perhaps most meaningfully of all, there are [i]far[/i] more Menders now than there were Ziguranth in the last century.  These allies will help us support Nature to an incredible degree, and we've started offering volunteer courses in classical anti-magic training, allowing them to further refine our techniques for dealing with rogue mages.  If and when arcane magic causes another catastrophe, these allies will rally behind us as we defend Nature from those who threaten it...  And, who knows, maybe we actually CAN teach mages to show a sane level of restraint without wiping them all out.  I'm keeping my eyes open for ways to make that happen, no matter how unlikely they may be.
+
+In the meantime, paying off Stone Warden trainers and buying enough mindstars and herbal infusions for our initiates isn't cheap.  I'm not proud of what I'm doing to pay the bills, and am fully aware of what it'd do to the organization if someone saw me, but this is the fastest and easiest money I've ever made.  Ten minutes of concentration, a few hours to re-establish my equilibrium, and I can grow enough cheerblossom to cover our expenses for a week.]], [[[i](나뭇잎으로 엮여 있는 일지가 있습니다. 그걸 펼쳐 보자, 곧바로 썩어가며 바스러지기 시작했습니다.  당신은 간신히 한 장을 뜯어냈습니다. 이것도 바스러지고 있지만, 그래도 완전히 먼지가 되기 전에 다 읽을 순 있을 것 같습니다.)[/i]
+
+포스터가 또 훼손됐다.  우릴 배신자들, 부역자들이라고 부르면서 자기들이 '진정한' 지구랏이라고 한다.  얼간이 새끼들.
+
+내가 멘더를 세운 건, 이 대륙에 온 마법사들이 꽤 괜찮은 사람들이었고 덕분에 내가 어릴 적에 샤툴에서 배웠던 것들이나 지구르에서 배웠던 것들이 죄다 틀렸다는 걸 알게 되어서가 아니었다.  천상인지 뭔지랑 관계가 있든지 없든지, 비전 마법으로부터 나온 것들은 마법폭발이 애들 장난으로 보일 만한 무언가로 변할 위험이 있다는 걸 죄다 까먹어서도 아니었다.  그건 지구랏의 또라이들이 정치적인 조류가 변하는 걸 너무 오랫동안 무시했고, 그래서 아무도 관심을 안 주게 되니까 암살을 시도한다는 무모한 짓을 저질렀기 때문이었다.  그래서 지구랏이 관심을 못 받는 걸 넘어서 버림받게 된 거고. 동쪽 대륙의 사람들 욕 실컷 해 봐라, 그건 그냥 니들 관짝에다 손수 대못을 박고 있는 것뿐이니까. 이 대륙은 룬도, 공공연히 활동 중인 연금술사들도 받아들이고 있으니까, 사실 이미 못이 박히고 있었는데 마지막으로 손수 박고 있는 거라고 보는 게 맞을 것 같다.
+
+놈들의 헌신은 인정한다.  놈들이 느끼던 좌절감과, 마법 사용자들을 평범하게 대하는 이 세상을 바라보면서 놈들 안에 쌓여갔던 분노도 이해할 수 있다 - 하지만 현실은, 지구르 습격은 그야말로 안락사였다. 세간이 우릴 바라보는 시선이 더 나빠지기 전에 그 광신도들을 죽여준 것이다.  겁주는 걸로 만사를 해결할 수 있는 시대는 이미 지났다 - 그래서, 새로운 접근법을 시도해야 했다.  마법의 공포를 상기시켜주는 게 더 이상 안 통한다면, 마법폭발과 황혼의 시대가 대중들의 기억 속에서 너무 희미해졌다면, 우린 그런 것들 대신에 오늘날에도 직접 볼 수 있는 대자연의 경이로움을 상기시켜 주어야 한다.  대중들이 마법이 사악하다고 믿지 않는다면, 대자연이 더 좋다고 믿게 만들면 된다.  마법을 금기로 만들 수 없다면, 대신 구닥다리로 만들면 되는 것이다...  그리고 이런 식으로 나섰기 때문에 우리가 이전에는 받지 못했던 지지를 받을 수 있었다. 자연의 아름다움과 마법의 위험성을 배우고 싶어 하는 호기심 많은 사람들 말이다.
+
+그래서 이제 설립 당시에 있던 사람들보다 탈로레들과 젊은이들, 그리고 마법을 증오하는 것보다 자연을 아끼는 게 더 중요한 사람들이 더 많아진 거겠지.  난 이게 뭐가 문제인지 모르겠다. 자연의 힘이 강해지면, 마법이 끼칠 수 있는 해악에 저항할 수 있는 힘도 강해지는 것 아닌가.  왕국연합과 아침의 문이 맺은 조약, 지구르 습격, 그리고 공격받는 지구랏 순찰대 - 우린 이런 상황에서 살아남기 위해 자연을 마법 이상으로 강하게 만든다는 발상을 떠올렸고, 실행에 옮겼다.  멘더는 만인을 위해 일하는 이타적인 자선단체고, 그렇게 얻은 평판이 있으면 예전에 미친 광신도 무리의 이미지였을 때와는 비교도 되지 않을 정도의 신뢰 또한 얻을 수 있을 것이다.
+
+무엇보다도 중요한 건, 이제 멘더의 일원은 지난 세기 지구랏 추종자들보다 [i]훨씬[/i] 더 많다는 것이다.  이 동지들은 우릴 도와 대자연을 엄청나게 지원해 줄 것이고, 우린 지원자들에게 고전적인 반마법 훈련도 제공하기 시작했다. 그 사람들이 우리의 기술들을 정교하게 다듬으며 탈주 마법사들을 처리할 수 있도록 말이다.  만약에 비전 마법이 또 다른 재앙을 불러일으키게 된다면, 동지들은 대자연을 위협하는 것들에게 맞서는 우리의 이름 아래에 모이게 될 것이다...  그리고, 꿈같은 이야기지만, 우리가 마법사들을 싹 지워버리는 대신에, 그들이 마법을 쓰는 걸 절제할 수 있도록 가르치게 될 수도 있을 것이다.  난 이런 일을 할 수 있는 방법을 계속해서 찾아볼 것이다. 그 가능성이 얼마나 희박하든지 간에.
+
+그건 그렇고, 바위 감시자 훈련교관들의 봉급과 우리 수습생들에게 필요한 마석, 약초 주입물 값은 싸지가 않다.  이 돈을 충당하려고 지금 하고 있는 일이 그렇게 자랑스럽진 않고, 누가 날 발견하게 되면 멘더에 어떤 일이 일어나게 될지 아주 잘 알고 있긴 하지만, 내가 아는 한 이게 가장 빠르고 손쉽게 돈을 버는 방법이다.  딱 10분만 집중하고, 몇 시간이 지나서 내 평정이 안정화되기만 하면, 치어블로섬을 충분히 키워서 일주일 치 경비를 벌 수 있는 거니까.]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/quarry.lua"
 
+t("a very old journal (1)", "매우 오래된 일지 (1)", "_t")
+t([[This is a matter most vexing.  Our digging was going well (if not particularly productively), and those fellows over in Geothermal Surveying told us they'd found a possible heat source, quite near an existing tunnel - but the miners started refusing to go there.  Copious complaints about assorted lesser maladies - nosebleeds, tremors, and general feelings of fear and unease.  On the other hand, a couple claim the vapors down there have done wonders for their clogged pores.
+
+Firing one as an example didn't work, and I have neither the time nor the inclination to get a bunch of layabouts to do their jobs.  I'm bringing in a yeti handler and excavating the whole area.]], [[진짜 짜증나네.  굴착은 잘 진행되고 있었고 (딱히 성과는 없긴 했지만), 지열 측량 기구의 동료들도 지금 터널 근처에서 우리가 이용할 수 있는 열원을 찾아냈다고 말했다 - 그런데 굴착꾼들이 거기로 가길 거부하기 시작했다.  모두가 온갖 잔질병들 - 코피, 떨림, 두려움과 불안함 같은 것들에 대해서 엄청 불평했다.  저 밑의 증기가 자기들의 증기구를 뻥 뚫어줬다고 주장하는 사람도 두 명 있긴 했는데.
+
+본보기로 한 명을 잘랐지만 별 소용은 없었고, 저 게으름뱅이들한테 일을 하라고 닦달하고 싶지도 않고 그럴 시간도 없다.  그래서 지금 예티 조련사를 하나 데려와서 이 지역 전체를 파내 보려고 한다.]], "_t")
+t("a very old journal (2)", "매우 오래된 일지 (2)", "_t")
+t([[Now I've had to fire a yeti handler as well.  The other workers tell me that the yetis would clutch their heads and hurl themselves into the chasm after no more than a few minutes of work in the promising area; we tried replacing the yetis, but then the handler developed a nosebleed as well, and then refused to do more work.
+
+And this incompetent fool was using a psychic controller!  I would expect this performance from a child attempting it free-hand, but a trained and properly equipped professional should be able to command an entire team of yetis!
+
+I've filed a request for a special order, along with one for the handler's license to be torn up and cast into the chasm.  It's time for drastic measures.]], [[예티 조련사도 잘라버리게 됐다.  다른 일꾼들 말로는 예티들이 열원이 있는 지역에서 딱 몇 분 일했는데 머리를 감싸쥐다가 협곡에 투신했다고 한다. 다른 예티들을 대신 투입해 봤는데, 그렇게 하니까 이번엔 조련사가 코피를 흘리기 시작했고 일하길 거부했다.
+
+그리고 이 무능한 놈은 정신 조작기를 사용하고 있었다!  그건 완전히 어린애들이 맨손으로 일하는 꼴이었다. 충분한 훈련을 받고 적절한 장비를 갖춘 전문가만이 예티 무리 전체를 지휘할 수 있는 것 아니겠는가?
+
+아무튼 특별 허가 요청서를 제출했다. 그 조련사 놈의 자격증을 쫙 찢어다가 저 협곡에다가 내다 버리고 싶다는 요청서랑 같이.  극단적인 수단이 필요한 시점이 왔다.]], "_t")
+t("steam quarry", "증기 채굴장", "newLore category")
+t("a very old journal (3)", "매우 오래된 일지 (3)", "_t")
+t([[I don't like automatons.  Machines that operate by themselves, with no personal input...  why, they don't require any skill or ability to operate!  You need only rely on what someone else has done by inventing it!  Mark my words, our dependence on these things will be the death of us, making us weak in body and mind...  but I must admit, they have gotten the job done.  Only a few days after we brought in these arachnoid contraptions, they excavated enough of the offending cavern (and presumably purged enough of whatever pollutant was down there) that living workers are once again willing to work in the nearby areas.  I don't care if it was superstition or what, because we're going to make quota for this month - those caves had a lot of vents to work with!
+
+Still not sure why the Council confiscated the cargo from the third machine we sent down there, but whatever.  Those uppity do-nothings can keep the gold or jewels or whatever was in there.
+]], [[난 자동기계들을 좋아하지 않는다.  별도의 입력을 받지 않고, 알아서 작동하는 기계들 말이다...  왜냐면, 그것들을 가동하는 데에는 뭔가 기술이나 능력 같은 게 필요 없기 때문이다!  그냥 누군가 발명해낸 거에 의존하기만 하면 된다고!  장담하는데, 이런 것들에 의존하게 되면 우린 다 망하게 될 거다. 우리의 육체와 정신을 약하게 만들 거라고...  하지만 인정할 건 인정해야겠다 - 일은 잘한다.  이 거미처럼 생긴 기계들을 투입하고 며칠도 안 되어서, 문제의 동굴을 충분히 파낼 수 있었고 (그리고 저 아래에 있던 오염물인지 뭔지도 충분히 제거했을 거고) 덕분에 일꾼들이 다시 그 근처 지역에서 일을 하게 되었다.  이 소동이 전부 무슨 미신이었는지 뭐였는지는 이제 상관없다. 왜냐면 이제 이번 달 할당량을 채울 수 있게 되었으니까. 저 동굴들엔 유망한 지열관들이 아주 많다!
+
+근데 아직도 잘 모르겠다. 왜 평의회 놈들이 저 세 번째 기계에서 나온 화물을 압수해갔을까?  뭐, 아무래도 상관없다. 그 거만한 게으름뱅이 놈들은 그 안에 뭐가 들었든, 지들 걸로 만들 권리가 있으니까.
+]], "_t")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/slumbering-caves.lua"
 
+t("a journal (1)", "일지 (1)", "_t")
+t("O #CRIMSON#AMAKTHEL#LAST#!  Rightful ruler of all touched by the sun's light or the core's warmth!  In the era of gods, You innovated when others remained stagnant.  The others were content to work with the same mold - a head, thin skin, a jointed endoskeleton - but You, You had scores of ideas, and even the common threads between them were testaments to flexibility, invention, and adaptability!  The others struggled with stiff, fragile limbs, an easily obstructed windpipe, and one huge mass of vulnerabilities above their torso; You found this form wanting, and proved Your place as the supreme deity by continuing to improve on it.  You gave us arms and legs we could twist into any useful shape we could dream of, and instead of dreadfully fragile eyes and throats, we can see, eat, and breathe through our skin, skin laden with neurons rather than one centralized brain.  Even today, even when unconscious and dismembered, You continue to invent, Your Magic of Creativity tweaking the other gods' creations to see what results.  You are not merely a god of light - You are a god of enlightenment, and all who create owe it to You.", "오 #CRIMSON#아마크텔#LAST#이시여!  태양의 광휘와 대지의 온기가 어루만지는 모든 것의 정당한 지배자시여!  신들의 시대에, 다른 이들이 침체되어 있을 동안 당신께서는 혁신을 이룩하시었나이다.  다른 이들이 변함없이 똑같은 주형을- 머리, 얇은 가죽, 관절과 내골격 같은 것들을 다룰 때, 당신께서는, 당신께서는 수없이 많은 상념을 갖고 계시었고, 그 생각들을 잇는 가장 흔한 가닥들마저, 유연함과 창의성, 그리고 적응성을 드러내는 증표였나이다!  다른 이들이 그 뻣뻣하고 연약한 사지와 손쉽게 막히는 호흡기관과 흉부 위에 올려진 허약하기 짝이 없는 덩어리를 가지고 고심할 동안, 당신께서는 이러한 형태들의 결점을 발견하시었고, 그것을 끊임없이 개선하시어 신 중의 신으로서의 당신의 권좌를 확고히 하시었나이다.  당신께서는 저희에게 저희의 상상대로 구부릴 수 있는 팔과 다리를 주시었고, 끔찍하도록 연약한 눈과 목을 대신하여 저희가 피부를 통해 보고, 먹고, 숨을 쉴 수 있도록 하시었으며 하나의 뇌 대신에 저희의 피부 아래에 신경들을 무수히 펼쳐 주시었나이다.  오늘날에도, 비록 의식이 없이 산산이 조각나 계시옵더라도, 당신께서는 끊임없이 창조하시옵고, 당신의 창조의 마법이 다른 신들의 피조물들을 변화시키는 것을 지켜보고 계시옵나이다.  당신께서는 단순한 광명의 신이 아니옵니다 - 당신께서는 깨우침의 신이시며, 창조를 행하는 모든 이들이 당신께 경배하나이다.", "_t")
+t("a journal (2)", "일지 (2)", "_t")
+t([[Great #CRIMSON#AMAKTHEL#LAST#, forgive me, for I could not prevent the actions of my brethren.  I tried.  We tried.  When they spoke of committing the Great Sin, we argued ferociously, until Caldizar and his apostates did it before we could react in time.  We did our best to avenge this foul deed, and used the Magic of Creativity on as many as we could, blessing them with new forms, and blessing ourselves such that we could do battle with their fortresses; alas, it was nonetheless a war we eventually lost, for what chance did we have against weaponry, power, and mercilessness to which even You fell?  Please, Your Brilliance, understand that we did everything we could.  
+
+Our planet lay in ruins, with even the apostates abandoning Eyal for other worlds.  Every one of Your followers fought to our deaths...  except me, coward that I was in those days.  Now, I am all that remains, along with the apostates we blessed with Your magic.  I will not beg for Your forgiveness; as an inventor You are concerned with results over words, and I will prove to You that my moment of weakness will soon have a wondrous result.  With the sinful apostates gone, You will have the time to secure this world for Yourself, purging the creations of the lesser gods...  and preparing to exact justice on the sinners when they return.  
+]], [[위대하신 #CRIMSON#아마크텔#LAST#이시여, 동포들을 막지 못한 저를 용서하시옵소서.  저는 노력했나이다.  저희는 노력했나이다.  제 동포들이 그 거대한 죄를 범하는 이야기를 할 때, 저희는 그것에 대하여 격렬한 언쟁을 벌였나이다. 하지만 칼디자르와 놈을 따르는 변절자들은 저희가 대응하기 전에 죄를 저질러 버렸나이다.  저희는 그 역겨운 행위를 응징하기 위하여 최선을 다했고, 창조의 마법을 가능한 한 많은 이들에게 사용하여 그들을 새로운 모습으로 축복하였으며 저희 역시 그 축복을 받아 변절자들의 요새들과 전투를 벌였나이다. 아아, 그렇지만 저희는 결국 그 전쟁에서 패배하였나이다. 당신마저 쓰러뜨린 무기와 힘, 그리고 그 잔혹함에 저희가 어찌 맞설 수 있겠사옵니까?  간곡히 부탁드리옵니다, 눈부신 분이시여, 저희가 최선을 다했다는 것을 이해하여 주시옵소서.  
+
+저희의 행성은 폐허가 되었고, 그 변절자들마저 에이알을 버리고 다른 세상으로 떠났나이다.  당신을 따르던 자들은, 그 당시 겁쟁이였던 저를 제외하면 모두 마지막까지 싸워 죽음을 맞이하였나이다...  이제 남은 것은 저와, 저희가 당신의 마법으로 축복을 내렸던 변절자들 뿐이옵나이다.  당신께 용서를 구하진 않겠나이다. 창조자로서, 당신께선 말보다 결과를 중히 여기시는 분이시고, 그러므로 저는 제가 나약했던 그 순간이 머지않아 불러일으킬 놀라운 결과를 당신께 보여드리겠나이다.  죄 많은 변절자들이 사라졌으매, 당신께서 이 세계를 다시금 취하실 때가 도래할 것이옵나이다. 다른 하등한 신들의 피조물들을 정화하시고... 죄를 지은 자들이 돌아왔을 때 정당한 심판을 내릴 준비를 하실 때 말이옵니다.  
+]], "_t")
+t("a journal (3)", "일지 (3)", "_t")
+t([[The work continues, and soon all shall know the name of their new god.  Even handling the one Hand that I have makes me weep for the sins of my brothers, and yet eager to see their work undone...  The bowels of Eyal shall be the forge in which You will be remade, the newly-drained magma channels above shall be its fire.
+
+I can barely bring myself to tell You the indignity I suffer through in service to You...  Unfit savages, ones not of Your creation and thus undeserving of Your mercy, are in possession of one of the last two pieces of Your body.  I met with the "Atmos," and offered them a tiny fraction of Your approval and power in return for it, far more than enough to make up for the geothermal vents emptied to fuel Your rebirth; they fear Your blessings, and rejected my offer.  They are a proud tribe, one that has been proud for so long that they never noticed that they no longer had anything to be proud of.  I have seen such pride before only once, and it is even more misplaced by the Atmos.  They will remain blind and defiant until the moment they fall, and I shall simply wait to sift through the fragments of their dead civilization.
+
+I am sorry, my god - were I in a better position, Your rebirth would not be contingent on #{italic}#negotiating#{normal}# with the unworthy souls trespassing in Your world...  but I cannot afford the risk of using force.  Perhaps it is some minor consolation that You will now be able to personally show them Your fury.]], [[작업은 순조롭고, 머지않아 모든 것이 자신들이 섬길 새로운 신의 이름을 알게 될 것이옵나이다.  당신의 손 하나를 다루기만 해도 저의 형제들이 지은 죄가 떠올라 흐느끼게 되고, 놈들이 저지른 짓이 수포로 돌아가는 것을 보기를 열망하게 되나이다...  에이알의 심층부가 당신을 새롭게 만들어낼 대장간이 될 것이옵고, 새로이 뽑아낸 마그마의 맥이 그 불꽃이 될 것이옵나이다.
+
+제가 당신을 섬기며 겪은 치욕들에 대해서는 차마 아뢰기가 어렵나이다...  적합하지 못한 야만족들, 당신의 피조물이 아니기 때문에 당신의 자비를 받을 자격이 없는 자들이 당신의 옥체의 마지막 두 조각을 소유하고 있더니이다.  저는 그 "아트모스" 와 대면하여, 그 조각들의 대가로 당신의 힘과 은총의 극히 작은 편린을 제공하겠다고 제안하였나이다. 그 편린만으로도 당신의 재림을 위해 소비한 지열관들을 손쉽게 보충할 수 있을 터였나이다. 그러나 저들은 당신의 축복을 겁내었고, 저의 제안을 거부하더니이다.  저들은 오만한 부족이옵고, 너무나 오랫동안 교만에 취하여 자신들에겐 더 이상 자랑스러워할 것이 남아 있지 않다는 것조차 깨닫지 못한 자들이옵나이다.  저는 그러한 교만을 이전에 단 한 번 목격한 적이 있으나 아트모스의 교만은 훨씬 더 그릇되었나이다.  저들은 자신들이 스러질 때까지 눈이 먼 채로 반기를 들 것이니, 저는 그저 저들의 문명이 스러지고 그 잔해를 살필 날을 기다릴 것이옵나이다.
+
+송구하옵나이다, 저의 신이시여 - 제가 처한 상황이 조금만 더 양호했다면, 당신의 재림을 위하여 당신의 세계를 활보하고 있는 저 무가치한 영혼들과 #{italic}#협상#{normal}#을 벌여야 할 필요도 없었을 것이옵나이다...  그러나 저는 무력을 사용한다는 위험을 감수할 수는 없나이다.  당신께서 손수 저들에게 당신의 진노를 보여드리실 날이 머지않았다는 것이 자그마한 위안이 될 뿐이옵니다.]], "_t")
+t("a journal (4)", "일지 (4)", "_t")
+t([[The foolish creations of the lesser gods have simply handed me Your mouth, in return for a few of the apostates' trinkets!  Unearthed by Dwarves, brought from a distant land by Humans, offered to me by Trolls...  None were aware of how they were helping You, so do not spare these humanoids Your wrath.  They deserve cleansing as much as the Giants, Elves, and other creatures from the lesser gods, creatures that still refuse Your blessing.
+
+The Giants are beginning to falter, as the creations of the pettier gods inevitably do.  As amusing as it would have been to watch them demonstrate their inferiority by tearing at each others' throats, the Orcs have brought them ruin and pushed them to desperation even sooner.  They will reconsider my offer, and then...  ]], [[하등한 신들의 어리석은 피조물들이 변절자들의 장난감 몇 개를 대가로 저에게 당신의 입을 넘겨주었나이다!  드워프족이 발굴하였고, 인간족이 대륙을 넘어 옮겼으며, 트롤족이 제게 제공하였나이다...  저들 중 누구도 자신들이 당신을 도왔다는 것을 알지 못하니, 당신의 진노를 저들에게서 거두지 마시옵소서.  저들 또한 거인족과 엘프족들, 그리고 다른 하등한 신들의 피조물들처럼 정화되어야 할 족속들이옵고, 당신의 축복을 거부하는 자들이옵나이다.
+
+거인족은 보잘것없는 신들의 피조물답게 흔들리고 있나이다.  저들이 서로의 목을 찢어내면서 자신들의 열등함을 드러내는 것을 지켜보는 것은 흥미로우나, 오크족이 그것들보다 더욱 빨리 저들을 멸망과 절망의 구렁텅이로 밀어 넣고 있나이다.  저들은 저의 제안에 대해 다시 생각하게 될 것이고, 그렇게 되면...  ]], "_t")
+t("a journal (5)", "일지 (5)", "_t")
+t([[This is a time of celebration...  The Atmos have brought us a gift.  I no longer require their cooperation as a people; a handful of Blessed guards (including, in poetic irony, some of the former heretics) will suffice to keep the degenerates from disturbing Your return.  It will only be mere days until You are whole again...  You are an artist, and this world shall be Your canvas.  The degenerates will weep first at Your beauty when they behold You, then for the fate of their world, and then when they realize their sins and the fate they deserve.
+
+I will not beg You for redemption or forgiveness.  My species has already proven itself to be a treacherous, prideful mistake.  All I beg for is to live long enough to see Your masterpiece.]], [[경사로운 때가 다가왔나이다...  아트모스가 우리에게 선물을 가져왔나이다.  저는 이제 그들의 협력이 필요치 않사옵니다. 당신의 축복을 받은 병사들은 (아이러니하지만, 불신자였던 자들도 섞여 있사옵니다) 당신의 귀환을 방해하려는 하등한 자들을 충분히 상대할 수 있을 것이옵나이다.  이제 며칠만 지나면 당신께서는 온전해질 것이옵나이다...  당신께서는 예술가이시며, 이 세계는 당신의 한 점 화폭이 될 것이옵나니.  저 하등한 자들은 당신을 마주하고 가장 먼저 당신의 아름다움 앞에 흐느낄 것이고, 이어서 자신들의 세계를 기다리는 운명에 눈물 흘릴 것이며, 그러고 나서는 자신들의 죄와 그에 마땅한 판결을 깨닫고 오열하게 될 것이옵나이다.
+
+당신께 구원이나 용서를 구하지는 않겠나이다.  저의 종족은 이미 배반을 범하였으며, 교만에 찬 실패작이라는 것을 스스로 증명했나이다.  저는 그저 당신의 걸작을 목도할 때까지만, 저의 목숨을 거두지 않으시기를 바랄 뿐이옵나이다.]], "_t")
+t("slumbering caves", "깊이 잠든 동굴", "newLore category")
+t("a journal (6)", "일지 (6)", "_t")
+t([[the fragments reform
+the visage of genius and beauty is once more
+the glory of #CRIMSON#AMAKTHEL#LAST# is nigh
+the reckoning of the sinners is nigh
+the heretics the apostates the degenerates
+#CRIMSON#AMAKTHEL#LAST#'s wrath shall be delectable
+against the scum trespassing on His world
+against those who refuse His vision
+against those #CRIMSON#futile fools#LAST# who try to #CRIMSON#interfere#LAST#
+
+change it, #CRIMSON#AMAKTHEL#LAST#
+change all You see to fit Your designs
+play with it, alter the degenerates, see what happens, learn from it
+the world is but a block of marble, You are the sculptor
+and Your vision will be seen on Eyal once more
+and #CRIMSON#none shall speak the name %s again#LAST#
+it shall not even be granted the dignity of being used as an example
+
+and once this world is Your masterpiece
+we will find the heretics together
+
+#{italic}#There are several pages filled with "they will burn" written repeatedly.  You throw them away.  You throw #CRIMSON#yourself away.  You will burn.  You will burn you will burn you will burn you will#LAST##{normal}#
+
+this is the first day of a new existence
+#{italic}##CRIMSON#and you are not worthy of seeing its dawn#LAST##{normal}#
+]], [[조각들은 다시 하나가 되고
+그 천재성과 아름다움이 다시금 현신하시니
+#CRIMSON#아마크텔#LAST#의 영광이 가깝고
+죄인들의 심판도 가깝도다
+이단자들아 변절자들아 하등한 자들아
+#CRIMSON#아마크텔#LAST#의 아름다운 진노가 내리리라
+그분의 세계를 거니는 쓰레기들에게
+그분의 시선을 물리치는 자들에게
+그분의 앞길을 #CRIMSON#막아서려#LAST#는 #CRIMSON#헛된 천치들#LAST#에게
+
+바꾸소서, #CRIMSON#아마크텔#LAST#이시여
+눈앞의 것들을 모두 당신의 설계대로
+유희를 즐기소서, 하등한 것들을 바꾸소서, 그 결과를 지켜보소서, 새롭게 배우소서
+이 세계는 단지 대리석이며, 당신께서는 그 조각가이시니
+그리고 당신의 눈은 다시 한 번 에이알을 보게 되고
+#CRIMSON#그 누구도 %s의 이름을 다시는 말하지 못하게 되리라#LAST#
+그것에게는 본보기로 사용되는 영광조차 허락되지 않을지니
+
+그리고 이 세계가 당신의 걸작으로 화했을 때
+우리는 함께 이단자들을 찾게 되리라
+
+#{italic}#이 다음 장들은 "저들은 불타오르리" 로 꽉 채워져 있습니다.  당신은 일지를 내던졌습니다.  당신은 #CRIMSON#너 자신을 내던졌다.  넌 불타오르리.  넌불타오르리넌불타오르리넌불타오르리넌불타#LAST##{normal}#
+
+오늘 새로운 세상의 새벽이 밝으리라
+#{italic}##CRIMSON#그리고 너는 그 여명을 볼 가치가 없도다#LAST##{normal}#
+]], "tformat")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/sunwall.lua"
 
+t([[We've done it... we've finally done it. Well, granted, our %s did much of the work, but the result is the same: neither the East nor the West will ever need to fear Orcish rule again. The Prides have been crushed, the survivors have been contained, and our patrols are mopping up the few remaining bands of futile stragglers. Our long-lost allies from the West have come to support us with materials and manpower, and we can finally turn this entire continent into something beautiful. For the first time, Sunwall will not be the solitary bastion of civilization on Var'Eyal.
+
+And yet...
+
+There is one group that remains.  A tiny Orcish pride, really more of a small town, managed to evade our savior's wrath...  a single weed on the edges of our pristine garden, a troubling ember threatening to set the whole continent aflame.  King Tolak has noble aims in trying to set a better example than his vengeful father, but I doubt he'd risk redeeming the Orcs if he'd been through what we have.  The Allied Kingdoms don't know what it's like to live in fear of the Prides, knowing that at any moment they could overrun the Sunwall and take our heads as trophies.  They've got a farportal to hide behind, and don't have to think about their homes and families falling to the same horror that we've been struggling against for our entire lives.  If they did...  suffice to say, they wouldn't have bothered putting up a comfortable camp for the surviving Orcs until the continent was truly safe.
+
+By the Sun...  why would our High Paladin agree to this treaty?  After what we've all been through...
+
+The Orcish scouts are getting bolder.  They've been approaching closer before fleeing, and coming more frequently.  They haven't engaged us yet, but it's only a matter of time...  and all I'm allowed to do is sit and wait on this ugly little bridge, as the West watches from a continent away.  Staring at an open wound, waiting for it to become infected, because they'd rather make a pretty little bow out of the bandages.]], [[해냈다... 우리가 드디어 해냈다.  물론, 대부분은 우리의 %s께서 해주셨지만, 결과는 변함이 없다. 동쪽의 대륙도, 서쪽의 대륙도, 이제 오크들을 두려워하지 않아도 된다.  긍지들은 박살났고, 그 생존자들은 감옥에 있고, 우리 순찰대들은 헛된 저항을 벌이고 있는 잔존병들을 소탕하고 있다.  우리가 오래전에 잃었던 서쪽의 동맹들은 우리 쪽으로 와서 물자와 일손을 지원해 주었고, 이제 우린 드디어 이 대륙 전체를 뭔가 아름다운 것으로 바꿀 수 있게 되었다.  역사상 처음으로, 태양의 장벽은 혼자가 아니게 되었다.
+
+그리고 아직...
+
+오크 한 무리가 남아 있다.  정말 작은 마을 수준밖에 안 되는, 조그만 오크 긍지 하나가 우리의 구원자의 진노를 간신히 피해 갔던 것이다...  우리의 깨끗한 정원 구석진 곳에 딱 하나 남아있는 잡초지만, 이 대륙 전체를 불바다로 만들 수도 있는 잉걸불과도 같다.  톨락 국왕 폐하께선 복수심을 불태웠던 그분의 선왕보다 나은 선례를 남기시려는 것 같고, 고귀한 뜻을 품고 계신 것도 알고 있지만, 그분께서 우리들과 똑같은 일들을 겪으셨다면 오크들을 살려 둔다는 위험을 감수하진 않으셨을 것이다.  왕국연합의 사람들은 오크 긍지들의 공포 아래에서 살던 느낌을, 놈들이 언제든지 태양의 장벽으로 몰려와서 우리의 목을 트로피처럼 가져갈 수 있다는 공포 속에서 살아가던 느낌을 알지 못한다.  그 사람들에겐 숨어서 지낼 장거리 차원문도 있고, 자신들의 고향과 가족들이 우리가 평생 맞서 싸워왔던 것과 똑같은 공포를 마주하게 될 거란 생각을 할 필요가 없다.  만약 그 사람들도 똑같이 겪었었다면...  이 대륙이 진정으로 안전해질 때까지 살아남은 오크들을 위해 안락한 수용소를 짓는 귀찮은 짓은 안 했을 것이다.
+
+태양이시여...  아에린 님께선 왜 이런 조약을 맺으신 거지?  우리와 함께 그 모든 일들을 겪으셨던 분이 어째서...
+
+오크의 정찰대들은 점점 더 대담해지고 있다.  점점 더 가까이 오고 있고, 점점 더 자주 나타나고 있다.  아직까지 싸운 적은 없지만, 시간문제일 뿐이다...  그리고 내가 할 수 있는 건 그저 이 못생기고 쪼끄만 다리 위에 앉아서 기다리는 것뿐이다. 서쪽 대륙의 사람들이 대륙 너머에서 지켜보고 있기 때문이다.  벌어진 상처를 쳐다보면서, 상처가 곪기를 기다리고 있는 꼴이라는 거다. 왜냐면 그 사람들은 붕대로 쪼끄만 리본을 만드려고 하니까.]], "tformat")
 t("hero", "영웅", "_t")
+t("heroine", "영웅", "_t")
+t("a letter addressed to Outpost Leader John", "전초기지 대장 존에게 보내는 편지", "_t")
+t([[Sir,
+
+The Orcs grow more impudent every day.  Surely you've noticed too - their scouts growing closer, the smoke of their forges drifting over the mountains alongside the clanging of metal being pounded into weaponry, the guttural shouts of their training drills...  Are you really going to obey this suicidal treaty, and keep us from acting until their swords are already through our throats?
+If you were to... [i]see[/i] an approaching assault force, I would verify your report. Legally, we would be untouchable for defending ourselves.  Please, ensure that this inevitable conflict is at least one that gives us the tactical advantage of surprise, not them.
+
+-Cmdr. Trelle]], [[대장님,
+
+오크 놈들이 날이 갈수록 점점 더 건방져지고 있습니다.  대장님께서도 알고 계시겠지요 - 놈들의 정찰대는 점점 더 가까이 오고 있고, 산 너머로 놈들의 대장간에서 피어오르는 연기도 보이고, 철을 두드려 무기를 만드는 소리도, 놈들이 훈련을 하면서 지르는 고함 소리도 들리고 있습니다...  정말로 이 말도 안 되는 조약을 그대로 따르시면서, 놈들의 검이 우리의 목을 꿰뚫고 난 다음에야 움직이도록 하실 겁니까?
+만약 대장님께서 오크 놈들이 공격하러 오는 걸... [i]목격[/i]하셨다면, 제가 대장님께서 올리는 보고서에 증언을 얹겠습니다.  자기 방어를 하는 건 조약에 위배되지 않습니다.  그러니 부디, 피할 수 없는 이 교전에서 최소한 저들이 아닌 우리가 기습이라는 전술적 이점을 얻을 수 있게 해 주십시오.
+
+-지휘관 트렐레]], "_t")
+t("a letter addressed to Commander Trelle", "지휘관 트렐레에게 보내는 편지", "_t")
+t([[Trelle,
+
+I respect your intentions and your dedication to our safety, which is the only reason I'm not handing this letter over to Aeryn right this second.  Do you have the faintest clue what this treaty is buying us?  Do you really think we could have kept the Prides' remnants from banding together and becoming, at a minimum, a massive thorn in our side for the next few decades without King Tolak's help? Even if I disagreed with Aeryn that the Orcs deserve a chance of redemption, this treaty is ensuring an [i]extraordinary[/i] amount of help from a nation that, last year, still tolerated roving gangs of mage-lynchers.
+
+I'll spare you the speech about insubordination, lying, and bypassing the chain of command, because a: technically you were "only" asking me to commit those crimes, and b: I've got better things to do than write up a full-blown reprimand for someone who I'm [i]certain[/i] knows exactly what they're doing wrong.  Instead, I'll cut to the chase: Never even think of pulling something like this again.  I'm saving your letter, and if you're ever involved in a questionable use of force, I'm submitting it as evidence.  I thought you were better than this.
+
+-Outpost Leader John]], [[트렐레,
+
+우리의 안전을 위한 자네의 헌신과 그 의도는 인정하겠네. 그게 내가 자네의 편지를 곧바로 아에린에게 넘기지 않은 유일한 이유일세.  이 조약이 우리에게 어떤 이점을 가져다주는지 전혀 모르고 있는 건가?  자네는 우리가 장차 몇십 년 간 긍지의 잔당들이 다시 뭉쳐서, 낮게 잡아도 커다란 위협이 되는 것을, 톨락 왕의 도움 없이 막을 수 있다고 생각하나?  설령 내가 오크들에게 구원의 기회를 주자는 아에린의 의견에 동의하지 않는다 할지라도, 이 조약은 정말 [i]엄청난[/i] 지원을 보장한다네. 작년까지만 해도 대륙을 활보하며 마법사들을 사적으로 응징하는 패거리들을 용인하고 있던 나라의 도움을 말일세.
+
+자네의 명령 불복종이나 허위 보고, 지휘 계통 무시 시도 등을 문책하지는 않겠네. 그 이유는 1. 자네는 엄밀히 말해 나에게 이런 죄를 저지르자고 요청 "만" 했을 뿐이고, 2. 난 자네가 자신의 잘못을 잘 알고 있을 것이라 [i]굳게 믿고 있고[/i], 그런 자를 문책하려고 장문의 편지를 쓰는 것 말고도 할 일이 많기 때문이네.  그 대신에, 확실하게 말해 두겠네. 두 번 다시는 이런 걸 보낼 생각도 하지 말게.  자네가 보냈던 편지는 내가 보관하고 있다가, 만약에 자네가 의심스러운 무력 사용에 연루되어 있을 경우, 그 편지를 증거로 제출하겠네.  자네에겐 실망했네.
+
+-전초기지 대장 존]], "_t")
 t("sunwall", "태양의 장벽", "newLore category")
 
 
@@ -3229,13 +3409,13 @@ t("The Dead God Awaits", "죽은 신이 기다린다", "_t")
 t("Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "에이알의 심층부에서, 위대한 죽은 신 아마크텔의 잔해들이 있는 거대한 동굴을 발견했습니다...", "_t")
 t("Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "그를 부활시키려 하는 살아 있는 쉐르'툴 처럼 보이는 것도요.", "_t")
 t("It must be stopped at all cost, the Prides only just got their freedom back, you can not allow anything to take it away again!", "무슨 수를 써서든 막아야 합니다. 긍지들은 이제 겨우 자유를 되찾았고, 그 어떤 것도 그 자유를 다시 앗아가게 둘 순 없습니다!", "_t")
-t("The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping forever now. The Prides and the world are safe.", "쉐르'툴 신관은 잘 처리되었고, 아마크텔은 이제 영원히 잠들게 될 겁니다. 긍지들과 이 세계는 안전합니다.", "_t")
+t("The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping forever now. The Prides and the world are safe.", "쉐르'툴 사제는 잘 처리되었고, 아마크텔은 이제 영원히 잠들게 될 겁니다. 긍지들과 이 세계는 안전합니다.", "_t")
 t("#LIGHT_GREEN#You have won the game!.#WHITE#", "#LIGHT_GREEN#게임에서 승리하셨습니다!#WHITE#", "_t")
 t("#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "#CRIMSON#이 장소에서 귀환의 장대가 다시 작동하는 것 같다.", "log")
 t("Orc Warrior", "오크 전사", "_t")
 t("Winner", "승리", "_t")
 t("#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "#GOLD#축하드립니다! 마즈'에이알의 이야기: 분노의 잉걸불에서 승리하셨습니다!#WHITE#", "_t")
-t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "당신은 증기 거인들의 인종 청소 계획을 저지했고, 그들이 죽인 크룩 긍지 전사들의 복수도 하였습니다.  그들이 고위 신관과 맺은 절망적인 계약 역시 당신을 막지 못했고, 신관과 그가 섬기던 신은 당신의 발밑에 죽어 널부러져 있으며 당신은 그들이 예측 가능한 미래까진 확실하게 #{italic}#죽은 채로 있도록#{normal}# 만들었습니다.", "_t")
+t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "당신은 증기 거인들의 인종 청소 계획을 저지했고, 그들이 죽인 크룩 긍지 전사들의 복수도 하였습니다.  그들이 고위 사제와 맺은 절망적인 계약 역시 당신을 막지 못했고, 사제와 그가 섬기던 신은 당신의 발밑에 죽어 널부러져 있으며 당신은 그들이 예측 가능한 미래까진 확실하게 #{italic}#죽은 채로 있도록#{normal}# 만들었습니다.", "_t")
 t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "인간과 엘프, 그리고 하플링들은 당신의 동포들을 두 번 다시 해치지 못할 것입니다. 당신은 장거리 차원문을 파괴하고 톨락 국왕의 군사들과 영광스러운 전투를 치르는 것을 거부함으로써 왕국연합으로부터 동포들의 안전을 확보했습니다. 또한 아침의 문을 기습하여, 증오를 품은 채로 바르'에이알에 남아 있던 서방의 자들을 모두 제거하였습니다.", "_t")
 t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "  잃어버린 도시에서 받은 메시지들은 그들이 경고했던 존재들, 그리고 경고한 본인들에 대한 경계심을 바짝 키웠습니다. 또한 당신은 이제 절멸의 위기에서 벗어나려 발버둥 칠 필요가 없어진 동포들이 무엇을 하게 될지 궁금해졌습니다. 당신의 종족은 유사 이래로 투쟁만을 위해 살아왔지만, 이제 그걸 걱정할 필요가 없어졌으니 말입니다.", "_t")
 t("For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "최소한 지금은, 평화가 찾아왔습니다. 이게 영원하진 않을 것이라는 걸 당신도 잘 알고 있습니다. 카르'하이브 자치령의 선봉대를 물리치긴 했지만 그들은 여전히 약점을 노리며 적절한 때를 기다리고 있을 것이고, 마즈'에이알에서 온 밀수꾼들의 장거리 차원문도 찾아내지 못한 상태이며, 당신이나 톨락 왕이나 상대방의 대륙을 정복하려는 생각은 없지만 그럼에도 침공해 올 수도 있다는 두려움이 여전히 당신의 뇌리에 남아 있을 것입니다.", "_t")
@@ -5017,7 +5197,7 @@ t("The life support suit allows using therapeutics with %d%% efficiency and cool
 t("Create Tinker", "발명", "talent name")
 t("Allows you to create tinkers.", "발명품을 제작합니다.", "_t")
 t("Weapon Automaton: One Handed", "무기 로봇 : 한손 무기", "talent name")
-t("You cannot use %s without a one handed melee weapon in your inventory!", "당신은 해당 무기가 가방 안에 없는 한 %s 사용할 수 없다!", "logPlayer", nil, {"를"})
+t("You cannot use %s without a one handed melee weapon in your inventory!", "해당 무기가 가방 안에 없으면 %s 사용할 수 없다!", "logPlayer", nil, {"를"})
 t("Select a weapon for your Automaton", "로봇에게 장착시킬 무기를 선택해주세요", "_t")
 t("Weapon Automaton: %s", "무기 로봇 : %s", "tformat")
 t("An Automaton wielding a chosen weapon.", "선택한 무기를 들고 있는 로봇.", "_t")
@@ -7094,7 +7274,7 @@ t("oozing tentacle", "점액을 흘리는 촉수", "entity name")
 t("Ooze pours out of this disgusting tentacle.", "이 역겨운 촉수에선 점액질이 흘러 나오고 있습니다.", "_t")
 t("eyed tentacle", "눈 달린 촉수", "entity name")
 t("A single malevolent eye is set atop this tentacle. And it watches you.", "이 촉수의 끝부분에는 눈알이 하나 달려 있습니다. 악의를 담아 당신을 지켜보고 있습니다.", "_t")
-t("Sher'Tul High Priest", "쉐르'툴 고위 신관", "entity name")
+t("Sher'Tul High Priest", "쉐르'툴 고위 사제", "entity name")
 t("shertul", "쉐르'툴", "entity subtype")
 t("So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "그들은 실존했습니다! 쉐르'툴! 수많은 신화와 전설을 써내려간 자. 공포의 화신이자 악몽과도 같은 자. 무한한 힘을 가진 자. 옛 신들과 맞서 싸워 실제로 승리한 종족. 그 일원인 이 존재는 신들 중 가장 강력한 신인 아마크텔을 부활시키려 하는 것 같습니다. 이유는 모르겠지만 결코 일어나선 안 되는 일입니다. 그렇지 않으면 오크들은 물론이고, 이 세계 전체가 파멸을 맞이하게 될 테니까요.", "_t")
 t("#CRIMSON#%s awakens and empowers %s!", "#CRIMSON#%s 깨어나 %s에게 힘을 내렸다!", "saySimple", nil, {"이"})

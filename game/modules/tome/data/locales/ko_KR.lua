@@ -10975,7 +10975,7 @@ t("weapon", "무기", "entity type")
 t("dark runed staff", "검은 룬의 지팡이", "_t")
 t("Staff of Absorption", "흡수의 지팡이", "entity name")
 t([[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
-Light around it seems to dim and you can feel its tremendous power simply by touching it.]], [[힘의 룬으로 덮여 있는 이 지팡이는 먼 옛날에 만들어졌음에도 흠집 하나 없어 보입니다.
+Light around it seems to dim and you can feel its tremendous power simply by touching it.]], [[힘의 룬이 새겨져 있는 이 지팡이는 먼 옛날에 만들어졌음에도 흠집 하나 없어 보입니다.
 이 지팡이 주변의 빛은 어두워지고 있으며, 단순히 만져 보기만 해도 지팡이의 터무니없는 힘을 느낄 수 있습니다.]], "_t")
 t("staff", "마법 지팡이", "entity combat talented")
 t("absorb energies", "에너지 흡수", "_t")
@@ -19892,7 +19892,7 @@ t("fears", "공포", "_t")
 t("Bloodstained", "피칠갑", "_t")
 t("You, like your weapons, are tainted forever.", "너는, 네 무기 처럼, 영원히 더럽혀지리라.", "_t")
 t("Blood is power. Let the rivers run red.", "피는 힘이다. 강을 붉게 물들여라.", "_t")
-t("Crimson Templar", "진홍의 기사", "_t")
+t("Crimson Templar", "진홍빛 기사", "_t")
 t("Cursed", "저주받은 자", "_t")
 t("Hate-powered abilities that don't belong anywhere else.", "어디에도 속하지 않은 증오의 힘입니다.", "_t")
 t("cursed", "저주", "talent category")
@@ -34101,7 +34101,7 @@ t("ominous, dark runed staff", "불길한 검은 룬의 지팡이", "_t")
 t([[Carved with runes of power, this staff seems to have been made long ago, yet it bears no signs of tarnish.
 Light around it seems to dim and you can feel its tremendous power simply by touching it.
 The Sorcerers seem to have awakened its power.
-#{italic}#"And lo they came to Amakthel himself, and thousands were killed in the assault on his throne, and three of the Godslayers were broken beneath his feet. But Falion with his dying breath pierced the great god on his knee with the icy sword Arkil, and seeing his opportunity Caldizar, leader of the Godslayers, advanced with the Staff of Absorption and struck a terrifying blow against Amakthel. So fell the greatest of the gods by the hands of his own children, and his face was forced into the dust."#{normal}#]], [[힘의 룬으로 덮여 있는 이 지팡이는 먼 옛날에 만들어졌음에도 흠집 하나 없어 보입니다.
+#{italic}#"And lo they came to Amakthel himself, and thousands were killed in the assault on his throne, and three of the Godslayers were broken beneath his feet. But Falion with his dying breath pierced the great god on his knee with the icy sword Arkil, and seeing his opportunity Caldizar, leader of the Godslayers, advanced with the Staff of Absorption and struck a terrifying blow against Amakthel. So fell the greatest of the gods by the hands of his own children, and his face was forced into the dust."#{normal}#]], [[힘의 룬이 새겨져 있는 이 지팡이는 먼 옛날에 만들어졌음에도 흠집 하나 없어 보입니다.
 이 지팡이 주변의 빛은 어두워지고 있으며, 단순히 만져 보기만 해도 지팡이의 터무니없는 힘을 느낄 수 있습니다.
 그 주술사들이 이것의 진정한 힘을 일깨운 모양입니다.
 #{italic}#"그리고 오오, 그들은 아마크텔께 당도하였고, 그분의 옥좌를 향한 사투로 수천의 군사가 목숨을 잃었으며 세 명의 신살자들이 그분의 발밑에서 부서졌도다. 그러나 팔리온이 죽어가며 얼음장 같이 차가운 칼 아르킬로 그분의 무릎을 꿰뚫었으며, 이어서 신살자들의 지도자 칼디자르가 흡수의 지팡이를 쥐고 진격하여 아마크텔께 끔찍한 일격을 가했도다. 그리하여 신들의 왕은 그분의 아이들의 손에 스러져, 그분의 용안은 모래 속으로 밀어넣어졌도다."#{normal}#]], "_t")

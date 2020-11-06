@@ -4234,7 +4234,7 @@ t("%s (corrupted)", "%s (오염됨)", "tformat")
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/godfeaster/npcs.lua"
 
-t("The Divine Writhing Mass", "신적인 뒤틀린 덩어리", "entity name")
+t("The Divine Writhing Mass", "신성을 품은 뒤틀린 덩어리", "entity name")
 t("Once the nervous system of the Maggot, it transformed into something... else after the Maggot ate some remains of a long dead god. If severed the Godfeaster will surely wither and die.", "한때는 어떤 구더기의 신경계에 불과했지만, 구더기가 오래전에 죽은 신의 유해를 파먹게 되자 뭔가... 다른 것으로 변했습니다. 이것을 신 포식자에게서 잘라낸다면 분명 쇠약해질 것이고, 곧 죽게 될 겁니다.", "_t")
 t("Malyu", "말류", "entity name")
 t("humanoid", "인간형", "entity type")
