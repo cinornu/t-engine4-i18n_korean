@@ -1164,9 +1164,6 @@ t([[In-game browser is inoperant or disabled, impossible to auto-install shimmer
 Please go to https://te4.org/ to download it manually.]], [[게임 브라우저가 작동되지 않거나 유효하지 않기 때문에, 광원팩을 자동 설치할 수 없었습니다.
 다음 주소로 들어가서 직접 다운로드해주세요. https://te4.org/ ]], "_t")
 t("Shimmer pack installed!", "광원팩을 설치했습니다!", "_t")
-t([[Could not dynamically link addon to current character, maybe the installation weng wrong.
-You can fix that by manually downloading the shimmer addon from https://te4.org/ and placing it in game/addons/ folder.]], [[현재 캐릭터에 애드온을 적용할 수 없습니다. 잘못 설치된 것 같습니다.
-다음 주소에서 광원팩을 직접 다운로드함으로써 이를 해결하실 수 있습니다.  https://te4.org/ 그리고 다운로드한 파일을 다음 경로에 배치해 주세요 game/addons/ folder.]], "_t")
 t("Downloading cosmetic pack: #LIGHT_GREEN#%s", "다음 미용팩을 다운로드: #LIGHT_GREEN#%s", "tformat")
 t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: The pack should be downloading or even finished by now.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: 이 팩을 다운로드하는 중입니다.", "tformat")
 t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: You can now trigger it whenever you are ready.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: 이용 감사합니다.", "tformat")

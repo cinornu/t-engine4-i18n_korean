@@ -6552,7 +6552,6 @@ t("This is too soon!", "너무 일러!", "_t")
 t("disrupted monolith", "불완전한 모노리스", "_t")
 t("Something the cultists are doing is coming. Beware.", "광신도들이 애타게 찾는 것이 오고 있습니다. 조심하십시오.", "_t")
 t("The cultist's soul seems to be absorbed by the strange stone he was guarding. You feel like something is about to happen...", "광신도의 영혼이 그가 지키던 이상한 돌에 흡수된 것 같습니다. 무슨 일이 일어날 것 같은 느낌이 듭니다...", "_t")
-t("Shasshhiy'Kaish", "샤쉬'카이쉬", "_t")
 t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "굉장히 고혹적인 악마입니다. 떠다니는 불꽃 왕관과 세 개의 꼬리, 그리고 날카로운 손톱이 없었더라면요. 그녀를 바라보자 살을 파내는 듯한 고통이 느껴집니다. 당신이 고통받길 원하고 있습니다.", "_t")
 t("and used for her perverted desires", "그리고 그 시체는 그녀의 추잡한 욕망을 위해 쓰였습니다.", "_t")
 t("Crown of Burning Pain", "불타는 고통의 왕관", "_t")
@@ -19679,11 +19678,6 @@ t([[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0
 		적을 강타한 그림자는 대상을 집중 공격하고, 적 역시 그림자를 집중 공격합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Shadow's Path", "그림자의 길", "talent name")
-t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
-		For the purpose of this talent, you force your shadows through any walls in their way.
-		Damage increases with your Mindpower.]], [[시야 내의 모든 그림자를 대상 위치로 집결 시켜, 그림자가 지나간 경로에 있는 적들에게 %0.1f 물리 피해를 가합니다.
-		기술 사용 시, 그림자들은 벽을 뚫고 이동합니다.
-		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Cursed Bolt", "저주받은 화살", "talent name")
 t("You need a shadow in sight range!", "시야 내에 그림자가 존재해야 한다!", "logPlayer")
 t([[Share your hatred with all shadows within sight range, gaining temporary full control. You then fire a blast of pure hatred from all affected shadows, dealing %0.1f Mind damage per blast.
@@ -24737,17 +24731,6 @@ t([[Conjures up a bolt of cold that moves toward the target and explodes into a 
 		폭발에 휩쓸린 강령술 하수인은 피해를 받는 대신, 두껴운 얼음층으로 뒤덮혀, 4 턴 동안 받는 모든 피해가 %d 감소합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,1,3})
 t("Corpselight", "시체 등불", "talent name")
-t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
-		Every turn all foes inside take %0.2f cold damage.
-		Anytime you cast a spell inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
-		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
-		If cast while under 1 life it spawns with 3 stacks.
-		The damage will increase with your Spellpower.]], [[7 턴 동안 반경 %d 칸 내에 냉기를 방출하는 시체 등불을 소환합니다.
-		매 턴, 범위 내의 모든 적은 %0.2f 냉기 피해를 받습니다.
-		시전자가 시체 등불의 범위 내에서 주문을 시전할 시, 중첩을 하나 얻습니다. 중첩 하나마다, 시체 등불의 범위가 +1 증가하고, 피해량이 +10%% 증가합니다.
-		시체 등불은 최대 %d 중첩되나, 범위는 10 을 넘어설 수 없습니다.
-		생명력 1 이하인 상태에서 소환 시, 3 중첩을 얻습니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Grave Mistake", "심각한 실수", "talent name")
 t("#STEEL_BLUE#The corpselight implodes!", "#STEEL_BLUE#시체 등불이 폭파된다!", "logSeen")
 t([[Upon expiring the corpselight implodes, pulling in all foes towards its center and dealing %0.2f cold damage.
@@ -24815,17 +24798,6 @@ t([[Your mastery of necromancy becomes so total that an aura of undeath radiates
 		추가로, 시전자가 새로운 하수인을 소환할 때, 시전자 능력치들의 %d%% 가 적용됩니다. 시전자의 주문력의 일부가 하수인들의 물리력, 정신력, 마법력, 증기력에 추가되고, 시전자의 주문 치명타 확률의 일부가 하수인들의 모든 치명타 확률에 추가되며, 시전자의 내성들의 일부가 하수인들의 각 내성에 추가됩니다. 또한 시전자의 피해 저항과 속성 피해 변동치의 일부 역시 하수인들에게 추가됩니다.
 		]], "tformat")
 t("Surge of Undeath", "불사자들의 분노", "talent name")
-t([[Sends out a surge of undeath energies into your aura.
-		All minions inside gain 25%% speed for %d turns
-		All non-ghoul minions are healed by %d%%.
-		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
-		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
-		All non-undead foes caught inside are dazed for %d turns.]], [[불사의 기운 내에 불사 에너지의 쇄도를 발사합니다.
-		내부의 모든 하수인은 전체속도가 %d 턴 동안 25%% 증가합니다
-		구울이 아닌 모든 하수인은 생명력이 %d%% 회복됩니다.
-		시전자가 영묘의 부름을 배웠다면, 다음 소모성 구울 생성 전까지 남은 시간이 %d 단축됩니다.
-		시전자가 시체 폭발이나 부패의 액체화를 배웠다면, 이 효과들의 지속시간이 %d 턴 연장됩니다.
-		기운 내의 모든 비언데드 적은  %d 턴 동안 혼절합니다.]], "tformat")
 t("Recall Minions", "하수인 집결", "talent name")
 t([[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
 		Up to %d minions are affected.
@@ -24834,13 +24806,6 @@ t([[Tighten the ethereal leash to some of your minions currently within your aur
 		적에게 둘러쌓인 상태에서 하수인 집결을 사용하면, 최대한 적이 멀리 떨어저있게끔 하수인들을 배치합니다.]], "tformat")
 t("Suffer For Me", "주인을 위한 고통", "talent name")
 t("#GREY#(%d to minion: %s)#LAST#", "#GREY#(%d 하수인 피해: %s)#LAST#", "tformat")
-t([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
-		Anytime you take damage %d%% of it is instead redirected to a random minion without your aura of undeath.
-		The minion takes 300%% damage from that effect.
-		The damage redirected percent depends on your Spellpower.]], [[시전자와 하수인 군단의 마법적 연결로, 받은 피부의 일부를 하수인들에게 떠넘길 수 있게 되었습니다.
-		시전자가 피해를 받으면, 피해량의 %d%% 가 불사의 기운 내의 무작위한 하수인에게 전송됩니다.
-		하수인은 이 효과로 인해 300%% 증폭된 피해를 받습니다.
-		피해 재전송 비율은 시전자의 주문력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -26738,7 +26703,6 @@ t([[You go all out, trying to burn down your foes as fast as possible.
 section "game/modules/tome/data/talents/techniques/tireless-combatant.lua"
 
 t("Breathing Room", "숨 돌리기", "talent name")
-t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. With the third talent point, you also gain an equal amount of life regen when Breathing Room is active.", "사용자와 인접한 칸에 적이 존재하지 않을 경우, 기력이 매 턴 %0.1f 재생됩니다. 기술 레벨 3 일 때, 숨돌리기 활성화 시, 같은 수치의 생명력도 재생합니다.", "tformat")
 t("Pace Yourself", "숨 고르기", "talent name")
 t([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
 		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
@@ -26748,11 +26712,7 @@ t([[Control your movements to increase your defenses. This allows you to shrug o
 		방패를 장착 중이고, 방패 막기가 재사용 대시기간이 아닐 경우, 방패 수치의 25%% 이상의 방어 가능한 공격에 대해 %d%% 확률로 방패 막기를 즉시 발동합니다.
 		고정 피해 감소량은 회피도에 비례하여 증가합니다.]], "tformat")
 t("Dauntless Challenger", "불굴의 도전자", "talent name")
-t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning with the third talent point, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "상황이 안좋게 돌아갈 수록, 척후병은 더 강해집니다. 시야에 보이는 적 하나 당 %0.1f 기력 재생을 얻습니다. 기술 레벨 3 일 때, 적 하나 당 %0.1f 생명력 재생을 얻습니다. 재생 효과는 최대 적 4 체에게서 발생합니다.", "tformat")
 t("The Eternal Warrior", "영원한 전사", "talent name")
-t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at the fifth talent point, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[기력을 소모 할 때마다 %d 턴 동안 모든 피해 저항을 %0.1f%%, 모든 피해 저항 한계치를 %0.1f%% 늘립니다. 이 효과는 최대 %d 번 중첩되고, 매 기력 소모마다 지속시간을 갱신합니다.
-		추가로, 기술 레벨 5 일 때, 숨 돌리기와 불굴의 도전자의 효율이 %d%% 증가합니다.]], "tformat", {3,1,2,4,5})
 
 
 ------------------------------------------------

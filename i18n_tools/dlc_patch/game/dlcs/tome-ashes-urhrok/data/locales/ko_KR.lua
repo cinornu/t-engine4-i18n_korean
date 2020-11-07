@@ -706,13 +706,6 @@ The damage will scale with your Spellpower.]], [[방어의 기운을 둘러, 방
 section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua"
 
 t("Dark Reign", "어둠의 지배", "talent name")
-t([[Your affinity for the shadows grow stronger.
-		Each time you kill or deal damage above %d%% of a creatures max life with darkness you gain 8%% to all damage affinity for 8 turns.
-		You can only gain one stack of Dark Reign per turn.
-		This effect stacks multiplicatively up to %d times.]], [[그림자에 대한 결속이 강해집니다.
-		암흑 속성의 피해로 적을 살해하거나 적의 최대 생명력의 %d%% 이상의 암흑 피해를 가할 경우, 8 턴 동안 모든 속성에 대한 친화를 8%% 얻게 됩니다.
-		어둠의 지배 중첩은 한 턴에 1 번만 획득할 수 있습니다.
-		이 효과는 최대 %d 번 중첩됩니다.]], "tformat")
 t("Dread End", "두려운 끝", "talent name")
 t([[You learn to use death around you to an even greater advantage. 
 		Each time you kill or deal damage above %d%% of a creatures max life with non-darkness damage while Dark Reign is active the death will create a pool of dark energies of radius 1 for 5 turns.

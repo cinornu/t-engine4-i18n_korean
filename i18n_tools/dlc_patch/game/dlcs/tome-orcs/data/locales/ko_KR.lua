@@ -401,6 +401,7 @@ t("[leave]", "[떠난다]", "_t")
 section "game/dlcs/tome-orcs/data/chats/john-surrender.lua"
 
 t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
+t("DEATH!", "죽어라!!", "_t")
 t([[#LIGHT_GREEN#*The Crimson Templar looks exhausted, nearly dead. You feel the ring attuning to him and suddenly you understand you could absorb his essence to power the ring.*#WHITE#
 Go on kill me @playername@! My life is destroyed, my friends are dead, my dear Aeryn is dead. All dead by your murderous hands! Finish me, let me have some #{italic}#rest#{normal}#.]], [[#LIGHT_GREEN#*진홍빛 기사는 탈진한 듯 보이고, 다 죽어 가고 있습니다. 반지가 그와 공명하고 있다는 걸 느꼈고, 갑자기 그의 정수를 흡수해 반지를 강화할 수 있겠다는 생각이 들었습니다.*#WHITE#
 어서 날 죽여라, @playername@! 내 삶은 이미 망가졌다. 친우들은 죽었고, 내 사랑 아에린도 죽었어. 전부 네 손에 죽었단 말이다, 살인자 놈아! 어서 끝내라, 이제 #{italic}#쉬고#{normal}# 싶다.]], "_t")
@@ -862,6 +863,11 @@ section "game/dlcs/tome-orcs/data/general/npcs/horror.lua"
 
 t("saw horror", "톱날의 공포", "entity name")
 t("Oh. Oh no. Where did it get those?", "오, 오 안돼. 저런 것들은 또 어디서 났답니까?", "_t")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/plant-add.lua"
+
 
 
 ------------------------------------------------
@@ -3260,7 +3266,7 @@ I can barely bring myself to tell You the indignity I suffer through in service 
 
 I am sorry, my god - were I in a better position, Your rebirth would not be contingent on #{italic}#negotiating#{normal}# with the unworthy souls trespassing in Your world...  but I cannot afford the risk of using force.  Perhaps it is some minor consolation that You will now be able to personally show them Your fury.]], [[작업은 순조롭고, 머지않아 모든 것이 자신들이 섬길 새로운 신의 이름을 알게 될 것이옵나이다.  당신의 손 하나를 다루기만 해도 저의 형제들이 지은 죄가 떠올라 흐느끼게 되고, 놈들이 저지른 짓이 수포로 돌아가는 것을 보기를 열망하게 되나이다...  에이알의 심층부가 당신을 새롭게 만들어낼 대장간이 될 것이옵고, 새로이 뽑아낸 마그마의 맥이 그 불꽃이 될 것이옵나이다.
 
-제가 당신을 섬기며 겪은 치욕들에 대해서는 차마 아뢰기가 어렵나이다...  적합하지 못한 야만족들, 당신의 피조물이 아니기 때문에 당신의 자비를 받을 자격이 없는 자들이 당신의 옥체의 마지막 두 조각을 소유하고 있더니이다.  저는 그 "아트모스" 와 대면하여, 그 조각들의 대가로 당신의 힘과 은총의 극히 작은 편린을 제공하겠다고 제안하였나이다. 그 편린만으로도 당신의 재림을 위해 소비한 지열관들을 손쉽게 보충할 수 있을 터였나이다. 그러나 저들은 당신의 축복을 겁내었고, 저의 제안을 거부하더니이다.  저들은 오만한 부족이옵고, 너무나 오랫동안 교만에 취하여 자신들에겐 더 이상 자랑스러워할 것이 남아 있지 않다는 것조차 깨닫지 못한 자들이옵나이다.  저는 그러한 교만을 이전에 단 한 번 목격한 적이 있으나 아트모스의 교만은 훨씬 더 그릇되었나이다.  저들은 자신들이 스러질 때까지 눈이 먼 채로 반기를 들 것이니, 저는 그저 저들의 문명이 스러지고 그 잔해를 살필 날을 기다릴 것이옵나이다.
+제가 당신을 섬기며 겪은 치욕들에 대해서는 차마 아뢰기가 어렵나이다...  적합하지 못한 야만족들, 당신의 피조물이 아니기 때문에 당신의 자비를 받을 자격이 없는 자들이 당신의 옥체의 마지막 두 조각을 소유하고 있더니이다.  저는 "아트모스" 라는 자들과 대면하여, 그들이 가진 한 조각의 대가로 당신의 힘과 은총의 극히 작은 편린을 제공하겠다고 제안하였나이다. 그 편린만으로도 당신의 재림을 위해 소비한 지열관들을 손쉽게 보충할 수 있을 터였나이다. 그러나 저들은 당신의 축복을 겁내었고, 저의 제안을 거부하더니이다.  저들은 오만한 부족이옵고, 너무나 오랫동안 교만에 취하여 자신들에겐 더 이상 자랑스러워할 것이 남아 있지 않다는 것조차 깨닫지 못한 자들이옵나이다.  저는 그러한 교만을 이전에 단 한 번 목격한 적이 있으나 아트모스의 교만은 훨씬 더 그릇되었나이다.  저들은 자신들이 스러질 때까지 눈이 먼 채로 반기를 들 것이니, 저는 그저 저들의 문명이 스러지고 그 잔해를 살필 날을 기다릴 것이옵나이다.
 
 송구하옵나이다, 저의 신이시여 - 제가 처한 상황이 조금만 더 양호했다면, 당신의 재림을 위하여 당신의 세계를 활보하고 있는 저 무가치한 영혼들과 #{italic}#협상#{normal}#을 벌여야 할 필요도 없었을 것이옵나이다...  그러나 저는 무력을 사용한다는 위험을 감수할 수는 없나이다.  당신께서 손수 저들에게 당신의 진노를 보여드리실 날이 머지않았다는 것이 자그마한 위안이 될 뿐이옵니다.]], "_t")
 t("a journal (4)", "일지 (4)", "_t")
@@ -3375,9 +3381,91 @@ I'll spare you the speech about insubordination, lying, and bypassing the chain 
 
 우리의 안전을 위한 자네의 헌신과 그 의도는 인정하겠네. 그게 내가 자네의 편지를 곧바로 아에린에게 넘기지 않은 유일한 이유일세.  이 조약이 우리에게 어떤 이점을 가져다주는지 전혀 모르고 있는 건가?  자네는 우리가 장차 몇십 년 간 긍지의 잔당들이 다시 뭉쳐서, 낮게 잡아도 커다란 위협이 되는 것을, 톨락 왕의 도움 없이 막을 수 있다고 생각하나?  설령 내가 오크들에게 구원의 기회를 주자는 아에린의 의견에 동의하지 않는다 할지라도, 이 조약은 정말 [i]엄청난[/i] 지원을 보장한다네. 작년까지만 해도 대륙을 활보하며 마법사들을 사적으로 응징하는 패거리들을 용인하고 있던 나라의 도움을 말일세.
 
-자네의 명령 불복종이나 허위 보고, 지휘 계통 무시 시도 등을 문책하지는 않겠네. 그 이유는 1. 자네는 엄밀히 말해 나에게 이런 죄를 저지르자고 요청 "만" 했을 뿐이고, 2. 난 자네가 자신의 잘못을 잘 알고 있을 것이라 [i]굳게 믿고 있고[/i], 그런 자를 문책하려고 장문의 편지를 쓰는 것 말고도 할 일이 많기 때문이네.  그 대신에, 확실하게 말해 두겠네. 두 번 다시는 이런 걸 보낼 생각도 하지 말게.  자네가 보냈던 편지는 내가 보관하고 있다가, 만약에 자네가 의심스러운 무력 사용에 연루되어 있을 경우, 그 편지를 증거로 제출하겠네.  자네에겐 실망했네.
+자네의 명령 불복종이나 허위 보고, 지휘 계통 무시 시도 등을 문책하지는 않겠네. 그 이유는 1. 자네는 엄밀히 말해 나에게 이런 죄를 저지르자고 요청 "만" 했을 뿐이고, 2. 난 자네가 자신의 잘못을 잘 알고 있을 것이라 [i]굳게 믿고 있고[/i], 그런 자를 문책하려고 장문의 편지를 쓰는 것 말고도 할 일이 많기 때문이네.  그 대신에, 확실하게 말해 두겠네. 두 번 다시는 이런 걸 보낼 생각도 하지 말게.  자네가 보냈던 편지는 내가 보관하고 있다가, 만약에 자네가 의심스러운 무력 사용에 연루된다면, 그 편지를 증거로 제출하겠네.  자네에겐 실망했네.
 
 -전초기지 대장 존]], "_t")
+t("a large, embossed envelope", "양각 무늬가 있는 큰 봉투", "_t")
+t([[#{bold}#TO WHOM IT MAY CONCERN:#{normal}#
+
+Whereas, it can be assumed with 100% certainty that the individual reading this note is the most esteemed authority of the group residing on the bridge connecting Var'Eyal and the Clork Peninsula, as the construct trusted to deliver this message cannot be coerced to decode it;
+and whereas, our observation balloons tell us that this organization is one of high culture and civilization, one comprised of several different species, and would be open to friendly negotiation;
+and whereas, the Orcs have none of the aforementioned qualities, and their continued presence on the Clork Peninsula either directly causes or can lead to countless difficulties and unpleasant situations for both of our groups;
+and whereas, cooperation in the immediate future would be beneficial to both of us, as would a longer period of peace between our two cultures;
+it is therefore imperative that I, and the rest of our species, introduce ourselves.
+
+I am Chief Councillor Tantalos, and I represent the people of #{bold}#Atmos#{normal}#; the orcs call us "Steam Giants" when not using a slew of impolite pejoratives, and we find the name amusing enough to accept it.  The Clork Peninsula is our land, as we have resided here in peace for many thousands of years, before becoming overrun with these distasteful ruffians.  We have been content to let them roam in the undesirable backwater territories of this peninsula, while we looked down from our rightfully elevated places, but various unfortunate circumstances have forced our hand.
+
+We have invented technology #{bold}#far#{normal}# more impressive than yours, or that of any of the remaining miniature races.  Our plebeian citizens are accustomed to luxurious appliances which even your king lacks; our military has abominable weaponry which puts an untrained commoner on even footing with a skilled archer, and lets a moderately experienced marksman kill with range and precision that all but the most powerful archmages would be envious of.  Our people are strong, stronger than any of yours even on a per-pound basis, let alone the advantages of towering over you child-like creatures.  We have countless valuable natural resources, and our many, talented artisans will quickly become accustomed to making smaller garments, jewelry, and bottles of fine spirits for export (among many other high-quality goods).  It should be clear that your diminutive people have much to gain from us; all we wish, for the time being, is for the Clork Peninsula to remain #{bold}#our#{normal}# land, and perhaps that you may grant us some martial or material assistance in #{italic}#addressing#{normal}# the Orcish inconvenience.
+
+We should meet, and discuss this in more detail, or I can arrange to let you borrow an artifact that will allow us to communicate.  Please give your reply to this construct post-haste.
+
+Regards,
+#{italic}#-Tantalos#{normal}#]], [[#{bold}#관계자에게:#{normal}#
+
+이 메시지를 전달하는 구조물은 제삼자에 의해 강제적으로 복호화될 염려가 없으므로, 지금 이것을 읽고 있는 자는 바르'에이알과 클로크 반도를 잇는 다리를 점거 중인 단체의 최고 책임자임이 100% 확실하리라 추측된다.
+또한 우리의 관측 기구가 해당 단체는 고도의 문명을 이룩했고, 여러 종족들이 모여 있다고 보고하였으므로, 우호적으로 협상을 진행할 수 있을 것이다.
+또한 오크들은 전술한 특성들을 단 하나도 갖고 있지 않으므로, 그들이 클로크 반도에 계속 존재하는 현 상황은, 그대들과 우리 쌍방에게 수많은 어려움과 불쾌한 사태들을 직접적으로 유발할 수 있거나 간접적으로 야기할 수 있다.
+또한 우리 두 문명 간의 평화가 길었던 만큼, 가까운 미래에 협력을 하는 것은 쌍방에게 이득이 될 것이다.
+그러므로 나와, 우리 종족에 대해, 소개를 하지 않을 수가 없다.
+
+나는 평의원장직을 맡고 있는 탄탈로스라고 하며, #{bold}#아트모스#{normal}#의 사람들을 대표한다. 오크들은 우릴 "증기 거인족" 이라고 부르는데, 이 외에도 온갖 무례하기 짝이 없는 멸칭들이 많지만 우린 이 호칭은 마음에 들어서 받아들였다.  우린 클로크 반도에서 몇천 년간 평화롭게 살았으니, 이 땅은 우리의 것이라 할 수 있을 것이다. 그 불쾌한 깡패 패거리들이 몰려오면서 그 평화가 깨지고 말았지만.  우린 그들이 이 반도의 후미진 지역을 방황하도록 내버려 두었고, 그 모습을 우리에게 알맞은 높은 곳에서 내려다보고 있을 뿐이었다. 그러나 여러 가지 불행한 상황이 겹치는 바람에 손을 쓸 수밖에 없게 되었다.
+
+우리의 기술은 그대들이나, 그 외 다른 어떤 조그만 종족들보다 #{bold}#월등히#{normal}# 뛰어나다.  우리의 평민들은 그대들의 왕조차 누리지 못하는 호화로운 기기들에 익숙하고, 우리의 군대가 든 가공할 무기들은 민간인들조차 숙련된 궁수와 비견되게 만들 수 있으며, 그저 그런 사수들이 사용하더라도 가장 뛰어난 마도사들조차 부러워할 만한 먼 거리에서 놀라운 정확도로 살상을 할 수 있다.  우리들은 강하고, 심지어 아이들 정도 크기인 그대들과 같은 체격이더라도 그 누구보다도 더 강할 것이다. 체격 차이의 이점까지 고려하면 더 말할 필요도 없을 것이고.  우리에겐 값진 천연자원들이 셀 수 없이 많이 있고, 장인들도 아주 많으며 그들은 곧바로 그대들의 체격에 맞춘 의복과 장신구들, 그리고 좋은 술들을 만들어낼 수 있을 것이다 (그 외에도 질 좋은 물건들이 아주 많다).  그대들 난쟁이들이 우리에게서 얻을 것이 아주 많다는 것은 분명할 것이다.  일단 우리가 바라는 것은 단 하나, 클로크 반도를 #{bold}#우리의#{normal}# 땅으로 인정하고 놔두는 것이다. 또한 그대들이 우리가 오크 문제를 #{italic}#처리#{normal}#할 수 있도록 군사적, 물적으로 지원을 해 준다면 더 좋을 것이다.
+
+더 자세한 이야기는 회담을 열어서 하는 것이 좋을 것이다. 아니면, 우리와 소통할 수 있는 유물을 빌려줄 수도 있다.  가급적 빨리, 이 구조물에 답변을 해 주길 부탁한다.
+
+경의를 담아,
+#{italic}#-탄탈로스#{normal}#]], "_t")
+t("a page from Commander Trelle's journal", "지휘관 트렐레의 일지 페이지", "_t")
+t([[Well.  Turns out this peninsula's also home to an entire civilization of giants lurking in the mountains.  If we weren't so short on troops, my scouts would all be fired.  I appear to have accidentally deceived this construct into mistaking me for Aeryn, John, and King Tolak all at once, and while I am obligated to pass this letter on to them...  on further discussion with this Chief Councilor Tantalos, we have both realized that we can wait to inform them, as this presents an opportunity that neither of us can afford to waste.
+
+Now, officially, both we and the Allied Kingdoms have a policy of capturing the remaining Orcs and taking them to the internment camp rather than killing them (when possible), which would require a far more decisive advantage than this outpost has.  Officially, we are to stay right where we are, containing the potential threat of the Kruk Pride rather than moving into their territory before they can amass their forces.  Officially, it would be forbidden for us to do anything about this problem until it's too late.  But...
+
+#{italic}#Officially,#{normal}# the Atmos don't exist, and we have no knowledge of them whatsoever.  Officially, if a couple of Allied Kingdoms supply ships headed for the internment camp #{italic}#just happened#{normal}# to be waylaid by a hired band of pirates who #{italic}#got lucky#{normal}# and struck them just between their naval patrol routes, it'd be #{italic}#such a shame,#{normal}# and the Atmos couldn't be blamed if that armor and weaponry found itself in their hands.  Officially, we are not to leave our post under any circumstances, and if a mysterious band of giants descended from the mountains, crushed the Kruk Pride in their homeland, and forced them to flee, it would be against our orders to do anything about it, aside from eliminate any refugees who flee to our bridge; officially, this wouldn't impede the Atmos' negotiations with the Allied Kingdoms and Sunwall after this incident, because they couldn't have known we'd pursue a goal as naive as waiting to take the Orcs alive, and would grant them an uncontested claim to Kruk territory.
+
+Unofficially?  I'm going to #{italic}#enjoy#{normal}# this.]], [[좋아.  이 반도가 산에 숨어서 사는 거인 문명의 고향이라는 게 밝혀졌군.  우리 병력이 부족하지만 않았어도, 내 밑의 정찰병들을 전부 잘라 버렸을 거다.  이 구조물은 내가 아에린 님이나 존, 톨락 국왕 폐하라고 착각하고 있는 것 같은데.  그리고 나한테는 이걸 그 사람들한테 전해 줄 의무가 있지만...  이 탄탈로스 평의원장 나으리와 이야기를 좀 해 보니까, 우리 둘 다 이 이야기를 좀 나중에 알려도 된다는 걸 알게 되었다. 왜냐하면 이건 우리 양 쪽 모두에게 포기할 수 없는 기회를 주기 때문이다.
+
+그럼 이제, 공식적으로, 우리와 왕국연합은 모두 살아남은 오크들을 죽이는 대신에 수용소에 가두는 정책을 펴고 있고 (포획할 수 있을 때만), 이 정책을 따르려면 이 전초기지에 지금보다 훨씬 더 큰, 결정적인 이점이 있어야 한다.  공식적으로, 우린 크룩 긍지의 녀석들이 병력을 충분히 모으기 전에 놈들의 영토로 진격하는 것을 자제하고, 지금 우리가 있는 장소에 못박힌 듯이 있으면서 놈들의 위협을 감시하고 있다.  공식적으로, 우린 일이 너무 커지기 전까지는 이것에 대해서 아무것도 하면 안 된다.  하지만...
+
+#{italic}#공식적으로,#{normal}# 아트모스라는 것은 존재하지 않고 우린 그게 뭔지 전혀 모른다.  공식적으로, 오크 수용소로 향하던 왕국연합의 보급선들이 해군 순찰 경로에 #{italic}#운 좋게#{normal}# 숨어 있던 해적들에게 #{italic}#우연찮게#{normal}# 약탈당한다면, #{italic}#참으로 안타까울 것이고#{normal}# 아트모스 사람들이 그 보급선 안에 있던 갑옷과 무기들을 손에 넣게 되더라도 비난을 받을 일은 없다.  공식적으로, 우린 어떤 상황에서도 우리의 기지를 떠나지 않을 것이고, 만약에 정체불명의 거인들이 산에서 내려와서 자기들의 고향 안에 있던 크룩 긍지를 부숴버리고, 놈들이 도망치게 만들었다 치자. 공식적으로, 우리가 거기에 끼어드는 것은 명령 위반이다. 우리 다리 쪽으로 도망쳐 오는 오크들을 없애버릴 수는 있겠지만.  공식적으로, 이 사건은 차후에 아트모스가 왕국연합과 태양의 장벽과 진행할 협상에 방해가 되지 않는다. 왜냐면 거인들은 우리한테 오크들이 생포되길 기다린다는 순진해 빠진 목표가 있었다는 걸 알 턱이 없고, 그렇기 때문에 크룩의 영토는 논란의 여지 없이 거인들의 것이 될 거니까.
+
+비공식적으론?  난 이 상황을 #{italic}#한껏 즐길#{normal}# 것이다.]], "_t")
+t("a torn page from John's journal", "존의 일지에서 찢겨나온 페이지", "_t")
+t("Aeryn, my love...  I fear Trelle may be right, but I will hold this bridge without resorting to betraying you.  Still, though, I will remain vigilant of approaching attacks, and prepare to strike first if a battle really does seem inevitable.  As long as I stand,  no Orc will ever harm you again.  We will have a bright and shining future ahead of us, walking hand in hand into the dawn of a new, peaceful age...  and while I hope the Kruk Pride has a place there, I will not let them put this new age in jeopardy.", "아에린, 내 사랑...  트렐레의 말이 맞을까 두렵긴 하지만, 난 널 배신하지 않고 이 다리를 지키겠어.  그래도, 여전히 경계는 늦추지 않으면서 정말로 전투가 피할 수 없는 게 분명해지면, 먼저 공격할 수 있도록 준비하고 있고.  내가 있는 한, 어떤 오크도 두 번 다시는 널 해치지 못할 거야.  우리의 앞에는 밝고 눈부신 미래가 기다리고 있고, 우린 지금 함께 평화로운 새 시대의 새벽을 향해 나아가고 있는 거야...  그리고 크룩 긍지의 오크들도 그곳에 있을 수 있길 바라긴 하지만, 그들이 새로운 시대를 위험에 빠뜨리도록 놔두진 않겠어.", "_t")
+t("King Tolak's Condemnation", "톨락 왕의 비난 성명", "_t")
+t([[(As you approach the farportal, a herald emerges, holding an envelope; he doesn't quite hand it to you as much as throw it at you from a safe distance, then salutes and retreats back into the swirling rift.  The letter bears the royal seal of the Allied Kingdoms.)
+
+%s...  I think I'm beginning to understand why you have acted this way.  At first, I was...  well, not as much surprised as disappointed.  I'd thought that showing your people mercy was the right decision.  That my father had been too consumed by rage, that the Orcs could be truly be better people if we gave them a chance, and if you were shown how much of a better place Eyal could be if you were to cooperate with us.  That no matter what my father, my mother, and my allies had told me, the Orcish race contained, somewhere deep down, the same potential for learning, growth, and beauty present in Humans, Halflings, Elves, Dwarves, and Ogres.
+
+But now...  I see no good in you.  So many are dead, because I couldn't bring myself to admit that some people are beyond redemption.  Because I thought all you needed was a second chance, that you had goals other than blind, bloody revenge, that you'd see that we had held you in the grip of our absolute mercy, and opted to offer you an open hand rather than crush you as easily as clenching our fist.
+
+I will not make the same mistake again.
+
+You've shown me that the Orcish heart is empty of everything but lust for death and destruction, that no matter how good a future is laid out in front of you, you will discard it simply for the thrill of battle against the reasonable people who want this better future to come.  You've shown me that the prejudicies I've strived to transcend were right all along.  You've shown me that my father's only mistake was not going far enough - a continent free of Orcs is not enough to keep us safe.  Instead, your kind must be purged from all of Eyal - and the battle to make this happen is inevitable, for you will continue pushing for it no matter how much we try to make peace an option.  And yet...  you've made me understand the reason of this approach, of treating everyone else like an irrational threat to your existence, for it is the only proper way for us to treat you.
+
+You won't get another second chance from us.  Instead, we'll give you the only thing you've ever wanted: a battle.  Through this portal waits the army of the Allied Kingdoms, once foes or begrudging co-inhabitants who have grown into true allies because we have a desire for peace and cooperation that your kind will never know.  We wait on an open battlefield, ready to demonstrate our combined might.  The Shaloren of Elvala prepare spells as the Ogres grip their clubs tighter; the Halflings and Humans of Derth and Last Hope have forgotten their age-old rivalry, working together to brew alchemical bombs and build great golems, or take up positions with a bow or sling; the Dwarves of Iron Throne and the Thaloren of Shatur, not even proper allies with us before now, realize you are too great a threat to go neglected, and now our ranks are lined with Wilders summoning countless beasts and treants, and fierce warriors who will #{italic}#not#{normal}# be moved.  Even the forces of the Sunwall have joined us, a contingent of their finest warriors sent to reinforce our lines and quickly train our soldiers in the magical techniques they've honed over the years, using you irredeemable savages as their sharpening stones.
+
+I shall be waiting in the front line of this glorious alliance, sword in hand.  I, King Tolak the Fair, son of Toknor who once purged your people from Maj'Eyal, I who once fought to spare your kind from slavery or extinction, now eagerly await the opportunity to finish what he started.  If I die, Toknor's bloodline dies with me; this is a risk I am willing - no, #{italic}#excited#{normal}# to take, to settle the fate of all civilized peoples of Eyal, once and for all.
+
+You want your revenge on my father's people, foul cur?  #{italic}#Come and get it.#{normal}#
+
+(You admit, it is rather tempting...  but the guaranteed safety of your people takes priority, and besides, you wouldn't put it past the Allied Kingdoms to have a team of archers and slingers waiting to snipe everyone who came through, one by one.  You destroy the portal, eliminating King Tolak's army as a threat, and ensuring Sun Paladin Aeryn won't be getting any reinforcements.  Time to take advantage of your newfound privacy, and finish off the Sunwall forces, once and for all...)]], [[(장거리 차원문에 가까이 가자, 어떤 전령이 봉투를 들고 거기서 나왔습니다.  그는 그 봉투를 당신에게 건네는 대신에 안전한 거리에서 그걸 던져 주고는, 경례를 하고 뒤돌아 소용돌이치는 차원문으로 돌아갔습니다.  편지는 왕국연합의 국인으로 봉해져 있습니다.)
+
+%s...  난 어째서 네가 이런 식으로 행동하게 되었는지 이해가 되기 시작했다.  처음에 난...  흠, 놀랐다기보단 실망했었다.  너의 동포들에게 자비를 보여준 것이 옳은 결정이었다고 생각했었다.  '아버지께선 분노에 삼켜지셨던 것이다', '우리가 오크들에게 기회를 준다면 그들도 더 나아질 수 있지 않을까, 우리가 협력하면 에이알이 얼마나 좋은 곳으로 바뀔 수 있는지 너에게 보여줄 수 있지 않을까' 라고.  나의 아버지나 어머니, 동맹들이 뭐라고 하든지, 오크 종족 또한 어딘가 깊숙한 곳에는 배우고, 성장하고, 아름다워질 수 있는 잠재력이 있다고 생각했었다.  인간, 하플링, 드워프, 그리고 오우거처럼 말이다.
+
+그러나 지금은...  너에게선 그 어떤 희망도 보이지 않는다.  세상에는 구원을 받을 자격이 없는 자들도 존재한다는 것을 내가 인정하지 않았기 때문에, 너무 많은 이들이 죽게 되었다.  기회가 다시 주어지면 다르게 행동할 것이라 생각했기 때문이었다.  너에게 피비린내 나는 맹목적인 복수 말고도 다른 목표가 있을 것이라고 생각했었다. 우리가 너에게 완벽한 자비를 선사했다는 걸 알게 될 것이라고, 그리고 우리는 주먹을 꽉 쥐는 것만큼이나 손쉽게 널 부숴 버릴 수 있었는데, 그러지 않고 손을 내밀었다는 걸 알게 될 거라고 생각했었다.
+
+같은 실수를 반복하진 않을 것이다.
+
+넌 오크의 심장에 가득 차 있는 것은 오직 죽음과 파괴를 향한 욕망뿐이라는 것을, 네 앞에 얼마나 밝은 미래가 기다리고 있든 간에, 고작 싸움의 전율 따위 때문에 그걸 버리고 더 나은 미래를 원하는 합리적인 사람들과 맞서 싸우길 택할 것이라는 것을 보여주었다.  넌 내가 그동안 극복하려 애를 써 왔던 편견이 사실 옳았다는 것 또한 보여주었다.  넌 내 아버지의 유일한 실수란 끝까지 가지 않으셨다는 것 또한 보여주었다. 오크 종족을 대륙 하나에서 없애버리는 것으로는 부족했다.  너희 종족은 온 에이알에서 사라져야만 한다. 그리고 우리가 얼마나 평화를 추구한다 한들, 넌 계속해서 그대로 나아갈 테니 - 전투를 피할 순 없다.  그리고...  넌 오크들이 어째서 다른 모든 이들이 자신들을 죽이려 드는 것처럼 행동하고 있었는지 이해할 수 있게 해 주었다.  그게 너희들에게 유일하게 합당한 대우이기 때문이다.
+
+네게 또 다른 기회를 선사하진 않을 것이다.  그 대신에, 네가 이제껏 유일하게 원해 왔던 것을 선사할 것이다. 싸움 말이다.  이 차원문 너머에는 한때 서로 다투고 서로를 못마땅해했던 이들이 진정한 동맹으로 거듭나 너희를 기다리고 있다. 이들이 결속할 수 있었던 건, 모두 평화와 협력을 원하고 있기 때문이다. 너희는 그것이 무엇인지 영영 알 수 없을 테지만.  우린 드넓은 전장에서 기다리고 있고, 우리의 결속의 힘을 보여줄 준비를 마쳤다.  엘발라의 샬로레들은 주문을 준비하고 있고, 오우거들은 몽둥이를 꽉 잡고 있다. 데르스와 마지막 희망의 인간과 하플링들은 서로 간의 오랜 앙금은 잊고 함께 연금 폭탄과 훌륭한 골렘들을 만들고 있고, 활과 투석구를 쥔 채로 대기하고 있다. 철의 왕좌의 드워프들과 샤툴의 탈로레들은 그동안 우리와 잘 협력하지 않았지만, 그들도 너희들은 그냥 무시하기에는 너무 큰 위협이라는 것을 깨달았고 이제 우리의 대열에는 무수한 짐승들과 나무 정령들을 불러낼 수 있는 자연의 추종자들과 #{italic}#결코#{normal}# 물러서지 않는 맹렬한 전사들이 서 있다.  태양의 장벽의 병력들 또한 우리와 함께한다. 가장 우수한 전사들이 우리의 대열에 합류하여, 자신들이 평생 갈고닦아 왔던 마법 기술들을 우리 병사들에게 신속하게 가르치고 있다. 구원받을 가치가 없는 너희 야만인들을 숫돌로써 갈고닦은 그 기술들을 말이다.
+
+나는 이 영광스러운 연합군의 선두에서, 검을 들고 기다릴 것이다.  너의 동포들을 마즈'에이알에서 몰아냈던 토크놀의 아들이자, 노예나 절멸의 운명으로부터 너희 종족을 구해내고자 싸웠던 나, 공평한 왕 톨락은, 이제 내 아버지가 시작하셨던 일을 끝마칠 기회를 기다릴 것이다.  만약에 내가 죽는다면, 토크놀의 혈통 또한 사라지게 된다. 이것이 바로 내가 기꺼이 - 아니, #{italic}#기쁘게#{normal}# 감수하는 위험이다. 에이알의 모든 문명인들의 운명을, 완전하게 구하기 위하여.
+
+나의 아버지의 백성들에게 복수를 하고 싶나, 멍멍아?  #{italic}#어서 와라.#{normal}#
+
+(당신은 인정할 수밖에 없습니다. 참으로 솔깃한 제안입니다...  하지만 동포들의 안전을 보장하는 것이 최우선이고, 당신은 왕국연합의 궁수와 투석꾼들이 차원문을 넘어오는 자들을 하나하나 각개격파하도록 하진 않을 겁니다.  당신은 차원문을 파괴하여 톨락 왕의 병력들을 이 대륙으로부터 단절시켰고, 태양의 기사 아에린이 지원 병력을 더 얻을 수 없도록 했습니다.  이제 지원 병력도 없어졌으니, 태양의 장벽을 완전히 끝장낼 시간입니다...)]], "tformat")
 t("sunwall", "태양의 장벽", "newLore category")
 
 
@@ -5804,7 +5892,6 @@ t([[A small automatic detection system is always looking for incoming projectile
 section "game/dlcs/tome-orcs/data/talents/uber/mag.lua"
 
 t("Arcane Amplification Drone Effect", "비전 증폭 드론 효과", "talent name")
-t("Spell damage done to it ripples in radius 4 doing 160% arcane damage.", "드론에게 가해진 주문 피해의 160% 비전 피해를 입히는 반경 4 칸의 폭발을 일으킵니다.", "_t")
 t("Arcane Amplification Drone", "비전 증폭 드론", "talent name")
 t("Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "지금 이 캐릭터나, 과거에 어떤 캐릭터로든, 현재 난이도와 영구적 죽음 설정으로 #{italic}#마법폭발의 이야기#{normal}# 업적을 달성했을 것.", "_t")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")

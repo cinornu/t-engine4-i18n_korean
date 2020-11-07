@@ -79,7 +79,7 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/lore/demon.lua"
--- 70 entries
+-- 72 entries
 t("history of Mal'Rok (mistranslated)", "history of Mal'Rok (mistranslated)", "_t")
 t([[(You see here a pile of strange tablets, all piled up in a nice, orderly stack.  You remove the top one, and study it; your finger slips across a square in one corner, and strange sentences start playing through your mind. You struggle to make sense of the unfamiliar words and concepts in your thoughts.)
 
@@ -343,6 +343,24 @@ t("demon statue: water imp", "demon statue: water imp", "_t")
 t("Though they retain use of their hands, this altered offshoot of the Fire Imp has made a much more powerful sacrifice: the ability to breathe air.  Most of the dominant species of Eyal reside above the water, making its oceans and lakes a prime location for carrying out covert operations, conducting experiments too dangerous to perform on our own soil, and preparing portals for a full-scale invasion.  As our scouts and servants beneath the seas, water imps forego the fire-slinging abilities shared by their brethren, instead focusing on ice-magic that is similarly effective underwater.  Like a wretchling, a Water Imp does not expect to live to see peacetime, and thus has no need to breathe above the surface.  Remember to pay tribute to the Water Imp whenever you can; since they do not fight alongside our land-based forces, it's all too easy to forget the selfless sacrifices they've made, and their enormous contributions in gathering intelligence and setting up remote bases.", "Though they retain use of their hands, this altered offshoot of the Fire Imp has made a much more powerful sacrifice: the ability to breathe air.  Most of the dominant species of Eyal reside above the water, making its oceans and lakes a prime location for carrying out covert operations, conducting experiments too dangerous to perform on our own soil, and preparing portals for a full-scale invasion.  As our scouts and servants beneath the seas, water imps forego the fire-slinging abilities shared by their brethren, instead focusing on ice-magic that is similarly effective underwater.  Like a wretchling, a Water Imp does not expect to live to see peacetime, and thus has no need to breathe above the surface.  Remember to pay tribute to the Water Imp whenever you can; since they do not fight alongside our land-based forces, it's all too easy to forget the selfless sacrifices they've made, and their enormous contributions in gathering intelligence and setting up remote bases.", "_t")
 t("demon statue: quasit", "demon statue: quasit", "_t")
 t("Clever and tough, the engineers and warriors of our kind, making armor for our forces and holding the front lines against the hordes of Eyal.  While the children of ruby study new magical spells for our arsenal, and the children of emerald study ways to make our own bodies deadlier, the children of onyx focus on making new constructs from scratch, lashing flesh, magic, and steel together into towering creations that strike fear into Eyal.  Those who fight on the front lines have been created to do so rather than born, churned out in a semi-mature state by factories with Forge-Giant-produced armor bolted onto their skin at \"birth.\"  Though they are mostly flesh, the warrior onyx known as Quasits are very much machines, made with bolstered muscles without losing the clever minds they come from.  As eager as they are brilliant, Quasits are well-disciplined and capable in combat, and their armor allows them to easily take blows that would devastate a Wretchling or Fire Imp.  Devotion will get us far on its own, but the Quasit shows how much more we can do when we have fervor and patience working hand-in-hand.", "Clever and tough, the engineers and warriors of our kind, making armor for our forces and holding the front lines against the hordes of Eyal.  While the children of ruby study new magical spells for our arsenal, and the children of emerald study ways to make our own bodies deadlier, the children of onyx focus on making new constructs from scratch, lashing flesh, magic, and steel together into towering creations that strike fear into Eyal.  Those who fight on the front lines have been created to do so rather than born, churned out in a semi-mature state by factories with Forge-Giant-produced armor bolted onto their skin at \"birth.\"  Though they are mostly flesh, the warrior onyx known as Quasits are very much machines, made with bolstered muscles without losing the clever minds they come from.  As eager as they are brilliant, Quasits are well-disciplined and capable in combat, and their armor allows them to easily take blows that would devastate a Wretchling or Fire Imp.  Devotion will get us far on its own, but the Quasit shows how much more we can do when we have fervor and patience working hand-in-hand.", "_t")
+t("demon statue: onilug", "demon statue: onilug", "_t")
+t([[Necromancy. It has been a long practiced artform on our world, though it fell into disuse during the golden years of Urh'Rok. When the Sher'Tul annihilated our home, however, we resumed our studies on the use of this dark art.
+
+Onilugs are Children of Onyx who have completely given themselves over to Death. The transformation process is both horrifying and painful, but the result is a demon fully tuned to manipulating necrotic energies. Their flesh has become dry and emaciated, making them appear as skeletal creatures draped in skin.  We salute those brave enough to undergo the transformation, for their work advances our cause of Eyal's destruction.
+
+As they are no longer truly alive, onilugs do not fear the void of space. They may wander across the burnt landscape, not afraid of suffocation, the fires of the spellblaze or arcane radiation.
+
+Eyalites may be forced to undergo the Onilug transformation as well. It has actually worked out beautifully. Countless half-wit necromancers, too blinded by their own ambition, have willingly come to us, offering their frail Eyalite flesh to undergo the Onilug transformation. Dangle but a drop of power in front of them and they will snap at it like half-starved wolves.
+
+Our onilug researchers continue to elevate the craft of Necromancy to greater heights, designing new undead creatures to unleash in our inevitable invasion of Eyal's surface. It is only a matter of time before their whole world is swept under a tide of the dead.]], [[Necromancy. It has been a long practiced artform on our world, though it fell into disuse during the golden years of Urh'Rok. When the Sher'Tul annihilated our home, however, we resumed our studies on the use of this dark art.
+
+Onilugs are Children of Onyx who have completely given themselves over to Death. The transformation process is both horrifying and painful, but the result is a demon fully tuned to manipulating necrotic energies. Their flesh has become dry and emaciated, making them appear as skeletal creatures draped in skin.  We salute those brave enough to undergo the transformation, for their work advances our cause of Eyal's destruction.
+
+As they are no longer truly alive, onilugs do not fear the void of space. They may wander across the burnt landscape, not afraid of suffocation, the fires of the spellblaze or arcane radiation.
+
+Eyalites may be forced to undergo the Onilug transformation as well. It has actually worked out beautifully. Countless half-wit necromancers, too blinded by their own ambition, have willingly come to us, offering their frail Eyalite flesh to undergo the Onilug transformation. Dangle but a drop of power in front of them and they will snap at it like half-starved wolves.
+
+Our onilug researchers continue to elevate the craft of Necromancy to greater heights, designing new undead creatures to unleash in our inevitable invasion of Eyal's surface. It is only a matter of time before their whole world is swept under a tide of the dead.]], "_t")
 t("demon statue: wretch titan", "demon statue: wretch titan", "_t")
 t("The modified children of emerald, known as the Wretchlings, willingly accept their role as the arrows in Urh'Rok's quiver, and most only live to see a couple of engagements before giving their lives in battle.  Once in a great while, though, one will stand toe-to-toe with the enemy and repeatedly come out on top.  These outstanding fighters, chosen by fate and their own talent, are recalled, then put through a series of tests to ensure that their survival was not due to luck alone.  Roughly 70% of these are then assigned to breeding duties, ensuring that the Wretchling bloodline gets ever stronger as it is forged in the fires of combat; the rest, whether due to sterility, consuming too much resources to sustain their brood, or simply insisting on staying in the fights for which they were created, are nurtured to maturity and once again let loose on the battlefield.  If wretchlings are our arrows, wretch titans are our trebuchet boulders, causing a tremendous amount of damage to the enemy line with their incredible strength and the geysers of acid spurting from their flesh.  Although no less aggressive than their younger counterparts, wretch titans generally have a much higher survival rate, due to not only their formidable power and size, but the sheer terror they cause when charging at the enemy - few Eyalites would stand and fight against such a foe, particularly when it means standing in a rapidly-growing pool of acid.", "The modified children of emerald, known as the Wretchlings, willingly accept their role as the arrows in Urh'Rok's quiver, and most only live to see a couple of engagements before giving their lives in battle.  Once in a great while, though, one will stand toe-to-toe with the enemy and repeatedly come out on top.  These outstanding fighters, chosen by fate and their own talent, are recalled, then put through a series of tests to ensure that their survival was not due to luck alone.  Roughly 70% of these are then assigned to breeding duties, ensuring that the Wretchling bloodline gets ever stronger as it is forged in the fires of combat; the rest, whether due to sterility, consuming too much resources to sustain their brood, or simply insisting on staying in the fights for which they were created, are nurtured to maturity and once again let loose on the battlefield.  If wretchlings are our arrows, wretch titans are our trebuchet boulders, causing a tremendous amount of damage to the enemy line with their incredible strength and the geysers of acid spurting from their flesh.  Although no less aggressive than their younger counterparts, wretch titans generally have a much higher survival rate, due to not only their formidable power and size, but the sheer terror they cause when charging at the enemy - few Eyalites would stand and fight against such a foe, particularly when it means standing in a rapidly-growing pool of acid.", "_t")
 t("demon statue: dolleg", "demon statue: dolleg", "_t")
@@ -461,6 +479,20 @@ t("", "", "log")
 
 
 ------------------------------------------------
+section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua"
+-- 1 entries
+t([[Your affinity for the shadows grow stronger.
+		Whenever one of your spells deal darkness damage you have a %d%% chance to gain 8%% to all damage affinity for 8 turns.
+		If you kill a creature with darkness damage this effect always triggers.
+		You can only gain one stack of Dark Reign per turn.
+		This effect stacks multiplicatively up to %d times.]], [[Your affinity for the shadows grow stronger.
+		Whenever one of your spells deal darkness damage you have a %d%% chance to gain 8%% to all damage affinity for 8 turns.
+		If you kill a creature with darkness damage this effect always triggers.
+		You can only gain one stack of Dark Reign per turn.
+		This effect stacks multiplicatively up to %d times.]], "tformat")
+
+
+------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Object.lua"
 -- 1 entries
 t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
@@ -480,8 +512,9 @@ t("...", "...", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-cults/data/general/objects/world-artifacts.lua"
--- 1 entries
+-- 2 entries
 t("assault the mind of a foe to utterly dominate it", "assault the mind of a foe to utterly dominate it", "_t")
+t("%s: \"%s\"", "%s: \"%s\"", "tformat")
 
 
 ------------------------------------------------
@@ -688,6 +721,12 @@ t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
 
 
 ------------------------------------------------
+section "game/dlcs/tome-cults/data/zones/entropic-void/npcs.lua"
+-- 1 entries
+t("These energies are not for you!", "These energies are not for you!", "_t")
+
+
+------------------------------------------------
 section "game/dlcs/tome-cults/data/zones/ft-horrors/objects.lua"
 -- 1 entries
 t("..", "..", "entity name")
@@ -724,6 +763,29 @@ t("", "", "_t")
 
 
 ------------------------------------------------
+section "game/dlcs/tome-orcs/data/chats/john-surrender.lua"
+-- 9 entries
+t("HATE!", "HATE!", "_t")
+t("I feel so lost.", "I feel so lost.", "_t")
+t("My love...", "My love...", "_t")
+t("PAIN!", "PAIN!", "_t")
+t("Please let me die!", "Please let me die!", "_t")
+t("RAAAAARGGGG!", "RAAAAARGGGG!", "_t")
+t("REGRET!", "REGRET!", "_t")
+t("*Sobs*", "*Sobs*", "_t")
+t("Someday you will pay!", "Someday you will pay!", "_t")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/general/npcs/plant-add.lua"
+-- 2 entries
+t("Sawtree", "Sawtree", "entity name")
+t([[#{italic}##ANTIQUE_WHITE#Is that... a tree that cuts down trees?
+Oh no don't worry. Only adventurers!#LAST##{normal}#]], [[#{italic}##ANTIQUE_WHITE#Is that... a tree that cuts down trees?
+Oh no don't worry. Only adventurers!#LAST##{normal}#]], "_t")
+
+
+------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
 -- 1 entries
 t("%s", "%s", "tformat")
@@ -737,89 +799,7 @@ t("G.E.M", "G.E.M", "newLore category")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/lore/sunwall.lua"
--- 18 entries
-t("a large, embossed envelope", "a large, embossed envelope", "_t")
-t([[#{bold}#TO WHOM IT MAY CONCERN:#{normal}#
-
-Whereas, it can be assumed with 100% certainty that the individual reading this note is the most esteemed authority of the group residing on the bridge connecting Var'Eyal and the Clork Peninsula, as the construct trusted to deliver this message cannot be coerced to decode it;
-and whereas, our observation balloons tell us that this organization is one of high culture and civilization, one comprised of several different species, and would be open to friendly negotiation;
-and whereas, the Orcs have none of the aforementioned qualities, and their continued presence on the Clork Peninsula either directly causes or can lead to countless difficulties and unpleasant situations for both of our groups;
-and whereas, cooperation in the immediate future would be beneficial to both of us, as would a longer period of peace between our two cultures;
-it is therefore imperative that I, and the rest of our species, introduce ourselves.
-
-I am Chief Councillor Tantalos, and I represent the people of #{bold}#Atmos#{normal}#; the orcs call us "Steam Giants" when not using a slew of impolite pejoratives, and we find the name amusing enough to accept it.  The Clork Peninsula is our land, as we have resided here in peace for many thousands of years, before becoming overrun with these distasteful ruffians.  We have been content to let them roam in the undesirable backwater territories of this peninsula, while we looked down from our rightfully elevated places, but various unfortunate circumstances have forced our hand.
-
-We have invented technology #{bold}#far#{normal}# more impressive than yours, or that of any of the remaining miniature races.  Our plebeian citizens are accustomed to luxurious appliances which even your king lacks; our military has abominable weaponry which puts an untrained commoner on even footing with a skilled archer, and lets a moderately experienced marksman kill with range and precision that all but the most powerful archmages would be envious of.  Our people are strong, stronger than any of yours even on a per-pound basis, let alone the advantages of towering over you child-like creatures.  We have countless valuable natural resources, and our many, talented artisans will quickly become accustomed to making smaller garments, jewelry, and bottles of fine spirits for export (among many other high-quality goods).  It should be clear that your diminutive people have much to gain from us; all we wish, for the time being, is for the Clork Peninsula to remain #{bold}#our#{normal}# land, and perhaps that you may grant us some martial or material assistance in #{italic}#addressing#{normal}# the Orcish inconvenience.
-
-We should meet, and discuss this in more detail, or I can arrange to let you borrow an artifact that will allow us to communicate.  Please give your reply to this construct post-haste.
-
-Regards,
-#{italic}#-Tantalos#{normal}#]], [[#{bold}#TO WHOM IT MAY CONCERN:#{normal}#
-
-Whereas, it can be assumed with 100% certainty that the individual reading this note is the most esteemed authority of the group residing on the bridge connecting Var'Eyal and the Clork Peninsula, as the construct trusted to deliver this message cannot be coerced to decode it;
-and whereas, our observation balloons tell us that this organization is one of high culture and civilization, one comprised of several different species, and would be open to friendly negotiation;
-and whereas, the Orcs have none of the aforementioned qualities, and their continued presence on the Clork Peninsula either directly causes or can lead to countless difficulties and unpleasant situations for both of our groups;
-and whereas, cooperation in the immediate future would be beneficial to both of us, as would a longer period of peace between our two cultures;
-it is therefore imperative that I, and the rest of our species, introduce ourselves.
-
-I am Chief Councillor Tantalos, and I represent the people of #{bold}#Atmos#{normal}#; the orcs call us "Steam Giants" when not using a slew of impolite pejoratives, and we find the name amusing enough to accept it.  The Clork Peninsula is our land, as we have resided here in peace for many thousands of years, before becoming overrun with these distasteful ruffians.  We have been content to let them roam in the undesirable backwater territories of this peninsula, while we looked down from our rightfully elevated places, but various unfortunate circumstances have forced our hand.
-
-We have invented technology #{bold}#far#{normal}# more impressive than yours, or that of any of the remaining miniature races.  Our plebeian citizens are accustomed to luxurious appliances which even your king lacks; our military has abominable weaponry which puts an untrained commoner on even footing with a skilled archer, and lets a moderately experienced marksman kill with range and precision that all but the most powerful archmages would be envious of.  Our people are strong, stronger than any of yours even on a per-pound basis, let alone the advantages of towering over you child-like creatures.  We have countless valuable natural resources, and our many, talented artisans will quickly become accustomed to making smaller garments, jewelry, and bottles of fine spirits for export (among many other high-quality goods).  It should be clear that your diminutive people have much to gain from us; all we wish, for the time being, is for the Clork Peninsula to remain #{bold}#our#{normal}# land, and perhaps that you may grant us some martial or material assistance in #{italic}#addressing#{normal}# the Orcish inconvenience.
-
-We should meet, and discuss this in more detail, or I can arrange to let you borrow an artifact that will allow us to communicate.  Please give your reply to this construct post-haste.
-
-Regards,
-#{italic}#-Tantalos#{normal}#]], "_t")
-t("a page from Commander Trelle's journal", "a page from Commander Trelle's journal", "_t")
-t([[Well.  Turns out this peninsula's also home to an entire civilization of giants lurking in the mountains.  If we weren't so short on troops, my scouts would all be fired.  I appear to have accidentally deceived this construct into mistaking me for Aeryn, John, and King Tolak all at once, and while I am obligated to pass this letter on to them...  on further discussion with this Chief Councilor Tantalos, we have both realized that we can wait to inform them, as this presents an opportunity that neither of us can afford to waste.
-
-Now, officially, both we and the Allied Kingdoms have a policy of capturing the remaining Orcs and taking them to the internment camp rather than killing them (when possible), which would require a far more decisive advantage than this outpost has.  Officially, we are to stay right where we are, containing the potential threat of the Kruk Pride rather than moving into their territory before they can amass their forces.  Officially, it would be forbidden for us to do anything about this problem until it's too late.  But...
-
-#{italic}#Officially,#{normal}# the Atmos don't exist, and we have no knowledge of them whatsoever.  Officially, if a couple of Allied Kingdoms supply ships headed for the internment camp #{italic}#just happened#{normal}# to be waylaid by a hired band of pirates who #{italic}#got lucky#{normal}# and struck them just between their naval patrol routes, it'd be #{italic}#such a shame,#{normal}# and the Atmos couldn't be blamed if that armor and weaponry found itself in their hands.  Officially, we are not to leave our post under any circumstances, and if a mysterious band of giants descended from the mountains, crushed the Kruk Pride in their homeland, and forced them to flee, it would be against our orders to do anything about it, aside from eliminate any refugees who flee to our bridge; officially, this wouldn't impede the Atmos' negotiations with the Allied Kingdoms and Sunwall after this incident, because they couldn't have known we'd pursue a goal as naive as waiting to take the Orcs alive, and would grant them an uncontested claim to Kruk territory.
-
-Unofficially?  I'm going to #{italic}#enjoy#{normal}# this.]], [[Well.  Turns out this peninsula's also home to an entire civilization of giants lurking in the mountains.  If we weren't so short on troops, my scouts would all be fired.  I appear to have accidentally deceived this construct into mistaking me for Aeryn, John, and King Tolak all at once, and while I am obligated to pass this letter on to them...  on further discussion with this Chief Councilor Tantalos, we have both realized that we can wait to inform them, as this presents an opportunity that neither of us can afford to waste.
-
-Now, officially, both we and the Allied Kingdoms have a policy of capturing the remaining Orcs and taking them to the internment camp rather than killing them (when possible), which would require a far more decisive advantage than this outpost has.  Officially, we are to stay right where we are, containing the potential threat of the Kruk Pride rather than moving into their territory before they can amass their forces.  Officially, it would be forbidden for us to do anything about this problem until it's too late.  But...
-
-#{italic}#Officially,#{normal}# the Atmos don't exist, and we have no knowledge of them whatsoever.  Officially, if a couple of Allied Kingdoms supply ships headed for the internment camp #{italic}#just happened#{normal}# to be waylaid by a hired band of pirates who #{italic}#got lucky#{normal}# and struck them just between their naval patrol routes, it'd be #{italic}#such a shame,#{normal}# and the Atmos couldn't be blamed if that armor and weaponry found itself in their hands.  Officially, we are not to leave our post under any circumstances, and if a mysterious band of giants descended from the mountains, crushed the Kruk Pride in their homeland, and forced them to flee, it would be against our orders to do anything about it, aside from eliminate any refugees who flee to our bridge; officially, this wouldn't impede the Atmos' negotiations with the Allied Kingdoms and Sunwall after this incident, because they couldn't have known we'd pursue a goal as naive as waiting to take the Orcs alive, and would grant them an uncontested claim to Kruk territory.
-
-Unofficially?  I'm going to #{italic}#enjoy#{normal}# this.]], "_t")
-t("a torn page from John's journal", "a torn page from John's journal", "_t")
-t("Aeryn, my love...  I fear Trelle may be right, but I will hold this bridge without resorting to betraying you.  Still, though, I will remain vigilant of approaching attacks, and prepare to strike first if a battle really does seem inevitable.  As long as I stand,  no Orc will ever harm you again.  We will have a bright and shining future ahead of us, walking hand in hand into the dawn of a new, peaceful age...  and while I hope the Kruk Pride has a place there, I will not let them put this new age in jeopardy.", "Aeryn, my love...  I fear Trelle may be right, but I will hold this bridge without resorting to betraying you.  Still, though, I will remain vigilant of approaching attacks, and prepare to strike first if a battle really does seem inevitable.  As long as I stand,  no Orc will ever harm you again.  We will have a bright and shining future ahead of us, walking hand in hand into the dawn of a new, peaceful age...  and while I hope the Kruk Pride has a place there, I will not let them put this new age in jeopardy.", "_t")
-t("King Tolak's Condemnation", "King Tolak's Condemnation", "_t")
-t([[(As you approach the farportal, a herald emerges, holding an envelope; he doesn't quite hand it to you as much as throw it at you from a safe distance, then salutes and retreats back into the swirling rift.  The letter bears the royal seal of the Allied Kingdoms.)
-
-%s...  I think I'm beginning to understand why you have acted this way.  At first, I was...  well, not as much surprised as disappointed.  I'd thought that showing your people mercy was the right decision.  That my father had been too consumed by rage, that the Orcs could be truly be better people if we gave them a chance, and if you were shown how much of a better place Eyal could be if you were to cooperate with us.  That no matter what my father, my mother, and my allies had told me, the Orcish race contained, somewhere deep down, the same potential for learning, growth, and beauty present in Humans, Halflings, Elves, Dwarves, and Ogres.
-
-But now...  I see no good in you.  So many are dead, because I couldn't bring myself to admit that some people are beyond redemption.  Because I thought all you needed was a second chance, that you had goals other than blind, bloody revenge, that you'd see that we had held you in the grip of our absolute mercy, and opted to offer you an open hand rather than crush you as easily as clenching our fist.
-
-I will not make the same mistake again.
-
-You've shown me that the Orcish heart is empty of everything but lust for death and destruction, that no matter how good a future is laid out in front of you, you will discard it simply for the thrill of battle against the reasonable people who want this better future to come.  You've shown me that the prejudicies I've strived to transcend were right all along.  You've shown me that my father's only mistake was not going far enough - a continent free of Orcs is not enough to keep us safe.  Instead, your kind must be purged from all of Eyal - and the battle to make this happen is inevitable, for you will continue pushing for it no matter how much we try to make peace an option.  And yet...  you've made me understand the reason of this approach, of treating everyone else like an irrational threat to your existence, for it is the only proper way for us to treat you.
-
-You won't get another second chance from us.  Instead, we'll give you the only thing you've ever wanted: a battle.  Through this portal waits the army of the Allied Kingdoms, once foes or begrudging co-inhabitants who have grown into true allies because we have a desire for peace and cooperation that your kind will never know.  We wait on an open battlefield, ready to demonstrate our combined might.  The Shaloren of Elvala prepare spells as the Ogres grip their clubs tighter; the Halflings and Humans of Derth and Last Hope have forgotten their age-old rivalry, working together to brew alchemical bombs and build great golems, or take up positions with a bow or sling; the Dwarves of Iron Throne and the Thaloren of Shatur, not even proper allies with us before now, realize you are too great a threat to go neglected, and now our ranks are lined with Wilders summoning countless beasts and treants, and fierce warriors who will #{italic}#not#{normal}# be moved.  Even the forces of the Sunwall have joined us, a contingent of their finest warriors sent to reinforce our lines and quickly train our soldiers in the magical techniques they've honed over the years, using you irredeemable savages as their sharpening stones.
-
-I shall be waiting in the front line of this glorious alliance, sword in hand.  I, King Tolak the Fair, son of Toknor who once purged your people from Maj'Eyal, I who once fought to spare your kind from slavery or extinction, now eagerly await the opportunity to finish what he started.  If I die, Toknor's bloodline dies with me; this is a risk I am willing - no, #{italic}#excited#{normal}# to take, to settle the fate of all civilized peoples of Eyal, once and for all.
-
-You want your revenge on my father's people, foul cur?  #{italic}#Come and get it.#{normal}#
-
-(You admit, it is rather tempting...  but the guaranteed safety of your people takes priority, and besides, you wouldn't put it past the Allied Kingdoms to have a team of archers and slingers waiting to snipe everyone who came through, one by one.  You destroy the portal, eliminating King Tolak's army as a threat, and ensuring Sun Paladin Aeryn won't be getting any reinforcements.  Time to take advantage of your newfound privacy, and finish off the Sunwall forces, once and for all...)]], [[(As you approach the farportal, a herald emerges, holding an envelope; he doesn't quite hand it to you as much as throw it at you from a safe distance, then salutes and retreats back into the swirling rift.  The letter bears the royal seal of the Allied Kingdoms.)
-
-%s...  I think I'm beginning to understand why you have acted this way.  At first, I was...  well, not as much surprised as disappointed.  I'd thought that showing your people mercy was the right decision.  That my father had been too consumed by rage, that the Orcs could be truly be better people if we gave them a chance, and if you were shown how much of a better place Eyal could be if you were to cooperate with us.  That no matter what my father, my mother, and my allies had told me, the Orcish race contained, somewhere deep down, the same potential for learning, growth, and beauty present in Humans, Halflings, Elves, Dwarves, and Ogres.
-
-But now...  I see no good in you.  So many are dead, because I couldn't bring myself to admit that some people are beyond redemption.  Because I thought all you needed was a second chance, that you had goals other than blind, bloody revenge, that you'd see that we had held you in the grip of our absolute mercy, and opted to offer you an open hand rather than crush you as easily as clenching our fist.
-
-I will not make the same mistake again.
-
-You've shown me that the Orcish heart is empty of everything but lust for death and destruction, that no matter how good a future is laid out in front of you, you will discard it simply for the thrill of battle against the reasonable people who want this better future to come.  You've shown me that the prejudicies I've strived to transcend were right all along.  You've shown me that my father's only mistake was not going far enough - a continent free of Orcs is not enough to keep us safe.  Instead, your kind must be purged from all of Eyal - and the battle to make this happen is inevitable, for you will continue pushing for it no matter how much we try to make peace an option.  And yet...  you've made me understand the reason of this approach, of treating everyone else like an irrational threat to your existence, for it is the only proper way for us to treat you.
-
-You won't get another second chance from us.  Instead, we'll give you the only thing you've ever wanted: a battle.  Through this portal waits the army of the Allied Kingdoms, once foes or begrudging co-inhabitants who have grown into true allies because we have a desire for peace and cooperation that your kind will never know.  We wait on an open battlefield, ready to demonstrate our combined might.  The Shaloren of Elvala prepare spells as the Ogres grip their clubs tighter; the Halflings and Humans of Derth and Last Hope have forgotten their age-old rivalry, working together to brew alchemical bombs and build great golems, or take up positions with a bow or sling; the Dwarves of Iron Throne and the Thaloren of Shatur, not even proper allies with us before now, realize you are too great a threat to go neglected, and now our ranks are lined with Wilders summoning countless beasts and treants, and fierce warriors who will #{italic}#not#{normal}# be moved.  Even the forces of the Sunwall have joined us, a contingent of their finest warriors sent to reinforce our lines and quickly train our soldiers in the magical techniques they've honed over the years, using you irredeemable savages as their sharpening stones.
-
-I shall be waiting in the front line of this glorious alliance, sword in hand.  I, King Tolak the Fair, son of Toknor who once purged your people from Maj'Eyal, I who once fought to spare your kind from slavery or extinction, now eagerly await the opportunity to finish what he started.  If I die, Toknor's bloodline dies with me; this is a risk I am willing - no, #{italic}#excited#{normal}# to take, to settle the fate of all civilized peoples of Eyal, once and for all.
-
-You want your revenge on my father's people, foul cur?  #{italic}#Come and get it.#{normal}#
-
-(You admit, it is rather tempting...  but the guaranteed safety of your people takes priority, and besides, you wouldn't put it past the Allied Kingdoms to have a team of archers and slingers waiting to snipe everyone who came through, one by one.  You destroy the portal, eliminating King Tolak's army as a threat, and ensuring Sun Paladin Aeryn won't be getting any reinforcements.  Time to take advantage of your newfound privacy, and finish off the Sunwall forces, once and for all...)]], "tformat")
+-- 10 entries
 t("Sun Paladin report", "Sun Paladin report", "_t")
 t([[Lady Aeryn,
 
@@ -1068,10 +1048,17 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/mag.lua"
--- 1 entries
+-- 2 entries
+t("Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "_t")
 t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
 		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], [[You create an Arcane Amplification Drone at the selected location for 3 turns.
 		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], "tformat")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
+-- 1 entries
+t("TO THE MOUNTAINS!", "TO THE MOUNTAINS!", "_t")
 
 
 ------------------------------------------------
@@ -1084,6 +1071,12 @@ t("..", "..", "entity name")
 section "game/dlcs/tome-orcs/data/zones/gem/zone.lua"
 -- 1 entries
 t("G.E.M.", "G.E.M.", "_t")
+
+
+------------------------------------------------
+section "game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua"
+-- 1 entries
+t("Freedom! Let's rally to Kruk Pride!", "Freedom! Let's rally to Kruk Pride!", "_t")
 
 
 ------------------------------------------------
@@ -1115,6 +1108,16 @@ t("%+d #LAST#(%+d eff.)", "%+d #LAST#(%+d eff.)", "_t")
 
 
 ------------------------------------------------
+section "game/dlcs/tome-orcs/overload/mod/class/interface/PartyTinker.lua"
+-- 5 entries
+t("unknown tinker", "unknown tinker", "_t")
+t("can not create tier %d", "can not create tier %d", "tformat")
+t("requires %s level %d", "requires %s level %d", "tformat")
+t("requires %d %s", "requires %d %s", "tformat")
+t("requires %s", "requires %s", "tformat")
+
+
+------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/dialogs/CreateTinker.lua"
 -- 1 entries
 t("", "", "_t")
@@ -1134,12 +1137,23 @@ t("Unknown!", "Unknown!", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/Module.lua"
--- 3 entries
+-- 12 entries
 t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "_t")
 t("Beta Addons Disabled", "Beta Addons Disabled", "_t")
 t([[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
 #GREY#]], [[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
 #GREY#]], "_t")
+t([[Total playtime of all registered players:%s
+]], [[Total playtime of all registered players:%s
+]], "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "tformat")
+t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE# is one of the top ten killers", "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "tformat")
+t("There are currently %d people playing online", "There are currently %d people playing online", "tformat")
+t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "tformat")
+t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "tformat")
+t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "tformat")
 
 
 ------------------------------------------------
@@ -1232,8 +1246,12 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/microtxn/ShowPurchasable.lua"
--- 1 entries
+-- 3 entries
 t("%0.2f %s", "%0.2f %s", "tformat")
+t([[Could not dynamically link addon to current character, maybe the installation weng wrong.
+You can fix that by manually downloading the addon from https://te4.org/ and placing it in game/addons/ folder.]], [[Could not dynamically link addon to current character, maybe the installation weng wrong.
+You can fix that by manually downloading the addon from https://te4.org/ and placing it in game/addons/ folder.]], "_t")
+t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "_t")
 
 
 ------------------------------------------------
@@ -1652,7 +1670,7 @@ t("%+d #LAST#(%+d eff.)", "%+d #LAST#(%+d eff.)", "_t")
 
 ------------------------------------------------
 section "game/modules/tome/class/Party.lua"
--- 19 entries
+-- 20 entries
 t("Party member", "Party member", "_t")
 t("Can not switch control to this creature.", "Can not switch control to this creature.", "logPlayer")
 t("Switching control", "Switching control", "_t")
@@ -1666,6 +1684,7 @@ t("%s will stay near %s.", "%s will stay near %s.", "logPlayer")
 t("%s targets #Target#.", "%s targets #Target#.", "logCombat")
 t("Change name of: %s", "Change name of: %s", "tformat")
 t("%s is dismissed!", "%s is dismissed!", "log")
+t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "log")
 t("No, we must hurry!", "No, we must hurry!", "_t")
 t("Ok, but not for long.", "Ok, but not for long.", "_t")
 t("very close", "very close", "_t")
@@ -6234,6 +6253,18 @@ t(" (%s)", " (%s)", "tformat")
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/cursed/advanced-shadowmancy.lua"
+-- 1 entries
+t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
+		Each successive shadow deal 40%% less damage.
+		For the purpose of this talent, you force your shadows through any walls in their way.
+		Damage increases with your Mindpower.]], [[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
+		Each successive shadow deal 40%% less damage.
+		For the purpose of this talent, you force your shadows through any walls in their way.
+		Damage increases with your Mindpower.]], "tformat")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/cursed/crimson-templar.lua"
 -- 1 entries
 t("sacrificed themself", "sacrificed themself", "_t")
@@ -6463,6 +6494,47 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 
 
 ------------------------------------------------
+section "game/modules/tome/data/talents/spells/grave.lua"
+-- 1 entries
+t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
+		Every turn all foes inside take %0.2f cold damage.
+		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
+		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
+		If cast while under 1 life it spawns with 3 stacks.
+		The damage will increase with your Spellpower.]], [[You summon a corpselight that radiates cold for 7 turns in radius %d.
+		Every turn all foes inside take %0.2f cold damage.
+		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
+		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
+		If cast while under 1 life it spawns with 3 stacks.
+		The damage will increase with your Spellpower.]], "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/spells/master-necromancer.lua"
+-- 2 entries
+t([[Sends out a surge of undeath energies into your aura.
+		All minions inside gain 25%% speed for %d turns
+		All non-ghoul minions are healed by %d%%.
+		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
+		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
+		All non-undead foes caught inside are dazed for %d turns.
+		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], [[Sends out a surge of undeath energies into your aura.
+		All minions inside gain 25%% speed for %d turns
+		All non-ghoul minions are healed by %d%%.
+		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
+		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
+		All non-undead foes caught inside are dazed for %d turns.
+		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], "tformat")
+t([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
+		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
+		The minion takes 300%% damage from that effect.
+		The damage redirected percent depends on your Spellpower.]], [[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
+		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
+		The minion takes 300%% damage from that effect.
+		The damage redirected percent depends on your Spellpower.]], "tformat")
+
+
+------------------------------------------------
 section "game/modules/tome/data/talents/spells/thaumaturgy.lua"
 -- 3 entries
 t("#LIGHT_BLUE#%s [known, eligible]#LAST#", "#LIGHT_BLUE#%s [known, eligible]#LAST#", "tformat")
@@ -6483,6 +6555,16 @@ t([[Turn part of your target into fire, burning the rest for %0.2f fire damage o
 section "game/modules/tome/data/talents/techniques/throwing-knives.lua"
 -- 1 entries
 t("%d%% %s", "%d%% %s", "tformat")
+
+
+------------------------------------------------
+section "game/modules/tome/data/talents/techniques/tireless-combatant.lua"
+-- 3 entries
+t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "tformat")
+t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "tformat")
+t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], "tformat")
 
 
 ------------------------------------------------
@@ -7291,6 +7373,12 @@ section "game/modules/tome/dialogs/MapMenu.lua"
 t("Control", "Control", "_t")
 t("Target player", "Target player", "_t")
 t(" ", " ", "_t")
+
+
+------------------------------------------------
+section "game/modules/tome/dialogs/PartyOrder.lua"
+-- 1 entries
+t("Pet the hound", "Pet the hound", "_t")
 
 
 ------------------------------------------------
