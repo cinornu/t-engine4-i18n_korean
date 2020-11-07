@@ -87,7 +87,7 @@ newTalent {
 		return preUse(self, t, silent)
 	end,
 	getDist = function(self, t)
-		if self:getTalentLevelRaw(t) >= 3 then
+		if self:getTalentLevel(t) >= 3 then
 			return 3
 		else
 			return 2
@@ -114,7 +114,7 @@ newTalent {
 		local autocrit = false
 		if self:knowTalent(self.T_SKIRMISHER_BUCKLER_MASTERY) then
 			local t2 = self:getTalentFromId(self.T_SKIRMISHER_BUCKLER_MASTERY)
-			if self:getTalentLevelRaw(t2) >= 5 then
+			if self:getTalentLevel(t2) >= 5 then
 				autocrit = true
 			end
 		end
@@ -188,7 +188,7 @@ newTalent {
 		local crit = ""
 		local t2 = self:getTalentFromId(self.T_SKIRMISHER_BASH_AND_SMASH)
 		if t2 then
-			if self:getTalentLevelRaw(t2) >= 5 then
+			if self:getTalentLevel(t2) >= 5 then
 				crit = _t" At talent level 5, your Bash and Smash shield hits are guaranteed criticals."
 			else
 				crit = _t" At talent level 5, your Bash and Smash shield hit is a guaranteed critical."

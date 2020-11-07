@@ -30,7 +30,7 @@ newTalent{
 	getResists = function(self, t) return math.floor(self:combatTalentScale(t, 8, 18)) end,
 	getInherit = function(self, t) return math.floor(self:combatTalentLimit(t, 75, 20, 40)) end,
 	callbackOnActBase = function(self, t)
-		self:projectApply({type="ball", radius=self:getTalentRadius(t)}, self.x, self.y, Map.ACTOR, function(target)
+		self:projectApply({type="ball", radius=self:getTalentRadius(t), ignore_nullify_all_friendlyfire=true}, self.x, self.y, Map.ACTOR, function(target)
 			if target.summoner == self and target.necrotic_minion and not target:hasEffect(target.EFF_NECROTIC_AURA) then
 				target:setEffect(target.EFF_NECROTIC_AURA, 1, {power=t:_getResists(self)})
 			end
@@ -64,7 +64,7 @@ newTalent{
 	tactical = { BUFF=function(self) return necroArmyStats(self).nb / 2 end, DISABLE = {daze=2} },
 	range = 0,
 	radius = function(self, t) return self:callTalent(self.T_NECROTIC_AURA, "radius") end,
-	target = function(self, t) return {type="ball", range=0, radius=self:getTalentRadius(t)} end,
+	target = function(self, t) return {type="ball", range=0, radius=self:getTalentRadius(t), ignore_nullify_all_friendlyfire=true} end,
 	requires_target = true,
 	getSpeed = function(self, t) return math.floor(self:combatTalentScale(t, 2, 5)) end,
 	getHeal = function(self, t) return math.floor(self:combatTalentScale(t, 12, 22)) end,
@@ -101,7 +101,8 @@ newTalent{
 		All non-ghoul minions are healed by %d%%.
 		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
 		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
-		All non-undead foes caught inside are dazed for %d turns.]]):
+		All non-undead foes caught inside are dazed for %d turns.
+		In addition all your minions (created after you learn this spell) have a passive health regeneration.]]):
 		tformat(t:_getSpeed(self), t:_getHeal(self), t:_getGhoulDur(self), t:_getGhoulDur(self), t:_getDaze(self))
 	end,
 }
@@ -125,10 +126,12 @@ newTalent{
 		local stats = necroArmyStats(self)
 		if stats.nb == 0 then return end
 
-		local spots, spots_hostile = {}, {}
+		local spots, spots_hostile, spots_wall = {}, {}, {}
 		self:projectApply({type="ball", radius=1}, self.x, self.y, Map.TERRAIN, function(_, x, y)
 			local target = game.level.map(x, y, Map.ACTOR)
+			local terrain = game.level.map(x, y, Map.TERRAIN)
 			if target and self:reactionToward(target) < 0 then spots_hostile[#spots_hostile+1] = {x=x, y=y, foe=target}
+			elseif not target and terrain and terrain.does_block_move then spots_wall[#spots_wall+1] = {x=x, y=y}
 			elseif not target then spots[#spots+1] = {x=x, y=y}
 			end
 		end)
@@ -137,6 +140,7 @@ newTalent{
 			local m = rng.tableRemove(stats.list)
 			if not m then break end
 			local spot = rng.tableRemove(spots_hostile)
+			if not spot and m.can_pass and m.can_pass.pass_wall then spot = rng.tableRemove(spots_wall) end
 			if not spot then spot = rng.tableRemove(spots) end
 			if not spot then break end
 
@@ -191,7 +195,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		return ([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
-		Anytime you take damage %d%% of it is instead redirected to a random minion without your aura of undeath.
+		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
 		The minion takes 300%% damage from that effect.
 		The damage redirected percent depends on your Spellpower.]]):
 		tformat(t:_getPower(self))

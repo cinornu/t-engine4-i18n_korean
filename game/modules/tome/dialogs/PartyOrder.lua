@@ -33,6 +33,7 @@ local orders = {
 	talents = {5, function(actor) return (_t"Define tactical talents usage") end},
 	rename = {6, function(actor) return (_t"Rename") end},
 	dismiss = {7, function(actor) return (_t"Dismiss") end},
+	pet_hound = {8, function(actor) return (_t"Pet the hound") end},
 }
 
 function _M:init(actor, def)

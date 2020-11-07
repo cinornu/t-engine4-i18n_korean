@@ -143,7 +143,7 @@ newTalent{
 	mode = "sustained", no_sustain_autoreset = true,
 	points = 5,
 	sustain_psi = 10,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 14, 8, true)) end, --Limit > 5
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 14, 8)) end, --Limit > 5
 	range = 0,
 	no_energy = true,
 	tactical = { DEFEND = 2 },
@@ -206,7 +206,7 @@ newTalent{
 	mode = "sustained", no_sustain_autoreset = true,
 	points = 5,
 	sustain_psi = 10,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 14, 8, true)) end, --Limit > 5
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 14, 8)) end, --Limit > 5
 	range = 0,
 	no_energy = true,
 	tactical = { DEFEND = 2 },
@@ -271,7 +271,7 @@ newTalent{
 	mode = "sustained", no_sustain_autoreset = true,
 	points = 5,
 	sustain_psi = 10,
-	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 14, 8, true)) end, --Limit > 5
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 5, 14, 8)) end, --Limit > 5
 	range = 0,
 	no_energy = true,
 	tactical = { DEFEND = 2 },

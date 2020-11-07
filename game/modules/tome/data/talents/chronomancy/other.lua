@@ -802,7 +802,7 @@ newTalent{
 	getArmor = function(self, t) return math.ceil(self:combatTalentSpellDamage(t, 20, 50, getParadoxSpellpower(self, t))) end,
 	callbackOnActBase = function(self, t)
 		local maxspikes = t.getArmor(self, t)
-		if self.carbon_armor < maxspikes then
+		if self.carbon_armor and self.carbon_armor < maxspikes then
 			self.carbon_armor = self.carbon_armor + 1
 		end
 	end,

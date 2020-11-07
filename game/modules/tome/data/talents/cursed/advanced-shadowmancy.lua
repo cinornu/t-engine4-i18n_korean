@@ -181,6 +181,7 @@ newTalent{
 				game.level.map:particleEmitter(a.x, a.y, math.max(math.abs(x-a.x), math.abs(y-a.y)), "shadow_beam", {tx=x-a.x, ty=y-a.y})
 
 				a:project(tg, x, y, DamageType.PHYSICAL, dam)
+				dam = dam * 0.6
 
 				a:move(sx, sy, true)
 				
@@ -193,6 +194,7 @@ newTalent{
 	end,
 	info = function(self, t)
 		return ([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
+		Each successive shadow deal 40%% less damage.
 		For the purpose of this talent, you force your shadows through any walls in their way.
 		Damage increases with your Mindpower.]]):
 		tformat(t.getDamage(self, t) * shadowWarriorMult(self))

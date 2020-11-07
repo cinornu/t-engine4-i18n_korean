@@ -32,6 +32,7 @@ t("Portal Room", "传送门房间", nil)
 t("Rhalore", "罗兰精灵", nil)
 t("Sandworm Burrowers", "钻地沙虫", nil)
 t("Shalore", "永恒精灵", nil)
+t("Shasshhiy'Kaish", "莎西·凯希", nil)
 t("Sher'Tul", "夏·图尔", nil)
 t("Slavers", "奴隶贩子", nil)
 t("Sorcerers", "法师", nil)
@@ -404,6 +405,17 @@ t("Beta Addons Disabled", "Beta版禁用插件", "_t")
 t([[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
 #GREY#]], [[本Beta版本设计上用于纯原版测试环境，因此，以下插件被自动禁用:
 #GREY#]], "_t")
+t([[Total playtime of all registered players:%s
+]], [[注册玩家总游玩时间:%s
+]], "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE#是玩的最多的五大种族之一", "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE#是玩的最多的五大职业之一", "tformat")
+t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE#是十大杀手之一", "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE#是十大种族/职业组合之一", "tformat")
+t("There are currently %d people playing online", "现在有%d人正在在线游玩", "tformat")
+t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "官网角色库中记录了#RED#%d#WHITE#个角色的死亡", "tformat")
+t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "官网角色库中共有#LIGHT_BLUE#%d#WHITE#个赢得当前版本的游戏的角色", "tformat")
+t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "最近的捐赠者是#LIGHT_GREEN#%s#WHITE#。感谢所有捐赠者，是你们让这个游戏保持继续！", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#由于 %s ，在线存档无法运行（切换至离线存档）", "log")
 
 
@@ -1063,7 +1075,7 @@ Please go to https://te4.org/ to download it manually.]], [[无法启动游戏�
 请前往 https://te4.org/ 手动下载。]], "_t")
 t("Shimmer pack installed!", "时装包安装成功!", "_t")
 t([[Could not dynamically link addon to current character, maybe the installation weng wrong.
-You can fix that by manually downloading the shimmer addon from https://te4.org/ and placing it in game/addons/ folder.]], [[无法自动将插件链接至当前角色，可能安装失败了。
+You can fix that by manually downloading the addon from https://te4.org/ and placing it in game/addons/ folder.]], [[无法自动将插件链接至当前角色，可能安装失败了。
 你可以在 https://te4.org/ 手动下载时装插件并放置于 game/addons/ 目录下来解决这个问题。]], "_t")
 t("Downloading cosmetic pack: #LIGHT_GREEN#%s", "时装包下载中： #LIGHT_GREEN#%s", "tformat")
 t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: The pack should be downloading or even finished by now.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}# ：时装包安装剩余时间：", "tformat")
@@ -1099,6 +1111,7 @@ t("#{bold}##GOLD#Once per Character#WHITE##{normal}#: This event can only be rec
 t([[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will automatically install the shimmer pack to your game and enable it for your current character too (you will still need to use the Mirror of Reflection to switch them on).
 #LIGHT_GREEN#Bonus perk:#LAST# purchasing any shimmer pack will also give your characters a portable Mirror of Reflection to be able to change your appearance anywhere, anytime!]], [[#{bold}##GOLD#时装包#WHITE##{normal}#：购买后游戏会自动安装时装包，同时为当前角色自动开启。仍然需要使用反射之镜来切换。
 #LIGHT_GREEN#额外特效:#LAST# 购买任何时装包后，你的角色自动获得便携式反射之镜，可以随时随地切换时装!]], "_t")
+t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#UI 组合包#WHITE##{normal}#： 购买后游戏会自动安装UI组合包。", "_t")
 t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#Vault Space#WHITE##{normal}#：购买后，你的共享仓库大小会永久增加。", "_t")
 t("Online Store", "在线商城", "_t")
 
@@ -1331,7 +1344,7 @@ t("Confirm addon install/update", "确认插件安装/更新", "_t")
 t("Are you sure you want to install this module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "你确认要安装这个模组吗： #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ？", "tformat")
 t("Confirm module install/update", "确认模组安装/更新", "_t")
 t("Addon installation successful. New addons are only active for new characters.", "插件安装成功。新的插件只会在新的游戏角色生效。", "_t")
-t("Addon installed!", "墨子安装完成！", "_t")
+t("Addon installed!", "插件安装完成！", "_t")
 t("Game installation successful. Have fun!", "游戏安装完成。玩的开心！", "_t")
 t("Game installed!", "游戏安装完成!", "_t")
 

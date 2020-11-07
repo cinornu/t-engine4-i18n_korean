@@ -2607,12 +2607,19 @@ newDamageType{
 		useImplicitCrit(src, state)
 		local target = game.level.map(x, y, Map.ACTOR)
 
-		if target and src == target and target.type == "undead" and target.subtype == "ghoul" then
+		if target and src == target and ((target.type == "undead" and target.subtype == "ghoul") or (target.descriptor and target.descriptor.subrace == "Ghoul")) then
 			target:setEffect(target.EFF_RETCHED, 1, {})
 		end
 
 		if target and (target:attr("undead") or target:attr("retch_heal")) then
-			target:heal(dam * 1.5, src)
+			local mult = 1
+			if target.turn_procs and target.turn_procs.been_retched then
+				mult = 0.5 ^ target.turn_procs.been_retched
+			end
+			target:heal(dam * 1.5 * mult, src)
+			if target.turn_procs then
+				target.turn_procs.been_retched = (target.turn_procs.been_retched or 0) + 1
+			end
 
 			if src.callTalent then
 				if rng.percent(src:callTalent(src.T_RETCH, "getPurgeChance")) then

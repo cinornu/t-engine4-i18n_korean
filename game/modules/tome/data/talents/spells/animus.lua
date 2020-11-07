@@ -177,6 +177,7 @@ newTalent{
 		return ret
 	end,
 	deactivate = function(self, t)
+		game:onTickEnd(function() self:updateTalentPassives(t) end)
 		return true
 	end,
 	info = function(self, t)

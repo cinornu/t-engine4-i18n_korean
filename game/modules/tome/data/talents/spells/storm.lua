@@ -154,7 +154,7 @@ newTalent{
 	tactical = { BUFF = 2 },
 	sustain_mana = 50,
 	cooldown = 30,
-	getLightningDamageIncrease = function(self, t) return self:getTalentLevelRaw(t) * 2 end,
+	getLightningDamageIncrease = function(self, t) return self:combatTalentScale(t, 2.5, 10) end,
 	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 60, 20, 50) end,
 	getDaze = function(self, t) return self:getTalentLevel(t) * 9 end,
 	activate = function(self, t)

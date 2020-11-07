@@ -140,10 +140,10 @@ summonTemporalHound = function(self, t)
 	if game.party:hasMember(self) then
 		m.remove_from_party_on_death = true
 		game.party:addMember(m, {
-			control="no",
+			control="order",
 			type="hound",
 			title=_t"temporal-hound",
-			orders = {target=true, leash=true, anchor=true, talents=true},
+			orders = {pet_hound=true},
 		})
 	end
 	

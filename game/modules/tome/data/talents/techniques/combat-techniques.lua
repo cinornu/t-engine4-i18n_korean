@@ -25,6 +25,7 @@ newTalent{
 	type = {"technique/combat-techniques-active", 1},
 	message = _t"@Source@ rushes out!",
 	require = techs_strdex_req1,
+	random_boss_rarity = 50, -- common tree, don't take too often
 	points = 5,
 	random_ego = "attack",
 	stamina = function(self, t) return not self:attr("swap_combat_techniques_hate") and (self:knowTalent(self.T_STEAMROLLER) and 2 or 22) end,
@@ -95,6 +96,7 @@ newTalent{
 	mode = "sustained",
 	points = 5,
 	require = techs_strdex_req2,
+	random_boss_rarity = 33, -- prevent rares from having too much accuracy
 	cooldown = 30,
 	sustain_stamina = function(self, t) return not self:attr("swap_combat_techniques_hate") and 30 end,
 	sustain_hate = function(self, t) return self:attr("swap_combat_techniques_hate") and 9 end,
@@ -133,6 +135,7 @@ newTalent{
 	stamina = function(self, t) return not self:attr("swap_combat_techniques_hate") and 25 end,
 	hate = function(self, t) return self:attr("swap_combat_techniques_hate") and 7 end,
 	require = techs_strdex_req3,
+	random_boss_rarity = 33, -- prevent rares from having too much accuracy
 	no_energy = true,
 	tactical = { BUFF = 2 },
 	getDuration = function(self, t) return math.floor(self:combatTalentLimit(t, 8, 3.5, 6.5)) end, -- Limit < 8
@@ -156,7 +159,7 @@ newTalent{
 	hate = function(self, t) return self:attr("swap_combat_techniques_hate") and 7 end,
 	no_energy = true,
 	require = techs_strdex_req4,
-	random_boss_rarity = 33, -- common tree on classes and global speed is immensely powerful 
+	random_boss_rarity = 25, -- common tree on classes and global speed is immensely powerful 
 	tactical = { BUFF = 2, CLOSEIN = 2, ESCAPE = 2 },
 	on_pre_use_ai = function(self, t) -- don't use out of combat
 		local target = self.ai_target.actor
@@ -221,7 +224,7 @@ newTalent{
 	require = techs_strdex_req3,
 	mode = "passive",
 	points = 5,
-	random_boss_rarity = 50, -- super common tree and this disproportionately targets mages
+	random_boss_rarity = 35, -- super common tree and this disproportionately targets mages
 	getSaves = function(self, t) return math.floor(self:combatTalentScale(t, 12, 48)) end,
 	passives = function(self, t, p)
 		self:talentTemporaryValue(p, "combat_spellresist", t.getSaves(self,t))
@@ -237,6 +240,7 @@ newTalent{
 	require = techs_strdex_req4,
 	mode = "passive",
 	-- called by mod.class.Actor:die
+	no_npc_use = true, --useless for NPCs
 	getStamRecover = function(self, t) return self:combatTalentScale(t, 5, 20, 0.5) end, -- Lower scaling than other recovery talents because it effectively scales with character speed and can trigger more than once a turn
 	getHateRecover = function(self, t) return self:combatTalentScale(t, 1, 4.5, 0.5) end,
 	points = 5,

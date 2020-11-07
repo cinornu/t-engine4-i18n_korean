@@ -81,7 +81,7 @@ newTalent{
 	points = 5,
 	random_ego = "utility",
 	cooldown = 20,
-	radius = function(self, t) return math.floor(self:combatScale(self:getCun(10, true) * self:getTalentLevel(t), 5, 5, 35, 55)) end,
+	radius = function(self, t) return math.floor(self:combatScale(self:getCun(10, true) * self:getTalentLevel(t), 5, 0, 35, 55)) end,
 	getDuration = function(self, t) return math.floor(self:combatTalentScale(t, 4, 8)) end,
 	no_npc_use = true,
 	no_break_stealth = true,

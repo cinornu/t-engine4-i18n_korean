@@ -41,7 +41,7 @@ local stairs = function()
 		__applied_difficulty = true, -- Difficulty already applied to parent zone
 		level_scheme = "player",
 		max_level = 1,
-		actor_adjust_level = function(zone, level, e) return zone.base_level + e:getRankLevelAdjust() + level.level+4 + rng.range(-2,6) end,
+		actor_adjust_level = function(zone, level, e) return zone.base_level + e:getRankLevelAdjust() + level.level+2 + rng.range(-2,4) end,
 		width = 35, height = 60,
 		ambient_music = "Swashing the buck.ogg", -- check for better fit
 		persistent = "zone",
@@ -108,16 +108,16 @@ for name, data in pairs(Birther.birth_descriptor_def.class["Rogue"].descriptor_c
 	if Birther.birth_descriptor_def.subclass[name] and not Birther.birth_descriptor_def.subclass[name].not_on_random_boss then rogues[#rogues+1] = name end
 end
 
-defineTile('g', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=4, random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2}}})
-defineTile('G', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=6, random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2}}})
-defineTile('r', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=4}})
-defineTile('R', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=7}})
-defineTile('l', "FLOOR", nil, {random_filter={add_levels=10, name = "bandit lord"}})
+defineTile('g', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=1, random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2}}})
+defineTile('G', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=1, random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2}}})
+defineTile('r', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=2}})
+defineTile('R', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=4}})
+defineTile('l', "FLOOR", nil, {random_filter={add_levels=4, name = "bandit lord"}})
 defineTile('a', "FLOOR", {random_filter={add_levels=5, tome_mod="vault"}}, nil)
 defineTile('$', "FLOOR", {random_filter={add_levels=25, type="money"}})
 defineTile('t', "FLOOR", nil, nil, {random_filter={add_levels=20}})
 defineTile('j', "FLOOR", {random_filter={add_levels=10, type="jewelry", tome_mod="gvault"}})
-defineTile('<', stairs(), nil, {random_filter={name=(rng.table(thieves)), add_levels=6, random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2,
+defineTile('<', stairs(), nil, {random_filter={name=(rng.table(thieves)), random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2,
 on_die=function(self, who) -- drop lore note on death
 local lore = mod.class.Object.new{
 	type = "lore", subtype="lore",

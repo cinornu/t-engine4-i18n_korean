@@ -1036,6 +1036,7 @@ t("%s targets #Target#.", "%s將#Target#設爲目標。", "logCombat")
 t("Change name of: %s", "改變名字：%s", "tformat")
 t("Name", "名稱", "_t")
 t("%s is dismissed!", "%s 被遣散了!", "log")
+t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#你拍了拍你的獵犬！它開心地將尾巴來回搖擺！", "log")
 t("No, we must hurry!", "不行，我們必須得抓緊時間！", "_t")
 t("Ok, but not for long.", "好吧，但時間不要太長。", "_t")
 t("very close", "很近了", "_t")
@@ -7139,7 +7140,6 @@ t("This is too soon!", "太早了！", "_t")
 t("disrupted monolith", "被幹擾的符文巨石", "_t")
 t("Something the cultists are doing is coming. Beware.", "邪教徒在做的事情將要到來。小心。", "_t")
 t("The cultist's soul seems to be absorbed by the strange stone he was guarding. You feel like something is about to happen...", "邪教徒的靈魂似乎被其守衛的奇異石頭所吸收。你感覺似乎要出大事了……", "_t")
-t("Shasshhiy'Kaish", "莎西·凱希", "_t")
 t("This demon would be very attractive if not for the hovering crown of flames, the three tails and sharp claws. As you watch her you can almost feel pain digging in your flesh. She wants you to suffer.", "不看她那盤旋在頭上的火焰王冠、三條小尾巴以及那鋒利的爪子，這隻惡魔仍然充滿了奇異的魅惑。當你看着她時，你感覺痛苦像利刃一樣，深入骨髓，她是痛苦的使者。", "_t")
 t("and used for her perverted desires", "並被用於她的變態慾望", "_t")
 t("Crown of Burning Pain", "痛苦之焱", "_t")
@@ -20999,7 +20999,7 @@ t([[You chant the glory of the Sun, granting you %d Mental Save and increasing y
 		同時只能激活一種讚歌。
 		效果受法術強度加成。
 		]], "tformat")
-t("Chant of Fortress", "防禦讚歌", "talent name")
+t("Chant of Fortress", "堡壘讚歌", "talent name")
 t([[You chant the glory of the Sun, granting you %d%% physical damage resistance, %d physical save, %d armour and +15%% armour hardiness.
 		You may only have one Chant active at once.
 		The effects will increase with your Spellpower.]], [[頌讚日之榮耀，使你獲得 %d%% 物理抗性， %d 物理豁免， %d 護甲與 15%% 護甲強度。
@@ -21044,7 +21044,7 @@ t([[Your skill at Chanting now extends the cloak of light, increasing your light
 		Chant of Resistance cures magical effects.]], [[詠唱讚歌的嫺熟技藝讓光明得以擴散，增加 %d 光照半徑。
 		每次你詠唱新的讚歌時，你將解除自身的越層效果（失去平衡、法術衝擊和思維封鎖），並額外解除 %d 項相應類型的負面狀態。
 		堅韌讚歌：解除精神負面狀態 
-		堡壘讚歌：解除物理負面狀態 
+		堡壘讚歌：解除物理負面狀態
 		元素讚歌：解除魔法負面狀態 ]], "tformat")
 t("Chant Radiant", "輝耀綻放", "talent name")
 t([[Your passion for singing the praises of the Sun reaches its zenith.
@@ -21519,7 +21519,7 @@ t([[The light of your Radiance allows you to see that which would normally be un
 		In addition, your light damage is increased by %d%% and your strikes ignore %d%% of the light resistance of your targets.
 		The invisibility, stealth power, and defense reductions increase with your Spellpower.]], [[光輝可以讓你看到平時無法見到的敵人，並攻擊被保護的敵人。
 		在光輝光環的影響下的敵人，其隱形和潛行強度降低 %d 。所有被光照的目標，閃避值降低 %d ，且不受不可見帶來的閃避加成影響。
-		此外，你的光系傷害降低 %d%% ，你的攻擊無視敵人 %d%% 的光系傷害抗性。
+		此外，你的光系傷害增加 %d%% ，你的攻擊無視敵人 %d%% 的光系傷害抗性。
 		隱形、潛行強度和閃避值降低效果受法術強度加成。]], "tformat")
 
 
@@ -23895,8 +23895,10 @@ t([[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0
 傷害受精神強度加成。]], "tformat")
 t("Shadow's Path", "陰影之路", "talent name")
 t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
+		Each successive shadow deal 40%% less damage.
 		For the purpose of this talent, you force your shadows through any walls in their way.
 		Damage increases with your Mindpower.]], [[命令所有視野內陰影傳送至目標處，對所有經過的敵人造成 %0.1f 物理傷害。
+每個傳送的陰影會使後續陰影造成的傷害減少40%%。
 陰影能穿過牆壁來到達目的地。
 傷害受精神強度加成。]], "tformat")
 t("Cursed Bolt", "詛咒之球", "talent name")
@@ -25885,7 +25887,7 @@ t([[Exhale a mist of lingering acid, dealing %0.2f acid damage that can critical
 		The damage and duration will increase with your Mindpower, and the radius will increase with talent level.
 		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[吐出一股濃厚的酸霧，每回合造成 %0.2f 酸性傷害，範圍爲 %d 碼半徑，持續 %d 回合。 
 		在這團酸霧裏的敵人會被腐蝕，持續 %d 回合，降低他們 %d 點命中、護甲和閃避。 
-		傷害和持續時間有額外加成；受技能等級影響，範圍受精神強度加成 
+		傷害和持續時間受精神強度加成；範圍受技能等級加成 。
 		每一點毒龍系技能同時也能增加你的酸性抵抗 1%% 。]], "tformat")
 t("Dissolve", "腐蝕連擊", "talent name")
 t([[You strike the enemy with a rain of fast, acidic blows. You strike four times for pure acid damage. Every blow does %d%% damage.
@@ -28542,7 +28544,7 @@ t([[Press your advantage when your foes are starting to crumble.
 		And so on...
 		Damage increases with your Spellpower.
 		]], [[利用敵人的痛楚打擊敵人。
-		目標每具有一個負面效果，造成 %0.2f 霜暮傷害（有收益衰減），並降低其整體速度 25%% （最大降低 %d ）。
+		目標每具有一個負面效果，造成 %0.2f 霜暮傷害（有收益衰減），並降低其整體速度 25%% 1回合（最大 %d 回合）。
 		傷害加成的收益衰減如下面所示：
 		- 2 個效果： %0.2f 傷害
 		- 5 個效果： %0.2f 傷害
@@ -28748,7 +28750,7 @@ t([[Slam your shield on the ground creating a shockwave.
 		At level 5 your Block cooldown is reset.]], [[用盾牌猛擊地面，製造衝擊波。
 		對半徑 %d 內的生物造成 %d%% 奧術武器傷害。
 		所有被擊中的目標將會進入可以反擊的狀態 3 回合，就像你格擋了它們的攻擊那樣。
-		在等級 5 時，你的格擋技能冷卻也會被重置。]], "tformat")
+		在等級 5 時，你的格擋技能冷卻也會被重置。]], "tformat", {2,1})
 
 
 ------------------------------------------------
@@ -28945,7 +28947,7 @@ t([[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire d
 t("Flameshock", "火焰衝擊", "talent name")
 t([[Conjures up a cone of flame with radius %d. Any targets caught in the area will suffer Burning Shock, stunning them and dealing %0.2f fire damage over %d turns.
 		The damage will increase with your Spellpower.]], [[在你前方製造一片 %d 碼半徑錐形範圍的火焰。 
-		任何在此範圍的目標會被燃燒的火焰衝擊，共受到 %0.2f 點火焰傷害，持續 %d 回合。
+		任何在此範圍的目標會被燃燒的火焰衝擊震懾，共受到 %0.2f 點火焰傷害，持續 %d 回合。
 		傷害受法術強度加成。]], "tformat")
 t("Fireflash", "爆裂火球", "talent name")
 t([[Conjures up a bolt of fire that moves toward the target and explodes into a flash of fire, doing %0.2f fire damage in a radius of %d.
@@ -29157,7 +29159,7 @@ t([[Conjures up a bolt of cold that moves toward the target and explodes into a 
 t("Corpselight", "陰燃鬼火", "talent name")
 t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
 		Every turn all foes inside take %0.2f cold damage.
-		Anytime you cast a spell inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
+		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
 		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
 		If cast while under 1 life it spawns with 3 stacks.
 		The damage will increase with your Spellpower.]], [[你召喚一個半徑爲 %d 的鬼火，散發出刺骨的屍寒，持續 7 回合。
@@ -29237,12 +29239,14 @@ t([[Sends out a surge of undeath energies into your aura.
 		All non-ghoul minions are healed by %d%%.
 		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
 		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
-		All non-undead foes caught inside are dazed for %d turns.]], [[在你的光環中放出一股不死能量。
+		All non-undead foes caught inside are dazed for %d turns.
+		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], [[在你的光環中放出一股不死能量。
 		所有隨從獲得 25%% 速度，持續 %d 回合。
 		所有非食屍鬼的隨從被治療 %d%% 。
 		如果你掌握陵墓召喚技能，到下一個免費食屍鬼的時間降低 %d 。
 		如果你掌握奪命屍爆或腐爛液化技能，這些效果的持續時間延長 %d 。
-		所有非不死生物的敵人都會被眩暈 %d 回合。]], "tformat")
+		所有非不死生物的敵人都會被眩暈 %d 回合。
+		此外，你的所有隨從（在學會該法術後製造的）獲得額外被動生命回覆]], "tformat")
 t("Recall Minions", "召回隨從", "talent name")
 t([[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
 		Up to %d minions are affected.
@@ -29252,7 +29256,7 @@ t([[Tighten the ethereal leash to some of your minions currently within your aur
 t("Suffer For Me", "替死鬼", "talent name")
 t("#GREY#(%d to minion: %s)#LAST#", "#GREY#(%d 到不死隨從: %s)#LAST#", "tformat")
 t([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
-		Anytime you take damage %d%% of it is instead redirected to a random minion without your aura of undeath.
+		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
 		The minion takes 300%% damage from that effect.
 		The damage redirected percent depends on your Spellpower.]], [[你與你的不死大軍之間建立奧術連接，將你所收到的任何傷害轉移到他們的身上。
 		每當你受到傷害的時候， %d%% 的傷害轉移到到隨機一個不死光環內的隨從身上。
@@ -29282,7 +29286,7 @@ t("#GREY#%s shatters!", "#GREY#%s 粉碎了！", "logSeen")
 t([[Any time one of your skeleton or bone giant dies, it shatters in radius %d, making any foe bleed for %0.2f physical damage over 5 turns.
 		If any other skeleton or bone giant minion is in the radius it will pickup some of the bones to enhance itself, increasing maximum and current life by %d, armour by %d and gain %0.2f physical melee retaliation for 20 turns.
 		This talent never works when you kill your own minions.
-		]], [[每當你的骷髏或骨巨人死去時，它會在半徑 %d 碼範圍內粉碎，使敵人受到 %0.2f 物理流血傷害，持續 5 回合。
+		]], [[每當你的骷髏或骨巨人死去時，它會在半徑 %d 碼範圍內粉碎，使敵人在5回合內受到 %0.2f 物理流血傷害。
 		如果範圍內有其他骷髏或骨巨人，它們會使用這些骸骨強化自己，增加最大和當前生命值 %d ，護甲值 %d ，並獲得 %0.2f 物理近戰報復效果，持續 20 回合。
 		如果你殺死自己的隨從，這一效果不會觸發。
 		]], "tformat")
@@ -29352,7 +29356,7 @@ t([[Ghouls are nothing but mere tools to you, for %d turns you render them bloat
 		The damage and disease power is increased by your Spellpower.
 		]], [[對你來說，食屍鬼只是可以隨地丟棄的工具。在 %d 回合內，你讓它們的體內充滿黑暗的能量。
 		在此期間，每當一個食屍鬼或妖鬼被擊中，它會爆炸成爲一團碎肉，對 %d 碼範圍的所有敵人造成 %0.2f 霜暮傷害。
-		所有被爆炸擊中的敵人也會感染持續 6 回合的隨機疾病，某一項屬性值降低 %d 點，並且每回合受到 %0.2f 枯萎傷害。
+		所有被爆炸擊中的敵人也會感染持續 6 回合的隨機疾病，某一項屬性值降低 %d 點，並且累計受到 %0.2f 枯萎傷害。
 		每回合內最多隻能有一個食屍鬼爆炸。你會優先讓剩餘時間最短的食屍鬼爆炸。
 		傷害和疾病強度受法術強度加成。
 		]], "tformat", {1,3,2,5,4})
@@ -31186,7 +31190,7 @@ t([[You go all out, trying to burn down your foes as fast as possible.
 section "game/modules/tome/data/talents/techniques/tireless-combatant.lua"
 
 t("Breathing Room", "喘息間隙", "talent name")
-t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. With the third talent point, you also gain an equal amount of life regen when Breathing Room is active.", "當沒有敵人與你相鄰的時候，你獲得 %0.1f 體力回覆。在第 3 級時，這個技能帶給你等量的生命回覆.", "tformat")
+t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "當沒有敵人與你相鄰的時候，你獲得 %0.1f 體力回覆。技能等級 3 及以後，這個技能帶給你等量的生命回覆.", "tformat")
 t("Pace Yourself", "調整步伐", "talent name")
 t([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
 		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
@@ -31197,11 +31201,11 @@ t([[Control your movements to increase your defenses. This allows you to shrug o
 		固定傷害減免受閃避值加成。		
 		]], "tformat")
 t("Dauntless Challenger", "不屈底力", "talent name")
-t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning with the third talent point, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "當戰鬥變得艱難時，你變得更加頑強。視野內每有一名敵人存在，你就獲得 %0.1f 體力回覆。從第三級起，每名敵人同時能增加 %0.1f 生命回覆。加成上限爲 4 名敵人。", "tformat")
+t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "當戰鬥變得艱難時，你變得更加頑強。視野內每有一名敵人存在，你就獲得 %0.1f 體力回覆。技能等級 3 及以後，每名敵人同時能增加 %0.1f 生命回覆。加成上限爲 4 名敵人。", "tformat")
 t("The Eternal Warrior", "不滅戰士", "talent name")
 t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at the fifth talent point, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[每回合使用體力後，你獲得 %0.1f%% 全體抗性性加成和 %0.1f%% 全體抗性性上限，持續 %d 回合。加成效果最多疊加 %d 次，每次疊加都會刷新效果持續時間。
-		在第 5 級時，  喘息間隙和不屈底力效果提升 %d%%]], "tformat")
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[每回合使用體力後，你獲得 %0.1f%% 全體抗性性加成和 %0.1f%% 全體抗性性上限，持續 %d 回合。加成效果最多疊加 %d 次，每次疊加都會刷新效果持續時間。
+		技能等級 5 及以後，喘息間隙和不屈底力效果提升 %d%%]], "tformat")
 
 
 ------------------------------------------------
@@ -31780,7 +31784,7 @@ t([[You accurately jump to the target and deal 200%% weapon damage to all foes w
 		When you jump you free yourself from any stun, daze and pinning effects.]], [[你躍向目標地點，對 1 碼半徑範圍內的所有敵人造成 200%% 的武器傷害，並眩暈目標 3 回合。 
 		落地後，你解除自身眩暈、定身和震懾效果。]], "tformat")
 t("You Shall Be My Weapon!", "化作星星吧！！", "talent name")
-t("Be of size category 'big' or larger. This is also required to use it.", "體型至少爲巨大（使用也要滿足此條件）", "_t")
+t("Be of size category 'big' or larger. This is also required to use it.", "體型至少爲較大（使用也要滿足此條件）", "_t")
 t([[You deal a massive blow to your foe, smashing it for 350%% weapon damage, knocking it back 5 tiles, and knocking aside all foes in its path.
 		All targets affected are stunned for 3 turns.
 		For each size category over 'big' you gain an additional +80%% weapon damage.]], [[對敵人進行一次猛擊，造成 350%% 的武器傷害並擊退目標 5 碼，路徑上的敵人都會被擊中。
@@ -31996,7 +32000,7 @@ t([[A Lich's body is extremely hard to fully destroy. You only die with your lif
 		If this happens this power can never re-activate, even if you managed to resurrect by other means.]], [[巫妖的身體很難被完全摧毀。只有當你的生命值達到-%d時，你纔會死去。
 		此外，即使你的身體被摧毀，你也會立刻復活。
 		第一次發生這種情況時，你轉化成巫妖的過程就完成了，這將給予你巫妖的所有力量。
-		之後你死亡的時候，你仍然可以重生，但是你需要在%d回合吞噬一個內擁有史詩/Boss/精英Boss或更高等級的生物的精華來維持你自己。
+		之後你死亡的時候，你仍然可以重生，但是你需要在 %d 回合吞噬一個內擁有史詩/Boss/精英Boss或更高等級的生物的精華來維持你自己。
 		如果你在持續時間時沒能殺死一個這樣的Boss，或者在這段時間內再次被殺死，你將永遠死去。
 		如果發生這種情況，即使你設法通過其他方式復活，這種復活能力也永遠無法重新激活了。]], "tformat")
 t("Frightening Presence", "恐怖存在", "talent name")
@@ -42511,6 +42515,7 @@ t("Set the leash distance [current: %d]", "設置跟隨距離 [當前：%d]", "t
 t("Define tactical talents usage", "設定技能使用策略", "_t")
 t("Rename", "重命名", "_t")
 t("Dismiss", "放棄", "_t")
+t("Pet the hound", "摸摸狗狗", "_t")
 t("Order: %s", "命令：%s", "tformat")
 
 

@@ -720,15 +720,15 @@ function _M:selectFunFact(ffdata)
 	print("Computing fun facts")
 	print(pcall(function()
 
-		if ffdata.total_time then l[#l+1] = "Total playtime of all registered players:\n"..ffdata.total_time end
-		if ffdata.top_five_races then l[#l+1] = ("#LIGHT_BLUE#%s#WHITE# is one of the top five played races"):format(rng.table(ffdata.top_five_races).name) end
-		if ffdata.top_five_classes then l[#l+1] = ("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes"):format(rng.table(ffdata.top_five_classes).name) end
-		if ffdata.top_ten_killer then l[#l+1] = ("#CRIMSON#%s#WHITE# is one of the top ten killers"):format(rng.table(ffdata.top_ten_killer).name:capitalize()) end
-		if ffdata.top_ten_raceclass then l[#l+1] = ("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo"):format(rng.table(ffdata.top_ten_raceclass).name:capitalize()) end
-		if ffdata.nb_players then l[#l+1] = ("There are currently %d people playing online"):format(ffdata.nb_players) end
-		if ffdata.total_deaths then l[#l+1] = ("The character's vault has registered a total of #RED#%d#WHITE# character's deaths"):format(ffdata.total_deaths) end
-		if ffdata.wins_this_version then l[#l+1] = ("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version"):format(ffdata.wins_this_version) end
-		if ffdata.latest_donator then l[#l+1] = ("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!"):format(ffdata.latest_donator) end
+		if ffdata.total_time then l[#l+1] = ("Total playtime of all registered players:%s\n"):tformat(ffdata.total_time) end
+		if ffdata.top_five_races then l[#l+1] = ("#LIGHT_BLUE#%s#WHITE# is one of the top five played races"):tformat(_t(rng.table(ffdata.top_five_races).name)) end
+		if ffdata.top_five_classes then l[#l+1] = ("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes"):tformat(_t(rng.table(ffdata.top_five_classes).name)) end
+		if ffdata.top_ten_killer then l[#l+1] = ("#CRIMSON#%s#WHITE# is one of the top ten killers"):tformat(_t(rng.table(ffdata.top_ten_killer).name):capitalize()) end
+		if ffdata.top_ten_raceclass then l[#l+1] = ("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo"):tformat(_t(rng.table(ffdata.top_ten_raceclass).name):capitalize()) end
+		if ffdata.nb_players then l[#l+1] = ("There are currently %d people playing online"):tformat(ffdata.nb_players) end
+		if ffdata.total_deaths then l[#l+1] = ("The character's vault has registered a total of #RED#%d#WHITE# character's deaths"):tformat(ffdata.total_deaths) end
+		if ffdata.wins_this_version then l[#l+1] = ("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version"):tformat(ffdata.wins_this_version) end
+		if ffdata.latest_donator then l[#l+1] = ("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!"):tformat(ffdata.latest_donator) end
 		ok = true
 	end))
 	if not ok then return false end

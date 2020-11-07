@@ -1577,6 +1577,9 @@ int main(int argc, char *argv[])
 
 	pass_command_args(argc, argv);
 
+	// yes its duplicated I know
+	init_blank_surface();
+
 	SDL_Event event;
 	while (!exit_engine)
 	{

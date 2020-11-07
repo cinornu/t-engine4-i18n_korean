@@ -474,7 +474,15 @@ function _M:loadReal(load)
 		lines[#lines+1] = l
 	end
 	f:close()
-	local o = class.load(table.concat(lines), load)
+	local ok, o = xpcall(function() return class.load(table.concat(lines), load) end, debug.traceback)
+	if not ok then
+		print("[SAVEFILE ERROR] loading object", load, "resulting in: ", o)
+		self:addDelayLoad{loaded = function() game:onTickEnd(function()
+			util.send_error_backtrace("Error loading savefile object "..tostring(load).." with error "..tostring(o))
+			require("engine.ui.Dialog"):simplePopup("Savefile loading WARNING", "The game has detected a problem in the savefile and attempted to fix it.\nIt is likely to work without any adverse effects but should a problem arise, please mention this event in the bug report.")
+		end) end}
+		return nil
+	end
 
 	-- Resolve self referencing tables now
 	resolveSelf(o, o, true)

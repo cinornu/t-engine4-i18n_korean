@@ -316,20 +316,28 @@ function _M:installShimmer(item)
 			local hooks_list = {}
 			Module:loadAddon(game.__mod_info, add, {}, hooks_list)
 
-			dofile("/data/gfx/mtx-shimmers/"..item.effect..".lua")
+			local f, err = loadfile("/data/gfx/mtx-shimmers/"..item.effect..".lua")
+			if f then f("install") else print(err) end
 
-			Dialog:simplePopup(item.name, _t[[Shimmer pack installed!]])
+			if item.is_shimmer then
+				Dialog:simplePopup(item.name, _t[[Shimmer pack installed!]])
+			end
 			break
 		end end
 
 		if not found then
 			Dialog:simpleLongPopup(item.name, _t[[Could not dynamically link addon to current character, maybe the installation weng wrong.
-You can fix that by manually downloading the shimmer addon from https://te4.org/ and placing it in game/addons/ folder.]], 600)
+You can fix that by manually downloading the addon from https://te4.org/ and placing it in game/addons/ folder.]], 600)
 		end
 	end
 
 	local co co = coroutine.create(function()
-		local filename = ("/addons/%s-cosmetic-%s.teaa"):format(game.__mod_info.short_name, item.effect)
+		local filename
+		if item.is_teaac then
+			filename = ("/addons/cosmetic-%s.teaac"):format(item.effect)
+		else
+			filename = ("/addons/%s-cosmetic-%s.teaa"):format(game.__mod_info.short_name, item.effect)
+		end
 		print("==> downloading", "https://te4.org/download-mtx/"..item.id_purchasable, filename)
 		local d = Downloader.new{title=("Downloading cosmetic pack: #LIGHT_GREEN#%s"):tformat(item.name), co=co, dest=filename..".tmp", url="https://te4.org/download-mtx/"..item.id_purchasable, allow_downloads={addons=true}}
 		local ok = d:start()
@@ -355,7 +363,7 @@ function _M:paymentSuccess()
 	local list = {}
 	for id, ok in pairs(self.cart) do if ok then
 		local item = self.purchasables[id]
-		if item.is_shimmer then
+		if item.is_shimmer or item.is_uipack then
 			self:installShimmer(item)
 			list[#list+1] = ("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: The pack should be downloading or even finished by now."):tformat(item.name, item.nb_purchase)
 		elseif item.self_event or item.community_event then
@@ -486,6 +494,9 @@ To activate it you will need to have your online events option set to "all" (whi
 	if item.is_shimmer then
 		text[#text+1] = _t[[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will automatically install the shimmer pack to your game and enable it for your current character too (you will still need to use the Mirror of Reflection to switch them on).
 #LIGHT_GREEN#Bonus perk:#LAST# purchasing any shimmer pack will also give your characters a portable Mirror of Reflection to be able to change your appearance anywhere, anytime!]]
+	end
+	if item.is_uipack then
+		text[#text+1] = _t[[#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.]]
 	end
 	if item.effect == "vaultspace" then
 		text[#text+1] = _t[[#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.]]

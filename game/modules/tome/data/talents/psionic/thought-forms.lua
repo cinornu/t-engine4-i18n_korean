@@ -216,6 +216,7 @@ newTalent{
 			resolvers.talents{ 
 				[Talents.T_WEAPON_COMBAT]= math.ceil(self.level/10),
 				[Talents.T_BOW_MASTERY]= math.ceil(self.level/10),
+				[Talents.T_ARMOUR_TRAINING]= 1,
 				
 				[Talents.T_CRIPPLING_SHOT]= math.ceil(self.level/10),
 				[Talents.T_STEADY_SHOT]= math.ceil(self.level/10),

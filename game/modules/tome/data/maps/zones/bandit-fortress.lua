@@ -71,16 +71,16 @@ defineTile('!', "DOOR_VAULT")
 defineTile('>', "DYNAMIC_ZONE_EXIT")
 defineTile('*', "FLOOR", nil, nil, {random_filter={add_levels=20}})
 
-defineTile('g', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=3, random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2}}})
-defineTile('G', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=5, random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2}}})
-defineTile('t', "FLOOR", nil, {random_filter={name=(rng.table(thugs)), add_levels=4, random_boss={name_scheme=_t"#rng# the Thug", nb_classes=0, force_classes={(rng.table(thuggeries))}, loot_quality="store", loot_quantity=1, ai_move="move_complex", rank=3.5}}})
-defineTile('T', "FLOOR", nil, {random_filter={name=(rng.table(thugs)), add_levels=6, random_boss={name_scheme=_t"#rng# the Thug", nb_classes=0, force_classes={(rng.table(thuggeries))}, loot_quality="store", loot_quantity=1, ai_move="move_complex", rank=3.5}}})
-defineTile('r', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=2}})
-defineTile('R', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), add_levels=3}})
-defineTile('l', "FLOOR", nil, {random_filter={add_levels=10, name = "bandit lord"}})
-defineTile('i', "FLOOR", nil, {random_filter={name=(rng.table(thugs)), add_levels=3}})
-defineTile('I', "FLOOR", nil, {random_filter={name=(rng.table(thugs)), add_levels=6}})
-defineTile('B', "FLOOR", nil, {random_filter={name=(rng.table(bosses)), add_levels=8, random_boss={name_scheme=_t"Bandit Leader #rng#", nb_classes=0, force_classes={(rng.table(rogues)), (rng.table(thuggeries))}, loot_quality="store", loot_quantity=1, loot_unique=true, ai_move="move_complex", rank=4, 
+defineTile('g', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2}}})
+defineTile('G', "FLOOR", nil, {random_filter={name=(rng.table(thieves)), random_boss={name_scheme=_t"#rng# the Guard", nb_classes=0, force_classes={(rng.table(rogues))}, loot_quality="store", loot_quantity=1, no_loot_randart=true, loot_unique=true, ai_move="move_complex", rank=3.2}}})
+defineTile('t', "FLOOR", nil, {random_filter={name=(rng.table(thugs)), random_boss={name_scheme=_t"#rng# the Thug", nb_classes=0, force_classes={(rng.table(thuggeries))}, loot_quality="store", loot_quantity=1, ai_move="move_complex", rank=3.5}}})
+defineTile('T', "FLOOR", nil, {random_filter={name=(rng.table(thugs)), random_boss={name_scheme=_t"#rng# the Thug", nb_classes=0, force_classes={(rng.table(thuggeries))}, loot_quality="store", loot_quantity=1, ai_move="move_complex", rank=3.5}}})
+defineTile('r', "FLOOR", nil, {random_filter={name=(rng.table(thieves))}})
+defineTile('R', "FLOOR", nil, {random_filter={name=(rng.table(thieves))}})
+defineTile('l', "FLOOR", nil, {random_filter={name = "bandit lord"}})
+defineTile('i', "FLOOR", nil, {random_filter={name=(rng.table(thugs)), add_levels=1}})
+defineTile('I', "FLOOR", nil, {random_filter={name=(rng.table(thugs)), add_levels=1}})
+defineTile('B', "FLOOR", nil, {random_filter={name=(rng.table(bosses)), add_levels=2, random_boss={name_scheme=_t"Bandit Leader #rng#", nb_classes=0, force_classes={(rng.table(rogues)), (rng.table(thuggeries))}, loot_quality="store", loot_quantity=1, loot_unique=true, ai_move="move_complex", rank=4, 
 on_die=function(self, who) -- drop lore note on death
 	local lore = mod.class.Object.new{
 		type = "lore", subtype="lore",

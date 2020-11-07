@@ -88,6 +88,7 @@ function _M:select(item)
 end
 
 function _M:use(item, a)
+	if item.answer == -1 then game:unregisterDialog(self) return end
 	a = a or self.chat:get(self.cur_id).answers[item.answer]
 	if not a then return end
 
@@ -142,7 +143,7 @@ function _M:generateList()
 	-- Makes up the list
 	local list = { chars={} }
 	local nb = 1
-	for i, a in ipairs(self.chat:get(self.cur_id).answers) do
+	for i, a in ipairs(self.chat:get(self.cur_id).answers or {}) do
 		if not a.fallback and (not a.cond or a.cond(self.npc, self.player)) then
 			list[#list+1] = { name=string.char(string.byte('a')+nb-1)..") "..self.chat:replace(a[1]), answer=i, color=a.color}
 			list.chars[string.char(string.byte('a')+nb-1)] = #list
@@ -150,7 +151,7 @@ function _M:generateList()
 		end
 	end
 	if #list == 0 then
-		for i, a in ipairs(self.chat:get(self.cur_id).answers) do
+		for i, a in ipairs(self.chat:get(self.cur_id).answers or {}) do
 			if a.fallback and (not a.cond or a.cond(self.npc, self.player)) then
 				list[#list+1] = { name=string.char(string.byte('a')+nb-1)..") "..self.chat:replace(a[1]), answer=i, color=a.color}
 				list.chars[string.char(string.byte('a')+nb-1)] = #list
@@ -158,6 +159,14 @@ function _M:generateList()
 			end
 		end
 	end
+
+	-- Anti bug
+	if #list == 0 then
+		list[#list+1] = { name=string.char(string.byte('a')+nb-1)..") [error - exit - please report the bug]", answer=-1}
+		list.chars[string.char(string.byte('a')+nb-1)] = #list
+		nb = nb + 1
+	end
+
 	self.list = list
 
 	self.text = self.chat:replace(self.chat:get(self.cur_id).text)

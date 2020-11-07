@@ -131,7 +131,7 @@ function _M:display(dispx, dispy, prevfbo, rotate_keyframes)
 			self.fbo_shader.shad:use(false)
 		end
 
-		if not self.target_type.immediate_keys or firstx then
+		if (not self.target_type.immediate_keys or firstx) and self.target and self.target.x then
 			core.display.glMatrix(true)
 			core.display.glTranslate(self.display_x + (self.target.x - game.level.map.mx) * self.tile_w * Map.zoom + self.tile_w * Map.zoom / 2, self.display_y + (self.target.y - game.level.map.my + util.hexOffset(self.target.x)) * self.tile_h * Map.zoom + self.tile_h * Map.zoom / 2, 0)
 			if rotate_keyframes then

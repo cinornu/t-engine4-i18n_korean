@@ -407,6 +407,8 @@ function _M:giveOrder(actor, order)
 	elseif order == "dismiss" then
 		game.log("%s is dismissed!", actor:getName():capitalize())
 		actor:die(actor)
+	elseif order == "pet_hound" then
+		game.log("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!")
 
 	-------------------------------------------
 	-- Escort specifics

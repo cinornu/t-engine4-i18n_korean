@@ -59,7 +59,7 @@ newTalent {
 		-- Add new regens if needed
 		if nb_foes == 0 then
 			self.temp_skirmisherBreathingStamina = self:addTemporaryValue("stamina_regen", t.getRestoreRate(self, t))
-			if self:getTalentLevelRaw(t) >= 3 then
+			if self:getTalentLevel(t) >= 3 then
 				self.temp_skirmisherBreathingLife = self:addTemporaryValue("life_regen", t.getRestoreRate(self, t))
 			end
 		end
@@ -67,7 +67,7 @@ newTalent {
 	end,
 	info = function(self, t)
 		local stamina = t.getRestoreRate(self, t)
-		return ([[Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. With the third talent point, you also gain an equal amount of life regen when Breathing Room is active.]])
+		return ([[Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.]])
 			:tformat(stamina)
 	end,
 }
@@ -174,7 +174,7 @@ newTalent {
 		if nb_foes >= 1 then
 			if nb_foes > 4 then nb_foes = 4 end
 			self.temp_skirmisherDauntlessStamina = self:addTemporaryValue("stamina_regen", t.getStaminaRate(self, t) * nb_foes)
-			if self:getTalentLevelRaw(t) >= 3 then
+			if self:getTalentLevel(t) >= 3 then
 				self.temp_skirmisherDauntlessLife = self:addTemporaryValue("life_regen", t.getLifeRate(self, t) * nb_foes)
 			end
 		end
@@ -183,7 +183,7 @@ newTalent {
 	info = function(self, t)
 		local stamina = t.getStaminaRate(self, t)
 		local health = t.getLifeRate(self, t)
-		return ([[When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning with the third talent point, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.]])
+		return ([[When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.]])
 			:tformat(stamina, health)
 	end,
 }
@@ -208,7 +208,7 @@ newTalent {
 		return 5
 	end,
 	getMult = function(self, t, fake)
-		if self:getTalentLevelRaw(t) >= 5 or fake then
+		if self:getTalentLevel(t) >= 5 or fake then
 			return 1.2
 		else
 			return 1
@@ -235,7 +235,7 @@ newTalent {
 		local cap = t.getResistCap(self, t)
 		local mult = (t.getMult(self, t, true) - 1) * 100
 		return ([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at the fifth talent point, Breathing Room and Dauntless Challenger are %d%% more effective.]])
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]])
 			:tformat(resist, cap, duration, max, mult)
 	end,
 }

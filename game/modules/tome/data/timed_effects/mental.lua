@@ -733,7 +733,7 @@ newEffect{
 		end
 
 		if self.dead then
-			if eff.particle then self:removeParticles(eff.particle) end
+			if eff.particle then self:removeParticles(eff.particle) eff.particle = nil end
 			return
 		end
 

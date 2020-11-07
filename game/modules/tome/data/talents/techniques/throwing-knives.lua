@@ -179,7 +179,7 @@ newTalent{
 		
 		local stat_desc = {}
 		-- I18N Stats using display_short_name
-		local dammod = self:getDammod(combat.dammod or {})
+		local dammod = self:getDammod(combat)
 		for stat, i in pairs(dammod) do
 			local name = engine.interface.ActorStats.stats_def[stat].display_short_name:capitalize()
 			stat_desc[#stat_desc+1] = ("%d%% %s"):tformat(i * 100, name)

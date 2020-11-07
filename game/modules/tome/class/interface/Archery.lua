@@ -95,44 +95,49 @@ function _M:archeryAcquireTargets(tg, params, force)
 
 	local weaponC, offweaponC, pf_weaponC
 	local use_resources
-	if weapon and not params.ignore_ressources then
+	if weapon then
 		weaponC = weapon.combat
 		max_range =  math.max(max_range, weaponC.range or 6)
 		warn_range = math.min(warn_range, weaponC.range or 6)
-		-- check resources
-		use_resources = (weaponC.use_resources or ammo.combat.use_resources) and table.mergeAdd(table.clone(weaponC.use_resources) or {}, ammo.combat.use_resources or {}) or nil
-		if use_resources then
-			local ok, kind = self:useResources(use_resources, true)
-			if not ok then
-				print("== no ressource", kind)
-				game.logPlayer(self, "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", weapon:getName({do_color=true, no_add_name=true}), table.get(self.resources_def[kind], "color") or "#SALMON#", table.get(self.resources_def[kind], "name") or kind:capitalize())
-				weaponC = nil
+		if not params.ignore_ressources then
+			-- check resources
+			use_resources = (weaponC.use_resources or ammo.combat.use_resources) and table.mergeAdd(table.clone(weaponC.use_resources) or {}, ammo.combat.use_resources or {}) or nil
+			if use_resources then
+				local ok, kind = self:useResources(use_resources, true)
+				if not ok then
+					game.logPlayer(self, "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", weapon:getName({do_color=true, no_add_name=true}), table.get(self.resources_def[kind], "color") or "#SALMON#", table.get(self.resources_def[kind], "name") or kind:capitalize())
+					weaponC = nil
+				end
 			end
 		end
 	end
-	if offweapon and not params.ignore_ressources then
+	if offweapon then
 		offweaponC = offweapon.combat
 		max_range =  math.max(max_range, offweaponC.range or 6)
 		warn_range = math.min(warn_range, offweaponC.range or 6)
-		use_resources = (offweaponC.use_resources or ammo.combat.use_resources) and table.mergeAdd(table.clone(offweaponC.use_resources) or {}, ammo.combat.use_resources or {}) or nil
-		if use_resources then
-			local ok, kind = self:useResources(use_resources, true)
-			if not ok then
-				game.logPlayer(self, "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", offweapon:getName({do_color=true, no_add_name=true}), table.get(self.resources_def[kind], "color") or "#SALMON#", table.get(self.resources_def[kind], "name") or kind:capitalize())
-				offweaponC = nil
+		if not params.ignore_ressources then
+			use_resources = (offweaponC.use_resources or ammo.combat.use_resources) and table.mergeAdd(table.clone(offweaponC.use_resources) or {}, ammo.combat.use_resources or {}) or nil
+			if use_resources then
+				local ok, kind = self:useResources(use_resources, true)
+				if not ok then
+					game.logPlayer(self, "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", offweapon:getName({do_color=true, no_add_name=true}), table.get(self.resources_def[kind], "color") or "#SALMON#", table.get(self.resources_def[kind], "name") or kind:capitalize())
+					offweaponC = nil
+				end
 			end
 		end
 	end
-	if pf_weapon and not params.ignore_ressources then
+	if pf_weapon then
 		pf_weaponC = pf_weapon.combat
 		max_range =  math.max(max_range, pf_weaponC.range or 6)
 		warn_range = math.min(warn_range, pf_weaponC.range or 6)
-		use_resources = (pf_weaponC.use_resources or ammo.combat.use_resources) and table.mergeAdd(table.clone(pf_weaponC.use_resources) or {}, ammo.combat.use_resources or {}) or nil
-		if use_resources then
-			local ok, kind = self:useResources(use_resources, true)
-			if not ok then
-				game.logPlayer(self, "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", pf_weapon:getName({do_color=true, no_add_name=true}), table.get(self.resources_def[kind], "color") or "#SALMON#", table.get(self.resources_def[kind], "name") or kind:capitalize())
-				pf_weaponC = nil
+		if not params.ignore_ressources then
+			use_resources = (pf_weaponC.use_resources or ammo.combat.use_resources) and table.mergeAdd(table.clone(pf_weaponC.use_resources) or {}, ammo.combat.use_resources or {}) or nil
+			if use_resources then
+				local ok, kind = self:useResources(use_resources, true)
+				if not ok then
+					game.logPlayer(self, "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", pf_weapon:getName({do_color=true, no_add_name=true}), table.get(self.resources_def[kind], "color") or "#SALMON#", table.get(self.resources_def[kind], "name") or kind:capitalize())
+					pf_weaponC = nil
+				end
 			end
 		end
 	end

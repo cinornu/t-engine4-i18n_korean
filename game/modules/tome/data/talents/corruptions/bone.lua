@@ -118,7 +118,7 @@ newTalent{
 				return true
 			end
 			
-			if #grids <= 0 then return end
+			if #grids <= 0 then return true end
 			target:teleportRandom(grids[1][1], grids[1][2], 0)
 		end
 		game:playSoundNear(self, "talents/arcane")

@@ -167,7 +167,7 @@ function _M:useTalent(id, who, force_level, ignore_cd, force_target, silent, no_
 
 	if ab.mode == "activated" and ab.action then
 		if self:isTalentCoolingDown(ab) and not ignore_cd then
-			game.logPlayer(who, "%s is still on cooldown for %d turns.", ab.name:capitalize(), self.talents_cd[ab.id])
+			game.logPlayer(who, "%s is still on cooldown for %d turns.", ab.name:capitalize(), math.ceil(self.talents_cd[ab.id]))
 			return false
 		end
 		co = coroutine.create(function() -- coroutine to run activated talent code
@@ -203,7 +203,7 @@ function _M:useTalent(id, who, force_level, ignore_cd, force_target, silent, no_
 		end)
 	elseif ab.mode == "sustained" and ab.activate and ab.deactivate then
 		if self:isTalentCoolingDown(ab) and not ignore_cd then
-			game.logPlayer(who, "%s is still on cooldown for %d turns.", ab.name:capitalize(), self.talents_cd[ab.id])
+			game.logPlayer(who, "%s is still on cooldown for %d turns.", ab.name:capitalize(), math.ceil(self.talents_cd[ab.id]))
 			return false
 		end
 		if ignore_cd == "ignore_check_only" then ignore_cd = nil end

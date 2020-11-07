@@ -32,5 +32,10 @@ sh ../../utils/te4_patch.sh $oldv $newv ../t-engine4-$os-$old ../patch $os
 pmd5=`md5sum ../$os-patch-$oldv-to-$newv.zip | cut -d' ' -f1`
 cp "../$os-patch-$oldv-to-$newv.zip" /foreign/eyal/var/www/te4.org/htdocs/dl/t-engine/patch/
 
+sql_res=$(
+	echo "REPLACE INTO patch_chain SET os='$os', vfrom='$oldv', vto='$newv', file='$os-patch-$oldv-to-$newv.zip', md5='$pmd5', shown='false';"
+)
+
 echo "SQL:"
-echo "REPLACE INTO patch_chain SET os='$os', vfrom='$oldv', vto='$newv', file='$os-patch-$oldv-to-$newv.zip', md5='$pmd5', shown='false';"
+echo "$sql_res"
+echo "$sql_res" >> /tmp/release_data

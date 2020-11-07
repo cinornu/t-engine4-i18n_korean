@@ -1612,7 +1612,7 @@ function _M:aiTalentTactics(t, aitarget, target_list, tactic, tg, wt_mod)
 										local e_wt = 0
 										for status, wt in pairs(effect_wt) do
 											_, status_chance = act:canBe(status) --Status immunity
-											e_wt = e_wt + wt*status_chance/100
+											e_wt = e_wt + wt*(status_chance or 0)/100
 											if log_detail > 3 then print("\t\t__status_chance", effect_type, status, status_chance) end
 										end
 										effect_wt = e_wt

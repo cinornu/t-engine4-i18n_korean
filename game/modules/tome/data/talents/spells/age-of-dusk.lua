@@ -62,22 +62,21 @@ newTalent{
 	soul = 2,
 	cooldown = 20,
 	tactical = { ATTACK = { COLD = 2, DARKNESS = 2 }, DISABLE = { blind = 2 } },
-	range = 0,
-	radius = 7,
+	range = 7,
 	requires_target = true,
 	getDur = function(self, t) return math.floor(self:combatTalentScale(t, 3, 8)) end,
 	getDamage = function(self, t) return self:combatTalentSpellDamage(t, 20, 170) end,
 	trigger = function(self, t, target)
 		-- Find targets
 		if not target then
-			local targets = table.listify(self:projectCollect({type="ball", radius=self:getTalentRadius(t)}, self.x, self.y, Map.ACTOR, "hostile"))
+			local targets = table.listify(self:projectCollect({type="ball", radius=self:getTalentRange(t)}, self.x, self.y, Map.ACTOR, "hostile"))
 			if #targets == 0 then return end
 			table.sort(targets, function(a, b) return a[2].dist < b[2].dist end)
 			target = targets[#targets][1]
 		end
 
 		local dam = self:spellCrit(t:_getDamage(self))
-		self:projectApply({type="beam", range=self:getTalentRadius(t), friendlyfire=false}, target.x, target.y, Map.ACTOR, function(target)
+		self:projectApply({type="beam", range=self:getTalentRange(t), friendlyfire=false}, target.x, target.y, Map.ACTOR, function(target)
 			if DamageType:get(DamageType.DARKNESS).projector(self, target.x, target.y, DamageType.DARKNESS, dam) > 0 then
 				if rng.percent(25) then
 					if target:canBe("blind") then target:setEffect(target.EFF_BLINDED, 4, {apply_power=self:combatSpellpower()})
@@ -85,7 +84,7 @@ newTalent{
 				end
 			end
 		end)
-		game.level.map:particleEmitter(self.x, self.y, self:getTalentRadius(t), "shadow_beam", {tx=target.x-self.x, ty=target.y-self.y})
+		game.level.map:particleEmitter(self.x, self.y, self:getTalentRange(t), "shadow_beam", {tx=target.x-self.x, ty=target.y-self.y})
 	end,
 	action = function(self, t)
 		self:setEffect(self.EFF_CREPUSCULE, t:_getDur(self), {})

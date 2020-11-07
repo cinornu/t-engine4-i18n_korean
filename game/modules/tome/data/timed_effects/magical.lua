@@ -5225,7 +5225,9 @@ local rime_wraith_def = {
 					pcall(function() DamageType:get(DamageType.COLD).projector(eff.src, m.x, m.y, DamageType.COLD, dam) end)
 					eff.src:attr("damage_shield_penetrate", -100)
 				else
+					eff.src:attr("can_heal_necrotic_minions", 1)
 					m:heal(heal, eff.src)
+					eff.src:attr("can_heal_necrotic_minions", -1)
 				end
 			end)
 		end

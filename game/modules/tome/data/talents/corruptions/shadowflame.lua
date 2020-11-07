@@ -348,6 +348,11 @@ newTalent{
 			game.uiset:setupMinimap(game.level)
 			game.nicer_tiles:postProcessLevelTilesOnLoad(game.level)
 
+			if game.level.map:checkEntity(game.player.x, game.player.y, Map.TERRAIN, "block_move") then
+				-- Emergency teleport in case we somehow end up in a wall
+				game.player:teleportRandom(math.floor(game.level.map.w / 2), math.floor(game.level.map.h / 2), 100)
+			end
+
 			game.logPlayer(game.player, "#LIGHT_RED#You are brought back from the Fearscape!")
 		end)
 

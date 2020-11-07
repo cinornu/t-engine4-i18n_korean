@@ -2538,7 +2538,7 @@ newEffect{
 			for tid, act in pairs(self.sustain_talents) do
 				if act then
 					local talent = self:getTalentFromId(tid)
-					if talent.type[1]:find("^technique/") then effs[#effs+1] = {"talent", tid} end
+					if not talent.is_spell and not talent.is_mind then effs[#effs+1] = {"talent", tid} end
 				end
 			end
 

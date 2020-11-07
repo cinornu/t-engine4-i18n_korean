@@ -119,7 +119,7 @@ newTalent{
 	target = {type="ball", radius=3, friendlyblock=false}, -- used by the AI to determine actors affected
 	getDamage = function(self, t) return 5 + self:combatTalentMindDamage(t, 5, 35) * get_mindstar_power_mult(self) end,
 	getChance = function(self, t) return util.bound(10 + self:combatTalentMindDamage(t, 3, 25), 10, 40) * get_mindstar_power_mult(self, 90) end,
-	on_pre_use = function(self, t, silent) if not self:hasPsiblades(true, true) then if not silent then game.logPlayer(self, "You require two psiblades in your hands to use this talent.") end return false end return true end,
+	on_pre_use = function(self, t, silent) if not self:hasPsiblades(true, true) and not self:attr("leaves_tide_no_mindstar") then if not silent then game.logPlayer(self, "You require two psiblades in your hands to use this talent.") end return false end return true end,
 	action = function(self, t)
 		-- Add a lasting map effect
 		game.level.map:addEffect(self,

@@ -186,7 +186,7 @@ newTalent{
 	cooldown = 30,
 	tactical = { BUFF = 2 },
 	getDamageIncrease = function(self, t) return self:combatTalentScale(t, 2.5, 10) end,
-	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 100, 17, 50, true) end,
+	getResistPenalty = function(self, t) return self:combatTalentLimit(t, 60, 20, 50) end,
 	getVampiric = function(self, t) return math.floor(self:combatTalentLimit(t, 60, 3, 8)) end,
 	callbackPriorities={callbackOnActBase = 100}, -- trigger after most others
 	callbackOnActBase = function(self, t)

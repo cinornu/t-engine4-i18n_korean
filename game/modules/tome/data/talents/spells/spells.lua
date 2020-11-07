@@ -205,8 +205,17 @@ function necroSetupSummon(self, def, x, y, level, turns, no_control)
 	m.minion_be_nice = 1
 	m.heal = function(self, amt, src)
 		if not src or src == self or src.necrotic_minion then return mod.class.NPC.heal(self, amt, src) end
-		if src.getCurrentTalent and src:getCurrentTalent() and src:getTalentFromId(src:getCurrentTalent()) and not src:getTalentFromId(src:getCurrentTalent()).is_nature then return mod.class.NPC.heal(self, amt, src) end
+		if 
+		  (src.getCurrentTalent and src:getCurrentTalent() and src:getTalentFromId(src:getCurrentTalent()) and not src:getTalentFromId(src:getCurrentTalent()).is_nature) or
+		  (src.attr and src:attr("can_heal_necrotic_minions"))
+		then
+			return mod.class.NPC.heal(self, amt, src) 
+		end
 		game.logSeen(self, "#GREY#%s can not be healed this way!", self:getName():capitalize())
+	end
+
+	if self:knowTalent(self.T_SURGE_OF_UNDEATH) then
+		m.life_regen = 0.5
 	end
 
 	if self:isTalentActive(self.T_NECROTIC_AURA) then

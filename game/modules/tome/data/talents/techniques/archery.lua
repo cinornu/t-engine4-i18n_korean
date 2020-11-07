@@ -35,7 +35,7 @@ newTalent{
 		}
 	end,
 	stamina = function(self, t)
-		if not self:isTalentActive("T_SKIRMISHER_BOMBARDMENT") or not wardenPreUse(self, t, false, "sling") then return nil end
+		if not self:isTalentActive("T_SKIRMISHER_BOMBARDMENT") or not wardenPreUse(self, t, true, "sling") then return nil end
 
 		local b = self:getTalentFromId("T_SKIRMISHER_BOMBARDMENT")
 		return b.shot_stamina(self, b)

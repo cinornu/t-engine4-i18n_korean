@@ -300,7 +300,7 @@ newTalent{
 	callbackOnSummonDeath = function(self, t, summon, killer, death_note)
 		if not summon.is_bone_giant and not summon.skeleton_minion then return end
 		-- if killer and killer.reactionToward and killer:reactionToward(summon) >= 0 then return end
-		summon:projectApply({type="ball", radius=self:getTalentRadius(t)}, summon.x, summon.y, Map.ACTOR, function(target)
+		summon:projectApply({type="ball", radius=self:getTalentRadius(t), ignore_nullify_all_friendlyfire=true}, summon.x, summon.y, Map.ACTOR, function(target)
 			if target.summoner == self and (target.is_bone_giant or target.skeleton_minion) then
 				target:setEffect(target.EFF_SHATTERED_REMAINS, 20, {health=t:_getHealth(self), armor=t:_getArmor(self), retaliation=t:_getRetaliation(self)})
 			elseif self:reactionToward(target) < 0 and target:canBe("bleed") then

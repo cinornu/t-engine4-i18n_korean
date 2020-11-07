@@ -794,6 +794,8 @@ function _M:displayResources(scale, bx, by, a)
 		if player:attr("damage_shield") then shield = shield + (player.damage_shield_absorb or 0) max_shield = max_shield + (player.damage_shield_absorb_max or 0) end
 		if player:attr("displacement_shield") then shield = shield + (player.displacement_shield or 0) max_shield = max_shield + (player.displacement_shield_max or 0) end
 		if player:attr("disruption_shield_power") then shield = shield + (player.disruption_shield_power or 0) max_shield = max_shield + (player:callTalent(player.T_DISRUPTION_SHIELD, "getMaxAbsorb") or 0) end
+		local necroshield = player:isTalentActive(player.T_HIEMAL_SHIELD)
+		if necroshield then shield = shield + (necroshield.shield or 0) max_shield = max_shield + (necroshield.original_shield or 0) end
 		
 		local front = fshat_life_dark
 		if max_shield > 0 then

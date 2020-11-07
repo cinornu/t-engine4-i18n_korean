@@ -86,7 +86,7 @@ return {
 			local l = game.zone:makeEntityByName(level, "terrain", "IRON_THRONE_EDICT")
 			if not l then return end
 			for _, coord in pairs(util.adjacentCoords(level.default_up.x, level.default_up.y)) do
-				if game.level.map:isBound(coord[1], coord[2]) and (i ~= 0 or j ~= 0) and not game.level.map:checkEntity(coord[1], coord[2], engine.Map.TERRAIN, "block_move") then
+				if game.level.map:isBound(coord[1], coord[2]) and (i ~= 0 or j ~= 0) and not game.level.map:checkEntity(coord[1], coord[2], engine.Map.TERRAIN, "block_move") and not game.level.map:checkEntity(coord[1], coord[2], engine.Map.TERRAIN, "change_level")  and not game.level.map:checkEntity(coord[1], coord[2], engine.Map.TERRAIN, "special") then
 					game.zone:addEntity(level, l, "terrain", coord[1], coord[2])
 					return
 				end

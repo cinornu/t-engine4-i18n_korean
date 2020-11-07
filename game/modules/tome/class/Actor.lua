@@ -1526,7 +1526,7 @@ function _M:knockback(srcx, srcy, dist, recursive, on_terrain)
 	engine.Actor.knockback(self, srcx, srcy, dist, recursive, on_terrain)
 	if config.settings.tome.smooth_move > 0 then
 		self:resetMoveAnim()
-		self:setMoveAnim(ox, oy, 9, 5)
+		self:setMoveAnim(ox or 0, oy or 0, 9, 5)
 	end
 
 	self:attr("knockback_times", 1)
@@ -1539,7 +1539,7 @@ function _M:pull(srcx, srcy, dist, recursive)
 	engine.Actor.pull(self, srcx, srcy, dist, recursive)
 	if config.settings.tome.smooth_move > 0 then
 		self:resetMoveAnim()
-		self:setMoveAnim(ox, oy, 9, 5)
+		self:setMoveAnim(ox or 0, oy or 0, 9, 5)
 	end
 end
 
@@ -1549,7 +1549,7 @@ function _M:forceMoveAnim(x, y)
 	self:move(x, y, true)
 	if config.settings.tome.smooth_move > 0 then
 		self:resetMoveAnim()
-		self:setMoveAnim(ox, oy, 8, 5)
+		self:setMoveAnim(ox or 0, oy or 0, 8, 5)
 	end
 end
 
@@ -3892,7 +3892,7 @@ function _M:resolveLevelTalents()
 		for tid, info in pairs(self._levelup_talents) do
 			if not info.max or (self.talents[tid] or 0) < math.floor(info.max*maxfact) then
 				local last = info.last or self.start_level
-				if self.level - last >= info.every then
+				if self.level - last >= (info.every or 5) then
 					self:learnTalent(tid, true)
 					info.last = self.level
 				end
@@ -6803,13 +6803,15 @@ function _M:getTalentCooldown(t, base)
 	elseif t.type[1] == "inscriptions/taints" then
 		local eff = self:hasEffect(self.EFF_TAINT_COOLDOWN)
 		if eff and eff.power then cd = cd + eff.power end
-	elseif self:attr("arcane_cooldown_divide") and (t.type[1] == "spell/arcane" or t.type[1] == "spell/aether") then
-		cd = math.ceil(cd / self.arcane_cooldown_divide)
 	end
 
 	if self.talent_cd_reduction[t.id] then cd = cd - self.talent_cd_reduction[t.id] end
 	if self.talent_cd_reduction.all then cd = cd - self.talent_cd_reduction.all end
 	if self.talent_cd_reduction.allpct then cd = cd - math.ceil(self.talent_cd_reduction.allpct * cd) end
+
+	if self:attr("arcane_cooldown_divide") and (t.type[1] == "spell/arcane" or t.type[1] == "spell/aether") then
+		cd = math.ceil(cd / self.arcane_cooldown_divide)
+	end
 
 	local eff = self:hasEffect(self.EFF_BURNING_HEX)
 	if eff and not self:attr("talent_reuse") then

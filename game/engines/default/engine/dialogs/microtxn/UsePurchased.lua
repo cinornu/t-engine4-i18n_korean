@@ -90,7 +90,7 @@ Make sure you have #GOLD##{bold}#Allow online events#WHITE##{normal}# in the #GO
 		return
 	end
 
-	if item.is_shimmer then
+	if item.is_shimmer or item.is_uipack then
 		game:unregisterDialog(self)
 		if item.is_installed then
 			Dialog:simplePopup(item.name, _t"This pack is already installed and in use for your character.")
@@ -135,7 +135,7 @@ function _M:generateList()
 		for _, item in ipairs(e.list) do
 			item.img = Entity.new{image=item.image}
 			item.display_name = item.img:getDisplayString().." "..item.name
-			if item.is_shimmer then
+			if item.is_shimmer or item.is_uipack then
 				local pack_name = "cosmetic-"..item.effect
 				if game.__mod_info.addons and game.__mod_info.addons[pack_name] then
 					item.nb_available = _t"#LIGHT_GREEN#Installed"

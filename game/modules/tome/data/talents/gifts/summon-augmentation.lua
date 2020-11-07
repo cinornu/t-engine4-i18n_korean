@@ -76,7 +76,7 @@ newTalent{
 	jellySlow = function(self,t) return self:combatTalentLimit(t, 0.60, 0.25, 0.48) end,
 	minotaurConfuse = function(self,t) return self:combatTalentLimit(t, 50, 20, 35) end,
 	golemArmour = function(self,t) return self:combatTalentScale(t, 15, 33) end,
-	golemHardiness = function(self,t) return 15 + self:getTalentLevelRaw(t)*10 end,
+	golemHardiness = function(self,t) return 15 + self:getTalentLevel(t)*7.7 end,
 	shellShielding = function(self,t) return self:combatTalentMindDamage(t, 10, 35) end,
 	spiderKnockback = function(self,t) return 1 + math.floor(self:getTalentLevel(t)) end,
 	action = function(self, t)
