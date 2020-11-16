@@ -57,7 +57,7 @@ Check out the following folder on your computer:
 %s
 ]], "_t")
 t("Updating addon: #LIGHT_GREEN#%s", "애드온 업데이트 중: #LIGHT_GREEN#%s", "tformat")
-t("Quit", "출구", "_t")
+t("Quit", "종료", "_t")
 t("Really exit T-Engine/ToME?", "T-Engine/ToME를 종료하시겠습니까?", "_t")
 t("Continue", "계속하기", "_t")
 t([[Welcome to #LIGHT_GREEN#Tales of Maj'Eyal#LAST#!
@@ -389,7 +389,7 @@ t([[#{bold}##GOLD#Embers of Rage - Expansion#LAST##{normal}#
 #LIGHT_UMBER#Salves:#WHITE# Bound to the tinker system, create powerful medical salves to inject into your skin, replacing the infusions§runes system.
 #LIGHT_UMBER#A ton#WHITE# of artifacts, lore, zones, events... 
 
-]], [[#{bold}##GOLD#분노의 잉걸불 - Expansion#LAST##{normal}#
+]], [[#{bold}##GOLD#분노의 잉걸불 - 확장팩#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#오크들이 흔히 "서쪽에서 온 재앙" 이라 부르는 자가 홀로 그루쉬낙, 보르, 고르벳, 락쇼르 긍지를 파괴해버린지 1 년이 지났습니다.  왕국연합은 오랫동안 잊혀진 태양의 장벽과 장거리 차원문을 통해 연결되었으며, 그들이 바르'에이알의 대부분의 지역을 점령하는데 도움을 주었습니다.  파괴된 긍지들의 잔존병들은 감금있으나...  단 하나의 긍지가 아직 남아있습니다.#{normal}##LAST#
 
 #{bold}#특징#{normal}#:
