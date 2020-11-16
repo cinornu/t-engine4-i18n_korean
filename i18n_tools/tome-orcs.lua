@@ -8152,7 +8152,7 @@ section "tome-orcs/overload/mod/class/interface/PartyTinker.lua"
 
 t("unknown tinker", "알 수 없는 발명품", "_t")
 t("can not create tier %d", "%d 등급 발명품 제작 불가능", "tformat")
-t("requires %s level %d", "필요 : %s level %d", "tformat", {2,1})
+t("requires %s level %d", "필요 : %s %d 레벨", "tformat")
 t("requires %d %s", "필요 : %d 개의 %s", "tformat")
 t("requires %s", "필요 : %s", "tformat")
 t("Impossible to create %s(%s)", "만들 수 없음: %s(%s)", "tformat")
@@ -8200,7 +8200,7 @@ t("You can not recall until you have placed the bomb at the tunnel's end!", "터
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고 있는 양피지.", "_t")
 t("time-warped paper scrap", "시간이 뒤틀린 종이 조각", "_t")
-t("It came a long way away!", "저건 저 멀리에서 왔어!", "_t")
+t("It came a long way away!", "아주 먼 길을 거쳐 왔습니다!", "_t")
 t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "#LIGHT_BLUE#시공간이 순간적으로 요동쳤고 다른 시간선에서 메모가 떨어져 나왔다!", "saySimple")
 t("You gain %0.2f gold from the melting of %s.", "%s 녹여 %0.2f 골드를 얻었다.", "log", {2,1}, {"를"})
 t("APE", "추출기", "_t")
