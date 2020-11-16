@@ -1,0 +1,3 @@
+[WARNING]Mismatched translation for Quit(_t): 
+Last occurance: 출구 (from section engine/modules/boot/class/Game.lua)
+Current occurance: 종료 (from section mod-boot/class/Game.lua)
