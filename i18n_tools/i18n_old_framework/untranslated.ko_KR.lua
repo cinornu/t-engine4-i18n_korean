@@ -79,7 +79,7 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/data/lore/demon.lua"
--- 72 entries
+-- 62 entries
 t("history of Mal'Rok (mistranslated)", "history of Mal'Rok (mistranslated)", "_t")
 t([[(You see here a pile of strange tablets, all piled up in a nice, orderly stack.  You remove the top one, and study it; your finger slips across a square in one corner, and strange sentences start playing through your mind. You struggle to make sense of the unfamiliar words and concepts in your thoughts.)
 
@@ -144,92 +144,6 @@ We asked #{italic}##FIREBRICK#[Father]#{normal}##LAST# what #{italic}##FIREBRICK
 
 (You know all too well what this next panel does, and memories of being chained and bound while a wretchling presses it to your forehead flash through your mind. Despite a fading compulsion, no force in Eyal could convince you to touch the panel.)
 ]], "_t")
-t("history of Mal'Rok (1)", "history of Mal'Rok (1)", "_t")
-t([[First, we were created by our Father, Urh'Rok. Then, many years later, we were in the desert, struggling and fighting each other for the few meager scraps of usable farmland. We do not know anything between these times; our cities, our culture, everything was wiped out by the dust storms. The storms hated us, toyed with us, subsided just long enough for us to raise armies and fight, then raged again the moment peace came. They wanted us to fight. They wanted us to struggle, suffer, die, leaving a few survivors to repopulate, and repeat the process. Green, onyx, red, all brothers who should have been allies, we fought at first because we had to, then because we could, then because we knew it was the only thing that kept the storms entertained.
-
-Eventually, Urh'Rok appeared and told us he had been sealed away, prevented from helping us by people who had been creating the dust storms. Their cities lay hidden among us, shrouded in powerful magic to remain invisible. With a touch, he wiped the storms clean and turned the desert into lush jungle, filled with food. The storms appeared again, weaker this time; Urh'Rok grew furious and shattered the glass cities, reaching into one and pulling out a fistful of sadistic mages. He fed them to us - it was the best, largest feast any of us had eaten in millennia, and it was truly delicious. He did this to all the dust-mages' cities, then declared that we would never have to fear the storms again. We celebrated and worshiped our returned god - thanks to him, we knew where our next meal was coming from, and we had no reason to fight. All of us brethren dropped our weapons and hugged, forgiving each other for the assaults we knew we'd only done from fear. We loved each other, and we loved our god.
-
-Our father began to fret, however. We were supposed to have grown more as species; our squabbling in the desert had stunted our growth, left us behind the curve. He set up a series of competitions and tournaments in all fields of life - magic, combat, negotiation - on a planetary scale. We were used to fighting by now, and now that we knew it was actually accomplishing something, now that we were pleasing an altruistic god, we did not mind it one bit. Those who died did so with smiles on their faces, knowing they'd contributed another data-point to our Father's plan. The weaker members of our many species willingly died off, and we all grew stronger, smarter, and happier as a result. Soon, we were grown enough to organize our own tournaments, and apply the findings to our societies and species; Father said he was pleased with us, and wanted us to determine our own destiny while he slept, recovering from all the work he'd just done. We continued our process of self-improvement - we wanted Father to be proud of us when he woke up.
-
-Then, the Sher'Tul came.
-]], [[First, we were created by our Father, Urh'Rok. Then, many years later, we were in the desert, struggling and fighting each other for the few meager scraps of usable farmland. We do not know anything between these times; our cities, our culture, everything was wiped out by the dust storms. The storms hated us, toyed with us, subsided just long enough for us to raise armies and fight, then raged again the moment peace came. They wanted us to fight. They wanted us to struggle, suffer, die, leaving a few survivors to repopulate, and repeat the process. Green, onyx, red, all brothers who should have been allies, we fought at first because we had to, then because we could, then because we knew it was the only thing that kept the storms entertained.
-
-Eventually, Urh'Rok appeared and told us he had been sealed away, prevented from helping us by people who had been creating the dust storms. Their cities lay hidden among us, shrouded in powerful magic to remain invisible. With a touch, he wiped the storms clean and turned the desert into lush jungle, filled with food. The storms appeared again, weaker this time; Urh'Rok grew furious and shattered the glass cities, reaching into one and pulling out a fistful of sadistic mages. He fed them to us - it was the best, largest feast any of us had eaten in millennia, and it was truly delicious. He did this to all the dust-mages' cities, then declared that we would never have to fear the storms again. We celebrated and worshiped our returned god - thanks to him, we knew where our next meal was coming from, and we had no reason to fight. All of us brethren dropped our weapons and hugged, forgiving each other for the assaults we knew we'd only done from fear. We loved each other, and we loved our god.
-
-Our father began to fret, however. We were supposed to have grown more as species; our squabbling in the desert had stunted our growth, left us behind the curve. He set up a series of competitions and tournaments in all fields of life - magic, combat, negotiation - on a planetary scale. We were used to fighting by now, and now that we knew it was actually accomplishing something, now that we were pleasing an altruistic god, we did not mind it one bit. Those who died did so with smiles on their faces, knowing they'd contributed another data-point to our Father's plan. The weaker members of our many species willingly died off, and we all grew stronger, smarter, and happier as a result. Soon, we were grown enough to organize our own tournaments, and apply the findings to our societies and species; Father said he was pleased with us, and wanted us to determine our own destiny while he slept, recovering from all the work he'd just done. We continued our process of self-improvement - we wanted Father to be proud of us when he woke up.
-
-Then, the Sher'Tul came.
-]], "_t")
-t("history of Mal'Rok (2)", "history of Mal'Rok (2)", "_t")
-t([[They arrived in enormous flying fortresses, bristling with weapons and overflowing with magic. They did not directly threaten us, but they met with our leaders and gave us what was either an offer or an ultimatum: let them kill our Father, or kill him ourselves, and be rewarded with technology and magic as grand as theirs.
-
-They were powerful - very powerful. Although their proposal was phrased as a generous offer, we could not help but notice that their fortresses had positioned themselves over our armories and population centers, and none of their fortresses were unarmed. We did not think we could fight them; we considered waking Father for help, but we weren't sure he could fight them either. In desperation, we met and devised a plan: we would seal Urh'Rok away, prevent him from waking up unless disturbed, and then tell the Sher'Tul what we had done. Father would not be hurt or injured by this - he simply wouldn't know what was going on.
-
-We did this, and came to the Sher'Tul. They begrudgingly accepted our treacherous act as a pledge of loyalty to them, and came through with their end of the bargain, giving us knowledge and artifacts beyond our wildest dreams. They built powerful portals all over our planet, allowing us to travel through them not only within our world, but within every world the Sher'Tul had visited before. We saw wonderful new worlds, met and traded with peaceful species from across the universe, enjoyed all kinds of new, alien food, music, magic, and inventions, and generally could not have been happier with how things turned out - if not for the pangs of guilt we felt for betraying our Father. The Sher'Tul eventually stopped visiting us, but we kept trading with new people we met through the portal, and did not notice their absence.
-
-Then everything broke.
-]], [[They arrived in enormous flying fortresses, bristling with weapons and overflowing with magic. They did not directly threaten us, but they met with our leaders and gave us what was either an offer or an ultimatum: let them kill our Father, or kill him ourselves, and be rewarded with technology and magic as grand as theirs.
-
-They were powerful - very powerful. Although their proposal was phrased as a generous offer, we could not help but notice that their fortresses had positioned themselves over our armories and population centers, and none of their fortresses were unarmed. We did not think we could fight them; we considered waking Father for help, but we weren't sure he could fight them either. In desperation, we met and devised a plan: we would seal Urh'Rok away, prevent him from waking up unless disturbed, and then tell the Sher'Tul what we had done. Father would not be hurt or injured by this - he simply wouldn't know what was going on.
-
-We did this, and came to the Sher'Tul. They begrudgingly accepted our treacherous act as a pledge of loyalty to them, and came through with their end of the bargain, giving us knowledge and artifacts beyond our wildest dreams. They built powerful portals all over our planet, allowing us to travel through them not only within our world, but within every world the Sher'Tul had visited before. We saw wonderful new worlds, met and traded with peaceful species from across the universe, enjoyed all kinds of new, alien food, music, magic, and inventions, and generally could not have been happier with how things turned out - if not for the pangs of guilt we felt for betraying our Father. The Sher'Tul eventually stopped visiting us, but we kept trading with new people we met through the portal, and did not notice their absence.
-
-Then everything broke.
-]], "_t")
-t("history of Mal'Rok (3)", "history of Mal'Rok (3)", "_t")
-t([[Waves of terrible magic burst forth from the portals, which it's now clear were never intended to help us. They were a deadly trap, a ticking time bomb that would go off when the Sher'Tul wanted it to - and it went off with incredible force. Most of the worlds we had once visited were obliterated completely. Ours was not, but I can barely say we were "spared"; our Father's jungles turned to a cursed pyre instantly, burning with flame that could never be extinguished, and our planet cracked apart, whole continents flying into the void. What little land was left obviously couldn't be used for farming. Most of us died instantly, the survivors being those close enough to a skilled mage who could create enough oxygen to breathe, and convert ambient magic into caloric energy for our bodies. Life for the survivors was - is - endless torment, the burning ground constantly searing our feet, and all the beauty we once knew destroyed.
-
-Fortunately, this woke our Father up. We confessed our treachery, but did not beg forgiveness, as we knew what we had done was unforgivable; he disagreed, and to this day is using nearly every shred of his power to keep the shattered fragments of our planet together. We were not satisfied with this fate, our Father suffering and exhausting himself for the sake of our mistakes. We begged him to give us a command, something we could do to help his situation, or at least make him happier about it.
-
-His command: End the Sher'Tul. End their creations. Never let anything be hurt by Eyal again.
-
-We have taken his words to heart. Our mages have devised new magic from old inspiration, alteration spells to make us warlike and brutal once more - but with our ascended minds and honed bodies, we shall be a force of destruction far greater than the dust-storms ever were. Our green bretheren underwent a process to make their skin drip with acid; not to be outdone, our onyx brethren grew faster and stronger, with a birth-rate high enough to overwhelm whatever Sher'Tul or Sher'Tul-made monsters lay on Eyal. The red ones proclaimed they now existed only to destroy, and fused bits of the burnt earth to their hands, leaving them unable to do anything but sear Eyal with its own fires. The finished results of these alterations have taken up residence on our largest drifting continent, the one drawing ever closer to Eyal.
-
-Once this continent arrives, we shall take revenge on Eyal. Not just for our own sakes, our planet ravaged by their treachery, with a pristine one waiting as our prize. Not just for our Father's sake, condemned to an eternity of suffering for trusting his children too much. But for *everyone's* sake, the untold trillions of souls on planets less fortunate than ours, torn apart in a fiery instant. The Sher'Tul shall never hurt anyone again; we shall make sure of it by cleansing Eyal in blighted fire, and any survivors will be taken back to our planet and chained to the burning earth, kept alive so they can forever feel the flames they created consuming their flesh. Their eternal torture will still not be justice, as they shall feel only a tiny portion of the suffering they inflicted... but it's a start.
-]], [[Waves of terrible magic burst forth from the portals, which it's now clear were never intended to help us. They were a deadly trap, a ticking time bomb that would go off when the Sher'Tul wanted it to - and it went off with incredible force. Most of the worlds we had once visited were obliterated completely. Ours was not, but I can barely say we were "spared"; our Father's jungles turned to a cursed pyre instantly, burning with flame that could never be extinguished, and our planet cracked apart, whole continents flying into the void. What little land was left obviously couldn't be used for farming. Most of us died instantly, the survivors being those close enough to a skilled mage who could create enough oxygen to breathe, and convert ambient magic into caloric energy for our bodies. Life for the survivors was - is - endless torment, the burning ground constantly searing our feet, and all the beauty we once knew destroyed.
-
-Fortunately, this woke our Father up. We confessed our treachery, but did not beg forgiveness, as we knew what we had done was unforgivable; he disagreed, and to this day is using nearly every shred of his power to keep the shattered fragments of our planet together. We were not satisfied with this fate, our Father suffering and exhausting himself for the sake of our mistakes. We begged him to give us a command, something we could do to help his situation, or at least make him happier about it.
-
-His command: End the Sher'Tul. End their creations. Never let anything be hurt by Eyal again.
-
-We have taken his words to heart. Our mages have devised new magic from old inspiration, alteration spells to make us warlike and brutal once more - but with our ascended minds and honed bodies, we shall be a force of destruction far greater than the dust-storms ever were. Our green bretheren underwent a process to make their skin drip with acid; not to be outdone, our onyx brethren grew faster and stronger, with a birth-rate high enough to overwhelm whatever Sher'Tul or Sher'Tul-made monsters lay on Eyal. The red ones proclaimed they now existed only to destroy, and fused bits of the burnt earth to their hands, leaving them unable to do anything but sear Eyal with its own fires. The finished results of these alterations have taken up residence on our largest drifting continent, the one drawing ever closer to Eyal.
-
-Once this continent arrives, we shall take revenge on Eyal. Not just for our own sakes, our planet ravaged by their treachery, with a pristine one waiting as our prize. Not just for our Father's sake, condemned to an eternity of suffering for trusting his children too much. But for *everyone's* sake, the untold trillions of souls on planets less fortunate than ours, torn apart in a fiery instant. The Sher'Tul shall never hurt anyone again; we shall make sure of it by cleansing Eyal in blighted fire, and any survivors will be taken back to our planet and chained to the burning earth, kept alive so they can forever feel the flames they created consuming their flesh. Their eternal torture will still not be justice, as they shall feel only a tiny portion of the suffering they inflicted... but it's a start.
-]], "_t")
-t("Lost Memories (1)", "Lost Memories (1)", "_t")
-t([[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
-
-"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace)?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace)?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace)?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace)?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
-
-"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
-
-You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
-
-"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
-
-#{italic}#You shudder.#{normal}#
-]], [[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
-
-"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace)?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace)?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace)?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace)?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
-
-"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
-
-You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
-
-"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
-
-#{italic}#You shudder.#{normal}#
-]], "_t")
-t("Lost Memories (2)", "Lost Memories (2)", "_t")
-t([[#{italic}#More memories rush into your mind...#{normal}#
-
-"It's your lucky day, <?=player.name?>," your handler says as he leads you to a large, glowing crystal.  "You're too cooperative to stay in testing any longer.  Today, you're getting promoted to research assistant!"  You're nearly beside yourself with joy!  "Now, we'll need to do a short little process first.  Fireproofing wards here, loyalty reinforcement there, standard-issue alteration, but mostly just linking your consciousness to this," he says, pointing to the crystal.  "With this thing, everything you see, hear, smell, taste, or feel gets fed directly into this little ol' beauty.  Not just that, either - whereever you go, and whatever you think, we'll have it saved for future reference."  You're going to help them learn so much!  "Just step on the plate here, and hold your arms like this so I can get the bindings in place..."
-
-That crystal.  That crystal is how they're keeping track of you, and it has most of what you helped them discover trapped within it.  If you break it, you'll be able to escape their notice for the first time since you arrived here, allowing you to get away without them finding you again, and as an added bonus you'll undo most of what you helped them accomplish.  You need to destroy it, then flee for your life!]], [[#{italic}#More memories rush into your mind...#{normal}#
-
-"It's your lucky day, <?=player.name?>," your handler says as he leads you to a large, glowing crystal.  "You're too cooperative to stay in testing any longer.  Today, you're getting promoted to research assistant!"  You're nearly beside yourself with joy!  "Now, we'll need to do a short little process first.  Fireproofing wards here, loyalty reinforcement there, standard-issue alteration, but mostly just linking your consciousness to this," he says, pointing to the crystal.  "With this thing, everything you see, hear, smell, taste, or feel gets fed directly into this little ol' beauty.  Not just that, either - whereever you go, and whatever you think, we'll have it saved for future reference."  You're going to help them learn so much!  "Just step on the plate here, and hold your arms like this so I can get the bindings in place..."
-
-That crystal.  That crystal is how they're keeping track of you, and it has most of what you helped them discover trapped within it.  If you break it, you'll be able to escape their notice for the first time since you arrived here, allowing you to get away without them finding you again, and as an added bonus you'll undo most of what you helped them accomplish.  You need to destroy it, then flee for your life!]], "_t")
 t("orbital base: battle plan (doombringer)", "orbital base: battle plan (doombringer)", "_t")
 t([[Engagement Briefing on <?=player.name?>:
 
@@ -479,20 +393,6 @@ t("", "", "log")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua"
--- 1 entries
-t([[Your affinity for the shadows grow stronger.
-		Whenever one of your spells deal darkness damage you have a %d%% chance to gain 8%% to all damage affinity for 8 turns.
-		If you kill a creature with darkness damage this effect always triggers.
-		You can only gain one stack of Dark Reign per turn.
-		This effect stacks multiplicatively up to %d times.]], [[Your affinity for the shadows grow stronger.
-		Whenever one of your spells deal darkness damage you have a %d%% chance to gain 8%% to all damage affinity for 8 turns.
-		If you kill a creature with darkness damage this effect always triggers.
-		You can only gain one stack of Dark Reign per turn.
-		This effect stacks multiplicatively up to %d times.]], "tformat")
-
-
-------------------------------------------------
 section "game/dlcs/tome-ashes-urhrok/superload/mod/class/Object.lua"
 -- 1 entries
 t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
@@ -693,12 +593,6 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 
 ------------------------------------------------
-section "game/dlcs/tome-cults/data/lore/zones.lua"
--- 1 entries
-t("An illustrated tome!", "An illustrated tome!", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-cults/data/talents/demented/writhing-body.lua"
 -- 7 entries
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
@@ -718,12 +612,6 @@ t([[You quickly extend your tentacle hand up to range %d, impaling all creatures
 		Impaled creatures take %d%% tentacle damage and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.]], [[You quickly extend your tentacle hand up to range %d, impaling all creatures in the way.
 		Impaled creatures take %d%% tentacle damage and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.]], "tformat")
 t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
-
-
-------------------------------------------------
-section "game/dlcs/tome-cults/data/zones/entropic-void/npcs.lua"
--- 1 entries
-t("These energies are not for you!", "These energies are not for you!", "_t")
 
 
 ------------------------------------------------
@@ -763,29 +651,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/chats/john-surrender.lua"
--- 9 entries
-t("HATE!", "HATE!", "_t")
-t("I feel so lost.", "I feel so lost.", "_t")
-t("My love...", "My love...", "_t")
-t("PAIN!", "PAIN!", "_t")
-t("Please let me die!", "Please let me die!", "_t")
-t("RAAAAARGGGG!", "RAAAAARGGGG!", "_t")
-t("REGRET!", "REGRET!", "_t")
-t("*Sobs*", "*Sobs*", "_t")
-t("Someday you will pay!", "Someday you will pay!", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/general/npcs/plant-add.lua"
--- 2 entries
-t("Sawtree", "Sawtree", "entity name")
-t([[#{italic}##ANTIQUE_WHITE#Is that... a tree that cuts down trees?
-Oh no don't worry. Only adventurers!#LAST##{normal}#]], [[#{italic}##ANTIQUE_WHITE#Is that... a tree that cuts down trees?
-Oh no don't worry. Only adventurers!#LAST##{normal}#]], "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/data/general/objects/world-artifacts.lua"
 -- 1 entries
 t("%s", "%s", "tformat")
@@ -795,189 +660,6 @@ t("%s", "%s", "tformat")
 section "game/dlcs/tome-orcs/data/lore/gem.lua"
 -- 1 entries
 t("G.E.M", "G.E.M", "newLore category")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/sunwall.lua"
--- 10 entries
-t("Sun Paladin report", "Sun Paladin report", "_t")
-t([[Lady Aeryn,
-
-My apologies, but you're going to have to go back to King Tolak empty-handed - we still don't have any idea how the smugglers are getting through.  The best evidence we've got is some rumbling in the desert near the Dominion Port (which is still too heavily guarded for a direct attack before the Allied Kingdoms can grant us full assistance), suggesting geomantic tunnel formation, but that could just as easily be the few of Briagh's spawn that the Hero of Maj'Eyal didn't mop up.  Scrying spells aren't helping either - there's some sort of counter-scrying ward being applied, but it's so well-hidden that we can't tell where on the continent it's coming from or how many entities are being affected by it.  The only thing that seems certain is that they've got another farportal hacked together - the only one we know of is right in the middle of Gates of Morning, and I'd like to think that we're not so incompetent we wouldn't notice a steady stream of slavers and bootleggers strolling past 70% of us.  If they're actually using that one, then they're using the best invisibility spell we have ever seen.
-
-...Haven't ever seen?  Whatever.
-
-Anyway, my advice is to request permission to send a few Shining Inquisitors to King Tolak to assist in the investigations on his end.  However they're evading detection here in the East, they either can't use it in the West or simply let their guard down once they're back home, judging from the rising arrest rates - we can help the Allied Kingdoms hit the weak link of this chain, and have the Inquisitors keep an eye on things in Maj'Eyal while they're at it.  Not that I don't trust that King Tolak intends to honor his commitment to keep those foul Ziguranth from ever pulling off anything like the Sunset Massacre again, but...  well, if a farportal altar made it onto the black market under the Allied Kingdoms' watch, possibly courtesy of a mad alchemist who lived practically next door to the King, I don't have too much faith in their ability to drag a bunch of clandestine fanatics into the light, out from the cover of that supposedly-benign Menders group.  I'm sure they're trying their hardest; all I'm suggesting is that we do the same.]], [[Lady Aeryn,
-
-My apologies, but you're going to have to go back to King Tolak empty-handed - we still don't have any idea how the smugglers are getting through.  The best evidence we've got is some rumbling in the desert near the Dominion Port (which is still too heavily guarded for a direct attack before the Allied Kingdoms can grant us full assistance), suggesting geomantic tunnel formation, but that could just as easily be the few of Briagh's spawn that the Hero of Maj'Eyal didn't mop up.  Scrying spells aren't helping either - there's some sort of counter-scrying ward being applied, but it's so well-hidden that we can't tell where on the continent it's coming from or how many entities are being affected by it.  The only thing that seems certain is that they've got another farportal hacked together - the only one we know of is right in the middle of Gates of Morning, and I'd like to think that we're not so incompetent we wouldn't notice a steady stream of slavers and bootleggers strolling past 70% of us.  If they're actually using that one, then they're using the best invisibility spell we have ever seen.
-
-...Haven't ever seen?  Whatever.
-
-Anyway, my advice is to request permission to send a few Shining Inquisitors to King Tolak to assist in the investigations on his end.  However they're evading detection here in the East, they either can't use it in the West or simply let their guard down once they're back home, judging from the rising arrest rates - we can help the Allied Kingdoms hit the weak link of this chain, and have the Inquisitors keep an eye on things in Maj'Eyal while they're at it.  Not that I don't trust that King Tolak intends to honor his commitment to keep those foul Ziguranth from ever pulling off anything like the Sunset Massacre again, but...  well, if a farportal altar made it onto the black market under the Allied Kingdoms' watch, possibly courtesy of a mad alchemist who lived practically next door to the King, I don't have too much faith in their ability to drag a bunch of clandestine fanatics into the light, out from the cover of that supposedly-benign Menders group.  I'm sure they're trying their hardest; all I'm suggesting is that we do the same.]], "_t")
-t("journal of High Sun Paladin Aeryn", "journal of High Sun Paladin Aeryn", "_t")
-t([[This is it...  the day I've dreaded for most of my life is here, and yet it still comes as a shock.  I expected it for almost every day of my life...  until last year.  The Scourge from the West defeated the Prides, raced down the Charred Scar, and stormed the tower of High Peak to fight by my side against a threat far greater than I dreamed possible.  We'd been reunited with a cooperative and nearly-unified Maj'Eyal, led by a king willing and able to help us in any way, armed with a plan to keep the orcs completely under control...  it's as if the Sun had begun to creep over the horizon to start the dawn of peace in Var'Eyal, right before going dark forever and taking the moons with it.  The love of my life is presumed dead; the candle in the night of the years before has been snuffed out. Nothing - no plan that hasn't been shattered, no inspiration that hasn't fallen, no hope that hasn't turned to despair - is left to guide me.
-
-I must be that light for my allies' sake.  I must be strong, resolute, giving them whatever tiny amounts of hope I can.  Not only to keep their morale up and give us a chance of prevailing against the unstoppable menace which the Sunwall has stood against for ages...  but so that their last thoughts in death might be that their sacrifice has saved us all.  Maybe one of them will be right.
-
-All I can hope is that King Tolak has learned something about the Orcs, before his kingdom falls as well.  I do not begrudge him, everything he did was rooted in wisdom and kindness...  and would have worked for any species but the Orcs.  They are the sole exception that deserves no mercy.]], [[This is it...  the day I've dreaded for most of my life is here, and yet it still comes as a shock.  I expected it for almost every day of my life...  until last year.  The Scourge from the West defeated the Prides, raced down the Charred Scar, and stormed the tower of High Peak to fight by my side against a threat far greater than I dreamed possible.  We'd been reunited with a cooperative and nearly-unified Maj'Eyal, led by a king willing and able to help us in any way, armed with a plan to keep the orcs completely under control...  it's as if the Sun had begun to creep over the horizon to start the dawn of peace in Var'Eyal, right before going dark forever and taking the moons with it.  The love of my life is presumed dead; the candle in the night of the years before has been snuffed out. Nothing - no plan that hasn't been shattered, no inspiration that hasn't fallen, no hope that hasn't turned to despair - is left to guide me.
-
-I must be that light for my allies' sake.  I must be strong, resolute, giving them whatever tiny amounts of hope I can.  Not only to keep their morale up and give us a chance of prevailing against the unstoppable menace which the Sunwall has stood against for ages...  but so that their last thoughts in death might be that their sacrifice has saved us all.  Maybe one of them will be right.
-
-All I can hope is that King Tolak has learned something about the Orcs, before his kingdom falls as well.  I do not begrudge him, everything he did was rooted in wisdom and kindness...  and would have worked for any species but the Orcs.  They are the sole exception that deserves no mercy.]], "_t")
-t("kindness", "kindness", "_t")
-t([[I stuck up for you. I wanted to forgive you, to give you time and safety to see we meant no harm.  I forgave you for the ages we spent in fear, the lives we lost, for I imagined I could have been tempted to do the same in your position.
-
-Now I see where kindness and mercy get me.]], [[I stuck up for you. I wanted to forgive you, to give you time and safety to see we meant no harm.  I forgave you for the ages we spent in fear, the lives we lost, for I imagined I could have been tempted to do the same in your position.
-
-Now I see where kindness and mercy get me.]], "_t")
-t("hope", "hope", "_t")
-t([[You took everything from me.  You took the dawn of a beautiful future, you took the fires of hope and happiness, you took the kind, guiding light of my love Aeryn and put out the glow of the life we deserved to have together.  The light is gone...  but you have given me darkness in return.  And you're about to know that darkness very, very well.  Embracing it fully rather than shutting it out...  It's so easy to use these powers now.  I've felt them before, but I had no hate to use as their inspiration,  no true misery to pour into the minds deserving, no empty void inside me to drain your hopes and confidence into.  You've fixed that for me.
-
-My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], [[You took everything from me.  You took the dawn of a beautiful future, you took the fires of hope and happiness, you took the kind, guiding light of my love Aeryn and put out the glow of the life we deserved to have together.  The light is gone...  but you have given me darkness in return.  And you're about to know that darkness very, very well.  Embracing it fully rather than shutting it out...  It's so easy to use these powers now.  I've felt them before, but I had no hate to use as their inspiration,  no true misery to pour into the minds deserving, no empty void inside me to drain your hopes and confidence into.  You've fixed that for me.
-
-My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], "_t")
-t("suffering", "suffering", "_t")
-t([[Fall.  Suffer.  Lose the hope that drives you, or whatever brutish instinct suffices for it in your abominable mind.  Feel the pain you caused me, and know that it will never, ever stop...  you can feel it eroding your will to keep going, can't you?
-
-When your shattered mind succumbs to the pain you gave me, I will take it for my own.  I'll give you back just a little of the hope and love I took, so when you're a mere passenger in your own body, I can watch that light grow dark, as you watch your own body finding everyone you love and killing them slowly and painfully.  Their last words will be cursing your name, and you will be both powerless to stop it, and all too aware that it's your own fault for not preventing it sooner.
-
-Then, and only then, will you fully understand what you did to me.]], [[Fall.  Suffer.  Lose the hope that drives you, or whatever brutish instinct suffices for it in your abominable mind.  Feel the pain you caused me, and know that it will never, ever stop...  you can feel it eroding your will to keep going, can't you?
-
-When your shattered mind succumbs to the pain you gave me, I will take it for my own.  I'll give you back just a little of the hope and love I took, so when you're a mere passenger in your own body, I can watch that light grow dark, as you watch your own body finding everyone you love and killing them slowly and painfully.  Their last words will be cursing your name, and you will be both powerless to stop it, and all too aware that it's your own fault for not preventing it sooner.
-
-Then, and only then, will you fully understand what you did to me.]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/weissi.lua"
--- 15 entries
-t("telepathic message (1)", "telepathic message (1)", "_t")
-t([[As you descend the stairway down, you find yourself faced with what appears to be a solid wall of stone, a natural dead-end in a cave.  You start to turn around and walk back up, when you hear a crescendo of cracking and rumbling behind you; you turn back and see the stone falling away, revealing a smooth, white door, which promptly slides into the floor.  The doorway leads to a white hallway of indeterminate construction; rather than having fixed lighting, every square inch of the walls, floors, and ceiling slowly illuminates to a comfortable (if slightly teal-tinged) glow.  It should be beautiful, clean, peaceful, and serene...  and yet your instincts are screaming at you to get out as soon as you can and forget what you've seen here.  A few open panels on the walls reveal an assortment of inscrutable machinery, incorporating a variety of unidentifiable magical and psionic artifacts, yet one appears to be a sort of crushing device made with steam-tech, an invention that is surely newer than these ruins...  the crushing device abruptly activates when you ponder it, pressing minerals into a freshly-formed mindstar-like crystal.  A voice, one that should be soothing but disturbs you on a deeper level than you can translate into conscious thought, enters your mind as the crystal flickers:
-
-"Welcome, %s.  We've been expecting you.  Unfortunately, we can't join you, but we can assure you that what lies ahead can only help you in your quests.  The door will seal behind you to ensure your safety, and reopen the moment you want to leave.  Come.  Learn, discover, and realize how our plans are advantageous to both of us."
-
-Well...  that isn't terribly reassuring.  You hesitantly step forward, expecting a trap and ready to turn around and bolt at a moment's notice--
-
-The floor disappears from under you, and yet after falling only an inch, you suddenly feel weightless.  You turn; the freshly-formed mindstar, already beginning to crack, is glowing intensely.  "We know that isn't terribly reassuring.  We don't care if you WERE expecting a trap, and if we truly wanted to kill you, bolting at a moment's notice wouldn't be fast enough.  In fact, it'd be very easy indeed."  You are abruptly thrown near the bottom of the pit towards a series of spikes by telekinetic force, then stop, held motionless inches above them.  "Clearly, we don't want you dead or even slightly harmed," the voice from inside your head says, as the spikes retract into the pit floor and you slowly levitate back into the illuminated halls.  "Now that we've established that...  let us help you."  You float to the top, and find yourself standing on solid ground as the floor rematerializes under you and the telekinetic force vanishes, moments before the mindstar shatters.
-
-Nonetheless, you feel you shouldn't be here.  The fact that this place exists at all feels...  wrong.
-]], [[As you descend the stairway down, you find yourself faced with what appears to be a solid wall of stone, a natural dead-end in a cave.  You start to turn around and walk back up, when you hear a crescendo of cracking and rumbling behind you; you turn back and see the stone falling away, revealing a smooth, white door, which promptly slides into the floor.  The doorway leads to a white hallway of indeterminate construction; rather than having fixed lighting, every square inch of the walls, floors, and ceiling slowly illuminates to a comfortable (if slightly teal-tinged) glow.  It should be beautiful, clean, peaceful, and serene...  and yet your instincts are screaming at you to get out as soon as you can and forget what you've seen here.  A few open panels on the walls reveal an assortment of inscrutable machinery, incorporating a variety of unidentifiable magical and psionic artifacts, yet one appears to be a sort of crushing device made with steam-tech, an invention that is surely newer than these ruins...  the crushing device abruptly activates when you ponder it, pressing minerals into a freshly-formed mindstar-like crystal.  A voice, one that should be soothing but disturbs you on a deeper level than you can translate into conscious thought, enters your mind as the crystal flickers:
-
-"Welcome, %s.  We've been expecting you.  Unfortunately, we can't join you, but we can assure you that what lies ahead can only help you in your quests.  The door will seal behind you to ensure your safety, and reopen the moment you want to leave.  Come.  Learn, discover, and realize how our plans are advantageous to both of us."
-
-Well...  that isn't terribly reassuring.  You hesitantly step forward, expecting a trap and ready to turn around and bolt at a moment's notice--
-
-The floor disappears from under you, and yet after falling only an inch, you suddenly feel weightless.  You turn; the freshly-formed mindstar, already beginning to crack, is glowing intensely.  "We know that isn't terribly reassuring.  We don't care if you WERE expecting a trap, and if we truly wanted to kill you, bolting at a moment's notice wouldn't be fast enough.  In fact, it'd be very easy indeed."  You are abruptly thrown near the bottom of the pit towards a series of spikes by telekinetic force, then stop, held motionless inches above them.  "Clearly, we don't want you dead or even slightly harmed," the voice from inside your head says, as the spikes retract into the pit floor and you slowly levitate back into the illuminated halls.  "Now that we've established that...  let us help you."  You float to the top, and find yourself standing on solid ground as the floor rematerializes under you and the telekinetic force vanishes, moments before the mindstar shatters.
-
-Nonetheless, you feel you shouldn't be here.  The fact that this place exists at all feels...  wrong.
-]], "tformat")
-t("telepathic message (2)", "telepathic message (2)", "_t")
-t([[Did you know the Sher'Tul had brothers?  Long before their creation, when the gods were still young and gleeful, Quekjora convinced them they could work together to bring life to Eyal. Perhaps they could have, were they more mature at the time...  Eager cooperation withered under exposure to personal tastes and creative differences, the friendships of our creators turned to animosity, and yet we were still made.
- 
-We had no overt flaws.  The gods were mercilessly vigilant, eager to use any imperfections as an excuse to berate their perpetrator and claim superiority, and thus we were only allowed to live when they were out of ammunition to use.  We seemed perfect, even to a deep inspection...
- 
-I doubt any of them deliberately cursed us - no one of them could've done something so powerful.  Subconscious touches, psychic leakage, and other such imperceptible forces added up over time to indicate one inescapable truth: we were not wanted.  We had been forged in a bitter compromise, one desired by nobody involved; their hatred, their neglect, their frustration is the foundation of everything we are, and we carry it deep within ourselves.  Perhaps such a creature naturally attracts the ire of the universe, of fate itself. 
-
-Or maybe we just angered someone powerful enough to put a retroactive temporal curse on us, or it was Amakthel personally ensuring his pet project would have no equals. We may never be certain.  All we know is, something - be it probability, or the universe's combined will, or simply our own bad luck - will not tolerate our existence, nor that of anything like us.
-]], [[Did you know the Sher'Tul had brothers?  Long before their creation, when the gods were still young and gleeful, Quekjora convinced them they could work together to bring life to Eyal. Perhaps they could have, were they more mature at the time...  Eager cooperation withered under exposure to personal tastes and creative differences, the friendships of our creators turned to animosity, and yet we were still made.
- 
-We had no overt flaws.  The gods were mercilessly vigilant, eager to use any imperfections as an excuse to berate their perpetrator and claim superiority, and thus we were only allowed to live when they were out of ammunition to use.  We seemed perfect, even to a deep inspection...
- 
-I doubt any of them deliberately cursed us - no one of them could've done something so powerful.  Subconscious touches, psychic leakage, and other such imperceptible forces added up over time to indicate one inescapable truth: we were not wanted.  We had been forged in a bitter compromise, one desired by nobody involved; their hatred, their neglect, their frustration is the foundation of everything we are, and we carry it deep within ourselves.  Perhaps such a creature naturally attracts the ire of the universe, of fate itself. 
-
-Or maybe we just angered someone powerful enough to put a retroactive temporal curse on us, or it was Amakthel personally ensuring his pet project would have no equals. We may never be certain.  All we know is, something - be it probability, or the universe's combined will, or simply our own bad luck - will not tolerate our existence, nor that of anything like us.
-]], "_t")
-t("telepathic message (3)", "telepathic message (3)", "_t")
-t([[Did you know you killed us? You did, in one potential future, ordering our genocide from atop a steel drake.  In others, it was the Dominion, the Allied Kingdoms, Flamewright Industries, the Zigur-Thaloren Pact, or countless other transient mortal city-states.  We've been torn apart by Gerlyk, and dissected by Angolwen at the direction of Headmistress Argoniel or Chief Genius Tannen (yes, the smug git actually called himself that).  We've been devoured (literally and metaphorically) by the New Conclave under Mother Astelrid, wiped out by a plague engineered by the Grand Corruptor, drowned as the world was flooded by the Naloren, and reduced to ash by the reborn Crimson Dragonbrood.  We've been captured as torture-toys by the Demons and The Master's undead servitors, hunted for magical reagents by the Reknor Confederacy, and kept as adding machines by the Greater Republic of Steam.
-
-You know, you should thank the Scourge from the West.  We certainly do.
-
-In most, it was the Sher'Tul, eliminating their closest competitor, or the Mal'Rokka, taking Eyal for themselves.  In the few where we won every war, a meteor destroyed Eyal instead - a meteor that has now been intercepted by debris, from what you call the Spellblaze.  You're welcome - a contingent of our people kept the Mal'Rokka suppressed for long enough to allow that to happen.  If you want to see an example of how thoroughly existence wants to erase us, just ask them what they know about the "Dust Mages."
-
-We don't advise learning psychic prognostication with such commitment as we did.  To see this many possibilities, to gaze into infinity with such detail without infinity gazing back...  you have to feel it.  Every spear through our hearts, every limb burned off...  and we all did it together, linking our minds to accomplish this, so all of us have suffered through this.  And after all that, we still can't be 100% sure it's accurate, although we've gotten to more 9s after 99.9% than we can actually count.]], [[Did you know you killed us? You did, in one potential future, ordering our genocide from atop a steel drake.  In others, it was the Dominion, the Allied Kingdoms, Flamewright Industries, the Zigur-Thaloren Pact, or countless other transient mortal city-states.  We've been torn apart by Gerlyk, and dissected by Angolwen at the direction of Headmistress Argoniel or Chief Genius Tannen (yes, the smug git actually called himself that).  We've been devoured (literally and metaphorically) by the New Conclave under Mother Astelrid, wiped out by a plague engineered by the Grand Corruptor, drowned as the world was flooded by the Naloren, and reduced to ash by the reborn Crimson Dragonbrood.  We've been captured as torture-toys by the Demons and The Master's undead servitors, hunted for magical reagents by the Reknor Confederacy, and kept as adding machines by the Greater Republic of Steam.
-
-You know, you should thank the Scourge from the West.  We certainly do.
-
-In most, it was the Sher'Tul, eliminating their closest competitor, or the Mal'Rokka, taking Eyal for themselves.  In the few where we won every war, a meteor destroyed Eyal instead - a meteor that has now been intercepted by debris, from what you call the Spellblaze.  You're welcome - a contingent of our people kept the Mal'Rokka suppressed for long enough to allow that to happen.  If you want to see an example of how thoroughly existence wants to erase us, just ask them what they know about the "Dust Mages."
-
-We don't advise learning psychic prognostication with such commitment as we did.  To see this many possibilities, to gaze into infinity with such detail without infinity gazing back...  you have to feel it.  Every spear through our hearts, every limb burned off...  and we all did it together, linking our minds to accomplish this, so all of us have suffered through this.  And after all that, we still can't be 100% sure it's accurate, although we've gotten to more 9s after 99.9% than we can actually count.]], "_t")
-t("telepathic message (4)", "telepathic message (4)", "_t")
-t([[Do you know what would've happened if you hadn't stepped up to defend Kruk Pride?  The Allied Kingdoms could've gone on to keep the entire world under its thumb.  One unified army, marching under one banner, ready to eliminate us when we're reborn...  and that's assuming that a certain greater threat didn't step in first.  We don't want that, and neither do you.
-
-Deception is beneath us; if there's one thing our creation taught us, it's that respect and alliance are unnecessary for cooperation, if there's an immediate common need to be fulfilled.  We've prepared some of this machinery to enhance your abilities, and grant you new knowledge...  it will serve you well in preserving Eyal's immediate existence, and granting the Orcs a land of their own.  A land that'll have to fight to survive, fending off the Dominion, the Allied Kingdoms, the warped Mal'Rokka calling themselves demons, the Naloren remnants...  and I wouldn't want to spoil the fun by saying what other sorts of special guests are arriving.  Don't worry, we won't be giving anyone an unfair advantage; you, and they, would just stab us in the back anyway.
-
-The storm is coming.  It's going to be a bloodbath.  We see no need to be present for it, not until the last man is standing, wounded and exhausted, atop a pile of corpses.  He'll be an easy target.
-
-You could always give up.  Stop fighting.  Let the Allied Kingdoms have Eyal, and be the latest in a long line of factors conspiring to prevent our rebirth.  Sacrifice your people to "save Eyal" from having us on it.  You won't, though, because you have something we'll never have: hope.  Hope that we can be fought off, that our return won't come in your lifetime.  Our predictions aren't 100% accurate anyway; who are we to take that hope from you?
-]], [[Do you know what would've happened if you hadn't stepped up to defend Kruk Pride?  The Allied Kingdoms could've gone on to keep the entire world under its thumb.  One unified army, marching under one banner, ready to eliminate us when we're reborn...  and that's assuming that a certain greater threat didn't step in first.  We don't want that, and neither do you.
-
-Deception is beneath us; if there's one thing our creation taught us, it's that respect and alliance are unnecessary for cooperation, if there's an immediate common need to be fulfilled.  We've prepared some of this machinery to enhance your abilities, and grant you new knowledge...  it will serve you well in preserving Eyal's immediate existence, and granting the Orcs a land of their own.  A land that'll have to fight to survive, fending off the Dominion, the Allied Kingdoms, the warped Mal'Rokka calling themselves demons, the Naloren remnants...  and I wouldn't want to spoil the fun by saying what other sorts of special guests are arriving.  Don't worry, we won't be giving anyone an unfair advantage; you, and they, would just stab us in the back anyway.
-
-The storm is coming.  It's going to be a bloodbath.  We see no need to be present for it, not until the last man is standing, wounded and exhausted, atop a pile of corpses.  He'll be an easy target.
-
-You could always give up.  Stop fighting.  Let the Allied Kingdoms have Eyal, and be the latest in a long line of factors conspiring to prevent our rebirth.  Sacrifice your people to "save Eyal" from having us on it.  You won't, though, because you have something we'll never have: hope.  Hope that we can be fought off, that our return won't come in your lifetime.  Our predictions aren't 100% accurate anyway; who are we to take that hope from you?
-]], "_t")
-t("telepathic message (5)", "telepathic message (5)", "_t")
-t([[Did you wonder what happened to us?  We wouldn't give fate the satisfaction of killing us through some unlikely coincidence.  We killed ourselves - but not before planting our seeds.
-
-We accomplished a lot before we did, and we wouldn't want to have to accomplish that all over again.  Of course, if we kept that all in one place, our curse would notice it and eradicate it - so we split ourselves and our accomplishments into pieces, and obfuscated them through millenia of evolution and subtle manipulation.  You've probably met one piece of these - the body.  Strong.  Resilient.  Capable of living in any environment.  Rapidly healing.  Eternally youthful.  And very, very easy to assume control of, via psychic transfer, once we decide the time is right...  You're probably considering ordering your Pride to exterminate all the yetis you can.  Go ahead, eliminate all that free labor and see how you fare when the Dominion's using slaves and the Allied Kingdoms have ogres and dwarves.  Once again, it doesn't matter whether or not it's helping us, because it's something you need to survive.
-
-That's only a third of what we could preserve, though.  The next is our mental processing ability, our psionically adept minds, our ability to assess information rapidly and logically analyze it.  You'll never be able to eradicate the Yeeks - believe us, we checked.  They seem to be as blessed as we are cursed, except that we're still doomed if we simply try to hide in them.  Pity, that.  Regardless, their brains and the system they are carrying will continue to exist; they will maintain our Way in our absence.
-
-Lastly, there's our culture.  Our discoveries.  Everything we learned and didn't put into our bodies or brains, we stored with...  another group.  One that expands beyond the stars, one who we've disseminated countless subtly-encoded bits of information to, one with backups in so many places across the universe...  They'll deliver enough of it back home.  The Yeeks will absorb it, and we will be reborn in their minds until they can put us in our superior bodies.
-
-Once the storm comes to Eyal, once the conflict is resolved...  perhaps the tide of hate and malice brought by such a massive war will distract the universe enough to let us combine our pieces and be reborn.  Or perhaps we will be able to do so once the gods are all dead or mad, their anger forgotten or nullified, the curse in turn having no fuel to keep going.  Perhaps the curse is already dying, only perpetuated by the Sher'Tul planetary shield - one that's gradually beginning to fail, cracks forming on it and the Mal'Rokka eagerly prying them wider.
-
-And if not?  Our culture is everywhere.  We can't be completely removed without destroying it all.  Fate has decided we are a tumor to be excised; if we're going to be a tumor, we're now an invasive one.  Now fate can decide if we're a benign growth, or terminally malignant.  
-
-Would you expect anything less from the physical incarnations of spiteful determination?
-]], [[Did you wonder what happened to us?  We wouldn't give fate the satisfaction of killing us through some unlikely coincidence.  We killed ourselves - but not before planting our seeds.
-
-We accomplished a lot before we did, and we wouldn't want to have to accomplish that all over again.  Of course, if we kept that all in one place, our curse would notice it and eradicate it - so we split ourselves and our accomplishments into pieces, and obfuscated them through millenia of evolution and subtle manipulation.  You've probably met one piece of these - the body.  Strong.  Resilient.  Capable of living in any environment.  Rapidly healing.  Eternally youthful.  And very, very easy to assume control of, via psychic transfer, once we decide the time is right...  You're probably considering ordering your Pride to exterminate all the yetis you can.  Go ahead, eliminate all that free labor and see how you fare when the Dominion's using slaves and the Allied Kingdoms have ogres and dwarves.  Once again, it doesn't matter whether or not it's helping us, because it's something you need to survive.
-
-That's only a third of what we could preserve, though.  The next is our mental processing ability, our psionically adept minds, our ability to assess information rapidly and logically analyze it.  You'll never be able to eradicate the Yeeks - believe us, we checked.  They seem to be as blessed as we are cursed, except that we're still doomed if we simply try to hide in them.  Pity, that.  Regardless, their brains and the system they are carrying will continue to exist; they will maintain our Way in our absence.
-
-Lastly, there's our culture.  Our discoveries.  Everything we learned and didn't put into our bodies or brains, we stored with...  another group.  One that expands beyond the stars, one who we've disseminated countless subtly-encoded bits of information to, one with backups in so many places across the universe...  They'll deliver enough of it back home.  The Yeeks will absorb it, and we will be reborn in their minds until they can put us in our superior bodies.
-
-Once the storm comes to Eyal, once the conflict is resolved...  perhaps the tide of hate and malice brought by such a massive war will distract the universe enough to let us combine our pieces and be reborn.  Or perhaps we will be able to do so once the gods are all dead or mad, their anger forgotten or nullified, the curse in turn having no fuel to keep going.  Perhaps the curse is already dying, only perpetuated by the Sher'Tul planetary shield - one that's gradually beginning to fail, cracks forming on it and the Mal'Rokka eagerly prying them wider.
-
-And if not?  Our culture is everywhere.  We can't be completely removed without destroying it all.  Fate has decided we are a tumor to be excised; if we're going to be a tumor, we're now an invasive one.  Now fate can decide if we're a benign growth, or terminally malignant.  
-
-Would you expect anything less from the physical incarnations of spiteful determination?
-]], "_t")
-t("lost city", "lost city", "newLore category")
-t("telepathic message (6)", "telepathic message (6)", "_t")
-t([[If you would indulge us...  Next to you is a tablet that was just carved by our machines, moments before you arrived.  If our curse holds, it will be completely illegible, but if it has been lifted, it will bear our name.  A blatant, distinct word that is an undeniable mark of our existence, a sign that no matter how it may have wanted to, the universe could not forget us.  Look to your right, and learn the name of those who have far more right to exist than you do, who have fought far harder for it, and will sink their hooks so deep into reality that it must either lift them up or be dragged into the depths with them.  Learn the name feared by existence itself!
-
-#{italic}#(You look to your right, and see a tablet which has been broken into fragments.  The fragments are still arranged roughly in the right shape, and you can read a single word; another, larger fragment bears a sentence.)#{normal}#
-
-]], [[If you would indulge us...  Next to you is a tablet that was just carved by our machines, moments before you arrived.  If our curse holds, it will be completely illegible, but if it has been lifted, it will bear our name.  A blatant, distinct word that is an undeniable mark of our existence, a sign that no matter how it may have wanted to, the universe could not forget us.  Look to your right, and learn the name of those who have far more right to exist than you do, who have fought far harder for it, and will sink their hooks so deep into reality that it must either lift them up or be dragged into the depths with them.  Learn the name feared by existence itself!
-
-#{italic}#(You look to your right, and see a tablet which has been broken into fragments.  The fragments are still arranged roughly in the right shape, and you can read a single word; another, larger fragment bears a sentence.)#{normal}#
-
-]], "_t")
-t([[#{bold}#WEISSI
-
-DO YOU KNOW OUR NAME?#{normal}#]], [[#{bold}#WEISSI
-
-DO YOU KNOW OUR NAME?#{normal}#]], "_t")
-t([[#{italic}#(Somehow the name seems to have faded from your memory!)#{normal}#
-
-DO YOU KNOW OUR NAME?#{normal}#]], [[#{italic}#(Somehow the name seems to have faded from your memory!)#{normal}#
-
-DO YOU KNOW OUR NAME?#{normal}#]], "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/lore/yeti.lua"
--- 7 entries
-t("crude cave painting (1)", "crude cave painting (1)", "_t")
-t("You see here a crude cave painting, depicting a drake attacking a group of yetis, as an indistinct figure watches over them.  To the right, you see a drawing of the figure attacking the drake, and the yetis cheering.", "You see here a crude cave painting, depicting a drake attacking a group of yetis, as an indistinct figure watches over them.  To the right, you see a drawing of the figure attacking the drake, and the yetis cheering.", "_t")
-t("crude cave painting (2)", "crude cave painting (2)", "_t")
-t("You see here a cave painting, depicting a giant attempting to lead some yetis away in chains, but being pulled down and mauled by other yetis.", "You see here a cave painting, depicting a giant attempting to lead some yetis away in chains, but being pulled down and mauled by other yetis.", "_t")
-t("yeti's cave", "yeti's cave", "newLore category")
-t("crude cave painting (3)", "crude cave painting (3)", "_t")
-t("You see here a cave painting, depicting a giant holding an object, which is projecting some sort of beam at a yeti.  The affected yeti is walking toward the giant, while other yetis are looking on in horror.", "You see here a cave painting, depicting a giant holding an object, which is projecting some sort of beam at a yeti.  The affected yeti is walking toward the giant, while other yetis are looking on in horror.", "_t")
 
 
 ------------------------------------------------
@@ -1048,17 +730,10 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/data/talents/uber/mag.lua"
--- 2 entries
-t("Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "_t")
+-- 1 entries
 t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
 		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], [[You create an Arcane Amplification Drone at the selected location for 3 turns.
 		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], "tformat")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/data/timed_effects/other.lua"
--- 1 entries
-t("TO THE MOUNTAINS!", "TO THE MOUNTAINS!", "_t")
 
 
 ------------------------------------------------
@@ -1074,47 +749,15 @@ t("G.E.M.", "G.E.M.", "_t")
 
 
 ------------------------------------------------
-section "game/dlcs/tome-orcs/data/zones/internment-camp/zone.lua"
--- 1 entries
-t("Freedom! Let's rally to Kruk Pride!", "Freedom! Let's rally to Kruk Pride!", "_t")
-
-
-------------------------------------------------
 section "game/dlcs/tome-orcs/init.lua"
--- 2 entries
+-- 1 entries
 t("Embers of Rage", "Embers of Rage", "init.lua long_name")
-t([[Play as an orc of the Kruk Pride, located on an island near Var'Eyal.
-Learn to master steam technology, battle the terrible Atmos Tribe and ensure dominion of Var'Eyal for your race.]], [[Play as an orc of the Kruk Pride, located on an island near Var'Eyal.
-Learn to master steam technology, battle the terrible Atmos Tribe and ensure dominion of Var'Eyal for your race.]], "init.lua description")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/overload/data/calendar_orc.lua"
--- 8 entries
-t("Remembrance", "Remembrance", "calendar orc")
-t("Retaking", "Retaking", "calendar orc")
-t("Revenge", "Revenge", "calendar orc")
-t("Pain", "Pain", "calendar orc")
-t("Dearth", "Dearth", "calendar orc")
-t("Loss", "Loss", "calendar orc")
-t("Destruction", "Destruction", "calendar orc")
-t("Renewal", "Renewal", "calendar orc")
 
 
 ------------------------------------------------
 section "game/dlcs/tome-orcs/overload/mod/class/OrcCampaign.lua"
 -- 1 entries
 t("%+d #LAST#(%+d eff.)", "%+d #LAST#(%+d eff.)", "_t")
-
-
-------------------------------------------------
-section "game/dlcs/tome-orcs/overload/mod/class/interface/PartyTinker.lua"
--- 5 entries
-t("unknown tinker", "unknown tinker", "_t")
-t("can not create tier %d", "can not create tier %d", "tformat")
-t("requires %s level %d", "requires %s level %d", "tformat")
-t("requires %d %s", "requires %d %s", "tformat")
-t("requires %s", "requires %s", "tformat")
 
 
 ------------------------------------------------
@@ -1130,30 +773,9 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/engines/default/engine/HotkeysIconsDisplay.lua"
--- 1 entries
-t("Unknown!", "Unknown!", "_t")
-
-
-------------------------------------------------
 section "game/engines/default/engine/Module.lua"
--- 12 entries
-t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "_t")
-t("Beta Addons Disabled", "Beta Addons Disabled", "_t")
-t([[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
-#GREY#]], [[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
-#GREY#]], "_t")
-t([[Total playtime of all registered players:%s
-]], [[Total playtime of all registered players:%s
-]], "tformat")
+-- 1 entries
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "tformat")
-t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "tformat")
-t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE# is one of the top ten killers", "tformat")
-t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "tformat")
-t("There are currently %d people playing online", "There are currently %d people playing online", "tformat")
-t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "tformat")
-t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "tformat")
-t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "tformat")
 
 
 ------------------------------------------------
@@ -1246,12 +868,8 @@ t("", "", "_t")
 
 ------------------------------------------------
 section "game/engines/default/engine/dialogs/microtxn/ShowPurchasable.lua"
--- 3 entries
+-- 1 entries
 t("%0.2f %s", "%0.2f %s", "tformat")
-t([[Could not dynamically link addon to current character, maybe the installation weng wrong.
-You can fix that by manually downloading the addon from https://te4.org/ and placing it in game/addons/ folder.]], [[Could not dynamically link addon to current character, maybe the installation weng wrong.
-You can fix that by manually downloading the addon from https://te4.org/ and placing it in game/addons/ folder.]], "_t")
-t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "_t")
 
 
 ------------------------------------------------
@@ -1282,106 +900,22 @@ t("itself", "itself", "_t")
 
 
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/Addons.lua"
--- 1 entries
-t(" and #LIGHT_BLUE##{underline}#Te4.org DLCs#{normal}#", " and #LIGHT_BLUE##{underline}#Te4.org DLCs#{normal}#", "_t")
-
-
-------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/MainMenu.lua"
--- 5 entries
-t("#{bold}##B9E100#T-Engine4 version: %d.%d.%d", "#{bold}##B9E100#T-Engine4 version: %d.%d.%d", "tformat")
-t([[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#Many in Maj'Eyal have heard of "demons", sadistic creatures who appear seemingly from nowhere, leaving a trail of suffering and destruction wherever they go.#{normal}##LAST#
-
-#{bold}#Features#{normal}#:
-#LIGHT_UMBER#New class:#WHITE# Doombringers. These avatars of demonic destruction charge into battle with massive two-handed weapons, cutting swaths of firey devastation through hordes of opponents. Armed with flame magic and demonic strength, they delight in fighting against overwhelming odds
-#LIGHT_UMBER#New class:#WHITE# Demonologists. Bearing a shield and the magic of the Spellblaze itself, these melee-fighting casters can grow demonic seeds from their fallen enemies. Imbue these seeds onto your items to gain a wide array of new talents and passive benefits, and summon the demons within them to fight!
-#LIGHT_UMBER#New race:#WHITE# Doomelves. Shalore who've taken to the demonic alterations especially well, corrupting their typical abilities into a darker form.
-#LIGHT_UMBER#New artifacts, lore, zones, events...#WHITE# For your demonic delight!
-
-]], [[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#Many in Maj'Eyal have heard of "demons", sadistic creatures who appear seemingly from nowhere, leaving a trail of suffering and destruction wherever they go.#{normal}##LAST#
-
-#{bold}#Features#{normal}#:
-#LIGHT_UMBER#New class:#WHITE# Doombringers. These avatars of demonic destruction charge into battle with massive two-handed weapons, cutting swaths of firey devastation through hordes of opponents. Armed with flame magic and demonic strength, they delight in fighting against overwhelming odds
-#LIGHT_UMBER#New class:#WHITE# Demonologists. Bearing a shield and the magic of the Spellblaze itself, these melee-fighting casters can grow demonic seeds from their fallen enemies. Imbue these seeds onto your items to gain a wide array of new talents and passive benefits, and summon the demons within them to fight!
-#LIGHT_UMBER#New race:#WHITE# Doomelves. Shalore who've taken to the demonic alterations especially well, corrupting their typical abilities into a darker form.
-#LIGHT_UMBER#New artifacts, lore, zones, events...#WHITE# For your demonic delight!
-
-]], "_t")
-t([[#{bold}##GOLD#Embers of Rage - Expansion#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#One year has passed since the one the Orcs call the "Scourge from the West" came and single-handedly crushed the Orc Prides of Grushnak, Vor, Gorbat, and Rak'Shor.  The Allied Kingdoms, now linked by farportal to their distant, long-lost Sunwall allies, have helped them conquer most of Var'Eyal.  The few remnants of the ravaged Prides are caged...  but one Pride remains.#{normal}##LAST#
-
-#{bold}#Features#{normal}#:
-#LIGHT_UMBER#A whole new campaign:#WHITE# Set one year after the events of the main game, the final destiny of the Orc Prides is up to you. Discover the Far East like you never knew it. 
-#LIGHT_UMBER#New classes:#WHITE# Sawbutchers, Gunslingers, Psyshots, Annihilators and Technomanchers. Harness the power of steam to power deadly contraptions to lay waste to all those that oppose the Pride!  
-#LIGHT_UMBER#New races:#WHITE# Orcs, Yetis, Whitehooves. Discover the orcs and their unlikely 'allies' as you try to save your Pride from the disasters caused by the one you call 'The Scourge from the West'.
-#LIGHT_UMBER#Tinker system:#WHITE# Augment your items with powerful crafted tinkers. Attach rockets to your boots, gripping systems to your gloves and many more.
-#LIGHT_UMBER#Salves:#WHITE# Bound to the tinker system, create powerful medical salves to inject into your skin, replacing the infusions§runes system.
-#LIGHT_UMBER#A ton#WHITE# of artifacts, lore, zones, events... 
-
-]], [[#{bold}##GOLD#Embers of Rage - Expansion#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#One year has passed since the one the Orcs call the "Scourge from the West" came and single-handedly crushed the Orc Prides of Grushnak, Vor, Gorbat, and Rak'Shor.  The Allied Kingdoms, now linked by farportal to their distant, long-lost Sunwall allies, have helped them conquer most of Var'Eyal.  The few remnants of the ravaged Prides are caged...  but one Pride remains.#{normal}##LAST#
-
-#{bold}#Features#{normal}#:
-#LIGHT_UMBER#A whole new campaign:#WHITE# Set one year after the events of the main game, the final destiny of the Orc Prides is up to you. Discover the Far East like you never knew it. 
-#LIGHT_UMBER#New classes:#WHITE# Sawbutchers, Gunslingers, Psyshots, Annihilators and Technomanchers. Harness the power of steam to power deadly contraptions to lay waste to all those that oppose the Pride!  
-#LIGHT_UMBER#New races:#WHITE# Orcs, Yetis, Whitehooves. Discover the orcs and their unlikely 'allies' as you try to save your Pride from the disasters caused by the one you call 'The Scourge from the West'.
-#LIGHT_UMBER#Tinker system:#WHITE# Augment your items with powerful crafted tinkers. Attach rockets to your boots, gripping systems to your gloves and many more.
-#LIGHT_UMBER#Salves:#WHITE# Bound to the tinker system, create powerful medical salves to inject into your skin, replacing the infusions§runes system.
-#LIGHT_UMBER#A ton#WHITE# of artifacts, lore, zones, events... 
-
-]], "_t")
-t([[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#Not all adventurers seek fortune, not all that defend the world have good deeds in mind. Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal. That something is you.#{normal}##LAST#
-
-#{bold}#Features#{normal}#:
-#LIGHT_UMBER#New class:#WHITE# Writhing Ones. Give in to the corrupting forces and turn yourself gradually into an horror, summon horrors to do your bidding, shed your skin and melt your face to assault your foes. With your arm already turned into a tentacle, what creature can stop you?
-#LIGHT_UMBER#New class:#WHITE# Cultists of Entropy. Using its insanity and control of entropic forces to unravel the normal laws of physic this caster class can turn healing into attacks and call upon the forces of the void to reduce its foes to dust.
-#LIGHT_UMBER#New race:#WHITE# Drems. A corrupt subrace of dwarves, that somehow managed to keep a shred of sanity to not fully devolve into mindless horrors. They can enter a frenzy and even learn to summon horrors.
-#LIGHT_UMBER#New race:#WHITE# Krogs. Ogres transformed by the very thing that should kill them. Their powerful attacks can stun their foes and they are so strong they can dual wield any one handed weapons.
-#LIGHT_UMBER#Many new zones:#WHITE# Explore the Scourge Pits, fight your way out of a giant worm (don't ask how you get *in*), discover the wonders of the Occult Egress and many more strange and tentacle-filled zones!
-#LIGHT_UMBER#New horrors:#WHITE# You liked radiant horrors? You'll love searing horrors! And Nethergames. And Entropic Shards. And ... more
-#LIGHT_UMBER#Sick of your own head:#WHITE#  Replace it with a nice cozy horror!
-#LIGHT_UMBER#A ton#WHITE# of artifacts, lore, events... 
-
-]], [[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#Not all adventurers seek fortune, not all that defend the world have good deeds in mind. Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal. That something is you.#{normal}##LAST#
-
-#{bold}#Features#{normal}#:
-#LIGHT_UMBER#New class:#WHITE# Writhing Ones. Give in to the corrupting forces and turn yourself gradually into an horror, summon horrors to do your bidding, shed your skin and melt your face to assault your foes. With your arm already turned into a tentacle, what creature can stop you?
-#LIGHT_UMBER#New class:#WHITE# Cultists of Entropy. Using its insanity and control of entropic forces to unravel the normal laws of physic this caster class can turn healing into attacks and call upon the forces of the void to reduce its foes to dust.
-#LIGHT_UMBER#New race:#WHITE# Drems. A corrupt subrace of dwarves, that somehow managed to keep a shred of sanity to not fully devolve into mindless horrors. They can enter a frenzy and even learn to summon horrors.
-#LIGHT_UMBER#New race:#WHITE# Krogs. Ogres transformed by the very thing that should kill them. Their powerful attacks can stun their foes and they are so strong they can dual wield any one handed weapons.
-#LIGHT_UMBER#Many new zones:#WHITE# Explore the Scourge Pits, fight your way out of a giant worm (don't ask how you get *in*), discover the wonders of the Occult Egress and many more strange and tentacle-filled zones!
-#LIGHT_UMBER#New horrors:#WHITE# You liked radiant horrors? You'll love searing horrors! And Nethergames. And Entropic Shards. And ... more
-#LIGHT_UMBER#Sick of your own head:#WHITE#  Replace it with a nice cozy horror!
-#LIGHT_UMBER#A ton#WHITE# of artifacts, lore, events... 
-
-]], "_t")
+-- 1 entries
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileLogin.lua"
--- 11 entries
-t("Online profile ", "Online profile ", "_t")
-t("Password again: ", "Password again: ", "_t")
-t("Email: ", "Email: ", "_t")
-t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "_t")
-t("You at least 16 years old, or have parental authorization to play the game.", "You at least 16 years old, or have parental authorization to play the game.", "_t")
-t("Privacy Policy (opens in browser)", "Privacy Policy (opens in browser)", "_t")
-t("Password mismatch!", "Password mismatch!", "_t")
+-- 3 entries
 t("Email", "Email", "_t")
 t("Your email seems invalid", "Your email seems invalid", "_t")
 t("Age Check", "Age Check", "_t")
-t("You need to be 16 years old or more or to have parental authorization to play this game.", "You need to be 16 years old or more or to have parental authorization to play this game.", "_t")
 
 
 ------------------------------------------------
 section "game/engines/default/modules/boot/dialogs/ProfileSteamRegister.lua"
--- 11 entries
+-- 6 entries
 t("Steam User Account", "Steam User Account", "_t")
 t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
 To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
@@ -1390,61 +924,10 @@ Luckily this is very easy to do: you only require a profile name and optionally 
 To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
 Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
 ]], "_t")
-t("Email: ", "Email: ", "_t")
-t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "_t")
-t("You at least 16 years old, or have parental authorization to play the game.", "You at least 16 years old, or have parental authorization to play the game.", "_t")
-t("Privacy Policy (opens in browser)", "Privacy Policy (opens in browser)", "_t")
 t("Email", "Email", "_t")
 t("Your email does not look right.", "Your email does not look right.", "_t")
 t("Age Check", "Age Check", "_t")
-t("You need to be 16 years old or more or to have parental authorization to play this game.", "You need to be 16 years old or more or to have parental authorization to play this game.", "_t")
 t("Username or Email already taken, please select an other one.", "Username or Email already taken, please select an other one.", "_t")
-
-
-------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/UpdateAll.lua"
--- 11 entries
-t("Update all game modules", "Update all game modules", "_t")
-t([[All those components will be updated:
-]], [[All those components will be updated:
-]], "_t")
-t("Component", "Component", "_t")
-t("All your game modules are up to date.", "All your game modules are up to date.", "_t")
-t("Nothing to update", "Nothing to update", "_t")
-t("Game: #{bold}##GOLD#", "Game: #{bold}##GOLD#", "_t")
-t("Engine: #{italic}##LIGHT_BLUE#", "Engine: #{italic}##LIGHT_BLUE#", "_t")
-t("Downloading: ", "Downloading: ", "_t")
-t([[There was an error while downloading:
-]], [[There was an error while downloading:
-]], "_t")
-t("All updates installed, the game will now restart", "All updates installed, the game will now restart", "_t")
-t("Update", "Update", "_t")
-
-
-------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/ViewHighScores.lua"
--- 4 entries
-t("View High Scores", "View High Scores", "_t")
-t("World", "World", "_t")
-t([[#{bold}##GOLD#%s#GREEN# High Scores#WHITE##{normal}#
-
-]], [[#{bold}##GOLD#%s#GREEN# High Scores#WHITE##{normal}#
-
-]], "tformat")
-t([[#{bold}##GOLD#%s(%s)#GREEN# High Scores#WHITE##{normal}#
-
-]], [[#{bold}##GOLD#%s(%s)#GREEN# High Scores#WHITE##{normal}#
-
-]], "tformat")
-
-
-------------------------------------------------
-section "game/engines/default/modules/boot/init.lua"
--- 2 entries
-t("Tales of Maj'Eyal Main Menu", "Tales of Maj'Eyal Main Menu", "init.lua long_name")
-t([[Bootmenu!
-]], [[Bootmenu!
-]], "init.lua description")
 
 
 ------------------------------------------------
@@ -1554,86 +1037,11 @@ t("%s", "%s", "log")
 
 ------------------------------------------------
 section "game/modules/tome/class/GameState.lua"
--- 73 entries
+-- 4 entries
 t("#AQUAMARINE#Most stores should have new stock now.", "#AQUAMARINE#Most stores should have new stock now.", "log")
-t("faceted", "faceted", "_t")
-t("faded", "faded", "_t")
-t("flawless", "flawless", "_t")
-t("gleaming", "gleaming", "_t")
-t("glistening", "glistening", "_t")
-t("glowing", "glowing", "_t")
-t("humming", "humming", "_t")
-t("immaculate", "immaculate", "_t")
-t("jewel-encrusted", "jewel-encrusted", "_t")
-t("laminated", "laminated", "_t")
-t("plated", "plated", "_t")
-t("rune-covered", "rune-covered", "_t")
-t("scintillating", "scintillating", "_t")
-t("shadowy", "shadowy", "_t")
-t("sigiled", "sigiled", "_t")
-t("silvered", "silvered", "_t")
-t("twisted", "twisted", "_t")
-t("unblemished", "unblemished", "_t")
 t("%s '%s'", "%s '%s'", "tformat")
-t("You have been ambushed!", "You have been ambushed!", "_t")
-t("Infinite Dungeon Challenge (Level %s): %s", "Infinite Dungeon Challenge (Level %s): %s", "tformat")
-t("Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "_t")
-t("Pacifist", "Pacifist", "_t")
-t("Exterminate every foe on the level.", "Exterminate every foe on the level.", "_t")
-t("Foes left: #LIGHT_RED#%s", "Foes left: #LIGHT_RED#%s", "tformat")
-t([[#LIGHT_RED#EXTERMINATE THIS FOE#LAST#
-%s]], [[#LIGHT_RED#EXTERMINATE THIS FOE#LAST#
-%s]], "tformat")
-t("Proceed directly to the next Infinite Dungeon level in less than %d turns (an exit is revealed on your map).", "Proceed directly to the next Infinite Dungeon level in less than %d turns (an exit is revealed on your map).", "tformat")
-t("Rush Hour (%d)", "Rush Hour (%d)", "tformat")
-t("\
-#ORCHID# Rush Hour: %s turns left!\
-", "\
-#ORCHID# Rush Hour: %s turns left!\
-", "log")
-t("Proceed to the next Infinite Dungeon level! An exit has been marked on your map.", "Proceed to the next Infinite Dungeon level! An exit has been marked on your map.", "_t")
-t("Dream Hunter", "Dream Hunter", "_t")
-t("Wake up and kill the dreaming horror boss '%s'.", "Wake up and kill the dreaming horror boss '%s'.", "tformat")
-t("Find, challenge, and kill your mirror clone on the level.", "Find, challenge, and kill your mirror clone on the level.", "_t")
-t("Mirror Match", "Mirror Match", "_t")
-t("An evil twin of %s%s", "An evil twin of %s%s", "tformat")
-t("Mirror Challenge of %s", "Mirror Challenge of %s", "tformat")
-t("#ORCHID#%s does not recognize you.", "#ORCHID#%s does not recognize you.", "logPlayer")
-t("Challenge your mirror clone and triumph!", "Challenge your mirror clone and triumph!", "_t")
-t("Challenge: #PURPLE#Mirror Match", "Challenge: #PURPLE#Mirror Match", "_t")
-t("#CRIMSON#The Fight Is Joined!", "#CRIMSON#The Fight Is Joined!", "say")
-t("Challenge: #PURPLE#Near Sighted", "Challenge: #PURPLE#Near Sighted", "_t")
-t("Proceed to the next Infinite Dungeon level with -7 sight range for a reward.", "Proceed to the next Infinite Dungeon level with -7 sight range for a reward.", "_t")
-t("Near Sighted", "Near Sighted", "_t")
-t("Proceed to the next Infinite Dungeon level with -7 sight range.", "Proceed to the next Infinite Dungeon level with -7 sight range.", "_t")
-t("All foes (including bosses) gain the ability to multiply up to 3 times.  You must survive for at least %d turns before exiting.", "All foes (including bosses) gain the ability to multiply up to 3 times.  You must survive for at least %d turns before exiting.", "tformat")
-t("Challenge: #PURPLE#Multiplicity", "Challenge: #PURPLE#Multiplicity", "_t")
-t("All foes have the multiply talent!", "All foes have the multiply talent!", "_t")
-t("Multiplicity", "Multiplicity", "_t")
-t("Turns left: #LIGHT_GREEN#%d", "Turns left: #LIGHT_GREEN#%d", "tformat")
-t("#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "say")
-t("Survive the multiplicative madness!", "Survive the multiplicative madness!", "_t")
-t("#rng# the Spawn of Urh'Rok", "#rng# the Spawn of Urh'Rok", "_t")
-t("Challenge: #PURPLE#Headhunter", "Challenge: #PURPLE#Headhunter", "_t")
-t("Kill %d spawns of Urh'Rok on the level before killing any other elite (or higher rank) creatures, for an uncommon reward.", "Kill %d spawns of Urh'Rok on the level before killing any other elite (or higher rank) creatures, for an uncommon reward.", "tformat")
-t("Headhunter", "Headhunter", "_t")
-t("Kill %d spawns of Urh'Rok on the level before killing any elite creatures.", "Kill %d spawns of Urh'Rok on the level before killing any elite creatures.", "tformat")
-t("%d / %d demon spawn killed.", "%d / %d demon spawn killed.", "tformat")
-t("#ORCHID#You claim the head of %s, giving pause to all foes on the level.", "#ORCHID#You claim the head of %s, giving pause to all foes on the level.", "say")
-t("Refuse", "Refuse", "_t")
-t("Random Artifact", "Random Artifact", "_t")
-t("Random Artifact: %s", "Random Artifact: %s", "tformat")
-t("+3 Stat Points", "+3 Stat Points", "_t")
-t("+1 Class Point", "+1 Class Point", "_t")
-t("+1 Generic Point", "+1 Generic Point", "_t")
-t("+1 Category Point", "+1 Category Point", "_t")
-t("+1 Prodigy Point", "+1 Prodigy Point", "_t")
 t("#OLIVE_DRAB#%s: %s", "#OLIVE_DRAB#%s: %s", "tformat")
-t("Reward", "Reward", "_t")
-t("Rewards", "Rewards", "_t")
-t("#LIGHT_BLUE#%s has received: %s.", "#LIGHT_BLUE#%s has received: %s.", "log")
 t("#LIGHT_GREEN#%s", "#LIGHT_GREEN#%s", "logPlayer")
-t("You have unlocked a new talent: %s!", "You have unlocked a new talent: %s!", "tformat")
 
 
 ------------------------------------------------
@@ -1669,38 +1077,6 @@ t("%+d #LAST#(%+d eff.)", "%+d #LAST#(%+d eff.)", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/class/Party.lua"
--- 20 entries
-t("Party member", "Party member", "_t")
-t("Can not switch control to this creature.", "Can not switch control to this creature.", "logPlayer")
-t("Switching control", "Switching control", "_t")
-t("#MOCCASIN#Character control switched to %s.", "#MOCCASIN#Character control switched to %s.", "logPlayer")
-t("Can not give orders to this creature.", "Can not give orders to this creature.", "logPlayer")
-t("Set action radius: %s", "Set action radius: %s", "tformat")
-t("Set the maximum distance this creature can go from the party master", "Set the maximum distance this creature can go from the party master", "_t")
-t("%s maximum action radius set to %d.", "%s maximum action radius set to %d.", "logPlayer")
-t("that location", "that location", "_t")
-t("%s will stay near %s.", "%s will stay near %s.", "logPlayer")
-t("%s targets #Target#.", "%s targets #Target#.", "logCombat")
-t("Change name of: %s", "Change name of: %s", "tformat")
-t("%s is dismissed!", "%s is dismissed!", "log")
-t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "log")
-t("No, we must hurry!", "No, we must hurry!", "_t")
-t("Ok, but not for long.", "Ok, but not for long.", "_t")
-t("very close", "very close", "_t")
-t("close", "close", "_t")
-t("still far away", "still far away", "_t")
-t("The portal is %s, to the %s.", "The portal is %s, to the %s.", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/class/PartyMember.lua"
--- 2 entries
-t("Behavior: %s", "Behavior: %s", "tformat")
-t("Action radius: %d", "Action radius: %d", "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/class/Player.lua"
 -- 1 entries
 t("", "", "log")
@@ -1708,80 +1084,15 @@ t("", "", "log")
 
 ------------------------------------------------
 section "game/modules/tome/class/Projectile.lua"
--- 9 entries
-t("Projectile: ", "Projectile: ", "_t")
-t("Origin: ", "Origin: ", "_t")
-t("Speed: %d%% %s", "Speed: %d%% %s", "tformat")
-t("Affect origin chance: ", "Affect origin chance: ", "_t")
-t("Affect origin's friends chance: ", "Affect origin's friends chance: ", "_t")
+-- 1 entries
 t("UID: ", "UID: ", "_t")
-t(" homing: %s(%s, %s)", " homing: %s(%s, %s)", "tformat")
-t(" range: ", " range: ", "_t")
-t("projectile", "projectile", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/class/Store.lua"
--- 11 entries
-t("Not enough gold", "Not enough gold", "_t")
-t("You do not have the %0.2f gold needed!", "You do not have the %0.2f gold needed!", "tformat")
-t("Buy %d %s for %0.2f gold%s?", "Buy %d %s for %0.2f gold%s?", "tformat")
-t("Bought: %s %s for %0.2f gold.", "Bought: %s %s for %0.2f gold.", "log")
-t(" (%0.2f each)", " (%0.2f each)", "tformat")
-t("Sell %d %s for %0.2f gold%s?", "Sell %d %s for %0.2f gold%s?", "tformat")
-t("Sold: %s %s for %0.2f gold.", "Sold: %s %s for %0.2f gold.", "log")
-t("Buy for: %0.2f gold (You have %0.2f gold)", "Buy for: %0.2f gold (You have %0.2f gold)", "tformat")
-t("Sell for: %0.2f gold (You have %0.2f gold)", "Sell for: %0.2f gold (You have %0.2f gold)", "tformat")
-t("This entity can not access inventories.", "This entity can not access inventories.", "logPlayer")
-t("You must be level %d to access this shop.", "You must be level %d to access this shop.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/Trap.lua"
--- 33 entries
-t("#LIGHT_GREEN#%d turns #WHITE#", "#LIGHT_GREEN#%d turns #WHITE#", "tformat")
-t("<Store>", "<Store>", "_t")
-t("(beneficial)", "(beneficial)", "_t")
-t("(beneficial to enemies)", "(beneficial to enemies)", "_t")
-t("(safe)", "(safe)", "_t")
-t("pressure_trigger", "pressure_trigger", "_t")
-t("#YELLOW#Detect: %d#WHITE#", "#YELLOW#Detect: %d#WHITE#", "tformat")
-t("#YELLOW# Disarm: %d#WHITE#", "#YELLOW# Disarm: %d#WHITE#", "tformat")
-t("Dismantling", "Dismantling", "_t")
-t("dismantled", "dismantled", "_t")
-t("Your level of skill was not enough to understand the workings of this trap.", "Your level of skill was not enough to understand the workings of this trap.", "_t")
-t("You quit dismantling the trap.", "You quit dismantling the trap.", "_t")
+-- 2 entries
 t("#LIGHT_BLUE#%s: %s#LAST#", "#LIGHT_BLUE#%s: %s#LAST#", "logPlayer")
-t("Failure", "Failure", "_t")
-t("Success", "Success", "_t")
-t("\
-#LIGHT_BLUE#Trap Description:#WHITE#\
-", "\
-#LIGHT_BLUE#Trap Description:#WHITE#\
-", "_t")
-t("Disarming a trap: %s", "Disarming a trap: %s", "tformat")
-t([[As you begin disarming the trap, you think you may be able to learn how it works by carefully dismantling it.  You estimate this will take up to #YELLOW#%d#LAST# uninterrupted turns.
-	What do you want to do?
-%s
-]], [[As you begin disarming the trap, you think you may be able to learn how it works by carefully dismantling it.  You estimate this will take up to #YELLOW#%d#LAST# uninterrupted turns.
-	What do you want to do?
-%s
-]], "tformat")
-t("not resting", "not resting", "_t")
-t("You set off the trap!", "You set off the trap!", "_t")
-t("You successfully dismantled the trap.", "You successfully dismantled the trap.", "_t")
-t("You were interrupted.", "You were interrupted.", "_t")
-t("Disarm Normally", "Disarm Normally", "_t")
-t("Dismantle Carefully", "Dismantle Carefully", "_t")
-t("ignore", "ignore", "_t")
-t("simply ignore", "simply ignore", "_t")
-t("carefully avoid", "carefully avoid", "_t")
-t("somehow avoid", "somehow avoid", "_t")
-t("dodge", "dodge", "_t")
-t("#CADET_BLUE#You %s a trap (%s).", "#CADET_BLUE#You %s a trap (%s).", "log")
 t("#CADET_BLUE#%s %ss %s.", "#CADET_BLUE#%s %ss %s.", "logSeen")
-t("a trap (%s)", "a trap (%s)", "tformat")
-t("something on the floor", "something on the floor", "_t")
 
 
 ------------------------------------------------
@@ -1796,66 +1107,19 @@ t("SHAKING", "SHAKING", "log")
 
 ------------------------------------------------
 section "game/modules/tome/class/World.lua"
--- 2 entries
+-- 1 entries
 t("%s the %s %s level %s", "%s the %s %s level %s", "tformat")
-t("#LIGHT_BLUE#New shimmer option unlocked: #{italic}#%s#{normal}#", "#LIGHT_BLUE#New shimmer option unlocked: #{italic}#%s#{normal}#", "log")
-
-
-------------------------------------------------
-section "game/modules/tome/class/WorldNPC.lua"
--- 3 entries
-t("#Target# kills #Source#.", "#Target# kills #Source#.", "logCombat")
-t("#Source# kills #Target#.", "#Source# kills #Target#.", "logCombat")
-t("Killed by you: ", "Killed by you: ", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/generator/actor/Arena.lua"
--- 26 entries
-t("Skeletal rats", "Skeletal rats", "_t")
-t("Gladiators", "Gladiators", "_t")
-t("Golden crystals", "Golden crystals", "_t")
-t("Master slingers", "Master slingers", "_t")
-t("Master Alchemist", "Master Alchemist", "_t")
-t("Multi-hued Wyrmic", "Multi-hued Wyrmic", "_t")
-t("Headless horror", "Headless horror", "_t")
-t("Boss fight!", "Boss fight!", "_t")
-t("Victory!!", "Victory!!", "_t")
-t(" appear!!", " appear!!", "_t")
-t(" appears!!", " appears!!", "_t")
+-- 1 entries
 t("#LIGHT_RED#%s%s", "#LIGHT_RED#%s%s", "log")
-t("#LIGHT_RED#WARNING! %s appears!!!", "#LIGHT_RED#WARNING! %s appears!!!", "log")
-t("Rej the Master of Arena", "Rej the Master of Arena", "_t")
-t("#LIGHT_RED#WARNING! Rej Arkatis, the master of the arena, appears!!!", "#LIGHT_RED#WARNING! Rej Arkatis, the master of the arena, appears!!!", "log")
-t("The final fight!", "The final fight!", "_t")
-t("Congratulations!", "Congratulations!", "_t")
-t("%s the Master of Arena", "%s the Master of Arena", "tformat")
-t("#LIGHT_RED#WARNING! %s, the master of the arena, appears!!!", "#LIGHT_RED#WARNING! %s, the master of the arena, appears!!!", "log")
-t("OVERKILL", "OVERKILL", "_t")
-t("#LIGHT_GREEN#Your powerful attack completely obliterates #WHITE#%s#LIGHT_GREEN#!", "#LIGHT_GREEN#Your powerful attack completely obliterates #WHITE#%s#LIGHT_GREEN#!", "log")
-t("#LIGHT_GREEN#You destroy #WHITE#%s#LIGHT_GREEN# in a single blow!", "#LIGHT_GREEN#You destroy #WHITE#%s#LIGHT_GREEN# in a single blow!", "log")
-t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#%d#LIGHT_GREEN#!", "#LIGHT_GREEN#Your score multiplier increases by #WHITE#%d#LIGHT_GREEN#!", "log")
-t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#0.1#LIGHT_GREEN#!", "#LIGHT_GREEN#Your score multiplier increases by #WHITE#0.1#LIGHT_GREEN#!", "log")
-t("#YELLOW#You defeat an experienced enemy!", "#YELLOW#You defeat an experienced enemy!", "log")
-t("#LIGHT_GREEN#The audience cheers!", "#LIGHT_GREEN#The audience cheers!", "log")
-
-
-------------------------------------------------
-section "game/modules/tome/class/generator/actor/HighPeakFinal.lua"
--- 1 entries
-t("An entity appears through the portal!", "An entity appears through the portal!", "logSeen")
-
-
-------------------------------------------------
-section "game/modules/tome/class/generator/actor/ValleyMoon.lua"
--- 1 entries
-t("Limmir summons a blast of holy light!", "Limmir summons a blast of holy light!", "logSeen")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/ActorAI.lua"
--- 7 entries
-t("#Source# shoves #Target# aside.", "#Source# shoves #Target# aside.", "logCombat")
+-- 6 entries
 t("%s #PINK#searching for safer grids [radius %s from (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "%s #PINK#searching for safer grids [radius %s from (%s, %s), val = %s], dam_wt=%s, air_wt=%s, dist_weight=%s, want_closer=%s", "log")
 t("#PINK# --best reachable grid: (%d, %d) (dist: %s, val: %s(%s))", "#PINK# --best reachable grid: (%d, %d) (dist: %s, val: %s(%s))", "log")
 t("_[%d]%s %s%s tactical weight CACHE MISMATCH (%s) vs %s[%d]{%s}: %s vs %s(cache)", "_[%d]%s %s%s tactical weight CACHE MISMATCH (%s) vs %s[%d]{%s}: %s vs %s(cache)", "log")
@@ -1865,64 +1129,10 @@ t("#YELLOW_GREEN#__Computed tactics: %s", "#YELLOW_GREEN#__Computed tactics: %s"
 
 
 ------------------------------------------------
-section "game/modules/tome/class/interface/ActorInscriptions.lua"
--- 5 entries
-t("You are unable to use this kind of inscription.", "You are unable to use this kind of inscription.", "logPlayer")
-t("You already have too many of this inscription.", "You already have too many of this inscription.", "logPlayer")
-t("You have no more inscription slots.", "You have no more inscription slots.", "logPlayer")
-t("You are now inscribed with %s.", "You are now inscribed with %s.", "logPlayer")
-t("Your %s is depleted!", "Your %s is depleted!", "logPlayer")
-
-
-------------------------------------------------
 section "game/modules/tome/class/interface/ActorObjectUse.lua"
--- 8 entries
-t("Activate an object", "Activate an object", "_t")
-t("Activate: %s", "Activate: %s", "tformat")
+-- 2 entries
 t("%s", "%s", "logSeen")
-t("Activate an object.", "Activate an object.", "_t")
-t("(unknown object)", "(unknown object)", "_t")
-t([[Use %s:
-
-%s]], [[Use %s:
-
-%s]], "tformat")
-t("Activate %s", "Activate %s", "tformat")
 t("nothing", "nothing", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/class/interface/Archery.lua"
--- 9 entries
-t("You need a missile launcher (%s)!", "You need a missile launcher (%s)!", "logPlayer")
-t("#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "logPlayer")
-t("#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "logPlayer")
-t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "logPlayer")
-t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "logPlayer")
-t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)", "tformat")
-t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!", "logSeen")
-t("You are disarmed!", "You are disarmed!", "logPlayer")
-t("You must wield a ranged weapon (%s)!", "You must wield a ranged weapon (%s)!", "logPlayer")
-
-
-------------------------------------------------
-section "game/modules/tome/class/interface/Combat.lua"
--- 15 entries
-t("%s is too afraid to attack.", "%s is too afraid to attack.", "logSeen")
-t("%s is too terrified to attack.", "%s is too terrified to attack.", "logSeen")
-t("#Target# notices you at the last moment!", "#Target# notices you at the last moment!", "logCombat")
-t("#ORCHID#%s cleverly deflects the attack with %s shield!#LAST#", "#ORCHID#%s cleverly deflects the attack with %s shield!#LAST#", "logSeen")
-t("#ORCHID#%s parries the attack with %s dual weapons!#LAST#", "#ORCHID#%s parries the attack with %s dual weapons!#LAST#", "logSeen")
-t("#ORCHID#%s instinctively hardens %s skin and ignores the attack!#LAST#", "#ORCHID#%s instinctively hardens %s skin and ignores the attack!#LAST#", "logSeen")
-t("#Target# repels an attack from #Source#.", "#Target# repels an attack from #Source#.", "logCombat")
-t("#Target# evades #Source#.", "#Target# evades #Source#.", "logCombat")
-t("%s(%d parried#LAST#)", "%s(%d parried#LAST#)", "tformat")
-t("%s(%d gestured#LAST#)", "%s(%d gestured#LAST#)", "tformat")
-t("The shattering blow creates a shockwave!", "The shattering blow creates a shockwave!", "logSeen")
-t("#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "logPlayer")
-t("#Source# counter attacks #Target# with %s shield shards!", "#Source# counter attacks #Target# with %s shield shards!", "logCombat")
-t("#Source#'s grapple fails because #Target# is too big!", "#Source#'s grapple fails because #Target# is too big!", "logCombat")
-t("%s resists the grapple!", "%s resists the grapple!", "logSeen")
 
 
 ------------------------------------------------
@@ -2171,36 +1381,6 @@ t("", "", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/calendar_allied.lua"
--- 9 entries
-t("Allure", "Allure", "calendar allied")
-t("Regrowth", "Regrowth", "calendar allied")
-t("Time of Balance", "Time of Balance", "calendar allied")
-t("Pyre", "Pyre", "calendar allied")
-t("Mirth", "Mirth", "calendar allied")
-t("Dusk", "Dusk", "calendar allied")
-t("Time of Equilibrium", "Time of Equilibrium", "calendar allied")
-t("Haze", "Haze", "calendar allied")
-t("Decay", "Decay", "calendar allied")
-
-
-------------------------------------------------
-section "game/modules/tome/data/calendar_dwarf.lua"
--- 11 entries
-t("Iron", "Iron", "calendar dwarf")
-t("Steel", "Steel", "calendar dwarf")
-t("Gold", "Gold", "calendar dwarf")
-t("Stralite", "Stralite", "calendar dwarf")
-t("Voratun", "Voratun", "calendar dwarf")
-t("Acquisition", "Acquisition", "calendar dwarf")
-t("Profit", "Profit", "calendar dwarf")
-t("Wealth", "Wealth", "calendar dwarf")
-t("Dearth", "Dearth", "calendar dwarf")
-t("Loss", "Loss", "calendar dwarf")
-t("Shortage", "Shortage", "calendar dwarf")
-
-
-------------------------------------------------
 section "game/modules/tome/data/chats/arena.lua"
 -- 1 entries
 t("...", "...", "_t")
@@ -2351,13 +1531,6 @@ t("", "", "_t")
 section "game/modules/tome/data/general/objects/gem.lua"
 -- 1 entries
 t("..", "..", "entity name")
-
-
-------------------------------------------------
-section "game/modules/tome/data/general/objects/objects-far-east.lua"
--- 2 entries
-t("ancient tome", "ancient tome", "_t")
-t("Ancient Tome titled 'Gems and their uses'", "Ancient Tome titled 'Gems and their uses'", "entity name")
 
 
 ------------------------------------------------
@@ -2658,376 +1831,6 @@ t("", "", "_t")
 section "game/modules/tome/data/general/objects/world-artifacts.lua"
 -- 1 entries
 t("%s: %s", "%s: %s", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/lore/age-allure.lua"
--- 14 entries
-t([[#{italic}#To: Research Director Hompalan - #{bold}#TOP PRIORITY#{normal}#
-
-Thanks to one of our scouting parties catching a Conclave lieutenant's squad off-guard, we have found directions to a noteworthy laboratory hidden underground, in what's newly Nargol territory.  Unfortunately, the long-legs scuttled the entrances before we could arrive, and it'd take us years to dig ourselves in, even if we could afford recalling our geomancers from the front lines to work on it - which we can't.  
-
-Your new objective is to find a way to warp a recovery team inside to scavenge it, then get them back safely with their data in tow.  It's possible that they've figured out a way to ward it against teleportation; enclosed is a key, in case it's necessary to target a point between the obstruction and the entrance.  I don't want to hear any of your nonsense about it being "impossible" without a linked portal near the destination; thirty years ago, you would've told me that almost everything you're now doing on a daily basis is impossible.
-
-I know you think yourself "above" such "petty politics" like how vital this facility would be to our survival, so I won't bore you with stressing how important this is to us.  Accordingly, let me put this in terms you can relate to: This is an order, and your usual excuses won't cut it.  Your job is on the line.  #{bold}#Make.  It.  Work.#{normal}#
-
--General Martolep
-
-#{italic}#(Some coordinates are enclosed, along with a large, magic-infused key.  You think you can figure out, roughly, where this sealed Conclave facility is.)#{normal}#
-]], [[#{italic}#To: Research Director Hompalan - #{bold}#TOP PRIORITY#{normal}#
-
-Thanks to one of our scouting parties catching a Conclave lieutenant's squad off-guard, we have found directions to a noteworthy laboratory hidden underground, in what's newly Nargol territory.  Unfortunately, the long-legs scuttled the entrances before we could arrive, and it'd take us years to dig ourselves in, even if we could afford recalling our geomancers from the front lines to work on it - which we can't.  
-
-Your new objective is to find a way to warp a recovery team inside to scavenge it, then get them back safely with their data in tow.  It's possible that they've figured out a way to ward it against teleportation; enclosed is a key, in case it's necessary to target a point between the obstruction and the entrance.  I don't want to hear any of your nonsense about it being "impossible" without a linked portal near the destination; thirty years ago, you would've told me that almost everything you're now doing on a daily basis is impossible.
-
-I know you think yourself "above" such "petty politics" like how vital this facility would be to our survival, so I won't bore you with stressing how important this is to us.  Accordingly, let me put this in terms you can relate to: This is an order, and your usual excuses won't cut it.  Your job is on the line.  #{bold}#Make.  It.  Work.#{normal}#
-
--General Martolep
-
-#{italic}#(Some coordinates are enclosed, along with a large, magic-infused key.  You think you can figure out, roughly, where this sealed Conclave facility is.)#{normal}#
-]], "_t")
-t("Door to an old Conclave vault", "Door to an old Conclave vault", "_t")
-t("Arriving at the location given by the coordinates, you see an enormous crack in the ground; peering down, the gleam of exposed metal catches your eye, and you recognize it as a massive door.  It would seem that the Cataclysm's tectonic upheaval has carved a path right to one of its entrances, bypassing the ruined tunnels entirely. You climb down, just outside the door.", "Arriving at the location given by the coordinates, you see an enormous crack in the ground; peering down, the gleam of exposed metal catches your eye, and you recognize it as a massive door.  It would seem that the Cataclysm's tectonic upheaval has carved a path right to one of its entrances, bypassing the ruined tunnels entirely. You climb down, just outside the door.", "_t")
-t("Conclave Vault", "Conclave Vault", "_t")
-t("healer Astelrid log 1", "healer Astelrid log 1", "_t")
-t([[Work in a hospital like this is more draining than I thought it'd be.  I thought I'd have no trouble with motivation, helping our wounded get back to health again, but seeing so many of them, and knowing there are some I cannot help...  it weighs heavily on my mind.  It would be difficult to go on, if I did not keep a few things in mind: 
-
-One, that I am truly doing the best I can to minimize the world's suffering, both directly by healing, and indirectly by ensuring that the world will be united under the wise, thoughtful rule of the Conclave.  Ready access to regeneration infusions ensures that even the most dire of wounds can be healed in a matter of days, and the soldiers can return to the battlefield; furthermore, the Overseers have granted us access to their amnesia-inducing spells, allowing us to properly treat those who have been traumatized by the horrors of battle.  May the eyes of the Higher watch over this world for thousands of years to come.
-
-Two, that the "side project" the Overseers have assigned me to is working out very well.  Those wounded who have consented to our trial treatments, consisting of a unique combination of experimental variations on heroism infusions and shielding runes, have experienced slightly increased physical strength and endurance, with no sign of the effects wearing off.  There is one mild side effect which has given me cause to worry, though I dare not speak of my misgivings to anyone else; some of those treated have needed to be disciplined for getting too "enthusiastic" in battle.  The Overseers have assured me that this is actually having a net positive effect on morale, and thus I can wait to cure these aggressive tendencies until the war is over.  In the meantime, I am proud of my work, and although it's nothing so glorious as the creation of the Higher race, it will be a tremendous boon to our society in the long term.
-
-And three, that the war will soon be over, and with it we shall no longer have to bear the maiming of our proud soldiers and the impudence of the Nargol.  We have made impressive gains in territory in the last few days, thwarting numerous ambushes and keeping our momentum as we expand further into Nargol lands.  Granted, one cannot be sure of how much of what we're hearing has been "cleaned up" by the Overseers, but one recent statement from the Nargol leads me to believe it is the truth:
-
-"This is your last chance to back down.  A great tragedy will ensue if you continue to push further, and do not accept our previously-stated terms of peaceful resolution.  Do not force us to do this."
-
-After waging a war of trickery and deceit, those halflings think they can bluff us!  Once their military is broken, we can bring their citizens into our fold and enlighten them, and then the true healing can begin.]], [[Work in a hospital like this is more draining than I thought it'd be.  I thought I'd have no trouble with motivation, helping our wounded get back to health again, but seeing so many of them, and knowing there are some I cannot help...  it weighs heavily on my mind.  It would be difficult to go on, if I did not keep a few things in mind: 
-
-One, that I am truly doing the best I can to minimize the world's suffering, both directly by healing, and indirectly by ensuring that the world will be united under the wise, thoughtful rule of the Conclave.  Ready access to regeneration infusions ensures that even the most dire of wounds can be healed in a matter of days, and the soldiers can return to the battlefield; furthermore, the Overseers have granted us access to their amnesia-inducing spells, allowing us to properly treat those who have been traumatized by the horrors of battle.  May the eyes of the Higher watch over this world for thousands of years to come.
-
-Two, that the "side project" the Overseers have assigned me to is working out very well.  Those wounded who have consented to our trial treatments, consisting of a unique combination of experimental variations on heroism infusions and shielding runes, have experienced slightly increased physical strength and endurance, with no sign of the effects wearing off.  There is one mild side effect which has given me cause to worry, though I dare not speak of my misgivings to anyone else; some of those treated have needed to be disciplined for getting too "enthusiastic" in battle.  The Overseers have assured me that this is actually having a net positive effect on morale, and thus I can wait to cure these aggressive tendencies until the war is over.  In the meantime, I am proud of my work, and although it's nothing so glorious as the creation of the Higher race, it will be a tremendous boon to our society in the long term.
-
-And three, that the war will soon be over, and with it we shall no longer have to bear the maiming of our proud soldiers and the impudence of the Nargol.  We have made impressive gains in territory in the last few days, thwarting numerous ambushes and keeping our momentum as we expand further into Nargol lands.  Granted, one cannot be sure of how much of what we're hearing has been "cleaned up" by the Overseers, but one recent statement from the Nargol leads me to believe it is the truth:
-
-"This is your last chance to back down.  A great tragedy will ensue if you continue to push further, and do not accept our previously-stated terms of peaceful resolution.  Do not force us to do this."
-
-After waging a war of trickery and deceit, those halflings think they can bluff us!  Once their military is broken, we can bring their citizens into our fold and enlighten them, and then the true healing can begin.]], "_t")
-t("healer Astelrid log 2", "healer Astelrid log 2", "_t")
-t([[The Nargol were not bluffing, and what they did was worse than anything we could've imagined.  The details coming from the survivors - of which there are both far too many and far too few - are conflicting at times, but from what I can tell...
-
-As our forces began their final push, the ground began to rumble and give way behind them, and the bones of the war's fallen (halflings and Conclave alike) began to rise up, then draw their once-discarded weapons and rush at our soldiers in a frenzy.  There were so many...  those who were on higher ground when it happened said it was like a sea of bones and rotting flesh.  Outnumbered, our forces broke ranks and tried to retreat, but with the halflings in front of them and the abominations behind them, we took tremendous losses...  and our humble medical center is overflowing with the gravely wounded.  Many come to us with a terrible sickness passed on by the Nargol's ghouls; there is no cure for this, and I have already had to "mercifully" end the lives of over a dozen men and women to save them from a long, drawn-out death, ending in their transfiguration into one of those horrid creatures...  including--
-
-[The end of the preceding paragraph, several lines' worth of text, has been furiously scribbled out.]
-
-No...  the real horrid creatures here are the halflings.  We've seen necromancy before, but mostly as a parlor trick by deranged cults; we never dreamed that any large organization would tolerate it, let alone hide necromantic charms on every one of its ranking officers.  They've been planning to do this since the start of the war, and only sprung the trap now...  Any misgivings I had about the aggression associated with our new treatment are gone forever; we cannot be ferocious enough in purging these fiends from Maj'Eyal.  I have requested an audience with the Overseers to broaden the scope of our experiments, setting our sights higher so we may crush this evil empire as swiftly as possible.  
-
-May the Conclave prevail, and may the Empire's fate serve as a warning to all who would defy our wisdom.]], [[The Nargol were not bluffing, and what they did was worse than anything we could've imagined.  The details coming from the survivors - of which there are both far too many and far too few - are conflicting at times, but from what I can tell...
-
-As our forces began their final push, the ground began to rumble and give way behind them, and the bones of the war's fallen (halflings and Conclave alike) began to rise up, then draw their once-discarded weapons and rush at our soldiers in a frenzy.  There were so many...  those who were on higher ground when it happened said it was like a sea of bones and rotting flesh.  Outnumbered, our forces broke ranks and tried to retreat, but with the halflings in front of them and the abominations behind them, we took tremendous losses...  and our humble medical center is overflowing with the gravely wounded.  Many come to us with a terrible sickness passed on by the Nargol's ghouls; there is no cure for this, and I have already had to "mercifully" end the lives of over a dozen men and women to save them from a long, drawn-out death, ending in their transfiguration into one of those horrid creatures...  including--
-
-[The end of the preceding paragraph, several lines' worth of text, has been furiously scribbled out.]
-
-No...  the real horrid creatures here are the halflings.  We've seen necromancy before, but mostly as a parlor trick by deranged cults; we never dreamed that any large organization would tolerate it, let alone hide necromantic charms on every one of its ranking officers.  They've been planning to do this since the start of the war, and only sprung the trap now...  Any misgivings I had about the aggression associated with our new treatment are gone forever; we cannot be ferocious enough in purging these fiends from Maj'Eyal.  I have requested an audience with the Overseers to broaden the scope of our experiments, setting our sights higher so we may crush this evil empire as swiftly as possible.  
-
-May the Conclave prevail, and may the Empire's fate serve as a warning to all who would defy our wisdom.]], "_t")
-t("healer Astelrid log 3", "healer Astelrid log 3", "_t")
-t([[The Overseers were ecstatic about my ideas!  Our staff have been relocated to a more secure location, deep underground with several extensive tunnels leading in from different locations.  Although this means we can no longer leave to harvest herbs for our infusions, the increased budget the Overseers have given us does more than enough to compensate.  Many wounded are still brought to me through the tunnels, but now our goal is not simply to make them as strong and healthy as they were before, but far stronger and far healthier than they could've dreamed.  They are brought to us unconscious, with amnesia spells already applied to ensure they do not resist our experiments; although they are not told they will be test subjects before being brought here, we are sure they would consent to these experiments, if they knew how valuable they were to help the Conclave.  As such, although this process violates several oaths we have taken as healers, I ultimately do not see any moral problem with this, and nobody else at this facility has expressed any concerns to me.  After all, those who join the Conclave as soldiers have already volunteered to give their lives in service to the Overseers' enlightened rule, and this is surely a much more productive way to do so than dying to a Nargol sling-bullet.
-
-With access to better components, we can make the same basic improvements to their strength as we could before, but the changes do not stop there!  With so many subjects to work with, and the Overseers' encouragement to take risks, we've made them much larger (with associated multiplying effects on their effectiveness in combat), and reinforced their constitution to be capable of bearing more inscriptions without collapsing under the stress.  A fellow researcher had the brilliant idea to use this runic affinity to both enhance their connection to magic's weave, and make them biologically and structurally dependent on it; now, our front-line soldiers can conjure devastating fireballs with little training, and should those hairy-footed vermin attempt to raise one of these soldiers from the dead, they will collapse, having lost the magic that kept them intact when they still lived.  
-
-The Overseers have been working with us personally to make psychological changes as well; with the blank slate provided by the amnesia spell, we've managed to give them a mindset that will serve them well both during the war and for our glorious reign that shall follow.  Extraordinarily dutiful, helpful and striving for excellence in their daily lives without lusting for power or personal glory, wise about their place in the world, and slow to anger...  but utterly ferocious when needed.  Just as the Higher were created to be scholars and policy-makers, and have proven successful in this role beyond the Conclave's wildest dreams, these new "Ogres" (as the staff has taken to nicknaming them) shall be our laborers and soldiers, a solid foundation of hard work and dutiful enforcement on which our society shall be built.  There will still be a place for the unaltered races, of course; their natural adaptability will make them perfect to fill in the gaps, as the glue that holds everything else together.
-
-These Ogres are integrating into our military very well!  The rank-and-file soldiers know better than to attract attention from the Overseers by asking too many questions about where their new, giant allies came from, and thus acceptance came rather swiftly once they saw these creations in action.  We received one report that an Ogre sergeant was seen eating a particularly insolent halfling alive, after he feigned surrender and attempted to cast a lightning spell; this spectacle was both highly motivating to our troops and demoralized the remnants of that halfling's squad into surrendering, so I shall be enhancing their digestive capabilities as well.  
-
-For the most part, though, our research work is done.  All that's left to do is get a response from the Overseers as to whether to increase their birth rate or not (currently set very low as a precaution against future overpopulation), and improve the training we give freshly-created Ogres for runic magic, given that regular maintenance of their runes is necessary to keep them alive.  This is not to say we have idle staff, however!  Some of us have made a project for after the war ends - a modification to our experimental growth-tanks, rendering them capable of holding a person of Ogric biology indefinitely in a "sleeping" state where they do not age or starve.  We can install tanks filled with these "sleeping" Ogres stationed near bridges that may need regular maintenance, stashed in reserve armories, or any other place where you'd need a batch of dependable workers or guards, without having to incur all the other costs associated with keeping extra citizens around.
-]], [[The Overseers were ecstatic about my ideas!  Our staff have been relocated to a more secure location, deep underground with several extensive tunnels leading in from different locations.  Although this means we can no longer leave to harvest herbs for our infusions, the increased budget the Overseers have given us does more than enough to compensate.  Many wounded are still brought to me through the tunnels, but now our goal is not simply to make them as strong and healthy as they were before, but far stronger and far healthier than they could've dreamed.  They are brought to us unconscious, with amnesia spells already applied to ensure they do not resist our experiments; although they are not told they will be test subjects before being brought here, we are sure they would consent to these experiments, if they knew how valuable they were to help the Conclave.  As such, although this process violates several oaths we have taken as healers, I ultimately do not see any moral problem with this, and nobody else at this facility has expressed any concerns to me.  After all, those who join the Conclave as soldiers have already volunteered to give their lives in service to the Overseers' enlightened rule, and this is surely a much more productive way to do so than dying to a Nargol sling-bullet.
-
-With access to better components, we can make the same basic improvements to their strength as we could before, but the changes do not stop there!  With so many subjects to work with, and the Overseers' encouragement to take risks, we've made them much larger (with associated multiplying effects on their effectiveness in combat), and reinforced their constitution to be capable of bearing more inscriptions without collapsing under the stress.  A fellow researcher had the brilliant idea to use this runic affinity to both enhance their connection to magic's weave, and make them biologically and structurally dependent on it; now, our front-line soldiers can conjure devastating fireballs with little training, and should those hairy-footed vermin attempt to raise one of these soldiers from the dead, they will collapse, having lost the magic that kept them intact when they still lived.  
-
-The Overseers have been working with us personally to make psychological changes as well; with the blank slate provided by the amnesia spell, we've managed to give them a mindset that will serve them well both during the war and for our glorious reign that shall follow.  Extraordinarily dutiful, helpful and striving for excellence in their daily lives without lusting for power or personal glory, wise about their place in the world, and slow to anger...  but utterly ferocious when needed.  Just as the Higher were created to be scholars and policy-makers, and have proven successful in this role beyond the Conclave's wildest dreams, these new "Ogres" (as the staff has taken to nicknaming them) shall be our laborers and soldiers, a solid foundation of hard work and dutiful enforcement on which our society shall be built.  There will still be a place for the unaltered races, of course; their natural adaptability will make them perfect to fill in the gaps, as the glue that holds everything else together.
-
-These Ogres are integrating into our military very well!  The rank-and-file soldiers know better than to attract attention from the Overseers by asking too many questions about where their new, giant allies came from, and thus acceptance came rather swiftly once they saw these creations in action.  We received one report that an Ogre sergeant was seen eating a particularly insolent halfling alive, after he feigned surrender and attempted to cast a lightning spell; this spectacle was both highly motivating to our troops and demoralized the remnants of that halfling's squad into surrendering, so I shall be enhancing their digestive capabilities as well.  
-
-For the most part, though, our research work is done.  All that's left to do is get a response from the Overseers as to whether to increase their birth rate or not (currently set very low as a precaution against future overpopulation), and improve the training we give freshly-created Ogres for runic magic, given that regular maintenance of their runes is necessary to keep them alive.  This is not to say we have idle staff, however!  Some of us have made a project for after the war ends - a modification to our experimental growth-tanks, rendering them capable of holding a person of Ogric biology indefinitely in a "sleeping" state where they do not age or starve.  We can install tanks filled with these "sleeping" Ogres stationed near bridges that may need regular maintenance, stashed in reserve armories, or any other place where you'd need a batch of dependable workers or guards, without having to incur all the other costs associated with keeping extra citizens around.
-]], "_t")
-t("healer Astelrid log 4", "healer Astelrid log 4", "_t")
-t([[Announcement to All Staff:
-
-I'm sure you've all heard the rumors about what our scryers saw, and why we've been on lockdown the past few days; it is with a heavy heart that I must confirm that they are true.  The Nargol have taken the land above our facility, and are combing the area with golems to find the entrances.  We've already lost one entrance to the failsafe explosive-rune traps set in place to collapse it, and now they'll be looking to defuse those as well.  In short, we have no means of escape, and if allowed the time, they will find the way in, kill us, and steal our precious work for themselves.  The Empire has been enough of a problem without Ogres; we CANNOT take the risk of them finding us and tipping the balance in their favor.
-
-We are doomed, no matter what happens.  My orders from the Overseers in such a situation would be to destroy our findings, then put an alchemical vial they gave me in the ventilation system, painlessly suffocating us.  I have no intention of throwing away our rightfully-earned place in the history books by doing this.  Instead, I have prematurely detonated all the remaining explosive traps, thoroughly sealing the way in.  We are very, very deep underground, and without any tunnels to follow, it could be decades before a Nargol excavation team reached us.  In other words, we are completely sealed off from the Nargol...  and the rest of the Conclave.
-
-We have a small supply of emergency rations, but it would last us a couple of months at the longest, and we cannot assume the Conclave will reclaim this territory in that time.  We could try to repurpose the infusion herb-garden for making edible crops, but that would only buy us a month after that before the grow-lights lost their magic.  Without drastic steps, we will surely die of starvation; fortunately, we have drastic steps available to us.
-
-This is my last order: I have prepared our surgical golems to apply the Ogric inscriptions to us, and updated all of our records to reflect our best current knowledge of their effects and effectiveness.  I have also had the golems upgrade all of our growth vats (ones in use included) to our newest "stasis tank" design, and furthermore freed up enough space for each of us to use one by...  disposing of some of the test subjects who had low chances of survival (an action I am already beginning to regret).  By the time you find this note, I will have already undergone this process myself, and will be hibernating in a tank I've had moved to my office.  If you do not wish to die, you should acquire a weapon from the armory, then follow my lead.  When we are dormant, we will be immune to the ravages of time, and prepared to greet whoever finally digs their way down and finds us.  Hopefully, it will be Conclave reinforcements, in which case we will stand down, give them our notes, and await further orders.  And if it isn't the Conclave...  make them regret it.  Send a message stronger than any NO TRESPASSING sign ever could, then resume your slumber.
-
-It has been an honor working with such talented individuals, and an honor doing everything I can for a noble cause.  Perhaps we still had some progress to make, but overall I'm proud of what we've accomplished, and the contributions the Ogre race will make to all of Maj'Eyal.  
-
-Long live the Conclave!
-Healer Astelrid]], [[Announcement to All Staff:
-
-I'm sure you've all heard the rumors about what our scryers saw, and why we've been on lockdown the past few days; it is with a heavy heart that I must confirm that they are true.  The Nargol have taken the land above our facility, and are combing the area with golems to find the entrances.  We've already lost one entrance to the failsafe explosive-rune traps set in place to collapse it, and now they'll be looking to defuse those as well.  In short, we have no means of escape, and if allowed the time, they will find the way in, kill us, and steal our precious work for themselves.  The Empire has been enough of a problem without Ogres; we CANNOT take the risk of them finding us and tipping the balance in their favor.
-
-We are doomed, no matter what happens.  My orders from the Overseers in such a situation would be to destroy our findings, then put an alchemical vial they gave me in the ventilation system, painlessly suffocating us.  I have no intention of throwing away our rightfully-earned place in the history books by doing this.  Instead, I have prematurely detonated all the remaining explosive traps, thoroughly sealing the way in.  We are very, very deep underground, and without any tunnels to follow, it could be decades before a Nargol excavation team reached us.  In other words, we are completely sealed off from the Nargol...  and the rest of the Conclave.
-
-We have a small supply of emergency rations, but it would last us a couple of months at the longest, and we cannot assume the Conclave will reclaim this territory in that time.  We could try to repurpose the infusion herb-garden for making edible crops, but that would only buy us a month after that before the grow-lights lost their magic.  Without drastic steps, we will surely die of starvation; fortunately, we have drastic steps available to us.
-
-This is my last order: I have prepared our surgical golems to apply the Ogric inscriptions to us, and updated all of our records to reflect our best current knowledge of their effects and effectiveness.  I have also had the golems upgrade all of our growth vats (ones in use included) to our newest "stasis tank" design, and furthermore freed up enough space for each of us to use one by...  disposing of some of the test subjects who had low chances of survival (an action I am already beginning to regret).  By the time you find this note, I will have already undergone this process myself, and will be hibernating in a tank I've had moved to my office.  If you do not wish to die, you should acquire a weapon from the armory, then follow my lead.  When we are dormant, we will be immune to the ravages of time, and prepared to greet whoever finally digs their way down and finds us.  Hopefully, it will be Conclave reinforcements, in which case we will stand down, give them our notes, and await further orders.  And if it isn't the Conclave...  make them regret it.  Send a message stronger than any NO TRESPASSING sign ever could, then resume your slumber.
-
-It has been an honor working with such talented individuals, and an honor doing everything I can for a noble cause.  Perhaps we still had some progress to make, but overall I'm proud of what we've accomplished, and the contributions the Ogre race will make to all of Maj'Eyal.  
-
-Long live the Conclave!
-Healer Astelrid]], "_t")
-t("age of allure", "age of allure", "newLore category")
-t([[FROM: Investigator Churrack
-TO: Whoever holds the position of High Overseer of Loyalty when we're let out
-
-Though I'm trapped in here with these healers, I haven't stopped prying to determine if their loyalties lie with us or with themselves. This case has more layers than a damn onion; while Astelrid did disobey a direct order (and several more by revealing the existence of that order), her alternative seems to fit our goals nonetheless. Response from staff has been mixed.  While most are reluctantly going along with her plan for lack of other options, some seem to follow her lead enthusiastically, and have been singing this song as they wait in line for their treatment:
-
-#{italic}#Some Nargol once told me their Empire's gonna roll me
-We ain't as strong as all their undead
-They looked kind of silly with giant feet so furry
-And an ogre's club smashing their foreheads
-
-Well, the Empire's coming and they won't stop coming
-So you'd better be ready to hit the ground running
-Didn't make sense to kill everyone
-Praise the Overseers, but that plan was dumb
-
-So much to do, so much to see
-So what's wrong with waiting in stasis?
-We'll never know if we don't try
-We'll never shine if we just die
-
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
-
-It's a safe place, even as it gets older
-'cause this war's not over until we say it's ogre
-But the golems outside beg to differ
-Judging by the sights in the scrying-orb's picture
-
-The ground we're under was getting pretty thin
-Their scouts are onto us, and they've got us all pinned
-We blew the tunnels - no way out,
-until the Conclave finds us, give trespassers a rout!
-
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
-
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
-
-Somebody once asked if we'd finished, but alas
-While I'm proud of what we've done in this place
-We weren't done yet with this project,
-but we're close enough where this isn't neglect
-Eyal will appreciate our new race!
-
-Well, the years'll start coming and they won't stop coming
-So you'd better be ready to hit the ground running
-Didn't make sense to kill everyone
-Praise the Overseers, but that plan was dumb
-
-So much to do, so much to see
-So what's wrong with waiting in stasis?
-We'll never know if we don't try
-We'll never shine if we just die
-
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
-
-They won't work on normal humans
-But we won't age sleeping in these ruins#{normal}#
-
-...Everyone reacts to grief differently, I guess. #{bold}#-Churrack#{normal}#]], [[FROM: Investigator Churrack
-TO: Whoever holds the position of High Overseer of Loyalty when we're let out
-
-Though I'm trapped in here with these healers, I haven't stopped prying to determine if their loyalties lie with us or with themselves. This case has more layers than a damn onion; while Astelrid did disobey a direct order (and several more by revealing the existence of that order), her alternative seems to fit our goals nonetheless. Response from staff has been mixed.  While most are reluctantly going along with her plan for lack of other options, some seem to follow her lead enthusiastically, and have been singing this song as they wait in line for their treatment:
-
-#{italic}#Some Nargol once told me their Empire's gonna roll me
-We ain't as strong as all their undead
-They looked kind of silly with giant feet so furry
-And an ogre's club smashing their foreheads
-
-Well, the Empire's coming and they won't stop coming
-So you'd better be ready to hit the ground running
-Didn't make sense to kill everyone
-Praise the Overseers, but that plan was dumb
-
-So much to do, so much to see
-So what's wrong with waiting in stasis?
-We'll never know if we don't try
-We'll never shine if we just die
-
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
-
-It's a safe place, even as it gets older
-'cause this war's not over until we say it's ogre
-But the golems outside beg to differ
-Judging by the sights in the scrying-orb's picture
-
-The ground we're under was getting pretty thin
-Their scouts are onto us, and they've got us all pinned
-We blew the tunnels - no way out,
-until the Conclave finds us, give trespassers a rout!
-
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
-
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
-
-Somebody once asked if we'd finished, but alas
-While I'm proud of what we've done in this place
-We weren't done yet with this project,
-but we're close enough where this isn't neglect
-Eyal will appreciate our new race!
-
-Well, the years'll start coming and they won't stop coming
-So you'd better be ready to hit the ground running
-Didn't make sense to kill everyone
-Praise the Overseers, but that plan was dumb
-
-So much to do, so much to see
-So what's wrong with waiting in stasis?
-We'll never know if we don't try
-We'll never shine if we just die
-
-Hey, now, you're a healer, get ogrified, go wait
-Hey, now, you're a guard now, stand vigil in the tanks
-They won't work on normal humans
-But we won't age sleeping in these ruins
-
-They won't work on normal humans
-But we won't age sleeping in these ruins#{normal}#
-
-...Everyone reacts to grief differently, I guess. #{bold}#-Churrack#{normal}#]], "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/lore/ardhungol.lua"
--- 9 entries
-t("Rashim Journal (1)", "Rashim Journal (1)", "_t")
-t([[#{bold}#Journal Entry I#{normal}#
-
-It's been some time since High Sun Paladin Aeryn sent me out on an assignment. According to recent intelligence, it would seem that a cavern has mysteriously emerged near our outpost, the Gates of Morning. They have bestowed the name "Ardhungol" on the newly discovered cavern. The elder warriors seem anxious in regards to the origin of this new subterranean area; they're likely concerned that the orcs are using Ardhungol as a staging point for further aggression against the Gates of Morning. I'll have to make sure I'm well equipped for this journey; the fate of us all could hang in the balance.
-
-#{bold}#Journal Entry II#{normal}#
-
-I spoke with the border patrols tonight. There seem to have been several sightings of orcs and other wild beasts roaming throughout the wilderness, yet strangely enough, none seem to have been anywhere near Ardhungol. Perhaps the subterranean cavern was simply a natural phenomenon with unfortunate timing. It's either that, or an unknown force powerful enough to alter the very foundation of the land upon its arrival. I shudder at the latter thought, but for now this is all merely speculation. If all goes well, I'll be ready to depart by dawn.
-]], [[#{bold}#Journal Entry I#{normal}#
-
-It's been some time since High Sun Paladin Aeryn sent me out on an assignment. According to recent intelligence, it would seem that a cavern has mysteriously emerged near our outpost, the Gates of Morning. They have bestowed the name "Ardhungol" on the newly discovered cavern. The elder warriors seem anxious in regards to the origin of this new subterranean area; they're likely concerned that the orcs are using Ardhungol as a staging point for further aggression against the Gates of Morning. I'll have to make sure I'm well equipped for this journey; the fate of us all could hang in the balance.
-
-#{bold}#Journal Entry II#{normal}#
-
-I spoke with the border patrols tonight. There seem to have been several sightings of orcs and other wild beasts roaming throughout the wilderness, yet strangely enough, none seem to have been anywhere near Ardhungol. Perhaps the subterranean cavern was simply a natural phenomenon with unfortunate timing. It's either that, or an unknown force powerful enough to alter the very foundation of the land upon its arrival. I shudder at the latter thought, but for now this is all merely speculation. If all goes well, I'll be ready to depart by dawn.
-]], "_t")
-t("Rashim Journal (2)", "Rashim Journal (2)", "_t")
-t([[#{bold}#Journal Entry III#{normal}#
-
-It was a half days journey from the Gates of Morning to Ardhungol, but I've finally arrived. I've decided to rest beneath the shade of a great oak tree and enjoy one of the sweet rolls my wife Melnela prepared for me. I'm unsure why, but the closer I've come to Ardhungol, the thicker the atmosphere has become, almost as if there is a foreign energy infecting the very air I breathe. I've been to many places in this vast world, but I've never felt an aura quite like this; I will have to uncover the source of this energy before I can bring a full report back to Aeryn.
-
-#{bold}#Journal Entry IV#{normal}#
-
-A thick green veil of mist permeates the air within this cavern; I'm uncertain if this is a byproduct of whatever creatures now inhabit this place, or if it's coming directly from another source. There also seem to be arcane rifts appearing in different locations throughout the cavern, though I dare not approach them; I will leave them for our anorithils to assess after I have secured the area. I must admit, I'm not looking forward to encountering the origin of a threat this grave, yet it is my sworn duty as a Sun Paladin to face what lies ahead; even should it be my own doom.
-
-#{bold}#Journal Entry V#{normal}#
-
-Impossible; how could spiders have grown to such an immense size? Not only that, but the markings and physical traits are unlike any arachnid I have previously encountered. The first one I encountered nearly took my left arm during its initial assault, if my reflexes had been a split second slower, I fear the worst may have transpired. If the Gates of Morning are assaulted by not only the orcs, but also this new –found species of arachnids, I fear all hope will be lost. For the sake of all Eyal, I must venture further into this spider infested cavern and destroy the source of this incursion.
-]], [[#{bold}#Journal Entry III#{normal}#
-
-It was a half days journey from the Gates of Morning to Ardhungol, but I've finally arrived. I've decided to rest beneath the shade of a great oak tree and enjoy one of the sweet rolls my wife Melnela prepared for me. I'm unsure why, but the closer I've come to Ardhungol, the thicker the atmosphere has become, almost as if there is a foreign energy infecting the very air I breathe. I've been to many places in this vast world, but I've never felt an aura quite like this; I will have to uncover the source of this energy before I can bring a full report back to Aeryn.
-
-#{bold}#Journal Entry IV#{normal}#
-
-A thick green veil of mist permeates the air within this cavern; I'm uncertain if this is a byproduct of whatever creatures now inhabit this place, or if it's coming directly from another source. There also seem to be arcane rifts appearing in different locations throughout the cavern, though I dare not approach them; I will leave them for our anorithils to assess after I have secured the area. I must admit, I'm not looking forward to encountering the origin of a threat this grave, yet it is my sworn duty as a Sun Paladin to face what lies ahead; even should it be my own doom.
-
-#{bold}#Journal Entry V#{normal}#
-
-Impossible; how could spiders have grown to such an immense size? Not only that, but the markings and physical traits are unlike any arachnid I have previously encountered. The first one I encountered nearly took my left arm during its initial assault, if my reflexes had been a split second slower, I fear the worst may have transpired. If the Gates of Morning are assaulted by not only the orcs, but also this new –found species of arachnids, I fear all hope will be lost. For the sake of all Eyal, I must venture further into this spider infested cavern and destroy the source of this incursion.
-]], "_t")
-t("Rashim Journal (3)", "Rashim Journal (3)", "_t")
-t([[#{bold}#Journal Entry VI#{normal}#
-
-It took some time, but my muscles have started to adapt and react to the unique movements of these arachnid. The way they fight, it's almost as if they possess a higher level of thought, elevating them far beyond the base intelligence of lesser arachnid... is it possible that they could be sentient? Do they act individually, or are they perhaps manipulated by a greater arachnid? Let us pray that this species is not connected through a hive mind, for this threat could become even greater than I had imagined.
-
-#{bold}#Journal Entry VII#{normal}#
-
-I have slain dozens of these arachnids, each one seemingly more difficult than the last. I am unsure if this is a result of my weariness, or if they are also adapting to my movements and battle techniques. I don't see how that could be possible however, a mere spider couldn't possibly adapt to the battle techniques of a veteran Sun Paladin, it's simply not feasible. Furthermore, the origin of these spiders worries me. So far I have not found any other entrances to this cavern, meaning they were transported here via other means. Those arcane rifts I found earlier are starting to worry me, and I fear for us all when I think of what may be waiting for us beyond them. I must put these thoughts out of my mind; distractions will only serve to weaken my resolve.
-
-#{bold}#Journal Entry VIII#{normal}#
-
-Incredible, the size of that arachnid is unimaginable; there is no doubt about it, that spider is the matriarch here. I am heavily wounded, but there is no turning back now; I must finish what I started for the sake of all those awaiting my return. If I don't make it back, whoever is now reading this journal, please make High Sun Paladin Aeryn at the Gates of Morning aware of the grave situation... and tell Melnela that I'm sorry.]], [[#{bold}#Journal Entry VI#{normal}#
-
-It took some time, but my muscles have started to adapt and react to the unique movements of these arachnid. The way they fight, it's almost as if they possess a higher level of thought, elevating them far beyond the base intelligence of lesser arachnid... is it possible that they could be sentient? Do they act individually, or are they perhaps manipulated by a greater arachnid? Let us pray that this species is not connected through a hive mind, for this threat could become even greater than I had imagined.
-
-#{bold}#Journal Entry VII#{normal}#
-
-I have slain dozens of these arachnids, each one seemingly more difficult than the last. I am unsure if this is a result of my weariness, or if they are also adapting to my movements and battle techniques. I don't see how that could be possible however, a mere spider couldn't possibly adapt to the battle techniques of a veteran Sun Paladin, it's simply not feasible. Furthermore, the origin of these spiders worries me. So far I have not found any other entrances to this cavern, meaning they were transported here via other means. Those arcane rifts I found earlier are starting to worry me, and I fear for us all when I think of what may be waiting for us beyond them. I must put these thoughts out of my mind; distractions will only serve to weaken my resolve.
-
-#{bold}#Journal Entry VIII#{normal}#
-
-Incredible, the size of that arachnid is unimaginable; there is no doubt about it, that spider is the matriarch here. I am heavily wounded, but there is no turning back now; I must finish what I started for the sake of all those awaiting my return. If I don't make it back, whoever is now reading this journal, please make High Sun Paladin Aeryn at the Gates of Morning aware of the grave situation... and tell Melnela that I'm sorry.]], "_t")
-t("ardhungol", "ardhungol", "newLore category")
-t([[#{italic}#A few tattered scraps of paper lie on the ground, ruined from your fight with the creature carrying it.  It's almost completely illegible, but you can piece some of it together to read:#{normal}#
-"...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], [[#{italic}#A few tattered scraps of paper lie on the ground, ruined from your fight with the creature carrying it.  It's almost completely illegible, but you can piece some of it together to read:#{normal}#
-"...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], "_t")
-t("#{italic}#This pile of tattered paper could theoretically be assembled into something legible, but without more text to draw back on, it'd still be in a language you could never interpret.  If only you had more Spydric text to help translate this...#{normal}#", "#{italic}#This pile of tattered paper could theoretically be assembled into something legible, but without more text to draw back on, it'd still be in a language you could never interpret.  If only you had more Spydric text to help translate this...#{normal}#", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/lore/arena.lua"
--- 2 entries
-t("arena", "arena", "newLore category")
-t([[#{italic}#You find a note with some highlighted words...
-#{bold}#SCORING IN THE ARENA
-
-#{normal}#The rules of the arena are simple.
-Every wave, the gates will open, releasing enemies. When the gates close, you will be given a bonus score.
-The bonus will #YELLOW#decrease every turn #LAST#, but #YELLOW#enemies you kill at this point#LAST#, will
-raise your bonus. When you defeat all enemies, you will be granted your bonus score, multiplied by
-your bonus multiplier.
-
-Every few rounds, a miniboss round will come. After two miniboss rounds, one out of four bosses will appear.
-#YELLOW#Kill enemies before the gates close #LAST#to raise your score multiplier!.
-#YELLOW#Kill several enemies at once or very strong enemies #LAST#to please the audience and increase your rank!.
-#YELLOW#Collect gold #LAST#to increase your score and resources at the end of each round.
-#YELLOW#Kill enemies fast to get better scores!
-#YELLOW#Take advantage of the trap at the center of the arena!
-Good luck!
-]], [[#{italic}#You find a note with some highlighted words...
-#{bold}#SCORING IN THE ARENA
-
-#{normal}#The rules of the arena are simple.
-Every wave, the gates will open, releasing enemies. When the gates close, you will be given a bonus score.
-The bonus will #YELLOW#decrease every turn #LAST#, but #YELLOW#enemies you kill at this point#LAST#, will
-raise your bonus. When you defeat all enemies, you will be granted your bonus score, multiplied by
-your bonus multiplier.
-
-Every few rounds, a miniboss round will come. After two miniboss rounds, one out of four bosses will appear.
-#YELLOW#Kill enemies before the gates close #LAST#to raise your score multiplier!.
-#YELLOW#Kill several enemies at once or very strong enemies #LAST#to please the audience and increase your rank!.
-#YELLOW#Collect gold #LAST#to increase your score and resources at the end of each round.
-#YELLOW#Kill enemies fast to get better scores!
-#YELLOW#Take advantage of the trap at the center of the arena!
-Good luck!
-]], "_t")
 
 
 ------------------------------------------------
@@ -6253,31 +5056,6 @@ t(" (%s)", " (%s)", "tformat")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/talents/cursed/advanced-shadowmancy.lua"
--- 1 entries
-t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
-		Each successive shadow deal 40%% less damage.
-		For the purpose of this talent, you force your shadows through any walls in their way.
-		Damage increases with your Mindpower.]], [[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
-		Each successive shadow deal 40%% less damage.
-		For the purpose of this talent, you force your shadows through any walls in their way.
-		Damage increases with your Mindpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/cursed/crimson-templar.lua"
--- 1 entries
-t("sacrificed themself", "sacrificed themself", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/cursed/cursed.lua"
--- 2 entries
-t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "_t")
-t("Hatred", "Hatred", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/talents/cursed/primal-magic.lua"
 -- 8 entries
 t("Displace", "Displace", "talent name")
@@ -6296,20 +5074,9 @@ t([[Bathes the target in raw magic inflicting %d damage. Such wild magic is diff
 
 ------------------------------------------------
 section "game/modules/tome/data/talents/cursed/self-hatred.lua"
--- 5 entries
-t("Self-Sacrifice", "Self-Sacrifice", "talent name")
-t([[At the start of each turn, if you're bleeding, you gain %d hate.
-
-You can activate this talent to use your own life for power, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.]], [[At the start of each turn, if you're bleeding, you gain %d hate.
-
-You can activate this talent to use your own life for power, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.]], "tformat")
+-- 2 entries
 t("#CRIMSON#%d#LAST#", "#CRIMSON#%d#LAST#", "tformat")
 t("tore themself apart", "tore themself apart", "_t")
-t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
-
-#{italic}#You can't just die. That would be too easy.#{normal}#]], [[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
-
-#{italic}#You can't just die. That would be too easy.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -6494,47 +5261,6 @@ t([[Assault your target with all weapons, dealing two strikes with your telekine
 
 
 ------------------------------------------------
-section "game/modules/tome/data/talents/spells/grave.lua"
--- 1 entries
-t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
-		Every turn all foes inside take %0.2f cold damage.
-		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
-		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
-		If cast while under 1 life it spawns with 3 stacks.
-		The damage will increase with your Spellpower.]], [[You summon a corpselight that radiates cold for 7 turns in radius %d.
-		Every turn all foes inside take %0.2f cold damage.
-		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
-		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
-		If cast while under 1 life it spawns with 3 stacks.
-		The damage will increase with your Spellpower.]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/spells/master-necromancer.lua"
--- 2 entries
-t([[Sends out a surge of undeath energies into your aura.
-		All minions inside gain 25%% speed for %d turns
-		All non-ghoul minions are healed by %d%%.
-		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
-		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
-		All non-undead foes caught inside are dazed for %d turns.
-		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], [[Sends out a surge of undeath energies into your aura.
-		All minions inside gain 25%% speed for %d turns
-		All non-ghoul minions are healed by %d%%.
-		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
-		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
-		All non-undead foes caught inside are dazed for %d turns.
-		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], "tformat")
-t([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
-		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
-		The minion takes 300%% damage from that effect.
-		The damage redirected percent depends on your Spellpower.]], [[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
-		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
-		The minion takes 300%% damage from that effect.
-		The damage redirected percent depends on your Spellpower.]], "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/talents/spells/thaumaturgy.lua"
 -- 3 entries
 t("#LIGHT_BLUE#%s [known, eligible]#LAST#", "#LIGHT_BLUE#%s [known, eligible]#LAST#", "tformat")
@@ -6558,16 +5284,6 @@ t("%d%% %s", "%d%% %s", "tformat")
 
 
 ------------------------------------------------
-section "game/modules/tome/data/talents/techniques/tireless-combatant.lua"
--- 3 entries
-t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "tformat")
-t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "tformat")
-t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
-		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], "tformat")
-
-
-------------------------------------------------
 section "game/modules/tome/data/talents/uber/mag.lua"
 -- 1 entries
 t([[%s
@@ -6577,52 +5293,6 @@ t([[%s
 #YELLOW#%s#LAST#
 %s
 ]], "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/data/talents/uber/wil.lua"
--- 1 entries
-t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
-		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
-		
-		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
-
-		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
-
-		The following talent trees are swapped:
-		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
-		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
-
-		You will learn the following talents trees:
-		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
-		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
-		- #CRIMSON#Hatred#LAST#: Manifest your hatred through bleeding
-		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
-
-		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
-		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], [[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
-		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
-		
-		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
-
-		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
-
-		The following talent trees are swapped:
-		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
-		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
-		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
-
-		You will learn the following talents trees:
-		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
-		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
-		- #CRIMSON#Hatred#LAST#: Manifest your hatred through bleeding
-		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
-
-		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
-		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
-		]], "tformat")
 
 
 ------------------------------------------------
@@ -7130,54 +5800,9 @@ t([[ToME 4 is a large, complex game. Despite this, the most important mechanics-
 
 
 ------------------------------------------------
-section "game/modules/tome/data/texts/unlock-paladin_fallen.lua"
--- 1 entries
-t([[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
-
-As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
-
-You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
-
-Learn new Talents:#YELLOW#
-- Bloodstained: Make your foes bleed!
-- Darkside: Every light casts a shadow, yours is powerful indeed
-- Hatred: Manifest your hatred through bleeding
-- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
-
-Swap your paladin Talents:#YELLOW#
-- Radiance turns into Gloom: Project onto others your own hate, hindering them
-- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
-- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
-#WHITE#
-
-Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
-]], [[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
-
-As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
-
-You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
-
-Learn new Talents:#YELLOW#
-- Bloodstained: Make your foes bleed!
-- Darkside: Every light casts a shadow, yours is powerful indeed
-- Hatred: Manifest your hatred through bleeding
-- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
-
-Swap your paladin Talents:#YELLOW#
-- Radiance turns into Gloom: Project onto others your own hate, hindering them
-- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
-- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
-#WHITE#
-
-Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
-]], "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/data/timed_effects/magical.lua"
--- 2 entries
+-- 1 entries
 t("%d%%", "%d%%", "tformat")
-t("#Target# summons a corpselight!", "#Target# summons a corpselight!", "_t")
 
 
 ------------------------------------------------
@@ -7359,26 +5984,9 @@ t("16x16", "16x16", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/dialogs/LevelupDialog.lua"
--- 4 entries
-t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "log")
-t("<Press 'x' to swap to simple display>", "<Press 'x' to swap to simple display>", "_t")
-t(" (%+0.1f bonus level)", " (%+0.1f bonus level)", "tformat")
-t("<Press 'x' to swap to advanced display>", "<Press 'x' to swap to advanced display>", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/dialogs/MapMenu.lua"
--- 3 entries
-t("Control", "Control", "_t")
-t("Target player", "Target player", "_t")
-t(" ", " ", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/PartyOrder.lua"
 -- 1 entries
-t("Pet the hound", "Pet the hound", "_t")
+t(" ", " ", "_t")
 
 
 ------------------------------------------------
@@ -7420,13 +6028,6 @@ t([[#GOLD#%s#LAST#
 %s]], [[#GOLD#%s#LAST#
 %s]], "tformat")
 t(" (%s)", " (%s)", "tformat")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/UberTalent.lua"
--- 2 entries
-t("#{bold}##GOLD#Prodigies#{normal}#", "#{bold}##GOLD#Prodigies#{normal}#", "_t")
-t("#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "_t")
 
 
 ------------------------------------------------
@@ -7779,119 +6380,20 @@ t("Test dummy.", "Test dummy.", "_t")
 
 
 ------------------------------------------------
-section "game/modules/tome/dialogs/orders/Behavior.lua"
--- 7 entries
-t("Set behavior: %s", "Set behavior: %s", "tformat")
-t("%s behavior set to %s.", "%s behavior set to %s.", "logPlayer")
-t("Default", "Default", "_t")
-t("Melee", "Melee", "_t")
-t("Ranged", "Ranged", "_t")
-t("Tank", "Tank", "_t")
-t("Standby", "Standby", "_t")
-
-
-------------------------------------------------
 section "game/modules/tome/dialogs/orders/Talents.lua"
--- 6 entries
-t([[%s is listening attentively, and wants to know what talents to use.
-You can modify the tactical weights of various talents to increase or decrease their use.  The weights are multiplicative (zero will turn the talent off) and relative (changing everything to a weight of 2 will not alter how talents are used relative to each other).
-Word travels fast in Maj'Eyal, and if %s is a summon all future summons of the same type will remember your preferences.
-]], [[%s is listening attentively, and wants to know what talents to use.
-You can modify the tactical weights of various talents to increase or decrease their use.  The weights are multiplicative (zero will turn the talent off) and relative (changing everything to a weight of 2 will not alter how talents are used relative to each other).
-Word travels fast in Maj'Eyal, and if %s is a summon all future summons of the same type will remember your preferences.
-]], "tformat")
+-- 1 entries
 t("", "", "_t")
-t("Talent Name", "Talent Name", "_t")
-t("Weight", "Weight", "_t")
-t("0 is off, 1 is normal", "0 is off, 1 is normal", "_t")
-t("Enter the talent weight multiplier", "Enter the talent weight multiplier", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/shimmer/CommonData.lua"
--- 5 entries
-t("Character's Skin", "Character's Skin", "_t")
-t("Character's Hair", "Character's Hair", "_t")
-t("Character's Facial Features", "Character's Facial Features", "_t")
-t("Character's Aura", "Character's Aura", "_t")
-t("#GREY#Invisible#LAST#", "#GREY#Invisible#LAST#", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/shimmer/Shimmer.lua"
--- 8 entries
+-- 1 entries
 t("Shimmer object: %s", "Shimmer object: %s", "tformat")
-t("\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "_t")
-t([[You can alter %s to look like another item of the same type/slot.
-#{bold}#This is a purely cosmetic change.#{normal}#%s]], [[You can alter %s to look like another item of the same type/slot.
-#{bold}#This is a purely cosmetic change.#{normal}#%s]], "tformat")
-t("Donator Cosmetic Feature", "Donator Cosmetic Feature", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "This cosmetic feature is only available to donators/buyers.", "_t")
-t("shimmer ingame", "shimmer ingame", "_t")
-t("Donate", "Donate", "_t")
-t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/shimmer/ShimmerDemo.lua"
--- 2 entries
-t("Shimmer Demo", "Shimmer Demo", "_t")
-t("#GREY#[Invisible]", "#GREY#[Invisible]", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/shimmer/ShimmerOther.lua"
--- 8 entries
-t("Shimmer: %s", "Shimmer: %s", "tformat")
-t("\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "_t")
-t([[You can alter your look.
-#{bold}#This is a purely cosmetic change.#{normal}#%s]], [[You can alter your look.
-#{bold}#This is a purely cosmetic change.#{normal}#%s]], "tformat")
-t("Donator Cosmetic Feature", "Donator Cosmetic Feature", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "This cosmetic feature is only available to donators/buyers.", "_t")
-t("shimmer ingame", "shimmer ingame", "_t")
-t("Donate", "Donate", "_t")
-t("#GREY#[Default]", "#GREY#[Default]", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/dialogs/shimmer/ShimmerOutfits.lua"
--- 9 entries
-t("Shimmer Sets: %s", "Shimmer Sets: %s", "tformat")
-t([[You can switch your appearance to a saved set of shimmers.
-#{bold}#This is a purely cosmetic change.#{normal}#]], [[You can switch your appearance to a saved set of shimmers.
-#{bold}#This is a purely cosmetic change.#{normal}#]], "_t")
-t("Outfit name?", "Outfit name?", "_t")
-t("Save Outfit", "Save Outfit", "_t")
-t("Donator Cosmetic Feature", "Donator Cosmetic Feature", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "This cosmetic feature is only available to donators/buyers.", "_t")
-t("shimmer ingame", "shimmer ingame", "_t")
-t("Donate", "Donate", "_t")
-t("#GOLD#[save current outfit]", "#GOLD#[save current outfit]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/shimmer/ShimmerRemoveSustains.lua"
--- 9 entries
-t("Shimmer: Remove Sustains Effects", "Shimmer: Remove Sustains Effects", "_t")
-t("\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
-#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "_t")
-t([[#{bold}##CRIMSON#WARNING: this is an EXPERIMENTAL feature. It may explode!#LAST##{normal}#
-Sustains auras with name in #YELLOW#yellow#LAST# can not be automatically turned back on if disabled. After turning them on here, you need to unsustain and resustain them manually.
-
-#{bold}#This is a purely cosmetic change.#{normal}#]], [[#{bold}##CRIMSON#WARNING: this is an EXPERIMENTAL feature. It may explode!#LAST##{normal}#
-Sustains auras with name in #YELLOW#yellow#LAST# can not be automatically turned back on if disabled. After turning them on here, you need to unsustain and resustain them manually.
-
-#{bold}#This is a purely cosmetic change.#{normal}#]], "_t")
-t("Donator Cosmetic Feature", "Donator Cosmetic Feature", "_t")
-t("This cosmetic feature is only available to donators/buyers.", "This cosmetic feature is only available to donators/buyers.", "_t")
-t("shimmer ingame", "shimmer ingame", "_t")
-t("Donate", "Donate", "_t")
+-- 2 entries
 t("#LIGHT_GREEN#yes", "#LIGHT_GREEN#yes", "_t")
 t("#LIGHT_RED#no", "#LIGHT_RED#no", "_t")
 
@@ -7930,13 +6432,5 @@ t("", "", "_t")
 section "game/modules/tome/dialogs/talents/MagicalCombatArcaneCombat.lua"
 -- 1 entries
 t("", "", "_t")
-
-
-------------------------------------------------
-section "game/modules/tome/load.lua"
--- 3 entries
-t("Second weapon set: psionic focus", "Second weapon set: psionic focus", "_t")
-t("List of items that can be instantly used by swift hands.", "List of items that can be instantly used by swift hands.", "_t")
-t("lck", "lck", "stat short_name")
 
 

@@ -491,12 +491,87 @@ t("#ANTIQUE_WHITE#Splash screen unlocked: #GOLD#%s", "#ANTIQUE_WHITE#스플래�
 section "game/modules/tome/class/GameState.lua"
 
 t("crackling", "치직", "_t")
+t("faceted", "깎인", "_t")
+t("faded", "빛바랜", "_t")
+t("flawless", "흠 없는", "_t")
+t("gleaming", "환한", "_t")
+t("glistening", "번쩍이는", "_t")
+t("glowing", "빛나는", "_t")
+t("humming", "윙윙대는", "_t")
+t("immaculate", "티 하나 없는", "_t")
+t("jewel-encrusted", "보석으로 장식된", "_t")
+t("laminated", "합판으로 된", "_t")
+t("plated", "철판으로 된", "_t")
+t("rune-covered", "룬으로 뒤덮힌", "_t")
+t("scintillating", "번뜩이는", "_t")
+t("shadowy", "그림자가 진", "_t")
+t("sigiled", "인장이 찍힌", "_t")
+t("silvered", "은 도금된", "_t")
+t("twisted", "뒤틀린", "_t")
+t("unblemished", "오점 없는", "_t")
 t("Ambush!", "복병이다!", "_t")
+t("You have been ambushed!", "기습 공격을 받았다!", "_t")
 t("%s the %s", "%s %s", "tformat", {2,1})
+t("Infinite Dungeon Challenge (Level %s): %s", "무한의 던전 (%s 층): %s", "tformat")
+t("Leave the level (to the next level) without killing a single creature. You will get #{italic}#two#{normal}# rewards.", "단 하나의 적도 쓰러뜨리지 않고 다음 층으로 이동할 경우, #{italic}#두 가지#{normal}# 보상을 얻게 됩니다.", "_t")
+t("Pacifist", "평화주의자", "_t")
+t("Exterminate every foe on the level.", "현재 층 내의 모든 적을 절멸하십시오.", "_t")
 t("Exterminator", "절멸자", "_t")
+t("Foes left: #LIGHT_RED#%s", "남은 적: #LIGHT_RED#%s", "tformat")
+t([[#LIGHT_RED#EXTERMINATE THIS FOE#LAST#
+%s]], [[#LIGHT_RED#이 적을 절멸하라#LAST#
+%s]], "tformat")
+t("Proceed directly to the next Infinite Dungeon level in less than %d turns (an exit is revealed on your map).", "%d 턴 내에 다음 층으로 이동하십시오. 출구는 지도에 표시됩니다.", "tformat")
+t("Rush Hour (%d)", "러시 아워 (%d)", "tformat")
+t("\
+#ORCHID# Rush Hour: %s turns left!\
+", "\
+#ORCHID# 러시 아워: %s 턴 남음!\
+", "log")
+t("Proceed to the next Infinite Dungeon level! An exit has been marked on your map.", "다음 층으로 이동하십시오! 출구는 지도에 표시됩니다.", "_t")
+t("Dream Hunter", "꿈 사냥꾼", "_t")
+t("Wake up and kill the dreaming horror boss '%s'.", "꿈꾸는 공포 보스인 '%s' 깨우고 쓰러뜨리십시오.", "tformat")
+t("Find, challenge, and kill your mirror clone on the level.", "현재 층에서 당신의 클론을 찾고, 도전하고, 쓰러 뜨리십시오.", "_t")
+t("Mirror Match", "미러 매치", "_t")
+t("An evil twin of %s%s", "%s%s의 악마적인 쌍둥이", "tformat")
+t("Mirror Challenge of %s", "%s의 미러 챌린지", "tformat")
 t("but nobody knew why #sex# suddenly became evil", "하지만 왜 그 #sex#이 타락했는지는 아무도 모릅니다.", "_t")
+t("#ORCHID#%s does not recognize you.", "#ORCHID#%s 당신을 알아보지 못한다.", "logPlayer", nil, {"는"})
+t("Challenge your mirror clone and triumph!", "당신의 미러 클론을 무찌르고 승리를 쟁취하라!", "_t")
+t("Challenge: #PURPLE#Mirror Match", "챌린지: #PURPLE#미러 매치", "_t")
+t("#CRIMSON#The Fight Is Joined!", "#CRIMSON#싸움에 끼어들었다!", "say")
+t("Challenge: #PURPLE#Near Sighted", "도전: #PURPLE#근시", "_t")
+t("Proceed to the next Infinite Dungeon level with -7 sight range for a reward.", "시야 범위가 7 칸 줄어든 채로 다음 층으로 진행해, 보상을 획득하십시오.", "_t")
+t("Near Sighted", "근시", "_t")
+t("Proceed to the next Infinite Dungeon level with -7 sight range.", " 범위가 7 칸 줄어든 채로 다음 층으로 진행하십시오.", "_t")
+t("All foes (including bosses) gain the ability to multiply up to 3 times.  You must survive for at least %d turns before exiting.", "보스를 포함한 모든 적이 최대 3 번 까지 분열할 수 있는 능력을 얻습니다.  당신은 탈출하기 전 까지 적어도 %d 턴 동안 살아 남아야 합니다.", "tformat")
+t("Challenge: #PURPLE#Multiplicity", "챌린지: #PURPLE#분열", "_t")
+t("All foes have the multiply talent!", "모든 적이 분열 기술을 얻습니다!", "_t")
+t("Multiplicity", "분열", "_t")
+t("Turns left: #LIGHT_GREEN#%d", "남은 턴: #LIGHT_GREEN#%d", "tformat")
+t("#LIGHT_GREEN#Multiplicity: You have survived so far. Exit for your reward!", "#LIGHT_GREEN#분열: 당신은 지금까지 살아 남았습니다. 보상을 위해 탈출하십시오!", "say")
+t("Survive the multiplicative madness!", "분열하는 광기에서 살아남아라!", "_t")
+t("#rng# the Spawn of Urh'Rok", "#rng#, 울흐'록의 권속", "_t")
+t("Challenge: #PURPLE#Headhunter", "챌린지: #PURPLE#해드헌터", "_t")
+t("Kill %d spawns of Urh'Rok on the level before killing any other elite (or higher rank) creatures, for an uncommon reward.", "다른 정예, 또는 그 이상의 등급의 적을 쓰러뜨리기 전에 %d 체의 울흐'록의 권속을 쓰러뜨려 굉장한 보상을 획득하십시오.", "tformat")
+t("Headhunter", "해드 헌터", "_t")
+t("Kill %d spawns of Urh'Rok on the level before killing any elite creatures.", "어떤 정예급 적을 쓰러뜨리기 전에 현재 층에 위치한 %d 체의 울흐'록의 권속을 쓰러뜨리십시오.", "tformat")
+t("%d / %d demon spawn killed.", "%d / %d 악마의 권속이 쓰러짐.", "tformat")
+t("#ORCHID#You claim the head of %s, giving pause to all foes on the level.", "#ORCHID#%s 의 머리를 획득하여, 해당 층의 모든 적의 행동을 멈춘다.", "say")
 t("Accept", "수락", "_t")
+t("Refuse", "거절", "_t")
+t("Random Artifact", "무작위 유물", "_t")
+t("Random Artifact: %s", "무작위 유물: %s", "tformat")
+t("+3 Stat Points", "+3 능력치 점수", "_t")
+t("+1 Class Point", "+1 직업 기술 점수", "_t")
+t("+1 Generic Point", "+1 일반 기술 점수", "_t")
+t("+1 Category Point", "+1 기술 계열 점수", "_t")
+t("+1 Prodigy Point", "+1 특수 기술 점수", "_t")
 t(" and ", ", ", "_t")
+t("Reward", "보상", "_t")
+t("Rewards", "보상", "_t")
+t("#LIGHT_BLUE#%s has received: %s.", "#LIGHT_BLUE#%s 다음 보상을 획득했다 : %s.", "log", nil, {"는"})
+t("You have unlocked a new talent: %s!", "다음 기술이 해금되었다 : %s!", "tformat")
 
 
 ------------------------------------------------
@@ -877,13 +952,35 @@ t("Press <control> to compare", "비교하려면 <control>키를 누르세요", 
 ------------------------------------------------
 section "game/modules/tome/class/Party.lua"
 
+t("Party member", "파티원", "_t")
+t("Can not switch control to this creature.", "이 생명체는 조작할 수 없다.", "logPlayer")
+t("Switching control", "조작 전환", "_t")
+t("#MOCCASIN#Character control switched to %s.", "#MOCCASIN#%s 캐릭터를 조작하도록 바꾸었다.", "logPlayer")
+t("Can not give orders to this creature.", "이 생명체에겐 명령을 내릴 수 없다.", "logPlayer")
+t("Set action radius: %s", "행동 범위 지정: %s", "tformat")
+t("Set the maximum distance this creature can go from the party master", "이 생명체가 파티장으로부터 멀어질 수 있는 최대 거리를 설정한다", "_t")
+t("%s maximum action radius set to %d.", "%s의 최대 행동 범위가 %d칸으로 지정되었다.", "logPlayer")
+t("that location", "그 장소", "_t")
+t("%s will stay near %s.", "%s %s의 근처에 머물기로 했다.", "logPlayer", nil, {"는"})
+t("%s targets #Target#.", "%s #Target3# 목표로 했다.", "logCombat", nil, {"는"})
+t("Change name of: %s", "%s의 이름을 바꾼다", "tformat")
 t("Name", "이름", "_t")
+t("%s is dismissed!", "%s 해산되었다!", "log", nil, {"는"})
+t("#LIGHT_GREEN#You pet your hound! It happily wags its tail back and forth in time!", "#LIGHT_GREEN#사냥개를 쓰다듬었다! 개는 행복한 듯이 꼬리를 앞뒤로 흔들었다!", "log")
+t("No, we must hurry!", "안 돼요, 서둘러야 한다고요!", "_t")
+t("Ok, but not for long.", "알겠습니다. 너무 오래는 안 돼요.", "_t")
+t("very close", "아주 가깝고", "_t")
+t("close", "가깝고", "_t")
+t("still far away", "아직 멀고", "_t")
+t("The portal is %s, to the %s.", "차원문은 %s, %s에 있습니다.", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/PartyMember.lua"
 
+t("Behavior: %s", "행동: %s", "tformat")
 t("default", "기본", "_t")
+t("Action radius: %d", "행동 범위: %d", "tformat")
 
 
 ------------------------------------------------
@@ -951,7 +1048,15 @@ t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#퀘스트 '%s' 실패!", "saySimp
 ------------------------------------------------
 section "game/modules/tome/class/Projectile.lua"
 
+t("Projectile: ", "투사체: ", "_t")
+t("Origin: ", "투사체 주인: ", "_t")
+t("Speed: %d%% %s", "속도: %d%% %s", "tformat")
+t("Affect origin chance: ", "투사체 주인에게 영향을 미칠 확률: ", "_t")
+t("Affect origin's friends chance: ", "투사체 주인의 아군에게 영향을 미칠 확률: ", "_t")
 t("Coords: ", "좌표: ", "_t")
+t(" homing: %s(%s, %s)", " 유도 중: %s(%s, %s)", "tformat")
+t(" range: ", " 범위: ", "_t")
+t("projectile", "투사체", "_t")
 t("%s's %s", "%s의 %s", "tformat")
 
 
@@ -959,19 +1064,71 @@ t("%s's %s", "%s의 %s", "tformat")
 section "game/modules/tome/class/Store.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
+t("Not enough gold", "금화가 충분하지 않습니다", "_t")
+t("You do not have the %0.2f gold needed!", "필요한 %0.2f 금화가 없습니다!", "tformat")
+t("Buy %d %s for %0.2f gold%s?", "%d %s %0.2f 금화로 구입하시겠습니까%s?", "tformat", nil, {[2]="을"})
+t("Bought: %s %s for %0.2f gold.", "구입: %s %s - %0.2f 금화.", "log")
 t("Buy", "구입", "_t")
+t(" (%0.2f each)", " (개당 %0.2f)", "tformat")
+t("Sell %d %s for %0.2f gold%s?", "%d %s %0.2f 금화로 판매하시겠습니까%s?", "tformat", nil, {[2]="를"})
+t("Sold: %s %s for %0.2f gold.", "판매: %s %s - %0.2f 금화.", "log")
 t("Cancel", "취소", "_t")
 t("Sell", "판매", "_t")
+t("Buy for: %0.2f gold (You have %0.2f gold)", "%0.2f 금화로 구입 (소지금 %0.2f)", "tformat")
+t("Sell for: %0.2f gold (You have %0.2f gold)", "%0.2f 금화로 판매 (소지금 %0.2f)", "tformat")
+t("This entity can not access inventories.", "이 개체는 소지품을 사용할 수 없습니다.", "logPlayer")
+t("You must be level %d to access this shop.", "레벨이 %d 에 도달해야 이 상점을 이용할 수 있습니다.", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/Trap.lua"
 
 t("%s's %s", "%s의 %s", "tformat")
+t("#LIGHT_GREEN#%d turns #WHITE#", "#LIGHT_GREEN#%d 턴 #WHITE#", "tformat")
+t("<Store>", "<상점>", "_t")
 t("neutral", "중립", "_t")
 t("hostile", "적대적인", "_t")
 t("friendly", "우호적", "_t")
 t("Faction: ", "소속: ", "_t")
+t("(beneficial)", "(아군)", "_t")
+t("(beneficial to enemies)", "(적군)", "_t")
+t("(safe)", "(안전함)", "_t")
+t("pressure_trigger", "압력식 함정", "_t")
+t("#YELLOW#Detect: %d#WHITE#", "#YELLOW#감지력: %d#WHITE#", "tformat")
+t("#YELLOW# Disarm: %d#WHITE#", "#YELLOW# 해체력: %d#WHITE#", "tformat")
+t("Dismantling", "함정해체", "_t")
+t("dismantled", "해체됨", "_t")
+t("Your level of skill was not enough to understand the workings of this trap.", "당신의 기술 레벨로는 이 함정의 작동 원리를 이해할 수 없다.", "_t")
+t("You quit dismantling the trap.", "당신은 함정해체를 그만두었다.", "_t")
+t("Failure", "실패", "_t")
+t("Success", "성공", "_t")
+t("\
+#LIGHT_BLUE#Trap Description:#WHITE#\
+", "\
+#LIGHT_BLUE#함정 설명:#WHITE#\
+", "_t")
+t("Disarming a trap: %s", "함정 해체중: %s", "tformat")
+t([[As you begin disarming the trap, you think you may be able to learn how it works by carefully dismantling it.  You estimate this will take up to #YELLOW#%d#LAST# uninterrupted turns.
+	What do you want to do?
+%s
+]], [[함정을 해체하기 시작하자, 당신은 조심스럽게 장치를 분해하면서 함정이 어떻게 작동하는지 파악할 수 있을 것 같다는 생각이 듭니다.  이 장치를 이해하는데 대략 #YELLOW#%d#LAST# 턴을 아무런 방해없이 집중하면 될 것 같습니다.
+	어떻게 하시겠습니까?
+%s
+]], "tformat")
+t("not resting", "쉬지 않고", "_t")
+t("You set off the trap!", "함정을 건드려버렸다!", "_t")
+t("You successfully dismantled the trap.", "성공적으로 함정을 해체했다.", "_t")
+t("You were interrupted.", "방해받았다.", "_t")
+t("Disarm Normally", "보통 때처럼 해체했다", "_t")
+t("Dismantle Carefully", "조심스래 해체했다", "_t")
+t("ignore", "무시했다", "_t")
+t("simply ignore", "가볍게 무시했다", "_t")
+t("carefully avoid", "조심스래 피했다", "_t")
+t("somehow avoid", "어떻게든 피했다", "_t")
+t("dodge", "회피했다", "_t")
+t("#CADET_BLUE#You %s a trap (%s).", "#CADET_BLUE#당신을 함정을 %s (%s).", "log")
+t("a trap (%s)", "함정 (%s)", "tformat")
+t("something on the floor", "바닥에 무엇인가 있다", "_t")
 t("trap", "함정", "_t")
 
 
@@ -983,16 +1140,20 @@ section "game/modules/tome/class/UserChatExtension.lua"
 ------------------------------------------------
 section "game/modules/tome/class/World.lua"
 
+t("#LIGHT_BLUE#New shimmer option unlocked: #{italic}#%s#{normal}#", "#LIGHT_BLUE#새로운 치장 옵션 해금: #{italic}#%s#{normal}#", "log")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/WorldNPC.lua"
 
+t("#Target# kills #Source#.", "#Target1# #Source3# 쓰러뜨렸습니다.", "logCombat")
+t("#Source# kills #Target#.", "#Source1# #Target3# 쓰러뜨렸습니다.", "logCombat")
 t("neutral", "중립", "_t")
 t("hostile", "적대적인", "_t")
 t("friendly", "우호적", "_t")
 t("Rank: ", "등급: ", "_t")
 t("Faction: ", "소속: ", "_t")
+t("Killed by you: ", "당신에게 쓰러짐: ", "tformat")
 t("Target: ", "대상: ", "_t")
 t("none", "없음", "_t")
 
@@ -1001,56 +1162,123 @@ t("none", "없음", "_t")
 section "game/modules/tome/class/generator/actor/Arena.lua"
 
 t("giant crystal rat", "거대 수정 시궁쥐", "_t")
+t("Skeletal rats", "해골 쥐들", "_t")
+t("Gladiators", "검투사들", "_t")
+t("Golden crystals", "황금빛 수정", "_t")
+t("Master slingers", "투석구 달인", "_t")
+t("Master Alchemist", "달인 연금술사", "_t")
+t("Multi-hued Wyrmic", "다색의 용인", "_t")
 t("Reaver", "약탈자", "_t")
+t("Headless horror", "머리없는 공포", "_t")
 t("Ryal the Towering", "거탑 같은 라이알", "_t")
 t("Fryjia the Hailstorm", "우박폭풍의 프리지아", "_t")
 t("Riala the Crimson", "진홍의 리아라", "_t")
 t("Valfren the Rampage", "미쳐 날뛰는 발프렌", "_t")
+t("Boss fight!", "보스전!", "_t")
+t("Victory!!", "승리!!", "_t")
+t(" appear!!", " 등장!!", "_t")
+t(" appears!!", " 등장!!", "_t")
+t("#LIGHT_RED#WARNING! %s appears!!!", "#LIGHT_RED#위험! %s 등장!!!", "log")
+t("Rej the Master of Arena", "투기장의 주인 레이", "_t")
+t("#LIGHT_RED#WARNING! Rej Arkatis, the master of the arena, appears!!!", "#LIGHT_RED#위험! 투기장의 주인, 레이 알카티스 등장!!!", "log")
+t("The final fight!", "마지막 결전!", "_t")
+t("Congratulations!", "축하합니다!", "_t")
 t("%s the %s", "%s %s", "tformat", {2,1})
+t("%s the Master of Arena", "투기장의 주인 %s", "tformat")
+t("#LIGHT_RED#WARNING! %s, the master of the arena, appears!!!", "#LIGHT_RED#위험! 투기장의 주인, %s 등장!!!", "log")
+t("OVERKILL", "압살", "_t")
+t("#LIGHT_GREEN#Your powerful attack completely obliterates #WHITE#%s#LIGHT_GREEN#!", "#LIGHT_GREEN#강력한 공격으로 #WHITE#%s#LIGHT_GREEN# 완전히 없애버렸다!", "log", nil, {"를"})
+t("#LIGHT_GREEN#You destroy #WHITE#%s#LIGHT_GREEN# in a single blow!", "#LIGHT_GREEN#일격으로 #WHITE#%s#LIGHT_GREEN# 파괴했다!", "log", nil, {"를"})
+t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#%d#LIGHT_GREEN#!", "#LIGHT_GREEN#점수 배율이 #WHITE#%d#LIGHT_GREEN# 증가!", "log")
+t("#LIGHT_GREEN#Your score multiplier increases by #WHITE#0.1#LIGHT_GREEN#!", "#LIGHT_GREEN#점수 배율이 #WHITE#0.1#LIGHT_GREEN# 증가!", "log")
+t("#YELLOW#You defeat an experienced enemy!", "#YELLOW#강한 적을 쓰러뜨렸다!", "log")
+t("#LIGHT_GREEN#The audience cheers!", "#LIGHT_GREEN#관중들이 환호한다!", "log")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/generator/actor/HighPeakFinal.lua"
 
+t("An entity appears through the portal!", "차원문에서 어떤 존재가 모습을 드러냈다!", "logSeen")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/generator/actor/ValleyMoon.lua"
 
+t("Limmir summons a blast of holy light!", "리미르가 신성한 빛의 폭발을 일으켰다!", "logSeen")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/ActorAI.lua"
 
+t("#Source# shoves #Target# aside.", "#Source1# #Target3# 한 쪽으로 밀어냈다.", "logCombat")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/ActorInscriptions.lua"
 
+t("You are unable to use this kind of inscription.", "당신은 이런 종류의 각인을 사용할 수 없다.", "logPlayer")
+t("You already have too many of this inscription.", "당신은 이미 같은 종류의 각인을 너무 많이 새겨넣었다.", "logPlayer")
+t("You have no more inscription slots.", "남아있는 각인 슬롯이 없다.", "logPlayer")
+t("You are now inscribed with %s.", "당신은 %s 새겨넣었다.", "logPlayer", nil, {"를"})
+t("Your %s is depleted!", "%s 다 써버렸다!", "logPlayer", nil, {"을"})
 
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/ActorObjectUse.lua"
 
+t("Activate an object", "물품 발동", "_t")
+t("Activate: %s", "발동: %s", "tformat")
 t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
+t("Activate an object.", "물품 발동.", "_t")
+t("(unknown object)", "(알 수 없는 물품)", "_t")
+t([[Use %s:
+
+%s]], [[사용 %s:
+
+%s]], "tformat")
+t("Activate %s", "발동 %s", "tformat")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/Archery.lua"
 
+t("You need a missile launcher (%s)!", "투사체 발사기가 필요하다 (%s)!", "logPlayer")
 t("You do not have enough ammo left!", "남은 탄환이 없다!", "logPlayer")
+t("#ORCHID#Your %s CANNOT SHOOT (Resource: %s%s#LAST#).", "#ORCHID#당신은 %s 발사할 수 없다 (원천력: %s%s#LAST#).", "logPlayer", nil, {"를"})
+t("#ORCHID#Target out of range.  Hold <ctrl> to force all weapons to fire at targets out of ranges (%d - %d).", "#ORCHID#대상이 사거리 밖에 있다.  <ctrl> 키를 눌러 사거리 밖의 적에게 강제로 발사할 수 있다. (%d - %d).", "logPlayer")
+t("#ORCHID#Target out of range.  Hold <ctrl> to force your weapon to fire at targets beyond its range (%d).", "#ORCHID#대상이 사거리 밖에 있다.  <ctrl> 키를 눌러 사거리 밖의 적에게 강제로 발사할 수 있다. (%d)", "logPlayer")
+t("#ORCHID#You COULD NOT SHOOT your %s (Resource: %s%s#LAST#).", "#ORCHID#당신은 %s 발사할 수 없다 (원천력: %s%s#LAST#).", "logPlayer", nil, {"를"})
+t("%s(%d parried#LAST#)", "%s(%d 받아넘김#LAST#)", "tformat")
 t("#{bold}##Source# performs a ranged critical strike against #Target#!#{normal}#", "#{bold}##Source1# #Target#에게 치명적인 원거리 공격을 가했다!#{normal}#", "logCombat")
 t("#Source# misses #target#.", "#Source1# #target3# 빗맞혔다.", "logCombat")
+t("The shattering blow creates a shockwave!", "파쇄의 일격이 충격파를 만들어냈다!", "logSeen")
+t("You are disarmed!", "당신은 무장해제 되었다!", "logPlayer")
+t("You must wield a ranged weapon (%s)!", "당신은 원거리 무기를 착용하여야한다 (%s)!", "logPlayer")
 
 
 ------------------------------------------------
 section "game/modules/tome/class/interface/Combat.lua"
 
+t("%s is too afraid to attack.", "%s 공격도 못할 정도로 두려워하고있다 .", "logSeen", nil, {"는"})
+t("%s is too terrified to attack.", "%s 공포에 압도되어 공격조차 할 수 없다.", "logSeen")
+t("#Target# notices you at the last moment!", "#Target1# 당신을 포착했다!", "logCombat")
+t("#ORCHID#%s cleverly deflects the attack with %s shield!#LAST#", "#ORCHID#%s 교묘하게 %s 방패로 공격을 비껴냈다!#LAST#", "logSeen", nil, {"는"})
+t("#ORCHID#%s parries the attack with %s dual weapons!#LAST#", "#ORCHID#%s %s 쌍수 무기로 공격을 받아넘겼다!#LAST#", "logSeen", nil, {"는"})
+t("#ORCHID#%s instinctively hardens %s skin and ignores the attack!#LAST#", "#ORCHID#%s 본능적으로 %s 피부를 경화시켜 공격을 무시했다!#LAST#", "logSeen", nil, {"는"})
+t("#Target# repels an attack from #Source#.", "#Target2# #Source#의 공격을 격퇴했다.", "logCombat")
+t("#Target# evades #Source#.", "#Target1# #Source3# 피했다.", "logCombat")
+t("%s(%d parried#LAST#)", "%s(%d 받아넘김#LAST#)", "tformat")
+t("%s(%d gestured#LAST#)", "%s(%d 손짓#LAST#)", "tformat")
 t("#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#", "#{bold}##Source1# #Target#에게 치명적인 근접 공격을 가했다!#{normal}#", "logCombat")
 t("#Source# misses #Target#.", "#Source1# #Target3# 빗맞혔다.", "logCombat")
-t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약한 적을 희롱하는 것은 큰 기쁨이지! (+%d 증오)", "logPlayer")
+t("The shattering blow creates a shockwave!", "파쇄의 일격이 충격파를 만들어냈다!", "logSeen")
+t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약해진 적을 희롱하며 당신은 고양된다! (+%d 증오)", "logPlayer")
+t("#F53CBE#Your rampage is invigorated by your fierce attack! (+1 duration)", "#F53CBE#맹렬한 공격으로 인해 광란에 힘이 실린다! (지속시간 +1 턴)", "logPlayer")
+t("#Source# counter attacks #Target# with %s shield shards!", "#Source2# #Target#의 공격을 %s 방패 가시로 반격했다!", "logCombat")
 t("#{bold}#%s's spell attains critical power!#{normal}#", "#{bold}#%s의 주문이 치명적인 위력을 발휘했다!#{normal}#", "logSeen")
 t("#{bold}#%s's mind surges with critical power!#{normal}#", "#{bold}#%s의 정신력이 치명적인 위력을 발휘했다!#{normal}#", "logSeen")
+t("#Source#'s grapple fails because #Target# is too big!", "#Target1# 너무 크기 때문에 #Source#의 관절기는 실패했다!", "logCombat")
+t("%s resists the grapple!", "%s 관절기에 저항했다!", "logSeen", nil, {"는"})
 
 
 ------------------------------------------------
@@ -3287,9 +3515,9 @@ t("Every level after level 50 the maximum of stats will increase by one.", "레�
 t("Every 10 levels after level 50 the maximum points of each talent will increase by one.", "레벨 50 이후, 매 10 레벨마다 최대 기술 레벨 한계가 1 씩 증가합니다.", "_t")
 t("The Arena: Challenge of the Master", "아레나: 정점을 향한 도전", "_t")
 t("Blood spilled on sand, only the strong survive. Prove yourself worthy to enter.", "모래 위에 피가 흩뿌려지고, 강한 자만이 살아납니다. 들어갈 자격이 있음을 증명하십시오.", "_t")
-t("Play as a lone warrior facing the Arena's challenge!", "아레나의 도전에 마주한 고독한 전사로 게임을 진행합니다!", "_t")
+t("Play as a lone warrior facing the Arena's challenge!", "투기장의 도전에 마주한 고독한 전사로 게임을 진행합니다!", "_t")
 t("You can use any class and race for it.", "당신은 모든 직업과 종족을 선택할 수 있습니다.", "_t")
-t("See how far you can go! Can you become the new Master of the Arena?", "당신이 어디까지 갈 수 있을지 봅시다! 과연 아레나의 새로운 주인이 될 수 있을까요?", "_t")
+t("See how far you can go! Can you become the new Master of the Arena?", "당신이 어디까지 갈 수 있을지 봅시다! 과연 투기장의 새로운 주인이 될 수 있을까요?", "_t")
 t("If so, you will battle your own champion next time!", "그렇다면, 다음 번엔 당신의 챔피언과 싸우게 될겁니다!", "_t")
 
 
@@ -3297,13 +3525,33 @@ t("If so, you will battle your own champion next time!", "그렇다면, 다음 �
 section "game/modules/tome/data/calendar_allied.lua"
 
 t("Wintertide", "밀려오는 겨울", "calendar allied")
+t("Allure", "매혹", "calendar allied")
+t("Regrowth", "재성장", "calendar allied")
+t("Time of Balance", "균형의 시간", "calendar allied")
+t("Pyre", "장작더미", "calendar allied")
+t("Mirth", "즐거움", "calendar allied")
 t("Summertide", "밀려오는 여름", "calendar allied")
 t("Flare", "조명탄", "calendar allied")
+t("Dusk", "황혼", "calendar allied")
+t("Time of Equilibrium", "평정의 시간", "calendar allied")
+t("Haze", "아지랑이", "calendar allied")
+t("Decay", "부패", "calendar allied")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/calendar_dwarf.lua"
 
+t("Iron", "무쇠", "calendar dwarf")
+t("Steel", "강철", "calendar dwarf")
+t("Gold", "황금", "calendar dwarf")
+t("Stralite", "스트랄라이트", "calendar dwarf")
+t("Voratun", "보라툰", "calendar dwarf")
+t("Acquisition", "획득", "calendar dwarf")
+t("Profit", "이익", "calendar dwarf")
+t("Wealth", "부", "calendar dwarf")
+t("Dearth", "결핍", "calendar dwarf")
+t("Loss", "상실", "calendar dwarf")
+t("Shortage", "부족", "calendar dwarf")
 
 
 ------------------------------------------------
@@ -3460,7 +3708,7 @@ t("I'M IN.", "할게!", "_t")
 t("I CANNOT AID YOU AT THIS TIME.", "지금은, 못, 도와주겠네!", "_t")
 t([[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
 THE INGREDIENTS TO THESE SUCKERS ARE SORT OF A TRADE SECRET, SO I'LL TELL YOU ABOUT ONE AND WE'LL SEE HOW THAT GOES. OH, AND I'LL MAKE ENOUGH FOR YOU TO HAVE A SWIG WHEN I'M DONE, SO GOOD FOR YOU. WHICH ONE WILL IT BE? JUST POINT AT THE DAMNED LIST. I HAVEN'T HEARD A THING YOU'VE SAID YET. I HOPE TO HELL YOU'RE NOT STANDING THERE TRYING TO SELL ME SOMETHING.]], [[#LIGHT_GREEN#*그는 당신에게 영약들의 이름과 그 효과들이 적힌 쪽지를 주었습니다.*#WHITE#
-이 빌어먹을 것들의 재료는 사업 비밀 같은 것들이고, 그러니까 너한테는 약 하나의 재료만 가르쳐 주고 나머지는 그 뒤에 생각해 볼 거다. 오, 그리고 난 네가 마실 수 있을 만큼은 만들어 줄 테니까 이 일은 너한테도 좋은 거지. 어떤 걸로 할 거냐? 그냥 엿 같은 목록을 손으로 가리켜라. 난 아직도 네가 하는 말을 듣지를 못 했으니까. 네가 씨부럴 나한테 뭘 팔아먹으려고 여기 서 있는게 아니길 빈다.]], "_t")
+이 빌어먹을 것들의 재료는 사업 비밀 같은 것들이고, 그러니까 너한테는 약 하나의 재료만 가르쳐 주고 나머지는 그 뒤에 생각해 볼 거다. 오, 그리고 난 네가 마실 수 있을 만큼은 만들어 줄 테니까 이 일은 너한테도 좋은 거지. 어떤 걸로 할 거냐? 그냥 엿 같은 목록을 손으로 가리켜라. 난 아직도 네가 하는 말을 듣지를 못 했으니까. 네가 씨부럴 나한테 뭘 팔아먹으려고 여기 서 있는 게 아니길 빈다.]], "_t")
 t("HERE'S A LIST OF THE STUFF I NEED. MOST OF IT WILL TRY TO KILL YOU, SO I HOPE YOU'RE NOT INCOMPETENT. I'VE GOT PLENTY OF INCOMPETENT HELP ALREADY. I HOPE FOR YOUR SAKE THAT YOU'RE SMARTER AND FASTER THAN THEM.", "이게 나한테 필요한 재료 목록이다. 거기 있는 것들은 대부분 널 죽이려 들 거고, 그러니까 네가 칠푼이가 아니었으면 좋겠다. 이미 그런 칠푼이 놈들을 많이 보냈거든. 네가 그놈들보다 더 똑똑하고 더 재빠른 녀석이길 빈다.", "_t")
 t("#LIGHT_GREEN#*The door is locked and nobody responds to your knocks*#WHITE#", "#LIGHT_GREEN#*문은 잠겨 있고 노크에 응답하는 사람은 없습니다*#WHITE#", "_t")
 t("[Leave]", "[떠난다]", "_t")
@@ -3745,7 +3993,7 @@ If I am still around, we can have a deal. Think about it, @playerdescriptor.race
 아아... 자네의 뜻이 그렇다면, 우리는 다시 만날 일은 없겠군.
 하지만, 혹시나 자네의 생각이 바뀐다면... 나는 #YELLOW#데르스에 잠깐 더 머무를 
 생각이라네.#WHITE#
-지나다니다가 내가 아직도 보인다면, 아직은 기회가 있는 셈이야. 다시 한 번 생각해보는게 좋을 걸세, @playerdescriptor.race@.
+지나다니다가 내가 아직도 보인다면, 아직은 기회가 있는 셈이야. 다시 한 번 생각해보는 게 좋을 걸세, @playerdescriptor.race@.
 ]], "_t")
 t("We'll see. [Leave]", "두고보지. [떠난다]", "_t")
 t([[#LIGHT_GREEN#*The man smiles in approval*#WHITE#
@@ -4158,7 +4406,7 @@ YOU!  Name, rank, and identification.  NOW.
 ]], "_t")
 t("My what?", "내가 뭐?", "_t")
 t("#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately draw their weapons.", "#LIGHT_GREEN#*방에 들어서자, 거대한 오우거 두 명이 보초를 서고 있는 게 보였습니다. 오랜 잠에서 깨어난 것처럼 눈을 깜박거리고 있긴 했지만요. 그들은 당신을 보자마자 즉시 무기를 꺼냈습니다.", "_t")
-t("#CRIMSON#NARGOL SCUM!  WE'RE UNDER ATTACK!", "#CRIMSON#나르골의 쓰레기다!!  공격한다!!", "_t")
+t("#CRIMSON#NARGOL SCUM!  WE'RE UNDER ATTACK!", "#CRIMSON#나르골의 쓰레기다!!  공격하겠다!!", "_t")
 t([[#LIGHT_GREEN#*Entering the room, you see two massive ogres standing guard, blinking as though awakened from a long sleep. They see you, and immediately snap to attention. The one on the right speaks:*#WHITE#
 Ah!  Reinforcements!  I don't know how long it's been, but I'll get Astelrid up here to--  wait a minute, where are the rest of them?  #LIGHT_GREEN#*He frowns.*#WHITE# What's your identification number?
 ]], [[#LIGHT_GREEN#*방에 들어서자, 거대한 오우거 두 명이 보초를 서고 있는 게 보였습니다. 오랜 잠에서 깨어난 것처럼 눈을 깜박거리고 있긴 했지만요. 그들은 당신을 보자마자 즉시 자세를 고쳐 잡았습니다. 오른쪽의 한 명이 말했습니다:*#WHITE#
@@ -7740,7 +7988,7 @@ t("A strange yellow blob on the dungeon floor.", "던전 바닥을 기어다니�
 t("black jelly", "검은 젤리", "entity name")
 t("A strange black blob on the dungeon floor.", "던전 바닥을 기어다니는 이상하게 생긴 검은색의 부정형의 존재입니다.", "_t")
 t("Malevolent Dimensional Jelly", "악의 가득한 차원 젤리", "entity name")
-t("A strange black blob on the dungeon floor; through it you seem to be able to see other times and places. As you stare you see things moving out of it.", "던전 바닥을 기어다니는 이상하게 생긴 검은색의 부정형의 존재로, 어떤 시간과 장소에서도 눈에 보이는 것 같습니다. 이 젤리를 처다보고 있노라면, 무엇인가가 흘러나오는게 눈에 보입니다.", "_t")
+t("A strange black blob on the dungeon floor; through it you seem to be able to see other times and places. As you stare you see things moving out of it.", "던전 바닥을 기어다니는 이상하게 생긴 검은색의 부정형의 존재로, 어떤 시간과 장소에서도 눈에 보이는 것 같습니다. 이 젤리를 처다보고 있노라면, 무엇인가가 흘러나오는 게 눈에 보입니다.", "_t")
 
 
 ------------------------------------------------
@@ -8005,7 +8253,7 @@ section "game/modules/tome/data/general/npcs/plant.lua"
 
 t("immovable", "부동생물", "entity type")
 t("plants", "식물", "entity subtype")
-t("A not-so-strange growth on the dungeon floor.", "던전 바닥에서 자라나는게 그렇게 이상하진 않네요.", "_t")
+t("A not-so-strange growth on the dungeon floor.", "던전 바닥에서 자라나는 게 그렇게 이상하진 않네요.", "_t")
 t("giant venus flytrap", "거대한 끈끈이주걱", "entity name")
 t("This flesh-eating plant has grown to enormous proportions and seeks to quell its hunger.", "살점을 뜯어먹는 식물이 거대하게 자라 굶주림을 가라앉힐 방법을 찾고 있습니다.", "_t")
 t("treant", "나무 정령", "entity name")
@@ -8051,7 +8299,7 @@ section "game/modules/tome/data/general/npcs/sandworm.lua"
 
 t("vermin", "해충", "entity type")
 t("sandworm", "샌드웜", "entity name")
-t("A huge worm coloured as the sand it inhabits. It seems quite unhappy about you being in its lair.", "모래의 색깔을 띄고 있는 거대한 벌레로, 당신이 둥지에 있는게 내키지 않는 모양입니다.", "_t")
+t("A huge worm coloured as the sand it inhabits. It seems quite unhappy about you being in its lair.", "모래의 색깔을 띄고 있는 거대한 벌레로, 당신이 둥지에 있는 게 내키지 않는 모양입니다.", "_t")
 t("sandworm destroyer", "샌드웜 파괴자", "entity name")
 t("A huge worm coloured as the sand it inhabits. This particular sandworm seems to have been bred for one purpose only: the eradication of everything that is non-sandworm, such as... you.", "모래의 색깔을 띄고 있는 거대한 벌레로, 이 특별한 샌드웜들은 단 한가지 목적을 위해 부화한 것 같습니다. 바로 샌드웜이 아닌 모든 것의 박멸. 이를테면... 당신같은거요.", "_t")
 t("sand-drake", "모래 드레이크", "entity name")
@@ -8407,13 +8655,13 @@ t("A huge creature of the element Earth. Able to merge with its element, it has 
 t("xaren", "싸렌", "entity name")
 t("It is a tougher relative of the Xorn. Its hide glitters with metal ores.", "쏘른에 비하면 강인합니다. 싸렌의 가죽에 박힌 금속 광물이 반짝입니다.", "_t")
 t("The Fragmented Essence of Harkor'Zun", "하코르'준의 조각난 정수", "entity name")
-t("Fragmented essence... maybe it'd be best if it stayed fragmented.", "조각난 정수... 조각난 채로 있는게 차라리 더 나을 것 같습니다.", "_t")
+t("Fragmented essence... maybe it'd be best if it stayed fragmented.", "조각난 정수... 조각난 채로 있는 게 차라리 더 나을 것 같습니다.", "_t")
 t("#AQUAMARINE#%s absorbs the energy of the destroyed fragment!", "#AQUAMARINE#%s 파괴된 조각으로부터 힘을 되찾는다!", "logSeen", nil, {"는"})
 t("#AQUAMARINE#%s is infused with all the energies of the fragments. The real Harkor'Zun is reconstituted!", "#AQUAMARINE#%s 조각난 정수의 모든 힘을 흡수했다. 진정한 하코르'준이 재구성되었다!", "logSeen", nil, {"는"})
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
 t("Harkor'Zun", "하코르'준", "entity name")
-t("A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.", "땅의 원소로 이루어진 악마로, 뒤틀린 싸렌같지만 훨씬, 훨씬 거대합니다.  당신이 이곳에 있는게 마음에 들지 않는 모양입니다.", "_t")
+t("A gigantic demon composed of elemental Earth, resembling a twisted Xaren but much, much larger.  It doesn't seem pleased with your presence.", "땅의 원소로 이루어진 악마로, 뒤틀린 싸렌같지만 훨씬, 훨씬 거대합니다.  당신이 이곳에 있는 게 마음에 들지 않는 모양입니다.", "_t")
 
 
 ------------------------------------------------
@@ -8772,9 +9020,9 @@ t("+1 to all lightning damage spells", "모든 전기 피해 주문 +1", "_t")
 t("ornate trident", "화려하게 장식된 삼지창", "_t")
 t("River's Fury", "강의 분노", "entity name")
 t("This gorgeous and ornate trident was wielded by Lady Nashva, and when you hold it, you can faintly hear the roar of a rushing river.", "이 화려하고 세밀하게 장식된 삼지창은 레이디 나스바가 사용했습니다. 삼지창을 쥐면, 몰아치는 강물의 포효를 희미하게나마 들을 수 있습니다.", "_t")
-t("Unerring Scalpel", "정확한 수술용 매스", "entity name")
-t("long sharp scalpel", "길고 날카로운 매스", "_t")
-t("This scalpel was used by the dread sorcerer Kor'Pul when he began learning the necromantic arts in the Age of Dusk.  Many were the bodies, living and dead, that became unwilling victims of his terrible experiments.", "애 매스는 공포의 주술사인 코르'풀이 황혼의 시대 동안, 강령술을 배우기 시작하던 때에 사용했습니다.  살아있던 죽었던 간에 그에게 희생된 생명은 수를 헤아릴 수 없습니다.", "_t")
+t("Unerring Scalpel", "정확한 수술용 메스", "entity name")
+t("long sharp scalpel", "길고 날카로운 메스", "_t")
+t("This scalpel was used by the dread sorcerer Kor'Pul when he began learning the necromantic arts in the Age of Dusk.  Many were the bodies, living and dead, that became unwilling victims of his terrible experiments.", "이 메스는 공포의 주술사인 코르'풀이 황혼의 시대 동안, 강령술을 배우기 시작하던 때에 사용했습니다.  살아있던 죽었던 간에 그에게 희생된 생명은 수를 헤아릴 수 없습니다.", "_t")
 t("Wyrmbreath", "용숨결", "entity name")
 t("clawed dragon-scale gloves", "발톱달린 용비늘 장갑", "_t")
 t("These dragon scale gloves are tipped with the claws and teeth of a vicious Wyrm. The gloves are warm to the touch.", "이 용비늘 장갑은 포악한 용의 발톱과 이빨로 끝이 장식되어있습니다. 장갑을 만저보면 따뜻한 온기가 느껴집니다.", "_t")
@@ -10958,6 +11206,8 @@ t("mummy wrappings", "미라 붕대", "entity name")
 section "game/modules/tome/data/general/objects/objects-far-east.lua"
 
 t("tome", "고서", "entity subtype")
+t("ancient tome", "고대의 서적", "_t")
+t("Ancient Tome titled 'Gems and their uses'", "'보석과 그 사용에 대하여' 라는 이름이 붙은 고서이다", "entity name")
 
 
 ------------------------------------------------
@@ -11641,7 +11891,7 @@ t("a weird metallic hand", "이상한 기계 손", "_t")
 t("You can feel this strange metallic hand wriggling around, it feels as if space distorts around it.", "당신은 이 기괴한 기계 손이 꿈틀대는 것을 느낍니다. 주변의 공간이 왜곡되는 것처럼 느껴집니다.", "_t")
 t("Garkul's Teeth", "가르쿨의 이빨", "entity name")
 t("a necklace made of teeth", "치아로 만든 목걸이", "_t")
-t("Hundreds of humanoid teeth have been strung together on multiple strands of thin leather, creating this tribal necklace.  One would have to assume that these are not the teeth of Garkul the Devourer but rather the teeth of Garkul's many meals.", "인간형 생명체의 이빨 수 백개가 여러 가닥의 얇은 가죽으로 이어, 이 부족 목걸이를 만들었습니다.  이것들은 포식자 가르쿨의 치아가 아니라, 오히려 가르쿨의 점심 식사들의 이빨이라고 보는게 나을 겁니다.", "_t")
+t("Hundreds of humanoid teeth have been strung together on multiple strands of thin leather, creating this tribal necklace.  One would have to assume that these are not the teeth of Garkul the Devourer but rather the teeth of Garkul's many meals.", "인간형 생명체의 이빨 수 백개가 여러 가닥의 얇은 가죽으로 이어, 이 부족 목걸이를 만들었습니다.  이것들은 포식자 가르쿨의 치아가 아니라, 오히려 가르쿨의 점심 식사들의 이빨이라고 보는 게 나을 겁니다.", "_t")
 t("Another of Garkul's heirlooms would bring out his spirit.", "가르쿨의 또 다른 보물이 그의 영혼을 불러낼 것입니다.", "_t")
 t("#CRIMSON#As you wear both Garkul's heirlooms you can feel the mighty warrior's spirit flowing through you.", "#CRIMSON#가르쿨의 보물 두 개를 장비하자, 강력한 전사의 혼이 당신의 신체를 타고 흐르는 것을 느낍니다.", "logSeen")
 t("#CRIMSON#The spirit of Garkul fades away.", "#CRIMSON#가르쿨의 영혼이 사라집니다.", "logPlayer")
@@ -13040,7 +13290,263 @@ The military are annoying me to no end. I told them to find me more test subject
 군인들은 끝도 없이 나를 짜증나게 만든다. 나는 군인들에게 당장 실험체를 더 구해오라고 했지만, 놈들은 지역에 적 순찰대가 있다는 변명을 했다. 내가 그런 사소한 일을 신경이나 쓸 것 같은가?! 그리고 지금은 회랑에서 싸움이나 연습하는 놈들의 소리가 들린다. 놈들은 가짜로 싸우면서도 멍청한 애들처럼 신음소리를 내고 비명을 지른다. 여기가 얼마나 중요한 시설인지 알고는 있는 건가? 내 천재성이 얼마나 방해받고 있는지 이해를---
 ]], "_t")
 t("order for director Hompalan", "감독관 홈팔란에게 내리는 명령서", "_t")
-t("investigator Churrack note", "조사원 출라크의 메모", "_t")
+t([[#{italic}#To: Research Director Hompalan - #{bold}#TOP PRIORITY#{normal}#
+
+Thanks to one of our scouting parties catching a Conclave lieutenant's squad off-guard, we have found directions to a noteworthy laboratory hidden underground, in what's newly Nargol territory.  Unfortunately, the long-legs scuttled the entrances before we could arrive, and it'd take us years to dig ourselves in, even if we could afford recalling our geomancers from the front lines to work on it - which we can't.  
+
+Your new objective is to find a way to warp a recovery team inside to scavenge it, then get them back safely with their data in tow.  It's possible that they've figured out a way to ward it against teleportation; enclosed is a key, in case it's necessary to target a point between the obstruction and the entrance.  I don't want to hear any of your nonsense about it being "impossible" without a linked portal near the destination; thirty years ago, you would've told me that almost everything you're now doing on a daily basis is impossible.
+
+I know you think yourself "above" such "petty politics" like how vital this facility would be to our survival, so I won't bore you with stressing how important this is to us.  Accordingly, let me put this in terms you can relate to: This is an order, and your usual excuses won't cut it.  Your job is on the line.  #{bold}#Make.  It.  Work.#{normal}#
+
+-General Martolep
+
+#{italic}#(Some coordinates are enclosed, along with a large, magic-infused key.  You think you can figure out, roughly, where this sealed Conclave facility is.)#{normal}#
+]], [[#{italic}#수신: 연구 감독관 홈팔란 - #{bold}#최우선 명령#{normal}#
+
+우리 정찰대가 방심하고 있던 최고 의회 중위의 부대를 포획한 덕분에, 어떤 비밀 지하 연구소로 가는 길을 발견해냈다. 나르골 왕국의 새 영토 내에 있더군.  아쉽게도, 꺽다리들이 우리가 도착하기 전에 입구를 막아버렸고 우리가 거기 땅을 파내서 들어가려면 몇 년은 걸릴 거고, 그것도 최전선의 대지술사들을 이쪽으로 소집해서 작업을 시킬 형편이 되었을 때의 이야기다. 그러니까 결국 그렇게는 못 한다는 것이지.  
+
+이제부터 귀관은 진입부대를 그 시설 안으로 순간이동시켜, 시설을 샅샅이 뒤진 해당 부대가 정보를 가지고 안전히 복귀할 수 있도록 하는 방법을 찾아내야 한다.  해당 시설의 연구원들은 순간이동을 차단하는 방법을 발견해냈을 가능성이 있다. 열쇠를 동봉했고, 만약에 장애물과 입구 사이의 지점을 목표로 한다면 그것이 필요할 것이다.  목적지 근처에 연결된 차원문이 없으면 "불가능하다" 따위의 헛소리는 더는 듣고 싶지 않다. 30년 전부터, 귀관은 매일매일 하는 거의 모든 일들이 불가능하다고 지껄여왔으니.
+
+귀관이 '이 시설이 우리가 살아남는 데에 얼마나 도움이 되는가' 같은 "하찮은 정치적 문제" "따위" 에 신경 안 쓴다는 것은 알고 있다. 그러므로 이것이 얼마나 중요한지에 대해 주절거리면서 귀관을 귀찮게 하진 않겠다.  따라서, 딱 몇 마디만 더 하고 이만 줄이겠다.  이건 명령이고, 변명은 필요 없다. 귀관의 임무는 이미 시작되었다.  #{bold}#어떻게든.  되게.  하라.#{normal}#
+
+-장군 마톨렙
+
+#{italic}#(어떤 좌표와 함께 커다란 마법의 열쇠가 동봉되어 있습니다.  편지에서 말하는 최고 의회의 봉인된 시설이 어디에 있는지 대충 알아낼 수 있을 것 같습니다.)#{normal}#
+]], "_t")
+t("Door to an old Conclave vault", "최고 의회의 비밀 볼트로 가는 문", "_t")
+t("Arriving at the location given by the coordinates, you see an enormous crack in the ground; peering down, the gleam of exposed metal catches your eye, and you recognize it as a massive door.  It would seem that the Cataclysm's tectonic upheaval has carved a path right to one of its entrances, bypassing the ruined tunnels entirely. You climb down, just outside the door.", "좌표가 나타내는 위치에 도착하니, 땅에 거대한 균열이 나 있는 것이 보였습니다. 그 아래를 내려다보니 튀어나온 금속이 반짝이는 것이 보였고, 그것이 거대한 문이라는 것을 알아차렸습니다.  대재앙으로 인해 구조가 크게 변해버려, 무너져 내린 터널을 완전히 우회하여 입구 중 하나로 곧장 가는 길이 만들어진 모양입니다. 당신은 문의 바로 바깥쪽으로 내려갔습니다.", "_t")
+t("Conclave Vault", "최고 의회의 비밀 볼트", "_t")
+t("healer Astelrid log 1", "치유사 아스텔리드의 기록 1", "_t")
+t([[Work in a hospital like this is more draining than I thought it'd be.  I thought I'd have no trouble with motivation, helping our wounded get back to health again, but seeing so many of them, and knowing there are some I cannot help...  it weighs heavily on my mind.  It would be difficult to go on, if I did not keep a few things in mind: 
+
+One, that I am truly doing the best I can to minimize the world's suffering, both directly by healing, and indirectly by ensuring that the world will be united under the wise, thoughtful rule of the Conclave.  Ready access to regeneration infusions ensures that even the most dire of wounds can be healed in a matter of days, and the soldiers can return to the battlefield; furthermore, the Overseers have granted us access to their amnesia-inducing spells, allowing us to properly treat those who have been traumatized by the horrors of battle.  May the eyes of the Higher watch over this world for thousands of years to come.
+
+Two, that the "side project" the Overseers have assigned me to is working out very well.  Those wounded who have consented to our trial treatments, consisting of a unique combination of experimental variations on heroism infusions and shielding runes, have experienced slightly increased physical strength and endurance, with no sign of the effects wearing off.  There is one mild side effect which has given me cause to worry, though I dare not speak of my misgivings to anyone else; some of those treated have needed to be disciplined for getting too "enthusiastic" in battle.  The Overseers have assured me that this is actually having a net positive effect on morale, and thus I can wait to cure these aggressive tendencies until the war is over.  In the meantime, I am proud of my work, and although it's nothing so glorious as the creation of the Higher race, it will be a tremendous boon to our society in the long term.
+
+And three, that the war will soon be over, and with it we shall no longer have to bear the maiming of our proud soldiers and the impudence of the Nargol.  We have made impressive gains in territory in the last few days, thwarting numerous ambushes and keeping our momentum as we expand further into Nargol lands.  Granted, one cannot be sure of how much of what we're hearing has been "cleaned up" by the Overseers, but one recent statement from the Nargol leads me to believe it is the truth:
+
+"This is your last chance to back down.  A great tragedy will ensue if you continue to push further, and do not accept our previously-stated terms of peaceful resolution.  Do not force us to do this."
+
+After waging a war of trickery and deceit, those halflings think they can bluff us!  Once their military is broken, we can bring their citizens into our fold and enlighten them, and then the true healing can begin.]], [[이런 병원에서 일하는 건 예상보다 더 힘들다.  우리의 부상병들을 다시 건강하게 만들겠다는 포부는 좋았지만, 부상병들이 이렇게나 많고, 또 내가 도울 수 없는 이들도 있는 것을 보니...  마음이 무거워진다.  몇 가지 명심하고 있는 게 없었더라면, 이 일을 계속하긴 어려웠을 것이다. 
+
+하나, 난 정말로 이 세상에 넘쳐나는 고통을 최대한 줄이기 위해 최선을 다하고 있다는 것. 직접 치료하는 건 물론이고, 온 세상이 최고 의회의 현명하고 사려 깊은 통치를 확실히 누릴 수 있도록 해서, 간접적으로도.  재생 주입물을 곧바로 사용할 수 있기 때문에 정말 심각한 상처라도 며칠 내로 치료할 수 있고, 병사들은 다시 전장으로 돌아갈 수 있다. 게다가, 감독관들께서 기억 소거 마법을 사용할 수 있게 해 주셔서 전장의 공포로 마음에 상처가 생긴 환자들을 적절하게 치료할 수 있게 되었다.  하이어들의 눈이 장차 수천 년 간 이 세계를 지켜볼 수 있길.
+
+둘, 감독관들이 내게 맡긴 "부계획" 이 정말 잘 진행되고 있다는 것.  실험적 치료에 자원한 부상병들은 영웅 주입물과 보호막 룬을 조합한 시험작으로 처치를 받았고, 그들은 근력과 지구력이 다소 향상되었으며 그 효과는 아직까진 영구적인 것 같다.  다른 이들에겐 차마 말할 수 없지만, 걱정되는 부작용이 한 가지 있다. 그 처치를 받은 사람들 중 몇몇이 전투에 너무 "열광한다" 는 것이다.  감독관들이 그게 사기 고양에 도움이 된다고 장담했기 때문에, 그 공격성은 전쟁이 끝난 뒤에 치료하기로 했다.  아무튼 난 내가 하고 있는 일이 자랑스럽고, 물론 하이어 종족이 이룩한 것들에 비하면 아무것도 아니긴 하지만, 그래도 장기적으로는 이 연구가 우리 사회에 엄청난 도움이 될 것이다.
+
+그리고 셋, 전쟁은 곧 끝날 거고, 그렇게 되면 우리 자랑스러운 병사들이 부상을 당할 필요도, 나르골 놈들의 뻔뻔함을 더 두고 볼 필요도 없다는 것.  우린 지난 며칠 동안 많은 영토를 확보했다. 적들의 기습을 수도 없이 좌절시키고, 순조롭게 나르골의 땅으로 계속해서 나아가고 있다.  물론, 우리한테 들리는 소식들이 감독관들한테 얼마나 "쳐내진" 것들인지는 모르겠지만, 나르골 놈들이 최근에 이런 성명을 내서 진짜일 거라는 생각이 들긴 한다.
+
+"지금이 돌아갈 마지막 기회다.  이전에 제시했던 평화 협정을 받아들이지 않고 이 이상 침략을 계속한다면, 엄청난 비극이 닥치게 될 것이다.  우리 또한 그렇게까지 하고 싶지는 않다."
+
+저 하플링 놈들은 이제까지 수도 없이 속임수를 써 왔으면서, 아직까지도 허세를 부리고 있다!  저들의 군대가 무너지게 되면, 우린 저들 뒤의 민간인들을 받아들여 깨우치게 해야 한다. 그리고 진정한 치유는 거기서부터 시작될 것이다.]], "_t")
+t("healer Astelrid log 2", "치유사 아스텔리드의 기록 2", "_t")
+t([[The Nargol were not bluffing, and what they did was worse than anything we could've imagined.  The details coming from the survivors - of which there are both far too many and far too few - are conflicting at times, but from what I can tell...
+
+As our forces began their final push, the ground began to rumble and give way behind them, and the bones of the war's fallen (halflings and Conclave alike) began to rise up, then draw their once-discarded weapons and rush at our soldiers in a frenzy.  There were so many...  those who were on higher ground when it happened said it was like a sea of bones and rotting flesh.  Outnumbered, our forces broke ranks and tried to retreat, but with the halflings in front of them and the abominations behind them, we took tremendous losses...  and our humble medical center is overflowing with the gravely wounded.  Many come to us with a terrible sickness passed on by the Nargol's ghouls; there is no cure for this, and I have already had to "mercifully" end the lives of over a dozen men and women to save them from a long, drawn-out death, ending in their transfiguration into one of those horrid creatures...  including--
+
+[The end of the preceding paragraph, several lines' worth of text, has been furiously scribbled out.]
+
+No...  the real horrid creatures here are the halflings.  We've seen necromancy before, but mostly as a parlor trick by deranged cults; we never dreamed that any large organization would tolerate it, let alone hide necromantic charms on every one of its ranking officers.  They've been planning to do this since the start of the war, and only sprung the trap now...  Any misgivings I had about the aggression associated with our new treatment are gone forever; we cannot be ferocious enough in purging these fiends from Maj'Eyal.  I have requested an audience with the Overseers to broaden the scope of our experiments, setting our sights higher so we may crush this evil empire as swiftly as possible.  
+
+May the Conclave prevail, and may the Empire's fate serve as a warning to all who would defy our wisdom.]], [[나르골 놈들은 허세를 부리고 있던 게 아니었다. 그리고 놈들이 저지른 짓은 우리의 상상을 넘어서는 짓이었다.  살아남은 이들의 이야기들은 - 너무 많기도 하고 너무 적기도 하지만 - 앞뒤가 안 맞는 부분들이 있는데, 그래도 내가 이해한 바로는...
+
+우리 군사들이 마지막으로 진격하자, 땅이 흔들리더니 걸어왔던 땅이 무너지고 거기서 전사자들 (적군 아군 모두) 의 뼈가 솟아나기 시작했으며, 이내 무기를 줍더니 우리 병사들을 향해 미친 듯이 달려들었다고 한다.  숫자가 정말 많았다고...  그 사태를 높은 곳에서 내려다봤던 이들은, 마치 썩어가는 살점과 뼈로 된 바다 같았다고 말했다.  적의 병력이 너무 많아서 대열은 무너졌고, 우리 병사들은 후퇴하려 했지만 정면에는 하플링들이, 등 뒤에는 끔찍한 흉물들이 있어, 엄청난 피해를 입었다고 했다...  그리고 우리 보잘것없는 치료소엔 중환자들이 넘쳐나고 있다.  나르골 놈들의 구울들에게 심하게 당한 사람들이 몰려왔는데, 치료할 방법이 없었다. 그리고 난 이미 여러 사람들의 삶을 "자비롭게" 끝내 주었다. 오랫동안 고통받다가 결국 죽어서, 그 끔찍한 것들 중 하나로 변하기 전에...  게다가--
+
+[이 문단의 나머지 부분은 난폭하게 마구 그어진 선 때문에 알아볼 수가 없습니다.]
+
+아니야...  진짜로 끔찍한 건 하플링 놈들이다.  예전에 강령술을 본 적이 있긴 하지만 그건 대부분 정신 나간 사교도들이 남몰래 쓰는 것들이었지, 설마 그걸 용인하는 나라가 있을 줄은, 그것도 장교 하나하나가 강령술을 익히고 있을 줄은 꿈에도 몰랐다.  놈들은 전쟁이 시작됐을 때부터 이럴 작정이었고, 그 함정을 이제 터뜨린 것뿐이겠지...  우리의 새 치료법으로 공격성이 커지는 것이 불안했었지만, 이젠 아니다. 영원히.  저 악귀들을 마즈'에이알에서 몰아내려면 그 정도로는 부족하다.  난 감독관들과 이야기를 하고 싶다고 요청했다. 우리 실험의 범위를 넓히고, 목표를 더 높은 곳으로 잡기 위해서. 우린 저 사악한 제국을 가능한 한 빨리 쳐부숴버려야 한다.  
+
+최고 의회가 승리하기를, 그리고 저 제국의 운명이 우리의 지혜를 거부하는 자들에게 본보기가 되기를.]], "_t")
+t("healer Astelrid log 3", "치유사 아스텔리드의 기록 3", "_t")
+t([[The Overseers were ecstatic about my ideas!  Our staff have been relocated to a more secure location, deep underground with several extensive tunnels leading in from different locations.  Although this means we can no longer leave to harvest herbs for our infusions, the increased budget the Overseers have given us does more than enough to compensate.  Many wounded are still brought to me through the tunnels, but now our goal is not simply to make them as strong and healthy as they were before, but far stronger and far healthier than they could've dreamed.  They are brought to us unconscious, with amnesia spells already applied to ensure they do not resist our experiments; although they are not told they will be test subjects before being brought here, we are sure they would consent to these experiments, if they knew how valuable they were to help the Conclave.  As such, although this process violates several oaths we have taken as healers, I ultimately do not see any moral problem with this, and nobody else at this facility has expressed any concerns to me.  After all, those who join the Conclave as soldiers have already volunteered to give their lives in service to the Overseers' enlightened rule, and this is surely a much more productive way to do so than dying to a Nargol sling-bullet.
+
+With access to better components, we can make the same basic improvements to their strength as we could before, but the changes do not stop there!  With so many subjects to work with, and the Overseers' encouragement to take risks, we've made them much larger (with associated multiplying effects on their effectiveness in combat), and reinforced their constitution to be capable of bearing more inscriptions without collapsing under the stress.  A fellow researcher had the brilliant idea to use this runic affinity to both enhance their connection to magic's weave, and make them biologically and structurally dependent on it; now, our front-line soldiers can conjure devastating fireballs with little training, and should those hairy-footed vermin attempt to raise one of these soldiers from the dead, they will collapse, having lost the magic that kept them intact when they still lived.  
+
+The Overseers have been working with us personally to make psychological changes as well; with the blank slate provided by the amnesia spell, we've managed to give them a mindset that will serve them well both during the war and for our glorious reign that shall follow.  Extraordinarily dutiful, helpful and striving for excellence in their daily lives without lusting for power or personal glory, wise about their place in the world, and slow to anger...  but utterly ferocious when needed.  Just as the Higher were created to be scholars and policy-makers, and have proven successful in this role beyond the Conclave's wildest dreams, these new "Ogres" (as the staff has taken to nicknaming them) shall be our laborers and soldiers, a solid foundation of hard work and dutiful enforcement on which our society shall be built.  There will still be a place for the unaltered races, of course; their natural adaptability will make them perfect to fill in the gaps, as the glue that holds everything else together.
+
+These Ogres are integrating into our military very well!  The rank-and-file soldiers know better than to attract attention from the Overseers by asking too many questions about where their new, giant allies came from, and thus acceptance came rather swiftly once they saw these creations in action.  We received one report that an Ogre sergeant was seen eating a particularly insolent halfling alive, after he feigned surrender and attempted to cast a lightning spell; this spectacle was both highly motivating to our troops and demoralized the remnants of that halfling's squad into surrendering, so I shall be enhancing their digestive capabilities as well.  
+
+For the most part, though, our research work is done.  All that's left to do is get a response from the Overseers as to whether to increase their birth rate or not (currently set very low as a precaution against future overpopulation), and improve the training we give freshly-created Ogres for runic magic, given that regular maintenance of their runes is necessary to keep them alive.  This is not to say we have idle staff, however!  Some of us have made a project for after the war ends - a modification to our experimental growth-tanks, rendering them capable of holding a person of Ogric biology indefinitely in a "sleeping" state where they do not age or starve.  We can install tanks filled with these "sleeping" Ogres stationed near bridges that may need regular maintenance, stashed in reserve armories, or any other place where you'd need a batch of dependable workers or guards, without having to incur all the other costs associated with keeping extra citizens around.
+]], [[감독관들이 내게 아주 훌륭한 생각이라고 했다!  우리 직원들은 좀 더 보안이 철저한 곳에 재배치됐는데, 지하 깊은 곳에 있고 터널이 여러 갈래로 뚫려 있는 곳이었다.  이제 주입물에 쓸 약초들을 수확하러 갈 수 없게 되긴 했지만, 예산이 훨씬 늘어서 큰 문제는 없다.  여전히 부상병들이 터널로 밀려들고 있지만, 이제 우리의 목표는 그들을 그저 다시 예전처럼 건강하게 만드는 게 아니라, 그들이 상상할 수 있는 것보다 훨씬 더 강인하게 만드는 것이다.  그들에게는 기억 소거 마법을 걸어 무의식 상태로 만드는데, 이는 저항하지 못하도록 하기 위해서다. 또 그들한테 실험 대상이 되어 주어야겠다는 말을 하지도 않지만, 우린 그 사람들도 자신들이 최고 의회에 얼마나 도움이 되는지 알고 있었다면 당연히 동의했을 것이라 확신한다.  물론 이런 과정은 우리가 치유사로서 선서했던 몇몇 사항에 위배되긴 하지만, 궁극적으론 도덕적인 문제는 없다고 생각하고 있고 우리 직원들도 그런 이야기를 꺼내지 않았다.  어찌 되었건, 최고 의회의 병사로 자원한 저들은 이미 감독관들의 현명한 통치를 위해 자신들의 생명을 바치기로 한 것이고, 우리의 실험을 받는 게 나르골 놈들의 투석구 탄환에 맞아 죽는 것보다 훨씬 가치 있는 일인 것은 틀림없다.
+
+더 질 좋은 재료들을 쓸 수 있게 되어서 예전에 했던 것처럼 피험자들의 근력을 강화시킬 수 있지만, 그것뿐만이 아니다!  실험체도 아주 많았고, 감독관들도 과감하게 해 보라고 거든 덕에 우린 피험체들의 몸집을 훨씬 키울 수 있었고 (몸집이 크면 전투에서 여러 가지로 유리하다), 그들의 몸에 주입물이나 룬 같은 각인들이 더 많이 새겨지더라도 충분히 견딜 수 있도록 강화했다.  부하 연구원 하나가 훌륭한 의견을 냈는데, 이 룬과의 친화성을 이용해서 이들의 마법 조작 능력을 강화하고, 이들이 생물학적으로, 또 구조적으로 룬에 의존하도록 하자는 것이었다. 이제 최전선에 서는 우리 병사들은 간단한 훈련만 거치면 강력한 화염구를 쏘아낼 수 있고, 그 다리에 털이 수북한 벌레 자식들이 그런 병사들을 다시 일으키더라도, 곧바로 무너져 내릴 것이다. 그들이 죽으면 그 육체를 지탱하던 마법도 사라지게 되니까.  
+
+감독관들도 개인적으로 우리와 함께 일했는데, 피험자들의 정신적인 면도 바꾸어야 했기 때문이었다. 우린 기억 소거 마법에 의해 백지상태가 된 그들의 정신에 새로운 사고방식을 심는 데 성공했다. 전쟁에서는 물론이고, 그 이후 이어질 우리의 영광스러운 시대에서도 알맞은 사고방식을.  엄청나게 순종적이고 헌신적이며 목표를 위해 매일같이 노력하고, 그러면서도 권력이나 개인적인 명예 같은 것에는 관심이 없고, 자신의 분수를 알며 인내심도 있고... 하지만 꼭 필요할 때는 분노를 맹렬하게 터뜨릴 수 있도록 말이다.  하이어 종족이 연구자와 정치인이 되도록 만들어져 실제로 최고 의회의 예상을 뛰어넘는 역할을 하고 있는 것처럼, 새롭게 탄생한 "오우거" (연구원들이 붙인 별명이다) 들은 중노동에 알맞은 뛰어난 육체와 헌신적인 성격을 살려, 일꾼이나 병사가 되어 우리의 사회를 튼튼히 지탱해줄 것이다.  물론, 우리 사회에는 평범한 인간들도 필요하다. 그들은 모든 것을 이어붙이는 접착제처럼, 자신들의 타고난 적응력을 살려 부족한 부분들을 채워줄 것이다.
+
+오우거들은 우리의 군대에 아주 잘 녹아들고 있다!  일반병들은 괜히 감독관들에게 "저 덩치 친구들은 어디서 온 겁니까?" 같은 질문 공세를 퍼붓진 않았고, 오우거들이 나서서 일을 해치우는 걸 보게 되자 그들을 빠르게 받아들였다.  어떤 오우거 병사가 특히나 건방졌던 하플링 하나를 산 채로 먹는 걸 봤다는 보고도 받은 적이 있다. 그 하플링은 항복하는 척하면서 번개 마법을 사용하려 했다던데, 아무튼 그 광경을 지켜보던 우리 병사들은 사기가 하늘을 찌르게 됐고, 거기 있던 나머지 하플링들은 반대로 사기가 완전히 꺾여서 항복했다고 한다. 음, 오우거들의 소화력도 강화시켜 주어야겠다.  
+
+하지만 이제 우리의 연구는 대부분 마무리되었다.  이제 남은 건 감독관들한테 오우거들의 번식률을 늘릴지 말지 물어보는 것과, (지금은 굉장히 낮게 해 두었는데, 나중에 머릿수가 너무 많아질 수도 있기 때문이다), 새로 만들어진 오우거들이 받을 룬 마법 훈련을 개선하는 것뿐이다. 오우거들이 살아가려면 자신들의 룬을 정기적으로 관리해야 하기 때문에 이런 훈련이 필요하다. 연구원들이 할 일을 줄이려고 그러는 게 아니다!  몇몇 연구원들은 전쟁이 끝난 뒤의 계획을 세웠는데, 우리의 실험적인 성장 탱크를 개조해서 오우거 같은 몸을 가진 사람을 반영구적으로 보존하려는 계획이다. "수면" 상태에선 늙지도 굶어 죽지도 않으니까.  이런 "수면" 상태의 오우거가 든 탱크들을... 예를 들어 정기적으로 보수를 해야 하는 다리 근처나, 무기고 안, 그 외 믿을 수 있는 일꾼이나 경비병이 필요한 장소에 놓아두면 인건비를 절약할 수 있을 것이다.
+]], "_t")
+t("healer Astelrid log 4", "치유사 아스텔리드의 기록 4", "_t")
+t([[Announcement to All Staff:
+
+I'm sure you've all heard the rumors about what our scryers saw, and why we've been on lockdown the past few days; it is with a heavy heart that I must confirm that they are true.  The Nargol have taken the land above our facility, and are combing the area with golems to find the entrances.  We've already lost one entrance to the failsafe explosive-rune traps set in place to collapse it, and now they'll be looking to defuse those as well.  In short, we have no means of escape, and if allowed the time, they will find the way in, kill us, and steal our precious work for themselves.  The Empire has been enough of a problem without Ogres; we CANNOT take the risk of them finding us and tipping the balance in their favor.
+
+We are doomed, no matter what happens.  My orders from the Overseers in such a situation would be to destroy our findings, then put an alchemical vial they gave me in the ventilation system, painlessly suffocating us.  I have no intention of throwing away our rightfully-earned place in the history books by doing this.  Instead, I have prematurely detonated all the remaining explosive traps, thoroughly sealing the way in.  We are very, very deep underground, and without any tunnels to follow, it could be decades before a Nargol excavation team reached us.  In other words, we are completely sealed off from the Nargol...  and the rest of the Conclave.
+
+We have a small supply of emergency rations, but it would last us a couple of months at the longest, and we cannot assume the Conclave will reclaim this territory in that time.  We could try to repurpose the infusion herb-garden for making edible crops, but that would only buy us a month after that before the grow-lights lost their magic.  Without drastic steps, we will surely die of starvation; fortunately, we have drastic steps available to us.
+
+This is my last order: I have prepared our surgical golems to apply the Ogric inscriptions to us, and updated all of our records to reflect our best current knowledge of their effects and effectiveness.  I have also had the golems upgrade all of our growth vats (ones in use included) to our newest "stasis tank" design, and furthermore freed up enough space for each of us to use one by...  disposing of some of the test subjects who had low chances of survival (an action I am already beginning to regret).  By the time you find this note, I will have already undergone this process myself, and will be hibernating in a tank I've had moved to my office.  If you do not wish to die, you should acquire a weapon from the armory, then follow my lead.  When we are dormant, we will be immune to the ravages of time, and prepared to greet whoever finally digs their way down and finds us.  Hopefully, it will be Conclave reinforcements, in which case we will stand down, give them our notes, and await further orders.  And if it isn't the Conclave...  make them regret it.  Send a message stronger than any NO TRESPASSING sign ever could, then resume your slumber.
+
+It has been an honor working with such talented individuals, and an honor doing everything I can for a noble cause.  Perhaps we still had some progress to make, but overall I'm proud of what we've accomplished, and the contributions the Ogre race will make to all of Maj'Eyal.  
+
+Long live the Conclave!
+Healer Astelrid]], [[모든 직원에게 알림:
+
+여러분 모두 우리 예언자들이 무엇을 보았는지, 그리고 왜 우리가 이곳에 감금되었는지 소문은 익히 들었으리라 생각합니다. 정말 슬프지만, 그 소문들은 모두 사실입니다.  나르골 놈들이 이 시설 바로 위쪽의 영토를 차지했고, 지금 이 시설의 입구를 찾아내려고 골렘을 동원하여 샅샅이 뒤지고 있습니다.  안전장치로 설치해 놓았던 폭발 룬 함정 덕분에 이미 출입구 하나는 무너졌고, 이제 놈들은 그 룬들을 해체할 방법을 찾아낼 겁니다.  즉, 이제 우린 탈출할 방법이 없고, 놈들이 입구를 찾아내 들어와서 우릴 죽이고 중요한 연구 자료들을 훔쳐가는 건 시간문제일 뿐이라는 겁니다.  저 사악한 제국은 하플링 오우거 같은 게 없는 지금도 충분히 문제입니다. 그러니, 우린 놈들이 우릴 찾아내 전쟁의 국면을 자신들에게 유리하게 만들도록 할 순 없습니다. 절대로.
+
+뭐가 어찌 되었건, 우린 끝장났습니다.  감독관들은 제게 연구 자료들을 모두 없애버리고, 이럴 때를 대비해 만들어진 연금술 비약을 통풍 시스템에 넣으라고 했습니다. 그럼 우리 모두는 고통 없이 죽을 수 있죠.  하지만 그렇게 하면, 마땅히 역사책의 한 장을 수놓아야 할 우리의 이름들이 모두 잊혀지게 됩니다. 그래서 저는 그렇게 하지 않을 겁니다.  그 대신에, 저는 남아 있는 폭발 함정들을 모두 기폭시켜 이 시설을 완전히 봉쇄했습니다.  우린 지금 아주, 아주 깊은 땅 속에 있고, 터널은 모두 무너졌으니 나르골의 원정대가 여기에 도착하려면 수십 년이 걸릴 겁니다.  다시 말해, 우린 나르골 놈들과 완전히 격리되었다는 말입니다...  최고 의회의 나머지 동지들과도 마찬가지고.
+
+비상식량은 조금밖에 없고, 그걸로도 몇 달 정도는 버틸 수 있긴 하지만 그 몇 달 내로 최고 의회가 이 시설 위의 영토를 되찾으리라 보긴 어렵습니다.  주입물용 약초를 키우던 농장에서 식량으로 쓸 수 있는 작물을 키울 수도 있겠지만, 작물을 키우는 데 필요한 발광기의 마법이 한 달쯤 뒤에 사라지게 되니 결과는 똑같습니다.  극단적인 수단이 없으면, 우린 분명히 굶어 죽게 되겠죠. 다행히, 우리에겐 그 극단적인 수단이 있습니다.
+
+이게 제가 여러분에게 내리는 마지막 명령입니다. 수술용 골렘들이 우리에게 오우거 시술을 할 수 있도록 준비해 두었고, 최대한 많은 기록을 반영할 수 있도록 연구 기록은 모두 최신으로 덮어씌웠습니다.  또, 골렘들을 시켜 우리가 갖고 있던 성장 탱크들을 (사용 중이던 것도 포함해서) 모두 최신식 "동면 탱크" 로 개조했고... 생존 확률이 낮은 피험체 몇 명을 폐기 처분해서 (더 나은 방법은 없었나 후회하고 있습니다), 탱크를 우리 모두가 안에 들어갈 수 있을 만큼 확보했습니다.  여러분이 이 기록을 찾아냈을 땐, 저는 이미 그 시술을 받고, 제 사무실로 옮겨 놓은 동면 탱크 안에서 자고 있을 겁니다.  살고 싶다면, 무기고에서 무기를 하나 챙기시고 제 지침을 따르세요.  우리가 탱크 안에서 자고 있을 때는 시간의 영향을 흘려버릴 수 있고, 우린 여기까지 파고 내려와서 우릴 찾아낸 자들을 맞이할 겁니다.  우릴 찾아내는 게 최고 의회의 지원군이었으면 좋겠네요. 그렇게 된다면, 우린 그 사람들에게 연구 자료를 넘기고 다음 명령을 기다리면 됩니다.  그리고 만약 최고 의회의 동지가 아니라면...  우릴 찾아낸 걸 후회하게 만들어 주세요.  '출입 금지' 따위와는 비교도 되지 않는 메시지를 보내주고, 다시 잠들면 됩니다.
+
+여러분 같은 훌륭한 사람들과 함께 일할 수 있어서, 또 고귀한 대의를 위해 최대한 힘쓸 수 있어서 영광이었습니다.  연구할 게 아직 더 남아 있었을 수도 있겠죠. 하지만 저는 우리가 지금껏 이룩했던 것들과, 장차 오우거라는 종족이 마즈'에이알에 공헌할 모든 것들이 자랑스럽습니다.  
+
+최고 의회여 영원하라!
+치유사 아스텔리드]], "_t")
+t("age of allure", "매혹의 시대", "newLore category")
+t("investigator Churrack note", "조사관 출라크의 메모", "_t")
+t([[FROM: Investigator Churrack
+TO: Whoever holds the position of High Overseer of Loyalty when we're let out
+
+Though I'm trapped in here with these healers, I haven't stopped prying to determine if their loyalties lie with us or with themselves. This case has more layers than a damn onion; while Astelrid did disobey a direct order (and several more by revealing the existence of that order), her alternative seems to fit our goals nonetheless. Response from staff has been mixed.  While most are reluctantly going along with her plan for lack of other options, some seem to follow her lead enthusiastically, and have been singing this song as they wait in line for their treatment:
+
+#{italic}#Some Nargol once told me their Empire's gonna roll me
+We ain't as strong as all their undead
+They looked kind of silly with giant feet so furry
+And an ogre's club smashing their foreheads
+
+Well, the Empire's coming and they won't stop coming
+So you'd better be ready to hit the ground running
+Didn't make sense to kill everyone
+Praise the Overseers, but that plan was dumb
+
+So much to do, so much to see
+So what's wrong with waiting in stasis?
+We'll never know if we don't try
+We'll never shine if we just die
+
+Hey, now, you're a healer, get ogrified, go wait
+Hey, now, you're a guard now, stand vigil in the tanks
+They won't work on normal humans
+But we won't age sleeping in these ruins
+
+It's a safe place, even as it gets older
+'cause this war's not over until we say it's ogre
+But the golems outside beg to differ
+Judging by the sights in the scrying-orb's picture
+
+The ground we're under was getting pretty thin
+Their scouts are onto us, and they've got us all pinned
+We blew the tunnels - no way out,
+until the Conclave finds us, give trespassers a rout!
+
+Hey, now, you're a healer, get ogrified, go wait
+Hey, now, you're a guard now, stand vigil in the tanks
+They won't work on normal humans
+But we won't age sleeping in these ruins
+
+Hey, now, you're a healer, get ogrified, go wait
+Hey, now, you're a guard now, stand vigil in the tanks
+They won't work on normal humans
+But we won't age sleeping in these ruins
+
+Somebody once asked if we'd finished, but alas
+While I'm proud of what we've done in this place
+We weren't done yet with this project,
+but we're close enough where this isn't neglect
+Eyal will appreciate our new race!
+
+Well, the years'll start coming and they won't stop coming
+So you'd better be ready to hit the ground running
+Didn't make sense to kill everyone
+Praise the Overseers, but that plan was dumb
+
+So much to do, so much to see
+So what's wrong with waiting in stasis?
+We'll never know if we don't try
+We'll never shine if we just die
+
+Hey, now, you're a healer, get ogrified, go wait
+Hey, now, you're a guard now, stand vigil in the tanks
+They won't work on normal humans
+But we won't age sleeping in these ruins
+
+They won't work on normal humans
+But we won't age sleeping in these ruins#{normal}#
+
+...Everyone reacts to grief differently, I guess. #{bold}#-Churrack#{normal}#]], [[조사관 출라크가,
+우리가 탈출했을 때 최고 인사 감독관직을 맡고 계실 분께
+
+치유사들과 함께 여기 갇히긴 했지만, 이들이 우리에게 충성을 다하는지, 아니면 자기들 목숨이 제일인지 판단하는 것은 그만두지 않았습니다.  이 문제는 빌어먹을 양파보다 더 겹겹이 싸여 있습니다.  아스텔리드는 감독관들께서 직접 내린 명령에 복종하지 않았습니다 (또, 그런 명령이 있었다는 걸 밝혀서 다른 명령들도 몇 개 더 어기게 됐죠). 하지만 그녀가 명령을 따르는 대신에 선택한 방법은 우리의 목적에 부합하는 것 같습니다.  직원들의 반응은 제각각입니다.  대부분은 다른 방법이 없어서 어쩔 수 없이 그녀의 계획을 따르지만, 열정적으로 따르는 사람들도 있습니다. 처치를 받으려고 줄을 서서 기다리면서, 이런 노래를 부르더군요.
+
+#{italic}#어떤 나르골 녀석이 말하기를
+너희들 제국이 납작하게 펴 줄거야
+너희들 언데드 선에서 끝이야
+발만 큰 털복숭이 우스운 친구들
+오우거가 그 머리통 깨 주었다네
+
+제국이 오고 있고 멈추지를 않네
+그러니 이제 새출발할 준비해
+잠자코 모두 죽을 순 없지
+감독관 만세! 계획은 엉터리지만
+
+할 일도 많고, 볼 것도 많지
+자면서 기다리면 되는 거잖아?
+해 보지 않으면 아무것도 몰라
+그냥 죽으면 아무도 몰라줘
+
+거기 치유사님, 오우거 되서 기다려
+거기 경비병님, 탱크 안에서 보초 서
+평범한 사람들 이렇게 못 하지
+자고 있으면 나이도 안 먹는다네
+
+낡아 가긴 하지만 여긴 안전해
+하지만 전쟁은 끝나지 않았네
+우리가 끝내야 끝이 오우는거지
+밖의 골렘들은 인정하지 않겠지만
+
+머리 위 땅은 얇아져 가고
+정찰병들 와서 우릴 묶어두고 있네
+터널을 날렸으니 나가지도 못해
+지원이 올때까지 침입자들 두들기자!
+
+거기 치유사님, 오우거 되서 기다려
+거기 경비병님, 탱크 안에서 보초 서
+평범한 사람들 이렇게 못 하지
+자고 있으면 나이도 안 먹는다네
+
+거기 치유사님, 오우거 되서 기다려
+거기 경비병님, 탱크 안에서 보초 서
+평범한 사람들 이렇게 못 하지
+자고 있으면 나이도 안 먹는다네
+
+어떤 이가 와서 물어보길
+하려던 것들은 다 끝냈는가
+여기서 이룬 것들 자랑스럽지만
+계획은 아직 끝나지 않았다네
+그리고 바로 옆에 성과가 있지
+에이알은 우리들 새 종족을 환영하리!
+
+내년이 오고 있고 멈추지를 않네
+그러니 이제 새출발할 준비해
+잠자코 모두 죽을 순 없지
+감독관 만세! 계획은 엉터리지만
+
+할 일도 많고, 볼 것도 많지
+자면서 기다리면 되는 거잖아?
+해 보지 않으면 아무것도 몰라
+그냥 죽으면 아무도 몰라줘
+
+거기 치유사님, 오우거 되서 기다려
+거기 경비병님, 탱크 안에서 보초 서
+평범한 사람들 이렇게 못 하지
+자고 있으면 나이도 안 먹는다네
+
+평범한 사람들 이렇게 못 하지
+자고 있으면 나이도 안 먹는다네#{normal}#
+
+...저마다 다른 방식으로 크나큰 슬픔에 대처하는 것 같습니다. 아마도. #{bold}#-출라크#{normal}#]], "_t")
 
 
 ------------------------------------------------
@@ -13110,7 +13616,7 @@ Magical runes and items are imbued with an attachment to certain elemental threa
 
 Some believe that magic is inherently wrong, that the so-called twisting of the elements with one's will can only lead to terrible things. As students of Angolwen I assume you disagree! Magic is simply an extension of the forces of nature, and are we not natural creatures that use it? But remember that magic is still a powerful force that can be used for good or ill. Magic is indeed a tool of immense value - use it wisely.
 ]], [[#{bold}#"마법이 뭡니까?"
-#{italic}#티자마르 타레리온의 연구#{normal}#
+#{italic}#타지마르 타레리온의 연구#{normal}#
 
 얼마나 상스럽고 흔한 질문인가, 하지만 이 질문이야 말로 내가 가장 많이 듣는 질문이다. 심지어 가장 총명한 학생들에게마저 내게 마법이 무어냐고 물어보곤 한다. 우리는 거의 항상 기교를 행하는 법과, 따라하기, 그리고 그 결과에 대해서만 가르치지, 마법의 근본적인 법칙의 위대한 세세한 가르침들에 대해서는 거의 알려주지 않았다. 마치 음악가가 현의 진동에서 소리가 어떻게 발생하는지 모르는 채 즐겁게 하프를 연주하는 것 처럼 말이다. 따라서, 이러한 마법사들은 진정한 힘을 깨닫지 못한 채 마법을 사용하고 있다. 이 문서에서, 나는 그대들에게 마법의 본질을 이해하는 데 도움을 주고, 어떻게 그 근본적인 효과들이 우리의 위대한 성과들을 이루어 내는지 가르치길 희망한다.
 
@@ -13170,13 +13676,113 @@ GATHER HERE IN PEACE TO DISCOVER AND PERFECT THE KNOWLEDGE OF HOW, AND WHEN, TO 
 ------------------------------------------------
 section "game/modules/tome/data/lore/ardhungol.lua"
 
+t("Rashim Journal (1)", "라심의 일지 (1)", "_t")
+t([[#{bold}#Journal Entry I#{normal}#
+
+It's been some time since High Sun Paladin Aeryn sent me out on an assignment. According to recent intelligence, it would seem that a cavern has mysteriously emerged near our outpost, the Gates of Morning. They have bestowed the name "Ardhungol" on the newly discovered cavern. The elder warriors seem anxious in regards to the origin of this new subterranean area; they're likely concerned that the orcs are using Ardhungol as a staging point for further aggression against the Gates of Morning. I'll have to make sure I'm well equipped for this journey; the fate of us all could hang in the balance.
+
+#{bold}#Journal Entry II#{normal}#
+
+I spoke with the border patrols tonight. There seem to have been several sightings of orcs and other wild beasts roaming throughout the wilderness, yet strangely enough, none seem to have been anywhere near Ardhungol. Perhaps the subterranean cavern was simply a natural phenomenon with unfortunate timing. It's either that, or an unknown force powerful enough to alter the very foundation of the land upon its arrival. I shudder at the latter thought, but for now this is all merely speculation. If all goes well, I'll be ready to depart by dawn.
+]], [[#{bold}#[1]#{normal}#
+
+고위 태양의 기사 아에린 님께서 임무를 내려주셨다.  최근에 얻은 정보에 의하면, 우리의 거점인 아침의 문 근처에 수상한 동굴이 나타났다고 한다.  그 동굴에는 "알드훈골" 이라는 이름이 붙여졌다.  선임 기사들은 그 지하동굴이 왜 생긴 것인지 고민하면서 불안해하고 있다. 그들은 알드훈골이 오크들의 집합지 비슷한 것이고, 거길 통해서 아침의 문을 더 맹렬히 공격하는 게 아닐까 걱정하고 있는 모양이다.  준비를 확실하게 해 두어야겠다. 이 임무에 우리의 운명이 달려 있는 것일 수도 있으니까.
+
+#{bold}#[2]#{normal}#
+
+간밤에 순찰대와 이야기를 조금 해 보았다.  오크들이랑 그 외 야생동물들이 근방을 돌아다니는 걸 보긴 했지만, 참 이상하게도 알드훈골 근처에서는 전혀 볼 수 없었다고 한다.  그 지하동굴은 그냥 자연현상으로 생겨난 것일 수도 있겠다. 생겨난 타이밍이 이상해서 괜히 의심을 받은 거지.  아니면, 정확히 뭔지는 모르겠지만 아무튼 엄청난 힘이 작용하면서 근처의 땅 그 자체를 뒤틀어 버린 것일 수도 있겠고.  정말 소름 끼치는 경우긴 하지만, 어쨌든 지금으로서는 모두 추측일 뿐이다.  잘하면 새벽에는 출발할 수 있을 것이다.
+]], "_t")
+t("Rashim Journal (2)", "라심의 일지 (2)", "_t")
+t([[#{bold}#Journal Entry III#{normal}#
+
+It was a half days journey from the Gates of Morning to Ardhungol, but I've finally arrived. I've decided to rest beneath the shade of a great oak tree and enjoy one of the sweet rolls my wife Melnela prepared for me. I'm unsure why, but the closer I've come to Ardhungol, the thicker the atmosphere has become, almost as if there is a foreign energy infecting the very air I breathe. I've been to many places in this vast world, but I've never felt an aura quite like this; I will have to uncover the source of this energy before I can bring a full report back to Aeryn.
+
+#{bold}#Journal Entry IV#{normal}#
+
+A thick green veil of mist permeates the air within this cavern; I'm uncertain if this is a byproduct of whatever creatures now inhabit this place, or if it's coming directly from another source. There also seem to be arcane rifts appearing in different locations throughout the cavern, though I dare not approach them; I will leave them for our anorithils to assess after I have secured the area. I must admit, I'm not looking forward to encountering the origin of a threat this grave, yet it is my sworn duty as a Sun Paladin to face what lies ahead; even should it be my own doom.
+
+#{bold}#Journal Entry V#{normal}#
+
+Impossible; how could spiders have grown to such an immense size? Not only that, but the markings and physical traits are unlike any arachnid I have previously encountered. The first one I encountered nearly took my left arm during its initial assault, if my reflexes had been a split second slower, I fear the worst may have transpired. If the Gates of Morning are assaulted by not only the orcs, but also this new –found species of arachnids, I fear all hope will be lost. For the sake of all Eyal, I must venture further into this spider infested cavern and destroy the source of this incursion.
+]], [[#{bold}#[3]#{normal}#
+
+아침의 문에서 알드훈골까지 가는 데에 반나절이나 걸리긴 했지만, 아무튼 도착했다.  커다란 오크 나무 아래 그늘에서 쉬면서, 내 아내 멜넬라가 준비해 준 스위트롤 하나를 즐기기로 했다.  왠지는 모르겠지만 알드훈골에 가까이 갈수록 공기가 탁해지는 것 같고, 뭔가 이질적인 에너지가 내가 숨 쉬고 있는 이 공기 자체를 오염시키고 있다는 느낌이 든다.  이 넓은 세상 곳곳을 돌아다녀 봤지만, 이런 느낌의 기운은 생전 처음이다. 이 에너지가 어디서 흘러나오는 건지 밝혀내고, 아에린 님께 전부 보고드려야겠다.
+
+#{bold}#[4]#{normal}#
+
+이 동굴 안에는 탁한 녹색의 안개가 자욱하다. 이게 여기 사는 생명체들이 내뿜는 건지, 아니면 뭔가 다른 근원이 있는 건지 알 수가 없다.  또, 이 동굴 안에는 마법의 균열이 곳곳에 널려 있는 것 같은데, 거기에 차마 가까이 갈 순 없었다. 내가 이 지역을 확보하고 나면, 우리 아노리실들이 그것들이 다 뭔지 조사해볼 수 있겠지.  인정할 건 인정해야겠다 - 이 마굴을 만들어낸 위험한 것과 마주하고 싶지 않다. 하지만 난 태양의 기사로서 맹세를 했고, 저 앞에서 기다리고 있는 걸 당당히 마주하는 게 내 의무다. 그 의무 때문에 내가 파멸을 맞이하게 될지라도.
+
+#{bold}#[5]#{normal}#
+
+말도 안 된다. 거미가 어떻게 저렇게까지 클 수가 있는 거지?  그것뿐만이 아니라, 몸의 특징이나 힘도 내가 이때까지 봤던 거미들과는 완전히 다르다. 내가 여기서 처음 봤던 놈은 날 보자마자 달려들었는데, 한 방에 왼팔을 뜯길 뻔했고 내가 아주 조금만 더 늦게 반응했으면 그 자리에서 죽었을 것이다.  아침의 문이 이 신종 거미들한테도 공격을 당하게 된다면, 남은 희망이 모두 꺼지게 되겠지.  이 거미 동굴을 더 깊이 탐사해서, 이 모든 사태의 원흉을 파괴해야 한다. 온 에이알을 위해.
+]], "_t")
+t("Rashim Journal (3)", "라심의 일지 (3)", "_t")
+t([[#{bold}#Journal Entry VI#{normal}#
+
+It took some time, but my muscles have started to adapt and react to the unique movements of these arachnid. The way they fight, it's almost as if they possess a higher level of thought, elevating them far beyond the base intelligence of lesser arachnid... is it possible that they could be sentient? Do they act individually, or are they perhaps manipulated by a greater arachnid? Let us pray that this species is not connected through a hive mind, for this threat could become even greater than I had imagined.
+
+#{bold}#Journal Entry VII#{normal}#
+
+I have slain dozens of these arachnids, each one seemingly more difficult than the last. I am unsure if this is a result of my weariness, or if they are also adapting to my movements and battle techniques. I don't see how that could be possible however, a mere spider couldn't possibly adapt to the battle techniques of a veteran Sun Paladin, it's simply not feasible. Furthermore, the origin of these spiders worries me. So far I have not found any other entrances to this cavern, meaning they were transported here via other means. Those arcane rifts I found earlier are starting to worry me, and I fear for us all when I think of what may be waiting for us beyond them. I must put these thoughts out of my mind; distractions will only serve to weaken my resolve.
+
+#{bold}#Journal Entry VIII#{normal}#
+
+Incredible, the size of that arachnid is unimaginable; there is no doubt about it, that spider is the matriarch here. I am heavily wounded, but there is no turning back now; I must finish what I started for the sake of all those awaiting my return. If I don't make it back, whoever is now reading this journal, please make High Sun Paladin Aeryn at the Gates of Morning aware of the grave situation... and tell Melnela that I'm sorry.]], [[#{bold}#[6]#{normal}#
+
+시간이 좀 걸리긴 했지만, 내 몸이 저 거미들의 독특한 움직임에 익숙해졌고 반응할 수 있게 되었다.  저놈들이 싸우는 모습을 보고 있자니, 저놈들의 지능은 평범한 거미의 수준을 아득하게 넘어선 것 같다는 생각이 든다...  거미가 생각을 할 수 있는가?  놈들은 독자적으로 행동하는 건가? 아니면 더 고위 거미의 명령을 받는 건가?  저 거미들한테 군체 의식 같은 게 없길 기도해야겠다. 그런 경우라면 사태가 내가 상상했던 것보다 훨씬 더 심각해질 테니까.
+
+#{bold}#[7]#{normal}#
+
+거미들을 한 무더기로 죽였고, 놈들을 죽이기가 점점 더 힘들어지고 있다.  내가 지쳐서 그런 건지, 아니면 저놈들도 내 움직임과 기술에 적응하고 있는 건지 모르겠다.  하지만 그게 가능하긴 한가? 고작 거미 주제에 베테랑 태양의 기사의 기술에 적응한다니, 그냥 말이 안 된다.  게다가, 저 거미들의 출처도 걱정스럽다.  이렇게나 멀리 왔는데 이 동굴에 다른 입구는 없었고, 그 말인즉 저 거미들은 뭔가 다른 원인 때문에 이곳에 전이됐다는 거다.  이러고 보니 아까 찾아냈던 마법의 균열들이 걱정되기 시작했다. 그것들 너머에서 우릴 기다리고 있는 게 무엇일지 상상만 해도 두렵다.  이런 생각은 그만 해야겠다. 딱히 달라지는 것도 없고 내 결심만 흐려질 뿐이니까.
+
+#{bold}#[8]#{normal}#
+
+놀랍다, 저렇게 큰 거미가 있다니. 저 녀석이 틀림없이 이 동굴의 여왕일 것이다.  상처가 심하긴 하지만, 아직 돌아갈 수는 없다. 내가 돌아오길 기다리는 사람들을 위해서, 내가 시작했던 일을 끝마쳐야만 한다.  지금 이걸 읽고 계신 분께, 만약 제가 돌아가지 못했다면, 부디 아침의 문의 고위 태양의 기사 아에린 님께 이 심각한 사태를 알려 주십시오... 그리고 멜넬라에게 미안하다고 전해 주십시오.]], "_t")
+t("ardhungol", "알드훈골", "newLore category")
 t("scrap of paper", "종잇조각", "_t")
+t([[#{italic}#A few tattered scraps of paper lie on the ground, ruined from your fight with the creature carrying it.  It's almost completely illegible, but you can piece some of it together to read:#{normal}#
+"...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], [[#{italic}#너덜너덜해진 종잇조각들이 땅에 널부러져 있습니다. 이걸 갖고 있던 생물과 싸우는 와중에 조각난 모양입니다.  완전히는 읽을 수가 없지만, 조각들을 좀 모아 보니 어느 정도는 읽을 수가 있었습니다:#{normal}#
+"...에이알 토종 생명체 대부분에게 효과가 있던 페로몬 신호는 '태양의 기사' 라는 종족에게는 효과가 없었다.  현재 행성 핵의 냉각률로 보아, 수동적 연구는 심각한 손실을 야기할 것이다 - 다음 이주 계획은 토착 '태양의 기사' 의 소굴을 없애고 ...를 건설하는 것으로..."]], "_t")
+t("#{italic}#This pile of tattered paper could theoretically be assembled into something legible, but without more text to draw back on, it'd still be in a language you could never interpret.  If only you had more Spydric text to help translate this...#{normal}#", "#{italic}#이 너덜너덜한 종잇조각들은 적절히 조합하면 분명 읽을 수 있겠지만, 그렇게 해도 여전히 당신은 결코 이해할 수 없는 언어로 쓰여 있을 것입니다.  거미의 언어로 된 문서가 더 있으면 해독할 수 있을 텐데...#{normal}#", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/data/lore/arena.lua"
 
+t("arena", "투기장", "newLore category")
 t("Arena for dummies", "천치도 이해할 수 있는 투기장", "_t")
+t([[#{italic}#You find a note with some highlighted words...
+#{bold}#SCORING IN THE ARENA
+
+#{normal}#The rules of the arena are simple.
+Every wave, the gates will open, releasing enemies. When the gates close, you will be given a bonus score.
+The bonus will #YELLOW#decrease every turn #LAST#, but #YELLOW#enemies you kill at this point#LAST#, will
+raise your bonus. When you defeat all enemies, you will be granted your bonus score, multiplied by
+your bonus multiplier.
+
+Every few rounds, a miniboss round will come. After two miniboss rounds, one out of four bosses will appear.
+#YELLOW#Kill enemies before the gates close #LAST#to raise your score multiplier!.
+#YELLOW#Kill several enemies at once or very strong enemies #LAST#to please the audience and increase your rank!.
+#YELLOW#Collect gold #LAST#to increase your score and resources at the end of each round.
+#YELLOW#Kill enemies fast to get better scores!
+#YELLOW#Take advantage of the trap at the center of the arena!
+Good luck!
+]], [[#{italic}#몇몇 글자들이 강조되어 있는 메모를 발견했습니다...
+#{bold}#투기장의 점수 체계
+
+#{normal}#투기장의 규칙은 간단합니다.
+매 웨이브마다 정문이 열리고, 적들이 나오게 됩니다. 정문이 닫히게 되면, 추가 점수를 얻게 됩니다.
+추가 점수는 #YELLOW#매 턴 감소합니다#LAST#. 하지만 #YELLOW#이 때 적들을 죽이게 되면#LAST#, 추가 점수가 상승합니다.
+적들을 모두 쓰러뜨리면, "추가 점수 * 배율" 만큼의 점수를 얻게 됩니다.
+
+일정 라운드마다 중간 보스 라운드가 등장합니다.  중간 보스 라운드를 두 번 통과하면, 네 명의 보스들 중 하나가 등장합니다.
+#YELLOW#정문이 닫히기 전에 적들을 죽이면#LAST# 점수 배율이 상승합니다!
+#YELLOW#한번에 여러 체의 적을 죽이거나 매우 강한 적을 죽이면#LAST# 관중들이 환호하고 당신의 등급이 올라갑니다!
+#YELLOW#골드를 모아#LAST# 각 라운드의 끝에 점수를 높이고 원천력을 회복하세요.
+#YELLOW#적들을 빠르게 죽이면 점수도 많이 얻습니다!
+#YELLOW#투기장 한가운데의 함정을 잘 이용하세요!
+행운을 빕니다!
+]], "_t")
 
 
 ------------------------------------------------
@@ -13202,7 +13808,7 @@ You've saved us from the storms!  We can't ever repay you enough, but, well...  
 It's not that I don't trust her, not after you and they - mostly you! - saved us, but...  I just don't feel comfortable having all this arcane stuff around us all the time.  None of us do.  If you've got a use for these, you're more than welcome to them.
 #{italic}#He hands you a sack, containing a few dozen of the same strange magical object; included is a guide to using them and producing more, written for users completely inexperienced with magic.  Apparently, they're designed to be mounted on walls and rooftops, and will try to non-lethally incapacitate outside invaders while sending a message of distress to Angolwen.  With a few tweaks, you can make them deadly instead (and avoid harassing Angolwen while you're at it).#{normal}#]], [[#{italic}#마을 주민 한명이 묵직한 자루를 들고 당신에게로 뛰어옵니다.#{normal}#
 우리를 폭풍에서 구해주셨군요!  이 은혜를 저희는 무엇으로도 값지 못할겁니다. 하지만...  폭풍이 멈추고 나서, 왠 마녀가 와서는 우리에게 이런...  마법 #{italic}#물품들#{normal}#을 두고갔습니다. 그리고는 이 물건들이 다음 번에 이런일이 발생하더라도, 우리들을 지켜줄 수 있을 거라고 하더라구요.
-아니, 제가 그녀를 믿지 못한다는건 아니고, 특히 우리를 구해준 당신을 믿지 않는다니! - 당치도 않은 소리죠...  저는 단지 이런 마법적인 물건들이 항상 우리 곁에 있는게 좀 불편할 따름입니다.  저희 모두가요.  만약 이 물건들이 쓸만 하다면, 저희보다는 당신에게 더 어울리는 것 같네요.
+아니, 제가 그녀를 믿지 못한다는건 아니고, 특히 우리를 구해준 당신을 믿지 않는다니! - 당치도 않은 소리죠...  저는 단지 이런 마법적인 물건들이 항상 우리 곁에 있는 게 좀 불편할 따름입니다.  저희 모두가요.  만약 이 물건들이 쓸만 하다면, 저희보다는 당신에게 더 어울리는 것 같네요.
 #{italic}#그가 자루를 당신에게 건내자, 마법 도구 수십 개가 보인다. 마법 문외한들을 위한 사용 설명서와, 제작법까지 동봉되어있다.  보기에는, 벽이나 지붕에 장착해, 외부 침입자들을 비살상적인 방법으로 무력화 하고, 앙골웬에 구조 요청을 보내는 기능을 갖고 있는 것 같다.  작은 개량을 통해, 살상력을 극대화 할 수 있을 것 같다. (앙골웬을 귀찮게 하는 일 없이).#{normal}#]], "_t")
 
 
@@ -15019,7 +15625,7 @@ All human kingdoms were united by King Toknor the Brave in the Age of Pyre, and 
 
 마드로프 종은 멸종했다, 마법 사냥과 황혼의 시대에 퍼진 역병 때문이다. 그들은 강력한 마법 사용자로 알려졌었다, 그리고 그런 자들은 마법 사냥꾼의 주된 목표였다. 하지만 그들의 몇가지 흔적들이 여전히 발견되곤 한다, 그들의 붉은 머리와 주근깨 피부가 먼 거리에서 잘 보이기 때문이다. 루머에 따르면 적은 수가 여전히 외딴곳에 있는 성채나 탑에 기거하고 있다고 한다.
 
-하이어의 신장은 182cm 정도이다, 금발과 하얀 피부 그리고 파란 눈이나 회색 눈을 가졌다. 학자의 대부분은 하이어들이다, 그리고 그들이 대부분의 귀족지위를 차지하고 있는 경향이 있다. 몇몇은 이것이 차별이고 엘리트주의라고 말한다, 이런 말들이 단순한 질투심에서 나온것일지 몰라도, 하이어들의 높은 지능은 매혹의 시대 고대 콘클라베가 실행한 불가사의한 비전 실험에 의한것이라는 소문이 있다, 하지만 나는 이와 관련된 자료를 찾을 수 없었고 근거 없는 주장이라 판단했다. 하이어의 혈통은 우월함의 표식으로 여겨지며, 하이어들은 하위 혈통과 섞이는것을 불쾌하게 생각한다.
+하이어의 신장은 182cm 정도이다, 금발과 하얀 피부 그리고 파란 눈이나 회색 눈을 가졌다. 학자의 대부분은 하이어들이다, 그리고 그들이 대부분의 귀족지위를 차지하고 있는 경향이 있다. 몇몇은 이것이 차별이고 엘리트주의라고 말한다, 이런 말들이 단순한 질투심에서 나온것일지 몰라도, 하이어들의 높은 지능은 매혹의 시대 고대 최고 의회가 실행한 불가사의한 비전 실험에 의한것이라는 소문이 있다, 하지만 나는 이와 관련된 자료를 찾을 수 없었고 근거 없는 주장이라 판단했다. 하이어의 혈통은 우월함의 표식으로 여겨지며, 하이어들은 하위 혈통과 섞이는것을 불쾌하게 생각한다.
 
 모든 인간 왕국은 장작더미의 시대 용맹한 자 토크놀에 의해 통일되었다, 그리고 여전히 공평한 자 톨락의 치세 아래 유지되고 있다. 인간의 긴 역사에 대한 완전한 논고는 훨씬 상세한 문서가 필요할 것이다.]], "_t")
 t("Loremaster Greynot's Analysis of the Races - Chapter 2 - Halflings", "지식의 대가 그레이낫의 종족 분석 보고서 - 챕터 2 - 하플링", "_t")
@@ -15115,7 +15721,7 @@ Although they excel at physical tasks for obvious reasons, and the necessity of 
 
 While Shalore use of magic is (arguably) a choice, Ogres have no such luxury.  Their inscriptions are as crucial to their well-being and structural integrity as any internal organ, and attempts by Ziguranth to "cleanse" captured Ogres of their runes invariably lead to them first collapsing under their own weight, then their organs shutting down one by one; one can assume that their natural infusions are just as vital.  As such, Ogre reproduction is a careful task; a newborn can live for a few months unaltered, but after this the parents must give their child a thorough regimen of runic inscription and herbal infusions.  The parents typically perform this task together, using each others' runes as a reference, and any mistakes made in the transcription will affect the child's health and development (usually adversely, though it is believed that transcription errors are responsible for mitigating Ogres' once-uncontrollable tempers).  As such, the inscribed patterns are as much of an influence on the child's development as the physical and mental traits of his or her parents.	
 
-Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], [[오우거는 번창한 종족이었던적이 없었는데, 콘클라베의 군인과 노동자로 매혹의 전쟁 당시 갑작스럽게 모습을 드러냈다 (콘클라베 감독관의 사라져버린 산악 부족에 대한 믿을 수 없는 이야기와는 별도로 설명되지 않은 이야기였다). 전쟁이 끝난 후 오우거들은 변변한 집이나 룬-훈련도 없이 방치되었었다, 그들은 스스로 부족을 이루고 룬과 주입물을 만드는법에대해 다시 깨우칠수밖에 없게되었다, 그리고 그들의 인구가 급감하기 시작했음에도, 그들은 떠돌이 룬 거래상으로 짧은 기간 동안 상대적인 성공을 누렸으며 사실상 마법폭발에는 영향을 받지 않았다. 마법사냥은 그들의 멸종원인이 될뻔하였는데, 그들의 괴물 같은 체구와 룬으로 뒤덮인 피부가 오우거를 인기있는 사냥감으로 만들었고 그들은 멸종되었다고 여겨졌다, 하지만 최근 몇년사이 엘발라가 이 시기에 몇몇 오거 종족의 망명자들을 받아들였다는 사실이 발표하였다. 그들의 후손이 오늘날까지 살아남은것이다, 오우거들은 박해 받는걸 두려워하면서도 역사상 최초로 엘발라 밖의 세계를 돌아다니기 시작했다.
+Due to the safety and comfort of Elvala, and their mistrust of much of the outside world, most Ogres who leave their home do so for trade purposes; no longer using Shaloren as couriers, some have begun to enter the growing market of runes and infusions, and have proven very successful thanks to their natural talent in this area.  Those few who could be considered "adventurers" tend to pack up their things and leave abruptly, not for glory or riches, but because they see a recurring source of misery in the world and wish to dispose of it themselves as a public service.  It is not uncommon for an Ogre to sigh in frustration after hearing about a hijacked shipment of grain, head out, return a few days later with the blood of a once-persistent bandit clan stuck to his club, and go right back to tending his crops.]], [[오우거는 번창한 종족이었던적이 없었는데, 최고 의회의 군인과 노동자로 매혹의 전쟁 당시 갑작스럽게 모습을 드러냈다 (최고 의회 감독관의 사라져버린 산악 부족에 대한 믿을 수 없는 이야기와는 별도로 설명되지 않은 이야기였다). 전쟁이 끝난 후 오우거들은 변변한 집이나 룬-훈련도 없이 방치되었었다, 그들은 스스로 부족을 이루고 룬과 주입물을 만드는법에대해 다시 깨우칠수밖에 없게되었다, 그리고 그들의 인구가 급감하기 시작했음에도, 그들은 떠돌이 룬 거래상으로 짧은 기간 동안 상대적인 성공을 누렸으며 사실상 마법폭발에는 영향을 받지 않았다. 마법사냥은 그들의 멸종원인이 될뻔하였는데, 그들의 괴물 같은 체구와 룬으로 뒤덮인 피부가 오우거를 인기있는 사냥감으로 만들었고 그들은 멸종되었다고 여겨졌다, 하지만 최근 몇년사이 엘발라가 이 시기에 몇몇 오거 종족의 망명자들을 받아들였다는 사실이 발표하였다. 그들의 후손이 오늘날까지 살아남은것이다, 오우거들은 박해 받는걸 두려워하면서도 역사상 최초로 엘발라 밖의 세계를 돌아다니기 시작했다.
 
 오우거의 가장 눈에띄는 특징은 그들의 괴물같은 체구이다, 그 어떤 지성 종족보다도 한참이나 거대하며; 그들은 250cm정도의 체구를 가진다, 그리고 체격은 반쯤 더 거대하며 근육으로 가득하다. 오우거의 피부색은 인간과 비슷하지만 전체적으로 약간 회색빛이다; 그들의 머리칼은 갈색이나 검은색이며, 눈은 흑색에서 푸른색 보라색까지 다양하다, 아마 잘못 주입된 룬의 부작용이리라 추측된다. 그들의 각진 얼굴형은 오크에대한 불쾌한 기억을 떠올리게한다, 강한 턱과 불균형할정도로 거대한 입과 치아들 거기에 네모진 머리까지, 하지만 다른것들은 인간을 떠올리게도 한다. 오우거를 그들의 복잡한 문양 없이 설명한다면 그건 저자인 나의 태만이리라, 빛나는 룬 문양들이 그들의 머리부터 발끝까지 전체를 뒤덮고있고 패턴과 색은 매우 다양하다.  
 
@@ -19678,6 +20284,13 @@ t([[Target a nearby shadow, and force it to slam into a nearby enemy, dealing %0
 		적을 강타한 그림자는 대상을 집중 공격하고, 적 역시 그림자를 집중 공격합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Shadow's Path", "그림자의 길", "talent name")
+t([[Command all Shadows within sight to tele-dash to a target location, damaging any enemies they pass through for %0.1f Physical damage.
+		Each successive shadow deal 40%% less damage.
+		For the purpose of this talent, you force your shadows through any walls in their way.
+		Damage increases with your Mindpower.]], [[시야 내의 모든 그림자를 대상 위치로 집결 시켜, 그림자가 지나간 경로에 있는 적들에게 %0.1f 물리 피해를 가합니다.
+		그림자가 연속해서 지나갈때마다 피해량이 40%% 씩 감소합니다
+		기술 사용 시, 그림자들은 벽을 뚫고 이동합니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Cursed Bolt", "저주받은 화살", "talent name")
 t("You need a shadow in sight range!", "시야 내에 그림자가 존재해야 한다!", "logPlayer")
 t([[Share your hatred with all shadows within sight range, gaining temporary full control. You then fire a blast of pure hatred from all affected shadows, dealing %0.1f Mind damage per blast.
@@ -19735,6 +20348,7 @@ t([[You displace %d%% of any damage you receive onto a random bleeding enemy wit
 
 #{italic}#모든 생명체는 피로 이어져있다.	이는 모든 이들에게 흐르는 하나의 강 줄기이다.#{normal}#]], "tformat")
 t("Splatter Sigils", "유혈의 인장", "talent name")
+t("sacrificed themself", "그들 스스로를 희생시키다", "_t")
 t([[When you kill an enemy, their death forms a cursed magical pattern on the ground. This creates a circle of radius %d which blinds enemies and deals them %0.2f light damage, while giving you %d positive energy per turn. The circle lasts for %d turns.
 							The damage will increase with your Spellpower.
 							The duration of the circle can be increased by a critical hit.
@@ -19887,6 +20501,8 @@ t("Bloodstained", "피칠갑", "_t")
 t("You, like your weapons, are tainted forever.", "너는, 네 무기 처럼, 영원히 더럽혀지리라.", "_t")
 t("Blood is power. Let the rivers run red.", "피는 힘이다. 강을 붉게 물들여라.", "_t")
 t("Crimson Templar", "진홍빛 기사", "_t")
+t("All the things in this dark world are contemptible.  Let yourself hate them and find the power therein.", "이 어두운 세상의 모든 것은 그야말로 경멸적입니다.  그 모든 것을 증오하고, 그 내부에서 힘을 찾도록 하십시오.", "_t")
+t("Hatred", "증오", "_t")
 t("Cursed", "저주받은 자", "_t")
 t("Hate-powered abilities that don't belong anywhere else.", "어디에도 속하지 않은 증오의 힘입니다.", "_t")
 t("cursed", "저주", "talent category")
@@ -20073,7 +20689,7 @@ section "game/modules/tome/data/talents/cursed/gestures.lua"
 t("Gesture of Pain", "고통의 손짓", "talent name")
 t("You require two free or mindstar-equipped hands to use Gesture of Pain.", "마석을 장착하거나, 두 손이 비어 있어야 고통의 손길을 쓸 수 있다.", "logPlayer")
 t("%s resists the Gesture of Pain.", "%s 고통의 손짓에 저항햇다.", "logSeen", nil, {"는"})
-t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약한 적을 희롱하는 것은 큰 기쁨이지! (+%d 증오)", "logPlayer")
+t("#F53CBE#You revel in attacking a weakened foe! (+%d hate)", "#F53CBE#약해진 적을 희롱하며 당신은 고양된다! (+%d 증오)", "logPlayer")
 t([[Use a gesture of pain in place of a normal attack to assault the minds of your enemies, inflicting between %0.1f and %0.1f mind damage. If the attack succeeds, there is a %d%% chance to stun your opponent for 3 turns.
 		This strike replaces your melee physical and checks your Mindpower against your opponent's Mental Save, and is thus not affected by your Accuracy or the enemy's Defense. The base damage (doubled) and the critical chance of any Mindstars equipped are added in when this attack is performed.
 		This talent requires two free or mindstar-equipped hands and has a 25%% chance to inflict brainlock, which can critically hit. The damage will increase with your Mindpower.
@@ -20248,7 +20864,13 @@ t([[While rampaging, you slam up to %d adjacent opponents, stunning them for %d 
 ------------------------------------------------
 section "game/modules/tome/data/talents/cursed/self-hatred.lua"
 
+t("Self-Sacrifice", "자가 희생", "talent name")
 t("You can only use this while in combat", "이 기술은 전투에서 단 한 번만 사용 가능하다", "logPlayer")
+t([[At the start of each turn, if you're bleeding, you gain %d hate.
+
+You can activate this talent to use your own life for power, bleeding yourself for a small portion of your maximum life (%0.2f damage) over the next 5 turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained.]], [[출혈 상태일 때 매 턴 증오를 %d 회복합니다.
+
+이 기술을 활성화하여 강력한 힘을 얻기위해 생명력을 소진합니다. 다음 5 턴에 걸쳐 %0.2f 피해를 받습니다. 이 출혈 효과는 저항하거나 제거할 수 없지만, 피칠갑 기술계열로 피해를 완화할 수 있습니다. 출혈 피해량은 최대 생명력에 비례하여 증가합니다.]], "tformat")
 t("Self-Loathing", "자가 혐오", "talent name")
 t([[Increases critical chance by %d%% (at all times) and critical strike power by up to %d%% (based on hate).
 
@@ -20273,6 +20895,11 @@ This strength comes at a cost: you lose %d%% of your maximum life every turn.  T
 t("Self-Judgement", "자가 심판", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target2# #Source#의 %s, 피해를 경감한다!#LAST#.", "logCombat", nil, {"으로"})
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d 피가 뿜어져 나옴#LAST#%s)#LAST#", "tformat")
+t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
+
+#{italic}#You can't just die. That would be too easy.#{normal}#]], [[최대 생명력의 %d%% 이상의 피해를 한 번에 받을 때, 초과된 피해량이 얕은 상처로 전환되어 다음 %d 턴 동안 출혈로 인한 피해를 입습니다. 이 출혈 효과는 저항할 수도, 제거할 수도 없으나, 피칠갑 기술계열로 피해를 완화할 수 있습니다. 또한 최대 생명력의 %d%% 이상의 피해를 가하는 너무나 강력한 일격은 불완전한 상태의 얕은 상처로 전환됩니다.
+
+#{italic}#당신은 그냥 죽으면 안돼. 그건 너무 쉽잖아.#{normal}#]], "tformat")
 
 
 ------------------------------------------------
@@ -22450,7 +23077,7 @@ t("You are already a Shivgoroth!", "당신은 이미 쉬브고로스다!", "logP
 t([[You absorb latent cold around you, turning into an ice elemental - a shivgoroth - for %d turns.
 		While transformed, you do not need to breathe, gain access to the Ice Storm talent at level %d, gain %d%% resistance to cuts and stuns, gain %d%% cold resistance, and all cold damage heals you for %d%% of the damage done.
 		The power will increase with your Spellpower.]], [[주변의 잠재적인 냉기를 흡수해, %d 턴 동안 냉기의 정령 쉬브고라스로 변신합니다
-		변신 중에, 시전자는 숨을 쉴 필요가 없어지고, 기술 레벨 %d의 얼음 폭풍을 사용하는게 가능해 집니다. 또한, 출혈 면역력과 기절 면역력 %d%% 가 증가하고, 냉기 저항이 %d%% 증가합니다, 그리고 받는 냉기 피해의 %d%% 만큼 생명력이 회복됩니다.
+		변신 중에, 시전자는 숨을 쉴 필요가 없어지고, 기술 레벨 %d의 얼음 폭풍을 사용하는 게 가능해 집니다. 또한, 출혈 면역력과 기절 면역력 %d%% 가 증가하고, 냉기 저항이 %d%% 증가합니다, 그리고 받는 냉기 피해의 %d%% 만큼 생명력이 회복됩니다.
 		주문의 위력은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Mental Refresh", "새로운 마음", "talent name")
 t("Reset up to 3 wild gift, psionic or cursed talents.", "자연의 권능이나 초능력 혹은 저주 계열의 기술 3 개를 사용 가능한 상태로 만들어줍니다.", "tformat")
@@ -22486,7 +23113,7 @@ t([[While Highers are not meant to rule other humans - and show no particular wi
 t("Born into Magic", "마법 태생", "talent name")
 t([[Highers were originally created during the Age of Allure by the human Conclave. They are imbued with magic at the very core of their being.
 		Increase spell save by %d and arcane resistance by %d%%.
-		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], [[하이어는 본래 매혹의 시대 때, 인간 최고 회의에 의해 창조되었습니다. 하이어의 혈통 그 자체가 마법의 유산입니다.
+		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], [[하이어는 본래 매혹의 시대 때, 인간 최고 의회에 의해 창조되었습니다. 하이어의 혈통 그 자체가 마법의 유산입니다.
 		주문 내성이 %d, 가하는 비전 피해가 %d%% 증가합니다.
 		또한, 시전한 주문이 피해를 입힐 때, 5 턴 동안 해당하는 속성의 저항이 20%% 증가합니다. (이 효과는 재사용 대기시간이 존재합니다)]], "tformat")
 t("Highborn's Bloom", "고귀한 개화", "talent name")
@@ -24731,6 +25358,17 @@ t([[Conjures up a bolt of cold that moves toward the target and explodes into a 
 		폭발에 휩쓸린 강령술 하수인은 피해를 받는 대신, 두껴운 얼음층으로 뒤덮혀, 4 턴 동안 받는 모든 피해가 %d 감소합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,1,3})
 t("Corpselight", "시체 등불", "talent name")
+t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
+		Every turn all foes inside take %0.2f cold damage.
+		Anytime you cast a spell while standing inside your corpselight's area it grows by one stack, each stack giving +1 radius and +10%% damage.
+		The corpselight can gain at most %d stacks and the radius will never extend beyond 10.
+		If cast while under 1 life it spawns with 3 stacks.
+		The damage will increase with your Spellpower.]], [[7 턴 동안 반경 %d 칸 내에 냉기를 방출하는 시체 등불을 소환합니다.
+		매 턴, 범위 내의 모든 적은 %0.2f 냉기 피해를 받습니다.
+		시전자가 시체 등불의 범위 내에서 주문을 시전할 시, 중첩을 하나 얻습니다. 중첩 하나마다, 시체 등불의 범위가 +1 증가하고, 피해량이 +10%% 증가합니다.
+		시체 등불은 최대 %d 번 중첩되나, 범위는 10 칸을 넘어설 수 없습니다.
+		생명력 1 이하인 상태에서 소환 시, 3 중첩을 얻습니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Grave Mistake", "심각한 실수", "talent name")
 t("#STEEL_BLUE#The corpselight implodes!", "#STEEL_BLUE#시체 등불이 폭파된다!", "logSeen")
 t([[Upon expiring the corpselight implodes, pulling in all foes towards its center and dealing %0.2f cold damage.
@@ -24798,6 +25436,19 @@ t([[Your mastery of necromancy becomes so total that an aura of undeath radiates
 		추가로, 시전자가 새로운 하수인을 소환할 때, 시전자 능력치들의 %d%% 가 적용됩니다. 시전자의 주문력의 일부가 하수인들의 물리력, 정신력, 마법력, 증기력에 추가되고, 시전자의 주문 치명타 확률의 일부가 하수인들의 모든 치명타 확률에 추가되며, 시전자의 내성들의 일부가 하수인들의 각 내성에 추가됩니다. 또한 시전자의 피해 저항과 속성 피해 변동치의 일부 역시 하수인들에게 추가됩니다.
 		]], "tformat")
 t("Surge of Undeath", "불사자들의 분노", "talent name")
+t([[Sends out a surge of undeath energies into your aura.
+		All minions inside gain 25%% speed for %d turns
+		All non-ghoul minions are healed by %d%%.
+		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
+		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
+		All non-undead foes caught inside are dazed for %d turns.
+		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], [[불사의 기운 내에 불사 에너지의 쇄도를 발산합니다.
+		내부의 모든 하수인은 전체속도가 %d 턴 동안 25%% 증가합니다
+		구울이 아닌 모든 하수인의 생명력이 %d%% 회복됩니다.
+		시전자가 영묘의 부름을 배웠다면, 다음 소모성 구울 생성 전까지 남은 시간이 %d 턴 단축됩니다.
+		시전자가 시체 폭발이나 부패의 액체화를 배웠다면, 이 효과들의 지속시간이 %d 턴 연장됩니다.
+		기운 내의 모든 비언데드 적은  %d 턴 동안 혼절합니다
+		추가로, 이 주문을 배운 이후 생성된 하수인들의 생명력이 자동으로 재생됩니다.]], "tformat")
 t("Recall Minions", "하수인 집결", "talent name")
 t([[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
 		Up to %d minions are affected.
@@ -24806,6 +25457,13 @@ t([[Tighten the ethereal leash to some of your minions currently within your aur
 		적에게 둘러쌓인 상태에서 하수인 집결을 사용하면, 최대한 적이 멀리 떨어저있게끔 하수인들을 배치합니다.]], "tformat")
 t("Suffer For Me", "주인을 위한 고통", "talent name")
 t("#GREY#(%d to minion: %s)#LAST#", "#GREY#(%d 하수인 피해: %s)#LAST#", "tformat")
+t([[By creating an arcane link with your minion army you are able to redirect parts of any damage affecting you to them.
+		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
+		The minion takes 300%% damage from that effect.
+		The damage redirected percent depends on your Spellpower.]], [[시전자와 하수인 군단의 마법적 연결로, 받은 피해량의 일부를 하수인들에게 떠넘길 수 있게 되었습니다.
+		시전자가 피해를 받으면, 피해량의 %d%% 가 불사의 기운 내의 무작위한 하수인에게 전송됩니다.
+		하수인은 이 효과로 인해 300%% 증폭된 피해를 받습니다.
+		피해 전송 비율은 시전자의 주문력에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -25478,7 +26136,7 @@ t([[You absorb latent cold around you, turning into an ice elemental - a shivgor
 
 		#AQUAMARINE#Ice storm:#LAST#
 		%s]], [[주변의 잠재적인 냉기를 흡수해, %d 턴 동안 냉기의 정령 쉬브고라스로 변신합니다.
-		변신 중에, 시전자는 숨을 쉴 필요가 없어지고, 기술 레벨 %d의 얼음 폭풍을 사용하는게 가능해 집니다. 또한, 출혈 면역력과 기절 면역력 %d%% 가 증가하고, 냉기 저항이 %d%% 증가합니다, 그리고 받는 냉기 피해의 %d%% 만큼 생명력이 회복됩니다.
+		변신 중에, 시전자는 숨을 쉴 필요가 없어지고, 기술 레벨 %d의 얼음 폭풍을 사용하는 게 가능해 집니다. 또한, 출혈 면역력과 기절 면역력 %d%% 가 증가하고, 냉기 저항이 %d%% 증가합니다, 그리고 받는 냉기 피해의 %d%% 만큼 생명력이 회복됩니다.
 		주문의 위력은 주문력에 비례하여 증가합니다.
 
 		#AQUAMARINE#얼음 폭풍:#LAST#
@@ -26703,6 +27361,7 @@ t([[You go all out, trying to burn down your foes as fast as possible.
 section "game/modules/tome/data/talents/techniques/tireless-combatant.lua"
 
 t("Breathing Room", "숨 돌리기", "talent name")
+t("Any time you do not have an opponent in a square adjacent to you, you gain %0.1f Stamina regeneration. At talent level 3 or more, you also gain an equal amount of life regen when Breathing Room is active.", "시전자와 인접한 칸에 적이 존재하지 않을 경우, 기력이 매 턴 %0.1f 재생됩니다. 기술 레벨 3 일 때, 숨돌리기 활성화 시, 같은 수치의 생명력도 재생합니다.", "tformat")
 t("Pace Yourself", "숨 고르기", "talent name")
 t([[Control your movements to increase your defenses. This allows you to shrug off minor damage and, if you have a shield equipped, preemptively Block in reaction to incoming damage.  
 		While this talent is activated, you are globally slowed by %0.1f%% and all damage you take is reduced by a flat %0.1f.
@@ -26712,7 +27371,11 @@ t([[Control your movements to increase your defenses. This allows you to shrug o
 		방패를 장착 중이고, 방패 막기가 재사용 대시기간이 아닐 경우, 방패 수치의 25%% 이상의 방어 가능한 공격에 대해 %d%% 확률로 방패 막기를 즉시 발동합니다.
 		고정 피해 감소량은 회피도에 비례하여 증가합니다.]], "tformat")
 t("Dauntless Challenger", "불굴의 도전자", "talent name")
+t("When the going gets tough, you get tougher. You gain %0.1f Stamina regen per enemy in sight, and beginning at talent level 3 and above, you also gain %0.1f life regen per enemy. The bonuses cap at 4 enemies.", "상황이 안좋게 돌아갈 수록, 척후병은 더 강해집니다. 시야에 보이는 적 하나 당 %0.1f 기력 재생을 얻습니다. 또한 기술 레벨 3 일 때, 적 하나 당 %0.1f 생명력 재생을 얻습니다. 재생 효과는 최대 적 4 체에게서 발생합니다.", "tformat")
 t("The Eternal Warrior", "영원한 전사", "talent name")
+t([[For each turn you spend stamina, you gain %0.1f%% resist all and %0.1f%% all resistances cap for %d turns. The buff stacks up to %d times, and each new application refreshes the duration.
+		Additionally, at talent level 5 and above, Breathing Room and Dauntless Challenger are %d%% more effective.]], [[기력을 소모 할 때마다 %d 턴 동안 모든 피해 저항을 %0.1f%%, 모든 피해 저항 한계치를 %0.1f%% 늘립니다. 이 효과는 최대 %d 번 중첩되고, 매 기력 소모마다 지속시간을 갱신합니다.
+		추가로, 기술 레벨 5 일 때, 숨 돌리기와 불굴의 도전자의 효율이 %d%% 증가합니다.]], "tformat", {3,1,2,4,5})
 
 
 ------------------------------------------------
@@ -27402,6 +28065,47 @@ t("Unlocked the Fallen evolution", "타락한 자 진화를 해금", "_t")
 t("Committed a heinous act", "극악무도한 행위를 자행할 것", "_t")
 t("Fallen", "타락한 자", "_t")
 t("#CRIMSON#You give in to the darkness. You have fallen!", "#CRIMSON#당신은 어둠에 굴복했다. 당신은 타락했다!", "say")
+t([[The code of the Sun Paladins can be a heavy burden.	 Wouldn't you like to let go?
+		#{italic}##GREY#To give in to the darkness?#LAST##{normal}#
+		
+		#CRIMSON#This evolution fundamentally alters your class and character in a huge way. Do not take it lightly.#LAST#
+
+		Any offensive combat techniques or unlockable Celestial talent trees you know will be exchanged for cursed versions, allowing you to cut a bloody trail through enemies, turning your radiance to gloom, and more while also gaining new combat styles and defenses.
+
+		The following talent trees are swapped:
+		- #GOLD#Radiance#LAST# turns into #CRIMSON#Gloom#LAST#: Project onto others your own hate, hindering them
+		- #GOLD#Guardian#LAST# turns into #CRIMSON#Crimson Templar#LAST#: Use the power of blood to control and defeat the fools that oppose you
+		- #GOLD#Crusader#LAST# turns into #CRIMSON#Dark Sun#LAST#: Call upon the energies of dead suns to crush your foes
+
+		You will learn the following talents trees:
+		- #CRIMSON#Bloodstained#LAST#: Make your foes bleed!
+		- #CRIMSON#Darkside#LAST#: Every light casts a shadow, yours is powerful indeed
+		- #CRIMSON#Hatred#LAST#: Manifest your hatred through bleeding
+		- #CRIMSON#Dirge#LAST#: Sing of death and sorrow to strengthen your resolve
+
+		You will forget the following talent trees, refunding any talent points: Shield Offense, Two-handed Assault.
+		Also the cost of any talents of the Combat Techniques tree will be converted to hate instead of stamina.
+		]], [[태양의 기사들의 규율은 때때로 감당하기 어려울 수도 있습니다.  어둠에 굴복해서
+		#{italic}##GREY#규율을 저버리는 게 어떻겠습니까?#LAST##{normal}#
+		
+		#CRIMSON#이 직업 진화는 직업과 캐릭터를 근본적인 부분을 아주 크게 변화시킵니다. 가벼이 선택하지 마십시오.#LAST#
+
+		당신이 알고있는 모든 전투 기술 계통과 해제 가능한 천공 계통 기술들은 저주받은 기술로 변해, 적들 사이에 피를 흩뿌리고, 광휘 대신 암울의 그림자를 드리울 수 있게 됩니다. 또 새로운 전투 방식과 방어 능력을 얻게 됩니다.
+
+		다음 기술 계열이 변경됩니다 :
+		- #GOLD#광휘#LAST#는 #CRIMSON#암울#LAST#로 변합니다 : 증오를 발산해, 적들을 방해합니다.
+		- #GOLD#수호자#LAST#는 #CRIMSON#진홍빛 기사#LAST#로 변합니다 : 피의 힘을 사용해 당신의 앞길을 방해하는 멍청이들에게 패배를 안깁니다.
+		- #GOLD#성전사는#LAST# #CRIMSON#어두운 태양#LAST#으로 변합니다 : 죽은 태양의 에너지를 불러와, 적들을 파괴합니다.
+
+		다음 기술들을 익힙니다 :
+		- #CRIMSON#피칠갑#LAST# : 적에게 출혈을 유발합니다!
+		- #CRIMSON#어두운 면#LAST# : 모든 빛은 그림자를 남깁니다. 당신의 힘은 짙은 그림자를 남깁니다.
+		- #CRIMSON#증오#LAST#: 출혈을 통해 자신의 증오를 드러냅니다.
+		- #CRIMSON#장송곡#LAST#: 죽음과 슬픔의 노래를 불러, 결의를 확고하게 다집니다.
+
+		해당 기술 계열을 잊어버리지만, 기술 점수가 반환됩니다 : 방패 공격, 양손 무기 맹공.
+		또한 모든 전투 기술 계통의 기술들이 기력 대신 증오를 소모하게 됩니다.
+		]], "tformat")
 
 
 ------------------------------------------------
@@ -29681,6 +30385,45 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 section "game/modules/tome/data/texts/unlock-paladin_fallen.lua"
 
 t("New Class Evolution: #LIGHT_GREEN#Fallen (Sun Paladin)", "새로운 직업 진화: #LIGHT_GREEN#타락한 자 (태양의 기사)", "_t")
+t([[#{bold}##GOLD#You aren't so different...#LAST##{normal}#
+
+As a sun paladin, you follow a code.  But with the darkness you've seen in the world, you've started to doubt.
+
+You have unlocked the #LIGHT_GREEN#Fallen class evolution#WHITE# for Sun Paladins.
+
+Learn new Talents:#YELLOW#
+- Bloodstained: Make your foes bleed!
+- Darkside: Every light casts a shadow, yours is powerful indeed
+- Hatred: Manifest your hatred through bleeding
+- Dirges: Sing of death and sorrow to strength your resolve#WHITE#
+
+Swap your paladin Talents:#YELLOW#
+- Radiance turns into Gloom: Project onto others your own hate, hindering them
+- Crusader turns into Dark Sun: Call upon the energies of dead suns to crush your foes
+- Guardian turns into Crimson Templar: Use the power of blood to control and defeat the fools that oppose you
+#WHITE#
+
+Class evolutions are selected as prodigies and grant new ways to build and expand your class. They are only visible to the concerned class.
+]], [[#{bold}##GOLD#당신도 크게 다르지 않습니다...#LAST##{normal}#
+
+당신은 태양의 기사로써 규율을 따라 왔습니다. 하지만 세상의 어둠을 마주하고 나서부터, 의심이 생기기 시작했습니다.
+
+따라서 태양의 기사 직업의 #LIGHT_GREEN#타락한 자 직업 진화#WHITE#가 해금되었습니다.
+
+새롭게 배울 수 있는 기술들:#YELLOW#
+- 피칠갑: 적들이 피를 흘리게 만듭니다!
+- 어두운 면: 모든 빛에는 그림자가 지며, 당신의 그림자는 특히 더 강력합니다.
+- 증오: 출혈을 통해 자신의 증오를 드러냅니다.
+- 장송곡: 죽음과 슬픔의 노래를 불러 스스로의 결의를 다집니다.#WHITE#
+
+몇몇 기술들은 새롭게 바뀝니다:#YELLOW#
+- 광휘는 암울로: 자신의 증오를 다른 자들에게 투영하여 그들을 방해합니다.
+- 성전사는 어두운 태양으로: 죽은 태양의 에너지를 불러내어 적들을 처부숩니다.
+- 수호자는 진홍빛 기사로: 피의 힘을 사용해 자신에게 대적하는 어리석은 자들을 제어하고 쓰러뜨립니다.
+#WHITE#
+
+직업 진화는 특수 기술로 취급되며, 기본 직업에 새로운 성장 방향을 제시합니다. 또한 직업 진화는 진화가 가능한 직업에게만 표시됩니다.
+]], "_t")
 
 
 ------------------------------------------------
@@ -31012,6 +31755,7 @@ t("Black Ice", "검은 얼음", "_t")
 t("Damage from necrotic minions increased by %d%%.", "강령술 하수인에게 받는 피해 +%d%%.", "tformat")
 t("Corpselight", "시체 등불", "_t")
 t("Sustains a corpselight of radius %d that deals %0.2f cold damage per turn.", "반경 %d 칸의, 매 턴 %0.2f 냉기 피해를 주는 시체 등불을 유지 중.", "tformat")
+t("#Target# summons a corpselight!", "#Target1# 시체 등불을 소환했다!", "_t")
 t("Crepuscule", "어스름", "_t")
 t("Bring the night!", "밤을 불러오라!", "_t")
 t("#Target# calls the night!", "#Target1# 밤을 내린다!", "_t")
@@ -33362,8 +34106,8 @@ t("and spliced for experiments", "그리고 그 시체는 실험을 위해 이�
 ------------------------------------------------
 section "game/modules/tome/data/zones/conclave-vault/objects.lua"
 
-t("log of healer Astelrid", "치유사 아스텔리드의 일지", "entity name")
-t("investigator Churrack note", "조사원 출라크의 메모", "entity name")
+t("log of healer Astelrid", "치유사 아스텔리드의 기록", "entity name")
+t("investigator Churrack note", "조사관 출라크의 메모", "entity name")
 t("A very faded note, nearly unreadable.", "매우 바래서 내용을 거의 알아볼 수 없는 메모입니다.", "_t")
 t("Astelrid's Clubstaff", "아스텔리드의 지팡이였던 몽둥이", "entity name")
 t("huge maul", "거대 둔기", "_t")
@@ -33374,7 +34118,7 @@ t("Improves the contribution of primary stats on infusions and runes by 15%", "�
 ------------------------------------------------
 section "game/modules/tome/data/zones/conclave-vault/zone.lua"
 
-t("Old Conclave Vault", "고대의 비밀 볼트", "_t")
+t("Old Conclave Vault", "최고 의회의 비밀 볼트", "_t")
 
 
 ------------------------------------------------
@@ -37284,6 +38028,7 @@ t("You cannot learn this talent(s): ", "당신은 이 기술을 배울 수 없�
 t([[#LIGHT_BLUE#Warning: You have increased some of your statistics or talent. Talent(s) actually sustained: 
  %s If these are dependent on one of the stats you changed, you need to re-use them for the changes to take effect.]], [[#LIGHT_BLUE#알림 : 당신은 현재 활성화한 유지기 %s 에 영향을 주는 능력치 또는 기술에 투자했습니다. 
  유지기를 재활성화 함으로써 기술의 효과를 다시 갱신하십시오.]], "_t")
+t("#LIGHT_RED#Requirements for %s not met, prodigy not learnt.", "#LIGHT_RED#%s 의 요구 조건이 충족되지 않았습니다. 특수기술을 배울 수 없습니다.", "log")
 t("Not enough stat points", "능력치 점수가 부족합니다", "_t")
 t("You have no stat points left!", "남은 능력치 점수가 없습니다!", "_t")
 t("Stat is at the maximum for your level", "당신의 레벨 이상으로 투자하지 못합니다", "_t")
@@ -37409,9 +38154,12 @@ t(" class", " 직업", "_t")
 t(" generic", " 일반", "_t")
 t("The last %d %s talents you learnt are always unlearnable.", "최근에 습득한 %d 점의 %s 기술은 습득의 취소가 가능합니다.", "tformat")
 t("This talent was recently learnt; you can still unlearn it if you are out of combat or in a quiet area like a #{bold}#town#{normal}#.", "당신은 전투에서 벗어나거나 #{bold}#마을#{normal}# 과 같이 조용한 곳에서 이 기술을 취소할 수 있습니다.", "_t")
+t("<Press 'x' to swap to simple display>", "<'x' 키를 눌러 단순한 능력치 확인창으로 변경>", "_t")
 t("First talent level: ", "처음 기술 레벨: ", "_t")
 t("Next talent level", "다음 기술 레벨", "_t")
 t("Current talent level: ", "현재 기술 레벨: ", "_t")
+t(" (%+0.1f bonus level)", " (%+0.1f 레벨 추가됨)", "tformat")
+t("<Press 'x' to swap to advanced display>", "<Press 'x' 키를 눌러 고급 능력치 확인창으로 변경>", "_t")
 t("Stats: %s", "능력치: %s", "tformat")
 t("Class points: %s", "직업 기술 점수: %s", "tformat")
 t("Generic points: %s", "일반 기술 점수: %s", "tformat")
@@ -37432,7 +38180,9 @@ t("%s: Inventory", "%s: 인벤토리", "tformat")
 t("Change level", "구역 이동", "_t")
 t("Pickup item", "물건 줍기", "_t")
 t("Move to", "이곳으로 이동하기", "_t")
+t("Control", "조작", "_t")
 t("Give order", "명령 내리기", "_t")
+t("Target player", "대상 플레이어", "_t")
 t("Lua inspect [Actor]", "Lua 조사 [Actor]", "_t")
 t("Lua inspect [Terrain]", "Lua 조사 [Terrain]", "_t")
 t("Lua inspect [Trap]", "Lua 조사 [Trap]", "_t")
@@ -37461,6 +38211,7 @@ t("Set the leash distance [current: %d]", "최대 거리 설정 [현재: %d]", "
 t("Define tactical talents usage", "전략적 기술 사용 설정", "_t")
 t("Rename", "이름 바꾸기", "_t")
 t("Dismiss", "해산", "_t")
+t("Pet the hound", "사냥개를 쓰다듬는다", "_t")
 t("Order: %s", "명령: %s", "tformat")
 
 
@@ -37669,6 +38420,8 @@ All of them require at least 50 in a core stat and many also have more special d
 t("\
 Evolutions are special prodigies specific to a class or race. Only one evolution can be choosen, if any are available at all.", "\
 진화는 어떤 직업이나 종족만 사용 가능한 특별한 특수 기술입니다. 오직 하나의 진화만 선택 가능합니다.", "_t")
+t("#{bold}##GOLD#Prodigies#{normal}#", "#{bold}##GOLD#특수 기술#{normal}#", "_t")
+t("#{bold}##LIGHT_STEEL_BLUE#Evolutions#{normal}#", "#{bold}##LIGHT_STEEL_BLUE#진화#{normal}#", "_t")
 
 
 ------------------------------------------------
@@ -37859,18 +38612,41 @@ section "game/modules/tome/dialogs/debug/SummonCreature.lua"
 ------------------------------------------------
 section "game/modules/tome/dialogs/orders/Behavior.lua"
 
+t("Set behavior: %s", "행동 설정: %s", "tformat")
+t("%s behavior set to %s.", "%s의 행동이 %s 설정되었다.", "logPlayer", nil, {[2]="으로"})
+t("Default", "기본", "_t")
+t("Melee", "근접", "_t")
+t("Ranged", "원거리", "_t")
+t("Tank", "탱킹", "_t")
+t("Standby", "대기", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/orders/Talents.lua"
 
 t("Define tactical talents usage", "전략적 기술 사용 설정", "_t")
+t([[%s is listening attentively, and wants to know what talents to use.
+You can modify the tactical weights of various talents to increase or decrease their use.  The weights are multiplicative (zero will turn the talent off) and relative (changing everything to a weight of 2 will not alter how talents are used relative to each other).
+Word travels fast in Maj'Eyal, and if %s is a summon all future summons of the same type will remember your preferences.
+]], [[%s 당신의 명령을 주의깊게 듣고, 어떤 기술을 사용하면 좋을지 알고 싶어합니다.
+당신은 다양한 기술들의 전략적 중요성 수치를 조정함으로써 기술 사용의 우선도를 늘리거나 줄일 수 있습니다.  중요성 수치는 곱셈으로 계산되며, (따라서 0 으로 설정 시, 기술을 사용하지 않게 됩니다) 상대적으로 적용됩니다 (모든 중요성 수치를 2 로 설정해놓는다면 기술 우선도는 모두 동일해집니다).
+마즈'에이알에서의 전언은 빠르게 퍼집니다. %s 소환물일 경우, 미래에 소환될 동종의 소환물들은 당신이 설정한 기술 우선도 순위를 따르게 됩니다.
+]], "tformat", nil, {"는","가"})
+t("Talent Name", "기술 이름", "_t")
+t("Weight", "중요성", "_t")
+t("0 is off, 1 is normal", "0 는 사용 금지, 1 은 보통입니다", "_t")
+t("Enter the talent weight multiplier", "기술 중요성 수치를 입력해주십시오", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/shimmer/CommonData.lua"
 
+t("Character's Skin", "캐릭터의 피부", "_t")
+t("Character's Hair", "캐릭터의 머리카락", "_t")
+t("Character's Facial Features", "캐릭터의 얼굴특징", "_t")
+t("Character's Aura", "캐릭터의 아우라", "_t")
 t("unknown", "알 수 없음", "_t")
+t("#GREY#Invisible#LAST#", "#GREY#투명#LAST#", "_t")
 
 
 ------------------------------------------------
@@ -37878,36 +38654,87 @@ section "game/modules/tome/dialogs/shimmer/Shimmer.lua"
 
 t("Search: ", "찾기: ", "_t")
 t("Name", "이름", "_t")
+t("\
+#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
+#{italic}##CRIMSON#이 치장 요소는 오로지 기부자/구입자들을 위한 기능입니다. 현재 미리보기만 가능합니다.#WHITE##{normal}#", "_t")
+t([[You can alter %s to look like another item of the same type/slot.
+#{bold}#This is a purely cosmetic change.#{normal}#%s]], [[%s 의 외관을 같은 종류/장비칸의 다른 장비로 바꿀 수 있습니다.
+#{bold}#이것은 순수하게 외형적인 변화입니다.#{normal}#%s]], "tformat")
+t("Donator Cosmetic Feature", "기부자 치장 기능", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "이 치장 요소는 오로지 기부자/구입자들을 위한 기능입니다.", "_t")
+t("shimmer ingame", "인게임 반영", "_t")
 t("Cancel", "취소", "_t")
+t("Donate", "기부", "_t")
+t("#GREY#[Invisible]", "#GREY#[투명]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/shimmer/ShimmerDemo.lua"
 
+t("Shimmer Demo", "반영 데모", "_t")
+t("#GREY#[Invisible]", "#GREY#[투명]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/shimmer/ShimmerOther.lua"
 
+t("Shimmer: %s", "반영: %s", "tformat")
 t("Search: ", "찾기: ", "_t")
 t("Name", "이름", "_t")
+t("\
+#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
+#{italic}##CRIMSON#이 치장 요소는 오로지 기부자/구입자들을 위한 기능입니다. 현재 미리보기만 가능합니다.#WHITE##{normal}#", "_t")
+t([[You can alter your look.
+#{bold}#This is a purely cosmetic change.#{normal}#%s]], [[당신의 외견을 바꿀 수 있습니다.
+#{bold}#이것은 순수하게 외형적인 변화입니다.#{normal}#%s]], "tformat")
+t("Donator Cosmetic Feature", "기부자 치장 기능", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "이 치장 요소는 오로지 기부자/구입자들을 위한 기능입니다.", "_t")
+t("shimmer ingame", "인게임 반영", "_t")
 t("Cancel", "취소", "_t")
+t("Donate", "기부", "_t")
+t("#GREY#[Default]", "#GREY#[기본]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/shimmer/ShimmerOutfits.lua"
 
+t("Shimmer Sets: %s", "반영 세트: %s", "tformat")
 t("Search: ", "찾기: ", "_t")
 t("Name", "이름", "_t")
+t([[You can switch your appearance to a saved set of shimmers.
+#{bold}#This is a purely cosmetic change.#{normal}#]], [[당신은 반영 세트를 저장함으로써 외형을 마음대로 바꿀 수 있습니다.
+#{bold}#이것은 순수하게 외형적인 변화입니다.#{normal}#]], "_t")
+t("Outfit name?", "아웃핏 이름을 정해주세요", "_t")
+t("Save Outfit", "아웃핏 저장", "_t")
+t("Donator Cosmetic Feature", "기부자 치장 기능", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "이 치장 요소는 오로지 기부자/구입자들을 위한 기능입니다.", "_t")
+t("shimmer ingame", "인게임 반영", "_t")
 t("Cancel", "취소", "_t")
+t("Donate", "기부", "_t")
+t("#GOLD#[save current outfit]", "#GOLD#[현재 아웃핏 저장]", "_t")
 
 
 ------------------------------------------------
 section "game/modules/tome/dialogs/shimmer/ShimmerRemoveSustains.lua"
 
+t("Shimmer: Remove Sustains Effects", "반영: 유지 효과 제거", "_t")
 t("Name", "이름", "_t")
 t("Active", "켜짐", "_t")
+t("\
+#{italic}##CRIMSON#This cosmetic feature is only available to donators/buyers. You can only preview.#WHITE##{normal}#", "\
+#{italic}##CRIMSON#이 치장 요소는 오로지 기부자/구입자들을 위한 기능입니다. 현재 미리보기만 가능합니다.#WHITE##{normal}#", "_t")
+t([[#{bold}##CRIMSON#WARNING: this is an EXPERIMENTAL feature. It may explode!#LAST##{normal}#
+Sustains auras with name in #YELLOW#yellow#LAST# can not be automatically turned back on if disabled. After turning them on here, you need to unsustain and resustain them manually.
+
+#{bold}#This is a purely cosmetic change.#{normal}#]], [[#{bold}##CRIMSON#위험: 이것은 실험적인 기능입니다. 폭발할 수도 있습니다!#LAST##{normal}#
+Sustains auras with name in #YELLOW#노란색#LAST#으로 표기된 유지 기술들의 시각 효과를 제거할 경우, 더는 자동적으로 사용되지 않게 됩니다. 이곳에서 제거한 후에는, 수동으로 유지기를 활성/비활성 시켜야합니다.
+
+#{bold}#이것은 순수하게 외형적인 변화입니다.#{normal}#]], "_t")
+t("Donator Cosmetic Feature", "기부자 치장 기능", "_t")
+t("This cosmetic feature is only available to donators/buyers.", "이 치장 요소는 오로지 기부자/구입자들을 위한 기능입니다.", "_t")
+t("shimmer ingame", "인게임 반영", "_t")
 t("Cancel", "취소", "_t")
+t("Donate", "기부", "_t")
 
 
 ------------------------------------------------
@@ -38042,7 +38869,7 @@ t("120 years ago Toknor and Mirvenia united the human and halfling kingdoms and 
 t("\"The Spellblaze tore Eyal apart and nearly brought about the end of all civilisation. Two thousand years on its shadow still hangs over many lands, and the prideful mages have never been forgiven their place in bringing it about.", "\"마법폭발은 에이알을 찢어놓았고, 문명들을 모두 끝장낼 뻔 했습니다. 2000 년이 지난 지금도 아직도 많은 땅에 마법폭발의 영향이 남아있습니다. 그러나 오만스러운 마법사들은 그런 재앙을 불러온 것에 대해 단 한 번도 죄책감을 느끼지 않았습니다.", "init.lua load_tips")
 t("Some are cursed with mental powers beyond their full control, turning them to a dark life powered by hatred.", "통제할 수 없는 정신력을 가진 저주받은 이들은 증오에서 살아갈 힘을 받으며 어두운 삶을 살아가게 됩니다.", "init.lua load_tips")
 t("Dreadfell has always been shunned for its haunted crypts, but of late rumours tell of a darker and more terrible power in residence.", "유령들린 묘지인 두려움의 영역은 먼 미래까지, 공포로 인해 꺼려지는 장소일 것입니다. 어둡고 사악하지만 강력한 존재가 살고 있다는 소문들이 자주 들려옵니다.", "init.lua load_tips")
-t("Some Sher'Tul artifacts can still be found in hidden places, but it is said they are not to be trifled with.", "몇 개의 쉐르'툴 유물을 숨겨진 장소에서 찾을 수 있습니다. 만일 이 유물들을 획득한다면, 귀중하게 여기는게 좋을겁니다.", "init.lua load_tips")
+t("Some Sher'Tul artifacts can still be found in hidden places, but it is said they are not to be trifled with.", "몇 개의 쉐르'툴 유물을 숨겨진 장소에서 찾을 수 있습니다. 만일 이 유물들을 획득한다면, 귀중하게 여기는 게 좋을겁니다.", "init.lua load_tips")
 t("Drakes and wyrms are the strongest natural creatures in the world, capable of powers far beyond most other beings.", "용과 드레이크는 가장 강력한 자연계 생명체입니다. 이들의 힘은 다른 존재들을 아득히 능가합니다.", "init.lua load_tips")
 t("Giant worms tear open huge passageways through the deserts in the west. It is said great riches lie buried beneath the sand, still decorating the corpses of those who went there seeking great riches.", "서쪽 사막의 거대한 벌레는 거대한 통로를 열어재끼며 돌아다닙니다. 모래 밑에 막대한 보물이 있다는 소문을 찾아 온 자들의 시체들이 사막을 수놓고 있습니다.", "init.lua load_tips")
 t("Arcane Blades employ a fusion of melee and magical combat. Their training is harsh but the most dedicated rise to great powers.", "마법 검사는 근접 전투술과 함께 마법을 이용하여 싸웁니다. 훈련 과정은 가혹하지만, 끝까지 견뎌낸 이들은 강력한 힘을 손에 얻습니다.", "init.lua load_tips")
@@ -38125,9 +38952,11 @@ t("Second weapon set: In main hand", "두 번째 무기 세트: 주무기칸", "
 t("Weapon Set 2: Most weapons are wielded in the main hand. Press 'x' to switch weapon sets.", "무기 세트 2 : 대부분의 무기는 주무기로 장비합니다. 'x'를 눌러 무기 세트를 바꾸십시오.", "_t")
 t("Second weapon set: In off hand", "두 번째 무기 세트: 보조무기칸", "_t")
 t("Weapon Set 2: You can use shields or a second weapon in your off-hand, if you have the talents for it. Press 'x' to switch weapon sets.", "무기 세트 2: 맞는 기술을 가지고 있다면 방패나 두 번째 무기를 보조무기로 착용할 수 있습니다. 'x'를 눌러 무기 세트를 바꾸십시오.", "_t")
+t("Second weapon set: psionic focus", "세트 2: 염동력 집중", "_t")
 t("Weapon Set 2: Object held in your telekinetic grasp. It can be a weapon or some other item to provide a benefit to your psionic powers. Press 'x' to switch weapon sets.", "무기 세트 2: 염동력 손아귀에 쥔 물체입니다. 무기나 다른 아이템을 쥐어서 염동력을 향상시킬 수 있습니다.'x'를 눌러 무기 세트를 바꾸십시오.", "_t")
 t("Second weapon set: Quiver", "두 번째 무기 : 화살통", "_t")
 t("Weapon Set 2: Your readied ammo.", "무기 세트 2: 준비된 탄약.", "_t")
+t("List of items that can be instantly used by swift hands.", "빠른 손놀림으로 턴 소모 없이 사용 가능한 물품들 입니다.", "_t")
 t("Swift Hands", "빠른 손놀림", "_t")
 t("Strength", "힘", "stat name")
 t("Strength defines your character's ability to apply physical force. It increases your melee damage, damage done with heavy weapons, your chance to resist physical effects, and carrying capacity.", "힘은 물리적 힘을 행사하는 능력을 결정합니다. 근접 피해와 무거운 무기로 입히는 피해를 증가시킵니다. 물리 상태 효과에 저항할 확률과 당신이 지닐 수 있는 무게를 증가시킵니다.", "_t")
@@ -38149,6 +38978,7 @@ t("Constitution defines your character's ability to withstand and resist damage.
 t("con", "체격", "stat short_name")
 t("Luck", "행운", "stat name")
 t("Luck defines your character's fortune when dealing with unknown events. It increases your critical strike chance, your chance of random encounters, ...", "행운은 미지의 사건에 대처하는 능력을 결정합니다. 치명타 확률과 랜덤 인카운터 확률을 증가시킵니다.", "_t")
+t("lck", "행운", "stat short_name")
 t("All kinds of weapons", "모든 무기", "_t")
 t("All kinds of armours", "모든 갑옷", "_t")
 t("Rings and Amulets", "반지와 목걸이", "_t")
