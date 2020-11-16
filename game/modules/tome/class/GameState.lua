@@ -2166,24 +2166,22 @@ function _M:applyRandomClass(b, data, instant)
 			local t = b:getTalentFromId(tid)
 			if not t.no_npc_use and not t.no_npc_autolevel and (not t.random_boss_rarity or rng.chance(t.random_boss_rarity)) and not (t.rnd_boss_restrict and util.getval(t.rnd_boss_restrict, b, t, data) ) then
 				local max = (t.points == 1) and 1 or math.ceil(t.points * 1.2)
-				local step = max / 70
+				local step = max / 65
 				tres[1][tid] = v + math.ceil(step * data.level)
 			end
 		end
 
-		-- learn talents based on trees: focus trees we take 3-4 talents from with a decent amount of point investment, shallow trees we only take 1 or 2 with not many points
-		-- ideally rares should feel different even within the same class based on what focus trees they get
 		local nb_focus, nb_shallow = 0, 0
 		local rank = b.rank
 		if rank <= 3.2 then 	--rare
-			nb_focus = math.floor(0.2 + rng.float(0.22, 0.35)*(math.max(0,data.level-3))^0.5)
-			nb_shallow = 2 + math.floor(0.25 + rng.float(0.08, 0.2)*(math.max(0,data.level-6))^0.5)
+			nb_focus = 1 + math.floor(rng.float(0.15, 0.33)*(math.max(0,data.level-4))^0.5)
+			nb_shallow = 1 + math.floor(0.25 + rng.float(0.08, 0.17)*(math.max(0,data.level-6))^0.5)
 		elseif rank >= 4 then 	--boss/elite boss 
-			nb_focus = 1 + math.floor(0.25 + rng.float(0.15, 0.35)*(math.max(0,data.level-6))^0.5)
-			nb_shallow = 1 + math.floor(0.3 + rng.float(0.1, 0.2)*(math.max(0,data.level-4))^0.5)
+			nb_focus = 1 + math.floor(0.2 + rng.float(0.085, 0.3)*(math.max(0,data.level-6))^0.5)
+			nb_shallow = 1 + math.floor(0.3 + rng.float(0.07, 0.18)*(math.max(0,data.level-5))^0.5)
 		else 					--unique
-			nb_focus = 1 + math.floor(0.2 + rng.float(0.15, 0.3)*(math.max(0,data.level-10))^0.5)
-			nb_shallow = 1 + math.floor(0.55 + rng.float(0.1, 0.2)*(math.max(0,data.level-8))^0.5)
+			nb_focus = 1 + math.floor(0.2 + rng.float(0.085, 0.25)*(math.max(0,data.level-10))^0.5)
+			nb_shallow = 1 + math.floor(0.5 + rng.float(0.07, 0.18)*(math.max(0,data.level-8))^0.5)
 		end
 		print("Adding "..nb_focus.." primary trees to boss")
 		print("Adding "..nb_shallow.." secondary trees to boss")
@@ -2255,13 +2253,13 @@ function _M:applyRandomClass(b, data, instant)
 			if #t_choices <= 2 or #focus_trees >= nb_focus then 
 				if #t_choices > 0 and #shallow_trees < nb_shallow then
 					table.insert(shallow_trees, tt) -- record that we added the tree as a minor tree
-					max_talents_from_tree = rng.percent(65) and 2 or 1
+					max_talents_from_tree = rng.percent(60) and 2 or 1
 					print("Adding secondary tree "..tt.." to boss with "..max_talents_from_tree.." talents")
 					for i = max_talents_from_tree,1,-1 do
 						local t = table.remove(t_choices, 1)
 						if not t then break end
 						local max = (t.points == 1) and 1 or math.ceil(t.points * 1.2)
-						local step = max / 60
+						local step = max / 65
 						local lev = math.max(1, math.round(rng.float(0.75,1.15)*math.ceil(step * data.level)))
 						print(#shallow_trees, " * talent:", t.id, lev)
 						if instant then -- affected by game difficulty settings
@@ -2276,14 +2274,14 @@ function _M:applyRandomClass(b, data, instant)
 				end
 			else
 				table.insert(focus_trees, tt) --record that we added the tree as a major tree
-				local max_talents_from_tree = rng.percent(75) and 4 or 3 
+				local max_talents_from_tree = rng.percent(67) and 4 or 3 
 				print("Adding primary tree "..tt.." to boss with "..max_talents_from_tree.." talents")
 				for i = max_talents_from_tree,1,-1 do
 					local t = table.remove(t_choices, 1)
 					if not t then break end
 					local max = (t.points == 1) and 1 or math.ceil(t.points * 1.2)
 					local step = max / 50
-					local lev = math.max(1, math.round(rng.float(0.75,1.25)*math.ceil(step * data.level)))
+					local lev = math.max(1, math.round(rng.float(0.8,1.2)*math.ceil(step * data.level)))
 					print(#focus_trees, " * talent:", t.id, lev)
 					if instant then -- affected by game difficulty settings
 						if b:getTalentLevelRaw(t) < lev then b:learnTalent(t.id, true, lev - b:getTalentLevelRaw(t.id)) end
