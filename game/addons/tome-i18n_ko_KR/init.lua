@@ -8,3 +8,4 @@ homepage = "http://te4.org/"
 description = [[Korean Translation (Temp_v1) translation.]]
 hooks = true
 data = true
+overload = true
