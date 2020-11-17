@@ -8135,10 +8135,7 @@ t("No thanks.", "사양하지.", "_t")
 t("Oh I am sorry, it seems we could not make the item your require.", "오, 미안하구만, 네 기대에 걸맞는 물건을 못 만든 모양이야.", "_t")
 t("Oh, let's try something else then.", "그래? 그럼 다른 물건을 부탁해 볼까.", "_t")
 t("Oh well, maybe later then.", "그래? 그럼 나중에.", "_t")
--- new text
---[==[
-t("%+d #LAST#(%+d eff.)", "%+d #LAST#(%+d eff.)", "_t")
---]==]
+t("%+d #LAST#(%+d eff.)", "%+d #LAST#(실질 %+d)", "_t")
 
 
 ------------------------------------------------
