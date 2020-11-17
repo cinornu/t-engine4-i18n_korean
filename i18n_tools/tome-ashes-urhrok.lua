@@ -412,6 +412,7 @@ We asked #{italic}##FIREBRICK#[Father]#{normal}##LAST# what #{italic}##FIREBRICK
 
 (You know all too well what this next panel does, and memories of being chained and bound while a wretchling presses it to your forehead flash through your mind. Despite a fading compulsion, no force in Eyal could convince you to touch the panel.)
 ]], "_t")
+--]==]
 t("orbital base: battle plan (doombringer)", "궤도 기지: 작전 방침 (파멸의 사도)", "_t")
 t([[Engagement Briefing on <?=player.name?>:
 
@@ -428,6 +429,8 @@ Above all else, remember: despite <?=player:his_her()?> brute strength, this is 
 
 무엇보다, 기억하라: <?=player:he_she()?>가 짐승같은 힘을 가지고 있음에도 이자는 운좋게 우리의 우월한 힘의 일부를 얻은 한심하고 열등한 아이알인일 뿐이다. <?=player:he_she():capitalize()?>는 이 힘을 제대로 쓰는 법을 모르며, 우리처럼 영겁의 새월동안 사용해본 경험이 있는 것도 아니다. 우리는 다수이고, 힘에 익숙하며, 전술이 있다. 그리고 우리는 울흐'록의 축복을 받는다. 연습이라고 생각하라. 우리가 차분히 집중만 한다면 희생자가 생기는 일은 없을 것이다.
 ]], "_t")
+-- new text
+--[==[
 t("orbital base: battle plan (demonologist)", "orbital base: battle plan (demonologist)", "_t")
 t([[Engagement Briefing on <?=player.name?>:
 
@@ -668,10 +671,8 @@ t("#LIGHT_GREEN#* You have found your way out of the primary ambush.#WHITE#", "#
 t("#LIGHT_GREEN#* You have destroyed Rogroth the Eater of Souls and made your escape possible. Flee!#WHITE#", "#LIGHT_GREEN#* 영혼을 먹는 자 로그로스를 처치했고, 이제 탈출할 수 있습니다. 도망치세요!#WHITE#", "_t")
 t("#SLATE#* Find a way back to Eyal.#WHITE#", "#SLATE#* 에이알로 돌아가는 길을 찾으세요.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have escaped the Anteroom of Agony.#WHITE#", "#LIGHT_GREEN#* 고문 대기장에서 탈출했습니다.#WHITE#", "_t")
--- new text
---[==[
 t("#LIGHT_GREEN#* #WHITE#", "#LIGHT_GREEN#* #WHITE#", "_t")
---]==]
+
 
 
 ------------------------------------------------
@@ -958,10 +959,8 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		매 턴 화산은  %0.2f 화염 피해와 %0.2f 물리 피해를 주는 2 개의 불타는 암석을 분출합니다.
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
 		피해량은 주문력에 비례해 증가합니다.]], "tformat")
--- new text
---[==[
+
 t("", "", "log")
---]==]
 
 
 ------------------------------------------------
@@ -1943,10 +1942,9 @@ t("Cosmetic: red skin", "외형: 붉은 피부", "_t")
 section "tome-ashes-urhrok/superload/mod/class/Object.lua"
 
 
--- new text
---[==[
+
 t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
---]==]
+
 
 
 ------------------------------------------------
@@ -1965,9 +1963,7 @@ Have fun crushing your foes!
 적들을 으깨버리면서, 재밌게 즐기세요!
 ]], "tformat")
 t(" or ", " 또는 ", "_t")
--- new text
---[==[
 t(", ", ", ", "_t")
---]==]
+
 
 
