@@ -1830,7 +1830,7 @@ As you recover, and your platform of searing earth splits from the main continen
 
 깨어나고 보니 당신이 있는 불타는 땅 조각은 대륙에서 분리되어 있었고, 당신의 옛 기억이 한꺼번에 밀려들어왔고 의식이 깨어났습니다 - 악마들이 당신의 고향을 파괴하려 합니다!
 
-#{bold}#탈출해야 합니다!#{normal}#.
+#{bold}#탈출해야 합니다!#{normal}#
 ]], "_t")
 
 ------------------------------------------------
