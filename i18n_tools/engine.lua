@@ -13,7 +13,7 @@ t("turtle", "거북이", "nil")
 t("Marus of Elvala", "엘발라의 말루스", "nil")
 t("hydra", "히드라", "nil")
 t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
-The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s 년 %s %s 일 입니다.
+The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s년 %s의 달 %s일 입니다.
 현재 시간은 %02d시 %02d분입니다.]], "nil")
 t("Vargh Republic", "바르그 공화국", "nil")
 t("starstaff", "별 마법지팡이", "nil")
