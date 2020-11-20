@@ -33,7 +33,7 @@ t("Demented", "광인", "birth descriptor name")
 t("The thirst for knowledge is seen by most arcane users as as good thing.", "지식욕은 대부분의 주문 사용자들에게 있어서 좋은 것으로 인식됩니다.", "_t")
 t("But some take it too far, some delve into lost knowledge. They may gain huge power from it, but at what cost?", "하지만... 몇몇 이들은 잃어버린 지식을 탐구하거나... 가끔은 너무 멀리 나가고 맙니다. 강력한 힘을 얻을 수 있겠지만, 어떤 대가를 치르게 될까요?", "_t")
 t("Writhing One", "뒤틀린 자", "birth descriptor name")
-t("Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "뒤틀린 자들은 우리가 #{italic}#공포체#{normal}# 라고 불리는 것들이 아지랑이의 시대부터 내려오는 고대의 지식과 힘에 대한 열쇠를 쥐고있다는 걸 알고, 그 힘과 지식에 접근하기 위해 어떤 짓이든 할 준비가 되어있습니다.", "_t")
+t("Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "뒤틀린 자들은 우리가 #{italic}#공포체#{normal}# 라고 불리는 것들이 아지랑이의 시대부터 내려오는 고대의 지식과 힘에 대한 열쇠를 쥐고 있다는 걸 알고, 그 힘과 지식에 접근하기 위해 어떤 짓이든 할 준비가 되어있습니다.", "_t")
 t("In their lust for power they somehow lost a part of themselves, turning more and more into the horrors they study.", "그들의 힘에 대한 집착 속에서, 그들은 자신의 몸 일부를 잃어버리고, 그들이 연구하는 공포체로 서서히 변해갑니다.", "_t")
 t("Most of them forgo an entire arm to turn it into a deadly tentacle.", "대부분의 뒤틀린 자들은 무시무시한 촉수를 갖기 위해, 자신의 팔 한쪽 전체를 희생시킵니다.", "_t")
 t("Some are even known to never leave their sanctuary without their own worm that walks friend.", "어떤 이들은 걸어다니는 벌레떼의 동행이 없이는 그들의 성소를 절대 벗어나지 않는다고도 알려져 있습니다.", "_t")
@@ -106,7 +106,7 @@ t("Special", "특별", "birth facial category")
 t("Krog", "크로그", "birth descriptor name")
 t("Once an abomination, now a weapon.", "한때는 흉물에 지나지 않았지만, 지금은 무기입니다.", "_t")
 t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한때 오우거였으나, 그 천성이 근본적으로 달라져 버렸습니다. 지구랏 추종자들은 룬을 신체에서 벗겨버리는 대신, 자연적인 주입물과 용의 피의 혼합물로 그들을 죽음에서 구했습니다. 크로그는 반마법에 완전히 헌신적이며, 그 외의 것들은 그렇게 중요하게 여기지 않습니다.", "_t")
-t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "크로그는 적들에게 기절/혼절을 유발하는 #GOLD#야생의 분노#WHITE# 기술을 갖고있습니다.", "_t")
+t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "크로그는 적들에게 기절/혼절을 유발하는 #GOLD#야생의 분노#WHITE# 기술을 갖고 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * -2 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 마법, +2 의지, +0 교활", "_t")
@@ -548,7 +548,7 @@ t("This strange cell can somehow connect to Eyal itself.", "이 이상한 세포
 t("acidic digestor", "산성 소화 세포", "entity name")
 t("You look like nutriments.", "당신은 영양분이 뛰어나 보이네요.", "_t")
 t("protosentient globula", "원시 지능 구형 세포", "entity name")
-t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "거대한 원형질 구형 세포로, 당신은 이 세포가 자각을 갖고있음을 느낄 수 있습니다. 또 매우 배고프다는 것도 느낄 수 있네요.", "_t")
+t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "거대한 원형질 구형 세포로, 당신은 이 세포가 자각을 갖고 있음을 느낄 수 있습니다. 또 매우 배고프다는 것도 느낄 수 있네요.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/corrupted_blobs.lua"
@@ -567,7 +567,7 @@ t("This strange cell can somehow connect to Eyal itself.", "이 이상한 세포
 t("corrupted acidic digestor", "타락한 산성 소화 세포", "entity name")
 t("You look like nutriments.", "당신은 영양분이 뛰어나 보이네요.", "_t")
 t("corrupted protosentient globula", "타락한 원시 지능 구형 세포", "entity name")
-t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "거대한 원형질 구형 세포로, 당신은 이 세포가 자각을 갖고있음을 느낄 수 있습니다. 또 매우 배고프다는 것도 느낄 수 있네요.", "_t")
+t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "거대한 원형질 구형 세포로, 당신은 이 세포가 자각을 갖고 있음을 느낄 수 있습니다. 또 매우 배고프다는 것도 느낄 수 있네요.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror-special.lua"
@@ -668,7 +668,7 @@ section "tome-cults/data/general/objects/world-artifacts.lua"
 
 t("Spinal Cage", "등뼈 감옥", "entity name")
 t("gross mass of spinal matter", "척추로 이루어진 커다란 덩어리", "_t")
-t("A gross mass of spinal matter hastily assembled into armour.", "척추로 이루어진 커다란 덩어리가 조잡한 갑옷의 형태를 띄고있습니다.", "_t")
+t("A gross mass of spinal matter hastily assembled into armour.", "척추로 이루어진 커다란 덩어리가 조잡한 갑옷의 형태를 띄고 있습니다.", "_t")
 t("Infused Cerebrum", "주입된 대뇌", "entity name")
 t("a disgusting pile of brain-matter", "역겨운 두뇌 무더기", "_t")
 t("This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "이 #{italic}#모자#{normal}#는 반쯤 썩은 두뇌 물질로 만들어진 것 같습니다. 정말 머리에 쓰실겁니까? 정말로요?", "_t")
@@ -722,7 +722,7 @@ Read now for a fate worse than death inside awaits.
 읽어라. 죽음보다 더 극심한 운명이 기다린다.
 ]], "_t")
 t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
-t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한 번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 대가로 치뤄야할까요?", "_t")
+t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고 있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한 번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 대가로 치뤄야할까요?", "_t")
 t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 때, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '선생님' 으로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
 t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이 일은 일어나지 않았다.", "_t")
 t("Hithre", "하이트르", "_t")
@@ -796,7 +796,7 @@ Despite this however, the citizenry continued to burn alive the enemies of natur
 This stake of wood appears to one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], [[황혼의 시대, 마법폭발 이후 나르골 왕국에서의 반마법 활동이 급격하게 증가했습니다. 시민들은 마법의 힘을 다루는 이들에 맞서, 산 채로 말뚝에 꽂고 화형을 집행 했습니다. 가해자들은 즉시 치안관들이 처형하고, 그 머리를 말뚝에 박아 나르골 왕국의 수도 도처에 설치했습니다.
 하지만, 이럼에도 불구하고, 시민들은 계속 자연의 적들을 산 채로 불태웠습니다. 권력자들은 죽은 가해자들의 머리가 죽고 나서도 민중을 선동했음을 모릅니다.
 
-이 나무 말뚝은 처형한 머리가 꽂혀있었을 것 같습니다. 말뚝은 꽂혀있던 머리의 의지를 일부 흡수해, 들고있노라면 지구르의 전언이 머릿속에서 울려퍼집니다.]], "_t")
+이 나무 말뚝은 처형한 머리가 꽂혀있었을 것 같습니다. 말뚝은 꽂혀있던 머리의 의지를 일부 흡수해, 들고 있노라면 지구르의 전언이 머릿속에서 울려퍼집니다.]], "_t")
 t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "반경 10 칸 내의 모든 비 마법 사용자들을 마법을 사용하는 동료들에게 강제로 적대하게 합니다. 이 효과는 6 턴 동안 지속되며, 확률은 정신력에 비례합니다.", "tformat")
 t("Worm Nest", "구더기 둥지", "entity name")
 t("disgusting robe", "역겨운 로브", "_t")
@@ -804,7 +804,7 @@ t("This unusually thick robe constantly wriggles and squirms. Small worms someti
 t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#구더기들이 당신의 변이된 피부에 쉽게 파고듭니다.", "logPlayer")
 t("Light of Revelation", "계시의 빛", "entity name")
 t("disturbing lantern", "방해하는 랜턴", "_t")
-t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "이 \"랜턴\" 은 유리 비슷한 물체가 그저 빛을 내고있습니다. 얼마나 밝게 빛나던 간에, 이 빛은 당신을 심각하게 방해합니다. 빛은 모든 것을 밝히고, 일깨워, 보지 않아야 할 것들 마저 비춰줍니다. 마음 한 켠에서는 이 랜턴을 버려버리고 싶어하지만 다른 한 구석에서는 이 랜턴이 밝혀줄, 이 세상의 것이 아닌 진실을 알고싶다는 생각이 듭니다.", "_t")
+t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "이 \"랜턴\" 은 유리 비슷한 물체가 그저 빛을 내고 있습니다. 얼마나 밝게 빛나던 간에, 이 빛은 당신을 심각하게 방해합니다. 빛은 모든 것을 밝히고, 일깨워, 보지 않아야 할 것들 마저 비춰줍니다. 마음 한 켠에서는 이 랜턴을 버려버리고 싶어하지만 다른 한 구석에서는 이 랜턴이 밝혀줄, 이 세상의 것이 아닌 진실을 알고싶다는 생각이 듭니다.", "_t")
 t("Sometimes reveals the hidden truths you'd rather not see.", "가끔 착용자가 보지 못했던 숨겨진 진실을 밝혀줍니다.", "_t")
 t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#계시의 빛이 %s 비춰, 진실된 본성인 %s 나타나게했다!", "say", nil, {"를","가"})
 t("Glowing Core", "빛나는 핵", "entity name")
@@ -1097,7 +1097,7 @@ As the healer finished writing he handed the paper to me "The shalore and thalor
 
 처음엔 그들에게 복수하기 위해서 여기에 왔으나, 지금 나는 이런 상태에 빠진 사람들을 보고나서도 그럴 수 있을까 의문에 빠졌다. 이 샬로렌들은 망가질 대로 망가졌다. 이 행위의 주모자들은 에이알에 잔악무도한 짓을 저질렀으나, 내가 여기서 본 자들은 혹독한 대가를 치루고 있는 것 같았다. 내 안의 깊은 분노를 여전히 남아있었 수 있었으나, 저지른 행위에 대가를 받는 그들의 모습은 어느 정도 만족스러운 처벌이었다. 내가 샬로레들에게 느꼈던 적대감은 이때 거의 다 누그러졌다. 그들은 저지른 범죄에 따른 대가를 치루고 있었다.
 
-우리가 데리고 왔던 피난민들은 도시의 중앙으로 인도되었다. 그곳에는 임시로 설치된 천막이 늘어서 있었다. 어떤 이들은 슬픔에 잠겨 있엇고, 어떤 이들은 제정신을 붙잡으려 노력했다. 우리가 데려온 피난민들을 모두 광장으로 유도한 뒤, 하얀 로브를 입은 샬로레가 다가왔다. 난 그가 로브 아래로 주입물을 가지고 있는 것을 알아챘다. 드디어 주입물을 가지고 다닐 정도로 상식적인 샬로레를 만났다고 생각했다. 그는 우리들 중에 부상을 입은 자가 있냐고 물어보았고, 순찰자들의 대장은 고개를 저었다.
+우리가 데리고 왔던 피난민들은 도시의 중앙으로 인도되었다. 그곳에는 임시로 설치된 천막이 늘어서 있었다. 어떤 이들은 슬픔에 잠겨 있었고, 어떤 이들은 제정신을 붙잡으려 노력했다. 우리가 데려온 피난민들을 모두 광장으로 유도한 뒤, 하얀 로브를 입은 샬로레가 다가왔다. 난 그가 로브 아래로 주입물을 가지고 있는 것을 알아챘다. 드디어 주입물을 가지고 다닐 정도로 상식적인 샬로레를 만났다고 생각했다. 그는 우리들 중에 부상을 입은 자가 있냐고 물어보았고, 순찰자들의 대장은 고개를 저었다.
 
 미덥지 못 하다는 듯이 그 치유사는 몇 번이나 되물었다. 그 문답 끝에 샬로레 대장은 나를 가리켰고, 치유사는 빠르게 나를 훑어보았다. 잠시 동안 몇 번 눈을 껌뻑인 뒤, 치유사는 정찰병이 나를 보았을 때처럼 어리벙벙한 표정을 지었다. "그래요. 난 탈로레에요." 난 진지한 목소리로 말했다. "음, 아, 그렇군." 치유사는 더듬거리며 대답했다. 치유사가 이내 정신을 가다듬자 정찰병이 치유사의 귀에 대고 속삭였다. 치유사는 놀라운 기색을 띠며 눈썹을 치켜올렸고, 이내 "알았네"라고 말하는 듯한 입 모양을 볼 수 있었다. "아아, 탈로레여, 따라와주시게."
 
@@ -2950,7 +2950,7 @@ section "tome-cults/data/talents/demented/friend-of-the-worm.lua"
 t("Worm that Walks Link", "걸어다니는 벌레떼와의 연결", "talent name")
 t("Link to the summoner.", "소환자와의 연결.", "_t")
 t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucus-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
-Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[이 썩어가는 로브는 당장이라도 터질 것 같습니다. 이 끔찍한 존재가 움직일 때마다 부풀어오른 벌레 떼들이 몸 여기저기서 쏟아저 나옵니다. 2 개의 팔 같은, 점액질로 끈적이는 구더기로 이루어진 팔이 담즙이 흘러나오는 전투 도끼의 손잡이 부분을 꽉 쥐고있습니다.
+Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[이 썩어가는 로브는 당장이라도 터질 것 같습니다. 이 끔찍한 존재가 움직일 때마다 부풀어오른 벌레 떼들이 몸 여기저기서 쏟아저 나옵니다. 2 개의 팔 같은, 점액질로 끈적이는 구더기로 이루어진 팔이 담즙이 흘러나오는 전투 도끼의 손잡이 부분을 꽉 쥐고 있습니다.
 무기를 휘두르자, 고름이 뚝뚝 흘러내립니다. 작은 방울 하나 하나가 땅바닥에 닿기 전까지 꿈틀거림을 멈추지 않습니다.]], "_t")
 t("Your worm that walks is out of sight; you cannot establish direct control.", "시야 내에 걸어다니는 벌레떼가 있다. 직접적인 조종이 불가능하다you cannot establish direct control.", "logPlayer")
 t("Worm that Walks", "걸어다니는 벌레떼", "talent name")
@@ -3353,7 +3353,7 @@ t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer
 t("You can't clone summons!", "소환물을 대상으로 할 수 없습니다!", "logPlayer")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
 t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#%s의 시간 분신#LAST#", "tformat")
-t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "대상과 흡사한 뒤틀린 상으로, 모든 가능성이 존재하는 미래의 너울거리는 흐릿한 형체를 갖고있다.", "_t")
+t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "대상과 흡사한 뒤틀린 상으로, 모든 가능성이 존재하는 미래의 너울거리는 흐릿한 형체를 갖고 있다.", "_t")
 t("Summon", "소환", "_t")
 t([[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
 While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[대상은 시간의 흐름에서 %d 턴 동안 지워지고, 능력 사용과 세계와의 상호작용을 완전 봉쇄합니다. 받는 모든 피해는 %d%% 줄어들고, 가하는 모든 피해도 %d%% 줄어듭니다.
@@ -3669,7 +3669,7 @@ t("#Target# links closer to his ally!", "#Target#의 광기 공유가 시작된�
 t("#Target# no longer seems to be in sync with his ally.", "#Target#의 광기 공유가 끊겨버렸다.", "_t")
 t("Terrible Sight", "무시무시한 광경", "_t")
 t("Terrified of the horror duo attacking them reducing defense and spell save by %d.", "공포의 2인조에게 두려움을 느낌 : 회피도, 주문 내성 -%d.", "tformat")
-t("#Target# is terrified of the horrors attacking him!", "#Target2# 공포의 존재들에 의해 두려움에 떨고있다!", "_t")
+t("#Target# is terrified of the horrors attacking him!", "#Target2# 공포의 존재들에 의해 두려움에 떨고 있다!", "_t")
 t("#Target# is no longer afraid of the horrors attacking him.", "#Target2# 두려움을 떨쳐냈다.", "_t")
 t("chaos", "혼돈", "effect subtype")
 t("damage", "피해", "effect subtype")
@@ -3869,7 +3869,7 @@ t("Space restabilizes around you.", "당신 주변의 공간이 다시 안정화
 t("book", "책", "effect subtype")
 t("Forbidden Tome", "금지된 고서", "_t")
 t("Slowly transfered to a Forbidden Tome.", "금지된 고서로 느리게 이동됐다.", "_t")
-t("#Target# is entering a Forbidden Tome!", "#Target2# 금지된 고서 속으로 들어가고있다!", "_t")
+t("#Target# is entering a Forbidden Tome!", "#Target2# 금지된 고서 속으로 들어가고 있다!", "_t")
 t("#Target# enters a Forbidden Tome!", "#Target2# 금지된 고서 속으로 들어간다!", "_t")
 t("Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "금지된 고서 속: \"집, 끔찍한 집\" %d 턴 지속.", "tformat")
 t("Forbidden Tome Cooldown", "금지된 고서 재사용 대기시간", "_t")
@@ -3922,8 +3922,8 @@ t("#Target# stops bleeding.", "#Target#의 피가 멎었다.", "_t")
 t("will", "의지", "effect subtype")
 t("domination", "지배", "effect subtype")
 t("Persistant Will", "끈질긴 의지", "_t")
-t("Convinced that arcane users are filth to be destroyed.", "주문 사용자들이 처단되어야 할 쓰레기들이라는 확신을 갖고있음.", "tformat")
-t("#PURPLE##Target# is convinced arcane users must be destroyed.", "#PURPLE##Target2# 주문 사용자들은 멸절 되어야한다는 확신을 갖고있다.", "_t")
+t("Convinced that arcane users are filth to be destroyed.", "주문 사용자들이 처단되어야 할 쓰레기들이라는 확신을 갖고 있음.", "tformat")
+t("#PURPLE##Target# is convinced arcane users must be destroyed.", "#PURPLE##Target2# 주문 사용자들은 멸절 되어야한다는 확신을 갖고 있다.", "_t")
 t("#Target# looks more kindly toward arcane users.", "#Target2# 주문 사용자들에게 더 호의적으로 변했다.", "_t")
 t("Twisted Evolution: Speed", "뒤틀린 진화: 속도", "_t")
 t("The target is evolved increasing its global speed by %d%%.", "진화함 : 전체 속도 +%d%%.", "tformat")

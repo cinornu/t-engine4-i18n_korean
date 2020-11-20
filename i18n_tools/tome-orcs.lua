@@ -150,7 +150,7 @@ t("Demonic Horns 6", "악마의 뿔 6", "_t")
 t("Demonic Horns 7", "악마의 뿔 7", "_t")
 t("Demonic Horns 8", "악마의 뿔 8", "_t")
 t("Bikini / Mankini", "비키니 / 맨키니", "_t")
-t("They possess the #GOLD#Orcish Fury#WHITE# which allows them to increase all their damage for a few turns.", "오크는 몇 턴동안 피해량을 증가시키는 #GOLD#오크의 분노#WHITE# 기술을 갖고있습니다.", "_t")
+t("They possess the #GOLD#Orcish Fury#WHITE# which allows them to increase all their damage for a few turns.", "오크는 몇 턴동안 피해량을 증가시키는 #GOLD#오크의 분노#WHITE# 기술을 갖고 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +2 힘, +1 민첩, +1 체격", "_t")
 t("#LIGHT_BLUE# * -1 Magic, +1 Willpower, +1 Cunning", "#LIGHT_BLUE# * -1 마법, +1 의지, +1 교활", "_t")
@@ -202,7 +202,7 @@ t("Whitehoof", "화이트후프", "birth descriptor name")
 t("A clan of minotaurs turned to necromancy when faced with imminent destruction.", "미노타우르스 부족이 임박한 파멸을 목전에 두자, 강령술로 돌아섰습니다.", "_t")
 t("Whitehooves are resilient and magic imbued undead, hardened by their trials and made stronger by their undeath.", "화이트후프는 강인하고, 마법의 힘이 깃든 언데드입니다. 시련에 의해 단련되고, 불생으로 인해 더욱 강해졌습니다.", "_t")
 t("They now seek to help their orc allies, in hope they will help them back.", "이제 화이트후프는 동맹인 오크들을 위해 활동하고 있습니다. 오크들이 보답하리라고 확신한 체.", "_t")
-t("They have access to #GOLD#special talents#WHITE# and a wide range of undead abilities:", "화이트후프는 #GOLD#특별한 기술#WHITE#과 폭넓은 언데드 능력을 갖고있습니다.", "_t")
+t("They have access to #GOLD#special talents#WHITE# and a wide range of undead abilities:", "화이트후프는 #GOLD#특별한 기술#WHITE#과 폭넓은 언데드 능력을 갖고 있습니다.", "_t")
 t("- silence resistance", "- 침묵 저항", "_t")
 t("- bleeding immunity", "- 출혈 면역", "_t")
 t("- fear immunity", "- 공포 면역", "_t")
@@ -386,7 +386,7 @@ As the secondary charges go off, the ongoing pyrotechnic display acts as a celeb
 ------------------------------------------------
 section "tome-orcs/data/chats/john-surrender.lua"
 
-t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
+t("You cannot summon; you are suppressed!", "방해를 받고 있어 사용할 수 없다!", "logPlayer")
 t("HATE!", "증오!!", "_t")
 t("PAIN!", "고통!!", "_t")
 t("REGRET!", "후회!!", "_t")
@@ -1516,7 +1516,7 @@ t("S.H. Spear", "S.H. 스피어", "entity name")
 t("engraved steamgun", "각인된 총기", "_t")
 t([[This gun is engraved with a strange material which focuses mental powers.
 It seems like your mind will operate even faster with this equipped.]], [[이 총에는 정신력을 집중시키는 기이한 물질로 이루어진 각인이 새겨져있습니다.
-이 총을 들고있노라면 사고 회전이 빨라지는 것 같습니다.]], "_t")
+이 총을 들고 있노라면 사고 회전이 빨라지는 것 같습니다.]], "_t")
 t("Dreamweaver", "꿈 재단사", "entity name")
 t("shimmering steamgun", "빛으로 일렁이는 총", "_t")
 t("This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "이건 총이 아니라, 총이라는 개념 자체입니다. 만약 잃어버린다면, 기억하기에는 쉬울겁니다.", "_t")
@@ -1563,7 +1563,7 @@ They all just say 'make it really flashy'.
 t("Burst apart, dealing physical damage equal to 25% of the original damage in a ball of radius 1.", "폭발이 일어나, 원래 피해의 25% 에 해당하는 피해를 반경 1 칸 내에 가합니다.", "_t")
 t("The Long-Arm", "긴-총", "entity name")
 t("long barreled gun", "긴 총열의 총", "_t")
-t("This gun has an absurdly long barrel. You wonder for whom it may have been designed.", "이 총은 말도 안되게 긴 총열을 갖고있습니다. 과연 누구를 위해서 제작 되었을까요?", "_t")
+t("This gun has an absurdly long barrel. You wonder for whom it may have been designed.", "이 총은 말도 안되게 긴 총열을 갖고 있습니다. 과연 누구를 위해서 제작 되었을까요?", "_t")
 t("Focus your aim on a target, marking them for death - reducing their ranged defense by %d and their resistances by %d%%", "대상을 조준하는데 정신을 집중하고, 죽음의 낙인을 찍습니다 - 원거리 회피도를 %d , 모든 저항을 %d%% 감소시킵니다", "tformat")
 t("#Source# takes aim at #target# using %s!", "#Source1# #target3# %s 조준했다!", "logCombat", nil, {"으로"})
 t("Annihilator", "섬멸자", "entity name")
@@ -1668,7 +1668,7 @@ t("This parchment contains some lore.", "이야기를 담고 있는 양피지.",
 t("time-warped paper scrap", "시간이 뒤틀린 종이 조각", "_t")
 t("It came a long way away!", "저건 저 멀리에서 왔어!", "_t")
 t("Screw that!", "좀 닥쳐!", "_t")
-t("Oh, for the love of...  You're way too busy to deal with this nonsense.  You rev up Mirrorazor again, re-syncing it with the Mirror Universe, and toss the note back in.  A different note flies out the other side, miraculously not torn to shreds by the massive difference in planetary rotations.", "오...  당신은 이 말도 안되는 걸 붙잡고있느라 너무 바쁩니다.  거울칼날의 회전 속도를 높이고, 거울 세계와 재동기화 한 후, 종이 쪽지를 넣었는데, 저쪽에서 전혀 다른 쪽지가 튀어나왔습니다! 행성과 우주의 회전 자체가 다른데 기적적으로 찢어지지 않고 나왔다구요!", "_t")
+t("Oh, for the love of...  You're way too busy to deal with this nonsense.  You rev up Mirrorazor again, re-syncing it with the Mirror Universe, and toss the note back in.  A different note flies out the other side, miraculously not torn to shreds by the massive difference in planetary rotations.", "오...  당신은 이 말도 안되는 걸 붙잡고 있느라 너무 바쁩니다.  거울칼날의 회전 속도를 높이고, 거울 세계와 재동기화 한 후, 종이 쪽지를 넣었는데, 저쪽에서 전혀 다른 쪽지가 튀어나왔습니다! 행성과 우주의 회전 자체가 다른데 기적적으로 찢어지지 않고 나왔다구요!", "_t")
 t("#LIGHT_BLUE#Mirrorazor shudders as a note falls out from a different timeline!", "#LIGHT_BLUE#다른 시간선에서 쪽지가 떨어지자 거울칼날은 크게 흔들린다!", "saySimple")
 t("5 turns after use, mirror yourself across the map (centered around the location you were standing when activated).", "사용하고 5 턴 뒤, 이동한 거리와 대칭이 되는 위치로 이동합니다. (이 기술을 사용할 당시의 위치를 기준점으로 합니다).", "_t")
 t("Razorlock", "양날 톱", "entity name")
@@ -1701,7 +1701,7 @@ t("The Lumberator", "벌목기", "entity name")
 t("vined coated steamsaw", "덩굴덮힌 증기톱", "_t")
 t("\"Spread the wonders of nature even quicker than ever with this seed injecting steamsaw! Your former enemies will be freshly grown trees before you even know it!\"", "\"이 씨앗이 주입된 증기톱과 함께라면 자연의 경의를 그 어떤 방식보다 빠르게 퍼뜨릴 수 있습니다! 적들은 당신이 눈치 채기도 전에 한 그루의 나무가 되어 쑥쑥 자랄걸요?!\"", "_t")
 t("summon a treant (5 turn cooldown)", "나무 정령을 소환합니다 (재사용 대기시간 5 턴)", "_t")
-t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
+t("You cannot summon; you are suppressed!", "방해를 받고 있어 사용할 수 없다!", "logPlayer")
 t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("treant", "나무 정령", "_t")
 t("A very strong near-sentient tree, which has become hostile to other living things.", "매우 강력하고, 막 지각을 개화한 나무 생명체로, 다른 생명체에게 적대적으로 변해버렸습니다.", "_t")
@@ -2576,7 +2576,7 @@ t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpo
 
 .emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], [[.다이것 던셨하탁부 고라달 해구연 도서해대 에들족동 ,고셨되 게알 로으적략대 해대 에들족종 른다 은않 지하숙익 게에들족동 는고시보어읽 을들품작 던썼 가내 서께장원의 스로시카 ,도게좋운 말정  .다하능가불 상실사 은것 는하용이 을문원차 는하통 로으륙대 의쪽동 이들민시 한범평 ,상이 닌아 이인상 한유부 로도정 을있 수 일먹 을물뇌 테한들병비경 면니아 ,나거이연혈 의하폐 왕국 락톨 ,나거이민시 의벽장 의양태 .다었니아 건 던웠쉬 게 는하구연 서해 고다었있 이까가  !니다었있 어숨 에곳 운까가 게렇이 이명문 한보진 나게렇이
 
-.다있 도수 킬시발폭 나거내어뿜 쭉 를기증 된축압 ,만지하 긴이경광 운러스황당 나꽤 .다있 도수 열 게크 더 나거리버 아닫 예아 을들것그 은들인거 기증 ,만지없 도저마그 나거오나어새 나도정 개안 은옅 야해껏기 고않 지이보 의거 는에시상평 은들구기증 .다있 수 할어제 도정 느어 을들것그 은들인거 기증  .다있 수 낼어뿜 를기증 된축압 은들구기증 그 ,고있 려뚫 이들구기증 과멍구 은많 히수무 는에부피 의들그 .다기증 ,는있 어붙 도에름이 ,히연당 은징특 는띄 에눈 장가 .(다이적조대 록도랍놀 는과들인거 의라카이다 한인강 로도정 을없 수 을믿) 다있 이면 진부다 짝살 은격체 .만지하 긴크 로도정 mc003 - mc042 가키 .다았닮 과족간인 록도랍놀 는새김생 의족인거 기증
+.다있 도수 킬시발폭 나거내어뿜 쭉 를기증 된축압 ,만지하 긴이경광 운러스황당 나꽤 .다있 도수 열 게크 더 나거리버 아닫 예아 을들것그 은들인거 기증 ,만지없 도저마그 나거오나어새 나도정 개안 은옅 야해껏기 고않 지이보 의거 는에시상평 은들구기증 .다있 수 할어제 도정 느어 을들것그 은들인거 기증  .다있 수 낼어뿜 를기증 된축압 은들구기증 그 ,고 있 려뚫 이들구기증 과멍구 은많 히수무 는에부피 의들그 .다기증 ,는있 어붙 도에름이 ,히연당 은징특 는띄 에눈 장가 .(다이적조대 록도랍놀 는과들인거 의라카이다 한인강 로도정 을없 수 을믿) 다있 이면 진부다 짝살 은격체 .만지하 긴크 로도정 mc003 - mc042 가키 .다았닮 과족간인 록도랍놀 는새김생 의족인거 기증
 
 ?까닐아 이것 던었있 수 할룩이 게쉽손 을명문 된전발 로도고 나게렇그 에분덕 력관직 런이 .다있 수 할 게럽스연자 럼처것 는쉬숨 을정조 한밀세 그 은들인거 기증 고리그 .다하요필 이정조 한밀세 면려하용이 를과효 그 ,만지테 날타나 가과효 은같똑 도서해통 를로화 는이끓 을물 는로으상론이  .다한 고다냈어들만 을들치장 한잡복 점점 로으식 런그 ,고내 해안고 을것 른다 터부로으것그 가가군누 또 ,고했안고 를치장 는우치 돌 한용이 을력압 의기증 가가군누 터부로으것그 .다한 고다였기라루호 한순단 는초시 의 "학공 기증" 이 는로말 들그 ,만지렸버 어되실소 해인 로들앙재 러여 외 그 와재화 은잦 은들헌문 옛 의들인거  .다냈 해안고 을법 는루다 을들치장 속금 한양다 여하용이 를기증 이 은들그 ,도게하발기
 
@@ -3962,7 +3962,7 @@ t("Mirror Self", "자기 반사", "talent name")
 t("Mirror Image (%s)", "거울의 상 (%s)", "tformat")
 t("A cloned image of you.", "당신의 복제된 상이다.", "_t")
 t("Mirror Self", "자기 반사", "_t")
-t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "거울의 상을 %d 턴 동안 소환합니다. 거울의 상은 시전자가 사용하는 모든 주문을 시전할 수 있습니다. 거울의 상이 가하는 피해량은 %d%% 로 변동되며, 거울의 상은 %d%% 변동된 생명력을 갖고있습니다. 추가로, 거울의 상이 가하는 모든 빛 속성 피해는 암흑 속성 피해가 되고, 모든 암흑 속성 피해는 빛 속성 피해가 됩니다.", "tformat")
+t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "거울의 상을 %d 턴 동안 소환합니다. 거울의 상은 시전자가 사용하는 모든 주문을 시전할 수 있습니다. 거울의 상이 가하는 피해량은 %d%% 로 변동되며, 거울의 상은 %d%% 변동된 생명력을 갖고 있습니다. 추가로, 거울의 상이 가하는 모든 빛 속성 피해는 암흑 속성 피해가 되고, 모든 암흑 속성 피해는 빛 속성 피해가 됩니다.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/sol.lua"
@@ -4038,7 +4038,7 @@ t("#CRIMSON#%s awakens!", "#CRIMSON#%s 깨어난다!", "saySimple", nil, {"가"}
 t("The Dead God slumbers. For now.", "죽은 신은 잠에 들었다. 지금으로써는.", "_t")
 t("Tentacle Spawn", "촉수 소환", "talent name")
 t("@Source@ spawns a tentacle near @target@.", "@Source1@ @target@ 근처에 촉수를 소환했다.", "_t")
-t("You cannot summon; you are suppressed!", "방해를 받고있어 사용할 수 없다!", "logPlayer")
+t("You cannot summon; you are suppressed!", "방해를 받고 있어 사용할 수 없다!", "logPlayer")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("#ORCHID#%s summons a %s...", "#ORCHID#%s %s 소환한다...", "logCombat", nil, {"는","를"})
 t("#ORCHID#%s summons a %s...", "#ORCHID#%s %s 소환한다...", "saySimple", nil, {"는","를"})
@@ -4288,7 +4288,7 @@ t([[You summon a galvanic rod at a location. Upon arrival the rod releases a sho
 		This spell works with Burning Wake.
 		This spell has 25%% chance to try to activate Hurricane, if used.
 		The damage will increase with your Spellpower.]], [[전열 막대를 해당 지역에 소환합니다. 전열 막대는 소환 즉시, 반경 %d 칸 내에 %0.2f 전열 피해를 (화염과 전기 피해) 모든 적에게 가합니다.
-		시전자는 3 개의 막대를 사용할 수 있으며, 각각의 전열 막대는 %d 턴의 재사용 대기시간을 갖고있습니다.
+		시전자는 3 개의 막대를 사용할 수 있으며, 각각의 전열 막대는 %d 턴의 재사용 대기시간을 갖고 있습니다.
 		이 주문은 타오르는 궤적의 효과를 받습니다.
 		태풍이 눈이 유지 중이라면, 이 주문은 25%% 확률로 태풍을 일으킵니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -5524,7 +5524,7 @@ t([[Place an electrically charged sentry device at a location.
 		Damage and penetration are inherited from the creator.]], [[전기를 방출하는 감시 장치를 대상 위치에 설치합니다.
 		매 턴, 파수병은 가까운 적에게 전류 화살을 쏘아냅니다.
 		전류 화살은 %0.2f 전기 피해를 가합니다.
-		파수병은 %d 내구도를 갖고있고, 10 턴 동안 지속됩니다.
+		파수병은 %d 내구도를 갖고 있고, 10 턴 동안 지속됩니다.
 		피해량, 내구도, 속성 저항, 방어력은 증기력에 비례하여 증가합니다.
 		시전자의 피해 증가량과 속성 저항 관통 효과를 적용받습니다.]], "tformat")
 t("Explosive Shell", "폭발 포탄", "talent name")
@@ -5613,7 +5613,7 @@ t([[You fire a special botanical shot with your steamgun(s) at a target for 100%
 		Moss damage scales with Steampower.]], [[총기로 특수 포자 포탄을 발사해 대상에게 100%% 무기 피해를 자연 속성으로 가합니다.
 		포탄은 반경 %d 칸 내에 양분의 이끼 포자를 %d 턴 동안 뿜어냅니다.
 		매 턴 이끼는 %0.2f 자연 피해를 범위 내의 적에게 가합니다.
-		이 이끼는 거머리같은 특성을 갖고있기 때문에, 가한 피해의 %d%% 만큼 시전자의 생명력을 회복합니다.
+		이 이끼는 거머리같은 특성을 갖고 있기 때문에, 가한 피해의 %d%% 만큼 시전자의 생명력을 회복합니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.
 		이끼 피해량은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Corrosive Shell", "부식 포탄", "talent name")
@@ -5859,7 +5859,7 @@ At raw talent level 4 you can use Medic turrets, which emit a healing mist that 
 This talent also increases the Dexterity, Constitution and Cunning of all Turrets by %d.
 
 All turrets gain bonus armor equal to 1/2 your level, are immune to all detrimental effects, and inherit your increased damage, resistance penetration, Steampower, Physical Power, and Accuracy.
-The stat bonus as well as the damage and healing dealt by Flame and Medic Turrets will increase with your Steampower.]], [[전투에서 시전자를 도울, 고정된 구조물인 포탑을 설치할 수 있게 됩니다. 포탑은 10 턴 동안 유지되며, 20 턴의 재사용 대기시간을 갖고있고, 포탑 설치 후 다른 포탑을 설치하는 것은 5 턴의 재사용 대기시간이 적용됩니다.
+The stat bonus as well as the damage and healing dealt by Flame and Medic Turrets will increase with your Steampower.]], [[전투에서 시전자를 도울, 고정된 구조물인 포탑을 설치할 수 있게 됩니다. 포탑은 10 턴 동안 유지되며, 20 턴의 재사용 대기시간을 갖고 있고, 포탑 설치 후 다른 포탑을 설치하는 것은 5 턴의 재사용 대기시간이 적용됩니다.
 이 기술에 기술 점수를 투자할 시, 새로운 포탑의 도면을 배우게 됩니다.
 
 이 기술에 기술 점수를 1 점 투자했을 때, 근처의 무작위한 적에게 %d%% 총기 피해를 가하는 총기 포탑을 배웁니다. 총기 포탑의 사격은 아군에게 영향을 주지 않습니다.
@@ -5913,7 +5913,7 @@ t("guardian turret", "수호 포탑", "_t")
 t("An advanced turret equipped with dual steamguns.", "이중 총열이 장착된 첨단 포탑.", "_t")
 t([[Deploy a defensive emplacement around you, summoning 2 guardian turrets in adjacent tiles for %d turns. Guardian turrets redirect %d%% of all damage taken by other adjacent allies (other than fellow guardian turrets) to themselves, and each is armed with a powerful turret capable of firing piercing bullets.
 			Guardian Turrets gain %0.2f ranks in Steamgun Mastery based on your Hunker Down talent level.]], [[주변에 전선을 만들어, 인근에 %d 턴 동안 유지되는 수호 포탑을 2 개 생성합니다. 수호 포탑은 인접한 아군이 받는 피해의 %d%% 를 대신 받습니다. (다른 수호 포탑이 받는 피해는 대신 받지 않습니다) 포탑은 강력한 관통탄으로 무장되어 있습니다.
-			수호 포탑은 %0.2f 레벨의 총기 숙련을 갖고있고, 이는 전선 지원 기술 레벨에 비례하여 증가합니다.]], "tformat")
+			수호 포탑은 %0.2f 레벨의 총기 숙련을 갖고 있고, 이는 전선 지원 기술 레벨에 비례하여 증가합니다.]], "tformat")
 t("Gauss Cannon", "가우스 캐논", "talent name")
 t("Fire your twin-linked gauss cannons, dealing 100%% steamgun damage as lightning in a piercing beam that bypasses all armor. This does not harm friendly targets.", "2 연장 가우스 캐넌을 발사해, 100%% 총기 피해를 전기 속성으로 줍니다. 이 공격은 방어력을 무시하며, 발사 궤도 내의 모든 적을 관통합니다. 이 공격은 아군에게 영향을 주지 않습니다.", "tformat")
 
@@ -6693,7 +6693,7 @@ t("Attach powerful steam-powered pistons to your gloves, giving you a tight grip
 t("Spring Grapple", "용수철 바이스", "_t")
 t("Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "장갑에 용수철 장치를 장착해, 적을 인접한 위치로 끌고와 빠르게 공격하고, 속박합니다.", "_t")
 t("Steam Powered Armour", "증기력 갑옷", "_t")
-t("Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "작은 증기 기관과 최첨단 자동 기계의 기적으로, 증기력 갑옷을 만들 수 있게 되었습니다. 판금 갑옷으로, 이동을 도와주고 특이한 방어 기제를 갖고있습니다.", "_t")
+t("Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "작은 증기 기관과 최첨단 자동 기계의 기적으로, 증기력 갑옷을 만들 수 있게 되었습니다. 판금 갑옷으로, 이동을 도와주고 특이한 방어 기제를 갖고 있습니다.", "_t")
 t("lightning coil", "전기 코일", "_t")
 t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
