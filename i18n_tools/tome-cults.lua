@@ -2365,7 +2365,7 @@ I have #{italic}#"found"#{normal}# a strange glyph sequence that to me looks lik
 %s
 
 
-Good luck on your future #{italic}#acquisitions of properties#{normal}#.]], [[[친애하는 %s,
+Good luck on your future #{italic}#acquisitions of properties#{normal}#.]], [[친애하는 %s,
 
 우리가 만났던 날로부터 먼 길을 걸어 왔군. 네가 자랑스럽다.
 내가 이상한 문양의 배열을 #{italic}#"찾아"#{normal}# 냈다. 내 눈엔 무슨 암호처럼 보인다만. 네가 이게 무슨 의미인지 알아낼 수 있다고 믿고 있고, 바라건대 우리의 목적을 위해 잘 써먹길 바란다.

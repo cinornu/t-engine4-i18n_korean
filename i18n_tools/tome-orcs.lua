@@ -1641,7 +1641,7 @@ t("worn leather hat", "해진 가죽 모자", "_t")
 t("This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "이 모자는 오래전에 이름이 잊혀진, 극동의 숲에서 나는 물질들로 만들어졌습니다. 최초의 총잡이들이 갖고 있었다고 전해집니다.", "_t")
 t("Steamcatcher", "증기 수집기", "entity name")
 t("pipe coated leather hat", "도관으로 둘러싸인 가죽 모자", "_t")
-t("There's an old saying that most of your body heat escapes through your head. It's not true of body heat, but strangely, is actually true of steam.", "어떤 늙은 이가 말하길, 인채 대부분의 열기는 머리를 통해 빠저나간다고 합니다. 이젠 체온같은게 아니라, 증기지만요.", "_t")
+t("There's an old saying that most of your body heat escapes through your head. It's not true of body heat, but strangely, is actually true of steam.", "어떤 늙은 이가 말하길, 인채 대부분의 열기는 머리를 통해 빠져나간다고 합니다. 이젠 체온같은게 아니라, 증기지만요.", "_t")
 t("On taking fire damage: Gain 5% of the damage as steam.", "화염 피해를 받을 때 : 피해량의 5% 에 해당하는 수치가 증기로 회복됩니다.", "_t")
 t("Shoes of Moving Quickly", "빠른 이동의 신발", "entity name")
 t("rocket powered boots", "로켓으로 작동하는 장화", "_t")
@@ -2713,7 +2713,7 @@ I intend to trust the only advice our ancestors gave us in the Official Historie
 
 우리가 열등한 종족들과 처음으로 접촉했을 때 작성되었던 공식 기록을 기억하고 계십니까?  그 기록에선 그 종족들을 "즐겁고 쾌활한 무리이며, 우리 종족의 친구이자 동반자" 라고 표현했습니다.  돌이켜보면 우린 참 순진했습니다...  하지만 우리의 선조들께서 그 종족들의 잔혹한 본질을 목도하셨을 때, 그분들께선 그들의 행위들에 대해 낱낱이 기록하셨습니다.  그러나, "오크들을 믿지 말라" 고 확실하게 이야기하진 않으셨습니다.  그분들께선 그들을 멀리해야 할 해충이라고도, 뿌리 뽑아야 할 재앙이라고도, 열등한 종족들이 우리가 이룩한 것들을 이용하게 되면 일어나는 잔혹한 비극의 산 증인들이라고도 이야기하지 않으셨습니다.  그분들께선 그저 배운 것을 기록했을 뿐이고, 그리하여 미래 세대들이 선조들의 기록과 자신들이 보아왔던 것을 비교하고 스스로 판단하여, 결론을 내릴 수 있도록 하셨던 겁니다. 우리 조부모님들께선, 그 기록들과 자신들의 불행한 경험을 비교하여 그 결론에 도달하셨습니다.  그 당시 만연했던 괴로움과 배신감에도 불구하고, 그 열등한 종족들의 야만스러움 때문에 격노부터 슬픔에 이르는 온갖 의견들이 난무했음에도 불구하고, 당시 기록 업무를 맡던 평의원들께선 그 누구도 외부의 사견들에 굴복하지 않으셨습니다.  그분들께서 그렇게 해 주셨다면 지금 우리가 처한 상황이 조금 더 나았을지도 모르고, 우리도 그분들의 실수를 반복하지 않았을 것이지만, 그럼에도 불구하고 그분들께선 공정하셨습니다.
 
-좀 더 먼 옛날로 돌아가 보면, 그분들께선 지금은 멀어진 친척인 스터모스 부족과의 관계에 대해서도 이야기하셨습니다.  비록 기록들에선 불편한 관계였다고 묘사되어 있지만, 그들의 천박한 행동들에 대해서는 담담하게 사실적으로 기록되어 있고 그들과 교류하면서 뛰어난 야금학을 비롯하여 가치 있는 것들을 많이 얻을 수 있었다는 언급들도 존재합니다.  물론 그들은 엄청난 화염 폭풍을 피해 마즈'에이알의 산맥으로 피난했기 때문에 지금 이야기하는 주제와는 상관이 없겠지만, 그래도 만약에 우리가 그들과 어떻게든 거래를 하는 관계였다면, 우린 그들이 어떻게 행동하는지 - 최소한 어떻게 행동[i]했었는지[/i]에 대한 신뢰할 수 있는 자료로써, 우리의 공식 기록들에 기댈 수 있었을 것이라는 건 변함이 없습니다.
+좀 더 먼 옛날로 돌아가 보면, 그분들께선 지금은 멀어진 친척인 스터모스 부족과의 관계에 대해서도 이야기하셨습니다.  비록 기록들에선 불편한 관계였다고 묘사되어 있지만, 그들의 천박한 행동들에 대해서는 담담하게 사실적으로 기록되어 있고 그들과 교류하면서 뛰어난 야금학 기술들을 비롯하여 가치 있는 것들을 많이 얻을 수 있었다는 언급들도 존재합니다.  물론 그들은 엄청난 화염 폭풍을 피해 마즈'에이알의 산맥으로 피난했기 때문에 지금 이야기하는 주제와는 상관이 없겠지만, 그래도 만약에 우리가 그들과 어떻게든 거래를 하는 관계였다면, 우린 그들이 어떻게 행동하는지 - 최소한 어떻게 행동[i]했었는지[/i]에 대한 신뢰할 수 있는 자료로써, 우리의 공식 기록들에 기댈 수 있었을 것이라는 건 변함이 없습니다.
 
 예시는 또 있습니다. 우리의 공식 기록들은 사사로운 감정을 배제하고 공정함을 유지하고 있고, 어떤 결정을 내릴 때 신뢰할 수 있는 사료로써 남아 있습니다.  우리의 선조들께선 기록에 영향을 끼칠 수 있는 주관은 결코 허용하지 않으셨습니다.  격렬한 정치적 운동이 일어났을 때에도 그 기록들의 완전함은 훼손되지 않았습니다.  이 기록들의 그 어떤 부분도 가볍게 폄하될 순 없습니다. "그 당시의 여당이 주도한 주관적이고 불공평한 서술이다" 라든가 "그 당시에 유행하던 시시한 사상운동의 영향을 받은 횡설수설일 뿐이다" 같은 주장은 통하지 않는다는 말입니다.
 
@@ -6508,7 +6508,7 @@ t("Overclock", "오버클럭", "_t")
 t("The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "전하 보호막에 둘러싸여있음 : 흡수량 %d/%d / 효과가 유지되는 동안, 반경 7 칸 내의 무작위한 적에게 전기 화살을 날려 %0.2f 전기피해를 가함.", "tformat")
 t("#target# surges with power!", "#target2# 힘이 쇄도했다!", "_t")
 t("+Overclock", "+오버클럭", "_t")
-t("#target# looks less powerful.", "#target#의 힘이 빠저나간다.", "_t")
+t("#target# looks less powerful.", "#target#의 힘이 빠져나간다.", "_t")
 t("-Overclock", "-오버클럭", "_t")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d 흡수됨)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "피해로 인해 보호막이 부서졌다!", "logPlayer")
@@ -7669,7 +7669,7 @@ t("Help!", "도와줘요!", "_t")
 t("steam giant commoner", "증기 거인 시민", "entity name")
 t("Pockets of gold jingle around the waist of this giant.", "이 거인의 허리춤에는 짤랑거리는 금화 주머니가 있습니다.", "_t")
 t("You won't get my gold!", "내 돈은 못 줘!", "_t")
-t("steam giant scribe", "증기 거인 서기", "entity name")
+t("steam giant scribe", "증기 거인 글쟁이", "entity name")
 t("This well-dressed giant is is covered in ink smudges and looks somewhat alarmed.", "잘 차려입은 거인으로, 잉크 얼룩이 여기저기 남아 있고 약간 불안해 보입니다.", "_t")
 t("Stay back, I'm warning you!", "물러서, 경고한다!", "_t")
 t("High Guard Talosis", "경비대장 탈로시스", "entity name")
