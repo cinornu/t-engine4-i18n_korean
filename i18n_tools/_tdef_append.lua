@@ -37,8 +37,8 @@ t("Temple of Creation", "창조의 사원", nil)
 t("Thalore", "탈로레", nil)
 t("The Way", "한길", nil)
 t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
-The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s 년 %s %s 일 입니다.
-현재 시간은 %02d시 %02d분입니다.]], nil)
+The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s 년 %s의 달 %s 일 입니다.
+현재 시간은 %02d시 %02d분입니다.]], "nil", {3,2,1,4,5})
 t("Undead", "언데드", nil)
 t("Ungrol of Last Hope", "마지막 희망의 웅그롤", nil)
 t("Vargh Republic", "바르그 공화국", nil)
