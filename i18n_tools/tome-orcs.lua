@@ -8104,6 +8104,7 @@ t("Crit. chance: #00ff00#%s", "치명타 확률: #00ff00#%s", "tformat")
 t("Steam speed : #00ff00#%s", "증기 속도 : #00ff00#%s", "tformat")
 t("Powered by ", "작동 방식: ", "_t")
 t("steamtech", "증기 공학", "_t")
+t("%+d #LAST#(%+d eff.)", "%+d #LAST#(실질 %+d)", "_t")
 t("Steampower: ", "증기력: ", "_t")
 t("Steam crit. chance: ", "증기 치명타 확률: ", "_t")
 t("Steamtech Speed: ", "증기 공학 속도: ", "_t")
@@ -8135,8 +8136,6 @@ t("No thanks.", "사양하지.", "_t")
 t("Oh I am sorry, it seems we could not make the item your require.", "오, 미안하구만, 네 기대에 걸맞는 물건을 못 만든 모양이야.", "_t")
 t("Oh, let's try something else then.", "그래? 그럼 다른 물건을 부탁해 볼까.", "_t")
 t("Oh well, maybe later then.", "그래? 그럼 나중에.", "_t")
-t("%+d #LAST#(%+d eff.)", "%+d #LAST#(실질 %+d)", "_t")
-
 
 ------------------------------------------------
 section "tome-orcs/overload/mod/class/interface/PartyTinker.lua"
