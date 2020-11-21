@@ -1338,19 +1338,19 @@ t("absurdly large gun", "말도 안되게 거대한 총기", "_t")
 t("\"I never really liked that village anyway.\" - Charlta, Mad Inventor", "\"나는 항상 저 마을이 맘에 안들었어.\" -샤를타, 미친 발명가", "_t")
 t("Boom.", "쾅.", "_t")
 t("QUIVER", "탄환", "entity on slot")
-t("%s explosive shell", "%s 폭발 포탄", "tformat")
-t("%s flare shell", "%s 조명 포탄", "tformat")
-t("%s incendiary shell", "%s 발화 포탄", "tformat")
-t("%s solid shell", "%s 고중량 포탄", "tformat")
-t("%s impaler shell", "%s 관통 포탄", "tformat")
-t("%s saw shell", "%s 톱날 포탄", "tformat")
-t("%s hook shell", "%s 갈고리 포탄", "tformat")
-t("%s magnetic shell", "%s 자석 포탄", "tformat")
-t("%s voltaic shell", "%s 정전기 포탄", "tformat")
-t("%s antimagic shell", "%s 반마법 포탄", "tformat")
-t("%s botanical shell", "%s 포자 포탄", "tformat")
-t("%s corrosive shell", "%s 부식 포탄", "tformat")
-t("%s toxic shell", "%s 맹독 포탄", "tformat")
+t("%s explosive shell", "%s 폭발 탄환", "tformat")
+t("%s flare shell", "%s 조명 탄환", "tformat")
+t("%s incendiary shell", "%s 발화 탄환", "tformat")
+t("%s solid shell", "%s 고중량 탄환", "tformat")
+t("%s impaler shell", "%s 관통 탄환", "tformat")
+t("%s saw shell", "%s 톱날 탄환", "tformat")
+t("%s hook shell", "%s 갈고리 탄환", "tformat")
+t("%s magnetic shell", "%s 자성 탄환", "tformat")
+t("%s voltaic shell", "%s 정전기 탄환", "tformat")
+t("%s antimagic shell", "%s 반마법 탄환", "tformat")
+t("%s botanical shell", "%s 포자 탄환", "tformat")
+t("%s corrosive shell", "%s 부식 탄환", "tformat")
+t("%s toxic shell", "%s 맹독 탄환", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/mechanical.lua"
@@ -5527,110 +5527,110 @@ t([[Place an electrically charged sentry device at a location.
 		파수병은 %d 내구도를 갖고 있고, 10 턴 동안 지속됩니다.
 		피해량, 내구도, 속성 저항, 방어력은 증기력에 비례하여 증가합니다.
 		시전자의 피해 증가량과 속성 저항 관통 효과를 적용받습니다.]], "tformat")
-t("Explosive Shell", "폭발 포탄", "talent name")
+t("Explosive Shell", "폭발 탄환", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
 t([[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which does %0.2f physical damage.
-		This talent does not use ammo as it is the ammo.]], [[특수 포탄을 총기 사거리 내에 발사합니다.
-		포탄이 적에게 도달하면, 기본 총기 피해와 함께 반경 %d 칸의 폭발이 일어나, %0.2f 물리 피해를 줍니다.
+		This talent does not use ammo as it is the ammo.]], [[특수 탄환을 총기 사거리 내에 발사합니다.
+		탄환이 적에게 도달하면, 기본 총기 피해와 함께 반경 %d 칸의 폭발이 일어나, %0.2f 물리 피해를 줍니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.]], "tformat")
-t("Flare Shell", "조명 포탄", "talent name")
+t("Flare Shell", "조명 탄환", "talent name")
 t([[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which lights up the area and blinds for %d turns.
-		This talent does not use ammo as it is the ammo.]], [[특수 포탄을 총기 사거리 내에 발사합니다.
-		포탄이 적에게 도달하면, 기본 총기 피해와 함께 반경 %d 칸의 폭발이 일어나고, 빛이 뿜어져 나와 해당 지역을 밝히고  %d 턴 동안 실명시킵니다.
+		This talent does not use ammo as it is the ammo.]], [[특수 탄환을 총기 사거리 내에 발사합니다.
+		탄환이 적에게 도달하면, 기본 총기 피해와 함께 반경 %d 칸의 폭발이 일어나고, 빛이 뿜어져 나와 해당 지역을 밝히고  %d 턴 동안 실명시킵니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.]], "tformat")
-t("Incendiary Shell", "발화 포탄", "talent name")
+t("Incendiary Shell", "발화 탄환", "talent name")
 t("clusterbomb", "폭탄 뭉치", "_t")
 t([[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and releases %d explosive charges in a radius of 2.
 		These charges will shortly explode for %0.2f fire damage in a radius of 1.
-		This talent does not use ammo as it is the ammo.]], [[특수 포탄을 총기 사거리 내에 발사합니다.
-		포탄이 적에게 도달하면, 기본 총기 피해와 함께 %d 개의 폭발물을 반경 2 칸 내에 날려보냅니다.
+		This talent does not use ammo as it is the ammo.]], [[특수 탄환을 총기 사거리 내에 발사합니다.
+		탄환이 적에게 도달하면, 기본 총기 피해와 함께 %d 개의 폭발물을 반경 2 칸 내에 날려보냅니다.
 		이 폭발물들은 곧 폭발해 %0.2f 화염 피해를 반경 1 칸 내에 입힙니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.]], "tformat")
-t("Solid Shell", "고중량 포탄", "talent name")
+t("Solid Shell", "고중량 탄환", "talent name")
 t("%s is knocked back!", "%s 밀려났다!", "logSeen", nil, {"가"})
 t("%s resists the knockback!", "%s 꿈쩍도 하지 않았다!", "logSeen", nil, {"는"})
 t([[You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The weight of the shot will knock the target back %d tiles.
-		This talent does not use ammo as it is the ammo.]], [[총기로 특수 포탄을 쏘아 %d%% 물리 무기 피해를 대상에게 가합니다.
-		포탄의 무게로 인해 대상은 %d 칸 밀려납니다.
+		This talent does not use ammo as it is the ammo.]], [[총기로 특수 탄환을 쏘아 %d%% 물리 무기 피해를 대상에게 가합니다.
+		탄환의 무게로 인해 대상은 %d 칸 밀려납니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.]], "tformat")
-t("Impaler Shell", "관통 포탄", "talent name")
+t("Impaler Shell", "관통 탄환", "talent name")
 t([[You fire a special stake shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The weight of the shot will knock the target back 2 tiles and they will be pinned for %d turns.
-		This talent does not use ammo as it is the ammo.]], [[특수한 말뚝 모양 포탄을 발사해, %d%% 물리 무기 피해를 가합니다.
-		포탄의 무게로 인해 대상은 2 칸 밀려나고, %d 턴 동안 속박됩니다.
+		This talent does not use ammo as it is the ammo.]], [[특수한 말뚝 모양 탄환을 발사해, %d%% 물리 무기 피해를 가합니다.
+		탄환의 무게로 인해 대상은 2 칸 밀려나고, %d 턴 동안 속박됩니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.]], "tformat")
-t("Saw Shell", "톱날 포탄", "talent name")
+t("Saw Shell", "톱날 탄환", "talent name")
 t([[You fire a special steamsaw shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The steamsaw will cut into the target, doing %d%% physical weapon damage over 5 turns.
-		This talent does not use ammo as it is the ammo.]], [[총기로 특수 증기톱 포탄을 발사해, %d%% 물리 무기 피해를 가합니다.
+		This talent does not use ammo as it is the ammo.]], [[총기로 특수 증기톱 탄환을 발사해, %d%% 물리 무기 피해를 가합니다.
 		톱날은 적의 몸 속에 파고들어, %d%% 물리 무기 피해를 5 턴에 걸쳐 가합니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.]], "tformat")
-t("Hook Shell", "갈고리 포탄", "talent name")
+t("Hook Shell", "갈고리 탄환", "talent name")
 t("%s resists the pull!", "%s 갈고리에 저항했다!", "logSeen", nil, {"은"})
 t([[You fire a special hook shot with your steamgun(s) at a target creature or location.
 		If you target a creature, they are pulled up to %d tiles towards you.
 		If you target an empty tile, you are pulled up to %d tiles towards it.
-		This talent does not use ammo as it is the ammo.]], [[총기로 특수 갈고리 포탄을 대상이나 지정  지역에 발사합니다.
+		This talent does not use ammo as it is the ammo.]], [[총기로 특수 갈고리 탄환을 대상이나 지정  지역에 발사합니다.
 		적이나 아군 등에게 발사할 경우, 시전자 쪽으로 %d 칸 끌고옵니다.
 		비어있는 장소에 발사할 경우, 해당 방향으로 최대 %d 칸 끌려갑니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.]], "tformat")
-t("Magnetic Shell", "자석 포탄", "talent name")
+t("Magnetic Shell", "자성 탄환", "talent name")
 t([[You fire a special magnetic shot with your steamgun(s) at a target for normal weapon damage.
 		The shot will magnetise the target for %d turns. This lowers their defense and increases fatigue by %d.
 		This talent does not use ammo as it is the ammo.
-		Effect strength scales with Steampower.]], [[총기로 특수 자석 포탄을 발사해, 일반 무기 피해를 가합니다.
-		포탄은 대상을 %d 턴 동안 자기장으로 방해해, 방어도와 피로도를 각각 %d 씩 감소시키고, 증가시킵니다.
+		Effect strength scales with Steampower.]], [[총기로 특수 자성 탄환을 발사해, 일반 무기 피해를 가합니다.
+		탄환은 대상을 %d 턴 동안 자기장으로 방해해, 방어도와 피로도를 각각 %d 씩 감소시키고, 증가시킵니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.
 		효과 위력은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Voltaic Shell", "정전기 포탄", "talent name")
+t("Voltaic Shell", "정전기 탄환", "talent name")
 t([[You fire a special voltaic shot with your steamgun(s) at a target for 100%% weapon damage as lightning.
 		The shot will release powerful electrical currents at up to %d nearby enemies. 
 		Each bolt does %0.2f lightning damage.
 		This talent does not use ammo as it is the ammo.
-		Bolt damage scales with Steampower.]], [[총기로 특수 정전기 포탄을 발사해, 100%% 무기 피해를 전기 속성으로 가합니다.
-		포탄은 근처의 %d 체의 적에게 강력한 전류를 흘려보냅니다. 
+		Bolt damage scales with Steampower.]], [[총기로 특수 정전기 탄환을 발사해, 100%% 무기 피해를 전기 속성으로 가합니다.
+		탄환은 근처의 %d 체의 적에게 강력한 전류를 흘려보냅니다. 
 		각 전류 줄기는 %0.2f 전기 피해를 가합니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.
 		전류 피해량은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Antimagic Shell", "반마법 포탄", "talent name")
+t("Antimagic Shell", "반마법 탄환", "talent name")
 t([[You fire a special antimagic shot with your steamgun(s) at a target for 100%% normal weapon damage.
 		The shot will release antimagic sap on the target, doing %0.2f arcane resource burn damage.
 		This talent does not use ammo as it is the ammo.
-		Sap damage scales with Steampower.]], [[총기로 특수 반마법 포탄을 발사해 대상에게 100%% 일반 총기 피해를 가합니다.
-		포탄은 대상에게 반마법의 힘을 풀어놓아, %0.2f 마법 원천력 소각 피해를 줍니다.
+		Sap damage scales with Steampower.]], [[총기로 특수 반마법 탄환을 발사해 대상에게 100%% 일반 총기 피해를 가합니다.
+		탄환은 대상에게 반마법의 힘을 풀어놓아, %0.2f 마법 원천력 소각 피해를 줍니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.
 		반마법 피해량은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Botanical Shell", "포자 포탄", "talent name")
+t("Botanical Shell", "포자 탄환", "talent name")
 t([[You fire a special botanical shot with your steamgun(s) at a target for 100%% weapon damage as nature.
 		The shot will release spores which grow into Nourishing Moss in a radius of %d for %d turns.
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.
 		This moss has vampiric properties and heals the user for %d%% of the damage done.
 		This talent does not use ammo as it is the ammo.
-		Moss damage scales with Steampower.]], [[총기로 특수 포자 포탄을 발사해 대상에게 100%% 무기 피해를 자연 속성으로 가합니다.
-		포탄은 반경 %d 칸 내에 양분의 이끼 포자를 %d 턴 동안 뿜어냅니다.
+		Moss damage scales with Steampower.]], [[총기로 특수 포자 탄환을 발사해 대상에게 100%% 무기 피해를 자연 속성으로 가합니다.
+		탄환은 반경 %d 칸 내에 양분의 이끼 포자를 %d 턴 동안 뿜어냅니다.
 		매 턴 이끼는 %0.2f 자연 피해를 범위 내의 적에게 가합니다.
 		이 이끼는 거머리같은 특성을 갖고 있기 때문에, 가한 피해의 %d%% 만큼 시전자의 생명력을 회복합니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.
 		이끼 피해량은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Corrosive Shell", "부식 포탄", "talent name")
+t("Corrosive Shell", "부식 탄환", "talent name")
 t([[You fire a special corrosive shot with your steamgun(s) at a target for %d%% weapon damage as acid.
 		The acid released by the shot will also corrode the target, reducing its accuracy, defense and armour by %d.
 		This talent does not use ammo as it is the ammo.
-		Corrosion strength scales with Steampower.]], [[총기로 특수 부식 포탄을 발사해 대상에게 %d%% 무기 피해를 산성으로 가합니다.
-		포탄에서 흘러나온 산성 물질은 대상의 장비를 부식시켜, 정확도, 회피도, 방어력을 %d 감소시킵니다.
+		Corrosion strength scales with Steampower.]], [[총기로 특수 부식 탄환을 발사해 대상에게 %d%% 무기 피해를 산성으로 가합니다.
+		탄환에서 흘러나온 산성 물질은 대상의 장비를 부식시켜, 정확도, 회피도, 방어력을 %d 감소시킵니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.
 		부식 위력은 증기력에 비례하여 증가합니다.]], "tformat")
-t("Toxic Shell", "맹독 포탄", "talent name")
+t("Toxic Shell", "맹독 탄환", "talent name")
 t("%s resists the toxin!", "%s 맹독에 저항했다!", "logSeen", nil, {"는"})
 t([[You fire a special toxic shot with your steamgun(s) at a target for 100%% weapon damage as blight.
 		The shot will release heavy metals into the target, inflicting %0.2f blight damage per turn and reducing their global speed by %d%% for %d turns.
 		This talent does not use ammo as it is the ammo.
-		Toxin strength scales with Steampower.]], [[총기로 특수 맹독 포탄을 발사해 대상에게 100%% 무기 피해를 황폐 속성으로 입힙니다.
-		포탄은 중금속 조각들을 대상에게 방출하여, 매 턴 %0.2f 황폐 피해를 주고, 대상의 전체 속도를 %d 턴 동안 %d%%   감소시킵니다.
+		Toxin strength scales with Steampower.]], [[총기로 특수 맹독 탄환을 발사해 대상에게 100%% 무기 피해를 황폐 속성으로 입힙니다.
+		탄환은 중금속 조각들을 대상에게 방출하여, 매 턴 %0.2f 황폐 피해를 주고, 대상의 전체 속도를 %d 턴 동안 %d%%   감소시킵니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.
 		맹독의 위력은 증기력에 비례하여 증가합니다.]], "tformat", {1,3,2})
 t("Moss Tread", "이끼 장화", "talent name")
@@ -6656,28 +6656,28 @@ t("fire opal", "화염 오팔", "_t")
 t("pearl", "진주", "_t")
 t("diamond", "다이아몬드", "_t")
 t("bloodstone", "혈석", "_t")
-t("Explosive Shell", "폭발 포탄", "_t")
-t("A special shot that explodes on impact.", "충격을 받으면 폭발하는 특수 포탄입니다.", "_t")
-t("Flare Shell", "조명 포탄", "_t")
-t("A special shot that releases intense light on impact.", "충격을 받으면 빛을 뿜어내는 특수 포탄입니다.", "_t")
-t("Solid Shell", "고중량 포탄", "_t")
-t("A special shot that packs a punch.", "둔탁하고 단단한 특수 포탄입니다.", "_t")
-t("Saw Shell", "톱날 포탄", "_t")
-t("A special shot that slices 'n' dices.", "대상을 'n' 개의 주사위로 갈아버리는 특수 포탄입니다.", "_t")
-t("Magnetic Shell", "자석 포탄", "_t")
-t("A special shot that magnetises on impact.", "충격을 받으면 자기장을 생성하는 특수 포탄입니다.", "_t")
-t("Antimagic Shell", "반마법 포탄", "_t")
-t("A special shot filled with antimagic sap.", "반마법의 힘이 채워진 특수 포탄입니다.", "_t")
-t("Corrosive Shell", "부식 포탄", "_t")
-t("A special shot that releases acid on impact.", "충격을 받으면 산성이 터저나오는 특수 포탄입니다.", "_t")
-t("Hook Shell", "갈고리 포탄", "_t")
-t("A special shot moving yourself, or others quickly.", "자신이나, 다른 이들을 빠르게 움직이게하는 특수 포탄입니다.", "_t")
-t("Voltaic Shell", "정전기 포탄", "_t")
-t("A special shot that releases electricity on impact.", "충격을 받으면 전류를 흘러보내는 특수 포탄입니다.", "_t")
-t("Botanical Shell", "포자 포탄", "_t")
-t("A special shot grows moss on impact.", "충격을 받으면 이끼가 자라나는 특수 포탄입니다.", "_t")
-t("Toxic Shell", "맹독 포탄", "_t")
-t("A special shot that contains a deadly toxin.", "죽음의 맹독이 담긴 특수 포탄입니다.", "_t")
+t("Explosive Shell", "폭발 탄환", "_t")
+t("A special shot that explodes on impact.", "충격을 받으면 폭발하는 특수 탄환입니다.", "_t")
+t("Flare Shell", "조명 탄환", "_t")
+t("A special shot that releases intense light on impact.", "충격을 받으면 빛을 뿜어내는 특수 탄환입니다.", "_t")
+t("Solid Shell", "고중량 탄환", "_t")
+t("A special shot that packs a punch.", "둔탁하고 단단한 특수 탄환입니다.", "_t")
+t("Saw Shell", "톱날 탄환", "_t")
+t("A special shot that slices 'n' dices.", "대상을 'n' 개의 주사위로 갈아버리는 특수 탄환입니다.", "_t")
+t("Magnetic Shell", "자성 탄환", "_t")
+t("A special shot that magnetises on impact.", "충격을 받으면 자기장을 생성하는 특수 탄환입니다.", "_t")
+t("Antimagic Shell", "반마법 탄환", "_t")
+t("A special shot filled with antimagic sap.", "반마법의 힘이 채워진 특수 탄환입니다.", "_t")
+t("Corrosive Shell", "부식 탄환", "_t")
+t("A special shot that releases acid on impact.", "충격을 받으면 산성이 터저나오는 특수 탄환입니다.", "_t")
+t("Hook Shell", "갈고리 탄환", "_t")
+t("A special shot moving yourself, or others quickly.", "자신이나, 다른 이들을 빠르게 움직이게하는 특수 탄환입니다.", "_t")
+t("Voltaic Shell", "정전기 탄환", "_t")
+t("A special shot that releases electricity on impact.", "충격을 받으면 전류를 흘러보내는 특수 탄환입니다.", "_t")
+t("Botanical Shell", "포자 탄환", "_t")
+t("A special shot grows moss on impact.", "충격을 받으면 이끼가 자라나는 특수 탄환입니다.", "_t")
+t("Toxic Shell", "맹독 탄환", "_t")
+t("A special shot that contains a deadly toxin.", "죽음의 맹독이 담긴 특수 탄환입니다.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/mechanical.lua"
@@ -6720,7 +6720,7 @@ t("quartz", "석영", "_t")
 t("ruby", "루비", "_t")
 t("diamond", "다이아몬드", "_t")
 t("Toxic Cannister Launcher", "독가스 탄 발사기", "_t")
-t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "이 포탄 발사리고 친구를 놀래켜 보세요! 손만 살짝 흔들어도 맹독 구름이 뿜어저 나옵니다! #{italic}#죽여주는군요!#{normal}#", "_t")
+t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "이 포탄 발사기로 친구를 놀래켜 보세요! 손만 살짝 흔들어도 맹독 구름이 뿜어저 나옵니다! #{italic}#죽여주는군요!#{normal}#", "_t")
 t("Viral Needlegun", "바이러스 바늘총", "_t")
 t("Blight is not dirty to a Tinker, it is useful! By combining blighted materials with a simple mechanical gun, you can fire a low damaging attack that infects foes with terrible diseases.", "바이러스는 발명가에게는 더러운 녀석이 아니죠, 꽤 쓸만합니다! 황폐 속성을 가진 물질들과 간단한 기계 총, 여러분은 적들에게 끔찍한 질병을 퍼뜨리는 조그마한 바늘 공격을 발사할 수 있습니다.", "_t")
 t("Razor Edge", "면도날", "_t")
