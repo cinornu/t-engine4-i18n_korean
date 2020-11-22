@@ -2497,7 +2497,7 @@ And regarding the First Duathedlen - quit your murmuring right now.  I've seen h
 t("bootlegger's complaint letter", "주류 밀수꾼의 불평이 적힌 편지", "_t")
 t([[Look, I know the whole point of this market was to make a place for ANY sort of open trade, without the Allied Kingdoms' scryers breathing down our necks, and I know it's not exactly feasible to set up another portal off the continent...  but do you have any idea how bad it is for business to have the slavers using this with us?  Nobody's going to want to have a nice mug of unregulated-strength ale or pick up a shiny new stolen necklace when, not ten yards away, some helpless person is being led away in chains and wailing in misery.
 
-I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], [[이거 봐, 나도 이 시장의 모토는 왕국연합의 점쟁이들이 우릴 감시하지 않도록 '그 어떤' 상품이라도 자유롭게 팔 수 있는 곳이라는 걸 알고 있고, 이 대륙에다가 새 차원문을 만드는 건 어림도 없다는 것도 알고 있어...  하지만 노예상들도 이 시장을 이용하고 있어서, 우리한테 큰 손해가 나고 있다는 거 알아?  코 앞에서 쇠사슬에 묶인 불쌍한 노예가 울면서 끌려가고 있는데, 손님들이 빛나는 장물 목걸이를 집어들겠어? 주류법 기준보다 훨씬 센 술이 목으로 넘어가겠냐고.
+I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], [[이거 봐, 나도 이 시장의 모토는 왕국연합의 점쟁이들이 우릴 감시하지 못하니 '그 어떤' 상품이라도 자유롭게 팔 수 있는 곳이라는 걸 알고 있고, 이 대륙에다가 새 차원문을 만드는 건 어림도 없다는 것도 알고 있어...  하지만 노예상들도 이 시장을 이용하고 있어서, 우리한테 큰 손해가 나고 있다는 거 알아?  코 앞에서 쇠사슬에 묶인 불쌍한 노예가 울면서 끌려가고 있는데, 손님들이 빛나는 장물 목걸이를 집어들겠어? 주류법 기준보다 훨씬 센 술이 목으로 넘어가겠냐고.
 
 진짜로, 노예상들을 내치면 다른 상품들 쪽 손님이 10배는 더 불어날 거야.  당신네 보스가 노예 사업 수익을 얼마나 떼 주고 있었는지는 몰라도, 그것보다 훨씬 더 많이 벌게 될 걸 - 그리고 당신네가 노예를 일손으로 쓰고 있었으면, 이득 본 걸로 골렘을 사면 되는 거야!  이러면 우리 둘 다 좋은 거라고.]], "_t")
 t("wand-smuggler's apology letter", "마법봉 밀수꾼의 사과 편지", "_t")
@@ -2638,7 +2638,7 @@ We will miss their company, their ancient wisdom, and their cautious kindness.  
 
 우리에겐 숨을 돌릴 시간도 없었다. 우레와 같은 소리가 머리 위에서 울렸고, 눈부신 빛이 하늘에서 내려와 우릴 밝혀 주고 주변 땅은 어둡게 만들었다.  그것으로부터 기묘한 골렘 같은 것이 떨어졌는데, 룬이나 바위가 아닌 용수철과 톱니로 만들어진 것이었다.  그것은 지직거리면서, 그럼에도 생명체의 목소리로 대체 무슨 일이 일어난 건지, 또 왜 한밤중에 이런 소란을 일으켰는지 물었다. 우린 목숨을 건지기 위해 본토에서 도망쳐 왔으며, 그저 살만한 곳을 찾고 있을 뿐이라고 대답했다.  그러자 머리 위의 윙윙거리는 비행선에서 갈고리가 내려와 골렘 같은 것을 끌어올렸고, 아무 말도 없이 떠나 버렸다.
 
-우린 산줄기 반대편에서 집을 짓기 적당한 곳을 발견했다. 언덕들에 둘러싸여 방어가 용이하고, 그럼에도 땅은 기름져 자급자족이 가능한 곳이었다.  우리가 그곳에 살게 되자, 비행선들과 골렘들이 우릴 점점 더 자주 찾아오게 되었다. 그들은 처음에는 그저 지켜볼 뿐이었지만, 차츰 이야기도 나누게 되었고 우리가 집을 짓는 것을 도와주기도 하였다.  얼마 지나지 않아, 마침내 그 골렘들의 주인 중 하나가 우리와 개인적으로 이야기를 하러 왔었다. 그는 자신을 증기 거인 아트모스 부족의 일원이라 소개하였다. 우리가 오랫동안 그저 옛 전설에 불과하다고 여겼던, 그 증기 거인족이었던 것이다.  별난 이들이었지만 그들과 빠르게 친해지면서, 우린 그들을 존경하게 되었다.  현명하고 합리적이면서도 힘을 중요시 여기고, 너무 오만하지도, 너무 소심하지도 않고...  다소 경솔하고 괴팍한 면도 있었지만, 매우 오랫동안 산꼭대기에서 홀로 살았으니 그런 면이 없는 게 더 이상하다고 생각했다.  비슷하게, 그들도 우리를 난폭하지만 재능이 있는 자신들의 아이들처럼 생각하는 것 같았다. 그들은 우리에게 '증기압으로 작동하는 기계' 에 대해 가르치기 시작했고, 그 기술에 놀랍도록 빠르게 적응하고 발전하는 우릴 보며 감탄했다.  그들은 우리에게 방향과 지혜를 주었고, 우린 그들에게 새로운 원동력을 주었던 것이다. 우린 진정한 동료가 될 수도 있었을 것이다. 시간이 조금만 더 있었다면.
+우린 산줄기 반대편에서 집을 짓기 적당한 곳을 발견했다. 언덕들에 둘러싸여 방어가 용이하고, 그럼에도 땅은 기름져 자급자족이 가능한 곳이었다.  우리가 그곳에 살게 되자, 비행선들과 골렘들이 우릴 점점 더 자주 찾아오게 되었다. 그들은 처음에는 그저 지켜볼 뿐이었지만, 차츰 이야기도 나누게 되었고 우리가 집을 짓는 것을 도와주기도 하였다.  얼마 지나지 않아, 마침내 그 골렘들의 주인 중 하나가 우리와 개인적으로 이야기를 하러 왔었다. 그는 자신을 아트모스 부족의 일원이라 소개하였다. 우리가 오랫동안 그저 옛 전설에 불과하다고 여겼던, 그 증기 거인족이었던 것이다.  별난 이들이었지만 그들과 빠르게 친해지면서, 우린 그들을 존경하게 되었다.  현명하고 합리적이면서도 힘을 중요시 여기고, 너무 오만하지도, 너무 소심하지도 않고...  다소 경솔하고 괴팍한 면도 있었지만, 매우 오랫동안 산꼭대기에서 홀로 살았으니 그런 면이 없는 게 더 이상하다고 생각했다.  비슷하게, 그들도 우리를 난폭하지만 재능이 있는 자신들의 아이들처럼 생각하는 것 같았다. 그들은 우리에게 '증기압으로 작동하는 기계' 에 대해 가르치기 시작했고, 그 기술에 놀랍도록 빠르게 적응하고 발전하는 우릴 보며 감탄했다.  그들은 우리에게 방향과 지혜를 주었고, 우린 그들에게 새로운 원동력을 주었던 것이다. 우린 진정한 동료가 될 수도 있었을 것이다. 시간이 조금만 더 있었다면.
 
 좋은 일들은 모두 언젠가는 끝나 버리는 것 같다.  어느 날, 정찰병 하나가 어쩔 줄 몰라하며 우리의 캠프로 뛰어들어와, 오크 군대가 쪽배를 타고 클로크 반도 해안에 도착했고 적의를 드러내며 우리 쪽으로 돌격하고 있다고 전했다.  그날 밤에 그들이 원했던 것이, 위대한 설계자 크룩을 도망치게 만든 것이 도대체 무엇이었는지는 모르겠지만, 그들은 원하던 것을 얻어내겠노라고 작정한 것이었다.
 
@@ -2887,7 +2887,7 @@ TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and
 
 탄탈로스: "하려는 의지가 있다면, 팔라퀴, 길 또한 있는 법입니다.  레비아탄 호는 어떻게 되었습니까?  나샬, 혹시 짐작 가는 곳이 있--"
 
-나샬: "그건...  사태가 파국으로 치닫기 시작하자 카시로스가 훔쳐갔습니다.  되찾으려고 했었지만, 그는 그걸 써서 민간인들을 피난시키고 있습니다.  크룩 오크들에게 쏘아야 할 탄을 우리 민간인들에게 쏠 순 없는 노릇이잖습니까."
+나샬: "그건...  사태가 파국으로 치닫기 시작하자 카시로스가 훔쳐갔습니다.  되찾으려고 했었지만, 그는 그걸 써서 민간인들을 피난시키고 있습니다.  크룩 오크들에게 쏘아야 할 탄을 우리 민간인들에게 전부 쏠 순 없는 노릇이잖습니까."
 
 탄탈로스: "불쾌한 일이군요. 이 사태가 전부 정리되고 나면 그에게 반역죄를 물을 수 있을 겁니다.  펜도르, 그대에겐 사수들을 맡겼었는데, 그들은 좀 어떻습니까?"
 
@@ -3030,7 +3030,7 @@ Of course, a character like that can't simply be thrown away.  The story may be 
 
 그 이야기가 그 자신의 머릿속에만 있는 것인지, 아니면 샨드랄 성계에 영향을 미치는지는, 아무도 모른다. 하지만 언제나 그랬듯이, 에이돌론에겐 자신의 이야기에 등장할 영웅이 필요하다.  최근에는, 그것이 원했던 영웅이란 포식자 가르쿨 이후로 나타난 적이 없었던, 전장을 휘어잡는 자였다.  에이돌론은 몇 가지 후보들을 고려해 봤다. 그중 대부분은 실패작으로 여겨졌지만, 개중에는 몇 번 실수를 하더라도 용서할 수 있을 만한 유망주들이 있었고, 결국 마지막에는 단 하나만 남게 되었다.  그 주인공이 바로 <?=Lore.pocket_time_winner.himher?>였고, 그래서 수많은 시련들을 마주하게 되었다. 어떨 땐 손쉽게, 보통은 어렵사리, 가끔씩은 순전히 운에 기대서 헤쳐나갔고, 결국에는 최고봉의 꼭대기에 도착해 이제까지 마주했던 것들 중 가장 큰 위협으로부터 에이알을 구해냈다<? if Lore.pocket_time_winner.sacrifice then ?>. 주술사들의 장거리 차원문을 꺼뜨리기 위해 <?=Lore.pocket_time_winner.himher?> 자신을 희생함으로써 말이다<? end ?>.
 <? if not Lore.pocket_time_winner.sacrifice then ?>
-그러고 나선?  전장을 휘어잡는 자는, 전투에서 승리하고 나면 딱히 할 일이 없다.  <?=Lore.pocket_time_winner.HeShe?>는 더 강한 적들을 찾아 나설 수도 있겠지만, 결국 <?=Lore.pocket_time_winner.heshe?>가 찾아내게 되는 건 굳이 상대할 가치도 없는 놈이거나, 에이알의 시민들이나 좀 피해를 볼 만한 수준일 것이다. 그런 것들은 이야기에 아무런 도움이 되지 않는다.  에이돌론이 <?=Lore.pocket_time_winner.himher?>를 완전히 박살낼 수 있을 정도로 강한 적을 내려줄 수도 있겠지만, 뭔 놈의 결말이 그따위인가?  그래서 에이돌론은 그렇게 하는 대신에, 주인공의 역할이 끝난 뒤에는 <?=Lore.pocket_time_winner.heshe?>가 마음대로 살게 놔 두기로 했다...  무한의 던전으로 내려가서 피할 수 없는 파멸을 맞이하든지, 아타마쏜이나 리나니일같은 말도 안 되는 적들을 쓰러뜨리려 시도하든지, 아니면 그냥 은퇴해서 <?=Lore.pocket_time_winner.hisher?> 자신의 남은 인생을 쉐르'툴 요새의 주인으로 보내든지, 아무튼 <?=Lore.pocket_time_winner.heshe?>가 선택한 대로 살도록 내버려 두었다.  어떻게 되든 간에, 이야기는 끝이 났다. <?=Lore.pocket_time_winner.name?>의 여생에 뭔가 더 다룰 여지 같은 건 없었다.<? end ?>
+그러고 나선?  전장을 휘어잡는 자는, 전투에서 승리하고 나면 딱히 할 일이 없다.  <?=Lore.pocket_time_winner.HeShe?>는 더 강한 적들을 찾아 나설 수도 있겠지만, 결국 <?=Lore.pocket_time_winner.heshe?>가 찾아내게 되는 건 굳이 상대할 가치도 없는 놈이거나, 에이알의 시민들이나 좀 피해를 볼 만한 수준일 것이다. 그런 것들은 이야기에 아무런 도움이 되지 않는다.  에이돌론이 <?=Lore.pocket_time_winner.himher?>를 완전히 박살낼 수 있을 정도로 강한 적을 내려줄 수도 있겠지만, 뭔 놈의 결말이 그따위인가?  그래서 에이돌론은 그렇게 하는 대신에, 주인공의 역할이 끝난 뒤에는 <?=Lore.pocket_time_winner.heshe?>가 마음대로 살게 놔 두기로 했다...  무한의 던전으로 내려가서 피할 수 없는 파멸을 맞이하든지, 아타마쏜이나 리나니일같은 말도 안 되는 적들을 쓰러뜨리려 시도하든지, 아니면 그냥 은퇴해서 남은 인생을 쉐르'툴 요새의 주인으로 보내든지, 아무튼 <?=Lore.pocket_time_winner.heshe?>가 선택한 대로 살도록 내버려 두었다.  어떻게 되든 간에, 이야기는 끝이 났다. <?=Lore.pocket_time_winner.name?>의 여생에 뭔가 더 다룰 여지 같은 건 없었다.<? end ?>
 
 물론, 그런 등장인물을 그냥 내버릴 수는 없다.  이야기는 끝이 났지만, 그 이야기는 다시 이야기되고, 또다시, 또다시, 계속해서 이야기될 수는 있다. 그리고 그 이야기를 들을 때마다 사람들은 제각기 다른 인물상을 상상할 테니, 그 이야기를 듣는 사람들의 수만큼 수많은 마즈'에이알의 영웅들이 생겨나게 되는 것이다.  심지어 "작가" 자신도 마즈'에이알의 영웅을 위한 상황을 더 많이 떠올려내고, 항상 궁금해한다 - "이 최고의 전사에게 딱 알맞은 적수를 찾게 되면 어떻게 할까?  내가 <?=Lore.pocket_time_winner.himher?>에게 <?=Lore.pocket_time_winner.heshe?>가 싸우고 싶어서 안달이 날 만한 전투를, <?=Lore.pocket_time_winner.heshe?>가 그렇게나 간절히 바라던 도전이라는 보상을 아직 안 내려주지 않았던가?  그런 결투라면 충분히 써내려갈 가치가 있지 않을까?"  그리하여, 그것은 <?=Lore.pocket_time_winner.name?>에게 약속을 하였다.  자신이 <?=Lore.pocket_time_winner.himher?>를 상대할 만한 가치가 있는 자를 찾아내거나, 만들어내게 된다면, <?=Lore.pocket_time_winner.himher?>를 떠올리겠노라고.
 
@@ -3264,7 +3264,7 @@ this is the first day of a new existence
 눈앞의 것들을 모두 당신의 설계대로
 유희를 즐기소서, 하등한 것들을 바꾸소서, 그 결과를 지켜보소서, 새롭게 배우소서
 이 세계는 단지 대리석이며, 당신께서는 그 조각가이시니
-그리고 당신의 눈은 다시 한 번 에이알을 보게 되고
+그리고 당신의 눈이 다시 한 번 에이알을 보게 되면
 #CRIMSON#그 누구도 %s의 이름을 다시는 말하지 못하게 되리라#LAST#
 그것에게는 본보기로 사용되는 영광조차 허락되지 않을지니
 
