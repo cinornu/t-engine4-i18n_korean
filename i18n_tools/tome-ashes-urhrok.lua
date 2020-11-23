@@ -782,13 +782,13 @@ section "tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 
 t("Flame Bolts", "화염 화살", "talent name")
 t([[Randomly (%d%% chance) hurls up to %d flame bolts dealing %0.2f fire damage to foes in sight when you hit in melee.
-		The damage will increase with your Spellpower.]], [[근접 공격을 가할 때, %d%% 확률로 최대 %d 개의 화염 화살을 던저, %0.2f 화염 피해를 시야 내의 적에게 가합니다.
+		The damage will increase with your Spellpower.]], [[근접 공격을 가할 때, %d%% 확률로 최대 %d 개의 화염 화살을 던져, %0.2f 화염 피해를 시야 내의 적에게 가합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Fiery Cleansing", "불타는 정화", "talent name")
 t("%s is cured!", "%s 정화되었습니다!", "logSeen", nil, {"이"})
 t("Deals 20%% of your total life to cleanse your afflictions, removing up to %d physical, mental or magical detrimental effects.", "최대 생명력의 20%% 를 소모해 부정적인 효과들을 정화합니다. 최대 %d 개의 부정적인 물리, 정신 또는 마법 효과를 제거합니다.", "tformat")
 t("Farstrike", "무기 투척", "talent name")
-t("You send your weapon flying to the target, dealing %d%% weapon damage.", "대상에게 무기를 던저, %d%% 무기 피해를 가합니다.", "tformat")
+t("You send your weapon flying to the target, dealing %d%% weapon damage.", "대상에게 무기를 던져, %d%% 무기 피해를 가합니다.", "tformat")
 t("Corrosive Slashes", "부식의 난도질", "talent name")
 t([[You cover your weapon in acid, turning all melee damage into acid.
 		All melee attacks also gain %d armor penetration.]], [[무기에 산성 물질을 발라, 모든 근접 공격을 산성 속성으로 바꿉니다.

@@ -1520,7 +1520,7 @@ It seems like your mind will operate even faster with this equipped.]], [[이 �
 t("Dreamweaver", "꿈 재단사", "entity name")
 t("shimmering steamgun", "빛으로 일렁이는 총", "_t")
 t("This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "이건 총이 아니라, 총이라는 개념 자체입니다. 만약 잃어버린다면, 기억하기에는 쉬울겁니다.", "_t")
-t("throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "총을 던저 폭발시킵니다.범위 내의 모든 적에게 %d 정신 피해를 주고, (교활과 의지에 비례) 일정 확률로 재워버립니다. 시전자는 3 턴 동안 무장해제됩니다", "tformat")
+t("throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "총을 던져 폭발시킵니다.범위 내의 모든 적에게 %d 정신 피해를 주고, (교활과 의지에 비례) 일정 확률로 재워버립니다. 시전자는 3 턴 동안 무장해제됩니다", "tformat")
 t("%s tosses %s %s!", "%s %s %s 던졌다!", "logSeen", nil, {"는",[3]="를"})
 t("%s resists the sleep!", "%s 수면에 저항했다!", "logSeen", nil, {"은"})
 t("Thoughtcaster", "생각 시전자", "entity name")
@@ -4559,7 +4559,7 @@ section "tome-orcs/data/talents/steam/automation.lua"
 
 t("Pulse Detonator", "진동 기폭 장치", "talent name")
 t([[Sends a pulse detonator to the target. Upon arrival it explodes in radius 4 cone, dealing %0.2f physical damage, knocking back foes by 3 and dazing them for %d turns.
-		Damage increases with your steampower.]], [[진동 기폭 장치를 던저 폭발시킵니다. 목적지에 도착 시, 반경 4 칸의 원뿔 범위 내에 폭발을 일으켜, %0.2f 물리 피해를 주고, 적들을 3 칸 밀치고, %d 턴 동안 혼절시킵니다.
+		Damage increases with your steampower.]], [[진동 기폭 장치를 던져 폭발시킵니다. 목적지에 도착 시, 반경 4 칸의 원뿔 범위 내에 폭발을 일으켜, %0.2f 물리 피해를 주고, 적들을 3 칸 밀치고, %d 턴 동안 혼절시킵니다.
 		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Flying Grapple", "비행 갈고리", "talent name")
 t("Flying Grapple", "비행 갈고리", "_t")
@@ -5500,7 +5500,7 @@ t("Thunder Grenade", "천둥 수류탄", "talent name")
 t("%s resists the explosion!", "%s 폭발에 저항했다!", "logSeen", nil, {"가"})
 t([[Throw a grenade at your foes, dealing %0.2f physical damage in radius %d.
 		Creatures hit will also be stunned for %d turns.
-		The stun effect is applied with your Steampower.]], [[적에게 수류탄을 던저 반경 %d 칸 범위에 %0.2f 물리 피해를 줍니다.
+		The stun effect is applied with your Steampower.]], [[적에게 수류탄을 던져 반경 %d 칸 범위에 %0.2f 물리 피해를 줍니다.
 		폭발에 휘말린 적은 %d 턴 동안 기절합니다.
 		기절 확률은 증기력에 비례하여 증가합니다.]], "tformat", {2,1,3})
 t("Project Saw", "톱날 발사", "talent name")
