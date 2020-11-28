@@ -1141,8 +1141,8 @@ t("melt all the items in the APE at once (also done automatically when you chang
 t("APE", "추출기", "_t")
 t("Make the Automated Portable Extractor the default item's destroyer?", "물품을 변환할 때, 항상 휴대용 자동 추출기를 사용할까요?", "_t")
 t("You do not have any items to melt in your APE or on the floor.", "추출기 안에도, 땅바닥에도 추출할 물품이 존재하지 않습니다.", "_t")
-t("Melt all %d item(s) on the floor?", "발 밑의 모든 %s 개의 물품을 추출할까요?", "tformat")
-t("Melt all %d item(s) in your APE?", "추출기 안의 모든 %s 개의 물품을 추출할까요?", "tformat")
+t("Melt all %d item(s) on the floor?", "발 밑의 모든 %d 개의 물품을 추출할까요?", "tformat")
+t("Melt all %d item(s) in your APE?", "추출기 안의 모든 %d 개의 물품을 추출할까요?", "tformat")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 ------------------------------------------------
@@ -4049,8 +4049,8 @@ t([[Create a circle of cursed ground (radius %d) for %d turns. Any foes inside w
 		]], "tformat")
 t("Temporal Ripples", "시간의 파문", "talent name")
 t([[Creates a circle of radius %d of altered time for %d turns. Any damage your foes take while standing in it will heal the attacker for 200%% of the damage dealt.
-		]], [[반경 %d 칸의 대체 시간의 마법진을 세겨넣습니다. 내부의 모든 적이 받는 피해의 2 배 만큼 공격자의 생명력을 회복합니다.
-		]], "tformat")
+		]], [[%d 턴간 유지되는 반경 %d 칸의 대체 시간의 마법진을 새겨넣습니다. 내부의 모든 적이 받는 피해의 2 배 만큼 공격자의 생명력을 회복합니다.
+		]], "tformat", {2,1})
 t("Saw Storm", "톱날 폭풍", "talent name")
 t([[Summon a storm of swirling sawblades to slice your foes, inflicting %d physical damage and bleeding to anyone who approaches for %d turns.
 		The damage and duration will increase with your Mindpower.]], [[소용돌이 치는 톱날의 폭풍을 일으켜, 적들을 찢습니다. %d 물리 피해를 주고, 내부의 모든 대상에게 %d 턴 동안 지속되는 출혈을 유발합니다.

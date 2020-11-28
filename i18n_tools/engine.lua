@@ -12,7 +12,9 @@ t("east", "동쪽", "nil")
 t("turtle", "거북이", "nil")
 t("Marus of Elvala", "엘발라의 말루스", "nil")
 t("hydra", "히드라", "nil")
-t("3-head", "세 머리 ", "nil")
+t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
+The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s 년 %s의 달 %s 일 입니다.
+현재 시간은 %02d시 %02d분입니다.]], "nil", {3,2,1,4,5})
 t("Vargh Republic", "바르그 공화국", "nil")
 t("starstaff", "별 마법지팡이", "nil")
 t("Slavers", "노예", "nil")
@@ -21,30 +23,28 @@ t("Stire of Derth", "데르스의 스타이어", "nil")
 t("thermal", "열역학", "nil")
 t("worried loremaster", "근심하는 지식 전달자", "nil")
 t("Control Room", "제어실", "nil")
-t("repented thief", "회개한 도적", "nil")
+t("Sher'Tul", "쉐르'툴", "nil")
 t("OFFHAND", "보조 무기", "nil")
-t("temporal explorer", "시간의 여행자", "nil")
+t("Orc Pride", "오크 긍지", "nil")
 t("unseen", "알 수 없는 것", "nil")
 t("Enemies", "적", "nil")
 t("summoned", "소환수", "nil")
 t("ranged", "원거리", "nil")
 t("mainhand", "주무기", "nil")
-t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
-The time is %02d:%02d.]], [[오늘은 주도의 시대를 맞은 마즈'에이알 %s 년 %s의 달 %s 일 입니다.
-현재 시간은 %02d시 %02d분입니다.]], "nil", {3,2,1,4,5})
+t("portal back", "돌아가는 차원문", "nil")
+t("Hall of Reflection", "반영의 전당", "nil")
+t("Water lair", "수중단", "nil")
 t("demon", "악마", "nil")
-t("Sher'Tul", "쉐르'툴", "nil")
-t("Orc Pride", "오크 긍지", "nil")
 t("Sunwall", "태양의 장벽", "nil")
-t("3-headed hydra", "세 머리 히드라", "nil")
+t("3-head", "세 머리 ", "nil")
 t("bomb", "폭탄", "nil")
-t("Rhalore", "랄로레", "nil")
-t("Sorcerers", "주술사", "nil")
+t("temporal explorer", "시간의 여행자", "nil")
+t("volcanic mountains", "화산 지형", "nil")
 t("humanoid/orc", "인간형/오크", "nil")
-t("stone golem", "암석 골렘", "nil")
+t("Rhalore", "랄로레", "nil")
 t("MAINHAND", "주 무기", "nil")
-t("lone alchemist", "외로운 연금술사", "nil")
-t("dragon", "용", "nil")
+t("southeast", "남동쪽", "nil")
+t("north", "북쪽", "nil")
 t("spell", "주문", "nil")
 t("daikara", "다이카라", "nil")
 t("Dreadfell", "두려움의 영역", "nil")
@@ -53,61 +53,61 @@ t("Undead", "언데드", "nil")
 t("armours", "갑옷류", "nil")
 t("Storage Room", "창고", "nil")
 t("Sandworm Burrowers", "굴 파는 샌드웜", "nil")
-t("north", "북쪽", "nil")
-t("south", "남쪽", "nil")
-t("portal back", "돌아가는 차원문", "nil")
+t("Sorcerers", "주술사", "nil")
+t("repented thief", "회개한 도적", "nil")
+t("dragon", "용", "nil")
 t("vilestaff", "독성 마법지팡이", "nil")
-t("Water lair", "수중단", "nil")
-t("Hall of Reflection", "반영의 전당", "nil")
+t("3-headed hydra", "세 머리 히드라", "nil")
+t("south", "남쪽", "nil")
 t("Iron Throne", "철의 왕좌", "nil")
-t("default", "기본", "nil")
+t("Assassin lair", "암살단", "nil")
 t("rimebark", "서리 나무", "nil")
 t("lost sun paladin", "길 잃은 태양의 기사", "nil")
 t("Fearscape", "공포의 영역", "nil")
 t("Portal Room", "차원문의 방", "nil")
 t("standard", "표준", "nil")
 t("weapons", "무기류", "nil")
-t("Experimentation Room", "연습실", "nil")
-t("Victim", "제물", "nil")
-t("throwing", "투척", "nil")
-t("offhand", "보조 무기", "nil")
-t("southwest", "남서쪽", "nil")
 t("Keepers of Reality", "현실의 수호자", "nil")
-t("Shalore", "샬로레", "nil")
+t("Victim", "제물", "nil")
+t("unarmed", "맨손", "nil")
 t("northwest", "북서쪽", "nil")
+t("southwest", "남서쪽", "nil")
+t("combat", "전투", "nil")
+t("melee", "근접", "nil")
+t("The Way", "한길", "nil")
 t("magestaff", "마법사 마법지팡이", "nil")
-t("living", "생명", "nil")
-t("humanoid", "인간형", "nil")
 t("exit", "출구", "nil")
+t("offhand", "보조 무기", "nil")
+t("Exploratory Farportal", "탐험용 장거리 차원문", "nil")
 t("war hound", "전투견", "nil")
 t("absolute", "절대", "nil")
 t("undead", "언데드", "nil")
-t("Exploratory Farportal", "탐험용 장거리 차원문", "nil")
+t("living", "생명", "nil")
 t("Agrimley the hermit", "은둔자 아그림레이", "nil")
 t("Zigur", "지구르", "nil")
 t("lost warrior", "길 잃은 전사", "nil")
-t("movement", "이동", "nil")
 t("Angolwen", "앙골웬", "nil")
+t("unnatural", "비자연적 존재", "nil")
 t("magical", "마법적 효과", "nil")
 t("summon", "소환", "nil")
 t("mental", "정신적 효과", "nil")
 t("harmonystaff", "조화 마법지팡이", "nil")
-t("unnatural", "비자연적 존재", "nil")
+t("movement", "이동", "nil")
 t("temporal hound", "시간의 사냥개", "nil")
-t("combat", "전투", "nil")
+t("humanoid", "인간형", "nil")
 t("injured seer", "부상당한 예언자", "nil")
 t("lost defiler", "길 잃은 모독자", "nil")
-t("The Way", "한길", "nil")
-t("melee", "근접", "nil")
-t("northeast", "북동쪽", "nil")
-t("southeast", "남동쪽", "nil")
-t("volcanic mountains", "화산 지형", "nil")
+t("Experimentation Room", "연습실", "nil")
+t("Shalore", "샬로레", "nil")
+t("throwing", "투척", "nil")
+t("lone alchemist", "외로운 연금술사", "nil")
+t("stone golem", "암석 골렘", "nil")
 t("FINGER", "반지", "nil")
 t("kinetic", "동역학", "nil")
 t("Horrors", "공포", "nil")
 t("Allied Kingdoms", "왕국연합", "nil")
-t("Assassin lair", "암살단", "nil")
-t("unarmed", "맨손", "nil")
+t("northeast", "북동쪽", "nil")
+t("default", "기본", "nil")
 t("dream", "꿈의", "nil")
 
 ------------------------------------------------
@@ -312,7 +312,7 @@ t("Do you want to recreate the same character?", "같은 캐릭터를 재생성�
 t("Recreate", "재생성", "_t")
 t("New character", "새로운 캐릭터", "_t")
 t("Randomly selected %s.", "무작위로 선택하기 %s.", "log")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -388,7 +388,7 @@ t("The character's vault has registered a total of #RED#%d#WHITE# character's de
 t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소는 현재 버전의 승자 #LIGHT_BLUE#%d#WHITE# 명이 기록되어 있습니다", "tformat")
 t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "마지막 기부자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 기부자들께 감사드리며, 이 게임이 계속될 수 있게끔 도와주세요!", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로필로 교체됨)", "log", nil, {"이"})
--- new text
+-- untranslated text
 --[==[
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "tformat")
 --]==]
@@ -480,7 +480,7 @@ section "engine/engine/Trap.lua"
 t("%s fails to disarm a trap (%s).", "%s %s 함정을 해제하는데 실패했다.", "logSeen", nil, {"는"})
 t("%s disarms a trap (%s).", "%s %s 함정을 해제하는데 성공했다.", "logSeen", nil, {"는"})
 t("%s triggers a trap (%s)!", "%s %s 함정이 발동됨!", "logSeen")
--- new text
+-- untranslated text
 --[==[
 t("%s", "%s", "logSeen")
 --]==]
@@ -528,7 +528,7 @@ t("Please wait while generating the level... ", "구역을 생성 중 입니다.
 section "engine/engine/ai/talented.lua"
 
 
--- new text
+-- untranslated text
 --[==[
 t("#ORCHID#__[%d]%s improved talented AI picked talent[att:%d, turn %s]: %s", "#ORCHID#__[%d]%s improved talented AI picked talent[att:%d, turn %s]: %s", "log")
 t("__[%d]%s#ORANGE# ACTION FAILED:  %s, %s", "__[%d]%s#ORANGE# ACTION FAILED:  %s, %s", "log")
@@ -654,7 +654,7 @@ section "engine/engine/dialogs/GetText.lua"
 t("Accept", "수락", "_t")
 t("Cancel", "취소", "_t")
 t("Error", "오류", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 t("Must be between %i and %i characters.", "Must be between %i and %i characters.", "tformat")
@@ -699,7 +699,7 @@ t([[#GOLD#Achieved on:#LAST# %s
 #GOLD#해제 조건:#LAST# %s]], "tformat")
 t("Progress: ", "진행상황: ", "_t")
 t("-- Unknown --", "-- 알 수 없음 --", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 t("???", "???", "_t")
@@ -715,7 +715,7 @@ t("Enc.", "기타", "_t")
 t("Equipment", "장비", "_t")
 t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat")
 t("%s assigned to hotkey %s", "%s 단축키 %s 에 지정되었습니다.", "tformat", nil, {"가"})
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -727,7 +727,7 @@ section "engine/engine/dialogs/ShowEquipment.lua"
 t("Equipment", "장비", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -757,7 +757,7 @@ t("Close All", "전부 닫기", "_t")
 t("Log saved to file (click to copy to clipboard):#LIGHT_BLUE#%s", "파일에 로그가 저장됨 (클립보드에 복사하려면 클릭):#LIGHT_BLUE#%s", "tformat")
 t("File location copied to clipboard.", "클립보드에 파일 주소가 복사됨.", "log")
 t("#YELLOW#Error report sent, thank you.", "#YELLOW#보고서가 제출됐습니다. 감사합니다.", "log")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -769,7 +769,7 @@ section "engine/engine/dialogs/ShowInventory.lua"
 t("Inventory", "소지품", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -783,7 +783,7 @@ t("(*) Take all", "(*) 전부 줍기", "_t")
 t("Item", "물건", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -803,7 +803,7 @@ t("Store", "상점", "_t")
 t("Inventory", "소지품", "_t")
 t("Category", "분류", "_t")
 t("Price", "가격", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -833,7 +833,7 @@ t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우�
 t("Steam Cloud Purge", "Steam 클라우드 제거", "_t")
 t("Confirm purge?", "제거에 동의하십니까?", "_t")
 t("All data purged from the cloud.", "모든 파일이 Steam 클라우드에서 제거되었습니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -849,7 +849,7 @@ t("Target: ", "대상: ", "_t")
 t("Channel: %s", "채널: %s", "tformat")
 t("Friend: %s", "친구: %s", "tformat")
 t("User: %s", "유저: %s", "tformat")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -868,7 +868,7 @@ t("Talent", "기술", "_t")
 t("Status", "상태", "_t")
 t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat")
 t("%s assigned to hotkey %s", "%s 단축키 %s 에 지정되었습니다.", "tformat", nil, {"가"})
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -1005,7 +1005,7 @@ t("Position changed.", "위치 변경됨", "_t")
 t("Save position?", "위치를 저장하시겠습니까?", "_t")
 t("Accept", "수락", "_t")
 t("Revert", "되돌리기", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -1121,7 +1121,7 @@ t([[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will au
 #LIGHT_GREEN#추가 기능:#LAST# 광원팩을 구입하시면 당신의 캐릭터는 휴대할 수 있는 반영의 거울을 받게 됩니다. 반영의 거울을 통해 언제 어디서든 당신의 모습을 바꿀 수 있습니다.]], "_t")
 t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#UI 팩#WHITE##{normal}#: 이 게임을 구입할 때, 자동으로 UI 팩이 설치됩니다.", "_t")
 t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#금고 공간#WHITE##{normal}#: 구매하시면 금고 공간이 영구적으로 늘어납니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("%0.2f %s", "%0.2f %s", "tformat")
 --]==]
@@ -1208,7 +1208,7 @@ t("- Talent %s (not known)", "- 기술 (미습득) %s", "tformat")
 t("- Talent %s (%d)", "- 기술 %s (%d)", "tformat")
 t("- Talent %s", "- 기술 %s", "tformat")
 t("- Is %s", "- %s", "tformat")
--- new text
+-- untranslated text
 --[==[
 t("%s", "%s", "logSeen")
 t("%s %s %s.", "%s %s %s.", "logSeen")
@@ -1264,7 +1264,7 @@ t("You are %s, press Enter to stop.", "%s 중입니다. Enter키로 종료합니
 t("%s starts...", "%s 시작...", "log")
 t("%s for %d turns (stop reason: %s).", "%d 턴 동안 %s (종료 원인: %s)", "log", {2,1,3})
 t("%s for %d turns.", "%d 턴 동안 %s", "log", {2,1})
--- new text
+-- untranslated text
 --[==[
 t("%s...", "%s...", "tformat")
 --]==]
@@ -1337,7 +1337,7 @@ section "engine/engine/ui/Inventory.lua"
 t("Inventory", "소지품", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -1373,7 +1373,7 @@ t("his", "그", "_t")
 t("him", "그", "_t")
 t("herself", "자기 자신", "_t")
 t("himself", "자기 자신", "_t")
--- new text
+-- untranslated text
 --[==[
 t("it", "it", "_t")
 t("its", "its", "_t")
@@ -1826,7 +1826,7 @@ t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("Login...", "로그인 중...", "_t")
 t("Login in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 --]==]
@@ -1882,7 +1882,7 @@ t("Username", "유저명", "_t")
 t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
 t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("Email", "Email", "_t")
 t("Your email seems invalid", "Your email seems invalid", "_t")
@@ -1907,7 +1907,7 @@ t("Registering...", "등록 중...", "_t")
 t("Registering on https://te4.org/, please wait...", "https://te4.org/에 등록 중, 기다려 주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
 t("Error", "오류", "_t")
--- new text
+-- untranslated text
 --[==[
 t("Steam User Account", "Steam User Account", "_t")
 t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.

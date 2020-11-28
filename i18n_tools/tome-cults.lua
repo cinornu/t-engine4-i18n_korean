@@ -3175,7 +3175,7 @@ t("You must target a void rift.", "당신은 반드시 공허의 틈을 대상�
 t("%s's space-time folding fizzles!", "%s의 시공간 접기가 실패했다!", "logSeen")
 t("%s emerges from a space-time rift!", "%s 시공의 틈에서 나타난다!", "logSeen", nil, {"가"})
 t([[You briefly open a tunnel through spacetime, teleporting to a void rift in range %d. This destroys the rift, granting you a shield for %d turns absorbing %d damage.
-		The damage absorbed will scale with your Spellpower]], [[당신은 시공간을 관통하는 터널을 짧은 시간 동안 열어 %d 반경 내의 공허의 틈으로 순간이동 합니다. 이 행위는 대상 공허의 틈을 파괴하고, 당신에게 %d 의 피해를 흡수하는 보호막을 부여합니다.
+		The damage absorbed will scale with your Spellpower]], [[당신은 시공간을 관통하는 터널을 짧은 시간 동안 열어 %d 반경 내의 공허의 틈으로 순간이동 합니다. 이 행위는 대상 공허의 틈을 파괴하고, %d 턴 동안 %d 의 피해를 흡수하는 보호막을 부여합니다.
 		보호막 수치는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Pierce the Veil", "장막 뚫기", "talent name")
 t("nether breach", "황천의 구멍", "_t")
