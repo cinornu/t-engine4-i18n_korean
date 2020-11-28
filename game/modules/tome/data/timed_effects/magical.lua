@@ -245,7 +245,7 @@ newEffect{
 	parameters = { power=10, saves=0 },
 	activate = function(self, eff)
 		self:effectTemporaryValue(eff, "resists", {[DamageType.BLIGHT]=-eff.power})
-		self:effectTemporaryValue(eff, "combat_mindresist",  -eff.saves)
+		self:effectTemporaryValue(eff, "combat_mentalresist",  -eff.saves)
 		self:effectTemporaryValue(eff, "combat_spellresist", -eff.saves)
 		self:effectTemporaryValue(eff, "combat_physresist", -eff.saves)
 	end,

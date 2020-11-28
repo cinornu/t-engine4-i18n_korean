@@ -508,8 +508,8 @@ function _M:generateList()
 			local isgeneric = self.actor.talents_types_def[tt.type].generic
 			local tshown = (self.actor.__hidden_talent_types[tt.type] == nil and ttknown) or (self.actor.__hidden_talent_types[tt.type] ~= nil and not self.actor.__hidden_talent_types[tt.type])
 			local node = {
-				name=function(item) return tstring{{"font", "bold"}, _t(cat):capitalize().." / "..tt.name:capitalize() ..(" (%s)"):format((isgeneric and _t"generic" or _t"class")), {"font", "normal"}} end,
-				rawname=function(item) return _t(cat):capitalize().." / "..tt.name:capitalize() ..(" (x%.2f)"):format(self.actor:getTalentTypeMastery(item.type)) end,
+				name=function(item) return tstring{{"font", "bold"}, _t(cat, "talent category"):capitalize().." / "..tt.name:capitalize() ..(" (%s)"):format((isgeneric and _t"generic" or _t"class")), {"font", "normal"}} end,
+				rawname=function(item) return _t(cat, "talent category"):capitalize().." / "..tt.name:capitalize() ..(" (x%.2f)"):format(self.actor:getTalentTypeMastery(item.type)) end,
 				type=tt.type,
 				color=function(item) return ((self.actor:knowTalentType(item.type) ~= self.actor_dup:knowTalentType(item.type)) or ((self.actor.__increased_talent_types[item.type] or 0) ~= (self.actor_dup.__increased_talent_types[item.type] or 0))) and {255, 215, 0} or self.actor:knowTalentType(item.type) and {0,200,0} or {175,175,175} end,
 				shown = tshown,

@@ -39,7 +39,7 @@ newTalent{
 	type = {"undead/skeleton", 2},
 	require = undeads_req2,
 	points = 5,
-	cooldown = function(self, t) return self:combatTalentLimit(t, 10, 25, 15, false, 1.1) end,
+	cooldown = function(self, t) return math.ceil(self:combatTalentLimit(t, 10, 25, 15, false, 1.1)) end,
 	tactical = { DEFEND = 2 },
 	getShield = function(self, t)
 		return 3.5*self:getDex()+self:combatTalentScale(t, 120, 400) + self:combatTalentLimit(t, 0.1, 0.01, 0.05)*self.max_life

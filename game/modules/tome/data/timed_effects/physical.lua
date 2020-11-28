@@ -2437,7 +2437,7 @@ newEffect{
 
 newEffect{
 	name = "BRAWLER_BLOCK", image = "talents/block.png",
-	desc = _t"Blocking",
+	desc = _t"Open Palm Block",
 	long_desc = function(self, eff)
 		return ("Blocking up to %d total damage."):
 			tformat(self.brawler_block or 0)

@@ -23,6 +23,13 @@ newTalent{
 	require = spells_req1,
 	mode = "passive",
 	points = 5,
+	no_unlearn_last = true,
+	on_levelup_close = function(self, t)
+		if self ~= game:getPlayer(true) then return end
+		if not game.state.birth.supports_lich_transform then return end
+		if self:getTalentLevelRaw(t) < 5 then return end
+		self:grantQuest(game.state.birth.supports_lich_transform)
+	end,
 	getLifeBonus = function(self, t)
 		return self:combatTalentStatDamage(t, "con", 30, 1000)
 	end,
