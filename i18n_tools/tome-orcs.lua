@@ -4397,8 +4397,8 @@ t("You can only cast this spell after casting an other technomancy spell.", "이
 t([[After casting a technomancy spell you store some of its energies that you can then use to overload your arcane dynamo, increasing the steam it generates per 10 mana spent by 4 for 4 turns.
 		In addition the energies spills outward in radius 3, dealing %0.2f damage (damage type based on the type of technomancy spell used).
 		This spell is only usable after casting a technomancy spell and until you use any other spell or talent.
-		The damage will increase with your Spellpower.]], [[마도 공학 주문을 사용하고 난 후, 에너지 일부를 모아, 비전 발전기를 과부화합니다. 4 턴 동안, 소모하는 마나 10 당 증기가 4 추가로 회복됩니다.
-		또한 시전자를 중심으로, 반경 3 칸에 에너지를 쏟아부어, %0.2f 피해를 입힙니다 (피해 속성은 사용한 마도 공학 주문에 따라 달라집니다).
+		The damage will increase with your Spellpower.]], [[마도공학 주문을 사용하고 난 후, 에너지 일부를 모아, 비전 발전기를 과부화합니다. 4 턴 동안, 소모하는 마나 10 당 증기가 4 추가로 회복됩니다.
+		또한 시전자를 중심으로, 반경 3 칸에 에너지를 쏟아부어, %0.2f 피해를 입힙니다 (피해 속성은 사용한 마도공학 주문에 따라 달라집니다).
 		이 주문은 마도 공확 기술을 사용하고 난 후에만 사용할 수 있고, 다른 주문이나, 기술을 사용하면 그 즉시 사용이 불가능해집니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -4408,13 +4408,13 @@ section "tome-orcs/data/talents/spells/spells.lua"
 t("spell", "주문", "talent category")
 t("undead drake", "사룡", "_t")
 t("Take on the defining aspects of an Undead Drake.", "언데드 드레이크의 본질을 취합니다.", "_t")
-t("galvanic technomancy", "전열의 마도 공학", "_t")
+t("galvanic technomancy", "전열의 마도공학", "_t")
 t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 전기와 화염으로 파괴합니다.", "_t")
-t("terrene technomancy", "극지의 마도 공학", "_t")
+t("terrene technomancy", "극지의 마도공학", "_t")
 t("Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 땅과 물로 파괴합니다.", "_t")
-t("occult technomancy", "비술의 마도 공학", "_t")
+t("occult technomancy", "비술의 마도공학", "_t")
 t("Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 비전의 힘과 시간으로 파괴합니다.", "_t")
-t("other technomancy", "기타 마도 공학", "_t")
+t("other technomancy", "기타 마도공학", "_t")
 t("Combine the power of steamtech and arcane forces to destroy your foes.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 파괴합니다.", "_t")
 
 ------------------------------------------------
@@ -6013,21 +6013,21 @@ t([[Technomancers are Archmages that dabble in steam technology to enhance their
 
 		Once put in a robe, the Arcane Dynamo will regenerate Steam each time mana is spent and increase Spellpower based on current steam level.
 
-		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[마도 공학은 증기 공학에 관심을 갖는 대마법사들로, 이미 가공할 위력의 주문들을 더욱 더 강화합니다.
+		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[마도공학자는 증기공학에 관심을 갖는 대마법사들로, 이미 가공할 위력의 주문들을 더욱 더 강화합니다.
 		이 직업 진화가 진행되면, 시전자들은 다음과 같은 기술들을 얻습니다 :
 		- 비전 발전기 발명품 도안
 		- 증기 공학/물리학 계열 (열림)
 		- 증기 공학/화학 계열 (잠김)
 		- 휴대용 자동 추출기
 		- 야금학 기술에 1 점, 기계학과 전기학 기술에 2 점을 받습니다.
-		- 주문/전열의 마도 공학 계열 (잠김) - 화염과 전기로 적을 공격합니다.
-		- 주문/극지의 마도 공학 계열 (잠김) - 물과 대지로 적을 공격합니다.
-		- 주문/비술의 마도 공학 계열 (잠김) - 시간과 순수한 마력으로 적을 공격합니다.
-		- 세 가지 마도 공학 계열 중 하나를 무료로 해금합니다.
+		- 주문/전열의 마도공학 계열 (잠김) - 화염과 전기로 적을 공격합니다.
+		- 주문/극지의 마도공학 계열 (잠김) - 물과 대지로 적을 공격합니다.
+		- 주문/비술의 마도공학 계열 (잠김) - 시간과 순수한 마력으로 적을 공격합니다.
+		- 세 가지 마도공학 계열 중 하나를 무료로 해금합니다.
 
 		비전 발전기가 로브에 장착되면, 마나가 소모될 때마다 증기를 생성하고, 현재 증기 수치에 비례하여 주문력이 상승합니다.
 
-		#{bold}#직업 진화를 선택하면, 비전 발전기를 제작하고, 로브에 장착하여야 모든 마도 공학 기술을 사용할 수 있게 됩니다.#{normal}#]], "tformat")
+		#{bold}#직업 진화를 선택하면, 비전 발전기를 제작하고, 로브에 장착하여야 모든 마도공학 기술을 사용할 수 있게 됩니다.#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/str.lua"
