@@ -701,7 +701,7 @@ t("Splatter me with the blood of our foes!", "저 놈들의 피로 날 적셔줘
 t("That one wasn't such an impressive kill...", "방금 건 그렇게 인상적이진 않은 것 같은데...", "_t")
 t("Getting a bit sloppy on the kills no?", "너 방금 좀 대충 한 것 같다?", "_t")
 t("Forbidden Tome: \"Of Knowledge And Horrors\"", "금지된 고서: \"지식과 공포에 관해\"", "entity name")
-t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "잃어버린 지식의 두꺼운 고서로, 만지기만해도 토할 것 같습니다.", "_t")
+t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "잃어버린 지식이 담긴 두꺼운 고서로, 만지기만 해도 토할 것 같습니다.", "_t")
 t([[The book of horrors,
 the book of terrors,
 the book of pain,
@@ -716,14 +716,14 @@ Read now for a fate worse than death inside awaits.
 고통의 책,
 획득의 책,
 광기의 책,
-정신 이상의 책.
+실성의 책.
 
-책을 읽은 이는 고통 너머의 고통을 알게 될 것이다.
-읽어라. 죽음보다 더 극심한 운명이 기다린다.
+이것을 읽는 자는 고통 너머의 고통을 알게 될 것이다.
+읽어라. 죽음보다도 더 가혹한 운명이 기다린다.
 ]], "_t")
 t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
-t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 쥐고 있으면, 많은 생각이 나게 합니다. 절망, 괴로움, 자포자기, 가망 없음... 모든 생각이 당신을 한 번에 엄습해옵니다. 책은 강력한 힘을 약속하지만 무엇을 대가로 치뤄야할까요?", "_t")
-t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 때, 에이알의 많은 거주민들은 세계가 끝났다고 생각했습니다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지였습니다. 식량은 부족하고, 피해망상은 만연했으며, 모든 사람이 절망에 빠졌습니다. 선택받은 극소수의 사람들에게는 예상밖의 방문자가 구원의 손길을 건냈습니다. 이 '선생님' 으로 알려진 존재들은 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔습니다. 이들은 이 세계를 파괴하는 공포들에게 대적할, 무기로 사용할 수 있는 지식을 갈구하는 생존자들을 에이알의 심연에서 찾아냈습니다.", "_t")
+t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 책을 들고 있으면, 많은 생각이 들게 합니다. 절망, 괴로움, 자포자기, 암담함... 이 모든 생각들이 한꺼번에 엄습합니다. 책은 강력한 힘을 약속하지만, 그 대가는 무엇일까요?", "_t")
+t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "장작더미의 시대 때, 수많은 에이알인들은 세계가 끝났다고 생각했다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지 뿐이었다. 식량은 부족하고, 피해망상이 만연했으며, 모든 이들이 절망에 빠졌다. 선택받은 극소수의 사람들에게는 예상 밖의 방문자가 구원의 손길을 건넸다. 이 '선생' 으로 알려진 존재는 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔다. 그 존재는 에이알의 깊은 곳에서 어떤 지식을 갈구하는 생존자들을 찾아내었다. 이 세계를 유린하고 있는 공포들에게 맞설 무기로 사용할 수 있을 만한 지식 말이다.", "_t")
 t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이 일은 일어나지 않았다.", "_t")
 t("Hithre", "하이트르", "_t")
 t("Main protagonist", "주인공", "_t")
@@ -734,9 +734,9 @@ t("The importance of wisdom (+5 willpower)", "지혜의 중요성 (의지 +5)", 
 t("The Day It Came", "그것이 온 날", "_t")
 t("This chapter has taught your some important lesson. What did you learn?", "이 장은 당신에게 중요한 교훈을 가르칠 것입니다. 배우시겠습니까?", "_t")
 t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서: \"회랑에서 본 것\"", "entity name")
-t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "그룽, 부족에서 떨어저 나온 하플링으로, 고대의 끔찍한 전쟁에서 살아남으려고 노력합니다. 그에 대한 이야기입니다", "_t")
-t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "오늘 밤은 매우 춥고, 당신은 낮 동안 먹을 것을 아무것도 찾지 못했습니다. 당신의 털가죽은 추위를 막아주는데 별 도움이 되질 않습니다. 당신은 사냥하러 나갈 참이지만, 다른 사람들은 모두 그러지 말라고 말렸습니다. 밤은 위험하고, 하늘에서는 이상한 빛이 나타났습니다. 과장없는, 불길한 징조. 요즘 식량을 얻기가 꽤 힘들어 졌기 때문에, 모든 부족민이 당신만큼 굶주려 있습니다.", "_t")
-t("Poor Grung. All he wanted was food, but what he found instead was death.", "가엾은 그룽. 그가 원한건 단지 식량이였는데, 결국엔 죽어버렸습니다.", "_t")
+t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "부족에서 떨어져 나와, 아주 오래 전에 벌어졌던 끔찍한 전쟁에서 살아남으려 노력하는 하플링 그룽의 이야기입니다.", "_t")
+t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "오늘 밤은 춥고 온종일 먹을 걸 하나도 찾지 못했습니다. 당신의 피부만으로는 이 한기를 버텨낼 수도 없습니다. 지금 사냥을 나가려고 하지만, 다른 이들 모두가 그러면 안 된다고 경고했었습니다. 밤은 위험하고 하늘에는 이상한 빛이 떠다닙니다. 아무리 봐도 좋은 징조는 아니지요. 최근에는 먹을거리들을 구하기가 어려워져서, 모두 다 당신처럼 배가 고픕니다.", "_t")
+t("Poor Grung. All he wanted was food, but what he found instead was death.", "가엾은 그룽. 그가 원한건 단지 먹을거리였는데, 결국엔 죽어버렸습니다.", "_t")
 t("Grung", "그룽", "_t")
 t("The importance of evading blows (+10 defense)", "회피의 중요성 (회피도 +10)", "_t")
 t("The importance of speed (+10% movement speed)", "속도의 중요성 (이동속도 +10%)", "_t")
@@ -745,12 +745,12 @@ t("The importance of a honed mind (+5 cunning)", "연마한 마음의 중요성 
 t("A View From The Gallery", "회랑에서 본 것", "_t")
 t("This chapter has taught your some survival tips. What did you learn?", "이 장은 당신에게 중요한 생존 전략을 가르칠 것입니다. 배우시겠습니까?", "_t")
 t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서: \"환상의 성\"", "entity name")
-t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "당신 앞에 놓인 고서는 꿈에서나 나왔을 것 같은 가죽과 양피지로 이루어저 있습니다. 수정 조각이 표면에서 기이한 빛으로 춤을 추고 있어, 불가해한 논리에 세상이 변하가는 것 같은 느낌을 받습니다.", "_t")
+t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "이 고서는 꿈에서나 볼 수 있을 것 같은 가죽과 양피지로 이루어져 있습니다. 수정 조각들이 책의 안쪽에서 춤을 추고 있어, 알 수 없는 규칙을 따라 변화하고 있는 다른 세계를 보고 있는 것 같습니다.", "_t")
 t([[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
 
-Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[고서 안의 세계는 성 한 채를 묘사하고 있습니다. 적어도, 성 같다는 느낌이 듭니다. 고서 내부는 꿈과 같은 느낌을 주며, 당신은 깨어있는지, 아닌지 스스로 되묻게 됩니다. 유리 벽은 얕은 빛으로 일렁이며, 또 셀 수 없이 많은, 그러나 어디서 왔는지 알 수 없는 빛을 투과하고, 반사하고 있습니다.
+Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[고서 안의 세계는 어떤 성을 묘사하고 있습니다. 적어도, 성 같다는 느낌이 듭니다. 고서 내부는 꿈 속에 있는 것 같은 느낌을 주며, 지금 깨어 있는 게 확실한지 스스로 되묻게 됩니다. 유리로 된 벽은 무수히 많은 불빛을 받아 찬란하게 빛나고 있는데, 그 빛의 출처가 어디인지는 알 수가 없습니다.
 
-끊임 없이 변화하고 바뀌는 벽과 길로 보건대, 이 장소는 탐험하기 힘들 것 같다는 확신이 듭니다.]], "_t")
+벽과 길이 끊임없이 움직이고 변화하고 있는 것으로 보아, 이 장소를 탐험하는 건 확실히 쉬운 일이 아닌 것 같습니다.]], "_t")
 t("misc", "도구", "entity type")
 t("gross", "역겨움", "entity subtype")
 t("Cut Drem Arm", "잘린 드렘 팔", "entity name")
@@ -4027,7 +4027,7 @@ t("Unspeakable Thing", "형용할 수 없는 것", "entity name")
 t("Through idiotic pride, one of the students has called this thing to your world. Thick, impenetrable darkness billows from its form, devouring all light around it. As the darkness touches you, you feel only one thing... Hunger. Bottomless, infinite hunger, as vast and unending as the void of space itself.", "한 학생의 멍청한 자존심으로 인해, 이 존재는 당신의 세계로 불려왔습니다. 두껍고, 꿰뚫을 수 없는 어둠이 이 형체에서 피어올라, 주변의 모든 빛을 삼켜버립니다. 어둠이 당신에게 닿자, 단 하나... 굶주림만 느껴집니다. 끝이 없는, 무한한 굶주림, 우주 그 자체의 공허만큼 광대하고, 끝이 없는.", "_t")
 t("unknown", "알 수 없음", "entity type")
 t("unknown", "알 수 없음", "entity subtype")
-t("The Teacher", "선생님", "entity name")
+t("The Teacher", "'선생'", "entity name")
 t("A being from another world, or so it claims. Despite its wholly alien appearance, it is not particularly threatening nor does it appear to be malevolent. It will not say how it learned to manipulate the powers of entropy, merely stating that it has been to many different places and experienced many different things.", "다른 세계에서 온, 또는 그렇게 주장하는 존재입니다. 완전히 이 세계의 것이 아닌 외모에도 불구하고, 위협적이거나 악의를 품고 있는 것 같지는 않습니다. 이 존재가 어떻게 엔트로피의 힘을 조작하는 법을 배웠는지는 말해주지 않지만, 많은 장소와 많은 것들을 경험했다고 말합니다.", "_t")
 t("training", "훈련용", "entity type")
 t("dummy", "더미", "entity subtype")
@@ -4056,7 +4056,7 @@ t("name", "이름", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/ft-cultist/zone.lua"
 
-t("The Teacher's Abode", "선생님의 집", "_t")
+t("The Teacher's Abode", "선생의 거처", "_t")
 t([[Lesson 1: Entropic Gift
 %d/3 entropic gifts used]], [[첫 번째 수업: 엔트로피의 선물
 엔트로피의 선물 %d/3 회 사용함]], "tformat")
