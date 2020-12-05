@@ -437,7 +437,7 @@ t("I have gold, you have equipment. This doesn't need to be any more complicated
 t("Those are some pretty fancy guns. Think it'll be hard to get your blood out of the gears?", "총 멋지군. 그런 장비가 있으면 내가 너희 목을 따는 게 더 힘들어질 것 같나?", "_t")
 t([[#LIGHT_GREEN#*She smiles, relieved but also slightly disappointed.*#WHITE#
 Couldn't have said it better myself. Come on in - and try not to scare the other patrons.]], [[#LIGHT_GREEN#*경비병이 미소를 짓습니다. 안심한 것 같지만, 약간 실망한 것 같기도 합니다.*#WHITE#
-충분하지. 들어와라 - 그리고 다른 경비병들을 겁주진 마라.]], "_t")
+충분하지. 들어와라 - 그리고 다른 손님들을 겁주진 마라.]], "_t")
 t("[enter]", "[들어간다]", "_t")
 t([[Good luck with that, savage.
 #LIGHT_GREEN#*She smirks, and pulls a cord on the wall beside her as her and her partner duck behind cover; a loud bell rings, and you hear a commotion from further inside the shop.*#WHITE#]], [[잘 해 보라고, 미개한 녀석아.
