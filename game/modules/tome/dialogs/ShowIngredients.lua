@@ -62,7 +62,7 @@ function _M:generateList()
 	local i = 0
 	for id, nb in pairs(self.party.ingredients) do
 		local d = self.party:getIngredient(id)
-		list[#list+1] = { dname=d.name, name=d.display_entity:getDisplayString(true):add(_t(d.name)), desc=util.getval(d.desc), cat=_t(d.type), nb=nb==-1 and "inf" or tostring(nb) }
+		list[#list+1] = { dname=d.name, name=d.display_entity:getDisplayString(true):add(_t(d.name, "entity name")), desc=util.getval(d.desc), cat=_t(d.type, "entity type"), nb=nb==-1 and "inf" or tostring(nb) }
 		i = i + 1
 	end
 	-- Add known artifacts

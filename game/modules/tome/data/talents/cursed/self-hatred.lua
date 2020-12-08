@@ -184,7 +184,7 @@ newTalent{
 				reduce = math.floor(dam * (st - lt) / (st))
 			end
 			local length = t.getTime(self, t)
-			if src.logCombat then src:logCombat(self, "#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", is_attk and "an attack" or "damage") end
+			if src.logCombat then src:logCombat(self, "#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", is_attk and _t"an attack" or _t"damage") end
 			dam = dam - reduce
 			
 			self:setEffect(self.EFF_SELF_JUDGEMENT, length, {power=reduce/length})

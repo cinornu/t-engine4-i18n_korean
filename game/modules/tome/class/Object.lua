@@ -422,7 +422,7 @@ function _M:descAttribute(attr)
 		for ttn, i in pairs(self.wielder.talents_types_mastery) do
 			local tt = Talents.talents_types_def[ttn]
 			local cat = tt.type:gsub("/.*", "")
-			local name = _t(cat):capitalize().._t(" / ")..tt.name:capitalize()
+			local name = _t(cat, "talent category"):capitalize().._t(" / ")..tt.name:capitalize()
 			tms[#tms+1] = ("%0.2f %s"):tformat(i, name)
 		end
 		return table.concat(tms, ",")
@@ -554,7 +554,7 @@ end
 function _M:getName(t)
 	t = t or {}
 	local qty = self:getNumber()
-	local name = _t(self.name) or _t"object"
+	local name = _t(self.name, "entity name") or _t"object"
 	if t.trans_only then
 		return name
 	end
@@ -1612,7 +1612,7 @@ function _M:getTextualDesc(compare_with, use_actor)
 				local tt = Talents.talents_types_def[ttn]
 				if tt then
 					local cat = tt.type:gsub("/.*", "")
-					local name = _t(cat):capitalize().._t(" / ")..tt.name:capitalize()
+					local name = _t(cat, "talent category"):capitalize().._t(" / ")..tt.name:capitalize()
 					local diff = (ttid[2] or 0) - (ttid[1] or 0)
 					if diff ~= 0 then
 						if ttid[1] then
@@ -1991,7 +1991,7 @@ function _M:getTextualDesc(compare_with, use_actor)
 				desc.add(("Attach on item of type '#ORANGE#%s#LAST#'"):tformat(self.on_type):toTString(), true)
 			end
 		end
-		if self.on_slot then desc.add(("Attach on item worn on slot '#ORANGE#%s#LAST#'"):tformat(self.on_slot:lower():gsub('_', ' ')):toTString(), true) end
+		if self.on_slot then desc.add(("Attach on item worn on slot '#ORANGE#%s#LAST#'"):tformat(_t(self.on_slot, "entity on slot"):lower():gsub('_', ' ')):toTString(), true) end
 
 		if self.object_tinker and (self.object_tinker.combat or self.object_tinker.wielder) then
 			desc:add({"color","YELLOW"}, _t"When attach to an other item:", {"color", "LAST"}, true)

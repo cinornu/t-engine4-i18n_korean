@@ -262,7 +262,7 @@ function _M:newGame()
 	local nb_unlocks, max_unlocks, categories = self:countBirthUnlocks()
 	local unlocks_order = { class=1, race=2, cometic=3, other=4 }
 	local unlocks = {}
-	for cat, d in pairs(categories) do unlocks[#unlocks+1] = {desc=d.nb.."/"..d.max.." ".._t(cat), order=unlocks_order[cat] or 99} end
+	for cat, d in pairs(categories) do unlocks[#unlocks+1] = {desc=d.nb.."/"..d.max.." ".._t(cat, "talent category"), order=unlocks_order[cat] or 99} end
 	table.sort(unlocks, "order")
 	self.creating_player = true
 	self.extra_birth_option_defs = {}
@@ -803,12 +803,12 @@ end
 function _M:getVaultDescription(e)
 	e = e:findMember{main=true} -- Because vault "chars" are actualy parties for tome
 	return {
-		name = ([[%s the %s %s]]):tformat(e.name, _t(e.descriptor.subrace), _t(e.descriptor.subclass)),
+		name = ([[%s the %s %s]]):tformat(e.name, _t(e.descriptor.subrace, "birth descriptor name"), _t(e.descriptor.subclass, "birth descriptor name")),
 		descriptors = e.descriptor,
 		description = ([[%s the %s %s.
 Difficulty: %s / %s
 Campaign: %s]]):tformat(
-		e.name, _t(e.descriptor.subrace), _t(e.descriptor.subclass),
+		e.name, _t(e.descriptor.subrace, "birth descriptor name"), _t(e.descriptor.subclass, "birth descriptor name"),
 		_t(e.descriptor.difficulty), _t(e.descriptor.permadeath),
 		_t(e.descriptor.world)
 		),

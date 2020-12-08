@@ -139,10 +139,14 @@ function _M:t(lc, src, dst, tag, args_order, special)
 	if args_order then
 		locales_args[lc] = locales_args[lc] or {}
 		set(locales_args[lc], src, tag, args_order)
+	elseif locales_args[lc] and locales_args[lc][tag] then
+		locales_args[lc][tag] = {}
 	end
 	if special then
 		locales_special[lc] = locales_special[lc] or {}
 		set(locales_special[lc], src, tag, special)
+	elseif locales_special[lc] and locales_special[lc][tag] then
+		locales_special[lc][tag] = {}
 	end
 end
 

@@ -34,6 +34,7 @@ function _M:loadDefinition(file, env)
 	if not f and err then error(err) end
 	setfenv(f, setmetatable(env or {
 		newPackage = function(t) self.new(t) end,
+		extendPackage = function(t) self:extendPackage(t) end,
 		load = function(f) self:loadDefinition(f, getfenv(2)) end
 	}, {__index=_G}))
 	f()
@@ -120,4 +121,11 @@ function _M:init(t)
 	for k, e in pairs(t) do self[k] = e end
 
 	packages[t.id] = self
+end
+
+function _M:extendPackage(t)
+	assert(t.id, "no font package id")
+	if packages[t.id] then
+		packages[t.id] = table.merge(packages[t.id], t)
+	end
 end

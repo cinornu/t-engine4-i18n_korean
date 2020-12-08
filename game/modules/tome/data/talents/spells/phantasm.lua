@@ -88,7 +88,7 @@ newTalent{
 		if not p then return end
 		if cb.value <= 0 or src == self then return end
 		if rng.percent(t.getEvade(self, t)) then
-			game:delayedLogDamage(src, self, 0, ("#YELLOW#(%d ignored)#LAST#"):format(cb.value), false)
+			game:delayedLogDamage(src, self, 0, ("#YELLOW#(%d ignored)#LAST#"):tformat(cb.value), false)
 			cb.value = 0
 			return true
 		elseif not p.icd and src.x and src.y then

@@ -280,7 +280,7 @@ function _M:generateList()
 		if added then
 			table.insert(list, where+1, {
 				char="",
-				name=tstring{{"font","bold"}, _t(cat):capitalize().." / "..tt.name:capitalize(), {"font","normal"}},
+				name=tstring{{"font","bold"}, _t(cat, "talent category"):capitalize().." / "..tt.name:capitalize(), {"font","normal"}},
 				type=tt.type,
 				color=function() return {0x80, 0x80, 0x80} end,
 				status="",

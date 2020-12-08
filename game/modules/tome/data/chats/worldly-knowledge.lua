@@ -53,11 +53,11 @@ local function generate_rewards()
 				if player:knowTalentType(tt) == nil then player:setTalentTypeMastery(tt, 1.0) end
 				player:learnTalentType(tt, true)
 			end
-			answers[#answers+1] = {("[%s (at mastery %0.2f)]"):tformat(_t(cat):capitalize().." / "..tt_def.name:capitalize(), 1.0),
+			answers[#answers+1] = {("[%s (at mastery %0.2f)]"):tformat(_t(cat, "talent category"):capitalize().." / "..tt_def.name:capitalize(), 1.0),
 				action=doit,
 				on_select=function(npc, player)
 					game.tooltip_x, game.tooltip_y = 1, 1
-					game:tooltipDisplayAtMap(game.w, game.h, ("#GOLD#%s / %s#LAST#\n"):tformat(_t(cat):capitalize(), tt_def.name:capitalize(), tt_def.description))
+					game:tooltipDisplayAtMap(game.w, game.h, ("#GOLD#%s / %s#LAST#\n"):tformat(_t(cat, "talent category"):capitalize(), tt_def.name:capitalize(), tt_def.description))
 				end,
 			}
 		end end

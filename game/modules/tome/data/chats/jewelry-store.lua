@@ -70,7 +70,7 @@ local imbue_ring = function(npc, player)
 				player:incMoney(-price)
 				player:removeObject(player:getInven("INVEN"), gem_item)
 
-				new_ring.name = ("%s %s ring"):tformat(_t(ring.short_name) or _t(ring.name) or _t"weird", _t(gem.name))
+				new_ring.name = ("%s %s ring"):tformat(_t(ring.short_name, "entity short_name") or _t(ring.name) or _t"weird", _t(gem.name))
 				new_ring:identify(true)
 				-- player:addObject(player:getInven("INVEN"), new_ring)
 				ring:replaceWith(new_ring)

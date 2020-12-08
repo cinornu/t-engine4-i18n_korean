@@ -613,5 +613,5 @@ function _M:him_her() return string.him_her(self) end
 function _M:his_her_self() return string.his_her_self(self) end
 
 function _M:getName()
-	return _t(self.name)
+	return _t(self.name, "entity name")
 end
