@@ -994,7 +994,7 @@ newEffect{
 newEffect{
 	name = "Tyrant", image = "talents/tyrant.png",
 	desc = _t"Tyrant",
-	long_desc = function(self, eff) return ("Your tyranny is increasing your Mindpower and Physicalpower by 2 for each fear applied, for a total of %d"): format(eff.tyrantPower * eff.stacks) end,
+	long_desc = function(self, eff) return ("Your tyranny is increasing your Mindpower and Physicalpower by 2 for each fear applied, for a total of %d"):tformat(eff.tyrantPower * eff.stacks) end,
 	type = "mental",
 	subtype = {  },
 	status = "beneficial",

@@ -105,7 +105,7 @@ function _M:onPartyDeath(src, death_note)
 				}
 			end
 			msg = ("%s the level %d %s %s was %s to death by %s%s%s on level %s of %s."):tformat(
-				game.player.name, game.player.level, _t(game.player.descriptor.subrace):lower(), _t(game.player.descriptor.subclass):lower(),
+				game.player.name, game.player.level, _t(game.player.descriptor.subrace, "birth descriptor name"):lower(), _t(game.player.descriptor.subclass, "birth descriptor name"):lower(),
 				death_mean or _t"battered",
 				srcname,
 				src.name == top_killer and _t" (yet again)" or "",
@@ -113,7 +113,7 @@ function _M:onPartyDeath(src, death_note)
 				game.level.level, game.zone.name
 			)
 			short_msg = ("%s(%d %s %s) was %s to death by %s%s on %s %s."):tformat(
-				game.player.name, game.player.level, _t(game.player.descriptor.subrace):lower(), _t(game.player.descriptor.subclass):lower(),
+				game.player.name, game.player.level, _t(game.player.descriptor.subrace, "birth descriptor name"):lower(), _t(game.player.descriptor.subclass, "birth descriptor name"):lower(),
 				death_mean or _t"battered",
 				srcname,
 				killermsg,
@@ -121,12 +121,12 @@ function _M:onPartyDeath(src, death_note)
 			)
 		else
 			msg = ("%s the level %d %s %s %s on level %s of %s."):tformat(
-				game.player.name, game.player.level, _t(game.player.descriptor.subrace):lower(), _t(game.player.descriptor.subclass):lower(),
+				game.player.name, game.player.level, _t(game.player.descriptor.subrace, "birth descriptor name"):lower(), _t(game.player.descriptor.subclass, "birth descriptor name"):lower(),
 				death_note.special_death_msg,
 				game.level.level, game.zone.name
 			)
 			short_msg = ("%s(%d %s %s) %s on %s %s."):tformat(
-				game.player.name, game.player.level, _t(game.player.descriptor.subrace):lower(), _t(game.player.descriptor.subclass):lower(),
+				game.player.name, game.player.level, _t(game.player.descriptor.subrace, "birth descriptor name"):lower(), _t(game.player.descriptor.subclass, "birth descriptor name"):lower(),
 				death_note.special_death_msg,
 				game.zone.name, game.level.level
 			)

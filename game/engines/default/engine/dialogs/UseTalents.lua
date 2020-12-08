@@ -122,7 +122,7 @@ function _M:generateList()
 		end
 
 		if added then
-			table.insert(list, where+1, { char="", name=tstring{{"font","bold"}, _t(cat):capitalize().." / "..tt.name:capitalize(), {"font","normal"}}, type=tt.type, color={0x80, 0x80, 0x80}, status="", desc=tt.description })
+			table.insert(list, where+1, { char="", name=tstring{{"font","bold"}, _t(cat, "talent category"):capitalize().." / "..tt.name:capitalize(), {"font","normal"}}, type=tt.type, color={0x80, 0x80, 0x80}, status="", desc=tt.description })
 		end
 	end
 	for i = 1, #list do list[i].id = i end

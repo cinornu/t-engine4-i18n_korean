@@ -296,7 +296,7 @@ function _M:dumpToJSON(js, bypass, nosub)
 		local ttknown = self:knowTalentType(tt.type)
 		if not (self.talents_types[tt.type] == nil) and ttknown then
 			local cat = tt.type:gsub("/.*", "")
-			local catname = ("%s / %s"):format(_t(cat):capitalize(), tt.name:capitalize())
+			local catname = ("%s / %s"):format(_t(cat, "talent category"):capitalize(), tt.name:capitalize())
 			local td = { list={}, mastery = ("%.02f"):format(self:getTalentTypeMastery(tt.type)), kind=tt.generic and "generic" or "class" }
 			tdef[catname] = td
 

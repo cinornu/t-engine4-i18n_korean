@@ -42,7 +42,7 @@ end
 -- @param src the actor who did it
 function _M:achievementWho(src)
 	local p = game.party:findMember{main=true}
-	return ("%s the %s %s level %s"):tformat(p.name, _t(p.descriptor.subrace), _t(p.descriptor.subclass), p.level)
+	return ("%s the %s %s level %s"):tformat(p.name, _t(p.descriptor.subrace), _t(p.descriptor.subclass, "birth descriptor name"), p.level)
 end
 
 --- Gain an achievement

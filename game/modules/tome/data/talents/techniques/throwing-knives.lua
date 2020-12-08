@@ -192,7 +192,7 @@ APR: %d
 Crit Chance: %+d%%
 Crit mult: %d%%
 Uses Stats: %s
-]]):tformat(t.range(self, t), dmg, dmg*damrange, atk, _t(talented), apr, crit, crit_mult, stat_desc)
+]]):tformat(t.range(self, t), dmg, dmg*damrange, atk, _t(talented, "entity combat talented"), apr, crit, crit_mult, stat_desc)
 	end,
 	info = function(self, t)
 		local nb = t.getNb(self,t)

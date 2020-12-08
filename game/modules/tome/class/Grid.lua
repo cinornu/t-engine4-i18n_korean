@@ -153,7 +153,7 @@ end
 -- Gets the full name of the grid
 function _M:getName()
 	-- I18N grid names.
-	local name = _t(self.name) or _t"spot"
+	local name = _t(self.name, "entity name") or _t"spot"
 	if self.summoner and self.summoner.name then
 		return ("%s's %s"):tformat(self.summoner:getName():capitalize(), name)
 	else
@@ -222,7 +222,7 @@ function _M:tooltip(x, y)
 	
 
 	if config.settings.cheat then
-		tstr:add(true, _t(tostring(rawget(self, "type"))), " / ", _t(tostring(rawget(self, "subtype"))))
+		tstr:add(true, _t(tostring(rawget(self, "type")), "entity type"), " / ", _t(tostring(rawget(self, "subtype")), "entity subtype"))
 		tstr:add(true, "UID: ", tostring(self.uid), true, _t"Coords: ", tostring(x), "x", tostring(y))
 	
 		-- debugging info

@@ -90,7 +90,7 @@ end
 
 --gets the full name of the projectile
 function _M:getName()
-	local name = _t(self.name) or _t"projectile"
+	local name = _t(self.name, "entity name") or _t"projectile"
 	if self.src and self.src.name then
 		return ("%s's %s"):tformat(self.src:getName():capitalize(), name)
 	else

@@ -2,131 +2,129 @@ locale "zh_hans"
 -- COPY
 forceFontPackage("chinese")
 setFlag("break_text_all_character", true)
-
 ------------------------------------------------
-section "always_merge"
+section ".always_merge"
 
-t("3-head", "三头蛇", nil)
-t("3-headed hydra", "三头蛇", nil)
-t("Agrimley the hermit", "隐居者亚格雷姆利", nil)
-t("Allied Kingdoms", "联合王国", nil)
-t("Angolwen", "安格利文", nil)
-t("Assassin lair", "盗贼巢穴", nil)
-t("Control Room", "控制室", nil)
-t("Cosmic Fauna", "太空生物", nil)
-t("Dreadfell", "恐惧王座", nil)
-t("Enemies", "敌人", nil)
-t("Experimentation Room", "实验室", nil)
-t("Exploratory Farportal", "异度传送门", nil)
-t("FINGER", "戒指", nil)
-t("Fearscape", "恶魔空间", nil)
-t("Hall of Reflection", "反射之间", nil)
-t("Horrors", "恐魔", nil)
-t("Iron Throne", "钢铁王座", nil)
-t("Keepers of Reality", "现实守卫", nil)
-t("MAINHAND", "主手", nil)
-t("Marus of Elvala", "埃尔瓦拉的马鲁斯", nil)
-t("OFFHAND", "副手", nil)
-t("Orc Pride", "兽人部落", nil)
-t("Portal Room", "传送门房间", nil)
-t("Rhalore", "罗兰精灵", nil)
-t("Sandworm Burrowers", "钻地沙虫", nil)
-t("Shalore", "永恒精灵", nil)
-t("Shasshhiy'Kaish", "莎西·凯希", nil)
-t("Sher'Tul", "夏·图尔", nil)
-t("Slavers", "奴隶贩子", nil)
-t("Sorcerers", "法师", nil)
-t("Stire of Derth", "德斯镇的斯泰尔", nil)
-t("Storage Room", "存储间", nil)
-t("Sunwall", "太阳堡垒", nil)
-t("Temple of Creation", "造物者神庙", nil)
-t("Thalore", "自然精灵", nil)
-t("The Way", "维网", nil)
+t("3-head", "三头蛇", "nil")
+t("3-headed hydra", "三头蛇", "nil")
+t("Agrimley the hermit", "隐居者亚格雷姆利", "nil")
+t("Allied Kingdoms", "联合王国", "nil")
+t("Angolwen", "安格利文", "nil")
+t("Assassin lair", "盗贼巢穴", "nil")
+t("Control Room", "控制室", "nil")
+t("Cosmic Fauna", "太空生物", "nil")
+t("Dreadfell", "恐惧王座", "nil")
+t("Enemies", "敌人", "nil")
+t("Experimentation Room", "实验室", "nil")
+t("Exploratory Farportal", "异度传送门", "nil")
+t("FINGER", "戒指", "nil")
+t("Fearscape", "恶魔空间", "nil")
+t("Hall of Reflection", "反射之间", "nil")
+t("Horrors", "恐魔", "nil")
+t("Iron Throne", "钢铁王座", "nil")
+t("Keepers of Reality", "现实守卫", "nil")
+t("MAINHAND", "主手", "nil")
+t("Marus of Elvala", "埃尔瓦拉的马鲁斯", "nil")
+t("OFFHAND", "副手", "nil")
+t("Orc Pride", "兽人部落", "nil")
+t("Portal Room", "传送门房间", "nil")
+t("Rhalore", "罗兰精灵", "nil")
+t("Sandworm Burrowers", "钻地沙虫", "nil")
+t("Shalore", "永恒精灵", "nil")
+t("Shasshhiy'Kaish", "莎西·凯希", "nil")
+t("Sher'Tul", "夏·图尔", "nil")
+t("Slavers", "奴隶贩子", "nil")
+t("Sorcerers", "法师", "nil")
+t("Stire of Derth", "德斯镇的斯泰尔", "nil")
+t("Storage Room", "存储间", "nil")
+t("Sunwall", "太阳堡垒", "nil")
+t("Temple of Creation", "造物者神庙", "nil")
+t("Thalore", "自然精灵", "nil")
+t("The Way", "维网", "nil")
 t([[Today is the %s %s of the %s year of the Age of Ascendancy of Maj'Eyal.
 The time is %02d:%02d.]], [[今天是马基·埃亚尔卓越纪%s年，%s %s 。
-当前时间 %02d:%02d。]], nil, {3,2,1,4,5})
-t("Undead", "不死族", nil)
-t("Ungrol of Last Hope", "最后的希望的温格洛", nil)
-t("Vargh Republic", "瓦尔弗娜迦共和国", nil)
-t("Victim", "受害者", nil)
-t("Water lair", "水下墓穴", nil)
-t("Zigur", "伊格", nil)
-t("absolute", "绝对", nil)
-t("armours", "护甲", nil)
-t("bomb", "炸弹", nil)
-t("bonestaff", "白骨法杖", nil)
-t("cannister", "罐子", nil)
-t("charged", "电能", nil)
-t("combat", "战斗", nil)
-t("daikara", "岱卡拉", nil)
-t("default", "默认", nil)
-t("demon", "恶魔", nil)
-t("dragon", "龙", nil)
-t("dream", "梦境", nil)
-t("east", "东面", nil)
-t("exit", "出口", nil)
-t("harmonystaff", "和谐法杖", nil)
-t("humanoid", "人形生物", nil)
-t("humanoid/orc", "人形生物/兽人", nil)
-t("husk", "尸傀", nil)
-t("hydra", "多头蛇", nil)
-t("image", "镜像", nil)
-t("injured seer", "受伤的先知", nil)
-t("kinetic", "动能", nil)
-t("living", "生命", nil)
-t("lone alchemist", "落单的炼金术师", nil)
-t("lost defiler", "迷路的堕落者", nil)
-t("lost sun paladin", "迷路的太阳骑士", nil)
-t("lost warrior", "迷路的战士", nil)
-t("magestaff", "元素法杖", nil)
-t("magical", "魔法", nil)
-t("mainhand", "主手", nil)
-t("melee", "近战", nil)
-t("mental", "精神", nil)
-t("mountain chain", "山脉", nil)
-t("movement", "移动", nil)
-t("north", "北面", nil)
-t("northeast", "东北面", nil)
-t("northwest", "西北面", nil)
-t("offhand", "副手", nil)
-t("portal", "传送门", nil)
-t("portal back", "返回传送门", nil)
-t("ranged", "远程", nil)
-t("repented thief", "忏悔的盗贼", nil)
-t("rimebark", "雾凇", nil)
-t("seed", "种子", nil)
-t("south", "南面", nil)
-t("southeast", "东南面", nil)
-t("southwest", "西南面", nil)
-t("spell", "法术", nil)
-t("standard", "标准", nil)
-t("standby", "乖乖站好", nil)
-t("starstaff", "群星法杖", nil)
-t("steambot", "蒸汽机器人", nil)
-t("stone golem", "岩石傀儡", nil)
-t("summon", "召唤", nil)
-t("summoned", "召唤物", nil)
-t("tank", "肉盾", nil)
-t("temporal explorer", "时空旅行者", nil)
-t("temporal hound", "时空猎犬", nil)
-t("thermal", "热能", nil)
-t("throwing", "投掷", nil)
-t("turtle", "乌龟", nil)
-t("unarmed", "徒手", nil)
-t("undead", "亡灵", nil)
-t("unliving", "非活物", nil)
-t("unnatural", "非自然生物", nil)
-t("unseen", "没有看见", nil)
-t("vilestaff", "邪恶法杖", nil)
-t("volcanic mountains", "火山山脉", nil)
-t("war hound", "战争猎犬", nil)
-t("weapons", "武器", nil)
-t("west", "西面", nil)
-t("worried loremaster", "担忧的贤者", nil)
-
+当前时间 %02d:%02d。]], "nil", {3,2,1,4,5})
+t("Undead", "不死族", "nil")
+t("Ungrol of Last Hope", "最后的希望的温格洛", "nil")
+t("Vargh Republic", "瓦尔弗娜迦共和国", "nil")
+t("Victim", "受害者", "nil")
+t("Water lair", "水下墓穴", "nil")
+t("Zigur", "伊格", "nil")
+t("absolute", "绝对", "nil")
+t("armours", "护甲", "nil")
+t("bomb", "炸弹", "nil")
+t("bonestaff", "白骨法杖", "nil")
+t("cannister", "罐子", "nil")
+t("charged", "电能", "nil")
+t("combat", "战斗", "nil")
+t("daikara", "岱卡拉", "nil")
+t("default", "默认", "nil")
+t("demon", "恶魔", "nil")
+t("dragon", "龙", "nil")
+t("dream", "梦境", "nil")
+t("east", "东面", "nil")
+t("exit", "出口", "nil")
+t("harmonystaff", "和谐法杖", "nil")
+t("humanoid", "人形生物", "nil")
+t("humanoid/orc", "人形生物/兽人", "nil")
+t("husk", "尸傀", "nil")
+t("hydra", "多头蛇", "nil")
+t("image", "镜像", "nil")
+t("injured seer", "受伤的先知", "nil")
+t("kinetic", "动能", "nil")
+t("living", "生命", "nil")
+t("lone alchemist", "落单的炼金术师", "nil")
+t("lost defiler", "迷路的堕落者", "nil")
+t("lost sun paladin", "迷路的太阳骑士", "nil")
+t("lost warrior", "迷路的战士", "nil")
+t("magestaff", "元素法杖", "nil")
+t("magical", "魔法", "nil")
+t("mainhand", "主手", "nil")
+t("melee", "近战", "nil")
+t("mental", "精神", "nil")
+t("mountain chain", "山脉", "nil")
+t("movement", "移动", "nil")
+t("north", "北面", "nil")
+t("northeast", "东北面", "nil")
+t("northwest", "西北面", "nil")
+t("offhand", "副手", "nil")
+t("portal", "传送门", "nil")
+t("portal back", "返回传送门", "nil")
+t("ranged", "远程", "nil")
+t("repented thief", "忏悔的盗贼", "nil")
+t("rimebark", "雾凇", "nil")
+t("seed", "种子", "nil")
+t("south", "南面", "nil")
+t("southeast", "东南面", "nil")
+t("southwest", "西南面", "nil")
+t("spell", "法术", "nil")
+t("standard", "标准", "nil")
+t("standby", "乖乖站好", "nil")
+t("starstaff", "群星法杖", "nil")
+t("steambot", "蒸汽机器人", "nil")
+t("stone golem", "岩石傀儡", "nil")
+t("summon", "召唤", "nil")
+t("summoned", "召唤物", "nil")
+t("tank", "肉盾", "nil")
+t("temporal explorer", "时空旅行者", "nil")
+t("temporal hound", "时空猎犬", "nil")
+t("thermal", "热能", "nil")
+t("throwing", "投掷", "nil")
+t("turtle", "乌龟", "nil")
+t("unarmed", "徒手", "nil")
+t("undead", "亡灵", "nil")
+t("unliving", "非活物", "nil")
+t("unnatural", "非自然生物", "nil")
+t("unseen", "没有看见", "nil")
+t("vilestaff", "邪恶法杖", "nil")
+t("volcanic mountains", "火山山脉", "nil")
+t("war hound", "战争猎犬", "nil")
+t("weapons", "武器", "nil")
+t("west", "西面", "nil")
+t("worried loremaster", "担忧的贤者", "nil")
 
 ------------------------------------------------
-section "game/engines/default/data/keybinds/actions.lua"
+section "engine/data/keybinds/actions.lua"
 
 t("Go to next/previous level", "到下一层/上一层地图", "_t")
 t("Levelup window", "打开升级窗口", "_t")
@@ -145,24 +143,21 @@ t("Switch graphical modes", "切换图形模式", "_t")
 t("Accept action", "确认操作", "_t")
 t("Exit menu", "退出目录", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/data/keybinds/chat.lua"
+section "engine/data/keybinds/chat.lua"
 
 t("Talk to people", "与人交谈", "_t")
 t("Display chat log", "显示聊天记录", "_t")
 t("Cycle chat channels", "切换聊天频道", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/data/keybinds/debug.lua"
+section "engine/data/keybinds/debug.lua"
 
 t("Show Lua console", "显示Lua控制台", "_t")
 t("Debug Mode", "调试模式", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/data/keybinds/hotkeys.lua"
+section "engine/data/keybinds/hotkeys.lua"
 
 t("Hotkey 1", "快捷键 1", "_t")
 t("Hotkey 2", "快捷键 2", "_t")
@@ -253,9 +248,8 @@ t("Next Hotkey Page", "下一页快捷键", "_t")
 t("Quick switch to Hotkey Page 2", "快速切换到快捷键第2页", "_t")
 t("Quick switch to Hotkey Page 3", "快速切换到快捷键第3页", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/data/keybinds/interface.lua"
+section "engine/data/keybinds/interface.lua"
 
 t("Toggle list of seen creatures", "切换至视野内生物列表", "_t")
 t("Show message log", "显示消息记录", "_t")
@@ -263,9 +257,8 @@ t("Take a screenshot", "屏幕截图", "_t")
 t("Show map", "显示地图", "_t")
 t("Scroll map mode", "地图滚动模式", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/data/keybinds/inventory.lua"
+section "engine/data/keybinds/inventory.lua"
 
 t("Show inventory", "显示物品栏", "_t")
 t("Show equipment", "显示装备", "_t")
@@ -276,9 +269,8 @@ t("Takeoff items", "脱下物品", "_t")
 t("Use items", "使用物品", "_t")
 t("Quick switch weapons set", "快速切换武器", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/data/keybinds/move.lua"
+section "engine/data/keybinds/move.lua"
 
 t("Move left", "向左移动", "_t")
 t("Move right", "向右移动", "_t")
@@ -299,28 +291,25 @@ t("Run diagonally right and up", "向右上方奔跑", "_t")
 t("Run diagonally left and down", "向左下方奔跑", "_t")
 t("Run diagonally right and down", "向右下方奔跑", "_t")
 t("Auto-explore", "自动探索", "_t")
+t("movement", "移动", "_t")
 t("Move left (WASD directions)", "向左移动 (WASD 方向键)", "_t")
 t("Move right (WASD directions)", "向右移动 (WASD 方向键)", "_t")
 t("Move up (WASD directions)", "向上移动 (WASD 方向键)", "_t")
-t("movement", "移动", "_t")
 t("Move down (WASD directions)", "向下移动 (WASD 方向键)", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/data/keybinds/mtxn.lua"
+section "engine/data/keybinds/mtxn.lua"
 
 t("List purchasable", "列出可购买物品", "_t")
 t("Use purchased", "使用已购买物品", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/ActorsSeenDisplay.lua"
+section "engine/engine/ActorsSeenDisplay.lua"
 
 t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE#; 距离 [%s]", "tformat")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Birther.lua"
+section "engine/engine/Birther.lua"
 
 t("Enter your character's name", "输入角色名称", "_t")
 t("Name", "名称", "_t")
@@ -330,81 +319,76 @@ Mouse: #00FF00#Left click#FFFFFF# to accept; #00FF00#right click#FFFFFF# to go b
 ]], [[键盘：#00FF00#上/下键#FFFFFF#选择选项，#00FF00#回车#FFFFFF#键确定;#00FF00#退格#FFFFFF#键返回。
 鼠标：#00FF00#左键#FFFFFF#接受，#00FF00#右键#FFFFFF#返回。]], "_t")
 t("Random", "随机", "_t")
-t("Do you want to recreate the same character?", "你想要以同一角色重新生成吗？", "_t")
 t("Quick Birth", "快速角色生成", "_t")
-t("New character", "新角色", "_t")
+t("Do you want to recreate the same character?", "你想要以同一角色重新生成吗？", "_t")
 t("Recreate", "重新生成角色？", "_t")
+t("New character", "新角色", "_t")
 t("Randomly selected %s.", "随机选择%s。", "log")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/DebugConsole.lua"
+section "engine/engine/DebugConsole.lua"
 
 t("Lua Console", "Lua 控制台", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Dialog.lua"
+section "engine/engine/Dialog.lua"
 
 t("Yes", "是", "_t")
 t("No", "否", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Game.lua"
+section "engine/engine/Game.lua"
 
+t("Screenshot taken!", "屏幕截图已保存", "_t")
 t([[Screenshot should appear in your Steam client's #LIGHT_GREEN#Screenshots Library#LAST#.
 Also available on disk: %s]], [[屏幕截图将会保存在你Steam客户端的#LIGHT_GREEN#截图库#LAST#中。
 也保存在硬盘上：%s]], "tformat")
 t("File: %s", "文件：%s", "tformat")
-t("Screenshot taken!", "屏幕截图已保存", "_t")
-
 
 ------------------------------------------------
-section "game/engines/default/engine/HotkeysDisplay.lua"
+section "engine/engine/HotkeysDisplay.lua"
 
 t("Missing!", "不见了！", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/HotkeysIconsDisplay.lua"
+section "engine/engine/HotkeysIconsDisplay.lua"
 
 t("Unknown!", "未知!", "_t")
 t("Missing!", "不见了！", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/I18N.lua"
+section "engine/engine/I18N.lua"
 
 t("Testing arg one %d and two %d", "测试参数1 %d和参数2 %d", "tformat")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Key.lua"
+section "engine/engine/Key.lua"
 
 t("#LIGHT_RED#Keyboard input temporarily disabled.", "#LIGHT_RED#暂时禁用键盘输入。", "log")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/LogDisplay.lua"
+section "engine/engine/LogDisplay.lua"
 
 t("Message Log", "消息日志", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/MicroTxn.lua"
+section "engine/engine/MicroTxn.lua"
 
 t("Test", "测试", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Module.lua"
+section "engine/engine/Module.lua"
 
-t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#插件开发者可以通过开启调试模式继续测试他们的插件。#{normal}#", "_t")
 t("Beta Addons Disabled", "Beta版禁用插件", "_t")
 t([[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
 #GREY#]], [[本Beta版本设计上用于纯原版测试环境，因此，以下插件被自动禁用:
 #GREY#]], "_t")
+t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#插件开发者可以通过开启调试模式继续测试他们的插件。#{normal}#", "_t")
 t([[Total playtime of all registered players:%s
 ]], [[注册玩家总游玩时间:%s
 ]], "tformat")
@@ -418,15 +402,13 @@ t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners
 t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "最近的捐赠者是#LIGHT_GREEN#%s#WHITE#。感谢所有捐赠者，是你们让这个游戏保持继续！", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#由于 %s ，在线存档无法运行（切换至离线存档）", "log")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Mouse.lua"
+section "engine/engine/Mouse.lua"
 
 t("#LIGHT_RED#Mouse input temporarily disabled.", "#LIGHT_RED#暂时禁用鼠标输入。", "log")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Object.lua"
+section "engine/engine/Object.lua"
 
 t("Requires:", "装备需求：", "_t")
 t("%s (level %d)", "%s (等级 %d)", "tformat")
@@ -434,47 +416,44 @@ t("Level %d", "等级 %d", "tformat")
 t("Talent %s (level %d)", "技能 %s (等级 %d)", "tformat")
 t("Talent %s", "技能 %s", "tformat")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/PlayerProfile.lua"
+section "engine/engine/PlayerProfile.lua"
 
 t("#YELLOW#Connection to online server established.", "#YELLOW#连接至在线服务器。", "log")
 t("#YELLOW#Connection to online server lost, trying to reconnect.", "#YELLOW#与在线服务器的连接丢失，尝试重新连接。", "log")
-t("bad game version", "游戏版本错误", "_t")
-t("nothing to update", "无需更新", "_t")
-t("bad game addon version", "游戏插件版本错误", "_t")
 t("no online profile active", "未开启在线存档", "_t")
 t("cheat mode active", "已开启作弊模式", "_t")
 t("savefile tainted", "存档文件被修改", "_t")
+t("bad game version", "游戏版本错误", "_t")
+t("bad game addon version", "游戏插件版本错误", "_t")
+t("nothing to update", "无需更新", "_t")
 t("unknown error", "未知错误", "_t")
-t("Character is being registered on https://te4.org/", "正在注册角色到 https://te4.org/", "_t")
 t("Registering character", "正在注册角色", "_t")
+t("Character is being registered on https://te4.org/", "正在注册角色到 https://te4.org/", "_t")
 t("Retrieving data from the server", "正在从服务端拉取数据…", "_t")
 t("Retrieving...", "正在拉取…", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Quest.lua"
+section "engine/engine/Quest.lua"
 
 t("active", "正在进行", "_t")
 t("completed", "完成", "_t")
 t("done", "结束", "_t")
 t("failed", "失败", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/Savefile.lua"
+section "engine/engine/Savefile.lua"
 
-t("Please wait while saving the world...", "正在保存世界，请稍候…", "_t")
 t("Saving world", "正在保存世界", "_t")
-t("Please wait while saving the game...", "正在保存游戏，请稍候…", "_t")
+t("Please wait while saving the world...", "正在保存世界，请稍候…", "_t")
 t("Saving game", "正在保存游戏", "_t")
-t("Please wait while saving the zone...", "正在保存地图，请稍候…", "_t")
+t("Please wait while saving the game...", "正在保存游戏，请稍候…", "_t")
 t("Saving zone", "正在保存地图", "_t")
-t("Please wait while saving the level...", "正在保存楼层，请稍候…", "_t")
+t("Please wait while saving the zone...", "正在保存地图，请稍候…", "_t")
 t("Saving level", "正在保存楼层", "_t")
-t("Please wait while saving the entity...", "正在保存实体，请稍候…", "_t")
+t("Please wait while saving the level...", "正在保存楼层，请稍候…", "_t")
 t("Saving entity", "正在保存实体", "_t")
+t("Please wait while saving the entity...", "正在保存实体，请稍候…", "_t")
 t("Loading world", "正在读取世界", "_t")
 t("Please wait while loading the world...", "正在读取世界，请稍候…", "_t")
 t("Loading game", "正在读取游戏", "_t")
@@ -486,36 +465,37 @@ t("Please wait while loading the level...", "正在读取楼层，请稍候…",
 t("Loading entity", "正在读取实体", "_t")
 t("Please wait while loading the entity...", "正在读取实体，请稍候…", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/SavefilePipe.lua"
+section "engine/engine/SavefilePipe.lua"
 
 t("Saving done.", "保存完毕。", "log")
-t("Please wait while saving...", "正在保存，请稍候…", "_t")
 t("Saving...", "正在保存…", "_t")
-
+t("Please wait while saving...", "正在保存，请稍候…", "_t")
 
 ------------------------------------------------
-section "game/engines/default/engine/Store.lua"
+section "engine/engine/Store.lua"
 
 t("Store: %s", "商店：%s", "tformat")
-t("Buy %d %s", "购买%d个%s", "tformat")
 t("Buy", "购买", "_t")
-t("Sell %d %s", "出售%d个%s", "tformat")
+t("Buy %d %s", "购买%d个%s", "tformat")
 t("Cancel", "取消", "_t")
 t("Sell", "出售", "_t")
-
+t("Sell %d %s", "出售%d个%s", "tformat")
 
 ------------------------------------------------
-section "game/engines/default/engine/Trap.lua"
+section "engine/engine/Trap.lua"
 
 t("%s fails to disarm a trap (%s).", "%s 拆除陷阱（ %s ）失败。", "logSeen")
 t("%s disarms a trap (%s).", "%s 拆除了陷阱（ %s ）。", "logSeen")
 t("%s triggers a trap (%s)!", "%s 触发了陷阱（ %s ）！", "logSeen")
+-- untranslated text
+--[==[
+t("%s", "%s", "logSeen")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/UserChat.lua"
+section "engine/engine/UserChat.lua"
 
 t("Ignoring all new messages from %s.", "拒收所有来自%s的消息。", "log")
 t([[#{bold}#Thank you#{normal}# for you donation, your support means a lot for the continued survival of this game.
@@ -539,46 +519,49 @@ t("#{italic}#Left channel#{normal}#", "#{italic}#已退出频道#{normal}#", "_t
 t("#{italic}##FIREBRICK#has joined the channel#{normal}#", "#{italic}##FIREBRICK#已加入频道#{normal}#", "_t")
 t("#{italic}##FIREBRICK#has left the channel#{normal}#", "#{italic}##FIREBRICK#已退出频道#{normal}#", "_t")
 t("#CRIMSON#You are not subscribed to any channel, you can change that in the game options.#LAST#", "#CRIMSON#你没有关注任何频道，你可以在游戏设置中调节这一选项。#LAST#", "log")
+t("Requesting...", "正在请求...", "_t")
+t("Requesting user info...", "正在请求用户信息...", "_t")
 t("Error", "错误", "_t")
 t("The server does not know about this player.", "服务器里没有这个玩家", "_t")
-t("Requesting user info...", "正在请求用户信息...", "_t")
-t("Requesting...", "正在请求...", "_t")
-
 
 ------------------------------------------------
-section "game/engines/default/engine/Zone.lua"
+section "engine/engine/Zone.lua"
 
 t("Loading level", "正在读取楼层", "_t")
 t("Please wait while loading the level... ", "正在读取楼层，请稍候……", "_t")
 t("Generating level", "正在生成楼层", "_t")
 t("Please wait while generating the level... ", "正在生成楼层，请稍候……", "_t")
 
+------------------------------------------------
+section "engine/engine/ai/talented.lua"
+
+
+-- untranslated text
+--[==[
+t("#ORCHID#__[%d]%s improved talented AI picked talent[att:%d, turn %s]: %s", "#ORCHID#__[%d]%s improved talented AI picked talent[att:%d, turn %s]: %s", "log")
+t("__[%d]%s#ORANGE# ACTION FAILED:  %s, %s", "__[%d]%s#ORANGE# ACTION FAILED:  %s, %s", "log")
+t("#SLATE#__%s[%d] improved talented AI No talents available [att:%d, turn %s]", "#SLATE#__%s[%d] improved talented AI No talents available [att:%d, turn %s]", "log")
+--]==]
+
 
 ------------------------------------------------
-section "game/engines/default/engine/ai/talented.lua"
-
-
-
-------------------------------------------------
-section "game/engines/default/engine/dialogs/AudioOptions.lua"
+section "engine/engine/dialogs/AudioOptions.lua"
 
 t("Audio Options", "音频设置", "_t")
 t("Enable audio", "启用声音", "_t")
 t("Music: ", "音乐：", "_t")
 t("Effects: ", "音效：", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ChatChannels.lua"
+section "engine/engine/dialogs/ChatChannels.lua"
 
 t("Chat channels", "聊天频道", "_t")
 t("Global", "全局", "_t")
 t(" [spoilers]", " [详情]", "_t")
 t("Select which channels to listen to. You can join new channels by typing '/join <channelname>' in the talkbox and leave channels by typing '/part <channelname>'", "选择你参与的聊天频道。你可以在聊天框输入指令 '/join <频道名>' 来加入频道，并通过输入指令 '/part <频道名>' 来离开频道。", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ChatFilter.lua"
+section "engine/engine/dialogs/ChatFilter.lua"
 
 t("Chat filters", "聊天过滤器", "_t")
 t("Public chat", "公开聊天", "_t")
@@ -589,43 +572,39 @@ t("Important achievements (recommended to keep them on)", "重要成就(建议�
 t("Other achievements", "其他成就", "_t")
 t("Select which types of chat events to see or not.", "选择你想要观看或屏蔽的聊天内容。", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ChatIgnores.lua"
+section "engine/engine/dialogs/ChatIgnores.lua"
 
 t("Chat ignore list", "聊天屏蔽列表", "_t")
-t("Really stop ignoring: %s", "真的要停止屏蔽 %s 吗", "tformat")
 t("Stop ignoring", "停止屏蔽", "_t")
+t("Really stop ignoring: %s", "真的要停止屏蔽 %s 吗", "tformat")
 t("Click a user to stop ignoring her/his messages.", "点击一个用户以停止屏蔽他/她的消息", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/DisplayResolution.lua"
+section "engine/engine/dialogs/DisplayResolution.lua"
 
 t("Switch Resolution", "切换分辨率", "_t")
 t("Fullscreen", "全屏", "_t")
 t("Borderless", "无边框", "_t")
 t("Windowed", "窗口模式", "_t")
 t("Engine Restart Required", "需要重启游戏引擎", "_t")
-t(" (progress will be saved)", " (游戏进度会被保存)", "_t")
 t("Continue? %s", "继续吗? %s", "tformat")
+t(" (progress will be saved)", " (游戏进度会被保存)", "_t")
 t("Reset Window Position?", "重设窗口位置？", "_t")
 t("Simply restart or restart+reset window position?", "你要仅重启，还是重启并重设窗口位置？", "_t")
 t("Restart", "重启", "_t")
 t("Restart with reset", "重启并重设", "_t")
-t("No", "否", "_t")
 t("Yes", "是", "_t")
-
+t("No", "否", "_t")
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/Downloader.lua"
+section "engine/engine/dialogs/Downloader.lua"
 
 t("Download: %s", "正在下载：%s", "tformat")
 t("Cancel", "取消", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/GameMenu.lua"
+section "engine/engine/dialogs/GameMenu.lua"
 
 t("Game Menu", "游戏目录", "_t")
 t("Resume", "暂停游戏", "_t")
@@ -636,8 +615,8 @@ t("Display Resolution", "显示分辨率", "_t")
 t("Show Achievements", "显示成就", "_t")
 t("Audio Options", "音频设置", "_t")
 t("#GREY#Developer Mode", "#GREY#开发者模式", "_t")
-t("Disable developer mode?", "关闭开发者模式？", "_t")
 t("Developer Mode", "开发者模式", "_t")
+t("Disable developer mode?", "关闭开发者模式？", "_t")
 t([[Enable developer mode?
 Developer Mode is a special game mode used to debug and create addons.
 Using it will #CRIMSON#invalidate#LAST# any savefiles loaded.
@@ -659,55 +638,54 @@ t("Save Game", "保存游戏", "_t")
 t("Main Menu", "主菜单", "_t")
 t("Exit Game", "退出游戏", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/GetQuantity.lua"
+section "engine/engine/dialogs/GetQuantity.lua"
 
 t("Quantity", "数量", "_t")
 t("Accept", "接受", "_t")
 t("Cancel", "取消", "_t")
-t("Enter a quantity.", "输入数量", "_t")
 t("Error", "错误", "_t")
-
+t("Enter a quantity.", "输入数量", "_t")
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/GetQuantitySlider.lua"
+section "engine/engine/dialogs/GetQuantitySlider.lua"
 
 t("Quantity", "数量", "_t")
 t("Accept", "接受", "_t")
 t("Cancel", "取消", "_t")
-t("Enter a quantity.", "输入数量", "_t")
 t("Error", "错误", "_t")
-
+t("Enter a quantity.", "输入数量", "_t")
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/GetText.lua"
+section "engine/engine/dialogs/GetText.lua"
 
 t("Accept", "接受", "_t")
 t("Cancel", "取消", "_t")
 t("Error", "错误", "_t")
 t("Must be between %i and %i characters.", "必须介于 %i 和 %i 个字符之间", "tformat")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/KeyBinder.lua"
+section "engine/engine/dialogs/KeyBinder.lua"
 
 t("Key bindings", "键位绑定", "_t")
 t("      Press a key (escape to cancel, backspace to remove) for: %s", "      请按钮 (ESC键取消，退格键删除) 以绑定 %s 的键位", "tformat")
-t("Bind alternate key", "绑定替代键位", "_t")
 t("Bind key", "绑定键位", "_t")
+t("Bind alternate key", "绑定替代键位", "_t")
 t("Make gesture (using right mouse button) or type it (or escape) for: %s", "请输入鼠标手势 (使用鼠标右键) 或者按键 (或按ESC取消) 以绑定 %s 的键位", "tformat")
 t("Gesture", "鼠标手势", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/LanguageSelect.lua"
+section "engine/engine/dialogs/LanguageSelect.lua"
 
 t("Language Selection", "语言选择", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowAchievements.lua"
+section "engine/engine/dialogs/ShowAchievements.lua"
 
 t("Achievements(%s/%s)", "成就(%s/%s)", "tformat")
 t("Yours only", "只列出当前角色的", "_t")
@@ -729,29 +707,42 @@ t([[#GOLD#Achieved on:#LAST# %s
 #GOLD#介绍:#LAST# %s]], "tformat")
 t("Progress: ", "进度: ", "_t")
 t("-- Unknown --", "-- 未知 --", "_t")
+-- untranslated text
+--[==[
+t("", "", "_t")
+t("???", "???", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowEquipInven.lua"
+section "engine/engine/dialogs/ShowEquipInven.lua"
 
 t("Inventory", "物品栏", "_t")
-t("Equipment", "装备", "_t")
 t("Category", "分类", "_t")
 t("Enc.", "负重", "_t")
-t("%s assigned to hotkey %s", "%s 已绑定到键位 %s", "tformat")
+t("Equipment", "装备", "_t")
 t("Hotkey %s assigned", "键位 %s 已绑定", "tformat")
+t("%s assigned to hotkey %s", "%s 已绑定到键位 %s", "tformat")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowEquipment.lua"
+section "engine/engine/dialogs/ShowEquipment.lua"
 
 t("Equipment", "装备", "_t")
 t("Category", "分类", "_t")
 t("Enc.", "负重", "_t")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowErrorStack.lua"
+section "engine/engine/dialogs/ShowErrorStack.lua"
 
 t("Lua Error", "Lua脚本错误", "_t")
 t("If you already reported that error, you do not have to do it again (unless you feel the situation is different).", "如果你已经汇报过了这个错误，你不需要再次进行汇报。(除非你认为这一情况和之前有所不同)", "_t")
@@ -771,54 +762,68 @@ t("What happened?: ", "发生了什么？：", "_t")
 t("Send", "发送", "_t")
 t("Close", "关闭", "_t")
 t("Close All", "全部关闭", "_t")
-t("File location copied to clipboard.", "文件位置已复制到剪贴板。", "log")
 t("Log saved to file (click to copy to clipboard):#LIGHT_BLUE#%s", "游戏日志已保存到文件(点击复制到剪贴板):#LIGHT_BLUE#%s", "tformat")
+t("File location copied to clipboard.", "文件位置已复制到剪贴板。", "log")
 t("#YELLOW#Error report sent, thank you.", "#YELLOW#错误报告已发送，谢谢！", "log")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowInventory.lua"
+section "engine/engine/dialogs/ShowInventory.lua"
 
 t("Inventory", "物品栏", "_t")
 t("Category", "分类", "_t")
 t("Enc.", "负重", "_t")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowPickupFloor.lua"
+section "engine/engine/dialogs/ShowPickupFloor.lua"
 
 t("Pickup", "拾取", "_t")
 t("(*) Take all", "(*) 全部拾取", "_t")
 t("Item", "物品", "_t")
 t("Category", "分类", "_t")
 t("Enc.", "负重", "_t")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowQuests.lua"
+section "engine/engine/dialogs/ShowQuests.lua"
 
 t("Quest Log for %s", "%s 的任务日志", "tformat")
 t("Quest", "任务", "_t")
 t("Status", "状态", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowStore.lua"
+section "engine/engine/dialogs/ShowStore.lua"
 
-t("Inventory", "物品栏", "_t")
 t("Store", "商店", "_t")
+t("Inventory", "物品栏", "_t")
 t("Category", "分类", "_t")
 t("Price", "价格", "_t")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ShowText.lua"
+section "engine/engine/dialogs/ShowText.lua"
 
 t("Text", "文本", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/SteamOptions.lua"
+section "engine/engine/dialogs/SteamOptions.lua"
 
 t("Steam Options", "Steam 设置", "_t")
 t([[Enable Steam Cloud saves.
@@ -827,20 +832,24 @@ Disable if you have bandwidth limitations.#WHITE#]], [[启动Steam云存档。
 你的存档会被保存在Steam 云中，可以各处使用。
 如果你的网络带宽有限，请禁用这一设置。#WHITE#]], "_t")
 t("#GOLD##{bold}#Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#云存档#WHITE##{normal}#", "_t")
-t("disabled", "已禁用", "_t")
 t("enabled", "已启用", "_t")
+t("disabled", "已禁用", "_t")
 t([[Purge all Steam Cloud saves.
 This will remove all saves from the cloud cloud (but not your local copy). Only use if you somehow encounter storage problems on it (which should not happen, the game automatically manages it for you).#WHITE#]], [[删除所有Steam云存档。
 这会在Steam云中删除所有的云存档，但不会删除你的本地存档。只有在你遇到存储问题的时候才使用这一功能。(一般情况下这不会发生，游戏会自动管理云存档)
 #WHITE#]], "_t")
 t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#清除云存档#WHITE##{normal}#", "_t")
+t("Steam Cloud Purge", "清除Steam云存档", "_t")
 t("Confirm purge?", "确认删除？", "_t")
 t("All data purged from the cloud.", "所有云存档数据已被删除。", "_t")
-t("Steam Cloud Purge", "清除Steam云存档", "_t")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/Talkbox.lua"
+section "engine/engine/dialogs/Talkbox.lua"
 
 t("Say: ", "说：", "_t")
 t("Accept", "接受", "_t")
@@ -849,10 +858,14 @@ t("Target: ", "目标：", "_t")
 t("Channel: %s", "频道：%s", "tformat")
 t("Friend: %s", "好友：%s", "tformat")
 t("User: %s", "用户：%s", "tformat")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/UseTalents.lua"
+section "engine/engine/dialogs/UseTalents.lua"
 
 t("Use Talents: ", "使用技能：", "tformat")
 t([[You can bind a talent to a hotkey be pressing the corresponding hotkey while selecting a talent.
@@ -862,26 +875,29 @@ Check out the keybinding screen in the game menu to bind hotkeys to a key (defau
 ]], "_t")
 t("Talent", "技能", "_t")
 t("Status", "状态", "_t")
-t("%s assigned to hotkey %s", "%s 已绑定到键位 %s", "tformat")
 t("Hotkey %s assigned", "键位 %s 已绑定", "tformat")
+t("%s assigned to hotkey %s", "%s 已绑定到键位 %s", "tformat")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/UserInfo.lua"
+section "engine/engine/dialogs/UserInfo.lua"
 
 t("User: %s", "用户：%s", "tformat")
 t("Currently playing: ", "正在玩: ", "_t")
 t("unknown", "未知", "_t")
 t("Game: ", "游戏：", "_t")
+t("Validation: ", "认证状态: ", "_t")
 t("Game has been validated by the server", "游戏被服务器认证", "_t")
 t("Game is not validated by the server", "游戏不被服务器认证", "_t")
-t("Validation: ", "认证状态: ", "_t")
 t("Go to online profile", "前往在线用户档案", "_t")
 t("Go to online charsheet", "前往在线角色表", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/VideoOptions.lua"
+section "engine/engine/dialogs/VideoOptions.lua"
 
 t("Video Options", "图像设置", "_t")
 t("Display resolution.", "显示分辨率。", "_t")
@@ -894,6 +910,7 @@ t([[Request this display refresh rate.
 Set it lower to reduce CPU load, higher to increase interface responsiveness.#WHITE#]], [[设置游戏的显示帧率(FPS)。
 降低帧率可以减轻CPU占用，提高帧率可以提升显示效果。#WHITE#]], "_t")
 t("#GOLD##{bold}#Requested FPS#WHITE##{normal}#", "#GOLD##{bold}#FPS设定#WHITE##{normal}#", "_t")
+t("Enter density", "输入密度", "_t")
 t("From 5 to 60", "从 5 到 60", "_t")
 t([[Controls the particle effects density.
 This option allows to change the density of the many particle effects in the game.
@@ -901,7 +918,6 @@ If the game is slow when displaying spell effects try to lower this setting.#WHI
 这一选项会可以改变游戏内的粒子效果密度。
 如果你在施法时发现游戏速度进行较慢，请尝试降低这个设置。#WHITE#]], "_t")
 t("#GOLD##{bold}#Particle effects density#WHITE##{normal}#", "#GOLD##{bold}#粒子效果密度#WHITE##{normal}#", "_t")
-t("Enter density", "输入密度", "_t")
 t("From 0 to 100", "从 0 到 100", "_t")
 t([[Activates antialiased texts.
 Texts will look nicer but it can be slower on some computers.
@@ -911,10 +927,13 @@ Texts will look nicer but it can be slower on some computers.
 
 #LIGHT_RED#你必须重启游戏才能看到效果。#WHITE#]], "_t")
 t("#GOLD##{bold}#Antialiased texts#WHITE##{normal}#", "#GOLD##{bold}#文字抗锯齿#WHITE##{normal}#", "_t")
+t("enabled", "已启用", "_t")
+t("disabled", "已禁用", "_t")
 t([[Apply a global scaling to all fonts.
 Applies after restarting the game]], "全局字体大小调整，重启游戏后生效", "_t")
 t("#GOLD##{bold}#Font Scale#WHITE##{normal}#", "#GOLD##{bold}#字体缩放#WHITE##{normal}#", "_t")
 t("Font Scale %", "字体缩放比率 %", "_t")
+t("From 50 to 300", "从 50 到 300", "_t")
 t([[Activates framebuffers.
 This option allows for some special graphical effects.
 If you encounter weird graphical glitches try to disable it.
@@ -968,14 +987,11 @@ t([[Gamma correction setting.
 Increase this to get a brighter display.#WHITE#]], [[亮度矫正设定。
 提高数值会使画面变亮。#WHITE#]], "_t")
 t("#GOLD##{bold}#Gamma correction#WHITE##{normal}#", "#GOLD##{bold}#亮度矫正#WHITE##{normal}#", "_t")
-t("From 50 to 300", "从 50 到 300", "_t")
 t("Gamma correction", "亮度矫正", "_t")
 t([[Enable/disable usage of tilesets.
 In some rare cases on very slow machines with bad GPUs/drivers it can be detrimental.]], [[开启/关闭图块使用。
 在某些显卡/显卡驱动的很差且很慢的机器上，开启这个选项偶尔可能带来负面效果。]], "_t")
 t("#GOLD##{bold}#Use tilesets#WHITE##{normal}#", "#GOLD##{bold}#图块使用#WHITE##{normal}#", "_t")
-t("disabled", "已禁用", "_t")
-t("enabled", "已启用", "_t")
 t([[Request a specific origin point for the game window.
 This point corresponds to where the upper left corner of the window will be located.
 Useful when dealing with multiple monitors and borderless windows.
@@ -990,24 +1006,27 @@ Note: This value will automatically revert after ten seconds if not confirmed by
 
 注意：如果用户在十秒后不进行确认，这一数值将会自动重置#WHITE#]], "_t")
 t("#GOLD##{bold}#Requested Window Position#WHITE##{normal}#", "#GOLD##{bold}#设置窗口位置#WHITE##{normal}#", "_t")
-t("Enter the x-coordinate", "输入X坐标", "_t")
 t("Window Origin: X-Coordinate", "窗口原点：X坐标", "_t")
-t("Enter the y-coordinate", "输入Y坐标", "_t")
+t("Enter the x-coordinate", "输入X坐标", "_t")
 t("Window Origin: Y-Coordinate", "窗口原点：Y坐标", "_t")
+t("Enter the y-coordinate", "输入Y坐标", "_t")
 t("Position changed.", "位置已修改。", "_t")
 t("Save position?", "保存位置？", "_t")
 t("Accept", "接受", "_t")
 t("Revert", "撤销", "_t")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/ViewHighScores.lua"
+section "engine/engine/dialogs/ViewHighScores.lua"
 
 t("High Scores", "高分榜", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/microtxn/MTXMain.lua"
+section "engine/engine/dialogs/microtxn/MTXMain.lua"
 
 t("%s #GOLD#Purchasables#LAST#", "%s #GOLD#可购买物品#LAST#", "tformat")
 t("Online Store", "在线商城", "_t")
@@ -1043,9 +1062,8 @@ Thanks, and have fun!]], [[欢迎!
 我希望这些能说服你，我并没有什么邪恶的想法（虽然我名为DarkGod）。 我不得不说，内购这种事情让我感觉很龌龊，即使上面这些选项都不影响游戏内容，但为了游戏的未来，我必须想尽办法。
 感谢你看到这里，去享受游戏吧！]], "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/microtxn/ShowPurchasable.lua"
+section "engine/engine/dialogs/microtxn/ShowPurchasable.lua"
 
 t("#{italic}##UMBER#Bonus vault slots from this order: #ROYAL_BLUE#%d#{normal}#", "#{italic}##UMBER#这项购买提供的额外在线共享装备格数： #ROYAL_BLUE#%d#{normal}#", "_t")
 t([[For every purchase of #{italic}##GREY#%s#LAST##{normal}# you gain a permanent additional vault slot.
@@ -1057,13 +1075,17 @@ t([[For every donations you've ever made you have earned voratun coins. These ca
 #GOLD##{italic}#感谢你的支持，每一分钱都让这游戏更加持久!#{normal}#]], "_t")
 t("%s #GOLD#Online Store#LAST#", "%s #GOLD#在线商店#LAST#", "tformat")
 t("#YELLOW#-- connecting to server... --", "#YELLOW#-- 正在连接到服务器... --", "_t")
+t("Purchase", "购买", "_t")
 t("Name", "名称", "_t")
 t("Price", "价格", "_t")
 t("Qty", "数量", "_t")
+t("Online Store", "在线商城", "_t")
 t("You need to be logged in before using the store. Please go back to the main menu and login.", "需要登录游戏账号才能使用商店，请退回主菜单登录。", "_t")
 t("Steam users need to link their profiles to their steam account. This is very easy in just a few clicks. Once this is done, simply restart the game.", "Steam用户需要将游戏账号和Steam账号绑定。这非常简单，只需要数次点击，完成后重启游戏即可。", "_t")
 t("Let's do it! (Opens in your browser)", "开始吧! (在浏览器中打开)", "_t")
+t("Not now", "还是不了", "_t")
 t("The Online Store (and expansions) are only purchasable by players that bought the game. Plaese go have a look at the donation page for more explanations.", "在线商店(和扩展Dlc)只对购买过游戏本体的玩家开放。详情请查看捐赠页面。", "_t")
+t("Let's go! (Opens in your browser)", "去吧！（在浏览器中打开）", "_t")
 t("%0.2f %s", "%0.2f%s", "tformat")
 t("%d coins", "%d币", "tformat")
 t("#{bold}#TOTAL#{normal}#", "#{bold}#总量#{normal}#", "_t")
@@ -1081,22 +1103,19 @@ t("Downloading cosmetic pack: #LIGHT_GREEN#%s", "时装包下载中： #LIGHT_GR
 t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: The pack should be downloading or even finished by now.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}# ：时装包安装剩余时间：", "tformat")
 t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: You can now trigger it whenever you are ready.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#： 准备好的时候就可以触发它。", "tformat")
 t("- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#: Your available vault space has increased.", "- #{bold}##ROYAL_BLUE#%s #SLATE#x%d#WHITE##{normal}#： 你可用的在线共享装备空间增加了。", "tformat")
+t("Payment", "付款", "_t")
 t([[Payment accepted.
 %s]], [[支付已确认。
 %s]], "tformat")
-t("Steam Overlay should appear, if it does not please make sure it you have not disabled it.", "Steam 层应该出现了，如果没有出现的话，请确认一下你是否关闭了该功能。", "_t")
 t("Connecting to Steam", "正在连接到Steam", "_t")
+t("Steam Overlay should appear, if it does not please make sure it you have not disabled it.", "Steam 层应该出现了，如果没有出现的话，请确认一下你是否关闭了该功能。", "_t")
 t("Finalizing transaction with Steam servers...", "正在结束和Stean服务器的交易……", "_t")
+t("Payment refused, you have not been billed.", "付款被拒绝，你未能成功付款。", "_t")
 t("Connecting to server", "正在连接到服务器", "_t")
 t("Please wait...", "请等待…", "_t")
 t("You have enough coins to instantly purchase those options. Confirm?", "你拥有足够的硬币来完成购买。确定购买吗？", "_t")
 t("Cancel", "取消", "_t")
-t("Purchase", "购买", "_t")
 t("You need %s more coins to purchase those options. Do you want to go to the donation page now?", "你还需要 %s 硬币来完成购买。是否前往捐赠页面？", "tformat")
-t("Let's go! (Opens in your browser)", "去吧！（在浏览器中打开）", "_t")
-t("Not now", "还是不了", "_t")
-t("Payment", "付款", "_t")
-t("Payment refused, you have not been billed.", "付款被拒绝，你未能成功付款。", "_t")
 t([[#{bold}##GOLD#Community Online Event#WHITE##{normal}#: Once you have purchased a community event you will be able to trigger it at any later date, on whichever character you choose.
 Community events once triggered will activate for #{bold}#every player currently logged on#{normal}# including yourself. Every player receiving it will know you sent it and thus that you are to thank for it.
 To activate it you will need to have your online events option set to "all" (which is the default value).]], [[#{bold}##GOLD#社区在线事件#WHITE##{normal}#：成功购买一次社区事件后，你可以在任何时间、任何角色上触发。
@@ -1113,11 +1132,9 @@ t([[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will au
 #LIGHT_GREEN#额外特效:#LAST# 购买任何时装包后，你的角色自动获得便携式反射之镜，可以随时随地切换时装!]], "_t")
 t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#UI 组合包#WHITE##{normal}#： 购买后游戏会自动安装UI组合包。", "_t")
 t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#Vault Space#WHITE##{normal}#：购买后，你的共享仓库大小会永久增加。", "_t")
-t("Online Store", "在线商城", "_t")
-
 
 ------------------------------------------------
-section "game/engines/default/engine/dialogs/microtxn/UsePurchased.lua"
+section "engine/engine/dialogs/microtxn/UsePurchased.lua"
 
 t("%s #GOLD#Purchased Options#LAST#", "%s #GOLD#已购买的选项#LAST#", "tformat")
 t("#YELLOW#-- connecting to server... --", "#YELLOW#-- 正在连接到服务器... --", "_t")
@@ -1137,14 +1154,13 @@ t("You are about to use a charge of this option. You currently have %d charges r
 t("Please wait while contacting the server...", "请稍候，正在与服务器进行通信", "_t")
 t("The option has been activated.", "选项已激活。", "_t")
 t("There was an error from the server: %s", "服务器发生错误： %s", "tformat")
+t("Online Store", "在线商城", "_t")
 t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#已安装", "_t")
 t("#YELLOW#Installable", "#YELLOW#可以安装", "_t")
-t("Online Store", "在线商城", "_t")
 t("You have not purchased any usable options yet. Would you like to see the store?", "你还没有购买任何选项。你要浏览商城吗？", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/ActorInventory.lua"
+section "engine/engine/interface/ActorInventory.lua"
 
 t("%s picks up (%s.): %s%s.", "%s拾取了（%s）：%s%s", "logSeen")
 t("%s has no room for: %s.", "%s没有空间放置：%s。", "logSeen")
@@ -1160,23 +1176,21 @@ t("missing dependency", "未满足装备条件", "_t")
 t("cannot use currently due to an other worn object", "由于目前穿戴的其他装备，无法装备此物品", "_t")
 t("%s is not wearable.", "%s无法装备。", "logSeen")
 t("%s can not wear %s.", "%s不能装备%s。", "logSeen")
+t("%s can not wear (%s): %s (%s).", "%s无法%s装备：%s（%s）", "logSeen")
 t("%s wears: %s.", "%s 装备了： %s", "logSeen")
 t("%s wears (offslot): %s.", "%s副手装备了： %s", "logSeen")
-t("%s can not wear (%s): %s (%s).", "%s无法%s装备：%s（%s）", "logSeen")
 t("%s wears (replacing %s): %s.", "%s装备（替换%s）了： %s", "logSeen")
 t("%s can not wear: %s.", "%s不能装备%s。", "logSeen")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/ActorLife.lua"
+section "engine/engine/interface/ActorLife.lua"
 
 t("#{bold}#%s killed %s!#{normal}#", "#{bold}#%s杀死了%s!#{normal}#", "logSeen")
 t("something", "某物", "_t")
 t("%s attacks %s.", "%s攻击了%s.", "logSeen")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/ActorTalents.lua"
+section "engine/engine/interface/ActorTalents.lua"
 
 t("%s is still on cooldown for %d turns.", "%s还有%d回合才能冷却。", "logPlayer")
 t("Talent Use Confirmation", "技能使用确认", "_t")
@@ -1185,8 +1199,8 @@ t("Cancel", "取消", "_t")
 t("Continue", "继续", "_t")
 t("unknown", "未知", "_t")
 t("%s %s %s.", "%s%s%s。", "logSeen")
-t("activates", "启用了", "_t")
 t("deactivates", "关闭了", "_t")
+t("activates", "启用了", "_t")
 t("%s uses %s.", "%s使用了%s。", "logSeen")
 t("not enough stat: %s", "属性点不足: %s", "tformat")
 t("not enough levels", "等级不足", "_t")
@@ -1201,21 +1215,24 @@ t("- Talent %s (not known)", "- 技能%s(未学习)", "tformat")
 t("- Talent %s (%d)", "- 技能%s(%d)", "tformat")
 t("- Talent %s", "- 技能%s", "tformat")
 t("- Is %s", "- 是%s", "tformat")
+-- untranslated text
+--[==[
+t("%s", "%s", "logSeen")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/interface/GameTargeting.lua"
+section "engine/engine/interface/GameTargeting.lua"
 
 t("Tactical display disabled. Press shift+'t' to enable.", "战术视图关闭。请按Shift+'t'启用。", "_t")
+t("Target yourself?", "瞄准你自己？", "_t")
 t("Are you sure you want to target yourself?", "你确认要瞄准你自己吗？", "_t")
 t("No", "否", "_t")
-t("Target yourself?", "瞄准你自己？", "_t")
 t("Yes", "是", "_t")
 t("Tactical display enabled. Press shift+'t' to disable.", "战术视图启用。请按Shift+'t'关闭。", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/ObjectActivable.lua"
+section "engine/engine/interface/ObjectActivable.lua"
 
 t("It can be used to %s, with %d charges out of %d.", "可以用于 %s ，消耗 %d 充能，总计 %d。", "tformat")
 t("It can be used to %s, costing %d power out of %d/%d.", "可以用于 %s, 消耗 %d 充能，总计 %d/%d 。", "tformat")
@@ -1224,32 +1241,28 @@ t("It can be used to activate talent: %s (level %d), costing %d power out of %d/
 t("%s is still recharging.", "%s 还在充能。", "logPlayer")
 t("%s can not be used anymore.", "%s 无法再继续使用了。", "logPlayer")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/PlayerExplore.lua"
+section "engine/engine/interface/PlayerExplore.lua"
 
 t("Running...", "跑步中……", "_t")
 t("You are exploring, press any key to stop.", "你正在自动探索，请按任意键停止", "_t")
 t("the path is blocked", "路被挡住了", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/PlayerHotkeys.lua"
+section "engine/engine/interface/PlayerHotkeys.lua"
 
 t("Hotkey not defined", "按键未定义", "_t")
 t("You may define a hotkey by pressing 'm' and following the instructions there.", "你可以按m键打开按键绑定窗口，遵循上面的指示绑定按键。", "_t")
 t("Item not found", "找不到物品", "_t")
 t("You do not have any %s .", "你的物品栏里里没有%s。", "tformat")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/PlayerMouse.lua"
+section "engine/engine/interface/PlayerMouse.lua"
 
 t("[CHEAT] teleport to %dx%d", "[作弊] 传送到 %dx%d", "log")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/PlayerRest.lua"
+section "engine/engine/interface/PlayerRest.lua"
 
 t("resting", "休息", "_t")
 t("rested", "休息了", "_t")
@@ -1259,13 +1272,12 @@ t("%s starts...", "%s开始了...", "log")
 t("%s for %d turns (stop reason: %s).", "%s%d回合 (停止原因：%s)。", "log")
 t("%s for %d turns.", "%s%d回合。", "log")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/PlayerRun.lua"
+section "engine/engine/interface/PlayerRun.lua"
 
+t("Running...", "跑步中……", "_t")
 t("You are running, press Enter to stop.", "你正在跑步中，请按回车键停止。", "_t")
 t("You don't see how to get there...", "你不知道怎么到达那里...", "logPlayer")
-t("Running...", "跑步中……", "_t")
 t("You are running, press any key to stop.", "你正在跑步中，请按任意键停止。", "_t")
 t("didn't move", "没有移动", "_t")
 t("trap spotted", "发现陷阱", "_t")
@@ -1274,9 +1286,8 @@ t("terrain change on the right", "右侧地形变化", "_t")
 t("at %s", "在 %s", "tformat")
 t("Ran for %d turns (stop reason: %s).", "自动探索了%d回合（中断原因：%s）", "log")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/interface/WorldAchievements.lua"
+section "engine/engine/interface/WorldAchievements.lua"
 
 t("#%s#Personal New Achievement: %s!", "#%s#个人新成就：%s!", "log")
 t("Personal New Achievement: #%s#%s", "个人新成就： #%s#%s", "tformat")
@@ -1284,9 +1295,8 @@ t("#%s#New Achievement: %s!", "#%s#新成就：%s!", "log")
 t("New Achievement: #%s#%s", "新成就： #%s#%s", "tformat")
 t("New Achievement", "新成就", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/ui/Dialog.lua"
+section "engine/engine/ui/Dialog.lua"
 
 t("Close", "关闭", "_t")
 t("Yes", "是", "_t")
@@ -1295,9 +1305,8 @@ t("Cancel", "取消", "_t")
 t("Copy URL", "复制网址", "_t")
 t("URL copied to your clipboard.", "网址已复制到剪贴板。", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/ui/Gestures.lua"
+section "engine/engine/ui/Gestures.lua"
 
 t("Mouse Gestures", "鼠标手势", "_t")
 t([[You have started to draw a mouse gesture for the first time!
@@ -1325,32 +1334,34 @@ If you do not wish to see gestures anymore, you can hide them in the UI section 
 如果你不希望看到手势动作，请在游戏设置的UI栏设置关闭它。
 ]], "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/engine/ui/Inventory.lua"
+section "engine/engine/ui/Inventory.lua"
 
 t("Inventory", "物品栏", "_t")
 t("Category", "分类", "_t")
 t("Enc.", "负重", "_t")
+-- untranslated text
+--[==[
+t("", "", "_t")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/engine/ui/WebView.lua"
+section "engine/engine/ui/WebView.lua"
 
 t("Download: ", "下载：", "tformat")
 t("Cancel", "取消", "_t")
-t("Are you sure you want to install this addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "你确认要安装这个插件吗： #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ？", "_t")
 t("Confirm addon install/update", "确认插件安装/更新", "_t")
-t("Are you sure you want to install this module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "你确认要安装这个模组吗： #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ？", "tformat")
+t("Are you sure you want to install this addon: #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ?", "你确认要安装这个插件吗： #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ？", "_t")
 t("Confirm module install/update", "确认模组安装/更新", "_t")
-t("Addon installation successful. New addons are only active for new characters.", "插件安装成功。新的插件只会在新的游戏角色生效。", "_t")
+t("Are you sure you want to install this module: #LIGHT_GREEN##{bold}#%s#{normal}##LAST#?", "你确认要安装这个模组吗： #LIGHT_GREEN##{bold}#%s#{normal}##LAST# ？", "tformat")
 t("Addon installed!", "插件安装完成！", "_t")
-t("Game installation successful. Have fun!", "游戏安装完成。玩的开心！", "_t")
+t("Addon installation successful. New addons are only active for new characters.", "插件安装成功。新的插件只会在新的游戏角色生效。", "_t")
 t("Game installed!", "游戏安装完成!", "_t")
-
+t("Game installation successful. Have fun!", "游戏安装完成。玩的开心！", "_t")
 
 ------------------------------------------------
-section "game/engines/default/engine/utils.lua"
+section "engine/engine/utils.lua"
 
 t("%dth", "%d", "_t")
 t("%dst", "%d", "_t")
@@ -1359,19 +1370,18 @@ t("%drd", "%d", "_t")
 t("an ", "一个", "_t")
 t("a ", "一个", "_t")
 t("she", "她", "_t")
+t("it", "它", "_t")
 t("he", "他", "_t")
+t("her", "她的", "_t")
 t("its", "它的", "_t")
 t("his", "他的", "_t")
-t("her", "她的", "_t")
-t("it", "它", "_t")
 t("him", "他", "_t")
 t("herself", "她自己", "_t")
 t("itself", "它自己", "_t")
 t("himself", "他自己", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/class/Game.lua"
+section "engine/modules/boot/class/Game.lua"
 
 t("Welcome to T-Engine and the Tales of Maj'Eyal", "欢迎来到 T-Engine 和马基·埃亚尔的传说", "_t")
 t([[#GOLD#"Tales of Maj'Eyal"#WHITE# is the main game, you can also install more addons or modules by going to https://te4.org/
@@ -1387,6 +1397,7 @@ Now go and have some fun!]], [[#GOLD#马·基埃亚尔的传说#WHITE# 是主游
 请记住，在大部分Roguelike游戏里，角色的死亡都是永久的，请小心！
 
 玩的开心！]], "_t")
+t("Upgrade to 1.0.5", "升级到 v1.0.5 版本", "_t")
 t([[The way the engine manages saving has been reworked for v1.0.5.
 
 The background saves should no longer lag horribly and as such it is highly recommended that you use the option. The upgrade turned it on for you.
@@ -1398,7 +1409,7 @@ For the same reason the save per level option should not be used unless you have
 
 与此同时，每层存档的选项已经没有必要使用，除非你有严重的内存问题。这次更新会自动帮你关闭这个选项。
 ]], "_t")
-t("Upgrade to 1.0.5", "升级到 v1.0.5 版本", "_t")
+t("Safe Mode", "安全模式", "_t")
 t([[Oops! Either you activated safe mode manually or the game detected it did not start correctly last time and thus you are in #LIGHT_GREEN#safe mode#WHITE#.
 Safe Mode disabled all graphical options and sets a low FPS. It is not advisable to play this way (as it will be very painful and ugly).
 
@@ -1408,7 +1419,6 @@ A usual problem is shaders and thus should be your first target to disable.]], [
 
 请你进入游戏视频选项，尝试调整游戏选项，直到你不再弹出此消息。
 常见的问题一般是由着色器引发的，你可以先尝试关闭这些选项。]], "_t")
-t("Safe Mode", "安全模式", "_t")
 t("Message", "消息", "_t")
 t("Duplicate Addon", "重复的插件", "_t")
 t([[Oops! It seems like you have the same addon/dlc installed twice.
@@ -1429,9 +1439,9 @@ Check out the following folder on your computer:
 %s
 ]], "_t")
 t("Updating addon: #LIGHT_GREEN#%s", "正在更新插件: #LIGHT_GREEN#%s", "tformat")
+t("Quit", "退出", "_t")
 t("Really exit T-Engine/ToME?", "真的要退出 T-Engine/马基·埃亚尔的传说", "_t")
 t("Continue", "继续", "_t")
-t("Quit", "退出", "_t")
 t([[Welcome to #LIGHT_GREEN#Tales of Maj'Eyal#LAST#!
 
 Before you can start dying in many innovative ways we need to ask you about online play.
@@ -1464,78 +1474,75 @@ This is all optional, you are not forced to use this feature at all, but the dev
 t("Login in...", "登录中…", "_t")
 t("Please wait...", "请等待…", "_t")
 t("Profile logged in!", "账户登录成功！", "_t")
-t("Check your login and password or try again in in a few moments.", "请确认你的用户名和密码，或在几分钟后再试。", "_t")
+t("Your online profile is now active. Have fun!", "你的在线账户已可用。玩得开心！", "_t")
 t("Login failed!", "登陆失败！", "_t")
-t("Registering on https://te4.org/, please wait...", "正在在 https://te4.org/ 上注册，请稍候…", "_t")
+t("Check your login and password or try again in in a few moments.", "请确认你的用户名和密码，或在几分钟后再试。", "_t")
 t("Registering...", "正在注册", "_t")
+t("Registering on https://te4.org/, please wait...", "正在在 https://te4.org/ 上注册，请稍候…", "_t")
 t("Logged in!", "登陆成功！", "_t")
 t("Profile created!", "账户创建成功！", "_t")
-t("Your online profile is now active. Have fun!", "你的在线账户已可用。玩得开心！", "_t")
-t("Creation failed: %s (you may also register on https://te4.org/)", "创建失败: %s (你也可以在 https://te4.org/ 网站上注册）", "tformat")
 t("Profile creation failed!", "账户创建失败！", "_t")
+t("Creation failed: %s (you may also register on https://te4.org/)", "创建失败: %s (你也可以在 https://te4.org/ 网站上注册）", "tformat")
 t("Try again in in a few moments, or try online at https://te4.org/", "请过几分钟后再试，或在 https://te4.org/ 网站上注册", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/class/Player.lua"
+section "engine/modules/boot/class/Player.lua"
 
 t("%s available", "%s可用", "tformat")
 t("#00ff00#Talent %s is ready to use.", "#00ff00#技能%s已经可以使用了。", "log")
 t("LEVEL UP!", "升级了！", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/birth/descriptors.lua"
+section "engine/modules/boot/data/birth/descriptors.lua"
 
 t("base", "基础", "birth descriptor name")
 t("Destroyer", "毁灭者", "birth descriptor name")
 t("Acid-maniac", "狂酸使", "birth descriptor name")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/damage_types.lua"
+section "engine/modules/boot/data/damage_types.lua"
 
 t("Kill!", "击杀!", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/general/grids/basic.lua"
+section "engine/modules/boot/data/general/grids/basic.lua"
 
-t("door", "门", "entity name")
+t("floor", "地板", "entity type")
 t("floor", "地板", "entity subtype")
+t("floor", "地板", "entity name")
 t("wall", "墙壁", "entity type")
+t("wall", "墙壁", "entity name")
+t("door", "门", "entity name")
 t("open door", "敞开的门", "entity name")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/general/grids/forest.lua"
+section "engine/modules/boot/data/general/grids/forest.lua"
 
-t("wall", "墙壁", "entity type")
-t("tree", "树", "entity name")
 t("floor", "地板", "entity type")
 t("grass", "草地", "entity subtype")
+t("grass", "草地", "entity name")
+t("wall", "墙壁", "entity type")
+t("tree", "树", "entity name")
 t("flower", "花", "entity name")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/general/grids/underground.lua"
+section "engine/modules/boot/data/general/grids/underground.lua"
 
 t("wall", "墙壁", "entity type")
-t("crystals", "水晶", "entity name")
 t("underground", "地下", "entity subtype")
+t("crystals", "水晶", "entity name")
+t("floor", "地板", "entity type")
 t("floor", "地板", "entity name")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/general/grids/water.lua"
+section "engine/modules/boot/data/general/grids/water.lua"
 
 t("floor", "地板", "entity type")
 t("water", "水", "entity subtype")
 t("deep water", "深水", "entity name")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/general/npcs/canine.lua"
+section "engine/modules/boot/data/general/npcs/canine.lua"
 
 t("animal", "动物", "entity type")
 t("canine", "犬类", "entity subtype")
@@ -1548,20 +1555,18 @@ t("It is a large wolf with eyes full of cunning.", "这是一只狡猾且体型�
 t("fox", "狐狸", "entity name")
 t("The quick brown fox jumps over the lazy dog.", "这只灵巧的棕色狐狸从一只懒狗身上跳了过去。", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/general/npcs/skeleton.lua"
+section "engine/modules/boot/data/general/npcs/skeleton.lua"
 
-t("skeleton", "骷髅", "entity subtype")
 t("undead", "亡灵", "entity type")
+t("skeleton", "骷髅", "entity subtype")
 t("degenerated skeleton warrior", "腐化骷髅战士", "entity name")
 t("skeleton warrior", "骷髅战士", "entity name")
 t("skeleton mage", "骷髅法师", "entity name")
 t("armoured skeleton warrior", "武装骷髅战士", "entity name")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/general/npcs/troll.lua"
+section "engine/modules/boot/data/general/npcs/troll.lua"
 
 t("giant", "巨人", "entity type")
 t("troll", "巨魔", "entity subtype")
@@ -1572,12 +1577,11 @@ t("A giant troll with scabrous black skin. With a shudder, you notice the belt o
 t("cave troll", "洞穴巨魔", "entity name")
 t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "这只巨魔手握一根笨重的长矛，同时在它那贪婪的眼睛里，你看出了一丝令人不安的信息。", "_t")
 t("mountain troll", "山岭巨魔", "entity name")
-t("mountain troll thunderer", "闪电山岭巨魔", "entity name")
 t("A large and athletic troll with an extremely tough and warty hide.", "一只高大且强壮的巨魔，身披一张丑陋但异常坚硬的兽皮。", "_t")
-
+t("mountain troll thunderer", "闪电山岭巨魔", "entity name")
 
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/talents.lua"
+section "engine/modules/boot/data/talents.lua"
 
 t("misc", "杂项", "talent category")
 t("Kick", "踢", "talent name")
@@ -1589,9 +1593,8 @@ t("Lightning", "闪电术", "talent name")
 t("Sunshield", "太阳护盾", "talent name")
 t("Flameshock", "火焰冲击", "talent name")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/timed_effects.lua"
+section "engine/modules/boot/data/timed_effects.lua"
 
 t("Burning from acid", "酸液灼烧", "_t")
 t("#Target# is covered in acid!", "#Target#被酸液覆盖！", "_t")
@@ -1600,21 +1603,19 @@ t("#Target# is free from the acid.", "#Target#身上的酸液消失了。", "_t"
 t("-Acid", "-酸液", "_t")
 t("Sunshield", "太阳护盾", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/data/zones/dungeon/zone.lua"
+section "engine/modules/boot/data/zones/dungeon/zone.lua"
 
 t("Forest", "森林", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/Addons.lua"
+section "engine/modules/boot/dialogs/Addons.lua"
 
 t("Configure Addons", "设置插件", "_t")
 t("You can get new addons at #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", "在以下位置可以获得新的插件： #LIGHT_BLUE##{underline}#Te4.org 插件页面#{normal}#", "_t")
+t(" and #LIGHT_BLUE##{underline}#Te4.org DLCs#{normal}#", " 和 #LIGHT_BLUE##{underline}#Te4.org DLC页面#{normal}#", "_t")
 t("You can get new addons on #LIGHT_BLUE##{underline}#Steam Workshop#{normal}#", "在以下位置可以获得新的插件： #LIGHT_BLUE##{underline}#Steam 创意工坊#{normal}# ", "_t")
 t(", #LIGHT_BLUE##{underline}#Te4.org Addons#{normal}#", ", #LIGHT_BLUE##{underline}#Te4.org 插件页面#{normal}#", "_t")
-t(" and #LIGHT_BLUE##{underline}#Te4.org DLCs#{normal}#", " 和 #LIGHT_BLUE##{underline}#Te4.org DLC页面#{normal}#", "_t")
 t("Show incompatible", "显示不兼容版本", "_t")
 t("Auto-update on start", "启动时自动更新", "_t")
 t("Game Module", "游戏模组", "_t")
@@ -1630,9 +1631,8 @@ t("#LIGHT_RED#Auto: Incompatible", "#LIGHT_RED#自动：不兼容", "_t")
 t("Addon Version", "插件版本", "_t")
 t("Game Version", "游戏版本", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/Credits.lua"
+section "engine/modules/boot/dialogs/Credits.lua"
 
 t("Project Lead", "首席制作人", "_t")
 t("Lead Coder", "领衔程序设计", "_t")
@@ -1648,9 +1648,8 @@ t("Text Editors", "文本编辑", "_t")
 t("The Community", "游戏社区", "_t")
 t("Others", "其他", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/FirstRun.lua"
+section "engine/modules/boot/dialogs/FirstRun.lua"
 
 t("Welcome to Tales of Maj'Eyal", "欢迎来到马基埃亚尔的传说", "_t")
 t("Register now!", "现在注册！", "_t")
@@ -1691,17 +1690,17 @@ If you disable this option you can always re-activate it in the Online category 
 
 #{bold}##CRIMSON#这是一个极端的选项。如果不是迫不得已, 推荐你不要打开它, 这会让你失去很多好用的功能和一些游戏体验。#{normal}#
 关闭后，可以通过游戏设置菜单的在线选项卡打开。]], "_t")
-t("#RED#Disable all!", "#RED#全部禁用！", "_t")
 t("Cancel", "取消", "_t")
-
+t("#RED#Disable all!", "#RED#全部禁用！", "_t")
 
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/LoadGame.lua"
+section "engine/modules/boot/dialogs/LoadGame.lua"
 
 t("Load Game", "读取游戏", "_t")
 t("Show older versions", "显示旧版本", "_t")
 t("Ignore unloadable addons", "忽略无法读取的插件", "_t")
 t("  Play!  ", "  游玩！  ", "_t")
+t("Delete", "删除", "_t")
 t([[#{bold}##GOLD#%s: %s#WHITE##{normal}#
 Game version: %d.%d.%d
 Requires addons: %s
@@ -1717,23 +1716,21 @@ t("Original game version not found", "未找到原游戏版本", "_t")
 t([[This savefile was created with game version %s. You can try loading it with the current version if you wish but it is recommended you play it with the old version to ensure compatibility
 %s]], [[这个存档是游戏版本 %s 创建的。如果你愿意，你可以尝试使用当前版本强制读档，但是建议你使用旧版本游戏进行游玩，来确保兼容性。
 %s]], "tformat")
+t("Cancel", "取消", "_t")
 t("Run with newer version", "运行新版本", "_t")
-t("#LIGHT_RED#WARNING: #LAST#Loading a savefile while in developer mode will permanently invalidate it. Proceed?", "#LIGHT_RED#警告： #LAST#在开发者模式下读取一个存档将会不可逆地将其标记为作弊存档。确定吗？", "_t")
 t("Developer Mode", "开发者模式", "_t")
+t("#LIGHT_RED#WARNING: #LAST#Loading a savefile while in developer mode will permanently invalidate it. Proceed?", "#LIGHT_RED#警告： #LAST#在开发者模式下读取一个存档将会不可逆地将其标记为作弊存档。确定吗？", "_t")
 t("Load anyway", "仍然读档", "_t")
 t("Delete savefile", "删除存档", "_t")
 t("Really delete #{bold}##GOLD#%s#WHITE##{normal}#", "真的要删除#{bold}##GOLD#%s#WHITE##{normal}#吗", "tformat")
-t("Cancel", "取消", "_t")
-t("Delete", "删除", "_t")
+t("Old game data", "旧版游戏数据", "_t")
 t("No data available for this game version.", "没有当前游戏版本的数据。", "_t")
 t("Downloading old game data: #LIGHT_GREEN#", "正在下载旧版游戏数据： #LIGHT_GREEN#", "_t")
 t("Old game data for %s correctly installed. You can now play.", " %s 的旧版游戏数据已经安装成功了。你可以现在游玩了。", "tformat")
 t("Failed to install.", "安装失败。", "_t")
-t("Old game data", "旧版游戏数据", "_t")
-
 
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/MainMenu.lua"
+section "engine/modules/boot/dialogs/MainMenu.lua"
 
 t("Main Menu", "主菜单", "_t")
 t("New Game", "新游戏", "_t")
@@ -1765,6 +1762,8 @@ t([[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
 #LIGHT_UMBER#更多新神器、新手札、新地图、新事件……#WHITE# 体验恶魔的欢愉吧！
 
 ]], "_t")
+t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#已安装", "_t")
+t("#YELLOW#Not installed - Click to download / purchase", "#YELLOW#未安装 - 点击下载/购买", "_t")
 t([[#{bold}##GOLD#Embers of Rage - Expansion#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#One year has passed since the one the Orcs call the "Scourge from the West" came and single-handedly crushed the Orc Prides of Grushnak, Vor, Gorbat, and Rak'Shor.  The Allied Kingdoms, now linked by farportal to their distant, long-lost Sunwall allies, have helped them conquer most of Var'Eyal.  The few remnants of the ravaged Prides are caged...  but one Pride remains.#{normal}##LAST#
 
@@ -1815,13 +1814,11 @@ t([[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
 #LIGHT_UMBER#大量#WHITE# 全新神器、手札、事件……
 
 ]], "_t")
-t("#LIGHT_GREEN#Installed", "#LIGHT_GREEN#已安装", "_t")
-t("#YELLOW#Not installed - Click to download / purchase", "#YELLOW#未安装 - 点击下载/购买", "_t")
+t("#GOLD#Online Profile", "#GOLD#在线账户", "_t")
 t("Login", "登录", "_t")
 t("Register", "注册", "_t")
 t("Username: ", "用户名：", "_t")
 t("Password: ", "密码：", "_t")
-t("#GOLD#Online Profile", "#GOLD#在线账户", "_t")
 t("Login with Steam", "使用Steam登录", "_t")
 t("#GOLD#Online Profile#WHITE#", "#GOLD#在线账户#WHITE#", "_t")
 t("#LIGHT_BLUE##{underline}#Logout", "#LIGHT_BLUE##{underline}#登出", "_t")
@@ -1829,13 +1826,17 @@ t("Username", "用户名", "_t")
 t("Your username is too short", "你的用户名过短", "_t")
 t("Password", "密码", "_t")
 t("Your password is too short", "你的密码过短", "_t")
-t("Login in your account, please wait...", "正在登录账户，请稍后…", "_t")
 t("Login...", "登录中…", "_t")
+t("Login in your account, please wait...", "正在登录账户，请稍后…", "_t")
 t("Steam client not found.", "找不到Steam客户端", "_t")
+-- untranslated text
+--[==[
+t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
+--]==]
 
 
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/NewGame.lua"
+section "engine/modules/boot/dialogs/NewGame.lua"
 
 t("New Game", "新游戏", "_t")
 t("Show all versions", "显示所有版本", "_t")
@@ -1852,47 +1853,44 @@ t("No", "否", "_t")
 t("Yes", "是", "_t")
 t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "这个游戏与你T-Engine的版本不兼容，你可以尝试运行，但是游戏可能崩溃。", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/Profile.lua"
+section "engine/modules/boot/dialogs/Profile.lua"
 
 t("Player Profile", "玩家账户", "_t")
 t("Logout", "登出", "_t")
-t("Do you want to log out?", "你要登出吗？", "_t")
 t("You are logged in", "你已经登入了。", "_t")
-t("Cancel", "取消", "_t")
+t("Do you want to log out?", "你要登出吗？", "_t")
 t("Log out", "登出", "_t")
+t("Cancel", "取消", "_t")
 t("Login", "登录", "_t")
 t("Create Account", "创建账户", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/ProfileLogin.lua"
+section "engine/modules/boot/dialogs/ProfileLogin.lua"
 
 t("Online profile ", "在线账户", "_t")
-t("Login", "登录", "_t")
-t("Password again: ", "重复密码：", "_t")
 t("Username: ", "用户名：", "_t")
 t("Password: ", "密码：", "_t")
+t("Login", "登录", "_t")
+t("Cancel", "取消", "_t")
+t("Password again: ", "重复密码：", "_t")
 t("Email: ", "邮箱", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "允许我们#{bold}#偶尔#{normal}#向你发送有关游戏重要新闻的邮件(每年最多只会有几封)", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "游玩此游戏时你已年满16岁，或已得到了家长的许可。", "_t")
 t("Create", "创建", "_t")
 t("Privacy Policy (opens in browser)", "隐私政策(用浏览器打开)", "_t")
-t("Cancel", "取消", "_t")
+t("Password", "密码", "_t")
 t("Password mismatch!", "密码不匹配！", "_t")
 t("Username", "用户名", "_t")
 t("Your username is too short", "你的用户名过短", "_t")
-t("Password", "密码", "_t")
 t("Your password is too short", "你的密码过短", "_t")
 t("Email", "邮箱", "_t")
 t("Your email seems invalid", "邮箱地址无效", "_t")
 t("Age Check", "年龄确认", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "你需要年满16岁以上，或者得到了家长的许可，才可以游玩本游戏。", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/ProfileSteamRegister.lua"
+section "engine/modules/boot/dialogs/ProfileSteamRegister.lua"
 
 t("Steam User Account", "Steam用户账户", "_t")
 t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
@@ -1915,15 +1913,14 @@ t("Email", "邮箱", "_t")
 t("Your email does not look right.", "你的邮件地址有问题。", "_t")
 t("Age Check", "年龄确认", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "你需要年满16岁以上，或者得到了家长的许可，才可以游玩本游戏。", "_t")
-t("Registering on https://te4.org/, please wait...", "正在在 https://te4.org/ 上注册，请稍候…", "_t")
 t("Registering...", "正在注册", "_t")
+t("Registering on https://te4.org/, please wait...", "正在在 https://te4.org/ 上注册，请稍候…", "_t")
 t("Steam client not found.", "找不到Steam客户端", "_t")
 t("Error", "错误", "_t")
 t("Username or Email already taken, please select an other one.", "用户名或邮件地址已被使用，请选择其他用户名或邮件地址", "_t")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/UpdateAll.lua"
+section "engine/modules/boot/dialogs/UpdateAll.lua"
 
 t("Update all game modules", "更新所有游戏模组", "_t")
 t([[All those components will be updated:
@@ -1931,21 +1928,20 @@ t([[All those components will be updated:
 ]], "_t")
 t("Component", "组件", "_t")
 t("Version", "版本", "_t")
-t("All your game modules are up to date.", "所有游戏模组都处于最新版本。", "_t")
 t("Nothing to update", "没有需要更新的内容", "_t")
+t("All your game modules are up to date.", "所有游戏模组都处于最新版本。", "_t")
 t("Game: #{bold}##GOLD#", "游戏：#{bold}##GOLD#", "_t")
 t("Engine: #{italic}##LIGHT_BLUE#", "游戏引擎：#{italic}##LIGHT_BLUE#", "_t")
-t("Downloading: ", "正在下载：", "_t")
 t("Error!", "错误！", "_t")
 t([[There was an error while downloading:
 ]], [[下载时发生错误:
 ]], "_t")
-t("All updates installed, the game will now restart", "所有更新已安装完毕，游戏现在将会重新启动", "_t")
+t("Downloading: ", "正在下载：", "_t")
 t("Update", "更新", "_t")
-
+t("All updates installed, the game will now restart", "所有更新已安装完毕，游戏现在将会重新启动", "_t")
 
 ------------------------------------------------
-section "game/engines/default/modules/boot/dialogs/ViewHighScores.lua"
+section "engine/modules/boot/dialogs/ViewHighScores.lua"
 
 t("View High Scores", "查看高分榜", "_t")
 t("Game Module", "游戏模组", "_t")
@@ -1962,18 +1958,16 @@ t([[#{bold}##GOLD#%s(%s)#GREEN# High Scores#WHITE##{normal}#
 
 ]], "tformat")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/init.lua"
+section "engine/modules/boot/init.lua"
 
 t("Tales of Maj'Eyal Main Menu", "马基·埃亚尔的传说 主菜单", "init.lua long_name")
 t([[Bootmenu!
 ]], [[启动菜单!
 ]], "init.lua description")
 
-
 ------------------------------------------------
-section "game/engines/default/modules/boot/load.lua"
+section "engine/modules/boot/load.lua"
 
 t("Strength", "力量", "stat name")
 t("str", "力量", "stat short_name")
@@ -1981,5 +1975,4 @@ t("Dexterity", "敏捷", "stat name")
 t("dex", "敏捷", "stat short_name")
 t("Constitution", "体质", "stat name")
 t("con", "体质", "stat short_name")
-
 

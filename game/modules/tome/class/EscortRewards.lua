@@ -557,14 +557,14 @@ function _M:rewardChatAnwsers(who, reward, jump_to, on_chose)
 			local doit = function(npc, player) game.party:reward(_t"Select the party member to receive the reward:", function(player)
 				if player:knowTalentType(tt) == nil then player:setTalentTypeMastery(tt, mastery - 1 + player:getTalentTypeMastery(tt, true)) end
 				player:learnTalentType(tt, false)
-				on_chose(npc, player, "talent_type", tt, mastery, ("gained talent category %s (at mastery %0.2f)"):tformat(_t(cat):capitalize().." / "..tt_def.name:capitalize(), mastery))
+				on_chose(npc, player, "talent_type", tt, mastery, ("gained talent category %s (at mastery %0.2f)"):tformat(_t(cat, "talent category"):capitalize().." / "..tt_def.name:capitalize(), mastery))
 			end) end
-			answers[#answers+1] = {("[Allow training of talent category %s (at mastery %0.2f)]"):tformat(_t(cat):capitalize().." / "..tt_def.name:capitalize(), mastery),
+			answers[#answers+1] = {("[Allow training of talent category %s (at mastery %0.2f)]"):tformat(_t(cat, "talent category"):capitalize().." / "..tt_def.name:capitalize(), mastery),
 				jump=jump_to or "done",
 				action=doit,
 				on_select=function(npc, player)
 					game.tooltip_x, game.tooltip_y = 1, 1
-					game:tooltipDisplayAtMap(game.w, game.h, ("#GOLD#%s / %s#LAST#\n%s"):tformat(_t(cat):capitalize(), tt_def.name:capitalize(), tt_def.description))
+					game:tooltipDisplayAtMap(game.w, game.h, ("#GOLD#%s / %s#LAST#\n%s"):tformat(_t(cat, "talent category"):capitalize(), tt_def.name:capitalize(), tt_def.description))
 				end,
 			}
 		end end

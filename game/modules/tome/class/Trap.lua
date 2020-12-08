@@ -85,7 +85,7 @@ end
 
 -- Gets the full name of the trap
 function _M:getName()
-	local name = _t(self.name) or _t"trap"
+	local name = _t(self.name, "entity name") or _t"trap"
 	if not self:isIdentified() and self:getUnidentifiedName() then name = self:getUnidentifiedName() end
 	if self.summoner and self.summoner.name then
 		return ("%s's %s"):tformat(self.summoner:getName():capitalize(), name)

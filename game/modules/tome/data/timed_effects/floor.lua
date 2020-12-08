@@ -28,7 +28,7 @@ local Level = require "engine.Level"
 local function floorEffect(t)
 	t.name = t.name or t.desc
 	t.name = t.name:upper():gsub("[ ']", "_")
-	t.desc = _t(t.desc)
+	t.desc = _t(t.desc, "floorEffect desc")
 	local d = t.long_desc
 	if type(t.long_desc) == "string" then t.long_desc = function() return d end end
 	t.type = "other"

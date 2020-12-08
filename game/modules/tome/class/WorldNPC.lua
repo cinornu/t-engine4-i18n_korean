@@ -173,7 +173,7 @@ function _M:tooltip(x, y, seen_by)
 
 	local ts = tstring{}
 	ts:add({"uid",self.uid}) ts:merge(rank_color:toTString()) ts:add(self:getName(), {"color", "WHITE"}, true)
-	ts:add(_t(self.type):capitalize(), " / ", _t(self.subtype):capitalize(), true)
+	ts:add(_t(self.type, "entity type"):capitalize(), " / ", _t(self.subtype, "entity subtype"):capitalize(), true)
 	ts:add(_t"Rank: ") ts:merge(rank_color:toTString()) ts:add(rank, {"color", "WHITE"}, true)
 	ts:add(self.desc, true)
 	ts:add(_t"Faction: ") ts:merge(factcolor:toTString()) ts:add(("%s (%s, %d)"):format(Faction.factions[self.faction].name, factstate, factlevel), {"color", "WHITE"}, true)

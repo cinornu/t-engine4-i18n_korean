@@ -82,7 +82,7 @@ function _M:generateList()
 	for id, _ in pairs(self.actor.lore_known) do
 		local l = self.actor:getLore(id)
 		if self:matchSearch(tostring(l.order)) or self:matchSearch(l.name) or self:matchSearch(l.category) then
-			list[#list+1] = { name=l.name, desc=util.getval(l.lore), cat=_t(l.category), order=l.order, image=l.image, lore=l }
+			list[#list+1] = { name=l.name, desc=util.getval(l.lore), cat=_t(l.category, "newLore category"), order=l.order, image=l.image, lore=l }
 		end
 	end
 	-- Add known artifacts

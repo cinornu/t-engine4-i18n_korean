@@ -85,7 +85,7 @@ function _M:newTalent(t)
 	t.info = function(self, t) return info(self, t):gsub("\n\t+", "\n") end
 
 	-- I18N
-	t.name = _t(t.name)
+	t.name = _t(t.name, "talent name")
 
 	t.id = "T_"..t.short_name
 	self.talents_def[t.id] = t

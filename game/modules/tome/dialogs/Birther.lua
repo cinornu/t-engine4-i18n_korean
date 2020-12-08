@@ -676,7 +676,7 @@ function _M:updateDescriptors()
 
 			if #clist > 0 then
 				table.sort(clist, function(a, b) return a.name < b.name end)
-				table.insert(self.cosmetic_options, {name=_t(kind:gsub("_", " "):capitalize()), kind=kind, color=function() return colors.simple(colors.GOLD) end, nodes=clist})
+				table.insert(self.cosmetic_options, {name=_t(kind:gsub("_", " "):capitalize(), "birth facial category"), kind=kind, color=function() return colors.simple(colors.GOLD) end, nodes=clist})
 			end
 		end
 	end end
