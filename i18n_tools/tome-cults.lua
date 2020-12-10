@@ -348,7 +348,7 @@ t("floor", "바닥", "_t")
 t("wall", "벽", "_t")
 t("strange metallic capsule", "이상한 금속 캡슐", "_t")
 t("Strange metallic capsule", "이상한 금속 캡슐", "_t")
-t("You have already scavenged what you could understand and use.", "이해가 되는 선에서 쓸만한 건 전부 뒤졌다.", "_t")
+t("You have already scavenged what you could understand and use.", "이해가 되는 선에서 쓸만한 건 전부 뒤졌습니다.", "_t")
 t([[The thing in front of you appears to be a strange dome made from green glass. Judging by the crater around it, this dome must have crashed into the earth with tremendous force. Stranger still is the figure seated inside it. It appears to be wearing a suit made of an unknown material and a glass dome over its head. Looking inside the dome, you can plainly see that the figure is a dwarf! There is no mistaking that oversized nose. Judging by the smell, he has been dead for quite some time.
 
 You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], [[이건 녹색 유리로 만든 이상한 돔 같은 걸로 보입니다. 바로 옆의 크레이터를 생각해 보면, 이 돔은 터무니없는 힘으로 땅에 처박힌 게 틀림없습니다. 그 안쪽에는 여전히 이방인이 앉아 있습니다. 입고 있는 옷은 무슨 재료로 만들었는지 알 수가 없고, 머리에 유리 돔 같은 걸 쓰고 있습니다. 그 돔의 안쪽을 살펴보니, 이건 드워프의 모습이 확실합니다! 코가 저렇게 큰데 드워프가 아니면 뭐겠습니까. 냄새를 보아하니 죽은 지 꽤 된 것 같습니다.
