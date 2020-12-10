@@ -575,7 +575,7 @@ section "tome-cults/data/general/npcs/horror-special.lua"
 t("horror", "공포", "entity type")
 t("eldritch", "섬뜩한 자", "entity subtype")
 t("The One That Hunts", "사냥하는 자", "entity name")
-t("The relentless hunter. It never gives up, never surrenders.", "끈질긴 사냥꾼. 포기하지않고, 항복하는 일 없으리라.", "_t")
+t("The relentless hunter. It never gives up, never surrenders.", "끈질긴 사냥꾼. 포기하지 않고, 항복하는 일 없으리라.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror.lua"
@@ -2594,7 +2594,7 @@ I sometimes wonder if I'll ever run into the people who entered this place and n
 
 I fear that I'm also starting to develop an unhealthy attachment to this place. I have not been able to have a single day of peace since I began my adventuring career, so the security these glass walls offer is becoming far too alluring to me.]], [[내가 이 성을 사랑하는 만큼, 한동안 정말 머리가 아팠다. 방을 꾸미거나 실내의 어떤 것을 정리하려고 할 때마다 나는 불가피하게 전혀 다른 공간에 있는 방을 찾곤 했다. 지금은 큰 어려움 없이 방들을 헤쳐 나갈 수 있지만, 특정한 방을 찾아야 할 때는 여전히 꽤 귀찮다.
 
-나는 가끔 내가 이곳에 들어와 한 번도 떠나지 않았던 사람들과 마주칠 가능성이 있을까 하는 생각이 들 때가 있다. 일단 변화에 따르는 패턴을 발견하면, 변화무쌍한 방들 그 자체는 이해하기 어렵지 않다. 내가 이해할 수 있다는 것은 분명 다른 사람들도 이해 할 수 있다는 뜻이다, 그렇지않나? 이 홀을 걸어 다니는 유일한 생명체인지는 말할 것도 없고, 심지어 이곳까지 도달할 수 있는 유일한 사람임에도 불구하고, 나는 가끔 성안에서 정말로 혼자가 아닌 것처럼 느낀다. 책 속에 성을 가둔 후로는 쥐 한 마리도 보지 못했다.
+나는 가끔 내가 이곳에 들어와 한 번도 떠나지 않았던 사람들과 마주칠 가능성이 있을까 하는 생각이 들 때가 있다. 일단 변화에 따르는 패턴을 발견하면, 변화무쌍한 방들 그 자체는 이해하기 어렵지 않다. 내가 이해할 수 있다는 것은 분명 다른 사람들도 이해 할 수 있다는 뜻이다, 그렇지 않나? 이 홀을 걸어 다니는 유일한 생명체인지는 말할 것도 없고, 심지어 이곳까지 도달할 수 있는 유일한 사람임에도 불구하고, 나는 가끔 성안에서 정말로 혼자가 아닌 것처럼 느낀다. 책 속에 성을 가둔 후로는 쥐 한 마리도 보지 못했다.
 
 나 역시 이곳에 대해 불건전한 애착이 생기기 시작하는 것 같아 두렵다. 나는 모험가 경력을 시작한 이래로 하루도 평화로운 날을 보낼 수 없었다. 그래선지 이 유리벽들이 제공하는 안전함이 나에게 너무 큰 유혹 되고 있다.]], "_t")
 t("an escape from reality (3)", "현실에서의 탈출 (3)", "_t")
@@ -3109,7 +3109,7 @@ t([[Your Nihil unravels the existence of the target, tearing them apart with ent
 		The Herald will have a bonus to all attributes equal to your Magic.  Many other stats will scale with level.
 		Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[허무의 힘으로 대상의 존재를 엔트로피로 변화시켜 찢어놓고 해체합니다.
 		허무의 영향을 받는 대상이 지속시간 동안 6 개의 부정적인 마법 효과가 적용되면, 소멸의 전령이 소환되어 %d 턴 동안 전투에 참여합니다.
-		이미 적용된 부정적 효과, 주문 충격, 그리고 비전의 눈으로 인한 효과는 부정적인 마법 효과로 인정되지않습니다. 다만 이미 적용된 부정적인 효과를 한 번 더 적용하여 갱신하는 것은 인정이 됩니다.
+		이미 적용된 부정적 효과, 주문 충격, 그리고 비전의 눈으로 인한 효과는 부정적인 마법 효과로 인정되지 않습니다. 다만 이미 적용된 부정적인 효과를 한 번 더 적용하여 갱신하는 것은 인정이 됩니다.
 		시전자의 마법과 같은 수치가 전령의 모든 능력치에 더해집니다. 그 밖의 능력치는 레벨에 따라 증가됩니다.
 		시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 전령에게 적용됩니다.]], "tformat")
 t("Erase", "삭제", "talent name")
