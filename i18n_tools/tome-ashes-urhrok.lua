@@ -774,7 +774,7 @@ t("Fire is your lifeblood; it revitalizes you as it burns your foes.", "화염�
 t("demonic strength", "악마적인 힘", "_t")
 t("Infuse your body with the power of Demons.", "악마의 힘으로 신체를 강화합니다.", "_t")
 t("Oppression", "억압", "_t")
-t("Make your blows terrify your foes and manipulate their fear.", "공격을 가해 적들을 공포에 질리게하고, 그 공포를 이용합니다.", "_t")
+t("Make your blows terrify your foes and manipulate their fear.", "공격을 가해 적들을 공포에 질리게 하고, 그 공포를 이용합니다.", "_t")
 t("Demon", "악마", "_t")
 
 ------------------------------------------------

@@ -3003,7 +3003,7 @@ t([[While within range 3 of your Worm that Walks you can project an aura of terr
 		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns.]], [[걸어다니는 벌레떼 근처 3 칸 내에 있을 경우, 걸어다니는 벌레떼는 공포의 기운을 발산합니다.
 		두 광기의 존재가 함께 싸우는 장면을 보고 반경 %d 칸 내의 모든 적은 %d 턴 동안 기절합니다. 시전자의 주문력에 대한 물리 내성 판정에 성공시, 기절을 피할 수 있습니다
 
-		추가로 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다.]], "tformat")
+		추가로 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게 하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/horrific-body.lua"

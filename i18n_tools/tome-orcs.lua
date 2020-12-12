@@ -4675,7 +4675,7 @@ t([[Spin your saws wildly around you to create a wall of steamy sawteeth.
 		All melee damage against you is reduced by %d%%, you have %d%% chance to evade projectiles and you can never take a blow that deals more than %d%% of your max life.
 		#{italic}#Split their bones on the saws of death!#{normal}#]], [[자신의 주변에 증기 톱을 거칠게 회전시켜, 증기의 톱니벽을 생성합니다.
 		시전자를 향한 모든 근접 공격의 피해량이 %d%% 줄어들며, 투사체 피격 시 %d%% 확률로 피해를 무효화합니다. 또한, 피격 시 단일 공격으로 인한 피해량이 최대 생명력의 %d%% 를 넘지 않습니다.
-		#{italic}#죽음의 톱 위에서 저들의 뼈가 쪼게지게하라!#{normal}#]], "tformat")
+		#{italic}#죽음의 톱 위에서 저들의 뼈가 쪼개지게 하라!#{normal}#]], "tformat")
 t("Punishment", "징벌", "talent name")
 t("#CRIMSON#%s unleashes a punishing strike for %d%% bonus damage!", "#CRIMSON#%s 징벌의 일격을 가해, %d%% 추가 피해를 가했다!", "logSeen", nil, {"가"})
 t([[Slam your saws into your target, dealing 100%% weapon damage + %d%% per physical, magical, or mental effect on them (up to 7 effects).
@@ -5839,7 +5839,7 @@ t([[Melding psionics with steamtech you create 5 mind drones at your sides that 
 		사고를 방해받는 개체는 %d%% 확률로 기술 사용에 실패하고, 공포와 수면 저항이 %d%% 감소합니다.]], "tformat")
 t("Psionic Mirror", "염동 거울", "talent name")
 t([[You cleanse your mind of %d mental debuffs.
-		Cleansed effects will be randomly sent to closeby foes (range 5, subject to a mental save).]], [[정신을 맑게하여 %d 개의 부정적 정신 효과를 제거합니다.
+		Cleansed effects will be randomly sent to closeby foes (range 5, subject to a mental save).]], [[정신을 맑게 하여 %d 개의 부정적 정신 효과를 제거합니다.
 		제거된 효과는 근처의 무작위한 적들에게 전파됩니다. (범위 5 칸, 정신 내성 판정이 적용됩니다)]], "tformat")
 t("Mind Injection", "정신 주입", "talent name")
 t("#LIGHT_BLUE#Mind Injection selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 정신 주입이 먼저 사용됩니다.", "saySimple")
@@ -6671,7 +6671,7 @@ t("A special shot filled with antimagic sap.", "반마법의 힘이 채워진 �
 t("Corrosive Shell", "부식 탄환", "_t")
 t("A special shot that releases acid on impact.", "충격을 받으면 산성이 터저나오는 특수 탄환입니다.", "_t")
 t("Hook Shell", "갈고리 탄환", "_t")
-t("A special shot moving yourself, or others quickly.", "자신이나, 다른 이들을 빠르게 움직이게하는 특수 탄환입니다.", "_t")
+t("A special shot moving yourself, or others quickly.", "자신이나, 다른 이들을 빠르게 움직이게 하는 특수 탄환입니다.", "_t")
 t("Voltaic Shell", "정전기 탄환", "_t")
 t("A special shot that releases electricity on impact.", "충격을 받으면 전류를 흘러보내는 특수 탄환입니다.", "_t")
 t("Botanical Shell", "포자 탄환", "_t")
