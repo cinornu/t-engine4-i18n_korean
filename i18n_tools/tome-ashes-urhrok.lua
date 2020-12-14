@@ -409,6 +409,12 @@ Above all else, remember: despite <?=player:his_her()?> enhancements, this is a 
 무엇보다, 기억하라: <?=player:he_she()?>가 향상되었을지라도 이자는 운좋게 우리의 우월한 힘의 일부를 얻은 한심하고 열등한 에이알인일 뿐이다. <?=player:he_she():capitalize()?>는 이 힘을 제대로 쓰는 법을 모르며, 우리처럼 영겁의 새월동안 사용해본 경험이 있는 것도 아니다. 우리는 다수이고, 힘에 익숙하며, 전술이 있다. 그리고 우리는 울흐'록의 축복을 받는다. 연습이라고 생각하라. 우리가 차분히 집중만 한다면 희생자가 생기는 일은 없을 것이다.
 
 ]], "_t")
+t("first mural painting", "첫 번째 벽화", "_t")
+t("second mural painting", "두 번째 벽화", "_t")
+t("third mural painting", "세 번째 벽화", "_t")
+t("fourth mural painting", "네 번째 벽화", "_t")
+t("fifth mural painting", "다섯 번째 벽화", "_t")
+t("sixth mural painting", "여섯 번째 벽화", "_t")
 t("demon statue: daelach", "악마상: 댈라크", "_t")
 t("demon statue: Lithfengel", "악마상: 리스펭겔", "_t")
 t("demon statue: Corrupted Daelach", "악마상: 오염된 댈라크", "_t")
@@ -510,13 +516,7 @@ Operation to secure <?=player.name?> failure.  Primary defense force routed by t
 
 #{italic}#The last O trails off, a line leading from it to the end of the page like the pen was rapidly jerked away, then leads to a doodle depicting you, wielding a double-bladed katana and fighting a giant construct labelled "Ninja Atamathon."  Your badassery must have interrupted this demon's writing.#{normal}#
 ]], "_t")
-t("first mural painting", "first mural painting", "_t")
 t("#{italic}#\"To honor the Masters\" - A thrall#{normal}#", "#{italic}#\"To honor the Masters\" - A thrall#{normal}#", "_t")
-t("second mural painting", "second mural painting", "_t")
-t("third mural painting", "third mural painting", "_t")
-t("fourth mural painting", "fourth mural painting", "_t")
-t("fifth mural painting", "fifth mural painting", "_t")
-t("sixth mural painting", "sixth mural painting", "_t")
 t("demon statue: wretchling", "demon statue: wretchling", "_t")
 t("Behold, the humble wretchling, a testament to our devotion to our Father!  These children of emerald were among the first to alter themselves for our quest for vengeance, and managed an astounding degree of success.  With their bursts of blinding speed, overwhelming numbers, and skin that can release prodigious amounts of corrosive fluid, wretchlings can storm onto the battlefield and pounce on our foes one-by-one, dissolving the ground they walk on while leaving them helpless against our onslaught.  Wretchlings will readily give their lives in combat, serving as obstructions and shields while their acid and our casters do their work, and still remain the most populous of our species thanks to their incredible birth rates.  It is rare to see a wretchling survive to maturity, but make no mistake - every wretchling that fights does an incredible service to our cause.", "Behold, the humble wretchling, a testament to our devotion to our Father!  These children of emerald were among the first to alter themselves for our quest for vengeance, and managed an astounding degree of success.  With their bursts of blinding speed, overwhelming numbers, and skin that can release prodigious amounts of corrosive fluid, wretchlings can storm onto the battlefield and pounce on our foes one-by-one, dissolving the ground they walk on while leaving them helpless against our onslaught.  Wretchlings will readily give their lives in combat, serving as obstructions and shields while their acid and our casters do their work, and still remain the most populous of our species thanks to their incredible birth rates.  It is rare to see a wretchling survive to maturity, but make no mistake - every wretchling that fights does an incredible service to our cause.", "_t")
 t("demon statue: fire imp", "demon statue: fire imp", "_t")

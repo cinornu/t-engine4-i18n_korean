@@ -8,7 +8,7 @@ t("Provides tools to develop and publish addons.", "애드온을 개발하고 �
 section "tome-addon-dev/overload/engine/i18nhelper/ArrangeText.lua"
 
 t("Success", "성공", "_t")
--- new text
+-- untranslated text
 --[==[
 t([[[ERROR] format string error near '%s' of string %s
 ]], [[[ERROR] format string error near '%s' of string %s
@@ -20,10 +20,6 @@ t([[[WARNING]Mismatched tformat string:
         Source: %s %s
         Target: %s %s (args=%s)
 ]], "log")
---]==]
-
--- untranslated text
---[==[
 t([[[WARNING]Mismatched translation for %s(%s): 
 Last occurance: %s (from section %s)
 Current occurance: %s (from section %s)
@@ -150,6 +146,29 @@ t("Publish Addon to te4.org", "te4.org에 애드온 게시", "_t")
 t("Publish Addon to Steam Workshop", "Steam 창작마당에 애드온 게시", "_t")
 
 ------------------------------------------------
+section "tome-addon-dev/superload/mod/dialogs/debug/ChooseTranslationParts.lua"
+
+t("Finish", "끝내기", "_t")
+t("enabled", "켜짐", "_t")
+t("disabled", "꺼짐", "_t")
+-- new text
+--[==[
+t("DEBUG -- Choose game parts", "DEBUG -- Choose game parts", "_t")
+t([[Choose game parts you want to translated.
+Unchecked parts will not be scanned, rearranged or released.
+Your configuration will be lost after closing the game.
+]], [[Choose game parts you want to translated.
+Unchecked parts will not be scanned, rearranged or released.
+Your configuration will be lost after closing the game.
+]], "_t")
+t("Checked", "Checked", "_t")
+t("Short name", "Short name", "_t")
+t("Long Name", "Long Name", "_t")
+t("Flip All", "Flip All", "_t")
+--]==]
+
+
+------------------------------------------------
 section "tome-addon-dev/superload/mod/dialogs/debug/DebugMain.lua"
 
 t("Addon Developer", "애드온 개발자", "_t")
@@ -206,6 +225,11 @@ Logs written to %s]], "tformat")
 ------------------------------------------------
 section "tome-addon-dev/superload/mod/dialogs/debug/TranslationTool.lua"
 
+
+-- new text
+--[==[
+t("Choose which part to translate", "Choose which part to translate", "_t")
+--]==]
 
 -- untranslated text
 --[==[
