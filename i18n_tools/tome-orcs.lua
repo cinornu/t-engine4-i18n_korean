@@ -2,9 +2,9 @@
 section "tome-orcs/data/achievements/special.lua"
 
 t("No mercy!", "자비란 없다!", "achievement name")
-t("Killed 1000 steam giants civilians.", "증기 거인 시민을 1000명 죽였다.", "_t")
+t("Killed 1000 steam giants civilians.", "증기 거인족 민간인을 1000명 죽였다.", "_t")
 t("Mercy, mercy!", "자비를, 자비를!", "achievement name")
-t("Killed Talosis without any civilians deaths.", "시민을 단 한 명도 죽이지 않은 채로 탈로시스를 죽였다.", "_t")
+t("Killed Talosis without any civilians deaths.", "민간인을 단 한 명도 죽이지 않은 채로 탈로시스를 죽였다.", "_t")
 t("This will make a big Omelette!", "커다란 오믈렛을 만들 수 있겠군!", "achievement name")
 t("Collected 40 ritch eggs in the Ritch Hive.", "릿치 군락에서 릿치 알을 40개 모았다.", "_t")
 t("An Other Brick in the Wall", "벽 속의 또 다른 벽돌일 뿐", "achievement name")
@@ -361,7 +361,7 @@ A nagging thought in the back of your head insists that you now know how the Sun
  
 증기 거인족은 이제 없습니다.
  
-탄두에서 2차 폭발이 일어나 불타는 잔해들이 바다로 떨어졌고, 이 광경은 바르'에이알에 사는 모든 오크들과, 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - 이것이 바로 오크들을 멸종시키려 했던 자들의 최후이고, 지난 수천년 간 이어졌던 박해, 학살, 그리고 괴롭힘은 이제 끝났다. 당신의 동포들은 두 번 다시는 억압받지 않을 겁니다.
+탄두에서 2차 폭발이 일어나 불타는 잔해들이 바다로 떨어졌고, 이 광경은 바르'에이알에 사는 모든 오크들과, 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - "이것이 바로 오크들을 멸종시키려 했던 자들의 최후이고, 지난 수천년 간 이어졌던 박해, 학살, 그리고 괴롭힘은 이제 끝났다". 당신의 동포들은 두 번 다시는 억압받지 않을 겁니다.
  
 이제 태양의 기사들이, 토크놀 국왕이, 하플링들이, 그리고 오크들에게 그런 끔찍한 짓을 저질러 왔던 자들이 어떤 기분이었는지 알 것 같다고, 의식의 뒷편에서 어떤 목소리가 끊임없이 주절거립니다. 무슨 소릴 하든 상관 없습니다 - 동포들이 마침내 안전해졌으니까요.*#WHITE#]], "_t")
 t("[leave]", "[떠난다]", "_t")
@@ -381,7 +381,7 @@ As the secondary charges go off, the ongoing pyrotechnic display acts as a celeb
  
 방금 딴 맥주를 한 잔 들이키고, 이제 아무것도 들어있지 않은 #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#의 목표를 비행선으로 바꿨습니다. 거인들이 환희와 안도감에 겨워 눈물을 흘리면서, 서로 부둥켜안고 환호하는 것을 볼 수 있었습니다. 그 중 몇 명은 당신이 의도적으로 이렇게 한 것인지 혼란스러워 하고 있었지만, 대부분은 당신이 자비를 보였다고 생각하고 있는 것 같습니다.
  
-2차 폭발이 일어났고, 이 불꽃놀이 같은 광경은 증기 거인들과, 오크들과, 그리고 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - 전쟁은 끝났다. 바르'에이알과 그것의 주인인 오크들은, 수천년 만에 처음으로 평화가 어떤 것인지 알게 될 것입니다.*#WHITE#]], "_t")
+2차 폭발이 일어났고, 이 불꽃놀이 같은 광경은 증기 거인들과, 오크들과, 그리고 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - "전쟁은 끝났다". 바르'에이알과 그것의 주인인 오크들은, 수천년 만에 처음으로 평화가 어떤 것인지 알게 될 것입니다.*#WHITE#]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/john-surrender.lua"
