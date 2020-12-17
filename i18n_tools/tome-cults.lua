@@ -581,7 +581,7 @@ t("The relentless hunter. It never gives up, never surrenders.", "끈질긴 사�
 section "tome-cults/data/general/npcs/horror.lua"
 
 t("searing horror", "불사르는 빛의 공포", "entity name")
-t("And you thought radiant horrors were bad.", "발광의 공포는 최악이었다고 생각하셨겠죠?", "_t")
+t("And you thought radiant horrors were bad.", "눈부신 공포는 최악이었다고 생각하셨겠죠?", "_t")
 t("#GOLD#The Searing Horror adds a reflective shield to its allies!#LAST#", "#GOLD#불사르는 빛의 공포가 적들에게 반사 보호막을 시전한다!#LAST#", "say")
 t("ravaging entropic rip", "파괴하는 엔트로피의 균열", "entity name")
 t("A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "기이한 현실 구조의 수정/균열입니다. 어떻게 존재하고 있는 건지 감히 생각도 할 수 없습니다.", "_t")
