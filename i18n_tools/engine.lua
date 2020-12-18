@@ -388,10 +388,7 @@ t("The character's vault has registered a total of #RED#%d#WHITE# character's de
 t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소는 현재 버전의 승자 #LIGHT_BLUE#%d#WHITE# 명이 기록되어 있습니다", "tformat")
 t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "마지막 기부자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 기부자들께 감사드리며, 이 게임이 계속될 수 있게끔 도와주세요!", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로필로 교체됨)", "log", nil, {"이"})
--- untranslated text
---[==[
-t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "tformat")
---]==]
+t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 다섯 종족들 중 하나입니다", "tformat", {"는"})
 
 
 ------------------------------------------------
@@ -1882,12 +1879,9 @@ t("Username", "유저명", "_t")
 t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
 t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
--- untranslated text
---[==[
-t("Email", "Email", "_t")
-t("Your email seems invalid", "Your email seems invalid", "_t")
-t("Age Check", "Age Check", "_t")
---]==]
+t("Email", "이메일", "_t")
+t("Your email seems invalid", "올바르지 않은 이메일 같습니다", "_t")
+t("Age Check", "연령 체크", "_t")
 
 
 ------------------------------------------------
@@ -1907,21 +1901,18 @@ t("Registering...", "등록 중...", "_t")
 t("Registering on https://te4.org/, please wait...", "https://te4.org/에 등록 중, 기다려 주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
 t("Error", "오류", "_t")
--- untranslated text
---[==[
-t("Steam User Account", "Steam User Account", "_t")
+t("Steam User Account", "Steam 유저 계정", "_t")
 t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
 To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
 Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
-]], [[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
-To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
-Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
+]], [[#GOLD#테일즈 오브 마즈'에이알#LAST#에 어서 오십시오.
+이 게임의 모든 기능을 즐기기 위해서 당신의 Steam 계정을 등록하는 것을 #{bold}#강력#{normal}# 추천합니다.
+정말 다행스럽게도 아주 손쉽게 가능합니다. 프로필에 사용할 닉네임과 부가적으로 이메일 주소만 있으면 됩니다 (저희는 이메일을 거의 보내지 않습니다. 2년에 한 번 보낼까 말까죠).
 ]], "_t")
-t("Email", "Email", "_t")
-t("Your email does not look right.", "Your email does not look right.", "_t")
-t("Age Check", "Age Check", "_t")
-t("Username or Email already taken, please select an other one.", "Username or Email already taken, please select an other one.", "_t")
---]==]
+t("Email", "이메일", "_t")
+t("Your email does not look right.", "올바르지 않은 이메일 같습니다.", "_t")
+t("Age Check", "연령 체크", "_t")
+t("Username or Email already taken, please select an other one.", "입력하신 유저명 또는 이메일은 이미 존재합니다. 다른 것으로 시도해 주세요.", "_t")
 
 
 ------------------------------------------------
