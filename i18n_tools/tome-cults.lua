@@ -6,7 +6,7 @@ t("Read a Forbidden Tome.", "금지된 고서를 읽었다.", "_t")
 t("Bookception!", "북셉션!", "achievement name")
 t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "금지된 고서: \"지식과 공포에 관해\" 안에서 금지된 고서를 보상으로 찾아냈다.", "_t")
 t("Recursive Home of Recursion", "집 안에 집이 있고 안에 또 집이 있고", "achievement name")
-t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "집같지 않은 우리 집 바닥에 금지된 고서: \"집, 무시무시한 집\" 을 놔 두었다.", "_t")
+t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "집 같지 않은 우리 집 바닥에 금지된 고서: \"집, 무시무시한 집\" 을 놔 두었다.", "_t")
 t("They Came From Outer Space!", "외우주에서 왔었어!", "achievement name")
 t("Discovered the true origin of dwarves and drems.", "드워프와 드렘의 진짜 기원을 찾아냈다.", "_t")
 t("The True Coward", "진정한 겁쟁이", "achievement name")
@@ -4075,7 +4075,7 @@ section "tome-cults/data/zones/ft-haze-cave/grids.lua"
 
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
-t("return home", "집으로 돌아오다", "entity name")
+t("return home", "집으로 돌아가기", "entity name")
 t("Grung", "그룽", "_t")
 t("Grung story does not end yet, find more food and bring it here.", "그룽의 이야기는 아직 안 끝났습니다. 먹을 것들을 더 찾아서 여기 갖다 놔야 합니다.", "_t")
 t("Grung story ends there, he manages to gather enough food to survive some more days.", "그룽의 이야기는 이걸로 끝입니다. 그는 며칠 간 버틸 수 있는 음식들을 충분히 모으는 데 성공했습니다.", "_t")
@@ -4113,7 +4113,7 @@ t("name", "이름", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/ft-haze-cave/zone.lua"
 
-t("A cave from ages old", "오래된 동굴", "_t")
+t("A cave from ages old", "고대의 동굴", "_t")
 t("%d Food Collected", "음식 %d 개 모음", "tformat")
 t("Hungry", "배고픔", "_t")
 t([[It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.
@@ -4125,18 +4125,18 @@ t("Why is there a dead tentacled one here?", "촉수 달린 사람이 왜 여기
 t("Corpses are raining from the sky...", "하늘에서 시체들이 쏟아지고 있어...", "_t")
 t("The many tentacled ones are piling on the ground, forming mass graves.", "촉수 달린 사람들이 한가득이네, 무슨 커다란 묘지 보는 느낌이다.", "_t")
 t("What are these things?!", "이게 다 뭐야?!", "_t")
-t("Your primitive mind recoils in horror from the thing in front of you.", "지금 눈 앞에 있는 것을 목도하자 당신의 본능이 공포로 움츠러듭니다.", "_t")
+t("Your primitive mind recoils in horror from the thing in front of you.", "(본능 그 자체가 공포로 움츠러든다.)", "_t")
 t("Why are they killing each other? For what reason does this horror have to happen?", "왜 서로 죽이고 있지? 대체 뭣 때문에 이런 무서운 일이 일어나고 있는 거야?", "_t")
-t("You have fought against other tribes before, but the bloodshed you saw then is nothing compared to this.", "당신은 이전에 다른 부족과 싸워 본 적이 있긴 하지만, 지금 목도하고 있는 참혹한 광경은 그 어떤 것과도 비교할 수가 없습니다.", "_t")
-t("You do not have the words you need to articulate your horror.", "이 공포를 표현할만한 적당한 단어가 떠오르지 않습니다.", "_t")
+t("You have fought against other tribes before, but the bloodshed you saw then is nothing compared to this.", "(예전에 다른 부족과 싸워 본 적이 있긴 하지만, 이 참혹한 광경과는 비교가 안 된다.)", "_t")
+t("You do not have the words you need to articulate your horror.", "(너무 무서워서 할 말을 잃었다.)", "_t")
 t("Are the many tentacled ones using these creatures against each another?", "촉수 달린 사람들이 이것들을 동포들한테 쓴 건가?", "_t")
-t("Little of what you're seeing makes sense to you. You simply don't have the words to articulate the terror you're feeling.", "지금 눈 앞에서 무슨 일이 일어나고 있는지 전혀 이해가 되지 않습니다. 당신은 그저 공포로 말문이 막힐 뿐입니다.", "_t")
-t("Great blasts of light come from the sky.", "하늘에서 눈부신 빛과 함께 엄청난 폭발이 일어났습니다.", "_t")
-t("Indescribable things are emerging from the darkness.", "어둠 속에서 그 모습을 차마 형용할 수 없는 것들이 나타나고 있습니다.", "_t")
-t("Looking up, you see something writhing between the stars. You look away before curiosity gets the better of you.", "하늘을 올려다보자, 별들 사이에서 뭔가가 뒤틀리고 있는 게 보였습니다. 호기심이 더 자극되기 전에, 다른 곳으로 눈을 돌렸습니다.", "_t")
-t("The lights nearly blind you as cascades of swirling colours explode in the darkness above your head.", "머리 위쪽의 어둠 속에서 형형색색의 빛이 소용돌이치며 쇄도하자 거의 눈이 멀어버릴 지경입니다.", "_t")
-t("Terrified by the carnage around it, the rabbit has become easy prey.", "이 토끼는 주변의 대학살에 겁을 먹어, 손쉽게 사냥할 수 있었습니다.", "_t")
-t("A good little meal, but you will need more than this.", "좋은 사냥감이긴 하지만, 더 많이 필요합니다.", "_t")
+t("Little of what you're seeing makes sense to you. You simply don't have the words to articulate the terror you're feeling.", "(지금 무슨 일이 일어나고 있는지 전혀 이해가 안 된다. 그저 공포로 말문이 막힐 뿐이다.)", "_t")
+t("Great blasts of light come from the sky.", "하늘에서 엄청난 폭발이 일어나고 있어. 눈부셔.", "_t")
+t("Indescribable things are emerging from the darkness.", "어둠 속에서 뭔지 모를 것들이 나타나고 있어.", "_t")
+t("Looking up, you see something writhing between the stars. You look away before curiosity gets the better of you.", "(하늘을 올려다보자, 별들 사이에서 뭔가가 뒤틀리고 있는 게 보였다. 호기심이 더 자극되기 전에, 다른 곳으로 눈을 돌렸다.)", "_t")
+t("The lights nearly blind you as cascades of swirling colours explode in the darkness above your head.", "(머리 위쪽의 어둠 속에서 형형색색의 빛이 소용돌이치고 있다. 눈이 멀어버릴 지경이다.)", "_t")
+t("Terrified by the carnage around it, the rabbit has become easy prey.", "이 토끼는 쉽게 잡았다. 주변이 피바다라 겁을 먹은 것 같아.", "_t")
+t("A good little meal, but you will need more than this.", "한 끼로 든든하겠지만, 더 많이 필요해.", "_t")
 t("Meat has been a rare treat as of late.", "최근엔 고기를 맛보기 어렵지.", "_t")
 t("#ANTIQUE_WHITE#Grung: %s", "#ANTIQUE_WHITE#그룽: %s", "log")
 
@@ -4162,7 +4162,7 @@ t("void", "공허", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/ft-home/zone.lua"
 
-t("The Home Which Is Not", "집같지 않은 우리 집", "_t")
+t("The Home Which Is Not", "집 같지 않은 우리 집", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-horrors/grids.lua"
