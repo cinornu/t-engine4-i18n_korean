@@ -581,14 +581,14 @@ t("The relentless hunter. It never gives up, never surrenders.", "끈질긴 사�
 section "tome-cults/data/general/npcs/horror.lua"
 
 t("searing horror", "불사르는 빛의 공포", "entity name")
-t("And you thought radiant horrors were bad.", "눈부신 공포는 최악이었다고 생각하셨겠죠?", "_t")
+t("And you thought radiant horrors were bad.", "눈부신 공포는 최악이라고 생각하셨겠죠?", "_t")
 t("#GOLD#The Searing Horror adds a reflective shield to its allies!#LAST#", "#GOLD#불사르는 빛의 공포가 적들에게 반사 보호막을 시전한다!#LAST#", "say")
 t("ravaging entropic rip", "파괴하는 엔트로피의 균열", "entity name")
 t("A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "기이한 현실 구조의 수정/균열입니다. 어떻게 존재하고 있는 건지 감히 생각도 할 수 없습니다.", "_t")
 t("bursting entropic shard", "폭발하는 엔트로피의 조각", "entity name")
 t("A strange tall crystal pusling with nether energies. It's broken. Tentacles come out of it to get you! #{bold}#RUN!#{normal}#", "기이하고 높은 수정이 황천 에너지로 맥동합니다. 수정이 부셔지자, 촉수들이 튀어나와 당신에게로 몰려옵니다! #{bold}#뛰십시오!#{normal}#", "_t")
 t("nethergate", "황천 차원문", "entity name")
-t("A strange portal of nether energies, it somehow feels alive itself.", "황천 에너지의 기이한 차원문으로, 차원문 그 자체가 살아있는 것 같습니ㅏㄷ.", "_t")
+t("A strange portal of nether energies, it somehow feels alive itself.", "황천 에너지의 기이한 차원문으로, 차원문 그 자체가 살아있는 것 같습니다.", "_t")
 t("It looks inactive and dormant for now. Maybe try to not wake it up.", "지금은 비활성화 상태고,  잠들어 있는 것 같습니다. 깨우지 않도록 노력하십시오.", "_t")
 t("It looks active and you can feel dark energies coming out of it.", "활성화되어, 당신은 어둠의 에너지가 이 차원문에서 방출됨을 느낍니다.", "_t")
 t("#PURPLE#The nethergate feels a presence nearby and wakes up!", "#PURPLE#황천 차원문은 주변의 존재감을 느껴 깨어났다!", "logSeen")
@@ -806,7 +806,7 @@ t("Light of Revelation", "계시의 빛", "entity name")
 t("disturbing lantern", "방해하는 랜턴", "_t")
 t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "이 \"랜턴\" 은 유리 비슷한 물체가 그저 빛을 내고 있습니다. 얼마나 밝게 빛나던 간에, 이 빛은 당신을 심각하게 방해합니다. 빛은 모든 것을 밝히고, 일깨워, 보지 않아야 할 것들 마저 비춰줍니다. 마음 한 켠에서는 이 랜턴을 버려버리고 싶어하지만 다른 한 구석에서는 이 랜턴이 밝혀줄, 이 세상의 것이 아닌 진실을 알고싶다는 생각이 듭니다.", "_t")
 t("Sometimes reveals the hidden truths you'd rather not see.", "가끔 착용자가 보지 못했던 숨겨진 진실을 밝혀줍니다.", "_t")
-t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#계시의 빛이 %s 비춰, 진실된 본성인 %s 나타나게했다!", "say", nil, {"를","가"})
+t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#계시의 빛이 %s 비춰, 진실된 본성인 %s 나타나게 했다!", "say", nil, {"를","가"})
 t("Glowing Core", "빛나는 핵", "entity name")
 t("burning core", "불타는 핵", "_t")
 t("This is all that's left of the Searing Horror. Even after its death, the object in your hand glows just as brightly as it did before.", "불사르는 공포가 남긴 유일한 물품입니다. 죽음 이후에도, 당신 손에서 찬란한 빛을 뿜어내고 있습니다. 전에도 그랬던 것 처럼..", "_t")
@@ -1657,7 +1657,7 @@ Making my way over to the ogre I was quick to treat her wounds. The ogre command
 
 나의 감정이 마침내 나를 완전히 사로잡았고, 무엇을 향해 휘두르는지도 신경쓰지 않은 채 무차별적으로 도끼를 휘두르기 시작했다. 하플링은 도끼질을 피하려고 했으나 수 차례 적중했다. 하플링의 상처에서 피가 흘러나왔고, 아마도 그 무아지경 속에서 내 앞에 있던 광신도 몇몇 또한 도끼질에 맞고 피를 뿜어냈다. 끝내 이를 견디지 못한 하플링은 도망치기 위해 전혀 다른 방향으로 빠르게 움직이기 시작했다. 내 복수로부터 도망치려고 했다. 그러나 하플링은 다 쓰러져가는 시체나 다름 없었다. 그의 몸에 난 상처들이 제 몫을 하고 있었다. 내 주변에서 무언가 웅성거리는 소리를 들을 수 있었다. 신병들과 광신도들에게서 나는 소리였고 그들은 점점 후퇴하고 있었다.
 
-다음에 무얼 해야할까 생각하는 와중에, 커다란 손이 내 어깨에 얹어지는 것을 느꼈다. 몸을 돌리자 오우거 참모의 얼굴이 보였다. 참모는 숨을 헐떡이며 빠르게 말을 이었다. "여기에 더 이상 있을 수는 없어. 뒤족에서 다른 광신도들이 다가오고 있네. 여기를 돌파하고 빠져나가야 해." 뒤쪽을 보자, 여러 그림자가 빠르게 다가오는 것이 보였다. 지금까지 상대했던 무리보다 훨씬 더 많고 훨씬 더 잘 무장한 상태였다. 쇠붙이들에서 반사된 빛이 주변의 벽에까지 비칠 정도였다. 그러나 바로 앞에 남아있는 광신도들과 신병들을 몇 되지 않는다. 이들을 돌파한다면 최소한 지금 싸울 수있 는 오우거들은 도망칠 수 있을 것이었다.
+다음에 무얼 해야할까 생각하는 와중에, 커다란 손이 내 어깨에 얹어지는 것을 느꼈다. 몸을 돌리자 오우거 참모의 얼굴이 보였다. 참모는 숨을 헐떡이며 빠르게 말을 이었다. "여기에 더 이상 있을 수는 없어. 뒤족에서 다른 광신도들이 다가오고 있네. 여기를 돌파하고 빠져나가야 해." 뒤쪽을 보자, 여러 그림자가 빠르게 다가오는 것이 보였다. 지금까지 상대했던 무리보다 훨씬 더 많고 훨씬 더 잘 무장한 상태였다. 쇠붙이들에서 반사된 빛이 주변의 벽에까지 비칠 정도였다. 그러나 바로 앞에 남아있는 광신도들과 신병들을 몇 되지 않는다. 이들을 돌파한다면 최소한 지금 싸울 수 있는 오우거들은 도망칠 수 있을 것이었다.
 
 나는 오우거들에게 돌격하자고 외치며, 공포에 질린 광신도들에게 돌진했다. 아직까지 싸우고 있던 오우거들은 이를 보고 곧 대열에 합류했다. 그리고 자유를 향해 앞으로 달려갔다. 광신도들은 더 이상 우리에게 저항하지 못 했고, 사기는 땅에 떨어졌다. 우리가 가는 길 앞에서 미처 벗어나지 못한 자들은 넘어지고 짓밟혔다. 달려가는 중에 뒤를 돌아보니 하플링의 모습이 어렴푸싱 보였다. 그는 나를 서슬퍼런 증오를 담아서 바라보고 있었으나 그저 그뿐이었다. 나는 조금이나마 만족감을 느꼈다. 이 광신도들에게 어느 정도 복수를 했고, 얼마 남지 않은 오우거들이지만 그들을 구해내어 도망칠 수 있었으니까.
 
@@ -2696,7 +2696,7 @@ t([[Each time you apply Jinx to an enemy, you have a %d%% chance to siphon some 
 t("Fatebreaker", "운명 파괴자", "talent name")
 t([[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
 		As long as your target remains alive this redirects all damage you take to it as temporal and darkness damage for 1 turn.
-		Any Fortune stacks you have and any Jinx stacks the enemy have will then be consumed to heal you for %d life per stack.]], [[시전자와 선택된 대상의 운명을 %d 턴 동안 하나로 잇습니다. 지속시간 동안, 시전자가 죽음에 다다를수있는 피해를 입게되면 현실 개변을 일으켜 운명 공유 효과를 끝내고, 운명 파괴자를 발동해 대상이 시전자 대신 치명적인 피해를 입게 합니다.
+		Any Fortune stacks you have and any Jinx stacks the enemy have will then be consumed to heal you for %d life per stack.]], [[시전자와 선택된 대상의 운명을 %d 턴 동안 하나로 잇습니다. 지속시간 동안, 시전자가 죽음에 다다를 수 있는 피해를 입게되면 현실 개변을 일으켜 운명 공유 효과를 끝내고, 운명 파괴자를 발동해 대상이 시전자 대신 치명적인 피해를 입게 합니다.
 		운명 파괴자가 발동되고 난 후 1 턴 동안 시전자가 받는 모든 피해는 시간 피해와 암흑 피해로 대상에게 재전송 될 것입니다.
 		시전자의 모든 행운 중첩과 적들이 가진 모든 불행 중첩은 %d 생명력을 회복시키는데 쓰여질 것입니다.]], "tformat")
 
@@ -2811,7 +2811,7 @@ t("prophecy", "예언", "_t")
 t("The various prophecies you can tell.", "선고가능한 여러 가지 예언을 다룹니다.", "_t")
 t("calamity", "대재앙", "_t")
 t("Stack the odds in your favour.", "마음 먹은대로 행운을 조작합니다.", "_t")
-t("beyond sanity", "온전한 정신을 넘어", "_t")
+t("beyond sanity", "이성 너머", "_t")
 t("Let yourself walk in chaos!", "혼돈이 함께 합니다!", "_t")
 t("other", "기타", "_t")
 t("Talents of the various entities of the world.", "세상에 존재하는 여러 종족들의 기술.", "_t")
@@ -2928,7 +2928,7 @@ You may activate this talent to channel your entropy onto a nearby enemy, removi
 
 The damage dealt when applying this to an enemy will increase with your Spellpower.]], [[비자연적인 존재감은 현실 그 자체에게 배격당합니다. 즉발 회복량중 25%% 가 엔트로피 반발 효과로 전환되어, 8 턴동안 피해를 입습니다. 엔트로피 반발은 모든 저항과 보호막을 무시하고 시전자에게 피해를 주지만, 시전자는 이 피해로 인해 죽지는 않습니다.
 
-이 기술을 사용함으로써, 엔트로피를 근처의 적에게 전달 할 수있습니다. 시전자의 모든 엔트로피 반발을 제거하고 엔트로피의 %d%% 에 해당하는 암흑, 시간 피해를 4 턴에 걸쳐 입힙니다.
+이 기술을 사용함으로써, 엔트로피를 근처의 적에게 전달 할 수 있습니다. 시전자의 모든 엔트로피 반발을 제거하고 엔트로피의 %d%% 에 해당하는 암흑, 시간 피해를 4 턴에 걸쳐 입힙니다.
 
 적에게 적용될 시 입히는 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Reverse Entropy", "엔트로피 역전", "talent name")
@@ -3059,7 +3059,7 @@ section "tome-cults/data/talents/demented/nether.lua"
 
 t("Netherblast", "황천폭발", "talent name")
 t([[Fire a burst of unstable void energy, dealing %0.2f darkness and %0.2f temporal damage to the target. The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], [[불안정한 공허 에너지를 발사하여 %0.2f 의 암흑 피해와 %0.2f 시간 피해를 대상에게 가합니다. 이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용 될 수있습니다.
+		The damage will increase with your Spellpower.]], [[불안정한 공허 에너지를 발사하여 %0.2f 의 암흑 피해와 %0.2f 시간 피해를 대상에게 가합니다. 이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용될 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Rift Cutter", "균열 절단", "talent name")
 t([[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness damage to enemies within and leaving behind an unstable rift. After 3 turns the rift detonates, dealing %0.2f temporal damage to adjacent enemies.
@@ -3067,7 +3067,7 @@ t([[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness d
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
 		The damage will increase with your Spellpower.]], [[대지를 가로지르는 광선을 발사해, %0.2f 암흑 피해를 범위 내의 적에게 입히고, 불안정한 균열을 남깁니다. 3 턴 후에 균열은 폭발하여 %0.2f 시간 피해를 인접한 적에게 가합니다.
 		대상은 한 번에 단 하나의 균열 폭발에만 영향을 받습니다.
-		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용 될 수있습니다.
+		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용될 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Spatial Distortion", "공간의 뒤틀림", "talent name")
 t("Select a teleport location...", "순간이동 할 목적지를 선택합니다...", "logPlayer")
@@ -3079,7 +3079,7 @@ t("Tendrils lash around the mouth of this gigantic beast, seeking prey to devour
 t([[Briefly open a radius %d rift in spacetime that teleports those within to the targeted location. Enemies will take %0.2f darkness and %0.2f temporal damage.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
 		The damage will improve with your Spellpower.]], [[짧은 시간 동안 지정 위치 내의 적을 반경 %d 의 균열을 열어 순간이동 시킵니다. 적들은 %0.2f 암흑 피해와 %0.2f 시간 피해를 입습니다.
-		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용 될 수있습니다.
+		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용될 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Halo of Ruin", "파멸의 후광", "talent name")
 t([[Each time you cast a non-instant Demented spell, a nether spark begins orbiting around you for 10 turns, to a maximum of 5. Each spark increases your critical strike chance by %d%%, and on reaching 5 sparks your next Nether spell will consume all sparks to empower itself:
@@ -3340,7 +3340,7 @@ t("Accelerate", "가속", "talent name")
 t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius 7 by 50%% for %d turns.
 You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
 Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어, 반경 7칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
-당신은 적에게서 흡수한 시간을 이용하여, 1 턴 동안 믿을 수없는 속도로 움직입니다. 당신의 이동 속도를 %d%% 만큼 증가시키고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다. 추가 이동 속도 효과는 최대 4명의 적에게서 발생됩니다.
+당신은 적에게서 흡수한 시간을 이용하여, 1 턴 동안 믿을 수 없는 속도로 움직입니다. 당신의 이동 속도를 %d%% 만큼 증가시키고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다. 추가 이동 속도 효과는 최대 4명의 적에게서 발생됩니다.
 이동을 제외한 모든 행위는 효과를 즉시 중단시킵니다.]], "tformat")
 t("Switch", "전환", "talent name")
 t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "엔트로피의 쇄도를 풀어놓아 타인의 에너지를 흡수하고, 당신의 부정적인 효과를 정화합니다. 반경 10칸 이내의 모든 적이 가진 %d 개의 이로운 효과의 지속시간을 %d 턴 단축시키고, 당신이 가진 같은 수의 부정적인 효과의 지속시간도 같은 수치로 단측합니다.", "tformat")
@@ -3370,7 +3370,7 @@ t("%s(%d to entropy)", "%s(%d 엔트로피 흡수)", "tformat")
 t([[Conjure void stars that orbit you, defending you from incoming attacks. Each time an attack deals more than 10%% of your maximum life, a star will be consumed to reduce the damage taken by %d%%, of which 40%% will be dealt to you as entropic backlash.
 		You regenerate 1 star every %d turns, stacking up to 4 times.
 		This talent will only function in light armor.]], [[주위를 떠다니는 공허의 별을 불러내어, 다가올 공격에서 스스로를 방어합니다. 한 번의 공격으로 10%% 이상의 생명력을 잃을 때, 해당 피해를 %d%% 낮추고 별 하나를 소모합니다. 감소된 피해의 40%%는 엔트로피 반발로 전환될 것입니다.
-		%d 턴마다 공허의 별을 하나 씩 얻습니다. 별은 최대 4 개 소유 할 수있습니다.
+		%d 턴마다 공허의 별을 하나 씩 얻습니다. 별은 최대 4 개 소유 할 수 있습니다.
 		이 기술은 오직 경갑 착용 상태애서만 작동합니다.]], "tformat")
 t("Nullmail", "무존재의 갑옷", "talent name")
 t([[Reinforce your armor with countless tiny void stars, increasing armor by %d.
@@ -4859,7 +4859,7 @@ t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Fillarel]#LAST
 t("#CRIMSON#[The parasite is hungry and promptly swallows and eat the yeek wayist]#LAST# I 'saved' you to get a nice meal...", "#CRIMSON#[기생생물은 배가 고파서 곧장 이크 한길의 일원을 집어삼켜 먹었다]#LAST# 맛있게 먹으려고...", "_t")
 t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금지된 고서로 들어갈 수 없다!#LAST#", "log")
 t("The protagonist of the story is dead.", "이야기의 주인공이 죽었습니다.", "_t")
-t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s 무너지기 시작한다, 한 번 나가면 완전히 사라질 것이다!", "log")
+t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s 무너지기 시작한다, 한 번 나가면 완전히 사라질 것이다!", "log", nil, {"가"})
 t("%s of the Blightspawn", "황폐의 %s", "tformat")
 -- new text
 --[==[
