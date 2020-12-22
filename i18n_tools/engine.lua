@@ -747,7 +747,7 @@ If you are not currently connected to the internet, please report this bug when 
 지금 인터넷에 연결되어있지 않다면, 가능할 때 이 오류를 다음 주소의 게시판에 올려 주시기 바랍니다. http://forums.te4.org/
 
 ]], "_t")
-t("What happened?: ", "무엇이 일어났죠?: ", "_t")
+t("What happened?: ", "무슨 일이 일어났죠?: ", "_t")
 t("Send", "보내기", "_t")
 t("Close", "닫기", "_t")
 t("Close All", "전부 닫기", "_t")
@@ -858,8 +858,8 @@ section "engine/engine/dialogs/UseTalents.lua"
 t("Use Talents: ", "기술 사용: ", "tformat")
 t([[You can bind a talent to a hotkey be pressing the corresponding hotkey while selecting a talent.
 Check out the keybinding screen in the game menu to bind hotkeys to a key (default is 1-0 plus control or shift).
-]], [[기술을 고른 상태에서 어떤 자리를 누르는 것으로 그 자리를 그 기술의 단축키로 지정할 수 있습니다.
-단축키로 사용할 수 있는 자리를 바꾸려면 키 설정 화면을 확인하세요 (기본 설정은 1-0에 ctrl이나 shift 키입니다).
+]], [[기술을 고른 상태에서 원하는 자리의 단축키를 누르면 단축키를 바로 지정할 수 있습니다.
+단축키로 사용할 수 있는 자리를 바꾸려면 키 설정 화면을 확인하세요 (기본값은 숫자 1-0, 거기에 ctrl, shift 조합입니다).
 ]], "_t")
 t("Talent", "기술", "_t")
 t("Status", "상태", "_t")
@@ -1095,7 +1095,7 @@ t([[Payment accepted.
 %s]], [[결제가 완료되었습니다.
 %s]], "tformat")
 t("Connecting to Steam", "스팀에 접속 중", "_t")
-t("Steam Overlay should appear, if it does not please make sure it you have not disabled it.", "스팀 오버레이가 나타납니다. 나타나지 않는다면, 그 기능을 끄지 않았는지 확인해 주시기 바랍니다.", "_t")
+t("Steam Overlay should appear, if it does not please make sure it you have not disabled it.", "스팀 오버레이가 나타납니다. 나타나지 않는다면 해당 기능을 켜져있는지 확인해 주시기 바랍니다.", "_t")
 t("Finalizing transaction with Steam servers...", "스팀 서버를 통해 구매를 확정 중입니다...", "_t")
 t("Payment refused, you have not been billed.", "구매에 실패했습니다. 결제되지 않았습니다.", "_t")
 t("Connecting to server", "서버에 접속 중", "_t")
@@ -1403,7 +1403,7 @@ The background saves should no longer lag horribly and as such it is highly reco
 For the same reason the save per level option should not be used unless you have severe memory problems. The upgrade turned it off for you.
 ]], [[엔진 버전 v1.0.5부터 세이브 방식이 변경됐습니다.
 
-자동 세이브는 더 이상 심각한 렉을 발생시키지 않으며, 이제 이 옵션을 항상 활성화하시는 것을 매우 추천드립니다. 업데이트 후 자동으로 활성화됩니다.
+자동 세이브는 더 이상 심각한 렉을 발생시키지 않기 때문에, 이제 이 옵션을 항상 활성화하시는 것을 매우 추천드립니다. 업데이트 후 자동으로 활성화됩니다.
 
 이런 맥락에서, 층마다 세이브하는 옵션은 비활성화하십시오. 심각한 메모리 문제가 있는 경우에만 사용해 주시기 바랍니다. 업데이트 후 자동으로 비활성화됩니다.
 ]], "_t")
@@ -1595,9 +1595,9 @@ t("Flameshock", "화염 충격", "talent name")
 section "engine/modules/boot/data/timed_effects.lua"
 
 t("Burning from acid", "산성액으로 인한 화상", "_t")
-t("#Target# is covered in acid!", "#Target2# 고통의 부식에 휩쌓였다!", "_t")
+t("#Target# is covered in acid!", "#Target2# 산성액으로 뒤덮였다!", "_t")
 t("+Acid", "+산성액", "_t")
-t("#Target# is free from the acid.", "#Target2# 고통의 부식에서 벗어났다.", "_t")
+t("#Target# is free from the acid.", "#Target2# 산성액으로부터 벗어났다.", "_t")
 t("-Acid", "-산성액", "_t")
 t("Sunshield", "태양 방패", "_t")
 
@@ -1650,8 +1650,8 @@ t("Others", "그 밖에 도움을 주신 분들", "_t")
 section "engine/modules/boot/dialogs/FirstRun.lua"
 
 t("Welcome to Tales of Maj'Eyal", "Tales of Maj'Eyal에 오신 것을 환영합니다", "_t")
-t("Register now!", "새로 가입!", "_t")
-t("Login existing account", "존재하는 계정에 로그인", "_t")
+t("Register now!", "가입하기!", "_t")
+t("Login existing account", "기존 계정에 로그인", "_t")
 t("Maybe later", "나중에", "_t")
 t("#RED#Disable all online features", "#RED#모든 온라인 기능을 끈다", "_t")
 t("Disable all connectivity", "모든 연결을 끊는다", "_t")
@@ -1714,7 +1714,7 @@ t("Cancel", "취소", "_t")
 t("Run with newer version", "최신 버전에서 실행", "_t")
 t("Developer Mode", "개발자 모드", "_t")
 t("#LIGHT_RED#WARNING: #LAST#Loading a savefile while in developer mode will permanently invalidate it. Proceed?", "#LIGHT_RED#경고: #LAST#개발자 모드에서 세이브 파일을 로드하는 것은 이를 영구적으로 망가트릴 수도 있습니다. 계속하시겠습니까?", "_t")
-t("Load anyway", "어쨌든 로드한다", "_t")
+t("Load anyway", "어쨌든 불러오기", "_t")
 t("Delete savefile", "세이브 파일 삭제", "_t")
 t("Really delete #{bold}##GOLD#%s#WHITE##{normal}#", "정말로 #{bold}##GOLD#%s#WHITE##{normal}# 삭제하시겠습니까?", "tformat", nil, {"를"})
 t("Old game data", "구 버전 데이터", "_t")
@@ -1842,7 +1842,7 @@ t("Game Module", "게임 모듈", "_t")
 t("Version", "버전", "_t")
 t("Enter your character's name", "캐릭터 이름을 입력해주세요", "_t")
 t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?", "_t")
-t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?", "_t")
+t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터의 이름입니다만, 덮어씌우시겠습니까?", "_t")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
 t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "이 게임은 현재 T-Engint 버전과 호환되지 않으므로, 실행 시 심각한 오류를 발생시킬 수 있습니다.", "_t")
@@ -1893,7 +1893,7 @@ t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails ab
 t("You at least 16 years old, or have parental authorization to play the game.", "이 게임을 플레이 하려면 최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 t("Register", "가입", "_t")
 t("Cancel", "취소", "_t")
-t("Privacy Policy (opens in browser)", "개인정보보호정책 (브라우저에서 열음)", "_t")
+t("Privacy Policy (opens in browser)", "개인정보 보호정책 (브라우저로 열기)", "_t")
 t("Username", "유저명", "_t")
 t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
@@ -1911,8 +1911,8 @@ Luckily this is very easy to do: you only require a profile name and optionally 
 ]], "_t")
 t("Email", "이메일", "_t")
 t("Your email does not look right.", "올바르지 않은 이메일 같습니다.", "_t")
-t("Age Check", "연령 체크", "_t")
-t("Username or Email already taken, please select an other one.", "입력하신 유저명 또는 이메일은 이미 존재합니다. 다른 것으로 시도해 주세요.", "_t")
+t("Age Check", "연령 확인", "_t")
+t("Username or Email already taken, please select an other one.", "입력하신 유저명 또는 이메일은 이미 사용 중 입니다.", "_t")
 
 
 ------------------------------------------------
