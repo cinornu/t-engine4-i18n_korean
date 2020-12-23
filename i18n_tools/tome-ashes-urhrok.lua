@@ -327,7 +327,7 @@ You scream.  You scream harder than you have in your life, to the point where yo
 
 "실험군... 시작."  돌연변이 렛츨링이 엄청난 속도로 당신의 얼굴로 뛰어들었고, 너무 빨라서 당신은 그것이 뛰어드는 것을 알아차리지도 못했다.  산성액이 가슴팍까지 흘러내렸고, 피부가 겉면부터 녹기 시작하면서 이상한 느낌이 들긴 했지만, 당신은 그 고통을 전혀 느끼지 못했다.  그 임프는 얼굴에서 뛰어내렸다. 보아하니 산성액이 당신의 눈을 피해 간 것 같았는데, 왜냐하면 빨간 임프가 다소 실망한 것 같은 모습을 볼 수 있었기 때문이다.  "구조적인 피해가 평균 이하로군... 좋아, 고통 차단 해제."  당신은 지금부터 비명을 질러서는 안 된다는 것을 알고 있었다.
 
-당신은 비명을 질렀다.  지금 성대가 산산조각나고 있을지도 모른다는 생각이 들 정도로, 지금껏 살아오며 질러본 어느 비명보다 더 처절하게 내질렀다. 지금껏 겪어보았던 어떤 것보다도 더, 어떤 감각보다도 훨씬 더 고통스러웠다.  당신은 바닥에 쓰러져 자신의 피부를 손톱으로 마구 긁고, 산성액을 떨치기 위해서 살점을 찢었다.  당신은 허우적거리며 몸부림쳤고, 근처에는 아무것도 없다는 것을 알면서도 본능적으로 자신을 도울 수 있는 것이라면 무엇이든 붙잡으려고 했다.
+당신은 비명을 질렀다.  지금 성대가 산산조각으로 찢기고 있을지도 모른다는 생각이 들 정도로, 지금껏 살아오며 질러본 어느 비명보다 더 처절하게 내질렀다. 지금껏 겪어보았던 어떤 것보다도 더, 어떤 감각보다도 훨씬 더 고통스러웠다.  당신은 바닥에 쓰러져 자신의 피부를 손톱으로 마구 긁고, 산성액을 떨치기 위해서 살점을 찢었다.  당신은 허우적거리며 몸부림쳤고, 근처에는 아무것도 없다는 것을 알면서도 본능적으로 자신을 도울 수 있는 것이라면 무엇이든 붙잡으려고 했다.
 
 "아주 좋아, 훌륭해! 고통 차단 활성화!"  갑자기 고통이 사라졌다. 당신의 피부는 여전히 부글거렸지만, 그 끔찍한 고통은 사라졌고 목도 따끔거리지 않았다.  "놈을 세척하고 치료해라. 고통 증폭 특성이... 상당히 증가함... 고통이 적고 부식성이 높은 종과 교배하는 것을 권장."  정체모를 점액이 머리 위로 쏟아지자 부글거리던 피부가 가라앉았다. 당신의 담당관은 당신을 붙잡고 데려가면서 치료 주문을 중얼거렸고, 그러자 당신의 상처들이 또다시 천천히 아물며 매끄러운 피부로 바뀌어갔다.  당신은 소리를 질렀다고 해서 저들이 너무 가혹하게 대해 주지 않기만을 바랐다. 하지만 그 임프의 말투로 보아...  당신은 저들이 무언가를 알아내는 데에 기여한 것이 틀림없었다!  문이 닫히고 방에서 나갈 때 빨간 임프가 "다음!" 하고 고함을 지르는 소리가 들렸고, 그걸 들으며 당신은 입이 귀에 걸릴 정도로 씩 웃었다.
 
@@ -340,7 +340,7 @@ t([[#{italic}#More memories rush into your mind...#{normal}#
 
 That crystal.  That crystal is how they're keeping track of you, and it has most of what you helped them discover trapped within it.  If you break it, you'll be able to escape their notice for the first time since you arrived here, allowing you to get away without them finding you again, and as an added bonus you'll undo most of what you helped them accomplish.  You need to destroy it, then flee for your life!]], [[#{italic}#더 많은 기억들이 머릿속으로 밀려들어온다...#{normal}#
 
-"운 좋은 날이군, <?=player.name?>." 당신의 담당관이 빛을 내는 커다란 수정으로 당신을 안내할 때 했던 말이다.  "너는 계속 실험체로 이용하기에는 너무 협조적이다.  오늘부로 너는 연구 보조로 승격되었다!"  당신은 기쁜 마음을 주체할 수가 없었다!  "자, 그전에 먼저 사소한 처리를 거쳐야 한다.  여기서 화염 보호 처리, 저기서 충성심 강화 처리, 기초 장비도 입어야겠지.  하지만 중요한 건 이것에 네 의식을 연결하는 것이다."  그가 수정을 가리키며 말했다.  "그렇게 하면, 네가 보고, 듣고, 냄새를 맡고, 맛보고, 느끼는 모든 것들이 곧바로 이 케케묵은 예쁜이에게 곧장 전송될 것이다.  그것뿐만이 아니다. 네가 어디로 가든, 무슨 생각을 하든, 그것들을 모두 보존해 두었다가 추후 연구에 활용할 것이다."  당신은 그들이 훨씬 더 많은 것을 배울 수 있도록 도울 것이다!  "그냥 이 발판 위로 올라가라.  그리고 내가 잘 묶을 수 있도록 팔을 이렇게 뻗어 봐라..."
+"운 좋은 날이군, <?=player.name?>." 당신의 담당관이 빛을 내는 커다란 수정으로 당신을 안내할 때 했던 말이다.  "너는 계속 실험체로 이용하기에는 너무 협조적이다.  오늘부로 너는 연구 보조로 승격되었다!"  당신은 기쁜 마음을 주체할 수가 없었다!  "자, 그전에 먼저 몇 가지 사소한 처리를 거쳐야 한다.  여기서 내열 처리, 저기서 충성심 강화 처리, 기초 장비도 입어야겠지.  하지만 중요한 건 이것에 네 의식을 연결하는 것이다."  그가 수정을 가리키며 말했다.  "그렇게 하면, 네가 보고, 듣고, 냄새를 맡고, 맛보고, 느끼는 모든 것들이 곧바로 이 케케묵은 예쁜이에게 곧장 전송될 것이다.  그것뿐만이 아니다. 네가 어디로 가든, 무슨 생각을 하든, 그것들을 모두 보존해 두었다가 추후 연구에 활용할 것이다."  당신은 그들이 훨씬 더 많은 것을 배울 수 있도록 도울 것이다!  "그냥 이 발판 위로 올라가라.  그리고 내가 잘 묶을 수 있도록 팔을 이렇게 뻗어 봐라..."
 
 그 수정.  그 수정으로 놈들은 당신을 추적해 왔고, 그 안에 당신이 놈들에게 제공했던 것들이 대부분 들어 있다.  그걸 부수면 이곳에 오게 된 이후로 처음으로 놈들의 시선에서 벗어날 수 있을 것이고, 놈들에게서 도망쳐도 놈들은 두 번 다시는 당신을 찾아내지 못할 것이다. 그리고 또 하나, 놈들의 연구를 돕기 위해 제공했던 것들을 대부분 없앨 수 있을 것이다.  당신은 그걸 부숴야 한다. 그것을 부숴야 도망쳐서 살아갈 수 있다!]], "_t")
 t("orbital base: battle plan (doombringer)", "궤도 기지: 작전 방침 (파멸의 사도)", "_t")
@@ -351,13 +351,13 @@ This slippery little <?=_t(player.descriptor.subrace)?> has proven to be a thorn
 That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
 
 Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-]], [[대<?=player.name?> 교전 브리핑:
+]], [[대 <?=player.name?> 교전 브리핑:
 
-이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace)?> 녀석은 지금까지 우리에게 있어 눈엣가시였다. 우리는 <?=player:his_her()?>가 도망칠 수 있게 해줬던 우연한 유성 충돌 등에 대비해 더 잘 지켜낼 수 있도록 보호막을 강화해왔다. 그렇지만 <?=player:he_she()?>가 탈출하면서 크리스탈을 부수고 나갔기에  우리는 그의 위치를 직접 추적 할 수 없게 됐다. 상관 없다. - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식이 그에게 영향을 미치는 마법 에너지 신호를 감시할 수 있게 해줬다. 점술가들에 따르면 <?=player:him_her()?>를 전이시키는 특정한 패턴이 나타난다고 한다. 아마 쉐르'툴이 그 출처일 것이다. 우리는 <?=player:him_her()?> 가로채기 위해 우리의 신호를 보냈다. 그리고 <?=player:he_she()?>를 안전히 확보할 수 있는 우리 정거장으로 재전송했다. <?=player:he_she()?>에게 불복종 건으로 벌을 주고나면 <?=player:his_her()?> 충성심을 되찾기 위해 다시 한 번 개몽의 판에 접촉시킬 것이다.
+이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace)?> 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
 
-그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 <?=player:his_her()?> 힘이 급격히 강력해졌다는 걸 고려하면, 적절한 전술을 염두에 두는 것이 중요하다. 우리의 개조 마법에 당한 <?=player:he_she()?>는 근접전에서 가공할만한 실력이며, <?=player:he_she()?>가 도착하기 전까지 개조 마법에 대응할 적절한 방어법을 찾지 못한 구하지 못한 경우에, <?=player:he_she()?>를 제대로 다루지 않은면 상당한 피해를 야기할 수 있다. 어떤 경우라도 <?=player:he_she()?>가 우리의 배후에서 날뛰도록 내버려 두어서는 안 된다. 더욱이, 만약 우리가 어리석게 <?=player:him_her()?> 좁은 복도로 끌어들이면 우리가 충분한 화력을 낼 수 없어서 <?=player:he_she()?>가 우리의 방해를 뚫고가는 걸 버딜 수 없다. 대신, 마울로타우르스나(또는 우리가 배치 허가를 받은 고출력 직접 전투원이라면 무엇이든지)의 지원을 받는 측면 부대를 이용해서 전열에서 렛츨링이, 후열에서는 콰짓이 보호해주는 마법 시전 포병대가 있는 넓은 곳으로 <?=player:him_her()?> 몰 것이다. 우리는 전방 전사들을 잃을지도 모른다. 그렇지만 <?=player:he_she()?>가 그들을 뚫고 지나가는 동안  <?=player:him_her()?> 붙잡아둬서, 우리의 마법이 <?=player:him_her()?> 만신창이로 만들어야만 한다.
+그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  <?=player:he_she()?>는 우리의 개조 마법에 노출되어 근접전에서 가공할만한 파괴력을 선보일 것이며, <?=player:he_she()?>가 도착하기 전까지 그 마법에 맞설 적절한 방어 수단을 구하지 못한다면, 일이 잘못됐을 때 상당한 피해를 입을 수 있다.  그 어떤 상황에도 <?=player:he_she()?>가 우리의 후방에서 날뛰도록 두어서는 안 된다. 더욱이, 만약 우리가 별 생각 없이 <?=player:him_her()?>를 좁은 통로로 끌어들인다면, 우리는 충분한 화력을 낼 수 없게 될 것이고 <?=player:he_she()?>가 돌파하는 것을 저지할 수 없을 것이다.  그렇게 하는 대신에, 우리는 개활지에 마법사 부대를 미리 배치해 두고 그 전방은 렛츨링들이, 후방은 콰짓들이 보호하도록 한 다음, 마울로타우르스 (또는 우리가 배치 허가를 받아낼 수 있는 전면 고화력 전투원이라면 무엇이든지) 의 지원을 받는 기습 부대를 이용해서 <?=player:him_her()?>를 그곳으로 몰 것이다.  이 작전에서 최전방에서 싸우는 전사들은 아마 죽게 될 것이다. 그러나 <?=player:he_she()?>가 전사들을 뚫고 지나가는 동안 시간이 적잖게 소요될 것이니, 우리의 마법으로 <?=player:him_her()?>를 만신창이로 만들어야만 한다.
 
-무엇보다, 기억하라: <?=player:he_she()?>가 짐승같은 힘을 가지고 있음에도 이자는 운좋게 우리의 우월한 힘의 일부를 얻은 한심하고 열등한 에이알인일 뿐이다. <?=player:he_she():capitalize()?>는 이 힘을 제대로 쓰는 법을 모르며, 우리처럼 영겁의 새월동안 사용해본 경험이 있는 것도 아니다. 우리는 다수이고, 힘에 익숙하며, 전술이 있다. 그리고 우리는 울흐'록의 축복을 받는다. 연습이라고 생각하라. 우리가 차분히 집중만 한다면 희생자가 생기는 일은 없을 것이다.
+무엇보다, 기억하라: 비록 <?=player:he_she()?>는 짐승 같은 힘을 가지고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
 ]], "_t")
 t("orbital base: battle plan (demonologist)", "궤도 기지: 작전 방침 (악마학자)", "_t")
 t([[Engagement Briefing on <?=player.name?>:
@@ -373,19 +373,19 @@ That said, given that <?=player:he_she()?> has increased dramatically in power s
 -Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
 
 Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-]], [[대<?=player.name?> 교전 브리핑:
+]], [[대 <?=player.name?> 교전 브리핑:
 
-이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace)?>는 지금까지 우리에게 있어 눈엣가시였다. 우리는 <?=player:his_her()?>가 도망칠 수 있게 해줬던 우연한 유성 충돌 등에 대비해 더 잘 지켜낼 수 있도록 보호막을 강화해왔다. 그렇지만 <?=player:he_she()?>가 탈출하면서 크리스탈을 부수고 나갔기에  우리는 그의 위치를 직접 추적 할 수 없게 됐다. 상관 없다. - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식이 그에게 영향을 미치는 마법 에너지 신호를 감시할 수 있게 해줬다. 점술가들에 따르면 <?=player:him_her()?>를 전이시키는 특정한 패턴이 나타난다고 한다. 아마 쉐르'툴이 그 출처일 것이다. 우리는 <?=player:him_her()?> 가로채기 위해 우리의 신호를 보냈다. 그리고 <?=player:he_she()?>를 안전히 확보할 수 있는 우리 정거장으로 재전송했다. <?=player:he_she()?>에게 불복종 건으로 벌을 주고나면 <?=player:his_her()?> 충성심을 되찾기 위해 다시 한 번 개몽의 판에 접촉시킬 것이다.
+이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace)?> 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
 
-그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 <?=player:his_her()?> 힘이 급격히 강력해졌다는 걸 고려하면, 적절한 전술을 염두에 두는 것이 중요하다. 우리는 우리 종족의 몇몇이 <?=player:he_she()?>의 편에서 싸우는 것이 목격되었다는 충격적인 보고를 들었다. we can assume that <?=player:he_she()?>가 우리 군대의 일부를 노예화하기 위해 뒤틀린 형태의 판의 힘 쓰고 있는 것으로 추정할 수 있다. <?=player:his_her()?> 전투 잠재력 중 대부분은 <?=player:his_her()?> 능력에서 기인하기보단 이러한 노예들로부터 나온다. 따라서, 세 가지를 명심하라:
+그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  우리는 몇몇 동족들이 <?=player:he_she()?>의 편에서 싸우는 것을 목격했다는 충격적인 보고를 받았다. 녀석은 비문의 힘을 비틀어 사용하여, 우리 전력의 일부를 노예로 삼고 있는 것으로 추정된다.  <?=player:his_her()?>의 전투력은 대부분 그 자신의 능력보다는 그러한 노예들로부터 나온다.  따라서, 다음 세 가지를 명심하라.
 
--<?=player:his_her()?> 노예보다 에이알 인을 우선으로 하라. 우리는 아직 <?=player:he_she()?>가 어떻게 우리 동료들을 조종하는지에 대해 구체적으로 알고 있는 것이 없다. 허나, 그가 무력화되자마자 정신 지배가 풀릴 것으로 보인다.만약 <?=player:he_she()?>가 울흐'록의 대전사나 그에 버금가는 요원을 장악했다면, 우리는 <?=player:he_she()?>에게 화력을 집중시킬 필요가 있다. 그렇긴하지만, <?=player:he_she()?>를 무효화하는 것이 그러한 생물을 만드는 노력이나 시간을 절약하는 것보다 더 중요하다. 특히, 십자 포화 속에서 매혹된 임프를 잡는 걱세 대해 걱정하지 마라. 그가 무엇을 사용하든 우리는 더 많은 것을 만들 수 있다.
+-노예들보다 그들을 조종하는 에이알인을 우선시하라.  우리는 아직 <?=player:he_she()?>가 어떻게 우리 동료들을 조종하는지에 대해 구체적으로 알고 있는 것이 없다. 하지만 녀석이 무력화되는 즉시 정신 지배가 풀릴 것으로 보인다.  만약 녀석이 울흐'록의 대전사나 그에 버금가는 요원을 예속하였다면, 우리는 녀석에게 화력을 집중할 필요가 있다.  그렇긴 하지만, 그 노예들을 다소 희생하더라도 <?=player:he_she()?>를 무력화하는 것이 더 중요하다. 병력은 또 만들어내면 되는 것이다. 특히, 교차사격 중에는 노예가 된 임프 몇 마리 정도는 신경 쓰지 마라.  녀석이 무슨 수단을 쓰고 있든 간에, 우리 쪽이 우위다.
 
--무엇이든 각오하라. 지금까지 우리는 우리 자신의 힘에 대항하여 무엇을 할 것인지 계획할 필요가 없었다. 우리는 매우 다양한 종들을 가지고 있었기에 <?=player:he_she()?>가 우리에게 모든 종류의 마법과 무술을 다 쓸 수 있다. 이것이 절망적으로 들릴지도 모르지만, 기억하라: 너희는 이러한 모든 능력들이 이전에 훈련이나 전투에서 너의 편에서 사용되었던 걸 본 적이 있다.  전우들이 무엇을 하는지를 본 적이 있다면, <?=player:he_she()?>가 그것을 쓸 것이라고 예상해라.
+-모든 상황을 상정하라.  우리는 지금까지 우리 자신의 힘에 맞서려면 무엇을 해야 할지 생각해 볼 필요가 없었다. 또, 우리 종족은 매우 다양하기 때문에 이제 <?=player:he_she()?>는 우리를 향해 온갖 종류의 마법과 무술을 모두 사용할 수 있다.  이것이 절망적으로 들릴지도 모르지만, 기억하라: 너희는 동료들이 훈련을 하며, 또 전투 중에 이런 힘들을 사용하는 것을 목격했을 것이다.  너희의 전우들이 어떤 힘을 사용하는 것을 본 적이 있다면, <?=player:him_her()?>가 그것을 사용할 수도 있다고 생각하라.
 
--<?=player:his_her()?> 노예들이 전부 죽었다고 맹공이 끝날 것이라고 생각하지 마라.  <?=player:he_she():capitalize()?>는 <?=player:his_her_self()?>에게 우리 마법을 직접 주입하는데 성공했다, 그는 우리의 화염구나 산성 폭발 등등을 사용할 수 있을지도 모른다. 에너지를 고갈시킬 수 있는 주문처럼 침묵 마법을 사용하는 것은 여기서 도움이 될 것이다. 게다가, <?=player:his_her()?> 방패를 떼어내는 것은 <?=player:him_her()?> 클로와 도끼에 특히 취약하게 만들 것이다.
+-<?=player:his_her()?>의 노예들이 전부 죽었다고 해서 상황이 종료되었다고 섣불리 생각해선 안 된다.  녀석은 자신의 육체에 우리의 마법을 직접 주입하는 데 성공했다. 즉, 우리의 화염구나 산성 폭발 등등을 사용할 수 있을지도 모른다.  침묵 마법을 사용하면 도움이 될 것이며, 녀석의 에너지를 흡수할 수 있는 주문 또한 효과적일 것이다. 더해서, <?=player:his_her()?>의 방어 수단을 제거하면 녀석은 우리의 손톱과 도끼를 사용한 공격에 특히 취약해질 것이다.
 
-무엇보다, 기억하라: <?=player:he_she()?>가 매혹적인 하수인임에도 이자는 운좋게 우리의 우월한 힘의 일부를 얻은 한심하고 열등한 에이알인일 뿐이다. <?=player:he_she():capitalize()?>는 이 힘을 제대로 쓰는 법을 모르며, 우리처럼 영겁의 새월동안 사용해본 경험이 있는 것도 아니다. 우리는 다수이고, 힘에 익숙하며, 전술이 있다. 그리고 우리는 울흐'록의 축복을 받는다. 연습이라고 생각하라. 우리가 차분히 집중만 한다면 희생자가 생기는 일은 없을 것이다.
+무엇보다, 기억하라: 비록 <?=player:he_she()?>는 동족들을 예속하여 하수인으로 부리고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
 ]], "_t")
 t("orbital base: battle plan (doomelf)", "궤도 기지: 작전 방침 (둠엘프)", "_t")
 t([[Engagement Briefing on <?=player.name?>:
@@ -398,15 +398,15 @@ What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=pl
 
 Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
 
-]], [[대<?=player.name?> 교전 브리핑:
+]], [[대 <?=player.name?> 교전 브리핑:
 
-이 약삭빠르고 비열한 엘프는 지금까지 우리에게 있어 눈엣가시였다. 우리는 <?=player:his_her()?>가 도망칠 수 있게 해줬던 우연한 유성 충돌 등에 대비해 더 잘 지켜낼 수 있도록 보호막을 강화해왔다. 그렇지만 <?=player:he_she()?>가 탈출하면서 크리스탈을 부수고 나갔기에  우리는 그의 위치를 직접 추적 할 수 없게 됐다. 상관 없다. - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식이 그에게 영향을 미치는 마법 에너지 신호를 감시할 수 있게 해줬다. 점술가들에 따르면 <?=player:him_her()?>를 전이시키는 특정한 패턴이 나타난다고 한다. 아마 쉐르'툴이 그 출처일 것이다. 우리는 <?=player:him_her()?> 가로채기 위해 우리의 신호를 보냈다. 그리고 <?=player:he_she()?>를 안전히 확보할 수 있는 우리 정거장으로 재전송했다. <?=player:he_she()?>에게 불복종 건으로 벌을 주고나면 <?=player:his_her()?> 충성심을 되찾기 위해 다시 한 번 개몽의 판에 접촉시킬 것이다.
+이 약삭빠르고 비열한 엘프 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
 
-그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 <?=player:his_her()?> 힘이 급격히 강력해졌다는 걸 고려하면, 적절한 전술을 염두에 두는 것이 중요하다.  우리의 일반적인 개조가 샬로레의 자연스럽게 반응하는 마법과 협력 작용하여 드래 보르에게 필적할만한 짧은 거리 순간이동을 <?=player:he_she()?>에게 줬고 맞추기에 좌절할 정도로 높은 회피력을 갖추게 했다. 심지어 <?=player:his_her()?> 내부 장기도 영향을 받고 있어서, 급소가 공격받을 것으로 예상되면 장기가 이동해서 피해버린다. 일반적인 샬로레와 비교하여, <?=player:he_she()?>는 투명화 능력은 살실하였으나, 여전히 눈에 보이지 않는 것으로 보아 듀아세들렌 마법이라도 얻은듯 하다. 만일 빛 기반 보호막 사용 인가가 날 경우 듀아세돌렌으로 변하는 것과 암흑 마법 둘 다 아무런 문제가 안 될 것이다. 마지막으로 고도의 기술을 사용하려고 하면 <?=player:his_her()?> 능력이 우리가 집중하는 걸 방해할 것이다. 그리고 우리가 <?=player:his_her()?> 회복력을 강화했기 때문에 독과 불길로부터 별 효과가 없고, 평소보다 빠르게 회복할 것이다.
+그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  우리의 기본 변화 마법이 샬로레가 가진 고반응성 마법과 시너지를 일으켜 그 엘프는 드래보르 녀석에게 필적할 만한 단거리 순간이동 능력을 얻게 되었고, 그 덕분에 녀석에게 뭔가를 명중시키기가 극도로 어려워졌다.  심지어 <?=player:his_her()?>의 내부 장기도 그 영향을 받고 있어서, 급소가 공격받을 것 같으면 그 내장이 움직여서 피해버린다.  일반적인 샬로레와 비교하여, 그 엘프는 투명화 능력을 상실하였으나 여전히 눈에 보이지 않는 것으로 보아 듀아세들렌으로 변신하는 마법이라도 얻게 된 것 같다. 만약 빛에 기반한 보호막 사용 허가가 나게 된다면 듀아세들렌으로 변하는 것과 암흑의 마법 둘 다 별다른 문제가 되지 않을 것이다.  마지막으로 고도의 기술을 사용하려고 하면 <?=player:his_her()?>는 모종의 능력으로 우리가 집중하는 것을 방해할 것이고, 우리가 <?=player:his_her()?>의 회복력을 강화했기 때문에 독과 불꽃에 당해도 큰 효과는 없을 것이며 회복 속도 자체도 빠를 것이다.
 
-이게 다 무슨 말이냐고? <?=player:he_she()?>에게 부상을 입히고 <?=player:he_she()?>가 다른곳으로 순간이동 할 때까지 기다렸다가 <?=player:him_her()?> 코너로 몰아서 <?=player:he_she()?>가 더이상 움직이지 않을 때까지 후려처. 어려울 거 없다. 일반적인 <?=string.a_an(_t(player.descriptor.subclass):lower())?> 상대법으로 작업해라. 만약 <?=player:he_she()?>가 어둠속으로 사라졌다면 오와 열을 흐트리지 말 것을 기억해라. 그러면 이 난장판을 순식간에 해결할 수 있을 것이다.
+그래서 결론은 무엇이냐?  그냥 그 엘프를 공격하고, 녀석이 다른 곳으로 순간이동할 때까지 기다렸다가 막다른 곳으로 몰아서 더 이상 움직이지 않을 때까지 후려쳐라.  어려울 거 없다.  일반적인 <?=string.a_an(_t(player.descriptor.subclass):lower())?> 상대법을 활용하라. 만약 <?=player:he_she()?>가 어둠 속으로 사라졌다면, 대열을 흩뜨리지 말아야 한다는 것을 기억해라. 그리하면 이 난장판을 순식간에 해결할 수 있을 것이다.
 
-무엇보다, 기억하라: <?=player:he_she()?>가 향상되었을지라도 이자는 운좋게 우리의 우월한 힘의 일부를 얻은 한심하고 열등한 에이알인일 뿐이다. <?=player:he_she():capitalize()?>는 이 힘을 제대로 쓰는 법을 모르며, 우리처럼 영겁의 새월동안 사용해본 경험이 있는 것도 아니다. 우리는 다수이고, 힘에 익숙하며, 전술이 있다. 그리고 우리는 울흐'록의 축복을 받는다. 연습이라고 생각하라. 우리가 차분히 집중만 한다면 희생자가 생기는 일은 없을 것이다.
+무엇보다, 기억하라: 비록 <?=player:he_she()?>의 육체는 보다 강화되었지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
 
 ]], "_t")
 t("first mural painting", "첫 번째 벽화", "_t")
@@ -661,12 +661,12 @@ You must find a way to escape, again.
 ]], [[어찌된 일인지 당신은 평소처럼 귀환되지 못했고, 대신 슬프도록 친숙한 장소에 도착했습니다.
 공포의 영역으로 돌아왔습니다. 열렬히 환영해주는 친구들도 있네요.
 
-다시 한 번, 탈출구를 찾아야 합니다.
+다시 한 번, 탈출할 방법을 찾아야 합니다.
 
 ]], "_t")
 t("#LIGHT_GREEN#* You have found your way out of the primary ambush.#WHITE#", "#LIGHT_GREEN#* 마중나와 있던 복병들을 뚫어냈습니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have destroyed Rogroth the Eater of Souls and made your escape possible. Flee!#WHITE#", "#LIGHT_GREEN#* 영혼을 먹는 자 로그로스를 처치했고, 이제 탈출할 수 있습니다. 도망치세요!#WHITE#", "_t")
-t("#SLATE#* Find a way back to Eyal.#WHITE#", "#SLATE#* 에이알로 돌아가는 길을 찾으세요.#WHITE#", "_t")
+t("#SLATE#* Find a way back to Eyal.#WHITE#", "#SLATE#* 에이알로 돌아갈 방법을 찾으세요.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have escaped the Anteroom of Agony.#WHITE#", "#LIGHT_GREEN#* 고문 대기장에서 탈출했습니다.#WHITE#", "_t")
 -- new text
 --[==[
