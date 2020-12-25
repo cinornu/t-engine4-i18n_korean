@@ -3947,7 +3947,7 @@ newDamageType{
 		state = initState(state)
 		useImplicitCrit(src, state)
 		local target = game.level.map(x, y, Map.ACTOR)
-		if target and target:attr("worm") then
+		if target and src and src.summoner and target == src.summoner then
 			target:heal(dam / 3, src)
 			return -dam
 		elseif target and not target.carrion_worm then  -- Carrion worms are immune but not healed by the damage, this spams the log so we just don't hit them instead

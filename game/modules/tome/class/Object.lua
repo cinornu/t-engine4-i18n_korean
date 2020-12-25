@@ -248,7 +248,12 @@ function _M:useObject(who, ...)
 			else
 				local ok, special
 				ok, ret, special = xpcall(function() return ab.action(who, ab) end, debug.traceback)
-				if not ok then who:onTalentLuaError(ab, ret) error(ret) end
+				if not ok then
+					who:attr("force_talent_ignore_ressources", -1)
+					who.talents[id] = old_level
+					who:onTalentLuaError(ab, ret)
+					error(ret)
+				end
 			end
 			who:attr("force_talent_ignore_ressources", -1)
 			who.talents[id] = old_level
