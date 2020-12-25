@@ -114,8 +114,8 @@ t("#LIGHT_RED#In less than one minute", "#LIGHT_RED#1분 이내", "_t")
 t("#LIGHT_RED#In %d minutes", "#LIGHT_RED#%d분 내", "tformat")
 t("Cooldown", "대기 시간", "_t")
 t("This item has been placed recently in the vault, you must wait a bit before removing it.", "이 아이템은 보관된지 얼마 지나지 않았으므로, 아직 제거할 수 없습니다.", "_t")
-t("#LIGHT_BLUE#You transfer %s from the online item's vault.", "#LIGHT_BLUE#%s 온라인 아이템 금고로 전송했습니다.", "log", nil, {"를"})
-t("#LIGHT_RED#Error while transfering from the online item's vault, please retry later.", "#LIGHT_RED#온라인 아이템 금고로 전송하는 도중에 오류가 발생했습니다. 다시 시도해주세요.", "log")
+t("#LIGHT_BLUE#You transfer %s from the online item's vault.", "#LIGHT_BLUE#%s 온라인 아이템 금고에서 전송받았습니다.", "log", nil, {"를"})
+t("#LIGHT_RED#Error while transfering from the online item's vault, please retry later.", "#LIGHT_RED#온라인 아이템 금고에서 전송받는 도중에 오류가 발생했습니다. 다시 시도해주세요.", "log")
 
 ------------------------------------------------
 section "tome-items-vault/overload/mod/dialogs/ItemsVaultOffline.lua"
