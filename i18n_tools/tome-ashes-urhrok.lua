@@ -482,7 +482,7 @@ We asked #{italic}##FIREBRICK#[Father]#{normal}##LAST# what #{italic}##FIREBRICK
 
 (당신은 다음 패널이 무슨 일을 하는지 너무나도 잘 알고 있고, 사슬에 묶여서 렛츨링이 그 패널을 당신의 이마에 갖다 댔던 기억이 머릿속을 스치고 지나갑니다.  충동이 아직 완전히 가라앉지는 않았지만, 에이알의 그 어떤 것도 당신이 그 패널을 만지도록 할 수는 없을 것입니다.)
 ]], "_t")
-t("orbital base: battle info", "orbital base: battle info", "_t")
+t("orbital base: battle info", "궤도 기지: 전투 보고", "_t")
 t([[#{italic}#This note is splattered with the blood of the demon who was carrying it.#{normal}#
 
 #{bold}#URGENT:#{normal}#
@@ -490,15 +490,15 @@ t([[#{italic}#This note is splattered with the blood of the demon who was carryi
 Operation to secure <?=player.name?> failure.  Primary defense force routed, secondary team taking heavy casualties.  All is lost.  Highest priority is now containing <?=player.name?> to prevent further damage.  Blow all connectors, break platform off the continent and dispel oxygenation wards befo--
 
 #{italic}#The last O trails off, a line leading from it to the end of the page like the pen was rapidly jerked away.  You must have interrupted this demon's writing.#{normal}#
-]], [[#{italic}#This note is splattered with the blood of the demon who was carrying it.#{normal}#
+]], [[#{italic}#이 쪽지에는 이걸 갖고 있던 악마의 피가 흩뿌려져 있습니다.#{normal}#
 
-#{bold}#URGENT:#{normal}#
+#{bold}#긴급:#{normal}#
 
-Operation to secure <?=player.name?> failure.  Primary defense force routed, secondary team taking heavy casualties.  All is lost.  Highest priority is now containing <?=player.name?> to prevent further damage.  Blow all connectors, break platform off the continent and dispel oxygenation wards befo--
+<?=player.name?> 확보 작전은 실패했다.  제1방어부대는 돌파당했고, 제2부대에서는 사상자가 급증하고 있다.  최악의 사태다.  이제 추가적인 피해를 최소화하기 위해 <?=player.name?> 녀석을 구금하는 것이 급선무이다.  연결부를 전부 날려버리고, 대륙에서 정거장을 분리한 후 산소 공급 구역을 해제하----
 
-#{italic}#The last O trails off, a line leading from it to the end of the page like the pen was rapidly jerked away.  You must have interrupted this demon's writing.#{normal}#
+#{italic}#마지막 글자에서 이어진 선은 이 장의 끝까지 이어져 있습니다. 마치 펜이 한순간에 날아가 버린 것 같습니다.  당신은 이 보고서를 쓰던 악마를 방해한 것이 틀림없습니다.#{normal}#
 ]], "_t")
-t("orbital base: battle info with #{bold}#a badass#{normal}#", "orbital base: battle info with #{bold}#a badass#{normal}#", "_t")
+t("orbital base: battle info with #{bold}#a badass#{normal}#", "궤도 기지: #{bold}#간지폭풍#{normal}#과의 전투 보고", "_t")
 t([[#{italic}#This note is stained with what appear to be motorcycle tire-tracks.#{normal}#
 
 #{bold}#URGENT:#{normal}#
@@ -506,15 +506,15 @@ t([[#{italic}#This note is stained with what appear to be motorcycle tire-tracks
 Operation to secure <?=player.name?> failure.  Primary defense force routed by target's overwhelming badassery, secondary team presumed dead (reports inaudible over sound of face-melting guitar solos).  All is lost.  Totally worth it.  Highest priority is now isolating <?=player.name?>, building a stadium around <?=player:him_her()?>, and selling tickets to spectacle of badassery.  Blow all connectors, break platform off the continent, prepare pyrotechnics, and set up spotlights and speaker systems befo--
 
 #{italic}#The last O trails off, a line leading from it to the end of the page like the pen was rapidly jerked away, then leads to a doodle depicting you, wielding a double-bladed katana and fighting a giant construct labelled "Ninja Atamathon."  Your badassery must have interrupted this demon's writing.#{normal}#
-]], [[#{italic}#This note is stained with what appear to be motorcycle tire-tracks.#{normal}#
+]], [[#{italic}#이 쪽지에는 무슨 이륜차 바퀴 자국 같은 것이 남아 있습니다.#{normal}#
 
-#{bold}#URGENT:#{normal}#
+#{bold}#긴급:#{normal}#
 
-Operation to secure <?=player.name?> failure.  Primary defense force routed by target's overwhelming badassery, secondary team presumed dead (reports inaudible over sound of face-melting guitar solos).  All is lost.  Totally worth it.  Highest priority is now isolating <?=player.name?>, building a stadium around <?=player:him_her()?>, and selling tickets to spectacle of badassery.  Blow all connectors, break platform off the continent, prepare pyrotechnics, and set up spotlights and speaker systems befo--
+<?=player.name?> 확보 작전은 실패했다.  제1방어부대는 목표의 압도적인 간지에 굴복해 돌파당했고, 제2부대는 다 죽은 것 같다 (환상적인 기타 솔로 소리에 묻혀서 보고를 못 들었다).  최악의 사태다.  근데 그럴 만한 가치는 있었다.  이제 <?=player.name?> 녀석의 주위에 스타디움을 지어서 고립시키고, 그 폭풍간지를 이용해 스타디움 입장권을 팔아먹는 게 급선무다.  연결부를 전부 날려버리고, 대륙에서 정거장을 분리한 후 불 뿜는 무대장치를 준비하고, 스포트라이트랑 스피커들을 설치하----
 
-#{italic}#The last O trails off, a line leading from it to the end of the page like the pen was rapidly jerked away, then leads to a doodle depicting you, wielding a double-bladed katana and fighting a giant construct labelled "Ninja Atamathon."  Your badassery must have interrupted this demon's writing.#{normal}#
+#{italic}#마지막 글자에서 이어진 선은 이 장의 끝까지 이어져 있습니다. 마치 펜이 한순간에 날아가 버린 것 같습니다. 그 선의 끝부분에는 당신이 카타나 두 자루를 쥐고 쌍검술을 구사하며 "닌자 아타마쏜" 이라고 적힌 거대한 골렘과 전투를 벌이는 모습을 묘사하는 낙서가 그려져 있습니다.  당신의 휘몰아치는 폭풍간지가 이 악마가 보고서를 쓰는 것을 방해한 것이 틀림없습니다.#{normal}#
 ]], "_t")
-t("#{italic}#\"To honor the Masters\" - A thrall#{normal}#", "#{italic}#\"To honor the Masters\" - A thrall#{normal}#", "_t")
+t("#{italic}#\"To honor the Masters\" - A thrall#{normal}#", "#{italic}#\"주인들을 기리며\" - '노예'#{normal}#", "_t")
 t("demon statue: wretchling", "demon statue: wretchling", "_t")
 t("Behold, the humble wretchling, a testament to our devotion to our Father!  These children of emerald were among the first to alter themselves for our quest for vengeance, and managed an astounding degree of success.  With their bursts of blinding speed, overwhelming numbers, and skin that can release prodigious amounts of corrosive fluid, wretchlings can storm onto the battlefield and pounce on our foes one-by-one, dissolving the ground they walk on while leaving them helpless against our onslaught.  Wretchlings will readily give their lives in combat, serving as obstructions and shields while their acid and our casters do their work, and still remain the most populous of our species thanks to their incredible birth rates.  It is rare to see a wretchling survive to maturity, but make no mistake - every wretchling that fights does an incredible service to our cause.", "Behold, the humble wretchling, a testament to our devotion to our Father!  These children of emerald were among the first to alter themselves for our quest for vengeance, and managed an astounding degree of success.  With their bursts of blinding speed, overwhelming numbers, and skin that can release prodigious amounts of corrosive fluid, wretchlings can storm onto the battlefield and pounce on our foes one-by-one, dissolving the ground they walk on while leaving them helpless against our onslaught.  Wretchlings will readily give their lives in combat, serving as obstructions and shields while their acid and our casters do their work, and still remain the most populous of our species thanks to their incredible birth rates.  It is rare to see a wretchling survive to maturity, but make no mistake - every wretchling that fights does an incredible service to our cause.", "_t")
 t("demon statue: fire imp", "demon statue: fire imp", "_t")
