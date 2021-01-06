@@ -2,11 +2,11 @@
 section "tome-possessors/data/achievements/possessors.lua"
 
 t("Bill Kill!", "빌 킬!", "achievement name")
-t("Kill your own Doomed Shade in the body of Bill.", "빌의 육체로 자신의 그림자를 처치.", "_t")
+t("Kill your own Doomed Shade in the body of Bill.", "빌의 육체로 자신의 그림자를 처치했다.", "_t")
 t("Unneshasshhary Kryl'ty", "피료엄는 키릴'티", "achievement name")
-t("Kill Kryl'Feijan with the body of Shasshhiy'Kaish, or vice-versa.", "샤쉬'카이쉬의 육체로 키릴'페이얀을 처치. (반대의 경우도 가능)", "_t")
+t("Kill Kryl'Feijan with the body of Shasshhiy'Kaish, or vice-versa.", "샤쉬'카이쉬의 육체로 키릴'페이얀을 처치했다. (반대의 경우도 가능)", "_t")
 t("Unneshasshhary Kryl'ty (Redux)", "(돌아온) 피료엄는 키릴'티", "achievement name")
-t("Kill High Paladin Aeryn with the body of Sun Paladin John.", "태양의 기사 존의 육체로 고위 성기사 아에린을 처치.", "_t")
+t("Kill High Paladin Aeryn with the body of Sun Paladin John.", "태양의 기사 존의 육체로 고위 태양의 기사 아에린을 처치했다.", "_t")
 
 ------------------------------------------------
 section "tome-possessors/data/birth/psionic.lua"
