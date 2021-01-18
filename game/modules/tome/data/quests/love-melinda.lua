@@ -43,8 +43,8 @@ function onWin(self, who)
 	if who.dead then return end
 	if not self.inlove then return end
 	return 10, {
-		"After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.",
-		"You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.",
+		_t"After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.",
+		_t"You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.",
 	}
 end
 
