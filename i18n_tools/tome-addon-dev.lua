@@ -151,7 +151,7 @@ section "tome-addon-dev/superload/mod/dialogs/debug/ChooseTranslationParts.lua"
 t("Finish", "끝내기", "_t")
 t("enabled", "켜짐", "_t")
 t("disabled", "꺼짐", "_t")
--- new text
+-- untranslated text
 --[==[
 t("DEBUG -- Choose game parts", "DEBUG -- Choose game parts", "_t")
 t([[Choose game parts you want to translated.
@@ -226,11 +226,6 @@ Logs written to %s]], "tformat")
 section "tome-addon-dev/superload/mod/dialogs/debug/TranslationTool.lua"
 
 
--- new text
---[==[
-t("Choose which part to translate", "Choose which part to translate", "_t")
---]==]
-
 -- untranslated text
 --[==[
 t("Translation Toolkit", "Translation Toolkit", "_t")
@@ -242,6 +237,7 @@ t("Extract text index", "Extract text index", "_t")
 t("Rearrange translation files", "Rearrange translation files", "_t")
 t("Check translation files", "Check translation files", "_t")
 t("Release translation as addon", "Release translation as addon", "_t")
+t("Choose which part to translate", "Choose which part to translate", "_t")
 --]==]
 
 

@@ -380,6 +380,7 @@ t("#{italic}##PINK#Addons developers can still test their addons by enabling dev
 t([[Total playtime of all registered players:%s
 ]], [[가입된 모든 플레이어의 총 게임 시간 :%s
 ]], "tformat")
+t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 다섯 종족들 중 하나입니다", "tformat", nil, {"는"})
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 다섯 직업들 중 하나입니다", "tformat", nil, {"는"})
 t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE# 플레이어를 가장 많이 쓰러뜨린 열 종류의 적 중 하나입니다", "tformat", nil, {"는"})
 t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이 된 종족/직업 조합입니다", "tformat", nil, {"는"})
@@ -388,8 +389,6 @@ t("The character's vault has registered a total of #RED#%d#WHITE# character's de
 t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소는 현재 버전의 승자 #LIGHT_BLUE#%d#WHITE# 명이 기록되어 있습니다", "tformat")
 t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "마지막 기부자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 기부자들께 감사드리며, 이 게임이 계속될 수 있게끔 도와주세요!", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로필로 교체됨)", "log", nil, {"이"})
-t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 다섯 종족들 중 하나입니다", "tformat", {"는"})
-
 
 ------------------------------------------------
 section "engine/engine/Mouse.lua"
@@ -1405,7 +1404,7 @@ For the same reason the save per level option should not be used unless you have
 
 자동 세이브는 더 이상 심각한 렉을 발생시키지 않기 때문에, 이제 이 옵션을 항상 활성화하시는 것을 매우 추천드립니다. 업데이트 후 자동으로 활성화됩니다.
 
-이런 맥락에서, 층마다 세이브하는 옵션은 비활성화하십시오. 심각한 메모리 문제가 있는 경우에만 사용해 주시기 바랍니다. 업데이트 후 자동으로 비활성화됩니다.
+이전의 매 층 자동 세이브 옵션은 비활성화하십시오. 심각한 메모리 문제가 있는 경우에만 사용해 주시기 바랍니다. 업데이트 후 자동으로 비활성화됩니다.
 ]], "_t")
 t("Safe Mode", "안전 모드", "_t")
 t([[Oops! Either you activated safe mode manually or the game detected it did not start correctly last time and thus you are in #LIGHT_GREEN#safe mode#WHITE#.
@@ -1872,21 +1871,28 @@ t("Email: ", "이메일: ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "중요한 게임 이벤트에 대한 #{bold}#매우 드물게#{normal}# (연간 몇 개) 발송되는 메일 수신 수락.", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "이 게임을 플레이 하려면 최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 t("Create", "제작", "_t")
-t("Privacy Policy (opens in browser)", "개인정보보호정책 (브라우저에서 열음)", "_t")
+t("Privacy Policy (opens in browser)", "개인정보 보호정책 (브라우저로 열기)", "_t")
 t("Password", "비밀번호", "_t")
 t("Password mismatch!", "비밀번호가 맞지 않습니다!", "_t")
 t("Username", "유저명", "_t")
 t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
 t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
-t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 t("Email", "이메일", "_t")
 t("Your email seems invalid", "올바르지 않은 이메일 같습니다", "_t")
-t("Age Check", "연령 체크", "_t")
-
+t("Age Check", "연령 확인", "_t")
+t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 
 ------------------------------------------------
 section "engine/modules/boot/dialogs/ProfileSteamRegister.lua"
 
+t("Steam User Account", "Steam 유저 계정", "_t")
+t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
+To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
+Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
+]], [[#GOLD#테일즈 오브 마즈'에이알#LAST#에 어서 오십시오.
+이 게임의 모든 기능을 즐기기 위해서 당신의 Steam 계정을 등록하는 것을 #{bold}#강력#{normal}# 추천합니다.
+정말 다행스럽게도 아주 손쉽게 가능합니다. 프로필에 사용할 닉네임과 부가적으로 이메일 주소만 있으면 됩니다 (저희는 이메일을 거의 보내지 않습니다. 2년에 한 번 보낼까 말까죠).
+]], "_t")
 t("Username: ", "유저명: ", "_t")
 t("Email: ", "이메일: ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "중요한 게임 이벤트에 대한 #{bold}#매우 드물게#{normal}# (연간 몇 개) 발송되는 메일 수신 수락.", "_t")
@@ -1896,24 +1902,15 @@ t("Cancel", "취소", "_t")
 t("Privacy Policy (opens in browser)", "개인정보 보호정책 (브라우저로 열기)", "_t")
 t("Username", "유저명", "_t")
 t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
+t("Email", "이메일", "_t")
+t("Your email does not look right.", "올바르지 않은 이메일 같습니다.", "_t")
+t("Age Check", "연령 확인", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 t("Registering...", "등록 중...", "_t")
 t("Registering on https://te4.org/, please wait...", "https://te4.org/에 등록 중, 기다려 주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
 t("Error", "오류", "_t")
-t("Steam User Account", "Steam 유저 계정", "_t")
-t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
-To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
-Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
-]], [[#GOLD#테일즈 오브 마즈'에이알#LAST#에 어서 오십시오.
-이 게임의 모든 기능을 즐기기 위해서 당신의 Steam 계정을 등록하는 것을 #{bold}#강력#{normal}# 추천합니다.
-정말 다행스럽게도 아주 손쉽게 가능합니다. 프로필에 사용할 닉네임과 부가적으로 이메일 주소만 있으면 됩니다 (저희는 이메일을 거의 보내지 않습니다. 2년에 한 번 보낼까 말까죠).
-]], "_t")
-t("Email", "이메일", "_t")
-t("Your email does not look right.", "올바르지 않은 이메일 같습니다.", "_t")
-t("Age Check", "연령 확인", "_t")
 t("Username or Email already taken, please select an other one.", "입력하신 유저명 또는 이메일은 이미 사용 중 입니다.", "_t")
-
 
 ------------------------------------------------
 section "engine/modules/boot/dialogs/UpdateAll.lua"
