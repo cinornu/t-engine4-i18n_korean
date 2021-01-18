@@ -259,11 +259,11 @@ newTalent{
 		local maxAttackCount = t.getMaxAttackCount(self, t)
 		local size
 		if level >= 5 then
-			size = "Big"
+			size = _t"Big"
 		elseif level >= 3 then
-			size = "Medium-sized"
+			size = _t"Medium-sized"
 		else
-			size = "Small"
+			size = _t"Small"
 		end
 		return ([[Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.]]):tformat(t.getDamageMultiplier(self, t, 0) * 100, t.getDamageMultiplier(self, t, 100) * 100, size, maxAttackCount)
 	end,

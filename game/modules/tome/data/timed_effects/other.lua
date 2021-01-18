@@ -1923,12 +1923,12 @@ newEffect{
 		table.sort(preys, "rank")
 		for _, p in ripairs(preys) do
 			local mprank, mpcolour = p:TextRank()
-			desc = desc..("\n- %s%s#LAST#"):tformat(mpcolour, p.name:capitalize())
+			desc = desc..("\n- %s%s#LAST#"):tformat(mpcolour, p:getName():capitalize())
 		end
 
 		local subtypes_list = table.get(self, "mark_prey2", game.level.id)
 		for st, _ in pairs(subtypes_list or {}) do
-			desc2 = desc2..("\n- #ffa0ff#%s#LAST#"):tformat(tostring(st):capitalize())
+			desc2 = desc2..("\n- #ffa0ff#%s#LAST#"):tformat(_t(tostring(st), "entity subtype"):capitalize())
 		end
 
 		return desc..desc2
