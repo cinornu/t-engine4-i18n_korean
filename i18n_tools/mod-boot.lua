@@ -23,9 +23,9 @@ The background saves should no longer lag horribly and as such it is highly reco
 For the same reason the save per level option should not be used unless you have severe memory problems. The upgrade turned it off for you.
 ]], [[엔진 버전 v1.0.5부터 세이브 방식이 변경됐습니다.
 
-자동 세이브는 더 이상 심각한 렉을 발생시키지 않으며, 이제 이 옵션을 항상 활성화하시는 것을 매우 추천드립니다. 업데이트 후 자동으로 활성화됩니다.
+자동 세이브는 더 이상 심각한 렉을 발생시키지 않기 때문에, 이제 이 옵션을 항상 활성화하시는 것을 매우 추천드립니다. 업데이트 후 자동으로 활성화됩니다.
 
-이런 맥락에서, 층마다 세이브하는 옵션은 비활성화하십시오. 심각한 메모리 문제가 있는 경우에만 사용해 주시기 바랍니다. 업데이트 후 자동으로 비활성화됩니다.
+이전의 매 층 자동 세이브 옵션은 비활성화하십시오. 심각한 메모리 문제가 있는 경우에만 사용해 주시기 바랍니다. 업데이트 후 자동으로 비활성화됩니다.
 ]], "_t")
 t("Safe Mode", "안전 모드", "_t")
 t([[Oops! Either you activated safe mode manually or the game detected it did not start correctly last time and thus you are in #LIGHT_GREEN#safe mode#WHITE#.
@@ -215,9 +215,9 @@ t("Flameshock", "화염 충격", "talent name")
 section "mod-boot/data/timed_effects.lua"
 
 t("Burning from acid", "산성액으로 인한 화상", "_t")
-t("#Target# is covered in acid!", "#Target2# 고통의 부식에 휩쌓였다!", "_t")
+t("#Target# is covered in acid!", "#Target2# 산성액으로 뒤덮였다!", "_t")
 t("+Acid", "+산성액", "_t")
-t("#Target# is free from the acid.", "#Target2# 고통의 부식에서 벗어났다.", "_t")
+t("#Target# is free from the acid.", "#Target2# 산성액으로부터 벗어났다.", "_t")
 t("-Acid", "-산성액", "_t")
 t("Sunshield", "태양 방패", "_t")
 
@@ -270,8 +270,8 @@ t("Others", "그 밖에 도움을 주신 분들", "_t")
 section "mod-boot/dialogs/FirstRun.lua"
 
 t("Welcome to Tales of Maj'Eyal", "Tales of Maj'Eyal에 오신 것을 환영합니다", "_t")
-t("Register now!", "새로 가입!", "_t")
-t("Login existing account", "존재하는 계정에 로그인", "_t")
+t("Register now!", "가입하기!", "_t")
+t("Login existing account", "기존 계정에 로그인", "_t")
 t("Maybe later", "나중에", "_t")
 t("#RED#Disable all online features", "#RED#모든 온라인 기능을 끈다", "_t")
 t("Disable all connectivity", "모든 연결을 끊는다", "_t")
@@ -334,7 +334,7 @@ t("Cancel", "취소", "_t")
 t("Run with newer version", "최신 버전에서 실행", "_t")
 t("Developer Mode", "개발자 모드", "_t")
 t("#LIGHT_RED#WARNING: #LAST#Loading a savefile while in developer mode will permanently invalidate it. Proceed?", "#LIGHT_RED#경고: #LAST#개발자 모드에서 세이브 파일을 로드하는 것은 이를 영구적으로 망가트릴 수도 있습니다. 계속하시겠습니까?", "_t")
-t("Load anyway", "어쨌든 로드한다", "_t")
+t("Load anyway", "어쨌든 불러오기", "_t")
 t("Delete savefile", "세이브 파일 삭제", "_t")
 t("Really delete #{bold}##GOLD#%s#WHITE##{normal}#", "정말로 #{bold}##GOLD#%s#WHITE##{normal}# 삭제하시겠습니까?", "tformat", nil, {"를"})
 t("Old game data", "구 버전 데이터", "_t")
@@ -423,7 +423,7 @@ t([[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
 #LIGHT_UMBER#새로운 종족:#WHITE# 드렘. 드워프들의 타락한 하위 종족으로, 티끝같은 이성을 유지하며 마음이 존재하지 않는 공포로 변해버리지 않았습니다. 드렘은 광란 상태에 빠질 수 있고 공포를 소환하는 법도 배울 수 있습니다..
 #LIGHT_UMBER#새로운 종족:#WHITE# 크로그. 오우거들이 마땅히 죽여야할 그것에 의해 변형되었습니다. 그들의 강력한 일격은 적들을 기절 시킬 수 있습니다. 또 크로그는 양 손에 한손 무기를 장착할 수 있습니다.
 #LIGHT_UMBER#새로운 지역:#WHITE# 재앙의 구덩이를 탐험하고, 거대한 지렁이에게서 빠저나가기 위해 싸우고 (어떻게 지렁이 안에 *들어* 갔는지는 묻지마세요), 비술의 출로의 경이들을 발견하고, 또 기이하고 촉수로 가득찬 장소로 떠나세요!
-#LIGHT_UMBER#새로운 공포:#WHITE# 발광의 공포가 맘에 드시나요? 불사르는 빛의 공포도 아주 맘에 드실겁니다! 또 엔트로피의 조각들도요. 또 ... 기타 등등도요...
+#LIGHT_UMBER#새로운 공포:#WHITE# 눈부신 공포가 맘에 드시나요? 불사르는 빛의 공포도 아주 맘에 드실겁니다! 또 엔트로피의 조각들도요. 또 ... 기타 등등도요...
 #LIGHT_UMBER#지긋지긋한 내 머리:#WHITE#  멋지고 편안한 공포로 바꿔버립시다!
 #LIGHT_UMBER#무수히 많은#WHITE# 유물, 이야기, 사건들... 
 
@@ -462,7 +462,7 @@ t("Game Module", "게임 모듈", "_t")
 t("Version", "버전", "_t")
 t("Enter your character's name", "캐릭터 이름을 입력해주세요", "_t")
 t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?", "_t")
-t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터 명입니다만, 덮어씌우시겠습니까?", "_t")
+t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터의 이름입니다만, 덮어씌우시겠습니까?", "_t")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
 t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "이 게임은 현재 T-Engint 버전과 호환되지 않으므로, 실행 시 심각한 오류를 발생시킬 수 있습니다.", "_t")
@@ -492,54 +492,46 @@ t("Email: ", "이메일: ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "중요한 게임 이벤트에 대한 #{bold}#매우 드물게#{normal}# (연간 몇 개) 발송되는 메일 수신 수락.", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "이 게임을 플레이 하려면 최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 t("Create", "제작", "_t")
-t("Privacy Policy (opens in browser)", "개인정보보호정책 (브라우저에서 열음)", "_t")
+t("Privacy Policy (opens in browser)", "개인정보 보호정책 (브라우저로 열기)", "_t")
 t("Password", "비밀번호", "_t")
 t("Password mismatch!", "비밀번호가 맞지 않습니다!", "_t")
 t("Username", "유저명", "_t")
 t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
 t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
+t("Email", "이메일", "_t")
+t("Your email seems invalid", "올바르지 않은 이메일 같습니다", "_t")
+t("Age Check", "연령 확인", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
--- new text
---[==[
-t("Email", "Email", "_t")
-t("Your email seems invalid", "Your email seems invalid", "_t")
-t("Age Check", "Age Check", "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-boot/dialogs/ProfileSteamRegister.lua"
 
+t("Steam User Account", "Steam 유저 계정", "_t")
+t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
+To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
+Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
+]], [[#GOLD#테일즈 오브 마즈'에이알#LAST#에 어서 오십시오.
+이 게임의 모든 기능을 즐기기 위해서 당신의 Steam 계정을 등록하는 것을 #{bold}#강력#{normal}# 추천합니다.
+정말 다행스럽게도 아주 손쉽게 가능합니다. 프로필에 사용할 닉네임과 부가적으로 이메일 주소만 있으면 됩니다 (저희는 이메일을 거의 보내지 않습니다. 2년에 한 번 보낼까 말까죠).
+]], "_t")
 t("Username: ", "유저명: ", "_t")
 t("Email: ", "이메일: ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "중요한 게임 이벤트에 대한 #{bold}#매우 드물게#{normal}# (연간 몇 개) 발송되는 메일 수신 수락.", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "이 게임을 플레이 하려면 최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 t("Register", "가입", "_t")
 t("Cancel", "취소", "_t")
-t("Privacy Policy (opens in browser)", "개인정보보호정책 (브라우저에서 열음)", "_t")
+t("Privacy Policy (opens in browser)", "개인정보 보호정책 (브라우저로 열기)", "_t")
 t("Username", "유저명", "_t")
 t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
+t("Email", "이메일", "_t")
+t("Your email does not look right.", "올바르지 않은 이메일 같습니다.", "_t")
+t("Age Check", "연령 확인", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 t("Registering...", "등록 중...", "_t")
 t("Registering on https://te4.org/, please wait...", "https://te4.org/에 등록 중, 기다려 주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
 t("Error", "오류", "_t")
--- new text
---[==[
-t("Steam User Account", "Steam User Account", "_t")
-t([[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
-To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
-Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
-]], [[Welcome to #GOLD#Tales of Maj'Eyal#LAST#.
-To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# recommended that you register your steam account.
-Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
-]], "_t")
-t("Email", "Email", "_t")
-t("Your email does not look right.", "Your email does not look right.", "_t")
-t("Age Check", "Age Check", "_t")
-t("Username or Email already taken, please select an other one.", "Username or Email already taken, please select an other one.", "_t")
---]==]
-
+t("Username or Email already taken, please select an other one.", "입력하신 유저명 또는 이메일은 이미 사용 중 입니다.", "_t")
 
 ------------------------------------------------
 section "mod-boot/dialogs/UpdateAll.lua"
