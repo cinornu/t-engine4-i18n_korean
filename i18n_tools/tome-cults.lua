@@ -898,13 +898,13 @@ It is only after these ruins were found that thought finally manifested in our b
 
 There is one question which keeps coming back to me. Why do we exist? Where did we come from? There are many strange things which dwell below the surface, but we are somehow different. The dwarven race bears similarities to us, but they possess a face where we do not. Are we cast from the same mold, but the process went awry somehow?
 
-I strongly believe that Drem and Dwarf do share a common origin. But, what is that origin? Could this simply have been the result of our different environments over the years? I could speculate all day about this, but that would not produce any concrete evidence. I intend to explore these caverns until I can find some clue or fragment of knowledge which will point me in the right direction. I need to know the truth.]], [[나의 기억은 이 거대한 폐허가 마지막으로, 이전에 무슨 일이 있었는지는 전혀 기억나지 않는다. 우리들은 세상의 표면에 사는 이들에게 드렘이라고 불리고, 흔히 괴물로 취급된다. 틀린 말은 아닐지도 모르지. 우린 한때 아무 생각없이 지하를 배회하는 생명체였으며, 그저 폭력을 휘두룰 뿐인 존재였고 본능을 따라 살 뿐이었으니까. 
+I strongly believe that Drem and Dwarf do share a common origin. But, what is that origin? Could this simply have been the result of our different environments over the years? I could speculate all day about this, but that would not produce any concrete evidence. I intend to explore these caverns until I can find some clue or fragment of knowledge which will point me in the right direction. I need to know the truth.]], [[나의 기억은 이 거대한 폐허가 마지막으로, 이전에 무슨 일이 있었는지는 전혀 기억나지 않는다. 우리들은 땅 위에 사는 이들에게 드렘이라고 불리고, 흔히 괴물로 취급된다. 틀린 말은 아닐지도 모르지. 우린 한때 아무 생각 없이 지하를 배회하는 생명체였으며, 그저 폭력을 휘두르면서 본능을 따라 살아갈 뿐이었으니까. 
 
-이 폐허를 발견하고 나서 우리의 몸에 정신이 깃들기 시작했다. 나에게는 지고의 지식도 선사해 주었지. 일부의 드렘에게는 이 선물은 전혀 도움이 되지 않았다. 그리고 다른 드렘들에게는 겨우 하찮은 생각을 가능케 하는 정도에 불과했다. 추측컨데 폐허에서 작용한 힘은 우리들 개체마다 제각각 달리 작용한 듯 싶다. 선물을 받은 후 간신히 자아를 인식하게 된 우리는 우리가 사는 세상과 스스로에 대해 많이 배워야 했다.
+이 폐허를 발견하고 나서 우리의 몸에 이성이 깃들기 시작했다. 나에게는 지고의 지식도 선사해 주었지. 몇몇 드렘에게는 이 선물은 전혀 도움이 되지 않았다. 그리고 또 어떤 드렘들에게는 겨우 하찮은 생각을 가능케 하는 정도에 불과했다. 추측컨대 폐허에서 작용한 힘은 우리들 개체마다 제각각 달리 작용한 것 같다. 선물을 받은 후 간신히 자아를 인식하게 된 우리는 우리가 사는 세상과 스스로에 대해 많이 배워야 했다. 
 
-계속 떠오르는 의문점이 하나 있다. 왜 우리는 존재할까? 우리는 어디에서 왔는가? 지하세계에는 별의별 이상한 것들이 많지만, 우리는 그중에서도 뭔가 다르다. 드워프들이 우리와 외견상 닮긴했지만, 우리와 달리 얼굴을 가지고 있다. 드워프와 드렘은 같은 틀에서 만들어졌다면 우리는 그 과정이 어긋난 것이 아닐까?
+계속 떠오르는 의문점이 하나 있다. 우리는 왜 존재할까? 우리는 어디에서 왔는가? 지하세계에는 별의별 이상한 것들이 많지만, 우리는 그중에서도 뭔가 다르다. 드워프들이 우리와 외견상 닮긴 했지만, 그들은 우리와는 달리 얼굴을 가지고 있다. 드워프와 드렘은 같은 틀에서 만들어졌고, 우리는 드워프가 잘못 만들어진 것이 아닐까? 
 
-아무튼 드워프와 드렘은 기원이 같다고 확신한다. 그렇다면 기원은 무었일까? 두 종족간의 차이가 그저 다른 환경에서 오랜 세월을 거치며 생겨난 것일까? 하루 종일이라도 이 문제를 사색하며 앉아있을 수 있지만, 그렇다고 해서 확실한 증거가 나오는 것도 아니니... 이제 동굴들을 탐험하면서 올바른 정답을 찾을 실마리를 찾아보려고 한다. 난 진실을 알아내고야 말겠다.]], "_t")
+아무튼 드워프와 드렘은 기원이 같다고 확신한다. 그렇다면 기원은 무엇일까? 두 종족 간의 차이가 그저 다른 환경에서 오랜 세월을 거치며 생겨난 것일까? 하루 종일이라도 이 문제에 대해 사색하며 앉아있을 수 있지만, 그렇다고 해서 확실한 증거가 튀어나오는 것도 아니니... 이제 동굴들을 탐험하면서 정답을 찾을 실마리를 찾아보려고 한다. 난 진실을 알아내고야 말겠다.]], "_t")
 t("our origins (2)", "우리의 기원 (2)", "_t")
 t([[There were some cave-ins recently around the ruins. After it was safe to investigate, said cave-ins have revealed previously unexplored tunnels. Since I had not made much headway with my research, it was a welcome distraction.
 
@@ -914,15 +914,15 @@ This was not the only discovery we made too. There are multiple tunnels and ther
 
 Multiple scouting parties were sent down the tunnels and it became obvious that all of the tunnels came from a single origin point. They lead into a single large cavity in the earth. The cavity itself has not been fully explored yet, but scouting parties have reported a number of strange ruins sighted within it. The physical description they gave me of the ruin does not match with any other civilisation we have documented...
 
-It is a vague hope, but I hope in my heart of hearts that this place will finally give me the answers I have been seeking about the origin of Dwarves and Drem alike.]], [[얼마 전에 폐허 주위에서 땅이 함몰된 일이 몇 번 있었다. 구덩이가 조사하기 안전하단 것을 알아낸 후 우리는 그 장소를 탐색했고, 이 함몰로 인하여 이전에 드러나지 않았던 굴들이 노출된 것이 발견되었다. 근래 내 연구가 별다른 진전이 없었기에 반가운 소식이었다.
+It is a vague hope, but I hope in my heart of hearts that this place will finally give me the answers I have been seeking about the origin of Dwarves and Drem alike.]], [[얼마 전에 폐허 주위에서 땅이 함몰된 일이 몇 번 있었다. 구덩이가 조사하기 안전하단 것을 알아낸 후 우리는 그 장소를 탐색했고, 이 함몰로 인하여 이전에 드러나지 않았던 굴들이 노출된 것이 발견되었다. 근래 내 연구가 별다른 진전이 없었기에 반가운 소식이었다. 
 
-놀랍게도 굴 안에서 거주의 흔적이 발견되었다! 몇 가지의 낡고 닳은 원시적인 도구와 무기들이 발견되었는데, 아무 생각이 없는 드렘 종족은 도구를 만들 줄 모른다고 알려져 있다. 따라서 오래된 드워프 굴이라고 결론지었다. 이 굴의 내부에서 수염나고 건장한 인간 형상의 존재가 촉수 괴물과 싸우는 듯한 동굴 벽화도 발견되었다.
+놀랍게도 굴 안에서 거주의 흔적이 발견되었다! 낡고 닳은 원시적인 도구와 무기들이 몇 가지 발견되었는데, 아무 생각이 없는 드렘 종족은 도구를 만들 줄 모른다고 알려져 있다. 따라서 오래된 드워프 굴이라고 결론지었다. 이 굴 안쪽에서 수염나고 건장한 인간의 형상이 촉수 괴물과 싸우는 듯한 벽화도 있었다. 
 
-우리가 발견한 것은 이뿐만이 아니었다. 다른 많은 굴들이 발견되었고, 그 굴들이 손으로 파서 만들어졌다고 시사하는 증거도 있었다. 드워프들이 뛰어난 광부인 것은 주지의 사실이지만, 원시 드워프들도 암반을 이렇게 쉽게 파냈다니... 정말 놀라울 따름이었다.
+우리가 발견한 것은 이뿐만이 아니었다. 굴들이 더 많이 발견되었고, 그 굴들은 손으로 파서 만들어졌다는 증거도 나왔다. 드워프들이 뛰어난 광부라는 건 유명한 사실이지만, 원시 드워프들도 암반을 이렇게 쉽게 파냈다니... 정말 놀라울 따름이다. 
 
-복수의 정찰대가 굴 안을 탐사하기 위해 파견되었고, 모든 굴들이 하나의 기원점에서 시작해 나간다는 사실이 명백해졌다. 기원점은 대지 중심의 한 거대한 공동이었다. 현재 공동은 완전히 탐사되지 않았지만, 정찰대의 보고에 따르면 공동 안에 특이한 폐허들이 여럿 발견되었다고 한다. 정찰대원들이 묘사한 폐허의 모습은 우리가 기록해왔던 문명들 중 어떠한 문명과도 맞지 않았다...
+여러 정찰대가 굴 안쪽을 탐사하기 위해 파견되었고, 모든 굴들이 하나의 기원점에서 시작해 나간다는 사실이 명백해졌다. 기원점은 이 땅 한가운데의 어떤 거대한 동굴이었다. 현재 동굴은 완전히 탐사되지 않았지만, 정찰대의 보고에 따르면 그 안에 특이한 폐허들이 여럿 있었다고 한다. 정찰대원들이 묘사한 폐허의 모습은 우리가 기록해왔던 문명들 중 그 어떠한 문명과도 맞지 않았다... 
 
-단순한 바램이지만, 진심으로 이 장소가 내가 오랬동안 찾아 헤메었던 드렘과 드워프의 기원에 대한 답을 주길 바랄 뿐이다.]], "_t")
+단순한 바람이지만, 이 장소가 내가 오랫동안 찾아 헤매었던 드렘과 드워프의 기원에 대한 답을 주길 진심으로 바랄 뿐이다.]], "_t")
 t("our origins (3)", "우리의 기원 (3)", "_t")
 t([[The exploration of the cavity has been interesting, to say the least. At its very centre, we discovered a strange, egg-shaped structure. It's made out of some sort of metal which I have not seen before. Despite being covered in layers of ancient dust, the metal was untarnished and showed no noticeable signs of decay. It was highly resistant to damage, as our attempts to cut through it were met with failure, even when we employed magical means. There was a notable dent in its side, something which could have only been caused by a tremendous amount of force.
 
@@ -946,31 +946,31 @@ We wandered into the back of the room where there were yet more tubes. To my sur
 
 This egg has to be where we came from. This machine was built to create dwarves. I do not understand the process, but I have seen the outcome for myself. It is us Drem that are the anomaly, the dysfunctional byproduct of this machine's disrepair. Feral Drem must have emerged from this egg and ventured into the underground, where they then multiplied independently of the egg. These mutant fetuses must be the result of further disrepair and corruption, judging by the black growth which engulfs the machine in this room.
 
-So, I know now. Even if this discovery never leaves this room, I can die content. Even if I am the product of a broken piece of machinery, I am happy that I had a chance to witness this moment. If you find these notes, please bring them back to my fellow Drem. I am sure they would be happy to know the truth too.]], [[좋게 말해서 공동 탐사는 아주 흥미로웠다. 우리는 공동의 중심에서 특이한 알 모양의 구조물을 발견했다. 구조물은 정체를 알 수 없는 일종의 금속으로 이루어져있다. 오래된 먼지에 덮여있긴 했지만, 이 금속은 녹슬지도 않았고 세월의 흔적마저도 없었다. 게다가 손상에 저항성이 강해서, 알을 갈라 보려는 무수한 시도는 수포로 돌아갔다. 심지어 마법적 방법조차도...이상하게도 측면에 함몰된 자국이 있었는데, 아마도 매우 엄청난 힘에 의해서 생겼을 것이라고 추축했다.
+So, I know now. Even if this discovery never leaves this room, I can die content. Even if I am the product of a broken piece of machinery, I am happy that I had a chance to witness this moment. If you find these notes, please bring them back to my fellow Drem. I am sure they would be happy to know the truth too.]], [[좋게 말해서 동굴 탐사는 아주 흥미로웠다. 우리는 동굴의 중심에서 특이한 알 모양의 구조물을 발견했다. 구조물은 정체를 알 수 없는 모종의 금속으로 이루어져 있었다. 오래된 먼지에 덮여있긴 했지만, 이 금속은 녹슬지도 않았고 세월의 흔적마저도 없었다. 게다가 강도도 강해서, 알을 갈라 보려는 무수한 시도는 수포로 돌아갔고, 마법을 사용해도 달라지는 건 없었다. 이상하게도 측면에 함몰된 자국이 있었는데, 실로 터무니없는 힘이 아니면 그런 자국을 낼 수 없었을 것이다. 
 
-알 모양 구조물의 안으로 이어지는 길이 있어서 내가 처음으로 자원하여 들어갔다. 알의 내부는 더욱 기묘했다. 천장을 덮는 수 십개의 금속 튜브가 있었다. 튜브들에서 액체같은 것이 쏟아지는 소리가 들렸다. 벽은 반짝였고, 무었인지 감도 안잡히는 금속성 물체로 덮혀 있었다. 알이 일종의 거대한 기계라는 사실은 명백했다. 도저히 이 기계가 어떻게 작동하고, 어떻게 만들어졌는지 감을 잡을 수조차 없었다. 어떠한 마법의 흔적도 감지할 수 없었기에 이 기계는 완전히 기계적인 방식으로 작동하는 것이라고 확신했다. 알려진 종족 중 그 어느 누구도 이런 것을 만들 수 있는 자들은 없다. 아마 한 천재가 설계하고 혼자 지어낸 기계라고 생각했다. 
+알 모양 구조물의 안으로 이어지는 길이 있어서 내가 자진해서 가장 먼저 들어가기로 했다. 알의 내부는 더욱 기묘했다. 수십 개의 금속 튜브가 천장을 뒤덮고 있었다. 튜브들에서 액체 같은 것이 쏟아지는 소리가 들렸다. 벽은 반짝였고, 무엇인지 감도 안 잡히는 금속 물체들로 뒤덮여 있었다. 그 알이 일종의 거대한 기계라는 사실은 명백했다. 하지만 이 기계가 어떤 식으로 작동하고, 어떻게 만들어졌는지 감을 잡을 수가 없었다. 어떠한 마법의 흔적도 감지할 수 없었기에 이 기계는 순수하게 기계적으로 작동하는 것이라고 확신했다. 알려진 종족들 중 그 어떤 자들도 이런 것을 만들어낼 수는 없다. 어떤 천재가 혼자 설계하고 지어낸 것이 아닌가 하는 생각밖에 들지 않았다. 
 
-무엇보다 가장 흥미롭게도 알의 표면 전체에는 얇은 공허 에너지의 막이 덮혀 있었다. 우리 드렘은 오랜 기간 공허 에너지를 연구해 왔기에, 공허 에너지에 친숙하다고 말할 수 있지만 이것은 정말... 공허 에너지가 균등하게 알은 얇게 덮고 있었기에 알은 과거 어느 시점에 공허 에너지에 잠겨 있었다고 추측할 수 있었다. 대체 어떤 상황이 있었기에 가능한 일이었을까? 마즈'에이알에서 그렇게 높은 농도의 공허 에너지가 모인 곳이 생기는 것은 불가능하다. 과거의 실험한 바에 따르면 그 정도 농도의 공허 에너지는 끔찍한 폭발을 일으킨다.
+무엇보다 흥미로웠던 것은, 알의 표면 전체를 얄팍하게 덮고 있던 공허 에너지 막이었다. 우리 드렘은 오랜 기간 다른 세계들에 대해 연구해 왔기에, 공허 에너지에 친숙하다고 말할 수 있지만 이것은 정말... 에너지가 균일하게 덮고 있었기에 그 알은 과거에 공허 에너지에 완전히 잠겨 있었다고 추측할 수 있었다. 대체 어떤 상황에서 그렇게 된 것일까? 에이알에서는 공허 에너지가 그렇게까지 고농도로 모일 수 없다. 과거에 실험했던 바에 따르면 그 정도 농도의 공허 에너지는 끔찍한 폭발을 일으킨다.
 
-안으로 깊이 들어가자 여러 개의 거대한 유리 관이 줄줄히 늘어서 있었다. 각각의 관들은 정찰대 하나가 들어가고도 남을 정도로 넓직했다. 내 위의 금속 튜브들이 관 속으로 녹색의 액체를 쏟아내고 있었다. 조금 더 가까이에서 관찰하려던 순간 우리는 습격당했다!
+안으로 깊이 들어가자 거대한 유리 관들이 줄줄이 늘어서 있었다. 각각의 관들은 정찰대 하나가 모두 들어가고도 남을 정도로 널찍했다. 내 위의 금속 튜브들이 관 속으로 녹색의 액체를 쏟아내고 있었다. 조금 더 가까이에서 관찰하려던 순간 우리는 습격당했다! 
 
-복수의 존재가 어둠 속에서 기어나왔지만, 우리 드렘은 이런 종류의 습격에 익숙하기에 가까이 근접하기 전에 금세 반격하여 이들을 찢어 놓을 수 있었다. 다행히도 우리는 가벼운 부상만 입었다. 우리를 공격한 것들을 가까이서 보고 놀라지 않을 수 없었다. 이 놈들은 드워프와 드렘 그리고 알 수 없는 무언가의 혼종처럼 보였고, 기이하게도 어린아이와 같은 몸을 하고 있었다. 짐작컨데 뒤틀리고 날카로운 이빨도 자연적으로 만들어진 것은 아니다. 그래도 우리는 크게 동요하지는 않았다. 표면에 거주하는 종족들은 이 광경에 경악하겠지만, 우린 지하에서 더욱 기괴한 것들을 보아왔기 때문이다.
+무언가가 어둠 속에서 여럿 기어나왔다. 우리 드렘은 이런 종류의 습격에 익숙하기에 그것들이 가까이 오기 전에 빠르게 반격하여 찢어 버릴 수 있었다. 다행히도 우리는 가벼운 부상만 입었다. 우리를 공격한 것들을 가까이서 보고 놀라지 않을 수 없었다. 그놈들은 드워프와 드렘, 그리고 알 수 없는 무언가의 혼종처럼 생겼고, 기이하게도 어린아이와 같은 몸을 하고 있었다. 짐작컨대 뒤틀리고 날카로운 이빨도 자연적으로 만들어진 것은 아니다. 그래도 우리는 크게 동요하지는 않았다. 땅 위에 사는 종족들은 이 광경에 경악하겠지만, 우린 지하에서 이것들보다도 더 기괴한 것들을 보아왔기 때문이다. 
 
-알 속에서 나아가면서 수십 어쩌면 수백을 베어넘겼다. 분명히 어딘 가에 이놈들이 만들어지는 곳이 있으리라. 공격자들은 미묘하게 우리와 닮아서 싸워나가면서 불편한 느낌이 들었다. 결국 알의 중심으로 보이는 방에 도착했고, 우리를 공격한 놈들이 만들어지는 곳을 발견했다. 거대한 기계에 수 십개의 유리 관이 붙어있었고, 유리 관안에서 무언가가 자라고 있었다. 한 녀석이 부서진 관에서 나와서는 급속도로 성장하더니 우리에게 달려들었다. 드워프, 드렘과 기묘한 촉수로 뒤덮힌 공포를 닮은 모습을 하고 있었다. 
+알의 안쪽으로 나아가면서 수십, 어쩌면 수백을 베어 넘겼다. 분명히 어딘 가에 이놈들이 만들어지는 곳이 있을 것이었다. 습격해 온 것들은 미묘하게 우리와 닮아서 싸워나가면서 불편한 느낌이 들었다. 결국 알의 중심으로 보이는 방에 도착했고, 우리를 공격한 놈들이 만들어지는 곳을 발견했다. 거대한 기계에 수십 개의 유리 관이 붙어있었고, 유리 관 안에서 무언가가 자라고 있었다. 놈들은 부서진 관에서 튀어나와서는 급속도로 성장하더니 우리에게 달려들었다. 놈들은 뒤틀린 드워프나 드렘 같은 모습을 하고 있었고, 기묘한 촉수로 뒤덮인 공포처럼 생긴 놈도 있었다.
 
-우리는 유리관으로 이어지는 튜브를 파괴했고, 그러자 괴물이 더이상 튀어나오지 않았다. 녹색 액체는 아마도 이 괴물들에게 영양을 공급하는 물질이리라. 이 액체 없이는 연약하고 반쯤 형성된 덩어리만 기어나올 뿐이었다.
+우리는 간신히 유리관으로 이어지는 튜브를 파괴했고, 그러자 괴물이 더 이상 튀어나오지 않았다. 녹색 액체는 아마도 이 괴물들에게 영양을 공급하는 물질이리라. 이 액체 없이는 연약한 미숙아 수준의 놈들만 기어나올 뿐이었다. 
 
-하지만 우리가 부순 기계는 하나뿐이고, 다른 기계가 더 있었다. 우리는 방을 최대한 봉쇄했으나, 놈들이 몰려오는 소리를 들을 수 있었다. 싸우던 와중에 괴물 한 녀석이 내 팔을 물었고, 미지의 질병에 감염된 나의 살은 시들어서 말린 가죽처럼 변했다.
+하지만 우리가 부순 것 말고도 다른 기계가 더 있었다. 우리는 방을 최대한 봉쇄했지만, 놈들이 몰려오는 소리를 들을 수 있었다. 싸우던 와중에 어떤 괴물 놈이 내 팔을 물었고, 미지의 질병에 감염된 내 살점은 시들더니 이내 말린 가죽처럼 변했다. 
 
-우리의 운명은 오해의 여지가 없다. 많은 동포를 잃었고, 질병에 감염된 자는 나 뿐만이 아니었다. 우린 이 방안에서 전멸할 운명이리라. 그래도 난 이 운명에 만족한다. 나는 결국 우리의 기원을 알아내고야 말았으니까.
+우리의 운명은 이미 정해졌다. 수많은 드렘 동포를 잃었고, 질병에 감염된 자는 나뿐만이 아니었다. 우린 이 방 안에서 전멸할 운명이리라. 그래도 난 이 운명에 만족한다. 우리의 기원에 대한 진실을 알아내고야 말았으니까. 
 
-아직 많은 튜브들이 있었을 때, 우린 방의 뒤편을 수색했다. 놀랍게도 이 튜브들은 완전한 육체를 포함하고 있었다. 긴 수염을 가진 드워프가 튜브 안에서 둥둥 떠 있었고, 그는 마치 꿈을 꾸는 듯 꿈틀거렸다. 더 탐험해 나가면서 이런 방식으로 잠든 드워프들을 많이 찾아내었다. 끔찍하게도 더 나아갈 수록 드워프들이 기괴하게 변형된 상태로 발견되었다. 마지막 튜브에 도달했을 때, 우리는 얼굴없는 드워프-우리의 언어로는- 곧 드렘을 발견했다.
+우린 방의 뒤편을 수색했고 거기에는 튜브가 아직도 많이 있었다. 놀랍게도 이 튜브들에는 완전한 육체들이 들어 있었다. 긴 수염을 가진 드워프가 튜브 안에 둥둥 떠 있었고, 그는 마치 꿈을 꾸는 듯 꿈틀거렸다. 좀 더 살펴보면서 이런 방식으로 잠든 드워프들을 많이 찾아내었다. 끔찍하게도 나아가면 나아갈수록 그 드워프들의 상태는 점점 더 기괴하게 변해갔다. 마침내 우리는 마지막 튜브까지 찾아냈고, 그 안에 있던 것은 얼굴 없는 드워프, 즉 드렘이었다. 
 
-이 알이 우리의 기원임이 틀림없다. 이 시설은 드워프를 만들어 내기 위해 지어졌다. 과정은 이해하지 못했지만, 결과물은 직접 보았다. 그러니까 우리 드렘은 이 기계가 장시간 수리를 받지 못해 만들어낸 기형물이자 실패작인 것이다. 야생 드렘들은 알에서 만들어져 지하세계로 배출되고, 지하세계에서 독자적으로 번식한다. 그리고 방과 관을 뒤덮은 검은 종양으로 미루어 보건데 아기 괴물들은 기계가 수리받지 못한 채 오랜기간 방치된 결과일 것이다. 
+이 알이 우리의 기원임이 틀림없다. 이 기계는 드워프를 만들어내기 위한 것이었다. 과정은 이해할 수가 없었지만, 그 결과물은 직접 보았다. 그러니까 우리 드렘은 이 기계가 고장 나서 만들어낸 기형이자 실패작인 것이다. 야생 드렘들은 알에서 만들어져 지하세계로 배출되고, 그곳에서 독자적으로 번식한다. 그리고 이 방과 관을 뒤덮은 검은 종양으로 미루어 보건대, 그 변형된 미숙아 괴물들은 기계가 고장난 채로 오랜 기간 방치된 결과일 것이다. 
 
-아, 난 됬다 이제, 내가 발견한 사실이 이 방을 나가지 못하더라도 만족하며 죽을 수 있다. 내가 기계의 망가진 산물일지라도, 그 순간을 볼 수 있어서 너무 행복하다. 이 노트를 본 사람은 내 동포 드렘들에게 전달해 주기 바란다. 동포들도 이 사실을 듣고 분명 기뻐할테니...]], "_t")
+그러니까, 이제 모두 알았다. 내가 발견한 사실이 결코 이 방 밖으로 나가지 못한다 하더라도, 나는 만족하며 죽을 수 있다. 내가 망가진 기계의 산물일지라도, 그 순간을 볼 수 있어서 너무나도 행복하다. 누군가 이 쪽지를 찾아냈다면, 부디 내 동포 드렘들에게 가져다주길 바란다. 동포들도 진실을 알게 되면 분명 기뻐할 테니...]], "_t")
 t("strange picture", "기묘한 그림", "_t")
-t("At the center of the strange contraption you see a picture. You are not quite sure what it represents...", "이상한 기계 장치 가운데에서 그림이 보입니다. 당신은 이 그림이 무얼 묘사하고 있는지 제대로 알아볼 수 없습니다...", "_t")
+t("At the center of the strange contraption you see a picture. You are not quite sure what it represents...", "이상한 기계 장치 가운데에서 그림이 보입니다. 뭘 묘사하고 있는 것인지 잘 모르겠습니다...", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/lore/fay-willows.lua"
