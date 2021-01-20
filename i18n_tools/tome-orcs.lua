@@ -5217,12 +5217,12 @@ section "tome-orcs/data/talents/steam/inscriptions.lua"
 t("\
 Its effects scale with your %s stat.", "\
 이 효과는 %s 능력치에 비례하여 증가합니다.", "tformat")
-t("Implant: Steam Generator", "이식물 : 증기 발생기", "talent name")
+t("Implant: Steam Generator", "이식물: 증기 발생기", "talent name")
 t([[Steam generator that permanently creates %0.1f steam per turn.
 		Can be activated for an instant burst of %d steam.]], [[매 턴 %0.1f 증기를 생성합니다.
 		활성화하면, 증기를 급격하게 생성해, 증기를 %d 회복합니다.]], "tformat")
 t("steam %d", "증기 %d", "tformat")
-t("Implant: Medical Injector", "이식물 : 의료용 주사기", "talent name")
+t("Implant: Medical Injector", "이식물: 의료용 주사기", "talent name")
 t("#LIGHT_BLUE#Medical injector selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 해당 주사기가 먼저 사용됩니다.", "saySimple")
 t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
 t("Medical injector allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "의료용 주사기는 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있게 해줍니다.", "tformat")
