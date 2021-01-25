@@ -697,7 +697,7 @@ t("FEED ME!", "원혼을 줘!!", "_t")
 t("I nee ..err.. you need more souls. Yes you...", "나는 영ㅎ.. 으.. 너는 영혼이 더 필요해. 그래, 네가 말이야...", "_t")
 t("Pain and misery, spread them!", "고통과 괴로움을 퍼뜨려!", "_t")
 t("I love the smell of a fresh corpse.", "난 신선한 시체 냄새가 참 좋더라.", "_t")
-t("Splatter me with the blood of our foes!", "저 놈들의 피로 날 적셔줘!", "_t")
+t("Splatter me with the blood of our foes!", "놈들의 피로 날 적셔줘!", "_t")
 t("That one wasn't such an impressive kill...", "방금 건 그렇게 인상적이진 않은 것 같은데...", "_t")
 t("Getting a bit sloppy on the kills no?", "너 방금 좀 대충 한 것 같다?", "_t")
 t("Forbidden Tome: \"Of Knowledge And Horrors\"", "금지된 고서: \"지식과 공포에 관해\"", "entity name")
@@ -2468,11 +2468,11 @@ t([[There have often been reports among our brethren about the presence of a mag
 
 As we approached the crag, you could practically smell the blight in the air. What little sunlight entered the crag illuminated... something. All I could see was a vast lump of tentacles, writhing and squirming over each other. What I saw next both filled me with disgust and melancholy. The proud form of a drake stood among the mass, but where its head should have been only appeared a mass of tendrils. Its very skin seemed to contain the wriggling mass of some monstrosity. One of nature's proudest creatures, transformed into something which perverted all that is natural and good in this world.
 
-My first instinct was to lead a charge into the crag and cleanse this terrible place, but I knew this would be a mistake. It will pain all of us deeply to not take action now, but there is no sense in throwing our lives away. For now, we must establish camp and observe this threat.]], [[드워프 산맥의 산기슭 근처에 마법적인 일탈이 있다는 보고가 우리 형제들 사이에 종종 있었다. 오늘날까지는 우리는 그 근원을 추적할 수 없었다. 강령술사나 다른 형태의 비전 마법 사용자들의 악취 나는 거처를 발견할거라고 생각했었는데...우리가 발견한 것은 전에 본 그 어떤 것과도 다른 흉물이었다.
+My first instinct was to lead a charge into the crag and cleanse this terrible place, but I knew this would be a mistake. It will pain all of us deeply to not take action now, but there is no sense in throwing our lives away. For now, we must establish camp and observe this threat.]], [[드워프 산맥의 산기슭 근처에 끔찍한 마법이 있다는 보고가 우리 형제들 사이에 자주 있었다. 어제까지만 해도 우리는 그 근원을 추적할 수 없었다. 강령술사나 비슷한 마법 사용자의 역겨운 거처를 찾아낼 것이라 생각했었다... 하지만 우리가 찾아낸 건 이전에 봤던 그 어떤 것과도 다른 흉물이었다. 
 
-우리가 바위산에 다가갔을 때, 공기 중에 퍼진 황폐의 냄새를 실제로 맡을 수 있었다. 바위 틈에 들어온 희미한 햇빛이 비춘것은... 무언가, 무언가 내가 볼 수 있는 것은 서로를 휘감고 꿈틀거리는 어마어마한 촉수 덩어리들 뿐이었다. 그 다음 본 것은 혐오감과 비애로 나를 가득 채웠다. 자랑스러운 형태의 용이 덩어리들 속에 서 있었지만, 용의 머리가 있어야 할곳엔 오직 촉수 덩어리만을 볼 수 있었다. 용의 거죽 바로 밑에는 괴물같이 꿈틀대는 덩어리가 들어 있는 것 같았다. 자연의 가장 자랑스러운 생명체중 하나인 용이, 그것의 훌륭하고 자연스러운 모든 것이, 비틀리고 도착된 형태로 변모한 상태였다
+우리가 바위산에 다가가자, 공기 중에 퍼진 황폐의 냄새를 실제로 맡을 수 있었다. 바위틈으로 들어온 희미한 햇빛이 비춘 것은... 무엇이었을까. 내가 볼 수 있었던 건 서로를 휘감으면서 꿈틀거리는 어마어마한 촉수 덩어리들 뿐이었다. 그다음 보게 된 광경은 그저 역겹고 음울할 뿐이었다. 위풍당당한 용의 형체가 그 덩어리들 속에 서 있었지만, 용의 머리가 있어야 할 곳엔 오직 촉수 덩어리만 달려 있었다. 그 가죽 바로 밑에는 꿈틀대는 괴물 같은 것이 들어 있는 것 같았다. 대자연의 가장 자랑스러운 생명체중 하나인 용이, 이 세상의 평범하고 선한 것들을 모조리 더럽히는 무언가로 변모한 것이다.
 
-My first instinct was to lead a charge into the crag and cleanse this terrible place, but I knew this would be a mistake. It will pain all of us deeply to not take action now, but there is no sense in throwing our lives away. For now, we must establish camp and observe this threat.]], "_t")
+곧장 안으로 뛰어들어 이 끔찍한 곳을 정화해야 한다는 충동이 일었지만, 그건 멍청한 짓이라는 걸 알고 있었다. 우리 모두 그 꼴을 지켜보고만 있어야 한다는 게 심히 고통스럽지만, 그렇다고 우리의 목숨을 내다 버려봤자 아무런 의미가 없다. 지금은, 근처에서 야영을 하면서 이 위협을 지켜보아야만 한다.]], "_t")
 t("page from a logbook (2)", "일지에서 떨어진 페이지 (2)", "_t")
 t([[In my dreams, I saw the inside of the pits. How the hatchlings devoured each other in a cannibalistic frenzy, how the weak and frail ones were dragged underneath the surface of that mass of tentacles... All I could do is gape in horror. But there was one fiendish shape which towered above them all, a nightmarish fusion between dragon and tentacle... I could not bear to look at it, yet I could not look away. It whispered to me, speaking words that a mortal's tongue could never hope to mimic.
 
@@ -2480,25 +2480,25 @@ I am not the only one who has been dreaming about the pits. One of my men was hy
 
 Whatever is here is touching our minds. Any fool could guess that. I woke up to find that I had been writing notes in my sleep. I do not wish to guess what unspeakable blasphemies these symbols represent. It wants me to keep writing. It wants me to do its bidding. I can feel its whispers gnawing at the back of my head. We must act while we can still think for ourselves. I dread what will become of us if we succumb to the whispers... The whispers. They won't stop.
 
-[i](He appears to have attached those notes he mentioned to this letter. What you see is a series of incomprehensible scribbles and symbols which don't resemble any language you have seen before. Such an bizarre script could have only been produced by a madman or something that thinks in ways completely alien to your own.)[/i] ]], [[나는 꿈속에서, 구덩이의 내부를 보았다. 어떻게 해츨링들이 동족포식의 광란 속에서 서로를 집어삼켰는지, 어떻게 그 약하고 연약한 개체들이 촉수 덩어리의 표면 아래로 끌려갔는지... 내가 할 수 있는 일은 공포에 질려 입을 다물고 있는 것 뿐이었다. 하지만 그들 위에 우뚝 솟은 악마 같은 형체가 하나 있었는데 용과 촉수 사이의 악몽 같은 융합체를... 차마 눈뜨고 볼 수는 없었지만, 외면할 수는 없었다. 그것은 인간의 혀로는 결코 흉내낼 수 없을 말을 내게 속삭였다.
+[i](He appears to have attached those notes he mentioned to this letter. What you see is a series of incomprehensible scribbles and symbols which don't resemble any language you have seen before. Such an bizarre script could have only been produced by a madman or something that thinks in ways completely alien to your own.)[/i] ]], [[꿈속에서, 나는 그 구덩이의 안쪽을 보았다. 해츨링들이 야만적인 광기에 휩싸여 서로를 집어삼키는 모습, 그 힘없고 연약한 것들이 그 촉수 덩어리 속으로 끌려들어가는 모습... 난 그저 겁에 질린 채로 그걸 지켜보고 있을 뿐이었다. 하지만 그것들 위로 악귀 같은 형체가 하나 우뚝 솟아 있었다. 용과 촉수를 뒤섞어 놓은 무시무시한 것이... 차마 눈뜨고 볼 수가 없었지만, 눈을 돌릴 수도 없었다. 그것은 필멸자의 혀로는 결코 흉내낼 수 없을 단어들을 내게 속삭였다. 
 
-구덩이에 관한 꿈을 꾸고 있는 사람은 나뿐만이 아니다. 내 동료 중 한 명이 오늘 히스테리를 일으키며 우주의 검은 심연과 그것이 이 세계를 정복하기 위해 어떻게 그릇을 선택했는지 속삭였다. 그를 강제로 진정시켜야만 했다. 
+구덩이에 관한 꿈을 꾸고 있는 사람은 나 말고도 더 있다. 내 동료 중 한 명이 오늘 미쳐서 발광을 했는데, 우주의 검은 심연이 어쩌니 그게 이 세계를 정복하기 위해 그릇을 골랐다느니 속삭였다. 그를 강제로 진정시켜야만 했다. 
 
-여기 있는 것이 무엇이든지 우리의 마음을 긁어댄다. 어떤 바보라도 그것을 짐작할 수 있을것이다. 잠에서 깨어 보니 잠결에 메모를 하고 있었다. 나는 이 상징들이 어떤 말로 표현할 수 없는 신성모독을 나타내고 있는지 추측하고 싶지 않다. 그것은 내가 계속 쓰길 원해. 그것은 내가 복종하길 원해. 그 속삭임이 머리의 뒷편을 갉아먹는 것이 느껴진다. 우리는 아직 스스로 생각할 수 있을 때 행동해야 한다. 속삭이는 소리에 굴복하면 어떻게 될까 두렵다... 속삭이는 소리. 속삭임은 멈추지 않을 것이다.
+이곳에 있는 것이 뭔지는 모르겠지만 우리의 마음을 긁어댄다. 천치라도 그건 알 수 있을 것이다. 잠에서 깨어 보니 내가 자면서 뭔가를 메모하고 있었다. 이 기호들이 무슨 형용할 수 없는 신성모독적인 의미를 담고 있는가 생각하고 싶지 않다. 그것은 내가 계속 쓰길 원한다. 내가 명령대로 하길 원한다. 그것이 속삭이는 소리가 내 머리 뒤쪽을 갉아먹는 걸 느낄 수 있다. 우리의 정신이 먹히기 전에 뭔가 해야 한다. 우리가 속삭이는 소리에 굴복하면 어떻게 될지 두렵다... 속삭이는 소리. 멈추지 않겠지.
 
-[i](그는 그가 언급했던 메모들을 이 편지에 첨부한 것으로 보인다. 당신이 본 것은 이해할 수 없는 낙서와 이전에 본 어떤 언어와도 닮지 않은 기호들의 연속이다. 그런 기괴한 문자들은 미친 사람이나 당신과는 완전히 이질적인 방식으로 생각하는 어떤 외계의 것에 의해서만 만들어질 수 있을 것이다.)[/i] ]], "_t")
+[i](이 글을 쓴 사람은 그 "메모"들을 여기에 첨부해 둔 것 같습니다. 그 메모들에 쓰여 있는 것은 알아볼 수 없는 낙서들과, 이전에 봤던 그 어떤 언어와도 다른 기호들 뿐입니다. 그런 기괴한 문자들을 만들어낼 수 있을 만한 건 미친 사람이나, 당신과는 완전히 다른 방식으로 생각하는 무언가 정도 뿐일 것입니다.)[/i] ]], "_t")
 t("page from a logbook (3)", "일지에서 떨어진 페이지 (3)", "_t")
 t([[The whispers... Even as I'm running away, the whispers don't stop. It echoes over and over again. I can feel the walls of my mind crumbling down. It wants me to go back. I won't go back, not after what happened. All of them died, melted and devoured, broken and torn asunder... The writhing mass, the endless aberrant things... One drake towered above them all. It whispered to me, just like in my dreams... It had no eyes, but it looked right through me. All of my mortal emotions, thoughts and dreams were laid bare before its hideous visage... And it laughed. It laughed with a horrid, psychic shriek.
 
-It wants me to go back. It wants me to return so it can finish what it started. No, no, no. I must write this report. Tell the Ziguranth. I must send this away, I... I... I must go back it wants me to go back I-I-I [i](Nothing but a series of erratic and completely incoherent scribblings follow. Judging by where you found this letter, he did not make it back to Zigur.)[/i] ]], [[속삭임... 내가 도망치는 동안에도 속삭임은 멈추지 않는다. 속삭임의 메아리가 계속 울린다. 마음의 벽이 무너져 내리는 것을 느낄 수 있다. 그것은 내가 돌아가길 원한다, 난 돌아가지 않을 거야, 일이 있고 난 뒤로는 돌아갈 수 없어. 모두 죽고, 녹고, 먹히고, 부서지고, 찢어지고... 뭉클한 덩어리들, 끝없는 흉물들... 한 용이 그것들 모두보다 더 높이 우뚝 서있다. 꿈에서처럼 속삭였어 눈은 없었지만 나를 꿰뚫어 보았어. 내 모든 필멸자다운 감정과 생각 그리고 꿈들이 그것의 끔찍한 시선 앞에 발가벗겨 드러누워 있었다... 그리고 그것은 웃었다. 그것은 무시무시한 초자연적인 비명을 지르며 웃었다.
+It wants me to go back. It wants me to return so it can finish what it started. No, no, no. I must write this report. Tell the Ziguranth. I must send this away, I... I... I must go back it wants me to go back I-I-I [i](Nothing but a series of erratic and completely incoherent scribblings follow. Judging by where you found this letter, he did not make it back to Zigur.)[/i] ]], [[속삭이는 소리가... 내가 도망치는 동안에도 속삭임은 멈추지 않는다. 계속해서 메아리치고, 끝도 없이 울려 퍼진다. 내 마음의 벽이 무너져 내리는 것을 느낄 수 있다. 그것은 내가 돌아가길 원한다. 난 돌아가지 않을 거다. 그런 일을 겪었는데 어떻게 돌아가. 모두 죽고, 녹고, 먹히고, 부서지고, 갈가리 찢기고... 몸부림 치는 덩어리들, 끝이 없는 흉물들... 어떤 용이 그것들의 위로 우뚝 솟아 있었다. 내게 속삭였다. 꿈속에서처럼... 눈이 없었지만, 날 뚫어지게 쳐다보았다. 내 사람다운 감정들, 생각들, 그리고 꿈들이 모조리 그것의 끔찍한 시선 앞에 발가벗겨졌다... 그리고 그것은 웃었다. 끔찍한 소리를 지르면서 웃었고, 그 소리가 머릿속에 마구 울렸다.
 
-그것은 내가 돌아서길 원해 내가 돌아오길 원해 그래야 시작한 일을 끝마칠 수 있을테니. 아니, 안돼, 아니야. 나는 이 보고서를 써야 한다. 지구랏 동료들에게 전해야해. 이걸 보내야만해, 난...나 ㄴ... 나는 반드시 돌아가야 한다 그것이 원하고 있어 [i](불규칙하고 완전히 앞뒤가 맞지 않는 일련의 낙서만이 뒤따른다. 당신이 이 편지를  찾은 장소로 보아 판단하건대, 그는 지구르에 돌아가지 않았다.)[/i] ]], "_t")
+그것은 내가 돌아가길 원한다. 자기가 시작한 것을 끝마치기 위해서 내가 돌아가길 원한다. 안 돼, 안 돼, 안 돼. 나는 이 보고서를 써야만 한다. 지구랏의 동료들에게 전해야 한다. 이걸 보내야만 한다, 난... 난... 난 돌아가야만 한다 내가 돌아가길 원한다 나ㄴ-나-는 [i](불규칙적이고 완전히 앞뒤가 안 맞는 일련의 낙서들만 이어집니다. 당신이 이 글을 찾아낸 장소를 생각하면, 그는 지구르로 돌아가지 못했을 것입니다.)[/i] ]], "_t")
 t("entropic void", "엔트로피의 공허", "_t")
 t([[It's cold. Terribly cold. The unreality around you seems to be draining you slowly, making your body lock up and your limbs go stiff. There is entropy at work here, but you can see small patches of light defiantly standing out against the darkness. The warm glow infuses you with vigour, driving away the terrible cold. There must be an antropic force at work here, the only thing which can defeat entropy. You can plainly see that it is fighting a losing battle.
 
-As you get your bearings, you can sense that there is something in here with you. Its presence looms over this entire void, filling you with a primordial sense of dread. The battle that will be fought here will be unlike any you have been through. And perhaps it will be your last.]], [[이곳은 춥다, 지독하게 춥다. 주위의 비현실이 서서히 당신을 고갈시키며 몸을 굳게 만들고 팔다리를 뻣뻣하게 만드는 것 같다. 이곳에선 엔트로피가 작용하고 있지만, 어둠에 반항적으로 서 있는 작은 빛의 조각들을 볼 수 있다. 따뜻한 광채가 무서운 추위를 몰아내면서 당신에게 활기를 불어넣는다. 이곳에는 엔트로피를 물리칠 수 있는 유일한 것,  반-엔트로피적 힘이 작용하고 있을 것이다. 당신은 그것이 이미 패배한 싸움을 하고 있음을 볼 수 있다.
+As you get your bearings, you can sense that there is something in here with you. Its presence looms over this entire void, filling you with a primordial sense of dread. The battle that will be fought here will be unlike any you have been through. And perhaps it will be your last.]], [[이곳은 춥다. 지독하게 춥다. 주위의 비현실이 서서히 당신의 힘을 앗아가면서 몸을 굳게 만들고 팔다리를 뻣뻣하게 만드는 것 같다. 이곳에선 엔트로피가 작용하고 있지만, 주변의 어둠에 맞서고 있는 작은 빛의 조각들을 볼 수 있다. 따뜻한 광채가 지독한 추위를 몰아내면서 당신에게 활기를 불어넣어 준다. 이곳에는 유일하게 엔트로피를 물리칠 수 있는 반-엔트로피적 힘이 작용하고 있는 것이 틀림없다. 당신은 그것이 승산이 없는 싸움을 벌이고 있음을 볼 수 있다.
 
-A자세를 잡으니 무언가가 이곳에 당신과 함께 있다는 걸 느낄 수 있다. 그것의 존재는 이 공허 전체에 어렴풋이 나타나며, 당신을 원초적인 공포감으로 가득 채운다. 여기서 펼쳐질 전투는 당신이 겪은 그 어떤 전투와도 다를 것이다. 그리고 아마 이게 당신의 마지막이 될 것이다.]], "_t")
+자세를 바로잡자 이곳에 당신 말고도 다른 무언가가 있다는 걸 느낄 수 있다. 그것의 존재감이 이 공허 전체에 어렴풋이 떠오르면서, 원초적인 공포가 머릿속을 가득 채워나간다. 여기서 펼쳐질 전투는 당신이 이제껏 겪어왔던 그 어떤 것과도 다를 것이다. 그리고 그 전투가 당신의 마지막이 될지도 모른다.]], "_t")
 t("hypostasis of entropy", "엔트로피의 위격", "_t")
 t("A towering manifestation of entropy stands before you. You feel tiny.", "거대한 엔트로피의 현현이 눈앞에 있다. 당신은 자신이 한없이 작게 느껴진다.", "_t")
 t("a new threat (1)", "새로운 위협 (1)", "_t")
@@ -2537,7 +2537,7 @@ With that in mind, my only option is to kill it from the inside. Dunno how I'm g
 그걸 염두에 두고 내 유일한 선택은 안에서부터 이놈을 죽이는 거야. 내가 어떻게 해야 할지는 모르겠지만.]], "_t")
 t("godflesh", "신의 살점", "_t")
 t("This strange, rubbery substance appears to be the flesh of some unknown creature. Small sparks of antropic power surge from it at times, filling you with incredible vitality. You suspect that it was part of the Maggot's last meal before it transformed into the monstrosity that swallowed you.", "이 이상하고 고무같은 물질은 어떤 미지의 생물의 살점처럼 보인다. 때때로 이것으로부터 반-엔트로피적인 힘의 작은 불꽃이 튀어올라, 믿을 수 없는 생명력으로 당신을 가득 채운다. 당신은 그것이 당신을 삼킨 구더기가 괴물로 변하기 전 행한 마지막 식사의 흔적이지 않나 의심한다.", "_t")
-t("the egress (1)", "출입로 (1)", "_t")
+t("the egress (1)", "출로 (1)", "_t")
 t([[Being an adventurer is supposed to be fun. You know, get out there, kill a couple monsters, grab some loot, spend all the loot money you made and repeat. There's always something new out there to plunder, if you get in there before everyone else. But sometimes, people like to lock their loot behind dumb puzzles. Like this one. I've been sitting here just trying different combinations in this thing. All day, all night, different combinations. The way this stupid thing works doesn't make any sense at all! Most people who make puzzles like these usually leave some hints, but I've got nothing to work with!
 
 So, my approach has been to just keep trying different combinations until something eventually works. I'll record the combination down in this journal and then give it a tick or a cross. That way I can keep track of what works and what doesn't. There had better be an amazing reward for all this work...
@@ -2549,7 +2549,7 @@ So, my approach has been to just keep trying different combinations until someth
 
 #{italic}#(리스트는 맨 아래에 있는 마지막 것을 제외하고 모든 조합 옆에 십자가만 있는 것으로 보인다. 놀랍게도 옆에 체크 표시도 십자가도 없다. 시험해 볼 기회가 없었던 건 아닐까?)#{normal}#
 %s]], "tformat")
-t("the egress (2)", "출입로 (2)", "_t")
+t("the egress (2)", "출로 (2)", "_t")
 t("Some puzzle this is! I finally enter the right combination and it dumps me in some forsaken corner of the world! I don't even know what to make of my surroundings, they're utterly bizarre! Why did this have to happen to me? I was supposed to be the one who got in first and got the treasure... Now look at me! I've wandered all over this place, but I can't find any exit! It's like this entire place is conspiring to keep me trapped here!", "이게 대체 무슨 퍼즐이지!? 내가 마침내 올바른 조합을 찾아냈고 그게 나를 세상의 어떤 외딴 구석에 던져버리다니! 주변 환경을 봐도 뭐가 뭔지도 모르겠어, 정말 기괴한 것들이 가득해, 왜 나한테 이런 일이 일어난거지? 내가 제일 먼저 들어가서 보물을 얻는 사람이어야 했는데... 이곳 저곳을 돌아다녔는데 출구를 찾을 수조차 없다니. 마치 이 모든 곳이 날 여기 갇히게 하려고 음모를 꾸미는 것 같다.", "_t")
 t("the truth beyond the veil (1)", "장막 너머의 진실 (1)", "_t")
 t([[Thought is treasure. Treasure thoughts. Spin fates, tell tales, words of gods, smith into fables. All that is can be rewritten and all writing is defined by what is. Cascades upon cascades which blend into reality, ever altering, ever changing, ever being, ever ceasing.
