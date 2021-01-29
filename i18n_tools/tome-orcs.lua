@@ -4062,7 +4062,7 @@ t("#ORCHID#%s summons a %s...", "#ORCHID#%s %s 소환한다...", "saySimple", ni
 t("The Dead God wishes to tickle you...", "죽은 신은 널 간지럽히고 싶어 해...", "_t")
 t("Curse of Amakthel", "아마크텔의 저주", "talent name")
 t([[Create a circle of cursed ground (radius %d) for %d turns. Any foes inside will be cursed, all new negative effects on them will have their duration doubled.
-		]], [[반경 %d 칸의 저주의 마법진을 %d 턴 동안 세겨넣습니다. 내부의 모든 적은 저주 받아, 새로 받는 부정적 효과의 지속 시간이 2 배로 연장됩니다.
+		]], [[반경 %d 칸의 저주의 마법진을 %d 턴 동안 새겨넣습니다. 내부의 모든 적은 저주 받아, 새로 받는 부정적 효과의 지속 시간이 2 배로 연장됩니다.
 		]], "tformat")
 t("Temporal Ripples", "시간의 파문", "talent name")
 t([[Creates a circle of radius %d of altered time for %d turns. Any damage your foes take while standing in it will heal the attacker for 200%% of the damage dealt.
@@ -5977,7 +5977,7 @@ t([[Set up some cunning contingency plans in case of death.
 		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[만에 하나, 죽게 될 때를 위한 계획을 세워둡니다.
 		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게 됩니다. 캐릭터는 구울이나 스켈레톤 종족 중 하나를 선택하여 해당 종족으로 다시 부활합니다.
 		이 특수 기술로 소생할 시, 종족 기술을 유지한 채로, 구울과 스켈레톤의 종족 기술을 배울 수 있게 됩니다. 모든 스켈레톤, 구울 기술은 2 점씩 투자가 된 상태입니다.
-		언데드는 주입물을 사용하지 못하기 때문에, 세겨져있던 주입물들이 사라지게 됩니다.
+		언데드는 주입물을 사용하지 못하기 때문에, 새겨져있던 주입물들이 사라지게 됩니다.
 		만일 스켈레톤을 선택한 경우, 재구성 기술을 배워도 부활은 불가능 합니다.]], "tformat")
 t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때마다, 증기 공학 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 1 턴 단축시킵니다.", "_t")
 
