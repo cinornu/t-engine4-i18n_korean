@@ -2722,7 +2722,7 @@ section "tome-cults/data/talents/demented/controlled-horrors.lua"
 t("Decayed Devourers", "부패의 포식귀", "talent name")
 t("Not enough space to invoke your horror!", "공포를 불러내기엔 너무 좁다!", "logPlayer")
 t("decaying devourer", "부패하는 포식귀", "_t")
-t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "머리가 없는 둥근 생명체로, 짧은 다리와 팔을 갖고 있습니다. 몸 전체가 이빨로만 이루어저 있는 것 같습니다.", "_t")
+t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "머리가 없는 둥근 생명체로, 짧은 다리와 팔을 갖고 있습니다. 몸 전체가 이빨로만 이루어져 있는 것 같습니다.", "_t")
 t("Summon", "소환", "_t")
 t([[You use your bond with horrors to summon three decaying devourers for %d turns.
 The decaying horrors cannot move and will attack all hostile creatures around them. They possess the talents Bloodbath, Gnashing Teeth and Frenzied Bite.
@@ -3968,7 +3968,7 @@ t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shie
 t("The Amalgamation", "융합체", "entity name")
 t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "무로부터 생명을 창조하는 것은 쉬운일은 아닙니다. 눈알이 여러 개라던가, 팔다리가 너무 많이 붙는다던가, 뇌가 없다던가, 몸에 너무 많다던가 하는 등 잘못 될 수 있는 요소들이 너무나 많습니다. 그런 잘못된 육신들이 하나로 융합되어, 뼈와 고깃덩이가 분노로 맥동합니다. 이... 생명체의 거대한 몸집에도 불구하고, 당신과 이 괴물 사이의 간격이 순식간에 좁혀집니다.", "_t")
 t("and absorbed into the foul thing", "그리고 그 시체는 흡수되어 그 일부가 되었습니다.", "_t")
-t("#CRIMSON#As %s takes an other blow you see part of it split into a drem!", "#CRIMSON#%s 공격을 받자, 일부분이 드렘이 되어 떨어저 나갔다!", "logSeen", nil, {"가"})
+t("#CRIMSON#As %s takes an other blow you see part of it split into a drem!", "#CRIMSON#%s 공격을 받자, 일부분이 드렘이 되어 떨어져 나갔다!", "logSeen", nil, {"가"})
 
 ------------------------------------------------
 section "tome-cults/data/zones/dremshor-tunnel/objects.lua"
