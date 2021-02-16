@@ -424,7 +424,7 @@ You #{italic}#dare#{normal}# carry her ring around like a trophy! I can feel it 
 #{italic}#감히#{normal}# 그녀의 반지를 트로피처럼 들고 다녀?! 네가 갖고 있다는 걸 알 수 있다. 그걸 내놔라! 죽어라!!]], "_t")
 t("Oh you liked that paladin lady? I loved killing her!", "오, 그 기사 아가씨를 좋아했나? 그년을 죽이는 건 참 즐거웠다!", "_t")
 t("She left me no choice; I had to protect #{bold}#my#{normal}# people.", "선택의 여지가 없었다. #{bold}#내#{normal}# 동포들을 보호해야 했단 말이다.", "_t")
-t("Whatever.", "그럭저럭.", "_t")
+t("Whatever.", "덤벼라.", "_t")
 t("What?", "뭐라고?", "_t")
 
 ------------------------------------------------
@@ -498,7 +498,7 @@ t("[listen]", "[듣는다]", "_t")
 t("The rest of us have fled, hiding in caverns across the peninsula...  I cannot in good conscience ask you to face certain death before his magic for our sakes, but striking first may be the only way to save your people.  He appears to be stalling the invasion, buying you some time, but if you cannot catch him off-guard before he finally commits to it...  I've seen his power cut through a mountain like it was a leaf, soft-foot.  There can be no victory against that kind of magic.  Run, hide, and hope he falls victim to an accident or loses the remaining fragments of his sanity that keep him capable of casting spells.", "추종자가 되지 않은 나머지들은 도망쳤고, 반도의 동굴에 숨었다... 우리를 위해 네크토쉬의 마법에, 확실한 죽음에 맞서 달라고 부탁하려니 양심의 가책이 느껴지지만, 먼저 공격하는 것만이 그대의 동포들을 구할 유일한 방법일 것이다. 놈은 지금 공격을 미루고 있는 것 같아 급박하진 않지만, 만약에 너무 늦어서 놈을 막지 못하게 된다면... 부드러운 발을 가진 자여, 난 놈이 자신의 힘으로 산 하나를 나뭇잎처럼 갈라 버리는 것을 보았다. 그런 종류의 마법에 정면으로 맞서서는 이길 수 없다. 피하고, 숨어서, 놈이 사고를 당하거나 완전히 이성을 잃어서 마법을 쓰지 못하게 되길 기도하라.", "_t")
 t("I will check it out", "확인해 보도록 하지.", "_t")
 t("We of the Krimbul Clan have faced our near-certain deaths all too many times, even after our hearts stopped beating; this is the first time we have been shown the kindness of utter salvation by an outsider.  Those who were not enthralled by Nektosh and are not delusionally faithful to his \"cause\" will reclaim the Mana Caves in time; until then, we will join your Pride in your revolution.  You have liberated us, and we will not rest until you are freed of your oppressors as well.", "우리 크림불 혈족은 우리의 심장이 멈춘 이후에도 엄청난 위기를 수없이 겪어 왔었다. 하지만 외부인에 의해 완전히 구원받는 정도의 친절은 이번이 처음이군. 네크토쉬에게 지배당하지 않은 자들과 놈의 \"대의\" 를 맹신하지 않은 자들은 마나 동굴을 재건해낼 것이다. 그 때까지, 우린 그대의 긍지와 뜻을 같이 하여 혁명에 동참하겠다. 그대가 우릴 해방해 주었으니, 우린 그대들이 억압으로부터 해방될 때까지 쉬지 않으리라.", "_t")
-t("Thanks.", "감사합니다.", "_t")
+t("Thanks.", "고맙군.", "_t")
 t("Hail, @playername@!", "@playername@!", "_t")
 t("Our is free Metash, the tyrant is no more.", "우린 이제 자유다, 메타쉬. 폭군은 사라졌어.", "_t")
 t([[I came here to warn the Kruk Pride of the threat Nektosh poses and ask for their help, but they have some more immediate threats to deal with...  We should help them repel these Steam Giants.  They are the only people who have ever treated us with respect and dignity; if they are crushed by the Atmos Tribe or the Allied Kingdoms, we will surely be next.  Their success is our survival.
@@ -507,7 +507,7 @@ Unfortunately, they cannot afford to spare the warriors to retake the Mana Caves
 
 안타깝게도 그들은 폭군을 몰아내기 위해 마나 동굴로 보낼 만한 전사를 차출할 여력이 없고, 난 그들이 영토를 지킬 수 있도록 여기서 도와야 한다. 우리 혈족을 자유롭게 할 수 있는 건 오직 그대 뿐이다. 그대가 충분히 준비가 되었다면.]], "_t")
 t("Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "네크토쉬는 자신이 무적이며 전능한 유니콘의 후손이라고 주장한다만, 난 그딴 헛소리를 단 1초도 진지하게 믿은 적이 없다. 놈이 깨우친 굉장한 마법의 힘은 정신이 아찔해질 정도로 공포스럽긴 하지만, 놈은 아직까지 그 힘으로 보호막을 만들거나 순간이동을 하거나 한 적이 없고, 그 광선마저 항상 조준이 완벽한 것도 아니었다... 내 생각엔 놈은 약점이 있고, 그걸 숨기고 있다. 용맹하게 맞서라, 화이트후프 동포여. 그리하면 크림불 혈족은 다시 자유롭게 되리라!", "_t")
-t("I will!", "알겠어!", "_t")
+t("I will!", "그렇게 하지!", "_t")
 t([[He...  he found a wand?  And he realized it was running dry, but only after taking over the tribe?  I pity him, but I cannot forgive him for being willing to sacrifice so many Whitehooves and Orcs to escape the consequences of his brief lapse into madness...  still, as a personal request I ask that you not tell others of his last thoughts.  The Nektosh we once knew saved our tribe from the corrupted magic deep under Eyal; he deserves to, at worst, be remembered as one who tragically succumbed to its influence.
 
 Ultimately, though, the choice is yours; it is more important that he is no longer a threat.  There are some who may still cling to the false hope he gave them, but we will retake the Mana Caves from them in time.  We owe you a great debt, and now that we have no more pressing concerns, we can aid Kruk Pride in their rebellion.  Good travels, @playername@.]], [[놈이... 마법봉을 찾아냈었다고? 그리고 부족을 접수한 다음에야 그게 고갈되어 가고 있었다는 걸 알아차렸다고? 불쌍하긴 하지만, 놈은 잠깐 광기에 빠졌던 것의 결과로부터 도망치기 위해서, 수많은 화이트후프들과 오크들을 희생시키려 들었다... 용서할 수는 없다. 그래도 개인적으로 부탁하건대, 다른 이들에게는 놈의 마지막 계획을 알리지 말아다오. 우리가 예전에 알고 있던 네크토쉬는 에이알 깊은 곳의 오염된 마법으로부터 우릴 구해낸 영웅이었다. 최소한, 그 마법의 영향을 받아서 타락한 안타까운 자 정도로는 기억될 만한 자격이 있다.
