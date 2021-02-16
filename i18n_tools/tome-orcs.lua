@@ -317,7 +317,7 @@ section "tome-orcs/data/chats/destructicus-lead.lua"
 t([[#LIGHT_GREEN#*Several loyal Orcs are eagerly waiting outside the palace to meet you; one steps forward, handing you a set of keys.  The word 'DESTRUCTICUS' is etched into one.*#WHITE#
 Chief @playername@!  The Giants are fleeing, and we intercepted a scout carrying this!  We believe they can be used with...  well, you should see for yourself!  Please, come with us to the mountains just south of Kruk Pride!
 #LIGHT_GREEN#*This sounds important.  You should probably head there right away!*#WHITE#]], [[#LIGHT_GREEN#*몇몇 친위대 오크들이 궁전 밖에서 당신을 간절하게 기다리고 있었습니다. 그 중 하나가 앞으로 걸어나와 당신에게 열쇠 꾸러미를 주었습니다. 열쇠 중 하나에 '데스트럭티쿠스' 라고 새겨져 있는 게 보입니다.*#WHITE#
-@playername@ 족장님!  거인들이 도망치고 있고, 이걸 정찰병에게서 빼앗았습니다! 이걸로 쓸 수 있는 건 아마... 음, 직접 보시는 게 나을 겁니다! 크룩 긍지 바로 남쪽의 산으로 와 주십시오!
+@playername@ 족장님!  거인들이 도망치고 있고, 이걸 정찰병에게서 빼앗았습니다! 이걸로 쓸 수 있는 건 아마... 음, 직접 보시는 게 나을 겁니다! 부디 저희와 함께 크룩 긍지 바로 남쪽의 산으로 가 주십시오!
 #LIGHT_GREEN#*이건 중요한 이야기 같습니다. 곧바로 가 보는 게 좋겠습니다!*#WHITE#]], "_t")
 t("Lead the way.", "앞장서라.", "_t")
 
@@ -361,7 +361,7 @@ A nagging thought in the back of your head insists that you now know how the Sun
  
 증기 거인족은 이제 없습니다.
  
-탄두에서 2차 폭발이 일어나 불타는 잔해들이 바다로 떨어졌고, 이 광경은 바르'에이알에 사는 모든 오크들과, 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - "이것이 바로 오크들을 멸종시키려 했던 자들의 최후이고, 지난 수천년 간 이어졌던 박해, 학살, 그리고 괴롭힘은 이제 끝났다". 당신의 동포들은 두 번 다시는 억압받지 않을 겁니다.
+탄두에서 2차 폭발이 일어나 불타는 잔해들이 바다로 떨어졌고, 이 광경은 바르'에이알에 사는 모든 오크들과, 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - "이것이 바로 오크들을 멸종시키려 했던 자들의 최후이고, 지난 수천 년간 이어졌던 박해, 학살, 그리고 괴롭힘은 이제 끝났다". 당신의 동포들은 두 번 다시는 억압받지 않을 겁니다.
  
 이제 태양의 기사들이, 토크놀 국왕이, 하플링들이, 그리고 오크들에게 그런 끔찍한 짓을 저질러 왔던 자들이 어떤 기분이었는지 알 것 같다고, 의식의 뒷편에서 어떤 목소리가 끊임없이 주절거립니다. 무슨 소릴 하든 상관 없습니다 - 동포들이 마침내 안전해졌으니까요.*#WHITE#]], "_t")
 t("[leave]", "[떠난다]", "_t")
@@ -526,7 +526,7 @@ section "tome-orcs/data/chats/shertul-priest.lua"
 
 t([[#LIGHT_GREEN#*Before you stands a tentaculous horror which you recognize for what it truly is. A living #{bold}#Sher'Tul#{normal}#!.*#WHITE#
 Who are you, young creature, to stand up to a High Priest of Amakthel? Do you not know that you are before a servant of the Almighty Creator, the Sunfather, the God of Gods, Lord of all Eyal? In the millenia I have lived I have killed whole races like yourself. I have even wrenched the spirits of immortal gods from this world. So who are you, little one, who dare defy me?]], [[#LIGHT_GREEN#*눈앞에 촉수 달린 공포가 있습니다. 당신은 그게 무엇인지 알 수 있습니다. 살아 있는 #{bold}#쉐르'툴#{normal}#입니다!*#WHITE#
-아마크텔의 고위 사제 앞에 서 있는 넌 대체 무엇인가, 어린 생명이여? 지금 전능한 창조자이자 태양의 아버지이며 신 중의 신, 그리고 온 에이알의 주인이신 분의 시종 앞에 서 있다는 것을 모르는 건가? 난 수천년간 살아 오며 너 같은 종족들을 수도 없이 절멸시켜 왔고, 불멸하는 신들의 영혼조차 이 세계에서 추방했다. 그래서 넌 무엇인가, 왜소한 자여? 대체 무엇이길래 감히 내게 맞서는 것인가?]], "_t")
+아마크텔의 고위 사제 앞에 서 있는 넌 대체 무엇인가, 어린 생명이여? 지금 전능한 창조자이자 태양의 아버지이며 신 중의 신, 그리고 온 에이알의 주인이신 분의 시종 앞에 서 있다는 것을 모르는 건가? 난 수천 년간 살아 오며 너 같은 종족들을 수도 없이 절멸시켜 왔고, 불멸하는 신들의 영혼조차 이 세계에서 추방했다. 그래서 넌 무엇인가, 왜소한 자여? 대체 무엇이길래 감히 내게 맞서는 것인가?]], "_t")
 t("I... am %s, of the seed of Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "난... %s, 포식자 가르쿨의 후예다. 가르쿨은 우리에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 가르쿨의 혼이 내 안에서 타오르고 있으니. 그리고 가르쿨의 이름으로, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
 t("I... am %s, though I lack my original body my mind is bound to Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "난... %s, 비록 원래 몸을 잃었을지라도, 내 정신은 포식자 가르쿨과 함께한다. 가르쿨은 우리에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 가르쿨의 혼이 내 안에서 타오르고 있으니. 그리고 가르쿨의 이름으로, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
 t("I... am %s and I am not mortal! Garkul taught the orcs to fight legends, and to flinch not from even the most desperate deed. We learned that from them! Here and now I face you without fear or hesitation, for cold touch of undeath is within me. And I will #{bold}#break#{normal}# you!", "난... %s. 난 필멸자가 아니다! 가르쿨은 오크들에게 전설에게 맞서는 법을, 그리고 가장 절망적인 상황에서도 두려워하지 않는 법을 가르쳐 주었다. 우린 그들에게서 그것을 배웠다! 난 지금 일말의 두려움도, 망설임도 없이 널 마주한다. 차가운 불사의 손길이 내 안에 있으니. 그러니 지금부터, 널 #{bold}#박살#{normal}#내 주마!!", "tformat")
@@ -1067,7 +1067,7 @@ t("#Source# psychically dominates #target# through %s %s!", "#Source1# %s %s 통
 t("Ureslak's Focus", "우르슬락의 집중", "entity name")
 t("multi-hued", "다색", "entity subtype")
 t("crystallized drake heart", "결정화된 용족의 심장", "_t")
-t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슬락의 시체에서 떨어저 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정중에 그의 심장이 강렬한 빛을 발하는 수정으로 변한 것 같습니다.", "_t")
+t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슬락의 시체에서 떨어져 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정중에 그의 심장이 강렬한 빛을 발하는 수정으로 변한 것 같습니다.", "_t")
 t("Starcaller", "별부르미", "entity name")
 t("black staff", "검은 지팡이", "_t")
 t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "스트랄라이트와 보석으로 세공된 빛의 지팡이입니다. 한 낮에서도 별빛을 비추는 것 같습니다.", "_t")
@@ -1649,7 +1649,7 @@ t("Accurately? Less so.", "정확하게라? 그거보다는 좀 덜한데.", "_t
 t("You move 3 spaces at once.", "한 번에 3 칸을 이동합니다.", "_t")
 t("Band of Protection", "보호의 띠", "entity name")
 t("reinforced belt", "강화된 허리띠", "_t")
-t("This belt utilizes an enchanted gem to focus a burst of steam into a powerful barrier.", "이 허리띠는 마법에 걸린 보석을 집중삼아, 뿜어저나오는 증기를 튼튼한 방어벽으로 만듭니다.", "_t")
+t("This belt utilizes an enchanted gem to focus a burst of steam into a powerful barrier.", "이 허리띠는 마법에 걸린 보석을 집중삼아, 뿜어져나오는 증기를 튼튼한 방어벽으로 만듭니다.", "_t")
 t("generate a personal shield that absorbs up to %d damage and damages attackers striking the wearer for %d fire damage while it lasts (based on Cunning)", "개인 보호막을 만들어 최대 %d 피해를 흡수하고, 공격자에게 보복 공격을 가해 %d 화염 피해를 입힙니다 (교활에 비례)", "tformat")
 t("%s summons a barrier of steam from %s %s!", "%s %s %s 증기의 방벽을 형성했다!", "logSeen", nil, {"는",[3]="으로"})
 t("Viletooth", "사악한 이빨", "entity name")
@@ -2027,7 +2027,7 @@ Even if you have no fear of the orcish tribes, ritch swarms, and other assorted 
 칼토르의!
 화기, 갑옷, 그 외 전투 장비들!
  
-슬픈 소식을 전해드려야 해서 가슴이 매우 아픕니다. 저는 지난 20년 간 양질의 물건들을 제공해 왔지만, 이제 문을 닫아야겠습니다 - 아트모스 부족의 여러분들은 도시의 치안을 위해서 경비병들이 질 좋은 장비를 사용하길 바라고 있으시겠지만, 그 경비병들은 #{italic}#끝내주는 자동 장전식 오크 퇴치기#{normal}# (겨우 30 골드!) 나 #{italic}#압력 강화식 방검 전투 슈트#{normal}# (고작 450 골드!) 같은 걸 사는 것보다 자신들의 원래 장비를 그대로 사용하는 편을 선택한 것 같습니다. 저는 #{italic}#꼬마 서프라이즈#{normal}# (이젠 겨우 15 골드!) 같은 수준의 할인마저 제안해 보았습니다만, 제 물건은 어떤 것도 채용되지 않았습니다. 아마, 제 서비스와 기술이 필요하지 않은 것 뿐이겠지요.
+슬픈 소식을 전해드려야 해서 가슴이 매우 아픕니다. 저는 지난 20년간 양질의 물건들을 제공해 왔지만, 이제 문을 닫아야겠습니다 - 아트모스 부족의 여러분들은 도시의 치안을 위해서 경비병들이 질 좋은 장비를 사용하길 바라고 있으시겠지만, 그 경비병들은 #{italic}#끝내주는 자동 장전식 오크 퇴치기#{normal}# (겨우 30 골드!) 나 #{italic}#압력 강화식 방검 전투 슈트#{normal}# (고작 450 골드!) 같은 걸 사는 것보다 자신들의 원래 장비를 그대로 사용하는 편을 선택한 것 같습니다. 저는 #{italic}#꼬마 서프라이즈#{normal}# (이젠 겨우 15 골드!) 같은 수준의 할인마저 제안해 보았습니다만, 제 물건은 어떤 것도 채용되지 않았습니다. 아마, 제 서비스와 기술이 필요하지 않은 것 뿐이겠지요.
  
 오크 부족들이나 릿치 떼거지들, 그리고 우리 도시의 경계 바로 바깥에 도사리고 있는 온갖 위험들이 전혀 두렵지 않으시더라도, 부디 제 물건들을 구입하는 것을 재고해 주십시오. 제 물건들은 그야말로 아름답기 그지없는 장인 정신의 결정체이니, 책상 장식이나 (위험한 부분을 제거해야겠지만) 아이들 장난감으로도 유용할 겁니다. 그런 용도로도 필요가 없으신 분들도, 한때 훌륭한 작품으로 굉장한 사랑과 존경을 받던 자랑스러운 무기 장인이 길거리에서 구걸까지 할 필요는 없다는 걸 아실 겁니다.]], "_t")
 t("ornately-painted poster", "화려한 그림이 그려진 포스터", "_t")
@@ -3083,7 +3083,7 @@ PS: If you wouldn't mind doing me a personal favor, please destroy any written a
 
 ---
 
-이 숲에선 대규모의 생태학적인 재앙이 발생하고 있습니다.  제가 아는 한에선, (전 멘더의 일원이고, 별다른 [i]근거[/i]도 없이 이런 소릴 하는 건 아닙니다) 에이알은 이런 감염에 맞서 싸우려 하고 있고, 그 감염은 거의 모든 것을 집어삼키려 하고 있습니다. 이 지역의 나무 정령들에게 무차별적인 공격성이 생긴 걸 고려하면 지금 감염 측이 이기고 있다고 추측할 수 있습니다. 너무 많이 우세하진 않았으면 좋겠습니다만. 그리고 그 힘의 대부분은 지금 거대한 나무 꼭대기에 집중되어서 결정체들로 변하고 있습니다.  가능한 경우가 두 가지인데, 최선의 경우엔 지금 에이알이 그 나무의 가시 같은 역할을 해서 그것들을 밀어낸 거고, 그렇다면 그 수정체들을 박살내면 문제 해결입니다. 최악의 경우엔 그 나무는 이미 뿌리까지 침식된 상태인 거고, 이러면 그 결정체들은 그 나무의 포자 격이라 볼 수 있겠고 그것들은 머지않아 나무에서 내려와 사방으로 퍼져나갈 겁니다.  전 그 수정체들을 박살내려고 여기 왔습니다만, 나무 정령들까지 저한테 달려들 거라곤 상상도 못 했습니다. 그러니 지금 누가 이걸 읽고 있다면, 축하드립니다!  이제 이 일은 당신이 맡게 되었습니다.
+이 숲에선 대규모의 생태학적인 재앙이 발생하고 있습니다.  제가 아는 한에선, (전 멘더의 일원이고, 별다른 [i]근거[/i]도 없이 이런 소릴 하는 건 아닙니다) 에이알은 이런 감염에 맞서 싸우려 하고 있고, 그 감염은 거의 모든 것을 집어삼키려 하고 있습니다. 이 지역의 나무 정령들에게 무차별적인 공격성이 생긴 걸 고려하면 지금 감염 측이 이기고 있다고 추측할 수 있습니다. 너무 많이 우세하진 않았으면 좋겠습니다만. 그리고 그 힘의 대부분은 지금 거대한 나무 꼭대기에 집중되어서 결정체들로 변하고 있습니다.  가능한 경우가 두 가지인데, 최선의 경우엔 지금 에이알이 그 나무의 가시 같은 역할을 해서 그것들을 밀어낸 거고, 그렇다면 그 결정체들을 박살내면 문제 해결입니다. 최악의 경우엔 그 나무는 이미 뿌리까지 침식된 상태인 거고, 이러면 그 결정체들은 그 나무의 포자 격이라 볼 수 있겠고 그것들은 머지않아 나무에서 내려와 사방으로 퍼져나갈 겁니다.  전 그 결정체들을 박살내려고 여기 왔습니다만, 나무 정령들까지 저한테 달려들 거라곤 상상도 못 했습니다. 그러니 지금 누가 이걸 읽고 있다면, 축하드립니다!  이제 이 일은 당신이 맡게 되었습니다.
 
 충고 같은 건 없냐고요?  차원문을 타고 샤툴로 가서 도움을 요청하십쇼.  전 그런 짓을 못합니다. 왜냐면 제가 통행증 없이 바르'에이알에 갔었다는 걸 자백하게 되는 꼴이니까요 (당신도 트롤들이 치어블로섬에 돈을 얼마나 꼬라박고 있는지 알게 되면 절 욕하지 못할 겁니다).  장담하건대, 그쪽 사람들은 저보다 훨씬 더 실력이 좋고 이 일에 헌신적일 겁니다. 그 사람들이 팀으로 움직인다면 말입니다만. 그 사람들이 힘을 합하면, 이 감염을 통제할 수 있을 것이고 그것 때문에 생긴 상처들도 치유할 수 있을 겁니다.  만약 이걸 당신 혼자 처리하려 한다면, 아마 그 나무에 도착하기도 전에 나무 정령들한테 갈가리 찢기게 될 겁니다.  당신이 마즈'에이알의 영웅이나 살아 움직이는 가르쿨의 시체가 아닌 이상, 그건 제 무덤 파는 짓이라고요.  그러니까 전문가들을 부르십쇼.
 
@@ -3093,7 +3093,7 @@ PS: If you wouldn't mind doing me a personal favor, please destroy any written a
 
 -지금 문제가 되는 것들은 살아 움직이는 마법의 수정 결정체들입니다. 이전에 번뜩이는 동굴에서 보고된 것들과 같은 종류죠.  그것들이 정확히 어떻게 형성됐는가는 아직까지도 불분명하지만, 마법폭발이 일으킨 엄청난 황폐의 힘이랑 관련이 있다고 봐도 별 문제는 없을 것 같네요. 그것의 후폭풍이 아직도 우리가 예상했던 것 이상으로 심각하다는 증거입니다.  미칠듯한 회피 능력이 없으면, 온갖 종류의 강력한 마법이 날아올 테니 각오하십쇼. 그것들은 순간이동을 자주 하지만 다행스럽게도 그 외엔 움직이질 못합니다.  한 놈이 근처로 순간이동했다면 엄폐하든지, 아니면 다시 순간이동하기 전에 깨부숴 버리십쇼.
 
--이걸 그냥 놔두면 끔찍한 재앙으로 돌아올 겁니다.  가령 그 거대한 나무 위의 결정체들이 이 행성이 감염을 몰아냈다는 신호라 할지라도, 결정체들은 그냥 나무에서 내려와서, 스스로를 땅에다 묻어버리고, 다시 한 번 에이알에 고통을 가할 겁니다.  그리고 만약에 에이알이 패배하고 있는 거라면...  진짜 이런 소리 하기도 역하지만, 샬로레 방화광 놈들이 드디어 그 기나긴 인생 동안 처음으로 뭔가 도움이 되는 일을 할 수가 있을 겁니다. 그들은 이 지역 전체를 뿌리 끝까지 불태워 버릴 수 있겠죠.  물론, 태양을 날려버리지 않고 그럴 방법을 찾아내야겠지만.
+-이걸 그냥 놔두면 끔찍한 재앙으로 돌아올 겁니다.  설령 그 거대한 나무 위의 결정체들이 이 행성이 감염을 몰아냈다는 신호라 할지라도, 결정체들은 그냥 나무에서 내려와서, 스스로를 땅에다 묻어버리고, 다시 한 번 에이알에 고통을 가할 겁니다.  그리고 만약에 에이알이 패배하고 있는 거라면...  진짜 이런 소리 하기도 역하지만, 샬로레 방화광 놈들이 드디어 그 기나긴 인생 동안 처음으로 뭔가 도움이 되는 일을 할 수가 있을 겁니다. 그놈들은 이 지역 전체를 뿌리 끝까지 불태워 버릴 수 있겠죠.  물론, 태양을 날려버리지 않고 그럴 방법을 찾아내야겠지만.
 
 행운을 빕니다. 또, 제가 못한 일을 해 주셔서 감사드립니다.  제가 이 일을 맡을 수 없는 이유들이 있긴 하지만, 제가 겁쟁이라서 못하는 거라고 생각해 주시는 게 아마 서로를 위해 제일 나을 겁니다.  그게 아주 틀린 말도 아니니까요.
 
@@ -3215,7 +3215,7 @@ t("a journal (2)", "일지 (2)", "_t")
 t([[Great #CRIMSON#AMAKTHEL#LAST#, forgive me, for I could not prevent the actions of my brethren.  I tried.  We tried.  When they spoke of committing the Great Sin, we argued ferociously, until Caldizar and his apostates did it before we could react in time.  We did our best to avenge this foul deed, and used the Magic of Creativity on as many as we could, blessing them with new forms, and blessing ourselves such that we could do battle with their fortresses; alas, it was nonetheless a war we eventually lost, for what chance did we have against weaponry, power, and mercilessness to which even You fell?  Please, Your Brilliance, understand that we did everything we could.  
 
 Our planet lay in ruins, with even the apostates abandoning Eyal for other worlds.  Every one of Your followers fought to our deaths...  except me, coward that I was in those days.  Now, I am all that remains, along with the apostates we blessed with Your magic.  I will not beg for Your forgiveness; as an inventor You are concerned with results over words, and I will prove to You that my moment of weakness will soon have a wondrous result.  With the sinful apostates gone, You will have the time to secure this world for Yourself, purging the creations of the lesser gods...  and preparing to exact justice on the sinners when they return.  
-]], [[위대하신 #CRIMSON#아마크텔#LAST#이시여, 동포들을 막지 못한 저를 용서하시옵소서.  저는 노력했나이다.  저희는 노력했나이다.  제 동포들이 그 거대한 죄를 범하는 이야기를 할 때, 저희는 그것에 대하여 격렬한 언쟁을 벌였나이다. 하지만 칼디자르와 놈을 따르는 변절자들은 저희가 대응하기 전에 죄를 저질러 버렸나이다.  저희는 그 역겨운 행위를 응징하기 위하여 최선을 다했고, 창조의 마법을 가능한 한 많은 이들에게 사용하여 그들을 새로운 모습으로 축복하였으며 저희 역시 그 축복을 받아 변절자들의 요새들과 전투를 벌였나이다. 아아, 그렇지만 저희는 결국 그 전쟁에서 패배하였나이다. 당신마저 쓰러뜨린 무기와 힘, 그리고 그 잔혹함에 저희가 어찌 맞설 수 있겠사옵니까?  간곡히 부탁드리옵니다, 눈부신 분이시여, 저희가 최선을 다했다는 것을 이해하여 주시옵소서.  
+]], [[위대하신 #CRIMSON#아마크텔#LAST#이시여, 동포들을 막지 못한 저를 용서하시옵소서.  저는 노력했나이다.  저희는 노력했나이다.  제 동포들이 그 크나큰 죄악을 범하는 이야기를 할 때, 저희는 그것에 대하여 격렬한 언쟁을 벌였나이다. 하지만 칼디자르와 놈을 따르는 변절자들은 저희가 대응하기 전에 죄를 저질러 버렸나이다.  저희는 그 역겨운 행위를 응징하기 위하여 최선을 다했고, 창조의 마법을 가능한 한 많은 이들에게 사용하여 그들을 새로운 모습으로 축복하였으며 저희 역시 그 축복을 받아 변절자들의 요새들과 전투를 벌였나이다. 아아, 그렇지만 저희는 결국 그 전쟁에서 패배하였나이다. 당신마저 쓰러뜨린 무기와 힘, 그리고 그 잔혹함에 저희가 어찌 맞설 수 있겠사옵니까?  간곡히 부탁드리옵니다, 눈부신 분이시여, 저희가 최선을 다했다는 것을 이해하여 주시옵소서.  
 
 저희의 행성은 폐허가 되었고, 그 변절자들마저 에이알을 버리고 다른 세상으로 떠났나이다.  당신을 따르던 자들은, 그 당시 겁쟁이였던 저를 제외하면 모두 마지막까지 싸워 죽음을 맞이하였나이다...  이제 남은 것은 저와, 저희가 당신의 마법으로 축복을 내렸던 변절자들 뿐이옵나이다.  당신께 용서를 구하진 않겠나이다. 창조자로서, 당신께선 말보다 결과를 중히 여기시는 분이시고, 그러므로 저는 제가 나약했던 그 순간이 머지않아 불러일으킬 놀라운 결과를 당신께 보여드리겠나이다.  죄 많은 변절자들이 사라졌으매, 당신께서 이 세계를 다시금 취하실 때가 도래할 것이옵나이다. 다른 하등한 신들의 피조물들을 정화하시고... 죄를 지은 자들이 돌아왔을 때 정당한 심판을 내릴 준비를 하실 때 말이옵니다.  
 ]], "_t")
@@ -3339,7 +3339,7 @@ I'll spare you the speech about insubordination, lying, and bypassing the chain 
 
 -Outpost Leader John]], [[트렐레,
 
-우리의 안전을 위한 자네의 헌신과 그 의도는 인정하겠네. 그게 내가 자네의 편지를 곧바로 아에린에게 넘기지 않은 유일한 이유일세.  이 조약이 우리에게 어떤 이점을 가져다주는지 전혀 모르고 있는 건가?  자네는 우리가 장차 몇십 년 간 긍지의 잔당들이 다시 뭉쳐서, 낮게 잡아도 커다란 위협이 되는 것을, 톨락 왕의 도움 없이 막을 수 있다고 생각하나?  설령 내가 오크들에게 구원의 기회를 주자는 아에린의 의견에 동의하지 않는다 할지라도, 이 조약은 정말 [i]엄청난[/i] 지원을 보장한다네. 작년까지만 해도 대륙을 활보하며 마법사들을 사적으로 응징하는 패거리들을 용인하고 있던 나라의 도움을 말일세.
+우리의 안전을 위한 자네의 헌신과 그 의도는 인정하겠네. 그게 내가 자네의 편지를 곧바로 아에린에게 넘기지 않은 유일한 이유일세.  이 조약이 우리에게 어떤 이점을 가져다주는지 전혀 모르고 있는 건가?  자네는 우리가 장차 몇십 년간 긍지의 잔당들이 다시 뭉쳐서, 낮게 잡아도 커다란 위협이 되는 것을, 톨락 왕의 도움 없이 막을 수 있다고 생각하나?  설령 내가 오크들에게 구원의 기회를 주자는 아에린의 의견에 동의하지 않는다 할지라도, 이 조약은 정말 [i]엄청난[/i] 지원을 보장한다네. 작년까지만 해도 대륙을 활보하며 마법사들을 사적으로 응징하는 패거리들을 용인하고 있던 나라의 도움을 말일세.
 
 자네의 명령 불복종이나 허위 보고, 지휘 계통 무시 시도 등을 문책하지는 않겠네. 그 이유는 1. 자네는 엄밀히 말해 나에게 이런 죄를 저지르자고 요청 "만" 했을 뿐이고, 2. 난 자네가 자신의 잘못을 잘 알고 있을 것이라 [i]굳게 믿고 있고[/i], 그런 자를 문책하려고 장문의 편지를 쓰는 것 말고도 할 일이 많기 때문이네.  그 대신에, 확실하게 말해 두겠네. 두 번 다시는 이런 걸 보낼 생각도 하지 말게.  자네가 보냈던 편지는 내가 보관하고 있다가, 만약에 자네가 의심스러운 무력 사용에 연루된다면, 그 편지를 증거로 제출하겠네.  자네에겐 실망했네.
 
@@ -3629,7 +3629,7 @@ t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed
 t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "인간과 엘프, 그리고 하플링들은 당신의 동포들을 두 번 다시 해치지 못할 것입니다. 당신은 장거리 차원문을 파괴하고 톨락 국왕의 군사들과 영광스러운 전투를 치르는 것을 거부함으로써 왕국연합으로부터 동포들의 안전을 확보했습니다. 또한 아침의 문을 기습하여, 증오를 품은 채로 바르'에이알에 남아 있던 서방의 자들을 모두 제거하였습니다.", "_t")
 t("For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "최소한 지금은, 평화가 찾아왔습니다. 이게 영원하진 않을 것이라는 걸 당신도 잘 알고 있습니다. 카르'하이브 자치령의 선봉대를 물리치긴 했지만 그들은 여전히 약점을 노리며 적절한 때를 기다리고 있을 것이고, 마즈'에이알에서 온 밀수꾼들의 장거리 차원문도 찾아내지 못한 상태이며, 당신이나 톨락 왕이나 상대방의 대륙을 정복하려는 생각은 없지만 그럼에도 침공해 올 수도 있다는 두려움이 여전히 당신의 뇌리에 남아 있을 것입니다.", "_t")
 t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "  잃어버린 도시에서 받은 메시지들은 그들이 경고했던 존재들, 그리고 경고한 본인들에 대한 경계심을 바짝 키웠습니다. 또한 당신은 이제 절멸의 위기에서 벗어나려 발버둥 칠 필요가 없어진 동포들이 무엇을 하게 될지 궁금해졌습니다. 당신의 종족은 유사 이래로 투쟁만을 위해 살아왔지만, 이제 그걸 걱정할 필요가 없어졌으니 말입니다.", "_t")
-t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "아무튼... 당신은 방금 신을 죽였고, 당신의 동포들에게 수천년의 역사 동안 처음으로 편안하게 쉴 기회를 준 겁니다. 오늘은 꽤나 멋진 날이네요.", "_t")
+t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "아무튼... 당신은 방금 신을 죽였고, 당신의 동포들에게 수천 년의 역사 동안 처음으로 편안하게 쉴 기회를 준 겁니다. 오늘은 꽤나 멋진 날이네요.", "_t")
 t("You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "계속해서 플레이해, 이 세계의 나머지 부분을 즐길 수도 있습니다. 당신의 부하들이 밖에서 이야기 좀 하자고 하네요...", "_t")
 -- untranslated text
 --[==[
@@ -4062,7 +4062,7 @@ t("#ORCHID#%s summons a %s...", "#ORCHID#%s %s 소환한다...", "saySimple", ni
 t("The Dead God wishes to tickle you...", "죽은 신은 널 간지럽히고 싶어 해...", "_t")
 t("Curse of Amakthel", "아마크텔의 저주", "talent name")
 t([[Create a circle of cursed ground (radius %d) for %d turns. Any foes inside will be cursed, all new negative effects on them will have their duration doubled.
-		]], [[반경 %d 칸의 저주의 마법진을 %d 턴 동안 세겨넣습니다. 내부의 모든 적은 저주 받아, 새로 받는 부정적 효과의 지속 시간이 2 배로 연장됩니다.
+		]], [[반경 %d 칸의 저주의 마법진을 %d 턴 동안 새겨넣습니다. 내부의 모든 적은 저주 받아, 새로 받는 부정적 효과의 지속 시간이 2 배로 연장됩니다.
 		]], "tformat")
 t("Temporal Ripples", "시간의 파문", "talent name")
 t([[Creates a circle of radius %d of altered time for %d turns. Any damage your foes take while standing in it will heal the attacker for 200%% of the damage dealt.
@@ -5217,12 +5217,12 @@ section "tome-orcs/data/talents/steam/inscriptions.lua"
 t("\
 Its effects scale with your %s stat.", "\
 이 효과는 %s 능력치에 비례하여 증가합니다.", "tformat")
-t("Implant: Steam Generator", "이식물 : 증기 발생기", "talent name")
+t("Implant: Steam Generator", "이식물: 증기 발생기", "talent name")
 t([[Steam generator that permanently creates %0.1f steam per turn.
 		Can be activated for an instant burst of %d steam.]], [[매 턴 %0.1f 증기를 생성합니다.
 		활성화하면, 증기를 급격하게 생성해, 증기를 %d 회복합니다.]], "tformat")
 t("steam %d", "증기 %d", "tformat")
-t("Implant: Medical Injector", "이식물 : 의료용 주사기", "talent name")
+t("Implant: Medical Injector", "이식물: 의료용 주사기", "talent name")
 t("#LIGHT_BLUE#Medical injector selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 해당 주사기가 먼저 사용됩니다.", "saySimple")
 t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
 t("Medical injector allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "의료용 주사기는 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있게 해줍니다.", "tformat")
@@ -5977,7 +5977,7 @@ t([[Set up some cunning contingency plans in case of death.
 		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[만에 하나, 죽게 될 때를 위한 계획을 세워둡니다.
 		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게 됩니다. 캐릭터는 구울이나 스켈레톤 종족 중 하나를 선택하여 해당 종족으로 다시 부활합니다.
 		이 특수 기술로 소생할 시, 종족 기술을 유지한 채로, 구울과 스켈레톤의 종족 기술을 배울 수 있게 됩니다. 모든 스켈레톤, 구울 기술은 2 점씩 투자가 된 상태입니다.
-		언데드는 주입물을 사용하지 못하기 때문에, 세겨져있던 주입물들이 사라지게 됩니다.
+		언데드는 주입물을 사용하지 못하기 때문에, 새겨져있던 주입물들이 사라지게 됩니다.
 		만일 스켈레톤을 선택한 경우, 재구성 기술을 배워도 부활은 불가능 합니다.]], "tformat")
 t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때마다, 증기 공학 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 1 턴 단축시킵니다.", "_t")
 
@@ -6737,7 +6737,7 @@ t("quartz", "석영", "_t")
 t("ruby", "루비", "_t")
 t("diamond", "다이아몬드", "_t")
 t("Toxic Cannister Launcher", "독가스 탄 발사기", "_t")
-t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "이 포탄 발사기로 친구를 놀래켜 보세요! 손만 살짝 흔들어도 맹독 구름이 뿜어저 나옵니다! #{italic}#죽여주는군요!#{normal}#", "_t")
+t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "이 포탄 발사기로 친구를 놀래켜 보세요! 손만 살짝 흔들어도 맹독 구름이 뿜어져 나옵니다! #{italic}#죽여주는군요!#{normal}#", "_t")
 t("Viral Needlegun", "바이러스 바늘총", "_t")
 t("Blight is not dirty to a Tinker, it is useful! By combining blighted materials with a simple mechanical gun, you can fire a low damaging attack that infects foes with terrible diseases.", "바이러스는 발명가에게는 더러운 녀석이 아니죠, 꽤 쓸만합니다! 황폐 속성을 가진 물질들과 간단한 기계 총, 여러분은 적들에게 끔찍한 질병을 퍼뜨리는 조그마한 바늘 공격을 발사할 수 있습니다.", "_t")
 t("Razor Edge", "면도날", "_t")
@@ -7821,7 +7821,7 @@ For the Pride, for Garkul's legacy !
 ]], [[어서 오십시오, #LIGHT_GREEN#@name@#WHITE#.
 당신은 긍지높지만 쇠퇴하고 있는 오크 종족의 일원이었습니다.
 
-지난 수천년 간 당신의 종족은 다른 이들로부터 증오를 받아 왔고, 사냥당했으며, 무자비하게 살해당했습니다. 그들은 또한 수많은 잔혹 행위와 파괴를 자행했습니다.
+지난 수천 년간 당신의 종족은 다른 이들로부터 증오를 받아 왔고, 사냥당했으며, 무자비하게 살해당했습니다. 그들은 또한 수많은 잔혹 행위와 파괴를 자행했습니다.
 하지만 지금, 오크 종족은 절멸의 위기에 처해 있습니다. 바르'에이알에 있던 요새들은 모두 태양의 장벽, 또는 오크들이 #{italic}#서쪽에서 온 재앙#{normal}#이라 부르는 자의 손에 파괴되었습니다.
 본토에 있던 네 개의 긍지들은 사라졌습니다. 그들은 모두 패배했으며 극소수의 인원들만이 도망칠 수 있었습니다.
 
@@ -7856,7 +7856,7 @@ For the orcs, for Garkul's legacy !
 ]], [[어서 오십시오, #LIGHT_GREEN#@name@#WHITE#.
 당신은 긍지높지만 쇠퇴하고 있는 오크 종족의 일원입니다.
 
-지난 수천년 간 당신의 종족은 다른 이들로부터 증오를 받아 왔고, 사냥당했으며, 무자비하게 살해당했습니다. 그들은 또한 수많은 잔혹 행위와 파괴를 자행했습니다.
+지난 수천 년간 당신의 종족은 다른 이들로부터 증오를 받아 왔고, 사냥당했으며, 무자비하게 살해당했습니다. 그들은 또한 수많은 잔혹 행위와 파괴를 자행했습니다.
 하지만 지금, 오크 종족은 절멸의 위기에 처해 있습니다. 바르'에이알에 있던 요새들은 모두 태양의 장벽, 또는 오크들이 #{italic}#서쪽에서 온 재앙#{normal}#이라 부르는 자의 손에 파괴되었습니다.
 본토에 있던 네 개의 긍지들은 사라졌습니다. 그들은 모두 패배했으며 극소수의 인원들만이 도망칠 수 있었습니다.
 

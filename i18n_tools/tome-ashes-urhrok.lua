@@ -171,7 +171,7 @@ t("Black fires born of a blackened heart.", "검게 탄 심장에서 검은 화�
 t("All enemies in radius 2 take 20 fire damage each turn and healing you for 10% of the damage dealt.", "반경 2 칸 내의 모든 적이 매 턴 20 화염 피해를 받고, 피해량의 10% 가 착용자의 생명력으로 흡수됩니다.", "_t")
 t("Plague-Fire Sceptre", "역병 화염 홀", "entity name")
 t("darkness infused staff", "어둠이 주입된 지팡이", "_t")
-t("The flames of Mal'Rok can be more stubborn than most. When they run out of fuel they have been known go out of their way to find more.", "말'록의 화염은 보통 사람들보다 집요합니다. 화염의 연료가 떨어저가면, 말'록의 화염은 스스로 움직여 연료를 찾는다고 알려져 있습니다.", "_t")
+t("The flames of Mal'Rok can be more stubborn than most. When they run out of fuel they have been known go out of their way to find more.", "말'록의 화염은 보통 사람들보다 집요합니다. 화염의 연료가 떨어져가면, 말'록의 화염은 스스로 움직여 연료를 찾는다고 알려져 있습니다.", "_t")
 t("Plaguefire detonates when its victim dies, spreading to other enemies up to two times.", "희생자가 죽을 때 역병 화염이 터져 나와 근처의 적에게 퍼집니다. 이 효과는 최대 2 번 일어납니다.", "_t")
 t("fire a bolt of plaguefire, dealing damage over time based on your magic stat", "역병 화염의 화살을 발사해, 착용자의 마법 능력치에 비례한 지속 피해를 줍니다.", "_t")
 t("Dethblyd", "주금칼랄", "entity name")
