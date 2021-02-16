@@ -1,37 +1,28 @@
-"Cooldown" 은 대기 시간으로. "cooldown"이 재사용 대기 시간
+section "mod-tome/data/general/events/naga-portal.lua"
+section "mod-tome/data/general/events/fearscape-portal.lua"
+t("Quit", "출구", "_t")
 
-"game/engines/default/modules/boot/class/Game.lua"
-t("Quit", "종료", "_t")
-
-"game/modules/tome/data/quests/lumberjack-cursed.lua"
+section "mod-tome/data/quests/lumberjack-cursed.lua"
 t("all", "모두", "_t")
 
-"game/engines/default/engine/interface/ActorTalents.lua"
-"game/modules/tome/class/Game.lua"
-"game/modules/tome/class/interface/PartyDeath.lua"
+section "engine/engine/interface/ActorTalents.lua"
+section "mod-tome/class/Game.lua"
+section "mod-tome/class/interface/PartyDeath.lua"
 t("unknown", "알 수 없는 대상", "_t")
 
-section "game/modules/tome/data/chats/last-hope-lost-merchant.lua"
+section "mod-tome/data/chats/shertul-fortress-butler.lua"
+section "mod-tome/data/chats/last-hope-lost-merchant.lua"
 t("Thanks.", "고마워.", "_t")
 
-section "game/modules/tome/data/chats/last-hope-melinda-father.lua"
+section "mod-tome/data/chats/last-hope-melinda-father.lua"
+section "mod-tome/data/chats/zemekkys.lua"
+section "mod-tome/data/chats/gates-of-morning-main.lua"
+section "mod-tome/data/chats/gates-of-morning-welcome.lua"
 t("Sorry, I have to go!", "죄송합니다, 가 볼게요!", "_t")
 
-section "game/modules/tome/data/chats/shertul-fortress-butler.lua"
-t("Thanks.", "고마워.", "_t")
-
-section "game/modules/tome/data/chats/zemekkys.lua"
-t("Sorry, I have to go!", "죄송합니다, 가 볼게요!", "_t")
-
-section "game/modules/tome/data/chats/gates-of-morning-main.lua"
-t("Sorry, I have to go!", "죄송합니다, 가 볼게요!", "_t")
-
-section "game/modules/tome/data/chats/gates-of-morning-welcome.lua"
-t("Sorry, I have to go!", "죄송합니다, 가 볼게요!", "_t")
-
-section "game/dlcs/tome-orcs/data/chats/john-worldmap.lua"
+section "tome-orcs/data/chats/john-worldmap.lua"
 t("Whatever.", "덤벼라.", "_t")
 
-section "game/dlcs/tome-orcs/data/chats/metash.lua"
+section "tome-orcs/data/chats/metash.lua"
 t("I will!", "그렇게 하지!", "_t")
 t("Thanks.", "고맙군.", "_t")
