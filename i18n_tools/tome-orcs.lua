@@ -20,7 +20,7 @@ t("Tricked Nektosh into killing one of his own people.", "네크토쉬가 자신
 t("We weren't kidding!", "장난 친 거 아니야!", "achievement name")
 t("Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "속박되지도, 기절하지도, 잠들지도, 혼절하지도, 혼란스럽지도 않은 상태에서 네크토쉬의 광선을 맞고 죽었다.", "_t")
 t("Make Him Squirm", "수치플레이", "achievement name")
-t("Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "네크토쉬가 힘을 다 쓰게 만든 다음에, 지역을 떠나서 그를 놔 둔 채로 게임에서 승리했다. 다른 화이트후프들이 잘 정리해주겠지 뭐...", "_t")
+t("Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "네크토쉬가 힘을 다 쓰게 만든 다음에, 지역을 떠나서 그를 놔둔 채로 게임에서 승리했다. 다른 화이트후프들이 잘 정리해주겠지 뭐...", "_t")
 t("True Savior", "진정한 구원자", "achievement name")
 t("Freed all the Orc Prides without killing a single mind-controlled orc.", "정신 지배 상태의 오크를 단 한 명도 죽이지 않고 모든 오크 긍지를 해방했다.", "_t")
 t("Mender", "멘더", "achievement name")

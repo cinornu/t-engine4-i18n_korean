@@ -334,7 +334,7 @@ section "engine/engine/Game.lua"
 
 t("Screenshot taken!", "스크린샷 촬영됨!", "_t")
 t([[Screenshot should appear in your Steam client's #LIGHT_GREEN#Screenshots Library#LAST#.
-Also available on disk: %s]], [[스크린샷이 스팀 클라이언트의 #LIGHT_GREEN#스크린샷 라이브러리#LAST#에 저장되었습니다.
+Also available on disk: %s]], [[스크린샷이 Steam 클라이언트의 #LIGHT_GREEN#스크린샷 라이브러리#LAST#에 저장되었습니다.
 저장 경로: %s]], "tformat")
 t("File: %s", "파일: %s", "tformat")
 
@@ -813,7 +813,7 @@ t("Text", "회상", "_t")
 ------------------------------------------------
 section "engine/engine/dialogs/SteamOptions.lua"
 
-t("Steam Options", "스팀 설정", "_t")
+t("Steam Options", "Steam 설정", "_t")
 t([[Enable Steam Cloud saves.
 Your saves will be put on steam cloud and always be available everywhere.
 Disable if you have bandwidth limitations.#WHITE#]], [[Steam 클라우드 저장을 활성화합니다.
@@ -1068,7 +1068,7 @@ t("Price", "가격", "_t")
 t("Qty", "구매량", "_t")
 t("Online Store", "온라인 상점", "_t")
 t("You need to be logged in before using the store. Please go back to the main menu and login.", "상점을 이용하시려면 로그인하셔야 합니다. 메인 메뉴로 돌아가서 로그인해주시기 바랍니다.", "_t")
-t("Steam users need to link their profiles to their steam account. This is very easy in just a few clicks. Once this is done, simply restart the game.", "스팀 유저는 프로필을 스팀 계정과 연동하셔야 합니다. 클릭 몇 번으로 끝나는 쉬운 절차입니다. 연동하셨다면 게임을 재시작해 주시기 바랍니다.", "_t")
+t("Steam users need to link their profiles to their steam account. This is very easy in just a few clicks. Once this is done, simply restart the game.", "Steam 유저는 프로필을 Steam 계정과 연동하셔야 합니다. 클릭 몇 번으로 끝나는 쉬운 절차입니다. 연동하셨다면 게임을 재시작해 주시기 바랍니다.", "_t")
 t("Let's do it! (Opens in your browser)", "연동하기 (인터넷 브라우저로 열림)", "_t")
 t("Not now", "나중에", "_t")
 t("The Online Store (and expansions) are only purchasable by players that bought the game. Plaese go have a look at the donation page for more explanations.", "온라인 상점(그리고 확장팩)은 이 게임을 구입하신 분만 이용하실 수 있습니다. 자세한 설명을 원하신다면 기부 페이지를 확인해 주세요.", "_t")
@@ -1093,9 +1093,9 @@ t("Payment", "구매", "_t")
 t([[Payment accepted.
 %s]], [[결제가 완료되었습니다.
 %s]], "tformat")
-t("Connecting to Steam", "스팀에 접속 중", "_t")
-t("Steam Overlay should appear, if it does not please make sure it you have not disabled it.", "스팀 오버레이가 나타납니다. 나타나지 않는다면 해당 기능을 켜져있는지 확인해 주시기 바랍니다.", "_t")
-t("Finalizing transaction with Steam servers...", "스팀 서버를 통해 구매를 확정 중입니다...", "_t")
+t("Connecting to Steam", "Steam에 접속 중", "_t")
+t("Steam Overlay should appear, if it does not please make sure it you have not disabled it.", "Steam 오버레이가 나타납니다. 나타나지 않는다면 해당 기능을 켜져있는지 확인해 주시기 바랍니다.", "_t")
+t("Finalizing transaction with Steam servers...", "Steam 서버를 통해 구매를 확정 중입니다...", "_t")
 t("Payment refused, you have not been billed.", "구매에 실패했습니다. 결제되지 않았습니다.", "_t")
 t("Connecting to server", "서버에 접속 중", "_t")
 t("Please wait...", "기다려 주세요...", "_t")
@@ -1704,7 +1704,7 @@ Requires addons: %s
 
 %s]], "tformat")
 t("You can simply grab an older version of the game from where you downloaded it.", "게임을 다운로드한 곳에서 이전 버전을 가지고 오셔도 됩니다.", "_t")
-t("You can downgrade the version by selecting it in the Steam's \"Beta\" properties of the game.", "스팀에서 이 게임의 \"Beta\" 항목을 조작하는 것으로 게임을 다운그레이드할 수 있습니다.", "_t")
+t("You can downgrade the version by selecting it in the Steam's \"Beta\" properties of the game.", "Steam에서 이 게임의 \"Beta\" 항목을 조작하는 것으로 게임을 다운그레이드할 수 있습니다.", "_t")
 t("Original game version not found", "원래 게임 버전을 찾을 수 없습니다", "_t")
 t([[This savefile was created with game version %s. You can try loading it with the current version if you wish but it is recommended you play it with the old version to ensure compatibility
 %s]], [[이 세이브 파일은 다음 게임 버전에서 작성되었습니다: %s. 현재 버전에서 실행하실 수도 있지만 권장하지는 않으며 가급적이면 이전 버전에서 로드하시는 것을 추천드립니다.
@@ -1812,7 +1812,7 @@ t("Login", "로그인", "_t")
 t("Register", "가입", "_t")
 t("Username: ", "유저명: ", "_t")
 t("Password: ", "비밀번호: ", "_t")
-t("Login with Steam", "스팀으로 로그인", "_t")
+t("Login with Steam", "Steam으로 로그인", "_t")
 t("#GOLD#Online Profile#WHITE#", "#GOLD#온라인 프로필#WHITE#", "_t")
 t("#LIGHT_BLUE##{underline}#Logout", "#LIGHT_BLUE##{underline}#로그아웃", "_t")
 t("Username", "유저명", "_t")
