@@ -171,7 +171,7 @@ section "tome-cults/data/chats/fanged-collar.lua"
 
 t("#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "#{italic}##GREY#무시무시한 망각의 어둠이 자신을 덮치는 게 느껴집니다. 하지만 어쩐 일인지, 어둠이 주변을 완전히 감싼 게 아니었습니다. 지금 여기에 뭔가 다른 존재가 함께 있습니다. 그것은 당신을 돕고 싶어하는 것 같은 느낌이 들었습니다. 두말할 필요 없이, 그것은 모두 잘 되게 해줄 것이고 당신이 이 운명을 벗어나도록 도울 수 있을 것입니다. 그냥, 알겠다고 하기만 하면 됩니다.#{normal}#", "_t")
 t("Silently you agree. You want to live!", "말없이 동의한다. 난 살고 싶다!", "_t")
-t("Silently you refuse, the presence creeps you out too much.", "말없이 거절한다, 이 존재는 너무 소름끼친다.", "_t")
+t("Silently you refuse, the presence creeps you out too much.", "말없이 거절한다. 이 존재는 너무 소름끼친다.", "_t")
 t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has respected your decision. It allows you to find the peace that only death can give.#{normal}#", "#{italic}##GREY#그 존재는 슬프게 돌아섰지만, 그게 당신의 결정을 존중해 준다는 느낌이 들었습니다. 그것은 죽음만이 줄 수 있는 평화를 누릴 수 있게 해 주었습니다.#{normal}#", "_t")
 t("[die]", "[죽는다]", "_t")
 t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#당신은 죽고 싶지 않습니다. 더 생각할 것도 없이, 그 존재의 제안을 받아들였습니다. 기쁘게도, 그 존재는... 뭔가를 하기 시작했습니다. 의식이 깨어나기 시작하고, 자신의 생명이 사지로 돌아오는 것이 느껴졌습니다. 하지만, 깨지는 듯한 두통이 느껴지고 목 쪽의 고통도 잦아들질 않습니다. 당신을 죽음에서 건져내기 위해 그 존재는 무엇을 한 걸까요?#{normal}#", "_t")
@@ -555,7 +555,7 @@ section "tome-cults/data/general/npcs/corrupted_blobs.lua"
 
 t("vermin", "해충", "entity type")
 t("blob", "부정형", "entity subtype")
-t("Ewwww.", "어으..", "_t")
+t("Ewwww.", "어으...", "_t")
 t("corrupted plasmic disruptor", "타락한 방해성 혈장 세포", "entity name")
 t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 초록 점액을 내뿜고 있습니다.", "_t")
 t("corrupted mastocytic feeder", "타락한 포식성 면역 세포", "entity name")
@@ -575,7 +575,7 @@ section "tome-cults/data/general/npcs/horror-special.lua"
 t("horror", "공포", "entity type")
 t("eldritch", "섬뜩한 자", "entity subtype")
 t("The One That Hunts", "사냥하는 자", "entity name")
-t("The relentless hunter. It never gives up, never surrenders.", "끈질긴 사냥꾼. 포기하지 않고, 항복하는 일 없으리라.", "_t")
+t("The relentless hunter. It never gives up, never surrenders.", "끈질긴 사냥꾼입니다. 사냥감을 결코 포기하지 않으며 굴복하지도 않습니다.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror.lua"

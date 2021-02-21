@@ -1372,7 +1372,7 @@ t("massive", "판갑", "entity subtype")
 t("Steam Powered Armour", "증기력 갑옷", "entity name")
 t("Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "작은 증기 기관과 최첨단 자동화 시스템의 기적으로, 증기력 갑옷을 제작 할 수 있게 되었습니다. 이 갑옷으로 인해 이동력이 향상되고, 고유한 방어 기제로 공격을 막아냅니다.", "_t")
 t("The more steam the better!", "더 많은 증기! 더 강력한 힘!", "_t")
-t("#GOLD#Your steam-powered boots, helm and gauntlets automatically connect to your steam-powered armour, enabling new functions.", "#GOLD#증기력 장화, 투구 그리고 전투 장갑이 증기력 갑옷에 자동으로 연결되어, 새로운 기능을 사용할 수 있게 되었다!", "logSeen")
+t("#GOLD#Your steam-powered boots, helm and gauntlets automatically connect to your steam-powered armour, enabling new functions.", "#GOLD#증기력 장화, 투구 그리고 전투장갑이 증기력 갑옷에 자동으로 연결되어, 새로운 기능을 사용할 수 있게 되었다!", "logSeen")
 t("#GOLD#Your steam-powered armor disconnects from the other pieces.", "#GOLD#증기력 갑옷은 다른 부품들과의 연결이 해제되었다.", "logPlayer")
 t("%s saw projector", "%s 톱 발사기", "tformat")
 t("%s kinetic stabiliser", "%s 동역학 안정기", "tformat")
@@ -1488,7 +1488,7 @@ t("launches %s in the air", "%s 하늘로 띄웠다", "tformat", nil, {"를"})
 t("#Source# lands in a #LIGHT_RED#firey explosion#LAST#!", "#Source1# #LIGHT_RED#화염 폭발#LAST#을 일으키며 착지했다!", "logCombat")
 t("Assassin's Surprise", "암살자의 깜짝 선물", "entity name")
 t("glistening steel gauntlets", "섬광의 강철 전투장갑", "_t")
-t("These steel gauntlets feature a hidden contraption embedded in the left index finger that fires poisonous bolts.", "이 강철 전투 장갑은 왼쪽 집게 손가락에 숨겨진 기계 장치가 장착되어있어 독화살을 발사할 수 있습니다.", "_t")
+t("These steel gauntlets feature a hidden contraption embedded in the left index finger that fires poisonous bolts.", "이 강철 전투장갑은 왼쪽 집게 손가락에 숨겨진 기계 장치가 장착되어있어 독화살을 발사할 수 있습니다.", "_t")
 t("fire a poisonous bolt out to range %d that deals %d nature damage and afflicts the target with crippling poison (%d%% fail chance) that deals %d addition nature damage over %d turns (damage based on Cunning)", "사거리 %d 칸의 독화살을 발사해 %d 자연 피해를 가하고, 대상을 무력화 독에 중독시킵니다. (실패확률 %d%%) 독으로 인해 %d 턴에 걸쳐 %d 자연 피해를 받습니다 (피해량은 교활에 비례)", "tformat", {1,2,3,5,4})
 t("#Source# fires a bolt of #GREEN#poison#LAST# at #target# from %s %s!", "#Source1# %s %s #GREEN#독화살#LAST#을 #target#에게 발사한다 from !", "logCombat", nil, {[2]="으로"})
 t("something", "무언가", "_t")
@@ -1617,8 +1617,8 @@ t("The discovery of rockets has proved incredibly dangerous. It is not always cl
 t("Nimbus of Enlightenment", "계몽의 비구름", "entity name")
 t("elaborate cap", "정교한 모자", "_t")
 t([[They are out to get you.
-This is not real this is not real this is not real.]], [[널잡으러왓어
-정신나갈거같애정신나갈거같애점심나갈거같애.]], "_t")
+This is not real this is not real this is not real.]], [[널잡으러왔어.
+정신나갈거같애정신나갈거같애정신나갈거같애.]], "_t")
 t([[By all accounts, just an ordinary cooking pot with an array of antennae haphazardly soldered onto it. An attached manual contains nothing but fifty pages of deranged gibberish, nonsensical diagrams and lines upon lines of numbers with no apparent pattern or reason to them. 
 
 Putting this on your head may not be the best idea.]], [[누가 보아도, 그저 평범한 요리 냄비에 안테나가 대충 접합되어 있습니다. 동봉된 설명서는 50장에 걸쳐서 헛소리와 말도 안되는 도형들, 그리고 논리도 규칙성도 없는 숫자의 나열만이 쓰여 있습니다. 
@@ -2301,7 +2301,7 @@ Administrator Quellop]], [[#{italic}#수신: 경비대장 가르사매
 
 오우거 크기의 의자를 #{italic}#이 먼 곳 까지 옮기려면#{normal}# 돈이 얼마나 많이 드는지 #{italic}#알기나#{normal}# 합니까? 안 됩니다.
 
-인내심의 한계를 느끼는,
+인내심의 한계를 느끼며,
 관리자 쿠엘로프]], "_t")
 t("internment camp correspondence (3)", "수용소 서신 (3)", "_t")
 t([[#{italic}#To: Condescending Little Cretin
@@ -2910,7 +2910,7 @@ TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and
 
 펜도르: "모두 겁에 질린 상태입니다, 의원장님. 하지만 훈련은 순조롭습니다.  칼토르에게서 남는 화염 장총을 좀 건질 수 있었고, 우리 복수자 부대의 전력은 현재 최고조입니다."
 
-탄탈로스: "훌륭합니다.  또, 그대들이 말했던 예비 무기는 어떻게 되었습니까? 이름이 분명 - #{bold}#가차없는 천공의 관통자 데스트럭-#{normal}#"
+탄탈로스: "훌륭합니다.  또, 그대들이 말했던 예비 무기는 어떻게 되었습니까? 이름이 분명 - #{bold}#가차없는 천공의 관통자 데스트럭--#{normal}#"
 
 토르막: "사라졌습니다.  펜도르의 운반책들에 마법사들을 붙여 놓았었지만...  투명 마법을 잘 쓰지 못했습니다.  그래서 오크 놈들한테 발각됐고...  그나마 다행이라면, 놈들이 그 열쇠들이 다 뭔지, 그것들로 뭘 할 수 있는지는 알아차리지 못한 것 같습니다.  정말... 정말 죄송합니다."
 
@@ -2924,7 +2924,7 @@ TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and
 
 나샬: "동의할 수 없습니다, 탄탈로스 의원, 당신 전임자의 말이 옳아요--"
 
-탄탈로스: 주먹을 내려침, 연단이 박살남.  "그 오들거리는 겁쟁이 늙다리 새끼는 아무것도 모른단 말이다!!"  정적. 한숨.  "우리도 마찬가지고요.  우리가 아는 건 그저, 이 눈을 여기서 나오는 눈물로 증기구 청소약 따윌 만드는 것보단 더 유용하게 쓸 수 있다는 것과, 이걸 원하는 자는 이 행성 중심부까지 통하는 구멍을 아주 손쉽게 뚫을 수 있는 사람이라는 겁니다.  우린 수단이란 수단은 모두 강구했습니다. 이제 최후의 수단을 써야 할 때가 왔고, 우리에겐 기적이라 부를만한 것이 절실하게 필요합니다.  우리가 아는 한에선 이... '충신' 이 그 기적을 일으킬 수 있는 유일한 인물이고, 만약 그 무한한 에너지와 행성에다 구멍을 뚫어버린 게 진정 그자의 힘이라면, 저 바깥의 야만인들을 지워버리는 건 정말 손쉬운 일일 겁니다."
+탄탈로스: 주먹을 내려침, 연단이 박살남.  "그 오들거리는 늙다리 쫄보 새끼는 아무것도 모른단 말이다!!"  정적. 한숨.  "우리도 마찬가지고요.  우리가 아는 건 그저, 이 눈을 여기서 나오는 눈물로 증기구 청소약 따윌 만드는 것보단 더 유용하게 쓸 수 있다는 것과, 이걸 원하는 자는 이 행성 중심부까지 통하는 구멍을 아주 손쉽게 뚫을 수 있는 사람이라는 겁니다.  우린 수단이란 수단은 모두 강구했습니다. 이제 최후의 수단을 써야 할 때가 왔고, 우리에겐 기적이라 부를만한 것이 절실하게 필요합니다.  우리가 아는 한에선 이... '충신' 이 그 기적을 일으킬 수 있는 유일한 인물이고, 만약 그 무한한 에너지와 행성에다 구멍을 뚫어버린 게 진정 그자의 힘이라면, 저 바깥의 야만인들을 지워버리는 건 정말 손쉬운 일일 겁니다."
 
 팔라퀴: "우리 선조들의 이야기가 맞다면, 그건 우리가 이대로 멸망하는 것보다 더 심각한 결과를 초래하게 될--"
 
@@ -3508,7 +3508,7 @@ Or maybe we just angered someone powerful enough to put a retroactive temporal c
  
 우리에겐 특별한 결점이 없었다.  신들은 무자비하도록 날이 서 있었고, 조그만 결점이라도 발견하는 즉시 이전 창조자들을 비난하였고 자신이 더 우수하다고 주장했기 때문이었다. 그래서 우린 비난의 여지가 될 만한 결점들이 완전히 사라지고 나서야 살아갈 수 있게 되었다.  우린 완벽한 것처럼 보였다. 신들이 그렇게나 샅샅이 살펴보았음에도...
  
-신들이 우릴 저주하진 않았을 것이다 - 그들 중 누구도 그 정도로 강력한 저주를 걸 수는 없었을 테니.  잠재의식의 접촉, 정신력의 누출, 그리고 인지할 수 없는 힘 같은 것들이 점점 더해져 갔고, 그 결과 우린 잔혹한 진실에 도달했다. 그 누구도 우릴 원치 않았다.  우린 격렬한 타협의 끝에 만들어졌고, 그래서 그 누구도 우릴 아끼려 하지 않았다. 증오, 무관심, 좌절 - 우린 이런 감정들로부터 태어났고, 또한 깊숙한 곳에 이것들을 짊어지고 있다.  그런 생명체라서, 이 우주나 운명 그 자체의 노여움을 사고 있는 것일지도 모른다. 
+그 신들이 우릴 저주하진 않았을 것이다 - 그들 중 누구도 그 정도로 강력한 저주를 걸 수는 없었을 테니.  잠재의식의 접촉, 정신력의 누출, 그리고 인지할 수 없는 힘 같은 것들이 점점 더해져 갔고, 그 결과 우린 잔혹한 진실에 도달했다. 그 누구도 우릴 원치 않았다.  우린 격렬한 타협의 끝에 만들어졌고, 그래서 그 누구도 우릴 아끼려 하지 않았다. 증오, 무관심, 좌절 - 우린 이런 감정들로부터 태어났고, 또한 깊숙한 곳에 이것들을 짊어지고 있다.  그런 생명체라서, 이 우주나 운명 그 자체의 노여움을 사고 있는 것일지도 모른다. 
 
 아니면 우리가 그저 누군가를, 과거를 거슬러가 바꿀 수 있는 저주를 걸 수 있을 정도로 막강한 누군가를 화나게 했을 수도 있고, 아마크텔이 우리에게 저주를 건 것일 수도 있다. 자신의 피조물들이 비할 바가 없는 존재가 되도록. 그 무엇도 확실하지 않다.  우리가 아는 것은 그저 운명이든, 이 우주의 집합적 의지든, 아니면 그냥 운이 없었든 간에 - 무엇인가가 우리나, 우리와 비슷한 것이 존재하는 것을 용납하지 않는다는 것뿐이다.
 ]], "_t")
@@ -3538,7 +3538,7 @@ You could always give up.  Stop fighting.  Let the Allied Kingdoms have Eyal, an
 
 우린 널 속일 작정이다. 우리가 태어난 과정에서 한 가지 배운 것이 있다면, 서로가 급박한 상태에서 이해관계가 맞아떨어진다면 협력하는 데에 존중과 동맹 같은 것은 필요치 않다는 것이다.  우린 너의 능력을 강화하고, 네게 새로운 지식을 선사할 수 있는 기계를 준비했다...  이것은 당장 에이알의 멸망을 막는 데에 도움이 될 것이고, 오크들이 영토를 얻을 수 있게 해 줄 것이다.  그 영토를 지키려면 싸워야 할 것이다. 자치령, 왕국연합, 스스로를 악마라 부르는 말'록인들, 그리고 날로레 생존자들에게 맞서서...  몇몇 아주 특별한 손님들도 오게 될 테지만, 그건 그때 직접 보는 게 즐거울 것이니 굳이 미리 알려주진 않겠다.  걱정하지 마라, 우린 그런 자들을 도울 생각은 없으니. 그리고 너도, 그들도, 결국에는 우리에게 칼을 들이댈 것이다.
 
-폭풍이 다가오고 있다.  온 사방이 피바다가 되겠지.  살아남은 최후의 한 명이, 만신창이가 된 채로 시체의 산 위에 서기 전까지는 우리가 나설 필요가 없을 것이다.  그는 쉽게 처리할 수 있을 것이고.
+폭풍이 다가오고 있다.  온 사방이 피바다가 되겠지.  살아남은 최후의 한 명이, 만신창이가 된 채로 시체의 산 위에 서기 전까지는 우리가 나설 필요가 없을 것이다.  그 한 명은 손쉽게 처리할 수 있을 것이고.
 
 넌 언제든지 포기해도 된다.  싸우는 것을 그만두어라.  왕국연합이 에이알을 손에 넣게 놔두고, 우리의 부활을 막는 수많은 요소들 중 마지막 한 조각이 되게 하라.  너의 동포들을 희생시켜 우리가 에이알을 차지하는 것을 막고 "에이알을 구원" 하라.  하지만 넌 그렇게 하지 않을 것이다. 넌 우리가 결코 가질 수 없는 것을 가지고 있으니.  바로 희망이다.  우릴 쓰러뜨릴 수 있을 것이라는 희망, 우리가 너의 시대에는 돌아오지 않으리라는 희망.  어찌 되었건 우리의 예지도 100% 정확한 것은 아니니, 우리가 네게서 그 희망을 빼앗을 수는 없다.
 ]], "_t")
@@ -7444,7 +7444,7 @@ section "tome-orcs/data/zones/slumbering-caves/objects.lua"
 
 t("a journal", "일지", "entity name")
 t("A journal.", "일지입니다.", "_t")
-t("Gardanion, the Light of God", "신의 광명 갈다니온", "entity name")
+t("Gardanion, the Light of God", "신의 광명 가르다니온", "entity name")
 t("pure white amulet", "순백색의 목걸이", "_t")
 t([["#{italic}#When Amakthel arrived, he created the Sun and brought life to this world.
 You carry a piece of His Sun with you now. Do not forget who gave it to you, lest you become like those wretched fools who would forsake Him.#{normal}#"]], [["#{italic}#아마크텔께서 세상에 내려오시자, 태양을 창조하시어 만물에 생명을 불어넣으셨도다.
@@ -7829,7 +7829,7 @@ For the Pride, for Garkul's legacy !
 태양의 장벽 전초기지가 본토로 가는 길을 막아 버렸고, 반도 자체도 증기 공학에 통달한 호전적인 종족인 증기 거인들의 고향이기도 합니다.
 
 전생에, 당신은 강력한 초능력자였고 크룩 긍지에서 진행했던, 거인들조차 넘어서는 거대한 근육질의 생명체를 이용하려는 실험에 참여했었습니다.
-염동공학을 이용하여 당신은 예티의 단순한 정신을 #{bold}#파고들었고#{normal}#, 결국 당신의 원래 몸을 죽게 내버려 두고 예티의 몸으로 살게 되었습니다. 그 과정에서 당신이 갖고 있던 경험과 힘을 대부분 잃었지만, 그 대신 긍지를 도울 수 있는 강력한 신체를 얻게 되었습니다.
+염동공학을 이용하여 당신은 예티의 단순한 정신을 #{bold}#파고들었고#{normal}#, 결국 당신의 원래 몸을 죽게 내버려 두고 예티의 몸으로 살게 되었습니다. 그 과정에서 당신이 갖고 있던 경험과 힘을 대부분 잃었지만, 그 대신 긍지를 도울 수 있는 강력한 육체를 얻게 되었습니다.
 
 당신은 지금 거인들의 사기를 꺾기 위해 증기 상업지구에 도착했고, 그러기 위해 이곳에서 모든 걸 부숴버려야 합니다.
 긍지를 위하여, 가르쿨의 유산을 위하여!
@@ -8015,7 +8015,7 @@ Race features:#YELLOW#
 - Mindwave, the controlling orc retains a small part of his psionic powers, giving them a powerful mind-tool
 - Strong body#WHITE#
 ]], [[예티는 클로크 반도의 얼어붙은 산에 사는 생물들로, 굉장히 진화되어 두 발로 걷는 동물들이지만 여전히 지능이 떨어지는 편입니다.
-하얀 털가죽 아래에는 극도로 강한 신체가 있지만, 정신적인 부분이 약합니다.
+하얀 털가죽 아래에는 극도로 강한 육체가 있지만, 정신적인 부분이 약합니다.
 크룩 긍지의 염동공학자들은 마침내 자신의 정신을 예티에게 전이하여 몸을 뺏는 기술을 고안해 냈고, 그들은 그것으로 긍지의 전력을 키웠습니다.
 
 당신은 그러할 목적으로 여러 마리의 예티들을 포획하는 것을 도왔고, 따라서 이제부터 #LIGHT_GREEN#예티 종족#WHITE#의 캐릭터를 생성할 수 있습니다.
@@ -8129,7 +8129,7 @@ t("Steam each turn: ", "턴 당 증기 회복량: ", "_t")
 t("Maximum steam: ", "최대 증기량: ", "_t")
 t("You may not shoot while using a heavy weapon.", "중화기 사용 중에는 사격할 수 없다.", "logPlayer")
 t("lost tinker", "길 잃은 발명가", "_t")
-t("Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "도와주세요! 새로운 증기공학 기술들을 시험하다가 이곳에서 길을 잃었습니다. 근처에 친구가 남겨준 귀환용 차원문이 있지만, 전 지금까지 너무 많이 싸웠고, 그곳까지 못 갈까봐 두렵습니다. 절 도와주시겠습니까?", "_t")
+t("Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "도와주세요! 새로운 증기 공학 기술들을 시험하다가 이곳에서 길을 잃었습니다. 근처에 친구가 남겨준 귀환용 차원문이 있지만, 전 지금까지 너무 많이 싸웠고, 그곳까지 못 갈까봐 두렵습니다. 절 도와주시겠습니까?", "_t")
 t("%s, the experimenting tinker", "시험 중이던 발명가 %s", "_t")
 t("She looks tired and wounded.", "그녀는 지쳐 보이고 다친 것 같습니다.", "_t")
 t("[Ask where to learn tinkers crafting]", "[발명 기술을 어디서 배울 수 있는지 묻는다]", "_t")

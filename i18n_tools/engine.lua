@@ -1868,8 +1868,8 @@ t("Login", "로그인", "_t")
 t("Cancel", "취소", "_t")
 t("Password again: ", "비밀번호 재입력: ", "_t")
 t("Email: ", "이메일: ", "_t")
-t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "중요한 게임 이벤트에 대한 #{bold}#매우 드물게#{normal}# (연간 몇 개) 발송되는 메일 수신 수락.", "_t")
-t("You at least 16 years old, or have parental authorization to play the game.", "이 게임을 플레이 하려면 최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
+t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "#{bold}#매우 드물게#{normal}# (1년에 한두 통 정도) 발송되는 중요한 게임 이벤트에 대한 메일 수신 수락.", "_t")
+t("You at least 16 years old, or have parental authorization to play the game.", "이 게임을 플레이 하려면 최소 16세 이상이거나 보호자의 허락이 있어야 합니다.", "_t")
 t("Create", "제작", "_t")
 t("Privacy Policy (opens in browser)", "개인정보 보호정책 (브라우저로 열기)", "_t")
 t("Password", "비밀번호", "_t")
@@ -1880,7 +1880,7 @@ t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("Email", "이메일", "_t")
 t("Your email seems invalid", "올바르지 않은 이메일 같습니다", "_t")
 t("Age Check", "연령 확인", "_t")
-t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
+t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16세 이상, 또는 보호자의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 
 ------------------------------------------------
 section "engine/modules/boot/dialogs/ProfileSteamRegister.lua"
@@ -1891,12 +1891,12 @@ To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# r
 Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
 ]], [[#GOLD#테일즈 오브 마즈'에이알#LAST#에 어서 오십시오.
 이 게임의 모든 기능을 즐기기 위해서 당신의 Steam 계정을 등록하는 것을 #{bold}#강력#{normal}# 추천합니다.
-정말 다행스럽게도 아주 손쉽게 가능합니다. 프로필에 사용할 닉네임과 부가적으로 이메일 주소만 있으면 됩니다 (저희는 이메일을 거의 보내지 않습니다. 2년에 한 번 보낼까 말까죠).
+정말 다행스럽게도 아주 손쉽게 가능합니다. 프로필에 사용할 닉네임과 부가적으로 이메일 주소만 있으면 됩니다 (저희는 이메일을 거의 보내지 않습니다. 1년에 한두 번 보낼까 말까죠).
 ]], "_t")
 t("Username: ", "유저명: ", "_t")
 t("Email: ", "이메일: ", "_t")
-t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "중요한 게임 이벤트에 대한 #{bold}#매우 드물게#{normal}# (연간 몇 개) 발송되는 메일 수신 수락.", "_t")
-t("You at least 16 years old, or have parental authorization to play the game.", "이 게임을 플레이 하려면 최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
+t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "#{bold}#매우 드물게#{normal}# (1년에 한두 통 정도) 발송되는 중요한 게임 이벤트에 대한 메일 수신 수락.", "_t")
+t("You at least 16 years old, or have parental authorization to play the game.", "이 게임을 플레이 하려면 최소 16세 이상이거나 보호자의 허락이 있어야 합니다.", "_t")
 t("Register", "가입", "_t")
 t("Cancel", "취소", "_t")
 t("Privacy Policy (opens in browser)", "개인정보 보호정책 (브라우저로 열기)", "_t")
@@ -1905,7 +1905,7 @@ t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
 t("Email", "이메일", "_t")
 t("Your email does not look right.", "올바르지 않은 이메일 같습니다.", "_t")
 t("Age Check", "연령 확인", "_t")
-t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16 세 이상, 또는 부모의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
+t("You need to be 16 years old or more or to have parental authorization to play this game.", "최소 16세 이상, 또는 보호자의 허락이 있어야 게임을 플레이 할 수 있습니다.", "_t")
 t("Registering...", "등록 중...", "_t")
 t("Registering on https://te4.org/, please wait...", "https://te4.org/에 등록 중, 기다려 주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
