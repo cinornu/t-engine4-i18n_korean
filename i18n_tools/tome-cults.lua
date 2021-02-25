@@ -1253,7 +1253,7 @@ Soon smiling at me, the messenger began to gesture towards a nearby seat. I wasn
 
 눈앞에 펼쳐진 참담한 광경에 비통함을 느끼며 나는 다른 곳으로 가 보기로 했다. 난 건물들이 모여 있는 쪽으로 가기로 했다. 거리에는 무너진 건물의 잔해가 즐비했고 지붕과 벽들이 무너져 있었다. 무너진 벽과 돌 사이로 어떤 하플링 일가족이 보였다. 거리를 따라 더 걸어가자 술집 간판이 바닥에 나동그라져 있었다. 조금 배고팠던 차라 무언가 먹을 것을 살 수 있길 바라며 간판 옆의 건물로 향했다.
 
-안쪽에는 하플링, 인간, 드워프들이 섞인 채로 여러 탁자에 모여 앉아 있었다. 바깥의 피난민들보다는 조금 더 생기가 있었으며, 노름을 하는 자들도 있었고 대화를 나누고 있는 자들도 있었다. 내가 술집에 들어서자 한 인간이 갑자기 내게 다가와 말을 걸었다. "이봐, 그때 그 탈로레 아닌가? 아, 맞구만 그래." 그가 미치기라도 했나 생각했다. 나는 그 인간이 누군지 몰랐다. 내 생각을 눈치챈 듯 그는 재빨리 말을 이었다. "아, 날 기억 못 할 수도 있겠군. 북쪽의 여관에 있었던 그 전령이라네. 거기서 엘도랄의 얼간이 자식이랑 말싸움을 하던 인간으로 기억하겠지." 
+안쪽에는 하플링, 인간, 드워프들이 섞인 채로 여러 탁자에 모여 앉아 있었다. 바깥의 피난민들보다는 조금 더 생기가 있었으며, 노름을 하는 자들도 있었고 대화를 나누고 있는 자들도 있었다. 내가 술집에 들어서자 한 인간이 갑자기 내게 다가와 말을 걸었다. "이봐, 그때 그 탈로레 아닌가? 아, 맞구만 그래." 그가 미치기라도 했나 생각했다. 나는 그 인간이 누군지 몰랐다. 내 생각을 눈치챈 듯 그는 재빨리 말을 이었다. "아, 날 기억 못 할 수도 있겠군. 북쪽의 여관에 있었던 그 전령이라네. 거기서 얼간이 엘도랄 자식이랑 말싸움을 하던 인간으로 기억하겠지." 
 
 나는 이를 꽉 깨물었다. 심히 곤란한 상황에 빠진 것이 아닌가 걱정했지만, 인간은 또다시 잽싸게 말을 이었다. "걱정 마시게. 당신이 그 하플링에게 한 짓을 가지고 뭐라 나무랄 사람은 없을 걸. 나도 똑같은 일을 해줄까 생각하고 있었지. 그딴 소릴 지껄이고 다녔다간 결국 여럿한테 두들겨 맞았을 테니까. 누가 됐든 간에 그 주둥이를 다물게 했을 것이야." 전령이 말한 내용에서 이상함을 느끼며 나는 조심스럽게 되물었다. "그게 무슨 소리죠?" 전령이 눈썹을 추켜올렸다. "뭐? 이 동네 경비병들이 그런 하플링을 지켜주기라도 할 것 같은가? 요즘 들어 그 정도 사건은 일상다반사라네."
 
@@ -1619,7 +1619,7 @@ I could hear the screams of terror of others around me and noticed that the soun
 
 그 순간 전장의 모든 소리가 사라진 것 같았다. 나는 내 눈 앞에 선 드워프에게 온 정신을 집중했다. 눈앞에 있던 것들 중 새빨간 피만 눈에 들어올 뿐이었다. 내 손과 팔에, 내가 그 드워프의 모가지에 꽂아넣은 단검에, 그리고 드워프가 쓰고 있던 가면에 흩뿌려진 피. 이내 가면 아래에서 드워프가 피를 토했다. 도끼와 방패를 떨어뜨리고 목에 꽂힌 단검을 붙잡은 채로 허우적거리며 가래 끓는 소리를 냈다. 나는 천천히 몸을 굽혀 두 손으로 도끼를 집어들고, 힘껏 내 머리 뒤쪽으로 젖혀들어, 온 힘을 다해 드워프의 머리통에 도끼를 꽂아넣었다. 그렇게 드워프가 단번에 죽어버리자, 내 안에서 묘한 느낌이 피어올랐고 이내 그 느낌이 나라는 존재를 이루는 아주 조그만 부분들을 하나하나, 모조리 파고들었다.
 
-그때 내가 고향을 나섰을 때 죽였던 엘도랄의 하플링이 떠올랐다. 마법폭발을 옹호하면서 쏟아내는 헛소리들에 증오를 느꼈고, 분노가 머리 끝까지 차올랐었다. 근처 식탁에서 고기 써는 단도를 하나 챙기고, 그 하플링을 쫓아 나가서... 죽였었다. 생명을 빼앗을 때의 느낌은 정말 끔찍했지만, 그럼에도 어떤 어두운 기운이 내 핏줄을 타고 흘렀고, 그 기운은 내가 다른 놈들을 더 죽여버리고 싶게 만들었다. 그 살해 충동, 그게 내가 처음 여행을 나섰던 진짜 이유였다. 나는 누군가를 죽이는 것이 두려웠다. 죽어 마땅한 자들만이 있는 것은 아니니까. 그 하플링은 죽어 마땅한 자가 아니었다. 하지만, 이 광신도들은? 
+그때 내가 고향을 나섰을 때 죽였던 엘도랄 하플링이 떠올랐다. 마법폭발을 옹호하면서 쏟아내는 헛소리들에 증오를 느꼈고, 분노가 머리 끝까지 차올랐었다. 근처 식탁에서 고기 써는 단도를 하나 챙기고, 그 하플링을 쫓아 나가서... 죽였었다. 생명을 빼앗을 때의 느낌은 정말 끔찍했지만, 그럼에도 어떤 어두운 기운이 내 핏줄을 타고 흘렀고, 그 기운은 내가 다른 놈들을 더 죽여버리고 싶게 만들었다. 그 살해 충동, 그게 내가 처음 여행을 나섰던 진짜 이유였다. 나는 누군가를 죽이는 것이 두려웠다. 죽어 마땅한 자들만이 있는 것은 아니니까. 그 하플링은 죽어 마땅한 자가 아니었다. 하지만, 이 광신도들은? 
 
 그렇게 생각한 순간 내 머릿속에서 무언가가 뚝 하고 끊어진 것 같았다. 내가 아주 시끄럽게 웃어제꼈던 걸 기억하고 있다. 끔찍한 기분이었다. 울고 있었던 것 같기도 하다. 나에게, 아니면 내 감정에 도대체 무슨 일이 일어나고 있는 건지 알 수가 없었고 내가 미쳐가고 있는 게 아닌가 싶었다. 솔직히 말하면 이 글을 쓰고 있는 지금도 잘 모르겠다. 하지만 그건 중요하지 않았다. 주변의 오우거들은 더 이상 싸울 수 있는 상태가 아니었고, 내가 무언가 하지 않으면 그들은 다 죽거나, 죽음보다 더한 고통을 겪게 될 거라는 걸 알고 있었다. 그 광신도들, 그 끔찍한 고통과 광기를 부추긴 놈들과, 그런 놈들을 맹목적으로 따른 신병들을 살려줄 만한 이유가 없었다. 내가 완전히 제정신이었다고 해도 저들을 모두 거리낌 없이 죽였을 것이고, 저들을 죽이면 이 충동도 가라앉힐 수 있을 것이었다. 그러고 나면 다 괜찮아질 것이고, 아마 오우거들도 자기들을 구해준 나에게 감사할 것이었다.
 
@@ -1769,7 +1769,7 @@ Eventually when I woke up, and after the healers had checked me over, I was told
 
 그때 정확히 무슨 일이 있었는지는 물론이고, 상처에서 고통이 느껴지기나 했었는지조차 잘 기억나지 않았다. 하지만 치유사들은 내가 입은 부상들이 얼마나 심각했는지 알아본 듯했다. 나는 신속하게 빈 병상으로 옮겨졌고 진통 주입물이 여러 종류 처방되었다. 그리고 난 곧바로 의식을 잃었다. 나중에 알게 된 사실이지만 치유사들은 끔찍할 정도로 만신창이가 된 날 보고 아연실색했지만, 재생 주입물을 아무리 많이 써도 그다지 효과가 없는 걸 보고 훨씬 더 큰 충격을 받았다고 한다. 주입물을 아무리 쏟아부어도 회복에 몇 개월은 걸릴 정도였다고. 오늘날까지도 난 상처가 나지 않게 조심하는데, 회복하는 데에 시간이 꽤 오래 걸리기 때문이다. 
 
-결국 내가 깨어나고 치유사들이 나를 몇 번이나 검사한 뒤에, 누가 면회를 왔으니 기다려달라는 말을 듣게 됐다. 잠시 후 나는 마법부여사와 다시 만날 수 있었다. "괜찮아진 것 같아서 다행이에요. 당신은 정말 강인한 탈로레네요. 오우거들 걱정은 안 해도 돼요. 아라니온이 그 사람들의 망명을 허가했으니까." 그녀는 꽤 자랑스럽게 말하고 있었지만 살짝 실망스러운 것 같은 느낌도 있었다. "자 그러면, 이제 막 깨어난 거 알지만, 아라니온이 당신에게 무슨 일이 있었는지 알고 싶다고 하네요. 나르골 왕국으로 떠나서 엘발라로 다시 돌아올 때까지 무슨 일이 있었는지 말이에요. 그리고 또 당신의 치료가 왜 이렇게 오래 걸렸는지, 스스로 짐작 가는 게 있을 것 같은데요?"  ]], "_t")
+결국 내가 깨어나고 치유사들이 나를 몇 번이나 검사한 뒤에, 누가 면회를 왔으니 기다려달라는 말을 듣게 됐다. 잠시 후 나는 마법부여사와 다시 만날 수 있었다. "괜찮아진 것 같아서 다행이에요. 당신은 정말 강인한 탈로레네요. 오우거들 걱정은 안 해도 돼요. 아라니온이 그 사람들의 망명을 허가했으니까." 그녀는 꽤 자랑스럽게 말하고 있었지만 살짝 실망스러운 것 같은 느낌도 있었다. "자 그러면, 이제 막 깨어난 거 알지만, 아라니온이 당신에게 무슨 일이 있었는지 알고 싶다고 하네요. 나르골 왕국으로 떠나서 엘발라로 다시 돌아올 때까지 무슨 일이 있었는지 말이에요. 그리고 또 당신의 치료가 왜 이렇게 오래 걸렸는지, 스스로 짐작 가는 게 있을 것 같은데요?"]], "_t")
 t("Escapades of Fay Willows [Book 4, Chapter 4] - Terrifying Interview", "페이 윌로우즈의 여행기 [4권, 제4장] - 끔찍한 취조", "_t")
 t([[[i]I do not know if Alreiwen has forgiven me, for the terror I had inflicted on her, or the hatred within me she must have felt. While it was but a mere moment, I could tell that all my rage had been channeled into her very being, the same rage that I had filled those fanatics with from before. At that moment I could tell she knew how potentially dangerous I was. Rei, if you are reading this then know how truly sorry I am for what happened.[/i]
 
@@ -2117,7 +2117,7 @@ Once more I called out saying his name "Awain". As he roused from his sleep and 
 
 그리고 마침내 힘이 다해, 나는 땅바닥에 쓰러져 꼼짝도 하지 못했다. 차갑고 사악한 에너지가 내 피를 타고 온몸을 휘저었고 그때 죽음이 가깝다는 걸 깨달았다. 머릿속에 아주 옛날의 광경들이 떠오르기 시작했다. 마법폭발이 일어나기 전, 탈로레 동포들과 숲에서 살아가던 때의 기억. 좀 더 소박하고, 좀 더 평화로웠던 시절. 죽고 싶지 않았다. 강령술사 놈의 정신 나간 계획에 이용당해 고통받고 싶지도 않았다. 하지만 나는 이제 아무것도 할 수가 없었고, 강령술사 놈은 천천히 다가와 날 내려다보며 말했다. "참으로 헛된 노력이구나, 탈로레. 시간이 충분했다면, 전설 속의 영웅으로 오래오래 기억될 수도 있었을 텐데. 하지만, 이제 죽거라." 
 
-직후 강령술사는 끔찍한 마법을 쏘아냈고, 그때 내가 느꼈던 고통은 정말로, 말로 표현할 길이 없다. 나라는 존재를 이루는 아주 조그만 부분들이 하나하나, 남김없이, 모두 고문당하는 느낌이었다. 머릿속이 극심한 고통으로 가득 채워졌고 서서히 의식이 희미해졌으며, 순간순간마다 죽음에 가까워지고 있었다. 때마침 돌아온 아라니온이 강령술사를 방해해서 주문을 끊어버리지 못했다면 난 분명 거기서 죽었을 것이다. 그다음에 정확히 무슨 일이 일어났는지는 모른다. 내가 아는 건, 아라니온이 강령술사의 손아귀에서 어떻게든 날 빼낸 다음 탈출시켰다는 것뿐이다. 어떻게 한 건지는 몰라도 나는 아라니온이 치유 마법을 걸어줄 때까지 버틸 수 있었고, 덕분에 우리는 함께 엘발라로 돌아올 수 있었다.
+직후 강령술사는 끔찍한 마법을 쏘아냈고, 그때 내가 느꼈던 고통은 정말로, 말로 표현할 길이 없다. 나라는 존재를 이루는 아주 조그만 부분들이 하나하나, 남김없이, 모조리 고문당하는 느낌이었다. 머릿속이 극심한 고통으로 가득 채워졌고 서서히 의식이 희미해졌으며, 순간순간마다 죽음에 가까워지고 있었다. 때마침 돌아온 아라니온이 강령술사를 방해해서 주문을 끊어버리지 못했다면 난 분명 거기서 죽었을 것이다. 그다음에 정확히 무슨 일이 일어났는지는 모른다. 내가 아는 건, 아라니온이 강령술사의 손아귀에서 어떻게든 날 빼낸 다음 탈출시켰다는 것뿐이다. 어떻게 한 건지는 몰라도 나는 아라니온이 치유 마법을 걸어줄 때까지 버틸 수 있었고, 덕분에 우리는 함께 엘발라로 돌아올 수 있었다.
 
 내가 엘발라 치료소의 어떤 병상에서 눈을 떴을 때, 처음 치료를 받고 있었을 때를 잠깐 기억하고 있다. 옆쪽 의자에 내 남편이 앉아 있었고, 그이는 잠든 채로 날 기다리고 있었다. 나는 그이를 부르려 했지만, 그 대신에 비명이 터져나왔다. 내가 오랫동안 견뎌 왔던 수많은 상처 때문에 엄청난 고통이 엄습했고, 남편은 놀라서 치유사를 불렀다. 그러고 나서 나는 아주 오랫동안 잠을 잤다. 얼마나 오래 잤는지는 나도 모르지만, 다음번에 일어났을 땐 우리 집의 내 방이었다. 다시 주변을 둘러보자 한밤중이었고, 그이는 똑같이 의자에서 잠든 채로, 변함없이 날 기다리고 있었다. 그이는 얼마나 오래 날 기다려 주었을까? 
 
@@ -2147,7 +2147,7 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 샬로레 정찰병들의 말로는 엘발라 밖에서 수많은 사건들이 일어나고 있다는데, 그것들을 확인해 보면 좋을 것 같다. 무법자 무리가 근방을 돌아다니고 있는데, 생활고에 시달리다가 도적이 된 자들도 있고, 그냥 도적질을 하려고 된 자들도 있다고 한다. 나르골이 영토의 치안을 유지할 힘을 잃어버리면서 생겨난 자들인데, 엘발라가 봉쇄 상태이긴 하지만 그래도 놈들은 위협이 된다. 우리가 바깥세상과 소통하는 것을 더 어렵게 만들고 있기 때문이다. 놈들의 은신처와 집결지는 이곳에서 바로 북쪽에 있는 오래된 숲이라는 곳에 있다고 한다. 
 
-그 마법을 증오하는 광신도들에 대한 소문도, 놈들이 저지르는 패악질과 함께 여기저기서 들려오고 있다. 놈들은 이제 온 세상에 퍼져 있고 수많은 인간 왕국과 하플링 엘도랄 왕국에 정치적인 영향력을 미치고 있다는 것 같다. 더 이상 그림자 속에서 암약하지 않고, 반마법 전사들을 양성해서 마법사나 마법 물건을 갖고 있는 사람들을 샅샅이 뒤지고 있다고 한다. 이상하게도 놈들의 대열에서 오우거를 봤다는 말도 있는데, 그게 어떻게 가능한 건지 잘 모르겠다. 아무튼, 놈들의 순찰대와 마주치게 되면 조심해야 한다. 확실히 어려운 싸움이 될 테니까.
+그 마법을 증오하는 광신도들에 대한 소문도, 놈들이 저지르는 패악질과 함께 여기저기서 들려오고 있다. 놈들은 이제 온 세상에 퍼져 있고 수많은 인간 왕국과 엘도랄 하플링들에게 정치적인 영향력을 미치고 있다는 것 같다. 더 이상 그림자 속에서 암약하지 않고, 반마법 전사들을 양성해서 마법사나 마법 물건을 갖고 있는 사람들을 샅샅이 뒤지고 있다고 한다. 이상하게도 놈들의 대열에서 오우거를 봤다는 말도 있는데, 그게 어떻게 가능한 건지 잘 모르겠다. 아무튼, 놈들의 순찰대와 마주치게 되면 조심해야 한다. 확실히 어려운 싸움이 될 테니까.
 
 그런 역겨운 족속들이 온 세상을 돌아다니고 있지만, 여행을 떠나고 싶은 이유가 하나 더 있다. 마법폭발의 영향을 연구하고 있는 샬로레 연구자들은 엘발라 동쪽의 검게 물든 해안에 가장 큰 파괴의 흔적이 남아 있을 것이라 보고 있다. 마법폭발이 일어났을 당시에 그 엄청난 에너지가 가장 먼저 휩쓸고 간 곳이며, 그 지역을 직접 조사해 보면 마법폭발에 대해 더 많은 것을 알 수 있을 것이다. 하지만 샬로레들은 그 지역이 얼마나 위험한가는 차치하더라도 장막 밖으로 나가는 것부터 위험하다는 것을 알고 있다. 하지만 아무리 위험해도, 이 세계에 남아 있는 마법폭발의 영향이 정확히 어떤 것인지 알아내는 것은 중요한 일이다. 
 
@@ -2263,7 +2263,7 @@ Despite the benevolent and gentle demeanour he has been attributed in his myths,
 t("Mightier than Gods: Preface", "신보다 강한 자들: 서문", "_t")
 t([[As part of scholarly pursuits into the nature of Eyal's gods, the role of the Sher'tul in their demise must not be forgotten. It was nine Sher'tul who slayed the gods, figures now known as the Godslayers. Beyond that, little about these individuals can be said with any certainty. The Sher'Tul are believed to have mastered many forms of technology, magical spells and psionic techniques. There is not a single force on Eyal then or now which could hope to match their might. Using these techniques in ways that we could not even guess at, they forged the weapons which would kill Eyal's gods, nine in total for each of the nine Godslayers who would wield them.
 
-This series will analyse what little information about the Godslayers that is still available. Given the obscure nature of the Sher'tul race, there are no solid records regarding their most prominent figures.]], [[에이알의 신들의 본성을 탐구하는 학문적 노력의 일환으로, 그들을 말살한 쉐르'툴의 역할을 빠뜨릴 수 없다. 아홉 명의 쉐르'툴이 신들을 살해했는데, 지금은 신살자로 알려진 인물들이다. 그 이상으론, 이들 개개인에 대해 확실하게 말할 수 있는 것이 거의 없다. 쉐르'툴은 수많은 종류의 기술, 마법 주문, 그리고 초능력에 숙달했다고 여겨진다. 그때나 지금이나 에이알에는 그들의 힘에 필적할 만한 존재가 하나도 없다. 그들은 우리가 짐작조차 할 수 없는 방법으로 에이알의 신들을 죽일 수 있는 무기를 만들어냈는데, 그것들을 휘두를 아홉 명의 신살자에게 각각 하나씩, 총 아홉 개가 존재했다.
+This series will analyse what little information about the Godslayers that is still available. Given the obscure nature of the Sher'tul race, there are no solid records regarding their most prominent figures.]], [[에이알의 신들의 본성을 탐구하는 학문적 노력의 일환으로, 그들을 말살한 쉐르'툴의 역할을 빠뜨릴 수 없다. 아홉 명의 쉐르'툴이 신들을 살해했는데, 지금은 신살자들로 알려진 인물들이다. 그 이상으론, 이들 개개인에 대해 확실하게 말할 수 있는 것이 거의 없다. 쉐르'툴은 수많은 종류의 기술, 마법 주문, 그리고 초능력에 숙달했다고 여겨진다. 그때나 지금이나 에이알에는 그들의 힘에 필적할 만한 존재가 하나도 없다. 그들은 우리가 짐작조차 할 수 없는 방법으로 에이알의 신들을 죽일 수 있는 무기를 만들어냈는데, 그것들을 휘두를 아홉 명의 신살자에게 각각 하나씩, 총 아홉 개가 존재했다.
 
 이번에는 거의 남아있지 않은 신살자들에 대한 정보들을 분석할 것이다. 쉐르'툴 종족의 생태는 불명확한 상태이고, 가장 두드러졌던 인물들에 대한 확실한 기록 역시 없다.]], "_t")
 t("Mightier than Gods: Caldizar", "신보다 강한 자들: 칼디자르", "_t")
@@ -2271,7 +2271,7 @@ t([[All Godslayer myths come back to one figure. Caldizar was the one who gather
 
 The Godhunt started because Amakthel commanded the Sher'tul to slay the other gods. Caldizar personally went out and audited potential candidates to wield the Godslayer weapons. He too chose to wield a Godslayer, becoming the leader of the nine who would take part in the Godhunt. However, as the Godslayers did their work, they began to think about how Amakthel was using them as tools to meet its own ends. Their creator, while it wielded great power, had the intellectual capacity of an infant compared to the Sher'tul.
 
-In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was thought that this command was not carried out by all Sher'tul and was, in fact, openly reviled by many of them, leading to conflicts within their ranks. There are no records of the Sher'tul after the Godhunt ended, let alone of Caldizar. No one is certain what became of their race. It is also noted that there is a strange absence of Sher'tul ruins on Eyal, almost as if they have been removed.]], [[신살자와 관련된 신화들은 하나같이 어떤 인물에 대한 이야기로 돌아온다. 칼디자르는 신살자들을 모아 쉐르'툴을 에이알의 신들과 맞서게 한 장본인이었다. 쉐르'툴 사회에서 그의 위치가 어느 정도였는지는 확실하지 않지만, 그가 활용한 자원과 쉐르'툴 종족에 미친 그의 영향력을 볼 때, 그가 그들의 지도자 중 한 사람, 혹은 적어도 쉐르'툴 사회의 저명한 인물이었다고 생각된다. 
+In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was thought that this command was not carried out by all Sher'tul and was, in fact, openly reviled by many of them, leading to conflicts within their ranks. There are no records of the Sher'tul after the Godhunt ended, let alone of Caldizar. No one is certain what became of their race. It is also noted that there is a strange absence of Sher'tul ruins on Eyal, almost as if they have been removed.]], [[신살자들과 관련된 신화들은 하나같이 어떤 인물에 대한 이야기로 돌아온다. 칼디자르는 신살자들을 모아 쉐르'툴을 에이알의 신들과 맞서게 한 장본인이었다. 쉐르'툴 사회에서 그의 위치가 어느 정도였는지는 확실하지 않지만, 그가 활용한 자원과 쉐르'툴 종족에 미친 그의 영향력을 볼 때, 그가 그들의 지도자 중 한 사람, 혹은 적어도 쉐르'툴 사회의 저명한 인물이었다고 생각된다. 
 
 신 사냥이 시작된 것은 아마크텔이 쉐르'툴에게 다른 신들을 죽이라고 명령했기 때문이었다. 칼디자르는 직접 나서서 신살의 무기를 휘두를 잠재적인 후보들을 찾아냈다. 그도 역시 신살의 무기를 휘두르는 것을 선택했고, 신 사냥에 참여할 아홉 명의 지도자가 되었다. 그러나 신살자들은 임무를 마치고 나서 아마크텔이 자신의 목적을 달성하기 위한 도구로 자신들을 이용했다고 생각하기 시작했다. 그들의 창조자는 엄청난 힘을 갖고 있었지만 그 지적 능력은 쉐르'툴에 비하면 어린 아이나 다름없었다. 
 
