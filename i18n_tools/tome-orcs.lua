@@ -1099,7 +1099,7 @@ t("crimson phial", "핏빛 유리병", "_t")
 t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "이 타락한 피의 유리병은 죽음과 부패의 악취를 풍깁니다. 하지만 어찌된 일인지 당신은 이 유리병에 마음이 끌립니다... 영생에 대한 감질 맛나는 가르침일까요? 또는 힘? 당신은 뭐라고 할 순 없지만, 이 타락한 피를 마시고 싶다는 욕구는 엄청납니다.", "_t")
 t("quaff the Blood of Undeath to prepare your body for undeath", "역생의 피를 마셔, 육체를 역생에 준비시킵니다", "_t")
 t("%s quaffs the %s!", "%s %s 마셨다!", "logSeen", nil, {"는","을"})
-t("#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "#CRIMSON#역생의 피가 당신의 혈관을 타고 퍼저나가는 것이 느껴진다. 생명이 약간 말라비틀어졌음이 느껴진다. (최대 생명력 -50, 생명력 하한 -120).", "logPlayer")
+t("#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "#CRIMSON#역생의 피가 당신의 혈관을 타고 퍼져나가는 것이 느껴진다. 생명이 약간 말라비틀어졌음이 느껴진다. (최대 생명력 -50, 생명력 하한 -120).", "logPlayer")
 t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "#CRIMSON#역생의 피가 당신의 언데드 육체를 더욱 강인하게 강화했다 (최대 생명력 -60, 생명력 하한 -140)", "logPlayer")
 
 ------------------------------------------------
@@ -4207,7 +4207,7 @@ t([[Call a streak of lightning on your target, dealing %0.2f to %0.2f lightning 
 		If it is wet the lightning propagates to all foes in radius %d, doing the same damage to each.
 		All affected foes are seared for 4 turns, reducing their fire resistance by %d%% and and mind save by %d.
 		The damage will increase with your Mindpower.]], [[대상에게 번개를 내리쳐, %0.2f - %0.2f 전기 피해를 가합니다
-		대상이 젖음 상태일 경우, 반경 %d 칸 내의 모든 적에게 전류가 퍼저, 같은 수치의 피해를 가합니다.
+		대상이 젖음 상태일 경우, 반경 %d 칸 내의 모든 적에게 전류가 퍼져, 같은 수치의 피해를 가합니다.
 		영향을 받은 적은 4 턴 동안 그을려, 화염 저항이 %d%% 감소하고, 정신 내성이 %d 감소합니다.
 		The damage will increase with your Mindpower.]], "tformat")
 t("Negative Biofeedback", "부정적인 생체 반작용", "talent name")

@@ -1795,9 +1795,9 @@ t([[You did not think it possible for an amorphous mass of bubbles to scowl.
 A jet of boiling water barely misses you, dissipating into bubbles above your head.
 #AQUAMARINE#"Your 'loyalty...' would give me their fate..."#WHITE#
 The frothing and bubbling around him grows to new heights as he charges you!]], [[당신은 형태가 없는 것이 뭔가를 쏘아볼 수 있으리라곤 상상도 못했습니다.
-#AQUAMARINE#"날로레의 %s이며...  우클름스윅을 배신한 자여... 날 속일 수 있다고 생각하나... "#WHITE#
+#AQUAMARINE#"날로레의 %s이며...  우클름스윅을 배신한 자여... 날 속일 수 있다고 생각하는가... "#WHITE#
 끓는 물의 격류가 당신을 스쳐지나가고, 당신의 머리 위로 그 궤적이 끓어오릅니다.
-#AQUAMARINE#"네놈의 '충성심' 따위에... 놈들처럼 죽지 않겠다..."#WHITE#
+#AQUAMARINE#"네 '충성심' 따위에... 놈들처럼 죽지 않겠다..."#WHITE#
 그의 주변에 거품이 끓으며 솟아올라 덮쳐옵니다!]], "tformat")
 t("Traitor", "배신자", "_t")
 t("Murderer", "살인자", "_t")
