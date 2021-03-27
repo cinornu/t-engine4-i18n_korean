@@ -814,7 +814,7 @@ t([[Each time you walk or move you gain a blight charge. You can store up to %d 
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Corrupt Light", "타락의 빛", "talent name")
 t([[Weave darkness in a radius of %d. All unlit grids contribute to your power by increasing all your damage done for %d turns.
-		Damage increase depends on the number of grids extinguished.]], [[반경 %d 칸 내에 어둠을 자아냅니다. 꺼저버린 불빛이 시전자의 힘의 일부가 되어 시전자가 가하는 모든 피해량이 %d 턴 동안 증가합니다.
+		Damage increase depends on the number of grids extinguished.]], [[반경 %d 칸 내에 어둠을 자아냅니다. 꺼져버린 불빛이 시전자의 힘의 일부가 되어 시전자가 가하는 모든 피해량이 %d 턴 동안 증가합니다.
 		피해량은 광원을 소멸시킨 칸에 비례하여 증가합니다.]], "tformat")
 t("Shadowmeld", "그림자 동화", "talent name")
 t([[Whenever you are on an unlit grid you can meld with the shadows, gaining %d stealth power.
