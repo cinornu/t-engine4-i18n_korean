@@ -2693,7 +2693,7 @@ t("Fatebreaker", "운명 파괴자", "talent name")
 t([[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
 		As long as your target remains alive this redirects all damage you take to it as temporal and darkness damage for 1 turn.
 		Any Fortune stacks you have and any Jinx stacks the enemy have will then be consumed to heal you for %d life per stack.]], [[시전자와 선택된 대상의 운명을 %d 턴 동안 하나로 잇습니다. 지속시간 동안, 시전자가 죽음에 다다를 수 있는 피해를 입게 되면 현실 개변을 일으켜 운명 공유 효과를 끝내고, 운명 파괴자를 발동해 대상이 시전자 대신 치명적인 피해를 입게 합니다.
-		운명 파괴자가 발동되고 난 후 1 턴 동안 시전자가 받는 모든 피해는 시간 피해와 암흑 피해로 대상에게 재전송 될 것입니다.
+		운명 파괴자가 발동되고 난 후 1 턴 동안 시전자가 받는 모든 피해는 시간 피해와 어둠 피해로 대상에게 재전송 될 것입니다.
 		시전자의 모든 행운 중첩과 적들이 가진 모든 불행 중첩은 %d 생명력을 회복시키는데 쓰여질 것입니다.]], "tformat")
 
 ------------------------------------------------
@@ -2830,7 +2830,7 @@ t([[Your tongue turns into a diseased tentacle that you use to #{italic}#lick#{n
 t("Dissolved Face", "녹아내린 얼굴", "talent name")
 t([[Your face melts, exploding in a targeted gush of blood and gore dealing %0.2f darkness damage (%0.2f total) in a cone over 5 turns.
 		Each turn the target will be dealt an additional %0.2f blight damage per disease.
-		Damage will increase with your Spellpower.]], [[얼굴이 녹여내어 원뿔 범위의 적에게 피와 핏덩이를 튀깁니다. 피에 맞은 적은 5 턴 동안 %0.2f 암흑 피해 (총 %0.2f 피해)를 입습니다.
+		Damage will increase with your Spellpower.]], [[얼굴이 녹여내어 원뿔 범위의 적에게 피와 핏덩이를 튀깁니다. 피에 맞은 적은 5 턴 동안 %0.2f 어둠 피해 (총 %0.2f 피해)를 입습니다.
 		매 턴 대상이 걸린 질병 당 %0.2f 역병 피해를 추가로 입힙니다.
 		피해량은 주문력이 비례하여 증가합니다.]], "tformat")
 t("Writhing Hairs", "뒤틀린 머리카락", "talent name")
@@ -2843,13 +2843,13 @@ t([[For a brief moment horrific hairs grow on your head, each of them ending wit
 		부서지게 쉽게 된 대상은 35%% 의 확률로 %d%% 만큼 추가 피해를 입습니다.
 		이 효과는 저항할 수 없습니다.
 		]], "tformat")
-t("Glimpse of True Horror", "진정한 공포의 낌새", "talent name")
+t("Glimpse of True Horror", "진정한 공포의 편린", "talent name")
 t([[Whenever you use a disfigured face power you show a glimpse of what True Horror is.
 		If the affected targets fail a spell save they become frightened for 2 turns, giving them a %d%% chances to fail using talents.
 		When a target becomes afraid it bolsters you to see their anguish, increasing your darkness and blight damage penetration by %d%% for 2 turns.
-		The values will increase with your Spellpower.]], [[문드러진 얼굴 계열의 기술을 사용할 때마다 적에게 진정한 공포가 무엇인지 슬쩍 보여줍니다.
+		The values will increase with your Spellpower.]], [[문드러진 얼굴 계열의 기술을 사용할 때마다 적에게 진정한 공포가 무엇인지 조금 보여줍니다.
 		대상이 마법 내성 판정에 실패할 경우 2 턴 동안 겁에 질려 %d%% 의 확률로 기술 시전을 실패합니다.
-		겁에 질린 적은 약점이 노출되어, 2 턴 동안 암흑 저항 관통력 및 황폐 저항 관통력이 %d%% 증가합니다.
+		적들이 겁에 질리게 되면 시전자는 그들의 괴로움을 더욱 잘 볼 수 있게 되어, 어둠 저항 관통력 및 황폐 저항 관통력이 2 턴 동안 %d%% 증가합니다.
 		증가량은 주문력에 비례하여 상승합니다.]], "tformat")
 
 ------------------------------------------------
@@ -2872,7 +2872,7 @@ t([[Utter a prophecy of the impending demise of your target that lasts 6 turns.
 		Each time their life falls below 75%%, 50%% or 25%% of maximum the power of the prophecy will echo outwards, inflicting %0.2f darkness damage to them.
 		A target can only be affected by a single prophecy at a time.
 		The damage increase will increase with your Spellpower.]], [[6 턴 동안 지속되는, 닥처올 파멸의 예언을 내립니다.
-		그들의 생명력이 75%%, 50%%, 25%% 이하로 떨어질때마다 %0.2f 암흑 피해를 가합니다.
+		그들의 생명력이 75%%, 50%%, 25%% 이하로 떨어질때마다 %0.2f 어둠 피해를 가합니다.
 		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Prophecy of Treason", "배반의 예언", "talent name")
@@ -2924,7 +2924,7 @@ You may activate this talent to channel your entropy onto a nearby enemy, removi
 
 The damage dealt when applying this to an enemy will increase with your Spellpower.]], [[비자연적인 존재감은 현실 그 자체에게 배격당합니다. 즉발 회복량중 25%% 가 엔트로피 반발 효과로 전환되어, 8 턴동안 피해를 입습니다. 엔트로피 반발은 모든 저항과 보호막을 무시하고 시전자에게 피해를 주지만, 시전자는 이 피해로 인해 죽지는 않습니다.
 
-이 기술을 사용함으로써, 엔트로피를 근처의 적에게 전달 할 수 있습니다. 시전자의 모든 엔트로피 반발을 제거하고 엔트로피의 %d%% 에 해당하는 암흑, 시간 피해를 4 턴에 걸쳐 입힙니다.
+이 기술을 사용함으로써, 엔트로피를 근처의 적에게 전달 할 수 있습니다. 시전자의 모든 엔트로피 반발을 제거하고 엔트로피의 %d%% 에 해당하는 어둠, 시간 피해를 4 턴에 걸쳐 입힙니다.
 
 적에게 적용될 시 입히는 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Reverse Entropy", "엔트로피 역전", "talent name")
@@ -2936,9 +2936,9 @@ t([[Your knowledge of entropy allows you to defy the laws of physics, allowing y
 t("Black Hole", "블랙홀", "talent name")
 t([[On casting Entropic Gift, a radius 1 rift in spacetime will be opened underneath the target for %d turns, increasing in radius by 1 each turn to a maximum of %d.
 		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[엔트로피의 선물을 시전할 때, 반경 1 칸 시공간 균열이 대상의 발 밑에 %d 턴 동안 열립니다. 매 턴 반경이 1 칸씩 증가하고 최대 %d 만큼 커집니다.
-		균열의 영향을 받는 모든 대상은 중심으로 끌려가며, %0.2f 암흑 피해와 %0.2f 시간 피해를 입고, 현재 엔트로피의 %d%% 에 해당하는 피해를 매 턴 입힙니다. (현재 %d).]], "tformat")
+		균열의 영향을 받는 모든 대상은 중심으로 끌려가며, %0.2f 어둠 피해와 %0.2f 시간 피해를 입고, 현재 엔트로피의 %d%% 에 해당하는 피해를 매 턴 입힙니다. (현재 %d).]], "tformat")
 t("Power Overwhelming", "압도적인 힘", "talent name")
-t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "주문이 매우 위험한 엔트로피 에너지로 강화됩니다. 암흑과 시간 피해가 %d%% 늘어나고, 저항 관통이 %d%% 증가합니다. 고통의 대가로 %0.2f 엔트로피 반발을 즉발형 기술이 아닌 주문을 시전할 때 추가로 받습니다.", "tformat")
+t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "주문이 매우 위험한 엔트로피 에너지로 강화됩니다. 어둠과 시간 피해가 %d%% 늘어나고, 저항 관통이 %d%% 증가합니다. 고통의 대가로 %0.2f 엔트로피 반발을 즉발형 기술이 아닌 주문을 시전할 때 추가로 받습니다.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/friend-of-the-worm.lua"
@@ -2999,7 +2999,7 @@ t([[While within range 3 of your Worm that Walks you can project an aura of terr
 		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns.]], [[걸어다니는 벌레떼 근처 3 칸 내에 있을 경우, 걸어다니는 벌레떼는 공포의 기운을 발산합니다.
 		두 광기의 존재가 함께 싸우는 장면을 보고 반경 %d 칸 내의 모든 적은 %d 턴 동안 기절합니다. 시전자의 주문력에 대한 물리 내성 판정에 성공시, 기절을 피할 수 있습니다
 
-		추가로 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게 하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다.]], "tformat")
+		추가로 시전자의 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게 하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/horrific-body.lua"
@@ -3017,13 +3017,13 @@ t([[Each time your shed skin looses %d%% of its max power or you take damage ove
 		각각의 물집은 모든 저항력을 %d%% 만큼 증가시킵니다. 물집은 최대 %d 개 자라납니다.
 		저항력 증가량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Pustulent Fulmination", "고름 폭발", "talent name")
-t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "모든 물집을 한꺼번에 터뜨려, 반경 %d 칸 내의 모든 대상에게 물집 하나 당 %0.2f 암흑 피해를 주고 시전자의 생명력을 %0.1f 회복합니다.", "tformat")
+t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "모든 물집을 한꺼번에 터뜨려, 반경 %d 칸 내의 모든 대상에게 물집 하나 당 %0.2f 어둠 피해를 주고 시전자의 생명력을 %0.1f 회복합니다.", "tformat")
 t("Defiled Blood", "오염된 피", "talent name")
 t([[When you make your pustules explode you leave a pool of defiled blood on the ground for 5 turns.
 		Foes caught inside get assaulted by black tentacles every turn, dealing %d%% darkness tentacle damage and covering them in your black blood for 2 turns.
 		Creatures that hit you while covered in your blood heal you for %d%% of the damage done.
 		The healing received increases with your Spellpower.]], [[고름을 터뜨려 5 턴 동안 오염된 피로 가득찬 웅덩이를 생성합니다.
-		매 턴, 오염된 피를 밟고 있는 적은 검은 촉수들에게 %d%%의 암흑 촉수 피해를 입으며, 시전자의 검은 피로 2 턴 동안 뒤덮습니다.
+		매 턴, 오염된 피를 밟고 있는 적은 검은 촉수들에게 %d%%의 어둠 촉수 피해를 입으며, 시전자의 검은 피로 2 턴 동안 뒤덮습니다.
 		검은 피에 뒤덮힌 대상이 시전자를 공격하면 피해량의 %d%% 를 시전자의 생명력으로 회복합니다.
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -3033,7 +3033,7 @@ section "tome-cults/data/talents/demented/madness.lua"
 t("Dark Whispers", "어둠의 속삭임", "talent name")
 t([[Terrible visions and maddening voices fill the minds of enemies within a radius %d area, inflicting %0.2f darkness damage each turn for 5 turns. In addition, this distraction will reduce physical, spell and mindpower of those affected by %d.
 The power loss caused by this spell can stack, to a maximum of %d powers.
-		The effect will increase with your Spellpower.]], [[대상의 정신을 끔찍한 광경과 광기의 목소리로 채웁니다. 반경 %d 칸 내의 적들에게 5 턴 동안 %0.2f 암흑 피해를 매 턴 가합니다. 추가로적으로 대상의 주의를 흐트려 물리력, 주문력, 정신력을 %d 낮춥니다.
+		The effect will increase with your Spellpower.]], [[대상의 정신을 끔찍한 광경과 광기의 목소리로 채웁니다. 반경 %d 칸 내의 적들에게 5 턴 동안 %0.2f 어둠 피해를 매 턴 가합니다. 추가로 대상의 주의를 흐트려 물리력, 주문력, 정신력을 %d 낮춥니다.
 이 주문으로 잃는 물리력, 주문력, 정신력은 중첩가능하며, 최대 %d 가능합니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Hideous Visions", "흉측한 광경", "talent name")
@@ -3042,7 +3042,7 @@ t([[Each time an enemy takes damage from Dark Whispers, there is a %d%% chance f
 		A target cannot have more than one hallucination at a time.]], [[매 번 적이 어둠의 속삭임으로 피해를 입을 때마다, 적들의 정신을 채운 환각이 %d%% 확률로 인접한 칸에 구현됩니다. 환각은 %d 턴 동안 지속됩니다. 환각은 아무 행동도 취하지 않지만, 희생자는 환각을 없애버리기 전까지 다른 모든 대상으로 한 공격에 %d%% 적은 피해를 입힙니다.
 		한 대상에게 오직 하나의 환각만 구현됩니다.]], "tformat")
 t("Sanity Warp", "정신 왜곡", "talent name")
-t("When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "흉측한 광경으로 생성된 환각이 피해를 받아 사라질 때, 정신적인 비명을 발산하여 반경 %d 칸 내의 모든 적에게 %0.2f 의 암흑 피해를 입힙니다.", "tformat", {2,1})
+t("When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "흉측한 광경으로 생성된 환각이 피해를 받아 사라질 때, 정신적인 비명을 발산하여 반경 %d 칸 내의 모든 적에게 %0.2f 의 어둠 피해를 입힙니다.", "tformat", {2,1})
 t("Cacophony", "불협화음", "talent name")
 t([[Raise your Dark Whispers in radius %d to a deafening crescendo for %d turns, applying another stack and drowning out all thought. 
 			Targets afflicted by Dark Whispers will have 20%% higher chance to spawn hallucinations, and each time they take damage from your Dark Whispers or Sanity Warp they will take an additional %d%% damage as temporal damage.
@@ -3055,13 +3055,13 @@ section "tome-cults/data/talents/demented/nether.lua"
 
 t("Netherblast", "황천폭발", "talent name")
 t([[Fire a burst of unstable void energy, dealing %0.2f darkness and %0.2f temporal damage to the target. The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], [[불안정한 공허 에너지를 발사하여 %0.2f 의 암흑 피해와 %0.2f 시간 피해를 대상에게 가합니다. 이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용될 수 있습니다.
+		The damage will increase with your Spellpower.]], [[불안정한 공허 에너지를 발사하여 %0.2f 의 어둠 피해와 %0.2f 시간 피해를 대상에게 가합니다. 이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용될 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Rift Cutter", "균열 절단", "talent name")
 t([[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness damage to enemies within and leaving behind an unstable rift. After 3 turns the rift detonates, dealing %0.2f temporal damage to adjacent enemies.
 		Targets cannot be struck by more than a single rift explosion at once.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], [[대지를 가로지르는 광선을 발사해, %0.2f 암흑 피해를 범위 내의 적에게 입히고, 불안정한 균열을 남깁니다. 3 턴 후에 균열은 폭발하여 %0.2f 시간 피해를 인접한 적에게 가합니다.
+		The damage will increase with your Spellpower.]], [[대지를 가로지르는 광선을 발사해, %0.2f 어둠 피해를 범위 내의 적에게 입히고, 불안정한 균열을 남깁니다. 3 턴 후에 균열은 폭발하여 %0.2f 시간 피해를 인접한 적에게 가합니다.
 		대상은 한 번에 단 하나의 균열 폭발에만 영향을 받습니다.
 		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용될 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -3074,7 +3074,7 @@ t("entropic maw", "엔트로피의 아가리", "_t")
 t("Tendrils lash around the mouth of this gigantic beast, seeking prey to devour.", "덩굴손이 이 거대한 짐승의 아가리 주변에 나있다. 먹어치울 희생양을 찾고 있다.", "_t")
 t([[Briefly open a radius %d rift in spacetime that teleports those within to the targeted location. Enemies will take %0.2f darkness and %0.2f temporal damage.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will improve with your Spellpower.]], [[짧은 시간 동안 지정 위치 내의 적을 반경 %d 의 균열을 열어 순간이동 시킵니다. 적들은 %0.2f 암흑 피해와 %0.2f 시간 피해를 입습니다.
+		The damage will improve with your Spellpower.]], [[짧은 시간 동안 지정 위치 내의 적을 반경 %d 의 균열을 열어 순간이동 시킵니다. 적들은 %0.2f 어둠 피해와 %0.2f 시간 피해를 입습니다.
 		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용될 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Halo of Ruin", "파멸의 후광", "talent name")
@@ -3118,11 +3118,11 @@ t("#ORCHID#The entropic storm destroys %s!#LAST#", "#ORCHID#엔트로피 폭풍�
 t("a projectile", "투사체", "_t")
 t([[Summon a radius 4 storm of all-consuming oblivion at the targeted location for %d turns, reducing those within to nothing. Targets within will take %0.2f darkness damage and %0.2f temporal damage each turn.  Walls and other terrain within the storm will be disintegrated.
 		Each time the storm deals damage enemies will have any detrimental magical effect with less than 3 duration set to 3 duration, and all enemy projectiles will be destroyed.
-		The damage will scale with your Spellpower.]], [[%d 턴 동안 반경 4 칸 내의 모든 것을 집어삼키는 소멸의 폭풍을 해당 위치에 소환합니다. 내부의 모든 대상은 %0.2f 암흑 피해와 %0.2f 시간 피해를 턴마다 입습니다. 폭풍 내의 벽과 기타 지형은 파괴될 것입니다.
+		The damage will scale with your Spellpower.]], [[%d 턴 동안 반경 4 칸 내의 모든 것을 집어삼키는 소멸의 폭풍을 해당 위치에 소환합니다. 내부의 모든 대상은 %0.2f 어둠 피해와 %0.2f 시간 피해를 턴마다 입습니다. 폭풍 내의 벽과 기타 지형은 파괴될 것입니다.
 		매번 폭풍이 적에게 피해를 가할 때마다 3 턴 이하의 지속시간을 가진 부정적인 마법 효과의 지속시간을 3 턴으로 늘립니다. 모든 적들의 투사체는 파괴됩니다.
 		이 피해는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Void Crash", "공허 파쇄", "talent name")
-t("Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "무기를 지면에 내리쳐 반경 2 칸의 보이드 에너지 폭발을 일으킵니다. %d%% 의 피해가 암흑 피해와 시간 피해로 가해집니다.", "tformat")
+t("Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "무기를 지면에 내리쳐 반경 2 칸의 보이드 에너지 폭발을 일으킵니다. %d%% 의 피해가 어둠 피해와 시간 피해로 가해집니다.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/path-of-horror.lua"
@@ -3162,7 +3162,7 @@ t([[The sheer power of your entropy tears holes through spacetime, opening this 
 On casting a Demented spell you have a 30%% chance of creating a void rift lasting %d turns in a nearby tile, which will launch void blasts each turn at a random enemy in range 7, dealing %0.2f darkness and %0.2f temporal damage.
 
 You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], [[엔트로피의 힘으로 시공간을 찢어 이 세계와 공허를 연결하는 구멍을 엽니다.
-광기 계통 주문을 시전 할 때마다, 30%% 확률로 %d 턴 동안 지속되는 공허의 틈을 인접한 칸애 생성합니다. 공허의 틈은 7 칸 범위 내의 무작위한 적에게 %0.2f 암흑 피해와 %0.2f 시간 피해를 입히는 공허 폭발을 발사합니다.
+광기 계통 주문을 시전 할 때마다, 30%% 확률로 %d 턴 동안 지속되는 공허의 틈을 인접한 칸애 생성합니다. 공허의 틈은 7 칸 범위 내의 무작위한 적에게 %0.2f 어둠 피해와 %0.2f 시간 피해를 입히는 공허 폭발을 발사합니다.
 
 이 기술을 사용함으로써, 강제로 시공간의 불안정성을 일으켜, %d 개의 공허의 틈을 주변에 생성합니다.]], "tformat")
 t("Quantum Tunnelling", "양자 터널링", "talent name")
@@ -3185,7 +3185,7 @@ t([[Pouring more energy into your rifts, you have a %d%% chance for each one to 
 #PURPLE#Temporal Vortex:#LAST# Inflicts %0.2f temporal damage each turn to enemies in radius 4 and reduces their global speed by 30%%.
 #PURPLE#Dimensional Gate:#LAST# Has a 50%% chance each turn to summon a voidling lasting %d turns; a fast melee attacker that can teleport.
 The stats of your Void Skitterers will scale with your Magic stat and level.]], [[공허의 틈에 더 많은 에너지를 쏟아 붓습니다, %d%% 확률로 기존보다 더욱 강력한 틈을 열 수 있습니다.
-#PURPLE#황천의 구멍:#LAST# 반경 10 칸 이내의 무작위한 적에게 광선을 쏘아 %0.2f 암흑 피해를 입힙니다.
+#PURPLE#황천의 구멍:#LAST# 반경 10 칸 이내의 무작위한 적에게 광선을 쏘아 %0.2f 어둠 피해를 입힙니다.
 #PURPLE#시간의 소용돌이:#LAST# 반경 4 칸 이내의 적에게 %0.2f 시간 피해를 턴마다 입히고, 전체 속도를 30%%만큼 감소시킵니다.
 #PURPLE#차원 관문:#LAST# 매 턴 50%% 확률로 %d 턴 동안 지속되는 공허 미물을 소환합니다. 공허 미물은 빠르게 공격하며 순간이동이 가능합니다.
 공허 미물의 능력치는 당신의 마법 능력치와 레벨에 비례하여 증가합니다.]], "tformat")
@@ -3384,7 +3384,7 @@ t([[Consuming a void star, you use it to summon a void monolith at the targeted 
 t("Essence Reave", "정수 찢기", "talent name")
 t("%s rends the essence of %s, restoring %d void shards!", "%s %s의 정수를 찢어발겨, %d 개의 공허의 별로 전환했다!", "logSeen", nil, {"가"})
 t([[You rend the very essence of the target, drawing on their life and converting it to void stars. The target takes %0.2f darkness and %0.2f temporal damage, and you gain %d void star(s).
-		The damage will increase with your Spellpower.]], [[당신은 대상의 정수를 찢어 발김으로써, 그 생명력을 공허의 별로 변환합니다. 대상은 %0.2f 암흑 피해와 %0.2f 시간 피해를 입고, 시전자는 %d 개의 공허의 별을 얻습니다.
+		The damage will increase with your Spellpower.]], [[당신은 대상의 정수를 찢어 발김으로써, 그 생명력을 공허의 별로 변환합니다. 대상은 %0.2f 어둠 피해와 %0.2f 시간 피해를 입고, 시전자는 %d 개의 공허의 별을 얻습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -3450,7 +3450,7 @@ t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
 t("Pull all foes within radius 10 2 grids towards you.", "당신을 기준으로 10 칸 내의 모든 적을 2 칸 끌어옵니다.", "_t")
 t("Crumble", "무너짐", "talent name")
 t([[Fire a blast of darkness at an enemy dealing %0.2f damage and destroying any walls in radius 3 around them.
-		The damage will increase with your Spellpower.]], [[암흑의 화살을 날려, %0.2f 피해를 주고, 대상 주변 반경 3 칸 내의 모든 벽을 파괴합니다.
+		The damage will increase with your Spellpower.]], [[어둠의 화살을 날려 %0.2f 피해를 주고, 대상 주변 반경 3 칸 내의 모든 벽을 파괴합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blightlash", "황폐의 채찍질", "talent name")
 t("You require an empty offhand to use your tentacle hand.", "촉수 손을 사용하기 위해서는 한 쪽 손을 비워야한다.", "logPlayer")
@@ -3485,7 +3485,7 @@ t([[Throw a pebble at your target, dealing %0.2f physical damage.
 t("Netherforce", "황천의 힘", "talent name")
 t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f temporal damage to the target and knocking them back 8 spaces.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], [[공허의 힘으로 적을 강타해 %0.2f 암흑 피해와 %0.2f 시간 피해를 대상에게 입히고, 8 칸 밀쳐냅니다.
+		The damage will increase with your Spellpower.]], [[공허의 힘으로 적을 강타해 %0.2f 어둠 피해와 %0.2f 시간 피해를 대상에게 입히고, 8 칸 밀쳐냅니다.
 		이 주문의 강력함은 시전자에게 엔트로피 반발을 유발합니다. 8 턴에 걸쳐 %d 피해를 입습니다. 이 피해량은 엔트로피의 선물로 적에게 전달될 수 있습니다..
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -3508,7 +3508,7 @@ t([[Your skin grows small spikes coated in dark blight.
 		When you are hit in melee the attacker starts bleeding black blood for 5 turns that deals %0.2f darkness damage each turn. This effect may only happen once per turn.
 		You are empowered by the sight of the black blood, for each bleeding creature in radius 2 you gain 5%% all resistances, limited to %d creatures.
 		The damage will scale with your Magic stat.]], [[어둠의 역병이 흘러내리는 조그만한 가시가 피부를 뒤덮습니다.
-		근접 공격에 피격 시, 공격자는 5 턴 동안 검은 피를 흘리기 시작해 매 턴 %0.2f 암흑 피해를 입습니다. 이 효과는 한 턴에 1 번 일어납니다.
+		근접 공격에 피격 시, 공격자는 5 턴 동안 검은 피를 흘리기 시작해 매 턴 %0.2f 어둠 피해를 입습니다. 이 효과는 한 턴에 1 번 일어납니다.
 		적이 검은 피를 흘리면 시전자는 힘을 얻어, 반경 2 칸 내의 피를 흘리는 개체 하나 당, 모든 저항을 5%% 얻습니다. 이 효과는 %d 체의 적에게서만 발생합니다.
 		피해량은 마법에 비례하여 증가합니다.]], "tformat")
 t("Faceless", "얼굴 없는 존재", "talent name")
@@ -3597,7 +3597,7 @@ t([[Without the distraction of #{bold}#thoughts#{normal}# or #{bold}#self#{norma
 t("Corrupting Influence", "부패하는 영향력", "talent name")
 t([[The parasite corruption seeps into your body, strengthening it.
 		Increases blight, darkness, temporal and acid resistances by %d%% but decreases nature and light resistances by %d%%.]], [[기생생물의 오염이 육체에 스며들어, 육체를 더욱 강하게 합니다.
-		황폐, 암흑, 시간, 산성 저항이 %d%% 증가하지만, 자연과 빛 저항이 %d%% 감소합니다.]], "tformat")
+		황폐, 어둠, 시간, 산성 저항이 %d%% 증가하지만, 자연과 빛 저항이 %d%% 감소합니다.]], "tformat")
 t("Horror Shell", "끔찍한 껍질", "talent name")
 t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 		The total damage the shield can absorb increases with your Constitution.]], [[주변에 껍질을 만들어, %d 피해를 흡수합니다. 10 턴 동안 유지됩니다.
@@ -3620,7 +3620,7 @@ t("Frenzy", "광폭화", "_t")
 t("Class talents have no cooldown the first time they are used.", "첫번째로 사용하는 직업 기술에는 재사용 대기시간이 적용되지 않음.", "_t")
 t("bleed", "출혈", "effect subtype")
 t("Black Blood Bleeding", "검은 피 출혈 중", "_t")
-t("Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "매 턴 %0.2f 암흑 피해 입음.", "tformat")
+t("Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "매 턴 %0.2f 어둠 피해 입음.", "tformat")
 t("#Target# starts to bleed black blood.", "#Target1# 검은 피를 흘리기 시작했다.", "_t")
 t("#Target# stops bleeding black blood.", "#Target#의 검은 피가 멈췄다.", "_t")
 t("blood", "혈액", "effect subtype")
@@ -3698,18 +3698,18 @@ t("Appearance changed to an horror, everything is hostile to it.", "외모가 �
 t("#PURPLE##Target# turns into an horror.", "#PURPLE##Target1# 공포로 변해버렸다.", "_t")
 t("#Target# is back to normal.", "#Target1# 원래대로 돌아왔다.", "_t")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
-t("darkness", "암흑", "effect subtype")
+t("darkness", "어둠", "effect subtype")
 t("gore", "핏덩이", "effect subtype")
 t("Dissolved Face", "녹아내린 얼굴", "_t")
-t("Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "피와 고깃덩어리들로 뒤덮힘 : 질병 하나 당 %0.2f 암흑 피해와 %0.2f 황폐 피해 받음.", "tformat")
+t("Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "피와 고깃덩어리들로 뒤덮힘 : 질병 하나 당 %0.2f 어둠 피해와 %0.2f 황폐 피해 받음.", "tformat")
 t("#Target# is covered in gore.", "#Target2# 핏덩이로 뒤덮혔다.", "_t")
 t("#Target# is no longer covered in gore.", "#Target3# 뒤덮었던 핏덩이들이 씻겨나갔다.", "_t")
 t("fear", "공포", "effect subtype")
-t("Glimpse of True Horror", "진정한 공포의 낌새", "_t")
+t("Glimpse of True Horror", "진정한 공포의 편린", "_t")
 t("Target briefly saw what True Horror means, deeply scaring it. %d%% chances to fail using a talent.", "진정한 공포가 무엇인지 보아 깊은 두려움에 떰 : %d%% 확률로 기술 사용 실패.", "tformat")
 t("#Target# saw true horror.", "#Target1# 진정한 공포를 엿보았다.", "_t")
 t("#Target# is less afraid.", "#Target2# 공포를 이겨낸 것처럼 보인다.", "_t")
-t("Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "적들의 공포에 고조됨 : 암흑, 황폐 저항 관통 +%d%%.", "tformat")
+t("Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "적들의 공포에 고조됨 : 어둠, 황폐 저항 관통 +%d%%.", "tformat")
 t("#Target# is empowered by the fear of #hisher# foes.", "#Target2# #hisher#의 적이 느끼는 공포에서 힘을 취했다.", "_t")
 t("stone", "암석", "effect subtype")
 t("Writhing Hairs", "뒤틀린 머리카락", "_t")
@@ -3727,13 +3727,13 @@ t("Halo of Ruin", "파멸의 후광", "_t")
 t("Increases spell critical chance by %d%%. At 5 stacks, next Nether spell is empowered.", "주문 치명타 확률 +%d%% / 5 중첩 시, 다음번에 사용하는 황천 계열 주문이 강화됨.", "tformat")
 t("%d Halo of Ruin", "파멸의 후광 %d 중첩", "tformat")
 t("Voidburn", "공허 화상", "_t")
-t("The target has been seared by the void, taking %0.2f darkness and %0.2f temporal damage each turn.", "매 턴 %0.2f 암흑 피해와 %0.2f 시간 피해 받음.", "tformat")
+t("The target has been seared by the void, taking %0.2f darkness and %0.2f temporal damage each turn.", "매 턴 %0.2f 어둠 피해와 %0.2f 시간 피해 받음.", "tformat")
 t("#Target# is ignited by voidfire!", "#Target2# 공허 화염으로 불타오른다!", "_t")
 t("+Voidburn", "+공허 화상", "_t")
 t("#Target# is no longer ignited.", "#Target#의 공허 화염이 사그라들었다.", "_t")
 t("-Voidburn", "-공허 화상", "_t")
 t("Dark Whispers", "어둠의 속삭임", "_t")
-t("The target is being driven mad by the void, taking %0.2f darkness damage per turn and reducing all powers by %d.", "공허에 의해 미처감 : 매 턴 %0.2f 암흑 피해 받음 / 물리력, 주문력, 사고력 -%d.", "tformat")
+t("The target is being driven mad by the void, taking %0.2f darkness damage per turn and reducing all powers by %d.", "공허에 의해 미처감 : 매 턴 %0.2f 어둠 피해 받음 / 물리력, 주문력, 사고력 -%d.", "tformat")
 t("#Target# is haunted by the void!", "#Target2# 공허에 의해 두려움에 떤다!", "_t")
 t("+Dark Whispers", "+어둠의 속삭임", "_t")
 t("#Target#'s whispers fade.", "#Target3# 괴롭히던 속삭임이 사라졌다.", "_t")
@@ -3755,7 +3755,7 @@ t("-Entropic Wasting", "-엔트로피 반발", "_t")
 t("#{bold}##LIGHT_STEEL_BLUE#%s loses %d health to the entropy.#{normal}##LAST##", "#{bold}##LIGHT_STEEL_BLUE#%s %d 생명력을 엔트로피 반발로 인해 잃었다.#{normal}##LAST##", "logSeen", nil, {"는"})
 t("#{bold}##RED#%s loses %d health and is almost overcome by the entropy!#{normal}##LAST##", "#{bold}##RED#%s %d 생명력을 엔트로피 반발로 인해 잃었고, 이윽고, 엔트로피에 삼켜지려한다!#{normal}##LAST##", "logSeen", nil, {"는"})
 t("Entropic Gift", "엔트로피의 선물", "_t")
-t("The full force of entropy has been brought to bear on the target, inflicting %0.2f darkness and %0.2f temporal damage each turn.", "엔트로피의 막강한 힘이 깃듬 : 매 턴 %0.2f 암흑 피해와 %0.2f 시간피해 받음.", "tformat")
+t("The full force of entropy has been brought to bear on the target, inflicting %0.2f darkness and %0.2f temporal damage each turn.", "엔트로피의 막강한 힘이 깃듬 : 매 턴 %0.2f 어둠 피해와 %0.2f 시간 피해 받음.", "tformat")
 t("#Target# is consumed by entropy!", "#Target2# 엔트로피에 의해 삼켜진다!", "_t")
 t("+Entropic Gift", "+엔트로피의 선물", "_t")
 t("#Target# has survived the entropic gift.", "#Target2# 엔트로피의 선물에서 살아남았다.", "_t")
@@ -3769,7 +3769,7 @@ t("#Target# is free from the prophecy.", "#Target1# 들은 예언은 성사되�
 t("-Prophecy of Madness", "-광기의 예언", "_t")
 t("%s talent '%s%s' is energized by the revelation!", "%s의 기술 '%s%s' 은 계시로 인해 재사용 대기시간이 단축되었다!", "logSeen")
 t("Prophecy of Ruin", "파멸의 예언", "_t")
-t("The target is doomed to ruin.  On falling below 75%%, 50%% or 25%% life all enemies in radius %d will take %0.2f darkness damage", "파멸의 예언을 받음 : 생명력이 75%%, 50%%, 25%% 이하로 떨어지면, 반경 %d 칸 내의 적들이 %0.2f 암흑 피해를 입음", "tformat")
+t("The target is doomed to ruin.  On falling below 75%%, 50%% or 25%% life all enemies in radius %d will take %0.2f darkness damage", "파멸의 예언을 받음 : 생명력이 75%%, 50%%, 25%% 이하로 떨어지면, 반경 %d 칸 내의 적들이 %0.2f 어둠 피해를 입음", "tformat")
 t("#Target# is doomed to ruin!", "#Target2# 파멸로 인해 끝장날 것이라는 예언을 들었다!", "_t")
 t("+Prophecy of Ruin", "+파멸의 예언", "_t")
 t("-Prophecy of Ruin", "-파멸의 예언", "_t")
@@ -3834,14 +3834,14 @@ t("Fortune", "행운", "_t")
 t("The target has %d increased saves and defense, and %d%% increased critical chance.", "모든 내성과 회피도 +%d / 치명타 확률 +%d%%", "_t")
 t("The target has %d increased saves and defense, %d%% increased critical chance, and %d%% chance to avoid all damage.", "모든 내성, 회피도 +%d / 치명타 확률 +%d%%  / 피해 무효화 확률 +%d%%.", "_t")
 t("Unravelling", "존재 해체", "_t")
-t("The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "현실 구조에서 사라지는 중 : 마법 효과가 적용될 시, %0.2f 암흑 피해와 %0.2f 시간 피해를 입음 / 효과가 5 개 적용되면, 강력한 소멸의 전령이 나타남.", "tformat")
+t("The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "현실 구조에서 사라지는 중 : 마법 효과가 적용될 시, %0.2f 어둠 피해와 %0.2f 시간 피해를 입음 / 효과가 5 개 적용되면, 강력한 소멸의 전령이 나타남.", "tformat")
 t("#Target# is being erased from reality!", "#Target2# 현실에서 지워지고 있다!", "_t")
 t("#Target# has survived the unraveling.", "#Target2# 존재 해체에서 살아남았다.", "_t")
 t("Fatebreaker", "운명 파괴자", "_t")
 t("The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "타인의 운명에 묶여있음 : 효과 부여자가 죽을 경우, 선택된 희생자가 그 대신 죽게 되고, 효과 부여자는 불운과 행운 중첩마다 생명력을 %d 회복함.", "tformat")
 t("#Target# intertwines it's fate!", "#Target#의 운명이 뒤얽혔다!", "_t")
 t("#Target#'s fate is no longer linked to another.", "#Target#의 운명 연결이 끊어졌다.", "_t")
-t("Redirecting all damage as temporal and darkness to %s.", "받는 모든 피해를 암흑과 시간 속성으로 변환해 %s에게 전송.", "tformat")
+t("Redirecting all damage as temporal and darkness to %s.", "받는 모든 피해를 어둠과 시간 속성으로 변환해 %s에게 전송.", "tformat")
 t("Decaying Ground", "부패하는 대지", "_t")
 t("All cooldowns increased by %d%%.", "재사용 대기시간 +%d%%.", "tformat")
 t("#Target# is caught in decaying ground.", "#Target2# 부패하는 대지 안에 들어왔다.", "_t")
@@ -3885,7 +3885,7 @@ Each turn a radius 2 explosion will occur in a random space dealing %0.2f darkne
 
 모든 부정적인 효과가 제거됨 / 효과를 적용 받을 때, 즉시 재사용 대기시간이 초기화됨.
 
-매 턴, 반경 2 칸의 폭발이 무작위한 공간에 일어나 %0.2f 암흑과 시간 피해를 주고, 굴착 가능한 벽을 부숨.]], "tformat")
+매 턴, 반경 2 칸의 폭발이 무작위한 공간에 일어나 %0.2f 어둠과 시간 피해를 주고, 굴착 가능한 벽을 부숨.]], "tformat")
 t("entropy", "엔트로피", "effect subtype")
 t("Total Collapse", "완전한 붕괴", "_t")
 t("Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "이곳에서는 신체가 제대로 작동하지 않음 : 매 턴 %0.2f 공허 피해 받음 / 새로 받는 부정적인 효과의 지속시간이 %d%% 연장됨. 이 효과가 사라지기 전까지, 이 불이익은 점점 커짐.", "tformat")
@@ -4920,7 +4920,7 @@ t([[Infused by #YELLOW#psionic forces#LAST#
 ]], [[#YELLOW#초능력의 힘#LAST#으로 벼려짐
 ]], "_t")
 t([[Powered by #CRIMSON#unknown forces#LAST#
-]], [[#CRIMSON#알 수 없는 힘#LAST#이 스며듬
+]], [[#CRIMSON#알 수 없는 힘#LAST#이 스며듦
 ]], "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#이런 류의 '미리 결정된' 결과는 시간 여행을 해도 바뀌지 않습니다.", "_t")
 t("Select a properties set", "능력을 선택", "_t")

@@ -698,7 +698,7 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		Each time you deal darkness, fire, blight or acid damage you curse your foe with an effect that stacks up to %d times (this can happen only once per creature per turn).
 		The vim you get for killing the creature is increased by 100%% for every stack of Bleak Outcome.
 		The vim's worth of a creature depends on your Willpower.]], [[시전자의 행동은 적들에게 있어, 암울한 결과를 암시하는 전조가 됩니다.
-		암흑, 화염, 황폐 또는 산성 피해를 가할 때마다, 최대 %d 번 중첩되는 저주를 겁니다. (이 효과는 하나의 적에게 한 턴에 한 번 적용됩니다.)
+		어둠, 화염, 황폐 또는 산성 피해를 가할 때마다, 최대 %d 번 중첩되는 저주를 겁니다. (이 효과는 하나의 적에게 한 턴에 한 번 적용됩니다.)
 		적을 죽이고 얻는 원기 획득량이, 적에게 적용된 암울한 결과 중첩마다 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat")
 t("Weakened Soul", "약해진 영혼", "talent name")
@@ -708,7 +708,7 @@ t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
 		While powered-up you can not apply new Bleak Outcome stacks.		
 		Damage is based on your Spellpower.]], [[미래는 확실히 어둡습니다... 적들에게 말이죠...
-		암울한 결과가 적용된 적을 지정하여, 최대 %s 중첩을 소모해, 소모된 중첩 당 %0.2f 암흑 피해를 주고, 시전자의 주문력이 6 턴 동안 4 증가합니다.
+		암울한 결과가 적용된 적을 지정하여, 최대 %s 중첩을 소모해, 소모된 중첩 당 %0.2f 어둠 피해를 주고, 시전자의 주문력이 6 턴 동안 4 증가합니다.
 		지속 시간 동안, 암울한 결과 중첩을 쌓을 수 없습니다.		
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Ominous Shadow", "불길한 그림자", "talent name")
@@ -754,7 +754,7 @@ t("Imbue yourself with the forces of Mal'Rok, the demon's homeworld, to protect 
 t("black-magic", "흑마법", "_t")
 t("That Old Black Magic.", "그 오래된 흑마법들...", "_t")
 t("doom covenant", "파멸의 계약", "_t")
-t("Control darkness to crush your foes.", "암흑을 조종해 적들을 파괴합니다.", "_t")
+t("Control darkness to crush your foes.", "어둠을 조종해 적들을 박살냅니다.", "_t")
 t("spellblaze", "마법폭발", "_t")
 t("Use the very power of the Spellblaze to destroy your foes.", "마법폭발의 강력한 힘으로 적을 파괴합니다.", "_t")
 t("brutality", "흉포", "_t")
@@ -906,7 +906,7 @@ t("@Source@ breathes fetid matter!", "@Source2@ 역겨운 분출물을 뿜어낸
 t([[You breathe a mix of darkness and flight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
 		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
 		The damage will increase with your Spellpower.
-		]], [[반경 %d 칸의 어둠의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 암흑/황폐 피해를 받습니다.
+		]], [[반경 %d 칸의 어둠의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 어둠/황폐 피해를 받습니다.
 		추가로, 시전자가 물리 공격을 가할 시, 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어낼 수 있게 됩니다.
 		피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
@@ -1107,9 +1107,9 @@ t([[You learn to use death around you to an even greater advantage.
 		This effect can only happen once per turn.
 		The damage increases with spellpower.
 		At talent level 3 your Dark Reign buff also protects you from death until reaching %d life per stack.]], [[주변의 죽음을 통해 보다 강력한 이득을 볼 수 있게 합니다.
-		어둠의 지배가 활성화됐을때, 암흑 속성이 아닌 피해로 적을 살해하거나, 적의 최대 생명력의 %d%% 이상의 암흑 속성이 아닌 피해를 가하면, 대상의 죽음을 뽑아내어 5 턴 동안 지속되는 반경 1 칸의 암흑 에너지 웅덩이를 생성합니다.
+		어둠의 지배가 활성화됐을때, 어둠 속성이 아닌 피해로 적을 살해하거나, 적의 최대 생명력의 %d%% 이상의 어둠 속성이 아닌 피해를 가하면, 대상의 죽음을 뽑아내어 5 턴 동안 지속되는 반경 1 칸의 암흑 에너지 웅덩이를 생성합니다.
 		이 웅덩이는 시전자를 기준으로, 반경 %d 칸 내의 무작위한 적의 위치에 생성됩니다.
-		웅덩이에 영향을 받는 적은 매 턴 %0.2f 암흑 피해를 받습니다.
+		웅덩이에 영향을 받는 적은 매 턴 %0.2f 어둠 피해를 받습니다.
 		이 효과는 한 턴에 1 번만 일어납니다.
 		피해량은 주문력에 비례하여 증가합니다.
 		기술 레벨 3 일 때, 어둠의 지배 효과가 죽음으로부터 시전자를 보호해, 매 중첩 당 생명력 하한이 %d 증가합니다.]], "tformat")
@@ -1150,7 +1150,7 @@ t([[Taking example from Mal'Rok, the demon's homeworld you harden yourself.
 		방어력이 %d%% + 10 증가하고, 주문력이 %d 증가합니다.]], "tformat")
 t("Demonic Madness", "악마적 광기", "talent name")
 t([[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns.
-		At level 4 you also automatically block at the end.]], [[방패를 미친 듯이 회전시켜, 시전자 근처의 적에게 %d%% 방패 피해를 암흑 속성으로 가하고, 적들에게 %d 턴 동안 혼란을 유발합니다.
+		At level 4 you also automatically block at the end.]], [[방패를 미친 듯이 회전시켜, 시전자 근처의 적에게 %d%% 방패 피해를 어둠 속성으로 가하고, 적들에게 %d 턴 동안 혼란을 유발합니다.
 		기술 레벨 4 일 때, 기술 사용 후 자동적으로 방패 막기 태세에 돌입합니다.]], "tformat")
 t("Blighted Shield", "황폐화된 방패", "talent name")
 t([[Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence.
@@ -1235,7 +1235,7 @@ t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d
 		If the attack hits the creature is impaled by the horns, causing it to bleed black blood for 50%% of the damage done as darkness over 5 turns.
 		Any time you damage this foe in melee while it bleeds you get healed for %d (this can only happen once per turn).
 		The healing power increases with your spellpower.]], [[일시적으로 방패에 악마의 뿔을 자라나게 해, 적을 %d%% 피해로 가격합니다.
-		공격이 적중하면 대상은 뿔에 관통되어, 검은 피 출혈이 일어나 받은 피해의 50%% 에 해당하는 피해를 5 턴에 걸쳐 암흑 속성으로 받습니다.
+		공격이 적중하면 대상은 뿔에 관통되어, 검은 피 출혈이 일어나 받은 피해의 50%% 에 해당하는 피해를 5 턴에 걸쳐 어둠 속성으로 받습니다.
 		출혈이 일어난 적을 근접 공격으로 공격할 시, 시전자의 생명력이 %d 회복됩니다. (이 효과는 한 턴에 1 번 일어납니다)
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -1300,7 +1300,7 @@ t([[Bringing about the darkest days of the Spellblaze you hasten the death of yo
 		Affected foes will start taking %0.2f darkness damage each turn until it dies as long as it remains in radius %d of you.
 		The damage increases with spellpower.]], [[마법폭발의 가장 어두운 날을 현현시켜, 빠르게 죽음을 선고합니다.
 		반경 %d 칸 내의 적에게 공격을 가할 때, 대상의 생명력이 33%% 이하로 떨어지면 마법폭발의 분노를 자동으로 해방시킵니다.
-		영향을 받은 적은 매 턴 %0.2f 암흑 피해를 받습니다. 이 효과는 시전자를 기준으로 반경 %d 칸 내에 있을 시, 죽을 때까지 지속됩니다.
+		영향을 받은 적은 매 턴 %0.2f 어둠 피해를 받습니다. 이 효과는 시전자를 기준으로 반경 %d 칸 내에 있을 시, 죽을 때까지 지속됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Shattered Mind", "파괴된 정신", "talent name")
 t([[When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns.
@@ -1312,7 +1312,7 @@ t([[You chant the destruction of Mal'Rok, the demon's homeworld.
 		Baned creatures also suffer %0.2f darkness damage per turn.
 		Damage increases with your spellpower.]], [[악마들의 모성인 말'록의 파괴에 대한 찬가를 부릅니다.
 		적을 쓰러뜨릴 때마다, 반경 %d 칸의 마법의 파문을 발산해, %d 턴 동안 지속되는 실명의 파멸이나 혼란의 파멸을 유발합니다
-		파멸한 적은 매 턴 %0.2f 암흑 피해를 받습니다.
+		파멸한 적은 매 턴 %0.2f 어둠 피해를 받습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -1419,7 +1419,7 @@ t([[Your original invisibility talent was corrupted and twisted.
 		최대 생명력의 10%% 이상의 피해를 한 번에 받았을 때, %d%% 확률로 5 턴 동안 듀아세들렌으로 변신합니다.
 		이때 다음과 같은 효과를 받습니다.
 		- 영구적인 은신. (은신력 %d)
-		- 암흑 피해량이 %d%% 증가합니다.
+		- 어둠 피해량이 %d%% 증가합니다.
 		- 피해량 %d 이상의 비정신적, 비물리적 피해를 가하면 반경 1 칸의 폭발을 일으켜, 폭발에 휩쓸린 적에게 절반의 피해를 줍니다. (이 효과는 한 턴에 1 번만 발동됩니다)
 		- 변신할 때, 몰락한 자의 신속함과 냉혹함의 재사용 대기시간이 초기화됩니다.
 		]], "tformat")
@@ -1568,9 +1568,9 @@ t("-Doomed Nature", "-파멸한 자연", "_t")
 t("wound", "상처", "effect subtype")
 t("cut", "상처", "effect subtype")
 t("bleed", "출혈", "effect subtype")
-t("darkness", "암흑", "effect subtype")
+t("darkness", "어둠", "effect subtype")
 t("Demonic Cut", "악마적인 상처", "_t")
-t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "거대한 악마적인 출혈상 : 매 턴 %0.2f 암흑 피해 받음 / 이 대상을 공격하는 공격자는 생명력이 %d 회복됨.", "tformat")
+t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "거대한 악마적인 출혈상 : 매 턴 %0.2f 어둠 피해 받음 / 이 대상을 공격하는 공격자는 생명력이 %d 회복됨.", "tformat")
 t("#Target# starts to bleed darkness.", "#Target#의 그림자 상처에서 피가 흘러나온다.", "_t")
 t("+Demonic Cut", "+악마적인 상처", "_t")
 t("#Target# stops bleeding darkness.", "#Target#의 그림자 상처가 아물었다.", "_t")
@@ -1603,7 +1603,7 @@ Will not die until %d life]], [[모든 속성 친화 +%d%%
 t("+Dark Reign", "+어둠의 지배", "_t")
 t("-Dark Reign", "-어둠의 지배", "_t")
 t("Blood Pact", "피의 계약", "_t")
-t("All damage you deal is converted to darkness.", "가하는 모든 피해가 암흑 속성으로 전환됨.", "tformat")
+t("All damage you deal is converted to darkness.", "가하는 모든 피해가 어둠 속성으로 전환됨.", "tformat")
 t("#Target# becomes an avatar of darkness!", "#Target2# 어둠의 화신이 되었다!", "_t")
 t("+Blood Pact", "+피의 계약", "_t")
 t("The darkness within #target# subsides.", "#target# 내부의 어둠이 가라앉았다.", "_t")

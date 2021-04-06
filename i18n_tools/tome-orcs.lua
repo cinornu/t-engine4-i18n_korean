@@ -1428,7 +1428,7 @@ t("heal %d", "생명력 %d 회복", "_t")
 t("%s pain suppressor salve", "%s 진통 연고", "tformat")
 t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "생명력이 -%%d 에 이를 때까지 죽지 않고, 피격 시 받는 피해량을 %d%%%% 줄입니다. %d 턴동안 유지됩니다. (활성화 시 턴을 소모하지 않습니다)", "tformat")
 t("%s frost salve", "%s 서리 연고", "tformat")
-t("remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "%d 개의 물리 효과를 제거하고 서리의 기운을 부여합니다 (%s 냉기, 암흑, 자연 속성 친화)", "tformat")
+t("remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "%d 개의 물리 효과를 제거하고 서리의 기운을 부여합니다 (%s 냉기, 어둠, 자연 속성 친화)", "tformat")
 t("%s fiery salve", "%s 불꽃 연고", "tformat")
 t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "%d 개의 마법 효과를 제거하고 불꽃의 기운을 부여합니다 (%s 화염, 전기, 빛 속성 친화)", "tformat")
 t("%s water salve", "%s 물방울 연고", "tformat")
@@ -3922,7 +3922,7 @@ t("", "", "_t")
 section "tome-orcs/data/talents/celestial/cosmic.lua"
 
 t("Lunar Orb", "달의 구체", "talent name")
-t("Fires out a bolt of cosmic energy in the target direction. The projectile continues until it hits a wall or the edge of the map, dealing %0.2f dark damage to enemies hit and restoring %d negative energy. The negative energy gained is reduced by 25%% per enemy hit, restoring a maximum of %d. Enemies hit will become aware of you.", "대상의 방향으로 우주 에너지의 화살을 날립니다. 투사체는 벽에 닿거나, 맵의 끝에 닿을 때까지 계속 움직입니다. %0.2f 암흑 피해를 주며, 시전자는 %d 음기를 회복합니다. 음기 회복량은 피격 당한 적마다 25%% 씩 감소합니다. 최대 %d 음기를 회복할 수 있습니다. 공격받은 적은 시전자가 어딨는지 알아차립니다.", "tformat")
+t("Fires out a bolt of cosmic energy in the target direction. The projectile continues until it hits a wall or the edge of the map, dealing %0.2f dark damage to enemies hit and restoring %d negative energy. The negative energy gained is reduced by 25%% per enemy hit, restoring a maximum of %d. Enemies hit will become aware of you.", "대상의 방향으로 우주 에너지의 화살을 날립니다. 투사체는 벽에 닿거나, 맵의 끝에 닿을 때까지 계속 움직입니다. %0.2f 어둠 피해를 주며, 시전자는 %d 음기를 회복합니다. 음기 회복량은 피격 당한 적마다 25%% 씩 감소합니다. 최대 %d 음기를 회복할 수 있습니다. 공격받은 적은 시전자가 어딨는지 알아차립니다.", "tformat")
 t("Astral Path", "우주의 길", "talent name")
 t("The spell fizzles: there are no available spots to teleport to.", "주문 실패: 순간이동 가능한 장소가 해당 위치에는 존재하지 않는다.", "logSeen")
 t([[Fire an orb of negative energy towards a spot within range %d.
@@ -3933,12 +3933,12 @@ t([[Fire an orb of negative energy towards a spot within range %d.
 t("Galactic Pulse", "은하의 고동", "talent name")
 t([[Sends out a slow-moving spiral of cosmic energy towards a target location within range 8.
 		As the cosmic energy moves, it pulls in targets adjacent to it, dealing %0.2f darkness damage and granting you 1 negative energy per hit.]], [[느린 속도로 움직이는 나선 은하의 에너지를 대상을 향해 방출합니다. 은하 에너지는 8 칸 내의 적에게 느린 속도로 나아갑니다.
-		은하 에너지가 나아갈 때, 은하 에너지는 인근의 적들을 끌어모으고, %0.2f 암흑 피해와 피격 당한 대상 당 1 음기를 회복합니다.]], "tformat")
+		은하 에너지가 나아갈 때, 은하 에너지는 인근의 적들을 끌어모으고, %0.2f 어둠 피해와 피격 당한 대상 당 1 음기를 회복합니다.]], "tformat")
 t("Supernova", "초신성", "talent name")
 t([[Expend all of your negative energy to create a massive burst of dark energy (radius %d) at a target location within range %d.
 		This deals %0.2f darkness damage and pins targets hit for %d turns.
 		The damage and pin chance increase with your spellpower, and the damage, radius and pin duration all increase with negative energy and talent level]], [[시전자의 모든 음기를 끌어 모아 반경 %d 칸에 거대한 암흑 에너지의 폭발을 일으킵니다. %d 칸 내의 위치를 폭발 진원지로 선택할 수 있습니다.
-		폭발은 %0.2f 암흑 피해를 주고 피격당한 대상을 %d 턴 동안 속박합니다.
+		폭발은 %0.2f 어둠 피해를 주고 피격당한 대상을 %d 턴 동안 속박합니다.
 		피해량과 속박 확률은 주문력에 비례하고, 피해량과 범위, 속박 지속 시간은 시전자의 현재 음기와 기술 레벨에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -3951,7 +3951,7 @@ Light damage slows the target by %0.2f%% per point of damage dealt for %d turns,
 Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[대상은 빛과 어둠 피해의 반향을 %d 턴 동안 느낍니다. 
 
 대상은 %d 턴 동안, 빛 속성 피해 1 당 %0.2f%% 감속됩니다. 최대 %d 피해에서 %d%% 감속됩니다.
-암흑 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 암흑 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받던, 다른 요인으로 인해 암흑 피해를 받던, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과, 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
+어둠 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 어둠 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받던, 다른 요인으로 인해 어둠 피해를 받던, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과, 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/energies.lua"
@@ -3979,7 +3979,7 @@ t("Mirror Self", "자기 반사", "talent name")
 t("Mirror Image (%s)", "거울의 상 (%s)", "tformat")
 t("A cloned image of you.", "당신의 복제된 상이다.", "_t")
 t("Mirror Self", "자기 반사", "_t")
-t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "거울의 상을 %d 턴 동안 소환합니다. 거울의 상은 시전자가 사용하는 모든 주문을 시전할 수 있습니다. 거울의 상이 가하는 피해량은 %d%% 로 변동되며, 거울의 상은 %d%% 변동된 생명력을 갖고 있습니다. 추가로, 거울의 상이 가하는 모든 빛 속성 피해는 암흑 속성 피해가 되고, 모든 암흑 속성 피해는 빛 속성 피해가 됩니다.", "tformat")
+t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "거울의 상을 %d 턴 동안 소환합니다. 거울의 상은 시전자가 사용하는 모든 주문을 시전할 수 있습니다. 거울의 상이 가하는 피해량은 %d%% 로 변동되며, 거울의 상은 %d%% 변동된 생명력을 갖고 있습니다. 추가로, 거울의 상이 가하는 모든 빛 속성 피해는 어둠 속성 피해가 되고, 모든 어둠 속성 피해는 빛 속성 피해가 됩니다.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/sol.lua"
@@ -4009,7 +4009,7 @@ Light damage slows the target by %0.2f%% per point of damage dealt for %d turns,
 Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[대상은 빛과 어둠 피해의 반향을 %d 턴 동안 느낍니다. 
 
 대상은 %d 턴 동안, 빛 속성 피해 1 당 %0.2f%% 감속됩니다. 최대 %d 피해에서 %d%% 감속됩니다.
-암흑 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 암흑 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받던, 다른 요인으로 인해 암흑 피해를 받던, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과, 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
+어둠 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 어둠 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받던, 다른 요인으로 인해 어둠 피해를 받던, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과, 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
 t("Starscape", "우주", "talent name")
 t("This spell cannot be cast here.", "이 주문을 이곳에서 시전할 수 없다.", "logPlayer")
 t("Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "주변 %d 칸 범위에 우주 그 자체를 %d 턴 동안 소환합니다. 그 동안 해당 장소는 정상적인 시간의 흐름에서 이탈하게 되고, 무중력 상태에 돌입하게 됩니다. 무중력 상태는 투사체 속도와 이동 속도를 3 배 느리게 합니다. 온갖 종류의 기술들은 이 기술의 효과가 종료될 때까지 우주의 범위 내에 남을 것입니다.", "tformat")
@@ -4495,7 +4495,7 @@ t([[You revel in death, devouring the souls of your victims. Whenever you inflic
 		피해량은 주문력과 정신력 중 높은 값에 비례하고, 이 효과는 한 턴에 최대 25 번 일어납니다.]], "tformat")
 t("Infectious Miasma", "감염성 독기", "talent name")
 t([[Release a cloud of deadly miasma over a targeted area, dealing %0.2f darkness damage to all units inside it with a 20%% chance of inflicting a disease that will do blight damage and weaken either Constitution, Strength or Dexterity for %d turns.
-		The damage will scale with the highest of your spell or mind power.]], [[해당 지역에 죽음의 독기를 풀어놓아 지역 내의 모든 개체에게 %0.2f 암흑 피해를 줍니다. 독기는 20%% 확률로 %d 턴 동안 지속되는 질병에 감염시켜 매 턴 황폐 피해를 가하고, 체격, 힘, 또는 민첩 중 하나를 감소시킵니다.
+		The damage will scale with the highest of your spell or mind power.]], [[해당 지역에 죽음의 독기를 풀어놓아 지역 내의 모든 개체에게 %0.2f 어둠 피해를 줍니다. 독기는 20%% 확률로 %d 턴 동안 지속되는 질병에 감염시켜 매 턴 황폐 피해를 가하고, 체격, 힘, 또는 민첩 중 하나를 감소시킵니다.
 		피해량은 주문력과 정신력 중 높은 값에 비례합니다.]], "tformat")
 t("Vampiric Surge", "흡혈의 쇄도", "talent name")
 t([[You surge with a life draining energy for %d turns.
@@ -6076,7 +6076,7 @@ t("The target is warm from the campfire. Increasing steam regeneration by 6/turn
 t("Sun Radiance", "태양의 광휘", "_t")
 t("The target is under the effect of the sun. Increasing lite and sight radius by 2, blindness immunity by 30%, stealth seeing by 20 and light resistance by 30%.", "대상이 태양의 영향 아래에 있음 : 광원과 시야 범위 +2 / 실명 면역력 +30% / 은신 탐지력 +20 / 빛 저항 +30%.", "_t")
 t("Moon Radiance", "달의 광휘", "_t")
-t("The target is under the effect of the moons. Decreasing lite and sight radius by 1, increasing stun immunity by 30%, granting 10 stealth and darkness resistance by 30%.", "대상이 달의 영향 아래에 있음 : 광원과 시야 범위 -1 / 기절 면역력 +30% / 은신력 +10 / 암흑 저항 +30%.", "_t")
+t("The target is under the effect of the moons. Decreasing lite and sight radius by 1, increasing stun immunity by 30%, granting 10 stealth and darkness resistance by 30%.", "대상이 달의 영향 아래에 있음 : 광원과 시야 범위 -1 / 기절 면역력 +30% / 은신력 +10 / 어둠 저항 +30%.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/magical.lua"
@@ -6098,7 +6098,7 @@ t("-Shield", "-보호막", "_t")
 t("dark", "어둠", "effect subtype")
 t("light", "빛", "effect subtype")
 t("Twilit Echoes", "황혼의 반향", "_t")
-t("The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "모든 빛과 어둠 피해를 느끼게됨 : 받는 빛 피해 1 당 %0.2f%% 감속됨. 최대 %d%% 감속 - %d 피해. 암흑 피해를 받을 시 %d 턴 동안 받은 피해의 %d%% 를 추가로 받음. 암흑 속성 피해를 받으면 이 효과는 갱신됨.", "tformat")
+t("The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "모든 빛과 어둠 피해를 느끼게 됨 : 받는 빛 피해 1 당 %0.2f%% 감속됨. 최대 %d%% 감속 - %d 피해. 어둠 피해를 받을 시 %d 턴 동안 받은 피해의 %d%% 를 추가로 받음. 어둠 속성 피해를 받으면 이 효과는 갱신됨.", "tformat")
 t("slow", "감속", "effect subtype")
 t("Echoed Light", "반향한 빛", "_t")
 t("The light damage the target has taken is echoed, slowing them by %d%%. Taking additional damage while Twilit Echoes is active will refresh and increase the slow up to a maximum of %d%%.", "대상이 받은 빛 피해가 울려 퍼짐 : %d%% 감속 / 황혼의 반향 동안 받는 추가 피해는 이 효과를 갱신하고, 최대 %d%% 감속 가능.", "tformat")
@@ -6340,7 +6340,7 @@ t("#Target# is not affected anymore by the salve.", "#Target#의 연고 효과�
 t("-Pain Suppressor", "-진통 연고", "_t")
 t("frost", "서리", "effect subtype")
 t("Frost Salve", "서리 연고", "_t")
-t("Provides a frost aura, giving you +%d%% cold, nature and darkness affinity.", "서리의 기운에 둘러싸임 : 냉기, 자연, 암흑 속성 친화 +%d%%.", "tformat")
+t("Provides a frost aura, giving you +%d%% cold, nature and darkness affinity.", "서리의 기운에 둘러싸임 : 냉기, 자연, 어둠 속성 친화 +%d%%.", "tformat")
 t("#Target# uses a frost salve.", "#Target2# 서리 연고를 사용한다.", "_t")
 t("+Frost Salve", "+서리 연고", "_t")
 t("-Frost Salve", "-서리 연고", "_t")
@@ -6776,7 +6776,7 @@ To be used with the medical injector implant.]], [[일정 시간 동안 몸을 �
 연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Frost Salve", "서리 연고", "_t")
 t([[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
-To be used with the medical injector implant.]], [[부정적인 물리 효과를 제거하고, 서리의 기운을 부여하는 연고입니다. (냉기, 암흑, 자연 속성 친화).
+To be used with the medical injector implant.]], [[부정적인 물리 효과를 제거하고, 서리의 기운을 부여하는 연고입니다. (냉기, 어둠, 자연 속성 친화).
 연고를 사용하려면 의료용 주사기가 필요합니다.]], "_t")
 t("Fiery Salve", "불꽃 연고", "_t")
 t([[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
