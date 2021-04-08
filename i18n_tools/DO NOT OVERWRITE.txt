@@ -26,3 +26,6 @@ t("Whatever.", "덤벼라.", "_t")
 section "tome-orcs/data/chats/metash.lua"
 t("I will!", "그렇게 하지!", "_t")
 t("Thanks.", "고맙군.", "_t")
+
+section "mod-tome/class/EscortRewards.lua"
+t("mental", "정신", "_t")
