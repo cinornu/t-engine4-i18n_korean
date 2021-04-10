@@ -383,7 +383,7 @@ t([[Total playtime of all registered players:%s
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played races", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 다섯 종족들 중 하나입니다", "tformat", nil, {"는"})
 t("#LIGHT_BLUE#%s#WHITE# is one of the top five played classes", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 다섯 직업들 중 하나입니다", "tformat", nil, {"는"})
 t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE# 플레이어를 가장 많이 쓰러뜨린 열 종류의 적 중 하나입니다", "tformat", nil, {"는"})
-t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이 된 종족/직업 조합입니다", "tformat", nil, {"는"})
+t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 열 가지 종족/직업 조합 중 하나입니다", "tformat", nil, {"는"})
 t("There are currently %d people playing online", "현재 %d 명의 플레이어들이 온라인 상태에 있습니다", "tformat")
 t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "캐릭터 보관소에는 총 #RED#%d#WHITE# 캐릭터의 죽음이 기록되어 있습니다", "tformat")
 t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소는 현재 버전의 승자 #LIGHT_BLUE#%d#WHITE# 명이 기록되어 있습니다", "tformat")
