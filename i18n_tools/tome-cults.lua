@@ -2822,7 +2822,7 @@ t([[Your tongue turns into a diseased tentacle that you use to #{italic}#lick#{n
 		If at least one enemy is hit you gain %d insanity.
 		
 		Disease damage will increase with your Spellpower.]], [[혀가 병 걸린 촉수로 변해 원뿔 범위의 적들을 #{italic}#핥습니다.#{normal}#
-		핥아진 적들은 방어력을 무시하는 %d%%의 촉수 피해를 입습니다. 또한 질병에 감염되어 %d 턴 동안, %0.2f 황폐 피해를 매 턴 받고, 민첩, 건강, 힘이 %d 감소합니다.
+		핥아진 적들은 방어력을 무시하는 %d%%의 촉수 피해를 입습니다. 또한 질병에 감염되어 %d 턴 동안, %0.2f 황폐 피해를 매 턴 받고, 민첩, 체격, 힘이 %d 감소합니다.
 		
 		하나의 적에게라도 피해를 준 경우, 시전자는 %d의 광기를 획득합니다.
 		
