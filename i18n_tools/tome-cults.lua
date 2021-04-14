@@ -3352,8 +3352,8 @@ t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#%s의 시간
 t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "대상과 흡사한 뒤틀린 상으로, 모든 가능성이 존재하는 미래의 너울거리는 흐릿한 형체를 갖고 있다.", "_t")
 t("Summon", "소환", "_t")
 t([[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
-While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[대상은 시간의 흐름에서 %d 턴 동안 지워지고, 능력 사용과 세계와의 상호작용을 완전 봉쇄합니다. 받는 모든 피해는 %d%% 줄어들고, 가하는 모든 피해도 %d%% 줄어듭니다.
-활성화 시, 찢겨진 대상의 시간선을 우호적인 시간 분신으로 다시 자아냅니다. 분신의 지속시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 %d%% 적은 생명력과 %d%% 적은 피해량을 가집니다.]], "tformat")
+While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[적 하나를 지정하여 %d 턴 동안 시간의 흐름에서 부분적으로 지우고, 이 세계와의 상호작용을 방해합니다. 대상이 받는 모든 피해량은 %d%% 로 감소하고, 대상이 가하는 모든 피해량도 %d%% 로 감소합니다.
+활성화 시, 찢겨진 대상의 시간선을 시간 분신으로 다시 자아내어 시전자의 편에서 싸우게 합니다. 분신의 유지시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 생명력은 %d%% 더 적으며 가하는 피해량은 원본의 %d%% 입니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/void.lua"
@@ -3718,8 +3718,8 @@ t("#Target# is half-turned to stone.", "#Target2# 반 석화되었다.", "_t")
 t("#Target# looks less like a statue.", "#Target2# 원래대로 돌아왔다.", "_t")
 t("temporal", "시간", "effect subtype")
 t("Split", "분열", "_t")
-t("Faded from time, reducing damage taken by %d%% and all damage dealt by %d%%.", "시간선에서 흐려짐 : 받는 피해량 -%d%% 가하는 피해량 -%d%%.", "tformat")
-t("#Target# is removed from the timeline!", "#Target2# 시간선에서 지워지고 있다!", "_t")
+t("Faded from time, reducing damage taken by %d%% and all damage dealt by %d%%.", "시간선에서 흐려짐 : 받는 피해량 %d%%로 감소, 가하는 피해량 %d%%로 감소.", "tformat")
+t("#Target# is removed from the timeline!", "#Target2# 시간선에서 지워졌다!", "_t")
 t("+Split", "+분열", "_t")
 t("#Target# returns to normal time.", "#Target1# 원래 시간선으로 돌아왔다.", "_t")
 t("-Split", "-분열", "_t")

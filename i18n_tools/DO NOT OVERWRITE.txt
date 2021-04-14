@@ -29,3 +29,11 @@ t("Thanks.", "고맙군.", "_t")
 
 section "mod-tome/class/EscortRewards.lua"
 t("mental", "정신", "_t")
+
+
+section "tome-cults/data/talents/demented/timethief.lua"
+t("Split", "분열", "talent name")
+스킬의 설명과 실제 적용식이 다름
+
+생성되는 분신 체력: m.max_life = m.max_life * (20 + modifier) / 100
+생성되는 분신 피해량: m.inc_damage.all = (m.inc_damage.all or 0) - 40 + modifier
