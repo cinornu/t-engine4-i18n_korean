@@ -2229,7 +2229,7 @@ According to the records of Anglowen, Quekorja was slain during the Godhunt and 
 
 또한 쿠에코르자는 ...의 창조에 책임이 있다고 생각된...[i](이 부분을 분명히 읽었지만, 기억할 수가 없습니다. 마치 무언가가 마음속에서 의도적으로 지워 버린 것 같습니다.)[/i]
 
-앙골웬의 기록에 따르면, 쿠에코르자는 신 사냥 시기에 살해당했고, 그 시신은 마법사 리나니일에 의해 발견되었다. 리나니일은 위험한 의식을 통해 신의 힘의 조그만 일부분을 흡수하는 데 성공했다. 그녀가 얻게 된 이 작은 힘의 조각은 그녀를 타의 추종을 불허하는 대마법사로 만들었고, 이는 신들의 순수한 힘이 어느 정도인지 보여주는 증거이다.]], "_t")
+앙골웬의 기록에 따르면, 쿠에코르자는 신 사냥 시기에 살해당했고, 그 시신은 마법사 리나니일에 의해 발견되었다. 리나니일은 위험한 의식을 통해 신의 힘의 조그만 일부분을 흡수하는 데 성공했다. 그녀가 얻게 된 이 작은 힘의 조각은 그녀를 타의 추종을 불허하는 대마법사로 만들었고, 이는 신들의 순수한 힘이 어느 정도인지 보여주는 증거라 할 수 있다.]], "_t")
 t("Researcher Dremnot's Demystification of the Gods: Chapter 9 - Xadoch", "연구원 드렘낫의 신들에 대한 해체분석: 제9장 - 자도크", "_t")
 t([[Xadoch held the title of Blight-Weaver. It loved the creatures which crawled close to the earth and toiled in Eyal's filth, but had no love for its sapient races. As such, it was attributed in many mythologies to the creation of numerous diseases and plagues. Some myths stated that there was necessity to Xadoch's presence, as its plagues prevented any one race dominating the world and kept a balance of sorts. On the other hand, many other myths attest that the god had a cruel curiosity. It spread blight across the world and created diseases just to see what sort of effect they would have on sapient life. If it weren't for the other gods on Eyal, it is believed that Xadoch would have scoured the entire world of sapient life.
 
@@ -3713,7 +3713,7 @@ t("Empowered by the fear of its foes, darkness and blight damage penetration inc
 t("#Target# is empowered by the fear of #hisher# foes.", "#Target2# #hisher#의 적이 느끼는 공포에서 힘을 취했다.", "_t")
 t("stone", "암석", "effect subtype")
 t("Writhing Hairs", "뒤틀린 머리카락", "_t")
-t("Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "몸의 절반이 석화됨 : 이동 속도 -%d%% / 피격 시 35%% 확률로 부서저내려, %d%% 의 추가 피해를 입음.", "tformat")
+t("Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "몸의 절반이 석화됨 : 이동 속도 -%d%% / 피격 시 35%% 확률로 부서져내려, %d%% 의 추가 피해를 입음.", "tformat")
 t("#Target# is half-turned to stone.", "#Target2# 반 석화되었다.", "_t")
 t("#Target# looks less like a statue.", "#Target2# 원래대로 돌아왔다.", "_t")
 t("temporal", "시간", "effect subtype")

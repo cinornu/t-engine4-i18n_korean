@@ -3776,7 +3776,7 @@ t("#LIGHT_GREEN#* Council Member Palaquie is dead.#WHITE#", "#LIGHT_GREEN#* 평�
 t("#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "#LIGHT_GREEN#* 평의회 의원 탄탈로스는 죽었습니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "#LIGHT_GREEN#* 아트모스 평의회를 박살내고 부족을 산산조각냈습니다.#WHITE#", "_t")
 t("What is all this noise about!", "이게 무슨 소란이냐!", "_t")
-t("Tantalos! What have you done!", "탄탈로스! 대체 무슨 짓을 한 거냐!", "_t")
+t("Tantalos! What have you done!", "탄탈로스! 대체 무슨 짓을 한 겁니까?!", "_t")
 -- untranslated text
 --[==[
 t("", "", "_t")
