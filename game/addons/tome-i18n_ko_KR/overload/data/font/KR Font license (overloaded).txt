@@ -1,8 +1,0 @@
-KR : INSULA__ -> songgang-gasa-regular (file replace)
-https://www.oning.co.kr/license
-
-KR : Unquiet Spirits -> yoonbongil_GS (file replace)
-https://gscaltexmediahub.com/campaign/the-energy-of-independence-fighters/
-
-KR : mainframe-opto -> NEXONFootballGothicL
-http://levelup.nexon.com/font/index.aspx?page=4
