@@ -912,7 +912,7 @@ t("steam", "증기", "entity subtype")
 t("steam giant guard", "증기 거인 경비병", "entity name")
 t("This titanic figure walks towards you, a massive sword and shield in each hand.", "엄청난 크기의 거인입니다. 거대한 검과 방패를 들고 다가오고 있습니다.", "_t")
 t("steam giant berserker", "증기 거인 광전사", "entity name")
-t("This steam giant carries a massive greatsword with both hands, and you see a cloud of thick steam enveloping the blade.", "양손에 거대한 검을 한 자루씩 들고 있는 거인입니다. 옅은 증기가 칼날을 감싸고 있습니다.", "_t")
+t("This steam giant carries a massive greatsword with both hands, and you see a cloud of thick steam enveloping the blade.", "양손에 거대한 검을 한 자루씩 들고 있는 거인입니다. 두꺼운 증기 구름이 칼날을 감싸고 있습니다.", "_t")
 t("steam giant yeti rider", "증기 거인 예티 기병", "entity name")
 t("Riding atop a massive armored yeti, this steam giant wields a huge greatsword.", "중무장을 한 예티를 타고 있는 거인입니다. 거대한 대검을 들고 있습니다.", "_t")
 
@@ -5277,7 +5277,7 @@ t("Your mecharachnid is out of sight; you cannot establish direct control.", "�
 t("Mecharachnid", "강철 거미", "talent name")
 t("mecharachnid", "강철 거미", "_t")
 t("%s (servant of %s)", "%s (%s의 종)", "tformat")
-t("mecharachnid (servant of %s)", "강철 거미 (servant of %s)", "tformat")
+t("mecharachnid (servant of %s)", "강철 거미 (%s의 종)", "tformat")
 t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("Your mecharachnid is not dead.", "당신의 강철 거미는 죽지 않았다.", "logPlayer")
 t([[You build a mighty mechanical arachnid to assist you in combat. You can equip the mecharachnid with 2 steamguns, ammunition, and armor of your choice.

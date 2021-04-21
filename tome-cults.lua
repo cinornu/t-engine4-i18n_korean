@@ -2952,7 +2952,7 @@ t("Your worm that walks is out of sight; you cannot establish direct control.", 
 t("Worm that Walks", "걸어다니는 벌레떼", "talent name")
 t("wtw", "걸벌떼", "_t")
 t("%s (servant of %s)", "%s (%s의 종)", "tformat")
-t("worm that walks (servant of %s)", "걸어다니는 벌레떼 (%s의 종복)", "tformat")
+t("worm that walks (servant of %s)", "걸어다니는 벌레떼 (%s의 종)", "tformat")
 t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("Robe of the Worm (Improved)", "벌레의 로브 (강화됨)", "_t")
 t("Your friendly horror is not dead.", "우호적인 걸어다니는 벌레떼가 죽지 않았다.", "logPlayer")

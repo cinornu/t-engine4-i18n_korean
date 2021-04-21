@@ -1544,13 +1544,13 @@ section "engine/modules/boot/data/general/npcs/canine.lua"
 t("animal", "동물", "entity type")
 t("canine", "개과", "entity subtype")
 t("wolf", "늑대", "entity name")
-t("Lean, mean, and shaggy, it stares at you with hungry eyes.", "비쩍 마르고 털이 텁수룩한 것이 굶주린 눈으로 바라보고 있다.", "_t")
+t("Lean, mean, and shaggy, it stares at you with hungry eyes.", "비쩍 마르고 털이 덥수룩한 늑대입니다. 굶주린 눈으로 당신을 바라보고 있습니다.", "_t")
 t("white wolf", "흰 늑대", "entity name")
-t("A large and muscled wolf from the northern wastes. Its breath is cold and icy and its fur coated in frost.", "북쪽 황무지에서 온 크고 근육질인 늑대. 내뱉는 숨은 서늘하며 털은 서리로 뒤덮여 있다.", "_t")
+t("A large and muscled wolf from the northern wastes. Its breath is cold and icy and its fur coated in frost.", "북쪽 황무지에서 온 커다란 근육질 늑대입니다. 내뱉는 숨결은 서늘하고 털도 서리로 뒤덮여 있습니다.", "_t")
 t("warg", "와르그", "entity name")
 t("It is a large wolf with eyes full of cunning.", "교활함으로 가득 찬 눈을 가진 거대한 늑대입니다.", "_t")
 t("fox", "여우", "entity name")
-t("The quick brown fox jumps over the lazy dog.", "빠른 갈색 여우가 게으른 개를 뛰어 넘는다.", "_t")
+t("The quick brown fox jumps over the lazy dog.", "다람쥐 헌 쳇바... 아니, 날쌘 갈색 여우가 게으른 개를 뛰어 넘는 법이죠.", "_t")
 
 ------------------------------------------------
 section "engine/modules/boot/data/general/npcs/skeleton.lua"
