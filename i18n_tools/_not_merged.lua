@@ -1,2 +1,0 @@
-section ".not_merged"
-
