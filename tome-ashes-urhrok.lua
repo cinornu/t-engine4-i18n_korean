@@ -1667,7 +1667,7 @@ section "tome-ashes-urhrok/data/zones/anteroom-agony/npcs.lua"
 
 t("enthralled %s", "노예가 된 %s", "tformat")
 t("quasit squad leader", "콰짓 지휘관", "entity name")
-t("A small, heavily armoured demon, rushing toward you.", "작고, 중장갑을 두른 악마로 당신에게 달려옵니다.", "_t")
+t("A small, heavily armoured demon, rushing toward you.", "중무장을 한 작은 악마입니다. 당신을 향해 달려가고 있습니다.", "_t")
 t("Rogroth, Eater of Souls", "영혼을 먹는 자 로그로스", "entity name")
 t("major", "고위", "entity subtype")
 t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "화염과 황폐의 마법 쇄도가 저 거미같은 검은색 금속 피부에서 무질서적으로 나타납니다. 뚜렷하게 보이는 머리는 없지만, 거대한 입 하나가 몸에 나있습니다.", "_t")

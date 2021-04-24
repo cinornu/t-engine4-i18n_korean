@@ -325,7 +325,7 @@ Requires addons: %s
 
 %s]], "tformat")
 t("You can simply grab an older version of the game from where you downloaded it.", "게임을 다운로드한 곳에서 이전 버전을 가지고 오셔도 됩니다.", "_t")
-t("You can downgrade the version by selecting it in the Steam's \"Beta\" properties of the game.", "스팀에서 이 게임의 \"Beta\" 항목을 조작하는 것으로 게임을 다운그레이드할 수 있습니다.", "_t")
+t("You can downgrade the version by selecting it in the Steam's \"Beta\" properties of the game.", "Steam에서 이 게임의 \"Beta\" 항목을 조작하는 것으로 게임을 다운그레이드할 수 있습니다.", "_t")
 t("Original game version not found", "원래 게임 버전을 찾을 수 없습니다", "_t")
 t([[This savefile was created with game version %s. You can try loading it with the current version if you wish but it is recommended you play it with the old version to ensure compatibility
 %s]], [[이 세이브 파일은 다음 게임 버전에서 작성되었습니다: %s. 현재 버전에서 실행하실 수도 있지만 권장하지는 않으며 가급적이면 이전 버전에서 로드하시는 것을 추천드립니다.

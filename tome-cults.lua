@@ -2733,7 +2733,7 @@ Your increased damage, damage penetration, critical strike chance, and critical 
 시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 부패하는 포식귀에도 적용됩니다.]], "tformat")
 t("Decayed Bloated Horror", "부패하는 부풀어오른 공포", "talent name")
 t("bloated horror", "부풀어오른 공포", "_t")
-t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 한 형체가 공중에 떠 있습니다. 머리카락 한 올 없는 어린아이 같은 머리통은 몸뚱이에 비해 말도 안 되게 거대하고, 그 피부에는 새빨간 두드러기와 함께 곰보 자국이 잔뜩 나 있습니다. ", "_t")
+t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 한 형체가 공중에 떠 있습니다. 머리카락 한 올 없는 어린아이 같은 머리통은 몸뚱이에 비해 말도 안 되게 거대하고, 그 피부에는 새빨간 두드러기와 함께 곰보 자국이 잔뜩 나 있습니다.", "_t")
 t([[You use your bond with horrors to summon a decaying bloated horror for %d turns.
 The decaying horror cannot move and will attack all hostile creatures in range of it. It possesses the talents Mind Disruption and Mind Sear.
 All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
