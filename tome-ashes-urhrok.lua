@@ -247,7 +247,7 @@ t("Jaw of Rogroth", "로그로스의 턱", "entity name")
 t("tooth lined belt", "이빨이 줄지은 허리띠", "_t")
 t("Rogroth's mouth happened to be about the same size as your waist. Interesting.", "로그로스의 아가리는 허리 크기와 비슷하다. 흥미롭군.", "_t")
 t("deal darkness damage equal to your 350%% of your spellpower to a target, and, if it kills the target, restores 15% of max hp and all resources (except paradox and equilibrium)", "착용자의 주문력의 350%% 에 달하는 어둠 피해를 대상에게 가해, 대상이 죽으면 최대 생명력과 모든 원천력의 15% 를 회복합니다 (괴리와 평정 제외)", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -374,29 +374,6 @@ Once this continent arrives, we shall take revenge on Eyal. Not just for our own
 이 대륙이 에이알에 도착하자마자, 우리는 복수를 시작할 것이다.  이것은 결코 우리만을 위한 것이 아니다. 물론 배신당해 완전히 황폐화된 우리 행성을 마땅히 대신할 깨끗한 행성이 있는 것도 있지만 말이다.  자식들을 너무 믿었기에 영겁의 고통을 겪고 계시는 우리 아버지만을 위해서도 아니다.  이것은 "모두" 를 위해서다.  단지 우리보다 운이 없었던 탓에 불길 속에서 일순간에 찢겨진, 수많은 행성에 살던 수천 조에 이르는 영혼들을 위해서다.  쉐르'툴은 그 누구도 두 번 다시는 해칠 수 없을 것이다. 우리는 황폐의 불길로 에이알을 정화함으로써 이를 확실히 할 것이다. 그리고 그 생존자들은 우리 행성으로 데려가 불타는 대지에 묶어 두고, 자신들이 만들어냈던 불꽃이 자신들의 살점을 불사르는 것을 영원토록 느낄 수 있도록 살려 둘 것이다.  그 영원한 고통조차도 놈들이 가했던 고통에 비하면 티끌에 지나지 않으므로, 정의를 실현하기에는 부족할 것이다...  그러나 이것은 단지 시작일 뿐이다.
 ]], "_t")
 t("Lost Memories (1)", "잃어버린 기억들 (1)", "_t")
-t([[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
-
-"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace)?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace)?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace)?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace)?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
-
-"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
-
-You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
-
-"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
-
-#{italic}#You shudder.#{normal}#
-]], [[#{italic}#당신은 머리를 움켜쥐었다.  이곳에 들어서니 당신이 수감됐던 때의 기억들이 물밀듯 밀려들어온다...#{normal}#
-
-"자, 다음 녀석 데려와." 루비 피부를 가진 지도자가 말했다.  키가 작은 녹색과 검은색의 생물들이 본래 드워프였던 쓰레기 더미를 치웠다. 그리고 당신이 줄의 맨 앞으로 움직여 드워프가 있던 곳에 섰다.  방 저편에, 당신의 동족 한 명이 똑같은 단 위에 섰다.  정말 기대된다 - 당신은 특별히 실험 대상으로 뽑힌 것이다!  당신은 저들이 효과적이고 매우 고통스러운 무언가를 찾는 데 자신이 기여할 수 있길 바랐고, 자신에게 고통이 찾아오길 기대하고 있었다.  이쪽 방에는 녹색 임프 한 마리가 서 있었는데, 지금껏 봤던 다른 임프들보다 조금 더 변이된 것 같았고 피부도 더 울퉁불퉁했다. 그것은 기대하는 눈빛으로 당신을 바라보며 씩 웃었다.  반대편에는 좀 더 평범한 임프가 실험체에게 다가갔다.  "대조군... 시작."  평범한 렛츨링이 <?=_t(player.descriptor.subrace)?>의 얼굴을 향해 뛰어들었다. 그것이 얼굴을 움켜쥐자 피부에서 산성액이 쏟아져 나왔고, 곧 놓아주었다.  빨간 임프는 그의 녹아내린 살점을 지켜본 다음, 무언가 기록해 두고는 중얼거렸다.  "이제 고통 차단 해제..."  <?=_t(player.descriptor.subrace)?>의 미소가 사라졌고, 그는 자신의 얼굴을 움켜쥐었다. 그리고는 고통에 찬 비명을 내지르고 쓰러져, 바닥에서 나뒹굴기 시작했다.  빨간 임프는 다시 내려다보고는 지루하다는 듯 한숨을 내쉬었고, 몇 가지를 더 적었다.  "이 정도면 됐다. 고통 차단 활성화, 놈을 치료해."  당신의 동족은 움직이는 걸 멈추곤 일어서서 다시 웃었고, 그의 살점은 계속해서 산성액에 녹아내리고 있었지만 이내 바닥에 깔린 관에서 몇 종류의 화학물질이 쏟아져 나와 그를 뒤덮었다.  또 다른 빨간 임프가 무언가를 중얼거리곤, 손을 흔들어서 그를 데리고 나갔다. 당신은 그의 끔찍한 상처들이 천천히 아물고 있는 것을 보았다.
-
-"실험군... 시작."  돌연변이 렛츨링이 엄청난 속도로 당신의 얼굴로 뛰어들었고, 너무 빨라서 당신은 그것이 뛰어드는 것을 알아차리지도 못했다.  산성액이 가슴팍까지 흘러내렸고, 피부가 겉면부터 녹기 시작하면서 이상한 느낌이 들긴 했지만, 당신은 그 고통을 전혀 느끼지 못했다.  그 임프는 얼굴에서 뛰어내렸다. 보아하니 산성액이 당신의 눈을 피해 간 것 같았는데, 왜냐하면 빨간 임프가 다소 실망한 것 같은 모습을 볼 수 있었기 때문이다.  "구조적인 피해가 평균 이하로군... 좋아, 고통 차단 해제."  당신은 지금부터 비명을 질러서는 안 된다는 것을 알고 있었다.
-
-당신은 비명을 질렀다.  지금 성대가 산산조각으로 찢기고 있을지도 모른다는 생각이 들 정도로, 지금껏 살아오며 질러본 어느 비명보다 더 처절하게 내질렀다. 지금껏 겪어보았던 어떤 것보다도 더, 어떤 감각보다도 훨씬 더 고통스러웠다.  당신은 바닥에 쓰러져 자신의 피부를 손톱으로 마구 긁고, 산성액을 떨치기 위해서 살점을 찢었다.  당신은 허우적거리며 몸부림쳤고, 근처에는 아무것도 없다는 것을 알면서도 본능적으로 자신을 도울 수 있는 것이라면 무엇이든 붙잡으려고 했다.
-
-"아주 좋아, 훌륭해! 고통 차단 활성화!"  갑자기 고통이 사라졌다. 당신의 피부는 여전히 부글거렸지만, 그 끔찍한 고통은 사라졌고 목도 따끔거리지 않았다.  "놈을 세척하고 치료해라. 고통 증폭 특성이... 상당히 증가함... 고통이 적고 부식성이 높은 종과 교배하는 것을 권장."  정체모를 점액이 머리 위로 쏟아지자 부글거리던 피부가 가라앉았다. 당신의 담당관은 당신을 붙잡고 데려가면서 치료 주문을 중얼거렸고, 그러자 당신의 상처들이 또다시 천천히 아물며 매끄러운 피부로 바뀌어갔다.  당신은 소리를 질렀다고 해서 저들이 너무 가혹하게 대해 주지 않기만을 바랐다. 하지만 그 임프의 말투로 보아...  당신은 저들이 무언가를 알아내는 데에 기여한 것이 틀림없었다!  문이 닫히고 방에서 나갈 때 빨간 임프가 "다음!" 하고 고함을 지르는 소리가 들렸고, 그걸 들으며 당신은 입이 귀에 걸릴 정도로 씩 웃었다.
-
-#{italic}#당신은 몸서리쳤다.#{normal}#
-]], "_t")
 t("Lost Memories (2)", "잃어버린 기억들 (2)", "_t")
 t([[#{italic}#More memories rush into your mind...#{normal}#
 
@@ -408,71 +385,8 @@ That crystal.  That crystal is how they're keeping track of you, and it has most
 
 그 수정.  그 수정으로 놈들은 당신을 추적해 왔고, 그 안에 당신이 놈들에게 제공했던 것들이 대부분 들어 있다.  그걸 부수면 이곳에 오게 된 이후로 처음으로 놈들의 시선에서 벗어날 수 있을 것이고, 놈들에게서 도망쳐도 놈들은 두 번 다시는 당신을 찾아내지 못할 것이다. 그리고 또 하나, 놈들의 연구를 돕기 위해 제공했던 것들을 대부분 없앨 수 있을 것이다.  당신은 그걸 부숴야 한다. 그것을 부숴야 도망쳐서 살아갈 수 있다!]], "_t")
 t("orbital base: battle plan (doombringer)", "궤도 기지: 작전 방침 (파멸의 사도)", "_t")
-t([[Engagement Briefing on <?=player.name?>:
-
-This slippery little <?=_t(player.descriptor.subrace)?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
-
-Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-]], [[대 <?=player.name?> 교전 브리핑:
-
-이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace)?> 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
-
-그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  <?=player:he_she()?>는 우리의 개조 마법에 노출되어 근접전에서 가공할만한 파괴력을 선보일 것이며, <?=player:he_she()?>가 도착하기 전까지 그 마법에 맞설 적절한 방어 수단을 구하지 못한다면, 일이 잘못됐을 때 상당한 피해를 입을 수 있다.  그 어떤 상황에도 <?=player:he_she()?>가 우리의 후방에서 날뛰도록 두어서는 안 된다. 더욱이, 만약 우리가 별 생각 없이 <?=player:him_her()?>를 좁은 통로로 끌어들인다면, 우리는 충분한 화력을 낼 수 없게 될 것이고 <?=player:he_she()?>가 돌파하는 것을 저지할 수 없을 것이다.  그렇게 하는 대신에, 우리는 개활지에 마법사 부대를 미리 배치해 두고 그 전방은 렛츨링들이, 후방은 콰짓들이 보호하도록 한 다음, 마울로타우르스 (또는 우리가 배치 허가를 받아낼 수 있는 전면 고화력 전투원이라면 무엇이든지) 의 지원을 받는 기습 부대를 이용해서 <?=player:him_her()?>를 그곳으로 몰 것이다.  이 작전에서 최전방에서 싸우는 전사들은 아마 죽게 될 것이다. 그러나 <?=player:he_she()?>가 전사들을 뚫고 지나가는 동안 시간이 적잖게 소요될 것이니, 우리의 마법으로 <?=player:him_her()?>를 만신창이로 만들어야만 한다.
-
-무엇보다, 기억하라: 비록 <?=player:he_she()?>는 짐승 같은 힘을 가지고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
-]], "_t")
 t("orbital base: battle plan (demonologist)", "궤도 기지: 작전 방침 (악마학자)", "_t")
-t([[Engagement Briefing on <?=player.name?>:
-
-This slippery little <?=_t(player.descriptor.subrace)?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  We've heard disturbing reports that some of our species have been spotted fighting alongside <?=player:him_her()?>; we can assume that <?=player:he_she()?> is using a twisted version of the Tablet's power to enslave some of our forces.  Much of <?=player:his_her()?> combat potential comes from these thralls, rather than <?=player:his_her()?> own abilities.  Accordingly, there are three things to keep in mind:
-
--Prioritize the Eyalite, rather than <?=player:his_her()?> thralls.  We do not yet have a concrete understanding of how <?=player:he_she()?> is controlling our allies, but it seems likely that the mental hold will break once <?=player:he_she()?>'s incapacitated; if <?=player:he_she()?> has managed to take control of a Champion of Urh'Rok or similarly powerful agent, we should focus our firepower on <?=player:him_her()?> instead.  That said, neutralizing <?=player:him_her()?> is more important than saving the time and effort of producing such a creature; in particular, don't worry about catching a few enthralled imps in the crossfire.  No matter what <?=player:he_she()?>'s using, we can make more of it.
-
--Be ready for anything.  We've never needed to plan out what to do against our own powers, and we have such a diverse set of species that <?=player:he_she()?> could throw all kinds of magic or martial prowess against us.  This might sound hopeless, but remember: you've seen all this in action before, these powers being used alongside yours in training and in combat.  Whatever you've seen your comrades do, expect to see it from <?=player:him_her()?>.
-
--Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
-
-Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-]], [[대 <?=player.name?> 교전 브리핑:
-
-이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace)?> 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
-
-그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  우리는 몇몇 동족들이 <?=player:he_she()?>의 편에서 싸우는 것을 목격했다는 충격적인 보고를 받았다. 녀석은 비문의 힘을 비틀어 사용하여, 우리 전력의 일부를 노예로 삼고 있는 것으로 추정된다.  <?=player:his_her()?>의 전투력은 대부분 그 자신의 능력보다는 그러한 노예들로부터 나온다.  따라서, 다음 세 가지를 명심하라.
-
--노예들보다 그들을 조종하는 에이알인을 우선시하라.  우리는 아직 <?=player:he_she()?>가 어떻게 우리 동료들을 조종하는지에 대해 구체적으로 알고 있는 것이 없다. 하지만 녀석이 무력화되는 즉시 정신 지배가 풀릴 것으로 보인다.  만약 녀석이 울흐'록의 대전사나 그에 버금가는 요원을 예속하였다면, 우리는 녀석에게 화력을 집중할 필요가 있다.  그렇긴 하지만, 그 노예들을 다소 희생하더라도 <?=player:he_she()?>를 무력화하는 것이 더 중요하다. 병력은 또 만들어내면 되는 것이다. 특히, 교차사격 중에는 노예가 된 임프 몇 마리 정도는 신경 쓰지 마라.  녀석이 무슨 수단을 쓰고 있든 간에, 우리 쪽이 우위다.
-
--모든 상황을 상정하라.  우리는 지금까지 우리 자신의 힘에 맞서려면 무엇을 해야 할지 생각해 볼 필요가 없었다. 또, 우리 종족은 매우 다양하기 때문에 이제 <?=player:he_she()?>는 우리를 향해 온갖 종류의 마법과 무술을 모두 사용할 수 있다.  이것이 절망적으로 들릴지도 모르지만, 기억하라: 너희는 동료들이 훈련을 하며, 또 전투 중에 이런 힘들을 사용하는 것을 목격했을 것이다.  너희의 전우들이 어떤 힘을 사용하는 것을 본 적이 있다면, <?=player:him_her()?>가 그것을 사용할 수도 있다고 생각하라.
-
--<?=player:his_her()?>의 노예들이 전부 죽었다고 해서 상황이 종료되었다고 섣불리 생각해선 안 된다.  녀석은 자신의 육체에 우리의 마법을 직접 주입하는 데 성공했다. 즉, 우리의 화염구나 산성 폭발 등등을 사용할 수 있을지도 모른다.  침묵 마법을 사용하면 도움이 될 것이며, 녀석의 에너지를 흡수할 수 있는 주문 또한 효과적일 것이다. 더해서, <?=player:his_her()?>의 방어 수단을 제거하면 녀석은 우리의 손톱과 도끼를 사용한 공격에 특히 취약해질 것이다.
-
-무엇보다, 기억하라: 비록 <?=player:he_she()?>는 동족들을 예속하여 하수인으로 부리고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
-]], "_t")
 t("orbital base: battle plan (doomelf)", "궤도 기지: 작전 방침 (둠엘프)", "_t")
-t([[Engagement Briefing on <?=player.name?>:
-
-This slippery little elf has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Our standard alterations have synergized with this Shalore's natural reactive magic, giving <?=player:him_her()?> short-range teleportation to rival Draebor and creating a frustratingly evasive target to hit.  Even <?=player:his_her()?> internal organs are affected, and will slide out of the way in anticipation of a blow that would strike an otherwise-vital area.  Compared to standard Shalore, <?=player:he_she()?> cannot directly turn invisible, but seems to have adopted a form of dúathedlen magic to remain out of sight all the same; if the requisition order for light-based wards goes through, this and the blasts of darkness this form grants should both be a non-issue.  Finally, use of more advanced combat maneuvers will be somewhat impeded by <?=player:his_her()?> ability to interfere with our concentration, and the resilience alterations we gave <?=player:him_her()?> will make <?=player:him_her()?> shrug off poisons, flames, and the like much quicker than usual.
-
-What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=player:him_her()?> to try to teleport away, then get <?=player:him_her()?> in a corner and beat <?=player:him_her()?> until <?=player:he_she()?> stops moving.  It's really that simple.  Just work that into our standard methods of dealing with <?=string.a_an(_t(player.descriptor.subclass):lower())?>, remember not to break ranks if <?=player:he_she()?> vanishes into darkness, and we'll have this mess cleaned up in no time.
-
-Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
-
-]], [[대 <?=player.name?> 교전 브리핑:
-
-이 약삭빠르고 비열한 엘프 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
-
-그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  우리의 기본 변화 마법이 샬로레가 가진 고반응성 마법과 시너지를 일으켜 그 엘프는 드래보르 녀석에게 필적할 만한 단거리 순간이동 능력을 얻게 되었고, 그 덕분에 녀석에게 뭔가를 명중시키기가 극도로 어려워졌다.  심지어 <?=player:his_her()?>의 내부 장기도 그 영향을 받고 있어서, 급소가 공격받을 것 같으면 그 내장이 움직여서 피해버린다.  일반적인 샬로레와 비교하여, 그 엘프는 투명화 능력을 상실하였으나 여전히 눈에 보이지 않는 것으로 보아 듀아세들렌으로 변신하는 마법이라도 얻게 된 것 같다. 만약 빛에 기반한 보호막 사용 허가가 나게 된다면 듀아세들렌으로 변하는 것과 어둠의 마법 둘 다 별다른 문제가 되지 않을 것이다.  마지막으로 고도의 기술을 사용하려고 하면 <?=player:his_her()?>는 모종의 능력으로 우리가 집중하는 것을 방해할 것이고, 우리가 <?=player:his_her()?>의 회복력을 강화했기 때문에 독과 불꽃에 당해도 큰 효과는 없을 것이며 회복 속도 자체도 빠를 것이다.
-
-그래서 결론은 무엇이냐?  그냥 그 엘프를 공격하고, 녀석이 다른 곳으로 순간이동할 때까지 기다렸다가 막다른 곳으로 몰아서 더 이상 움직이지 않을 때까지 후려쳐라.  어려울 거 없다.  일반적인 <?=string.a_an(_t(player.descriptor.subclass):lower())?> 상대법을 활용하라. 만약 <?=player:he_she()?>가 어둠 속으로 사라졌다면, 대열을 흩뜨리지 말아야 한다는 것을 기억해라. 그리하면 이 난장판을 순식간에 해결할 수 있을 것이다.
-
-무엇보다, 기억하라: 비록 <?=player:he_she()?>의 육체는 보다 강화되었지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
-
-]], "_t")
 t("orbital base: battle info", "궤도 기지: 전투 보고", "_t")
 t([[#{italic}#This note is splattered with the blood of the demon who was carrying it.#{normal}#
 
@@ -644,6 +558,183 @@ t("demon statue: Corrupted Daelach", "악마상: 오염된 댈라크", "_t")
 t("One of the problems with making daelach is the inherent instability that comes from creating something that is almost entirely made of magic.  If ambient levels of blight are even slightly too high, it can set off a chain reaction that at best destroys the daelach, and at worst destroys most of the mages who were building it.  Daelach production is thus theoretically cheap, but in practice involves great expense, and usually a blighted daelach has to be immediately put down lest it cause tremendous damage.  One specimen, though, adapted to the blight in a very interesting way, sprouting wings and bolstering its usual firestorms with blight, but otherwise remaining perfectly balanced and controllable.  We'll try to recreate this happy accident however we can, but in the meantime, it will prove effective on the surface of Eyal.", "댈라크를 만들 때의 애로사항 중 하나는 본질적인 불안정함인데, 이는 무언가를 거의 순수한 마법으로 구성하려 할 때에 흔히 일어나는 문제이다.  주변의 황폐화 정도가 기준치를 아주 살짝만 넘어도 연쇄 반응이 일어나 일단 댈라크는 완전히 파괴되며, 최악의 경우에는 그걸 만들고 있던 마법사들까지 가루가 될 수도 있다.  그렇기 때문에 댈라크의 생산은 이론적으로는 비용이 싸지만, 실제로는 결코 싸지 않으며 일반적으로 댈라크가 황폐화된다면 즉시 처분하여 막대한 피해가 발생하는 것을 막아야 한다.  하지만 예외도 있는데, 어떤 댈라크들은 매우 흥미로운 방식으로 황폐에 적응하면서 날개가 돋아났고, 그들이 원래 일으키던 화염폭풍에는 황폐의 힘이 실리게 되었다. 게다가 완벽하게 안정적인 상태를 유지하고 있고, 우리가 제어하는 것도 가능하다.  우리는 이 기적과도 같은 상황을 재현하기 위해서 온 힘을 다할 것이다. 하지만 그러는 동안에, 그 댈라크들은 에이알의 표면에서 자신들의 힘을 입증해 보일 것이다.", "_t")
 t("demon statue: Harkor'Zun", "악마상: 하코르'준", "_t")
 t("Of the anomalies and phenomena we've noticed in our studies of the shield protecting Eyal, none have frustrated us so much as meteors.  Certain powerful Eyalite spellcasters can pull a large meteor into low orbit, passing it through the shield relatively unharmed, aside from being split into predictably-sized chunks, which are then called to the surface one-by-one in a series of devastating meteoric crashes.  While we have not yet found a way to reverse-engineer these spells to protect our standard troops from disintegration, we have had some limited success in making a construct that closely resembles a meteor in composition and appearance.  Harkor'Zun, a being made mostly of stone, was simply dropped from our platform; the shield shattered him as expected, but we had designed him to survive this, the fragments merging back into their completed form once he reached the surface.  It would seem, though, that either we made him to be too sturdy, or the shield envelops incoming objects in a sort of anti-magic coating, as he has been unable to start the second stage of this process, wherein he merges these fragments back into a completed form.  Should an Eyalite stumble upon him and attempt to destroy the fragments, Harkor'Zun will be able to re-combine and \"thank\" whoever granted him his ascension.", "우리가 에이알을 둘러싸고 있는 보호막에 대해 연구하면서 알게 된 수많은 현상들과 이상한 일들 중에서, 유성만큼 우릴 좌절시킨 것이 없을 것이다.  강력한 힘을 가진 에이알의 주문시전자 몇몇은 거대한 운석을 저궤도로 끌어들이고, 보호막을 뚫고 지표면으로 낙하시켜 어마어마한 유성 충돌을 일으킨다. 물론 보호막을 돌파하는 과정에서 운석이 부서지긴 하지만 완전히 산산조각나지는 않으며, 놈들은 적당한 크기로 나누어진 운석 덩어리들을 하나하나 쏘아내는 것이다.  우리는 그런 마법들을 역설계하여 우리의 병력들이 산산조각나는 것을 방지하려 하지만 연구가 쉽지 않다.  하지만 운석의 성분과 외견을 흉내낸 병기를 만들어내는 데에는 성공했다.  우리는 육체 대부분이 암석으로 이루어진 하코르'준을 우리 정거장에서 에이알로 낙하시켰다. 예상했던 대로 보호막이 그를 산산조각냈지만, 우린 그가 살아남을 수 있도록 수를 써 두었다. 그가 에이알의 지표면에 도달한 뒤에, 부서진 조각들이 하나의 형체로 합쳐질 수 있도록.  하지만 우리가 그를 너무 튼튼하게 만든 것인지, 아니면 행성 보호막이 통과하는 물체에다 반마법 도금 처리 같은 것이라도 하는 것인지, 그는 제2단계 - 조각들이 합쳐져서 부활하는 수순을 밟지 못하고 있다.  만약 어떤 에이알인이 그를 마주치게 되어서 그 조각들을 파괴하려 한다면, 하코르'준은 다시 하나로 합쳐질 수 있게 될 것이고, 그는 자신이 부활할 수 있게 해 준 녀석에게 \"감사\"할 것이다.", "_t")
+-- new text
+--[==[
+t([[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
+
+"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace, "birth descriptor name")?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
+
+"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
+
+You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
+
+"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
+
+#{italic}#You shudder.#{normal}#
+]], [[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
+
+"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace, "birth descriptor name")?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace, "birth descriptor name")?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
+
+"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
+
+You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
+
+"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
+
+#{italic}#You shudder.#{normal}#
+]], "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
+
+Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], [[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
+
+Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  We've heard disturbing reports that some of our species have been spotted fighting alongside <?=player:him_her()?>; we can assume that <?=player:he_she()?> is using a twisted version of the Tablet's power to enslave some of our forces.  Much of <?=player:his_her()?> combat potential comes from these thralls, rather than <?=player:his_her()?> own abilities.  Accordingly, there are three things to keep in mind:
+
+-Prioritize the Eyalite, rather than <?=player:his_her()?> thralls.  We do not yet have a concrete understanding of how <?=player:he_she()?> is controlling our allies, but it seems likely that the mental hold will break once <?=player:he_she()?>'s incapacitated; if <?=player:he_she()?> has managed to take control of a Champion of Urh'Rok or similarly powerful agent, we should focus our firepower on <?=player:him_her()?> instead.  That said, neutralizing <?=player:him_her()?> is more important than saving the time and effort of producing such a creature; in particular, don't worry about catching a few enthralled imps in the crossfire.  No matter what <?=player:he_she()?>'s using, we can make more of it.
+
+-Be ready for anything.  We've never needed to plan out what to do against our own powers, and we have such a diverse set of species that <?=player:he_she()?> could throw all kinds of magic or martial prowess against us.  This might sound hopeless, but remember: you've seen all this in action before, these powers being used alongside yours in training and in combat.  Whatever you've seen your comrades do, expect to see it from <?=player:him_her()?>.
+
+-Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
+
+Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], [[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  We've heard disturbing reports that some of our species have been spotted fighting alongside <?=player:him_her()?>; we can assume that <?=player:he_she()?> is using a twisted version of the Tablet's power to enslave some of our forces.  Much of <?=player:his_her()?> combat potential comes from these thralls, rather than <?=player:his_her()?> own abilities.  Accordingly, there are three things to keep in mind:
+
+-Prioritize the Eyalite, rather than <?=player:his_her()?> thralls.  We do not yet have a concrete understanding of how <?=player:he_she()?> is controlling our allies, but it seems likely that the mental hold will break once <?=player:he_she()?>'s incapacitated; if <?=player:he_she()?> has managed to take control of a Champion of Urh'Rok or similarly powerful agent, we should focus our firepower on <?=player:him_her()?> instead.  That said, neutralizing <?=player:him_her()?> is more important than saving the time and effort of producing such a creature; in particular, don't worry about catching a few enthralled imps in the crossfire.  No matter what <?=player:he_she()?>'s using, we can make more of it.
+
+-Be ready for anything.  We've never needed to plan out what to do against our own powers, and we have such a diverse set of species that <?=player:he_she()?> could throw all kinds of magic or martial prowess against us.  This might sound hopeless, but remember: you've seen all this in action before, these powers being used alongside yours in training and in combat.  Whatever you've seen your comrades do, expect to see it from <?=player:him_her()?>.
+
+-Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
+
+Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little elf has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Our standard alterations have synergized with this Shalore's natural reactive magic, giving <?=player:him_her()?> short-range teleportation to rival Draebor and creating a frustratingly evasive target to hit.  Even <?=player:his_her()?> internal organs are affected, and will slide out of the way in anticipation of a blow that would strike an otherwise-vital area.  Compared to standard Shalore, <?=player:he_she()?> cannot directly turn invisible, but seems to have adopted a form of dúathedlen magic to remain out of sight all the same; if the requisition order for light-based wards goes through, this and the blasts of darkness this form grants should both be a non-issue.  Finally, use of more advanced combat maneuvers will be somewhat impeded by <?=player:his_her()?> ability to interfere with our concentration, and the resilience alterations we gave <?=player:him_her()?> will make <?=player:him_her()?> shrug off poisons, flames, and the like much quicker than usual.
+
+What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=player:him_her()?> to try to teleport away, then get <?=player:him_her()?> in a corner and beat <?=player:him_her()?> until <?=player:he_she()?> stops moving.  It's really that simple.  Just work that into our standard methods of dealing with <?=string.a_an(_t(player.descriptor.subclass, "birth descriptor name"):lower())?>, remember not to break ranks if <?=player:he_she()?> vanishes into darkness, and we'll have this mess cleaned up in no time.
+
+Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+
+]], [[Engagement Briefing on <?=player.name?>:
+
+This slippery little elf has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Our standard alterations have synergized with this Shalore's natural reactive magic, giving <?=player:him_her()?> short-range teleportation to rival Draebor and creating a frustratingly evasive target to hit.  Even <?=player:his_her()?> internal organs are affected, and will slide out of the way in anticipation of a blow that would strike an otherwise-vital area.  Compared to standard Shalore, <?=player:he_she()?> cannot directly turn invisible, but seems to have adopted a form of dúathedlen magic to remain out of sight all the same; if the requisition order for light-based wards goes through, this and the blasts of darkness this form grants should both be a non-issue.  Finally, use of more advanced combat maneuvers will be somewhat impeded by <?=player:his_her()?> ability to interfere with our concentration, and the resilience alterations we gave <?=player:him_her()?> will make <?=player:him_her()?> shrug off poisons, flames, and the like much quicker than usual.
+
+What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=player:him_her()?> to try to teleport away, then get <?=player:him_her()?> in a corner and beat <?=player:him_her()?> until <?=player:he_she()?> stops moving.  It's really that simple.  Just work that into our standard methods of dealing with <?=string.a_an(_t(player.descriptor.subclass, "birth descriptor name"):lower())?>, remember not to break ranks if <?=player:he_she()?> vanishes into darkness, and we'll have this mess cleaned up in no time.
+
+Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+
+]], "_t")
+--]==]
+
+-- old translated text
+t([[#{italic}#You clutch your head.  Entering this next floor, memories of your imprisonment flood back to you...#{normal}#
+
+"All right, bring in the next one," says the ruby-skinned leader.  A few small, green and black things mop up the pile of muck that used to be a dwarf, and you move to the front of the line and stand where he used to be.  On the other side of the room, another <?=_t(player.descriptor.subrace)?> stands on an identical platform.  This is exciting - you've been specially chosen as a test subject!  You hope you help them find something effective AND agonizing, and look forward to the pain to come.  A green imp, a little more mutated and knobbly than the rest you've seen, stands on your side of the room and grins at you with anticipation;  on the other side, a more normal imp approaches your counterpart.  "Control group...  go."  The normal wretchling leaps on the <?=_t(player.descriptor.subrace)?>'s face, clutching it tight as a torrent of acid oozes from its skin, then lets go; the red imp looks at his melting flesh, jots down some notes, then mutters "and pain blocks off..."  The <?=_t(player.descriptor.subrace)?>'s smile vanishes, and he clutches his face, then lets out a howling scream, collapses, and begins writhing on the floor.  The red imp looks down again, gives a bored sigh, and takes some more notes.  "That's enough, pain blocks on, patch him up."  The <?=_t(player.descriptor.subrace)?> stops moving, stands up, and smiles again, the acid continuing to eat away at his flesh until a pipe in the floor douses him with some sort of chemical.  Another red imp mutters something and waves his hands before taking his hand and leading him off, and you see his horrible wounds gradually healing.
+
+"Experimental group...  go."  With speed you can't even process until it's already on you, the mutant wretchling leaps onto your face.  You feel no pain as its acid leaks over your torso, although you do feel an odd sensation of your skin layers beginning to dissolve.  The imp leaps off again; apparently it missed your eyes, because you can see the red imp looking somewhat disappointed.  "Structural damage subpar...  okay, pain blocks off."  You know you're not supposed to scream during this next part.
+
+You scream.  You scream harder than you have in your life, to the point where you think you might be tearing your vocal cords apart.  The pain is stronger not just than any pain you've ever felt, but any sensation you've ever felt.  You fall to the ground and claw at your skin, tearing off bits of it as you try to get the acid off.  You struggle and flail, instinctively grabbing at anything that could help you even though you know there's nothing in reach that could.
+
+"All right, nice!  Pain blocks on!"  And just like that, the pain vanishes; your skin still bubbles, but that horrible pain is gone, and even your throat isn't sore.  "Clean him and patch him up.  Pain-amplifying qualities...  significant improvement...  recommend breeding with low-pain high-corrosion specimens."  A shower of unidentifiable goo washes over you, and your skin stops bubbling; your handler takes your arm and leads you away, muttering a healing spell under his breath, and your scars slowly start to fade into smooth skin once again.  You hope they aren't too harsh on you for screaming, but the way that imp spoke...  you must've helped them learn something!  You grin from ear to ear as you leave the room, hearing the red imp yell "Next!" as the door closes behind you.
+
+#{italic}#You shudder.#{normal}#
+]], [[#{italic}#당신은 머리를 움켜쥐었다.  이곳에 들어서니 당신이 수감됐던 때의 기억들이 물밀듯 밀려들어온다...#{normal}#
+
+"자, 다음 녀석 데려와." 루비 피부를 가진 지도자가 말했다.  키가 작은 녹색과 검은색의 생물들이 본래 드워프였던 쓰레기 더미를 치웠다. 그리고 당신이 줄의 맨 앞으로 움직여 드워프가 있던 곳에 섰다.  방 저편에, 당신의 동족 한 명이 똑같은 단 위에 섰다.  정말 기대된다 - 당신은 특별히 실험 대상으로 뽑힌 것이다!  당신은 저들이 효과적이고 매우 고통스러운 무언가를 찾는 데 자신이 기여할 수 있길 바랐고, 자신에게 고통이 찾아오길 기대하고 있었다.  이쪽 방에는 녹색 임프 한 마리가 서 있었는데, 지금껏 봤던 다른 임프들보다 조금 더 변이된 것 같았고 피부도 더 울퉁불퉁했다. 그것은 기대하는 눈빛으로 당신을 바라보며 씩 웃었다.  반대편에는 좀 더 평범한 임프가 실험체에게 다가갔다.  "대조군... 시작."  평범한 렛츨링이 <?=_t(player.descriptor.subrace)?>의 얼굴을 향해 뛰어들었다. 그것이 얼굴을 움켜쥐자 피부에서 산성액이 쏟아져 나왔고, 곧 놓아주었다.  빨간 임프는 그의 녹아내린 살점을 지켜본 다음, 무언가 기록해 두고는 중얼거렸다.  "이제 고통 차단 해제..."  <?=_t(player.descriptor.subrace)?>의 미소가 사라졌고, 그는 자신의 얼굴을 움켜쥐었다. 그리고는 고통에 찬 비명을 내지르고 쓰러져, 바닥에서 나뒹굴기 시작했다.  빨간 임프는 다시 내려다보고는 지루하다는 듯 한숨을 내쉬었고, 몇 가지를 더 적었다.  "이 정도면 됐다. 고통 차단 활성화, 놈을 치료해."  당신의 동족은 움직이는 걸 멈추곤 일어서서 다시 웃었고, 그의 살점은 계속해서 산성액에 녹아내리고 있었지만 이내 바닥에 깔린 관에서 몇 종류의 화학물질이 쏟아져 나와 그를 뒤덮었다.  또 다른 빨간 임프가 무언가를 중얼거리곤, 손을 흔들어서 그를 데리고 나갔다. 당신은 그의 끔찍한 상처들이 천천히 아물고 있는 것을 보았다.
+
+"실험군... 시작."  돌연변이 렛츨링이 엄청난 속도로 당신의 얼굴로 뛰어들었고, 너무 빨라서 당신은 그것이 뛰어드는 것을 알아차리지도 못했다.  산성액이 가슴팍까지 흘러내렸고, 피부가 겉면부터 녹기 시작하면서 이상한 느낌이 들긴 했지만, 당신은 그 고통을 전혀 느끼지 못했다.  그 임프는 얼굴에서 뛰어내렸다. 보아하니 산성액이 당신의 눈을 피해 간 것 같았는데, 왜냐하면 빨간 임프가 다소 실망한 것 같은 모습을 볼 수 있었기 때문이다.  "구조적인 피해가 평균 이하로군... 좋아, 고통 차단 해제."  당신은 지금부터 비명을 질러서는 안 된다는 것을 알고 있었다.
+
+당신은 비명을 질렀다.  지금 성대가 산산조각으로 찢기고 있을지도 모른다는 생각이 들 정도로, 지금껏 살아오며 질러본 어느 비명보다 더 처절하게 내질렀다. 지금껏 겪어보았던 어떤 것보다도 더, 어떤 감각보다도 훨씬 더 고통스러웠다.  당신은 바닥에 쓰러져 자신의 피부를 손톱으로 마구 긁고, 산성액을 떨치기 위해서 살점을 찢었다.  당신은 허우적거리며 몸부림쳤고, 근처에는 아무것도 없다는 것을 알면서도 본능적으로 자신을 도울 수 있는 것이라면 무엇이든 붙잡으려고 했다.
+
+"아주 좋아, 훌륭해! 고통 차단 활성화!"  갑자기 고통이 사라졌다. 당신의 피부는 여전히 부글거렸지만, 그 끔찍한 고통은 사라졌고 목도 따끔거리지 않았다.  "놈을 세척하고 치료해라. 고통 증폭 특성이... 상당히 증가함... 고통이 적고 부식성이 높은 종과 교배하는 것을 권장."  정체모를 점액이 머리 위로 쏟아지자 부글거리던 피부가 가라앉았다. 당신의 담당관은 당신을 붙잡고 데려가면서 치료 주문을 중얼거렸고, 그러자 당신의 상처들이 또다시 천천히 아물며 매끄러운 피부로 바뀌어갔다.  당신은 소리를 질렀다고 해서 저들이 너무 가혹하게 대해 주지 않기만을 바랐다. 하지만 그 임프의 말투로 보아...  당신은 저들이 무언가를 알아내는 데에 기여한 것이 틀림없었다!  문이 닫히고 방에서 나갈 때 빨간 임프가 "다음!" 하고 고함을 지르는 소리가 들렸고, 그걸 들으며 당신은 입이 귀에 걸릴 정도로 씩 웃었다.
+
+#{italic}#당신은 몸서리쳤다.#{normal}#
+]], "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace)?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Having been exposed to our alteration magic, <?=player:he_she()?> is very formidable in direct melee combat, and in the event that we cannot procure proper warding against this magic before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause significant damage if not properly handled.  Under no circumstances should we let <?=player:him_her()?> run rampant in our back line; furthermore, if we simply try to lure <?=player:him_her()?> into a narrow corridor, we will not be able to bring enough firepower to bear before <?=player:he_she()?> can break through our obstructions.  Instead, use a small flanking squad backed up by a maulotaur (or whatever high-power direct combatant we can get authorization to deploy) to force <?=player:him_her()?> into an open area, where we'll have caster artillery, protected by a front-line of wretchlings backed by quasits.  We may lose these front-line soldiers, but in the time it takes <?=player:him_her()?> to slash <?=player:his_her()?> way through them, our spells should be able to reduce <?=player:him_her()?> to a flayed, quivering wreck.
+
+Above all else, remember: despite <?=player:his_her()?> brute strength, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], [[대 <?=player.name?> 교전 브리핑:
+
+이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace)?> 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
+
+그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  <?=player:he_she()?>는 우리의 개조 마법에 노출되어 근접전에서 가공할만한 파괴력을 선보일 것이며, <?=player:he_she()?>가 도착하기 전까지 그 마법에 맞설 적절한 방어 수단을 구하지 못한다면, 일이 잘못됐을 때 상당한 피해를 입을 수 있다.  그 어떤 상황에도 <?=player:he_she()?>가 우리의 후방에서 날뛰도록 두어서는 안 된다. 더욱이, 만약 우리가 별 생각 없이 <?=player:him_her()?>를 좁은 통로로 끌어들인다면, 우리는 충분한 화력을 낼 수 없게 될 것이고 <?=player:he_she()?>가 돌파하는 것을 저지할 수 없을 것이다.  그렇게 하는 대신에, 우리는 개활지에 마법사 부대를 미리 배치해 두고 그 전방은 렛츨링들이, 후방은 콰짓들이 보호하도록 한 다음, 마울로타우르스 (또는 우리가 배치 허가를 받아낼 수 있는 전면 고화력 전투원이라면 무엇이든지) 의 지원을 받는 기습 부대를 이용해서 <?=player:him_her()?>를 그곳으로 몰 것이다.  이 작전에서 최전방에서 싸우는 전사들은 아마 죽게 될 것이다. 그러나 <?=player:he_she()?>가 전사들을 뚫고 지나가는 동안 시간이 적잖게 소요될 것이니, 우리의 마법으로 <?=player:him_her()?>를 만신창이로 만들어야만 한다.
+
+무엇보다, 기억하라: 비록 <?=player:he_she()?>는 짐승 같은 힘을 가지고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
+]], "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace)?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  We've heard disturbing reports that some of our species have been spotted fighting alongside <?=player:him_her()?>; we can assume that <?=player:he_she()?> is using a twisted version of the Tablet's power to enslave some of our forces.  Much of <?=player:his_her()?> combat potential comes from these thralls, rather than <?=player:his_her()?> own abilities.  Accordingly, there are three things to keep in mind:
+
+-Prioritize the Eyalite, rather than <?=player:his_her()?> thralls.  We do not yet have a concrete understanding of how <?=player:he_she()?> is controlling our allies, but it seems likely that the mental hold will break once <?=player:he_she()?>'s incapacitated; if <?=player:he_she()?> has managed to take control of a Champion of Urh'Rok or similarly powerful agent, we should focus our firepower on <?=player:him_her()?> instead.  That said, neutralizing <?=player:him_her()?> is more important than saving the time and effort of producing such a creature; in particular, don't worry about catching a few enthralled imps in the crossfire.  No matter what <?=player:he_she()?>'s using, we can make more of it.
+
+-Be ready for anything.  We've never needed to plan out what to do against our own powers, and we have such a diverse set of species that <?=player:he_she()?> could throw all kinds of magic or martial prowess against us.  This might sound hopeless, but remember: you've seen all this in action before, these powers being used alongside yours in training and in combat.  Whatever you've seen your comrades do, expect to see it from <?=player:him_her()?>.
+
+-Do not assume that the onslaught will stop if all of <?=player:his_her()?> thralls are dead.  <?=player:he_she():capitalize()?> has managed to directly imbue <?=player:his_her_self()?> with some of our magic, and may be capable of using our fireballs, acidic bursts, and so forth.  Silencing magic will be helpful here, as will spells that can drain <?=player:his_her()?> energy; furthermore, ripping away <?=player:his_her()?> shield will make <?=player:him_her()?> especially vulnerable to our claws and axes.
+
+Above all else, remember: despite <?=player:his_her()?> enthralled minions, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+]], [[대 <?=player.name?> 교전 브리핑:
+
+이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace)?> 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
+
+그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  우리는 몇몇 동족들이 <?=player:he_she()?>의 편에서 싸우는 것을 목격했다는 충격적인 보고를 받았다. 녀석은 비문의 힘을 비틀어 사용하여, 우리 전력의 일부를 노예로 삼고 있는 것으로 추정된다.  <?=player:his_her()?>의 전투력은 대부분 그 자신의 능력보다는 그러한 노예들로부터 나온다.  따라서, 다음 세 가지를 명심하라.
+
+-노예들보다 그들을 조종하는 에이알인을 우선시하라.  우리는 아직 <?=player:he_she()?>가 어떻게 우리 동료들을 조종하는지에 대해 구체적으로 알고 있는 것이 없다. 하지만 녀석이 무력화되는 즉시 정신 지배가 풀릴 것으로 보인다.  만약 녀석이 울흐'록의 대전사나 그에 버금가는 요원을 예속하였다면, 우리는 녀석에게 화력을 집중할 필요가 있다.  그렇긴 하지만, 그 노예들을 다소 희생하더라도 <?=player:he_she()?>를 무력화하는 것이 더 중요하다. 병력은 또 만들어내면 되는 것이다. 특히, 교차사격 중에는 노예가 된 임프 몇 마리 정도는 신경 쓰지 마라.  녀석이 무슨 수단을 쓰고 있든 간에, 우리 쪽이 우위다.
+
+-모든 상황을 상정하라.  우리는 지금까지 우리 자신의 힘에 맞서려면 무엇을 해야 할지 생각해 볼 필요가 없었다. 또, 우리 종족은 매우 다양하기 때문에 이제 <?=player:he_she()?>는 우리를 향해 온갖 종류의 마법과 무술을 모두 사용할 수 있다.  이것이 절망적으로 들릴지도 모르지만, 기억하라: 너희는 동료들이 훈련을 하며, 또 전투 중에 이런 힘들을 사용하는 것을 목격했을 것이다.  너희의 전우들이 어떤 힘을 사용하는 것을 본 적이 있다면, <?=player:him_her()?>가 그것을 사용할 수도 있다고 생각하라.
+
+-<?=player:his_her()?>의 노예들이 전부 죽었다고 해서 상황이 종료되었다고 섣불리 생각해선 안 된다.  녀석은 자신의 육체에 우리의 마법을 직접 주입하는 데 성공했다. 즉, 우리의 화염구나 산성 폭발 등등을 사용할 수 있을지도 모른다.  침묵 마법을 사용하면 도움이 될 것이며, 녀석의 에너지를 흡수할 수 있는 주문 또한 효과적일 것이다. 더해서, <?=player:his_her()?>의 방어 수단을 제거하면 녀석은 우리의 손톱과 도끼를 사용한 공격에 특히 취약해질 것이다.
+
+무엇보다, 기억하라: 비록 <?=player:he_she()?>는 동족들을 예속하여 하수인으로 부리고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
+]], "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little elf has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impact that enabled <?=player:his_her()?> escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we keep proper tactics in mind.  Our standard alterations have synergized with this Shalore's natural reactive magic, giving <?=player:him_her()?> short-range teleportation to rival Draebor and creating a frustratingly evasive target to hit.  Even <?=player:his_her()?> internal organs are affected, and will slide out of the way in anticipation of a blow that would strike an otherwise-vital area.  Compared to standard Shalore, <?=player:he_she()?> cannot directly turn invisible, but seems to have adopted a form of dúathedlen magic to remain out of sight all the same; if the requisition order for light-based wards goes through, this and the blasts of darkness this form grants should both be a non-issue.  Finally, use of more advanced combat maneuvers will be somewhat impeded by <?=player:his_her()?> ability to interfere with our concentration, and the resilience alterations we gave <?=player:him_her()?> will make <?=player:him_her()?> shrug off poisons, flames, and the like much quicker than usual.
+
+What does all this mean?  Just get <?=player:him_her()?> wounded, wait for <?=player:him_her()?> to try to teleport away, then get <?=player:him_her()?> in a corner and beat <?=player:him_her()?> until <?=player:he_she()?> stops moving.  It's really that simple.  Just work that into our standard methods of dealing with <?=string.a_an(_t(player.descriptor.subclass):lower())?>, remember not to break ranks if <?=player:he_she()?> vanishes into darkness, and we'll have this mess cleaned up in no time.
+
+Above all else, remember: despite <?=player:his_her()?> enhancements, this is a pitiful, inferior Eyalite who lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use it properly, and does not have the countless years of experience with it that we do.  We have numbers, familiarity, tactics, and the blessing of Urh'Rok himself.  Treat this like a drill; if we stay calm and focused, it is unlikely we will see any casualties.
+
+]], [[대 <?=player.name?> 교전 브리핑:
+
+이 약삭빠르고 비열한 엘프 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다.
+
+그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  우리의 기본 변화 마법이 샬로레가 가진 고반응성 마법과 시너지를 일으켜 그 엘프는 드래보르 녀석에게 필적할 만한 단거리 순간이동 능력을 얻게 되었고, 그 덕분에 녀석에게 뭔가를 명중시키기가 극도로 어려워졌다.  심지어 <?=player:his_her()?>의 내부 장기도 그 영향을 받고 있어서, 급소가 공격받을 것 같으면 그 내장이 움직여서 피해버린다.  일반적인 샬로레와 비교하여, 그 엘프는 투명화 능력을 상실하였으나 여전히 눈에 보이지 않는 것으로 보아 듀아세들렌으로 변신하는 마법이라도 얻게 된 것 같다. 만약 빛에 기반한 보호막 사용 허가가 나게 된다면 듀아세들렌으로 변하는 것과 어둠의 마법 둘 다 별다른 문제가 되지 않을 것이다.  마지막으로 고도의 기술을 사용하려고 하면 <?=player:his_her()?>는 모종의 능력으로 우리가 집중하는 것을 방해할 것이고, 우리가 <?=player:his_her()?>의 회복력을 강화했기 때문에 독과 불꽃에 당해도 큰 효과는 없을 것이며 회복 속도 자체도 빠를 것이다.
+
+그래서 결론은 무엇이냐?  그냥 그 엘프를 공격하고, 녀석이 다른 곳으로 순간이동할 때까지 기다렸다가 막다른 곳으로 몰아서 더 이상 움직이지 않을 때까지 후려쳐라.  어려울 거 없다.  일반적인 <?=string.a_an(_t(player.descriptor.subclass):lower())?> 상대법을 활용하라. 만약 <?=player:he_she()?>가 어둠 속으로 사라졌다면, 대열을 흩뜨리지 말아야 한다는 것을 기억해라. 그리하면 이 난장판을 순식간에 해결할 수 있을 것이다.
+
+무엇보다, 기억하라: 비록 <?=player:he_she()?>의 육체는 보다 강화되었지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
+
+]], "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/quests/re-abducted.lua"
@@ -664,7 +755,7 @@ t("#LIGHT_GREEN#* You have found your way out of the primary ambush.#WHITE#", "#
 t("#LIGHT_GREEN#* You have destroyed Rogroth the Eater of Souls and made your escape possible. Flee!#WHITE#", "#LIGHT_GREEN#* 영혼을 먹는 자 로그로스를 처치했고, 이제 탈출할 수 있습니다. 도망치세요!#WHITE#", "_t")
 t("#SLATE#* Find a way back to Eyal.#WHITE#", "#SLATE#* 에이알로 돌아갈 방법을 찾으세요.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have escaped the Anteroom of Agony.#WHITE#", "#LIGHT_GREEN#* 고문 대기장에서 탈출했습니다.#WHITE#", "_t")
--- new text
+-- untranslated text
 --[==[
 t("#LIGHT_GREEN#* #WHITE#", "#LIGHT_GREEN#* #WHITE#", "_t")
 --]==]
@@ -738,40 +829,46 @@ t("Share the Pain", "고통 공유", "talent name")
 t([[You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.
 		You get once chance to deal this damage to a particular target each turn.]], [[전장의 열기를 탐닉합니다. 인근의 적이 시전자에게 피해를 가할 시, %d%% 확률로 반격해, %d%% 무기 피해를 가합니다.
 		한 턴에 하나의 대상에 대한 반격 확률 판정은 단 한 번만 일어납니다.]], "tformat")
+-- new text
+--[==[
+t("#CRIMSON#(%d reckless backlash)#LAST#", "#CRIMSON#(%d reckless backlash)#LAST#", "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/corruptions.lua"
 
 t("corruption", "타락", "talent category")
-t("demon seeds", "악마의 씨앗", "_t")
+t("demon seeds", "악마의 씨앗", "talent type")
 t("Demon seeds powers can not be learnt, they must be used from demon seeds attached to your equipment.", "악마의 씨앗의 힘은 배울 수 없고, 악마의 씨앗을 장비에 장착시켜 사용해야 합니다.", "_t")
-t("demonic pact", "악마의 계약", "_t")
+t("demonic pact", "악마의 계약", "talent type")
 t("Bind and use demons to do your bidding.", "악마를 속박하고, 명령에 따르게 합니다.", "_t")
-t("infernal combat", "지옥의 전투", "_t")
+t("infernal combat", "지옥의 전투", "talent type")
 t("Imbue your melee attacks with lethal demonic powers.", "근접 공격에 치명적인 악마의 힘을 더합니다.", "_t")
-t("doom shield", "파멸의 방패", "_t")
+t("doom shield", "파멸의 방패", "talent type")
 t("Imbue yourself with the forces of Mal'Rok, the demon's homeworld, to protect and enhance.", "악마들의 모성인 말'록의 힘으로 자신에게 힘을 주입해 보호 효과를 받습니다.", "_t")
-t("black-magic", "흑마법", "_t")
+t("black-magic", "흑마법", "talent type")
 t("That Old Black Magic.", "그 오래된 흑마법들...", "_t")
-t("doom covenant", "파멸의 계약", "_t")
+t("doom covenant", "파멸의 계약", "talent type")
 t("Control darkness to crush your foes.", "어둠을 조종해 적들을 박살냅니다.", "_t")
-t("spellblaze", "마법폭발", "_t")
+t("spellblaze", "마법폭발", "talent type")
 t("Use the very power of the Spellblaze to destroy your foes.", "마법폭발의 강력한 힘으로 적을 파괴합니다.", "_t")
-t("brutality", "흉포", "_t")
+t("brutality", "흉포", "talent type")
 t("Devastating two-handed physical attacks fueled by demonic power.", "악마의 힘으로 가득 찬 양손 무기 물리 공격을 가합니다.", "_t")
-t("torture", "고문", "_t")
+t("torture", "고문", "talent type")
 t("Cripple your enemies with vicious two-handed attacks.", "악랄한 양손 무기 공격으로 적들을 무력화합니다.", "_t")
-t("wrath", "분노", "_t")
+t("wrath", "분노", "talent type")
 t("Destroy your enemies with intense two-handed physical attacks fueled by demonic power.", "더욱 강력한 악마의 힘으로 가득 찬 양손 무기 물리 공격을 가합니다.", "_t")
-t("Fearfire", "공포의 화염", "_t")
+t("Fearfire", "공포의 화염", "talent type")
 t("Call upon the flames of the Fearscape, incinerating all.", "공포의 영역의 화염을 불러와 모든 이를 불사릅니다.", "_t")
-t("Heart of Fire", "불의 심장", "_t")
+t("Heart of Fire", "불의 심장", "talent type")
 t("Fire is your lifeblood; it revitalizes you as it burns your foes.", "화염이 생명선이 됩니다. 적을 불태우면 활력을 얻게 됩니다.", "_t")
-t("demonic strength", "악마의 힘", "_t")
+t("demonic strength", "악마의 힘", "talent type")
 t("Infuse your body with the power of Demons.", "악마의 힘으로 신체를 강화합니다.", "_t")
-t("Oppression", "억압", "_t")
+t("Oppression", "억압", "talent type")
 t("Make your blows terrify your foes and manipulate their fear.", "공격을 가해 적들을 공포에 질리게 하고, 그 공포를 이용합니다.", "_t")
 t("Demon", "악마", "_t")
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
@@ -954,7 +1051,7 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		매 턴 화산은  %0.2f 화염 피해와 %0.2f 물리 피해를 주는 2 개의 불타는 암석을 분출합니다.
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
 		피해량은 주문력에 비례해 증가합니다.]], "tformat")
--- new text
+-- untranslated text
 --[==[
 t("", "", "log")
 --]==]
@@ -1392,7 +1489,7 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 section "tome-ashes-urhrok/data/talents/misc/races.lua"
 
 t("race", "종족", "talent category")
-t("doomelf", "둠엘프", "_t")
+t("doomelf", "둠엘프", "talent type")
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.", "_t")
 t("Haste of the Doomed", "몰락한 자의 신속함", "talent name")
 t("You must have an empty space to teleport to.", "순간이동을 하기 위해선 비어있는 위치를 대상으로 해야 한다.", "logPlayer")
@@ -1427,6 +1524,7 @@ t("Pitiless", "냉혹함", "talent name")
 t([[You launch a mental assault on the target.
 		The assult increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[대상에게 정신적 맹공을 가합니다.
 		맹공은 이미 재사용 대기시간 중인 %d 개의 기술의 재사용 대기시간을 연장합니다. 또한 모든 부정적인 마법, 물리, 또는 정신 효과의 지속시간을 %d 턴 연장하고, (최대 4 배까지 연장 가능합니다) 모든 이로운 마법, 물리, 또는 정신 효과의 지속시간을 %d 턴 단축합니다.]], "tformat")
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/timed_effects.lua"
@@ -1939,7 +2037,7 @@ t("Cosmetic: red skin", "외형: 붉은 피부", "_t")
 section "tome-ashes-urhrok/superload/mod/class/Object.lua"
 
 
--- new text
+-- untranslated text
 --[==[
 t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
 --]==]
@@ -1961,7 +2059,7 @@ Have fun crushing your foes!
 적들을 으깨버리면서, 재밌게 즐기세요!
 ]], "tformat")
 t(" or ", " 또는 ", "_t")
--- new text
+-- untranslated text
 --[==[
 t(", ", ", ", "_t")
 --]==]

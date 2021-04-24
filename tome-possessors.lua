@@ -282,20 +282,21 @@ t([[You point your ghastly finger at a foe affected by Ghastly Wail and send a p
 section "tome-possessors/data/talents/psionic/psionic.lua"
 
 t("psionic", "초능력", "talent category")
-t("possession", "빙의", "_t")
+t("possession", "빙의", "talent type")
 t("Learn to possess the bodies of your foes!", "적들의 육체에 빙의하는 법을 익힙니다!", "_t")
-t("body snatcher", "육체 강탈자", "_t")
+t("body snatcher", "육체 강탈자", "talent type")
 t("Manipulate your dead foes bodies for power and success!", "죽은 적의 육체의 힘을 다루고, 승리합니다!", "_t")
-t("psionic menace", "초능력의 위협", "_t")
+t("psionic menace", "초능력의 위협", "talent type")
 t("Laught terrible mind attacks to wear down your foes from afar with your double mindstars!", "양손에 쥔 마석으로 원거리에서 끔찍한 정신 공격을 보내, 적들을 만신창이로 만듭니다!", "_t")
-t("psychic blows", "초능력 타격", "_t")
+t("psychic blows", "초능력 타격", "talent type")
 t("Wield a two handed weapon to channel your psionics into your foes' faces!", "양손 무기를 통해 초능력 에너지를 적의 얼굴에 방출합니다!", "_t")
-t("battle psionics", "전투 초능력", "_t")
+t("battle psionics", "전투 초능력", "talent type")
 t("Dual wield a one handed weapon and a mindstar to assail your enemies's minds and bodies!", "한손 무기와 마석을 들고, 적의 육체와 정신 모두를 공격합니다!", "_t")
-t("deep horror", "깊은 공포", "_t")
+t("deep horror", "깊은 공포", "talent type")
 t("Through your psionic powers you become a nightmare for your foes.", "초능력을 이용해, 적들의 악몽이 됩니다.", "_t")
-t("ravenous mind", "탐식의 정신", "_t")
+t("ravenous mind", "탐식의 정신", "talent type")
 t("Your mind hungers for pain and suffering! Feed it!", "정신이 고통과 괴로움에 목말라 있습니다! 적의 고통을 집어삼키십시오!", "_t")
+
 
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psychic-blows.lua"
@@ -335,6 +336,11 @@ t([[You shatter your weapon in the ground, projecting a psionic shockwave in a c
 		범위 내의 모든 적은 %d%% 무기 피해를 정신 피해로 받습니다.
 		충격파에 휘말린 초능력 투영체는 산산 조각나 반경 1 칸 내에 %0.2f 물리 피해를 가합니다.
 		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
+-- new text
+--[==[
+t("A temporary psionic imprint.", "A temporary psionic imprint.", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/ravenous-mind.lua"

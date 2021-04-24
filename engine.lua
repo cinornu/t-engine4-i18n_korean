@@ -319,6 +319,17 @@ t("", "", "_t")
 
 
 ------------------------------------------------
+section "engine/engine/Chat.lua"
+
+
+-- new text
+--[==[
+t("following chain...", "following chain...", "log")
+t(" - %s : %d", " - %s : %d", "log")
+--]==]
+
+
+------------------------------------------------
 section "engine/engine/DebugConsole.lua"
 
 t("Lua Console", "Lua 콘솔", "_t")
@@ -1822,7 +1833,7 @@ t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("Login...", "로그인 중...", "_t")
 t("Login in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
--- untranslated text
+-- new text
 --[==[
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 --]==]
