@@ -536,7 +536,7 @@ section "tome-cults/data/general/npcs/blobs.lua"
 
 t("vermin", "해충", "entity type")
 t("blob", "부정형", "entity subtype")
-t("Ewwww.", "어으..", "_t")
+t("Ewwww.", "어으...", "_t")
 t("plasmic disruptor", "방해성 혈장 세포", "entity name")
 t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 초록 점액을 내뿜고 있습니다.", "_t")
 t("mastocytic feeder", "포식성 면역 세포", "entity name")
@@ -612,7 +612,7 @@ section "tome-cults/data/general/npcs/scourge-drake.lua"
 t("dragon", "용", "entity type")
 t("scourge", "재앙", "entity subtype")
 t("scourge drake hatchling", "재앙 드레이크 해츨링", "entity name")
-t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
+t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 그다지 강하지 않지만, 보통 형제자매들과 같이 나타납니다.", "_t")
 t("scourge drake", "폐룡의 위상", "entity name")
 t("A mature scourge drake, armed with deadly breath and nasty claws.", "성년 재앙 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 t("scourge wyrm", "폐룡", "entity name")
@@ -2151,7 +2151,7 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 그런 역겨운 족속들이 온 세상을 돌아다니고 있지만, 여행을 떠나고 싶은 이유가 하나 더 있다. 마법폭발의 영향을 연구하고 있는 샬로레 연구자들은 엘발라 동쪽의 검게 물든 해안에 가장 큰 파괴의 흔적이 남아 있을 것이라 보고 있다. 마법폭발이 일어났을 당시에 그 엄청난 에너지가 가장 먼저 휩쓸고 간 곳이며, 그 지역을 직접 조사해 보면 마법폭발에 대해 더 많은 것을 알 수 있을 것이다. 하지만 샬로레들은 그 지역이 얼마나 위험한가는 차치하더라도 장막 밖으로 나가는 것부터 위험하다는 것을 알고 있다. 하지만 아무리 위험해도, 이 세계에 남아 있는 마법폭발의 영향이 정확히 어떤 것인지 알아내는 것은 중요한 일이다. 
 
-[i]내가 강령술사에게 패배했다고 해서 엘발라를 떠날 마음이 없어진 건 아니고, 그렇다고 내가 인생을 내다 버리겠다는 것도 아니다. 이 세상에는 도움이 필요한 사람들이 있고, 쳐부수어버려야 할 사악한 계획을 품고 있는 자들도 있다. 그리고 나는 사람들을 도울 수 있다면 무엇이든지 할 것이다. 하지만, 밖에서 무슨 일을 하게 되든 항상 조심할 것이다. 아웨인, 조만간 또 다른 여행기를 써낼게. 기다려 줘, 내 사랑. 내가 집으로 돌아오게 되면, 가장 먼저 당신 품에 안길 거야. 하지만 지금은, 우리 집이 있는 이 땅을 떠나 사람들을 돕고 올게.[/i]]], "_t")
+[i]내가 강령술사에게 패배했다고 해서 엘발라를 떠날 마음이 없어진 건 아니고, 그렇다고 내가 인생을 내다 버리겠다는 것도 아니다. 이 세상에는 도움이 필요한 사람들이 있고, 쳐부수어버려야 할 사악한 계획을 품고 있는 자들도 있다. 그리고 나는 사람들을 도울 수 있다면 무엇이든지 할 것이다. 하지만, 밖에서 무슨 일을 하게 되든 항상 조심할 것이다. 아웨인, 조만간 또 다른 여행기를 써낼게. 기다려 줘, 내 사랑. 내가 집으로 돌아오게 되면, 가장 먼저 당신 품에 안길 거야. 하지만 지금은, 우리 집이 있는 이 땅을 떠나 사람들을 돕고 올게.[/i]], "_t")
 
 
 ------------------------------------------------
@@ -2733,7 +2733,7 @@ Your increased damage, damage penetration, critical strike chance, and critical 
 시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 부패하는 포식귀에도 적용됩니다.]], "tformat")
 t("Decayed Bloated Horror", "부패하는 부풀어오른 공포", "talent name")
 t("bloated horror", "부풀어오른 공포", "_t")
-t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 띈 형체가 공중에 떠 있습니다. 머리카락이 없는, 아이의 것 같은 머리는 몸에 비해 말도 안되게 거대하고, 그 피부는 붉은 상처로 곰보 자국이 잔뜩 나있습니다.", "_t")
+t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 한 형체가 공중에 떠 있습니다. 머리카락 한 올 없는 어린아이 같은 머리통은 몸뚱이에 비해 말도 안 되게 거대하고, 그 피부에는 새빨간 두드러기와 함께 곰보 자국이 잔뜩 나 있습니다. ", "_t")
 t([[You use your bond with horrors to summon a decaying bloated horror for %d turns.
 The decaying horror cannot move and will attack all hostile creatures in range of it. It possesses the talents Mind Disruption and Mind Sear.
 All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
@@ -3606,7 +3606,7 @@ t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 ------------------------------------------------
 section "tome-cults/data/talents/spell/necro.lua"
 
-t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 동시에, 팔다리는 내부로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
+t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 한편으로는 팔다리가 안쪽으로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
 t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#뼈의 공포가 파괴되자, 남아있는 뼈와 살이 재조합되어 새로운 적들이 되었다!", "logSeen")
 
 ------------------------------------------------
@@ -3964,7 +3964,7 @@ t("wheeing and buzzing thing", "윙윙거리는 것", "entity name")
 section "tome-cults/data/zones/dremshor-tunnel/npcs.lua"
 
 t("half formed drem", "반쪽짜리 드렘", "entity name")
-t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "작고 얼굴없는 인간형 생명체로 드워프와 조금 비슷한 특징을 가졌습니다.  들고 있는 전투도끼와 방패는 낧고, 녹슬고, 그리고 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
+t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "얼굴이 없는 조그만 인간형 생명체로 드워프와 얼추 닮았습니다.  들고 있는 전투도끼와 방패는 낧고 녹슬었으며, 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
 t("The Amalgamation", "융합체", "entity name")
 t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "무로부터 생명을 창조하는 것은 쉬운일은 아닙니다. 눈알이 여러 개라던가, 팔다리가 너무 많이 붙는다던가, 뇌가 없다던가, 몸에 너무 많다던가 하는 등 잘못 될 수 있는 요소들이 너무나 많습니다. 그런 잘못된 육신들이 하나로 융합되어, 뼈와 고깃덩이가 분노로 맥동합니다. 이... 생명체의 거대한 몸집에도 불구하고, 당신과 이 괴물 사이의 간격이 순식간에 좁혀집니다.", "_t")
 t("and absorbed into the foul thing", "그리고 그 시체는 흡수되어 그 일부가 되었습니다.", "_t")
