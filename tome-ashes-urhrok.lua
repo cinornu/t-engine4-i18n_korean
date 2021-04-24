@@ -152,7 +152,7 @@ section "tome-ashes-urhrok/data/general/npcs/major-demon.lua"
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
 t("wretch titan", "렛치 타이탄", "entity name")
-t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings. Swarming, gnashing, burning. What those adventurers don't know is that those are just the children.", "많은 모험가들은 이미 렛츨링들과 조우한 적이 있습니다. 끔찍한 놈들이죠. 무리 지어 다니고, 이를 갈며, 불타오릅니다. 렛츨링들은 그저 어린 아이들이었다는 것을 대부분의 모험가들은 알지 못합니다.", "_t")
+t("Many an adventurer has encounted the wretchling. Terrible things, wretchlings. Swarming, gnashing, burning. What those adventurers don't know is that those are just the children.", "수많은 모험가들은 이미 렛츨링들과 조우한 적이 있습니다. 참 끔찍한 놈들이죠. 떼지어 다니고, 이를 갈고, 산성액을 뿜고. 대부분의 모험가들은 그런 렛츨링들이 그저 어린아이들에 불과하다는 걸 잘 모릅니다.", "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/general/objects/world-artifacts.lua"
@@ -404,7 +404,7 @@ t([[#{italic}#More memories rush into your mind...#{normal}#
 
 That crystal.  That crystal is how they're keeping track of you, and it has most of what you helped them discover trapped within it.  If you break it, you'll be able to escape their notice for the first time since you arrived here, allowing you to get away without them finding you again, and as an added bonus you'll undo most of what you helped them accomplish.  You need to destroy it, then flee for your life!]], [[#{italic}#더 많은 기억들이 머릿속으로 밀려들어온다...#{normal}#
 
-"운 좋은 날이군, <?=player.name?>." 당신의 담당관이 빛을 내는 커다란 수정으로 당신을 안내할 때 했던 말이다.  "너는 계속 실험체로 이용하기에는 너무 협조적이다.  오늘부로 너는 연구 보조로 승격되었다!"  당신은 기쁜 마음을 주체할 수가 없었다!  "자, 그전에 먼저 몇 가지 사소한 처리를 거쳐야 한다.  여기서 내열 처리, 저기서 충성심 강화 처리, 기초 장비도 입어야겠지.  하지만 중요한 건 이것에 네 의식을 연결하는 것이다."  그가 수정을 가리키며 말했다.  "그렇게 하면, 네가 보고, 듣고, 냄새를 맡고, 맛보고, 느끼는 모든 것들이 곧바로 이 케케묵은 예쁜이에게 곧장 전송될 것이다.  그것뿐만이 아니다. 네가 어디로 가든, 무슨 생각을 하든, 그것들을 모두 보존해 두었다가 추후 연구에 활용할 것이다."  당신은 그들이 훨씬 더 많은 것을 배울 수 있도록 도울 것이다!  "그냥 이 발판 위로 올라가라.  그리고 내가 잘 묶을 수 있도록 팔을 이렇게 뻗어 봐라..."
+"운 좋은 날이군, <?=player.name?>." 당신의 담당관이 빛을 내는 커다란 수정으로 당신을 안내할 때 했던 말이다.  "너는 계속 실험체로 이용하기에는 너무 협조적이다.  오늘부로 너는 연구 보조로 승격되었다!"  당신은 기쁜 마음을 주체할 수가 없었다!  "자, 그전에 먼저 몇 가지 사소한 처리를 거쳐야 한다.  여기서 내열 처리, 저기서 충성심 강화 처리, 기초 장비도 입어야겠지.  하지만 중요한 건 이것에 네 의식을 연결하는 것이다."  그가 수정을 가리키며 말했다.  "그렇게 하면, 네가 보고, 듣고, 냄새를 맡고, 맛보고, 느끼는 모든 것들이 곧바로 이 케케묵은 예쁜이에게 전송될 것이다.  그것뿐만이 아니다. 네가 어디로 가든, 무슨 생각을 하든, 그것들을 모두 보존해 두었다가 추후 연구에 활용할 것이다."  당신은 그들이 훨씬 더 많은 것을 배울 수 있도록 도울 것이다!  "그냥 이 발판 위로 올라가라.  그리고 내가 잘 묶을 수 있도록 팔을 이렇게 뻗어 봐라..."
 
 그 수정.  그 수정으로 놈들은 당신을 추적해 왔고, 그 안에 당신이 놈들에게 제공했던 것들이 대부분 들어 있다.  그걸 부수면 이곳에 오게 된 이후로 처음으로 놈들의 시선에서 벗어날 수 있을 것이고, 놈들에게서 도망쳐도 놈들은 두 번 다시는 당신을 찾아내지 못할 것이다. 그리고 또 하나, 놈들의 연구를 돕기 위해 제공했던 것들을 대부분 없앨 수 있을 것이다.  당신은 그걸 부숴야 한다. 그것을 부숴야 도망쳐서 살아갈 수 있다!]], "_t")
 t("orbital base: battle plan (doombringer)", "궤도 기지: 작전 방침 (파멸의 사도)", "_t")

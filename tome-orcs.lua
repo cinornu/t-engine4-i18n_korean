@@ -1042,15 +1042,15 @@ t("This huge humanoid form is coated with a thick white fur, with large, vicious
 ------------------------------------------------
 section "tome-orcs/data/general/objects/boss-artifacts.lua"
 
-t("Yeti-fur Cloak", "예티 털 망토", "entity name")
-t("matted fur cloak", "광택없는 털 망토", "_t")
-t("This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "이 털 망토는 두껍고 광택이라곤 찾아 볼 수 없지만, 만지면 믿을 수 없을 만큼 부드럽습니다.", "_t")
+t("Yeti-fur Cloak", "예티 모피 망토", "entity name")
+t("matted fur cloak", "광택 없는 모피 망토", "_t")
+t("This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "이 모피 망토는 두껍고 광택이라곤 찾아 볼 수 없지만, 만지면 믿을 수 없을 만큼 부드럽습니다.", "_t")
 t("Korbek's Spyglass", "코르벡의 첩보 망원경", "entity name")
 t("golden telescope", "금색 망원경", "_t")
 t("This antique spyglass is weathered from use, but seems well maintained.", "이 골동품 망원경은 오랫동안 사용되어 낡은 상태지만, 손질이 잘 되어있는 것 같습니다.", "_t")
 t("Talosis' Counterpoint", "탈로시스의 대조", "entity name")
 t("ornate gun", "화려하게 장식된 총기", "_t")
-t("It's said that Talosis never lost an argument. Now you know why.", "탈로시스는 절대로 언쟁에서 패하지 않았다고 합니다. 당신도 왜인지 알겠죠.", "_t")
+t("It's said that Talosis never lost an argument. Now you know why.", "탈로시스는 말싸움에서 진 적이 없다고 합니다. 이유는 말 안 해도 알겠죠?", "_t")
 t("The Twisted Blade", "뒤틀린 칼날", "entity name")
 t("vile, twisted steamsaw", "악랄하게, 뒤틀린 증기톱", "_t")
 t("You see flecks of gold in this vile mass of twisted steel, implying a once great origin. Whatever glory it once had is long gone, replaced by something far more sinister...", "이 끔찍하게 뒤틀린 강철 덩어리에 도금 됐었던 흔적이 남아있어, 한때 굉장한 걸작이였음이 느껴집니다. 이제, 그 영광은 온데간데없이 사라지고, 사악한 무엇인가가 그 자리를 대신 채웠습니다...", "_t")
