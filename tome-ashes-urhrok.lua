@@ -247,7 +247,7 @@ t("Jaw of Rogroth", "로그로스의 턱", "entity name")
 t("tooth lined belt", "이빨이 줄지은 허리띠", "_t")
 t("Rogroth's mouth happened to be about the same size as your waist. Interesting.", "로그로스의 아가리는 허리 크기와 비슷하다. 흥미롭군.", "_t")
 t("deal darkness damage equal to your 350%% of your spellpower to a target, and, if it kills the target, restores 15% of max hp and all resources (except paradox and equilibrium)", "착용자의 주문력의 350%% 에 달하는 어둠 피해를 대상에게 가해, 대상이 죽으면 최대 생명력과 모든 원천력의 15% 를 회복합니다 (괴리와 평정 제외)", "_t")
--- untranslated text
+-- new text
 --[==[
 t("", "", "_t")
 --]==]
@@ -664,7 +664,7 @@ t("#LIGHT_GREEN#* You have found your way out of the primary ambush.#WHITE#", "#
 t("#LIGHT_GREEN#* You have destroyed Rogroth the Eater of Souls and made your escape possible. Flee!#WHITE#", "#LIGHT_GREEN#* 영혼을 먹는 자 로그로스를 처치했고, 이제 탈출할 수 있습니다. 도망치세요!#WHITE#", "_t")
 t("#SLATE#* Find a way back to Eyal.#WHITE#", "#SLATE#* 에이알로 돌아갈 방법을 찾으세요.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have escaped the Anteroom of Agony.#WHITE#", "#LIGHT_GREEN#* 고문 대기장에서 탈출했습니다.#WHITE#", "_t")
--- untranslated text
+-- new text
 --[==[
 t("#LIGHT_GREEN#* #WHITE#", "#LIGHT_GREEN#* #WHITE#", "_t")
 --]==]
@@ -957,7 +957,7 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		매 턴 화산은  %0.2f 화염 피해와 %0.2f 물리 피해를 주는 2 개의 불타는 암석을 분출합니다.
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
 		피해량은 주문력에 비례해 증가합니다.]], "tformat")
--- untranslated text
+-- new text
 --[==[
 t("", "", "log")
 --]==]
@@ -1940,7 +1940,7 @@ t("Cosmetic: red skin", "외형: 붉은 피부", "_t")
 section "tome-ashes-urhrok/superload/mod/class/Object.lua"
 
 
--- untranslated text
+-- new text
 --[==[
 t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
 --]==]
@@ -1962,7 +1962,7 @@ Have fun crushing your foes!
 적들을 으깨버리면서, 재밌게 즐기세요!
 ]], "tformat")
 t(" or ", " 또는 ", "_t")
--- untranslated text
+-- new text
 --[==[
 t(", ", ", ", "_t")
 --]==]

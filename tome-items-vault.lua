@@ -69,7 +69,7 @@ t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 section "tome-items-vault/overload/data/maps/items-vault/fortress.lua"
 
 
--- untranslated text
+-- new text
 --[==[
 t("Psionic Metarial Retention", "Psionic Metarial Retention", "_t")
 t("Temporal Locked Vault", "Temporal Locked Vault", "_t")
