@@ -1705,7 +1705,7 @@ t("summon a treant (5 turn cooldown)", "나무 정령을 소환합니다 (재사
 t("You cannot summon; you are suppressed!", "방해를 받고 있어 사용할 수 없다!", "logPlayer")
 t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("treant", "나무 정령", "_t")
-t("A very strong near-sentient tree, which has become hostile to other living things.", "매우 강력하고, 막 지각을 개화한 나무 생명체로, 다른 생명체에게 적대적으로 변해버렸습니다.", "_t")
+t("A very strong near-sentient tree, which has become hostile to other living things.", "불완전한 지성을 가진 막강한 나무입니다. 다른 생명체들에게 적대적으로 변해버렸습니다.", "_t")
 t("Summon", "소환", "_t")
 t("Grinder", "분쇄기", "entity name")
 t("bloody steamsaw", "핏빛 증기톱", "_t")
