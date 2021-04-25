@@ -587,41 +587,42 @@ t("Very well. We can increase one of your core stats by 4, which one?", "아주 
 ------------------------------------------------
 section "tome-orcs/data/damage_types.lua"
 
-t("pulse detonator", "진동 기폭 장치", "_t")
+t("pulse detonator", "진동 기폭 장치", "damage type")
 t("%s is knocked back!", "%s 밀려났다!", "logSeen", nil, {"가"})
 t("%s resists the knockback!", "%s 꿈쩍도 하지 않았다!", "logSeen", nil, {"는"})
-t("darkness pull", "끌어드리는 어둠", "_t")
+t("darkness pull", "끌어드리는 어둠", "damage type")
 t("%s is pulled!", "%s 끌어당겨졌다!", "logSeen", nil, {"는"})
 t("%s resists the pull!", "%s 갈고리에 저항했다!", "logSeen", nil, {"은"})
-t("darkness pin", "어둠 고정", "_t")
+t("darkness pin", "어둠 고정", "damage type")
 t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
-t("drain negative", "부정적 흡수", "_t")
-t("null_type", "속성없음", "_t")
-t("light + dark", "빛 + 어둠", "_t")
-t("blighted needles", "황폐성 바늘", "_t")
-t("infective darkness", "전염성 어둠", "_t")
-t("fiery vapour", "화염 증기", "_t")
-t("repairing", "수리", "_t")
-t("mind drone", "정신 드론", "_t")
-t("20% chance of physical repulsion", "20% 확률의 물리적 반동", "_t")
-t("temporal ripples", "시간의 파문", "_t")
-t("curse of amakthel", "아마크텔의 저주", "_t")
-t("psionic searing", "초능력 그을림", "_t")
-t("resource shock", "원천력 충격", "_t")
-t("smoke cloud", "연기 구름", "_t")
-t("lightning web", "전기망", "_t")
-t("incendiary grenade", "발화성 수류탄", "_t")
-t("chemical grenade", "화학 수류탄", "_t")
-t("shock grenade", "충격 수류탄", "_t")
-t("phosphorous", "소이", "_t")
-t("fire wall", "화염병", "_t")
-t("volatile fuel", "휘발성 연료", "_t")
-t("chemical", "화학", "_t")
-t("debilitating acid", "쇠약성 산성", "_t")
-t("caustic steam", "부식성 증기", "_t")
-t("galvanic", "전열", "_t")
-t("occult", "비술", "_t")
-t("terrene", "극지", "_t")
+t("drain negative", "부정적 흡수", "damage type")
+t("null_type", "속성없음", "damage type")
+t("light + dark", "빛 + 어둠", "damage type")
+t("blighted needles", "황폐성 바늘", "damage type")
+t("infective darkness", "전염성 어둠", "damage type")
+t("fiery vapour", "화염 증기", "damage type")
+t("repairing", "수리", "damage type")
+t("mind drone", "정신 드론", "damage type")
+t("20% chance of physical repulsion", "20% 확률의 물리적 반동", "damage type")
+t("temporal ripples", "시간의 파문", "damage type")
+t("curse of amakthel", "아마크텔의 저주", "damage type")
+t("psionic searing", "초능력 그을림", "damage type")
+t("resource shock", "원천력 충격", "damage type")
+t("smoke cloud", "연기 구름", "damage type")
+t("lightning web", "전기망", "damage type")
+t("incendiary grenade", "발화성 수류탄", "damage type")
+t("chemical grenade", "화학 수류탄", "damage type")
+t("shock grenade", "충격 수류탄", "damage type")
+t("phosphorous", "소이", "damage type")
+t("fire wall", "화염병", "damage type")
+t("volatile fuel", "휘발성 연료", "damage type")
+t("chemical", "화학", "damage type")
+t("debilitating acid", "쇠약성 산성", "damage type")
+t("caustic steam", "부식성 증기", "damage type")
+t("galvanic", "전열", "damage type")
+t("occult", "비술", "damage type")
+t("terrene", "극지", "damage type")
+
 
 ------------------------------------------------
 section "tome-orcs/data/factions.lua"
@@ -3907,15 +3908,16 @@ t("No medical injector available, values are indicative only.", "사용 가능�
 section "tome-orcs/data/talents/celestial/celestial-empyreal.lua"
 
 t("celestial", "천공", "talent category")
-t("Sol", "태양", "_t")
-t("Cosmic", "우주", "_t")
-t("Energies", "에너지", "_t")
-t("Reflection", "반사", "_t")
-t("Void", "공허", "_t")
+t("Sol", "태양", "talent type")
+t("Cosmic", "우주", "talent type")
+t("Energies", "에너지", "talent type")
+t("Reflection", "반사", "talent type")
+t("Void", "공허", "talent type")
 -- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
+
 
 
 ------------------------------------------------
@@ -4091,7 +4093,7 @@ t("Mind Controlled Yeti", "정신 지배된 예티", "talent name")
 section "tome-orcs/data/talents/misc/objects.lua"
 
 t("steam", "증기", "talent category")
-t("object techniques", "물체 전투기술", "_t")
+t("object techniques", "물체 전투기술", "talent type")
 t("Steam powers of the various objects of the world.", "세상의 다양한 물체에 대한 증기 능력들입니다.", "_t")
 t("Overgrowth", "과대성장", "talent name")
 t([[Instantly grow a moss circle of radius %d at target area.
@@ -4131,11 +4133,12 @@ t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1
 		This attack creates an explosion of radius 1 around every affected target, dealing 50% weapon damage and blinding them for 4 turns.]], [[시전자 인근의 모든 적에게 글로리 해머의 절대적임 힘을 해방합니다.
 		이 공격은 영향을 받은 적에게 반경 1 칸의 폭발을 일으키고, 무기 피해의 50% 를 주고 4 턴 동안 실명시킵니다.]], "_t")
 
+
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/races.lua"
 
 t("race", "종족", "talent category")
-t("yeti", "예티", "_t")
+t("yeti", "예티", "talent type")
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.", "_t")
 t("Algid Rage", "차가운 분노", "talent name")
 t([[Your yeti is attuned to the cold climates.
@@ -4161,7 +4164,7 @@ t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic
 		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], [[자신의 뇌의 일부분을 튀겨, 강력한 정신파를 반경 %d 칸의 원뿔 범위에 방출합니다.
 		범위 내의 적은 %0.2f 정신 피해를 받고, 35%% 위력의 혼란을 %d 턴 동안 적용합니다.
 		피해량은 체격에 비례하고, 혼란 내성 판정에 정신력, 주문력, 물리력 중 가장 높은 수치를 사용합니다.]], "tformat")
-t("whitehooves", "화이트후프", "_t")
+t("whitehooves", "화이트후프", "talent type")
 t("Whitehooves", "화이트후프", "talent name")
 t([[Improves your undead body, increasing Strength and Magic by %d.
 		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
@@ -4184,6 +4187,7 @@ t([[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
 		이 어둠은 적의 생명 정수 일부분을 흡수하여 죽음의 기세의 지속시간을 %d 턴 증가시킵니다. (이 효과는 살아있는 생명체에게만 영향을 미칩니다) 이 기술을 발동하면, 죽음의 기세의 중첩을 하나 잃습니다.
 		이 기술은 죽음의 기세의 효과를 받고 있을 때만 사용 가능합니다.
 		피해량은 마법에 비례하여 증가합니다.]], "tformat")
+
 
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/action-at-a-distance.lua"
@@ -4288,12 +4292,13 @@ t([[While inside a psionic fog the quantum state of space is warped by your powe
 section "tome-orcs/data/talents/psionic/psionic.lua"
 
 t("psionic", "초능력", "talent category")
-t("gestalt", "게슈탈트", "_t")
+t("gestalt", "게슈탈트", "talent type")
 t("Harness steam energies to power your own mind.", "증기 에너지를 이용하여 정신에 힘을 공급합니다.", "_t")
-t("action at a distance", "원격 조작", "_t")
+t("action at a distance", "원격 조작", "talent type")
 t("Focus your mental energies to make things happen. Or combust.", "정신 에너지를 집중하여 다양한 결과를 초래합니다. 아니면 그냥 불태워 버리던가요.", "_t")
-t("psionic fog", "초능력 증기", "_t")
+t("psionic fog", "초능력 증기", "talent type")
 t("Psionically manipulate steam to harass your foes and protect yourself.", "초능력적으로 조작된 증기를 이용하여 적을 괴롭히고, 스스로를 지킵니다.", "_t")
+
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/galvanic-technomancy.lua"
@@ -4423,16 +4428,17 @@ t([[After casting a technomancy spell you store some of its energies that you ca
 section "tome-orcs/data/talents/spells/spells.lua"
 
 t("spell", "주문", "talent category")
-t("undead drake", "사룡", "_t")
+t("undead drake", "사룡", "talent type")
 t("Take on the defining aspects of an Undead Drake.", "언데드 드레이크의 본질을 취합니다.", "_t")
-t("galvanic technomancy", "전열의 마도공학", "_t")
+t("galvanic technomancy", "전열의 마도공학", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 전기와 화염으로 파괴합니다.", "_t")
-t("terrene technomancy", "극지의 마도공학", "_t")
+t("terrene technomancy", "극지의 마도공학", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 땅과 물로 파괴합니다.", "_t")
-t("occult technomancy", "비술의 마도공학", "_t")
+t("occult technomancy", "비술의 마도공학", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 비전의 힘과 시간으로 파괴합니다.", "_t")
-t("other technomancy", "기타 마도공학", "_t")
+t("other technomancy", "기타 마도공학", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 파괴합니다.", "_t")
+
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/terrene-technomancy.lua"
@@ -5314,9 +5320,9 @@ t("Mecharachnid Piloting", "강철 거미 탑승", "talent name")
 t("You require your mecharachnid to be adjacent.", "당신은 강철 거미의 인근에 있어야한다.", "logPlayer")
 t("Leap into your mecharachnid, assuming direct control of it for %d turns. While piloting it, all damage dealt is increased by %d%%, resistances are increased by %d%%, and all of its talents cooldown twice as fast.", "강철 거미에게 뛰어들어, %d 턴 동안 직접 조종합니다. 강철 거미에 탑승 시, 가하는 모든 피해가 %d%% 증가하고, 저항이 %d%% 증가합니다. 강철 거미의 모든 기술의 재사용 대기시간이 2 배 더 빨리 돕니다.", "tformat")
 t("steamtech", "증기 공학", "talent category")
-t("armament", "폭격", "_t")
+t("armament", "폭격", "talent type")
 t("Ranged combat mecharachnid abilities.", "강철 거미 원거리 전투 기술.", "_t")
-t("assault", "맹공", "_t")
+t("assault", "맹공", "talent type")
 t("Close combat mecharachnid abilities.", "강철 거미 근접 전투 기술.", "_t")
 t("Overrun", "폭주", "talent name")
 t("You require a tail-mounted steamsaw for this talent.", "이 기술을 사용하기 위해서는 꼬리에 장착한 증기톱이 필요하다.", "logPlayer")
@@ -5357,6 +5363,7 @@ t("Tail Attachment", "꼬리 부착", "talent name")
 t("%s mounts %s to its tail.", "%s %s 꼬리에 장착했다.", "logSeen", nil, {"는","를"})
 t("Attach which item?", "어떤 장비를 장착 하시겠습니까?", "_t")
 t("Attach the chosen weapon to your tail.", "선택한 무기가 꼬리에 장착되었다.", "_t")
+
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/mechstar.lua"
@@ -5769,73 +5776,74 @@ section "tome-orcs/data/talents/steam/steam.lua"
 t("Steam Pool", "증기", "talent name")
 t("Allows you to have a steam pool. Steam is used to use most steamtech equipments and powers.", "증기 공학 기술에 접근할 수 있게 됩니다. 증기는 대부분의 증기 공학 장비와 기술에서 소모됩니다..", "_t")
 t("inscriptions", "각인", "talent category")
-t("implants", "이식", "_t")
+t("implants", "이식", "talent type")
 t("Steamtech directly embedded on the skin.", "피부 아래에 증기 공학 기술의 이기를 삽입합니다.", "_t")
 t("steamtech", "증기 공학", "talent category")
-t("other", "기타", "_t")
+t("other", "기타", "talent type")
 t("Tinkers with stuff.", "발명가와 장비.", "_t")
-t("physics", "물리학", "_t")
+t("physics", "물리학", "talent type")
 t("Learn the mechanical side of steamtech.", "증기 공학의 공학적인 측면을 익힙니다.", "_t")
-t("chemistry", "화학", "_t")
+t("chemistry", "화학", "talent type")
 t("Learn the chemistry side of steamtech.", "증기 공학의 화학적인 측면을 익힙니다.", "_t")
-t("blacksmith", "대장간", "_t")
+t("blacksmith", "대장간", "talent type")
 t("All this metalworking has improved you.", "오랜 금속 가공으로 육체를 단련합니다.", "_t")
-t("engineering", "공학", "_t")
+t("engineering", "공학", "talent type")
 t("You don't just know how tinkering works, you know all the interesting details too!", "그저 발명 기술을 알 뿐만 아니라, 발명 과정의 모든 세세한 부분에 관심을 쏟습니다!", "_t")
-t("butchery", "도살", "_t")
+t("butchery", "도살", "talent type")
 t("Strap saws to your arms and rush into battle!", "두 팔에 톱을 단단히 고정하고 전장으로 뛰어듭니다!", "_t")
-t("sawmaiming", "무력화 톱니", "_t")
+t("sawmaiming", "무력화 톱니", "talent type")
 t("Use steam powered saws to their maximum efficiency! Maim! Cut! Shred!", "증기톱의 효율을 극한까지 끌어올립니다! 자르기! 베기! 썰기!", "_t")
-t("battlefield management", "전장 제어", "_t")
+t("battlefield management", "전장 제어", "talent type")
 t("Use steam powered saws to maneuver around the battlefield, gaining strategic advantage.", "증기톱으로 전장을 전략적으로 조성하고, 전술적인 이점을 얻습니다..", "_t")
-t("battle machinery", "전장의 기계", "_t")
+t("battle machinery", "전장의 기계", "talent type")
 t("Use steam powered engines to tilt the battle in your favour.", "증기 엔진을 이용하여 전투의 기세를 기울게 합니다.", "_t")
-t("automated butchery", "자동 도살", "_t")
+t("automated butchery", "자동 도살", "talent type")
 t("Improve your saws and tinkers with automated processes to help shred your foes.", "톱과 발명품의 자동화 과정으로 적들을 썰어버립니다.", "_t")
-t("furnace", "용광로", "_t")
+t("furnace", "용광로", "talent type")
 t("Harness the power of fire.", "용광로의 힘을 다룹니다.", "_t")
-t("gunner training", "사수 훈련", "_t")
+t("gunner training", "사수 훈련", "talent type")
 t("Use steam powered guns to rain bullets of death on your foes!  (Learning these talents allow you to fire two steamguns at once.)", "총기를 이용하여 적들에게 죽음의 총알 비를 내립니다! (이 계열의 기술을 배우면, 2 자루의 총기를 한 번에 발사할 수 있게 됩니다.)", "_t")
-t("gunslinging", "총잡이", "_t")
+t("gunslinging", "총잡이", "talent type")
 t("Use advanced marksmanship to confound and overwhelm your foes!  (Learning these talents allow you to fire two steamguns at once.)", "진보된 사격술로 적을 물리치고 압도합니다. (이 계열의 기술을 배우면, 2 자루의 총기를 한 번에 발사할 수 있게 됩니다.)", "_t")
-t("bullets mastery", "탄환 숙련", "_t")
+t("bullets mastery", "탄환 숙련", "talent type")
 t("Use various kinds of technology to temporarily enhance your bullets.  (Learning these talents allow you to fire two steamguns at once.)", "다양한 공학 기술로 일시적으로 탄환을 강화합니다. (이 계열의 기술을 배우면, 2 자루의 총기를 한 번에 발사할 수 있게 됩니다.)", "_t")
-t("avoidance", "피해 회피", "_t")
+t("avoidance", "피해 회피", "talent type")
 t("Using various enhancements of your cloak you are able to manage incoming damage.", "망토를 갖가지 방법으로 강화하여 피격 시 입는 피해량을 조절합니다.", "_t")
-t("elusiveness", "도주", "_t")
+t("elusiveness", "도주", "talent type")
 t("Incredible feats of slipperiness!", "믿을 수 없는 도망 기술!", "_t")
-t("automation", "자동화", "_t")
+t("automation", "자동화", "talent type")
 t("Use small automated devices to control the battlefield.", "작은 자동화된 장치로 전장을 통제합니다.", "_t")
-t("psytech gunnery", "염동 공학 사수", "_t")
+t("psytech gunnery", "염동 공학 사수", "talent type")
 t("Meld your psionic powers with awesome steamtech! For mayhem!", "염동력과 증기 공학을 하나로 합칩니다! 아수라장을 위해서요!", "_t")
-t("thoughts of iron", "강철의 의지", "_t")
+t("thoughts of iron", "강철의 의지", "talent type")
 t("Apply some of your formidable willpower through steam devices.", "가공할 의지력을 증기 장치에 불어넣습니다.", "_t")
-t("mechstar", "기계별", "_t")
+t("mechstar", "기계별", "talent type")
 t("Control your mindstar and infuse it with steamtech.", "마석을 다루고, 증기 공학을 불어넣습니다.", "_t")
-t("dread", "공포", "_t")
+t("dread", "드레드", "talent type")
 t("Behold the mechanized horrors.", "기계 장치의 공포를 목도하라.", "_t")
-t("magnetism", "자력", "_t")
+t("magnetism", "자력", "talent type")
 t("Use the power of electricity to supercharge your shield.", "전력을 사용하여 방패를 과충전합니다.", "_t")
-t("demolition", "폭파", "_t")
+t("demolition", "폭파", "talent type")
 t("The use of high explosives.", "고폭탄을 사용합니다.", "_t")
-t("gadgets", "도구", "_t")
+t("gadgets", "도구", "talent type")
 t("Cunning devices to augment your combat skill.", "전투력을 향상시키기 위한 교묘한 도구들.", "_t")
-t("heavy weapons", "중화기", "_t")
+t("heavy weapons", "중화기", "talent type")
 t("Wield powerful steamtech tools of destruction.", "강력한 파괴의 증기 공학 무기를 두 손에 듭니다.", "_t")
-t("turrets", "포탑", "_t")
+t("turrets", "포탑", "talent type")
 t("Deploy steam powered turrets to assist you in combat.", "증기 포탑을 설치해, 전투를 돕게 합니다.", "_t")
 t("The various kinds of turrets.", "다양한 포탑들.", "_t")
-t("artillery", "포격", "_t")
+t("artillery", "포격", "talent type")
 t("Advanced explosive weaponry.", "진보된 폭발 무기.", "_t")
-t("mecharachnid", "강철 거미", "_t")
+t("mecharachnid", "강철 거미", "talent type")
 t("Build and deploy a powerful mechanical arachnid to assist you.", "강력한 강철 거미를 제작하고 설치하여, 전투를 돕게 합니다.", "_t")
-t("chemical warfare", "화학전", "_t")
+t("chemical warfare", "화학전", "talent type")
 t("Unleash toxic steamtech weaponry on your enemies.", "적들에게 맹독성 증기 공학 무기를 해방합니다.", "_t")
 t("#VIOLET#EUREKA!", "#VIOLET#유레카!", "log")
 t("#VIOLET#EUREKA!#WHITE# Schematic learnt: #LIGHT_BLUE#%s", "#VIOLET#유레카!#WHITE# 도면 습득: #LIGHT_BLUE#%s", "saySimple")
 t("This talent is required for the following tinkers (you still need to learn/find the schematics):", "이 기술은 다음 발명품을 요구합니다. (설계도를 배우거나, 찾아야 합니다.):", "_t")
 t(" #LIGHT_BLUE#(known)#LAST#", " #LIGHT_BLUE#(습득함)#LAST#", "_t")
 t("#{italic}#* ...perhaps more to discover...#{normal}#", "#{italic}#* ...이외에도 더 발견할 수 있을지도 모릅니다...#{normal}#", "_t")
+
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/thoughts-of-iron.lua"
@@ -5861,6 +5869,12 @@ t([[You cleanse your mind of %d mental debuffs.
 t("Mind Injection", "정신 주입", "talent name")
 t("#LIGHT_BLUE#Mind Injection selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 정신 주입이 먼저 사용됩니다.", "saySimple")
 t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
+-- new text
+--[==[
+t("By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "tformat")
+--]==]
+
+-- old translated text
 t("By using a direct psionic link to your body you can use even more therapeutics. %d%% efficiency and %d%% cooldown mod.", "신체의 정신적인 연결을 통해, 의료용 주사기를 하나 더 사용할 수 있습니다. 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있습니다.", "tformat")
 
 ------------------------------------------------

@@ -319,6 +319,17 @@ t("", "", "_t")
 
 
 ------------------------------------------------
+section "engine/engine/Chat.lua"
+
+
+-- new text
+--[==[
+t("following chain...", "following chain...", "log")
+t(" - %s : %d", " - %s : %d", "log")
+--]==]
+
+
+------------------------------------------------
 section "engine/engine/DebugConsole.lua"
 
 t("Lua Console", "Lua 콘솔", "_t")
@@ -1569,7 +1580,7 @@ t("giant", "거인", "entity type")
 t("troll", "트롤", "entity subtype")
 t("forest troll", "숲 트롤", "entity name")
 t("Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.", "녹색 피부를 가진 거대하고 못생긴 이족 보행체가 사마귀투성이인 녹색 주먹을 꽉 쥐며 당신을 응시한다.", "_t")
-t("stone troll", "돌 트롤", "entity name")
+t("stone troll", "바위 트롤", "entity name")
 t("A giant troll with scabrous black skin. With a shudder, you notice the belt of dwarf skulls around his massive waist.", "우둘투둘한 검은 거죽을 가진 자이언트 트롤입니다. 당신은 전율하면서 그의 거대한 허리춤에 달린 허리띠가 드워프 해골로 만들어졌다는 것을 알아차립니다.", "_t")
 t("cave troll", "동굴 트롤", "entity name")
 t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "이 거대한 트롤은 거대한 창을 휘두르며, 이상하게도 그 살찐 눈에 총명한 표정을 짓습니다.", "_t")
@@ -1822,7 +1833,7 @@ t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("Login...", "로그인 중...", "_t")
 t("Login in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
--- untranslated text
+-- new text
 --[==[
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 --]==]
@@ -1891,7 +1902,7 @@ To enjoy all the features the game has to offer it is #{bold}#highly#{normal}# r
 Luckily this is very easy to do: you only require a profile name and optionally an email (we send very few email, maybe two a year at most).
 ]], [[#GOLD#테일즈 오브 마즈'에이알#LAST#에 어서 오십시오.
 이 게임의 모든 기능을 즐기기 위해서 당신의 Steam 계정을 등록하는 것을 #{bold}#강력#{normal}# 추천합니다.
-정말 다행스럽게도 아주 손쉽게 가능합니다. 프로필에 사용할 닉네임과 부가적으로 이메일 주소만 있으면 됩니다 (저희는 이메일을 거의 보내지 않습니다. 1년에 한두 번 보낼까 말까죠).
+정말 다행스럽게도 아주 손쉽게 가능합니다. 프로필에 사용할 닉네임과 부가적으로 이메일 주소만 있으면 됩니다 (저희는 이메일을 거의 보내지 않습니다. 2년에 한 번 보낼까 말까죠).
 ]], "_t")
 t("Username: ", "유저명: ", "_t")
 t("Email: ", "이메일: ", "_t")

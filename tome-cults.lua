@@ -176,7 +176,7 @@ t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has resp
 t("[die]", "[죽는다]", "_t")
 t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#당신은 죽고 싶지 않습니다. 더 생각할 것도 없이, 그 존재의 제안을 받아들였습니다. 기쁘게도, 그 존재는... 뭔가를 하기 시작했습니다. 의식이 깨어나기 시작하고, 자신의 생명이 사지로 돌아오는 것이 느껴졌습니다. 하지만, 깨지는 듯한 두통이 느껴지고 목 쪽의 고통도 잦아들질 않습니다. 당신을 죽음에서 건져내기 위해 그 존재는 무엇을 한 걸까요?#{normal}#", "_t")
 t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#이상하다... 당신은 확실히 죽었지만, 아직도 여기에 있다. 하지만 뭔가 중요한 게 없어진 느낌이 든다. 목 부분도 미칠듯이 아프고 깨질 듯한 두통도 느껴진다. 왠지 모르게, 당분간 거울을 봐서는 안 된다는 미묘한 생각이 들었다.", "log")
--- new text
+-- untranslated text
 --[==[
 t("...", "...", "_t")
 --]==]
@@ -252,23 +252,35 @@ t("That was weird...", "이거 참 괴상하네...", "_t")
 ------------------------------------------------
 section "tome-cults/data/damage_types.lua"
 
+t("unstable rift", "불안정한 균열", "damage type")
+t("rift explosion", "균열 폭발", "damage type")
+t("voidburn", "공허 화상", "damage type")
+t("slowing void", "감속의 공허", "damage type")
+t("draining void", "흡수의 공허", "damage type")
+t("#Source# drains life from #Target#!", "#Source2# #Target#의 생명력을 흡수했다!", "logCombat")
+t("mesmerize", "최면", "damage type")
+t("obliterating void", "말살하는 공허", "damage type")
+t("aging temporal", "노화의 시간", "damage type")
+t("%s resists the blindness!", "%s 실명에 저항했다!!", "logSeen", nil, {"는"})
+t("%s resists the pin!", "%s 속박에 저항했다!", "logSeen", nil, {"가"})
+t("%s resists the confusion!", "%s 혼란에 저항했다!", "logSeen", nil, {"는"})
+t("decaying ground", "썩어가는 땅", "damage type")
+t("defiled blood", "부정한 피", "damage type")
+t("antropy energies", "쇠퇴 에너지", "damage type")
+t("#PURPLE#The %s fully awakens as you absorb antropic forces!", "#PURPLE#쇠퇴의 힘을 흡수하자, %s 완전히 깨어난다!", "logSeen", nil, {"가"})
+t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPLE#%s 쇠퇴의 힘을 흡수하자 전율하는 것 같다.", "logSeen", nil, {"는"})
+-- old translated text
 t("unstable rift", "불안정한 균열", "_t")
 t("rift explosion", "균열 폭발", "_t")
 t("voidburn", "공허 화상", "_t")
 t("slowing void", "감속의 공허", "_t")
 t("draining void", "흡수의 공허", "_t")
-t("#Source# drains life from #Target#!", "#Source2# #Target#의 생명력을 흡수했다!", "logCombat")
 t("mesmerize", "최면", "_t")
 t("obliterating void", "말살하는 공허", "_t")
 t("aging temporal", "노화의 시간", "_t")
-t("%s resists the blindness!", "%s 실명에 저항했다!!", "logSeen", nil, {"는"})
-t("%s resists the pin!", "%s 속박에 저항했다!", "logSeen", nil, {"가"})
-t("%s resists the confusion!", "%s 혼란에 저항했다!", "logSeen", nil, {"는"})
 t("decaying ground", "썩어가는 땅", "_t")
 t("defiled blood", "부정한 피", "_t")
 t("antropy energies", "쇠퇴 에너지", "_t")
-t("#PURPLE#The %s fully awakens as you absorb antropic forces!", "#PURPLE#쇠퇴의 힘을 흡수하자, %s 완전히 깨어난다!", "logSeen", nil, {"가"})
-t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPLE#%s 쇠퇴의 힘을 흡수하자 전율하는 것 같다.", "logSeen", nil, {"는"})
 
 ------------------------------------------------
 section "tome-cults/data/factions.lua"
@@ -536,7 +548,7 @@ section "tome-cults/data/general/npcs/blobs.lua"
 
 t("vermin", "해충", "entity type")
 t("blob", "부정형", "entity subtype")
-t("Ewwww.", "어으..", "_t")
+t("Ewwww.", "어으...", "_t")
 t("plasmic disruptor", "방해성 혈장 세포", "entity name")
 t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 초록 점액을 내뿜고 있습니다.", "_t")
 t("mastocytic feeder", "포식성 면역 세포", "entity name")
@@ -612,7 +624,7 @@ section "tome-cults/data/general/npcs/scourge-drake.lua"
 t("dragon", "용", "entity type")
 t("scourge", "재앙", "entity subtype")
 t("scourge drake hatchling", "재앙 드레이크 해츨링", "entity name")
-t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 강하지 않지만, 보통 형재 자매들과 같이 나타납니다.", "_t")
+t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 그다지 강하지 않지만, 보통 형제자매들과 같이 나타납니다.", "_t")
 t("scourge drake", "폐룡의 위상", "entity name")
 t("A mature scourge drake, armed with deadly breath and nasty claws.", "성년 재앙 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 t("scourge wyrm", "폐룡", "entity name")
@@ -662,6 +674,11 @@ t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
 t("Fanged Collar", "송곳니 목줄", "entity name")
 t("It's a head... but is it yours?", "머리인데... 이거 당신 머리 맞나요?", "_t")
+-- new text
+--[==[
+t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
@@ -835,7 +852,7 @@ t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 메말라버린 촉수 덩어리는 감염되어, 자연물과 비자연물 사이의 기이한 융합을 만들어 내는 마석같습니다. 한때, 깨끗했던 보석은 이제는 채찍같은 촉수가 달린 검은 흑요석 조각처럼 변해버렸습니다. 공포의 영향이 자연 그 자체와 융합할 수 있을거라 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 폭발을 대상에게 시전합니다", "_t")
--- new text
+-- untranslated text
 --[==[
 t("%s: \"%s\"", "%s: \"%s\"", "tformat")
 --]==]
@@ -2151,8 +2168,7 @@ Outside of the various movements of such distasteful groups, some of the shalore
 
 그런 역겨운 족속들이 온 세상을 돌아다니고 있지만, 여행을 떠나고 싶은 이유가 하나 더 있다. 마법폭발의 영향을 연구하고 있는 샬로레 연구자들은 엘발라 동쪽의 검게 물든 해안에 가장 큰 파괴의 흔적이 남아 있을 것이라 보고 있다. 마법폭발이 일어났을 당시에 그 엄청난 에너지가 가장 먼저 휩쓸고 간 곳이며, 그 지역을 직접 조사해 보면 마법폭발에 대해 더 많은 것을 알 수 있을 것이다. 하지만 샬로레들은 그 지역이 얼마나 위험한가는 차치하더라도 장막 밖으로 나가는 것부터 위험하다는 것을 알고 있다. 하지만 아무리 위험해도, 이 세계에 남아 있는 마법폭발의 영향이 정확히 어떤 것인지 알아내는 것은 중요한 일이다. 
 
-[i]내가 강령술사에게 패배했다고 해서 엘발라를 떠날 마음이 없어진 건 아니고, 그렇다고 내가 인생을 내다 버리겠다는 것도 아니다. 이 세상에는 도움이 필요한 사람들이 있고, 쳐부수어버려야 할 사악한 계획을 품고 있는 자들도 있다. 그리고 나는 사람들을 도울 수 있다면 무엇이든지 할 것이다. 하지만, 밖에서 무슨 일을 하게 되든 항상 조심할 것이다. 아웨인, 조만간 또 다른 여행기를 써낼게. 기다려 줘, 내 사랑. 내가 집으로 돌아오게 되면, 가장 먼저 당신 품에 안길 거야. 하지만 지금은, 우리 집이 있는 이 땅을 떠나 사람들을 돕고 올게.[/i]]], "_t")
-
+[i]내가 강령술사에게 패배했다고 해서 엘발라를 떠날 마음이 없어진 건 아니고, 그렇다고 내가 인생을 내다 버리겠다는 것도 아니다. 이 세상에는 도움이 필요한 사람들이 있고, 쳐부수어버려야 할 사악한 계획을 품고 있는 자들도 있다. 그리고 나는 사람들을 도울 수 있다면 무엇이든지 할 것이다. 하지만, 밖에서 무슨 일을 하게 되든 항상 조심할 것이다. 아웨인, 조만간 또 다른 여행기를 써낼게. 기다려 줘, 내 사랑. 내가 집으로 돌아오게 되면, 가장 먼저 당신 품에 안길 거야. 하지만 지금은, 우리 집이 있는 이 땅을 떠나 사람들을 돕고 올게.[/i]], "_t")
 
 ------------------------------------------------
 section "tome-cults/data/lore/kroshkkur.lua"
@@ -2733,7 +2749,7 @@ Your increased damage, damage penetration, critical strike chance, and critical 
 시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 부패하는 포식귀에도 적용됩니다.]], "tformat")
 t("Decayed Bloated Horror", "부패하는 부풀어오른 공포", "talent name")
 t("bloated horror", "부풀어오른 공포", "_t")
-t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 띈 형체가 공중에 떠 있습니다. 머리카락이 없는, 아이의 것 같은 머리는 몸에 비해 말도 안되게 거대하고, 그 피부는 붉은 상처로 곰보 자국이 잔뜩 나있습니다.", "_t")
+t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "부풀어오른 인간의 모습을 한 형체가 공중에 떠 있습니다. 머리카락 한 올 없는 어린아이 같은 머리통은 몸뚱이에 비해 말도 안 되게 거대하고, 그 피부에는 새빨간 두드러기와 함께 곰보 자국이 잔뜩 나 있습니다.", "_t")
 t([[You use your bond with horrors to summon a decaying bloated horror for %d turns.
 The decaying horror cannot move and will attack all hostile creatures in range of it. It possesses the talents Mind Disruption and Mind Sear.
 All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
@@ -2767,50 +2783,51 @@ section "tome-cults/data/talents/demented/demented.lua"
 t("Insanity Pool", "광기", "talent name")
 t("Allows you to have an insanity pool. Insanity is used for most demented powers.", "광기 주문에 접근할 수 있게 됩니다. 광기는 대부분의 광기 계통 주문에서 소모됩니다.", "_t")
 t("demented", "광기", "talent category")
-t("tentacles", "촉수", "_t")
+t("tentacles", "촉수", "talent type")
 t("Grow horrific tentacles to assail your foes.", "끔찍한 촉수를 돋아나게 해, 적들에게 공격을 가합니다.", "_t")
-t("horrific body", "끔찍한 신체", "_t")
+t("horrific body", "끔찍한 신체", "talent type")
 t("Let your body mutate in terrible and efficient ways.", "자신의 신체를 끔찍하지만 효율적이게 변화시킵니다.", "_t")
-t("writhing body", "뒤틀린 신체", "_t")
+t("writhing body", "뒤틀린 신체", "talent type")
 t("Enhance your body and tentacle with new attacks and horrific growths.", "신체와 촉수를 강화하여 새로운 공격 방법을 배우고, 끔찍한 성장을 이룹니다.", "_t")
-t("path of horror", "공포의 길", "_t")
+t("path of horror", "공포의 길", "talent type")
 t("Continue your journey on the side of horror.", "공포의 옆에서 힘의 탐구를 계속합니다.", "_t")
-t("controlled horrors", "공포 통제", "_t")
+t("controlled horrors", "공포 통제", "talent type")
 t("Summon decaying horrors to do your bidding!", "썩어가는 공포를 불러내어 명령에 복종하게 합니다!", "_t")
-t("slow death", "느린 죽음", "_t")
+t("slow death", "느린 죽음", "talent type")
 t("Turn the insides of your body into a digesting weapon of pain!", "내장을 적들을 집어삼켜 소화하는 끔찍한 병기로 탈바꿈합니다!", "_t")
-t("disfigured face", "문드러진 얼굴", "_t")
+t("disfigured face", "문드러진 얼굴", "talent type")
 t("Your face is the stuff of nightmares!", "악몽에서나 볼 수 있던 광경이 자신의 얼굴에 나타납니다!", "_t")
-t("friend of the worm", "벌레의 친구", "_t")
+t("friend of the worm", "벌레의 친구", "talent type")
 t("Conjure your Worm that Walks friend!", "우호적인 걸어다니는 벌레떼를 생성합니다!", "_t")
-t("nether", "황천", "_t")
+t("nether", "황천", "talent type")
 t("Annihilate your foes with pure void energy.", "순수한 공허 에너지로 적들을 섬멸합니다.", "_t")
-t("madness", "광기", "_t")
+t("madness", "광기", "talent type")
 t("Spread the madness of the void to your enemies.", "공허의 광기를 적에게 퍼뜨립니다.", "_t")
-t("void", "공허", "_t")
+t("void", "공허", "talent type")
 t("Draw upon the power of the void to protect yourself from harm.", "공허의 힘을 뽑아내어 스스로를 방어합니다.", "_t")
-t("entropy", "엔트로피", "_t")
+t("entropy", "엔트로피", "talent type")
 t("Learn to withstand and direct the entropy you cause.", "자신이 불러온 엔트로피에 저항하고 활용하는 법을 배웁니다.", "_t")
-t("timethief", "시간 도둑", "_t")
+t("timethief", "시간 도둑", "talent type")
 t("Steal time from others, weakening them to empower yourself.", "타인의 시간을 훔치고 약화시키면서 스스로를 강화합니다.", "_t")
-t("oblivion", "소멸", "_t")
+t("oblivion", "소멸", "talent type")
 t("Channel the essence of entropy to reduce your foes to dust.", "엔트로피의 정수를 사용하여 적을 먼지로 돌려보냅니다.", "_t")
-t("rift", "균열", "_t")
+t("rift", "균열", "talent type")
 t("Tear holes in space and time to unleash devastating forces on your foes.", "파괴적인 힘을 적에게 쏟아내기 위해 시간과 공간에 구멍을 냅니다.", "_t")
-t("chronophage", "시간 포식", "_t")
+t("chronophage", "시간 포식", "talent type")
 t("Feast upon the ruined timelines of your enemies.", "적들의 파멸한 시간선을 먹어치웁니다.", "_t")
-t("scourge drake", "폐룡의 위상", "_t")
+t("scourge drake", "폐룡의 위상", "talent type")
 t("Take on the defining aspects of a Scourge Drake.", "황폐 드레이크의 본질을 취합니다.", "_t")
-t("doom", "몰락", "_t")
+t("doom", "몰락", "talent type")
 t("Foretell the dire fate of your enemies.", "적들의 비참한 운명을 예언합니다.", "_t")
-t("prophecy", "예언", "_t")
+t("prophecy", "예언", "talent type")
 t("The various prophecies you can tell.", "선고가능한 여러 가지 예언을 다룹니다.", "_t")
-t("calamity", "대재앙", "_t")
+t("calamity", "대재앙", "talent type")
 t("Stack the odds in your favour.", "마음 먹은대로 행운을 조작합니다.", "_t")
-t("beyond sanity", "이성 너머", "_t")
+t("beyond sanity", "이성 너머", "talent type")
 t("Let yourself walk in chaos!", "혼돈이 함께 합니다!", "_t")
-t("other", "기타", "_t")
+t("other", "기타", "talent type")
 t("Talents of the various entities of the world.", "세상에 존재하는 여러 종족들의 기술.", "_t")
+
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/disfigured-face.lua"
@@ -2898,6 +2915,24 @@ t([[Weave your chosen prophecy into your speech, dooming your foe twice over. Th
 		
 		현재 예언: %s]], "tformat")
 t("Revelation", "계시", "talent name")
+-- new text
+--[==[
+t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
+		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
+		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
+		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
+		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
+	
+		Current prophecy: %s]], [[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
+		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
+		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
+		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
+		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
+	
+		Current prophecy: %s]], "tformat")
+--]==]
+
+-- old translated text
 t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant you one of the following effects for 10 turns.
 		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
 		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
@@ -3333,11 +3368,6 @@ t([[You extend your tentacle to grab a distant target, pulling it to you.
 section "tome-cults/data/talents/demented/timethief.lua"
 
 t("Accelerate", "가속", "talent name")
-t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius 7 by 50%% for %d turns.
-You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어, 반경 7칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
-당신은 적에게서 흡수한 시간을 이용하여, 1 턴 동안 믿을 수 없는 속도로 움직입니다. 당신의 이동 속도를 %d%% 만큼 증가시키고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다. 추가 이동 속도 효과는 최대 4명의 적에게서 발생됩니다.
-이동을 제외한 모든 행위는 효과를 즉시 중단시킵니다.]], "tformat")
 t("Switch", "전환", "talent name")
 t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "엔트로피의 쇄도를 풀어놓아 타인의 에너지를 흡수하고, 당신의 부정적인 효과를 정화합니다. 반경 10칸 이내의 모든 적이 가진 %d 개의 이로운 효과의 지속시간을 %d 턴 단축시키고, 당신이 가진 같은 수의 부정적인 효과의 지속시간도 같은 수치로 단측합니다.", "tformat")
 t("Suspend", "유보", "talent name")
@@ -3354,6 +3384,21 @@ t("Summon", "소환", "_t")
 t([[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
 While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[적 하나를 지정하여 %d 턴 동안 시간의 흐름에서 부분적으로 지우고, 이 세계와의 상호작용을 방해합니다. 대상이 받는 모든 피해량은 %d%% 로 감소하고, 대상이 가하는 모든 피해량도 %d%% 로 감소합니다.
 활성화 시, 찢겨진 대상의 시간선을 시간 분신으로 다시 자아내어 시전자의 편에서 싸우게 합니다. 분신의 유지시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 생명력은 %d%% 더 적으며 가하는 피해량은 원본의 %d%% 입니다.]], "tformat")
+-- new text
+--[==[
+t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
+You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
+Any actions other than movement will cancel the effect.]], [[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
+You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
+Any actions other than movement will cancel the effect.]], "tformat")
+--]==]
+
+-- old translated text
+t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius 7 by 50%% for %d turns.
+You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
+Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어, 반경 7칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
+당신은 적에게서 흡수한 시간을 이용하여, 1 턴 동안 믿을 수 없는 속도로 움직입니다. 당신의 이동 속도를 %d%% 만큼 증가시키고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다. 추가 이동 속도 효과는 최대 4명의 적에게서 발생됩니다.
+이동을 제외한 모든 행위는 효과를 즉시 중단시킵니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/void.lua"
@@ -3406,7 +3451,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		이 질병에 감염된 적들은 생명력 회복 효율이 %d%% 감소하며, 질병 면역력이 %d%% 감소합니다.
 		이 질병은 무시무시하게 강력하기 때문에, 대상의 질병 면역력을 완전히 무시합니다.
 		피해량은 주문력에 비례하여 증가하고, 전염될 확률은 대상에게 가한 황폐 속성 피해량의 영향을 받아 증가합니다.]], "tformat")
--- new text
+-- untranslated text
 --[==[
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
 t([[		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
@@ -3465,7 +3510,7 @@ t([[Evolve %d allies within radius 10 in random ways for 5 turns.
 		#ORCHID#기능:#LAST# 모든 능력치가 %d 증가합니다.
 		#ORCHID#힘:#LAST# 가하는 모든 피해가 %d%% 증가합니다.]], "tformat")
 t("golem", "골렘", "talent category")
-t("glass", "유리", "_t")
+t("glass", "유리", "talent type")
 t("Glass Golem basic capacity.", "유리 골렘 기본 능력.", "_t")
 t("Glass Splinters", "유리 파편", "talent name")
 t("%s resists the splinters!", "%s 파편에 저항했다!", "logSeen", nil, {"는"})
@@ -3489,11 +3534,12 @@ t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f
 		이 주문의 강력함은 시전자에게 엔트로피 반발을 유발합니다. 8 턴에 걸쳐 %d 피해를 입습니다. 이 피해량은 엔트로피의 선물로 적에게 전달될 수 있습니다..
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
+
 ------------------------------------------------
 section "tome-cults/data/talents/misc/races.lua"
 
 t("race", "종족", "talent category")
-t("drem", "드렘", "_t")
+t("drem", "드렘", "talent type")
 t("The various racial bonuses a character can have.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.", "_t")
 t("Frenzy", "광분", "talent name")
 t([[Enter a killing frenzy for 3 turns.
@@ -3529,7 +3575,7 @@ t([[Your affinity with things that dwell deep beneath the surface allows you to 
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
 드렘의 경우, 이 효과는 '깊은 곳에서 집어삼킨다' 로 굶주린 주둥이가 소환되어 있을 때 활성화됩니다.", "_t")
-t("krog", "크로그", "_t")
+t("krog", "크로그", "talent type")
 t("Wrath of the Wilds", "야생의 분노", "talent name")
 t([[You unleash the wrath of the wilds for 5 turns.
 		When you deal damage to a creature while wrath is active you have %d%% chance (100%% for the first creature hit each turn) to stun them for 3 turns.
@@ -3578,7 +3624,7 @@ t([[You were created by ziguranth for one purpose only, to wage war on magic!
 			대상을 강타해 %d%% %s 무기 피해를 주고, 대상을 %d 턴 동안 침묵시킵니다.
 			피해 속성은 드레이크의 위상에 따라 변경됩니다.
 			침묵 확률은 물리력과 정신력 중 높은 값에 비례하여 증가합니다 .]], "tformat")
-t("parasite", "기생생물", "_t")
+t("parasite", "기생충", "talent type")
 t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.. 자신의 머리통을 날려버리고 기생생물로 대체했을 때 말입니다..", "_t")
 t("Take a Bite", "한 입", "talent name")
 t("#Source# tries to bite #target#!", "#Source1# #target3# 씹어먹으려 하고 있다!", "logCombat")
@@ -3603,10 +3649,11 @@ t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 		The total damage the shield can absorb increases with your Constitution.]], [[주변에 껍질을 만들어, %d 피해를 흡수합니다. 10 턴 동안 유지됩니다.
 		피해 흡수량은 체격에 비례하여 증가합니다.]], "tformat")
 
+
 ------------------------------------------------
 section "tome-cults/data/talents/spell/necro.lua"
 
-t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 동시에, 팔다리는 내부로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
+t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "거대한 흉곽이 시끄럽게 달그락거립니다. 돌출된 수많은 뼈의 손이 서로 얽히고 섥혀 뼈로 이루어진 거대한 팔 다리를 이뤄 흉곽을 지탱하고 있습니다. 한편으로는 팔다리가 안쪽으로 부서지고, 붕괴되고 있습니다. 그러는 와중에도, 그 뼈들은 당신을 붙잡으려 합니다.", "_t")
 t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#뼈의 공포가 파괴되자, 남아있는 뼈와 살이 재조합되어 새로운 적들이 되었다!", "logSeen")
 
 ------------------------------------------------
@@ -3964,7 +4011,7 @@ t("wheeing and buzzing thing", "윙윙거리는 것", "entity name")
 section "tome-cults/data/zones/dremshor-tunnel/npcs.lua"
 
 t("half formed drem", "반쪽짜리 드렘", "entity name")
-t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "작고 얼굴없는 인간형 생명체로 드워프와 조금 비슷한 특징을 가졌습니다.  들고 있는 전투도끼와 방패는 낧고, 녹슬고, 그리고 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
+t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "얼굴이 없는 조그만 인간형 생명체로 드워프와 얼추 닮았습니다.  들고 있는 전투도끼와 방패는 낧고 녹슬었으며, 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
 t("The Amalgamation", "융합체", "entity name")
 t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "무로부터 생명을 창조하는 것은 쉬운일은 아닙니다. 눈알이 여러 개라던가, 팔다리가 너무 많이 붙는다던가, 뇌가 없다던가, 몸에 너무 많다던가 하는 등 잘못 될 수 있는 요소들이 너무나 많습니다. 그런 잘못된 육신들이 하나로 융합되어, 뼈와 고깃덩이가 분노로 맥동합니다. 이... 생명체의 거대한 몸집에도 불구하고, 당신과 이 괴물 사이의 간격이 순식간에 좁혀집니다.", "_t")
 t("and absorbed into the foul thing", "그리고 그 시체는 흡수되어 그 일부가 되었습니다.", "_t")
@@ -4104,7 +4151,18 @@ t("food", "음식", "entity type")
 t("food", "음식", "entity subtype")
 t("food", "음식", "_t")
 t("Food for Grung!", "그룽을 위한 음식입니다!", "_t")
+t("heart", "심장", "_t")
+t("kidney", "신장", "_t")
 t("name", "이름", "entity name")
+-- new text
+--[==[
+t("disgusting heart", "disgusting heart", "_t")
+t("lump of flesh", "lump of flesh", "_t")
+t("flesh piece", "flesh piece", "_t")
+t("intestine", "intestine", "_t")
+t("eye", "eye", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-haze-cave/zone.lua"
@@ -4191,6 +4249,43 @@ t("A page of the tome.", "두꺼운 책의 한 페이지.", "_t")
 t("Forbidden Tome: \"Home, Horrific Home\"", "금지된 고서: \"집, 무시무시한 집\"", "entity name")
 t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "잃어버린 지식을 담고 있는 두꺼운 책입니다. 만지면 역겹지만, 이상하게도 동시에 평화로움을 느낄 수 있습니다.", "_t")
 -- new text
+--[==[
+t([[Clarity found in safety.
+Clarity found in comfort.
+Thoughts and idle dreams drifting through space.
+No one to harm.
+No one to distract.
+Just thoughts.
+Work to great works.
+Meditate.
+Pain is a lens.
+Focus through it.
+Let flesh be your canvas.
+Let flesh fuel dreams.
+Thoughts are treasures.
+Treasure thoughts.
+Thoughts treasured when they are alone. 
+
+#RED#Reading this tome will slowly pull you in over 5 turns.]], [[Clarity found in safety.
+Clarity found in comfort.
+Thoughts and idle dreams drifting through space.
+No one to harm.
+No one to distract.
+Just thoughts.
+Work to great works.
+Meditate.
+Pain is a lens.
+Focus through it.
+Let flesh be your canvas.
+Let flesh fuel dreams.
+Thoughts are treasures.
+Treasure thoughts.
+Thoughts treasured when they are alone. 
+
+#RED#Reading this tome will slowly pull you in over 5 turns.]], "_t")
+--]==]
+
+-- untranslated text
 --[==[
 t("..", "..", "entity name")
 --]==]
@@ -4492,6 +4587,8 @@ t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GR
 ------------------------------------------------
 section "tome-cults/data/zones/test/grids.lua"
 
+
+-- old translated text
 t("floor", "바닥", "entity type")
 t("ancient", "고대", "entity subtype")
 t("floor", "바닥", "entity name")
@@ -4566,6 +4663,11 @@ t("The Face of the Deep", "심연의 얼굴", "entity name")
 t("This creature sells runes and infusions for the sanctuary.", "이 존재는 성역을 위해 룬과 주입물을 판매하고 있습니다.", "_t")
 t("The Conjointed", "결합한 자", "entity name")
 t("This creature sells tools for the sanctuary.", "이 존재는 성역을 위해 도구를 판매하고 있습니다.", "_t")
+-- new text
+--[==[
+t("Destroy @himher@!", "Destroy @himher@!", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-cults/data/zones/town-kroshkkur/objects.lua"
@@ -4857,7 +4959,7 @@ t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 �
 t("The protagonist of the story is dead.", "이야기의 주인공이 죽었습니다.", "_t")
 t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s 무너지기 시작한다, 한 번 나가면 완전히 사라질 것이다!", "log", nil, {"가"})
 t("%s of the Blightspawn", "황폐의 %s", "tformat")
--- new text
+-- untranslated text
 --[==[
 t("#AQUAMARINE#%s", "#AQUAMARINE#%s", "log")
 --]==]
@@ -4938,6 +5040,17 @@ t("Cancel", "취소", "_t")
 t("Read Tome", "고서를 읽는다", "_t")
 -- new text
 --[==[
+t("\
+#CRIMSON#Will crumble to dust when read!", "\
+#CRIMSON#Will crumble to dust when read!", "_t")
+t("\
+#YELLOW#Can only be read %d times.", "\
+#YELLOW#Can only be read %d times.", "tformat")
+t("Read the book", "Read the book", "_t")
+--]==]
+
+-- untranslated text
+--[==[
 t("", "", "_t")
 --]==]
 
@@ -5014,7 +5127,7 @@ t([[You may empower the chosen prophecy with Grand Oration, causing it to spread
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Grand Oration.", "위대한 기도문으로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5030,7 +5143,7 @@ t([[You may empower the chosen prophecy with Revelation, causing it to grant you
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Revelation.", "계시로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5046,7 +5159,7 @@ t([[You may empower the chosen prophecy with Twofold Curse, causing it to apply 
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Twofold Curse.", "이중 저주로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
