@@ -336,10 +336,7 @@ t([[You shatter your weapon in the ground, projecting a psionic shockwave in a c
 		범위 내의 모든 적은 %d%% 무기 피해를 정신 피해로 받습니다.
 		충격파에 휘말린 초능력 투영체는 산산 조각나 반경 1 칸 내에 %0.2f 물리 피해를 가합니다.
 		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
--- new text
---[==[
-t("A temporary psionic imprint.", "A temporary psionic imprint.", "_t")
---]==]
+t("A temporary psionic imprint.", "일시적인 초능력 투영체입니다.", "_t")
 
 
 ------------------------------------------------

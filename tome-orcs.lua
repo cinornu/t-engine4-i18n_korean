@@ -5869,13 +5869,7 @@ t([[You cleanse your mind of %d mental debuffs.
 t("Mind Injection", "정신 주입", "talent name")
 t("#LIGHT_BLUE#Mind Injection selected to be used first by salves.", "#LIGHT_BLUE#연고를 사용하면 정신 주입이 먼저 사용됩니다.", "saySimple")
 t("This medical injector will now be used first if available when using medical salves.", "연고를 사용할 수 있을 때, 해당 주사기가 먼저 사용됩니다.", "logPlayer")
--- new text
---[==[
-t("By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "tformat")
---]==]
-
--- old translated text
-t("By using a direct psionic link to your body you can use even more therapeutics. %d%% efficiency and %d%% cooldown mod.", "신체의 정신적인 연결을 통해, 의료용 주사기를 하나 더 사용할 수 있습니다. 연고를 %d%% 의 효율과 %d%% 변동된 재사용 대기시간으로 사용할 수 있습니다.", "tformat")
+t("By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "신체와의 정신적인 연결을 통해, 의약품을 더 사용할 수 있습니다. 이 기술은 %d%% 의 효율과 %d%% 변동된 재사용 대기시간을 가진 추가 의료용 주사기처럼 동작합니다.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/turrets.lua"
