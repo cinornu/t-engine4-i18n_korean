@@ -2,7 +2,6 @@
 section "always_merge"
 
 
--- old translated text
 t("mountain chain", "산맥", "nil")
 t("Thalore", "탈로레", "nil")
 t("Temple of Creation", "창조의 사원", "nil")

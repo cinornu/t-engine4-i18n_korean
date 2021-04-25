@@ -1835,23 +1835,6 @@ t("mechanical core", "기계 핵", "entity name")
 t("The core unit of the Automated Defense System.", "자동 방어 시스템의 핵심 유닛입니다.", "_t")
 t("primal core", "원초의 핵", "entity name")
 t("The core wood of a great tree.", "훌륭한 나무의 중심부 목재입니다.", "_t")
--- old translated text
-t("metal", "금속", "ingredient type")
-t("lump of iron", "쇳덩어리", "ingredient name")
-t("lump of steel", "강철 덩어리", "ingredient name")
-t("lump of dwarven steel", "드워프제 강철 덩어리", "ingredient name")
-t("lump of stralite", "스트랄라이트 덩어리", "ingredient name")
-t("lump of voratun", "보라툰 덩어리", "ingredient name")
-t("herbs", "약초", "ingredient type")
-t("stack of herbs (viperweed)", "약초 뭉치 (바이퍼위드)", "ingredient name")
-t("stack of herbs (sessali)", "약초 뭉치 (셋살리)", "ingredient name")
-t("stack of herbs (bilberry)", "약초 뭉치 (빌베리)", "ingredient name")
-t("stack of herbs (burdock)", "약초 뭉치 (버도크)", "ingredient name")
-t("stack of herbs (goldleaf)", "약초 뭉치 (골드리프)", "ingredient name")
-t("misc", "도구", "ingredient type")
-t("brain in a jar", "통 속의 뇌", "ingredient name")
-t("mechanical core", "기계 핵", "ingredient name")
-t("primal core", "원초의 핵", "ingredient name")
 
 ------------------------------------------------
 section "tome-orcs/data/lore/destructicus.lua"

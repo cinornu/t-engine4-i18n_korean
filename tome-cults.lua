@@ -269,18 +269,6 @@ t("defiled blood", "부정한 피", "damage type")
 t("antropy energies", "쇠퇴 에너지", "damage type")
 t("#PURPLE#The %s fully awakens as you absorb antropic forces!", "#PURPLE#쇠퇴의 힘을 흡수하자, %s 완전히 깨어난다!", "logSeen", nil, {"가"})
 t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPLE#%s 쇠퇴의 힘을 흡수하자 전율하는 것 같다.", "logSeen", nil, {"는"})
--- old translated text
-t("unstable rift", "불안정한 균열", "_t")
-t("rift explosion", "균열 폭발", "_t")
-t("voidburn", "공허 화상", "_t")
-t("slowing void", "감속의 공허", "_t")
-t("draining void", "흡수의 공허", "_t")
-t("mesmerize", "최면", "_t")
-t("obliterating void", "말살하는 공허", "_t")
-t("aging temporal", "노화의 시간", "_t")
-t("decaying ground", "썩어가는 땅", "_t")
-t("defiled blood", "부정한 피", "_t")
-t("antropy energies", "쇠퇴 에너지", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/factions.lua"
@@ -4548,17 +4536,6 @@ t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GR
 ------------------------------------------------
 section "tome-cults/data/zones/test/grids.lua"
 
-
--- old translated text
-t("floor", "바닥", "entity type")
-t("ancient", "고대", "entity subtype")
-t("floor", "바닥", "entity name")
-t("wall", "벽", "entity type")
-t("wall", "벽", "entity name")
-t("door", "문", "entity name")
-t("statue", "석상", "entity name")
-t("previous level", "이전 구역", "entity name")
-t("next level", "다음 구역", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/zones/test/npcs.lua"
