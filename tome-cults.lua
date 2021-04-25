@@ -674,11 +674,7 @@ t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
 t("Fanged Collar", "송곳니 목줄", "entity name")
 t("It's a head... but is it yours?", "머리인데... 이거 당신 머리 맞나요?", "_t")
--- new text
---[==[
-t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "_t")
---]==]
-
+t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% 확률로 받은 공격을 완벽하게 흡수합니다. 이 효과는 30 턴의 재사용 대기시간이 있습니다.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
@@ -735,7 +731,7 @@ Read now for a fate worse than death inside awaits.
 광기의 책,
 실성의 책.
 
-이것을 읽는 자는 고통 너머의 고통을 알게 될 것이다.
+이것을 읽는 자는 고통을 넘어선 고통을 알게 될 것이다.
 읽어라. 죽음보다도 더 가혹한 운명이 기다린다.
 ]], "_t")
 t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
@@ -2915,34 +2911,16 @@ t([[Weave your chosen prophecy into your speech, dooming your foe twice over. Th
 		
 		현재 예언: %s]], "tformat")
 t("Revelation", "계시", "talent name")
--- new text
---[==[
 t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
 		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
 		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
 		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 	
-		Current prophecy: %s]], [[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
-		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
-		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
-		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
-		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
-	
-		Current prophecy: %s]], "tformat")
---]==]
-
--- old translated text
-t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant you one of the following effects for 10 turns.
-		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
-		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
-		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by the damage link.
-		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
-	
-		Current prophecy: %s]], [[예언을 내릴 때, 공허의 속삭임이 적들을 몰락으로 인도합니다. 선택된 예언은 다음과 같은 효과를 10 턴 동안 제공합니다.
+		Current prophecy: %s]], [[예언을 내릴 때, 공허의 속삭임이 적들을 몰락으로 인도합니다. 선택된 예언은 다음과 같은 효과를 얻게 됩니다.
 		광기의 예언: 대상이 기술을 사용할 때마다 재사용 대기 중인 기술 하나의 재사용 대기시간이 %d 턴 단축됩니다.
 		파멸의 예언: 대상이 피해를 입을 때마다 가한 피해의 %d%% 만큼의 생명력을 회복합니다.
-		배반의 예언: 시전자가 받는 모든 피해 중 %d%% 가 피해 연결의 효과를 받는 무작위의 적에게 재전달 될 것입니다. (버그로 작동안함)
+		배반의 예언: 배반의 예언의 효과를 받는 무작위 적 하나에게 시전자가 받는 모든 피해의 %d%% 가 전달될 것입니다.
 		하나의 예언은 위대한 기도문, 이중 저주, 계시 중 단 하나의 강화 효과를 받습니다.
 	
 		현재 예언: %s]], "tformat")
@@ -3384,21 +3362,11 @@ t("Summon", "소환", "_t")
 t([[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
 While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[적 하나를 지정하여 %d 턴 동안 시간의 흐름에서 부분적으로 지우고, 이 세계와의 상호작용을 방해합니다. 대상이 받는 모든 피해량은 %d%% 로 감소하고, 대상이 가하는 모든 피해량도 %d%% 로 감소합니다.
 활성화 시, 찢겨진 대상의 시간선을 시간 분신으로 다시 자아내어 시전자의 편에서 싸우게 합니다. 분신의 유지시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 생명력은 %d%% 더 적으며 가하는 피해량은 원본의 %d%% 입니다.]], "tformat")
--- new text
---[==[
 t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
 You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], [[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
-You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], "tformat")
---]==]
-
--- old translated text
-t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius 7 by 50%% for %d turns.
-You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어, 반경 7칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
-당신은 적에게서 흡수한 시간을 이용하여, 1 턴 동안 믿을 수 없는 속도로 움직입니다. 당신의 이동 속도를 %d%% 만큼 증가시키고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다. 추가 이동 속도 효과는 최대 4명의 적에게서 발생됩니다.
-이동을 제외한 모든 행위는 효과를 즉시 중단시킵니다.]], "tformat")
+Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어, 반경 %d 칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
+시전자는 적에게서 흡수한 시간을 이용하여 1 턴 동안 믿을 수 없는 속도로 움직입니다. 시전자의 이동 속도가 %d%% 만큼 증가하고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다 (최대 4체까지).
+이동을 제외한 모든 행위는 이 효과를 즉시 중단시킵니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/void.lua"
@@ -4154,15 +4122,11 @@ t("Food for Grung!", "그룽을 위한 음식입니다!", "_t")
 t("heart", "심장", "_t")
 t("kidney", "신장", "_t")
 t("name", "이름", "entity name")
--- new text
---[==[
-t("disgusting heart", "disgusting heart", "_t")
-t("lump of flesh", "lump of flesh", "_t")
-t("flesh piece", "flesh piece", "_t")
-t("intestine", "intestine", "_t")
-t("eye", "eye", "_t")
---]==]
-
+t("disgusting heart", "역겨운 심장", "_t")
+t("lump of flesh", "살덩어리", "_t")
+t("flesh piece", "살점", "_t")
+t("intestine", "창자", "_t")
+t("eye", "눈알", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-haze-cave/zone.lua"
@@ -4248,8 +4212,6 @@ section "tome-cults/data/zones/ft-horrors/objects.lua"
 t("A page of the tome.", "두꺼운 책의 한 페이지.", "_t")
 t("Forbidden Tome: \"Home, Horrific Home\"", "금지된 고서: \"집, 무시무시한 집\"", "entity name")
 t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "잃어버린 지식을 담고 있는 두꺼운 책입니다. 만지면 역겹지만, 이상하게도 동시에 평화로움을 느낄 수 있습니다.", "_t")
--- new text
---[==[
 t([[Clarity found in safety.
 Clarity found in comfort.
 Thoughts and idle dreams drifting through space.
@@ -4266,24 +4228,23 @@ Thoughts are treasures.
 Treasure thoughts.
 Thoughts treasured when they are alone. 
 
-#RED#Reading this tome will slowly pull you in over 5 turns.]], [[Clarity found in safety.
-Clarity found in comfort.
-Thoughts and idle dreams drifting through space.
-No one to harm.
-No one to distract.
-Just thoughts.
-Work to great works.
-Meditate.
-Pain is a lens.
-Focus through it.
-Let flesh be your canvas.
-Let flesh fuel dreams.
-Thoughts are treasures.
-Treasure thoughts.
-Thoughts treasured when they are alone. 
+#RED#Reading this tome will slowly pull you in over 5 turns.]], [[순수함은 안저나메서 차즐 수 있다.
+순수함은 안라카메서 차즐 수 있다.
+생각과 나태한 꿈드리 우주를 떠다닌다.
+누구도 해하지 않는다.
+누구도 방해하지 않는다.
+그저 생각뿐이다.
+위업을 위한 작업뿐이다.
+명상하라.
+고통이란 렌즈이다.
+그거슬 통해 집중하라.
+살저믈 화폭으로 삼아라.
+살저믈 태워 꿈을 조차라.
+생각은 보물이다.
+생각을 보물로 여겨라.
+생각은 홀로 있을 때 보물이 된다. 
 
-#RED#Reading this tome will slowly pull you in over 5 turns.]], "_t")
---]==]
+#RED#이 고서를 읽으면 널 5 턴에 걸쳐 서서히 빨아들일 것이다.]], "_t")
 
 -- untranslated text
 --[==[
@@ -4663,10 +4624,7 @@ t("The Face of the Deep", "심연의 얼굴", "entity name")
 t("This creature sells runes and infusions for the sanctuary.", "이 존재는 성역을 위해 룬과 주입물을 판매하고 있습니다.", "_t")
 t("The Conjointed", "결합한 자", "entity name")
 t("This creature sells tools for the sanctuary.", "이 존재는 성역을 위해 도구를 판매하고 있습니다.", "_t")
--- new text
---[==[
-t("Destroy @himher@!", "Destroy @himher@!", "_t")
---]==]
+t("Destroy @himher@!", "@himher@를 없애라!", "_t")
 
 
 ------------------------------------------------
@@ -5038,16 +4996,13 @@ t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 �
 t("You feel this book is extremely dangerous for you. Proceed?", "이 책은 엄청나게 위험한 것 같습니다. 계속합니까?", "_t")
 t("Cancel", "취소", "_t")
 t("Read Tome", "고서를 읽는다", "_t")
--- new text
---[==[
 t("\
 #CRIMSON#Will crumble to dust when read!", "\
-#CRIMSON#Will crumble to dust when read!", "_t")
+#CRIMSON#읽으면 바스러져 가루가 될 것이다!", "_t")
 t("\
 #YELLOW#Can only be read %d times.", "\
-#YELLOW#Can only be read %d times.", "tformat")
-t("Read the book", "Read the book", "_t")
---]==]
+#YELLOW#딱 %d회만 읽을 수 있다.", "tformat")
+t("Read the book", "책을 읽는다", "_t")
 
 -- untranslated text
 --[==[
