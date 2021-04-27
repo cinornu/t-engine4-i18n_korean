@@ -1671,7 +1671,7 @@ t("quasit squad leader", "콰짓 지휘관", "entity name")
 t("A small, heavily armoured demon, rushing toward you.", "중무장을 한 작은 악마입니다. 당신을 향해 달려가고 있습니다.", "_t")
 t("Rogroth, Eater of Souls", "영혼을 먹는 자 로그로스", "entity name")
 t("major", "고위", "entity subtype")
-t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "화염과 황폐의 마법 쇄도가 저 거미같은 검은색 금속 피부에서 무질서적으로 나타납니다. 뚜렷하게 보이는 머리는 없지만, 거대한 입 하나가 몸에 나있습니다.", "_t")
+t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "거미와 비슷한 어두운 금속 피부를 가진 악마입니다. 화염과 황폐의 마법이 마구잡이로 쇄도하고 있습니다. 뚜렷하게 보이는 머리는 없지만 몸뚱이에 거대한 입이 하나 뚫려 있습니다.", "_t")
 t("and raised as a demonic husk", "그리고 악마의 하수인으로 되살아났습니다.", "_t")
 
 ------------------------------------------------
@@ -1715,12 +1715,12 @@ t("minor", "하위", "entity subtype")
 t("demonic clerk", "악마 서기", "entity name")
 t("A small demon, he looks alarmed at your seeming freedom.", "작은 악마로, 당신이 자유를 되찾은 것 처럼 보이자 당황한 것 같습니다.", "_t")
 t("mutilator", "훼손자", "entity name")
-t("A demon with 3 arms, ready to mutilate you. For experiment. Not for fun. Nope.", "세 팔 달린 악마로, 당신을 훼손할 준비가 되어있습니다. 실험을 위해서요. 재미가 아니라요. 아무렴요.", "_t")
+t("A demon with 3 arms, ready to mutilate you. For experiment. Not for fun. Nope.", "팔이 세 개 달린 악마로, 당신을 훼손할 준비가 되어 있습니다. 실험을 위해서요. 재미가 아니라요. 아무렴요.", "_t")
 t("investigator", "조사관", "entity name")
 t("This demon is dedicated to #{italic}#extracting#{normal}# information from #{italic}#willing#{normal}# subjects.", "이 악마는 #{italic}#자발적인#{normal}# 실험체에 대한 정보를 #{italic}#추출#{normal}#하기 위해 존재합니다.", "_t")
 t("Planar Controller", "차원 관리자", "entity name")
 t("major", "고위", "entity subtype")
-t("A huge demon towers above you, it is obviously in control of all the portals in the nearby Fearscape area.", "거대한 악마가 당신 앞에 서 있습니다. 이 악마가 공포의 영역 주변의 모든 차원문을 관리하고 있는 게 틀림없습니다.", "_t")
+t("A huge demon towers above you, it is obviously in control of all the portals in the nearby Fearscape area.", "거대한 악마입니다. 이 악마가 공포의 영역 주변의 모든 차원문을 관리하고 있는 게 틀림없습니다.", "_t")
 t("and teleported to Mal'Rok for more experiments", "그리고 그 시체는 더 많은 실험을 위해 말'록으로 순간이동되었습니다.", "_t")
 
 ------------------------------------------------

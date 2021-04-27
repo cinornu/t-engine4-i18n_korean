@@ -538,17 +538,17 @@ t("vermin", "해충", "entity type")
 t("blob", "부정형", "entity subtype")
 t("Ewwww.", "어으...", "_t")
 t("plasmic disruptor", "방해성 혈장 세포", "entity name")
-t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 초록 점액을 내뿜고 있습니다.", "_t")
+t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 녹색 점액을 내뿜고 있습니다.", "_t")
 t("mastocytic feeder", "포식성 면역 세포", "entity name")
-t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "불그스름한 공격 세포로, 다른 세포들이 공격할 때, 당신의 집중을 방해합니다.", "_t")
+t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "불그스름한 공격 세포로, 다른 세포들이 공격할 때 달려들어서 귀찮게 굴 겁니다.", "_t")
 t("protoplasmic controller", "원형질 관리 세포", "entity name")
 t("Acid. Fire. Pain.", "산성. 화염. 고통.", "_t")
 t("dendritic hemospinner", "수상 돌기 혈액 공급 세포", "entity name")
 t("This strange cell can somehow connect to Eyal itself.", "이 이상한 세포는 어찌된 일인지 에이알 그 자체와 연결될 수 있습니다.", "_t")
 t("acidic digestor", "산성 소화 세포", "entity name")
-t("You look like nutriments.", "당신은 영양분이 뛰어나 보이네요.", "_t")
+t("You look like nutriments.", "너 영양가 높아 보인다.", "_t")
 t("protosentient globula", "원시 지능 구형 세포", "entity name")
-t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "거대한 원형질 구형 세포로, 당신은 이 세포가 자각을 갖고 있음을 느낄 수 있습니다. 또 매우 배고프다는 것도 느낄 수 있네요.", "_t")
+t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "거대한 원형질 구형 세포로, 당신은 이 세포가 원시적인 수준의 지능을 갖고 있음을 느낄 수 있습니다. 또, 정말 배고파한다는 것도 느낄 수 있네요.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/corrupted_blobs.lua"
@@ -557,17 +557,17 @@ t("vermin", "해충", "entity type")
 t("blob", "부정형", "entity subtype")
 t("Ewwww.", "어으...", "_t")
 t("corrupted plasmic disruptor", "타락한 방해성 혈장 세포", "entity name")
-t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 초록 점액을 내뿜고 있습니다.", "_t")
+t("A green oozing defence cell of the Maggot.", "구더기의 방어 세포로, 녹색 점액을 내뿜고 있습니다.", "_t")
 t("corrupted mastocytic feeder", "타락한 포식성 면역 세포", "entity name")
-t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "불그스름한 공격 세포로, 다른 세포들이 공격할 때, 당신의 집중을 방해합니다.", "_t")
+t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "불그스름한 공격 세포로, 다른 세포들이 공격할 때 달려들어서 귀찮게 굴 겁니다.", "_t")
 t("corrupted protoplasmic controller", "타락한 원형질 관리 세포", "entity name")
 t("Acid. Fire. Pain.", "산성. 화염. 고통.", "_t")
 t("corrupted dendritic hemospinner", "타락한 수상 돌기 혈액 공급 세포", "entity name")
 t("This strange cell can somehow connect to Eyal itself.", "이 이상한 세포는 어찌된 일인지 에이알 그 자체와 연결될 수 있습니다.", "_t")
 t("corrupted acidic digestor", "타락한 산성 소화 세포", "entity name")
-t("You look like nutriments.", "당신은 영양분이 뛰어나 보이네요.", "_t")
+t("You look like nutriments.", "너 영양가 높아 보인다.", "_t")
 t("corrupted protosentient globula", "타락한 원시 지능 구형 세포", "entity name")
-t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "거대한 원형질 구형 세포로, 당신은 이 세포가 자각을 갖고 있음을 느낄 수 있습니다. 또 매우 배고프다는 것도 느낄 수 있네요.", "_t")
+t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "거대한 원형질 구형 세포로, 당신은 이 세포가 원시적인 수준의 지능을 갖고 있음을 느낄 수 있습니다. 또, 정말 배고파한다는 것도 느낄 수 있네요.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror-special.lua"
@@ -582,23 +582,23 @@ section "tome-cults/data/general/npcs/horror.lua"
 
 t("searing horror", "불사르는 빛의 공포", "entity name")
 t("And you thought radiant horrors were bad.", "눈부신 공포는 최악이라고 생각하셨겠죠?", "_t")
-t("#GOLD#The Searing Horror adds a reflective shield to its allies!#LAST#", "#GOLD#불사르는 빛의 공포가 적들에게 반사 보호막을 시전한다!#LAST#", "say")
+t("#GOLD#The Searing Horror adds a reflective shield to its allies!#LAST#", "#GOLD#불사르는 빛의 공포가 동료들에게 반사 보호막을 걸었다!#LAST#", "say")
 t("ravaging entropic rip", "파괴하는 엔트로피의 균열", "entity name")
-t("A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "기이한 현실 구조의 수정/균열입니다. 어떻게 존재하고 있는 건지 감히 생각도 할 수 없습니다.", "_t")
+t("A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "기이한 결정체입니다. 현실 구조에 난 균열이기도 합니다. 어떻게 이런 게 있을 수가 있는 건지 생각해 볼 엄두도 안 납니다.", "_t")
 t("bursting entropic shard", "폭발하는 엔트로피의 조각", "entity name")
-t("A strange tall crystal pusling with nether energies. It's broken. Tentacles come out of it to get you! #{bold}#RUN!#{normal}#", "기이하고 높은 수정이 황천 에너지로 맥동합니다. 수정이 부셔지자, 촉수들이 튀어나와 당신에게로 몰려옵니다! #{bold}#뛰십시오!#{normal}#", "_t")
+t("A strange tall crystal pusling with nether energies. It's broken. Tentacles come out of it to get you! #{bold}#RUN!#{normal}#", "황천의 에너지로 박동하고 있는 기이한 거대 결정체입니다. 부서져 있습니다. 촉수들이 튀어나와 당신을 붙잡으려 합니다! #{bold}#도망치세요!#{normal}#", "_t")
 t("nethergate", "황천 차원문", "entity name")
-t("A strange portal of nether energies, it somehow feels alive itself.", "황천 에너지의 기이한 차원문으로, 차원문 그 자체가 살아있는 것 같습니다.", "_t")
-t("It looks inactive and dormant for now. Maybe try to not wake it up.", "지금은 비활성화 상태고,  잠들어 있는 것 같습니다. 깨우지 않도록 노력하십시오.", "_t")
-t("It looks active and you can feel dark energies coming out of it.", "활성화되어, 당신은 어둠의 에너지가 이 차원문에서 방출됨을 느낍니다.", "_t")
-t("#PURPLE#The nethergate feels a presence nearby and wakes up!", "#PURPLE#황천 차원문은 주변의 존재감을 느껴 깨어났다!", "logSeen")
-t("#PURPLE#The nethergate absorbs the attack and stirs, reactivating...", "#PURPLE#황천 차원문은 공격을 흡수하고, 서서히 움직였다. 재활성화 중...", "logSeen")
+t("A strange portal of nether energies, it somehow feels alive itself.", "황천 에너지로 가득 찬 이상한 차원문입니다. 왠지는 모르겠지만 살아 있는 것 같습니다.", "_t")
+t("It looks inactive and dormant for now. Maybe try to not wake it up.", "일단은 비활성화 상태고, 잠들어 있는 것 같습니다. 깨우지 않는 게 좋을 것 같네요.", "_t")
+t("It looks active and you can feel dark energies coming out of it.", "활성화된 상태이며 어두운 에너지가 뿜어져 나오는 걸 느낄 수 있습니다.", "_t")
+t("#PURPLE#The nethergate feels a presence nearby and wakes up!", "#PURPLE#황천 차원문이 주변의 존재를 느끼고 깨어났다!", "logSeen")
+t("#PURPLE#The nethergate absorbs the attack and stirs, reactivating...", "#PURPLE#황천 차원문이 공격을 흡수하고, 꿈틀거렸다. 재활성화 중...", "logSeen")
 t("netherworm mass", "황천 구더기 떼", "entity name")
-t("A disgusting mass of distorted worms, slithering towards you.", "뒤틀린 구더기들의 역겨운 군체입니다. 당신에게로 기어옵니다.", "_t")
+t("A disgusting mass of distorted worms, slithering towards you.", "뒤틀린 구더기들이 뭉친 역겨운 덩어리입니다. 당신을 향해 기어오고 있습니다.", "_t")
 t("%s duplicates the healing forces to %s!", "%s %s의 회복력을 복제했다!", "logSeen", nil, {"가"})
 t("giant netherworm", "거대한 황천 구더기", "entity name")
 t("fearful symmetry", "공포의 대칭", "entity name")
-t("A strange vortex of malevolent triangles.", "악의로 가득찬 삼각형들의 이상한 소용돌이입니다.", "_t")
+t("A strange vortex of malevolent triangles.", "악의로 가득 찬 삼각형들의 이상한 소용돌이입니다.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/humanoid_random_boss.lua"
@@ -3969,7 +3969,7 @@ section "tome-cults/data/zones/dremshor-tunnel/npcs.lua"
 t("half formed drem", "반쪽짜리 드렘", "entity name")
 t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "얼굴이 없는 조그만 인간형 생명체로 드워프와 얼추 닮았습니다.  들고 있는 전투도끼와 방패는 낧고 녹슬었으며, 전체적으로 제대로 수리되지 않은 것 같습니다.", "_t")
 t("The Amalgamation", "융합체", "entity name")
-t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "무로부터 생명을 창조하는 것은 쉬운일은 아닙니다. 눈알이 여러 개라던가, 팔다리가 너무 많이 붙는다던가, 뇌가 없다던가, 몸에 너무 많다던가 하는 등 잘못 될 수 있는 요소들이 너무나 많습니다. 그런 잘못된 육신들이 하나로 융합되어, 뼈와 고깃덩이가 분노로 맥동합니다. 이... 생명체의 거대한 몸집에도 불구하고, 당신과 이 괴물 사이의 간격이 순식간에 좁혀집니다.", "_t")
+t("Creating a living being from scratch is not an easy process. There are plenty of things which can go wrong, including multiple eyes, surplus limbs, too few brains and multiple bodies being fused into a single, raging mass of flesh and bone. Despite how bulky the creature is, it moves with supple ease, quickly closing the gap between you and it.", "무로부터 생명을 창조하는 것은 쉬운 일이 아닙니다. 눈알이 여러 개라던가, 팔다리가 너무 많이 붙는다던가, 뇌가 없다던가, 몸통 여러 개가 하나로 합쳐져서 끔찍한 살덩어리가 되는 등 잘못될 수 있는 요소들이 너무나 많습니다. 이... 생명체는 거대한 몸집에도 불구하고, 유연하게 움직여서 순식간에 당신과의 거리를 좁히고 있습니다.", "_t")
 t("and absorbed into the foul thing", "그리고 그 시체는 흡수되어 그 일부가 되었습니다.", "_t")
 t("#CRIMSON#As %s takes an other blow you see part of it split into a drem!", "#CRIMSON#%s 공격을 받자, 일부분이 드렘이 되어 떨어져 나갔다!", "logSeen", nil, {"가"})
 
@@ -3995,7 +3995,7 @@ t("The rift leads... somewhere.", "이 균열은 어딘가로... 이어집니다
 section "tome-cults/data/zones/entropic-void/npcs.lua"
 
 t("Hypostasis of Entropy", "엔트로피의 위격", "entity name")
-t("The twisting mass of limbs and maws that floats in front of you is no less than inevitability personified. All civilisation, all life, all matter, all energy and all light will one day succumb to entropy. You feel terribly cold as a horrifying realisation comes to the forefront of your mind. The heat death of the universe itself is coming for you.", "뒤틀린 사지와 아가리가 당신 앞에 떠 다닙니다. 필연성이 현현한 듯 합니다. 모든 문명, 모든 생명, 모든 물질, 모든 에너지와 모든 빛이 어느 날 엔트로피 앞에 무릎을 꿇을 것입니다. 당신 정신 앞에 공포스런 현현이 다가오자, 끔찍한 추위를 느낍니다. 우주 종말, 그 자체의 온기가 당신에게 다가옵니다.", "_t")
+t("The twisting mass of limbs and maws that floats in front of you is no less than inevitability personified. All civilisation, all life, all matter, all energy and all light will one day succumb to entropy. You feel terribly cold as a horrifying realisation comes to the forefront of your mind. The heat death of the universe itself is coming for you.", "지금 당신의 눈앞에 떠다니는 뒤틀린 팔다리와 아가리들은 그야말로 필연성의 현현이라 할 수 있습니다. 문명, 생명, 물질, 에너지, 그리고 빛 - 만물은 언젠가 반드시 엔트로피에 굴복하게 될 것입니다. 그런 끔찍한 결말이 머릿속에 떠오르자 온몸에 소름이 끼쳐옵니다. 이 우주의 열죽음 그 자체가 지금 당신을 향해 다가오고 있습니다.", "_t")
 t("These energies are not for you!", "그 에너지들은 널 위한 것이 아니다!", "_t")
 
 ------------------------------------------------
@@ -4023,7 +4023,7 @@ t("Safe Multiverse Arena for Commotion and Killing", "죽음으로 인도하는 
 section "tome-cults/data/zones/ft-cultist/npcs.lua"
 
 t("Unspeakable Thing", "형용할 수 없는 것", "entity name")
-t("Through idiotic pride, one of the students has called this thing to your world. Thick, impenetrable darkness billows from its form, devouring all light around it. As the darkness touches you, you feel only one thing... Hunger. Bottomless, infinite hunger, as vast and unending as the void of space itself.", "한 학생의 멍청한 자존심으로 인해, 이 존재는 당신의 세계로 불려왔습니다. 두껍고, 꿰뚫을 수 없는 어둠이 이 형체에서 피어올라, 주변의 모든 빛을 삼켜버립니다. 어둠이 당신에게 닿자, 단 하나... 굶주림만 느껴집니다. 끝이 없는, 무한한 굶주림, 우주 그 자체의 공허만큼 광대하고, 끝이 없는.", "_t")
+t("Through idiotic pride, one of the students has called this thing to your world. Thick, impenetrable darkness billows from its form, devouring all light around it. As the darkness touches you, you feel only one thing... Hunger. Bottomless, infinite hunger, as vast and unending as the void of space itself.", "어떤 학생의 어리석은 자만심 때문에 당신의 세계로 불려 온 존재입니다. 몸뚱이에서 칠흑 같은 두꺼운 어둠이 피어올라 주변의 모든 빛을 삼키고 있습니다. 어둠이 당신을 어루만지자, 단 하나... 굶주림만 느껴집니다. 바닥이 보이지 않는 끝없는 굶주림이. 마치 우주의 공허 그 자체만큼 깊고 무한합니다.", "_t")
 t("unknown", "알 수 없음", "entity type")
 t("unknown", "알 수 없음", "entity subtype")
 t("The Teacher", "'선생'", "entity name")
@@ -4191,7 +4191,7 @@ t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and pape
 section "tome-cults/data/zones/ft-horrors/npcs.lua"
 
 t("The One That Writes", "글을 쓰는 자", "entity name")
-t("Even as this creature focuses its attention on you, many of its tentacles are preoccupied with writing letters onto sheets of strange, wispy parchment. With every word it finishes, the environment around you changes its shape, objects become more defined and patches of ground appear to be more detailed. You don't want to know the ending it has planned for your story.", "이 생명체가 당신에게 주의를 기울이고 있다고 해도, 대부분의 촉수들은 신기하게 생긴 양피지에 글을 쓰는 것에 집중하고 있습니다. 글자가 쓰여질 때마다 당신의 주위 환경이 급격히 변합니다. 다양한 사물들이 나타나고, 바닥 또한 더욱 정교해집니다. 이 생명체가 당신을 위해 준비한 결말은 무엇일지 절대로 알고 싶지 않을 것 같습니다.", "_t")
+t("Even as this creature focuses its attention on you, many of its tentacles are preoccupied with writing letters onto sheets of strange, wispy parchment. With every word it finishes, the environment around you changes its shape, objects become more defined and patches of ground appear to be more detailed. You don't want to know the ending it has planned for your story.", "이 생명체가 당신에게 주의를 기울이고 있다고 해도, 대부분의 촉수들은 신기하게 생긴 양피지에 글을 쓰는 것에 집중하고 있습니다. 글자가 쓰여질 때마다 당신 주변의 환경이 급격히 변합니다. 다양한 사물들이 나타나고, 바닥 또한 더욱 정교해집니다. 이 생명체가 당신을 위해 준비한 결말이 무엇인지는 알고 싶지 않습니다.", "_t")
 t("and written off the story", "이게 이 이야기의 끝이었습니다.", "_t")
 
 ------------------------------------------------
@@ -4280,9 +4280,9 @@ t("glass throne", "유리 왕좌", "entity name")
 section "tome-cults/data/zones/ft-illusory-castle/npcs.lua"
 
 t("minotaur mindscrew", "미노타우르스 정신 파쇄자", "entity name")
-t("A belligerent minotaur with a frightening amount of mind powers, and armed with a hammer and a pack of huge rocks.", "무시무시한 정신력과 망치, 바위로 무장한 미노타우스입니다.", "_t")
+t("A belligerent minotaur with a frightening amount of mind powers, and armed with a hammer and a pack of huge rocks.", "무시무시한 정신력과 망치, 바위로 무장한 미노타우르스입니다.", "_t")
 t("The Glass Golem", "유리 골렘", "entity name")
-t("A huge golem-like construct made entirely out of glass. It seems to be the custodian of the whole castle and likely the key to those nice looking chests around the throne.", "거대한 골렘같은 구조물로, 유리로만 제작되었습니다. 이 골렘은 성 전체의 관리자인 것 같으며, 왕좌 주변의 멋진 보물상자들의 열쇠가 될 것 같습니다.", "_t")
+t("A huge golem-like construct made entirely out of glass. It seems to be the custodian of the whole castle and likely the key to those nice looking chests around the throne.", "거대한 골렘 같은 구조물로, 유리로만 이루어져 있습니다. 이 골렘은 성 전체의 관리자인 것 같으며, 왕좌 주변의 멋진 보물상자들의 열쇠가 될 것 같습니다.", "_t")
 t("and turned into glass", "그리고 그 시체는 유리로 변했습니다.", "_t")
 t("#AQUAMARINE#As the Glass Golem's life dwindles too low it teleports to its throne to heal!", "#AQUAMARINE#유리 골렘은 생명력이 너무 낮아지자, 왕좌로 순간이동해 생명력을 회복했다!", "say")
 t("#AQUAMARINE#As the Glass Golem's life dwindles too low it rushes toward its throne to heal!", "#AQUAMARINE#유리 골렘은 생명력이 너무 낮아지자, 왕좌로 달려가 생명력을 회복했다!", "say")
@@ -4385,7 +4385,7 @@ t("#CRIMSON#You hear a terrible shriek, followed by the rustling of pen and pape
 section "tome-cults/data/zones/ft-yaech/npcs.lua"
 
 t("The One That Writes", "글을 쓰는 자", "entity name")
-t("A strange creature sporting 7 formless tentacles each with some kind of pen attached. It is ever focused on its book and does not seem to notice you, yet you can feel its hatred and hostility towards you.", "7개의 흐물흐물한 촉수에 펜처럼 생긴 물체가 달려있는 괴상하게 생긴 생명체입니다. 책에 집중한 탓에, 아직 당신의 인기척을 느끼지 못했습니다. 하지만, 곧 당신을 휩쓸 증오와 적의를 느낄 수 있습니다.", "_t")
+t("A strange creature sporting 7 formless tentacles each with some kind of pen attached. It is ever focused on its book and does not seem to notice you, yet you can feel its hatred and hostility towards you.", "일곱 개의 흐물흐물한 촉수마다 펜처럼 생긴 것이 달려 있는 기이한 생명체입니다. 책에 집중하고 있는 탓에 아직 당신이 있다는 것을 알아채지 못했습니다. 하지만 곧 당신을 향할 증오와 적의를 느낄 수 있습니다.", "_t")
 t("and written off the story", "이게 이 이야기의 끝이었습니다.", "_t")
 
 ------------------------------------------------
@@ -4586,20 +4586,20 @@ t("eldritch", "섬뜩한 자", "entity subtype")
 t("drem cultist", "드렘 광신도", "entity name")
 t("A drem cultist.", "드렘 광신도입니다.", "_t")
 t("drem seeker of knowledge", "드렘 지식의 구도자", "entity name")
-t("A drem in long red robes, minding its own business.", "길고 붉은색의 로브를 입은 드렘으로, 자신의 일에만 골몰하고 있습니다.", "_t")
+t("A drem in long red robes, minding its own business.", "기다란 붉은색 로브를 입은 드렘으로, 자신의 일에만 골몰하고 있습니다.", "_t")
 t("disfigured creature", "흉측한 존재", "entity name")
-t("A vaguely humanoid shape, wandering around to some unknown goals.", "인간의 모습을 조금 닮은 존재로, 알 수 없는 목표를 향해 방황하고 있습니다.", "_t")
+t("A vaguely humanoid shape, wandering around to some unknown goals.", "얼추 인간처럼 생긴 존재로, 모종의 목표를 위해 어슬렁거리고 있습니다.", "_t")
 t("That Which Teaches History", "역사를 가르치는 존재", "entity name")
-t("This creature manages the sanctuary's library.", "이 존재는 성역의 도서관을 관리하고 있습니다.", "_t")
+t("This creature manages the sanctuary's library.", "성역의 도서관을 관리하고 있는 존재입니다.", "_t")
 t("The Sightless Acolyte", "시각을 잃은 견습생", "entity name")
 t("This creature sells weapons for the sanctuary.", "이 존재는 성역을 위해 무기를 판매하고 있습니다.", "_t")
-t("The Crawler", "기어가는 것", "entity name")
+t("The Crawler", "기어가는 자", "entity name")
 t("This creature sells staves and wands for the sanctuary.", "이 존재는 성역을 위해 지팡이와 마법봉을 판매하고 있습니다.", "_t")
 t("The One That Defends", "방어하는 자", "entity name")
 t("This creature sells armours for the sanctuary.", "이 존재는 성역을 위해 방어구를 판매하고 있습니다.", "_t")
 t("The Face of the Deep", "심연의 얼굴", "entity name")
 t("This creature sells runes and infusions for the sanctuary.", "이 존재는 성역을 위해 룬과 주입물을 판매하고 있습니다.", "_t")
-t("The Conjointed", "결합한 자", "entity name")
+t("The Conjointed", "결합된 자", "entity name")
 t("This creature sells tools for the sanctuary.", "이 존재는 성역을 위해 도구를 판매하고 있습니다.", "_t")
 t("Destroy @himher@!", "@himher@를 없애라!", "_t")
 
