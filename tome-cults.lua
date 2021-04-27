@@ -2947,8 +2947,8 @@ section "tome-cults/data/talents/demented/friend-of-the-worm.lua"
 t("Worm that Walks Link", "걸어다니는 벌레떼와의 연결", "talent name")
 t("Link to the summoner.", "소환자와의 연결.", "_t")
 t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucus-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
-Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[이 썩어가는 로브는 당장이라도 터질 것 같습니다. 이 끔찍한 존재가 움직일 때마다 부풀어오른 벌레 떼들이 몸 여기저기서 쏟아져 나옵니다. 2 개의 팔 같은, 점액질로 끈적이는 구더기로 이루어진 팔이 담즙이 흘러나오는 전투 도끼의 손잡이 부분을 꽉 쥐고 있습니다.
-무기를 휘두르자, 고름이 뚝뚝 흘러내립니다. 작은 방울 하나 하나가 땅바닥에 닿기 전까지 꿈틀거림을 멈추지 않습니다.]], "_t")
+Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[당장이라도 찢어질 것만 같은 불룩한 로브를 입은 형체입니다. 이것이 움직일 때마다 부풀어오른 벌레떼가 곳곳에서 쏟아져 나오고 있습니다. 점액을 뚝뚝 흘리는 구더기들로 이루어진 팔 비슷한 것이 두 개 달려 있고, 담즙에 젖은 전투도끼 두 자루를 꽉 쥐고 있습니다.
+무기를 휘두를 때마다 바닥에 고름이 뚝뚝 떨어지고, 작은 방울 하나하나가 바닥에 닿기 전까지 꿈틀거림을 멈추지 않습니다.]], "_t")
 t("Your worm that walks is out of sight; you cannot establish direct control.", "시야 내에 걸어다니는 벌레떼가 있다. 직접적인 조종이 불가능하다.", "logPlayer")
 t("Worm that Walks", "걸어다니는 벌레떼", "talent name")
 t("wtw", "걸벌떼", "_t")
