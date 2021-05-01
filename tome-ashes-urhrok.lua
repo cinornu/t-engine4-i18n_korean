@@ -935,7 +935,7 @@ t([[By seathing yourself in flames you phase to a distant location.
 t("Frost Grab", "서리 손아귀", "talent name")
 t([[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
 		The ice will also deal %0.2f cold damage.
-		The damage and chance to slow will increase with your Spellpower.]], [[대상을 붙잡아 시전자 옆으로 끌고옵니다. 대상은 서리에 뒤덮혀 이동속도가 %d 턴 동안 50%% 감소합니다.
+		The damage and chance to slow will increase with your Spellpower.]], [[대상을 붙잡아 시전자 옆으로 끌고옵니다. 대상은 서리에 뒤덮여 이동속도가 %d 턴 동안 50%% 감소합니다.
 		얼음은 %0.2f 냉기피해를 가합니다.
 		피해량과 감속 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Diseased Body", "병든 몸", "talent name")
