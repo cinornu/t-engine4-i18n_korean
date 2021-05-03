@@ -4218,7 +4218,7 @@ Thoughts treasured when they are alone.
 
 #RED#Reading this tome will slowly pull you in over 5 turns.]], [[순수함은 안저나메서 차즐 수 있다.
 순수함은 안라카메서 차즐 수 있다.
-생각과 나태한 꿈드리 우주를 떠다닌다.
+생각과 나태한 꿈드리 떠다닌다.
 누구도 해하지 않는다.
 누구도 방해하지 않는다.
 그저 생각뿐이다.
@@ -4230,9 +4230,9 @@ Thoughts treasured when they are alone.
 살저믈 태워 꿈을 조차라.
 생각은 보물이다.
 생각을 보물로 여겨라.
-생각은 홀로 있을 때 보물이 된다. 
+생각은 홀로 있을 때 보물이 된다.
 
-#RED#이 고서를 읽으면 널 5 턴에 걸쳐 서서히 빨아들일 것이다.]], "_t")
+#RED#읽으면 5턴에 걸쳐 빨려들어간다.]], "_t")
 
 -- new text
 --[==[
