@@ -465,7 +465,7 @@ t("Overwrite character?", "캐릭터를 덮어씌우시겠습니까?", "_t")
 t("There is already a character with this name, do you want to overwrite it?", "이미 존재하는 캐릭터의 이름입니다만, 덮어씌우시겠습니까?", "_t")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
-t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "이 게임은 현재 T-Engint 버전과 호환되지 않으므로, 실행 시 심각한 오류를 발생시킬 수 있습니다.", "_t")
+t("This game is not compatible with your version of T-Engine, you can still try it but it might break.", "이 게임은 현재 T-Engine 버전과 호환되지 않기에 실행 시 심각한 오류가 발생할 수도 있습니다.", "_t")
 
 ------------------------------------------------
 section "mod-boot/dialogs/Profile.lua"
