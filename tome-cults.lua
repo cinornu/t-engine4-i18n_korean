@@ -847,10 +847,10 @@ section "tome-cults/data/general/stores/cults.lua"
 
 t("That Which Teaches History", "역사를 가르치는 존재", "entity name")
 t("The Face of the Deep", "심연의 얼굴", "entity name")
-t("The Crawler", "기어가는 것", "entity name")
+t("The Crawler", "기어가는 자", "entity name")
 t("The Sightless Acolyte", "시각을 잃은 견습생", "entity name")
 t("The One That Defends", "방어하는 자", "entity name")
-t("The Conjointed", "결합한 자", "entity name")
+t("The Conjointed", "결합된 자", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/general/zones-alters/dreadfell.lua"

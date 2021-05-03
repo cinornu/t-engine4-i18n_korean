@@ -189,13 +189,13 @@ section "mod-boot/data/general/npcs/troll.lua"
 t("giant", "거인", "entity type")
 t("troll", "트롤", "entity subtype")
 t("forest troll", "숲 트롤", "entity name")
-t("Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.", "녹색 피부를 가진 거대하고 못생긴 이족 보행체가 사마귀투성이인 녹색 주먹을 꽉 쥐며 당신을 응시한다.", "_t")
+t("Green-skinned and ugly, this massive humanoid glares at you, clenching wart-covered green fists.", "못생기고 피부가 초록색인, 거대한 인간형 생물이 사마귀로 덮인 녹색 주먹을 움켜쥐고 당신을 노려보고 있습니다.", "_t")
 t("stone troll", "바위 트롤", "entity name")
-t("A giant troll with scabrous black skin. With a shudder, you notice the belt of dwarf skulls around his massive waist.", "우둘투둘한 검은 거죽을 가진 자이언트 트롤입니다. 당신은 전율하면서 그의 거대한 허리춤에 달린 허리띠가 드워프 해골로 만들어졌다는 것을 알아차립니다.", "_t")
+t("A giant troll with scabrous black skin. With a shudder, you notice the belt of dwarf skulls around his massive waist.", "우둘투둘한 검은 가죽을 가진 거대한 트롤입니다. 당신은 그의 거대한 허리춤에 둘러진 허리띠가 드워프 해골로 장식되어 있다는 걸 알아차리고 전율합니다.", "_t")
 t("cave troll", "동굴 트롤", "entity name")
-t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "이 거대한 트롤은 거대한 창을 휘두르며, 이상하게도 그 살찐 눈에 총명한 표정을 짓습니다.", "_t")
+t("This huge troll wields a massive spear and has a disturbingly intelligent look in its piggy eyes.", "이 거대한 트롤은 거대한 창을 휘두르며, 이상하게도 그 돼지 같은 눈동자에서 총명한 빛이 엿보입니다.", "_t")
 t("mountain troll", "산 트롤", "entity name")
-t("A large and athletic troll with an extremely tough and warty hide.", "아주 질기고 사마귀 투성이 거죽을 지닌 크고 건강한 트롤입니다.", "_t")
+t("A large and athletic troll with an extremely tough and warty hide.", "거대하고 튼튼한 트롤입니다. 가죽이 아주 질기고 사마귀 투성이입니다.", "_t")
 t("mountain troll thunderer", "산 트롤 번개 부르미", "entity name")
 
 ------------------------------------------------
