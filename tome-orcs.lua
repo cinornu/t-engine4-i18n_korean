@@ -1135,15 +1135,15 @@ t("power", "힘", "entity subtype")
 t("Automated Portable Extractor", "휴대용 자동 추출기", "entity name")
 t([[The APE is a multifunction tinker toolbox. It can store temporarily any amount of items and when requested melt them down using metallurgic and chemical processes.
 The metals are melted into lumps of ore to server for the creation of tinkers.
-Any remains are melted and turned into valuable materials.]], [[휴대용 자동 추출기는 다양한 기능을 가진 발명가들의 공구함입니다. 추출기는 일시적으로 거의 무한한 양의 물품을 보관할 수 있고, 필요할 때, 야금학, 화학 공정으로 물품을 녹일 수도 있습니다.
+Any remains are melted and turned into valuable materials.]], [[휴대용 자동 추출기는 다양한 기능을 가진 발명가들의 공구함입니다. 추출기는 일시적으로 거의 무한한 양의 물건을 보관할 수 있고, 필요할 때, 야금학, 화학 공정으로 물건을 녹일 수도 있습니다.
 용융된 금속은 광석 덩어리가 되어 발명품의 제작에 사용됩니다.
-여타 다른 물품들은 추출되어 여러 가지 물질로 변합니다.]], "_t")
-t("melt all the items in the APE at once (also done automatically when you change level)", "추출기 내의 모든 물품을 추출합니다 (현재 구역을 떠날 때도 자동으로 추출됩니다)", "_t")
+여타 다른 물건들은 추출되어 여러 가지 물질로 변합니다.]], "_t")
+t("melt all the items in the APE at once (also done automatically when you change level)", "추출기 내의 모든 물건을 추출합니다 (현재 구역을 떠날 때도 자동으로 추출됩니다)", "_t")
 t("APE", "추출기", "_t")
-t("Make the Automated Portable Extractor the default item's destroyer?", "물품을 변환할 때, 항상 휴대용 자동 추출기를 사용할까요?", "_t")
-t("You do not have any items to melt in your APE or on the floor.", "추출기 안에도, 땅바닥에도 추출할 물품이 존재하지 않습니다.", "_t")
-t("Melt all %d item(s) on the floor?", "발 밑의 모든 %d 개의 물품을 추출할까요?", "tformat")
-t("Melt all %d item(s) in your APE?", "추출기 안의 모든 %d 개의 물품을 추출할까요?", "tformat")
+t("Make the Automated Portable Extractor the default item's destroyer?", "물건을 변환할 때, 기본으로 휴대용 자동 추출기를 사용할까요?", "_t")
+t("You do not have any items to melt in your APE or on the floor.", "추출기 안에도, 땅바닥에도 추출할 물건이 존재하지 않습니다.", "_t")
+t("Melt all %d item(s) on the floor?", "발 밑의 물건 %d 개를 전부 추출할까요?", "tformat")
+t("Melt all %d item(s) in your APE?", "추출기 안의 물건 %d 개를 전부 추출할까요?", "tformat")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
 
 ------------------------------------------------
@@ -1667,7 +1667,7 @@ I guess it probably grinds things pretty well.]], [[어느 미친 시공술사�
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고 있는 양피지.", "_t")
 t("time-warped paper scrap", "시간이 뒤틀린 종이 조각", "_t")
-t("It came a long way away!", "저건 저 멀리에서 왔어!", "_t")
+t("It came a long way away!", "먼 길을 거쳐 왔습니다!", "_t")
 t("Screw that!", "좀 닥쳐!", "_t")
 t("Oh, for the love of...  You're way too busy to deal with this nonsense.  You rev up Mirrorazor again, re-syncing it with the Mirror Universe, and toss the note back in.  A different note flies out the other side, miraculously not torn to shreds by the massive difference in planetary rotations.", "오...  당신은 이 말도 안되는 걸 붙잡고 있느라 너무 바쁩니다.  거울칼날의 회전 속도를 높이고, 거울 세계와 재동기화 한 후, 종이 쪽지를 넣었는데, 저쪽에서 전혀 다른 쪽지가 튀어나왔습니다! 행성과 우주의 회전 자체가 다른데 기적적으로 찢어지지 않고 나왔다구요!", "_t")
 t("#LIGHT_BLUE#Mirrorazor shudders as a note falls out from a different timeline!", "#LIGHT_BLUE#다른 시간선에서 쪽지가 떨어지자 거울칼날은 크게 흔들린다!", "saySimple")
@@ -8198,7 +8198,7 @@ t("You can not recall until you have placed the bomb at the tunnel's end!", "터
 t("scroll", "두루마리", "_t")
 t("This parchment contains some lore.", "이야기를 담고 있는 양피지.", "_t")
 t("time-warped paper scrap", "시간이 뒤틀린 종이 조각", "_t")
-t("It came a long way away!", "저건 저 멀리에서 왔어!", "_t")
+t("It came a long way away!", "먼 길을 거쳐 왔습니다!", "_t")
 t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "#LIGHT_BLUE#시공간이 순간적으로 요동쳤고 다른 시간선에서 메모가 떨어져 나왔다!", "saySimple")
 t("You gain %0.2f gold from the melting of %s.", "%s 녹여 %0.2f 골드를 얻었다.", "log", {2,1}, {"를"})
 t("APE", "추출기", "_t")
