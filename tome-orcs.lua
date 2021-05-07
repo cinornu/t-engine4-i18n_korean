@@ -1516,7 +1516,7 @@ t("\"Have you ever looked at some guys and thought 'you know, I really wish they
 t("S.H. Spear", "S.H. 스피어", "entity name")
 t("engraved steamgun", "각인된 총기", "_t")
 t([[This gun is engraved with a strange material which focuses mental powers.
-It seems like your mind will operate even faster with this equipped.]], [[이 총에는 정신력을 집중시키는 기이한 물질로 이루어진 각인이 새겨져있습니다.
+It seems like your mind will operate even faster with this equipped.]], [[이 총에는 정신력을 집중시키는 기이한 물질로 이루어진 각인이 새겨져 있습니다.
 이 총을 들고 있노라면 사고 회전이 빨라지는 것 같습니다.]], "_t")
 t("Dreamweaver", "꿈 재단사", "entity name")
 t("shimmering steamgun", "빛으로 일렁이는 총", "_t")
@@ -5968,7 +5968,7 @@ t([[Set up some cunning contingency plans in case of death.
 		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[만에 하나, 죽게 될 때를 위한 계획을 세워둡니다.
 		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게 됩니다. 캐릭터는 구울이나 스켈레톤 종족 중 하나를 선택하여 해당 종족으로 다시 부활합니다.
 		이 특수 기술로 소생할 시, 종족 기술을 유지한 채로, 구울과 스켈레톤의 종족 기술을 배울 수 있게 됩니다. 모든 스켈레톤, 구울 기술은 2 점씩 투자가 된 상태입니다.
-		언데드는 주입물을 사용하지 못하기 때문에, 새겨져있던 주입물들이 사라지게 됩니다.
+		언데드는 주입물을 사용하지 못하기 때문에, 새겨져 있던 주입물들이 사라지게 됩니다.
 		만일 스켈레톤을 선택한 경우, 재구성 기술을 배워도 부활은 불가능 합니다.]], "tformat")
 t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때마다, 증기 공학 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 1 턴 단축시킵니다.", "_t")
 
