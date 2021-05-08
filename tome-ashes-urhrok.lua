@@ -1008,7 +1008,7 @@ t([[Strike a blow with your weapon for %d%% blight damage.
 		단일 등급의 악마에게 씨앗을 파종할 경우, 성공 시, 언제나 그 악마의 종류에 해당하는 씨앗을 얻게 됩니다.]], "tformat")
 t("Bind Demon", "악마 결합", "talent name")
 t("Summon demon", "악마 소환", "_t")
-t("Which seed to use:", "어떤 씨앗을 사용하시겠습니까? : ", "_t")
+t("Which seed to use:", "어떤 씨앗을 사용하시겠습니까?: ", "_t")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to you and to summon demons.
 		You channel your arcane corruption through a demon seed to temporarily summon the corresponding demon for %d turns.
@@ -1253,7 +1253,7 @@ t([[Any nearby allied creature that is not a summon will be bound to your will.
 		- more life
 		- new demonic talents]], [[근처의 소환되지 않은 우호적인 개체들은 시전자의 의지에 속박됩니다.
 		시전자의 의지에 속박된 개체는 죽을 때, 악마의 하수인으로 부활합니다.
-		악마의 하수인 :
+		악마의 하수인:
 		- 느린 이동 속도
 		- 더 많은 생명력
 		- 새로운 악마의 기술들]], "tformat")
@@ -1380,13 +1380,13 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[신체에서 공포의 구역의 두려운 힘이 흘러넘쳐, %d 턴 동안 강력한 악마로 변신할 수 있게 됩니다. 물리력과 기력 재생이 %d 증가하고, 기절과 무장 해제 면역력이 %d%% 증가합니다.
 		물리력, 기력 재생, 상태 면역력은 주문력에 비례하여 증가합니다.
 		또한 다른 기술들도 이 기술에 영향을 받아, 보다 강력해집니다.
-		-흡수의 맹공 : 재사용 대기시간이 %d 턴 단축됩니다.
-		-난폭한 일격 : 모든 속성에 대한 %d%% 의 저항관통을 %d 턴 동안 얻습니다.
-		-소멸의 강타 : 범위가 %d 칸 증가합니다.
-		-납치 : 명중 시, %d 번의 공격을 추가로 가해, 타격 당 35%% 무기 피해를 가합니다.
-		-소각의 타격 : 추가 피해를 가할 확률이 %d%% 증가합니다.
-		-공포 포식 : 중첩 당 원기를 %0.1f 회복합니다.
-		-울흐'록의 아가리 : 원뿔 범위 각도가 %d 도 증가합니다.]], "tformat")
+		-흡수의 맹공: 재사용 대기시간이 %d 턴 단축됩니다.
+		-난폭한 일격: 모든 속성에 대한 %d%% 의 저항관통을 %d 턴 동안 얻습니다.
+		-소멸의 강타: 범위가 %d 칸 증가합니다.
+		-납치: 명중 시, %d 번의 공격을 추가로 가해, 타격 당 35%% 무기 피해를 가합니다.
+		-소각의 타격: 추가 피해를 가할 확률이 %d%% 증가합니다.
+		-공포 포식: 중첩 당 원기를 %0.1f 회복합니다.
+		-울흐'록의 아가리: 원뿔 범위 각도가 %d 도 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/misc/races.lua"
@@ -1467,16 +1467,16 @@ t("+Revel", "+고무됨", "_t")
 t("#Target#'s is no longer blazing.", "#Target1# 화염에서 벗어났다.", "_t")
 t("-Revel", "-고무됨", "_t")
 t("Devouring flames", "집어삼키는 화염", "_t")
-t("This character's flames are feeding the source, healing them for %d per turn and giving them %d vim.", "대상에 붙은 화염이 시전자에게 힘을 줌 : 매 턴 시전자의 생명력 +%d / 원기 +%d.", "tformat")
+t("This character's flames are feeding the source, healing them for %d per turn and giving them %d vim.", "대상에 붙은 화염이 시전자에게 힘을 줌: 매 턴 시전자의 생명력 +%d / 원기 +%d.", "tformat")
 t("#Target#'s is surrounded with an all-consuming flame!", "#Target2# 모든 것을 삼키는 화염에 둘러싸였다!", "_t")
 t("+Devoured", "+집어삼켜짐", "_t")
 t("-Devoured", "-집어삼켜짐", "_t")
 t("Overwhelming Fear", "압도적인 공포", "_t")
-t("The target is losing faith that it can defeat you, reducing its damage by %d%% and slowing it by %d%%", "시전자를 이길 수 있을 거라는 믿음을 잃음 : 가하는 피해량 -%d%% / 전체 속도 -%d%%", "tformat")
+t("The target is losing faith that it can defeat you, reducing its damage by %d%% and slowing it by %d%%", "시전자를 이길 수 있을 거라는 믿음을 잃음: 가하는 피해량 -%d%% / 전체 속도 -%d%%", "tformat")
 t("#Target# begins to fear you.", "#Target2# 당신을 두려워하기 시작한다.", "_t")
 t("#Target#'s shakes the fear off.", "#Target3# 압도하던 공포가 사라졌다.", "_t")
 t("Abandoned hope", "포기한 희망", "_t")
-t("The target's spirit is broken, rendering it inactive.", "영혼이 부서짐 : 행동 불가.", "_t")
+t("The target's spirit is broken, rendering it inactive.", "영혼이 부서짐: 행동 불가.", "_t")
 t("#Target#'s spirit is broken.", "#Target#의 영혼이 부서졌다.", "_t")
 t("+Unable to act", "+행동 불가", "_t")
 t("#Target# regains the will to fight.", "#Target2# 다시 싸울 의지를 가다듬었다.", "_t")
@@ -1486,19 +1486,19 @@ t("The target has recently suffered, and cannot do so again yet.", "최근에 �
 t("#Target# suffers!", "#Target2# 고통받고 있다!", "_t")
 t("+Eternal Suffering", "+영원한 고통", "_t")
 t("Cleansing flames", "정화의 화염", "_t")
-t("The target is purified by fire, losing %0.2f%% of their max health per turn.", "화염으로 정화됨 : 매 턴 최대 생명력의 %0.2f%% 에 해당하는 피해를 받음.", "tformat")
+t("The target is purified by fire, losing %0.2f%% of their max health per turn.", "화염으로 정화됨: 매 턴 최대 생명력의 %0.2f%% 에 해당하는 피해를 받음.", "tformat")
 t("#Target# is purified by fire.", "#Target2# 화염으로 정화되었다.", "_t")
 t("+Fire", "+화염", "_t")
 t("#Target#'s purification is complete.", "#Target#의 정화가 끝났다.", "_t")
 t("-Fire", "-화염", "_t")
 t("Damage from soulburn.", "영혼이 불타 피해를 받음.", "_t")
 t("Blazing Rebirth", "불사르는 부활", "_t")
-t("The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.", "불이 붙음 : 매 턴 %d 피해를 받음 / 반경 %d 칸 내의 불타는 적과 피해를 나눔.", "tformat")
+t("The target is burning, taking %d damage per turn, split among it and burning foes in radius %d.", "불이 붙음: 매 턴 %d 피해를 받음 / 반경 %d 칸 내의 불타는 적과 피해를 나눔.", "tformat")
 t("%s loses %d health to the soulburn.", "%s 영혼이 불타 %d 피해를 받음.", "logSeen", nil, {"는"})
 t("pin", "속박", "effect subtype")
 t("Fiery Grasp", "불타는 손아귀", "_t")
-t("The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.", "화염에 속박됨 : 매 턴 %0.2f 화염 피해 입음 / 침묵.", "tformat")
-t("The target is pinned and on fire, taking %0.2f fire damage per turn.", "화염에 속박됨 : 매 턴 %0.2f 화염 피해 입음.", "tformat")
+t("The target is pinned and on fire, taking %0.2f fire damage per turn. They are also silenced.", "화염에 속박됨: 매 턴 %0.2f 화염 피해 입음 / 침묵.", "tformat")
+t("The target is pinned and on fire, taking %0.2f fire damage per turn.", "화염에 속박됨: 매 턴 %0.2f 화염 피해 입음.", "tformat")
 t("#Target# is grabbed!", "#Target2# 손아귀에 잡혔다!", "_t")
 t("+Fiery Grasp", "+불타는 손아귀", "_t")
 t("#Target# is released.", "#Target2# 해방되었다.", "_t")
@@ -1506,7 +1506,7 @@ t("-Fiery Grasp", "-불타는 손아귀", "_t")
 t("arcane", "비전", "effect subtype")
 t("shield", "보호막", "effect subtype")
 t("Fiery Aegis", "불타는 아이기스", "_t")
-t("The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.", "마법적 보호막에 둘러싸임 : 흡수량 %d/%d / 보호막이 파괴되면 반경 %d 칸 내에 %d 피해를 가함.", "tformat", {1,2,4,3})
+t("The target is surrounded by a magical shield, absorbing %d/%d damage before it crumbles and dealing %d damage in a radius of %d when it does.", "마법적 보호막에 둘러싸임: 흡수량 %d/%d / 보호막이 파괴되면 반경 %d 칸 내에 %d 피해를 가함.", "tformat", {1,2,4,3})
 t("A shield forms around #target#.", "#target2# 주위에 마력의 보호막을 형성했다.", "_t")
 t("+Shield", "+보호막", "_t")
 t("The shield around #target# crumbles.", "#target#의 보호막이 부서졌다.", "_t")
@@ -1524,7 +1524,7 @@ t("This unit has %d%% resistance penetration.", "저항 관통 +%d%%.", "tformat
 t("+Reckless", "+무모함", "_t")
 t("-Reckless", "-무모함", "_t")
 t("Demon Seed", "악마의 씨앗", "_t")
-t("Infected by a demon seed. When it dies the caster has a %d%% chance to get back the matured seed.", "악마의 씨앗에 감염됨 : 이 개체가 사망 시, 시전자는 %d%% 확률로 악마의 씨앗을 획득.", "tformat")
+t("Infected by a demon seed. When it dies the caster has a %d%% chance to get back the matured seed.", "악마의 씨앗에 감염됨: 이 개체가 사망 시, 시전자는 %d%% 확률로 악마의 씨앗을 획득.", "tformat")
 t("#Target# is infected by a demon seed!", "#Target2# 악마의 씨앗에 감염되었다!", "_t")
 t("+Demon Seed", "+악마의 씨앗", "_t")
 t("#Target# is free from the demon seed.", "#Target2# 악마의 씨앗에서 벗어났다.", "_t")
@@ -1540,7 +1540,7 @@ t("Gain %d%% resistance and %d%% affinity to acid.", "산성 저항 +%d%% / 산�
 t("+Acidic Bath", "+산성 세례", "_t")
 t("-Acidic Bath", "-산성 세례", "_t")
 t("Plaguefire", "역병 화염", "_t")
-t("The target is on fire, taking %0.2f fire damage per turn. On death, the flame will explode.", "불이 붙음 : 매 턴 %0.2f 화염 피해 받음 / 사망 시, 화염이 폭발함.", "tformat")
+t("The target is on fire, taking %0.2f fire damage per turn. On death, the flame will explode.", "불이 붙음: 매 턴 %0.2f 화염 피해 받음 / 사망 시, 화염이 폭발함.", "tformat")
 t("#Target# is on fire!", "#Target1# 화상으로 고통스러워한다!", "_t")
 t("+Burn", "+화상", "_t")
 t("#Target# stops burning.", "#Target#의 화상이 치유되었다.", "_t")
@@ -1561,7 +1561,7 @@ t("#Target# is no longer filled with power.", "가득 찼던 #Target#의 힘이 
 t("-Armoured Leviathan", "-중무장한 괴수", "_t")
 t("blight", "황폐", "effect subtype")
 t("Doomed Nature", "파멸한 자연", "_t")
-t("The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "자연과의 연결이 끊어짐 : 모든 자연, 초능력 기술이 %d%% 확률로 실패하고, 대신 반경 1 칸의 폭발이 일어나 %0.2f 피해를 가함.", "tformat")
+t("The target is affected by blight, all natural and psionic talent it tries to use has %d%% chance to fail and instead explode into %0.2f fire damage in radius 1.", "자연과의 연결이 끊어짐: 모든 자연, 초능력 기술이 %d%% 확률로 실패하고, 대신 반경 1 칸의 폭발이 일어나 %0.2f 피해를 가함.", "tformat")
 t("#Target# is cut off from nature!", "#Target2# 자연과의 연결이 끊겼다!", "_t")
 t("+Doomed Nature", "+파멸한 자연", "_t")
 t("#Target# is no longer cut off from nature.", "#Target#의 자연과의 연결이 복구되었다.", "_t")
@@ -1571,7 +1571,7 @@ t("cut", "상처", "effect subtype")
 t("bleed", "출혈", "effect subtype")
 t("darkness", "어둠", "effect subtype")
 t("Demonic Cut", "악마적인 상처", "_t")
-t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "거대한 악마적인 출혈상 : 매 턴 %0.2f 어둠 피해 받음 / 이 대상을 공격하는 공격자는 생명력이 %d 회복됨.", "tformat")
+t("Huge demonic that bleeds, doing %0.2f darkness damage per turn. Anytime you hit it you get healed for %d.", "거대한 악마적인 출혈상: 매 턴 %0.2f 어둠 피해 받음 / 이 대상을 공격하는 공격자는 생명력이 %d 회복됨.", "tformat")
 t("#Target# starts to bleed darkness.", "#Target#의 그림자 상처에서 피가 흘러나온다.", "_t")
 t("+Demonic Cut", "+악마적인 상처", "_t")
 t("#Target# stops bleeding darkness.", "#Target#의 그림자 상처가 아물었다.", "_t")
@@ -1586,7 +1586,7 @@ t("-Link of Pain", "-고통의 연결", "_t")
 t("#ORANGE##Source# shares some pain with #target#!#LAST#", "#ORANGE##Source2#  #target6# 피해를 나눴다!#LAST#", "delayedLogMessage")
 t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d 연결)#LAST#", "tformat")
 t("Only Ashes Left", "먼지만이 남으리라", "_t")
-t("The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "어둠에 불탐 : 죽거나, 도망치기 전까지 매 턴 %0.2f 피해를 받음.", "tformat")
+t("The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "어둠에 불탐: 죽거나, 도망치기 전까지 매 턴 %0.2f 피해를 받음.", "tformat")
 t("#Target# burns with dark flames.", "#Target2# 검은 화염에 의해 불타오른다.", "_t")
 t("+Only Ashes Left", "+먼지만이 남으리라", "_t")
 t("-Only Ashes Left", "-먼지만이 남으리라", "_t")
@@ -1614,10 +1614,10 @@ t("Blackice", "검은 얼음", "_t")
 t("You have %d charges.", "용해 점수 %d 점.", "tformat")
 t("Fire and physical resistance reduced by %d%%.", "화염, 물리 저항 -%d%%.", "tformat")
 t("Fire Haven", "화염의 안식처", "_t")
-t("The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "화염의 안식처 내에 있음 : 화염 속성 친화 +40% / 황폐 속성 저항 -15%.", "_t")
+t("The target is surrounded by a fire haven, granting 40% fire damage affinity but -15% to blight resistance.", "화염의 안식처 내에 있음: 화염 속성 친화 +40% / 황폐 속성 저항 -15%.", "_t")
 t("vim", "원기", "effect subtype")
 t("Bleak Outcome", "암울한 결과", "_t")
-t("Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "임박한 죽음으로 인해 고통받음 : 사망 시, 시전자인 %s에게 원래 획득하는 원기의 %d 배에 해당하는 원기를 획득.", "tformat")
+t("Victim is tormented with impending death.  When it dies, it will restore to the source (%s) up to %d times the normal amount of Vim.", "임박한 죽음으로 인해 고통받음: 사망 시, 시전자인 %s에게 원래 획득하는 원기의 %d 배에 해당하는 원기를 획득.", "tformat")
 t("none", "없음", "_t")
 t("Grim Future", "음침한 미래", "_t")
 t("Spellpower increased by %d.", "주문력 +%d.", "tformat")
@@ -1631,7 +1631,7 @@ t("affinity", "친화", "effect subtype")
 t("Pain Affinity", "고통 친화", "_t")
 t("All damage affinity increased by %d%%.", "모든 속성 친화 +%d%%.", "tformat")
 t("Ominous Shadow", "불길한 그림자", "_t")
-t("Improves/gives invisibility (power %d), converts all damage to darkness and uses your highest damage penetration and increase for darkness.", "은신력 %d 의 투명 상태로 진입하거나, 이미 투명 상태일 경우, 은신력을 추가함 : 가하는 모든 피해가 어둠 속성으로 치환됨 / 모든 속성 중, 가장 높은 수치의 저항 관통과 피해량 상승치가 어둠 속성에 적용됨.", "tformat")
+t("Improves/gives invisibility (power %d), converts all damage to darkness and uses your highest damage penetration and increase for darkness.", "은신력 %d 의 투명 상태로 진입하거나, 이미 투명 상태일 경우, 은신력을 추가함: 가하는 모든 피해가 어둠 속성으로 치환됨 / 모든 속성 중, 가장 높은 수치의 저항 관통과 피해량 상승치가 어둠 속성에 적용됨.", "tformat")
 t("#Target# vanishes from sight.", "#Target1# 시야에서 사라졌다.", "_t")
 t("+Ominous Shadow", "+불길한 그림자", "_t")
 t("#Target# is no longer invisible.", "#Target2# 다시 불투명해졌다.", "_t")

@@ -104,7 +104,7 @@ t("Mind Steal", "정신 강탈", "talent name")
 t("%s resists the mind steal!", "%s 정신 강탈에 저항했다!", "logSeen", nil, {"는"})
 t("%s has no stealable talents.", "%s 빼앗을만한 기술이 없다.", "logPlayer", nil, {"는"})
 t("Mind Steal", "정신 강탈", "_t")
-t("Choose a talent to steal:", "빼앗을 기술을 선택하십시오 :", "_t")
+t("Choose a talent to steal:", "빼앗을 기술을 선택하십시오:", "_t")
 t([[Your mere presence is a blight in your foes minds. Using this link you are able to reach out and steal a talent from a target.
 		For %d turns you will be able to use a random active (not passive, not sustained) talent from your target, and they will loose it.
 		You may not steal a talent which you already know.
@@ -162,7 +162,7 @@ t([[Discard a body from your psionic reserve.
 		%s]], "tformat")
 t("Assume Form", "형태 취하기", "talent name")
 t("You have no stored bodies to use.", "사용할만한 육체가 남아있지 않다.", "logPlayer")
-t("#CRIMSON#A strange feeling comes over you as two words imprint themselves on your mind: '#{italic}#Not yet.#{normal}#'", "#CRIMSON#두 단어가 당신의 정신에 새겨지며, 기이한 기분이 엄습한다 : '#{italic}#아직 아니야.#{normal}#'", "logPlayer")
+t("#CRIMSON#A strange feeling comes over you as two words imprint themselves on your mind: '#{italic}#Not yet.#{normal}#'", "#CRIMSON#두 단어가 당신의 정신에 새겨지며, 기이한 기분이 엄습한다: '#{italic}#아직 아니야.#{normal}#'", "logPlayer")
 t([[You call upon one of your reserve bodies, assuming its form.
 		A body used this way may not be healed in any way.
 		You can choose to exit the body at any moment by using this talent again, returning it to your reserve as it is.
@@ -214,7 +214,7 @@ t([[You cast a psionic web at a target that lasts for %d turns. Each turn it dea
 		기술 레벨 5 일 때, 최대 %s%s#LAST# 등급까지.
 		기술 레벨 7 일 때, 최대 %s%s#LAST# 등급까지.
 
-		오직 다음과 같은 종족의 육체만 강탈할 수 있습니다 : #LIGHT_BLUE#%s#LAST#
+		오직 다음과 같은 종족의 육체만 강탈할 수 있습니다: #LIGHT_BLUE#%s#LAST#
 		위에 포함되지 않는 종족의 육체를 강탈하려고 시도하면, 해당 종족에 대한 빙의 방법을 익힙니다. %d 종류 더 익힐 수 있습니다.]], "tformat")
 t("Self Persistence", "자기 지속성", "talent name")
 t("When you assume the form of an other body you can still keep %d%% of the values (defences, crits, powers, save, ...) of your own body.", "육체의 형태를 취할 때, 시전자는 원래 능력치의 %d%% 를 유지할 수 있게 됩니다. (회피도, 치명타, 내성 등등 ...)", "tformat")
