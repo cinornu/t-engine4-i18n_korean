@@ -697,7 +697,7 @@ section "tome-orcs/data/general/events/merchant-stall.lua"
 
 t("market stall", "가게 가판대", "_t")
 t("A market stall, it looks abandoned..", "가게 가판대입니다. 버려진 것 같습니다..", "_t")
-t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f 골드#LAST# 정도 가치의 돈", "tformat")
+t("- #GOLD#%0.2f gold#LAST# worth of money", "- 약 #GOLD#%0.2f 골드#LAST#", "tformat")
 t("Market Stall", "가게 가판대", "_t")
 t([[You loot the stall and gain:
 ]], [[가판대를 뒤져서 이런 것들을 얻었습니다:
@@ -6873,7 +6873,7 @@ t("way into the sewers", "하수도로 가는 길", "entity name")
 t("floor", "바닥", "entity subtype")
 t("structural weakness", "구조적 취약점", "entity name")
 t("booty chest", "전리품 상자", "entity name")
-t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f 골드#LAST# 정도 가치의 돈", "tformat")
+t("- #GOLD#%0.2f gold#LAST# worth of money", "- 약 #GOLD#%0.2f 골드#LAST#", "tformat")
 t("Booty chest", "전리품 상자", "_t")
 t([[You plunder the chest and gain:
 ]], [[이 상자를 약탈해 이런 것들을 얻었습니다:
