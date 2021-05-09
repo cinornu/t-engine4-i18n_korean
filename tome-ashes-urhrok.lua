@@ -27,18 +27,18 @@ section "tome-ashes-urhrok/data/birth/corrupted.lua"
 
 t("Doombringer", "파멸의 사도", "birth descriptor name")
 t("Weapon in hand and sheathed in flame, a Doombringer is a terrifying force in combat.", "불꽃에 휩싸인 무기를 든 파멸의 사도는 전투에서 두려운 힘을 발휘합니다.", "_t")
-t("Doombringers are engines of war, cleaving and burning their way through entire armies.", "파멸의 사도는 그 자체로 전쟁 기계로, 적의 군대 전체를 불사르고 도살합니다.", "_t")
-t("The most powerful Doombringers can harness the full power of their demonic ties and transform themselves into a gigantic demon.", "강력한 파멸의 사도는, 그들의 악마적인 힘을 마음껏 휘두르며, 거대한 악마로 변신할 수 있게 됩니다.", "_t")
+t("Doombringers are engines of war, cleaving and burning their way through entire armies.", "파멸의 사도는 그 자체로 전쟁 기계로, 앞으로 뛰어들어 적들을 불사르고 베어가릅니다.", "_t")
+t("The most powerful Doombringers can harness the full power of their demonic ties and transform themselves into a gigantic demon.", "강력한 파멸의 사도들은 자신들의 악마의 힘을 마음껏 휘두르며, 거대한 악마로 변신할 수도 있습니다.", "_t")
 t("Their most important stats are: Strength and Magic", "그들에게 가장 중요한 능력치는 힘과 마법입니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +4 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +4 힘, +0 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * +2 Magic, +0 Willpower, +1 Cunning", "#LIGHT_BLUE# * +2 마법, +0 의지, +1 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +3", "_t")
 t("Demonologist", "악마학자", "birth descriptor name")
-t("Most simply run, but I understand: a distant planet, ravaged and damned. Burnt creations seek righteous vengeance, Urh'Rok's ashes, now destruction's engines. Harness their power! Capture and tame! I call on you, demons - UNLEASH THE FLAMES!", "다른 이들이 모두 도망갈 때, 나는 깨달았다. 머나먼 행성, 파괴되고 저주받은... 불타버린 존재들이 정당한 복수를 구도하고, 이제 울흐'록의 잿더미 속에서 파괴의 엔진이 되었다. 그들의 힘을 휘둘러라! 그들을 포획하고 길들여라! 나 그대에게 명하노니, 악마들이여 - 화염을 해방하라!", "_t")
-t("Contrary to popular beliefs Demonologists are not the pawns of demons, they enact pacts with them but always very carefully.", "사람들에게 알려진 것과 달리, 악마학자들은 악마의 하수인이 아닙니다. 악마학자들은 악마와 계약을 맺긴 하지만, 항상 매우 신중하게 계약을 맺습니다.", "_t")
-t("They use those demonic powers for their own purpose, often evil but a few have been known to use demonic powers to fight demons.", "그들은 악마의 힘을 스스로의 목적을 위해 사용합니다. 대개는 사악하지만, 소수의 악마학자들은 악마에게 대항하기 위해 악마의 힘을 사용하는 방법을 배웠습니다.", "_t")
-t("Demonologists are melee fighters, bashing their foes skulls with their shields while calling down rains of fire and darkness.", "악마학자는 근접 전사로, 화염과 어둠의 비를 내리게 하는 동안, 적들의 두개골을 방패로 깨부숩니다.", "_t")
+t("Most simply run, but I understand: a distant planet, ravaged and damned. Burnt creations seek righteous vengeance, Urh'Rok's ashes, now destruction's engines. Harness their power! Capture and tame! I call on you, demons - UNLEASH THE FLAMES!", "다른 이들이 모두 도망갈 때, 나는 깨달았다. 파괴되고 파멸한 머나먼 행성. 불타버린 존재들이 정당한 복수를 구하고, 이제 울흐'록의 잿더미 속에서 파괴 기계가 되었다. 그들의 힘을 휘둘러라! 그들을 포획하고 길들여라! 악마들이여, 나 그대들에게 명하노니 - 불길을 해방하라!", "_t")
+t("Contrary to popular beliefs Demonologists are not the pawns of demons, they enact pacts with them but always very carefully.", "사람들의 생각과는 달리 악마학자들은 악마의 하수인이 아닙니다. 악마학자들은 악마와 계약을 맺긴 하지만, 항상 매우 신중하게 합니다.", "_t")
+t("They use those demonic powers for their own purpose, often evil but a few have been known to use demonic powers to fight demons.", "그들은 악마의 힘을 스스로의 목적을 위해 사용합니다. 대개는 사악하지만, 몇 안 되는 악마학자들은 악마의 힘을 써서 악마와 싸우는 법을 알게 되었습니다.", "_t")
+t("Demonologists are melee fighters, bashing their foes skulls with their shields while calling down rains of fire and darkness.", "악마학자는 근접 전사로, 화염과 어둠의 비를 불러내고 적들의 두개골을 방패로 깨부숩니다.", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, +0 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +2", "_t")
@@ -52,15 +52,15 @@ Three could tell them of the horrors elves wrought.
 One rages and torments in deep oceans blue,
 one fights for the third with the cultists she taught.
 Silence these beings, maintain your deception,
-and then you may witness a new elf's conception...]], [[말'록의 악마들은 당신을 결코 축복하지 않을 겁니다!
-오직 세 악마만이 그들에게 엘프들이 야기한 공포에 대해 말할 수 있었습니다.
-첫 번째 악마는 격노한 채, 바다 깊은 곳에서 고문당했고,
-두 번째 악마는 세 번째 악마를 위해 그녀가 가르친 광신도들과 함께 싸우고 있습니다.
-이 존재들의 목소리를 앗아가고, 기만을 유지하십시오.
-그리하면 새로운 엘프의 탄생을 목도할 수 있겠지요...]], "_t")
-t("Doomelves are not a real race, they are Shaloren that have been taken by demons and transformed into harbingers of doom.", "그들은 둠엘프라는 별개의 종족이 아니라, 악마들에게 납치되고, 파멸의 인도자로써 변화된 샬로레들입니다.", "_t")
+and then you may witness a new elf's conception...]], [[말'록의 악마들은 그대를 결코 축복하지 않으리라!
+오직 세 악마만이 그들에게 엘프들이 불러일으킨 공포에 대해 말할 수 있었다.
+첫 번째 악마는 격노한 채로 바다 깊은 곳에서 고통받고 있고,
+두 번째 악마는 세 번째 악마를 위해 자신이 가르친 광신도들과 함께 있다.
+이 존재들을 처단하여 입을 막고, 기만을 유지하라.
+그리하면 새로운 엘프의 탄생을 목도할 수 있을지니...]], "_t")
+t("Doomelves are not a real race, they are Shaloren that have been taken by demons and transformed into harbingers of doom.", "둠엘프는 사실 완전히 다른 종족이 아니라, 악마들에 의해 파멸의 전조로 변하게 된 샬로레들입니다.", "_t")
 t("They enjoy unleashing torments and suffering on their victims.", "둠엘프들은 희생자를 고문하고, 고통 속에 빠뜨리는 것을 즐깁니다.", "_t")
-t("They possess the #GOLD#Haste of the Doomed#WHITE# talent which allows them to phase away once in a while.", "둠엘프는 #GOLD#몰락한 자의 신속함#WHITE# 기술로 위상에서 빠르게 이탈할 수 있습니다.", "_t")
+t("They possess the #GOLD#Haste of the Doomed#WHITE# talent which allows them to phase away once in a while.", "둠엘프는 #GOLD#몰락한 자의 신속함#WHITE# 기술로 빠르게 이탈할 수 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * -2 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * -2 힘, +1 민첩, +1 체격", "_t")
 t("#LIGHT_BLUE# * +3 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +2 의지, +0 교활", "_t")
@@ -1855,7 +1855,7 @@ Vim is the life force of all beings. It does not regenerate, and can only be sto
 
 당신은 수많은 악마를 처치하고 그들의 정수가 어떤 식으로 작동하는지 보았으며, 악마들을 원하는 대로 속박하는 법을 마주하였습니다. 따라서 이제부터 #LIGHT_GREEN#악마학자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
 
-악마학자들은 마법을 사용하는 근접 전사들로, 화염과 어둠의 비를 내리게 하는 동안 적들의 두개골을 방패로 깨부숩니다.
+악마학자들은 마법을 사용하는 근접 전사들로, 화염과 어둠의 비를 불러내고 적들의 두개골을 방패로 깨부숩니다.
 직업 특징:#YELLOW#
 - 악마의 씨앗으로 적들을 감염시킨다.
 - 악마의 씨앗을 장비에 예속시켜 강화한다.
