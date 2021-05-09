@@ -30,21 +30,21 @@ t("Destroyed the Hypostasis of Entropy.", "엔트로피의 위격을 파괴했�
 section "tome-cults/data/birth/demented.lua"
 
 t("Demented", "광인", "birth descriptor name")
-t("The thirst for knowledge is seen by most arcane users as as good thing.", "지식욕은 대부분의 주문 사용자들에게 있어서 좋은 것으로 인식됩니다.", "_t")
-t("But some take it too far, some delve into lost knowledge. They may gain huge power from it, but at what cost?", "하지만... 몇몇 이들은 잃어버린 지식을 탐구하거나... 가끔은 너무 멀리 나가고 맙니다. 강력한 힘을 얻을 수 있겠지만, 어떤 대가를 치르게 될까요?", "_t")
+t("The thirst for knowledge is seen by most arcane users as as good thing.", "지식욕은 대부분의 주문 사용자들에게 좋은 것으로 인식됩니다.", "_t")
+t("But some take it too far, some delve into lost knowledge. They may gain huge power from it, but at what cost?", "하지만 어떤 이들은 잃어버린 지식을 탐구하다가 가끔 너무 멀리 나가고 맙니다. 강력한 힘을 얻을 수도 있겠지만, 어떤 대가를 치르게 될까요?", "_t")
 t("Writhing One", "뒤틀린 자", "birth descriptor name")
-t("Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "뒤틀린 자들은 우리가 #{italic}#공포체#{normal}# 라고 불리는 것들이 아지랑이의 시대부터 내려오는 고대의 지식과 힘에 대한 열쇠를 쥐고 있다는 걸 알고, 그 힘과 지식에 접근하기 위해 어떤 짓이든 할 준비가 되어있습니다.", "_t")
-t("In their lust for power they somehow lost a part of themselves, turning more and more into the horrors they study.", "그들의 힘에 대한 집착 속에서, 그들은 자신의 몸 일부를 잃어버리고, 그들이 연구하는 공포체로 서서히 변해갑니다.", "_t")
-t("Most of them forgo an entire arm to turn it into a deadly tentacle.", "대부분의 뒤틀린 자들은 무시무시한 촉수를 갖기 위해, 자신의 팔 한쪽 전체를 희생시킵니다.", "_t")
-t("Some are even known to never leave their sanctuary without their own worm that walks friend.", "어떤 이들은 걸어다니는 벌레떼의 동행이 없이는 그들의 성소를 절대 벗어나지 않는다고도 알려져 있습니다.", "_t")
+t("Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "뒤틀린 자들은 우리가 #{italic}#공포체#{normal}# 라고 부르는 것들이 아지랑이의 시대부터 내려오는 고대의 지식과 힘에 대한 열쇠를 쥐고 있다는 걸 알고 있고, 그 힘과 지식에 접근하기 위해 무슨 짓이든 할 준비가 되어 있는 자들입니다.", "_t")
+t("In their lust for power they somehow lost a part of themselves, turning more and more into the horrors they study.", "힘을 갈망하다가 그들은 자신의 몸 일부를 잃어버리고, 그들이 연구하는 공포체로 서서히 변해갑니다.", "_t")
+t("Most of them forgo an entire arm to turn it into a deadly tentacle.", "뒤틀린 자들은 대부분 무시무시한 촉수를 갖기 위해 자신의 한쪽 팔 전체를 희생시킵니다.", "_t")
+t("Some are even known to never leave their sanctuary without their own worm that walks friend.", "심지어 어떤 이들은 걸어다니는 벌레떼가 동행하지 않으면 자신들의 성소를 절대 벗어나지 않는다고도 알려져 있습니다.", "_t")
 t("Their most important stats are: Strength and Magic", "그들에게 가장 중요한 능력치는 힘과 마법입니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +3 힘, +0 민첩, +3 체질", "_t")
 t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +3", "_t")
 t("Cultist of Entropy", "엔트로피 광신도", "birth descriptor name")
-t("Everything ends eventually. Harness this inevitability.", "결국 모든 것은 끝을 맞게 됩니다. 그러므로 그들은 이 필연성을 다룹니다.", "_t")
-t("Cultists of Entropy are doomed beings which have unlocked the secrets of using entropy as a weapon. Their spells cause their bodies to wither away from entropic backlash, but they have learned how to resist this backlash and even pass it onto their foes.", "엔트로피 광신도들은 엔트로피를 무기로써 활용하는 비의를 알아낸 파멸한 존재들입니다. 그들의 주문은 엔트로피 반발을 유발해 스스로의 몸에 노화를 일으키지만, 그들은 반발에 저항하는 법과 적에게 떠넘기는 법을 터득했습니다.", "_t")
+t("Everything ends eventually. Harness this inevitability.", "결국 모든 것은 끝을 맞게 되리라. 이 필연성을 이용하라.", "_t")
+t("Cultists of Entropy are doomed beings which have unlocked the secrets of using entropy as a weapon. Their spells cause their bodies to wither away from entropic backlash, but they have learned how to resist this backlash and even pass it onto their foes.", "엔트로피 광신도들은 엔트로피를 무기로써 활용하는 비의를 알아낸 파멸한 존재들입니다. 그들의 주문은 엔트로피 반발을 유발해 스스로의 몸을 시들게 하지만, 그들은 반발에 저항하는 법과 적에게 떠넘기는 법을 터득했습니다.", "_t")
 t("Their most important stats are: Magic and Cunning", "그들에게 가장 중요한 능력치는 마법과 교활입니다.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +0 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +6 마법, +0 의지, +3 교활", "_t")
@@ -59,9 +59,9 @@ t("Facial features", "얼굴 특징", "birth facial category")
 t("Horns", "뿔", "birth facial category")
 t("Special", "특별", "birth facial category")
 t("Drem", "드렘", "birth descriptor name")
-t("Faceless, but not mindless.", "얼굴 없는 자들이지만, 정신은 존재합니다.", "_t")
-t("Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "드렘은 정신이 존재하지 않는 돌연변이로, 대지 깊은 곳에서 오랫동안 살아왔습니다. 그러던 드렘들 사이에 지각이 존재하는 드렘이 나타난 것은 매우 최근의 일입니다. 드렘들은 여전히 에이알의 지각 깊은 곳에 숨어, 자신들이 땅 위의 종족들에게 환영 받지 못할 것이라고 믿고 있습니다.", "_t")
-t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "드렘은 재사용 대기시간을 무시하게 하는 #GOLD#폭주#WHITE# 기술을 갖고 있습니다.", "_t")
+t("Faceless, but not mindless.", "얼굴은 없지만 정신은 있다.", "_t")
+t("Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "드렘은 땅 속 깊은 곳에 사는, 지성이 없는 돌연변이들입니다. 지성이 있는 드렘이 등장한 것은 극히 최근의 일입니다. 그들은 여전히 에이알의 표면 아래 깊숙한 곳에 숨은 채로, 자신들은 지상의 종족들에게 환영받지 못할 것이라 믿고 있습니다.", "_t")
+t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "드렘은 재사용 대기시간을 무시하게 하는 #GOLD#광분#WHITE# 기술을 갖고 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +3 힘, +1 민첩, +1 체격", "_t")
 t("#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +2 마법, -1 의지, +0 교활", "_t")
@@ -104,8 +104,8 @@ t("Facial features", "얼굴 특징", "birth facial category")
 t("Tatoos", "문신", "birth facial category")
 t("Special", "특별", "birth facial category")
 t("Krog", "크로그", "birth descriptor name")
-t("Once an abomination, now a weapon.", "한때는 흉물에 지나지 않았지만, 지금은 무기입니다.", "_t")
-t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한때 오우거였으나, 그 천성이 근본적으로 달라져 버렸습니다. 지구랏 추종자들은 룬을 신체에서 벗겨버리는 대신, 자연적인 주입물과 용의 피의 혼합물로 그들을 죽음에서 구했습니다. 크로그는 반마법에 완전히 헌신적이며, 그 외의 것들은 그렇게 중요하게 여기지 않습니다.", "_t")
+t("Once an abomination, now a weapon.", "한때는 흉물에 지나지 않았지만, 지금은 무기이니.", "_t")
+t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한때 오우거였으나, 그 천성이 근본적으로 달라져 버렸습니다. 지구랏 추종자들은 오우거들에게서 룬을 빼앗고, 자연의 주입물과 용의 피의 혼합물을 사용하여 그들을 죽음에서 구하는 데에 성공했습니다. 크로그는 반마법에 완전히 헌신적이며, 그 외의 것들은 그렇게 중요하게 여기지 않습니다.", "_t")
 t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "크로그는 적들에게 기절/혼절을 유발하는 #GOLD#야생의 분노#WHITE# 기술을 갖고 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +2 체격", "_t")
@@ -669,16 +669,16 @@ section "tome-cults/data/general/objects/world-artifacts.lua"
 
 t("Spinal Cage", "등뼈 감옥", "entity name")
 t("gross mass of spinal matter", "척추로 이루어진 커다란 덩어리", "_t")
-t("A gross mass of spinal matter hastily assembled into armour.", "척추로 이루어진 커다란 덩어리가 조잡한 갑옷의 형태를 띄고 있습니다.", "_t")
+t("A gross mass of spinal matter hastily assembled into armour.", "척추로 이루어진 커다란 덩어리가 조잡한 갑옷의 형태를 띠고 있습니다.", "_t")
 t("Infused Cerebrum", "주입된 대뇌", "entity name")
 t("a disgusting pile of brain-matter", "역겨운 두뇌 무더기", "_t")
-t("This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "이 #{italic}#모자#{normal}#는 반쯤 썩은 두뇌 물질로 만들어진 것 같습니다. 정말 머리에 쓰실겁니까? 정말로요?", "_t")
+t("This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "이 #{italic}#모자#{normal}#는 반쯤 썩은 두뇌 물질로 만들어진 것 같습니다. 정말 머리에 쓰실 겁니까? 정말로요?", "_t")
 t("assault the mind of a foe to utterly dominate it", "적의 정신을 파고들어 완전히 지배합니다", "_t")
 t("%s resists the mental assault!", "%s 정신 공격에 저항했다!", "logSeen", nil, {"는"})
 t("Writhing Ring of the Hunter", "사냥꾼의 몸부림치는 반지", "entity name")
 t("green slimy ring", "초록색의 끈적이는 반지", "_t")
 t("A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "뒤틀린 촉수 덩어리가 거칠게 비틀려 반지의 형상을 갖게 되었습니다. 사악한 어둠의 힘이 반지에서 뿜어져 나오고 있습니다.", "_t")
-t("When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "반지를 처음 착용 시, 반지는 착용자에게 적응해, 특수 기술을 하나 더 선택 할 수 있도록 해줍니다. 해당 특수 기술은 반지를 착용하고 있을 때, 영구적으로 적용됩니다. 한 번 선택한 특수 기술은 변경할 수 없습니다. 만약, 처음 착용 시, 특수 기술을 선택하지 않았다면, 다시 착용했을 때 특수 기술을 선택합니다.", "_t")
+t("When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "반지를 처음 착용 시, 반지는 착용자에게 적응하여 특수 기술을 하나 더 선택 할 수 있도록 해줍니다. 해당 특수 기술은 반지를 착용하고 있을 때, 영구적으로 적용됩니다. 한 번 선택한 특수 기술은 변경할 수 없습니다. 만약 처음 착용 시 특수 기술을 선택하지 않았다면, 다시 착용했을 때 특수 기술을 선택합니다.", "_t")
 t("#DARK_SEA_GREEN#While the ring senses battle it grips your finger so hard you can not take it off.", "#DARK_SEA_GREEN#반지가 전투가 일어났음을 느끼자, 손가락에 딱 달라붙어서 빠지지가 않는다.", "logPlayer")
 t("#DARK_SEA_GREEN#As you put the %s on your finger, you feel more attuned to the horror within you.", "#DARK_SEA_GREEN#%s 손가락에 끼자, 내면에 자리잡은 공포에 더 익숙해 진 것 같다.", "logPlayer", nil, {"를"})
 t("Staff of Bones", "뼈의 지팡이", "entity name")
@@ -725,10 +725,10 @@ Read now for a fate worse than death inside awaits.
 t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
 t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 책을 들고 있으면, 많은 생각이 들게 합니다. 절망, 괴로움, 자포자기, 암담함... 이 모든 생각들이 한꺼번에 엄습합니다. 책은 강력한 힘을 약속하지만, 그 대가는 무엇일까요?", "_t")
 t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "황혼의 시대 때, 수많은 에이알인들은 세계가 끝나간다고 생각했다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지 뿐이었다. 식량은 부족하고, 피해망상이 만연했으며, 모든 이들이 절박했다. 선택받은 극소수의 사람들에게는 예상 밖의 방문자가 구원의 손길을 건넸다. 이 '선생' 으로 알려진 존재는 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔다. 그 존재는 에이알의 깊은 곳에서 생존자들을 찾아내었고, 그들은 그 존재에게 어떤 지식을 간청했다. 이 세계를 유린하고 있는 공포들에게 맞설 무기로 사용할 수 있을 만한 지식 말이다.", "_t")
-t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이 일은 일어나지 않았다.", "_t")
+t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이런 일은 일어나지 않았다.", "_t")
 t("Hithre", "하이트르", "_t")
 t("Main protagonist", "주인공", "_t")
-t("The importance of power (+3% spell critical chance)", "힘의 중요성 (주문 치명타 확률+3%)", "_t")
+t("The importance of power (+3% spell critical chance)", "힘의 중요성 (주문 치명타 확률 +3%)", "_t")
 t("The importance of thought (+10 spell save)", "사고의 중요성 (주문 내성 +10)", "_t")
 t("The importance of magic (+5 magic)", "마법의 중요성 (마법 +5)", "_t")
 t("The importance of wisdom (+5 willpower)", "지혜의 중요성 (의지 +5)", "_t")
@@ -757,36 +757,36 @@ t("gross", "역겨움", "entity subtype")
 t("Cut Drem Arm", "잘린 드렘 팔", "entity name")
 t("bloody arm", "피묻은 팔", "_t")
 t("The arm appears desiccated, but you swear that you see something wriggling underneath its ashen skin.", "이 팔은 말라 비틀어진 것 같지만, 맹세하건대, 이 잿빛 피부 밑에서 뭔가 꿈틀거린 것을 봤습니다.", "_t")
-t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "가끔 팔이 반경 5 칸 내의 적을 향해 길게 늘어지고, 촉수로 휘감이 착용자에게로 끌어당깁니다. 이 행동은 착용자의 의지대로 행할 수 없으며, 팔 스스로의 자각력에 의한것입니다.", "_t")
+t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "가끔 팔이 반경 5 칸 내의 적을 향해 길게 늘어지고, 촉수로 휘감이 착용자에게로 끌어당깁니다. 이 행동은 착용자의 의지대로 할 수가 없으며, 팔이 멋대로 하는 것입니다.", "_t")
 t("#DARK_SEA_GREEN#The %s reaches for %s with a tentacle!", "#DARK_SEA_GREEN#%s %s 촉수 팔로 조였다!", "logSeen", nil, {"는","을"})
 t("Monolith Armour", "거석의 갑옷", "entity name")
 t("black stone armour", "흑석 갑옷", "_t")
-t("This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "이 '갑옷'은 룬이 새겨진 바위와 높은 유연성을 가진 검은 그물의 융합물로 이루어 진 것 같습니다. 거석은 의심할 여지 없이 당신에게 가해지는 공격을 막아낼 테지만, 착용하고 움직이려면 말도 안되는 힘이 필요합니다. 거석에 새겨진 문양과 룬들은 때때로 저절로 빛을 내, 조그만 마법의 폭발을 일으킵니다.", "_t")
+t("This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "이 '갑옷'은 룬이 새겨진 바위와 높은 유연성을 가진 검은 그물이 어떻게 융합되어 만들어진 것 같습니다. 거석은 의심의 여지 없이 당신에게 가해지는 공격을 막아낼 테지만, 착용하고 움직이려면 말도 안 되는 힘이 필요합니다. 거석에 새겨진 문양과 룬들은 때때로 저절로 빛을 내, 조그만 마법의 폭발을 일으킵니다.", "_t")
 t([[15% chance when hit to shatter reality around you creating rifts to help you (free cast of a Reality Fracture talent, level 4). This effect has a 30 turns cooldown.
-#PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], [[피격 시 15% 확률로, 주변의 현실 구조를 찢고, 균열을 만들어 적을 공격합니다. (현실 균열 기술을 턴과 원천력 소모 없이 사용합니다. 기술 레벨은 4 입니다) 이 효과는 30 턴의 재사용 대기시간이 존재합니다.
-#PURPLE#만약 착용자의 체격이 이 갑옷의 요구 조건 이하로 감소한다면, 참을 수 없이 무거운 이 갑옷을 자동으로 장비 해제합니다. 조심하십시오.#LAST#]], "_t")
-t("#LIGHT_RED#Your %s is too heavy to carry with your punny constitution anymore. You remove it.", "#LIGHT_RED#당신의 %s 당신의 부족한 체격 능력으로는 더 이상 장비할 수 없다. 당신은 갑옷을 벗어던졌다.", "logPlayer", nil, {"는"})
+#PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], [[피격 시 15% 확률로 주변의 현실 구조를 찢고, 균열을 만들어 적을 공격합니다. (현실 파열 기술을 턴과 원천력 소모 없이 사용합니다. 기술 레벨은 4 입니다) 이 효과는 30 턴의 재사용 대기시간이 존재합니다.
+#PURPLE#만약 착용자의 체격이 이 갑옷의 요구 조건 이하로 떨어진다면, 참을 수 없이 무거운 이 갑옷을 자동으로 장비 해제합니다. 조심하십시오.#LAST#]], "_t")
+t("#LIGHT_RED#Your %s is too heavy to carry with your punny constitution anymore. You remove it.", "#LIGHT_RED#%s 당신의 부족한 체격으로는 더 이상 장비할 수 없다. 당신은 갑옷을 벗었다.", "logPlayer", nil, {"는"})
 t("Fanged Collar", "송곳니 목줄", "entity name")
 t("a necklace with fangs", "이빨 달린 목걸이", "_t")
 t("This strange creature seems to melt around your neck, keeping its mouth open just wide enough so that its teeth do not touch you. You suspect that in the case your head somehow goes missing, the creature is going to make itself at home in your neck stump.", "이 기이한 생명체는 착용자에게 이빨이 닿지 않게끔, 그저 입을 연 채로 목에 융합한 것 같습니다. 착용자의 머리가 어떻게든 잘려나가면, 이 생명체가 목에 대신 자리잡고 새 둥지를 틀 것 같다는 꺼림칙한 생각이 듭니다.", "_t")
-t("You have died, but that does not bother the collar at all...", "너는 죽었다. 하지만 목줄에게는 아무 문제가 되지 않지...", "_t")
+t("You have died, but that does not bother the collar at all...", "당신은 죽었다. 하지만 목줄에게는 아무 문제가 되지 않지...", "_t")
 t("Try to not die...", "죽지 마십시오...", "_t")
 t("Perseverance", "인내심", "entity name")
 t("always sharp blade", "항상 예리한 칼", "_t")
 t([[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
-The sword symbolizes the krogs committment to their task of fighting against the forces of the arcane. With each slash the krog would endevor to continue, until at last their opponents would fall.]], [[크로그들은 보통 한 손에는 둔기를, 한 손에는 검을 든다고 알려져 있습니다. 한 손으로는 지구랏의 전언을 퍼뜨리며, 다른 한 손으로 그 전언을 실행합니다.
-검은 마법에 힘에 맞서 싸우는 크로그들의 의무와 서약을 의미합니다. 수 많은 공격 시도 끝에, 결국 크로그의 적은 쓰러질 것입니다.]], "_t")
+The sword symbolizes the krogs committment to their task of fighting against the forces of the arcane. With each slash the krog would endevor to continue, until at last their opponents would fall.]], [[크로그들은 보통 한 손에는 둔기를, 다른 한 손에는 검을 든다고 알려져 있습니다. 한 손으로는 지구랏의 전언을 퍼뜨리며, 다른 한 손으로 그 전언이 확실하게 이행될 수 있도록 합니다.
+검은 마법에 힘에 맞서 싸우는 크로그들의 의무와 서약을 의미합니다. 크로그들은 적들이 쓰러질 때까지 끊임없이 검을 내지릅니다.]], "_t")
 t("restore 7 stamina and equilibrium", "기력과 평정을 7 회복합니다", "_t")
-t("#LIGHT_BLUE#As you wear the sword you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#칼을 쥐자 칼이 당신의 크로그 본성에 동화되는 것을 느낀다. 힘이 모인다!", "logPlayer")
+t("#LIGHT_BLUE#As you wear the sword you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#검을 쥐자 검이 당신의 크로그 본성에 동화되는 것이 느껴진다. 힘이 모인다!", "logPlayer")
 t("It is said perseverance comes hand in hand with dedication.", "인내는 다른 손에 헌신을 쥐고 온다고 합니다.", "_t")
-t("#AQUAMARINE#As the twin weapons of the Krogs are reunited you can feel bursting with power!", "#AQUAMARINE#크로그의 쌍둥이 무기가 하나로 모여 힘이 폭발함을 느낄 수 있다!", "logSeen")
+t("#AQUAMARINE#As the twin weapons of the Krogs are reunited you can feel bursting with power!", "#AQUAMARINE#크로그의 쌍둥이 무기가 하나로 모여 힘이 폭발하는 것이 느껴진다!", "logSeen")
 t("#AQUAMARINE#The twin weapons of the Krogs de-power as you separate them.", "#AQUAMARINE#크로그의 쌍둥이 무기가 서로 멀어지자, 힘이 약화되었다.", "logPlayer")
 t("Dedication", "헌신", "entity name")
 t("always blunt mace", "항상 뭉툭한 둔기", "_t")
 t([[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
-The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], [[크로그들은 보통 한 손에는 둔기를, 한 손에는 검을 든다고 알려져 있습니다. 한 손으로는 지구랏의 전언을 퍼뜨리며, 다른 한 손으로 그 전언을 실행합니다.
-둔기는 마법의 힘에 마지막 일격을 가할 때까지 기꺼이 참고 인내하겠노라는 의지를 상징합니다. 일반적으로 이 둔기는 마법사를 두들겨 패, 기절시켜 마법 시전을 막아버리는 용도로 사용됩니다. ]], "_t")
-t("#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#둔기를 쥐자 칼이 당신의 크로그 본성에 동화되는 것을 느낀다. 힘이 모인다!", "logPlayer")
+The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], [[크로그들은 보통 한 손에는 둔기를, 다른 한 손에는 검을 든다고 알려져 있습니다. 한 손으로는 지구랏의 전언을 퍼뜨리며, 다른 한 손으로 그 전언이 확실하게 이행될 수 있도록 합니다.
+둔기는 마법의 힘에 마지막 일격을 가할 때까지 기꺼이 참고 인내하겠노라는 의지를 상징합니다. 일반적으로 이 둔기는 마법사를 두들겨 패 기절시켜서 마법 시전을 막아버리는 용도로 사용됩니다.]], "_t")
+t("#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#둔기를 쥐자 둔기가 당신의 크로그 본성에 동화되는 것이 느껴진다. 힘이 모인다!", "logPlayer")
 t("charm", "부적", "entity type")
 t("totem", "토템", "entity subtype")
 t("Persistent Will", "집요한 의지", "entity name")
@@ -794,33 +794,33 @@ t("ever burning stake", "영원히 불타는 말뚝", "_t")
 t([[During the Age of Dusk a rash of anti-magic activities took place in the Nargol Kingdom immediately after the Spellblaze. Citizens would turn on those with magical powers, burning them alive on stakes of wood. When the authorities found the perpetrators they executed them and planted their heads on stakes throughout their capital city.
 Despite this however, the citizenry continued to burn alive the enemies of nature. Unbeknownst to the authorities, the heads of the dead perpetrators continued to spread their message long after their deaths.
 
-This stake of wood appears to one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], [[황혼의 시대, 마법폭발 이후 나르골 왕국에서의 반마법 활동이 급격하게 증가했습니다. 시민들은 마법의 힘을 다루는 이들에 맞서, 산 채로 말뚝에 꽂고 화형을 집행 했습니다. 가해자들은 즉시 치안관들이 처형하고, 그 머리를 말뚝에 박아 나르골 왕국의 수도 도처에 설치했습니다.
-하지만, 이럼에도 불구하고, 시민들은 계속 자연의 적들을 산 채로 불태웠습니다. 권력자들은 죽은 가해자들의 머리가 죽고 나서도 민중을 선동했음을 모릅니다.
+This stake of wood appears to one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], [[황혼의 시대, 마법폭발 이후 나르골 왕국에서 반마법 활동이 급격하게 증가했습니다. 시민들은 마법의 힘을 다루는 이들에 맞서, 마법 사용자들을 말뚝에 묶고 산 채로 불태웠습니다. 그 가해자들은 관리들이 즉시 처형하고, 그 머리를 효수하여 나르골 왕국의 수도 도처에 놓아두었습니다.
+그럼에도 불구하고, 시민들은 계속해서 대자연의 적들을 산 채로 불태웠습니다. 관리들은 죽은 가해자들의 머리가 죽고 나서도 오랫동안 민중을 선동했다는 걸 몰랐습니다.
 
-이 나무 말뚝은 처형한 머리가 꽂혀있었을 것 같습니다. 말뚝은 꽂혀있던 머리의 의지를 일부 흡수해, 들고 있노라면 지구르의 전언이 머릿속에서 울려퍼집니다.]], "_t")
+이 나무 말뚝에는 처형된 머리가 하나 꽂혀 있었을 것 같습니다. 말뚝은 꽂혀 있던 머리의 의지를 일부 흡수해, 들고 있노라면 지구랏의 전언이 머릿속에 울려퍼집니다.]], "_t")
 t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "반경 10 칸 내의 모든 비 마법 사용자들을 마법을 사용하는 동료들에게 강제로 적대하게 합니다. 이 효과는 6 턴 동안 지속되며, 확률은 정신력에 비례합니다.", "tformat")
 t("Worm Nest", "구더기 둥지", "entity name")
 t("disgusting robe", "역겨운 로브", "_t")
-t("This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "이 이상하게 두꺼운 로브는 계속 꿈틀거리고 작게 움직입니다. 가끔 구더기들이 튀어 나와, 땅바닥에 떨어집니다. 구더기들은 착용자에게 가해지는 피해를 일부 흡수하지만, 이렇게나 많은 기생성 생명체를 연약한 피부에 가까이하는 것은 그렇게 좋은 생각 같진 않습니다.", "_t")
-t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#구더기들이 당신의 변이된 피부에 쉽게 파고듭니다.", "logPlayer")
+t("This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "이 이상하게 두꺼운 로브는 계속 꿈틀거리고 조금씩 움직입니다. 가끔 구더기들이 튀어나와 땅에 떨어집니다. 구더기들은 착용자에게 가해지는 피해를 일부 흡수하지만, 이렇게나 많은 기생성 생명체들을 연약한 피부에 가까이하는 것은 그렇게 좋은 생각 같진 않습니다.", "_t")
+t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#구더기들이 당신의 변이된 피부에 손쉽게 파고든다.", "logPlayer")
 t("Light of Revelation", "계시의 빛", "entity name")
-t("disturbing lantern", "방해하는 랜턴", "_t")
-t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "이 \"랜턴\" 은 유리 비슷한 물체가 그저 빛을 내고 있습니다. 얼마나 밝게 빛나던 간에, 이 빛은 당신을 심각하게 방해합니다. 빛은 모든 것을 밝히고, 일깨워, 보지 않아야 할 것들 마저 비춰줍니다. 마음 한 켠에서는 이 랜턴을 버려버리고 싶어하지만 다른 한 구석에서는 이 랜턴이 밝혀줄, 이 세상의 것이 아닌 진실을 알고싶다는 생각이 듭니다.", "_t")
-t("Sometimes reveals the hidden truths you'd rather not see.", "가끔 착용자가 보지 못했던 숨겨진 진실을 밝혀줍니다.", "_t")
-t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#계시의 빛이 %s 비춰, 진실된 본성인 %s 나타나게 했다!", "say", nil, {"를","가"})
+t("disturbing lantern", "방해되는 랜턴", "_t")
+t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "유리 비슷한 물체가 그저 빛을 내고 있는 \"랜턴\"입니다. 얼마나 밝게 빛나든 간에 이 빛은 당신을 심각하게 방해합니다. 빛은 모든 것을 밝히고, 모르는 게 더 나은 것들마저 비춰줍니다. 마음 한구석에서는 이 랜턴을 버리고 싶지만, 다른 한구석에서는 이 랜턴이 밝혀줄, 기이하기 짝이 없는 진실을 알고 싶다는 생각이 듭니다.", "_t")
+t("Sometimes reveals the hidden truths you'd rather not see.", "가끔 착용자가 보고 싶지 않았던 숨겨진 진실을 밝혀줍니다.", "_t")
+t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#계시의 빛이 %s 비춰, 진짜 본성인 %s 나타나게 했다!", "say", nil, {"를","가"})
 t("Glowing Core", "빛나는 핵", "entity name")
 t("burning core", "불타는 핵", "_t")
-t("This is all that's left of the Searing Horror. Even after its death, the object in your hand glows just as brightly as it did before.", "불사르는 공포가 남긴 유일한 물건입니다. 죽음 이후에도, 당신 손에서 찬란한 빛을 뿜어내고 있습니다. 전에도 그랬던 것 처럼..", "_t")
+t("This is all that's left of the Searing Horror. Even after its death, the object in your hand glows just as brightly as it did before.", "불사르는 빛의 공포가 남긴 유일한 물건입니다. 죽고 난 뒤에도, 당신의 손 안에서 찬란한 빛을 뿜어내고 있습니다. 살아 있을 때 그랬던 것처럼.", "_t")
 t("Shoes of Moving Slowly", "느린 이동의 신발", "entity name")
 t("restful shoes", "휴식의 신발", "_t")
 t([[Fast does not always win.
 
-#GOLD#Rumoured to be able to combine with the Shoes of Moving Quickly.]], [[발 빠른 자가 항상 승리하지는 않는 법이다
+#GOLD#Rumoured to be able to combine with the Shoes of Moving Quickly.]], [[발 빠른 자가 항상 승리하지는 않는 법이다.
 
 #GOLD#빠른 이동의 신발과 합칠 수 있다는 소문이 있습니다.]], "_t")
-t("Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.", "움직이지 않을 때마다, 회피도와 방어력이 2 상승합니다. 이 효과는 최대 12 번 중첩 가능합니다.", "_t")
+t("Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.", "매 턴 움직이지 않을 때마다, 회피도와 방어력이 2 상승합니다. 이 효과는 최대 12번 중첩 가능합니다.", "_t")
 t("combine it with the Shoes of Moving Quickly", "빠른 이동의 신발과 합칩니다", "_t")
-t("You need to have the Shoes of Moving Quickly in your inventory.", "가방 안에 빠른 이동의 신발이 있어야한다.", "logPlayer")
+t("You need to have the Shoes of Moving Quickly in your inventory.", "가방 안에 빠른 이동의 신발이 있어야 한다.", "logPlayer")
 t("Shoes of Slowly Moving Quickly", "느리지만 재빠른 이동의 신발", "_t")
 t("A wonder of footwear! You can set a shoe to stay in place while the other one goes very fast, spinning around to create tornados!", "모든 신발 중 으뜸입니다! 신발 한 짝이 가만히 있는 동안, 다른 한 짝은 매우 빠르게 이동할 수 있습니다. 빠른 속도로 회전해 용오름을 만들 수도 있습니다!", "_t")
 t([[Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.
@@ -830,11 +830,11 @@ t("As you combine the two pair of shoes you make something marvelous: %s", "두 
 t("Rod of Entropy", "엔트로피의 장대", "entity name")
 t("light sucking rod", "빛을 흡수하는 장대", "_t")
 t("This rod seems to make light die around it. You feel tired just looking at it.", "이 장대는 주변의 빛을 죽여버리는 것 같습니다. 보는 것만으로도 피곤해집니다.", "_t")
-t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복한 생명력의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법에 비례하여 증가합니다.", "tformat")
+t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복량의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법 능력치에 비례하여 증가합니다.", "tformat")
 t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
-t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 메말라버린 촉수 덩어리는 감염되어, 자연물과 비자연물 사이의 기이한 융합을 만들어 내는 마석같습니다. 한때, 깨끗했던 보석은 이제는 채찍같은 촉수가 달린 검은 흑요석 조각처럼 변해버렸습니다. 공포의 영향이 자연 그 자체와 융합할 수 있을거라 생각하고 싶지 않습니다.", "_t")
+t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 꿈틀대는 촉수 덩어리는 마석을 감염시켜, 자연물과 비자연물의 기묘한 융합을 이루고 있습니다. 한때 깨끗했던 보석은 이제 채찍 같은 촉수가 달린 검은 흑요석 조각에 더 가까워 보입니다. 이 공포체가 자연 그 자체와 융합할 수 있다고는 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 폭발을 대상에게 시전합니다", "_t")
 -- new text
 --[==[
@@ -3156,7 +3156,7 @@ t([[At last you unlock the true power of your mutated body!
 ------------------------------------------------
 section "tome-cults/data/talents/demented/rift.lua"
 
-t("Reality Fracture", "현실 균열", "talent name")
+t("Reality Fracture", "현실 파열", "talent name")
 t("void rift", "공허의 틈", "_t")
 t("%s (empowered)", "%s (강화됨)", "tformat")
 t([[The sheer power of your entropy tears holes through spacetime, opening this world to the void.
@@ -3198,7 +3198,7 @@ t([[You draw power from the depths of the void causing your Reality Fracture to 
 #GREY#Void Rift:#LAST# Deals %d%% increased damage and projectiles explode in radius 1.
 #PURPLE#Nether Breach:#LAST# Deals %d%% increased damage and chains to 3 targets.
 #PURPLE#Temporal Vortex:#LAST# Deals %d%% increased damage, radius increased by 1, and slow increased to 50%%.
-#PURPLE#Dimensional Gate:#LAST# Voidling Skitterers will be frenzied, increasing their global speed by %d%%.]], [[공허의 심연에서 힘을 끌어모아 모든 종류의 현실의 틈을 강화합니다.
+#PURPLE#Dimensional Gate:#LAST# Voidling Skitterers will be frenzied, increasing their global speed by %d%%.]], [[공허의 심연에서 힘을 끌어모아 모든 종류의 현실 파열을 강화합니다.
 #GREY#공허의 틈:#LAST# %d%% 증가된 피해를 입히고 반경 1 칸의 폭발을 일으킵니다.
 #PURPLE#황천의 구멍:#LAST# %d%% 증가된 피해를 입히고, 인근의 세 대상에게 연쇄됩니다.
 #PURPLE#시간의 소용돌이:#LAST# %d%% 증가된 피해를 입히고, 반경이 1 칸 늘어납니다. 전체 속도 감소 효과가 50%% 로 증가됩니다.
