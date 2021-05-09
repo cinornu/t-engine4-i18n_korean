@@ -519,7 +519,7 @@ t("To you too, Metash.", "당신도, 메타쉬.", "_t")
 section "tome-orcs/data/chats/phonograph.lua"
 
 t("[insert %s]", "[%s 삽입한다]", "tformat", nil, {"를"})
-t("#LIGHT_GREEN#*This machine seems to have a slot for some kind of disks.*#WHITE#", "#LIGHT_GREEN#*이 기계에는 무슨 원판 같은 걸 넣을 수 있는 구멍이 있습니다.*#WHITE#", "_t")
+t("#LIGHT_GREEN#*This machine seems to have a slot for some kind of disks.*#WHITE#", "#LIGHT_GREEN#*이 기계에는 무슨 원반 같은 걸 넣을 수 있는 구멍이 있습니다.*#WHITE#", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/shertul-priest.lua"
@@ -2102,7 +2102,7 @@ I'm sure you have your doubts as to the efficacy of my lovingly-made armaments; 
 ------------------------------------------------
 section "tome-orcs/data/lore/gem.lua"
 
-t("strange black disk (1)", "이상한 검정색 원판 (1)", "_t")
+t("strange black disk (1)", "수상한 검은 원반 (1)", "_t")
 t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Exploratory Mole, on a mission to..."  She sighs. " 'Find the Loyalist and arrange for our safe transport to his refuge, offering him his previous terms of agreement.' Which is Council-speak for 'flee in terror to the only thing that could bail us out of this mess, and bring the Eye with us.' Personally, I'm not keen on putting our fates in the hands of some nutter who lives underground and..." Indistinct grumbling. "...not even my damn job, I didn't sign up to be some politician's valet--"
 
 #{italic}#(You hear a door opening, and another voice speaks.)#{normal}#
@@ -2120,7 +2120,7 @@ t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Ex
 #{italic}#(문이 닫혔습니다.)#{normal}#
 
 "...그래, 탄탈로스 의원은 차를 즐기려 한다. 자기가 벌집을 발로 까서 우릴 이 혼돈의 도가니로 던져 놓았던 걸, 없던 일로 할 수 있다는 걸 알게 되자마자. 뭐, 기록을 계속해 보면... 시간 맞춰서 출발했고, 궁전 바로 아래에서부터 굴을 파내서, 충신이 마지막으로 있었다고 알려진 위치로 현재 이동 중이다. 전 시스템 정상 작동 중, 차 끓이는 기계 빼고. 그거에 대해서는 뭐라 할 말이 없다. 기록 끝."]], "_t")
-t("strange black disk (2)", "이상한 검정색 원판 (2)", "_t")
+t("strange black disk (2)", "수상한 검은 원반 (2)", "_t")
 t([["...for posterity!  Let's make sure future generations can hear the moments of history being made!" You hear the voice of Councillor Tantalos again... and then you hear a very strange voice, one that's all too clear. Even with the device playing it, it sounds like it's coming from inside your own head.#{normal}#
 
 "Yes, yes, good idea. This is an important day, for both of us - no, for Eyal...  You've brought what I asked for so long ago, then?"
@@ -2156,7 +2156,7 @@ t([["...for posterity!  Let's make sure future generations can hear the moments 
 
 #{italic}#(팔모르의 목소리가 다시 들립니다.)#{normal}#  "제기랄, 도망쳐!! 근처에 아무거나 잡고--"  (기록이 끝났습니다.)
 ]], "_t")
-t("strange black disk (3)", "이상한 검정색 원판 (3)", "_t")
+t("strange black disk (3)", "수상한 검은 원반 (3)", "_t")
 t([[#{italic}#(You hear loud, mechanical rumbling; in the distance, you hear sounds of struggling and bludgeoning, swords slicing through flesh, steamguns being fired, and shouts of pain from giant and horror alike.  Parmor sounds panicked.)#{normal}#
 
 "Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], [[#{italic}#(기계가 시끄럽게 웅웅거리는 소리가 들립니다. 멀리서 요란한 싸움 소리와 세게 부딪히는 소리, 검이 살점을 베어내는 소리, 증기총 소리, 그리고 거인과 공포체가 고통에 차서 지르는 고함 소리가 들렸습니다. 팔모르는 어쩔 줄 모르는 듯한 목소리입니다.)#{normal}#
@@ -7015,10 +7015,10 @@ t("Whoever tortured and tormented this yeti did an amazing job of pain and destr
 section "tome-orcs/data/zones/gem/objects.lua"
 
 t("lore", "이야기", "entity type")
-t("disk", "원판", "entity subtype")
-t("disk", "원판", "_t")
+t("disk", "원반", "entity subtype")
+t("disk", "원반", "_t")
 t([[A strange black disk found in the G.E.M.
-You have no idea how to use it.]], [[G.E.M 안에서 찾아낸 이상한 검정색 원판입니다.
+You have no idea how to use it.]], [[G.E.M 안에서 찾아낸 수상한 검은 원반입니다.
 이걸 어떻게 쓰는지 감도 안 옵니다.]], "_t")
 t("erratic scribblings", "휘갈겨 쓴 낙서", "entity name")
 t("A journal.", "일지입니다.", "_t")
