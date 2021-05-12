@@ -2652,7 +2652,7 @@ t("Chaos Orbs", "혼돈의 보주", "talent name")
 t([[You harness the chaos created by high insanity.
 		Each time you trigger an insanity chaotic effect with a power higher than %d or lower than -%d you gain a chaos orb for 10 turns (this effect can only happen once per turn).
 		Each orb increases your damage by 3%% and can stack up to %d.]], [[광기가 빚어낸 혼돈을 휘두릅니다.
-		주문 사용 시, 광기로 인한 변동 수치가 %d 이상이거나 -%d 이하라면, 시전자는 10 턴 동안 지속되는 혼돈의 보주를 하나 얻습니다. (이 효과는 한 턴에 1 번만 일어날 수 있습니다.)
+		주문 사용 시, 광기로 인한 변동 수치가 %d 이상이거나 -%d 이하라면, 시전자는 10 턴 동안 지속되는 혼돈의 보주를 하나 얻습니다. (이 효과는 한 턴에 한 번만 일어날 수 있습니다.)
 		보주는 하나당 시전자의 모든 피해가 3%% 증가합니다. 보주는 최대 %d 개 보유할 수 있습니다.]], "tformat")
 t("Anarchic Walk", "무질서의 발걸음", "talent name")
 t("You require at least two chaos orbs.", "적어도 2 개의 혼돈의 보주가 필요하다.", "logPlayer")
@@ -3095,7 +3095,7 @@ t("Grab a target and drag it to your side, dealing %d%% weapon damage and taunti
 section "tome-cults/data/talents/demented/oblivion.lua"
 
 t("Nihil", "허무", "talent name")
-t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "엔트로피로 인해 주위의 현실 구조를 찢고 정수를 흘리게 합니다. 엔트로피 반발이 시전자에게 적용되거나 증가될 때, 시전자의 시야 10 칸 내의 무작위한 %d 명의 적이 8 턴 동안 엔트로피의 힘에 둘러쌓일 것입니다. 이것은 새로 적용될 부정적인 효과들의 지속시간과 새로 적용될 이로운 효과의 지속시간을 각각 %d%% 연장하고, 단축합니다.", "tformat")
+t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "엔트로피로 인해 주위의 현실 구조를 찢고 정수를 흘리게 합니다. 엔트로피 반발이 시전자에게 적용되거나 증가될 때, 시전자의 시야 10 칸 내의 무작위한 %d 명의 적이 8 턴 동안 엔트로피의 힘에 둘러싸일 것입니다. 이것은 새로 적용될 부정적인 효과들의 지속시간과 새로 적용될 이로운 효과의 지속시간을 각각 %d%% 연장하고, 단축합니다.", "tformat")
 t("Unravel Existence", "존재 해체", "talent name")
 t("herald of oblivion", "소멸의 전령", "_t")
 t("Space warps and blurs around this titanic being, as if reality itself was struggling against it.", "이 거대한 존재 주변의 공간은 현실 그 자체가 그에 대적하는 것 같이 흐려지고 왜곡됩니다.", "_t")
@@ -3510,7 +3510,7 @@ t([[Your skin grows small spikes coated in dark blight.
 		When you are hit in melee the attacker starts bleeding black blood for 5 turns that deals %0.2f darkness damage each turn. This effect may only happen once per turn.
 		You are empowered by the sight of the black blood, for each bleeding creature in radius 2 you gain 5%% all resistances, limited to %d creatures.
 		The damage will scale with your Magic stat.]], [[어둠의 역병이 흘러내리는 조그만한 가시가 피부를 뒤덮습니다.
-		근접 공격에 피격 시, 공격자는 5 턴 동안 검은 피를 흘리기 시작해 매 턴 %0.2f 어둠 피해를 입습니다. 이 효과는 한 턴에 1 번 일어납니다.
+		근접 공격에 피격 시, 공격자는 5 턴 동안 검은 피를 흘리기 시작해 매 턴 %0.2f 어둠 피해를 입습니다. 이 효과는 한 턴에 한 번 일어납니다.
 		적이 검은 피를 흘리면 시전자는 힘을 얻어, 반경 2 칸 내의 피를 흘리는 개체 하나 당, 모든 저항을 5%% 얻습니다. 이 효과는 %d 체의 적에게서만 발생합니다.
 		피해량은 마법에 비례하여 증가합니다.]], "tformat")
 t("Faceless", "얼굴 없는 존재", "talent name")

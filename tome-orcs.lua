@@ -4202,7 +4202,7 @@ t([[Any time you deal damage with a psionic ability you incur a negative biofeed
 		Each stack reduces their physical save by %d, defense and armour by %d.
 		This effect may only occur once per turn.]], [[시전자가 초능력 기술로 피해를 가할 때마다, 적에게 부정적인 생체 반작용을 일으킵니다. 5 턴 동안 지속되며, 최대 %d 번 중첩됩니다.
 		매 중첩은 적의 물리 내성을 %d 감소시키고, 방어력과 회피도를 %d 감소시킵니다.
-		이 효과는 한 턴에 1 번 일어납니다.]], "tformat")
+		이 효과는 한 턴에 한 번 일어납니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/gestalt.lua"
@@ -4850,7 +4850,7 @@ t([[You line your armor with explosive plating that detonates when struck. On ta
 		This cannot trigger more than once per turn.
 		Blocking an attack with your shield will also trigger the retaliation damage, if it has not already triggered this turn.
 		You have up to 3 plates at a time, and regain one every %d turns.]], [[피해를 받았을 때 격발하는 폭파 장갑과 방어구를 하나로 연결합니다. 근접이나 원거리 공격에 의해 한 번에 최대 생명력의 8%% 이상의 피해를 받았을 때, 장갑이 폭발합니다. 장갑은 받은 피해를 %d%% 줄이고, 기본 수류탄 공격을 가해 반경 %d 칸의 원뿔 범위에 수류탄 기본 피해량의 %d%% 를 가합니다.
-		이 효과는 한 턴에 1 번만 발생합니다.
+		이 효과는 한 턴에 한 번만 발생합니다.
 		방패로 피해량의 일부를 막아내는 것 역시 수류탄 보복이 발동되지만, 해당 턴에 효과가 발생하지 않았을 경우에 한합니다..
 		한 번에 최대 3 개의 반응 장갑을 장착하고, 매 %d 턴마다 반응 장갑이 재생됩니다.]], "tformat")
 t("Sapper", "공병", "talent name")
@@ -5224,7 +5224,7 @@ t("Static Shock", "정전기 충격", "talent name")
 t([[Using your Block talent surrounds you and your minions in a static barrier for 4 turns, increasing all resistances by %d%%. If an enemy deals damage to you or your minions, the barrier will shock them for %d%% of your shield damage.
 		This effect cannot damage the same target more than once per turn, and will not interact with Counterstrike.
 You now also use your Cunning in place of Strength when equipping shields as well as when calculating shield damage.]], [[방패 막기 기술 사용 시, 시전자와 시전자의 소환수들에게 4 턴 동안 지속되는 전자기 보호막이 부여되여, 모든 저항이 %d%% 상승합니다. 만약 적이 시전자나 시전자의 소환수를 공격 시, 전자기 보호막에서 전류가 방출되어 %d%% 방패 피해를 입힙니다.
-		이 효과는 같은 대상을 상대로 한 턴에 1 번 밖에 일어나지 않습니다. 또한 이 기술로 주는 피해는 반격 효과를 받지 않습니다.
+		이 효과는 같은 대상을 상대로 한 턴에 한 번밖에 일어나지 않습니다. 또한 이 기술로 주는 피해는 반격 효과를 받지 않습니다.
 이제 장비 제한에 있어, 힘 대신 교활을 이용하여 방패를 착용할 수 있습니다. 방패의 피해량을 계산할 때도, 힘 대신 교활을 적용하여 피해량을 산출합니다.]], "tformat")
 t("Magnetic Field", "자기장", "talent name")
 t("You require a shield for this talent.", "이 기술을 사용하기 위해서는 방패가 필요하다.", "logPlayer")
@@ -5582,7 +5582,7 @@ t([[You fire a special hook shot with your steamgun(s) at a target creature or l
 		If you target a creature, they are pulled up to %d tiles towards you.
 		If you target an empty tile, you are pulled up to %d tiles towards it.
 		This talent does not use ammo as it is the ammo.]], [[총기로 특수 갈고리 탄환을 대상이나 지정  지역에 발사합니다.
-		적이나 아군 등에게 발사할 경우, 시전자 쪽으로 %d 칸 끌고옵니다.
+		적이나 아군 등에게 발사할 경우, 시전자 쪽으로 %d 칸 끌고 옵니다.
 		비어있는 장소에 발사할 경우, 해당 방향으로 최대 %d 칸 끌려갑니다.
 		이 기술은 장착중인 탄약에 영향을 받지만, 탄약을 소모하지는 않습니다.]], "tformat")
 t("Magnetic Shell", "자성 탄환", "talent name")
@@ -5898,7 +5898,7 @@ t([[Throw a cone of flame with radius %d, dealing %0.2f fire damage.
 		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Flame Vortex", "화염 소용돌이", "talent name")
 t([[Project a radius %d vortex of superheated air, dealing %0.2f fire damage and pulling targets towards you.
-		The damage will increase with your Steampower.]], [[반경 %d 칸의, 공기를 뜨겁게 데우는 소용돌이를 만들어 내, %0.2f 화염 피해를 주고, 적들을 시전자에게로 끌고옵니다.
+		The damage will increase with your Steampower.]], [[반경 %d 칸의, 공기를 뜨겁게 데우는 소용돌이를 만들어 내, %0.2f 화염 피해를 주고, 적들을 시전자에게로 끌고 옵니다.
 		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Medic Turret", "의료 포탑", "talent name")
 t("medic turret", "의료 포탑", "_t")
@@ -6114,7 +6114,7 @@ t("#Target# is fluctuating in time!", "#Target2# 시간 속에서 끊임없이 �
 t("#Target# is no longer fluctuating.", "#Target1# 변동을 끝냈다.", "_t")
 t("undead", "언데드", "effect subtype")
 t("Death Momentum", "죽음의 기세", "_t")
-t("You have %d charges.", "용해 점수 %d 점.", "tformat")
+t("You have %d charges.", "현재 %d 중첩.", "tformat")
 t("steam", "증기", "effect subtype")
 t("technomancy", "마도공학", "effect subtype")
 t("Ethereal Steam", "에테르의 증기", "_t")
@@ -6418,7 +6418,7 @@ t("+Net Projector", "+그물 발사기", "_t")
 t("#Target# is free from the net.", "#Target1# 그물에서 벗어났다.", "_t")
 t("-Net Projector", "-그물 발사기", "_t")
 t("Molten Point", "용해 점수", "_t")
-t("You have %d charges.", "용해 점수 %d 점.", "tformat")
+t("You have %d charges.", "현재 %d 중첩.", "tformat")
 t("steam", "증기", "effect subtype")
 t("Pressure-enhanced Slashproof Combat Suit", "압력 강화식 방검 전투 슈트", "_t")
 t("psionic", "초능력", "effect subtype")

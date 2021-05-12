@@ -302,7 +302,7 @@ t("Your mind hungers for pain and suffering! Feed it!", "정신이 고통과 괴
 section "tome-possessors/data/talents/psionic/psychic-blows.lua"
 
 t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
-t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요하다.", "logPlayer")
 t("Psychic Crush", "초능력 파쇄", "talent name")
 t("%s's Psychic Image", "%s의 초능력 투영체", "tformat")
 t("#ROYAL_BLUE#%s's psychic imprint appears!", "#ROYAL_BLUE#%s의 초능력 투영체가 나타났다!", "logSeen")
