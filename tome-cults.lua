@@ -2,11 +2,11 @@
 section "tome-cults/data/achievements/all.lua"
 
 t("You were not supposed to see that!", "그걸 봐선 안 됐어!", "achievement name")
-t("Read a Forbidden Tome.", "금지된 고서를 읽었다.", "_t")
+t("Read a Forbidden Tome.", "금단의 고서를 읽었다.", "_t")
 t("Bookception!", "북셉션!", "achievement name")
-t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "금지된 고서: \"지식과 공포에 관해\" 안에서 금지된 고서를 보상으로 찾아냈다.", "_t")
+t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "금단의 고서: \"지식과 공포에 관해\" 안에서 금단의 고서를 보상으로 찾아냈다.", "_t")
 t("Recursive Home of Recursion", "집 안에 집이 있고 안에 또 집이 있고", "achievement name")
-t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "집 같지 않은 우리 집 바닥에 금지된 고서: \"집, 무시무시한 집\" 을 놔 두었다.", "_t")
+t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "집 같지 않은 우리 집 바닥에 금단의 고서: \"집, 무시무시한 집\" 을 놔 두었다.", "_t")
 t("They Came From Outer Space!", "외우주에서 왔었어!", "achievement name")
 t("Discovered the true origin of dwarves and drems.", "드워프와 드렘의 진짜 기원을 찾아냈다.", "_t")
 t("The True Coward", "진정한 겁쟁이", "achievement name")
@@ -628,7 +628,7 @@ t("The tentacle tree has awakened!", "촉수 나무가 깨어났습니다!", "_t
 section "tome-cults/data/general/objects/forbidden-tomes-base.lua"
 
 t("tome", "고서", "entity type")
-t("forbidden", "금지된", "entity subtype")
+t("forbidden", "금단의", "entity subtype")
 t("strange book", "이상한 책", "_t")
 t("A lost tome of knowledge.", "잃어버린 지식이 담긴 고서입니다.", "_t")
 t("read the book", "책을 읽는다", "_t")
@@ -701,7 +701,7 @@ t("I love the smell of a fresh corpse.", "난 신선한 시체 냄새가 참 좋
 t("Splatter me with the blood of our foes!", "놈들의 피로 날 적셔줘!", "_t")
 t("That one wasn't such an impressive kill...", "방금 건 그렇게 인상적이진 않은 것 같은데...", "_t")
 t("Getting a bit sloppy on the kills no?", "너 방금 좀 대충 한 것 같다?", "_t")
-t("Forbidden Tome: \"Of Knowledge And Horrors\"", "금지된 고서: \"지식과 공포에 관해\"", "entity name")
+t("Forbidden Tome: \"Of Knowledge And Horrors\"", "금단의 고서: \"지식과 공포에 관해\"", "entity name")
 t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "잃어버린 지식이 담긴 두꺼운 고서로, 만지기만 해도 토할 것 같습니다.", "_t")
 t([[The book of horrors,
 the book of terrors,
@@ -722,7 +722,7 @@ Read now for a fate worse than death inside awaits.
 이것을 읽는 자는 고통을 넘어선 고통을 알게 될 것이다.
 읽어라. 죽음보다도 더 가혹한 운명이 기다린다.
 ]], "_t")
-t("Forbidden Tome: \"The Day It Came\"", "금지된 고서: \"그것이 온 날\"", "entity name")
+t("Forbidden Tome: \"The Day It Came\"", "금단의 고서: \"그것이 온 날\"", "entity name")
 t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "이 고서의 표지는 낡고 메말랐습니다. 책을 들고 있으면, 많은 생각이 들게 합니다. 절망, 괴로움, 자포자기, 암담함... 이 모든 생각들이 한꺼번에 엄습합니다. 책은 강력한 힘을 약속하지만, 그 대가는 무엇일까요?", "_t")
 t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "황혼의 시대 때, 수많은 에이알인들은 세계가 끝나간다고 생각했다. 마법폭발의 파괴가 남기고 간 것은 메마르고, 불타버린 대지 뿐이었다. 식량은 부족하고, 피해망상이 만연했으며, 모든 이들이 절박했다. 선택받은 극소수의 사람들에게는 예상 밖의 방문자가 구원의 손길을 건넸다. 이 '선생' 으로 알려진 존재는 쉐르'툴의 장거리 차원문을 통해 저 별들 너머에서 에이알을 찾아왔다. 그 존재는 에이알의 깊은 곳에서 생존자들을 찾아내었고, 그들은 그 존재에게 어떤 지식을 간청했다. 이 세계를 유린하고 있는 공포들에게 맞설 무기로 사용할 수 있을 만한 지식 말이다.", "_t")
 t("Hithre died. Somehow this is not what should have happened.", "하이트르는 죽었다. 하지만 이런 일은 일어나지 않았다.", "_t")
@@ -734,7 +734,7 @@ t("The importance of magic (+5 magic)", "마법의 중요성 (마법 +5)", "_t")
 t("The importance of wisdom (+5 willpower)", "지혜의 중요성 (의지 +5)", "_t")
 t("The Day It Came", "그것이 온 날", "_t")
 t("This chapter has taught your some important lesson. What did you learn?", "이 장은 당신에게 중요한 교훈을 가르칠 것입니다. 배우시겠습니까?", "_t")
-t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서: \"회랑에서 본 것\"", "entity name")
+t("Forbidden Tome: \"A View From The Gallery\"", "금단의 고서: \"회랑에서 본 것\"", "entity name")
 t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "부족에서 떨어져 나와, 아주 오래 전에 벌어졌던 끔찍한 전쟁에서 살아남으려 노력하는 하플링 그룽의 이야기입니다.", "_t")
 t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "오늘 밤은 춥고 온종일 먹을 걸 하나도 찾지 못했습니다. 당신의 피부만으로는 이 한기를 버텨낼 수도 없습니다. 지금 사냥을 나가려고 하지만, 다른 이들 모두가 그러면 안 된다고 경고했었습니다. 밤은 위험하고 하늘에는 이상한 빛이 떠다닙니다. 아무리 봐도 좋은 징조는 아니지요. 최근에는 먹을거리들을 구하기가 어려워져서, 모두 다 당신처럼 배가 고픕니다.", "_t")
 t("Poor Grung. All he wanted was food, but what he found instead was death.", "가엾은 그룽. 그가 원한건 단지 먹을거리였는데, 결국엔 죽어버렸습니다.", "_t")
@@ -745,7 +745,7 @@ t("The importance of reflexes (+5 dexterity)", "반사신경의 중요성 (민�
 t("The importance of a honed mind (+5 cunning)", "연마한 마음의 중요성 (교활 +5)", "_t")
 t("A View From The Gallery", "회랑에서 본 것", "_t")
 t("This chapter has taught your some survival tips. What did you learn?", "이 장은 당신에게 중요한 생존 전략을 가르칠 것입니다. 배우시겠습니까?", "_t")
-t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서: \"환상의 성\"", "entity name")
+t("Forbidden Tome: \"The Illusory Castle\"", "금단의 고서: \"환상의 성\"", "entity name")
 t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "이 고서는 꿈에서나 볼 수 있을 것 같은 가죽과 양피지로 이루어져 있습니다. 수정 조각들이 책의 안쪽에서 춤을 추고 있어, 알 수 없는 규칙을 따라 변화하고 있는 다른 세계를 보고 있는 것 같습니다.", "_t")
 t([[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
 
@@ -891,7 +891,7 @@ t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put the
 ------------------------------------------------
 section "tome-cults/data/lore/dremwarves.lua"
 
-t("Forbidden Cults", "금지된 교단", "newLore category")
+t("Forbidden Cults", "금단의 교단", "newLore category")
 t("our origins (1)", "우리의 기원 (1)", "_t")
 t([[I do not remember anything from before. My earliest memories are of these ruins. My people are known as the Drem to the surface dwellers of this world. We are seen as monsters, and perhaps that is not an unfair presumption. We were once mindless creatures roaming the underground, capable only of violence and acting on instinct. 
 
@@ -976,7 +976,7 @@ t("At the center of the strange contraption you see a picture. You are not quite
 ------------------------------------------------
 section "tome-cults/data/lore/fay-willows.lua"
 
-t("Forbidden Cults", "금지된 교단", "newLore category")
+t("Forbidden Cults", "금단의 교단", "newLore category")
 t("Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "페이 윌로우즈의 여행기 [1권, 제1장] - 마법폭발의 참상", "_t")
 t([[[i]I remember the devastation when I first made my journey to Elvala. Not a soul escaped the touch of the Spellblaze and no one could feel the pain and sorrow of the lands more than a thalore. I know that those back home still seethe with rage and anger as even now I still sometimes feel my emotions from that moment. It was a terrible day I wish I could forget but never will.[/i]
 
@@ -2157,7 +2157,7 @@ Outside of the various movements of such distasteful groups, some of the shalore
 ------------------------------------------------
 section "tome-cults/data/lore/kroshkkur.lua"
 
-t("Forbidden Cults", "금지된 교단", "newLore category")
+t("Forbidden Cults", "금단의 교단", "newLore category")
 t("the history of Kroshkkur (1)", "크로슈쿠르의 역사 (1)", "_t")
 t([[The story of Kroshkkur is not a peaceful one. Those of us who gathered here know that we have no place anywhere else. The surface would never accept us, for our forms are terrible for them to behold. Even in the depths of Eyal, we have had to fight for our place in the world. These endless tunnels and the creatures within them have sought to destroy us. They hunger for our very souls.
 
@@ -2167,7 +2167,7 @@ Since then, we have studied. We have divined this world's secrets and delved int
 
 We will bide our time down here in the dark and turn this place into a beacon of knowledge. If this world will not give us a place in it, then we shall simply take one for ourselves. We shall make ourselves known to the surface when the time is right, and show them that we aren't just scattered, mindless beings for them to sweep aside.]], [[크로슈쿠르의 역사는 평화로운 편은 아니다. 이곳에 모인 우리는 이곳 말고는 숨을 곳이 없다는 것을 알고 있다. 지상은 결코 우리를 받아들이지 않을 것이다. 우리의 모습이 그들이 보기에 끔찍하기 때문이다. 에이알의 깊은 곳에서도 우리는 이 세상에서 우리의 안식처를 위해 싸워야 했다. 이 끝없는 터널들과 그 안에 사는 생명체들은 우리를 파괴하려고 한다. 그들은 우리의 영혼 그 자체를 갈망하고 있다. 
 
-처음 발견되었을 때, 크로슈쿠르는 공포체들로 들끓었다. 우리는 그것들을 쓰러뜨리고 여기서 발견한 불가사의한 기계들을 복원하려고 했다. 아아, 우리는 기계들이 손상되었다는 걸 알게 되었고 온전히 복원할 수는 없었다. 하지만, 그것이 가지고 있던 소량의 힘만으로도 우리를 안전하게 만들어 주기에는 충분했다. 그 후 많은 이들이 적대적인 지하 생명체들을 피해 안식처를 찾아 우리를 따라왔다. 다른 어디에도 속하지 않는 지성체들, 금지된 지식을 추구하는 자들, 그리고 인간의 눈으로 견디기엔 너무 많은 것을 본 자들. 하지만 그들은 이곳을 집으로 삼은 이들 중 일부에 지나지 않는다. 
+처음 발견되었을 때, 크로슈쿠르는 공포체들로 들끓었다. 우리는 그것들을 쓰러뜨리고 여기서 발견한 불가사의한 기계들을 복원하려고 했다. 아아, 우리는 기계들이 손상되었다는 걸 알게 되었고 온전히 복원할 수는 없었다. 하지만, 그것이 가지고 있던 소량의 힘만으로도 우리를 안전하게 만들어 주기에는 충분했다. 그 후 많은 이들이 적대적인 지하 생명체들을 피해 안식처를 찾아 우리를 따라왔다. 다른 어디에도 속하지 않는 지성체들, 금단의 지식을 추구하는 자들, 그리고 인간의 눈으로 견디기엔 너무 많은 것을 본 자들. 하지만 그들은 이곳을 집으로 삼은 이들 중 일부에 지나지 않는다. 
 
 그때부터 우리는 탐구해왔다. 우리는 이 세상의 비밀들을 낱낱이 밝혀내고, 지상의 거주자들이 들여다볼 엄두를 내지 못하는 어두운 곳들을 파고들었다. 그들이 "무엇인가가 우리를 들여다볼지도 모른다"라며 두려워하는 곳을. 하지만 우리는 두려워하지 않았다. 우리에게는 그런 두려움이 없다. 왜냐하면 우리가 바로 그들을 들여다보는 그 '무엇인가'이기 때문이다. 그러한 곳들에서 우리는 많은 진실을 알아냈고, 에이알의 역사의 흐름을 바꿀 마법을 발견했다.
 
@@ -2352,7 +2352,7 @@ When he first heard of the plan to kill the gods, he volunteered eagerly to beco
 ------------------------------------------------
 section "tome-cults/data/lore/misc.lua"
 
-t("Forbidden Cults", "금지된 교단", "newLore category")
+t("Forbidden Cults", "금단의 교단", "newLore category")
 t("Message from the Assassin's Lord", "암살단장으로부터 온 전갈", "_t")
 t([[My dear %s,
 
@@ -2462,7 +2462,7 @@ As they have only recently come out of their previously mindless states, the Dre
 ------------------------------------------------
 section "tome-cults/data/lore/zones.lua"
 
-t("Forbidden Cults", "금지된 교단", "newLore category")
+t("Forbidden Cults", "금단의 교단", "newLore category")
 t("page from a logbook (1)", "일지에서 떨어진 페이지  (1)", "_t")
 t([[There have often been reports among our brethren about the presence of a magical aberration near the foot of the dwarven mountains. Until today, we have not been able to trace its source. I had suspected that we would come across the foul abode of a necromancer or maybe some other form of arcane wielder... But what we found was an abomination unlike any I have seen before.
 
@@ -2599,9 +2599,9 @@ t([[I knew it. I'm not alone in here. While I was right that I'm the only living
 My treasure is stored somewhere in this castle, but I just don't care anymore. Escaping with my life will be treasure enough. When I reach the outside world again, maybe I'll drop the tome in a river and hope that no one else tries their luck with this place. I'm sure the spirits that haunt this place will rest easier knowing that there won't be any more victims.]], [[그럴 줄 알았다. 난 혼자가 아니었다. 살아 숨쉬는 게 나뿐이라는 말은 틀리지 않았지만, 이 성에는 수호자들과 하인들이 따로 있었다. 유리로 된 골렘들이 지금 나를 찾아 복도를 돌아다니고 있다. 내 요새는 더 이상 내 것이 아니고 이 벽들 안쪽에서도 더 이상 안전하지 않다. 이 책 속이든 바깥세상이든, 내가 진정으로 안전할 수 있는 곳은 찾아낼 수 없다는 걸 알고 있었다. 나는 그 골렘들이 어디서 왔는지 모른다. 어쩌면 성 자체가 나를 이 성에서 쫓아내려고 하는 것일 수도 있고, 내가 엉뚱한 방에 들어간 탓에 어떤 방어 체계를 작동시켜 버린 것일지도 모른다.
 
 보물을 이 성 어딘가에 모아 뒀지만, 그런 건 이제 어떻게 되든 상관없다. 살아남아서 탈출하기만 해도 충분하다. 바깥세상으로 다시 나가게 된다면, 난 이 고서를 강에다가 내던지고 그 누구도 이 성에 들어오지 않기를 바랄 것 같다. 이곳을 떠도는 혼령들도 더 이상 희생자가 나오지 않을 거라는 걸 알게 된다면 분명 좀 더 편하게 쉴 수 있겠지.]], "_t")
-t("Forbidden Tome: \"A View From The Gallery\"", "금지된 고서: \"회랑에서 본 것\"", "_t")
+t("Forbidden Tome: \"A View From The Gallery\"", "금단의 고서: \"회랑에서 본 것\"", "_t")
 t("An illustrated tome!", "그림이 그려진 고서다!", "_t")
-t("Forbidden Tome: \"The Illusory Castle\"", "금지된 고서: \"환상의 성\"", "_t")
+t("Forbidden Tome: \"The Illusory Castle\"", "금단의 고서: \"환상의 성\"", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/quests/grung.lua"
@@ -2640,7 +2640,7 @@ section "tome-cults/data/quests/start-cults.lua"
 t("The Worm That Devours", "집어삼키는 벌레", "_t")
 t([[A huge mindless and corrupted worm is heading toward Kroshkkur!
 It has to be stopped or the Sanctuary will fall, digested in the bowels of giant worm, its forbidden knowledge lost forever.]], [[지성이 없고 오염된 거대한 벌레가 크로슈쿠르로 다가오고 있습니다!
-놈을 저지하지 않으면 성역은 놈의 한 끼 식사가 될 거고, 금지된 지식들은 영영 사라지게 될 겁니다.]], "_t")
+놈을 저지하지 않으면 성역은 놈의 한 끼 식사가 될 거고, 금단의 지식들은 영영 사라지게 될 겁니다.]], "_t")
 t("#LIGHT_GREEN#* You have destroyed the Worm's neural spine, preventing the doom of the Sanctuary.#WHITE#", "#LIGHT_GREEN#* 벌레의 신경 중추를 파괴하여, 성역이 파괴되는 걸 막았습니다.#WHITE#", "_t")
 t("#LIGHT_RED#* You have failed to destroy the Worm in time, the Sanctuary has been destroyed.#WHITE#", "#LIGHT_RED#* 제때 벌레를 죽이는 데에 실패했고, 성역은 파괴되었습니다.#WHITE#", "_t")
 t("#SLATE#* You have to destroy the Worm's neural spine.#WHITE#", "#SLATE#* 벌레의 신경 중추를 파괴해야 합니다.#WHITE#", "_t")
@@ -3443,7 +3443,7 @@ t([[Allows to teleport to Kroshkkur.
 	You have studied the forbidden secrets there and have been granted a special portal spell to teleport back.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
 	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], [[크로슈쿠르로 순간이동 합니다.
-	당신은 그곳에서 금지된 비밀에 대해 배웠고, 따라서 그곳으로 가는 특수한 차원문을 여는 법을 익혔습니다.
+	당신은 그곳에서 금단의 비밀에 대해 배웠고, 따라서 그곳으로 가는 특수한 차원문을 여는 법을 익혔습니다.
 	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 무지한 자들이 보고 있는 동안에는 사용이 불가능합니다.
 	마법 발동에는 시간이 약간 필요하며, (40 턴) 그 시간 동안 당신은 누군가의 시야 내에 들어가서는 안됩니다.]], "_t")
 t("Call of Amakthel", "아마크텔의 부름", "talent name")
@@ -3866,13 +3866,13 @@ t("There are creatures that could be watching you; you cannot take the risk of t
 t("You are yanked out of this place!", "밖으로 튕겨져 나간다!", "logPlayer")
 t("Space restabilizes around you.", "당신 주변의 공간이 다시 안정화된다.", "logPlayer")
 t("book", "책", "effect subtype")
-t("Forbidden Tome", "금지된 고서", "_t")
-t("Slowly transfered to a Forbidden Tome.", "금지된 고서로 느리게 이동됐다.", "_t")
-t("#Target# is entering a Forbidden Tome!", "#Target2# 금지된 고서 속으로 들어가고 있다!", "_t")
-t("#Target# enters a Forbidden Tome!", "#Target2# 금지된 고서 속으로 들어간다!", "_t")
-t("Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "금지된 고서 속: \"집, 끔찍한 집\" %d 턴 지속.", "tformat")
-t("Forbidden Tome Cooldown", "금지된 고서 재사용 대기시간", "_t")
-t("Unable to enter Forbidden Tomes.", "금지된 고서로 들어갈 수 없다.", "_t")
+t("Forbidden Tome", "금단의 고서", "_t")
+t("Slowly transfered to a Forbidden Tome.", "금단의 고서로 느리게 이동됐다.", "_t")
+t("#Target# is entering a Forbidden Tome!", "#Target2# 금단의 고서 속으로 들어가고 있다!", "_t")
+t("#Target# enters a Forbidden Tome!", "#Target2# 금단의 고서 속으로 들어간다!", "_t")
+t("Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "금단의 고서 속: \"집, 끔찍한 집\" %d 턴 지속.", "tformat")
+t("Forbidden Tome Cooldown", "금단의 고서 재사용 대기시간", "_t")
+t("Unable to enter Forbidden Tomes.", "금단의 고서로 들어갈 수 없다.", "_t")
 t("Wrath of the Wilds", "야생의 분노", "_t")
 t("%d%% chance to stun any foes hit.", "%d%% 확률로, 적에게 피해를 줄 때 기절을 유발함.", "tformat")
 t("protection", "보호", "effect subtype")
@@ -4176,7 +4176,7 @@ section "tome-cults/data/zones/ft-horrors/grids.lua"
 t("floor", "바닥", "entity type")
 t("underground", "지하", "entity subtype")
 t("exit to reality", "현실로 나가는 출구", "entity name")
-t("Forbidden Tome", "금지된 고서", "_t")
+t("Forbidden Tome", "금단의 고서", "_t")
 t("Do you really want to exit the tome? You will not be able to come back.", "정말로 고서에서 나가겠습니까? 다시 돌아올 수 없습니다.", "_t")
 t("Stay", "그대로 있는다", "_t")
 t("Exit", "나가기", "_t")
@@ -4198,7 +4198,7 @@ t("and written off the story", "이게 이 이야기의 끝이었습니다.", "_
 section "tome-cults/data/zones/ft-horrors/objects.lua"
 
 t("A page of the tome.", "두꺼운 책의 한 페이지.", "_t")
-t("Forbidden Tome: \"Home, Horrific Home\"", "금지된 고서: \"집, 무시무시한 집\"", "entity name")
+t("Forbidden Tome: \"Home, Horrific Home\"", "금단의 고서: \"집, 무시무시한 집\"", "entity name")
 t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "잃어버린 지식을 담고 있는 두꺼운 책입니다. 만지면 역겹지만, 이상하게도 동시에 평화로움을 느낄 수 있습니다.", "_t")
 t([[Clarity found in safety.
 Clarity found in comfort.
@@ -4672,7 +4672,7 @@ t("I have my reasons!", "나도 다 사정이 있어!", "_t")
 ------------------------------------------------
 section "tome-cults/init.lua"
 
-t("Forbidden Cults", "금지된 교단", "init.lua long_name")
+t("Forbidden Cults", "금단의 교단", "init.lua long_name")
 t([[Not all adventurers seek fortune, not all that defend the world have good deeds in mind.
 Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal.
 That something is you.
@@ -4684,7 +4684,7 @@ That something is you.
 ------------------------------------------------
 section "tome-cults/overload/data/texts/intro-cults.lua"
 
-t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "어서 오십시오, 테일즈 오브 마즈'에이알 - #CRIMSON#금지된 교단", "_t")
+t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "어서 오십시오, 테일즈 오브 마즈'에이알 - #CRIMSON#금단의 교단", "_t")
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are one of several like-minded individuals that delves into knowledge long lost and forgotten, seeking sanctuary from an outside hostile world to such activities. Delving into research within the forgotten and inactive fortress of Kroshkkur, the reasons of pursuit differ among a myriad of topics. Some look to uncover knowledge hailing back to the Age of Haze when beings immensely powerful walked Eyal, while others explore the origins of themselves and other races.
 
@@ -4706,7 +4706,7 @@ As with all things here, nothing restrains you in what path you #{bold}#ultimate
 ------------------------------------------------
 section "tome-cults/overload/data/texts/intro-krog.lua"
 
-t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "어서 오십시오, 테일즈 오브 마즈'에이알 - #CRIMSON#금지된 교단", "_t")
+t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "어서 오십시오, 테일즈 오브 마즈'에이알 - #CRIMSON#금단의 교단", "_t")
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 
 You are a Krog, a former ogre stripped of its runes by the Ziguranth. Ogres cannot live without runes, yet you a Krog have been kept alive by the powers of nature coursing through your body. 
@@ -4875,8 +4875,8 @@ Both the chance and size of effects will increase with insanity.]], [[당신의 
 
 해당 확률과 효과량은 광기에 비례합니다.]], "_t")
 t("%d%%%% (%d%%%% chaotic)", "%d%%%% (혼돈 %d%%%%)", "tformat")
-t("Use the book-like display for Forbidden Tomes. This option requires both framebuffers and shaders to be active in the video options.#WHITE#", "금지된 고서에 실제 책 같은 그래픽을 적용합니다. 비디오 옵션에서 프레임 버퍼와 셰이더 기능이 활성화된 상태여야 합니다.#WHITE#", "_t")
-t("#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{normal}#", "#GOLD##{bold}#금지된 교단: 금지된 고서에 책 효과 사용#WHITE##{normal}#", "_t")
+t("Use the book-like display for Forbidden Tomes. This option requires both framebuffers and shaders to be active in the video options.#WHITE#", "금단의 고서에 실제 책 같은 그래픽을 적용합니다. 비디오 옵션에서 프레임 버퍼와 셰이더 기능이 활성화된 상태여야 합니다.#WHITE#", "_t")
+t("#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{normal}#", "#GOLD##{bold}#금단의 교단: 금단의 고서에 책 효과 사용#WHITE##{normal}#", "_t")
 t("enabled", "켜짐", "_t")
 t("disabled", "꺼짐", "_t")
 t("#CRIMSON#This was a very satisfying meal, 'you' feel strengthened. (+1 generic talent point)", "#CRIMSON#굉장히 만족스러운 식사였다. '당신' 은 강해진 느낌이 들었다. (일반 기술 점수 +1점)", "log")
@@ -4890,7 +4890,7 @@ t("Ah I see, you are a ...thing... of special tastes. Very well, I'd rather have
 t("[eat the merchant]", "[상인을 먹는다]", "_t")
 t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Fillarel]#LAST# No I have not...", "#CRIMSON#[기생생물은 배가 고파서 곧장 필라렐을 집어삼켜 먹었다]#LAST# 널 구한 게 아니다...", "_t")
 t("#CRIMSON#[The parasite is hungry and promptly swallows and eat the yeek wayist]#LAST# I 'saved' you to get a nice meal...", "#CRIMSON#[기생생물은 배가 고파서 곧장 이크 한길의 일원을 집어삼켜 먹었다]#LAST# 맛있게 먹으려고...", "_t")
-t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금지된 고서로 들어갈 수 없다!#LAST#", "log")
+t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금단의 고서로 들어갈 수 없다!#LAST#", "log")
 t("The protagonist of the story is dead.", "이야기의 주인공이 죽었습니다.", "_t")
 t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s 무너지기 시작한다, 한 번 나가면 완전히 사라질 것이다!", "log", nil, {"가"})
 t("%s of the Blightspawn", "황폐의 %s", "tformat")
@@ -4968,8 +4968,8 @@ t("The gizmocombobulator of the font seems to have failed, you have not been bil
 ------------------------------------------------
 section "tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
 
-t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#아직 금지된 고서로 들어갈 수 없다!#LAST#", "log")
-t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금지된 고서로 들어갈 수 없다!#LAST#", "log")
+t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#아직 금단의 고서로 들어갈 수 없다!#LAST#", "log")
+t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금단의 고서로 들어갈 수 없다!#LAST#", "log")
 t("You feel this book is extremely dangerous for you. Proceed?", "이 책은 엄청나게 위험한 것 같습니다. 계속합니까?", "_t")
 t("Cancel", "취소", "_t")
 t("Read Tome", "고서를 읽는다", "_t")
@@ -5035,13 +5035,13 @@ Please, go there at once, free them and show the necromancers filth the True Wra
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/Birther.lua"
 
-t("Welcome to #CRIMSON#Forbidden Cults", "어서 오십시오, #CRIMSON#금지된 교단에", "_t")
+t("Welcome to #CRIMSON#Forbidden Cults", "어서 오십시오, #CRIMSON#금단의 교단에", "_t")
 t([[Thank you for purchasing #CRIMSON#Forbidden Cults#WHITE#, the third expansion pack of Tales of Maj'Eyal.
 
 To begin your adventures as a half horror simply create a character with the class #LIGHT_GREEN#Writhing One#WHITE# (in the Demented category).
 
 Have fun lashing your tentacle at your foes!
-]], [[테일즈 오브 마즈'에이알의 세 번째 확장팩인 #CRIMSON#금지된 교단#WHITE#을 구입해 주셔서 감사합니다.
+]], [[테일즈 오브 마즈'에이알의 세 번째 확장팩인 #CRIMSON#금단의 교단#WHITE#을 구입해 주셔서 감사합니다.
 
 반쯤은 공포인 자로 모험을 시작하시려면 그냥 #LIGHT_GREEN#뒤틀린 자#WHITE# (광인 계열) 직업의 캐릭터를 만드세요.
 
