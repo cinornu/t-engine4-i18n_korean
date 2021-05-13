@@ -414,8 +414,8 @@ t([[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
 #LIGHT_UMBER#Sick of your own head:#WHITE#  Replace it with a nice cozy horror!
 #LIGHT_UMBER#A ton#WHITE# of artifacts, lore, events... 
 
-]], [[#{bold}##GOLD#금지된 교단 - 확장팩#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#모든 모험가들이 부를 쫓는 것은 아니며, 세상을 지키는 모든 이들이 선행을 염두에 두고 있는 것도 아니다. 최근들어 공포의 목격 건수가 엄청나게 늘어나고 있습니다. 길에서 벗어난 이들이 몇 년 후에 공포스럽게 변이되고, 부분적으로 미쳐 있는 상태로 발견됩니다. 마즈'에이알 밑 깊은곳에서 뭔가가 준동하고 있음이 명백해지고 있습니다. 그게 바로 당신입니다.#{normal}##LAST#
+]], [[#{bold}##GOLD#금단의 교단 - 확장팩#LAST##{normal}#
+#{italic}##ANTIQUE_WHITE#모험가들이라고 모두 행운을 찾고 있는 건 아니고, 세상을 지키고 있다고 모두 선행을 염두에 두고 있는 것도 아닙니다. 최근에 공포체들을 목격하는 빈도가 엄청하게 증가했습니다. 익숙한 길에서 벗어나버린 사람들은 몇 년 뒤에야 발견될 것이고, 그들은 무시무시하게 변이되어 있고, 또 약간 미친 상태일 겁니다. 물론 발견이 된다면 말이지요. 마즈'에이알 지하 깊은 곳에 무언가가 있다는 게 확실해지고 있습니다. 그 무언가가 바로 당신입니다.#{normal}##LAST#
 
 #{bold}#특징#{normal}#:
 #LIGHT_UMBER#새로운 직업:#WHITE# 뒤틀린 자. 타락한 힘에 무릎 꿇은 이들로, 스스로를 서서히 공포로 변화시키고, 자신의 뜻에 따라 공포들을 소환 합니다. 피부를 벗어버리고, 얼굴을 녹여내 적들을 공격합니다. 이미 촉수로 변한 팔을 갖고 있는데, 어떤 이가 당신을 막을 수 있을까요?
