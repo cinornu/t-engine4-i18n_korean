@@ -106,7 +106,7 @@ t("Special", "특별", "birth facial category")
 t("Krog", "크로그", "birth descriptor name")
 t("Once an abomination, now a weapon.", "한때는 흉물에 지나지 않았지만, 지금은 무기이니.", "_t")
 t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "크로그는 한때 오우거였으나, 그 천성이 근본적으로 달라져 버렸습니다. 지구랏 추종자들은 오우거들에게서 룬을 빼앗고, 자연의 주입물과 용의 피의 혼합물을 사용하여 그들을 죽음에서 구하는 데에 성공했습니다. 크로그는 반마법에 완전히 헌신적이며, 그 외의 것들은 그렇게 중요하게 여기지 않습니다.", "_t")
-t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "크로그는 적들에게 기절/혼절을 유발하는 #GOLD#야생의 분노#WHITE# 기술을 갖고 있습니다.", "_t")
+t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "크로그는 적들에게 기절/혼절을 유발하는 #GOLD#자연의 진노#WHITE# 기술을 갖고 있습니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, -1 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * -2 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 마법, +2 의지, +0 교활", "_t")
@@ -835,7 +835,7 @@ t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]
 t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 꿈틀대는 촉수 덩어리는 마석을 감염시켜, 자연물과 비자연물의 기묘한 융합을 이루고 있습니다. 한때 깨끗했던 보석은 이제 채찍 같은 촉수가 달린 검은 흑요석 조각에 더 가까워 보입니다. 이 공포체가 자연 그 자체와 융합할 수 있다고는 생각하고 싶지 않습니다.", "_t")
-t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 폭발을 대상에게 시전합니다", "_t")
+t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 분출을 대상에게 시전합니다", "_t")
 -- new text
 --[==[
 t("%s: \"%s\"", "%s: \"%s\"", "tformat")
@@ -3105,7 +3105,7 @@ t([[Your Nihil unravels the existence of the target, tearing them apart with ent
 		Currently existing debuffs, Spellshocked, and Seen by Arcane Eye will not count towards this total.  Refreshing the same debuff is counted.
 		The Herald will have a bonus to all attributes equal to your Magic.  Many other stats will scale with level.
 		Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[허무가 대상의 존재를 해체하여, 엔트로피를 통해 갈가리 찢습니다.
-		허무의 효과가 사라지기 전까지 대상에게 부정적인 마법 효과가 6가지 적용되면, 소멸의 전령이 소환되어 %d 턴 동안 시전자의 편에서 싸웁니다.
+		허무의 효과가 사라지기 전까지 대상에게 부정적인 마법 효과가 6개 적용되면, 소멸의 전령이 소환되어 %d 턴 동안 시전자의 편에서 싸웁니다.
 		허무가 적용되기 이전에 걸어 둔 부정적 효과, 주문 충격, '비전의 눈: 보임' 은 상술한 6가지에 인정되지 않습니다. 단, 이전에 걸어 둔 부정적 효과를 한 번 더 적용하여 갱신하는 것은 인정됩니다.
 		시전자의 마법 능력치와 같은 수치가 전령의 모든 능력치에 더해집니다. 그 외의 능력치들은 레벨에 따라 증가합니다.
 		시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 전령에게 적용됩니다.]], "tformat")
@@ -3132,26 +3132,26 @@ t("Carrion Feet", "썩어가는 발", "talent name")
 t([[Your feet start to continuously produce carrion worms that are constantly crushed as you walk, passively increasing movement speed by %d%%.
 		You can also activate this talent to instantly destroy more worms, letting you jump in range %d to visible terrain.
 		Upon landing you crush more worms, creating a radius 2 cone of gore; any creatures caught inside deals 70%% less damage for one turn.
-		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], [[걸을 때마다, 발에서 자라는 지렁이들을 밟아 이동 속도가 %d%% 증가합니다.
-		이 기술을 사용하면 즉시 더 많은 지렁이들을 밟아 으깨, %d 칸 내의 시야에 보이는 곳을 향해 도약할 수 있습니다.
-		착지 할 때에도 지렁이를 으깨어, 반경 2 칸의 원뿔 범위 내에 피웅덩이를 만듭니다. 피웅덩이를 밟고 있는 모든 생물은 1 턴 동안 70%% 감소된 피해를 입힙니다.
-		하나 이상의 적이 피웅덩이의 영향을 받게 되면 광기 20 을 추가로 획득합니다.]], "tformat")
+		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], [[발에서 썩어가는 지렁이들이 끊임없이 생겨납니다. 걸을 때마다 이 지렁이들을 밟아 이동 속도가 %d%% 증가합니다.
+		이 기술을 사용하면 즉시 더 많은 지렁이들을 밟아 으깨, 시야 내 %d 칸 이내의 장소로 도약할 수 있습니다.
+		착지를 할 때에도 지렁이를 으깨어, 반경 2 칸의 원뿔 범위 내에 피웅덩이를 만듭니다. 피웅덩이를 밟고 있는 모든 생물은 1 턴 동안 70%% 감소된 피해를 입힙니다.
+		피웅덩이의 영향을 받은 적이 하나라도 있으면 광기를 추가로 20 획득합니다.]], "tformat")
 t("Horrific Evolution", "끔찍한 진화", "talent name")
 t([[Your mutations have enhanced your offense even farther.
 		You gain %d Accuracy and %d Spellpower.
 		The effects will increase with your Magic stat.]], [[변이를 통해 공격 능력을 더욱 향상시킵니다.
-		정확도 %d 와 주문력 %d 을 얻습니다.
-		이 효과는 마법에 비례하여 증가합니다.]], "tformat")
-t("Overgrowth", "과대성장", "talent name")
+		정확도를 %d , 주문력을 %d 얻습니다.
+		이 효과는 마법 능력치에 비례하여 증가합니다.]], "tformat")
+t("Overgrowth", "과성장", "talent name")
 t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		Your body grows much bigger, gaining 2 size categories, making you able to walk through walls and increasing all your damage by %d%% and all your resistances by %d%%.
-		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], [[%d 턴 동안 변이된 세포의 급류를 일으킵니다.
-		시전자의 신체가 거대하게 성장하여, 몸집 크기가 2 증가하고, 벽을 넘어 이동할 수 있게 됩니다. 시전자가 가하는 모든 피해량이 %d%% 증가하고, 모든 저항력이 %d%% 증가합니다.
-		거대화된 형체로 이동할 때마다 작은 지진을 일으켜 주위 지형을 파괴하거나 재배열합니다.]], "tformat")
+		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], [[%d 턴 동안 육체에 변이된 세포가 급증합니다.
+		시전자의 신체가 거대하게 성장하여 몸집 크기가 2 증가하고, 벽을 뚫고 이동할 수 있게 됩니다. 또한 시전자가 가하는 모든 피해량이 %d%% 증가하고 모든 저항력이 %d%% 증가합니다.
+		거대화한 상태로 이동할 때마다 작은 지진을 일으켜 주위 지형을 파괴하거나 재배열합니다.]], "tformat")
 t("Writhing One", "뒤틀린 자", "talent name")
 t([[At last you unlock the true power of your mutated body!
 		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[마침내 변이된 육체의 진정한 힘을 일깨웁니다!
-		기절 면역력 %d%% , 치명타 무시 확률 %d%% , 어둠과 황폐 피해량 %d%% 가 증가합니다.]], "tformat")
+		기절 면역력이 %d%% , 치명타 무시 확률이 %d%% , 어둠과 황폐 피해량이 %d%% 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/rift.lua"
@@ -3162,35 +3162,35 @@ t("%s (empowered)", "%s (강화됨)", "tformat")
 t([[The sheer power of your entropy tears holes through spacetime, opening this world to the void.
 On casting a Demented spell you have a 30%% chance of creating a void rift lasting %d turns in a nearby tile, which will launch void blasts each turn at a random enemy in range 7, dealing %0.2f darkness and %0.2f temporal damage.
 
-You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], [[엔트로피의 힘으로 시공간을 찢어 이 세계와 공허를 연결하는 구멍을 엽니다.
-광기 계통 주문을 시전 할 때마다, 30%% 확률로 %d 턴 동안 지속되는 공허의 틈을 인접한 칸애 생성합니다. 공허의 틈은 7 칸 범위 내의 무작위한 적에게 %0.2f 어둠 피해와 %0.2f 시간 피해를 입히는 공허 폭발을 발사합니다.
+You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], [[엔트로피의 힘으로 시공간을 찢어 공허로 통하는 구멍을 엽니다.
+광기 계통 주문을 시전할 때마다 30%% 확률로 %d 턴 동안 지속되는 공허의 틈을 인접한 칸에 생성합니다. 공허의 틈은 7 칸 범위 내의 무작위한 적에게 %0.2f 어둠 피해와 %0.2f 시간 피해를 입히는 공허 폭발을 발사합니다.
 
-이 기술을 사용함으로써, 강제로 시공간의 불안정성을 일으켜, %d 개의 공허의 틈을 주변에 생성합니다.]], "tformat")
+이 기술을 사용하면 강제로 시공간을 불안정하게 만들어, 주변에 %d 개의 공허의 틈을 생성합니다.]], "tformat")
 t("Quantum Tunnelling", "양자 터널링", "talent name")
-t("You do not have line of sight.", "시야 밖의 대상입니다.", "logPlayer")
-t("You must target a void rift.", "당신은 반드시 공허의 틈을 대상으로 설정해야 합니다.", "logPlayer")
+t("You do not have line of sight.", "시야 밖의 대상이다.", "logPlayer")
+t("You must target a void rift.", "공허의 틈을 대상으로 지정해야 한다.", "logPlayer")
 t("%s's space-time folding fizzles!", "%s의 시공간 접기가 실패했다!", "logSeen")
 t("%s emerges from a space-time rift!", "%s 시공의 틈에서 나타난다!", "logSeen", nil, {"가"})
 t([[You briefly open a tunnel through spacetime, teleporting to a void rift in range %d. This destroys the rift, granting you a shield for %d turns absorbing %d damage.
-		The damage absorbed will scale with your Spellpower]], [[당신은 시공간을 관통하는 터널을 짧은 시간 동안 열어 %d 반경 내의 공허의 틈으로 순간이동 합니다. 이 행위는 대상 공허의 틈을 파괴하고, %d 턴 동안 %d 의 피해를 흡수하는 보호막을 부여합니다.
+		The damage absorbed will scale with your Spellpower]], [[잠시 동안 시공간에 터널을 열어 반경 %d 칸 내의 공허의 틈으로 순간이동합니다. 순간이동 시 대상이 되었던 공허의 틈은 파괴되고, 시전자에게 %d 턴 동안 %d 의 피해를 흡수하는 보호막을 부여합니다.
 		보호막 수치는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Pierce the Veil", "장막 뚫기", "talent name")
 t("nether breach", "황천의 구멍", "_t")
 t("temporal vortex", "시간의 소용돌이", "_t")
 t("dimensional gateway", "차원 관문", "_t")
-t("void skitterer", "공허 미물", "_t")
-t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "뒤틀린 덩굴손으로 뒤덮한 괴이한 생명체로, 먹잇감을 향하여 빠르게 순간이동한다.", "_t")
+t("void skitterer", "공허 추격자", "_t")
+t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "꿈틀거리는 덩굴손으로 뒤덮인 괴이한 생명체입니다. 먹잇감들을 향해 빠르게 순간이동합니다.", "_t")
 t("Summon", "소환", "_t")
 t([[Pouring more energy into your rifts, you have a %d%% chance for each one to instead appear as a more powerful type.
 #PURPLE#Nether Breach:#LAST# Fires a beam dealing %0.2f darkness damage at a random target in radius 10.
 #PURPLE#Temporal Vortex:#LAST# Inflicts %0.2f temporal damage each turn to enemies in radius 4 and reduces their global speed by 30%%.
 #PURPLE#Dimensional Gate:#LAST# Has a 50%% chance each turn to summon a voidling lasting %d turns; a fast melee attacker that can teleport.
-The stats of your Void Skitterers will scale with your Magic stat and level.]], [[공허의 틈에 더 많은 에너지를 쏟아 붓습니다, %d%% 확률로 기존보다 더욱 강력한 틈을 열 수 있습니다.
+The stats of your Void Skitterers will scale with your Magic stat and level.]], [[공허의 틈에 더 많은 에너지를 쏟아 부어, %d%% 확률로 기존보다 더욱 강력한 틈을 열 수 있습니다.
 #PURPLE#황천의 구멍:#LAST# 반경 10 칸 이내의 무작위한 적에게 광선을 쏘아 %0.2f 어둠 피해를 입힙니다.
 #PURPLE#시간의 소용돌이:#LAST# 반경 4 칸 이내의 적에게 %0.2f 시간 피해를 턴마다 입히고, 전체 속도를 30%%만큼 감소시킵니다.
-#PURPLE#차원 관문:#LAST# 매 턴 50%% 확률로 %d 턴 동안 지속되는 공허 미물을 소환합니다. 공허 미물은 빠르게 공격하며 순간이동이 가능합니다.
-공허 미물의 능력치는 당신의 마법 능력치와 레벨에 비례하여 증가합니다.]], "tformat")
-t("Dimensional Skitter", "차원 ", "talent name")
+#PURPLE#차원 관문:#LAST# 매 턴 50%% 확률로 %d 턴 동안 지속되는 공허 추격자를 소환합니다. 공허 추격자는 순간이동을 할 수 있는 재빠른 근접 하수인입니다.
+공허 추격자의 능력치는 시전자의 마법 능력치와 레벨에 비례하여 증가합니다.]], "tformat")
+t("Dimensional Skitter", "차원 도약", "talent name")
 t("%s's Dimensional Skitter fizzles!", "%s의 차원 도약이 실패했다!", "logSeen")
 t("Teleport to a target within range 10 and strike them with your fangs dealing %d%% weapon damage.", "반경 10 칸 내의 적에게 순간이동합니다. 송곳니로 %d%% 무기 피해를 입힙니다.", "tformat")
 t("Zero Point Energy", "영점 에너지", "talent name")
@@ -3201,8 +3201,8 @@ t([[You draw power from the depths of the void causing your Reality Fracture to 
 #PURPLE#Dimensional Gate:#LAST# Voidling Skitterers will be frenzied, increasing their global speed by %d%%.]], [[공허의 심연에서 힘을 끌어모아 모든 종류의 현실 파열을 강화합니다.
 #GREY#공허의 틈:#LAST# %d%% 증가된 피해를 입히고 반경 1 칸의 폭발을 일으킵니다.
 #PURPLE#황천의 구멍:#LAST# %d%% 증가된 피해를 입히고, 인근의 세 대상에게 연쇄됩니다.
-#PURPLE#시간의 소용돌이:#LAST# %d%% 증가된 피해를 입히고, 반경이 1 칸 늘어납니다. 전체 속도 감소 효과가 50%% 로 증가됩니다.
-#PURPLE#차원 관문:#LAST# 공허 미물이 미쳐날뜁니다. 공허 미물의 전체 속도가 %d%% 증가합니다.]], "tformat")
+#PURPLE#시간의 소용돌이:#LAST# %d%% 증가된 피해를 입히고, 반경이 1 칸 늘어납니다. 전체 속도 감소 효과가 50%% 로 증가합니다.
+#PURPLE#차원 관문:#LAST# 공허 추격자가 미쳐 날뜁니다. 공허 추격자의 전체 속도가 %d%% 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/scourge-drake.lua"
@@ -3210,22 +3210,22 @@ section "tome-cults/data/talents/demented/scourge-drake.lua"
 t("Tentacled Wings", "촉수 날개", "talent name")
 t([[You project tentacles in a cone of radius %d in front of you.
 		Any foes caught inside are grappled by the tentacles and suffer %d%% weapon damage as blight, if the attack hits the creatures are also pulled towards you.]], [[촉수의 날개를 펼쳐 반경 %d 칸의 원뿔 범위의 적들을 공격합니다.
-		범위 내의 모든 적은 촉수에 의해 조여져, 무기 피해의 %d%% 를 황폐 속성으로 받습니다. 피격당한 모든 대상은 시전자에게 끌려옵니다.]], "tformat")
+		범위 내의 모든 적은 촉수에 조여져 무기 피해의 %d%% 를 황폐 속성으로 받습니다. 피격당한 모든 대상은 시전자에게로 끌려옵니다.]], "tformat")
 t("Decaying Grounds", "부패하는 대지", "talent name")
 t([[You blight a zone as a decaying ground for %d turns. All creatures inside take %0.2f blight damage per turn and have all their cooldowns increased by %d%% for 3 turns.
-		The damage will scale with the highest of your spell or mind power.]], [[대지를 황폐화 시켜 %d 턴 동안 썩어가게 만듭니다. 지역 내의 모든 적은 매 턴 %0.2f 황폐 피해를 입고, 3 턴 동안 재사용 대기시간이 %d%% 증가합니다.
+		The damage will scale with the highest of your spell or mind power.]], [[대지를 황폐화시켜 %d 턴 동안 썩어가게 만듭니다. 해당 지역 내의 모든 적들은 매 턴 %0.2f 황폐 피해를 입고, 3 턴 동안 재사용 대기시간이 %d%% 증가합니다.
 		피해량은 주문력이나 정신력 중 높은 값에 비례하여 증가합니다]], "tformat")
 t("Augment Despair", "깊어지는 절망", "talent name")
 t([[You target a single creature with all your hatred and insanity, augmenting its despair, increasing the duration of detrimental effects by %d turns and dealing %0.2f blight damage per detrimental effect (each effect deals 75%% of the previous one).
-		The damage will scale with the highest of your spell or mind power.]], [[하나의 대상을 증오와 광기의 희생양으로 삼아, 더욱 암울한 절망속으로 몰아넣습니다. 부정적인 효과의 지속시간을 %d 턴 연장하고, 부정적인 효과 하나 당 %0.2f 황폐 피해를 입힙니다 (2 번째 부정적인 효과부터 피해량이 75%% 씩 감소합니다).
+		The damage will scale with the highest of your spell or mind power.]], [[대상을 증오와 광기의 희생양으로 삼아, 더욱 암울한 절망 속으로 몰아넣습니다. 부정적인 효과의 지속시간을 %d 턴 연장하고 부정적인 효과 하나 당 %0.2f 황폐 피해를 입힙니다 (2 번째 부정적인 효과부터 피해량이 75%% 씩 감소합니다).
 		피해량은 주문력이나 정신력 중 높은 값에 비례하여 증가합니다.]], "tformat")
 t("Maggot Breath", "구더기 숨결", "talent name")
 t("@Source@ breathes a wave of maggots!", "@Source1@ 구더기를 뿜어냈다!", "_t")
 t([[You breathe a wave of dead maggots in a cone of radius %d. Any target caught in the area will take %0.2f blight damage and be infected with a crippling disease for 10 turns.
 		Crippling disease slows creatures by %d%% and deals %0.2f blight damage per turn.
 		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[반경 %d 칸의 원뿔 범위에 구더기를 내뿜습니다. 범위 내의 모든 대상은 %0.2f 황폐 피해를 받고, 10 턴 동안 불구성 질병에 감염됩니다.
-		불구성 질병은 전체 속도를 %d%% 낮추고, 매 턴  %0.2f 황폐 피해를 가합니다.
-		피해량은 마법에 비례하여 증가하고, 치명타 확률은 주문 치명타 확률을 따릅니다.]], "tformat")
+		불구성 질병은 전체 속도를 %d%% 낮추고, 매 턴 %0.2f 황폐 피해를 가합니다.
+		피해량은 마법 능력치에 비례하여 증가하고, 치명타 확률은 주문 치명타 확률을 따릅니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/slow-death.lua"
@@ -3233,37 +3233,37 @@ section "tome-cults/data/talents/demented/slow-death.lua"
 t("Digest", "삼키기", "talent name")
 t("%s has no usable talents.", "%s 사용가능한 기술이 없다.", "logPlayer", nil, {"는"})
 t("Painful Agony", "끔찍한 고통", "_t")
-t("Choose a talent to use:", "사용할 기슬을 고르세요:", "_t")
+t("Choose a talent to use:", "사용할 기술을 고르세요:", "_t")
 t([[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole.
 		While you digest it you gain %d insanity per turn.
 		The digestion lasts for 50 turns for an elite and 25 turns for others.
-		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], [[근접 공격을 가해 %d%% 무기 피해를 주고, 대상의 생명력이 %d%% 이하라면 대상을 꿀꺽 삼켜버립니다.
+		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], [[근접 공격을 가해 %d%% 무기 피해를 주고, 대상의 생명력이 %d%% 이하라면 대상을 낚아채 통째로 삼켜버립니다.
 		적을 소화시키는 동안 매 턴 %d 광기를 획득합니다.
-		정예 등급의 적을 삼킨 경우, 소화에 50 턴이 소모되고, 나머지 경우에는 25 턴이 걸립니다.
-		이 효과의 남아있는 지속 시간은 오직 전투 중에만 줄어듭니다. 또한 이 기술로 얻게되는 이익 역시 전투 중에만 적용됩니다.]], "tformat")
+		정예 등급의 적을 삼킨 경우 소화하는 데에 50 턴이 걸리고, 나머지 경우에는 25 턴이 걸립니다.
+		이 효과의 남아있는 지속 시간은 오직 전투 중에만 줄어듭니다. 또한 이 기술로 얻게 되는 이점 역시 전투 중에만 적용됩니다.]], "tformat")
 t("Painful Agony", "끔찍한 고통", "talent name")
 t([[The pain you inflict to the victim you are digesting is so intense something breaks inside it, giving you a way into its mind.
 		When you digest you can steal a random talent from your victim and can use it for yourself at talent level %d.
 		At talent level 5 you can choose which talent to use.
 		You may not steal a talent which you already know.
 		The stolen talent will not use any resources to activate.
-		]], [[적을 삼킨동안 적은 끔찍한 고통으로 정신이 붕괴되어, 머릿 속을 쉽게 들여다 볼 수 있게 됩니다.
-		적을 삼키면 대상이 가진 무작위 기술을 사용할 수 있게 됩니다. 이때, 해당 기술의 레벨은 %d 입니다.
-		끔찍한 고통의 레벨이 5 일 때, 어떤 기술을 빼앗을 지 선택할 수 있습니다.
+		]], [[뱃속의 적은 끔찍한 고통 때문에 정신이 붕괴되어, 그 머릿속을 손쉽게 들여다볼 수 있게 됩니다.
+		적을 삼키면 대상이 가진 기술을 무작위로 하나 빼앗아 사용할 수 있게 됩니다. 이때 해당 기술의 레벨은 %d 입니다.
+		끔찍한 고통의 레벨이 5 일 때, 어떤 기술을 빼앗을 것인지 선택할 수 있습니다.
 		이미 알고 있는 기술을 빼앗을 수는 없습니다.
-		빼앗은 기술을 사용할 때에는 어떠한 원천력도 필요하지 않습니다.
+		빼앗은 기술을 사용할 때에는 별도의 원천력이 필요하지 않습니다.
 		]], "tformat")
 t("Inner Tentacles", "내면의 촉수", "talent name")
 t([[Your stomatch grows small tentacles inside which probe and torment your digested victim even more.
 		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
-		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 삼켜진 적을 지켜보며 끔찍한 고문을 가합니다.
-		치명타 공격을 가하면, 촉수들이 적들이 느끼는 고통을 집어삼킬 수 있게 됩니다 
-		3 턴 동안 20%% 확률로 시전자가 가하는 피해량의 %d%% 가 생명력으로 흡수됩니다.]], "tformat")
+		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 뱃속의 적을 지켜보며 더욱 끔찍한 고통을 가합니다.
+		치명타 공격을 가하면 촉수들이 더 활발하게 움직이면서 적이 느끼는 고통을 시전자의 활력으로 바꾸어 줍니다.
+		이로 인해 3 턴 동안 20%% 확률로 시전자가 가하는 피해량의 %d%% 가 생명력으로 흡수됩니다.]], "tformat")
 t("Consume Whole", "소화", "talent name")
-t("You are not digesting a creature.", "당신은 적을 삼키고 있지 않습니다.", "logPlayer")
+t("You are not digesting a creature.", "당신은 적을 삼키고 있지 않다.", "logPlayer")
 t([[Instantly consume what remains of your victim, healing yourself for %d life and generating %d insanity.
 			Activating this will reset the cooldown of your Digest talent.
-		The life healed will increase with your Spellpower.]], [[즉시 삼킨 적을 소화시켜, 생명력 %d 과 광기 %d 를 회복합니다.
+		The life healed will increase with your Spellpower.]], [[삼킨 적을 즉시 소화시켜 생명력을 %d , 광기를 %d 회복합니다.
 			이 기술을 사용하면 삼키기의 재사용 대기시간이 초기화됩니다.
 		생명력 회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -3278,45 +3278,45 @@ t([[Your left hand mutates into a disgusting mass of tentacles.
 		You generate a low power psionic field around you when around #{italic}#'civilized people'#{normal}# that prevents them from seeing you for the horror you are.
 
 		Your tentacle hand currently has these stats%s:
-		%s]], [[왼팔이 역겨운 촉수들로 변이합니다.
-		보조무기를 장착하고 있지 않은 상태에서, 기본 공격 시 촉수가 자동적으로 대상과 대상의 양 옆의 적들을 공격합니다. **
-		또한, 물리력이 %d 중가하며, 촉수 공격 시 무기 피해량이 %d%% 증가합니다.
-		촉수를 이용하여 공격할 때마다 %d 광기를 생성합니다.
-		#{italic}#'문명화된 생명체'#{normal}#가 근처에 있으면 약한 초능력장을 생성하여 당신의 팔이 얼마나 끔찍하게 생겼는지 알 수 없게 만듭니다.
+		%s]], [[왼팔이 역겨운 촉수 덩어리로 변이합니다.
+		보조무기를 장착하고 있지 않은 상태에서 기본 공격을 가하면 촉수가 자동적으로 대상과 대상 주변의 적들을 공격합니다.
+		또한 물리력이 %d 증가하며, 촉수 공격 시 무기 피해량이 %d%% 증가합니다.
+		촉수를 이용하여 공격할 때마다 광기를 %d 얻습니다.
+		#{italic}#'문명인'#{normal}#이 근처에 있으면 미약한 초능력장을 생성하여 당신의 팔이 얼마나 끔찍하게 생겼는지 알아볼 수 없게 만듭니다.
 
-		당신의 촉수 팔의 능력치는 다음과 같습니다.%s:
+		촉수 팔의 능력치는 다음과 같습니다.%s:
 		%s]], "tformat")
-t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# 하지만 보조무기 칸이 비워져있지 않기 때문에 발동하지 않습니다.#WHITE#", "_t")
+t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# 하지만 현재 보조무기 칸이 비워져 있지 않기 때문에 발동하지 않습니다.#WHITE#", "_t")
 t("Lash Out", "채찍질", "talent name")
-t("You require an empty offhand to use your tentacle hand.", "촉수 손을 사용하기 위해서는 한 쪽 손을 비워야한다.", "logPlayer")
-t("You require a weapon and an empty offhand!", "주 무기와 맨손이 필요하다!", "logPlayer")
+t("You require an empty offhand to use your tentacle hand.", "촉수 팔을 사용하기 위해서는 보조무기 칸을 비워야 한다.", "logPlayer")
+t("You require a weapon and an empty offhand!", "주무기와 맨손이 필요하다!", "logPlayer")
 t([[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
 				
 				If the mainhand attack hits at least one enemy you gain %d insanity.
 				If the tentacle attack hits at least one enemy you gain %d insanity.
 		
-		#YELLOW_GREEN#When constricting:#WHITE# Your tentacle attack is centered around your constricted target (but not your weapon attack) and only in radius 1 but it also dazes anything hit for 5 turns.]], [[회전하여 주위 적을 주 무기로 가격해 %d%% 의 무기 피해를 주고, 촉수의 팔을 길게 늘려 주위 반경 3 칸 이내의 모든 적에게 %d%% 의 촉수 피해를 입힙니다.
+		#YELLOW_GREEN#When constricting:#WHITE# Your tentacle attack is centered around your constricted target (but not your weapon attack) and only in radius 1 but it also dazes anything hit for 5 turns.]], [[회전하여 주변의 적을 주무기로 가격해 %d%% 의 무기 피해를 주고, 촉수 팔을 길게 늘려 주위 반경 3 칸 이내의 모든 적에게 %d%% 의 촉수 피해를 가합니다.
 				
-				주무기를 이용한 공격이 하나 이상의 적에게 명중하면 %d 광기를 획득합니다.
-				촉수를 이용한 공격이 하나 이상의 적에게 명중하면 %d 광기를 획득합니다.
+				주무기를 이용한 공격이 한 명에게라도 명중하면 광기를 %d 획득합니다.
+				촉수를 이용한 공격이 한 명에게라도 명중하면 광기를 %d 획득합니다.
 		
-		#YELLOW_GREEN#촉수 조이기 도중:#WHITE# 조이기의 대상이 된 적을 기준으로, 반경 1 칸에 채찍질의 촉수 공격이 일어납니다 (따라서 주 무기 공격은 가하지 않습니다) 또한 피격당한 모든 적은 5 턴 동안 혼절합니다.]], "tformat")
-t("Tendrils Eruption", "촉수 폭발", "talent name")
-t("%s resists the slimy tendril!", "%s 미끌미끌한 촉수에 저항합니다!", "logSeen", nil, {"는"})
+		#YELLOW_GREEN#촉수 조이기 도중:#WHITE# 조이기의 대상이 된 적을 기준으로, 반경 1 칸에 채찍질의 촉수 공격이 일어납니다 (따라서 주무기 공격은 가하지 않습니다). 또한 피격당한 모든 적은 5 턴 동안 혼절합니다.]], "tformat")
+t("Tendrils Eruption", "촉수 분출", "talent name")
+t("%s resists the slimy tendril!", "%s 미끌미끌한 촉수에 저항한다!", "logSeen", nil, {"는"})
 t([[You plant your tentacle hand in the ground where it splits up and extends to a target zone of radius %d.
 		The zone will erupt with many black tendrils to hit all foes caught inside dealing %d%% tentacle damage.
 		Any creature hit by the tentacle must save against spell or be numbed by the attack, reducing its damage by %d%% for 5 turns.
 
 		If at least one enemy is hit you gain %d insanity.
 
-		#YELLOW_GREEN#When constricting:#WHITE#The tendrils pummel your constricted target for %d%% tentacle damage and if adjacent you make an additional mainhand weapon attack.  Talent cooldown reduced to 10.]], [[당신의 촉수 팔을 바닥에 심습니다. 촉수는 무수하게 분열하여 반경 %d 내의 적에게 %d%% 의 촉수 피해를 입힙니다.
+		#YELLOW_GREEN#When constricting:#WHITE#The tendrils pummel your constricted target for %d%% tentacle damage and if adjacent you make an additional mainhand weapon attack.  Talent cooldown reduced to 10.]], [[촉수 팔을 바닥에 심습니다. 촉수는 무수히 분열하고 늘어나 반경 %d 내의 적들에게 %d%% 의 촉수 피해를 입힙니다.
 		촉수에 맞은 모든 대상은 주문 내성 판정에 실패할 경우, 5 턴 동안 %d%% 감소된 피해를 입힙니다.
 
-		공격이 하나 이상의 적에게 명중하면 %d 의 광기를 획득합니다.
+		공격이 한 명에게라도 명중하면 광기를 %d 획득합니다.
 
-		#YELLOW_GREEN#촉수 조이기 도중:#WHITE#덩굴손이 대상을 연이어 후려쳐 %d%% 피해를 주고, 적이 시전자와 근접한 경우 추가적인 주 무기 공격을 가합니다. 기술의 재사용 대기시간이 10 턴 단축됩니다.]], "tformat")
+		#YELLOW_GREEN#촉수 조이기 도중:#WHITE#덩굴손이 조이기의 대상을 연이어 후려쳐 %d%% 피해를 주고, 적이 시전자와 인접한 경우 주무기 공격을 추가로 가합니다. 이 기술의 재사용 대기시간이 10 턴 단축됩니다.]], "tformat")
 t("Constrict", "조이기", "talent name")
-t("You require a mutated hand!", "당신은 변이된 손이 필요하다!", "logPlayer")
+t("You require a mutated hand!", "변이된 팔이 필요하다!", "logPlayer")
 t("%s's tentacle fails to move %s!", "%s의 촉수가 %s 끌어오는데 실패했다!", "tformat", nil, {[2]="을"})
 t("Your constrict target has disappeared!", "촉수로 조이고 있던 대상이 사라졌다!", "logPlayer")
 t("This target can not be moved!", "이 대상을 움직이게 할 수는 없다!", "logPlayer")
@@ -3324,35 +3324,35 @@ t([[You extend your tentacle to grab a distant target, pulling it to you.
 		As long as Constrict stays active the target is bound by your tentacle, it can try to move away but each turn you pull it back in 1 tile.
 		While constricting you cannot use your tentacle to enhance your normal attacks but you deal %d%% tentacle damage each turn to your target.
 		Enemies can resist the attempt to pull them but Constrict will always work for purposes of modifying your talents.
-		Your other tentacle talents may act differently when used while constricting (check their descriptions).]], [[당신은 촉수를 길게 늘여뜨려 적을 잡아당깁니다.
-		조이기를 사용하는 동안 대상은 당신의 촉수에 묶여 있습니다. 대상은 촉수로부터 도망가려고 시도할 수 있으나, 매 턴 촉수를 향해 1 칸 씩 당겨집니다.
-		조이기를 사용하는 동안 촉수는 당신의 기본 공격을 강화시키지 않지만 매 턴 조이기를 당하고 있는 적에게 %d%% 의 촉수 피해를 입힙니다.
-		적들은 당기기 시도에 저항할 수 있습니다. 조이기는 촉수 계열 기술들의 효과를 변화시킵니다. 설명문을 자세히 읽어주세요. 
-		당신의 다른 촉수 기술은 조이기를 사용하는 동안에는 효과가 달라집니다. (각각의 기술의 설명 참고).]], "tformat")
+		Your other tentacle talents may act differently when used while constricting (check their descriptions).]], [[촉수를 길게 늘려 적을 하나 붙잡아 끌고 옵니다.
+		조이기가 활성화 상태인 동안 대상은 시전자에 촉수에 묶여 있습니다. 대상은 도망가려고 시도할 수는 있지만, 매 턴 시전자를 향해 1 칸 씩 당겨집니다.
+		적을 조이고 있는 동안 촉수는 시전자의 기본 공격을 강화시키지 않지만, 조이기를 당하고 있는 적에게 매 턴 %d%% 의 촉수 피해를 입힙니다.
+		적들은 당기기 시도에 저항할 수 있습니다. 그렇다 하더라도 조이기는 여전히 촉수 계열 기술들의 효과를 변화시킵니다. 
+		시전자의 다른 촉수 계열 기술들은 조이기를 사용하는 동안에는 효과가 달라집니다 (각 기술들의 설명 참고).]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/timethief.lua"
 
 t("Accelerate", "가속", "talent name")
 t("Switch", "전환", "talent name")
-t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "엔트로피의 쇄도를 풀어놓아 타인의 에너지를 흡수하고, 당신의 부정적인 효과를 정화합니다. 반경 10칸 이내의 모든 적이 가진 %d 개의 이로운 효과의 지속시간을 %d 턴 단축시키고, 당신이 가진 같은 수의 부정적인 효과의 지속시간도 같은 수치로 단측합니다.", "tformat")
+t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "엔트로피의 쇄도를 해방하여 타인의 에너지를 흡수하고, 시전자의 부정적인 효과들을 정화합니다. 반경 10칸 이내의 모든 적이 가진 이로운 효과 %d 개의 지속시간을 %d 턴 단축시키고, 시전자가 가진 같은 수의 부정적인 효과의 지속시간도 똑같이 단축합니다.", "tformat")
 t("Suspend", "유보", "talent name")
 t([[You freeze yourself in time for %d turns, preventing you from taking any action but preventing any damage taken.
-				Negative effects and cooldowns will decrease in duration, while beneficial effects will remain at their current duration.]], [[스스로를 %d 턴 동안 시간의 흐름 안에 동결시킵니다. 어떤 행위도 블가능하나 어떤 피해도 입지 않습니다.
-				부정적인 효과와 재사용 대기시간은 지속 시간 동안 계속 줄어들지만 이로운 효과의 지속시간은 고정됩니다.]], "tformat")
+				Negative effects and cooldowns will decrease in duration, while beneficial effects will remain at their current duration.]], [[스스로를 %d 턴 동안 시간의 흐름 속에 동결시킵니다. 지속시간 동안 어떤 행동도 할 수 없지만 어떤 피해도 입지 않습니다.
+				부정적인 효과와 재사용 대기시간은 지속시간 동안 계속 줄어들지만 이로운 효과의 지속시간은 고정됩니다.]], "tformat")
 t("Split", "분열", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("You can't clone summons!", "소환물을 대상으로 할 수 없습니다!", "logPlayer")
-t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#%s의 시간 분신#LAST#", "tformat")
-t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "대상과 흡사한 뒤틀린 상으로, 모든 가능성이 존재하는 미래의 너울거리는 흐릿한 형체를 갖고 있다.", "_t")
+t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "대상과 흡사한 뒤틀린 상으로, 가능한 모든 미래의 모습을 담은 채로 흐릿하게 깜박거리고 있습니다.", "_t")
 t("Summon", "소환", "_t")
 t([[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
 While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[적 하나를 지정하여 %d 턴 동안 시간의 흐름에서 부분적으로 지우고, 이 세계와의 상호작용을 방해합니다. 대상이 받는 모든 피해량은 %d%% 로 감소하고, 대상이 가하는 모든 피해량도 %d%% 로 감소합니다.
 활성화 시, 찢겨진 대상의 시간선을 시간 분신으로 다시 자아내어 시전자의 편에서 싸우게 합니다. 분신의 유지시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 생명력은 %d%% 더 적으며 가하는 피해량은 원본의 %d%% 입니다.]], "tformat")
 t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
 You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어, 반경 %d 칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
+Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어 반경 %d 칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
 시전자는 적에게서 흡수한 시간을 이용하여 1 턴 동안 믿을 수 없는 속도로 움직입니다. 시전자의 이동 속도가 %d%% 만큼 증가하고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다 (최대 4체까지).
 이동을 제외한 모든 행위는 이 효과를 즉시 중단시킵니다.]], "tformat")
 
@@ -3360,40 +3360,40 @@ Any actions other than movement will cancel the effect.]], [[주변의 시공간
 section "tome-cults/data/talents/demented/void.lua"
 
 t("Void Stars", "공허의 별", "talent name")
-t("You must be wearing light armor for this talent.", "이 기술을 사용하가 위해서는 가벼운 방어구를 착용해야 합니다.", "logPlayer")
+t("You must be wearing light armor for this talent.", "이 기술을 사용하가 위해서는 가벼운 방어구를 착용해야 한다.", "logPlayer")
 t("A void star appears around %s.", "%s 주변에 공허의 별이 나타났다.", "logSeen")
 t("#FIREBRICK##Target#'s void star absorbs the damage from #Source#, converting it into entropy!#LAST#", "#FIREBRICK##Target#의 공허의 별이 #Source#의 피해를 흡수하고 엔트로피로 환원했다!#LAST#", "logCombat")
 t("%s(%d to entropy)", "%s(%d 엔트로피 흡수)", "tformat")
 t([[Conjure void stars that orbit you, defending you from incoming attacks. Each time an attack deals more than 10%% of your maximum life, a star will be consumed to reduce the damage taken by %d%%, of which 40%% will be dealt to you as entropic backlash.
 		You regenerate 1 star every %d turns, stacking up to 4 times.
-		This talent will only function in light armor.]], [[주위를 떠다니는 공허의 별을 불러내어, 다가올 공격에서 스스로를 방어합니다. 한 번의 공격으로 10%% 이상의 생명력을 잃을 때, 해당 피해를 %d%% 낮추고 별 하나를 소모합니다. 감소된 피해의 40%%는 엔트로피 반발로 전환될 것입니다.
-		%d 턴마다 공허의 별을 하나 씩 얻습니다. 별은 최대 4 개 소유 할 수 있습니다.
+		This talent will only function in light armor.]], [[주위를 떠다니는 공허의 별을 불러내어 공격으로부터 스스로를 방어합니다. 한 번의 공격으로 10%% 이상의 생명력을 잃게 되면 별 하나를 소모하여 해당 피해를 %d%% 낮춥니다. 감소된 피해의 40%%는 엔트로피 반발로 전환됩니다.
+		%d 턴마다 공허의 별을 하나씩 얻습니다. 별은 최대 4 개까지 보유할 수 있습니다.
 		이 기술은 오직 경갑 착용 상태애서만 작동합니다.]], "tformat")
-t("Nullmail", "무존재의 갑옷", "talent name")
+t("Nullmail", "허무의 갑옷", "talent name")
 t([[Reinforce your armor with countless tiny void stars, increasing armor by %d.
-Each time your void stars are fully depleted, you gain a shield absorbing the next %d damage taken within %d turns. This shield cannot trigger again until your void stars are fully restored.]], [[방어구를 셀 수 없이 많은 조그마한 공허의 별로 강화해, 방어력을 %d 향상시킵니다.
-공허의 별을 모두 써버릴 때마다, %d 의 피해를 %d 턴 동안 흡수하는 보호막을 생성합니다. 이 효과는 공허의 별을 다시 모두 충전하기 전까지 다시 작동하지 않습니다.]], "tformat")
+Each time your void stars are fully depleted, you gain a shield absorbing the next %d damage taken within %d turns. This shield cannot trigger again until your void stars are fully restored.]], [[방어구를 셀 수 없이 많은 조그마한 공허의 별로 강화하여, 방어력을 %d 향상시킵니다.
+공허의 별을 모두 써버릴 때마다 %d 의 피해를 %d 턴 동안 흡수하는 보호막을 생성합니다. 이 효과는 공허의 별을 모두 충전하기 전까지는 다시 발동하지 않습니다.]], "tformat")
 t("Black Monolith", "검은 거석", "talent name")
-t("You must have at least 1 void star to summon a monolith.", "거석을 일으키려면 적어도 하나의 공허의 별이 필요합니다.", "logPlayer")
-t("Not enough space to summon your monolith!", "거석을 일으킬만한 장소가 없다!", "logPlayer")
+t("You must have at least 1 void star to summon a monolith.", "거석을 일으키려면 공허의 별이 적어도 하나 필요하다.", "logPlayer")
+t("Not enough space to summon your monolith!", "빈 공간이 없어서 거석을 일으킬 수 없다!", "logPlayer")
 t("void monolith", "공허의 거석", "_t")
-t("This bizarre oblong shape floats in the air, defying gravity. Its form seems to subtly shift, and you feel an intense desire to move towards it.", "이 괴상하고 길쭉한 돌덩이는 중력에 거스르려는 듯 허공에 떠다니고 있다. 그 형태는 눈에 띄지는 않지만 시시각각 변하고 있다. 당신은 그것에 다가가려는 강한 충동을 느낀다.", "_t")
+t("This bizarre oblong shape floats in the air, defying gravity. Its form seems to subtly shift, and you feel an intense desire to move towards it.", "이 괴상하고 길쭉한 돌덩이는 중력에 거스르며 허공에 떠다니고 있습니다. 그 형태는 미묘하게 변하고 있고, 근처로 다가가고 싶다는 강렬한 충동을 느낍니다.", "_t")
 t("Summon", "소환", "_t")
 t([[Consuming a void star, you use it to summon a void monolith at the targeted location for %d turns. The monolith is very durable, and while immobile it will attempt to daze enemies within radius %d for 2 turns every half a turn using your spellpower.
-			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], [[공허의 별을 하나 소모하여, 대상 위치에 %d 턴 동안 지속되는 공허 거석을 불러 일으킵니다. 거석은 매우 단단하며 움직일 수 없고, 반경 %d 내의 적에게 매 0.5 턴마다 혼절을 일으킵니다. 적의 혼절 내성 판정에 당신의 주문력을 사용합니다.
-			거석은 당신의 마법 능력치에 따라 레벨 당 생명력 증가량이 %d 증가하고, 모든 피해 저항을 %d%% 얻습니다.]], "tformat")
+			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], [[공허의 별을 하나 소모하여, 대상 위치에 %d 턴 동안 지속되는 공허의 거석을 불러 일으킵니다. 거석은 매우 단단하며 움직일 수 없고, 매 0.5 턴마다 반경 %d 내의 적에게 2 턴 동안 지속되는 혼절을 일으킵니다. 적의 혼절 내성 판정에는 시전자의 주문력을 사용합니다.
+			거석은 마법 능력치에 따라 레벨 당 생명력 증가량이 %d 증가하고, 모든 피해 저항을 %d%% 얻습니다.]], "tformat")
 t("Essence Reave", "정수 찢기", "talent name")
 t("%s rends the essence of %s, restoring %d void shards!", "%s %s의 정수를 찢어발겨, %d 개의 공허의 별로 전환했다!", "logSeen", nil, {"가"})
 t([[You rend the very essence of the target, drawing on their life and converting it to void stars. The target takes %0.2f darkness and %0.2f temporal damage, and you gain %d void star(s).
-		The damage will increase with your Spellpower.]], [[당신은 대상의 정수를 찢어 발김으로써, 그 생명력을 공허의 별로 변환합니다. 대상은 %0.2f 어둠 피해와 %0.2f 시간 피해를 입고, 시전자는 %d 개의 공허의 별을 얻습니다.
+		The damage will increase with your Spellpower.]], [[대상의 정수를 찢어발기고 그 생명력을 공허의 별로 변환합니다. 대상은 %0.2f 어둠 피해와 %0.2f 시간 피해를 입고, 시전자는 공허의 별을 %d 개 얻습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/writhing-body.lua"
 
-t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# 하지만 보조무기 칸이 비워져있지 않기 때문에 발동하지 않습니다.#WHITE#", "_t")
-t("You require an empty offhand to use your tentacle hand.", "촉수 손을 사용하기 위해서는 한 쪽 손을 비워야한다.", "logPlayer")
-t("You require a weapon and an empty offhand!", "주 무기와 맨손이 필요하다!", "logPlayer")
+t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# 하지만 현재 보조무기 칸이 비워져 있지 않기 때문에 발동하지 않습니다.#WHITE#", "_t")
+t("You require an empty offhand to use your tentacle hand.", "촉수 팔을 사용하기 위해서는 한 쪽 손을 비워야 한다.", "logPlayer")
+t("You require a weapon and an empty offhand!", "주무기와 맨손이 필요하다!", "logPlayer")
 t("The diseases of %s spread!", "%s의 질병이 확산된다!", "logSeen")
 t("%s resists the disease!", "%s 질병에 저항했다!", "logSeen", nil, {"는"})
 t([[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
@@ -3434,7 +3434,7 @@ section "tome-cults/data/talents/misc/misc.lua"
 
 t("glass golem", "유리 골렘", "_t")
 t("Self-destruction", "자폭", "talent name")
-t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "자폭해 영광스러운 피와 뼈의 대폭발을 일으킵니다. %0.2f 황폐 피해를 반경 %d 칸 안의 모든 적에게 가합니다. 이 기술을 사용하기 위해서, 시전자의 소환자는 반드시 사망상태이여야 합니다.", "tformat")
+t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "자폭해 영광스러운 피와 뼈의 대폭발을 일으킵니다. %0.2f 황폐 피해를 반경 %d 칸 안의 모든 적에게 가합니다. 이 기술을 사용하려면 시전자의 소환자가 반드시 죽어 있어야 합니다.", "tformat")
 t("Teleport: Kroshkkur", "순간이동: 크로슈쿠르", "talent name")
 t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#크로슈쿠르는 파괴되었다. 그곳으로 순간이동할 필요도, 할 수도 없다.", "logPlayer")
 t("The spell fizzles...", "주문이 실패했다...", "logPlayer")
@@ -3442,32 +3442,32 @@ t("There are creatures that could be watching you; you cannot take the risk.", "
 t([[Allows to teleport to Kroshkkur.
 	You have studied the forbidden secrets there and have been granted a special portal spell to teleport back.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
-	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], [[크로슈쿠르로 순간이동 합니다.
+	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], [[크로슈쿠르로 순간이동합니다.
 	당신은 그곳에서 금단의 비밀에 대해 배웠고, 따라서 그곳으로 가는 특수한 차원문을 여는 법을 익혔습니다.
-	그 누구도 이 주문의 존재에 대해 알아서는 안되며, 무지한 자들이 보고 있는 동안에는 사용이 불가능합니다.
-	마법 발동에는 시간이 약간 필요하며, (40 턴) 그 시간 동안 당신은 누군가의 시야 내에 들어가서는 안됩니다.]], "_t")
+	그 누구도 이 주문의 존재에 대해 알아서는 안 되며, 따라서 무지한 자들이 보고 있는 동안에는 사용이 불가능합니다.
+	발동에는 시간이 약간 필요하며 (40 턴), 이 주문을 시전할 때, 그리고 실제로 순간이동을 할 때 누군가의 시야 내에 있어서는 안 됩니다.]], "_t")
 t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t("%s is pulled in!", "%s 끌려갔다!", "logSeen", nil, {"는"})
-t("Pull all foes within radius 10 2 grids towards you.", "당신을 기준으로 10 칸 내의 모든 적을 2 칸 끌어옵니다.", "_t")
-t("Crumble", "무너짐", "talent name")
+t("Pull all foes within radius 10 2 grids towards you.", "시전자를 기준으로 10 칸 내의 모든 적을 2 칸 끌어옵니다.", "_t")
+t("Crumble", "파쇄", "talent name")
 t([[Fire a blast of darkness at an enemy dealing %0.2f damage and destroying any walls in radius 3 around them.
 		The damage will increase with your Spellpower.]], [[어둠의 화살을 날려 %0.2f 피해를 주고, 대상 주변 반경 3 칸 내의 모든 벽을 파괴합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blightlash", "황폐의 채찍질", "talent name")
-t("You require an empty offhand to use your tentacle hand.", "촉수 손을 사용하기 위해서는 한 쪽 손을 비워야한다.", "logPlayer")
-t("You require a weapon and an empty offhand!", "주 무기와 맨손이 필요하다!", "logPlayer")
-t("Lash an enemy within range 10 with your tentacle, dealing %d%% blight damage.", "반경 10 칸 내의 적을  촉수로 후려칩니다, %d%% 황폐 피해를 줍니다.", "tformat")
+t("You require an empty offhand to use your tentacle hand.", "촉수 팔을 사용하기 위해서는 한 쪽 손을 비워야 한다.", "logPlayer")
+t("You require a weapon and an empty offhand!", "주무기와 맨손이 필요하다!", "logPlayer")
+t("Lash an enemy within range 10 with your tentacle, dealing %d%% blight damage.", "반경 10 칸 내의 적을 촉수로 후려쳐 %d%% 황폐 피해를 줍니다.", "tformat")
 t("Twisted Evolution", "뒤틀린 진화", "talent name")
 t([[Evolve %d allies within radius 10 in random ways for 5 turns.
 		#ORCHID#Speed:#LAST# Increases global speed by %d%%.
 		#ORCHID#Form:#LAST# Increases all stats by %d.
-		#ORCHID#Power:#LAST# Increases all damage by %d%%.]], [[반경 10 칸 내의 %d 체의 아군에게 무작위한 진화를 5 턴 동안 일으킵니다.
+		#ORCHID#Power:#LAST# Increases all damage by %d%%.]], [[반경 10 칸 내의 %d 체의 아군에게 5 턴 동안 무작위한 진화를 일으킵니다.
 		#ORCHID#속도:#LAST# 전체 속도가 %d%% 증가합니다.
 		#ORCHID#기능:#LAST# 모든 능력치가 %d 증가합니다.
 		#ORCHID#힘:#LAST# 가하는 모든 피해가 %d%% 증가합니다.]], "tformat")
 t("golem", "골렘", "talent category")
 t("glass", "유리", "talent type")
-t("Glass Golem basic capacity.", "유리 골렘 기본 능력.", "_t")
+t("Glass Golem basic capacity.", "유리 골렘의 기본 능력.", "_t")
 t("Glass Splinters", "유리 파편", "talent name")
 t("%s resists the splinters!", "%s 파편에 저항했다!", "logSeen", nil, {"는"})
 t([[Smash your target with a splintering glass attack doing %d%% arcane weapon damage.
@@ -3475,19 +3475,19 @@ t([[Smash your target with a splintering glass attack doing %d%% arcane weapon d
 		Each turn the target will bleed for 8%% of the attack damage. The splinters are very painful and if the target moves it will instantly take %d%% of the attack damage.
 		At level 5 the target suffers so much it has 15%% chances to fail using talents.]], [[유리 파편으로 적을 강타해 %d%% 무기 피해를 비전 속성으로 가합니다.
 		명중 시, 대상은 6 턴 동안 유리 파편이 몸에 박힙니다.
-		매 턴, 대상은 공격 피해의 8%% 를 출혈 효과로 받습니다. 파편은 매우 고통스러워, 대상이 이동할 시, %d%% 공격 피해를 받습니다.
-		기술 레벨이 5 일 때 대상은 고통으로 인해 15%% 확률로 기술 사용을 실패합니다.]], "tformat")
+		매 턴 대상은 공격 피해의 8%% 를 출혈 효과로 받습니다. 파편은 매우 고통스러워, 대상이 이동할 시 공격 피해의 %d%% 를 받습니다.
+		기술 레벨이 5 일 때, 대상은 고통으로 인해 15%% 확률로 기술 사용을 실패합니다.]], "tformat")
 t("Throw Pebble", "조약돌 던지기", "talent name")
 t("something", "무언가", "_t")
 t("#Source# expertly hurls a pebble at #target#!", "#Source2# #target3# 향해 조약돌을 집어던진다!", "logCombat")
 t([[Throw a pebble at your target, dealing %0.2f physical damage.
-		The damage will increase with your Strength.]], [[조약돌을 대상에게 던져, %0.2f 물리 피해를 입힙니다.
+		The damage will increase with your Strength.]], [[조약돌을 대상에게 던져 %0.2f 물리 피해를 입힙니다.
 		피해량은 힘에 비례하여 증가합니다.]], "tformat")
 t("Netherforce", "황천의 힘", "talent name")
 t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f temporal damage to the target and knocking them back 8 spaces.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
 		The damage will increase with your Spellpower.]], [[공허의 힘으로 적을 강타해 %0.2f 어둠 피해와 %0.2f 시간 피해를 대상에게 입히고, 8 칸 밀쳐냅니다.
-		이 주문의 강력함은 시전자에게 엔트로피 반발을 유발합니다. 8 턴에 걸쳐 %d 피해를 입습니다. 이 피해량은 엔트로피의 선물로 적에게 전달될 수 있습니다..
+		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용할 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 
@@ -3502,21 +3502,21 @@ t([[Enter a killing frenzy for 3 turns.
 		During the frenzy the first time you use a class talent it has no cooldown (but does if used twice).
 		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
 		]], [[3 턴 동안 살육의 광란에 진입합니다.
-		지속 기간 동안 첫번째로 사용한 직업 기술은 재사용 대기시간이 적용되지 않습니다. (같은 기술을 2 번 사용할 시 재사용 대기시간이 적용됩니다).
-		이 효과는 각인, 즉발성 기술, 지속 효과와 현재 고정된 재사용 대기시간을 가진 기술에는 적용되지 않습니다.
+		지속시간 동안 처음 사용한 직업 기술은 재사용 대기시간이 적용되지 않습니다 (즉, 같은 기술을 2 번 사용할 시 재사용 대기시간이 적용됩니다).
+		이 효과는 각인, 즉발성 기술, 지속형 기술, 재사용 대기시간이 고정된 기술에는 적용되지 않습니다.
 		]], "tformat")
 t("Spikeskin", "가시 피부", "talent name")
 t([[Your skin grows small spikes coated in dark blight.
 		When you are hit in melee the attacker starts bleeding black blood for 5 turns that deals %0.2f darkness damage each turn. This effect may only happen once per turn.
 		You are empowered by the sight of the black blood, for each bleeding creature in radius 2 you gain 5%% all resistances, limited to %d creatures.
-		The damage will scale with your Magic stat.]], [[어둠의 역병이 흘러내리는 조그만한 가시가 피부를 뒤덮습니다.
-		근접 공격에 피격 시, 공격자는 5 턴 동안 검은 피를 흘리기 시작해 매 턴 %0.2f 어둠 피해를 입습니다. 이 효과는 한 턴에 한 번 일어납니다.
-		적이 검은 피를 흘리면 시전자는 힘을 얻어, 반경 2 칸 내의 피를 흘리는 개체 하나 당, 모든 저항을 5%% 얻습니다. 이 효과는 %d 체의 적에게서만 발생합니다.
-		피해량은 마법에 비례하여 증가합니다.]], "tformat")
+		The damage will scale with your Magic stat.]], [[어둠의 역병이 흘러내리는 조그만 가시가 피부를 뒤덮습니다.
+		근접 공격에 맞게 되면, 공격자는 5 턴 동안 검은 피를 흘리기 시작해 매 턴 %0.2f 어둠 피해를 입습니다. 이 효과는 한 턴에 한 번 일어납니다.
+		적이 검은 피를 흘리면 시전자는 힘을 얻어, 반경 2 칸 내의 피를 흘리는 개체 하나 당 모든 저항을 5%% 얻습니다. 이 효과는 최대 %d 체의 적에게서 발생합니다.
+		피해량은 마법 능력치에 비례하여 증가합니다.]], "tformat")
 t("Faceless", "얼굴 없는 존재", "talent name")
 t([[Your faceless visage is puzzling and emotionless, allowing you to more easily resist mind tricks.
-		You gain %d mental save, %d%% confusion immunity.]], [[얼굴없는 안면은 매우 당혹스럽게 보이고, 감정이 느껴지질 않습니다. 따라서 정신적인 효과에 더 쉽게 저항할 수 있게 되었습니다.
-		정신 내성 %d , 혼란 면역력 %d%% 가 증가합니다.]], "tformat")
+		You gain %d mental save, %d%% confusion immunity.]], [[얼굴이 없는 안면은 매우 당혹스럽고, 감정이 느껴지질 않습니다. 따라서 정신적인 효과에 보다 쉽게 저항할 수 있게 되었습니다.
+		정신 내성이 %d , 혼란 면역력이 %d%% 증가합니다.]], "tformat")
 t("From Below It Devours", "깊은 곳에서 집어삼킨다", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("hungering mouth", "굶주린 주둥이", "_t")
@@ -3524,29 +3524,29 @@ t("\"From below, it devours.\"", "\"깊은 곳에서, 집어삼킨다.\"", "_t")
 t([[Your affinity with things that dwell deep beneath the surface allows you to summon a hungering mouth.
 		The mouth has %d bonus life, lasts for %d turns, and deals no damage.
 		Each turn the mouth will draw all enemies in radius 10 2 spaces towards itself.
-		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], [[지면 깊은 곳에 사는 존재들과의 친화력을 통해, 굶주린 주둥이를 소환할 수 있게 되었습니다.
-		주둥이는 %d 추가 생명력을 갖고, %d 턴 동안 지속되지만, 피해를 가하지는 않습니다.
+		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], [[땅속 깊은 곳에 사는 존재들과의 친화력을 통해, 굶주린 주둥이를 소환할 수 있게 되었습니다.
+		주둥이는 %d 추가 생명력을 갖고 %d 턴 동안 지속되지만, 피해를 가하지는 않습니다.
 		매 턴 주둥이는 반경 10 칸 내의 모든 적을 2 칸씩 끌어옵니다.
-		추가 생명력은 체격과 기술 레벨에 비례하여 증가합니다. 기타 능력치는 레벨에 비례하여 증가합니다.]], "tformat")
+		추가 생명력은 체격 능력치와 기술 레벨에 비례하여 증가합니다. 기타 능력치는 레벨에 비례하여 증가합니다.]], "tformat")
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
 드렘의 경우, 이 효과는 '깊은 곳에서 집어삼킨다' 로 굶주린 주둥이가 소환되어 있을 때 활성화됩니다.", "_t")
 t("krog", "크로그", "talent type")
-t("Wrath of the Wilds", "야생의 분노", "talent name")
+t("Wrath of the Wilds", "자연의 진노", "talent name")
 t([[You unleash the wrath of the wilds for 5 turns.
 		When you deal damage to a creature while wrath is active you have %d%% chance (100%% for the first creature hit each turn) to stun them for 3 turns.
 		This effect can only stun a creature once per turn.
-		Chance scales with your Constitution and apply power is the highest or your physical or mind power.]], [[5 턴 동안 야생의 분노를 해방합니다.
-		지속시간 동안 적에게 피해를 줄 때, %d%% 확률로 (매 턴, 가장 처음으로 공격한 적에게는 100%%) 대상에게 3 턴의 기절을 유발합니다.
+		Chance scales with your Constitution and apply power is the highest or your physical or mind power.]], [[5 턴 동안 자연의 진노를 해방합니다.
+		지속시간 동안 적에게 피해를 줄 때, %d%% 확률로 (매 턴마다 가장 처음으로 공격한 적에게는 100%%) 대상을 3 턴 동안 기절시킵니다.
 		한 턴에 하나의 적만을 기절시킬 수 있습니다.
-		확률은 체격에 비례하여 증가하고, 판정 시, 물리력 또는 정신력 중 더 높은 값을 사용합니다.]], "tformat")
+		확률은 체격 능력치에 비례하여 증가하고, 판정 시, 물리력 또는 정신력 중 더 높은 값을 사용합니다.]], "tformat")
 t("Drake-Infused Blood", "주입된 용의 피", "talent name")
-t("You must kill more enemies before you can use this talent!", "더 많은 적을 살해해야 이 기술을 사용할 수 있다!", "logPlayer")
+t("You must kill more enemies before you can use this talent!", "적을 더 많이 죽여야 이 기술을 사용할 수 있다!", "logPlayer")
 t("#GREEN#You can now change your elemental drake aspect", "#GREEN#이제 원소 드레이크의 위상을 변경할 수 있다.", "say")
 t("Fire Drake / Fire Resistance", "화염 드레이크 / 화염 저항", "_t")
 t("Cold Drake / Cold Resistance", "냉기 드레이크 / 냉기 저항", "_t")
 t("Storm Drake / Lightning Resistance", "전기 드레이크 / 전기 저항", "_t")
-t("Sand Drake / Physical Resistance (1/3rd values)", "모래 드레이크 / 물리 내성 (33%% 수치)", "_t")
+t("Sand Drake / Physical Resistance (1/3rd values)", "모래 드레이크 / 물리 저항 (33%% 수치)", "_t")
 t("Wild Drake / Nature Resistance", "야생 드레이크 / 자연 저항", "_t")
 t("Acid Drake / Acid Resistance", "산성 드레이크 / 산성 저항", "_t")
 t("Never mind", "취소", "_t")
@@ -3560,50 +3560,50 @@ t([[Since ziguranth removed those filthy magic runes from your body you have nee
 
 		Changing your aspect requires combat experience, you may only do so after slaying 100 enemies (current %d).
 
-		When you learn this talent you become so strong you can wield any type of one handed weapon in your offhand.]], [[지구랏 추종자들이 더러운 마법 룬을 크로그의 육체에서 제거한 후, 크로그들은 육체를 유지하기 위해 룬을 대체 할만한 강력한 힘을 찾아 다녔습니다. 고맙게도, 용족의 피로 육체를 유지할 수 있게 되었습니다.
-		드레이크의 피로 크로그는 강인해집니다. 지속 효과로써, 기절 면역력이 %d%%, %s 저항이 %d%% 증가하고, 근접 공격으로 %d %s 속성 피해를 입힙니다.
-		이 기술을 활성화 함으로써 위상을 다시 선택해, 다양한 원소 효과를 받을 수 있습니다.
-		피해량과 저항은 의지에 비례하여 증가합니다.
+		When you learn this talent you become so strong you can wield any type of one handed weapon in your offhand.]], [[지구랏 추종자들이 더러운 마법 룬을 크로그의 육체에서 제거한 이래로, 크로그들에게는 육체를 유지할 수 있는 다른 힘이 필요했습니다. 용의 피 덕분에 그 힘을 손에 넣을 수 있었습니다.
+		용의 피로 크로그는 강인해집니다. 지속 효과로 기절 면역력이 %d%%, %s 저항이 %d%% 증가하고, 근접 공격으로 %d %s 속성 피해를 입힙니다.
+		이 기술을 활성화하면 여러 드레이크의 위상 중 하나를 선택하여, 여러 가지 원소 효과 중 하나를 누릴 수 있습니다.
+		피해량과 저항 수치는 의지 능력치에 비례하여 증가합니다.
 
-		위상의 변경은 많은 전투 경험을 요구합니다. 100 체의 적을 살해해야 위상을 변경할 수 있습니다. (현재 %d).
+		위상을 바꾸려면 전투 경험이 많이 필요합니다. 적을 100 체 살해해야 위상을 변경할 수 있습니다 (현재 %d).
 
-		이 기술을 배우면, 한손 무기를 보조 무기 칸에 장착 가능해집니다.]], "tformat")
+		또한 이 기술을 배우면 힘이 아주 세져서, 한손무기를 보조무기 칸에 장착할 수 있게 됩니다.]], "tformat")
 t("Fuel Pain", "고통의 연료", "talent name")
 t([[Your body is used to pain. When you take a hit of 20%% or more of your max life one of your inscriptions is taken off cooldown and infusion saturation is removed.
-		This effect has a cooldown of %d turns.]], [[크로그들은 고통에 익숙합니다. 한 번에 최대 생명력의 20%% 이상의 피해를 입은 경우 주입물 하나의 재사용 대기시간이 초기화되고, 주입물 포화 효과가 사라집니다.
+		This effect has a cooldown of %d turns.]], [[크로그들은 고통에 익숙합니다. 한 번에 최대 생명력의 20%% 이상의 피해를 입게 되면 주입물 하나의 재사용 대기시간이 초기화되고, 주입물 포화 효과가 사라집니다.
 		이 효과는 %d 턴의 재사용 대기시간이 존재합니다.]], "tformat")
 t("Drakeblood Strike", "용혈의 강타", "talent name")
 t([[You were created by ziguranth for one purpose only, to wage war on magic!
 			Strike your target dealing %d%% %s weapon damage and silencing them for %d turns.
 			The damage type will change with your drake aspect.
-			The chance to silence will increase with the highest of your physical or mind power.]], [[지구랏 추종자들은 단 한가지의 목적을 위해 크로그를 만들어냈습니다. 마법과의 전쟁을 벌이기 위해서 입니다!
-			대상을 강타해 %d%% %s 무기 피해를 주고, 대상을 %d 턴 동안 침묵시킵니다.
-			피해 속성은 드레이크의 위상에 따라 변경됩니다.
-			침묵 확률은 물리력과 정신력 중 높은 값에 비례하여 증가합니다 .]], "tformat")
+			The chance to silence will increase with the highest of your physical or mind power.]], [[지구랏 추종자들이 크로그를 만들어낸 이유는 딱 하나입니다. 마법과 전쟁을 벌이기 위해서입니다!
+			대상을 강타해 %d%% %s 무기 피해를 주고 %d 턴 동안 침묵시킵니다.
+			피해 속성은 드레이크의 위상에 따라 변합니다.
+			침묵 확률은 물리력과 정신력 중 높은 값에 비례하여 증가합니다.]], "tformat")
 t("parasite", "기생충", "talent type")
 t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "캐릭터가 가질 수 있는 여러 가지 종족의 능력입니다.. 자신의 머리통을 날려버리고 기생생물로 대체했을 때 말입니다..", "_t")
 t("Take a Bite", "한 입", "talent name")
 t("#Source# tries to bite #target#!", "#Source1# #target3# 씹어먹으려 하고 있다!", "logCombat")
-t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t([[You try to bite off your foe with your #{italic}#head#{normal}# for %d%% blight weapon damage.
 		If the target falls under 20%% life you have %d%% chances to outright kill it (bosses are immune).
 		Whenever you succesfully bite a foe you regenerate %0.1f life per turn for 5 turns.
 		Instant kill chances and regeneration increase with your Constitution stat and weapon damage increases with the highest of your Strength, Dexterity or Magic stat.]], [[#{italic}#머리#{normal}#를 이용하여 적을 물어뜯어 %d%% 황폐 무기 피해를 입힙니다.
-		대상의 생명력이 20%% 이하일 경우, %d%% 확률로 즉사시킵니다. (보스 등급의 적에게는 통하지 않습니다).
-		명중 시, 5 턴 동안 시전자는 생명력 재생이 %0.1f 증가합니다.
-		즉시 살해 확률과 재생량은 체격에 비례하여 증가하고, 무기 피해량은 힘, 민첩, 마법 중 가장 높은 것에 비례하여 증가합니다.]], "tformat")
+		대상의 생명력이 20%% 이하일 경우 %d%% 확률로 즉사시킵니다 (보스 등급의 적에게는 통하지 않습니다).
+		명중 시, 시전자의 생명력 재생이 5 턴 동안 %0.1f 증가합니다.
+		즉시 살해 확률과 재생량은 체격 능력치에 비례하여 증가하고, 무기 피해량은 힘, 민첩, 마법 능력치 중 가장 높은 것에 비례하여 증가합니다.]], "tformat")
 t("Ultra Instinct", "과격한 본능", "talent name")
 t([[Without the distraction of #{bold}#thoughts#{normal}# or #{bold}#self#{normal}# your body reacts faster and better to aggressions.
 		Increases global speed by %d%%.]], [[#{bold}#생각#{normal}#이나 #{bold}#자아#{normal}#의 간섭을 배제해 더욱 더 빠르게 반응하고, 더욱 더 공격적으로 행동합니다.
-		모든 속도가 %d%% 증가합니다.]], "tformat")
+		전체 속도가 %d%% 증가합니다.]], "tformat")
 t("Corrupting Influence", "부패하는 영향력", "talent name")
 t([[The parasite corruption seeps into your body, strengthening it.
 		Increases blight, darkness, temporal and acid resistances by %d%% but decreases nature and light resistances by %d%%.]], [[기생생물의 오염이 육체에 스며들어, 육체를 더욱 강하게 합니다.
 		황폐, 어둠, 시간, 산성 저항이 %d%% 증가하지만, 자연과 빛 저항이 %d%% 감소합니다.]], "tformat")
 t("Horror Shell", "끔찍한 껍질", "talent name")
 t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
-		The total damage the shield can absorb increases with your Constitution.]], [[주변에 껍질을 만들어, %d 피해를 흡수합니다. 10 턴 동안 유지됩니다.
-		피해 흡수량은 체격에 비례하여 증가합니다.]], "tformat")
+		The total damage the shield can absorb increases with your Constitution.]], [[주변에 껍질을 만들어 %d 피해를 흡수합니다. 10 턴 동안 유지됩니다.
+		피해 흡수량은 체격 능력치에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -3645,7 +3645,7 @@ t("#Target# is caught in gore.", "#Target1# 피웅덩이 속에 있다.", "_t")
 t("#Target# is free from the gore.", "#Target2# 피웅덩이에서 벗어났다.", "_t")
 t("growth", "성장", "effect subtype")
 t("massive", "거대", "effect subtype")
-t("Overgrowth", "과대성장", "_t")
+t("Overgrowth", "과성장", "_t")
 t("Can walk through walls and quake every turn, %d%% more damage and %d%% more resistances.", "벽을 뚫고 이동 가능, 매 턴 지진을 일으킴 / 모든 피해량 +%d%% / 모든 저항 +%d%%.", "tformat")
 t("#Target# suddently grows.", "#Target1# 급격하게 자라난다.", "_t")
 t("#Target# shrinks back.", "#Target2# 다시 돌아왔다.", "_t")
@@ -3873,7 +3873,7 @@ t("#Target# enters a Forbidden Tome!", "#Target2# 금단의 고서 속으로 들
 t("Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "금단의 고서 속: \"집, 끔찍한 집\" %d 턴 지속.", "tformat")
 t("Forbidden Tome Cooldown", "금단의 고서 재사용 대기시간", "_t")
 t("Unable to enter Forbidden Tomes.", "금단의 고서로 들어갈 수 없다.", "_t")
-t("Wrath of the Wilds", "야생의 분노", "_t")
+t("Wrath of the Wilds", "자연의 진노", "_t")
 t("%d%% chance to stun any foes hit.", "%d%% 확률로, 적에게 피해를 줄 때 기절을 유발함.", "tformat")
 t("protection", "보호", "effect subtype")
 t("Warborn", "전쟁 태생", "_t")

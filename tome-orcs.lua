@@ -594,7 +594,7 @@ t("darkness pull", "끌어드리는 어둠", "damage type")
 t("%s is pulled!", "%s 끌어당겨졌다!", "logSeen", nil, {"는"})
 t("%s resists the pull!", "%s 갈고리에 저항했다!", "logSeen", nil, {"은"})
 t("darkness pin", "어둠 고정", "damage type")
-t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t("drain negative", "부정적 흡수", "damage type")
 t("null_type", "속성없음", "damage type")
 t("light + dark", "빛 + 어둠", "damage type")
@@ -1805,7 +1805,7 @@ t("sand", "모래", "entity subtype")
 t("trap", "함정", "_t")
 t("sand pit", "모래 구덩이", "entity name")
 t("@Target@ slides into a sand pit!", "@Target1@ 모래 구덩이로 미끄러졌다!", "_t")
-t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 
 ------------------------------------------------
 section "tome-orcs/data/ingredients.lua"
@@ -4092,7 +4092,7 @@ t([[Instantly grow a moss circle of radius %d at target area.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Ceasefire", "휴전", "talent name")
 t("You require at least a steamgun for this talent.", "이 기술을 쓰려면 적어도 한 자루의 총이 필요하다.", "logPlayer")
-t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t([[You fire an incredibly potent shot at an enemy, doing %d%% damage and dazing them for %d turns.
 		The daze chance increases with your Steampower.]], [[적에게 믿을 수 없을 정도로 강력한 사격을 날려, %d%% 피해를 주고 %d 턴 동안 혼절시킵니다.
 		혼절 확률은 증기력에 비례하여 증가합니다.]], "tformat")
@@ -5044,7 +5044,7 @@ t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamgun
 		추가로, 한 번에 %d 발의 탄환을 추가로 재장전할 수 있게 됩니다.]], "tformat")
 t("Double Shots", "이중사격", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
-t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t([[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
 Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns.
 		The stun chance increases with your Steampower.]], [[압도적인 사격 실력을 보여주며, 총기를 빠르게 연사합니다.
@@ -7207,7 +7207,7 @@ t("The Forgotten", "잊혀진 것", "entity name")
 t("pale mindstar", "창백한 마석", "_t")
 t("A strange mindstar, overgrown with granite and cracked. It seems incredibly ancient and horribly damaged, but still functions.", "이상한 마석으로, 화강암으로 뒤덮여 있고 금이 가 있습니다. 까마득한 고대의 물건이고 손상이 매우 심하지만, 그럼에도 여전히 작동합니다.", "_t")
 t("confuse all enemies in radius 3 for 5 turns", "3 칸 범위 내의 모든 적들을 5 턴 동안 혼란시킵니다", "_t")
-t("%s resists!", "%s 저항합니다!", "logSeen", nil, {"가"})
+t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t("The Cage", "마음의 새장", "entity name")
 t("thick leather cap", "두꺼운 가죽 모자", "_t")
 t("Nothing will ever reach you again.", "그 어떤 것도 다시는 당신에게 닿지 못할 것입니다.", "_t")
