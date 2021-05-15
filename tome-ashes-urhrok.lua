@@ -1751,7 +1751,7 @@ Features:
 * Two new events, appearing anywhere in Eyal!
 * 20 new artifacts, with unique and interesting effects.  Collect the Obsidian Treasures to amass more and more power!  Slip your hands into the Will of Ul'Gruth and watch your sweeping blows smash down walls!  Wear a giant hideous hell-mouth as a fashionable belt!
 * 7 new achievements!  Conquer the worst Urh'Rok's forces can throw at you, and hang their metaphorical skulls from your profile page!
-]], [[에이알의 많은 이들은 "악마" 에 대한 이야기를 알고 있습니다. 가학적인 짓을 즐기며 허공에서 갑자기 튀어나오고, 가는 길마다 고통과 파괴를 남기는 존재들이죠.  그들의 거처인 공포의 영역은 하늘보다도 더 높은 곳에 떠서 모든 걸 지켜보며 때를 기다리고 있지만, 그냥 가만히 있지는 않습니다. 요원들은 지상을 정찰하고, 학회에선 새로운 주문과 전략을 개발해내고 있습니다.  그들의 연구로 우리 세계를 막고 있는 보호막에 금이 가기 시작하면서 힘없는 에이알인들이 순식간에 납치되어, 그들의 노예와 놀잇감이 되고 있습니다.  악마들은 이런 희생자들에게 마법의 힘을 주입해 조금 더 천천히 망가질 수 있도록 만들고 있습니다 - 새롭게 발견한 힘들을 이용해서 말'록의 군단에게서 탈출할 수 있을까요?
+]], [[마즈'에이알 사람들은 대부분 "악마" 에 대한 이야기를 알고 있습니다. 가학적인 짓을 즐기며 허공에서 갑자기 튀어나오고, 가는 길마다 고통과 파괴를 남기는 존재들이죠.  그들의 거처인 공포의 영역은 하늘보다도 더 높은 곳에 떠서 모든 걸 지켜보며 때를 기다리고 있지만, 그냥 가만히 있지는 않습니다. 요원들은 지상을 정찰하고, 학회에선 새로운 주문과 전략을 개발해내고 있습니다.  그들의 연구로 우리 세계를 막고 있는 보호막에 금이 가기 시작하면서 힘없는 에이알인들이 순식간에 납치되어, 그들의 노예와 놀잇감이 되고 있습니다.  악마들은 이런 희생자들에게 마법의 힘을 주입해 조금 더 천천히 망가질 수 있도록 만들고 있습니다 - 새롭게 발견한 힘들을 이용해서 말'록의 군단에게서 탈출할 수 있을까요?
 
 특징:
 * 새로운 직업, 파멸의 사도로 시작하세요!  이들은 악마적인 파괴의 화신으로 거대한 양손 무기를 들고 전장으로 뛰어들어, 적들을 베어버리고 불타는 상흔을 남깁니다.  화염의 마법과 악마의 힘으로 무장한 파멸의 사도들은 압도적인 전력차에 맞서 싸우는 걸 즐기며, 적들을 화염의 파도로 휘어잡고 주변의 고통과 불길을 양식으로 삼아, 상대가 누구든간에 순식간에 피로 물든 잿더미로 만들어 버립니다.

@@ -92,10 +92,10 @@ t("Their most important stats are: Cunning and Dexterity", "그들에게 가장 
 t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +0 힘, +4 민첩, +1 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법, +0 의지, +4 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -1", "_t")
-t("Psyshot", "싸이샷", "birth descriptor name")
+t("Psyshot", "염동사수", "birth descriptor name")
 t("Bend the mind, bend the tech. All around inspire dread.", "정신을 구부려라, 기술을 구부려라. 사방에 공포를 몰고 와라.", "_t")
 t("Powerful psionics are able to enter a gestalt with steam generators and technology to enhance their own mental prowess.", "강력한 초능력자들은 증기 발생기와 증기 기술과 게슈탈트를 이루어 스스로의 정신력을 강화할 수 있습니다.", "_t")
-t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "싸이샷은 게슈탈트를 통해 장착한 마석을 강화시키고, 총기 사격으로 적들의 전선을 무너뜨립니다.", "_t")
+t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "염동사수는 게슈탈트를 통해 장착한 마석을 강화시키고, 총기 사격으로 적들의 전선을 무너뜨립니다.", "_t")
 t("Their most important stats are: Cunning, Willpower and Dexterity", "그들의 가장 중요한 능력치는 교활, 의지, 그리고 민첩입니다.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +3 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 마법, +3 의지, +3 교활", "_t")
@@ -5694,16 +5694,16 @@ t("Increases the capacity of your steam tank by %d.", "최대 증기 보유량�
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/psytech-gunnery.lua"
 
-t("Psyshot", "초능력 사격", "talent name")
+t("Psyshot", "염동사수", "talent name")
 t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamguns.
 		When your bullets hit a target you instinctively reach out to the impact and use the kinetic force to project a mindstar attack doing %d%% damage (guaranteed hit), if you wield one in the offhand.
 		This projection requires a pure mindstar; it will not work if extended into a psiblade.
 
 		Also activable for a shot that deals %d%% weapon damage as mind damage.]], [[총기를 사용할 때 무기 피해가 %d%%, 물리력이 30 증가합니다.
-		마석 장착 중, 탄환이 적에게 명중하면 무의식적으로 착탄 지점을 향해 손을 뻗어 염동력을 투사하고, 마석을 날려 %d%% 마석 공격을 가합니다. 이 공격은 빗나가지 않습니다.
-		염동력 투사는 기본 상태 그대로의 마석을 요구합니다. 염동 칼날이 활성화되어 있는 경우, 이 효과는 일어나지 않습니다.
+		보조무기로 마석을 장착하고 있다면, 탄환이 적에게 명중하면 무의식적으로 착탄 지점을 향해 손을 뻗어 염동력을 투사하고, 마석을 날려 %d%% 마석 공격을 가합니다. 이 공격은 빗나가지 않습니다.
+		마석 투사는 기본 상태 그대로의 마석을 요구합니다. 염동 칼날이 활성화되어 있다면 이 효과는 일어나지 않습니다.
 
-		이 기술을 활성화하면 %d%% 무기 피해를 정신 속성으로 가합니다.]], "tformat")
+		또한 이 기술을 활성화하면 탄을 쏘아 %d%% 무기 피해를 정신 속성으로 가합니다.]], "tformat")
 t("Boiling Shot", "들끓는 사격", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
 t([[Using psionic energies you overheat your shot, making it deal %d%% damage.
@@ -8048,7 +8048,7 @@ All Tinker classes use Steam for their powers.
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-tinker_psyshot.lua"
 
-t("New Class: #LIGHT_GREEN#Psyshot (Tinker)", "새로운 직업: #LIGHT_GREEN#싸이샷 (발명가)", "_t")
+t("New Class: #LIGHT_GREEN#Psyshot (Tinker)", "새로운 직업: #LIGHT_GREEN#염동사수 (발명가)", "_t")
 t([[You have found extremely old machines powered by advanced psionics and technology. Psionics without a living mind was never thought possible.
 You can now create new characters with the #LIGHT_GREEN#Psyshot class#WHITE#.
 
@@ -8061,9 +8061,9 @@ Class features:#YELLOW#
 
 All Tinker classes use Steam for their powers.
 ]], [[당신은 진보된 초능력과 공학으로 동작하는, 굉장히 오래된 기계를 발견했습니다. 살아 있는 정신 없이는 초능력을 쓸 수 없다고 생각했었지만, 틀렸다는 걸 알았습니다.
-따라서 이제부터 #LIGHT_GREEN#싸이샷 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
+따라서 이제부터 #LIGHT_GREEN#염동사수 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
 
-싸이샷은 초능력과 증기 공학을 결합하여 치명적인 작품을 만들어내는 발명가들로, 한 손으로는 증기총을 들고 다른 손에는 마석을 듭니다.
+염동사수는 초능력과 증기 공학을 결합하여 치명적인 작품을 만들어내는 발명가들로, 한 손으로는 증기총을 들고 다른 손에는 마석을 듭니다.
 직업 특징:#YELLOW#
 - 쏘아내는 탄환에 마석의 힘을 입힌다.
 - 공포로 적들을 약화시키고 총으로 마무리한다.
@@ -8216,7 +8216,7 @@ t("Build Option: Tinkers in Maj'Eyal Campaign", "빌드 옵션: 마즈'에이알
 t("Build Option: Mages in Orcs Campaign", "빌드 옵션: 오크 캠페인에서 마법사 사용", "_t")
 t("Build Option: Rogues in Orcs Campaign", "빌드 옵션: 오크 캠페인에서 도적 사용", "_t")
 t("Build Option: All classes in Orcs Campaign", "빌드 옵션: 오크 캠페인에서 모든 직업 사용", "_t")
-t("Class: Psyshot", "직업: 싸이샷", "_t")
+t("Class: Psyshot", "직업: 염동사수", "_t")
 t("Class evolution: Technomancer", "직업 진화: 마도공학자", "_t")
 
 ------------------------------------------------
