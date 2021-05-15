@@ -725,7 +725,7 @@ t("Draining Assault", "흡수의 맹공", "talent name")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요하다.", "logPlayer")
 t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "대상을 2번 공격하여 매 타격 당 %d%% 무기 피해를 줍니다. 시전자는 가한 피해량의 %d%% 에 해당하는 생명력을 회복하고, 또한 명중한 공격 하나 당 %d 원기를 획득합니다.", "tformat")
 t("Fiery Grasp", "불타는 손아귀", "talent name")
-t("%s resists the silence!", "%s 침묵에 저항합니다!", "logSeen", nil, {"가"})
+t("%s resists the silence!", "%s 침묵에 저항했다!", "logSeen", nil, {"가"})
 t("%s resists the grasp!", "%s 손아귀에 저항했다!", "logSeen", nil, {"가"})
 t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.
 		Starting from talent level 4, it will also silence.
