@@ -94,7 +94,7 @@ t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 마법
 t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# -1", "_t")
 t("Psyshot", "싸이샷", "birth descriptor name")
 t("Bend the mind, bend the tech. All around inspire dread.", "정신을 구부려라, 기술을 구부려라. 사방에 공포를 몰고 와라.", "_t")
-t("Powerful psionics are able to enter a gestalt with steam generators and technology to enhance their own mental prowess.", "강력한 초능력자들은 증기 생성기와 증기 기술과 게슈탈트를 이루어 스스로의 정신력을 강화할 수 있습니다.", "_t")
+t("Powerful psionics are able to enter a gestalt with steam generators and technology to enhance their own mental prowess.", "강력한 초능력자들은 증기 발생기와 증기 기술과 게슈탈트를 이루어 스스로의 정신력을 강화할 수 있습니다.", "_t")
 t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "싸이샷은 게슈탈트를 통해 장착한 마석을 강화시키고, 총기 사격으로 적들의 전선을 무너뜨립니다.", "_t")
 t("Their most important stats are: Cunning, Willpower and Dexterity", "그들의 가장 중요한 능력치는 교활, 의지, 그리고 민첩입니다.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 힘, +3 민첩, +0 체격", "_t")
@@ -561,8 +561,8 @@ Thank you @playername@, this is indeed a suitable specimen. We shall honor our b
 t("What do you wish to learn?", "무엇을 배우길 원하는가?", "_t")
 t("You cannot use your %s anymore; it is tainted by magic.", "%s 더 이상 쓸 수 없다. 그건 마법에 오염된 것이다.", "logPlayer", nil, {"은"})
 t([[Antimagic is a very special category. If you learn it you will never be able to use arcane powered items or talents again.
-Do you still wish to take this path?]], [[반마법은 매우 특수한 기술 계열입니다. 이걸 배우면 마법의 힘으로 작동하는 물건들이나 마법 기술들을 두 번 다시 쓸 수 없게 될 겁니다.
-정말로 이 길을 선택하겠습니까?]], "_t")
+Do you still wish to take this path?]], [[반마법은 매우 특수한 기술 계열이다. 이걸 배우면 마법의 힘으로 작동하는 물건들이나 마법 기술들을 두 번 다시 쓸 수 없게 될 것이다.
+정말로 이 길을 선택하겠는가?]], "_t")
 t("No.", "아니.", "_t")
 t("Yes!", "그래!", "_t")
 t("Select the party member to receive the reward:", "보상을 받을 파티 멤버를 선택하세요:", "_t")
@@ -578,8 +578,8 @@ t("[%s talent %s (+%d level(s))]", "[%s %s (+%d 레벨)]", "tformat")
 t("Improve", "향상:", "_t")
 t("Learn", "배우기:", "_t")
 t([[Antimagic talents are very special. To learn one means you will never be able to use arcane powered items or talents again.
-Do you still wish to take this path?]], [[반마법 기술은 매우 특수합니다. 하나라도 배우면 마법의 힘으로 작동하는 물건들이나 마법 기술들을 두 번 다시 쓸 수 없게 될 겁니다.
-정말로 이 길을 선택하겠습니까?]], "_t")
+Do you still wish to take this path?]], [[반마법 기술은 매우 특수하다. 하나라도 배우면 마법의 힘으로 작동하는 물건들이나 마법 기술들을 두 번 다시 쓸 수 없게 될 것이다.
+정말로 이 길을 선택하겠는가?]], "_t")
 t("Very well. We can teach you a talent (unlocking the talent category is separate). Which do you want?", "아주 좋다. 기술 하나를 가르쳐 주겠다 (기술 계열을 해금하는 것은 별개입니다). 어떤 것을 배우고자 하는가?", "_t")
 t("[Improve %s by +%d]", "[%s +%d]", "tformat")
 t("Very well. We can increase one of your core stats by 4, which one?", "아주 좋다. 네 기초 능력치 중 하나를 4만큼 늘릴 수 있다. 어떤 걸로 하겠는가?", "_t")
@@ -1679,7 +1679,7 @@ They sure seem sharp though.]], [[이 복잡한 장치로 구성된 증기톱은
 하지만 톱날들은 매우 날카로워 보입니다.]], "_t")
 t("Ramroller", "공성회전자", "entity name")
 t("a... chariot?", "어... 수..레?", "_t")
-t("\"So we were thinking. You know what's better than saws? Really BIG saws. Unfortunately, no one could lift them. So we came up with an innovative new solution: Mount them on a motorized platform, allowing easy transportation and unparalleled cutting power!\"", "\"그래서 저희가 머리를 좀 굴려 봤습니다. 톱보다 더 좋은 게 뭔지 아십니까? 아주 큼지막한 톱입니다. 안타깝게도 그런 톱을 들어올릴 수 있는 사람이 없었죠. 그래서 저희는 아주 혁신적인 해결책을 하나 내놓았습니다. 톱 아래에다가 전동기랑 바퀴를 달아서, 손쉽게 움직일 수 있게 만들었죠! 마치 아주 큼지막한 톱날이 달린 전차처럼 말입니다!\"", "_t")
+t("\"So we were thinking. You know what's better than saws? Really BIG saws. Unfortunately, no one could lift them. So we came up with an innovative new solution: Mount them on a motorized platform, allowing easy transportation and unparalleled cutting power!\"", "\"그래서 저희가 머리를 좀 굴려 봤습니다. 톱보다 더 좋은 게 뭔지 아십니까? 바로 아주 큼지막한 톱입니다. 안타깝게도 그런 톱을 들어올릴 수 있는 사람이 없었죠. 그래서 저희는 아주 혁신적인 해결책을 하나 내놓았습니다. 톱 아래에다가 전동기랑 바퀴를 달아서, 손쉽게 움직일 수 있게 만들었죠! 마치 아주 큼지막한 톱날이 달린 전차처럼 말입니다!\"", "_t")
 t("Moving builds up a stacking movement speed (caps at 25%) and damage bonus (caps at double). Hitting removes the bonus.", "발걸음을 옮길 때마다 이동속도가 상승하고 (최대 25%까지 중첩) 피해량 상승량도 증가합니다. (최대 2배까지 중첩). 공격을 가하면, 이 효과는 즉시 사라집니다.", "_t")
 t("Overcutter", "과잉절단기", "entity name")
 t("enormous steamsaw", "거대한 증기톱", "_t")
@@ -3907,22 +3907,22 @@ t("", "", "_t")
 section "tome-orcs/data/talents/celestial/cosmic.lua"
 
 t("Lunar Orb", "달의 구체", "talent name")
-t("Fires out a bolt of cosmic energy in the target direction. The projectile continues until it hits a wall or the edge of the map, dealing %0.2f dark damage to enemies hit and restoring %d negative energy. The negative energy gained is reduced by 25%% per enemy hit, restoring a maximum of %d. Enemies hit will become aware of you.", "대상의 방향으로 우주 에너지의 화살을 날립니다. 투사체는 벽에 닿거나, 맵의 끝에 닿을 때까지 계속 움직입니다. %0.2f 어둠 피해를 주며, 시전자는 %d 음기를 회복합니다. 음기 회복량은 피격 당한 적마다 25%% 씩 감소합니다. 최대 %d 음기를 회복할 수 있습니다. 공격받은 적은 시전자가 어딨는지 알아차립니다.", "tformat")
+t("Fires out a bolt of cosmic energy in the target direction. The projectile continues until it hits a wall or the edge of the map, dealing %0.2f dark damage to enemies hit and restoring %d negative energy. The negative energy gained is reduced by 25%% per enemy hit, restoring a maximum of %d. Enemies hit will become aware of you.", "대상의 방향으로 우주 에너지의 화살을 날립니다. 투사체는 벽에 닿거나, 맵의 끝에 닿을 때까지 계속 움직입니다. 화살은 %0.2f 어둠 피해를 주며, 시전자는 음기를 %d 회복합니다. 음기 회복량은 피격 당한 적마다 25%% 씩 감소합니다. 최대 %d 음기를 회복할 수 있습니다. 공격받은 적은 시전자의 존재를 알아차리게 됩니다.", "tformat")
 t("Astral Path", "우주의 길", "talent name")
 t("The spell fizzles: there are no available spots to teleport to.", "주문 실패: 순간이동 가능한 장소가 해당 위치에는 존재하지 않는다.", "logSeen")
 t([[Fire an orb of negative energy towards a spot within range %d.
 		When the orb reaches its destination, it will teleport you to its location.
 		The speed of the projectile (%d%%) increases with your movement speed]], [[음기의 구체를 발사해 %d 칸 내의 위치에 발사합니다.
-		구체가 목적지에 닿으면, 시전자는 해당 위치로 순간이동 하게 됩니다.
-		투사체의 속도는 (%d%%) 시전자의 이동 속도에 비례하여 증가합니다.]], "tformat")
+		구체가 목적지에 닿으면, 시전자는 해당 위치로 순간이동하게 됩니다.
+		투사체의 속도 (%d%%) 는 시전자의 이동 속도에 비례하여 증가합니다.]], "tformat")
 t("Galactic Pulse", "은하의 고동", "talent name")
 t([[Sends out a slow-moving spiral of cosmic energy towards a target location within range 8.
-		As the cosmic energy moves, it pulls in targets adjacent to it, dealing %0.2f darkness damage and granting you 1 negative energy per hit.]], [[느린 속도로 움직이는 나선 은하의 에너지를 대상을 향해 방출합니다. 은하 에너지는 8 칸 내의 적에게 느린 속도로 나아갑니다.
-		은하 에너지가 나아갈 때, 은하 에너지는 인근의 적들을 끌어모으고, %0.2f 어둠 피해와 피격 당한 대상 당 1 음기를 회복합니다.]], "tformat")
+		As the cosmic energy moves, it pulls in targets adjacent to it, dealing %0.2f darkness damage and granting you 1 negative energy per hit.]], [[느린 속도로 움직이는 우주 에너지의 나선을 반경 8칸 이내의 대상을 향해 방출합니다.
+		우주 에너지는 나아가면서 인근의 적들을 끌어모으며 %0.2f 어둠 피해를 가하고 피격 당한 대상 당 음기를 1 회복합니다.]], "tformat")
 t("Supernova", "초신성", "talent name")
 t([[Expend all of your negative energy to create a massive burst of dark energy (radius %d) at a target location within range %d.
 		This deals %0.2f darkness damage and pins targets hit for %d turns.
-		The damage and pin chance increase with your spellpower, and the damage, radius and pin duration all increase with negative energy and talent level]], [[시전자의 모든 음기를 끌어 모아 반경 %d 칸에 거대한 암흑 에너지의 폭발을 일으킵니다. %d 칸 내의 위치를 폭발 진원지로 선택할 수 있습니다.
+		The damage and pin chance increase with your spellpower, and the damage, radius and pin duration all increase with negative energy and talent level]], [[시전자의 모든 음기를 끌어 모아 반경 %d 칸의 거대한 암흑 에너지 폭발을 일으킵니다. %d 칸 내의 위치를 폭발 진원지로 선택할 수 있습니다.
 		폭발은 %0.2f 어둠 피해를 주고 피격당한 대상을 %d 턴 동안 속박합니다.
 		피해량과 속박 확률은 주문력에 비례하고, 피해량과 범위, 속박 지속 시간은 시전자의 현재 음기와 기술 레벨에 비례하여 증가합니다.]], "tformat")
 
@@ -3936,7 +3936,7 @@ Light damage slows the target by %0.2f%% per point of damage dealt for %d turns,
 Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[대상은 빛과 어둠 피해의 반향을 %d 턴 동안 느낍니다. 
 
 대상은 %d 턴 동안, 빛 속성 피해 1 당 %0.2f%% 감속됩니다. 최대 %d 피해에서 %d%% 감속됩니다.
-어둠 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 어둠 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받던, 다른 요인으로 인해 어둠 피해를 받던, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과, 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
+어둠 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 어둠 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받든 다른 요인으로 인해 어둠 피해를 받든, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/energies.lua"
@@ -3944,49 +3944,49 @@ section "tome-orcs/data/talents/celestial/energies.lua"
 t("Celestial Acceleration", "천상의 가속", "talent name")
 t("Increases your movement speed by %0.2f%% per percent of positive energy and your casting speed by %0.2f%% per percent of negative energy, up to a maximum of %0.2f%% at 80%%. Sustained energy still counts toward the maximum.", "양기 1%% 당 이동속도가 %0.2f%% 증가하고, 음기 1%% 당 시전 속도가 %0.2f%% 증가합니다. 이 효과의 상한은 음기/양기 80%% 이며, 최대 속도 상승은 %0.2f%% 입니다. 유지기로 변동된 음기/양기도 계산에 영향을 미칩니다.", "tformat")
 t("Polarization", "분극화", "talent name")
-t("Whichever of your positive and negative energies is a higher percentage regenerates towards its max instead of its normal resting value (%d positive, %d negative). Your negative and positive regeneration/degeneration rates are increased to %0.2f.", "음기와 양기중 더 높은 비율의 원천력이 최대치를 향해 빠르게 회복됩니다. 이 효과는 기존 원천력 회복값보다 우선 시됩니다. (%d 양기, %d 음기). 양기와 음기의 재생/감소 비율이 %0.2f 이 됩니다.", "tformat")
+t("Whichever of your positive and negative energies is a higher percentage regenerates towards its max instead of its normal resting value (%d positive, %d negative). Your negative and positive regeneration/degeneration rates are increased to %0.2f.", "음기와 양기 중 더 높은 비율의 원천력이 최대치를 향해 빠르게 회복됩니다. 이 효과는 기존 원천력 회복값보다 우선 시됩니다. (%d 양기, %d 음기). 양기와 음기의 재생/감소 비율이 %0.2f 이 됩니다.", "tformat")
 t("Magnetic Inversion", "극성 반전", "talent name")
-t("Swap your current positive and negative energy levels. This spell takes no time to cast.", "양기와 음기 수치를 뒤바꿉니다. 이 주문은 턴을 소모하지 않습니다.", "_t")
+t("Swap your current positive and negative energy levels. This spell takes no time to cast.", "시전자의 양기와 음기 수치를 뒤바꿉니다. 이 주문은 턴을 소모하지 않습니다.", "_t")
 t("Plasma Bolt", "플라스마 화살", "talent name")
-t("Fires out a bolt of pure energy, dealing %0.2f light and %0.2f darkness damage in a radius of %d, and slowing targets hit. Their movement is reduced by %d%% and attacking, casting and mind attacks by %d%%. The bolt will attune to your current positive and negative energy amounts.", "순수한 에너지의 화살을 쏘아, %0.2f 빛 피해와 %0.2f 어둠 피해를 반경 %d 칸 내의 모든 적에게 가하고 감속시킵니다. 이동 속도는 -%d%% 감소되며, 공격, 시전. 사고 속도는 %d%% 감속됩니다. 이 기술의 효과는 현재 시전자의 양기/음기에 비례하여 증가합니다.", "tformat")
+t("Fires out a bolt of pure energy, dealing %0.2f light and %0.2f darkness damage in a radius of %d, and slowing targets hit. Their movement is reduced by %d%% and attacking, casting and mind attacks by %d%%. The bolt will attune to your current positive and negative energy amounts.", "순수한 에너지의 화살을 쏘아 %0.2f 빛 피해와 %0.2f 어둠 피해를 반경 %d 칸 내의 모든 적에게 가하고 감속시킵니다. 이동 속도는 -%d%% 감소되며, 공격, 시전, 사고 속도는 %d%% 감속됩니다. 이 기술의 효과는 현재 시전자의 양기/음기에 비례하여 증가합니다.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/reflection.lua"
 
 t("Diffraction Pulse", "회절 파동", "talent name")
-t("Create a distortion at the target tile, knocking back all projectiles and changing their direction to face away if possible.", "대상 위치를 왜곡해, 모든 투사체를 뒤로 밀쳐냅니다. 가능한 경우, 밀쳐낸 투사체들의 진행 방향을 반전시켜, 다시 공격자에게로 돌려줍니다.", "_t")
+t("Create a distortion at the target tile, knocking back all projectiles and changing their direction to face away if possible.", "대상 위치를 왜곡해, 모든 투사체를 뒤로 밀쳐냅니다. 가능하다면 밀쳐낸 투사체들의 진행 방향을 반전시켜, 다시 공격자에게로 돌려줍니다.", "_t")
 t("Mirror Wall", "거울 벽", "talent name")
 t("mirror wall", "거울 벽", "_t")
-t("Creates a wall %d units long for %d turns, reflecting all projectiles that hit it and blocking sight.", "%d 턴 동안 지속되는 %d 칸의 거울 벽을 만들어냅니다. 모든 투사체를 반사시키며, 시야를 가로막습니다.", "tformat", {2,1})
+t("Creates a wall %d units long for %d turns, reflecting all projectiles that hit it and blocking sight.", "%d 턴 동안 지속되는 %d 칸의 거울 벽을 만들어냅니다. 거울 벽은 모든 투사체를 반사시키며, 시야를 가로막습니다.", "tformat", {2,1})
 t("Spatial Prism", "공간 분광", "talent name")
-t("Target a projectile in mid-flight to clone it and target that projectile independently. You gain ownership over the new projectile.", "비행 중인 투사체를 복제하고, 원하는 곳으로 투사합니다. 새로 날리는 투사체는 투사체의 원래 주인이 아닌, 시전자의 능력치에 영향을 받습니다.", "_t")
+t("Target a projectile in mid-flight to clone it and target that projectile independently. You gain ownership over the new projectile.", "비행 중인 투사체를 하나 복제하고 원하는 곳으로 투사합니다. 새로 날리는 투사체는 투사체의 원래 주인이 아닌, 시전자의 능력치에 영향을 받습니다.", "_t")
 t("Mirror Self", "자기 반사", "talent name")
 t("Mirror Image (%s)", "거울의 상 (%s)", "tformat")
-t("A cloned image of you.", "당신의 복제된 상이다.", "_t")
+t("A cloned image of you.", "당신의 복제된 상입니다.", "_t")
 t("Mirror Self", "자기 반사", "_t")
-t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "거울의 상을 %d 턴 동안 소환합니다. 거울의 상은 시전자가 사용하는 모든 주문을 시전할 수 있습니다. 거울의 상이 가하는 피해량은 %d%% 로 변동되며, 거울의 상은 %d%% 변동된 생명력을 갖고 있습니다. 추가로, 거울의 상이 가하는 모든 빛 속성 피해는 어둠 속성 피해가 되고, 모든 어둠 속성 피해는 빛 속성 피해가 됩니다.", "tformat")
+t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "거울의 상을 %d 턴 동안 소환합니다. 거울의 상은 시전자가 사용하는 모든 주문을 시전할 수 있습니다. 거울의 상이 가하는 피해량은 시전자의 %d%%, 생명력은 %d%% 입니다. 추가로, 거울의 상이 가하는 모든 빛 속성 피해는 어둠 속성 피해가 되고, 모든 어둠 속성 피해는 빛 속성 피해가 됩니다.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/sol.lua"
 
 t("Solar Orb", "태양의 구체", "talent name")
 t("Solar Orb", "태양의 구체", "_t")
-t("Fire out an orb of light that deals %0.2f light damage and then returns, dealing the same amount of damage again and reducing the cooldown by half (%d) when it reaches you. The damage will increase with your spellpower. The ball will travel at most %d distance to return to you.", "빛의 구체를 발사해, %0.2f 빛 피해를 주고 다시 시전자에게 돌아오게 합니다. 돌아올 때도 같은양의 피해를 입히며, 시전자에게 돌아오면 이 기술의 재사용 대기시간이 반으로 단축됩니다. (%d 턴) 피해량은 주문력에 비례하여 증가합니다. 태양의 구체는 돌아올 때, %d 칸 이상의 거리를 이동 할 시 소멸됩니다.", "tformat")
+t("Fire out an orb of light that deals %0.2f light damage and then returns, dealing the same amount of damage again and reducing the cooldown by half (%d) when it reaches you. The damage will increase with your spellpower. The ball will travel at most %d distance to return to you.", "빛의 구체를 발사해 %0.2f 빛 피해를 주고 다시 시전자에게 돌아오게 합니다. 돌아올 때도 같은 피해를 입히며, 시전자에게 돌아오면 이 기술의 재사용 대기시간이 절반으로 단축됩니다 (%d 턴). 피해량은 주문력에 비례하여 증가합니다. 태양의 구체는 돌아올 때, %d 칸 이상의 거리를 이동하게 되면 소멸합니다.", "tformat")
 t("Solar Wind", "태양풍", "talent name")
 t("While sustained, this ability speeds up outgoing projectiles by %d%% while slowing incoming projectiles by %d%%. The increase and decrease improve with your spellpower", "활성화 중, 시전자로부터 나아가는 투사체의 속도가 %d%% 빨라지고, 시전자에게 다가오는 투사체가 %d%% 느려집니다. 증감량은 주문력에 비례하여 증가합니다.", "tformat")
 t("Lucent Wrath", "번쩍이는 분노", "talent name")
-t("After %d turns, the target area in (radius %d) is blasted with a beam of light, dealing %0.2f damage and lighting the area", "%d 턴 후에, 반경 %d 칸 범위에 광선 폭발을 일으킵니다. %0.2f 빛 피해를 주고, 해당 지역을 밝힙니다", "tformat")
+t("After %d turns, the target area in (radius %d) is blasted with a beam of light, dealing %0.2f damage and lighting the area", "%d 턴 후에 반경 %d 칸 범위에 광선 폭발을 일으킵니다. %0.2f 빛 피해를 주고, 해당 지역을 밝힙니다.", "tformat")
 t("Lightspeed", "빛의 속도", "talent name")
 t("%s moves at light speed!", "%s 빛의 속도로 움직인다!", "logSeen", nil, {"는"})
-t("Instantly gain %d%% percent of a turn.", "일시적으로 한 턴의 %d%% 를 획득합니다.", "tformat")
+t("Instantly gain %d%% percent of a turn.", "즉시 한 턴의 %d%% 를 획득합니다.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/void.lua"
 
 t("Nebula Spear", "성운의 창", "talent name")
-t("Fire out a spear of cosmic energies. If it hits an enemy it deals %0.2f damage, otherwise it explodes in a thin cone of radius %d at the end of its range, blocked by enemies, which deals %0.2f to %0.2f damage depending on how much the enemies block.", "우주 에너지의 창을 발사합니다. 명중 시, %0.2f 피해를 가합니다. 반대로, 어느 누구에게도 명중 시키지 못한 경우, 사거리 끝에서 반경 %d 칸의 가늘고 긴 원뿔 범위의 폭발을 일으킵니다. 폭발은 %0.2f - %0.2f 피해를 가합니다. 이 폭발의 피해량은 얼마나 적이 비좁은 곳에 있을 수록 증가합니다.", "tformat")
+t("Fire out a spear of cosmic energies. If it hits an enemy it deals %0.2f damage, otherwise it explodes in a thin cone of radius %d at the end of its range, blocked by enemies, which deals %0.2f to %0.2f damage depending on how much the enemies block.", "우주 에너지의 창을 발사합니다. 명중 시 %0.2f 피해를 가합니다. 반대로 명중하지 못한 경우, 사거리 끝에서 반경 %d 칸의 가늘고 긴 원뿔 범위의 폭발을 일으킵니다. 폭발은 %0.2f - %0.2f 피해를 가합니다. 폭발의 피해량은 적이 폭발 앞쪽에 있을 수록 증가합니다.", "tformat")
 t("Crescent Wave", "초승달의 파도", "talent name")
-t("Fires out a projectile in a clockwise arc. If it hits an enemy it deals %0.2f damage and roots them for one turn. If another projectile damages them within %d turns, they take half that damage and are rooted again.", "시계 방향으로 호를 그리며 나아가는 투사체를 발사합니다. 명중 시 %0.2f 피해를 주고 1 턴 동안 아무것도 하지 못하게 합니다. 이후 %d 턴 동안 또 다른 투사체에 의해 피해를 입을 경우, 피해량을 절반만 가하는 대신, 움직임을 다시 봉쇄합니다.", "_t")
+t("Fires out a projectile in a clockwise arc. If it hits an enemy it deals %0.2f damage and roots them for one turn. If another projectile damages them within %d turns, they take half that damage and are rooted again.", "시계 방향으로 호를 그리며 나아가는 투사체를 발사합니다. 명중 시 %0.2f 피해를 주고 1 턴 동안 움직이지 못하게 합니다. 이후 %d 턴 동안 또 다른 투사체에 의해 피해를 입을 경우, 그 피해량의 절반을 추가로 받고 또 다시 움직이지 못하게 합니다.", "_t")
 t("Twilit Echoes", "황혼의 반향", "talent name")
 t([[The target feels the echoes of all your light and dark damage for %d turns. 
 
@@ -3994,10 +3994,10 @@ Light damage slows the target by %0.2f%% per point of damage dealt for %d turns,
 Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[대상은 빛과 어둠 피해의 반향을 %d 턴 동안 느낍니다. 
 
 대상은 %d 턴 동안, 빛 속성 피해 1 당 %0.2f%% 감속됩니다. 최대 %d 피해에서 %d%% 감속됩니다.
-어둠 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 어둠 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받던, 다른 요인으로 인해 어둠 피해를 받던, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과, 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
+어둠 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 어둠 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받든 다른 요인으로 인해 어둠 피해를 받든, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
 t("Starscape", "우주", "talent name")
 t("This spell cannot be cast here.", "이 주문을 이곳에서 시전할 수 없다.", "logPlayer")
-t("Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "주변 %d 칸 범위에 우주 그 자체를 %d 턴 동안 소환합니다. 그 동안 해당 장소는 정상적인 시간의 흐름에서 이탈하게 되고, 무중력 상태에 돌입하게 됩니다. 무중력 상태는 투사체 속도와 이동 속도를 3 배 느리게 합니다. 온갖 종류의 기술들은 이 기술의 효과가 종료될 때까지 우주의 범위 내에 남을 것입니다.", "tformat")
+t("Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "주변 %d 칸 범위에 우주 그 자체를 %d 턴 동안 소환합니다. 그 동안 해당 장소는 정상적인 시간의 흐름에서 이탈하게 되고, 무중력 상태에 돌입하게 됩니다. 무중력 상태는 투사체 속도와 이동 속도를 3 배 느리게 합니다. 각종 주문과 공격들은 우주가 사라질 때까지 그 범위 밖으로 벗어날 수 없습니다.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/npcs.lua"
@@ -4009,67 +4009,67 @@ t([[Gaze at your foes and turn them to stone for %d turns.
 		Stoned creatures are highly resistant to fire and lightning, and somewhat resistant to physical attacks.
 		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], [[적을 응시해 %d 턴 동안 돌로 변하게 합니다.
 		석화된 대상은 움직일 수도, 생명력을 재생할 수도 없으며 매우 연약해집니다.
-		석화된 대상은 최대 생명력의 30%% 이상의 피해를 받으면 부서져 산산히 조각납니다.
+		석화된 대상은 최대 생명력의 30%% 이상의 피해를 받으면 부서져 산산조각납니다.
 		석화된 대상은 화염과 전기에 대한 높은 저항력을 갖게 되고, 물리 공격에도 어느정도 잘 버티게 됩니다.
-		이 기술은 기절 면역력을 갖고 있는 개체에게는 실패할 수도 있습니다. 특히 석화 면역력을 가졌거나, 몇몇 보스들에게는 통하지 않습니다.]], "tformat")
-t("Gnashing Maw", "이를 가는 아가리", "talent name")
+		이 기술은 기절 면역력을 갖고 있는 개체에게는 실패할 수도 있습니다. 특히 석화 면역력을 가진 적이나, 몇몇 보스들에게는 통하지 않습니다.]], "tformat")
+t("Gnashing Maw", "악무는 아가리", "talent name")
 t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
 		Accuracy reduction chance increases with your Physical Power.]], [[무기로 대상을 공격해 %d%% 피해를 줍니다. 공격이 적중하면 대상의 명중률이 %d 턴 동안 %d 감소합니다.
 		명중률 감소 확률은 물리력에 비례하여 증가합니다.]], "tformat", {1,3,2})
 t("Sandrush", "모래 질주", "talent name")
-t("@Source@ dives in the sand!", "@Source1@ 모래속으로 뛰어들었다!", "_t")
+t("@Source@ dives in the sand!", "@Source1@ 모래 속으로 뛰어들었다!", "_t")
 t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
 t([[Dive into the sand and rush towards your target at up to range %d, gaining a free attack if you reach it.
 		At the exit point, up to 9 sand pits will appear that last for %d turns (based on your Strength).
-		You must rush from at least 2 tiles away.]], [[모래 속으로 들어가, 사거리 %d 칸 내의 적에게 돌진합니다. 적에게 닿는 순간, 턴을 소모하지 않는 공격을 가합니다.
-		대상 근처에, 최대 9 체의 모래 구덩이가 생기고, %d 턴 동안 유지됩니다 (힘에 비례하여 증가합니다).
+		You must rush from at least 2 tiles away.]], [[모래 속으로 파고든 다음 사거리 %d 칸 내의 적에게 돌진합니다. 적에게 닿는 순간, 턴을 소모하지 않는 공격을 가합니다.
+		빠져나온 지점 근처에 모래 구덩이가 최대 9 개 생기고, %d 턴 동안 유지됩니다 (힘 능력치에 비례).
 		적어도 2 칸 떨어진 적에게만 사용할 수 있습니다.]], "tformat")
 t("Ritch Larva Infect", "릿치 애벌레 감염", "talent name")
 t("@Source@ stings with her ovipositor!", "@Source2@ 산란관으로 찔렀다!", "_t")
 t([[Sting the target with your ovipositor, injecting %d larvae into it to finish their hatching process.
 		Over a 5 turn gestation period, the larvae will feed on the victim internally, dealing %0.2f to %0.2f physical damage each turn (increasing as they grow).
 		After the gestation period is complete, each larva will rip itself free of its host, dealing %0.2f physical and %0.2f fire damage.
-		]], [[대상을 산란관으로 찔러, %d 체의 애벌레를 주입 해, 부화 과정을 끝냅니다.
-		5 턴 후에 잉태 기간이 끝나, 애벌레가 대상의 내부를 파먹어 %0.2f - %0.2f 물리 피해를 매 턴 가합니다. (벌레가 자랄수록 피해량이 증가합니다.).
-		잉태 기간이 완료되면, 모든 애벌레가 숙주를 뚫고 나와 %0.2f 물리 피해와 %0.2f 화염 피해를 가합니다.
+		]], [[대상을 산란관으로 찔러, %d 체의 애벌레를 주입하고 부화 과정을 끝냅니다.
+		5 턴 간의 잉태 기간 동안, 애벌레가 숙주의 내부를 파먹어 %0.2f - %0.2f 물리 피해를 매 턴 가합니다 (벌레가 자랄수록 피해량이 증가합니다.).
+		잉태 기간이 끝나면, 모든 애벌레가 숙주를 뚫고 나와 %0.2f 물리 피해와 %0.2f 화염 피해를 가합니다.
 		]], "tformat")
-t("Slumbering...", "잠든다...", "talent name")
+t("Slumbering...", "잠들어 있다...", "talent name")
 t("@Source@ enters a deep slumber.", "@Source2@ 깊은 수면에 빠졌다.", "_t")
 t("#STEEL_BLUE#%s slumbers...", "#STEEL_BLUE#%s 잠잔다...", "saySimple", nil, {"는"})
 t("#CRIMSON#%s awakens!", "#CRIMSON#%s 깨어난다!", "saySimple", nil, {"가"})
-t("The Dead God slumbers. For now.", "죽은 신은 잠에 들었다. 지금으로써는.", "_t")
+t("The Dead God slumbers. For now.", "죽은 신은 잠에 들었습니다. 지금은요.", "_t")
 t("Tentacle Spawn", "촉수 소환", "talent name")
 t("@Source@ spawns a tentacle near @target@.", "@Source1@ @target@ 근처에 촉수를 소환했다.", "_t")
 t("You cannot summon; you are suppressed!", "방해를 받고 있어 사용할 수 없다!", "logPlayer")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("#ORCHID#%s summons a %s...", "#ORCHID#%s %s 소환한다...", "logCombat", nil, {"이","를"})
 t("#ORCHID#%s summons a %s...", "#ORCHID#%s %s 소환한다...", "saySimple", nil, {"이","를"})
-t("The Dead God wishes to tickle you...", "죽은 신은 널 간지럽히고 싶어 해...", "_t")
+t("The Dead God wishes to tickle you...", "죽은 신이 당신을 간지럽히고 싶어합니다...", "_t")
 t("Curse of Amakthel", "아마크텔의 저주", "talent name")
 t([[Create a circle of cursed ground (radius %d) for %d turns. Any foes inside will be cursed, all new negative effects on them will have their duration doubled.
-		]], [[반경 %d 칸의 저주의 마법진을 %d 턴 동안 새겨넣습니다. 내부의 모든 적은 저주 받아, 새로 받는 부정적 효과의 지속 시간이 2 배로 연장됩니다.
+		]], [[반경 %d 칸의 저주의 마법진을 %d 턴 동안 생성합니다. 내부의 모든 적은 저주를 받아, 새로 받는 부정적 효과의 지속시간이 2 배로 연장됩니다.
 		]], "tformat")
 t("Temporal Ripples", "시간의 파문", "talent name")
 t([[Creates a circle of radius %d of altered time for %d turns. Any damage your foes take while standing in it will heal the attacker for 200%% of the damage dealt.
-		]], [[%d 턴간 유지되는 반경 %d 칸의 대체 시간의 마법진을 새겨넣습니다. 내부의 모든 적이 받는 피해의 2 배 만큼 공격자의 생명력을 회복합니다.
-		]], "tformat", {2,1})
+		]], [[반경 %d 칸의 대체 시간의 마법진을 %d 턴 동안 생성합니다. 내부의 모든 적이 받는 피해의 2 배 만큼 공격자의 생명력을 회복합니다.
+		]], "tformat")
 t("Saw Storm", "톱날 폭풍", "talent name")
 t([[Summon a storm of swirling sawblades to slice your foes, inflicting %d physical damage and bleeding to anyone who approaches for %d turns.
-		The damage and duration will increase with your Mindpower.]], [[소용돌이 치는 톱날의 폭풍을 일으켜, 적들을 찢습니다. %d 물리 피해를 주고, 내부의 모든 대상에게 %d 턴 동안 지속되는 출혈을 유발합니다.
+		The damage and duration will increase with your Mindpower.]], [[소용돌이치는 톱날의 폭풍을 일으켜 적들을 찢습니다. %d 물리 피해를 가하고, 내부의 모든 대상에게 %d 턴 동안 지속되는 출혈을 유발합니다.
 		피해량과 지속 시간은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Razor Saw", "면도날 톱니", "talent name")
 t([[Launches a sawblade with intense power doing %0.2f physical damage to all targets in line.
-		The damage will increase with Mindpower]], [[톱날을 발사 해, 발사 경로의 모든 적에게 %0.2f 물리피해를 가합니다.
+		The damage will increase with Mindpower]], [[톱날을 발사해 발사 경로의 모든 적에게 %0.2f 물리 피해를 가합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Rocket Dash", "로켓 질주", "talent name")
 t("@Source@ rockets forward!", "@Source@의 로켓에 불이 붙었다!", "_t")
 t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there.
 		This attack does 130% weapon damage.
-		You must dash from at least 2 tiles away.]], [[로켓에 불을 붙여 앞으로 질주합니다
-		해당 위치에 닿으면, 적에게 턴을 소모하지 않는 근접 공격을 가합니다.
+		You must dash from at least 2 tiles away.]], [[로켓을 이용해 앞으로 질주합니다.
+		해당 위치에 적이 있다면, 적에게 턴을 소모하지 않는 근접 공격을 가합니다.
 		이 공격은 130% 무기 피해를 입힙니다.
-		적어도 2 칸 떨어진 적에게만 사용할 수 있습니다.]], "_t")
+		적어도 2 칸 떨어진 곳에 사용할 수 있습니다.]], "_t")
 t("Mind Controlled Yeti", "정신 지배된 예티", "talent name")
 
 ------------------------------------------------
@@ -4078,28 +4078,28 @@ section "tome-orcs/data/talents/misc/objects.lua"
 t("steam", "증기", "talent category")
 t("object techniques", "물체 전투기술", "talent type")
 t("Steam powers of the various objects of the world.", "세상의 다양한 물체에 대한 증기 능력들입니다.", "_t")
-t("Overgrowth", "과대성장", "talent name")
+t("Overgrowth", "과성장", "talent name")
 t([[Instantly grow a moss circle of radius %d at target area.
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.
 		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
 		The moss lasts %d turns.
 		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], [[일시적으로 반경 %d 칸의 이끼들을 급성장 시킵니다.
-		매 턴 이끼는 범위 내의 적에게 %0.2f 자연 피해를 입힙니다.
-		이 이끼는 두껍고 끈적이기 때문에, 이끼의 위의 적은 이동속도가 %d%% 감소하고, %d%% 확률로 4 턴 동안 속박됩니다.
+		The damage will increase with your Mindpower.]], [[일시적으로 반경 %d 칸의 이끼들을 급성장시킵니다.
+		이끼는 범위 내의 적에게 매 턴 %0.2f 자연 피해를 입힙니다.
+		이 이끼는 두껍고 끈적이기 때문에, 이끼 위의 적들은 이동속도가 %d%% 감소하고, %d%% 확률로 4 턴 동안 속박됩니다.
 		이끼는 %d 턴 동안 지속됩니다.
 		이끼 계열 기술들은 턴을 소모하지 않지만 다른 모든 이끼 기술에 3 턴의 재사용 대기시간을 적용합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
-t("Ceasefire", "휴전", "talent name")
-t("You require at least a steamgun for this talent.", "이 기술을 쓰려면 적어도 한 자루의 총이 필요하다.", "logPlayer")
+t("Ceasefire", "휴전 협상", "talent name")
+t("You require at least a steamgun for this talent.", "이 기술을 쓰려면 총이 한 자루는 필요하다.", "logPlayer")
 t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t([[You fire an incredibly potent shot at an enemy, doing %d%% damage and dazing them for %d turns.
-		The daze chance increases with your Steampower.]], [[적에게 믿을 수 없을 정도로 강력한 사격을 날려, %d%% 피해를 주고 %d 턴 동안 혼절시킵니다.
+		The daze chance increases with your Steampower.]], [[적에게 믿을 수 없을 정도로 강력한 사격을 날려 %d%% 피해를 주고 %d 턴 동안 혼절시킵니다.
 		혼절 확률은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Surekill", "확인 사살", "talent name")
 t([[You fire an exceptionally lethal shot at an enemy, doing %d%% damage.
 Damage dealt by this talent is increased by half your critical multiplier, if doing so would kill the target.]], [[적에게 매우 치명적인 사격을 가해 %d%% 피해를 가합니다.
-증폭된 피해로 적을 죽일 수 있을 때, 치명타 피해 증가량의 50%% 만큼 가하는 피해량이 증폭됩니다.]], "tformat")
+후술할 증폭된 피해로 적을 죽일 수 있으면, 치명타 피해 증가량의 50%% 만큼 가하는 피해량이 증폭됩니다.]], "tformat")
 t("Rocket Smash", "로켓 강타", "talent name")
 t("@Source@ rockets forward!", "@Source@의 로켓에 불이 붙었다!", "_t")
 t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
@@ -4107,9 +4107,9 @@ t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there and knock them back 4 spaces as well as anyone else they collide with.
 		This attack does 180% weapon damage.
 		You must dash from at least 2 tiles away.]], [[로켓을 이용해 돌진합니다.
-		해당 위치에 닿으면, 적에게 턴을 소모하지 않는 근접 공격을 가하고, 4 칸 밀칩니다. 밀쳐낸 적이 다른 적과 충돌하면, 그 적도 같이 밀쳐냅니다.
-		이 공격은 180% 의 무기 피해를 가합니다.
-		적어도 2 칸 떨어진 적에게만 사용할 수 있습니다.]], "_t")
+		해당 위치에 적이 있다면, 적에게 턴을 소모하지 않는 근접 공격을 가하고 4 칸 밀칩니다. 밀쳐낸 적이 다른 적과 충돌하면, 그 적도 같이 밀쳐냅니다.
+		이 공격은 180% 무기 피해를 가합니다.
+		적어도 2 칸 떨어진 곳에 사용할 수 있습니다.]], "_t")
 t("Laser Powered Smash", "레이저 강타", "talent name")
 t("@Source@ unleashes the power of the Gloryhammer!", "@Source2@ 글로리해머의 힘을 해방했다!", "_t")
 t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1.
@@ -4129,47 +4129,47 @@ t([[Your yeti is attuned to the cold climates.
 		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
 		The bonus will increase with your Willpower.]], [[예티 종족은 추운 기후에 적응했습니다.
 		5 턴 동안 시전자가 가하는 모든 공격이 %d%% 확률로 대상을 3 턴 동안 얼려버립니다.
-		지속 시간 중, 시전자는 간단하게 얼음을 관통할 수 있게 됩니다. 얼음의 피해 흡수량이 50%% 감소됩니다.
+		지속 시간 중, 시전자는 손쉽게 얼음을 관통할 수 있게 됩니다. 얼음의 피해 흡수량이 50%% 감소됩니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Thick Fur", "두꺼운 털", "talent name")
-t("Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "예티의 털은 방패처럼 기능해, 냉기 저항을 %d%%, 물리 저항을 %d%% 증가시키고, 주문 내성을 %d 증가시킵니다.", "tformat")
+t("Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "예티의 털은 방패 역할을 해, 냉기 저항을 %d%%, 물리 저항을 %d%%, 주문 내성을 %d 증가시킵니다.", "tformat")
 t("Resilient Body", "강인한 육체", "talent name")
 t([[Your yeti's body is very resilient to detrimental effects.
 		Each time you are hit by a physical, magical, or mental detrimental effect your body reacts with a burst of healing.
 		This effect heals for %d and can only occur up to 3 times per turn.
 		It increases with your Constitution stat.]], [[예티의 육체는 부정적인 효과에 굉장히 강인합니다.
-		부정적인 물리, 마법, 정신 효과에 적용 될 때마다, 강력한 회복 효과를 받습니다.
+		부정적인 물리, 마법, 정신 효과에 당할 때마다 강력한 회복 효과를 받습니다.
 		이 효과는 생명력을 %d 회복시키고, 한 턴에 최대 3 번만 일어납니다.
-		이 효과는 체격에 비례하여 증가합니다.]], "tformat")
+		이 효과는 체격 능력치에 비례하여 증가합니다.]], "tformat")
 t("Mindwave", "정신파", "talent name")
 t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic blast in cone of radius %d.
 		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
-		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], [[자신의 뇌의 일부분을 튀겨, 강력한 정신파를 반경 %d 칸의 원뿔 범위에 방출합니다.
-		범위 내의 적은 %0.2f 정신 피해를 받고, 35%% 위력의 혼란을 %d 턴 동안 적용합니다.
-		피해량은 체격에 비례하고, 혼란 내성 판정에 정신력, 주문력, 물리력 중 가장 높은 수치를 사용합니다.]], "tformat")
+		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], [[자신의 예티 뇌의 일부분을 튀겨, 강력한 정신파를 반경 %d 칸의 원뿔 범위에 방출합니다.
+		범위 내의 적은 %0.2f 정신 피해를 받고, 35%% 위력의 혼란을 %d 턴 동안 적용받습니다.
+		피해량은 체격 능력치에 비례하고, 혼란 내성 판정에 정신력, 주문력, 물리력 중 가장 높은 수치를 사용합니다.]], "tformat")
 t("whitehooves", "화이트후프", "talent type")
 t("Whitehooves", "화이트후프", "talent name")
 t([[Improves your undead body, increasing Strength and Magic by %d.
 		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
-		Each turn spent not moving you lose a charge.]], [[언데드 신체를 강화하여, 힘과 마법이 %d 증가합니다.
-		또한 이동할 때마다 최대 %d 번 중첩되는 죽음의 기세 중첩을 얻어, 이동 속도를 20%% 늘립니다.
-		이동을 하지 않으면, 중첩을 하나씩 잃게 됩니다.]], "tformat")
+		Each turn spent not moving you lose a charge.]], [[언데드 육체를 강화하여 힘과 마법이 %d 증가합니다.
+		또한 이동할 때마다 최대 %d 번 중첩되는 죽음의 기세 중첩을 얻어, 중첩 당 이동 속도가 20%% 증가합니다.
+		이동을 하지 않으면 중첩을 하나씩 잃게 됩니다.]], "tformat")
 t("Dead Hide", "죽은 가죽", "talent name")
-t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "언데드 가죽이 부하로 인해 경화됩니다. 죽음의 기세 중첩 마다, 모든 속성에 대한 고정 피해 감소 %d 를 얻습니다.", "tformat")
+t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "언데드 가죽이 부하로 인해 경화됩니다. 죽음의 기세 중첩 당 모든 속성에 대한 고정 피해 감소 %d 를 얻습니다.", "tformat")
 t("Lifeless Rush", "생기없는 돌진", "talent name")
 t([[You summon your undead energies to instantly build up death momentum to its maximum possible charges.
 		The effect will only start to decrease after %d turns.
-		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], [[죽음의 에너지를 불러내, 즉시 죽음의 기세를 최대치로 얻습니다.
+		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], [[불사의 에너지를 불러내어 즉시 죽음의 기세 중첩을 최대치까지 얻습니다.
 		이 효과는 시전한 뒤 %d 턴 후에 완전히 사라집니다.
-		추가로, 매 죽음의 기세 중첩 당 가하는 모든 피해가 +%d%% 증가합니다.]], "tformat")
+		추가로, 죽음의 기세 중첩 당 가하는 모든 피해가 %d%% 증가합니다.]], "tformat")
 t("Essence Drain", "정수 흡수", "talent name")
 t([[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
 		The darkness will drain a part of its life essence (only works on living targets) to increase the duration before the next charge of death momentum is used by %d.
 		Only usable when you have the death momentum effect.
-		The damage scales with your Magic stat.]], [[어둠의 파장를 적에게 내보내, %0.2f 어둠 피해를 줍니다.
-		이 어둠은 적의 생명 정수 일부분을 흡수하여 죽음의 기세의 지속시간을 %d 턴 증가시킵니다. (이 효과는 살아있는 생명체에게만 영향을 미칩니다) 이 기술을 발동하면, 죽음의 기세의 중첩을 하나 잃습니다.
+		The damage scales with your Magic stat.]], [[어둠의 파장을 적에게 내보내어 %0.2f 어둠 피해를 줍니다.
+		이 어둠은 적의 생명 정수 일부분을 흡수하여 죽음의 기세 중첩이 감소할 때까지의 시간을 %d 턴 증가시킵니다 (이 효과는 살아있는 생명체에게만 영향을 미칩니다).
 		이 기술은 죽음의 기세의 효과를 받고 있을 때만 사용 가능합니다.
-		피해량은 마법에 비례하여 증가합니다.]], "tformat")
+		피해량은 마법 능력치에 비례하여 증가합니다.]], "tformat")
 
 
 ------------------------------------------------
@@ -4177,7 +4177,7 @@ section "tome-orcs/data/talents/psionic/action-at-a-distance.lua"
 
 t("Condensate", "응축", "talent name")
 t([[Condensate hot steam around your foes in radius %d, burning them for %0.2f fire damage and applying the wet effect for 4 turns, halving their stun resistances.
-		The damage will increase with your Mindpower.]], [[뜨거운 증기를 반경 %d 칸 내의 적에게 응축시킵니다. 적을 불태워 %0.2f 화염 피해를 주고, 젖음 효과를 4 턴 동안 부여합니다. 젖음은 기절 면역력을 반으로 줄입니다.
+		The damage will increase with your Mindpower.]], [[뜨거운 증기를 반경 %d 칸 내의 적들에게 응축시킵니다. 적들에게 화상을 입혀 %0.2f 화염 피해를 주고, 젖음 효과를 4 턴 동안 부여합니다. 젖음은 기절 면역력을 반으로 줄입니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Solidify Air", "공기 응고", "talent name")
 t("solid air", "응고된 공기", "_t")
@@ -4187,21 +4187,21 @@ t([[You concentrate your will in a cone in front of you, condensing the air into
 		Any places with no creatures will be filled with solid air, blocking the way for %d turns.
 		The damage will increase with your Mindpower.]], [[원뿔 범위 내에 의지를 집중시켜, 공기를 만질 수 있을 정도로 굳혀버립니다.
 		범위 내의 대상은 %0.2f 물리 피해를 받습니다.
-		비어진 공간은 응고된 공기로 채워져, %d 턴 동안 이동을 막습니다.
+		빈 공간은 응고된 공기로 채워져 %d 턴 동안 이동을 막습니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Superconduction", "초전도", "talent name")
 t([[Call a streak of lightning on your target, dealing %0.2f to %0.2f lightning damage.
 		If it is wet the lightning propagates to all foes in radius %d, doing the same damage to each.
 		All affected foes are seared for 4 turns, reducing their fire resistance by %d%% and and mind save by %d.
-		The damage will increase with your Mindpower.]], [[대상에게 번개를 내리쳐, %0.2f - %0.2f 전기 피해를 가합니다
-		대상이 젖음 상태일 경우, 반경 %d 칸 내의 모든 적에게 전류가 퍼져, 같은 수치의 피해를 가합니다.
-		영향을 받은 적은 4 턴 동안 그을려, 화염 저항이 %d%% 감소하고, 정신 내성이 %d 감소합니다.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Negative Biofeedback", "부정적인 생체 반작용", "talent name")
+		The damage will increase with your Mindpower.]], [[대상에게 번개를 내리쳐 %0.2f - %0.2f 전기 피해를 가합니다
+		대상이 젖음 상태일 경우, 반경 %d 칸 내의 모든 적에게 전류가 퍼져 같은 수치의 피해를 가합니다.
+		영향을 받은 적은 그을리게 되어 4 턴 동안 화염 저항이 %d%%, 정신 내성이 %d 감소합니다.
+		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
+t("Negative Biofeedback", "생체 제어", "talent name")
 t([[Any time you deal damage with a psionic ability you incur a negative biofeedback in your foes, stacking up to %d times for 5 turns.
 		Each stack reduces their physical save by %d, defense and armour by %d.
-		This effect may only occur once per turn.]], [[시전자가 초능력 기술로 피해를 가할 때마다, 적에게 부정적인 생체 반작용을 일으킵니다. 5 턴 동안 지속되며, 최대 %d 번 중첩됩니다.
-		매 중첩은 적의 물리 내성을 %d 감소시키고, 방어력과 회피도를 %d 감소시킵니다.
+		This effect may only occur once per turn.]], [[시전자가 초능력 기술로 피해를 가할 때마다 적에게 음성 바이오피드백를 일으켜 제어합니다. 이는 5 턴 동안 지속되며, 최대 %d 번 중첩됩니다.
+		매 중첩은 적의 물리 내성을 %d, 방어력과 회피도를 %d 감소시킵니다.
 		이 효과는 한 턴에 한 번 일어납니다.]], "tformat")
 
 ------------------------------------------------
@@ -4211,33 +4211,33 @@ t("Gestalt", "게슈탈트", "talent name")
 t([[You let your mind tap into your steam generators for energy, increasing your Mindpower in proportion to your steam level: %d when at full steam and 0 when at 0 steam.
 		Using a psionic talent will feedback into your generators, increasing your Steam power by %d for your next steamtech talent.
 		Using a steamtech talent will feedback into psionic focus, increasing your psi level by %d.
-		The effects increase with your Willpower.]], [[증기 발생기에 정신을 연결해 에너지를 공급받습니다. 정신력이 남아있는 증기 수치에 비례하여 향상됩니다. 증기가 가득 차있을 때 %d / 증기가 0 일 때 0 증가합니다.
-		초능력 기술을 사용할 때마다, 증기 생성기에 반작용이 공급되어, 다음 증기 공학 계통 기술 사용 시 증기력이 %d 추가됩니다.
-		증기 공학 계통 기술을 사용할 때마다, 초능력 집중에 반작용이 공급되어 염력을 %d 회복합니다.
-		이 효과는 의지에 비례하여 증가합니다.]], "tformat")
-t("Improved Gestalt", "진보한 게슈탈트", "talent name")
+		The effects increase with your Willpower.]], [[증기 발생기에 정신을 연결하여 그 에너지를 이용합니다. 남아있는 증기 수치에 비례하여 정신력이 증가합니다 (증기가 가득 차 있을 때 %d / 증기가 0 일 때 0).
+		초능력 기술을 사용할 때마다 증기 발생기에 반작용이 공급되어, 다음 번에 증기 공학 계통 기술을 사용할 때 증기력이 %d 추가됩니다.
+		증기 공학 계통 기술을 사용할 때마다 초능력 집중에 반작용이 공급되어, 염력을 %d 회복합니다.
+		이 효과는 의지 능력치에 비례하여 증가합니다.]], "tformat")
+t("Improved Gestalt", "향상된 게슈탈트", "talent name")
 t([[When you use a steamtech talent while Gestalt is active you drain some residual power to form a psionic shield.
 		The shield forms for 3 turns and absorbs %d damage.
-		The effects increase with your Mindpower.]], [[게슈탈트 활성화 중, 증기 공학 계통 기술을 쓸 때마다, 사용하고 남은 힘의 일부를 흡수해 초능력 보호막을 생성합니다.
+		The effects increase with your Mindpower.]], [[게슈탈트 활성화 중 증기 공학 계통 기술을 쓸 때마다, 사용하고 남은 힘의 일부를 흡수해 초능력 보호막을 생성합니다.
 		보호막은 3 턴 동안 지속되며, %d 피해를 흡수합니다.
 		효과는 정신력에 비례하여 증가합니다.]], "tformat")
 t("Instant Channeling", "순간 집중", "talent name")
-t("You must have either a psionic damage shield active or Improved Gestalt available to use this talent.", "초능력 피해 보호막이 활성화되거나, 진보한 게슈탈트를 쓸 수 있어야 이 기술을 사용할 수 있다.", "logPlayer")
+t("You must have either a psionic damage shield active or Improved Gestalt available to use this talent.", "초능력 피해 보호막이 활성화되거나, 향상된 게슈탈트를 쓸 수 있어야 이 기술을 사용할 수 있다.", "logPlayer")
 t([[Instantly channel all of your remaining steam to replenish your psi energies and either enhance your active psionic damage shield or trigger a new one.
 		The (new or existing) shield duration is increased by 3 turns and its power is boosted by %d%% of the steam used.
 		You restore psi equal to %d%% of the steam used.
-		This talent requires Gestalt to be active and either an active psionic damage shield or Improved Gestalt off cooldown.]], [[순간적으로 모든 정신을 모아, 증기를 모두 배출하고, 초능력 에너지로 전환시킵니다. 또한  초능력 피해 보호막을 생성하거나, 새로 갱신해 지속 시간을 3 턴 연장합니다. 보호막의 강도는 사용된 증기의 %d%% 입니다.
+		This talent requires Gestalt to be active and either an active psionic damage shield or Improved Gestalt off cooldown.]], [[순간적으로 남아있는 증기를 전부 배출하여 염력을 보충하고, 초능력 보호막을 강화하거나 새로 만들어냅니다. 이 효과로 강화되거나 만들어진 초능력 보호막의 지속시간은 3 턴 연장되고, 보호막의 강도는 사용한 증기의 %d%% 만큼 강화됩니다.
 		시전자는 사용된 증기의 %d%% 에 해당하는 염력을 회복합니다.
-		초능력 피해 보호막이 활성화되거나, 진보한 게슈탈트를 쓸 수 있어야 이 기술을 사용할 수 있습니다.]], "tformat")
+		초능력 피해 보호막이 활성화되거나, 향상된 게슈탈트를 쓸 수 있어야 이 기술을 사용할 수 있습니다.]], "tformat")
 t("Forced Gestalt", "강제된 게슈탈트", "talent name")
 t([[Temporarily expand your mind to force your Gestalt upon your foes in a radius of 5. Up to %d foe(s) will be affected.
 		The Gestalt will drain each affected foe's powers (physical power, mind power, spell power and steam power) by %d for 5 turns.
 		Your own powers will be increased in return by the drained amount (reduced for each additional foe).
 		In addition for 5 turns you can sense creatures beyond your sight, even through walls in radius %d.
-		The effects improve with your Mindpower.]], [[일시적으로 정신을 확장해, 반경 5 칸 내의 적에게 게슈탈트를 강제합니다. 최대 %d 체의 적이 영향을 받습니다.
-		게슈탈트는 영향을 받은 적의 물리력, 정신력, 주문력, 증기력 %d 를 5 턴 동안 흡수합니다.
-		시전자의 물리, 정신, 주문, 증기력은 흡수한 만큼 상승합니다 (그러나 흡수한 적이 많아질 수록, 흡수량이 적어집니다.)
-		추가로 5 턴 동안 시전자는 시야와 벽 너머의 존재를 느낄 수 있게 되어, %d 칸 내의 모든 것을 감지할 수 있게 됩니다.
+		The effects improve with your Mindpower.]], [[일시적으로 정신을 확장하여 반경 5 칸 내의 적들에게 게슈탈트를 강제합니다. 최대 %d 체의 적이 영향을 받습니다.
+		게슈탈트는 5 턴 동안 영향을 받은 적의 물리력, 정신력, 주문력, 증기력을 %d 만큼 흡수합니다.
+		시전자의 물리, 정신, 주문, 증기력은 흡수한 만큼 상승합니다 (그러나 흡수한 적이 많아질수록 흡수량이 적어집니다).
+		추가로 5 턴 동안 시전자는 반경 %d 칸 내에서 시야와 벽 너머에 있는 존재들을 느낄 수 있게 됩니다.
 		이 효과는 정신력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -4248,27 +4248,27 @@ t([[You concentrate your will to psychoport some of the steam of your generator 
 		When you deactivate the effect you release the accumulated psionic and steam energies, instantly switching places with the target location and releasing the charges in a fiery explosion of hot wet steam in radius 4.
 		The explosion will do %0.2f fire damage, multiplied by 33%% (diminutive) for each charge and apply the wet effect.
 		The effect will fizzle if the charged grid is currently occupied by a creature or not in sight.
-		The damage will increase with your Steampower.]], [[의지를 집중해 증기 발생기의 증기 일부를 정신 이동시킵니다. 매 턴 증기가 해당 위치에 축적되고, 최대 %d 번 중첩됩니다.
-		이 기술을 비활성화 할 때, 시전자는 모아둔 초능력과 증기 에너지를 해방시켜 즉시 해당 지역으로 이동하고, 모아둔 증기 중첩을 터뜨려 현재 위치에 반경 4 칸의 뜨거운 수증기 폭발을 일으킵니다.
-		폭발은 %0.2f 화염 피해를 입히고, 매 중첩 당 피해량이 상승하지만, 중첩으로 인한 피해량 증가는 점점 감쇠됩니다. 1 중첩 시 피해량은 33%% 상승합니다. 폭발에 휘말린 적은 젖음 상태가 됩니다.
-		비활성화 시, 해당 지역에 누군가 있는 경우, 또는 시야 밖에 있을 경우 기술이 실패합니다.
+		The damage will increase with your Steampower.]], [[의지를 집중해 증기 발생기의 증기 일부를 순간이동시킵니다. 매 턴 증기가 해당 위치에 축적되고, 최대 %d 번 중첩됩니다.
+		이 기술을 비활성화하면 시전자는 모아둔 초능력과 증기 에너지를 해방시켜 축적된 증기와 즉시 위치를 서로 바꾼 다음, 해당 증기를 폭발시켜 반경 4 칸의 뜨거운 수증기 폭발을 일으킵니다.
+		폭발은 %0.2f 화염 피해를 입히고, 매 중첩 당 피해량이 33%%씩 상승하지만, 중첩으로 인한 피해량 증가량은 점점 감소합니다. 폭발에 휘말린 적은 젖음 상태가 됩니다.
+		비활성화했을 때 축적된 증기의 위치에 누군가 있는 경우, 또는 증기가 시야 밖에 있을 경우 기술이 실패합니다.
 		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Inhale Vapours", "증기 흡입", "talent name")
 t([[When you deactivate Vaporous Step, if the psychoport succeeds you inhale some of the vapours, regenerating %d steam and %d life.
 		The effects will be multiplied by 33%% (diminutive) for each charge of Vaporous Step.
-		The healing done will increase with your Mindpower.]], [[증기 걸음을 비활성화하여 정신 이동에 성공하면, 중첩된 증기의 일부를 들이마셔 증기를 %d 회복하고, 생명력을 %d 회복합니다.
-		매 중첩 당 회복량 상승하지만, 중첩으로 인한 회복량 증가는 점점 감쇠됩니다. 1 중첩 시 회복량은 33%% 상승합니다.
+		The healing done will increase with your Mindpower.]], [[증기 걸음을 비활성화하여 순간이동에 성공하면 축적된 증기의 일부를 들이마셔 증기를 %d, 생명력을 %d 회복합니다.
+		매 중첩 당 회복량이 33%%씩 상승하지만, 중첩으로 인한 회복량 증가량은 점점 감소합니다.
 		회복량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Psionic Fog", "초능력 안개", "talent name")
 t([[Using the steam of your generators you shape it into a psionic fog that lasts %d turns. Any foes caught inside will take %0.2f damage per turn and be seared, reducing their fire resistance by %d%% and and mind save by %d.
-		The damage will increase with your Mindpower.]], [[증기 발생기의 증기를 일부 사용해, 초능력 안개로 다시 빛어냅니다. 안개는 %d 턴 동안 지속됩니다. 안개 내의 모든 적은 매 턴 %0.2f 피해를 받고 증기에 데여, 화염 저항력이 %d%% 감소하고, 정신 내성이 %d 감소됩니다.
+		The damage will increase with your Mindpower.]], [[증기 발생기의 증기를 일부 사용하여 %d 턴 동안 지속되는 초능력 안개를 빚어냅니다. 안개 내의 모든 적은 매 턴 %0.2f 피해를 받고, 증기에 데여 화염 저항력이 %d%%, 정신 내성이 %d 감소됩니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
-t("Uncertainty Principle", "불확실성 원리", "talent name")
+t("Uncertainty Principle", "불확정성 원리", "talent name")
 t("#STEEL_BLUE#(%d quantum shifted)#LAST#", "#STEEL_BLUE#(%d 양자 왜곡)#LAST#", "tformat")
 t([[While inside a psionic fog the quantum state of space is warped by your powerful tech-augmented psionic powers.
 		When you would get hit you instead find yourself in an adjacent location.
-		This effect has a cooldown.]], [[초능력 안개에 있을 때, 강력한 기술 강화 초능력으로 인해 공간의 양자 상태가 왜곡됩니다.
-		피격 시, 받게 되는 피해가 인접한 칸으로 전송됩니다.
+		This effect has a cooldown.]], [[초능력 안개 속에 있으면 공학이 가미된 강력한 초능력으로 인해 공간의 양자 상태가 왜곡됩니다.
+		피격 시, 받게 되는 피해가 인접한 칸으로 전달됩니다.
 		이 효과는 재사용 대기시간이 존재합니다.]], "tformat")
 
 ------------------------------------------------
@@ -4280,7 +4280,7 @@ t("Harness steam energies to power your own mind.", "증기 에너지를 이용�
 t("action at a distance", "원격 조작", "talent type")
 t("Focus your mental energies to make things happen. Or combust.", "정신 에너지를 집중하여 다양한 결과를 초래합니다. 아니면 그냥 불태워 버리던가요.", "_t")
 t("psionic fog", "초능력 증기", "talent type")
-t("Psionically manipulate steam to harass your foes and protect yourself.", "초능력적으로 조작된 증기를 이용하여 적을 괴롭히고, 스스로를 지킵니다.", "_t")
+t("Psionically manipulate steam to harass your foes and protect yourself.", "초능력으로 조작된 증기를 이용하여 적을 괴롭히고, 스스로를 지킵니다.", "_t")
 
 
 ------------------------------------------------
@@ -4292,10 +4292,10 @@ t([[You summon a galvanic rod at a location. Upon arrival the rod releases a sho
 		You have 3 rods each with their own %d turns cooldown.
 		This spell works with Burning Wake.
 		This spell has 25%% chance to try to activate Hurricane, if used.
-		The damage will increase with your Spellpower.]], [[전열 막대를 해당 지역에 소환합니다. 전열 막대는 소환 즉시, 반경 %d 칸 내에 %0.2f 전열 피해를 (화염과 전기 피해) 모든 적에게 가합니다.
-		시전자는 3 개의 막대를 사용할 수 있으며, 각각의 전열 막대는 %d 턴의 재사용 대기시간을 갖고 있습니다.
+		The damage will increase with your Spellpower.]], [[전열 막대를 해당 위치에 소환합니다. 전열 막대는 소환 즉시, 반경 %d 칸 내의 모든 적에게 %0.2f 전열 피해 (화염과 전기 피해) 를 가합니다.
+		막대는 3 개 까지 사용할 수 있으며, 각 막대는 %d 턴의 재사용 대기시간을 갖고 있습니다.
 		이 주문은 타오르는 궤적의 효과를 받습니다.
-		태풍이 눈이 유지 중이라면, 이 주문은 25%% 확률로 태풍을 일으킵니다.
+		태풍이 눈이 활성화 중이라면 이 주문은 25%% 확률로 태풍을 일으킵니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Galvanic Arcing", "전열 전류 연결", "talent name")
 t([[Using your arcane power you force galvanic rods to linger for %d turns. While lingering they are inert, but can link up to other rods.
@@ -4306,38 +4306,38 @@ t([[Using your arcane power you force galvanic rods to linger for %d turns. Whil
 		At level 3 all affected creatures are shocked, reducing their stun and pin resistances by half.
 		At level 5 your weapon (if metallic, or embedded with a metallic tinker) acts as a rod that does not count towards your maximum.
 		This spell has 15%% chance to try to activate Hurricane, if used.
-		The damage will increase with your Spellpower.]], [[마법의 힘을 이용해, 전열 막대의 지속시간을 강제로 %d 턴 연장합니다. 강제로 연장된 시간 동안 전열 막대는 비활성화 상태지만, 여전히 다른 막대들과 연결될 수 있습니다.
-		2 개의 전열 막대가 반경 %d 칸 안에 존재할 시, 전열 전류로 연결됩니다.
-		3 개의 전열 막대가 반경 %d 칸 안에 존재할 시, 삼각형의 전열 지대를 형성합니다.
+		The damage will increase with your Spellpower.]], [[마법의 힘으로 전열 막대의 지속시간을 강제로 %d 턴 연장합니다. 강제로 연장된 시간 동안 전열 막대는 비활성화 상태지만, 변함없이 다른 막대들과 연결될 수 있습니다.
+		2 개의 전열 막대가 서로의 반경 %d 칸 안에 존재한다면 막대들은 전열 전류로 연결됩니다.
+		3 개의 전열 막대가 서로의 반경 %d 칸 안에 존재한다면 막대들은 삼각형의 전열 지대를 형성합니다.
 		전열 전류나 전열 지대에 진입한 모든 개체는 매 턴 %0.2f 전열 피해를 받습니다.
-		최대 3 개의 전열 막대를 유지할 수 있습니다.
+		유지할 수 있는 전열 막대는 최대 3 개까지입니다.
 		기술 레벨 3 일 때, 영향을 받은 모든 개체에 전기 충격 효과를 일으켜 기절 면역력과 속박 면역력을 절반으로 감소시킵니다.
 		기술 레벨 5 일 때, 시전자의 무기는 (금속 재질이거나, 금속제 발명품을 장착 시) 전열 막대처럼 작동하며, 이는 전열 막대 개수 제한에 포함되지 않습니다.
-		태풍이 눈이 유지 중이라면, 이 주문은 15%% 확률로 태풍을 일으킵니다, if used.
+		태풍이 눈이 활성화 중이라면 이 주문은 15%% 확률로 태풍을 일으킵니다, if used.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Unstable Blast", "불안정한 폭발", "talent name")
 t("You need Galvanic Arcing active and at least one rod to cast this spell.", "이 기술을 사용하기 위해서는 전열 전류 연결이 활성화되어 있으며, 여유 전열 막대가 적어도 하나는 있어야 한다.", "logPlayer")
 t([[Reaching through the aether you temporarily destabilize a galvanic rod's control systems. (Using your weapon as a rod does not count as a valid target)
 		This creates a blast in radius 1 around it, or through all connected rods if they are linked dealing %0.2f galvanic damage to all creatures and stunning them for %d turns.
 		This spell works with Burning Wake.
-		The damage will increase with your Spellpower.]], [[에테르의 힘을 이용하여, 전열 막대의 제어 시스템을 일시적으로 폭주시킵니다. (시전자의 무기가 전류 막대의 기능을 하고 있더라도, 이 기술의 대상으로 인식되지는 않습니다)
+		The damage will increase with your Spellpower.]], [[에테르의 힘을 이용하여 전열 막대의 제어 시스템을 일시적으로 폭주시킵니다. (시전자의 무기가 전열 막대의 기능을 하고 있더라도 이 기술의 대상이 되지는 않습니다)
 		전열 전류 연결 중인 모든 전열 막대에 반경 1 칸의 폭발이 일어납니다. 폭발은 %0.2f 전열 피해를 모든 개체에게 입히며, %d 턴 동안 기절시킵니다.
 		이 주문은 타오르는 궤적의 효과를 받습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Energy Mass Conversion", "에너지 질량 변환", "talent name")
-t("You need Galvanic Arcing active and three rods to cast this spell.", "이 기술을 사용하기 위해 전열 지대를 형성해야 한다.", "logPlayer")
+t("Energy Mass Conversion", "에너지 질량 전환", "talent name")
+t("You need Galvanic Arcing active and three rods to cast this spell.", "이 기술을 사용하기 위해서는 전열 지대를 형성해야 한다.", "logPlayer")
 t([[Using large amounts of arcane power you create a supercharged Unstable Blast in your rods.
 		The extra energy is briefly converted to a huge mass, pulling in all creatures (but you) in range %d of any rod towards the center of the galvanic field.
-		Can only be used with a triangular field is setup.]], [[엄청난 양의 마법력을 쏟아 부어, 과충전된 불안정한 폭발을 전열 막대에 일으킵니다.
-		폭발 이후 남은 에너지는 막대한 질량으로 변환되어, 반경 %d 칸 내의 시전자를 제외한 모든 개체를 전열 지대 한 가운데로 끌어모읍니다.
-		이 기술은 전열 지대가 형성되어야 사용이 가능합니다.]], "tformat")
+		Can only be used with a triangular field is setup.]], [[엄청난 양의 마법력을 쏟아부어, 전열 막대들에 과충전된 불안정한 폭발을 일으킵니다.
+		폭발 이후 남은 에너지는 막대한 질량으로 전환되어, 반경 %d 칸 내의 시전자를 제외한 모든 개체를 전열 지대 한가운데로 끌어모읍니다.
+		이 기술은 전열 지대가 형성되어 있어야 사용이 가능합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/occult-technomancy.lua"
 
 t("Metaphasic Spin", "위상 초월 회전", "talent name")
 t("You need an arcane dynamo to cast this spell.", "이 기술을 사용하려면 비전 발전기가 필요하다.", "logPlayer")
-t("Select the steamsaw to use?", "어떤 증기톱을 사용할지 선택해주세요.", "_t")
+t("Select the steamsaw to use?", "어떤 증기톱을 사용합니까?", "_t")
 t([[You imbue a steamsaw with arcane and temporal forces, making it spin very fast around your waist (ignoring requirements).
 		The saw spins so fast it it disturbs spacetime around you, increasing your spellpower by up to %d, your spell critical chance by up to %d and your mana regen by up to %0.1f (depending on steamsaw tier).
 		Any successful melee attack against you also triggers an automatic steamsaw attack that cannot miss dealing %d%% weapon damage as occult damage (arcane and temporal).
@@ -4346,65 +4346,65 @@ t([[You imbue a steamsaw with arcane and temporal forces, making it spin very fa
 		If using Aether Avatar, all Occult Technomancy spells become usable for its duration and all occult damage becomes pure arcane.
 
 		#{italic}#When you first learn this talent you also learn the Steamsaw tinker creation if you didn't already know it.#{normal}#
-		]], [[증기톱을 비전과 시간의 힘으로 강화해, 시전자의 허리 둘레에서 미친듯이 빠르게 회전하게 합니다. (장착 제한을 무시합니다).
-		증기 톱은 시전자 주위의 시공간을 흐트러놓을 정도로 빠르게 회전해, 시전자의 주문력을 최대 %d, 치명타 확률을 %d 증가 시키고, 마나 재생을 최대 %0.1f 증가시킵니다. (증기 톱의 등급에 비례해 증가합니다).
-		근접 공격 피격 시, 자동적으로 빗나가지 않는 증기톱 공격을 가해, %d%% 무기 피해를 비술 피해로 (비전과 시간 피해) 입힙니다.
-		증기톱으로 얻는 능력치 상승은 그대로 적용되지만, 공격을 막을 수는 없습니다.
-		증기톱 피해량을 %d%% 상승시키고, 피해량을 계산할 때 힘 대신 마법을 이용하여 피해량을 산출합니다.
-		만약 에테르의 화신이 활성화되어 있을 경우, 모든 비술 마도공학 계열의 주문이 모두 순수 비전 피해를 입히게 됩니다.
+		]], [[증기톱에 비전과 시간의 힘을 가득 채워, 시전자의 허리 주변에서 미친듯이 빠르게 회전하게 합니다 (장착 요구 조건을 무시합니다).
+		톱은 시전자 주위의 시공간을 불안정하게 만들 정도로 빠르게 회전해, 시전자의 주문력을 최대 %d, 치명타 확률을 %d, 마나 재생을 최대 %0.1f 증가시킵니다. (증기톱의 등급에 비례해 증가합니다).
+		근접 공격에 맞게 되면 자동적으로 빗나가지 않는 증기톱 반격을 가해, %d%% 무기 피해를 비술 피해 (비전과 시간 피해) 로 입힙니다.
+		증기톱으로 얻는 능력치 상승은 그대로 적용되지만, 이걸로 공격을 막을 수는 없습니다.
+		증기톱의 피해량을 %d%% 상승시키고 피해량을 계산할 때 힘 대신 마법을 이용합니다.
+		만약 에테르의 화신이 활성화되어 있다면, 비술 마도공학 계열의 모든 주문이 순수 비전 피해를 입히게 됩니다.
 
 		#{italic}#이 기술을 배움과 동시에 증기톱의 설계도를 얻게 됩니다.#{normal}#
 		]], "tformat")
 t("Reality Breach", "현실 균열", "talent name")
-t("You need to activate Metatemporal Spinner to cast this spell.", "이 기술을 사용하려면 위상 초월 회전이 활성화되어야 한다.", "logPlayer")
+t("You need to activate Metatemporal Spinner to cast this spell.", "이 기술을 사용하려면 위상 초월 회전이 활성화되어 있어야 한다.", "logPlayer")
 t("#Source# annihilates '#Target#'!", "#Source1# '#Target3#' 섬멸했다!", "logCombat")
 t([[Spin your saw at incredible speeds for an instant, fully breaking reality in a 3-wide beam in front of you.
 		Any creatures caught by the beam take %0.2f occult damage and are untethered from reality, reducing their global speed by %d%% and the speed of any projectiles they fire by %d%% for 4 turns.
 		At level 3 any projectiles caught in the beam are instantly annihilated.
 		At level 5 the beam is so strong that all creatures caught inside are knocked back 3 tiles.
 		The breach is so deep that the beam will always have the maximum possible length it can.
-		The damage will increase with your Spellpower.]], [[짧은 시간 동안 톱을 믿을 수 없는 속도로 빠르게 회전시켜, 현실의 구조를 완전히 파괴시키는 3 칸 두께의 광선을 쏘아냅니다.
-		광선 내의 모든 개체는 %0.2f 비술 피해를 받고, 현실에서 잠시 벗어나게 되어, 4 턴 동안 전체 속도가 %d%% 감소하고, 영향을 받은 적이 발사하는 투사체 속도 역시 %d%% 감소하게 됩니다.
+		The damage will increase with your Spellpower.]], [[짧은 시간 동안 톱을 믿을 수 없는 속도로 빠르게 회전시켜, 현실의 구조를 완전히 파괴하고 3 칸 두께의 광선을 쏘아냅니다.
+		광선에 맞은 개체는 %0.2f 비술 피해를 받고, 현실에서 잠시 벗어나게 되어 4 턴 동안 전체 속도가 %d%% 감소합니다. 영향을 받은 적이 발사하는 투사체 속도 역시 %d%% 감소하게 됩니다.
 		기술 레벨 3 에서, 광선 안의 모든 투사체는 즉시 섬멸됩니다.
-		기술 레벨 5 에서, 광선은 무지막지한 힘을 발휘하게 되어, 광선 내의 모든 개체를 3 칸 밀쳐냅니다.
-		현실 구조에 입히는 균열은 너무나도 깊어, 광선은 언제나 최대 사거리로 발사됩니다.
+		기술 레벨 5 에서, 광선은 무지막지한 힘을 발휘하게 되어, 광선을 맞은 모든 개체를 3 칸 밀쳐냅니다.
+		현실에 발생한 균열은 너무나도 깊어, 광선은 언제나 최대 사거리로 발사됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Ethereal Steam", "에테르의 증기", "talent name")
+t("Ethereal Steam", "에테르 증기", "talent name")
 t([[You reach out through the aether to all creatures in sight that were slowed by Reality Breach or Congeal Time.
 		For each target you create a link of arcane infused steam to it that lasts %d turns.
 		Any time the target uses a talent one of your cooling down spells is reduced by 1 (prioritizing Technomancy spells).
 		Each turn the link is up the target and any creature inside the link takes %0.2f occult damage.
 		As long as at least one link is up, the cooldown of your Metaphasic Spin spell is set to 6 turns instead of 30.
-		The damage will increase with your Spellpower.]], [[에테르의 힘을 끌어 모아 시야 내의 현실 균열이나 시간 동결으로 인해 느려진 적에게 풀어놓습니다.
-		각각의 대상은 비전의 힘이 주입된 증기로 %d 턴 동안 연결됩니다.
-		대상이 기술을 사용할 때마다, 시전자가 가진 주문 하나의 재사용 대기시간이 1 턴 단축됩니다. 이 효과는 마도공학 계열 스킬이 우선됩니다.
+		The damage will increase with your Spellpower.]], [[현실 균열이나 시간 동결로 인해 느려진 적에게 에테르의 힘을 풀어놓습니다.
+		시전자는 각 대상과 비전의 힘이 주입된 증기로 %d 턴 동안 연결됩니다.
+		대상이 기술을 사용할 때마다 시전자가 가진 주문 하나의 재사용 대기시간이 1 턴 단축됩니다. 이 효과는 마도공학 계열 주문이 우선됩니다.
 		매 턴 연결된 대상과, 경로 상의 모든 적은 %0.2f 비술 피해를 입게 됩니다.
 		연결이 1 개 이상 유지되고 있는 한, 위상 초월 회전의 재사용 대기시간이 30 턴이 아니라 6 턴으로 적용됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Metaphasic Echoes", "위상 초월 반향", "talent name")
-t("You can only cast this spell on the turn after Reality Breach.", "이 기술은 현실 균열을 사용하고 난 후에만 사용할 수 있다.", "logPlayer")
+t("You can only cast this spell on the turn after Reality Breach.", "이 기술은 현실 균열을 사용한 직후에만 사용할 수 있다.", "logPlayer")
 t([[Using your sheer arcane power you keep breaches in spacetime open for %d turns.
 		Each turn they are open you project an occult clone of your saw along each breach, damaging any creature caught for %d%% occult weapon damage.
 		The saw cuts both in a physical and arcane way, reducing the duration of a random beneficial effect on each target by %d each time.
 		Each target can only be affected once per turn.
 		This spell is only usable for one turn after casting Reality Breach but any Reality Breach cast during its duration is also recorded inside.]], [[순수한 비전의 힘으로 시공간 구조에 난 균열을 %d 턴 동안 유지합니다.
-		매 턴, 시전자가 장착한 톱의 비술 복제품이 열려있는 현실 분열마다 발사되어, 균열 안의 모든 대상에게 %d%% 비술 무기 피해를 입힙니다.
-		이 비술의 톱날은 마법과 물리, 양 측면에서 피해를 입혀, 영향을 받은 모든 적의 무작위한 이로운 효과의 지속시간을 매 번, %d 턴 단축합니다.
-		이 효과는 하나의 대상에, 한 턴에 오직 1 번만 영향을 줍니다.
-		 이 주문은 현실 균열을 사용한 바로 다음 턴에만 사용할 수 있습니다. 위상 초월 반향의 지속 효과 중에 또 다른 현실 균열을 시전하면, 새로운 균열에도 위상 초월 반향의 효과가 적용됩니다.]], "tformat")
+		매 턴마다 시전자가 장착한 톱의 비술 복제품이 열려있는 현실의 균열마다 발사되어, 균열 안의 모든 대상에게 %d%% 비술 무기 피해를 입힙니다.
+		이 비술의 톱날은 마법과 물리 양 측면에서 피해를 입혀, 영향을 받은 모든 적의 무작위한 이로운 효과의 지속시간을 매 번 %d 턴씩 단축합니다.
+		이 효과는 하나의 대상에게는 한 턴에 한 번만 영향을 줍니다.
+		 이 주문은 현실 균열을 사용한 바로 다음 턴에만 사용할 수 있습니다. 위상 초월 반향의 지속 효과 중에 또다른 현실 균열을 시전하면 새로운 균열에도 위상 초월 반향의 효과가 적용됩니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/other-technomancy.lua"
 
 t("Electron Incantation", "전자기 주문 영창", "talent name")
 t("You need an arcane dynamo to cast this spell.", "이 기술을 사용하려면 비전 발전기가 필요하다.", "logPlayer")
-t("You can only cast this spell after casting an other technomancy spell.", "이 기술은 마도 공확 기술을 사용하고 난 후에만 사용할 수 있다.", "logPlayer")
+t("You can only cast this spell after casting an other technomancy spell.", "이 기술은 마도 공확 기술을 사용한 다음에 사용할 수 있다.", "logPlayer")
 t([[After casting a technomancy spell you store some of its energies that you can then use to overload your arcane dynamo, increasing the steam it generates per 10 mana spent by 4 for 4 turns.
 		In addition the energies spills outward in radius 3, dealing %0.2f damage (damage type based on the type of technomancy spell used).
 		This spell is only usable after casting a technomancy spell and until you use any other spell or talent.
-		The damage will increase with your Spellpower.]], [[마도공학 주문을 사용하고 난 후, 에너지 일부를 모아, 비전 발전기를 과부화합니다. 4 턴 동안, 소모하는 마나 10 당 증기가 4 추가로 회복됩니다.
-		또한 시전자를 중심으로, 반경 3 칸에 에너지를 쏟아부어, %0.2f 피해를 입힙니다 (피해 속성은 사용한 마도공학 주문에 따라 달라집니다).
-		이 주문은 마도 공확 기술을 사용하고 난 후에만 사용할 수 있고, 다른 주문이나, 기술을 사용하면 그 즉시 사용이 불가능해집니다.
+		The damage will increase with your Spellpower.]], [[마도공학 주문을 사용한 다음에, 그 에너지 일부를 모아 비전 발전기를 과부화합니다. 4 턴 동안, 소모하는 마나 10 당 증기가 4 추가로 회복됩니다.
+		또한 시전자를 중심으로 반경 3 칸에 에너지를 쏟아부어 %0.2f 피해를 입힙니다 (피해 속성은 사용한 마도공학 주문에 따라 달라집니다).
+		이 주문은 마도 공학 기술을 사용한 다음에 사용할 수 있고, 다른 주문이나 기술을 사용하면 그 즉시 사용이 불가능해집니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -4414,13 +4414,13 @@ t("spell", "주문", "talent category")
 t("undead drake", "사룡", "talent type")
 t("Take on the defining aspects of an Undead Drake.", "언데드 드레이크의 본질을 취합니다.", "_t")
 t("galvanic technomancy", "전열의 마도공학", "talent type")
-t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 전기와 화염으로 파괴합니다.", "_t")
+t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "증기 공학과 마법을 결합하여 앞을 가로막는 이들을 전기와 화염으로 파괴합니다.", "_t")
 t("terrene technomancy", "극지의 마도공학", "talent type")
-t("Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 땅과 물로 파괴합니다.", "_t")
+t("Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "증기 공학과 마법을 결합하여 앞을 가로막는 이들을 땅과 물로 파괴합니다.", "_t")
 t("occult technomancy", "비술의 마도공학", "talent type")
-t("Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 비전의 힘과 시간으로 파괴합니다.", "_t")
+t("Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "증기 공학과 마법을 결합하여 앞을 가로막는 이들을 비전의 힘과 시간으로 파괴합니다.", "_t")
 t("other technomancy", "기타 마도공학", "talent type")
-t("Combine the power of steamtech and arcane forces to destroy your foes.", "증기 공학과 비전의 힘으로 앞을 가로막는 이들을 파괴합니다.", "_t")
+t("Combine the power of steamtech and arcane forces to destroy your foes.", "증기 공학과 마법을 결합하여 앞을 가로막는 이들을 파괴합니다.", "_t")
 
 
 ------------------------------------------------
@@ -4437,20 +4437,20 @@ t([[You build %d micro spiderbot(s) from the earthly elements around you. Spider
 		The cooldown of this spell is affected by Body of Stone.
 		The damage will increase with your Spellpower.
 
-		You have currently %d spiderbot(s) up.]], [[주위의 대지 원소에서 %d 개의 초소형 거미봇을 만들어냅니다. 거미봇은 시전자와 연결된 극저온의 비전력을 동력 삼아 움직입니다.
-		거미봇은 매 턴, 대상에게 %0.2f 극지 피해를 (물리와 냉기 피해) 입힙니다. 거미봇의 공격은 소스라치게 차가워, 25%% 확률로 대상의 발을 얼려버려, 5 턴 동안 속박합니다.
-		거미봇이 설정한 대상이 죽으면, 거미봇은 당신을 기준으로, %d 칸 내의 다른 적에게 뛰어듭니다.
-		여러 거미봇이 하나의 대상을 공격하고 있는 중, 범위 내에 거미봇에게 공격받지 않는 적이 보이면, 거미봇들은 산개합니다.
-		여러 거미봇이 하나의 대상을 공격하고 있는 경우, 피해량이 중첩됩니다. (거미봇이 많을 수록, 피해 상승량은 점점 줄어듭니다) 그리고 아무리 많은 거미봇이 공격하더라도 발 동결 시도는 매 턴, 한 번밖에 일어나지 않습니다.
-		한 번에 최대 %d 체의 거미봇을 유지할 수 있습니다. 거미봇은 %d 턴 동안 유지됩니다만, 거미봇의 작동을 위해서는 시전자의 시야 안에 있어야합니다.
+		You have currently %d spiderbot(s) up.]], [[주위의 대지 원소에서 %d 개의 초소형 거미봇을 만들어냅니다. 거미봇은 시전자와 연결된 극저온 비전 동력 장치를 통해 움직입니다.
+		거미봇은 매 턴마다 대상에게 %0.2f 극지 피해 (물리와 냉기 피해) 를 입힙니다. 거미봇의 공격은 소스라치게 차가워, 25%% 확률로 대상의 발을 얼려버려 5 턴 동안 속박합니다.
+		거미봇의 대상이 죽으면, 거미봇은 시전자를 기준으로 %d 칸 내의 다른 적에게 뛰어듭니다.
+		여러 거미봇이 하나의 대상을 공격하고 있는 중에, 범위 내에 거미봇에게 공격받지 않는 적이 보이면 거미봇들은 산개합니다.
+		여러 거미봇이 하나의 대상을 공격하고 있는 경우, 피해량이 중첩됩니다 (거미봇이 많을수록 피해 상승량은 점점 줄어듭니다). 또한 아무리 많은 거미봇이 공격하더라도 대상의 발은 매 턴 한 번만 얼어붙습니다.
+		한 번에 최대 %d 개의 거미봇을 유지할 수 있습니다. 거미봇은 %d 턴 동안 유지됩니다만, 거미봇이 작동하려면 시전자의 시야 안에 있어야 합니다.
 		이 주문은 암석의 신체 주문의 재사용 대기시간 감소 효과에 영향을 받습니다.
 		피해량은 주문력에 비례하여 증가합니다
 
-		현재 %d 체의 거미봇을 유지할 수 있습니다.]], "tformat")
+		현재 유지 중인 거미봇은 %d 개입니다.]], "tformat")
 t("Cryogenic Digs", "극저온 굴착", "talent name")
 t([[Each time a spiderbot expires it digs around, producing either a Glacial Vapour (%0.2f cold damage and doing 30%% more damage to wet targets) or Earthquake (%0.2f physical damage and 25%% chances to stun for 2 turns) of radius 1 that last for %d turns.
 		Those special kinds of Glacial Vapour and Earthquake do not affect the caster.
-		The damage will increase with your Spellpower.]], [[거미봇이 파괴될 때, 바닥을 파고들어, 얼음 증기를 뿜으며 파괴되거나, 지진을 일으킵니다. 얼음 증기는 %0.2f 냉기 피해를 입히고, 젖음 상태의 적에게 30%% 추가된 피해를 입힙니다. 지진은 %0.2f 물리 피해를 가하며 25%% 확률로 2 턴 동안 지속되는 기절을 일으킵니다. 을음 증기와 지진 모두 반경 1 칸에 영향을 주며, %d 턴 동안 유지됩니다.
+		The damage will increase with your Spellpower.]], [[거미봇이 사라질 때 바닥을 파고들어, 얼음 증기를 뿜거나 지진을 일으킵니다. 얼음 증기는 %0.2f 냉기 피해를 입히고, 젖음 상태의 적에게 30%% 추가된 피해를 입힙니다. 지진은 %0.2f 물리 피해를 가하며 25%% 확률로 2 턴 동안 지속되는 기절을 일으킵니다. 얼음 증기와 지진 모두 반경 1 칸에 영향을 주며, %d 턴 동안 유지됩니다.
 		얼음 증기와 지진 모두 시전자에게는 영향을 주지 않습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Ramming Bot", "들이받는 거미봇", "talent name")
@@ -4458,18 +4458,18 @@ t("You need an arcane dynamo and an active spiderbot to cast this spell.", "이 
 t([[Command a random spiderbot to jump onto your target at ramming speed. The impact destroys the bot (possibly triggering Cryogenic Digs).
 		This creates a radius %d explosion dealing %0.2f terrene damage to all creatures while also freezing them for %d turns and rendering them wet for %d turns.
 		The cooldown of this spell is affected by Body of Stone.
-		The damage will increase with your Spellpower.]], [[무작위한 거미봇 하나에게 명령하여, 대상을 들이받습니다. 충격으로, 해당 거미봇은 파괴됩니다. (극저온 굴착을 일으킬 수 있습니다.)
-		파괴된 거미봇은 폭발을 일으켜, 반경 %d 칸 내에 %0.2f 극지 피해를 주고, %d 턴 동안 얼려버리며, %d 턴 동안 젖음 상태를 적용합니다.
+		The damage will increase with your Spellpower.]], [[무작위한 거미봇 하나에게 대상을 들이받도록 명령합니다. 그 충격으로 해당 거미봇은 파괴됩니다 (극저온 굴착을 발동할 수 있습니다).
+		파괴된 거미봇은 폭발을 일으켜 반경 %d 칸 내에 %0.2f 극지 피해를 주고 %d 턴 동안 얼려버리며, %d 턴 동안 젖게 만듭니다.
 		이 주문은 암석의 신체 주문의 재사용 대기시간 감소 효과에 영향을 받습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("Spiderbot Shield", "거미봇 보호막", "talent name")
+t("Spiderbot Shield", "거미봇 방패", "talent name")
 t([[You call back up to %d spiderbots to you to create protective barrier for %d turns.
 		Spiderbots have %d life and they take damage in order, always fully absorbing the blow that destroyed them.
 		If Cryogenic Digs is active when a spiderbot is destroyed it jumps to the attacker and triggers the dig there.
 		The cooldown of this spell is affected by Body of Stone.
-		]], [[%d 체의 거미봇을 불러모아 %d 턴 동안 유지되는 보호막을 형성합니다.
-		거미봇은 %d 생명력을 가지며, 차례대로 피해량을 흡수합니다. 거미봇의 생명력을 초과하는 피해라도, 시전자가 피해를 입거나, 다른 거미봇이 피해를 입는 일 없이, 언제나 모든 피해량을 흡수합니다.
-		극저온 굴착이 활성화된 경우, 거미봇은 공격자에게 돌진하고, 극저온 굴착의 효과를 내게 됩니다.
+		]], [[%d 체의 거미봇을 불러모아 %d 턴 동안 유지되는 방패를 형성합니다.
+		거미봇은 %d 생명력을 가지며, 차례대로 피해량을 흡수합니다. 거미봇의 생명력을 초과하는 피해라도, 시전자가 피해를 입거나 다른 거미봇이 피해를 입는 일 없이 언제나 모든 피해량을 흡수합니다.
+		극저온 굴착이 활성화된 경우, 거미봇은 공격자에게 돌진하고 극저온 굴착의 효과를 발동합니다.
 		이 주문은 암석의 신체 주문의 재사용 대기시간 감소 효과에 영향을 받습니다.
 		]], "tformat")
 
@@ -4479,22 +4479,22 @@ section "tome-orcs/data/talents/spells/undead-drake.lua"
 t("Raze", "완파", "talent name")
 t([[You revel in death, devouring the souls of your victims. Whenever you inflict damage to a target, you deal an additional %0.2f darkness damage.
 		Additionally, you gain %d souls whenever you score a kill.
-		The damage will scale with the highest of your spell or mind power and can only occur up to 25 times per turn.]], [[희생자의 영혼을 삼켜 죽입니다. 적에게 피해를 가할 때마다, 추가로 %0.2f 어둠 피해를 가합니다.
-		적을 살해할 시, 시전자는 %d 원혼을 획득합니다.
+		The damage will scale with the highest of your spell or mind power and can only occur up to 25 times per turn.]], [[죽음을 즐기며 희생자의 영혼을 삼킵니다. 적에게 피해를 가할 때마다 추가로 %0.2f 어둠 피해를 가합니다.
+		더해서 적을 살해하면 시전자는 원혼을 %d 획득합니다.
 		피해량은 주문력과 정신력 중 높은 값에 비례하고, 이 효과는 한 턴에 최대 25 번 일어납니다.]], "tformat")
 t("Infectious Miasma", "감염성 독기", "talent name")
 t([[Release a cloud of deadly miasma over a targeted area, dealing %0.2f darkness damage to all units inside it with a 20%% chance of inflicting a disease that will do blight damage and weaken either Constitution, Strength or Dexterity for %d turns.
-		The damage will scale with the highest of your spell or mind power.]], [[해당 지역에 죽음의 독기를 풀어놓아 지역 내의 모든 개체에게 %0.2f 어둠 피해를 줍니다. 독기는 20%% 확률로 %d 턴 동안 지속되는 질병에 감염시켜 매 턴 황폐 피해를 가하고, 체격, 힘, 또는 민첩 중 하나를 감소시킵니다.
+		The damage will scale with the highest of your spell or mind power.]], [[해당 지역에 죽음의 독기를 풀어놓아 지역 내의 모든 개체에게 %0.2f 어둠 피해를 줍니다. 독기는 20%% 확률로 %d 턴 동안 지속되는 질병에 감염시켜 매 턴 황폐 피해를 가하고, 체격, 힘, 민첩 중 하나를 감소시킵니다.
 		피해량은 주문력과 정신력 중 높은 값에 비례합니다.]], "tformat")
 t("Vampiric Surge", "흡혈의 쇄도", "talent name")
 t([[You surge with a life draining energy for %d turns.
 		While the effect lasts, you heal yourself for %d%% of all damage you deal.]], [[생명력 흡수의 에너지가 %d 턴 동안 쇄도합니다.
-		지속 시간 동안, 가하는 피해량의 %d%% 가 시전자의 생명력으로 회복됩니다.]], "tformat")
+		지속 시간 동안 가하는 피해량의 %d%% 가 시전자의 생명력으로 회복됩니다.]], "tformat")
 t("Necrotic Breath", "괴사의 숨결", "talent name")
 t("@Source@ breathes a wave of darkness!", "@Source2@ 어둠의 파도를 뿜어냈다!", "_t")
 t([[You breathe a wave of deathly miasma in a cone of radius %d. Any target caught in the area will take %0.2f darkness damage over 4 turns and receive either a bane of confusion or a bane of blindness for 4 turns.
-		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[반경 %d 칸의 원뿔 범위에 죽음의 독기를 내뿜습니다. 범위내의 모든 대상은 %0.2f 어둠 피해를 4 턴에 걸쳐 나눠 받고, 혼란의 파멸이나 실명의 파멸이 4 턴 동안 적용됩니다.
-		피해량은 마법에 비례하여 증가하고, 주문 치명타 확률을 적용받습니다.]], "tformat")
+		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[반경 %d 칸의 원뿔 범위에 죽음의 독기를 내뿜습니다. 범위 내의 모든 대상은 %0.2f 어둠 피해를 4 턴에 걸쳐 나눠 받고, 혼란의 파멸이나 실명의 파멸을 4 턴 동안 적용받습니다.
+		피해량은 마법 능력치에 비례하여 증가하고, 주문 치명타 확률을 적용받습니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/artillery.lua"
@@ -4950,7 +4950,7 @@ t([[Using a huge amount of steam, you temporarily supercharge your tinkers and o
 t("Last Engineer Standing", "최후의 공학자", "talent name")
 t([[Sometimes, being a master tinker requires taking risks; yours are more calculated than others.
 		Gain %d cunning, %d physical save, %d%% resistance to self-inflicted damage, and %d%% chance to avoid being critically hit.]], [[가끔씩, 최고의 발명가가 되기 위해서는 위험을 감수해야 합니다만, 남들보다 정교하게 계산했더라면 그럴 필요가 없지요.
-		교활이 %d , 물리 내성이 %d , 자기자신에게 가하는 피해 저항이 %d%% 상승하고, 치명타 무효화 확률이 %d%% 증가합니다.]], "tformat")
+		교활이 %d, 물리 내성이 %d, 자기자신에게 가하는 피해 저항이 %d%% 상승하고, 치명타 무효화 확률이 %d%% 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/furnace.lua"
@@ -6117,12 +6117,12 @@ t("Death Momentum", "죽음의 기세", "_t")
 t("You have %d charges.", "현재 %d 중첩.", "tformat")
 t("steam", "증기", "effect subtype")
 t("technomancy", "마도공학", "effect subtype")
-t("Ethereal Steam", "에테르의 증기", "_t")
+t("Ethereal Steam", "에테르 증기", "_t")
 t("Deals %0.2f occult damage per turn and each time a talent is used, the caster regens one turn of a random cooldown.", "%0.2f 비술 피해를 매 턴 받고, 대상이 기술을 사용하면, 시전자가 가진 주문 하나의 재사용 대기시간이 1 턴 단축됨.", "tformat")
 t("#Target# covered in arcane-infused steam!", "#Target2# 마법의 힘이 주입된 증기에 덮혔다!", "_t")
 t("#Target# is free from the steam.", "#Target1# 증기에서 벗어났다.", "_t")
 t("Ethereal Link", "에테르 연결", "_t")
-t("While Ethereal Steam exists the cooldown of Metaphasic Spin is reduced to 6.", "에테르의 증기가 적용된 적이 존재하는 한, 위상 초월 회전의 재사용 대기시간이 6 턴 이됨.", "tformat")
+t("While Ethereal Steam exists the cooldown of Metaphasic Spin is reduced to 6.", "에테르 증기가 적용된 적이 존재하는 한, 위상 초월 회전의 재사용 대기시간이 6 턴 이됨.", "tformat")
 t("Metaphasic Echoes", "위상 초월 반향", "_t")
 t("Project your saw along the leftover breaches.", "현실의 균열에 톱날을 날려보낼 수 있음.", "tformat")
 t("Spiderbots Shield", "거미봇 보호막", "_t")
@@ -6161,7 +6161,7 @@ t("#Target# is free from the mind drone.", "#Target3# 괴롭히던 드론이 사
 t("biologic", "생물학", "effect subtype")
 t("physical", "물리", "effect subtype")
 t("save", "내성", "effect subtype")
-t("Negative Biofeedback", "부정적인 생체 반작용", "_t")
+t("Negative Biofeedback", "생체 제어", "_t")
 t("Physical save reduced by %d, armour and defense by %d.", "물리 내성 -%d / 방어력과 회피도 -%d.", "tformat")
 t("confusion", "혼란", "effect subtype")
 t("Unclear Thoughts", "혼탁한 정신", "_t")

@@ -3140,7 +3140,7 @@ t("Horrific Evolution", "끔찍한 진화", "talent name")
 t([[Your mutations have enhanced your offense even farther.
 		You gain %d Accuracy and %d Spellpower.
 		The effects will increase with your Magic stat.]], [[변이를 통해 공격 능력을 더욱 향상시킵니다.
-		정확도를 %d , 주문력을 %d 얻습니다.
+		정확도를 %d, 주문력을 %d 얻습니다.
 		이 효과는 마법 능력치에 비례하여 증가합니다.]], "tformat")
 t("Overgrowth", "과성장", "talent name")
 t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
@@ -3151,7 +3151,7 @@ t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 t("Writhing One", "뒤틀린 자", "talent name")
 t([[At last you unlock the true power of your mutated body!
 		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[마침내 변이된 육체의 진정한 힘을 일깨웁니다!
-		기절 면역력이 %d%% , 치명타 무시 확률이 %d%% , 어둠과 황폐 피해량이 %d%% 증가합니다.]], "tformat")
+		기절 면역력이 %d%%, 치명타 무시 확률이 %d%%, 어둠과 황폐 피해량이 %d%% 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/rift.lua"
@@ -3263,7 +3263,7 @@ t("Consume Whole", "소화", "talent name")
 t("You are not digesting a creature.", "당신은 적을 삼키고 있지 않다.", "logPlayer")
 t([[Instantly consume what remains of your victim, healing yourself for %d life and generating %d insanity.
 			Activating this will reset the cooldown of your Digest talent.
-		The life healed will increase with your Spellpower.]], [[삼킨 적을 즉시 소화시켜 생명력을 %d , 광기를 %d 회복합니다.
+		The life healed will increase with your Spellpower.]], [[삼킨 적을 즉시 소화시켜 생명력을 %d, 광기를 %d 회복합니다.
 			이 기술을 사용하면 삼키기의 재사용 대기시간이 초기화됩니다.
 		생명력 회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -3516,7 +3516,7 @@ t([[Your skin grows small spikes coated in dark blight.
 t("Faceless", "얼굴 없는 존재", "talent name")
 t([[Your faceless visage is puzzling and emotionless, allowing you to more easily resist mind tricks.
 		You gain %d mental save, %d%% confusion immunity.]], [[얼굴이 없는 안면은 매우 당혹스럽고, 감정이 느껴지질 않습니다. 따라서 정신적인 효과에 보다 쉽게 저항할 수 있게 되었습니다.
-		정신 내성이 %d , 혼란 면역력이 %d%% 증가합니다.]], "tformat")
+		정신 내성이 %d, 혼란 면역력이 %d%% 증가합니다.]], "tformat")
 t("From Below It Devours", "깊은 곳에서 집어삼킨다", "talent name")
 t("Not enough space to summon!", "소환할 공간이 부족하다.", "logPlayer")
 t("hungering mouth", "굶주린 주둥이", "_t")

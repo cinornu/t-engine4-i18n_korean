@@ -968,7 +968,7 @@ section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
 
 t("Reduces duration of detrimental effects by 40%", "부정적인 효과의 지속시간을 40% 줄입니다", "_t")
 t("+2 to all Demon Seeds, Spellblaze and Demonic Pact talents", "모든 악마의 씨앗, 마법폭발, 악마의 계약 기술에 +2 ", "_t")
-t("%s (%d/%d life, level %d)", "%s (생명력 %d/%d , 레벨 %d)", "tformat")
+t("%s (%d/%d life, level %d)", "%s (생명력 %d/%d, 레벨 %d)", "tformat")
 t("demon seed", "악마의 씨앗", "_t")
 t("The seed of a demon.", "악마의 씨앗이다.", "_t")
 t("Demon status: %s.", "악마의 상태: %s.", "tformat")
