@@ -3068,7 +3068,7 @@ t([[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness d
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Spatial Distortion", "공간의 뒤틀림", "talent name")
 t("Select a teleport location...", "순간이동 할 목적지를 선택합니다...", "logPlayer")
-t("The spell fizzles on %s!", "주문이 실패했다 %s!", "logSeen", nil, {"을"})
+t("The spell fizzles on %s!", "%s 향한 주문이 실패했다!", "logSeen", nil, {"을"})
 t("#CRIMSON#%s is swallowed by a portal!", "#CRIMSON#%s 차원문에게 삼켜졌다!", "logSeen", nil, {"는"})
 t("%s resists the warp!", "%s 공간의 뒤틀림에 저항했다!", "logSeen", nil, {"는"})
 t("entropic maw", "엔트로피의 아가리", "_t")
@@ -3392,7 +3392,7 @@ t([[You rend the very essence of the target, drawing on their life and convertin
 section "tome-cults/data/talents/demented/writhing-body.lua"
 
 t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# 하지만 현재 보조무기 칸이 비워져 있지 않기 때문에 발동하지 않습니다.#WHITE#", "_t")
-t("You require an empty offhand to use your tentacle hand.", "촉수 팔을 사용하기 위해서는 한 쪽 손을 비워야 한다.", "logPlayer")
+t("You require an empty offhand to use your tentacle hand.", "촉수 팔을 사용하기 위해서는 보조무기 칸을 비워야 한다.", "logPlayer")
 t("You require a weapon and an empty offhand!", "주무기와 맨손이 필요하다!", "logPlayer")
 t("The diseases of %s spread!", "%s의 질병이 확산된다!", "logSeen")
 t("%s resists the disease!", "%s 질병에 저항했다!", "logSeen", nil, {"는"})
@@ -3401,11 +3401,11 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		The chance to spread increases with the blight damage dealt and is 100%% if it is at least %d%% of the target's maximum life.
 		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
 		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
-		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[대상에게 고전염성 질병을 감염시켜, 6 턴 동안 %0.2f 피해를 매 턴 가합니다.
+		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[대상에게 고전염성 질병을 감염시켜 6 턴 동안 %0.2f 피해를 매 턴 가합니다.
 		대상은 질병 이외의 수단으로 황폐 피해를 받을 때마다 일정 확률로 반경 2 칸 이내의 무작위한 적들에게 질병을 퍼뜨립니다.
 		전염 확률은 대상에게 가한 황폐 속성 피해량에 비례해 증가하며, 최대 생명력의 %d%% 이상 피해를 줄 경우 100%% 전염됩니다.
 		이 질병에 감염된 적들은 생명력 회복 효율이 %d%% 감소하며, 질병 면역력이 %d%% 감소합니다.
-		이 질병은 무시무시하게 강력하기 때문에, 대상의 질병 면역력을 완전히 무시합니다.
+		이 질병은 무시무시하게 강력하기 때문에 대상의 질병 면역력을 완전히 무시합니다.
 		피해량은 주문력에 비례하여 증가하고, 전염될 확률은 대상에게 가한 황폐 속성 피해량의 영향을 받아 증가합니다.]], "tformat")
 -- new text
 --[==[
@@ -3454,7 +3454,7 @@ t([[Fire a blast of darkness at an enemy dealing %0.2f damage and destroying any
 		The damage will increase with your Spellpower.]], [[어둠의 화살을 날려 %0.2f 피해를 주고, 대상 주변 반경 3 칸 내의 모든 벽을 파괴합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blightlash", "황폐의 채찍질", "talent name")
-t("You require an empty offhand to use your tentacle hand.", "촉수 팔을 사용하기 위해서는 한 쪽 손을 비워야 한다.", "logPlayer")
+t("You require an empty offhand to use your tentacle hand.", "촉수 팔을 사용하기 위해서는 보조무기 칸을 비워야 한다.", "logPlayer")
 t("You require a weapon and an empty offhand!", "주무기와 맨손이 필요하다!", "logPlayer")
 t("Lash an enemy within range 10 with your tentacle, dealing %d%% blight damage.", "반경 10 칸 내의 적을 촉수로 후려쳐 %d%% 황폐 피해를 줍니다.", "tformat")
 t("Twisted Evolution", "뒤틀린 진화", "talent name")
