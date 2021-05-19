@@ -3997,7 +3997,7 @@ Dark damage creates an effect at the tile for %d turns which deals %d%% of the d
 대상은 %d 턴 동안, 빛 속성 피해 1 당 %0.2f%% 감속됩니다. 최대 %d 피해에서 %d%% 감속됩니다.
 어둠 속성 피해를 입을 시, %d 턴 동안 마지막으로 받은 어둠 피해의 %d%% 에 해당하는 피해를 주는 장막을 해당 위치에 생성합니다. 이 장막은 대상이 장막으로부터 피해를 계속 받던, 다른 요인으로 인해 어둠 피해를 받던, 황혼의 반향이 활성화 중이라면, 장막의 남은 피해량과, 새로 받은 피해량을 합하여 지속시간과 피해량을 갱신합니다.]], "tformat", {1,3,2,5,4,6,7})
 t("Starscape", "우주", "talent name")
-t("This spell cannot be cast here.", "이 주문을 이곳에서 시전할 수 없다.", "logPlayer")
+t("This spell cannot be cast here.", "이 주문은 이곳에서 시전할 수 없다.", "logPlayer")
 t("Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "주변 %d 칸 범위에 우주 그 자체를 %d 턴 동안 소환합니다. 그 동안 해당 장소는 정상적인 시간의 흐름에서 이탈하게 되고, 무중력 상태에 돌입하게 됩니다. 무중력 상태는 투사체 속도와 이동 속도를 3 배 느리게 합니다. 온갖 종류의 기술들은 이 기술의 효과가 종료될 때까지 우주의 범위 내에 남을 것입니다.", "tformat")
 
 ------------------------------------------------
@@ -6230,7 +6230,7 @@ t("This turret has been greatly enhanced.", "이 포탑의 성능은 비약적�
 t("steamtech", "증기 공학", "effect subtype")
 t("Guardian Shield", "수호자 방패", "_t")
 t("%d%% of all incoming damage is redirected to the adjacent Guardian Turret.", "피격 시 받는 피해의 %d%% 가 인접한 수호 포탑에게 전송됨.", "tformat")
-t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d 피해분담)#LAST#", "tformat")
+t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d 피해 분담)#LAST#", "tformat")
 t("Countdown", "초읽기", "_t")
 t("At the end of this effect, your missile will explode!", "이 효과가 끝나면, 당신의 미사일이 폭발합니다!", "tformat")
 t("Locked On", "락 온", "_t")
@@ -6511,7 +6511,7 @@ t("Incendiary Grenade", "발화성 수류탄", "_t")
 t("The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "대상이 불타오름 : 매 턴 %d 화염 피해 받음 / 피격 시 받는 피해량 +%d%%.", "tformat")
 t("Healing Mist", "회복 안개", "_t")
 t("Newly applied status effects durations are reduced by %d%%.", "새로 적용되는 상태 효과의 지속시간 -%d%%.", "tformat")
-t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했습니다!#LAST#", "logSeen", nil, {"가"})
+t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했다!#LAST#", "logSeen", nil, {"가"})
 t("shield", "보호막", "effect subtype")
 t("Overclock", "오버클럭", "_t")
 t("The target is surrounded by a charged shield, absorbing %d/%d damage before it crumbles. While this holds, they will project a bolt of lightning against a random enemy within range 7 each turn for %0.2f lightning damage.", "전하 보호막에 둘러싸여있음 : 흡수량 %d/%d / 효과가 유지되는 동안, 반경 7 칸 내의 무작위한 적에게 전기 화살을 날려 %0.2f 전기피해를 가함.", "tformat")
