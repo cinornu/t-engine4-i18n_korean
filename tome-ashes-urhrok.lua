@@ -1028,10 +1028,10 @@ t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to y
 		이 주문은 가방 안의 악마 씨앗과 장비에 결합된 악마 씨앗 모두에게서 악마를 불러낼 수 있습니다.
 
 		또한 악마를 결합시키는 더 쉬운 방법을 배워, 더 많은 씨앗을 결합할 수 있게 됩니다.
-		기술 레벨 2 일 때, 첫 번째 반지에 결합할 수 있게 됩니다.
-		기술 레벨 3 일 때, 방패에 결합할 수 있게 됩니다.
-		기술 레벨 4 일 때, 두 번째 반지에 결합할 수 있게 됩니다.
-		기술 레벨 5 일 때, 가슴 방어구에 결합할 수 있게 됩니다.
+		기술 레벨이 2 일 때, 첫 번째 반지에 결합할 수 있게 됩니다.
+		기술 레벨이 3 일 때, 방패에 결합할 수 있게 됩니다.
+		기술 레벨이 4 일 때, 두 번째 반지에 결합할 수 있게 됩니다.
+		기술 레벨이 5 일 때, 가슴 방어구에 결합할 수 있게 됩니다.
 		]], "tformat")
 t("Twisted Portal", "뒤틀린 차원문", "talent name")
 t("Select a teleport location...", "순간이동 할 목적지를 선택합니다...", "logPlayer")
@@ -1112,7 +1112,7 @@ t([[You learn to use death around you to an even greater advantage.
 		웅덩이 안에 서 있는 적은 매 턴 %0.2f 어둠 피해를 받습니다.
 		이 효과는 한 턴에 한 번만 일어납니다.
 		피해량은 주문력에 비례하여 증가합니다.
-		기술 레벨 3 일 때, 어둠의 지배 효과가 죽음으로부터 시전자를 보호하여 매 중첩 당 생명력 하한이 %d 증가합니다.]], "tformat")
+		기술 레벨이 3 일 때, 어둠의 지배 효과가 죽음으로부터 시전자를 보호하여 매 중첩 당 생명력 하한이 %d 증가합니다.]], "tformat")
 t("Blood Pact", "피의 계약", "talent name")
 t([[Pay %d%% of your current life and gain 100%% darkness damage conversion for 1 turns.
 			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[현재 생명력의 %d%% 를 대가로 1 턴 동안 모든 피해가 어둠 속성으로 전환됩니다.
@@ -1140,7 +1140,7 @@ t([[You infuse your shield with the energies of Urh'Rok, bringing about a magica
 		#{bold}#Activating the shield takes no time but de-activating it does.#{normal}#
 		The damage increases with spellpower.]], [[방패에 울흐'록의 에너지를 부여하여, 피격 시 삼투 방패의 방어 수치만큼 피해를 경감하고, 3 턴에 걸쳐 경감한 피해와 같은 양을 회복합니다. (이로써 실제 중화량은 총 방어 수치의 2 배이며, 방패 막기 수치에 비례합니다) 이 효과는 중첩 가능합니다.
 		수치는 5 + 방패 막기 수치의 %d%% 입니다 (현재 %d).
-		기술 레벨 3 일 때, 흡수량의 2 배 이상의 피해를 받게 되면 %d%% 확률로 부정적인 물리 효과를 하나 해제합니다. 이 효과는 한 턴에 한 번만 일어납니다.
+		기술 레벨이 3 일 때, 흡수량의 2 배 이상의 피해를 받게 되면 %d%% 확률로 부정적인 물리 효과를 하나 해제합니다. 이 효과는 한 턴에 한 번만 일어납니다.
 		휴식이나 탐험 시 이 기술은 자동으로 비활성화됩니다.
 		#{bold}#기술을 활성화하는 것은 턴을 소모하지 않지만, 해제하는 것은 턴을 소모합니다.#{normal}#
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -1151,7 +1151,7 @@ t([[Taking example from Mal'Rok, the demon's homeworld you harden yourself.
 t("Demonic Madness", "악마의 광기", "talent name")
 t([[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns.
 		At level 4 you also automatically block at the end.]], [[방패를 미친 듯이 회전시켜, 시전자 근처의 적에게 %d%% 방패 피해를 어둠 속성으로 가하고 %d 턴 동안 혼란을 유발합니다.
-		기술 레벨 4 일 때, 기술 사용 후 자동적으로 방패 막기 태세에 돌입합니다.]], "tformat")
+		기술 레벨이 4 일 때, 기술 사용 후 자동적으로 방패 막기 태세에 돌입합니다.]], "tformat")
 t("Blighted Shield", "황폐화된 방패", "talent name")
 t([[Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence.
 		Cursed creatures have all their damage decreased by %d%% for 5 turns.
@@ -1269,8 +1269,8 @@ t([[Your successful melee hits apply a stacking effect that decreases damage don
 		This talent ignores saves and immunities.
 		]], [[근접 공격이 명중하면, 피해량을 %d%% 감소시키는 중첩형 효과를 적에게 적용합니다.
 		한 대상 당 %d 중첩을 쌓을 수 있고, 중첩을 쌓을 때마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면 이 효과는 즉시 사라집니다.
-		기술 레벨 3 일 때, 중첩 당 %0.2f%% 의 감속을 적용합니다.
-		기술 레벨 5 일 때, 반경 %d 칸 내의 적을 두려움에 떨게 합니다.
+		기술 레벨이 3 일 때, 중첩 당 %0.2f%% 의 감속을 적용합니다.
+		기술 레벨이 5 일 때, 반경 %d 칸 내의 적을 두려움에 떨게 합니다.
 		이 기술은 모든 내성과 면역을 무시합니다.
 		]], "tformat")
 t("Mass Hysteria", "집단 히스테리", "talent name")
@@ -1352,7 +1352,7 @@ t("You require a two handed weapon to use this talent.", "이 기술을 사용�
 t([[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
 		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d.
 		This attack can not miss.]], [[무기를 말도 안 되는 힘으로 휘둘러, 반경 %d 칸의 반원 범위 내의 모든 적에게 %d%% 무기 피해를 가합니다.
-		기술 레벨 5 일 때, 공격받은 모든 적의 방어력과 내성이 %d 감소합니다.
+		기술 레벨이 5 일 때, 공격받은 모든 적의 방어력과 내성이 %d 감소합니다.
 		이 공격은 반드시 명중합니다.]], "tformat")
 t("Detonating Charge", "격발의 돌진", "talent name")
 t("You require a two handed weapon and being able to move to use this talent.", "이 기술을 사용하기 위해서는 양손 무기를 장착하고, 이동이 가능하여야 한다.", "logPlayer")

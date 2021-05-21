@@ -4311,8 +4311,8 @@ t([[Using your arcane power you force galvanic rods to linger for %d turns. Whil
 		3 개의 전열 막대가 서로의 반경 %d 칸 안에 존재한다면 막대들은 삼각형의 전열 지대를 형성합니다.
 		전열 전류나 전열 지대에 진입한 모든 개체는 매 턴 %0.2f 전열 피해를 받습니다.
 		유지할 수 있는 전열 막대는 최대 3 개까지입니다.
-		기술 레벨 3 일 때, 영향을 받은 모든 개체에 전기 충격 효과를 일으켜 기절 면역력과 속박 면역력을 절반으로 감소시킵니다.
-		기술 레벨 5 일 때, 시전자의 무기는 (금속 재질이거나, 금속제 발명품을 장착 시) 전열 막대처럼 작동하며, 이는 전열 막대 개수 제한에 포함되지 않습니다.
+		기술 레벨이 3 일 때, 영향을 받은 모든 개체에 전기 충격 효과를 일으켜 기절 면역력과 속박 면역력을 절반으로 감소시킵니다.
+		기술 레벨이 5 일 때, 시전자의 무기는 (금속 재질이거나, 금속제 발명품을 장착 시) 전열 막대처럼 작동하며, 이는 전열 막대 개수 제한에 포함되지 않습니다.
 		태풍이 눈이 활성화 중이라면 이 주문은 15%% 확률로 태풍을 일으킵니다, if used.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Unstable Blast", "불안정한 폭발", "talent name")
@@ -4601,7 +4601,7 @@ t("@Source@ weaves @hisher@ cloak!", "@Source2@ @hisher@ 망토를 흔든다!", 
 t([[With a gesture of your cloak, you drop a small incendiary device in front of you, creating a wall of thick steam of %d length that burns creatures passing it for %0.2f fire damage and blocks sight for 5 turns.
 		At level 5 the action is so perfect that your foes even lose track of you entirely.
 		Damage increases with your steampower.]], [[망토를 조금 흔들어, 시전자 앞에 조그마한 증기 발생 장치를 떨어뜨립니다. 이 장치는 %d 칸에 걸친 두꺼운 증기를 생성하고, 이 증기는 5 턴 동안 증기 내의 모든 적을 불태워 %0.2f 화염 피해를 줍니다. 또한 증기는 시야를 가로막습니다.
-		기술 레벨 5 일 때, 이 기술은 너무나 완벽해져 시전자를 추격하던 적들이 시전자의 위치를 완전히 놓치게 됩니다.
+		기술 레벨이 5 일 때, 이 기술은 너무나 완벽해져 시전자를 추격하던 적들이 시전자의 위치를 완전히 놓치게 됩니다.
 		피해량은 증기력에 비례하여 증가합니다.]], "tformat")
 t("Embedded Restoration Systems", "내장형 회복 시스템", "talent name")
 t("#LIGHT_BLUE#%s's embedded restoration system activate.", "#LIGHT_BLUE#%s의 내장형 회복 시스템이 가동된다.", "logSeen")
@@ -4706,7 +4706,7 @@ section "tome-orcs/data/talents/steam/blacksmith.lua"
 t("Massive Physique", "거대한 체구", "talent name")
 t([[Working iron has honed your body into an amazing shape, granting %d strength and constitution.
 		At talent level 5, you are so incredibly built that you gain one size category.]], [[대장 기술은 당신의 몸을 굉장히 강인하게 단련시켰습니다. 힘과 체격이 %d 증가합니다.
-		기술 레벨 5 일 때, 믿을 수 없을 정도로 뛰어난 체격을 갖게 되어 몸집 크기가 1 증가합니다.]], "tformat")
+		기술 레벨이 5 일 때, 믿을 수 없을 정도로 뛰어난 체격을 갖게 되어 몸집 크기가 1 증가합니다.]], "tformat")
 t("Endless Endurance", "끝없는 인내", "talent name")
 t([[Working long hours at a forge has made you incredibly slow to tire and given you endless vitality.
 		Your healing factor is increased by %d%% and your life regeneration by %0.2f.
@@ -4718,13 +4718,13 @@ t([[Slaving for many years at the forge has made you more resilient to physical 
 		Your fire resistance is increased by %d%% and your physical resistance by %d%%.
 		At talent level 5, you are so accustomed to the flames that you become immune to the fireburn effect.]], [[몇 년을 대장간에서 노예처럼 일했습니다. 물리적 고통과 화상에 훨씬 더 강해집니다.
 		화염 피해 저항이 %d%%, 물리 피해 저항이 %d%% 증가합니다.
-		기술 레벨 5 일 때, 불꽃에 너무나 익숙해져 화상 효과에 면역이 됩니다.]], "tformat")
+		기술 레벨이 5 일 때, 불꽃에 너무나 익숙해져 화상 효과에 면역이 됩니다.]], "tformat")
 t("Craftsman's Eye", "장인의 눈", "talent name")
 t([[You can easily see the weak points in your enemy's defenses. After all, you know to look for the same flaws in your own work.
 		This grants %d armour penetration and %d%% critical strike multiplier.
 		At talent level 5, you can also fight stealthed and invisible creatures without penalty.]], [[자신이 제작한 작품의 결함을 찾아내는 것처럼, 적의 취약점을 쉽게 파악할 수 있게 되었습니다. 
 		방어력 관통이 %d, 치명타 피해량이 %d%% 상승합니다.
-		기술 레벨 5 일 때, 은신 중이거나 투명한 적을 상대로 불이익 없이 싸울 수 있게 됩니다.]], "tformat")
+		기술 레벨이 5 일 때, 은신 중이거나 투명한 적을 상대로 불이익 없이 싸울 수 있게 됩니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/bullets-mastery.lua"
@@ -4814,7 +4814,7 @@ t([[Allows you to create therapeutic tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
 		%s]], [[레벨 %d 의 치료학 발명품을 제작할 수 있습니다.
-		기술 레벨 1 일 때, 새로운 도안을 하나 배웁니다.
+		기술 레벨이 1 일 때, 새로운 도안을 하나 배웁니다.
 		이 기술에 기술 점수를 투자할 때마다 20%% 확률로 무작위한 도안을 하나 배웁니다. 기술 레벨이 5 가 될 때까지 이 효과를 누리지 못했다면, 도안 하나를 100%% 확률로 배웁니다. (도안을 모두 배운 경우에는 효과가 일어나지 않습니다)
 		%s]], "tformat")
 t("Chemistry", "화학", "talent name")
@@ -4822,7 +4822,7 @@ t([[Allows you to create chemical tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
 		%s]], [[레벨 %d 의 화학 발명품을 제작할 수 있습니다.
-		기술 레벨 1 일 때, 새로운 도안을 하나 배웁니다.
+		기술 레벨이 1 일 때, 새로운 도안을 하나 배웁니다.
 		이 기술에 기술 점수를 투자할 때마다 20%% 확률로 무작위한 도안을 하나 배웁니다. 기술 레벨이 5 가 될 때까지 이 효과를 누리지 못했다면, 도안 하나를 100%% 확률로 배웁니다. (도안을 모두 배운 경우에는 효과가 일어나지 않습니다)
 		%s]], "tformat")
 t("Explosives", "폭파학", "talent name")
@@ -4830,7 +4830,7 @@ t([[Allows you to create explosive tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
 		%s]], [[레벨 %d 의 폭파학 발명품을 제작할 수 있습니다.
-		기술 레벨 1 일 때, 새로운 도안을 하나 배웁니다.
+		기술 레벨이 1 일 때, 새로운 도안을 하나 배웁니다.
 		이 기술에 기술 점수를 투자할 때마다 20%% 확률로 무작위한 도안을 하나 배웁니다. 기술 레벨이 5 가 될 때까지 이 효과를 누리지 못했다면, 도안 하나를 100%% 확률로 배웁니다. (도안을 모두 배운 경우에는 효과가 일어나지 않습니다)
 		%s]], "tformat")
 t("Steam Power", "증기의 힘", "talent name")
@@ -5669,7 +5669,7 @@ t([[Allows you to create smithed tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
 		%s]], [[레벨 %d 의 야금학 발명품을 제작할 수 있습니다.
-		기술 레벨 1 일 때, 새로운 도안을 하나 배웁니다.
+		기술 레벨이 1 일 때, 새로운 도안을 하나 배웁니다.
 		이 기술에 기술 점수를 투자할 때마다 20%% 확률로 무작위한 도안을 하나 배웁니다. 기술 레벨이 5 가 될 때까지 이 효과를 누리지 못했다면, 도안 하나를 100%% 확률로 배웁니다. (도안을 모두 배운 경우에는 효과가 일어나지 않습니다)
 		%s]], "tformat")
 t("Mechanical", "기계학", "talent name")
@@ -5677,7 +5677,7 @@ t([[Allows you to create mechanical tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
 		%s]], [[레벨 %d 의 기계학 발명품을 제작할 수 있습니다.
-		기술 레벨 1 일 때, 새로운 도안을 하나 배웁니다.
+		기술 레벨이 1 일 때, 새로운 도안을 하나 배웁니다.
 		이 기술에 기술 점수를 투자할 때마다 20%% 확률로 무작위한 도안을 하나 배웁니다. 기술 레벨이 5 가 될 때까지 이 효과를 누리지 못했다면, 도안 하나를 100%% 확률로 배웁니다. (도안을 모두 배운 경우에는 효과가 일어나지 않습니다)
 		%s]], "tformat")
 t("Electricity", "전기학", "talent name")
@@ -5685,7 +5685,7 @@ t([[Allows you to create electrical tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
 		%s]], [[레벨 %d 의 전기학 발명품을 제작할 수 있습니다.
-		기술 레벨 1 일 때, 새로운 도안을 하나 배웁니다.
+		기술 레벨이 1 일 때, 새로운 도안을 하나 배웁니다.
 		이 기술에 기술 점수를 투자할 때마다 20%% 확률로 무작위한 도안을 하나 배웁니다. 기술 레벨이 5 가 될 때까지 이 효과를 누리지 못했다면, 도안 하나를 100%% 확률로 배웁니다. (도안을 모두 배운 경우에는 효과가 일어나지 않습니다)
 		%s]], "tformat")
 t("Compact Steam Tank", "소형 증기 탱크", "talent name")

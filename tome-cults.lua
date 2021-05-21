@@ -2757,8 +2757,8 @@ t([[You attune your horrors to the dead god Amakthel, increasing your summoned h
 At talent level 3, your Decaying Devourers spell will summon 4 additional Devourers adjacent to random enemies nearby and your Bloated Horror will learn the Agony talent.
 At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn.
 The damage increase is based on your Spellpower.]], [[소환한 공포들을 죽은 신 아마크텔의 힘을 빌어 강화합니다. 소환된 공포들의 피해량이 %d%% 증가합니다.
-기술 레벨 3 일 때, 부패의 포식귀 주문이 근처의 무작위한 적 인근에 부패하는 포식귀를 4 체 더 소환합니다. 부풀어오른 공포는 격통 기술을 사용하게 됩니다.
-기술 레벨 5 일 때, 공포스러운 모습의 대상이 반경 10 칸 내의 모든 적을 매 턴 1 칸 끌어 당기게 됩니다.
+기술 레벨이 3 일 때, 부패의 포식귀 주문이 근처의 무작위한 적 인근에 부패하는 포식귀를 4 체 더 소환합니다. 부풀어오른 공포는 격통 기술을 사용하게 됩니다.
+기술 레벨이 5 일 때, 공포스러운 모습의 대상이 반경 10 칸 내의 모든 적을 매 턴 1 칸 끌어 당기게 됩니다.
 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
