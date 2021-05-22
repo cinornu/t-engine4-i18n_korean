@@ -12,7 +12,7 @@ t("Kill High Paladin Aeryn with the body of Sun Paladin John.", "태양의 기�
 section "tome-possessors/data/birth/psionic.lua"
 
 t("Possessor", "빙의술사", "birth descriptor name")
-t("#CRIMSON#BEWARE: This class is very #{italic}#strange#{normal}# and may be confusing to play for beginners.#LAST#", "#CRIMSON#경고: 이 직업은 굉장히 #{italic}#기괴하기에#{normal}# 초보자가 플레이하기엔 굉장히 어렵습니다.#LAST#", "_t")
+t("#CRIMSON#BEWARE: This class is very #{italic}#strange#{normal}# and may be confusing to play for beginners.#LAST#", "#CRIMSON#경고: 이 직업은 굉장히 #{italic}#난해하기에#{normal}# 초보자가 플레이하기는 굉장히 어렵습니다.#LAST#", "_t")
 t("Possessors are a rare breed of psionics. Some call them body snatchers. Some call them nightmarish.", "빙의술사는 매우 희귀한 초능력자입니다. 그들은 육체 강탈자라고 불리기도 하고, 악몽 같은 존재라고 불리기도 합니다.", "_t")
 t("They are adept at stealing their foes corpses for their own use. Discarding their own bodies for a while to use other's.", "그들은 적의 시체를 능숙하게 훔쳐내어 목적을 달성하는 데에 이용합니다. 자신의 육체를 잠시 버리고 다른 육체를 사용하기도 합니다.", "_t")
 t("Their most important stats are: Willpower and Cunning", "그들에게 가장 중요한 능력치는 의지와 교활입니다.", "_t")
@@ -24,34 +24,34 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/battle-psionics.lua"
 
-t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
-t("You require a mainhand weapon and an offhand mindstar to use this talent.", "이 기술을 사용하기 위해서는 주 무기 칸에 무기를 장착하고, 보조 무기 칸에 마석을 장착해야 한다.", "logPlayer")
+t("You are disarmed.", "무장을 해제했다.", "logPlayer")
+t("You require a mainhand weapon and an offhand mindstar to use this talent.", "이 기술을 사용하기 위해서는 주 무기로 한 손 무기, 보조 무기로 마석을 장비해야 한다.", "logPlayer")
 t("Psionic Disruption", "염동력 방해", "talent name")
 t([[You imbue your offhand mindstar with wild psionic forces.
 		While active you gain %d%% more of your mindstar's mindpower and mind critical chance.
 		Each time you make a melee attack you also add a stack of Psionic Disruption to your target.
 		Each stack lasts for %d turns and deals %0.2f mind damage over the duration (max %d stacks).
 		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[마석에 격렬한 초능력을 불어넣습니다.
-		활성화된 동안, 마석의 정신력과 정신 치명타 확률이 %d%% 증가합니다.
-		근접 공격을 가할 때마다, 대상에게 염동력 방해 1 중첩을 적용합니다.
-		매 중첩은 %d 턴 동안 유지되며, 지속 기간 동안 %0.2f 정신 피해를 가합니다. 최대 %d 번 중첩 가능합니다.
-		한손 무기와 마석이 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다. 격렬한 초능력은 염동 칼날과 함께 사용할 수 없습니다.]], "tformat")
+		기술이 활성화되면 마석의 정신력과 정신 치명타 확률이 %d%% 증가합니다.
+		또한, 매 근접 공격 시마다 대상에게 염동력 방해 효과를 1 만큼 누적시킵니다.
+		효과를 누적시킬 때 마다 %d 턴으로 갱신되며, 매 턴 %0.2f 정신 피해를 가합니다. 최대 %d 번까지 중첩시킬 수 있습니다.
+		한손 무기와 마석을 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Shockstar", "충격의 별", "talent name")
 t([[You make a first attack with your mainhand for %d%% weapon damage.
 		If the attack hits the target is distracted and you use that to violently slam your mindstar into it, dealing %d%% damage.
 		The shock is so powerful the target is stunned for %d turns and all creatures around in radius %d are dazed for the same time.
 		The stun and daze duration is dependant on the number of psionic disruption charges on the target, the given number is for 4 charges.
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[한손 무기로 타격해 %d%% 무기 피해를 입힙니다.
-		명중 시, 대상은 짧은 시간 동안 정신을 집중하지 못하게 되고, 이때, 시전자는 마석을 맹렬하게 내리쳐, %d%% 피해를 가합니다.
-		충격은 너무나 강력해, 대상은 %d 턴 동안 기절하게 되고, 반경 %d 칸 내의 모든 적이 같은 시간 동안 혼절하게 됩니다.
-		기절과 혼절의 지속시간은 대상에게 적용된 염동력 방해 중첩에 비례하여 증가합니다. 이 기술 설명에 적혀져 있는 지속시간은 4 중첩일 경우를 상정한 설명입니다.
-		한손 무기와 마석이 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다. 격렬한 초능력은 염동 칼날과 함께 사용할 수 없습니다.]], "tformat")
+		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[한손 무기로 대상을 타격해 %d%% 무기 피해를 입힙니다.
+		기술이 명중하면 대상은 짧은 시간 동안 정신을 집중하지 못하게 되며, 추가적으로 마석을 맹렬히 내려쳐 %d%% 피해를 가합니다.
+		너무나도 강력한 충격을 받아 대상은 %d 턴 동안 기절하게 되며, 반경 %d 칸 내의 모든 적 또한 같은 시간동안 혼절하게 됩니다.
+		기절과 혼절의 지속 시간은 대상에게 누적된 염동력 방해 효과에 비례하여 증가합니다. 이 기술의 설명은 염동력 방해 효과가 4 만큼 누적되었을 때를 기준으로 합니다.
+		한손 무기와 마석을 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Dazzling Lights", "눈부신 빛", "talent name")
 t([[Raising your mindstar in the air you channel a bright flash of light through it. Any creatures in radius %d is blinded for %d turns.
 		If any foe in melee range is blinded by the effect you quickly use that to your advantage by striking them with a blow of your main hand weapon doing %d%% damage.
 		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[마석을 공중에 띄워, 강렬한 섬광을 마석을 통해 내보냅니다. 반경 %d 칸 내의 모든 적은 %d 턴 동안 실명합니다.
 		인접한 위치에 적이 있을 경우, 실명 효과의 이점을 최대한 활용해, 주무기로 가격하여 %d%% 피해를 가합니다.
-		한손 무기와 마석이 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다. 격렬한 초능력은 염동 칼날과 함께 사용할 수 없습니다.]], "tformat")
+		한손 무기와 마석을 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Psionic Block", "염동력 방어장", "talent name")
 t([[You concentrate to create a psionic block field all around you for 5 turns.
 		While the effect holds all damage against you have a %d%% chance to be fully ignored.
@@ -242,14 +242,14 @@ t([[When you assume the form of an other body you gain more control over the bod
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psionic-menace.lua"
 
-t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
+t("You are disarmed.", "무장을 해제했다.", "logPlayer")
 t("You require two mindstars to use this talent.", "이 기술을 사용하기 위해서는, 마석을 2 개 장착해야 한다.", "logPlayer")
 t("Mind Whip", "정신 채찍", "talent name")
 t([[You lash out your psionic fury at a distant creature, doing %0.2f mind damage.
 		The whip can cleave to one nearby foe.
 		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[원거리의 적을 정신의 분노로 채찍질하여 %0.2f 정신 피해를 가합니다.
 		정신 채찍은 인접한 적 하나를 추가로 공격합니다.
-		마석이 양 손에 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다. 격렬한 초능력은 염동 칼날과 함께 사용할 수 없습니다.]], "tformat")
+		마석을 양손에 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Psychic Wipe", "초능력 소거", "talent name")
 t([[You project ethereal fingers inside the target's brain.
 		Over %d turns it will take %0.2f total mind damage and have its mental save reduced by %d.
@@ -257,13 +257,13 @@ t([[You project ethereal fingers inside the target's brain.
 		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[영체 상태의 손가락을 대상의 뇌에 투사합니다.
 		대상은 %d 턴 동안 총 %0.2f 정신 피해를 입고, 정신 내성이 %d 감소합니다.
 		이 기술은 효과 적용 판정 시, 대상의 정신 내성에 대항한 시전자의 정신력을 130%% 로 적용합니다.
-		마석이 양손에 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다. 격렬한 초능력은 염동 칼날과 함께 사용할 수 없습니다.]], "tformat")
+		마석을 양손에 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Ghastly Wail", "섬뜩한 곡성", "talent name")
 t([[You let your mental forces go unchecked for an instant. All foes in a radius %d are knocked 3 grids away from you.
 		Creatures that fail a mental save are also dazed for %d turns and take %0.2f mind damage.
 		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[짧은 시간 동안 정신력을 해방하여 반경 %d 칸 내의 모든 적을 시전자로 부터 3 칸 밀칩니다.
 		정신 내성에 실패한 적은 %d 턴 동안 혼절 상태에 빠지며, %0.2f 정신 피해를 받습니다.
-		마석이 양손에 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다. 격렬한 초능력은 염동 칼날과 함께 사용할 수 없습니다.]], "tformat")
+		마석을 양손에 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Finger of Death", "죽음의 손가락", "talent name")
 t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source1# #Target#의 정신을 박살내고, 완전히 파괴했다.", "logCombat")
 t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it but has no room to store the body.", "#PURPLE##Source1# #Target#의 정신을 산산조각 내어, 완전히 파괴시켜버렸지만, 보관소에 육체를 안치할 공간이 모자르다.", "logCombat")
@@ -276,7 +276,7 @@ t([[You point your ghastly finger at a foe affected by Ghastly Wail and send a p
 		대상은 제거된 생명력의 %d%% 에 해당하는 정신 피해를 받습니다.
 		대상이 보스 이상의 등급일 때, 피해량은 %d 으로 제한됩니다.
 		죽음의 손가락으로 인해 죽은 대상이, 육체를 강탈할 수 있는 종족일 경우 육체를 강탈해 보관소에 보관합니다.
-		마석이 양손에 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다. 격렬한 초능력은 염동 칼날과 함께 사용할 수 없습니다.]], "tformat")
+		마석을 양손에 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psionic.lua"
@@ -301,8 +301,8 @@ t("Your mind hungers for pain and suffering! Feed it!", "정신이 고통과 괴
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psychic-blows.lua"
 
-t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
-t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요하다.", "logPlayer")
+t("You are disarmed.", "무장을 해제했다.", "logPlayer")
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기를 장비해야힌다.", "logPlayer")
 t("Psychic Crush", "초능력 파쇄", "talent name")
 t("%s's Psychic Image", "%s의 초능력 투영체", "tformat")
 t("#ROYAL_BLUE#%s's psychic imprint appears!", "#ROYAL_BLUE#%s의 초능력 투영체가 나타났다!", "logSeen")
@@ -313,13 +313,13 @@ t([[Using both your mind and your arms you propel your two handed weapon to deal
 		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[정신을 집중하여 추진력을 더한 양손 무기로 강력한 일격을 가해 %d%% 무기 피해를 정신 속성으로 가합니다.
 		공격이 명중하면 대상은 정신 내성 판정을 해, 실패할 경우 %d%% 확률로 적에게서 초능력 투영체를 벗겨냅니다.
 		초능력 투영체는 적 근처에서 생성되며, %d 턴 동안 시전자를 돕습니다.
-		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
+		양손 무기를 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다.]], "tformat")
 t("Force Shield", "힘의 보호막", "talent name")
 t([[You create a psionic shield from your weapon that prevents you from ever taking blows that deal more than %d%% of your maximum life and gives you %d%% evasion.
 		In addition, each time you take a melee hit the attacker automatically takes revenge strike that deals %d%% weapon damage as mind damage. (This effect can only happen once per turn)
 		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[무기에서 초능력 보호막을 생성해, 한 번에 최대 생명력의 %d%% 이상의 피해를 받지 않게 되고, %d%% 의 피해 무효화 확률을 얻게 됩니다.
 		추가로, 근접 공격을 받을 때마다, 자동적으로 보복을 가해 %d%% 무기 피해를 정신 속성으로 가합니다. 이 효과는 한 턴에 1 번만 발생합니다)
-		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
+		양손 무기를 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다.]], "tformat")
 t("Unleashed Mind", "해방된 정신", "talent name")
 t([[You concentrate your powerful psionic powers on your weapon and briefly unleash your fury.
 		All foes in radius %d will take a melee attack dealing %d%% weapon damage as mind damage.
@@ -327,7 +327,7 @@ t([[You concentrate your powerful psionic powers on your weapon and briefly unle
 		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[강력한 염동력을 무기에 집중해, 짧은 시간 동안 분노를 해방합니다.
 		반경 %d 칸 내의 모든 적에게 근접 공격을 가해, %d%% 무기 피해를 정신 속성으로 입힙니다.
 		범위 내의 모든 초능력 투영체는 지속시간이 %d 턴 연장됩니다.
-		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
+		양손 무기를 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다.], "tformat")
 t("Seismic Mind", "압도적인 정신", "talent name")
 t([[You shatter your weapon in the ground, projecting a psionic shockwave in a cone of radius %d.
 		Any foes in the area will take %d%% weapon damage as mind damage.
@@ -335,7 +335,7 @@ t([[You shatter your weapon in the ground, projecting a psionic shockwave in a c
 		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[무기를 지면에 던져, 무기를 산산조각 내고, 반경 %d 칸의 원뿔 범위에 초능력 충격파를 풀어놓습니다.
 		범위 내의 모든 적은 %d%% 무기 피해를 정신 피해로 받습니다.
 		충격파에 휘말린 초능력 투영체는 산산 조각나 반경 1 칸 내에 %0.2f 물리 피해를 가합니다.
-		양손 무기가 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다.]], "tformat")
+		양손 무기를 장비하지 않았지만 보조 장비 칸에 장비하고 있는 경우, 즉시 장비 칸을 전환합니다.]], "tformat")
 t("A temporary psionic imprint.", "일시적인 초능력 투영체입니다.", "_t")
 
 
