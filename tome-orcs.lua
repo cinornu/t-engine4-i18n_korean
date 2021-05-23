@@ -3924,7 +3924,7 @@ t([[Expend all of your negative energy to create a massive burst of dark energy 
 		This deals %0.2f darkness damage and pins targets hit for %d turns.
 		The damage and pin chance increase with your spellpower, and the damage, radius and pin duration all increase with negative energy and talent level]], [[시전자의 모든 음기를 끌어 모아 반경 %d 칸의 거대한 암흑 에너지 폭발을 일으킵니다. %d 칸 내의 위치를 폭발 진원지로 선택할 수 있습니다.
 		폭발은 %0.2f 어둠 피해를 주고 피격당한 대상을 %d 턴 동안 속박합니다.
-		피해량과 속박 확률은 주문력에 비례하고, 피해량과 범위, 속박 지속 시간은 시전자의 현재 음기와 기술 레벨에 비례하여 증가합니다.]], "tformat")
+		피해량과 속박 확률은 주문력에 비례하고, 피해량과 범위, 속박 지속시간은 시전자의 현재 음기와 기술 레벨에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/crepescula.lua"
@@ -4056,7 +4056,7 @@ t([[Creates a circle of radius %d of altered time for %d turns. Any damage your 
 t("Saw Storm", "톱날 폭풍", "talent name")
 t([[Summon a storm of swirling sawblades to slice your foes, inflicting %d physical damage and bleeding to anyone who approaches for %d turns.
 		The damage and duration will increase with your Mindpower.]], [[소용돌이치는 톱날의 폭풍을 일으켜 적들을 찢습니다. %d 물리 피해를 가하고, 내부의 모든 대상에게 %d 턴 동안 지속되는 출혈을 유발합니다.
-		피해량과 지속 시간은 정신력에 비례하여 증가합니다.]], "tformat")
+		피해량과 지속시간은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Razor Saw", "면도날 톱니", "talent name")
 t([[Launches a sawblade with intense power doing %0.2f physical damage to all targets in line.
 		The damage will increase with Mindpower]], [[톱날을 발사해 발사 경로의 모든 적에게 %0.2f 물리 피해를 가합니다.
@@ -4129,7 +4129,7 @@ t([[Your yeti is attuned to the cold climates.
 		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
 		The bonus will increase with your Willpower.]], [[예티 종족은 추운 기후에 적응했습니다.
 		5 턴 동안 시전자가 가하는 모든 공격이 %d%% 확률로 대상을 3 턴 동안 얼려버립니다.
-		지속 시간 중, 시전자는 손쉽게 얼음을 관통할 수 있게 됩니다. 얼음의 피해 흡수량이 50%% 감소됩니다.
+		지속시간 중, 시전자는 손쉽게 얼음을 관통할 수 있게 됩니다. 얼음의 피해 흡수량이 50%% 감소됩니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Thick Fur", "두꺼운 털", "talent name")
 t("Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "예티의 털은 방패 역할을 해, 냉기 저항을 %d%%, 물리 저항을 %d%%, 주문 내성을 %d 증가시킵니다.", "tformat")
@@ -4489,7 +4489,7 @@ t([[Release a cloud of deadly miasma over a targeted area, dealing %0.2f darknes
 t("Vampiric Surge", "흡혈의 쇄도", "talent name")
 t([[You surge with a life draining energy for %d turns.
 		While the effect lasts, you heal yourself for %d%% of all damage you deal.]], [[생명력 흡수의 에너지가 %d 턴 동안 쇄도합니다.
-		지속 시간 동안 가하는 피해량의 %d%% 가 시전자의 생명력으로 회복됩니다.]], "tformat")
+		지속시간 동안 가하는 피해량의 %d%% 가 시전자의 생명력으로 회복됩니다.]], "tformat")
 t("Necrotic Breath", "괴사의 숨결", "talent name")
 t("@Source@ breathes a wave of darkness!", "@Source2@ 어둠의 파도를 뿜어냈다!", "_t")
 t([[You breathe a wave of deathly miasma in a cone of radius %d. Any target caught in the area will take %0.2f darkness damage over 4 turns and receive either a bane of confusion or a bane of blindness for 4 turns.
@@ -4506,7 +4506,7 @@ t([[You equip an automated, shoulder mounted rocket launcher. Each turn it will 
 t("Incendiary Powder", "발화성 폭약", "talent name")
 t([[Augment your rockets with highly flammable materials, causing them to burn targets for %0.2f fire damage over 3 turns. Subsequent shots against burning targets refresh the effect of the duration (but do not stack) and inflict %0.2f additional fire damage.
 Targets affected by this burning that fall below 25%% life enter a state of panic, giving them a %d%% chance each turn to flee in terror from you.
-The fire damage will increase with your Steampower.]], [[로켓을 발화성 물질로 강화합니다. 로켓에 피격된 적에게 3 턴에 걸쳐 %0.2f 화염 피해를 가합니다. 불타는 적을 대상으로 하는 후속 로켓 공격은 화상의 지속 시간을 갱신하며 (중첩되지는 않습니다) 추가로 %0.2f 화염 피해를 가합니다.
+The fire damage will increase with your Steampower.]], [[로켓을 발화성 물질로 강화합니다. 로켓에 피격된 적에게 3 턴에 걸쳐 %0.2f 화염 피해를 가합니다. 불타는 적을 대상으로 하는 후속 로켓 공격은 화상의 지속시간을 갱신하며 (중첩되지는 않습니다) 추가로 %0.2f 화염 피해를 가합니다.
 이 화상 효과를 받고 있는 생명력 25%% 이하의 적은 당황하여, 매 턴 %d%% 확률로 시전자에게서 도망치려 합니다.
 화염 피해는 증기력에 비례하여 증가합니다..]], "tformat")
 t("Lock On", "목표 고정", "talent name")
@@ -5836,7 +5836,7 @@ t([[Using psionic energies you temporarily alter your blood, turning it into mol
 		When affected by molten blood all creatures that hit you in melee take %0.2f fire damage, all your resistances are increased by %d%% and all new detrimental effects on you have their duration reduced by %d%%.
 		Damage increases with your Steampower.
 		]], [[초능력으로 잠깐 동안 혈액을 뜨거운 쇳물로 바꿉니다.
-		지속 시간 동안 시전자에게 근접 공격을 가한 적은 %0.2f 화염 피해를 입습니다. 시전자의 모든 저항은 %d%% 증가하고, 새로 받는 부정적인 효과들의 지속시간이 %d%% 감소합니다.
+		지속되는 동안 시전자에게 근접 공격을 가한 적은 %0.2f 화염 피해를 입습니다. 시전자의 모든 저항은 %d%% 증가하고, 새로 받는 부정적인 효과들의 지속시간이 %d%% 감소합니다.
 		피해량은 증기력에 비례하여 증가합니다.
 		]], "tformat")
 t("Mind Drones", "정신 드론", "talent name")
@@ -5906,7 +5906,7 @@ t("An automated turret emitting a healing mist.", "회복 안개를 내뿜는 �
 t("Deploy a turret that emits a healing mist in radius 3. The turret gains +%d Dexterity, Constitution and Cunning.", "반경 3 칸에 회복 안개를 내뿜는 포탑을 설치합니다. 포탑은 민첩, 체격, 교활을 %d 만큼 추가로 가집니다.", "tformat")
 t("Overclock", "오버클럭", "talent name")
 t([[Send a surge of power into all turrets in sight, extending their duration by %d turns and granting them a charged shield absorbing %d damage for 10 turns. While the shield holds, each turn the turret will project a bolt of lightning dealing %0.2f lightning damage to a random enemy in radius 6, with a 25%% chance to daze.
-		The effects will increase with your Steampower.]], [[시야 내의 모든 포탑에 힘의 쇄도를 불어넣습니다. 모든 포탑의 지속 시간이 %d 턴 연장되고, 10 턴 동안 %d 피해를 흡수하는 전하 보호막이 포탑에 생성됩니다. 보호막이 유지되는 동안 매 턴마다 포탑이 반경 6 칸 내의 무작위한 적에게 %0.2f 전기 피해를 가하고, 25%% 확률로 혼절을 일으키는 번개 화살을 날립니다.
+		The effects will increase with your Steampower.]], [[시야 내의 모든 포탑에 힘의 쇄도를 불어넣습니다. 모든 포탑의 지속시간이 %d 턴 연장되고, 10 턴 동안 %d 피해를 흡수하는 전하 보호막이 포탑에 생성됩니다. 보호막이 유지되는 동안 매 턴마다 포탑이 반경 6 칸 내의 무작위한 적에게 %0.2f 전기 피해를 가하고, 25%% 확률로 혼절을 일으키는 번개 화살을 날립니다.
 		이 효과는 증기력에 비례하여 증가합니다.]], "tformat")
 t("Upgrade", "업그레이드", "talent name")
 t([[Upgrade the target turret, granting it %d%% increased maximum life and enhanced abilities based on type:
@@ -5932,7 +5932,7 @@ t("Subcutaneous Metallisation", "피하 도금", "talent name")
 t([[When your life dips below 50%% of your total life an automated process turns some of your lower skin layers (or other internal organs) into a thick metallic layer for 6 turns.
 		While the effect lasts all damage done to you is reduced by a flat amount equal to 100%% of your Constitution.
 		This effect can only trigger once every %d turns.]], [[생명력이 최대 생명력의 50%% 미만으로 떨어지게 되면, 6 턴 동안 자동화 프로세서가 피하 조직과 기타 내부 장기에 두꺼운 철판을 덧댑니다.
-		지속 시간 동안 받는 피해량이 현재 체격 수치만큼 감소합니다.
+		지속시간 동안 받는 피해량이 현재 체격 수치만큼 감소합니다.
 		이 효과는 매 %d 턴마다 1 번씩 일어납니다.]], "tformat")
 
 ------------------------------------------------

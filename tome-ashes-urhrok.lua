@@ -1531,7 +1531,7 @@ t("#Target# is free from the demon seed.", "#Target2# 악마의 씨앗에서 벗
 t("-Demon Seed", "-악마의 씨앗", "_t")
 t("heal", "회복", "effect subtype")
 t("Osmosis Regeneration", "삼투의 재생", "_t")
-t("You regenerate a total of %0.2f life over the duration of the effect.", "이 효과의 지속 시간에 걸쳐 생명력을 %0.2f 회복함.", "tformat")
+t("You regenerate a total of %0.2f life over the duration of the effect.", "이 효과의 지속시간에 걸쳐 생명력을 %0.2f 회복함.", "tformat")
 t("+Osmosis Regen", "+삼투의 재생", "_t")
 t("-Osmosis Regen", "-삼투의 재생", "_t")
 t("resistance", "저항", "effect subtype")

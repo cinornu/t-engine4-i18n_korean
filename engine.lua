@@ -384,7 +384,7 @@ section "engine/engine/Module.lua"
 
 t("Beta Addons Disabled", "베타 애드온 비활성화됨", "_t")
 t([[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
-#GREY#]], [[이 베타 버전은 애드온 없이 작동되어야 합니다. 다음과 같은 애드온이 비활성화됩니다 :
+#GREY#]], [[이 베타 버전은 애드온 없이 작동되어야 합니다. 다음과 같은 애드온이 비활성화됩니다:
 #GREY#]], "_t")
 t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#애드온 개발자는 개발자 모드를 활성화 함으로써 자신이 만든 애드온을 테스트해 볼 수 있습니다.#{normal}#", "_t")
 t([[Total playtime of all registered players:%s
@@ -396,8 +396,8 @@ t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE# 플레
 t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 열 가지 종족/직업 조합 중 하나입니다", "tformat", nil, {"는"})
 t("There are currently %d people playing online", "현재 %d 명의 플레이어들이 온라인 상태에 있습니다", "tformat")
 t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "캐릭터 보관소에는 총 #RED#%d#WHITE# 캐릭터의 죽음이 기록되어 있습니다", "tformat")
-t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소는 현재 버전의 승자 #LIGHT_BLUE#%d#WHITE# 명이 기록되어 있습니다", "tformat")
-t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "마지막 기부자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 기부자들께 감사드리며, 이 게임이 계속될 수 있게끔 도와주세요!", "tformat")
+t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소에는 현재 버전의 승자가 #LIGHT_BLUE#%d#WHITE# 명 기록되어 있습니다", "tformat")
+t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "가장 최근 기부자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 기부자님들께 감사드립니다! 여러분이 이 게임에 생기를 불어넣고 있어요!", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로필로 교체됨)", "log", nil, {"이"})
 
 ------------------------------------------------

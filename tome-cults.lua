@@ -3106,7 +3106,7 @@ t([[Your Nihil unravels the existence of the target, tearing them apart with ent
 		The Herald will have a bonus to all attributes equal to your Magic.  Many other stats will scale with level.
 		Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[허무가 대상의 존재를 해체하여, 엔트로피를 통해 갈가리 찢습니다.
 		허무의 효과가 사라지기 전까지 대상에게 부정적인 마법 효과가 6개 적용되면, 소멸의 전령이 소환되어 %d 턴 동안 시전자의 편에서 싸웁니다.
-		허무가 적용되기 이전에 걸어 둔 부정적 효과, 주문 충격, '비전의 눈: 보임' 은 상술한 6가지에 인정되지 않습니다. 단, 이전에 걸어 둔 부정적 효과를 한 번 더 적용하여 갱신하는 것은 인정됩니다.
+		허무가 적용되기 이전에 걸어 둔 부정적 효과, 주문 충격, '비전의 눈: 보임' 은 상술한 6개에 인정되지 않습니다. 단, 이전에 걸어 둔 부정적 효과를 한 번 더 적용하여 갱신하는 것은 인정됩니다.
 		시전자의 마법 능력치와 같은 수치가 전령의 모든 능력치에 더해집니다. 그 외의 능력치들은 레벨에 따라 증가합니다.
 		시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 전령에게 적용됩니다.]], "tformat")
 t("Erase", "삭제", "talent name")
@@ -3240,7 +3240,7 @@ t([[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe t
 		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], [[근접 공격을 가해 %d%% 무기 피해를 주고, 대상의 생명력이 %d%% 이하라면 대상을 낚아채 통째로 삼켜버립니다.
 		적을 소화시키는 동안 매 턴 %d 광기를 획득합니다.
 		정예 등급의 적을 삼킨 경우 소화하는 데에 50 턴이 걸리고, 나머지 경우에는 25 턴이 걸립니다.
-		이 효과의 남아있는 지속 시간은 오직 전투 중에만 줄어듭니다. 또한 이 기술로 얻게 되는 이점 역시 전투 중에만 적용됩니다.]], "tformat")
+		이 효과의 남아있는 지속시간은 오직 전투 중에만 줄어듭니다. 또한 이 기술로 얻게 되는 이점 역시 전투 중에만 적용됩니다.]], "tformat")
 t("Painful Agony", "끔찍한 고통", "talent name")
 t([[The pain you inflict to the victim you are digesting is so intense something breaks inside it, giving you a way into its mind.
 		When you digest you can steal a random talent from your victim and can use it for yourself at talent level %d.
