@@ -5135,7 +5135,7 @@ t([[You replace your steamgun and attack with an incendiary device that projects
 
 		화염 방사기는 방어력을 무시하며, 반드시 명중합니다.]], "tformat")
 t("Flame Jet", "화염 방사", "talent name")
-t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
+t("You are disarmed.", "무장이 해제됐다.", "logPlayer")
 t("You require heavy ammunition to fire your flamethrower.", "화염 방사기를 사용하기 위해서는 중화기 탄환이 필요하다.", "logPlayer")
 t("Fire a jet of flame, dealing %d%% weapon damage as fire over 3 turns.", "화염을 쏘아내, 3 턴에 걸쳐 %d%% 무기 피해를 화염 속성으로 가합니다.", "tformat")
 t("Shockstaff", "감전 지팡이", "talent name")
@@ -5229,7 +5229,7 @@ You now also use your Cunning in place of Strength when equipping shields as wel
 이제 장비 제한에 있어, 힘 대신 교활을 이용하여 방패를 착용할 수 있습니다. 방패의 피해량을 계산할 때도, 힘 대신 교활을 적용하여 피해량을 산출합니다.]], "tformat")
 t("Magnetic Field", "자기장", "talent name")
 t("You require a shield for this talent.", "이 기술을 사용하기 위해서는 방패가 필요하다.", "logPlayer")
-t("#Source# shatters '#Target#'.", "#Source1# #Target3# 파쇄합니다.", "logCombat")
+t("#Source# shatters '#Target#'.", "#Source1# #Target3# 파쇄한다.", "logCombat")
 t([[You project a powerful blast of magnetic energy from your shield in radius %d around you. Enemies caught within are knocked back %d tiles and take %d%% shield damage as lightning, and any projectiles will be destroyed.
 		While this talent is not on cooldown, you also project a magnetic field from your shield, reducing the speed of incoming projectiles by %d%% and your chance to be critically hit by %d%%.]], [[방패에서 강력한 자기장 폭발을 일으켜, 시전자를 기준으로, 반경 %d 칸 내의 적을 공격합니다. 범위 내의 적은 %d 칸 밀려나고, %d%% 방패 피해를 전기 속성으로 받습니다. 또한 범위 내의 모든 투사체는 파괴됩니다.
 		이 기술이 재사용 대기시간이 아닐 때, 방패에서 미약한 자기장이 방출되어, 시전자를 향해 오는 투사체의 속도가 %d%% 감소하고, 시전자의 치명타 피격 확률이 %d%% 줄어듭니다.]], "tformat")

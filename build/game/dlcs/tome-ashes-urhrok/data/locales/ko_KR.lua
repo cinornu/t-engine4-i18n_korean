@@ -1035,7 +1035,7 @@ t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to y
 		기술 레벨 5 일 때, 가슴 방어구에 결합할 수 있게 됩니다.
 		]], "tformat")
 t("Twisted Portal", "뒤틀린 차원문", "talent name")
-t("Select a teleport location...", "순간이동 할 목적지를 선택합니다...", "logPlayer")
+t("Select a teleport location...", "순간이동할 목적지를 선택하세요...", "logPlayer")
 t("The targetted phase door fizzles and works randomly!", "대상 위치를 출구로 하는 위상 관문의 시전이 실패했다! 위상 관문이 멋대로 작동한다!", "logPlayer")
 t([[Teleports you randomly within a small range of up to %d grids with %d precision.
 		In the spot you left you will summon a random demon from your seeds for %d turns.

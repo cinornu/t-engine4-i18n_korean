@@ -2811,7 +2811,7 @@ t("Stack the odds in your favour.", "마음 먹은대로 행운을 조작합니�
 t("beyond sanity", "이성 너머", "talent type")
 t("Let yourself walk in chaos!", "혼돈이 함께 합니다!", "_t")
 t("other", "기타", "talent type")
-t("Talents of the various entities of the world.", "세상에 존재하는 여러 종족들의 기술.", "_t")
+t("Talents of the various entities of the world.", "세상에 존재하는 여러 종족들의 기술입니다.", "_t")
 
 
 ------------------------------------------------
@@ -3068,7 +3068,7 @@ t([[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness d
 		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용될 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Spatial Distortion", "공간의 뒤틀림", "talent name")
-t("Select a teleport location...", "순간이동 할 목적지를 선택합니다...", "logPlayer")
+t("Select a teleport location...", "순간이동할 목적지를 선택하세요...", "logPlayer")
 t("The spell fizzles on %s!", "%s 향한 주문이 실패했다!", "logSeen", nil, {"을"})
 t("#CRIMSON#%s is swallowed by a portal!", "#CRIMSON#%s 차원문에게 삼켜졌다!", "logSeen", nil, {"는"})
 t("%s resists the warp!", "%s 공간의 뒤틀림에 저항했다!", "logSeen", nil, {"는"})

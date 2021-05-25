@@ -722,7 +722,7 @@ t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you
 section "tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
 
 t("Draining Assault", "흡수의 맹공", "talent name")
-t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요하다.", "logPlayer")
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기를 장비해야 한다.", "logPlayer")
 t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "대상을 2번 공격하여 매 타격 당 %d%% 무기 피해를 줍니다. 시전자는 가한 피해량의 %d%% 에 해당하는 생명력을 회복하고, 또한 명중한 공격 하나 당 %d 원기를 획득합니다.", "tformat")
 t("Fiery Grasp", "불타는 손아귀", "talent name")
 t("%s resists the silence!", "%s 침묵에 저항했다!", "logSeen", nil, {"가"})
@@ -895,7 +895,7 @@ t("Doom Storm", "파멸의 폭풍", "talent name")
 t("firestorm", "화염 폭풍", "_t")
 t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
 		You closely control the firestorm, preventing it from harming your party members.
-		The damage and duration will increase with your Spellpower.]], [[맹렬한 화염 폭풍을 생성하여 반경 3 칸 내의 모든 대상에게 매 턴 %0.2f 화염 피해를 %d 턴 동안 가합니다.
+		The damage and duration will increase with your Spellpower.]], [[시전자 주변에 맹렬한 화염 폭풍을 생성하여 반경 3 칸 내의 모든 대상에게 매 턴 %0.2f 화염 피해를 %d 턴 동안 가합니다.
 		화염 폭풍은 완벽하게 통제되기 때문에 아군에게 피해를 가하지 않습니다.
 		피해량과 지속시간은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Frostfire Nova", "서리화염 폭발", "talent name")
@@ -1034,7 +1034,7 @@ t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to y
 		기술 레벨이 5 일 때, 가슴 방어구에 결합할 수 있게 됩니다.
 		]], "tformat")
 t("Twisted Portal", "뒤틀린 차원문", "talent name")
-t("Select a teleport location...", "순간이동 할 목적지를 선택합니다...", "logPlayer")
+t("Select a teleport location...", "순간이동할 목적지를 선택하세요...", "logPlayer")
 t("The targetted phase door fizzles and works randomly!", "대상 위치를 출구로 하는 위상 관문의 시전이 실패했다! 위상 관문이 멋대로 작동한다!", "logPlayer")
 t([[Teleports you randomly within a small range of up to %d grids with %d precision.
 		In the spot you left you will summon a random demon from your seeds for %d turns.
@@ -1329,7 +1329,7 @@ t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal
 		기절 성공 여부를 판정할 때, 시전자는 주문력을 %d 만큼 추가로 가진 것으로 간주됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {1,2,4,5,3,6,7})
 t("Abduction", "납치", "talent name")
-t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요하다.", "logPlayer")
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기를 장비해야 한다.", "logPlayer")
 t("Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", "대상을 공격해 %d%% 무기 피해를 가합니다. 명중 시, 대상을 끌어당기고 한 번 더 공격하여 %d%% 무기 피해를 추가로 가합니다.", "tformat")
 t("Fiery Torment", "불타는 고문", "talent name")
 t([[Hits the target with your weapon doing %d%% weapon damage. If the attack hits, the target is afflicted with Fiery Torment for %d turns, reducing their fire resistance by %d%%.
@@ -1348,7 +1348,7 @@ t([[Your strikes are imbued with a vile power that extends your victim's sufferi
 section "tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
 
 t("Obliterating Smash", "소멸의 강타", "talent name")
-t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요하다.", "logPlayer")
+t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기를 장비해야 한다.", "logPlayer")
 t([[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
 		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d.
 		This attack can not miss.]], [[무기를 말도 안 되는 힘으로 휘둘러, 반경 %d 칸의 반원 범위 내의 모든 적에게 %d%% 무기 피해를 가합니다.

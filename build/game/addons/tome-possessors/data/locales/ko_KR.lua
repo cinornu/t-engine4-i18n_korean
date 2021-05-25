@@ -25,7 +25,7 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#레벨 당 생명력:#LIGHT_BLU
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/battle-psionics.lua"
 
-t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
+t("You are disarmed.", "무장이 해제됐다.", "logPlayer")
 t("You require a mainhand weapon and an offhand mindstar to use this talent.", "이 기술을 사용하기 위해서는 주 무기 칸에 무기를 장착하고, 보조 무기 칸에 마석을 장착해야 한다.", "logPlayer")
 t("Psionic Disruption", "염동력 방해", "talent name")
 t([[You imbue your offhand mindstar with wild psionic forces.
@@ -243,7 +243,7 @@ t([[When you assume the form of an other body you gain more control over the bod
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psionic-menace.lua"
 
-t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
+t("You are disarmed.", "무장이 해제됐다.", "logPlayer")
 t("You require two mindstars to use this talent.", "이 기술을 사용하기 위해서는, 마석을 2 개 장착해야 한다.", "logPlayer")
 t("Mind Whip", "정신 채찍", "talent name")
 t([[You lash out your psionic fury at a distant creature, doing %0.2f mind damage.
@@ -266,7 +266,7 @@ t([[You let your mental forces go unchecked for an instant. All foes in a radius
 		정신 내성에 실패한 적은 %d 턴 동안 혼절 상태에 빠지며, %0.2f 정신 피해를 받습니다.
 		마석이 양손에 장착되어 있지 않았지만, 보조 장비 칸에 착용되어 있는 경우, 즉시 장비를 바꿉니다. 격렬한 초능력은 염동 칼날과 함께 사용할 수 없습니다.]], "tformat")
 t("Finger of Death", "죽음의 손가락", "talent name")
-t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source1# #Target#의 정신을 박살내고, 완전히 파괴했다.", "logCombat")
+t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source1# #Target#의 정신을 산산조각내어, 완전히 파괴했다. ", "logCombat")
 t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it but has no room to store the body.", "#PURPLE##Source1# #Target#의 정신을 산산조각 내어, 완전히 파괴시켜버렸지만, 보관소에 육체를 안치할 공간이 모자르다.", "logCombat")
 t("#CRIMSON#Target is not affected by ghastly wail!", "#CRIMSON#대상이 섬뜩한 곡성에 영향을 받지 않았다!", "logPlayer")
 t([[You point your ghastly finger at a foe affected by Ghastly Wail and send a psionic impulse to tell it to simply die.
@@ -302,7 +302,7 @@ t("Your mind hungers for pain and suffering! Feed it!", "정신이 고통과 괴
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psychic-blows.lua"
 
-t("You are disarmed.", "당신의 무장은 해제됐다.", "logPlayer")
+t("You are disarmed.", "무장이 해제됐다.", "logPlayer")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기가 필요합니다.", "logPlayer")
 t("Psychic Crush", "초능력 파쇄", "talent name")
 t("%s's Psychic Image", "%s의 초능력 투영체", "tformat")
@@ -397,7 +397,7 @@ t("The victim is snared in a psionic web that is destroying its mind and prepari
 t("#Target#'s mind is convulsing.", "#Target1# 정신적인 고통으로 경련하고 있다.", "_t")
 t("#Target#'s mind is not convulsing anymore.", "#Target#의 정신적인 고통이 멈췄다.", "_t")
 t("#PURPLE##Source# shatters #Target#'s mind and takes possession of its body.", "#PURPLE##Source1# #Target#의 정신을 박살내고, 그 육체에 빙의했다.", "logCombat")
-t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source1# #Target#의 정신을 박살내고, 완전히 파괴했다.", "logCombat")
+t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source1# #Target#의 정신을 산산조각내어, 완전히 파괴했다. ", "logCombat")
 t("Psychic Wipe", "초능력 소거", "_t")
 t("Ethereal fingers destroy the brain dealing %0.2f mind damage per turn and reducing mental save by %d.", "영체 상태의 손가락이 두뇌를 파괴해 매 턴 %0.2f 정신 피해를 받고, 정신 내성이 %d 감소됨.", "tformat")
 t("#Target# suddently feels strange in the brain.", "#Target2# 갑자기 뇌에 기이한 느낌을 받기 시작했다.", "_t")
