@@ -36,9 +36,9 @@ t("\
 -- new text\
 ", "_t")
 t("\
--- new text\
+-- untranslated text\
 ", "\
--- new text\
+-- untranslated text\
 ", "_t")
 t("\
 -- old translated text\

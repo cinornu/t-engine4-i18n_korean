@@ -176,7 +176,7 @@ t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has resp
 t("[die]", "[죽는다]", "_t")
 t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#당신은 죽고 싶지 않습니다. 더 생각할 것도 없이, 그 존재의 제안을 받아들였습니다. 기쁘게도, 그 존재는... 뭔가를 하기 시작했습니다. 의식이 깨어나기 시작하고, 자신의 생명이 사지로 돌아오는 것이 느껴졌습니다. 하지만, 깨지는 듯한 두통이 느껴지고 목 쪽의 고통도 잦아들질 않습니다. 당신을 죽음에서 건져내기 위해 그 존재는 무엇을 한 걸까요?#{normal}#", "_t")
 t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#이상하다... 당신은 확실히 죽었지만, 아직도 여기에 있다. 하지만 뭔가 중요한 게 없어진 느낌이 든다. 목 부분도 미칠듯이 아프고 깨질 듯한 두통도 느껴진다. 왠지 모르게, 당분간 거울을 봐서는 안 된다는 미묘한 생각이 들었다.", "log")
--- new text
+-- untranslated text
 --[==[
 t("...", "...", "_t")
 --]==]
@@ -656,13 +656,13 @@ t("tool", "도구", "entity subtype")
 t("Bizzare Contraption", "기묘한 장치", "entity name")
 t("bizzare contraption", "기묘한 장치", "_t")
 t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "이 이상한 장치는 겉도 속도 모두 기계인 것 같지만, 그 부품 중 어떤 것도 어떻게 작동하는지 이해할 수가 없습니다. 옆면에는 가끔씩 이상한 소음을 내는 금속 격자 같은 게 달려 있습니다.", "_t")
+t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% 확률로 받은 공격을 완벽하게 흡수합니다. 이 효과는 30 턴의 재사용 대기시간이 있습니다.", "_t")
 t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "기묘한 장치가 공격을 완벽히 흡수했다 (%0.2f 피해 흡수됨).", "logSeen")
 t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#전자기적 보호막 활성화. 실시간 생체 모니터링 개시.#{normal}#", "logPlayer")
 t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
 t("Fanged Collar", "송곳니 목줄", "entity name")
 t("It's a head... but is it yours?", "머리인데... 이거 당신 머리 맞나요?", "_t")
-t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% 확률로 받은 공격을 완벽하게 흡수합니다. 이 효과는 30 턴의 재사용 대기시간이 있습니다.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
@@ -836,7 +836,7 @@ t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 꿈틀대는 촉수 덩어리는 마석을 감염시켜, 자연물과 비자연물의 기묘한 융합을 이루고 있습니다. 한때 깨끗했던 보석은 이제 채찍 같은 촉수가 달린 검은 흑요석 조각에 더 가까워 보입니다. 이 공포체가 자연 그 자체와 융합할 수 있다고는 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 분출을 대상에게 시전합니다", "_t")
--- new text
+-- untranslated text
 --[==[
 t("%s: \"%s\"", "%s: \"%s\"", "tformat")
 --]==]
@@ -2812,7 +2812,6 @@ t("Let yourself walk in chaos!", "혼돈이 함께 합니다!", "_t")
 t("other", "기타", "talent type")
 t("Talents of the various entities of the world.", "세상에 존재하는 여러 종족들의 기술입니다.", "_t")
 
-
 ------------------------------------------------
 section "tome-cults/data/talents/demented/disfigured-face.lua"
 
@@ -3334,6 +3333,11 @@ t([[You extend your tentacle to grab a distant target, pulling it to you.
 section "tome-cults/data/talents/demented/timethief.lua"
 
 t("Accelerate", "가속", "talent name")
+t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
+You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
+Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어 반경 %d 칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
+시전자는 적에게서 흡수한 시간을 이용하여 1 턴 동안 믿을 수 없는 속도로 움직입니다. 시전자의 이동 속도가 %d%% 만큼 증가하고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다 (최대 4체까지).
+이동을 제외한 모든 행위는 이 효과를 즉시 중단시킵니다.]], "tformat")
 t("Switch", "전환", "talent name")
 t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "엔트로피의 쇄도를 해방하여 타인의 에너지를 흡수하고, 시전자의 부정적인 효과들을 정화합니다. 반경 10칸 이내의 모든 적이 가진 이로운 효과 %d 개의 지속시간을 %d 턴 단축시키고, 시전자가 가진 같은 수의 부정적인 효과의 지속시간도 똑같이 단축합니다.", "tformat")
 t("Suspend", "유보", "talent name")
@@ -3350,11 +3354,6 @@ t("Summon", "소환", "_t")
 t([[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
 While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[적 하나를 지정하여 %d 턴 동안 시간의 흐름에서 부분적으로 지우고, 이 세계와의 상호작용을 방해합니다. 대상이 받는 모든 피해량은 %d%% 로 감소하고, 대상이 가하는 모든 피해량도 %d%% 로 감소합니다.
 활성화 시, 찢겨진 대상의 시간선을 시간 분신으로 다시 자아내어 시전자의 편에서 싸우게 합니다. 분신의 유지시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 생명력은 %d%% 더 적으며 가하는 피해량은 원본의 %d%% 입니다.]], "tformat")
-t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
-You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어 반경 %d 칸 이내의 모든 적의 이동속도를 %d 턴 동안 50%% 낮춥니다.
-시전자는 적에게서 흡수한 시간을 이용하여 1 턴 동안 믿을 수 없는 속도로 움직입니다. 시전자의 이동 속도가 %d%% 만큼 증가하고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다 (최대 4체까지).
-이동을 제외한 모든 행위는 이 효과를 즉시 중단시킵니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/void.lua"
@@ -3407,7 +3406,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		이 질병에 감염된 적들은 생명력 회복 효율이 %d%% 감소하며, 질병 면역력이 %d%% 감소합니다.
 		이 질병은 무시무시하게 강력하기 때문에 대상의 질병 면역력을 완전히 무시합니다.
 		피해량은 주문력에 비례하여 증가하고, 전염될 확률은 대상에게 가한 황폐 속성 피해량의 영향을 받아 증가합니다.]], "tformat")
--- new text
+-- untranslated text
 --[==[
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
 t([[		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
@@ -3489,7 +3488,6 @@ t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f
 		The damage will increase with your Spellpower.]], [[공허의 힘으로 적을 강타해 %0.2f 어둠 피해와 %0.2f 시간 피해를 대상에게 입히고, 8 칸 밀쳐냅니다.
 		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용할 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-
 
 ------------------------------------------------
 section "tome-cults/data/talents/misc/races.lua"
@@ -3604,7 +3602,6 @@ t("Horror Shell", "끔찍한 껍질", "talent name")
 t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 		The total damage the shield can absorb increases with your Constitution.]], [[주변에 껍질을 만들어 %d 피해를 흡수합니다. 10 턴 동안 유지됩니다.
 		피해 흡수량은 체격 능력치에 비례하여 증가합니다.]], "tformat")
-
 
 ------------------------------------------------
 section "tome-cults/data/talents/spell/necro.lua"
@@ -4107,14 +4104,14 @@ t("food", "음식", "entity type")
 t("food", "음식", "entity subtype")
 t("food", "음식", "_t")
 t("Food for Grung!", "그룽을 위한 음식입니다!", "_t")
-t("heart", "심장", "_t")
-t("kidney", "신장", "_t")
-t("name", "이름", "entity name")
 t("disgusting heart", "역겨운 심장", "_t")
 t("lump of flesh", "살덩어리", "_t")
 t("flesh piece", "살점", "_t")
+t("heart", "심장", "_t")
+t("kidney", "신장", "_t")
 t("intestine", "창자", "_t")
 t("eye", "눈알", "_t")
+t("name", "이름", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-haze-cave/zone.lua"
@@ -4233,8 +4230,7 @@ Thoughts treasured when they are alone.
 생각은 홀로 있을 때 보물이 된다.
 
 #RED#읽으면 5턴에 걸쳐 빨려들어간다.]], "_t")
-
--- new text
+-- untranslated text
 --[==[
 t("..", "..", "entity name")
 --]==]
@@ -4534,10 +4530,6 @@ t("Scourged Pits", "재앙의 구덩이", "_t")
 t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#나무 중 하나가 잠시 흔들리더니 깨어났다!", "logSeen")
 
 ------------------------------------------------
-section "tome-cults/data/zones/test/grids.lua"
-
-
-------------------------------------------------
 section "tome-cults/data/zones/test/npcs.lua"
 
 t("humanoid", "인간형", "entity type")
@@ -4583,6 +4575,7 @@ section "tome-cults/data/zones/town-kroshkkur/npcs.lua"
 
 t("horror", "공포", "entity type")
 t("eldritch", "섬뜩한 자", "entity subtype")
+t("Destroy @himher@!", "@himher@를 없애라!", "_t")
 t("drem cultist", "드렘 광신도", "entity name")
 t("A drem cultist.", "드렘 광신도입니다.", "_t")
 t("drem seeker of knowledge", "드렘 지식의 구도자", "entity name")
@@ -4601,8 +4594,6 @@ t("The Face of the Deep", "심연의 얼굴", "entity name")
 t("This creature sells runes and infusions for the sanctuary.", "이 존재는 성역을 위해 룬과 주입물을 판매하고 있습니다.", "_t")
 t("The Conjointed", "결합된 자", "entity name")
 t("This creature sells tools for the sanctuary.", "이 존재는 성역을 위해 도구를 판매하고 있습니다.", "_t")
-t("Destroy @himher@!", "@himher@를 없애라!", "_t")
-
 
 ------------------------------------------------
 section "tome-cults/data/zones/town-kroshkkur/objects.lua"
@@ -4894,7 +4885,7 @@ t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 �
 t("The protagonist of the story is dead.", "이야기의 주인공이 죽었습니다.", "_t")
 t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s 무너지기 시작한다, 한 번 나가면 완전히 사라질 것이다!", "log", nil, {"가"})
 t("%s of the Blightspawn", "황폐의 %s", "tformat")
--- new text
+-- untranslated text
 --[==[
 t("#AQUAMARINE#%s", "#AQUAMARINE#%s", "log")
 --]==]
@@ -4968,11 +4959,6 @@ t("The gizmocombobulator of the font seems to have failed, you have not been bil
 ------------------------------------------------
 section "tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
 
-t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#아직 금단의 고서로 들어갈 수 없다!#LAST#", "log")
-t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금단의 고서로 들어갈 수 없다!#LAST#", "log")
-t("You feel this book is extremely dangerous for you. Proceed?", "이 책은 엄청나게 위험한 것 같습니다. 계속합니까?", "_t")
-t("Cancel", "취소", "_t")
-t("Read Tome", "고서를 읽는다", "_t")
 t("\
 #CRIMSON#Will crumble to dust when read!", "\
 #CRIMSON#읽으면 바스러져 가루가 될 것이다!", "_t")
@@ -4980,8 +4966,12 @@ t("\
 #YELLOW#Can only be read %d times.", "\
 #YELLOW#딱 %d회만 읽을 수 있다.", "tformat")
 t("Read the book", "책을 읽는다", "_t")
-
--- new text
+t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#아직 금단의 고서로 들어갈 수 없다!#LAST#", "log")
+t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 금단의 고서로 들어갈 수 없다!#LAST#", "log")
+t("You feel this book is extremely dangerous for you. Proceed?", "이 책은 엄청나게 위험한 것 같습니다. 계속합니까?", "_t")
+t("Cancel", "취소", "_t")
+t("Read Tome", "고서를 읽는다", "_t")
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5059,7 +5049,7 @@ t([[You may empower the chosen prophecy with Grand Oration, causing it to spread
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Grand Oration.", "위대한 기도문으로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5075,7 +5065,7 @@ t([[You may empower the chosen prophecy with Revelation, causing it to grant you
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Revelation.", "계시로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5091,7 +5081,7 @@ t([[You may empower the chosen prophecy with Twofold Curse, causing it to apply 
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Twofold Curse.", "이중 저주로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]

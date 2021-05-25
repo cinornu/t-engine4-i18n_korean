@@ -260,11 +260,21 @@ t("Expert Shaders Design", "셰이더 디자인", "_t")
 t("Soundtracks", "사운드트랙", "_t")
 t("Sound Designer", "사운드 엔지니어", "_t")
 t("Lore Creation and Writing", "스토리 작가", "_t")
-t("Code Helpers", "코드 헬퍼", "_t")
 t("Community Managers", "커뮤니티 관리자", "_t")
 t("Text Editors", "텍스트 편집", "_t")
 t("The Community", "커뮤니티", "_t")
 t("Others", "그 밖에 도움을 주신 분들", "_t")
+-- new text
+--[==[
+t("Code Heroes", "Code Heroes", "_t")
+t("Chinese Translation Lead", "Chinese Translation Lead", "_t")
+t("Chinese Translators", "Chinese Translators", "_t")
+t("Korean Translation", "Korean Translation", "_t")
+t("Japanese Translation", "Japanese Translation", "_t")
+--]==]
+
+-- old translated text
+t("Code Helpers", "코드 헬퍼", "_t")
 
 ------------------------------------------------
 section "mod-boot/dialogs/FirstRun.lua"
@@ -443,7 +453,7 @@ t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("Login...", "로그인 중...", "_t")
 t("Login in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 --]==]

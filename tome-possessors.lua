@@ -297,7 +297,6 @@ t("Through your psionic powers you become a nightmare for your foes.", "초능�
 t("ravenous mind", "탐식의 정신", "talent type")
 t("Your mind hungers for pain and suffering! Feed it!", "정신이 고통과 괴로움에 목말라 있습니다! 적의 고통을 집어삼키세요!", "_t")
 
-
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/psychic-blows.lua"
 
@@ -305,6 +304,7 @@ t("You are disarmed.", "무장이 해제됐다.", "logPlayer")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기를 장비해야 한다.", "logPlayer")
 t("Psychic Crush", "초능력 파쇄", "talent name")
 t("%s's Psychic Image", "%s의 초능력 투영체", "tformat")
+t("A temporary psionic imprint.", "일시적인 초능력 투영체입니다.", "_t")
 t("#ROYAL_BLUE#%s's psychic imprint appears!", "#ROYAL_BLUE#%s의 초능력 투영체가 나타났다!", "logSeen")
 t("%s resists the psychic blow!", "%s 초능력 타격에 저항했다!", "logSeen", nil, {"는"})
 t([[Using both your mind and your arms you propel your two handed weapon to deal a huge strike doing %d%% weapon mind damage.
@@ -336,8 +336,6 @@ t([[You shatter your weapon in the ground, projecting a psionic shockwave in a c
 		범위 내의 모든 적은 %d%% 무기 피해를 정신 피해로 받습니다.
 		충격파에 휘말린 초능력 투영체는 즉시 산산조각나고, 반경 1 칸 내에 %0.2f 물리 피해를 가합니다.
 		현재 양손 무기를 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다.]], "tformat")
-t("A temporary psionic imprint.", "일시적인 초능력 투영체입니다.", "_t")
-
 
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/ravenous-mind.lua"
@@ -396,7 +394,7 @@ t("The victim is snared in a psionic web that is destroying its mind and prepari
 t("#Target#'s mind is convulsing.", "#Target1# 정신적인 고통으로 경련하고 있다.", "_t")
 t("#Target#'s mind is not convulsing anymore.", "#Target#의 정신적인 고통이 멈췄다.", "_t")
 t("#PURPLE##Source# shatters #Target#'s mind and takes possession of its body.", "#PURPLE##Source1# #Target#의 정신을 박살내고, 그 육체를 강탈했다.", "logCombat")
-t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source1# #Target#의 정신을 산산조각내어, 완전히 파괴했다. ", "logCombat")
+t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source1# #Target#의 정신을 산산조각내어, 완전히 파괴했다.", "logCombat")
 t("Psychic Wipe", "초능력 소거", "_t")
 t("Ethereal fingers destroy the brain dealing %0.2f mind damage per turn and reducing mental save by %d.", "영체 상태의 손가락이 두뇌를 파괴해 매 턴 %0.2f 정신 피해를 받고, 정신 내성이 %d 감소됨.", "tformat")
 t("#Target# suddently feels strange in the brain.", "#Target2# 갑자기 뇌에 기이한 느낌을 받기 시작했다.", "_t")

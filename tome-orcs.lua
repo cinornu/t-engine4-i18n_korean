@@ -623,7 +623,6 @@ t("galvanic", "전열", "damage type")
 t("occult", "비술", "damage type")
 t("terrene", "극지", "damage type")
 
-
 ------------------------------------------------
 section "tome-orcs/data/factions.lua"
 
@@ -1779,7 +1778,7 @@ t("Laser Powered Giant Smasher", "레이저 작동식 거인 파괴자", "entity
 t("radiant hammer", "광휘의 망치", "_t")
 t("The Laser Powered Giant Smasher, nicknamed the Gloryhammer. You can feel it vibrating with untold power in your hands.", "레이저 작동식 거인 파괴자, 별명 글로리해머. 손에 쥐자 진동하며, 형용할 수 없는 강력한 힘을 느낄 수 있습니다.", "_t")
 t("#PURPLE#You feel the power of the Gloryhammer course through you! It has become fully empowered!", "#PURPLE#글로리해머의 힘이 몸을 타고 흐릅니다! 완전히 강화되었습니다!", "logPlayer")
--- new text
+-- untranslated text
 --[==[
 t("%s", "%s", "tformat")
 --]==]
@@ -2169,7 +2168,7 @@ t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't te
 t("What have we done...  why didn't I stop it?", "우리가 무슨 짓을 한 거지...  난 왜 그걸 보고만 있었던 거야?", "_t")
 t("nothing living should have that many", "어떻게 저런 게 그렇게 많을 수가", "_t")
 t("so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "그게 저것들처럼 생겼다는 거지. 저것들의 모습이. 이제서야 그들의 묘사가 대부분 파괴된 이유를 알겠다", "_t")
--- new text
+-- untranslated text
 --[==[
 t("G.E.M", "G.E.M", "newLore category")
 --]==]
@@ -3615,7 +3614,7 @@ t("For now, peace reigns.  You know that this will not last forever.  You may ha
 t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "  잃어버린 도시에서 받은 메시지들은 그들이 경고했던 존재들, 그리고 경고한 본인들에 대한 경계심을 바짝 키웠습니다. 또한 당신은 이제 절멸의 위기에서 벗어나려 발버둥 칠 필요가 없어진 동포들이 무엇을 하게 될지 궁금해졌습니다. 당신의 종족은 유사 이래로 투쟁만을 위해 살아왔지만, 이제 그걸 걱정할 필요가 없어졌으니 말입니다.", "_t")
 t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "아무튼... 당신은 방금 신을 죽였고, 당신의 동포들에게 수천 년의 역사 동안 처음으로 편안하게 쉴 기회를 준 겁니다. 오늘은 꽤나 멋진 날이네요.", "_t")
 t("You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "계속해서 플레이해, 이 세계의 나머지 부분을 즐길 수도 있습니다. 당신의 부하들이 밖에서 이야기 좀 하자고 하네요...", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3661,7 +3660,7 @@ t("#GREY#* You need to have free the Gorbat Pride orcs.#WHITE#", "#GREY#* 고르
 t("#LIGHT_GREEN#* You have freed all the Grushnak Pride orcs.#WHITE#", "#LIGHT_GREEN#* 그루쉬낙 긍지의 오크들을 모두 해방했습니다#WHITE#", "_t")
 t("#GREY#* You need to have free the Grushnak Pride orcs.#WHITE#", "#GREY#* 그루쉬낙 긍지의 오크들을 해방해야 합니다.#WHITE#", "_t")
 t("#LIGHT_GREEN#* The Pride is once again free and united.#WHITE#", "#LIGHT_GREEN#* 긍지들은 다시 자유로워졌고, 단결했습니다.#WHITE#", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3674,7 +3673,7 @@ t("Mole Down, Two To Go", "저 밑에 두 놈 더 남았다", "_t")
 t("As you left the Gates of Morning in ruins you noticed a strange powerful tremor that seems to come from nearby.", "아침의 문을 파괴하고 나오자, 근처에서 이상할 정도로 강한 지진이 일어났습니다.", "_t")
 t("Investigating you have found a huge mechanical mole of obvious steam giant origin.", "근처를 조사하여 증기 거인들의 것이 확실한 거대 굴착기를 발견했습니다.", "_t")
 t("#LIGHT_GREEN#* You have crushed both the horrors and the giants, making sure no precious information will come back to the Palace of Fumes.#WHITE#", "#LIGHT_GREEN#* 공포들과 거인들 둘 다 쳐부숴, 연기의 궁전 측이 이곳에서 정확히 무슨 일이 벌어졌는지 알 수 없도록 만들었습니다.#WHITE#", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3707,7 +3706,7 @@ t("You must first locate the structural weakness in the Dominion's port tower.",
 t([[You place the detonator, you have 100 turns to get out or be destroyed by the explosion.
 Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[폭탄을 설치했습니다. 100 턴 내로 탈출하지 않으면 폭발에 휘말려 가루가 될 겁니다.
 #{bold}##GOLD#귀환의 장대#LAST##{normal}#를 사용하세요!]], "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3720,7 +3719,7 @@ t("Clan of the Unicorn", "유니콘 혈족", "_t")
 t("Metash has asked you to investigate the Krimbul Clan, south of the peninsula.", "메타쉬가 반도 남쪽의 크림불 혈족을 조사해 달라고 부탁했습니다.", "_t")
 t("A whitehoof turned mad with power is trying to lead them in a war against Kruk Pride.", "힘에 미친 화이트후프 하나가 혈족을 이끌고 크룩 긍지를 공격하려 한다고 합니다.", "_t")
 t("#LIGHT_GREEN#* You have stopped the pitiful Nektosh, ensuring one less threat for the Pride and a future for the Whitehooves.#WHITE#", "#LIGHT_GREEN#* 불쌍한 네크토쉬를 저지했고, 긍지와 화이트후프들의 미래에 위협이 될 존재를 하나 줄였습니다.#WHITE#", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3761,7 +3760,7 @@ t("#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "#LIGHT_GREEN#* 평�
 t("#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "#LIGHT_GREEN#* 아트모스 평의회를 박살내고 부족을 산산조각냈습니다.#WHITE#", "_t")
 t("What is all this noise about!", "이게 무슨 소란이냐!", "_t")
 t("Tantalos! What have you done!", "탄탈로스! 대체 무슨 짓을 한 겁니까?!", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3792,7 +3791,7 @@ t("#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "#LIGHT_GREEN#* 
 t("Stralite Sand Shredder", "스트랄라이트 모래 분쇄기", "_t")
 t("Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "모래벽을 치면 자동적으로 커다란 드릴을 만들어내 바로 집채만한 구멍을 뚫어 줍니다.", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3818,7 +3817,7 @@ t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for a
 t("Our scouts have noticed the Gates of Morning is being reinforced with sun and moon orbs.", "우리 정찰병들이 알아낸 바로는, 아침의 문은 태양과 달의 오브의 보호를 받고 있습니다.", "_t")
 t("Go to the Sunwall Observatory and destroy everything there to reduce their supplies.", "태양의 장벽 관측소로 가서 보이는 걸 전부 박살내세요.", "_t")
 t("#LIGHT_GREEN#* You have destroyed the Observatory, the Gates of Morning defenses will be weakened.#WHITE#", "#LIGHT_GREEN#* 관측소를 파괴했고, 아침의 문의 방어는 약해질 것입니다.#WHITE#", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3854,7 +3853,7 @@ t("Mystery of the Yetis", "예티들의 수수께끼", "_t")
 t("You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "잘 보존된 예티 근육을 찾아냈습니다. 누군가는 이것에 관심을 보일 것입니다.", "_t")
 t("For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "예티 근육들을 잃어버린 도시의 폐허에 있는 염동력 기계에게 넘기면 엄청난 보상을 받게 될 겁니다.", "_t")
 t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* 이상한 염동력 기계를 도왔고, 모든 보상을 얻어냈습니다. 여전히 잘못된 일을 해 버린 것 같은 느낌이 듭니다...", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3875,7 +3874,7 @@ t("call a trained yeti for help", "훈련된 예티를 불러내 도움을 받�
 t("The yetis are not ready yet.", "예티가 아직 준비되지 않았다.", "log")
 t("Yeti", "예티", "_t")
 t("You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "정신 조작기에서 염동 순간이동 비컨을 뽑아냈다. 예티들은 훈련을 받을 시간이 필요할 것이다.", "log")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -3896,11 +3895,10 @@ t("Cosmic", "우주", "talent type")
 t("Energies", "에너지", "talent type")
 t("Reflection", "반사", "talent type")
 t("Void", "공허", "talent type")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
-
 
 
 ------------------------------------------------
@@ -4116,7 +4114,6 @@ t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1
 		This attack creates an explosion of radius 1 around every affected target, dealing 50% weapon damage and blinding them for 4 turns.]], [[시전자 인근의 모든 적에게 글로리해머의 절대적인 힘을 해방합니다.
 		이 공격은 영향을 받은 적에게 반경 1 칸의 폭발을 일으키고, 무기 피해의 50% 를 주고 4 턴 동안 실명시킵니다.]], "_t")
 
-
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/races.lua"
 
@@ -4170,7 +4167,6 @@ t([[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
 		이 어둠은 적의 생명 정수 일부분을 흡수하여 죽음의 기세 중첩이 감소할 때까지의 시간을 %d 턴 증가시킵니다 (이 효과는 살아있는 생명체에게만 영향을 미칩니다).
 		이 기술은 죽음의 기세의 효과를 받고 있을 때만 사용 가능합니다.
 		피해량은 마법 능력치에 비례하여 증가합니다.]], "tformat")
-
 
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/action-at-a-distance.lua"
@@ -4281,7 +4277,6 @@ t("action at a distance", "원격 조작", "talent type")
 t("Focus your mental energies to make things happen. Or combust.", "정신 에너지를 집중하여 다양한 결과를 초래합니다. 아니면 그냥 불태워 버리던가요.", "_t")
 t("psionic fog", "초능력 증기", "talent type")
 t("Psionically manipulate steam to harass your foes and protect yourself.", "초능력으로 조작된 증기를 이용하여 적을 괴롭히고, 스스로를 지킵니다.", "_t")
-
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/galvanic-technomancy.lua"
@@ -4421,7 +4416,6 @@ t("occult technomancy", "비술의 마도공학", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "증기 공학과 마법을 결합하여 앞을 가로막는 이들을 비전의 힘과 시간으로 파괴합니다.", "_t")
 t("other technomancy", "기타 마도공학", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes.", "증기 공학과 마법을 결합하여 앞을 가로막는 이들을 파괴합니다.", "_t")
-
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/terrene-technomancy.lua"
@@ -5347,7 +5341,6 @@ t("%s mounts %s to its tail.", "%s %s 꼬리에 장착했다.", "logSeen", nil, 
 t("Attach which item?", "어떤 장비를 장착하시겠습니까?", "_t")
 t("Attach the chosen weapon to your tail.", "선택한 무기가 꼬리에 장착되었다.", "_t")
 
-
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/mechstar.lua"
 
@@ -5826,7 +5819,6 @@ t("#VIOLET#EUREKA!#WHITE# Schematic learnt: #LIGHT_BLUE#%s", "#VIOLET#유레카!
 t("This talent is required for the following tinkers (you still need to learn/find the schematics):", "이 기술은 다음 발명품에 필요합니다 (설계도를 배우거나, 찾아야 합니다.):", "_t")
 t(" #LIGHT_BLUE#(known)#LAST#", " #LIGHT_BLUE#(습득함)#LAST#", "_t")
 t("#{italic}#* ...perhaps more to discover...#{normal}#", "#{italic}#* ...이외에도 더 발견할 수 있을지도 모릅니다...#{normal}#", "_t")
-
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/thoughts-of-iron.lua"
@@ -7029,7 +7021,7 @@ t("Yeti's Muscle Tissue (Mech)", "예티 근육 조직 (기계)", "entity name")
 t("flesh", "살점", "_t")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "강력한 예티에게서 뜯어낸 근조직입니다. 어딘가의 누군가, 또는 무엇인가는 분명히 이것에 관심을 보일 것입니다!", "_t")
 t("You cannot bring yourself to drop the %s", "%s 차마 버릴 수가 없었다", "logPlayer", nil, {"를"})
--- new text
+-- untranslated text
 --[==[
 t("..", "..", "entity name")
 --]==]
@@ -7041,7 +7033,7 @@ section "tome-orcs/data/zones/gem/zone.lua"
 t("G.E.M. Exterior", "G.E.M. 외부", "_t")
 t("G.E.M. Crew Deck", "G.E.M. 승무원 구역", "_t")
 t("G.E.M. Command Deck", "G.E.M. 사령실", "_t")
--- new text
+-- untranslated text
 --[==[
 t("G.E.M.", "G.E.M.", "_t")
 --]==]
@@ -8183,7 +8175,7 @@ t("Example Item:", "결과물 예시:", "_t")
 t("body", "몸통", "_t")
 t("create tier( %s )", "제작 등급( %s )", "tformat")
 t("missing reqs", "재료/기술 부족", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
