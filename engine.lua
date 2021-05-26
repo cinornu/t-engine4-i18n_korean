@@ -1652,17 +1652,11 @@ t("Community Managers", "커뮤니티 관리자", "_t")
 t("Text Editors", "텍스트 편집", "_t")
 t("The Community", "커뮤니티", "_t")
 t("Others", "그 밖에 도움을 주신 분들", "_t")
--- untranslated text
---[==[
-t("Code Heroes", "Code Heroes", "_t")
-t("Chinese Translation Lead", "Chinese Translation Lead", "_t")
-t("Chinese Translators", "Chinese Translators", "_t")
-t("Korean Translation", "Korean Translation", "_t")
-t("Japanese Translation", "Japanese Translation", "_t")
---]==]
-
--- old translated text
-t("Code Helpers", "코드 헬퍼", "_t")
+t("Code Heroes", "코드 히어로", "_t")
+t("Chinese Translation Lead", "중국어 번역 주도", "_t")
+t("Chinese Translators", "중국어 번역가들", "_t")
+t("Korean Translation", "한국어 번역", "_t")
+t("Japanese Translation", "일본어 번역", "_t")
 
 ------------------------------------------------
 section "engine/modules/boot/dialogs/FirstRun.lua"
