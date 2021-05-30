@@ -8195,7 +8195,7 @@ t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a diff
 t("You gain %0.2f gold from the melting of %s.", "%s 녹여 %0.2f 골드를 얻었다.", "log", {2,1}, {"를"})
 t("APE", "추출기", "_t")
 t("When you close the inventory window, all items in the APE will be melted.", "인벤토리 창을 닫으면, 추출기 내의 모든 물건들이 녹게 됩니다.", "_t")
-t("melt down", "녹인다", "_t")
+t("melt down", "녹이기 ", "_t")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/Game.lua"
