@@ -1189,7 +1189,7 @@ t("Burning Sacrifice", "불타는 제물", "talent name")
 t([[Whenever you kill a burning enemy, you will instantly deal a melee attack against a random adjacant enemy at %d%% power. 
 		Additionally, Incinerating Blows will always trigger on this attack (or your next attack), dealing %d%% of its normal damage to all enemies hit and stunning, ignoring the cooldown.
 		This can only trigger once every 5 turns.]], [[불타는 적을 죽이면 시전자와 인접한 무작위 적 하나에게 근접 공격을 %d%% 의 위력으로 가합니다. 
-		추가로, 이 공격은 언제나 소각의 일격의 효과를 발생시킵니다. 근처에 피격당할 적이 없으면 다음 공격에 적용됩니다. 이렇게 발동하는 소각의 일격은 일반 피해의 %d%% 에 해당하는 피해량을 갖고, 공격당한 적은 기절하게 됩니다. 이 기술은 소각의 일격의 재사용 대기시간을 무시합니다.
+		추가로, 이 공격은 언제나 소각의 타격의 효과를 발생시킵니다. 근처에 피격당할 적이 없으면 다음 공격에 적용됩니다. 이렇게 발동하는 소각의 타격은 일반 피해의 %d%% 에 해당하는 피해량을 갖고, 공격당한 적은 기절하게 됩니다. 이 기술은 소각의 타격의 재사용 대기시간을 무시합니다.
 		이 효과는 매 5 턴마다 한 번씩 발동합니다.]], "tformat")
 t("Fiery Aegis", "불타는 아이기스", "talent name")
 t([[Draw in the raging fires and envelop yourself in them. Remove all burns from enemies in a radius of 5 around you, and create a shield lasting %d turns with a power of %d, increased by 15%% for each burn removed.
