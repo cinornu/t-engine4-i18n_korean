@@ -4183,7 +4183,7 @@ t([[You concentrate your will in a cone in front of you, condensing the air into
 		Any places with no creatures will be filled with solid air, blocking the way for %d turns.
 		The damage will increase with your Mindpower.]], [[원뿔 범위 내에 의지를 집중시켜, 공기를 만질 수 있을 정도로 굳혀버립니다.
 		범위 내의 대상은 %0.2f 물리 피해를 받습니다.
-		빈 공간은 응고된 공기로 채워져 %d 턴 동안 이동을 막습니다.
+		빈 공간은 응고된 공기로 채워져 %d 턴 동안 길을 막습니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Superconduction", "초전도", "talent name")
 t([[Call a streak of lightning on your target, dealing %0.2f to %0.2f lightning damage.
@@ -4198,7 +4198,7 @@ t([[Any time you deal damage with a psionic ability you incur a negative biofeed
 		Each stack reduces their physical save by %d, defense and armour by %d.
 		This effect may only occur once per turn.]], [[시전자가 초능력 기술로 피해를 가할 때마다 적에게 음성 바이오피드백를 일으켜 제어합니다. 이는 5 턴 동안 지속되며, 최대 %d 번 중첩됩니다.
 		매 중첩은 적의 물리 내성을 %d, 방어력과 회피도를 %d 감소시킵니다.
-		이 효과는 한 턴에 한 번 일어납니다.]], "tformat")
+		이 효과는 한 턴에 한 번만 일어납니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/gestalt.lua"
@@ -4886,7 +4886,7 @@ t("Lucid Shot", "자각 사격", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
 t([[Fire a powerful shot at a foe doing %d%% weapon damage.
 		If the creature, or any creatures in radius 3, was affected by a fear or nightmare effect it violently wakes up, shaking it off only to find itself disoriented, unable to discern friends from foes for %d turns.]], [[적에게 강력한 사격을 날려 %d%% 무기 피해를 가합니다.
-		대상을 기준으로 3 칸 반경에 공포나 악몽이 적용되어 있는 모든 개체는 격렬하게 깨어나, 몸을 마구 흔들며 자신의 자아를 되찾으려 할 것 입니다. %d 턴 동안 해당 적들은 피아를 구분하지 못하게 됩니다.]], "tformat")
+		대상을 기준으로 반경 3 칸 내에 공포나 악몽 상태인 개체가 있다면, 해당 개체는 격렬하게 깨어나, 몸을 마구 흔들며 자신의 자아를 되찾으려 하게 됩니다. %d 턴 동안 해당 적들은 피아를 구분하지 못하게 됩니다.]], "tformat")
 t("Psy Worm", "초능력 기생충", "talent name")
 t([[Fire a psionic-enhanced shot at a foe doing %d%% mind weapon damage and infecting it with a psy worm for 8 turns.
 		Each turn the worm will do %0.2f mind damage and restore %d psi to you, double if stunned or feared.
@@ -4930,7 +4930,7 @@ section "tome-orcs/data/talents/steam/engineering.lua"
 t("Emergency Steam Purge", "긴급 증기 방출", "talent name")
 t([[You open all steam valves at once, releasing a radius %d wave of superheated steam around yourself which deals %0.2f fire damage (but can not be a critical hit).
 		If you had at least 35 steam, the vapours will be so hot that they can burn sensory organs, blinding affected creatures for %d turns.
-		The effects scale with your current steam value; at 1 steam they are only 15%% as effective as at 50 or more (current factor %d%%).]], [[모든 증기 밸브를 일시에 개방해, 반경 %d 칸의 초고열 증기파를 뿜어냅니다. 증기는 %0.2f 화염 피해를 가합니다 (하지만 치명타는 일어나지 않습니다).
+		The effects scale with your current steam value; at 1 steam they are only 15%% as effective as at 50 or more (current factor %d%%).]], [[모든 증기 밸브를 한꺼번에 개방해, 반경 %d 칸의 초고열 증기파를 뿜어냅니다. 증기는 %0.2f 화염 피해를 가합니다 (하지만 치명타는 일어나지 않습니다).
 		35 이상의 증기를 갖고 있는 경우, 증기가 너무나도 뜨거워서 적들은 감각기관에 화상을 입고 %d 턴 동안 실명 상태에 빠집니다.
 		이 효과는 현재 증기 수치에 비례합니다. 증기가 1 일 경우, 50 이상일 때의 15%%의 효율밖에 내지 못합니다. (현재 수치 %d%%).]], "tformat")
 t("Innovation", "혁신", "talent name")
@@ -4943,7 +4943,7 @@ t([[Using a huge amount of steam, you temporarily supercharge your tinkers and o
 		%d 턴 동안 증기력이 %d, 증기 공학 치명타 확률이 %d%% 상승합니다.]], "tformat")
 t("Last Engineer Standing", "최후의 공학자", "talent name")
 t([[Sometimes, being a master tinker requires taking risks; yours are more calculated than others.
-		Gain %d cunning, %d physical save, %d%% resistance to self-inflicted damage, and %d%% chance to avoid being critically hit.]], [[가끔씩은 최고의 발명가가 되기 위해서 위험을 감수해야 합니다만, 남들보다 정교하게 계산을 한다면 그럴 필요가 없지요.
+		Gain %d cunning, %d physical save, %d%% resistance to self-inflicted damage, and %d%% chance to avoid being critically hit.]], [[최고의 발명가가 되기 위해서는 위험을 감수해야 할 때도 있습니다만, 남들보다 정교하게 계산을 한다면 그럴 필요가 없지요.
 		교활이 %d, 물리 내성이 %d, 자기 자신에게 가하는 피해 저항이 %d%%, 치명타 무효화 확률이 %d%% 상승합니다.]], "tformat")
 
 ------------------------------------------------
@@ -5795,7 +5795,7 @@ t("thoughts of iron", "강철의 의지", "talent type")
 t("Apply some of your formidable willpower through steam devices.", "가공할 의지력을 증기 장치에 불어넣습니다.", "_t")
 t("mechstar", "기계별", "talent type")
 t("Control your mindstar and infuse it with steamtech.", "마석을 다루고, 증기 공학을 불어넣습니다.", "_t")
-t("dread", "드레드", "talent type")
+t("dread", "공포", "talent type")
 t("Behold the mechanized horrors.", "기계 장치의 공포를 목도하라.", "_t")
 t("magnetism", "자력", "talent type")
 t("Use the power of electricity to supercharge your shield.", "전력을 사용하여 방패를 과충전합니다.", "_t")
