@@ -5348,7 +5348,7 @@ t("Metalstar", "쇠붙이 별", "talent name")
 t([[Quickly aggregate particles of metal around your mindstar and focus psionic energies into it.
 		The metal explodes like shrapnel, knocking back (%d away) and dazing (%d duration) all foes in radius %d.]], [[조그마한 금속 입자들을 마석에 결집시키고, 초능력 에너지를 불어넣습니다.
 		금속 입자는 유산탄처럼 폭발해, 반경 %d 칸 내의 적들을 %d 칸 밀치고 %d 턴 동안 혼절시킵니다.]], "tformat", {3,1,2})
-t("Bloodstar", "피의 별", "talent name")
+t("Bloodstar", "선혈의 별", "talent name")
 t([[When you fire your metalstar, your also establish a psionic bloodlink with the shrapnel still inside for %d turns.
 		Each turn the victims are drained for %0.2f physical damage, half of which heals you (each additional victim healing is reduced by half).
 		If the victim move more than twice away from the radius of Metalstar (currently %d) the effect stops.
@@ -5359,11 +5359,11 @@ t([[When you fire your metalstar, your also establish a psionic bloodlink with t
 t("Steamstar", "증기의 별", "talent name")
 t([[Your bloodstar effect also burns part of your victim's flesh, dealing %0.2f fire damage.
 		The intensity of the fire generates steam which you psionically absorb through gestalt, providing %d steam each turn (each additional victim steam generation is reduced by 66%%).
-		This damage does not break daze and increases with your Steampower.]], [[피의 별 효과가 희생자의 살갗을 불살라 %0.2f 화염 피해를 입힙니다.
+		This damage does not break daze and increases with your Steampower.]], [[선혈의 별 효과가 희생자의 살갗을 불살라 %0.2f 화염 피해를 입힙니다.
 		강렬한 화염은 게슈탈트를 통해 흡수 가능한 증기를 생성합니다. 매 턴 증기를 %d 회복합니다 (피해를 받는 대상이 둘 이상일 경우 두 번째부터 회복량은 66%%씩 줄어들게 됩니다).
 		이 피해는 혼절 상태인 적을 깨우지 않고, 증기력에 비례하여 증가합니다.]], "tformat")
 t("Deathstar", "죽음의 별", "talent name")
-t("When you use a shoot class talent to hit a creature affected by bloodstar an other shoot talent will have its current cooldown reduced by %d turns.", "피의 별 효과를 받고 있는 적에게 사격 기술을 명중시킬 경우, 다른 사격 기술 하나의 재사용 대기시간이 %d 턴 단축됩니다.", "tformat")
+t("When you use a shoot class talent to hit a creature affected by bloodstar an other shoot talent will have its current cooldown reduced by %d turns.", "선혈의 별 효과를 받고 있는 적에게 사격 기술을 명중시킬 경우, 다른 사격 기술 하나의 재사용 대기시간이 %d 턴 단축됩니다.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/other.lua"
@@ -6453,10 +6453,10 @@ t("-Magnetised", "-자력을 띰", "_t")
 t("blood", "혈액", "effect subtype")
 t("drain", "흡수", "effect subtype")
 t("heal", "회복", "effect subtype")
-t("Bloodstar", "피의 별", "_t")
+t("Bloodstar", "선혈의 별", "_t")
 t("Continuously drain blood, dealing %0.2f physical damage per turn and healing the caster for half of it.", "지속적으로 피가 흡수됨: 매 턴 %0.2f 물리 피해 받음 / 해당 피해의 절반만큼 시전자를 회복함.", "tformat")
-t("#Target# is caught in the bloodstar.", "#Target2# 피의 별에 갇혔다.", "_t")
-t("#Target# is free from the bloodstar.", "#Target2# 피의 별에서 벗어났다.", "_t")
+t("#Target# is caught in the bloodstar.", "#Target2# 선혈의 별에 갇혔다.", "_t")
+t("#Target# is free from the bloodstar.", "#Target2# 선혈의 별에서 벗어났다.", "_t")
 t("Heartrended", "심장이 찢어짐", "_t")
 t("Vicious cut that bleeds, doing %0.2f physical damage per turn.", "악랄한 자상을 입음: %0.2f 물리 피해를 매 턴 받음.", "tformat")
 t("#Target# starts to bleed.", "#Target1# 피를 흘리기 시작한다.", "_t")
