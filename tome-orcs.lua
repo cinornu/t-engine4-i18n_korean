@@ -5036,7 +5036,7 @@ t("Steamgun Mastery", "총기 숙련", "talent name")
 t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamguns.
 		Also, increases your reload rate by %d.]], [[총기를 사용할 때 무기 피해가 %d%%, 물리력이 30 증가합니다.
 		또한 한 번에 %d 발의 탄환을 추가로 재장전할 수 있게 됩니다.]], "tformat")
-t("Double Shots", "이중사격", "talent name")
+t("Double Shots", "이중 사격", "talent name")
 t("You require a steamgun for this talent.", "이 기술을 사용하기 위해서는 총기가 필요하다.", "logPlayer")
 t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t([[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
