@@ -324,6 +324,7 @@ t("Lead the way.", "앞장서라.", "_t")
 ------------------------------------------------
 section "tome-orcs/data/chats/destructicus.lua"
 
+t("DESTRUCTICUS!", "데스트럭티쿠스!", "_t")
 t("Fire Imp", "화염 임프", "_t")
 t("Steam Giant Airship", "증기 거인 비행선", "_t")
 t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#가 지금 눈앞에 있고, 정말로 인정하기 싫지만, 칼토르의 광고는 전혀 과장이 아니었습니다. 이건 아마 당신이 지금까지 봤던 것들중 최고로 비이성적인 살상 병기일 겁니다. 기계의 보라툰 몸체를 빛내고 있는 햇빛조차, 끝부분에 무수히 새겨진 불안정한 룬들이 내뿜는 격렬한 빛에 비하면 어두워 보이며 그 표면에 새겨져 있는 화려한 홈들은 초능력을 사용해 몇 시간에 걸쳐, 두통이 생길 정도로, 고도로 집중하여 새긴 것입니다. 총구에 설치되어 있는 총검에선 제작자의 조소마저 느껴집니다. 이 모델은 다소 특이한 종류로, 조종 패널 주변은 밀폐되어 있으며 방화 처리도 되어 있습니다. 조종석에는 내장형 차 자판기도 있었는데, 당신의 오크들이 약탈했던 드워프제 맥주로 미리 채워 놓았습니다. 실로 아름답습니다.*#WHITE#", "_t")
@@ -7711,6 +7712,7 @@ t("Entrance to the Steam Quarry", "증기 채굴장의 입구", "entity name")
 t("Entrance to the Palace of Fumes", "연기의 궁전 입구", "entity name")
 t("Way into a primal forest", "태고의 숲으로 가는 길", "entity name")
 t("DESTRUCTICUS!", "데스트럭티쿠스!", "entity name")
+t("DESTRUCTICUS!", "데스트럭티쿠스!", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/grids.lua"

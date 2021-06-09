@@ -89,7 +89,7 @@ This is all optional, you are not forced to use this feature at all, but the dev
 
 #LIGHT_BLUE#https://te4.org/#LAST# 사이트에서 친구들에게 과시할 수 있는 유저 페이지를 가지고 계십니다.
 이 모든 것은 선택적이며, 이 모든 기능을 꼭 이용하셔야 하는 것은 아닙니다만 이 기능들을 사용해 주시면 밸런싱이 쉬워지기 때문에 개발자로서는 사용해 주시면 감사할따름입니다.]], "_t")
-t("Login in...", "로그인 중...", "_t")
+t("Logging in...", "로그인 중...", "_t")
 t("Please wait...", "기다려 주세요...", "_t")
 t("Profile logged in!", "프로필 로그인!", "_t")
 t("Your online profile is now active. Have fun!", "온라인 프로필이 활성되었습니다. 즐거운 게임하시길!!", "_t")
@@ -260,21 +260,15 @@ t("Expert Shaders Design", "셰이더 디자인", "_t")
 t("Soundtracks", "사운드트랙", "_t")
 t("Sound Designer", "사운드 엔지니어", "_t")
 t("Lore Creation and Writing", "스토리 작가", "_t")
+t("Code Heroes", "코드 히어로", "_t")
 t("Community Managers", "커뮤니티 관리자", "_t")
 t("Text Editors", "텍스트 편집", "_t")
+t("Chinese Translation Lead", "중국어 번역 주도", "_t")
+t("Chinese Translators", "중국어 번역가들", "_t")
+t("Korean Translation", "한국어 번역", "_t")
+t("Japanese Translation", "일본어 번역", "_t")
 t("The Community", "커뮤니티", "_t")
 t("Others", "그 밖에 도움을 주신 분들", "_t")
--- new text
---[==[
-t("Code Heroes", "Code Heroes", "_t")
-t("Chinese Translation Lead", "Chinese Translation Lead", "_t")
-t("Chinese Translators", "Chinese Translators", "_t")
-t("Korean Translation", "Korean Translation", "_t")
-t("Japanese Translation", "Japanese Translation", "_t")
---]==]
-
--- old translated text
-t("Code Helpers", "코드 헬퍼", "_t")
 
 ------------------------------------------------
 section "mod-boot/dialogs/FirstRun.lua"
@@ -451,7 +445,7 @@ t("Your username is too short", "유저명이 너무 짧습니다.", "_t")
 t("Password", "비밀번호", "_t")
 t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("Login...", "로그인 중...", "_t")
-t("Login in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...", "_t")
+t("Logging in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
 -- untranslated text
 --[==[
