@@ -116,6 +116,7 @@ setFlag("tformat_special", function(s, tag, locales_args, special, ...)
 	end
 	return s:format(unpack(args))
 end)
+
 ------------------------------------------------
 section "always_merge"
 
@@ -275,78 +276,78 @@ t("Hotkey 9", "단축키 9", "_t")
 t("Hotkey 10", "단축키 10", "_t")
 t("Hotkey 11", "단축키 11", "_t")
 t("Hotkey 12", "단축키 12", "_t")
-t("Secondary Hotkey 1", "두번째 단축키 1", "_t")
-t("Secondary Hotkey 2", "두번째 단축키 2", "_t")
-t("Secondary Hotkey 3", "두번째 단축키 3", "_t")
-t("Secondary Hotkey 4", "두번째 단축키 4", "_t")
-t("Secondary Hotkey 5", "두번째 단축키 5", "_t")
-t("Secondary Hotkey 6", "두번째 단축키 6", "_t")
-t("Secondary Hotkey 7", "두번째 단축키 7", "_t")
-t("Secondary Hotkey 8", "두번째 단축키 8", "_t")
-t("Secondary Hotkey 9", "두번째 단축키 9", "_t")
-t("Secondary Hotkey 10", "두번째 단축키 10", "_t")
-t("Secondary Hotkey 11", "두번째 단축키 11", "_t")
-t("Secondary Hotkey 12", "두번째 단축키 12", "_t")
-t("Third Hotkey 1", "세번째 단축키 1", "_t")
-t("Third Hotkey 2", "세번째 단축키 2", "_t")
-t("Third Hotkey 3", "세번째 단축키 3", "_t")
-t("Third Hotkey 4", "세번째 단축키 4", "_t")
-t("Third Hotkey 5", "세번째 단축키 5", "_t")
-t("Third Hotkey 6", "세번째 단축키 6", "_t")
-t("Third Hotkey 7", "세번째 단축키 7", "_t")
-t("Third Hotkey 8", "세번째 단축키 8", "_t")
-t("Third Hotkey 9", "세번째 단축키 9", "_t")
-t("Third Hotkey 10", "세번째 단축키 10", "_t")
-t("Third Hotkey 11", "세번째 단축키 11", "_t")
-t("Third Hotkey 12", "세번째 단축키 12", "_t")
-t("Fourth Hotkey 1", "네번째 단축키 1", "_t")
-t("Fourth Hotkey 2", "네번째 단축키 2", "_t")
-t("Fourth Hotkey 3", "네번째 단축키 3", "_t")
-t("Fourth Hotkey 4", "네번째 단축키 4", "_t")
-t("Fourth Hotkey 5", "네번째 단축키 5", "_t")
-t("Fourth Hotkey 6", "네번째 단축키 6", "_t")
-t("Fourth Hotkey 7", "네번째 단축키 7", "_t")
-t("Fourth Hotkey 8", "네번째 단축키 8", "_t")
-t("Fourth Hotkey 9", "네번째 단축키 9", "_t")
-t("Fourth Hotkey 10", "네번째 단축키 10", "_t")
-t("Fourth Hotkey 11", "네번째 단축키 11", "_t")
-t("Fourth Hotkey 12", "네번째 단축키 12", "_t")
-t("Fifth Hotkey 1", "다섯번째 단축키 1", "_t")
-t("Fifth Hotkey 2", "다섯번째 단축키 2", "_t")
-t("Fifth Hotkey 3", "다섯번째 단축키 3", "_t")
-t("Fifth Hotkey 4", "다섯번째 단축키 4", "_t")
-t("Fifth Hotkey 5", "다섯번째 단축키 5", "_t")
-t("Fifth Hotkey 6", "다섯번째 단축키 6", "_t")
-t("Fifth Hotkey 7", "다섯번째 단축키 7", "_t")
-t("Fifth Hotkey 8", "다섯번째 단축키 8", "_t")
-t("Fifth Hotkey 9", "다섯번째 단축키 9", "_t")
-t("Fifth Hotkey 10", "다섯번째 단축키 10", "_t")
-t("Fifth Hotkey 11", "다섯번째 단축키 11", "_t")
-t("Fifth Hotkey 12", "다섯번째 단축키 12", "_t")
-t("Six Hotkey 1", "여섯번째 단축키 1", "_t")
-t("Six Hotkey 2", "여섯번째 단축키 2", "_t")
-t("Six Hotkey 3", "여섯번째 단축키 3", "_t")
-t("Six Hotkey 4", "여섯번째 단축키 4", "_t")
-t("Six Hotkey 5", "여섯번째 단축키 5", "_t")
-t("Six Hotkey 6", "여섯번째 단축키 6", "_t")
-t("Six Hotkey 7", "여섯번째 단축키 7", "_t")
-t("Six Hotkey 8", "여섯번째 단축키 8", "_t")
-t("Six Hotkey 9", "여섯번째 단축키 9", "_t")
-t("Six Hotkey 10", "여섯번째 단축키 10", "_t")
-t("Six Hotkey 11", "여섯번째 단축키 11", "_t")
-t("Six Hotkey 12", "여섯번째 단축키 12", "_t")
-t("Seven Hotkey 1", "일곱번째 단축키 1", "_t")
-t("Seven Hotkey 2", "일곱번째 단축키 2", "_t")
-t("Seven Hotkey 3", "일곱번째 단축키 3", "_t")
-t("Seven Hotkey 4", "일곱번째 단축키 4", "_t")
-t("Seven Hotkey 5", "일곱번째 단축키 5", "_t")
-t("Seven Hotkey 6", "일곱번째 단축키 6", "_t")
-t("Seven Hotkey 7", "일곱번째 단축키 7", "_t")
-t("Seven Hotkey 8", "일곱번째 단축키 8", "_t")
-t("Seven Hotkey 9", "일곱번째 단축키 9", "_t")
-t("Seven Hotkey 10", "일곱번째 단축키 10", "_t")
-t("Seven Hotkey 11", "일곱번째 단축키 11", "_t")
-t("Seven Hotkey 12", "일곱번째 단축키 12", "_t")
+t("Secondary Hotkey 1", "두 번째 단축키 1", "_t")
+t("Secondary Hotkey 2", "두 번째 단축키 2", "_t")
+t("Secondary Hotkey 3", "두 번째 단축키 3", "_t")
+t("Secondary Hotkey 4", "두 번째 단축키 4", "_t")
+t("Secondary Hotkey 5", "두 번째 단축키 5", "_t")
+t("Secondary Hotkey 6", "두 번째 단축키 6", "_t")
+t("Secondary Hotkey 7", "두 번째 단축키 7", "_t")
+t("Secondary Hotkey 8", "두 번째 단축키 8", "_t")
+t("Secondary Hotkey 9", "두 번째 단축키 9", "_t")
+t("Secondary Hotkey 10", "두 번째 단축키 10", "_t")
+t("Secondary Hotkey 11", "두 번째 단축키 11", "_t")
+t("Secondary Hotkey 12", "두 번째 단축키 12", "_t")
+t("Third Hotkey 1", "세 번째 단축키 1", "_t")
+t("Third Hotkey 2", "세 번째 단축키 2", "_t")
+t("Third Hotkey 3", "세 번째 단축키 3", "_t")
+t("Third Hotkey 4", "세 번째 단축키 4", "_t")
+t("Third Hotkey 5", "세 번째 단축키 5", "_t")
+t("Third Hotkey 6", "세 번째 단축키 6", "_t")
+t("Third Hotkey 7", "세 번째 단축키 7", "_t")
+t("Third Hotkey 8", "세 번째 단축키 8", "_t")
+t("Third Hotkey 9", "세 번째 단축키 9", "_t")
+t("Third Hotkey 10", "세 번째 단축키 10", "_t")
+t("Third Hotkey 11", "세 번째 단축키 11", "_t")
+t("Third Hotkey 12", "세 번째 단축키 12", "_t")
+t("Fourth Hotkey 1", "네 번째 단축키 1", "_t")
+t("Fourth Hotkey 2", "네 번째 단축키 2", "_t")
+t("Fourth Hotkey 3", "네 번째 단축키 3", "_t")
+t("Fourth Hotkey 4", "네 번째 단축키 4", "_t")
+t("Fourth Hotkey 5", "네 번째 단축키 5", "_t")
+t("Fourth Hotkey 6", "네 번째 단축키 6", "_t")
+t("Fourth Hotkey 7", "네 번째 단축키 7", "_t")
+t("Fourth Hotkey 8", "네 번째 단축키 8", "_t")
+t("Fourth Hotkey 9", "네 번째 단축키 9", "_t")
+t("Fourth Hotkey 10", "네 번째 단축키 10", "_t")
+t("Fourth Hotkey 11", "네 번째 단축키 11", "_t")
+t("Fourth Hotkey 12", "네 번째 단축키 12", "_t")
+t("Fifth Hotkey 1", "다섯 번째 단축키 1", "_t")
+t("Fifth Hotkey 2", "다섯 번째 단축키 2", "_t")
+t("Fifth Hotkey 3", "다섯 번째 단축키 3", "_t")
+t("Fifth Hotkey 4", "다섯 번째 단축키 4", "_t")
+t("Fifth Hotkey 5", "다섯 번째 단축키 5", "_t")
+t("Fifth Hotkey 6", "다섯 번째 단축키 6", "_t")
+t("Fifth Hotkey 7", "다섯 번째 단축키 7", "_t")
+t("Fifth Hotkey 8", "다섯 번째 단축키 8", "_t")
+t("Fifth Hotkey 9", "다섯 번째 단축키 9", "_t")
+t("Fifth Hotkey 10", "다섯 번째 단축키 10", "_t")
+t("Fifth Hotkey 11", "다섯 번째 단축키 11", "_t")
+t("Fifth Hotkey 12", "다섯 번째 단축키 12", "_t")
+t("Six Hotkey 1", "여섯 번째 단축키 1", "_t")
+t("Six Hotkey 2", "여섯 번째 단축키 2", "_t")
+t("Six Hotkey 3", "여섯 번째 단축키 3", "_t")
+t("Six Hotkey 4", "여섯 번째 단축키 4", "_t")
+t("Six Hotkey 5", "여섯 번째 단축키 5", "_t")
+t("Six Hotkey 6", "여섯 번째 단축키 6", "_t")
+t("Six Hotkey 7", "여섯 번째 단축키 7", "_t")
+t("Six Hotkey 8", "여섯 번째 단축키 8", "_t")
+t("Six Hotkey 9", "여섯 번째 단축키 9", "_t")
+t("Six Hotkey 10", "여섯 번째 단축키 10", "_t")
+t("Six Hotkey 11", "여섯 번째 단축키 11", "_t")
+t("Six Hotkey 12", "여섯 번째 단축키 12", "_t")
+t("Seven Hotkey 1", "일곱 번째 단축키 1", "_t")
+t("Seven Hotkey 2", "일곱 번째 단축키 2", "_t")
+t("Seven Hotkey 3", "일곱 번째 단축키 3", "_t")
+t("Seven Hotkey 4", "일곱 번째 단축키 4", "_t")
+t("Seven Hotkey 5", "일곱 번째 단축키 5", "_t")
+t("Seven Hotkey 6", "일곱 번째 단축키 6", "_t")
+t("Seven Hotkey 7", "일곱 번째 단축키 7", "_t")
+t("Seven Hotkey 8", "일곱 번째 단축키 8", "_t")
+t("Seven Hotkey 9", "일곱 번째 단축키 9", "_t")
+t("Seven Hotkey 10", "일곱 번째 단축키 10", "_t")
+t("Seven Hotkey 11", "일곱 번째 단축키 11", "_t")
+t("Seven Hotkey 12", "일곱 번째 단축키 12", "_t")
 t("Previous Hotkey Page", "이전 단축키 페이지", "_t")
 t("Next Hotkey Page", "다음 단축키 페이지", "_t")
 t("Quick switch to Hotkey Page 2", "2번 단축키 페이지로 빠른 전환", "_t")
@@ -429,7 +430,7 @@ t("Do you want to recreate the same character?", "같은 캐릭터를 재생성�
 t("Recreate", "재생성", "_t")
 t("New character", "새로운 캐릭터", "_t")
 t("Randomly selected %s.", "무작위로 선택하기 %s.", "log")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -439,10 +440,9 @@ t("", "", "_t")
 section "engine/engine/Chat.lua"
 
 
--- new text
+-- untranslated text
 --[==[
-t("following chain...", "following chain...", "log")
-t(" - %s : %d", " - %s : %d", "log")
+t("???", "???", "_t")
 --]==]
 
 
@@ -502,7 +502,7 @@ section "engine/engine/Module.lua"
 
 t("Beta Addons Disabled", "베타 애드온 비활성화됨", "_t")
 t([[This beta version is meant to be tested without addons, as such the following ones are currently disabled:
-#GREY#]], [[이 베타 버전은 애드온 없이 작동되어야 합니다. 다음과 같은 애드온이 비활성화됩니다 :
+#GREY#]], [[이 베타 버전은 애드온 없이 작동되어야 합니다. 다음과 같은 애드온이 비활성화됩니다:
 #GREY#]], "_t")
 t("#{italic}##PINK#Addons developers can still test their addons by enabling developer mode.#{normal}#", "#{italic}##PINK#애드온 개발자는 개발자 모드를 활성화 함으로써 자신이 만든 애드온을 테스트해 볼 수 있습니다.#{normal}#", "_t")
 t([[Total playtime of all registered players:%s
@@ -514,8 +514,8 @@ t("#CRIMSON#%s#WHITE# is one of the top ten killers", "#CRIMSON#%s#WHITE# 플레
 t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%s#WHITE# 가장 많이 플레이된 열 가지 종족/직업 조합 중 하나입니다", "tformat", nil, {"는"})
 t("There are currently %d people playing online", "현재 %d 명의 플레이어들이 온라인 상태에 있습니다", "tformat")
 t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "캐릭터 보관소에는 총 #RED#%d#WHITE# 캐릭터의 죽음이 기록되어 있습니다", "tformat")
-t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소는 현재 버전의 승자 #LIGHT_BLUE#%d#WHITE# 명이 기록되어 있습니다", "tformat")
-t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "마지막 기부자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 기부자들께 감사드리며, 이 게임이 계속될 수 있게끔 도와주세요!", "tformat")
+t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소에는 현재 버전의 승자가 #LIGHT_BLUE#%d#WHITE# 명 기록되어 있습니다", "tformat")
+t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "가장 최근 기부자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 기부자님들께 감사드립니다! 여러분이 이 게임에 생기를 불어넣고 있어요!", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로필로 교체됨)", "log", nil, {"이"})
 
 ------------------------------------------------
@@ -604,7 +604,7 @@ section "engine/engine/Trap.lua"
 t("%s fails to disarm a trap (%s).", "%s %s 함정을 해제하는데 실패했다.", "logSeen", nil, {"는"})
 t("%s disarms a trap (%s).", "%s %s 함정을 해제하는데 성공했다.", "logSeen", nil, {"는"})
 t("%s triggers a trap (%s)!", "%s %s 함정이 발동됨!", "logSeen")
--- new text
+-- untranslated text
 --[==[
 t("%s", "%s", "logSeen")
 --]==]
@@ -652,7 +652,7 @@ t("Please wait while generating the level... ", "구역을 생성 중 입니다.
 section "engine/engine/ai/talented.lua"
 
 
--- new text
+-- untranslated text
 --[==[
 t("#ORCHID#__[%d]%s improved talented AI picked talent[att:%d, turn %s]: %s", "#ORCHID#__[%d]%s improved talented AI picked talent[att:%d, turn %s]: %s", "log")
 t("__[%d]%s#ORANGE# ACTION FAILED:  %s, %s", "__[%d]%s#ORANGE# ACTION FAILED:  %s, %s", "log")
@@ -778,7 +778,7 @@ section "engine/engine/dialogs/GetText.lua"
 t("Accept", "수락", "_t")
 t("Cancel", "취소", "_t")
 t("Error", "오류", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 t("Must be between %i and %i characters.", "Must be between %i and %i characters.", "tformat")
@@ -823,7 +823,7 @@ t([[#GOLD#Achieved on:#LAST# %s
 #GOLD#해제 조건:#LAST# %s]], "tformat")
 t("Progress: ", "진행상황: ", "_t")
 t("-- Unknown --", "-- 알 수 없음 --", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 t("???", "???", "_t")
@@ -839,7 +839,7 @@ t("Enc.", "기타", "_t")
 t("Equipment", "장비", "_t")
 t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat")
 t("%s assigned to hotkey %s", "%s 단축키 %s 에 지정되었습니다.", "tformat", nil, {"가"})
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -851,7 +851,7 @@ section "engine/engine/dialogs/ShowEquipment.lua"
 t("Equipment", "장비", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -881,7 +881,7 @@ t("Close All", "전부 닫기", "_t")
 t("Log saved to file (click to copy to clipboard):#LIGHT_BLUE#%s", "파일에 로그가 저장됨 (클립보드에 복사하려면 클릭):#LIGHT_BLUE#%s", "tformat")
 t("File location copied to clipboard.", "클립보드에 파일 주소가 복사됨.", "log")
 t("#YELLOW#Error report sent, thank you.", "#YELLOW#보고서가 제출됐습니다. 감사합니다.", "log")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -893,7 +893,7 @@ section "engine/engine/dialogs/ShowInventory.lua"
 t("Inventory", "소지품", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -907,7 +907,7 @@ t("(*) Take all", "(*) 전부 줍기", "_t")
 t("Item", "물건", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -927,7 +927,7 @@ t("Store", "상점", "_t")
 t("Inventory", "소지품", "_t")
 t("Category", "분류", "_t")
 t("Price", "가격", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -957,7 +957,7 @@ t("#GOLD##{bold}#Purge Cloud Saves#WHITE##{normal}#", "#GOLD##{bold}#클라우�
 t("Steam Cloud Purge", "Steam 클라우드 제거", "_t")
 t("Confirm purge?", "제거에 동의하십니까?", "_t")
 t("All data purged from the cloud.", "모든 파일이 Steam 클라우드에서 제거되었습니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -973,7 +973,7 @@ t("Target: ", "대상: ", "_t")
 t("Channel: %s", "채널: %s", "tformat")
 t("Friend: %s", "친구: %s", "tformat")
 t("User: %s", "유저: %s", "tformat")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -992,7 +992,7 @@ t("Talent", "기술", "_t")
 t("Status", "상태", "_t")
 t("Hotkey %s assigned", "단축키 %s 지정됨", "tformat")
 t("%s assigned to hotkey %s", "%s 단축키 %s 에 지정되었습니다.", "tformat", nil, {"가"})
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -1129,7 +1129,7 @@ t("Position changed.", "위치 변경됨", "_t")
 t("Save position?", "위치를 저장하시겠습니까?", "_t")
 t("Accept", "수락", "_t")
 t("Revert", "되돌리기", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -1245,7 +1245,7 @@ t([[#{bold}##GOLD#Shimmer Pack#WHITE##{normal}#: Once purchased the game will au
 #LIGHT_GREEN#추가 기능:#LAST# 광원팩을 구입하시면 당신의 캐릭터는 휴대할 수 있는 반영의 거울을 받게 됩니다. 반영의 거울을 통해 언제 어디서든 당신의 모습을 바꿀 수 있습니다.]], "_t")
 t("#{bold}##GOLD#UI Pack#WHITE##{normal}#: Once purchased the game will automatically install the UI pack to your game.", "#{bold}##GOLD#UI 팩#WHITE##{normal}#: 이 게임을 구입할 때, 자동으로 UI 팩이 설치됩니다.", "_t")
 t("#{bold}##GOLD#Vault Space#WHITE##{normal}#: Once purchased your vault space is permanently increased.", "#{bold}##GOLD#금고 공간#WHITE##{normal}#: 구매하시면 금고 공간이 영구적으로 늘어납니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("%0.2f %s", "%0.2f %s", "tformat")
 --]==]
@@ -1332,7 +1332,7 @@ t("- Talent %s (not known)", "- 기술 (미습득) %s", "tformat")
 t("- Talent %s (%d)", "- 기술 %s (%d)", "tformat")
 t("- Talent %s", "- 기술 %s", "tformat")
 t("- Is %s", "- %s", "tformat")
--- new text
+-- untranslated text
 --[==[
 t("%s", "%s", "logSeen")
 t("%s %s %s.", "%s %s %s.", "logSeen")
@@ -1388,7 +1388,7 @@ t("You are %s, press Enter to stop.", "%s 중입니다. Enter키로 종료합니
 t("%s starts...", "%s 시작...", "log")
 t("%s for %d turns (stop reason: %s).", "%d 턴 동안 %s (종료 원인: %s)", "log", {2,1,3})
 t("%s for %d turns.", "%d 턴 동안 %s", "log", {2,1})
--- new text
+-- untranslated text
 --[==[
 t("%s...", "%s...", "tformat")
 --]==]
@@ -1461,7 +1461,7 @@ section "engine/engine/ui/Inventory.lua"
 t("Inventory", "소지품", "_t")
 t("Category", "분류", "_t")
 t("Enc.", "기타", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -1497,7 +1497,7 @@ t("his", "그", "_t")
 t("him", "그", "_t")
 t("herself", "자기 자신", "_t")
 t("himself", "자기 자신", "_t")
--- new text
+-- untranslated text
 --[==[
 t("it", "it", "_t")
 t("its", "its", "_t")
@@ -1767,11 +1767,15 @@ t("Expert Shaders Design", "셰이더 디자인", "_t")
 t("Soundtracks", "사운드트랙", "_t")
 t("Sound Designer", "사운드 엔지니어", "_t")
 t("Lore Creation and Writing", "스토리 작가", "_t")
-t("Code Helpers", "코드 헬퍼", "_t")
 t("Community Managers", "커뮤니티 관리자", "_t")
 t("Text Editors", "텍스트 편집", "_t")
 t("The Community", "커뮤니티", "_t")
 t("Others", "그 밖에 도움을 주신 분들", "_t")
+t("Code Heroes", "코드 히어로", "_t")
+t("Chinese Translation Lead", "중국어 번역 주도", "_t")
+t("Chinese Translators", "중국어 번역가들", "_t")
+t("Korean Translation", "한국어 번역", "_t")
+t("Japanese Translation", "일본어 번역", "_t")
 
 ------------------------------------------------
 section "engine/modules/boot/dialogs/FirstRun.lua"
@@ -1874,12 +1878,12 @@ t([[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
 #LIGHT_UMBER#New artifacts, lore, zones, events...#WHITE# For your demonic delight!
 
 ]], [[#{bold}##GOLD#울흐'록의 재 - 확장팩#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#마즈'에이알의 많은 사람들이 "악마" 에 대한 이야기를 알고 있습니다. 무에서 나타난 가학적인 생명체이며, 그들이 가는 곳이라면 파괴와 고통이 뒤따른다고 합니다.#{normal}##LAST#
+#{italic}##ANTIQUE_WHITE#마즈'에이알 사람들은 대부분 "악마" 에 대한 이야기를 알고 있습니다. 가학적인 짓을 즐기며 허공에서 갑자기 튀어나오고, 가는 길마다 고통과 파괴를 남기는 존재들이죠.#{normal}##LAST#
 
 #{bold}#특징#{normal}#:
-#LIGHT_UMBER#새로운 직업:#WHITE# 파멸의 사도. 악마적인 파괴의 화신인 파멸의 사도는 거대한 양손 무기를 들고 전장으로 뛰처나가, 적들의 무리에 불타는 파괴의 일섬을 날립니다. 화염 마법으로 무장하고 악마의 힘을 가진 파멸의 사도들은 압도적인 적과 싸우는 것을 즐깁니다
-#LIGHT_UMBER#새로운 직업:#WHITE# 악마학자. 방패를 들고 마법폭발의 힘 그 자체를 다루는 이 근접 전문 주문 시전자는 쓰러진 적들에게서 악마의 씨앗을 키워낼 수 있습니다. 악마의 씨앗을 장비에 장착해 수많은 새로운 기술들을 얻고, 지속 효과를 누리고, 또 악마들을 전투 중에 소환하세요!
-#LIGHT_UMBER#새로운 종족:#WHITE# 둠엘프. 악마적인 개조를 특히 더 잘 받아들인 샬로레로, 샬로레 특유의 능력이 어두운 형태로 타락 되었습니다.
+#LIGHT_UMBER#새로운 직업:#WHITE# 파멸의 사도. 이들은 악마적인 파괴의 화신으로 거대한 양손 무기를 들고 전장으로 뛰어들어, 적들을 베어버리고 불타는 상흔을 남깁니다.  화염의 마법과 악마의 힘으로 무장한 파멸의 사도들은 압도적인 전력차에 맞서 싸우는 걸 즐깁니다.
+#LIGHT_UMBER#새로운 직업:#WHITE# 악마학자. 이들은 방패와 마법폭발의 힘으로 무장한 근접 전투형 주문시전자들로, 쓰러진 적들에게서 악마의 씨앗을 키워낼 수 있습니다.  이 씨앗들을 아이템에 섞어 넣어 다양한 새 기술과 지속형 이득을 얻을 수 있고, 악마들도 동료로 소환할 수 있습니다!
+#LIGHT_UMBER#새로운 종족:#WHITE# 둠엘프. 악마적 처치를 특히 잘 받은 샬로레들로, 원래 종족 특징들이 어두운 쪽으로 타락한 상태입니다.
 #LIGHT_UMBER#새로운 유물, 이야기, 장소, 사건들...#WHITE# 모두가 당신의 악마적인 즐거움을 위해 준비되어 있습니다!
 
 ]], "_t")
@@ -1897,14 +1901,14 @@ t([[#{bold}##GOLD#Embers of Rage - Expansion#LAST##{normal}#
 #LIGHT_UMBER#A ton#WHITE# of artifacts, lore, zones, events... 
 
 ]], [[#{bold}##GOLD#분노의 잉걸불 - 확장팩#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#오크들이 흔히 "서쪽에서 온 재앙" 이라 부르는 자가 홀로 그루쉬낙, 보르, 고르벳, 락쇼르 긍지를 파괴해버린지 1 년이 지났습니다.  왕국연합은 오랫동안 잊혀진 태양의 장벽과 장거리 차원문을 통해 연결되었으며, 그들이 바르'에이알의 대부분의 지역을 점령하는데 도움을 주었습니다.  파괴된 긍지들의 잔존병들은 감금있으나...  단 하나의 긍지가 아직 남아있습니다.#{normal}##LAST#
+#{italic}##ANTIQUE_WHITE#오크들이 흔히 "서쪽에서 온 재앙" 이라 부르는 자가 홀로 그루쉬낙, 보르, 고르뱃, 락'쇼르 긍지를 파괴한지 1 년이 지났습니다.  왕국연합은 오랫동안 잊혀진 태양의 장벽과 장거리 차원문을 통해 연결되었으며, 그들이 바르'에이알의 대부분의 지역을 점령하는데 도움을 주었습니다.  파괴된 긍지들의 잔존병들은 감금되어 있지만...  단 하나의 긍지가 아직 남아 있습니다.#{normal}##LAST#
 
 #{bold}#특징#{normal}#:
 #LIGHT_UMBER#완전히 새로운 캠페인:#WHITE# 메인 게임 이후 1 년 뒤의 이야기를 다룹니다. 오크 긍지들의 마지막 운명이 당신에게 달려 있습니다. 극동의 미지의 지역을 탐험 해보세요. 
-#LIGHT_UMBER#새로운 직업:#WHITE# 톱도살자, 총잡이, 싸이샷, 섬멸자와 마도공학자. 증기의 힘으로 치명적인 기계를 활성화 해, 긍지에 적대하는 모든 이들을 초토화 합니다!  
+#LIGHT_UMBER#새로운 직업:#WHITE# 톱 도살자, 총잡이, 염동사수, 섬멸자, 마도공학자. 증기의 힘으로 치명적인 기계를 활성화시켜, 긍지에 맞서는 모든 이들을 초토화하세요!  
 #LIGHT_UMBER#새로운 종족:#WHITE# 오크, 예티, 화이트후프.  당신이 '서쪽에서 온 재앙'이라고 부르는 자가 일으킨 참사에서 긍지를 구하는 동안 오크와 그들의 예상 밖의 동맹들에 대해 알아보세요.
-#LIGHT_UMBER#발명품:#WHITE# 강력한 발명품으로 장비를 강화하세요. 신발에 로켓을 달고, 장갑에 강철같은 손아귀를 더하는 등, 다양한 방법으로 장비에 특수한 능력을 부여해보세요
-#LIGHT_UMBER#연고:#WHITE# 발명품과 연계해, 강력한 의료용 연고를 제작해 피부에 투여하세요. 주입물과 룬을 대체합니다.
+#LIGHT_UMBER#발명품:#WHITE# 강력한 발명품으로 장비를 강화하세요. 신발에 로켓을 달고, 장갑에 강철 같은 손아귀를 붙이는 등, 다양한 방법으로 장비에 특수한 능력을 부여할 수 있습니다.
+#LIGHT_UMBER#연고:#WHITE# 발명품 시스템과 연계해, 강력한 의료용 연고를 제작해 피부에 투여하세요. 주입물과 룬을 대체합니다.
 #LIGHT_UMBER#무수히 많은#WHITE# 유물, 이야기, 장소, 사건들... 
 
 ]], "_t")
@@ -1921,17 +1925,17 @@ t([[#{bold}##GOLD#Forgotten Cults - Expansion#LAST##{normal}#
 #LIGHT_UMBER#Sick of your own head:#WHITE#  Replace it with a nice cozy horror!
 #LIGHT_UMBER#A ton#WHITE# of artifacts, lore, events... 
 
-]], [[#{bold}##GOLD#금지된 교단 - 확장팩#LAST##{normal}#
-#{italic}##ANTIQUE_WHITE#모든 모험가들이 부를 쫓는 것은 아니며, 세상을 지키는 모든 이들이 선행을 염두에 두고 있는 것도 아니다. 최근들어 공포의 목격 건수가 엄청나게 늘어나고 있습니다. 길에서 벗어난 이들이 몇 년 후에 공포스럽게 변이되고, 부분적으로 미쳐 있는 상태로 발견됩니다. 마즈'에이알 밑 깊은곳에서 뭔가가 준동하고 있음이 명백해지고 있습니다. 그게 바로 당신입니다.#{normal}##LAST#
+]], [[#{bold}##GOLD#금단의 교단 - 확장팩#LAST##{normal}#
+#{italic}##ANTIQUE_WHITE#모험가들이라고 모두 행운을 찾고 있는 건 아니고, 세상을 지키고 있다고 모두 선행을 염두에 두고 있는 것도 아닙니다. 최근에 공포체들을 목격하는 빈도가 엄청하게 증가했습니다. 익숙한 길에서 벗어나버린 사람들은 몇 년 뒤에야 발견될 것이고, 그들은 무시무시하게 변이되어 있고, 또 약간 미친 상태일 겁니다. 물론 발견이 된다면 말이지요. 마즈'에이알 지하 깊은 곳에 무언가가 있다는 게 확실해지고 있습니다. 그 무언가가 바로 당신입니다.#{normal}##LAST#
 
 #{bold}#특징#{normal}#:
-#LIGHT_UMBER#새로운 직업:#WHITE# 뒤틀린 자. 타락한 힘에 무릎 꿇은 이들로, 스스로를 서서히 공포로 변화시키고, 자신의 뜻에 따라 공포들을 소환 합니다. 피부를 벗어버리고, 얼굴을 녹여내 적들을 공격합니다. 이미 촉수로 변한 팔을 갖고 있는데, 어떤 이가 당신을 막을 수 있을까요?
-#LIGHT_UMBER#새로운 직업:#WHITE# 엔트로피 광신도. 광기와 엔트로피의 힘을 조정함으로써 정상적인 물리법칙을 풀어해칩니다. 이 주문 시전자는 회복을 공격으로 변화시키고, 공허의 힘을 불러와 적을 먼지로 화하게 할 수 있습니다.
-#LIGHT_UMBER#새로운 종족:#WHITE# 드렘. 드워프들의 타락한 하위 종족으로, 티끝같은 이성을 유지하며 마음이 존재하지 않는 공포로 변해버리지 않았습니다. 드렘은 광란 상태에 빠질 수 있고 공포를 소환하는 법도 배울 수 있습니다..
-#LIGHT_UMBER#새로운 종족:#WHITE# 크로그. 오우거들이 마땅히 죽여야할 그것에 의해 변형되었습니다. 그들의 강력한 일격은 적들을 기절 시킬 수 있습니다. 또 크로그는 양 손에 한손 무기를 장착할 수 있습니다.
-#LIGHT_UMBER#새로운 지역:#WHITE# 재앙의 구덩이를 탐험하고, 거대한 지렁이에게서 빠저나가기 위해 싸우고 (어떻게 지렁이 안에 *들어* 갔는지는 묻지마세요), 비술의 출로의 경이들을 발견하고, 또 기이하고 촉수로 가득찬 장소로 떠나세요!
+#LIGHT_UMBER#새로운 직업:#WHITE# 뒤틀린 자. 타락한 힘 앞에 무릎 꿇은 이들로, 스스로를 서서히 공포체로 변화시키고, 자신의 뜻에 따라 공포체들을 소환합니다. 피부를 벗어버리고, 얼굴을 녹여내 적들을 공격합니다. 이미 촉수로 변한 팔을 갖고 있는데, 누가 당신을 막을 수 있을까요?
+#LIGHT_UMBER#새로운 직업:#WHITE# 엔트로피 광신도. 광기와 엔트로피의 힘을 제어하여 정상적인 물리법칙을 풀어헤칩니다. 이 주문 시전자는 회복을 공격으로 변화시키고, 공허의 힘을 불러와 적을 먼지로 화하게 할 수 있습니다.
+#LIGHT_UMBER#새로운 종족:#WHITE# 드렘. 드워프들의 오염된 하위 종족으로, 티끝같은 이성을 유지하며 지성이 없는 공포체로 변해버리지 않았습니다. 드렘은 광란 상태에 빠질 수 있고 공포체를 소환하는 법도 배울 수 있습니다.
+#LIGHT_UMBER#새로운 종족:#WHITE# 크로그. 본래 오우거였던 이들은 자신들을 마땅히 죽여야 할 이들에 의해 변형되었습니다. 그들의 강력한 일격은 적들을 기절시킬 수 있고, 양 손에 한손 무기를 하나씩 장착할 수 있습니다.
+#LIGHT_UMBER#새로운 지역:#WHITE# 재앙의 구덩이를 탐험하고, 거대한 지렁이에게서 빠저나가기 위해 싸우고 (어떻게 지렁이 안에 *들어* 갔는지는 묻지 마세요), 비술의 출로의 경이들을 발견하고, 또 기이하고 촉수로 가득 찬 장소로 떠나세요!
 #LIGHT_UMBER#새로운 공포:#WHITE# 눈부신 공포가 맘에 드시나요? 불사르는 빛의 공포도 아주 맘에 드실겁니다! 또 엔트로피의 조각들도요. 또 ... 기타 등등도요...
-#LIGHT_UMBER#지긋지긋한 내 머리:#WHITE#  멋지고 편안한 공포로 바꿔버립시다!
+#LIGHT_UMBER#지긋지긋한 내 머리:#WHITE#  멋지고 편안한 공포체로 바꿔버립시다!
 #LIGHT_UMBER#무수히 많은#WHITE# 유물, 이야기, 사건들... 
 
 ]], "_t")
@@ -1950,7 +1954,7 @@ t("Your password is too short", "비밀번호가 너무 짧습니다.", "_t")
 t("Login...", "로그인 중...", "_t")
 t("Login in your account, please wait...", "로그인 중 입니다. 잠시만 기다려주세요...", "_t")
 t("Steam client not found.", "Steam 클라이언트를 찾을 수 없습니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 --]==]
