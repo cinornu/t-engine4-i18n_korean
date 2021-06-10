@@ -55,14 +55,10 @@ Logs written to %s]], "tformat")
 section "tome-addon-dev/overload/engine/i18nhelper/Extractor.lua"
 
 t("Success", "성공", "_t")
--- new text
---[==[
-t("error reading file %s", "error reading file %s", "log")
---]==]
-
 -- untranslated text
 --[==[
 t("Luafish parse error on file %s: %s", "Luafish parse error on file %s: %s", "log")
+t("error reading file %s", "error reading file %s", "log")
 t("Error writing file %s", "Error writing file %s", "log")
 t("MD5 matched for part %s, skipped.", "MD5 matched for part %s, skipped.", "log")
 t("Extracting text", "Extracting text", "_t")
