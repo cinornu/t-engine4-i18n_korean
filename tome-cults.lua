@@ -4939,7 +4939,7 @@ t([[Infused by #OLIVE_DRAB#nature#LAST#
 ]], [[#OLIVE_DRAB#자연의 힘#LAST#이 주입됨
 ]], "_t")
 t([[Infused by #ORCHID#arcane disrupting forces#LAST#
-]], [[Infused by #ORCHID#마법 파괴의 힘이 불어넣어짐#LAST#
+]], [[#ORCHID#마법 파괴의 힘#LAST#이 불어넣어짐
 ]], "_t")
 t([[Crafted by #LIGHT_UMBER#a master#LAST#
 ]], [[#LIGHT_UMBER#장인#LAST#이 제작함
