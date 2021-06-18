@@ -3544,7 +3544,7 @@ t("#GREEN#You can now change your elemental drake aspect", "#GREEN#이제 원소
 t("Fire Drake / Fire Resistance", "화염 드레이크 / 화염 저항", "_t")
 t("Cold Drake / Cold Resistance", "냉기 드레이크 / 냉기 저항", "_t")
 t("Storm Drake / Lightning Resistance", "전기 드레이크 / 전기 저항", "_t")
-t("Sand Drake / Physical Resistance (1/3rd values)", "모래 드레이크 / 물리 저항 (33%% 수치)", "_t")
+t("Sand Drake / Physical Resistance (1/3rd values)", "모래 드레이크 / 물리 저항 (타 속성의 1/3)", "_t")
 t("Wild Drake / Nature Resistance", "야생 드레이크 / 자연 저항", "_t")
 t("Acid Drake / Acid Resistance", "산성 드레이크 / 산성 저항", "_t")
 t("Never mind", "취소", "_t")
