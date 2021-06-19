@@ -969,7 +969,7 @@ t("Reduces duration of detrimental effects by 40%", "부정적인 효과의 지�
 t("+2 to all Demon Seeds, Spellblaze and Demonic Pact talents", "모든 악마의 씨앗, 마법폭발, 악마의 계약 기술에 +2 ", "_t")
 t("%s (%d/%d life, level %d)", "%s (생명력 %d/%d, 레벨 %d)", "tformat")
 t("demon seed", "악마의 씨앗", "_t")
-t("The seed of a demon.", "악마의 씨앗이다.", "_t")
+t("The seed of a demon.", "악마의 씨앗입니다.", "_t")
 t("Demon status: %s.", "악마의 상태: %s.", "tformat")
 t("alive (%d%% life)", "살아있음 (생명력 %d%%)", "tformat")
 t("dead (can not be summoned)", "죽음 (소환할 수 없음)", "_t")
@@ -992,19 +992,19 @@ t([[Strike a blow with your weapon for %d%% blight damage.
 
 		Higher talent levels allow for more powerful demon types.
 		Implanting a seed into unique demons, if successful, will always try to grant a seed of that type, if available.]], [[무기로 적을 가격해 %d%% 황폐 피해를 가합니다.
-		명중 시, 악마의 씨앗이 적에게 파종되고, 이어서 %d%% 피해의 방패 공격을 가해 대상에게 %d 턴의 혼절을 유발합니다.
+		명중 시 악마의 씨앗이 적에게 심어지고, 이어서 %d%% 피해의 방패 공격을 가해 대상을 %d 턴 동안 혼절시킵니다.
 		
-		씨앗은 영양분을 공급할 수 있는 강력한 숙주가 필요합니다. 아주 하찮은 적이나 소환된 악마는 숙주가 될 수 없습니다.
-		등급에 비례한 씨앗 파종 확률은 다음과 같습니다.
+		씨앗은 영양분을 충분히 공급할 수 있는 강한 숙주가 필요합니다. 아주 하찮은 적이나 소환된 악마는 숙주가 될 수 없습니다.
+		등급에 비례한 씨앗 획득 확률은 다음과 같습니다.
 		%s일반#LAST#:  5%%
 		%s정예#LAST#:  20%%
 		%s희귀#LAST# 또는 %s유일#LAST#:  50%%
 		%s보스#LAST#:  100%%
-		숙주가 쓰러지면 씨앗은 죽어가는 숙주의 원기로 가득 차, 악마를 소환할 수 있는 특별한 악마의 씨앗으로 변합니다.
+		숙주가 쓰러지면 씨앗은 죽어가는 숙주의 원기로 가득 차, 소환할 수 있는 특정한 악마의 씨앗으로 변합니다.
 		만약 같은 종류의 씨앗이 가방 안에 있거나 장비에 장착되어 있을 시, 획득하는 대신 해당 악마의 씨앗의 레벨을 증가시키고 (단, 숙주의 레벨이 소지하고 있던 씨앗의 레벨보다 높을 경우에만), 해당하는 악마의 생명력이 %d%% 회복됩니다. 이미 죽어있던 악마의 경우 부활하고 회복됩니다.
 
-		기술 레벨이 높을수록 더욱 강력한 악마에게 파종할 수 있습니다.
-		게임 내 유일한 악마에게 씨앗을 파종할 경우, 성공 시, 언제나 그 악마의 종류에 해당하는 씨앗을 얻게 됩니다.]], "tformat")
+		기술 레벨이 높을수록 더욱 강력한 고위 악마들의 씨앗을 얻을 수 있습니다.
+		게임 내 유일한 악마에게 씨앗을 심을 경우, 성공 시, 언제나 해당 악마의 씨앗을 얻게 됩니다.]], "tformat")
 t("Bind Demon", "악마 결합", "talent name")
 t("Summon demon", "악마 소환", "_t")
 t("Which seed to use:", "어떤 씨앗을 사용하시겠습니까?: ", "_t")
