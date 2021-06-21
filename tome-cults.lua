@@ -2860,9 +2860,9 @@ t([[By bringing the forces of entropy to bear on a target, you prophesize their 
 Level 1: Prophecy of Ruin. Deals %0.2f damage on falling below 75%%, 50%% or 25%% of maximum life.
 Level 3: Prophecy of Treason. %d%% chance each turn to attack an ally or themselves.
 Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[엔트로피의 힘을 대상에게 불러와, 그들에게 닥칠 필연적인 파멸을 예언합니다. 이 기술에 투자된 기술 점수에 따라 예언들을 추가적으로 획득합니다. 하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
-Level 1: 파멸의 예언. %0.2f 의 피해를 최대 생명력의 75%%, 50%% 혹은 25%% 이하로 떨어질 때마다 가합니다.
-Level 3: 배반의 예언. 매 턴마다 %d%% 확률로 동료나 대상 스스로를 공격하게 합니다.
-Level 5: 광기의 예언. 재사용 대기시간을 %d%% 늘립니다.]], "tformat")
+기술 점수 1 점: 파멸의 예언. %0.2f 의 피해를 최대 생명력의 75%%, 50%% 혹은 25%% 이하로 떨어질 때마다 가합니다.
+기술 점수 3 점: 배반의 예언. 매 턴마다 %d%% 확률로 동료나 대상 스스로를 공격하게 합니다.
+기술 점수 5 점: 광기의 예언. 재사용 대기시간을 %d%% 늘립니다.]], "tformat")
 t("Prophecy of Madness", "광기의 예언", "talent name")
 t([[Utter a prophecy of the impending madness of your target, increasing the cooldown of all their talents by %d%% for 6 turns.
 		A target can only be affected by a single prophecy at a time.]], [[대상에게 임박한 광기를 예언하여, 6 턴 동안 대상의 모든 기술의 재사용 대기시간을 %d%% 늘립니다.
@@ -2905,9 +2905,11 @@ t([[As you speak the chosen prophecy whispers from the void guide you in how to 
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 	
 		Current prophecy: %s]], [[선택한 예언을 내리면 공허의 속삭임이 시전자에게 적들을 몰락시키는 법을 알려줍니다. 선택된 예언은 다음과 같은 효과를 얻게 됩니다.
+
 		광기의 예언: 대상이 기술을 사용할 때마다 시전자의 재사용 대기 중인 기술 하나의 재사용 대기시간이 %d 턴 단축됩니다.
 		파멸의 예언: 대상이 피해를 입을 때마다 시전자는 가한 피해의 %d%% 만큼 생명력을 회복합니다.
 		배반의 예언: 배반의 예언의 효과를 받는 무작위 적 하나에게 시전자가 받는 모든 피해의 %d%% 를 떠넘깁니다.
+		
 		하나의 예언은 위대한 기도문, 이중 저주, 계시 중 단 하나의 강화 효과를 받습니다.
 	
 		현재 예언: %s]], "tformat")
