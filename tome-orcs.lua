@@ -345,9 +345,9 @@ You press a button labelled #{italic}#"SELECT NEXT TARGET"#{normal}#, and the pa
 당신은 #{italic}#"다음 목표 선택"#{normal}# 이라고 적힌 버튼을 눌렀고, 패널은 근처에 아무것도 없는 공중에 홀로 떠서 매우 혼란스러워 하고 있는, 길 잃은 임프 하나를 비추었습니다. 저 임프를 쏘는 것은 아무런 의미가 없을 겁니다. 데스트럭티쿠스의 위력을 가장 무해한 방법으로 보여줄 수 있다는 걸 빼면요.*#WHITE#]], "_t")
 t("[shoot down the airship]", "[비행선을 쏜다]", "_t")
 t("[shoot down the imp]", "[임프를 쏜다]", "_t")
-t("#LIGHT_GREEN#*Are you SURE you want to ERADICATE THE STEAM GIANTS?*#WHITE#", "#LIGHT_GREEN#*확실합니까? 정말로 증기 거인족을 멸종시키겠습니까?*#WHITE#", "_t")
+t("#LIGHT_GREEN#*Are you SURE you want to ERADICATE THE STEAM GIANTS?*#WHITE#", "#LIGHT_GREEN#*확실합니까? #{bold}#정말로#{normal}# 증기 거인족을 멸종시키겠습니까?*#WHITE#", "_t")
 t("[back]", "[돌아간다]", "_t")
-t("#LIGHT_GREEN#*Are you SURE you want to WASTE YOUR SHOT?*#WHITE#", "#LIGHT_GREEN#*확실합니까? 정말로 발사 기회를 낭비하시겠습니까?*#WHITE#", "_t")
+t("#LIGHT_GREEN#*Are you SURE you want to WASTE YOUR SHOT?*#WHITE#", "#LIGHT_GREEN#*확실합니까? #{bold}#정말로#{normal}# 발사 기회를 낭비하시겠습니까?*#WHITE#", "_t")
 t([[#LIGHT_GREEN#*The Steam Giants are too great a threat to allow their escape - you will not have them simply return someday to finish what they attempted, and wipe out your Pride.  You press the #{italic}#"PREVIOUS TARGET"#{normal}# button, and fire on the airship.  There is a great roar and a flash of flame; you see its missile flying away from you through the window, as you see it racing towards your view, and the terrified passengers, on the scrying panel.
 
 It reaches its mark, and the panel goes dark as a tremendous, multicolored blast fills your vision through the window.
