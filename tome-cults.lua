@@ -2293,7 +2293,7 @@ t([[Murtas the Unfathomable came from a famous line of Sher'tul warriors, dating
 
 When the Godhunt was under way, she was the one who supplied the finest smiths she could in order to produce the weapons necessary to deliver a killing blow to a God. She too was provided with a Godslayer, the blade Hyturac. Without her smiths and her expertise in the forging of arms, the weapons could not have possibly been made.
 
-From there, she outwitted the Gods numerous times, springing ambushes and herding them to the exact locations she wanted them. The Gods, for all of their power, lacked the cunning to match Murtas' tactics, leading to them being cornered and slaughtered like helpless animals.]], [[불가해한 자 무르 타스는 쉐르'툴 종족이 이제 막 야만에서 벗어났던 시기부터 존재했던 유명한 전사 집단 출신이었다. 그런 만큼 그녀는 수십 년의 경험과 드높은 위신을 갖춘 저명한 군사 지도자였다. 그녀의 전투 전술에 대한 전문지식은 쉐르'툴 종족이 수없이 많은 승리를 거머쥘 수 있게 해 주었다. 그녀는 자신의 생각을 드러내지 않는, 계산적이고 속내를 알 수 없는 자로 종종 묘사되었다. 
+From there, she outwitted the Gods numerous times, springing ambushes and herding them to the exact locations she wanted them. The Gods, for all of their power, lacked the cunning to match Murtas' tactics, leading to them being cornered and slaughtered like helpless animals.]], [[불가해한 자 무르타스는 쉐르'툴 종족이 이제 막 야만에서 벗어났던 시기부터 존재했던 유명한 전사 집단 출신이었다. 그런 만큼 그녀는 수십 년의 경험과 드높은 위신을 갖춘 저명한 군사 지도자였다. 그녀의 전투 전술에 대한 전문지식은 쉐르'툴 종족이 수없이 많은 승리를 거머쥘 수 있게 해 주었다. 그녀는 자신의 생각을 드러내지 않는, 계산적이고 속내를 알 수 없는 자로 종종 묘사되었다. 
 
 신 사냥이 진행 중일 때, 그녀는 신에게 치명적인 타격을 주는 데 필요한 무기를 만들어내기 위해서 최고의 대장장이들을 불러온 사람이었다. 그녀에게도 신살자의 무기인 히투라크라는 검이 제공되었다. 그녀의 대장장이들과 무기 제작 지식이 없었더라면, 그 무기들은 만들어질 수 없었을 것이다. 
 
