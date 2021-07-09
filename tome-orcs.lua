@@ -329,7 +329,7 @@ t("Fire Imp", "화염 임프", "_t")
 t("Steam Giant Airship", "증기 거인 비행선", "_t")
 t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#가 지금 눈앞에 있고, 정말로 인정하기 싫지만, 칼토르의 광고는 전혀 과장이 아니었습니다. 이건 아마 당신이 지금까지 봤던 것들중 최고로 비이성적인 살상 병기일 겁니다. 기계의 보라툰 몸체를 빛내고 있는 햇빛조차, 끝부분에 무수히 새겨진 불안정한 룬들이 내뿜는 격렬한 빛에 비하면 어두워 보이며 그 표면에 새겨져 있는 화려한 홈들은 초능력을 사용해 몇 시간에 걸쳐, 두통이 생길 정도로, 고도로 집중하여 새긴 것입니다. 총구에 설치되어 있는 총검에선 제작자의 조소마저 느껴집니다. 이 모델은 다소 특이한 종류로, 조종 패널 주변은 밀폐되어 있으며 방화 처리도 되어 있습니다. 조종석에는 내장형 차 자판기도 있었는데, 당신의 오크들이 약탈했던 드워프제 맥주로 미리 채워 놓았습니다. 실로 아름답습니다.*#WHITE#", "_t")
 t("[continue]", "[계속]", "_t")
-t("#LIGHT_GREEN#*You enter the booth, sit down, and insert the key.  #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# whirrs to life, its base slightly rotating underneath you.  A strange beaded panel slides in front of you, pins pushing out and pulling back by magnetic force to display the outline of an airship (and a tiny speck), and the words #{italic}#\"AERIAL TARGETS FOUND: 2.\"#{normal}#*#WHITE#", "#LIGHT_GREEN#*당신은 조종석으로 들어가 의자에 앉고, 열쇠를 꽂았습니다.  #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#가 웅웅거리며 작동하기 시작하고, 바닥이 천천히 회전합니다. 구슬로 장식되어 있는 이상한 패널이 눈 앞에 미끄러지듯 나타났고, 웬 핀들이 튀어나오더니 자기력에 의해 다시 들어가고 어떤 비행선의 윤곽선을 보여주었습니다 (그리고 쬐끄만 얼룩 같은 것도요). 그리고 패널에 글자가 표시되었습니다, #{italic}#\"발견된 대공 목표: 2.\"#{normal}#*#WHITE#", "_t")
+t("#LIGHT_GREEN#*You enter the booth, sit down, and insert the key.  #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# whirrs to life, its base slightly rotating underneath you.  A strange beaded panel slides in front of you, pins pushing out and pulling back by magnetic force to display the outline of an airship (and a tiny speck), and the words #{italic}#\"AERIAL TARGETS FOUND: 2.\"#{normal}#*#WHITE#", "#LIGHT_GREEN#*당신은 조종석으로 들어가 의자에 앉고, 열쇠를 꽂았습니다.  #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#가 웅웅거리며 작동하기 시작하고, 바닥이 천천히 회전합니다. 구슬로 장식되어 있는 이상한 패널이 눈앞에 미끄러지듯 나타났고, 웬 핀들이 튀어나오더니 자기력에 의해 다시 들어가고 어떤 비행선의 윤곽선을 보여주었습니다 (그리고 쬐끄만 얼룩 같은 것도요). 그리고 패널에 글자가 표시되었습니다, #{italic}#\"발견된 대공 목표: 2.\"#{normal}#*#WHITE#", "_t")
 t([[#LIGHT_GREEN#*#{italic}#"OBTAINING SCRYING LOCK...  OBTAINED."#{normal}#
  
 The beaded panel is suddenly awash with colors, showing the colossal interior of the airship.  Steam Giant families huddle and weep, sorting through the few belongings they could take with them when fleeing; a guard sits on a pile of luggage and storage crates, head in her hands.  The view pans around the cabin, and you see a few crew members hurrying between the captain's quarters and the engine room, pausing to take worried glances out the window - at you.
@@ -378,11 +378,11 @@ As the secondary charges go off, the ongoing pyrotechnic display acts as a celeb
  
 당신은 화염 임프를 목표로 잡고 쏘았습니다. 엄청난 폭발음과 섬광이 터져나왔고, #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#가 엄청나게 겁먹은 임프를 향해 날아갔습니다. 그것은 어쩔 줄 몰라하며, 피하려는 듯 좌우로 마구 움직이지만 #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#는 스스로 경로를 수정했고, 마침내 임프는 낙담하여 자신의 운명을 받아들였습니다. 당신은 미사일의 굉음 때문에 듣지는 못했지만, 입모양으로 그 임프가 이렇게 말하는 것을 똑똑히 보았습니다. "진짜 빵 터질 노릇이네."
  
-미사일은 목표에 명중하였고, 눈 앞이 형형색색의 엄청난 폭발로 가득 찼습니다. 파편과 잔해들이 황량한 산꼭대기로 안전히 떨어지고, 곧이어 대륙 끝부분에서도 들을 수 있을 만큼 엄청난 폭발음이 터져 나왔습니다.  
+미사일은 목표에 명중하였고, 눈앞이 형형색색의 엄청난 폭발로 가득 찼습니다. 파편과 잔해들이 황량한 산꼭대기로 안전히 떨어지고, 곧이어 대륙 끝부분에서도 들을 수 있을 만큼 엄청난 폭발음이 터져 나왔습니다.  
  
-방금 딴 맥주를 한 잔 들이키고, 이제 아무것도 들어있지 않은 #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#의 목표를 비행선으로 바꿨습니다. 거인들이 환희와 안도감에 겨워 눈물을 흘리면서, 서로 부둥켜안고 환호하는 것을 볼 수 있었습니다. 그 중 몇 명은 당신이 의도적으로 이렇게 한 것인지 혼란스러워 하고 있었지만, 대부분은 당신이 자비를 보였다고 생각하고 있는 것 같습니다.
+방금 딴 맥주를 한 잔 들이키고, 이제 아무것도 들어있지 않은 #{bold}#가차없는 천공의 관통자 데스트럭티쿠스#{normal}#의 목표를 비행선으로 바꿨습니다. 거인들이 환희와 안도감에 겨워 눈물을 흘리면서, 서로 부둥켜안고 환호하는 것을 볼 수 있었습니다. 그중 몇 명은 당신이 의도적으로 이렇게 한 것인지 혼란스러워 하고 있었지만, 대부분은 당신이 자비를 보였다고 생각하고 있는 것 같습니다.
  
-2차 폭발이 일어났고, 이 불꽃놀이 같은 광경은 증기 거인들과, 오크들과, 그리고 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - "전쟁은 끝났다". 바르'에이알과 그것의 주인인 오크들은, 수천년 만에 처음으로 평화가 어떤 것인지 알게 될 것입니다.*#WHITE#]], "_t")
+2차 폭발이 일어났고, 이 불꽃놀이 같은 광경은 증기 거인들과, 오크들과, 그리고 이걸 보고 있을 다른 자들에게 보내는 신호가 되었습니다 - "전쟁은 끝났다". 바르'에이알과 그 주인인 오크들은, 수천 년 만에 처음으로 평화가 어떤 것인지 알게 될 것입니다.*#WHITE#]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/john-surrender.lua"
@@ -3507,7 +3507,7 @@ We don't advise learning psychic prognostication with such commitment as we did.
 
 알고 있는가? 넌 서쪽에서 온 재앙에게 감사해야 한다.  우린 감사하고 있다.
 
-우릴 죽인 것은 대부분의 경우 쉐르'툴이나 말'록인이었는데, 전자는 가장 위협적인 경쟁자들을 제거하기 위해서였고, 후자는 에이알을 빼앗기 위해서였다.  가끔 우린 그런 전쟁에서 모두 승리했지만, 그런 경우엔 운석이 떨어져 에이알을 파괴했다. 현재, 그 운석은 너희들이 마법폭발이라 부르는 사건의 잔해들 덕분에 떨어지지 않는다.  마법폭발은 우리가 보낸 이들이 말'록인들을 충분히 오래 억압한 덕분에 일어난 일이긴 하지만, 감사할 필요는 없다.  이 우주가 우릴 얼마나 철두철미하게 지우고 싶어 하는지 알고 싶다면, 말'록인들에게 "먼지의 마법사들" 에 대해서 물어보아라.
+우릴 죽인 것은 대부분의 경우 쉐르'툴이나 말'록인이었는데, 전자는 가장 위협적인 경쟁자들을 제거하기 위해서였고, 후자는 에이알을 빼앗기 위해서였다.  가끔 우린 그런 전쟁에서 모두 승리했지만, 그런 경우엔 운석이 떨어져 에이알을 파괴했다. 현재, 그 운석은 너희들이 마법폭발이라 부르는 사건의 잔해들 덕분에 떨어지지 않는다.  이건 우리가 보낸 이들이 말'록인들을 충분히 오래 억압한 덕분에 일어난 일이긴 하지만, 감사할 필요는 없다.  이 우주가 우릴 얼마나 철두철미하게 지우고 싶어 하는지 알고 싶다면, 말'록인들에게 "먼지의 마법사들" 에 대해서 물어보아라.
 
 우리가 그랬던 것처럼, 초능력 예지를 배우는 것에 전념하는 것은 추천하지 않는다.  수많은 가능성들을 자세히 보기 위해 무한한 미래들을 응시하면서, 그것에 집어삼켜지지 않으려면...  그 가능성들을 실제로 경험해봐야만 한다.  심장이 꿰뚫리고 사지가 불타는 경험을, 매번...  그리고 우린 우리의 정신을 서로 연결하여 함께 해냈고, 우리 모두는 함께 고통을 감내해 왔다.  그리고 그렇게까지 해도, 이것이 정확하다고 100% 확신할 수 없다. 우린 100%에 한없이 가까운, 99.99999999...%를 달성하긴 했지만 말이다.]], "_t")
 t("telepathic message (4)", "텔레파시 메시지 (4)", "_t")
