@@ -2669,7 +2669,7 @@ t([[You trigger an explosion of your chaos orbs on a target.
 		보주는 피해를 입히진 않지만 대상에게 %d 턴 동안 혼란을 유발합니다. 혼란의 위력은 보유한 보주 하나 당 10%% 씩 강해집니다.
 		내성 판정 시 계산되는 시전자의 주문력 수치도 보유한 보주 하나 당 10%% 씩 강해집니다.
 		이 주문을 시전하면 보유하고 있던 보주를 전부 소모합니다.]], "tformat")
-t("Controlled Chaos", "통제된 혼란", "talent name")
+t("Controlled Chaos", "혼돈 통제", "talent name")
 t([[You lean to alter chaotic forces to your advantage.
 		Your maximum negative insanity effect is reduced from 50%% to %d%%.
 		You may activate this talent to consume any Chaos Orbs you have, gaining %d insanity per orb.]], [[혼돈의 힘을 제어하여 유리하게 사용하는 법을 배웠습니다.
@@ -2713,7 +2713,7 @@ t([[You drink deeper from the timeline of others. Each time you apply atrophy yo
 t("Terminus", "종점", "talent name")
 t("#GREEN#You gain %.1f turns!", "#GREEN#당신은 %.1f 턴을 획득했다!", "say")
 t([[Shatter the spacetime continuum around yourself, inflicting %0.2f temporal damage to all targets within radius %d. Any atrophy stacks will be consumed to steal time from your victims, inflicting an additional %0.2f temporal damage and granting you %d%% of a turn per stack (but no more than 3 turns).
-		The damage will scale with your Spellpower.]], [[주변의 시공간 연속성을 깨뜨려 %0.2f 의 시간 피해를 반경 %d 내의 모든 대상에게 입힙니다. 쇠퇴 중첩을 전부 소모해 희생자들의 시간을 훔쳐냅니다. 이것으로 %0.2f 시간 피해를 추가적으로 입히고 중첩마다 %d%% 의 턴을 획득합니다 (3 턴 이상은 획득할 수 없습니다)
+		The damage will scale with your Spellpower.]], [[주변의 시공간 연속성을 깨뜨려 %0.2f 의 시간 피해를 반경 %d 칸 내의 모든 대상에게 입힙니다. 쇠퇴 중첩을 전부 소모해 희생자들의 시간을 훔쳐냅니다. 이것으로 %0.2f 시간 피해를 추가적으로 입히고 중첩마다 %d%% 의 턴을 획득합니다 (3 턴 이상은 획득할 수 없습니다)
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -2815,13 +2815,13 @@ t("Talents of the various entities of the world.", "세상에 존재하는 여�
 ------------------------------------------------
 section "tome-cults/data/talents/demented/disfigured-face.lua"
 
-t("Diseased Tongue", "병 걸린 혀", "talent name")
+t("Diseased Tongue", "병든 혀", "talent name")
 t([[Your tongue turns into a diseased tentacle that you use to #{italic}#lick#{normal}# enemies in a cone.
 		Licked creatures take %d%% tentacle damage that ignores armor and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.
 		
 		If at least one enemy is hit you gain %d insanity.
 		
-		Disease damage will increase with your Spellpower.]], [[혀가 병 걸린 촉수로 변해 원뿔 범위의 적들을 #{italic}#핥습니다.#{normal}#
+		Disease damage will increase with your Spellpower.]], [[혀가 병든 촉수로 변해 원뿔 범위의 적들을 #{italic}#핥습니다.#{normal}#
 		핥아진 적들은 방어력을 무시하는 %d%%의 촉수 피해를 입습니다. 또한 질병에 감염되어 %d 턴 동안 %0.2f 황폐 피해를 매 턴 받고, 힘, 민첩, 체격이 %d 감소합니다.
 		
 		하나의 적에게라도 피해를 준 경우, 시전자는 %d의 광기를 획득합니다.
@@ -4669,7 +4669,7 @@ t("Forbidden Cults", "금단의 교단", "init.lua long_name")
 t([[Not all adventurers seek fortune, not all that defend the world have good deeds in mind.
 Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal.
 That something is you.
-]], [[모험가들이라고 모두 행운을 찾고 있는 건 아니고, 세상을 지키고 있다고 모두 선행을 염두에 두고 있는 것도 아닙니다.
+]], [[모험가들이라고 모두 재물을 찾고 있는 건 아니고, 세상을 지키고 있다고 모두 선행을 염두에 두고 있는 것도 아닙니다.
 최근에 공포체들을 목격하는 빈도가 엄청하게 증가했습니다. 익숙한 길에서 벗어나버린 사람들은 몇 년 뒤에야 발견될 것이고, 그들은 무시무시하게 변이되어 있고, 또 약간 미친 상태일 겁니다. 물론 발견이 된다면 말이지요. 마즈'에이알 지하 깊은 곳에 무언가가 있다는 게 확실해지고 있습니다.
 그 무언가가 바로 당신입니다.
 ]], "init.lua description")
