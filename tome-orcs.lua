@@ -13,7 +13,7 @@ t("No Steam, No Palace. No Palace, No Palace!", "증기 없이는 궁전도 없�
 t("Destroyed the Palace of Fumes without first destroying the geothermal valves in the Steam Quarry.", "증기 채굴장의 지열 밸브를 단 하나도 파괴하지 않은 채로 연기의 궁전을 파괴했다.", "_t")
 t("Here, I Think You Dropped This", "여기, 이거 떨어뜨린 거 같은데", "achievement name")
 t("Killed Ureslak the Eternal while wielding Ureslak's Femur.", "우르슬락의 대퇴골로 불멸의 우르슬락을 죽였다.", "_t")
-t("Do not go gentle into that good night", "그런 좋은 밤에는 신사처럼 굴지 마", "achievement name")
+t("Do not go gentle into that good night", "어두운 밤을 순순히 받아들이지 마", "achievement name")
 t("Trapped John.", "존을 가두었다.", "_t")
 t("I did not want that!", "일부러 한 거 아니야!", "achievement name")
 t("Tricked Nektosh into killing one of his own people.", "네크토쉬가 자신의 추종자를 죽이게 했다.", "_t")
