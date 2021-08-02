@@ -2263,7 +2263,7 @@ Despite the benevolent and gentle demeanour he has been attributed in his myths,
 t("Mightier than Gods: Preface", "신보다 강한 자들: 서문", "_t")
 t([[As part of scholarly pursuits into the nature of Eyal's gods, the role of the Sher'tul in their demise must not be forgotten. It was nine Sher'tul who slayed the gods, figures now known as the Godslayers. Beyond that, little about these individuals can be said with any certainty. The Sher'Tul are believed to have mastered many forms of technology, magical spells and psionic techniques. There is not a single force on Eyal then or now which could hope to match their might. Using these techniques in ways that we could not even guess at, they forged the weapons which would kill Eyal's gods, nine in total for each of the nine Godslayers who would wield them.
 
-This series will analyse what little information about the Godslayers that is still available. Given the obscure nature of the Sher'tul race, there are no solid records regarding their most prominent figures.]], [[에이알의 신들의 본성을 탐구하는 학문적 노력의 일환으로, 그들을 말살한 쉐르'툴의 역할을 빠뜨릴 수 없다. 아홉 명의 쉐르'툴이 신들을 살해했는데, 지금은 신살자들로 알려진 인물들이다. 그 이상으론, 이들 개개인에 대해 확실하게 말할 수 있는 것이 거의 없다. 쉐르'툴은 수많은 종류의 기술, 마법 주문, 그리고 초능력에 숙달했다고 여겨진다. 그때나 지금이나 에이알에는 그들의 힘에 필적할 만한 존재가 하나도 없다. 그들은 우리가 짐작조차 할 수 없는 방법으로 에이알의 신들을 죽일 수 있는 무기를 만들어냈는데, 그것들을 휘두를 아홉 명의 신살자에게 각각 하나씩, 총 아홉 개가 존재했다.
+This series will analyse what little information about the Godslayers that is still available. Given the obscure nature of the Sher'tul race, there are no solid records regarding their most prominent figures.]], [[에이알의 신들의 본성을 탐구하는 학문적 노력의 일환으로, 그들을 말살한 쉐르'툴의 역할을 빠뜨릴 수 없다. 아홉 명의 쉐르'툴이 신들을 살해했는데, 이들이 바로 오늘날 신살자들로 알려진 인물들이다. 그 이상으론, 이들 개개인에 대해 확실하게 말할 수 있는 것이 거의 없다. 쉐르'툴은 수많은 종류의 기술, 마법 주문, 그리고 초능력에 통달했다고 여겨진다. 그때나 지금이나 에이알에는 그들의 힘에 필적할 만한 존재가 하나도 없다. 그들은 우리가 짐작조차 할 수 없는 방법으로 에이알의 신들을 죽일 수 있는 무기를 만들어냈는데, 그것들을 휘두를 아홉 명의 신살자에게 각각 하나씩, 총 아홉 개가 존재했다.
 
 이번에는 거의 남아있지 않은 신살자들에 대한 정보들을 분석할 것이다. 쉐르'툴 종족의 생태는 불명확한 상태이고, 가장 두드러졌던 인물들에 대한 확실한 기록 역시 없다.]], "_t")
 t("Mightier than Gods: Caldizar", "신보다 강한 자들: 칼디자르", "_t")
@@ -2271,7 +2271,7 @@ t([[All Godslayer myths come back to one figure. Caldizar was the one who gather
 
 The Godhunt started because Amakthel commanded the Sher'tul to slay the other gods. Caldizar personally went out and audited potential candidates to wield the Godslayer weapons. He too chose to wield a Godslayer, becoming the leader of the nine who would take part in the Godhunt. However, as the Godslayers did their work, they began to think about how Amakthel was using them as tools to meet its own ends. Their creator, while it wielded great power, had the intellectual capacity of an infant compared to the Sher'tul.
 
-In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was thought that this command was not carried out by all Sher'tul and was, in fact, openly reviled by many of them, leading to conflicts within their ranks. There are no records of the Sher'tul after the Godhunt ended, let alone of Caldizar. No one is certain what became of their race. It is also noted that there is a strange absence of Sher'tul ruins on Eyal, almost as if they have been removed.]], [[신살자들과 관련된 신화들은 하나같이 어떤 인물에 대한 이야기로 돌아온다. 칼디자르는 신살자들을 모아 쉐르'툴을 에이알의 신들과 맞서게 한 장본인이었다. 쉐르'툴 사회에서 그의 위치가 어느 정도였는지는 확실하지 않지만, 그가 활용한 자원과 쉐르'툴 종족에 미친 그의 영향력을 볼 때, 그가 그들의 지도자 중 한 사람, 혹은 적어도 쉐르'툴 사회의 저명한 인물이었다고 생각된다. 
+In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was thought that this command was not carried out by all Sher'tul and was, in fact, openly reviled by many of them, leading to conflicts within their ranks. There are no records of the Sher'tul after the Godhunt ended, let alone of Caldizar. No one is certain what became of their race. It is also noted that there is a strange absence of Sher'tul ruins on Eyal, almost as if they have been removed.]], [[신살자들과 관련된 신화들은 하나같이 어떤 인물에 대한 이야기로 돌아온다. 칼디자르는 신살자들을 모아 쉐르'툴을 에이알의 신들과 맞서게 한 장본인이었다. 쉐르'툴 사회에서 그의 위치가 어느 정도였는지는 확실하지 않지만, 그가 활용한 자원과 쉐르'툴 종족에 미친 그의 영향력을 볼 때 그가 그들의 지도자 중 한 사람, 혹은 적어도 쉐르'툴 사회의 저명한 인물이었다고 생각된다. 
 
 신 사냥이 시작된 것은 아마크텔이 쉐르'툴에게 다른 신들을 죽이라고 명령했기 때문이었다. 칼디자르는 직접 나서서 신살의 무기를 휘두를 잠재적인 후보들을 찾아냈다. 그도 역시 신살의 무기를 휘두르는 것을 선택했고, 신 사냥에 참여할 아홉 명의 지도자가 되었다. 그러나 신살자들은 임무를 마치고 나서 아마크텔이 자신의 목적을 달성하기 위한 도구로 자신들을 이용했다고 생각하기 시작했다. 그들의 창조자는 엄청난 힘을 갖고 있었지만 그 지적 능력은 쉐르'툴에 비하면 어린 아이나 다름없었다. 
 
@@ -2285,9 +2285,9 @@ He too was asked to become a Godslayer, for his prowess with his staff was the s
 
 When he fought against the Gods, he acted completely without passion. His staff hammered them down, sliced them open and slaughtered them. He killed without mercy and without malice. When the last of the gods were dead, he returned to his wanderings, carrying Ythral and his old iron staff with him.]], [[방랑자 오슬레이는 쉐르'툴 종족 사이에서도 신화적인 존재로 여겨졌다. 그는 에이알 표면을 배회하면서 야만 사회를 막 벗어난 어린 종족들을 조용히 관찰하며 대부분의 나날을 보냈다. 대부분의 쉐르'툴들은 '하등한' 종족들로부터 거리를 두는 것을 선택했지만, 오슬레이는 그들 사이를 걷고 그들과 대화하는 데까지 시간을 할애했다. 그는 언제나 수수한 철제 지팡이를 들고 다녔는데, 이것은 그가 소중히 간직하고 있던 구식 무기였다. 
 
-그 역시 신살자가 되어 달라는 요청을 받았다. 왜냐하면 그의 봉술 솜씨는 그야말로 전설적인 수준이었기 때문이다. 그는 정중하게 거절했지만, 요청은 끊임없이 계속되었다. 그가 방랑하던 땅이 그의 눈 앞에서 불타버리는 것을 본 후, 그는 마침내 에이알의 신들에게 맞서길 택했다. 그는 한쪽 끝에 초승달 모양 칼날이 달린 유일무이한 지팡이, 이쓰랄을 선물 받았다. 
+그 역시 신살자가 되어 달라는 요청을 받았다. 왜냐하면 그의 봉술 솜씨는 그야말로 전설적인 수준이었기 때문이다. 그는 정중하게 거절했지만 요청은 끊임없이 계속되었다. 그가 방랑하던 땅이 그의 눈 앞에서 불타버리는 것을 본 후, 그는 마침내 에이알의 신들에게 맞서길 택했다. 그는 한쪽 끝에 초승달 모양 칼날이 달린 유일무이한 지팡이, 이쓰랄을 선물 받았다. 
 
-그가 신들과 싸울 때, 그는 한 점의 격노도 없이 행동했다. 그의 지팡이는 신들을 때려눕히고, 토막 내어 학살했다. 그는 가차 없이, 또 악의 없이 신들을 죽였다. 마지막 남은 신이 죽자, 그는 이쓰랄과 그의 오랜 철제 지팡이와 함께 다시 방랑 생활로 돌아갔다.]], "_t")
+그가 신들과 싸울 때, 그는 한 점의 격노도 없이 행동했다. 그의 지팡이는 신들을 때려눕히고 토막 내어 학살했다. 그는 가차 없이, 또 악의 없이 신들을 죽였다. 마지막 남은 신이 죽자, 그는 이쓰랄과 그의 오랜 철제 지팡이와 함께 다시 방랑 생활로 돌아갔다.]], "_t")
 t("Mightier than Gods: Murtas", "신보다 강한 자들: 무르타스", "_t")
 t([[Murtas the Unfathomable came from a famous line of Sher'tul warriors, dating back to the days of the race when they had barely risen out of barbarism. As such, she was a prominent military leader, having decades of experience and prestige behind her. Her expertise in battle tactics proved to be invaluable numerous times to the Sher'tul. She was often described as a calculating and inscrutable individual, someone who did not share her thoughts openly.
 
@@ -2303,7 +2303,7 @@ t([[Harqel, according to myths, lead a life of hardship and misery. He was quiet
 
 Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
 
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[신화에 따르면 하퀠은 불행하고 고통스러운 삶을 살았다고 전해진다. 신화 속에서 그는 조용하고, 굳건하며, 너그러운 자였는데, 그런 차분한 태도는 신살자가 되려는 자에게는 전혀 어울리지 않아 보였다. 이로 인해 그는 동료들로부터 수많은 박해를 당하게 되었는데, 동료들이 그에게 무슨 짓을 해도 그는 항상 동료들을 용서해 주었다. 그에게 어떤 일격이 쏟아지든, 어떤 끔찍한 상처를 입었든, 그는 항상 살아남았다. 신 사냥이 일어났을 때, 그는 신살자들과 함께 설 기회를 제공받았다. 처음에 그는 신들을 설득할 수 있을 거라 생각했지만, 신들의 무의미한 싸움에 의해 황폐화된 대지를 본 이후로, 그런 것은 두 번 다시는 생각하지 않고 신 사냥의 대의에 전념했다. 
+When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[신화에 따르면 하퀠은 불행하고 고통스러운 삶을 살았다고 전해진다. 신화 속에서 그는 조용하고, 굳건하며, 너그러운 자였는데, 그런 차분한 태도는 신살자가 되려는 자에게는 전혀 어울리지 않아 보였다. 이로 인해 그는 동료들로부터 수많은 박해를 당하게 되었는데, 동료들이 그에게 무슨 짓을 해도 그는 항상 동료들을 용서해 주었다. 그에게 어떤 일격이 쏟아지든, 어떤 끔찍한 상처를 입었든, 그는 항상 살아남았다. 신 사냥이 일어났을 때, 그는 신살자들과 함께 설 기회를 제공받았다. 처음에 그는 신들을 설득할 수 있을 거라 생각했지만, 신들의 무의미한 싸움에 의해 황폐화된 대지를 본 이후로 그런 것은 두 번 다시는 생각하지 않고 신 사냥의 대의에 전념했다. 
 
 그가 동의하자, 그를 위해서 위대한 방패 안브그레아가 만들어졌다. 그는 신들의 앞을 가로막고 그들의 힘에 도전했으며, 동요하지도 않았고 굽히지도 않았다. 타오르는 불길도, 얼어붙는 냉기와 썩어가는 황폐의 힘도, 살을 태우는 산성액도 그를 흔들지 못했으며 그의 전진을 멈출 수도 없었다. 그는 모두의 고통을 짊어지는 방패가 되었으며 그 덕분에 신살자들은 이 세상의 거대하고 무정한 신들을 처치할 수 있었다. 그 어떤 것도 하퀠과 그의 막강한 방패를 뚫을 수 없었다. 
 
@@ -2323,7 +2323,7 @@ t([[Azorol was the great marksman. She was an instructor in the use of weapons a
 
 For her, the spear Thoral was made, a throwing weapon of unparalleled might. She seemed to care little for the reasons behind the Godhunt, for the spear alone was a great enough prize for her. With this new weapon, there were tales of Azorol striking targets in the darkness beyond our world while standing on the flat plains of Eyal. She proved to be one of the mightiest of the Godslayers, for there was nowhere on Eyal which was safe from Thoral and its user.
 
-Judging by surviving records, she was one of the Godslayers who was killed during the climax of the Godhunt. The fate of the spear Thoral is unknown.]], [[아조롤은 명사수였다. 그녀는 무기 사용법을 가르치던 강사였고, 특히 구닥다리 방식을 선호하는 것 같았다. 쉐르'툴들은 대부분 그녀가 어리석다고 생각했는데, 훨씬 더 파괴적인 무기가 이미 개발되어 있는데 왜 원시적인 사격 무기를 사용하는지 이해할 수가 없었기 때문이었다. 가혹한 비판이 쏟아졌지만 그녀는 자신의 방식을 포기하지 않았다. 왜냐하면 그녀는 옛 전쟁의 방식을 보존하는 것이 가치가 있다고 믿었기 때문이다. 많은 이야기들이 그녀의 실력은 백발백중이었다고 말한다. 목표가 아무리 작든, 거리가 아무리 멀든 그녀가 힘차게 창을 던지면 언제나 적중했다.
+Judging by surviving records, she was one of the Godslayers who was killed during the climax of the Godhunt. The fate of the spear Thoral is unknown.]], [[아조롤은 명사수였다. 그녀는 무기 사용법을 가르치던 강사였고 특히 구닥다리 방식을 선호하는 것 같았다. 쉐르'툴들은 대부분 그녀가 어리석다고 생각했는데, 훨씬 더 파괴적인 무기가 이미 개발되어 있는데 왜 원시적인 사격 무기를 사용하는지 이해할 수가 없었기 때문이었다. 가혹한 비판이 쏟아졌지만 그녀는 자신의 방식을 포기하지 않았다. 왜냐하면 그녀는 옛 전쟁의 방식을 보존하는 것이 가치가 있다고 믿었기 때문이다. 많은 이야기들이 그녀의 실력은 백발백중이었다고 말한다. 목표가 아무리 작든, 거리가 아무리 멀든 그녀가 힘차게 창을 던지면 언제나 적중했다.
 
 그녀를 위해 만들어진 투창 쏘랄은 비길 데 없는 힘을 지닌 투척무기였다. 그녀는 신 사냥의 대의는 신경 쓰지 않는 것 같았는데, 그 창만으로도 그녀에게는 이미 훌륭한 보상이었기 때문이다. 아조롤이 이 새로운 무기를 들고 에이알의 평야에 서서, 우리 세계 너머의 어둠 속에 있는 목표들을 명중시켰다는 이야기들이 지금도 전해지고 있다. 쏘랄과 그 주인으로부터 안전한 곳은 에이알 어디에도 없었기 때문에, 아조롤은 자신이 최강의 신살자 중 한 명이라는 것을 만천하에 드러냈다.
 
@@ -2335,7 +2335,7 @@ When the Godhunt came, Uthkal volunteered his services. He knew that the Gods ha
 
 It was thought that Uthkal lingered over the corpses of the gods for a long time after the Godhunt ended, ensuring that they were truly dead and not suffering a prolonged, painful journey into oblivion.]], [[쉐르'툴 사회에도 사형제도가 존재했지만, 그것은 최후의 수단으로만 사용되었다. 그러한 형을 집행하기 위해 전문 처형인들이 고용되었다. 우쓰칼은 그런 처형인이었고, 특수한 할버드 사용의 전문가였다. 쉐르'툴의 독특한 해부학적 구조를 고려할 때, 처형인들은 가능한 한 빠르고 덜 고통스러운 죽음을 제공하기 위해 쉐르'툴의 신체에 대한 광범위한 지식을 필요로 했다. 우쓰칼은 종종 냉정하고 계산적인 것으로 묘사되었지만 그에게는 묘한 자비심이 있었다. 그가 내지른 할버드의 일격은 사형수들에게 언제나 빠르고 고통 없는 죽음을 가져다주었다. 
 
-신 사냥이 시작되자 우쓰칼은 신살자가 되길 자청했다. 그는 신들을 처리해야 한다는 것은 알았지만, 동시에 신들이 고통받는 것을 바라지 않았다. 그에게 있어 그것은 또 다른 처형이었다. 할버드 쓰라구샬이 그를 위해 만들어졌는데, 그 무기는 무엇과도 비할 수 없는 처형용 무기였다. 쓰라구샬은 희생양의 신경 그 자체마저도 절단할 수 있도록 설계되었고, 그리하여 그 거대한 칼날에 베여도 고통이 느껴지지 않도록 만들었다. 
+신 사냥이 시작되자 우쓰칼은 신살자가 되길 자청했다. 그는 신들을 처리해야 한다는 것은 알았지만, 동시에 신들이 고통받는 것을 바라지 않았다. 그에게 있어 그것은 또 다른 처형이었다. 할버드 쓰라구샬이 그를 위해 만들어졌는데, 그 무기는 무엇과도 비할 수 없는 처형용 무기였다. 쓰라구샬은 희생양의 신경 그 자체마저도 절단할 수 있도록 설계되었고 그리하여 그 거대한 칼날에 베여도 고통이 느껴지지 않도록 만들었다. 
 
 우쓰칼은 신 사냥이 끝난 후 오랫동안 신들의 시체 위를 맴돌면서, 그들이 진정으로 죽었는지, 그들이 망각으로 향하는 길고 고통스러운 여정을 겪지 않았는지 확인했다고 여겨진다.]], "_t")
 t("Mightier than Gods: Yhurash", "신보다 강한 자들: 유라쉬", "_t")
@@ -2345,9 +2345,9 @@ Yhurash was a nobleman, someone who had seen every pleasure and form of entertai
 
 When he first heard of the plan to kill the gods, he volunteered eagerly to become one of the Godslayers. He was granted the blade Cirarey, which beared a distinct resemblance to the famous blade he wielded in the arena. After he aided in the slaying of the gods, he willingly gave up Cirarey and returned to the arena, where it is speculated that he was one day killed by another competitor. It was later shown that the competitor had cheated by coating their blade in poison, leading to Yhurash's posthumous title of Yhurash the Undefeated.]], [[쉐르'툴 종족은 수많은 종류의 기술과 초자연적인 기법들을 터득했고, 그래서 극도로 기이한 오락에 빠져가는 시민의 수가 점점 더 많아지는 문제에 직면했다. 신체를 사용하는 스포츠가 빠르게 인기를 되찾았고, 그중 가장 눈에 띄는 것이 검투사들의 검투 경기였다. 무패의 유라쉬도 투기장을 사랑하는 자들 중 하나였다. 
 
-유라쉬는 본래 귀족으로, 쉐르'툴의 강대한 문명이 만들어 낸 온갖 즐거움과 오락거리를 모두 즐겨 본 사람이었다. 그는 멍하니 지내며, 극도로 무기력할 뿐만 아니라 주변의 세계에 대체로 관심이 없었다고 종종 묘사되었다. 투기장이 쉐르'툴 사회로 돌아오게 되자, 그는 이내 그것에 매료되었다. 결국 그는 귀족의 삶을 포기하고 스스로 검투사가 되는 지경에 이르렀고, 그때부터 그는 투기장에서 가장 위대한 챔피언이 될 때까지 싸워나갔다. 
+유라쉬는 본래 귀족으로, 쉐르'툴의 강대한 문명이 만들어 낸 온갖 즐거움과 오락거리를 모두 즐겨 본 사람이었다. 그는 멍하니 지내며, 극도로 무기력할 뿐만 아니라 주변의 세계에 대체로 관심이 없었다고 종종 묘사되었다. 투기장이 쉐르'툴 사회로 돌아오게 되자 그는 이내 그것에 매료되었다. 결국 그는 귀족의 삶을 포기하고 스스로 검투사가 되는 지경에 이르렀고, 그때부터 그는 투기장에서 가장 위대한 챔피언이 될 때까지 싸워나갔다. 
 
-그는 처음으로 신들을 죽일 계획에 대해 듣고는, 간절하게 신살자가 되길 자청했다. 그는 시라레이라는 검을 받았는데 그 검은 그가 투기장에서 휘둘렀던 유명한 검과 무척이나 흡사했다. 이후 신 사냥이 끝나자, 그는 기꺼이 시라레이를 포기하고 투기장으로 돌아갔다. 그리고 어느 날 그는 어떤 경쟁자에게 살해당한 것으로 추정되었는데, 뒤늦게야 그의 경쟁자가 자신의 칼날에 독을 바르는 부정을 저질렀다는 것이 밝혀졌다. 그렇게 유라쉬는 사후 무패의 유라쉬라는 별명을 얻게 되었다.]], "_t")
+그는 처음으로 신들을 죽일 계획에 대해 듣고는, 간절하게 신살자가 되길 자청했다. 그는 시라레이라는 검을 받았는데 그 검은 그가 투기장에서 휘둘렀던 유명한 검과 무척이나 흡사했다. 이후 신 사냥이 끝나자 그는 기꺼이 시라레이를 포기하고 투기장으로 돌아갔다. 그리고 어느 날 그는 어떤 경쟁자에게 살해당한 것으로 추정되었는데, 뒤늦게야 그의 경쟁자가 자신의 칼날에 독을 바르는 부정을 저질렀다는 것이 밝혀졌다. 그렇게 유라쉬는 사후 무패의 유라쉬라는 별명을 얻게 되었다.]], "_t")
 
 ------------------------------------------------
 section "tome-cults/data/lore/misc.lua"
