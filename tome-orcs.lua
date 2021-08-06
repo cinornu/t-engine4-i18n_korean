@@ -3063,7 +3063,7 @@ I wish you luck, and thank you for doing what I cannot.  There are reasons why t
 With unending gratitude,
 (This is where I would sign my name, were I an utter moron.)
 
-PS: If you wouldn't mind doing me a personal favor, please destroy any written articles you find.  They spilled out of my bag as I fled; I'm already a coward, and I'd rather not be a litterer as well.]], [[경고 - 이걸 읽으시오!
+PS: If you wouldn't mind doing me a personal favor, please destroy any written articles you find.  They spilled out of my bag as I fled; I'm already a coward, and I'd rather not be a litterer as well.]], [[#{bold}#경고 - 이걸 읽으시오!#{normal}#
 
 ---
 
@@ -3325,7 +3325,7 @@ I'll spare you the speech about insubordination, lying, and bypassing the chain 
 
 우리의 안전을 위한 자네의 헌신과 그 의도는 인정하겠네. 그게 내가 자네의 편지를 곧바로 아에린에게 넘기지 않은 유일한 이유일세.  이 조약이 우리에게 어떤 이점을 가져다주는지 전혀 모르고 있는 건가?  자네는 우리가 장차 몇십 년간 긍지의 잔당들이 다시 뭉쳐서, 낮게 잡아도 커다란 위협이 되는 것을, 톨락 왕의 도움 없이 막을 수 있다고 생각하나?  설령 내가 오크들에게 구원의 기회를 주자는 아에린의 의견에 동의하지 않는다 할지라도, 이 조약은 정말 [i]엄청난[/i] 지원을 보장한다네. 작년까지만 해도 대륙을 활보하며 마법사들을 사적으로 응징하는 패거리들을 용인하고 있던 나라의 도움을 말일세.
 
-자네의 명령 불복종이나 허위 보고, 지휘 계통 무시 시도 등을 문책하지는 않겠네. 그 이유는 1. 자네는 엄밀히 말해 나에게 이런 죄를 저지르자고 요청 "만" 했을 뿐이고, 2. 난 자네가 자신의 잘못을 잘 알고 있을 것이라 [i]굳게 믿고 있고[/i], 그런 자를 문책하려고 장문의 편지를 쓰는 것 말고도 할 일이 많기 때문이네.  그 대신에, 확실하게 말해 두겠네. 두 번 다시는 이런 걸 보낼 생각도 하지 말게.  자네가 보냈던 편지는 내가 보관하고 있다가, 만약에 자네가 의심스러운 무력 사용에 연루된다면, 그 편지를 증거로 제출하겠네.  자네에겐 실망했네.
+자네의 명령 불복종이나 허위 보고, 지휘 계통 무시 시도 등을 문책하지는 않겠네. 그 이유는 1. 자네는 엄밀히 말해 나에게 이런 죄를 저지르자고 요청 "만" 했을 뿐이고, 2. 난 자네가 자신의 잘못을 잘 알고 있을 것이라 [i]굳게 믿고 있으며[/i], 그런 자를 문책하려고 장문의 편지를 쓰는 것 말고도 할 일이 많기 때문이네.  그 대신에, 확실하게 말해 두겠네. 두 번 다시는 이런 걸 보낼 생각도 하지 말게.  자네가 보냈던 편지는 내가 보관하고 있다가, 만약에 자네가 의심스러운 무력 사용에 연루된다면, 그 편지를 증거로 제출하겠네.  자네에겐 실망했네.
 
 -전초기지 대장 존]], "_t")
 t("a large, embossed envelope", "양각 무늬가 있는 큰 봉투", "_t")
@@ -3478,7 +3478,7 @@ Nonetheless, you feel you shouldn't be here.  The fact that this place exists at
 
 갑자기 바닥이 사라졌고, 당신은 아주 잠깐 추락했다가, 갑자기 몸이 풍선처럼 가벼워졌습니다.  뒤를 돌아보니, 방금 만들어졌던 마석에 이미 금이 가고 있고, 눈부신 빛을 내고 있었습니다.  "우리도 믿음이 안 간다는 것을 알고 있다.  네가 함정이 있으리라 예상 '했더라도' 상관없다. 그리고 우리가 진정 널 죽이려 했다면, 곧장 뒤돌아 달려 나갈 수 있는 정도로는 부족하다.  사실, 널 죽이는 것은 꽤 손쉬우니."  당신은 갑자기 염동력에 붙잡혀 아래쪽 가시밭으로 던져졌고, 가시에 닿기 직전에 뚝 멈추었습니다.  "명백히, 우린 네가 죽는 것은 물론이고 다소 다치는 것조차 원치 않는다." 머릿속에서 목소리가 그렇게 말하자, 가시들은 바닥 안쪽으로 들어가 사라졌고 당신은 빛나는 복도 쪽으로 천천히 떠올랐습니다.  "이제 확실히 알게 되었을 테니...  우리가 널 돕게 해 다오."  당신은 구멍 바로 위까지 떠올랐고, 바닥이 다시 생겨나고 염동력이 사라지자 당신은 단단한 땅에 착지했습니다. 그리고 직후 마석은 산산조각났습니다.
 
-그럼에도 불구하고, 여기 있어서는 안 된다는 느낌이 들었습니다.  이 장소가 존재하는 것 자체가... 잘못된 것 같습니다.
+그럼에도 불구하고, 여기 있어서는 안 된다는 느낌이 들었습니다.  이 장소가 존재한다는 것 자체가... 잘못된 것 같습니다.
 ]], "tformat")
 t("telepathic message (2)", "텔레파시 메시지 (2)", "_t")
 t([[Did you know the Sher'Tul had brothers?  Long before their creation, when the gods were still young and gleeful, Quekjora convinced them they could work together to bring life to Eyal. Perhaps they could have, were they more mature at the time...  Eager cooperation withered under exposure to personal tastes and creative differences, the friendships of our creators turned to animosity, and yet we were still made.
