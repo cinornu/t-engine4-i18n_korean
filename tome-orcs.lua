@@ -1371,7 +1371,7 @@ t("%s grapple", "%s 바이스", "tformat")
 t("armor", "방어구", "entity type")
 t("massive", "판갑", "entity subtype")
 t("Steam Powered Armour", "증기력 갑옷", "entity name")
-t("Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "작은 증기 기관과 최첨단 자동화 시스템의 기적으로, 증기력 갑옷을 제작 할 수 있게 되었습니다. 자그마치 이동을 돕고 고유한 방어 기제로 공격을 막아내는 완전 판금 갑옷입니다.", "_t")
+t("Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "작은 증기 기관과 최첨단 자동화 시스템의 기적으로, 증기력 갑옷을 제작할 수 있게 되었습니다. 자그마치 이동을 돕고 고유한 방어 기제로 공격을 막아내는 완전 판금 갑옷입니다.", "_t")
 t("The more steam the better!", "더 많은 증기! 더 강력한 힘!", "_t")
 t("#GOLD#Your steam-powered boots, helm and gauntlets automatically connect to your steam-powered armour, enabling new functions.", "#GOLD#증기력 장화, 투구 그리고 전투장갑이 증기력 갑옷에 자동으로 연결되어, 새로운 기능을 사용할 수 있게 되었다!", "logSeen")
 t("#GOLD#Your steam-powered armor disconnects from the other pieces.", "#GOLD#증기력 갑옷은 다른 부품들과의 연결이 해제되었다.", "logPlayer")
@@ -1476,7 +1476,7 @@ t("overheating steel greaves", "과열된 강철 전투장화", "_t")
 t([[These boots seem to have been made by a... creative individual who seems to have decided that launching yourself through the air via rocketry qualifies as "anti-gravity".
 They look like they will work, though.
 Probably.
-If you're very careful.]], [[이 장화는, 어... 자기 스스로를 공중으로 날려보내기로 결심한 창의적인 발명가가 만든 것으로 보입니다. 이런 말도 안되는 로켓 공학을 "반중력" 이라고 불렀나 봅니다.
+If you're very careful.]], [[이 장화는, 어... 자기 스스로를 공중으로 날려보내기로 결심한 창의적인 발명가가 만든 것으로 보입니다. 이런 말도 안 되는 로켓 공학을 "반중력" 이라고 불렀나 봅니다.
 어찌되건 작동은 하는 것 같습니다.
 아마도요.
 매우 조심한다면 말입니다.]], "_t")
@@ -1512,7 +1512,7 @@ The design is somewhat rudimentary, but it seems to work.]], [[이 총은 여러
 도안 자체는 초보적인 수준이지만, 제대로 작동하는 것 같습니다.]], "_t")
 t("Flashpoint", "화약고", "entity name")
 t("overheated gun", "과열된 총", "_t")
-t("\"Have you ever looked at some guys and thought 'you know, I really wish they were on fire right now', but you didn't feel like walking all the way over there? Well, there's now a better way!\"", "\"그런 생각 해본적 없나? '아 저 새끼 불태워 버리고 싶은데 걸어가기 존나 귀찮네' 같은 거. 여기 꽤 괜찮은 방법이 있는데 말이야!\"", "_t")
+t("\"Have you ever looked at some guys and thought 'you know, I really wish they were on fire right now', but you didn't feel like walking all the way over there? Well, there's now a better way!\"", "\"그런 생각 해본 적 없나? '아 저 새끼 불태워 버리고 싶은데 걸어가기 존나 귀찮네' 같은 거. 여기 꽤 괜찮은 방법이 있는데 말이야!\"", "_t")
 t("S.H. Spear", "S.H. 스피어", "entity name")
 t("engraved steamgun", "각인된 총기", "_t")
 t([[This gun is engraved with a strange material which focuses mental powers.
@@ -1560,7 +1560,7 @@ They all just say 'make it really flashy'.
 그래서 어떻게 된 줄 아나?  도안 쪽지만 몇 개 남겨놓고는 내가 그대로 만들어야 한다고 박박 우기더군. 
 근데 말이야, 쪽지에는 '진짜 휘황찬란하게 만들어라'라고만 쓰여있었어."
  
-- 발명의 달인 피주르크]], "_t")
+- 발명의 대가 피주르크]], "_t")
 t("Burst apart, dealing physical damage equal to 25% of the original damage in a ball of radius 1.", "폭발이 일어나, 원래 피해의 25%에 해당하는 피해를 반경 1 칸 내에 가합니다.", "_t")
 t("The Long-Arm", "긴 총", "entity name")
 t("long barreled gun", "총열이 긴 총", "_t")
@@ -1595,7 +1595,7 @@ t("A gun sure to turn all to ash. As long as its nearby.", "모든 것을 잿더
 t("Golden Gun", "황금 총", "entity name")
 t("golden gun", "황금 총", "_t")
 t("every third hit always crits.", "매 3 번째 공격은 무조건 치명타를 일으킵니다.", "_t")
-t("Cautery Sword", "소작절개도", "entity name")
+t("Cautery Sword", "소작절개검", "entity name")
 t("searing sword", "불타는 칼", "_t")
 t("This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "이 칼에는 불타는 핵이 장착되어 있어, 상처에 고통을 조금 더해줍니다.", "_t")
 t("inflict fire damage based on steampower", "증기력에 비례한 화염 피해를 가합니다", "_t")
@@ -1606,7 +1606,7 @@ t("This injecting unit is complemented by a belt of tiny vials, containing some 
 t("inject yourself with painkillers, reducing all incoming damage by 5. Stacks up to 5 times. When the effect ends, lose 5% of your max life per stack", "진통제를 주사하여 피격 시 받는 모든 피해량을 5 감소시킵니다. 최대 5 번 중첩 가능하며, 이 효과가 끝날 때 중첩 당 최대 생명력의 5%에 해당하는 피해를 받습니다", "_t")
 t("Qog's Essentials", "코그의 필수품", "entity name")
 t("strange injector", "이상한 주사기", "_t")
-t("A hypospray full of ...something. There is no telling what you're injecting yourself with.", "무엇인가로... 가득 찬 피하 분사기입니다. 뭘 주입하는지는 모릅니다.", "_t")
+t("A hypospray full of ...something. There is no telling what you're injecting yourself with.", "무언가...로 가득 찬 피하 분사기입니다. 뭘 주입하는지는 모릅니다.", "_t")
 t("Gain a random beneficial effect", "무작위한 이로운 효과를 하나 얻습니다", "_t")
 t("Deflector", "편향기", "entity name")
 t("vibrating shield", "떨리는 방패", "_t")
@@ -3542,13 +3542,13 @@ And if not?  Our culture is everywhere.  We can't be completely removed without 
 Would you expect anything less from the physical incarnations of spiteful determination?
 ]], [[우리에게 무슨 일이 일어난 건지 궁금한가?  우린 불합리한 운명이 우릴 죽이고 즐거워하도록 놔두지 않았다.  우린 스스로 목숨을 끊었다. 하지만 그 전에, 우리의 씨앗을 많이 심어 두었지.
 
-우린 죽기 전에 수많은 것들을 이룩했었고, 그것들을 처음부터 다시 쌓아 올리고 싶진 않았다.  물론, 우리가 그것들을 한 곳에 모아두면 우리의 저주가 눈치를 채고 전부 없애버린다. 그래서 우리는 우리 스스로와 우리가 이룩한 것들을 잘게 쪼개어, 수천 년에 걸친 진화 과정 속에 교묘하게 숨겨 놓았다.  넌 이미 이런 - 육체들 중 하나를 만나 보았을 것이다. 강인하고 질김.  어떤 환경에서든 살아남을 수 있는 능력.  빠른 회복력.  불로.  그리고 때가 되면, 정신을 옮겨서 육체를 아주, 아주 손쉽게 빼앗을 수 있는...  지금 넌 네 긍지에게 예티를 가능한 한 많이 없애버리라 명령해야겠다는 생각을 하고 있겠지.  마음대로 해라. 손쉽게 얻을 수 있는 노동력을 팽개치고, 자치령이 노예를 부리고 왕국연합이 오우거와 드워프를 이용할 때 네가 어떻게 저들을 따라잡을 수 있을지 생각해라.  다시 한 번 확실히 해 두자면, 예티가 우리에게 도움이 되냐 안 되냐는 중요하지 않다. 왜냐하면, 너희가 살아남으려면 예티가 필요하기 때문이다.
+우린 죽기 전에 수많은 것들을 이룩했었고, 그것들을 처음부터 다시 쌓아 올리고 싶진 않았다.  물론, 우리가 그것들을 한 곳에 모아두면 우리의 저주가 눈치를 채고 전부 없애버린다. 그래서 우리는 우리 스스로와 우리가 이룩한 것들을 잘게 쪼개어, 수천 년에 걸친 진화 과정 속에 교묘하게 숨겨 놓았다.  넌 이미 이런 - 육체들 중 하나를 만나 보았을 것이다. 강인하고 질김.  어떤 환경에서든 살아남을 수 있는 능력.  빠른 회복력.  불로.  그리고 때가 되면, 정신을 옮겨서 육체를 손쉽게, 아주 손쉽게 빼앗을 수 있는...  지금 넌 네 긍지에게 예티를 가능한 한 많이 없애버리라 명령해야겠다는 생각을 하고 있겠지.  마음대로 해라. 손쉽게 얻을 수 있는 노동력을 팽개치고, 자치령이 노예를 부리고 왕국연합이 오우거와 드워프를 이용할 때 네가 어떻게 저들을 따라잡을 수 있을지 생각해라.  다시 한 번 확실히 해 두자면, 예티가 우리에게 도움이 되냐 안 되냐는 중요하지 않다. 왜냐하면, 너희가 살아남으려면 예티가 필요하기 때문이다.
 
 하지만 예티는 우리가 남긴 것들 중 3분의 1 정도밖에 되지 않는다.  다음은 우리의 정신적 처리 능력과 초능력을 능숙하게 사용하는 정신 자체, 그리고 정보를 빠르게 측정하여 논리적으로 분석하는 능력이다.  네가 이크 종족을 절멸시킬 수는 없다 - 우릴 믿어라, 다 확인해 보았다.  이크들은 우리의 저주만큼이나 엄청난 축복을 받은 것 같다. 우리가 그저 그들의 내면에 숨는 것으로 만족한다면, 멸망이 기다리고 있는 것은 변함이 없다만.  참으로 안타깝다.  아무튼, 이크들의 뇌와 그들이 가진 연결망은 계속해서 존재할 것이다. 그들은 우리가 없어도, 우리가 걷는 '하나의 길' 을 유지해 줄 것이다.
 
 마지막으로, 우리의 문화, 우리의 발견들이다.  우리가 배우고 나서 육체나 뇌에 넣지 않았던 것들은 전부... 별도로 보관해 두었다.  별들 너머에 사는 자들에게.  우린 정보를 담은 무수한 비트들을 교묘하게 암호화하여 그들에게 퍼뜨렸고, 그들의 백업은 우주 곳곳에 수없이 많이 퍼져 있다...  그들은 그 정보들을 충분히 가지고 돌아올 것이다.  이크들은 그것을 흡수할 것이고, 그렇게 우리는 그들의 정신 속에서 부활하게 된다.  그리고 이크들은 우릴 더 우수한 육체로 옮겨 주겠지.
 
-에이알에 폭풍이 한 번 불어닥치면, 갈등이 한 번 시작되면...  그 거대한 전쟁으로부터 비롯된 증오와 악의의 파도가 이 우주를 혼란스럽게 만들어, 우리의 조각들이 다시 합쳐지고 우리가 부활할 수 있을 것이다.  아니면, 신들이 전부 죽거나 미치게 되고, 그들의 분노가 잊혀지거나 무로 돌아가, 저주를 더 지속시킬 원동력이 사라지게 되면 똑같은 결과로 이어질 수도 있다.  어쩌면 저주는 이미 죽어가고 있고, 쉐르'툴의 행성 보호막이 그걸 연명시키고 있는 것일지도 모른다 - 그 보호막도 차츰 무너지고 있고, 금이 가고 있지. 그리고 말'록인들이 적극적으로 그 금을 벌리려고 하고 있다.
+에이알에 폭풍이 한 번 불어닥치면, 갈등이 한 번 시작되면...  그 거대한 전쟁으로부터 비롯된 증오와 악의의 파도가 이 우주를 혼란스럽게 만들어, 우리의 조각들이 다시 합쳐지고 우리는 부활할 수 있을 것이다.  아니면, 신들이 전부 죽거나 미치게 되고, 그들의 분노가 잊혀지거나 무로 돌아가, 저주를 더 지속시킬 원동력이 사라지게 되면 똑같은 결과로 이어질 수도 있다.  어쩌면 저주는 이미 죽어가고 있고, 쉐르'툴의 행성 보호막이 그걸 연명시키고 있는 것일지도 모른다 - 그 보호막도 차츰 무너지고 있고, 금이 가고 있지. 그리고 말'록인들이 적극적으로 그 금을 벌리려고 하고 있다.
 
 모두 실패하더라도, 우리의 문화는 사방에 퍼져 있다.  그것들을 전부 없애지 않는 한, 우리 역시 완전히 사라지지는 않는다.  운명은 우리가 제거되어야 할 종양이라는 결정을 내렸지. 우리가 종양이라면, 이제 우리는 사방으로 전이한 종양이다.  이제 운명은 우리가 양성인지, 말기 악성인지 결정해야 할 거다.  
 
@@ -3559,7 +3559,7 @@ t([[If you would indulge us...  Next to you is a tablet that was just carved by 
 
 #{italic}#(You look to your right, and see a tablet which has been broken into fragments.  The fragments are still arranged roughly in the right shape, and you can read a single word; another, larger fragment bears a sentence.)#{normal}#
 
-]], [[우리의 부탁을 하나만 더 들어주지 않겠는가...  네 옆에, 네가 오기 직전에 기계로 새로 깎아낸 석판이 있다.  만약에 우리의 저주가 그대로라면, 그 내용은 완전히 흐려져 읽을 수가 없을 것이다. 그러나 저주가 풀렸다면, 거기에 우리의 이름이 있을 것이다.  우리가 존재한다는 부정할 수 없는 증거이자, 이 우주가 우릴 얼마나 잊고 싶어 했든 간에 우릴 잊을 수 없었다는 증거가, 아주 당당하고 분명하게 새겨져 있을 것이다.  오른쪽을 돌아보아라. 그리고 외우라. 너보다 훨씬 더 확실하게 존재할 권리가 있는 자들의 이름을, 그 권리를 위해 훨씬 더 부단히 노력해 왔던 자들의 이름을, 그리고 현실 깊숙이 갈고리를 박아, 그와 함께 떠오르거나 함께 심연으로 가라앉으려는 자들의 이름을.  존재 그 자체가 두려워한 자들의 이름을 외우라!
+]], [[우리의 부탁을 하나만 더 들어주지 않겠는가...  네 옆에, 네가 오기 직전에 기계로 새로 깎아낸 석판이 있다.  만약에 우리의 저주가 그대로라면 그 내용은 완전히 흐려져 읽을 수가 없을 것이다. 그러나 저주가 풀렸다면, 거기에 우리의 이름이 있을 것이다.  우리가 존재한다는 부정할 수 없는 증거이자, 이 우주가 우릴 얼마나 잊고 싶어 했든 간에 우릴 잊을 수 없었다는 증거가, 아주 당당하고 분명하게 새겨져 있을 것이다.  오른쪽을 돌아보아라. 그리고 외우라. 너보다 훨씬 더 확실하게 존재할 권리가 있는 자들의 이름을, 그 권리를 위해 훨씬 더 부단히 노력해 왔던 자들의 이름을, 그리고 현실 깊숙이 갈고리를 박아, 그와 함께 떠오르거나 함께 심연으로 가라앉으려는 자들의 이름을.  존재 그 자체가 두려워한 자들의 이름을 외우라!
 
 #{italic}#(당신은 오른쪽으로 고개를 돌려, 산산조각난 석판을 보았습니다.  그 조각들은 여전히 원래 석판의 모양대로 얼추 모여 있었고, 덕분에 거기에 새겨진 유일한 단어를 읽을 수 있습니다. 또, 큼지막한 다른 조각에 어떤 문장도 새겨져 있는 게 보였습니다.)#{normal}#
 
@@ -3609,7 +3609,7 @@ t("#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "
 t("Orc Warrior", "오크 전사", "_t")
 t("Winner", "승리", "_t")
 t("#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "#GOLD#축하드립니다! 마즈'에이알의 이야기: 분노의 잉걸불에서 승리하셨습니다!#WHITE#", "_t")
-t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "당신은 증기 거인들의 인종 청소 계획을 저지했고, 그들이 죽인 크룩 긍지 전사들의 복수도 하였습니다.  그들이 고위 사제와 맺은 절망적인 계약 역시 당신을 막지 못했고, 사제와 그가 섬기던 신은 당신의 발밑에 죽어 널부러져 있으며 당신은 그들이 예측 가능한 미래까진 확실하게 #{italic}#죽은 채로 있도록#{normal}# 만들었습니다.", "_t")
+t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "당신은 증기 거인들의 인종 청소 계획을 저지했고, 그들이 죽인 크룩 긍지 전사들의 복수도 하였습니다.  그들이 고위 사제와 맺은 절박한 계약 역시 당신을 막지 못했고, 사제와 그가 섬기던 신은 당신의 발밑에 죽어 널부러져 있으며 당신은 그들이 예측 가능한 미래까진 확실하게 #{italic}#죽은 채로 있도록#{normal}# 만들었습니다.", "_t")
 t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "인간과 엘프, 그리고 하플링들은 당신의 동포들을 두 번 다시 해치지 못할 것입니다. 당신은 장거리 차원문을 파괴하고 톨락 왕의 군사들과 영광스러운 전투를 치르는 것을 거부함으로써 왕국연합으로부터 동포들의 안전을 확보했습니다. 또한 아침의 문을 기습하여, 증오를 품은 채로 바르'에이알에 남아 있던 서방의 자들을 모두 제거하였습니다.", "_t")
 t("For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "최소한 지금은, 평화가 찾아왔습니다. 이게 영원하진 않을 것이라는 걸 당신도 잘 알고 있습니다. 카르'하이브 자치령의 선봉대를 물리치긴 했지만 그들은 여전히 약점을 노리며 적절한 때를 기다리고 있을 것이고, 마즈'에이알에서 온 밀수꾼들의 장거리 차원문도 찾아내지 못한 상태이며, 당신이나 톨락 왕이나 상대방의 대륙을 정복하려는 생각은 없지만 그럼에도 침공해 올 수도 있다는 두려움이 여전히 당신의 뇌리에 남아 있을 것입니다.", "_t")
 t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "  잃어버린 도시에서 받은 메시지들은 그들이 경고했던 존재들, 그리고 경고한 본인들에 대한 경계심을 바짝 키웠습니다. 또한 당신은 이제 절멸의 위기에서 벗어나려 발버둥 칠 필요가 없어진 동포들이 무엇을 하게 될지 궁금해졌습니다. 당신의 종족은 유사 이래로 투쟁만을 위해 살아왔지만, 이제 그걸 걱정할 필요가 없어졌으니 말입니다.", "_t")
@@ -4799,7 +4799,7 @@ t("Fumigate", "훈증", "talent name")
 t("You require a steamgun and an active miasma cloud for this talent.", "이 기술을 사용하기 위해서는 총기와 활성화된 독기 구름이 필요하다.", "logPlayer")
 t([[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
 		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], [[독기 엔진 중첩을 전부 소모하여 죽음의 산성 폭발을 일으켜, 반경 %d 칸의 원뿔 범위에 %d%% 무기 피해를 산성 속성으로 가합니다. 영향을 받은 적은 %d%% 확률로 이로운 물리적 효과나 정신적 효과가 하나 해제됩니다. 이 피해는 (중첩 수 - 1) × 50%% 만큼 증가하고, (중첩수 - 1) × %d%% 확률로 추가 효과 해제가 일어납니다.
-		이 공격은 적의 방어력을 무시하며, 이 기술을 사용하기 위해서는 적어도 1 중첩 이상의 독기 엔진이 필요합니다.]], "tformat")
+		이 공격은 적의 방어력을 무시하며, 이 기술을 사용하기 위해서는 독기 엔진 중첩이 최소 1 필요합니다.]], "tformat", {2,1,3,4})
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/chemistry.lua"

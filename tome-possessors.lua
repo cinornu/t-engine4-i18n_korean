@@ -272,7 +272,7 @@ t([[You point your ghastly finger at a foe affected by Ghastly Wail and send a p
 		The target will take %d%% of the life it already lost as mind damage.
 		On targets of rank boss or higher the damage is limited to %d.
 		If the target dies from the Finger and is of a type you can already absorb it is directly absorbed into your bodies reserve.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[섬뜩한 곡성에 영향을 받은 적을 망령의 손가락으로 가리켜, 초능력 파장을 통해 순순히 죽으라고 속삭입니다.
+		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[섬뜩한 곡성의 영향을 받은 적을 망령의 손가락으로 가리켜, 초능력 파장을 통해 순순히 죽으라고 속삭입니다.
 		대상은 이미 잃은 생명력의 %d%% 에 해당하는 정신 피해를 받습니다.
 		대상의 등급이 보스 이상이라면 피해량은 %d 으로 제한됩니다.
 		죽음의 손가락으로 인해 죽은 대상이 육체를 강탈할 수 있는 종족일 경우, 육체를 강탈해 보관소에 보관합니다.
