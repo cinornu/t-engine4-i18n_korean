@@ -1622,7 +1622,7 @@ This is not real this is not real this is not real.]], [[널잡으러왔어.
 정신나갈거같애정신나갈거같애정신나갈거같애.]], "_t")
 t([[By all accounts, just an ordinary cooking pot with an array of antennae haphazardly soldered onto it. An attached manual contains nothing but fifty pages of deranged gibberish, nonsensical diagrams and lines upon lines of numbers with no apparent pattern or reason to them. 
 
-Putting this on your head may not be the best idea.]], [[누가 보아도, 그저 평범한 요리 냄비에 안테나가 대충 접합되어 있습니다. 동봉된 설명서는 50장에 걸쳐서 온갖 헛소리와 말도 안 되는 도형들, 그리고 논리도 규칙성도 없는 숫자의 나열만 쓰여 있습니다.
+Putting this on your head may not be the best idea.]], [[누가 보아도, 그저 평범한 요리 냄비에 안테나가 대충 접합되어 있는 물건입니다. 동봉된 설명서는 50장에 걸쳐서 온갖 헛소리와 말도 안 되는 도형들, 그리고 논리도 규칙성도 없는 숫자의 나열만 늘어놓고 있습니다.
 
 이걸 머리통에 뒤집어 쓰는 건 그렇게 좋은 생각은 아닌 것 같은데요...]], "_t")
 t("%s's Shadow", "%s의 그림자", "tformat")
