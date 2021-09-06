@@ -3231,7 +3231,7 @@ t([[You breathe a wave of dead maggots in a cone of radius %d. Any target caught
 ------------------------------------------------
 section "tome-cults/data/talents/demented/slow-death.lua"
 
-t("Digest", "삼키기", "talent name")
+t("Digest", "집어삼키기", "talent name")
 t("%s has no usable talents.", "%s 사용가능한 기술이 없다.", "logPlayer", nil, {"는"})
 t("Painful Agony", "끔찍한 고통", "_t")
 t("Choose a talent to use:", "사용할 기술을 고르세요:", "_t")
@@ -3264,8 +3264,8 @@ t("Consume Whole", "소화", "talent name")
 t("You are not digesting a creature.", "당신은 적을 삼키고 있지 않다.", "logPlayer")
 t([[Instantly consume what remains of your victim, healing yourself for %d life and generating %d insanity.
 			Activating this will reset the cooldown of your Digest talent.
-		The life healed will increase with your Spellpower.]], [[삼킨 적을 즉시 소화시켜 생명력을 %d, 광기를 %d 회복합니다.
-			이 기술을 사용하면 삼키기의 재사용 대기시간이 초기화됩니다.
+		The life healed will increase with your Spellpower.]], [[집어삼킨 적을 즉시 소화시켜 생명력을 %d, 광기를 %d 회복합니다.
+			이 기술을 사용하면 집어삼키기의 재사용 대기시간이 초기화됩니다.
 		생명력 회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------

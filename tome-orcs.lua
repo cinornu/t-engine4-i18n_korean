@@ -1679,7 +1679,7 @@ They sure seem sharp though.]], [[이 복잡한 장치로 구성된 증기톱은
 하지만 톱날들은 매우 날카로워 보입니다.]], "_t")
 t("Ramroller", "공성회전자", "entity name")
 t("a... chariot?", "어... 수..레?", "_t")
-t("\"So we were thinking. You know what's better than saws? Really BIG saws. Unfortunately, no one could lift them. So we came up with an innovative new solution: Mount them on a motorized platform, allowing easy transportation and unparalleled cutting power!\"", "\"그래서 저희가 머리를 좀 굴려 봤습니다. 톱보다 더 좋은 게 뭔지 아십니까? 바로 아주 큼지막한 톱입니다. 안타깝게도 그런 톱을 들어올릴 수 있는 사람이 없었죠. 그래서 저희는 아주 혁신적인 해결책을 하나 내놓았습니다. 톱 아래에다가 전동기랑 바퀴를 달아서, 손쉽게 움직일 수 있게 만들었죠! 마치 아주 큼지막한 톱날이 달린 전차처럼 말입니다!\"", "_t")
+t("\"So we were thinking. You know what's better than saws? Really BIG saws. Unfortunately, no one could lift them. So we came up with an innovative new solution: Mount them on a motorized platform, allowing easy transportation and unparalleled cutting power!\"", "\"그래서 저희가 머리를 좀 굴려 봤습니다. 톱보다 더 좋은 게 뭔지 아십니까? 바로 무진장 큼지막한 톱입니다. 안타깝게도 그런 톱을 들어올릴 수 있는 사람이 없었죠. 그래서 저희는 아주 혁신적인 해결책을 하나 내놓았습니다. 톱 아래에다가 전동기랑 바퀴를 달아서, 손쉽게 움직일 수 있게 만들었죠! 마치 무진장 큼지막한 톱날이 달린 전차처럼 말입니다!\"", "_t")
 t("Moving builds up a stacking movement speed (caps at 25%) and damage bonus (caps at double). Hitting removes the bonus.", "발걸음을 옮길 때마다 이동속도가 상승하고 (최대 25%까지 중첩) 피해량 상승량도 증가합니다. (최대 2배까지 중첩). 공격을 가하면, 이 효과는 즉시 사라집니다.", "_t")
 t("Overcutter", "과잉절단기", "entity name")
 t("enormous steamsaw", "거대한 증기톱", "_t")
