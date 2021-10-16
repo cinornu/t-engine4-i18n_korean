@@ -502,20 +502,20 @@ Your Item Vault has #TEAL#%d slots#WHITE#.
 
 Again, thank you, and enjoy Eyal!
 
-#{italic}#Your malevolent local god of darkness, #GOLD#DarkGod#{normal}#]], [[기부를 해주셔서 정말 #{bold}#감사합니다.#{normal}# 여러분의 후원은 이 게임이 계속 살아남는데에 큰 도움이 됩니다.
+#{italic}#Your malevolent local god of darkness, #GOLD#DarkGod#{normal}#]], [[기부를 해주셔서 #{bold}#정말 감사합니다#{normal}#. 여러분의 후원은 이 게임이 계속 살아남는 데에 큰 도움이 됩니다.
 
-당신의 후원액 총합은 #LIGHT_GREEN#%0.2f 유로#WHITE#이며 #ROYAL_BLUE#%d 보라툰 코인#WHITE#으로 te4.org 에서 사용이 가능합니다.
+당신의 후원액 총합은 #LIGHT_GREEN#%0.2f 유로#WHITE#, 다르게 말하면 #ROYAL_BLUE#%d 보라툰 코인#WHITE#으로 te4.org 에서 사용이 가능합니다.
 당신의 아이템 금고는 총 #TEAL#%d 칸#WHITE#입니다.
 
 다시 한 번 감사드리며, 에이알을 즐겨주세요!!
 
-#{italic}#당신만의 악랄한 어둠의 신, darkgod#GOLD#DarkGod#{normal}#]], "tformat")
+#{italic}#당신의 악랄한 어둠의 신, #GOLD#DarkGod#{normal}#]], "tformat")
 t("Thank you!", "감사합니다!", "_t")
 t("#{italic}#Joined channel#{normal}#", "#{italic}# 채널에 참가.#{normal}#", "_t")
 t("#{italic}#Left channel#{normal}#", "#{italic}# 채널에서 떠남.#{normal}#", "_t")
 t("#{italic}##FIREBRICK#has joined the channel#{normal}#", "#{italic}##FIREBRICK# 채널에 참가했습니다#{normal}#", "_t")
 t("#{italic}##FIREBRICK#has left the channel#{normal}#", "#{italic}##FIREBRICK# 채널을 떠났습니다#{normal}#", "_t")
-t("#CRIMSON#You are not subscribed to any channel, you can change that in the game options.#LAST#", "#CRIMSON#현재 아무런 채널에도 참가되어있지 않습니다. 게임 설정을 확인해주세요.#LAST#", "log")
+t("#CRIMSON#You are not subscribed to any channel, you can change that in the game options.#LAST#", "#CRIMSON#현재 어떤 채널에도 참가하고 있지 않습니다. 게임 설정을 확인해주세요.#LAST#", "log")
 t("Requesting...", "요청 중...", "_t")
 t("Requesting user info...", "유저 정보 요청 중...", "_t")
 t("Error", "오류", "_t")
@@ -1041,22 +1041,22 @@ As for what kind of purchases are/will be available:
 - #GOLD#Community events#LAST#: A few online events are automatically and randomly triggered by the server. With those options you can force one of them to trigger; bonus point they trigger for the whole server so everybody online benefits from them each time!
 
 I hope I've convinced you of my non-evil intentions (ironic for a DarkGod I know ;)). I must say feel dirty doing microtransactions even as benign as those but I want to find all the ways I can to ensure the game's future.
-Thanks, and have fun!]], [[어서 와요!
+Thanks, and have fun!]], [[어서 오세요!
 
-전 게임 제작자인 #{italic}##ANTIQUE_WHITE#DarkGod#LAST##{normal}#입니다. 게임이 즐기기 전에 잠깐 당신에게 이 게임에 왜 소액 결제 항목이 있는지 설명할게요.
+전 이 게임을 만든 #{italic}##ANTIQUE_WHITE#DarkGod#LAST##{normal}#입니다. 계속하기 전에, 이 게임에 소액 결제 항목이 왜 있는지 잠깐 설명할게요.
 
-당신이 겁 먹어서 도망치기 전에 분명히 말해 둘게요: 난 정말 #{bold}#완전 #CRIMSON#싫어해요.#LAST# pay2win#{normal}# 같은 것을요. 그러니 그런 건 이 게임에 없을 거라고 단언할게요.
+여러분이 기겁하면서 도망치시기 전에 분명히 말해 두겠습니다: #{bold}#저는 Pay 2 Win 같은 걸 정말 #CRIMSON#완전 싫어해요.#LAST##{normal}# 그러니 그런 건 이 게임에 없을 거라고 단언할 수 있습니다.
 
-그런데 왜 소액 결제가 있을까요? Tales of Maj'Eyal은 싼/무료 게임이고 게임 플레이에 어떤 비용도 들지 않아요. 이 게임은 제 아이와 같고 전 이 아이를 사랑하죠. 앞으로도 많은 시간을 이 게임에 쏟겠지만(2009년부터 그랬던 것처럼요!) 그것을 실현하기 위해 나는 꾸준한 수입이 있어야 해요. 우리는 슬프게도 현실에 살고 있기 때문이죠.
+그러면 소액 결제는 왜 있을까요? Tales of Maj'Eyal은 값싼/무료 게임이고 게임을 플레이하는 데에는 어떤 비용도 들지 않습니다. 이 게임은 제 아이와 같고 전 이 아이를 사랑하죠. 앞으로도 많은 시간을 이 게임에 쏟겠지만 (2009년부터 그랬던 것처럼요!) 그렇게 하려면 제게 꾸준한 수입이 있어야 해요. 안타깝지만 우리는 현실을 살고 있기 때문이죠.
 
-결제를 통해 무엇이 가능한지 설명할게요
-- #GOLD#미용#LAST#: 이미 게임에 있는 종족별 설정이나 아이템에 더해서 새롭게 추가되는 순수한 미용 아이템이나 스킨을 사용해 당신의 캐릭터를 더 멋지게 만들 수 있어요!
-- #GOLD#Pay2DIE#LAST#: 당신의 캐릭터에 질리셨나요? 이 기능으로 죽이세요!
-- #GOLD#금고 공간#LAST#: 기부하신 분들을 위하여, 그분들은 지금까지 해 온 모든 "무의미한" 기부를 통해서 온라인에 있는 금고칸을 더 확장시킬 수 있어요.
-- #GOLD#커뮤니티 이벤트#LAST#: 서버가 어느 정도 있는 온라인 이벤트를 자동적이거나 랜덤하게 작동시킵니다. 이 기능을 사용하신다면 서버가 이벤트 중 하나를 열게 만드실 수도 있어요; 그러실 분이 전체 서버에 대해서 이벤트를 열게 된다면 온라인을 통해 게임을 즐기는 모두가 실시간으로 혜택을 누릴 수 있게 될 거에요!
+결제를 통해 무엇이 가능한지 설명드리겠습니다:
+- #GOLD#치장#LAST#: 이미 게임에 있는 종족 별 설정이나 아이템에 더해서, 새롭게 추가되는 순수한 치장용 아이템이나 스킨을 사용해 당신의 캐릭터를 더 멋지게 만들 수 있어요!
+- #GOLD#Pay 2 DIE#LAST#: 당신의 캐릭터에 질리셨나요? 이 기능으로 죽이세요!
+- #GOLD#금고 공간#LAST#: 기부하신 분들을 위하여, 그분들은 지금까지 해 온 모든 "쓸데없는" 기부를 통해서 온라인에 있는 금고 칸을 더 확장시킬 수 있어요.
+- #GOLD#커뮤니티 이벤트#LAST#: 가끔씩 서버에 의해 온라인 이벤트가 자동적으로, 또 무작위하게 일어납니다. 이 기능을 사용하시면 그런 이벤트 중 하나를 직접 여실 수가 있습니다. 이렇게 되면 현재 접속 중인 모든 유저분들도 똑같은 이벤트를 즐길 수 있답니다!
 
-저의 사악하지 않은 의도를 충분히 이해하셨기를 빕니다 (아이러니하게도 저는 DarkGod이지만요 ;)). 비록 점잖은 수준이긴 합니다만, 소액 결제를 도입하는 것을 제 자신도 역겹다고 느끼고 있습니다. 그러나 이 게임의 미래를 보장할 방법을, 저는 찾아야 합니다.
-고맙습니다, 그리고 재밌게 즐겨주시기 바랍니다!]], "_t")
+제 의도가 사악하지 않다는 걸 충분히 이해하셨길 바랍니다 (아이러니하게도 저는 DarkGod이지만요 ;)). 비록 점잖은 수준이긴 합니다만, 소액 결제를 도입하는 것을 스스로도 추잡하다고 느끼고 있습니다. 하지만 저는 이 게임의 미래를 보장할 방법을 어떻게든 찾고 싶습니다.
+감사합니다, 그리고 재밌게 즐기세요!]], "_t")
 
 ------------------------------------------------
 section "engine/engine/dialogs/microtxn/ShowPurchasable.lua"
