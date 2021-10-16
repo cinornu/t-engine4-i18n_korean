@@ -7961,7 +7961,7 @@ Playing characters this way is not lore-canon, but fun!]], [[당신은 서로 �
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-race_whitehooves.lua"
 
-t("New Race: #LIGHT_GREEN#Whitehoof", "새로운 직업: #LIGHT_GREEN#화이트후프", "_t")
+t("New Race: #LIGHT_GREEN#Whitehoof", "새로운 종족: #LIGHT_GREEN#화이트후프", "_t")
 t([[A clan of minotaurs turned to necromancy when faced with imminent destruction. Ever since they have kept to themselves.
 But the discovery of a strange artifact in a crashed airship changed their fate. One of them tried to assert control over the clan, a few resist and hope to free their comrades.
 
