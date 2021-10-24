@@ -2753,8 +2753,8 @@ t([[You attune your horrors to the dead god Amakthel, increasing your summoned h
 At talent level 3, your Decaying Devourers spell will summon 4 additional Devourers adjacent to random enemies nearby and your Bloated Horror will learn the Agony talent.
 At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn %s.
 The damage increase is based on your Spellpower.]], [[소환한 공포들을 죽은 신 아마크텔의 힘을 빌어 강화합니다. 소환된 공포들의 피해량이 %d%% 증가합니다.
-기술 레벨이 3 일 때, 부패의 포식귀 주문이 근처의 무작위한 적 인근에 부패하는 포식귀를 4 체 더 소환합니다. 부풀어오른 공포는 격통 기술을 사용하게 됩니다.
-기술 레벨이 5 일 때, 공포스러운 모습의 대상이 반경 10 칸 내의 모든 적을 매 턴 1 칸 끌어당기게 됩니다 %s.
+기술 레벨 3 부터, 부패의 포식귀 주문이 근처의 무작위한 적 인근에 부패하는 포식귀를 4 체 더 소환합니다. 부풀어오른 공포는 격통 기술을 사용하게 됩니다.
+기술 레벨 5 부터, 공포스러운 모습의 대상이 반경 10 칸 내의 모든 적을 매 턴 1 칸 끌어당기게 됩니다 %s.
 피해량 변동치는 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -3239,7 +3239,7 @@ t([[The pain you inflict to the victim you are digesting is so intense something
 		The stolen talent will not use any resources to activate.
 		]], [[뱃속의 적은 끔찍한 고통 때문에 정신이 붕괴되어, 그 머릿속을 손쉽게 들여다볼 수 있게 됩니다.
 		적을 삼키면 대상이 가진 기술을 무작위로 하나 빼앗아 사용할 수 있게 됩니다. 이때 해당 기술의 레벨은 %d 입니다.
-		끔찍한 고통의 레벨이 5 일 때, 어떤 기술을 빼앗을 것인지 선택할 수 있습니다.
+		기술 레벨 5 부터, 어떤 기술을 빼앗을 것인지 선택할 수 있습니다.
 		이미 알고 있는 기술을 빼앗을 수는 없습니다.
 		빼앗은 기술을 사용할 때에는 별도의 원천력이 필요하지 않습니다.
 		]], "tformat")
@@ -3473,7 +3473,7 @@ t([[Smash your target with a splintering glass attack doing %d%% arcane weapon d
 		At level 5 the target suffers so much it has 15%% chances to fail using talents.]], [[유리 파편으로 적을 강타해 %d%% 무기 피해를 비전 속성으로 가합니다.
 		명중 시, 대상은 6 턴 동안 유리 파편이 몸에 박힙니다.
 		매 턴 대상은 공격 피해의 8%% 를 출혈 효과로 받습니다. 파편은 매우 고통스러워, 대상이 이동할 시 공격 피해의 %d%% 를 받습니다.
-		기술 레벨이 5 일 때, 대상은 고통으로 인해 15%% 확률로 기술 사용을 실패합니다.]], "tformat")
+		기술 레벨 5 부터, 대상은 고통으로 인해 15%% 확률로 기술 사용을 실패합니다.]], "tformat")
 t("Throw Pebble", "조약돌 던지기", "talent name")
 t("something", "무언가", "_t")
 t("#Source# expertly hurls a pebble at #target#!", "#Source2# #target3# 향해 조약돌을 집어던진다!", "logCombat")

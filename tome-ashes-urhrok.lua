@@ -737,7 +737,7 @@ t([[You revel in the heat of battle. Whenever an enemy damages you within melee 
 t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns %s, while also taking %0.2f damage per turn.
 		Starting from talent level 4, it will also silence.
 		The beam damage and damage over time will increase with your Spellpower.]], [[화염의 발톱을 내보내어 발사 경로 상에 %0.2f 피해를 줍니다. 대상은 발톱에 붙잡혀 %d%% 무기 피해를 화염 속성으로 받고, %d 턴 동안 이동할 수 없게 됩니다 %s. 또한 매 턴 %0.2f 피해를 받습니다.
-		기술 레벨이 4 일 때, 침묵을 유발합니다.
+		기술 레벨 4 부터, 침묵을 유발합니다.
 		발사 경로 상에 가하는 피해와 턴마다 가하는 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -1105,7 +1105,7 @@ t([[You learn to use death around you to an even greater advantage.
 		웅덩이 안에 서 있는 적은 매 턴 %0.2f 어둠 피해를 받습니다.
 		이 효과는 한 턴에 한 번만 일어납니다.
 		피해량은 주문력에 비례하여 증가합니다.
-		기술 레벨이 3 일 때, 어둠의 지배 효과가 죽음으로부터 시전자를 보호하여 매 중첩 당 생명력 하한이 %d 증가합니다.]], "tformat")
+		기술 레벨 3 부터, 어둠의 지배 효과가 죽음으로부터 시전자를 보호하여 매 중첩 당 생명력 하한이 %d 증가합니다.]], "tformat")
 t("Blood Pact", "피의 계약", "talent name")
 t([[Pay %d%% of your current life and gain 100%% darkness damage conversion for 1 turns.
 			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[현재 생명력의 %d%% 를 대가로 1 턴 동안 모든 피해가 어둠 속성으로 전환됩니다.
@@ -1133,7 +1133,7 @@ t([[You infuse your shield with the energies of Urh'Rok, bringing about a magica
 		#{bold}#Activating the shield takes no time but de-activating it does.#{normal}#
 		The damage increases with spellpower.]], [[방패에 울흐'록의 에너지를 부여하여, 피격 시 삼투 방패의 방어 수치만큼 피해를 경감하고, 3 턴에 걸쳐 경감한 피해와 같은 양을 회복합니다. (이로써 실제 중화량은 총 방어 수치의 2 배이며, 방패 막기 수치에 비례합니다) 이 효과는 중첩 가능합니다.
 		수치는 5 + 방패 막기 수치의 %d%% 입니다 (현재 %d).
-		기술 레벨이 3 일 때, 흡수량의 2 배 이상의 피해를 받게 되면 %d%% 확률로 부정적인 물리 효과를 하나 해제합니다. 이 효과는 한 턴에 한 번만 일어납니다.
+		기술 레벨 3 부터, 흡수량의 2 배 이상의 피해를 받게 되면 %d%% 확률로 부정적인 물리 효과를 하나 해제합니다. 이 효과는 한 턴에 한 번만 일어납니다.
 		휴식이나 탐험 시 이 기술은 자동으로 비활성화됩니다.
 		#{bold}#기술을 활성화하는 것은 턴을 소모하지 않지만, 해제하는 것은 턴을 소모합니다.#{normal}#
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -1145,7 +1145,7 @@ t("Demonic Madness", "악마의 광기", "talent name")
 t("Blighted Shield", "황폐화된 방패", "talent name")
 t([[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns %s.
 		At level 4 you also automatically block at the end.]], [[방패를 미친 듯이 회전시켜, 시전자 근처의 적에게 %d%% 방패 피해를 어둠 속성으로 가하고 %d 턴 동안 혼란시킵니다 %s.
-		기술 레벨이 4 일 때, 기술 사용 후 자동적으로 방패 막기 태세에 돌입합니다.]], "tformat")
+		기술 레벨 4 부터, 기술 사용 후 자동적으로 방패 막기 태세에 돌입합니다.]], "tformat")
 t([[Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence %s.
 		Cursed creatures have all their damage decreased by %d%% for 5 turns.
 		The effects will improve with your Spellpower.]], [[강력한 황폐의 힘이 방패에 깃듭니다. 방패 막기를 할 때, 그리고 적에게 반격 약화 효과를 부여할 때 대상에게 무기력의 저주를 내립니다 %s.
@@ -1270,8 +1270,8 @@ t([[Your successful melee hits apply a stacking effect %s that decreases damage 
 		This talent ignores saves and immunities.
 		]], [[근접 공격이 명중하면, 피해량을 %d%% 감소시키는 중첩형 효과를 적에게 쌓습니다 %s.
 		한 대상 당 %d 중첩을 쌓을 수 있고, 중첩을 쌓을 때마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면 이 효과는 즉시 사라집니다.
-		기술 레벨이 3 일 때, 중첩 당 %0.2f%% 의 감속을 겁니다.
-		기술 레벨이 5 일 때, 반경 %d 칸 내의 적을 두려움에 떨게 합니다.
+		기술 레벨 3 부터, 중첩 당 %0.2f%% 의 감속을 겁니다.
+		기술 레벨 5 부터, 반경 %d 칸 내의 적을 두려움에 떨게 합니다.
 		이 기술은 각종 내성과 면역을 무시합니다.
 		]], "tformat", {2,1,3,4,5,6})
 t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d %s.", "대상에게 공포의 힘을 증폭시켜 중첩 당 효과 효율이 %d%% 상승하고, 지속시간이 %d 턴으로 재설정됩니다. 증폭된 공포는 반경 %d 칸 내의 모든 적에게 전파됩니다 %s.", "tformat")
@@ -1373,7 +1373,7 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 t([[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
 		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d %s.
 		This attack can not miss.]], [[엄청난 힘을 담아 무기를 휘둘러, 반경 %d 칸의 반원 범위 내의 모든 적에게 %d%% 무기 피해를 가합니다.
-		기술 레벨이 5 일 때, 공격받은 모든 적의 방어력과 각종 내성이 %d 감소합니다 %s.
+		기술 레벨 5 부터, 공격받은 모든 적의 방어력과 각종 내성이 %d 감소합니다 %s.
 		이 공격은 반드시 명중합니다.]], "tformat")
 t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
 		If the attack hits you release a massive burst of fire in radius %d, knocking away %s all enemies except your target and dealing %d damage.
