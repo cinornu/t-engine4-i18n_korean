@@ -4102,14 +4102,14 @@ t([[Instantly grow a moss circle of radius %d at target area.
 t("You fire an incredibly potent shot at an enemy, doing %d%% damage and dazing them for %d turns %s.", "적에게 믿을 수 없을 정도로 강력한 사격을 날려 %d%% 피해를 주고 %d 턴 동안 혼절시킵니다 %s.", "tformat")
 t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there and knock them back 4 spaces as well as anyone else they collide with %s.
-		This attack does 180% weapon damage.
+		This attack does 180%% weapon damage.
 		You must dash from at least 2 tiles away.]], [[로켓을 이용해 돌진합니다.
 		해당 위치에 적이 있다면, 적에게 턴을 소모하지 않는 근접 공격을 가하고 4 칸 밀칩니다 %s. 밀쳐낸 적이 다른 적과 충돌하면, 그 적도 같이 밀쳐냅니다.
-		이 공격은 180% 무기 피해를 가합니다.
+		이 공격은 180%% 무기 피해를 가합니다.
 		돌진하려면 목표 지점과 적어도 2칸 이상 떨어져 있어야 합니다.]], "tformat")
 t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1.
-		This attack creates an explosion of radius 1 around every affected target, dealing 50% weapon damage and blinding them for 4 turns %s.]], [[시전자 인근의 모든 적에게 글로리해머의 절대적인 힘을 해방합니다.
-		이 공격은 영향을 받은 적에게 반경 1 칸의 폭발을 일으키고, 50% 무기 피해를 가하고 4 턴 동안 실명시킵니다 %s.]], "tformat")
+		This attack creates an explosion of radius 1 around every affected target, dealing 50%% weapon damage and blinding them for 4 turns %s.]], [[시전자 인근의 모든 적에게 글로리해머의 절대적인 힘을 해방합니다.
+		이 공격은 영향을 받은 적에게 반경 1 칸의 폭발을 일으키고, 50%% 무기 피해를 가하고 4 턴 동안 실명시킵니다 %s.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/races.lua"
