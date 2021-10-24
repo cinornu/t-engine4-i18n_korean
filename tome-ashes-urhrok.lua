@@ -184,7 +184,7 @@ t("Some enterprising adventurer seems to have noticed the skin of quasits is act
 t("Revenant", "망자", "entity name")
 t("shifting breastplate", "변화하는 흉갑", "_t")
 t("The joints of this armor creak ominously, the frame bends and heaves, almost as if breathing. The scratch and crack of metal mutters of suffering, of loss, perseverance and revenge.", "이 갑옷의 연결부는 불길하게 금이 가 있고, 뼈대는 마치 숨을 쉬고 있는 것처럼 들썩거립니다. 표면에 난 금과 상처들은 고통과 상실, 인내와 복수를 중얼거리는 듯합니다.", "_t")
-t("Status resistances shift over time to match the statuses you are being hit by.", "현재 착용자에게 적용된 상태 효과에 따라, 해당 면역력이 변화합니다.", "_t")
+t("Status resistances shift over time to match the statuses you are being hit by.", "현재 착용자에게 걸려 있는 상태 효과에 따라, 해당 면역력이 변화합니다.", "_t")
 t("Imp Claw", "임프 발톱", "entity name")
 t("red, mottled claw", "빨갛고 얼룩덜룩한 발톱", "_t")
 t("The battered remains of a flame imp's hand. It still burns with that unnatural flame.", "화염 임프의 박살난 손입니다. 아직도 기이한 화염으로 불타고 있습니다.", "_t")
@@ -701,7 +701,7 @@ t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
 		While powered-up you can not apply new Bleak Outcome stacks.		
 		Damage is based on your Spellpower.]], [[미래는 확실히 어두워 보입니다... 적들의 미래가 말이죠...
-		암울한 결과가 적용된 적을 하나 지정하여, 최대 %s 중첩을 소모하고 소모한 중첩 당 %0.2f 어둠 피해를 주는 동시에 시전자의 주문력은 6 턴 동안 중첩 당 4 증가합니다.
+		암울한 결과 효과에 걸린 적을 하나 지정하여, 최대 %s 중첩을 소모하고 소모한 중첩 당 %0.2f 어둠 피해를 주는 동시에 시전자의 주문력은 6 턴 동안 중첩 당 4 증가합니다.
 		이 효과로 주문력이 상승한 동안에는 암울한 결과 중첩을 쌓을 수 없습니다.		
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Ominous Shadow", "불길한 그림자", "talent name")
@@ -715,7 +715,7 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		The vim you get for killing the creature is increased by 100%% for every stack of Bleak Outcome.
 		The vim's worth of a creature depends on your Willpower.]], [[시전자의 행동은 적들의 암울한 결과를 암시하는 전조가 됩니다.
 		어둠, 화염, 황폐 또는 산성 피해를 가할 때마다 최대 %d 번 중첩되는 저주를 겁니다 %s. (이 효과는 하나의 적에게 한 턴에 한 번 걸립니다.)
-		적을 죽이고 얻는 원기 획득량이 적에게 적용된 암울한 결과 중첩 당 100%% 씩 상승합니다.
+		적을 죽이고 얻는 원기 획득량이 적에게 걸려 있는 암울한 결과 중첩 당 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat", {2,1})
 
 ------------------------------------------------
@@ -1270,7 +1270,7 @@ t([[Your successful melee hits apply a stacking effect %s that decreases damage 
 		This talent ignores saves and immunities.
 		]], [[근접 공격이 명중하면, 피해량을 %d%% 감소시키는 중첩형 효과를 적에게 쌓습니다 %s.
 		한 대상 당 %d 중첩을 쌓을 수 있고, 중첩을 쌓을 때마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면 이 효과는 즉시 사라집니다.
-		기술 레벨이 3 일 때, 중첩 당 %0.2f%% 의 감속을 적용합니다.
+		기술 레벨이 3 일 때, 중첩 당 %0.2f%% 의 감속을 겁니다.
 		기술 레벨이 5 일 때, 반경 %d 칸 내의 적을 두려움에 떨게 합니다.
 		이 기술은 각종 내성과 면역을 무시합니다.
 		]], "tformat", {2,1,3,4,5,6})

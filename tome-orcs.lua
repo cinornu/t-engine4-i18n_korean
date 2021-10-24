@@ -4678,7 +4678,7 @@ t("Punishment", "징벌", "talent name")
 t("#CRIMSON#%s unleashes a punishing strike for %d%% bonus damage!", "#CRIMSON#%s 징벌의 일격으로 %d%% 추가 피해를 가했다!", "logSeen", nil, {"가"})
 t([[Slam your saws into your target, dealing 100%% weapon damage + %d%% per physical, magical, or mental effect on them (up to 7 effects).
 			Sustains are not effects.
-		#{italic}#The Metal Punisher!#{normal}#]], [[톱으로 적을 내려쳐 (100%% 무기 피해 + %d%% × 대상의 물리적, 마법적, 정신적 효과) 만큼 피해를 줍니다. (최대 7 개까지 적용)
+		#{italic}#The Metal Punisher!#{normal}#]], [[톱으로 적을 내려쳐 (100%% 무기 피해 + %d%% × 대상의 물리적, 마법적, 정신적 효과) 만큼 피해를 줍니다. (최대 7 개까지 계산)
 			유지형 기술은 효과로 판정되지 않습니다.
 		#{italic}#금속의 처형자!#{normal}#]], "tformat")
 t("Battlefield Veteran", "전장의 베테랑", "talent name")
@@ -4790,9 +4790,9 @@ t([[You repurpose your steam engine to emit a cloud of toxic, corrosive chemical
 		Miasma duration does not increase on re-apply.
 		When a creature survives the miasma it becomes immune to it for 9 turns.]], [[증기 엔진이 부식성 화학물질을 독구름으로 뿜어내도록 뜯어고칩니다.
 		비즉발성 증기 공학 기술을 사용할 때마다 반경 3 칸의 독기 구름을 5 턴 동안 생성합니다. 독기 내부의 적의 회복 효율은 %d%% 저하되고, %d%% 확률로 기술 사용에 실패하게 됩니다 %s.
-		독기가 적용될 때마다 기술 실패 확률은 점점 상승합니다. 최대 5 번 적용되고, %d%% 까지 상승합니다.
+		독기 효과가 부여될 때마다 기술 실패 확률은 점점 상승합니다. 최대 5 번 중첩되고, %d%% 까지 상승합니다.
 		독기의 효과를 받고 있는 적이 근접이나 원거리 공격에 맞게 되면 독기가 상처로 스며들어가 %0.2f 산성 피해를 추가로 줍니다.
-		독기의 지속시간은 효과 재적용시에도 연장되지 않습니다.
+		독기의 지속시간은 효과 중첩시에도 연장되지 않습니다.
 		독기 속에서 살아남은 개체는 9 턴 동안 독기에 면역이 됩니다.]], "tformat")
 t([[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect %s. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
 		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], [[독기 엔진 중첩을 전부 소모하여 죽음의 산성 폭발을 일으켜, 반경 %d 칸의 원뿔 범위에 %d%% 무기 피해를 산성 속성으로 가합니다. 영향을 받은 적은 %d%% 확률로 이로운 물리적 효과나 정신적 효과가 하나 해제됩니다 %s. 이 피해는 (중첩 수 - 1) × 50%% 만큼 증가하고, (중첩수 - 1) × %d%% 확률로 추가 효과 해제가 일어납니다.
@@ -4869,7 +4869,7 @@ t([[You load advanced grenades into your launcher.
 	한 번에 하나의 수류탄만을 선택할 수 있습니다.]], "tformat")
 t("Enhance your grenade with an incendiary agent that burns through armor, dealing fire damage over 3 turns and increasing damage taken while burning by %d%% %s.", "장갑을 녹이고 화상을 입히는 가연성 물질로 수류탄을 강화합니다. 3 턴에 걸쳐 화염 피해를 주고, 화상 효과동안 대상이 입는 피해를 %d%% 늘립니다 %s.", "tformat")
 t("Enhance your grenade with incapacitating chemicals that deal acid damage and reduce global speed by %d%% for 3 turns %s.", "대상을 무력화하는 화학 물질로 수류탄을 강화합니다. 산성 피해를 주고, 대상의 전체 속도를 3 턴 동안 %d%% 감소시킵니다 %s.", "tformat")
-t("Enhance your grenade with an electrical charge, causing it to deal lightning damage and shock targets for %d turns, reducing stun and pin resistance by 50%% %s.", "적을 마비시키는 전류로 수류탄을 강화합니다. 전기 피해를 주고, 대상에게 %d 턴 동안 지속되는 전기 충격 효과를 적용합니다. 기절과 속박 저항을 50%% 낮춥니다 %s.", "tformat")
+t("Enhance your grenade with an electrical charge, causing it to deal lightning damage and shock targets for %d turns, reducing stun and pin resistance by 50%% %s.", "적을 마비시키는 전류로 수류탄을 강화합니다. 전기 피해를 주고, 대상에게 %d 턴 동안 지속되는 전기 충격 효과를 겁니다. 기절과 속박 저항을 50%% 낮춥니다 %s.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/dread.lua"
@@ -4983,7 +4983,7 @@ t([[When you reach 10 molten points your armour overheats, reaching temperatures
 		When this happens all molten points are consumed and trigger a Furnace Vent at the creature that triggered the last molten point.
 		This effect drains 15 steam when triggered, and will not trigger if steam is too low.
 		#{italic}#It's only a flesh burn!#{normal}#
-		]], [[용해 점수가 10 점에 도달하면 방어구가 고열로 인해 과열됩니다. 너무나도 뜨거워진 방어구는 시전자에게 적용된 최대 %d 개의 부정적인 물리 효과를 열기로 '지져서' 제거합니다.
+		]], [[용해 점수가 10 점에 도달하면 방어구가 고열로 인해 과열됩니다. 너무나도 뜨거워진 방어구는 시전자에게 걸린 부정적인 물리 효과를 최대 %d 개까지 열기로 '지져서' 제거합니다.
 		이때는 특별한 주사기로 화염 면역 혈청을 투여해 화염과 화상의 영향을 받지 않습니다.
 		이 효과가 발동되면 용해 점수가 전부 소모되며, 마지막 용해 점수를 누적시킨 적의 방향으로 환기구를 개방합니다.
 		이 효과는 발동 시 증기를 15 소모하며, 증기가 부족할 경우 발동되지 않습니다.
@@ -5066,7 +5066,7 @@ t([[You have learned to fire while moving.
 		This talent can be activated for up to %d consecutive turns before it goes on cooldown, and takes time according to your steamtech speed or movement speed (if you move), whichever is slower.
 		When Strafe ends you may instantly reload between %d and %d ammo (based on the number of strafes you performed and your ammo capacity).]], [[움직이면서 사격하는 방법을 배웠습니다.
 		한 번의 행동으로, 두 자루의 증기총을 발사하고 (100%% 무기 피해, 사거리 불이익 1 칸) 인접한 장소로 이동할 수 있습니다 (행동 불가 상태나, 속박 상태에서는 이동할 수 없습니다).
-		이 기술은 재사용 대기시간이 적용되기 전까지 최대 %d 회 사용할 수 있습니다. 이 기술을 사용할 때, 증기 공학 속도나 이동 속도 중 (이동 시에만 적용) 느린 쪽을 적용하여 사용합니다.
+		이 기술은 재사용 대기 상태가 되기 전까지 최대 %d 회 사용할 수 있습니다. 이 기술을 사용할 때, 증기 공학 속도나 이동 속도 중 (이동 시에만 적용) 느린 쪽을 적용하여 사용합니다.
 		이동 사격이 전부 끝나면 탄환을 %d - %d 발 장전합니다 (장전량은 이동 사격을 사용한 횟수와 최대 탄약 소지량에 비례합니다).]], "tformat")
 t("Startling Shot", "경고 사격", "talent name")
 t("Something", "무엇인가", "_t")
@@ -5179,7 +5179,7 @@ The damage dealt by the fire wall and the chance to apply effects will increase 
 #AQUAMARINE#화염방사기#LAST#: 지표면을 불태워 %d%% 총기 피해를 화염 속성으로 가하고, 7 칸 길이의 불길의 벽을 만들어냅니다. 불길의 벽은 5 턴 동안 지속되며, 안에 있는 모든 개체는 %0.2f 화염 피해를 받고 2 턴 동안 화염 저항이 %d%% 감소합니다 %s.
 #AQUAMARINE#충격 지팡이#LAST#: 대상을 지팡이로 후려쳐 지팡이 피해의 %d%% 의 전기 피해를 가하는 반경 3 칸의 충격파를 일으키고, 범위 내의 모든 개체를 %d 턴 동안 기절시킵니다 %s.
 #AQUAMARINE#화살탄 발사기#LAST#: 화살탄을 %d 발 쏩니다. 한 발당 %d%% 총기 피해를 산성 속성으로 가하고, 대상을 5 턴 동안 무장해제시킵니다 %s.
-화염벽의 피해량과 상태이상 적용 확률은 증기력에 비례하여 증가합니다.]], "tformat")
+화염벽의 피해량과 상태이상 확률은 증기력에 비례하여 증가합니다.]], "tformat")
 t([[You augment your shield with your heavy weapon technology, causing an effect when you Block with a heavy weapon equipped.
 #AQUAMARINE#Flamethrower#LAST#: Vent choking, burning smoke in an area of the same radius as your flamethrower. Enemies caught within take %d%% shield damage as fire and are silenced for %d turns %s.
 #AQUAMARINE#Shockstaff#LAST#: Sheathe your shield in lightning and attack all enemies in radius 3, dealing %d%% shield damage as lightning and gaining a barrier absorbing an amount of damage equal to 100%% of the highest damage dealt for 6 turns.
@@ -5850,7 +5850,7 @@ The stat bonus as well as the damage and healing dealt by Flame and Medic Turret
 
 기술 점수 1 점: 근처의 무작위한 적에게 %d%% 총기 피해를 가하는 총기 포탑을 설치할 수 있게 됩니다. 총기 포탑의 사격은 아군에게 영향을 주지 않습니다.
 기술 점수 3 점: 반경 3 칸의 원뿔 범위에 화염 피해를 주는 화염 포탑을 설치할 수 있게 됩니다. 화염 포탑은 추가 방어력 %d 과 모든 피해 저항 30%% 를 갖습니다.
-기술 점수 4 점: 아군에게 회복 안개를 내뿜어 생명력을 %d 회복시키고, 새로 적용된 부정적인 효과의 지속시간을 %d%% 줄여주는 의료 포탑을 설치할 수 있게 됩니다.
+기술 점수 4 점: 아군에게 회복 안개를 내뿜어 생명력을 %d 회복시키고, 새로 걸린 부정적인 효과의 지속시간을 %d%% 줄여주는 의료 포탑을 설치할 수 있게 됩니다.
 
 이 기술은 모든 포탑의 민첩, 체격, 교활을 %d 늘려줍니다.
 
@@ -5923,8 +5923,8 @@ t([[You are adept at wreaking havoc onto your foes!
 		Each time you (or any others) would try to apply a cross-tier effect to this creature, you also try to apply the other two.
 		In addition your physical, steam, spell and mind powers are increased by %d.
 		The powers increase scales of your Cunning.]], [[능숙하게 혼란을 몰고 올 수 있게 되었습니다!
-		피해를 가할 때마다 공격한 대상에게 20 턴 동안 다가오는 재앙 효과가 적용됩니다.
-		시전자가 (또는 그 밖의 개체들이) 이 개체에게 어떤 압도 효과를 적용하려 할 때마다, 다른 두 압도 효과까지 같이 걸어버립니다.
+		피해를 가할 때마다 공격한 대상에게 20 턴 동안 다가오는 재앙 효과가 부여됩니다.
+		시전자가 (또는 그 밖의 개체들이) 이 개체에게 어떤 압도 효과를 걸려 할 때마다, 다른 두 압도 효과까지 같이 걸어버립니다.
 		추가로 물리력, 주문력, 정신력, 증기력이 %d 증가합니다.
 		위력은 교활 능력치에 비례하여 증가합니다.]], "tformat")
 t("Rak'Shor's Cunning", "락'쇼르의 비술", "talent name")
@@ -6261,7 +6261,7 @@ t([[#LIGHT_RED#- Rod (%d): %d turns
 ]], "tformat")
 t("cunning", "교활", "effect subtype")
 t("Incoming Disasters", "다가오는 재앙", "_t")
-t("Vulnerable to more cross tier effects.", "세 가지 압도 효과가 한꺼번애 적용됨.", "tformat")
+t("Vulnerable to more cross tier effects.", "세 가지 압도 효과가 한꺼번에 걸리게 됨.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/physical.lua"
@@ -6488,7 +6488,7 @@ t("#LIGHT_BLUE#(%d lightning web)#LAST#", "#LIGHT_BLUE#(%d 전기망)#LAST#", "t
 t("Incendiary Grenade", "발화성 수류탄", "_t")
 t("The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "대상이 불타오름: 매 턴 %d 화염 피해 받음 / 피격 시 받는 피해량 +%d%%.", "tformat")
 t("Healing Mist", "회복 안개", "_t")
-t("Newly applied status effects durations are reduced by %d%%.", "새로 적용되는 상태 효과의 지속시간 -%d%%.", "tformat")
+t("Newly applied status effects durations are reduced by %d%%.", "새로 걸리는 상태 효과의 지속시간 -%d%%.", "tformat")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s 회복했다!#LAST#", "logSeen", nil, {"가"})
 t("shield", "보호막", "effect subtype")
 t("Overclock", "오버클럭", "_t")

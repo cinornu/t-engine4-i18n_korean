@@ -678,7 +678,7 @@ t("%s resists the mental assault!", "%s 정신 공격에 저항했다!", "logSee
 t("Writhing Ring of the Hunter", "사냥꾼의 몸부림치는 반지", "entity name")
 t("green slimy ring", "초록색의 끈적이는 반지", "_t")
 t("A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "뒤틀린 촉수 덩어리가 거칠게 비틀려 반지의 형상을 갖게 되었습니다. 사악한 어둠의 힘이 반지에서 뿜어져 나오고 있습니다.", "_t")
-t("When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "반지를 처음 착용하면, 반지는 착용자에게 적응하여 특수 기술을 하나 더 선택할 수 있도록 해줍니다. 해당 특수 기술은 반지를 착용하고 있다면 영구적으로 적용됩니다. 한 번 선택한 특수 기술은 변경할 수 없습니다. 만약 처음 착용 시 특수 기술을 선택하지 않았다면, 다시 착용했을 때 특수 기술을 선택합니다.", "_t")
+t("When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "반지를 처음 착용하면, 반지는 착용자에게 적응하여 특수 기술을 하나 더 선택할 수 있도록 해줍니다. 반지를 착용하고 있는 동안에는 해당 특수 기술을 얻습니다. 한 번 선택한 특수 기술은 변경할 수 없습니다. 만약 처음 착용 시 특수 기술을 선택하지 않았다면, 다시 착용했을 때 특수 기술을 선택합니다.", "_t")
 t("#DARK_SEA_GREEN#While the ring senses battle it grips your finger so hard you can not take it off.", "#DARK_SEA_GREEN#반지가 전투가 일어났음을 느끼자, 손가락에 딱 달라붙어서 빠지지가 않는다.", "logPlayer")
 t("#DARK_SEA_GREEN#As you put the %s on your finger, you feel more attuned to the horror within you.", "#DARK_SEA_GREEN#%s 손가락에 끼자, 내면에 자리잡은 공포에 더 익숙해진 것 같다.", "logPlayer", nil, {"를"})
 t("Staff of Bones", "뼈의 지팡이", "entity name")
@@ -2680,7 +2680,7 @@ t("Preordain", "운명 예지", "talent name")
 t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "인과 관계의 흐름을 교묘하게 조작하여, 적들에게 더 큰 불행을 가져옵니다. 6 중첩 이상의 불운 중첩은 %d%% 확률로 기술 사용을 실패하게 합니다.", "tformat")
 t("Luckdrinker", "행운 포식자", "talent name")
 t([[Each time you apply Jinx to an enemy, you have a %d%% chance to siphon some of their luck for yourself for 5 turns. This stacks up to 10 times, increasing saves and defense by %0.2f and critical strike chance by %0.2f%%.
-		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[적에게 불운을 적용할 때마다 %d%% 의 확률로 적들의 행운을 흡수합니다. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 시전자의 내성과 회피도가 %0.2f, 치명타 확률이 %0.2f%% 씩 증가합니다.
+		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[적에게 불운을 부여할 때마다 %d%% 의 확률로 적들의 행운을 흡수합니다. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 시전자의 내성과 회피도가 %0.2f, 치명타 확률이 %0.2f%% 씩 증가합니다.
 		운명 예지를 이미 배운 경우, 행운 포식자가 6 중첩 이상일 시 %d%% 확률로 받은 피해를 완전히 무효화 합니다.]], "tformat")
 t("Fatebreaker", "운명 파괴자", "talent name")
 t([[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
@@ -2737,7 +2737,7 @@ Your increased damage, damage penetration, critical strike chance, and critical 
 		]], [[공포와의 유대를 이용하여 부패하는 부풀어오른 공포를 %d 턴 동안 불러냅니다.
 부패하는 공포는 움직일 수가 없어, 사거리 내의 적밖에 공격하지 못합니다. 부패하는 부풀어오른 공포는 정신 방해와 정신 파괴 기술을 사용합니다.
 부패하는 부풀어오른 공포의 모든 기본 능력치는 %d 이고 (시전자의 마법 능력치에 비례합니다), 레벨 당 생명력 증가율은 %d 입니다. 공포가 사용하는 모든 기술의 레벨은 %d 입니다. 다른 능력치들은 레벨에 비례하여 증가합니다.
-시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 부패하는 부패하는 부풀어오른 공포에도 적용됩니다
+시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 부패하는 부패하는 부풀어오른 공포에도 적용됩니다.
 		]], "tformat")
 t("Horrific Display", "공포스러운 모습", "talent name")
 t("%s resists the horrific assault!", "%s 공포의 맹공을 버텨냈다!", "logSeen", nil, {"는"})
@@ -2861,7 +2861,7 @@ t("None", "없음", "_t")
 t([[You speak a chosen prophecy to the masses. When applying this prophecy, it will spread to all targets in radius %d.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
-		Current prophecy: %s]], [[선택한 예언을 군중에게 고합니다. 예언이 적용될 때, 반경 %d 칸 이내의 모든 대상에게 예언이 퍼져나갑니다.
+		Current prophecy: %s]], [[선택한 예언을 군중에게 고합니다. 예언이 내려질 때, 반경 %d 칸 이내의 모든 대상에게 예언이 퍼져나갑니다.
 		하나의 예언은 위대한 기도문, 이중 저주, 계시 중 단 하나의 강화 효과를 받습니다.
 		
 		현재 예언: %s]], "tformat")
@@ -3102,7 +3102,7 @@ t([[Your Nihil unravels the existence of the target, tearing them apart with ent
 		The Herald will have a bonus to all attributes equal to your Magic.  Many other stats will scale with level.
 		Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[허무가 대상의 존재를 해체하여, 엔트로피를 통해 갈가리 찢습니다.
 		허무의 효과가 사라지기 전까지 대상에게 부정적인 마법 효과가 6번 부여되면, 소멸의 전령이 소환되어 %d 턴 동안 시전자의 편에서 싸웁니다.
-		허무가 부여되기 이전에 걸어 둔 부정적 효과, 주문 충격, '비전의 눈: 보임' 은 상술한 6번에 포함되지 않습니다. 단, 이전에 걸어 둔 부정적 효과를 한 번 더 적용하여 갱신하는 것은 인정됩니다.
+		허무가 부여되기 이전에 걸어 둔 부정적 효과, 주문 충격, '비전의 눈: 보임' 은 상술한 6번에 포함되지 않습니다. 단, 이전에 걸어 둔 부정적 효과를 한 번 더 부여하여 갱신하는 것은 인정됩니다.
 		시전자의 마법 능력치와 같은 수치가 전령의 모든 능력치에 더해집니다. 그 외의 능력치들은 레벨에 따라 증가합니다.
 		시전자의 피해량 증가량, 저항 관통, 치명타 확률, 치명타 피해 증가는 전령에게도 적용됩니다.]], "tformat")
 t("Erase", "삭제", "talent name")
@@ -3120,7 +3120,7 @@ t([[Summon a radius 4 storm of all-consuming oblivion at the targeted location f
 		이 피해는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Void Crash", "공허 파쇄", "talent name")
 t("Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "무기를 지면에 내리쳐 반경 2 칸의 공허 에너지 폭발을 일으킵니다. %d%% 어둠/시간 피해를 가합니다.", "tformat")
-t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns %s. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "엔트로피가 주변 세계로 번져나갑니다. 시전자에게 엔트로피 반발이 쌓이거나 증가하면, 시야 10 칸 내 무작위한 적 %d 체가 8 턴 동안 엔트로피의 힘에 둘러싸이게 됩니다 %s. 이 대상들에게 새로 적용되는 부정적 효과들의 지속시간과 이로운 효과의 지속시간이 %d%% 연장 / 단축됩니다.", "tformat")
+t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns %s. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "엔트로피가 주변 세계로 번져나갑니다. 시전자에게 엔트로피 반발이 쌓이거나 증가하면, 시야 10 칸 내 무작위한 적 %d 체가 8 턴 동안 엔트로피의 힘에 둘러싸이게 됩니다 %s. 이 대상들에게 새로 걸리는 부정적 효과들의 지속시간과 이로운 효과의 지속시간이 %d%% 연장 / 단축됩니다.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/path-of-horror.lua"
@@ -3484,7 +3484,7 @@ t("Netherforce", "황천의 힘", "talent name")
 t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f temporal damage to the target and knocking them back 8 spaces.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
 		The damage will increase with your Spellpower.]], [[공허의 힘으로 적을 강타해 %0.2f 어둠 피해와 %0.2f 시간 피해를 대상에게 입히고, 8 칸 밀쳐냅니다.
-		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 적용합니다. 이 피해는 엔트로피의 선물에 사용할 수 있습니다.
+		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 쌓습니다. 이 피해는 엔트로피의 선물에 사용할 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -3498,7 +3498,7 @@ t([[Enter a killing frenzy for 3 turns.
 		During the frenzy the first time you use a class talent it has no cooldown (but does if used twice).
 		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
 		]], [[3 턴 동안 살육의 광란에 진입합니다.
-		지속시간 동안 처음 사용한 직업 기술은 재사용 대기시간이 적용되지 않습니다 (즉, 같은 기술을 2 번 사용할 시 재사용 대기시간이 적용됩니다).
+		지속시간 동안 처음 사용한 직업 기술은 재사용 대기 상태가 되지 않습니다 (즉, 같은 기술을 2 번 사용할 시 재사용 대기 상태가 됩니다).
 		이 효과는 각인, 즉발성 기술, 지속형 기술, 재사용 대기시간이 고정된 기술에는 적용되지 않습니다.
 		]], "tformat")
 t("Spikeskin", "가시 피부", "talent name")
@@ -3615,7 +3615,7 @@ t("S.M.A.C.K.", "죽.인.다. 안전한 투기장", "_t")
 t("Fight your foe! If anything wrong happens, the Fortress will pull you out.", "적과 맞서 싸워라! 뭔가 잘못되면, 요새가 당신을 끌어낼 것임.", "_t")
 t("frenzy", "광란", "effect subtype")
 t("Frenzy", "광폭화", "_t")
-t("Class talents have no cooldown the first time they are used.", "첫번째로 사용하는 직업 기술에는 재사용 대기시간이 적용되지 않음.", "_t")
+t("Class talents have no cooldown the first time they are used.", "첫번째로 사용하는 직업 기술은 재사용 대기 상태가 되지 않음.", "_t")
 t("bleed", "출혈", "effect subtype")
 t("Black Blood Bleeding", "검은 피 출혈 중", "_t")
 t("Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "매 턴 %0.2f 어둠 피해 입음.", "tformat")
@@ -3832,7 +3832,7 @@ t("Fortune", "행운", "_t")
 t("The target has %d increased saves and defense, and %d%% increased critical chance.", "모든 내성과 회피도 +%d / 치명타 확률 +%d%%", "_t")
 t("The target has %d increased saves and defense, %d%% increased critical chance, and %d%% chance to avoid all damage.", "모든 내성, 회피도 +%d / 치명타 확률 +%d%%  / 피해 무효화 확률 +%d%%.", "_t")
 t("Unravelling", "존재 해체", "_t")
-t("The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "현실 구조에서 사라지는 중: 마법 효과가 적용될 시, %0.2f 어둠 피해와 %0.2f 시간 피해를 입음 / 효과가 5 개 적용되면, 강력한 소멸의 전령이 나타남.", "tformat")
+t("The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "현실 구조에서 사라지는 중: 마법 효과가 부여될 시, %0.2f 어둠 피해와 %0.2f 시간 피해를 입음 / 효과가 5 개 부여되면, 강력한 소멸의 전령이 나타남.", "tformat")
 t("#Target# is being erased from reality!", "#Target2# 현실에서 지워지고 있다!", "_t")
 t("#Target# has survived the unraveling.", "#Target2# 존재 해체에서 살아남았다.", "_t")
 t("Fatebreaker", "운명 파괴자", "_t")
@@ -3881,7 +3881,7 @@ All debuffs removed and all talent cooldowns reset on application.
 
 Each turn a radius 2 explosion will occur in a random space dealing %0.2f darkness and temporal damage and destroying any diggable walls.]], [[진정한 힘이 깨어난다!
 
-모든 부정적인 효과가 제거됨 / 효과를 적용 받을 때, 즉시 재사용 대기시간이 초기화됨.
+모든 부정적인 효과가 제거됨 / 이 효과를 받는 순간 즉시 모든 재사용 대기시간이 초기화됨.
 
 매 턴, 반경 2 칸의 폭발이 무작위한 공간에 일어나 %0.2f 어둠과 시간 피해를 주고, 굴착 가능한 벽을 부숨.]], "tformat")
 t("entropy", "엔트로피", "effect subtype")
@@ -3892,9 +3892,9 @@ t("Save Kroshkkur", "크로슈쿠르를 구하라", "_t")
 t("Kroshkkur is still under threat from %s.", "크로슈쿠르는 여전히 %s의 위협 속에 있다.", "tformat")
 t("#CRIMSON#You waited too long, Kroshkkur has been destroyed by %s!", "#CRIMSON#시간을 너무 낭비했다. 크로슈쿠르는 %s에 의해 파괴되었다!", "say")
 t("Covered in Gastric Fluids", "위액에 덮임", "_t")
-t("Reduces all damage taken by %d%% and remove all detrimental effects on application.", "받는 피해 -%d%% / 효과를 적용 받을 때, 모든 부정적인 효과 제거.", "tformat")
+t("Reduces all damage taken by %d%% and remove all detrimental effects on application.", "받는 피해 -%d%% / 이 효과를 받는 순간, 모든 부정적인 효과 제거.", "tformat")
 t("debilitate", "쇠약", "effect subtype")
-t("Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "가하는 피해 -%d%% / 효과를 적용 받을 때, 모든 부정적인 효과 6 턴 연장됨.", "tformat")
+t("Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "가하는 피해 -%d%% / 이 효과를 받는 순간, 모든 부정적인 효과 6 턴 연장됨.", "tformat")
 t("blind", "실명", "effect subtype")
 t("Blinded", "실명", "_t")
 t("The target is blinded, unable to see anything.", "어떤 것도 볼 수 없음.", "_t")
