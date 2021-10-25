@@ -800,7 +800,7 @@ t("Light of Revelation", "계시의 빛", "entity name")
 t("disturbing lantern", "방해되는 랜턴", "_t")
 t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "유리 비슷한 물체가 그저 빛을 내고 있는 \"랜턴\"입니다. 얼마나 밝게 빛나든 간에 이 빛은 당신을 심각하게 방해합니다. 빛은 모든 것을 밝히고, 모르는 게 더 나은 것들마저 비춰줍니다. 마음 한구석에서는 이 랜턴을 버리고 싶지만, 다른 한구석에서는 이 랜턴이 밝혀줄, 기이하기 짝이 없는 진실을 알고 싶다는 생각이 듭니다.", "_t")
 t("Sometimes reveals the hidden truths you'd rather not see.", "가끔 착용자가 보고 싶지 않았던 숨겨진 진실을 밝혀줍니다.", "_t")
-t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#계시의 빛이 %s 비춰, 진짜 본성인 %s 나타나게 했다!", "say", nil, {"를","가"})
+t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#계시의 빛이 %s 비춰, 진짜 본성인 %s 드러냈다!", "say", nil, {"를","를"})
 t("Glowing Core", "빛나는 핵", "entity name")
 t("burning core", "불타는 핵", "_t")
 t("This is all that's left of the Searing Horror. Even after its death, the object in your hand glows just as brightly as it did before.", "불사르는 빛의 공포가 남긴 유일한 물건입니다. 죽고 난 뒤에도, 당신의 손 안에서 찬란한 빛을 뿜어내고 있습니다. 살아 있을 때 그랬던 것처럼.", "_t")
@@ -819,7 +819,7 @@ t("A wonder of footwear! You can set a shoe to stay in place while the other one
 t([[Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.
 You move 3 spaces at once.]], [[움직이지 않을 때마다, 회피도와 방어력이 2 상승합니다. 이 효과는 최대 12 번 중첩 가능합니다.
 한 번에 3 칸 움직입니다.]], "_t")
-t("As you combine the two pair of shoes you make something marvelous: %s", "두 신발을 합치자 굉장한 걸작을 만들어냈다: %s!", "logPlayer")
+t("As you combine the two pair of shoes you make something marvelous: %s", "두 신발을 합쳐 굉장한 걸작을 만들어냈다. 바로 %s이다!", "logPlayer")
 t("Rod of Entropy", "엔트로피의 장대", "entity name")
 t("light sucking rod", "빛을 흡수하는 장대", "_t")
 t("This rod seems to make light die around it. You feel tired just looking at it.", "이 장대는 주변의 빛을 죽여버리는 것 같습니다. 보는 것만으로도 피곤해집니다.", "_t")
