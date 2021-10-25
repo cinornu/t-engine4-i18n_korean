@@ -4483,7 +4483,7 @@ t("Necrotic Breath", "괴사의 숨결", "talent name")
 t("@Source@ breathes a wave of darkness!", "@Source2@ 어둠의 파도를 뿜어냈다!", "_t")
 t([[Release a cloud of deadly miasma over a targeted area, dealing %0.2f darkness damage to all units inside it with a 20%% chance of inflicting a disease %s that will do blight damage and weaken either Constitution, Strength or Dexterity for %d turns.
 		The damage will scale with the highest of your spell or mind power.]], [[해당 지역에 죽음의 독기를 풀어놓아 지역 내의 모든 개체에게 %0.2f 어둠 피해를 줍니다. 독기는 20%% 확률로 %d 턴 동안 지속되는 질병에 감염시켜 %s 매 턴 황폐 피해를 가하고, 체격, 힘, 민첩 중 하나를 감소시킵니다.
-		피해량은 주문력과 정신력 중 높은 값에 비례합니다.]], "tformat")
+		피해량은 주문력과 정신력 중 높은 값에 비례합니다.]], "tformat", {1,3,2})
 t([[You breathe a wave of deathly miasma in a cone of radius %d. Any target caught in the area will take %0.2f darkness damage over 4 turns and receive either a bane of confusion or a bane of blindness for 4 turns %s.
 		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[반경 %d 칸의 원뿔 범위에 죽음의 독기를 내뿜습니다. 범위 내의 모든 대상은 %0.2f 어둠 피해를 4 턴에 걸쳐 나눠 받고, 4 턴 동안 혼란의 파멸이나 실명의 파멸에 걸립니다 %s.
 		피해량은 마법 능력치에 비례하여 증가하고, 주문 치명타 확률을 적용받습니다.]], "tformat")
@@ -4793,7 +4793,7 @@ t([[You repurpose your steam engine to emit a cloud of toxic, corrosive chemical
 		독기 효과가 부여될 때마다 기술 실패 확률은 점점 상승합니다. 최대 5 번 중첩되고, %d%% 까지 상승합니다.
 		독기의 효과를 받고 있는 적이 근접이나 원거리 공격에 맞게 되면 독기가 상처로 스며들어가 %0.2f 산성 피해를 추가로 줍니다.
 		독기의 지속시간은 효과 중첩시에도 연장되지 않습니다.
-		독기 속에서 살아남은 개체는 9 턴 동안 독기에 면역이 됩니다.]], "tformat")
+		독기 속에서 살아남은 개체는 9 턴 동안 독기에 면역이 됩니다.]], "tformat", {2,3,1,4,5})
 t([[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect %s. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
 		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], [[독기 엔진 중첩을 전부 소모하여 죽음의 산성 폭발을 일으켜, 반경 %d 칸의 원뿔 범위에 %d%% 무기 피해를 산성 속성으로 가합니다. 영향을 받은 적은 %d%% 확률로 이로운 물리적 효과나 정신적 효과가 하나 해제됩니다 %s. 이 피해는 (중첩 수 - 1) × 50%% 만큼 증가하고, (중첩수 - 1) × %d%% 확률로 추가 효과 해제가 일어납니다.
 		이 공격은 적의 방어력을 무시하며, 이 기술을 사용하기 위해서는 독기 엔진 중첩이 최소 1 필요합니다.]], "tformat", {2,1,3,4,5})
