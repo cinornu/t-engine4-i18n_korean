@@ -176,7 +176,7 @@ t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has resp
 t("[die]", "[죽는다]", "_t")
 t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#당신은 죽고 싶지 않습니다. 더 생각할 것도 없이, 그 존재의 제안을 받아들였습니다. 기쁘게도, 그 존재는... 뭔가를 하기 시작했습니다. 의식이 깨어나기 시작하고, 자신의 생명이 사지로 돌아오는 것이 느껴졌습니다. 하지만, 깨지는 듯한 두통이 느껴지고 목 쪽의 고통도 잦아들질 않습니다. 당신을 죽음에서 건져내기 위해 그 존재는 무엇을 한 걸까요?#{normal}#", "_t")
 t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#이상하다... 당신은 확실히 죽었지만, 아직도 여기에 있다. 하지만 뭔가 중요한 게 없어진 느낌이 든다. 목 부분도 미칠듯이 아프고 깨질 듯한 두통도 느껴진다. 왠지 모르게, 당분간 거울을 봐서는 안 된다는 미묘한 생각이 들었다.", "log")
--- new text
+-- untranslated text
 --[==[
 t("...", "...", "_t")
 --]==]
@@ -653,16 +653,23 @@ t("Rags of the Sanctuary", "성역의 넝마", "entity name")
 t("rags", "넝마", "entity short_name")
 t("misc", "도구", "entity type")
 t("tool", "도구", "entity subtype")
-t("Bizzare Contraption", "기묘한 장치", "entity name")
 t("bizzare contraption", "기묘한 장치", "_t")
 t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "이 이상한 장치는 겉도 속도 모두 기계인 것 같지만, 그 부품 중 어떤 것도 어떻게 작동하는지 이해할 수가 없습니다. 옆면에는 가끔씩 이상한 소음을 내는 금속 격자 같은 게 달려 있습니다.", "_t")
 t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% 확률로 받은 공격을 완벽하게 흡수합니다. 이 효과는 30 턴의 재사용 대기시간이 있습니다.", "_t")
-t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "기묘한 장치가 공격을 완벽히 흡수했다 (%0.2f 피해 흡수됨).", "logSeen")
 t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#전자기적 보호막 활성화. 실시간 생체 모니터링 개시.#{normal}#", "logPlayer")
 t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
 t("Fanged Collar", "송곳니 목줄", "entity name")
 t("It's a head... but is it yours?", "머리인데... 이거 당신 머리 맞나요?", "_t")
+-- new text
+--[==[
+t("Bizarre Contraption", "Bizarre Contraption", "entity name")
+t("The Bizarre Contraption fully absorbs the blow (%0.2f damage absorbed).", "The Bizarre Contraption fully absorbs the blow (%0.2f damage absorbed).", "logSeen")
+--]==]
+
+-- old translated text
+t("Bizzare Contraption", "기묘한 장치", "entity name")
+t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "기묘한 장치가 공격을 완벽히 흡수했다 (%0.2f 피해 흡수됨).", "logSeen")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
@@ -791,6 +798,13 @@ t("charm", "부적", "entity type")
 t("totem", "토템", "entity subtype")
 t("Persistent Will", "집요한 의지", "entity name")
 t("ever burning stake", "영원히 불타는 말뚝", "_t")
+t([[During the Age of Dusk a rash of anti-magic activities took place in the Nargol Kingdom immediately after the Spellblaze. Citizens would turn on those with magical powers, burning them alive on stakes of wood. When the authorities found the perpetrators they executed them and planted their heads on stakes throughout their capital city.
+Despite this however, the citizenry continued to burn alive the enemies of nature. Unbeknownst to the authorities, the heads of the dead perpetrators continued to spread their message long after their deaths.
+
+This stake of wood appears to be one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], [[황혼의 시대, 마법폭발 이후 나르골 왕국에서 반마법 활동이 급격하게 증가했습니다. 시민들은 마법의 힘을 다루는 이들에 맞서, 마법 사용자들을 말뚝에 묶고 산 채로 불태웠습니다. 그 가해자들은 관리들이 즉시 처형하고, 그 머리를 효수하여 나르골 왕국의 수도 도처에 놓아두었습니다.
+그럼에도 불구하고 시민들은 계속해서 대자연의 적들을 산 채로 불태웠습니다. 관리들은 죽은 가해자들의 머리가 죽고 나서도 오랫동안 민중을 선동했다는 걸 몰랐습니다.
+
+이 나무 말뚝에는 처형된 머리가 하나 꽂혀 있었을 것 같습니다. 말뚝은 꽂혀 있던 머리의 의지를 일부 흡수해, 들고 있노라면 지구랏의 전언이 머릿속에 울려퍼집니다.]], "_t")
 t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "반경 10 칸 내의 모든 비 마법 사용자들을 마법을 사용하는 동료들에게 강제로 적대하게 합니다. 이 효과는 6 턴 동안 지속되며, 확률은 정신력에 비례합니다.", "tformat")
 t("Worm Nest", "구더기 둥지", "entity name")
 t("disgusting robe", "역겨운 로브", "_t")
@@ -829,14 +843,11 @@ t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 꿈틀대는 촉수 덩어리는 마석을 감염시켜, 자연물과 비자연물의 기묘한 융합을 이루고 있습니다. 한때 깨끗했던 보석은 이제 채찍 같은 촉수가 달린 검은 흑요석 조각에 더 가까워 보입니다. 이 공포체가 자연 그 자체와 융합할 수 있다고는 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 분출을 대상에게 시전합니다", "_t")
+-- untranslated text
+--[==[
 t("%s: \"%s\"", "%s: \"%s\"", "tformat")
-t([[During the Age of Dusk a rash of anti-magic activities took place in the Nargol Kingdom immediately after the Spellblaze. Citizens would turn on those with magical powers, burning them alive on stakes of wood. When the authorities found the perpetrators they executed them and planted their heads on stakes throughout their capital city.
-Despite this however, the citizenry continued to burn alive the enemies of nature. Unbeknownst to the authorities, the heads of the dead perpetrators continued to spread their message long after their deaths.
+--]==]
 
-This stake of wood appears to be one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], [[황혼의 시대, 마법폭발 이후 나르골 왕국에서 반마법 활동이 급격하게 증가했습니다. 시민들은 마법의 힘을 다루는 이들에 맞서, 마법 사용자들을 말뚝에 묶고 산 채로 불태웠습니다. 그 가해자들은 관리들이 즉시 처형하고, 그 머리를 효수하여 나르골 왕국의 수도 도처에 놓아두었습니다.
-그럼에도 불구하고 시민들은 계속해서 대자연의 적들을 산 채로 불태웠습니다. 관리들은 죽은 가해자들의 머리가 죽고 나서도 오랫동안 민중을 선동했다는 걸 몰랐습니다.
-
-이 나무 말뚝에는 처형된 머리가 하나 꽂혀 있었을 것 같습니다. 말뚝은 꽂혀 있던 머리의 의지를 일부 흡수해, 들고 있노라면 지구랏의 전언이 머릿속에 울려퍼집니다.]], "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/stores/cults.lua"
@@ -1946,6 +1957,39 @@ As the front lines drew closer, we would be caught off guard when the ghouls mad
 
 최전선의 놈들과 거리가 좁혀지자, 구울들이 이번엔 아예 우리의 머리 위를 뛰어넘고는 우리의 등 뒤에서 다가왔다. 눈 깜짝할 새에 구울들에게 포위되어 후방에서 맹습을 받았고, 전방에서는 언데드 군단이 밀려들어왔다. 도망갈 곳을 잃은 궁수와 마법사들은 후방에서 구울의 손에 살해당하고, 전방의 병사들은 공격을 막아내기 위해 안간힘을 썼다. 전이 마법을 쓸 수 있는 자들은 어쩔 줄 몰라하며 마법으로 전선에서 이탈했다. 언데드들에게 포위당하고 다들 혼란에 빠진 이때, 모두 다 끝났다고 생각했다.]], "_t")
 t("Escapades of Fay Willows [Book 5, Chapter 3] - Leadership From The Front", "페이 윌로우즈의 여행기 [5권, 제3장] - 최전선에서 발하는 지도력", "_t")
+t([[[i]As an experienced commander would tell me long after the battle with the undead "the winner of a battle is not necessarily dictated by the amount of enemies slain but rather by which side breaks first." While the quality of an armies ability to fight is important it means nothing should its soldiers lose the will to fight. We had been lucky in the defense of Elvala with the aid from the ogres and eventually rallying leadership of Aranion.  Without them all hope of victory would have surely been lost.[/i]
+
+The hatred within me began to build as enemies attacked from in front and behind. However, I had my own problems to deal with as one of the bone giants, as I would call them, stepped up to clobber me. Managing to somehow avoid the first attack I focused the chaotic energies within me and unleashed a powerful strike that destroyed a good portion of its lower body. This seemed to be to no avail though as the bone giant reorganizeed and shifted the bones of its body around to form a protective barrier before seemingly beginning to rebuild itself. The bone giant then proceeded to unleash another strike against me that left me stunned and temporarily unable to react. Put on my back foot, matters only got worse when a ghoul approached me from behind and bit deeply into my shoulder.
+
+The situation was looking quite hopeless but from behind I heard a voice yell and out of the corner of my eye I saw a ghoul careen passed me. A flash of frost shot forth and blasted a hole through the ghoul as well as blowing off one of the arms of the bone giant in front of me. Glancing to the side I noticed a young ogre step up and I could hear the giant footsteps of stampeding ogres that were hurrying towards the fray. I didn't have much time to observe what was happening around me however as the bone giant turned its attention to me and the ogre. Attacking the first ogre, the much bigger bone giant brought down an attack with its other arm, knocking the ogre away like a rag doll.
+
+Leaving itself open to my side I lunged to attack the bone giant once again, but this had little effect as I had little strength to cause any damage and the barrier of bones surrounding the bone giant's body absorbed the entirety of the blow. Responding to my efforts I was subsequently battered with another powerful attack and sent reeling away. Yet again though the ogre would come to my aid, charging into the bulk of the bone giant, and knocking it backwards away from me before it could make a follow up attack. Seeing me in my exhausted state, the ogre shouted over his shoulder for me to run, before activating a shielding rune and bracing himself for the retaliation that would come. Battered and bruised I began to move away to recover.
+
+After getting some distance away from the skirmish, I turned to survey the battlefield in its entirety. The undead line had been broken significantly by the charging ogres who had come to aid us, but a good deal of our defensive line was injured or dead. Many of those shaloren who had teleported away had now returned to fight, engaging in small groups on all sides of the undead army, and keeping the undead off balance. However, the line of skeleton archers and mages of the undead force remained largely intact, and were now picking off individual defenders in their unguarded flanks. The scene was one of chaos, and I could not tell if we were winning or losing, but nonetheless I could hear the screams of my fellow defenders dying all around me.
+
+"It seems that this has turned into quite the battle,” a voice came out from behind me. All of a sudden as those words were being stated I could feel myself being enveloped in a bright glow, as my bruises disappeared and wounds began to heal. Turning to face the voice I came face to face with an armored shalore holding a glowing hand outstretched in my direction. I recognized the armor worn and weapon held as being the same set from the Grand Council Chambers. Putting his hand down the shalore continued, "I'm no doctor but this should be enough to keep you on your feet until the battle’s end. Now then, let's see..." He paused for a moment as he looked at the battlefield and then took a deep breath.
+
+Then, in a rather surprisingly loud voice for a shalore he yelled, "DEFENDERS! FOCUS YOUR EFFORTS ON CRUSHING THE SKELETON ARCHERS AND MAGES, LEAVE THOSE HULKING BONE MONSTROSITIES AND ARMORED SKELETONS TO ME!" Before I even had a chance to understand what had been said, the shalore teleported himself in front of the ogre that had come to my aid and in an instant struck the side of the bone giant. All at once a violent display of colors exploded all around the bone giant that shattered the monstrosity into a thousand pieces all over the street. Not missing a beat, the shalore swiftly dove onto the next bone giant nearby and brought it down with little effort as well.
+
+Seeing this display I immediately began to regain my will to fight, and following the order given I charged forward. However, before I could reach the undead ranged supporters a couple armored skeletons step forward with shields raised to meet me. Looking to break through them I stepped forward with a heavy strike only to have my attack deflected and my footing thrown off balance. Seeing an opportunity, one of the skeletons dropped its shield down and prepared to launch a counterattack against me. Before its attack could connect though, a heavy swipe flew over my head, sending its skull sailing away. From behind me another one of the ogres stepped forward and together we converged on the other skeleton.
+
+After sending bones flying, I nodded to the ogre, and we continued on towards the waiting archers and mages. Along with the other ogres and shaloren we dove deep within the enemy ranks, hewing our weapons through their undefended line. Perhaps realizing that they had no hope of winning, the skeletons turned around and began to move away, seemingly entering into a retreat. Getting ready to pursue them, we were stopped by the remaining ghouls who jumped into our way, and the remaining bone giants that had not yet been dispatched. While the undead had been weakened enough to no longer be a threat, they would buy enough time for the skeleton archers and mages to escape out the gate and into the Shroud.]], [[[i]언데드와의 격전이 끝나고, 어떤 노련한 사령관이 이야기해준 말이 있다. "전투의 승리는 적병을 얼마나 많이 쓰러뜨리냐와는 별 상관이 없다. 중요한 것은 어느 쪽이 먼저 무너지느냐다." 병사들이 전의를 잃게 된다면 부대의 전투능력 따위는 아무런 의미가 없다. 엘발라 방어전에서 오우거들이 달려와줘서, 그리고 아라니온이 앞장서 이끌어 주어서 정말 다행이었다. 그들이 아니었다면 이길 수 있다는 희망 따위는 없었을 것이다.[/i]
+
+적들이 앞뒤로 공격해 오자 내 안의 증오가 끓어오르기 시작했다. 하지만, 마치 내가 불러들인 것처럼, 뼈로 된 거인 하나가 내 쪽으로 달려와 공격하는 통에 그것부터 처리해야 했다. 어떻게 거인의 첫 번째 공격을 피하는 데 성공했고, 나는 내 안의 혼돈의 힘을 모아 일격을 날려 놈의 하반신 일부를 날려버렸다. 하지만 거인은 곧바로 뼈를 자기 주변에 둘러 보호막 비슷한 것을 만들어냈고, 직후에 뼈를 끌어모아 박살났던 부분을 메워버렸다. 그러고서 거인은 다시 날 공격했고, 이번에는 피하지 못했다. 나는 곧바로 땅에 쓰러졌고 너무 어지러워 움직일 수가 없었다. 잠시 뒤 나는 다시 일어섰지만, 어느새 등 뒤로 다가온 구울 한 마리에게 어깨를 깊숙이 물려 버렸다. 
+
+상황은 점점 절망적으로 돌아갔지만, 그 순간 등 뒤에서 누군가가 소리치는 것이 들렸고, 날 물었던 구울이 갑자기 날 내버려 두고 옆으로 달려나가는 걸 볼 수 있었다. 이어서 난데없이 뾰족한 얼음덩이가 날아와 구울의 몸뚱이에 구멍을 내고 내 눈앞에 있던 뼈 거인의 팔 한쪽을 날려버렸다. 옆을 돌아보니 어떤 젊은 오우거가 앞으로 걸어 나오고 있었고 수많은 오우거들이 전장으로 뛰어드는 발소리도 들을 수 있었다. 하지만 뼈 거인이 나와 오우거를 노리고 있어서, 대체 무슨 일이 일어나고 있는 건지 확인할 틈은 없었다. 오우거보다 훨씬 더 큰 뼈 거인은 남아 있는 반대편 팔을 휘둘러 오우거를 공격했고, 오우거는 마치 봉제인형처럼 나가떨어졌다.
+
+그 오우거는 일단 내버려 두고 나는 다시 뼈 거인에게 뛰어들었다. 하지만 힘이 부족해서 큰 피해는 줄 수 없었고, 그마저도 그 뼈의 보호막이 모두 흡수해 버렸다. 반격을 얻어맞은 나는 멀리 날아가 땅에 곤두박질쳤다. 하지만 그 오우거가 또다시 날 도우려 나섰고, 뼈 거인을 향해 뛰어들어 놈을 밀쳐내 날 보호해 주었다. 그는 고개만 뒤로 돌려 내가 만신창이가 된 것을 확인하고는 소리쳤다. "도망쳐라!" 그러고는 보호막 룬을 작동시켜 거인의 반격에 대비했다. 온몸에 멍이 든 채로 나는 일단 후퇴했다. 
+
+그 척후병에게서 어느 정도 멀어지고 나서, 나는 전황을 살폈다. 우리를 도우러 온 오우거들 덕분에 언데드 군단의 대열이 상당히 무너져 있었지만, 우리 측에도 사상자가 많았다. 그때 순간이동으로 이탈했던 샬로레들은 다시 싸우러 돌아왔고, 여러 부대에 합류해서 언데드들을 포위하고 있었다. 하지만 언데드 군단의 스켈레톤 궁수와 마법사들은 여전히 건재한 상태였고, 놈들은 측면에서 우리 병사들을 하나하나 저격해 쓰러뜨리고 있었다. 그야말로 혼돈의 도가니 그 자체였고, 나는 우리가 이기고 있는지 지고 있는지도 알 수가 없었다. 그저, 여기저기서 동료 병사들이 죽어가며 지르는 단말마만 들려올 뿐이었다.
+
+"판이 점점 더 커지고 있군," 등 뒤에서 어떤 목소리가 들렸다. 그 말과 동시에 내 몸이 밝은 빛에 휘감겼고, 온몸의 멍이 사라지며 상처도 치유되기 시작했다. 목소리가 들린 쪽으로 고개를 돌리자 갑옷으로 완전무장한 샬로레가 내 쪽으로 팔을 쭉 뻗고 있었고, 그 손끝에서는 빛이 나고 있었다. 그가 걸친 갑옷과 손에 들린 무기는 그때 엘발라 대의회당에, 그 방에 전시되어 있던 것과 똑같았다. 그는 팔을 내리고 말을 이었다. "내가 의사는 아니긴 하지만, 이 정도로도 살아남을 수는 있을 겁니다. 이제, 어디 보자..." 그는 전장을 살펴보며 잠시 말을 멈추었고, 이내 숨을 크게 들이쉬었다. 
+
+그러고선, 샬로레라는 게 믿기지가 않을 정도로 엄청나게 큰 목소리로 외쳤다. "[b]병사들이여!! 스켈레톤 궁수와 마법사에게 집중하라! 저 거대한 뼈 괴물과 무장한 스켈레톤들은 내가 맡겠다!![/b]" 그렇게 말하자마자 그는 날 도와주었던 그 오우거의 앞쪽으로 순간이동했고, 곧바로 뼈 거인의 옆구리를 쳤다. 한순간에 형형색색의 폭발이 일어나더니 뼈 거인은 완전히 산산조각났고, 그 잔해가 바닥에 흩뿌려졌다. 그는 한순간도 지체하지 않고 다른 뼈 거인에게 뛰어들어 똑같이 손쉽게 쓰러뜨렸다.
+
+이 광경을 보자마자 내 안에서 싸우고자 하는 의지가 다시 불타올랐고, 그의 명령대로 앞으로 달려 나갔다. 하지만, 내가 언데드 화력부대에게 다다르기 전에 무장한 스켈레톤 두 마리가 방패를 들이대며 내 앞을 막아섰다. 놈들을 뚫어내려 앞으로 발을 내딛으며 세게 내려찍었지만, 내 공격은 깔끔하게 튕겨나갔고 무리하게 공격한 탓에 잠시 균형을 잃었다. 내가 내려찍었던 놈을 보니 방패를 내리고 내게 반격을 꽂아 넣으려 하고 있었다. 하지만 놈의 공격에 맞기 직전에, 내 머리 위로 뭔가가 세차게 휩쓸고 지나가며 스켈레톤의 머리통을 깔끔하게 날려버렸다. 내 뒤쪽에서 또 다른 오우거 한 명이 뛰어왔고, 우린 함께 나머지 스켈레톤 한 놈에게 집중했다. 
+
+스켈레톤을 처리한 다음, 나는 오우거에게 고개를 끄덕였고 우린 함께 궁수들과 마법사들을 향해 나아갔다. 다른 오우거와 샬로레들도 합류했고, 우리는 적들의 대열 안쪽으로 깊숙이 파고들어 무방비한 상태의 적들에게 무기를 마구 휘둘렀다. 놈들이 이길 가망이 없다는 걸 깨달은 건지는 몰라도, 스켈레톤들은 뒤로 돌아서서 달아나기 시작했고 후퇴하려는 것 같았다. 놈들을 추격하려는 찰나, 구울들이 우리의 앞길로 뛰어들었고 아직 남아 있던 뼈 거인 몇 마리도 가세했다. 그 언데드 군단은 많이 약화되어 있어서 손쉽게 해치울 수 있었지만, 그래도 놈들은 스켈레톤 궁수들과 마법사들이 관문을 빠져나가 장막 속으로 들어갈 때까지 시간을 꽤 끌었다.]], "_t")
 t("Escapades of Fay Willows [Book 5, Chapter 4] - Confrontation", "페이 윌로우즈의 여행기 [5권, 제4장] - 맞대결", "_t")
 t([[[i]I was oddly able to get back on my feet quite easily after receiving the initial healing spell cast on me, perhaps even quicker than what was normally possibly. This would hold true to the additional healing I would receive moments after. There is something about the chaotic energies within me that interacts with my body and allows it to mend quicker with the more hate I feel. This isn't something I can easily take advantage of however and should the hatred within me dissipate before I receive any medical attention it will result in a long and arduous recovery time.[/i]
 
@@ -2116,39 +2160,6 @@ Outside of the various movements of such distasteful groups, some of the shalore
 그런 역겨운 족속들이 온 세상을 돌아다니고 있지만, 여행을 떠나고 싶은 이유가 하나 더 있다. 마법폭발의 영향을 연구하고 있는 샬로레 연구자들은 엘발라 동쪽의 검게 물든 해안에 가장 큰 파괴의 흔적이 남아 있을 것이라 보고 있다. 마법폭발이 일어났을 당시에 그 엄청난 에너지가 가장 먼저 휩쓸고 간 곳이며, 그 지역을 직접 조사해 보면 마법폭발에 대해 더 많은 것을 알 수 있을 것이다. 하지만 샬로레들은 그 지역이 얼마나 위험한가는 차치하더라도 장막 밖으로 나가는 것부터 위험하다는 것을 알고 있다. 하지만 아무리 위험해도, 이 세계에 남아 있는 마법폭발의 영향이 정확히 어떤 것인지 알아내는 것은 중요한 일이다. 
 
 [i]내가 강령술사에게 패배했다고 해서 엘발라를 떠날 마음이 없어진 건 아니고, 그렇다고 내가 인생을 내다 버리겠다는 것도 아니다. 이 세상에는 도움이 필요한 사람들이 있고, 쳐부수어버려야 할 사악한 계획을 품고 있는 자들도 있다. 그리고 나는 사람들을 도울 수 있다면 무엇이든지 할 것이다. 하지만, 밖에서 무슨 일을 하게 되든 항상 조심할 것이다. 아웨인, 조만간 또 다른 여행기를 써낼게. 기다려 줘, 내 사랑. 내가 집으로 돌아오게 되면, 가장 먼저 당신 품에 안길 거야. 하지만 지금은, 우리 집이 있는 이 땅을 떠나 사람들을 돕고 올게.[/i] ]], "_t")
-t([[[i]As an experienced commander would tell me long after the battle with the undead "the winner of a battle is not necessarily dictated by the amount of enemies slain but rather by which side breaks first." While the quality of an armies ability to fight is important it means nothing should its soldiers lose the will to fight. We had been lucky in the defense of Elvala with the aid from the ogres and eventually rallying leadership of Aranion.  Without them all hope of victory would have surely been lost.[/i]
-
-The hatred within me began to build as enemies attacked from in front and behind. However, I had my own problems to deal with as one of the bone giants, as I would call them, stepped up to clobber me. Managing to somehow avoid the first attack I focused the chaotic energies within me and unleashed a powerful strike that destroyed a good portion of its lower body. This seemed to be to no avail though as the bone giant reorganizeed and shifted the bones of its body around to form a protective barrier before seemingly beginning to rebuild itself. The bone giant then proceeded to unleash another strike against me that left me stunned and temporarily unable to react. Put on my back foot, matters only got worse when a ghoul approached me from behind and bit deeply into my shoulder.
-
-The situation was looking quite hopeless but from behind I heard a voice yell and out of the corner of my eye I saw a ghoul careen passed me. A flash of frost shot forth and blasted a hole through the ghoul as well as blowing off one of the arms of the bone giant in front of me. Glancing to the side I noticed a young ogre step up and I could hear the giant footsteps of stampeding ogres that were hurrying towards the fray. I didn't have much time to observe what was happening around me however as the bone giant turned its attention to me and the ogre. Attacking the first ogre, the much bigger bone giant brought down an attack with its other arm, knocking the ogre away like a rag doll.
-
-Leaving itself open to my side I lunged to attack the bone giant once again, but this had little effect as I had little strength to cause any damage and the barrier of bones surrounding the bone giant's body absorbed the entirety of the blow. Responding to my efforts I was subsequently battered with another powerful attack and sent reeling away. Yet again though the ogre would come to my aid, charging into the bulk of the bone giant, and knocking it backwards away from me before it could make a follow up attack. Seeing me in my exhausted state, the ogre shouted over his shoulder for me to run, before activating a shielding rune and bracing himself for the retaliation that would come. Battered and bruised I began to move away to recover.
-
-After getting some distance away from the skirmish, I turned to survey the battlefield in its entirety. The undead line had been broken significantly by the charging ogres who had come to aid us, but a good deal of our defensive line was injured or dead. Many of those shaloren who had teleported away had now returned to fight, engaging in small groups on all sides of the undead army, and keeping the undead off balance. However, the line of skeleton archers and mages of the undead force remained largely intact, and were now picking off individual defenders in their unguarded flanks. The scene was one of chaos, and I could not tell if we were winning or losing, but nonetheless I could hear the screams of my fellow defenders dying all around me.
-
-"It seems that this has turned into quite the battle,” a voice came out from behind me. All of a sudden as those words were being stated I could feel myself being enveloped in a bright glow, as my bruises disappeared and wounds began to heal. Turning to face the voice I came face to face with an armored shalore holding a glowing hand outstretched in my direction. I recognized the armor worn and weapon held as being the same set from the Grand Council Chambers. Putting his hand down the shalore continued, "I'm no doctor but this should be enough to keep you on your feet until the battle’s end. Now then, let's see..." He paused for a moment as he looked at the battlefield and then took a deep breath.
-
-Then, in a rather surprisingly loud voice for a shalore he yelled, "DEFENDERS! FOCUS YOUR EFFORTS ON CRUSHING THE SKELETON ARCHERS AND MAGES, LEAVE THOSE HULKING BONE MONSTROSITIES AND ARMORED SKELETONS TO ME!" Before I even had a chance to understand what had been said, the shalore teleported himself in front of the ogre that had come to my aid and in an instant struck the side of the bone giant. All at once a violent display of colors exploded all around the bone giant that shattered the monstrosity into a thousand pieces all over the street. Not missing a beat, the shalore swiftly dove onto the next bone giant nearby and brought it down with little effort as well.
-
-Seeing this display I immediately began to regain my will to fight, and following the order given I charged forward. However, before I could reach the undead ranged supporters a couple armored skeletons step forward with shields raised to meet me. Looking to break through them I stepped forward with a heavy strike only to have my attack deflected and my footing thrown off balance. Seeing an opportunity, one of the skeletons dropped its shield down and prepared to launch a counterattack against me. Before its attack could connect though, a heavy swipe flew over my head, sending its skull sailing away. From behind me another one of the ogres stepped forward and together we converged on the other skeleton.
-
-After sending bones flying, I nodded to the ogre, and we continued on towards the waiting archers and mages. Along with the other ogres and shaloren we dove deep within the enemy ranks, hewing our weapons through their undefended line. Perhaps realizing that they had no hope of winning, the skeletons turned around and began to move away, seemingly entering into a retreat. Getting ready to pursue them, we were stopped by the remaining ghouls who jumped into our way, and the remaining bone giants that had not yet been dispatched. While the undead had been weakened enough to no longer be a threat, they would buy enough time for the skeleton archers and mages to escape out the gate and into the Shroud.]], [[[i]언데드와의 격전이 끝나고, 어떤 노련한 사령관이 이야기해준 말이 있다. "전투의 승리는 적병을 얼마나 많이 쓰러뜨리냐와는 별 상관이 없다. 중요한 것은 어느 쪽이 먼저 무너지느냐다." 병사들이 전의를 잃게 된다면 부대의 전투능력 따위는 아무런 의미가 없다. 엘발라 방어전에서 오우거들이 달려와줘서, 그리고 아라니온이 앞장서 이끌어 주어서 정말 다행이었다. 그들이 아니었다면 이길 수 있다는 희망 따위는 없었을 것이다.[/i]
-
-적들이 앞뒤로 공격해 오자 내 안의 증오가 끓어오르기 시작했다. 하지만, 마치 내가 불러들인 것처럼, 뼈로 된 거인 하나가 내 쪽으로 달려와 공격하는 통에 그것부터 처리해야 했다. 어떻게 거인의 첫 번째 공격을 피하는 데 성공했고, 나는 내 안의 혼돈의 힘을 모아 일격을 날려 놈의 하반신 일부를 날려버렸다. 하지만 거인은 곧바로 뼈를 자기 주변에 둘러 보호막 비슷한 것을 만들어냈고, 직후에 뼈를 끌어모아 박살났던 부분을 메워버렸다. 그러고서 거인은 다시 날 공격했고, 이번에는 피하지 못했다. 나는 곧바로 땅에 쓰러졌고 너무 어지러워 움직일 수가 없었다. 잠시 뒤 나는 다시 일어섰지만, 어느새 등 뒤로 다가온 구울 한 마리에게 어깨를 깊숙이 물려 버렸다. 
-
-상황은 점점 절망적으로 돌아갔지만, 그 순간 등 뒤에서 누군가가 소리치는 것이 들렸고, 날 물었던 구울이 갑자기 날 내버려 두고 옆으로 달려나가는 걸 볼 수 있었다. 이어서 난데없이 뾰족한 얼음덩이가 날아와 구울의 몸뚱이에 구멍을 내고 내 눈앞에 있던 뼈 거인의 팔 한쪽을 날려버렸다. 옆을 돌아보니 어떤 젊은 오우거가 앞으로 걸어 나오고 있었고 수많은 오우거들이 전장으로 뛰어드는 발소리도 들을 수 있었다. 하지만 뼈 거인이 나와 오우거를 노리고 있어서, 대체 무슨 일이 일어나고 있는 건지 확인할 틈은 없었다. 오우거보다 훨씬 더 큰 뼈 거인은 남아 있는 반대편 팔을 휘둘러 오우거를 공격했고, 오우거는 마치 봉제인형처럼 나가떨어졌다.
-
-그 오우거는 일단 내버려 두고 나는 다시 뼈 거인에게 뛰어들었다. 하지만 힘이 부족해서 큰 피해는 줄 수 없었고, 그마저도 그 뼈의 보호막이 모두 흡수해 버렸다. 반격을 얻어맞은 나는 멀리 날아가 땅에 곤두박질쳤다. 하지만 그 오우거가 또다시 날 도우려 나섰고, 뼈 거인을 향해 뛰어들어 놈을 밀쳐내 날 보호해 주었다. 그는 고개만 뒤로 돌려 내가 만신창이가 된 것을 확인하고는 소리쳤다. "도망쳐라!" 그러고는 보호막 룬을 작동시켜 거인의 반격에 대비했다. 온몸에 멍이 든 채로 나는 일단 후퇴했다. 
-
-그 척후병에게서 어느 정도 멀어지고 나서, 나는 전황을 살폈다. 우리를 도우러 온 오우거들 덕분에 언데드 군단의 대열이 상당히 무너져 있었지만, 우리 측에도 사상자가 많았다. 그때 순간이동으로 이탈했던 샬로레들은 다시 싸우러 돌아왔고, 여러 부대에 합류해서 언데드들을 포위하고 있었다. 하지만 언데드 군단의 스켈레톤 궁수와 마법사들은 여전히 건재한 상태였고, 놈들은 측면에서 우리 병사들을 하나하나 저격해 쓰러뜨리고 있었다. 그야말로 혼돈의 도가니 그 자체였고, 나는 우리가 이기고 있는지 지고 있는지도 알 수가 없었다. 그저, 여기저기서 동료 병사들이 죽어가며 지르는 단말마만 들려올 뿐이었다.
-
-"판이 점점 더 커지고 있군," 등 뒤에서 어떤 목소리가 들렸다. 그 말과 동시에 내 몸이 밝은 빛에 휘감겼고, 온몸의 멍이 사라지며 상처도 치유되기 시작했다. 목소리가 들린 쪽으로 고개를 돌리자 갑옷으로 완전무장한 샬로레가 내 쪽으로 팔을 쭉 뻗고 있었고, 그 손끝에서는 빛이 나고 있었다. 그가 걸친 갑옷과 손에 들린 무기는 그때 엘발라 대의회당에, 그 방에 전시되어 있던 것과 똑같았다. 그는 팔을 내리고 말을 이었다. "내가 의사는 아니긴 하지만, 이 정도로도 살아남을 수는 있을 겁니다. 이제, 어디 보자..." 그는 전장을 살펴보며 잠시 말을 멈추었고, 이내 숨을 크게 들이쉬었다. 
-
-그러고선, 샬로레라는 게 믿기지가 않을 정도로 엄청나게 큰 목소리로 외쳤다. "[b]병사들이여!! 스켈레톤 궁수와 마법사에게 집중하라! 저 거대한 뼈 괴물과 무장한 스켈레톤들은 내가 맡겠다!![/b]" 그렇게 말하자마자 그는 날 도와주었던 그 오우거의 앞쪽으로 순간이동했고, 곧바로 뼈 거인의 옆구리를 쳤다. 한순간에 형형색색의 폭발이 일어나더니 뼈 거인은 완전히 산산조각났고, 그 잔해가 바닥에 흩뿌려졌다. 그는 한순간도 지체하지 않고 다른 뼈 거인에게 뛰어들어 똑같이 손쉽게 쓰러뜨렸다.
-
-이 광경을 보자마자 내 안에서 싸우고자 하는 의지가 다시 불타올랐고, 그의 명령대로 앞으로 달려 나갔다. 하지만, 내가 언데드 화력부대에게 다다르기 전에 무장한 스켈레톤 두 마리가 방패를 들이대며 내 앞을 막아섰다. 놈들을 뚫어내려 앞으로 발을 내딛으며 세게 내려찍었지만, 내 공격은 깔끔하게 튕겨나갔고 무리하게 공격한 탓에 잠시 균형을 잃었다. 내가 내려찍었던 놈을 보니 방패를 내리고 내게 반격을 꽂아 넣으려 하고 있었다. 하지만 놈의 공격에 맞기 직전에, 내 머리 위로 뭔가가 세차게 휩쓸고 지나가며 스켈레톤의 머리통을 깔끔하게 날려버렸다. 내 뒤쪽에서 또 다른 오우거 한 명이 뛰어왔고, 우린 함께 나머지 스켈레톤 한 놈에게 집중했다. 
-
-스켈레톤을 처리한 다음, 나는 오우거에게 고개를 끄덕였고 우린 함께 궁수들과 마법사들을 향해 나아갔다. 다른 오우거와 샬로레들도 합류했고, 우리는 적들의 대열 안쪽으로 깊숙이 파고들어 무방비한 상태의 적들에게 무기를 마구 휘둘렀다. 놈들이 이길 가망이 없다는 걸 깨달은 건지는 몰라도, 스켈레톤들은 뒤로 돌아서서 달아나기 시작했고 후퇴하려는 것 같았다. 놈들을 추격하려는 찰나, 구울들이 우리의 앞길로 뛰어들었고 아직 남아 있던 뼈 거인 몇 마리도 가세했다. 그 언데드 군단은 많이 약화되어 있어서 손쉽게 해치울 수 있었지만, 그래도 놈들은 스켈레톤 궁수들과 마법사들이 관문을 빠져나가 장막 속으로 들어갈 때까지 시간을 꽤 끌었다.]], "_t")
 
 ------------------------------------------------
 section "tome-cults/data/lore/kroshkkur.lua"
@@ -2273,7 +2284,6 @@ In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was 
 
 마침내 쉐르'툴들에게 아마크텔을 살해하라고 명령한 이는 칼디자르였다. 이 명령을 쉐르'툴 전부가 따랐던 것은 아니며, 사실 그들 중 다수가 공개적으로 이 명령을 비판했고 이것이 계급 간 갈등으로 이어졌다고 생각된다. 신 사냥이 끝난 이후 시기에는, 칼디자르는 고사하고 쉐르'툴에 대한 기록 자체가 없다. 그 누구도 이 종족이 어떻게 되었는지 확실히 알지 못한다. 에이알에 쉐르'툴 유적이 이상할 정도로 없다는 점도 눈에 띈다. 마치 거의 다 증발해 버린 것 같다.]], "_t")
 t("Mightier than Gods: Branzir", "신보다 강한 자들: 브란지르", "_t")
-t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "이유는 알 수 없지만 브란지르의 삶에 관한 문서들은 오늘날까지도 많이 남아 있다. 되풀이되는 이야기 속에서 그는 모종의 귀족 계급이었으며, 짐승들을 추적하고 죽이는 실력이 매우 뛰어난 사냥꾼이었지만 그는 순전히 스포츠로 사냥을 즐겼을 뿐이라 한다. 쉐르'툴 종족의 사전에 곤궁함이란 말은 없었기 때문에, 수많은 쉐르'툴들이 여유롭게 여가생활을 즐기는데 대부분의 시간을 바쳤으며 브란지르도 예외는 아니었다. 그에게는 강력한 검이 주어졌고 가차 없이 신들을 사냥했다. 오늘날까지 남아있는 기록에 따르면, 그는 적어도 두 명의 신들을 손수 성공적으로 살해했으며, 오늘날까지도 여전히 랄쿠르 신을 쫓고 있는 것으로 보인다.", "_t")
 t("Mightier than Gods: Oslrey", "신보다 강한 자들: 오슬레이", "_t")
 t([[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
 
@@ -2295,15 +2305,6 @@ From there, she outwitted the Gods numerous times, springing ambushes and herdin
 
 신 사냥에 나선 그녀는 한 수 앞선 전술로 수도 없이 신들을 농락했고, 매복을 이용해 그녀가 원하는 장소로 정확히 그들을 몰아갔다. 신들은 막강한 힘을 갖고 있었지만, 무르타스의 전술에 맞서기에는 교활함이 부족하여, 궁지에 몰린 채로 무기력한 동물처럼 도살당했다.]], "_t")
 t("Mightier than Gods: Harqel", "신보다 강한 자들: 하퀠", "_t")
-t([[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
-
-Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
-
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[신화에 따르면 하퀠은 불행하고 고통스러운 삶을 살았다고 전해진다. 신화 속에서 그는 조용하고, 굳건하며, 너그러운 자였는데, 그런 차분한 태도는 신살자가 되려는 자에게는 전혀 어울리지 않아 보였다. 이로 인해 그는 동료들로부터 수많은 박해를 당하게 되었는데, 동료들이 그에게 무슨 짓을 해도 그는 항상 동료들을 용서해 주었다. 그에게 어떤 일격이 쏟아지든, 어떤 끔찍한 상처를 입었든, 그는 항상 살아남았다. 신 사냥이 일어났을 때, 그는 신살자들과 함께 설 기회를 제공받았다. 처음에 그는 신들을 설득할 수 있을 거라 생각했지만, 신들의 무의미한 싸움에 의해 황폐화된 대지를 본 이후로 그런 것은 두 번 다시는 생각하지 않고 신 사냥의 대의에 전념했다. 
-
-그가 동의하자, 그를 위해서 위대한 방패 안브그레아가 만들어졌다. 그는 신들의 앞을 가로막고 그들의 힘에 도전했으며, 동요하지도 않았고 굽히지도 않았다. 타오르는 불길도, 얼어붙는 냉기와 썩어가는 황폐의 힘도, 살을 태우는 산성액도 그를 흔들지 못했으며 그의 전진을 멈출 수도 없었다. 그는 모두의 고통을 짊어지는 방패가 되었으며 그 덕분에 신살자들은 이 세상의 거대하고 무정한 신들을 처치할 수 있었다. 그 어떤 것도 하퀠과 그의 막강한 방패를 뚫을 수 없었다. 
-
-신 사냥이 끝나자 하퀠은 조용한 삶으로 돌아갔다. 살아남은 쉐르'툴들은 신살자들을 영웅으로 대접했고 그들은 모두 후한 보상을 받았지만, 하퀠은 그저 별들 속 어딘가에서 누구에게도 방해받지 않을 은신처를 요구했을 뿐이었다.]], "_t")
 t("Mightier than Gods: Frosat", "신보다 강한 자들: 프로사트", "_t")
 t([[The Sher'Tul were a people who possessed many exceptional individuals. The tale of Frosat is a mundane one compared to the other Godslayers. He was a scholar who spent most of his time reading, researching and teaching. The Library of Frosat was a fabled place of learning where he kept his large archives of knowledge he had accumulated over his life. Perhaps what was most notable about his career was his research into the nature of antropic power, the energy which only the Gods of Eyal possessed.
 
@@ -2344,6 +2345,31 @@ When he first heard of the plan to kill the gods, he volunteered eagerly to beco
 유라쉬는 본래 귀족으로, 쉐르'툴의 강대한 문명이 만들어 낸 온갖 즐거움과 오락거리를 모두 즐겨 본 사람이었다. 그는 멍하니 지내며, 극도로 무기력할 뿐만 아니라 주변의 세계에 대체로 관심이 없었다고 종종 묘사되었다. 투기장이 쉐르'툴 사회로 돌아오게 되자 그는 이내 그것에 매료되었다. 결국 그는 귀족의 삶을 포기하고 스스로 검투사가 되는 지경에 이르렀고, 그때부터 그는 투기장에서 가장 위대한 챔피언이 될 때까지 싸워나갔다. 
 
 그는 처음으로 신들을 죽일 계획에 대해 듣고는, 간절하게 신살자가 되길 자청했다. 그는 시라레이라는 검을 받았는데 그 검은 그가 투기장에서 휘둘렀던 유명한 검과 무척이나 흡사했다. 이후 신 사냥이 끝나자 그는 기꺼이 시라레이를 포기하고 투기장으로 돌아갔다. 그리고 어느 날 그는 어떤 경쟁자에게 살해당한 것으로 추정되었는데, 뒤늦게야 그의 경쟁자가 자신의 칼날에 독을 바르는 부정을 저질렀다는 것이 밝혀졌다. 그렇게 유라쉬는 사후 무패의 유라쉬라는 별명을 얻게 되었다.]], "_t")
+-- new text
+--[==[
+t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renowned for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renowned for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "_t")
+t([[Harqel, according to myths, led a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
+
+Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
+
+When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[Harqel, according to myths, led a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
+
+Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
+
+When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], "_t")
+--]==]
+
+-- old translated text
+t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "이유는 알 수 없지만 브란지르의 삶에 관한 문서들은 오늘날까지도 많이 남아 있다. 되풀이되는 이야기 속에서 그는 모종의 귀족 계급이었으며, 짐승들을 추적하고 죽이는 실력이 매우 뛰어난 사냥꾼이었지만 그는 순전히 스포츠로 사냥을 즐겼을 뿐이라 한다. 쉐르'툴 종족의 사전에 곤궁함이란 말은 없었기 때문에, 수많은 쉐르'툴들이 여유롭게 여가생활을 즐기는데 대부분의 시간을 바쳤으며 브란지르도 예외는 아니었다. 그에게는 강력한 검이 주어졌고 가차 없이 신들을 사냥했다. 오늘날까지 남아있는 기록에 따르면, 그는 적어도 두 명의 신들을 손수 성공적으로 살해했으며, 오늘날까지도 여전히 랄쿠르 신을 쫓고 있는 것으로 보인다.", "_t")
+t([[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
+
+Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
+
+When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[신화에 따르면 하퀠은 불행하고 고통스러운 삶을 살았다고 전해진다. 신화 속에서 그는 조용하고, 굳건하며, 너그러운 자였는데, 그런 차분한 태도는 신살자가 되려는 자에게는 전혀 어울리지 않아 보였다. 이로 인해 그는 동료들로부터 수많은 박해를 당하게 되었는데, 동료들이 그에게 무슨 짓을 해도 그는 항상 동료들을 용서해 주었다. 그에게 어떤 일격이 쏟아지든, 어떤 끔찍한 상처를 입었든, 그는 항상 살아남았다. 신 사냥이 일어났을 때, 그는 신살자들과 함께 설 기회를 제공받았다. 처음에 그는 신들을 설득할 수 있을 거라 생각했지만, 신들의 무의미한 싸움에 의해 황폐화된 대지를 본 이후로 그런 것은 두 번 다시는 생각하지 않고 신 사냥의 대의에 전념했다. 
+
+그가 동의하자, 그를 위해서 위대한 방패 안브그레아가 만들어졌다. 그는 신들의 앞을 가로막고 그들의 힘에 도전했으며, 동요하지도 않았고 굽히지도 않았다. 타오르는 불길도, 얼어붙는 냉기와 썩어가는 황폐의 힘도, 살을 태우는 산성액도 그를 흔들지 못했으며 그의 전진을 멈출 수도 없었다. 그는 모두의 고통을 짊어지는 방패가 되었으며 그 덕분에 신살자들은 이 세상의 거대하고 무정한 신들을 처치할 수 있었다. 그 어떤 것도 하퀠과 그의 막강한 방패를 뚫을 수 없었다. 
+
+신 사냥이 끝나자 하퀠은 조용한 삶으로 돌아갔다. 살아남은 쉐르'툴들은 신살자들을 영웅으로 대접했고 그들은 모두 후한 보상을 받았지만, 하퀠은 그저 별들 속 어딘가에서 누구에게도 방해받지 않을 은신처를 요구했을 뿐이었다.]], "_t")
 
 ------------------------------------------------
 section "tome-cults/data/lore/misc.lua"
@@ -2676,6 +2702,9 @@ t([[You lean to alter chaotic forces to your advantage.
 section "tome-cults/data/talents/demented/calamity.lua"
 
 t("Jinxed Touch", "불운의 손길", "talent name")
+t([[Your touch carries an entropic curse, marking your victims for a terrible fate. Each time you deal damage to a target, they are Jinxed for 5 turns %s. This stacks up to 10 times, reducing saves and defense by %0.2f and critical strike chance by %0.2f%%.
+			This can only be applied once per target per turn and will fade entirely if you break line of sight with your target for more than 2 turns.]], [[마수를 뻗어 대상에게 엔트로피의 저주를 몰고 와, 파멸로 몰아넣습니다. 대상에게 피해를 입힐 때마다 대상은 5 턴 동안 불운 효과를 받습니다 %s. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 모든 내성과 회피도가 %0.2f , 치명타 확률이 %0.2f%% 씩 감소됩니다. 
+			불운 효과는 하나의 대상에게는 한 턴에 한 번씩만 중첩할 수 있습니다. 시전자의 시야 내에서 대상이 2 턴 이상 벗어나게 되면 불운 중첩을 전부 잃게 됩니다.]], "tformat")
 t("Preordain", "운명 예지", "talent name")
 t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "인과 관계의 흐름을 교묘하게 조작하여, 적들에게 더 큰 불행을 가져옵니다. 6 중첩 이상의 불운 중첩은 %d%% 확률로 기술 사용을 실패하게 합니다.", "tformat")
 t("Luckdrinker", "행운 포식자", "talent name")
@@ -2688,29 +2717,26 @@ t([[You form a link between yourself and the chosen target for %d turns, tying y
 		Any Fortune stacks you have and any Jinx stacks the enemy have will then be consumed to heal you for %d life per stack.]], [[시전자와 선택된 대상의 운명을 %d 턴 동안 하나로 잇습니다. 지속시간 동안, 시전자가 죽음에 다다를 수 있는 피해를 입게 되면 현실 개변을 일으켜 운명 공유 효과를 끝내고, 운명 파괴자를 발동해 대상이 시전자 대신 그 치명적인 피해를 입게 합니다.
 		운명 파괴자가 발동되고 난 후 1 턴 동안 시전자가 받는 모든 피해를 시간 피해와 어둠 피해로 변환하여 대상에게 떠넘깁니다.
 		또한 시전자의 행운 중첩과 적들의 불운 중첩을 전부 소모하여, 중첩 당 시전자의 생명력을 %d 회복합니다.]], "tformat")
-t([[Your touch carries an entropic curse, marking your victims for a terrible fate. Each time you deal damage to a target, they are Jinxed for 5 turns %s. This stacks up to 10 times, reducing saves and defense by %0.2f and critical strike chance by %0.2f%%.
-			This can only be applied once per target per turn and will fade entirely if you break line of sight with your target for more than 2 turns.]], [[마수를 뻗어 대상에게 엔트로피의 저주를 몰고 와, 파멸로 몰아넣습니다. 대상에게 피해를 입힐 때마다 대상은 5 턴 동안 불운 효과를 받습니다 %s. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 모든 내성과 회피도가 %0.2f , 치명타 확률이 %0.2f%% 씩 감소됩니다. 
-			불운 효과는 하나의 대상에게는 한 턴에 한 번씩만 중첩할 수 있습니다. 시전자의 시야 내에서 대상이 2 턴 이상 벗어나게 되면 불운 중첩을 전부 잃게 됩니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/chronophage.lua"
 
 t("Atrophy", "쇠퇴", "talent name")
 t("%s has been cut from the timeline!", "%s 시간선에서 잘려나갔다!", "logSeen", nil, {"는"})
+t([[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns %s, stacking up to %d times.
+			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[다른 이들의 시간선을 포식하는 엔트로피 소용돌이에 둘러싸여 있습니다. 주문을 시전할 때마다 반경 10 칸 내의 무작위한 대상들은 빠르게 노화하고 부패합니다. 영향을 받는 적은 8 턴 동안 모든 능력치가 %d 감소합니다 %s. 이 효과는 최대 %d 번 중첩됩니다.
+			한 번의 주문 시전으로 다수의 적들에게 최대 %d 번 부여할 수 있으며, 같은 대상에게는 한 번에 최대 2 중첩까지만 부여됩니다.]], "tformat")
 t("Severed Threads", "가닥 절단", "talent name")
+t("On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly %s. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "생명력이 최대 생명력의 %d%% 이하로 떨어진 대상에 쇠퇴를 부여하면 생명선을 절단하여 즉시 살해합니다 %s. 시전자는 대상의 절단된 시간선을 %d 턴 동안 포식합니다. 생명력 재생이 %0.1f 증가하고, 재사용 대기시간이 고정된 기술을 제외한 모든 기술들의 대기시간을 2 배 더 빨리 돌립니다.", "tformat")
 t("Temporal Feast", "시간 포식", "talent name")
+t([[You drink deeper from the timeline of others. Each time you apply atrophy you gain %0.1f%% spell speed per atrophy stack on the target and cause them to lose %d%% of a turn %s.
+			The highest atrophy stack found will be used for the spell speed calculation.]], [[희생자의 시간선을 집어삼킵니다. 쇠퇴를 부여할 때마다 대상의 쇠퇴 중첩 하나 당 시전자의 시전 속도가 %0.1f%% 증가하며, 대상은 1 턴의 %d%% 에 해당하는 턴을 잃게 됩니다 %s.
+			범위 내 가장 높은 쇠퇴 중첩을 가진 대상이 시전 속도 계산에 이용됩니다.]], "tformat")
 t("Terminus", "종점", "talent name")
 t("#GREEN#You gain %.1f turns!", "#GREEN#당신은 %.1f 턴을 획득했다!", "say")
 t([[Shatter the spacetime continuum around yourself, inflicting %0.2f temporal damage to all targets within radius %d. Any atrophy stacks will be consumed to steal time from your victims, inflicting an additional %0.2f temporal damage and granting you %d%% of a turn per stack (but no more than 3 turns).
 		The damage will scale with your Spellpower.]], [[주변의 시공간 연속성을 깨뜨려 %0.2f 의 시간 피해를 반경 %d 칸 내의 모든 대상에게 가합니다. 희생자들의 쇠퇴 중첩을 전부 소모하고 그들의 시간을 훔쳐냅니다. 이것으로 %0.2f 시간 피해를 추가로 가하고 중첩마다 1 턴의 %d%% 를 획득합니다 (3 턴 이상은 획득할 수 없습니다)
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t([[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns %s, stacking up to %d times.
-			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[다른 이들의 시간선을 포식하는 엔트로피 소용돌이에 둘러싸여 있습니다. 주문을 시전할 때마다 반경 10 칸 내의 무작위한 대상들은 빠르게 노화하고 부패합니다. 영향을 받는 적은 8 턴 동안 모든 능력치가 %d 감소합니다 %s. 이 효과는 최대 %d 번 중첩됩니다.
-			한 번의 주문 시전으로 다수의 적들에게 최대 %d 번 부여할 수 있으며, 같은 대상에게는 한 번에 최대 2 중첩까지만 부여됩니다.]], "tformat")
-t("On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly %s. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "생명력이 최대 생명력의 %d%% 이하로 떨어진 대상에 쇠퇴를 부여하면 생명선을 절단하여 즉시 살해합니다 %s. 시전자는 대상의 절단된 시간선을 %d 턴 동안 포식합니다. 생명력 재생이 %0.1f 증가하고, 재사용 대기시간이 고정된 기술을 제외한 모든 기술들의 대기시간을 2 배 더 빨리 돌립니다.", "tformat")
-t([[You drink deeper from the timeline of others. Each time you apply atrophy you gain %0.1f%% spell speed per atrophy stack on the target and cause them to lose %d%% of a turn %s.
-			The highest atrophy stack found will be used for the spell speed calculation.]], [[희생자의 시간선을 집어삼킵니다. 쇠퇴를 부여할 때마다 대상의 쇠퇴 중첩 하나 당 시전자의 시전 속도가 %0.1f%% 증가하며, 대상은 1 턴의 %d%% 에 해당하는 턴을 잃게 됩니다 %s.
-			범위 내 가장 높은 쇠퇴 중첩을 가진 대상이 시전 속도 계산에 이용됩니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/controlled-horrors.lua"
@@ -2741,7 +2767,6 @@ Your increased damage, damage penetration, critical strike chance, and critical 
 		]], "tformat")
 t("Horrific Display", "공포스러운 모습", "talent name")
 t("%s resists the horrific assault!", "%s 공포의 맹공을 버텨냈다!", "logSeen", nil, {"는"})
-t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t([[You forcefully try to turn a creature into an horror.
 Its appearance turns into that of a horror for %d turns %s, making all other creatures hostile to it.
 Enemies near the target will have their target cleared on application.
@@ -2749,6 +2774,7 @@ This spell does not work on horrors.]], [[대상을 강제로 공포체로 바�
 대상의 모습이 %d 턴 동안 공포체로 변하게 되고 %s, 다른 모든 개체들이 대상을 적대하게 됩니다.
 대상 근처의 적들은 즉시 공격 목표를 대상으로 변경합니다.
 이 주문은 공포체에게는 효과가 없습니다.]], "tformat")
+t("Call of Amakthel", "아마크텔의 부름", "talent name")
 t([[You attune your horrors to the dead god Amakthel, increasing your summoned horrors damage by %d%%.
 At talent level 3, your Decaying Devourers spell will summon 4 additional Devourers adjacent to random enemies nearby and your Bloated Horror will learn the Agony talent.
 At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn %s.
@@ -2812,18 +2838,6 @@ t("Talents of the various entities of the world.", "세상에 존재하는 여�
 section "tome-cults/data/talents/demented/disfigured-face.lua"
 
 t("Diseased Tongue", "병든 혀", "talent name")
-t("Dissolved Face", "녹아내린 얼굴", "talent name")
-t("Writhing Hairs", "뒤틀린 머리카락", "talent name")
-t([[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
-		You use those eyes to gaze upon a target area, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
-		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
-		This cannot be saved against.
-		]], [[무시무시한 눈알이 달린 끔찍한 머리카락이 잠시 동안 머리에서 자라납니다.
-		이 눈알은 지정한 지역을 응시하여, 범위 내 대상은 부분적으로 돌로 변해 7 턴 동안 이동속도가 %d%% 감소하고, 부서지기 쉽게 됩니다.
-		부서지게 쉽게 된 대상은 35%% 의 확률로 %d%% 만큼 추가 피해를 입습니다.
-		이 효과는 저항할 수 없습니다.
-		]], "tformat")
-t("Glimpse of True Horror", "진정한 공포의 편린", "talent name")
 t([[Your tongue turns into a diseased tentacle that you use to #{italic}#lick#{normal}# enemies in a cone.
 		Licked creatures take %d%% tentacle damage that ignores armor and get sick, gaining a random disease for %d turns %s that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.
 		
@@ -2835,11 +2849,23 @@ t([[Your tongue turns into a diseased tentacle that you use to #{italic}#lick#{n
 		하나의 적에게라도 피해를 준 경우, 시전자는 %d의 광기를 획득합니다.
 		
 		황폐 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Dissolved Face", "녹아내린 얼굴", "talent name")
 t([[Your face melts, exploding in a targeted gush of blood and gore dealing %0.2f darkness damage (%0.2f total) in a cone over 5 turns %s.
 		Each turn the target will be dealt an additional %0.2f blight damage per disease.
 		Damage will increase with your Spellpower.]], [[얼굴이 녹아내리고 원뿔 범위의 적에게 피와 핏덩이를 튀깁니다. 맞은 적은 5 턴 동안 %0.2f 어둠 피해 (총 %0.2f 피해) 를 받습니다 %s.
 		매 턴 대상이 걸린 질병 당 %0.2f 황폐 피해를 추가로 가합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Writhing Hairs", "뒤틀린 머리카락", "talent name")
+t([[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
+		You use those eyes to gaze upon a target area, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
+		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
+		This cannot be saved against.
+		]], [[무시무시한 눈알이 달린 끔찍한 머리카락이 잠시 동안 머리에서 자라납니다.
+		이 눈알은 지정한 지역을 응시하여, 범위 내 대상은 부분적으로 돌로 변해 7 턴 동안 이동속도가 %d%% 감소하고, 부서지기 쉽게 됩니다.
+		부서지게 쉽게 된 대상은 35%% 의 확률로 %d%% 만큼 추가 피해를 입습니다.
+		이 효과는 저항할 수 없습니다.
+		]], "tformat")
+t("Glimpse of True Horror", "진정한 공포의 편린", "talent name")
 t([[Whenever you use a disfigured face power you show a glimpse of what True Horror is.
 		The affected targets become frightened for 2 turns %s, giving them a %d%% chances to fail using talents.
 		When a target becomes afraid it bolsters you to see their anguish, increasing your darkness and blight damage penetration by %d%% for 2 turns.
@@ -2852,10 +2878,30 @@ t([[Whenever you use a disfigured face power you show a glimpse of what True Hor
 section "tome-cults/data/talents/demented/doom.lua"
 
 t("Prophecy", "예언", "talent name")
+t([[By bringing the forces of entropy to bear on a target, you prophesize their inevitable doom %s. Each point in this talent unlocks additional prophecies. A target can only be affected by a single prophecy at a time.
+Level 1: Prophecy of Ruin. Deals %0.2f damage on falling below 75%%, 50%% or 25%% of maximum life.
+Level 3: Prophecy of Treason. %d%% chance each turn to attack an ally or themselves.
+Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[엔트로피의 힘을 대상에게 불러와, 그들에게 닥칠 필연적인 파멸을 예언합니다 %s. 이 기술에 투자된 기술 점수에 따라 예언들을 추가적으로 획득합니다. 하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
+기술 점수 1 점: 파멸의 예언. %0.2f 의 피해를 최대 생명력의 75%%, 50%% 혹은 25%% 이하로 떨어질 때마다 가합니다.
+기술 점수 3 점: 배반의 예언. 매 턴마다 %d%% 확률로 동료나 대상 스스로를 공격하게 합니다.
+기술 점수 5 점: 광기의 예언. 재사용 대기시간을 %d%% 늘립니다.]], "tformat")
 t("Prophecy of Madness", "광기의 예언", "talent name")
+t([[Utter a prophecy of the impending madness of your target, increasing the cooldown of all their talents by %d%% for 6 turns %s.
+		A target can only be affected by a single prophecy at a time.]], [[대상에게 임박한 광기를 예언하여, 6 턴 동안 대상의 모든 기술의 재사용 대기시간을 %d%% 늘립니다 %s.
+		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.]], "tformat")
 t("Prophecy of Ruin", "파멸의 예언", "talent name")
+t([[Utter a prophecy of the impending demise of your target that lasts 6 turns %s.
+		Each time their life falls below 75%%, 50%% or 25%% of maximum the power of the prophecy will echo outwards, inflicting %0.2f darkness damage to them.
+		A target can only be affected by a single prophecy at a time.
+		The damage increase will increase with your Spellpower.]], [[6 턴 동안 지속되는 임박한 죽음을 예언합니다 %s.
+		적들의 생명력이 75%%, 50%%, 25%% 이하로 떨어질 때마다 %0.2f 어둠 피해를 가합니다.
+		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Prophecy of Treason", "배반의 예언", "talent name")
 t("%s(%d treason)#LAST#", "%s(%d 배반)#LAST#", "tformat")
+t([[Utter a prophecy of the impending treachery of your target %s. For the next 6 turns, they will have a %d%% each turn to waste their turn attempting to attack an adjacent creature for 10%% weapon damage, or even themself if no creature is present.
+		A target can only be affected by a single prophecy at a time.]], [[대상에게 임박한 배반을 예언합니다 %s. 다음 6 턴 동안, 매 턴 대상은 %d%% 확률로 대상의 인접한 동료들을 10%% 무기 피해로 공격하고 턴을 소모할 것입니다. 동료가 없을 경우엔 자해를 할 것입니다.
+		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.]], "tformat")
 t("Grand Oration", "위대한 기도문", "talent name")
 t("None", "없음", "_t")
 t([[You speak a chosen prophecy to the masses. When applying this prophecy, it will spread to all targets in radius %d.
@@ -2889,26 +2935,6 @@ t([[As you speak the chosen prophecy whispers from the void guide you in how to 
 		하나의 예언은 위대한 기도문, 이중 저주, 계시 중 단 하나의 강화 효과를 받습니다.
 	
 		현재 예언: %s]], "tformat")
-t([[By bringing the forces of entropy to bear on a target, you prophesize their inevitable doom %s. Each point in this talent unlocks additional prophecies. A target can only be affected by a single prophecy at a time.
-Level 1: Prophecy of Ruin. Deals %0.2f damage on falling below 75%%, 50%% or 25%% of maximum life.
-Level 3: Prophecy of Treason. %d%% chance each turn to attack an ally or themselves.
-Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[엔트로피의 힘을 대상에게 불러와, 그들에게 닥칠 필연적인 파멸을 예언합니다 %s. 이 기술에 투자된 기술 점수에 따라 예언들을 추가적으로 획득합니다. 하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
-기술 점수 1 점: 파멸의 예언. %0.2f 의 피해를 최대 생명력의 75%%, 50%% 혹은 25%% 이하로 떨어질 때마다 가합니다.
-기술 점수 3 점: 배반의 예언. 매 턴마다 %d%% 확률로 동료나 대상 스스로를 공격하게 합니다.
-기술 점수 5 점: 광기의 예언. 재사용 대기시간을 %d%% 늘립니다.]], "tformat")
-t([[Utter a prophecy of the impending madness of your target, increasing the cooldown of all their talents by %d%% for 6 turns %s.
-		A target can only be affected by a single prophecy at a time.]], [[대상에게 임박한 광기를 예언하여, 6 턴 동안 대상의 모든 기술의 재사용 대기시간을 %d%% 늘립니다 %s.
-		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.]], "tformat")
-t([[Utter a prophecy of the impending demise of your target that lasts 6 turns %s.
-		Each time their life falls below 75%%, 50%% or 25%% of maximum the power of the prophecy will echo outwards, inflicting %0.2f darkness damage to them.
-		A target can only be affected by a single prophecy at a time.
-		The damage increase will increase with your Spellpower.]], [[6 턴 동안 지속되는 임박한 죽음을 예언합니다 %s.
-		적들의 생명력이 75%%, 50%%, 25%% 이하로 떨어질 때마다 %0.2f 어둠 피해를 가합니다.
-		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t([[Utter a prophecy of the impending treachery of your target %s. For the next 6 turns, they will have a %d%% each turn to waste their turn attempting to attack an adjacent creature for 10%% weapon damage, or even themself if no creature is present.
-		A target can only be affected by a single prophecy at a time.]], [[대상에게 임박한 배반을 예언합니다 %s. 다음 6 턴 동안, 매 턴 대상은 %d%% 확률로 대상의 인접한 동료들을 10%% 무기 피해로 공격하고 턴을 소모할 것입니다. 동료가 없을 경우엔 자해를 할 것입니다.
-		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/entropy.lua"
@@ -2916,15 +2942,6 @@ section "tome-cults/data/talents/demented/entropy.lua"
 t("Entropic Gift", "엔트로피의 선물", "talent name")
 t("%s's black hole", "%s의 블랙홀", "tformat")
 t("#Source# pulls #Target# in!", "#Source1# #Target3# 끌어당긴다!", "logCombat")
-t("Reverse Entropy", "엔트로피 역전", "talent name")
-t([[Your knowledge of entropy allows you to defy the laws of physics, allowing you to better endure your entropic energies.
-			You take %d%% less damage from your entropic backlash.
-		You may activate this talent to instantly remove your current Entropy.]], [[엔트로피에 관한 지식 덕분에 물리 법칙에 도전할 수 있게 되었습니다. 엔트로피 에너지를 더 오래 버틸 수 있게 됩니다.
-			시전자가 엔트로피 반발로 받는 피해량이 %d%% 감소합니다.
-		이 기술을 사용해서 현재 엔트로피를 모두 제거할 수 있습니다.]], "tformat")
-t("Black Hole", "블랙홀", "talent name")
-t("Power Overwhelming", "압도적인 힘", "talent name")
-t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "주문이 매우 위험한 수준의 엔트로피 에너지로 강화됩니다. 어둠과 시간 피해가 %d%% 늘어나고, 저항 관통이 %d%% 증가합니다. 그 대가로 즉발형 기술이 아닌 주문을 시전할 때 %0.2f 엔트로피 반발을 추가로 받습니다.", "tformat")
 t([[Your unnatural existence causes the fabric of reality to reject your presence. 25%% of all direct healing received damages you in the form of entropic backlash over 8 turns, which is irresistible and bypasses all shields, but cannot kill you.
 
 You may activate this talent to channel your entropy onto a nearby enemy, removing all entropic backlash to inflict darkness and temporal damage equal to %d%% of your entropy over 4 turns %s.
@@ -2934,9 +2951,18 @@ The damage dealt when applying this to an enemy will increase with your Spellpow
 이 기술을 사용하면 시전자의 엔트로피를 근처의 적에게 떠넘길 수 있습니다. 시전자의 엔트로피 반발을 전부 제거하고 대상에게 엔트로피의 %d%% 에 해당하는 어둠, 시간 피해를 4 턴에 걸쳐 입힙니다 %s.
 
 적에게 떠넘겼을 때 입히는 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Reverse Entropy", "엔트로피 역전", "talent name")
+t([[Your knowledge of entropy allows you to defy the laws of physics, allowing you to better endure your entropic energies.
+			You take %d%% less damage from your entropic backlash.
+		You may activate this talent to instantly remove your current Entropy.]], [[엔트로피에 관한 지식 덕분에 물리 법칙에 도전할 수 있게 되었습니다. 엔트로피 에너지를 더 오래 버틸 수 있게 됩니다.
+			시전자가 엔트로피 반발로 받는 피해량이 %d%% 감소합니다.
+		이 기술을 사용해서 현재 엔트로피를 모두 제거할 수 있습니다.]], "tformat")
+t("Black Hole", "블랙홀", "talent name")
 t([[On casting Entropic Gift, a radius 1 rift in spacetime will be opened underneath the target for %d turns, increasing in radius by 1 each turn to a maximum of %d.
 		All caught within the rift are pulled towards the center %s and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[엔트로피의 선물을 시전하면 반경 1 칸의 시공간 균열이 대상의 발 밑에 %d 턴 동안 열립니다. 매 턴 반경이 1 칸씩 넓어지고 최대 %d 칸까지 커집니다.
 		균열의 영향을 받는 모든 대상은 중심으로 끌려가며 %s %0.2f 어둠 피해와 %0.2f 시간 피해를 받고, 거기에 더해서 시전자의 현재 엔트로피의 %d%% 에 해당하는 피해를 매 턴 받습니다 (현재 %d).]], "tformat")
+t("Power Overwhelming", "압도적인 힘", "talent name")
+t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "주문이 매우 위험한 수준의 엔트로피 에너지로 강화됩니다. 어둠과 시간 피해가 %d%% 늘어나고, 저항 관통이 %d%% 증가합니다. 그 대가로 즉발형 기술이 아닌 주문을 시전할 때 %0.2f 엔트로피 반발을 추가로 받습니다.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/friend-of-the-worm.lua"
@@ -2954,6 +2980,55 @@ t("worm that walks (servant of %s)", "걸어다니는 벌레떼 (%s의 종)", "t
 t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("Robe of the Worm (Improved)", "벌레의 로브 (강화됨)", "_t")
 t("Your friendly horror is not dead.", "우호적인 걸어다니는 벌레떼가 죽지 않았다.", "logPlayer")
+t("Foul Convergence", "역겨운 집합", "talent name")
+t("Your friendly horror is dead.", "당신의 걸어다니는 벌레떼가 죽었다.", "logPlayer")
+t("%s's teleport fizzles!", "%s의 순간이동이 실패했다!", "logSeen")
+t([[You and your Worm that Walks both teleport to an enemy in range %d and make a melee attack for %d%% damage.
+			Your Worm that Walks' Blindside talent cooldown is reduced by %d.]], [[시전자와 걸어다니는 벌레떼가 반경 %d 칸 내의 적의 옆으로 함께 순간이동하고 근접 공격을 가해 %d%% 피해를 줍니다.
+			걸어다니는 벌레떼의 '그림자 기습' 기술의 재사용 대기시간이 %d 턴 감소합니다.]], "tformat")
+t("Shared Insanity", "광기 공유", "talent name")
+t([[You establish a powerful mental link with your Worm that Walks.
+		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
+		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], [[걸어다니는 벌레떼와 강력한 정신 공유를 형성합니다.
+		걸어다니는 벌레떼 근처 3 칸 내에 있을 경우 5 턴 동안 둘 다 모든 저항이 %d%% 상승합니다.
+		추가로, 이 기술에 투자한 기술 점수 2 점 마다 걸어다니는 벌레떼는 추가적인 각인 슬롯을 하나 얻습니다. (현재 %d 개).]], "tformat")
+t("Terrible Sight", "무시무시한 광경", "talent name")
+t("You require your worm that walk to be alive and closeby.", "걸어다니는 벌레떼가 살아있는 채로 근처에 있어야 한다.", "logPlayer")
+t([[While within range 3 of your Worm that Walks you can project an aura of terror.
+		At the sight of two maddening horrors fighting together all your foes in radius %d will be stunned for %d turns %s.
+
+		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns %s.]], [[걸어다니는 벌레떼 근처 3 칸 내에 있을 경우 공포의 기운을 뿜어낼 수 있습니다.
+		두 광기의 존재가 함께 싸우는 모습을 보고 반경 %d 칸 내의 모든 적들은 %d 턴 동안 기절합니다 %s.
+
+		추가로 시전자의 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게 하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다 %s.]], "tformat")
+-- new text
+--[==[
+t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
+		You can fully control, level, and equip it.
+		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
+		Higher raw talent levels will give your horror more equipment slots:
+
+		Level 1:  Mainhand, Offhand
+		Level 2:  Body
+		Level 3:  Belt
+		Level 4:  Ring, Ring
+		Level 5:  Ring, Ring, Tool
+
+		To change your horror's equipment and talents, first transfer the equipment from your inventory and then take control of it.]], [[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
+		You can fully control, level, and equip it.
+		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
+		Higher raw talent levels will give your horror more equipment slots:
+
+		Level 1:  Mainhand, Offhand
+		Level 2:  Body
+		Level 3:  Belt
+		Level 4:  Ring, Ring
+		Level 5:  Ring, Ring, Tool
+
+		To change your horror's equipment and talents, first transfer the equipment from your inventory and then take control of it.]], "tformat")
+--]==]
+
+-- old translated text
 t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
 		You can fully control, level, and equip it.
 		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
@@ -2977,27 +3052,6 @@ t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to 
 		기술 점수 5 점:  반지, 반지, 도구
 
 		걸어다니는 벌레떼의 장비나 기술 상태를 바꾸려면 우선 장비를 벌레떼에게 넘기고, 벌레를 직접 조종해서 바꾸면 됩니다.]], "tformat")
-t("Foul Convergence", "역겨운 집합", "talent name")
-t("Your friendly horror is dead.", "당신의 걸어다니는 벌레떼가 죽었다.", "logPlayer")
-t("%s's teleport fizzles!", "%s의 순간이동이 실패했다!", "logSeen")
-t([[You and your Worm that Walks both teleport to an enemy in range %d and make a melee attack for %d%% damage.
-			Your Worm that Walks' Blindside talent cooldown is reduced by %d.]], [[시전자와 걸어다니는 벌레떼가 반경 %d 칸 내의 적의 옆으로 함께 순간이동하고 근접 공격을 가해 %d%% 피해를 줍니다.
-			걸어다니는 벌레떼의 '그림자 기습' 기술의 재사용 대기시간이 %d 턴 감소합니다.]], "tformat")
-t("Shared Insanity", "광기 공유", "talent name")
-t([[You establish a powerful mental link with your Worm that Walks.
-		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
-		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], [[걸어다니는 벌레떼와 강력한 정신 공유를 형성합니다.
-		걸어다니는 벌레떼 근처 3 칸 내에 있을 경우 5 턴 동안 둘 다 모든 저항이 %d%% 상승합니다.
-		추가로, 이 기술에 투자한 기술 점수 2 점 마다 걸어다니는 벌레떼는 추가적인 각인 슬롯을 하나 얻습니다. (현재 %d 개).]], "tformat")
-t("Terrible Sight", "무시무시한 광경", "talent name")
-t("You require your worm that walk to be alive and closeby.", "걸어다니는 벌레떼가 살아있는 채로 근처에 있어야 한다.", "logPlayer")
-t([[While within range 3 of your Worm that Walks you can project an aura of terror.
-		At the sight of two maddening horrors fighting together all your foes in radius %d will be stunned for %d turns %s.
-
-		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns %s.]], [[걸어다니는 벌레떼 근처 3 칸 내에 있을 경우 공포의 기운을 뿜어낼 수 있습니다.
-		두 광기의 존재가 함께 싸우는 모습을 보고 반경 %d 칸 내의 모든 적들은 %d 턴 동안 기절합니다 %s.
-
-		추가로 시전자의 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게 하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다 %s.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/horrific-body.lua"
@@ -3009,11 +3063,6 @@ t([[You shed the outer layer of your mutated skin and empower it to act as a dam
 		보호막은 최대 %d 피해를 막아냅니다.
 		]], "tformat")
 t("Pustulent Growth", "고름으로 찬 성장", "talent name")
-t([[Each time your shed skin looses %d%% of its max power or you take damage over 15%% of your maximum life a black putrescent pustule grows on your body for 5 turns.
-		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
-		Resistance scales with your Spellpower.]], [[벗겨진 피부가 최대 피해 흡수량의 %d%% 피해를 흡수하거나, 한 번에 최대 생명력의 15%% 이상의 피해를 받을 경우, 고름으로 가득 찬 새까만 물집이 5 턴 동안 몸에서 자라납니다.
-		각 물집은 모든 속성 저항력을 %d%% 만큼 상승시킵니다. 물집은 최대 %d 개까지 자라납니다.
-		저항력 증가량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Pustulent Fulmination", "고름 폭발", "talent name")
 t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "모든 물집을 한꺼번에 터뜨려, 반경 %d 칸 내의 모든 대상에게 물집 하나 당 %0.2f 어둠 피해를 주고 시전자의 생명력을 %0.1f 회복합니다.", "tformat")
 t("Defiled Blood", "오염된 피", "talent name")
@@ -3024,24 +3073,39 @@ t([[When you make your pustules explode you leave a pool of defiled blood on the
 		오염된 피 속의 적들은 매 턴 검은 촉수들에게 습격당해 %d%%의 어둠 촉수 피해를 받으며, 2 턴 동안 시전자의 검은 피에 뒤덮입니다 %s.
 		검은 피에 뒤덮인 대상이 시전자를 공격하면 그 피해량의 %d%% 만큼 시전자의 생명력이 회복됩니다.
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
+-- new text
+--[==[
+t([[Each time your shed skin loses %d%% of its max power, or you take damage over 15%% of your maximum life, a black putrescent pustule grows on your body for 5 turns.
+		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
+		Resistance scales with your Spellpower.]], [[Each time your shed skin loses %d%% of its max power, or you take damage over 15%% of your maximum life, a black putrescent pustule grows on your body for 5 turns.
+		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
+		Resistance scales with your Spellpower.]], "tformat")
+--]==]
+
+-- old translated text
+t([[Each time your shed skin looses %d%% of its max power or you take damage over 15%% of your maximum life a black putrescent pustule grows on your body for 5 turns.
+		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
+		Resistance scales with your Spellpower.]], [[벗겨진 피부가 최대 피해 흡수량의 %d%% 피해를 흡수하거나, 한 번에 최대 생명력의 15%% 이상의 피해를 받을 경우, 고름으로 가득 찬 새까만 물집이 5 턴 동안 몸에서 자라납니다.
+		각 물집은 모든 속성 저항력을 %d%% 만큼 상승시킵니다. 물집은 최대 %d 개까지 자라납니다.
+		저항력 증가량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/madness.lua"
 
 t("Dark Whispers", "어둠의 속삭임", "talent name")
-t("Hideous Visions", "흉측한 광경", "talent name")
-t("hallucination", "환각", "_t")
-t("Sanity Warp", "정신 왜곡", "talent name")
-t("When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "흉측한 광경으로 생성된 환각이 피해를 받아 사라질 때, 정신적인 비명을 터뜨려 반경 %d 칸 내의 모든 적에게 %0.2f 의 어둠 피해를 입힙니다.", "tformat", {2,1})
-t("Cacophony", "불협화음", "talent name")
 t([[Terrible visions and maddening voices fill the minds of enemies within a radius %d area, inflicting %0.2f darkness damage each turn for 5 turns %s. In addition, this distraction will reduce physical, spell and mindpower of those affected by %d.
 The power loss caused by this spell can stack, to a maximum of %d powers.
 		The effect will increase with your Spellpower.]], [[적들의 정신을 끔찍한 광경과 광기 어린 목소리로 채웁니다. 반경 %d 칸 내의 적들에게 5 턴 동안 %0.2f 어둠 피해를 매 턴 가합니다 %s. 추가로 대상의 주의를 흐트려 물리력, 주문력, 정신력을 %d 낮춥니다.
 이 주문으로 잃는 물리력, 주문력, 정신력은 중첩 가능하며, 최대 %d 까지 중첩됩니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
+t("Hideous Visions", "흉측한 광경", "talent name")
+t("hallucination", "환각", "_t")
 t([[Each time an enemy takes damage from Dark Whispers, there is a %d%% chance for one of their visions to manifest in an adjacent tile for %d turns %s. This vision takes no actions but the victim will deal %d%% reduced damage to all other targets until the vision is slain.
 		A target cannot have more than one hallucination at a time.]], [[적이 어둠의 속삭임으로 피해를 입을 때마다, %d%% 확률로 적들의 정신을 채운 환각이 인접한 칸에 %d 턴 동안 구현됩니다 %s. 환각은 아무것도 하지 않지만, 희생자는 환각을 없애버리기 전까지 다른 모든 대상을 공격할 때 %d%% 적은 피해를 입힙니다.
 		한 대상의 환각은 오직 하나만 존재할 수 있습니다.]], "tformat")
+t("Sanity Warp", "정신 왜곡", "talent name")
+t("When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "흉측한 광경으로 생성된 환각이 피해를 받아 사라질 때, 정신적인 비명을 터뜨려 반경 %d 칸 내의 모든 적에게 %0.2f 의 어둠 피해를 입힙니다.", "tformat", {2,1})
+t("Cacophony", "불협화음", "talent name")
 t([[Raise your Dark Whispers in radius %d to a deafening crescendo for %d turns, applying another stack and drowning out all thought %s.
 			Targets afflicted by Dark Whispers will have 20%% higher chance to spawn hallucinations, and each time they take damage from your Dark Whispers or Sanity Warp they will take an additional %d%% damage as temporal damage.
 		The damage will improve with your Spellpower.]], [[%d 턴 동안 반경 %d 칸 내의 어둠의 속삭임을 귀청이 터질 듯한 불협화음 수준까지 끌어올립니다. 즉시 어둠의 속삭임 중첩을 하나 더 쌓고 적들의 생각을 날려버립니다 %s.
@@ -3070,14 +3134,12 @@ t("#CRIMSON#%s is swallowed by a portal!", "#CRIMSON#%s 차원문에게 삼켜�
 t("%s resists the warp!", "%s 공간의 뒤틀림에 저항했다!", "logSeen", nil, {"는"})
 t("entropic maw", "엔트로피의 아가리", "_t")
 t("Tendrils lash around the mouth of this gigantic beast, seeking prey to devour.", "아가리 주변에 덩굴손이 나 있는 거대한 짐승입니다. 먹어치울 희생양을 찾고 있습니다.", "_t")
-t("Halo of Ruin", "파멸의 후광", "talent name")
-t("Grasping Tendrils", "움켜쥐는 덩굴손", "talent name")
-t("Grab a target and drag it to your side, dealing %d%% weapon damage and taunting it.", "대상을 붙잡고 시전자 쪽으로 끌어당깁니다. %d%% 의 무기 피해를 입히고 도발합니다.", "tformat")
 t([[Briefly open a radius %d rift in spacetime that teleports those within to the targeted location %s. Enemies will take %0.2f darkness and %0.2f temporal damage.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
 		The damage will improve with your Spellpower.]], [[짧은 시간 동안 반경 %d 칸의 균열을 열어 지정 위치 내의 대상을 목표 위치로 순간이동시킵니다 %s. 적들은 %0.2f 어둠 피해와 %0.2f 시간 피해를 받습니다.
 		이 주문은 시전자에게 8 턴에 걸쳐 %d 의 피해를 가하는 엔트로피 반발을 쌓습니다. 이 피해는 엔트로피의 선물에 사용할 수 있습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Halo of Ruin", "파멸의 후광", "talent name")
 t([[Each time you cast a non-instant Demented spell, a nether spark begins orbiting around you for 10 turns, to a maximum of 5. Each spark increases your critical strike chance by %d%%, and on reaching 5 sparks your next Nether spell will consume all sparks to empower itself:
 #PURPLE#Netherblast:#LAST# Becomes a deadly lance of void energy, piercing through enemies and dealing an additional %d%% damage over 5 turns.
 #PURPLE#Rift Cutter:#LAST# Those in the rift will be pinned for %d turns %s, take %0.2f temporal damage each turn, and the rift explosion has %d increased radius.
@@ -3087,11 +3149,14 @@ The damage will increase with your Spellpower.  Entropic Maw stats will increase
 #PURPLE#균열 절단:#LAST# 균열 내의 대상은 %d 턴 동안 속박되고 %s 매 턴 %0.2f 시간 피해를 입습니다. 균열 폭발 반경이 %d 칸 증가합니다.
 #PURPLE#공간의 뒤틀림:#LAST# 엔트로피의 아가리가 균열의 출구에 %d 턴 동안 소환됩니다. 아가리는 덩굴손으로 주변의 대상들을 끌어당기고 도발합니다 %s.
 피해량은 주문력에 비례하여 증가합니다. 엔트로피의 아가리의 능력치는 레벨과 마법 능력치에 비례하여 증가합니다.]], "tformat")
+t("Grasping Tendrils", "움켜쥐는 덩굴손", "talent name")
+t("Grab a target and drag it to your side, dealing %d%% weapon damage and taunting it.", "대상을 붙잡고 시전자 쪽으로 끌어당깁니다. %d%% 의 무기 피해를 입히고 도발합니다.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/oblivion.lua"
 
 t("Nihil", "허무", "talent name")
+t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns %s. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "엔트로피가 주변 세계로 번져나갑니다. 시전자에게 엔트로피 반발이 쌓이거나 증가하면, 시야 10 칸 내 무작위한 적 %d 체가 8 턴 동안 엔트로피의 힘에 둘러싸이게 됩니다 %s. 이 대상들에게 새로 걸리는 부정적 효과들의 지속시간과 이로운 효과의 지속시간이 %d%% 연장 / 단축됩니다.", "tformat")
 t("Unravel Existence", "존재 해체", "talent name")
 t("herald of oblivion", "소멸의 전령", "_t")
 t("Space warps and blurs around this titanic being, as if reality itself was struggling against it.", "거대한 무언가입니다. 주변의 공간이 마치 현실 그 자체가 저항하고 있는 것처럼 흐려지고 왜곡되고 있습니다.", "_t")
@@ -3120,12 +3185,18 @@ t([[Summon a radius 4 storm of all-consuming oblivion at the targeted location f
 		이 피해는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Void Crash", "공허 파쇄", "talent name")
 t("Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "무기를 지면에 내리쳐 반경 2 칸의 공허 에너지 폭발을 일으킵니다. %d%% 어둠/시간 피해를 가합니다.", "tformat")
-t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns %s. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "엔트로피가 주변 세계로 번져나갑니다. 시전자에게 엔트로피 반발이 쌓이거나 증가하면, 시야 10 칸 내 무작위한 적 %d 체가 8 턴 동안 엔트로피의 힘에 둘러싸이게 됩니다 %s. 이 대상들에게 새로 걸리는 부정적 효과들의 지속시간과 이로운 효과의 지속시간이 %d%% 연장 / 단축됩니다.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/path-of-horror.lua"
 
 t("Carrion Feet", "썩어가는 발", "talent name")
+t([[Your feet start to continuously produce carrion worms that are constantly crushed as you walk, passively increasing movement speed by %d%%.
+		You can also activate this talent to instantly destroy more worms, letting you jump in range %d to visible terrain.
+		Upon landing you crush more worms, creating a radius 2 cone of gore; any creatures caught inside deals 70%% less damage for one turn %s.
+		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], [[발에서 썩어가는 벌레들이 끊임없이 생겨납니다. 걸을 때마다 이 벌레들을 밟아 이동 속도가 %d%% 증가합니다.
+		이 기술을 사용하면 즉시 더 많은 벌레들을 밟아 으깨, 시야 내 %d 칸 이내의 장소로 도약할 수 있습니다.
+		착지를 할 때에도 벌레를 으깨어, 반경 2 칸의 원뿔 범위 내에 피웅덩이를 만듭니다. 피웅덩이를 밟고 있는 모든 생물은 1 턴 동안 가하는 피해량이 70%% 감소합니다 %s.
+		피웅덩이의 영향을 받은 적이 하나라도 있으면 광기를 추가로 20 획득합니다.]], "tformat")
 t("Horrific Evolution", "끔찍한 진화", "talent name")
 t([[Your mutations have enhanced your offense even farther.
 		You gain %d Accuracy and %d Spellpower.
@@ -3142,13 +3213,6 @@ t("Writhing One", "뒤틀린 자", "talent name")
 t([[At last you unlock the true power of your mutated body!
 		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[마침내 변이된 육체의 진정한 힘을 일깨웠습니다!
 		기절 면역력이 %d%%, 치명타 무시 확률이 %d%%, 어둠과 황폐 피해량이 %d%% 증가합니다.]], "tformat")
-t([[Your feet start to continuously produce carrion worms that are constantly crushed as you walk, passively increasing movement speed by %d%%.
-		You can also activate this talent to instantly destroy more worms, letting you jump in range %d to visible terrain.
-		Upon landing you crush more worms, creating a radius 2 cone of gore; any creatures caught inside deals 70%% less damage for one turn %s.
-		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], [[발에서 썩어가는 벌레들이 끊임없이 생겨납니다. 걸을 때마다 이 벌레들을 밟아 이동 속도가 %d%% 증가합니다.
-		이 기술을 사용하면 즉시 더 많은 벌레들을 밟아 으깨, 시야 내 %d 칸 이내의 장소로 도약할 수 있습니다.
-		착지를 할 때에도 벌레를 으깨어, 반경 2 칸의 원뿔 범위 내에 피웅덩이를 만듭니다. 피웅덩이를 밟고 있는 모든 생물은 1 턴 동안 가하는 피해량이 70%% 감소합니다 %s.
-		피웅덩이의 영향을 받은 적이 하나라도 있으면 광기를 추가로 20 획득합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/rift.lua"
@@ -3178,6 +3242,15 @@ t("dimensional gateway", "차원 관문", "_t")
 t("void skitterer", "공허 추격자", "_t")
 t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "꿈틀거리는 덩굴손으로 뒤덮인 괴이한 생명체입니다. 먹잇감들을 향해 빠르게 순간이동합니다.", "_t")
 t("Summon", "소환", "_t")
+t([[Pouring more energy into your rifts, you have a %d%% chance for each one to instead appear as a more powerful type.
+#PURPLE#Nether Breach:#LAST# Fires a beam dealing %0.2f darkness damage at a random target in radius 10.
+#PURPLE#Temporal Vortex:#LAST# Inflicts %0.2f temporal damage each turn to enemies in radius 4 and reduces their global speed by 30%% %s.
+#PURPLE#Dimensional Gate:#LAST# Has a 50%% chance each turn to summon a voidling lasting %d turns; a fast melee attacker that can teleport.
+The stats of your Void Skitterers will scale with your Magic stat and level.]], [[공허의 틈에 더 많은 에너지를 쏟아부어, %d%% 확률로 기존보다 더욱 강력한 틈을 열 수 있게 됩니다.
+#PURPLE#황천의 구멍:#LAST# 반경 10 칸 이내의 무작위한 적에게 광선을 쏘아 %0.2f 어둠 피해를 입힙니다.
+#PURPLE#시간의 소용돌이:#LAST# 반경 4 칸 이내의 적에게 %0.2f 시간 피해를 턴마다 입히고, 전체 속도를 30%%만큼 감소시킵니다 %s.
+#PURPLE#차원 관문:#LAST# 매 턴 50%% 확률로 %d 턴 동안 지속되는 공허 추격자를 소환합니다. 공허 추격자는 순간이동을 할 수 있는 재빠른 근접 하수인입니다.
+공허 추격자의 능력치는 시전자의 마법 능력치와 레벨에 비례하여 증가합니다.]], "tformat")
 t("Dimensional Skitter", "차원 도약", "talent name")
 t("%s's Dimensional Skitter fizzles!", "%s의 차원 도약이 실패했다!", "logSeen")
 t("Teleport to a target within range 10 and strike them with your fangs dealing %d%% weapon damage.", "반경 10 칸 내의 적에게 순간이동합니다. 송곳니로 %d%% 무기 피해를 입힙니다.", "tformat")
@@ -3191,33 +3264,24 @@ t([[You draw power from the depths of the void causing your Reality Fracture to 
 #PURPLE#황천의 구멍:#LAST# %d%% 증가된 피해를 입히고, 인근의 세 대상에게 연쇄됩니다.
 #PURPLE#시간의 소용돌이:#LAST# %d%% 증가된 피해를 입히고, 반경이 1 칸 늘어납니다. 전체 속도 감소 효과가 50%% 로 증가합니다.
 #PURPLE#차원 관문:#LAST# 공허 추격자가 미쳐 날뜁니다. 공허 추격자의 전체 속도가 %d%% 증가합니다.]], "tformat")
-t([[Pouring more energy into your rifts, you have a %d%% chance for each one to instead appear as a more powerful type.
-#PURPLE#Nether Breach:#LAST# Fires a beam dealing %0.2f darkness damage at a random target in radius 10.
-#PURPLE#Temporal Vortex:#LAST# Inflicts %0.2f temporal damage each turn to enemies in radius 4 and reduces their global speed by 30%% %s.
-#PURPLE#Dimensional Gate:#LAST# Has a 50%% chance each turn to summon a voidling lasting %d turns; a fast melee attacker that can teleport.
-The stats of your Void Skitterers will scale with your Magic stat and level.]], [[공허의 틈에 더 많은 에너지를 쏟아부어, %d%% 확률로 기존보다 더욱 강력한 틈을 열 수 있게 됩니다.
-#PURPLE#황천의 구멍:#LAST# 반경 10 칸 이내의 무작위한 적에게 광선을 쏘아 %0.2f 어둠 피해를 입힙니다.
-#PURPLE#시간의 소용돌이:#LAST# 반경 4 칸 이내의 적에게 %0.2f 시간 피해를 턴마다 입히고, 전체 속도를 30%%만큼 감소시킵니다 %s.
-#PURPLE#차원 관문:#LAST# 매 턴 50%% 확률로 %d 턴 동안 지속되는 공허 추격자를 소환합니다. 공허 추격자는 순간이동을 할 수 있는 재빠른 근접 하수인입니다.
-공허 추격자의 능력치는 시전자의 마법 능력치와 레벨에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/scourge-drake.lua"
 
 t("Tentacled Wings", "촉수 날개", "talent name")
+t([[You project tentacles in a cone of radius %d in front of you.
+		Any foes caught inside are grappled by the tentacles and suffer %d%% weapon damage as blight, if the attack hits the creatures are also pulled towards you %s.]], [[촉수의 날개를 펼쳐 반경 %d 칸의 원뿔 범위의 적들을 공격합니다.
+		범위 내의 모든 적은 촉수에 조여져 %d%% 무기 피해를 황폐 속성으로 받습니다. 피격당한 모든 대상은 시전자에게로 끌려옵니다 %s.]], "tformat")
 t("Decaying Grounds", "부패하는 대지", "talent name")
+t([[You blight a zone as a decaying ground for %d turns. All creatures inside take %0.2f blight damage per turn and have all their cooldowns increased by %d%% for 3 turns %s.
+		The damage will scale with the highest of your spell or mind power.]], [[대지를 황폐화시켜 %d 턴 동안 썩어가게 만듭니다. 해당 지역 내의 모든 적들은 매 턴 %0.2f 황폐 피해를 입고, 3 턴 동안 재사용 대기시간이 %d%% 증가합니다 %s.
+		피해량은 주문력이나 정신력 중 높은 값에 비례하여 증가합니다.]], "tformat")
 t("Augment Despair", "깊어지는 절망", "talent name")
 t([[You target a single creature with all your hatred and insanity, augmenting its despair, increasing the duration of detrimental effects by %d turns and dealing %0.2f blight damage per detrimental effect (each effect deals 75%% of the previous one).
 		The damage will scale with the highest of your spell or mind power.]], [[대상을 증오와 광기의 희생양으로 삼아, 더욱 암울한 절망 속으로 몰아넣습니다. 부정적인 효과의 지속시간을 %d 턴 연장하고 부정적인 효과 하나 당 %0.2f 황폐 피해를 입힙니다 (2 번째 부정적인 효과부터 피해량이 75%% 씩 감소합니다).
 		피해량은 주문력이나 정신력 중 높은 값에 비례하여 증가합니다.]], "tformat")
 t("Maggot Breath", "구더기 숨결", "talent name")
 t("@Source@ breathes a wave of maggots!", "@Source1@ 구더기를 뿜어냈다!", "_t")
-t([[You project tentacles in a cone of radius %d in front of you.
-		Any foes caught inside are grappled by the tentacles and suffer %d%% weapon damage as blight, if the attack hits the creatures are also pulled towards you %s.]], [[촉수의 날개를 펼쳐 반경 %d 칸의 원뿔 범위의 적들을 공격합니다.
-		범위 내의 모든 적은 촉수에 조여져 %d%% 무기 피해를 황폐 속성으로 받습니다. 피격당한 모든 대상은 시전자에게로 끌려옵니다 %s.]], "tformat")
-t([[You blight a zone as a decaying ground for %d turns. All creatures inside take %0.2f blight damage per turn and have all their cooldowns increased by %d%% for 3 turns %s.
-		The damage will scale with the highest of your spell or mind power.]], [[대지를 황폐화시켜 %d 턴 동안 썩어가게 만듭니다. 해당 지역 내의 모든 적들은 매 턴 %0.2f 황폐 피해를 입고, 3 턴 동안 재사용 대기시간이 %d%% 증가합니다 %s.
-		피해량은 주문력이나 정신력 중 높은 값에 비례하여 증가합니다.]], "tformat")
 t([[You breathe a wave of dead maggots in a cone of radius %d. Any target caught in the area will take %0.2f blight damage and be infected with a crippling disease for 10 turns %s.
 		Crippling disease slows creatures by %d%% and deals %0.2f blight damage per turn.
 		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[반경 %d 칸의 원뿔 범위에 구더기를 내뿜습니다. 범위 내의 모든 대상은 %0.2f 황폐 피해를 받고, 10 턴 동안 불구성 질병에 감염됩니다 %s.
@@ -3231,6 +3295,13 @@ t("Digest", "집어삼키기", "talent name")
 t("%s has no usable talents.", "%s 사용가능한 기술이 없다.", "logPlayer", nil, {"는"})
 t("Painful Agony", "끔찍한 고통", "_t")
 t("Choose a talent to use:", "사용할 기술을 고르세요:", "_t")
+t([[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole %s.
+		While you digest it you gain %d insanity per turn.
+		The digestion lasts for 50 turns for an elite and 25 turns for others.
+		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], [[근접 공격을 가해 %d%% 무기 피해를 가하고, 대상의 생명력이 %d%% 이하라면 대상을 낚아채 통째로 삼켜버립니다 %s.
+		적을 소화시키는 동안 매 턴 %d 광기를 획득합니다.
+		정예 등급의 적을 삼킨 경우 소화하는 데에 50 턴이 걸리고, 나머지 경우에는 25 턴이 걸립니다.
+		이 효과의 남아있는 지속시간은 오직 전투 중에만 줄어듭니다. 또한 이 기술로 얻게 되는 이점 역시 전투 중에만 적용됩니다.]], "tformat")
 t("Painful Agony", "끔찍한 고통", "talent name")
 t([[The pain you inflict to the victim you are digesting is so intense something breaks inside it, giving you a way into its mind.
 		When you digest you can steal a random talent from your victim and can use it for yourself at talent level %d.
@@ -3244,11 +3315,6 @@ t([[The pain you inflict to the victim you are digesting is so intense something
 		빼앗은 기술을 사용할 때에는 별도의 원천력이 필요하지 않습니다.
 		]], "tformat")
 t("Inner Tentacles", "내면의 촉수", "talent name")
-t([[Your stomatch grows small tentacles inside which probe and torment your digested victim even more.
-		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
-		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 뱃속의 적을 지켜보며 더욱 끔찍한 고통을 가합니다.
-		치명타 공격을 가하면 촉수들이 더 활발하게 움직이면서 적이 느끼는 고통을 시전자의 활력으로 바꾸어 줍니다.
-		이로 인해 3 턴 동안 20%% 확률로 시전자가 가하는 피해량의 %d%% 가 생명력으로 흡수됩니다.]], "tformat")
 t("Consume Whole", "소화", "talent name")
 t("You are not digesting a creature.", "당신은 적을 삼키고 있지 않다.", "logPlayer")
 t([[Instantly consume what remains of your victim, healing yourself for %d life and generating %d insanity.
@@ -3256,13 +3322,21 @@ t([[Instantly consume what remains of your victim, healing yourself for %d life 
 		The life healed will increase with your Spellpower.]], [[집어삼킨 적을 즉시 소화시켜 생명력을 %d, 광기를 %d 회복합니다.
 			이 기술을 사용하면 집어삼키기의 재사용 대기시간이 초기화됩니다.
 		생명력 회복량은 주문력에 비례하여 증가합니다.]], "tformat")
-t([[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole %s.
-		While you digest it you gain %d insanity per turn.
-		The digestion lasts for 50 turns for an elite and 25 turns for others.
-		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], [[근접 공격을 가해 %d%% 무기 피해를 가하고, 대상의 생명력이 %d%% 이하라면 대상을 낚아채 통째로 삼켜버립니다 %s.
-		적을 소화시키는 동안 매 턴 %d 광기를 획득합니다.
-		정예 등급의 적을 삼킨 경우 소화하는 데에 50 턴이 걸리고, 나머지 경우에는 25 턴이 걸립니다.
-		이 효과의 남아있는 지속시간은 오직 전투 중에만 줄어듭니다. 또한 이 기술로 얻게 되는 이점 역시 전투 중에만 적용됩니다.]], "tformat")
+-- new text
+--[==[
+t([[Your stomach grows small tentacles inside which probe and torment your digested victim even more.
+		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
+		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[Your stomach grows small tentacles inside which probe and torment your digested victim even more.
+		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
+		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], "tformat")
+--]==]
+
+-- old translated text
+t([[Your stomatch grows small tentacles inside which probe and torment your digested victim even more.
+		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
+		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 뱃속의 적을 지켜보며 더욱 끔찍한 고통을 가합니다.
+		치명타 공격을 가하면 촉수들이 더 활발하게 움직이면서 적이 느끼는 고통을 시전자의 활력으로 바꾸어 줍니다.
+		이로 인해 3 턴 동안 20%% 확률로 시전자가 가하는 피해량의 %d%% 가 생명력으로 흡수됩니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/tentacles.lua"
@@ -3287,13 +3361,6 @@ t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #C
 t("Lash Out", "채찍질", "talent name")
 t("You require an empty offhand to use your tentacle hand.", "촉수 팔을 사용하기 위해서는 보조무기 칸을 비워야 한다.", "logPlayer")
 t("You require a weapon and an empty offhand!", "주무기와 맨손이 필요하다!", "logPlayer")
-t("Tendrils Eruption", "촉수 분출", "talent name")
-t("%s resists the slimy tendril!", "%s 미끌미끌한 촉수에 저항한다!", "logSeen", nil, {"는"})
-t("Constrict", "조이기", "talent name")
-t("You require a mutated hand!", "변이된 팔이 필요하다!", "logPlayer")
-t("%s's tentacle fails to move %s!", "%s의 촉수가 %s 끌어오는데 실패했다!", "tformat", nil, {[2]="을"})
-t("Your constrict target has disappeared!", "촉수로 조이고 있던 대상이 사라졌다!", "logPlayer")
-t("This target can not be moved!", "이 대상을 움직이게 할 수는 없다!", "logPlayer")
 t([[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
 				
 				If the mainhand attack hits at least one enemy you gain %d insanity.
@@ -3305,6 +3372,8 @@ t([[Spin around, extending your weapon and damaging all targets around you for %
 				촉수를 이용한 공격이 한 명에게라도 명중하면 광기를 %d 획득합니다.
 		
 		#YELLOW_GREEN#촉수 조이기 도중:#WHITE# 조이기의 대상이 된 적을 기준으로, 반경 1 칸에 채찍질의 촉수 공격이 일어납니다 (따라서 주무기 공격은 가하지 않습니다). 또한 피격당한 모든 적은 5 턴 동안 혼절합니다 %s.]], "tformat")
+t("Tendrils Eruption", "촉수 분출", "talent name")
+t("%s resists the slimy tendril!", "%s 미끌미끌한 촉수에 저항한다!", "logSeen", nil, {"는"})
 t([[You plant your tentacle hand in the ground where it splits up and extends to a target zone of radius %d.
 		The zone will erupt with many black tendrils to hit all foes caught inside dealing %d%% tentacle damage.
 		Any creature hit by the tentacle will be numbed by the attack %s, reducing its damage by %d%% for 5 turns.
@@ -3317,6 +3386,11 @@ t([[You plant your tentacle hand in the ground where it splits up and extends to
 		공격이 한 명에게라도 명중하면 광기를 %d 획득합니다.
 
 		#YELLOW_GREEN#촉수 조이기 도중:#WHITE#덩굴손이 조이기의 대상을 연이어 후려쳐 %d%% 피해를 주고, 적이 시전자와 인접한 경우 주무기 공격을 추가로 가합니다. 이 기술의 재사용 대기시간이 10 턴 단축됩니다.]], "tformat")
+t("Constrict", "조이기", "talent name")
+t("You require a mutated hand!", "변이된 팔이 필요하다!", "logPlayer")
+t("%s's tentacle fails to move %s!", "%s의 촉수가 %s 끌어오는데 실패했다!", "tformat", nil, {[2]="을"})
+t("Your constrict target has disappeared!", "촉수로 조이고 있던 대상이 사라졌다!", "logPlayer")
+t("This target can not be moved!", "이 대상을 움직이게 할 수는 없다!", "logPlayer")
 t([[You extend your tentacle to grab a distant target, pulling it to you %s.
 		As long as Constrict stays active the target is bound by your tentacle %s, it can try to move away but each turn you pull it back in 1 tile.
 		While constricting you cannot use your tentacle to enhance your normal attacks but you deal %d%% tentacle damage each turn to your target.
@@ -3331,6 +3405,11 @@ t([[You extend your tentacle to grab a distant target, pulling it to you %s.
 section "tome-cults/data/talents/demented/timethief.lua"
 
 t("Accelerate", "가속", "talent name")
+t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns %s.
+You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
+Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어 반경 %d 칸 이내의 모든 적의 이동 속도를 %d 턴 동안 50%% 낮춥니다 %s.
+시전자는 적에게서 흡수한 시간을 이용하여 1 턴 동안 믿을 수 없는 속도로 움직입니다. 시전자의 이동 속도가 %d%% 만큼 증가하고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다 (최대 4체까지).
+이동을 제외한 모든 행위는 이 효과를 즉시 중단시킵니다.]], "tformat")
 t("Switch", "전환", "talent name")
 t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "엔트로피의 쇄도를 해방하여 타인의 에너지를 흡수하고, 시전자의 부정적인 효과들을 정화합니다. 반경 10칸 이내의 모든 적이 가진 이로운 효과 %d 개의 지속시간을 %d 턴 단축시키고, 시전자가 가진 같은 수의 부정적인 효과의 지속시간도 똑같이 단축합니다.", "tformat")
 t("Suspend", "유보", "talent name")
@@ -3344,11 +3423,14 @@ t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#%s의 시간 분신#LAST#", "tformat")
 t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "대상과 흡사한 뒤틀린 상으로, 가능한 모든 미래의 모습을 담은 채로 흐릿하게 깜박거리고 있습니다.", "_t")
 t("Summon", "소환", "_t")
-t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns %s.
-You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], [[주변의 시공간을 뒤틀어 반경 %d 칸 이내의 모든 적의 이동 속도를 %d 턴 동안 50%% 낮춥니다 %s.
-시전자는 적에게서 흡수한 시간을 이용하여 1 턴 동안 믿을 수 없는 속도로 움직입니다. 시전자의 이동 속도가 %d%% 만큼 증가하고, 느려진 적 하나당 %d%% 의 이동 속도를 추가로 획득합니다 (최대 4체까지).
-이동을 제외한 모든 행위는 이 효과를 즉시 중단시킵니다.]], "tformat")
+-- new text
+--[==[
+t([[The target enemy will be partially removed from the normal flow of time for %d turns %s, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
+While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% of the target's life and deals %d%% damage.]], [[The target enemy will be partially removed from the normal flow of time for %d turns %s, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
+While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% of the target's life and deals %d%% damage.]], "tformat")
+--]==]
+
+-- old translated text
 t([[The target enemy will be partially removed from the normal flow of time for %d turns %s, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
 While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[적 하나를 지정하여 %d 턴 동안 시간의 흐름에서 부분적으로 지우고 %s, 이 세계와의 상호작용을 방해합니다. 대상이 받는 모든 피해량은 %d%% 로 감소하고, 대상이 가하는 모든 피해량도 %d%% 로 감소합니다.
 활성화 시, 찢겨진 대상의 시간선을 시간 분신으로 다시 자아내어 시전자의 편에서 싸우게 합니다. 분신의 유지시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 생명력은 %d%% 더 적으며 가하는 피해량은 원본의 %d%% 입니다.]], "tformat")
@@ -3404,7 +3486,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		이 질병에 감염된 적들은 생명력 회복 효율이 %d%% 감소하며, 질병 면역력이 %d%% 감소합니다.
 		이 질병은 무시무시하게 강력하기 때문에 대상의 질병 면역력을 완전히 무시합니다.
 		피해량은 주문력에 비례하여 증가하고, 전염될 확률은 대상에게 가한 황폐 속성 피해량의 영향을 받아 증가합니다.]], "tformat")
--- new text
+-- untranslated text
 --[==[
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
 t([[		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
@@ -4228,7 +4310,7 @@ Thoughts treasured when they are alone.
 생각은 홀로 있을 때 보물이 된다.
 
 #RED#읽으면 5턴에 걸쳐 빨려들어간다.]], "_t")
--- new text
+-- untranslated text
 --[==[
 t("..", "..", "entity name")
 --]==]
@@ -4869,6 +4951,8 @@ t("#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{no
 t("enabled", "켜짐", "_t")
 t("disabled", "꺼짐", "_t")
 t("Forbidden Cults", "금단의 교단", "_t")
+t("Disable Book visual for forbidden tomes", "금단의 고서의 책 그래픽 비활성화", "_t")
+t("Disable the book-like display for Forbidden Tomes.", "금단의 고서의 실제 책 같은 그래픽 비활성화합니다.", "_t")
 t("#CRIMSON#This was a very satisfying meal, 'you' feel strengthened. (+1 generic talent point)", "#CRIMSON#굉장히 만족스러운 식사였다. '당신' 은 강해진 느낌이 들었다. (일반 기술 점수 +1점)", "log")
 t("#CRIMSON#[The parasite loves death and pain and gives no choice but to shoot down the airship]", "#CRIMSON#[기생생물은 죽음과 고통을 사랑해서, 비행선을 쏴 격추시키는 것 외에 선택지를 주지 않는다]", "_t")
 t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Melinda].", "#CRIMSON#[기생생물은 배가 고파서 곧장 멜린다를 집어삼켜 먹었다].", "_t")
@@ -4884,9 +4968,11 @@ t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 �
 t("The protagonist of the story is dead.", "이야기의 주인공이 죽었습니다.", "_t")
 t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s 무너지기 시작한다, 한 번 나가면 완전히 사라질 것이다!", "log", nil, {"가"})
 t("%s of the Blightspawn", "황폐의 %s", "tformat")
-t("Disable Book visual for forbidden tomes", "금단의 고서의 책 그래픽 비활성화", "_t")
-t("Disable the book-like display for Forbidden Tomes.", "금단의 고서의 실제 책 같은 그래픽 비활성화합니다.", "_t")
+-- untranslated text
+--[==[
 t("#AQUAMARINE#%s", "#AQUAMARINE#%s", "log")
+--]==]
+
 
 ------------------------------------------------
 section "tome-cults/overload/mod/dialogs/EntropicWormhole.lua"
@@ -4968,7 +5054,7 @@ t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 �
 t("You feel this book is extremely dangerous for you. Proceed?", "이 책은 엄청나게 위험한 것 같습니다. 계속합니까?", "_t")
 t("Cancel", "취소", "_t")
 t("Read Tome", "고서를 읽는다", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5046,7 +5132,7 @@ t([[You may empower the chosen prophecy with Grand Oration, causing it to spread
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Grand Oration.", "위대한 기도문으로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5062,7 +5148,7 @@ t([[You may empower the chosen prophecy with Revelation, causing it to grant you
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Revelation.", "계시로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5078,7 +5164,7 @@ t([[You may empower the chosen prophecy with Twofold Curse, causing it to apply 
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Twofold Curse.", "이중 저주로 강화 가능한 예언들입니다.", "_t")
--- new text
+-- untranslated text
 --[==[
 t("", "", "_t")
 --]==]
