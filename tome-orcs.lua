@@ -1005,11 +1005,11 @@ section "tome-orcs/data/general/npcs/undead-drake.lua"
 
 t("undead", "언데드", "entity type")
 t("dragon", "용", "entity subtype")
-t("undead drake hatchling", "사룡 해츨링", "entity name")
+t("undead drake hatchling", "언데드 드레이크 해츨링", "entity name")
 t("A skeletal drake hatchling; not too powerful by itself, but if it's anything like living ones, it's probably not alone.", "해골 드레이크 해츨링입니다. 그 자체로는 그렇게 강력하진 않지만, 다른 생물들처럼 혼자 있는 게 아닐 겁니다.", "_t")
-t("undead drake", "사룡", "entity name")
+t("undead drake", "언데드 드레이크", "entity name")
 t("A skeletal drake, armed with a deadly breath weapon and nasty claws.", "치명적인 숨결 공격과 날카로운 손톱으로 무장한 해골 드레이크입니다.", "_t")
-t("undead wyrm", "언데드 용", "entity name")
+t("undead wyrm", "사룡", "entity name")
 t("The skeleton of a long-lived wyrm, armed with a deadly breath weapon and nasty claws.", "오래 살았던 용의 스켈레톤으로, 치명적인 숨결 공격과 날카로운 손톱으로 무장하고 있습니다.", "_t")
 
 ------------------------------------------------
@@ -1101,13 +1101,7 @@ t("quaff the Blood of Undeath to prepare your body for undeath", "불사의 피�
 t("%s quaffs the %s!", "%s %s 마셨다!", "logSeen", nil, {"는","을"})
 t("#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "#CRIMSON#불사의 피가 당신의 혈관을 타고 퍼져나가는 것이 느껴진다. 생명이 약간 말라비틀어졌음이 느껴진다 (최대 생명력 -50, 생명력 하한 -120).", "logPlayer")
 t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "#CRIMSON#불사의 피가 당신의 언데드 육체를 더욱 강인하게 강화했다 (최대 생명력 -60, 생명력 하한 -140).", "logPlayer")
--- new text
---[==[
-t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tantalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tantalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "_t")
---]==]
-
--- old translated text
-t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "타락한 피가 담긴 이 유리병은 죽음과 부패의 악취를 풍깁니다. 하지만 어찌된 일인지 당신은 이 유리병에 마음이 끌립니다... 영생을 갈망하기 때문일까요? 아니면 힘 때문에? 뭐라고 단언할 수는 없지만, 이 타락한 피를 마시고 싶다는 충동은 실로 엄청납니다.", "_t")
+t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tantalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "타락한 피가 담긴 이 유리병은 죽음과 부패의 악취를 풍깁니다. 하지만 어찌된 일인지 당신은 이 유리병에 마음이 끌립니다... 영생을 갈망하기 때문일까요? 아니면 힘 때문에? 뭐라고 단언할 수는 없지만, 이 타락한 피를 마시고 싶다는 충동은 실로 엄청납니다.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/inscriptions.lua"
@@ -1785,10 +1779,7 @@ t("Laser Powered Giant Smasher", "레이저 작동식 거인 파괴자", "entity
 t("radiant hammer", "광휘의 망치", "_t")
 t("The Laser Powered Giant Smasher, nicknamed the Gloryhammer. You can feel it vibrating with untold power in your hands.", "레이저 작동식 거인 파괴자, 별명 글로리해머. 손에 쥐자 진동하며, 형용할 수 없는 강력한 힘을 느낄 수 있습니다.", "_t")
 t("#PURPLE#You feel the power of the Gloryhammer course through you! It has become fully empowered!", "#PURPLE#글로리해머의 힘이 몸을 타고 흐릅니다! 완전히 강화되었습니다!", "logPlayer")
--- new text
---[==[
-t("This elegant gun is rumoured to have belonged to the infamous assassin wizard Amuraswhit. It is somehow made of pure gold, but feels extremely sturdy and dangerous.", "This elegant gun is rumoured to have belonged to the infamous assassin wizard Amuraswhit. It is somehow made of pure gold, but feels extremely sturdy and dangerous.", "_t")
---]==]
+t("This elegant gun is rumoured to have belonged to the infamous assassin wizard Amuraswhit. It is somehow made of pure gold, but feels extremely sturdy and dangerous.", "소문에 따르면 이 우아한 총은 악명 높은 마법 암살자 아무라스윗이 사용하던 것이라고 합니다. 이유는 모르겠지만 이 총은 순금만 사용하여 만들어졌으며, 그럼에도 불구하고 믿을 수 없을 정도로 견고하고 위험해 보입니다.", "_t")
 
 -- untranslated text
 --[==[
@@ -1806,13 +1797,7 @@ t("tinker", "발명품", "entity name")
 t("expensive goods", "값비싼 것들", "entity name")
 t("rune and infusion collector", "룬과 주입물 수집가", "entity name")
 t("tool store", "도구 상점", "entity name")
--- new text
---[==[
-t("arcane psi collector", "arcane psi collector", "entity name")
---]==]
-
--- old translated text
-t("aracane psi collector", "마법과 염력 수집가", "entity name")
+t("arcane psi collector", "마법과 초능력 수집가", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/general/traps/ritch.lua"
@@ -4420,7 +4405,7 @@ t([[After casting a technomancy spell you store some of its energies that you ca
 section "tome-orcs/data/talents/spells/spells.lua"
 
 t("spell", "주문", "talent category")
-t("undead drake", "사룡", "talent type")
+t("undead drake", "사룡의 위상", "talent type")
 t("Take on the defining aspects of an Undead Drake.", "언데드 드레이크의 본질을 취합니다.", "_t")
 t("galvanic technomancy", "전열의 마도공학", "talent type")
 t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "증기 공학과 마법을 결합하여 앞을 가로막는 이들을 전기와 화염으로 파괴합니다.", "_t")
@@ -5065,19 +5050,9 @@ t([[You fire a special, electrically charged shot with your steamgun(s) at a spo
 		각 탄환이 대상에게 닿으면 반경 %d 칸의 폭발이 일어나, 전류가 흐르는 파편을 흩뿌려 %d%% 무기 피해를 전기 속성으로 가합니다.
 		탄환을 직접 맞은 적은 비 마법 효과를 최대 %d 개까지 제거당합니다 %s.
 		이 기술은 탄환을 소모하지 않습니다.]], "tformat")
--- new text
---[==[
 t([[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
-Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns %s.]], [[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
-Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns %s.]], "tformat")
---]==]
-
--- old translated text
-t([[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
-Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns %s.
-		The stun chance increases with your Steampower.]], [[총기를 빠르게 연사하여 압도적인 사격 실력을 뽐냅니다.
-각 사격마다 (대상 따로 지정 가능) %d%% 피해를 주고 대상을 %d 턴 동안 기절시킵니다 %s.
-		기절 확률은 증기력에 비례하여 증가합니다.]], "tformat")
+Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns %s.]], [[총기를 빠르게 연사하여 압도적인 사격 실력을 뽐냅니다.
+각 사격마다 (대상 따로 지정 가능) %d%% 피해를 주고 대상을 %d 턴 동안 기절시킵니다 %s.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/gunslinging.lua"
@@ -5204,31 +5179,15 @@ t([[Push your heavy weapon beyond its normal limits to trigger a powerful effect
 #AQUAMARINE#화염방사기#LAST#: 연료통을 폭파하여 반경 4 칸의 대폭발을 일으키고, 시전자는 반경 %d 칸 내의 선택한 위치로 날아갑니다. 폭발에 휘말린 적은 %0.2f 화염 피해를 받고, 화염방사기로 인한 화상 피해의 %d%% 에 해당하는 피해를 추가로 받습니다.
 #AQUAMARINE#충격 지팡이#LAST#: 지팡이를 땅에 꽂아넣고 남아있는 모든 전력을 방출하여 %d%% 충격 지팡이 피해를 전기 속성으로 반경 %d 칸 내에 가합니다. 공격받은 적은 %d 칸 밀려나고, 벽에 부딪힐 경우 전자기 파장을 방출해 반경 1 칸 내에 %0.2f 전기 피해를 가하고, 파장에 휘말린 적들을 5 턴 동안 기절시킵니다.
 #AQUAMARINE#화살탄 발사기#LAST#: 화살탄 발사기를 과부화하여, %d%% 피해를 산성 속성으로 입히는 치명적인 화살탄을 단 한 발 쏘아 직선 상의 적을 꿰뚫습니다. 적들은 부정적인 물리, 마법, 정신 효과 하나마다 %d%% 피해를 추가로 받고 (최대 %d%% 까지), 모든 부정적인 효과의 지속시간이 %d 턴 연장됩니다.]], "tformat")
--- new text
---[==[
 t([[You augment your shield with your heavy weapon technology, causing an effect when you Block with a heavy weapon equipped.
 #AQUAMARINE#Flamethrower#LAST#: Vent choking, burning smoke in an area of the same radius as your flamethrower. Enemies caught within take %d%% shield damage as fire and are silenced for %d turns %s.
 #AQUAMARINE#Shockstaff#LAST#: Sheathe your shield in lightning and attack all enemies in radius 3, dealing %d%% shield damage as lightning and gaining a barrier absorbing an amount of damage equal to 100%% of the highest damage dealt for 6 turns.
 #AQUAMARINE#Boltgun#LAST#: Fire a blast of flechettes from your shield at all enemies in radius 7, dealing %d%% shield damage as acid. %d flechettes remain embedded in each target for 6 turns, and when struck by a melee or ranged attack a flechette will detonate and cause acid damage equal to 50%% of the shield damage dealt.
-These attacks will not trigger Counterstrike.]], [[You augment your shield with your heavy weapon technology, causing an effect when you Block with a heavy weapon equipped.
-#AQUAMARINE#Flamethrower#LAST#: Vent choking, burning smoke in an area of the same radius as your flamethrower. Enemies caught within take %d%% shield damage as fire and are silenced for %d turns %s.
-#AQUAMARINE#Shockstaff#LAST#: Sheathe your shield in lightning and attack all enemies in radius 3, dealing %d%% shield damage as lightning and gaining a barrier absorbing an amount of damage equal to 100%% of the highest damage dealt for 6 turns.
-#AQUAMARINE#Boltgun#LAST#: Fire a blast of flechettes from your shield at all enemies in radius 7, dealing %d%% shield damage as acid. %d flechettes remain embedded in each target for 6 turns, and when struck by a melee or ranged attack a flechette will detonate and cause acid damage equal to 50%% of the shield damage dealt.
-These attacks will not trigger Counterstrike.]], "tformat")
---]==]
-
--- old translated text
-t([[You augment your shield with your heavy weapon technology, causing an effect when you Block with a heavy weapon equipped.
-#AQUAMARINE#Flamethrower#LAST#: Vent choking, burning smoke in an area of the same radius as your flamethrower. Enemies caught within take %d%% shield damage as fire and are silenced for %d turns %s.
-#AQUAMARINE#Shockstaff#LAST#: Sheathe your shield in lightning and attack all enemies in radius 3, dealing %d%% shield damage as lightning and gaining a barrier absorbing an amount of damage equal to 100%% of the highest damage dealt for 6 turns.
-#AQUAMARINE#Boltgun#LAST#: Fire a blast of flechettes from your shield at all enemies in radius 7, dealing %d%% shield damage as acid. %d flechettes remain embedded in each target for 6 turns, and when struck by a melee or ranged attack a flechette will detonate and cause acid damage equal to 50%% of the shield damage dealt.
-These attacks will not trigger Counterstrike.
-The chance to silence will increase with your Steampower.]], [[방패를 중화기 기술로 강화하여, 중화기를 장착하고 있을 때 방패 막기 시 특정 효과를 일으킵니다.
-#AQUAMARINE#화염방사기#LAST#: 화염방사기와 동일한 범위의 지역에 불타는 연기를 분사합니다. 범위 내의 모든 적은 %d%% 방패 피해를 화염 속성으로 입고 %d 턴 동안 침묵합니다 %s.
+These attacks will not trigger Counterstrike.]], [[방패를 중화기 기술로 강화하여, 중화기를 장착하고 있을 때 방패 막기 시 특정 효과를 일으킵니다.
+#AQUAMARINE#화염방사기#LAST#: 화염방사기와 동일한 범위의 지역에 불타는 연기를 분사합니다. 범위 내의 모든 적은 %d%% 방패 피해를 화염 속성으로 받고 %d 턴 동안 침묵합니다 %s.
 #AQUAMARINE#충격 지팡이#LAST#: 방패에 전류를 둘러 반경 3 칸 내의 모든 적을 공격합니다. %d%% 방패 피해를 전기 속성으로 가하고 6 턴 동안 시전자를 보호하는 보호막을 얻습니다. 보호막의 피해 흡수량은 시전자가 이 기술로 가한 피해 중 가장 높은 피해량과 같습니다.
 #AQUAMARINE#화살탄 발사기#LAST#: 방패에서 화살탄을 쏘아내 반경 7 칸 내의 모든 적에게 %d%% 방패 피해를 산성 속성으로 가합니다. 화살탄 %d 개가 6 턴 동안 각 대상에게 박혀 있게 됩니다. 화살탄이 박혀 있는 적이 근접이나 원거리 공격을 받으면 화살탄이 폭발하여, 이전에 가했던 방패 피해의 50%% 에 해당하는 산성 피해를 가합니다.
-이 공격들은 반격 효과를 발생시키지 않습니다.
-침묵시킬 확률은 증기력에 비례하여 증가합니다.]], "tformat")
+이 공격들은 반격 효과를 발동시키지 않습니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/inscriptions.lua"
@@ -5676,15 +5635,7 @@ t([[Allows the use of Technomancy spells.
 		현재 증기 수치에 비례하여 주문력이 증가합니다. (현재 주문력: %d / 현재 증기 비율: %d%%)
 		전투에서 벗어나면 모아둔 마법의 증기가 점점 사라지게 됩니다.
 		#{italic}#강철의 마법력!#{normal}#]], "tformat")
--- new text
---[==[
-t("Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user %s.", "Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user %s.", "tformat")
---]==]
-
--- old translated text
-t([[Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user.
-		The silence chance will increase with your Steampower.]], [[반경 %d 칸 내에 염동공학적 파동을 방출해, 시전자를 포함한 모든 개체를 %d 턴 동안 침묵시킵니다.
-		침묵 확률은 증기력에 비례하여 증가합니다.]], "tformat", {2,1})
+t("Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user %s.", "반경 %d 칸 내에 염동공학적 파동을 방출해, 시전자를 포함한 모든 개체를 %d 턴 동안 침묵시킵니다 %s.", "tformat", {2,1,3})
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/physics.lua"
@@ -6594,13 +6545,7 @@ t("#Target# lands.", "#Target2# 착륙한다.", "_t")
 t("-Death From Above", "-하늘에서 내리는 죽음", "_t")
 t("Corrosive Flechette", "부식성 화살탄", "_t")
 t("%d corrosive flechettes are embedded in the target. Each melee and ranged attack against them will cause a flechette to burst for %0.2f acid damage", "부식성 화살탄 %d 개가 몸에 박혀있음 / 대상에게 가해지는 근접, 원거리 공격은 화살탄을 폭발시켜 %0.2f 피해를 가함", "tformat")
--- new text
---[==[
-t("Burning Phosphorus", "Burning Phosphorus", "_t")
---]==]
-
--- old translated text
-t("Burning Phosphorous", "소이 화상", "_t")
+t("Burning Phosphorus", "소이 화상", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/chemistry.lua"
@@ -8108,9 +8053,7 @@ All Tinker classes use Steam for their powers.
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-wyrmic_undead.lua"
 
-t("New Talent Category: #LIGHT_GREEN#Undead Drake", "새로운 기술 계열: #LIGHT_GREEN#사룡", "_t")
--- new text
---[==[
+t("New Talent Category: #LIGHT_GREEN#Undead Drake", "새로운 기술 계열: #LIGHT_GREEN#사룡의 위상", "_t")
 t([[Drakes are forces of Nature, the ultimate apex predators. But as they grow old some gain sentience and some of those may wish to prolong their lives beyond death.
 You have encountered one such and vanquished it.
 
@@ -8121,40 +8064,16 @@ Talents:
 - #YELLOW#Infectious Miasma: #WHITE#Release a deadly cloud of diseases and blight
 - #YELLOW#Vampiric Surge: #WHITE#Revel in the pain of others to heal yourself
 - #YELLOW#Necrotic Breath: #WHITE#Breathe pure darkness and cast a bane on your foes
-]], [[Drakes are forces of Nature, the ultimate apex predators. But as they grow old some gain sentience and some of those may wish to prolong their lives beyond death.
-You have encountered one such and vanquished it.
-
-You can now master Undead Drake magic and create new Wyrmic characters that can learn the #LIGHT_GREEN#Undead Drake talents#WHITE#.
-
-Talents:
-- #YELLOW#Raze: #WHITE#Augment your attacks with dark energies and absorb the souls of your foes
-- #YELLOW#Infectious Miasma: #WHITE#Release a deadly cloud of diseases and blight
-- #YELLOW#Vampiric Surge: #WHITE#Revel in the pain of others to heal yourself
-- #YELLOW#Necrotic Breath: #WHITE#Breathe pure darkness and cast a bane on your foes
-]], "_t")
---]==]
-
--- old translated text
-t([[Drakes are forces of Nature, the ultimate apex predators. But as they grow old some gain sentience and some of those may wish to prolong their lives beyond death.
-You have encountered one such and vanquished it.
-
-You can now master Undead Drake magic and create new Wyrmic characters that can learn the #LIGHT_GREEN#Undead Drake talents#WHITE#.
-
-Talents:
-- #YELLOW#Raze: #WHITE#Augment your melee strikes with deadly energies, absorbing the souls of your foes
-- #YELLOW#Infectious Miasma: #WHITE#Release a deadly cloud of diseases and blight
-- #YELLOW#Vampiric Surge: #WHITE#Revel in the pain of others to heal yourself
-- #YELLOW#Necrotic Breath: #WHITE#Breath pure darkness
 ]], [[드레이크는 자연의 힘의 결정체이자 궁극의 최상위 포식자입니다. 하지만 그들이 나이를 먹어 가면서 지능을 얻게 되었고, 몇몇은 죽음을 맞이한 이후에도 살아가길 바랬습니다.
 당신은 그런 것들 중 하나를 만났고, 무찔렀습니다.
 
-따라서 지금부터 새로 생성된 용인 캐릭터들은 #LIGHT_GREEN#사룡 기술#WHITE#을 배울 수 있고, 그들의 마법을 수련할 수 있습니다.
+따라서 지금부터 새로 생성된 용인 캐릭터들은 #LIGHT_GREEN#사룡의 위상 기술 계열#WHITE#을 배울 수 있고, 그들의 마법을 수련할 수 있습니다.
 
 속한 기술들:
-- #YELLOW#완파: #WHITE#치명적인 에너지로 물리 공격을 강화하고, 적들의 영혼을 흡수합니다.
+- #YELLOW#완파: #WHITE#어두운 에너지로 공격을 강화하고 적들의 영혼을 흡수합니다.
 - #YELLOW#감염성 독기: #WHITE#치명적인 역병과 황폐의 구름을 풀어 놓습니다.
 - #YELLOW#흡혈의 쇄도: #WHITE#적들의 고통을 즐겨 스스로를 치유합니다.
-- #YELLOW#괴사의 숨결: #WHITE#순수한 어둠을 내뿜습니다.
+- #YELLOW#괴사의 숨결: #WHITE#순수한 어둠을 내뿜고 적들을 파멸시킵니다.
 ]], "_t")
 
 ------------------------------------------------

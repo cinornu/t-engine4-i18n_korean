@@ -944,38 +944,22 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		매 턴 화산은 %0.2f 화염 피해와 %0.2f 물리 피해를 주는 2 개의 불타는 암석을 분출합니다.
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
--- new text
---[==[
 t([[Each time you walk or move you gain a blight charge. You can store up to %d charges.
 		When you de-activate the talent you can use the charges to either:
 		- restore %0.2f vim per charge.
 		- deal %0.2f blight damage per charge to a target in range %d.
 		- create a shield absorbing %d damage per charge and reflecting half of it back to attackers.
-		The damage scales with your Spellpower.]], [[Each time you walk or move you gain a blight charge. You can store up to %d charges.
-		When you de-activate the talent you can use the charges to either:
-		- restore %0.2f vim per charge.
-		- deal %0.2f blight damage per charge to a target in range %d.
-		- create a shield absorbing %d damage per charge and reflecting half of it back to attackers.
-		The damage scales with your Spellpower.]], "tformat")
---]==]
-
--- untranslated text
---[==[
-t("", "", "log")
---]==]
-
--- old translated text
-t([[Each time you walk or move you gain a blight charge. You can store up to %d charges.
-		When you de-activate the talent you can use the charges to either:
-		- restore %0.2f vim per charge
-		- deal %0.2f blight damage per charge to a target in range %d.
-		- create a shield absorbing %d per chage damage and refelcting half of it back to attackers.
 		The damage scales with your Spellpower.]], [[이동할 때마다 황폐 중첩을 얻습니다. 최대 %d 번 중첩됩니다.
 		시전자가 이 기술을 비활성화할 경우, 이 중첩들을 다음과 같이 사용할 수 있습니다.
 		- 중첩 당 %0.2f 원기 회복.
 		- 중첩 당 %0.2f 황폐 피해를 대상 주위 반경 %d 칸에 가함.
 		- 중첩 당 %d 피해를 막아내고, 피해량의 절반을 공격자에게 반사하는 방어막 생성.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+
+-- untranslated text
+--[==[
+t("", "", "log")
+--]==]
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"

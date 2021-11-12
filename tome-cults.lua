@@ -613,7 +613,7 @@ t("dragon", "용", "entity type")
 t("scourge", "재앙", "entity subtype")
 t("scourge drake hatchling", "재앙 드레이크 해츨링", "entity name")
 t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "드레이크의 새끼로 그 자체로는 그다지 강하지 않지만, 보통 형제자매들과 같이 나타납니다.", "_t")
-t("scourge drake", "폐룡의 위상", "entity name")
+t("scourge drake", "재앙 드레이크", "entity name")
 t("A mature scourge drake, armed with deadly breath and nasty claws.", "성년 재앙 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
 t("scourge wyrm", "폐룡", "entity name")
 t("An old and powerful scourge drake, armed with deadly breath and nasty claws.", "늙고 강력한 재앙 드레이크로, 치명적인 숨결과 위협적인 발톱으로 공격합니다.", "_t")
@@ -661,15 +661,8 @@ t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
 t("Fanged Collar", "송곳니 목줄", "entity name")
 t("It's a head... but is it yours?", "머리인데... 이거 당신 머리 맞나요?", "_t")
--- new text
---[==[
-t("Bizarre Contraption", "Bizarre Contraption", "entity name")
-t("The Bizarre Contraption fully absorbs the blow (%0.2f damage absorbed).", "The Bizarre Contraption fully absorbs the blow (%0.2f damage absorbed).", "logSeen")
---]==]
-
--- old translated text
-t("Bizzare Contraption", "기묘한 장치", "entity name")
-t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "기묘한 장치가 공격을 완벽히 흡수했다 (%0.2f 피해 흡수됨).", "logSeen")
+t("Bizarre Contraption", "기묘한 장치", "entity name")
+t("The Bizarre Contraption fully absorbs the blow (%0.2f damage absorbed).", "기묘한 장치가 공격을 완벽히 흡수했다 (%0.2f 피해 흡수됨).", "logSeen")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
@@ -2345,23 +2338,8 @@ When he first heard of the plan to kill the gods, he volunteered eagerly to beco
 유라쉬는 본래 귀족으로, 쉐르'툴의 강대한 문명이 만들어 낸 온갖 즐거움과 오락거리를 모두 즐겨 본 사람이었다. 그는 멍하니 지내며, 극도로 무기력할 뿐만 아니라 주변의 세계에 대체로 관심이 없었다고 종종 묘사되었다. 투기장이 쉐르'툴 사회로 돌아오게 되자 그는 이내 그것에 매료되었다. 결국 그는 귀족의 삶을 포기하고 스스로 검투사가 되는 지경에 이르렀고, 그때부터 그는 투기장에서 가장 위대한 챔피언이 될 때까지 싸워나갔다. 
 
 그는 처음으로 신들을 죽일 계획에 대해 듣고는, 간절하게 신살자가 되길 자청했다. 그는 시라레이라는 검을 받았는데 그 검은 그가 투기장에서 휘둘렀던 유명한 검과 무척이나 흡사했다. 이후 신 사냥이 끝나자 그는 기꺼이 시라레이를 포기하고 투기장으로 돌아갔다. 그리고 어느 날 그는 어떤 경쟁자에게 살해당한 것으로 추정되었는데, 뒤늦게야 그의 경쟁자가 자신의 칼날에 독을 바르는 부정을 저질렀다는 것이 밝혀졌다. 그렇게 유라쉬는 사후 무패의 유라쉬라는 별명을 얻게 되었다.]], "_t")
--- new text
---[==[
-t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renowned for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renowned for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "_t")
+t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renowned for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "이유는 알 수 없지만 브란지르의 삶에 관한 문서들은 오늘날까지도 많이 남아 있다. 되풀이되는 이야기 속에서 그는 모종의 귀족 계급이었으며, 짐승들을 추적하고 죽이는 실력이 매우 뛰어난 사냥꾼이었지만 그는 순전히 스포츠로 사냥을 즐겼을 뿐이라 한다. 쉐르'툴 종족의 사전에 곤궁함이란 말은 없었기 때문에, 수많은 쉐르'툴들이 여유롭게 여가생활을 즐기는데 대부분의 시간을 바쳤으며 브란지르도 예외는 아니었다. 그에게는 강력한 검이 주어졌고 가차 없이 신들을 사냥했다. 오늘날까지 남아있는 기록에 따르면, 그는 적어도 두 명의 신들을 손수 성공적으로 살해했으며, 오늘날까지도 여전히 랄쿠르 신을 쫓고 있는 것으로 보인다.", "_t")
 t([[Harqel, according to myths, led a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
-
-Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
-
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[Harqel, according to myths, led a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
-
-Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
-
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], "_t")
---]==]
-
--- old translated text
-t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renown for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "이유는 알 수 없지만 브란지르의 삶에 관한 문서들은 오늘날까지도 많이 남아 있다. 되풀이되는 이야기 속에서 그는 모종의 귀족 계급이었으며, 짐승들을 추적하고 죽이는 실력이 매우 뛰어난 사냥꾼이었지만 그는 순전히 스포츠로 사냥을 즐겼을 뿐이라 한다. 쉐르'툴 종족의 사전에 곤궁함이란 말은 없었기 때문에, 수많은 쉐르'툴들이 여유롭게 여가생활을 즐기는데 대부분의 시간을 바쳤으며 브란지르도 예외는 아니었다. 그에게는 강력한 검이 주어졌고 가차 없이 신들을 사냥했다. 오늘날까지 남아있는 기록에 따르면, 그는 적어도 두 명의 신들을 손수 성공적으로 살해했으며, 오늘날까지도 여전히 랄쿠르 신을 쫓고 있는 것으로 보인다.", "_t")
-t([[Harqel, according to myths, lead a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
 
 Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
 
@@ -2822,7 +2800,7 @@ t("Tear holes in space and time to unleash devastating forces on your foes.", "�
 t("chronophage", "시간 포식", "talent type")
 t("Feast upon the ruined timelines of your enemies.", "적들의 파멸한 시간선을 먹어치웁니다.", "_t")
 t("scourge drake", "폐룡의 위상", "talent type")
-t("Take on the defining aspects of a Scourge Drake.", "황폐 드레이크의 본질을 취합니다.", "_t")
+t("Take on the defining aspects of a Scourge Drake.", "재앙 드레이크의 본질을 취합니다.", "_t")
 t("doom", "파멸", "talent type")
 t("Foretell the dire fate of your enemies.", "적들의 비참한 운명을 예언합니다.", "_t")
 t("prophecy", "예언", "talent type")
@@ -3001,8 +2979,6 @@ t([[While within range 3 of your Worm that Walks you can project an aura of terr
 		두 광기의 존재가 함께 싸우는 모습을 보고 반경 %d 칸 내의 모든 적들은 %d 턴 동안 기절합니다 %s.
 
 		추가로 시전자의 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게 하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다 %s.]], "tformat")
--- new text
---[==[
 t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
 		You can fully control, level, and equip it.
 		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
@@ -3014,33 +2990,7 @@ t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to 
 		Level 4:  Ring, Ring
 		Level 5:  Ring, Ring, Tool
 
-		To change your horror's equipment and talents, first transfer the equipment from your inventory and then take control of it.]], [[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
-		You can fully control, level, and equip it.
-		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
-		Higher raw talent levels will give your horror more equipment slots:
-
-		Level 1:  Mainhand, Offhand
-		Level 2:  Body
-		Level 3:  Belt
-		Level 4:  Ring, Ring
-		Level 5:  Ring, Ring, Tool
-
-		To change your horror's equipment and talents, first transfer the equipment from your inventory and then take control of it.]], "tformat")
---]==]
-
--- old translated text
-t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
-		You can fully control, level, and equip it.
-		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
-		Higher raw talent levels will give your horror more equipment slots:
-
-		Level 1:  Mainhand, Offhand
-		Level 2:  Body
-		Level 3:  Belt
-		Level 4:  Ring, Ring
-		Level 5:  Ring, Ring, Trinket
-
-		To change your horror's equipment and talents first transfer the equipment from your inventory then take control of it.]], [[공포체 걸어다니는 벌레떼와 우호적인 장기 계약을 맺어 함께 여행합니다.
+		To change your horror's equipment and talents, first transfer the equipment from your inventory and then take control of it.]], [[공포체 걸어다니는 벌레떼와 우호적인 장기 계약을 맺어 함께 여행합니다.
 		시전자는 벌레떼를 완전히 조종할 수 있으며, 벌레떼는 레벨 상승도 가능하고, 장비도 장착할 수 있습니다.
 		이 주문을 사용하면 죽어버린 걸어다니는 벌레떼를 %d%% 생명력으로 다시 일으킵니다.
 		이 기술에 투자한 기술 점수에 따라 벌레떼가 장비 칸을 추가로 획득합니다:
@@ -3073,20 +3023,10 @@ t([[When you make your pustules explode you leave a pool of defiled blood on the
 		오염된 피 속의 적들은 매 턴 검은 촉수들에게 습격당해 %d%%의 어둠 촉수 피해를 받으며, 2 턴 동안 시전자의 검은 피에 뒤덮입니다 %s.
 		검은 피에 뒤덮인 대상이 시전자를 공격하면 그 피해량의 %d%% 만큼 시전자의 생명력이 회복됩니다.
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
--- new text
---[==[
 t([[Each time your shed skin loses %d%% of its max power, or you take damage over 15%% of your maximum life, a black putrescent pustule grows on your body for 5 turns.
 		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
-		Resistance scales with your Spellpower.]], [[Each time your shed skin loses %d%% of its max power, or you take damage over 15%% of your maximum life, a black putrescent pustule grows on your body for 5 turns.
-		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
-		Resistance scales with your Spellpower.]], "tformat")
---]==]
-
--- old translated text
-t([[Each time your shed skin looses %d%% of its max power or you take damage over 15%% of your maximum life a black putrescent pustule grows on your body for 5 turns.
-		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
 		Resistance scales with your Spellpower.]], [[벗겨진 피부가 최대 피해 흡수량의 %d%% 피해를 흡수하거나, 한 번에 최대 생명력의 15%% 이상의 피해를 받을 경우, 고름으로 가득 찬 새까만 물집이 5 턴 동안 몸에서 자라납니다.
-		각 물집은 모든 속성 저항력을 %d%% 만큼 상승시킵니다. 물집은 최대 %d 개까지 자라납니다.
+		물집 하나마다 모든 속성 저항이 %d%% 상승합니다. 물집은 최대 %d 개까지 자라납니다.
 		저항력 증가량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -3322,17 +3262,7 @@ t([[Instantly consume what remains of your victim, healing yourself for %d life 
 		The life healed will increase with your Spellpower.]], [[집어삼킨 적을 즉시 소화시켜 생명력을 %d, 광기를 %d 회복합니다.
 			이 기술을 사용하면 집어삼키기의 재사용 대기시간이 초기화됩니다.
 		생명력 회복량은 주문력에 비례하여 증가합니다.]], "tformat")
--- new text
---[==[
 t([[Your stomach grows small tentacles inside which probe and torment your digested victim even more.
-		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
-		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[Your stomach grows small tentacles inside which probe and torment your digested victim even more.
-		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
-		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], "tformat")
---]==]
-
--- old translated text
-t([[Your stomatch grows small tentacles inside which probe and torment your digested victim even more.
 		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
 		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 뱃속의 적을 지켜보며 더욱 끔찍한 고통을 가합니다.
 		치명타 공격을 가하면 촉수들이 더 활발하게 움직이면서 적이 느끼는 고통을 시전자의 활력으로 바꾸어 줍니다.
@@ -3423,17 +3353,9 @@ t("%s resists!", "%s 저항했다!", "logSeen", nil, {"가"})
 t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#%s의 시간 분신#LAST#", "tformat")
 t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "대상과 흡사한 뒤틀린 상으로, 가능한 모든 미래의 모습을 담은 채로 흐릿하게 깜박거리고 있습니다.", "_t")
 t("Summon", "소환", "_t")
--- new text
---[==[
 t([[The target enemy will be partially removed from the normal flow of time for %d turns %s, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
-While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% of the target's life and deals %d%% damage.]], [[The target enemy will be partially removed from the normal flow of time for %d turns %s, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
-While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% of the target's life and deals %d%% damage.]], "tformat")
---]==]
-
--- old translated text
-t([[The target enemy will be partially removed from the normal flow of time for %d turns %s, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
-While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[적 하나를 지정하여 %d 턴 동안 시간의 흐름에서 부분적으로 지우고 %s, 이 세계와의 상호작용을 방해합니다. 대상이 받는 모든 피해량은 %d%% 로 감소하고, 대상이 가하는 모든 피해량도 %d%% 로 감소합니다.
-활성화 시, 찢겨진 대상의 시간선을 시간 분신으로 다시 자아내어 시전자의 편에서 싸우게 합니다. 분신의 유지시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 생명력은 %d%% 더 적으며 가하는 피해량은 원본의 %d%% 입니다.]], "tformat")
+While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% of the target's life and deals %d%% damage.]], [[적 하나를 지정하여 %d 턴 동안 시간의 흐름에서 부분적으로 지우고 %s, 이 세계와의 상호작용을 방해합니다. 대상이 받는 모든 피해량은 %d%% 로 감소하고, 대상이 가하는 모든 피해량도 %d%% 로 감소합니다.
+활성화 시, 찢겨진 대상의 시간선을 시간 분신으로 다시 자아내어 시전자의 편에서 싸우게 합니다. 분신의 유지시간은 이 기술의 지속시간과 같습니다. 분신은 대체적으로 원본과 동일하나 생명력은 원본의 %d%% 이며 가하는 피해량은 원본의 %d%% 입니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/void.lua"
@@ -4909,7 +4831,7 @@ Race features:#YELLOW#
 ------------------------------------------------
 section "tome-cults/overload/data/texts/unlock-wyrmic_scourge.lua"
 
-t("New Talent Category: #LIGHT_GREEN#Scourge Drake", "새로운 기술 계열: #LIGHT_GREEN#재앙 드레이크", "_t")
+t("New Talent Category: #LIGHT_GREEN#Scourge Drake", "새로운 기술 계열: #LIGHT_GREEN#폐룡의 위상", "_t")
 t([[Drakes are forces of Nature, the ultimate apex predators. But even they can be corrupted beyond hope.
 You have encountered the horror that came out of Kroltar, the mightiest wyrm, and vanquished it.
 
@@ -4923,7 +4845,7 @@ Talents:
 ]], [[드레이크들은 자연의 힘 그 자체이며, 궁극의 최상위 포식자들입니다. 하지만 그런 그들조차도 절망적인 지경까지 오염될 수 있습니다.
 당신은 가장 강력한 용인 크롤타에게서 나온 공포를 마주했고, 무찔렀습니다.
 
-따라서 지금부터 새로 생성된 용인 캐릭터들은 #LIGHT_GREEN#재앙 드레이크 기술#WHITE#을 배울 수 있고, 그들의 마법을 수련할 수 있습니다.
+따라서 지금부터 새로 생성된 용인 캐릭터들은 #LIGHT_GREEN#폐룡의 위상 기술 계열#WHITE#을 배울 수 있고, 그들의 마법을 수련할 수 있습니다.
 
 속한 기술들:
 - #YELLOW#촉수 날개: #WHITE#끈적한 촉수들로 적들을 눈앞으로 끌고 옵니다.
