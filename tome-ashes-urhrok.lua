@@ -802,6 +802,17 @@ t("Select a use for the %s charge(s):", "%s 중첩을 사용 시 발생하는 �
 t("Shield for %d damage (50%% reflect).", "%d 피해를 막습니다 (50%% 반사).", "tformat")
 t("Attack for #DARK_GREEN#%0.2f blight damage", "#DARK_GREEN#%0.2f 황폐 피해를 가합니다", "tformat")
 t("Restore #904010#%0.2f vim", "#904010#%0.2f 원기를 회복합니다", "tformat")
+t([[Each time you walk or move you gain a blight charge. You can store up to %d charges.
+		When you de-activate the talent you can use the charges to either:
+		- restore %0.2f vim per charge.
+		- deal %0.2f blight damage per charge to a target in range %d.
+		- create a shield absorbing %d damage per charge and reflecting half of it back to attackers.
+		The damage scales with your Spellpower.]], [[이동할 때마다 황폐 중첩을 얻습니다. 최대 %d 번 중첩됩니다.
+		시전자가 이 기술을 비활성화할 경우, 이 중첩들을 다음과 같이 사용할 수 있습니다.
+		- 중첩 당 %0.2f 원기 회복.
+		- 중첩 당 %0.2f 황폐 피해를 대상 주위 반경 %d 칸에 가함.
+		- 중첩 당 %d 피해를 막아내고, 피해량의 절반을 공격자에게 반사하는 방어막 생성.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Corrupt Light", "타락의 빛", "talent name")
 t([[Weave darkness in a radius of %d. All unlit grids contribute to your power by increasing all your damage done for %d turns.
 		Damage increase depends on the number of grids extinguished.]], [[반경 %d 칸 내에 어둠을 자아냅니다. 꺼져버린 불빛이 시전자의 힘의 일부가 되어 시전자가 가하는 모든 피해량이 %d 턴 동안 증가합니다.
@@ -944,22 +955,11 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		매 턴 화산은 %0.2f 화염 피해와 %0.2f 물리 피해를 주는 2 개의 불타는 암석을 분출합니다.
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t([[Each time you walk or move you gain a blight charge. You can store up to %d charges.
-		When you de-activate the talent you can use the charges to either:
-		- restore %0.2f vim per charge.
-		- deal %0.2f blight damage per charge to a target in range %d.
-		- create a shield absorbing %d damage per charge and reflecting half of it back to attackers.
-		The damage scales with your Spellpower.]], [[이동할 때마다 황폐 중첩을 얻습니다. 최대 %d 번 중첩됩니다.
-		시전자가 이 기술을 비활성화할 경우, 이 중첩들을 다음과 같이 사용할 수 있습니다.
-		- 중첩 당 %0.2f 원기 회복.
-		- 중첩 당 %0.2f 황폐 피해를 대상 주위 반경 %d 칸에 가함.
-		- 중첩 당 %d 피해를 막아내고, 피해량의 절반을 공격자에게 반사하는 방어막 생성.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-
 -- untranslated text
 --[==[
 t("", "", "log")
 --]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
