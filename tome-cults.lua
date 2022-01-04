@@ -653,16 +653,16 @@ t("Rags of the Sanctuary", "성역의 넝마", "entity name")
 t("rags", "넝마", "entity short_name")
 t("misc", "도구", "entity type")
 t("tool", "도구", "entity subtype")
+t("Bizarre Contraption", "기묘한 장치", "entity name")
 t("bizzare contraption", "기묘한 장치", "_t")
 t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "이 이상한 장치는 겉도 속도 모두 기계인 것 같지만, 그 부품 중 어떤 것도 어떻게 작동하는지 이해할 수가 없습니다. 옆면에는 가끔씩 이상한 소음을 내는 금속 격자 같은 게 달려 있습니다.", "_t")
 t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% 확률로 받은 공격을 완벽하게 흡수합니다. 이 효과는 30 턴의 재사용 대기시간이 있습니다.", "_t")
+t("The Bizarre Contraption fully absorbs the blow (%0.2f damage absorbed).", "기묘한 장치가 공격을 완벽히 흡수했다 (%0.2f 피해 흡수됨).", "logSeen")
 t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#전자기적 보호막 활성화. 실시간 생체 모니터링 개시.#{normal}#", "logPlayer")
 t("armor", "방어구", "entity type")
 t("head", "머리", "entity subtype")
 t("Fanged Collar", "송곳니 목줄", "entity name")
 t("It's a head... but is it yours?", "머리인데... 이거 당신 머리 맞나요?", "_t")
-t("Bizarre Contraption", "기묘한 장치", "entity name")
-t("The Bizarre Contraption fully absorbs the blow (%0.2f damage absorbed).", "기묘한 장치가 공격을 완벽히 흡수했다 (%0.2f 피해 흡수됨).", "logSeen")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
@@ -2277,6 +2277,7 @@ In the end, it was Caldizar who commanded the Sher'tul to slay Amakthel. It was 
 
 마침내 쉐르'툴들에게 아마크텔을 살해하라고 명령한 이는 칼디자르였다. 이 명령을 쉐르'툴 전부가 따랐던 것은 아니며, 사실 그들 중 다수가 공개적으로 이 명령을 비판했고 이것이 계급 간 갈등으로 이어졌다고 생각된다. 신 사냥이 끝난 이후 시기에는, 칼디자르는 고사하고 쉐르'툴에 대한 기록 자체가 없다. 그 누구도 이 종족이 어떻게 되었는지 확실히 알지 못한다. 에이알에 쉐르'툴 유적이 이상할 정도로 없다는 점도 눈에 띈다. 마치 거의 다 증발해 버린 것 같다.]], "_t")
 t("Mightier than Gods: Branzir", "신보다 강한 자들: 브란지르", "_t")
+t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renowned for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "이유는 알 수 없지만 브란지르의 삶에 관한 문서들은 오늘날까지도 많이 남아 있다. 되풀이되는 이야기 속에서 그는 모종의 귀족 계급이었으며, 짐승들을 추적하고 죽이는 실력이 매우 뛰어난 사냥꾼이었지만 그는 순전히 스포츠로 사냥을 즐겼을 뿐이라 한다. 쉐르'툴 종족의 사전에 곤궁함이란 말은 없었기 때문에, 수많은 쉐르'툴들이 여유롭게 여가생활을 즐기는데 대부분의 시간을 바쳤으며 브란지르도 예외는 아니었다. 그에게는 강력한 검이 주어졌고 가차 없이 신들을 사냥했다. 오늘날까지 남아있는 기록에 따르면, 그는 적어도 두 명의 신들을 손수 성공적으로 살해했으며, 오늘날까지도 여전히 랄쿠르 신을 쫓고 있는 것으로 보인다.", "_t")
 t("Mightier than Gods: Oslrey", "신보다 강한 자들: 오슬레이", "_t")
 t([[Oslrey the Wanderer was considered to be mythical even among the Sher'tul themselves. He spent most of his days wandering across the surface of Eyal, quietly observing the younger races as they emerged from barbarism. While most Sher'tul chose to stay away from what they saw to be the 'lesser' species, Oslrey took his time to walk among them and even speak with them. He carried a plain iron staff with him wherever he walked, an antiquated weapon which he cherished deeply.
 
@@ -2298,6 +2299,15 @@ From there, she outwitted the Gods numerous times, springing ambushes and herdin
 
 신 사냥에 나선 그녀는 한 수 앞선 전술로 수도 없이 신들을 농락했고, 매복을 이용해 그녀가 원하는 장소로 정확히 그들을 몰아갔다. 신들은 막강한 힘을 갖고 있었지만, 무르타스의 전술에 맞서기에는 교활함이 부족하여, 궁지에 몰린 채로 무기력한 동물처럼 도살당했다.]], "_t")
 t("Mightier than Gods: Harqel", "신보다 강한 자들: 하퀠", "_t")
+t([[Harqel, according to myths, led a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
+
+Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
+
+When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[신화에 따르면 하퀠은 불행하고 고통스러운 삶을 살았다고 전해진다. 신화 속에서 그는 조용하고, 굳건하며, 너그러운 자였는데, 그런 차분한 태도는 신살자가 되려는 자에게는 전혀 어울리지 않아 보였다. 이로 인해 그는 동료들로부터 수많은 박해를 당하게 되었는데, 동료들이 그에게 무슨 짓을 해도 그는 항상 동료들을 용서해 주었다. 그에게 어떤 일격이 쏟아지든, 어떤 끔찍한 상처를 입었든, 그는 항상 살아남았다. 신 사냥이 일어났을 때, 그는 신살자들과 함께 설 기회를 제공받았다. 처음에 그는 신들을 설득할 수 있을 거라 생각했지만, 신들의 무의미한 싸움에 의해 황폐화된 대지를 본 이후로 그런 것은 두 번 다시는 생각하지 않고 신 사냥의 대의에 전념했다. 
+
+그가 동의하자, 그를 위해서 위대한 방패 안브그레아가 만들어졌다. 그는 신들의 앞을 가로막고 그들의 힘에 도전했으며, 동요하지도 않았고 굽히지도 않았다. 타오르는 불길도, 얼어붙는 냉기와 썩어가는 황폐의 힘도, 살을 태우는 산성액도 그를 흔들지 못했으며 그의 전진을 멈출 수도 없었다. 그는 모두의 고통을 짊어지는 방패가 되었으며 그 덕분에 신살자들은 이 세상의 거대하고 무정한 신들을 처치할 수 있었다. 그 어떤 것도 하퀠과 그의 막강한 방패를 뚫을 수 없었다. 
+
+신 사냥이 끝나자 하퀠은 조용한 삶으로 돌아갔다. 살아남은 쉐르'툴들은 신살자들을 영웅으로 대접했고 그들은 모두 후한 보상을 받았지만, 하퀠은 그저 별들 속 어딘가에서 누구에게도 방해받지 않을 은신처를 요구했을 뿐이었다.]], "_t")
 t("Mightier than Gods: Frosat", "신보다 강한 자들: 프로사트", "_t")
 t([[The Sher'Tul were a people who possessed many exceptional individuals. The tale of Frosat is a mundane one compared to the other Godslayers. He was a scholar who spent most of his time reading, researching and teaching. The Library of Frosat was a fabled place of learning where he kept his large archives of knowledge he had accumulated over his life. Perhaps what was most notable about his career was his research into the nature of antropic power, the energy which only the Gods of Eyal possessed.
 
@@ -2338,16 +2348,6 @@ When he first heard of the plan to kill the gods, he volunteered eagerly to beco
 유라쉬는 본래 귀족으로, 쉐르'툴의 강대한 문명이 만들어 낸 온갖 즐거움과 오락거리를 모두 즐겨 본 사람이었다. 그는 멍하니 지내며, 극도로 무기력할 뿐만 아니라 주변의 세계에 대체로 관심이 없었다고 종종 묘사되었다. 투기장이 쉐르'툴 사회로 돌아오게 되자 그는 이내 그것에 매료되었다. 결국 그는 귀족의 삶을 포기하고 스스로 검투사가 되는 지경에 이르렀고, 그때부터 그는 투기장에서 가장 위대한 챔피언이 될 때까지 싸워나갔다. 
 
 그는 처음으로 신들을 죽일 계획에 대해 듣고는, 간절하게 신살자가 되길 자청했다. 그는 시라레이라는 검을 받았는데 그 검은 그가 투기장에서 휘둘렀던 유명한 검과 무척이나 흡사했다. 이후 신 사냥이 끝나자 그는 기꺼이 시라레이를 포기하고 투기장으로 돌아갔다. 그리고 어느 날 그는 어떤 경쟁자에게 살해당한 것으로 추정되었는데, 뒤늦게야 그의 경쟁자가 자신의 칼날에 독을 바르는 부정을 저질렀다는 것이 밝혀졌다. 그렇게 유라쉬는 사후 무패의 유라쉬라는 별명을 얻게 되었다.]], "_t")
-t("Branzir, for reasons unknown to us, appears to have plenty of surviving documents regarding his life. The recurring story was that he was nobility of some sort, a huntsman renowned for his ability to track and slay beasts, which he did purely for sport. The Sher'tul had no worry or need of any resource, so many of them dedicated most of their time to leisurely pursuits, Branzir being no exception. He was given a mighty blade and hunted the gods relentlessly. According to surviving records, he successfully slayed at least two gods by himself and is apparently still pursuing the god Ralkur to this day.", "이유는 알 수 없지만 브란지르의 삶에 관한 문서들은 오늘날까지도 많이 남아 있다. 되풀이되는 이야기 속에서 그는 모종의 귀족 계급이었으며, 짐승들을 추적하고 죽이는 실력이 매우 뛰어난 사냥꾼이었지만 그는 순전히 스포츠로 사냥을 즐겼을 뿐이라 한다. 쉐르'툴 종족의 사전에 곤궁함이란 말은 없었기 때문에, 수많은 쉐르'툴들이 여유롭게 여가생활을 즐기는데 대부분의 시간을 바쳤으며 브란지르도 예외는 아니었다. 그에게는 강력한 검이 주어졌고 가차 없이 신들을 사냥했다. 오늘날까지 남아있는 기록에 따르면, 그는 적어도 두 명의 신들을 손수 성공적으로 살해했으며, 오늘날까지도 여전히 랄쿠르 신을 쫓고 있는 것으로 보인다.", "_t")
-t([[Harqel, according to myths, led a life of hardship and misery. He was quiet, steadfast and forgiving in these stories, an entirely placid demeanor that seemed unfitting for a would-be Godslayer. This lead to him being mistreated numerous times by his peers, whom he always forgave no matter what they did to him. Regardless of what blows rained on him or what terrible wounds he suffered, he always survived. When the Godhunt occurred, he was approached and offered a chance to stand with the Godslayers. He thought at first that the gods could be reasoned with, but he saw the devastation wrought by their meaningless in-fighting. Without a second thought, he pledged himself to the cause.
-
-Upon agreeing, the great shield Anvgrea was forged for him. He stood before the gods and challenged their power, unfazed and unyielding. Scorching flames, freezing cold, rotting blight and burning acid did not faze him or stop his advance. He bore everyone's pain so that they might rid the world of these titanic, uncaring deities. Nothing ever went past him or his mighty shield.
-
-When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[신화에 따르면 하퀠은 불행하고 고통스러운 삶을 살았다고 전해진다. 신화 속에서 그는 조용하고, 굳건하며, 너그러운 자였는데, 그런 차분한 태도는 신살자가 되려는 자에게는 전혀 어울리지 않아 보였다. 이로 인해 그는 동료들로부터 수많은 박해를 당하게 되었는데, 동료들이 그에게 무슨 짓을 해도 그는 항상 동료들을 용서해 주었다. 그에게 어떤 일격이 쏟아지든, 어떤 끔찍한 상처를 입었든, 그는 항상 살아남았다. 신 사냥이 일어났을 때, 그는 신살자들과 함께 설 기회를 제공받았다. 처음에 그는 신들을 설득할 수 있을 거라 생각했지만, 신들의 무의미한 싸움에 의해 황폐화된 대지를 본 이후로 그런 것은 두 번 다시는 생각하지 않고 신 사냥의 대의에 전념했다. 
-
-그가 동의하자, 그를 위해서 위대한 방패 안브그레아가 만들어졌다. 그는 신들의 앞을 가로막고 그들의 힘에 도전했으며, 동요하지도 않았고 굽히지도 않았다. 타오르는 불길도, 얼어붙는 냉기와 썩어가는 황폐의 힘도, 살을 태우는 산성액도 그를 흔들지 못했으며 그의 전진을 멈출 수도 없었다. 그는 모두의 고통을 짊어지는 방패가 되었으며 그 덕분에 신살자들은 이 세상의 거대하고 무정한 신들을 처치할 수 있었다. 그 어떤 것도 하퀠과 그의 막강한 방패를 뚫을 수 없었다. 
-
-신 사냥이 끝나자 하퀠은 조용한 삶으로 돌아갔다. 살아남은 쉐르'툴들은 신살자들을 영웅으로 대접했고 그들은 모두 후한 보상을 받았지만, 하퀠은 그저 별들 속 어딘가에서 누구에게도 방해받지 않을 은신처를 요구했을 뿐이었다.]], "_t")
 
 ------------------------------------------------
 section "tome-cults/data/lore/misc.lua"
@@ -2958,27 +2958,6 @@ t("worm that walks (servant of %s)", "걸어다니는 벌레떼 (%s의 종)", "t
 t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
 t("Robe of the Worm (Improved)", "벌레의 로브 (강화됨)", "_t")
 t("Your friendly horror is not dead.", "우호적인 걸어다니는 벌레떼가 죽지 않았다.", "logPlayer")
-t("Foul Convergence", "역겨운 집합", "talent name")
-t("Your friendly horror is dead.", "당신의 걸어다니는 벌레떼가 죽었다.", "logPlayer")
-t("%s's teleport fizzles!", "%s의 순간이동이 실패했다!", "logSeen")
-t([[You and your Worm that Walks both teleport to an enemy in range %d and make a melee attack for %d%% damage.
-			Your Worm that Walks' Blindside talent cooldown is reduced by %d.]], [[시전자와 걸어다니는 벌레떼가 반경 %d 칸 내의 적의 옆으로 함께 순간이동하고 근접 공격을 가해 %d%% 피해를 줍니다.
-			걸어다니는 벌레떼의 '그림자 기습' 기술의 재사용 대기시간이 %d 턴 감소합니다.]], "tformat")
-t("Shared Insanity", "광기 공유", "talent name")
-t([[You establish a powerful mental link with your Worm that Walks.
-		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
-		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], [[걸어다니는 벌레떼와 강력한 정신 공유를 형성합니다.
-		걸어다니는 벌레떼 근처 3 칸 내에 있을 경우 5 턴 동안 둘 다 모든 저항이 %d%% 상승합니다.
-		추가로, 이 기술에 투자한 기술 점수 2 점 마다 걸어다니는 벌레떼는 추가적인 각인 슬롯을 하나 얻습니다. (현재 %d 개).]], "tformat")
-t("Terrible Sight", "무시무시한 광경", "talent name")
-t("You require your worm that walk to be alive and closeby.", "걸어다니는 벌레떼가 살아있는 채로 근처에 있어야 한다.", "logPlayer")
-t([[While within range 3 of your Worm that Walks you can project an aura of terror.
-		At the sight of two maddening horrors fighting together all your foes in radius %d will be stunned for %d turns %s.
-
-		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns %s.]], [[걸어다니는 벌레떼 근처 3 칸 내에 있을 경우 공포의 기운을 뿜어낼 수 있습니다.
-		두 광기의 존재가 함께 싸우는 모습을 보고 반경 %d 칸 내의 모든 적들은 %d 턴 동안 기절합니다 %s.
-
-		추가로 시전자의 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게 하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다 %s.]], "tformat")
 t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
 		You can fully control, level, and equip it.
 		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
@@ -3002,6 +2981,27 @@ t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to 
 		기술 점수 5 점:  반지, 반지, 도구
 
 		걸어다니는 벌레떼의 장비나 기술 상태를 바꾸려면 우선 장비를 벌레떼에게 넘기고, 벌레를 직접 조종해서 바꾸면 됩니다.]], "tformat")
+t("Foul Convergence", "역겨운 집합", "talent name")
+t("Your friendly horror is dead.", "당신의 걸어다니는 벌레떼가 죽었다.", "logPlayer")
+t("%s's teleport fizzles!", "%s의 순간이동이 실패했다!", "logSeen")
+t([[You and your Worm that Walks both teleport to an enemy in range %d and make a melee attack for %d%% damage.
+			Your Worm that Walks' Blindside talent cooldown is reduced by %d.]], [[시전자와 걸어다니는 벌레떼가 반경 %d 칸 내의 적의 옆으로 함께 순간이동하고 근접 공격을 가해 %d%% 피해를 줍니다.
+			걸어다니는 벌레떼의 '그림자 기습' 기술의 재사용 대기시간이 %d 턴 감소합니다.]], "tformat")
+t("Shared Insanity", "광기 공유", "talent name")
+t([[You establish a powerful mental link with your Worm that Walks.
+		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
+		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], [[걸어다니는 벌레떼와 강력한 정신 공유를 형성합니다.
+		걸어다니는 벌레떼 근처 3 칸 내에 있을 경우 5 턴 동안 둘 다 모든 저항이 %d%% 상승합니다.
+		추가로, 이 기술에 투자한 기술 점수 2 점 마다 걸어다니는 벌레떼는 추가적인 각인 슬롯을 하나 얻습니다. (현재 %d 개).]], "tformat")
+t("Terrible Sight", "무시무시한 광경", "talent name")
+t("You require your worm that walk to be alive and closeby.", "걸어다니는 벌레떼가 살아있는 채로 근처에 있어야 한다.", "logPlayer")
+t([[While within range 3 of your Worm that Walks you can project an aura of terror.
+		At the sight of two maddening horrors fighting together all your foes in radius %d will be stunned for %d turns %s.
+
+		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns %s.]], [[걸어다니는 벌레떼 근처 3 칸 내에 있을 경우 공포의 기운을 뿜어낼 수 있습니다.
+		두 광기의 존재가 함께 싸우는 모습을 보고 반경 %d 칸 내의 모든 적들은 %d 턴 동안 기절합니다 %s.
+
+		추가로 시전자의 광기 공유 효과는 반경 3 칸 내의 모든 적을 두려움에 떨게 하여, 3 턴 동안 주문 내성을 %d 낮추고 회피도를 %d 낮춥니다 %s.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/horrific-body.lua"
@@ -3013,6 +3013,11 @@ t([[You shed the outer layer of your mutated skin and empower it to act as a dam
 		보호막은 최대 %d 피해를 막아냅니다.
 		]], "tformat")
 t("Pustulent Growth", "고름으로 찬 성장", "talent name")
+t([[Each time your shed skin loses %d%% of its max power, or you take damage over 15%% of your maximum life, a black putrescent pustule grows on your body for 5 turns.
+		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
+		Resistance scales with your Spellpower.]], [[벗겨진 피부가 최대 피해 흡수량의 %d%% 피해를 흡수하거나, 한 번에 최대 생명력의 15%% 이상의 피해를 받을 경우, 고름으로 가득 찬 새까만 물집이 5 턴 동안 몸에서 자라납니다.
+		물집 하나마다 모든 속성 저항이 %d%% 상승합니다. 물집은 최대 %d 개까지 자라납니다.
+		저항력 증가량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Pustulent Fulmination", "고름 폭발", "talent name")
 t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "모든 물집을 한꺼번에 터뜨려, 반경 %d 칸 내의 모든 대상에게 물집 하나 당 %0.2f 어둠 피해를 주고 시전자의 생명력을 %0.1f 회복합니다.", "tformat")
 t("Defiled Blood", "오염된 피", "talent name")
@@ -3023,11 +3028,6 @@ t([[When you make your pustules explode you leave a pool of defiled blood on the
 		오염된 피 속의 적들은 매 턴 검은 촉수들에게 습격당해 %d%%의 어둠 촉수 피해를 받으며, 2 턴 동안 시전자의 검은 피에 뒤덮입니다 %s.
 		검은 피에 뒤덮인 대상이 시전자를 공격하면 그 피해량의 %d%% 만큼 시전자의 생명력이 회복됩니다.
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
-t([[Each time your shed skin loses %d%% of its max power, or you take damage over 15%% of your maximum life, a black putrescent pustule grows on your body for 5 turns.
-		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
-		Resistance scales with your Spellpower.]], [[벗겨진 피부가 최대 피해 흡수량의 %d%% 피해를 흡수하거나, 한 번에 최대 생명력의 15%% 이상의 피해를 받을 경우, 고름으로 가득 찬 새까만 물집이 5 턴 동안 몸에서 자라납니다.
-		물집 하나마다 모든 속성 저항이 %d%% 상승합니다. 물집은 최대 %d 개까지 자라납니다.
-		저항력 증가량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/madness.lua"
@@ -3255,6 +3255,11 @@ t([[The pain you inflict to the victim you are digesting is so intense something
 		빼앗은 기술을 사용할 때에는 별도의 원천력이 필요하지 않습니다.
 		]], "tformat")
 t("Inner Tentacles", "내면의 촉수", "talent name")
+t([[Your stomach grows small tentacles inside which probe and torment your digested victim even more.
+		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
+		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 뱃속의 적을 지켜보며 더욱 끔찍한 고통을 가합니다.
+		치명타 공격을 가하면 촉수들이 더 활발하게 움직이면서 적이 느끼는 고통을 시전자의 활력으로 바꾸어 줍니다.
+		이로 인해 3 턴 동안 20%% 확률로 시전자가 가하는 피해량의 %d%% 가 생명력으로 흡수됩니다.]], "tformat")
 t("Consume Whole", "소화", "talent name")
 t("You are not digesting a creature.", "당신은 적을 삼키고 있지 않다.", "logPlayer")
 t([[Instantly consume what remains of your victim, healing yourself for %d life and generating %d insanity.
@@ -3262,11 +3267,6 @@ t([[Instantly consume what remains of your victim, healing yourself for %d life 
 		The life healed will increase with your Spellpower.]], [[집어삼킨 적을 즉시 소화시켜 생명력을 %d, 광기를 %d 회복합니다.
 			이 기술을 사용하면 집어삼키기의 재사용 대기시간이 초기화됩니다.
 		생명력 회복량은 주문력에 비례하여 증가합니다.]], "tformat")
-t([[Your stomach grows small tentacles inside which probe and torment your digested victim even more.
-		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
-		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[위장에 작은 촉수들이 자라나서 뱃속의 적을 지켜보며 더욱 끔찍한 고통을 가합니다.
-		치명타 공격을 가하면 촉수들이 더 활발하게 움직이면서 적이 느끼는 고통을 시전자의 활력으로 바꾸어 줍니다.
-		이로 인해 3 턴 동안 20%% 확률로 시전자가 가하는 피해량의 %d%% 가 생명력으로 흡수됩니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/tentacles.lua"
