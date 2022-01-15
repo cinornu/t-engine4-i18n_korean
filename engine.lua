@@ -396,7 +396,7 @@ t("#LIGHT_BLUE#%s#WHITE# is one of the top ten race/class combo", "#LIGHT_BLUE#%
 t("There are currently %d people playing online", "현재 %d 명의 플레이어들이 온라인 상태에 있습니다", "tformat")
 t("The character's vault has registered a total of #RED#%d#WHITE# character's deaths", "캐릭터 보관소에는 총 #RED#%d#WHITE# 캐릭터의 죽음이 기록되어 있습니다", "tformat")
 t("The character's vault has registered a total of #LIGHT_BLUE#%d#WHITE# winners for the current version", "캐릭터 보관소에는 현재 버전의 승자가 #LIGHT_BLUE#%d#WHITE# 명 기록되어 있습니다", "tformat")
-t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "가장 최근 기부자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 기부자님들께 감사드립니다! 여러분이 이 게임에 생기를 불어넣고 있어요!", "tformat")
+t("The latest donator is #LIGHT_GREEN#%s#WHITE#. Many thanks to all donators, you are keeping this game alive!", "가장 최근 후원자는 #LIGHT_GREEN#%s#WHITE# 입니다. 모든 후원자님들께 감사드립니다! 여러분이 이 게임에 생기를 불어넣고 있어요!", "tformat")
 t("#LIGHT_RED#Online profile disabled(switching to offline profile) due to %s.", "#LIGHT_RED#%s 발생하여 온라인 프로필 비활성화(오프라인 프로필로 교체됨)", "log", nil, {"이"})
 
 ------------------------------------------------
@@ -502,7 +502,7 @@ Your Item Vault has #TEAL#%d slots#WHITE#.
 
 Again, thank you, and enjoy Eyal!
 
-#{italic}#Your malevolent local god of darkness, #GOLD#DarkGod#{normal}#]], [[기부를 해주셔서 #{bold}#정말 감사합니다#{normal}#. 여러분의 후원은 이 게임이 계속 살아남는 데에 큰 도움이 됩니다.
+#{italic}#Your malevolent local god of darkness, #GOLD#DarkGod#{normal}#]], [[후원해주셔서 #{bold}#정말 감사합니다#{normal}#. 여러분의 후원은 이 게임이 계속 살아남는 데에 큰 도움이 됩니다.
 
 당신의 후원액 총합은 #LIGHT_GREEN#%0.2f 유로#WHITE#, 다르게 말하면 #ROYAL_BLUE#%d 보라툰 코인#WHITE#으로 te4.org 에서 사용이 가능합니다.
 당신의 아이템 금고는 총 #TEAL#%d 칸#WHITE#입니다.
@@ -1052,7 +1052,7 @@ Thanks, and have fun!]], [[어서 오세요!
 결제를 통해 무엇이 가능한지 설명드리겠습니다:
 - #GOLD#치장#LAST#: 이미 게임에 있는 종족 별 설정이나 아이템에 더해서, 새롭게 추가되는 순수한 치장용 아이템이나 스킨을 사용해 당신의 캐릭터를 더 멋지게 만들 수 있어요!
 - #GOLD#Pay 2 DIE#LAST#: 당신의 캐릭터에 질리셨나요? 이 기능으로 죽이세요!
-- #GOLD#금고 공간#LAST#: 기부하신 분들을 위하여, 그분들은 지금까지 해 온 모든 "쓸데없는" 기부를 통해서 온라인에 있는 금고 칸을 더 확장시킬 수 있어요.
+- #GOLD#금고 공간#LAST#: 후원하신 분들을 위하여, 그분들은 지금까지 해 온 모든 "쓸데없는" 후원을 통해서 온라인에 있는 금고 칸을 더 확장시킬 수 있어요.
 - #GOLD#커뮤니티 이벤트#LAST#: 가끔씩 서버에 의해 온라인 이벤트가 자동적으로, 또 무작위하게 일어납니다. 이 기능을 사용하시면 그런 이벤트 중 하나를 직접 여실 수가 있습니다. 이렇게 되면 현재 접속 중인 모든 유저분들도 똑같은 이벤트를 즐길 수 있답니다!
 
 제 의도가 사악하지 않다는 걸 충분히 이해하셨길 바랍니다 (아이러니하게도 저는 DarkGod이지만요 ;)). 비록 점잖은 수준이긴 합니다만, 소액 결제를 도입하는 것을 스스로도 추잡하다고 느끼고 있습니다. 하지만 저는 이 게임의 미래를 보장할 방법을 어떻게든 찾고 싶습니다.
@@ -1065,9 +1065,9 @@ t("#{italic}##UMBER#Bonus vault slots from this order: #ROYAL_BLUE#%d#{normal}#"
 t([[For every purchase of #{italic}##GREY#%s#LAST##{normal}# you gain a permanent additional vault slot.
 #GOLD##{italic}#Because why not!#{normal}#]], [[#{italic}##GREY#%s#LAST##{normal}# 구매할 때마다 금고 공간이 영구적으로 하나 증가합니다.
 #GOLD##{italic}#마땅히 그래야 하겠죠!#{normal}#]], "_t", nil, {"를"})
-t("#{italic}##UMBER#Voratun Coins available from your donations: #ROYAL_BLUE#%d#{normal}#", "#{italic}##UMBER#다음 기부에 의한 보라툰 코인 획득: #ROYAL_BLUE#%d#{normal}#", "_t")
+t("#{italic}##UMBER#Voratun Coins available from your donations: #ROYAL_BLUE#%d#{normal}#", "#{italic}##UMBER#후원한 대가로 사용 가능한 보라툰 코인: #ROYAL_BLUE#%d#{normal}#", "_t")
 t([[For every donations you've ever made you have earned voratun coins. These can be spent purchasing expansions or options on the online store. This is the amount you have left, if your purchase total is below this number you'll instantly get your purchase validated, if not you'll need to donate some more first.
-#GOLD##{italic}#Thanks for your support, every little bit helps the game survive for years on!#{normal}#]], [[기부한 내역에 따라서 보라툰 코인을 얻습니다. 온라인 스토어에서 DLC나 추가 상품을 구매할 때 사용할 수 있습니다. 이 수치는 현재 소유한 코인의 개수입니다. 구입할 때 소모 합계가 이 수치보다 낮은 경우, 구매가 확정됩니다. 부족할 때는 추가로 기부해 주세요.
+#GOLD##{italic}#Thanks for your support, every little bit helps the game survive for years on!#{normal}#]], [[후원을 할 때마다 보라툰 코인을 얻습니다. 온라인 스토어에서 DLC나 추가 상품을 구매할 때 사용할 수 있습니다. 이 수치는 현재 소유한 코인의 개수입니다. 구입할 때 소모 합계가 이 수치보다 낮은 경우, 구매가 확정됩니다. 부족할 때는 조금 더 후원해 주세요.
 #GOLD##{italic}#도와주셔서 감사합니다. 덕분에 게임이 계속해서 개발될 겁니다!#{normal}#]], "_t")
 t("%s #GOLD#Online Store#LAST#", "%s #GOLD#온라인 상점#LAST#", "tformat")
 t("#YELLOW#-- connecting to server... --", "#YELLOW#-- 서버에 접속 중... --", "_t")
@@ -1080,7 +1080,7 @@ t("You need to be logged in before using the store. Please go back to the main m
 t("Steam users need to link their profiles to their steam account. This is very easy in just a few clicks. Once this is done, simply restart the game.", "Steam 유저는 프로필을 Steam 계정과 연동하셔야 합니다. 클릭 몇 번으로 끝나는 쉬운 절차입니다. 연동하셨다면 게임을 재시작해 주시기 바랍니다.", "_t")
 t("Let's do it! (Opens in your browser)", "연동하기 (인터넷 브라우저로 열림)", "_t")
 t("Not now", "나중에", "_t")
-t("The Online Store (and expansions) are only purchasable by players that bought the game. Plaese go have a look at the donation page for more explanations.", "온라인 상점(그리고 확장팩)은 이 게임을 구입하신 분만 이용하실 수 있습니다. 자세한 설명을 원하신다면 기부 페이지를 확인해 주세요.", "_t")
+t("The Online Store (and expansions) are only purchasable by players that bought the game. Plaese go have a look at the donation page for more explanations.", "온라인 상점(그리고 확장팩)은 이 게임을 구입하신 분만 이용하실 수 있습니다. 자세한 설명을 원하신다면 후원 페이지를 확인해 주세요.", "_t")
 t("Let's go! (Opens in your browser)", "이동! (브라우저에서 열림)", "_t")
 t("%d coins", "코인 %d", "tformat")
 t("#{bold}#TOTAL#{normal}#", "#{bold}#총합#{normal}#", "_t")
@@ -1110,7 +1110,7 @@ t("Connecting to server", "서버에 접속 중", "_t")
 t("Please wait...", "기다려 주세요...", "_t")
 t("You have enough coins to instantly purchase those options. Confirm?", "이 기능을 구매할 수 있는 코인을 보유하고 있습니다. 구매하시겠습니까?", "_t")
 t("Cancel", "취소", "_t")
-t("You need %s more coins to purchase those options. Do you want to go to the donation page now?", "구매에는 %s 코인이 더 필요합니다. 기부 페이지로 이동하시겠습니까?", "tformat")
+t("You need %s more coins to purchase those options. Do you want to go to the donation page now?", "구매에는 %s 코인이 더 필요합니다. 후원 페이지로 이동하시겠습니까?", "tformat")
 t([[#{bold}##GOLD#Community Online Event#WHITE##{normal}#: Once you have purchased a community event you will be able to trigger it at any later date, on whichever character you choose.
 Community events once triggered will activate for #{bold}#every player currently logged on#{normal}# including yourself. Every player receiving it will know you sent it and thus that you are to thank for it.
 To activate it you will need to have your online events option set to "all" (which is the default value).]], [[#{bold}##GOLD#커뮤니티 온라인 이벤트#WHITE##{normal}#: 커뮤니티 이벤트 구매 후, 원하시는 때, 원하는 캐릭터로 이벤트를 발생시킬 수 있습니다.
@@ -1472,11 +1472,11 @@ This is all optional, you are not forced to use this feature at all, but the dev
 * 킬, 데스, 많이 플레이한 클래스 등에 대한 수치 기록
 * 게임 플레이 스타일 향상을 위한 멋진 통계 기능
 * 공식 확장팩이나 서드파티 모드를 인게임에서 인스톨
-* 게임을 구매하셨거나, 돈을 기부하셨다면 구매자/기부자 보너스를 다음 주소에서 확인해 보세요: https://te4.org/
+* 게임을 구매하셨거나, 후원하셨다면 구매자/후원자 보너스를 다음 주소에서 확인해 보세요: https://te4.org/
 * 개발자에게 게임 밸런스 조절이나 개선점에 대해 조언하기
 
 #LIGHT_BLUE#https://te4.org/#LAST# 사이트에서 친구들에게 과시할 수 있는 유저 페이지를 가지고 계십니다.
-이 모든 것은 선택적이며, 이 모든 기능을 꼭 이용하셔야 하는 것은 아닙니다만 이 기능들을 사용해 주시면 밸런싱이 쉬워지기 때문에 개발자로서는 사용해 주시면 감사할따름입니다.]], "_t")
+이 모든 것은 선택적이며, 이 모든 기능을 꼭 이용하셔야 하는 것은 아닙니다만 이 기능들을 사용해 주시면 밸런싱이 쉬워지기 때문에 개발자로서는 사용해 주시면 감사할 따름입니다.]], "_t")
 t("Logging in...", "로그인 중...", "_t")
 t("Please wait...", "기다려 주세요...", "_t")
 t("Profile logged in!", "프로필 로그인!", "_t")
@@ -1629,7 +1629,7 @@ t("Version", "버전", "_t")
 t("Addon", "애드온", "_t")
 t("Active", "켜짐", "_t")
 t("#GREY#Developer tool", "#GREY#개발자 도구", "_t")
-t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#기부자 상태: 꺼짐", "_t")
+t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#후원자 상태: 꺼짐", "_t")
 t("#LIGHT_GREEN#Manual: Active", "#LIGHT_GREEN#수동 조작: 켜짐", "_t")
 t("#LIGHT_RED#Manual: Disabled", "#LIGHT_RED#수동 조작: 꺼짐", "_t")
 t("#LIGHT_GREEN#Auto: Active", "#LIGHT_GREEN#자동 조작: 켜짐", "_t")
@@ -1687,7 +1687,7 @@ If you disable this option you can always re-activate it in the Online category 
 - 캐릭터 페이지: 캐릭터의 진행 로그를 업로드할 수 없게 되어 영광의 궤적을 보여줄 수 없게 됩니다
 - 아이템 금고: 아이템 금고에 접속할 수 없게 됩니다. 아이템을 꺼낼 수도, 보관할 수도 없게 됩니다
 - 인게임 채팅: 인게임 채팅은 다른 사람들과 대화하기 위해 온라인 연결을 필요로 합니다. 고로 할 수 없게 됩니다
-- 구매자 / 기부자 혜택: 기본 게임은 무료이기 때문에 기부자나 구매자에게 보너스를 주기 위해서는 온라인 프로필을 확인해야 합니다. 고로 혜택을 받으실 수 없게 됩니다.
+- 구매자 / 후원자 혜택: 기본 게임은 무료이기 때문에 후원자나 구매자에게 보너스를 주기 위해서는 온라인 프로필을 확인해야 합니다. 고로 혜택을 받으실 수 없게 됩니다.
 - 애드온의 쉬운 다운로드 및 설치: 사용할 수 있는 애드온 리스트를 인게임에서 확인할 수 없게 되며, 한 번의 클릭으로 설치하는 것도 할 수 없게 됩니다. 이 모든 것을 수동으로 하셔야 합니다.
 - 버전 체크: 애드온 업데이트를 확인할 수 없게 됩니다.
 - Discord: Discord를 사용하고 계신다면 Rich Presence 기능을 사용할 수 없게 됩니다.

@@ -84,7 +84,7 @@ This is all optional, you are not forced to use this feature at all, but the dev
 * 킬, 데스, 많이 플레이한 클래스 등에 대한 수치 기록
 * 게임 플레이 스타일 향상을 위한 멋진 통계 기능
 * 공식 확장팩이나 서드파티 모드를 인게임에서 인스톨
-* 게임을 구매하셨거나, 돈을 기부하셨다면 구매자/기부자 보너스를 다음 주소에서 확인해 보세요: https://te4.org/
+* 게임을 구매하셨거나, 후원을 하셨다면 구매자/후원자 보너스를 다음 주소에서 확인해 보세요: https://te4.org/
 * 개발자에게 게임 밸런스 조절이나 개선점에 대해 조언하기
 
 #LIGHT_BLUE#https://te4.org/#LAST# 사이트에서 친구들에게 과시할 수 있는 유저 페이지를 가지고 계십니다.
@@ -241,7 +241,7 @@ t("Version", "버전", "_t")
 t("Addon", "애드온", "_t")
 t("Active", "켜짐", "_t")
 t("#GREY#Developer tool", "#GREY#개발자 도구", "_t")
-t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#기부자 상태: 꺼짐", "_t")
+t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#후원자 상태: 꺼짐", "_t")
 t("#LIGHT_GREEN#Manual: Active", "#LIGHT_GREEN#수동 조작: 켜짐", "_t")
 t("#LIGHT_RED#Manual: Disabled", "#LIGHT_RED#수동 조작: 꺼짐", "_t")
 t("#LIGHT_GREEN#Auto: Active", "#LIGHT_GREEN#자동 조작: 켜짐", "_t")
@@ -299,7 +299,7 @@ If you disable this option you can always re-activate it in the Online category 
 - 캐릭터 페이지: 캐릭터의 진행 로그를 업로드할 수 없게 되어 영광의 궤적을 보여줄 수 없게 됩니다
 - 아이템 금고: 아이템 금고에 접속할 수 없게 됩니다. 아이템을 꺼낼 수도, 보관할 수도 없게 됩니다
 - 인게임 채팅: 인게임 채팅은 다른 사람들과 대화하기 위해 온라인 연결을 필요로 합니다. 고로 할 수 없게 됩니다
-- 구매자 / 기부자 혜택: 기본 게임은 무료이기 때문에 기부자나 구매자에게 보너스를 주기 위해서는 온라인 프로필을 확인해야 합니다. 고로 혜택을 받으실 수 없게 됩니다.
+- 구매자 / 후원자 혜택: 기본 게임은 무료이기 때문에 후원자나 구매자에게 보너스를 주기 위해서는 온라인 프로필을 확인해야 합니다. 고로 혜택을 받으실 수 없게 됩니다.
 - 애드온의 쉬운 다운로드 및 설치: 사용할 수 있는 애드온 리스트를 인게임에서 확인할 수 없게 되며, 한 번의 클릭으로 설치하는 것도 할 수 없게 됩니다. 이 모든 것을 수동으로 하셔야 합니다.
 - 버전 체크: 애드온 업데이트를 확인할 수 없게 됩니다.
 - Discord: Discord를 사용하고 계신다면 Rich Presence 기능을 사용할 수 없게 됩니다.

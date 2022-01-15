@@ -48,12 +48,12 @@ I, DarkGod, the maker of this game want to personaly thank all donators because 
 다른 우주에 존재하는 모든 캐릭터들 또한 여기에 접근할 수 있습니다.
 유효한 게임 버전의 아이템만 보관할 수 있습니다.*#WHITE#
 
-#GOLD#기부자 전용 기능#ANCIENT_WHITE#: 아이템을 서버에 저장할 수 있습니다. 기부자만 이 기능을 사용할 수 있으며 아이템 금고의 크기는 기부자의 도량에 따라 달라집니다.
-이 게임의 제작자인 나 DarkGod은 모든 기부자분들께 개인적으로 감사드립니다. 즐겨주세요!]], "_t")
+#GOLD#후원자 전용 기능#ANCIENT_WHITE#: 아이템을 서버에 저장할 수 있습니다. 후원자만 이 기능을 사용할 수 있으며 아이템 금고의 크기는 후원자의 도량에 따라 달라집니다.
+이 게임을 만든 저 DarkGod은 모든 후원자분들께 개인적으로 감사드립니다. 재밌게 즐기세요!]], "_t")
 t("\
 #CRIMSON#Note for Steam Players#ANCIENT_WHITE#: This feature requires you to have registered a profile & bound it to steam (automatic if you register ingame) because it needs to store things on the server.\
 Until you do so you will get an error.", "\
-#CRIMSON#스팀 플레이어들을 위한 메모#ANCIENT_WHITE#: 이 기능은 서버에 데이터를 저장해야하기 때문에 계정을 스팀에 연동해야만 합니다. (게임 내에 프로필을 등록 시 자동으로 연동됩니다.) \
+#CRIMSON#Steam 플레이어들을 위한 메모#ANCIENT_WHITE#: 이 기능은 서버에 데이터를 저장해야 하기 때문에 계정을 Steam에 연동해야만 합니다. (게임 내에 프로필을 등록 시 자동으로 연동됩니다.) \
 연동하기 전까진 오류가 발생할 수 있습니다.", "_t")
 t("[Place an item in the vault]", "[금고에 아이템 보관하기]", "_t")
 t("Item's Vault", "아이템 금고", "_t")
@@ -62,7 +62,7 @@ t("Place an item in the Item's Vault", "금고에 아이템을 보관하기.", "
 t("Caution", "경고", "_t")
 t("Continue?", "계속하시겠습니까?", "_t")
 t("[Retrieve an item from the vault]", "[금고에서 아이템을 찾아오기.]", "_t")
-t("#GOLD#I wish to help the funding of this game and donate#WHITE#", "#GOLD#나는 이 게임에 도움을 주기 위해 기부를 하고 싶다#WHITE#", "_t")
+t("#GOLD#I wish to help the funding of this game and donate#WHITE#", "#GOLD#나는 이 게임에 도움을 주기 위해 후원을 하고 싶다#WHITE#", "_t")
 t("[Leave the orb alone]", "[오브를 두고 떠난다]", "_t")
 
 ------------------------------------------------
@@ -82,7 +82,7 @@ section "tome-items-vault/overload/mod/class/ItemsVaultDLC.lua"
 t("the #GOLD#Item's Vault#WHITE#", "#GOLD#아이템 금고#WHITE#", "_t")
 t("\
 #CRIMSON#This item has been sent to the Item's Vault.", "\
-#CRIMSON#아이템이 금고로 전송되었습니다", "_t")
+#CRIMSON#이 아이템은 금고로 전송되었던 것입니다.", "_t")
 t("Transfering...", "전송 중...", "_t")
 t("Teleporting object to the vault, please wait...", "물건을 금고로 전이시키는 중입니다. 잠시만 기다려주세요...", "_t")
 t("unknown reason", "알 수 없는 이유", "_t")
@@ -93,8 +93,8 @@ t("#LIGHT_BLUE#You transfer %s to the offline item's vault.", "#LIGHT_BLUE#%s �
 t("Teleporting object from the vault, please wait...", "금고에서 물건을 전이시켜 오는 중입니다. 잠시만 기다려주세요...", "_t")
 t("Transfer failed", "전송 실패", "_t")
 t([[This item comes from a previous version and would not work in your current game.
-To prevent the universe from imploding the item was not transfered from the vault.]], [[이 아이템은 이전 버전 혹은 현재 게임에서 작동하지 않습니다.
-우주가 아이템을 파괴할 수 있으므로 금고에서 아이템을 옮겨오지 않았습니다.]], "_t")
+To prevent the universe from imploding the item was not transfered from the vault.]], [[이 아이템은 이전 버전의 것이며 현재 게임에서는 작동하지 않습니다.
+우주가 이 아이템을 파괴할 수 있으므로 금고에서 가져오지 않았습니다.]], "_t")
 t("Item's Vault", "아이템 금고", "_t")
 t("Checking item's vault list, please wait...", "아이템 금고 목록을 확인하는 중입니다. 잠시만 기다려주세요...", "_t")
 
@@ -133,6 +133,6 @@ t("#LIGHT_RED#In less than one minute", "#LIGHT_RED#1분 이내", "_t")
 t("#LIGHT_RED#In %d minutes", "#LIGHT_RED#%d분 내", "tformat")
 t("Cooldown", "대기 시간", "_t")
 t("This item has been placed recently in the vault, you must wait a bit before removing it.", "이 아이템은 보관된지 얼마 지나지 않았으므로, 아직 제거할 수 없습니다.", "_t")
-t("#LIGHT_BLUE#You transfer %s from the offline item's vault.", "#LIGHT_BLUE#%s 오프라인 아이템 금고로 전송했습니다.", "log", nil, {"를"})
-t("#LIGHT_RED#Error while transfering from the offline item's vault, please retry later.", "#LIGHT_RED#온라인 아이템 금고로 전송하는 도중에 오류가 발생했습니다. 다시 시도해주세요.", "log")
+t("#LIGHT_BLUE#You transfer %s from the offline item's vault.", "#LIGHT_BLUE#%s 오프라인 아이템 금고에서 전송받았습니다.", "log", nil, {"를"})
+t("#LIGHT_RED#Error while transfering from the offline item's vault, please retry later.", "#LIGHT_RED#오프라인 아이템 금고에서 전송받는 도중에 오류가 발생했습니다. 다시 시도해주세요.", "log")
 
